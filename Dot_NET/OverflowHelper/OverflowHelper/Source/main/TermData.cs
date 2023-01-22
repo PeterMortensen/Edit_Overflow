@@ -923,6 +923,7 @@ namespace OverflowHelper.core
 
             correctionAdd("bacame", "became");
 
+            // Alternative URL: <https://github.com/rails/execjs>
             correctionAdd("execjs", "ExecJS");
 
             correctionAdd("SO", "Stack&nbsp;Overflow");
@@ -1103,18 +1104,21 @@ namespace OverflowHelper.core
             correctionAdd("full stackoverflow developer", "full Stack Overflow developer");
             correctionAdd("Full stack overflow developer", "full Stack Overflow developer");
 
-            correctionAdd("stackapps", "Stack&nbsp;Apps");
-            correctionAdd("stack apps", "Stack&nbsp;Apps");
-            correctionAdd("Stack Apps", "Stack&nbsp;Apps");
-            correctionAdd("StackApps", "Stack&nbsp;Apps");
-            correctionAdd("StackApp", "Stack&nbsp;Apps");
-            correctionAdd("Stack App", "Stack&nbsp;Apps");
+            // Sample: [edit] in a comment (no need to
+            //         specify the exact post ID)
+            correctionAdd("magic links", "Stack Exchange magic links");
 
-            correctionAdd("SEDE", "Stack Exchange Data Explorer");
-            correctionAdd("sede", "Stack Exchange Data Explorer");
-            correctionAdd("data explorer", "Stack Exchange Data Explorer");
-            correctionAdd("Data Explorer", "Stack Exchange Data Explorer");
-            correctionAdd("StackExchange DataExplorer", "Stack Exchange Data Explorer");
+            correctionAdd("RSS feeds", "Stack Exchange RSS feeds");
+
+            // Sample: 'current' in a URL (no need to
+            //         specify the exact user ID)
+            correctionAdd("user profile", "Stack Exchange user profile");
+
+            // For Stack Exchange accounts
+            correctionAdd("deleted answers", "see deleted answers");
+
+            // For Stack Exchange accounts
+            correctionAdd("deleted questions", "see deleted questions");
 
             correctionAdd("stack snippets", "Stack Snippets");
             correctionAdd("StackSnippets", "Stack Snippets");
@@ -1180,6 +1184,37 @@ namespace OverflowHelper.core
             correctionAdd("SO jobs", "Stack Overflow Jobs");
 
             correctionAdd("hate fun", "Stack Overflow hates fun");
+
+            //
+            //  Start of Stack Exchange site list (not
+            //  complete (only added on demand))
+            //
+            correctionAdd("SEDE", "Stack Exchange Data Explorer");
+            correctionAdd("sede", "Stack Exchange Data Explorer");
+            correctionAdd("data explorer", "Stack Exchange Data Explorer");
+            correctionAdd("Data Explorer", "Stack Exchange Data Explorer");
+            correctionAdd("StackExchange DataExplorer", "Stack Exchange Data Explorer");
+
+            correctionAdd("area51", "Area&nbsp;51 (Stack Exchange site)");
+            correctionAdd("Area 51", "Area&nbsp;51 (Stack Exchange site)");
+            correctionAdd("Area51", "Area&nbsp;51 (Stack Exchange site)");
+            correctionAdd("A51", "Area&nbsp;51 (Stack Exchange site)");
+            correctionAdd("area 51", "Area&nbsp;51 (Stack Exchange site)");
+            correctionAdd("AREA 51", "Area&nbsp;51 (Stack Exchange site)");
+            correctionAdd("Arae51", "Area&nbsp;51 (Stack Exchange site)");
+            correctionAdd("a51", "Area&nbsp;51 (Stack Exchange site)");
+            correctionAdd("Area-51", "Area&nbsp;51 (Stack Exchange site)");
+            correctionAdd("area-51", "Area&nbsp;51 (Stack Exchange site)");
+            correctionAdd("Area 51 (Stack Exchange site)", "Area&nbsp;51 (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("Area&nbsp;51", "Area&nbsp;51 (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("area51.SE", "Area&nbsp;51 (Stack Exchange site)");
+
+            correctionAdd("stackapps", "Stack&nbsp;Apps");
+            correctionAdd("stack apps", "Stack&nbsp;Apps");
+            correctionAdd("Stack Apps", "Stack&nbsp;Apps");
+            correctionAdd("StackApps", "Stack&nbsp;Apps");
+            correctionAdd("StackApp", "Stack&nbsp;Apps");
+            correctionAdd("Stack App", "Stack&nbsp;Apps");
 
             correctionAdd("serverfault", "Server&nbsp;Fault");
             correctionAdd("SF", "Server&nbsp;Fault");
@@ -1272,20 +1307,6 @@ namespace OverflowHelper.core
             correctionAdd("Computational Science SE", "Computational Science (Stack Exchange site)");
             correctionAdd("Computational Science", "Computational Science (Stack Exchange site)"); // Sort of identity mapping
 
-            correctionAdd("area51", "Area&nbsp;51 (Stack Exchange site)");
-            correctionAdd("Area 51", "Area&nbsp;51 (Stack Exchange site)");
-            correctionAdd("Area51", "Area&nbsp;51 (Stack Exchange site)");
-            correctionAdd("A51", "Area&nbsp;51 (Stack Exchange site)");
-            correctionAdd("area 51", "Area&nbsp;51 (Stack Exchange site)");
-            correctionAdd("AREA 51", "Area&nbsp;51 (Stack Exchange site)");
-            correctionAdd("Arae51", "Area&nbsp;51 (Stack Exchange site)");
-            correctionAdd("a51", "Area&nbsp;51 (Stack Exchange site)");
-            correctionAdd("Area-51", "Area&nbsp;51 (Stack Exchange site)");
-            correctionAdd("area-51", "Area&nbsp;51 (Stack Exchange site)");
-            correctionAdd("Area 51 (Stack Exchange site)", "Area&nbsp;51 (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Area&nbsp;51", "Area&nbsp;51 (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("area51.SE", "Area&nbsp;51 (Stack Exchange site)");
-
             correctionAdd("Physical Fitness", "Physical Fitness (Stack Exchange site)");
 
             correctionAdd("Computer Graphics", "Computer Graphics (Stack Exchange site)");
@@ -1367,6 +1388,7 @@ namespace OverflowHelper.core
             correctionAdd("Linux & Unix", "Unix & Linux (Stack Exchange site)");
             correctionAdd("the Unix site", "Unix & Linux (Stack Exchange site)");
             correctionAdd("unix/linux", "Unix & Linux (Stack Exchange site)");
+            correctionAdd("unix.stackexchange.com", "Unix & Linux (Stack Exchange site)");
 
             correctionAdd("Expatriates", "Expatriates (Stack Exchange site)");
             correctionAdd("expatriates", "Expatriates (Stack Exchange site)");
@@ -1413,6 +1435,7 @@ namespace OverflowHelper.core
             correctionAdd("Apple SE", "Ask Different (Stack Exchange site)");
             correctionAdd("Ask Different", "Ask Different (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("AskDifferent", "Ask Different (Stack Exchange site)");
+            correctionAdd("apple.stackexchange.com", "Ask Different (Stack Exchange site)");
 
             correctionAdd("retrocomputing", "Retrocomputing (Stack Exchange site)");
             correctionAdd("retro computing", "Retrocomputing (Stack Exchange site)");
@@ -1430,6 +1453,7 @@ namespace OverflowHelper.core
             correctionAdd("game dev", "Game Development (Stack Exchange site)");
             correctionAdd("Game Dev", "Game Development (Stack Exchange site)");
             correctionAdd("GameDev", "Game Development (Stack Exchange site)");
+            correctionAdd("gamedev.stackexchange.com", "Game Development (Stack Exchange site)");
 
             correctionAdd("skeptics", "Skeptics (Stack Exchange site)");
             correctionAdd("Skeptics", "Skeptics (Stack Exchange site)");
@@ -1843,6 +1867,8 @@ namespace OverflowHelper.core
             correctionAdd("Mint", "Linux Mint");
             correctionAdd("LinuxMint", "Linux Mint");
             correctionAdd("Linuxmint", "Linux Mint");
+
+            correctionAdd("Maya", "Linux Mint 13 (Maya)");
 
             correctionAdd("chrubuntu", "ChrUbuntu");
 
@@ -4661,11 +4687,43 @@ namespace OverflowHelper.core
 
             correctionAdd("hadook", "Captain Haddock");
 
+            correctionAdd("hava", "have");
+            correctionAdd("Hvae", "have");
+            correctionAdd("hvae", "have");
+            correctionAdd("hhave", "have");
+            correctionAdd("hv", "have");
+            correctionAdd("haave", "have");
+            correctionAdd("hove", "have");
+            correctionAdd("hav", "have");
+            correctionAdd("gave", "have");
+            correctionAdd("ahev", "have");
+            correctionAdd("habe", "have");
+            correctionAdd("Have", "have");
+            correctionAdd("hasve", "have");
+
+            correctionAdd("havent", "haven’t");
+            correctionAdd("havn't", "haven’t");
+            correctionAdd("Havent", "haven’t");
+            correctionAdd("haven´t", "haven’t");
+            correctionAdd("haven't", "haven’t");
+            correctionAdd("have n't", "haven’t");
+            correctionAdd("havnt", "haven’t");
+
+            correctionAdd("gotta", "have got to");
+            correctionAdd("Gotta", "have got to");
+
+            correctionAdd("must have", "must-have");
+
+            correctionAdd("should've", "should have");
+            correctionAdd("shoulda", "should have");
+
             correctionAdd("hade", "had");
             correctionAdd("hads", "had");
 
             correctionAdd("hadn't", "hadn’t");
             correctionAdd("hadnt", "hadn’t");
+
+            correctionAdd("jbehave", "JBehave");
 
             correctionAdd("hadeline", "headline");
             correctionAdd("Headline", "headline");
@@ -4700,6 +4758,7 @@ namespace OverflowHelper.core
             correctionAdd("Laptop", "laptop");
             correctionAdd("lapto", "laptop");
             correctionAdd("LapTop", "laptop");
+            correctionAdd("laptap", "laptop");
 
             correctionAdd("FULL STOP", "full stop");
             correctionAdd("fullstop", "full stop");
@@ -5329,6 +5388,9 @@ namespace OverflowHelper.core
             correctionAdd("macOS v13", "macOS&nbsp;v13 (Ventura)");
             correctionAdd("macOS&nbsp;v13", "macOS&nbsp;v13 (Ventura)");
             correctionAdd("MacOS 13.1", "macOS&nbsp;v13 (Ventura)");
+
+            // An Apple thing
+            correctionAdd("touch ID", "Touch ID");
 
             // Adobe Flex. Conflict with the lexical analyser Flex (https://en.wikipedia.org/wiki/Flex_lexical_analyser).
             correctionAdd("flex", "Flex");
@@ -6047,6 +6109,8 @@ namespace OverflowHelper.core
             correctionAdd("Dev C++", "Dev-C++");
             correctionAdd("DevC++", "Dev-C++");
             correctionAdd("dev c++", "Dev-C++");
+            correctionAdd("dev c", "Dev-C++");
+            correctionAdd("developer c", "Dev-C++");
 
             correctionAdd("msvc", "Microsoft Visual C++");
             correctionAdd("ms vc", "Microsoft Visual C++");
@@ -6134,6 +6198,7 @@ namespace OverflowHelper.core
             correctionAdd("C++ Builder", "C++Builder");
             correctionAdd("borland c++", "C++Builder");
             correctionAdd("Borland C++", "C++Builder");
+            correctionAdd("Borland C", "C++Builder");
 
             correctionAdd("Objective-c++", "Objective-C++");
             correctionAdd("Objective C++", "Objective-C++");
@@ -6507,43 +6572,43 @@ namespace OverflowHelper.core
             correctionAdd("Silicone valley", "Silicon Valley");
             correctionAdd("Silicon Vallay", "Silicon Valley");
 
-            // US city
+            // United States city
             correctionAdd("new york", "New York");
             correctionAdd("NewYork", "New York");
             correctionAdd("NYC", "New York");
             correctionAdd("New York City", "New York");
             correctionAdd("NEW YORK", "New York");
 
-            // US city
+            // United States city
             correctionAdd("Philly", "Philadelphia");
 
-            // US city
+            // United States city
             correctionAdd("boston", "Boston");
 
-            // US city
+            // United States city
             correctionAdd("NOLA", "New Orleans");
 
-            // US city
+            // United States city
             correctionAdd("detroit", "Detroit");
 
             correctionAdd("Great lakes", "Great Lakes");
 
-            // US city
+            // United States city
             correctionAdd("michigan", "Michigan");
 
-            // US city, relatively close to Vancouver.
+            // United States city, relatively close to Vancouver.
             correctionAdd("seattle", "Seattle");
 
             // Canadian city, relatively close to Seattle.
             correctionAdd("vancouver", "Vancouver");
 
-            // US city
+            // United States city
             correctionAdd("washington", "Washington");
 
-            // US city
+            // United States city
             correctionAdd("D.C", "Washington, D.C.");
 
-            // US city
+            // United States city
             correctionAdd("National Capital Region", "Washington metropolitan area");
             correctionAdd("DMV", "Washington metropolitan area"); // District Maryland Virginia.
 
@@ -12160,6 +12225,8 @@ namespace OverflowHelper.core
             correctionAdd("yyour", "your");
             correctionAdd("yiur", "your");
             correctionAdd("yoir", "your");
+            correctionAdd("Youur", "your");
+            correctionAdd("youur", "your");
 
             correctionAdd("behavoir", "behaviour");
             correctionAdd("behavior", "behaviour");
@@ -12194,14 +12261,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Our", "our");
             correctionAdd("ouu", "our");
-
-            correctionAdd("havent", "haven’t");
-            correctionAdd("havn't", "haven’t");
-            correctionAdd("Havent", "haven’t");
-            correctionAdd("haven´t", "haven’t");
-            correctionAdd("haven't", "haven’t");
-            correctionAdd("have n't", "haven’t");
-            correctionAdd("havnt", "haven’t");
 
             correctionAdd("fbml", "FBML");
             correctionAdd("fmbl", "FBML");
@@ -18713,9 +18772,6 @@ namespace OverflowHelper.core
 
             correctionAdd("good looking", "good-looking");
 
-            correctionAdd("gotta", "have got to");
-            correctionAdd("Gotta", "have got to");
-
             correctionAdd("gotsha", "gotcha");
             correctionAdd("gottach", "gotcha");
             correctionAdd("gotach", "gotcha");
@@ -22268,6 +22324,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Social media", "social media");
             correctionAdd("Social Media", "social media");
+            correctionAdd("social-media", "social media");
 
             correctionAdd("Geforce", "GeForce");
             correctionAdd("geforce", "GeForce");
@@ -23754,6 +23811,7 @@ namespace OverflowHelper.core
             correctionAdd("File dialog", "file dialog");
 
             correctionAdd("gitk", "gitk (the Git repository browser)");
+            correctionAdd("gkt", "gitk (the Git repository browser)");
 
             correctionAdd("intimitely", "intimately");
 
@@ -25504,6 +25562,7 @@ namespace OverflowHelper.core
             correctionAdd("plagiasrism", "plagiarism");
             correctionAdd("plagirism", "plagiarism");
             correctionAdd("Plagiarism", "plagiarism");
+            correctionAdd("plagisarism", "plagiarism");
 
             correctionAdd("plagarised", "plagiarised");
 
@@ -26442,8 +26501,28 @@ namespace OverflowHelper.core
 
             correctionAdd("montreal", "Montreal");
 
+            // United States politics
+            //
+            // Alternative URL: <https://politics.stackexchange.com/questions/77801/what-do-woke-and-cancel-groups-call-themselves>
             correctionAdd("sjw", "SJW");
             correctionAdd("swj", "SJW");
+            correctionAdd("Social Justice Warrior", "SJW");
+            correctionAdd("social justice warrior", "SJW");
+
+            // United States politics
+            //
+            // Alternative URL: <https://politics.stackexchange.com/questions/77801/what-do-woke-and-cancel-groups-call-themselves>
+            correctionAdd("bible thumper", "Bible thumper");
+
+            // United States politics
+            //
+            // Alternative URL: <https://politics.stackexchange.com/questions/77801/what-do-woke-and-cancel-groups-call-themselves>
+            correctionAdd("gun nut", "firearms enthusiast");
+
+            // United States politics
+            //
+            // Alternative URL: <https://politics.stackexchange.com/questions/77801/what-do-woke-and-cancel-groups-call-themselves>
+            correctionAdd("Welfare queen", "welfare queen");
 
             correctionAdd("saudi arabia", "Saudi Arabia");
 
@@ -34879,27 +34958,6 @@ namespace OverflowHelper.core
 
             correctionAdd("GROUPADD", "groupadd");
 
-            correctionAdd("jbehave", "JBehave");
-
-            correctionAdd("must have", "must-have");
-
-            correctionAdd("should've", "should have");
-            correctionAdd("shoulda", "should have");
-
-            correctionAdd("hava", "have");
-            correctionAdd("Hvae", "have");
-            correctionAdd("hvae", "have");
-            correctionAdd("hhave", "have");
-            correctionAdd("hv", "have");
-            correctionAdd("haave", "have");
-            correctionAdd("hove", "have");
-            correctionAdd("hav", "have");
-            correctionAdd("gave", "have");
-            correctionAdd("ahev", "have");
-            correctionAdd("habe", "have");
-            correctionAdd("Have", "have");
-            correctionAdd("hasve", "have");
-
             correctionAdd("HDPARM", "hdparm");
 
             correctionAdd("hestancy", "hesitancy");
@@ -36594,6 +36652,8 @@ namespace OverflowHelper.core
             correctionAdd("curly-brace", "curly bracket");
             correctionAdd("curley-brace", "curly bracket");
             correctionAdd("curly bracer", "curly bracket");
+            correctionAdd("brace", "curly bracket");
+            correctionAdd("braces", "curly bracket");
 
             correctionAdd("failes", "fails");
 
@@ -36891,6 +36951,8 @@ namespace OverflowHelper.core
             correctionAdd("russia", "Russia");
             correctionAdd("ruzzia", "Russia");
             correctionAdd("Ruzzia", "Russia");
+            correctionAdd("RuzZia", "Russia");
+            correctionAdd("ruzZia", "Russia");
 
             correctionAdd("DotTrace", "dotTrace");
 
@@ -47625,16 +47687,6 @@ namespace OverflowHelper.core
 
             correctionAdd("sentinent", "sentient");
 
-            // Sample: [edit] in a comment (no need to
-            //         specify the exact post ID)
-            correctionAdd("magic links", "Stack Exchange magic links");
-
-            correctionAdd("RSS feeds", "Stack Exchange RSS feeds");
-
-            // Sample: 'current' in a URL (no need to
-            //         specify the exact user ID)
-            correctionAdd("user profile", "Stack Exchange user profile");
-
             correctionAdd("write-off", "write off");
 
             correctionAdd("collideable", "collidable");
@@ -48132,12 +48184,6 @@ namespace OverflowHelper.core
 
             correctionAdd("misnoner", "misnomer");
 
-            // For Stack Exchange accounts
-            correctionAdd("deleted answers", "see deleted answers");
-
-            // For Stack Exchange accounts
-            correctionAdd("deleted questions", "see deleted questions");
-
             correctionAdd("User Story", "user story");
 
             correctionAdd("Daskeyboard", "Das Keyboard");
@@ -48162,9 +48208,41 @@ namespace OverflowHelper.core
             // A Python library (for testing).
             correctionAdd("TOX", "tox");
 
-            correctionAdd("milliampere-hour", "mA⋅h");
-            correctionAdd("mAh", "mA⋅h");
-            correctionAdd("mah", "mA⋅h");
+            correctionAdd("milliampere-hour", "mA·h");
+            correctionAdd("mAh", "mA·h");
+            correctionAdd("mah", "mA·h");
+
+            // Related to computer games
+            correctionAdd("Aimbot", "aimbot");
+
+            // Related to computer games
+            correctionAdd("FtP", "free-to-play");
+            correctionAdd("F2P", "free-to-play");
+
+            correctionAdd("ill defined", "ill-defined");
+
+            correctionAdd("manssplaining", "mansplaining");
+
+            // Related to computer games
+            correctionAdd("moorhuhn", "Moorhuhn");
+
+            correctionAdd("on-screen", "onscreen");
+            correctionAdd("on screen", "onscreen");
+
+            correctionAdd("open ended", "open-ended");
+
+            correctionAdd("overtime", "over time");
+            correctionAdd("over-time", "over time");
+
+            correctionAdd("PopUp", "pop-up dialog box");
+            correctionAdd("pop-up", "pop-up dialog box");
+            correctionAdd("popup", "pop-up dialog box");
+
+            correctionAdd("sex-ed", "sex education");
+
+            correctionAdd("tunisian", "Tunisian");
+            correctionAdd("Tunesian", "Tunisian");
+            correctionAdd("tunesian", "Tunisian");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -75416,9 +75494,41 @@ namespace OverflowHelper.core
 
             URL_Add("7305 Mill-Max socket", "https://thocstock.com/accessories/7305-mill-max-sockets");
 
-            URL_Add("mA⋅h", "https://en.wikipedia.org/wiki/Ampere_hour");
+            URL_Add("mA·h", "https://en.wikipedia.org/wiki/Ampere_hour");
 
             URL_Add("Pipenv", "https://github.com/pypa/pipenv");
+
+            URL_Add("Linux Mint 13 (Maya)", "https://en.wikipedia.org/wiki/Linux_Mint#Releases");
+
+            URL_Add("Touch ID", "https://en.wikipedia.org/wiki/Touch_ID");
+
+            URL_Add("aimbot", "https://en.wikipedia.org/wiki/Cheating_in_online_games#Aimbots_and_triggerbots");
+
+            URL_Add("Bible thumper", "https://en.wiktionary.org/wiki/Bible_thumper#Noun");
+
+            URL_Add("firearms enthusiast", "https://en.wikipedia.org/wiki/Gun_culture_in_the_United_States#Terms_applied_to_opponents");
+
+            URL_Add("free-to-play", "https://en.wikipedia.org/wiki/Free-to-play");
+
+            URL_Add("ill-defined", "https://en.wiktionary.org/wiki/ill-defined#Adjective");
+
+            URL_Add("mansplaining", "https://en.wiktionary.org/wiki/mansplaining#Noun");
+
+            URL_Add("Moorhuhn", "https://en.wikipedia.org/wiki/Moorhuhn");
+
+            URL_Add("onscreen", "https://en.wiktionary.org/wiki/onscreen#Adjective");
+
+            URL_Add("open-ended", "https://en.wiktionary.org/wiki/open-ended#Adjective");
+
+            URL_Add("over time", "https://en.wiktionary.org/wiki/over_time#Prepositional_phrase");
+
+            URL_Add("pop-up dialog box", "https://en.wikipedia.org/wiki/Modal_window");
+
+            URL_Add("sex education", "https://en.wiktionary.org/wiki/sex_education#Noun");
+
+            URL_Add("Tunisian", "https://en.wiktionary.org/wiki/Tunisian#Noun");
+
+            URL_Add("welfare queen", "https://en.wiktionary.org/wiki/welfare_queen#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -77265,6 +77375,18 @@ namespace OverflowHelper.core
 
             correctionAdd("KVM_", "KVM switch_");
 
+            correctionAdd("FPS_", "first-person shooter_");
+
+            correctionAdd("next_", "following_");
+
+            correctionAdd("match_", "match()_");
+
+            correctionAdd("popup_", "pop up_");
+
+            correctionAdd("sexually transmitted disease_", "STD_");
+            correctionAdd("STI_", "STD_");
+            correctionAdd("sexually transmitted infection_", "STD_");
+
             // URL mappings
             //
             //
@@ -78317,6 +78439,16 @@ namespace OverflowHelper.core
             URL_Add("user account_", "https://en.wikipedia.org/wiki/User_(computing)");
 
             URL_Add("KVM switch_", "https://en.wikipedia.org/wiki/KVM_switch");
+
+            URL_Add("first-person shooter_", "https://en.wikipedia.org/wiki/First-person_shooter");
+
+            URL_Add("following_", "https://en.wiktionary.org/wiki/following#Noun");
+
+            URL_Add("match()_", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match");
+
+            URL_Add("pop up_", "https://en.wiktionary.org/wiki/pop_up#Verb");
+
+            URL_Add("STD_", "https://en.wiktionary.org/wiki/STD#Noun");
 
         } //addLookupData_alternativeWordSet()
 
