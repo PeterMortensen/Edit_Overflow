@@ -2998,10 +2998,166 @@ namespace OverflowHelper.core
             correctionAdd("Javascrpt", "JavaScript");
             correctionAdd("jav script", "JavaScript");
             correctionAdd("javascrit", "JavaScript");
+            correctionAdd("javaScripts", "JavaScript");
 
             correctionAdd("vanilla Javascript", "vanilla JavaScript");
             correctionAdd("vanilla js", "vanilla JavaScript");
             correctionAdd("Vanilla JavaScript", "vanilla JavaScript");
+            correctionAdd("vanilla javascript", "vanilla JavaScript");
+
+            // The old discontinued version 1.x.
+            correctionAdd("AngularJs", "AngularJS");
+            correctionAdd("angularjs", "AngularJS");
+            correctionAdd("angular.js", "AngularJS");
+            correctionAdd("Angular.js", "AngularJS");
+            correctionAdd("Angular js", "AngularJS");
+            correctionAdd("Angularjs", "AngularJS");
+            correctionAdd("angularJS", "AngularJS");
+            correctionAdd("Angular Js", "AngularJS");
+            correctionAdd("angular js", "AngularJS");
+            correctionAdd("angularJs", "AngularJS");
+            correctionAdd("Angular JS", "AngularJS");
+            correctionAdd("angular JS", "AngularJS");
+            correctionAdd("Angular.JS", "AngularJS");
+            correctionAdd("AngluarJS", "AngularJS");
+            correctionAdd("angulerjs", "AngularJS");
+            correctionAdd("ANGULARJS", "AngularJS");
+            correctionAdd("Angular-js", "AngularJS");
+            correctionAdd("angularhs", "AngularJS");
+
+            // The new version 2+
+            correctionAdd("AJS", "Angular");
+            correctionAdd("angular", "Angular");
+            correctionAdd("Angular Javascript", "Angular");
+            correctionAdd("angluar", "Angular");
+            correctionAdd("Angualr", "Angular");
+            correctionAdd("Ng", "Angular");
+            correctionAdd("angular cli", "Angular");
+            correctionAdd("Angular CLI", "Angular");
+            correctionAdd("Angular-Cli", "Angular");
+            correctionAdd("angualr", "Angular");
+            correctionAdd("angularjs ng", "Angular");
+            correctionAdd("Agnular", "Angular");
+            correctionAdd("agnular", "Angular");
+            correctionAdd("Anjular js", "Angular");
+            correctionAdd("angulare", "Angular");
+
+            correctionAdd("JST", "JavaScript Templates");
+
+            correctionAdd("jade", "Jade"); // The former name of the Pug JavaScript templating engine
+
+            correctionAdd("JS the good parts", "JavaScript: The Good Parts");
+            correctionAdd("JavaScript the Good parts", "JavaScript: The Good Parts");
+            correctionAdd("Javascript: The Good Parts", "JavaScript: The Good Parts");
+
+            correctionAdd("JavascriptMVC", "JavaScriptMVC");
+
+            correctionAdd("EcmaScript", "ECMAScript");
+            correctionAdd("ecmascript", "ECMAScript");
+            correctionAdd("Ecmascript", "ECMAScript");
+            correctionAdd("ECMA", "ECMAScript");
+            correctionAdd("ECMASCRIPT", "ECMAScript");
+            correctionAdd("ES", "ECMAScript");
+            correctionAdd("es", "ECMAScript");
+            correctionAdd("ecma", "ECMAScript");
+            correctionAdd("ECMAscript", "ECMAScript");
+            correctionAdd("ECMA-Script", "ECMAScript");
+            correctionAdd("ECMA Script", "ECMAScript");
+            correctionAdd("ecama script", "ECMAScript");
+            correctionAdd("ecma script", "ECMAScript");
+            correctionAdd("Ecama script", "ECMAScript");
+            correctionAdd("emca", "ECMAScript");
+            correctionAdd("EMCA", "ECMAScript");
+            correctionAdd("ECMA script", "ECMAScript");
+
+            correctionAdd("ES3", "ECMAScript&nbsp;3");
+            correctionAdd("ECMAScript 3", "ECMAScript&nbsp;3");
+
+            correctionAdd("ES4", "ECMAScript&nbsp;4");
+            correctionAdd("ECMAScript 4", "ECMAScript&nbsp;4");
+
+            correctionAdd("ECMAScript 5", "ECMAScript&nbsp;5"); // Sort of identity mapping
+            correctionAdd("ES 5", "ECMAScript&nbsp;5");
+            correctionAdd("ES5", "ECMAScript&nbsp;5");
+            correctionAdd("ECMAScript5", "ECMAScript&nbsp;5");
+            correctionAdd("ECMA-Script 5", "ECMAScript&nbsp;5");
+            correctionAdd("es5", "ECMAScript&nbsp;5");
+            correctionAdd("ECMA5", "ECMAScript&nbsp;5");
+            correctionAdd("ECMA 5", "ECMAScript&nbsp;5");
+            correctionAdd("Ecma 5", "ECMAScript&nbsp;5");
+            correctionAdd("Ecmascript 5", "ECMAScript&nbsp;5");
+            correctionAdd("ECMA script 5", "ECMAScript&nbsp;5");
+            correctionAdd("ecmascript 5", "ECMAScript&nbsp;5");
+
+            correctionAdd("ECMAScript 2015", "ECMAScript&nbsp;2015"); // Sort of identity mapping
+            correctionAdd("es6", "ECMAScript&nbsp;2015");
+            correctionAdd("ES6", "ECMAScript&nbsp;2015");
+            correctionAdd("e6", "ECMAScript&nbsp;2015");
+            correctionAdd("ES2015", "ECMAScript&nbsp;2015");
+            correctionAdd("ECMAScript6", "ECMAScript&nbsp;2015");
+            correctionAdd("EcmaScript 2015", "ECMAScript&nbsp;2015");
+            correctionAdd("ES 6", "ECMAScript&nbsp;2015");
+            correctionAdd("Es6", "ECMAScript&nbsp;2015");
+            correctionAdd("ECMA6", "ECMAScript&nbsp;2015");
+            correctionAdd("ECMA 6", "ECMAScript&nbsp;2015");
+            correctionAdd("ECMAscript 6", "ECMAScript&nbsp;2015");
+            correctionAdd("es2015", "ECMAScript&nbsp;2015");
+            correctionAdd("ECMA Script 6", "ECMAScript&nbsp;2015");
+            correctionAdd("ECMAScript 6", "ECMAScript&nbsp;2015");
+            correctionAdd("ECMAScript&nbsp;6", "ECMAScript&nbsp;2015");
+            correctionAdd("ecma6", "ECMAScript&nbsp;2015");
+            correctionAdd("ecma 6", "ECMAScript&nbsp;2015");
+            correctionAdd("Ecmascript 6", "ECMAScript&nbsp;2015");
+            correctionAdd("Es 6", "ECMAScript&nbsp;2015");
+            correctionAdd("es 6", "ECMAScript&nbsp;2015");
+            correctionAdd("Ecma-Script-6", "ECMAScript&nbsp;2015");
+            correctionAdd("EcmaScript-6", "ECMAScript&nbsp;2015");
+            correctionAdd("EcmaScript 6", "ECMAScript&nbsp;2015");
+            correctionAdd("EcmaScript6", "ECMAScript&nbsp;2015");
+            correctionAdd("ecmaScript6", "ECMAScript&nbsp;2015");
+
+            correctionAdd("ECMAScript 2016", "ECMAScript&nbsp;2016"); // Sort of identity mapping
+            correctionAdd("ES 2016", "ECMAScript&nbsp;2016");
+            correctionAdd("ES2016", "ECMAScript&nbsp;2016");
+            correctionAdd("ES7", "ECMAScript&nbsp;2016");
+            correctionAdd("ES 7", "ECMAScript&nbsp;2016");
+            correctionAdd("EcmaScript 7", "ECMAScript&nbsp;2016");
+            correctionAdd("es7", "ECMAScript&nbsp;2016");
+            correctionAdd("ECMAScript 7", "ECMAScript&nbsp;2016");
+            correctionAdd("ECMAScript&nbsp;7", "ECMAScript&nbsp;2016");
+
+            correctionAdd("ECMAScript 2017", "ECMAScript&nbsp;2017"); // Sort of identity mapping
+            correctionAdd("ECMAScript 8", "ECMAScript&nbsp;2017");
+            correctionAdd("ES8", "ECMAScript&nbsp;2017");
+            correctionAdd("ECMAScript&nbsp;8", "ECMAScript&nbsp;2017");
+            correctionAdd("ECMAScript-2017", "ECMAScript&nbsp;2017");
+            correctionAdd("ES-2017", "ECMAScript&nbsp;2017");
+            correctionAdd("EcmaScript 2017", "ECMAScript&nbsp;2017");
+
+            correctionAdd("ECMAScript 2018", "ECMAScript&nbsp;2018"); // Sort of identity mapping
+            correctionAdd("ECMAScript 9", "ECMAScript&nbsp;2018");
+            correctionAdd("ES9", "ECMAScript&nbsp;2018");
+            correctionAdd("ECMAScript&nbsp;9", "ECMAScript&nbsp;2018");
+
+            correctionAdd("ECMAScript 2019", "ECMAScript&nbsp;2019"); // Sort of identity mapping
+            correctionAdd("ECMAScript 10", "ECMAScript&nbsp;2019");
+            correctionAdd("ES2019", "ECMAScript&nbsp;2019");
+            correctionAdd("ES10", "ECMAScript&nbsp;2019");
+            correctionAdd("ECMAScript&nbsp;10", "ECMAScript&nbsp;2019");
+
+            correctionAdd("ECMAScript 2020", "ECMAScript&nbsp;2020"); // Sort of identity mapping
+            correctionAdd("ES2020", "ECMAScript&nbsp;2020");
+            correctionAdd("es11", "ECMAScript&nbsp;2020");
+            correctionAdd("ES11", "ECMAScript&nbsp;2020");
+            correctionAdd("ECMAScript&nbsp;11", "ECMAScript&nbsp;2020");
+
+            correctionAdd("ECMA2021", "ES.Next");
+            correctionAdd("ES12", "ES.Next");
+            correctionAdd("ECMAScript 2021", "ES.Next");
+            correctionAdd("ECMAScript&nbsp;2021", "ES.Next");
+            correctionAdd("es-next", "ES.Next");
+            correctionAdd("es12", "ES.Next");
+            correctionAdd("ES 12", "ES.Next");
 
             correctionAdd("action script", "ActionScript");
             correctionAdd("actionscript", "ActionScript");
@@ -3092,107 +3248,6 @@ namespace OverflowHelper.core
 
             correctionAdd("super-script", "superscript");
 
-            correctionAdd("EcmaScript", "ECMAScript");
-            correctionAdd("ecmascript", "ECMAScript");
-            correctionAdd("Ecmascript", "ECMAScript");
-            correctionAdd("ECMA", "ECMAScript");
-            correctionAdd("ECMASCRIPT", "ECMAScript");
-            correctionAdd("ES", "ECMAScript");
-            correctionAdd("es", "ECMAScript");
-            correctionAdd("ecma", "ECMAScript");
-            correctionAdd("ECMAscript", "ECMAScript");
-            correctionAdd("ECMA-Script", "ECMAScript");
-            correctionAdd("ECMA Script", "ECMAScript");
-            correctionAdd("ecama script", "ECMAScript");
-            correctionAdd("ecma script", "ECMAScript");
-            correctionAdd("Ecama script", "ECMAScript");
-            correctionAdd("emca", "ECMAScript");
-            correctionAdd("EMCA", "ECMAScript");
-            correctionAdd("ECMA script", "ECMAScript");
-
-            correctionAdd("ECMAScript 5", "ECMAScript&nbsp;5"); // Sort of identity mapping
-            correctionAdd("ES 5", "ECMAScript&nbsp;5");
-            correctionAdd("ES5", "ECMAScript&nbsp;5");
-            correctionAdd("ECMAScript5", "ECMAScript&nbsp;5");
-            correctionAdd("ECMA-Script 5", "ECMAScript&nbsp;5");
-            correctionAdd("es5", "ECMAScript&nbsp;5");
-            correctionAdd("ECMA5", "ECMAScript&nbsp;5");
-            correctionAdd("ECMA 5", "ECMAScript&nbsp;5");
-            correctionAdd("Ecma 5", "ECMAScript&nbsp;5");
-            correctionAdd("Ecmascript 5", "ECMAScript&nbsp;5");
-            correctionAdd("ECMA script 5", "ECMAScript&nbsp;5");
-            correctionAdd("ecmascript 5", "ECMAScript&nbsp;5");
-
-            correctionAdd("ECMAScript 2015", "ECMAScript&nbsp;2015"); // Sort of identity mapping
-            correctionAdd("es6", "ECMAScript&nbsp;2015");
-            correctionAdd("ES6", "ECMAScript&nbsp;2015");
-            correctionAdd("e6", "ECMAScript&nbsp;2015");
-            correctionAdd("ES2015", "ECMAScript&nbsp;2015");
-            correctionAdd("ECMAScript6", "ECMAScript&nbsp;2015");
-            correctionAdd("EcmaScript 2015", "ECMAScript&nbsp;2015");
-            correctionAdd("ES 6", "ECMAScript&nbsp;2015");
-            correctionAdd("Es6", "ECMAScript&nbsp;2015");
-            correctionAdd("ECMA6", "ECMAScript&nbsp;2015");
-            correctionAdd("ECMA 6", "ECMAScript&nbsp;2015");
-            correctionAdd("ECMAscript 6", "ECMAScript&nbsp;2015");
-            correctionAdd("es2015", "ECMAScript&nbsp;2015");
-            correctionAdd("ECMA Script 6", "ECMAScript&nbsp;2015");
-            correctionAdd("ECMAScript 6", "ECMAScript&nbsp;2015");
-            correctionAdd("ECMAScript&nbsp;6", "ECMAScript&nbsp;2015");
-            correctionAdd("ecma6", "ECMAScript&nbsp;2015");
-            correctionAdd("ecma 6", "ECMAScript&nbsp;2015");
-            correctionAdd("Ecmascript 6", "ECMAScript&nbsp;2015");
-            correctionAdd("Es 6", "ECMAScript&nbsp;2015");
-            correctionAdd("es 6", "ECMAScript&nbsp;2015");
-            correctionAdd("Ecma-Script-6", "ECMAScript&nbsp;2015");
-            correctionAdd("EcmaScript-6", "ECMAScript&nbsp;2015");
-            correctionAdd("EcmaScript 6", "ECMAScript&nbsp;2015");
-            correctionAdd("EcmaScript6", "ECMAScript&nbsp;2015");
-            correctionAdd("ecmaScript6", "ECMAScript&nbsp;2015");
-
-            correctionAdd("ECMAScript 2016", "ECMAScript&nbsp;2016"); // Sort of identity mapping
-            correctionAdd("ES 2016", "ECMAScript&nbsp;2016");
-            correctionAdd("ES2016", "ECMAScript&nbsp;2016");
-            correctionAdd("ES7", "ECMAScript&nbsp;2016");
-            correctionAdd("ES 7", "ECMAScript&nbsp;2016");
-            correctionAdd("EcmaScript 7", "ECMAScript&nbsp;2016");
-            correctionAdd("es7", "ECMAScript&nbsp;2016");
-            correctionAdd("ECMAScript 7", "ECMAScript&nbsp;2016");
-            correctionAdd("ECMAScript&nbsp;7", "ECMAScript&nbsp;2016");
-
-            correctionAdd("ECMAScript 2017", "ECMAScript&nbsp;2017"); // Sort of identity mapping
-            correctionAdd("ECMAScript 8", "ECMAScript&nbsp;2017");
-            correctionAdd("ES8", "ECMAScript&nbsp;2017");
-            correctionAdd("ECMAScript&nbsp;8", "ECMAScript&nbsp;2017");
-            correctionAdd("ECMAScript-2017", "ECMAScript&nbsp;2017");
-            correctionAdd("ES-2017", "ECMAScript&nbsp;2017");
-            correctionAdd("EcmaScript 2017", "ECMAScript&nbsp;2017");
-
-            correctionAdd("ECMAScript 2018", "ECMAScript&nbsp;2018"); // Sort of identity mapping
-            correctionAdd("ECMAScript 9", "ECMAScript&nbsp;2018");
-            correctionAdd("ES9", "ECMAScript&nbsp;2018");
-            correctionAdd("ECMAScript&nbsp;9", "ECMAScript&nbsp;2018");
-
-            correctionAdd("ECMAScript 2019", "ECMAScript&nbsp;2019"); // Sort of identity mapping
-            correctionAdd("ECMAScript 10", "ECMAScript&nbsp;2019");
-            correctionAdd("ES2019", "ECMAScript&nbsp;2019");
-            correctionAdd("ES10", "ECMAScript&nbsp;2019");
-            correctionAdd("ECMAScript&nbsp;10", "ECMAScript&nbsp;2019");
-
-            correctionAdd("ECMAScript 2020", "ECMAScript&nbsp;2020"); // Sort of identity mapping
-            correctionAdd("ES2020", "ECMAScript&nbsp;2020");
-            correctionAdd("es11", "ECMAScript&nbsp;2020");
-            correctionAdd("ES11", "ECMAScript&nbsp;2020");
-            correctionAdd("ECMAScript&nbsp;11", "ECMAScript&nbsp;2020");
-
-            correctionAdd("ECMA2021", "ES.Next");
-            correctionAdd("ES12", "ES.Next");
-            correctionAdd("ECMAScript 2021", "ES.Next");
-            correctionAdd("ECMAScript&nbsp;2021", "ES.Next");
-            correctionAdd("es-next", "ES.Next");
-            correctionAdd("es12", "ES.Next");
-            correctionAdd("ES 12", "ES.Next");
-
             correctionAdd("Livescript", "LiveScript");
 
             correctionAdd("objectscript", "ObjectScript");
@@ -3219,6 +3274,7 @@ namespace OverflowHelper.core
             correctionAdd("Pyhon", "Python");
             correctionAdd("py thon", "Python");
             correctionAdd("Phython", "Python");
+            correctionAdd("puthon", "Python");
 
             correctionAdd("python2", "Python&nbsp;2");
             correctionAdd("Python 2", "Python&nbsp;2");
@@ -4813,6 +4869,7 @@ namespace OverflowHelper.core
             correctionAdd("mass drop", "Drop");
             correctionAdd("massdrop", "Drop");
             correctionAdd("group buy", "Drop");
+            correctionAdd("drop.com", "Drop");
 
             correctionAdd("gamestop", "GameStop");
 
@@ -4981,6 +5038,75 @@ namespace OverflowHelper.core
             correctionAdd("1&1", "1&1 IONOS");
 
             correctionAdd("reactos", "ReactOS");
+
+            correctionAdd("react", "React");
+            correctionAdd("reactjs", "React");
+            correctionAdd("Reactjs", "React");
+            correctionAdd("react.js", "React");
+            correctionAdd("React.JS", "React");
+            correctionAdd("react JS", "React");
+            correctionAdd("ReactJs", "React");
+            correctionAdd("ReactJS", "React");
+            correctionAdd("React JS", "React");
+            correctionAdd("react js", "React");
+            correctionAdd("React js", "React");
+            correctionAdd("React.js", "React");
+            correctionAdd("REACT.js", "React");
+            correctionAdd("REACT", "React");
+            correctionAdd("reactJS", "React");
+            correctionAdd("Reacty", "React");
+            correctionAdd("react Js", "React");
+            correctionAdd("reactJs", "React");
+            correctionAdd("React Js", "React");
+
+            correctionAdd("react native", "React Native");
+            correctionAdd("react-native", "React Native");
+            correctionAdd("React-native", "React Native");
+            correctionAdd("React native", "React Native");
+            correctionAdd("ReactNative", "React Native");
+            correctionAdd("React-Native", "React Native");
+            correctionAdd("RN", "React Native");
+            correctionAdd("reactnative", "React Native");
+
+            correctionAdd("React mui", "MUI React");
+            correctionAdd("React mui material", "MUI React");
+
+            correctionAdd("React Hooks", "React hooks");
+            correctionAdd("react hooks", "React hooks");
+            correctionAdd("react hook", "React hooks");
+            correctionAdd("react Hooks", "React hooks");
+
+            correctionAdd("react-testing-library", "React Testing Library");
+
+            correctionAdd("react-router", "React Router");
+            correctionAdd("react router", "React Router");
+            correctionAdd("React-Router", "React Router");
+            correctionAdd("React router", "React Router");
+
+            correctionAdd("react-native-cli", "React Native CLI");
+            correctionAdd("React Native cli", "React Native CLI");
+
+            correctionAdd("react-icons", "React Icons");
+
+            correctionAdd("material ui", "MUI");
+            correctionAdd("MATERIAL-UI", "MUI");
+            correctionAdd("React Material-UI", "MUI");
+            correctionAdd("material-ui", "MUI");
+            correctionAdd("Material UI", "MUI"); // The original name
+            correctionAdd("Material ui", "MUI");
+            correctionAdd("Material Ui", "MUI");
+            correctionAdd("Material-UI", "MUI");
+            correctionAdd("Mui", "MUI");
+            correctionAdd("mui", "MUI");
+            correctionAdd("material UI", "MUI");
+
+            correctionAdd("RX", "reactive programming");
+            correctionAdd("Reactive Programming", "reactive programming");
+            correctionAdd("Rx", "reactive programming");
+
+            correctionAdd("rxn", "reaction");
+
+            correctionAdd("re-activate", "reactivate");
 
             correctionAdd("nmos", "NMOS");
             correctionAdd("nMOS", "NMOS");
@@ -10225,6 +10351,7 @@ namespace OverflowHelper.core
             correctionAdd("harddisk driver", "hard disk drive");
             correctionAdd("hardisk", "hard disk drive");
             correctionAdd("har disk", "hard disk drive");
+            correctionAdd("rotating rust", "hard disk drive");
 
             correctionAdd("ssd", "SSD");
             correctionAdd("Solid State Disk", "SSD");
@@ -11041,6 +11168,35 @@ namespace OverflowHelper.core
             correctionAdd("reverse engineered", "reverse-engineered");
 
             correctionAdd("Data Engineer", "data engineer");
+
+            correctionAdd("occuring", "occurring");
+
+            correctionAdd("occured", "occurred");
+            correctionAdd("ocurred", "occurred");
+
+            correctionAdd("occurence", "occurrence");
+            correctionAdd("occurrance", "occurrence");
+            correctionAdd("occurance", "occurrence");
+            correctionAdd("occurrrence", "occurrence");
+            correctionAdd("Occurance", "occurrence");
+            correctionAdd("occurances", "occurrence");
+
+            correctionAdd("ocurr", "occur");
+            correctionAdd("occure", "occur");
+            correctionAdd("ocur", "occur");
+
+            correctionAdd("occures", "occurs");
+            correctionAdd("occurrs", "occurs");
+
+            correctionAdd("curricila", "curricula");
+            correctionAdd("curriculums", "curricula");
+            correctionAdd("cirricula", "curricula");
+
+            correctionAdd("CV", "curriculum vitae");
+            correctionAdd("cv", "curriculum vitae");
+            correctionAdd("C.V", "curriculum vitae");
+
+            correctionAdd("curiculum", "curriculum");
 
             correctionAdd("jsBin", "JS Bin");
             correctionAdd("jsbin", "JS Bin");
@@ -15426,43 +15582,6 @@ namespace OverflowHelper.core
             correctionAdd("uS", "µs"); // Microseconds.
             correctionAdd("uSec", "µs"); // Microseconds.
 
-            // The old discontinued version 1.x.
-            correctionAdd("AngularJs", "AngularJS");
-            correctionAdd("angularjs", "AngularJS");
-            correctionAdd("angular.js", "AngularJS");
-            correctionAdd("Angular.js", "AngularJS");
-            correctionAdd("Angular js", "AngularJS");
-            correctionAdd("Angularjs", "AngularJS");
-            correctionAdd("angularJS", "AngularJS");
-            correctionAdd("Angular Js", "AngularJS");
-            correctionAdd("angular js", "AngularJS");
-            correctionAdd("angularJs", "AngularJS");
-            correctionAdd("Angular JS", "AngularJS");
-            correctionAdd("angular JS", "AngularJS");
-            correctionAdd("Angular.JS", "AngularJS");
-            correctionAdd("AngluarJS", "AngularJS");
-            correctionAdd("angulerjs", "AngularJS");
-            correctionAdd("ANGULARJS", "AngularJS");
-            correctionAdd("Angular-js", "AngularJS");
-            correctionAdd("angularhs", "AngularJS");
-
-            // The new version 2+
-            correctionAdd("AJS", "Angular");
-            correctionAdd("angular", "Angular");
-            correctionAdd("Angular Javascript", "Angular");
-            correctionAdd("angluar", "Angular");
-            correctionAdd("Angualr", "Angular");
-            correctionAdd("Ng", "Angular");
-            correctionAdd("angular cli", "Angular");
-            correctionAdd("Angular CLI", "Angular");
-            correctionAdd("Angular-Cli", "Angular");
-            correctionAdd("angualr", "Angular");
-            correctionAdd("angularjs ng", "Angular");
-            correctionAdd("Agnular", "Angular");
-            correctionAdd("agnular", "Angular");
-            correctionAdd("Anjular js", "Angular");
-            correctionAdd("angulare", "Angular");
-
             correctionAdd("LibO", "LibreOffice");
             correctionAdd("Libreoffice", "LibreOffice");
             correctionAdd("Libre Office", "LibreOffice");
@@ -17220,6 +17339,7 @@ namespace OverflowHelper.core
             correctionAdd("doent", "doesn’t");
             correctionAdd("deson't", "doesn’t");
             correctionAdd("dosen’t", "doesn’t");
+            correctionAdd("doesn'", "doesn’t");
 
             correctionAdd("grammer", "grammar");
             correctionAdd("Grammar", "grammar");
@@ -17958,8 +18078,6 @@ namespace OverflowHelper.core
 
             correctionAdd("scaper", "scraper");
 
-            correctionAdd("occuring", "occurring");
-
             correctionAdd("Openstack", "OpenStack");
             correctionAdd("openstack", "OpenStack");
 
@@ -18453,6 +18571,10 @@ namespace OverflowHelper.core
             correctionAdd("Vue.JS", "Vue.js");
             correctionAdd("Vue js", "Vue.js");
 
+            // Related to Vue.js (a JavaScript library) 
+            correctionAdd("vuetify", "Vuetify");
+            correctionAdd("Vuetify.js", "Vuetify");
+
             correctionAdd("SYbase", "Sybase");
 
             correctionAdd("thnx", "thanks");
@@ -18922,15 +19044,50 @@ namespace OverflowHelper.core
             correctionAdd("posibility", "possibility");
             correctionAdd("possability", "possibility");
 
+            correctionAdd("possbile", "possible");
+            correctionAdd("posible", "possible");
+            correctionAdd("possiible", "possible");
+            correctionAdd("possibile", "possible");
+            correctionAdd("poissible", "possible");
+
+            correctionAdd("possebilities", "possibilities");
+            correctionAdd("possibilites", "possibilities");
+            correctionAdd("possibilies", "possibilities");
+            correctionAdd("posibilies", "possibilities");
+
+            correctionAdd("pos", "position");
+            correctionAdd("postion", "position");
+            correctionAdd("possition", "position");
+            correctionAdd("poisiton", "position");
+            correctionAdd("poition", "position");
+            correctionAdd("positon", "position");
+
+            correctionAdd("positivr", "positive");
+            correctionAdd("postive", "positive");
+            correctionAdd("possitive", "positive");
+            correctionAdd("posotive", "positive");
+            correctionAdd("positve", "positive");
+            correctionAdd("+ive", "positive");
+            correctionAdd("Positive", "positive");
+
+            correctionAdd("false-positive", "false positive");
+
+            correctionAdd("negatvie", "negative");
+            correctionAdd("neg", "negative");
+            correctionAdd("negativ", "negative");
+            correctionAdd("negitive", "negative");
+            correctionAdd("-ive", "negative");
+            correctionAdd("Negetive", "negative");
+            correctionAdd("negetive", "negative");
+
+            correctionAdd("electro negative", "electronegative");
+
             correctionAdd("c89", "C89");
             correctionAdd("c90", "C89");
             correctionAdd("C90", "C89");
 
             correctionAdd("c99", "C99");
             correctionAdd("1999 standard", "C99");
-
-            correctionAdd("occured", "occurred");
-            correctionAdd("ocurred", "occurred");
 
             correctionAdd("tdd", "test-driven development");
             correctionAdd("Test Driven Development", "test-driven development");
@@ -19085,13 +19242,6 @@ namespace OverflowHelper.core
 
             correctionAdd("mcp2515", "MCP2515");
 
-            correctionAdd("occurence", "occurrence");
-            correctionAdd("occurrance", "occurrence");
-            correctionAdd("occurance", "occurrence");
-            correctionAdd("occurrrence", "occurrence");
-            correctionAdd("Occurance", "occurrence");
-            correctionAdd("occurances", "occurrence");
-
             correctionAdd("cred", "credentials");
             correctionAdd("crendentials", "credentials");
             correctionAdd("credentias", "credentials");
@@ -19114,26 +19264,6 @@ namespace OverflowHelper.core
             correctionAdd("Windows Credential Manager", "Credential Manager");
             correctionAdd("credentials manager", "Credential Manager");
             correctionAdd("credential Manager", "Credential Manager");
-
-            correctionAdd("react", "React");
-            correctionAdd("reactjs", "React");
-            correctionAdd("Reactjs", "React");
-            correctionAdd("react.js", "React");
-            correctionAdd("React.JS", "React");
-            correctionAdd("react JS", "React");
-            correctionAdd("ReactJs", "React");
-            correctionAdd("ReactJS", "React");
-            correctionAdd("React JS", "React");
-            correctionAdd("react js", "React");
-            correctionAdd("React js", "React");
-            correctionAdd("React.js", "React");
-            correctionAdd("REACT.js", "React");
-            correctionAdd("REACT", "React");
-            correctionAdd("reactJS", "React");
-            correctionAdd("Reacty", "React");
-            correctionAdd("react Js", "React");
-            correctionAdd("reactJs", "React");
-            correctionAdd("React Js", "React");
 
             correctionAdd("LinqPad", "LINQPad");
             correctionAdd("linqPad", "LINQPad");
@@ -19181,15 +19311,6 @@ namespace OverflowHelper.core
             correctionAdd("up2date", "up-to-date");
             correctionAdd("uptodate", "up-to-date");
             correctionAdd("upto date", "up-to-date");
-
-            correctionAdd("react native", "React Native");
-            correctionAdd("react-native", "React Native");
-            correctionAdd("React-native", "React Native");
-            correctionAdd("React native", "React Native");
-            correctionAdd("ReactNative", "React Native");
-            correctionAdd("React-Native", "React Native");
-            correctionAdd("RN", "React Native");
-            correctionAdd("reactnative", "React Native");
 
             correctionAdd("ionic", "Ionic");
             correctionAdd("IONIC", "Ionic");
@@ -19764,12 +19885,6 @@ namespace OverflowHelper.core
             correctionAdd("I stead", "instead");
             correctionAdd("insteed", "instead");
 
-            correctionAdd("possbile", "possible");
-            correctionAdd("posible", "possible");
-            correctionAdd("possiible", "possible");
-            correctionAdd("possibile", "possible");
-            correctionAdd("poissible", "possible");
-
             correctionAdd("rethorical", "rhetorical");
             correctionAdd("rethorocal", "rhetorical");
             correctionAdd("retorical", "rhetorical");
@@ -20216,6 +20331,7 @@ namespace OverflowHelper.core
             correctionAdd("sotlution", "solution");
             correctionAdd("Solutution", "solution");
             correctionAdd("solutution", "solution");
+            correctionAdd("solt", "solution");
 
             correctionAdd("threeshold", "threshold");
             correctionAdd("treeshold", "threshold");
@@ -20387,11 +20503,6 @@ namespace OverflowHelper.core
             correctionAdd("perfeclty", "perfectly");
 
             correctionAdd("phonemenia", "phonomena");
-
-            correctionAdd("possebilities", "possibilities");
-            correctionAdd("possibilites", "possibilities");
-            correctionAdd("possibilies", "possibilities");
-            correctionAdd("posibilies", "possibilities");
 
             correctionAdd("recursivly", "recursively");
             correctionAdd("recursivelly", "recursively");
@@ -21170,13 +21281,6 @@ namespace OverflowHelper.core
             correctionAdd("Giung", "going");
             correctionAdd("giung", "going");
 
-            correctionAdd("pos", "position");
-            correctionAdd("postion", "position");
-            correctionAdd("possition", "position");
-            correctionAdd("poisiton", "position");
-            correctionAdd("poition", "position");
-            correctionAdd("positon", "position");
-
             correctionAdd("vehical", "vehicle");
             correctionAdd("vihicle", "vehicle");
             correctionAdd("vehcile", "vehicle");
@@ -21404,12 +21508,6 @@ namespace OverflowHelper.core
             //Note: The incorrect words are not in the same verb tense
             correctionAdd("setted", "set");
             correctionAdd("seyt", "set");
-
-            correctionAdd("negatvie", "negative");
-            correctionAdd("neg", "negative");
-            correctionAdd("negativ", "negative");
-            correctionAdd("negitive", "negative");
-            correctionAdd("-ive", "negative");
 
             correctionAdd("prio", "priority");
 
@@ -22423,10 +22521,6 @@ namespace OverflowHelper.core
             correctionAdd("nusiance", "nuisance");
             correctionAdd("nusance", "nuisance");
 
-            correctionAdd("ocurr", "occur");
-            correctionAdd("occure", "occur");
-            correctionAdd("ocur", "occur");
-
             correctionAdd("permanant", "permanent");
             correctionAdd("Permanant", "permanent");
             correctionAdd("permonant", "permanent");
@@ -23184,21 +23278,6 @@ namespace OverflowHelper.core
 
             correctionAdd("many to many", "many-to-many");
             correctionAdd("Many-To-Many", "many-to-many");
-
-            correctionAdd("React mui", "MUI React");
-            correctionAdd("React mui material", "MUI React");
-
-            correctionAdd("material ui", "MUI");
-            correctionAdd("MATERIAL-UI", "MUI");
-            correctionAdd("React Material-UI", "MUI");
-            correctionAdd("material-ui", "MUI");
-            correctionAdd("Material UI", "MUI"); // The original name
-            correctionAdd("Material ui", "MUI");
-            correctionAdd("Material Ui", "MUI");
-            correctionAdd("Material-UI", "MUI");
-            correctionAdd("Mui", "MUI");
-            correctionAdd("mui", "MUI");
-            correctionAdd("material UI", "MUI");
 
             correctionAdd("Technet", "TechNet");
             correctionAdd("technet", "TechNet");
@@ -25228,8 +25307,6 @@ namespace OverflowHelper.core
 
             correctionAdd("jsx", "JSX");
 
-            correctionAdd("JST", "JavaScript Templates");
-
             correctionAdd("smarty", "Smarty");
             correctionAdd("tpl", "Smarty");
             correctionAdd("TPL", "Smarty");
@@ -25747,16 +25824,6 @@ namespace OverflowHelper.core
             correctionAdd("emphasizing", "emphasising");
 
             correctionAdd("notional", "national");
-
-            correctionAdd("positivr", "positive");
-            correctionAdd("postive", "positive");
-            correctionAdd("possitive", "positive");
-            correctionAdd("posotive", "positive");
-            correctionAdd("positve", "positive");
-            correctionAdd("+ive", "positive");
-            correctionAdd("Positive", "positive");
-
-            correctionAdd("false-positive", "false positive");
 
             correctionAdd("pune", "Pune");
 
@@ -29951,6 +30018,7 @@ namespace OverflowHelper.core
             correctionAdd("understrand", "understand");
             correctionAdd("understnad", "understand");
             correctionAdd("anderstand", "understand");
+            correctionAdd("understant", "understand");
 
             correctionAdd("thansand", "thousand");
             correctionAdd("tousind", "thousand");
@@ -31425,6 +31493,7 @@ namespace OverflowHelper.core
             correctionAdd("Month", "month");
             correctionAdd("moth", "month");
             correctionAdd("mounth", "month");
+            correctionAdd("mont", "month");
 
             correctionAdd("relaying", "relying");
             correctionAdd("Relaying", "relying");
@@ -31770,6 +31839,7 @@ namespace OverflowHelper.core
             correctionAdd("terra byte", "&nbsp;TB");
             correctionAdd("tera byte", "&nbsp;TB");
             correctionAdd("terabyte", "&nbsp;TB");
+            correctionAdd("Terabyte", "&nbsp;TB");
 
             correctionAdd("ops", "operations");
 
@@ -32126,10 +32196,6 @@ namespace OverflowHelper.core
             correctionAdd("collaberation", "collaboration");
 
             correctionAdd("condenscending", "condescending");
-
-            correctionAdd("curricila", "curricula");
-            correctionAdd("curriculums", "curricula");
-            correctionAdd("cirricula", "curricula");
 
             correctionAdd("dissambiguating", "disambiguating");
 
@@ -33112,18 +33178,10 @@ namespace OverflowHelper.core
 
             correctionAdd("Page Object Pattern", "page object pattern");
 
-            correctionAdd("ES3", "ECMAScript&nbsp;3");
-            correctionAdd("ECMAScript 3", "ECMAScript&nbsp;3");
+            // A JavaScript library related to Three.js
+            correctionAdd("drei", "Drei");
 
-            correctionAdd("ES4", "ECMAScript&nbsp;4");
-            correctionAdd("ECMAScript 4", "ECMAScript&nbsp;4");
-
-            correctionAdd("jade", "Jade"); // The former name of the Pug JavaScript templating engine
-
-            correctionAdd("React Hooks", "React hooks");
-            correctionAdd("react hooks", "React hooks");
-            correctionAdd("react hook", "React hooks");
-            correctionAdd("react Hooks", "React hooks");
+            correctionAdd("parseInt", "parseInt()");
 
             correctionAdd("Cloud computing", "cloud computing");
             correctionAdd("cloud", "cloud computing");
@@ -33443,6 +33501,7 @@ namespace OverflowHelper.core
             correctionAdd("take into accound", "take into account");
             correctionAdd("take in count", "take into account");
             correctionAdd("take into the account", "take into account");
+            correctionAdd("get into account", "take into account");
 
             correctionAdd("tireing", "tiring");
             correctionAdd("tiering", "tiring");
@@ -33738,10 +33797,6 @@ namespace OverflowHelper.core
             correctionAdd("Monad", "monad");
 
             correctionAdd("frase", "phrase");
-
-            correctionAdd("RX", "reactive programming");
-            correctionAdd("Reactive Programming", "reactive programming");
-            correctionAdd("Rx", "reactive programming");
 
             correctionAdd("systemverilog", "SystemVerilog");
             correctionAdd("System Verilog", "SystemVerilog");
@@ -34086,8 +34141,6 @@ namespace OverflowHelper.core
             correctionAdd("newsboat", "Newsboat");
 
             correctionAdd("pandoc", "Pandoc");
-
-            correctionAdd("react-testing-library", "React Testing Library");
 
             correctionAdd("SWAY", "Sway");
             correctionAdd("sway", "Sway");
@@ -34718,7 +34771,14 @@ namespace OverflowHelper.core
 
             correctionAdd("cp/m", "CP/M");
 
+            // A media
             correctionAdd("financial times", "Financial Times");
+
+            // A media
+            correctionAdd("christian chronicle", "Christian Chronicle");
+
+            // A media
+            correctionAdd("christianity today", "Christianity Today");
 
             correctionAdd("krita", "Krita");
 
@@ -34917,11 +34977,6 @@ namespace OverflowHelper.core
 
             correctionAdd("pale moon", "Pale Moon");
             correctionAdd("Palemoon", "Pale Moon");
-
-            correctionAdd("react-router", "React Router");
-            correctionAdd("react router", "React Router");
-            correctionAdd("React-Router", "React Router");
-            correctionAdd("React router", "React Router");
 
             correctionAdd("callstack", "call stack");
             correctionAdd("call- stack", "call stack");
@@ -35298,9 +35353,6 @@ namespace OverflowHelper.core
             correctionAdd("due cause", "due course");
 
             correctionAdd("journaling filesystem", "journaling file system");
-
-            correctionAdd("occures", "occurs");
-            correctionAdd("occurrs", "occurs");
 
             correctionAdd("oscilate", "oscillate");
 
@@ -37724,10 +37776,6 @@ namespace OverflowHelper.core
 
             correctionAdd("framework7", "Framework7");
 
-            correctionAdd("JS the good parts", "JavaScript: The Good Parts");
-            correctionAdd("JavaScript the Good parts", "JavaScript: The Good Parts");
-            correctionAdd("Javascript: The Good Parts", "JavaScript: The Good Parts");
-
             correctionAdd("joi", "Joi");
 
             correctionAdd("Functor", "functor");
@@ -38819,6 +38867,7 @@ namespace OverflowHelper.core
             correctionAdd("investopedia", "Investopedia");
 
             correctionAdd("arithmatic", "arithmetic");
+            correctionAdd("arthematic", "arithmetic");
 
             correctionAdd("bunus", "bonus");
             correctionAdd("Bunus", "bonus");
@@ -39087,8 +39136,6 @@ namespace OverflowHelper.core
             correctionAdd("raptor engine", "Raptor engine");
 
             correctionAdd("Sabatier process", "Sabatier reaction");
-
-            correctionAdd("rxn", "reaction");
 
             correctionAdd("self sufficient", "self-sufficient");
 
@@ -40078,8 +40125,6 @@ namespace OverflowHelper.core
             correctionAdd("causasion", "causation");
 
             correctionAdd("drumroll", "drum roll");
-
-            correctionAdd("re-activate", "reactivate");
 
             correctionAdd("caucious", "cautious");
 
@@ -41380,8 +41425,6 @@ namespace OverflowHelper.core
 
             correctionAdd("F-18", "F/A-18");
             correctionAdd("F18", "F/A-18");
-
-            correctionAdd("JavascriptMVC", "JavaScriptMVC");
 
             correctionAdd("North-Korean", "North Korean");
 
@@ -42684,8 +42727,6 @@ namespace OverflowHelper.core
 
             correctionAdd("mapquest", "MapQuest");
 
-            correctionAdd("electro negative", "electronegative");
-
             correctionAdd("evalute", "evaluate");
             correctionAdd("evaulate", "evaluate");
 
@@ -43841,9 +43882,6 @@ namespace OverflowHelper.core
             correctionAdd("go playground", "Go Playground");
 
             correctionAdd("GST", "Goods and Services Tax");
-
-            correctionAdd("react-native-cli", "React Native CLI");
-            correctionAdd("React Native cli", "React Native CLI");
 
             correctionAdd("the verge", "The Verge");
 
@@ -45061,10 +45099,6 @@ namespace OverflowHelper.core
 
             correctionAdd("SDCC", "Small Device C Compiler");
             correctionAdd("sdcc", "Small Device C Compiler");
-
-            correctionAdd("CV", "curriculum vitae");
-            correctionAdd("cv", "curriculum vitae");
-            correctionAdd("C.V", "curriculum vitae");
 
             correctionAdd("entry level", "entry-level");
 
@@ -47400,6 +47434,8 @@ namespace OverflowHelper.core
             correctionAdd("ChatGBT", "ChatGPT");
             correctionAdd("ChatGpt", "ChatGPT");
             correctionAdd("chatGpt", "ChatGPT");
+            correctionAdd("Chat.gpt", "ChatGPT");
+            correctionAdd("chat.gpt", "ChatGPT");
 
             correctionAdd("Dynamic", "Dynamic (Mathematica)");
 
@@ -48139,8 +48175,6 @@ namespace OverflowHelper.core
 
             correctionAdd("pyrrhic victory", "Pyrrhic victory");
 
-            correctionAdd("react-icons", "React Icons");
-
             correctionAdd("stafull", "statefull");
 
             correctionAdd("csend", "send");
@@ -48154,9 +48188,6 @@ namespace OverflowHelper.core
             correctionAdd("TNG", "Star Trek: The Next Generation");
             correctionAdd("The Next Generation", "Star Trek: The Next Generation");
             correctionAdd("the next generation", "Star Trek: The Next Generation");
-
-            // A JavaScript library related to Three.js
-            correctionAdd("drei", "Drei");
 
             correctionAdd("low-res", "low-resolution");
 
@@ -48243,6 +48274,31 @@ namespace OverflowHelper.core
             correctionAdd("tunisian", "Tunisian");
             correctionAdd("Tunesian", "Tunisian");
             correctionAdd("tunesian", "Tunisian");
+
+            correctionAdd("Layering", "layering");
+
+            correctionAdd("dublicated", "duplicated");
+
+            correctionAdd("familarity", "familiarity");
+
+            // Related to audio
+            correctionAdd("high fidelity", "Hi-Fi");
+            correctionAdd("HiFi", "Hi-Fi");
+            correctionAdd("hi-fi", "Hi-Fi");
+
+            correctionAdd("non stop", "nonstop");
+            correctionAdd("non-stop", "nonstop");
+
+            correctionAdd("pre-millenialist", "premillennialist");
+
+            correctionAdd("road block", "roadblock");
+
+            // Related computer permanent storage
+            //
+            // Note: There should be a full stop at the end,
+            //       but we can’t currently handle that...
+            correctionAdd("Self-Monitoring, Analysis and Reporting Technology", "S.M.A.R.T");
+            correctionAdd("SMART", "S.M.A.R.T");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -75530,6 +75586,32 @@ namespace OverflowHelper.core
 
             URL_Add("welfare queen", "https://en.wiktionary.org/wiki/welfare_queen#Noun");
 
+            URL_Add("layering", "https://en.wikipedia.org/wiki/Abstraction_layer");
+
+            URL_Add("parseInt()", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt");
+
+            URL_Add("Vuetify", "https://github.com/vuetifyjs/vuetify");
+
+            URL_Add("Christian Chronicle", "https://en.wikipedia.org/wiki/The_Christian_Chronicle");
+
+            URL_Add("Christianity Today", "https://en.wikipedia.org/wiki/Christianity_Today");
+
+            URL_Add("curriculum", "https://en.wiktionary.org/wiki/curriculum#Noun");
+
+            URL_Add("duplicated", "https://en.wiktionary.org/wiki/duplicate#Verb");
+
+            URL_Add("familiarity", "https://en.wiktionary.org/wiki/familiarity#Noun");
+
+            URL_Add("Hi-Fi", "https://en.wikipedia.org/wiki/High_fidelity");
+
+            URL_Add("nonstop", "https://en.wiktionary.org/wiki/nonstop#Adverb");
+
+            URL_Add("premillennialist", "https://en.wiktionary.org/wiki/premillennialist#Noun");
+
+            URL_Add("roadblock", "https://en.wiktionary.org/wiki/roadblock#Noun");
+
+            URL_Add("S.M.A.R.T", "https://en.wikipedia.org/wiki/Self-Monitoring,_Analysis_and_Reporting_Technology");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -77377,6 +77459,11 @@ namespace OverflowHelper.core
 
             correctionAdd("FPS_", "first-person shooter_");
 
+            // An Indianism (possibly a direct translation of a word 
+            // from the native language). Though also observed by 
+            // a Tunisian.
+            //
+            // See also: <https://meta.stackoverflow.com/questions/422798/are-edits-that-only-remove-excessive-indentation-from-lazy-copy-pastes-an-improv#comment944208_422798>
             correctionAdd("next_", "following_");
 
             correctionAdd("match_", "match()_");
@@ -77386,6 +77473,9 @@ namespace OverflowHelper.core
             correctionAdd("sexually transmitted disease_", "STD_");
             correctionAdd("STI_", "STD_");
             correctionAdd("sexually transmitted infection_", "STD_");
+
+            correctionAdd("uninterruptible power source_", "UPS_");
+            correctionAdd("uninterruptible power supply_", "UPS_");
 
             // URL mappings
             //
@@ -78449,6 +78539,8 @@ namespace OverflowHelper.core
             URL_Add("pop up_", "https://en.wiktionary.org/wiki/pop_up#Verb");
 
             URL_Add("STD_", "https://en.wiktionary.org/wiki/STD#Noun");
+
+            URL_Add("UPS_", "https://en.wikipedia.org/wiki/Uninterruptible_power_supply");
 
         } //addLookupData_alternativeWordSet()
 
