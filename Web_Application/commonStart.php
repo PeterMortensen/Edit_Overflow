@@ -69,7 +69,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a624 2023-01-23T201027Z+0";
+        return "Edit Overflow v. 1.1.49a625 2023-01-23T205047Z+0";
     }
 
 
@@ -396,13 +396,13 @@
         $toReturn = "";
         if ($aRawURL !== "") # Don't output anything for empty URLs
                              # (usually an indication of failed
-                             # lookups). 
+                             # lookups).
         {
             $encodedURL = get_HTMLattributeEscaped($aRawURL);
 
             $toReturn =
                 "<a href=\"" . $encodedURL . "\"" . $anExtraAttributesText .
-                ">" . $aRawLinkText . "</a>";            
+                ">" . $aRawLinkText . "</a>";
         }
         return $toReturn;
     } #get_HTMLlink()

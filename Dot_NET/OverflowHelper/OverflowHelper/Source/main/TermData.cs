@@ -2631,10 +2631,59 @@ namespace OverflowHelper.core
             correctionAdd("videogame", "video game");
             correctionAdd("Videogame", "video game");
 
-            // Start of PHP function section
-            correctionAdd("strtotime", "strtotime()");
+            correctionAdd("php", "PHP");
+            correctionAdd("Php", "PHP");
+            correctionAdd("pHp", "PHP");
+            correctionAdd("P.H.P", "PHP");
+            correctionAdd("PhP", "PHP");
+            correctionAdd("PHp", "PHP");
 
-            correctionAdd("replaceAll", "replaceAll()");
+            correctionAdd("PHP5", "PHP&nbsp;5");
+            correctionAdd("php5", "PHP&nbsp;5");
+            correctionAdd("php 5", "PHP&nbsp;5");
+            correctionAdd("PHP 5", "PHP&nbsp;5");
+
+            correctionAdd("phpmyadmin", "phpMyAdmin");
+            correctionAdd("PhpMyAdmin", "phpMyAdmin");
+            correctionAdd("PHpMyadmin", "phpMyAdmin");
+            correctionAdd("PphMyAdmin", "phpMyAdmin");
+            correctionAdd("phpmyAdmin", "phpMyAdmin");
+            correctionAdd("PHPMyAdmin", "phpMyAdmin");
+            correctionAdd("myPHPAdmin", "phpMyAdmin");
+            correctionAdd("MyPHPAdmin", "phpMyAdmin");
+            correctionAdd("PHP MY ADMIN", "phpMyAdmin");
+            correctionAdd("php myadmin", "phpMyAdmin");
+            correctionAdd("Phpmyadmin", "phpMyAdmin");
+            correctionAdd("PHPMYADMIN", "phpMyAdmin");
+            correctionAdd("phpMyadmin", "phpMyAdmin");
+            correctionAdd("phpadmin", "phpMyAdmin");
+            correctionAdd("phpAdmin", "phpMyAdmin");
+            correctionAdd("PHPadmin", "phpMyAdmin");
+            correctionAdd("PHPmyadmin", "phpMyAdmin");
+            correctionAdd("myPHPadmin", "phpMyAdmin");
+            correctionAdd("myphpadmin", "phpMyAdmin");
+
+            correctionAdd("cakePhp", "CakePHP");
+            correctionAdd("cakePHP", "CakePHP");
+            correctionAdd("cakephp", "CakePHP");
+            correctionAdd("Cakephp", "CakePHP");
+            correctionAdd("CAKEPHP", "CakePHP");
+            correctionAdd("Cake", "CakePHP"); // Collisions may be possible...
+            correctionAdd("cake", "CakePHP");
+            correctionAdd("cake php", "CakePHP");
+            correctionAdd("CakePhp", "CakePHP");
+            correctionAdd("CakPHP", "CakePHP");
+
+            correctionAdd("PHPBB", "phpBB");
+            correctionAdd("phpbb", "phpBB");
+            correctionAdd("bbPHP", "phpBB");
+
+            correctionAdd("PhpNuke", "PHP-Nuke");
+            correctionAdd("PHPNuke", "PHP-Nuke");
+
+            // Start of PHP function section
+            //
+            correctionAdd("strtotime", "strtotime()");
 
             correctionAdd("html_entity_decode", "html_entity_decode()"); // PHP function
 
@@ -2681,9 +2730,6 @@ namespace OverflowHelper.core
 
             // PHP function
             correctionAdd("substr", "substr()");
-
-            correctionAdd("toLowerCase", "toLowerCase()");
-            correctionAdd("tolowercase", "toLowerCase()");
 
             correctionAdd("PHPINFO", "phpinfo()");
             correctionAdd("phpInfo()", "phpinfo()");
@@ -2811,135 +2857,209 @@ namespace OverflowHelper.core
 
             correctionAdd("trim", "trim()"); // PHP function
 
+            correctionAdd("python", "Python");
+            correctionAdd("PYTHON", "Python");
+            correctionAdd("Pyton", "Python"); // Misspelling.
+            correctionAdd("pyhton", "Python");
+            correctionAdd("py", "Python");
+            correctionAdd("phython", "Python");
+            correctionAdd("Pthon", "Python");
+            correctionAdd("Pytohon", "Python");
+            correctionAdd("phyton", "Python");
+            correctionAdd("pyhthon", "Python");
+            correctionAdd("Pyhton", "Python");
+            correctionAdd("Pythen", "Python");
+            correctionAdd("Phyton", "Python");
+            correctionAdd("pyton", "Python");
+            correctionAdd("Зython", "Python"); // Was the intent "Python 3"?
+            correctionAdd("Pyhon", "Python");
+            correctionAdd("py thon", "Python");
+            correctionAdd("Phython", "Python");
+            correctionAdd("puthon", "Python");
+
+            correctionAdd("python2", "Python&nbsp;2");
+            correctionAdd("Python 2", "Python&nbsp;2");
+            correctionAdd("py2", "Python&nbsp;2");
+            correctionAdd("python 2", "Python&nbsp;2");
+            correctionAdd("Python2", "Python&nbsp;2");
+            correctionAdd("Py2", "Python&nbsp;2");
+            correctionAdd("python v2", "Python&nbsp;2");
+            correctionAdd("python-2", "Python&nbsp;2");
+            correctionAdd("py 2", "Python&nbsp;2");
+            correctionAdd("Python 2.x", "Python&nbsp;2"); // Adaption to Stack Overflow tags
+            correctionAdd("python-2.x", "Python&nbsp;2"); // Adaption to Stack Overflow tags
+
+            correctionAdd("python-2.7", "Python&nbsp;2.7");
+            correctionAdd("Python 2.7", "Python&nbsp;2.7"); // Sort of identity mapping
+            correctionAdd("python 2.7", "Python&nbsp;2.7");
+            correctionAdd("py27", "Python&nbsp;2.7");
+            correctionAdd("python 27", "Python&nbsp;2.7");
+
+            correctionAdd("python3", "Python&nbsp;3");
+            correctionAdd("Python 3", "Python&nbsp;3");
+            correctionAdd("python 3", "Python&nbsp;3");
+            correctionAdd("py3", "Python&nbsp;3");
+            correctionAdd("Python3", "Python&nbsp;3");
+            correctionAdd("Phython 3", "Python&nbsp;3");
+            correctionAdd("Pyhton3", "Python&nbsp;3");
+            correctionAdd("python v3", "Python&nbsp;3");
+            correctionAdd("Py 3", "Python&nbsp;3");
+            correctionAdd("Python 3.x", "Python&nbsp;3"); // Adaption to Stack Overflow tags
+            correctionAdd("python-3.x", "Python&nbsp;3"); // Adaption to Stack Overflow tags
+            correctionAdd("Pyhon 3", "Python&nbsp;3");
+            correctionAdd("3.x", "Python&nbsp;3");
+
+            correctionAdd("python-3.5", "Python&nbsp;3.5");
+            correctionAdd("Python 3.5", "Python&nbsp;3.5"); // Sort of identity mapping
+
+            correctionAdd("python-3.6", "Python&nbsp;3.6");
+            correctionAdd("Python 3.6", "Python&nbsp;3.6"); // Sort of identity mapping
+
+            correctionAdd("ipython", "IPython");
+            correctionAdd("iPython", "IPython");
+            correctionAdd("Ipython", "IPython");
+            correctionAdd("IPyton", "IPython");
+            correctionAdd("ipyhton", "IPython");
+
+            correctionAdd("iPython notebook", "IPython Notebook");
+            correctionAdd("iPython-notebook", "IPython Notebook");
+            correctionAdd("Ipython Notebook", "IPython Notebook");
+            correctionAdd("python notebook", "IPython Notebook");
+
+            correctionAdd("jupyter", "Jupyter");
+            correctionAdd("Jypiter", "Jupyter");
+
+            correctionAdd("Jupyter nootebook", "Jupyter Notebook");
+            correctionAdd("jupyter notebook", "Jupyter Notebook");
+            correctionAdd("ipython notebook", "Jupyter Notebook");
+            correctionAdd("JUPYTER NOTEBOOK", "Jupyter Notebook");
+            correctionAdd("Jupyter Notebooks", "Jupyter Notebook");
+            correctionAdd("Jupyter notebook", "Jupyter Notebook");
+            correctionAdd("Jypiter Notebook", "Jupyter Notebook");
+            correctionAdd("Jupiter Notebook", "Jupyter Notebook");
+            correctionAdd("jup. notebook", "Jupyter Notebook");
+            correctionAdd("jup notebook", "Jupyter Notebook");
+            correctionAdd("jup.notebook", "Jupyter Notebook");
+            correctionAdd("Jupyter notebooks", "Jupyter Notebook");
+            correctionAdd("jupyer notebook", "Jupyter Notebook");
+            correctionAdd("jupyter notebooks", "Jupyter Notebook");
+            correctionAdd("Jupiter notebook", "Jupyter Notebook");
+            correctionAdd("Jypiter notebook", "Jupyter Notebook");
+            correctionAdd("jupiter notebook", "Jupyter Notebook");
+            correctionAdd("Jupyter labbook", "Jupyter Notebook");
+            correctionAdd("ipython-notebook", "Jupyter Notebook");
+            correctionAdd("Jupyter's Notebook", "Jupyter Notebook");
+
+            correctionAdd("Jupyterlab", "JupyterLab");
+            correctionAdd("jupyterlab", "JupyterLab");
+            correctionAdd("Jupyter lab", "JupyterLab");
+            correctionAdd("jupyter lab", "JupyterLab");
+
+            correctionAdd("biopython", "Biopython");
+
+            correctionAdd("Python boost", "Boost.Python");
+
+            correctionAdd("pep", "PEP");
+            correctionAdd("Pep", "PEP");
+            correctionAdd("Python Enhancement Proposal", "PEP");
+            correctionAdd("Python enhancement proposal", "PEP");
+
+            correctionAdd("pythonic", "Pythonic");
+            correctionAdd("pythononic", "Pythonic");
+
+            correctionAdd("pythonista", "Pythonista");
+
+            correctionAdd("Python Anywhere", "PythonAnywhere");
+
+            // A Python library
+            correctionAdd("numpy", "NumPy");
+            correctionAdd("NUmPy", "NumPy");
+            correctionAdd("Numpy", "NumPy");
+            correctionAdd("numPy", "NumPy");
+            correctionAdd("NUMPY", "NumPy");
+            correctionAdd("NumPY", "NumPy");
+
+            // NumPy (Python library)
+            correctionAdd("np.clip", "numpy.clip()");
+            correctionAdd("clip", "numpy.clip()");
+            correctionAdd("numpy.clip", "numpy.clip()");
+
+            // NumPy (Python library)
+            correctionAdd("numpy.meshgrid", "numpy.meshgrid()");
+            correctionAdd("meshgrid", "numpy.meshgrid()");
+            correctionAdd("np.meshgrid", "numpy.meshgrid()");
+
+            // NumPy (Python library)
+            correctionAdd("mgrid", "numpy.mgrid()");
+            correctionAdd("numpy.mgrid", "numpy.mgrid()");
+
+            // NumPy (Python library)
+            correctionAdd("ogrid", "numpy.ogrid()");
+            correctionAdd("numpy.ogrid", "numpy.ogrid()");
+
+            // NumPy (Python library)
+            correctionAdd("transpose", "numpy.transpose()");
+            correctionAdd("numpy.transpose", "numpy.transpose()");
+
+           // A Python library
+            correctionAdd("pandas", "Pandas");
+            correctionAdd("padas", "Pandas");
+            correctionAdd("Panda", "Pandas");
+            correctionAdd("panda", "Pandas");
+
+            // Pandas (Python library)
+            correctionAdd("Iloc", "iloc");
+
+            // Pandas (Python library)
+            correctionAdd("groupby", "pandas.DataFrame.groupby()");
+            correctionAdd("pandas.DataFrame.groupby", "pandas.DataFrame.groupby()");
+
+            // Pandas (Python library)
+            correctionAdd("iterrows", "pandas.DataFrame.iterrows()");
+            correctionAdd("pandas.DataFrame.iterrows", "pandas.DataFrame.iterrows()");
+
+            // Pandas (Python library)
+            correctionAdd("itertuples", "pandas.DataFrame.itertuples()");
+            correctionAdd("pandas.DataFrame.itertuples", "pandas.DataFrame.itertuples()");
+
+            // Pandas (Python library)
+            correctionAdd("read_csv", "pandas.read_csv()");
+            correctionAdd("pandas.read_csv", "pandas.read_csv()");
+
+            // A Python thing
+            //
+            // Note: Some confusion between the concept "virtual environment"
+            //       and more than one Python package that implements it.
+            correctionAdd("Virtualenv", "virtualenv"); // Not actually observed.
+            correctionAdd("virtualENV", "virtualenv");
+            correctionAdd("virt env", "virtualenv");
+            correctionAdd("virtual env", "virtualenv");
+
+            // A Python thing
+            //
+            correctionAdd("Venv", "venv");
+            correctionAdd("Virtual Environment", "venv");
+            correctionAdd("virtual environment", "venv");
+            correctionAdd("VE", "venv");
+            correctionAdd("virtual Environment", "venv");
+
+            // A Python thing
+            //
+            correctionAdd("Pyenv", "pyenv");
+            correctionAdd("pyvenv", "pyenv");
+
+            // Start of Python function section
             correctionAdd("sorted", "sorted()"); // Python
 
             correctionAdd("os.path.join()", "os.path.join"); // Python
+
+            correctionAdd(".format()", ".format"); // Python function
 
             correctionAdd("offest", "offset");
 
             correctionAdd("super set", "superset");
 
             correctionAdd("SSPR", "self-service password reset");
-
-            correctionAdd("guidanance", "guidance");
-            correctionAdd("guidence", "guidance");
-            correctionAdd("Guidence", "guidance");
-            correctionAdd("gudiance", "guidance");
-            correctionAdd("guidiance", "guidance");
-
-            correctionAdd("ER model", "entity–relationship model");
-            correctionAdd("ER", "entity–relationship model");
-            correctionAdd("Entity Relationship", "entity–relationship model");
-            correctionAdd("Entity Relationship diagram", "entity–relationship model");
-            correctionAdd("er", "entity–relationship model");
-
-            correctionAdd("entity-relation diagram", "entity–relationship diagram");
-            correctionAdd("ER-Diagram", "entity–relationship diagram");
-            correctionAdd("ER Diagram", "entity–relationship diagram");
-            correctionAdd("ER diagram", "entity–relationship diagram");
-            correctionAdd("Entity-relation diagram", "entity–relationship diagram");
-            correctionAdd("ERD", "entity–relationship diagram");
-
-            correctionAdd("enterprise resource planning", "ERP");
-
-            correctionAdd("prtime", "PRTime");
-
-            correctionAdd("realtime", "real-time");
-            correctionAdd("real time", "real-time");
-
-            correctionAdd("LGTM", "looks good to me");
-
-            correctionAdd("MMORPG", "massively multiplayer online role-playing game");
-
-            correctionAdd("Multiple Arcade Machine Emulator", "MAME");
-            correctionAdd("mame", "MAME");
-
-            correctionAdd("powersupply", "power supply");
-            correctionAdd("power supple", "power supply");
-
-            correctionAdd("bee", "be");
-            correctionAdd("ba", "be");
-            correctionAdd("bea", "be");
-
-            correctionAdd("the powers", "the powers that be");
-            correctionAdd("TPTB", "the powers that be");
-            correctionAdd("powers that be", "the powers that be");
-            correctionAdd("powers-that-be", "the powers that be");
-            correctionAdd("Powers-That-Be", "the powers that be");
-            correctionAdd("powers that b", "the powers that be");
-
-            correctionAdd("Youtube", "YouTube");
-            correctionAdd("youtube", "YouTube");
-            correctionAdd("YT", "YouTube"); // Expansion
-            correctionAdd("you-tube", "YouTube"); // Expansion
-            correctionAdd("You Tube", "YouTube");
-            correctionAdd("YOU TUBE", "YouTube");
-            correctionAdd("you tube", "YouTube");
-            correctionAdd("yt", "YouTube");
-            correctionAdd("youTube", "YouTube");
-            correctionAdd("You tube", "YouTube");
-            correctionAdd("Youtub", "YouTube");
-            correctionAdd("YouTuBe", "YouTube");
-            correctionAdd("YOUTUBE", "YouTube");
-            correctionAdd("u tube", "YouTube");
-            correctionAdd("utube", "YouTube");
-            correctionAdd("Utube", "YouTube");
-            correctionAdd("screwtube", "YouTube"); // Other interpretations are possible...
-            correctionAdd("U-tube", "YouTube");
-            correctionAdd("u-tube", "YouTube");
-            correctionAdd("jewtube", "YouTube");
-
-            correctionAdd("maybee", "maybe");
-            correctionAdd("maby", "maybe");
-            correctionAdd("mabye", "maybe");
-            correctionAdd("mybe", "maybe");
-            correctionAdd("mabey", "maybe");
-            correctionAdd("May be", "maybe");
-            correctionAdd("Maybe", "maybe");
-            correctionAdd("may be", "maybe");
-            correctionAdd("mabe", "maybe");
-            correctionAdd("Mabye", "maybe");
-
-            correctionAdd("adobe", "Adobe");
-            correctionAdd("ADOBE", "Adobe");
-
-            correctionAdd("Rubik's cube", "Rubik's Cube");
-
-            correctionAdd("minikube", "Minikube");
-
-            correctionAdd("icecube", "ice cube");
-
-            correctionAdd("hyper cube", "hypercube");
-
-            correctionAdd("sonar", "SonarQube");
-            correctionAdd("Sonar", "SonarQube");
-            correctionAdd("sonarqube", "SonarQube");
-            correctionAdd("Sonarqube", "SonarQube");
-
-            correctionAdd("descripte", "describe");
-            correctionAdd("decribe", "describe");
-            correctionAdd("descibe", "describe");
-
-            correctionAdd("peertube", "PeerTube");
-
-            correctionAdd("subcribe", "subscribe");
-            correctionAdd("Subcribe", "subscribe");
-            correctionAdd("sub", "subscribe");
-
-            correctionAdd("Wannabe", "wannabe");
-
-            correctionAdd("black magic probe", "Black Magic Probe");
-
-            correctionAdd("utf-16be", "UTF-16BE");
-
-            correctionAdd("utf-16le", "UTF-16LE");
-
-            correctionAdd("scropt", "script");
-            correctionAdd("scrip", "script");
-            correctionAdd("Script", "script");
-            correctionAdd("scritpt", "script");
-            correctionAdd("sript", "script");
-            correctionAdd("scritp", "script");
 
             correctionAdd("js", "JavaScript");
             correctionAdd("JS", "JavaScript");
@@ -3256,196 +3376,144 @@ namespace OverflowHelper.core
             correctionAdd("appScript", "Google Apps Script");
             correctionAdd("app Script", "Google Apps Script");
 
-            correctionAdd("python", "Python");
-            correctionAdd("PYTHON", "Python");
-            correctionAdd("Pyton", "Python"); // Misspelling.
-            correctionAdd("pyhton", "Python");
-            correctionAdd("py", "Python");
-            correctionAdd("phython", "Python");
-            correctionAdd("Pthon", "Python");
-            correctionAdd("Pytohon", "Python");
-            correctionAdd("phyton", "Python");
-            correctionAdd("pyhthon", "Python");
-            correctionAdd("Pyhton", "Python");
-            correctionAdd("Pythen", "Python");
-            correctionAdd("Phyton", "Python");
-            correctionAdd("pyton", "Python");
-            correctionAdd("Зython", "Python"); // Was the intent "Python 3"?
-            correctionAdd("Pyhon", "Python");
-            correctionAdd("py thon", "Python");
-            correctionAdd("Phython", "Python");
-            correctionAdd("puthon", "Python");
-
-            correctionAdd("python2", "Python&nbsp;2");
-            correctionAdd("Python 2", "Python&nbsp;2");
-            correctionAdd("py2", "Python&nbsp;2");
-            correctionAdd("python 2", "Python&nbsp;2");
-            correctionAdd("Python2", "Python&nbsp;2");
-            correctionAdd("Py2", "Python&nbsp;2");
-            correctionAdd("python v2", "Python&nbsp;2");
-            correctionAdd("python-2", "Python&nbsp;2");
-            correctionAdd("py 2", "Python&nbsp;2");
-            correctionAdd("Python 2.x", "Python&nbsp;2"); // Adaption to Stack Overflow tags
-            correctionAdd("python-2.x", "Python&nbsp;2"); // Adaption to Stack Overflow tags
-
-            correctionAdd("python-2.7", "Python&nbsp;2.7");
-            correctionAdd("Python 2.7", "Python&nbsp;2.7"); // Sort of identity mapping
-            correctionAdd("python 2.7", "Python&nbsp;2.7");
-            correctionAdd("py27", "Python&nbsp;2.7");
-            correctionAdd("python 27", "Python&nbsp;2.7");
-
-            correctionAdd("python3", "Python&nbsp;3");
-            correctionAdd("Python 3", "Python&nbsp;3");
-            correctionAdd("python 3", "Python&nbsp;3");
-            correctionAdd("py3", "Python&nbsp;3");
-            correctionAdd("Python3", "Python&nbsp;3");
-            correctionAdd("Phython 3", "Python&nbsp;3");
-            correctionAdd("Pyhton3", "Python&nbsp;3");
-            correctionAdd("python v3", "Python&nbsp;3");
-            correctionAdd("Py 3", "Python&nbsp;3");
-            correctionAdd("Python 3.x", "Python&nbsp;3"); // Adaption to Stack Overflow tags
-            correctionAdd("python-3.x", "Python&nbsp;3"); // Adaption to Stack Overflow tags
-            correctionAdd("Pyhon 3", "Python&nbsp;3");
-            correctionAdd("3.x", "Python&nbsp;3");
-
-            correctionAdd("python-3.5", "Python&nbsp;3.5");
-            correctionAdd("Python 3.5", "Python&nbsp;3.5"); // Sort of identity mapping
-
-            correctionAdd("python-3.6", "Python&nbsp;3.6");
-            correctionAdd("Python 3.6", "Python&nbsp;3.6"); // Sort of identity mapping
-
-            correctionAdd("ipython", "IPython");
-            correctionAdd("iPython", "IPython");
-            correctionAdd("Ipython", "IPython");
-            correctionAdd("IPyton", "IPython");
-            correctionAdd("ipyhton", "IPython");
-
-            correctionAdd("iPython notebook", "IPython Notebook");
-            correctionAdd("iPython-notebook", "IPython Notebook");
-            correctionAdd("Ipython Notebook", "IPython Notebook");
-            correctionAdd("python notebook", "IPython Notebook");
-
-            correctionAdd("jupyter", "Jupyter");
-            correctionAdd("Jypiter", "Jupyter");
-
-            correctionAdd("Jupyter nootebook", "Jupyter Notebook");
-            correctionAdd("jupyter notebook", "Jupyter Notebook");
-            correctionAdd("ipython notebook", "Jupyter Notebook");
-            correctionAdd("JUPYTER NOTEBOOK", "Jupyter Notebook");
-            correctionAdd("Jupyter Notebooks", "Jupyter Notebook");
-            correctionAdd("Jupyter notebook", "Jupyter Notebook");
-            correctionAdd("Jypiter Notebook", "Jupyter Notebook");
-            correctionAdd("Jupiter Notebook", "Jupyter Notebook");
-            correctionAdd("jup. notebook", "Jupyter Notebook");
-            correctionAdd("jup notebook", "Jupyter Notebook");
-            correctionAdd("jup.notebook", "Jupyter Notebook");
-            correctionAdd("Jupyter notebooks", "Jupyter Notebook");
-            correctionAdd("jupyer notebook", "Jupyter Notebook");
-            correctionAdd("jupyter notebooks", "Jupyter Notebook");
-            correctionAdd("Jupiter notebook", "Jupyter Notebook");
-            correctionAdd("Jypiter notebook", "Jupyter Notebook");
-            correctionAdd("jupiter notebook", "Jupyter Notebook");
-            correctionAdd("Jupyter labbook", "Jupyter Notebook");
-            correctionAdd("ipython-notebook", "Jupyter Notebook");
-            correctionAdd("Jupyter's Notebook", "Jupyter Notebook");
-
-            correctionAdd("Jupyterlab", "JupyterLab");
-            correctionAdd("jupyterlab", "JupyterLab");
-            correctionAdd("Jupyter lab", "JupyterLab");
-            correctionAdd("jupyter lab", "JupyterLab");
-
-            correctionAdd("biopython", "Biopython");
-
-            correctionAdd("Python boost", "Boost.Python");
-
-            correctionAdd("pep", "PEP");
-            correctionAdd("Pep", "PEP");
-            correctionAdd("Python Enhancement Proposal", "PEP");
-            correctionAdd("Python enhancement proposal", "PEP");
-
-            correctionAdd("pythonic", "Pythonic");
-            correctionAdd("pythononic", "Pythonic");
-
-            correctionAdd("pythonista", "Pythonista");
-
-            correctionAdd("Python Anywhere", "PythonAnywhere");
-
-            // A Python library
-            correctionAdd("numpy", "NumPy");
-            correctionAdd("NUmPy", "NumPy");
-            correctionAdd("Numpy", "NumPy");
-            correctionAdd("numPy", "NumPy");
-            correctionAdd("NUMPY", "NumPy");
-            correctionAdd("NumPY", "NumPy");
-
-            // NumPy (Python library)
-            correctionAdd("np.clip", "numpy.clip()");
-            correctionAdd("clip", "numpy.clip()");
-            correctionAdd("numpy.clip", "numpy.clip()");
-
-            // NumPy (Python library)
-            correctionAdd("numpy.meshgrid", "numpy.meshgrid()");
-            correctionAdd("meshgrid", "numpy.meshgrid()");
-            correctionAdd("np.meshgrid", "numpy.meshgrid()");
-
-            // NumPy (Python library)
-            correctionAdd("mgrid", "numpy.mgrid()");
-            correctionAdd("numpy.mgrid", "numpy.mgrid()");
-
-            // NumPy (Python library)
-            correctionAdd("ogrid", "numpy.ogrid()");
-            correctionAdd("numpy.ogrid", "numpy.ogrid()");
-
-            // NumPy (Python library)
-            correctionAdd("transpose", "numpy.transpose()");
-            correctionAdd("numpy.transpose", "numpy.transpose()");
-
-           // A Python library
-            correctionAdd("pandas", "Pandas");
-            correctionAdd("padas", "Pandas");
-            correctionAdd("Panda", "Pandas");
-            correctionAdd("panda", "Pandas");
-
-            // Pandas (Python library)
-            correctionAdd("Iloc", "iloc");
-
-            // Pandas (Python library)
-            correctionAdd("groupby", "pandas.DataFrame.groupby()");
-            correctionAdd("pandas.DataFrame.groupby", "pandas.DataFrame.groupby()");
-
-            // Pandas (Python library)
-            correctionAdd("iterrows", "pandas.DataFrame.iterrows()");
-            correctionAdd("pandas.DataFrame.iterrows", "pandas.DataFrame.iterrows()");
-
-            // Pandas (Python library)
-            correctionAdd("itertuples", "pandas.DataFrame.itertuples()");
-            correctionAdd("pandas.DataFrame.itertuples", "pandas.DataFrame.itertuples()");
-
-            // Pandas (Python library)
-            correctionAdd("read_csv", "pandas.read_csv()");
-            correctionAdd("pandas.read_csv", "pandas.read_csv()");
-
-            // A Python thing
+            // Start of JavaScript function section
             //
-            // Note: Some confusion between the concept "virtual environment"
-            //       and more than one Python package that implements it.
-            correctionAdd("Virtualenv", "virtualenv"); // Not actually observed.
-            correctionAdd("virtualENV", "virtualenv");
-            correctionAdd("virt env", "virtualenv");
-            correctionAdd("virtual env", "virtualenv");
-
-            // A Python thing
+            // Note: There is also a section in the alternative
+            //       word, near .
             //
-            correctionAdd("Venv", "venv");
-            correctionAdd("Virtual Environment", "venv");
-            correctionAdd("virtual environment", "venv");
-            correctionAdd("VE", "venv");
-            correctionAdd("virtual Environment", "venv");
+            // A JavaScript function
+            correctionAdd("toLowerCase", "toLowerCase()");
+            correctionAdd("tolowercase", "toLowerCase()");
 
-            // A Python thing
-            //
-            correctionAdd("Pyenv", "pyenv");
-            correctionAdd("pyvenv", "pyenv");
+            // A JavaScript function
+            correctionAdd("replaceAll", "replaceAll()");
+
+            // A JavaScript function
+            correctionAdd("getDay", "getDay()");
+            correctionAdd("GetDay", "getDay()");
+
+            // A JavaScript function
+            correctionAdd("parseInt", "parseInt()");
+
+            correctionAdd("guidanance", "guidance");
+            correctionAdd("guidence", "guidance");
+            correctionAdd("Guidence", "guidance");
+            correctionAdd("gudiance", "guidance");
+            correctionAdd("guidiance", "guidance");
+
+            correctionAdd("ER model", "entity–relationship model");
+            correctionAdd("ER", "entity–relationship model");
+            correctionAdd("Entity Relationship", "entity–relationship model");
+            correctionAdd("Entity Relationship diagram", "entity–relationship model");
+            correctionAdd("er", "entity–relationship model");
+
+            correctionAdd("entity-relation diagram", "entity–relationship diagram");
+            correctionAdd("ER-Diagram", "entity–relationship diagram");
+            correctionAdd("ER Diagram", "entity–relationship diagram");
+            correctionAdd("ER diagram", "entity–relationship diagram");
+            correctionAdd("Entity-relation diagram", "entity–relationship diagram");
+            correctionAdd("ERD", "entity–relationship diagram");
+
+            correctionAdd("enterprise resource planning", "ERP");
+
+            correctionAdd("prtime", "PRTime");
+
+            correctionAdd("realtime", "real-time");
+            correctionAdd("real time", "real-time");
+
+            correctionAdd("LGTM", "looks good to me");
+
+            correctionAdd("MMORPG", "massively multiplayer online role-playing game");
+
+            correctionAdd("Multiple Arcade Machine Emulator", "MAME");
+            correctionAdd("mame", "MAME");
+
+            correctionAdd("powersupply", "power supply");
+            correctionAdd("power supple", "power supply");
+
+            correctionAdd("bee", "be");
+            correctionAdd("ba", "be");
+            correctionAdd("bea", "be");
+
+            correctionAdd("the powers", "the powers that be");
+            correctionAdd("TPTB", "the powers that be");
+            correctionAdd("powers that be", "the powers that be");
+            correctionAdd("powers-that-be", "the powers that be");
+            correctionAdd("Powers-That-Be", "the powers that be");
+            correctionAdd("powers that b", "the powers that be");
+
+            correctionAdd("Youtube", "YouTube");
+            correctionAdd("youtube", "YouTube");
+            correctionAdd("YT", "YouTube"); // Expansion
+            correctionAdd("you-tube", "YouTube"); // Expansion
+            correctionAdd("You Tube", "YouTube");
+            correctionAdd("YOU TUBE", "YouTube");
+            correctionAdd("you tube", "YouTube");
+            correctionAdd("yt", "YouTube");
+            correctionAdd("youTube", "YouTube");
+            correctionAdd("You tube", "YouTube");
+            correctionAdd("Youtub", "YouTube");
+            correctionAdd("YouTuBe", "YouTube");
+            correctionAdd("YOUTUBE", "YouTube");
+            correctionAdd("u tube", "YouTube");
+            correctionAdd("utube", "YouTube");
+            correctionAdd("Utube", "YouTube");
+            correctionAdd("screwtube", "YouTube"); // Other interpretations are possible...
+            correctionAdd("U-tube", "YouTube");
+            correctionAdd("u-tube", "YouTube");
+            correctionAdd("jewtube", "YouTube");
+
+            correctionAdd("maybee", "maybe");
+            correctionAdd("maby", "maybe");
+            correctionAdd("mabye", "maybe");
+            correctionAdd("mybe", "maybe");
+            correctionAdd("mabey", "maybe");
+            correctionAdd("May be", "maybe");
+            correctionAdd("Maybe", "maybe");
+            correctionAdd("may be", "maybe");
+            correctionAdd("mabe", "maybe");
+            correctionAdd("Mabye", "maybe");
+
+            correctionAdd("adobe", "Adobe");
+            correctionAdd("ADOBE", "Adobe");
+
+            correctionAdd("Rubik's cube", "Rubik's Cube");
+
+            correctionAdd("minikube", "Minikube");
+
+            correctionAdd("icecube", "ice cube");
+
+            correctionAdd("hyper cube", "hypercube");
+
+            correctionAdd("sonar", "SonarQube");
+            correctionAdd("Sonar", "SonarQube");
+            correctionAdd("sonarqube", "SonarQube");
+            correctionAdd("Sonarqube", "SonarQube");
+
+            correctionAdd("descripte", "describe");
+            correctionAdd("decribe", "describe");
+            correctionAdd("descibe", "describe");
+
+            correctionAdd("peertube", "PeerTube");
+
+            correctionAdd("subcribe", "subscribe");
+            correctionAdd("Subcribe", "subscribe");
+            correctionAdd("sub", "subscribe");
+
+            correctionAdd("Wannabe", "wannabe");
+
+            correctionAdd("black magic probe", "Black Magic Probe");
+
+            correctionAdd("utf-16be", "UTF-16BE");
+
+            correctionAdd("utf-16le", "UTF-16LE");
+
+            correctionAdd("scropt", "script");
+            correctionAdd("scrip", "script");
+            correctionAdd("Script", "script");
+            correctionAdd("scritpt", "script");
+            correctionAdd("sript", "script");
+            correctionAdd("scritp", "script");
 
             correctionAdd("Virtualbox", "VirtualBox");
             correctionAdd("virtualbox", "VirtualBox");
@@ -3522,6 +3590,7 @@ namespace OverflowHelper.core
 
             correctionAdd("automate the boring stuff", "Automate the Boring Stuff with Python");
 
+            // Related to Python
             correctionAdd("Dunder method", "dunder method"); // See also <https://www.pythonmorsels.com/what-are-dunder-methods/>
             correctionAdd("dunder", "dunder method");
 
@@ -3529,6 +3598,8 @@ namespace OverflowHelper.core
             correctionAdd("Pycon", "PyCon");
 
             correctionAdd("posix path", "posixpath"); // A Python library
+
+            correctionAdd("malloc()", "malloc");
 
             correctionAdd("xml-python", "```lang-python");
             correctionAdd("lang-python", "```lang-python");
@@ -3815,56 +3886,6 @@ namespace OverflowHelper.core
 
             correctionAdd("un", "in");
             correctionAdd("n", "in");
-
-            correctionAdd("php", "PHP");
-            correctionAdd("Php", "PHP");
-            correctionAdd("pHp", "PHP");
-            correctionAdd("P.H.P", "PHP");
-            correctionAdd("PhP", "PHP");
-            correctionAdd("PHp", "PHP");
-
-            correctionAdd("PHP5", "PHP&nbsp;5");
-            correctionAdd("php5", "PHP&nbsp;5");
-            correctionAdd("php 5", "PHP&nbsp;5");
-            correctionAdd("PHP 5", "PHP&nbsp;5");
-
-            correctionAdd("phpmyadmin", "phpMyAdmin");
-            correctionAdd("PhpMyAdmin", "phpMyAdmin");
-            correctionAdd("PHpMyadmin", "phpMyAdmin");
-            correctionAdd("PphMyAdmin", "phpMyAdmin");
-            correctionAdd("phpmyAdmin", "phpMyAdmin");
-            correctionAdd("PHPMyAdmin", "phpMyAdmin");
-            correctionAdd("myPHPAdmin", "phpMyAdmin");
-            correctionAdd("MyPHPAdmin", "phpMyAdmin");
-            correctionAdd("PHP MY ADMIN", "phpMyAdmin");
-            correctionAdd("php myadmin", "phpMyAdmin");
-            correctionAdd("Phpmyadmin", "phpMyAdmin");
-            correctionAdd("PHPMYADMIN", "phpMyAdmin");
-            correctionAdd("phpMyadmin", "phpMyAdmin");
-            correctionAdd("phpadmin", "phpMyAdmin");
-            correctionAdd("phpAdmin", "phpMyAdmin");
-            correctionAdd("PHPadmin", "phpMyAdmin");
-            correctionAdd("PHPmyadmin", "phpMyAdmin");
-            correctionAdd("myPHPadmin", "phpMyAdmin");
-            correctionAdd("myphpadmin", "phpMyAdmin");
-
-            correctionAdd("cakePhp", "CakePHP");
-            correctionAdd("cakePHP", "CakePHP");
-            correctionAdd("cakephp", "CakePHP");
-            correctionAdd("Cakephp", "CakePHP");
-            correctionAdd("CAKEPHP", "CakePHP");
-            correctionAdd("Cake", "CakePHP"); // Collisions may be possible...
-            correctionAdd("cake", "CakePHP");
-            correctionAdd("cake php", "CakePHP");
-            correctionAdd("CakePhp", "CakePHP");
-            correctionAdd("CakPHP", "CakePHP");
-
-            correctionAdd("PHPBB", "phpBB");
-            correctionAdd("phpbb", "phpBB");
-            correctionAdd("bbPHP", "phpBB");
-
-            correctionAdd("PhpNuke", "PHP-Nuke");
-            correctionAdd("PHPNuke", "PHP-Nuke");
 
             correctionAdd("mysql", "MySQL");
             correctionAdd("mySQL", "MySQL");
@@ -11198,9 +11219,11 @@ namespace OverflowHelper.core
 
             correctionAdd("curiculum", "curriculum");
 
+            // A JavaScript sandbox
             correctionAdd("jsBin", "JS Bin");
             correctionAdd("jsbin", "JS Bin");
 
+            // A JavaScript sandbox
             correctionAdd("jsfiddle", "JSFiddle");
             correctionAdd("JS Fiddle", "JSFiddle");
             correctionAdd("JSfiddle", "JSFiddle");
@@ -18571,9 +18594,15 @@ namespace OverflowHelper.core
             correctionAdd("Vue.JS", "Vue.js");
             correctionAdd("Vue js", "Vue.js");
 
-            // Related to Vue.js (a JavaScript library) 
+            // Related to Vue.js (a JavaScript library)
             correctionAdd("vuetify", "Vuetify");
             correctionAdd("Vuetify.js", "Vuetify");
+
+            // A JavaScript library related to Three.js
+            correctionAdd("drei", "Drei");
+
+            // Related to JavaScript
+            correctionAdd("Spread operator", "spread syntax");
 
             correctionAdd("SYbase", "Sybase");
 
@@ -33178,11 +33207,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Page Object Pattern", "page object pattern");
 
-            // A JavaScript library related to Three.js
-            correctionAdd("drei", "Drei");
-
-            correctionAdd("parseInt", "parseInt()");
-
             correctionAdd("Cloud computing", "cloud computing");
             correctionAdd("cloud", "cloud computing");
             correctionAdd("Cloud", "cloud computing");
@@ -43162,8 +43186,6 @@ namespace OverflowHelper.core
 
             correctionAdd("upset the apple cart", "upset the applecart");
 
-            correctionAdd(".format()", ".format");
-
             correctionAdd("sh", "Bourne shell");
 
             correctionAdd("shift cipher", "Caesar cipher");
@@ -43634,8 +43656,6 @@ namespace OverflowHelper.core
             correctionAdd("eye sight", "eyesight");
 
             correctionAdd("gruop", "group");
-
-            correctionAdd("malloc()", "malloc");
 
             correctionAdd("raytracing", "ray tracing");
 
@@ -47326,8 +47346,6 @@ namespace OverflowHelper.core
 
             correctionAdd("saddly", "sadly");
 
-            correctionAdd("Spread operator", "spread syntax");
-
             correctionAdd("sated", "stated");
 
             correctionAdd("symbel", "symbol");
@@ -47992,9 +48010,6 @@ namespace OverflowHelper.core
             correctionAdd("incentivicing", "incentivising");
 
             correctionAdd("misswriting", "miswriting");
-
-            correctionAdd("getDay", "getDay()");
-            correctionAdd("GetDay", "getDay()");
 
             correctionAdd("malvolent", "malevolent");
 
@@ -68966,8 +68981,6 @@ namespace OverflowHelper.core
 
             URL_Add("evolve", "https://en.wiktionary.org/wiki/evolve#Verb");
 
-            URL_Add("toLowerCase()", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase");
-
             URL_Add("Generation Z", "https://en.wikipedia.org/wiki/Generation_Z");
 
             URL_Add("Merriam-Webster", "https://en.wikipedia.org/wiki/Merriam-Webster");
@@ -72928,8 +72941,6 @@ namespace OverflowHelper.core
 
             URL_Add("OLE", "https://en.wikipedia.org/wiki/OLE_Automation");
 
-            URL_Add("replaceAll()", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll");
-
             URL_Add("trustable", "https://en.wiktionary.org/wiki/trustable#Adjective");
 
             URL_Add("AmForth", "http://amforth.sourceforge.net/");
@@ -74544,8 +74555,6 @@ namespace OverflowHelper.core
 
             URL_Add("sadly", "https://en.wiktionary.org/wiki/sadly#Adverb");
 
-            URL_Add("spread syntax", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax");
-
             URL_Add("stated", "https://en.wiktionary.org/wiki/state#Verb");
 
             URL_Add("symbol", "https://en.wiktionary.org/wiki/symbol#Noun");
@@ -75196,8 +75205,6 @@ namespace OverflowHelper.core
 
             URL_Add("miswriting", "https://en.wiktionary.org/wiki/miswrite#Verb");
 
-            URL_Add("getDay()", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDay");
-
             URL_Add("malevolent", "https://en.wiktionary.org/wiki/malevolent#Adjective");
 
             URL_Add("Nichicon", "https://en.wikipedia.org/wiki/Nichicon");
@@ -75588,8 +75595,6 @@ namespace OverflowHelper.core
 
             URL_Add("layering", "https://en.wikipedia.org/wiki/Abstraction_layer");
 
-            URL_Add("parseInt()", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt");
-
             URL_Add("Vuetify", "https://github.com/vuetifyjs/vuetify");
 
             URL_Add("Christian Chronicle", "https://en.wikipedia.org/wiki/The_Christian_Chronicle");
@@ -75611,6 +75616,16 @@ namespace OverflowHelper.core
             URL_Add("roadblock", "https://en.wiktionary.org/wiki/roadblock#Noun");
 
             URL_Add("S.M.A.R.T", "https://en.wikipedia.org/wiki/Self-Monitoring,_Analysis_and_Reporting_Technology");
+
+            URL_Add("toLowerCase()", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase");
+
+            URL_Add("replaceAll()", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll");
+
+            URL_Add("spread syntax", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax");
+
+            URL_Add("getDay()", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDay");
+
+            URL_Add("parseInt()", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -77014,9 +77029,13 @@ namespace OverflowHelper.core
 
             correctionAdd("Western_", "western_");
 
+            // Start of JavaScript function section
+            //
             correctionAdd("join_", "join()_");
 
             correctionAdd("replace_", "replace()_");
+
+            correctionAdd("match_", "match()_");
 
             correctionAdd("specification_", "axiom schema of specification_");
 
@@ -77459,14 +77478,12 @@ namespace OverflowHelper.core
 
             correctionAdd("FPS_", "first-person shooter_");
 
-            // An Indianism (possibly a direct translation of a word 
-            // from the native language). Though also observed by 
+            // An Indianism (possibly a direct translation of a word
+            // from the native language). Though also observed by
             // a Tunisian.
             //
             // See also: <https://meta.stackoverflow.com/questions/422798/are-edits-that-only-remove-excessive-indentation-from-lazy-copy-pastes-an-improv#comment944208_422798>
             correctionAdd("next_", "following_");
-
-            correctionAdd("match_", "match()_");
 
             correctionAdd("popup_", "pop up_");
 
@@ -78096,10 +78113,6 @@ namespace OverflowHelper.core
 
             URL_Add("VBA (tag wiki)_", "https://stackoverflow.com/questions/tagged/vba");
 
-            URL_Add("join()_", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join");
-
-            URL_Add("replace()_", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace");
-
             URL_Add("axiom schema of specification_", "https://en.wikipedia.org/wiki/Axiom_schema_of_specification");
 
             URL_Add("Zermelo–Fraenkel axioms_", "https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory");
@@ -78534,13 +78547,17 @@ namespace OverflowHelper.core
 
             URL_Add("following_", "https://en.wiktionary.org/wiki/following#Noun");
 
-            URL_Add("match()_", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match");
-
             URL_Add("pop up_", "https://en.wiktionary.org/wiki/pop_up#Verb");
 
             URL_Add("STD_", "https://en.wiktionary.org/wiki/STD#Noun");
 
             URL_Add("UPS_", "https://en.wikipedia.org/wiki/Uninterruptible_power_supply");
+
+            URL_Add("join()_", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join");
+
+            URL_Add("replace()_", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace");
+
+            URL_Add("match()_", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match");
 
         } //addLookupData_alternativeWordSet()
 
