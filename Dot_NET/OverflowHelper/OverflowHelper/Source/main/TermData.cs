@@ -473,13 +473,13 @@ namespace OverflowHelper.core
             correctionAdd("Windows 10 home", "Windows 10 Home");
             correctionAdd("Windows OS 10 Home Edition", "Windows 10 Home");
 
-            correctionAdd("VirualPC", "Virual PC");
-
             correctionAdd("virtual PC", "Virtual&nbsp;PC");
             correctionAdd("Virtual PC", "Virtual&nbsp;PC");
             correctionAdd("virtual pc", "Virtual&nbsp;PC");
             correctionAdd("virtualPC", "Virtual&nbsp;PC");
             correctionAdd("Windows Virtual PC", "Virtual&nbsp;PC");
+            correctionAdd("VirualPC", "Virtual&nbsp;PC");
+            correctionAdd("Virual PC", "Virtual&nbsp;PC");
             //correctionAdd("VPC", "Virtual&nbsp;PC"); This is now reserved for "virtual private cloud"...
 
             correctionAdd("exchange", "Microsoft Exchange Server");
@@ -6534,6 +6534,19 @@ namespace OverflowHelper.core
             correctionAdd("Boost C++ Libraries", "Boost");
             correctionAdd("BOOST", "Boost");
             correctionAdd("bosst", "Boost");
+
+            correctionAdd("ready boost", "ReadyBoost");
+            correctionAdd("readyboost", "ReadyBoost");
+
+            correctionAdd("Boost converter", "boost converter");
+
+            correctionAdd("buck-boost converter", "buck–boost converter");
+            correctionAdd("Buck-boost", "buck–boost converter");
+
+            correctionAdd("Solid Rocket Booster", "solid rocket booster");
+
+            correctionAdd("xgboost", "XGBoost");
+            correctionAdd("Xgboost", "XGBoost");
 
             correctionAdd("CI", "continuous integration"); // Collision with CodeIgniter (but that is used less often).
             correctionAdd("Continuous Integration", "continuous integration");
@@ -16792,10 +16805,20 @@ namespace OverflowHelper.core
             correctionAdd("Open Elec", "OpenELEC");
             correctionAdd("openelec", "OpenELEC");
 
+            // Electronics
             correctionAdd("fpga", "FPGA");
             correctionAdd("Fpga", "FPGA");
             correctionAdd("Field Programmable Gate Array", "FPGA");
             correctionAdd("field-programmable gate array", "FPGA");
+
+            correctionAdd("vhdl", "VHDL");
+
+            // Related to FPGA (electronics. VHDL. Verilog)
+            correctionAdd("vunit", "VUnit");
+
+            // Related to FPGA (electronics. VHDL. Verilog)
+            correctionAdd("modelsim", "ModelSim");
+            correctionAdd("Modelsim", "ModelSim");
 
             correctionAdd("what's", "what’s");
             correctionAdd("whats", "what’s");
@@ -16948,9 +16971,6 @@ namespace OverflowHelper.core
             correctionAdd("socket io", "Socket.IO");
 
             correctionAdd("oData", "OData");
-
-            correctionAdd("ready boost", "ReadyBoost");
-            correctionAdd("readyboost", "ReadyBoost");
 
             correctionAdd("Hacker News", "Hacker&nbsp;News"); // Sort of identity mapping
             correctionAdd("hacker news", "Hacker&nbsp;News");
@@ -17500,8 +17520,6 @@ namespace OverflowHelper.core
 
             correctionAdd("visualforce", "Visualforce");
             correctionAdd("visual force", "Visualforce");
-
-            correctionAdd("vhdl", "VHDL");
 
             correctionAdd("OBD2", "OBD-II");
             correctionAdd("ODB2", "OBD-II");
@@ -18533,6 +18551,27 @@ namespace OverflowHelper.core
             correctionAdd("Reinforcement learning", "reinforcement learning");
             correctionAdd("RL", "reinforcement learning");
             correctionAdd("Reinforcement Learning", "reinforcement learning");
+
+            correctionAdd("mahcine", "machine");
+            correctionAdd("Machine", "machine");
+
+            correctionAdd("Pick'n'place machine", "pick-and-place machine");
+
+            correctionAdd("statemachine", "finite-state machine");
+            correctionAdd("FSM", "finite-state machine");
+            correctionAdd("state machine", "finite-state machine");
+
+            correctionAdd("Mealy Machine", "Mealy machine");
+
+            correctionAdd("Moore Machine", "Moore machine");
+
+            correctionAdd("turing machine", "Turing machine");
+
+            correctionAdd("Machine Translation", "machine translation");
+            correctionAdd("Machine translation", "machine translation");
+            correctionAdd("machine-translation", "machine translation");
+
+            correctionAdd("machine translated", "machine-translated");
 
             correctionAdd("lldb", "LLDB");
 
@@ -24054,8 +24093,6 @@ namespace OverflowHelper.core
 
             correctionAdd("add in", "add-in");
 
-            correctionAdd("Boost converter", "boost converter");
-
             correctionAdd("help-vampire", "help vampire");
             correctionAdd("Help Vampire", "help vampire");
             correctionAdd("the h-word", "help vampire");
@@ -25583,21 +25620,6 @@ namespace OverflowHelper.core
             correctionAdd("Von Neumann", "von Neumann machine");
 
             correctionAdd("John Von Neumann", "John von Neumann");
-
-            correctionAdd("mahcine", "machine");
-            correctionAdd("Machine", "machine");
-
-            correctionAdd("Pick'n'place machine", "pick-and-place machine");
-
-            correctionAdd("statemachine", "finite-state machine");
-            correctionAdd("FSM", "finite-state machine");
-            correctionAdd("state machine", "finite-state machine");
-
-            correctionAdd("Mealy Machine", "Mealy machine");
-
-            correctionAdd("Moore Machine", "Moore machine");
-
-            correctionAdd("turing machine", "Turing machine");
 
             correctionAdd("yarn", "Yarn");
 
@@ -28220,7 +28242,7 @@ namespace OverflowHelper.core
             correctionAdd("payed", "paid");
             correctionAdd("paied", "paid");
 
-            correctionAdd("Solid Rocket Booster", "solid rocket booster");
+            correctionAdd("chargepump", "charge pump");
 
             correctionAdd("cypress", "Cypress");
 
@@ -34055,9 +34077,6 @@ namespace OverflowHelper.core
             correctionAdd("ASICs", "ASIC");
             correctionAdd("Application-Specific Integrated Circuit", "ASIC");
 
-            correctionAdd("modelsim", "ModelSim");
-            correctionAdd("Modelsim", "ModelSim");
-
             correctionAdd("2 meter band", "2-meter band");
             correctionAdd("2m", "2-meter band");
 
@@ -37068,9 +37087,6 @@ namespace OverflowHelper.core
 
             correctionAdd("risc", "RISC");
 
-            correctionAdd("xgboost", "XGBoost");
-            correctionAdd("Xgboost", "XGBoost");
-
             correctionAdd("appraoches", "approaches");
 
             correctionAdd("code Page", "code page");
@@ -37320,10 +37336,6 @@ namespace OverflowHelper.core
             correctionAdd("listerning", "listening");
             correctionAdd("Listenting", "listening");
             correctionAdd("listenting", "listening");
-
-            correctionAdd("Machine Translation", "machine translation");
-            correctionAdd("Machine translation", "machine translation");
-            correctionAdd("machine-translation", "machine translation");
 
             correctionAdd("re-display", "redisplay");
 
@@ -48400,20 +48412,11 @@ namespace OverflowHelper.core
             // Related to networking (IP addresses)
             correctionAdd("vip", "VIP");
 
-            correctionAdd("vunit", "VUnit");
-
             correctionAdd("givmme", "give me");
 
             correctionAdd("absentmindedly", "absent-mindedly");
 
-            correctionAdd("buck-boost converter", "buck–boost converter");
-            correctionAdd("Buck-boost", "buck–boost converter");
-
-            correctionAdd("chargepump", "charge pump");
-
             correctionAdd("complete utter", "complete and utter");
-
-            correctionAdd("machine translated", "machine-translated");
 
             correctionAdd("Uma Turman", "Uma Thurman");
 
@@ -49571,8 +49574,6 @@ namespace OverflowHelper.core
             URL_Add("Super&nbsp;User (Stack Exchange site)", "https://superuser.com/tour"); // Old: https://en.wikipedia.org/wiki/Stack_Overflow#Super_User
 
             URL_Add("computer science", "https://en.wikipedia.org/wiki/Computer_science");
-
-            URL_Add("Virual PC", "https://en.wikipedia.org/wiki/Windows_Virtual_PC");
 
             URL_Add("PCRE", "https://en.wikipedia.org/wiki/Perl_Compatible_Regular_Expressions");
 
@@ -58024,8 +58025,6 @@ namespace OverflowHelper.core
             URL_Add("standard fare", "https://en.wiktionary.org/wiki/standard_fare#Noun");
 
             URL_Add("stockbroker", "https://en.wiktionary.org/wiki/stockbroker#Noun");
-
-            URL_Add("2-in-1 PC", "https://en.wikipedia.org/wiki/2-in-1_PC");
 
             URL_Add("CodeLite", "https://en.wikipedia.org/wiki/CodeLite");
 
@@ -75776,6 +75775,8 @@ namespace OverflowHelper.core
             URL_Add("machine-translated", "https://en.wiktionary.org/wiki/machine-translate#Verb");
 
             URL_Add("Uma Thurman", "https://en.wikipedia.org/wiki/Uma_Thurman");
+
+            URL_Add("2-in-1 PC", "https://en.wikipedia.org/wiki/2-in-1_PC");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
