@@ -439,15 +439,181 @@ namespace OverflowHelper.core
             correctionAdd("winjeet", "Windows");
             correctionAdd("Winows", "Windows");
 
+            correctionAdd("Win 3.11", "Windows 3.11");
+            correctionAdd("Win3.x", "Windows 3.11");
+            correctionAdd("Win3", "Windows 3.11");
+            correctionAdd("Win3.1", "Windows 3.11");
+            correctionAdd("Win 3.1", "Windows 3.11");
+            correctionAdd("Windows 3.1", "Windows 3.11");
+            correctionAdd("Win3.11", "Windows 3.11");
+            correctionAdd("windows 3", "Windows 3.11");
+            correctionAdd("Windows 3", "Windows 3.11");
+
+            correctionAdd("Windows 95", "Windows&nbsp;95"); // Sort of identity mapping
+            correctionAdd("95", "Windows&nbsp;95");
+            correctionAdd("Win95", "Windows&nbsp;95");
+            correctionAdd("windows 95", "Windows&nbsp;95");
+            correctionAdd("Windows95", "Windows&nbsp;95");
+
+            correctionAdd("Windows 98", "Windows&nbsp;98");
+            correctionAdd("windows 98", "Windows&nbsp;98");
+
+            correctionAdd("WinNT", "Windows NT");
+            correctionAdd("WindowsNT", "Windows NT");
+
+            correctionAdd("win2000", "Windows 2000");
+            correctionAdd("2K", "Windows 2000"); // Highly likely to collide with something else.
+            correctionAdd("Win 2000", "Windows 2000");
+            correctionAdd("2k", "Windows 2000"); // Highly likely to collide with something else.
+            correctionAdd("Win2k", "Windows 2000");
+            correctionAdd("Win 2K", "Windows 2000");
+            correctionAdd("2000", "Windows 2000");
+            correctionAdd("windows2000", "Windows 2000");
+            correctionAdd("windows 2000", "Windows 2000");
+
+            correctionAdd("XP", "Windows&nbsp;XP"); // Expansion. Possible conflict with Extreme Programming.
+            correctionAdd("WinXP", "Windows&nbsp;XP");
+            correctionAdd("winXP", "Windows&nbsp;XP");
+            correctionAdd("WindowsXp", "Windows&nbsp;XP");
+            correctionAdd("windows xp", "Windows&nbsp;XP");
+            correctionAdd("windox xp", "Windows&nbsp;XP");
+            correctionAdd("Windows XP", "Windows&nbsp;XP");
+            correctionAdd("win xp", "Windows&nbsp;XP");
+            correctionAdd("Windows Xp", "Windows&nbsp;XP");
+            correctionAdd("Win XP", "Windows&nbsp;XP");
+            correctionAdd("windows XP", "Windows&nbsp;XP");
+            correctionAdd("WinXp", "Windows&nbsp;XP");
+            correctionAdd("Xp", "Windows&nbsp;XP");
+            correctionAdd("xp", "Windows&nbsp;XP");
+            correctionAdd("WIN XP", "Windows&nbsp;XP");
+            correctionAdd("Windows xp", "Windows&nbsp;XP");
+            correctionAdd("win-XP", "Windows&nbsp;XP");
+            correctionAdd("WINXP", "Windows&nbsp;XP");
+            correctionAdd("window xp", "Windows&nbsp;XP");
+            correctionAdd("windows Xp", "Windows&nbsp;XP");
+            correctionAdd("windows-XP", "Windows&nbsp;XP");
+            correctionAdd("Win Xp", "Windows&nbsp;XP");
+            correctionAdd("win XP", "Windows&nbsp;XP");
+            correctionAdd("Window XP", "Windows&nbsp;XP");
+            correctionAdd("Windows-XP", "Windows&nbsp;XP");
+            correctionAdd("WindowsXP", "Windows&nbsp;XP");
+            correctionAdd("winxp", "Windows&nbsp;XP");
+            correctionAdd("Win-XP", "Windows&nbsp;XP");
+
+            correctionAdd("XP SP2", "Windows&nbsp;XP SP2");
+            correctionAdd("Windows XP SP2", "Windows&nbsp;XP SP2"); // Sort of identity mapping
+            correctionAdd("SP2", "Windows&nbsp;XP SP2");
+
+            correctionAdd("Windows XP SP3", "Windows&nbsp;XP&nbsp;SP3");
+            correctionAdd("SP3", "Windows&nbsp;XP&nbsp;SP3");
+
+            correctionAdd("Vista", "Windows&nbsp;Vista");
+            correctionAdd("vista", "Windows&nbsp;Vista");
+            correctionAdd("Windows Vista", "Windows&nbsp;Vista");
+            correctionAdd("Win Vista", "Windows&nbsp;Vista");
+            correctionAdd("WinVista", "Windows&nbsp;Vista");
+            correctionAdd("windows vista", "Windows&nbsp;Vista");
+            correctionAdd("win vista", "Windows&nbsp;Vista");
+            correctionAdd("VISTA", "Windows&nbsp;Vista");
+            correctionAdd("Windows vista", "Windows&nbsp;Vista");
+            correctionAdd("VIsta", "Windows&nbsp;Vista");
+            correctionAdd("windows-vista", "Windows&nbsp;Vista");
+            correctionAdd("window vista", "Windows&nbsp;Vista");
+            correctionAdd("windows Vista", "Windows&nbsp;Vista");
+
+            correctionAdd("Vista Ultimate", "Windows Vista Ultimate");
+
+            correctionAdd("7", "Windows&nbsp;7"); // Potential for false positives?
+            correctionAdd("w7", "Windows&nbsp;7");
+            correctionAdd("W7", "Windows&nbsp;7");
+            correctionAdd("Win7", "Windows&nbsp;7");
+            correctionAdd("win7", "Windows&nbsp;7");
+            correctionAdd("Win 7", "Windows&nbsp;7");
+            correctionAdd("Windows7", "Windows&nbsp;7");
+            correctionAdd("windows7", "Windows&nbsp;7");
+            correctionAdd("windows 7", "Windows&nbsp;7");
+            correctionAdd("Windows 7", "Windows&nbsp;7");
+            correctionAdd("windows seven", "Windows&nbsp;7");
+            correctionAdd("window 7", "Windows&nbsp;7");
+            correctionAdd("window7", "Windows&nbsp;7");
+            correctionAdd("win 7", "Windows&nbsp;7");
+            correctionAdd("Win-7", "Windows&nbsp;7");
+            correctionAdd("Windows Seven", "Windows&nbsp;7");
+            correctionAdd("Window 7", "Windows&nbsp;7");
+            correctionAdd("Windows-7", "Windows&nbsp;7");
+            correctionAdd("windows-7", "Windows&nbsp;7");
+            correctionAdd("WIndows 7", "Windows&nbsp;7");
+            correctionAdd("WIn7", "Windows&nbsp;7");
+            correctionAdd("Windonw 7", "Windows&nbsp;7");
+            correctionAdd("Windows seven", "Windows&nbsp;7");
+            correctionAdd("wiidows 7", "Windows&nbsp;7");
+            correctionAdd("Seven", "Windows&nbsp;7");
+            correctionAdd("Window7", "Windows&nbsp;7");
+            correctionAdd("WIN 7", "Windows&nbsp;7");
+            correctionAdd("windwos 7", "Windows&nbsp;7");
+            correctionAdd("Widnows 7", "Windows&nbsp;7");
+            //
+            // This does not work as "&" is seen as a non-alpha... The
+            // result is "Windows &"...
+            //
+            // correctionAdd("win &", "Windows&nbsp;7"); // On an English keyboard,
+            // //                                           "&" is Shift + 7...
+            // correctionAdd("win&", "Windows&nbsp;7"); // On an English keyboard,
+            // //                                           "&" is Shift + 7...
+
+            correctionAdd("Windows 7 starter", "Windows&nbsp;7 Starter");
+            correctionAdd("Windows 7 Starter", "Windows&nbsp;7 Starter");
+
+            correctionAdd("Win 8.1", "Windows&nbsp;8.1");
+            correctionAdd("Windows 8.1", "Windows&nbsp;8.1");
+            correctionAdd("windows 8.1", "Windows&nbsp;8.1");
+            correctionAdd("8.1", "Windows&nbsp;8.1"); // Somewhat ambiguous!
+            correctionAdd("win8.1", "Windows&nbsp;8.1");
+            correctionAdd("win 8.1", "Windows&nbsp;8.1");
+            correctionAdd("Win8.1", "Windows&nbsp;8.1");
+
+            correctionAdd("windows 10", "Windows&nbsp;10");
+            correctionAdd("Windows 10", "Windows&nbsp;10"); // Effectively self
+            correctionAdd("win 10", "Windows&nbsp;10");
+            correctionAdd("Win10", "Windows&nbsp;10");
+            correctionAdd("win10", "Windows&nbsp;10");
+            correctionAdd("Win 10", "Windows&nbsp;10");
+            correctionAdd("W10", "Windows&nbsp;10");
+            correctionAdd("Windows10", "Windows&nbsp;10");
+            correctionAdd("windows-10", "Windows&nbsp;10");
+            correctionAdd("Win. 10", "Windows&nbsp;10");
+            correctionAdd("10", "Windows&nbsp;10");
+            correctionAdd("WIndows 10", "Windows&nbsp;10");
+            correctionAdd("w10", "Windows&nbsp;10");
+            correctionAdd("Window10", "Windows&nbsp;10");
+            correctionAdd("Window 10", "Windows&nbsp;10");
+            correctionAdd("windows10", "Windows&nbsp;10");
+            correctionAdd("Win-10", "Windows&nbsp;10");
+            correctionAdd("WINDOWS10", "Windows&nbsp;10");
+            correctionAdd("windows ten", "Windows&nbsp;10");
+            correctionAdd("Windows ten", "Windows&nbsp;10");
+            correctionAdd("Microsoft 10", "Windows&nbsp;10");
+            correctionAdd("WIN10", "Windows&nbsp;10");
+            correctionAdd("window 10", "Windows&nbsp;10");
+
+            correctionAdd("Windows 10 home", "Windows 10 Home");
+            correctionAdd("Windows OS 10 Home Edition", "Windows 10 Home");
+
+            correctionAdd("LTSB", "Windows 10 Enterprise LTSC");
+            correctionAdd("Windows 10 LTSB", "Windows 10 Enterprise LTSC");
+
+            correctionAdd("Win11", "Windows&nbsp;11");
+            correctionAdd("Windows 11", "Windows&nbsp;11");
+            correctionAdd("windows 11", "Windows&nbsp;11");
+            correctionAdd("WIN11", "Windows&nbsp;11");
+            correctionAdd("win11", "Windows&nbsp;11");
+            correctionAdd("win 11", "Windows&nbsp;11");
+            correctionAdd("Win 11", "Windows&nbsp;11");
+            correctionAdd("W11", "Windows&nbsp;11");
+            correctionAdd("Window 11", "Windows&nbsp;11");
+
             correctionAdd("dc", "DC"); // Note: Collision with "domain controller" (Windows Server).
             correctionAdd("Dc", "DC");
-
-            correctionAdd("Domain Controller", "domain controller");
-            correctionAdd("Domain controller", "domain controller");
-            correctionAdd("d/c", "domain controller");
-            correctionAdd("Windows domain", "domain controller");
-            correctionAdd("domain server", "domain controller");
-            correctionAdd("Windows domain server", "domain controller");
 
             correctionAdd("APP Domains", "application domain");
             correctionAdd("APP Domain", "application domain");
@@ -470,9 +636,6 @@ namespace OverflowHelper.core
             correctionAdd("WSL2", "WSL 2");
             correctionAdd("WSL-2", "WSL 2");
 
-            correctionAdd("Windows 10 home", "Windows 10 Home");
-            correctionAdd("Windows OS 10 Home Edition", "Windows 10 Home");
-
             correctionAdd("virtual PC", "Virtual&nbsp;PC");
             correctionAdd("Virtual PC", "Virtual&nbsp;PC");
             correctionAdd("virtual pc", "Virtual&nbsp;PC");
@@ -482,6 +645,114 @@ namespace OverflowHelper.core
             correctionAdd("Virual PC", "Virtual&nbsp;PC");
             //correctionAdd("VPC", "Virtual&nbsp;PC"); This is now reserved for "virtual private cloud"...
 
+            correctionAdd("cassini", "Cassini web server");
+            correctionAdd("cassini web server", "Cassini web server");
+            correctionAdd("Cassini", "Cassini web server");
+
+            correctionAdd("Domain Controller", "domain controller");
+            correctionAdd("Domain controller", "domain controller");
+            correctionAdd("d/c", "domain controller");
+            correctionAdd("Windows domain", "domain controller");
+            correctionAdd("domain server", "domain controller");
+            correctionAdd("Windows domain server", "domain controller");
+
+            correctionAdd("windows server", "Windows Server");
+            correctionAdd("Windows server", "Windows Server");
+            correctionAdd("winserver", "Windows Server");
+
+            correctionAdd("WServer2000", "Windows Server 2000");
+
+            correctionAdd("WS2003", "Windows Server 2003");
+            correctionAdd("Server 2003", "Windows Server 2003");
+            correctionAdd("server 2003", "Windows Server 2003");
+            correctionAdd("windows 2003 server", "Windows Server 2003");
+            correctionAdd("2k3", "Windows Server 2003");
+            correctionAdd("win2003", "Windows Server 2003");
+            correctionAdd("Windows 2003", "Windows Server 2003");
+            correctionAdd("2003", "Windows Server 2003");
+            correctionAdd("windows server 2003", "Windows Server 2003");
+            correctionAdd("win 2003", "Windows Server 2003");
+            correctionAdd("WIndows 2003 server", "Windows Server 2003");
+            correctionAdd("Windows server 2003", "Windows Server 2003");
+            correctionAdd("WIndows2003", "Windows Server 2003");
+            correctionAdd("Windows2003", "Windows Server 2003");
+            correctionAdd("WIndows2003 server", "Windows Server 2003");
+            correctionAdd("windows 2003", "Windows Server 2003");
+            correctionAdd("Windows 2003 Server", "Windows Server 2003");
+            correctionAdd("Win2003", "Windows Server 2003");
+            correctionAdd("Win2k3", "Windows Server 2003");
+            correctionAdd("win2k3", "Windows Server 2003");
+            correctionAdd("win 2k3", "Windows Server 2003");
+            correctionAdd("Srv2003", "Windows Server 2003");
+            correctionAdd("Srv 2003", "Windows Server 2003");
+            correctionAdd("W2K3", "Windows Server 2003");
+            correctionAdd("w2k3", "Windows Server 2003");
+
+            correctionAdd("WS2008", "Windows Server 2008");
+            correctionAdd("windows 2008 server", "Windows Server 2008");
+            correctionAdd("windows server 2008", "Windows Server 2008");
+            correctionAdd("win 2008 server", "Windows Server 2008");
+            correctionAdd("2k8", "Windows Server 2008"); // Could also be Visual Studio 2008...
+            correctionAdd("Win 2k8", "Windows Server 2008");
+            correctionAdd("W2K8", "Windows Server 2008");
+            correctionAdd("Server 2008", "Windows Server 2008");
+            correctionAdd("Win 2008", "Windows Server 2008");
+            correctionAdd("ws2008", "Windows Server 2008");
+            correctionAdd("server 2008", "Windows Server 2008");
+            correctionAdd("Win Server 2008", "Windows Server 2008");
+            correctionAdd("win 2008", "Windows Server 2008");
+            correctionAdd("Windows 2008", "Windows Server 2008");
+            correctionAdd("windows 2008", "Windows Server 2008");
+            correctionAdd("win2k8", "Windows Server 2008");
+            correctionAdd("Win2008", "Windows Server 2008");
+            correctionAdd("Win2008 Server", "Windows Server 2008");
+            correctionAdd("Sever 2008", "Windows Server 2008"); // Misspelling, etc.
+            correctionAdd("Windows 2008 Server", "Windows Server 2008");
+            correctionAdd("2008", "Windows Server 2008"); // Could also be SQL Server 2008, Visual Studio 2008 or even Visual Basic 2008 Express Edition...
+            correctionAdd("windows 2008 Server", "Windows Server 2008");
+            correctionAdd("Windows 2k8", "Windows Server 2008");
+            correctionAdd("Windows server 2008", "Windows Server 2008");
+            correctionAdd("Windows2k8", "Windows Server 2008");
+            correctionAdd("Win2k8", "Windows Server 2008");
+            correctionAdd("W2008", "Windows Server 2008");
+            correctionAdd("Windows 2008 server", "Windows Server 2008");
+
+            correctionAdd("windows server 2012", "Windows Server 2012");
+            correctionAdd("WS 2012", "Windows Server 2012");
+            correctionAdd("2012", "Windows Server 2012");
+            correctionAdd("Windows 2012", "Windows Server 2012");
+            correctionAdd("server 2012", "Windows Server 2012");
+            correctionAdd("Server 2012", "Windows Server 2012"); // Could also be SQL Server 2012...
+            correctionAdd("windows sever 2012", "Windows Server 2012");
+            correctionAdd("windows 2012", "Windows Server 2012");
+            correctionAdd("2012 Server", "Windows Server 2012");
+            correctionAdd("win 2012", "Windows Server 2012");
+            correctionAdd("win2012", "Windows Server 2012");
+            correctionAdd("W2K12", "Windows Server 2012");
+            correctionAdd("Server2012", "Windows Server 2012");
+            correctionAdd("windows server 12", "Windows Server 2012");
+            correctionAdd("server 12", "Windows Server 2012");
+            correctionAdd("server2012", "Windows Server 2012");
+            correctionAdd("Win 2012 server", "Windows Server 2012");
+            correctionAdd("Win 2012", "Windows Server 2012");
+            correctionAdd("Win2012", "Windows Server 2012");
+            correctionAdd("Win Server 2012", "Windows Server 2012");
+            correctionAdd("Windows 2k12", "Windows Server 2012");
+            correctionAdd("Windows 2K12", "Windows Server 2012");
+
+            correctionAdd("Windows 2016", "Windows Server 2016");
+            correctionAdd("windows 2016", "Windows Server 2016");
+            correctionAdd("Server 2016", "Windows Server 2016");
+            correctionAdd("windows server 2016", "Windows Server 2016");
+            correctionAdd("2016 Windows Server", "Windows Server 2016");
+            correctionAdd("Windows Server/10", "Windows Server 2016");
+            correctionAdd("Windows 10 Server", "Windows Server 2016");
+
+            correctionAdd("windows server 2019", "Windows Server 2019");
+            correctionAdd("2019 windows server", "Windows Server 2019");
+
+            correctionAdd("Exchange server", "Exchange Server");
+
             correctionAdd("exchange", "Microsoft Exchange Server");
             correctionAdd("Exchange", "Microsoft Exchange Server");
             correctionAdd("Micorosft Exhange", "Microsoft Exchange Server");
@@ -489,19 +760,6 @@ namespace OverflowHelper.core
 
             correctionAdd("exchange 2003 server", "Exchange Server 2003");
             correctionAdd("exchange server 2003", "Exchange Server 2003");
-
-            correctionAdd("cassini", "Cassini web server");
-            correctionAdd("cassini web server", "Cassini web server");
-            correctionAdd("Cassini", "Cassini web server");
-
-            correctionAdd("windows server", "Windows Server");
-            correctionAdd("Windows server", "Windows Server");
-            correctionAdd("winserver", "Windows Server");
-
-            correctionAdd("windows server 2019", "Windows Server 2019");
-            correctionAdd("2019 windows server", "Windows Server 2019");
-
-            correctionAdd("Exchange server", "Exchange Server");
 
             correctionAdd("Windows Nano server", "Microsoft Nano Server");
             correctionAdd("Windows Nano", "Microsoft Nano Server");
@@ -616,103 +874,6 @@ namespace OverflowHelper.core
             correctionAdd("win32api", "Win32");
             correctionAdd("W32", "Win32");
 
-            correctionAdd("Windows 95", "Windows&nbsp;95"); // Sort of identity mapping
-            correctionAdd("95", "Windows&nbsp;95");
-            correctionAdd("Win95", "Windows&nbsp;95");
-            correctionAdd("windows 95", "Windows&nbsp;95");
-            correctionAdd("Windows95", "Windows&nbsp;95");
-
-            correctionAdd("WinNT", "Windows NT");
-            correctionAdd("WindowsNT", "Windows NT");
-
-            correctionAdd("XP", "Windows&nbsp;XP"); // Expansion. Possible conflict with Extreme Programming.
-            correctionAdd("WinXP", "Windows&nbsp;XP");
-            correctionAdd("winXP", "Windows&nbsp;XP");
-            correctionAdd("WindowsXp", "Windows&nbsp;XP");
-            correctionAdd("windows xp", "Windows&nbsp;XP");
-            correctionAdd("windox xp", "Windows&nbsp;XP");
-            correctionAdd("Windows XP", "Windows&nbsp;XP");
-            correctionAdd("win xp", "Windows&nbsp;XP");
-            correctionAdd("Windows Xp", "Windows&nbsp;XP");
-            correctionAdd("Win XP", "Windows&nbsp;XP");
-            correctionAdd("windows XP", "Windows&nbsp;XP");
-            correctionAdd("WinXp", "Windows&nbsp;XP");
-            correctionAdd("Xp", "Windows&nbsp;XP");
-            correctionAdd("xp", "Windows&nbsp;XP");
-            correctionAdd("WIN XP", "Windows&nbsp;XP");
-            correctionAdd("Windows xp", "Windows&nbsp;XP");
-            correctionAdd("win-XP", "Windows&nbsp;XP");
-            correctionAdd("WINXP", "Windows&nbsp;XP");
-            correctionAdd("window xp", "Windows&nbsp;XP");
-            correctionAdd("windows Xp", "Windows&nbsp;XP");
-            correctionAdd("windows-XP", "Windows&nbsp;XP");
-            correctionAdd("Win Xp", "Windows&nbsp;XP");
-            correctionAdd("win XP", "Windows&nbsp;XP");
-            correctionAdd("Window XP", "Windows&nbsp;XP");
-            correctionAdd("Windows-XP", "Windows&nbsp;XP");
-            correctionAdd("WindowsXP", "Windows&nbsp;XP");
-            correctionAdd("winxp", "Windows&nbsp;XP");
-            correctionAdd("Win-XP", "Windows&nbsp;XP");
-
-            correctionAdd("XP SP2", "Windows&nbsp;XP SP2");
-            correctionAdd("Windows XP SP2", "Windows&nbsp;XP SP2"); // Sort of identity mapping
-            correctionAdd("SP2", "Windows&nbsp;XP SP2");
-
-            correctionAdd("Windows XP SP3", "Windows&nbsp;XP&nbsp;SP3");
-            correctionAdd("SP3", "Windows&nbsp;XP&nbsp;SP3");
-
-            correctionAdd("Vista", "Windows&nbsp;Vista");
-            correctionAdd("vista", "Windows&nbsp;Vista");
-            correctionAdd("Windows Vista", "Windows&nbsp;Vista");
-            correctionAdd("Win Vista", "Windows&nbsp;Vista");
-            correctionAdd("WinVista", "Windows&nbsp;Vista");
-            correctionAdd("windows vista", "Windows&nbsp;Vista");
-            correctionAdd("win vista", "Windows&nbsp;Vista");
-            correctionAdd("VISTA", "Windows&nbsp;Vista");
-            correctionAdd("Windows vista", "Windows&nbsp;Vista");
-            correctionAdd("VIsta", "Windows&nbsp;Vista");
-            correctionAdd("windows-vista", "Windows&nbsp;Vista");
-            correctionAdd("window vista", "Windows&nbsp;Vista");
-            correctionAdd("windows Vista", "Windows&nbsp;Vista");
-
-            correctionAdd("7", "Windows&nbsp;7"); // Potential for false positives?
-            correctionAdd("w7", "Windows&nbsp;7");
-            correctionAdd("W7", "Windows&nbsp;7");
-            correctionAdd("Win7", "Windows&nbsp;7");
-            correctionAdd("win7", "Windows&nbsp;7");
-            correctionAdd("Win 7", "Windows&nbsp;7");
-            correctionAdd("Windows7", "Windows&nbsp;7");
-            correctionAdd("windows7", "Windows&nbsp;7");
-            correctionAdd("windows 7", "Windows&nbsp;7");
-            correctionAdd("Windows 7", "Windows&nbsp;7");
-            correctionAdd("windows seven", "Windows&nbsp;7");
-            correctionAdd("window 7", "Windows&nbsp;7");
-            correctionAdd("window7", "Windows&nbsp;7");
-            correctionAdd("win 7", "Windows&nbsp;7");
-            correctionAdd("Win-7", "Windows&nbsp;7");
-            correctionAdd("Windows Seven", "Windows&nbsp;7");
-            correctionAdd("Window 7", "Windows&nbsp;7");
-            correctionAdd("Windows-7", "Windows&nbsp;7");
-            correctionAdd("windows-7", "Windows&nbsp;7");
-            correctionAdd("WIndows 7", "Windows&nbsp;7");
-            correctionAdd("WIn7", "Windows&nbsp;7");
-            correctionAdd("Windonw 7", "Windows&nbsp;7");
-            correctionAdd("Windows seven", "Windows&nbsp;7");
-            correctionAdd("wiidows 7", "Windows&nbsp;7");
-            correctionAdd("Seven", "Windows&nbsp;7");
-            correctionAdd("Window7", "Windows&nbsp;7");
-            correctionAdd("WIN 7", "Windows&nbsp;7");
-            correctionAdd("windwos 7", "Windows&nbsp;7");
-            correctionAdd("Widnows 7", "Windows&nbsp;7");
-            //
-            // This does not work as "&" is seen as a non-alpha... The
-            // result is "Windows &"...
-            //
-            // correctionAdd("win &", "Windows&nbsp;7"); // On an English keyboard,
-            // //                                           "&" is Shift + 7...
-            // correctionAdd("win&", "Windows&nbsp;7"); // On an English keyboard,
-            // //                                           "&" is Shift + 7...
-
             correctionAdd("registery", "Windows Registry");
             correctionAdd("registry", "Windows Registry");
             correctionAdd("regestry", "Windows Registry");
@@ -721,16 +882,6 @@ namespace OverflowHelper.core
             correctionAdd("Regitstry", "Windows Registry");
             correctionAdd("regitstry", "Windows Registry");
             correctionAdd("windows registry", "Windows Registry");
-
-            correctionAdd("win2000", "Windows 2000");
-            correctionAdd("2K", "Windows 2000"); // Highly likely to collide with something else.
-            correctionAdd("Win 2000", "Windows 2000");
-            correctionAdd("2k", "Windows 2000"); // Highly likely to collide with something else.
-            correctionAdd("Win2k", "Windows 2000");
-            correctionAdd("Win 2K", "Windows 2000");
-            correctionAdd("2000", "Windows 2000");
-            correctionAdd("windows2000", "Windows 2000");
-            correctionAdd("windows 2000", "Windows 2000");
 
             correctionAdd("msi", "MSI");
             correctionAdd("Windows Installer", "MSI"); // Going for the abbreviation. Is this good?
@@ -747,35 +898,6 @@ namespace OverflowHelper.core
             correctionAdd("wince", "Windows&nbsp;CE");
             correctionAdd("Win CE", "Windows&nbsp;CE");
 
-            correctionAdd("WS2003", "Windows Server 2003");
-            correctionAdd("Server 2003", "Windows Server 2003");
-            correctionAdd("server 2003", "Windows Server 2003");
-            correctionAdd("windows 2003 server", "Windows Server 2003");
-            correctionAdd("2k3", "Windows Server 2003");
-            correctionAdd("win2003", "Windows Server 2003");
-            correctionAdd("Windows 2003", "Windows Server 2003");
-            correctionAdd("2003", "Windows Server 2003");
-            correctionAdd("windows server 2003", "Windows Server 2003");
-            correctionAdd("win 2003", "Windows Server 2003");
-            correctionAdd("WIndows 2003 server", "Windows Server 2003");
-            correctionAdd("Windows server 2003", "Windows Server 2003");
-            correctionAdd("WIndows2003", "Windows Server 2003");
-            correctionAdd("Windows2003", "Windows Server 2003");
-            correctionAdd("WIndows2003 server", "Windows Server 2003");
-            correctionAdd("windows 2003", "Windows Server 2003");
-            correctionAdd("Windows 2003 Server", "Windows Server 2003");
-            correctionAdd("Win2003", "Windows Server 2003");
-            correctionAdd("Win2k3", "Windows Server 2003");
-            correctionAdd("win2k3", "Windows Server 2003");
-            correctionAdd("win 2k3", "Windows Server 2003");
-            correctionAdd("Srv2003", "Windows Server 2003");
-            correctionAdd("Srv 2003", "Windows Server 2003");
-            correctionAdd("W2K3", "Windows Server 2003");
-            correctionAdd("w2k3", "Windows Server 2003");
-
-            correctionAdd("Windows 7 starter", "Windows&nbsp;7 Starter");
-            correctionAdd("Windows 7 Starter", "Windows&nbsp;7 Starter");
-
             correctionAdd("WinAMP", "Winamp");
             correctionAdd("winamp", "Winamp");
 
@@ -787,93 +909,9 @@ namespace OverflowHelper.core
             correctionAdd("mediaplayer", "Windows Media Player"); // Unfortunate abbreviation, e.g. as in <http://superuser.com/questions/228979>.
             correctionAdd("Media Player", "Windows Media Player");
 
-            correctionAdd("WS2008", "Windows Server 2008");
-            correctionAdd("windows 2008 server", "Windows Server 2008");
-            correctionAdd("windows server 2008", "Windows Server 2008");
-            correctionAdd("win 2008 server", "Windows Server 2008");
-            correctionAdd("2k8", "Windows Server 2008"); // Could also be Visual Studio 2008...
-            correctionAdd("Win 2k8", "Windows Server 2008");
-            correctionAdd("W2K8", "Windows Server 2008");
-            correctionAdd("Server 2008", "Windows Server 2008");
-            correctionAdd("Win 2008", "Windows Server 2008");
-            correctionAdd("ws2008", "Windows Server 2008");
-            correctionAdd("server 2008", "Windows Server 2008");
-            correctionAdd("Win Server 2008", "Windows Server 2008");
-            correctionAdd("win 2008", "Windows Server 2008");
-            correctionAdd("Windows 2008", "Windows Server 2008");
-            correctionAdd("windows 2008", "Windows Server 2008");
-            correctionAdd("win2k8", "Windows Server 2008");
-            correctionAdd("Win2008", "Windows Server 2008");
-            correctionAdd("Win2008 Server", "Windows Server 2008");
-            correctionAdd("Sever 2008", "Windows Server 2008"); // Misspelling, etc.
-            correctionAdd("Windows 2008 Server", "Windows Server 2008");
-            correctionAdd("2008", "Windows Server 2008"); // Could also be SQL Server 2008, Visual Studio 2008 or even Visual Basic 2008 Express Edition...
-            correctionAdd("windows 2008 Server", "Windows Server 2008");
-            correctionAdd("Windows 2k8", "Windows Server 2008");
-            correctionAdd("Windows server 2008", "Windows Server 2008");
-            correctionAdd("Windows2k8", "Windows Server 2008");
-            correctionAdd("Win2k8", "Windows Server 2008");
-            correctionAdd("W2008", "Windows Server 2008");
-            correctionAdd("Windows 2008 server", "Windows Server 2008");
-
-            correctionAdd("windows server 2012", "Windows Server 2012");
-            correctionAdd("WS 2012", "Windows Server 2012");
-            correctionAdd("2012", "Windows Server 2012");
-            correctionAdd("Windows 2012", "Windows Server 2012");
-            correctionAdd("server 2012", "Windows Server 2012");
-            correctionAdd("Server 2012", "Windows Server 2012"); // Could also be SQL Server 2012...
-            correctionAdd("windows sever 2012", "Windows Server 2012");
-            correctionAdd("windows 2012", "Windows Server 2012");
-            correctionAdd("2012 Server", "Windows Server 2012");
-            correctionAdd("win 2012", "Windows Server 2012");
-            correctionAdd("win2012", "Windows Server 2012");
-            correctionAdd("W2K12", "Windows Server 2012");
-            correctionAdd("Server2012", "Windows Server 2012");
-            correctionAdd("windows server 12", "Windows Server 2012");
-            correctionAdd("server 12", "Windows Server 2012");
-            correctionAdd("server2012", "Windows Server 2012");
-            correctionAdd("Win 2012 server", "Windows Server 2012");
-            correctionAdd("Win 2012", "Windows Server 2012");
-            correctionAdd("Win2012", "Windows Server 2012");
-            correctionAdd("Win Server 2012", "Windows Server 2012");
-            correctionAdd("Windows 2k12", "Windows Server 2012");
-            correctionAdd("Windows 2K12", "Windows Server 2012");
-
             correctionAdd("windows live", "Windows Live");
 
             correctionAdd("WOW", "WoW"); // Windows on Window, but collision with World of Wordcraft...
-
-            correctionAdd("Win 8.1", "Windows&nbsp;8.1");
-            correctionAdd("Windows 8.1", "Windows&nbsp;8.1");
-            correctionAdd("windows 8.1", "Windows&nbsp;8.1");
-            correctionAdd("8.1", "Windows&nbsp;8.1"); // Somewhat ambiguous!
-            correctionAdd("win8.1", "Windows&nbsp;8.1");
-            correctionAdd("win 8.1", "Windows&nbsp;8.1");
-            correctionAdd("Win8.1", "Windows&nbsp;8.1");
-
-            correctionAdd("windows 10", "Windows&nbsp;10");
-            correctionAdd("Windows 10", "Windows&nbsp;10"); // Effectively self
-            correctionAdd("win 10", "Windows&nbsp;10");
-            correctionAdd("Win10", "Windows&nbsp;10");
-            correctionAdd("win10", "Windows&nbsp;10");
-            correctionAdd("Win 10", "Windows&nbsp;10");
-            correctionAdd("W10", "Windows&nbsp;10");
-            correctionAdd("Windows10", "Windows&nbsp;10");
-            correctionAdd("windows-10", "Windows&nbsp;10");
-            correctionAdd("Win. 10", "Windows&nbsp;10");
-            correctionAdd("10", "Windows&nbsp;10");
-            correctionAdd("WIndows 10", "Windows&nbsp;10");
-            correctionAdd("w10", "Windows&nbsp;10");
-            correctionAdd("Window10", "Windows&nbsp;10");
-            correctionAdd("Window 10", "Windows&nbsp;10");
-            correctionAdd("windows10", "Windows&nbsp;10");
-            correctionAdd("Win-10", "Windows&nbsp;10");
-            correctionAdd("WINDOWS10", "Windows&nbsp;10");
-            correctionAdd("windows ten", "Windows&nbsp;10");
-            correctionAdd("Windows ten", "Windows&nbsp;10");
-            correctionAdd("Microsoft 10", "Windows&nbsp;10");
-            correctionAdd("WIN10", "Windows&nbsp;10");
-            correctionAdd("window 10", "Windows&nbsp;10");
 
             correctionAdd("WSH", "Windows Script Host");
             correctionAdd("wsh", "Windows Script Host");
@@ -894,14 +932,6 @@ namespace OverflowHelper.core
             correctionAdd("Windows defender", "Windows Defender");
             correctionAdd("windows defender", "Windows Defender");
             correctionAdd("Defender", "Windows Defender");
-
-            correctionAdd("Windows 2016", "Windows Server 2016");
-            correctionAdd("windows 2016", "Windows Server 2016");
-            correctionAdd("Server 2016", "Windows Server 2016");
-            correctionAdd("windows server 2016", "Windows Server 2016");
-            correctionAdd("2016 Windows Server", "Windows Server 2016");
-            correctionAdd("Windows Server/10", "Windows Server 2016");
-            correctionAdd("Windows 10 Server", "Windows Server 2016");
 
             correctionAdd("windows 1252", "Windows-1252");
             correctionAdd("WINDOWS-1252", "Windows-1252");
@@ -924,8 +954,6 @@ namespace OverflowHelper.core
             correctionAdd("Universal Windows Platform", "UWP");
 
             correctionAdd("ETW", "Event Tracing for Windows");
-
-            correctionAdd("WServer2000", "Windows Server 2000");
 
             correctionAdd("Windows 10 version 1903 (May 2019 update)", "Windows&nbsp;10 version 1903 (May 2019 update)"); // Sort of identity mapping
             correctionAdd("19H1", "Windows&nbsp;10 version 1903 (May 2019 update)");
@@ -951,23 +979,8 @@ namespace OverflowHelper.core
             correctionAdd("Creators Update", "Windows 10 version 1703");
             correctionAdd("creators update", "Windows 10 version 1703");
 
-            correctionAdd("Vista Ultimate", "Windows Vista Ultimate");
-
             correctionAdd("Windows Sockets API", "Winsock");
             correctionAdd("winsock", "Winsock");
-
-            correctionAdd("Windows 98", "Windows&nbsp;98");
-            correctionAdd("windows 98", "Windows&nbsp;98");
-
-            correctionAdd("Win11", "Windows&nbsp;11");
-            correctionAdd("Windows 11", "Windows&nbsp;11");
-            correctionAdd("windows 11", "Windows&nbsp;11");
-            correctionAdd("WIN11", "Windows&nbsp;11");
-            correctionAdd("win11", "Windows&nbsp;11");
-            correctionAdd("win 11", "Windows&nbsp;11");
-            correctionAdd("Win 11", "Windows&nbsp;11");
-            correctionAdd("W11", "Windows&nbsp;11");
-            correctionAdd("Window 11", "Windows&nbsp;11");
 
             correctionAdd("Windows Management Instrumentation Command-line", "WMIC");
             correctionAdd("wmic", "WMIC");
@@ -975,16 +988,6 @@ namespace OverflowHelper.core
             correctionAdd("windows task scheduler", "Windows Task Scheduler");
             correctionAdd("window task scheduler", "Windows Task Scheduler");
             correctionAdd("windows Task Scheduler", "Windows Task Scheduler");
-
-            correctionAdd("Win 3.11", "Windows 3.11");
-            correctionAdd("Win3.x", "Windows 3.11");
-            correctionAdd("Win3", "Windows 3.11");
-            correctionAdd("Win3.1", "Windows 3.11");
-            correctionAdd("Win 3.1", "Windows 3.11");
-            correctionAdd("Windows 3.1", "Windows 3.11");
-            correctionAdd("Win3.11", "Windows 3.11");
-            correctionAdd("windows 3", "Windows 3.11");
-            correctionAdd("Windows 3", "Windows 3.11");
 
             correctionAdd("CP-1251", "Windows-1251");
             correctionAdd("1251", "Windows-1251");
@@ -1009,6 +1012,11 @@ namespace OverflowHelper.core
             // Windows
             correctionAdd("conhost.exe", "conhost");
             correctionAdd("conhsot", "conhost");
+
+            // Windows
+            correctionAdd("start menu", "Start menu");
+            correctionAdd("Start Menu", "Start menu");
+            correctionAdd("StartMenu", "Start menu");
 
             correctionAdd("java", "Java");
             correctionAdd("JAVA", "Java");
@@ -1890,6 +1898,7 @@ namespace OverflowHelper.core
             correctionAdd("server-fault", "Server&nbsp;Fault");
             correctionAdd("Sever Fault", "Server&nbsp;Fault");
             correctionAdd("SeverFault", "Server&nbsp;Fault");
+            correctionAdd("serverfault.com", "Server&nbsp;Fault");
 
             correctionAdd("SuperUser", "Super&nbsp;User (Stack Exchange site)");
             correctionAdd("SU", "Super&nbsp;User (Stack Exchange site)");
@@ -8832,6 +8841,8 @@ namespace OverflowHelper.core
             correctionAdd("confortable", "comfortable");
             correctionAdd("comformtable", "comfortable");
             correctionAdd("conformtable", "comfortable");
+            correctionAdd("comfi", "comfortable");
+            correctionAdd("comfy", "comfortable");
 
             correctionAdd("predictible", "predictable");
             correctionAdd("predicatble", "predictable");
@@ -14179,39 +14190,6 @@ namespace OverflowHelper.core
             correctionAdd("kvm", "KVM"); // Conflict with KVM switch, "keyboard, visual display unit, mouse", <https://en.wikipedia.org/wiki/KVM_switch>. ALTERNATIVE.
             correctionAdd("KVm", "KVM");
 
-            // A Chinese manufacturer, incl. of mechanical keyboards
-            correctionAdd("CoolerMaster", "Cooler Master");
-            correctionAdd("COOLER MASTER", "Cooler Master");
-            correctionAdd("Coolermaster", "Cooler Master");
-            correctionAdd("cooler master", "Cooler Master");
-            correctionAdd("coolermaster", "Cooler Master");
-            correctionAdd("COOLERMASTER", "Cooler Master");
-
-            // A program from Cooler Master
-            correctionAdd("MasterPlus", "MasterPlus+");
-
-            // A keyboard from Cooler Master
-            correctionAdd("CK550", "CK550 V2");
-            correctionAdd("CK-550", "CK550 V2");
-            correctionAdd("ck550", "CK550 V2");
-            correctionAdd("ck550 v2", "CK550 V2");
-
-            // A keyboard from Cooler Master
-            correctionAdd("Cooler Master QuickFire Rapid", "Cooler Master Quick Fire Rapid");
-            correctionAdd("QFR", "Cooler Master Quick Fire Rapid");
-            correctionAdd("qfr", "Cooler Master Quick Fire Rapid");
-            correctionAdd("CM Quickfire Rapid", "Cooler Master Quick Fire Rapid");
-            correctionAdd("CoolerMaster QuickFire Rapid", "Cooler Master Quick Fire Rapid");
-
-            // A manufacturer of mechanical keyboards, etc.
-            correctionAdd("razer", "Razer");
-
-            // The link is broken now. Typical way to behave - to break links.
-            correctionAdd("Blackwidow", "Razer BlackWidow");
-            correctionAdd("blackwidow", "Razer BlackWidow");
-            correctionAdd("Razor Blackwidow", "Razer BlackWidow");
-            correctionAdd("razer blackwidow", "Razer BlackWidow");
-
             correctionAdd("keyboard-shortcut", "keyboard shortcut");
 
             correctionAdd("kerboard", "keyboard");
@@ -14231,12 +14209,62 @@ namespace OverflowHelper.core
 
             correctionAdd("Mechanical Keyboard", "mechanical keyboard");
 
-            // A particular mechanical keyboard
+            // A manufacturer of mechanical keyboards, etc.
+            // (e.g., 'V700RGB', 'V700S', and 'V500')
+            correctionAdd("Rappoo", "Rapoo");
+
+            // A Chinese manufacturer, incl. of mechanical keyboards
+            correctionAdd("CoolerMaster", "Cooler Master");
+            correctionAdd("COOLER MASTER", "Cooler Master");
+            correctionAdd("Coolermaster", "Cooler Master");
+            correctionAdd("cooler master", "Cooler Master");
+            correctionAdd("coolermaster", "Cooler Master");
+            correctionAdd("COOLERMASTER", "Cooler Master");
+
+            // A program from Cooler Master
+            correctionAdd("MasterPlus", "MasterPlus+");
+
+            // A manufacturer of mechanical keyboards, etc.
+            correctionAdd("razer", "Razer");
+
+            // A mechanical keyboard from Cooler Master
+            correctionAdd("CK550", "CK550 V2");
+            correctionAdd("CK-550", "CK550 V2");
+            correctionAdd("ck550", "CK550 V2");
+            correctionAdd("ck550 v2", "CK550 V2");
+
+            // A mechanical keyboard from Cooler Master
+            correctionAdd("Cooler Master QuickFire Rapid", "Cooler Master Quick Fire Rapid");
+            correctionAdd("QFR", "Cooler Master Quick Fire Rapid");
+            correctionAdd("qfr", "Cooler Master Quick Fire Rapid");
+            correctionAdd("CM Quickfire Rapid", "Cooler Master Quick Fire Rapid");
+            correctionAdd("CoolerMaster QuickFire Rapid", "Cooler Master Quick Fire Rapid");
+
+            // A mechanical keyboard
             correctionAdd("happy hacking", "Happy Hacking Keyboard");
             correctionAdd("happy hacking keyboard", "Happy Hacking Keyboard");
             correctionAdd("HHKB", "Happy Hacking Keyboard");
             correctionAdd("hhkb", "Happy Hacking Keyboard");
             correctionAdd("Happy hacking", "Happy Hacking Keyboard");
+
+            // A mechanical keyboard
+            correctionAdd("Keybordio", "Keyboardio");
+            correctionAdd("Keybordium", "Keyboardio");
+
+            // A mechanical keyboard
+            correctionAdd("Moonlander", "Moonlander Mark I");
+
+            // The link is broken now. Typical way to behave - to break links.
+            //
+            // A mechanical keyboard
+            correctionAdd("Blackwidow", "Razer BlackWidow");
+            correctionAdd("blackwidow", "Razer BlackWidow");
+            correctionAdd("Razor Blackwidow", "Razer BlackWidow");
+            correctionAdd("razer blackwidow", "Razer BlackWidow");
+
+            // A mechanical keyboard
+            correctionAdd("Daskeyboard", "Das Keyboard");
+            correctionAdd("das keyboard", "Das Keyboard");
 
             // A type of switch for mechanical keyboards
             correctionAdd("Cherry mx", "Cherry MX");
@@ -14327,9 +14355,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ortholinear", "ortholinear keyboard");
             correctionAdd("ortho-linear", "ortholinear keyboard");
-
-            // Mechanical keyboards (e.g., 'V700RGB', 'V700S', and 'V500')
-            correctionAdd("Rappoo", "Rapoo");
 
             correctionAdd("AFK", "away from keyboard");
 
@@ -48314,9 +48339,6 @@ namespace OverflowHelper.core
 
             correctionAdd("User Story", "user story");
 
-            correctionAdd("Daskeyboard", "Das Keyboard");
-            correctionAdd("das keyboard", "Das Keyboard");
-
             // A computer mouse
             correctionAdd("G900", "Logitech G900");
 
@@ -48419,6 +48441,12 @@ namespace OverflowHelper.core
             correctionAdd("complete utter", "complete and utter");
 
             correctionAdd("Uma Turman", "Uma Thurman");
+
+            correctionAdd("numercial", "numerical");
+
+            correctionAdd("setx", "SETX");
+
+            correctionAdd("customizable", "customisable");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -75778,6 +75806,20 @@ namespace OverflowHelper.core
 
             URL_Add("2-in-1 PC", "https://en.wikipedia.org/wiki/2-in-1_PC");
 
+            URL_Add("numerical", "https://en.wiktionary.org/wiki/numerical#Adjective");
+
+            URL_Add("SETX", "https://ss64.com/nt/setx.html");
+
+            URL_Add("Start menu", "https://en.wikipedia.org/wiki/Start_menu");
+
+            URL_Add("customisable", "https://en.wiktionary.org/wiki/customisable#Adjective");
+
+            URL_Add("Keyboardio", "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards#Mechanical_keyboards");
+
+            URL_Add("Moonlander Mark I", "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards#Mechanical_keyboards");
+
+            URL_Add("Windows 10 Enterprise LTSC", "https://en.wikipedia.org/wiki/Windows_10_editions#Organizational_editions");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -76496,25 +76538,6 @@ namespace OverflowHelper.core
             correctionAdd("blitz++_", "Blitz++_");
             correctionAdd("Blitz_", "Blitz++_");
             correctionAdd("blitz_", "Blitz++_");
-
-            correctionAdd("win8_", "Windows&nbsp;8_");
-            correctionAdd("Win8_", "Windows&nbsp;8_");
-            correctionAdd("Windows 8_", "Windows&nbsp;8_");
-            correctionAdd("windows 8_", "Windows&nbsp;8_");
-            correctionAdd("win 8_", "Windows&nbsp;8_");
-            correctionAdd("Win 8_", "Windows&nbsp;8_");
-            correctionAdd("W8_", "Windows&nbsp;8_");
-            correctionAdd("Windows8_", "Windows&nbsp;8_");
-            correctionAdd("window-8_", "Windows&nbsp;8_");
-            correctionAdd("windows-8_", "Windows&nbsp;8_");
-            correctionAdd("WIn 8_", "Windows&nbsp;8_");
-            correctionAdd("WIN 8_", "Windows&nbsp;8_");
-            correctionAdd("8_", "Windows&nbsp;8_"); // Ambiguous!
-            correctionAdd("windows8_", "Windows&nbsp;8_");
-            correctionAdd("Win-8_", "Windows&nbsp;8_");
-            correctionAdd("win 8.0_", "Windows&nbsp;8_");
-            correctionAdd("windows 8.0_", "Windows&nbsp;8_");
-            correctionAdd("8.0_", "Windows&nbsp;8_");
 
             correctionAdd("los angeles_", "Los Angeles_");
             correctionAdd("Los angels_", "Los Angeles_");
@@ -77651,6 +77674,29 @@ namespace OverflowHelper.core
 
             correctionAdd("AR_", "ar_");
 
+            correctionAdd("CLASS_", "class_");
+
+            correctionAdd("ID_", "id_");
+
+            correctionAdd("win8_", "Windows&nbsp;8_");
+            correctionAdd("Win8_", "Windows&nbsp;8_");
+            correctionAdd("Windows 8_", "Windows&nbsp;8_");
+            correctionAdd("windows 8_", "Windows&nbsp;8_");
+            correctionAdd("win 8_", "Windows&nbsp;8_");
+            correctionAdd("Win 8_", "Windows&nbsp;8_");
+            correctionAdd("W8_", "Windows&nbsp;8_");
+            correctionAdd("Windows8_", "Windows&nbsp;8_");
+            correctionAdd("window-8_", "Windows&nbsp;8_");
+            correctionAdd("windows-8_", "Windows&nbsp;8_");
+            correctionAdd("WIn 8_", "Windows&nbsp;8_");
+            correctionAdd("WIN 8_", "Windows&nbsp;8_");
+            correctionAdd("8_", "Windows&nbsp;8_"); // Ambiguous!
+            correctionAdd("windows8_", "Windows&nbsp;8_");
+            correctionAdd("Win-8_", "Windows&nbsp;8_");
+            correctionAdd("win 8.0_", "Windows&nbsp;8_");
+            correctionAdd("windows 8.0_", "Windows&nbsp;8_");
+            correctionAdd("8.0_", "Windows&nbsp;8_");
+
             // URL mappings
             //
             //
@@ -77991,8 +78037,6 @@ namespace OverflowHelper.core
             URL_Add("Music: Practice & Theory (Stack Exchange site)_", "https://music.stackexchange.com/tour");
 
             URL_Add("Blitz++_", "https://en.wikipedia.org/wiki/Blitz%2B%2B");
-
-            URL_Add("Windows&nbsp;8_", "https://en.wikipedia.org/wiki/Windows_8");
 
             URL_Add("Psychology & Neuroscience (Stack Exchange site)_", "https://psychology.stackexchange.com/tour");
 
@@ -78717,6 +78761,12 @@ namespace OverflowHelper.core
             URL_Add("match()_", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match");
 
             URL_Add("ar_", "https://en.wikipedia.org/wiki/Ar_(Unix)");
+
+            URL_Add("class_", "https://en.wikipedia.org/wiki/HTML_attribute#Common_attributes");
+
+            URL_Add("id_", "https://en.wikipedia.org/wiki/HTML_attribute#Common_attributes");
+
+            URL_Add("Windows&nbsp;8_", "https://en.wikipedia.org/wiki/Windows_8");
 
         } //addLookupData_alternativeWordSet()
 
