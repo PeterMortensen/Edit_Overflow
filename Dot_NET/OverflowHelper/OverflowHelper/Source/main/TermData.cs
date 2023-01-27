@@ -1861,6 +1861,12 @@ namespace OverflowHelper.core
 
             correctionAdd("hate fun", "Stack Overflow hates fun");
 
+            // Related to Stack Overflow and Stack Exchange.
+            correctionAdd("HNQ", "Hot Network Questions");
+
+            // Related to Stack Overflow and Stack Exchange.
+            correctionAdd("obnoxious lists", "judicious use of obnoxious lists");
+
             //
             //  Start of Stack Exchange site list (not
             //  complete (only added on demand))
@@ -3132,6 +3138,44 @@ namespace OverflowHelper.core
             correctionAdd("UNIX timestamp", "Unix time");
             correctionAdd("Unix timestamp", "Unix time");
 
+            correctionAdd("TR", "tr"); // Unix / Linux command
+
+            // Linux
+            correctionAdd("SUDO", "sudo");
+            correctionAdd("su", "sudo");
+
+            correctionAdd("sort (unix)", "sort (Unix)");
+
+            // Linux command. Related to systemd.
+            correctionAdd("SYSTEMCTL", "systemctl");
+
+            // A system monitoring tool on Linux
+            correctionAdd("VMSTAT", "vmstat"); // The corresponding 'man' page is <https://linux.die.net/man/8/vmstat>.
+
+            correctionAdd("DF", "df"); // Unix/Linux command
+
+            // Related to Linux (transport-layer load balancing)
+            correctionAdd("ipvs", "IPVS");
+
+            // Related to Linux
+            correctionAdd("TCPDUMP", "tcpdump");
+
+            // Linux command
+            correctionAdd("GROUPADD", "groupadd");
+
+            // Linux command
+            correctionAdd("HDPARM", "hdparm");
+
+            // Linux command
+            correctionAdd("KILL", "kill");
+
+            // Linux command
+            correctionAdd("RM", "rm");
+
+            // A Linux file system
+            correctionAdd("procfs", "proc");
+            correctionAdd("PROC", "proc");
+
             correctionAdd("epoch time", "Epoch time");
             correctionAdd("EPOC", "Epoch time");
             correctionAdd("EPOC time", "Epoch time");
@@ -3139,8 +3183,6 @@ namespace OverflowHelper.core
             correctionAdd("DOS2UNIX", "dos2unix");
 
             correctionAdd("UNIX2DOS", "unix2dos");
-
-            correctionAdd("sort (unix)", "sort (Unix)");
 
             correctionAdd("dtrace", "DTrace");
             correctionAdd("Dtrace", "DTrace");
@@ -3155,10 +3197,6 @@ namespace OverflowHelper.core
             correctionAdd("IFCONFIG", "ip addr");
             correctionAdd("ifconfig", "ip addr"); // On Linux. Not incorrect, just the replacement on Linux...
             correctionAdd("ip a", "ip addr"); // On Linux. Not incorrect, just the replacement on Linux...
-
-            correctionAdd("SYSTEMCTL", "systemctl");
-
-            correctionAdd("VMSTAT", "vmstat"); // The corresponding 'man' page is <https://linux.die.net/man/8/vmstat>.
 
             correctionAdd("ghostscript", "Ghostscript");
             correctionAdd("GhostScript", "Ghostscript");
@@ -14335,6 +14373,16 @@ namespace OverflowHelper.core
             correctionAdd("Kailh blue", "Kailh Blue");
             correctionAdd("Kalei Blue", "Kailh Blue");
 
+            // A type of switch for mechanical keyboards
+            correctionAdd("gateron", "Gateron");
+            correctionAdd("gataron", "Gateron");
+
+            // A type of switch for mechanical keyboards
+            correctionAdd("gateron yellow", "Gateron Yellow");
+            correctionAdd("gat yellows", "Gateron Yellow");
+
+            correctionAdd("gateron pink", "Gateron Pink");
+
             correctionAdd("linear switch", "linear mechanical keyboard switch");
 
             // A component used in mechanical keyboards (to
@@ -14342,6 +14390,12 @@ namespace OverflowHelper.core
             // See also <https://www.reddit.com/r/MechanicalKeyboards/comments/o8h0nb/mill_max_sockets_0305_vs_7305_vs_holtite/>
             correctionAdd("Millmax", "7305 Mill-Max socket");
             correctionAdd("7305 Mill-Max", "7305 Mill-Max socket");
+
+            // Can be related to mechanical keyboards (used
+            // as sound dampeners).
+            correctionAdd("O ring", "O-ring");
+            correctionAdd("o-ring", "O-ring");
+            correctionAdd("o ring", "O-ring");
 
             // A manufacturer of mechanical keyboards, etc.
             // (e.g., 'V700RGB', 'V700S', and 'V500')
@@ -14782,8 +14836,6 @@ namespace OverflowHelper.core
             correctionAdd("input tag", "input (HTML form)");
 
             correctionAdd("TD", "td"); // HTML tag
-
-            correctionAdd("TR", "tr"); // Unix / Linux command
 
             correctionAdd("dragonfly", "Dragonfly");
             correctionAdd("Opera Dragonfly", "Dragonfly");
@@ -28988,9 +29040,6 @@ namespace OverflowHelper.core
             correctionAdd("secrate", "secret");
             correctionAdd("secrete", "secret");
 
-            correctionAdd("SUDO", "sudo");
-            correctionAdd("su", "sudo");
-
             correctionAdd("WIP", "work in progress");
 
             correctionAdd("Estern Europe", "Eastern Europe");
@@ -34672,13 +34721,6 @@ namespace OverflowHelper.core
 
             correctionAdd("space-time continoum", "spacetime continuum");
 
-            correctionAdd("gateron", "Gateron");
-            correctionAdd("gataron", "Gateron");
-
-            correctionAdd("O ring", "O-ring");
-            correctionAdd("o-ring", "O-ring");
-            correctionAdd("o ring", "O-ring");
-
             correctionAdd("disengenious", "disingenuous");
             correctionAdd("disingenous", "disingenuous");
             correctionAdd("disenginous", "disingenuous");
@@ -35182,9 +35224,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Cypres", "Cyprus");
 
-            correctionAdd("gateron yellow", "Gateron Yellow");
-            correctionAdd("gat yellows", "Gateron Yellow");
-
             correctionAdd("Abbott", "Greg Abbott");
             correctionAdd("Greg", "Greg Abbott");
 
@@ -35380,25 +35419,10 @@ namespace OverflowHelper.core
             correctionAdd("Danning-Kruger", "Dunning–Kruger effect");
             correctionAdd("Dunning-Kruger effect", "Dunning–Kruger effect");
 
-            correctionAdd("gateron pink", "Gateron Pink");
-
-            correctionAdd("DF", "df"); // Unix/Linux command
-
-            correctionAdd("GROUPADD", "groupadd");
-
-            correctionAdd("HDPARM", "hdparm");
-
             correctionAdd("hestancy", "hesitancy");
 
             correctionAdd("in a short", "in short");
             correctionAdd("In a short", "in short");
-
-            correctionAdd("KILL", "kill");
-
-            correctionAdd("procfs", "proc");
-            correctionAdd("PROC", "proc");
-
-            correctionAdd("RM", "rm");
 
             correctionAdd("roll up the sleeves", "roll up your sleeves");
 
@@ -48497,11 +48521,6 @@ namespace OverflowHelper.core
 
             correctionAdd("a per", "as per");
 
-            // Related to Linux (transport-layer load balancing)
-            correctionAdd("ipvs", "IPVS");
-
-            correctionAdd("TCPDUMP", "tcpdump");
-
             // Related to networking (IP addresses)
             correctionAdd("vip", "VIP");
 
@@ -48538,10 +48557,7 @@ namespace OverflowHelper.core
 
             correctionAdd("formual", "formula");
 
-            correctionAdd("HNQ", "Hot Network Questions");
-
-            correctionAdd("obnoxious lists", "judicious use of obnoxious lists");
-
+            // Related to cryptography
             correctionAdd("OBF", "OFB");
 
             correctionAdd("put-up", "put up");
