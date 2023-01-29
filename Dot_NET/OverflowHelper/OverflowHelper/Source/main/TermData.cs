@@ -1551,8 +1551,6 @@ namespace OverflowHelper.core
             correctionAdd("compile-time", "compile time");
             correctionAdd("compiletime", "compile time");
 
-            correctionAdd("enzyme", "Enzyme");
-
             correctionAdd("gofundme", "GoFundMe");
 
             correctionAdd("cumbsome", "cumbersome");
@@ -2982,7 +2980,9 @@ namespace OverflowHelper.core
             correctionAdd("Evolve OS", "Solus");
             correctionAdd("solus", "Solus");
 
+            // A Linux distribution
             correctionAdd("Xero Linux", "XeroLinux");
+            correctionAdd("Zero Linux", "XeroLinux");
 
             correctionAdd("Yocto", "Yocto Project");
             correctionAdd("Yocto Linux", "Yocto Project");
@@ -3874,6 +3874,9 @@ namespace OverflowHelper.core
             correctionAdd("MRO", "method resolution order");
             correctionAdd("Method Resolution Order", "method resolution order");
 
+            // A book
+            correctionAdd("Python in a nutshell", "Python in a Nutshell");
+
             // Start of Python function section
             correctionAdd("sorted", "sorted()"); // Python
 
@@ -4273,6 +4276,79 @@ namespace OverflowHelper.core
 
             // Related to JavaScript
             correctionAdd("Spread operator", "spread syntax");
+
+            correctionAdd("react", "React");
+            correctionAdd("reactjs", "React");
+            correctionAdd("Reactjs", "React");
+            correctionAdd("react.js", "React");
+            correctionAdd("React.JS", "React");
+            correctionAdd("react JS", "React");
+            correctionAdd("ReactJs", "React");
+            correctionAdd("ReactJS", "React");
+            correctionAdd("React JS", "React");
+            correctionAdd("react js", "React");
+            correctionAdd("React js", "React");
+            correctionAdd("React.js", "React");
+            correctionAdd("REACT.js", "React");
+            correctionAdd("REACT", "React");
+            correctionAdd("reactJS", "React");
+            correctionAdd("Reacty", "React");
+            correctionAdd("react Js", "React");
+            correctionAdd("reactJs", "React");
+            correctionAdd("React Js", "React");
+
+            correctionAdd("react native", "React Native");
+            correctionAdd("react-native", "React Native");
+            correctionAdd("React-native", "React Native");
+            correctionAdd("React native", "React Native");
+            correctionAdd("ReactNative", "React Native");
+            correctionAdd("React-Native", "React Native");
+            correctionAdd("RN", "React Native");
+            correctionAdd("reactnative", "React Native");
+
+            correctionAdd("React mui", "MUI React");
+            correctionAdd("React mui material", "MUI React");
+
+            correctionAdd("React Hooks", "React hooks");
+            correctionAdd("react hooks", "React hooks");
+            correctionAdd("react hook", "React hooks");
+            correctionAdd("react Hooks", "React hooks");
+
+            correctionAdd("react-testing-library", "React Testing Library");
+
+            correctionAdd("react-router", "React Router");
+            correctionAdd("react router", "React Router");
+            correctionAdd("React-Router", "React Router");
+            correctionAdd("React router", "React Router");
+
+            correctionAdd("react-native-cli", "React Native CLI");
+            correctionAdd("React Native cli", "React Native CLI");
+
+            correctionAdd("react-icons", "React Icons");
+
+            correctionAdd("material ui", "MUI");
+            correctionAdd("MATERIAL-UI", "MUI");
+            correctionAdd("React Material-UI", "MUI");
+            correctionAdd("material-ui", "MUI");
+            correctionAdd("Material UI", "MUI"); // The original name
+            correctionAdd("Material ui", "MUI");
+            correctionAdd("Material Ui", "MUI");
+            correctionAdd("Material-UI", "MUI");
+            correctionAdd("Mui", "MUI");
+            correctionAdd("mui", "MUI");
+            correctionAdd("material UI", "MUI");
+
+            // A software library related to Jest, React, and JavaScript.
+            correctionAdd("enzyme", "Enzyme");
+            correctionAdd("jest enzyme", "Enzyme");
+
+            // A software library for testing JavaScript code
+            correctionAdd("JEST", "Jest");
+            correctionAdd("jest", "Jest");
+
+            correctionAdd("RX", "reactive programming");
+            correctionAdd("Reactive Programming", "reactive programming");
+            correctionAdd("Rx", "reactive programming");
 
             correctionAdd("guidanance", "guidance");
             correctionAdd("guidence", "guidance");
@@ -5956,71 +6032,6 @@ namespace OverflowHelper.core
             correctionAdd("1&1", "1&1 IONOS");
 
             correctionAdd("reactos", "ReactOS");
-
-            correctionAdd("react", "React");
-            correctionAdd("reactjs", "React");
-            correctionAdd("Reactjs", "React");
-            correctionAdd("react.js", "React");
-            correctionAdd("React.JS", "React");
-            correctionAdd("react JS", "React");
-            correctionAdd("ReactJs", "React");
-            correctionAdd("ReactJS", "React");
-            correctionAdd("React JS", "React");
-            correctionAdd("react js", "React");
-            correctionAdd("React js", "React");
-            correctionAdd("React.js", "React");
-            correctionAdd("REACT.js", "React");
-            correctionAdd("REACT", "React");
-            correctionAdd("reactJS", "React");
-            correctionAdd("Reacty", "React");
-            correctionAdd("react Js", "React");
-            correctionAdd("reactJs", "React");
-            correctionAdd("React Js", "React");
-
-            correctionAdd("react native", "React Native");
-            correctionAdd("react-native", "React Native");
-            correctionAdd("React-native", "React Native");
-            correctionAdd("React native", "React Native");
-            correctionAdd("ReactNative", "React Native");
-            correctionAdd("React-Native", "React Native");
-            correctionAdd("RN", "React Native");
-            correctionAdd("reactnative", "React Native");
-
-            correctionAdd("React mui", "MUI React");
-            correctionAdd("React mui material", "MUI React");
-
-            correctionAdd("React Hooks", "React hooks");
-            correctionAdd("react hooks", "React hooks");
-            correctionAdd("react hook", "React hooks");
-            correctionAdd("react Hooks", "React hooks");
-
-            correctionAdd("react-testing-library", "React Testing Library");
-
-            correctionAdd("react-router", "React Router");
-            correctionAdd("react router", "React Router");
-            correctionAdd("React-Router", "React Router");
-            correctionAdd("React router", "React Router");
-
-            correctionAdd("react-native-cli", "React Native CLI");
-            correctionAdd("React Native cli", "React Native CLI");
-
-            correctionAdd("react-icons", "React Icons");
-
-            correctionAdd("material ui", "MUI");
-            correctionAdd("MATERIAL-UI", "MUI");
-            correctionAdd("React Material-UI", "MUI");
-            correctionAdd("material-ui", "MUI");
-            correctionAdd("Material UI", "MUI"); // The original name
-            correctionAdd("Material ui", "MUI");
-            correctionAdd("Material Ui", "MUI");
-            correctionAdd("Material-UI", "MUI");
-            correctionAdd("Mui", "MUI");
-            correctionAdd("mui", "MUI");
-            correctionAdd("material UI", "MUI");
-
-            correctionAdd("RX", "reactive programming");
-            correctionAdd("Reactive Programming", "reactive programming");
-            correctionAdd("Rx", "reactive programming");
 
             correctionAdd("rxn", "reaction");
 
@@ -12292,6 +12303,7 @@ namespace OverflowHelper.core
             // Related to 'npm' and Node.js
             correctionAdd("pacakge.json", "package.json");
             correctionAdd("pacakage.json", "package.json");
+            correctionAdd("Package.json", "package.json");
 
             correctionAdd("nvm", "NVM");
             correctionAdd("Node Version Manager", "NVM");
@@ -13112,6 +13124,7 @@ namespace OverflowHelper.core
             correctionAdd("ps2", "PS/2");
             correctionAdd("PS2", "PS/2");
             correctionAdd("ps/2", "PS/2");
+            correctionAdd("PS\\2", "PS/2");
 
             correctionAdd("it's", "it’s"); // Mostly for compatibility with Quora
             correctionAdd("it`s", "it’s"); // Mostly for compatibility with Quora
@@ -14114,6 +14127,7 @@ namespace OverflowHelper.core
             correctionAdd("lan", "LAN");
 
             correctionAdd("javadoc", "Javadoc");
+            correctionAdd("JavaDoc", "Javadoc");
 
             correctionAdd("usenet", "Usenet");
             correctionAdd("USENET", "Usenet");
@@ -14424,6 +14438,7 @@ namespace OverflowHelper.core
             correctionAdd("keybpard", "keyboard");
 
             correctionAdd("Mechanical Keyboard", "mechanical keyboard");
+            correctionAdd("mech", "mechanical keyboard"); // A shortcut (for expansion)
 
             // A type of switch for mechanical keyboards
             correctionAdd("Cherry mx", "Cherry MX");
@@ -18490,6 +18505,7 @@ namespace OverflowHelper.core
             correctionAdd("Down-Vote", "downvote");
             correctionAdd("downvet", "downvote");
             correctionAdd("downvot", "downvote");
+            correctionAdd("dowmvote", "downvote");
 
             correctionAdd("requirejs", "RequireJS");
             correctionAdd("RequireJs", "RequireJS");
@@ -31183,9 +31199,6 @@ namespace OverflowHelper.core
 
             correctionAdd("avalonia", "Avalonia");
 
-            correctionAdd("JEST", "Jest");
-            correctionAdd("jest", "Jest");
-
             correctionAdd("Laplace", "Laplace transform");
 
             correctionAdd("ehcache", "Ehcache");
@@ -39845,6 +39858,7 @@ namespace OverflowHelper.core
             correctionAdd("Agu", "August");
             correctionAdd("Aug", "August");
             correctionAdd("AUGUST", "August");
+            correctionAdd("augest", "August");
 
             correctionAdd("changable", "changeable");
 
@@ -46586,6 +46600,7 @@ namespace OverflowHelper.core
             correctionAdd("Asus TUF F15 Gaming", "Asus TUF Gaming F15");
             correctionAdd("Asus Tuf F15 Gaming", "Asus TUF Gaming F15");
             correctionAdd("TUF Gaming F15", "Asus TUF Gaming F15");
+            correctionAdd("tuf", "Asus TUF Gaming F15");
 
             correctionAdd("Minimax", "minimax");
 
@@ -46747,6 +46762,10 @@ namespace OverflowHelper.core
 
             correctionAdd("life threatening", "life-threatening");
             correctionAdd("Life threatening", "life-threatening");
+
+            correctionAdd("threatning", "threatening");
+            correctionAdd("threatinging", "threatening");
+            correctionAdd("threatining", "threatening");
 
             correctionAdd("awkaardly", "awkwardly");
 
@@ -47743,8 +47762,6 @@ namespace OverflowHelper.core
 
             correctionAdd("sarcasic", "sarcastic");
 
-            correctionAdd("threatning", "threatening");
-
             correctionAdd("WebGPU Shading Language", "WGSL");
 
             correctionAdd("butlerian jihad", "Butlerian Jihad");
@@ -48620,6 +48637,25 @@ namespace OverflowHelper.core
             correctionAdd("wikibooks", "Wikibooks");
 
             correctionAdd("rise time", "risetime");
+
+            correctionAdd("debarcel", "debacle");
+            correctionAdd("debarcle", "debacle");
+
+            // A YouTube channel by said
+            //
+            // Sample:
+            //   <https://www.youtube.com/watch?v=oI_X2cMHNe0>
+            //     How electricity actually works
+            //
+            correctionAdd("Veritasium", "Derek Muller");
+
+            correctionAdd("life saver", "lifesaver");
+
+            correctionAdd("on principal", "on principle");
+
+            correctionAdd("onesidedly", "one-sidedly");
+
+            correctionAdd("pratical", "practical");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -76057,6 +76093,20 @@ namespace OverflowHelper.core
 
             URL_Add("risetime", "https://en.wiktionary.org/wiki/risetime#Noun");
 
+            URL_Add("debacle", "https://en.wiktionary.org/wiki/debacle#Noun");
+
+            URL_Add("Derek Muller", "https://en.wikipedia.org/wiki/Derek_Muller");
+
+            URL_Add("lifesaver", "https://en.wiktionary.org/wiki/lifesaver#Noun");
+
+            URL_Add("on principle", "https://en.wiktionary.org/wiki/on_principle#Prepositional_phrase");
+
+            URL_Add("one-sidedly", "https://en.wiktionary.org/wiki/one-sidedly#Adverb");
+
+            URL_Add("practical", "https://en.wiktionary.org/wiki/practical#Adjective");
+
+            URL_Add("Python in a Nutshell", "https://www.oreilly.com/library/view/python-in-a/9781098113544/");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -77944,6 +77994,10 @@ namespace OverflowHelper.core
 
             correctionAdd("finde_", "fine_");
 
+            correctionAdd("Javadoc_", "JDK documentation_");
+
+            correctionAdd("Top_", "top_");
+
             // URL mappings
             //
             //
@@ -79016,6 +79070,10 @@ namespace OverflowHelper.core
             URL_Add("Windows&nbsp;8_", "https://en.wikipedia.org/wiki/Windows_8");
 
             URL_Add("fine_", "https://en.wiktionary.org/wiki/fine#Adverb");
+
+            URL_Add("JDK documentation_", "https://docs.oracle.com/en/java/javase/17/");
+
+            URL_Add("top_", "https://en.wiktionary.org/wiki/top#Adjective");
 
         } //addLookupData_alternativeWordSet()
 
