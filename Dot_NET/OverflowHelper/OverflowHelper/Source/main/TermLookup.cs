@@ -418,7 +418,7 @@ namespace OverflowHelper.core
             // Note: This ***must*** be the first. Otherwise we risk
             //       unintended double backslashes in the output.
             //
-            //aString = escapeBackslash(aString);
+            aString = escapeBackslash(aString);
 
 
             // Escape double quote (if any)
@@ -452,14 +452,13 @@ namespace OverflowHelper.core
             // the string.
 
 
-            // Escape backslash itself
+            // Escape backslash ***itself***
             //
             // Note: This ***must*** be the first. Otherwise we risk unintended
             //       double backslashes in the output (if we escape other
             //       characters using backslash).
             //
             aStringForSQL = escapeBackslash(aStringForSQL);
-
 
             aStringForSQL = aStringForSQL.Replace("'", "''");
 
@@ -490,18 +489,6 @@ namespace OverflowHelper.core
             string effectiveIncorrectTerm = escapeSQL(aBadTerm3);
             string effectiveCorrectTerm =escapeSQL(aCorrectedTerm3);
             string effectiveURL = escapeSQL(aURL3);
-
-
-            //Delete at any time
-            //if (effectiveBadTerm.IndexOf(@"\") >= 0)
-	        //{
-            //    effectiveBadTerm = effectiveBadTerm.Replace(@"\", @"\\");
-          	//}
-            //if (effectiveCorrectedTerm.IndexOf(@"\") >= 0)
-            //{
-            //    effectiveCorrectedTerm = effectiveBadTerm.Replace(@"\", @"\\");
-            //}
-
 
             // Sanity check
             if (anIdentityMapping)
@@ -699,16 +686,6 @@ namespace OverflowHelper.core
             bool anIdentityMapping,
             ref StringBuilder aSomeScratch)
         {
-            // We need to escape double quotes. Example (incorrect term):
-            //
-            //     Mac OS X (10.6 "Snow Leopard")
-            //
-
-            //Delete at any time
-            //aKey   =   aKey.Replace(@"""", @"\""");
-            //aValue = aValue.Replace(@"""", @"\""");
-
-
             aSomeScratch.Append(aVariableName);
             aSomeScratch.Append(@"[""");
             aSomeScratch.Append(aKey);
@@ -730,13 +707,26 @@ namespace OverflowHelper.core
                                                         ref StringBuilder aSomeScratch,
                                                         string aURL)
         {
+            // We need to escape double quotes. Example (incorrect term):
+            //
+            //     Mac OS X (10.6 "Snow Leopard")
+            //
+            // And backslash. Example:
+            //
+            //     PS\2
+            //
+            //   Otherwise, the result may be this with JavaScript
+            //   unit testing:
+            //
+            //       The only valid numeric escape in strict mode is '\0'.
+
             string effectiveBadTerm = escape_withBackslash(aBadTerm);
 
             //string effectiveCorrectedTerm = aCorrectedTerm;
             string effectiveCorrectedTerm = escape_withBackslash(aCorrectedTerm);
 
             // Example (this example is for identity mapping so we can also
-            //          lookup the correct words (with explicit program
+            //          look up the correct words (with explicit program
             //          code)):
             //
             //   incorrect2correct["ZX 81"] = "ZX 81";
@@ -749,7 +739,7 @@ namespace OverflowHelper.core
             if (anIdentityMapping)
             {
                 // Check for errors made by the client and internally
-                // here (e.g. differences in escaping).
+                // here (e.g., differences in escaping).
                 ourAssert(aBadTerm  == aCorrectedTerm);
                 ourAssert(effectiveBadTerm  == effectiveCorrectedTerm);
             }
