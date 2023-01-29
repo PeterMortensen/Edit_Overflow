@@ -4583,6 +4583,441 @@ namespace OverflowHelper.core
 
             correctionAdd("malloc()", "malloc");
 
+            // Note: "c++" does not currently work due to our prefiltering. It would be looked up as "C".
+            correctionAdd("Cpp", "C++");
+            correctionAdd("cpp", "C++");
+            correctionAdd("c++", "C++");
+            correctionAdd("CPP", "C++");
+            correctionAdd("c plus plus", "C++");
+            correctionAdd("C ++", "C++");
+            correctionAdd("C + +", "C++");
+            correctionAdd("c + +", "C++");
+
+            correctionAdd("c++98", "C++98");
+            correctionAdd("C++99", "C++98");
+            correctionAdd("c++99", "C++98");
+
+            correctionAdd("c++0x", "C++0x");
+            correctionAdd("C++ 0x", "C++0x");
+            correctionAdd("C++(0X)", "C++0x");
+
+            correctionAdd("c++03", "C++03");
+
+            correctionAdd("c++11", "C++11");
+            correctionAdd("C++ 11", "C++11");
+            correctionAdd("c++ 11", "C++11");
+
+            correctionAdd("c++14", "C++14");
+            correctionAdd("C14", "C++14");
+            correctionAdd("C14++", "C++14");
+
+            correctionAdd("c++17", "C++17");
+
+            correctionAdd("c++20", "C++20");
+            correctionAdd("C++ 20", "C++20");
+
+            correctionAdd("boost", "Boost");
+            correctionAdd("Boost C++ Libraries", "Boost");
+            correctionAdd("BOOST", "Boost");
+            correctionAdd("bosst", "Boost");
+
+            // Can not currently be looked up due to a bug!!!! It works fine
+            // in the web interface 2021-08-04, though.
+            correctionAdd("devc++", "Dev-C++");
+            correctionAdd("devcpp", "Dev-C++");
+            correctionAdd("Dev-CPP", "Dev-C++");
+            correctionAdd("Dev c/c++", "Dev-C++");
+            correctionAdd("dev c/c++", "Dev-C++");
+            correctionAdd("dev C/C++", "Dev-C++");
+            correctionAdd("Dev C/C++", "Dev-C++");
+            correctionAdd("Dev C++", "Dev-C++");
+            correctionAdd("DevC++", "Dev-C++");
+            correctionAdd("dev c++", "Dev-C++");
+            correctionAdd("dev c", "Dev-C++");
+            correctionAdd("developer c", "Dev-C++");
+
+            correctionAdd("msvc", "Microsoft Visual C++");
+            correctionAdd("ms vc", "Microsoft Visual C++");
+            correctionAdd("ms vc++", "Microsoft Visual C++"); // Will this work???? (considering a recent bug)
+            correctionAdd("vc", "Microsoft Visual C++");
+            correctionAdd("vc++", "Microsoft Visual C++");
+            correctionAdd("VC++", "Microsoft Visual C++");
+            correctionAdd("MSVC", "Microsoft Visual C++");
+            correctionAdd("visual C", "Microsoft Visual C++");
+            correctionAdd("Visual C", "Microsoft Visual C++");
+            correctionAdd("visual c++", "Microsoft Visual C++");
+            correctionAdd("Visual c++", "Microsoft Visual C++");
+            correctionAdd("visual C++", "Microsoft Visual C++");
+            correctionAdd("virsual c++", "Microsoft Visual C++"); // Misspelling.
+            correctionAdd("Viusal C", "Microsoft Visual C++");
+            correctionAdd("msvc++", "Microsoft Visual C++");
+            correctionAdd("MSC", "Microsoft Visual C++");
+            correctionAdd("Microsoft C", "Microsoft Visual C++");
+            correctionAdd("Microsoft C++", "Microsoft Visual C++");
+            correctionAdd("MSC++", "Microsoft Visual C++");
+            correctionAdd("MS Visual C", "Microsoft Visual C++");
+            correctionAdd("Visual C++", "Microsoft Visual C++");
+            correctionAdd("MSVS C++", "Microsoft Visual C++");
+            correctionAdd("virtual c++", "Microsoft Visual C++");
+            correctionAdd("MSVC++", "Microsoft Visual C++");
+            correctionAdd("MS VC++", "Microsoft Visual C++");
+            correctionAdd("microsoft vc++", "Microsoft Visual C++");
+            correctionAdd("Microsoft vc++", "Microsoft Visual C++");
+            correctionAdd("Microsoft VC++", "Microsoft Visual C++");
+
+            correctionAdd("VC2005", "Microsoft Visual C++ 8.0");
+            correctionAdd("Visual C++ 2005", "Microsoft Visual C++ 8.0");
+            correctionAdd("VC++ 2005", "Microsoft Visual C++ 8.0");
+            correctionAdd("Visual C++ 8.0", "Microsoft Visual C++ 8.0");
+
+            correctionAdd("VC++2010", "Visual C++ 2010");
+
+            correctionAdd("TurboC++", "Turbo C++");
+            correctionAdd("turbo c", "Turbo C++"); // Is this true?
+            correctionAdd("turbo C", "Turbo C++");
+            correctionAdd("Turbo C", "Turbo C++");
+            correctionAdd("TurboC", "Turbo C++");
+            correctionAdd("turbo c++", "Turbo C++");
+            correctionAdd("Turbo c++", "Turbo C++");
+            correctionAdd("turbo C++", "Turbo C++");
+            correctionAdd("Turbo-C", "Turbo C++");
+
+            correctionAdd("C++builder", "C++Builder");
+            correctionAdd("c++builder", "C++Builder");
+            correctionAdd("c++ builder", "C++Builder"); // Does not work!
+            correctionAdd("C++ builder", "C++Builder");
+            correctionAdd("C++ Builder", "C++Builder");
+            correctionAdd("borland c++", "C++Builder");
+            correctionAdd("Borland C++", "C++Builder");
+            correctionAdd("Borland C", "C++Builder");
+
+            correctionAdd("Objective-c++", "Objective-C++");
+            correctionAdd("Objective C++", "Objective-C++");
+
+            correctionAdd("Digital Mars C/C++ compiler", "Digital Mars C/C++ Compiler");
+
+            correctionAdd("IAR C/C++ compiler", "IAR C/C++ Compiler");
+            correctionAdd("IAR", "IAR C/C++ Compiler");
+
+            correctionAdd("Intel C++ compiler", "Intel C++ Compiler");
+            correctionAdd("Intel C Compiler", "Intel C++ Compiler");
+            correctionAdd("ICC", "Intel C++ Compiler");
+            correctionAdd("icc", "Intel C++ Compiler");
+
+            correctionAdd("PGI", "PGI compiler");
+
+            correctionAdd("CCS", "Code Composer Studio");
+            correctionAdd("TI compiler", "Code Composer Studio");
+            correctionAdd("TI C++ compiler", "Code Composer Studio");
+            correctionAdd("Texas Instruments compiler", "Code Composer Studio");
+            correctionAdd("Texas Instruments C++ compiler", "Code Composer Studio");
+            correctionAdd("CCStudio", "Code Composer Studio");
+
+            correctionAdd("VS", "Visual&nbsp;Studio");
+            correctionAdd("visual studio", "Visual&nbsp;Studio");
+            correctionAdd("vs", "Visual&nbsp;Studio");
+            correctionAdd("vs.net", "Visual&nbsp;Studio");
+            correctionAdd("visual stduio", "Visual&nbsp;Studio");
+            correctionAdd("visual studios", "Visual&nbsp;Studio");
+            correctionAdd("Visual studio", "Visual&nbsp;Studio");
+            correctionAdd("MSVS", "Visual&nbsp;Studio");
+            correctionAdd("Visual Studios", "Visual&nbsp;Studio");
+            correctionAdd("VisualStudio", "Visual&nbsp;Studio");
+            correctionAdd("VS.NET", "Visual&nbsp;Studio"); // There is no special version of Visual Studio for .NET.
+            correctionAdd("visual sutdio", "Visual&nbsp;Studio"); // Misspelling.
+            correctionAdd("VStudio", "Visual&nbsp;Studio");
+            correctionAdd("Visual-Studio", "Visual&nbsp;Studio");
+            correctionAdd("viual studio", "Visual&nbsp;Studio"); // Misspelling.
+            correctionAdd("vusual studio", "Visual&nbsp;Studio"); // True typo!
+            correctionAdd("Vs", "Visual&nbsp;Studio");
+            correctionAdd("Studio", "Visual&nbsp;Studio");
+            correctionAdd("Vstudio", "Visual&nbsp;Studio");
+            correctionAdd("viusal studio", "Visual&nbsp;Studio");
+            correctionAdd("Visual", "Visual&nbsp;Studio");
+            correctionAdd("V.Studio", "Visual&nbsp;Studio");
+            correctionAdd("visual Studio", "Visual&nbsp;Studio");
+            correctionAdd("studio", "Visual&nbsp;Studio");
+            correctionAdd("visulastudio", "Visual&nbsp;Studio");
+            correctionAdd("Visual Stuidio", "Visual&nbsp;Studio");
+            correctionAdd("Visual Vtudio", "Visual&nbsp;Studio");
+            correctionAdd("visal studio", "Visual&nbsp;Studio");
+            correctionAdd("visual-studio", "Visual&nbsp;Studio");
+            correctionAdd("VS.Net", "Visual&nbsp;Studio");
+            correctionAdd("Visualstudio", "Visual&nbsp;Studio");
+            correctionAdd("visualstudio", "Visual&nbsp;Studio");
+            correctionAdd("visual study", "Visual&nbsp;Studio");
+            correctionAdd("vis studio", "Visual&nbsp;Studio");
+            correctionAdd("Visual Studi", "Visual&nbsp;Studio");
+            correctionAdd("visual sudio", "Visual&nbsp;Studio");
+            correctionAdd("Visual Studio", "Visual&nbsp;Studio");
+            correctionAdd("visual stdio", "Visual&nbsp;Studio");
+            correctionAdd("Visiual studio", "Visual&nbsp;Studio");
+            correctionAdd("visualStudio", "Visual&nbsp;Studio");
+            correctionAdd("Visual Stuido", "Visual&nbsp;Studio");
+            correctionAdd("sudio", "Visual&nbsp;Studio");
+            correctionAdd("Visaul Studio", "Visual&nbsp;Studio");
+            correctionAdd("Visual Stdio", "Visual&nbsp;Studio");
+            correctionAdd("Visual Stido", "Visual&nbsp;Studio");
+            correctionAdd("Visual Studo", "Visual&nbsp;Studio");
+
+            correctionAdd("Visual Studio Express", "Visual&nbsp;Studio Express"); // Sort of identity mapping
+            correctionAdd("VS express", "Visual&nbsp;Studio Express");
+            correctionAdd("vs express", "Visual&nbsp;Studio Express");
+            correctionAdd("visual studio express", "Visual&nbsp;Studio Express");
+            correctionAdd("VSExpress", "Visual&nbsp;Studio Express");
+            correctionAdd("VS Express", "Visual&nbsp;Studio Express");
+            correctionAdd("VS-Express", "Visual&nbsp;Studio Express");
+
+            correctionAdd("Visual Basic 2005 Express Edition", "Visual&nbsp;Basic&nbsp;2005 Express Edition"); // Sort of identity mapping
+            correctionAdd("vb 2005", "Visual&nbsp;Basic&nbsp;2005 Express Edition");
+            correctionAdd("vb2005", "Visual&nbsp;Basic&nbsp;2005 Express Edition");
+
+            correctionAdd("Visual Basic 2008 Express Edition", "Visual&nbsp;Basic&nbsp;2008 Express Edition"); // Sort of identity mapping
+            correctionAdd("VB Express 2008", "Visual&nbsp;Basic&nbsp;2008 Express Edition");
+            correctionAdd("Visual Basic Express 2008", "Visual&nbsp;Basic&nbsp;2008 Express Edition");
+            correctionAdd("VB.Net Express 2008", "Visual&nbsp;Basic&nbsp;2008 Express Edition");
+            correctionAdd("vb 2008", "Visual&nbsp;Basic&nbsp;2008 Express Edition");
+
+            correctionAdd("Visual C# 2008 Express Edition", "Visual&nbsp;C#&nbsp;2008 Express Edition"); // Sort of identity mapping
+            correctionAdd("Visual C# 2008 Express", "Visual&nbsp;C#&nbsp;2008 Express Edition");
+            correctionAdd("visual studio express (2008", "Visual&nbsp;C#&nbsp;2008 Express Edition"); // C# for that particular instance. Note: no ending ")" because of our bug - thus a ")" will remain in the Markdown text in the browser (that must be manually removed...).
+
+            correctionAdd("VC6", "Visual C++ 6.0");
+
+            correctionAdd("Visual C++ 2010 Express", "Visual&nbsp;C++&nbsp;2010 Express"); // Sort of identity mapping
+            correctionAdd("visual c++ express 2010", "Visual&nbsp;C++&nbsp;2010 Express");
+            correctionAdd("Visual C++ Express", "Visual&nbsp;C++&nbsp;2010 Express"); // Not exact...
+            correctionAdd("VS C++ 2010 express", "Visual&nbsp;C++&nbsp;2010 Express");
+            correctionAdd("microsoft visual c++ 2010 express", "Visual&nbsp;C++&nbsp;2010 Express");
+
+            correctionAdd("VS 2010", "Visual&nbsp;Studio&nbsp;2010");
+            correctionAdd("VS2010", "Visual&nbsp;Studio&nbsp;2010");
+            correctionAdd("vs 2010", "Visual&nbsp;Studio&nbsp;2010");
+            correctionAdd("visual studio 2010", "Visual&nbsp;Studio&nbsp;2010");
+            correctionAdd("vs2010", "Visual&nbsp;Studio&nbsp;2010");
+            correctionAdd("studio 2010", "Visual&nbsp;Studio&nbsp;2010");
+            correctionAdd("VS10", "Visual&nbsp;Studio&nbsp;2010");
+            correctionAdd("visual studio 10", "Visual&nbsp;Studio&nbsp;2010");
+            correctionAdd("visual studios 2010", "Visual&nbsp;Studio&nbsp;2010");
+            correctionAdd("VS 10", "Visual&nbsp;Studio&nbsp;2010");
+            correctionAdd("VisualStudio 2010", "Visual&nbsp;Studio&nbsp;2010");
+            correctionAdd("Visual Studio 2010", "Visual&nbsp;Studio&nbsp;2010");
+            correctionAdd("VIsual Studio 2010", "Visual&nbsp;Studio&nbsp;2010");
+            correctionAdd("Visual Studio 10", "Visual&nbsp;Studio&nbsp;2010");
+            correctionAdd("VS.NET 2010", "Visual&nbsp;Studio&nbsp;2010");
+            correctionAdd("Vs2010", "Visual&nbsp;Studio&nbsp;2010");
+            correctionAdd("Visual 2010", "Visual&nbsp;Studio&nbsp;2010");
+            correctionAdd("visual sudio 2010", "Visual&nbsp;Studio&nbsp;2010");
+            correctionAdd("2010", "Visual&nbsp;Studio&nbsp;2010");
+            correctionAdd("VS 2k10", "Visual&nbsp;Studio&nbsp;2010");
+            correctionAdd("MSVS2010", "Visual&nbsp;Studio&nbsp;2010");
+            correctionAdd("Studio2010", "Visual&nbsp;Studio&nbsp;2010");
+            correctionAdd("VisualStudio2010", "Visual&nbsp;Studio&nbsp;2010");
+            correctionAdd("VS v010", "Visual&nbsp;Studio&nbsp;2010");
+            correctionAdd("VS v2010", "Visual&nbsp;Studio&nbsp;2010");
+
+            correctionAdd("Visual Studio 2010 Express", "Visual&nbsp;Studio&nbsp;2010 Express"); // Sort of identity mapping
+            correctionAdd("Visual Studio 2010 Express Edition", "Visual&nbsp;Studio&nbsp;2010 Express");
+            correctionAdd("VS-2010 Express", "Visual&nbsp;Studio&nbsp;2010 Express");
+            correctionAdd("VS2010 Express", "Visual&nbsp;Studio&nbsp;2010 Express");
+            correctionAdd("VS2010 EXPRESS", "Visual&nbsp;Studio&nbsp;2010 Express");
+            correctionAdd("visual studio 2010 express", "Visual&nbsp;Studio&nbsp;2010 Express");
+
+            correctionAdd("Visual Basic 2010 Express Edition", "Visual&nbsp;Basic&nbsp;2010 Express Edition"); // Sort of identity mapping
+            correctionAdd("Visual Basic 2010 Express", "Visual&nbsp;Basic&nbsp;2010 Express Edition");
+            correctionAdd("VB 2010 Express", "Visual&nbsp;Basic&nbsp;2010 Express Edition");
+            correctionAdd("VB express2010", "Visual&nbsp;Basic&nbsp;2010 Express Edition");
+            correctionAdd("vb 2010", "Visual&nbsp;Basic&nbsp;2010 Express Edition");
+
+            correctionAdd("Visual Studio 2012 Express", "Visual&nbsp;Studio&nbsp;2012 Express"); // Sort of identity mapping
+            correctionAdd("Visual Studio Express 2012", "Visual&nbsp;Studio&nbsp;2012 Express");
+            correctionAdd("Visual Studio 2012 express", "Visual&nbsp;Studio&nbsp;2012 Express");
+            correctionAdd("VS Express 2012", "Visual&nbsp;Studio&nbsp;2012 Express");
+            correctionAdd("visual studio 2012 Express", "Visual&nbsp;Studio&nbsp;2012 Express");
+            correctionAdd("VS 2012 Express", "Visual&nbsp;Studio&nbsp;2012 Express");
+            correctionAdd("VS-Express-2012", "Visual&nbsp;Studio&nbsp;2012 Express");
+            correctionAdd("Visual&nbsp;Studio Express 2012", "Visual&nbsp;Studio&nbsp;2012 Express");
+
+            correctionAdd("Visual C# Express", "Visual&nbsp;C# Express"); // Sort of identity mapping
+            correctionAdd("VS express C#", "Visual&nbsp;C# Express");
+            correctionAdd("C# express", "Visual&nbsp;C# Express");
+
+            correctionAdd("Visual Studio 2003", "Visual&nbsp;Studio&nbsp;2003"); // Sort of identity mapping
+            correctionAdd("VS2003", "Visual&nbsp;Studio&nbsp;2003");
+            correctionAdd("VS 2003", "Visual&nbsp;Studio&nbsp;2003");
+
+            correctionAdd("VS2005", "Visual&nbsp;Studio&nbsp;2005");
+            correctionAdd("VS 2005", "Visual&nbsp;Studio&nbsp;2005");
+            correctionAdd("vs2005", "Visual&nbsp;Studio&nbsp;2005");
+            correctionAdd("Visual Studio 2005", "Visual&nbsp;Studio&nbsp;2005");
+            correctionAdd("visualstudio2005", "Visual&nbsp;Studio&nbsp;2005");
+            correctionAdd("visualstudio 2005", "Visual&nbsp;Studio&nbsp;2005");
+            correctionAdd("visual studio 2005", "Visual&nbsp;Studio&nbsp;2005");
+            correctionAdd("MSVS2005", "Visual&nbsp;Studio&nbsp;2005");
+            correctionAdd("vs.net 2005", "Visual&nbsp;Studio&nbsp;2005");
+            correctionAdd("Vs2005", "Visual&nbsp;Studio&nbsp;2005");
+            correctionAdd("VisualStudio 2005", "Visual&nbsp;Studio&nbsp;2005");
+            correctionAdd("vs 2005", "Visual&nbsp;Studio&nbsp;2005");
+            correctionAdd("Visual studio 2005", "Visual&nbsp;Studio&nbsp;2005");
+            correctionAdd("2005", "Visual&nbsp;Studio&nbsp;2005");
+
+            correctionAdd("VS 2008", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("VS2008", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("visual studio 2008", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("VS.Net 2008", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("VS.NET 2008", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("Visual Studio2008", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("studio 2008", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("Visual Studio 2008", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("vs08", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("vs 08", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("Vs08", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("VS'08", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("VS2k8", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("vs.net 2008", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("vs2008", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("Visual Studio 2K8", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("Vs 2008", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("VS08", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("visualstudio2008", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("visualstudio 2008", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("vs 2008", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("Visual 2008", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("VS 08", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("Visual studio 2008", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("visual studio 8", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("visual studio.net 2008", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("VS2K8", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("VS 9.0", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("Visual Studio 9.0", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("VS 9", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("Visual Studio 9", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("Visual Studio 08", "Visual&nbsp;Studio&nbsp;2008");
+
+            correctionAdd("VS 2012", "Visual&nbsp;Studio&nbsp;2012");
+            correctionAdd("VS2012", "Visual&nbsp;Studio&nbsp;2012");
+            correctionAdd("visual studio 2012", "Visual&nbsp;Studio&nbsp;2012");
+            correctionAdd("vs2012", "Visual&nbsp;Studio&nbsp;2012");
+            correctionAdd("Visual studio 2012", "Visual&nbsp;Studio&nbsp;2012");
+            correctionAdd("vs 2012", "Visual&nbsp;Studio&nbsp;2012");
+            correctionAdd("Visual Studio 2012", "Visual&nbsp;Studio&nbsp;2012");
+            correctionAdd("VS11", "Visual&nbsp;Studio&nbsp;2012");
+            correctionAdd("visual studio 11", "Visual&nbsp;Studio&nbsp;2012");
+            correctionAdd("visual studio 2011", "Visual&nbsp;Studio&nbsp;2012");
+            correctionAdd("VS12", "Visual&nbsp;Studio&nbsp;2012");
+            correctionAdd("vs12", "Visual&nbsp;Studio&nbsp;2012");
+            correctionAdd("MVS 2011", "Visual&nbsp;Studio&nbsp;2012");
+            correctionAdd("visual studios 2012", "Visual&nbsp;Studio&nbsp;2012");
+            correctionAdd("VS.2012", "Visual&nbsp;Studio&nbsp;2012");
+            correctionAdd("Visual 2012", "Visual&nbsp;Studio&nbsp;2012");
+            correctionAdd("VS 12", "Visual&nbsp;Studio&nbsp;2012");
+            correctionAdd("VS 11/12", "Visual&nbsp;Studio&nbsp;2012");
+            correctionAdd("VS-2012", "Visual&nbsp;Studio&nbsp;2012");
+
+            correctionAdd("VS2013", "Visual&nbsp;Studio&nbsp;2013");
+            correctionAdd("visual studio 2013", "Visual&nbsp;Studio&nbsp;2013");
+            correctionAdd("VS 2013", "Visual&nbsp;Studio&nbsp;2013");
+            correctionAdd("Visual Studio 2013", "Visual&nbsp;Studio&nbsp;2013"); // Effectively self
+            correctionAdd("Visual studio 2013", "Visual&nbsp;Studio&nbsp;2013");
+            correctionAdd("vs2013", "Visual&nbsp;Studio&nbsp;2013");
+            correctionAdd("VISUAL STUDIO 2013", "Visual&nbsp;Studio&nbsp;2013");
+            correctionAdd("VS13", "Visual&nbsp;Studio&nbsp;2013");
+            correctionAdd("visual 2013", "Visual&nbsp;Studio&nbsp;2013");
+            correctionAdd("vs 2013", "Visual&nbsp;Studio&nbsp;2013");
+            correctionAdd("visual studio 13", "Visual&nbsp;Studio&nbsp;2013");
+            correctionAdd("VS2103", "Visual&nbsp;Studio&nbsp;2013");
+            correctionAdd("MSVS2013", "Visual&nbsp;Studio&nbsp;2013");
+            correctionAdd("Visual&nbsp;Studio 2013", "Visual&nbsp;Studio&nbsp;2013");
+            correctionAdd("Visual Studio 12", "Visual&nbsp;Studio&nbsp;2013");
+
+            correctionAdd("VS 2015", "Visual&nbsp;Studio&nbsp;2015");
+            correctionAdd("VS2015", "Visual&nbsp;Studio&nbsp;2015");
+            correctionAdd("Visual Studio 2015", "Visual&nbsp;Studio&nbsp;2015"); // Effectively self
+            correctionAdd("Visual studio 2015", "Visual&nbsp;Studio&nbsp;2015");
+            correctionAdd("vs2015", "Visual&nbsp;Studio&nbsp;2015");
+            correctionAdd("MSVS2015", "Visual&nbsp;Studio&nbsp;2015");
+            correctionAdd("vs 2015", "Visual&nbsp;Studio&nbsp;2015");
+            correctionAdd("2015", "Visual&nbsp;Studio&nbsp;2015");
+            correctionAdd("Visual Studion 2015", "Visual&nbsp;Studio&nbsp;2015");
+            correctionAdd("visual studio 2015", "Visual&nbsp;Studio&nbsp;2015");
+            correctionAdd("visual studio 15", "Visual&nbsp;Studio&nbsp;2015");
+            correctionAdd("vs15", "Visual&nbsp;Studio&nbsp;2015");
+            correctionAdd("VisualStudio 2015", "Visual&nbsp;Studio&nbsp;2015");
+            correctionAdd("MSVS 2015", "Visual&nbsp;Studio&nbsp;2015");
+            correctionAdd("VS15", "Visual&nbsp;Studio&nbsp;2015");
+
+            correctionAdd("Visual Studio 17", "Visual&nbsp;Studio&nbsp;2017");
+            correctionAdd("Visual Studio 2017", "Visual&nbsp;Studio&nbsp;2017");
+            correctionAdd("vs2017", "Visual&nbsp;Studio&nbsp;2017");
+            correctionAdd("VS2017", "Visual&nbsp;Studio&nbsp;2017");
+            correctionAdd("VS 2017", "Visual&nbsp;Studio&nbsp;2017");
+            correctionAdd("visual studio 2017", "Visual&nbsp;Studio&nbsp;2017");
+            correctionAdd("visual 2017", "Visual&nbsp;Studio&nbsp;2017");
+            correctionAdd("VISUAL STUDIO 2017", "Visual&nbsp;Studio&nbsp;2017");
+            correctionAdd("VS 2k17", "Visual&nbsp;Studio&nbsp;2017");
+            correctionAdd("Visual studio 2017", "Visual&nbsp;Studio&nbsp;2017");
+            correctionAdd("2017", "Visual&nbsp;Studio&nbsp;2017");
+            correctionAdd("vs 2017", "Visual&nbsp;Studio&nbsp;2017");
+            correctionAdd("visual Studio 2017", "Visual&nbsp;Studio&nbsp;2017");
+            correctionAdd("MSVS 2017", "Visual&nbsp;Studio&nbsp;2017");
+            correctionAdd("VS17", "Visual&nbsp;Studio&nbsp;2017");
+            correctionAdd("17", "Visual&nbsp;Studio&nbsp;2017");
+            correctionAdd("VS-2017", "Visual&nbsp;Studio&nbsp;2017");
+            correctionAdd("Visual Stido 2017", "Visual&nbsp;Studio&nbsp;2017");
+
+            correctionAdd("VS2019", "Visual&nbsp;Studio&nbsp;2019");
+            correctionAdd("vs2019", "Visual&nbsp;Studio&nbsp;2019");
+            correctionAdd("Visual studio 2019", "Visual&nbsp;Studio&nbsp;2019");
+            correctionAdd("Visual Studio 2019", "Visual&nbsp;Studio&nbsp;2019");
+            correctionAdd("visual studio 2019", "Visual&nbsp;Studio&nbsp;2019");
+            correctionAdd("VS19", "Visual&nbsp;Studio&nbsp;2019");
+            correctionAdd("VS 2019", "Visual&nbsp;Studio&nbsp;2019");
+            correctionAdd("2019", "Visual&nbsp;Studio&nbsp;2019");
+            correctionAdd("visual Studio 2019", "Visual&nbsp;Studio&nbsp;2019");
+            correctionAdd("Visaul Studio 2019", "Visual&nbsp;Studio&nbsp;2019");
+
+            correctionAdd("Visual Studio 2015 Express", "Visual&nbsp;Studio&nbsp;2015 Express"); // Sort of identity mapping
+            correctionAdd("VS2015Express", "Visual&nbsp;Studio&nbsp;2015 Express");
+            correctionAdd("VS2015 Express", "Visual&nbsp;Studio&nbsp;2015 Express");
+
+            correctionAdd("Visual Studio 2015 Community", "Visual&nbsp;Studio&nbsp;2015 Community"); // Sort of identity mapping
+            correctionAdd("visual studio 2015 community edition", "Visual&nbsp;Studio&nbsp;2015 Community");
+            correctionAdd("Visual Studio 2015 community edition", "Visual&nbsp;Studio&nbsp;2015 Community");
+            correctionAdd("Visual Studio 2015 Community Edition", "Visual&nbsp;Studio&nbsp;2015 Community");
+            correctionAdd("VS 2015 Community", "Visual&nbsp;Studio&nbsp;2015 Community");
+
+            // The "Community" for this last version of it.
+            correctionAdd("VS 2017 CE", "Visual&nbsp;Studio&nbsp;2017 Community");
+            correctionAdd("Visual Studio 2017 Community", "Visual&nbsp;Studio&nbsp;2017 Community"); // Sort of identity mapping
+            correctionAdd("VS-2017 CE", "Visual&nbsp;Studio&nbsp;2017 Community");
+            correctionAdd("Visual Studio 2017 CE", "Visual&nbsp;Studio&nbsp;2017 Community");
+            correctionAdd("Visual&nbsp;Studio&nbsp;2017 CE", "Visual&nbsp;Studio&nbsp;2017 Community");
+            correctionAdd("Visual&nbsp;Studio&nbsp;2017 Community Edition", "Visual&nbsp;Studio&nbsp;2017 Community");
+            correctionAdd("visual studio 2017 community edition", "Visual&nbsp;Studio&nbsp;2017 Community");
+            correctionAdd("Visual Studio Community", "Visual&nbsp;Studio&nbsp;2017 Community");
+            correctionAdd("Visual&nbsp;Studio Community", "Visual&nbsp;Studio&nbsp;2017 Community");
+
+            correctionAdd("ODS", "Oracle Developer Studio");
+            correctionAdd("Oracle Solaris Studio", "Oracle Developer Studio");
+            correctionAdd("Sun Studio", "Oracle Developer Studio");
+            correctionAdd("Sun WorkShop", "Oracle Developer Studio");
+            correctionAdd("Forte Developer", "Oracle Developer Studio");
+            correctionAdd("SunPro Compilers", "Oracle Developer Studio");
+
+            correctionAdd("Pelles", "Pelles C");
+            correctionAdd("pelles c", "Pelles C");
+
+            correctionAdd("satoshi", "Satoshi Nakamoto");
+
+            correctionAdd("IBM XL C/C++ Compilers", "XL C/C++");
+            correctionAdd("xlC", "XL C/C++");
+            correctionAdd("xlc", "XL C/C++");
+
+            correctionAdd("effective c++", "Effective C++");
+
+            // In the C++ standard library
+            correctionAdd("autoptr", "auto_ptr");
+
             correctionAdd("xml-python", "```lang-python");
             correctionAdd("lang-python", "```lang-python");
             correctionAdd("lang-py", "```lang-python");
@@ -6794,11 +7229,6 @@ namespace OverflowHelper.core
             correctionAdd("s2", "Struts"); // Actually Struts 2.
             correctionAdd("S2", "Struts"); // Actually Struts 2.
 
-            correctionAdd("boost", "Boost");
-            correctionAdd("Boost C++ Libraries", "Boost");
-            correctionAdd("BOOST", "Boost");
-            correctionAdd("bosst", "Boost");
-
             correctionAdd("ready boost", "ReadyBoost");
             correctionAdd("readyboost", "ReadyBoost");
 
@@ -7231,112 +7661,6 @@ namespace OverflowHelper.core
             correctionAdd("Vps", "VPS");
             correctionAdd("PVS", "VPS");
             correctionAdd("pvs", "VPS");
-
-            // Can not currently be looked up due to a bug!!!! It works fine
-            // in the web interface 2021-08-04, though.
-            correctionAdd("devc++", "Dev-C++");
-            correctionAdd("devcpp", "Dev-C++");
-            correctionAdd("Dev-CPP", "Dev-C++");
-            correctionAdd("Dev c/c++", "Dev-C++");
-            correctionAdd("dev c/c++", "Dev-C++");
-            correctionAdd("dev C/C++", "Dev-C++");
-            correctionAdd("Dev C/C++", "Dev-C++");
-            correctionAdd("Dev C++", "Dev-C++");
-            correctionAdd("DevC++", "Dev-C++");
-            correctionAdd("dev c++", "Dev-C++");
-            correctionAdd("dev c", "Dev-C++");
-            correctionAdd("developer c", "Dev-C++");
-
-            correctionAdd("msvc", "Microsoft Visual C++");
-            correctionAdd("ms vc", "Microsoft Visual C++");
-            correctionAdd("ms vc++", "Microsoft Visual C++"); // Will this work???? (considering a recent bug)
-            correctionAdd("vc", "Microsoft Visual C++");
-            correctionAdd("vc++", "Microsoft Visual C++");
-            correctionAdd("VC++", "Microsoft Visual C++");
-            correctionAdd("MSVC", "Microsoft Visual C++");
-            correctionAdd("visual C", "Microsoft Visual C++");
-            correctionAdd("Visual C", "Microsoft Visual C++");
-            correctionAdd("visual c++", "Microsoft Visual C++");
-            correctionAdd("Visual c++", "Microsoft Visual C++");
-            correctionAdd("visual C++", "Microsoft Visual C++");
-            correctionAdd("virsual c++", "Microsoft Visual C++"); // Misspelling.
-            correctionAdd("Viusal C", "Microsoft Visual C++");
-            correctionAdd("msvc++", "Microsoft Visual C++");
-            correctionAdd("MSC", "Microsoft Visual C++");
-            correctionAdd("Microsoft C", "Microsoft Visual C++");
-            correctionAdd("Microsoft C++", "Microsoft Visual C++");
-            correctionAdd("MSC++", "Microsoft Visual C++");
-            correctionAdd("MS Visual C", "Microsoft Visual C++");
-            correctionAdd("Visual C++", "Microsoft Visual C++");
-            correctionAdd("MSVS C++", "Microsoft Visual C++");
-            correctionAdd("virtual c++", "Microsoft Visual C++");
-            correctionAdd("MSVC++", "Microsoft Visual C++");
-            correctionAdd("MS VC++", "Microsoft Visual C++");
-            correctionAdd("microsoft vc++", "Microsoft Visual C++");
-            correctionAdd("Microsoft vc++", "Microsoft Visual C++");
-            correctionAdd("Microsoft VC++", "Microsoft Visual C++");
-
-            correctionAdd("VC2005", "Microsoft Visual C++ 8.0");
-            correctionAdd("Visual C++ 2005", "Microsoft Visual C++ 8.0");
-            correctionAdd("VC++ 2005", "Microsoft Visual C++ 8.0");
-            correctionAdd("Visual C++ 8.0", "Microsoft Visual C++ 8.0");
-
-            correctionAdd("VC++2010", "Visual C++ 2010");
-
-            correctionAdd("TurboC++", "Turbo C++");
-            correctionAdd("turbo c", "Turbo C++"); // Is this true?
-            correctionAdd("turbo C", "Turbo C++");
-            correctionAdd("Turbo C", "Turbo C++");
-            correctionAdd("TurboC", "Turbo C++");
-            correctionAdd("turbo c++", "Turbo C++");
-            correctionAdd("Turbo c++", "Turbo C++");
-            correctionAdd("turbo C++", "Turbo C++");
-            correctionAdd("Turbo-C", "Turbo C++");
-
-            // Note: "c++" does not currently work due to our prefiltering. It would be looked up as "C".
-            correctionAdd("Cpp", "C++");
-            correctionAdd("cpp", "C++");
-            correctionAdd("c++", "C++");
-            correctionAdd("CPP", "C++");
-            correctionAdd("c plus plus", "C++");
-            correctionAdd("C ++", "C++");
-            correctionAdd("C + +", "C++");
-            correctionAdd("c + +", "C++");
-
-            correctionAdd("c++98", "C++98");
-            correctionAdd("C++99", "C++98");
-            correctionAdd("c++99", "C++98");
-
-            correctionAdd("c++0x", "C++0x");
-            correctionAdd("C++ 0x", "C++0x");
-            correctionAdd("C++(0X)", "C++0x");
-
-            correctionAdd("c++03", "C++03");
-
-            correctionAdd("c++11", "C++11");
-            correctionAdd("C++ 11", "C++11");
-            correctionAdd("c++ 11", "C++11");
-
-            correctionAdd("c++14", "C++14");
-            correctionAdd("C14", "C++14");
-            correctionAdd("C14++", "C++14");
-
-            correctionAdd("c++17", "C++17");
-
-            correctionAdd("c++20", "C++20");
-            correctionAdd("C++ 20", "C++20");
-
-            correctionAdd("C++builder", "C++Builder");
-            correctionAdd("c++builder", "C++Builder");
-            correctionAdd("c++ builder", "C++Builder"); // Does not work!
-            correctionAdd("C++ builder", "C++Builder");
-            correctionAdd("C++ Builder", "C++Builder");
-            correctionAdd("borland c++", "C++Builder");
-            correctionAdd("Borland C++", "C++Builder");
-            correctionAdd("Borland C", "C++Builder");
-
-            correctionAdd("Objective-c++", "Objective-C++");
-            correctionAdd("Objective C++", "Objective-C++");
 
             correctionAdd("subversion", "Subversion");
             correctionAdd("SubVersion", "Subversion");
@@ -14496,6 +14820,13 @@ namespace OverflowHelper.core
 
             correctionAdd("keyboard-shortcut", "keyboard shortcut");
 
+            // An "elitist" (whatever that means) name. It 
+            // is "keyboard shortcut" for the rest of us.
+            correctionAdd("keybinding", "key binding");
+            correctionAdd("keybindding", "key binding");
+            correctionAdd("key-binding", "key binding");
+            correctionAdd("Key-Binding", "key binding");
+
             correctionAdd("kerboard", "keyboard");
             correctionAdd("kerbaord", "keyboard");
             correctionAdd("keyboatd", "keyboard");
@@ -14707,6 +15038,62 @@ namespace OverflowHelper.core
 
             correctionAdd("AFK", "away from keyboard");
 
+            // A key on a keyboard
+            correctionAdd("CTRL", "Ctrl");
+            correctionAdd("CRTL", "Ctrl");
+            correctionAdd("ctrl", "Ctrl");
+            correctionAdd("CNTRL", "Ctrl");
+            correctionAdd("ctl", "Ctrl");
+            correctionAdd("Crtl", "Ctrl");
+            correctionAdd("cntrl", "Ctrl");
+            correctionAdd("Control", "Ctrl");
+            correctionAdd("clt", "Ctrl");
+            correctionAdd("cltf", "Ctrl");
+            correctionAdd("Ctl", "Ctrl");
+            correctionAdd("cntl", "Ctrl");
+            correctionAdd("Cntl", "Ctrl");
+            correctionAdd("Ctr", "Ctrl");
+            correctionAdd("Cntrl", "Ctrl");
+            correctionAdd("crtl", "Ctrl");
+            correctionAdd("ctlr", "Ctrl");
+            correctionAdd("Ctlr", "Ctrl");
+            correctionAdd("Cltr", "Ctrl");
+
+            // A key on a keyboard
+            correctionAdd("SHIFT", "Shift");
+            correctionAdd("shift", "Shift");
+            correctionAdd("Shft", "Shift");
+            correctionAdd("shif", "Shift");
+            correctionAdd("SHITFT", "Shift");
+            correctionAdd("Shitft", "Shift");
+
+            // A key on a keyboard
+            correctionAdd("ALT", "Alt");
+            correctionAdd("alt", "Alt");
+
+            // A key on a keyboard
+            correctionAdd("Print Screen", "Prt Sc");
+            correctionAdd("PrtSc", "Prt Sc");
+            correctionAdd("PrtScr", "Prt Sc");
+            correctionAdd("PrtSct", "Prt Sc");
+
+            // A key on a keyboard
+            correctionAdd("PgDwn", "PgDn");
+            correctionAdd("Page Down", "PgDn");
+            correctionAdd("PageDown", "PgDn");
+
+            // A key on a keyboard
+            correctionAdd("Page Up", "PgUp");
+            correctionAdd("PageUp", "PgUp");
+
+            // A key on a keyboard
+            correctionAdd("arrowkey", "arrow key");
+
+            // A key on a keyboard
+            correctionAdd("down key", "down arrow key");
+            correctionAdd("down arrow", "down arrow key");
+            correctionAdd("keyboard down key", "down arrow key");
+
             correctionAdd("moonlight", "Moonlight");
 
             correctionAdd("Moonight Sonata", "Moonlight Sonata");
@@ -14733,6 +15120,15 @@ namespace OverflowHelper.core
             correctionAdd("mechanized infantry combat vehicle", "infantry fighting vehicle");
 
             correctionAdd("Classical Mechanics", "classical mechanics");
+
+            correctionAdd("Jakarta XML Binding", "JAXB");
+            correctionAdd("jaxb", "JAXB");
+
+            correctionAdd("databinding", "data binding");
+            correctionAdd("Data-binding", "data binding");
+            correctionAdd("data-binding", "data binding");
+
+            correctionAdd("bindding", "binding");
 
             correctionAdd("gamechanger", "game changer");
 
@@ -15369,54 +15765,6 @@ namespace OverflowHelper.core
             correctionAdd("sdCard", "SD card");
 
             correctionAdd("nmap", "Nmap");
-
-            // A key on a keyboard
-            correctionAdd("CTRL", "Ctrl");
-            correctionAdd("CRTL", "Ctrl");
-            correctionAdd("ctrl", "Ctrl");
-            correctionAdd("CNTRL", "Ctrl");
-            correctionAdd("ctl", "Ctrl");
-            correctionAdd("Crtl", "Ctrl");
-            correctionAdd("cntrl", "Ctrl");
-            correctionAdd("Control", "Ctrl");
-            correctionAdd("clt", "Ctrl");
-            correctionAdd("cltf", "Ctrl");
-            correctionAdd("Ctl", "Ctrl");
-            correctionAdd("cntl", "Ctrl");
-            correctionAdd("Cntl", "Ctrl");
-            correctionAdd("Ctr", "Ctrl");
-            correctionAdd("Cntrl", "Ctrl");
-            correctionAdd("crtl", "Ctrl");
-            correctionAdd("ctlr", "Ctrl");
-            correctionAdd("Ctlr", "Ctrl");
-            correctionAdd("Cltr", "Ctrl");
-
-            // A key on a keyboard
-            correctionAdd("SHIFT", "Shift");
-            correctionAdd("shift", "Shift");
-            correctionAdd("Shft", "Shift");
-            correctionAdd("shif", "Shift");
-            correctionAdd("SHITFT", "Shift");
-            correctionAdd("Shitft", "Shift");
-
-            // A key on a keyboard
-            correctionAdd("ALT", "Alt");
-            correctionAdd("alt", "Alt");
-
-            // A key on a keyboard
-            correctionAdd("Print Screen", "Prt Sc");
-            correctionAdd("PrtSc", "Prt Sc");
-            correctionAdd("PrtScr", "Prt Sc");
-            correctionAdd("PrtSct", "Prt Sc");
-
-            // A key on a keyboard
-            correctionAdd("PgDwn", "PgDn");
-            correctionAdd("Page Down", "PgDn");
-            correctionAdd("PageDown", "PgDn");
-
-            // A key on a keyboard
-            correctionAdd("Page Up", "PgUp");
-            correctionAdd("PageUp", "PgUp");
 
             correctionAdd("Intent", "intent");
             correctionAdd("intents", "intent"); // Plural, to avoid nearly duplicate entries.
@@ -16602,288 +16950,6 @@ namespace OverflowHelper.core
             correctionAdd("downlad", "download");
             correctionAdd("Down load", "download");
             correctionAdd("Download", "download");
-
-            correctionAdd("VS", "Visual&nbsp;Studio");
-            correctionAdd("visual studio", "Visual&nbsp;Studio");
-            correctionAdd("vs", "Visual&nbsp;Studio");
-            correctionAdd("vs.net", "Visual&nbsp;Studio");
-            correctionAdd("visual stduio", "Visual&nbsp;Studio");
-            correctionAdd("visual studios", "Visual&nbsp;Studio");
-            correctionAdd("Visual studio", "Visual&nbsp;Studio");
-            correctionAdd("MSVS", "Visual&nbsp;Studio");
-            correctionAdd("Visual Studios", "Visual&nbsp;Studio");
-            correctionAdd("VisualStudio", "Visual&nbsp;Studio");
-            correctionAdd("VS.NET", "Visual&nbsp;Studio"); // There is no special version of Visual Studio for .NET.
-            correctionAdd("visual sutdio", "Visual&nbsp;Studio"); // Misspelling.
-            correctionAdd("VStudio", "Visual&nbsp;Studio");
-            correctionAdd("Visual-Studio", "Visual&nbsp;Studio");
-            correctionAdd("viual studio", "Visual&nbsp;Studio"); // Misspelling.
-            correctionAdd("vusual studio", "Visual&nbsp;Studio"); // True typo!
-            correctionAdd("Vs", "Visual&nbsp;Studio");
-            correctionAdd("Studio", "Visual&nbsp;Studio");
-            correctionAdd("Vstudio", "Visual&nbsp;Studio");
-            correctionAdd("viusal studio", "Visual&nbsp;Studio");
-            correctionAdd("Visual", "Visual&nbsp;Studio");
-            correctionAdd("V.Studio", "Visual&nbsp;Studio");
-            correctionAdd("visual Studio", "Visual&nbsp;Studio");
-            correctionAdd("studio", "Visual&nbsp;Studio");
-            correctionAdd("visulastudio", "Visual&nbsp;Studio");
-            correctionAdd("Visual Stuidio", "Visual&nbsp;Studio");
-            correctionAdd("Visual Vtudio", "Visual&nbsp;Studio");
-            correctionAdd("visal studio", "Visual&nbsp;Studio");
-            correctionAdd("visual-studio", "Visual&nbsp;Studio");
-            correctionAdd("VS.Net", "Visual&nbsp;Studio");
-            correctionAdd("Visualstudio", "Visual&nbsp;Studio");
-            correctionAdd("visualstudio", "Visual&nbsp;Studio");
-            correctionAdd("visual study", "Visual&nbsp;Studio");
-            correctionAdd("vis studio", "Visual&nbsp;Studio");
-            correctionAdd("Visual Studi", "Visual&nbsp;Studio");
-            correctionAdd("visual sudio", "Visual&nbsp;Studio");
-            correctionAdd("Visual Studio", "Visual&nbsp;Studio");
-            correctionAdd("visual stdio", "Visual&nbsp;Studio");
-            correctionAdd("Visiual studio", "Visual&nbsp;Studio");
-            correctionAdd("visualStudio", "Visual&nbsp;Studio");
-            correctionAdd("Visual Stuido", "Visual&nbsp;Studio");
-            correctionAdd("sudio", "Visual&nbsp;Studio");
-            correctionAdd("Visaul Studio", "Visual&nbsp;Studio");
-            correctionAdd("Visual Stdio", "Visual&nbsp;Studio");
-            correctionAdd("Visual Stido", "Visual&nbsp;Studio");
-            correctionAdd("Visual Studo", "Visual&nbsp;Studio");
-
-            correctionAdd("Visual Studio Express", "Visual&nbsp;Studio Express"); // Sort of identity mapping
-            correctionAdd("VS express", "Visual&nbsp;Studio Express");
-            correctionAdd("vs express", "Visual&nbsp;Studio Express");
-            correctionAdd("visual studio express", "Visual&nbsp;Studio Express");
-            correctionAdd("VSExpress", "Visual&nbsp;Studio Express");
-            correctionAdd("VS Express", "Visual&nbsp;Studio Express");
-            correctionAdd("VS-Express", "Visual&nbsp;Studio Express");
-
-            correctionAdd("Visual Basic 2005 Express Edition", "Visual&nbsp;Basic&nbsp;2005 Express Edition"); // Sort of identity mapping
-            correctionAdd("vb 2005", "Visual&nbsp;Basic&nbsp;2005 Express Edition");
-            correctionAdd("vb2005", "Visual&nbsp;Basic&nbsp;2005 Express Edition");
-
-            correctionAdd("Visual Basic 2008 Express Edition", "Visual&nbsp;Basic&nbsp;2008 Express Edition"); // Sort of identity mapping
-            correctionAdd("VB Express 2008", "Visual&nbsp;Basic&nbsp;2008 Express Edition");
-            correctionAdd("Visual Basic Express 2008", "Visual&nbsp;Basic&nbsp;2008 Express Edition");
-            correctionAdd("VB.Net Express 2008", "Visual&nbsp;Basic&nbsp;2008 Express Edition");
-            correctionAdd("vb 2008", "Visual&nbsp;Basic&nbsp;2008 Express Edition");
-
-            correctionAdd("Visual C# 2008 Express Edition", "Visual&nbsp;C#&nbsp;2008 Express Edition"); // Sort of identity mapping
-            correctionAdd("Visual C# 2008 Express", "Visual&nbsp;C#&nbsp;2008 Express Edition");
-            correctionAdd("visual studio express (2008", "Visual&nbsp;C#&nbsp;2008 Express Edition"); // C# for that particular instance. Note: no ending ")" because of our bug - thus a ")" will remain in the Markdown text in the browser (that must be manually removed...).
-
-            correctionAdd("Visual C++ 2010 Express", "Visual&nbsp;C++&nbsp;2010 Express"); // Sort of identity mapping
-            correctionAdd("visual c++ express 2010", "Visual&nbsp;C++&nbsp;2010 Express");
-            correctionAdd("Visual C++ Express", "Visual&nbsp;C++&nbsp;2010 Express"); // Not exact...
-            correctionAdd("VS C++ 2010 express", "Visual&nbsp;C++&nbsp;2010 Express");
-            correctionAdd("microsoft visual c++ 2010 express", "Visual&nbsp;C++&nbsp;2010 Express");
-
-            correctionAdd("VS 2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("VS2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("vs 2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("visual studio 2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("vs2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("studio 2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("VS10", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("visual studio 10", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("visual studios 2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("VS 10", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("VisualStudio 2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("Visual Studio 2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("VIsual Studio 2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("Visual Studio 10", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("VS.NET 2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("Vs2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("Visual 2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("visual sudio 2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("VS 2k10", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("MSVS2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("Studio2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("VisualStudio2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("VS v010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("VS v2010", "Visual&nbsp;Studio&nbsp;2010");
-
-            correctionAdd("Visual Studio 2010 Express", "Visual&nbsp;Studio&nbsp;2010 Express"); // Sort of identity mapping
-            correctionAdd("Visual Studio 2010 Express Edition", "Visual&nbsp;Studio&nbsp;2010 Express");
-            correctionAdd("VS-2010 Express", "Visual&nbsp;Studio&nbsp;2010 Express");
-            correctionAdd("VS2010 Express", "Visual&nbsp;Studio&nbsp;2010 Express");
-            correctionAdd("VS2010 EXPRESS", "Visual&nbsp;Studio&nbsp;2010 Express");
-            correctionAdd("visual studio 2010 express", "Visual&nbsp;Studio&nbsp;2010 Express");
-
-            correctionAdd("Visual Basic 2010 Express Edition", "Visual&nbsp;Basic&nbsp;2010 Express Edition"); // Sort of identity mapping
-            correctionAdd("Visual Basic 2010 Express", "Visual&nbsp;Basic&nbsp;2010 Express Edition");
-            correctionAdd("VB 2010 Express", "Visual&nbsp;Basic&nbsp;2010 Express Edition");
-            correctionAdd("VB express2010", "Visual&nbsp;Basic&nbsp;2010 Express Edition");
-            correctionAdd("vb 2010", "Visual&nbsp;Basic&nbsp;2010 Express Edition");
-
-            correctionAdd("Visual Studio 2012 Express", "Visual&nbsp;Studio&nbsp;2012 Express"); // Sort of identity mapping
-            correctionAdd("Visual Studio Express 2012", "Visual&nbsp;Studio&nbsp;2012 Express");
-            correctionAdd("Visual Studio 2012 express", "Visual&nbsp;Studio&nbsp;2012 Express");
-            correctionAdd("VS Express 2012", "Visual&nbsp;Studio&nbsp;2012 Express");
-            correctionAdd("visual studio 2012 Express", "Visual&nbsp;Studio&nbsp;2012 Express");
-            correctionAdd("VS 2012 Express", "Visual&nbsp;Studio&nbsp;2012 Express");
-            correctionAdd("VS-Express-2012", "Visual&nbsp;Studio&nbsp;2012 Express");
-            correctionAdd("Visual&nbsp;Studio Express 2012", "Visual&nbsp;Studio&nbsp;2012 Express");
-
-            correctionAdd("Visual C# Express", "Visual&nbsp;C# Express"); // Sort of identity mapping
-            correctionAdd("VS express C#", "Visual&nbsp;C# Express");
-            correctionAdd("C# express", "Visual&nbsp;C# Express");
-
-            correctionAdd("Visual Studio 2003", "Visual&nbsp;Studio&nbsp;2003"); // Sort of identity mapping
-            correctionAdd("VS2003", "Visual&nbsp;Studio&nbsp;2003");
-            correctionAdd("VS 2003", "Visual&nbsp;Studio&nbsp;2003");
-
-            correctionAdd("VS2005", "Visual&nbsp;Studio&nbsp;2005");
-            correctionAdd("VS 2005", "Visual&nbsp;Studio&nbsp;2005");
-            correctionAdd("vs2005", "Visual&nbsp;Studio&nbsp;2005");
-            correctionAdd("Visual Studio 2005", "Visual&nbsp;Studio&nbsp;2005");
-            correctionAdd("visualstudio2005", "Visual&nbsp;Studio&nbsp;2005");
-            correctionAdd("visualstudio 2005", "Visual&nbsp;Studio&nbsp;2005");
-            correctionAdd("visual studio 2005", "Visual&nbsp;Studio&nbsp;2005");
-            correctionAdd("MSVS2005", "Visual&nbsp;Studio&nbsp;2005");
-            correctionAdd("vs.net 2005", "Visual&nbsp;Studio&nbsp;2005");
-            correctionAdd("Vs2005", "Visual&nbsp;Studio&nbsp;2005");
-            correctionAdd("VisualStudio 2005", "Visual&nbsp;Studio&nbsp;2005");
-            correctionAdd("vs 2005", "Visual&nbsp;Studio&nbsp;2005");
-            correctionAdd("Visual studio 2005", "Visual&nbsp;Studio&nbsp;2005");
-            correctionAdd("2005", "Visual&nbsp;Studio&nbsp;2005");
-
-            correctionAdd("VS 2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("VS2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("visual studio 2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("VS.Net 2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("VS.NET 2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("Visual Studio2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("studio 2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("Visual Studio 2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("vs08", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("vs 08", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("Vs08", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("VS'08", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("VS2k8", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("vs.net 2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("vs2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("Visual Studio 2K8", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("Vs 2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("VS08", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("visualstudio2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("visualstudio 2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("vs 2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("Visual 2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("VS 08", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("Visual studio 2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("visual studio 8", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("visual studio.net 2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("VS2K8", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("VS 9.0", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("Visual Studio 9.0", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("VS 9", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("Visual Studio 9", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("Visual Studio 08", "Visual&nbsp;Studio&nbsp;2008");
-
-            correctionAdd("VS 2012", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("VS2012", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("visual studio 2012", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("vs2012", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("Visual studio 2012", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("vs 2012", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("Visual Studio 2012", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("VS11", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("visual studio 11", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("visual studio 2011", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("VS12", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("vs12", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("MVS 2011", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("visual studios 2012", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("VS.2012", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("Visual 2012", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("VS 12", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("VS 11/12", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("VS-2012", "Visual&nbsp;Studio&nbsp;2012");
-
-            correctionAdd("VS2013", "Visual&nbsp;Studio&nbsp;2013");
-            correctionAdd("visual studio 2013", "Visual&nbsp;Studio&nbsp;2013");
-            correctionAdd("VS 2013", "Visual&nbsp;Studio&nbsp;2013");
-            correctionAdd("Visual Studio 2013", "Visual&nbsp;Studio&nbsp;2013"); // Effectively self
-            correctionAdd("Visual studio 2013", "Visual&nbsp;Studio&nbsp;2013");
-            correctionAdd("vs2013", "Visual&nbsp;Studio&nbsp;2013");
-            correctionAdd("VISUAL STUDIO 2013", "Visual&nbsp;Studio&nbsp;2013");
-            correctionAdd("VS13", "Visual&nbsp;Studio&nbsp;2013");
-            correctionAdd("visual 2013", "Visual&nbsp;Studio&nbsp;2013");
-            correctionAdd("vs 2013", "Visual&nbsp;Studio&nbsp;2013");
-            correctionAdd("visual studio 13", "Visual&nbsp;Studio&nbsp;2013");
-            correctionAdd("VS2103", "Visual&nbsp;Studio&nbsp;2013");
-            correctionAdd("MSVS2013", "Visual&nbsp;Studio&nbsp;2013");
-            correctionAdd("Visual&nbsp;Studio 2013", "Visual&nbsp;Studio&nbsp;2013");
-            correctionAdd("Visual Studio 12", "Visual&nbsp;Studio&nbsp;2013");
-
-            correctionAdd("VS 2015", "Visual&nbsp;Studio&nbsp;2015");
-            correctionAdd("VS2015", "Visual&nbsp;Studio&nbsp;2015");
-            correctionAdd("Visual Studio 2015", "Visual&nbsp;Studio&nbsp;2015"); // Effectively self
-            correctionAdd("Visual studio 2015", "Visual&nbsp;Studio&nbsp;2015");
-            correctionAdd("vs2015", "Visual&nbsp;Studio&nbsp;2015");
-            correctionAdd("MSVS2015", "Visual&nbsp;Studio&nbsp;2015");
-            correctionAdd("vs 2015", "Visual&nbsp;Studio&nbsp;2015");
-            correctionAdd("2015", "Visual&nbsp;Studio&nbsp;2015");
-            correctionAdd("Visual Studion 2015", "Visual&nbsp;Studio&nbsp;2015");
-            correctionAdd("visual studio 2015", "Visual&nbsp;Studio&nbsp;2015");
-            correctionAdd("visual studio 15", "Visual&nbsp;Studio&nbsp;2015");
-            correctionAdd("vs15", "Visual&nbsp;Studio&nbsp;2015");
-            correctionAdd("VisualStudio 2015", "Visual&nbsp;Studio&nbsp;2015");
-            correctionAdd("MSVS 2015", "Visual&nbsp;Studio&nbsp;2015");
-            correctionAdd("VS15", "Visual&nbsp;Studio&nbsp;2015");
-
-            correctionAdd("Visual Studio 17", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("Visual Studio 2017", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("vs2017", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("VS2017", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("VS 2017", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("visual studio 2017", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("visual 2017", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("VISUAL STUDIO 2017", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("VS 2k17", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("Visual studio 2017", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("2017", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("vs 2017", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("visual Studio 2017", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("MSVS 2017", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("VS17", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("17", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("VS-2017", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("Visual Stido 2017", "Visual&nbsp;Studio&nbsp;2017");
-
-            correctionAdd("VS2019", "Visual&nbsp;Studio&nbsp;2019");
-            correctionAdd("vs2019", "Visual&nbsp;Studio&nbsp;2019");
-            correctionAdd("Visual studio 2019", "Visual&nbsp;Studio&nbsp;2019");
-            correctionAdd("Visual Studio 2019", "Visual&nbsp;Studio&nbsp;2019");
-            correctionAdd("visual studio 2019", "Visual&nbsp;Studio&nbsp;2019");
-            correctionAdd("VS19", "Visual&nbsp;Studio&nbsp;2019");
-            correctionAdd("VS 2019", "Visual&nbsp;Studio&nbsp;2019");
-            correctionAdd("2019", "Visual&nbsp;Studio&nbsp;2019");
-            correctionAdd("visual Studio 2019", "Visual&nbsp;Studio&nbsp;2019");
-            correctionAdd("Visaul Studio 2019", "Visual&nbsp;Studio&nbsp;2019");
-
-            correctionAdd("Visual Studio 2015 Express", "Visual&nbsp;Studio&nbsp;2015 Express"); // Sort of identity mapping
-            correctionAdd("VS2015Express", "Visual&nbsp;Studio&nbsp;2015 Express");
-            correctionAdd("VS2015 Express", "Visual&nbsp;Studio&nbsp;2015 Express");
-
-            correctionAdd("Visual Studio 2015 Community", "Visual&nbsp;Studio&nbsp;2015 Community"); // Sort of identity mapping
-            correctionAdd("visual studio 2015 community edition", "Visual&nbsp;Studio&nbsp;2015 Community");
-            correctionAdd("Visual Studio 2015 community edition", "Visual&nbsp;Studio&nbsp;2015 Community");
-            correctionAdd("Visual Studio 2015 Community Edition", "Visual&nbsp;Studio&nbsp;2015 Community");
-            correctionAdd("VS 2015 Community", "Visual&nbsp;Studio&nbsp;2015 Community");
-
-            // The "Community" for this last version of it.
-            correctionAdd("VS 2017 CE", "Visual&nbsp;Studio&nbsp;2017 Community");
-            correctionAdd("Visual Studio 2017 Community", "Visual&nbsp;Studio&nbsp;2017 Community"); // Sort of identity mapping
-            correctionAdd("VS-2017 CE", "Visual&nbsp;Studio&nbsp;2017 Community");
-            correctionAdd("Visual Studio 2017 CE", "Visual&nbsp;Studio&nbsp;2017 Community");
-            correctionAdd("Visual&nbsp;Studio&nbsp;2017 CE", "Visual&nbsp;Studio&nbsp;2017 Community");
-            correctionAdd("Visual&nbsp;Studio&nbsp;2017 Community Edition", "Visual&nbsp;Studio&nbsp;2017 Community");
-            correctionAdd("visual studio 2017 community edition", "Visual&nbsp;Studio&nbsp;2017 Community");
-            correctionAdd("Visual Studio Community", "Visual&nbsp;Studio&nbsp;2017 Community");
-            correctionAdd("Visual&nbsp;Studio Community", "Visual&nbsp;Studio&nbsp;2017 Community");
 
             correctionAdd("pydev", "PyDev");
             correctionAdd("Pydev", "PyDev");
@@ -24743,8 +24809,6 @@ namespace OverflowHelper.core
             correctionAdd("PPA", "Personal Package Archive");
             correctionAdd("ppa", "Personal Package Archive");
 
-            correctionAdd("VC6", "Visual C++ 6.0");
-
             correctionAdd("configur", "configure");
 
             correctionAdd("currenctly", "currently");
@@ -27389,12 +27453,7 @@ namespace OverflowHelper.core
 
             correctionAdd("noticably", "noticeably");
 
-            correctionAdd("bindding", "binding");
-
-            correctionAdd("keybinding", "key binding");
-            correctionAdd("keybindding", "key binding");
-            correctionAdd("key-binding", "key binding");
-            correctionAdd("Key-Binding", "key binding");
+            correctionAdd("endgoal", "end goal");
 
             correctionAdd("van-der-Waals force", "van der Waals force");
             correctionAdd("Van der Waals force", "van der Waals force");
@@ -29775,10 +29834,6 @@ namespace OverflowHelper.core
             correctionAdd("Concensus", "consensus");
 
             correctionAdd("crisises", "crises");
-
-            correctionAdd("databinding", "data binding");
-            correctionAdd("Data-binding", "data binding");
-            correctionAdd("data-binding", "data binding");
 
             correctionAdd("dissapointment", "disappointment");
 
@@ -38009,9 +38064,6 @@ namespace OverflowHelper.core
 
             correctionAdd("dx", "DX");
 
-            correctionAdd("Jakarta XML Binding", "JAXB");
-            correctionAdd("jaxb", "JAXB");
-
             correctionAdd("jackson", "Jackson");
 
             correctionAdd("AAP", "A-A-P");
@@ -40194,18 +40246,6 @@ namespace OverflowHelper.core
             correctionAdd("sub equation", "sub-equation");
             correctionAdd("subequation", "sub-equation");
 
-            correctionAdd("Digital Mars C/C++ compiler", "Digital Mars C/C++ Compiler");
-
-            correctionAdd("IAR C/C++ compiler", "IAR C/C++ Compiler");
-            correctionAdd("IAR", "IAR C/C++ Compiler");
-
-            correctionAdd("Intel C++ compiler", "Intel C++ Compiler");
-            correctionAdd("Intel C Compiler", "Intel C++ Compiler");
-            correctionAdd("ICC", "Intel C++ Compiler");
-            correctionAdd("icc", "Intel C++ Compiler");
-
-            correctionAdd("PGI", "PGI compiler");
-
             correctionAdd("x/open", "X/Open");
 
             correctionAdd("relais", "relays");
@@ -40213,35 +40253,12 @@ namespace OverflowHelper.core
             correctionAdd("standardization", "standardisation");
             correctionAdd("standarization", "standardisation");
 
-            correctionAdd("CCS", "Code Composer Studio");
-            correctionAdd("TI compiler", "Code Composer Studio");
-            correctionAdd("TI C++ compiler", "Code Composer Studio");
-            correctionAdd("Texas Instruments compiler", "Code Composer Studio");
-            correctionAdd("Texas Instruments C++ compiler", "Code Composer Studio");
-            correctionAdd("CCStudio", "Code Composer Studio");
-
             correctionAdd("craig", "Craig Wright");
             correctionAdd("Craig", "Craig Wright");
 
             correctionAdd("Metaverse", "Facebook Metaverse");
 
             correctionAdd("jinja", "Jinja");
-
-            correctionAdd("ODS", "Oracle Developer Studio");
-            correctionAdd("Oracle Solaris Studio", "Oracle Developer Studio");
-            correctionAdd("Sun Studio", "Oracle Developer Studio");
-            correctionAdd("Sun WorkShop", "Oracle Developer Studio");
-            correctionAdd("Forte Developer", "Oracle Developer Studio");
-            correctionAdd("SunPro Compilers", "Oracle Developer Studio");
-
-            correctionAdd("Pelles", "Pelles C");
-            correctionAdd("pelles c", "Pelles C");
-
-            correctionAdd("satoshi", "Satoshi Nakamoto");
-
-            correctionAdd("IBM XL C/C++ Compilers", "XL C/C++");
-            correctionAdd("xlC", "XL C/C++");
-            correctionAdd("xlc", "XL C/C++");
 
             correctionAdd("xtensa", "Xtensa");
 
@@ -45345,8 +45362,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Dungeons and Dragons die", "Dungeons & Dragons die");
 
-            correctionAdd("effective c++", "Effective C++");
-
             correctionAdd("flashrom", "Flashrom");
 
             correctionAdd("hdf5", "HDF5");
@@ -48679,16 +48694,6 @@ namespace OverflowHelper.core
             correctionAdd("pratical", "practical");
 
             correctionAdd("more fast", "faster");
-
-            correctionAdd("arrowkeys", "arrow keys");
-
-            correctionAdd("autoptr", "auto_ptr");
-
-            correctionAdd("down key", "down arrow key");
-            correctionAdd("down arrow", "down arrow key");
-            correctionAdd("keyboard down key", "down arrow key");
-
-            correctionAdd("endgoal", "end goal");
 
             correctionAdd("INI", "INI file");
 
@@ -76150,7 +76155,7 @@ namespace OverflowHelper.core
 
             URL_Add("faster", "https://en.wiktionary.org/wiki/faster#Adjective");
 
-            URL_Add("arrow keys", "https://en.wikipedia.org/wiki/Arrow_keys");
+            URL_Add("arrow key", "https://en.wikipedia.org/wiki/Arrow_keys");
 
             URL_Add("auto_ptr", "https://en.wikipedia.org/wiki/Auto_ptr");
 
