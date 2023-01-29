@@ -1076,10 +1076,6 @@ namespace OverflowHelper.core
             correctionAdd("mime", "MIME");
             correctionAdd("Mime", "MIME");
 
-            correctionAdd("gnome", "GNOME");
-            correctionAdd("Gnome", "GNOME");
-            correctionAdd("Gmome", "GNOME");
-
             correctionAdd("DSL", "domain-specific language");
             correctionAdd("dsl", "domain-specific language");
             correctionAdd("Domain Specific Language", "domain-specific language");
@@ -1569,6 +1565,809 @@ namespace OverflowHelper.core
 
             // Alternative URL: <https://github.com/rails/execjs>
             correctionAdd("execjs", "ExecJS");
+
+            correctionAdd("linux", "Linux");
+            correctionAdd("LINUX", "Linux");
+            correctionAdd("Loonix", "Linux");
+            correctionAdd("linuxx", "Linux");
+            correctionAdd("Linex", "Linux");
+            correctionAdd("LinuxOS", "Linux");
+            correctionAdd("Loonux", "Linux");
+            correctionAdd("loonux", "Linux");
+            correctionAdd("Linix", "Linux");
+            correctionAdd("linix", "Linux");
+            correctionAdd("LInux", "Linux");
+            correctionAdd("Lunux", "Linux");
+            correctionAdd("Lnx", "Linux");
+            correctionAdd("liunx", "Linux");
+
+            correctionAdd("unix", "Unix");
+            correctionAdd("UNIX", "Unix");
+            correctionAdd("UNix", "Unix");
+
+            // Related to Linux. Desktop environment.
+            correctionAdd("gnome", "GNOME");
+            correctionAdd("Gnome", "GNOME");
+            correctionAdd("Gmome", "GNOME");
+
+            // Related to Linux. Desktop environment.
+            correctionAdd("Gnome 3", "GNOME&nbsp;3");
+            correctionAdd("GNOME 3", "GNOME&nbsp;3"); // Sort of identity mapping
+
+            // Related to Linux. Desktop environment.
+            correctionAdd("Lxde", "LXDE");
+            correctionAdd("lxde", "LXDE");
+
+            // Related to Linux. Desktop environment.
+            correctionAdd("Lxqt", "LXQt");
+            correctionAdd("lxqt", "LXQt");
+
+            // Related to Linux. Desktop environment.
+            correctionAdd("xfce", "Xfce");
+            correctionAdd("XFCE", "Xfce");
+            correctionAdd("fxce", "Xfce");
+            correctionAdd("XCFE", "Xfce");
+            correctionAdd("xcfe", "Xfce");
+            correctionAdd("XFce", "Xfce");
+
+            // Related to Linux. Desktop environment.
+            correctionAdd("mate", "MATE");
+            correctionAdd("Mate", "MATE");
+
+            // Related to Linux. Desktop environment.
+            correctionAdd("cinnamon", "Cinnamon");
+            correctionAdd("Cinnemon", "Cinnamon");
+            correctionAdd("cinnemon", "Cinnamon");
+
+            // A Linux distribution
+            correctionAdd("Pop! OS", "Pop!_OS");
+            correctionAdd("POP OS", "Pop!_OS");
+            correctionAdd("Pop OS", "Pop!_OS");
+            correctionAdd("pop os", "Pop!_OS");
+            correctionAdd("PopOS", "Pop!_OS");
+            correctionAdd("PopOS Linux", "Pop!_OS");
+            correctionAdd("Pop_OS", "Pop!_OS");
+            correctionAdd("popos", "Pop!_OS");
+            correctionAdd("pop_os", "Pop!_OS");
+            correctionAdd("Pop!OS", "Pop!_OS");
+
+            // A Linux distribution
+            correctionAdd("suse", "SUSE&nbsp;Linux");
+            correctionAdd("SuSE", "SUSE&nbsp;Linux");
+            correctionAdd("Suse", "SUSE&nbsp;Linux");
+            correctionAdd("SUSE Linux", "SUSE&nbsp;Linux"); // Effectively self
+            correctionAdd("SUSE", "SUSE&nbsp;Linux");
+            correctionAdd("Suse Linux", "SUSE&nbsp;Linux");
+
+            // A Linux distribution
+            correctionAdd("Opensuse", "openSUSE");
+            correctionAdd("opensuse", "openSUSE");
+            correctionAdd("OpenSUSE", "openSUSE");
+            correctionAdd("OpenSuse", "openSUSE");
+            correctionAdd("openSuse", "openSUSE");
+            correctionAdd("OpenSuSE", "openSUSE");
+            correctionAdd("Open Suse", "openSUSE");
+            correctionAdd("openSuSE", "openSUSE");
+            correctionAdd("open suse", "openSUSE");
+            correctionAdd("open SUSE", "openSUSE");
+            correctionAdd("Open SUSE", "openSUSE");
+
+            correctionAdd("Distro", "distribution"); // Expansion.
+            correctionAdd("distro", "distribution"); // Expansion.
+            correctionAdd("distros", "distribution"); // Expansion, not 100% correct. Add a plural feature?
+            correctionAdd("distrobution", "distribution");
+            correctionAdd("distos", "distribution"); // Misspelling. Expansion.
+            correctionAdd("ditro", "distribution");
+            correctionAdd("distor", "distribution"); // Misspelling. Expansion.
+            correctionAdd("distors", "distribution"); // Expansion, not 100% correct. Add a plural feature?
+            correctionAdd("Distros", "distribution");
+            correctionAdd("distritutions", "distribution");
+            correctionAdd("distro's", "distribution");
+            correctionAdd("dists", "distribution");
+            correctionAdd("Linux distribuition", "distribution");
+            correctionAdd("Linux distro", "distribution");
+
+            // A Linux distribution
+            correctionAdd("fedora", "Fedora");
+            correctionAdd("Fedora Linux", "Fedora");
+            correctionAdd("Fedora OS", "Fedora");
+
+            // A Linux distribution
+            correctionAdd("selinux", "SELinux");
+            correctionAdd("SELINUX", "SELinux");
+            correctionAdd("SElinux", "SELinux");
+            correctionAdd("Selinux", "SELinux");
+            correctionAdd("SeLinux", "SELinux");
+
+            // A Linux distribution
+            correctionAdd("RedHat", "Red Hat Linux"); // The OS, not the company.
+            correctionAdd("redhat", "Red Hat Linux"); // The OS, not the company.
+            correctionAdd("red-hat", "Red Hat Linux"); // The OS, not the company.
+            correctionAdd("Redhat", "Red Hat Linux"); // The OS, not the company.
+            correctionAdd("Red Hat", "Red Hat Linux"); // The OS, not the company.
+            correctionAdd("Redhat Linux", "Red Hat Linux"); // The OS, not the company.
+            correctionAdd("linux redhat", "Red Hat Linux"); // The OS, not the company.
+            correctionAdd("RH", "Red Hat Linux"); // The OS, not the company.
+            correctionAdd("RedHat Linux", "Red Hat Linux"); // The OS, not the company.
+            correctionAdd("REDHAT", "Red Hat Linux"); // The OS, not the company.
+            correctionAdd("RHL", "Red Hat Linux");
+
+            // A Linux distribution
+            correctionAdd("RHEL", "Red Hat Enterprise Linux"); // The OS, not the company.
+            correctionAdd("rhel", "Red Hat Enterprise Linux"); // The OS, not the company.
+
+            // A Linux distribution
+            correctionAdd("gentoo", "Gentoo Linux");
+            correctionAdd("Gentoo linux", "Gentoo Linux");
+            correctionAdd("Gentoo", "Gentoo Linux");
+            correctionAdd("gent0os", "Gentoo Linux");
+            correctionAdd("gentoos", "Gentoo Linux");
+            correctionAdd("gentos", "Gentoo Linux");
+            correctionAdd("Gentos", "Gentoo Linux");
+            correctionAdd("gent0", "Gentoo Linux");
+            correctionAdd("gent0o", "Gentoo Linux");
+            correctionAdd("gento0", "Gentoo Linux");
+
+            // A Linux distribution
+            correctionAdd("archlinux", "Arch Linux");
+            correctionAdd("Archlinux", "Arch Linux");
+            correctionAdd("ArchLinux", "Arch Linux");
+            correctionAdd("arch linux", "Arch Linux");
+            correctionAdd("arch Linux", "Arch Linux");
+            correctionAdd("archLinux", "Arch Linux");
+            correctionAdd("Arch", "Arch Linux");
+            correctionAdd("Arch linux", "Arch Linux");
+            correctionAdd("Arch-Linux", "Arch Linux");
+            correctionAdd("ArhLinux", "Arch Linux");
+
+            correctionAdd("pacman", "Pacman");
+            correctionAdd("packman", "Pacman");
+            correctionAdd("pakman", "Pacman");
+            correctionAdd("pac-man", "Pacman");
+
+            // A Linux distribution
+            correctionAdd("mint", "Linux Mint");
+            correctionAdd("Linux mint", "Linux Mint");
+            correctionAdd("linux mint", "Linux Mint");
+            correctionAdd("Mint", "Linux Mint");
+            correctionAdd("LinuxMint", "Linux Mint");
+            correctionAdd("Linuxmint", "Linux Mint");
+
+            correctionAdd("Maya", "Linux Mint 13 (Maya)");
+
+            correctionAdd("chrubuntu", "ChrUbuntu");
+
+            // A Linux distribution
+            correctionAdd("ubuntu", "Ubuntu");
+            correctionAdd("UBUNTU", "Ubuntu");
+            correctionAdd("Ubunutu", "Ubuntu"); // Misspelling.
+            correctionAdd("ubunutu", "Ubuntu"); // Misspelling.
+            correctionAdd("ubunto", "Ubuntu");
+            correctionAdd("Ubunto", "Ubuntu");
+            correctionAdd("unbuntu", "Ubuntu");
+            correctionAdd("ubutu", "Ubuntu");
+            correctionAdd("ubunty", "Ubuntu");
+            correctionAdd("Ubunut", "Ubuntu");
+            correctionAdd("ubunut", "Ubuntu");
+            correctionAdd("ubunbtu", "Ubuntu");
+            correctionAdd("Ubunbtu", "Ubuntu");
+            correctionAdd("ubntu", "Ubuntu");
+            correctionAdd("Buguntu", "Ubuntu");
+            correctionAdd("Ubuntu OS", "Ubuntu");
+            correctionAdd("Yuchbuntu", "Ubuntu");
+            correctionAdd("Ubtu", "Ubuntu");
+            correctionAdd("Uubntu", "Ubuntu");
+
+            correctionAdd("Ubuntu 7.10 (Gutsy Gibbon)", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)"); // Sort of identity mapping
+            correctionAdd("Gutsy", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
+            correctionAdd("7.1-ubuntu", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
+            correctionAdd("ubuntu7", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
+            correctionAdd("ubuntu 7.1", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
+            correctionAdd("Ubuntu 7.1", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
+            correctionAdd("Ubuntu 7.10", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
+            correctionAdd("ubuntu 7.10", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
+            correctionAdd("Gutsy Gibbon", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
+
+            correctionAdd("Ubuntu 8.04 (Hardy Heron)", "Ubuntu&nbsp;8.04 (Hardy Heron)"); // Sort of identity mapping
+            correctionAdd("Ubuntu 8.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
+            correctionAdd("Ubuntu Linux 8.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
+            correctionAdd("Hardy", "Ubuntu&nbsp;8.04 (Hardy Heron)");
+            correctionAdd("Ubuntu Hardy", "Ubuntu&nbsp;8.04 (Hardy Heron)");
+            correctionAdd("08.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
+            correctionAdd("8.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
+            correctionAdd("Hardy Heron", "Ubuntu&nbsp;8.04 (Hardy Heron)");
+            correctionAdd("Ubuntu 8.04 LTS (Hardy Heron)", "Ubuntu&nbsp;8.04 (Hardy Heron)");
+
+            correctionAdd("Ubuntu 8.10 (Intrepid Ibex)", "Ubuntu&nbsp;8.10 (Intrepid Ibex)"); // Sort of identity mapping
+            correctionAdd("8.10", "Ubuntu&nbsp;8.10 (Intrepid Ibex)");
+            correctionAdd("Ubuntu 8.10", "Ubuntu&nbsp;8.10 (Intrepid Ibex)");
+            correctionAdd("Linux Ubuntu Intrepid Ibex", "Ubuntu&nbsp;8.10 (Intrepid Ibex)");
+            correctionAdd("Ubuntu Intrepid Ibex", "Ubuntu&nbsp;8.10 (Intrepid Ibex)");
+            correctionAdd("Intrepid Ibex", "Ubuntu&nbsp;8.10 (Intrepid Ibex)");
+
+            correctionAdd("Ubuntu 9.04 (Jaunty Jackalope)", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)"); // Sort of identity mapping
+            correctionAdd("Ubuntu Jaunty", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
+            correctionAdd("9.04", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
+            correctionAdd("Jaunty", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
+            correctionAdd("ubuntu 9.04", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
+            correctionAdd("Ubuntu 9.04", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
+
+            correctionAdd("Ubuntu 9.10 (Karmic Koala)", "Ubuntu&nbsp;9.10 (Karmic Koala)"); // Sort of identity mapping
+            correctionAdd("karmic", "Ubuntu&nbsp;9.10 (Karmic Koala)");
+            correctionAdd("Karmic", "Ubuntu&nbsp;9.10 (Karmic Koala)");
+            correctionAdd("9.10", "Ubuntu&nbsp;9.10 (Karmic Koala)");
+            correctionAdd("Ubuntu 9.10", "Ubuntu&nbsp;9.10 (Karmic Koala)");
+            correctionAdd("ubuntu 9.10", "Ubuntu&nbsp;9.10 (Karmic Koala)");
+            correctionAdd("Ubuntu&nbsp;9.10", "Ubuntu&nbsp;9.10 (Karmic Koala)");
+            correctionAdd("Ubuntu Karmic", "Ubuntu&nbsp;9.10 (Karmic Koala)");
+            correctionAdd("Karmic Koala", "Ubuntu&nbsp;9.10 (Karmic Koala)");
+
+            correctionAdd("Ubuntu 10.04 (Lucid Lynx)", "Ubuntu&nbsp;10.04 (Lucid Lynx)"); // Sort of identity mapping
+            correctionAdd("lucid", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("Lucid", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("10.04", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("Ubuntu 10.04", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("ubuntu 10.04", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("Ubuntu&nbsp;10.04", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("UBUNTU 10.04", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("ubuntu 10", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("Ubuntu 10.4", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("ubuntu 10.4", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("Ubuntu 10.04 LTS (Lucid Lynx)", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("Ubuntu 10.04 Lucid Lynx", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+
+            // Close: "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks)"
+            correctionAdd("Ubuntu 10.10 (Maverick Meerkat)", "Ubuntu&nbsp;10.10 (Maverick Meerkat)"); // Sort of identity mapping
+            correctionAdd("10.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
+            correctionAdd("Ubuntu 10.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
+            correctionAdd("ubuntu 10.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
+            correctionAdd("Ubuntu Maverick", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
+            correctionAdd("1.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
+            correctionAdd("ubuntu 1.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
+            correctionAdd("Maverick Meerkat", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
+
+            correctionAdd("Ubuntu 11.04 (Natty Narwhal)", "Ubuntu&nbsp;11.04 (Natty Narwhal)"); // Sort of identity mapping
+            correctionAdd("11.04", "Ubuntu&nbsp;11.04 (Natty Narwhal)"); // But it does not work... "11.04" is converted to "104"...
+            correctionAdd("ubuntu 11.04", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
+            correctionAdd("Ubuntu 11.04", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
+            correctionAdd("Ubuntu&nbsp;11.04", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
+            correctionAdd("Ubuntu natty", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
+            correctionAdd("Ubuntu Narwhal", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
+            correctionAdd("Natty", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
+            correctionAdd("ubuntu natty", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
+
+            correctionAdd("Ubuntu 11.10 (Oneiric Ocelot)", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)"); // Sort of identity mapping
+            correctionAdd("11.10", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
+            correctionAdd("ubuntu 11.10", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
+            correctionAdd("Ubuntu 11.10", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
+            correctionAdd("Ubuntu&nbsp;11.10", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
+            correctionAdd("oneiric", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
+            correctionAdd("Ubuntu 11", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)"); // 11 being 11.04 depends on context...
+            correctionAdd("Oneiric", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
+
+            correctionAdd("Ubuntu 12.04 (Precise Pangolin)", "Ubuntu&nbsp;12.04 (Precise Pangolin)"); // Sort of identity mapping
+            correctionAdd("12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("Ubuntu 12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("ubuntu 12 .04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("Ubuntu 12 .04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("ubuntu 12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("ubuntu 12.04 lts", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("Precise", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("Ubuntu&nbsp;12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("precise", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("unbuntu 12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)"); // Misspelling.
+            correctionAdd("12.0.4", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("ubuntu 12.0", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("Ubuntu 12.0", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("Ubuntu 12", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("Ubuntu 12.4", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("ubuntu precise", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("Precise Pangolin", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("Ubuntu 12.04 LTS (Precise Pangolin)", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("Precise 12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+
+            correctionAdd("Ubuntu 12.10 (Quantal Quetzal)", "Ubuntu&nbsp;12.10 (Quantal Quetzal)"); // Sort of identity mapping
+            correctionAdd("12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
+            correctionAdd("Ubuntu 12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
+            correctionAdd("Ubuntu&nbsp;12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
+            correctionAdd("quantal", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
+            correctionAdd("ubunut12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
+            correctionAdd("ubunut 12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
+
+            correctionAdd("Ubuntu 13.04 (Raring Ringtail)", "Ubuntu&nbsp;13.04 (Raring Ringtail)"); // Sort of identity mapping
+            correctionAdd("13.04", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
+            correctionAdd("Ubuntu 13.04", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
+            correctionAdd("Ubuntu&nbsp;13.04", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
+            correctionAdd("raring", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
+            correctionAdd("ubuntu 13.04", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
+            correctionAdd("Ubuntu 13", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
+
+            correctionAdd("Ubuntu 13.10 (Saucy Salamander)", "Ubuntu&nbsp;13.10 (Saucy Salamander)"); // Sort of identity mapping
+            correctionAdd("Ubuntu 13.10", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
+            correctionAdd("ubuntu 13.10", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
+            correctionAdd("Ubuntu&nbsp;13.10", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
+            correctionAdd("saucy", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
+            correctionAdd("13.10", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
+
+            correctionAdd("Ubuntu 14.04 (Trusty Tahr)", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Sort of identity mapping
+            correctionAdd("Ubuntu 14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("Ubuntu14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("ubunru 14.04lts", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("Trusty", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("ubuntu 14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("Ubuntu&nbsp;14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("Trusty Tahr", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("14.04 Trusty", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("trusty", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("Ubuntu 14", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("ubuntu14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("Ubuntu Linux 14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
+            correctionAdd("Ubuntu Unity 14.0.4", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
+            correctionAdd("Ubuntu Unity 14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
+            correctionAdd("ubuntu14.04LTS", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
+            correctionAdd("ubuntu14.04 LTS", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
+            correctionAdd("ubuntu 14.04 LTS", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
+            correctionAdd("Ubuntu 14.04 LTS", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
+
+            correctionAdd("Ubuntu 14.10 (Utopic Unicorn)", "Ubuntu&nbsp;14.10 (Utopic Unicorn)"); // Sort of identity mapping
+            correctionAdd("14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
+            correctionAdd("Ubuntu 14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
+            correctionAdd("ubuntu 14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
+            correctionAdd("Ubuntu&nbsp;14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
+            correctionAdd("Ubuntu Server 14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
+
+            correctionAdd("Ubuntu 15.04 (Vivid Vervet)", "Ubuntu&nbsp;15.04 (Vivid Vervet)"); // Sort of identity mapping
+            correctionAdd("Ubuntu&nbsp;15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
+            correctionAdd("Ubuntu 15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
+            correctionAdd("15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
+            correctionAdd("ubuntu 15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
+            correctionAdd("Ubuntu15", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
+            correctionAdd("Ubuntu 15", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
+
+            correctionAdd("Ubuntu 15.10 (Wily Werewolf)", "Ubuntu&nbsp;15.10 (Wily Werewolf)"); // Sort of identity mapping
+            correctionAdd("Ubuntu 15.10", "Ubuntu&nbsp;15.10 (Wily Werewolf)");
+            correctionAdd("15.10", "Ubuntu&nbsp;15.10 (Wily Werewolf)");
+            correctionAdd("ubuntu 15.10", "Ubuntu&nbsp;15.10 (Wily Werewolf)");
+
+            correctionAdd("Ubuntu 16.04 (Xenial Xerus)", "Ubuntu&nbsp;16.04 (Xenial Xerus)"); // Sort of identity mapping
+            correctionAdd("Ubuntu&nbsp;16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("ubuntu 16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("Ubuntu 16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("UBUNTU 16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("Ubuntu Xenial", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("Xenial", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("xenial", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("Ubuntu 16", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("ubuntu 16", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("16.4", "Ubuntu&nbsp;16.04 (Xenial Xerus)"); // Yes, highly context dependent...
+            correctionAdd("16", "Ubuntu&nbsp;16.04 (Xenial Xerus)"); // Yes, even more highly context dependent...
+            correctionAdd("Ubuntu 16.06", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("Ubuntu 16.4", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("Ubuntu-16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("ubuntu xenial", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+
+            correctionAdd("Ubuntu 16.10 (Yakkety Yak)", "Ubuntu&nbsp;16.10 (Yakkety Yak)"); // Sort of identity mapping
+            correctionAdd("16.10", "Ubuntu&nbsp;16.10 (Yakkety Yak)");
+            correctionAdd("Ubuntu 16.10", "Ubuntu&nbsp;16.10 (Yakkety Yak)");
+
+            correctionAdd("Ubuntu 17.04 (Zesty Zapus)", "Ubuntu&nbsp;17.04 (Zesty Zapus)"); // Sort of identity mapping
+            correctionAdd("17.04", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
+            correctionAdd("ubuntu 17.04", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
+            correctionAdd("Ubuntu 17.04", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
+            correctionAdd("zesty", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
+
+            correctionAdd("Ubuntu 17.10 (Artful Aardvark)", "Ubuntu&nbsp;17.10 (Artful Aardvark)"); // Sort of identity mapping
+            correctionAdd("artful", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
+            correctionAdd("17.10", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
+            correctionAdd("Ubuntu 17.10", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
+            correctionAdd("ubuntu17.10", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
+            correctionAdd("ubuntu 17.10", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
+            correctionAdd("Ubuntu 17", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
+            correctionAdd("Ubuntu 17.1", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
+            correctionAdd("ubuntu 17", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
+
+            correctionAdd("Ubuntu 18.04 (Bionic Beaver)", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Sort of identity mapping
+            correctionAdd("bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu 18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Bionic Beaver", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("bionic beaver", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu-18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("ubuntu 18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu&nbsp;18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu 18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("ubuntu bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu V18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("V18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("V18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Yes, highly context dependent...
+            correctionAdd("v18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Yes, highly context dependent...
+            correctionAdd("18", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Yes, even more highly context dependent...
+            correctionAdd("Ubuntu 18.04LTS", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu-18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu Bionic Beaver", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu 18 LTS", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+
+            correctionAdd("Ubuntu 18.10 (Cosmic Cuttlefish)", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)"); // Sort of identity mapping
+            correctionAdd("Ubuntu Cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
+            correctionAdd("18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
+            correctionAdd("Ubuntu 18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
+            correctionAdd("Cosmic Cuttlefish", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
+            correctionAdd("Cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
+            correctionAdd("cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
+            correctionAdd("UBUNTU 18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
+            correctionAdd("ubuntu 18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
+
+            correctionAdd("Ubuntu 19.04 (Disco Dingo)", "Ubuntu&nbsp;19.04 (Disco Dingo)"); // Sort of identity mapping
+            correctionAdd("19.04", "Ubuntu&nbsp;19.04 (Disco Dingo)");
+            correctionAdd("disco", "Ubuntu&nbsp;19.04 (Disco Dingo)");
+            correctionAdd("Disco", "Ubuntu&nbsp;19.04 (Disco Dingo)");
+            correctionAdd("Disco Dingo", "Ubuntu&nbsp;19.04 (Disco Dingo)");
+            correctionAdd("ubuntu 19", "Ubuntu&nbsp;19.04 (Disco Dingo)");
+            correctionAdd("Ubuntu 19", "Ubuntu&nbsp;19.04 (Disco Dingo)");
+            correctionAdd("Ubuntu 19.04", "Ubuntu&nbsp;19.04 (Disco Dingo)");
+            correctionAdd("ubuntu 19.04", "Ubuntu&nbsp;19.04 (Disco Dingo)");
+
+            correctionAdd("Ubuntu 19.10 (Eoan Ermine)", "Ubuntu&nbsp;19.10 (Eoan Ermine)"); // Sort of identity mapping
+            correctionAdd("19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
+            correctionAdd("Ubuntu 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
+            correctionAdd("Ubuntu v.19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
+            correctionAdd("ubuntu 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
+            correctionAdd("UBUNTU 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
+            correctionAdd("eoan", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
+            correctionAdd("Eoan", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
+            correctionAdd("Ubunto 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
+
+            correctionAdd("Ubuntu 20.04 (Focal Fossa)", "Ubuntu&nbsp;20.04 (Focal Fossa)"); // Sort of identity mapping
+            correctionAdd("20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("20", "Ubuntu&nbsp;20.04 (Focal Fossa)"); // Yes, highly context dependent...
+            correctionAdd("Ubuntu 20", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu 20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("ubuntu 20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("ubuntu 20", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("ubuntu-20", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu Linux 20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("ubuntu20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("ubuntu-focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu Focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+
+            correctionAdd("Ubuntu MATE", "Ubuntu&nbsp;MATE"); // Sort of identity mapping
+            correctionAdd("Ubuntu Mate", "Ubuntu&nbsp;MATE");
+            correctionAdd("ubuntu mate", "Ubuntu&nbsp;MATE");
+            correctionAdd("ubuntu Mate", "Ubuntu&nbsp;MATE");
+            correctionAdd("ubuntu manta", "Ubuntu&nbsp;MATE");
+
+            correctionAdd("Ubuntu MATE 20.04 (Focal Fossa)", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)"); // Sort of identity mapping
+            correctionAdd("Ubuntu 20.04 MATE", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu MATE 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("MATE 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("20.04 mate", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("20.04 MATE", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("ubuntu mate 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("ubuntu 20.04 mate", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu 20.04 mate", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("mate 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu Mate 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+
+            correctionAdd("Ubuntu 22.04 (Jammy Jellyfish)", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)"); // Sort of identity mapping
+            correctionAdd("22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("Ubuntu 22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("Jammy", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("jammy", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("Jammy Jellyfish", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("Jammy jellyfish", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("Ubuntu 22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("jammy jellyfish", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("ubuntu 22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+
+            correctionAdd("Ubuntu 20.10", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
+            correctionAdd("Ubuntu 20.10 (Groovy Gorilla)", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
+            correctionAdd("20.10", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
+
+            correctionAdd("21.04", "Ubuntu 21.04 (Hirsute Hippo)");
+            correctionAdd("Ubuntu 21.04", "Ubuntu 21.04 (Hirsute Hippo)");
+            correctionAdd("Hirsute Hippo", "Ubuntu 21.04 (Hirsute Hippo)");
+            correctionAdd("ubuntu 21.04", "Ubuntu 21.04 (Hirsute Hippo)");
+
+            // A Linux distribution
+            correctionAdd("kubuntu", "Kubuntu");
+            correctionAdd("KUbuntu", "Kubuntu");
+
+            // A Linux distribution
+            correctionAdd("Kubuntu 20.04", "Kubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Kubuntu 20.04 (Focal Fossa)", "Kubuntu&nbsp;20.04 (Focal Fossa)");
+
+            // A Linux distribution
+            correctionAdd("Kali", "Kali Linux");
+            correctionAdd("kali", "Kali Linux");
+            correctionAdd("Linux Kali", "Kali Linux");
+            correctionAdd("kali linux", "Kali Linux");
+            correctionAdd("Kali linux", "Kali Linux");
+            correctionAdd("KALI LINUX", "Kali Linux");
+            correctionAdd("kali Linux", "Kali Linux");
+            correctionAdd("kali-linux", "Kali Linux");
+
+            correctionAdd("unetbootin", "UNetbootin");
+            correctionAdd("Unetbootin", "UNetbootin");
+            correctionAdd("UnetBootin", "UNetbootin");
+            correctionAdd("uNetBootin", "UNetbootin");
+
+            correctionAdd("angstrom", "Ångström Linux");
+            correctionAdd("angstrom linux", "Ångström Linux");
+            correctionAdd("Angstrom Linux", "Ångström Linux");
+            correctionAdd("Angstrom", "Ångström Linux");
+
+            correctionAdd("Linux Kernel", "Linux kernel");
+            correctionAdd("linux kernel", "Linux kernel");
+            correctionAdd("linux kernal", "Linux kernel");
+            correctionAdd("Linux kernal", "Linux kernel");
+            correctionAdd("Linux Kernal", "Linux kernel");
+
+            correctionAdd("bunsenlabs", "BunsenLabs (Debian Linux-based)");
+            correctionAdd("Bunsen", "BunsenLabs (Debian Linux-based)");
+
+            correctionAdd("alpine", "Alpine Linux");
+            correctionAdd("alpine linux", "Alpine Linux");
+            correctionAdd("Alpine", "Alpine Linux");
+
+            // A Linux distribution
+            correctionAdd("Linux MX", "MX Linux");
+            correctionAdd("MX-Linux", "MX Linux");
+            correctionAdd("MXLinux", "MX Linux");
+            correctionAdd("mxlinux", "MX Linux");
+            correctionAdd("mx linux", "MX Linux");
+            correctionAdd("MX linux", "MX Linux");
+            correctionAdd("Mx Linux", "MX Linux");
+            correctionAdd("MxLinux", "MX Linux");
+
+            // A type of a Linux installation.
+            correctionAdd("Linux from Scratch", "Linux From Scratch");
+            correctionAdd("linuxfromscratch", "Linux From Scratch");
+            correctionAdd("linux from scratch", "Linux From Scratch");
+            correctionAdd("Linux from scratch", "Linux From Scratch");
+
+            correctionAdd("Scientic Linux", "Scientific Linux");
+            correctionAdd("scientic linux", "Scientific Linux");
+            correctionAdd("scientic Linux", "Scientific Linux");
+            correctionAdd("scientific linux", "Scientific Linux");
+            correctionAdd("scientific Linux", "Scientific Linux");
+            correctionAdd("SL", "Scientific Linux");
+            correctionAdd("sl", "Scientific Linux");
+
+            correctionAdd("arcolinux", "ArcoLinux");
+            correctionAdd("Agro Linux", "ArcoLinux");
+            correctionAdd("Arco Linux", "ArcoLinux");
+            correctionAdd("AgroLinux", "ArcoLinux");
+            correctionAdd("arco linux", "ArcoLinux");
+
+            // A Linux distribution
+            correctionAdd("manjaro", "Manjaro");
+            correctionAdd("manjaro linux", "Manjaro");
+
+            correctionAdd("PC Linux OS", "PCLinuxOS");
+
+            correctionAdd("AntiX Linux", "antiX");
+            correctionAdd("AntiX", "antiX");
+            correctionAdd("antix", "antiX");
+            correctionAdd("Antix", "antiX");
+
+            correctionAdd("Alma Linux", "AlmaLinux");
+
+            correctionAdd("Rocky", "Rocky Linux");
+            correctionAdd("rockylinux", "Rocky Linux");
+
+            correctionAdd("OL", "Oracle Linux");
+            correctionAdd("oracle linux", "Oracle Linux");
+
+            correctionAdd("ArtiX", "Artix Linux");
+            correctionAdd("Artix", "Artix Linux");
+            correctionAdd("artix", "Artix Linux");
+
+            correctionAdd("CloudLinux", "CloudLinux OS");
+
+            correctionAdd("Euro Linux", "EuroLinux");
+
+            correctionAdd("SLED", "SUSE Linux Enterprise");
+            correctionAdd("SLES", "SUSE Linux Enterprise");
+            correctionAdd("SLE", "SUSE Linux Enterprise");
+
+            correctionAdd("SpringdaleLinux", "Springdale Linux");
+
+            // A Linux distribution
+            correctionAdd("Endeavour OS", "EndeavourOS");
+            correctionAdd("Endevor", "EndeavourOS");
+            correctionAdd("Endeavour", "EndeavourOS");
+            correctionAdd("endeavour os", "EndeavourOS");
+            correctionAdd("endeavouros", "EndeavourOS");
+
+            // Effectively a Linux distribution
+            correctionAdd("Solus Linux", "Solus");
+            correctionAdd("Evolve OS", "Solus");
+            correctionAdd("solus", "Solus");
+
+            // A Linux distribution
+            correctionAdd("Xero Linux", "XeroLinux");
+            correctionAdd("Zero Linux", "XeroLinux");
+
+            correctionAdd("Yocto", "Yocto Project");
+            correctionAdd("Yocto Linux", "Yocto Project");
+
+            correctionAdd("Sparky Linux", "SparkyLinux");
+
+            // A Linux distribution
+            correctionAdd("KANOTIX", "Kanotix");
+
+            correctionAdd("SYSLINUX", "Syslinux");
+
+            correctionAdd("linux lite", "Linux Lite");
+
+            correctionAdd("Garuda", "Garuda Linux");
+
+            correctionAdd("void linux", "Void Linux");
+
+            // A Linux distribution
+            correctionAdd("endless OS", "Endless OS");
+
+            correctionAdd("Elementary OS", "elementary&nbsp;OS"); // Sort of identity mapping
+            correctionAdd("elementary os", "elementary&nbsp;OS");
+            correctionAdd("elementary OS", "elementary&nbsp;OS");
+            correctionAdd("Elementary", "elementary&nbsp;OS");
+            correctionAdd("ElementaryOS", "elementary&nbsp;OS");
+            correctionAdd("elementaryOS", "elementary&nbsp;OS");
+            correctionAdd("eOS", "elementary&nbsp;OS");
+            correctionAdd("Elementary&nbsp;OS", "elementary&nbsp;OS");
+            correctionAdd("elementaryos", "elementary&nbsp;OS");
+
+            correctionAdd("centos", "CentOS");
+            correctionAdd("Centos", "CentOS");
+            correctionAdd("Cent OS", "CentOS");
+            correctionAdd("centOS", "CentOS");
+            correctionAdd("CENTOS", "CentOS");
+            correctionAdd("cent-os", "CentOS");
+            correctionAdd("CentOs", "CentOS");
+            correctionAdd("cent os", "CentOS");
+            correctionAdd("centOs", "CentOS");
+            correctionAdd("CentoS", "CentOS");
+            correctionAdd("cent", "CentOS");
+
+            correctionAdd("nixos", "NixOS");
+            correctionAdd("Nix OS", "NixOS");
+            correctionAdd("Nix Os", "NixOS");
+
+            correctionAdd("peppermint", "Peppermint OS");
+            correctionAdd("PeppermintOS", "Peppermint OS");
+            correctionAdd("Peppermint", "Peppermint OS");
+
+            correctionAdd("zorin", "Zorin OS");
+            correctionAdd("ZorinOS", "Zorin OS");
+            correctionAdd("Zorin", "Zorin OS");
+            correctionAdd("zorin os", "Zorin OS");
+
+            correctionAdd("ParrotOS", "Parrot OS");
+            correctionAdd("parrot os", "Parrot OS");
+            correctionAdd("parrot OS", "Parrot OS");
+            correctionAdd("Parrot", "Parrot OS");
+
+            correctionAdd("Lineage OS", "LineageOS");
+
+            correctionAdd("pureos", "PureOS");
+
+            correctionAdd("iode OS", "iodéOS");
+            correctionAdd("iota OS", "iodéOS");
+
+            // Effectively a Linux distribution
+            correctionAdd("puppy linux", "Puppy Linux");
+            correctionAdd("Puppy", "Puppy Linux");
+
+            correctionAdd("puppet", "Puppet");
+
+            correctionAdd("SUNOS", "SunOS");
+            correctionAdd("sunos", "SunOS");
+
+            correctionAdd("LTT", "Linux Tech Tips");
+            correctionAdd("ltt", "Linux Tech Tips");
+
+            correctionAdd("live usb", "live USB");
+            correctionAdd("live linux", "live USB");
+            correctionAdd("Live-USB", "live USB");
+            correctionAdd("Live USB", "live USB");
+
+            correctionAdd("Slurm", "Slurm Workload Manager");
+            correctionAdd("Simple Linux Utility for Resource Management", "Slurm Workload Manager");
+            correctionAdd("SLURM", "Slurm Workload Manager");
+
+            correctionAdd("LinuxFX", "Linuxfx");
+            correctionAdd("linuxfx", "Linuxfx");
+
+            correctionAdd("UN*X", "Unix-like");
+            correctionAdd("'NIX", "Unix-like");
+            correctionAdd("'nix", "Unix-like");
+            correctionAdd("*nix", "Unix-like");
+            correctionAdd("Un*x", "Unix-like");
+            correctionAdd("UNIX-like", "Unix-like");
+            correctionAdd("unix-like", "Unix-like");
+            correctionAdd("U*x", "Unix-like");
+            correctionAdd("Unix like", "Unix-like");
+            correctionAdd("unix like", "Unix-like");
+            correctionAdd("*Nix*", "Unix-like"); // This may collide with
+                                                 // client-side removal
+                                                 // of punctuation and
+                                                 // formatting (Markdown
+                                                 // italics in this case)...
+
+            correctionAdd("aix", "AIX");
+
+            correctionAdd("hpux", "HP-UX");
+            correctionAdd("HPUX", "HP-UX");
+            correctionAdd("HP-Unix", "HP-UX");
+            correctionAdd("hp ux", "HP-UX");
+            correctionAdd("HP UX", "HP-UX");
+
+            correctionAdd("unixen", "Unixen");
+
+            correctionAdd("advanced programming in the unix environment", "Advanced Programming in the Unix Environment");
+
+            correctionAdd("SCO Unix", "SCO UNIX");
+
+            correctionAdd("unix time", "Unix time");
+            correctionAdd("UNIX time", "Unix time");
+            correctionAdd("UNIX timestamp", "Unix time");
+            correctionAdd("Unix timestamp", "Unix time");
+
+            correctionAdd("TR", "tr"); // Unix / Linux command
+
+            // Linux
+            correctionAdd("SUDO", "sudo");
+            correctionAdd("su", "sudo");
+
+            correctionAdd("sort (unix)", "sort (Unix)");
+
+            // Linux command. Related to systemd.
+            correctionAdd("SYSTEMCTL", "systemctl");
+
+            // A system monitoring tool on Linux
+            correctionAdd("VMSTAT", "vmstat"); // The corresponding 'man' page is <https://linux.die.net/man/8/vmstat>.
+
+            correctionAdd("DF", "df"); // Unix/Linux command
+
+            // Related to Linux (transport-layer load balancing)
+            correctionAdd("ipvs", "IPVS");
+
+            // Related to Linux
+            correctionAdd("TCPDUMP", "tcpdump");
+
+            // Linux command
+            correctionAdd("GROUPADD", "groupadd");
+
+            // Linux command
+            correctionAdd("HDPARM", "hdparm");
+
+            // Linux command
+            correctionAdd("KILL", "kill");
+
+            // Linux command
+            correctionAdd("RM", "rm");
+
+            // A Linux file system
+            correctionAdd("procfs", "proc");
+            correctionAdd("PROC", "proc");
+
+            correctionAdd("epoch time", "Epoch time");
+            correctionAdd("EPOC", "Epoch time");
+            correctionAdd("EPOC time", "Epoch time");
+
+            correctionAdd("DOS2UNIX", "dos2unix");
+
+            correctionAdd("UNIX2DOS", "unix2dos");
+
+            correctionAdd("dtrace", "DTrace");
+            correctionAdd("Dtrace", "DTrace");
 
             correctionAdd("SO", "Stack&nbsp;Overflow");
             correctionAdd("S.O", "Stack&nbsp;Overflow");
@@ -2368,6 +3167,48 @@ namespace OverflowHelper.core
             correctionAdd("POLA", "principle of least astonishment");
             correctionAdd("least surprise", "principle of least astonishment");
 
+            correctionAdd("SRP", "single responsibility principle");
+            correctionAdd("Single responsability principle", "single responsibility principle");
+            correctionAdd("single responsability principle", "single responsibility principle");
+            correctionAdd("Single Responsibility Principal", "single responsibility principle");
+            correctionAdd("Single Object Responsibility", "single responsibility principle");
+            correctionAdd("single responsibility", "single responsibility principle");
+            correctionAdd("Single Responsibility principle", "single responsibility principle");
+            correctionAdd("Single Responsibility Principle", "single responsibility principle");
+
+            correctionAdd("pareto", "Pareto principle");
+            correctionAdd("Pareto's law", "Pareto principle");
+            correctionAdd("Pareto", "Pareto principle");
+            correctionAdd("pareto principle", "Pareto principle");
+            correctionAdd("Pareto Principle", "Pareto principle");
+
+            correctionAdd("Heisenberg Uncertainty Principle", "Heisenberg's uncertainty principle");
+            correctionAdd("Uncertainty Principle", "Heisenberg's uncertainty principle");
+            correctionAdd("uncertainty principle", "Heisenberg's uncertainty principle");
+            correctionAdd("Heisenberg uncertainty principle", "Heisenberg's uncertainty principle");
+            correctionAdd("Heisenberg's Uncertainty Principle", "Heisenberg's uncertainty principle");
+            correctionAdd("H.U.P", "Heisenberg's uncertainty principle");
+
+            correctionAdd("Pauli Exclusion Principle", "Pauli exclusion principle");
+
+            correctionAdd("principal", "principle");
+            correctionAdd("priciple", "principle");
+            correctionAdd("princpiple", "principle");
+
+            correctionAdd("Robustness Principle", "Postel's law");
+            correctionAdd("robustness principle", "Postel's law");
+
+            correctionAdd("Aufbau principle", "aufbau principle");
+
+            correctionAdd("Dependency Inversion", "dependency inversion principle");
+            correctionAdd("Dependency Inversion principle", "dependency inversion principle");
+
+            correctionAdd("Le Chateliers principle", "Le Chatelier's principle");
+
+            correctionAdd("first principals", "first principles");
+
+            correctionAdd("on principal", "on principle");
+
             // Related to electronics (testing)
             correctionAdd("POGO", "pogo");
 
@@ -2388,775 +3229,6 @@ namespace OverflowHelper.core
             correctionAdd("struture", "structure");
             correctionAdd("structur", "structure");
             correctionAdd("structurate", "structure");
-
-            correctionAdd("linux", "Linux");
-            correctionAdd("LINUX", "Linux");
-            correctionAdd("Loonix", "Linux");
-            correctionAdd("linuxx", "Linux");
-            correctionAdd("Linex", "Linux");
-            correctionAdd("LinuxOS", "Linux");
-            correctionAdd("Loonux", "Linux");
-            correctionAdd("loonux", "Linux");
-            correctionAdd("Linix", "Linux");
-            correctionAdd("linix", "Linux");
-            correctionAdd("LInux", "Linux");
-            correctionAdd("Lunux", "Linux");
-            correctionAdd("Lnx", "Linux");
-            correctionAdd("liunx", "Linux");
-
-            correctionAdd("unix", "Unix");
-            correctionAdd("UNIX", "Unix");
-            correctionAdd("UNix", "Unix");
-
-            // A Linux distribution
-            correctionAdd("Pop! OS", "Pop!_OS");
-            correctionAdd("POP OS", "Pop!_OS");
-            correctionAdd("Pop OS", "Pop!_OS");
-            correctionAdd("pop os", "Pop!_OS");
-            correctionAdd("PopOS", "Pop!_OS");
-            correctionAdd("PopOS Linux", "Pop!_OS");
-            correctionAdd("Pop_OS", "Pop!_OS");
-            correctionAdd("popos", "Pop!_OS");
-            correctionAdd("pop_os", "Pop!_OS");
-            correctionAdd("Pop!OS", "Pop!_OS");
-
-            // A Linux distribution
-            correctionAdd("suse", "SUSE&nbsp;Linux");
-            correctionAdd("SuSE", "SUSE&nbsp;Linux");
-            correctionAdd("Suse", "SUSE&nbsp;Linux");
-            correctionAdd("SUSE Linux", "SUSE&nbsp;Linux"); // Effectively self
-            correctionAdd("SUSE", "SUSE&nbsp;Linux");
-            correctionAdd("Suse Linux", "SUSE&nbsp;Linux");
-
-            // A Linux distribution
-            correctionAdd("Opensuse", "openSUSE");
-            correctionAdd("opensuse", "openSUSE");
-            correctionAdd("OpenSUSE", "openSUSE");
-            correctionAdd("OpenSuse", "openSUSE");
-            correctionAdd("openSuse", "openSUSE");
-            correctionAdd("OpenSuSE", "openSUSE");
-            correctionAdd("Open Suse", "openSUSE");
-            correctionAdd("openSuSE", "openSUSE");
-            correctionAdd("open suse", "openSUSE");
-            correctionAdd("open SUSE", "openSUSE");
-            correctionAdd("Open SUSE", "openSUSE");
-
-            correctionAdd("Distro", "distribution"); // Expansion.
-            correctionAdd("distro", "distribution"); // Expansion.
-            correctionAdd("distros", "distribution"); // Expansion, not 100% correct. Add a plural feature?
-            correctionAdd("distrobution", "distribution");
-            correctionAdd("distos", "distribution"); // Misspelling. Expansion.
-            correctionAdd("ditro", "distribution");
-            correctionAdd("distor", "distribution"); // Misspelling. Expansion.
-            correctionAdd("distors", "distribution"); // Expansion, not 100% correct. Add a plural feature?
-            correctionAdd("Distros", "distribution");
-            correctionAdd("distritutions", "distribution");
-            correctionAdd("distro's", "distribution");
-            correctionAdd("dists", "distribution");
-            correctionAdd("Linux distribuition", "distribution");
-            correctionAdd("Linux distro", "distribution");
-
-            // A Linux distribution
-            correctionAdd("fedora", "Fedora");
-            correctionAdd("Fedora Linux", "Fedora");
-            correctionAdd("Fedora OS", "Fedora");
-
-            // A Linux distribution
-            correctionAdd("selinux", "SELinux");
-            correctionAdd("SELINUX", "SELinux");
-            correctionAdd("SElinux", "SELinux");
-            correctionAdd("Selinux", "SELinux");
-            correctionAdd("SeLinux", "SELinux");
-
-            // A Linux distribution
-            correctionAdd("RedHat", "Red Hat Linux"); // The OS, not the company.
-            correctionAdd("redhat", "Red Hat Linux"); // The OS, not the company.
-            correctionAdd("red-hat", "Red Hat Linux"); // The OS, not the company.
-            correctionAdd("Redhat", "Red Hat Linux"); // The OS, not the company.
-            correctionAdd("Red Hat", "Red Hat Linux"); // The OS, not the company.
-            correctionAdd("Redhat Linux", "Red Hat Linux"); // The OS, not the company.
-            correctionAdd("linux redhat", "Red Hat Linux"); // The OS, not the company.
-            correctionAdd("RH", "Red Hat Linux"); // The OS, not the company.
-            correctionAdd("RedHat Linux", "Red Hat Linux"); // The OS, not the company.
-            correctionAdd("REDHAT", "Red Hat Linux"); // The OS, not the company.
-            correctionAdd("RHL", "Red Hat Linux");
-
-            // A Linux distribution
-            correctionAdd("RHEL", "Red Hat Enterprise Linux"); // The OS, not the company.
-            correctionAdd("rhel", "Red Hat Enterprise Linux"); // The OS, not the company.
-
-            // A Linux distribution
-            correctionAdd("gentoo", "Gentoo Linux");
-            correctionAdd("Gentoo linux", "Gentoo Linux");
-            correctionAdd("Gentoo", "Gentoo Linux");
-            correctionAdd("gent0os", "Gentoo Linux");
-            correctionAdd("gentoos", "Gentoo Linux");
-            correctionAdd("gentos", "Gentoo Linux");
-            correctionAdd("Gentos", "Gentoo Linux");
-            correctionAdd("gent0", "Gentoo Linux");
-            correctionAdd("gent0o", "Gentoo Linux");
-            correctionAdd("gento0", "Gentoo Linux");
-
-            // A Linux distribution
-            correctionAdd("archlinux", "Arch Linux");
-            correctionAdd("Archlinux", "Arch Linux");
-            correctionAdd("ArchLinux", "Arch Linux");
-            correctionAdd("arch linux", "Arch Linux");
-            correctionAdd("arch Linux", "Arch Linux");
-            correctionAdd("archLinux", "Arch Linux");
-            correctionAdd("Arch", "Arch Linux");
-            correctionAdd("Arch linux", "Arch Linux");
-            correctionAdd("Arch-Linux", "Arch Linux");
-            correctionAdd("ArhLinux", "Arch Linux");
-
-            correctionAdd("pacman", "Pacman");
-            correctionAdd("packman", "Pacman");
-            correctionAdd("pakman", "Pacman");
-            correctionAdd("pac-man", "Pacman");
-
-            // A Linux distribution
-            correctionAdd("mint", "Linux Mint");
-            correctionAdd("Linux mint", "Linux Mint");
-            correctionAdd("linux mint", "Linux Mint");
-            correctionAdd("Mint", "Linux Mint");
-            correctionAdd("LinuxMint", "Linux Mint");
-            correctionAdd("Linuxmint", "Linux Mint");
-
-            correctionAdd("Maya", "Linux Mint 13 (Maya)");
-
-            correctionAdd("chrubuntu", "ChrUbuntu");
-
-            // A Linux distribution
-            correctionAdd("ubuntu", "Ubuntu");
-            correctionAdd("UBUNTU", "Ubuntu");
-            correctionAdd("Ubunutu", "Ubuntu"); // Misspelling.
-            correctionAdd("ubunutu", "Ubuntu"); // Misspelling.
-            correctionAdd("ubunto", "Ubuntu");
-            correctionAdd("Ubunto", "Ubuntu");
-            correctionAdd("unbuntu", "Ubuntu");
-            correctionAdd("ubutu", "Ubuntu");
-            correctionAdd("ubunty", "Ubuntu");
-            correctionAdd("Ubunut", "Ubuntu");
-            correctionAdd("ubunut", "Ubuntu");
-            correctionAdd("ubunbtu", "Ubuntu");
-            correctionAdd("Ubunbtu", "Ubuntu");
-            correctionAdd("ubntu", "Ubuntu");
-            correctionAdd("Buguntu", "Ubuntu");
-            correctionAdd("Ubuntu OS", "Ubuntu");
-            correctionAdd("Yuchbuntu", "Ubuntu");
-            correctionAdd("Ubtu", "Ubuntu");
-            correctionAdd("Uubntu", "Ubuntu");
-
-            correctionAdd("Ubuntu 7.10 (Gutsy Gibbon)", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)"); // Sort of identity mapping
-            correctionAdd("Gutsy", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
-            correctionAdd("7.1-ubuntu", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
-            correctionAdd("ubuntu7", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
-            correctionAdd("ubuntu 7.1", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
-            correctionAdd("Ubuntu 7.1", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
-            correctionAdd("Ubuntu 7.10", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
-            correctionAdd("ubuntu 7.10", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
-            correctionAdd("Gutsy Gibbon", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
-
-            correctionAdd("Ubuntu 8.04 (Hardy Heron)", "Ubuntu&nbsp;8.04 (Hardy Heron)"); // Sort of identity mapping
-            correctionAdd("Ubuntu 8.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
-            correctionAdd("Ubuntu Linux 8.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
-            correctionAdd("Hardy", "Ubuntu&nbsp;8.04 (Hardy Heron)");
-            correctionAdd("Ubuntu Hardy", "Ubuntu&nbsp;8.04 (Hardy Heron)");
-            correctionAdd("08.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
-            correctionAdd("8.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
-            correctionAdd("Hardy Heron", "Ubuntu&nbsp;8.04 (Hardy Heron)");
-            correctionAdd("Ubuntu 8.04 LTS (Hardy Heron)", "Ubuntu&nbsp;8.04 (Hardy Heron)");
-
-            correctionAdd("Ubuntu 8.10 (Intrepid Ibex)", "Ubuntu&nbsp;8.10 (Intrepid Ibex)"); // Sort of identity mapping
-            correctionAdd("8.10", "Ubuntu&nbsp;8.10 (Intrepid Ibex)");
-            correctionAdd("Ubuntu 8.10", "Ubuntu&nbsp;8.10 (Intrepid Ibex)");
-            correctionAdd("Linux Ubuntu Intrepid Ibex", "Ubuntu&nbsp;8.10 (Intrepid Ibex)");
-            correctionAdd("Ubuntu Intrepid Ibex", "Ubuntu&nbsp;8.10 (Intrepid Ibex)");
-            correctionAdd("Intrepid Ibex", "Ubuntu&nbsp;8.10 (Intrepid Ibex)");
-
-            correctionAdd("Ubuntu 9.04 (Jaunty Jackalope)", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)"); // Sort of identity mapping
-            correctionAdd("Ubuntu Jaunty", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
-            correctionAdd("9.04", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
-            correctionAdd("Jaunty", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
-            correctionAdd("ubuntu 9.04", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
-            correctionAdd("Ubuntu 9.04", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
-
-            correctionAdd("Ubuntu 9.10 (Karmic Koala)", "Ubuntu&nbsp;9.10 (Karmic Koala)"); // Sort of identity mapping
-            correctionAdd("karmic", "Ubuntu&nbsp;9.10 (Karmic Koala)");
-            correctionAdd("Karmic", "Ubuntu&nbsp;9.10 (Karmic Koala)");
-            correctionAdd("9.10", "Ubuntu&nbsp;9.10 (Karmic Koala)");
-            correctionAdd("Ubuntu 9.10", "Ubuntu&nbsp;9.10 (Karmic Koala)");
-            correctionAdd("ubuntu 9.10", "Ubuntu&nbsp;9.10 (Karmic Koala)");
-            correctionAdd("Ubuntu&nbsp;9.10", "Ubuntu&nbsp;9.10 (Karmic Koala)");
-            correctionAdd("Ubuntu Karmic", "Ubuntu&nbsp;9.10 (Karmic Koala)");
-            correctionAdd("Karmic Koala", "Ubuntu&nbsp;9.10 (Karmic Koala)");
-
-            correctionAdd("Ubuntu 10.04 (Lucid Lynx)", "Ubuntu&nbsp;10.04 (Lucid Lynx)"); // Sort of identity mapping
-            correctionAdd("lucid", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("Lucid", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("10.04", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("Ubuntu 10.04", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("ubuntu 10.04", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("Ubuntu&nbsp;10.04", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("UBUNTU 10.04", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("ubuntu 10", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("Ubuntu 10.4", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("ubuntu 10.4", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("Ubuntu 10.04 LTS (Lucid Lynx)", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("Ubuntu 10.04 Lucid Lynx", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-
-            // Close: "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks)"
-            correctionAdd("Ubuntu 10.10 (Maverick Meerkat)", "Ubuntu&nbsp;10.10 (Maverick Meerkat)"); // Sort of identity mapping
-            correctionAdd("10.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
-            correctionAdd("Ubuntu 10.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
-            correctionAdd("ubuntu 10.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
-            correctionAdd("Ubuntu Maverick", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
-            correctionAdd("1.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
-            correctionAdd("ubuntu 1.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
-            correctionAdd("Maverick Meerkat", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
-
-            correctionAdd("Ubuntu 11.04 (Natty Narwhal)", "Ubuntu&nbsp;11.04 (Natty Narwhal)"); // Sort of identity mapping
-            correctionAdd("11.04", "Ubuntu&nbsp;11.04 (Natty Narwhal)"); // But it does not work... "11.04" is converted to "104"...
-            correctionAdd("ubuntu 11.04", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
-            correctionAdd("Ubuntu 11.04", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
-            correctionAdd("Ubuntu&nbsp;11.04", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
-            correctionAdd("Ubuntu natty", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
-            correctionAdd("Ubuntu Narwhal", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
-            correctionAdd("Natty", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
-            correctionAdd("ubuntu natty", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
-
-            correctionAdd("Ubuntu 11.10 (Oneiric Ocelot)", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)"); // Sort of identity mapping
-            correctionAdd("11.10", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
-            correctionAdd("ubuntu 11.10", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
-            correctionAdd("Ubuntu 11.10", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
-            correctionAdd("Ubuntu&nbsp;11.10", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
-            correctionAdd("oneiric", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
-            correctionAdd("Ubuntu 11", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)"); // 11 being 11.04 depends on context...
-            correctionAdd("Oneiric", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
-
-            correctionAdd("Ubuntu 12.04 (Precise Pangolin)", "Ubuntu&nbsp;12.04 (Precise Pangolin)"); // Sort of identity mapping
-            correctionAdd("12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("Ubuntu 12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("ubuntu 12 .04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("Ubuntu 12 .04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("ubuntu 12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("ubuntu 12.04 lts", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("Precise", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("Ubuntu&nbsp;12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("precise", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("unbuntu 12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)"); // Misspelling.
-            correctionAdd("12.0.4", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("ubuntu 12.0", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("Ubuntu 12.0", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("Ubuntu 12", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("Ubuntu 12.4", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("ubuntu precise", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("Precise Pangolin", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("Ubuntu 12.04 LTS (Precise Pangolin)", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("Precise 12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-
-            correctionAdd("Ubuntu 12.10 (Quantal Quetzal)", "Ubuntu&nbsp;12.10 (Quantal Quetzal)"); // Sort of identity mapping
-            correctionAdd("12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
-            correctionAdd("Ubuntu 12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
-            correctionAdd("Ubuntu&nbsp;12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
-            correctionAdd("quantal", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
-            correctionAdd("ubunut12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
-            correctionAdd("ubunut 12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
-
-            correctionAdd("Ubuntu 13.04 (Raring Ringtail)", "Ubuntu&nbsp;13.04 (Raring Ringtail)"); // Sort of identity mapping
-            correctionAdd("13.04", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
-            correctionAdd("Ubuntu 13.04", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
-            correctionAdd("Ubuntu&nbsp;13.04", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
-            correctionAdd("raring", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
-            correctionAdd("ubuntu 13.04", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
-            correctionAdd("Ubuntu 13", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
-
-            correctionAdd("Ubuntu 13.10 (Saucy Salamander)", "Ubuntu&nbsp;13.10 (Saucy Salamander)"); // Sort of identity mapping
-            correctionAdd("Ubuntu 13.10", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
-            correctionAdd("ubuntu 13.10", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
-            correctionAdd("Ubuntu&nbsp;13.10", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
-            correctionAdd("saucy", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
-            correctionAdd("13.10", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
-
-            correctionAdd("Ubuntu 14.04 (Trusty Tahr)", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Sort of identity mapping
-            correctionAdd("Ubuntu 14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("Ubuntu14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("ubunru 14.04lts", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("Trusty", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("ubuntu 14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("Ubuntu&nbsp;14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("Trusty Tahr", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("14.04 Trusty", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("trusty", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("Ubuntu 14", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("ubuntu14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("Ubuntu Linux 14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
-            correctionAdd("Ubuntu Unity 14.0.4", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
-            correctionAdd("Ubuntu Unity 14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
-            correctionAdd("ubuntu14.04LTS", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
-            correctionAdd("ubuntu14.04 LTS", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
-            correctionAdd("ubuntu 14.04 LTS", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
-            correctionAdd("Ubuntu 14.04 LTS", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
-
-            correctionAdd("Ubuntu 14.10 (Utopic Unicorn)", "Ubuntu&nbsp;14.10 (Utopic Unicorn)"); // Sort of identity mapping
-            correctionAdd("14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
-            correctionAdd("Ubuntu 14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
-            correctionAdd("ubuntu 14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
-            correctionAdd("Ubuntu&nbsp;14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
-            correctionAdd("Ubuntu Server 14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
-
-            correctionAdd("Ubuntu 15.04 (Vivid Vervet)", "Ubuntu&nbsp;15.04 (Vivid Vervet)"); // Sort of identity mapping
-            correctionAdd("Ubuntu&nbsp;15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
-            correctionAdd("Ubuntu 15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
-            correctionAdd("15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
-            correctionAdd("ubuntu 15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
-            correctionAdd("Ubuntu15", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
-            correctionAdd("Ubuntu 15", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
-
-            correctionAdd("Ubuntu 15.10 (Wily Werewolf)", "Ubuntu&nbsp;15.10 (Wily Werewolf)"); // Sort of identity mapping
-            correctionAdd("Ubuntu 15.10", "Ubuntu&nbsp;15.10 (Wily Werewolf)");
-            correctionAdd("15.10", "Ubuntu&nbsp;15.10 (Wily Werewolf)");
-            correctionAdd("ubuntu 15.10", "Ubuntu&nbsp;15.10 (Wily Werewolf)");
-
-            correctionAdd("Ubuntu 16.04 (Xenial Xerus)", "Ubuntu&nbsp;16.04 (Xenial Xerus)"); // Sort of identity mapping
-            correctionAdd("Ubuntu&nbsp;16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("ubuntu 16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("Ubuntu 16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("UBUNTU 16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("Ubuntu Xenial", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("Xenial", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("xenial", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("Ubuntu 16", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("ubuntu 16", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("16.4", "Ubuntu&nbsp;16.04 (Xenial Xerus)"); // Yes, highly context dependent...
-            correctionAdd("16", "Ubuntu&nbsp;16.04 (Xenial Xerus)"); // Yes, even more highly context dependent...
-            correctionAdd("Ubuntu 16.06", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("Ubuntu 16.4", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("Ubuntu-16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("ubuntu xenial", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-
-            correctionAdd("Ubuntu 16.10 (Yakkety Yak)", "Ubuntu&nbsp;16.10 (Yakkety Yak)"); // Sort of identity mapping
-            correctionAdd("16.10", "Ubuntu&nbsp;16.10 (Yakkety Yak)");
-            correctionAdd("Ubuntu 16.10", "Ubuntu&nbsp;16.10 (Yakkety Yak)");
-
-            correctionAdd("Ubuntu 17.04 (Zesty Zapus)", "Ubuntu&nbsp;17.04 (Zesty Zapus)"); // Sort of identity mapping
-            correctionAdd("17.04", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
-            correctionAdd("ubuntu 17.04", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
-            correctionAdd("Ubuntu 17.04", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
-            correctionAdd("zesty", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
-
-            correctionAdd("Ubuntu 17.10 (Artful Aardvark)", "Ubuntu&nbsp;17.10 (Artful Aardvark)"); // Sort of identity mapping
-            correctionAdd("artful", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
-            correctionAdd("17.10", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
-            correctionAdd("Ubuntu 17.10", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
-            correctionAdd("ubuntu17.10", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
-            correctionAdd("ubuntu 17.10", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
-            correctionAdd("Ubuntu 17", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
-            correctionAdd("Ubuntu 17.1", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
-            correctionAdd("ubuntu 17", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
-
-            correctionAdd("Ubuntu 18.04 (Bionic Beaver)", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Sort of identity mapping
-            correctionAdd("bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu 18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Bionic Beaver", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("bionic beaver", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu-18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("ubuntu 18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu&nbsp;18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu 18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("ubuntu bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu V18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("V18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("V18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Yes, highly context dependent...
-            correctionAdd("v18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Yes, highly context dependent...
-            correctionAdd("18", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Yes, even more highly context dependent...
-            correctionAdd("Ubuntu 18.04LTS", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu-18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu Bionic Beaver", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu 18 LTS", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-
-            correctionAdd("Ubuntu 18.10 (Cosmic Cuttlefish)", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)"); // Sort of identity mapping
-            correctionAdd("Ubuntu Cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
-            correctionAdd("18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
-            correctionAdd("Ubuntu 18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
-            correctionAdd("Cosmic Cuttlefish", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
-            correctionAdd("Cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
-            correctionAdd("cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
-            correctionAdd("UBUNTU 18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
-            correctionAdd("ubuntu 18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
-
-            correctionAdd("Ubuntu 19.04 (Disco Dingo)", "Ubuntu&nbsp;19.04 (Disco Dingo)"); // Sort of identity mapping
-            correctionAdd("19.04", "Ubuntu&nbsp;19.04 (Disco Dingo)");
-            correctionAdd("disco", "Ubuntu&nbsp;19.04 (Disco Dingo)");
-            correctionAdd("Disco", "Ubuntu&nbsp;19.04 (Disco Dingo)");
-            correctionAdd("Disco Dingo", "Ubuntu&nbsp;19.04 (Disco Dingo)");
-            correctionAdd("ubuntu 19", "Ubuntu&nbsp;19.04 (Disco Dingo)");
-            correctionAdd("Ubuntu 19", "Ubuntu&nbsp;19.04 (Disco Dingo)");
-            correctionAdd("Ubuntu 19.04", "Ubuntu&nbsp;19.04 (Disco Dingo)");
-            correctionAdd("ubuntu 19.04", "Ubuntu&nbsp;19.04 (Disco Dingo)");
-
-            correctionAdd("Ubuntu 19.10 (Eoan Ermine)", "Ubuntu&nbsp;19.10 (Eoan Ermine)"); // Sort of identity mapping
-            correctionAdd("19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
-            correctionAdd("Ubuntu 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
-            correctionAdd("Ubuntu v.19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
-            correctionAdd("ubuntu 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
-            correctionAdd("UBUNTU 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
-            correctionAdd("eoan", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
-            correctionAdd("Eoan", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
-            correctionAdd("Ubunto 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
-
-            correctionAdd("Ubuntu 20.04 (Focal Fossa)", "Ubuntu&nbsp;20.04 (Focal Fossa)"); // Sort of identity mapping
-            correctionAdd("20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("20", "Ubuntu&nbsp;20.04 (Focal Fossa)"); // Yes, highly context dependent...
-            correctionAdd("Ubuntu 20", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu 20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("ubuntu 20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("ubuntu 20", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("ubuntu-20", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu Linux 20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("ubuntu20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("ubuntu-focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu Focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-
-            correctionAdd("Ubuntu MATE", "Ubuntu&nbsp;MATE"); // Sort of identity mapping
-            correctionAdd("Ubuntu Mate", "Ubuntu&nbsp;MATE");
-            correctionAdd("ubuntu mate", "Ubuntu&nbsp;MATE");
-            correctionAdd("ubuntu Mate", "Ubuntu&nbsp;MATE");
-            correctionAdd("ubuntu manta", "Ubuntu&nbsp;MATE");
-
-            correctionAdd("Ubuntu MATE 20.04 (Focal Fossa)", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)"); // Sort of identity mapping
-            correctionAdd("Ubuntu 20.04 MATE", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu MATE 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("MATE 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("20.04 mate", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("20.04 MATE", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("ubuntu mate 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("ubuntu 20.04 mate", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu 20.04 mate", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("mate 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu Mate 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-
-            correctionAdd("Ubuntu 22.04 (Jammy Jellyfish)", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)"); // Sort of identity mapping
-            correctionAdd("22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("Ubuntu 22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("Jammy", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("jammy", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("Jammy Jellyfish", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("Jammy jellyfish", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("Ubuntu 22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("jammy jellyfish", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("ubuntu 22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-
-            correctionAdd("Ubuntu 20.10", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
-            correctionAdd("Ubuntu 20.10 (Groovy Gorilla)", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
-            correctionAdd("20.10", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
-
-            correctionAdd("21.04", "Ubuntu 21.04 (Hirsute Hippo)");
-            correctionAdd("Ubuntu 21.04", "Ubuntu 21.04 (Hirsute Hippo)");
-            correctionAdd("Hirsute Hippo", "Ubuntu 21.04 (Hirsute Hippo)");
-            correctionAdd("ubuntu 21.04", "Ubuntu 21.04 (Hirsute Hippo)");
-
-            // A Linux distribution
-            correctionAdd("kubuntu", "Kubuntu");
-            correctionAdd("KUbuntu", "Kubuntu");
-
-            // A Linux distribution
-            correctionAdd("Kubuntu 20.04", "Kubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Kubuntu 20.04 (Focal Fossa)", "Kubuntu&nbsp;20.04 (Focal Fossa)");
-
-            // A Linux distribution
-            correctionAdd("Kali", "Kali Linux");
-            correctionAdd("kali", "Kali Linux");
-            correctionAdd("Linux Kali", "Kali Linux");
-            correctionAdd("kali linux", "Kali Linux");
-            correctionAdd("Kali linux", "Kali Linux");
-            correctionAdd("KALI LINUX", "Kali Linux");
-            correctionAdd("kali Linux", "Kali Linux");
-            correctionAdd("kali-linux", "Kali Linux");
-
-            correctionAdd("unetbootin", "UNetbootin");
-            correctionAdd("Unetbootin", "UNetbootin");
-            correctionAdd("UnetBootin", "UNetbootin");
-            correctionAdd("uNetBootin", "UNetbootin");
-
-            correctionAdd("angstrom", "Ångström Linux");
-            correctionAdd("angstrom linux", "Ångström Linux");
-            correctionAdd("Angstrom Linux", "Ångström Linux");
-            correctionAdd("Angstrom", "Ångström Linux");
-
-            correctionAdd("Linux Kernel", "Linux kernel");
-            correctionAdd("linux kernel", "Linux kernel");
-            correctionAdd("linux kernal", "Linux kernel");
-            correctionAdd("Linux kernal", "Linux kernel");
-            correctionAdd("Linux Kernal", "Linux kernel");
-
-            correctionAdd("bunsenlabs", "BunsenLabs (Debian Linux-based)");
-            correctionAdd("Bunsen", "BunsenLabs (Debian Linux-based)");
-
-            correctionAdd("alpine", "Alpine Linux");
-            correctionAdd("alpine linux", "Alpine Linux");
-            correctionAdd("Alpine", "Alpine Linux");
-
-            // A Linux distribution
-            correctionAdd("Linux MX", "MX Linux");
-            correctionAdd("MX-Linux", "MX Linux");
-            correctionAdd("MXLinux", "MX Linux");
-            correctionAdd("mxlinux", "MX Linux");
-            correctionAdd("mx linux", "MX Linux");
-            correctionAdd("MX linux", "MX Linux");
-            correctionAdd("Mx Linux", "MX Linux");
-            correctionAdd("MxLinux", "MX Linux");
-
-            // A type of a Linux installation.
-            correctionAdd("Linux from Scratch", "Linux From Scratch");
-            correctionAdd("linuxfromscratch", "Linux From Scratch");
-            correctionAdd("linux from scratch", "Linux From Scratch");
-            correctionAdd("Linux from scratch", "Linux From Scratch");
-
-            correctionAdd("Scientic Linux", "Scientific Linux");
-            correctionAdd("scientic linux", "Scientific Linux");
-            correctionAdd("scientic Linux", "Scientific Linux");
-            correctionAdd("scientific linux", "Scientific Linux");
-            correctionAdd("scientific Linux", "Scientific Linux");
-            correctionAdd("SL", "Scientific Linux");
-            correctionAdd("sl", "Scientific Linux");
-
-            correctionAdd("arcolinux", "ArcoLinux");
-            correctionAdd("Agro Linux", "ArcoLinux");
-            correctionAdd("Arco Linux", "ArcoLinux");
-            correctionAdd("AgroLinux", "ArcoLinux");
-            correctionAdd("arco linux", "ArcoLinux");
-
-            // A Linux distribution
-            correctionAdd("manjaro", "Manjaro");
-            correctionAdd("manjaro linux", "Manjaro");
-
-            correctionAdd("PC Linux OS", "PCLinuxOS");
-
-            correctionAdd("AntiX Linux", "antiX");
-            correctionAdd("AntiX", "antiX");
-            correctionAdd("antix", "antiX");
-            correctionAdd("Antix", "antiX");
-
-            correctionAdd("Alma Linux", "AlmaLinux");
-
-            correctionAdd("Rocky", "Rocky Linux");
-            correctionAdd("rockylinux", "Rocky Linux");
-
-            correctionAdd("OL", "Oracle Linux");
-            correctionAdd("oracle linux", "Oracle Linux");
-
-            correctionAdd("ArtiX", "Artix Linux");
-            correctionAdd("Artix", "Artix Linux");
-            correctionAdd("artix", "Artix Linux");
-
-            correctionAdd("CloudLinux", "CloudLinux OS");
-
-            correctionAdd("Euro Linux", "EuroLinux");
-
-            correctionAdd("SLED", "SUSE Linux Enterprise");
-            correctionAdd("SLES", "SUSE Linux Enterprise");
-            correctionAdd("SLE", "SUSE Linux Enterprise");
-
-            correctionAdd("SpringdaleLinux", "Springdale Linux");
-
-            // A Linux distribution
-            correctionAdd("Endeavour OS", "EndeavourOS");
-            correctionAdd("Endevor", "EndeavourOS");
-            correctionAdd("Endeavour", "EndeavourOS");
-            correctionAdd("endeavour os", "EndeavourOS");
-            correctionAdd("endeavouros", "EndeavourOS");
-
-            // Effectively a Linux distribution
-            correctionAdd("Solus Linux", "Solus");
-            correctionAdd("Evolve OS", "Solus");
-            correctionAdd("solus", "Solus");
-
-            // A Linux distribution
-            correctionAdd("Xero Linux", "XeroLinux");
-            correctionAdd("Zero Linux", "XeroLinux");
-
-            correctionAdd("Yocto", "Yocto Project");
-            correctionAdd("Yocto Linux", "Yocto Project");
-
-            correctionAdd("Sparky Linux", "SparkyLinux");
-
-            // A Linux distribution
-            correctionAdd("KANOTIX", "Kanotix");
-
-            correctionAdd("SYSLINUX", "Syslinux");
-
-            correctionAdd("linux lite", "Linux Lite");
-
-            correctionAdd("Garuda", "Garuda Linux");
-
-            correctionAdd("void linux", "Void Linux");
-
-            // A Linux distribution
-            correctionAdd("endless OS", "Endless OS");
-
-            correctionAdd("Elementary OS", "elementary&nbsp;OS"); // Sort of identity mapping
-            correctionAdd("elementary os", "elementary&nbsp;OS");
-            correctionAdd("elementary OS", "elementary&nbsp;OS");
-            correctionAdd("Elementary", "elementary&nbsp;OS");
-            correctionAdd("ElementaryOS", "elementary&nbsp;OS");
-            correctionAdd("elementaryOS", "elementary&nbsp;OS");
-            correctionAdd("eOS", "elementary&nbsp;OS");
-            correctionAdd("Elementary&nbsp;OS", "elementary&nbsp;OS");
-            correctionAdd("elementaryos", "elementary&nbsp;OS");
-
-            correctionAdd("centos", "CentOS");
-            correctionAdd("Centos", "CentOS");
-            correctionAdd("Cent OS", "CentOS");
-            correctionAdd("centOS", "CentOS");
-            correctionAdd("CENTOS", "CentOS");
-            correctionAdd("cent-os", "CentOS");
-            correctionAdd("CentOs", "CentOS");
-            correctionAdd("cent os", "CentOS");
-            correctionAdd("centOs", "CentOS");
-            correctionAdd("CentoS", "CentOS");
-            correctionAdd("cent", "CentOS");
-
-            correctionAdd("nixos", "NixOS");
-            correctionAdd("Nix OS", "NixOS");
-            correctionAdd("Nix Os", "NixOS");
-
-            correctionAdd("peppermint", "Peppermint OS");
-            correctionAdd("PeppermintOS", "Peppermint OS");
-            correctionAdd("Peppermint", "Peppermint OS");
-
-            correctionAdd("zorin", "Zorin OS");
-            correctionAdd("ZorinOS", "Zorin OS");
-            correctionAdd("Zorin", "Zorin OS");
-            correctionAdd("zorin os", "Zorin OS");
-
-            correctionAdd("ParrotOS", "Parrot OS");
-            correctionAdd("parrot os", "Parrot OS");
-            correctionAdd("parrot OS", "Parrot OS");
-            correctionAdd("Parrot", "Parrot OS");
-
-            correctionAdd("Lineage OS", "LineageOS");
-
-            correctionAdd("pureos", "PureOS");
-
-            correctionAdd("iode OS", "iodéOS");
-            correctionAdd("iota OS", "iodéOS");
-
-            // Effectively a Linux distribution
-            correctionAdd("puppy linux", "Puppy Linux");
-            correctionAdd("Puppy", "Puppy Linux");
-
-            correctionAdd("puppet", "Puppet");
-
-            correctionAdd("SUNOS", "SunOS");
-            correctionAdd("sunos", "SunOS");
-
-            correctionAdd("LTT", "Linux Tech Tips");
-            correctionAdd("ltt", "Linux Tech Tips");
-
-            correctionAdd("live usb", "live USB");
-            correctionAdd("live linux", "live USB");
-            correctionAdd("Live-USB", "live USB");
-            correctionAdd("Live USB", "live USB");
-
-            correctionAdd("Slurm", "Slurm Workload Manager");
-            correctionAdd("Simple Linux Utility for Resource Management", "Slurm Workload Manager");
-            correctionAdd("SLURM", "Slurm Workload Manager");
-
-            correctionAdd("LinuxFX", "Linuxfx");
-            correctionAdd("linuxfx", "Linuxfx");
-
-            correctionAdd("UN*X", "Unix-like");
-            correctionAdd("'NIX", "Unix-like");
-            correctionAdd("'nix", "Unix-like");
-            correctionAdd("*nix", "Unix-like");
-            correctionAdd("Un*x", "Unix-like");
-            correctionAdd("UNIX-like", "Unix-like");
-            correctionAdd("unix-like", "Unix-like");
-            correctionAdd("U*x", "Unix-like");
-            correctionAdd("Unix like", "Unix-like");
-            correctionAdd("unix like", "Unix-like");
-            correctionAdd("*Nix*", "Unix-like"); // This may collide with
-                                                 // client-side removal
-                                                 // of punctuation and
-                                                 // formatting (Markdown
-                                                 // italics in this case)...
-
-            correctionAdd("aix", "AIX");
-
-            correctionAdd("hpux", "HP-UX");
-            correctionAdd("HPUX", "HP-UX");
-            correctionAdd("HP-Unix", "HP-UX");
-            correctionAdd("hp ux", "HP-UX");
-            correctionAdd("HP UX", "HP-UX");
-
-            correctionAdd("unixen", "Unixen");
-
-            correctionAdd("advanced programming in the unix environment", "Advanced Programming in the Unix Environment");
-
-            correctionAdd("SCO Unix", "SCO UNIX");
-
-            correctionAdd("unix time", "Unix time");
-            correctionAdd("UNIX time", "Unix time");
-            correctionAdd("UNIX timestamp", "Unix time");
-            correctionAdd("Unix timestamp", "Unix time");
-
-            correctionAdd("TR", "tr"); // Unix / Linux command
-
-            // Linux
-            correctionAdd("SUDO", "sudo");
-            correctionAdd("su", "sudo");
-
-            correctionAdd("sort (unix)", "sort (Unix)");
-
-            // Linux command. Related to systemd.
-            correctionAdd("SYSTEMCTL", "systemctl");
-
-            // A system monitoring tool on Linux
-            correctionAdd("VMSTAT", "vmstat"); // The corresponding 'man' page is <https://linux.die.net/man/8/vmstat>.
-
-            correctionAdd("DF", "df"); // Unix/Linux command
-
-            // Related to Linux (transport-layer load balancing)
-            correctionAdd("ipvs", "IPVS");
-
-            // Related to Linux
-            correctionAdd("TCPDUMP", "tcpdump");
-
-            // Linux command
-            correctionAdd("GROUPADD", "groupadd");
-
-            // Linux command
-            correctionAdd("HDPARM", "hdparm");
-
-            // Linux command
-            correctionAdd("KILL", "kill");
-
-            // Linux command
-            correctionAdd("RM", "rm");
-
-            // A Linux file system
-            correctionAdd("procfs", "proc");
-            correctionAdd("PROC", "proc");
-
-            correctionAdd("epoch time", "Epoch time");
-            correctionAdd("EPOC", "Epoch time");
-            correctionAdd("EPOC time", "Epoch time");
-
-            correctionAdd("DOS2UNIX", "dos2unix");
-
-            correctionAdd("UNIX2DOS", "unix2dos");
-
-            correctionAdd("dtrace", "DTrace");
-            correctionAdd("Dtrace", "DTrace");
 
             correctionAdd("Tracert", "mtr"); // On Windows. Not incorrect, just the replacement on Linux...
             correctionAdd("tracert", "mtr"); // On Windows. Not incorrect, just the replacement on Linux...
@@ -4180,6 +4252,7 @@ namespace OverflowHelper.core
             correctionAdd("typesccript", "TypeScript");
             correctionAdd("TypeSciprt", "TypeScript");
             correctionAdd("TypeScirpt", "TypeScript");
+            correctionAdd("TSX", "TypeScript");
 
             correctionAdd("user script", "userscript");
             correctionAdd("Userscript", "userscript");
@@ -8511,6 +8584,7 @@ namespace OverflowHelper.core
             correctionAdd("Es", "for example");
             correctionAdd("E. g", "for example");
             correctionAdd("For exmaple", "for example");
+            correctionAdd("for exampe", "for example");
 
             correctionAdd("exsample", "example");
             correctionAdd("Exaplme", "example"); // Not 100% correct - case.
@@ -15516,6 +15590,7 @@ namespace OverflowHelper.core
 
             correctionAdd("imperically", "empirically");
             correctionAdd("emperically", "empirically");
+            correctionAdd("Emperically", "empirically");
 
             correctionAdd("Biblical", "biblical");
 
@@ -18518,34 +18593,6 @@ namespace OverflowHelper.core
 
             correctionAdd("mongoose", "Mongoose");
 
-            correctionAdd("SRP", "single responsibility principle");
-            correctionAdd("Single responsability principle", "single responsibility principle");
-            correctionAdd("single responsability principle", "single responsibility principle");
-            correctionAdd("Single Responsibility Principal", "single responsibility principle");
-            correctionAdd("Single Object Responsibility", "single responsibility principle");
-            correctionAdd("single responsibility", "single responsibility principle");
-            correctionAdd("Single Responsibility principle", "single responsibility principle");
-            correctionAdd("Single Responsibility Principle", "single responsibility principle");
-
-            correctionAdd("pareto", "Pareto principle");
-            correctionAdd("Pareto's law", "Pareto principle");
-            correctionAdd("Pareto", "Pareto principle");
-            correctionAdd("pareto principle", "Pareto principle");
-            correctionAdd("Pareto Principle", "Pareto principle");
-
-            correctionAdd("Heisenberg Uncertainty Principle", "Heisenberg's uncertainty principle");
-            correctionAdd("Uncertainty Principle", "Heisenberg's uncertainty principle");
-            correctionAdd("uncertainty principle", "Heisenberg's uncertainty principle");
-            correctionAdd("Heisenberg uncertainty principle", "Heisenberg's uncertainty principle");
-            correctionAdd("Heisenberg's Uncertainty Principle", "Heisenberg's uncertainty principle");
-            correctionAdd("H.U.P", "Heisenberg's uncertainty principle");
-
-            correctionAdd("Pauli Exclusion Principle", "Pauli exclusion principle");
-
-            correctionAdd("principal", "principle");
-            correctionAdd("priciple", "principle");
-            correctionAdd("princpiple", "principle");
-
             correctionAdd("etl", "ETL");
 
             correctionAdd("comparision", "comparison");
@@ -21284,6 +21331,7 @@ namespace OverflowHelper.core
             correctionAdd("ammount", "amount");
             correctionAdd("amounf", "amount");
             correctionAdd("amont", "amount");
+            correctionAdd("amout", "amount");
 
             correctionAdd("aksing", "asking");
             correctionAdd("Asling", "asking");
@@ -25203,10 +25251,6 @@ namespace OverflowHelper.core
 
             correctionAdd("brian kernighan", "Brian Kernighan");
 
-            correctionAdd("cinnamon", "Cinnamon");
-            correctionAdd("Cinnemon", "Cinnamon");
-            correctionAdd("cinnemon", "Cinnamon");
-
             correctionAdd("euclidean", "Euclidean");
 
             correctionAdd("filebeat", "Filebeat");
@@ -25521,13 +25565,6 @@ namespace OverflowHelper.core
             correctionAdd("Travis-CI", "Travis CI");
             correctionAdd("travis-ci", "Travis CI");
 
-            correctionAdd("xfce", "Xfce");
-            correctionAdd("XFCE", "Xfce");
-            correctionAdd("fxce", "Xfce");
-            correctionAdd("XCFE", "Xfce");
-            correctionAdd("xcfe", "Xfce");
-            correctionAdd("XFce", "Xfce");
-
             correctionAdd("accompyning", "accompanying");
 
             correctionAdd("ao", "among others");
@@ -25762,9 +25799,6 @@ namespace OverflowHelper.core
             correctionAdd("James Webb Telescope", "James Webb Space Telescope");
             correctionAdd("james webb telescope", "James Webb Space Telescope");
             correctionAdd("jwst", "James Webb Space Telescope");
-
-            correctionAdd("Lxqt", "LXQt");
-            correctionAdd("lxqt", "LXQt");
 
             correctionAdd("Labanon", "Lebanon");
 
@@ -27360,6 +27394,7 @@ namespace OverflowHelper.core
             correctionAdd("keybinding", "key binding");
             correctionAdd("keybindding", "key binding");
             correctionAdd("key-binding", "key binding");
+            correctionAdd("Key-Binding", "key binding");
 
             correctionAdd("van-der-Waals force", "van der Waals force");
             correctionAdd("Van der Waals force", "van der Waals force");
@@ -27709,9 +27744,6 @@ namespace OverflowHelper.core
 
             correctionAdd("mis match", "mismatch");
             correctionAdd("mis-match", "mismatch");
-
-            correctionAdd("mate", "MATE");
-            correctionAdd("Mate", "MATE");
 
             correctionAdd("Me Too", "MeToo");
 
@@ -29151,6 +29183,7 @@ namespace OverflowHelper.core
 
             correctionAdd("depriciation", "deprecation");
             correctionAdd("depreciation", "deprecation");
+            correctionAdd("deprication", "deprecation");
 
             correctionAdd("publically", "publicly");
             correctionAdd("pubically", "publicly");
@@ -31929,6 +31962,7 @@ namespace OverflowHelper.core
             correctionAdd("same origon policy", "same-origin policy");
 
             correctionAdd("2nd law of Thermodynamics", "second law of thermodynamics");
+            correctionAdd("II law of thermodynamics", "second law of thermodynamics");
 
             correctionAdd("Semantic Versioning", "semantic versioning");
             correctionAdd("semver", "semantic versioning");
@@ -33033,9 +33067,6 @@ namespace OverflowHelper.core
             correctionAdd("CodeSys", "Codesys");
 
             correctionAdd("esp8266", "ESP8266");
-
-            correctionAdd("Lxde", "LXDE");
-            correctionAdd("lxde", "LXDE");
 
             correctionAdd("elemnet", "element");
             correctionAdd("elemnt", "element");
@@ -34434,6 +34465,7 @@ namespace OverflowHelper.core
             correctionAdd("PIA", "PITA");
             correctionAdd("PAIN IN THE A", "PITA");
             correctionAdd("pain in the a", "PITA");
+            correctionAdd("p.i.t.a", "PITA");
 
             correctionAdd("stolon", "Stolon");
 
@@ -34475,11 +34507,14 @@ namespace OverflowHelper.core
             correctionAdd("Newton's Second Law", "Newton's second law of motion");
             correctionAdd("newton's second law", "Newton's second law of motion");
             correctionAdd("Newton's second law", "Newton's second law of motion");
+            correctionAdd("Newtons II law", "Newton's second law of motion");
 
             correctionAdd("Newton's Third Law", "Newton's third law of motion");
 
             correctionAdd("newtons laws", "Newton's laws of motion");
             correctionAdd("Newton's Laws of Motion", "Newton's laws of motion");
+            correctionAdd("Newton laws", "Newton's laws of motion");
+            correctionAdd("Newton's laws", "Newton's laws of motion");
 
             correctionAdd("Newtons's law of gravitation", "Newton's law of universal gravitation");
 
@@ -41690,9 +41725,6 @@ namespace OverflowHelper.core
 
             correctionAdd("onyx", "Onyx");
 
-            correctionAdd("Robustness Principle", "Postel's law");
-            correctionAdd("robustness principle", "Postel's law");
-
             correctionAdd("RFC 3549", "RFC&nbsp;3549");
             correctionAdd("rfc3549", "RFC&nbsp;3549");
             correctionAdd("RFC3549", "RFC&nbsp;3549");
@@ -43294,8 +43326,6 @@ namespace OverflowHelper.core
             correctionAdd("Saint Peter", "St. Peter");
             correctionAdd("St Peter", "St. Peter");
 
-            correctionAdd("Aufbau principle", "aufbau principle");
-
             correctionAdd("collapseable", "collapsible");
 
             correctionAdd("descent", "decent");
@@ -44297,9 +44327,6 @@ namespace OverflowHelper.core
             correctionAdd("auxillary", "auxiliary");
 
             correctionAdd("cope up", "come up");
-
-            correctionAdd("Dependency Inversion", "dependency inversion principle");
-            correctionAdd("Dependency Inversion principle", "dependency inversion principle");
 
             correctionAdd("lower level", "lower-level");
 
@@ -45572,8 +45599,6 @@ namespace OverflowHelper.core
 
             correctionAdd("islamophobic", "Islamophobic");
 
-            correctionAdd("Le Chateliers principle", "Le Chatelier's principle");
-
             correctionAdd("edx", "edX");
 
             correctionAdd("Meta is Murder", "meta is murder");
@@ -45986,8 +46011,6 @@ namespace OverflowHelper.core
             correctionAdd("dobbeltgjanger", "doppelganger");
             correctionAdd("Doppelgänger", "doppelganger");
             correctionAdd("doppelgänger", "doppelganger");
-
-            correctionAdd("first principals", "first principles");
 
             correctionAdd("TWM", "tiling window manager");
 
@@ -48651,11 +48674,29 @@ namespace OverflowHelper.core
 
             correctionAdd("life saver", "lifesaver");
 
-            correctionAdd("on principal", "on principle");
-
             correctionAdd("onesidedly", "one-sidedly");
 
             correctionAdd("pratical", "practical");
+
+            correctionAdd("more fast", "faster");
+
+            correctionAdd("arrowkeys", "arrow keys");
+
+            correctionAdd("autoptr", "auto_ptr");
+
+            correctionAdd("down key", "down arrow key");
+            correctionAdd("down arrow", "down arrow key");
+            correctionAdd("keyboard down key", "down arrow key");
+
+            correctionAdd("endgoal", "end goal");
+
+            correctionAdd("INI", "INI file");
+
+            correctionAdd("re-parse", "reparse");
+
+            correctionAdd("time critical", "time-critical");
+
+            correctionAdd("Tool", "tool");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -76069,7 +76110,7 @@ namespace OverflowHelper.core
 
             URL_Add("undelete", "https://en.wiktionary.org/wiki/undelete#Verb");
 
-            URL_Add("Via", "https://caniusevia.com>");
+            URL_Add("Via", "https://caniusevia.com");
 
             URL_Add("Vial", "https://get.vial.today");
 
@@ -76106,6 +76147,26 @@ namespace OverflowHelper.core
             URL_Add("practical", "https://en.wiktionary.org/wiki/practical#Adjective");
 
             URL_Add("Python in a Nutshell", "https://www.oreilly.com/library/view/python-in-a/9781098113544/");
+
+            URL_Add("faster", "https://en.wiktionary.org/wiki/faster#Adjective");
+
+            URL_Add("arrow keys", "https://en.wikipedia.org/wiki/Arrow_keys");
+
+            URL_Add("auto_ptr", "https://en.wikipedia.org/wiki/Auto_ptr");
+
+            URL_Add("down arrow key", "https://en.wikipedia.org/wiki/Arrow_keys");
+
+            URL_Add("end goal", "https://glosbe.com/en/en/end%20goal");
+
+            URL_Add("GNOME&nbsp;3", "https://en.wikipedia.org/wiki/GNOME_3");
+
+            URL_Add("INI file", "https://en.wikipedia.org/wiki/INI_file");
+
+            URL_Add("reparse", "https://en.wiktionary.org/wiki/reparse#Verb");
+
+            URL_Add("time-critical", "https://en.wiktionary.org/wiki/time-critical#Adjective");
+
+            URL_Add("tool", "https://en.wiktionary.org/wiki/tool#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
