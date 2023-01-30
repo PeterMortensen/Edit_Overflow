@@ -2194,6 +2194,7 @@ namespace OverflowHelper.core
             // A Linux distribution
             correctionAdd("Xero Linux", "XeroLinux");
             correctionAdd("Zero Linux", "XeroLinux");
+            correctionAdd("xero", "XeroLinux");
 
             correctionAdd("Yocto", "Yocto Project");
             correctionAdd("Yocto Linux", "Yocto Project");
@@ -6051,6 +6052,57 @@ namespace OverflowHelper.core
             correctionAdd(".NET-3.5", ".NET 3.5");
             correctionAdd("Dot Net 3.5", ".NET 3.5");
 
+            correctionAdd(".NET 5", ".NET&nbsp;5");
+            correctionAdd(".Net 5", ".NET&nbsp;5");
+
+            correctionAdd(".NET 6", ".NET&nbsp;6");
+            correctionAdd(".Net 6", ".NET&nbsp;6");
+
+            correctionAdd(".net core", ".NET Core");
+            correctionAdd("dot net core", ".NET Core");
+            correctionAdd(".Net Core", ".NET Core");
+            correctionAdd("dotnet core", ".NET Core");
+            correctionAdd("dotnetcore", ".NET Core");
+            correctionAdd("Core", ".NET Core");
+            correctionAdd(".net Core", ".NET Core");
+            correctionAdd(".NET core", ".NET Core");
+            correctionAdd(".Net core", ".NET Core");
+            correctionAdd(".Net-core", ".NET Core");
+            correctionAdd("netcore", ".NET Core");
+            correctionAdd(".NET CORE", ".NET Core");
+            correctionAdd("Net Core", ".NET Core");
+            correctionAdd(".Net.core", ".NET Core");
+            correctionAdd("DotNet Core", ".NET Core");
+            correctionAdd("Dot net core", ".NET Core");
+            correctionAdd("net core", ".NET Core");
+            correctionAdd("net Core", ".NET Core");
+            correctionAdd(".netcore", ".NET Core");
+            correctionAdd(".nerdcore", ".NET Core"); // There is another meaning, but it was used in the context of .NET Core...
+            correctionAdd(".net-core", ".NET Core");
+            correctionAdd(".NETCore", ".NET Core");
+            correctionAdd("Dot Net Core", ".NET Core");
+            correctionAdd("DotNET_core", ".NET Core");
+            correctionAdd("dotnet-core", ".NET Core");
+            correctionAdd("DotNET core", ".NET Core");
+            correctionAdd("Dotnet core", ".NET Core");
+            correctionAdd("NetCore", ".NET Core");
+            correctionAdd("Net.Core", ".NET Core");
+            correctionAdd(".NetCore", ".NET Core");
+            correctionAdd("notnetcore", ".NET Core");
+            correctionAdd("core", ".NET Core");
+            correctionAdd(". Net-core", ".NET Core");
+            correctionAdd("CORE", ".NET Core");
+
+            correctionAdd("net core 3.0", ".NET Core 3.0");
+            correctionAdd("Core 3.0", ".NET Core 3.0");
+
+            correctionAdd(".NETStandard", ".NET Standard");
+            correctionAdd(".netstandard", ".NET Standard");
+            correctionAdd("net standard", ".NET Standard");
+            correctionAdd(".net standard", ".NET Standard");
+            correctionAdd(".NET standard", ".NET Standard");
+            correctionAdd(".Net-Standard", ".NET Standard");
+
             correctionAdd(".Net micro framework", ".NET Micro Framework");
             correctionAdd(".NET micro framework", ".NET Micro Framework");
             correctionAdd(".Net Micro Framework", ".NET Micro Framework");
@@ -6072,71 +6124,67 @@ namespace OverflowHelper.core
             correctionAdd("Compact Framework", ".NET Compact Framework");
             correctionAdd("Compact", ".NET Compact Framework");
 
-            correctionAdd("ado.net", "ADO.NET");
-            correctionAdd("Ado.Net", "ADO.NET");
-            correctionAdd("ADO.Net", "ADO.NET");
-            correctionAdd("ADO.net", "ADO.NET");
-            correctionAdd("ADO", "ADO.NET");
+            correctionAdd(".Net reflector", ".NET Reflector");
+            correctionAdd(".NET reflector", ".NET Reflector");
+            correctionAdd("Reflector", ".NET Reflector");
+            correctionAdd("reflector", ".NET Reflector");
+            correctionAdd(".net reflector", ".NET Reflector");
+            correctionAdd(".Net Reflector", ".NET Reflector");
 
-           correctionAdd("Cruisecontrol", "CruiseControl");
-            correctionAdd("cruisecontrol", "CruiseControl");
-            correctionAdd("cruise control", "CruiseControl");
-            correctionAdd("Cruise Control", "CruiseControl");
-            correctionAdd("crruise", "CruiseControl");
-            correctionAdd("cruse control", "CruiseControl");
-            correctionAdd("CC", "CruiseControl"); // Collisions? E.g. "carbon copy"?
+            correctionAdd("process explorer", "Process&nbsp;Explorer");
+            correctionAdd("Process Explorer", "Process&nbsp;Explorer");
+            correctionAdd("ProcessExplorer", "Process&nbsp;Explorer");
+            correctionAdd("processexplorer", "Process&nbsp;Explorer");
+            correctionAdd("process Explorer", "Process&nbsp;Explorer");
+            correctionAdd("procexp", "Process&nbsp;Explorer");
+            correctionAdd("Procexp", "Process&nbsp;Explorer");
+            correctionAdd("ProcExp", "Process&nbsp;Explorer");
+            correctionAdd("Processor explorer", "Process&nbsp;Explorer");
+            correctionAdd("Processor Explorer", "Process&nbsp;Explorer"); // Effectively self.
 
-            correctionAdd("CruiseControl.net", "CruiseControl.NET");
-            correctionAdd("CruiseControl.Net", "CruiseControl.NET");
-            correctionAdd("cruisecontrol.net", "CruiseControl.NET");
-            correctionAdd("cruiseontrol.net", "CruiseControl.NET");
-            correctionAdd("CCNet", "CruiseControl.NET");
-            correctionAdd("CC.Net", "CruiseControl.NET");
-            correctionAdd("ccnet", "CruiseControl.NET");
-            correctionAdd("cruise control.net", "CruiseControl.NET");
-            correctionAdd("Cruise Control.NET", "CruiseControl.NET");
-            correctionAdd("CC.NET", "CruiseControl.NET");
-            correctionAdd("cruise control.NET", "CruiseControl.NET");
-            correctionAdd("Cruise-Control.Net", "CruiseControl.NET");
-            correctionAdd("Cruisecontrol.net", "CruiseControl.NET");
-            correctionAdd("CCNET", "CruiseControl.NET");
+            correctionAdd("Ilasm", "ILAsm");
 
-            correctionAdd("Spring.Net", "Spring.NET");
+            correctionAdd("Ildasm", "ILDASM");
+            correctionAdd("ildasm", "ILDASM");
 
-            correctionAdd("paint.net", "Paint.NET");
-            correctionAdd("Paint.Net", "Paint.NET");
-            correctionAdd("Paint.net", "Paint.NET");
-            correctionAdd("Paint .Net", "Paint.NET");
-            correctionAdd("paint .net", "Paint.NET");
+            correctionAdd("il", "CIL"); // The .NET one.
+            correctionAdd("IL", "CIL"); // The .NET one.
+            correctionAdd("MSIL", "CIL"); // The .NET one.
+            correctionAdd("msil", "CIL"); // The .NET one.
+            correctionAdd("cil", "CIL"); // The .NET one.
 
-            correctionAdd("TestDriven.Net", "TestDriven.NET");
-            correctionAdd("TD.NET", "TestDriven.NET");
-            correctionAdd("TestDriven.net", "TestDriven.NET");
-            //correctionAdd("TestDriven.Net", "TestDriven.NET");
+            // Expansion, not case correction.
+            correctionAdd("Entity Framework", "ADO.NET Entity Framework");
+            correctionAdd("EF", "ADO.NET Entity Framework");
+            correctionAdd("ADO.Net Entity Framework", "ADO.NET Entity Framework");
+            correctionAdd("entity framework", "ADO.NET Entity Framework");
+            correctionAdd("Entities framework", "ADO.NET Entity Framework");
+            correctionAdd("Ado.net entity framework", "ADO.NET Entity Framework");
+            correctionAdd("ef", "ADO.NET Entity Framework");
+            correctionAdd("ado.net entity framework", "ADO.NET Entity Framework");
+            correctionAdd("Entity framework", "ADO.NET Entity Framework");
+            correctionAdd("EntityFramework", "ADO.NET Entity Framework");
+            correctionAdd("ADO.Net entity framework", "ADO.NET Entity Framework");
+            correctionAdd("Entitiy framework", "ADO.NET Entity Framework");
+            correctionAdd("enitity framewrok", "ADO.NET Entity Framework");
+            correctionAdd("entityframwork", "ADO.NET Entity Framework");
+            correctionAdd("Enity framework", "ADO.NET Entity Framework");
+            correctionAdd("Entity FrameWork", "ADO.NET Entity Framework");
 
-            correctionAdd("MEF", "Managed Extensibility Framework");
-
-            correctionAdd("Lucene.net", "Lucene.NET");
-            correctionAdd("Lucene.Net", "Lucene.NET");
-
-            correctionAdd("XUnit.net", "xUnit.net");
-
-            correctionAdd("Json.net", "Json.NET");
-            correctionAdd("JSON.Net", "Json.NET");
-            correctionAdd("JSON.NET", "Json.NET");
-            correctionAdd("Json.Net", "Json.NET");
-            correctionAdd("json.net", "Json.NET");
-            correctionAdd("newton.json", "Json.NET");
-            correctionAdd("Newtonsoft.Json", "Json.NET");
-
-            correctionAdd("shellcheck", "ShellCheck");
-            correctionAdd("shellcheck.net", "ShellCheck");
-            correctionAdd("spellcheck.net", "ShellCheck");
-
-            correctionAdd("ALT.NET", "ALT .NET");
-
-            correctionAdd("TF.NET", "TensorFlow.NET");
-            correctionAdd("Tensorflow.Net", "TensorFlow.NET");
+            correctionAdd("asp", "ASP Classic");
+            correctionAdd("ASP", "ASP Classic");
+            correctionAdd("ASP classic", "ASP Classic");
+            correctionAdd("Classic ASP", "ASP Classic");
+            correctionAdd("classic ASP", "ASP Classic");
+            correctionAdd("Classic-ASP", "ASP Classic");
+            correctionAdd("classic asp", "ASP Classic");
+            correctionAdd("asp classic", "ASP Classic");
+            correctionAdd("old ASP", "ASP Classic"); // Synonym.
+            correctionAdd("classicASP", "ASP Classic");
+            correctionAdd("ASPclassic", "ASP Classic");
+            correctionAdd("classicasp", "ASP Classic");
+            correctionAdd("Classic Asp", "ASP Classic");
+            correctionAdd("Asp Classic", "ASP Classic");
 
             correctionAdd("asp.net", "ASP.NET");
             correctionAdd("ASP.net", "ASP.NET");
@@ -6209,20 +6257,150 @@ namespace OverflowHelper.core
             correctionAdd("Asp Mvc", "ASP.NET MVC");
             correctionAdd("MVC.NET", "ASP.NET MVC");
 
-            correctionAdd("asp", "ASP Classic");
-            correctionAdd("ASP", "ASP Classic");
-            correctionAdd("ASP classic", "ASP Classic");
-            correctionAdd("Classic ASP", "ASP Classic");
-            correctionAdd("classic ASP", "ASP Classic");
-            correctionAdd("Classic-ASP", "ASP Classic");
-            correctionAdd("classic asp", "ASP Classic");
-            correctionAdd("asp classic", "ASP Classic");
-            correctionAdd("old ASP", "ASP Classic"); // Synonym.
-            correctionAdd("classicASP", "ASP Classic");
-            correctionAdd("ASPclassic", "ASP Classic");
-            correctionAdd("classicasp", "ASP Classic");
-            correctionAdd("Classic Asp", "ASP Classic");
-            correctionAdd("Asp Classic", "ASP Classic");
+            correctionAdd("asp core", "ASP.NET Core");
+            correctionAdd("Asp.net core", "ASP.NET Core");
+            correctionAdd("aspnet core", "ASP.NET Core");
+            correctionAdd("asp.net core", "ASP.NET Core");
+            correctionAdd("ASP core", "ASP.NET Core");
+            correctionAdd("ASP.Net core", "ASP.NET Core");
+            correctionAdd("ASP.Net Core", "ASP.NET Core");
+            correctionAdd("ASP.NET CORE", "ASP.NET Core");
+            correctionAdd("asp net core", "ASP.NET Core");
+            correctionAdd(".net core mvc", "ASP.NET Core");
+            correctionAdd(".NET Core mvc", "ASP.NET Core");
+            correctionAdd(".NET Core MVC", "ASP.NET Core");
+            correctionAdd(".NET Core ASP.NET MVC", "ASP.NET Core");
+            correctionAdd("ASP.NET MVC Core", "ASP.NET Core");
+            correctionAdd("asp.net core mvc", "ASP.NET Core");
+            correctionAdd("Asp.net MVC core", "ASP.NET Core");
+            correctionAdd("Asp.net Core", "ASP.NET Core");
+            correctionAdd("Asp.Net Core", "ASP.NET Core");
+            correctionAdd("Asp.Net core", "ASP.NET Core");
+            correctionAdd("ASP .NET Core", "ASP.NET Core");
+            correctionAdd("ASP Core", "ASP.NET Core");
+            correctionAdd("aspnetcore", "ASP.NET Core");
+            correctionAdd("ASP.NET core", "ASP.NET Core");
+            correctionAdd("asp.net Core", "ASP.NET Core");
+            correctionAdd("asp.net-core", "ASP.NET Core");
+            correctionAdd("AspNetCore", "ASP.NET Core");
+            correctionAdd("AspNet Core", "ASP.NET Core");
+            correctionAdd("aspnet core mvc", "ASP.NET Core");
+            correctionAdd("core MVC", "ASP.NET Core");
+            correctionAdd("asp dotnet core", "ASP.NET Core");
+            correctionAdd("asp .net core", "ASP.NET Core");
+            correctionAdd(".net core MVC", "ASP.NET Core");
+            correctionAdd(".Net Core MVC", "ASP.NET Core");
+            correctionAdd("ASP.Net CORE", "ASP.NET Core");
+            correctionAdd("asp dot net core", "ASP.NET Core");
+            correctionAdd("asp.dot net core", "ASP.NET Core");
+            correctionAdd("asp.dot .net core", "ASP.NET Core");
+            correctionAdd("ASP.NET Core MVC", "ASP.NET Core");
+            correctionAdd("ASP.net Core", "ASP.NET Core");
+            correctionAdd("ASP Net Core", "ASP.NET Core");
+            correctionAdd("ASP .Net Core", "ASP.NET Core");
+            correctionAdd("Asp.netCore", "ASP.NET Core");
+            correctionAdd("ASP.Net Core MVC", "ASP.NET Core");
+            correctionAdd("ASPNet Core", "ASP.NET Core");
+            correctionAdd("ASPNet Core MVC", "ASP.NET Core");
+            correctionAdd("ASPNetCore", "ASP.NET Core");
+            correctionAdd("ASPNetCore MVC", "ASP.NET Core");
+            correctionAdd(".NET core MVC", "ASP.NET Core");
+
+            correctionAdd("asp net core 3.0", "ASP.NET Core 3.0");
+
+            correctionAdd("Dotnet CLI", ".NET CLI");
+            correctionAdd("Dotnet cli", ".NET CLI");
+
+            correctionAdd(".NET FIDDLE", ".NET Fiddle");
+            correctionAdd("dot net fiddle", ".NET Fiddle");
+
+            correctionAdd("MAUI", "Multi-platform App UI");
+            correctionAdd("muawi", "Multi-platform App UI");
+            correctionAdd("muavi", "Multi-platform App UI");
+            correctionAdd(".NET MAUI", "Multi-platform App UI");
+            correctionAdd("maui", "Multi-platform App UI");
+            correctionAdd(".net maui", "Multi-platform App UI");
+
+            correctionAdd("DNNE", ".NET native exports");
+
+            correctionAdd("DotNet Rocks", ".NET Rocks");
+
+            correctionAdd(".NET remoting", ".NET Remoting");
+            correctionAdd("Remoting", ".NET Remoting");
+            correctionAdd("remoting", ".NET Remoting");
+
+            // Related to .NET
+            correctionAdd("Rosyln", "Roslyn");
+            correctionAdd("Roselyn", "Roslyn");
+
+            // Related to Windows
+            correctionAdd("drwatson", "Dr. Watson");
+
+            correctionAdd("ado.net", "ADO.NET");
+            correctionAdd("Ado.Net", "ADO.NET");
+            correctionAdd("ADO.Net", "ADO.NET");
+            correctionAdd("ADO.net", "ADO.NET");
+            correctionAdd("ADO", "ADO.NET");
+
+           correctionAdd("Cruisecontrol", "CruiseControl");
+            correctionAdd("cruisecontrol", "CruiseControl");
+            correctionAdd("cruise control", "CruiseControl");
+            correctionAdd("Cruise Control", "CruiseControl");
+            correctionAdd("crruise", "CruiseControl");
+            correctionAdd("cruse control", "CruiseControl");
+            correctionAdd("CC", "CruiseControl"); // Collisions? E.g. "carbon copy"?
+
+            correctionAdd("CruiseControl.net", "CruiseControl.NET");
+            correctionAdd("CruiseControl.Net", "CruiseControl.NET");
+            correctionAdd("cruisecontrol.net", "CruiseControl.NET");
+            correctionAdd("cruiseontrol.net", "CruiseControl.NET");
+            correctionAdd("CCNet", "CruiseControl.NET");
+            correctionAdd("CC.Net", "CruiseControl.NET");
+            correctionAdd("ccnet", "CruiseControl.NET");
+            correctionAdd("cruise control.net", "CruiseControl.NET");
+            correctionAdd("Cruise Control.NET", "CruiseControl.NET");
+            correctionAdd("CC.NET", "CruiseControl.NET");
+            correctionAdd("cruise control.NET", "CruiseControl.NET");
+            correctionAdd("Cruise-Control.Net", "CruiseControl.NET");
+            correctionAdd("Cruisecontrol.net", "CruiseControl.NET");
+            correctionAdd("CCNET", "CruiseControl.NET");
+
+            correctionAdd("Spring.Net", "Spring.NET");
+
+            correctionAdd("paint.net", "Paint.NET");
+            correctionAdd("Paint.Net", "Paint.NET");
+            correctionAdd("Paint.net", "Paint.NET");
+            correctionAdd("Paint .Net", "Paint.NET");
+            correctionAdd("paint .net", "Paint.NET");
+
+            correctionAdd("TestDriven.Net", "TestDriven.NET");
+            correctionAdd("TD.NET", "TestDriven.NET");
+            correctionAdd("TestDriven.net", "TestDriven.NET");
+            //correctionAdd("TestDriven.Net", "TestDriven.NET");
+
+            correctionAdd("MEF", "Managed Extensibility Framework");
+
+            correctionAdd("Lucene.net", "Lucene.NET");
+            correctionAdd("Lucene.Net", "Lucene.NET");
+
+            correctionAdd("XUnit.net", "xUnit.net");
+
+            correctionAdd("Json.net", "Json.NET");
+            correctionAdd("JSON.Net", "Json.NET");
+            correctionAdd("JSON.NET", "Json.NET");
+            correctionAdd("Json.Net", "Json.NET");
+            correctionAdd("json.net", "Json.NET");
+            correctionAdd("newton.json", "Json.NET");
+            correctionAdd("Newtonsoft.Json", "Json.NET");
+
+            correctionAdd("shellcheck", "ShellCheck");
+            correctionAdd("shellcheck.net", "ShellCheck");
+            correctionAdd("spellcheck.net", "ShellCheck");
+
+            correctionAdd("ALT.NET", "ALT .NET");
+
+            correctionAdd("TF.NET", "TensorFlow.NET");
+            correctionAdd("Tensorflow.Net", "TensorFlow.NET");
 
             correctionAdd("c#", "C#");
             correctionAdd("C Sharp", "C#");
@@ -7207,13 +7385,6 @@ namespace OverflowHelper.core
             correctionAdd("couchdb", "CouchDB");
             correctionAdd("Couchdb", "CouchDB");
             correctionAdd("CouchDb", "CouchDB");
-
-            correctionAdd(".Net reflector", ".NET Reflector");
-            correctionAdd(".NET reflector", ".NET Reflector");
-            correctionAdd("Reflector", ".NET Reflector");
-            correctionAdd("reflector", ".NET Reflector");
-            correctionAdd(".net reflector", ".NET Reflector");
-            correctionAdd(".Net Reflector", ".NET Reflector");
 
             correctionAdd("NH", "NHibernate");
             correctionAdd("nhibernate", "NHibernate");
@@ -11753,6 +11924,7 @@ namespace OverflowHelper.core
 
             correctionAdd("di", "dependency injection"); // Not actually observed.
             correctionAdd("DI", "dependency injection"); // An expansion.
+            correctionAdd("Di", "dependency injection");
             correctionAdd("Dependency Injection", "dependency injection"); // An expansion.
             correctionAdd("depedency inejction", "dependency injection");
             correctionAdd("dependency inejction", "dependency injection");
@@ -12773,6 +12945,7 @@ namespace OverflowHelper.core
             correctionAdd("infrormation", "information");
             correctionAdd("informtion", "information");
             correctionAdd("Information", "information");
+            correctionAdd("impormation", "information");
 
             correctionAdd("stats", "statistics");
             correctionAdd("stasistics", "statistics");
@@ -13928,28 +14101,6 @@ namespace OverflowHelper.core
 
             correctionAdd("aes", "AES");
 
-            correctionAdd("process explorer", "Process&nbsp;Explorer");
-            correctionAdd("Process Explorer", "Process&nbsp;Explorer");
-            correctionAdd("ProcessExplorer", "Process&nbsp;Explorer");
-            correctionAdd("processexplorer", "Process&nbsp;Explorer");
-            correctionAdd("process Explorer", "Process&nbsp;Explorer");
-            correctionAdd("procexp", "Process&nbsp;Explorer");
-            correctionAdd("Procexp", "Process&nbsp;Explorer");
-            correctionAdd("ProcExp", "Process&nbsp;Explorer");
-            correctionAdd("Processor explorer", "Process&nbsp;Explorer");
-            correctionAdd("Processor Explorer", "Process&nbsp;Explorer"); // Effectively self.
-
-            correctionAdd("Ilasm", "ILAsm");
-
-            correctionAdd("Ildasm", "ILDASM");
-            correctionAdd("ildasm", "ILDASM");
-
-            correctionAdd("il", "CIL"); // The .NET one.
-            correctionAdd("IL", "CIL"); // The .NET one.
-            correctionAdd("MSIL", "CIL"); // The .NET one.
-            correctionAdd("msil", "CIL"); // The .NET one.
-            correctionAdd("cil", "CIL"); // The .NET one.
-
             correctionAdd("gc", "GC"); // Possible conflict with "Google Chrome".
             correctionAdd("Gargbage collection", "GC");
             correctionAdd("garbage collection", "GC");
@@ -14606,6 +14757,7 @@ namespace OverflowHelper.core
             correctionAdd("Long", "longitude"); // Expansion.
             correctionAdd("lng", "longitude"); // Expansion.
             correctionAdd("lon", "longitude");
+            correctionAdd("Longitude", "longitude");
 
             correctionAdd("ipod", "iPod");
             correctionAdd("Ipod", "iPod");
@@ -14820,7 +14972,7 @@ namespace OverflowHelper.core
 
             correctionAdd("keyboard-shortcut", "keyboard shortcut");
 
-            // An "elitist" (whatever that means) name. It 
+            // An "elitist" (whatever that means) name. It
             // is "keyboard shortcut" for the rest of us.
             correctionAdd("keybinding", "key binding");
             correctionAdd("keybindding", "key binding");
@@ -14844,6 +14996,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Mechanical Keyboard", "mechanical keyboard");
             correctionAdd("mech", "mechanical keyboard"); // A shortcut (for expansion)
+            correctionAdd("mech keyb", "mechanical keyboard");
 
             // A type of switch for mechanical keyboards
             correctionAdd("Cherry mx", "Cherry MX");
@@ -14997,6 +15150,12 @@ namespace OverflowHelper.core
             //
             // See also <https://www.theverge.com/22566248/zsa-moonlander-mark-i-1-ergonomic-keyboard-mechanical-review>
             correctionAdd("Moonlander", "Moonlander Mark I");
+
+            // A mechanical keyboard. DYI / open hardware.
+            //
+            correctionAdd("Crkbd", "Corne keyboard");
+            correctionAdd("Corne", "Corne keyboard");
+            correctionAdd("corne", "Corne keyboard");
 
             // A type of mechanical keyboards
             correctionAdd("tkl", "tenkeyless (80%)");
@@ -15240,24 +15399,6 @@ namespace OverflowHelper.core
             correctionAdd("Robot framework", "Robot Framework");
             correctionAdd("Robot", "Robot Framework");
             correctionAdd("RobotFramework", "Robot Framework");
-
-            // Expansion, not case correction.
-            correctionAdd("Entity Framework", "ADO.NET Entity Framework");
-            correctionAdd("EF", "ADO.NET Entity Framework");
-            correctionAdd("ADO.Net Entity Framework", "ADO.NET Entity Framework");
-            correctionAdd("entity framework", "ADO.NET Entity Framework");
-            correctionAdd("Entities framework", "ADO.NET Entity Framework");
-            correctionAdd("Ado.net entity framework", "ADO.NET Entity Framework");
-            correctionAdd("ef", "ADO.NET Entity Framework");
-            correctionAdd("ado.net entity framework", "ADO.NET Entity Framework");
-            correctionAdd("Entity framework", "ADO.NET Entity Framework");
-            correctionAdd("EntityFramework", "ADO.NET Entity Framework");
-            correctionAdd("ADO.Net entity framework", "ADO.NET Entity Framework");
-            correctionAdd("Entitiy framework", "ADO.NET Entity Framework");
-            correctionAdd("enitity framewrok", "ADO.NET Entity Framework");
-            correctionAdd("entityframwork", "ADO.NET Entity Framework");
-            correctionAdd("Enity framework", "ADO.NET Entity Framework");
-            correctionAdd("Entity FrameWork", "ADO.NET Entity Framework");
 
             correctionAdd("zend", "Zend Framework");
             correctionAdd("Zend", "Zend Framework");
@@ -15603,6 +15744,7 @@ namespace OverflowHelper.core
             correctionAdd("nu-get", "NuGet");
             correctionAdd("puget", "NuGet");
             correctionAdd("nuguet", "NuGet");
+            correctionAdd("Nugget", "NuGet");
 
             correctionAdd("Disk cleanup", "Disk Cleanup");
             correctionAdd("Disk Cleaner", "Disk Cleanup"); // Misremembered name...
@@ -15840,6 +15982,7 @@ namespace OverflowHelper.core
             correctionAdd("wikipediholic", "wikiholiday");
             correctionAdd("wikibreak", "wikiholiday");
             correctionAdd("wiki break", "wikiholiday");
+            correctionAdd("take a break", "wikiholiday");
 
             correctionAdd("tody", "today");
             correctionAdd("Today", "today");
@@ -19192,95 +19335,6 @@ namespace OverflowHelper.core
             correctionAdd("google drive", "Google Drive");
             correctionAdd("Google drive", "Google Drive");
 
-            correctionAdd(".net core", ".NET Core");
-            correctionAdd("dot net core", ".NET Core");
-            correctionAdd(".Net Core", ".NET Core");
-            correctionAdd("dotnet core", ".NET Core");
-            correctionAdd("dotnetcore", ".NET Core");
-            correctionAdd("Core", ".NET Core");
-            correctionAdd(".net Core", ".NET Core");
-            correctionAdd(".NET core", ".NET Core");
-            correctionAdd(".Net core", ".NET Core");
-            correctionAdd(".Net-core", ".NET Core");
-            correctionAdd("netcore", ".NET Core");
-            correctionAdd(".NET CORE", ".NET Core");
-            correctionAdd("Net Core", ".NET Core");
-            correctionAdd(".Net.core", ".NET Core");
-            correctionAdd("DotNet Core", ".NET Core");
-            correctionAdd("Dot net core", ".NET Core");
-            correctionAdd("net core", ".NET Core");
-            correctionAdd("net Core", ".NET Core");
-            correctionAdd(".netcore", ".NET Core");
-            correctionAdd(".nerdcore", ".NET Core"); // There is another meaning, but it was used in the context of .NET Core...
-            correctionAdd(".net-core", ".NET Core");
-            correctionAdd(".NETCore", ".NET Core");
-            correctionAdd("Dot Net Core", ".NET Core");
-            correctionAdd("DotNET_core", ".NET Core");
-            correctionAdd("dotnet-core", ".NET Core");
-            correctionAdd("DotNET core", ".NET Core");
-            correctionAdd("Dotnet core", ".NET Core");
-            correctionAdd("NetCore", ".NET Core");
-            correctionAdd("Net.Core", ".NET Core");
-            correctionAdd(".NetCore", ".NET Core");
-            correctionAdd("notnetcore", ".NET Core");
-            correctionAdd("core", ".NET Core");
-            correctionAdd(". Net-core", ".NET Core");
-            correctionAdd("CORE", ".NET Core");
-
-            correctionAdd("asp core", "ASP.NET Core");
-            correctionAdd("Asp.net core", "ASP.NET Core");
-            correctionAdd("aspnet core", "ASP.NET Core");
-            correctionAdd("asp.net core", "ASP.NET Core");
-            correctionAdd("ASP core", "ASP.NET Core");
-            correctionAdd("ASP.Net core", "ASP.NET Core");
-            correctionAdd("ASP.Net Core", "ASP.NET Core");
-            correctionAdd("ASP.NET CORE", "ASP.NET Core");
-            correctionAdd("asp net core", "ASP.NET Core");
-            correctionAdd(".net core mvc", "ASP.NET Core");
-            correctionAdd(".NET Core mvc", "ASP.NET Core");
-            correctionAdd(".NET Core MVC", "ASP.NET Core");
-            correctionAdd(".NET Core ASP.NET MVC", "ASP.NET Core");
-            correctionAdd("ASP.NET MVC Core", "ASP.NET Core");
-            correctionAdd("asp.net core mvc", "ASP.NET Core");
-            correctionAdd("Asp.net MVC core", "ASP.NET Core");
-            correctionAdd("Asp.net Core", "ASP.NET Core");
-            correctionAdd("Asp.Net Core", "ASP.NET Core");
-            correctionAdd("Asp.Net core", "ASP.NET Core");
-            correctionAdd("ASP .NET Core", "ASP.NET Core");
-            correctionAdd("ASP Core", "ASP.NET Core");
-            correctionAdd("aspnetcore", "ASP.NET Core");
-            correctionAdd("ASP.NET core", "ASP.NET Core");
-            correctionAdd("asp.net Core", "ASP.NET Core");
-            correctionAdd("asp.net-core", "ASP.NET Core");
-            correctionAdd("AspNetCore", "ASP.NET Core");
-            correctionAdd("AspNet Core", "ASP.NET Core");
-            correctionAdd("aspnet core mvc", "ASP.NET Core");
-            correctionAdd("core MVC", "ASP.NET Core");
-            correctionAdd("asp dotnet core", "ASP.NET Core");
-            correctionAdd("asp .net core", "ASP.NET Core");
-            correctionAdd(".net core MVC", "ASP.NET Core");
-            correctionAdd(".Net Core MVC", "ASP.NET Core");
-            correctionAdd("ASP.Net CORE", "ASP.NET Core");
-            correctionAdd("asp dot net core", "ASP.NET Core");
-            correctionAdd("asp.dot net core", "ASP.NET Core");
-            correctionAdd("asp.dot .net core", "ASP.NET Core");
-            correctionAdd("ASP.NET Core MVC", "ASP.NET Core");
-            correctionAdd("ASP.net Core", "ASP.NET Core");
-            correctionAdd("ASP Net Core", "ASP.NET Core");
-            correctionAdd("ASP .Net Core", "ASP.NET Core");
-            correctionAdd("Asp.netCore", "ASP.NET Core");
-            correctionAdd("ASP.Net Core MVC", "ASP.NET Core");
-            correctionAdd("ASPNet Core", "ASP.NET Core");
-            correctionAdd("ASPNet Core MVC", "ASP.NET Core");
-            correctionAdd("ASPNetCore", "ASP.NET Core");
-            correctionAdd("ASPNetCore MVC", "ASP.NET Core");
-            correctionAdd(".NET core MVC", "ASP.NET Core");
-
-            correctionAdd("Rosyln", "Roslyn");
-            correctionAdd("Roselyn", "Roslyn");
-
-            correctionAdd("drwatson", "Dr. Watson");
-
             correctionAdd("redux", "Redux");
             correctionAdd("REDUX", "Redux");
 
@@ -19297,9 +19351,11 @@ namespace OverflowHelper.core
             correctionAdd("total commander", "Total Commander");
             correctionAdd("Total commander", "Total Commander");
 
+            // A Windows application
             correctionAdd("altap Salamander", "Altap Salamander");
             correctionAdd("Slamander", "Altap Salamander");
 
+            // An oscilloscope manufacturer
             correctionAdd("Tektronics", "Tektronix");
             correctionAdd("Tek", "Tektronix");
             correctionAdd("tektronix", "Tektronix");
@@ -21824,6 +21880,8 @@ namespace OverflowHelper.core
             correctionAdd("dimenion", "dimension");
             correctionAdd("dimenstion", "dimension");
             correctionAdd("dimention", "dimension");
+            correctionAdd("Dimension", "dimension");
+            correctionAdd("dimesion", "dimension");
 
             correctionAdd("dimentional", "dimensional");
             correctionAdd("demensional", "dimensional");
@@ -22558,11 +22616,6 @@ namespace OverflowHelper.core
             correctionAdd("wante", "want");
 
             correctionAdd("work force", "workforce");
-
-            correctionAdd("net core 3.0", ".NET Core 3.0");
-            correctionAdd("Core 3.0", ".NET Core 3.0");
-
-            correctionAdd("asp net core 3.0", "ASP.NET Core 3.0");
 
             correctionAdd("eslint", "ESLint");
             correctionAdd("eslinter", "ESLint");
@@ -26004,16 +26057,6 @@ namespace OverflowHelper.core
             correctionAdd("whole-sale", "wholesale");
             correctionAdd("whole sale", "wholesale");
 
-            correctionAdd(".NETStandard", ".NET Standard");
-            correctionAdd(".netstandard", ".NET Standard");
-            correctionAdd("net standard", ".NET Standard");
-            correctionAdd(".net standard", ".NET Standard");
-            correctionAdd(".NET standard", ".NET Standard");
-            correctionAdd(".Net-Standard", ".NET Standard");
-
-            correctionAdd("Dotnet CLI", ".NET CLI");
-            correctionAdd("Dotnet cli", ".NET CLI");
-
             correctionAdd("Billy Bloat", "Bill Gates");
             correctionAdd("billy bloat", "Bill Gates");
             correctionAdd("bill gates", "Bill Gates");
@@ -27144,6 +27187,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Gukesh D", "Dommaraju Gukesh"); // Chess
             correctionAdd("Gukesh", "Dommaraju Gukesh"); // Chess
+
+            correctionAdd("Nodirbek", "Nodirbek Abdusattorov"); // Chess
             //
             // End of the chess part
 
@@ -29315,6 +29360,7 @@ namespace OverflowHelper.core
 
             correctionAdd("opied", "copied");
             correctionAdd("copyied", "copied");
+            correctionAdd("copiped", "copied");
 
             correctionAdd("procederal", "procedural");
 
@@ -34643,12 +34689,6 @@ namespace OverflowHelper.core
             correctionAdd("deliverys", "deliveries");
 
             correctionAdd("re-boot", "reboot");
-
-            correctionAdd(".NET 5", ".NET&nbsp;5");
-            correctionAdd(".Net 5", ".NET&nbsp;5");
-
-            correctionAdd(".NET 6", ".NET&nbsp;6");
-            correctionAdd(".Net 6", ".NET&nbsp;6");
 
             correctionAdd("sku", "SKU");
             correctionAdd("stock keeping unit", "SKU");
@@ -42798,9 +42838,6 @@ namespace OverflowHelper.core
 
             correctionAdd("precident", "president");
 
-            correctionAdd(".NET FIDDLE", ".NET Fiddle");
-            correctionAdd("dot net fiddle", ".NET Fiddle");
-
             correctionAdd("clubhouse", "Clubhouse");
 
             correctionAdd("GNOME 4.0", "GNOME 40");
@@ -43279,12 +43316,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Good reads", "Goodreads");
 
-            correctionAdd("MAUI", "Multi-platform App UI");
-            correctionAdd("muawi", "Multi-platform App UI");
-            correctionAdd("muavi", "Multi-platform App UI");
-            correctionAdd(".NET MAUI", "Multi-platform App UI");
-            correctionAdd("maui", "Multi-platform App UI");
-            correctionAdd(".net maui", "Multi-platform App UI");
+            // A .NET library
+            correctionAdd("polly", "Polly");
 
             correctionAdd("borrow checker", "Rust borrow checker");
             correctionAdd("Rust Borrow Checker", "Rust borrow checker");
@@ -44424,8 +44457,6 @@ namespace OverflowHelper.core
 
             correctionAdd("zeero", "zero");
 
-            correctionAdd("DNNE", ".NET native exports");
-
             correctionAdd("socratic", "Socratic");
 
             correctionAdd("coll", "cool");
@@ -45123,8 +45154,6 @@ namespace OverflowHelper.core
             correctionAdd("sloe", "slow");
 
             correctionAdd("ever changing", "ever-changing");
-
-            correctionAdd("DotNet Rocks", ".NET Rocks");
 
             correctionAdd("ASROCK", "ASRock");
             correctionAdd("asrock", "ASRock");
@@ -47495,10 +47524,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Flying Pancake", "Vought V-173 'Flying Pancake'");
 
-            correctionAdd(".NET remoting", ".NET Remoting");
-            correctionAdd("Remoting", ".NET Remoting");
-            correctionAdd("remoting", ".NET Remoting");
-
             correctionAdd("as/400", "AS/400");
 
             correctionAdd("non ending", "nonending");
@@ -48626,6 +48651,9 @@ namespace OverflowHelper.core
 
             correctionAdd("Haversine formula", "haversine distance");
             correctionAdd("Haversine distance", "haversine distance");
+            correctionAdd("Haversine", "haversine distance");
+            correctionAdd("Haversine Formula", "haversine distance");
+            correctionAdd("haversine", "haversine distance");
 
             correctionAdd("linearization", "linearisation");
             correctionAdd("lineariation", "linearisation");
@@ -48702,6 +48730,14 @@ namespace OverflowHelper.core
             correctionAdd("time critical", "time-critical");
 
             correctionAdd("Tool", "tool");
+
+            correctionAdd("Radian", "radian");
+
+            correctionAdd("while-loop", "while loop");
+
+            correctionAdd("cynikal", "cynical");
+
+            correctionAdd("intoksication", "intoxication");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -76173,6 +76209,20 @@ namespace OverflowHelper.core
 
             URL_Add("tool", "https://en.wiktionary.org/wiki/tool#Noun");
 
+            URL_Add("Corne keyboard", "https://github.com/foostan/crkbd");
+
+            URL_Add("Polly", "https://github.com/App-vNext/Polly");
+
+            URL_Add("radian", "https://en.wiktionary.org/wiki/radian#Noun");
+
+            URL_Add("while loop", "https://en.wiktionary.org/wiki/while_loop#Noun");
+
+            URL_Add("cynical", "https://en.wiktionary.org/wiki/cynical#Adjective");
+
+            URL_Add("intoxication", "https://en.wiktionary.org/wiki/intoxication#Noun");
+
+            URL_Add("Nodirbek Abdusattorov", "https://en.wikipedia.org/wiki/Nodirbek_Abdusattorov");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -77841,6 +77891,7 @@ namespace OverflowHelper.core
             correctionAdd("Pi Pico rp2040_", "Raspberry Pi Pico_");
             correctionAdd("RP2040_", "Raspberry Pi Pico_");
             correctionAdd("rp2040_", "Raspberry Pi Pico_");
+            correctionAdd("Rasp Pico_", "Raspberry Pi Pico_");
 
             correctionAdd("drop-down list box_", "drop-down list_");
             correctionAdd("DDLB_", "drop-down list_");
@@ -78063,6 +78114,11 @@ namespace OverflowHelper.core
             correctionAdd("Javadoc_", "JDK documentation_");
 
             correctionAdd("Top_", "top_");
+
+            correctionAdd("AST_", "ast_");
+
+            correctionAdd("nuget_", "nuggets_");
+            correctionAdd("Nugets_", "nuggets_");
 
             // URL mappings
             //
@@ -79140,6 +79196,10 @@ namespace OverflowHelper.core
             URL_Add("JDK documentation_", "https://docs.oracle.com/en/java/javase/17/");
 
             URL_Add("top_", "https://en.wiktionary.org/wiki/top#Adjective");
+
+            URL_Add("ast_", "https://docs.python.org/3/library/ast.html");
+
+            URL_Add("nuggets_", "https://en.wiktionary.org/wiki/nugget#Noun");
 
         } //addLookupData_alternativeWordSet()
 
