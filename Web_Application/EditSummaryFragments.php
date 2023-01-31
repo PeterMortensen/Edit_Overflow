@@ -289,7 +289,7 @@
                 <a href="https://pmortensen.eu/world2/2020/03/22/bold-and-italics-in-youtube-comments/"
                 >my blog post about how to reliably style YouTube comments</a>)
                 have facilities for <b>bold</b> and <i>italics</i>.
-                It is mostly Indians that do this, but not at all exclusively.
+                It is mostly Indians who do this, but not at all exclusively.
                 Anyone who has wasted too much time with (raw text-only)
                 forums will have the tendency (and need to unlearn). <br/>
                 <input
