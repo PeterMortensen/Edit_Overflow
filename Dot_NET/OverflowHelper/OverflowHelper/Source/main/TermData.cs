@@ -990,8 +990,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Windows Credential", "Windows Credentials");
 
-            correctionAdd("WinUsb", "WinUSB");
-
             correctionAdd("WPD", "Windows Portable Devices");
 
             correctionAdd(".NET Framework SDK", "Windows SDK");
@@ -1470,6 +1468,7 @@ namespace OverflowHelper.core
 
             correctionAdd("aweosme", "awesome");
             correctionAdd("aswesome", "awesome");
+            correctionAdd("awsome", "awesome");
 
             correctionAdd("cmb", "cosmic microwave background");
             correctionAdd("CMB", "cosmic microwave background");
@@ -2274,10 +2273,114 @@ namespace OverflowHelper.core
             correctionAdd("LTT", "Linux Tech Tips");
             correctionAdd("ltt", "Linux Tech Tips");
 
+            correctionAdd("usb", "USB");
+            correctionAdd("Usb", "USB");
+
+            correctionAdd("usb 1.x", "USB 1.x");
+            correctionAdd("USB1", "USB 1.x");
+            correctionAdd("USB FS", "USB 1.x");
+            correctionAdd("USB Full Speed", "USB 1.x");
+            correctionAdd("USB LS", "USB 1.x");
+            correctionAdd("USB Low Speed", "USB 1.x");
+            correctionAdd("Low-Speed", "USB 1.x");
+
+            correctionAdd("uSB2", "USB&nbsp;2.0");
+            correctionAdd("USB2", "USB&nbsp;2.0");
+            correctionAdd("usb 2.0", "USB&nbsp;2.0");
+            correctionAdd("USB 2", "USB&nbsp;2.0");
+            correctionAdd("USB 2.0", "USB&nbsp;2.0");
+            correctionAdd("USB HB", "USB&nbsp;2.0");
+            correctionAdd("USB HS", "USB&nbsp;2.0");
+            correctionAdd("USB High Bandwidth", "USB&nbsp;2.0");
+            correctionAdd("USB High Speed", "USB&nbsp;2.0");
+            correctionAdd("High-Speed", "USB&nbsp;2.0");
+
+            correctionAdd("USB3", "USB&nbsp;3.0");
+            correctionAdd("usb 3", "USB&nbsp;3.0");
+            correctionAdd("usb3", "USB&nbsp;3.0");
+            correctionAdd("usb 3.0", "USB&nbsp;3.0");
+            correctionAdd("USB 3", "USB&nbsp;3.0");
+            correctionAdd("USB 3.0", "USB&nbsp;3.0");
+
+            correctionAdd("Type A", "USB type-A plug");
+            correctionAdd("USB Type-A", "USB type-A plug");
+
+            correctionAdd("usbc", "USB-C");
+            correctionAdd("usb-c", "USB-C");
+
+            correctionAdd("pyusb", "PyUSB");
+
+            correctionAdd("Power Delivery", "USB power delivery");
+            correctionAdd("USB Power Delivery", "USB power delivery");
+
+            correctionAdd("LSUSB", "lsusb");
+            correctionAdd("lsub", "lsusb");
+
+            correctionAdd("USBASP", "USBasp");
+            correctionAdd("usbasp", "USBasp");
+
+            correctionAdd("v-usb", "V-USB");
+
+            correctionAdd("MUTT", "Microsoft USB Test Tool");
+
+            correctionAdd("URB", "USB Request Block");
+
+            correctionAdd("USB 2.0 Low-Pin Interface", "ULPI");
+            correctionAdd("UTMI+ Low Pin Interface", "ULPI");
+            correctionAdd("UTMI+ Low-Pin Interface", "ULPI");
+            correctionAdd("UTMI+ low pin interface", "ULPI");
+            correctionAdd("UTMI+ low-pin interface", "ULPI");
+
+            correctionAdd("USB transceiver macrocell interface", "UTMI");
+            correctionAdd("USB 2.0 Transceiver Macrocell Interface", "UTMI");
+            correctionAdd("USB Transceiver Macrocell Interface", "UTMI");
+
+            correctionAdd("usb hub", "USB hub");
+            correctionAdd("USB Hub", "USB hub");
+
+            correctionAdd("WinUsb", "WinUSB");
+
             correctionAdd("live usb", "live USB");
             correctionAdd("live linux", "live USB");
             correctionAdd("Live-USB", "live USB");
             correctionAdd("Live USB", "live USB");
+
+            correctionAdd("Libusb", "libusb");
+            correctionAdd("libUsb", "libusb");
+            correctionAdd("LibUsb", "libusb");
+            correctionAdd("LibUSB", "libusb");
+            correctionAdd("LIBUSB", "libusb");
+
+            correctionAdd("usbtmc", "USBTMC");
+            correctionAdd("USB TMC", "USBTMC");
+
+            correctionAdd("OTG", "USB On-The-Go");
+            correctionAdd("USB-to-go", "USB On-The-Go");
+            correctionAdd("USB OTG", "USB On-The-Go");
+
+            correctionAdd("USB memory", "USB flash drive");
+            correctionAdd("thum drive", "USB flash drive");
+            correctionAdd("thumb drive", "USB flash drive");
+            correctionAdd("thumb", "USB flash drive");
+            correctionAdd("pen drive", "USB flash drive");
+            correctionAdd("gig stick", "USB flash drive");
+            correctionAdd("flash stick", "USB flash drive");
+            correctionAdd("jump drive", "USB flash drive");
+            correctionAdd("memory stick", "USB flash drive");
+            correctionAdd("USB stick", "USB flash drive");
+            correctionAdd("pendrive", "USB flash drive");
+            correctionAdd("USB drive", "USB flash drive");
+            correctionAdd("usb stick", "USB flash drive");
+            correctionAdd("thumbdrive", "USB flash drive");
+            correctionAdd("pen-drive", "USB flash drive");
+            correctionAdd("usb flash drive", "USB flash drive");
+            correctionAdd("Pendrive", "USB flash drive");
+
+            correctionAdd("USBlyser", "USBlyzer");
+
+            correctionAdd("micro-USB", "Micro-USB");
+            correctionAdd("micro USB", "Micro-USB");
+            correctionAdd("MicroB USB", "Micro-USB");
 
             correctionAdd("Slurm", "Slurm Workload Manager");
             correctionAdd("Simple Linux Utility for Resource Management", "Slurm Workload Manager");
@@ -3816,6 +3919,7 @@ namespace OverflowHelper.core
 
             correctionAdd("pythonic", "Pythonic");
             correctionAdd("pythononic", "Pythonic");
+            correctionAdd("pythonnic", "Pythonic");
 
             correctionAdd("pythonista", "Pythonista");
 
@@ -9557,6 +9661,7 @@ namespace OverflowHelper.core
             correctionAdd("nu", "by"); // A true typo! (observed in the wild)
             correctionAdd("byy", "by");
             correctionAdd("byb", "by");
+            correctionAdd("byu", "by");
 
             correctionAdd("where by", "whereby");
 
@@ -11127,6 +11232,8 @@ namespace OverflowHelper.core
             correctionAdd("ATmega 32u4", "ATmega32U4");
             correctionAdd("ATmega 32U4", "ATmega32U4");
             correctionAdd("Atmega32u4", "ATmega32U4");
+            correctionAdd("u32", "ATmega32U4");
+            correctionAdd("u4", "ATmega32U4");
 
             correctionAdd("Atmega16U2", "ATmega16U2");
             correctionAdd("ATMEGA16U2", "ATmega16U2");
@@ -11806,9 +11913,6 @@ namespace OverflowHelper.core
             correctionAdd("unfortunatily", "unfortunately");
 
             correctionAdd("fortunatly", "fortunately");
-
-            correctionAdd("usb", "USB");
-            correctionAdd("Usb", "USB");
 
             correctionAdd("Jqgrid", "jqGrid");
             correctionAdd("JQGrid", "jqGrid");
@@ -13416,6 +13520,16 @@ namespace OverflowHelper.core
             correctionAdd("FORTH", "Forth");
             correctionAdd("forth", "Forth");
 
+            correctionAdd("gforth", "Gforth");
+            correctionAdd("GForth", "Gforth");
+            correctionAdd("gForth", "Gforth");
+
+            // A Forth-like language
+            correctionAdd("BrainFuck", "Brainfuck");
+            correctionAdd("BRAINFUCK", "Brainfuck");
+            correctionAdd("BrainF***", "Brainfuck");
+            correctionAdd("Brainf***", "Brainfuck");
+
             correctionAdd("arg", "argument");
             correctionAdd("args", "argument"); // Not 100% correct - plural.
             correctionAdd("agurment", "argument");
@@ -14929,6 +15043,7 @@ namespace OverflowHelper.core
 
             correctionAdd("click bait", "clickbait");
             correctionAdd("Click bait", "clickbait");
+            correctionAdd("click-bait", "clickbait");
 
             correctionAdd("Ccleaner", "CCleaner");
             correctionAdd("ccleaner", "CCleaner");
@@ -16318,10 +16433,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ftdi", "FTDI");
 
-            correctionAdd("gforth", "Gforth");
-            correctionAdd("GForth", "Gforth");
-            correctionAdd("gForth", "Gforth");
-
+            // A Pascal implementation
             correctionAdd("lazarus", "Lazarus");
 
             correctionAdd("PASCAL", "Pascal");
@@ -16720,12 +16832,6 @@ namespace OverflowHelper.core
             correctionAdd("Codewarrior", "CodeWarrior");
 
             correctionAdd("GP", "Group Policy");
-
-            correctionAdd("Libusb", "libusb");
-            correctionAdd("libUsb", "libusb");
-            correctionAdd("LibUsb", "libusb");
-            correctionAdd("LibUSB", "libusb");
-            correctionAdd("LIBUSB", "libusb");
 
             correctionAdd("Load Runner", "LoadRunner");
 
@@ -17209,9 +17315,6 @@ namespace OverflowHelper.core
 
             correctionAdd("eprom", "EPROM");
             correctionAdd("Eprom", "EPROM");
-
-            correctionAdd("BrainFuck", "Brainfuck");
-            correctionAdd("BRAINFUCK", "Brainfuck");
 
             correctionAdd("Op Amps", "operational amplifier"); // Plural thing
             correctionAdd("op-amp", "operational amplifier"); // Expansion
@@ -21271,9 +21374,6 @@ namespace OverflowHelper.core
 
             correctionAdd("scpi", "SCPI");
 
-            correctionAdd("usbtmc", "USBTMC");
-            correctionAdd("USB TMC", "USBTMC");
-
             correctionAdd("inorder", "in order");
             correctionAdd("Inorder", "in order");
             correctionAdd("In-order", "in order");
@@ -22651,6 +22751,7 @@ namespace OverflowHelper.core
 
             correctionAdd("arxiv", "arXiv");
             correctionAdd("ArXiv", "arXiv");
+            correctionAdd("arkivx", "arXiv");
 
             correctionAdd("buddhist", "Buddhist");
 
@@ -24045,11 +24146,13 @@ namespace OverflowHelper.core
 
             correctionAdd("Coderush", "CodeRush");
 
+            // A text editor
             correctionAdd("geany", "Geany");
             correctionAdd("Geney", "Geany");
             correctionAdd("Geaney", "Geany");
             correctionAdd("Genea", "Geany");
             correctionAdd("geant", "Geany");
+            correctionAdd("Genay", "Geany");
 
             correctionAdd("germany", "Germany");
 
@@ -24095,10 +24198,6 @@ namespace OverflowHelper.core
             correctionAdd("VK", "VKontakte");
 
             correctionAdd("PortMon", "Portmon");
-
-            correctionAdd("OTG", "USB On-The-Go");
-            correctionAdd("USB-to-go", "USB On-The-Go");
-            correctionAdd("USB OTG", "USB On-The-Go");
 
             correctionAdd("asterix", "asterisk");
             correctionAdd("asteriscs", "asterisk");
@@ -25699,6 +25798,7 @@ namespace OverflowHelper.core
             correctionAdd("attribure", "attribute");
             correctionAdd("attr", "attribute");
             correctionAdd("atrribute", "attribute");
+            correctionAdd("atturibute", "attribute");
 
             correctionAdd("conjuction", "conjunction");
 
@@ -26299,24 +26399,6 @@ namespace OverflowHelper.core
 
             correctionAdd("pinta", "Pinta");
             correctionAdd("Pinto", "Pinta");
-
-            correctionAdd("USB memory", "USB flash drive");
-            correctionAdd("thum drive", "USB flash drive");
-            correctionAdd("thumb drive", "USB flash drive");
-            correctionAdd("thumb", "USB flash drive");
-            correctionAdd("pen drive", "USB flash drive");
-            correctionAdd("gig stick", "USB flash drive");
-            correctionAdd("flash stick", "USB flash drive");
-            correctionAdd("jump drive", "USB flash drive");
-            correctionAdd("memory stick", "USB flash drive");
-            correctionAdd("USB stick", "USB flash drive");
-            correctionAdd("pendrive", "USB flash drive");
-            correctionAdd("USB drive", "USB flash drive");
-            correctionAdd("usb stick", "USB flash drive");
-            correctionAdd("thumbdrive", "USB flash drive");
-            correctionAdd("pen-drive", "USB flash drive");
-            correctionAdd("usb flash drive", "USB flash drive");
-            correctionAdd("Pendrive", "USB flash drive");
 
             correctionAdd("counter part", "counterpart");
 
@@ -30523,8 +30605,6 @@ namespace OverflowHelper.core
             correctionAdd("Schwartzian Transform", "Schwartzian transform");
             correctionAdd("Schwarzian Transform", "Schwartzian transform");
 
-            correctionAdd("USBlyser", "USBlyzer");
-
             correctionAdd("fon", "font");
 
             correctionAdd("gprof", "Gprof");
@@ -30566,6 +30646,7 @@ namespace OverflowHelper.core
             correctionAdd("kinda", "kind of");
             correctionAdd("kind-of", "kind of");
             correctionAdd("kindof", "kind of");
+            correctionAdd("Kinda", "kind of");
 
             correctionAdd("sorta", "sort of");
 
@@ -33245,9 +33326,6 @@ namespace OverflowHelper.core
 
             correctionAdd("jesus", "Jesus");
 
-            correctionAdd("micro-USB", "Micro-USB");
-            correctionAdd("micro USB", "Micro-USB");
-
             correctionAdd("drys", "dries");
 
             correctionAdd("jealouzy", "jealousy");
@@ -33746,9 +33824,6 @@ namespace OverflowHelper.core
             correctionAdd("Google tag manager", "Google Tag Manager");
 
             correctionAdd("guru", "Guru");
-
-            correctionAdd("usb hub", "USB hub");
-            correctionAdd("USB Hub", "USB hub");
 
             correctionAdd("centimeter", "centimetre");
             correctionAdd("cm", "centimetre");
@@ -35191,9 +35266,6 @@ namespace OverflowHelper.core
 
             correctionAdd("second class", "second-class");
 
-            correctionAdd("usbc", "USB-C");
-            correctionAdd("usb-c", "USB-C");
-
             correctionAdd("acte", "act");
 
             correctionAdd("backonym", "backronym");
@@ -35270,6 +35342,7 @@ namespace OverflowHelper.core
             correctionAdd("thuimbnail", "thumbnail");
             correctionAdd("Thumnail", "thumbnail");
             correctionAdd("thumnail", "thumbnail");
+            correctionAdd("thumb nail", "thumbnail");
 
             correctionAdd("nih", "NIH");
 
@@ -35738,6 +35811,7 @@ namespace OverflowHelper.core
             correctionAdd("re-declare", "redeclare");
 
             correctionAdd("re-initiliaze", "reinitialise");
+            correctionAdd("reinit", "reinitialise");
 
             correctionAdd("spedifies", "specifies");
 
@@ -36191,8 +36265,6 @@ namespace OverflowHelper.core
 
             correctionAdd("un-tick", "untick");
 
-            correctionAdd("pyusb", "PyUSB");
-
             correctionAdd("airconditiong", "air conditioning");
             correctionAdd("air-con", "air conditioning");
             correctionAdd("air-conditioning", "air conditioning");
@@ -36242,13 +36314,6 @@ namespace OverflowHelper.core
 
             correctionAdd("sram", "SRAM");
 
-            correctionAdd("USB3", "USB&nbsp;3.0");
-            correctionAdd("usb 3", "USB&nbsp;3.0");
-            correctionAdd("usb3", "USB&nbsp;3.0");
-            correctionAdd("usb 3.0", "USB&nbsp;3.0");
-            correctionAdd("USB 3", "USB&nbsp;3.0");
-            correctionAdd("USB 3.0", "USB&nbsp;3.0");
-
             correctionAdd("artisitcally", "artistically");
 
             correctionAdd("american", "American");
@@ -36283,17 +36348,6 @@ namespace OverflowHelper.core
             correctionAdd("Shebang", "shebang");
             correctionAdd("she-bang", "shebang");
             correctionAdd("she bang", "shebang");
-
-            correctionAdd("uSB2", "USB&nbsp;2.0");
-            correctionAdd("USB2", "USB&nbsp;2.0");
-            correctionAdd("usb 2.0", "USB&nbsp;2.0");
-            correctionAdd("USB 2", "USB&nbsp;2.0");
-            correctionAdd("USB 2.0", "USB&nbsp;2.0");
-            correctionAdd("USB HB", "USB&nbsp;2.0");
-            correctionAdd("USB HS", "USB&nbsp;2.0");
-            correctionAdd("USB High Bandwidth", "USB&nbsp;2.0");
-            correctionAdd("USB High Speed", "USB&nbsp;2.0");
-            correctionAdd("High-Speed", "USB&nbsp;2.0");
 
             correctionAdd("non destructively", "nondestructively");
 
@@ -40648,9 +40702,6 @@ namespace OverflowHelper.core
             correctionAdd("Quinoline yellow", "Quinoline Yellow SS");
             correctionAdd("quinoline yellow", "Quinoline Yellow SS");
 
-            correctionAdd("Power Delivery", "USB power delivery");
-            correctionAdd("USB Power Delivery", "USB power delivery");
-
             correctionAdd("best case scenario", "best-case scenario");
 
             correctionAdd("commision", "commission");
@@ -40968,9 +41019,6 @@ namespace OverflowHelper.core
             correctionAdd("URP", "Universal Render Pipeline");
 
             correctionAdd("busses", "buses");
-
-            correctionAdd("LSUSB", "lsusb");
-            correctionAdd("lsub", "lsusb");
 
             correctionAdd("awail", "no avail");
             correctionAdd("no awail", "no avail");
@@ -42492,9 +42540,6 @@ namespace OverflowHelper.core
             correctionAdd("sand", "Optimizing for pearls, not sand");
             correctionAdd("pearls", "Optimizing for pearls, not sand");
 
-            correctionAdd("USBASP", "USBasp");
-            correctionAdd("usbasp", "USBasp");
-
             correctionAdd("canonalised", "canonised");
 
             correctionAdd("counseling", "counselling");
@@ -42638,6 +42683,8 @@ namespace OverflowHelper.core
 
             correctionAdd("capitaliation", "capitalisation");
             correctionAdd("capatalisation", "capitalisation");
+            correctionAdd("cApitAliasTIon", "capitalisation");
+            correctionAdd("capitaliastion", "capitalisation");
 
             correctionAdd("In Dubio Pro Reo", "in dubio pro reo");
 
@@ -42824,6 +42871,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Psychic debugging", "psychic debugging");
             correctionAdd("psyc debugging", "psychic debugging");
+            correctionAdd("phychic debugging", "psychic debugging");
 
             correctionAdd("inconditionally", "unconditionally");
             correctionAdd("Unconditionnaly", "unconditionally");
@@ -44002,14 +44050,6 @@ namespace OverflowHelper.core
             correctionAdd("Staging ground", "Staging Ground");
             correctionAdd("staging ground", "Staging Ground");
 
-            correctionAdd("usb 1.x", "USB 1.x");
-            correctionAdd("USB1", "USB 1.x");
-            correctionAdd("USB FS", "USB 1.x");
-            correctionAdd("USB Full Speed", "USB 1.x");
-            correctionAdd("USB LS", "USB 1.x");
-            correctionAdd("USB Low Speed", "USB 1.x");
-            correctionAdd("Low-Speed", "USB 1.x");
-
             correctionAdd("clue-less", "clueless");
 
             correctionAdd("pre-fill", "prefill");
@@ -44288,8 +44328,6 @@ namespace OverflowHelper.core
             correctionAdd("GST", "Goods and Services Tax");
 
             correctionAdd("the verge", "The Verge");
-
-            correctionAdd("v-usb", "V-USB");
 
             correctionAdd("conector", "connector");
 
@@ -45015,9 +45053,6 @@ namespace OverflowHelper.core
             correctionAdd("DEC", "Digital Equipment Corporation");
 
             correctionAdd("Ryzen 3950x", "Ryzen 3950X");
-
-            correctionAdd("Type A", "USB type-A plug");
-            correctionAdd("USB Type-A", "USB type-A plug");
 
             correctionAdd("Laissez-Faire Capitalism", "laissez-faire capitalism");
 
@@ -46431,12 +46466,8 @@ namespace OverflowHelper.core
 
             correctionAdd("linus tech tips", "Linus Tech Tips");
 
-            correctionAdd("MUTT", "Microsoft USB Test Tool");
-
             correctionAdd("Technical Reference Manual", "technical reference manual");
             correctionAdd("TRM", "technical reference manual");
-
-            correctionAdd("URB", "USB Request Block");
 
             correctionAdd("valhalla", "Valhalla");
             correctionAdd("Walhalla", "Valhalla");
@@ -46878,16 +46909,6 @@ namespace OverflowHelper.core
             correctionAdd("hackrf", "HackRF");
 
             correctionAdd("Hashlib", "hashlib");
-
-            correctionAdd("USB 2.0 Low-Pin Interface", "ULPI");
-            correctionAdd("UTMI+ Low Pin Interface", "ULPI");
-            correctionAdd("UTMI+ Low-Pin Interface", "ULPI");
-            correctionAdd("UTMI+ low pin interface", "ULPI");
-            correctionAdd("UTMI+ low-pin interface", "ULPI");
-
-            correctionAdd("USB transceiver macrocell interface", "UTMI");
-            correctionAdd("USB 2.0 Transceiver Macrocell Interface", "UTMI");
-            correctionAdd("USB Transceiver Macrocell Interface", "UTMI");
 
             correctionAdd("MIR", "mid-level intermediate representation");
             correctionAdd("Mid-level IR", "mid-level intermediate representation");
@@ -48421,6 +48442,7 @@ namespace OverflowHelper.core
             correctionAdd("tendermint", "Tendermint");
 
             correctionAdd("sux", "sucks");
+            correctionAdd("suxx", "sucks");
 
             correctionAdd("Ammo", "ammunition");
             correctionAdd("ammo", "ammunition");
@@ -48738,6 +48760,35 @@ namespace OverflowHelper.core
             correctionAdd("cynikal", "cynical");
 
             correctionAdd("intoksication", "intoxication");
+
+            correctionAdd("as-is", "as is");
+
+            correctionAdd("havier", "heavier");
+
+            correctionAdd("Presumably", "presumably");
+
+            correctionAdd("Mystic Square", "15 puzzle");
+            correctionAdd("15 Puzzle", "15 puzzle");
+            correctionAdd("Boss Puzzle", "15 puzzle");
+            correctionAdd("Game of Fifteen", "15 puzzle");
+            correctionAdd("Gem Puzzle", "15 puzzle");
+
+            correctionAdd("mission accomplished", "AI responses");
+            correctionAdd("Mission. Fucking. Accomplished", "AI responses");
+            correctionAdd("mission fucking accomplished", "AI responses");
+
+            correctionAdd("dog pile", "dogpile");
+
+            correctionAdd("Educatedness", "educatedness");
+
+            correctionAdd("Generative AI", "generative AI");
+
+            correctionAdd("Imagemagick.Net", "Magick.NET");
+            correctionAdd("Magick.Net", "Magick.NET");
+
+            correctionAdd("thought provoking", "thought-provoking");
+
+            correctionAdd("weird cap", "weird capitalisation");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -76223,6 +76274,28 @@ namespace OverflowHelper.core
 
             URL_Add("Nodirbek Abdusattorov", "https://en.wikipedia.org/wiki/Nodirbek_Abdusattorov");
 
+            URL_Add("as is", "https://en.wiktionary.org/wiki/as_is#Adjective");
+
+            URL_Add("heavier", "https://en.wiktionary.org/wiki/heavier#Adjective");
+
+            URL_Add("presumably", "https://en.wiktionary.org/wiki/presumably#Adverb");
+
+            URL_Add("15 puzzle", "https://en.wikipedia.org/wiki/15_puzzle");
+
+            URL_Add("AI responses", "https://www.explainxkcd.com/wiki/index.php/810:_Constructive");
+
+            URL_Add("dogpile", "https://en.wiktionary.org/wiki/dogpile#Verb");
+
+            URL_Add("educatedness", "https://en.wiktionary.org/wiki/educatedness#Noun");
+
+            URL_Add("generative AI", "https://www.insidehighered.com/blogs/higher-ed-gamma/chatgpt-threat-or-menace");
+
+            URL_Add("Magick.NET", "https://github.com/dlemstra/Magick.NET");
+
+            URL_Add("thought-provoking", "https://en.wiktionary.org/wiki/thought-provoking#Adjective");
+
+            URL_Add("weird capitalisation", "https://www.youtube.com/watch?v=Ln1qbgZz_TQ&t=15m48s");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -78115,6 +78188,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Top_", "top_");
 
+            // A Python library
             correctionAdd("AST_", "ast_");
 
             correctionAdd("nuget_", "nuggets_");
