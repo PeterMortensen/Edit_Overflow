@@ -2830,6 +2830,7 @@ namespace OverflowHelper.core
 
             correctionAdd("jp.SO", "スタック・オーバーフロー (Stack Exchange site)");
             correctionAdd("SO.jp", "スタック・オーバーフロー (Stack Exchange site)");
+            correctionAdd("SOja", "スタック・オーバーフロー (Stack Exchange site)");
 
             correctionAdd("SOes", "Stack Overflow en español (Stack Exchange site)");
             correctionAdd("Stack Overflow en español", "Stack Overflow en español (Stack Exchange site)"); // Sort of identity mapping
@@ -4060,6 +4061,11 @@ namespace OverflowHelper.core
             correctionAdd("os.path.join()", "os.path.join"); // Python
 
             correctionAdd(".format()", ".format"); // Python function
+
+            correctionAdd("foramt", "format");
+            correctionAdd("formate", "format");
+            correctionAdd("foramat", "format");
+            correctionAdd("dormat", "format");
 
             correctionAdd("offest", "offset");
 
@@ -7681,6 +7687,7 @@ namespace OverflowHelper.core
             correctionAdd("U+2212", "MINUS SIGN");
 
             correctionAdd("U+00A0", "NO-BREAK SPACE");
+            correctionAdd("NO BREAK SPACE", "NO-BREAK SPACE");
 
             correctionAdd("U+FFFD", "REPLACEMENT CHARACTER");
 
@@ -12787,6 +12794,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Software Engineer", "software engineer");
             correctionAdd("SWE", "software engineer");
+            correctionAdd("swe", "software engineer");
 
             correctionAdd("Software Engineering", "software engineering");
             correctionAdd("softwareengineering", "software engineering");
@@ -21387,6 +21395,9 @@ namespace OverflowHelper.core
             correctionAdd("high-res", "high-resolution");
             correctionAdd("high res", "high-resolution");
 
+            correctionAdd("res", "resolution");
+            correctionAdd("resloution", "resolution");
+
             correctionAdd("soltuion", "solution");
             correctionAdd("sollution", "solution");
             correctionAdd("Soloution", "solution");
@@ -22012,6 +22023,7 @@ namespace OverflowHelper.core
             correctionAdd("heght", "height");
             correctionAdd("heigth", "height");
             correctionAdd("Height", "height");
+            correctionAdd("Heigh", "height");
 
             correctionAdd("malcious", "malicious");
             correctionAdd("malicicios", "malicious");
@@ -22416,8 +22428,6 @@ namespace OverflowHelper.core
             correctionAdd("elsewise", "otherwise");
             correctionAdd("ohterwise", "otherwise");
             correctionAdd("Other wise", "otherwise");
-
-            correctionAdd("res", "resolution");
 
             correctionAdd("scrollbar", "scroll bar");
             correctionAdd("scroll-bar", "scroll bar");
@@ -24265,6 +24275,7 @@ namespace OverflowHelper.core
             correctionAdd("qutation", "quotation");
 
             correctionAdd("arial", "Arial");
+            correctionAdd("Arial font", "Arial");
 
             correctionAdd("Coderush", "CodeRush");
 
@@ -25631,10 +25642,6 @@ namespace OverflowHelper.core
             correctionAdd("followup", "follow-up");
             correctionAdd("foĺlow-up", "follow-up");
 
-            correctionAdd("foramt", "format");
-            correctionAdd("formate", "format");
-            correctionAdd("foramat", "format");
-
             correctionAdd("in layman's language", "in layman's terms");
             correctionAdd("in laymans terms", "in layman's terms");
             correctionAdd("laymans terms", "in layman's terms");
@@ -25798,11 +25805,15 @@ namespace OverflowHelper.core
 
             correctionAdd("Wall Of Text", "wall of text");
 
+            // Windows software to operate keyboards independently
+            // (e.g., for a software-only solution for macro
+            // keyboards)
             correctionAdd("HIDMacros", "HID Macros");
             correctionAdd("hid macros", "HID Macros");
             correctionAdd("HidMacros", "HID Macros");
             correctionAdd("HIDmacros", "HID Macros");
             correctionAdd("HID macros", "HID Macros");
+            correctionAdd("HIODMacros", "HID Macros");
 
             correctionAdd("Gitkraken", "GitKraken");
             correctionAdd("gitkraken", "GitKraken");
@@ -26004,6 +26015,7 @@ namespace OverflowHelper.core
             correctionAdd("regocnize", "recognise");
             correctionAdd("regconize", "recognise");
             correctionAdd("reconize", "recognise");
+            correctionAdd("reconigze", "recognise");
 
             correctionAdd("repeatation", "repetition");
             correctionAdd("repetiton", "repetition");
@@ -26738,6 +26750,7 @@ namespace OverflowHelper.core
             correctionAdd("Uni", "university");
             correctionAdd("univercity", "university");
             correctionAdd("uneversity", "university");
+            correctionAdd("univeristy", "university");
 
             correctionAdd("emphasizing", "emphasising");
 
@@ -35364,6 +35377,7 @@ namespace OverflowHelper.core
             correctionAdd("leval", "level");
 
             correctionAdd("natral", "natural");
+            correctionAdd("netural", "natural");
 
             correctionAdd("obviouse", "obvious");
             correctionAdd("obv", "obvious");
@@ -37317,6 +37331,7 @@ namespace OverflowHelper.core
             correctionAdd("google sheet", "Google Sheets");
             correctionAdd("Google Sheet", "Google Sheets");
             correctionAdd("goolge sheet", "Google Sheets");
+            correctionAdd("Google sheets", "Google Sheets");
 
             correctionAdd("Above", "above");
 
@@ -37629,6 +37644,7 @@ namespace OverflowHelper.core
             correctionAdd("captialize", "capitalise");
             correctionAdd("capitialize", "capitalise");
             correctionAdd("caps", "capitalise");
+            correctionAdd("capitolize", "capitalise");
 
             correctionAdd("feel good", "feel-good");
 
@@ -40504,6 +40520,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Has", "has");
             correctionAdd("ahs", "has");
+            correctionAdd("hase", "has");
 
             correctionAdd("lit", "literature");
 
@@ -43953,6 +43970,7 @@ namespace OverflowHelper.core
             correctionAdd("oppinnion", "opinion");
             correctionAdd("opinnion", "opinion");
             correctionAdd("opion", "opinion");
+            correctionAdd("oppinion", "opinion");
 
             correctionAdd("my HO", "in my honest opinion");
             correctionAdd("HO", "in my honest opinion");
@@ -48801,6 +48819,7 @@ namespace OverflowHelper.core
             correctionAdd("Boss Puzzle", "15 puzzle");
             correctionAdd("Game of Fifteen", "15 puzzle");
             correctionAdd("Gem Puzzle", "15 puzzle");
+            correctionAdd("15-Puzzle", "15 puzzle");
 
             correctionAdd("dog pile", "dogpile");
 
@@ -48810,6 +48829,8 @@ namespace OverflowHelper.core
 
             // Related to YouTube, etc.
             correctionAdd("weird cap", "weird capitalisation");
+
+            correctionAdd("MS fly simulator", "Microsoft Flight Simulator");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -76316,6 +76337,8 @@ namespace OverflowHelper.core
             URL_Add("thought-provoking", "https://en.wiktionary.org/wiki/thought-provoking#Adjective");
 
             URL_Add("weird capitalisation", "https://www.youtube.com/watch?v=Ln1qbgZz_TQ&t=15m48s");
+
+            URL_Add("Microsoft Flight Simulator", "https://en.wikipedia.org/wiki/Microsoft_Flight_Simulator");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
