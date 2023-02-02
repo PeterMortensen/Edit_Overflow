@@ -1183,89 +1183,6 @@ namespace OverflowHelper.core
 
             correctionAdd("AT", "at");
 
-            correctionAdd("atom", "Atom");
-            correctionAdd("ATOM", "Atom");
-
-            correctionAdd("electron", "Electron");
-            correctionAdd("electronjs", "Electron");
-            correctionAdd("electron.js", "Electron");
-            correctionAdd("Electron.js", "Electron");
-            correctionAdd("Electron JS", "Electron");
-            correctionAdd("ElectronJS", "Electron");
-            correctionAdd("Electronjs", "Electron");
-            correctionAdd("electorn", "Electron");
-
-            correctionAdd("selenium", "Selenium");
-            correctionAdd("seleium", "Selenium");
-
-            correctionAdd("Selenium RC", "Selenium Remote Control");
-
-            correctionAdd("selenium-webdriver", "Selenium WebDriver");
-            correctionAdd("Selenium-Webdriver", "Selenium WebDriver");
-            correctionAdd("Selenium-webdriver", "Selenium WebDriver");
-            correctionAdd("Selenium Webdriver", "Selenium WebDriver");
-            correctionAdd("selenium webdriver", "Selenium WebDriver");
-            correctionAdd("selenium web driver", "Selenium WebDriver");
-            correctionAdd("Selenium webdriver", "Selenium WebDriver");
-            correctionAdd("Selenium Web Driver", "Selenium WebDriver");
-            correctionAdd("webdriver", "Selenium WebDriver");
-            correctionAdd("WebDriver", "Selenium WebDriver");
-            correctionAdd("webDriver", "Selenium WebDriver");
-            correctionAdd("selenium WebDriver", "Selenium WebDriver");
-            correctionAdd("Selenium-WebDriver", "Selenium WebDriver");
-            correctionAdd("Selenium web-driver", "Selenium WebDriver");
-            correctionAdd("Selenium WD", "Selenium WebDriver");
-            correctionAdd("Selenium web driver", "Selenium WebDriver");
-            correctionAdd("Selenium webdriers", "Selenium WebDriver");
-            correctionAdd("selenium webdriers", "Selenium WebDriver");
-            correctionAdd("selenium driver", "Selenium WebDriver");
-
-            correctionAdd("IoC", "inversion of control"); // Expansion.
-            correctionAdd("IOC", "inversion of control"); // Expansion. And correction.
-            correctionAdd("Ioc", "inversion of control");
-            correctionAdd("Invesion of Control", "inversion of control");
-            correctionAdd("Inversion of Control", "inversion of control");
-            correctionAdd("inversion Of control", "inversion of control");
-            correctionAdd("ioc", "inversion of control");
-
-            correctionAdd("UAC", "User Account Control");
-            correctionAdd("uac", "User Account Control");
-
-            // Other: "distributed version control", "decentralized version control"
-            correctionAdd("DVCS", "distributed revision control"); // Expansion, actually "distributed version control system"
-            correctionAdd("DRCS", "distributed revision control"); // Expansion, actually "distributed revision control system"
-            correctionAdd("distributed version control system", "distributed revision control");
-            correctionAdd("distributed revision control system", "distributed revision control");
-            correctionAdd("Distributed revision control", "distributed revision control");
-
-            correctionAdd("controll", "control");
-            correctionAdd("contol", "control");
-            correctionAdd("cotnrol", "control");
-
-            correctionAdd("MPC", "model predictive control");
-
-            correctionAdd("TFVC", "Team Foundation Version Control");
-
-            correctionAdd("debezium", "Debezium");
-
-            correctionAdd("pentium", "Pentium");
-
-            correctionAdd("P5 pentium", "P5");
-            correctionAdd("P5 Pentium", "P5");
-
-            correctionAdd("P6 pentium", "P6");
-            correctionAdd("P6 Pentium", "P6");
-
-            correctionAdd("Pentium III", "Pentium&nbsp;III");
-            correctionAdd("Pentium 3", "Pentium&nbsp;III");
-            correctionAdd("PentiumIII", "Pentium&nbsp;III");
-
-            correctionAdd("itanium", "Itanium");
-
-            correctionAdd("codium", "VSCodium");
-            correctionAdd("Codium", "VSCodium");
-            correctionAdd("vscodium", "VSCodium");
-
             correctionAdd("lipo", "lithium polymer");
             correctionAdd("Li-Po", "lithium polymer");
             correctionAdd("li-po", "lithium polymer");
@@ -1309,7 +1226,24 @@ namespace OverflowHelper.core
 
             correctionAdd("Potassium", "potassium");
 
+            correctionAdd("Potassium-40", "potassium-40");
+
+            correctionAdd("Thorium", "thorium");
+
             correctionAdd("thorium 232", "thorium-233");
+
+            correctionAdd("Uranium", "uranium");
+            correctionAdd("U", "uranium");
+
+            correctionAdd("U-235", "uranium-235");
+            correctionAdd("U 235", "uranium-235");
+            correctionAdd("235 U", "uranium-235");
+            correctionAdd("Uranium-235", "uranium-235");
+
+            correctionAdd("Uranium-238", "uranium-238");
+
+            correctionAdd("Plutonium", "plutonium");
+            correctionAdd("Pu", "plutonium");
 
             correctionAdd("Pu-239", "plutonium-239");
             correctionAdd("239 Pu", "plutonium-239");
@@ -1317,11 +1251,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Sr-94", "strontium-94");
             correctionAdd("Sr 94", "strontium-94");
-
-            correctionAdd("U-235", "uranium-235");
-            correctionAdd("U 235", "uranium-235");
-            correctionAdd("235 U", "uranium-235");
-            correctionAdd("Uranium-235", "uranium-235");
 
             correctionAdd("Xe-133", "xenon-133");
 
@@ -1338,14 +1267,6 @@ namespace OverflowHelper.core
             correctionAdd("Yb", "ytterbium");
 
             correctionAdd("Tritium", "tritium");
-
-            correctionAdd("Plutonium", "plutonium");
-            correctionAdd("Pu", "plutonium");
-
-            correctionAdd("Thorium", "thorium");
-
-            correctionAdd("Uranium", "uranium");
-            correctionAdd("U", "uranium");
 
             correctionAdd("Helium", "helium");
             correctionAdd("He", "helium");
@@ -1422,6 +1343,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Osmium", "osmium");
 
+            correctionAdd("Americium-241", "americium-241");
+
             correctionAdd("NaCl", "sodium chloride");
             correctionAdd("salt", "sodium chloride");
             correctionAdd("Soidum Chloride", "sodium chloride");
@@ -1444,6 +1367,186 @@ namespace OverflowHelper.core
             correctionAdd("Calcium phosphate", "calcium phosphate");
 
             correctionAdd("Potassium Chloride", "potassium chloride");
+
+            correctionAdd("Potassium Carbonate", "potassium carbonate");
+
+            correctionAdd("Potassium Hydroxide", "potassium hydroxide");
+
+            // A text editor
+            correctionAdd("atom", "Atom");
+            correctionAdd("ATOM", "Atom");
+
+            // A software framework for creating desktop applications
+            correctionAdd("electron", "Electron");
+            correctionAdd("electronjs", "Electron");
+            correctionAdd("electron.js", "Electron");
+            correctionAdd("Electron.js", "Electron");
+            correctionAdd("Electron JS", "Electron");
+            correctionAdd("ElectronJS", "Electron");
+            correctionAdd("Electronjs", "Electron");
+            correctionAdd("electorn", "Electron");
+
+            // A software testing tool for web browsers / web sites
+            correctionAdd("selenium", "Selenium");
+            correctionAdd("seleium", "Selenium");
+
+            correctionAdd("Selenium RC", "Selenium Remote Control");
+
+            correctionAdd("selenium-webdriver", "Selenium WebDriver");
+            correctionAdd("Selenium-Webdriver", "Selenium WebDriver");
+            correctionAdd("Selenium-webdriver", "Selenium WebDriver");
+            correctionAdd("Selenium Webdriver", "Selenium WebDriver");
+            correctionAdd("selenium webdriver", "Selenium WebDriver");
+            correctionAdd("selenium web driver", "Selenium WebDriver");
+            correctionAdd("Selenium webdriver", "Selenium WebDriver");
+            correctionAdd("Selenium Web Driver", "Selenium WebDriver");
+            correctionAdd("webdriver", "Selenium WebDriver");
+            correctionAdd("WebDriver", "Selenium WebDriver");
+            correctionAdd("webDriver", "Selenium WebDriver");
+            correctionAdd("selenium WebDriver", "Selenium WebDriver");
+            correctionAdd("Selenium-WebDriver", "Selenium WebDriver");
+            correctionAdd("Selenium web-driver", "Selenium WebDriver");
+            correctionAdd("Selenium WD", "Selenium WebDriver");
+            correctionAdd("Selenium web driver", "Selenium WebDriver");
+            correctionAdd("Selenium webdriers", "Selenium WebDriver");
+            correctionAdd("selenium webdriers", "Selenium WebDriver");
+            correctionAdd("selenium driver", "Selenium WebDriver");
+
+            correctionAdd("Chromedriver", "Selenium ChromeDriver");
+            correctionAdd("ChromeDriver", "Selenium ChromeDriver");
+            correctionAdd("Selenium Chromedriver", "Selenium ChromeDriver");
+            correctionAdd("chromedriver", "Selenium ChromeDriver");
+
+            correctionAdd("selenium IDE", "Selenium IDE");
+
+            correctionAdd("trapezoid rule", "trapezoidal rule");
+            correctionAdd("Trapezium rule", "trapezoidal rule");
+            correctionAdd("trapezium rule", "trapezoidal rule");
+            correctionAdd("trap", "trapezoidal rule");
+
+            correctionAdd("debezium", "Debezium");
+
+            correctionAdd("pentium", "Pentium");
+
+            correctionAdd("P5 pentium", "P5");
+            correctionAdd("P5 Pentium", "P5");
+
+            correctionAdd("P6 pentium", "P6");
+            correctionAdd("P6 Pentium", "P6");
+
+            correctionAdd("Pentium III", "Pentium&nbsp;III");
+            correctionAdd("Pentium 3", "Pentium&nbsp;III");
+            correctionAdd("PentiumIII", "Pentium&nbsp;III");
+
+            correctionAdd("itanium", "Itanium");
+
+            correctionAdd("codium", "VSCodium");
+            correctionAdd("Codium", "VSCodium");
+            correctionAdd("vscodium", "VSCodium");
+
+            correctionAdd("min", "minimum");
+            correctionAdd("minmal", "minimum");
+            correctionAdd("minium", "minimum");
+            correctionAdd("mininum", "minimum");
+            correctionAdd("minumum", "minimum");
+            correctionAdd("MINIMUM", "minimum");
+            correctionAdd("minimu", "minimum");
+            correctionAdd("Min", "minimum");
+            correctionAdd("minimun", "minimum");
+            correctionAdd("minim", "minimum");
+
+            correctionAdd("max", "maximum");
+            correctionAdd("maxium", "maximum");
+            correctionAdd("Max", "maximum");
+            correctionAdd("Max imam", "maximum");
+            correctionAdd("max imam", "maximum");
+            correctionAdd("Maximam", "maximum");
+            correctionAdd("maximam", "maximum");
+            correctionAdd("maximun", "maximum");
+            correctionAdd("Maximun", "maximum");
+
+            correctionAdd("Beligum", "Belgium");
+            correctionAdd("beligum", "Belgium");
+
+            correctionAdd("ethereum", "Ethereum");
+            correctionAdd("Etherium", "Ethereum");
+            correctionAdd("Ethereuem", "Ethereum");
+            correctionAdd("etherium", "Ethereum");
+            correctionAdd("Etherum", "Ethereum");
+
+            correctionAdd("medium", "Medium");
+
+            correctionAdd("chromium", "Chromium");
+            correctionAdd("chrom(ium)", "Chromium");
+            correctionAdd("Chrom(ium)", "Chromium");
+
+            correctionAdd("ungoogled chromium", "ungoogled-chromium");
+
+            correctionAdd("equilibrum", "equilibrium");
+            correctionAdd("equlibrium", "equilibrium");
+
+            correctionAdd("ad homium", "ad hominem");
+            correctionAdd("ad hominum", "ad hominem");
+            correctionAdd("ad honium", "ad hominem");
+            correctionAdd("adhoniem attack", "ad hominem");
+            correctionAdd("adhominem", "ad hominem");
+
+            correctionAdd("criterium", "criterion");
+
+            correctionAdd("non-equilibrium", "nonequilibrium");
+            correctionAdd("non-equlibrium", "nonequilibrium");
+
+            correctionAdd("medium sized", "medium-sized");
+            correctionAdd("medium-size", "medium-sized");
+
+            correctionAdd("w3", "W3C");
+            correctionAdd("w3c", "W3C");
+            correctionAdd("W3c", "W3C");
+            correctionAdd("W3", "W3C");
+            correctionAdd("w3C", "W3C");
+            correctionAdd("Wide Web Consortium", "W3C");
+            correctionAdd("World Wide Web Consortium", "W3C");
+            correctionAdd("w3c org", "W3C");
+
+            correctionAdd("Cavium ThunderX", "ThunderX (Cavium)");
+            correctionAdd("ThunderX", "ThunderX (Cavium)");
+            correctionAdd("Cavium", "ThunderX (Cavium)");
+            correctionAdd("Thunder X", "ThunderX (Cavium)");
+            correctionAdd("Cavium Thunder X", "ThunderX (Cavium)");
+
+            // A YouTube channel by said
+            //
+            // Sample:
+            //   <https://www.youtube.com/watch?v=oI_X2cMHNe0>
+            //     How electricity actually works
+            //
+            correctionAdd("Veritasium", "Derek Muller");
+
+            correctionAdd("IoC", "inversion of control"); // Expansion.
+            correctionAdd("IOC", "inversion of control"); // Expansion. And correction.
+            correctionAdd("Ioc", "inversion of control");
+            correctionAdd("Invesion of Control", "inversion of control");
+            correctionAdd("Inversion of Control", "inversion of control");
+            correctionAdd("inversion Of control", "inversion of control");
+            correctionAdd("ioc", "inversion of control");
+
+            correctionAdd("UAC", "User Account Control");
+            correctionAdd("uac", "User Account Control");
+
+            // Other: "distributed version control", "decentralized version control"
+            correctionAdd("DVCS", "distributed revision control"); // Expansion, actually "distributed version control system"
+            correctionAdd("DRCS", "distributed revision control"); // Expansion, actually "distributed revision control system"
+            correctionAdd("distributed version control system", "distributed revision control");
+            correctionAdd("distributed revision control system", "distributed revision control");
+            correctionAdd("Distributed revision control", "distributed revision control");
+
+            correctionAdd("controll", "control");
+            correctionAdd("contol", "control");
+            correctionAdd("cotnrol", "control");
+
+            correctionAdd("MPC", "model predictive control");
+
+            correctionAdd("TFVC", "Team Foundation Version Control");
 
             correctionAdd("Openstreetmap", "OpenStreetMap");
             correctionAdd("openstreetmap", "OpenStreetMap");
@@ -2827,6 +2930,7 @@ namespace OverflowHelper.core
             correctionAdd("RU.SE", "Stack Overflow на русском (Stack Exchange site)");
             correctionAdd("RU.se", "Stack Overflow на русском (Stack Exchange site)");
             correctionAdd("Russian site", "Stack Overflow на русском (Stack Exchange site)");
+            correctionAdd("ruSO", "Stack Overflow на русском (Stack Exchange site)");
 
             correctionAdd("jp.SO", "スタック・オーバーフロー (Stack Exchange site)");
             correctionAdd("SO.jp", "スタック・オーバーフロー (Stack Exchange site)");
@@ -2844,6 +2948,7 @@ namespace OverflowHelper.core
             correctionAdd("SO.es", "Stack Overflow en español (Stack Exchange site)");
             correctionAdd("es.stack", "Stack Overflow en español (Stack Exchange site)");
             correctionAdd("Stack Overflow en Espanol", "Stack Overflow en español (Stack Exchange site)");
+            correctionAdd("esSO", "Stack Overflow en español (Stack Exchange site)");
 
             correctionAdd("SOPT", "Stack Overflow em Português");
             correctionAdd("SOpt", "Stack Overflow em Português");
@@ -3177,6 +3282,7 @@ namespace OverflowHelper.core
             correctionAdd("maths Stack Exchange site", "Mathematics (Stack Exchange site)");
             correctionAdd("math-stack", "Mathematics (Stack Exchange site)");
             correctionAdd("math.stackexchange.com", "Mathematics (Stack Exchange site)");
+            correctionAdd("StackExhange.Math", "Mathematics (Stack Exchange site)");
 
             correctionAdd("pets", "Pets (Stack Exchange site)");
             correctionAdd("Pets", "Pets (Stack Exchange site)");
@@ -3810,6 +3916,10 @@ namespace OverflowHelper.core
             correctionAdd("trim", "trim()"); // PHP function
 
             correctionAdd("array_chunk", "array_chunk()"); // PHP function
+
+            correctionAdd("bind_param", "bind_param()"); // PHP function
+
+            correctionAdd("call_user_func_array", "call_user_func_array()"); // PHP function
 
             correctionAdd("python", "Python");
             correctionAdd("PYTHON", "Python");
@@ -9345,6 +9455,7 @@ namespace OverflowHelper.core
             correctionAdd("dll-file", "DLL file");
             correctionAdd("Dynamic Link Library", "DLL file");
             correctionAdd("DLLS", "DLL file");
+            correctionAdd("dlls", "DLL file");
 
             correctionAdd("hosts", "hosts file");
             correctionAdd("host file", "hosts file");
@@ -12203,70 +12314,6 @@ namespace OverflowHelper.core
             correctionAdd("non legitimate", "nonlegitimate");
 
             correctionAdd("px", "pixels"); // Expansion, not case correction.
-
-            correctionAdd("min", "minimum");
-            correctionAdd("minmal", "minimum");
-            correctionAdd("minium", "minimum");
-            correctionAdd("mininum", "minimum");
-            correctionAdd("minumum", "minimum");
-            correctionAdd("MINIMUM", "minimum");
-            correctionAdd("minimu", "minimum");
-            correctionAdd("Min", "minimum");
-            correctionAdd("minimun", "minimum");
-            correctionAdd("minim", "minimum");
-
-            correctionAdd("max", "maximum");
-            correctionAdd("maxium", "maximum");
-            correctionAdd("Max", "maximum");
-            correctionAdd("Max imam", "maximum");
-            correctionAdd("max imam", "maximum");
-            correctionAdd("Maximam", "maximum");
-            correctionAdd("maximam", "maximum");
-            correctionAdd("maximun", "maximum");
-            correctionAdd("Maximun", "maximum");
-
-            correctionAdd("Beligum", "Belgium");
-            correctionAdd("beligum", "Belgium");
-
-            correctionAdd("ethereum", "Ethereum");
-            correctionAdd("Etherium", "Ethereum");
-            correctionAdd("Ethereuem", "Ethereum");
-            correctionAdd("etherium", "Ethereum");
-            correctionAdd("Etherum", "Ethereum");
-
-            correctionAdd("medium", "Medium");
-
-            correctionAdd("chromium", "Chromium");
-            correctionAdd("chrom(ium)", "Chromium");
-            correctionAdd("Chrom(ium)", "Chromium");
-
-            correctionAdd("ungoogled chromium", "ungoogled-chromium");
-
-            correctionAdd("equilibrum", "equilibrium");
-            correctionAdd("equlibrium", "equilibrium");
-
-            correctionAdd("ad homium", "ad hominem");
-            correctionAdd("ad hominum", "ad hominem");
-            correctionAdd("ad honium", "ad hominem");
-            correctionAdd("adhoniem attack", "ad hominem");
-            correctionAdd("adhominem", "ad hominem");
-
-            correctionAdd("criterium", "criterion");
-
-            correctionAdd("non-equilibrium", "nonequilibrium");
-            correctionAdd("non-equlibrium", "nonequilibrium");
-
-            correctionAdd("medium sized", "medium-sized");
-            correctionAdd("medium-size", "medium-sized");
-
-            correctionAdd("w3", "W3C");
-            correctionAdd("w3c", "W3C");
-            correctionAdd("W3c", "W3C");
-            correctionAdd("W3", "W3C");
-            correctionAdd("w3C", "W3C");
-            correctionAdd("Wide Web Consortium", "W3C");
-            correctionAdd("World Wide Web Consortium", "W3C");
-            correctionAdd("w3c org", "W3C");
 
             correctionAdd("dao", "DAO");
             correctionAdd("Dao", "DAO");
@@ -15147,6 +15194,7 @@ namespace OverflowHelper.core
             correctionAdd("key stroke", "keystroke");
 
             correctionAdd("key cap", "keycap");
+            correctionAdd("Keycap", "keycap");
 
             correctionAdd("Mechanical Keyboard", "mechanical keyboard");
             correctionAdd("mech", "mechanical keyboard"); // A shortcut (for expansion)
@@ -15197,6 +15245,10 @@ namespace OverflowHelper.core
             correctionAdd("MX Black", "Cherry MX Black");
 
             // A type of switch for mechanical keyboards
+            correctionAdd("tactile grey", "Cherry MX Tactile Grey");
+            correctionAdd("Tactile Grey", "Cherry MX Tactile Grey");
+
+            // A type of switch for mechanical keyboards
             correctionAdd("Black Alps", "Alps SKCM Black");
 
             // A type of switch for mechanical keyboards
@@ -15221,6 +15273,9 @@ namespace OverflowHelper.core
             // (both clicky and tactile)
             correctionAdd("Kailh blue", "Kailh Blue");
             correctionAdd("Kalei Blue", "Kailh Blue");
+
+            // A type of switch for mechanical keyboards (low profile)
+            correctionAdd("Kailh Chocolate", "Kailh Chocolate switch");
 
             // A type of switch for mechanical keyboards
             correctionAdd("gateron", "Gateron");
@@ -18263,6 +18318,7 @@ namespace OverflowHelper.core
             correctionAdd("approximate", "approximately"); // Not 100% correct
             correctionAdd("appx", "approximately");
             correctionAdd("apprx", "approximately");
+            correctionAdd("appoximate", "approximately");
 
             correctionAdd("corflags", "CorFlags");
             correctionAdd("Corflags", "CorFlags");
@@ -19630,6 +19686,19 @@ namespace OverflowHelper.core
             // A Windows application
             correctionAdd("altap Salamander", "Altap Salamander");
             correctionAdd("Slamander", "Altap Salamander");
+
+            // Windows software to operate keyboards independently
+            // (e.g., for a software-only solution for macro
+            // keyboards)
+            correctionAdd("HIDMacros", "HID Macros");
+            correctionAdd("hid macros", "HID Macros");
+            correctionAdd("HidMacros", "HID Macros");
+            correctionAdd("HIDmacros", "HID Macros");
+            correctionAdd("HID macros", "HID Macros");
+            correctionAdd("HIODMacros", "HID Macros");
+
+            // Windows
+            correctionAdd("DDE", "Dynamic Data Exchange");
 
             // An oscilloscope manufacturer
             correctionAdd("Tektronics", "Tektronix");
@@ -24954,6 +25023,7 @@ namespace OverflowHelper.core
 
             correctionAdd("hall-way usability testing", "hallway usability testing");
             correctionAdd("hallway usability", "hallway usability testing");
+            correctionAdd("usability study", "hallway usability testing");
 
             correctionAdd("testng", "testing");
             correctionAdd("Testing", "testing");
@@ -25804,16 +25874,6 @@ namespace OverflowHelper.core
             correctionAdd("new-ish", "newish");
 
             correctionAdd("Wall Of Text", "wall of text");
-
-            // Windows software to operate keyboards independently
-            // (e.g., for a software-only solution for macro
-            // keyboards)
-            correctionAdd("HIDMacros", "HID Macros");
-            correctionAdd("hid macros", "HID Macros");
-            correctionAdd("HidMacros", "HID Macros");
-            correctionAdd("HIDmacros", "HID Macros");
-            correctionAdd("HID macros", "HID Macros");
-            correctionAdd("HIODMacros", "HID Macros");
 
             correctionAdd("Gitkraken", "GitKraken");
             correctionAdd("gitkraken", "GitKraken");
@@ -30892,6 +30952,8 @@ namespace OverflowHelper.core
             correctionAdd("In one hand", "on the one hand");
             correctionAdd("in one hand", "on the one hand");
             correctionAdd("One one hand", "on the one hand");
+            correctionAdd("One the one hand", "on the one hand");
+            correctionAdd("one the one hand", "on the one hand");
 
             correctionAdd("upderstand", "understand");
             correctionAdd("understang", "understand");
@@ -34943,6 +35005,48 @@ namespace OverflowHelper.core
             correctionAdd("Wolfenstein", "Wolfenstein 3D");
             correctionAdd("Wulfenstein", "Wolfenstein 3D");
 
+            correctionAdd("game of life", "Game of Life");
+
+            correctionAdd("game play", "gameplay");
+            correctionAdd("game-play", "gameplay");
+
+            correctionAdd("game maker studio", "GameMaker Studio");
+            correctionAdd("GameMaker", "GameMaker Studio");
+            correctionAdd("Game Maker Studio", "GameMaker Studio");
+            correctionAdd("Game Maker", "GameMaker Studio");
+            correctionAdd("Game maker", "GameMaker Studio");
+
+            correctionAdd("Game Engine", "game engine");
+
+            correctionAdd("pad", "gamepad");
+            correctionAdd("PAD", "gamepad");
+
+            correctionAdd("GameBoy", "Game Boy");
+
+            // Related to computer games
+            correctionAdd("Aimbot", "aimbot");
+
+            // Related to computer games
+            correctionAdd("FtP", "free-to-play");
+            correctionAdd("F2P", "free-to-play");
+
+            // Related to computer games
+            correctionAdd("moorhuhn", "Moorhuhn");
+
+            // A game
+            correctionAdd("tower of hanoi", "Tower of Hanoi");
+
+            // A sliding (physical) puzzle game
+            correctionAdd("Mystic Square", "15 puzzle");
+            correctionAdd("15 Puzzle", "15 puzzle");
+            correctionAdd("Boss Puzzle", "15 puzzle");
+            correctionAdd("Game of Fifteen", "15 puzzle");
+            correctionAdd("Gem Puzzle", "15 puzzle");
+            correctionAdd("15-Puzzle", "15 puzzle");
+
+            // A computer game. For Windows.
+            correctionAdd("MS fly simulator", "Microsoft Flight Simulator");
+
             correctionAdd("doom emacs", "Doom Emacs");
 
             correctionAdd("survery", "survey");
@@ -37810,8 +37914,6 @@ namespace OverflowHelper.core
             correctionAdd("CVC", "CSC");
             correctionAdd("cvc", "CSC");
 
-            correctionAdd("game of life", "Game of Life");
-
             correctionAdd("roblox", "Roblox");
 
             correctionAdd("auto correcting", "autocorrecting");
@@ -38005,6 +38107,7 @@ namespace OverflowHelper.core
 
             correctionAdd("bif", "big");
             correctionAdd("bIg", "big");
+            correctionAdd("bid", "big");
 
             correctionAdd("Binomial", "binomial");
 
@@ -39366,9 +39469,6 @@ namespace OverflowHelper.core
 
             correctionAdd("extranious", "extraneous");
 
-            correctionAdd("game play", "gameplay");
-            correctionAdd("game-play", "gameplay");
-
             correctionAdd("guide line", "guideline");
             correctionAdd("guidline", "guideline");
 
@@ -39731,12 +39831,6 @@ namespace OverflowHelper.core
             correctionAdd("eFence", "Electric Fence");
             correctionAdd("efence", "Electric Fence");
 
-            correctionAdd("game maker studio", "GameMaker Studio");
-            correctionAdd("GameMaker", "GameMaker Studio");
-            correctionAdd("Game Maker Studio", "GameMaker Studio");
-            correctionAdd("Game Maker", "GameMaker Studio");
-            correctionAdd("Game maker", "GameMaker Studio");
-
             correctionAdd("libgnutls", "GnuTLS");
 
             correctionAdd("Norton Antivirus", "Norton AntiVirus");
@@ -40067,6 +40161,7 @@ namespace OverflowHelper.core
             correctionAdd("α particle", "alpha particle");
             correctionAdd("α-particle", "alpha particle");
             correctionAdd("alfa particle", "alpha particle");
+            correctionAdd("Alfa particle", "alpha particle");
 
             correctionAdd("altrurist", "altruist");
             correctionAdd("Altruist", "altruist");
@@ -43342,8 +43437,6 @@ namespace OverflowHelper.core
             correctionAdd("dinamic", "dynamic");
             correctionAdd("dymanic", "dynamic");
 
-            correctionAdd("Game Engine", "game engine");
-
             correctionAdd("Linearithmic", "linearithmic");
 
             correctionAdd("removeable", "removable");
@@ -45624,12 +45717,6 @@ namespace OverflowHelper.core
             correctionAdd("SREC", "S19");
             correctionAdd("srec", "S19");
 
-            correctionAdd("Cavium ThunderX", "ThunderX (Cavium)");
-            correctionAdd("ThunderX", "ThunderX (Cavium)");
-            correctionAdd("Cavium", "ThunderX (Cavium)");
-            correctionAdd("Thunder X", "ThunderX (Cavium)");
-            correctionAdd("Cavium Thunder X", "ThunderX (Cavium)");
-
             correctionAdd("back-handed", "backhanded");
 
             correctionAdd("ch root", "chroot");
@@ -45978,9 +46065,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Board", "board");
 
-            correctionAdd("pad", "gamepad");
-            correctionAdd("PAD", "gamepad");
-
             correctionAdd("honsestly", "honestly");
             correctionAdd("Honsestly", "honestly");
             correctionAdd("honsetly", "honestly");
@@ -46066,8 +46150,6 @@ namespace OverflowHelper.core
             correctionAdd("Up", "up");
 
             correctionAdd("corecursive", "CoRecursive");
-
-            correctionAdd("GameBoy", "Game Boy");
 
             correctionAdd("jOOQ Object Oriented Querying", "JOOQ");
 
@@ -46741,10 +46823,6 @@ namespace OverflowHelper.core
 
             correctionAdd("lutheran", "Lutheran");
 
-            correctionAdd("Potassium Carbonate", "potassium carbonate");
-
-            correctionAdd("Potassium Hydroxide", "potassium hydroxide");
-
             correctionAdd("Romani people", "Roma");
 
             correctionAdd("roman catholic", "Roman Catholic");
@@ -47380,11 +47458,6 @@ namespace OverflowHelper.core
 
             correctionAdd("The practice of programming", "The Practice of Programming");
 
-            correctionAdd("trapezoid rule", "trapezoidal rule");
-            correctionAdd("Trapezium rule", "trapezoidal rule");
-            correctionAdd("trapezium rule", "trapezoidal rule");
-            correctionAdd("trap", "trapezoidal rule");
-
             correctionAdd("eye sore", "eyesore");
 
             correctionAdd("firepath", "FirePath");
@@ -47393,8 +47466,6 @@ namespace OverflowHelper.core
             correctionAdd("land owner", "landowner");
 
             correctionAdd("laod", "load");
-
-            correctionAdd("selenium IDE", "Selenium IDE");
 
             correctionAdd("passtime", "pastime");
 
@@ -47476,11 +47547,6 @@ namespace OverflowHelper.core
             // Though the single quotes should probably be
             // caught/treated like double quotes are.
             correctionAdd("SOC 2", "System and Organization Controls, report type 'Trust Services Criteria'");
-
-            correctionAdd("Chromedriver", "Selenium ChromeDriver");
-            correctionAdd("ChromeDriver", "Selenium ChromeDriver");
-            correctionAdd("Selenium Chromedriver", "Selenium ChromeDriver");
-            correctionAdd("chromedriver", "Selenium ChromeDriver");
 
             correctionAdd("browserstack", "BrowserStack");
 
@@ -47612,8 +47678,6 @@ namespace OverflowHelper.core
             correctionAdd("SOIC", "small outline integrated circuit");
 
             correctionAdd("teamlead", "team lead");
-
-            correctionAdd("Uranium-238", "uranium-238");
 
             correctionAdd("vararity", "variety");
 
@@ -48635,19 +48699,9 @@ namespace OverflowHelper.core
             correctionAdd("mAh", "mA·h");
             correctionAdd("mah", "mA·h");
 
-            // Related to computer games
-            correctionAdd("Aimbot", "aimbot");
-
-            // Related to computer games
-            correctionAdd("FtP", "free-to-play");
-            correctionAdd("F2P", "free-to-play");
-
             correctionAdd("ill defined", "ill-defined");
 
             correctionAdd("manssplaining", "mansplaining");
-
-            // Related to computer games
-            correctionAdd("moorhuhn", "Moorhuhn");
 
             correctionAdd("on-screen", "onscreen");
             correctionAdd("on screen", "onscreen");
@@ -48694,9 +48748,6 @@ namespace OverflowHelper.core
             correctionAdd("SMART", "S.M.A.R.T");
 
             correctionAdd("single click", "single-click");
-
-            // A game
-            correctionAdd("tower of hanoi", "Tower of Hanoi");
 
             correctionAdd("Young's Modulus", "Young's modulus");
 
@@ -48777,14 +48828,6 @@ namespace OverflowHelper.core
             correctionAdd("debarcel", "debacle");
             correctionAdd("debarcle", "debacle");
 
-            // A YouTube channel by said
-            //
-            // Sample:
-            //   <https://www.youtube.com/watch?v=oI_X2cMHNe0>
-            //     How electricity actually works
-            //
-            correctionAdd("Veritasium", "Derek Muller");
-
             correctionAdd("life saver", "lifesaver");
 
             correctionAdd("onesidedly", "one-sidedly");
@@ -48813,14 +48856,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Presumably", "presumably");
 
-            // A sliding (physical) puzzle game
-            correctionAdd("Mystic Square", "15 puzzle");
-            correctionAdd("15 Puzzle", "15 puzzle");
-            correctionAdd("Boss Puzzle", "15 puzzle");
-            correctionAdd("Game of Fifteen", "15 puzzle");
-            correctionAdd("Gem Puzzle", "15 puzzle");
-            correctionAdd("15-Puzzle", "15 puzzle");
-
             correctionAdd("dog pile", "dogpile");
 
             correctionAdd("Educatedness", "educatedness");
@@ -48830,7 +48865,29 @@ namespace OverflowHelper.core
             // Related to YouTube, etc.
             correctionAdd("weird cap", "weird capitalisation");
 
-            correctionAdd("MS fly simulator", "Microsoft Flight Simulator");
+            // A podcast network
+            correctionAdd("hackerpublicradio", "Hacker Public Radio");
+
+            correctionAdd("datastream", "data stream");
+
+            correctionAdd("re-configuring", "reconfiguring");
+
+            correctionAdd("re-generating", "regenerating");
+
+            correctionAdd("titles", "titled");
+
+            correctionAdd("fundeable", "fundable");
+
+            correctionAdd("implode", "implode()");
+
+            correctionAdd("prettytable", "PrettyTable");
+
+            correctionAdd("startingpoint", "starting point");
+
+            correctionAdd("strawmen", "straw men");
+            correctionAdd("strawmen arguments", "straw men");
+
+            correctionAdd("youtube dl", "youtube-dl");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -76340,6 +76397,42 @@ namespace OverflowHelper.core
 
             URL_Add("Microsoft Flight Simulator", "https://en.wikipedia.org/wiki/Microsoft_Flight_Simulator");
 
+            URL_Add("Cherry MX Tactile Grey", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
+
+            URL_Add("Hacker Public Radio", "https://www.hackerpublicradio.org/");
+
+            URL_Add("bind_param()", "https://www.php.net/manual/en/mysqli-stmt.bind-param.php");
+
+            URL_Add("call_user_func_array()", "https://www.php.net/manual/en/function.call-user-func-array.php");
+
+            URL_Add("data stream", "https://en.wiktionary.org/wiki/data_stream#Noun");
+
+            URL_Add("Dynamic Data Exchange", "https://en.wikipedia.org/wiki/Dynamic_Data_Exchange");
+
+            URL_Add("Kailh Chocolate switch", "https://www.youtube.com/watch?v=yARYeV8X7d8&t=2m45s");
+
+            URL_Add("reconfiguring", "https://en.wiktionary.org/wiki/reconfigure#Verb");
+
+            URL_Add("regenerating", "https://en.wiktionary.org/wiki/regenerate#Verb");
+
+            URL_Add("titled", "https://en.wiktionary.org/wiki/titled#Adjective");
+
+            URL_Add("americium-241", "https://en.wikipedia.org/wiki/Americium-241");
+
+            URL_Add("fundable", "https://en.wiktionary.org/wiki/fundable#Adjective");
+
+            URL_Add("implode()", "https://www.php.net/manual/en/function.implode.php");
+
+            URL_Add("potassium-40", "https://en.wikipedia.org/wiki/Potassium-40");
+
+            URL_Add("PrettyTable", "https://github.com/jazzband/prettytable");
+
+            URL_Add("starting point", "https://en.wiktionary.org/wiki/starting_point#Noun");
+
+            URL_Add("straw men", "https://en.wiktionary.org/wiki/straw_man#Noun");
+
+            URL_Add("youtube-dl", "https://en.wikipedia.org/wiki/Youtube-dl");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -77242,8 +77335,6 @@ namespace OverflowHelper.core
 
             correctionAdd("rome_", "Rome_");
 
-            correctionAdd("radium_", "Radium_");
-
             correctionAdd("HEAD_", "head_");
 
             // The Stack Overflow tags
@@ -77919,6 +78010,7 @@ namespace OverflowHelper.core
             correctionAdd("Work_", "work_");
 
             correctionAdd("Usability_", "usability_");
+            correctionAdd("usability study_", "usability_");
 
             correctionAdd("Airport_", "airport_");
 
@@ -78112,8 +78204,6 @@ namespace OverflowHelper.core
             correctionAdd("look up_", "lookup_");
             correctionAdd("look of_", "lookup_");
 
-            correctionAdd("Selenium_", "selenium_");
-
             correctionAdd("unit test_", "unittest_");
 
             correctionAdd("[tag:ruby-on-rails]_", "Ruby on Rails (tag wiki)_");
@@ -78237,6 +78327,18 @@ namespace OverflowHelper.core
 
             correctionAdd("nuget_", "nuggets_");
             correctionAdd("Nugets_", "nuggets_");
+
+            correctionAdd("astro_", "Astro_");
+
+            correctionAdd("sort_", "sort()_");
+
+            correctionAdd("trim_", "trim()_");
+
+            // The chemical element
+            correctionAdd("Selenium_", "selenium_");
+
+            // A software package for Node.js
+            correctionAdd("radium_", "Radium_");
 
             // URL mappings
             //
@@ -79318,6 +79420,12 @@ namespace OverflowHelper.core
             URL_Add("ast_", "https://docs.python.org/3/library/ast.html");
 
             URL_Add("nuggets_", "https://en.wiktionary.org/wiki/nugget#Noun");
+
+            URL_Add("Astro_", "https://astro.build/blog/introducing-astro/");
+
+            URL_Add("sort()_", "https://docs.python.org/3.8/library/stdtypes.html#list.sort");
+
+            URL_Add("trim()_", "https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#trim--");
 
         } //addLookupData_alternativeWordSet()
 
