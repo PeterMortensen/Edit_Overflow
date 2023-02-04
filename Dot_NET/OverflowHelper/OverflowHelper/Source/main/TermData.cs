@@ -449,6 +449,9 @@ namespace OverflowHelper.core
             correctionAdd("windows 3", "Windows 3.11");
             correctionAdd("Windows 3", "Windows 3.11");
 
+            correctionAdd("WinNT", "Windows NT");
+            correctionAdd("WindowsNT", "Windows NT");
+
             correctionAdd("Windows 95", "Windows&nbsp;95"); // Sort of identity mapping
             correctionAdd("95", "Windows&nbsp;95");
             correctionAdd("Win95", "Windows&nbsp;95");
@@ -457,9 +460,15 @@ namespace OverflowHelper.core
 
             correctionAdd("Windows 98", "Windows&nbsp;98");
             correctionAdd("windows 98", "Windows&nbsp;98");
+            correctionAdd("98", "Windows&nbsp;98");
+            correctionAdd("Win98", "Windows&nbsp;98");
+            correctionAdd("Windows98", "Windows&nbsp;98");
+            correctionAdd("win98", "Windows&nbsp;98");
+            correctionAdd("windows98", "Windows&nbsp;98");
 
-            correctionAdd("WinNT", "Windows NT");
-            correctionAdd("WindowsNT", "Windows NT");
+            correctionAdd("Windows ME", "Windows&nbsp;ME");
+            correctionAdd("ME", "Windows&nbsp;ME");
+            correctionAdd("WinME", "Windows&nbsp;ME");
 
             correctionAdd("win2000", "Windows 2000");
             correctionAdd("2K", "Windows 2000"); // Highly likely to collide with something else.
@@ -1521,6 +1530,7 @@ namespace OverflowHelper.core
             //     How electricity actually works
             //
             correctionAdd("Veritasium", "Derek Muller");
+            correctionAdd("veri", "Derek Muller"); // A shortcut
 
             correctionAdd("IoC", "inversion of control"); // Expansion.
             correctionAdd("IOC", "inversion of control"); // Expansion. And correction.
@@ -2368,6 +2378,9 @@ namespace OverflowHelper.core
             correctionAdd("puppy linux", "Puppy Linux");
             correctionAdd("Puppy", "Puppy Linux");
 
+            // A Linux distribution
+            correctionAdd("moonlight", "Moonlight");
+
             correctionAdd("puppet", "Puppet");
 
             correctionAdd("SUNOS", "SunOS");
@@ -2844,7 +2857,10 @@ namespace OverflowHelper.core
             // Related to Stack Overflow and Stack Exchange.
             correctionAdd("obnoxious lists", "judicious use of obnoxious lists");
 
-            //
+            // Stack Overflow mini celebrity
+            correctionAdd("John Skeet", "Jon Skeet");
+            correctionAdd("skeet", "Jon Skeet");
+
             //  Start of Stack Exchange site list (not
             //  complete (only added on demand))
             //
@@ -3165,6 +3181,7 @@ namespace OverflowHelper.core
             correctionAdd("TeX.se", "TeX - LaTeX (Stack Exchange site)");
             correctionAdd("tex se", "TeX - LaTeX (Stack Exchange site)");
             correctionAdd("tex.se", "TeX - LaTeX (Stack Exchange site)");
+            correctionAdd("tex.SE", "TeX - LaTeX (Stack Exchange site)");
 
             correctionAdd("Puzzling", "Puzzling (Stack Exchange site)");
 
@@ -3921,6 +3938,8 @@ namespace OverflowHelper.core
 
             correctionAdd("call_user_func_array", "call_user_func_array()"); // PHP function
 
+            correctionAdd("implode", "implode()"); // PHP function
+
             correctionAdd("python", "Python");
             correctionAdd("PYTHON", "Python");
             correctionAdd("Pyton", "Python"); // Misspelling.
@@ -4142,6 +4161,7 @@ namespace OverflowHelper.core
             correctionAdd("Circuit Python", "CircuitPython");
             correctionAdd("circuit python", "CircuitPython");
             correctionAdd("curcuit python", "CircuitPython");
+            correctionAdd("circuitpython", "CircuitPython");
 
             // A Python library (for testing).
             correctionAdd("TOX", "tox");
@@ -4164,6 +4184,9 @@ namespace OverflowHelper.core
 
             // A book
             correctionAdd("Python in a nutshell", "Python in a Nutshell");
+
+            // A Python software library
+            correctionAdd("prettytable", "PrettyTable");
 
             // Start of Python function section
             correctionAdd("sorted", "sorted()"); // Python
@@ -4712,6 +4735,19 @@ namespace OverflowHelper.core
             correctionAdd("u-tube", "YouTube");
             correctionAdd("jewtube", "YouTube");
 
+            correctionAdd("Youtuber", "YouTuber");
+            correctionAdd("youtuber", "YouTuber");
+
+            // Related to YouTube.
+            correctionAdd("shocked faces", "shocked faces (YouTube algorithm)");
+            correctionAdd("shocked face", "shocked faces (YouTube algorithm)");
+
+            // Related to YouTube, etc.
+            correctionAdd("weird cap", "weird capitalisation");
+
+            // A program to download files from YouTube
+            correctionAdd("youtube dl", "youtube-dl");
+
             correctionAdd("maybee", "maybe");
             correctionAdd("maby", "maybe");
             correctionAdd("mabye", "maybe");
@@ -5081,7 +5117,14 @@ namespace OverflowHelper.core
             correctionAdd("vs 2005", "Visual&nbsp;Studio&nbsp;2005");
             correctionAdd("Visual studio 2005", "Visual&nbsp;Studio&nbsp;2005");
             correctionAdd("2005", "Visual&nbsp;Studio&nbsp;2005");
+            correctionAdd("VS 8", "Visual&nbsp;Studio&nbsp;2005");
+            correctionAdd("VS8", "Visual&nbsp;Studio&nbsp;2005");
 
+            // The actual version number is 9, but some of the
+            // names comes from shortening 2008 down to 8 (and
+            // thus can create some ambiguity as version 8 is
+            // Visual Studio 2005).
+            //
             correctionAdd("VS 2008", "Visual&nbsp;Studio&nbsp;2008");
             correctionAdd("VS2008", "Visual&nbsp;Studio&nbsp;2008");
             correctionAdd("visual studio 2008", "Visual&nbsp;Studio&nbsp;2008");
@@ -5090,6 +5133,7 @@ namespace OverflowHelper.core
             correctionAdd("Visual Studio2008", "Visual&nbsp;Studio&nbsp;2008");
             correctionAdd("studio 2008", "Visual&nbsp;Studio&nbsp;2008");
             correctionAdd("Visual Studio 2008", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("Visual Studio 08", "Visual&nbsp;Studio&nbsp;2008");
             correctionAdd("vs08", "Visual&nbsp;Studio&nbsp;2008");
             correctionAdd("vs 08", "Visual&nbsp;Studio&nbsp;2008");
             correctionAdd("Vs08", "Visual&nbsp;Studio&nbsp;2008");
@@ -5100,20 +5144,21 @@ namespace OverflowHelper.core
             correctionAdd("Visual Studio 2K8", "Visual&nbsp;Studio&nbsp;2008");
             correctionAdd("Vs 2008", "Visual&nbsp;Studio&nbsp;2008");
             correctionAdd("VS08", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("VS 08", "Visual&nbsp;Studio&nbsp;2008");
             correctionAdd("visualstudio2008", "Visual&nbsp;Studio&nbsp;2008");
             correctionAdd("visualstudio 2008", "Visual&nbsp;Studio&nbsp;2008");
             correctionAdd("vs 2008", "Visual&nbsp;Studio&nbsp;2008");
             correctionAdd("Visual 2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("VS 08", "Visual&nbsp;Studio&nbsp;2008");
             correctionAdd("Visual studio 2008", "Visual&nbsp;Studio&nbsp;2008");
             correctionAdd("visual studio 8", "Visual&nbsp;Studio&nbsp;2008");
             correctionAdd("visual studio.net 2008", "Visual&nbsp;Studio&nbsp;2008");
             correctionAdd("VS2K8", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("Visual C++ 2008", "Visual&nbsp;Studio&nbsp;2008");
             correctionAdd("VS 9.0", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("Visual Studio 9.0", "Visual&nbsp;Studio&nbsp;2008");
             correctionAdd("VS 9", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("VS9", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("Visual Studio 9.0", "Visual&nbsp;Studio&nbsp;2008");
             correctionAdd("Visual Studio 9", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("Visual Studio 08", "Visual&nbsp;Studio&nbsp;2008");
 
             correctionAdd("VS 2012", "Visual&nbsp;Studio&nbsp;2012");
             correctionAdd("VS2012", "Visual&nbsp;Studio&nbsp;2012");
@@ -5945,6 +5990,13 @@ namespace OverflowHelper.core
             correctionAdd("mave", "Maven");
             correctionAdd("Apache Maven", "Maven");
             correctionAdd("maeven", "Maven");
+
+            correctionAdd("mavencentral", "Maven Central");
+            correctionAdd("mavenCentral", "Maven Central");
+            correctionAdd("maven central", "Maven Central");
+
+            // Related to Maven
+            correctionAdd("Pom.xml", "pom.xml");
 
             correctionAdd("shiro", "Apache Shiro");
 
@@ -8060,6 +8112,43 @@ namespace OverflowHelper.core
             correctionAdd("Svn", "Subversion");
             correctionAdd("subersion", "Subversion");
             correctionAdd("sub version", "Subversion");
+            correctionAdd("SUBVERSION", "Subversion");
+
+            correctionAdd("smartsvn", "SmartSVN");
+
+            correctionAdd("Tortoisesvn", "TortoiseSVN");
+            correctionAdd("Tortoise svn", "TortoiseSVN");
+            correctionAdd("Tortoise SVN", "TortoiseSVN");
+            correctionAdd("Tortoise", "TortoiseSVN"); // Most common - could also be TortoiseCVS, TortoiseGit, TortoiseBzr and TortoiseHg.
+            correctionAdd("tortise", "TortoiseSVN"); // Most common - could also be TortoiseCVS, TortoiseGit, TortoiseBzr and TortoiseHg.
+            correctionAdd("tortoise", "TortoiseSVN"); // Most common - could also be TortoiseCVS, TortoiseGit, TortoiseBzr and TortoiseHg.
+            correctionAdd("tortoiseSVN", "TortoiseSVN");
+            correctionAdd("tortoise SVN", "TortoiseSVN");
+            correctionAdd("tortoisesvn", "TortoiseSVN");
+            correctionAdd("tortoise svn", "TortoiseSVN");
+            correctionAdd("TSVN", "TortoiseSVN");
+            correctionAdd("tsvn", "TortoiseSVN");
+            correctionAdd("TSvn", "TortoiseSVN");
+            correctionAdd("Tortiose SVN", "TortoiseSVN");
+            correctionAdd("TortoiseSvn", "TortoiseSVN");
+            correctionAdd("tortoiseSvn", "TortoiseSVN");
+            correctionAdd("ToritiseSVN", "TortoiseSVN"); // Misspelling.
+            correctionAdd("tortiseSVN", "TortoiseSVN");
+            correctionAdd("Tortoise-SVN", "TortoiseSVN");
+            correctionAdd("tortise-SVN", "TortoiseSVN");
+            correctionAdd("torotoisesvn", "TortoiseSVN");
+            correctionAdd("TORTOISE SVN", "TortoiseSVN");
+            correctionAdd("svn tortoise", "TortoiseSVN");
+            correctionAdd("tortoisSVN", "TortoiseSVN");
+            correctionAdd("TortiseSVN", "TortoiseSVN");
+            //correctionAdd("tortise", "TortoiseSVN");
+
+            correctionAdd("VisualSvn", "VisualSVN");
+
+            correctionAdd("Slik", "SlikSVN");
+
+            correctionAdd("tortoisehg", "TortoiseHg");
+            correctionAdd("Tortoise HG", "TortoiseHg");
 
             correctionAdd("verision", "version");
             correctionAdd("verison", "version");
@@ -8371,6 +8460,62 @@ namespace OverflowHelper.core
             correctionAdd("Collins Dictionary", "Collins English Dictionary");
             correctionAdd("collins dictionary", "Collins English Dictionary");
 
+            correctionAdd("US", "USA");
+            correctionAdd("united states", "USA");
+            correctionAdd("United States", "USA");
+            correctionAdd("usa", "USA");
+            correctionAdd("United states", "USA");
+
+            correctionAdd("Dollar", "dollar");
+            correctionAdd("Dollars", "dollar");
+
+            // United States currency
+            correctionAdd("US Dollar", "US dollar");
+            correctionAdd("US Dollars", "US dollar");
+
+            // A type of visa in the United States.
+            correctionAdd("H1B", "H-1B");
+            correctionAdd("h1b", "H-1B");
+            correctionAdd("H1(b)", "H-1B");
+            correctionAdd("H1b", "H-1B");
+            correctionAdd("H1-B", "H-1B");
+
+            // A type of visa in the United States.
+            correctionAdd("H4", "H-4");
+
+            // A United States college-level course and examination
+            correctionAdd("Advanced Placement United States History", "AP United States History");
+            correctionAdd("APUSH", "AP United States History");
+
+            correctionAdd("Atlantic Seaboard", "East Coast of the United States");
+            correctionAdd("east coast", "East Coast of the United States");
+            correctionAdd("East Coast", "East Coast of the United States");
+            correctionAdd("Eastern Seaboard", "East Coast of the United States");
+            correctionAdd("Atlantic Coast", "East Coast of the United States");
+
+            // A United States state
+            correctionAdd("michigan", "Michigan");
+
+            // A United States state
+            correctionAdd("south carolina", "South Carolina");
+
+            // A United States state
+            correctionAdd("AZ", "Arizona, United States");
+
+            // A United States state
+            correctionAdd("MN", "Minnesota, United States");
+
+            // A United States state
+            correctionAdd("California", "California, United States");
+
+            // A United States state
+            correctionAdd("Texas", "Texas, United States");
+            correctionAdd("texas", "Texas, United States");
+
+            correctionAdd("NE", "Nebraska, United States");
+
+            correctionAdd("SoCal", "Southern California");
+
             correctionAdd("Silican Valley", "Silicon Valley");
             correctionAdd("silicon valley", "Silicon Valley");
             correctionAdd("Silicon valley", "Silicon Valley");
@@ -8379,7 +8524,7 @@ namespace OverflowHelper.core
             correctionAdd("Silicone valley", "Silicon Valley");
             correctionAdd("Silicon Vallay", "Silicon Valley");
 
-            // United States city
+            // A United States city
             correctionAdd("new york", "New York");
             correctionAdd("NewYork", "New York");
             correctionAdd("NYC", "New York");
@@ -8400,14 +8545,14 @@ namespace OverflowHelper.core
 
             correctionAdd("Great lakes", "Great Lakes");
 
-            // United States city
-            correctionAdd("michigan", "Michigan");
-
             // United States city, relatively close to Vancouver.
             correctionAdd("seattle", "Seattle");
 
             // Canadian city, relatively close to Seattle.
             correctionAdd("vancouver", "Vancouver");
+
+            // United States city
+            correctionAdd("san diego", "San Diego");
 
             // United States city
             correctionAdd("washington", "Washington");
@@ -8419,13 +8564,373 @@ namespace OverflowHelper.core
             correctionAdd("National Capital Region", "Washington metropolitan area");
             correctionAdd("DMV", "Washington metropolitan area"); // District Maryland Virginia.
 
+            // United States newspaper
             correctionAdd("the Post", "The Washington Post");
             correctionAdd("WaPo", "The Washington Post");
             correctionAdd("washington post", "The Washington Post");
 
-            correctionAdd("south carolina", "South Carolina");
+            correctionAdd("DOJ", "United States Department of Justice");
 
-            correctionAdd("SoCal", "Southern California");
+            correctionAdd("Air Force", "United States Air Force");
+
+            correctionAdd("the Congress", "United States Congress");
+
+            correctionAdd("CBP", "United States Customs and Border Protection");
+
+            correctionAdd("USDA", "United States Department of Agriculture");
+
+            // United States politics
+            //
+            // Alternative URL: <https://politics.stackexchange.com/questions/77801/what-do-woke-and-cancel-groups-call-themselves>
+            correctionAdd("sjw", "SJW");
+            correctionAdd("swj", "SJW");
+            correctionAdd("Social Justice Warrior", "SJW");
+            correctionAdd("social justice warrior", "SJW");
+
+            // United States politics
+            //
+            // Alternative URL: <https://politics.stackexchange.com/questions/77801/what-do-woke-and-cancel-groups-call-themselves>
+            correctionAdd("bible thumper", "Bible thumper");
+
+            // United States politics
+            //
+            // Alternative URL: <https://politics.stackexchange.com/questions/77801/what-do-woke-and-cancel-groups-call-themselves>
+            correctionAdd("gun nut", "firearms enthusiast");
+
+            // United States politics
+            //
+            // Alternative URL: <https://politics.stackexchange.com/questions/77801/what-do-woke-and-cancel-groups-call-themselves>
+            correctionAdd("Welfare queen", "welfare queen");
+
+            correctionAdd("keyboard-shortcut", "keyboard shortcut");
+
+            // An "elitist" (whatever that means) name. It
+            // is "keyboard shortcut" for the rest of us.
+            correctionAdd("keybinding", "key binding");
+            correctionAdd("keybindding", "key binding");
+            correctionAdd("key-binding", "key binding");
+            correctionAdd("Key-Binding", "key binding");
+
+            correctionAdd("kerboard", "keyboard");
+            correctionAdd("kerbaord", "keyboard");
+            correctionAdd("keyboatd", "keyboard");
+            correctionAdd("keeb", "keyboard");
+            correctionAdd("keyb", "keyboard");
+            correctionAdd("keybrd", "keyboard");
+            correctionAdd("keybroad", "keyboard");
+            correctionAdd("key board", "keyboard");
+            correctionAdd("keybord", "keyboard");
+            correctionAdd("KeyBoard", "keyboard");
+            correctionAdd("Keyboard", "keyboard");
+            correctionAdd("kayboard", "keyboard");
+            correctionAdd("Keybpard", "keyboard");
+            correctionAdd("keybpard", "keyboard");
+
+            correctionAdd("key-press", "key press");
+            correctionAdd("Key-Press", "key press");
+
+            correctionAdd("key-stroke", "keystroke");
+            correctionAdd("key stroke", "keystroke");
+
+            correctionAdd("US keyboard", "United States keyboard layout");
+            correctionAdd("us keyboard", "United States keyboard layout");
+            correctionAdd("Keyboard - US", "United States keyboard layout");
+            correctionAdd("American keyboard", "United States keyboard layout");
+
+            correctionAdd("dk keyboard", "Danish keyboard layout");
+
+            correctionAdd("ortholinear", "ortholinear keyboard");
+            correctionAdd("ortho-linear", "ortholinear keyboard");
+
+            correctionAdd("key cap", "keycap");
+            correctionAdd("Keycap", "keycap");
+
+            correctionAdd("Mechanical Keyboard", "mechanical keyboard");
+            correctionAdd("mech", "mechanical keyboard"); // A shortcut (for expansion)
+            correctionAdd("mech keyb", "mechanical keyboard");
+
+            // Sort of a type of mechanical keyboards
+            correctionAdd("macro keypad", "macro pad");
+            correctionAdd("Macro Pad", "macro pad");
+            correctionAdd("MacroPad", "macro pad");
+            correctionAdd("Macropad", "macro pad");
+            correctionAdd("macro mechanical keypad", "macro pad");
+            correctionAdd("macropad", "macro pad");
+            correctionAdd("mechanical keypad", "macro pad");
+            correctionAdd("programmable keypad", "macro pad");
+
+            // A type of switch for mechanical keyboards
+            correctionAdd("Cherry mx", "Cherry MX");
+            correctionAdd("cherry mx", "Cherry MX");
+            correctionAdd("chery mx", "Cherry MX");
+            correctionAdd("cherry", "Cherry MX");
+            correctionAdd("CHERRY MX", "Cherry MX");
+            correctionAdd("Cerry MX", "Cherry MX");
+            correctionAdd("MX switch", "Cherry MX");
+            correctionAdd("Mx Switch", "Cherry MX");
+            correctionAdd("Mx switch", "Cherry MX");
+            correctionAdd("mx switch", "Cherry MX");
+            correctionAdd("mx sw", "Cherry MX");
+
+            // A type of switch for mechanical keyboards
+            correctionAdd("cherry mx red", "Cherry MX Red");
+            correctionAdd("Cherry Red", "Cherry MX Red");
+            correctionAdd("MX red", "Cherry MX Red");
+            correctionAdd("MX Red", "Cherry MX Red");
+            correctionAdd("mx red", "Cherry MX Red");
+            correctionAdd("CHERRY MX RED", "Cherry MX Red");
+
+            // A type of switch for mechanical keyboards
+            correctionAdd("cherry max brown", "Cherry MX Brown");
+            correctionAdd("Cherry Brown", "Cherry MX Brown");
+            correctionAdd("MX Brown", "Cherry MX Brown");
+            correctionAdd("mx brown", "Cherry MX Brown");
+            correctionAdd("Mx Brown", "Cherry MX Brown");
+
+            // A type of switch for mechanical keyboards
+            correctionAdd("Mx blue", "Cherry MX Blue");
+            correctionAdd("mx blue", "Cherry MX Blue");
+            correctionAdd("MX Blue", "Cherry MX Blue");
+            correctionAdd("MX blue", "Cherry MX Blue");
+            correctionAdd("Cherry MX blue", "Cherry MX Blue");
+            correctionAdd("Cherry Blue", "Cherry MX Blue");
+
+            // A type of switch for mechanical keyboards
+            correctionAdd("CHERRY MX GREEN", "Cherry MX Green");
+
+            // A type of switch for mechanical keyboards
+            correctionAdd("Cherry Black", "Cherry MX Black");
+            correctionAdd("mx black", "Cherry MX Black");
+            correctionAdd("MX Black", "Cherry MX Black");
+
+            // A type of switch for mechanical keyboards
+            correctionAdd("tactile grey", "Cherry MX Tactile Grey");
+            correctionAdd("Tactile Grey", "Cherry MX Tactile Grey");
+
+            // A type of switch for mechanical keyboards
+            correctionAdd("Black Alps", "Alps SKCM Black");
+
+            // A type of switch for mechanical keyboards
+            correctionAdd("Alps", "Alps SKCM Cream damped");
+            correctionAdd("Alps SKCM Cream", "Alps SKCM Cream damped");
+            correctionAdd("Alps SKCM", "Alps SKCM Cream damped");
+
+            // A manufacturer of switches for mechanical keyboards
+            // (and by extension, a range of switches for
+            // mechanical keyboards).
+            correctionAdd("Kail", "Kailh");
+
+            // A type of switch for mechanical keyboards
+            // See also <https://switchandclick.com/kailh-switches-a-comprehensive-guide/>.
+            //
+            correctionAdd("BOX Jade", "Kailh BOX Jade switch");
+            correctionAdd("Box Jade", "Kailh BOX Jade switch");
+            correctionAdd("box jade", "Kailh BOX Jade switch");
+            correctionAdd("box jades", "Kailh BOX Jade switch");
+
+            // A type of switch for mechanical keyboards
+            // (both clicky and tactile)
+            correctionAdd("Kailh blue", "Kailh Blue");
+            correctionAdd("Kalei Blue", "Kailh Blue");
+
+            // A type of switch for mechanical keyboards (low profile)
+            // Flat and square-shaped: Like chocolate bar.
+            correctionAdd("Kailh Chocolate", "Kailh Chocolate switch");
+            correctionAdd("Chocolate", "Kailh Chocolate switch");
+            correctionAdd("chocolate", "Kailh Chocolate switch");
+
+            // A type of switch for mechanical keyboards
+            correctionAdd("gateron", "Gateron");
+            correctionAdd("gataron", "Gateron");
+
+            // A type of switch for mechanical keyboards
+            correctionAdd("gateron yellow", "Gateron Yellow");
+            correctionAdd("gat yellows", "Gateron Yellow");
+
+            correctionAdd("gateron pink", "Gateron Pink");
+
+            correctionAdd("linear switch", "linear mechanical keyboard switch");
+
+            // A component used in mechanical keyboards (to
+            // enable replaceable switches).
+            // See also <https://www.reddit.com/r/MechanicalKeyboards/comments/o8h0nb/mill_max_sockets_0305_vs_7305_vs_holtite/>
+            correctionAdd("Millmax", "7305 Mill-Max socket");
+            correctionAdd("7305 Mill-Max", "7305 Mill-Max socket");
+            correctionAdd("mill-max", "7305 Mill-Max socket");
+
+            // Can be related to mechanical keyboards (used
+            // as sound dampeners).
+            correctionAdd("O ring", "O-ring");
+            correctionAdd("o-ring", "O-ring");
+            correctionAdd("o ring", "O-ring");
+
+            // A manufacturer of mechanical keyboards, etc.
+            // (e.g., 'V700RGB', 'V700S', and 'V500')
+            correctionAdd("Rappoo", "Rapoo");
+
+            // A manufacturer of mechanical keyboards, etc.
+            // (e.g., 'K95')
+            correctionAdd("corsair", "Corsair");
+            correctionAdd("CORSAIR", "Corsair");
+            correctionAdd("Corsaire", "Corsair");
+
+            // A Chinese manufacturer, incl. of mechanical keyboards
+            correctionAdd("CoolerMaster", "Cooler Master");
+            correctionAdd("COOLER MASTER", "Cooler Master");
+            correctionAdd("Coolermaster", "Cooler Master");
+            correctionAdd("cooler master", "Cooler Master");
+            correctionAdd("coolermaster", "Cooler Master");
+            correctionAdd("COOLERMASTER", "Cooler Master");
+
+            // Related to mechanical keyboards
+            correctionAdd("drop", "Drop");
+            correctionAdd("Massdrop", "Drop");
+            correctionAdd("Mass drop", "Drop");
+            correctionAdd("mass drop", "Drop");
+            correctionAdd("massdrop", "Drop");
+            correctionAdd("group buy", "Drop");
+            correctionAdd("drop.com", "Drop");
+
+            // A program from Cooler Master
+            correctionAdd("MasterPlus", "MasterPlus+");
+
+            // A manufacturer of mechanical keyboards, etc.
+            correctionAdd("razer", "Razer");
+
+            // A mechanical keyboard from Cooler Master
+            correctionAdd("CK550", "CK550 V2");
+            correctionAdd("CK-550", "CK550 V2");
+            correctionAdd("ck550", "CK550 V2");
+            correctionAdd("ck550 v2", "CK550 V2");
+
+            // A mechanical keyboard from Cooler Master
+            correctionAdd("Cooler Master QuickFire Rapid", "Cooler Master Quick Fire Rapid");
+            correctionAdd("QFR", "Cooler Master Quick Fire Rapid");
+            correctionAdd("qfr", "Cooler Master Quick Fire Rapid");
+            correctionAdd("CM Quickfire Rapid", "Cooler Master Quick Fire Rapid");
+            correctionAdd("CoolerMaster QuickFire Rapid", "Cooler Master Quick Fire Rapid");
+
+            // The link is broken now. Typical way to behave - to break links.
+            //
+            // A mechanical keyboard
+            correctionAdd("Blackwidow", "Razer BlackWidow");
+            correctionAdd("blackwidow", "Razer BlackWidow");
+            correctionAdd("Razor Blackwidow", "Razer BlackWidow");
+            correctionAdd("razer blackwidow", "Razer BlackWidow");
+
+            // A mechanical keyboard
+            correctionAdd("Daskeyboard", "Das Keyboard");
+            correctionAdd("das keyboard", "Das Keyboard");
+
+            // A mechanical keyboard
+            correctionAdd("happy hacking", "Happy Hacking Keyboard");
+            correctionAdd("happy hacking keyboard", "Happy Hacking Keyboard");
+            correctionAdd("HHKB", "Happy Hacking Keyboard");
+            correctionAdd("hhkb", "Happy Hacking Keyboard");
+            correctionAdd("Happy hacking", "Happy Hacking Keyboard");
+
+            // A mechanical keyboard
+            correctionAdd("Keybordio", "Keyboardio");
+            correctionAdd("Keybordium", "Keyboardio");
+
+            // A mechanical keyboard
+            //
+            // See also <https://www.theverge.com/22566248/zsa-moonlander-mark-i-1-ergonomic-keyboard-mechanical-review>
+            correctionAdd("Moonlander", "Moonlander Mark I");
+
+            // A mechanical keyboard. DYI / open hardware.
+            //
+            correctionAdd("Crkbd", "Corne keyboard");
+            correctionAdd("Corne", "Corne keyboard");
+            correctionAdd("corne", "Corne keyboard");
+            correctionAdd("crkbd", "Corne keyboard");
+
+            // A type of mechanical keyboards
+            correctionAdd("tkl", "tenkeyless (80%)");
+            correctionAdd("TKL", "tenkeyless (80%)");
+            correctionAdd("tenkeyless", "tenkeyless (80%)");
+            correctionAdd("10 keyless", "tenkeyless (80%)");
+            correctionAdd("Tenkeyless", "tenkeyless (80%)");
+
+            // Software for mechanical keyboards (firmware)
+            correctionAdd("qmk", "QMK");
+
+            // Software for mechanical keyboards (firmware?)
+            correctionAdd("via", "Via");
+            correctionAdd("VIA", "Via");
+
+            // Software for mechanical keyboards (firmware?)
+            correctionAdd("vial", "Vial");
+            correctionAdd("VIAL", "Vial");
+
+            correctionAdd("key word", "keyword");
+            correctionAdd("keword", "keyword");
+            correctionAdd("keywort", "keyword");
+            correctionAdd("Keyword", "keyword");
+            correctionAdd("keywork", "keyword");
+
+            correctionAdd("key chain", "keychain");
+
+            correctionAdd("k/v", "key-value");
+            correctionAdd("key/value", "key-value");
+
+            correctionAdd("KPI", "key performance indicator");
+
+            // A key on a keyboard
+            correctionAdd("CTRL", "Ctrl");
+            correctionAdd("CRTL", "Ctrl");
+            correctionAdd("ctrl", "Ctrl");
+            correctionAdd("CNTRL", "Ctrl");
+            correctionAdd("ctl", "Ctrl");
+            correctionAdd("Crtl", "Ctrl");
+            correctionAdd("cntrl", "Ctrl");
+            correctionAdd("Control", "Ctrl");
+            correctionAdd("clt", "Ctrl");
+            correctionAdd("cltf", "Ctrl");
+            correctionAdd("Ctl", "Ctrl");
+            correctionAdd("cntl", "Ctrl");
+            correctionAdd("Cntl", "Ctrl");
+            correctionAdd("Ctr", "Ctrl");
+            correctionAdd("Cntrl", "Ctrl");
+            correctionAdd("crtl", "Ctrl");
+            correctionAdd("ctlr", "Ctrl");
+            correctionAdd("Ctlr", "Ctrl");
+            correctionAdd("Cltr", "Ctrl");
+
+            // A key on a keyboard
+            correctionAdd("SHIFT", "Shift");
+            correctionAdd("shift", "Shift");
+            correctionAdd("Shft", "Shift");
+            correctionAdd("shif", "Shift");
+            correctionAdd("SHITFT", "Shift");
+            correctionAdd("Shitft", "Shift");
+
+            // A key on a keyboard
+            correctionAdd("ALT", "Alt");
+            correctionAdd("alt", "Alt");
+
+            // A key on a keyboard
+            correctionAdd("Print Screen", "Prt Sc");
+            correctionAdd("PrtSc", "Prt Sc");
+            correctionAdd("PrtScr", "Prt Sc");
+            correctionAdd("PrtSct", "Prt Sc");
+
+            // A key on a keyboard
+            correctionAdd("PgDwn", "PgDn");
+            correctionAdd("Page Down", "PgDn");
+            correctionAdd("PageDown", "PgDn");
+
+            // A key on a keyboard
+            correctionAdd("Page Up", "PgUp");
+            correctionAdd("PageUp", "PgUp");
+
+            // A key on a keyboard
+            correctionAdd("arrowkey", "arrow key");
+
+            // A key on a keyboard
+            correctionAdd("down key", "down arrow key");
+            correctionAdd("down arrow", "down arrow key");
+            correctionAdd("keyboard down key", "down arrow key");
 
             correctionAdd("South pole", "south pole");
 
@@ -9811,6 +10316,8 @@ namespace OverflowHelper.core
 
             correctionAdd("IIUC", "if I understand correctly");
 
+            correctionAdd("CMIIW", "correct me if I'm wrong");
+
             correctionAdd("GMail", "Gmail");
             correctionAdd("gmail", "Gmail");
             correctionAdd("GMAIL", "Gmail");
@@ -11123,6 +11630,7 @@ namespace OverflowHelper.core
             correctionAdd("eval", "evaluation");
             correctionAdd("evaluatoin", "evaluation");
             correctionAdd("evalution", "evaluation");
+            correctionAdd("evalutation", "evaluation");
 
             correctionAdd("Lazy Evaluation", "lazy evaluation");
             correctionAdd("lazy evalution", "lazy evaluation");
@@ -12231,6 +12739,13 @@ namespace OverflowHelper.core
             correctionAdd("Seo", "SEO");
             correctionAdd("seobility", "SEO"); // Not 100% correct
 
+            // Related to SEO
+            correctionAdd("DA", "domain authority");
+            correctionAdd("Domain Authority", "domain authority");
+
+            // Related to SEO
+            correctionAdd("DR", "Domain Rating");
+
             correctionAdd("md5", "MD5");
             correctionAdd("md 5", "MD5");
             correctionAdd("Md5 Sum", "MD5");
@@ -12741,6 +13256,7 @@ namespace OverflowHelper.core
 
             correctionAdd("a11y", "accessibility");
             correctionAdd("Accessibility", "accessibility");
+            correctionAdd("accessibilty", "accessibility");
 
             correctionAdd("Access 2010", "Microsoft Access 2010");
 
@@ -13252,6 +13768,16 @@ namespace OverflowHelper.core
             correctionAdd("Makrdown", "Markdown");
             correctionAdd("Markdowm", "Markdown");
             correctionAdd("mark-down", "Markdown");
+
+            correctionAdd("markdown tables", "Markdown tables");
+            correctionAdd("markdown table", "Markdown tables");
+            correctionAdd("Markdown table", "Markdown tables");
+
+            // A version of Markdown
+            correctionAdd("commonmark", "CommonMark");
+            correctionAdd("Commonmark", "CommonMark");
+            correctionAdd("Common Mark", "CommonMark");
+            correctionAdd("common mark", "CommonMark");
 
             correctionAdd("xss", "XSS");
             correctionAdd("Cross Site Scripting", "XSS");
@@ -14496,8 +15022,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Ncover", "NCover");
 
-            correctionAdd("smartsvn", "SmartSVN");
-
             correctionAdd("sms", "SMS");
 
             correctionAdd("rtmp", "RTMP");
@@ -14592,36 +15116,6 @@ namespace OverflowHelper.core
 
             correctionAdd("PM", "project management"); // PM is an overloaded term...
             correctionAdd("Project Management", "project management");
-
-            correctionAdd("Tortoisesvn", "TortoiseSVN");
-            correctionAdd("Tortoise svn", "TortoiseSVN");
-            correctionAdd("Tortoise SVN", "TortoiseSVN");
-            correctionAdd("Tortoise", "TortoiseSVN"); // Most common - could also be TortoiseCVS, TortoiseGit, TortoiseBzr and TortoiseHg.
-            correctionAdd("tortise", "TortoiseSVN"); // Most common - could also be TortoiseCVS, TortoiseGit, TortoiseBzr and TortoiseHg.
-            correctionAdd("tortoise", "TortoiseSVN"); // Most common - could also be TortoiseCVS, TortoiseGit, TortoiseBzr and TortoiseHg.
-            correctionAdd("tortoiseSVN", "TortoiseSVN");
-            correctionAdd("tortoise SVN", "TortoiseSVN");
-            correctionAdd("tortoisesvn", "TortoiseSVN");
-            correctionAdd("tortoise svn", "TortoiseSVN");
-            correctionAdd("TSVN", "TortoiseSVN");
-            correctionAdd("tsvn", "TortoiseSVN");
-            correctionAdd("TSvn", "TortoiseSVN");
-            correctionAdd("Tortiose SVN", "TortoiseSVN");
-            correctionAdd("TortoiseSvn", "TortoiseSVN");
-            correctionAdd("tortoiseSvn", "TortoiseSVN");
-            correctionAdd("ToritiseSVN", "TortoiseSVN"); // Misspelling.
-            correctionAdd("tortiseSVN", "TortoiseSVN");
-            correctionAdd("Tortoise-SVN", "TortoiseSVN");
-            correctionAdd("tortise-SVN", "TortoiseSVN");
-            correctionAdd("torotoisesvn", "TortoiseSVN");
-            correctionAdd("TORTOISE SVN", "TortoiseSVN");
-            correctionAdd("svn tortoise", "TortoiseSVN");
-            correctionAdd("tortoisSVN", "TortoiseSVN");
-            correctionAdd("TortiseSVN", "TortoiseSVN");
-            //correctionAdd("tortise", "TortoiseSVN");
-
-            correctionAdd("tortoisehg", "TortoiseHg");
-            correctionAdd("Tortoise HG", "TortoiseHg");
 
             correctionAdd("structure map", "StructureMap");
             correctionAdd("structuremap", "StructureMap");
@@ -15163,334 +15657,29 @@ namespace OverflowHelper.core
             correctionAdd("kvm", "KVM"); // Conflict with KVM switch, "keyboard, visual display unit, mouse", <https://en.wikipedia.org/wiki/KVM_switch>. ALTERNATIVE.
             correctionAdd("KVm", "KVM");
 
-            correctionAdd("keyboard-shortcut", "keyboard shortcut");
-
-            // An "elitist" (whatever that means) name. It
-            // is "keyboard shortcut" for the rest of us.
-            correctionAdd("keybinding", "key binding");
-            correctionAdd("keybindding", "key binding");
-            correctionAdd("key-binding", "key binding");
-            correctionAdd("Key-Binding", "key binding");
-
-            correctionAdd("kerboard", "keyboard");
-            correctionAdd("kerbaord", "keyboard");
-            correctionAdd("keyboatd", "keyboard");
-            correctionAdd("keeb", "keyboard");
-            correctionAdd("keyb", "keyboard");
-            correctionAdd("keybrd", "keyboard");
-            correctionAdd("keybroad", "keyboard");
-            correctionAdd("key board", "keyboard");
-            correctionAdd("keybord", "keyboard");
-            correctionAdd("KeyBoard", "keyboard");
-            correctionAdd("Keyboard", "keyboard");
-            correctionAdd("kayboard", "keyboard");
-            correctionAdd("Keybpard", "keyboard");
-            correctionAdd("keybpard", "keyboard");
-
-            correctionAdd("key-press", "key press");
-            correctionAdd("Key-Press", "key press");
-
-            correctionAdd("key-stroke", "keystroke");
-            correctionAdd("key stroke", "keystroke");
-
-            correctionAdd("key cap", "keycap");
-            correctionAdd("Keycap", "keycap");
-
-            correctionAdd("Mechanical Keyboard", "mechanical keyboard");
-            correctionAdd("mech", "mechanical keyboard"); // A shortcut (for expansion)
-            correctionAdd("mech keyb", "mechanical keyboard");
-
-            // A type of switch for mechanical keyboards
-            correctionAdd("Cherry mx", "Cherry MX");
-            correctionAdd("cherry mx", "Cherry MX");
-            correctionAdd("chery mx", "Cherry MX");
-            correctionAdd("cherry", "Cherry MX");
-            correctionAdd("CHERRY MX", "Cherry MX");
-            correctionAdd("Cerry MX", "Cherry MX");
-            correctionAdd("MX switch", "Cherry MX");
-            correctionAdd("Mx Switch", "Cherry MX");
-            correctionAdd("Mx switch", "Cherry MX");
-            correctionAdd("mx switch", "Cherry MX");
-            correctionAdd("mx sw", "Cherry MX");
-
-            // A type of switch for mechanical keyboards
-            correctionAdd("cherry mx red", "Cherry MX Red");
-            correctionAdd("Cherry Red", "Cherry MX Red");
-            correctionAdd("MX red", "Cherry MX Red");
-            correctionAdd("MX Red", "Cherry MX Red");
-            correctionAdd("mx red", "Cherry MX Red");
-            correctionAdd("CHERRY MX RED", "Cherry MX Red");
-
-            // A type of switch for mechanical keyboards
-            correctionAdd("cherry max brown", "Cherry MX Brown");
-            correctionAdd("Cherry Brown", "Cherry MX Brown");
-            correctionAdd("MX Brown", "Cherry MX Brown");
-            correctionAdd("mx brown", "Cherry MX Brown");
-            correctionAdd("Mx Brown", "Cherry MX Brown");
-
-            // A type of switch for mechanical keyboards
-            correctionAdd("Mx blue", "Cherry MX Blue");
-            correctionAdd("mx blue", "Cherry MX Blue");
-            correctionAdd("MX Blue", "Cherry MX Blue");
-            correctionAdd("MX blue", "Cherry MX Blue");
-            correctionAdd("Cherry MX blue", "Cherry MX Blue");
-            correctionAdd("Cherry Blue", "Cherry MX Blue");
-
-            // A type of switch for mechanical keyboards
-            correctionAdd("CHERRY MX GREEN", "Cherry MX Green");
-
-            // A type of switch for mechanical keyboards
-            correctionAdd("Cherry Black", "Cherry MX Black");
-            correctionAdd("mx black", "Cherry MX Black");
-            correctionAdd("MX Black", "Cherry MX Black");
-
-            // A type of switch for mechanical keyboards
-            correctionAdd("tactile grey", "Cherry MX Tactile Grey");
-            correctionAdd("Tactile Grey", "Cherry MX Tactile Grey");
-
-            // A type of switch for mechanical keyboards
-            correctionAdd("Black Alps", "Alps SKCM Black");
-
-            // A type of switch for mechanical keyboards
-            correctionAdd("Alps", "Alps SKCM Cream damped");
-            correctionAdd("Alps SKCM Cream", "Alps SKCM Cream damped");
-            correctionAdd("Alps SKCM", "Alps SKCM Cream damped");
-
-            // A manufacturer of switches for mechanical keyboards
-            // (and by extension, a range of switches for
-            // mechanical keyboards).
-            correctionAdd("Kail", "Kailh");
-
-            // A type of switch for mechanical keyboards
-            // See also <https://switchandclick.com/kailh-switches-a-comprehensive-guide/>.
-            //
-            correctionAdd("BOX Jade", "Kailh BOX Jade switch");
-            correctionAdd("Box Jade", "Kailh BOX Jade switch");
-            correctionAdd("box jade", "Kailh BOX Jade switch");
-            correctionAdd("box jades", "Kailh BOX Jade switch");
-
-            // A type of switch for mechanical keyboards
-            // (both clicky and tactile)
-            correctionAdd("Kailh blue", "Kailh Blue");
-            correctionAdd("Kalei Blue", "Kailh Blue");
-
-            // A type of switch for mechanical keyboards (low profile)
-            correctionAdd("Kailh Chocolate", "Kailh Chocolate switch");
-
-            // A type of switch for mechanical keyboards
-            correctionAdd("gateron", "Gateron");
-            correctionAdd("gataron", "Gateron");
-
-            // A type of switch for mechanical keyboards
-            correctionAdd("gateron yellow", "Gateron Yellow");
-            correctionAdd("gat yellows", "Gateron Yellow");
-
-            correctionAdd("gateron pink", "Gateron Pink");
-
-            correctionAdd("linear switch", "linear mechanical keyboard switch");
-
-            // A component used in mechanical keyboards (to
-            // enable replaceable switches).
-            // See also <https://www.reddit.com/r/MechanicalKeyboards/comments/o8h0nb/mill_max_sockets_0305_vs_7305_vs_holtite/>
-            correctionAdd("Millmax", "7305 Mill-Max socket");
-            correctionAdd("7305 Mill-Max", "7305 Mill-Max socket");
-
-            // Can be related to mechanical keyboards (used
-            // as sound dampeners).
-            correctionAdd("O ring", "O-ring");
-            correctionAdd("o-ring", "O-ring");
-            correctionAdd("o ring", "O-ring");
-
-            // A manufacturer of mechanical keyboards, etc.
-            // (e.g., 'V700RGB', 'V700S', and 'V500')
-            correctionAdd("Rappoo", "Rapoo");
-
-            // A manufacturer of mechanical keyboards, etc.
-            // (e.g., 'K95')
-            correctionAdd("corsair", "Corsair");
-            correctionAdd("CORSAIR", "Corsair");
-            correctionAdd("Corsaire", "Corsair");
-
-            // A Chinese manufacturer, incl. of mechanical keyboards
-            correctionAdd("CoolerMaster", "Cooler Master");
-            correctionAdd("COOLER MASTER", "Cooler Master");
-            correctionAdd("Coolermaster", "Cooler Master");
-            correctionAdd("cooler master", "Cooler Master");
-            correctionAdd("coolermaster", "Cooler Master");
-            correctionAdd("COOLERMASTER", "Cooler Master");
-
-            // Related to mechanical keyboards
-            correctionAdd("drop", "Drop");
-            correctionAdd("Massdrop", "Drop");
-            correctionAdd("Mass drop", "Drop");
-            correctionAdd("mass drop", "Drop");
-            correctionAdd("massdrop", "Drop");
-            correctionAdd("group buy", "Drop");
-            correctionAdd("drop.com", "Drop");
-
-            // A program from Cooler Master
-            correctionAdd("MasterPlus", "MasterPlus+");
-
-            // A manufacturer of mechanical keyboards, etc.
-            correctionAdd("razer", "Razer");
-
-            // A mechanical keyboard from Cooler Master
-            correctionAdd("CK550", "CK550 V2");
-            correctionAdd("CK-550", "CK550 V2");
-            correctionAdd("ck550", "CK550 V2");
-            correctionAdd("ck550 v2", "CK550 V2");
-
-            // A mechanical keyboard from Cooler Master
-            correctionAdd("Cooler Master QuickFire Rapid", "Cooler Master Quick Fire Rapid");
-            correctionAdd("QFR", "Cooler Master Quick Fire Rapid");
-            correctionAdd("qfr", "Cooler Master Quick Fire Rapid");
-            correctionAdd("CM Quickfire Rapid", "Cooler Master Quick Fire Rapid");
-            correctionAdd("CoolerMaster QuickFire Rapid", "Cooler Master Quick Fire Rapid");
-
-            // The link is broken now. Typical way to behave - to break links.
-            //
-            // A mechanical keyboard
-            correctionAdd("Blackwidow", "Razer BlackWidow");
-            correctionAdd("blackwidow", "Razer BlackWidow");
-            correctionAdd("Razor Blackwidow", "Razer BlackWidow");
-            correctionAdd("razer blackwidow", "Razer BlackWidow");
-
-            // A mechanical keyboard
-            correctionAdd("Daskeyboard", "Das Keyboard");
-            correctionAdd("das keyboard", "Das Keyboard");
-
-            // A mechanical keyboard
-            correctionAdd("happy hacking", "Happy Hacking Keyboard");
-            correctionAdd("happy hacking keyboard", "Happy Hacking Keyboard");
-            correctionAdd("HHKB", "Happy Hacking Keyboard");
-            correctionAdd("hhkb", "Happy Hacking Keyboard");
-            correctionAdd("Happy hacking", "Happy Hacking Keyboard");
-
-            // A mechanical keyboard
-            correctionAdd("Keybordio", "Keyboardio");
-            correctionAdd("Keybordium", "Keyboardio");
-
-            // A mechanical keyboard
-            //
-            // See also <https://www.theverge.com/22566248/zsa-moonlander-mark-i-1-ergonomic-keyboard-mechanical-review>
-            correctionAdd("Moonlander", "Moonlander Mark I");
-
-            // A mechanical keyboard. DYI / open hardware.
-            //
-            correctionAdd("Crkbd", "Corne keyboard");
-            correctionAdd("Corne", "Corne keyboard");
-            correctionAdd("corne", "Corne keyboard");
-
-            // A type of mechanical keyboards
-            correctionAdd("tkl", "tenkeyless (80%)");
-            correctionAdd("TKL", "tenkeyless (80%)");
-            correctionAdd("tenkeyless", "tenkeyless (80%)");
-            correctionAdd("10 keyless", "tenkeyless (80%)");
-            correctionAdd("Tenkeyless", "tenkeyless (80%)");
-
-            // Sort of a type of mechanical keyboards
-            correctionAdd("macro keypad", "macro pad");
-            correctionAdd("Macro Pad", "macro pad");
-            correctionAdd("MacroPad", "macro pad");
-            correctionAdd("Macropad", "macro pad");
-            correctionAdd("macro mechanical keypad", "macro pad");
-            correctionAdd("macropad", "macro pad");
-            correctionAdd("mechanical keypad", "macro pad");
-            correctionAdd("programmable keypad", "macro pad");
-
-            // Software for mechanical keyboards (firmware)
-            correctionAdd("qmk", "QMK");
-
-            // Software for mechanical keyboards (firmware?)
-            correctionAdd("via", "Via");
-            correctionAdd("VIA", "Via");
-
-            // Software for mechanical keyboards (firmware?)
-            correctionAdd("vial", "Vial");
-            correctionAdd("VIAL", "Vial");
-
-            correctionAdd("US keyboard", "United States keyboard layout");
-            correctionAdd("us keyboard", "United States keyboard layout");
-            correctionAdd("Keyboard - US", "United States keyboard layout");
-            correctionAdd("American keyboard", "United States keyboard layout");
-
-            correctionAdd("dk keyboard", "Danish keyboard layout");
-
-            correctionAdd("ortholinear", "ortholinear keyboard");
-            correctionAdd("ortho-linear", "ortholinear keyboard");
-
-            correctionAdd("key word", "keyword");
-            correctionAdd("keword", "keyword");
-            correctionAdd("keywort", "keyword");
-            correctionAdd("Keyword", "keyword");
-            correctionAdd("keywork", "keyword");
-
-            correctionAdd("key chain", "keychain");
-
-            correctionAdd("k/v", "key-value");
-            correctionAdd("key/value", "key-value");
-
-            correctionAdd("KPI", "key performance indicator");
-
-            // A key on a keyboard
-            correctionAdd("CTRL", "Ctrl");
-            correctionAdd("CRTL", "Ctrl");
-            correctionAdd("ctrl", "Ctrl");
-            correctionAdd("CNTRL", "Ctrl");
-            correctionAdd("ctl", "Ctrl");
-            correctionAdd("Crtl", "Ctrl");
-            correctionAdd("cntrl", "Ctrl");
-            correctionAdd("Control", "Ctrl");
-            correctionAdd("clt", "Ctrl");
-            correctionAdd("cltf", "Ctrl");
-            correctionAdd("Ctl", "Ctrl");
-            correctionAdd("cntl", "Ctrl");
-            correctionAdd("Cntl", "Ctrl");
-            correctionAdd("Ctr", "Ctrl");
-            correctionAdd("Cntrl", "Ctrl");
-            correctionAdd("crtl", "Ctrl");
-            correctionAdd("ctlr", "Ctrl");
-            correctionAdd("Ctlr", "Ctrl");
-            correctionAdd("Cltr", "Ctrl");
-
-            // A key on a keyboard
-            correctionAdd("SHIFT", "Shift");
-            correctionAdd("shift", "Shift");
-            correctionAdd("Shft", "Shift");
-            correctionAdd("shif", "Shift");
-            correctionAdd("SHITFT", "Shift");
-            correctionAdd("Shitft", "Shift");
-
-            // A key on a keyboard
-            correctionAdd("ALT", "Alt");
-            correctionAdd("alt", "Alt");
-
-            // A key on a keyboard
-            correctionAdd("Print Screen", "Prt Sc");
-            correctionAdd("PrtSc", "Prt Sc");
-            correctionAdd("PrtScr", "Prt Sc");
-            correctionAdd("PrtSct", "Prt Sc");
-
-            // A key on a keyboard
-            correctionAdd("PgDwn", "PgDn");
-            correctionAdd("Page Down", "PgDn");
-            correctionAdd("PageDown", "PgDn");
-
-            // A key on a keyboard
-            correctionAdd("Page Up", "PgUp");
-            correctionAdd("PageUp", "PgUp");
-
-            // A key on a keyboard
-            correctionAdd("arrowkey", "arrow key");
-
-            // A key on a keyboard
-            correctionAdd("down key", "down arrow key");
-            correctionAdd("down arrow", "down arrow key");
-            correctionAdd("keyboard down key", "down arrow key");
-
-            correctionAdd("moonlight", "Moonlight");
-
+            // Music (classical)
             correctionAdd("Moonight Sonata", "Moonlight Sonata");
+
+            correctionAdd("romantic music", "Romantic music");
+
+            correctionAdd("musicXML", "MusicXML");
+
+            correctionAdd("baroque", "Baroque music");
+
+            correctionAdd("Classical music", "classical music");
+
+            correctionAdd("Music", "music");
+
+            // Music
+            // Alternative URL: <https://en.wikipedia.org/wiki/Jesu,_Joy_of_Man%27s_Desiring>
+            correctionAdd("Freude", "\"Jesus bleibet meine Freude\" BWV 147, 10");
+            correctionAdd("147", "\"Jesus bleibet meine Freude\" BWV 147, 10");
+            correctionAdd("BWV 147", "\"Jesus bleibet meine Freude\" BWV 147, 10");
+            correctionAdd("freude", "\"Jesus bleibet meine Freude\" BWV 147, 10"); // A shortcut
+
+            // Music
+            correctionAdd("J. S. Bach", "Johann Sebastian Bach");
+            correctionAdd("Bach", "Johann Sebastian Bach");
 
             correctionAdd("Quantum mechanics", "quantum mechanics");
             correctionAdd("QM", "quantum mechanics");
@@ -18512,10 +18701,12 @@ namespace OverflowHelper.core
             correctionAdd("Set up", "set up");
             correctionAdd("seup", "set up");
 
+            // Related to embedded systems and microcontrollers
             correctionAdd("gpio", "GPIO");
 
             correctionAdd("perms", "permissions");
             correctionAdd("premissions", "permissions");
+            correctionAdd("permmissions", "permissions");
 
             correctionAdd("login", "log in");
             correctionAdd("log-in", "log in");
@@ -18686,8 +18877,6 @@ namespace OverflowHelper.core
             correctionAdd("obvioulsy", "obviously");
             correctionAdd("obivously", "obviously");
             correctionAdd("abviously", "obviously");
-
-            correctionAdd("VisualSvn", "VisualSVN");
 
             correctionAdd("trello", "Trello");
 
@@ -18975,6 +19164,7 @@ namespace OverflowHelper.core
             correctionAdd("could'n", "couldn’t");
             correctionAdd("couln't", "couldn’t");
             correctionAdd("couldent", "couldn’t");
+            correctionAdd("couldt", "couldn’t");
 
             correctionAdd("CPNAEL", "cPanel");
             correctionAdd("cpanel", "cPanel");
@@ -19700,6 +19890,12 @@ namespace OverflowHelper.core
             // Windows
             correctionAdd("DDE", "Dynamic Data Exchange");
 
+            // A Windows program
+            correctionAdd("process hacker", "Process Hacker");
+
+            // A utility (program) for Windows
+            correctionAdd("Sharpkeys", "SharpKeys");
+
             // An oscilloscope manufacturer
             correctionAdd("Tektronics", "Tektronix");
             correctionAdd("Tek", "Tektronix");
@@ -20060,12 +20256,19 @@ namespace OverflowHelper.core
             correctionAdd("goodby", "goodbye");
             correctionAdd("Goodby", "goodbye");
 
-            correctionAdd("good will", "goodwill");
-
             correctionAdd("Good Luck", "good luck");
             correctionAdd("GL", "good luck");
 
             correctionAdd("good looking", "good-looking");
+
+            correctionAdd("good will", "goodwill");
+
+            correctionAdd("wil", "will");
+            correctionAdd("wlil", "will");
+            correctionAdd("wll", "will");
+            correctionAdd("wiil", "will");
+            correctionAdd("WIll", "will");
+            correctionAdd("Wil", "will");
 
             correctionAdd("gotsha", "gotcha");
             correctionAdd("gottach", "gotcha");
@@ -21135,6 +21338,7 @@ namespace OverflowHelper.core
             correctionAdd("thei", "their");
             correctionAdd("theri", "their"); // A true typo
             correctionAdd("theIr", "their");
+            correctionAdd("heir", "their");
 
             correctionAdd("docker hub", "Docker Hub");
             correctionAdd("DockerHub", "Docker Hub");
@@ -21750,6 +21954,7 @@ namespace OverflowHelper.core
             correctionAdd("checkout", "check out");
             correctionAdd("Checkout", "check out");
             correctionAdd("chack out", "check out");
+            correctionAdd("checout", "check out");
 
             correctionAdd("prof", "professor");
             correctionAdd("Prof", "professor");
@@ -21775,6 +21980,7 @@ namespace OverflowHelper.core
             correctionAdd("hovewer", "however");
             correctionAdd("howewer", "however");
             correctionAdd("hower", "however");
+            correctionAdd("HOwever", "however");
 
             correctionAdd("Perf Board", "perfboard");
             correctionAdd("Purfboard", "perfboard");
@@ -22895,6 +23101,7 @@ namespace OverflowHelper.core
             correctionAdd("throroughouly", "thoroughly");
             correctionAdd("throughouly", "thoroughly");
             correctionAdd("throughoutly", "thoroughly");
+            correctionAdd("thouroughly", "thoroughly");
 
             correctionAdd("roughy", "roughly");
             correctionAdd("roughtly", "roughly");
@@ -23581,12 +23788,6 @@ namespace OverflowHelper.core
 
             correctionAdd("nigerian", "Nigerian");
 
-            correctionAdd("US", "USA");
-            correctionAdd("united states", "USA");
-            correctionAdd("United States", "USA");
-            correctionAdd("usa", "USA");
-            correctionAdd("United states", "USA");
-
             correctionAdd("Vic20", "VIC-20");
             correctionAdd("VIC 20", "VIC-20");
             correctionAdd("Vic 20", "VIC-20");
@@ -24182,12 +24383,6 @@ namespace OverflowHelper.core
 
             correctionAdd("exitor", "editor");
             correctionAdd("editior", "editor");
-
-            correctionAdd("wil", "will");
-            correctionAdd("wlil", "will");
-            correctionAdd("wll", "will");
-            correctionAdd("wiil", "will");
-            correctionAdd("WIll", "will");
 
             correctionAdd("braintree", "Braintree");
 
@@ -26372,6 +26567,99 @@ namespace OverflowHelper.core
 
             correctionAdd("John Von Neumann", "John von Neumann");
 
+            // A software developer turned manosphere carver
+            correctionAdd("sonmez", "John Sonmez");
+            correctionAdd("Somnez", "John Sonmez");
+
+            // Related to the manosphere
+            correctionAdd("REDPILL", "red pill");
+
+            // Robotics software
+            correctionAdd("johnny five", "Johnny-Five");
+            correctionAdd("Johnny Five", "Johnny-Five");
+
+            // UK
+            correctionAdd("BJ", "Boris Johnson");
+            correctionAdd("BoJo", "Boris Johnson");
+            correctionAdd("bojo", "Boris Johnson");
+            correctionAdd("B.J", "Boris Johnson");
+            correctionAdd("Boris", "Boris Johnson");
+            correctionAdd("boris", "Boris Johnson");
+            correctionAdd("Borris", "Boris Johnson");
+            correctionAdd("Johnson", "Boris Johnson");
+
+            correctionAdd("john resig", "John Resig");
+
+            // A software developer (e.g., "Doom")
+            correctionAdd("john carmack", "John Carmack");
+
+            // A computer game
+            correctionAdd("doom", "Doom");
+
+            // A computer game
+            correctionAdd("HL2", "Half-Life 2");
+
+            // A computer game
+            correctionAdd("Counter Strike", "Counter-Strike");
+
+            // A computer game
+            correctionAdd("fallout 4", "Fallout 4");
+
+            correctionAdd("War Games", "WarGames");
+            correctionAdd("war games", "WarGames");
+
+            correctionAdd("bowser", "Bowser"); // Related to a computer game
+
+             // Related to a computer game
+            correctionAdd("World 8", "World 8-Bowser's Castle");
+            correctionAdd("world 8", "World 8-Bowser's Castle");
+
+            // A computer game
+            correctionAdd("Wolfenstein", "Wolfenstein 3D");
+            correctionAdd("Wulfenstein", "Wolfenstein 3D");
+
+            correctionAdd("game of life", "Game of Life");
+
+            correctionAdd("game play", "gameplay");
+            correctionAdd("game-play", "gameplay");
+
+            correctionAdd("game maker studio", "GameMaker Studio");
+            correctionAdd("GameMaker", "GameMaker Studio");
+            correctionAdd("Game Maker Studio", "GameMaker Studio");
+            correctionAdd("Game Maker", "GameMaker Studio");
+            correctionAdd("Game maker", "GameMaker Studio");
+
+            correctionAdd("Game Engine", "game engine");
+
+            correctionAdd("pad", "gamepad");
+            correctionAdd("PAD", "gamepad");
+
+            correctionAdd("GameBoy", "Game Boy");
+
+            // Related to computer games
+            correctionAdd("Aimbot", "aimbot");
+
+            // Related to computer games
+            correctionAdd("FtP", "free-to-play");
+            correctionAdd("F2P", "free-to-play");
+
+            // Related to computer games
+            correctionAdd("moorhuhn", "Moorhuhn");
+
+            // A game
+            correctionAdd("tower of hanoi", "Tower of Hanoi");
+
+            // A sliding (physical) puzzle game
+            correctionAdd("Mystic Square", "15 puzzle");
+            correctionAdd("15 Puzzle", "15 puzzle");
+            correctionAdd("Boss Puzzle", "15 puzzle");
+            correctionAdd("Game of Fifteen", "15 puzzle");
+            correctionAdd("Gem Puzzle", "15 puzzle");
+            correctionAdd("15-Puzzle", "15 puzzle");
+
+            // A computer game. For Windows.
+            correctionAdd("MS fly simulator", "Microsoft Flight Simulator");
+
             correctionAdd("yarn", "Yarn");
 
             correctionAdd("conveyance", "convenience");
@@ -27559,30 +27847,8 @@ namespace OverflowHelper.core
 
             correctionAdd("minicom", "Minicom");
 
+            // A Canadian city
             correctionAdd("montreal", "Montreal");
-
-            // United States politics
-            //
-            // Alternative URL: <https://politics.stackexchange.com/questions/77801/what-do-woke-and-cancel-groups-call-themselves>
-            correctionAdd("sjw", "SJW");
-            correctionAdd("swj", "SJW");
-            correctionAdd("Social Justice Warrior", "SJW");
-            correctionAdd("social justice warrior", "SJW");
-
-            // United States politics
-            //
-            // Alternative URL: <https://politics.stackexchange.com/questions/77801/what-do-woke-and-cancel-groups-call-themselves>
-            correctionAdd("bible thumper", "Bible thumper");
-
-            // United States politics
-            //
-            // Alternative URL: <https://politics.stackexchange.com/questions/77801/what-do-woke-and-cancel-groups-call-themselves>
-            correctionAdd("gun nut", "firearms enthusiast");
-
-            // United States politics
-            //
-            // Alternative URL: <https://politics.stackexchange.com/questions/77801/what-do-woke-and-cancel-groups-call-themselves>
-            correctionAdd("Welfare queen", "welfare queen");
 
             correctionAdd("saudi arabia", "Saudi Arabia");
 
@@ -27770,6 +28036,7 @@ namespace OverflowHelper.core
             correctionAdd("normaly", "normally");
             correctionAdd("Normaly", "normally");
             correctionAdd("normarly", "normally");
+            correctionAdd("noramlly", "normally");
 
             correctionAdd("noticably", "noticeably");
 
@@ -27804,8 +28071,6 @@ namespace OverflowHelper.core
             correctionAdd("SIlverlight", "Silverlight");
             correctionAdd("silver light", "Silverlight");
             correctionAdd("SilverLight", "Silverlight");
-
-            correctionAdd("romantic music", "Romantic music");
 
             correctionAdd("lite", "light");
             correctionAdd("ligth", "light");
@@ -29293,13 +29558,7 @@ namespace OverflowHelper.core
 
             correctionAdd("mis-guiding", "misguiding");
 
-            correctionAdd("REDPILL", "red pill");
-
             correctionAdd("soldier", "solder"); // PCB
-
-            correctionAdd("commonmark", "CommonMark");
-            correctionAdd("Commonmark", "CommonMark");
-            correctionAdd("Common Mark", "CommonMark");
 
             correctionAdd("mks", "MKS");
 
@@ -30238,12 +30497,6 @@ namespace OverflowHelper.core
 
             correctionAdd("deserve's", "deserves");
 
-            correctionAdd("Dollar", "dollar");
-            correctionAdd("Dollars", "dollar");
-
-            correctionAdd("US Dollar", "US dollar");
-            correctionAdd("US Dollars", "US dollar");
-
             correctionAdd("dropdown", "drop-down menu");
             correctionAdd("Drop-down", "drop-down menu");
             correctionAdd("Drop-Down", "drop-down menu");
@@ -30672,7 +30925,6 @@ namespace OverflowHelper.core
             correctionAdd("coud", "could");
             correctionAdd("cpuld", "could");
             correctionAdd("coult", "could");
-            correctionAdd("couldt", "could");
 
             correctionAdd("in-tact", "intact");
             correctionAdd("in tact", "intact");
@@ -31173,16 +31425,6 @@ namespace OverflowHelper.core
             correctionAdd("gpdr", "GDPR");
 
             correctionAdd("GOM", "Gulf of Mexico");
-
-            // A type of visa in the USA.
-            correctionAdd("H1B", "H-1B");
-            correctionAdd("h1b", "H-1B");
-            correctionAdd("H1(b)", "H-1B");
-            correctionAdd("H1b", "H-1B");
-            correctionAdd("H1-B", "H-1B");
-
-            // A type of visa in the USA.
-            correctionAdd("H4", "H-4");
 
             correctionAdd("iso2", "ISO&nbsp;2");
             correctionAdd("ISO 2", "ISO&nbsp;2");
@@ -32672,10 +32914,11 @@ namespace OverflowHelper.core
 
             correctionAdd("heic", "HEIC");
 
-            correctionAdd("sonmez", "John Sonmez");
-            correctionAdd("Somnez", "John Sonmez");
-
             correctionAdd("open firmware", "Open Firmware");
+
+            correctionAdd("firmwar", "firmware");
+            correctionAdd("FW", "firmware");
+            correctionAdd("fw", "firmware");
 
             correctionAdd("bizare", "bizarre");
             correctionAdd("baazar", "bizarre");
@@ -33216,8 +33459,6 @@ namespace OverflowHelper.core
             correctionAdd("GTK 3", "GTK&nbsp;3");
             correctionAdd("gtk3", "GTK&nbsp;3");
             correctionAdd("gtk 3", "GTK&nbsp;3");
-
-            correctionAdd("john carmack", "John Carmack");
 
             correctionAdd("brain dead", "brain-dead");
 
@@ -34927,8 +35168,6 @@ namespace OverflowHelper.core
             correctionAdd("KTAS", "true airspeed");
             correctionAdd("TAS", "true airspeed");
 
-            correctionAdd("AZ", "Arizona, United States");
-
             correctionAdd("deliverys", "deliveries");
 
             correctionAdd("re-boot", "reboot");
@@ -34979,73 +35218,6 @@ namespace OverflowHelper.core
             correctionAdd("du-pont cable", "Dupont connector");
 
             correctionAdd("esp32", "ESP32");
-
-            // A computer game
-            correctionAdd("HL2", "Half-Life 2");
-
-            // A computer game
-            correctionAdd("Counter Strike", "Counter-Strike");
-
-            // A computer game
-            correctionAdd("fallout 4", "Fallout 4");
-
-            correctionAdd("War Games", "WarGames");
-            correctionAdd("war games", "WarGames");
-
-            correctionAdd("bowser", "Bowser"); // Related to a computer game
-
-             // Related to a computer game
-            correctionAdd("World 8", "World 8-Bowser's Castle");
-            correctionAdd("world 8", "World 8-Bowser's Castle");
-
-            // A computer game
-            correctionAdd("doom", "Doom");
-
-            // A computer game
-            correctionAdd("Wolfenstein", "Wolfenstein 3D");
-            correctionAdd("Wulfenstein", "Wolfenstein 3D");
-
-            correctionAdd("game of life", "Game of Life");
-
-            correctionAdd("game play", "gameplay");
-            correctionAdd("game-play", "gameplay");
-
-            correctionAdd("game maker studio", "GameMaker Studio");
-            correctionAdd("GameMaker", "GameMaker Studio");
-            correctionAdd("Game Maker Studio", "GameMaker Studio");
-            correctionAdd("Game Maker", "GameMaker Studio");
-            correctionAdd("Game maker", "GameMaker Studio");
-
-            correctionAdd("Game Engine", "game engine");
-
-            correctionAdd("pad", "gamepad");
-            correctionAdd("PAD", "gamepad");
-
-            correctionAdd("GameBoy", "Game Boy");
-
-            // Related to computer games
-            correctionAdd("Aimbot", "aimbot");
-
-            // Related to computer games
-            correctionAdd("FtP", "free-to-play");
-            correctionAdd("F2P", "free-to-play");
-
-            // Related to computer games
-            correctionAdd("moorhuhn", "Moorhuhn");
-
-            // A game
-            correctionAdd("tower of hanoi", "Tower of Hanoi");
-
-            // A sliding (physical) puzzle game
-            correctionAdd("Mystic Square", "15 puzzle");
-            correctionAdd("15 Puzzle", "15 puzzle");
-            correctionAdd("Boss Puzzle", "15 puzzle");
-            correctionAdd("Game of Fifteen", "15 puzzle");
-            correctionAdd("Gem Puzzle", "15 puzzle");
-            correctionAdd("15-Puzzle", "15 puzzle");
-
-            // A computer game. For Windows.
-            correctionAdd("MS fly simulator", "Microsoft Flight Simulator");
 
             correctionAdd("doom emacs", "Doom Emacs");
 
@@ -35712,11 +35884,9 @@ namespace OverflowHelper.core
 
             correctionAdd("Cypres", "Cyprus");
 
+            // Texas
             correctionAdd("Abbott", "Greg Abbott");
             correctionAdd("Greg", "Greg Abbott");
-
-            correctionAdd("johnny five", "Johnny-Five");
-            correctionAdd("Johnny Five", "Johnny-Five");
 
             correctionAdd("morocco", "Morocco");
 
@@ -35747,9 +35917,6 @@ namespace OverflowHelper.core
             correctionAdd("fasicm", "fascism");
             correctionAdd("Facism", "fascism");
             correctionAdd("facism", "fascism");
-
-            correctionAdd("firmwar", "firmware");
-            correctionAdd("FW", "firmware");
 
             correctionAdd("hount", "haunt");
 
@@ -35917,15 +36084,6 @@ namespace OverflowHelper.core
 
             correctionAdd("p5", "p5.js");
             correctionAdd("P5js", "p5.js");
-
-            correctionAdd("BJ", "Boris Johnson");
-            correctionAdd("BoJo", "Boris Johnson");
-            correctionAdd("bojo", "Boris Johnson");
-            correctionAdd("B.J", "Boris Johnson");
-            correctionAdd("Boris", "Boris Johnson");
-            correctionAdd("boris", "Boris Johnson");
-            correctionAdd("Borris", "Boris Johnson");
-            correctionAdd("Johnson", "Boris Johnson");
 
             correctionAdd("I2S", "I²S");
 
@@ -36106,6 +36264,7 @@ namespace OverflowHelper.core
 
             correctionAdd("orwellian", "Orwellian");
 
+            // Linux
             correctionAdd("Ubuntu software center", "Ubuntu Software Center");
             correctionAdd("usc", "Ubuntu Software Center");
             correctionAdd("USC", "Ubuntu Software Center");
@@ -36153,8 +36312,6 @@ namespace OverflowHelper.core
             correctionAdd("in-compatible", "incompatible");
 
             correctionAdd("Maily Dale", "Daily Mail");
-
-            correctionAdd("musicXML", "MusicXML");
 
             correctionAdd("box of pandora", "Pandora's box");
 
@@ -36358,8 +36515,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Hidu", "Hindu");
 
-            correctionAdd("MN", "Minnesota, United States");
-
             correctionAdd("anti-semitic", "anti-Semitic");
 
             correctionAdd("captuer", "capture");
@@ -36555,8 +36710,6 @@ namespace OverflowHelper.core
             correctionAdd("non destructively", "nondestructively");
 
             correctionAdd("bluebird", "Bluebird");
-
-            correctionAdd("California", "California, United States");
 
             correctionAdd("Chili", "Chile");
 
@@ -37602,9 +37755,6 @@ namespace OverflowHelper.core
             correctionAdd("ngif", "*ngIf");
             correctionAdd("ngIf", "*ngIf");
 
-            correctionAdd("John Skeet", "Jon Skeet");
-            correctionAdd("skeet", "Jon Skeet");
-
             correctionAdd("pbuh", "PBUH");
 
             correctionAdd("Qt5", "Qt&nbsp;5");
@@ -37875,9 +38025,6 @@ namespace OverflowHelper.core
             correctionAdd("thoughtfull", "thoughtful");
 
             correctionAdd("catholic church", "Catholic Church");
-
-            correctionAdd("Texas", "Texas, United States");
-            correctionAdd("texas", "Texas, United States");
 
             correctionAdd("at will employment", "at-will employment");
 
@@ -38911,8 +39058,6 @@ namespace OverflowHelper.core
 
             correctionAdd("top gun", "Top Gun");
 
-            correctionAdd("DOJ", "United States Department of Justice");
-
             correctionAdd("cancelation", "cancellation");
 
             correctionAdd("dowloaded", "downloaded");
@@ -39683,6 +39828,7 @@ namespace OverflowHelper.core
             correctionAdd("nead", "need");
 
             correctionAdd("neads", "needs");
+            correctionAdd("need's", "needs");
 
             correctionAdd("non-unique", "nonunique");
 
@@ -40494,6 +40640,7 @@ namespace OverflowHelper.core
             correctionAdd("differeces", "differences");
 
             correctionAdd("Andromeda galaxy", "Andromeda Galaxy");
+            correctionAdd("M31", "Andromeda Galaxy");
 
             correctionAdd("chromecast", "Chromecast");
 
@@ -40683,6 +40830,8 @@ namespace OverflowHelper.core
             correctionAdd("yeah", "yes");
             correctionAdd("Yeh", "yes");
             correctionAdd("yeh", "yes");
+            correctionAdd("Yipe", "yes");
+            correctionAdd("yipe", "yes");
 
             correctionAdd("eviews", "EViews");
 
@@ -41071,9 +41220,6 @@ namespace OverflowHelper.core
 
             correctionAdd("smurfs", "The Smurfs");
 
-            correctionAdd("Youtuber", "YouTuber");
-            correctionAdd("youtuber", "YouTuber");
-
             correctionAdd("counter argued", "counterargued");
 
             correctionAdd("de-referencing", "dereferencing");
@@ -41368,8 +41514,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Zir", "zir");
 
-            correctionAdd("baroque", "Baroque music");
-
             correctionAdd("ESET", "ESET Smart Security");
 
             correctionAdd("jars", "JAR files");
@@ -41379,8 +41523,6 @@ namespace OverflowHelper.core
             correctionAdd("STS", "Spring Tool Suite");
 
             correctionAdd("Unstructured Supplementary Service Data", "USSD");
-
-            correctionAdd("Classical music", "classical music");
 
             correctionAdd("codefence", "code fence");
 
@@ -41604,9 +41746,6 @@ namespace OverflowHelper.core
             correctionAdd("hand held", "hand-held");
 
             correctionAdd("un-accept", "unaccept");
-
-            correctionAdd("Advanced Placement United States History", "AP United States History");
-            correctionAdd("APUSH", "AP United States History");
 
             correctionAdd("Black Hat", "Black Hat Briefings");
             correctionAdd("BlackHat", "Black Hat Briefings");
@@ -42105,12 +42244,6 @@ namespace OverflowHelper.core
             correctionAdd("customized", "customised");
             correctionAdd("customizated", "customised");
 
-            correctionAdd("mavencentral", "Maven Central");
-            correctionAdd("mavenCentral", "Maven Central");
-            correctionAdd("maven central", "Maven Central");
-
-            correctionAdd("san diego", "San Diego");
-
             correctionAdd("karoekee", "karaoke");
 
             correctionAdd("Quotient", "quotient");
@@ -42121,8 +42254,6 @@ namespace OverflowHelper.core
             correctionAdd("North-Korean", "North Korean");
 
             correctionAdd("stm32f103", "STM32F103");
-
-            correctionAdd("Air Force", "United States Air Force");
 
             correctionAdd("WHYT", "What have you tried?");
             correctionAdd("What you tried?", "What have you tried?");
@@ -42331,8 +42462,6 @@ namespace OverflowHelper.core
             correctionAdd("scotish", "Scottish");
             correctionAdd("Scotish", "Scottish");
 
-            correctionAdd("the Congress", "United States Congress");
-
             correctionAdd("Zip Recruiter", "ZipRecruiter");
 
             correctionAdd("adult baby", "adult child");
@@ -42530,8 +42659,6 @@ namespace OverflowHelper.core
 
             correctionAdd("in short-order", "in short order");
             correctionAdd("in very short-order", "in short order");
-
-            correctionAdd("Music", "music");
 
             correctionAdd("underlieng", "underlying");
 
@@ -42993,8 +43120,6 @@ namespace OverflowHelper.core
             correctionAdd("iso-8859-15", "ISO&nbsp;8859-15");
             correctionAdd("ISO 8859-15", "ISO&nbsp;8859-15"); // Sort of identity mapping
 
-            correctionAdd("john resig", "John Resig");
-
             correctionAdd("Publisher", "Microsoft Publisher");
 
             correctionAdd("Symfony 4", "Symfony&nbsp;4");
@@ -43173,8 +43298,6 @@ namespace OverflowHelper.core
 
             correctionAdd("TIDYVERSE", "Tidyverse");
             correctionAdd("tidyverse", "Tidyverse");
-
-            correctionAdd("CBP", "United States Customs and Border Protection");
 
             correctionAdd("Dielectric", "dielectric");
 
@@ -44284,19 +44407,24 @@ namespace OverflowHelper.core
 
             correctionAdd("if-statement", "if statement");
 
+            // Related to Stack Exchange
             correctionAdd("first answer", "First answers review queue");
             correctionAdd("first Answer", "First answers review queue");
             correctionAdd("First answers", "First answers review queue");
             correctionAdd("first answers", "First answers review queue");
 
+            // Related to Stack Exchange
             correctionAdd("late answer", "Late answers review queue");
             correctionAdd("Late answers", "Late answers review queue");
+            correctionAdd("late answers", "Late answers review queue");
 
+            // Related to Stack Exchange
             correctionAdd("low quality answers", "Low quality answers review queue");
             correctionAdd("Low quality posts", "Low quality answers review queue");
             correctionAdd("low quality answers queue", "Low quality answers review queue");
             correctionAdd("LQA", "Low quality answers review queue");
 
+            // Related to Stack Exchange
             correctionAdd("\"First questions\" review", "First questions review queue");
             correctionAdd("First questions", "First questions review queue");
             correctionAdd("first questions", "First questions review queue");
@@ -44304,13 +44432,18 @@ namespace OverflowHelper.core
             correctionAdd("first question review queue", "First questions review queue");
             correctionAdd("First Questions queue", "First questions review queue");
 
+            // Related to Stack Exchange
             correctionAdd("triage review queue", "Triage review queue");
             correctionAdd("triage", "Triage review queue");
             correctionAdd("Triage queue", "Triage review queue");
 
+            // Related to Stack Exchange
             correctionAdd("Suggested Edits", "Suggested edits review queue");
             correctionAdd("Suggested edits", "Suggested edits review queue");
             correctionAdd("suggested edits", "Suggested edits review queue");
+            correctionAdd("Suggested Edit", "Suggested edits review queue");
+            correctionAdd("suggested edit queue", "Suggested edits review queue");
+            correctionAdd("suggested edits queue", "Suggested edits review queue");
 
             correctionAdd("unity", "Unity");
 
@@ -44535,8 +44668,6 @@ namespace OverflowHelper.core
             correctionAdd("LIDAR", "Lidar");
             correctionAdd("LiDAR", "Lidar");
 
-            correctionAdd("NE", "Nebraska, United States");
-
             correctionAdd("gird", "grid");
             correctionAdd("Gird", "grid");
             correctionAdd("Grid", "grid");
@@ -44585,8 +44716,6 @@ namespace OverflowHelper.core
             correctionAdd("DWL", "dwl");
 
             correctionAdd("SPECTRWM", "spectrwm");
-
-            correctionAdd("USDA", "United States Department of Agriculture");
 
             correctionAdd("aux", "auxiliary");
             correctionAdd("auxiciallry", "auxiliary");
@@ -45732,9 +45861,6 @@ namespace OverflowHelper.core
 
             correctionAdd("leagal", "legal");
 
-            correctionAdd("shocked faces", "shocked faces (YouTube algorithm)");
-            correctionAdd("shocked face", "shocked faces (YouTube algorithm)");
-
             correctionAdd("system-on-chip", "system on a chip");
             correctionAdd("SoC", "system on a chip");
             correctionAdd("system-on-a-chip", "system on a chip");
@@ -45822,6 +45948,7 @@ namespace OverflowHelper.core
             correctionAdd("rreplacing", "replacing");
 
             correctionAdd("tripple", "triple");
+            correctionAdd("trippe", "triple");
 
             correctionAdd("tripple checked", "triple checked");
 
@@ -46122,12 +46249,6 @@ namespace OverflowHelper.core
 
             correctionAdd("visious circle", "vicious circle");
 
-            correctionAdd("Atlantic Seaboard", "East Coast of the United States");
-            correctionAdd("east coast", "East Coast of the United States");
-            correctionAdd("East Coast", "East Coast of the United States");
-            correctionAdd("Eastern Seaboard", "East Coast of the United States");
-            correctionAdd("Atlantic Coast", "East Coast of the United States");
-
             correctionAdd("maximum transmission unit", "MTU");
 
             correctionAdd("flogging a dead-horse", "flogging a dead horse");
@@ -46327,10 +46448,6 @@ namespace OverflowHelper.core
 
             correctionAdd("manimupating", "manipulating");
             correctionAdd("Manimupating", "manipulating");
-
-            correctionAdd("markdown tables", "Markdown tables");
-            correctionAdd("markdown table", "Markdown tables");
-            correctionAdd("Markdown table", "Markdown tables");
 
             correctionAdd("obsidian", "Obsidian");
 
@@ -48862,9 +48979,6 @@ namespace OverflowHelper.core
 
             correctionAdd("thought provoking", "thought-provoking");
 
-            // Related to YouTube, etc.
-            correctionAdd("weird cap", "weird capitalisation");
-
             // A podcast network
             correctionAdd("hackerpublicradio", "Hacker Public Radio");
 
@@ -48878,16 +48992,30 @@ namespace OverflowHelper.core
 
             correctionAdd("fundeable", "fundable");
 
-            correctionAdd("implode", "implode()");
-
-            correctionAdd("prettytable", "PrettyTable");
-
             correctionAdd("startingpoint", "starting point");
 
             correctionAdd("strawmen", "straw men");
             correctionAdd("strawmen arguments", "straw men");
 
-            correctionAdd("youtube dl", "youtube-dl");
+            correctionAdd("all round", "all-around");
+
+            correctionAdd("capaple", "capable");
+
+            // An x86 assembler
+            correctionAdd("FASMW", "FASM");
+
+            correctionAdd("memory-model", "memory model");
+
+            // A Mac spreadsheet program
+            correctionAdd("numbers", "Numbers");
+
+            correctionAdd("rain drop", "raindrop");
+
+            correctionAdd("vigilence", "vigilance");
+
+            correctionAdd("wargame", "war game");
+
+            correctionAdd("celebrety", "celebrity");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -76433,6 +76561,44 @@ namespace OverflowHelper.core
 
             URL_Add("youtube-dl", "https://en.wikipedia.org/wiki/Youtube-dl");
 
+            URL_Add("all-around", "https://en.wiktionary.org/wiki/all-around#Adverb");
+
+            URL_Add("pom.xml", "https://maven.apache.org/pom.html#What_is_the_POM.3F");
+
+            URL_Add("SlikSVN", "https://sliksvn.com/download/");
+
+            URL_Add("capable", "https://en.wiktionary.org/wiki/capable#Adjective");
+
+            URL_Add("correct me if I'm wrong", "https://en.wiktionary.org/wiki/CMIIW#Phrase");
+
+            URL_Add("domain authority", "https://en.wikipedia.org/wiki/Domain_authority");
+
+            URL_Add("Domain Rating", "https://en.wikipedia.org/wiki/Domain_authority");
+
+            URL_Add("FASM", "https://en.wikipedia.org/wiki/FASM");
+
+            URL_Add("memory model", "https://en.wikipedia.org/wiki/Memory_address#Memory_models");
+
+            URL_Add("Numbers", "https://en.wikipedia.org/wiki/Numbers_(spreadsheet)");
+
+            URL_Add("Process Hacker", "https://processhacker.sourceforge.io/");
+
+            URL_Add("raindrop", "https://en.wiktionary.org/wiki/raindrop#Noun");
+
+            URL_Add("SharpKeys", "https://github.com/randyrants/sharpkeys");
+
+            URL_Add("vigilance", "https://en.wiktionary.org/wiki/vigilance#Noun");
+
+            URL_Add("war game", "https://en.wiktionary.org/wiki/war_game#Noun");
+
+            URL_Add("Windows&nbsp;ME", "https://en.wikipedia.org/wiki/Windows_Me");
+
+            URL_Add("celebrity", "https://en.wiktionary.org/wiki/celebrity#Noun");
+
+            URL_Add("\"Jesus bleibet meine Freude\" BWV 147, 10", "https://www.youtube.com/watch?v=Lm2kAvIQxHE");
+
+            URL_Add("Johann Sebastian Bach", "https://en.wikipedia.org/wiki/Johann_Sebastian_Bach");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -76556,6 +76722,19 @@ namespace OverflowHelper.core
             // Pandas (Python library)
             correctionAdd("merge_", "pandas.DataFrame.merge()_");
             correctionAdd("pandas.DataFrame.merge_", "pandas.DataFrame.merge()_");
+
+            correctionAdd("Graphene_", "Graphene-Python_");
+            correctionAdd("graphene_", "Graphene-Python_");
+
+            // A Python function
+            correctionAdd("map_", "map()_");
+            correctionAdd("Map_", "map()_");
+
+            // A Python function
+            correctionAdd("sort_", "sort()_");
+
+            // A Python library
+            correctionAdd("AST_", "ast_");
 
             correctionAdd("GA_", "general-availability_");
 
@@ -76947,6 +77126,7 @@ namespace OverflowHelper.core
             correctionAdd("stats.stackexchange.com_", "Cross Validated (Stack Exchange site)_");
             correctionAdd("Stats Stack Exchange_", "Cross Validated (Stack Exchange site)_");
             correctionAdd("Stats stackexchange_", "Cross Validated (Stack Exchange site)_");
+            correctionAdd("stats.SE_", "Cross Validated (Stack Exchange site)_");
 
             correctionAdd("space exploration_", "Space Exploration (Stack Exchange site)_");
             correctionAdd("Space Exploration_", "Space Exploration (Stack Exchange site)_");
@@ -76990,6 +77170,11 @@ namespace OverflowHelper.core
 
             correctionAdd("engineering_", "Engineering (Stack Exchange site)_");
             correctionAdd("Engineering_", "Engineering (Stack Exchange site)_"); // Sort of identity mapping
+
+            correctionAdd("DS_", "Data Science (Stack Exchange site)_");
+            correctionAdd("Data Science_", "Data Science (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("DataScience_", "Data Science (Stack Exchange site)_");
+            correctionAdd("datascience.SE_", "Data Science (Stack Exchange site)_");
 
             correctionAdd("puted_", "put_");
             correctionAdd("punt_", "put_");
@@ -77273,9 +77458,6 @@ namespace OverflowHelper.core
             correctionAdd("qota_", "quota_");
 
             correctionAdd("qotas_", "quotas_");
-
-            correctionAdd("Graphene_", "Graphene-Python_");
-            correctionAdd("graphene_", "Graphene-Python_");
 
             correctionAdd("Strawberry_", "Strawberry GraphQL_");
             correctionAdd("strawberry_", "Strawberry GraphQL_");
@@ -77815,6 +77997,20 @@ namespace OverflowHelper.core
 
             correctionAdd("Western_", "western_");
 
+            correctionAdd("J2EE Connector Architecture_", "Jakarta Connectors_");
+            correctionAdd("JCA_", "Jakarta Connectors_");
+            correctionAdd("Jakarta Connector Architecture_", "Jakarta Connectors_");
+            correctionAdd("Java EE Connector Architecture_", "Jakarta Connectors_");
+            correctionAdd("connector_", "Jakarta Connectors_");
+            correctionAdd("java connector architecture_", "Jakarta Connectors_");
+            correctionAdd("jca_", "Jakarta Connectors_");
+
+            correctionAdd("Javadoc_", "JDK documentation_");
+
+            // Start of Java function section
+            //
+            correctionAdd("trim_", "trim()_");
+
             // Start of JavaScript function section
             //
             correctionAdd("join_", "join()_");
@@ -77828,13 +78024,8 @@ namespace OverflowHelper.core
             correctionAdd("ZFC_", "Zermelo–Fraenkel axioms_");
             correctionAdd("ZF_", "Zermelo–Fraenkel axioms_");
 
-            correctionAdd("J2EE Connector Architecture_", "Jakarta Connectors_");
-            correctionAdd("JCA_", "Jakarta Connectors_");
-            correctionAdd("Jakarta Connector Architecture_", "Jakarta Connectors_");
-            correctionAdd("Java EE Connector Architecture_", "Jakarta Connectors_");
-            correctionAdd("connector_", "Jakarta Connectors_");
-            correctionAdd("java connector architecture_", "Jakarta Connectors_");
-            correctionAdd("jca_", "Jakarta Connectors_");
+            // Plain old data structure, JavaScript version.
+            correctionAdd("plain old JavaScript object_", "POJO_");
 
             correctionAdd("coursier_", "Coursier_");
             correctionAdd("cs_", "Coursier_");
@@ -78250,13 +78441,6 @@ namespace OverflowHelper.core
             correctionAdd("launchpad_", "LaunchPad_");
             correctionAdd("Launchpad_", "LaunchPad_");
 
-            // A Python function
-            correctionAdd("map_", "map()_");
-            correctionAdd("Map_", "map()_");
-
-            // Plain old data structure, JavaScript version.
-            correctionAdd("plain old JavaScript object_", "POJO_");
-
             // A Windows snap-in/Control Panel
             correctionAdd("services_", "Services_");
 
@@ -78318,27 +78502,24 @@ namespace OverflowHelper.core
 
             correctionAdd("finde_", "fine_");
 
-            correctionAdd("Javadoc_", "JDK documentation_");
-
             correctionAdd("Top_", "top_");
-
-            // A Python library
-            correctionAdd("AST_", "ast_");
 
             correctionAdd("nuget_", "nuggets_");
             correctionAdd("Nugets_", "nuggets_");
 
+            // A web development software framework
             correctionAdd("astro_", "Astro_");
-
-            correctionAdd("sort_", "sort()_");
-
-            correctionAdd("trim_", "trim()_");
 
             // The chemical element
             correctionAdd("Selenium_", "selenium_");
 
             // A software package for Node.js
             correctionAdd("radium_", "Radium_");
+
+            // Music
+            //
+            // Alternative URL: <https://en.wikipedia.org/wiki/Symphony_No._9_(Beethoven)#IV._Finale>
+            correctionAdd("freude_", "Ode an die Freude_");
 
             // URL mappings
             //
@@ -79426,6 +79607,10 @@ namespace OverflowHelper.core
             URL_Add("sort()_", "https://docs.python.org/3.8/library/stdtypes.html#list.sort");
 
             URL_Add("trim()_", "https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#trim--");
+
+            URL_Add("Data Science (Stack Exchange site)_", "https://datascience.stackexchange.com/tour");
+
+            URL_Add("Ode an die Freude_", "https://www.youtube.com/watch?v=kbJcQYVtZMo");
 
         } //addLookupData_alternativeWordSet()
 
