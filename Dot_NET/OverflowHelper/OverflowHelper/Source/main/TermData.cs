@@ -1022,6 +1022,213 @@ namespace OverflowHelper.core
             // Windows / CMD
             correctionAdd("setx", "SETX");
 
+            correctionAdd("git", "Git");
+            correctionAdd("GIT", "Git");
+            correctionAdd("GiT", "Git");
+
+            correctionAdd("Git 2.0", "Git&nbsp;2.0"); // Sort of identity mapping
+            correctionAdd("git2", "Git&nbsp;2.0");
+            correctionAdd("Git2", "Git&nbsp;2.0");
+
+            correctionAdd("gitignore", ".gitignore file");
+            correctionAdd(".gitignore", ".gitignore file");
+
+            correctionAdd("Git hook", "Git hooks");
+            correctionAdd("githooks", "Git hooks");
+            correctionAdd("git-hooks", "Git hooks");
+            correctionAdd("git hooks", "Git hooks");
+            correctionAdd("git hook", "Git hooks");
+
+            correctionAdd("GIT-LS-FILES", "git-ls-files");
+
+            correctionAdd("LFS", "Git LFS");
+
+            correctionAdd("Github", "GitHub");
+            correctionAdd("github", "GitHub");
+            correctionAdd("git hub", "GitHub");
+            correctionAdd("gitHub", "GitHub");
+            correctionAdd("GITHUB", "GitHub");
+            correctionAdd("gihub", "GitHub");
+            correctionAdd("githhub", "GitHub");
+            correctionAdd("Githhub", "GitHub");
+            correctionAdd("gibhub", "GitHub"); // Misspelling.
+            correctionAdd("gitub", "GitHub");
+            correctionAdd("gh", "GitHub");
+            correctionAdd("Git hub", "GitHub");
+            correctionAdd("GITHub", "GitHub");
+            correctionAdd("Gihub", "GitHub");
+            correctionAdd("git-hub", "GitHub");
+            correctionAdd("GiHub", "GitHub");
+            correctionAdd("GiThub", "GitHub");
+            correctionAdd("GH", "GitHub");
+            correctionAdd("GIthub", "GitHub");
+            correctionAdd("Git Hub", "GitHub");
+            correctionAdd("GitHib", "GitHub");
+            correctionAdd("GIT HUB", "GitHub");
+
+            correctionAdd("github desktop", "GitHub Desktop");
+            correctionAdd("Git Desktop", "GitHub Desktop");
+            correctionAdd("GitHub desktop", "GitHub Desktop");
+            correctionAdd("Github Desktop", "GitHub Desktop");
+
+            correctionAdd("github-pages", "GitHub Pages");
+            correctionAdd("github pages", "GitHub Pages");
+            correctionAdd("GitHub pages", "GitHub Pages");
+            correctionAdd("gh pages", "GitHub Pages");
+
+            correctionAdd("my GitHub", "my GitHub account");
+            correctionAdd("my github", "my GitHub account");
+
+            correctionAdd("CoPilot", "GitHub Copilot");
+            correctionAdd("Github Copilot", "GitHub Copilot");
+            correctionAdd("co-pilot", "GitHub Copilot");
+            correctionAdd("copilot", "GitHub Copilot");
+            correctionAdd("Copilot", "GitHub Copilot");
+
+            correctionAdd("PyGithub", "PyGitHub");
+            correctionAdd("pyGithub", "PyGitHub");
+
+            correctionAdd("Github Actions", "GitHub Actions");
+
+            correctionAdd("Github Codespaces", "GitHub Codespaces");
+
+            correctionAdd("bitbucket", "Bitbucket");
+            correctionAdd("bitbuket", "Bitbucket");
+            correctionAdd("BitBucket", "Bitbucket");
+            correctionAdd("bit bucket", "Bitbucket");
+            correctionAdd("BITBUCKET", "Bitbucket");
+            correctionAdd("bitbecket", "Bitbucket");
+            correctionAdd("GitBucket", "Bitbucket");
+            correctionAdd("Gitbucket", "Bitbucket");
+
+            correctionAdd("Gitlab", "GitLab");
+            correctionAdd("gitlab", "GitLab");
+            correctionAdd("Git-lab", "GitLab");
+            correctionAdd("gilab", "GitLab");
+            correctionAdd("GitLAb", "GitLab");
+
+            correctionAdd("Gitlab CI/CD", "GitLab CI/CD");
+
+            correctionAdd("gitlab-ci", "GitLab CI");
+            correctionAdd("Gitlab ci", "GitLab CI");
+            correctionAdd("gitlab-ce", "GitLab CI");
+            correctionAdd("gitlab CI", "GitLab CI");
+
+            correctionAdd("git BASH", "Git Bash");
+            correctionAdd("gitBash", "Git Bash");
+            correctionAdd("git Bash", "Git Bash");
+            correctionAdd("git bash", "Git Bash");
+            correctionAdd("gitbash", "Git Bash");
+            correctionAdd("git-bash", "Git Bash");
+            correctionAdd("Git BASH", "Git Bash");
+            correctionAdd("GIT Bash", "Git Bash");
+            correctionAdd("GitBash", "Git Bash");
+            correctionAdd("Git bash", "Git Bash");
+            correctionAdd("Gitbash", "Git Bash");
+            correctionAdd("GIT bash", "Git Bash");
+            correctionAdd("Git-Bash", "Git Bash");
+            correctionAdd("Git-bash", "Git Bash");
+
+            correctionAdd("msysGit", "MSysGit");
+            correctionAdd("msysgit", "MSysGit");
+            correctionAdd("Msysgit", "MSysGit");
+            correctionAdd("MSYSGIT", "MSysGit");
+
+            // A Git client
+            correctionAdd("tortoisegit", "TortoiseGit");
+            correctionAdd("Tortoisegit", "TortoiseGit");
+            correctionAdd("tortoise git", "TortoiseGit");
+            correctionAdd("tortisegit", "TortoiseGit");
+            correctionAdd("tortoisgit", "TortoiseGit");
+            correctionAdd("Tortoise Git", "TortoiseGit");
+            correctionAdd("Tortoise git", "TortoiseGit");
+            correctionAdd("TortoiseGIT", "TortoiseGit");
+            correctionAdd("tortoise-git", "TortoiseGit");
+            correctionAdd("tortoiseGit", "TortoiseGit");
+
+            // Sort of a Git client (an open-source
+            // extension for Visual Studio Code)
+            correctionAdd("Git Lens", "GitLens");
+            correctionAdd("git lens", "GitLens");
+            correctionAdd("Gitlense", "GitLens");
+            correctionAdd("Gitlens", "GitLens");
+            correctionAdd("gitlens", "GitLens");
+
+            correctionAdd("Egit", "EGit");
+
+            correctionAdd("git-book", "Pro Git");
+
+            correctionAdd("smartgit", "SmartGit");
+
+            correctionAdd("gitorious", "Gitorious");
+
+            correctionAdd("git graph", "Git Graph");
+
+            correctionAdd("git-extensions", "Git Extensions");
+            correctionAdd("GitExtensions", "Git Extensions");
+            correctionAdd("gitextensions", "Git Extensions");
+            correctionAdd("GIT extensions", "Git Extensions");
+            correctionAdd("GIT ext", "Git Extensions");
+            correctionAdd("git extension", "Git Extensions");
+            correctionAdd("GitExtension", "Git Extensions");
+            correctionAdd("Git extensions", "Git Extensions");
+            correctionAdd("GE", "Git Extensions");
+
+            correctionAdd("gitweb", "GitWeb");
+            correctionAdd("Gitweb", "GitWeb");
+
+            correctionAdd("Git Flow", "GitFlow");
+            correctionAdd("gitflow", "GitFlow");
+            correctionAdd("git-flow", "GitFlow");
+            correctionAdd("git flow", "GitFlow");
+
+            // GUI for Git logs / changes
+            correctionAdd("gitk", "gitk (the Git repository browser)");
+            correctionAdd("gkt", "gitk (the Git repository browser)");
+
+            correctionAdd("Git gui", "Git GUI");
+            correctionAdd("git-gui", "Git GUI");
+            correctionAdd("GIT GUI", "Git GUI");
+            correctionAdd("git gui", "Git GUI");
+            correctionAdd("gitgui", "Git GUI");
+            correctionAdd("Git Gui", "Git GUI");
+            correctionAdd("git GUI", "Git GUI");
+
+            correctionAdd("Gitkraken", "GitKraken");
+            correctionAdd("gitkraken", "GitKraken");
+
+            correctionAdd("git tower", "Tower");
+            correctionAdd("Git Tower", "Tower");
+            correctionAdd("tower", "Tower");
+
+            correctionAdd("giteye", "GitEye");
+
+            // Close to "Gitee". Are they distinct?
+            correctionAdd("gitea", "Gitea");
+            correctionAdd("GiTea", "Gitea");
+
+            correctionAdd("gitee", "Gitee");
+
+            correctionAdd("gitian", "Gitian");
+
+            correctionAdd("git filter-branch", "Git filter branch");
+            correctionAdd("BFG", "Git filter branch");
+            correctionAdd("BGF", "Git filter branch");
+            correctionAdd("git-filter-branch", "Git filter branch");
+
+            correctionAdd("git-filter-repo", "Git filter-repo");
+
+            correctionAdd("gitx", "GitX");
+
+            // But what is "am" for? "apply mailbox"? It doesn't
+            // make much sense on its own. Isn't there a longer
+            // name? A longer version that would make sense?
+            // <https://www.quora.com/unanswered/What-does-am-stand-for-in-git-am-Apply-mailinglist-patch-Or-something-else>
+            //
+            correctionAdd("Git-am", "Git am");
+            correctionAdd("git am", "Git am");
+            correctionAdd("git-am", "Git am");
+
             correctionAdd("java", "Java");
             correctionAdd("JAVA", "Java");
             correctionAdd("Jave", "Java");
@@ -1293,6 +1500,7 @@ namespace OverflowHelper.core
             correctionAdd("aliminium", "aluminium");
             correctionAdd("Aluminium", "aluminium");
             correctionAdd("alum", "aluminium");
+            correctionAdd("aloominiyum", "aluminium");
 
             correctionAdd("Radium", "radium");
 
@@ -2591,6 +2799,59 @@ namespace OverflowHelper.core
             correctionAdd("dtrace", "DTrace");
             correctionAdd("Dtrace", "DTrace");
 
+            correctionAdd("latex", "LaTeX");
+            correctionAdd("Latex", "LaTeX");
+            correctionAdd("LATEX", "LaTeX");
+            correctionAdd("LaTex", "LaTeX");
+            correctionAdd("LateX", "LaTeX");
+            correctionAdd("laTeX", "LaTeX");
+
+            correctionAdd("Tex", "TeX");
+            correctionAdd("TEX", "TeX");
+            correctionAdd("tex", "TeX");
+
+            correctionAdd("TL", "TeX Live");
+            correctionAdd("Texlive", "TeX Live");
+            correctionAdd("texlive", "TeX Live");
+
+            correctionAdd("LuaLaTeX", "LuaTeX");
+            correctionAdd("Lualatex", "LuaTeX");
+            correctionAdd("lualatex", "LuaTeX");
+            correctionAdd("lulatex", "LuaTeX");
+            correctionAdd("luatex", "LuaTeX");
+
+            correctionAdd("BibTex", "BibTeX");
+            correctionAdd("Bibtex", "BibTeX");
+
+            correctionAdd("Comprehensive TeX Archive Network", "CTAN");
+            correctionAdd("ctan", "CTAN");
+
+            correctionAdd("pdftex", "pdfTeX");
+            correctionAdd("pdflatex", "pdfTeX");
+
+            correctionAdd("auctex", "AUCTeX");
+
+            correctionAdd("Gnome-Latex", "GNOME LaTeX");
+
+            correctionAdd("tex4ht", "TeX4ht");
+
+            correctionAdd("katex", "KaTeX");
+            correctionAdd("Katex", "KaTeX");
+
+            correctionAdd("pylatex", "PyLaTeX");
+
+            correctionAdd("xelatex", "LaXeTeX");
+            correctionAdd("XelaTeX", "LaXeTeX");
+
+            correctionAdd("xetex", "XeTeX");
+
+            correctionAdd("DeTeXify", "Detexify");
+
+            // Related to TeX / LaTeX
+            //
+            // Alternative URL: <https://en.wikibooks.org/wiki/LaTeX/Chemical_Graphics>
+            correctionAdd("chem fig", "chemfig");
+
             correctionAdd("SO", "Stack&nbsp;Overflow");
             correctionAdd("S.O", "Stack&nbsp;Overflow");
             correctionAdd("StacOkverflow", "Stack&nbsp;Overflow");
@@ -2860,6 +3121,9 @@ namespace OverflowHelper.core
             // Stack Overflow mini celebrity
             correctionAdd("John Skeet", "Jon Skeet");
             correctionAdd("skeet", "Jon Skeet");
+
+            // Related to Stack Overflow and Stack Exchange
+            correctionAdd("mwe", "MWE");
 
             //  Start of Stack Exchange site list (not
             //  complete (only added on demand))
@@ -6836,11 +7100,6 @@ namespace OverflowHelper.core
             correctionAdd("powertop", "PowerTOP");
             correctionAdd("Powertop", "PowerTOP");
 
-            correctionAdd("github desktop", "GitHub Desktop");
-            correctionAdd("Git Desktop", "GitHub Desktop");
-            correctionAdd("GitHub desktop", "GitHub Desktop");
-            correctionAdd("Github Desktop", "GitHub Desktop");
-
             correctionAdd("Docker desktop", "Docker Desktop");
             correctionAdd("docker desktop", "Docker Desktop");
             correctionAdd("docker-desktop", "Docker Desktop");
@@ -7719,21 +7978,6 @@ namespace OverflowHelper.core
             correctionAdd("MinGW-w64", "Mingw-w64");
 
             correctionAdd("MINTTY", "mintty");
-
-            correctionAdd("git BASH", "Git Bash");
-            correctionAdd("gitBash", "Git Bash");
-            correctionAdd("git Bash", "Git Bash");
-            correctionAdd("git bash", "Git Bash");
-            correctionAdd("gitbash", "Git Bash");
-            correctionAdd("git-bash", "Git Bash");
-            correctionAdd("Git BASH", "Git Bash");
-            correctionAdd("GIT Bash", "Git Bash");
-            correctionAdd("GitBash", "Git Bash");
-            correctionAdd("Git bash", "Git Bash");
-            correctionAdd("Gitbash", "Git Bash");
-            correctionAdd("GIT bash", "Git Bash");
-            correctionAdd("Git-Bash", "Git Bash");
-            correctionAdd("Git-bash", "Git Bash");
 
             correctionAdd("Winterbash", "Winter Bash");
             correctionAdd("winter bash", "Winter Bash");
@@ -9999,9 +10243,6 @@ namespace OverflowHelper.core
 
             correctionAdd("textfile", "text file");
 
-            correctionAdd("gitignore", ".gitignore file");
-            correctionAdd(".gitignore", ".gitignore file");
-
             correctionAdd("commmand", "command");
             correctionAdd("commad", "command");
             correctionAdd("comand", "command");
@@ -11330,10 +11571,6 @@ namespace OverflowHelper.core
             correctionAdd("gwt", "Google&nbsp;Web&nbsp;Toolkit"); // Expansion. Add new field with abbreviation?. In case it would be GWT.
             correctionAdd("GWT", "Google&nbsp;Web&nbsp;Toolkit");
 
-            correctionAdd("git", "Git");
-            correctionAdd("GIT", "Git");
-            correctionAdd("GiT", "Git");
-
             correctionAdd("Nunit", "NUnit");
             correctionAdd("nunit", "NUnit");
             correctionAdd("nUnit", "NUnit");
@@ -11387,17 +11624,6 @@ namespace OverflowHelper.core
 
             correctionAdd("HEXEDIT", "hexedit");
 
-            correctionAdd("tortoisegit", "TortoiseGit");
-            correctionAdd("Tortoisegit", "TortoiseGit");
-            correctionAdd("tortoise git", "TortoiseGit");
-            correctionAdd("tortisegit", "TortoiseGit");
-            correctionAdd("tortoisgit", "TortoiseGit");
-            correctionAdd("Tortoise Git", "TortoiseGit");
-            correctionAdd("Tortoise git", "TortoiseGit");
-            correctionAdd("TortoiseGIT", "TortoiseGit");
-            correctionAdd("tortoise-git", "TortoiseGit");
-            correctionAdd("tortoiseGit", "TortoiseGit");
-
             correctionAdd("benifit", "benefit");
             correctionAdd("benift", "benefit");
             correctionAdd("benfit", "benefit");
@@ -11430,11 +11656,6 @@ namespace OverflowHelper.core
             correctionAdd("spited", "split");
             correctionAdd("splited", "split");
             correctionAdd("spilt", "split");
-
-            correctionAdd("msysGit", "MSysGit");
-            correctionAdd("msysgit", "MSysGit");
-            correctionAdd("Msysgit", "MSysGit");
-            correctionAdd("MSYSGIT", "MSysGit");
 
             correctionAdd("ommit", "omit");
 
@@ -11591,11 +11812,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Hohmann transfer", "Hohmann transfer orbit");
 
-            correctionAdd("Egit", "EGit");
-
             correctionAdd("bisquet", "biscuit");
-
-            correctionAdd("git-book", "Pro Git");
 
             correctionAdd("implicite", "implicit");
             correctionAdd("implict", "implicit");
@@ -11682,8 +11899,6 @@ namespace OverflowHelper.core
             correctionAdd("Commit", "commit");
 
             correctionAdd("delimite", "delimit");
-
-            correctionAdd("smartgit", "SmartGit");
 
             correctionAdd("google translator toolkit", "Google Translator Toolkit");
 
@@ -12135,29 +12350,6 @@ namespace OverflowHelper.core
             correctionAdd("Aouth", "OAuth");
             correctionAdd("aouth", "OAuth");
 
-            correctionAdd("Github", "GitHub");
-            correctionAdd("github", "GitHub");
-            correctionAdd("git hub", "GitHub");
-            correctionAdd("gitHub", "GitHub");
-            correctionAdd("GITHUB", "GitHub");
-            correctionAdd("gihub", "GitHub");
-            correctionAdd("githhub", "GitHub");
-            correctionAdd("Githhub", "GitHub");
-            correctionAdd("gibhub", "GitHub"); // Misspelling.
-            correctionAdd("gitub", "GitHub");
-            correctionAdd("gh", "GitHub");
-            correctionAdd("Git hub", "GitHub");
-            correctionAdd("GITHub", "GitHub");
-            correctionAdd("Gihub", "GitHub");
-            correctionAdd("git-hub", "GitHub");
-            correctionAdd("GiHub", "GitHub");
-            correctionAdd("GiThub", "GitHub");
-            correctionAdd("GH", "GitHub");
-            correctionAdd("GIthub", "GitHub");
-            correctionAdd("Git Hub", "GitHub");
-            correctionAdd("GitHib", "GitHub");
-            correctionAdd("GIT HUB", "GitHub");
-
             correctionAdd("tinymce", "TinyMCE");
             correctionAdd("TinyMce", "TinyMCE");
             correctionAdd("tinyMCE", "TinyMCE");
@@ -12404,8 +12596,6 @@ namespace OverflowHelper.core
             correctionAdd("Aptitude", "aptitude");
 
             correctionAdd("redmine", "Redmine");
-
-            correctionAdd("gitorious", "Gitorious");
 
             correctionAdd("flickr", "Flickr");
 
@@ -12881,13 +13071,6 @@ namespace OverflowHelper.core
             correctionAdd("Document Object Model", "DOM");
             correctionAdd("document object model", "DOM");
             correctionAdd("document object", "DOM");
-
-            correctionAdd("latex", "LaTeX");
-            correctionAdd("Latex", "LaTeX");
-            correctionAdd("LATEX", "LaTeX");
-            correctionAdd("LaTex", "LaTeX");
-            correctionAdd("LateX", "LaTeX");
-            correctionAdd("laTeX", "LaTeX");
 
             correctionAdd("b/c", "because");
             correctionAdd("cuz", "because");
@@ -13544,8 +13727,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ph", "pH");
             correctionAdd("PH", "pH");
-
-            correctionAdd("git graph", "Git Graph");
 
             correctionAdd("Glyph", "glyph");
 
@@ -17024,15 +17205,6 @@ namespace OverflowHelper.core
 
             correctionAdd("vcl", "VCL");
 
-            correctionAdd("bitbucket", "Bitbucket");
-            correctionAdd("bitbuket", "Bitbucket");
-            correctionAdd("BitBucket", "Bitbucket");
-            correctionAdd("bit bucket", "Bitbucket");
-            correctionAdd("BITBUCKET", "Bitbucket");
-            correctionAdd("bitbecket", "Bitbucket");
-            correctionAdd("GitBucket", "Bitbucket");
-            correctionAdd("Gitbucket", "Bitbucket");
-
             correctionAdd("squeak", "Squeak");
 
             correctionAdd("argb", "ARGB");
@@ -19674,12 +19846,6 @@ namespace OverflowHelper.core
             correctionAdd("alwayes", "always");
             correctionAdd("alwaly", "always");
 
-            correctionAdd("Gitlab", "GitLab");
-            correctionAdd("gitlab", "GitLab");
-            correctionAdd("Git-lab", "GitLab");
-            correctionAdd("gilab", "GitLab");
-            correctionAdd("GitLAb", "GitLab");
-
             correctionAdd("spanish", "Spanish");
             correctionAdd("SPanish", "Spanish");
 
@@ -20709,16 +20875,6 @@ namespace OverflowHelper.core
 
             correctionAdd("fpu", "FPU");
 
-            correctionAdd("git-extensions", "Git Extensions");
-            correctionAdd("GitExtensions", "Git Extensions");
-            correctionAdd("gitextensions", "Git Extensions");
-            correctionAdd("GIT extensions", "Git Extensions");
-            correctionAdd("GIT ext", "Git Extensions");
-            correctionAdd("git extension", "Git Extensions");
-            correctionAdd("GitExtension", "Git Extensions");
-            correctionAdd("Git extensions", "Git Extensions");
-            correctionAdd("GE", "Git Extensions");
-
             correctionAdd("Kdiff3", "KDiff3");
             correctionAdd("kdiff3", "KDiff3");
             correctionAdd("KDiff 3", "KDiff3");
@@ -21112,10 +21268,6 @@ namespace OverflowHelper.core
             correctionAdd("cyrillic", "Cyrillic");
 
             correctionAdd("latin", "Latin");
-
-            correctionAdd("Tex", "TeX");
-            correctionAdd("TEX", "TeX");
-            correctionAdd("tex", "TeX");
 
             correctionAdd("twig", "Twig");
 
@@ -23931,9 +24083,6 @@ namespace OverflowHelper.core
 
             correctionAdd("soundcard", "sound card");
 
-            correctionAdd("gitweb", "GitWeb");
-            correctionAdd("Gitweb", "GitWeb");
-
             correctionAdd("accorging", "according");
             correctionAdd("Accorting", "according");
             correctionAdd("accorting", "according");
@@ -24173,11 +24322,6 @@ namespace OverflowHelper.core
             correctionAdd("suppport", "support");
 
             correctionAdd("fltk", "FLTK");
-
-            correctionAdd("Git Flow", "GitFlow");
-            correctionAdd("gitflow", "GitFlow");
-            correctionAdd("git-flow", "GitFlow");
-            correctionAdd("git flow", "GitFlow");
 
             correctionAdd("venn diagram", "Venn diagram");
 
@@ -25018,10 +25162,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Cern", "CERN");
 
-            correctionAdd("Git 2.0", "Git&nbsp;2.0"); // Sort of identity mapping
-            correctionAdd("git2", "Git&nbsp;2.0");
-            correctionAdd("Git2", "Git&nbsp;2.0");
-
             correctionAdd("Higgs Boson", "Higgs boson");
             correctionAdd("Higg's boson", "Higgs boson");
 
@@ -25171,9 +25311,6 @@ namespace OverflowHelper.core
             correctionAdd("file chooser", "file dialog");
             correctionAdd("File CHooser", "file dialog");
             correctionAdd("File dialog", "file dialog");
-
-            correctionAdd("gitk", "gitk (the Git repository browser)");
-            correctionAdd("gkt", "gitk (the Git repository browser)");
 
             correctionAdd("intimitely", "intimately");
 
@@ -25453,14 +25590,7 @@ namespace OverflowHelper.core
 
             correctionAdd("venegence", "vengeance");
 
-            correctionAdd("Git gui", "Git GUI");
-            correctionAdd("git-gui", "Git GUI");
-            correctionAdd("GIT GUI", "Git GUI");
-            correctionAdd("git gui", "Git GUI");
-            correctionAdd("gitgui", "Git GUI");
-            correctionAdd("Git Gui", "Git GUI");
-            correctionAdd("git GUI", "Git GUI");
-
+            // Linux
             correctionAdd("ksh", "KornShell");
             correctionAdd("korn shell", "KornShell");
             correctionAdd("Kornshell", "KornShell");
@@ -25869,11 +25999,6 @@ namespace OverflowHelper.core
 
             correctionAdd("filebeat", "Filebeat");
 
-            correctionAdd("gitlab-ci", "GitLab CI");
-            correctionAdd("Gitlab ci", "GitLab CI");
-            correctionAdd("gitlab-ce", "GitLab CI");
-            correctionAdd("gitlab CI", "GitLab CI");
-
             correctionAdd("PDP11", "PDP-11");
 
             correctionAdd("PDP7", "PDP-7");
@@ -26070,9 +26195,11 @@ namespace OverflowHelper.core
 
             correctionAdd("Wall Of Text", "wall of text");
 
-            correctionAdd("Gitkraken", "GitKraken");
-            correctionAdd("gitkraken", "GitKraken");
+            // United States
+            correctionAdd("GTMO", "Guantanamo Bay Naval Base");
+            correctionAdd("Gitmo", "Guantanamo Bay Naval Base");
 
+            // United States
             correctionAdd("NYT", "The New York Times");
             correctionAdd("NYT-", "The New York Times");
             correctionAdd("NYTimes", "The New York Times");
@@ -28046,11 +28173,6 @@ namespace OverflowHelper.core
             correctionAdd("Van der Waals force", "van der Waals force");
             correctionAdd("van der Waals", "van der Waals force");
 
-            correctionAdd("github-pages", "GitHub Pages");
-            correctionAdd("github pages", "GitHub Pages");
-            correctionAdd("GitHub pages", "GitHub Pages");
-            correctionAdd("gh pages", "GitHub Pages");
-
             correctionAdd("klunky", "clunky");
 
             correctionAdd("contant", "content");
@@ -28766,12 +28888,6 @@ namespace OverflowHelper.core
             correctionAdd("7th", "seventh");
             correctionAdd("Seventh", "seventh");
 
-            correctionAdd("Git Lens", "GitLens");
-            correctionAdd("git lens", "GitLens");
-            correctionAdd("Gitlense", "GitLens");
-            correctionAdd("Gitlens", "GitLens");
-            correctionAdd("gitlens", "GitLens");
-
             correctionAdd("viking", "Viking");
 
             correctionAdd("consequtively", "consecutively");
@@ -28913,10 +29029,6 @@ namespace OverflowHelper.core
             correctionAdd("Freelancer", "freelancer");
 
             correctionAdd("freelancer.com", "Freelancer.com");
-
-            correctionAdd("TL", "TeX Live");
-            correctionAdd("Texlive", "TeX Live");
-            correctionAdd("texlive", "TeX Live");
 
             correctionAdd("TVS", "Transient voltage suppressor");
             correctionAdd("tvs", "Transient voltage suppressor");
@@ -29507,12 +29619,6 @@ namespace OverflowHelper.core
             correctionAdd("dsa", "DSA");
 
             correctionAdd("ecdsa", "ECDSA");
-
-            correctionAdd("LuaLaTeX", "LuaTeX");
-            correctionAdd("Lualatex", "LuaTeX");
-            correctionAdd("lualatex", "LuaTeX");
-            correctionAdd("lulatex", "LuaTeX");
-            correctionAdd("luatex", "LuaTeX");
 
             correctionAdd("nlc", "noctilucent cloud");
             correctionAdd("NLC", "noctilucent cloud");
@@ -33252,10 +33358,6 @@ namespace OverflowHelper.core
 
             correctionAdd("rs", "Rs");
 
-            correctionAdd("git tower", "Tower");
-            correctionAdd("Git Tower", "Tower");
-            correctionAdd("tower", "Tower");
-
             correctionAdd("adviced", "advised");
 
             correctionAdd("CG", "center of gravity");
@@ -36647,9 +36749,6 @@ namespace OverflowHelper.core
             correctionAdd("wapon", "weapon");
             correctionAdd("wappon", "weapon");
 
-            correctionAdd("BibTex", "BibTeX");
-            correctionAdd("Bibtex", "BibTeX");
-
             correctionAdd("Bitcloud", "BitClout");
             correctionAdd("BitCloud", "BitClout");
 
@@ -37440,14 +37539,8 @@ namespace OverflowHelper.core
             correctionAdd("sscce", "short self-contained correct example");
             correctionAdd("SSCCE", "short self-contained correct example");
 
-            correctionAdd("Comprehensive TeX Archive Network", "CTAN");
-            correctionAdd("ctan", "CTAN");
-
             correctionAdd("apporoximated", "approximated");
             correctionAdd("aproroximated", "approximated");
-
-            correctionAdd("pdftex", "pdfTeX");
-            correctionAdd("pdflatex", "pdfTeX");
 
             correctionAdd("rcp", "rich client platform");
             correctionAdd("RCP", "rich client platform");
@@ -37720,8 +37813,6 @@ namespace OverflowHelper.core
             correctionAdd("worth a grain of salt", "with a grain of salt");
             correctionAdd("a grain of salt", "with a grain of salt");
 
-            correctionAdd("giteye", "GitEye");
-
             correctionAdd("angel", "angle");
             correctionAdd("Angel", "angle");
 
@@ -37923,9 +38014,6 @@ namespace OverflowHelper.core
             correctionAdd("2nd order", "second-order");
 
             correctionAdd("modifirer", "modifier");
-
-            correctionAdd("my GitHub", "my GitHub account");
-            correctionAdd("my github", "my GitHub account");
 
             correctionAdd("Winer", "Dave Winer");
 
@@ -39152,9 +39240,6 @@ namespace OverflowHelper.core
 
             correctionAdd("cling", "Cling");
 
-            correctionAdd("gitea", "Gitea");
-            correctionAdd("GiTea", "Gitea");
-
             correctionAdd("taylor series", "Taylor series");
 
             correctionAdd("plaintext", "plain text");
@@ -39464,9 +39549,6 @@ namespace OverflowHelper.core
 
             correctionAdd("self centered", "self-centered");
 
-            correctionAdd("GTMO", "Guantanamo Bay Naval Base");
-            correctionAdd("Gitmo", "Guantanamo Bay Naval Base");
-
             correctionAdd("unexpecedly", "unexpectedly");
 
             correctionAdd("GETENT", "getent");
@@ -39734,8 +39816,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Type Erasure", "type erasure");
 
-            correctionAdd("auctex", "AUCTeX");
-
             correctionAdd("accomodation", "accommodation");
 
             correctionAdd("vender", "vendor");
@@ -39850,16 +39930,20 @@ namespace OverflowHelper.core
 
             correctionAdd("helm", "Helm");
 
+            // Astronomy. Black hole
             correctionAdd("Sagittarius A", "Sagittarius A*");
             correctionAdd("Sgr A", "Sagittarius A*");
             correctionAdd("Sgr A*", "Sagittarius A*");
 
+            // Astronomy. Black hole
             correctionAdd("Schwartzchild metric", "Schwarzschild metric");
             correctionAdd("schwarzschild metric", "Schwarzschild metric");
 
+            // Astronomy. Black hole
             correctionAdd("Schwartzchild", "Schwarzschild radius");
             correctionAdd("Schwarzschild", "Schwarzschild radius");
 
+            // Astronomy. Black hole
             correctionAdd("collapsars", "collapsar");
 
             correctionAdd("damanged", "damaged");
@@ -40071,12 +40155,6 @@ namespace OverflowHelper.core
 
             correctionAdd("dbms", "DBMS");
 
-            correctionAdd("Gnome-Latex", "GNOME LaTeX");
-
-            correctionAdd("LFS", "Git LFS");
-
-            correctionAdd("mwe", "MWE");
-
             correctionAdd("Brocolli", "broccoli");
 
             correctionAdd("dash board", "dashboard");
@@ -40099,8 +40177,6 @@ namespace OverflowHelper.core
             correctionAdd("Stripped down", "stripped-down");
 
             correctionAdd("Rohde Scharz", "Rohde & Schwarz");
-
-            correctionAdd("tex4ht", "TeX4ht");
 
             correctionAdd("deployd", "deployed");
 
@@ -40323,12 +40399,6 @@ namespace OverflowHelper.core
             correctionAdd("stupic", "stupid");
 
             correctionAdd("eevblog", "EEVBlog");
-
-            correctionAdd("CoPilot", "GitHub Copilot");
-            correctionAdd("Github Copilot", "GitHub Copilot");
-            correctionAdd("co-pilot", "GitHub Copilot");
-            correctionAdd("copilot", "GitHub Copilot");
-            correctionAdd("Copilot", "GitHub Copilot");
 
             correctionAdd("mbed", "Mbed");
 
@@ -40951,8 +41021,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Google Closure Compiler", "Closure Compiler");
 
-            correctionAdd("gitian", "Gitian");
-
             correctionAdd("gitian-builder", "Gitian Builder");
             correctionAdd("gitian-build", "Gitian Builder");
 
@@ -40982,16 +41050,7 @@ namespace OverflowHelper.core
             correctionAdd("labeled", "labelled");
             correctionAdd("labeld", "labelled");
 
-            correctionAdd("Git hook", "Git hooks");
-            correctionAdd("githooks", "Git hooks");
-            correctionAdd("git-hooks", "Git hooks");
-            correctionAdd("git hooks", "Git hooks");
-            correctionAdd("git hook", "Git hooks");
-
             correctionAdd("Wall", "Larry Wall");
-
-            correctionAdd("PyGithub", "PyGitHub");
-            correctionAdd("pyGithub", "PyGitHub");
 
             correctionAdd("quip", "Quip");
 
@@ -41009,13 +41068,6 @@ namespace OverflowHelper.core
 
             correctionAdd("swapiness", "swappiness");
             correctionAdd("Swappiness", "swappiness");
-
-            correctionAdd("git filter-branch", "Git filter branch");
-            correctionAdd("BFG", "Git filter branch");
-            correctionAdd("BGF", "Git filter branch");
-            correctionAdd("git-filter-branch", "Git filter branch");
-
-            correctionAdd("git-filter-repo", "Git filter-repo");
 
             correctionAdd("appeace", "appease");
 
@@ -41478,8 +41530,6 @@ namespace OverflowHelper.core
 
             correctionAdd("extra-ordinary", "extraordinary");
             correctionAdd("extra ordinary", "extraordinary");
-
-            correctionAdd("GIT-LS-FILES", "git-ls-files");
 
             correctionAdd("password-less", "passwordless");
 
@@ -42200,11 +42250,6 @@ namespace OverflowHelper.core
 
             correctionAdd("intriuged", "intrigued");
 
-            correctionAdd("katex", "KaTeX");
-            correctionAdd("Katex", "KaTeX");
-
-            correctionAdd("pylatex", "PyLaTeX");
-
             correctionAdd("KNITR", "knitr");
 
             correctionAdd("proundess", "proudness");
@@ -42551,18 +42596,15 @@ namespace OverflowHelper.core
 
             correctionAdd("columbia", "Colombia");
 
+            // Linux
             correctionAdd("DFSG", "Debian Free Software Guidelines");
-
-            correctionAdd("xelatex", "LaXeTeX");
-            correctionAdd("XelaTeX", "LaXeTeX");
 
             correctionAdd("pixabay", "Pixabay");
 
             correctionAdd("unsplash", "Unsplash");
 
+            // Astronomy (though also featured in The Hitchhiker's Guide to the Galaxy)
             correctionAdd("ursa major", "Ursa Major");
-
-            correctionAdd("xetex", "XeTeX");
 
             correctionAdd("associete", "associate");
 
@@ -43659,8 +43701,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Cloudbolt", "CloudBolt");
 
-            correctionAdd("gitee", "Gitee");
-
             correctionAdd("gogs", "Gogs");
 
             correctionAdd("Good reads", "Goodreads");
@@ -43716,8 +43756,6 @@ namespace OverflowHelper.core
 
             correctionAdd("WWDC", "Apple Worldwide Developers Conference");
 
-            correctionAdd("gitx", "GitX");
-
             correctionAdd("google pixel", "Google Pixel");
 
             correctionAdd("OpenVino", "OpenVINO");
@@ -43750,8 +43788,6 @@ namespace OverflowHelper.core
 
             correctionAdd("higher res", "higher-resolution");
             correctionAdd("higher-res", "higher-resolution");
-
-            correctionAdd("DeTeXify", "Detexify");
 
             correctionAdd("hexo", "Hexo");
 
@@ -43963,10 +43999,6 @@ namespace OverflowHelper.core
             correctionAdd("AWS Code Pipeline", "AWS CodePipeline");
 
             correctionAdd("C driver", "C drive");
-
-            correctionAdd("Github Actions", "GitHub Actions");
-
-            correctionAdd("Gitlab CI/CD", "GitLab CI/CD");
 
             correctionAdd("phabricator", "Phabricator");
 
@@ -45157,8 +45189,6 @@ namespace OverflowHelper.core
             correctionAdd("menues", "menus");
 
             correctionAdd("Agner Fog's optimization manuals", "Agner Fog's optimisation manuals");
-
-            correctionAdd("Github Codespaces", "GitHub Codespaces");
 
             correctionAdd("Xeon E5 1620", "Xeon E5-1620");
 
@@ -47689,15 +47719,6 @@ namespace OverflowHelper.core
             correctionAdd("glint in the milkman's eye", "twinkle in one's father's eye");
             correctionAdd("twinkle in one's eye", "twinkle in one's father's eye");
 
-            // But what is "am" for? "apply mailbox"? It doesn't
-            // make much sense on its own. Isn't there a longer
-            // name? A longer version that would make sense?
-            // <https://www.quora.com/unanswered/What-does-am-stand-for-in-git-am-Apply-mailinglist-patch-Or-something-else>
-            //
-            correctionAdd("Git-am", "Git am");
-            correctionAdd("git am", "Git am");
-            correctionAdd("git-am", "Git am");
-
             correctionAdd("corp", "corporate");
 
             correctionAdd("back filling", "backfilling");
@@ -49016,6 +49037,12 @@ namespace OverflowHelper.core
             correctionAdd("wargame", "war game");
 
             correctionAdd("celebrety", "celebrity");
+
+            correctionAdd("Natural Keyboard", "Microsoft Natural Keyboard");
+
+            correctionAdd("pentagone", "pentagon");
+
+            correctionAdd("UK keyboard", "UK keyboard layout");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -76599,6 +76626,14 @@ namespace OverflowHelper.core
 
             URL_Add("Johann Sebastian Bach", "https://en.wikipedia.org/wiki/Johann_Sebastian_Bach");
 
+            URL_Add("chemfig", "https://www.ctan.org/pkg/chemfig?lang=en");
+
+            URL_Add("Microsoft Natural Keyboard", "https://en.wikipedia.org/wiki/Microsoft_Natural_keyboard#Natural_Keyboard");
+
+            URL_Add("pentagon", "https://en.wiktionary.org/wiki/pentagon#Noun");
+
+            URL_Add("UK keyboard layout", "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#United_Kingdom");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -78521,6 +78556,8 @@ namespace OverflowHelper.core
             // Alternative URL: <https://en.wikipedia.org/wiki/Symphony_No._9_(Beethoven)#IV._Finale>
             correctionAdd("freude_", "Ode an die Freude_");
 
+            correctionAdd("ket_", "key_");
+
             // URL mappings
             //
             //
@@ -79611,6 +79648,8 @@ namespace OverflowHelper.core
             URL_Add("Data Science (Stack Exchange site)_", "https://datascience.stackexchange.com/tour");
 
             URL_Add("Ode an die Freude_", "https://www.youtube.com/watch?v=kbJcQYVtZMo");
+
+            URL_Add("key_", "https://en.wiktionary.org/wiki/key#Noun");
 
         } //addLookupData_alternativeWordSet()
 
