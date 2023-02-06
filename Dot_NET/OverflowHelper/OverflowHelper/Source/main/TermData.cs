@@ -5496,6 +5496,7 @@ namespace OverflowHelper.core
             correctionAdd("Turbo c++", "Turbo C++");
             correctionAdd("turbo C++", "Turbo C++");
             correctionAdd("Turbo-C", "Turbo C++");
+            correctionAdd("Yashavant Kanetkar books", "Turbo C++");
 
             correctionAdd("C++builder", "C++Builder");
             correctionAdd("c++builder", "C++Builder");
@@ -9179,17 +9180,30 @@ namespace OverflowHelper.core
             correctionAdd("key-stroke", "keystroke");
             correctionAdd("key stroke", "keystroke");
 
+            // A keyboard layout
             correctionAdd("US keyboard", "United States keyboard layout");
             correctionAdd("us keyboard", "United States keyboard layout");
             correctionAdd("Keyboard - US", "United States keyboard layout");
             correctionAdd("American keyboard", "United States keyboard layout");
 
+            // A keyboard layout
             correctionAdd("UK keyboard", "UK keyboard layout");
 
+            // A keyboard layout
             correctionAdd("dk keyboard", "Danish keyboard layout");
 
+            // A keyboard layout
             correctionAdd("ortholinear", "ortholinear keyboard");
             correctionAdd("ortho-linear", "ortholinear keyboard");
+
+            // A keyboard layout
+            correctionAdd("colemak", "Colemak");
+            correctionAdd("Colemake", "Colemak");
+
+            // A keyboard layout
+            correctionAdd("DVORAK", "Dvorak");
+            correctionAdd("dvorak", "Dvorak");
+            correctionAdd("Dvorak layout", "Dvorak");
 
             correctionAdd("key cap", "keycap");
             correctionAdd("Keycap", "keycap");
@@ -9267,7 +9281,10 @@ namespace OverflowHelper.core
             // A manufacturer of switches for mechanical keyboards
             // (and by extension, a range of switches for
             // mechanical keyboards).
+            //
+            // Not to be confused with "Keil"
             correctionAdd("Kail", "Kailh");
+            correctionAdd("Keihl", "Kailh");
 
             // A type of switch for mechanical keyboards
             // See also <https://switchandclick.com/kailh-switches-a-comprehensive-guide/>.
@@ -9600,6 +9617,12 @@ namespace OverflowHelper.core
             //
             correctionAdd("JWK", "JSON Web Key");
             correctionAdd("jwk", "JSON Web Key");
+
+            // A vendor of C and C++ compilers 
+            //
+            // Not to be confused with "Kailh" (switches 
+            // for mechanical keyboards)
+            correctionAdd("keil", "Keil");
 
             correctionAdd("South pole", "south pole");
 
@@ -15986,6 +16009,10 @@ namespace OverflowHelper.core
             correctionAdd("C strings", "C string");
             correctionAdd("CStrings", "C string");
             correctionAdd("c-string", "C string");
+            correctionAdd("C - string", "C string");
+            correctionAdd("C-String", "C string");
+            correctionAdd("Cstrings", "C string");
+            correctionAdd("cstrings", "C string");
 
             // Employee at Microsoft. Scott Hanselman's boss.
             correctionAdd("ScottGu", "Scott Guthrie");
@@ -18229,6 +18256,7 @@ namespace OverflowHelper.core
             correctionAdd("peoples", "people");
             correctionAdd("peepl", "people");
             correctionAdd("peeps", "people");
+            correctionAdd("prople", "people");
 
             correctionAdd("Loc", "LOC");
             correctionAdd("loc", "LOC");
@@ -22823,6 +22851,7 @@ namespace OverflowHelper.core
             correctionAdd("two dimension", "two-dimensional");
             correctionAdd("2 dimension", "two-dimensional");
             correctionAdd("2 dimentional", "two-dimensional");
+            correctionAdd("2 D", "two-dimensional");
 
             correctionAdd("3D", "three-dimensional");
             correctionAdd("3d", "three-dimensional");
@@ -23065,6 +23094,9 @@ namespace OverflowHelper.core
             correctionAdd("Offical", "official");
             correctionAdd("Official", "official");
             correctionAdd("oficial", "official");
+            correctionAdd("offficial", "official");
+
+            correctionAdd("unoffical", "unofficial");
 
             correctionAdd("other wise", "otherwise");
             correctionAdd("o/w", "otherwise");
@@ -23521,6 +23553,7 @@ namespace OverflowHelper.core
             correctionAdd("wanr", "want");
             correctionAdd("wan", "want");
             correctionAdd("wante", "want");
+            correctionAdd("wnt", "want");
 
             correctionAdd("work force", "workforce");
 
@@ -24487,8 +24520,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Indigogogo", "Indiegogo");
             correctionAdd("indigogogo", "Indiegogo");
-
-            correctionAdd("keil", "Keil");
 
             correctionAdd("luamacros", "LuaMacros");
 
@@ -28238,6 +28269,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ocassional", "occasional");
             correctionAdd("occational", "occasional");
+            correctionAdd("occusional", "occasional");
 
             correctionAdd("cua", "CUA");
 
@@ -29125,10 +29157,6 @@ namespace OverflowHelper.core
 
             correctionAdd("track", "trick");
 
-            correctionAdd("DVORAK", "Dvorak");
-            correctionAdd("dvorak", "Dvorak");
-            correctionAdd("Dvorak layout", "Dvorak");
-
             correctionAdd("mono repo", "monolithic repository");
             correctionAdd("monorepo", "monolithic repository");
 
@@ -29238,6 +29266,7 @@ namespace OverflowHelper.core
             correctionAdd("Documentation", "documentation");
             correctionAdd("documenttion", "documentation");
             correctionAdd("documetation", "documentation");
+            correctionAdd("documentaiton", "documentation");
 
             correctionAdd("Dox", "doxx");
             correctionAdd("dox", "doxx");
@@ -31741,6 +31770,7 @@ namespace OverflowHelper.core
             correctionAdd("at the minute", "at the moment");
             correctionAdd("for moment", "at the moment");
             correctionAdd("for the moment", "at the moment");
+            correctionAdd("at the mo", "at the moment");
 
             correctionAdd("momment", "moment");
             correctionAdd("moemnt", "moment");
@@ -31892,6 +31922,7 @@ namespace OverflowHelper.core
 
             correctionAdd("improvment", "improvement");
             correctionAdd("improment", "improvement");
+            correctionAdd("improvation", "improvement");
 
             correctionAdd("targeet", "target");
             correctionAdd("taget", "target");
@@ -32490,6 +32521,7 @@ namespace OverflowHelper.core
             correctionAdd("non sequiter", "non sequitur");
 
             correctionAdd("Synchronisation", "synchronisation");
+            correctionAdd("synchronism", "synchronisation");
 
             correctionAdd("Tin", "tin");
             correctionAdd("Sn", "tin");
@@ -36235,8 +36267,6 @@ namespace OverflowHelper.core
             correctionAdd("a record", "A record");
 
             correctionAdd("alltrails", "AllTrails");
-
-            correctionAdd("colemak", "Colemak");
 
             correctionAdd("evga", "EVGA");
 
@@ -42061,8 +42091,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Superheterodyne Receiver", "superheterodyne receiver");
 
-            correctionAdd("unoffical", "unofficial");
-
             correctionAdd("cardano", "Cardano");
             correctionAdd("Cardono", "Cardano");
 
@@ -45299,6 +45327,8 @@ namespace OverflowHelper.core
 
             correctionAdd("ASLR", "address space layout randomization");
 
+            correctionAdd("relayout", "layout");
+
             correctionAdd("boxplot", "box plot");
 
             correctionAdd("call out", "callout");
@@ -46207,6 +46237,8 @@ namespace OverflowHelper.core
             correctionAdd("On the first glance", "at first glance");
             correctionAdd("first glance", "at first glance");
             correctionAdd("on the first glance", "at first glance");
+            correctionAdd("At a first glance", "at first glance");
+            correctionAdd("at a first glance", "at first glance");
 
             correctionAdd("ceramic oscillator", "ceramic resonator");
 
@@ -48741,8 +48773,6 @@ namespace OverflowHelper.core
 
             correctionAdd("adviseable", "advisable");
 
-            correctionAdd("relayout", "layout");
-
             correctionAdd("non significant", "nonsignificant");
 
             correctionAdd("SmashingMagazine", "Smashing Magazine");
@@ -49111,6 +49141,32 @@ namespace OverflowHelper.core
             correctionAdd("multipage app", "multi-page application");
 
             correctionAdd("re-wording", "rewording");
+
+            correctionAdd("C++ primer", "C++ Primer");
+
+            correctionAdd("COVERITY", "Coverity");
+
+            correctionAdd("head ache", "headache");
+
+            correctionAdd("Summer Solstice", "summer solstice");
+
+            correctionAdd("asprintf", "asprintf()");
+
+            correctionAdd("disabliing", "disabling");
+            correctionAdd("Disabliing", "disabling");
+
+            correctionAdd("gstreamer", "GStreamer");
+            correctionAdd("Gstreamer", "GStreamer");
+
+            correctionAdd("rivaling", "rival");
+
+            correctionAdd("rtp", "RTP");
+
+            correctionAdd("trenchcoat", "trench coat");
+
+            correctionAdd("turn over", "turnover");
+
+            correctionAdd("reencode", "re-encode");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -76712,6 +76768,30 @@ namespace OverflowHelper.core
 
             URL_Add("rewording", "https://en.wiktionary.org/wiki/reword#Verb");
 
+            URL_Add("C++ Primer", "https://en.wikipedia.org/wiki/Stanley_B._Lippman");
+
+            URL_Add("Coverity", "https://en.wikipedia.org/wiki/Coverity");
+
+            URL_Add("headache", "https://en.wiktionary.org/wiki/headache#Noun");
+
+            URL_Add("summer solstice", "https://en.wiktionary.org/wiki/summer_solstice#Noun");
+
+            URL_Add("asprintf()", "https://www.gnu.org/software/libc/manual/2.37/html_node/Dynamic-Output.html");
+
+            URL_Add("disabling", "https://en.wiktionary.org/wiki/disable#Verb");
+
+            URL_Add("GStreamer", "https://en.wikipedia.org/wiki/GStreamer");
+
+            URL_Add("rival", "https://en.wiktionary.org/wiki/rival#Adjective");
+
+            URL_Add("RTP", "https://en.wikipedia.org/wiki/Real-time_Transport_Protocol");
+
+            URL_Add("trench coat", "https://en.wiktionary.org/wiki/trench_coat#Noun");
+
+            URL_Add("turnover", "https://en.wiktionary.org/wiki/turnover#Noun");
+
+            URL_Add("re-encode", "https://en.wiktionary.org/wiki/re-encode#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -78649,11 +78729,15 @@ namespace OverflowHelper.core
             correctionAdd("C string_", "null-terminated string_");
             correctionAdd("ASCIIZ_", "null-terminated string_");
             correctionAdd("asciiz_", "null-terminated string_");
+            correctionAdd("null-terminated_", "null-terminated string_");
 
             correctionAdd("small string optimization_", "short string optimization_");
             correctionAdd("SSO_", "short string optimization_");
             correctionAdd("Short String Optimization_", "short string optimization_");
             correctionAdd("Small String Optimization_", "short string optimization_");
+
+            // Alternative URL: <https://www.gnu.org/software/libc/manual/2.37/html_node/Formatted-Output-Functions.html#index-sprintf>
+            correctionAdd("sprintf_", "sprintf()_");
 
             // URL mappings
             //
@@ -79755,6 +79839,8 @@ namespace OverflowHelper.core
             URL_Add("null-terminated string_", "https://en.wikipedia.org/wiki/Null-terminated_string");
 
             URL_Add("short string optimization_", "https://stackoverflow.com/questions/10315041/meaning-of-acronym-sso-in-the-context-of-stdstring/10319672#10319672");
+
+            URL_Add("sprintf()_", "https://en.cppreference.com/w/cpp/io/c/fprintf");
 
         } //addLookupData_alternativeWordSet()
 
