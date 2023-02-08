@@ -3701,6 +3701,7 @@ namespace OverflowHelper.core
             correctionAdd("WorldBuilding", "Worldbuilding (Stack Exchange site)");
             correctionAdd("Worldbuilding.SE", "Worldbuilding (Stack Exchange site)");
             correctionAdd("Wordbuilding", "Worldbuilding (Stack Exchange site)");
+            correctionAdd("World building", "Worldbuilding (Stack Exchange site)");
 
             correctionAdd("signal processing", "Signal Processing (Stack Exchange site)");
             correctionAdd("Signal Processing", "Signal Processing (Stack Exchange site)"); // Sort of identity mapping
@@ -7658,6 +7659,7 @@ namespace OverflowHelper.core
             correctionAdd("2930m", "HPE 2930M");
 
             correctionAdd("HP Probook", "HP ProBook");
+            correctionAdd("Probook", "HP ProBook");
 
             correctionAdd("gpib", "GPIB");
             correctionAdd("HPIB", "GPIB");
@@ -14856,6 +14858,7 @@ namespace OverflowHelper.core
 
             correctionAdd("valueable", "valuable");
             correctionAdd("valable", "valuable");
+            correctionAdd("value-able", "valuable");
 
             correctionAdd("re-usable", "reusable");
             correctionAdd("reuseable", "reusable");
@@ -20655,6 +20658,8 @@ namespace OverflowHelper.core
             correctionAdd("Arm Cortex", "Cortex-M");
             correctionAdd("ARM Cortex", "Cortex-M");
             correctionAdd("CORTEX-M", "Cortex-M");
+            correctionAdd("ARM Cortex-M", "Cortex-M");
+            correctionAdd("arm cortex", "Cortex-M");
 
             correctionAdd("sims", "seems");
             correctionAdd("seams", "seems");
@@ -30855,6 +30860,12 @@ namespace OverflowHelper.core
 
             correctionAdd("balance and checks", "checks and balances");
 
+            correctionAdd("LB", "load balancer");
+            correctionAdd("Load Balancer", "load balancer");
+
+            correctionAdd("work-life balance", "work–life balance");
+            correctionAdd("WLB", "work–life balance");
+
             correctionAdd("life-long", "lifelong");
             correctionAdd("life long", "lifelong");
 
@@ -40471,6 +40482,8 @@ namespace OverflowHelper.core
             correctionAdd("Thevenin", "Thévenin's theorem");
 
             correctionAdd("inconveniance", "inconvenience");
+            correctionAdd("Inconvenius", "inconvenience");
+            correctionAdd("inconvenius", "inconvenience");
 
             correctionAdd("KYC", "know your customer");
 
@@ -42045,9 +42058,6 @@ namespace OverflowHelper.core
 
             correctionAdd("FR", "feature request");
             correctionAdd("Feature Request", "feature request");
-
-            correctionAdd("LB", "load balancer");
-            correctionAdd("Load Balancer", "load balancer");
 
             correctionAdd("North pole", "north pole");
 
@@ -47336,6 +47346,7 @@ namespace OverflowHelper.core
             correctionAdd("Subwoofer", "subwoofer");
 
             correctionAdd("annonymously", "anonymously");
+            correctionAdd("anonimously", "anonymously");
 
             correctionAdd("asenine", "asinine");
             correctionAdd("Asenine", "asinine");
@@ -77005,6 +77016,8 @@ namespace OverflowHelper.core
 
             URL_Add("total compensation", "https://en.wiktionary.org/wiki/TC#Noun");
 
+            URL_Add("work–life balance", "https://en.wikipedia.org/wiki/Work%E2%80%93life_interface");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -78970,6 +78983,8 @@ namespace OverflowHelper.core
             correctionAdd("algorithm_", "data structures and algorithms_");
             correctionAdd("DS&Alg_", "data structures and algorithms_");
 
+            correctionAdd("Sr_", "senior_");
+
             // URL mappings
             //
             //
@@ -80078,6 +80093,8 @@ namespace OverflowHelper.core
             URL_Add("DoubleClick_", "https://en.wikipedia.org/wiki/DoubleClick");
 
             URL_Add("data structures and algorithms_", "https://en.wikipedia.org/wiki/Algorithms_%2B_Data_Structures_%3D_Programs");
+
+            URL_Add("senior_", "https://en.wiktionary.org/wiki/senior#Adjective");
 
         } //addLookupData_alternativeWordSet()
 
