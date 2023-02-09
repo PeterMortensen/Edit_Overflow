@@ -1400,6 +1400,9 @@ namespace OverflowHelper.core
             correctionAdd("JMF", "Java Media Framework");
             correctionAdd("jmf", "Java Media Framework");
 
+            // A Java library
+            correctionAdd("okio", "Okio");
+
             correctionAdd("slime", "SLIME");
 
             correctionAdd("mime", "MIME");
@@ -3141,6 +3144,231 @@ namespace OverflowHelper.core
             // Alternative URL: <https://en.wikibooks.org/wiki/LaTeX/Chemical_Graphics>
             correctionAdd("chem fig", "chemfig");
 
+            correctionAdd("android", "Android");
+            correctionAdd("andrioid", "Android"); // Misspelling.
+            correctionAdd("Anroid", "Android"); // Misspelling.
+            correctionAdd("andorid", "Android"); // Misspelling.
+            correctionAdd("Andriod", "Android"); // Misspelling.
+            correctionAdd("androd", "Android"); // Misspelling.
+            correctionAdd("Andorid", "Android"); // Misspelling.
+            correctionAdd("ANDROID", "Android");
+            correctionAdd("anroid", "Android");
+            correctionAdd("andoird", "Android");
+            correctionAdd("andiord", "Android");
+            correctionAdd("andriod", "Android");
+
+            correctionAdd("Android Wear", "Wear OS");
+            correctionAdd("wear os", "Wear OS");
+            correctionAdd("wear OS", "Wear OS");
+            correctionAdd("wear", "Wear OS");
+            correctionAdd("Wear", "Wear OS");
+
+            correctionAdd("adk", "ADK"); // Note: the Wikipedia page has
+            //  unfortunately been deleted: https://en.wikipedia.org/wiki/ADK_(Android_Open_Accessory_Development_Kit)
+
+            correctionAdd("adt", "ADT");
+            correctionAdd("Android Development Tools", "ADT");
+
+            correctionAdd("adb", "ADB");
+            correctionAdd("Adb", "ADB");
+
+            correctionAdd("avd", "Android Virtual Device"); // Expansion. AVD.
+            correctionAdd("AVD", "Android Virtual Device");
+
+            correctionAdd("Android 2.2 (Froyo)", "Android&nbsp;2.2 (Froyo)"); // Sort of identity mapping
+            correctionAdd("Froyo", "Android&nbsp;2.2 (Froyo)");
+            correctionAdd("2.2", "Android&nbsp;2.2 (Froyo)");
+            correctionAdd("FROYO", "Android&nbsp;2.2 (Froyo)");
+            correctionAdd("froyo", "Android&nbsp;2.2 (Froyo)");
+            correctionAdd("Android 2.2", "Android&nbsp;2.2 (Froyo)");
+            correctionAdd("android 2.2", "Android&nbsp;2.2 (Froyo)");
+            correctionAdd("android froyo", "Android&nbsp;2.2 (Froyo)");
+
+            correctionAdd("Android 2.3 (Gingerbread)", "Android&nbsp;2.3 (Gingerbread)"); // Sort of identity mapping
+            correctionAdd("gingerbread", "Android&nbsp;2.3 (Gingerbread)");
+            correctionAdd("Android 2.3", "Android&nbsp;2.3 (Gingerbread)");
+            correctionAdd("Android version 2.3", "Android&nbsp;2.3 (Gingerbread)");
+            correctionAdd("Gingerbread", "Android&nbsp;2.3 (Gingerbread)");
+            correctionAdd("android 2.3", "Android&nbsp;2.3 (Gingerbread)");
+            correctionAdd("2.3", "Android&nbsp;2.3 (Gingerbread)");
+
+            correctionAdd("Android 3 (Honeycomb)", "Android&nbsp;3 (Honeycomb)"); // Sort of identity mapping
+            correctionAdd("Honeycomb", "Android&nbsp;3 (Honeycomb)");
+            correctionAdd("HoneyComb", "Android&nbsp;3 (Honeycomb)");
+            correctionAdd("Android&nbsp;3", "Android&nbsp;3 (Honeycomb)");
+            correctionAdd("android-3", "Android&nbsp;3 (Honeycomb)");
+            correctionAdd("android 3", "Android&nbsp;3 (Honeycomb)");
+            correctionAdd("Android 3", "Android&nbsp;3 (Honeycomb)");
+            correctionAdd("Android3", "Android&nbsp;3 (Honeycomb)");
+            correctionAdd("honeycomb", "Android&nbsp;3 (Honeycomb)");
+
+            correctionAdd("Android 4.0 (Ice Cream Sandwich)", "Android&nbsp;4.0 (Ice Cream Sandwich)"); // Sort of identity mapping
+            correctionAdd("Android 4", "Android&nbsp;4.0 (Ice Cream Sandwich)");
+            correctionAdd("Android 4.0", "Android&nbsp;4.0 (Ice Cream Sandwich)");
+            correctionAdd("Android version 4.0", "Android&nbsp;4.0 (Ice Cream Sandwich)");
+            correctionAdd("Ice Cream Sandwich", "Android&nbsp;4.0 (Ice Cream Sandwich)");
+            correctionAdd("ice cream sandwich", "Android&nbsp;4.0 (Ice Cream Sandwich)");
+            correctionAdd("icecream", "Android&nbsp;4.0 (Ice Cream Sandwich)");
+            correctionAdd("Android&nbsp;4.0", "Android&nbsp;4.0 (Ice Cream Sandwich)");
+            correctionAdd("ICS", "Android&nbsp;4.0 (Ice Cream Sandwich)");
+            correctionAdd("android-4", "Android&nbsp;4.0 (Ice Cream Sandwich)");
+            correctionAdd("android 4", "Android&nbsp;4.0 (Ice Cream Sandwich)");
+            correctionAdd("Android4", "Android&nbsp;4.0 (Ice Cream Sandwich)");
+            correctionAdd("ice cream", "Android&nbsp;4.0 (Ice Cream Sandwich)");
+
+            correctionAdd("Android 4.1 (Jelly Bean)", "Android&nbsp;4.1 (Jelly Bean)"); // Sort of identity mapping
+            correctionAdd("JB", "Android&nbsp;4.1 (Jelly Bean)"); // Actually 4.1 - 4.3.1.
+            correctionAdd("Jelly Bean", "Android&nbsp;4.1 (Jelly Bean)"); // Actually 4.1 - 4.3.1.
+            correctionAdd("JellyBean", "Android&nbsp;4.1 (Jelly Bean)"); // Actually 4.1 - 4.3.1.
+            correctionAdd("Jellybean 4.2", "Android&nbsp;4.1 (Jelly Bean)"); // Actually 4.1 - 4.3.1.
+            correctionAdd("Jellybean", "Android&nbsp;4.1 (Jelly Bean)"); // Actually 4.1 - 4.3.1.
+            correctionAdd("4.2", "Android&nbsp;4.1 (Jelly Bean)"); // Actually 4.1 - 4.3.1.
+            correctionAdd("4.2.1", "Android&nbsp;4.1 (Jelly Bean)"); // Actually 4.1 - 4.3.1.
+            correctionAdd("Android 4.2.1", "Android&nbsp;4.1 (Jelly Bean)"); // Actually 4.1 - 4.3.1.
+            correctionAdd("Android 4.2", "Android&nbsp;4.1 (Jelly Bean)"); // Actually 4.1 - 4.3.1.
+
+            correctionAdd("Android 4.3 (Jelly Bean)", "Android&nbsp;4.3 (Jelly Bean)"); // Sort of identity mapping
+            correctionAdd("4.3", "Android&nbsp;4.3 (Jelly Bean)"); // Actually 4.1 - 4.3.1.
+            correctionAdd("Android 4.3", "Android&nbsp;4.3 (Jelly Bean)"); // Actually 4.1 - 4.3.1.
+
+            correctionAdd("KitKat", "Android 4.4.x (KitKat)");
+            correctionAdd("Kitkat", "Android 4.4.x (KitKat)");
+            correctionAdd("Android 4.4", "Android 4.4.x (KitKat)");
+            correctionAdd("Android 4.4.x", "Android 4.4.x (KitKat)");
+            correctionAdd("kitkat", "Android 4.4.x (KitKat)");
+            correctionAdd("4.4", "Android 4.4.x (KitKat)");
+            correctionAdd("KITKAT", "Android 4.4.x (KitKat)");
+            correctionAdd("Kit Kat", "Android 4.4.x (KitKat)");
+            correctionAdd("android 4.4", "Android 4.4.x (KitKat)");
+
+            correctionAdd("Lollipop", "Android 5.0 (Lollipop)");
+            correctionAdd("Android 5", "Android 5.0 (Lollipop)");
+            correctionAdd("Lolipop", "Android 5.0 (Lollipop)");
+            correctionAdd("Android Lollipop", "Android 5.0 (Lollipop)");
+            correctionAdd("lollipop", "Android 5.0 (Lollipop)");
+            correctionAdd("Lolllipop", "Android 5.0 (Lollipop)");
+            correctionAdd("Android 5.0", "Android 5.0 (Lollipop)");
+
+            correctionAdd("5.1", "Android 5.1 (Lollipop)");
+            correctionAdd("Android 5.1", "Android 5.1 (Lollipop)");
+
+            correctionAdd("Marshmallow", "Android 6.0 (Marshmallow)");
+            correctionAdd("Android 6", "Android 6.0 (Marshmallow)");
+            correctionAdd("Marshmallo", "Android 6.0 (Marshmallow)");
+            correctionAdd("marshmallo", "Android 6.0 (Marshmallow)");
+            correctionAdd("Marshamallow", "Android 6.0 (Marshmallow)");
+            correctionAdd("marshmallow", "Android 6.0 (Marshmallow)");
+            correctionAdd("MARSHMALLOW", "Android 6.0 (Marshmallow)");
+            correctionAdd("MarshMallow", "Android 6.0 (Marshmallow)");
+            correctionAdd("Android Marshmallow", "Android 6.0 (Marshmallow)");
+            correctionAdd("android 6", "Android 6.0 (Marshmallow)");
+            correctionAdd("Android M", "Android 6.0 (Marshmallow)");
+
+            correctionAdd("android studio", "Android Studio");
+            correctionAdd("AS", "Android Studio");
+            correctionAdd("AndroidStudio", "Android Studio");
+            correctionAdd("ANDROID STUDIO", "Android Studio");
+            correctionAdd("android-studio", "Android Studio");
+            correctionAdd("android studios", "Android Studio");
+            correctionAdd("Android studio", "Android Studio");
+            correctionAdd("andriod studio", "Android Studio");
+            correctionAdd("Android-Studio", "Android Studio");
+            correctionAdd("AndroidStudios", "Android Studio");
+            correctionAdd("Android Studios", "Android Studio");
+            correctionAdd("androidstudio", "Android Studio");
+            correctionAdd("Andriod studio", "Android Studio");
+            correctionAdd("Androin studio", "Android Studio");
+            correctionAdd("androin studio", "Android Studio");
+            correctionAdd("android stuido", "Android Studio");
+            correctionAdd("android Studio", "Android Studio");
+            correctionAdd("android stiduo", "Android Studio");
+
+            correctionAdd("Arctic fox", "Android Studio 4.2");
+            correctionAdd("Arctic Fox", "Android Studio 4.2");
+
+            correctionAdd("canary", "Android Studio Canary");
+            correctionAdd("Android studio canary", "Android Studio Canary");
+            correctionAdd("Android Studio canary", "Android Studio Canary");
+            correctionAdd("Canary", "Android Studio Canary");
+
+            correctionAdd("chipmunk", "Android Studio 2021.2.1 (Chipmunk)");
+            correctionAdd("Chipmunk", "Android Studio 2021.2.1 (Chipmunk)");
+
+            correctionAdd("Android Studio Arctic Fox", "Android Studio 4.2 (Arctic Fox)");
+            correctionAdd("Artic Fox", "Android Studio 4.2 (Arctic Fox)");
+            correctionAdd("Android Studio Arctic Fox (4.2)", "Android Studio 4.2 (Arctic Fox)");
+
+            correctionAdd("Android 7", "Android 7.0 (Nougat)");
+            correctionAdd("Nougart", "Android 7.0 (Nougat)");
+            correctionAdd("Nougat", "Android 7.0 (Nougat)");
+            correctionAdd("Android N", "Android 7.0 (Nougat)");
+            correctionAdd("Android Nougat", "Android 7.0 (Nougat)");
+
+            correctionAdd("Android 8.1", "Android 8.1 (Oreo)");
+            correctionAdd("Android O", "Android 8.1 (Oreo)");
+            correctionAdd("Android Oreo", "Android 8.1 (Oreo)");
+            correctionAdd("oreo", "Android 8.1 (Oreo)");
+            correctionAdd("Oreo", "Android 8.1 (Oreo)");
+            correctionAdd("Android 8", "Android 8.1 (Oreo)");
+            correctionAdd("Android \"O\"", "Android 8.1 (Oreo)");
+            correctionAdd("Android\"O\"", "Android 8.1 (Oreo)");
+
+            correctionAdd("Android 9", "Android 9.0 (Pie)");
+            correctionAdd("Android P", "Android 9.0 (Pie)");
+            correctionAdd("Android 9.0", "Android 9.0 (Pie)");
+            correctionAdd("API 28", "Android 9.0 (Pie)");
+            correctionAdd("Pie", "Android 9.0 (Pie)");
+            correctionAdd("Android Pie", "Android 9.0 (Pie)");
+
+            correctionAdd("androidx", "Android X");
+            correctionAdd("android x", "Android X");
+            correctionAdd("X Android", "Android X");
+
+            correctionAdd("Eclair", "Android 2.0 (Eclair)");
+            correctionAdd("eclair", "Android 2.0 (Eclair)");
+            correctionAdd("Android 2", "Android 2.0 (Eclair)");
+            correctionAdd("Android 2.0", "Android 2.0 (Eclair)");
+            correctionAdd("android 2.0", "Android 2.0 (Eclair)");
+            correctionAdd("android 2.1", "Android 2.0 (Eclair)"); // Is this mapping actually correct? Yes! It covers Android 2.0 and Android 2.1.
+            correctionAdd("Android 2.1", "Android 2.0 (Eclair)"); // Is this mapping actually correct? Yes! It covers Android 2.0 and Android 2.1.
+            correctionAdd("2.1", "Android 2.0 (Eclair)"); // Is this mapping actually correct? Yes! It covers Android 2.0 and Android 2.1.
+
+            correctionAdd("Android version 10", "Android&nbsp;10");
+            correctionAdd("Android 10", "Android&nbsp;10");
+            correctionAdd("Android Q", "Android&nbsp;10");
+            correctionAdd("Android q", "Android&nbsp;10");
+            correctionAdd("android q", "Android&nbsp;10");
+            correctionAdd("AndroidX", "Android&nbsp;10");
+            correctionAdd("androidX", "Android&nbsp;10");
+
+            correctionAdd("jetpack", "Android Jetpack");
+            correctionAdd("Jetpack", "Android Jetpack");
+
+            correctionAdd("android 11", "Android&nbsp;11");
+            correctionAdd("Android 11", "Android&nbsp;11");
+
+            correctionAdd("AAPT2", "Android Asset Packaging Tool");
+            correctionAdd("aapt", "Android Asset Packaging Tool");
+            correctionAdd("aapt2", "Android Asset Packaging Tool");
+            correctionAdd("AAPT", "Android Asset Packaging Tool");
+
+            correctionAdd("aab", "AAB");
+            correctionAdd("Android App Bundle", "AAB");
+
+            correctionAdd("android 12", "Android 12");
+            correctionAdd("Android S", "Android 12");
+            correctionAdd("Snow Cone", "Android 12");
+            correctionAdd("SDK 31", "Android 12");
+            correctionAdd("12", "Android 12");
+
+            correctionAdd("13", "Android 13");
+
+            // Marketplace for Android apps
+            correctionAdd("f-droid", "F-Droid");
+            correctionAdd("fdroid", "F-Droid");
+
+            correctionAdd("AVD manager", "AVD Manager");
+
             correctionAdd("SO", "Stack&nbsp;Overflow");
             correctionAdd("S.O", "Stack&nbsp;Overflow");
             correctionAdd("StacOkverflow", "Stack&nbsp;Overflow");
@@ -3316,6 +3544,7 @@ namespace OverflowHelper.core
             correctionAdd("Stack Extchange", "Stack&nbsp;Exchange");
             correctionAdd("Stak Exchange", "Stack&nbsp;Exchange");
             correctionAdd("Stake Exchange", "Stack&nbsp;Exchange");
+            correctionAdd("stackechange", "Stack&nbsp;Exchange");
 
             correctionAdd("full stackoverflow developer", "full Stack Overflow developer");
             correctionAdd("Full stack overflow developer", "full Stack Overflow developer");
@@ -3793,6 +4022,7 @@ namespace OverflowHelper.core
             correctionAdd("RPG", "Role-playing Games (Stack Exchange site)");
             correctionAdd("Role-playing Games", "Role-playing Games (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("RPG stackexchange", "Role-playing Games (Stack Exchange site)");
+            correctionAdd("RPGSE", "Role-playing Games (Stack Exchange site)");
 
             correctionAdd("Astronomy", "Astronomy (Stack Exchange site)");
             correctionAdd("ASE", "Astronomy (Stack Exchange site)");
@@ -5188,8 +5418,6 @@ namespace OverflowHelper.core
             correctionAdd("react hook", "React hooks");
             correctionAdd("react Hooks", "React hooks");
 
-            correctionAdd("react-testing-library", "React Testing Library");
-
             correctionAdd("react-router", "React Router");
             correctionAdd("react router", "React Router");
             correctionAdd("React-Router", "React Router");
@@ -5220,9 +5448,129 @@ namespace OverflowHelper.core
             correctionAdd("JEST", "Jest");
             correctionAdd("jest", "Jest");
 
+            correctionAdd("react-testing-library", "React Testing Library");
+
             correctionAdd("RX", "reactive programming");
             correctionAdd("Reactive Programming", "reactive programming");
             correctionAdd("Rx", "reactive programming");
+
+            correctionAdd("lib", "library");
+            correctionAdd("Lib", "library"); // Not 100% correct - casing.
+            correctionAdd("librairies", "library"); // Not 100% correct - plural
+            correctionAdd("libraties", "library"); // Not 100% correct - plural
+            correctionAdd("libary", "library");
+            correctionAdd("libaray", "library");
+            correctionAdd("libray", "library");
+            correctionAdd("Library", "library");
+            correctionAdd("librabry", "library");
+            correctionAdd("libraray", "library");
+
+            correctionAdd("libs", "libraries");
+            correctionAdd("Libs", "libraries");
+            correctionAdd("libaries", "libraries");
+            correctionAdd("libearies", "libraries");
+            correctionAdd("liberies", "libraries");
+            correctionAdd("libreries", "libraries");
+            correctionAdd("Libraries", "libraries");
+            correctionAdd("librabries", "libraries");
+
+            correctionAdd("enterprise library", "Enterprise Library"); // Really "Microsoft Enterprise Library"
+
+            // Windows
+            correctionAdd("dll", "DLL file"); // Expansion, as in context it is usually a file.
+            correctionAdd("DLL", "DLL file"); // Expansion, as in context it is usually a file.
+            correctionAdd("Dll", "DLL file"); // Expansion, as in context it is usually a file.
+            correctionAdd("dll file", "DLL file");
+            correctionAdd("DLLs", "DLL file");
+            correctionAdd("dll-file", "DLL file");
+            correctionAdd("Dynamic Link Library", "DLL file");
+            correctionAdd("DLLS", "DLL file");
+            correctionAdd("dlls", "DLL file");
+
+            correctionAdd("yui", "YUI");
+            correctionAdd("Yui", "YUI");
+            correctionAdd("Yahoo UI Library", "YUI");
+
+            correctionAdd("yahoo", "Yahoo Search"); // Really "Yahoo!", but we don't like special characters in names.
+            correctionAdd("Yahoo", "Yahoo Search"); // Really "Yahoo!", but we don't like special characters in names.
+
+            correctionAdd("yahoo answers", "Yahoo Answers");
+            correctionAdd("Yahoo answers", "Yahoo Answers");
+            correctionAdd("Yahoo! Answers", "Yahoo Answers");
+            correctionAdd("Yahoo!Answers", "Yahoo Answers");
+            correctionAdd("yahoo!Answers", "Yahoo Answers");
+            correctionAdd("yahoo! Answers", "Yahoo Answers");
+
+            correctionAdd("Yahoo pipe", "Yahoo Pipes");
+            correctionAdd("Pipes", "Yahoo Pipes");
+            correctionAdd("Yahoo! Pipes", "Yahoo Pipes");
+            correctionAdd("Yahoo! pipe", "Yahoo Pipes");
+
+            correctionAdd("yahoo finance", "Yahoo Finance");
+
+            // A .NET library
+            correctionAdd("polly", "Polly");
+
+            correctionAdd("class-library", "class library");
+
+            correctionAdd("DotPeek", "dotPeek");
+            correctionAdd("Dot peek", "dotPeek");
+            correctionAdd("Dotpeek", "dotPeek");
+            correctionAdd("Dot Peek", "dotPeek");
+
+            correctionAdd("GLU", "OpenGL Utility Library");
+
+            correctionAdd("GLUT", "OpenGL Utility Toolkit");
+            correctionAdd("glut", "OpenGL Utility Toolkit");
+
+            correctionAdd("gsl", "GNU Scientific Library");
+            correctionAdd("GSL", "GNU Scientific Library");
+
+            correctionAdd("gmp", "GMP");
+            correctionAdd("GNU Multiple Precision Arithmetic Library", "GMP");
+
+            correctionAdd("gnu parallel", "GNU parallel");
+
+            correctionAdd("Parallel", "GNU Parallel");
+
+            correctionAdd("screen", "Screen");
+            correctionAdd("GNU Screen", "Screen");
+            correctionAdd("gnu screen", "Screen");
+            correctionAdd("GNU screen", "Screen");
+            correctionAdd("GNU/screen", "Screen");
+            correctionAdd("gnu-screen", "Screen");
+            correctionAdd("Gnu Screen", "Screen");
+            correctionAdd("gnu Screen", "Screen");
+            correctionAdd("GnuScreen", "Screen");
+            correctionAdd("SCREEN", "Screen");
+
+            correctionAdd("GPG", "GNU Privacy Guard");
+            correctionAdd("GnuPG", "GNU Privacy Guard");
+            correctionAdd("GNU pg", "GNU Privacy Guard");
+            correctionAdd("gnu pg", "GNU Privacy Guard");
+            correctionAdd("gpg", "GNU Privacy Guard");
+            correctionAdd("gnupg", "GNU Privacy Guard");
+
+            correctionAdd("Free UCS Outline Fonts", "GNU FreeFont");
+            correctionAdd("GNU Free Fonts", "GNU FreeFont");
+            correctionAdd("GNU FreeFonts", "GNU FreeFont");
+
+            correctionAdd("Bison", "GNU Bison");
+            correctionAdd("BISON", "GNU Bison");
+            correctionAdd("bison", "GNU Bison");
+
+            correctionAdd("lex", "Lex");
+
+            correctionAdd("yacc", "Yacc");
+
+            correctionAdd("gdb", "GDB");
+            correctionAdd("Gdb", "GDB");
+            correctionAdd("GBD", "GDB");
+
+            correctionAdd("visualgdb", "VisualGDB");
+            correctionAdd("visualGDB", "VisualGDB");
+
+            correctionAdd("kgdb", "KGDB");
 
             correctionAdd("guidanance", "guidance");
             correctionAdd("guidence", "guidance");
@@ -5476,6 +5824,18 @@ namespace OverflowHelper.core
             correctionAdd("c", "C"); // Possible conflicts!!!
             correctionAdd("C-lang", "C");
 
+            // "C"
+            correctionAdd("libc", "C standard library");
+            correctionAdd("stdlib", "C standard library");
+
+            // Start of C / C++ function section
+            //
+            // A C / C++ standard library function
+            correctionAdd("malloc()", "malloc");
+
+            // A C / C++ standard library function
+            correctionAdd("asprintf", "asprintf()");
+
             // A book
             //
             // Authors: Brian Kernighan and Dennis Ritchie
@@ -5542,14 +5902,6 @@ namespace OverflowHelper.core
 
             // A book
             correctionAdd("C++ primer", "C++ Primer");
-
-            // Start of C / C++ function section
-            //
-            // A C / C++ standard library function
-            correctionAdd("malloc()", "malloc");
-
-            // A C / C++ standard library function
-            correctionAdd("asprintf", "asprintf()");
 
             correctionAdd("boost", "Boost");
             correctionAdd("Boost C++ Libraries", "Boost");
@@ -6859,6 +7211,7 @@ namespace OverflowHelper.core
             correctionAdd("URL-encoding", "URL encoding");
 
             correctionAdd("RLE", "run-length encoding");
+            correctionAdd("run length encoding", "run-length encoding");
 
             correctionAdd("percent-encoded", "percent-encoding");
             correctionAdd("percent encoding", "percent-encoding");
@@ -7017,19 +7370,6 @@ namespace OverflowHelper.core
             correctionAdd("smart phone", "smartphone");
             correctionAdd("SmartPhone", "smartphone");
             correctionAdd("Smart Phone", "smartphone");
-
-            correctionAdd("android", "Android");
-            correctionAdd("andrioid", "Android"); // Misspelling.
-            correctionAdd("Anroid", "Android"); // Misspelling.
-            correctionAdd("andorid", "Android"); // Misspelling.
-            correctionAdd("Andriod", "Android"); // Misspelling.
-            correctionAdd("androd", "Android"); // Misspelling.
-            correctionAdd("Andorid", "Android"); // Misspelling.
-            correctionAdd("ANDROID", "Android");
-            correctionAdd("anroid", "Android");
-            correctionAdd("andoird", "Android");
-            correctionAdd("andiord", "Android");
-            correctionAdd("andriod", "Android");
 
             correctionAdd("iphone", "iPhone");
             correctionAdd("Iphone", "iPhone");
@@ -7790,12 +8130,6 @@ namespace OverflowHelper.core
             correctionAdd("palmOS", "Palm OS");
 
             correctionAdd("ChromeOS", "Chrome OS");
-
-            correctionAdd("Android Wear", "Wear OS");
-            correctionAdd("wear os", "Wear OS");
-            correctionAdd("wear OS", "Wear OS");
-            correctionAdd("wear", "Wear OS");
-            correctionAdd("Wear", "Wear OS");
 
             correctionAdd("BlackBerryOS", "BlackBerry OS");
 
@@ -8842,55 +9176,6 @@ namespace OverflowHelper.core
             correctionAdd("gfortran", "GFortran");
             correctionAdd("Gfortran", "GFortran");
 
-            correctionAdd("gnu parallel", "GNU parallel");
-
-            correctionAdd("Parallel", "GNU Parallel");
-
-            correctionAdd("screen", "Screen");
-            correctionAdd("GNU Screen", "Screen");
-            correctionAdd("gnu screen", "Screen");
-            correctionAdd("GNU screen", "Screen");
-            correctionAdd("GNU/screen", "Screen");
-            correctionAdd("gnu-screen", "Screen");
-            correctionAdd("Gnu Screen", "Screen");
-            correctionAdd("gnu Screen", "Screen");
-            correctionAdd("GnuScreen", "Screen");
-            correctionAdd("SCREEN", "Screen");
-
-            correctionAdd("GPG", "GNU Privacy Guard");
-            correctionAdd("GnuPG", "GNU Privacy Guard");
-            correctionAdd("GNU pg", "GNU Privacy Guard");
-            correctionAdd("gnu pg", "GNU Privacy Guard");
-            correctionAdd("gpg", "GNU Privacy Guard");
-            correctionAdd("gnupg", "GNU Privacy Guard");
-
-            correctionAdd("gmp", "GMP");
-            correctionAdd("GNU Multiple Precision Arithmetic Library", "GMP");
-
-            correctionAdd("gsl", "GNU Scientific Library");
-            correctionAdd("GSL", "GNU Scientific Library");
-
-            correctionAdd("Free UCS Outline Fonts", "GNU FreeFont");
-            correctionAdd("GNU Free Fonts", "GNU FreeFont");
-            correctionAdd("GNU FreeFonts", "GNU FreeFont");
-
-            correctionAdd("Bison", "GNU Bison");
-            correctionAdd("BISON", "GNU Bison");
-            correctionAdd("bison", "GNU Bison");
-
-            correctionAdd("lex", "Lex");
-
-            correctionAdd("yacc", "Yacc");
-
-            correctionAdd("gdb", "GDB");
-            correctionAdd("Gdb", "GDB");
-            correctionAdd("GBD", "GDB");
-
-            correctionAdd("visualgdb", "VisualGDB");
-            correctionAdd("visualGDB", "VisualGDB");
-
-            correctionAdd("kgdb", "KGDB");
-
             correctionAdd("texinfo", "Texinfo");
             correctionAdd("textinfo", "Texinfo");
 
@@ -9432,6 +9717,17 @@ namespace OverflowHelper.core
             //
             // Alternative URL: <https://politics.stackexchange.com/questions/77801/what-do-woke-and-cancel-groups-call-themselves>
             correctionAdd("Welfare queen", "welfare queen");
+
+            // United States politics
+            correctionAdd("Bush", "George W. Bush");
+
+            // United States politics
+            correctionAdd("Biden", "Joe Biden");
+            correctionAdd("biden", "Joe Biden");
+
+            // United States politics
+            correctionAdd("state of the union", "State of the Union Address");
+            correctionAdd("SOTU", "State of the Union Address");
 
             // An "elitist" (whatever that means) name. It
             // is "keyboard shortcut" for the rest of us.
@@ -10922,16 +11218,6 @@ namespace OverflowHelper.core
             correctionAdd("oprofile", "OProfile");
             correctionAdd("Oprofile", "OProfile");
 
-            correctionAdd("dll", "DLL file"); // Expansion, as in context it is usually a file.
-            correctionAdd("DLL", "DLL file"); // Expansion, as in context it is usually a file.
-            correctionAdd("Dll", "DLL file"); // Expansion, as in context it is usually a file.
-            correctionAdd("dll file", "DLL file");
-            correctionAdd("DLLs", "DLL file");
-            correctionAdd("dll-file", "DLL file");
-            correctionAdd("Dynamic Link Library", "DLL file");
-            correctionAdd("DLLS", "DLL file");
-            correctionAdd("dlls", "DLL file");
-
             correctionAdd("hosts", "hosts file");
             correctionAdd("host file", "hosts file");
 
@@ -11468,6 +11754,17 @@ namespace OverflowHelper.core
 
             correctionAdd("resetable", "resettable");
             correctionAdd("Resetable", "resettable");
+
+            correctionAdd("re-set", "reset");
+            correctionAdd("reseted", "reset");
+            correctionAdd("Reset", "reset");
+            correctionAdd("resetted", "reset");
+
+            correctionAdd("reseting", "resetting");
+            correctionAdd("Reseting", "resetting");
+            correctionAdd("re-setting", "resetting");
+
+            correctionAdd("featureset", "feature set");
 
             correctionAdd("pivot-table", "pivot table");
 
@@ -12008,6 +12305,7 @@ namespace OverflowHelper.core
             correctionAdd("writen", "written");
             correctionAdd("wrtten", "written");
             correctionAdd("wfitten", "written");
+            correctionAdd("writeen", "written");
 
             correctionAdd("wright", "writeX");
 
@@ -12114,27 +12412,6 @@ namespace OverflowHelper.core
             correctionAdd("XAMP", "XAMPP");
             correctionAdd("XAAMP", "XAMPP");
             correctionAdd("XXAMP", "XAMPP");
-
-            correctionAdd("yui", "YUI");
-            correctionAdd("Yui", "YUI");
-            correctionAdd("Yahoo UI Library", "YUI");
-
-            correctionAdd("yahoo", "Yahoo Search"); // Really "Yahoo!", but we don't like special characters in names.
-            correctionAdd("Yahoo", "Yahoo Search"); // Really "Yahoo!", but we don't like special characters in names.
-
-            correctionAdd("yahoo answers", "Yahoo Answers");
-            correctionAdd("Yahoo answers", "Yahoo Answers");
-            correctionAdd("Yahoo! Answers", "Yahoo Answers");
-            correctionAdd("Yahoo!Answers", "Yahoo Answers");
-            correctionAdd("yahoo!Answers", "Yahoo Answers");
-            correctionAdd("yahoo! Answers", "Yahoo Answers");
-
-            correctionAdd("Yahoo pipe", "Yahoo Pipes");
-            correctionAdd("Pipes", "Yahoo Pipes");
-            correctionAdd("Yahoo! Pipes", "Yahoo Pipes");
-            correctionAdd("Yahoo! pipe", "Yahoo Pipes");
-
-            correctionAdd("yahoo finance", "Yahoo Finance");
 
             // An aircraft
             correctionAdd("PA44", "Piper PA-44 Seminole");
@@ -13203,6 +13480,18 @@ namespace OverflowHelper.core
             correctionAdd("playstation 3", "PlayStation 3");
             correctionAdd("Playstation 3", "PlayStation 3");
 
+            // A software build system
+            //
+            // Jenkins file: In Groovy format
+            // (ref. <https://www.jenkins.io/doc/book/pipeline/jenkinsfile/>) -
+            // on Stack Overflow: ```groovy
+            correctionAdd("jenkins", "Jenkins");
+            correctionAdd("Jnekins", "Jenkins");
+            correctionAdd("Jekins", "Jenkins");
+            correctionAdd("Jennkins", "Jenkins");
+            correctionAdd("Jenkis", "Jenkins");
+            correctionAdd("Jeninks", "Jenkins");
+
             // New name:   Jenkins
             //             https://en.wikipedia.org/wiki/Jenkins_%28software%29
             correctionAdd("hudson", "Hudson");
@@ -13692,6 +13981,7 @@ namespace OverflowHelper.core
             // Alternative URL: <https://www.youtube.com/watch?v=Rkv4rrdFBU0>
             correctionAdd("searX", "Searx");
             correctionAdd("searx", "Searx");
+            correctionAdd("SearX", "Searx");
 
             correctionAdd("seo", "SEO");
             correctionAdd("Search Engine Optimization", "SEO");
@@ -13947,6 +14237,7 @@ namespace OverflowHelper.core
             correctionAdd("Beteljuice", "Betelgeuse");
             correctionAdd("beetlejuice", "Betelgeuse");
             correctionAdd("Betelgease", "Betelgeuse");
+            correctionAdd("BeetleJuice", "Betelgeuse");
 
             correctionAdd("rootcause", "root cause");
             correctionAdd("Root Cause", "root cause");
@@ -14239,12 +14530,10 @@ namespace OverflowHelper.core
 
             correctionAdd("OFDMA", "orthogonal frequency-division multiple access");
 
+            // Java
             correctionAdd("early access", "JDK early-access");
             correctionAdd("EA", "JDK early-access");
             correctionAdd("Early Access", "JDK early-access");
-
-            correctionAdd("adk", "ADK"); // Note: the Wikipedia page has
-            //  unfortunately been deleted: https://en.wikipedia.org/wiki/ADK_(Android_Open_Accessory_Development_Kit)
 
             correctionAdd("DAL", "data access layer");
             correctionAdd("Data Access Layer", "data access layer");
@@ -16253,9 +16542,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ardulink", "Ardulink");
 
-            correctionAdd("adt", "ADT");
-            correctionAdd("Android Development Tools", "ADT");
-
             correctionAdd("pdb", "PDB");
 
             correctionAdd("lan", "LAN");
@@ -16820,6 +17106,8 @@ namespace OverflowHelper.core
             correctionAdd("Artificial Intelligence", "artificial intelligence");
             correctionAdd("Ai", "artificial intelligence");
             correctionAdd("A.I", "artificial intelligence");
+            correctionAdd("Artificial intelligence", "artificial intelligence");
+            correctionAdd("Abominable Intelligence", "artificial intelligence");
 
             // Related to AI
             correctionAdd("Machine learning", "machine learning");
@@ -17120,18 +17408,11 @@ namespace OverflowHelper.core
             correctionAdd("AdBlock", "Adblock");
             correctionAdd("adBlock", "Adblock");
 
+            // Related to MySQL
             correctionAdd("mariadb", "MariaDB");
             correctionAdd("Maria DB", "MariaDB");
             correctionAdd("Mariadb", "MariaDB");
             correctionAdd("MariaDb", "MariaDB");
-
-            correctionAdd("adb", "ADB");
-            correctionAdd("Adb", "ADB");
-
-            correctionAdd("avd", "Android Virtual Device"); // Expansion. AVD.
-            correctionAdd("AVD", "Android Virtual Device");
-
-            correctionAdd("AVD manager", "AVD Manager");
 
             correctionAdd("pld", "programmable logic device");
             correctionAdd("Programmable Logic Devices", "programmable logic device");
@@ -18791,13 +19072,6 @@ namespace OverflowHelper.core
             correctionAdd("CAT6", "Cat&nbsp;6");
             correctionAdd("CAT 6", "Cat&nbsp;6");
 
-            correctionAdd("jenkins", "Jenkins");
-            correctionAdd("Jnekins", "Jenkins");
-            correctionAdd("Jekins", "Jenkins");
-            correctionAdd("Jennkins", "Jenkins");
-            correctionAdd("Jenkis", "Jenkins");
-            correctionAdd("Jeninks", "Jenkins");
-
             correctionAdd("Pypy", "PyPy");
             correctionAdd("pypy", "PyPy");
 
@@ -19085,6 +19359,7 @@ namespace OverflowHelper.core
             correctionAdd("kickstarter", "Kickstarter");
             correctionAdd("KickStarter", "Kickstarter");
 
+            // JavaScript
             correctionAdd("ember", "Ember.js");
             correctionAdd("Ember", "Ember.js");
             correctionAdd("Emberjs", "Ember.js");
@@ -19094,6 +19369,7 @@ namespace OverflowHelper.core
             correctionAdd("Ember.JS", "Ember.js");
             correctionAdd("ember.js", "Ember.js");
 
+            // JavaScript
             correctionAdd("backbone", "Backbone.js");
             correctionAdd("Backbone", "Backbone.js");
             correctionAdd("Backbonejs", "Backbone.js");
@@ -19103,95 +19379,6 @@ namespace OverflowHelper.core
             correctionAdd("backbone.js", "Backbone.js");
             correctionAdd("Backbone JS", "Backbone.js");
             correctionAdd("Backboone", "Backbone.js");
-
-            correctionAdd("Android 2.2 (Froyo)", "Android&nbsp;2.2 (Froyo)"); // Sort of identity mapping
-            correctionAdd("Froyo", "Android&nbsp;2.2 (Froyo)");
-            correctionAdd("2.2", "Android&nbsp;2.2 (Froyo)");
-            correctionAdd("FROYO", "Android&nbsp;2.2 (Froyo)");
-            correctionAdd("froyo", "Android&nbsp;2.2 (Froyo)");
-            correctionAdd("Android 2.2", "Android&nbsp;2.2 (Froyo)");
-            correctionAdd("android 2.2", "Android&nbsp;2.2 (Froyo)");
-            correctionAdd("android froyo", "Android&nbsp;2.2 (Froyo)");
-
-            correctionAdd("Android 2.3 (Gingerbread)", "Android&nbsp;2.3 (Gingerbread)"); // Sort of identity mapping
-            correctionAdd("gingerbread", "Android&nbsp;2.3 (Gingerbread)");
-            correctionAdd("Android 2.3", "Android&nbsp;2.3 (Gingerbread)");
-            correctionAdd("Android version 2.3", "Android&nbsp;2.3 (Gingerbread)");
-            correctionAdd("Gingerbread", "Android&nbsp;2.3 (Gingerbread)");
-            correctionAdd("android 2.3", "Android&nbsp;2.3 (Gingerbread)");
-            correctionAdd("2.3", "Android&nbsp;2.3 (Gingerbread)");
-
-            correctionAdd("Android 3 (Honeycomb)", "Android&nbsp;3 (Honeycomb)"); // Sort of identity mapping
-            correctionAdd("Honeycomb", "Android&nbsp;3 (Honeycomb)");
-            correctionAdd("HoneyComb", "Android&nbsp;3 (Honeycomb)");
-            correctionAdd("Android&nbsp;3", "Android&nbsp;3 (Honeycomb)");
-            correctionAdd("android-3", "Android&nbsp;3 (Honeycomb)");
-            correctionAdd("android 3", "Android&nbsp;3 (Honeycomb)");
-            correctionAdd("Android 3", "Android&nbsp;3 (Honeycomb)");
-            correctionAdd("Android3", "Android&nbsp;3 (Honeycomb)");
-            correctionAdd("honeycomb", "Android&nbsp;3 (Honeycomb)");
-
-            correctionAdd("Android 4.0 (Ice Cream Sandwich)", "Android&nbsp;4.0 (Ice Cream Sandwich)"); // Sort of identity mapping
-            correctionAdd("Android 4", "Android&nbsp;4.0 (Ice Cream Sandwich)");
-            correctionAdd("Android 4.0", "Android&nbsp;4.0 (Ice Cream Sandwich)");
-            correctionAdd("Android version 4.0", "Android&nbsp;4.0 (Ice Cream Sandwich)");
-            correctionAdd("Ice Cream Sandwich", "Android&nbsp;4.0 (Ice Cream Sandwich)");
-            correctionAdd("ice cream sandwich", "Android&nbsp;4.0 (Ice Cream Sandwich)");
-            correctionAdd("icecream", "Android&nbsp;4.0 (Ice Cream Sandwich)");
-            correctionAdd("Android&nbsp;4.0", "Android&nbsp;4.0 (Ice Cream Sandwich)");
-            correctionAdd("ICS", "Android&nbsp;4.0 (Ice Cream Sandwich)");
-            correctionAdd("android-4", "Android&nbsp;4.0 (Ice Cream Sandwich)");
-            correctionAdd("android 4", "Android&nbsp;4.0 (Ice Cream Sandwich)");
-            correctionAdd("Android4", "Android&nbsp;4.0 (Ice Cream Sandwich)");
-            correctionAdd("ice cream", "Android&nbsp;4.0 (Ice Cream Sandwich)");
-
-            correctionAdd("Android 4.1 (Jelly Bean)", "Android&nbsp;4.1 (Jelly Bean)"); // Sort of identity mapping
-            correctionAdd("JB", "Android&nbsp;4.1 (Jelly Bean)"); // Actually 4.1 - 4.3.1.
-            correctionAdd("Jelly Bean", "Android&nbsp;4.1 (Jelly Bean)"); // Actually 4.1 - 4.3.1.
-            correctionAdd("JellyBean", "Android&nbsp;4.1 (Jelly Bean)"); // Actually 4.1 - 4.3.1.
-            correctionAdd("Jellybean 4.2", "Android&nbsp;4.1 (Jelly Bean)"); // Actually 4.1 - 4.3.1.
-            correctionAdd("Jellybean", "Android&nbsp;4.1 (Jelly Bean)"); // Actually 4.1 - 4.3.1.
-            correctionAdd("4.2", "Android&nbsp;4.1 (Jelly Bean)"); // Actually 4.1 - 4.3.1.
-            correctionAdd("4.2.1", "Android&nbsp;4.1 (Jelly Bean)"); // Actually 4.1 - 4.3.1.
-            correctionAdd("Android 4.2.1", "Android&nbsp;4.1 (Jelly Bean)"); // Actually 4.1 - 4.3.1.
-            correctionAdd("Android 4.2", "Android&nbsp;4.1 (Jelly Bean)"); // Actually 4.1 - 4.3.1.
-
-            correctionAdd("Android 4.3 (Jelly Bean)", "Android&nbsp;4.3 (Jelly Bean)"); // Sort of identity mapping
-            correctionAdd("4.3", "Android&nbsp;4.3 (Jelly Bean)"); // Actually 4.1 - 4.3.1.
-            correctionAdd("Android 4.3", "Android&nbsp;4.3 (Jelly Bean)"); // Actually 4.1 - 4.3.1.
-
-            correctionAdd("KitKat", "Android 4.4.x (KitKat)");
-            correctionAdd("Kitkat", "Android 4.4.x (KitKat)");
-            correctionAdd("Android 4.4", "Android 4.4.x (KitKat)");
-            correctionAdd("Android 4.4.x", "Android 4.4.x (KitKat)");
-            correctionAdd("kitkat", "Android 4.4.x (KitKat)");
-            correctionAdd("4.4", "Android 4.4.x (KitKat)");
-            correctionAdd("KITKAT", "Android 4.4.x (KitKat)");
-            correctionAdd("Kit Kat", "Android 4.4.x (KitKat)");
-            correctionAdd("android 4.4", "Android 4.4.x (KitKat)");
-
-            correctionAdd("Lollipop", "Android 5.0 (Lollipop)");
-            correctionAdd("Android 5", "Android 5.0 (Lollipop)");
-            correctionAdd("Lolipop", "Android 5.0 (Lollipop)");
-            correctionAdd("Android Lollipop", "Android 5.0 (Lollipop)");
-            correctionAdd("lollipop", "Android 5.0 (Lollipop)");
-            correctionAdd("Lolllipop", "Android 5.0 (Lollipop)");
-            correctionAdd("Android 5.0", "Android 5.0 (Lollipop)");
-
-            correctionAdd("5.1", "Android 5.1 (Lollipop)");
-            correctionAdd("Android 5.1", "Android 5.1 (Lollipop)");
-
-            correctionAdd("Marshmallow", "Android 6.0 (Marshmallow)");
-            correctionAdd("Android 6", "Android 6.0 (Marshmallow)");
-            correctionAdd("Marshmallo", "Android 6.0 (Marshmallow)");
-            correctionAdd("marshmallo", "Android 6.0 (Marshmallow)");
-            correctionAdd("Marshamallow", "Android 6.0 (Marshmallow)");
-            correctionAdd("marshmallow", "Android 6.0 (Marshmallow)");
-            correctionAdd("MARSHMALLOW", "Android 6.0 (Marshmallow)");
-            correctionAdd("MarshMallow", "Android 6.0 (Marshmallow)");
-            correctionAdd("Android Marshmallow", "Android 6.0 (Marshmallow)");
-            correctionAdd("android 6", "Android 6.0 (Marshmallow)");
-            correctionAdd("Android M", "Android 6.0 (Marshmallow)");
 
             correctionAdd("inheritence", "inheritance");
             correctionAdd("inherittance", "inheritance");
@@ -20004,40 +20191,6 @@ namespace OverflowHelper.core
             correctionAdd("EDGE", "Edge");
             correctionAdd("Microsoft Edge", "Edge");
 
-            correctionAdd("android studio", "Android Studio");
-            correctionAdd("AS", "Android Studio");
-            correctionAdd("AndroidStudio", "Android Studio");
-            correctionAdd("ANDROID STUDIO", "Android Studio");
-            correctionAdd("android-studio", "Android Studio");
-            correctionAdd("android studios", "Android Studio");
-            correctionAdd("Android studio", "Android Studio");
-            correctionAdd("andriod studio", "Android Studio");
-            correctionAdd("Android-Studio", "Android Studio");
-            correctionAdd("AndroidStudios", "Android Studio");
-            correctionAdd("Android Studios", "Android Studio");
-            correctionAdd("androidstudio", "Android Studio");
-            correctionAdd("Andriod studio", "Android Studio");
-            correctionAdd("Androin studio", "Android Studio");
-            correctionAdd("androin studio", "Android Studio");
-            correctionAdd("android stuido", "Android Studio");
-            correctionAdd("android Studio", "Android Studio");
-            correctionAdd("android stiduo", "Android Studio");
-
-            correctionAdd("Arctic fox", "Android Studio 4.2");
-            correctionAdd("Arctic Fox", "Android Studio 4.2");
-
-            correctionAdd("canary", "Android Studio Canary");
-            correctionAdd("Android studio canary", "Android Studio Canary");
-            correctionAdd("Android Studio canary", "Android Studio Canary");
-            correctionAdd("Canary", "Android Studio Canary");
-
-            correctionAdd("chipmunk", "Android Studio 2021.2.1 (Chipmunk)");
-            correctionAdd("Chipmunk", "Android Studio 2021.2.1 (Chipmunk)");
-
-            correctionAdd("Android Studio Arctic Fox", "Android Studio 4.2 (Arctic Fox)");
-            correctionAdd("Artic Fox", "Android Studio 4.2 (Arctic Fox)");
-            correctionAdd("Android Studio Arctic Fox (4.2)", "Android Studio 4.2 (Arctic Fox)");
-
             correctionAdd("western digital", "Western Digital");
             correctionAdd("WD", "Western Digital");
 
@@ -20342,6 +20495,7 @@ namespace OverflowHelper.core
 
             correctionAdd("mahcine", "machine");
             correctionAdd("Machine", "machine");
+            correctionAdd("machinr", "machine");
 
             correctionAdd("Pick'n'place machine", "pick-and-place machine");
 
@@ -20589,6 +20743,7 @@ namespace OverflowHelper.core
             correctionAdd("Shouldnt", "shouldn’t");
             correctionAdd("souldn't", "shouldn’t");
             correctionAdd("shouldn't", "shouldn’t");
+            correctionAdd("shuldnt", "shouldn’t");
 
             correctionAdd("g-drive", "Google Drive");
             correctionAdd("google drive", "Google Drive");
@@ -22118,28 +22273,6 @@ namespace OverflowHelper.core
 
             correctionAdd("parlamentary", "parliamentary");
 
-            correctionAdd("Android 7", "Android 7.0 (Nougat)");
-            correctionAdd("Nougart", "Android 7.0 (Nougat)");
-            correctionAdd("Nougat", "Android 7.0 (Nougat)");
-            correctionAdd("Android N", "Android 7.0 (Nougat)");
-            correctionAdd("Android Nougat", "Android 7.0 (Nougat)");
-
-            correctionAdd("Android 8.1", "Android 8.1 (Oreo)");
-            correctionAdd("Android O", "Android 8.1 (Oreo)");
-            correctionAdd("Android Oreo", "Android 8.1 (Oreo)");
-            correctionAdd("oreo", "Android 8.1 (Oreo)");
-            correctionAdd("Oreo", "Android 8.1 (Oreo)");
-            correctionAdd("Android 8", "Android 8.1 (Oreo)");
-            correctionAdd("Android \"O\"", "Android 8.1 (Oreo)");
-            correctionAdd("Android\"O\"", "Android 8.1 (Oreo)");
-
-            correctionAdd("Android 9", "Android 9.0 (Pie)");
-            correctionAdd("Android P", "Android 9.0 (Pie)");
-            correctionAdd("Android 9.0", "Android 9.0 (Pie)");
-            correctionAdd("API 28", "Android 9.0 (Pie)");
-            correctionAdd("Pie", "Android 9.0 (Pie)");
-            correctionAdd("Android Pie", "Android 9.0 (Pie)");
-
             correctionAdd("attenttion", "attention");
             correctionAdd("atenttion", "attention");
             correctionAdd("attetion", "attention");
@@ -23519,13 +23652,6 @@ namespace OverflowHelper.core
             correctionAdd("charachter Set", "character set");
             correctionAdd("chaset", "character set");
             correctionAdd("charset", "character set");
-
-            correctionAdd("re-set", "reset");
-            correctionAdd("reseted", "reset");
-            correctionAdd("Reset", "reset");
-            correctionAdd("resetted", "reset");
-
-            correctionAdd("featureset", "feature set");
 
             correctionAdd("skillset", "skill set");
 
@@ -25263,10 +25389,6 @@ namespace OverflowHelper.core
             correctionAdd("Technet", "TechNet");
             correctionAdd("technet", "TechNet");
 
-            correctionAdd("androidx", "Android X");
-            correctionAdd("android x", "Android X");
-            correctionAdd("X Android", "Android X");
-
             correctionAdd("Telegram", "Telegram Messenger");
             correctionAdd("tellygram", "Telegram Messenger");
             correctionAdd("telegram", "Telegram Messenger");
@@ -26742,15 +26864,6 @@ namespace OverflowHelper.core
             correctionAdd("woth", "with");
 
             correctionAdd("bare with", "bear with");
-
-            correctionAdd("Eclair", "Android 2.0 (Eclair)");
-            correctionAdd("eclair", "Android 2.0 (Eclair)");
-            correctionAdd("Android 2", "Android 2.0 (Eclair)");
-            correctionAdd("Android 2.0", "Android 2.0 (Eclair)");
-            correctionAdd("android 2.0", "Android 2.0 (Eclair)");
-            correctionAdd("android 2.1", "Android 2.0 (Eclair)"); // Is this mapping actually correct? Yes! It covers Android 2.0 and Android 2.1.
-            correctionAdd("Android 2.1", "Android 2.0 (Eclair)"); // Is this mapping actually correct? Yes! It covers Android 2.0 and Android 2.1.
-            correctionAdd("2.1", "Android 2.0 (Eclair)"); // Is this mapping actually correct? Yes! It covers Android 2.0 and Android 2.1.
 
             correctionAdd("blogspot", "BlogSpot");
 
@@ -29906,14 +30019,6 @@ namespace OverflowHelper.core
             correctionAdd("raison d’etre", "raison d'être");
             correctionAdd("raison detre", "raison d'être");
 
-            correctionAdd("Android version 10", "Android&nbsp;10");
-            correctionAdd("Android 10", "Android&nbsp;10");
-            correctionAdd("Android Q", "Android&nbsp;10");
-            correctionAdd("Android q", "Android&nbsp;10");
-            correctionAdd("android q", "Android&nbsp;10");
-            correctionAdd("AndroidX", "Android&nbsp;10");
-            correctionAdd("androidX", "Android&nbsp;10");
-
             correctionAdd("fasta", "FASTA format");
 
             correctionAdd("nemo", "Nemo");
@@ -33009,27 +33114,6 @@ namespace OverflowHelper.core
 
             correctionAdd("upside-down", "upside down");
 
-            correctionAdd("enterprise library", "Enterprise Library"); // Really "Microsoft Enterprise Library"
-
-            correctionAdd("lib", "library");
-            correctionAdd("Lib", "library"); // Not 100% correct - casing.
-            correctionAdd("librairies", "library"); // Not 100% correct - plural
-            correctionAdd("libraties", "library"); // Not 100% correct - plural
-            correctionAdd("libary", "library");
-            correctionAdd("libaray", "library");
-            correctionAdd("libray", "library");
-            correctionAdd("Library", "library");
-            correctionAdd("librabry", "library");
-
-            correctionAdd("libs", "libraries");
-            correctionAdd("Libs", "libraries");
-            correctionAdd("libaries", "libraries");
-            correctionAdd("libearies", "libraries");
-            correctionAdd("liberies", "libraries");
-            correctionAdd("libreries", "libraries");
-            correctionAdd("Libraries", "libraries");
-            correctionAdd("librabries", "libraries");
-
             correctionAdd("blue pill", "Blue Pill");
             correctionAdd("blue-pill", "Blue Pill");
 
@@ -33629,9 +33713,6 @@ namespace OverflowHelper.core
 
             correctionAdd("unformated", "unformatted");
 
-            correctionAdd("libc", "C standard library");
-            correctionAdd("stdlib", "C standard library");
-
             correctionAdd("icu", "ICU");
 
             correctionAdd("jfet", "JFET");
@@ -33983,6 +34064,9 @@ namespace OverflowHelper.core
             correctionAdd("intepreter", "interpreter");
             correctionAdd("interpretter", "interpreter");
             correctionAdd("interp", "interpreter");
+            correctionAdd("Interpeter", "interpreter");
+            correctionAdd("Interpreter", "interpreter");
+            correctionAdd("interpeter", "interpreter");
 
             correctionAdd("memrise", "memorise");
 
@@ -34675,6 +34759,7 @@ namespace OverflowHelper.core
             correctionAdd("jus", "just");
             correctionAdd("juust", "just");
             correctionAdd("jusst", "just");
+            correctionAdd("jjst", "just");
 
             correctionAdd("Logistic Regression", "logistic regression");
 
@@ -34919,6 +35004,9 @@ namespace OverflowHelper.core
             correctionAdd("singe", "single");
             correctionAdd("signle", "single");
             correctionAdd("sinlge", "single");
+            correctionAdd("Sigle", "single");
+            correctionAdd("Single", "single");
+            correctionAdd("sigle", "single");
 
             correctionAdd("nextstep", "NeXTSTEP");
             correctionAdd("Nextstep", "NeXTSTEP");
@@ -37593,6 +37681,8 @@ namespace OverflowHelper.core
 
             correctionAdd("non-standard", "nonstandard");
             correctionAdd("non standard", "nonstandard");
+            correctionAdd("Non standard", "nonstandard");
+            correctionAdd("Nonstandard", "nonstandard");
 
             correctionAdd("pasifism", "pacifism");
 
@@ -38694,9 +38784,6 @@ namespace OverflowHelper.core
 
             correctionAdd("4Chan", "4chan");
 
-            correctionAdd("jetpack", "Android Jetpack");
-            correctionAdd("Jetpack", "Android Jetpack");
-
             correctionAdd("anko", "Anko");
             correctionAdd("ANKO", "Anko");
 
@@ -38898,9 +38985,6 @@ namespace OverflowHelper.core
             correctionAdd("twopronged", "two-pronged");
             correctionAdd("2 prong", "two-pronged");
 
-            correctionAdd("android 11", "Android&nbsp;11");
-            correctionAdd("Android 11", "Android&nbsp;11");
-
             correctionAdd("greek", "Greek");
 
             correctionAdd("Accounting System", "accounting system");
@@ -38967,11 +39051,6 @@ namespace OverflowHelper.core
 
             correctionAdd("soleless", "soulless");
             correctionAdd("soul-less", "soulless");
-
-            correctionAdd("AAPT2", "Android Asset Packaging Tool");
-            correctionAdd("aapt", "Android Asset Packaging Tool");
-            correctionAdd("aapt2", "Android Asset Packaging Tool");
-            correctionAdd("AAPT", "Android Asset Packaging Tool");
 
             correctionAdd("d8", "D8");
 
@@ -40461,6 +40540,7 @@ namespace OverflowHelper.core
             correctionAdd("Lunar", "lunar");
 
             correctionAdd("whent", "went");
+            correctionAdd("Whent", "went");
 
             correctionAdd("De Lorean", "DeLorean");
 
@@ -41410,9 +41490,6 @@ namespace OverflowHelper.core
             correctionAdd("nervwrecking", "nerve-racking");
             correctionAdd("nervewrecking", "nerve-racking");
 
-            correctionAdd("reseting", "resetting");
-            correctionAdd("Reseting", "resetting");
-
             correctionAdd("labeled", "labelled");
             correctionAdd("labeld", "labelled");
 
@@ -41986,9 +42063,6 @@ namespace OverflowHelper.core
 
             correctionAdd("seps", "steps");
             correctionAdd("steeps", "steps");
-
-            correctionAdd("aab", "AAB");
-            correctionAdd("Android App Bundle", "AAB");
 
             correctionAdd("cbc", "CBC");
 
@@ -42721,12 +42795,6 @@ namespace OverflowHelper.core
             correctionAdd("Shredder", "shredder");
 
             correctionAdd("un-installing", "uninstalling");
-
-            correctionAdd("android 12", "Android 12");
-            correctionAdd("Android S", "Android 12");
-            correctionAdd("Snow Cone", "Android 12");
-            correctionAdd("SDK 31", "Android 12");
-            correctionAdd("12", "Android 12");
 
             correctionAdd("Mass-Transit", "MassTransit");
 
@@ -43789,10 +43857,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Dirty Pipe", "DirtyPipe");
 
-            correctionAdd("Bush", "George W. Bush");
-
-            correctionAdd("Biden", "Joe Biden");
-
             correctionAdd("Gaddafi", "Muammar Gaddafi");
 
             correctionAdd("Maduro", "Nicolás Maduro");
@@ -44024,9 +44088,6 @@ namespace OverflowHelper.core
             correctionAdd("gogs", "Gogs");
 
             correctionAdd("Good reads", "Goodreads");
-
-            // A .NET library
-            correctionAdd("polly", "Polly");
 
             correctionAdd("borrow checker", "Rust borrow checker");
             correctionAdd("Rust Borrow Checker", "Rust borrow checker");
@@ -45742,13 +45803,6 @@ namespace OverflowHelper.core
 
             correctionAdd("gollum", "Gollum");
 
-            correctionAdd("class-library", "class library");
-
-            correctionAdd("DotPeek", "dotPeek");
-            correctionAdd("Dot peek", "dotPeek");
-            correctionAdd("Dotpeek", "dotPeek");
-            correctionAdd("Dot Peek", "dotPeek");
-
             correctionAdd("filesize", "file size");
 
             correctionAdd("Manifest", "manifest");
@@ -45999,8 +46053,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Radon-Nikodym theorem", "Radon–Nikodym theorem");
             correctionAdd("Radon-Nikodym Theorem", "Radon–Nikodym theorem");
-
-            correctionAdd("state of the union", "State of the Union Address");
 
             correctionAdd("assinged", "assigned");
 
@@ -47700,11 +47752,6 @@ namespace OverflowHelper.core
 
             correctionAdd("cblas", "CBLAS");
 
-            correctionAdd("GLU", "OpenGL Utility Library");
-
-            correctionAdd("GLUT", "OpenGL Utility Toolkit");
-            correctionAdd("glut", "OpenGL Utility Toolkit");
-
             correctionAdd("puzle", "puzzle");
 
             correctionAdd("name-mangling", "name mangling");
@@ -48576,8 +48623,6 @@ namespace OverflowHelper.core
             correctionAdd("worest case", "worst-case");
             correctionAdd("worrest case", "worst-case");
 
-            correctionAdd("13", "Android 13");
-
             correctionAdd("Faced", "faced");
 
             correctionAdd("fanrtastic", "fantastic");
@@ -49050,9 +49095,6 @@ namespace OverflowHelper.core
             // A computer mouse
             correctionAdd("MX518", "Logitech MX518");
 
-            // A Java library
-            correctionAdd("okio", "Okio");
-
             correctionAdd("aquiring", "acquiring");
 
             correctionAdd("chat bot", "chatbot");
@@ -49347,6 +49389,29 @@ namespace OverflowHelper.core
             correctionAdd("typying", "typing");
 
             correctionAdd("TC", "total compensation");
+
+            correctionAdd("activitypub", "ActivityPub");
+
+            correctionAdd("coinsides", "coincides");
+
+            // IC manufacturer
+            correctionAdd("infineon", "Infineon");
+
+            correctionAdd("loss-less", "lossless");
+
+            correctionAdd("mercs", "mercenary");
+            correctionAdd("Merc", "mercenary");
+            correctionAdd("Mercs", "mercenary");
+            correctionAdd("merc", "mercenary");
+
+            correctionAdd("pay walls", "paywalls");
+
+            correctionAdd("PPI", "ppi");
+
+            correctionAdd("satisified", "satisfied");
+
+            correctionAdd("unreadble", "unreadable");
+            correctionAdd("unredable", "unreadable");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -77018,6 +77083,26 @@ namespace OverflowHelper.core
 
             URL_Add("work–life balance", "https://en.wikipedia.org/wiki/Work%E2%80%93life_interface");
 
+            URL_Add("ActivityPub", "https://en.wikipedia.org/wiki/ActivityPub");
+
+            URL_Add("coincides", "https://en.wiktionary.org/wiki/coincide#Verb");
+
+            URL_Add("F-Droid", "https://en.wikipedia.org/wiki/F-Droid");
+
+            URL_Add("Infineon", "https://en.wikipedia.org/wiki/Infineon_Technologies");
+
+            URL_Add("lossless", "https://en.wiktionary.org/wiki/lossless#Adjective");
+
+            URL_Add("mercenary", "https://en.wiktionary.org/wiki/mercenary#Noun");
+
+            URL_Add("paywalls", "https://en.wiktionary.org/wiki/paywall#Noun");
+
+            URL_Add("ppi", "https://en.wikipedia.org/wiki/Pixel_density");
+
+            URL_Add("satisfied", "https://en.wiktionary.org/wiki/satisfied#Adjective");
+
+            URL_Add("unreadable", "https://en.wiktionary.org/wiki/unreadable#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -77822,6 +77907,7 @@ namespace OverflowHelper.core
             correctionAdd("adobe illustrator_", "Adobe Illustrator_");
             correctionAdd("Illustrator_", "Adobe Illustrator_");
             correctionAdd("AI_", "Adobe Illustrator_");
+            correctionAdd("Adobe illustrator_", "Adobe Illustrator_");
 
             correctionAdd("awesome_", "AwesomeWM_");
             correctionAdd("Awesome_", "AwesomeWM_");
