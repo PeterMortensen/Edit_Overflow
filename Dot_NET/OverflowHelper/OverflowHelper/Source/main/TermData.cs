@@ -1229,6 +1229,14 @@ namespace OverflowHelper.core
             correctionAdd("git am", "Git am");
             correctionAdd("git-am", "Git am");
 
+            correctionAdd("gitian-builder", "Gitian Builder");
+            correctionAdd("gitian-build", "Gitian Builder");
+
+            // Git
+            correctionAdd("sub module", "Git submodules");
+            correctionAdd("submodule", "Git submodules");
+            correctionAdd("submodules", "Git submodules");
+
             correctionAdd("java", "Java");
             correctionAdd("JAVA", "Java");
             correctionAdd("Jave", "Java");
@@ -4175,6 +4183,7 @@ namespace OverflowHelper.core
             correctionAdd("Proof-of-concept", "proof of concept");
             correctionAdd("Proof of Concept", "proof of concept");
             correctionAdd("POC", "proof of concept");
+            correctionAdd("poc", "proof of concept");
 
             correctionAdd("post man", "Postman");
             correctionAdd("postman", "Postman");
@@ -6601,7 +6610,26 @@ namespace OverflowHelper.core
             correctionAdd("Ther", "there");
             correctionAdd("There", "there");
 
+            correctionAdd("vmware", "VMware");
+            correctionAdd("VMWare", "VMware");
+            correctionAdd("VM Ware", "VMware");
+            correctionAdd("Vmware", "VMware");
+            correctionAdd("WMware", "VMware");
+            correctionAdd("WM Ware", "VMware");
+            correctionAdd("vmare", "VMware");
+            correctionAdd("vmWare", "VMware");
+            correctionAdd("VM ware", "VMware");
+            correctionAdd("VmWare", "VMware");
+            correctionAdd("VM-Ware", "VMware");
+            correctionAdd("VW Ware", "VMware");
+            correctionAdd("VW ware", "VMware");
+            correctionAdd("VWware", "VMware");
+            correctionAdd("vMware", "VMware");
+
             correctionAdd("VMware VSphere", "VMware vSphere");
+
+            correctionAdd("ESX", "VMware ESXi");
+            correctionAdd("ESXi", "VMware ESXi");
 
             correctionAdd("whare", "where");
             correctionAdd("Whre", "where");
@@ -8156,6 +8184,80 @@ namespace OverflowHelper.core
 
             correctionAdd("WatchOS", "watchOS");
 
+            correctionAdd("mac", "Mac"); // Collision with MAC address, but there is an entry for that, "MAC address".
+            correctionAdd("macintosh", "Mac"); // Collision with MAC address, but there is an entry for that, "MAC address".
+            correctionAdd("Macintosh", "Mac");
+            correctionAdd("MaC", "Mac");
+
+            correctionAdd("MacBook", "MacBook Pro"); // Not exactly...
+            correctionAdd("macbook", "MacBook Pro"); // Not exactly...
+            correctionAdd("Mac Book", "MacBook Pro"); // Not exactly...
+            correctionAdd("mac book pro", "MacBook Pro");
+            correctionAdd("Macbook Pro", "MacBook Pro");
+            correctionAdd("MacBookPro", "MacBook Pro");
+            correctionAdd("macbook pro", "MacBook Pro");
+            correctionAdd("mac pro", "MacBook Pro");
+            correctionAdd("macBook Pro", "MacBook Pro");
+            correctionAdd("Macbook", "MacBook Pro"); // Not exactly...
+            correctionAdd("Mac Book Pro", "MacBook Pro");
+            correctionAdd("MBP", "MacBook Pro");
+            correctionAdd("MacBook pro", "MacBook Pro");
+            correctionAdd("Macbook pro", "MacBook Pro");
+            correctionAdd("macbookpro", "MacBook Pro");
+            correctionAdd("MACBOOK", "MacBook Pro");
+
+            correctionAdd("macports", "MacPorts");
+            correctionAdd("mac ports", "MacPorts");
+            correctionAdd("Macports", "MacPorts");
+            correctionAdd("MacPort", "MacPorts");
+            correctionAdd("macport", "MacPorts");
+            correctionAdd("ports", "MacPorts");
+            correctionAdd("Mac Port", "MacPorts");
+            correctionAdd("Mac Ports", "MacPorts");
+
+            correctionAdd("m1", "Apple M1");
+            correctionAdd("M1", "Apple M1");
+            correctionAdd("M1 Mac", "Apple M1");
+
+            correctionAdd("M2", "Apple M2");
+            correctionAdd("m2", "Apple M2");
+
+            correctionAdd("Apple M1 max", "Apple M1 Max");
+
+            correctionAdd("Apple M1 pro", "Apple M1 Pro");
+            correctionAdd("Apple Silicon M1 Pro", "Apple M1 Pro");
+
+            correctionAdd("macbook air", "MacBook Air");
+            correctionAdd("Macbook Air", "MacBook Air");
+            correctionAdd("mac air", "MacBook Air");
+            correctionAdd("airbook", "MacBook Air");
+            correctionAdd("mac airbook", "MacBook Air");
+            correctionAdd("Mac AirBook", "MacBook Air");
+            correctionAdd("MacBook air", "MacBook Air");
+
+            correctionAdd("Macbook M1 air", "MacBook Air (M1)");
+            correctionAdd("macbook air m1", "MacBook Air (M1)");
+            correctionAdd("MacBook Air M1", "MacBook Air (M1)");
+            correctionAdd("Mac air M1", "MacBook Air (M1)");
+            correctionAdd("Macbook air M1", "MacBook Air (M1)");
+            correctionAdd("MacBook M1 Chip", "MacBook Air (M1)");
+            correctionAdd("M1 mac", "MacBook Air (M1)");
+            correctionAdd("Mac M1", "MacBook Air (M1)");
+            correctionAdd("mac m1", "MacBook Air (M1)");
+            correctionAdd("M1 Macbook", "MacBook Air (M1)");
+            correctionAdd("m1 macbook", "MacBook Air (M1)");
+
+            correctionAdd("m1 pro", "MacBook Pro M1");
+            correctionAdd("Mac M1 Pro", "MacBook Pro M1");
+            correctionAdd("Mac Pro M1", "MacBook Pro M1");
+            correctionAdd("MacBook M1 Pro", "MacBook Pro M1");
+            correctionAdd("Mac Pro", "MacBook Pro M1");
+
+            correctionAdd("mac mini M1", "Mac Mini (M1)");
+
+            correctionAdd("M1 Max", "M1 Max MacBook Pro");
+            correctionAdd("M1 max", "M1 Max MacBook Pro");
+
             correctionAdd("Mac OS X", "Mac&nbsp;OS&nbsp;X"); // Sort of identity mapping
             correctionAdd("osx", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("os x", "Mac&nbsp;OS&nbsp;X");
@@ -8208,10 +8310,31 @@ namespace OverflowHelper.core
             correctionAdd("Mac os x", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("Osx", "Mac&nbsp;OS&nbsp;X");
 
-            correctionAdd("mac", "Mac"); // Collision with MAC address, but there is an entry for that, "MAC address".
-            correctionAdd("macintosh", "Mac"); // Collision with MAC address, but there is an entry for that, "MAC address".
-            correctionAdd("Macintosh", "Mac");
-            correctionAdd("MaC", "Mac");
+            correctionAdd("Mac mini", "Mac Mini");
+            correctionAdd("mac mini", "Mac Mini");
+            correctionAdd("macmini", "Mac Mini");
+            correctionAdd("apple mini", "Mac Mini");
+            correctionAdd("Apple Mini", "Mac Mini");
+
+            correctionAdd("imac", "iMac");
+
+            correctionAdd("macvim", "MacVim");
+
+            correctionAdd("Apple Silicon", "Apple silicon");
+            correctionAdd("Silicon MAC", "Apple silicon");
+            correctionAdd("Silicon Mac", "Apple silicon");
+            correctionAdd("apple silicon", "Apple silicon");
+            correctionAdd("Apple Silicon Chip", "Apple silicon");
+
+            correctionAdd("iMac pro", "iMac Pro");
+            correctionAdd("imac pro", "iMac Pro");
+
+            // A Mac spreadsheet program
+            correctionAdd("numbers", "Numbers");
+
+            correctionAdd("OS-9", "Mac OS 9");
+
+            correctionAdd("Mac end of line", "Macintosh end of line");
 
             correctionAdd("Mac Os", "macOS");
             correctionAdd("MacOs", "macOS");
@@ -8430,6 +8553,8 @@ namespace OverflowHelper.core
             //correctionAdd("mac OS 12", "macOS v10.12 (Sierra)"); //Why are these outcommented???
             //correctionAdd("macOS 12", "macOS v10.12 (Sierra)");
             //correctionAdd("MacOS 12", "macOS v10.12 (Sierra)");
+
+            correctionAdd("Mac OS X Sierra", "Mac OS X v10.12 (Sierra)");
 
             correctionAdd("macOS High Sierra", "macOS v10.13 (High Sierra)");
             correctionAdd("macOS v10.13", "macOS v10.13 (High Sierra)");
@@ -10152,6 +10277,7 @@ namespace OverflowHelper.core
             correctionAdd("win key", "Windows key");
             correctionAdd("Win key", "Windows key");
             correctionAdd("Windows Key", "Windows key");
+            correctionAdd("Windows Logo Key", "Windows key");
 
             correctionAdd("greasemonkey", "Greasemonkey");
             correctionAdd("grease monkey", "Greasemonkey");
@@ -11071,6 +11197,7 @@ namespace OverflowHelper.core
             correctionAdd("E. g", "for example");
             correctionAdd("For exmaple", "for example");
             correctionAdd("for exampe", "for example");
+            correctionAdd("For examle", "for example");
 
             correctionAdd("exsample", "example");
             correctionAdd("Exaplme", "example"); // Not 100% correct - case.
@@ -12571,22 +12698,6 @@ namespace OverflowHelper.core
             correctionAdd("mono", "Mono");
             correctionAdd("MONO", "Mono");
 
-            correctionAdd("vmware", "VMware");
-            correctionAdd("VMWare", "VMware");
-            correctionAdd("VM Ware", "VMware");
-            correctionAdd("Vmware", "VMware");
-            correctionAdd("WMware", "VMware");
-            correctionAdd("WM Ware", "VMware");
-            correctionAdd("vmare", "VMware");
-            correctionAdd("vmWare", "VMware");
-            correctionAdd("VM ware", "VMware");
-            correctionAdd("VmWare", "VMware");
-            correctionAdd("VM-Ware", "VMware");
-            correctionAdd("VW Ware", "VMware");
-            correctionAdd("VW ware", "VMware");
-            correctionAdd("VWware", "VMware");
-            correctionAdd("vMware", "VMware");
-
             correctionAdd("scipy", "SciPy");
             correctionAdd("Scipy", "SciPy");
             correctionAdd("SciPY", "SciPy");
@@ -13304,23 +13415,6 @@ namespace OverflowHelper.core
             correctionAdd("piglatin", "Pig Latin");
 
             correctionAdd("pil", "PIL");
-
-            correctionAdd("MacBook", "MacBook Pro"); // Not exactly...
-            correctionAdd("macbook", "MacBook Pro"); // Not exactly...
-            correctionAdd("Mac Book", "MacBook Pro"); // Not exactly...
-            correctionAdd("mac book pro", "MacBook Pro");
-            correctionAdd("Macbook Pro", "MacBook Pro");
-            correctionAdd("MacBookPro", "MacBook Pro");
-            correctionAdd("macbook pro", "MacBook Pro");
-            correctionAdd("mac pro", "MacBook Pro");
-            correctionAdd("macBook Pro", "MacBook Pro");
-            correctionAdd("Macbook", "MacBook Pro"); // Not exactly...
-            correctionAdd("Mac Book Pro", "MacBook Pro");
-            correctionAdd("MBP", "MacBook Pro");
-            correctionAdd("MacBook pro", "MacBook Pro");
-            correctionAdd("Macbook pro", "MacBook Pro");
-            correctionAdd("macbookpro", "MacBook Pro");
-            correctionAdd("MACBOOK", "MacBook Pro");
 
             correctionAdd("bluetooth", "Bluetooth");
             correctionAdd("BT", "Bluetooth"); // Conflict with BitTorrent
@@ -15271,15 +15365,6 @@ namespace OverflowHelper.core
             correctionAdd("Udp", "UDP");
 
             correctionAdd("vnc", "VNC");
-
-            correctionAdd("macports", "MacPorts");
-            correctionAdd("mac ports", "MacPorts");
-            correctionAdd("Macports", "MacPorts");
-            correctionAdd("MacPort", "MacPorts");
-            correctionAdd("macport", "MacPorts");
-            correctionAdd("ports", "MacPorts");
-            correctionAdd("Mac Port", "MacPorts");
-            correctionAdd("Mac Ports", "MacPorts");
 
             correctionAdd("spec", "specification");
             correctionAdd("Spec", "specification");
@@ -18350,49 +18435,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Cdecl", "cdecl");
 
-            correctionAdd("m1", "Apple M1");
-            correctionAdd("M1", "Apple M1");
-            correctionAdd("M1 Mac", "Apple M1");
-
-            correctionAdd("M2", "Apple M2");
-            correctionAdd("m2", "Apple M2");
-
-            correctionAdd("Apple M1 max", "Apple M1 Max");
-
-            correctionAdd("Apple M1 pro", "Apple M1 Pro");
-            correctionAdd("Apple Silicon M1 Pro", "Apple M1 Pro");
-
-            correctionAdd("macbook air", "MacBook Air");
-            correctionAdd("Macbook Air", "MacBook Air");
-            correctionAdd("mac air", "MacBook Air");
-            correctionAdd("airbook", "MacBook Air");
-            correctionAdd("mac airbook", "MacBook Air");
-            correctionAdd("Mac AirBook", "MacBook Air");
-            correctionAdd("MacBook air", "MacBook Air");
-
-            correctionAdd("Macbook M1 air", "MacBook Air (M1)");
-            correctionAdd("macbook air m1", "MacBook Air (M1)");
-            correctionAdd("MacBook Air M1", "MacBook Air (M1)");
-            correctionAdd("Mac air M1", "MacBook Air (M1)");
-            correctionAdd("Macbook air M1", "MacBook Air (M1)");
-            correctionAdd("MacBook M1 Chip", "MacBook Air (M1)");
-            correctionAdd("M1 mac", "MacBook Air (M1)");
-            correctionAdd("Mac M1", "MacBook Air (M1)");
-            correctionAdd("mac m1", "MacBook Air (M1)");
-            correctionAdd("M1 Macbook", "MacBook Air (M1)");
-            correctionAdd("m1 macbook", "MacBook Air (M1)");
-
-            correctionAdd("m1 pro", "MacBook Pro M1");
-            correctionAdd("Mac M1 Pro", "MacBook Pro M1");
-            correctionAdd("Mac Pro M1", "MacBook Pro M1");
-            correctionAdd("MacBook M1 Pro", "MacBook Pro M1");
-            correctionAdd("Mac Pro", "MacBook Pro M1");
-
-            correctionAdd("mac mini M1", "Mac Mini (M1)");
-
-            correctionAdd("M1 Max", "M1 Max MacBook Pro");
-            correctionAdd("M1 max", "M1 Max MacBook Pro");
-
             correctionAdd("pm2", "PM2");
 
             correctionAdd("Aptana studio", "Aptana Studio");
@@ -20353,6 +20395,7 @@ namespace OverflowHelper.core
             correctionAdd("screenshit", "screenshot");
             correctionAdd("screenschot", "screenshot");
             correctionAdd("screenshoot", "screenshot");
+            correctionAdd("scrrenshot", "screenshot");
 
             correctionAdd("world war 2", "World War II");
             correctionAdd("WWII", "World War II");
@@ -21604,8 +21647,6 @@ namespace OverflowHelper.core
             correctionAdd("mamp", "MAMP");
             correctionAdd("Mamp", "MAMP");
 
-            correctionAdd("Mac OS X Sierra", "Mac OS X v10.12 (Sierra)");
-
             correctionAdd("Nmake", "NMAKE");
             correctionAdd("nmake", "NMAKE");
             correctionAdd("NMake", "NMAKE");
@@ -22633,12 +22674,6 @@ namespace OverflowHelper.core
             correctionAdd("MSys", "MSYS");
             correctionAdd("msys", "MSYS");
             correctionAdd("Msys", "MSYS");
-
-            correctionAdd("Mac mini", "Mac Mini");
-            correctionAdd("mac mini", "Mac Mini");
-            correctionAdd("macmini", "Mac Mini");
-            correctionAdd("apple mini", "Mac Mini");
-            correctionAdd("Apple Mini", "Mac Mini");
 
             correctionAdd("scpi", "SCPI");
 
@@ -26810,6 +26845,7 @@ namespace OverflowHelper.core
             correctionAdd("ReOpen", "reopen");
             correctionAdd("Reopen", "reopen");
             correctionAdd("reOpen", "reopen");
+            correctionAdd("re open", "reopen");
 
             correctionAdd("stricktly", "strictly");
             correctionAdd("Stricly", "strictly");
@@ -33631,8 +33667,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ghosttown", "ghost town");
 
-            correctionAdd("imac", "iMac");
-
             correctionAdd("Payment Processor", "payment processor");
 
             correctionAdd("powerty", "poverty");
@@ -33834,6 +33868,7 @@ namespace OverflowHelper.core
 
             correctionAdd("sop", "standard operating procedure");
             correctionAdd("SOP", "standard operating procedure");
+            correctionAdd("S.O.P", "standard operating procedure");
 
             correctionAdd("tabu", "taboo");
 
@@ -37037,6 +37072,7 @@ namespace OverflowHelper.core
             correctionAdd("clearify", "clarify");
 
             correctionAdd("eigen value", "eigenvalue");
+            correctionAdd("Eigen value", "eigenvalue");
 
             correctionAdd("sensorship", "censorship");
 
@@ -38368,6 +38404,8 @@ namespace OverflowHelper.core
             correctionAdd("co-author", "coauthor");
 
             correctionAdd("collogically", "colloquially");
+            correctionAdd("Coloquially", "colloquially");
+            correctionAdd("coloquially", "colloquially");
 
             correctionAdd("mid-stream", "midstream");
 
@@ -39165,8 +39203,6 @@ namespace OverflowHelper.core
             correctionAdd("pi filter", "π-network filter");
             correctionAdd("π filter", "π-network filter");
 
-            correctionAdd("macvim", "MacVim");
-
             correctionAdd("Abstract Algebra", "abstract algebra");
 
             correctionAdd("Calculus", "calculus");
@@ -39912,12 +39948,6 @@ namespace OverflowHelper.core
             correctionAdd("undestandable", "understandable");
             correctionAdd("understandble", "understandable");
 
-            correctionAdd("Apple Silicon", "Apple silicon");
-            correctionAdd("Silicon MAC", "Apple silicon");
-            correctionAdd("Silicon Mac", "Apple silicon");
-            correctionAdd("apple silicon", "Apple silicon");
-            correctionAdd("Apple Silicon Chip", "Apple silicon");
-
             correctionAdd("calabash", "Calabash");
 
             correctionAdd("cocoa pods", "CocoaPods");
@@ -40286,9 +40316,6 @@ namespace OverflowHelper.core
 
             correctionAdd("high-explosives", "high explosives");
             correctionAdd("High-explosives", "high explosives");
-
-            correctionAdd("iMac pro", "iMac Pro");
-            correctionAdd("imac pro", "iMac Pro");
 
             correctionAdd("6", "six");
 
@@ -41466,9 +41493,6 @@ namespace OverflowHelper.core
             correctionAdd("warm fussies", "warm fuzzies");
 
             correctionAdd("Google Closure Compiler", "Closure Compiler");
-
-            correctionAdd("gitian-builder", "Gitian Builder");
-            correctionAdd("gitian-build", "Gitian Builder");
 
             correctionAdd("husky", "Husky");
 
@@ -43898,6 +43922,8 @@ namespace OverflowHelper.core
             correctionAdd("insiders build", "Visual Studio Code Insiders");
             correctionAdd("insiders", "Visual Studio Code Insiders");
             correctionAdd("VSCode insiders", "Visual Studio Code Insiders");
+            correctionAdd("VS code insider", "Visual Studio Code Insiders");
+            correctionAdd("VS code insiders", "Visual Studio Code Insiders");
 
             correctionAdd("Dysautonomia", "dysautonomia");
 
@@ -46453,6 +46479,7 @@ namespace OverflowHelper.core
             correctionAdd("on the first glance", "at first glance");
             correctionAdd("At a first glance", "at first glance");
             correctionAdd("at a first glance", "at first glance");
+            correctionAdd("in first glance", "at first glance");
 
             correctionAdd("ceramic oscillator", "ceramic resonator");
 
@@ -49296,9 +49323,6 @@ namespace OverflowHelper.core
 
             correctionAdd("memory-model", "memory model");
 
-            // A Mac spreadsheet program
-            correctionAdd("numbers", "Numbers");
-
             correctionAdd("rain drop", "raindrop");
 
             correctionAdd("vigilence", "vigilance");
@@ -49412,6 +49436,27 @@ namespace OverflowHelper.core
 
             correctionAdd("unreadble", "unreadable");
             correctionAdd("unredable", "unreadable");
+
+            correctionAdd("suplied", "supplied");
+
+            correctionAdd("auto generation", "autogeneration");
+
+            correctionAdd("coumpound", "compound");
+
+            correctionAdd("duplicacy", "duplication");
+
+            correctionAdd("malay", "Malay");
+
+            correctionAdd("malaysian", "Malaysian");
+
+            correctionAdd("penality", "penalty");
+
+            correctionAdd("spell checking", "spell-checking");
+            correctionAdd("Spell checking", "spell-checking");
+
+            correctionAdd("Commodore", "Commodore PET");
+
+            correctionAdd("physcally", "physically");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -77103,6 +77148,34 @@ namespace OverflowHelper.core
 
             URL_Add("unreadable", "https://en.wiktionary.org/wiki/unreadable#Adjective");
 
+            URL_Add("supplied", "https://en.wiktionary.org/wiki/supply#Verb");
+
+            URL_Add("autogeneration", "https://en.wiktionary.org/wiki/autogeneration#Noun");
+
+            URL_Add("compound", "https://en.wiktionary.org/wiki/compound#Adjective");
+
+            URL_Add("duplication", "https://en.wiktionary.org/wiki/duplication#Noun");
+
+            URL_Add("Git submodules", "https://git-scm.com/book/en/v2/Git-Tools-Submodules");
+
+            URL_Add("Malay", "https://en.wiktionary.org/wiki/Malay#Adjective");
+
+            URL_Add("Malaysian", "https://en.wiktionary.org/wiki/Malaysian#Adjective");
+
+            URL_Add("penalty", "https://en.wiktionary.org/wiki/penalty#Noun");
+
+            URL_Add("spell-checking", "https://en.wiktionary.org/wiki/spell-check#Verb");
+
+            URL_Add("Commodore PET", "https://en.wikipedia.org/wiki/Commodore_PET");
+
+            URL_Add("Mac OS 9", "https://en.wikipedia.org/wiki/Mac_OS_9");
+
+            URL_Add("Macintosh end of line", "https://en.wikipedia.org/wiki/Newline#Representation");
+
+            URL_Add("physically", "https://en.wiktionary.org/wiki/physically#Adverb");
+
+            URL_Add("VMware ESXi", "https://en.wikipedia.org/wiki/VMware_ESXi");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -79043,6 +79116,9 @@ namespace OverflowHelper.core
             correctionAdd("FN_", "Fn key_");
             correctionAdd("Fn_", "Fn key_");
 
+            // A key on a keyboard
+            correctionAdd("BREAK_", "Break_");
+
             correctionAdd("hansel_", "Hanselminutes_");
 
             correctionAdd("C string_", "null-terminated string_");
@@ -80181,6 +80257,8 @@ namespace OverflowHelper.core
             URL_Add("data structures and algorithms_", "https://en.wikipedia.org/wiki/Algorithms_%2B_Data_Structures_%3D_Programs");
 
             URL_Add("senior_", "https://en.wiktionary.org/wiki/senior#Adjective");
+
+            URL_Add("Break_", "https://en.wikipedia.org/wiki/Break_key");
 
         } //addLookupData_alternativeWordSet()
 
