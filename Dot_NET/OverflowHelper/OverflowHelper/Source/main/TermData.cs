@@ -3209,8 +3209,25 @@ namespace OverflowHelper.core
             correctionAdd("EPOC", "Epoch time");
             correctionAdd("EPOC time", "Epoch time");
 
+            // Linux
+            correctionAdd("bash_profile", ".bash_profile");
+            correctionAdd("bashprofile", ".bash_profile");
+            correctionAdd("bash profile", ".bash_profile");
+            correctionAdd(".bashprofile", ".bash_profile");
+
+            // Linux. Web hosting.
+            correctionAdd("linode", "Linode");
+
+            correctionAdd("Linux journal", "Linux Journal");
+
+            // A software tool
+            //
+            // Both Linux and Windows
             correctionAdd("DOS2UNIX", "dos2unix");
 
+            // A software tool
+            //
+            // Both Linux and Windows
             correctionAdd("UNIX2DOS", "unix2dos");
 
             correctionAdd("dtrace", "DTrace");
@@ -6200,6 +6217,9 @@ namespace OverflowHelper.core
 
             correctionAdd("c++20", "C++20");
             correctionAdd("C++ 20", "C++20");
+
+            // Mostly related to C++
+            correctionAdd("vtable", "virtual method table");
 
             // A book
             correctionAdd("effective c++", "Effective C++");
@@ -9907,12 +9927,6 @@ namespace OverflowHelper.core
             correctionAdd("very low-level intermediate representation", "VLIR");
             correctionAdd("very low-level IR", "VLIR");
 
-            // Linux
-            correctionAdd("bash_profile", ".bash_profile");
-            correctionAdd("bashprofile", ".bash_profile");
-            correctionAdd("bash profile", ".bash_profile");
-            correctionAdd(".bashprofile", ".bash_profile");
-
             correctionAdd("docker file", "Dockerfile");
             correctionAdd("dockerfile", "Dockerfile");
             correctionAdd("DockerFIle", "Dockerfile");
@@ -10244,6 +10258,35 @@ namespace OverflowHelper.core
             correctionAdd("non-functional", "nonfunctional");
             correctionAdd("non functional", "nonfunctional");
 
+            correctionAdd("Software Engineering", "software engineering");
+            correctionAdd("softwareengineering", "software engineering");
+            correctionAdd("Software engineering", "software engineering");
+
+            // A software development methodology
+            correctionAdd("Agile", "agile");
+
+            correctionAdd("SAFe", "Scaled Agile Framework");
+
+            // An Agile methodology
+            correctionAdd("scrum", "Scrum");
+
+            correctionAdd("sprint", "Scrum sprint");
+
+            // A Scrum term
+            correctionAdd("SM", "Scrum master");
+            correctionAdd("scrum master", "Scrum master");
+            correctionAdd("Scrum Master", "Scrum master");
+
+            // A Scrum term
+            correctionAdd("daily Scrum", "daily scrum");
+
+            // A Scrum term
+            correctionAdd("Product Owner", "product owner");
+            correctionAdd("PO", "product owner");
+
+            // An Agile methodology
+            correctionAdd("Extreme Programming", "extreme programming");
+
             correctionAdd("Functional programming", "functional programming");
             correctionAdd("Functional Programming", "functional programming");
             correctionAdd("functionnal programming", "functional programming");
@@ -10264,13 +10307,6 @@ namespace OverflowHelper.core
             correctionAdd("meta programming", "metaprogramming");
             correctionAdd("meta-programming", "metaprogramming");
 
-            correctionAdd("paired programming", "pair programming");
-            correctionAdd("peer programming", "pair programming");
-            correctionAdd("Pair Coding", "pair programming");
-            correctionAdd("pair coding", "pair programming");
-
-            correctionAdd("Extreme Programming", "extreme programming");
-
             correctionAdd("Procedural programming", "procedural programming");
             correctionAdd("Procedural Programming", "procedural programming");
 
@@ -10285,11 +10321,12 @@ namespace OverflowHelper.core
 
             correctionAdd("aspect oriented programming", "aspect-oriented programming");
 
-            correctionAdd("un programming", "nonprogramming");
+            correctionAdd("paired programming", "pair programming");
+            correctionAdd("peer programming", "pair programming");
+            correctionAdd("Pair Coding", "pair programming");
+            correctionAdd("pair coding", "pair programming");
 
             correctionAdd("Server Application Programming Interface", "SAPI");
-
-            correctionAdd("re-programming", "reprogramming");
 
             correctionAdd("Constraint Programming", "constraint programming");
 
@@ -10298,6 +10335,10 @@ namespace OverflowHelper.core
             correctionAdd("Imperative Programming", "imperative programming");
 
             correctionAdd("MIP", "mixed integer programming");
+
+            correctionAdd("un programming", "nonprogramming");
+
+            correctionAdd("re-programming", "reprogramming");
 
             // Stack Exchange
             correctionAdd("boat programming", "the boat programming question");
@@ -12171,9 +12212,6 @@ namespace OverflowHelper.core
             correctionAdd("p-n diode", "p–n diode");
             correctionAdd("PN diode", "p–n diode");
 
-            // Linux. Web hosting.
-            correctionAdd("linode", "Linode");
-
             correctionAdd("ordinary differential equation", "ODE");
             correctionAdd("ode", "ODE");
 
@@ -13648,6 +13686,11 @@ namespace OverflowHelper.core
             correctionAdd("Vba", "VBA");
             correctionAdd("Excel language", "VBA");
 
+            // A programming language. Can compete with C in terms of speed
+            correctionAdd("nim", "Nim");
+            correctionAdd("nim-lang", "Nim");
+            correctionAdd("Nimrod", "Nim");
+
             correctionAdd("wysiwyg", "WYSIWYG");
             correctionAdd("WSIWYG", "WYSIWYG");
             correctionAdd("WISWYG", "WYSIWYG");
@@ -14658,8 +14701,7 @@ namespace OverflowHelper.core
 
             correctionAdd("confluence", "Confluence");
 
-            correctionAdd("scrum", "Scrum");
-
+            // An IDE
             correctionAdd("CodeBlocks", "Code::Blocks");
             correctionAdd("Code Blocks", "Code::Blocks");
             correctionAdd("Code::blocks", "Code::Blocks");
@@ -14684,6 +14726,26 @@ namespace OverflowHelper.core
             correctionAdd("PTY", "pseudoterminal");
 
             correctionAdd("Terminal.app", "Terminal");
+
+            // Software library for computer terminals / command line
+            //
+            // In the family 'termio', 'termcap', 'terminfo', and 'ncurses'.
+            correctionAdd("nCurses", "ncurses");
+
+            // Software library for computer terminals / command line
+            //
+            // Related to the family 'termio', 'termcap', 'terminfo', and 'ncurses'.
+            correctionAdd("slang", "S-Lang");
+
+            // Software library for computer terminals / command line
+            //
+            // In the family 'termio', 'termcap', 'terminfo', and 'ncurses'.
+            correctionAdd("TERMCAP", "termcap");
+
+            // Software library for computer terminals / command line
+            //
+            // In the family 'termio', 'termcap', 'terminfo', and 'ncurses'.
+            correctionAdd("TERMINFO", "terminfo");
 
             correctionAdd("Airport", "AirPort");
             correctionAdd("airport", "AirPort");
@@ -15218,10 +15280,6 @@ namespace OverflowHelper.core
             correctionAdd("Software Engineer", "software engineer");
             correctionAdd("SWE", "software engineer");
             correctionAdd("swe", "software engineer");
-
-            correctionAdd("Software Engineering", "software engineering");
-            correctionAdd("softwareengineering", "software engineering");
-            correctionAdd("Software engineering", "software engineering");
 
             correctionAdd("Data Engineering", "data engineering");
 
@@ -17557,8 +17615,6 @@ namespace OverflowHelper.core
             correctionAdd("ZS", "Zend Studio");
             correctionAdd("Zend IDE", "Zend Studio");
 
-            correctionAdd("SAFe", "Scaled Agile Framework");
-
             correctionAdd("framwork", "framework");
             correctionAdd("frame work", "framework");
             correctionAdd("framewrok", "framework");
@@ -19070,22 +19126,19 @@ namespace OverflowHelper.core
             correctionAdd("ambi", "ambiguity");
             correctionAdd("ambigity", "ambiguity");
 
-            correctionAdd("disambig", "disambiguation");
-            correctionAdd("disambugation", "disambiguation");
-            correctionAdd("disambigation", "disambiguation");
-            correctionAdd("disambiaguation", "disambiguation");
-
             correctionAdd("ambigious", "ambiguous");
             correctionAdd("ambigous", "ambiguous");
             correctionAdd("ambiguious", "ambiguous");
             correctionAdd("ambguous", "ambiguous");
 
-            correctionAdd("unambigious", "unambiguous");
-            correctionAdd("unambigous", "unambiguous");
+            correctionAdd("ambigiously", "ambiguously");
+
+            correctionAdd("disambig", "disambiguation");
+            correctionAdd("disambugation", "disambiguation");
+            correctionAdd("disambigation", "disambiguation");
+            correctionAdd("disambiaguation", "disambiguation");
 
             correctionAdd("dissambiguating", "disambiguating");
-
-            correctionAdd("ambigiously", "ambiguously");
 
             correctionAdd("disambigate", "disambiguate");
             correctionAdd("disambuguate", "disambiguate");
@@ -19096,6 +19149,9 @@ namespace OverflowHelper.core
             correctionAdd("disambigiate", "disambiguate");
 
             correctionAdd("disambugated", "disambiguated");
+
+            correctionAdd("unambigious", "unambiguous");
+            correctionAdd("unambigous", "unambiguous");
 
             correctionAdd("mage", "Mage");
             correctionAdd("mage.exe", "Mage");
@@ -25996,8 +26052,6 @@ namespace OverflowHelper.core
             correctionAdd("Time stamp", "timestamp");
             correctionAdd("TimeStamp", "timestamp");
 
-            correctionAdd("nCurses", "ncurses");
-
             correctionAdd("mutt", "Mutt");
 
             correctionAdd("pico", "Pico");
@@ -29087,8 +29141,6 @@ namespace OverflowHelper.core
 
             correctionAdd("missprint", "misprint");
 
-            correctionAdd("sprint", "Scrum sprint");
-
             correctionAdd("thumbprint", "fingerprint");
 
             correctionAdd("generalizing", "generalising");
@@ -30445,10 +30497,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Shindler's list", "Schindler's List");
 
-            correctionAdd("SM", "Scrum master");
-            correctionAdd("scrum master", "Scrum master");
-            correctionAdd("Scrum Master", "Scrum master");
-
             correctionAdd("beleives", "believes");
 
             correctionAdd("hiaerchies", "hierarchies");
@@ -30578,8 +30626,6 @@ namespace OverflowHelper.core
 
             correctionAdd("SilkTest", "Silk Test");
             correctionAdd("Silktest", "Silk Test");
-
-            correctionAdd("Agile", "agile");
 
             correctionAdd("reapeated", "repeated");
             correctionAdd("Reapeated", "repeated");
@@ -33527,10 +33573,6 @@ namespace OverflowHelper.core
             correctionAdd("new syntax highlighter", "Highlight.js");
             correctionAdd("weird syntax", "Highlight.js");
             correctionAdd("weird formatting", "Highlight.js");
-
-            correctionAdd("nim", "Nim");
-            correctionAdd("nim-lang", "Nim");
-            correctionAdd("Nimrod", "Nim");
 
             correctionAdd("cross posted", "crossposted");
             correctionAdd("Cross posted", "crossposted");
@@ -39327,8 +39369,6 @@ namespace OverflowHelper.core
             correctionAdd("Accounting System", "accounting system");
 
             correctionAdd("Baryonic", "baryonic");
-
-            correctionAdd("daily Scrum", "daily scrum");
 
             correctionAdd("decmial", "decimal");
             correctionAdd("dec", "decimal");
@@ -47600,9 +47640,6 @@ namespace OverflowHelper.core
             correctionAdd("mr", "merge request");
             correctionAdd("mrs", "merge request");
 
-            correctionAdd("Product Owner", "product owner");
-            correctionAdd("PO", "product owner");
-
             correctionAdd("r&d", "research and development");
             correctionAdd("R&D", "research and development");
 
@@ -49561,6 +49598,8 @@ namespace OverflowHelper.core
 
             correctionAdd("malaysian", "Malaysian");
 
+            correctionAdd("malaysia", "Malaysia");
+
             correctionAdd("penality", "penalty");
             correctionAdd("penelty", "penalty");
 
@@ -49577,19 +49616,10 @@ namespace OverflowHelper.core
 
             correctionAdd("hot swappable", "hot-swappable");
 
-            correctionAdd("Linux journal", "Linux Journal");
-
-            correctionAdd("malaysia", "Malaysia");
-
             correctionAdd("pissig", "pissing");
 
+            // Related to databases and Microsoft SQL Server
             correctionAdd("RTO", "Recovery Time Objective");
-
-            correctionAdd("slang", "S-Lang");
-
-            correctionAdd("TERMCAP", "termcap");
-
-            correctionAdd("TERMINFO", "terminfo");
 
             correctionAdd("Commonwealth", "the Commonwealth");
 
@@ -49622,8 +49652,6 @@ namespace OverflowHelper.core
             correctionAdd("so one", "so on");
 
             correctionAdd("Thunking", "thunking");
-
-            correctionAdd("vtable", "virtual method table");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -79394,6 +79422,10 @@ namespace OverflowHelper.core
             correctionAdd("ir_", "IR_");
             correctionAdd("intermediate representation_", "IR_");
 
+            // A programming language. Can compete with C in terms of speed
+            //
+            // Similar: Nim
+            //
             correctionAdd("Joy_", "Crystal_");
             correctionAdd("crystal_", "Crystal_");
 
