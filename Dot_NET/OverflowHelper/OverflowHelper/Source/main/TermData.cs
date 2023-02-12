@@ -2114,6 +2114,7 @@ namespace OverflowHelper.core
             correctionAdd("IFRAME", "iframe");
 
             correctionAdd("bacame", "became");
+            correctionAdd("becames", "became");
 
             // Alternative URL: <https://github.com/rails/execjs>
             correctionAdd("execjs", "ExecJS");
@@ -7200,12 +7201,13 @@ namespace OverflowHelper.core
             correctionAdd("hangouts", "Google Hangouts");
 
             correctionAdd("google cloud", "Google Cloud Platform");
+            correctionAdd("Google cloud", "Google Cloud Platform");
+            correctionAdd("google cloud compute", "Google Cloud Platform");
+            correctionAdd("gcloud", "Google Cloud Platform"); // Not entirely true - actual a command-line tool
             correctionAdd("g cloud", "Google Cloud Platform");
             correctionAdd("G cloud", "Google Cloud Platform");
-            correctionAdd("Google cloud", "Google Cloud Platform");
-            correctionAdd("gcloud", "Google Cloud Platform"); // Not entirely true - actual a command-line tool
             correctionAdd("GCP", "Google Cloud Platform");
-            correctionAdd("google cloud compute", "Google Cloud Platform");
+            correctionAdd("gcp", "Google Cloud Platform");
 
             correctionAdd("Ad Words", "AdWords");
             correctionAdd("adwords", "AdWords");
@@ -15584,6 +15586,7 @@ namespace OverflowHelper.core
             correctionAdd("coifig", "configuration");
             correctionAdd("coonfiguration", "configuration");
             correctionAdd("configuraiton", "configuration");
+            correctionAdd("Conf", "configuration");
 
             correctionAdd("Voip", "VoIP");
             correctionAdd("VOIP", "VoIP");
@@ -22322,6 +22325,7 @@ namespace OverflowHelper.core
             correctionAdd("Recommention", "recommendation");
             correctionAdd("recommention", "recommendation");
             correctionAdd("recommendaion", "recommendation");
+            correctionAdd("recom", "recommendation"); // A shorthand
 
             correctionAdd("recommanded", "recommended");
             correctionAdd("recoomended", "recommended");
@@ -23492,6 +23496,11 @@ namespace OverflowHelper.core
             correctionAdd("co-ordinate", "coordinate");
             correctionAdd("co ordinate", "coordinate");
             correctionAdd("coords", "coordinate");
+            correctionAdd("cordinate", "coordinate");
+
+            correctionAdd("xy coordinates", "x- and y-coordinates");
+
+            correctionAdd("x coordinate", "x-coordinate");
 
             correctionAdd("finaly", "finally");
             correctionAdd("finnaly", "finally");
@@ -27069,6 +27078,7 @@ namespace OverflowHelper.core
 
             correctionAdd("misc", "miscellaneous");
             correctionAdd("miscelaneous", "miscellaneous");
+            correctionAdd("Misc", "miscellaneous");
 
             correctionAdd("multi pass", "multi-pass");
 
@@ -31375,6 +31385,7 @@ namespace OverflowHelper.core
             correctionAdd("abrevation", "abbreviation");
             correctionAdd("ABRV", "abbreviation");
             correctionAdd("abrv", "abbreviation");
+            correctionAdd("abreviation", "abbreviation");
 
             correctionAdd("heterogenious", "heterogeneous");
 
@@ -40541,6 +40552,7 @@ namespace OverflowHelper.core
             correctionAdd("in line", "in-line");
 
             correctionAdd("NL", "newline");
+            correctionAdd("new-line", "newline");
 
             correctionAdd("Karmin line", "Kármán line");
 
@@ -44227,6 +44239,7 @@ namespace OverflowHelper.core
 
             correctionAdd("firefox esr", "Firefox ESR");
             correctionAdd("Firefox esr", "Firefox ESR");
+            correctionAdd("Firefox-ESR", "Firefox ESR");
 
             correctionAdd("idris", "Idris");
 
@@ -46856,6 +46869,7 @@ namespace OverflowHelper.core
             correctionAdd("symantics", "semantics");
 
             correctionAdd("dissassemble", "disassemble");
+            correctionAdd("deassemble", "disassemble");
 
             correctionAdd("HiZ", "high impedance");
             correctionAdd("hi-Z", "high impedance");
@@ -47205,10 +47219,6 @@ namespace OverflowHelper.core
             correctionAdd("flutter_quill", "FlutterQuill");
 
             correctionAdd("mark-up language", "markup language");
-
-            correctionAdd("xy coordinates", "x- and y-coordinates");
-
-            correctionAdd("x coordinate", "x-coordinate");
 
             correctionAdd("Zahlenreihe", "number sequence");
             correctionAdd("sequence of numbers", "number sequence");
@@ -49652,6 +49662,17 @@ namespace OverflowHelper.core
             correctionAdd("so one", "so on");
 
             correctionAdd("Thunking", "thunking");
+
+            correctionAdd("destoyed", "destroyed");
+
+            correctionAdd("Quadratic Formula", "quadratic formula");
+            correctionAdd("Quadratic Equation", "quadratic formula");
+
+            correctionAdd("asymptote", "Asymptote");
+
+            correctionAdd("Cryptanalysis", "cryptanalysis");
+
+            correctionAdd("thermo-dynamical", "thermodynamical");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -77442,6 +77463,16 @@ namespace OverflowHelper.core
             URL_Add("very long instruction word", "https://en.wikipedia.org/wiki/Very_long_instruction_word");
 
             URL_Add("virtual method table", "https://en.wikipedia.org/wiki/Virtual_method_table");
+
+            URL_Add("destroyed", "https://en.wiktionary.org/wiki/destroy#Verb");
+
+            URL_Add("quadratic formula", "https://en.wikipedia.org/wiki/Quadratic_formula");
+
+            URL_Add("Asymptote", "https://en.wikipedia.org/wiki/Asymptote_(vector_graphics_language)");
+
+            URL_Add("cryptanalysis", "https://en.wikipedia.org/wiki/Cryptanalysis");
+
+            URL_Add("thermodynamical", "https://en.wiktionary.org/wiki/thermodynamical#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
