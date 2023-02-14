@@ -1582,6 +1582,9 @@ namespace OverflowHelper.core
             // An Indian time zone
             correctionAdd("IST", "Indian Standard Time");
 
+            correctionAdd("CET", "Central European Time");
+            correctionAdd("cet", "Central European Time");
+
             correctionAdd("Minkowski spacetime", "Minkowski space");
 
             correctionAdd("Jit", "JIT");
@@ -17428,6 +17431,11 @@ namespace OverflowHelper.core
             correctionAdd("Double Click", "double-click");
             correctionAdd("Double-click", "double-click");
 
+            correctionAdd("single click", "single-click");
+
+            correctionAdd("left click", "left-click");
+            correctionAdd("Left click", "left-click");
+
             correctionAdd("double clicking", "double-clicking");
             correctionAdd("doublicking", "double-clicking");
             correctionAdd("doubclicking", "double-clicking");
@@ -28233,7 +28241,7 @@ namespace OverflowHelper.core
             correctionAdd("Plagiarism", "plagiarism");
             correctionAdd("plagisarism", "plagiarism");
             correctionAdd("Plagiasrism", "plagiarism");
-            correctionAdd("plag", "plagiarism");
+            correctionAdd("plag", "plagiarism"); // A shorthand
 
             correctionAdd("plagarised", "plagiarised");
 
@@ -49384,8 +49392,6 @@ namespace OverflowHelper.core
             correctionAdd("Self-Monitoring, Analysis and Reporting Technology", "S.M.A.R.T");
             correctionAdd("SMART", "S.M.A.R.T");
 
-            correctionAdd("single click", "single-click");
-
             correctionAdd("Young's Modulus", "Young's modulus");
 
             correctionAdd("a per", "as per");
@@ -49709,16 +49715,18 @@ namespace OverflowHelper.core
 
             correctionAdd("apend", "append");
 
-            correctionAdd("left click", "left-click");
-            correctionAdd("Left click", "left-click");
-
             correctionAdd("Text Box", "text box");
-
-            correctionAdd("CET", "Central European Time");
-            correctionAdd("cet", "Central European Time");
 
             correctionAdd("high end", "high-end");
 
+            // A Stack Overflow reference, but the broader one is:
+            //
+            //   <https://www.youtube.com/watch?v=u8WbLU958Lg>
+            //     The original film clip from 1948
+            //
+            //   <https://en.wikipedia.org/wiki/Stinking_badges>
+            //     Wikipedia article
+            //
             correctionAdd("stinking badges", "We don't need stinking badges");
 
             // Start of the coronavirus part...
