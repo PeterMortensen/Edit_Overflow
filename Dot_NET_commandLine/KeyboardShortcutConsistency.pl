@@ -69,6 +69,10 @@
 #             2023-01-06   An exception changed (due to adding a feature    #
 #                          in Edit Overflow lookup output).                 #
 #                                                                           #
+#             2023-02-13   Improved error message for when the error is     #
+#                          caused by changed PHP source that has a          #
+#                          a hardcoded exception in this script.            #
+#                                                                           #
 #############################################################################
 
 # Future:
@@ -527,8 +531,11 @@ if ($proceedWithMainProcessing)
                     {
                         my $errorText =
                               "\nThe indicated keyboard shortcut in the text " .
-                              "(\"$indicatedKeyboardShortcut\") is not the same " .
-                              "as specified (\"$accessKey\"). " .
+                              "(\"$indicatedKeyboardShortcut\") \n" .
+                              "is not the same as specified (\"$accessKey\"). \n\n" .
+                              "Alternatively, if the PHP source has been changed, \n" .
+                              "it may be necessary to update one of the \n" .
+                              "exceptions, near \"\$formLabelText eq\". \n\n" .
                               "Near line $line. For \"$value\"\n\n";
 
                         #print "\nformLabelText: $formLabelText\n";
@@ -569,7 +576,7 @@ if ($proceedWithMainProcessing)
                                        #
                                        #
                                        #($formLabelText eq '<?php echo get_HTMLlink("URL", $URL, "") ?>') || # Until 2023-01-05.
-                                       ($formLabelText eq '<?php echo get_HTMLlink("URL", $URL, "") ?> <?php echo get_HTMLlink("Words", $linkWordListWithPageAnchor, \' id="1004"\') ?>') ||
+                                       ($formLabelText eq '<?php echo get_HTMLlink("URL.", $URL, "") ?> <?php echo get_HTMLlink("Words.", $linkWordListWithPageAnchor, \' id="1004"\') ?>') ||
 
                                        # Presuming it is for the form submit...
                                        #

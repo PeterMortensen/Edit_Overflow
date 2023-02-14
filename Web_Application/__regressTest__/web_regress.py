@@ -472,7 +472,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
 
             # More sanity checking
             self.assertEqual(linkText_wordListReference,
-                             "Words",
+                             "Words.",
                              "Wrong cross reference text: " +
                                linkText_wordListReference + ".")
 
