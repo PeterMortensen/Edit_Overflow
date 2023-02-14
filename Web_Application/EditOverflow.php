@@ -817,11 +817,24 @@
                 >
 
                 <?php
-                  # Note: We can not (currently) break it into several
-                  #       lines due to limitations in the check script
-                  #       <KeyboardShortcutConsistency.pl>...
+                  # Note 1: We can not (currently) break it into several
+                  #         lines due to limitations in the check script
+                  #         <KeyboardShortcutConsistency.pl>...
+                  #
+                  # Note 2: If we change the 'label' line, then the
+                  #         exception in script KeyboardShortcutConsistency.pl
+                  #         must be changed as well...
+                  #
+                  #         Near "$formLabelText eq" (e.g., line 572)
+                  #
+                  #         And possible web regression script
+                  #         'web_regress.py', depending on
+                  #         what is changed.
+                  #
+                  #         Near  'linkText_wordListReference'
                 ?>
-                <label for="URL"><?php echo get_HTMLlink("URL", $URL, "") ?> <?php echo get_HTMLlink("Words", $linkWordListWithPageAnchor, ' id="1004"') ?></label>
+
+                <label for="URL"><?php echo get_HTMLlink("URL.", $URL, "") ?> <?php echo get_HTMLlink("Words.", $linkWordListWithPageAnchor, ' id="1004"') ?></label>
                 <input
                     name="URL"
                     type="text"
