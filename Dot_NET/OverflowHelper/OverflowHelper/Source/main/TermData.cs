@@ -1246,6 +1246,9 @@ namespace OverflowHelper.core
             correctionAdd("Java fx", "JavaFX");
             correctionAdd("java fx", "JavaFX");
             correctionAdd("JavaFx", "JavaFX");
+            correctionAdd("Java FX", "JavaFX");
+            correctionAdd("Java Fax", "JavaFX");
+            correctionAdd("Java Fx", "JavaFX");
 
             // ME = Micro Edition
             // Old name: "Java ME was formerly known as Java 2 Platform, Micro Edition (J2ME)".
@@ -3789,6 +3792,7 @@ namespace OverflowHelper.core
             correctionAdd("Stack Overflow for teams", "Stack Overflow for Teams");
             correctionAdd("Stackoverflow Teams", "Stack Overflow for Teams");
             correctionAdd("Stackoverflow for Teams", "Stack Overflow for Teams");
+            correctionAdd("StackOverflow Team", "Stack Overflow for Teams");
 
             correctionAdd("not a forum", "Stack Overflow is not a forum");
             correctionAdd("isn't a forum", "Stack Overflow is not a forum");
@@ -3842,6 +3846,16 @@ namespace OverflowHelper.core
 
             // Related to Stack Overflow and Stack Exchange
             correctionAdd("mwe", "MWE");
+
+            // A Stack Overflow reference, but the broader one is:
+            //
+            //   <https://www.youtube.com/watch?v=u8WbLU958Lg>
+            //     The original film clip from 1948
+            //
+            //   <https://en.wikipedia.org/wiki/Stinking_badges>
+            //     Wikipedia article
+            //
+            correctionAdd("stinking badges", "We don't need stinking badges");
 
             //  Start of Stack Exchange site list (not
             //  complete (only added on demand))
@@ -6232,6 +6246,14 @@ namespace OverflowHelper.core
             correctionAdd("c++20", "C++20");
             correctionAdd("C++ 20", "C++20");
 
+            // C++ 
+            correctionAdd("raii", "RAII");
+            correctionAdd("RAAI", "RAII"); // Misspelling...
+            correctionAdd("resource acquisition is initialization", "RAII");
+
+            // C++ 
+            correctionAdd("SFINAE", "substitution failure is not an error");
+
             // Mostly related to C++
             correctionAdd("vtable", "virtual method table");
 
@@ -8603,6 +8625,7 @@ namespace OverflowHelper.core
             correctionAdd("habe", "have");
             correctionAdd("Have", "have");
             correctionAdd("hasve", "have");
+            correctionAdd("hva", "have");
 
             correctionAdd("havent", "haven’t");
             correctionAdd("havn't", "haven’t");
@@ -8619,6 +8642,9 @@ namespace OverflowHelper.core
 
             correctionAdd("should've", "should have");
             correctionAdd("shoulda", "should have");
+
+            correctionAdd("mis-behave", "misbehave");
+            correctionAdd("miss-behave", "misbehave");
 
             correctionAdd("hade", "had");
             correctionAdd("hads", "had");
@@ -10855,6 +10881,7 @@ namespace OverflowHelper.core
             correctionAdd("CK-550", "CK550 V2");
             correctionAdd("ck550", "CK550 V2");
             correctionAdd("ck550 v2", "CK550 V2");
+            correctionAdd("CK-550 V2", "CK550 V2");
 
             // A mechanical keyboard from Cooler Master
             //
@@ -10905,6 +10932,12 @@ namespace OverflowHelper.core
             correctionAdd("corne", "Corne keyboard");
             correctionAdd("crkbd", "Corne keyboard");
 
+            // A mechanical keyboard. Switches: Alps SKCM cream/ivory.
+            //
+            // Alternative URL: <https://www.youtube.com/watch?v=QDMQH-EoCK8>
+            correctionAdd("M3501", "Apple Extended Keyboard II");
+            correctionAdd("AEKII", "Apple Extended Keyboard II");
+
             // A type of mechanical keyboards
             correctionAdd("tkl", "tenkeyless (80%)");
             correctionAdd("TKL", "tenkeyless (80%)");
@@ -10935,6 +10968,14 @@ namespace OverflowHelper.core
             // Software for mechanical keyboards (firmware?)
             correctionAdd("vial", "Vial");
             correctionAdd("VIAL", "Vial");
+
+            // Related to mechanical keyboards
+            correctionAdd("hot swappable", "hot-swappable");
+            correctionAdd("hot-swapple", "hot-swappable");
+
+            // Related to keyboards
+            correctionAdd("NKRO", "n-key rollover");
+            correctionAdd("N-key-rollover", "n-key rollover");
 
             // Windows program to operate several keyboards
             // ***independently*** (e.g., for a software-only
@@ -11974,6 +12015,7 @@ namespace OverflowHelper.core
             correctionAdd("For exmaple", "for example");
             correctionAdd("for exampe", "for example");
             correctionAdd("For examle", "for example");
+            correctionAdd("F.ex", "for example");
 
             correctionAdd("exsample", "example");
             correctionAdd("Exaplme", "example"); // Not 100% correct - case.
@@ -13796,6 +13838,10 @@ namespace OverflowHelper.core
             correctionAdd("Aruduino", "Arduino");
             correctionAdd("Ard", "Arduino"); // A shortcut
 
+            correctionAdd("Shield", "shield"); // As in Arduino...
+            correctionAdd("SHEILD", "shield"); // As in Arduino...
+            correctionAdd("sheild", "shield");
+
             correctionAdd("arduino Uno", "Arduino Uno");
             correctionAdd("arduino uno", "Arduino Uno");
             correctionAdd("Arduino UNO", "Arduino Uno");
@@ -13809,15 +13855,15 @@ namespace OverflowHelper.core
             correctionAdd("Arduino Uno R3", "Arduino Uno");
             correctionAdd("Arduino UNO R3", "Arduino Uno");
 
-            correctionAdd("Shield", "shield"); // As in Arduino...
-            correctionAdd("SHEILD", "shield"); // As in Arduino...
-            correctionAdd("sheild", "shield");
-
+            // Based ATmega32U4 (like Leanardo)
             correctionAdd("Leonardo", "Arduino Leonardo");
             correctionAdd("leonardo", "Arduino Leonardo");
             correctionAdd("Leanardo", "Arduino Leonardo");
             correctionAdd("Leo", "Arduino Leonardo");
             correctionAdd("arduino leonardo", "Arduino Leonardo");
+
+            // Based ATmega32U4 (like Arduino Leonardo)
+            correctionAdd("arduino micro", "Arduino Micro");
 
             correctionAdd("Arduino MEGA", "Arduino Mega 2560");
             correctionAdd("Arduino mega", "Arduino Mega 2560");
@@ -13842,8 +13888,6 @@ namespace OverflowHelper.core
             correctionAdd("Pro Mini", "Arduino Pro Mini");
             correctionAdd("ProMini", "Arduino Pro Mini");
             correctionAdd("pro mini", "Arduino Pro Mini");
-
-            correctionAdd("arduino micro", "Arduino Micro");
 
             correctionAdd("Diecimila", "Arduino Diecimila");
             correctionAdd("Decimila", "Arduino Diecimila");
@@ -13947,6 +13991,23 @@ namespace OverflowHelper.core
             correctionAdd("CR", "Crystal Reports"); // Possible collision with carriage return (CR).
             correctionAdd("Crystal", "Crystal Reports");
             correctionAdd("crytal report", "Crystal Reports");
+
+            // Used in crystal oscillators
+            correctionAdd("quartz", "quartz crystal");
+            correctionAdd("XTAL", "quartz crystal");
+            correctionAdd("crystal oscillator", "quartz crystal");
+            correctionAdd("xtal", "quartz crystal");
+
+            // A type of crystal oscillator
+            correctionAdd("tcxo", "TCXO");
+
+            // A type of crystal oscillator
+            correctionAdd("OCXO", "oven-controlled crystal oscillator");
+            correctionAdd("ovenized oscillators", "oven-controlled crystal oscillator");
+
+            correctionAdd("Liquid Crystal", "liquid crystal");
+            correctionAdd("Liquid crystal", "liquid crystal");
+            correctionAdd("Liquid crystals", "liquid crystal");
 
             correctionAdd("openvpn", "OpenVPN"); // Not actually observed.
             correctionAdd("openVPN", "OpenVPN");
@@ -15295,6 +15356,10 @@ namespace OverflowHelper.core
             correctionAdd("Software Engineer", "software engineer");
             correctionAdd("SWE", "software engineer");
             correctionAdd("swe", "software engineer");
+
+            // Technique used in software development
+            correctionAdd("rubberducking", "rubber duck debugging");
+            correctionAdd("rubber duck", "rubber duck debugging");
 
             correctionAdd("Data Engineering", "data engineering");
 
@@ -17854,9 +17919,6 @@ namespace OverflowHelper.core
             correctionAdd("Strassen's algorithms", "Strassen algorithm");
             correctionAdd("Strassens Algorithm", "Strassen algorithm");
             correctionAdd("Strassens Algorithms", "Strassen algorithm");
-
-            correctionAdd("raii", "RAII");
-            correctionAdd("RAAI", "RAII"); // Misspelling...
 
             correctionAdd("raid", "RAID");
             correctionAdd("Raid", "RAID");
@@ -33556,6 +33618,7 @@ namespace OverflowHelper.core
 
             correctionAdd("in the fly", "on the fly");
             correctionAdd("on fly", "on the fly");
+            correctionAdd("on-the-fly", "on the fly");
 
             correctionAdd("preformed", "performed");
             correctionAdd("peformed", "performed");
@@ -40028,6 +40091,7 @@ namespace OverflowHelper.core
             correctionAdd("servie", "service");
             correctionAdd("servce", "service");
             correctionAdd("serivce", "service");
+            correctionAdd("serivice", "service");
 
             correctionAdd("substracting", "subtracting");
 
@@ -41317,6 +41381,7 @@ namespace OverflowHelper.core
 
             correctionAdd("contraint", "constraint");
             correctionAdd("constaint", "constraint");
+            correctionAdd("contrait", "constraint");
 
             correctionAdd("disscusions", "discussions");
 
@@ -42928,9 +42993,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Methamphetamine", "methamphetamine");
 
-            correctionAdd("mis-behave", "misbehave");
-            correctionAdd("miss-behave", "misbehave");
-
             correctionAdd("missclassification", "misclassification");
 
             correctionAdd("Morphine", "morphine");
@@ -43152,8 +43214,13 @@ namespace OverflowHelper.core
 
             correctionAdd("under counted", "undercounted");
 
+            // A Windows application
             correctionAdd("calc.exe", "Calculator");
 
+            // Windows            
+            correctionAdd("CHM", "Microsoft Compiled HTML Help");
+
+            correctionAdd("calculater", "calculator");
             // Probably Australian misuse: It is actually for "computer".
             // Ref. (<https://www.definitions.net/definition/confuser>)
             correctionAdd("confuser", "calculator");
@@ -43545,15 +43612,10 @@ namespace OverflowHelper.core
             correctionAdd("aws cli", "AWS Command Line Interface");
             correctionAdd("awscli", "AWS Command Line Interface");
 
-            correctionAdd("tcxo", "TCXO");
-
             correctionAdd("cross-section", "cross section");
             correctionAdd("crossection", "cross section");
             correctionAdd("cros-section", "cross section");
             correctionAdd("crosssection", "cross section");
-
-            correctionAdd("OCXO", "oven-controlled crystal oscillator");
-            correctionAdd("ovenized oscillators", "oven-controlled crystal oscillator");
 
             correctionAdd("RTC", "real-time clock");
 
@@ -43995,6 +44057,7 @@ namespace OverflowHelper.core
             correctionAdd("inconditionally", "unconditionally");
             correctionAdd("Unconditionnaly", "unconditionally");
             correctionAdd("unconditionnaly", "unconditionally");
+            correctionAdd("uncondionally", "unconditionally");
 
             correctionAdd("Ucraine", "Ukraine");
             correctionAdd("Ukrain", "Ukraine");
@@ -45873,10 +45936,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ecoder", "encoder");
 
-            correctionAdd("Liquid Crystal", "liquid crystal");
-            correctionAdd("Liquid crystal", "liquid crystal");
-            correctionAdd("Liquid crystals", "liquid crystal");
-
             correctionAdd("Theory of Computation", "theory of computation");
 
             correctionAdd("EFS", "Encrypting File System");
@@ -46356,8 +46415,6 @@ namespace OverflowHelper.core
             correctionAdd("neihborhood", "neighborhood");
 
             correctionAdd("potentioal", "potential");
-
-            correctionAdd("quartz", "quartz crystal");
 
             correctionAdd("repeatetly", "repeatedly");
             correctionAdd("repeatly", "repeatedly");
@@ -48487,8 +48544,15 @@ namespace OverflowHelper.core
             correctionAdd("Spine", "Spine.js");
             correctionAdd("spine", "Spine.js");
 
+            // A computer game
             correctionAdd("Skyrim", "The Elder Scrolls V: Skyrim");
             correctionAdd("skyrim", "The Elder Scrolls V: Skyrim");
+
+            // A computer game
+            correctionAdd("TF2", "Team Fortress 2");
+
+            // A computer game
+            correctionAdd("FNF", "Friday Night Funkin'");
 
             correctionAdd("Cross Origin Request", "cross-origin request");
 
@@ -49048,6 +49112,7 @@ namespace OverflowHelper.core
             correctionAdd("image asset studio", "Image Asset Studio");
 
             correctionAdd("Positioned", "positioned");
+            correctionAdd("positionined", "positioned");
 
             correctionAdd("rooth", "root");
 
@@ -49668,8 +49733,6 @@ namespace OverflowHelper.core
 
             correctionAdd("hafta", "have to");
 
-            correctionAdd("hot swappable", "hot-swappable");
-
             correctionAdd("pissig", "pissing");
 
             // Related to databases and Microsoft SQL Server
@@ -49719,15 +49782,21 @@ namespace OverflowHelper.core
 
             correctionAdd("high end", "high-end");
 
-            // A Stack Overflow reference, but the broader one is:
-            //
-            //   <https://www.youtube.com/watch?v=u8WbLU958Lg>
-            //     The original film clip from 1948
-            //
-            //   <https://en.wikipedia.org/wiki/Stinking_badges>
-            //     Wikipedia article
-            //
-            correctionAdd("stinking badges", "We don't need stinking badges");
+            correctionAdd("in runtime", "at runtime");
+
+            correctionAdd("exstinctien", "extinction");
+
+            correctionAdd("autonimous", "autonomous");
+
+            correctionAdd("boat load", "boatload");
+
+            correctionAdd("inard", "innard");
+
+            correctionAdd("locaiton", "location");
+
+            correctionAdd("swiss cheese", "Swiss cheese");
+
+            correctionAdd("valentines day", "Valentine's Day");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -77547,6 +77616,36 @@ namespace OverflowHelper.core
 
             URL_Add("We don't need stinking badges", "https://stackoverflow.blog/2008/07/12/stack-overflow-badge-feedbac/");
 
+            URL_Add("at runtime", "https://en.wikipedia.org/wiki/Runtime_(program_lifecycle_phase)");
+
+            URL_Add("extinction", "https://en.wiktionary.org/wiki/extinction#Noun");
+
+            URL_Add("substitution failure is not an error", "https://en.wikipedia.org/wiki/Substitution_failure_is_not_an_error");
+
+            URL_Add("Microsoft Compiled HTML Help", "https://en.wikipedia.org/wiki/Microsoft_Compiled_HTML_Help");
+
+            URL_Add("Apple Extended Keyboard II", "https://en.wikipedia.org/wiki/Apple_Extended_Keyboard");
+
+            URL_Add("autonomous", "https://en.wiktionary.org/wiki/autonomous#Adjective");
+
+            URL_Add("boatload", "https://en.wiktionary.org/wiki/boatload#Noun");
+
+            URL_Add("Friday Night Funkin'", "https://en.wikipedia.org/wiki/Friday_Night_Funkin'");
+
+            URL_Add("innard", "https://en.wiktionary.org/wiki/innard#Noun");
+
+            URL_Add("location", "https://en.wiktionary.org/wiki/location#Noun");
+
+            URL_Add("n-key rollover", "https://en.wikipedia.org/wiki/Key_rollover");
+
+            URL_Add("rubber duck debugging", "https://en.wikipedia.org/wiki/Rubber_duck_debugging");
+
+            URL_Add("Swiss cheese", "https://en.wiktionary.org/wiki/Swiss_cheese#Noun");
+
+            URL_Add("Team Fortress 2", "https://en.wikipedia.org/wiki/Team_Fortress_2");
+
+            URL_Add("Valentine's Day", "https://en.wikipedia.org/wiki/Valentine%27s_Day#United_States");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -79534,6 +79633,8 @@ namespace OverflowHelper.core
             correctionAdd("Joy_", "Crystal_");
             correctionAdd("crystal_", "Crystal_");
 
+            correctionAdd("hoarde_", "horde_");
+
             // URL mappings
             //
             //
@@ -80652,6 +80753,8 @@ namespace OverflowHelper.core
             URL_Add("availability group_", "https://learn.microsoft.com/en-us/sql/database-engine/availability-groups/windows/getting-started-with-always-on-availability-groups-sql-server");
 
             URL_Add("Crystal_", "https://en.wikipedia.org/wiki/Crystal_(programming_language)");
+
+            URL_Add("horde_", "https://en.wiktionary.org/wiki/horde#Noun");
 
         } //addLookupData_alternativeWordSet()
 
