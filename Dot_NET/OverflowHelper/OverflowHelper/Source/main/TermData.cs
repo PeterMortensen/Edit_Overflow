@@ -3842,6 +3842,27 @@ namespace OverflowHelper.core
             // Plagiarism on Stack Overflow
             correctionAdd("wholesale copied", "entirely copied, but properly attributed");
 
+            correctionAdd("plagiarism on Quora", "blatant plagiarism on Quora");
+
+            correctionAdd("plagarise", "plagiarise");
+            correctionAdd("plagirise", "plagiarise");
+            correctionAdd("plagirase", "plagiarise");
+            correctionAdd("plaigarise", "plagiarise");
+
+            correctionAdd("plagarism", "plagiarism");
+            correctionAdd("Plaigarism", "plagiarism");
+            correctionAdd("plaigarism", "plagiarism");
+            correctionAdd("plagariasm", "plagiarism");
+            correctionAdd("plagorism", "plagiarism");
+            correctionAdd("plagiasrism", "plagiarism");
+            correctionAdd("plagirism", "plagiarism");
+            correctionAdd("Plagiarism", "plagiarism");
+            correctionAdd("plagisarism", "plagiarism");
+            correctionAdd("Plagiasrism", "plagiarism");
+            correctionAdd("plag", "plagiarism"); // A shorthand
+
+            correctionAdd("plagarised", "plagiarised");
+
             correctionAdd("Stackoverflow Careers", "Stack Overflow Careers");
             correctionAdd("StackOverflow Careers", "Stack Overflow Careers");
 
@@ -7767,40 +7788,6 @@ namespace OverflowHelper.core
             correctionAdd("apache2", "Apache&nbsp;2");
             correctionAdd("Apache2", "Apache&nbsp;2");
 
-            correctionAdd("MySQL Server", "MySQL server");
-            correctionAdd("MySqlServer", "MySQL server");
-            correctionAdd("MySql Server", "MySQL server");
-
-            correctionAdd("NS", "name server"); // Alternative: "NoScript"
-            correctionAdd("nameserver", "name server");
-
-            correctionAdd("WAMPSERVER", "WampServer");
-
-            correctionAdd("webserver", "web server");
-            correctionAdd("Web Server", "web server");
-            correctionAdd("web-server", "web server");
-            correctionAdd("Webserver", "web server");
-            correctionAdd("Web server", "web server");
-            correctionAdd("web serber", "web server");
-
-            correctionAdd("webservers", "web servers");
-
-            correctionAdd("WLS", "WebLogic Server");
-
-            correctionAdd("sever", "server");
-            correctionAdd("SEVER", "server");
-            correctionAdd("Sever", "server");
-            correctionAdd("Server", "server");
-            correctionAdd("serve", "server");
-
-            correctionAdd("xorg", "X.Org Server");
-
-            correctionAdd("Liveserver", "Live Server");
-            correctionAdd("LiveServer", "Live Server");
-            correctionAdd("live server", "Live Server");
-
-            correctionAdd("mutationObserver", "MutationObserver");
-
             correctionAdd("ANT", "Ant");
             correctionAdd("ant", "Ant");
             correctionAdd("Apache Ant", "Ant");
@@ -7880,6 +7867,59 @@ namespace OverflowHelper.core
             correctionAdd("Apache SF", "Apache Software Foundation");
 
             correctionAdd("Commons Lang", "Apache Commons Lang");
+
+            correctionAdd("tomcat", "Tomcat");
+            correctionAdd("tomacat", "Tomcat");
+            correctionAdd("TOMCAT", "Tomcat");
+            correctionAdd("Apache Tomcat", "Tomcat");
+            correctionAdd("Apache tomcat", "Tomcat");
+            correctionAdd("apache tomcat", "Tomcat");
+
+            correctionAdd("Commons-IO", "Commons&nbsp;IO");
+            correctionAdd("commons-io", "Commons&nbsp;IO");
+            correctionAdd("commons", "Commons&nbsp;IO");
+            correctionAdd("Commons", "Commons&nbsp;IO");
+            correctionAdd("Apache Commons IO", "Commons&nbsp;IO");
+            correctionAdd("Commons IO", "Commons&nbsp;IO");
+
+            correctionAdd("HttpComponents", "Apache HttpComponents");
+            correctionAdd("Http Components", "Apache HttpComponents");
+
+            correctionAdd("Pulsar", "Apache Pulsar");
+
+            correctionAdd("MySQL Server", "MySQL server");
+            correctionAdd("MySqlServer", "MySQL server");
+            correctionAdd("MySql Server", "MySQL server");
+
+            correctionAdd("NS", "name server"); // Alternative: "NoScript"
+            correctionAdd("nameserver", "name server");
+
+            correctionAdd("WAMPSERVER", "WampServer");
+
+            correctionAdd("webserver", "web server");
+            correctionAdd("Web Server", "web server");
+            correctionAdd("web-server", "web server");
+            correctionAdd("Webserver", "web server");
+            correctionAdd("Web server", "web server");
+            correctionAdd("web serber", "web server");
+
+            correctionAdd("webservers", "web servers");
+
+            correctionAdd("WLS", "WebLogic Server");
+
+            correctionAdd("sever", "server");
+            correctionAdd("SEVER", "server");
+            correctionAdd("Sever", "server");
+            correctionAdd("Server", "server");
+            correctionAdd("serve", "server");
+
+            correctionAdd("xorg", "X.Org Server");
+
+            correctionAdd("Liveserver", "Live Server");
+            correctionAdd("LiveServer", "Live Server");
+            correctionAdd("live server", "Live Server");
+
+            correctionAdd("mutationObserver", "MutationObserver");
 
             correctionAdd("Tsql", "T-SQL"); // Not actually observed.
             correctionAdd("T/SQL", "T-SQL"); // Is observed!
@@ -13257,12 +13297,59 @@ namespace OverflowHelper.core
             // An aircraft
             correctionAdd("PA44", "Piper PA-44 Seminole");
 
+            correctionAdd("airbus", "Airbus");
+
+            correctionAdd("A220", "Airbus A220");
+
             // An aircraft
             correctionAdd("Airbus 319", "Airbus A319");
             correctionAdd("A319", "Airbus A319");
 
+            correctionAdd("A320", "Airbus A320");
+            correctionAdd("Airbus 320", "Airbus A320");
+
+            correctionAdd("A330", "Airbus A330");
+            correctionAdd("Airbus 330", "Airbus A330");
+
+            correctionAdd("A350", "Airbus 350");
+
+            // Aviation
+            correctionAdd("A380", "Airbus A380");
+
+            correctionAdd("Air Lingus", "Aer Lingus");
+
+            correctionAdd("air canada", "Air Canada");
+
+            correctionAdd("747", "Boeing 747");
+            correctionAdd("B747", "Boeing 747");
+
+            correctionAdd("777", "Boeing 777");
+
+            correctionAdd("Dreamliner", "Boeing 787");
+            correctionAdd("B787", "Boeing 787");
+            correctionAdd("787", "Boeing 787");
+            correctionAdd("Boing 787 Dreamliner", "Boeing 787");
+
             // An aircraft
             correctionAdd("DC-8", "Douglas DC-8");
+
+            correctionAdd("british airways", "British Airways");
+
+            correctionAdd("Airframe and Powerplant", "Aviation Maintenance Technician");
+            correctionAdd("A&P", "Aviation Maintenance Technician");
+
+            correctionAdd("airmolecule", "air molecule");
+
+            correctionAdd("Airliner", "airliner");
+
+            correctionAdd("Business Jet", "business jet");
+            correctionAdd("Business jet", "business jet");
+
+            // Related to aviation / aircraft
+            correctionAdd("mach", "Mach");
+
+            // Related to aviation / aircraft
+            correctionAdd("transsonic", "transonic");
 
             correctionAdd("enroute", "en route");
 
@@ -14165,13 +14252,6 @@ namespace OverflowHelper.core
             correctionAdd("symfony", "Symfony");
             correctionAdd("Symphony", "Symfony");
             correctionAdd("symphony", "Symfony");
-
-            correctionAdd("tomcat", "Tomcat");
-            correctionAdd("tomacat", "Tomcat");
-            correctionAdd("TOMCAT", "Tomcat");
-            correctionAdd("Apache Tomcat", "Tomcat");
-            correctionAdd("Apache tomcat", "Tomcat");
-            correctionAdd("apache tomcat", "Tomcat");
 
             correctionAdd("openid", "OpenID");
             correctionAdd("openID", "OpenID");
@@ -27787,25 +27867,6 @@ namespace OverflowHelper.core
 
             correctionAdd("who ever", "whoever");
 
-            correctionAdd("Air Lingus", "Aer Lingus");
-
-            correctionAdd("air canada", "Air Canada");
-
-            correctionAdd("A220", "Airbus A220");
-
-            correctionAdd("A320", "Airbus A320");
-            correctionAdd("Airbus 320", "Airbus A320");
-
-            correctionAdd("A330", "Airbus A330");
-            correctionAdd("Airbus 330", "Airbus A330");
-
-            correctionAdd("747", "Boeing 747");
-            correctionAdd("B747", "Boeing 747");
-
-            correctionAdd("777", "Boeing 777");
-
-            correctionAdd("british airways", "British Airways");
-
             correctionAdd("Emms", "EMMS");
 
             correctionAdd("JWST", "James Webb Space Telescope");
@@ -28321,25 +28382,6 @@ namespace OverflowHelper.core
             correctionAdd("againt", "against");
             correctionAdd("agaibst", "against");
             correctionAdd("agains", "against");
-
-            correctionAdd("plagarise", "plagiarise");
-            correctionAdd("plagirise", "plagiarise");
-            correctionAdd("plagirase", "plagiarise");
-            correctionAdd("plaigarise", "plagiarise");
-
-            correctionAdd("plagarism", "plagiarism");
-            correctionAdd("Plaigarism", "plagiarism");
-            correctionAdd("plaigarism", "plagiarism");
-            correctionAdd("plagariasm", "plagiarism");
-            correctionAdd("plagorism", "plagiarism");
-            correctionAdd("plagiasrism", "plagiarism");
-            correctionAdd("plagirism", "plagiarism");
-            correctionAdd("Plagiarism", "plagiarism");
-            correctionAdd("plagisarism", "plagiarism");
-            correctionAdd("Plagiasrism", "plagiarism");
-            correctionAdd("plag", "plagiarism"); // A shorthand
-
-            correctionAdd("plagarised", "plagiarised");
 
             correctionAdd("mumbai", "Mumbai");
 
@@ -32970,13 +33012,6 @@ namespace OverflowHelper.core
             correctionAdd("kapt", "kept");
             correctionAdd("keept", "kept");
 
-            correctionAdd("A350", "Airbus 350");
-
-            correctionAdd("Dreamliner", "Boeing 787");
-            correctionAdd("B787", "Boeing 787");
-            correctionAdd("787", "Boeing 787");
-            correctionAdd("Boing 787 Dreamliner", "Boeing 787");
-
             correctionAdd("esthetic", "aesthetic");
 
             correctionAdd("agi", "artificial general intelligence");
@@ -33212,8 +33247,6 @@ namespace OverflowHelper.core
 
             correctionAdd("vest", "vast");
             correctionAdd("wast", "vast");
-
-            correctionAdd("airbus", "Airbus");
 
             correctionAdd("bing maps", "Bing Maps");
             correctionAdd("Bing Map", "Bing Maps");
@@ -40398,13 +40431,6 @@ namespace OverflowHelper.core
             correctionAdd("angle-of-attack", "angle of attack");
             correctionAdd("AOA", "angle of attack");
 
-            correctionAdd("Commons-IO", "Commons&nbsp;IO");
-            correctionAdd("commons-io", "Commons&nbsp;IO");
-            correctionAdd("commons", "Commons&nbsp;IO");
-            correctionAdd("Commons", "Commons&nbsp;IO");
-            correctionAdd("Apache Commons IO", "Commons&nbsp;IO");
-            correctionAdd("Commons IO", "Commons&nbsp;IO");
-
             correctionAdd("ipcc", "IPCC");
             correctionAdd("Intergovernmental Panel on Climate Change", "IPCC");
 
@@ -42230,9 +42256,6 @@ namespace OverflowHelper.core
 
             correctionAdd("de-hashing", "rehashing");
 
-            // Aviation
-            correctionAdd("A380", "Airbus A380");
-
             correctionAdd("Alzheimer's Disease", "Alzheimer's disease");
 
             correctionAdd("perpendicular magnetic recording", "CMR");
@@ -43118,9 +43141,6 @@ namespace OverflowHelper.core
             correctionAdd("telegrapher's equations", "telegrapher’s equations");
 
             correctionAdd("50 ways to leave your lover", "50 Ways to Leave Your Lover");
-
-            correctionAdd("Airframe and Powerplant", "Aviation Maintenance Technician");
-            correctionAdd("A&P", "Aviation Maintenance Technician");
 
             correctionAdd("caucasian", "Caucasian");
 
@@ -44108,8 +44128,6 @@ namespace OverflowHelper.core
             correctionAdd("Markov's chain", "Markov chain");
 
             correctionAdd("zfs", "ZFS");
-
-            correctionAdd("airmolecule", "air molecule");
 
             correctionAdd("mini map", "minimap");
             correctionAdd("Minimap", "minimap");
@@ -48669,9 +48687,6 @@ namespace OverflowHelper.core
             correctionAdd("widespread", "wide-spread");
             correctionAdd("wide spread", "wide-spread");
 
-            correctionAdd("HttpComponents", "Apache HttpComponents");
-            correctionAdd("Http Components", "Apache HttpComponents");
-
             correctionAdd("non-valid", "nonvalid");
 
             correctionAdd("testcase", "test case");
@@ -49825,27 +49840,14 @@ namespace OverflowHelper.core
 
             correctionAdd("valentines day", "Valentine's Day");
 
-            correctionAdd("Airliner", "airliner");
-
             correctionAdd("all-of-a-sudden", "all of a sudden");
 
-            correctionAdd("Pulsar", "Apache Pulsar");
-
-            correctionAdd("Business Jet", "business jet");
-            correctionAdd("Business jet", "business jet");
-
             correctionAdd("Graphics Card", "graphics card");
-
-            correctionAdd("mach", "Mach");
 
             correctionAdd("tea-time", "teatime");
             correctionAdd("tee-time", "teatime");
 
-            correctionAdd("transsonic", "transonic");
-
             correctionAdd("unacessible", "unaccessible");
-
-            correctionAdd("plagiarism on Quora", "blatant plagiarism on Quora");
 
             correctionAdd("changements", "changes");
 
