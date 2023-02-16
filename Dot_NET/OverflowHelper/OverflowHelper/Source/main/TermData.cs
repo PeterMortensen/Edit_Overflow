@@ -2730,6 +2730,35 @@ namespace OverflowHelper.core
             correctionAdd("8 \"Jessie\"", "Debian&nbsp;8 (Jessie)");
             correctionAdd("Debian 8 \"Jessie\"", "Debian&nbsp;8 (Jessie)");
 
+            correctionAdd("Debian 9 (Stretch)", "Debian&nbsp;9 (Stretch)"); // Sort of identity mapping
+            correctionAdd("Debian 9", "Debian&nbsp;9 (Stretch)");
+            correctionAdd("Debian Stretch", "Debian&nbsp;9 (Stretch)");
+            correctionAdd("Stretch", "Debian&nbsp;9 (Stretch)");
+            correctionAdd("stretch", "Debian&nbsp;9 (Stretch)");
+            correctionAdd("debian stretch", "Debian&nbsp;9 (Stretch)");
+            correctionAdd("Debian stretch", "Debian&nbsp;9 (Stretch)");
+            correctionAdd("debian 9", "Debian&nbsp;9 (Stretch)");
+
+            // Raspberry Pi
+            correctionAdd("Raspbian 10 (Buster)", "Raspbian&nbsp;10 (Buster)"); // Sort of identity mapping
+            correctionAdd("Buster", "Raspbian&nbsp;10 (Buster)"); // Note: Can be confused with "Debian&nbsp;10 (Buster)"
+            correctionAdd("raspbian buster", "Raspbian&nbsp;10 (Buster)");
+
+            correctionAdd("Debian 10 (Buster)", "Debian&nbsp;10 (Buster)");
+            correctionAdd("Debian&nbsp;10", "Debian&nbsp;10 (Buster)");
+            correctionAdd("Debian 10", "Debian&nbsp;10 (Buster)");
+            correctionAdd("Debian 10 Buster", "Debian&nbsp;10 (Buster)");
+            correctionAdd("Debian 10 \"Buster\"", "Debian&nbsp;10 (Buster)");
+            correctionAdd("Debian Buster", "Debian&nbsp;10 (Buster)");
+            correctionAdd("Debian buster", "Debian&nbsp;10 (Buster)");
+            correctionAdd("debian 10", "Debian&nbsp;10 (Buster)");
+
+            // Linux
+            correctionAdd("Debian 11 (Bullseye)", "Debian&nbsp;11 (Bullseye)"); // Sort of identity mapping
+            correctionAdd("Bullseye", "Debian&nbsp;11 (Bullseye)");
+            correctionAdd("Debian 11", "Debian&nbsp;11 (Bullseye)");
+            correctionAdd("debian 11", "Debian&nbsp;11 (Bullseye)");
+
             correctionAdd("bunsenlabs", "BunsenLabs (Debian Linux-based)");
             correctionAdd("Bunsen", "BunsenLabs (Debian Linux-based)");
 
@@ -3730,6 +3759,7 @@ namespace OverflowHelper.core
             correctionAdd("Stak Exchange", "Stack&nbsp;Exchange");
             correctionAdd("Stake Exchange", "Stack&nbsp;Exchange");
             correctionAdd("stackechange", "Stack&nbsp;Exchange");
+            correctionAdd("stackex", "Stack&nbsp;Exchange");
 
             correctionAdd("full stackoverflow developer", "full Stack Overflow developer");
             correctionAdd("Full stack overflow developer", "full Stack Overflow developer");
@@ -6246,12 +6276,12 @@ namespace OverflowHelper.core
             correctionAdd("c++20", "C++20");
             correctionAdd("C++ 20", "C++20");
 
-            // C++ 
+            // C++
             correctionAdd("raii", "RAII");
             correctionAdd("RAAI", "RAII"); // Misspelling...
             correctionAdd("resource acquisition is initialization", "RAII");
 
-            // C++ 
+            // C++
             correctionAdd("SFINAE", "substitution failure is not an error");
 
             // Mostly related to C++
@@ -10708,8 +10738,9 @@ namespace OverflowHelper.core
             correctionAdd("Keycap", "keycap");
 
             correctionAdd("Mechanical Keyboard", "mechanical keyboard");
+            correctionAdd("mech keyb", "mechanical keyboard"); // A shortcut (for expansion)
             correctionAdd("mech", "mechanical keyboard"); // A shortcut (for expansion)
-            correctionAdd("mech keyb", "mechanical keyboard");
+            correctionAdd("Mech", "mechanical keyboard"); // A shortcut (for expansion)
 
             // Sort of a type of mechanical keyboards
             correctionAdd("macro keypad", "macro pad");
@@ -10794,6 +10825,11 @@ namespace OverflowHelper.core
             correctionAdd("box jades", "Kailh BOX Jade switch");
 
             // A type of switch for mechanical keyboards
+            // See also <https://switchandclick.com/kailh-switches-a-comprehensive-guide/>.
+            //
+            correctionAdd("Kailh Box White", "Kailh BOX White switch");
+
+            // A type of switch for mechanical keyboards
             // (both clicky and tactile)
             correctionAdd("Kailh blue", "Kailh Blue");
             correctionAdd("Kalei Blue", "Kailh Blue");
@@ -10869,6 +10905,9 @@ namespace OverflowHelper.core
             // A mechanical keyboard from Ducky
             correctionAdd("Ducky Shine", "Ducky Shine 7");
             correctionAdd("Ducky 7", "Ducky Shine 7");
+
+            // A mechanical keyboard from Ducky (or rather a series)
+            correctionAdd("Ducky One Two", "Ducky One 2");
 
             // A mechanical keyboard from Cooler Master
             //
@@ -13838,8 +13877,9 @@ namespace OverflowHelper.core
             correctionAdd("Aruduino", "Arduino");
             correctionAdd("Ard", "Arduino"); // A shortcut
 
-            correctionAdd("Shield", "shield"); // As in Arduino...
-            correctionAdd("SHEILD", "shield"); // As in Arduino...
+            // As in Arduino...
+            correctionAdd("Shield", "shield");
+            correctionAdd("SHEILD", "shield");
             correctionAdd("sheild", "shield");
 
             correctionAdd("arduino Uno", "Arduino Uno");
@@ -22381,6 +22421,7 @@ namespace OverflowHelper.core
             correctionAdd("anough", "enough");
             correctionAdd("enaought", "enough");
             correctionAdd("enaugh", "enough");
+            correctionAdd("enoungh", "enough");
 
             correctionAdd("exisiting", "existing");
             correctionAdd("exsiting", "existing");
@@ -22505,15 +22546,6 @@ namespace OverflowHelper.core
 
             correctionAdd("dto", "DTO");
             correctionAdd("Dto", "DTO");
-
-            correctionAdd("Debian 9 (Stretch)", "Debian&nbsp;9 (Stretch)"); // Sort of identity mapping
-            correctionAdd("Debian 9", "Debian&nbsp;9 (Stretch)");
-            correctionAdd("Debian Stretch", "Debian&nbsp;9 (Stretch)");
-            correctionAdd("Stretch", "Debian&nbsp;9 (Stretch)");
-            correctionAdd("stretch", "Debian&nbsp;9 (Stretch)");
-            correctionAdd("debian stretch", "Debian&nbsp;9 (Stretch)");
-            correctionAdd("Debian stretch", "Debian&nbsp;9 (Stretch)");
-            correctionAdd("debian 9", "Debian&nbsp;9 (Stretch)");
 
             correctionAdd("MICROEMACS", "MicroEMACS");
             correctionAdd("uEmacs", "MicroEMACS");
@@ -23086,6 +23118,11 @@ namespace OverflowHelper.core
             correctionAdd("sevreral", "several");
             correctionAdd("severals", "several");
 
+            correctionAdd("severre", "severe");
+            correctionAdd("servier", "severe");
+
+            correctionAdd("severly", "severely");
+
             correctionAdd("Socialism", "socialism");
 
             correctionAdd("tryed", "tried");
@@ -23313,6 +23350,7 @@ namespace OverflowHelper.core
             correctionAdd("bisiness", "business");
             correctionAdd("bissness", "business");
             correctionAdd("bussness", "business");
+            correctionAdd("Business", "business");
 
             correctionAdd("hebrew", "Hebrew");
 
@@ -24195,6 +24233,7 @@ namespace OverflowHelper.core
             correctionAdd("stil", "still");
             correctionAdd("steal", "still");
             correctionAdd("sitll", "still");
+            correctionAdd("sill", "still");
 
             correctionAdd("Digital Ocean", "DigitalOcean");
             correctionAdd("digital ocean", "DigitalOcean");
@@ -24533,6 +24572,7 @@ namespace OverflowHelper.core
 
             correctionAdd("puting", "putting");
             correctionAdd("puttin", "putting");
+            correctionAdd("Puting", "putting");
 
             correctionAdd("Per Se", "per se");
             correctionAdd("per-se", "per se");
@@ -25095,19 +25135,6 @@ namespace OverflowHelper.core
             correctionAdd("cloud flare", "Cloudflare");
             correctionAdd("cloudflair", "Cloudflare");
 
-            correctionAdd("Raspbian 10 (Buster)", "Raspbian&nbsp;10 (Buster)"); // Sort of identity mapping
-            correctionAdd("Buster", "Raspbian&nbsp;10 (Buster)"); // Note: Can be confused with "Debian&nbsp;10 (Buster)"
-            correctionAdd("raspbian buster", "Raspbian&nbsp;10 (Buster)");
-
-            correctionAdd("Debian 10 (Buster)", "Debian&nbsp;10 (Buster)");
-            correctionAdd("Debian&nbsp;10", "Debian&nbsp;10 (Buster)");
-            correctionAdd("Debian 10", "Debian&nbsp;10 (Buster)");
-            correctionAdd("Debian 10 Buster", "Debian&nbsp;10 (Buster)");
-            correctionAdd("Debian 10 \"Buster\"", "Debian&nbsp;10 (Buster)");
-            correctionAdd("Debian Buster", "Debian&nbsp;10 (Buster)");
-            correctionAdd("Debian buster", "Debian&nbsp;10 (Buster)");
-            correctionAdd("debian 10", "Debian&nbsp;10 (Buster)");
-
             correctionAdd("discord", "Discord");
             correctionAdd("Discod", "Discord");
             correctionAdd("discod", "Discord");
@@ -25291,6 +25318,13 @@ namespace OverflowHelper.core
             correctionAdd("eloquenctly", "eloquently");
 
             correctionAdd("targeting", "targetting");
+
+            correctionAdd("targeet", "target");
+            correctionAdd("taget", "target");
+            correctionAdd("Traget", "target");
+            correctionAdd("traget", "target");
+
+            correctionAdd("targetted", "targeted");
 
             correctionAdd("gettign", "getting");
             correctionAdd("gettting", "getting");
@@ -29423,6 +29457,7 @@ namespace OverflowHelper.core
             correctionAdd("editting", "editing");
             correctionAdd("EDITING", "editing");
             correctionAdd("EDITTING", "editing");
+            correctionAdd("edition", "editing");
 
             correctionAdd("grown up", "grownup");
             correctionAdd("grown-up", "grownup");
@@ -32156,6 +32191,7 @@ namespace OverflowHelper.core
             correctionAdd("squarrel", "squirrel");
 
             correctionAdd("usless", "useless");
+            correctionAdd("useles", "useless");
 
             correctionAdd("variaton", "variation");
             correctionAdd("varition", "variation");
@@ -32172,6 +32208,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Singapur", "Singapore");
             correctionAdd("Singapure", "Singapore");
+            correctionAdd("singapore", "Singapore");
 
             correctionAdd("aquire", "acquire");
 
@@ -32880,6 +32917,7 @@ namespace OverflowHelper.core
             correctionAdd("from sketc", "from scratch");
             correctionAdd("from scrath", "from scratch");
             correctionAdd("from scatch", "from scratch");
+            correctionAdd("from scrach", "from scratch");
 
             correctionAdd("minix", "MINIX");
 
@@ -32917,11 +32955,6 @@ namespace OverflowHelper.core
             correctionAdd("improvment", "improvement");
             correctionAdd("improment", "improvement");
             correctionAdd("improvation", "improvement");
-
-            correctionAdd("targeet", "target");
-            correctionAdd("taget", "target");
-            correctionAdd("Traget", "target");
-            correctionAdd("traget", "target");
 
             correctionAdd("recognizing", "recognising");
             correctionAdd("recogonizing", "recognising");
@@ -35849,9 +35882,6 @@ namespace OverflowHelper.core
             correctionAdd("faital", "fatal");
 
             correctionAdd("flactuations", "fluctuation");
-
-            correctionAdd("severre", "severe");
-            correctionAdd("servier", "severe");
 
             correctionAdd("stastisticaly", "statistically");
             correctionAdd("Stastisticly", "statistically");
@@ -43217,7 +43247,7 @@ namespace OverflowHelper.core
             // A Windows application
             correctionAdd("calc.exe", "Calculator");
 
-            // Windows            
+            // Windows
             correctionAdd("CHM", "Microsoft Compiled HTML Help");
 
             correctionAdd("calculater", "calculator");
@@ -47083,6 +47113,7 @@ namespace OverflowHelper.core
             correctionAdd("numeric lock", "Num Lock");
             correctionAdd("num lock", "Num Lock");
             correctionAdd("Numeric Lock", "Num Lock");
+            correctionAdd("Num lock", "Num Lock");
 
             correctionAdd("Stencil JS", "Stencil");
             correctionAdd("stencil js", "Stencil");
@@ -47445,10 +47476,6 @@ namespace OverflowHelper.core
             correctionAdd("themeing", "theming");
 
             correctionAdd("assistent", "assistant");
-
-            correctionAdd("Debian 11 (Bullseye)", "Debian&nbsp;11 (Bullseye)"); // Sort of identity mapping
-            correctionAdd("Bullseye", "Debian&nbsp;11 (Bullseye)");
-            correctionAdd("Debian 11", "Debian&nbsp;11 (Bullseye)");
 
             correctionAdd("cdata", "CDATA");
 
@@ -49797,6 +49824,37 @@ namespace OverflowHelper.core
             correctionAdd("swiss cheese", "Swiss cheese");
 
             correctionAdd("valentines day", "Valentine's Day");
+
+            correctionAdd("Airliner", "airliner");
+
+            correctionAdd("all-of-a-sudden", "all of a sudden");
+
+            correctionAdd("Pulsar", "Apache Pulsar");
+
+            correctionAdd("Business Jet", "business jet");
+            correctionAdd("Business jet", "business jet");
+
+            correctionAdd("Graphics Card", "graphics card");
+
+            correctionAdd("mach", "Mach");
+
+            correctionAdd("tea-time", "teatime");
+            correctionAdd("tee-time", "teatime");
+
+            correctionAdd("transsonic", "transonic");
+
+            correctionAdd("unacessible", "unaccessible");
+
+            correctionAdd("plagiarism on Quora", "blatant plagiarism on Quora");
+
+            correctionAdd("changements", "changes");
+
+            correctionAdd("double-standard", "double standard");
+
+            correctionAdd("assimp", "Open Asset Import Library");
+            correctionAdd("Assimp", "Open Asset Import Library");
+
+            correctionAdd("powerup", "power up");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -77646,6 +77704,42 @@ namespace OverflowHelper.core
 
             URL_Add("Valentine's Day", "https://en.wikipedia.org/wiki/Valentine%27s_Day#United_States");
 
+            URL_Add("airliner", "https://en.wiktionary.org/wiki/airliner#Noun");
+
+            URL_Add("all of a sudden", "https://en.wiktionary.org/wiki/all_of_a_sudden#Adverb");
+
+            URL_Add("Apache Pulsar", "https://en.wikipedia.org/wiki/List_of_Apache_Software_Foundation_projects#Active_projects");
+
+            URL_Add("business jet", "https://en.wikipedia.org/wiki/Business_jet");
+
+            URL_Add("graphics card", "https://en.wikipedia.org/wiki/Graphics_card");
+
+            URL_Add("Mach", "https://en.wiktionary.org/wiki/Mach#Noun");
+
+            URL_Add("teatime", "https://en.wiktionary.org/wiki/teatime#Noun");
+
+            URL_Add("transonic", "https://en.wiktionary.org/wiki/transonic#Adjective");
+
+            URL_Add("unaccessible", "https://en.wiktionary.org/wiki/unaccessible#Adjective");
+
+            URL_Add("blatant plagiarism on Quora", "https://www.quora.com/What-is-the-best-free-comment-plugin-for-WordPress/answer/Keshav-Infotech-2");
+
+            URL_Add("changes", "https://en.wiktionary.org/wiki/change#Noun");
+
+            URL_Add("double standard", "https://en.wiktionary.org/wiki/double_standard#Noun");
+
+            URL_Add("Kailh BOX White switch", "https://switchandclick.com/best-clicky-switches-for-your-mechanical-keyboard/");
+
+            URL_Add("Open Asset Import Library", "https://en.wikipedia.org/wiki/Open_Asset_Import_Library");
+
+            URL_Add("power up", "https://en.wiktionary.org/wiki/power_up#Verb");
+
+            URL_Add("severely", "https://en.wiktionary.org/wiki/severely#Adverb");
+
+            URL_Add("targeted", "https://en.wiktionary.org/wiki/target#Verb");
+
+            URL_Add("Ducky One 2", "https://www.duckychannel.com.tw/en/Keyboards/One2-Series");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -78020,6 +78114,7 @@ namespace OverflowHelper.core
 
             correctionAdd("User Experience_", "User Experience (Stack Exchange site)_");
             correctionAdd("UX_", "User Experience (Stack Exchange site)_");
+            correctionAdd("UX Stack Exchange_", "User Experience (Stack Exchange site)_");
 
             correctionAdd("Bioinformatics SE_", "Bioinformatics (Stack Exchange site)_");
             correctionAdd("Bioinformatics_", "Bioinformatics (Stack Exchange site)_"); // Sort of identity mapping"
@@ -79635,6 +79730,8 @@ namespace OverflowHelper.core
 
             correctionAdd("hoarde_", "horde_");
 
+            correctionAdd("scrach_", "scratch_");
+
             // URL mappings
             //
             //
@@ -80755,6 +80852,8 @@ namespace OverflowHelper.core
             URL_Add("Crystal_", "https://en.wikipedia.org/wiki/Crystal_(programming_language)");
 
             URL_Add("horde_", "https://en.wiktionary.org/wiki/horde#Noun");
+
+            URL_Add("scratch_", "https://en.wiktionary.org/wiki/scratch#Verb");
 
         } //addLookupData_alternativeWordSet()
 
