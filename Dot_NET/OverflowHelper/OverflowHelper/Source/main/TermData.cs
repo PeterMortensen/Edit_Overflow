@@ -3588,6 +3588,75 @@ namespace OverflowHelper.core
             // Android phones
             correctionAdd("galaxy", "Samsung Galaxy S series");
 
+            // Expansion, not case correction.
+            correctionAdd("db", "database");
+            correctionAdd("DB", "database");
+            correctionAdd("Db", "database");
+            correctionAdd("datbase", "database");
+            correctionAdd("DataBase", "database");
+            correctionAdd("data base", "database");
+            correctionAdd("dB", "database");
+            correctionAdd("databse", "database");
+            correctionAdd("databese", "database");
+            correctionAdd("D/B", "database");
+            correctionAdd("Database", "database");
+            correctionAdd("datase", "database");
+            correctionAdd("dbs", "database");
+            correctionAdd("Data Base", "database");
+            correctionAdd("datebase", "database");
+            correctionAdd("Databse", "database");
+
+            correctionAdd("normalization", "database normalization");
+            correctionAdd("Normalization", "database normalization");
+
+            // Related to databases
+            correctionAdd("scema", "schema");
+            correctionAdd("Schema", "schema");
+
+            // Related to relational databases
+            correctionAdd("Armstrong rules", "Armstrong's axioms");
+            correctionAdd("Armstrong rule", "Armstrong's axioms");
+
+            // Alternative: database administration
+            correctionAdd("DBA", "database administrator");
+            correctionAdd("dba", "database administrator");
+
+            correctionAdd("oracle", "Oracle");
+            correctionAdd("ORACLE", "Oracle");
+            correctionAdd("Oracle Database", "Oracle");
+
+            correctionAdd("mnist", "MNIST data set");
+            correctionAdd("mnist dataset", "MNIST data set");
+            correctionAdd("MNIST dataset", "MNIST data set");
+            correctionAdd("MNIST database", "MNIST data set");
+            correctionAdd("Mnist", "MNIST data set");
+            correctionAdd("MNST", "MNIST data set");
+            correctionAdd("MNST dataset", "MNIST data set");
+
+            correctionAdd("Northwind", "Northwind database");
+
+            correctionAdd("Realtime Database", "Firebase Realtime Database");
+
+            correctionAdd("oracle11g", "Oracle Database 11g Release 1");
+            correctionAdd("oracle 11g", "Oracle Database 11g Release 1");
+            correctionAdd("Oracle Database 11g", "Oracle Database 11g Release 1");
+            correctionAdd("11g", "Oracle Database 11g Release 1");
+
+            correctionAdd("Oracle 11.2g", "Oracle Database 11g Release 2");
+
+            correctionAdd("oracle 12c", "Oracle Database 12c");
+
+            correctionAdd("IndexedDB", "Indexed Database API");
+
+            // Related to databases and Microsoft SQL Server
+            correctionAdd("RTO", "Recovery Time Objective");
+
+            // Electronics
+            correctionAdd("circuitdiagram", "circuit diagram");
+            correctionAdd("schematics", "circuit diagram");
+            correctionAdd("schematic", "circuit diagram");
+            correctionAdd("schemactics", "circuit diagram");
+
             correctionAdd("SO", "Stack&nbsp;Overflow");
             correctionAdd("S.O", "Stack&nbsp;Overflow");
             correctionAdd("StacOkverflow", "Stack&nbsp;Overflow");
@@ -3912,6 +3981,9 @@ namespace OverflowHelper.core
             //     Wikipedia article
             //
             correctionAdd("stinking badges", "We don't need stinking badges");
+
+            // A SEDE query. Related to Stack Overflow and Stack Exchange.
+            correctionAdd("younger questions", "most popular younger questions");
 
             //  Start of Stack Exchange site list (not
             //  complete (only added on demand))
@@ -9511,46 +9583,6 @@ namespace OverflowHelper.core
             correctionAdd("FD", "file descriptor");
             correctionAdd("fd", "file descriptor");
 
-            // Expansion, not case correction.
-            correctionAdd("db", "database");
-            correctionAdd("DB", "database");
-            correctionAdd("Db", "database");
-            correctionAdd("datbase", "database");
-            correctionAdd("DataBase", "database");
-            correctionAdd("data base", "database");
-            correctionAdd("dB", "database");
-            correctionAdd("databse", "database");
-            correctionAdd("databese", "database");
-            correctionAdd("D/B", "database");
-            correctionAdd("Database", "database");
-            correctionAdd("datase", "database");
-            correctionAdd("dbs", "database");
-            correctionAdd("Data Base", "database");
-            correctionAdd("datebase", "database");
-            correctionAdd("Databse", "database");
-
-            correctionAdd("normalization", "database normalization");
-            correctionAdd("Normalization", "database normalization");
-
-            // Alternative: database administration
-            correctionAdd("DBA", "database administrator");
-            correctionAdd("dba", "database administrator");
-
-            correctionAdd("oracle", "Oracle");
-            correctionAdd("ORACLE", "Oracle");
-            correctionAdd("Oracle Database", "Oracle");
-
-            correctionAdd("mnist", "MNIST data set");
-            correctionAdd("mnist dataset", "MNIST data set");
-            correctionAdd("MNIST dataset", "MNIST data set");
-            correctionAdd("MNIST database", "MNIST data set");
-            correctionAdd("Mnist", "MNIST data set");
-            correctionAdd("MNST", "MNIST data set");
-            correctionAdd("MNST dataset", "MNIST data set");
-
-            correctionAdd("Armstrong rules", "Armstrong's axioms");
-            correctionAdd("Armstrong rule", "Armstrong's axioms");
-
             correctionAdd("FDISK", "fdisk");
 
             correctionAdd("FDM", "Free Download Manager");
@@ -14234,6 +14266,15 @@ namespace OverflowHelper.core
             correctionAdd("MongoBD", "MongoDB");
             correctionAdd("mongobd", "MongoDB");
 
+            correctionAdd("mongoose", "Mongoose");
+            correctionAdd("MONGOOSE", "Mongoose");
+
+            correctionAdd("mongochef", "MongoChef");
+
+            correctionAdd("Robo 3T", "Robomongo");
+            correctionAdd("robomongo", "Robomongo");
+            correctionAdd("Robomong", "Robomongo");
+
             // Wikipedia can not handle having an entry, instead it is tugged into
             // the article about LinkedIn!!!
             //correctionAdd("voldemort", "Voldemort"); // Not actually observed. For the link.
@@ -16012,6 +16053,69 @@ namespace OverflowHelper.core
             correctionAdd("Certifiacte", "certificate");
             correctionAdd("certifiacte", "certificate");
 
+            correctionAdd("CA", "certificate authority");
+            correctionAdd("Certificate authority", "certificate authority");
+            correctionAdd("Certificate Authority", "certificate authority");
+
+            correctionAdd("RootCA", "root certificate authority");
+            correctionAdd("Root Ca", "root certificate authority");
+            correctionAdd("Root CA", "root certificate authority");
+            correctionAdd("Root certificate authority", "root certificate authority");
+
+            correctionAdd("certbot", "Certbot");
+
+            correctionAdd("certify the web", "Certify The Web");
+
+            // Related to certificates and cryptography
+            correctionAdd("let's encrypt", "Let's Encrypt");
+            correctionAdd("lets encrypt", "Let's Encrypt");
+            correctionAdd("letsencrypt", "Let's Encrypt");
+            correctionAdd("Let's encrypt", "Let's Encrypt");
+            correctionAdd("Lets Encrypt", "Let's Encrypt");
+            correctionAdd("LetsEncrypt", "Let's Encrypt");
+
+            correctionAdd("cerfified", "certified");
+
+            correctionAdd("enrypt", "encrypt");
+            correctionAdd("incrypt", "encrypt");
+
+            correctionAdd("crypto", "cryptography");
+            correctionAdd("crypt", "cryptography");
+            correctionAdd("Cryptography", "cryptography");
+            correctionAdd("cypto", "cryptography");
+
+            correctionAdd("ECC", "elliptic-curve cryptography");
+
+            // Related to cryptography
+            correctionAdd("OBF", "OFB");
+
+            correctionAdd("crypto-currency", "cryptocurrency");
+            correctionAdd("crypto currency", "cryptocurrency");
+            correctionAdd("CryptoCurrency", "cryptocurrency");
+            correctionAdd("crypt-currency", "cryptocurrency");
+            correctionAdd("Crypto", "cryptocurrency");
+            correctionAdd("Cryptocurrency", "cryptocurrency");
+
+            correctionAdd("cryptographic message syntax", "Cryptographic Message Syntax");
+
+            correctionAdd("Cryptographically", "cryptographically");
+
+            correctionAdd("Cryptographically Secure", "cryptographically secure");
+
+            correctionAdd("Cryptanalysis", "cryptanalysis");
+
+            correctionAdd("certianly", "certainly");
+            correctionAdd("certanly", "certainly");
+
+            correctionAdd("cetian", "certain");
+            correctionAdd("certian", "certain");
+            correctionAdd("cetain", "certain");
+            correctionAdd("cwrtain", "certain");
+            correctionAdd("certanin", "certain");
+
+            correctionAdd("cirtainty", "certainty");
+            correctionAdd("curtainty", "certainty");
+
             correctionAdd("ebay", "eBay");
             correctionAdd("Ebay", "eBay");
             correctionAdd("EBay", "eBay");
@@ -17160,26 +17264,6 @@ namespace OverflowHelper.core
 
             correctionAdd("fc 11", "Fedora Core 11"); // Since Fedora 7, the Core and Extras repositories have been merged, hence the distribution dropping Core from its name.
 
-            correctionAdd("crypto", "cryptography");
-            correctionAdd("crypt", "cryptography");
-            correctionAdd("Cryptography", "cryptography");
-            correctionAdd("cypto", "cryptography");
-
-            correctionAdd("crypto-currency", "cryptocurrency");
-            correctionAdd("crypto currency", "cryptocurrency");
-            correctionAdd("CryptoCurrency", "cryptocurrency");
-            correctionAdd("crypt-currency", "cryptocurrency");
-            correctionAdd("Crypto", "cryptocurrency");
-            correctionAdd("Cryptocurrency", "cryptocurrency");
-
-            correctionAdd("cryptographic message syntax", "Cryptographic Message Syntax");
-
-            correctionAdd("Cryptographically", "cryptographically");
-
-            correctionAdd("Cryptographically Secure", "cryptographically secure");
-
-            correctionAdd("Cryptanalysis", "cryptanalysis");
-
             correctionAdd("bio", "biography");
             correctionAdd("biografy", "biography");
 
@@ -17187,8 +17271,6 @@ namespace OverflowHelper.core
             correctionAdd("phiolosopjy", "philosophy");
             correctionAdd("phiolosophy", "philosophy");
             correctionAdd("Philosophy", "philosophy");
-
-            correctionAdd("ECC", "elliptic-curve cryptography");
 
             correctionAdd("Natural Philosopy", "natural philosophy");
 
@@ -19362,10 +19444,6 @@ namespace OverflowHelper.core
 
             correctionAdd("pfx", "PFX");
 
-            correctionAdd("CA", "certificate authority");
-            correctionAdd("Certificate authority", "certificate authority");
-            correctionAdd("Certificate Authority", "certificate authority");
-
             correctionAdd("althou", "although");
             correctionAdd("altough", "although");
             correctionAdd("athough", "although");
@@ -20882,6 +20960,7 @@ namespace OverflowHelper.core
             correctionAdd("n00bie", "newbie");
             correctionAdd("n3wb", "newbie");
             correctionAdd("newbies", "newbie");
+            correctionAdd("newbe", "newbie");
 
             correctionAdd("Foxpro", "FoxPro");
             correctionAdd("foxpro", "FoxPro");
@@ -21111,9 +21190,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Ejs", "EJS");
             correctionAdd("ejs", "EJS");
-
-            correctionAdd("mongoose", "Mongoose");
-            correctionAdd("MONGOOSE", "Mongoose");
 
             correctionAdd("etl", "ETL");
 
@@ -22912,9 +22988,6 @@ namespace OverflowHelper.core
             correctionAdd("braught", "brought");
             correctionAdd("brough", "brought");
 
-            correctionAdd("certianly", "certainly");
-            correctionAdd("certanly", "certainly");
-
             correctionAdd("critisicm", "criticism");
             correctionAdd("critisism", "criticism");
             correctionAdd("critism", "criticism");
@@ -23091,6 +23164,7 @@ namespace OverflowHelper.core
             correctionAdd("infact", "in fact");
             correctionAdd("in-fact", "in fact");
             correctionAdd("Infact", "in fact");
+            correctionAdd("In-fact", "in fact");
 
             correctionAdd("parlamentary", "parliamentary");
 
@@ -26220,12 +26294,6 @@ namespace OverflowHelper.core
             correctionAdd("asteriskes", "asterisks");
 
             correctionAdd("astroid", "asteroid");
-
-            correctionAdd("cetian", "certain");
-            correctionAdd("certian", "certain");
-            correctionAdd("cetain", "certain");
-            correctionAdd("cwrtain", "certain");
-            correctionAdd("certanin", "certain");
 
             correctionAdd("Collector", "collector");
 
@@ -31931,16 +31999,6 @@ namespace OverflowHelper.core
 
             correctionAdd("perurbation", "perturbation");
 
-            correctionAdd("let's encrypt", "Let's Encrypt");
-            correctionAdd("lets encrypt", "Let's Encrypt");
-            correctionAdd("letsencrypt", "Let's Encrypt");
-            correctionAdd("Let's encrypt", "Let's Encrypt");
-            correctionAdd("Lets Encrypt", "Let's Encrypt");
-            correctionAdd("LetsEncrypt", "Let's Encrypt");
-
-            correctionAdd("enrypt", "encrypt");
-            correctionAdd("incrypt", "encrypt");
-
             correctionAdd("m3u8", "M3U8");
 
             correctionAdd("Poincarre Reccurrance theorem", "Poincaré recurrence theorem");
@@ -34830,9 +34888,6 @@ namespace OverflowHelper.core
 
             correctionAdd("MBaas", "MBaaS");
 
-            correctionAdd("cirtainty", "certainty");
-            correctionAdd("curtainty", "certainty");
-
             correctionAdd("doubledness", "doubleness");
 
             correctionAdd("fueled", "fuelled");
@@ -36482,6 +36537,7 @@ namespace OverflowHelper.core
             correctionAdd("cuases", "causes");
 
             correctionAdd("combos", "combinations");
+            correctionAdd("combinatios", "combinations");
 
             correctionAdd("execeuting", "executing");
             correctionAdd("executiong", "executing");
@@ -36862,12 +36918,6 @@ namespace OverflowHelper.core
             correctionAdd("chef", "Chef");
 
             correctionAdd("SQUISH", "squish");
-
-            correctionAdd("mongochef", "MongoChef");
-
-            correctionAdd("Robo 3T", "Robomongo");
-            correctionAdd("robomongo", "Robomongo");
-            correctionAdd("Robomong", "Robomongo");
 
             correctionAdd("contaians", "contains");
             correctionAdd("conatians", "contains");
@@ -38556,8 +38606,6 @@ namespace OverflowHelper.core
 
             correctionAdd("PDFs", "PDF files");
 
-            correctionAdd("cerfified", "certified");
-
             correctionAdd("double quoted", "double-quoted");
 
             correctionAdd("enties", "entries");
@@ -38654,14 +38702,6 @@ namespace OverflowHelper.core
             correctionAdd("Paragravity", "paragravity");
             correctionAdd("Parargrvity", "paragravity");
 
-            correctionAdd("RootCA", "root certificate authority");
-            correctionAdd("Root Ca", "root certificate authority");
-            correctionAdd("Root CA", "root certificate authority");
-            correctionAdd("Root certificate authority", "root certificate authority");
-
-            correctionAdd("scema", "schema");
-            correctionAdd("Schema", "schema");
-
             correctionAdd("worth there salt", "worth their salt");
 
             correctionAdd("intgers", "integers");
@@ -38732,11 +38772,6 @@ namespace OverflowHelper.core
             correctionAdd("black bodies", "blackbodies");
 
             correctionAdd("black body", "blackbody");
-
-            correctionAdd("circuitdiagram", "circuit diagram");
-            correctionAdd("schematics", "circuit diagram");
-            correctionAdd("schematic", "circuit diagram");
-            correctionAdd("schemactics", "circuit diagram");
 
             correctionAdd("easy-going", "easygoing");
             correctionAdd("easy going", "easygoing");
@@ -41097,10 +41132,6 @@ namespace OverflowHelper.core
 
             correctionAdd("postet", "posted");
 
-            correctionAdd("certbot", "Certbot");
-
-            correctionAdd("certify the web", "Certify The Web");
-
             correctionAdd("eFence", "Electric Fence");
             correctionAdd("efence", "Electric Fence");
 
@@ -42353,8 +42384,6 @@ namespace OverflowHelper.core
             correctionAdd("bull dog", "Bulldog");
 
             correctionAdd("JP", "Jurassic Park");
-
-            correctionAdd("Northwind", "Northwind database");
 
             correctionAdd("SFC", "Software Freedom Conservancy");
             correctionAdd("software freedom conservancy", "Software Freedom Conservancy");
@@ -44305,6 +44334,7 @@ namespace OverflowHelper.core
             correctionAdd("bangladesh", "Bangladesh");
 
             correctionAdd("BTRFS", "Btrfs");
+            correctionAdd("btrfs", "Btrfs");
 
             correctionAdd("foundation", "Foundation");
 
@@ -44527,8 +44557,6 @@ namespace OverflowHelper.core
             correctionAdd("sportmanship", "sportsmanship");
 
             correctionAdd("fastapi", "FastAPI");
-
-            correctionAdd("Realtime Database", "Firebase Realtime Database");
 
             correctionAdd("Goland", "GoLand");
 
@@ -45468,15 +45496,6 @@ namespace OverflowHelper.core
             correctionAdd("naming-convention", "naming convention");
 
             correctionAdd("hungarian notation", "Hungarian notation");
-
-            correctionAdd("oracle11g", "Oracle Database 11g Release 1");
-            correctionAdd("oracle 11g", "Oracle Database 11g Release 1");
-            correctionAdd("Oracle Database 11g", "Oracle Database 11g Release 1");
-            correctionAdd("11g", "Oracle Database 11g Release 1");
-
-            correctionAdd("Oracle 11.2g", "Oracle Database 11g Release 2");
-
-            correctionAdd("oracle 12c", "Oracle Database 12c");
 
             correctionAdd("toad", "Toad");
 
@@ -47839,8 +47858,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Fiber", "fiber");
 
-            correctionAdd("IndexedDB", "Indexed Database API");
-
             correctionAdd("non-redundant", "nonredundant");
 
             correctionAdd("consequnce", "consequence");
@@ -49581,9 +49598,6 @@ namespace OverflowHelper.core
 
             correctionAdd("formual", "formula");
 
-            // Related to cryptography
-            correctionAdd("OBF", "OFB");
-
             correctionAdd("put-up", "put up");
 
             // Stock market related
@@ -49816,9 +49830,6 @@ namespace OverflowHelper.core
 
             correctionAdd("pissig", "pissing");
 
-            // Related to databases and Microsoft SQL Server
-            correctionAdd("RTO", "Recovery Time Objective");
-
             correctionAdd("Commonwealth", "the Commonwealth");
 
             correctionAdd("inaproachability", "inapproachability");
@@ -49902,14 +49913,20 @@ namespace OverflowHelper.core
             correctionAdd("illusration", "illustration");
             correctionAdd("Illusration", "illustration");
 
-            correctionAdd("younger questions", "most popular younger questions");
-
             correctionAdd("off line", "offline");
             correctionAdd("off-line", "offline");
 
             correctionAdd("search-result", "search result");
 
             correctionAdd("whil", "while");
+
+            correctionAdd("activeMQ", "Apache ActiveMQ");
+            correctionAdd("ActiveMQ", "Apache ActiveMQ");
+            correctionAdd("activemq", "Apache ActiveMQ");
+
+            correctionAdd("seelcts", "selects");
+
+            correctionAdd("Pascal's Triangle", "Pascal's triangle");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -77816,6 +77833,12 @@ namespace OverflowHelper.core
             URL_Add("web framework", "https://en.wikipedia.org/wiki/Web_framework");
 
             URL_Add("while", "https://en.wiktionary.org/wiki/while#Conjunction");
+
+            URL_Add("Apache ActiveMQ", "https://en.wikipedia.org/wiki/Apache_ActiveMQ");
+
+            URL_Add("selects", "https://en.wiktionary.org/wiki/select#Verb");
+
+            URL_Add("Pascal's triangle", "https://en.wikipedia.org/wiki/Pascal's_triangle");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
