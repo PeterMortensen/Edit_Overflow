@@ -2641,6 +2641,7 @@ namespace OverflowHelper.core
             correctionAdd("focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
             correctionAdd("Focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
             correctionAdd("Ubuntu Focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu20", "Ubuntu&nbsp;20.04 (Focal Fossa)");
 
             correctionAdd("Ubuntu MATE", "Ubuntu&nbsp;MATE"); // Sort of identity mapping
             correctionAdd("Ubuntu Mate", "Ubuntu&nbsp;MATE");
@@ -5502,6 +5503,9 @@ namespace OverflowHelper.core
 
             // A Python software library
             correctionAdd("prettytable", "PrettyTable");
+
+            // Python
+            correctionAdd("collections.defaultdict", "defaultdict");
 
             // Start of Python function section
             correctionAdd("sorted", "sorted()"); // Python
@@ -17002,6 +17006,7 @@ namespace OverflowHelper.core
             correctionAdd("Open SSH", "OpenSSH");
             correctionAdd("open-ssh", "OpenSSH");
             correctionAdd("Openssh", "OpenSSH");
+            correctionAdd("open ssh", "OpenSSH");
 
             correctionAdd("Opml", "OPML");
 
@@ -17853,6 +17858,7 @@ namespace OverflowHelper.core
             correctionAdd("right lick", "right-click");
 
             correctionAdd("right licking", "right-clicking");
+            correctionAdd("right clicking", "right-clicking");
 
             correctionAdd("cliqued", "clicked");
 
@@ -26474,6 +26480,7 @@ namespace OverflowHelper.core
             correctionAdd("correspondients", "corresponding");
             correctionAdd("correspnding", "corresponding");
             correctionAdd("corresponing", "corresponding");
+            correctionAdd("correspoing", "corresponding");
 
             correctionAdd("substract", "subtract");
             correctionAdd("subsrac", "subtract");
@@ -34115,6 +34122,7 @@ namespace OverflowHelper.core
             correctionAdd("disscusion", "discussion");
             correctionAdd("discution", "discussion");
             correctionAdd("discussiion", "discussion");
+            correctionAdd("discusssion", "discussion");
 
             correctionAdd("brad", "broad");
 
@@ -34164,6 +34172,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ar", "as");
             correctionAdd("Ar", "as");
+            correctionAdd("als", "as");
 
             correctionAdd("cliche", "cliché");
 
@@ -35948,6 +35957,7 @@ namespace OverflowHelper.core
             correctionAdd("executin", "execution");
             correctionAdd("exicution", "execution");
             correctionAdd("Execution", "execution");
+            correctionAdd("EXECUTATION", "execution");
 
             correctionAdd("Dark Energy", "dark energy");
 
@@ -36858,6 +36868,7 @@ namespace OverflowHelper.core
             correctionAdd("crasiness", "craziness");
 
             correctionAdd("fine tune", "fine-tune");
+            correctionAdd("finetune", "fine-tune");
 
             correctionAdd("fine tuned", "fine-tuned");
 
@@ -49951,9 +49962,16 @@ namespace OverflowHelper.core
 
             correctionAdd("Pascal's Triangle", "Pascal's triangle");
 
-            correctionAdd("collections.defaultdict", "defaultdict");
-
             correctionAdd("omni directional", "omnidirectional");
+
+            correctionAdd("ssid", "SSID");
+
+            correctionAdd("advertantly", "advertently");
+
+            correctionAdd("features wise", "featurewise");
+            correctionAdd("Features wise", "featurewise");
+
+            correctionAdd("3 tier", "three-tiered");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -77873,6 +77891,14 @@ namespace OverflowHelper.core
 
             URL_Add("omnidirectional", "https://en.wiktionary.org/wiki/omnidirectional#Adjective");
 
+            URL_Add("SSID", "https://en.wikipedia.org/wiki/Wi-Fi#Etymology_and_terminology");
+
+            URL_Add("advertently", "https://en.wiktionary.org/wiki/advertently#Adverb");
+
+            URL_Add("featurewise", "https://en.wiktionary.org/wiki/featurewise#Adverb");
+
+            URL_Add("three-tiered", "https://en.wiktionary.org/wiki/three-tiered#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -78411,7 +78437,8 @@ namespace OverflowHelper.core
 
             correctionAdd("super-user_", "superuser_");
             correctionAdd("super user_", "superuser_");
-            correctionAdd("Super&nbsp;User (Stack Exchange site)_", "superuser_"); // This is mostly to connect this common noun to the Stack Exchange site "Super User"
+            correctionAdd("Super&nbsp;User (Stack Exchange site)_", "superuser_"); // This is mostly to connect this common noun to the Stack Exchange site "Super User".  But it may no longer be necessary; we added more auto connects.
+            correctionAdd("root_", "superuser_");
 
             correctionAdd("Computer Science_", "Computer Science (Stack Exchange site)_");
             correctionAdd("Computer Sciences_", "Computer Science (Stack Exchange site)_");
@@ -79872,6 +79899,17 @@ namespace OverflowHelper.core
 
             correctionAdd("SEDE_", "Stack Exchange Data Explorer_");
 
+            correctionAdd("literal_eval_", "literal_eval()_");
+
+            correctionAdd("snprintf_", "snprintf()_");
+
+            correctionAdd("co-pilot_", "first officer_");
+            correctionAdd("F/O_", "first officer_");
+            correctionAdd("FO_", "first officer_");
+            correctionAdd("First Officer_", "first officer_");
+
+            correctionAdd("F_", "grade F_");
+
             // URL mappings
             //
             //
@@ -80998,6 +81036,14 @@ namespace OverflowHelper.core
             URL_Add("half_", "https://en.wiktionary.org/wiki/half#Noun");
 
             URL_Add("Stack Exchange Data Explorer_", "https://data.stackexchange.com/users/10901/peter-mortensen-resurrected");
+
+            URL_Add("literal_eval()_", "https://docs.python.org/3/library/ast.html#ast.literal_eval");
+
+            URL_Add("snprintf()_", "https://en.cppreference.com/w/cpp/io/c/fprintf");
+
+            URL_Add("first officer_", "https://en.wikipedia.org/wiki/First_officer_(aviation)");
+
+            URL_Add("grade F_", "https://en.wikipedia.org/wiki/Academic_grading_in_the_United_States#Grades_A%E2%80%93F_in_the_United_States");
 
         } //addLookupData_alternativeWordSet()
 
