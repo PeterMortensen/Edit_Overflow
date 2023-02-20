@@ -6333,6 +6333,9 @@ namespace OverflowHelper.core
             correctionAdd("asprintf", "asprintf()");
 
             // A C / C++ standard library function
+            correctionAdd("snprintf", "snprintf()");
+
+            // A C / C++ standard library function
             correctionAdd("MEMCPY", "memcpy");
 
             // A book
@@ -13589,6 +13592,12 @@ namespace OverflowHelper.core
             correctionAdd("WI-FI", "Wi-Fi");
             correctionAdd("WIFi", "Wi-Fi");
             correctionAdd("Wi Fi", "Wi-Fi");
+
+            correctionAdd("Wi-Fi Protected Setup", "WPS");
+            correctionAdd("Wi-Fi Simple Config", "WPS");
+
+            // Wi-Fi
+            correctionAdd("ssid", "SSID");
 
             correctionAdd("vlc", "VLC media player");
             correctionAdd("VLC", "VLC media player");
@@ -46137,9 +46146,6 @@ namespace OverflowHelper.core
             correctionAdd("data execution prevention", "DEP");
             correctionAdd("Data Execution Prevention", "DEP");
 
-            correctionAdd("Wi-Fi Protected Setup", "WPS");
-            correctionAdd("Wi-Fi Simple Config", "WPS");
-
             correctionAdd("ASLR", "address space layout randomization");
 
             correctionAdd("relayout", "layout");
@@ -49963,8 +49969,6 @@ namespace OverflowHelper.core
             correctionAdd("Pascal's Triangle", "Pascal's triangle");
 
             correctionAdd("omni directional", "omnidirectional");
-
-            correctionAdd("ssid", "SSID");
 
             correctionAdd("advertantly", "advertently");
 
@@ -77899,6 +77903,8 @@ namespace OverflowHelper.core
 
             URL_Add("three-tiered", "https://en.wiktionary.org/wiki/three-tiered#Adjective");
 
+            URL_Add("snprintf()", "https://en.cppreference.com/w/cpp/io/c/fprintf");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -78032,6 +78038,9 @@ namespace OverflowHelper.core
 
             // A Python function
             correctionAdd("sort_", "sort()_");
+
+            // A Python function
+            correctionAdd("literal_eval_", "literal_eval()_");
 
             // A Python library
             correctionAdd("AST_", "ast_");
@@ -79899,10 +79908,7 @@ namespace OverflowHelper.core
 
             correctionAdd("SEDE_", "Stack Exchange Data Explorer_");
 
-            correctionAdd("literal_eval_", "literal_eval()_");
-
-            correctionAdd("snprintf_", "snprintf()_");
-
+            // Aviation
             correctionAdd("co-pilot_", "first officer_");
             correctionAdd("F/O_", "first officer_");
             correctionAdd("FO_", "first officer_");
@@ -81038,8 +81044,6 @@ namespace OverflowHelper.core
             URL_Add("Stack Exchange Data Explorer_", "https://data.stackexchange.com/users/10901/peter-mortensen-resurrected");
 
             URL_Add("literal_eval()_", "https://docs.python.org/3/library/ast.html#ast.literal_eval");
-
-            URL_Add("snprintf()_", "https://en.cppreference.com/w/cpp/io/c/fprintf");
 
             URL_Add("first officer_", "https://en.wikipedia.org/wiki/First_officer_(aviation)");
 
