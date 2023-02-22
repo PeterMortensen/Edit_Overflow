@@ -3868,6 +3868,7 @@ namespace OverflowHelper.core
             correctionAdd("Stake Exchange", "Stack&nbsp;Exchange");
             correctionAdd("stackechange", "Stack&nbsp;Exchange");
             correctionAdd("stackex", "Stack&nbsp;Exchange");
+            correctionAdd("StackX", "Stack&nbsp;Exchange");
 
             correctionAdd("full stackoverflow developer", "full Stack Overflow developer");
             correctionAdd("Full stack overflow developer", "full Stack Overflow developer");
@@ -3931,6 +3932,7 @@ namespace OverflowHelper.core
             correctionAdd("Stackoverflow Teams", "Stack Overflow for Teams");
             correctionAdd("Stackoverflow for Teams", "Stack Overflow for Teams");
             correctionAdd("StackOverflow Team", "Stack Overflow for Teams");
+            correctionAdd("StackOverflow Teams", "Stack Overflow for Teams");
 
             correctionAdd("not a forum", "Stack Overflow is not a forum");
             correctionAdd("isn't a forum", "Stack Overflow is not a forum");
@@ -24828,6 +24830,7 @@ namespace OverflowHelper.core
 
             correctionAdd("suppodsedly", "supposedly");
             correctionAdd("Suppodsedly", "supposedly");
+            correctionAdd("supsosedly", "supposedly");
 
             correctionAdd("jure", "sure");
             correctionAdd("shure", "sure");
@@ -25170,6 +25173,7 @@ namespace OverflowHelper.core
 
             correctionAdd("5th", "fifth");
             correctionAdd("Fifth", "fifth");
+            correctionAdd("firth", "fifth");
 
             correctionAdd("greather", "greater");
 
@@ -41086,6 +41090,7 @@ namespace OverflowHelper.core
             correctionAdd("Byte", "byte");
 
             correctionAdd("down-voter", "downvoter");
+            correctionAdd("down voter", "downvoter");
 
             correctionAdd("equaling", "equalling");
 
@@ -50043,6 +50048,30 @@ namespace OverflowHelper.core
             correctionAdd("TROFF", "troff");
 
             correctionAdd("fone", "gone");
+
+            correctionAdd("unknown yet", "as-yet-unknown");
+            correctionAdd("as yet unknown", "as-yet-unknown");
+
+            correctionAdd("bi-partisan", "bipartisan");
+            correctionAdd("bi partisan", "bipartisan");
+
+            // Alternative URL: <https://en.wikipedia.org/wiki/Faster-than-light>
+            correctionAdd("FTL", "faster-than-light");
+            correctionAdd("Faster Than Light", "faster-than-light");
+            correctionAdd("Faster-Than-Light", "faster-than-light");
+
+            correctionAdd("Nordtsream", "Nord Stream");
+
+            correctionAdd("Open Source Intelligence", "open-source intelligence");
+
+            correctionAdd("space-faring", "spacefaring");
+
+            correctionAdd("wrong-doing", "wrongdoing");
+            correctionAdd("wrong doing", "wrongdoing");
+
+            correctionAdd("Frankfurt", "Frankfurt, German");
+
+            correctionAdd("Pattaya", "Pattaya, Thailand");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -78007,6 +78036,24 @@ namespace OverflowHelper.core
 
             URL_Add("Kailh BOX Pink switch", "https://www.kailh.net/collections/box-switches/products/kailh-coco-pink-box-v2-switch-set");
 
+            URL_Add("as-yet-unknown", "https://en.wiktionary.org/wiki/as-yet-unknown#Adjective");
+
+            URL_Add("bipartisan", "https://en.wiktionary.org/wiki/bipartisan#Adjective");
+
+            URL_Add("faster-than-light", "https://en.wiktionary.org/wiki/faster-than-light#Adjective");
+
+            URL_Add("Nord Stream", "https://en.wikipedia.org/wiki/Nord_Stream");
+
+            URL_Add("open-source intelligence", "https://en.wikipedia.org/wiki/Open-source_intelligence");
+
+            URL_Add("spacefaring", "https://en.wiktionary.org/wiki/spacefaring#Adjective");
+
+            URL_Add("wrongdoing", "https://en.wiktionary.org/wiki/wrongdoing#Noun");
+
+            URL_Add("Frankfurt, German", "https://en.wikipedia.org/wiki/Frankfurt");
+
+            URL_Add("Pattaya, Thailand", "https://en.wikipedia.org/wiki/Pattaya");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -78214,6 +78261,9 @@ namespace OverflowHelper.core
 
             correctionAdd("0777_", "777_");
             correctionAdd("chmod 777_", "777_");
+
+            correctionAdd("0555_", "555_");
+            correctionAdd("chmod 555_", "555_");
 
             correctionAdd("CM_", "Community Manager_");
 
@@ -80031,8 +80081,6 @@ namespace OverflowHelper.core
             correctionAdd("synth_", "synthetic_");
 
             correctionAdd("extant_", "extent_");
-
-            correctionAdd("0555_", "555_");
 
             correctionAdd("guid_", "guide_");
 
