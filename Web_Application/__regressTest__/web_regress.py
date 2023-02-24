@@ -2,8 +2,8 @@
 #
 #  Purpose: Regression test for the main functions in Edit Overflow
 #           for web, most importantly the correct built up of edit
-#           summary messages, including looking up terms not in
-#           our word list.
+#           summary messages, including when looking up terms not
+#           in our word list.
 #
 #           It uses Selenium with "Selenium Webdriver" to control Firefox
 #           windows and send information to and from them.
@@ -94,14 +94,6 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
 
         time.sleep(5.0) # Let us have a look for a while...
         self.browser.close()
-
-    #def test_upper(self):
-    #    self.assertEqual('foo'.upper(), 'FOO')
-
-
-    # This one is independent of Edit Overflow - indicated
-    # by the prefix "core" (and thus a candidate to be
-    # moved to a more general place).
 
 
 
@@ -204,7 +196,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     #   if an element exists or not.
     #
     #   Ref.: <https://stackoverflow.com/a/9587938>. Note that most
-    #         of the other answers seem to be plain wroing.
+    #         of the other answers seem to be plain wrong.
     #
     #   Note that the plural forms, which don't throw
     #   exceptions, have been removed in Selenium.
