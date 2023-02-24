@@ -644,6 +644,7 @@ namespace OverflowHelper.core
 
             correctionAdd("WSL2", "WSL 2");
             correctionAdd("WSL-2", "WSL 2");
+            correctionAdd("wsl2", "WSL 2");
 
             correctionAdd("virtual PC", "Virtual&nbsp;PC");
             correctionAdd("Virtual PC", "Virtual&nbsp;PC");
@@ -2680,6 +2681,8 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu 22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
             correctionAdd("jammy jellyfish", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
             correctionAdd("ubuntu 22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("Ubuntu22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("ubuntu22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
 
             correctionAdd("Ubuntu 20.10", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
             correctionAdd("Ubuntu 20.10 (Groovy Gorilla)", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
@@ -10171,6 +10174,7 @@ namespace OverflowHelper.core
             correctionAdd("back-slash", "backslash");
             correctionAdd("backward slash", "backslash");
             correctionAdd("backslahs", "backslash");
+            correctionAdd("Backslash", "backslash");
 
             correctionAdd("emdash", "em dash");
             correctionAdd("em-dash", "em dash");
@@ -10238,6 +10242,8 @@ namespace OverflowHelper.core
             correctionAdd("IPs", "IP address");
             correctionAdd("ips", "IP address");
             correctionAdd("IP ADRESS", "IP address");
+            correctionAdd("IP number", "IP address");
+            correctionAdd("ip number", "IP address");
 
             correctionAdd("mac address", "MAC address");
             correctionAdd("MAC-Adress", "MAC address");
@@ -13096,6 +13102,7 @@ namespace OverflowHelper.core
             correctionAdd("Pull-Request", "pull request");
             correctionAdd("prs", "pull request");
             correctionAdd("PRs", "pull request");
+            correctionAdd("pull-request", "pull request");
 
             correctionAdd("requst", "request");
             correctionAdd("resquest", "request");
@@ -27290,6 +27297,7 @@ namespace OverflowHelper.core
             correctionAdd("suported", "supported");
             correctionAdd("supproted", "supported");
             correctionAdd("supportetd", "supported");
+            correctionAdd("supprted", "supported");
 
             correctionAdd("vocabolary", "vocabulary");
             correctionAdd("vocab", "vocabulary");
@@ -47213,6 +47221,9 @@ namespace OverflowHelper.core
 
             correctionAdd("hamming weight", "Hamming weight");
 
+            correctionAdd("Hamming Distance", "Hamming distance");
+            correctionAdd("hamming distance", "Hamming distance");
+
             correctionAdd("async serial communication", "asynchronous serial communication");
             correctionAdd("async serial comms", "asynchronous serial communication");
             correctionAdd("async serial", "asynchronous serial communication");
@@ -50154,6 +50165,10 @@ namespace OverflowHelper.core
             correctionAdd("Tag", "tag");
 
             correctionAdd("self induced", "self-induced");
+
+            correctionAdd("corkscrew", "Corkscrew");
+
+            correctionAdd("stabil", "stable");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -78156,6 +78171,12 @@ namespace OverflowHelper.core
 
             URL_Add("self-induced", "https://en.wiktionary.org/wiki/self-induced#Adjective");
 
+            URL_Add("Corkscrew", "https://en.wikipedia.org/wiki/Corkscrew_(program)");
+
+            URL_Add("Hamming distance", "https://en.wikipedia.org/wiki/Hamming_distance");
+
+            URL_Add("stable", "https://en.wiktionary.org/wiki/stable#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -80192,6 +80213,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Thread_", "thread_");
 
+            correctionAdd("monkey-patch_", "monkey patch_");
+
             // URL mappings
             //
             //
@@ -81340,6 +81363,8 @@ namespace OverflowHelper.core
             URL_Add("probability density function_", "https://en.wikipedia.org/wiki/Probability_density_function");
 
             URL_Add("thread_", "https://en.wiktionary.org/wiki/thread#Noun");
+
+            URL_Add("monkey patch_", "https://en.wiktionary.org/wiki/monkey_patch#Verb");
 
         } //addLookupData_alternativeWordSet()
 
