@@ -4366,6 +4366,7 @@ namespace OverflowHelper.core
             correctionAdd("cr.SE", "Code Review (Stack Exchange site)");
             correctionAdd("CR.SE", "Code Review (Stack Exchange site)");
             correctionAdd("Code R3view", "Code Review (Stack Exchange site)");
+            correctionAdd("Code review", "Code Review (Stack Exchange site)");
 
             correctionAdd("database administrators", "Database Administrators (Stack Exchange site)");
             correctionAdd("Database Administrators", "Database Administrators (Stack Exchange site)"); // Sort of identity mapping
@@ -4758,6 +4759,7 @@ namespace OverflowHelper.core
             correctionAdd("spagetti-code", "spaghetti code");
 
             correctionAdd("instructions set", "instruction set");
+            correctionAdd("Instruction set", "instruction set");
 
             correctionAdd("VLIW", "very long instruction word");
 
@@ -6398,6 +6400,9 @@ namespace OverflowHelper.core
             correctionAdd("Programming language", "programming language");
 
             correctionAdd("HLL", "high-level programming language");
+
+            correctionAdd("high level language", "high-level language");
+            correctionAdd("High level language", "high-level language");
 
             correctionAdd("curly-brace programming language", "curly-bracket programming language");
             correctionAdd("bracket language", "curly-bracket programming language");
@@ -9019,6 +9024,8 @@ namespace OverflowHelper.core
             correctionAdd("Have", "have");
             correctionAdd("hasve", "have");
             correctionAdd("hva", "have");
+            correctionAdd("hane", "have");
+            correctionAdd("hwne", "have");
 
             correctionAdd("havent", "haven’t");
             correctionAdd("havn't", "haven’t");
@@ -13203,6 +13210,7 @@ namespace OverflowHelper.core
             // A sorting algorithm
             correctionAdd("insert sort", "insertion sort");
             correctionAdd("Insertion Sort", "insertion sort");
+            correctionAdd("Insertion sort", "insertion sort");
 
             // A sorting algorithm
             correctionAdd("Selection sort", "selection sort");
@@ -14638,6 +14646,7 @@ namespace OverflowHelper.core
             correctionAdd("worldpad", "WordPad");
 
             correctionAdd("sympy", "SymPy");
+            correctionAdd("Sympy", "SymPy");
 
             correctionAdd("pig latin", "Pig Latin");
             correctionAdd("pig-latin", "Pig Latin");
@@ -18255,11 +18264,13 @@ namespace OverflowHelper.core
 
             correctionAdd("left click", "left-click");
             correctionAdd("Left click", "left-click");
+            correctionAdd("Left-click", "left-click");
 
             correctionAdd("double clicking", "double-clicking");
             correctionAdd("doublicking", "double-clicking");
             correctionAdd("doubclicking", "double-clicking");
             correctionAdd("doubleclicking", "double-clicking");
+            correctionAdd("Double clicking", "double-clicking");
 
             correctionAdd("mis-clicking", "misclicking");
 
@@ -22427,6 +22438,7 @@ namespace OverflowHelper.core
             correctionAdd("Scroll", "scroll");
             correctionAdd("scrool", "scroll");
             correctionAdd("sroll", "scroll");
+            correctionAdd("Schrol", "scroll");
 
             correctionAdd("schrader", "Schrader valve");
 
@@ -24021,6 +24033,32 @@ namespace OverflowHelper.core
             correctionAdd("low-kevel", "low-level");
             correctionAdd("lowlevel", "low-level");
             correctionAdd("lowlever", "low-level");
+            correctionAdd("Low level", "low-level");
+
+            correctionAdd("Sea Level", "sea level");
+
+            correctionAdd("leval", "level");
+            correctionAdd("lavel", "level");
+
+            correctionAdd("HAGL", "height above ground level");
+            correctionAdd("AGL", "height above ground level");
+
+            correctionAdd("high level", "high-level");
+            correctionAdd("high-lvl", "high-level");
+
+            correctionAdd("FL", "flight level");
+
+            correctionAdd("lower level", "lower-level");
+
+            correctionAdd("entry level", "entry-level");
+
+            correctionAdd("top level", "top-level");
+
+            correctionAdd("mid-level", "midlevel");
+            correctionAdd("middling-level", "midlevel");
+            correctionAdd("middle level", "midlevel");
+            correctionAdd("mid level", "midlevel");
+            correctionAdd("middle lavel", "midlevel");
 
             correctionAdd("PWA", "progressive web application");
             correctionAdd("Progressive Web Application", "progressive web application");
@@ -25119,6 +25157,8 @@ namespace OverflowHelper.core
             correctionAdd("exatly", "exactly");
             correctionAdd("exactily", "exactly");
             correctionAdd("exactlt", "exactly");
+            correctionAdd("egzactly", "exactly");
+            correctionAdd("excactly", "exactly");
 
             correctionAdd("GammaRay Burst", "gamma-ray burst");
             correctionAdd("GRB", "gamma-ray burst");
@@ -27979,6 +28019,7 @@ namespace OverflowHelper.core
             correctionAdd("software change management", "source control management");
             correctionAdd("Source Code Control", "source control management");
             correctionAdd("source code control", "source control management");
+            correctionAdd("version-control", "source control management");
 
             correctionAdd("syle", "style");
             correctionAdd("sytle", "style");
@@ -28074,6 +28115,8 @@ namespace OverflowHelper.core
             correctionAdd("Millenials", "millennials");
 
             correctionAdd("Never ending", "neverending");
+            correctionAdd("never ending", "neverending");
+            correctionAdd("never-ending", "neverending");
 
             correctionAdd("re-open", "reopen");
             correctionAdd("Re-open", "reopen");
@@ -29908,6 +29951,7 @@ namespace OverflowHelper.core
             correctionAdd("componet", "component");
             correctionAdd("Compoent", "component");
             correctionAdd("compoent", "component");
+            correctionAdd("Component", "component");
 
             correctionAdd("orginal", "original");
             correctionAdd("orignal", "original");
@@ -30513,6 +30557,16 @@ namespace OverflowHelper.core
             correctionAdd("regist", "register");
             correctionAdd("regsiter", "register");
 
+            correctionAdd("regs", "registers");
+
+            correctionAdd("reistered", "registered");
+
+            correctionAdd("kaching", "cash register sound");
+
+            correctionAdd("RSP register", "RSP register (stack pointer)");
+            correctionAdd("RSP", "RSP register (stack pointer)");
+            correctionAdd("rsp", "RSP register (stack pointer)");
+
             correctionAdd("raport", "report");
 
             correctionAdd("swoole", "Swoole");
@@ -30952,6 +31006,7 @@ namespace OverflowHelper.core
             correctionAdd("Iv", "I’ve");
             correctionAdd("iver", "I’ve");
             correctionAdd("i've", "I’ve");
+            correctionAdd("I`ve", "I’ve");
 
             correctionAdd("msc", "Master of Science");
             correctionAdd("Msc", "Master of Science");
@@ -36898,8 +36953,6 @@ namespace OverflowHelper.core
 
             correctionAdd("round-ish", "roundish");
 
-            correctionAdd("Sea Level", "sea level");
-
             correctionAdd("spin orbital coupling", "spin–orbit coupling");
             correctionAdd("Spin orbital coupling", "spin–orbit coupling");
 
@@ -37378,8 +37431,6 @@ namespace OverflowHelper.core
             correctionAdd("backcronym", "backronym");
 
             correctionAdd("cellulaure", "cellular");
-
-            correctionAdd("leval", "level");
 
             correctionAdd("natral", "natural");
             correctionAdd("netural", "natural");
@@ -38646,9 +38697,6 @@ namespace OverflowHelper.core
             correctionAdd("globals", "global variables");
             correctionAdd("gloabls", "global variables");
 
-            correctionAdd("HAGL", "height above ground level");
-            correctionAdd("AGL", "height above ground level");
-
             correctionAdd("dislexia", "dyslexia");
             correctionAdd("dyxlexia", "dyslexia");
 
@@ -39795,6 +39843,7 @@ namespace OverflowHelper.core
 
             correctionAdd("matrixes", "matrices");
             correctionAdd("Matrices", "matrices");
+            correctionAdd("matricies", "matrices");
 
             correctionAdd("Ne", "neon (element)");
 
@@ -40173,9 +40222,6 @@ namespace OverflowHelper.core
             correctionAdd("Inverted pyramid", "inverted pyramid");
 
             correctionAdd("questionaire", "questionnaire");
-
-            correctionAdd("high level", "high-level");
-            correctionAdd("high-lvl", "high-level");
 
             correctionAdd("impedanse", "impedance");
 
@@ -41693,8 +41739,6 @@ namespace OverflowHelper.core
             correctionAdd("non existant", "nonexistent");
             correctionAdd("non existent", "nonexistent");
             correctionAdd("non-existant", "nonexistent");
-
-            correctionAdd("regs", "registers");
 
             correctionAdd("re-supply", "resupply");
 
@@ -43563,8 +43607,6 @@ namespace OverflowHelper.core
             correctionAdd("dbase 2", "dBase II");
             correctionAdd("dbase II", "dBase II");
 
-            correctionAdd("FL", "flight level");
-
             correctionAdd("floating point number", "floating-point number");
             correctionAdd("flaot", "floating-point number");
             correctionAdd("flaots", "floating-point number");
@@ -44626,6 +44668,7 @@ namespace OverflowHelper.core
             correctionAdd("misteke", "mistake");
 
             correctionAdd("MTB", "mountain bike");
+            correctionAdd("mtb", "mountain bike");
 
             correctionAdd("normolize", "normalize");
             correctionAdd("Normolize", "normalize");
@@ -44757,8 +44800,6 @@ namespace OverflowHelper.core
 
             correctionAdd("plugg", "plug");
             correctionAdd("pulg", "plug");
-
-            correctionAdd("reistered", "registered");
 
             correctionAdd("Scripting", "scripting");
             correctionAdd("scruipting", "scripting");
@@ -45908,8 +45949,6 @@ namespace OverflowHelper.core
 
             correctionAdd("cope up", "come up");
 
-            correctionAdd("lower level", "lower-level");
-
             correctionAdd("Pharma Industry", "pharma industry");
 
             correctionAdd("amping up", "ramping up");
@@ -46251,8 +46290,6 @@ namespace OverflowHelper.core
             correctionAdd("package-manager", "package manager");
 
             correctionAdd("tweedie distribution", "Tweedie distribution");
-
-            correctionAdd("kaching", "cash register sound");
 
             correctionAdd("consits", "consists");
             correctionAdd("consisits", "consists");
@@ -46942,8 +46979,6 @@ namespace OverflowHelper.core
 
             correctionAdd("rest-assured", "REST Assured");
             correctionAdd("REST-assured", "REST Assured");
-
-            correctionAdd("entry level", "entry-level");
 
             correctionAdd("MUSL", "musl");
             correctionAdd("Musl", "musl");
@@ -48035,6 +48070,7 @@ namespace OverflowHelper.core
             correctionAdd("maleware", "malware");
 
             correctionAdd("tag-wiki", "tag wiki");
+            correctionAdd("Tag wiki", "tag wiki");
 
             correctionAdd("by passed", "bypassed");
 
@@ -48184,8 +48220,6 @@ namespace OverflowHelper.core
             correctionAdd("bullschildt", "Herbert Schildt");
 
             correctionAdd("lower casing", "lowercasing");
-
-            correctionAdd("top level", "top-level");
 
             correctionAdd("exercism", "Exercism");
 
@@ -49628,10 +49662,6 @@ namespace OverflowHelper.core
 
             correctionAdd("auto start", "autostart");
 
-            correctionAdd("mid-level", "midlevel");
-            correctionAdd("middling-level", "midlevel");
-            correctionAdd("middle level", "midlevel");
-
             correctionAdd("Star Trek: TNG", "Star Trek: The Next Generation");
             correctionAdd("TNG", "Star Trek: The Next Generation");
             correctionAdd("The Next Generation", "Star Trek: The Next Generation");
@@ -50022,8 +50052,6 @@ namespace OverflowHelper.core
 
             correctionAdd("hand crafted", "handcrafted");
 
-            correctionAdd("high level language", "high-level language");
-
             correctionAdd("optimize-able", "optimizable");
 
             correctionAdd("oriented on", "oriented toward");
@@ -50169,6 +50197,22 @@ namespace OverflowHelper.core
             correctionAdd("corkscrew", "Corkscrew");
 
             correctionAdd("stabil", "stable");
+
+            correctionAdd("DCM", "dichloromethane");
+
+            correctionAdd("gnumeric", "Gnumeric");
+
+            correctionAdd("heavyly", "heavily");
+
+            correctionAdd("Hexane", "hexane");
+
+            correctionAdd("re-wiring", "rewiring");
+
+            correctionAdd("Schönhage-Strassen", "Schönhage–Strassen algorithm");
+
+            correctionAdd("sourcefile", "source file");
+
+            correctionAdd("victor yonokovich", "Viktor Yanukovych");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -78177,6 +78221,24 @@ namespace OverflowHelper.core
 
             URL_Add("stable", "https://en.wiktionary.org/wiki/stable#Adjective");
 
+            URL_Add("RSP register (stack pointer)", "https://en.wikipedia.org/wiki/X86#64-bit");
+
+            URL_Add("dichloromethane", "https://en.wikipedia.org/wiki/Dichloromethane");
+
+            URL_Add("Gnumeric", "https://en.wikipedia.org/wiki/Gnumeric");
+
+            URL_Add("heavily", "https://en.wiktionary.org/wiki/heavily#Adverb");
+
+            URL_Add("hexane", "https://en.wikipedia.org/wiki/Hexane");
+
+            URL_Add("rewiring", "https://en.wiktionary.org/wiki/rewire#Verb");
+
+            URL_Add("Schönhage–Strassen algorithm", "https://en.wikipedia.org/wiki/Sch%C3%B6nhage%E2%80%93Strassen_algorithm");
+
+            URL_Add("source file", "https://www.pcmag.com/encyclopedia/term/source-file");
+
+            URL_Add("Viktor Yanukovych", "https://en.wikipedia.org/wiki/Viktor_Yanukovych");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -79876,6 +79938,7 @@ namespace OverflowHelper.core
             correctionAdd("DE_", "desktop environment_");
             correctionAdd("desktop env_", "desktop environment_");
             correctionAdd("de_", "desktop environment_");
+            correctionAdd("Desktop environment_", "desktop environment_");
 
             correctionAdd("she's_", "her_");
 
@@ -80134,6 +80197,7 @@ namespace OverflowHelper.core
             correctionAdd("break_", "Break_");
 
             correctionAdd("hansel_", "Hanselminutes_");
+            correctionAdd("hanselminutes_", "Hanselminutes_");
 
             correctionAdd("C string_", "null-terminated string_");
             correctionAdd("ASCIIZ_", "null-terminated string_");
@@ -80214,6 +80278,12 @@ namespace OverflowHelper.core
             correctionAdd("Thread_", "thread_");
 
             correctionAdd("monkey-patch_", "monkey patch_");
+
+            correctionAdd("F5_", "Faugère F5 algorithm_");
+
+            correctionAdd("mac_", "Mac_");
+
+            correctionAdd("oracle_", "Oracle_");
 
             // URL mappings
             //
@@ -81365,6 +81435,12 @@ namespace OverflowHelper.core
             URL_Add("thread_", "https://en.wiktionary.org/wiki/thread#Noun");
 
             URL_Add("monkey patch_", "https://en.wiktionary.org/wiki/monkey_patch#Verb");
+
+            URL_Add("Faugère F5 algorithm_", "https://en.wikipedia.org/wiki/Faug%C3%A8re's_F4_and_F5_algorithms");
+
+            URL_Add("Mac_", "https://en.wiktionary.org/wiki/Mac#Noun_2");
+
+            URL_Add("Oracle_", "https://en.wikipedia.org/wiki/Oracle_Corporation");
 
         } //addLookupData_alternativeWordSet()
 
