@@ -2182,6 +2182,13 @@ namespace OverflowHelper.core
             correctionAdd("Lunux", "Linux");
             correctionAdd("Lnx", "Linux");
             correctionAdd("liunx", "Linux");
+            correctionAdd("lin", "Linux");
+
+            correctionAdd("Linux Kernel", "Linux kernel");
+            correctionAdd("linux kernel", "Linux kernel");
+            correctionAdd("linux kernal", "Linux kernel");
+            correctionAdd("Linux kernal", "Linux kernel");
+            correctionAdd("Linux Kernal", "Linux kernel");
 
             correctionAdd("unix", "Unix");
             correctionAdd("UNIX", "Unix");
@@ -2221,6 +2228,21 @@ namespace OverflowHelper.core
             correctionAdd("Cinnemon", "Cinnamon");
             correctionAdd("cinnemon", "Cinnamon");
 
+            correctionAdd("Distro", "distribution"); // Expansion.
+            correctionAdd("distro", "distribution"); // Expansion.
+            correctionAdd("distros", "distribution"); // Expansion, not 100% correct. Add a plural feature?
+            correctionAdd("distrobution", "distribution");
+            correctionAdd("distos", "distribution"); // Misspelling. Expansion.
+            correctionAdd("ditro", "distribution");
+            correctionAdd("distor", "distribution"); // Misspelling. Expansion.
+            correctionAdd("distors", "distribution"); // Expansion, not 100% correct. Add a plural feature?
+            correctionAdd("Distros", "distribution");
+            correctionAdd("distritutions", "distribution");
+            correctionAdd("distro's", "distribution");
+            correctionAdd("dists", "distribution");
+            correctionAdd("Linux distribuition", "distribution");
+            correctionAdd("Linux distro", "distribution");
+
             // A Linux distribution
             correctionAdd("Pop! OS", "Pop!_OS");
             correctionAdd("POP OS", "Pop!_OS");
@@ -2254,20 +2276,13 @@ namespace OverflowHelper.core
             correctionAdd("open SUSE", "openSUSE");
             correctionAdd("Open SUSE", "openSUSE");
 
-            correctionAdd("Distro", "distribution"); // Expansion.
-            correctionAdd("distro", "distribution"); // Expansion.
-            correctionAdd("distros", "distribution"); // Expansion, not 100% correct. Add a plural feature?
-            correctionAdd("distrobution", "distribution");
-            correctionAdd("distos", "distribution"); // Misspelling. Expansion.
-            correctionAdd("ditro", "distribution");
-            correctionAdd("distor", "distribution"); // Misspelling. Expansion.
-            correctionAdd("distors", "distribution"); // Expansion, not 100% correct. Add a plural feature?
-            correctionAdd("Distros", "distribution");
-            correctionAdd("distritutions", "distribution");
-            correctionAdd("distro's", "distribution");
-            correctionAdd("dists", "distribution");
-            correctionAdd("Linux distribuition", "distribution");
-            correctionAdd("Linux distro", "distribution");
+            // A Linux distribution
+            correctionAdd("SLED", "SUSE Linux Enterprise");
+            correctionAdd("SLES", "SUSE Linux Enterprise");
+            correctionAdd("SLE", "SUSE Linux Enterprise");
+
+            // A Linux distribution
+            correctionAdd("Tumbleweed", "openSUSE Tumbleweed");
 
             // A Linux distribution
             correctionAdd("fedora", "Fedora");
@@ -2322,11 +2337,6 @@ namespace OverflowHelper.core
             correctionAdd("Arch-Linux", "Arch Linux");
             correctionAdd("ArhLinux", "Arch Linux");
 
-            correctionAdd("pacman", "Pacman");
-            correctionAdd("packman", "Pacman");
-            correctionAdd("pakman", "Pacman");
-            correctionAdd("pac-man", "Pacman");
-
             // A Linux distribution
             correctionAdd("mint", "Linux Mint");
             correctionAdd("Linux mint", "Linux Mint");
@@ -2337,6 +2347,102 @@ namespace OverflowHelper.core
             correctionAdd("linux-mint", "Linux Mint");
 
             correctionAdd("Maya", "Linux Mint 13 (Maya)");
+
+            // A Linux distribution
+            correctionAdd("debian", "Debian");
+            correctionAdd("deb", "Debian");
+            correctionAdd("Debain", "Debian");
+            correctionAdd("debain", "Debian");
+            correctionAdd("DEBIAN", "Debian");
+
+            correctionAdd("Debian 5.0 (Lenny)", "Debian&nbsp;5.0 (Lenny)"); // Sort of identity mapping
+            correctionAdd("debian lenny", "Debian&nbsp;5.0 (Lenny)");
+            correctionAdd("lenny", "Debian&nbsp;5.0 (Lenny)");
+            correctionAdd("Lenny", "Debian&nbsp;5.0 (Lenny)");
+            correctionAdd("Debian 5.0", "Debian&nbsp;5.0 (Lenny)");
+
+            correctionAdd("Debian 6.0 (Squeeze)", "Debian&nbsp;6.0 (Squeeze)"); // Sort of identity mapping
+            correctionAdd("Squeeze", "Debian&nbsp;6.0 (Squeeze)");
+            correctionAdd("squeeze", "Debian&nbsp;6.0 (Squeeze)");
+            correctionAdd("Debian 6.0", "Debian&nbsp;6.0 (Squeeze)");
+            correctionAdd("Debian 6", "Debian&nbsp;6.0 (Squeeze)");
+            correctionAdd("debian 6", "Debian&nbsp;6.0 (Squeeze)");
+            correctionAdd("Debian Squeeze", "Debian&nbsp;6.0 (Squeeze)");
+            correctionAdd("debian squeeze", "Debian&nbsp;6.0 (Squeeze)");
+            correctionAdd("Debian&nbsp;6.0", "Debian&nbsp;6.0 (Squeeze)");
+            correctionAdd("Debian squeeze", "Debian&nbsp;6.0 (Squeeze)");
+
+            correctionAdd("Debian 7 (Wheezy)", "Debian&nbsp;7 (Wheezy)"); // Sort of identity mapping
+            correctionAdd("wheezy", "Debian&nbsp;7 (Wheezy)");
+            correctionAdd("Wheezy", "Debian&nbsp;7 (Wheezy)");
+            correctionAdd("Debian 7", "Debian&nbsp;7 (Wheezy)");
+            correctionAdd("debian 7", "Debian&nbsp;7 (Wheezy)");
+            correctionAdd("Debian Wheezy", "Debian&nbsp;7 (Wheezy)");
+            correctionAdd("debian wheezy", "Debian&nbsp;7 (Wheezy)");
+            correctionAdd("Debian&nbsp;7", "Debian&nbsp;7 (Wheezy)");
+            correctionAdd("Debian wheezy", "Debian&nbsp;7 (Wheezy)");
+
+            correctionAdd("Debian 8 (Jessie)", "Debian&nbsp;8 (Jessie)"); // Sort of identity mapping
+            correctionAdd("jessie", "Debian&nbsp;8 (Jessie)");
+            correctionAdd("Jessie", "Debian&nbsp;8 (Jessie)");
+            correctionAdd("Debian 8", "Debian&nbsp;8 (Jessie)");
+            correctionAdd("debian 8", "Debian&nbsp;8 (Jessie)");
+            correctionAdd("Debian Jessie", "Debian&nbsp;8 (Jessie)");
+            correctionAdd("Debian&nbsp;8", "Debian&nbsp;8 (Jessie)");
+            correctionAdd("debian jessie", "Debian&nbsp;8 (Jessie)");
+            correctionAdd("Debian-Jessie", "Debian&nbsp;8 (Jessie)");
+            correctionAdd("debian8", "Debian&nbsp;8 (Jessie)");
+            correctionAdd("debian-jessie", "Debian&nbsp;8 (Jessie)");
+            correctionAdd("8 Jessie", "Debian&nbsp;8 (Jessie)");
+            correctionAdd("Debian 8 Jessie", "Debian&nbsp;8 (Jessie)");
+            correctionAdd("8 \"Jessie\"", "Debian&nbsp;8 (Jessie)");
+            correctionAdd("Debian 8 \"Jessie\"", "Debian&nbsp;8 (Jessie)");
+
+            correctionAdd("Debian 9 (Stretch)", "Debian&nbsp;9 (Stretch)"); // Sort of identity mapping
+            correctionAdd("Debian 9", "Debian&nbsp;9 (Stretch)");
+            correctionAdd("Debian Stretch", "Debian&nbsp;9 (Stretch)");
+            correctionAdd("Stretch", "Debian&nbsp;9 (Stretch)");
+            correctionAdd("stretch", "Debian&nbsp;9 (Stretch)");
+            correctionAdd("debian stretch", "Debian&nbsp;9 (Stretch)");
+            correctionAdd("Debian stretch", "Debian&nbsp;9 (Stretch)");
+            correctionAdd("debian 9", "Debian&nbsp;9 (Stretch)");
+
+            correctionAdd("Debian 10 (Buster)", "Debian&nbsp;10 (Buster)");
+            correctionAdd("Debian&nbsp;10", "Debian&nbsp;10 (Buster)");
+            correctionAdd("Debian 10", "Debian&nbsp;10 (Buster)");
+            correctionAdd("Debian 10 Buster", "Debian&nbsp;10 (Buster)");
+            correctionAdd("Debian 10 \"Buster\"", "Debian&nbsp;10 (Buster)");
+            correctionAdd("Debian Buster", "Debian&nbsp;10 (Buster)");
+            correctionAdd("Debian buster", "Debian&nbsp;10 (Buster)");
+            correctionAdd("debian 10", "Debian&nbsp;10 (Buster)");
+
+            // Linux
+            correctionAdd("Debian 11 (Bullseye)", "Debian&nbsp;11 (Bullseye)"); // Sort of identity mapping
+            correctionAdd("Bullseye", "Debian&nbsp;11 (Bullseye)");
+            correctionAdd("Debian 11", "Debian&nbsp;11 (Bullseye)");
+            correctionAdd("debian 11", "Debian&nbsp;11 (Bullseye)");
+
+            // A Linux distribution for Raspberry Pi, based on Debian
+            correctionAdd("raspian", "Raspbian"); // Misspelling.
+            correctionAdd("raspbian", "Raspbian");
+            correctionAdd("rasbian", "Raspbian");
+            correctionAdd("RaspBian", "Raspbian");
+            correctionAdd("Raspian", "Raspbian");
+            correctionAdd("Rasbian", "Raspbian");
+            correctionAdd("Raspabian", "Raspbian");
+            correctionAdd("Rasbpian", "Raspbian");
+            correctionAdd("rasperian", "Raspbian");
+            correctionAdd("Raspberian", "Raspbian");
+            correctionAdd("raspbi", "Raspbian");
+            correctionAdd("RASPBIAN", "Raspbian");
+            correctionAdd("rasphian", "Raspbian"); // Misspelling.
+            correctionAdd("Raspberry Debian", "Raspbian");
+            correctionAdd("Raspain", "Raspbian"); // LOL
+
+            // Raspberry Pi
+            correctionAdd("Raspbian 10 (Buster)", "Raspbian&nbsp;10 (Buster)"); // Sort of identity mapping
+            correctionAdd("Buster", "Raspbian&nbsp;10 (Buster)"); // Note: Can be confused with "Debian&nbsp;10 (Buster)"
+            correctionAdd("raspbian buster", "Raspbian&nbsp;10 (Buster)");
 
             // A Linux distribution
             correctionAdd("ubuntu", "Ubuntu");
@@ -2359,17 +2465,6 @@ namespace OverflowHelper.core
             correctionAdd("Ubtu", "Ubuntu");
             correctionAdd("Uubntu", "Ubuntu");
             correctionAdd("ubantu", "Ubuntu");
-
-            correctionAdd("chrubuntu", "ChrUbuntu");
-
-            // Linux
-            correctionAdd("Ubuntu software center", "Ubuntu Software Center");
-            correctionAdd("usc", "Ubuntu Software Center");
-            correctionAdd("USC", "Ubuntu Software Center");
-            correctionAdd("Software Center", "Ubuntu Software Center");
-            correctionAdd("Ubuntu Software center", "Ubuntu Software Center");
-            correctionAdd("software center", "Ubuntu Software Center");
-            correctionAdd("software centre", "Ubuntu Software Center");
 
             correctionAdd("Ubuntu 7.10 (Gutsy Gibbon)", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)"); // Sort of identity mapping
             correctionAdd("Gutsy", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
@@ -2653,12 +2748,6 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu20", "Ubuntu&nbsp;20.04 (Focal Fossa)");
             correctionAdd("Ubuntu focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
 
-            correctionAdd("Ubuntu MATE", "Ubuntu&nbsp;MATE"); // Sort of identity mapping
-            correctionAdd("Ubuntu Mate", "Ubuntu&nbsp;MATE");
-            correctionAdd("ubuntu mate", "Ubuntu&nbsp;MATE");
-            correctionAdd("ubuntu Mate", "Ubuntu&nbsp;MATE");
-            correctionAdd("ubuntu manta", "Ubuntu&nbsp;MATE");
-
             correctionAdd("Ubuntu MATE 20.04 (Focal Fossa)", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)"); // Sort of identity mapping
             correctionAdd("Ubuntu 20.04 MATE", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
             correctionAdd("Ubuntu MATE 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
@@ -2670,6 +2759,15 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu 20.04 mate", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
             correctionAdd("mate 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
             correctionAdd("Ubuntu Mate 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+
+            correctionAdd("Ubuntu 20.10", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
+            correctionAdd("Ubuntu 20.10 (Groovy Gorilla)", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
+            correctionAdd("20.10", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
+
+            correctionAdd("21.04", "Ubuntu 21.04 (Hirsute Hippo)");
+            correctionAdd("Ubuntu 21.04", "Ubuntu 21.04 (Hirsute Hippo)");
+            correctionAdd("Hirsute Hippo", "Ubuntu 21.04 (Hirsute Hippo)");
+            correctionAdd("ubuntu 21.04", "Ubuntu 21.04 (Hirsute Hippo)");
 
             correctionAdd("Ubuntu 22.04 (Jammy Jellyfish)", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)"); // Sort of identity mapping
             correctionAdd("22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
@@ -2684,18 +2782,20 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
             correctionAdd("ubuntu22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
 
-            correctionAdd("Ubuntu 20.10", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
-            correctionAdd("Ubuntu 20.10 (Groovy Gorilla)", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
-            correctionAdd("20.10", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
+            // A Linux distribution
+            correctionAdd("chrubuntu", "ChrUbuntu");
 
-            correctionAdd("21.04", "Ubuntu 21.04 (Hirsute Hippo)");
-            correctionAdd("Ubuntu 21.04", "Ubuntu 21.04 (Hirsute Hippo)");
-            correctionAdd("Hirsute Hippo", "Ubuntu 21.04 (Hirsute Hippo)");
-            correctionAdd("ubuntu 21.04", "Ubuntu 21.04 (Hirsute Hippo)");
+            // A Linux distribution
+            correctionAdd("Ubuntu MATE", "Ubuntu&nbsp;MATE"); // Sort of identity mapping
+            correctionAdd("Ubuntu Mate", "Ubuntu&nbsp;MATE");
+            correctionAdd("ubuntu mate", "Ubuntu&nbsp;MATE");
+            correctionAdd("ubuntu Mate", "Ubuntu&nbsp;MATE");
+            correctionAdd("ubuntu manta", "Ubuntu&nbsp;MATE");
 
             // A Linux distribution
             correctionAdd("kubuntu", "Kubuntu");
             correctionAdd("KUbuntu", "Kubuntu");
+            correctionAdd("kUbuntu", "Kubuntu");
 
             // A Linux distribution
             correctionAdd("Kubuntu 20.04", "Kubuntu&nbsp;20.04 (Focal Fossa)");
@@ -2711,128 +2811,18 @@ namespace OverflowHelper.core
             correctionAdd("kali Linux", "Kali Linux");
             correctionAdd("kali-linux", "Kali Linux");
 
-            correctionAdd("unetbootin", "UNetbootin");
-            correctionAdd("Unetbootin", "UNetbootin");
-            correctionAdd("UnetBootin", "UNetbootin");
-            correctionAdd("uNetBootin", "UNetbootin");
-
+            // A Linux distribution
             correctionAdd("angstrom", "Ångström Linux");
             correctionAdd("angstrom linux", "Ångström Linux");
             correctionAdd("Angstrom Linux", "Ångström Linux");
             correctionAdd("Angstrom", "Ångström Linux");
 
-            correctionAdd("Linux Kernel", "Linux kernel");
-            correctionAdd("linux kernel", "Linux kernel");
-            correctionAdd("linux kernal", "Linux kernel");
-            correctionAdd("Linux kernal", "Linux kernel");
-            correctionAdd("Linux Kernal", "Linux kernel");
-
             // A Linux distribution
-            correctionAdd("debian", "Debian");
-            correctionAdd("deb", "Debian");
-            correctionAdd("Debain", "Debian");
-            correctionAdd("debain", "Debian");
-            correctionAdd("DEBIAN", "Debian");
-
-            // Linux
-            correctionAdd("DFSG", "Debian Free Software Guidelines");
-
-            correctionAdd("Debian 5.0 (Lenny)", "Debian&nbsp;5.0 (Lenny)"); // Sort of identity mapping
-            correctionAdd("debian lenny", "Debian&nbsp;5.0 (Lenny)");
-            correctionAdd("lenny", "Debian&nbsp;5.0 (Lenny)");
-            correctionAdd("Lenny", "Debian&nbsp;5.0 (Lenny)");
-            correctionAdd("Debian 5.0", "Debian&nbsp;5.0 (Lenny)");
-
-            correctionAdd("Debian 6.0 (Squeeze)", "Debian&nbsp;6.0 (Squeeze)"); // Sort of identity mapping
-            correctionAdd("Squeeze", "Debian&nbsp;6.0 (Squeeze)");
-            correctionAdd("squeeze", "Debian&nbsp;6.0 (Squeeze)");
-            correctionAdd("Debian 6.0", "Debian&nbsp;6.0 (Squeeze)");
-            correctionAdd("Debian 6", "Debian&nbsp;6.0 (Squeeze)");
-            correctionAdd("debian 6", "Debian&nbsp;6.0 (Squeeze)");
-            correctionAdd("Debian Squeeze", "Debian&nbsp;6.0 (Squeeze)");
-            correctionAdd("debian squeeze", "Debian&nbsp;6.0 (Squeeze)");
-            correctionAdd("Debian&nbsp;6.0", "Debian&nbsp;6.0 (Squeeze)");
-            correctionAdd("Debian squeeze", "Debian&nbsp;6.0 (Squeeze)");
-
-            correctionAdd("Debian 7 (Wheezy)", "Debian&nbsp;7 (Wheezy)"); // Sort of identity mapping
-            correctionAdd("wheezy", "Debian&nbsp;7 (Wheezy)");
-            correctionAdd("Wheezy", "Debian&nbsp;7 (Wheezy)");
-            correctionAdd("Debian 7", "Debian&nbsp;7 (Wheezy)");
-            correctionAdd("debian 7", "Debian&nbsp;7 (Wheezy)");
-            correctionAdd("Debian Wheezy", "Debian&nbsp;7 (Wheezy)");
-            correctionAdd("debian wheezy", "Debian&nbsp;7 (Wheezy)");
-            correctionAdd("Debian&nbsp;7", "Debian&nbsp;7 (Wheezy)");
-            correctionAdd("Debian wheezy", "Debian&nbsp;7 (Wheezy)");
-
-            correctionAdd("Debian 8 (Jessie)", "Debian&nbsp;8 (Jessie)"); // Sort of identity mapping
-            correctionAdd("jessie", "Debian&nbsp;8 (Jessie)");
-            correctionAdd("Jessie", "Debian&nbsp;8 (Jessie)");
-            correctionAdd("Debian 8", "Debian&nbsp;8 (Jessie)");
-            correctionAdd("debian 8", "Debian&nbsp;8 (Jessie)");
-            correctionAdd("Debian Jessie", "Debian&nbsp;8 (Jessie)");
-            correctionAdd("Debian&nbsp;8", "Debian&nbsp;8 (Jessie)");
-            correctionAdd("debian jessie", "Debian&nbsp;8 (Jessie)");
-            correctionAdd("Debian-Jessie", "Debian&nbsp;8 (Jessie)");
-            correctionAdd("debian8", "Debian&nbsp;8 (Jessie)");
-            correctionAdd("debian-jessie", "Debian&nbsp;8 (Jessie)");
-            correctionAdd("8 Jessie", "Debian&nbsp;8 (Jessie)");
-            correctionAdd("Debian 8 Jessie", "Debian&nbsp;8 (Jessie)");
-            correctionAdd("8 \"Jessie\"", "Debian&nbsp;8 (Jessie)");
-            correctionAdd("Debian 8 \"Jessie\"", "Debian&nbsp;8 (Jessie)");
-
-            correctionAdd("Debian 9 (Stretch)", "Debian&nbsp;9 (Stretch)"); // Sort of identity mapping
-            correctionAdd("Debian 9", "Debian&nbsp;9 (Stretch)");
-            correctionAdd("Debian Stretch", "Debian&nbsp;9 (Stretch)");
-            correctionAdd("Stretch", "Debian&nbsp;9 (Stretch)");
-            correctionAdd("stretch", "Debian&nbsp;9 (Stretch)");
-            correctionAdd("debian stretch", "Debian&nbsp;9 (Stretch)");
-            correctionAdd("Debian stretch", "Debian&nbsp;9 (Stretch)");
-            correctionAdd("debian 9", "Debian&nbsp;9 (Stretch)");
-
-            // Raspberry Pi
-            correctionAdd("Raspbian 10 (Buster)", "Raspbian&nbsp;10 (Buster)"); // Sort of identity mapping
-            correctionAdd("Buster", "Raspbian&nbsp;10 (Buster)"); // Note: Can be confused with "Debian&nbsp;10 (Buster)"
-            correctionAdd("raspbian buster", "Raspbian&nbsp;10 (Buster)");
-
-            correctionAdd("Debian 10 (Buster)", "Debian&nbsp;10 (Buster)");
-            correctionAdd("Debian&nbsp;10", "Debian&nbsp;10 (Buster)");
-            correctionAdd("Debian 10", "Debian&nbsp;10 (Buster)");
-            correctionAdd("Debian 10 Buster", "Debian&nbsp;10 (Buster)");
-            correctionAdd("Debian 10 \"Buster\"", "Debian&nbsp;10 (Buster)");
-            correctionAdd("Debian Buster", "Debian&nbsp;10 (Buster)");
-            correctionAdd("Debian buster", "Debian&nbsp;10 (Buster)");
-            correctionAdd("debian 10", "Debian&nbsp;10 (Buster)");
-
-            // Linux
-            correctionAdd("Debian 11 (Bullseye)", "Debian&nbsp;11 (Bullseye)"); // Sort of identity mapping
-            correctionAdd("Bullseye", "Debian&nbsp;11 (Bullseye)");
-            correctionAdd("Debian 11", "Debian&nbsp;11 (Bullseye)");
-            correctionAdd("debian 11", "Debian&nbsp;11 (Bullseye)");
-
             correctionAdd("bunsenlabs", "BunsenLabs (Debian Linux-based)");
             correctionAdd("Bunsen", "BunsenLabs (Debian Linux-based)");
+            correctionAdd("BunsenLabs", "BunsenLabs (Debian Linux-based)");
 
-            correctionAdd("dash", "Dash");
-            correctionAdd("DASH", "Dash");
-            correctionAdd("Debian Almquist Shell", "Dash");
-
-            // A Linux distribution for Raspberry Pi, based on Debian
-            correctionAdd("raspian", "Raspbian"); // Misspelling.
-            correctionAdd("raspbian", "Raspbian");
-            correctionAdd("rasbian", "Raspbian");
-            correctionAdd("RaspBian", "Raspbian");
-            correctionAdd("Raspian", "Raspbian");
-            correctionAdd("Rasbian", "Raspbian");
-            correctionAdd("Raspabian", "Raspbian");
-            correctionAdd("Rasbpian", "Raspbian");
-            correctionAdd("rasperian", "Raspbian");
-            correctionAdd("Raspberian", "Raspbian");
-            correctionAdd("raspbi", "Raspbian");
-            correctionAdd("RASPBIAN", "Raspbian");
-            correctionAdd("rasphian", "Raspbian"); // Misspelling.
-            correctionAdd("Raspberry Debian", "Raspbian");
-            correctionAdd("Raspain", "Raspbian"); // LOL
-
+            // A Linux distribution
             correctionAdd("alpine", "Alpine Linux");
             correctionAdd("alpine linux", "Alpine Linux");
             correctionAdd("Alpine", "Alpine Linux");
@@ -2853,6 +2843,7 @@ namespace OverflowHelper.core
             correctionAdd("linux from scratch", "Linux From Scratch");
             correctionAdd("Linux from scratch", "Linux From Scratch");
 
+            // A Linux distribution
             correctionAdd("Scientic Linux", "Scientific Linux");
             correctionAdd("scientic linux", "Scientific Linux");
             correctionAdd("scientic Linux", "Scientific Linux");
@@ -2861,6 +2852,12 @@ namespace OverflowHelper.core
             correctionAdd("SL", "Scientific Linux");
             correctionAdd("sl", "Scientific Linux");
 
+            // A Linux distribution
+            //
+            // Alternative URLs:
+            //
+            //   <https://distrowatch.com/table.php?distribution=arco>
+            //   <https://www.youtube.com/watch?v=X2nRnHo-lcM>
             correctionAdd("arcolinux", "ArcoLinux");
             correctionAdd("Agro Linux", "ArcoLinux");
             correctionAdd("Arco Linux", "ArcoLinux");
@@ -2871,34 +2868,33 @@ namespace OverflowHelper.core
             correctionAdd("manjaro", "Manjaro");
             correctionAdd("manjaro linux", "Manjaro");
 
+            // A Linux distribution
             correctionAdd("PC Linux OS", "PCLinuxOS");
 
+            // A Linux distribution
             correctionAdd("AntiX Linux", "antiX");
             correctionAdd("AntiX", "antiX");
             correctionAdd("antix", "antiX");
             correctionAdd("Antix", "antiX");
 
+            // A Linux distribution
             correctionAdd("Alma Linux", "AlmaLinux");
 
+            // A Linux distribution
             correctionAdd("Rocky", "Rocky Linux");
             correctionAdd("rockylinux", "Rocky Linux");
 
+            // A Linux distribution
             correctionAdd("OL", "Oracle Linux");
             correctionAdd("oracle linux", "Oracle Linux");
 
+            // A Linux distribution
             correctionAdd("ArtiX", "Artix Linux");
             correctionAdd("Artix", "Artix Linux");
             correctionAdd("artix", "Artix Linux");
 
+            // A Linux distribution
             correctionAdd("CloudLinux", "CloudLinux OS");
-
-            correctionAdd("Euro Linux", "EuroLinux");
-
-            correctionAdd("SLED", "SUSE Linux Enterprise");
-            correctionAdd("SLES", "SUSE Linux Enterprise");
-            correctionAdd("SLE", "SUSE Linux Enterprise");
-
-            correctionAdd("SpringdaleLinux", "Springdale Linux");
 
             // A Linux distribution
             correctionAdd("Endeavour OS", "EndeavourOS");
@@ -2917,25 +2913,28 @@ namespace OverflowHelper.core
             correctionAdd("Zero Linux", "XeroLinux");
             correctionAdd("xero", "XeroLinux");
 
-            correctionAdd("Yocto", "Yocto Project");
-            correctionAdd("Yocto Linux", "Yocto Project");
+            // A Linux distribution
+            correctionAdd("SpringdaleLinux", "Springdale Linux");
 
+            // A Linux distribution
             correctionAdd("Sparky Linux", "SparkyLinux");
 
             // A Linux distribution
             correctionAdd("KANOTIX", "Kanotix");
 
-            correctionAdd("SYSLINUX", "Syslinux");
-
+            // A Linux distribution
             correctionAdd("linux lite", "Linux Lite");
 
+            // A Linux distribution
             correctionAdd("Garuda", "Garuda Linux");
 
+            // A Linux distribution
             correctionAdd("void linux", "Void Linux");
 
             // A Linux distribution
             correctionAdd("endless OS", "Endless OS");
 
+            // A Linux distribution
             correctionAdd("Elementary OS", "elementary&nbsp;OS"); // Sort of identity mapping
             correctionAdd("elementary os", "elementary&nbsp;OS");
             correctionAdd("elementary OS", "elementary&nbsp;OS");
@@ -2946,6 +2945,7 @@ namespace OverflowHelper.core
             correctionAdd("Elementary&nbsp;OS", "elementary&nbsp;OS");
             correctionAdd("elementaryos", "elementary&nbsp;OS");
 
+            // A Linux distribution
             correctionAdd("centos", "CentOS");
             correctionAdd("Centos", "CentOS");
             correctionAdd("Cent OS", "CentOS");
@@ -2958,30 +2958,30 @@ namespace OverflowHelper.core
             correctionAdd("CentoS", "CentOS");
             correctionAdd("cent", "CentOS");
 
+            // A Linux distribution
             correctionAdd("nixos", "NixOS");
             correctionAdd("Nix OS", "NixOS");
             correctionAdd("Nix Os", "NixOS");
 
+            // A Linux distribution
             correctionAdd("peppermint", "Peppermint OS");
             correctionAdd("PeppermintOS", "Peppermint OS");
             correctionAdd("Peppermint", "Peppermint OS");
 
+            // A Linux distribution
             correctionAdd("zorin", "Zorin OS");
             correctionAdd("ZorinOS", "Zorin OS");
             correctionAdd("Zorin", "Zorin OS");
             correctionAdd("zorin os", "Zorin OS");
 
+            // A Linux distribution
             correctionAdd("ParrotOS", "Parrot OS");
             correctionAdd("parrot os", "Parrot OS");
             correctionAdd("parrot OS", "Parrot OS");
             correctionAdd("Parrot", "Parrot OS");
 
-            correctionAdd("Lineage OS", "LineageOS");
-
+            // A Linux distribution
             correctionAdd("pureos", "PureOS");
-
-            correctionAdd("iode OS", "iodéOS");
-            correctionAdd("iota OS", "iodéOS");
 
             // Effectively a Linux distribution
             correctionAdd("puppy linux", "Puppy Linux");
@@ -2990,8 +2990,90 @@ namespace OverflowHelper.core
             // A Linux distribution
             correctionAdd("moonlight", "Moonlight");
 
+            // A Linux package manager
+            correctionAdd("pacman", "Pacman");
+            correctionAdd("packman", "Pacman");
+            correctionAdd("pakman", "Pacman");
+            correctionAdd("pac-man", "Pacman");
+
+            // Linux
+            correctionAdd("Ubuntu software center", "Ubuntu Software Center");
+            correctionAdd("usc", "Ubuntu Software Center");
+            correctionAdd("USC", "Ubuntu Software Center");
+            correctionAdd("Software Center", "Ubuntu Software Center");
+            correctionAdd("Ubuntu Software center", "Ubuntu Software Center");
+            correctionAdd("software center", "Ubuntu Software Center");
+            correctionAdd("software centre", "Ubuntu Software Center");
+
+            correctionAdd("unetbootin", "UNetbootin");
+            correctionAdd("Unetbootin", "UNetbootin");
+            correctionAdd("UnetBootin", "UNetbootin");
+            correctionAdd("uNetBootin", "UNetbootin");
+
+            // Linux
+            correctionAdd("DFSG", "Debian Free Software Guidelines");
+
+            // Linux
+            correctionAdd("bash", "Bash");
+            correctionAdd("BASH", "Bash");
+            correctionAdd("bBsh", "Bash");
+            correctionAdd("Bourne-Again", "Bash");
+            correctionAdd("Bourne Again Shell", "Bash");
+            correctionAdd("B.A.S.H", "Bash"); // But it should really be ""B.A.S.H." (we currently can't accept something that ends in punctuation)
+
+            correctionAdd("man bash", "`man bash`");
+
+            // Linux
+            correctionAdd("bash_profile", ".bash_profile");
+            correctionAdd("bashprofile", ".bash_profile");
+            correctionAdd("bash profile", ".bash_profile");
+            correctionAdd(".bashprofile", ".bash_profile");
+
+            // Bash. Linux.
+            //
+            // Alternative URL: <https://bash.cyberciti.biz/guide/~/.bashrc>
+            correctionAdd("bashrc", ".bashrc file");
+            correctionAdd(".bashrc", ".bashrc file");
+            correctionAdd("bash_rc", ".bashrc file");
+            correctionAdd(".bash_rc", ".bashrc file");
+            correctionAdd(".bachrc", ".bashrc file");
+            correctionAdd(".bashrcs", ".bashrc file");
+            correctionAdd("~/.bashrc", ".bashrc file");
+
+            // Bash. Linux.
+            correctionAdd(".profile", ".profile file");
+            correctionAdd("~/.profile", ".profile file");
+
+            correctionAdd("dash", "Dash");
+            correctionAdd("DASH", "Dash");
+            correctionAdd("Debian Almquist Shell", "Dash");
+
+            // Linux
+            correctionAdd("Ash", "ash");
+            correctionAdd("Almquist", "ash");
+            correctionAdd("Almquist shell", "ash");
+
+            // An organisation
+            correctionAdd("Euro Linux", "EuroLinux");
+
+            // Support for developing Linux distributions
+            correctionAdd("Yocto", "Yocto Project");
+            correctionAdd("Yocto Linux", "Yocto Project");
+
+            // Bootloaders for Linux
+            correctionAdd("SYSLINUX", "Syslinux");
+
+            // An Android-based mobile operating system
+            correctionAdd("Lineage OS", "LineageOS");
+
+            // An Android-based mobile operating system
+            correctionAdd("iode OS", "iodéOS");
+            correctionAdd("iota OS", "iodéOS");
+
+            // An IT tool for configuration of operating systems
             correctionAdd("puppet", "Puppet");
 
+            // Unix
             correctionAdd("SUNOS", "SunOS");
             correctionAdd("sunos", "SunOS");
 
@@ -3108,6 +3190,8 @@ namespace OverflowHelper.core
             correctionAdd("USB 3", "USB&nbsp;3.0");
             correctionAdd("USB 3.0", "USB&nbsp;3.0");
 
+            correctionAdd("USB SS", "SuperSpeed USB");
+
             correctionAdd("Type A", "USB type-A plug");
             correctionAdd("USB Type-A", "USB type-A plug");
 
@@ -3130,6 +3214,12 @@ namespace OverflowHelper.core
             correctionAdd("MUTT", "Microsoft USB Test Tool");
 
             correctionAdd("URB", "USB Request Block");
+
+            correctionAdd("USBlyser", "USBlyzer");
+
+            correctionAdd("micro-USB", "Micro-USB");
+            correctionAdd("micro USB", "Micro-USB");
+            correctionAdd("MicroB USB", "Micro-USB");
 
             correctionAdd("USB 2.0 Low-Pin Interface", "ULPI");
             correctionAdd("UTMI+ Low Pin Interface", "ULPI");
@@ -3181,12 +3271,6 @@ namespace OverflowHelper.core
             correctionAdd("pen-drive", "USB flash drive");
             correctionAdd("usb flash drive", "USB flash drive");
             correctionAdd("Pendrive", "USB flash drive");
-
-            correctionAdd("USBlyser", "USBlyzer");
-
-            correctionAdd("micro-USB", "Micro-USB");
-            correctionAdd("micro USB", "Micro-USB");
-            correctionAdd("MicroB USB", "Micro-USB");
 
             correctionAdd("Slurm", "Slurm Workload Manager");
             correctionAdd("Simple Linux Utility for Resource Management", "Slurm Workload Manager");
@@ -3294,42 +3378,6 @@ namespace OverflowHelper.core
             correctionAdd("epoch time", "Epoch time");
             correctionAdd("EPOC", "Epoch time");
             correctionAdd("EPOC time", "Epoch time");
-
-            // Linux
-            correctionAdd("bash", "Bash");
-            correctionAdd("BASH", "Bash");
-            correctionAdd("bBsh", "Bash");
-            correctionAdd("Bourne-Again", "Bash");
-            correctionAdd("Bourne Again Shell", "Bash");
-            correctionAdd("B.A.S.H", "Bash"); // But it should really be ""B.A.S.H." (we currently can't accept something that ends in punctuation)
-
-            correctionAdd("man bash", "`man bash`");
-
-            // Linux
-            correctionAdd("Ash", "ash");
-            correctionAdd("Almquist", "ash");
-            correctionAdd("Almquist shell", "ash");
-
-            // Linux
-            correctionAdd("bash_profile", ".bash_profile");
-            correctionAdd("bashprofile", ".bash_profile");
-            correctionAdd("bash profile", ".bash_profile");
-            correctionAdd(".bashprofile", ".bash_profile");
-
-            // Bash. Linux.
-            //
-            // Alternative URL: <https://bash.cyberciti.biz/guide/~/.bashrc>
-            correctionAdd("bashrc", ".bashrc file");
-            correctionAdd(".bashrc", ".bashrc file");
-            correctionAdd("bash_rc", ".bashrc file");
-            correctionAdd(".bash_rc", ".bashrc file");
-            correctionAdd(".bachrc", ".bashrc file");
-            correctionAdd(".bashrcs", ".bashrc file");
-            correctionAdd("~/.bashrc", ".bashrc file");
-
-            // Bash. Linux.
-            correctionAdd(".profile", ".profile file");
-            correctionAdd("~/.profile", ".profile file");
 
             // Linux
             correctionAdd("Busybox", "BusyBox");
@@ -5024,6 +5072,7 @@ namespace OverflowHelper.core
 
             correctionAdd("mi", "me");
             correctionAdd("med", "me");
+            correctionAdd("mee", "me");
 
             correctionAdd("re-frame", "reframe");
 
@@ -12393,12 +12442,7 @@ namespace OverflowHelper.core
             correctionAdd("shopify", "Shopify");
             correctionAdd("Shopfiy", "Shopify");
 
-            correctionAdd("mathematica", "Mathematica");
-            correctionAdd("Mma", "Mathematica");
-            correctionAdd("Mathetmica", "Mathematica");
-            correctionAdd("Wolfarm Mathematica", "Mathematica");
-            correctionAdd("Wolfram Mathematica", "Mathematica");
-            correctionAdd("MMA", "Mathematica");
+            correctionAdd("Applied Math", "applied mathematics");
 
             correctionAdd("mathemathical", "mathematical");
             correctionAdd("mathematic", "mathematical");
@@ -12406,8 +12450,20 @@ namespace OverflowHelper.core
             correctionAdd("mathematicaly", "mathematically");
             correctionAdd("mathamaticaly", "mathematically");
 
+            correctionAdd("mathmatical", "mathmetical");
+
             correctionAdd("Mathematician", "mathematician");
             correctionAdd("mathematicien", "mathematician");
+
+            correctionAdd("STEM", "Science, technology, engineering, and mathematics");
+            correctionAdd("stem", "Science, technology, engineering, and mathematics");
+
+            correctionAdd("mathematica", "Mathematica");
+            correctionAdd("Mma", "Mathematica");
+            correctionAdd("Mathetmica", "Mathematica");
+            correctionAdd("Wolfarm Mathematica", "Mathematica");
+            correctionAdd("Wolfram Mathematica", "Mathematica");
+            correctionAdd("MMA", "Mathematica");
 
             correctionAdd("Mathjax", "MathJax");
             correctionAdd("mathjax", "MathJax");
@@ -12418,6 +12474,25 @@ namespace OverflowHelper.core
 
             correctionAdd("mathworks", "MathWorks");
             correctionAdd("Mathworks", "MathWorks");
+
+            correctionAdd("Biomathematics", "biomathematics");
+
+            correctionAdd("mehtod", "method");
+            correctionAdd("methood", "method");
+            correctionAdd("methode", "method");
+            correctionAdd("menthod", "method");
+            correctionAdd("Methodl", "method");
+            correctionAdd("methodl", "method");
+            correctionAdd("methof", "method");
+            correctionAdd("Method", "method");
+            correctionAdd("Mthod", "method");
+            correctionAdd("mthod", "method");
+            correctionAdd("methond", "method");
+            correctionAdd("mathod", "method");
+
+            correctionAdd("mater", "matter");
+            correctionAdd("metter", "matter");
+            correctionAdd("mather", "matter");
 
             correctionAdd("achademia", "academia");
             correctionAdd("achedemia", "academia");
@@ -14554,6 +14629,7 @@ namespace OverflowHelper.core
             // A type of crystal oscillator
             correctionAdd("OCXO", "oven-controlled crystal oscillator");
             correctionAdd("ovenized oscillators", "oven-controlled crystal oscillator");
+            correctionAdd("oven controlled crystal oscillator", "oven-controlled crystal oscillator");
 
             correctionAdd("Liquid Crystal", "liquid crystal");
             correctionAdd("Liquid crystal", "liquid crystal");
@@ -15789,6 +15865,20 @@ namespace OverflowHelper.core
             correctionAdd("Mouse", "mouse");
 
             correctionAdd("mis-use", "misuse");
+
+            correctionAdd("isssue", "issue");
+            correctionAdd("isqsues", "issue");
+            correctionAdd("issuse", "issue");
+            correctionAdd("Issue", "issue");
+
+            correctionAdd("mis-used", "misused");
+
+            correctionAdd("re-used", "reused");
+
+            correctionAdd("calculater", "calculator");
+            // Probably Australian misuse: It is actually for "computer".
+            // Ref. (<https://www.definitions.net/definition/confuser>)
+            correctionAdd("confuser", "calculator");
 
             correctionAdd("seperate", "separate");
             correctionAdd("separete", "separate");
@@ -17351,9 +17441,6 @@ namespace OverflowHelper.core
             correctionAdd("tweet deck", "TweetDeck");
 
             correctionAdd("bugzilla", "Bugzilla");
-
-            correctionAdd("STEM", "Science, technology, engineering, and mathematics");
-            correctionAdd("stem", "Science, technology, engineering, and mathematics");
 
             correctionAdd("Dry", "DRY");
             correctionAdd("dry", "DRY"); // Context dependent!
@@ -21208,6 +21295,12 @@ namespace OverflowHelper.core
 
             correctionAdd("dmz", "DMZ");
 
+            //correctionAdd("didn´", "didn’t");  We can't handle it at the
+            //                                   moment, due to the trailing
+            //                                   backtick being regarded as
+            //                                   punctuation by default, not
+            //                                   part of the word...
+            //
             correctionAdd("didnt", "didn’t");
             correctionAdd("didin't", "didn’t");
             correctionAdd("din't", "didn’t");
@@ -22112,6 +22205,7 @@ namespace OverflowHelper.core
             correctionAdd("souldn't", "shouldn’t");
             correctionAdd("shouldn't", "shouldn’t");
             correctionAdd("shuldnt", "shouldn’t");
+            correctionAdd("shuoldn't", "shouldn’t");
 
             correctionAdd("redux", "Redux");
             correctionAdd("REDUX", "Redux");
@@ -23917,6 +24011,7 @@ namespace OverflowHelper.core
             correctionAdd("Diac", "DIAC");
 
             correctionAdd("anoying", "annoying");
+            correctionAdd("anoing", "annoying");
 
             correctionAdd("mispell", "misspell");
 
@@ -27754,6 +27849,7 @@ namespace OverflowHelper.core
             correctionAdd("Bu", "but");
             correctionAdd("But", "but");
             correctionAdd("BUt", "but");
+            correctionAdd("buit", "but");
 
             correctionAdd("Century", "century");
 
@@ -28426,6 +28522,9 @@ namespace OverflowHelper.core
             correctionAdd("Zuckerberg", "Mark Zuckerberg");
             correctionAdd("Zuckerbook", "Mark Zuckerberg");
             correctionAdd("Zuk", "Mark Zuckerberg");
+
+            // Alternative URL: <https://www.nbcnews.com/tech/tech-news/zuckerberg-s-social-media-accounts-hacked-password-revealed-dadada-n586286>
+            correctionAdd("dadada", "The Zuck's password");
 
             correctionAdd("authorative", "authoritative");
             correctionAdd("athoritative", "authoritative");
@@ -32316,11 +32415,6 @@ namespace OverflowHelper.core
             correctionAdd("CAS", "computer algebra system");
             correctionAdd("cas", "computer algebra system");
 
-            correctionAdd("isssue", "issue");
-            correctionAdd("isqsues", "issue");
-            correctionAdd("issuse", "issue");
-            correctionAdd("Issue", "issue");
-
             correctionAdd("meaningfull", "meaningful");
 
             correctionAdd("sorey", "sorry");
@@ -34370,19 +34464,6 @@ namespace OverflowHelper.core
             correctionAdd("monte carlo", "Monte Carlo method");
             correctionAdd("monte-carlo", "Monte Carlo method");
 
-            correctionAdd("mehtod", "method");
-            correctionAdd("methood", "method");
-            correctionAdd("methode", "method");
-            correctionAdd("menthod", "method");
-            correctionAdd("Methodl", "method");
-            correctionAdd("methodl", "method");
-            correctionAdd("methof", "method");
-            correctionAdd("Method", "method");
-            correctionAdd("Mthod", "method");
-            correctionAdd("mthod", "method");
-            correctionAdd("methond", "method");
-            correctionAdd("mathod", "method");
-
             correctionAdd("methos", "methods");
             correctionAdd("metods", "methods");
 
@@ -36313,10 +36394,6 @@ namespace OverflowHelper.core
             correctionAdd("BS", "bovine fecal matter");
             correctionAdd("bullshit", "bovine fecal matter");
 
-            correctionAdd("mater", "matter");
-            correctionAdd("metter", "matter");
-            correctionAdd("mather", "matter");
-
             correctionAdd("persceptive", "perspective");
             correctionAdd("presceptive", "perspective");
 
@@ -37726,6 +37803,7 @@ namespace OverflowHelper.core
             correctionAdd("tesco", "Tesco");
 
             correctionAdd("back propogation", "backpropagation");
+            correctionAdd("backprop", "backpropagation");
 
             correctionAdd("icloud", "iCloud");
 
@@ -41879,6 +41957,7 @@ namespace OverflowHelper.core
 
             correctionAdd("accurracy", "accuracy");
             correctionAdd("Accuracy", "accuracy");
+            correctionAdd("accurancy", "accuracy");
 
             correctionAdd("sacing", "saving");
             correctionAdd("saciing", "saving");
@@ -42213,8 +42292,6 @@ namespace OverflowHelper.core
             correctionAdd("hase", "has");
 
             correctionAdd("lit", "literature");
-
-            correctionAdd("Tumbleweed", "openSUSE Tumbleweed");
 
             correctionAdd("PCA", "principal component analysis");
             correctionAdd("Principal Component Analysis", "principal component analysis");
@@ -42782,11 +42859,7 @@ namespace OverflowHelper.core
 
             correctionAdd("meagrely", "meagerly");
 
-            correctionAdd("mis-used", "misused");
-
             correctionAdd("quntity", "quantity");
-
-            correctionAdd("re-used", "reused");
 
             correctionAdd("rubber-stamp", "rubber stamp");
 
@@ -43622,11 +43695,6 @@ namespace OverflowHelper.core
             correctionAdd("Time of Useful Consciousness", "time of useful consciousness");
 
             correctionAdd("under counted", "undercounted");
-
-            correctionAdd("calculater", "calculator");
-            // Probably Australian misuse: It is actually for "computer".
-            // Ref. (<https://www.definitions.net/definition/confuser>)
-            correctionAdd("confuser", "calculator");
 
             correctionAdd("DietPI", "DietPi");
             correctionAdd("Diet-Pi", "DietPi");
@@ -44570,8 +44638,6 @@ namespace OverflowHelper.core
 
             correctionAdd("SF Mono", "San Francisco Mono");
 
-            correctionAdd("Applied Math", "applied mathematics");
-
             correctionAdd("SOCK", "SOCKS");
 
             correctionAdd("salvagable", "salvageable");
@@ -45143,8 +45209,6 @@ namespace OverflowHelper.core
             correctionAdd("KDE Applications Bundle", "KDE Gear");
 
             correctionAdd("tron", "TRON");
-
-            correctionAdd("Biomathematics", "biomathematics");
 
             correctionAdd("Complex number", "complex number");
 
@@ -47133,6 +47197,7 @@ namespace OverflowHelper.core
             correctionAdd("Gravity", "gravity");
 
             correctionAdd("perturbate", "perturb");
+            correctionAdd("preturb", "perturb");
 
             correctionAdd("B2 visa", "B-2 visa");
 
@@ -49184,6 +49249,7 @@ namespace OverflowHelper.core
             correctionAdd("right a way", "right away");
 
             correctionAdd("Symbolhound", "SymbolHound");
+            correctionAdd("symbolhound", "SymbolHound");
 
             correctionAdd("wild card", "wildcard");
 
@@ -49680,6 +49746,7 @@ namespace OverflowHelper.core
             correctionAdd("lubri date", "lubridate");
 
             correctionAdd("borkt", "borked");
+            correctionAdd("b0rked", "borked");
 
             correctionAdd("compelete", "completed");
             correctionAdd("Compleated", "completed");
@@ -50213,6 +50280,44 @@ namespace OverflowHelper.core
             correctionAdd("sourcefile", "source file");
 
             correctionAdd("victor yonokovich", "Viktor Yanukovych");
+
+            correctionAdd("co-developer", "codeveloper");
+            correctionAdd("co-dev", "codeveloper");
+
+            correctionAdd("Subversive", "Eclipse Subversive");
+
+            correctionAdd("intellectially", "intellectually");
+
+            correctionAdd("qsvn", "QSvn");
+
+            correctionAdd("rapidsvn", "RapidSVN");
+
+            correctionAdd("subclipse", "Subclipse");
+
+            correctionAdd("SyncrhoSVN", "Syncro SVN Client");
+
+            correctionAdd("alarm-clock", "alarm clock");
+
+            correctionAdd("Amazon ECS", "Amazon Elastic Container Service");
+            correctionAdd("ECS", "Amazon Elastic Container Service");
+
+            correctionAdd("BFF", "best friend forever");
+
+            correctionAdd("compenating", "compensating");
+
+            correctionAdd("drifed", "drifted");
+
+            correctionAdd("gattool", "gatttool");
+
+            correctionAdd("opinion based", "opinion-based");
+
+            correctionAdd("personell", "personel");
+
+            correctionAdd("whichcraft", "witchcraft");
+
+            correctionAdd("writswatch", "wristwatch");
+            correctionAdd("wrist watch", "wristwatch");
+            correctionAdd("wrist-watch", "wristwatch");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -78239,6 +78344,46 @@ namespace OverflowHelper.core
 
             URL_Add("Viktor Yanukovych", "https://en.wikipedia.org/wiki/Viktor_Yanukovych");
 
+            URL_Add("codeveloper", "https://en.wiktionary.org/wiki/codeveloper#Noun");
+
+            URL_Add("Eclipse Subversive", "https://en.wikipedia.org/wiki/Comparison_of_Subversion_clients#Descriptions");
+
+            URL_Add("intellectually", "https://en.wiktionary.org/wiki/intellectually#Adverb");
+
+            URL_Add("QSvn", "https://en.wikipedia.org/wiki/QSvn");
+
+            URL_Add("RapidSVN", "https://en.wikipedia.org/wiki/RapidSVN");
+
+            URL_Add("Subclipse", "https://github.com/subclipse/subclipse");
+
+            URL_Add("Syncro SVN Client", "https://svnclient.oxygenxml.com/");
+
+            URL_Add("alarm clock", "https://en.wiktionary.org/wiki/alarm_clock#Noun");
+
+            URL_Add("Amazon Elastic Container Service", "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html");
+
+            URL_Add("best friend forever", "https://en.wiktionary.org/wiki/BFF#Noun");
+
+            URL_Add("compensating", "https://en.wiktionary.org/wiki/compensate#Verb");
+
+            URL_Add("drifted", "https://en.wiktionary.org/wiki/drift#Verb");
+
+            URL_Add("gatttool", "https://www.man.page/1/gatttool");
+
+            URL_Add("mathmetical", "https://en.wiktionary.org/wiki/mathematical#Adjective");
+
+            URL_Add("opinion-based", "https://meta.stackexchange.com/questions/184154");
+
+            URL_Add("personel", "https://en.wiktionary.org/wiki/personnel#Noun");
+
+            URL_Add("SuperSpeed USB", "https://en.wikipedia.org/wiki/USB_3.0#Overview");
+
+            URL_Add("The Zuck's password", "https://en.wikipedia.org/wiki/Wikipedia:10,000_most_common_passwords#Top_100");
+
+            URL_Add("witchcraft", "https://en.wiktionary.org/wiki/witchcraft#Noun");
+
+            URL_Add("wristwatch", "https://en.wiktionary.org/wiki/wristwatch#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -78618,6 +78763,14 @@ namespace OverflowHelper.core
             correctionAdd("BMP_", "Basic Multilingual Plane_");
             correctionAdd("basic multilingual plane_", "Basic Multilingual Plane_");
 
+            correctionAdd("Mathematics_", "mathematics_");
+            correctionAdd("maths_", "mathematics_");
+            correctionAdd("math_", "mathematics_");
+            correctionAdd("Mathmatics_", "mathematics_");
+            correctionAdd("mathmatics_", "mathematics_");
+            correctionAdd("Mathemetics_", "mathematics_");
+            correctionAdd("Maths_", "mathematics_");
+
             correctionAdd("User Experience_", "User Experience (Stack Exchange site)_");
             correctionAdd("UX_", "User Experience (Stack Exchange site)_");
             correctionAdd("UX Stack Exchange_", "User Experience (Stack Exchange site)_");
@@ -78662,14 +78815,6 @@ namespace OverflowHelper.core
             correctionAdd("Mathematica site_", "Mathematica (Stack Exchange site)_");
             correctionAdd("Mathematica SE_", "Mathematica (Stack Exchange site)_");
             correctionAdd("Mathematica_", "Mathematica (Stack Exchange site)_"); // Sort of identity mapping
-
-            correctionAdd("Mathematics_", "mathematics_");
-            correctionAdd("maths_", "mathematics_");
-            correctionAdd("math_", "mathematics_");
-            correctionAdd("Mathmatics_", "mathematics_");
-            correctionAdd("mathmatics_", "mathematics_");
-            correctionAdd("Mathemetics_", "mathematics_");
-            correctionAdd("Maths_", "mathematics_");
 
             correctionAdd("Physics SE_", "Physics (Stack Exchange site)_");
             correctionAdd("physics SE_", "Physics (Stack Exchange site)_");
