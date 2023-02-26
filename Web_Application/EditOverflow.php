@@ -98,6 +98,7 @@
             $headerLevelIndent = "        ";
             $baseIndent        = "$headerLevelIndent        ";
             $EOL_andBaseIndent = "\n$baseIndent";
+            $EOL_andBaseIndent_sub = "\n    $baseIndent";;
 
 
             # The only input field in the start HTML page
@@ -626,7 +627,7 @@
                         $startDivWithIndent =
                           "$EOL_andBaseIndent" .
                           "<div>" .
-                          $EOL_andBaseIndent;
+                          $EOL_andBaseIndent_sub;
                         $endDivWithIndent =
                           "$EOL_andBaseIndent" .
                           "</div>" .
@@ -634,10 +635,8 @@
 
                         echo $startDivWithIndent;
                         echo
-                          "$EOL_andBaseIndent" .
                           "<strong>Could not look up \"$lookUpTerm\"!" .
-                          "</strong>" .
-                          $EOL_andBaseIndent;
+                          "</strong>";
                         echo $endDivWithIndent;
 
                         echo $startDivWithIndent;
@@ -655,22 +654,45 @@
                         #  ">Look up on <strong>W</strong>ikipedia</a>" .
                         #  $EOL_andBaseIndent;
 
-                        $linkText = "Look up on <strong>W</strong>ikipedia";
+                        #Hint turned off while it is broken (see below).
+                        #$linkText = "Look up on <strong>W</strong>ikipedia";
+                        $linkText = "Look up on Wikipedia";
 
-                        $URL = "https://duckduckgo.com/html/?q=" .
+                        $WikipediaSearch_URL = "https://duckduckgo.com/html/?q=" .
                                 "Wikipedia%20$lookUpTerm"
                                 ;
                         $extraAttributes =
-                          $EOL_andBaseIndent .
-                          "   accesskey=\"W\"$EOL_andBaseIndent" .
-                          "   title=\"Shortcut: Shift + Alt + V\"" . $EOL_andBaseIndent
+
+                          #Turned off while it is broken (both
+                          #inconsistent ('W' vs. 'V') and
+                          #conflicts with  another
+                          #keyboard shortcut)
+                          #$EOL_andBaseIndent_sub .
+                          #"   accesskey=\"W\"$EOL_andBaseIndent_sub" .
+                          #"   title=\"Shortcut: Shift + Alt + V\"" .
+                          $EOL_andBaseIndent_sub
                           ;
 
+                        #Though it should probably be encoded
+                        #somehow (for example, spaces)...
+                        $Wikipedia_URL_constructed =
+                            "https://en.wikipedia.org/wiki/$lookUpTerm";
+
+                        $WiktionarySearch_URL =
+                            "https://duckduckgo.com/html/?q=" .
+                            "Wiktionary%20$lookUpTerm";
+
+                        #Though it should probably be encoded
+                        #somehow (for example, spaces)...
+                        $Wiktionary_URL_constructed =
+                            "https://en.wiktionary.org/wiki/$lookUpTerm";
+
                         $linkPart = get_HTMLlink($linkText,
-                                                  $URL,
+                                                  $WikipediaSearch_URL,
                                                   $extraAttributes);
 
-                        echo $linkPart . $EOL_andBaseIndent;
+                        #echo $EOL_andBaseIndent_sub;
+                        echo $linkPart . "\n" . $EOL_andBaseIndent_sub;
 
                         # Provide a link to look up the term on Wiktionary
                         #echo
@@ -684,17 +706,41 @@
 
                         echo
                           get_HTMLlink(
-                              "Look up on Wi<strong>k</strong>tionary",
+                              #Hint turned off while it is broken
+                              #(conflicts with another keyboard
+                              #shortcut).
+                              #"Look up on Wi<strong>k</strong>tionary",
+                              "Look up on Wiktionary",
 
-                              "https://duckduckgo.com/html/?q=" .
-                                "Wiktionary%20$lookUpTerm",
-
-                              $EOL_andBaseIndent .
-                              "   accesskey=\"K\"$EOL_andBaseIndent" .
-                              "   title=\"Shortcut: Shift + Alt + K\"" .
-                              $EOL_andBaseIndent
+                              $WiktionarySearch_URL,
+                              #Turned off while it is broken (conflicts
+                              #with another keyboard shortcut)
+                              #$EOL_andBaseIndent_sub .
+                              #"   accesskey=\"K\"$EOL_andBaseIndent_sub" .
+                              #"   title=\"Shortcut: Shift + Alt + K\"" .
+                              $EOL_andBaseIndent_sub
                           ) .
-                          $EOL_andBaseIndent;
+                          "\n" . $EOL_andBaseIndent_sub;
+
+                        # Constructed URLs for Wikipedia and
+                        # Wiktionary (that may or may not
+                        # lead to a usable page).
+                        echo
+                          get_HTMLlink(
+                              "Wikipedia (constructed)",
+                              $Wikipedia_URL_constructed,
+                              $EOL_andBaseIndent_sub
+                          ) .
+                          "\n" . $EOL_andBaseIndent_sub;
+                        echo
+                          get_HTMLlink(
+                              "Wiktionary (constructed)",
+                              $Wiktionary_URL_constructed,
+                              $EOL_andBaseIndent_sub
+                          ) .
+                          ""; # Empty because it is the last of the
+                              # four links (to avoid an empty line
+                              # in the HTML source).
 
                         echo $endDivWithIndent;
 
