@@ -1055,6 +1055,7 @@ namespace OverflowHelper.core
             correctionAdd("GNUmakefile", "Makefile");
             correctionAdd("GNU makefile", "Makefile");
 
+            // A version control system
             correctionAdd("git", "Git");
             correctionAdd("GIT", "Git");
             correctionAdd("GiT", "Git");
@@ -1275,6 +1276,68 @@ namespace OverflowHelper.core
 
             correctionAdd("GitBox", "Gitbox");
 
+            // A version control system
+            correctionAdd("subversion", "Subversion");
+            correctionAdd("SubVersion", "Subversion");
+            correctionAdd("SVN", "Subversion");
+            correctionAdd("svn", "Subversion");
+            correctionAdd("Svn", "Subversion");
+            correctionAdd("subersion", "Subversion");
+            correctionAdd("sub version", "Subversion");
+            correctionAdd("SUBVERSION", "Subversion");
+
+            // A Subversion client
+            correctionAdd("smartsvn", "SmartSVN");
+
+            // A Subversion client
+            correctionAdd("Tortoisesvn", "TortoiseSVN");
+            correctionAdd("Tortoise svn", "TortoiseSVN");
+            correctionAdd("Tortoise SVN", "TortoiseSVN");
+            correctionAdd("Tortoise", "TortoiseSVN"); // Most common - could also be TortoiseCVS, TortoiseGit, TortoiseBzr and TortoiseHg.
+            correctionAdd("tortise", "TortoiseSVN"); // Most common - could also be TortoiseCVS, TortoiseGit, TortoiseBzr and TortoiseHg.
+            correctionAdd("tortoise", "TortoiseSVN"); // Most common - could also be TortoiseCVS, TortoiseGit, TortoiseBzr and TortoiseHg.
+            correctionAdd("tortoiseSVN", "TortoiseSVN");
+            correctionAdd("tortoise SVN", "TortoiseSVN");
+            correctionAdd("tortoisesvn", "TortoiseSVN");
+            correctionAdd("tortoise svn", "TortoiseSVN");
+            correctionAdd("TSVN", "TortoiseSVN");
+            correctionAdd("tsvn", "TortoiseSVN");
+            correctionAdd("TSvn", "TortoiseSVN");
+            correctionAdd("Tortiose SVN", "TortoiseSVN");
+            correctionAdd("TortoiseSvn", "TortoiseSVN");
+            correctionAdd("tortoiseSvn", "TortoiseSVN");
+            correctionAdd("ToritiseSVN", "TortoiseSVN"); // Misspelling.
+            correctionAdd("tortiseSVN", "TortoiseSVN");
+            correctionAdd("Tortoise-SVN", "TortoiseSVN");
+            correctionAdd("tortise-SVN", "TortoiseSVN");
+            correctionAdd("torotoisesvn", "TortoiseSVN");
+            correctionAdd("TORTOISE SVN", "TortoiseSVN");
+            correctionAdd("svn tortoise", "TortoiseSVN");
+            correctionAdd("tortoisSVN", "TortoiseSVN");
+            correctionAdd("TortiseSVN", "TortoiseSVN");
+            //correctionAdd("tortise", "TortoiseSVN");
+
+            // A Subversion client
+            correctionAdd("VisualSvn", "VisualSVN");
+
+            // A Subversion client
+            correctionAdd("Slik", "SlikSVN");
+
+            // A Subversion client
+            correctionAdd("Subversive", "Eclipse Subversive");
+
+            // A Subversion client
+            correctionAdd("qsvn", "QSvn");
+
+            // A Subversion client
+            correctionAdd("rapidsvn", "RapidSVN");
+
+            // A Subversion client
+            correctionAdd("subclipse", "Subclipse");
+
+            // A Subversion client
+            correctionAdd("SyncrhoSVN", "Syncro SVN Client");
+
             correctionAdd("java", "Java");
             correctionAdd("JAVA", "Java");
             correctionAdd("Jave", "Java");
@@ -1471,6 +1534,210 @@ namespace OverflowHelper.core
 
             // A Java chip (IC)
             correctionAdd("ajile", "Ajile");
+
+            correctionAdd("amazon", "Amazon DOT com"); // The name is actually Amazon.com, but we have reasons not to use something that looks like a URL...
+            correctionAdd("Amazon", "Amazon DOT com");
+            correctionAdd("amazon.com", "Amazon DOT com");
+            correctionAdd("AMZN", "Amazon DOT com");
+            correctionAdd("amzon", "Amazon DOT com");
+
+            correctionAdd("Amazon aws", "Amazon AWS");
+            correctionAdd("aws", "Amazon AWS");
+            correctionAdd("AWS", "Amazon AWS");
+            correctionAdd("Amazon Web Services", "Amazon AWS");
+            correctionAdd("amazon AWS", "Amazon AWS");
+            correctionAdd("amazon aws", "Amazon AWS");
+            correctionAdd("Aws", "Amazon AWS");
+            correctionAdd("amazon-web-services", "Amazon AWS");
+
+            correctionAdd("amazon s3", "Amazon S3");
+            correctionAdd("AmazonS3", "Amazon S3");
+            correctionAdd("s3", "Amazon S3");
+            correctionAdd("S3", "Amazon S3");
+            correctionAdd("Amazon EC3", "Amazon S3");
+            correctionAdd("Amazon s3", "Amazon S3");
+            correctionAdd("AWS s3", "Amazon S3"); // S3 is more specific - is part of AWS
+            correctionAdd("amazon S3", "Amazon S3");
+            correctionAdd("amazon-s3", "Amazon S3");
+            correctionAdd("aws-s3", "Amazon S3");
+            correctionAdd("aws s3", "Amazon S3");
+            correctionAdd("S3 Amazon", "Amazon S3");
+
+            correctionAdd("AWS Code Pipeline", "AWS CodePipeline");
+
+            correctionAdd("IAM", "AWS Identity and Access Management");
+            correctionAdd("AWS AMI", "AWS Identity and Access Management");
+            correctionAdd("AWS IAM", "AWS Identity and Access Management");
+
+            correctionAdd("Lambda", "AWS Lambda");
+            correctionAdd("AWS lambda", "AWS Lambda");
+
+            correctionAdd("Amazon AWS SNS", "Amazon SNS");
+            correctionAdd("SNS", "Amazon SNS");
+            correctionAdd("sns", "Amazon SNS");
+            correctionAdd("Amazon Simple Notification Service", "Amazon SNS");
+
+            correctionAdd("Redshift", "Amazon Redshift");
+            correctionAdd("AWS redshift", "Amazon Redshift");
+            correctionAdd("AWS Redshift", "Amazon Redshift");
+
+            correctionAdd("Amazon EKS", "Amazon Elastic Kubernetes Service");
+            correctionAdd("eks", "Amazon Elastic Kubernetes Service");
+            correctionAdd("EKS", "Amazon Elastic Kubernetes Service");
+            correctionAdd("AWS EKS", "Amazon Elastic Kubernetes Service");
+
+            correctionAdd("cloudformation", "AWS CloudFormation");
+            correctionAdd("aws cloudformation", "AWS CloudFormation");
+            correctionAdd("cloud formation", "AWS CloudFormation");
+
+            correctionAdd("AWS amplify", "AWS Amplify");
+            correctionAdd("aws-amplify", "AWS Amplify");
+            correctionAdd("Amplify", "AWS Amplify");
+
+            correctionAdd("AWS CLI", "AWS Command Line Interface");
+            correctionAdd("aws cli", "AWS Command Line Interface");
+            correctionAdd("awscli", "AWS Command Line Interface");
+
+            correctionAdd("elastic beanstalk", "AWS Elastic Beanstalk");
+            correctionAdd("EB", "AWS Elastic Beanstalk");
+            correctionAdd("Elastic Beanstalk", "AWS Elastic Beanstalk");
+            correctionAdd("eb", "AWS Elastic Beanstalk");
+            correctionAdd("Beanstalk", "AWS Elastic Beanstalk");
+            correctionAdd("beanstalk", "AWS Elastic Beanstalk");
+
+            correctionAdd("ECR", "Amazon Elastic Container Registry");
+
+            correctionAdd("rds", "Amazon RDS");
+            correctionAdd("RDS", "Amazon RDS");
+            correctionAdd("amazon RDS", "Amazon RDS");
+
+            correctionAdd("amazon ec2", "Amazon EC2");
+            correctionAdd("ec2", "Amazon EC2");
+            correctionAdd("EC2", "Amazon EC2");
+            correctionAdd("amazon EC2", "Amazon EC2");
+            correctionAdd("Ec2", "Amazon EC2");
+            correctionAdd("Amazon ec2", "Amazon EC2");
+
+            correctionAdd("cloudfront", "Amazon CloudFront");
+            correctionAdd("CloudFront", "Amazon CloudFront");
+            correctionAdd("Cloudfront", "Amazon CloudFront");
+
+            correctionAdd("Amazon Simple Queue Service", "Amazon SQS");
+            correctionAdd("SQS", "Amazon SQS");
+            correctionAdd("sqs", "Amazon SQS");
+
+            correctionAdd("alexa", "Amazon Alexa");
+            correctionAdd("Alexa", "Amazon Alexa");
+
+            correctionAdd("Ion", "Amazon Ion");
+
+            correctionAdd("Amazon ECS", "Amazon Elastic Container Service");
+            correctionAdd("ECS", "Amazon Elastic Container Service");
+
+            correctionAdd("cloudwatch", "Amazon CloudWatch");
+            correctionAdd("CloudWatch", "Amazon CloudWatch");
+            correctionAdd("Cloudwatch", "Amazon CloudWatch");
+
+            correctionAdd("SES", "Amazon SES");
+
+            correctionAdd("Amazon Sagemaker", "Amazon SageMaker");
+            correctionAdd("sagemaker", "Amazon SageMaker");
+
+            correctionAdd("Api Gateway", "Amazon API Gateway");
+            correctionAdd("API Gateway", "Amazon API Gateway");
+
+            correctionAdd("aweosme", "awesome");
+            correctionAdd("aswesome", "awesome");
+            correctionAdd("awsome", "awesome");
+
+            correctionAdd("font awesome", "Font Awesome");
+            correctionAdd("FontAwesome", "Font Awesome");
+            correctionAdd("fontawsome", "Font Awesome");
+            correctionAdd("font-awesome", "Font Awesome");
+
+            correctionAdd("ohm's law", "Ohm's law");
+            correctionAdd("Ohm law", "Ohm's law");
+            correctionAdd("ohm law", "Ohm's law");
+            correctionAdd("Ohm’s Law", "Ohm's law");
+            correctionAdd("Ohm's Law", "Ohm's law");
+            correctionAdd("ohms law", "Ohm's law");
+            correctionAdd("Ohms law", "Ohm's law");
+            correctionAdd("Ohmn's law", "Ohm's law");
+            correctionAdd("ohms laws", "Ohm's law");
+            correctionAdd("ohm's laws", "Ohm's law");
+
+            correctionAdd("De Morgans laws", "De Morgan's laws");
+            correctionAdd("De Morgan's law", "De Morgan's laws");
+
+            // But it depends on context. E.g., there are other areas
+            // where it refers to, e.g., black-body radiation.
+            correctionAdd("Kirchhoff's law", "Kirchhoff circuit laws");
+            correctionAdd("Kirchoff's Law", "Kirchhoff circuit laws");
+            correctionAdd("Kirkoff", "Kirchhoff circuit laws");
+            correctionAdd("Kirkoff Law", "Kirchhoff circuit laws");
+            correctionAdd("Kirchoff's law", "Kirchhoff circuit laws");
+            correctionAdd("Kirchoff's", "Kirchhoff circuit laws");
+            correctionAdd("Kirchoff", "Kirchhoff circuit laws");
+            correctionAdd("kirchoff", "Kirchhoff circuit laws");
+            correctionAdd("kirchhoff", "Kirchhoff circuit laws");
+            correctionAdd("Kirkhoff", "Kirchhoff circuit laws");
+            correctionAdd("kirkhoff", "Kirchhoff circuit laws");
+            correctionAdd("kirkhhoff", "Kirchhoff circuit laws");
+            correctionAdd("kirchof", "Kirchhoff circuit laws");
+            correctionAdd("Kirchoffs", "Kirchhoff circuit laws");
+            correctionAdd("kirchoffs", "Kirchhoff circuit laws");
+            correctionAdd("Kirkoff's", "Kirchhoff circuit laws");
+            correctionAdd("kirkoff's", "Kirchhoff circuit laws");
+            correctionAdd("kirkoff", "Kirchhoff circuit laws");
+            correctionAdd("Kirkoffs", "Kirchhoff circuit laws");
+            correctionAdd("kirkoffs", "Kirchhoff circuit laws");
+            correctionAdd("Kirchhoff's", "Kirchhoff circuit laws");
+            correctionAdd("Kirchhoffs", "Kirchhoff circuit laws");
+            correctionAdd("kirchhoffs", "Kirchhoff circuit laws");
+            correctionAdd("kirchhoff's", "Kirchhoff circuit laws");
+            correctionAdd("Kirchhoff's laws", "Kirchhoff circuit laws");
+            correctionAdd("KCL", "Kirchhoff circuit laws");
+            correctionAdd("kcl", "Kirchhoff circuit laws");
+            correctionAdd("Kirchhoff law", "Kirchhoff circuit laws");
+            correctionAdd("Kirchhoffs Law", "Kirchhoff circuit laws");
+            correctionAdd("Kirchhoff Circuit Laws", "Kirchhoff circuit laws");
+
+            correctionAdd("newton raphson", "Newton–Raphson");
+            correctionAdd("Newton's method", "Newton–Raphson");
+            correctionAdd("newton's method", "Newton–Raphson");
+
+            correctionAdd("Newtons first law of motion", "Newton's first law of motion");
+            correctionAdd("newton's first law", "Newton's first law of motion");
+            correctionAdd("Newton's first law", "Newton's first law of motion");
+            correctionAdd("Newton's First Law", "Newton's first law of motion");
+
+            correctionAdd("Newton's 2nd law", "Newton's second law of motion");
+            correctionAdd("Newtons second law of motion", "Newton's second law of motion");
+            correctionAdd("Newton's Second Law", "Newton's second law of motion");
+            correctionAdd("newton's second law", "Newton's second law of motion");
+            correctionAdd("Newton's second law", "Newton's second law of motion");
+            correctionAdd("Newtons II law", "Newton's second law of motion");
+
+            correctionAdd("Newton's Third Law", "Newton's third law of motion");
+
+            correctionAdd("newtons laws", "Newton's laws of motion");
+            correctionAdd("Newton's Laws of Motion", "Newton's laws of motion");
+            correctionAdd("Newton laws", "Newton's laws of motion");
+            correctionAdd("Newton's laws", "Newton's laws of motion");
+
+            correctionAdd("Newtons's law of gravitation", "Newton's law of universal gravitation");
+
+            correctionAdd("Fick's law", "Fick's laws");
+
+            correctionAdd("answeres", "answers");
+            correctionAdd("aswers", "answers");
+            correctionAdd("awsers", "answers");
+            correctionAdd("anwsers", "answers");
+            correctionAdd("Answsers", "answers");
+            correctionAdd("answsers", "answers");
+
+            correctionAdd("lawsi", "lousy");
+            correctionAdd("lawsy", "lousy");
 
             correctionAdd("slime", "SLIME");
 
@@ -2078,10 +2345,6 @@ namespace OverflowHelper.core
             correctionAdd("josm", "JOSM");
 
             correctionAdd("cosmetolegy", "cosmetology");
-
-            correctionAdd("aweosme", "awesome");
-            correctionAdd("aswesome", "awesome");
-            correctionAdd("awsome", "awesome");
 
             correctionAdd("cmb", "cosmic microwave background");
             correctionAdd("CMB", "cosmic microwave background");
@@ -5058,11 +5321,6 @@ namespace OverflowHelper.core
 
             correctionAdd("be come", "become");
 
-            correctionAdd("font awesome", "Font Awesome");
-            correctionAdd("FontAwesome", "Font Awesome");
-            correctionAdd("fontawsome", "Font Awesome");
-            correctionAdd("font-awesome", "Font Awesome");
-
             correctionAdd("MaterialIcon", "Material Icons");
 
             correctionAdd("vlume", "volume");
@@ -7232,6 +7490,54 @@ namespace OverflowHelper.core
             correctionAdd("bookface", "Facebook");
             correctionAdd("Fakebook", "Facebook");
 
+            correctionAdd("graph api", "Graph API"); // Part of the Facebook Platform.
+            correctionAdd("graph API", "Graph API"); // Part of the Facebook Platform.
+            correctionAdd("Graph api", "Graph API"); // Part of the Facebook Platform.
+            correctionAdd("Graph Api", "Graph API"); // Part of the Facebook Platform.
+            correctionAdd("GRAPH API", "Graph API"); // Part of the Facebook Platform.
+            correctionAdd("graphAPI", "Graph API"); // Part of the Facebook Platform.
+            correctionAdd("Graph-api", "Graph API"); // Part of the Facebook Platform.
+            correctionAdd("graph-api", "Graph API"); // Part of the Facebook Platform.
+            correctionAdd("Facebook Graph", "Graph API"); // Part of the Facebook Platform.
+            correctionAdd("Facebook Graph API", "Graph API"); // Part of the Facebook Platform.
+            correctionAdd("graph.facebook api", "Graph API"); // Part of the Facebook Platform.
+            correctionAdd("graph.facebook", "Graph API"); // Part of the Facebook Platform.
+            correctionAdd("GraphAPI", "Graph API");
+
+            correctionAdd("facebook connect", "Facebook Connect");
+            correctionAdd("Facebook connect", "Facebook Connect");
+            correctionAdd("FBConnect", "Facebook Connect");
+            correctionAdd("FB Connect", "Facebook Connect");
+            correctionAdd("fb-connect", "Facebook Connect");
+            correctionAdd("fconnect", "Facebook Connect");
+            correctionAdd("FB connect", "Facebook Connect");
+            correctionAdd("fb connect", "Facebook Connect");
+
+            // Facebook
+            correctionAdd("Mark Zuckaberg", "Mark Zuckerberg");
+            correctionAdd("mark zuckerburg", "Mark Zuckerberg");
+            correctionAdd("zuckerturd", "Mark Zuckerberg");
+            correctionAdd("zuck", "Mark Zuckerberg");
+            correctionAdd("The Zuck", "Mark Zuckerberg");
+            correctionAdd("Zuckenberg", "Mark Zuckerberg");
+            correctionAdd("Zuckerberg", "Mark Zuckerberg");
+            correctionAdd("Zuckerbook", "Mark Zuckerberg");
+            correctionAdd("Zuk", "Mark Zuckerberg");
+
+            // Weak passwords. Facebook.
+            //
+            // Alternative URL: <https://www.nbcnews.com/tech/tech-news/zuckerberg-s-social-media-accounts-hacked-password-revealed-dadada-n586286>
+            correctionAdd("dadada", "The Zuck's password");
+
+            correctionAdd("Messenger", "Facebook Messenger");
+            correctionAdd("messenger", "Facebook Messenger");
+            correctionAdd("messanger", "Facebook Messenger");
+            correctionAdd("messender", "Facebook Messenger");
+            correctionAdd("facebook messenger", "Facebook Messenger");
+            correctionAdd("Facebook messenger", "Facebook Messenger");
+
+            correctionAdd("Metaverse", "Facebook Metaverse");
+
             correctionAdd("eBook", "e-book");
             correctionAdd("e book", "e-book");
             correctionAdd("ebook", "e-book");
@@ -9183,8 +9489,6 @@ namespace OverflowHelper.core
             correctionAdd("Single line", "singleline");
             correctionAdd("single line", "singleline");
 
-            correctionAdd("AWS Code Pipeline", "AWS CodePipeline");
-
             correctionAdd("photoshop", "Photoshop");
             correctionAdd("Adobe Photoshop", "Photoshop"); // Shorten...
             correctionAdd("Ps", "Photoshop");
@@ -10519,48 +10823,6 @@ namespace OverflowHelper.core
             correctionAdd("Vps", "VPS");
             correctionAdd("PVS", "VPS");
             correctionAdd("pvs", "VPS");
-
-            correctionAdd("subversion", "Subversion");
-            correctionAdd("SubVersion", "Subversion");
-            correctionAdd("SVN", "Subversion");
-            correctionAdd("svn", "Subversion");
-            correctionAdd("Svn", "Subversion");
-            correctionAdd("subersion", "Subversion");
-            correctionAdd("sub version", "Subversion");
-            correctionAdd("SUBVERSION", "Subversion");
-
-            correctionAdd("smartsvn", "SmartSVN");
-
-            correctionAdd("Tortoisesvn", "TortoiseSVN");
-            correctionAdd("Tortoise svn", "TortoiseSVN");
-            correctionAdd("Tortoise SVN", "TortoiseSVN");
-            correctionAdd("Tortoise", "TortoiseSVN"); // Most common - could also be TortoiseCVS, TortoiseGit, TortoiseBzr and TortoiseHg.
-            correctionAdd("tortise", "TortoiseSVN"); // Most common - could also be TortoiseCVS, TortoiseGit, TortoiseBzr and TortoiseHg.
-            correctionAdd("tortoise", "TortoiseSVN"); // Most common - could also be TortoiseCVS, TortoiseGit, TortoiseBzr and TortoiseHg.
-            correctionAdd("tortoiseSVN", "TortoiseSVN");
-            correctionAdd("tortoise SVN", "TortoiseSVN");
-            correctionAdd("tortoisesvn", "TortoiseSVN");
-            correctionAdd("tortoise svn", "TortoiseSVN");
-            correctionAdd("TSVN", "TortoiseSVN");
-            correctionAdd("tsvn", "TortoiseSVN");
-            correctionAdd("TSvn", "TortoiseSVN");
-            correctionAdd("Tortiose SVN", "TortoiseSVN");
-            correctionAdd("TortoiseSvn", "TortoiseSVN");
-            correctionAdd("tortoiseSvn", "TortoiseSVN");
-            correctionAdd("ToritiseSVN", "TortoiseSVN"); // Misspelling.
-            correctionAdd("tortiseSVN", "TortoiseSVN");
-            correctionAdd("Tortoise-SVN", "TortoiseSVN");
-            correctionAdd("tortise-SVN", "TortoiseSVN");
-            correctionAdd("torotoisesvn", "TortoiseSVN");
-            correctionAdd("TORTOISE SVN", "TortoiseSVN");
-            correctionAdd("svn tortoise", "TortoiseSVN");
-            correctionAdd("tortoisSVN", "TortoiseSVN");
-            correctionAdd("TortiseSVN", "TortoiseSVN");
-            //correctionAdd("tortise", "TortoiseSVN");
-
-            correctionAdd("VisualSvn", "VisualSVN");
-
-            correctionAdd("Slik", "SlikSVN");
 
             correctionAdd("tortoisehg", "TortoiseHg");
             correctionAdd("Tortoise HG", "TortoiseHg");
@@ -12476,6 +12738,10 @@ namespace OverflowHelper.core
             correctionAdd("Mathworks", "MathWorks");
 
             correctionAdd("Biomathematics", "biomathematics");
+
+            // Mathematics
+            correctionAdd("fields medal", "Fields Medal");
+            correctionAdd("Field's Medal", "Fields Medal");
 
             correctionAdd("mehtod", "method");
             correctionAdd("methood", "method");
@@ -14746,6 +15012,13 @@ namespace OverflowHelper.core
             correctionAdd("Blutooth", "Bluetooth");
             correctionAdd("blutooth", "Bluetooth");
 
+            // DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+            ////////////////////////////////////////////////////////////////
+            correctionAdd("BLE", "Bluetooth LE");
+
+            // Bluetooth. A Linux tool.
+            correctionAdd("gattool", "gatttool");
+
             correctionAdd("xbox", "Xbox");
             correctionAdd("XBox", "Xbox");
             correctionAdd("XBOX", "Xbox");
@@ -16134,10 +16407,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ucanacess", "UCanAccess");
 
-            correctionAdd("IAM", "AWS Identity and Access Management");
-            correctionAdd("AWS AMI", "AWS Identity and Access Management");
-            correctionAdd("AWS IAM", "AWS Identity and Access Management");
-
             correctionAdd("sftp", "SFTP");
             correctionAdd("sFTP", "SFTP");
 
@@ -17176,8 +17445,6 @@ namespace OverflowHelper.core
 
             correctionAdd("reentry", "re-entry");
 
-            correctionAdd("ECR", "Amazon Elastic Container Registry");
-
             correctionAdd("Spectrophotometry", "spectrophotometry");
 
             correctionAdd("Industry", "industry");
@@ -17726,45 +17993,6 @@ namespace OverflowHelper.core
             correctionAdd("B64", "Base64");
             correctionAdd("bas64", "Base64");
 
-            correctionAdd("rds", "Amazon RDS");
-            correctionAdd("RDS", "Amazon RDS");
-            correctionAdd("amazon RDS", "Amazon RDS");
-
-            correctionAdd("amazon ec2", "Amazon EC2");
-            correctionAdd("ec2", "Amazon EC2");
-            correctionAdd("EC2", "Amazon EC2");
-            correctionAdd("amazon EC2", "Amazon EC2");
-            correctionAdd("Ec2", "Amazon EC2");
-            correctionAdd("Amazon ec2", "Amazon EC2");
-
-            correctionAdd("amazon s3", "Amazon S3");
-            correctionAdd("AmazonS3", "Amazon S3");
-            correctionAdd("s3", "Amazon S3");
-            correctionAdd("S3", "Amazon S3");
-            correctionAdd("Amazon EC3", "Amazon S3");
-            correctionAdd("Amazon s3", "Amazon S3");
-            correctionAdd("AWS s3", "Amazon S3"); // S3 is more specific - is part of AWS
-            correctionAdd("amazon S3", "Amazon S3");
-            correctionAdd("amazon-s3", "Amazon S3");
-            correctionAdd("aws-s3", "Amazon S3");
-            correctionAdd("aws s3", "Amazon S3");
-            correctionAdd("S3 Amazon", "Amazon S3");
-
-            correctionAdd("Amazon aws", "Amazon AWS");
-            correctionAdd("aws", "Amazon AWS");
-            correctionAdd("AWS", "Amazon AWS");
-            correctionAdd("Amazon Web Services", "Amazon AWS");
-            correctionAdd("amazon AWS", "Amazon AWS");
-            correctionAdd("amazon aws", "Amazon AWS");
-            correctionAdd("Aws", "Amazon AWS");
-            correctionAdd("amazon-web-services", "Amazon AWS");
-
-            correctionAdd("amazon", "Amazon DOT com"); // The name is actually Amazon.com, but we have reasons not to use something that looks like a URL...
-            correctionAdd("Amazon", "Amazon DOT com");
-            correctionAdd("amazon.com", "Amazon DOT com");
-            correctionAdd("AMZN", "Amazon DOT com");
-            correctionAdd("amzon", "Amazon DOT com");
-
             correctionAdd("Etc", "etc.");
             correctionAdd("ETC", "etc.");
             correctionAdd("et cetera", "etc.");
@@ -17896,20 +18124,6 @@ namespace OverflowHelper.core
 
             correctionAdd("tkinter", "Tkinter");
             correctionAdd("TKinter", "Tkinter");
-
-            correctionAdd("graph api", "Graph API"); // Part of the Facebook Platform.
-            correctionAdd("graph API", "Graph API"); // Part of the Facebook Platform.
-            correctionAdd("Graph api", "Graph API"); // Part of the Facebook Platform.
-            correctionAdd("Graph Api", "Graph API"); // Part of the Facebook Platform.
-            correctionAdd("GRAPH API", "Graph API"); // Part of the Facebook Platform.
-            correctionAdd("graphAPI", "Graph API"); // Part of the Facebook Platform.
-            correctionAdd("Graph-api", "Graph API"); // Part of the Facebook Platform.
-            correctionAdd("graph-api", "Graph API"); // Part of the Facebook Platform.
-            correctionAdd("Facebook Graph", "Graph API"); // Part of the Facebook Platform.
-            correctionAdd("Facebook Graph API", "Graph API"); // Part of the Facebook Platform.
-            correctionAdd("graph.facebook api", "Graph API"); // Part of the Facebook Platform.
-            correctionAdd("graph.facebook", "Graph API"); // Part of the Facebook Platform.
-            correctionAdd("GraphAPI", "Graph API");
 
             correctionAdd("CanOpen", "CANopen");
             correctionAdd("CANOpen", "CANopen");
@@ -23020,10 +23234,6 @@ namespace OverflowHelper.core
             correctionAdd("bottem", "bottom");
             correctionAdd("btwn", "bottom");
 
-            // DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
-            ////////////////////////////////////////////////////////////////
-            correctionAdd("BLE", "Bluetooth LE");
-
             correctionAdd("cmakelist", "CMakeLists.txt");
             correctionAdd("CMakeLists", "CMakeLists.txt");
             correctionAdd("cmakelists.txt", "CMakeLists.txt");
@@ -25501,10 +25711,6 @@ namespace OverflowHelper.core
             correctionAdd("Stucked", "stuck");
             correctionAdd("sticked", "stuck");
 
-            correctionAdd("cloudfront", "Amazon CloudFront");
-            correctionAdd("CloudFront", "Amazon CloudFront");
-            correctionAdd("Cloudfront", "Amazon CloudFront");
-
             correctionAdd("flutter", "Flutter");
             correctionAdd("Fludder", "Flutter");
 
@@ -26249,17 +26455,6 @@ namespace OverflowHelper.core
 
             correctionAdd("transparancy", "transparency");
             correctionAdd("transperancy", "transparency");
-
-            correctionAdd("ohm's law", "Ohm's law");
-            correctionAdd("Ohm law", "Ohm's law");
-            correctionAdd("ohm law", "Ohm's law");
-            correctionAdd("Ohm’s Law", "Ohm's law");
-            correctionAdd("Ohm's Law", "Ohm's law");
-            correctionAdd("ohms law", "Ohm's law");
-            correctionAdd("Ohms law", "Ohm's law");
-            correctionAdd("Ohmn's law", "Ohm's law");
-            correctionAdd("ohms laws", "Ohm's law");
-            correctionAdd("ohm's laws", "Ohm's law");
 
             correctionAdd("pii", "PII");
 
@@ -27815,9 +28010,6 @@ namespace OverflowHelper.core
 
             correctionAdd("bbs", "BBS");
 
-            correctionAdd("De Morgans laws", "De Morgan's laws");
-            correctionAdd("De Morgan's law", "De Morgan's laws");
-
             correctionAdd("duemilanove", "Duemilanove");
 
             correctionAdd("emi", "EMI");
@@ -27861,15 +28053,6 @@ namespace OverflowHelper.core
             correctionAdd("code snipet", "code snippet");
             correctionAdd("code snipper", "code snippet");
             correctionAdd("code snippit", "code snippet");
-
-            correctionAdd("facebook connect", "Facebook Connect");
-            correctionAdd("Facebook connect", "Facebook Connect");
-            correctionAdd("FBConnect", "Facebook Connect");
-            correctionAdd("FB Connect", "Facebook Connect");
-            correctionAdd("fb-connect", "Facebook Connect");
-            correctionAdd("fconnect", "Facebook Connect");
-            correctionAdd("FB connect", "Facebook Connect");
-            correctionAdd("fb connect", "Facebook Connect");
 
             correctionAdd("connnect", "connect");
             correctionAdd("conenct", "connect");
@@ -28512,19 +28695,6 @@ namespace OverflowHelper.core
             correctionAdd("meager", "meagre");
 
             correctionAdd("arpa", "ARPA");
-
-            correctionAdd("Mark Zuckaberg", "Mark Zuckerberg");
-            correctionAdd("mark zuckerburg", "Mark Zuckerberg");
-            correctionAdd("zuckerturd", "Mark Zuckerberg");
-            correctionAdd("zuck", "Mark Zuckerberg");
-            correctionAdd("The Zuck", "Mark Zuckerberg");
-            correctionAdd("Zuckenberg", "Mark Zuckerberg");
-            correctionAdd("Zuckerberg", "Mark Zuckerberg");
-            correctionAdd("Zuckerbook", "Mark Zuckerberg");
-            correctionAdd("Zuk", "Mark Zuckerberg");
-
-            // Alternative URL: <https://www.nbcnews.com/tech/tech-news/zuckerberg-s-social-media-accounts-hacked-password-revealed-dadada-n586286>
-            correctionAdd("dadada", "The Zuck's password");
 
             correctionAdd("authorative", "authoritative");
             correctionAdd("athoritative", "authoritative");
@@ -32438,10 +32608,6 @@ namespace OverflowHelper.core
             correctionAdd("`k-means` clustering", "k-means clustering");
             correctionAdd("k means clustering", "k-means clustering");
 
-            correctionAdd("AWS amplify", "AWS Amplify");
-            correctionAdd("aws-amplify", "AWS Amplify");
-            correctionAdd("Amplify", "AWS Amplify");
-
             correctionAdd("Algorithmic", "algorithmic");
 
             correctionAdd("assocciation", "association");
@@ -32910,16 +33076,6 @@ namespace OverflowHelper.core
 
             correctionAdd("variaton", "variation");
             correctionAdd("varition", "variation");
-
-            correctionAdd("Messenger", "Facebook Messenger");
-            correctionAdd("messenger", "Facebook Messenger");
-            correctionAdd("messanger", "Facebook Messenger");
-            correctionAdd("messender", "Facebook Messenger");
-            correctionAdd("facebook messenger", "Facebook Messenger");
-            correctionAdd("Facebook messenger", "Facebook Messenger");
-
-            correctionAdd("fields medal", "Fields Medal");
-            correctionAdd("Field's Medal", "Fields Medal");
 
             correctionAdd("Singapur", "Singapore");
             correctionAdd("Singapure", "Singapore");
@@ -34808,39 +34964,6 @@ namespace OverflowHelper.core
             correctionAdd("surrend", "surrender");
 
             correctionAdd("julia", "Julia");
-
-            // But it depends on context. E.g., there are other areas
-            // where it refers to, e.g., black-body radiation.
-            correctionAdd("Kirchhoff's law", "Kirchhoff circuit laws");
-            correctionAdd("Kirchoff's Law", "Kirchhoff circuit laws");
-            correctionAdd("Kirkoff", "Kirchhoff circuit laws");
-            correctionAdd("Kirkoff Law", "Kirchhoff circuit laws");
-            correctionAdd("Kirchoff's law", "Kirchhoff circuit laws");
-            correctionAdd("Kirchoff's", "Kirchhoff circuit laws");
-            correctionAdd("Kirchoff", "Kirchhoff circuit laws");
-            correctionAdd("kirchoff", "Kirchhoff circuit laws");
-            correctionAdd("kirchhoff", "Kirchhoff circuit laws");
-            correctionAdd("Kirkhoff", "Kirchhoff circuit laws");
-            correctionAdd("kirkhoff", "Kirchhoff circuit laws");
-            correctionAdd("kirkhhoff", "Kirchhoff circuit laws");
-            correctionAdd("kirchof", "Kirchhoff circuit laws");
-            correctionAdd("Kirchoffs", "Kirchhoff circuit laws");
-            correctionAdd("kirchoffs", "Kirchhoff circuit laws");
-            correctionAdd("Kirkoff's", "Kirchhoff circuit laws");
-            correctionAdd("kirkoff's", "Kirchhoff circuit laws");
-            correctionAdd("kirkoff", "Kirchhoff circuit laws");
-            correctionAdd("Kirkoffs", "Kirchhoff circuit laws");
-            correctionAdd("kirkoffs", "Kirchhoff circuit laws");
-            correctionAdd("Kirchhoff's", "Kirchhoff circuit laws");
-            correctionAdd("Kirchhoffs", "Kirchhoff circuit laws");
-            correctionAdd("kirchhoffs", "Kirchhoff circuit laws");
-            correctionAdd("kirchhoff's", "Kirchhoff circuit laws");
-            correctionAdd("Kirchhoff's laws", "Kirchhoff circuit laws");
-            correctionAdd("KCL", "Kirchhoff circuit laws");
-            correctionAdd("kcl", "Kirchhoff circuit laws");
-            correctionAdd("Kirchhoff law", "Kirchhoff circuit laws");
-            correctionAdd("Kirchhoffs Law", "Kirchhoff circuit laws");
-            correctionAdd("Kirchhoff Circuit Laws", "Kirchhoff circuit laws");
 
             correctionAdd("tails", "Tails");
 
@@ -36953,31 +37076,6 @@ namespace OverflowHelper.core
 
             correctionAdd("iceland", "Iceland");
 
-            correctionAdd("newton raphson", "Newton–Raphson");
-            correctionAdd("Newton's method", "Newton–Raphson");
-            correctionAdd("newton's method", "Newton–Raphson");
-
-            correctionAdd("Newtons first law of motion", "Newton's first law of motion");
-            correctionAdd("newton's first law", "Newton's first law of motion");
-            correctionAdd("Newton's first law", "Newton's first law of motion");
-            correctionAdd("Newton's First Law", "Newton's first law of motion");
-
-            correctionAdd("Newton's 2nd law", "Newton's second law of motion");
-            correctionAdd("Newtons second law of motion", "Newton's second law of motion");
-            correctionAdd("Newton's Second Law", "Newton's second law of motion");
-            correctionAdd("newton's second law", "Newton's second law of motion");
-            correctionAdd("Newton's second law", "Newton's second law of motion");
-            correctionAdd("Newtons II law", "Newton's second law of motion");
-
-            correctionAdd("Newton's Third Law", "Newton's third law of motion");
-
-            correctionAdd("newtons laws", "Newton's laws of motion");
-            correctionAdd("Newton's Laws of Motion", "Newton's laws of motion");
-            correctionAdd("Newton laws", "Newton's laws of motion");
-            correctionAdd("Newton's laws", "Newton's laws of motion");
-
-            correctionAdd("Newtons's law of gravitation", "Newton's law of universal gravitation");
-
             correctionAdd("ttl", "TTL");
 
             correctionAdd("Wolfram Alpha", "WolframAlpha");
@@ -37210,18 +37308,6 @@ namespace OverflowHelper.core
             correctionAdd("thowing", "throwing");
             correctionAdd("Trowing", "throwing");
             correctionAdd("trowing", "throwing");
-
-            correctionAdd("Lambda", "AWS Lambda");
-            correctionAdd("AWS lambda", "AWS Lambda");
-
-            correctionAdd("Amazon AWS SNS", "Amazon SNS");
-            correctionAdd("SNS", "Amazon SNS");
-            correctionAdd("sns", "Amazon SNS");
-            correctionAdd("Amazon Simple Notification Service", "Amazon SNS");
-
-            correctionAdd("Amazon Simple Queue Service", "Amazon SQS");
-            correctionAdd("SQS", "Amazon SQS");
-            correctionAdd("sqs", "Amazon SQS");
 
             correctionAdd("bare-word", "bareword");
 
@@ -39079,13 +39165,6 @@ namespace OverflowHelper.core
             correctionAdd("snap", "Snap package");
             correctionAdd("Snap", "Snap package");
 
-            correctionAdd("answeres", "answers");
-            correctionAdd("aswers", "answers");
-            correctionAdd("awsers", "answers");
-            correctionAdd("anwsers", "answers");
-            correctionAdd("Answsers", "answers");
-            correctionAdd("answsers", "answers");
-
             correctionAdd("cath", "catch");
 
             correctionAdd("ilu", "incomplete LU factorization");
@@ -39164,9 +39243,6 @@ namespace OverflowHelper.core
             correctionAdd("sterialised", "sterilised");
 
             correctionAdd("world-wide", "worldwide");
-
-            correctionAdd("alexa", "Amazon Alexa");
-            correctionAdd("Alexa", "Amazon Alexa");
 
             correctionAdd("3DES", "Triple DES");
             correctionAdd("3des", "Triple DES");
@@ -39887,8 +39963,6 @@ namespace OverflowHelper.core
 
             correctionAdd("jahia", "Jahia");
 
-            correctionAdd("Ion", "Amazon Ion");
-
             correctionAdd("byobu", "Byobu");
 
             correctionAdd("gson", "Gson");
@@ -40482,10 +40556,6 @@ namespace OverflowHelper.core
 
             correctionAdd("weasely", "weaselly");
 
-            correctionAdd("Redshift", "Amazon Redshift");
-            correctionAdd("AWS redshift", "Amazon Redshift");
-            correctionAdd("AWS Redshift", "Amazon Redshift");
-
             correctionAdd("memored", "Memored");
 
             correctionAdd("deccelerated", "decelerated");
@@ -40719,11 +40789,6 @@ namespace OverflowHelper.core
             correctionAdd("Pass", "platform as a service");
 
             correctionAdd("dis-service", "disservice");
-
-            correctionAdd("Amazon EKS", "Amazon Elastic Kubernetes Service");
-            correctionAdd("eks", "Amazon Elastic Kubernetes Service");
-            correctionAdd("EKS", "Amazon Elastic Kubernetes Service");
-            correctionAdd("AWS EKS", "Amazon Elastic Kubernetes Service");
 
             correctionAdd("MURS", "Multi-Use Radio Service");
 
@@ -41962,10 +42027,6 @@ namespace OverflowHelper.core
             correctionAdd("sacing", "saving");
             correctionAdd("saciing", "saving");
 
-            correctionAdd("cloudwatch", "Amazon CloudWatch");
-            correctionAdd("CloudWatch", "Amazon CloudWatch");
-            correctionAdd("Cloudwatch", "Amazon CloudWatch");
-
             correctionAdd("Airtel", "Bharti Airtel");
             correctionAdd("airtel", "Bharti Airtel");
 
@@ -42211,8 +42272,6 @@ namespace OverflowHelper.core
 
             correctionAdd("craig", "Craig Wright");
             correctionAdd("Craig", "Craig Wright");
-
-            correctionAdd("Metaverse", "Facebook Metaverse");
 
             correctionAdd("jinja", "Jinja");
 
@@ -43276,8 +43335,6 @@ namespace OverflowHelper.core
 
             correctionAdd("visualizeable", "visualizable");
 
-            correctionAdd("SES", "Amazon SES");
-
             correctionAdd("DomainKeys Identified Mail", "DKIM");
 
             correctionAdd("fourier series", "Fourier series");
@@ -43901,8 +43958,6 @@ namespace OverflowHelper.core
 
             correctionAdd("WKT", "well-known text");
 
-            correctionAdd("Fick's law", "Fick's laws");
-
             correctionAdd("build-system", "build system");
 
             correctionAdd("FFWD", "fast forward");
@@ -44078,10 +44133,6 @@ namespace OverflowHelper.core
 
             correctionAdd("parallelize", "parallelise");
             correctionAdd("parallize", "parallelise");
-
-            correctionAdd("AWS CLI", "AWS Command Line Interface");
-            correctionAdd("aws cli", "AWS Command Line Interface");
-            correctionAdd("awscli", "AWS Command Line Interface");
 
             correctionAdd("cross-section", "cross section");
             correctionAdd("crossection", "cross section");
@@ -44695,13 +44746,6 @@ namespace OverflowHelper.core
 
             correctionAdd("unsuccessfull", "unsuccessful");
             correctionAdd("unsuccesful", "unsuccessful");
-
-            correctionAdd("cloudformation", "AWS CloudFormation");
-            correctionAdd("aws cloudformation", "AWS CloudFormation");
-            correctionAdd("cloud formation", "AWS CloudFormation");
-
-            correctionAdd("Amazon Sagemaker", "Amazon SageMaker");
-            correctionAdd("sagemaker", "Amazon SageMaker");
 
             correctionAdd("Banglore", "Bangalore");
             correctionAdd("bangalore", "Bangalore");
@@ -47672,9 +47716,6 @@ namespace OverflowHelper.core
 
             correctionAdd("consists in", "consists of");
 
-            correctionAdd("Api Gateway", "Amazon API Gateway");
-            correctionAdd("API Gateway", "Amazon API Gateway");
-
             correctionAdd("Cockpit", "cockpit");
 
             correctionAdd("copy constr", "copy constructor");
@@ -47957,13 +47998,6 @@ namespace OverflowHelper.core
 
             correctionAdd("attachted", "attached");
 
-            correctionAdd("elastic beanstalk", "AWS Elastic Beanstalk");
-            correctionAdd("EB", "AWS Elastic Beanstalk");
-            correctionAdd("Elastic Beanstalk", "AWS Elastic Beanstalk");
-            correctionAdd("eb", "AWS Elastic Beanstalk");
-            correctionAdd("Beanstalk", "AWS Elastic Beanstalk");
-            correctionAdd("beanstalk", "AWS Elastic Beanstalk");
-
             correctionAdd("face-saving", "facesaving");
             correctionAdd("face saving", "facesaving");
 
@@ -48181,9 +48215,6 @@ namespace OverflowHelper.core
 
             correctionAdd("LEFT join", "left outer join");
             correctionAdd("left join", "left outer join");
-
-            correctionAdd("lawsi", "lousy");
-            correctionAdd("lawsy", "lousy");
 
             correctionAdd("Prompt Engineering", "prompt engineering");
 
@@ -50284,30 +50315,15 @@ namespace OverflowHelper.core
             correctionAdd("co-developer", "codeveloper");
             correctionAdd("co-dev", "codeveloper");
 
-            correctionAdd("Subversive", "Eclipse Subversive");
-
             correctionAdd("intellectially", "intellectually");
 
-            correctionAdd("qsvn", "QSvn");
-
-            correctionAdd("rapidsvn", "RapidSVN");
-
-            correctionAdd("subclipse", "Subclipse");
-
-            correctionAdd("SyncrhoSVN", "Syncro SVN Client");
-
             correctionAdd("alarm-clock", "alarm clock");
-
-            correctionAdd("Amazon ECS", "Amazon Elastic Container Service");
-            correctionAdd("ECS", "Amazon Elastic Container Service");
 
             correctionAdd("BFF", "best friend forever");
 
             correctionAdd("compenating", "compensating");
 
             correctionAdd("drifed", "drifted");
-
-            correctionAdd("gattool", "gatttool");
 
             correctionAdd("opinion based", "opinion-based");
 
