@@ -2445,8 +2445,8 @@ mv  $WORKFOLDER/WordLookupTests.cs                $WORKFOLDER/WordLookupTests.cs
 
 # ###########################################################################
 #
-# C# compile check, etc. Separate (and a requisite) for doing
-# successful exports
+# C# compile check, etc. Separate (and a requisite)
+# for doing successful exports
 #
 startOfBuildStep "30" "C# compilation and sanity check"
 
