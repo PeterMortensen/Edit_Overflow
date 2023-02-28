@@ -1230,6 +1230,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Gitkraken", "GitKraken");
             correctionAdd("gitkraken", "GitKraken");
+            correctionAdd("Git kraken", "GitKraken");
 
             correctionAdd("git tower", "Tower");
             correctionAdd("Git Tower", "Tower");
@@ -3032,6 +3033,13 @@ namespace OverflowHelper.core
             correctionAdd("Hirsute Hippo", "Ubuntu 21.04 (Hirsute Hippo)");
             correctionAdd("ubuntu 21.04", "Ubuntu 21.04 (Hirsute Hippo)");
 
+            correctionAdd("Ubuntu 21.10", "Ubuntu 21.10 (Impish Indri)");
+            correctionAdd("ubuntu 21.10 impish", "Ubuntu 21.10 (Impish Indri)");
+            correctionAdd("impish", "Ubuntu 21.10 (Impish Indri)");
+            correctionAdd("ubuntu 21.10", "Ubuntu 21.10 (Impish Indri)");
+            correctionAdd("21.10", "Ubuntu 21.10 (Impish Indri)");
+            correctionAdd("Impish", "Ubuntu 21.10 (Impish Indri)");
+
             correctionAdd("Ubuntu 22.04 (Jammy Jellyfish)", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)"); // Sort of identity mapping
             correctionAdd("22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
             correctionAdd("Ubuntu 22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
@@ -3044,6 +3052,9 @@ namespace OverflowHelper.core
             correctionAdd("ubuntu 22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
             correctionAdd("Ubuntu22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
             correctionAdd("ubuntu22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+
+            correctionAdd("22.10", "Ubuntu&nbsp;22.10 (Kinetic Kudu)");
+            correctionAdd("Ubuntu 22.10 (Kinetic Kudu)", "Ubuntu&nbsp;22.10 (Kinetic Kudu)"); // Sort of identity mapping
 
             // A Linux distribution
             correctionAdd("chrubuntu", "ChrUbuntu");
@@ -3063,6 +3074,18 @@ namespace OverflowHelper.core
             // A Linux distribution
             correctionAdd("Kubuntu 20.04", "Kubuntu&nbsp;20.04 (Focal Fossa)");
             correctionAdd("Kubuntu 20.04 (Focal Fossa)", "Kubuntu&nbsp;20.04 (Focal Fossa)");
+
+            correctionAdd("Ubuntu one", "Ubuntu One");
+
+            correctionAdd("lubuntu", "Lubuntu");
+
+            correctionAdd("xubuntu", "Xubuntu");
+            correctionAdd("xubunbtu", "Xubuntu");
+            correctionAdd("Xubunbtu", "Xubuntu");
+
+            correctionAdd("Kylin", "Ubuntu Kylin");
+
+            correctionAdd("ubuntu studio", "Ubuntu Studio");
 
             // A Linux distribution
             correctionAdd("Kali", "Kali Linux");
@@ -3126,6 +3149,7 @@ namespace OverflowHelper.core
             correctionAdd("Arco Linux", "ArcoLinux");
             correctionAdd("AgroLinux", "ArcoLinux");
             correctionAdd("arco linux", "ArcoLinux");
+            correctionAdd("Arcolinux", "ArcoLinux");
 
             // A Linux distribution
             correctionAdd("manjaro", "Manjaro");
@@ -3689,6 +3713,29 @@ namespace OverflowHelper.core
 
             // Linux / Unix
             correctionAdd("TROFF", "troff");
+
+            // Linux, GUI. A standalone compositing window manager
+            correctionAdd("compton", "Compton");
+
+            // Linux, GUI. A display manager.
+            correctionAdd("lightdm", "LightDM");
+            correctionAdd("Lightdm", "LightDM");
+
+            // Linux, GUI. A dock.
+            correctionAdd("plank", "Plank");
+
+            // Linux, GUI.
+            correctionAdd("polybar", "Polybar");
+
+            // Linux, GUI. A panel for Xorg.
+            correctionAdd("Tint2", "tint2");
+
+            // Linux, GUI. X Window System.
+            correctionAdd("XDMCP", "X Display Manager Control Protocol");
+
+            // A file manager. Linux
+            correctionAdd("thunar", "Thunar");
+            correctionAdd("thuna", "Thunar");
 
             correctionAdd("dtrace", "DTrace");
             correctionAdd("Dtrace", "DTrace");
@@ -4355,6 +4402,9 @@ namespace OverflowHelper.core
             correctionAdd("wholesale copied", "entirely copied, but properly attributed");
             correctionAdd("properly attributed", "entirely copied, but properly attributed");
 
+            // Mostly related to Stack Overflow and Stack Exchange
+            correctionAdd("free-hand red circles", "freehand circles");
+
             correctionAdd("plagiarism on Quora", "blatant plagiarism on Quora");
 
             correctionAdd("plagarise", "plagiarise");
@@ -4420,6 +4470,8 @@ namespace OverflowHelper.core
             //     Wikipedia article
             //
             correctionAdd("stinking badges", "We don't need stinking badges");
+            correctionAdd("Stinking badges", "We don't need stinking badges");
+            correctionAdd("no stinking badges", "We don't need stinking badges");
 
             // A SEDE query. Related to Stack Overflow and Stack Exchange.
             correctionAdd("younger questions", "most popular younger questions");
@@ -5022,6 +5074,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Dependency Inversion", "dependency inversion principle");
             correctionAdd("Dependency Inversion principle", "dependency inversion principle");
+            correctionAdd("dependency inversion", "dependency inversion principle");
+            correctionAdd("dependicy inversion", "dependency inversion principle");
 
             correctionAdd("Le Chateliers principle", "Le Chatelier's principle");
 
@@ -5789,6 +5843,7 @@ namespace OverflowHelper.core
             correctionAdd("Jupyter labbook", "Jupyter Notebook");
             correctionAdd("ipython-notebook", "Jupyter Notebook");
             correctionAdd("Jupyter's Notebook", "Jupyter Notebook");
+            correctionAdd("jupyter nitebook", "Jupyter Notebook");
 
             correctionAdd("Jupyterlab", "JupyterLab");
             correctionAdd("jupyterlab", "JupyterLab");
@@ -8240,6 +8295,7 @@ namespace OverflowHelper.core
             correctionAdd("Postgres SQL", "PostgreSQL");
             correctionAdd("postgresSQL", "PostgreSQL");
             correctionAdd("progresSQL", "PostgreSQL");
+            correctionAdd("postreg", "PostgreSQL");
 
             correctionAdd("PSQL", "psql");
 
@@ -8749,8 +8805,6 @@ namespace OverflowHelper.core
             correctionAdd("formula one", "Formula One");
             correctionAdd("formula 1", "Formula One");
             correctionAdd("Formula 1", "Formula One");
-
-            correctionAdd("Ubuntu one", "Ubuntu One");
 
             correctionAdd("nexus one", "Nexus One");
             correctionAdd("Nexus one", "Nexus One");
@@ -10703,6 +10757,7 @@ namespace OverflowHelper.core
             correctionAdd("TinyCC", "Tiny C Compiler");
             correctionAdd("TCC", "Tiny C Compiler");
             correctionAdd("tCc", "Tiny C Compiler");
+            correctionAdd("tcc", "Tiny C Compiler");
 
             // A compiler. C, C++, etc.
             correctionAdd("gcc", "GCC");
@@ -11440,6 +11495,9 @@ namespace OverflowHelper.core
             correctionAdd("Colemake", "Colemak");
 
             // A keyboard layout
+            correctionAdd("workman", "Workman");
+
+            // A keyboard layout
             correctionAdd("DVORAK", "Dvorak");
             correctionAdd("dvorak", "Dvorak");
             correctionAdd("Dvorak layout", "Dvorak");
@@ -11870,6 +11928,7 @@ namespace OverflowHelper.core
             correctionAdd("numpad", "numeric keypad");
             correctionAdd("num pad", "numeric keypad");
             correctionAdd("Numeric keypad", "numeric keypad");
+            correctionAdd("numeric keyboard", "numeric keypad");
 
             correctionAdd("greasemonkey", "Greasemonkey");
             correctionAdd("grease monkey", "Greasemonkey");
@@ -23089,6 +23148,7 @@ namespace OverflowHelper.core
             correctionAdd("belive", "believe");
             correctionAdd("bslieve", "believe");
             correctionAdd("beileve", "believe");
+            correctionAdd("beleve", "believe");
 
             correctionAdd("pronounciation", "pronunciation");
             correctionAdd("pronuncian", "pronunciation");
@@ -23121,8 +23181,6 @@ namespace OverflowHelper.core
             correctionAdd("canadian", "Canadian");
 
             correctionAdd("persistant", "persistent");
-
-            correctionAdd("lubuntu", "Lubuntu");
 
             correctionAdd("resister", "resistor");
             correctionAdd("resitor", "resistor");
@@ -23690,6 +23748,7 @@ namespace OverflowHelper.core
             correctionAdd("corrdctly", "correctly");
             correctionAdd("correcty", "correctly");
             correctionAdd("correcltly", "correctly");
+            correctionAdd("corrctly", "correctly");
 
             correctionAdd("Kg", "kg");
             correctionAdd("KG", "kg");
@@ -24310,6 +24369,7 @@ namespace OverflowHelper.core
 
             correctionAdd("recursivly", "recursively");
             correctionAdd("recursivelly", "recursively");
+            correctionAdd("recusively", "recursively");
 
             correctionAdd("stubled", "stumble");
 
@@ -25416,10 +25476,6 @@ namespace OverflowHelper.core
             correctionAdd("wto", "WTO");
 
             correctionAdd("wales", "Wales");
-
-            correctionAdd("xubuntu", "Xubuntu");
-            correctionAdd("xubunbtu", "Xubuntu");
-            correctionAdd("Xubunbtu", "Xubuntu");
 
             correctionAdd("bare in mind", "bear in mind");
             correctionAdd("Bare in mind", "bear in mind");
@@ -29287,7 +29343,8 @@ namespace OverflowHelper.core
             correctionAdd("tryg", "trying");
             correctionAdd("traing", "trying");
             correctionAdd("truing", "trying");
-            correctionAdd("tryna", "trying");
+
+            correctionAdd("tryna", "trying to");
 
             correctionAdd("type cast", "typecast");
 
@@ -32290,6 +32347,7 @@ namespace OverflowHelper.core
             correctionAdd("aright", "all right");
             correctionAdd("Aight", "all right");
             correctionAdd("aight", "all right");
+            correctionAdd("alr", "all right");
 
             correctionAdd("rigth", "right");
             correctionAdd("rght", "right");
@@ -32310,6 +32368,7 @@ namespace OverflowHelper.core
             correctionAdd("totaaly", "totally");
 
             correctionAdd("trafic", "traffic");
+            correctionAdd("trafiic", "traffic");
 
             correctionAdd("buyed", "bought");
 
@@ -33345,6 +33404,7 @@ namespace OverflowHelper.core
             correctionAdd("sou", "you");
             correctionAdd("yoo", "you");
             correctionAdd("yuo", "you");
+            correctionAdd("yopu", "you");
 
             correctionAdd("Zinc", "zinc");
             correctionAdd("Zn", "zinc");
@@ -34898,8 +34958,42 @@ namespace OverflowHelper.core
 
             correctionAdd("Coupling", "coupling");
 
+            correctionAdd("bake", "back");
+            correctionAdd("bacak", "back");
+
             correctionAdd("fall back", "fallback");
             correctionAdd("fall-back", "fallback");
+
+            correctionAdd("back_to_back", "back-to-back");
+
+            correctionAdd("broke the camel's back", "the straw that broke the camel's back");
+            correctionAdd("straw that broke the camel's back", "the straw that broke the camel's back");
+
+            correctionAdd("roll-back", "roll back");
+            correctionAdd("rollback", "roll back");
+            correctionAdd("rool back", "roll back");
+            correctionAdd("Rollback", "roll back");
+
+            correctionAdd("feedbacks", "feedback");
+            correctionAdd("feed back", "feedback");
+            correctionAdd("feeback", "feedback");
+            correctionAdd("feddback", "feedback");
+            correctionAdd("fedback", "feedback");
+
+            correctionAdd("push back", "pushback");
+            correctionAdd("push-back", "pushback");
+
+            correctionAdd("call back", "callback");
+
+            correctionAdd("LoopBack.js", "LoopBack");
+            correctionAdd("loopback", "LoopBack");
+            correctionAdd("Loopback", "LoopBack");
+            correctionAdd("loopbackjs", "LoopBack");
+            correctionAdd("Loopback.js", "LoopBack");
+
+            correctionAdd("Loopback 4", "LoopBack 4");
+            correctionAdd("loopback-4", "LoopBack 4");
+            correctionAdd("loopback 4", "LoopBack 4");
 
             correctionAdd("introducted", "introduced");
             correctionAdd("introducuced", "introduced");
@@ -35382,8 +35476,6 @@ namespace OverflowHelper.core
             correctionAdd("theam", "team");
             correctionAdd("teem", "team");
 
-            correctionAdd("bake", "back");
-
             correctionAdd("Dad", "dad");
 
             correctionAdd("double-speak", "doublespeak");
@@ -35658,8 +35750,6 @@ namespace OverflowHelper.core
 
             correctionAdd("sri", "Subresource Integrity");
             correctionAdd("SRI", "Subresource Integrity");
-
-            correctionAdd("back_to_back", "back-to-back");
 
             correctionAdd("SME", "subject-matter expert");
             correctionAdd("sme", "subject-matter expert");
@@ -36185,9 +36275,6 @@ namespace OverflowHelper.core
             correctionAdd("technial", "technical");
             correctionAdd("techincal", "technical");
             correctionAdd("tecnical", "technical");
-
-            correctionAdd("broke the camel's back", "the straw that broke the camel's back");
-            correctionAdd("straw that broke the camel's back", "the straw that broke the camel's back");
 
             correctionAdd("CP 437", "Code page 437");
 
@@ -37985,11 +38072,6 @@ namespace OverflowHelper.core
             correctionAdd("reptillian", "reptilian");
             correctionAdd("raptillian", "reptilian");
 
-            correctionAdd("roll-back", "roll back");
-            correctionAdd("rollback", "roll back");
-            correctionAdd("rool back", "roll back");
-            correctionAdd("Rollback", "roll back");
-
             correctionAdd("Dunning kruger effekt", "Dunning–Kruger effect");
             correctionAdd("Danning-Kruger", "Dunning–Kruger effect");
             correctionAdd("Dunning-Kruger effect", "Dunning–Kruger effect");
@@ -38371,12 +38453,6 @@ namespace OverflowHelper.core
             correctionAdd("autmatic", "automatic");
 
             correctionAdd("draconic", "draconian");
-
-            correctionAdd("feedbacks", "feedback");
-            correctionAdd("feed back", "feedback");
-            correctionAdd("feeback", "feedback");
-            correctionAdd("feddback", "feedback");
-            correctionAdd("fedback", "feedback");
 
             correctionAdd("Galvanic cell", "galvanic cell");
 
@@ -39914,9 +39990,6 @@ namespace OverflowHelper.core
             correctionAdd("LOH", "large object heap");
             correctionAdd("Large Object Heap", "large object heap");
 
-            correctionAdd("push back", "pushback");
-            correctionAdd("push-back", "pushback");
-
             correctionAdd("Core 2", "Core&nbsp;2");
             correctionAdd("Core2", "Core&nbsp;2");
             correctionAdd("core2", "Core&nbsp;2");
@@ -40892,6 +40965,8 @@ namespace OverflowHelper.core
 
             correctionAdd("compenstation", "compensation");
 
+            correctionAdd("compenating", "compensating");
+
             correctionAdd("confliciting", "conflicting");
 
             correctionAdd("agredious", "egregious");
@@ -41436,13 +41511,6 @@ namespace OverflowHelper.core
 
             correctionAdd("soapui", "SoapUI");
 
-            correctionAdd("Ubuntu 21.10", "Ubuntu 21.10 (Impish Indri)");
-            correctionAdd("ubuntu 21.10 impish", "Ubuntu 21.10 (Impish Indri)");
-            correctionAdd("impish", "Ubuntu 21.10 (Impish Indri)");
-            correctionAdd("ubuntu 21.10", "Ubuntu 21.10 (Impish Indri)");
-            correctionAdd("21.10", "Ubuntu 21.10 (Impish Indri)");
-            correctionAdd("Impish", "Ubuntu 21.10 (Impish Indri)");
-
             correctionAdd("avoir", "avoid");
             correctionAdd("avaoid", "avoid");
 
@@ -41486,6 +41554,7 @@ namespace OverflowHelper.core
             correctionAdd("neeed", "need");
             correctionAdd("neet", "need");
             correctionAdd("nead", "need");
+            correctionAdd("kneed", "need");
 
             correctionAdd("neads", "needs");
             correctionAdd("need's", "needs");
@@ -41551,8 +41620,6 @@ namespace OverflowHelper.core
 
             correctionAdd("nusoap", "NuSOAP");
             correctionAdd("Nusoap", "NuSOAP");
-
-            correctionAdd("thunar", "Thunar");
 
             correctionAdd("VASP", "Vienna Ab initio Simulation Package");
 
@@ -42336,6 +42403,7 @@ namespace OverflowHelper.core
             correctionAdd("Konky", "Conky");
             correctionAdd("conky", "Conky");
             correctionAdd("konky", "Conky");
+            correctionAdd("CONKY", "Conky");
 
             correctionAdd("Moore-Penrose inverse", "Moore–Penrose inverse");
             correctionAdd("Moore-Penrose pseudoinverse", "Moore–Penrose inverse");
@@ -42692,16 +42760,6 @@ namespace OverflowHelper.core
             correctionAdd("guitar pro", "Guitar Pro");
 
             correctionAdd("LQ", "LQP");
-
-            correctionAdd("LoopBack.js", "LoopBack");
-            correctionAdd("loopback", "LoopBack");
-            correctionAdd("Loopback", "LoopBack");
-            correctionAdd("loopbackjs", "LoopBack");
-            correctionAdd("Loopback.js", "LoopBack");
-
-            correctionAdd("Loopback 4", "LoopBack 4");
-            correctionAdd("loopback-4", "LoopBack 4");
-            correctionAdd("loopback 4", "LoopBack 4");
 
             correctionAdd("GLEE", "MSAGL");
             correctionAdd("msagl", "MSAGL");
@@ -45250,7 +45308,19 @@ namespace OverflowHelper.core
 
             correctionAdd("freeotp", "FreeOTP");
 
+            correctionAdd("kde", "KDE");
+
+            correctionAdd("KDE 4", "KDE&nbsp;4"); // Sort of identity mapping
+            correctionAdd("kde4", "KDE&nbsp;4");
+            correctionAdd("KDE4", "KDE&nbsp;4");
+
             correctionAdd("KDE Applications Bundle", "KDE Gear");
+
+            correctionAdd("Plasma", "KDE Plasma");
+            correctionAdd("kde plasma", "KDE Plasma");
+
+            // Linux. KDE. 
+            correctionAdd("krunner", "KRunner");
 
             correctionAdd("tron", "TRON");
 
@@ -45578,12 +45648,6 @@ namespace OverflowHelper.core
             correctionAdd("rmb", "LSB");
             correctionAdd("least significant bit", "LSB");
             correctionAdd("LSb", "LSB");
-
-            correctionAdd("KDE 4", "KDE&nbsp;4"); // Sort of identity mapping
-            correctionAdd("kde4", "KDE&nbsp;4");
-            correctionAdd("KDE4", "KDE&nbsp;4");
-
-            correctionAdd("kde", "KDE");
 
             correctionAdd("nashorn", "Nashorn");
 
@@ -47660,9 +47724,6 @@ namespace OverflowHelper.core
             correctionAdd("Händel", "G. F. Händel");
             correctionAdd("Lascia ch'io pianga", "G. F. Händel");
 
-            correctionAdd("Plasma", "KDE Plasma");
-            correctionAdd("kde plasma", "KDE Plasma");
-
             correctionAdd("life-experience", "life experience");
 
             correctionAdd("manimupating", "manipulating");
@@ -48159,6 +48220,7 @@ namespace OverflowHelper.core
 
             correctionAdd("VimL", "Vim script");
             correctionAdd("Vimscript", "Vim script");
+            correctionAdd("vim script", "Vim script");
 
             correctionAdd("We", "we");
 
@@ -48371,8 +48433,6 @@ namespace OverflowHelper.core
             correctionAdd("autoconf", "Autoconf");
 
             correctionAdd("automake", "Automake");
-
-            correctionAdd("call back", "callback");
 
             correctionAdd("ctrader", "cTrader");
 
@@ -49331,10 +49391,6 @@ namespace OverflowHelper.core
             correctionAdd("Skill", "skill");
 
             correctionAdd("Stereotype", "stereotype");
-
-            correctionAdd("Kylin", "Ubuntu Kylin");
-
-            correctionAdd("ubuntu studio", "Ubuntu Studio");
 
             correctionAdd("worst case", "worst-case");
             correctionAdd("worest case", "worst-case");
@@ -50321,8 +50377,6 @@ namespace OverflowHelper.core
 
             correctionAdd("BFF", "best friend forever");
 
-            correctionAdd("compenating", "compensating");
-
             correctionAdd("drifed", "drifted");
 
             correctionAdd("opinion based", "opinion-based");
@@ -50334,6 +50388,32 @@ namespace OverflowHelper.core
             correctionAdd("writswatch", "wristwatch");
             correctionAdd("wrist watch", "wristwatch");
             correctionAdd("wrist-watch", "wristwatch");
+
+            correctionAdd("monkey123", "password reuse");
+
+            correctionAdd("Wallpaper", "wallpaper");
+
+            // Electronics
+            correctionAdd("Vellema", "Velleman");
+
+            correctionAdd("Advanced Linux Sound Architecture", "ALSA");
+            correctionAdd("alsa", "ALSA");
+
+            correctionAdd("zero-one-several principle", "zero one infinity rule");
+
+            // A password manager
+            correctionAdd("bitwarden", "Bitwarden");
+
+            correctionAdd("free-hand", "freehand");
+
+            correctionAdd("most lazy", "laziest");
+
+            correctionAdd("piazza", "Piazza");
+
+            // Alternative URL: <https://www.youtube.com/watch?v=v6ftVvLt2ls>
+            correctionAdd("AAG", "ArcoLinux Auditing Group");
+
+            correctionAdd("houdini", "Houdini");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -78399,6 +78479,50 @@ namespace OverflowHelper.core
             URL_Add("witchcraft", "https://en.wiktionary.org/wiki/witchcraft#Noun");
 
             URL_Add("wristwatch", "https://en.wiktionary.org/wiki/wristwatch#Noun");
+
+            URL_Add("Compton", "https://en.wikipedia.org/wiki/Compositing_window_manager#List_of_standalone_compositing_managers");
+
+            URL_Add("LightDM", "https://en.wikipedia.org/wiki/LightDM");
+
+            URL_Add("password reuse", "https://en.wikipedia.org/wiki/Wikipedia:10,000_most_common_passwords#Top_100");
+
+            URL_Add("Plank", "https://wiki.archlinux.org/title/Plank");
+
+            URL_Add("Polybar", "https://github.com/polybar/polybar");
+
+            URL_Add("tint2", "https://wiki.archlinux.org/title/Tint2");
+
+            URL_Add("wallpaper", "https://en.wikipedia.org/wiki/Wallpaper_(computing)");
+
+            URL_Add("X Display Manager Control Protocol", "https://en.wikipedia.org/wiki/X_display_manager#X_Display_Manager_Control_Protocol");
+
+            URL_Add("Velleman", "https://en.wikipedia.org/wiki/Velleman");
+
+            URL_Add("Ubuntu&nbsp;22.10 (Kinetic Kudu)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_22.10_(Kinetic_Kudu)");
+
+            URL_Add("ALSA", "https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture");
+
+            URL_Add("zero one infinity rule", "https://en.wikipedia.org/wiki/Zero_one_infinity_rule");
+
+            URL_Add("Bitwarden", "https://en.wikipedia.org/wiki/Bitwarden");
+
+            URL_Add("freehand", "https://en.wiktionary.org/wiki/freehand#Adjective");
+
+            URL_Add("freehand circles", "https://meta.stackexchange.com/questions/19478/the-many-memes-of-meta/19775#19775");
+
+            URL_Add("laziest", "https://en.wiktionary.org/wiki/laziest#Adjective");
+
+            URL_Add("Piazza", "https://en.wikipedia.org/wiki/Piazza_(web_service)");
+
+            URL_Add("trying to", "https://en.wiktionary.org/wiki/trying#Verb");
+
+            URL_Add("Workman", "https://en.wikipedia.org/wiki/Keyboard_layout#Workman");
+
+            URL_Add("ArcoLinux Auditing Group", "https://www.arcolinux.info/joining-the-arcolinux-auditing-group/");
+
+            URL_Add("Houdini", "https://en.wikipedia.org/wiki/Houdini_(software)");
+
+            URL_Add("KRunner", "https://en.wikipedia.org/wiki/KDE_Frameworks#Components");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
