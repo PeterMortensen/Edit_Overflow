@@ -98,7 +98,7 @@
             $headerLevelIndent = "        ";
             $baseIndent        = "$headerLevelIndent        ";
             $EOL_andBaseIndent = "\n$baseIndent";
-            $EOL_andBaseIndent_sub = "\n    $baseIndent";;
+            $EOL_andBaseIndent_sub = "\n    $baseIndent";
 
 
             # The only input field in the start HTML page
