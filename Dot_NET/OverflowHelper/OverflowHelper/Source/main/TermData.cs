@@ -3150,6 +3150,10 @@ namespace OverflowHelper.core
             correctionAdd("AgroLinux", "ArcoLinux");
             correctionAdd("arco linux", "ArcoLinux");
             correctionAdd("Arcolinux", "ArcoLinux");
+            correctionAdd("arco", "ArcoLinux");
+
+            // Alternative URL: <https://www.youtube.com/watch?v=v6ftVvLt2ls>
+            correctionAdd("AAG", "ArcoLinux Auditing Group");
 
             // A Linux distribution
             correctionAdd("manjaro", "Manjaro");
@@ -3736,6 +3740,34 @@ namespace OverflowHelper.core
             // A file manager. Linux
             correctionAdd("thunar", "Thunar");
             correctionAdd("thuna", "Thunar");
+
+            // A mail client (both Windows and Linux)
+            correctionAdd("thunderbolt", "Thunderbolt");
+
+            // Linux
+            correctionAdd("Konky", "Conky");
+            correctionAdd("conky", "Conky");
+            correctionAdd("konky", "Conky");
+            correctionAdd("CONKY", "Conky");
+
+            // Linux
+            correctionAdd("kde", "KDE");
+
+            correctionAdd("KDE 4", "KDE&nbsp;4"); // Sort of identity mapping
+            correctionAdd("kde4", "KDE&nbsp;4");
+            correctionAdd("KDE4", "KDE&nbsp;4");
+
+            correctionAdd("KDE Applications Bundle", "KDE Gear");
+
+            correctionAdd("Plasma", "KDE Plasma");
+            correctionAdd("kde plasma", "KDE Plasma");
+
+            // Linux. KDE.
+            correctionAdd("krunner", "KRunner");
+
+            // Linux
+            correctionAdd("Advanced Linux Sound Architecture", "ALSA");
+            correctionAdd("alsa", "ALSA");
 
             correctionAdd("dtrace", "DTrace");
             correctionAdd("Dtrace", "DTrace");
@@ -4478,6 +4510,7 @@ namespace OverflowHelper.core
 
             // A famous Stack Overflow question
             correctionAdd("the regex joke", "RegEx match open tags except XHTML self-contained tags");
+            correctionAdd("regex question", "RegEx match open tags except XHTML self-contained tags");
 
             // Related to Stack Overflow
             correctionAdd("POB", "primarily opinion-based");
@@ -5313,6 +5346,14 @@ namespace OverflowHelper.core
             correctionAdd("ps", "PostScript"); // Possible collision with the Unix
                                                // command-line command. And
                                                // PowerShell alias for Get-Process...
+
+            correctionAdd("scropt", "script");
+            correctionAdd("scrip", "script");
+            correctionAdd("Script", "script");
+            correctionAdd("scritpt", "script");
+            correctionAdd("sript", "script");
+            correctionAdd("scritp", "script");
+            correctionAdd("srcipt", "script");
 
             // Conflict with the Unix 'less',
             // <https://linux.die.net/man/1/less>,
@@ -6709,13 +6750,6 @@ namespace OverflowHelper.core
             correctionAdd("utf-16be", "UTF-16BE");
 
             correctionAdd("utf-16le", "UTF-16LE");
-
-            correctionAdd("scropt", "script");
-            correctionAdd("scrip", "script");
-            correctionAdd("Script", "script");
-            correctionAdd("scritpt", "script");
-            correctionAdd("sript", "script");
-            correctionAdd("scritp", "script");
 
             correctionAdd("Virtualbox", "VirtualBox");
             correctionAdd("virtualbox", "VirtualBox");
@@ -8695,14 +8729,15 @@ namespace OverflowHelper.core
             correctionAdd("URL Encoding", "URL encoding");
             correctionAdd("URL-Encoding", "URL encoding");
             correctionAdd("URL-encoding", "URL encoding");
-
-            correctionAdd("RLE", "run-length encoding");
-            correctionAdd("run length encoding", "run-length encoding");
+            correctionAdd("url encoding", "URL encoding");
 
             correctionAdd("percent-encoded", "percent-encoding");
             correctionAdd("percent encoding", "percent-encoding");
             correctionAdd("percent encode", "percent-encoding"); // Not 100% correct: Word class clash. Or least not the same tense.
             correctionAdd("percent-encode", "percent-encoding"); // Not 100% correct: Word class clash. Or least not the same tense.
+
+            correctionAdd("RLE", "run-length encoding");
+            correctionAdd("run length encoding", "run-length encoding");
 
             correctionAdd("codingame", "CodinGame");
 
@@ -11963,6 +11998,7 @@ namespace OverflowHelper.core
             correctionAdd("primarly", "primarily");
 
             correctionAdd("primative", "primitive");
+            correctionAdd("primitve", "primitive");
 
             correctionAdd("Sallen Key", "Sallen–Key filter");
             correctionAdd("Sallen-Key", "Sallen–Key filter");
@@ -19304,9 +19340,6 @@ namespace OverflowHelper.core
 
             correctionAdd("freemat", "FreeMat");
 
-            correctionAdd("efi", "EFI");
-            correctionAdd("Efi", "EFI");
-
             correctionAdd("logcat", "LogCat");
             correctionAdd("Logcat", "LogCat");
             correctionAdd("logCat", "LogCat");
@@ -19485,6 +19518,7 @@ namespace OverflowHelper.core
             correctionAdd("Aplle", "Apple");
             correctionAdd("Crapple", "Apple");
             correctionAdd("crapple", "Apple");
+            correctionAdd("appple", "Apple");
 
             correctionAdd("lcd", "LCD");
             correctionAdd("Lcd", "LCD");
@@ -19699,14 +19733,17 @@ namespace OverflowHelper.core
 
             correctionAdd("TAR", "tar");
 
+            // PC hardware. Hard disk drives. SSDs. Disks. Partioning.
             correctionAdd("mbr", "MBR");
             correctionAdd("Master Boot Record", "MBR");
             correctionAdd("master boot record", "MBR");
 
+            // PC hardware. Hard disk drives. SSDs. Disks. Partioning.
             correctionAdd("gparted", "GParted");
             correctionAdd("GPartEd", "GParted");
             correctionAdd("Gparted", "GParted");
             correctionAdd("parted", "GParted");
+            correctionAdd("GpartEd", "GParted");
 
             correctionAdd("IPtables", "iptables");
             correctionAdd("iptable", "iptables");
@@ -20284,8 +20321,17 @@ namespace OverflowHelper.core
 
             correctionAdd("arp", "ARP");
 
+            // PCs. Boot. Operating systems.
+            correctionAdd("efi", "EFI");
+            correctionAdd("Efi", "EFI");
+            correctionAdd("EFi", "EFI");
+
+            // PCs. Boot. Operating systems.
             correctionAdd("uefi", "UEFI");
             correctionAdd("UFEI", "UEFI");
+
+            correctionAdd("defi", "DeFi");
+            correctionAdd("decentralized finance", "DeFi");
 
             correctionAdd("relete", "relate");
             correctionAdd("releted", "relate"); // Not 100% correct - word type.
@@ -21742,6 +21788,7 @@ namespace OverflowHelper.core
             correctionAdd("is n", "isn’t");
             correctionAdd("is nt", "isn’t");
             correctionAdd("Ain't", "isn’t");
+            correctionAdd("is'nt", "isn’t");
 
             correctionAdd("newb", "newbie");
             correctionAdd("newbs", "newbie"); // Not 100% correct - plural
@@ -25617,6 +25664,7 @@ namespace OverflowHelper.core
             correctionAdd("runon", "run-on sentence"); // For expansion
             correctionAdd("run on", "run-on sentence"); // For expansion
             correctionAdd("run-on", "run-on sentence");
+            correctionAdd("Run-on sentence", "run-on sentence");
 
             correctionAdd("sentance", "sentence");
             correctionAdd("sentencen", "sentence");
@@ -26644,6 +26692,7 @@ namespace OverflowHelper.core
             correctionAdd("Problam", "problem");
             correctionAdd("pr0blem", "problem");
             correctionAdd("problam", "problem");
+            correctionAdd("Probleme", "problem");
 
             correctionAdd("problemantic", "problematic");
 
@@ -31031,6 +31080,7 @@ namespace OverflowHelper.core
             correctionAdd("Janaury", "January");
             correctionAdd("Januari", "January");
             correctionAdd("Januare", "January");
+            correctionAdd("jan", "January");
 
             correctionAdd("MVP", "minimum viable product");
             correctionAdd("Minimum Viable Product", "minimum viable product");
@@ -34637,6 +34687,9 @@ namespace OverflowHelper.core
             correctionAdd("cross posted", "crossposted");
             correctionAdd("Cross posted", "crossposted");
 
+            correctionAdd("postet", "posted");
+            correctionAdd("psoted", "posted");
+
             correctionAdd("epi-center", "epicenter");
 
             correctionAdd("in-absentia", "in absentia");
@@ -36711,6 +36764,11 @@ namespace OverflowHelper.core
 
             correctionAdd("Re-authenticate", "reauthenticate");
             correctionAdd("re-authenticate", "reauthenticate");
+            correctionAdd("reathenticate", "reauthenticate");
+
+            correctionAdd("Authenticate", "authenticate");
+            correctionAdd("authenticaticate", "authenticate");
+            correctionAdd("athenticate", "authenticate");
 
             correctionAdd("relay", "rely");
 
@@ -38147,9 +38205,6 @@ namespace OverflowHelper.core
             correctionAdd("GenyMotion", "Genymotion");
             correctionAdd("genymotion", "Genymotion");
 
-            // A mail client (both Windows and Linux)
-            correctionAdd("thunderbolt", "Thunderbolt");
-
             correctionAdd("advantagoues", "advantageous");
 
             correctionAdd("horde", "hoard");
@@ -38429,6 +38484,7 @@ namespace OverflowHelper.core
 
             correctionAdd("inital", "initial");
             correctionAdd("intial", "initial");
+            correctionAdd("intital", "initial");
 
             correctionAdd("rovide", "provide");
             correctionAdd("proide", "provide");
@@ -38590,6 +38646,7 @@ namespace OverflowHelper.core
             correctionAdd("ater", "after");
             correctionAdd("affter", "after");
             correctionAdd("afte", "after");
+            correctionAdd("aftaer", "after");
 
             correctionAdd("beat-'em-up", "beat 'em up");
             correctionAdd("Beat 'em Up", "beat 'em up");
@@ -40926,9 +40983,6 @@ namespace OverflowHelper.core
 
             correctionAdd("aplicable", "applicable");
 
-            correctionAdd("Authenticate", "authenticate");
-            correctionAdd("authenticaticate", "authenticate");
-
             correctionAdd("calrity", "clarity");
 
             correctionAdd("dam", "damn");
@@ -41687,8 +41741,6 @@ namespace OverflowHelper.core
             correctionAdd("Wolfarm", "Wolfram Research");
             correctionAdd("Wolfram", "Wolfram Research");
 
-            correctionAdd("postet", "posted");
-
             correctionAdd("eFence", "Electric Fence");
             correctionAdd("efence", "Electric Fence");
 
@@ -41792,6 +41844,7 @@ namespace OverflowHelper.core
 
             correctionAdd("extarct", "extract");
             correctionAdd("extrct", "extract");
+            correctionAdd("extraxt", "extract");
 
             correctionAdd("moderationg", "moderation");
 
@@ -42400,11 +42453,6 @@ namespace OverflowHelper.core
 
             correctionAdd("citrix", "Citrix");
 
-            correctionAdd("Konky", "Conky");
-            correctionAdd("conky", "Conky");
-            correctionAdd("konky", "Conky");
-            correctionAdd("CONKY", "Conky");
-
             correctionAdd("Moore-Penrose inverse", "Moore–Penrose inverse");
             correctionAdd("Moore-Penrose pseudoinverse", "Moore–Penrose inverse");
 
@@ -42657,6 +42705,7 @@ namespace OverflowHelper.core
             correctionAdd("Specialty", "specialty");
 
             correctionAdd("alacritty", "Alacritty");
+            correctionAdd("Allacritty", "Alacritty");
 
             correctionAdd("IBN", "Internet background radiation");
             correctionAdd("IBR", "Internet background radiation");
@@ -45308,20 +45357,6 @@ namespace OverflowHelper.core
 
             correctionAdd("freeotp", "FreeOTP");
 
-            correctionAdd("kde", "KDE");
-
-            correctionAdd("KDE 4", "KDE&nbsp;4"); // Sort of identity mapping
-            correctionAdd("kde4", "KDE&nbsp;4");
-            correctionAdd("KDE4", "KDE&nbsp;4");
-
-            correctionAdd("KDE Applications Bundle", "KDE Gear");
-
-            correctionAdd("Plasma", "KDE Plasma");
-            correctionAdd("kde plasma", "KDE Plasma");
-
-            // Linux. KDE. 
-            correctionAdd("krunner", "KRunner");
-
             correctionAdd("tron", "TRON");
 
             correctionAdd("Complex number", "complex number");
@@ -46333,9 +46368,6 @@ namespace OverflowHelper.core
             correctionAdd("brian greene", "Brian Greene");
 
             correctionAdd("cudatext", "CudaText");
-
-            correctionAdd("defi", "DeFi");
-            correctionAdd("decentralized finance", "DeFi");
 
             correctionAdd("DoD", "Definition of Done");
 
@@ -49282,6 +49314,7 @@ namespace OverflowHelper.core
             correctionAdd("sording", "sorting");
 
             correctionAdd("saught", "sought");
+            correctionAdd("seeked", "sought");
 
             correctionAdd("TTYL", "talk to you later");
             correctionAdd("ttyl", "talk to you later");
@@ -50396,9 +50429,6 @@ namespace OverflowHelper.core
             // Electronics
             correctionAdd("Vellema", "Velleman");
 
-            correctionAdd("Advanced Linux Sound Architecture", "ALSA");
-            correctionAdd("alsa", "ALSA");
-
             correctionAdd("zero-one-several principle", "zero one infinity rule");
 
             // A password manager
@@ -50410,10 +50440,19 @@ namespace OverflowHelper.core
 
             correctionAdd("piazza", "Piazza");
 
-            // Alternative URL: <https://www.youtube.com/watch?v=v6ftVvLt2ls>
-            correctionAdd("AAG", "ArcoLinux Auditing Group");
-
             correctionAdd("houdini", "Houdini");
+
+            correctionAdd("accoustumed", "accustomed");
+
+            correctionAdd("fixed-up", "fixed up");
+
+            correctionAdd("MOUNT", "mount");
+
+            correctionAdd("resque", "rescue");
+
+            correctionAdd("turn-key", "turnkey");
+
+            correctionAdd("wellcome", "welcome");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -78524,6 +78563,18 @@ namespace OverflowHelper.core
 
             URL_Add("KRunner", "https://en.wikipedia.org/wiki/KDE_Frameworks#Components");
 
+            URL_Add("accustomed", "https://en.wiktionary.org/wiki/accustomed#Adjective");
+
+            URL_Add("fixed up", "https://en.wiktionary.org/wiki/fix_up#Verb");
+
+            URL_Add("mount", "https://en.wikipedia.org/wiki/Mount_(Unix)");
+
+            URL_Add("rescue", "https://en.wiktionary.org/wiki/rescue#Verb");
+
+            URL_Add("turnkey", "https://en.wiktionary.org/wiki/turnkey#Adjective");
+
+            URL_Add("welcome", "https://en.wiktionary.org/wiki/welcome#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -80570,6 +80621,8 @@ namespace OverflowHelper.core
 
             correctionAdd("oracle_", "Oracle_");
 
+            correctionAdd("LTS_", "long-term support_");
+
             // URL mappings
             //
             //
@@ -81726,6 +81779,8 @@ namespace OverflowHelper.core
             URL_Add("Mac_", "https://en.wiktionary.org/wiki/Mac#Noun_2");
 
             URL_Add("Oracle_", "https://en.wikipedia.org/wiki/Oracle_Corporation");
+
+            URL_Add("long-term support_", "https://en.wikipedia.org/wiki/Long-term_support");
 
         } //addLookupData_alternativeWordSet()
 
