@@ -750,6 +750,8 @@ namespace OverflowHelper.core
             correctionAdd("Windows 2k12", "Windows Server 2012");
             correctionAdd("Windows 2K12", "Windows Server 2012");
 
+            correctionAdd("Server 2012 R2", "Windows Server 2012 R2");
+
             correctionAdd("Windows 2016", "Windows Server 2016");
             correctionAdd("windows 2016", "Windows Server 2016");
             correctionAdd("Server 2016", "Windows Server 2016");
@@ -2601,6 +2603,12 @@ namespace OverflowHelper.core
             correctionAdd("Arch-Linux", "Arch Linux");
             correctionAdd("ArhLinux", "Arch Linux");
 
+            // Arch Linux
+            correctionAdd("AUR", "Arch User Repository");
+
+            // Arch Linux
+            correctionAdd("Arch Wiki", "ArchWiki");
+
             // A Linux distribution
             correctionAdd("mint", "Linux Mint");
             correctionAdd("Linux mint", "Linux Mint");
@@ -3452,6 +3460,11 @@ namespace OverflowHelper.core
             correctionAdd("raspberry imager", "Raspberry Pi Imager");
             correctionAdd("Imager", "Raspberry Pi Imager");
 
+            // Raspberry Pi
+            correctionAdd("Pi-Hole", "Pi-hole");
+            correctionAdd("pihole", "Pi-hole");
+            correctionAdd("PiHole", "Pi-hole");
+
             correctionAdd("usb", "USB");
             correctionAdd("Usb", "USB");
 
@@ -3768,6 +3781,13 @@ namespace OverflowHelper.core
             // Linux
             correctionAdd("Advanced Linux Sound Architecture", "ALSA");
             correctionAdd("alsa", "ALSA");
+
+            // A terminal program. Linux.
+            correctionAdd("alacritty", "Alacritty");
+            correctionAdd("Allacritty", "Alacritty");
+
+            // The Linux command
+            correctionAdd("MOUNT", "mount");
 
             correctionAdd("dtrace", "DTrace");
             correctionAdd("Dtrace", "DTrace");
@@ -4492,6 +4512,7 @@ namespace OverflowHelper.core
 
             // Related to Stack Overflow and Stack Exchange
             correctionAdd("mwe", "MWE");
+            correctionAdd("Minimal Working Example", "MWE");
 
             // A Stack Overflow reference, but the broader one is:
             //
@@ -11242,6 +11263,7 @@ namespace OverflowHelper.core
             correctionAdd("dreamwaver", "Dreamweaver");
             correctionAdd("DreamWeaver", "Dreamweaver");
             correctionAdd("Adobe Dreamweaver", "Dreamweaver");
+            correctionAdd("Dw", "Dreamweaver");
 
             correctionAdd("backgroud", "background");
             correctionAdd("bg", "background");
@@ -14273,6 +14295,37 @@ namespace OverflowHelper.core
             correctionAdd("EMACs", "Emacs");
             correctionAdd("Emac", "Emacs");
 
+            correctionAdd("elisp", "Emacs&nbsp;Lisp");
+            correctionAdd("Emacs Lisp", "Emacs&nbsp;Lisp");
+            correctionAdd("emacs lisp", "Emacs&nbsp;Lisp");
+
+            correctionAdd("MICROEMACS", "MicroEMACS");
+            correctionAdd("uEmacs", "MicroEMACS");
+            correctionAdd("microemacs", "MicroEMACS");
+            correctionAdd("Microemacs", "MicroEMACS");
+            correctionAdd("MicroEmacs", "MicroEMACS");
+            correctionAdd("MICROEmacs", "MicroEMACS");
+            correctionAdd("MICROemacs", "MicroEMACS");
+
+            correctionAdd("doom emacs", "Doom Emacs");
+
+            correctionAdd("xemacs", "XEmacs");
+
+            correctionAdd("elpa", "Emacs Lisp Package Archive");
+            correctionAdd("ELPA", "Emacs Lisp Package Archive");
+
+            // Emacs
+            correctionAdd("ibuffer", "Ibuffer mode");
+
+            // Emacs
+            correctionAdd("list-buffers", "List-buffers");
+
+            // a configuration framework for Emacs
+            correctionAdd("spacemacs", "Spacemacs");
+
+            // Emacs
+            correctionAdd("dired", "Dired");
+
             // A terminal program for Windows
             correctionAdd("putty", "PuTTY");
             correctionAdd("Putty", "PuTTY");
@@ -14693,6 +14746,7 @@ namespace OverflowHelper.core
             correctionAdd("Re-visit", "revisit");
 
             correctionAdd("Commit", "commit");
+            correctionAdd("commmit", "commit");
 
             correctionAdd("delimite", "delimit");
 
@@ -16551,6 +16605,23 @@ namespace OverflowHelper.core
             correctionAdd("rubberducking", "rubber duck debugging");
             correctionAdd("rubber duck", "rubber duck debugging");
 
+            correctionAdd("Engineer", "engineer");
+            correctionAdd("enginner", "engineer");
+            correctionAdd("enginneer", "engineer");
+            correctionAdd("enginineer", "engineer");
+            correctionAdd("engie", "engineer");
+            correctionAdd("engies", "engineer");
+
+            correctionAdd("Senior Engineer", "senior engineer");
+
+            correctionAdd("Civil Engineer", "civil engineer");
+
+            correctionAdd("reverse engineer", "reverse-engineer");
+
+            correctionAdd("reverse engineered", "reverse-engineered");
+
+            correctionAdd("Data Engineer", "data engineer");
+
             correctionAdd("Data Engineering", "data engineering");
 
             correctionAdd("Reverse Engineering", "reverse engineering");
@@ -16578,21 +16649,6 @@ namespace OverflowHelper.core
             correctionAdd("Electrical Engineering", "electrical engineering");
 
             correctionAdd("NRE", "non-recurring engineering");
-
-            correctionAdd("Engineer", "engineer");
-            correctionAdd("enginner", "engineer");
-            correctionAdd("enginneer", "engineer");
-            correctionAdd("enginineer", "engineer");
-
-            correctionAdd("Senior Engineer", "senior engineer");
-
-            correctionAdd("Civil Engineer", "civil engineer");
-
-            correctionAdd("reverse engineer", "reverse-engineer");
-
-            correctionAdd("reverse engineered", "reverse-engineered");
-
-            correctionAdd("Data Engineer", "data engineer");
 
             correctionAdd("occuring", "occurring");
 
@@ -17456,6 +17512,7 @@ namespace OverflowHelper.core
             correctionAdd("reop", "repository");
             correctionAdd("repo'", "repository");
             correctionAdd("repositry", "repository");
+            correctionAdd("Repository", "repository");
 
             correctionAdd("dir", "directory");
             correctionAdd("directoty", "directory");
@@ -18206,8 +18263,35 @@ namespace OverflowHelper.core
             correctionAdd("lynx", "Lynx");
             correctionAdd("LYNX", "Lynx");
 
+            correctionAdd("managament", "management");
+            correctionAdd("mngt", "management");
+            correctionAdd("Management", "management");
+            correctionAdd("Mgmt", "management");
+            correctionAdd("mgmt", "management");
+
             correctionAdd("PM", "project management"); // PM is an overloaded term...
             correctionAdd("Project Management", "project management");
+
+            correctionAdd("SCM", "source control management");
+            correctionAdd("scm", "source control management");
+            correctionAdd("source control", "source control management");
+            correctionAdd("VC", "source control management");
+            correctionAdd("version control", "source control management");
+            correctionAdd("Software Change Management", "source control management");
+            correctionAdd("software change management", "source control management");
+            correctionAdd("Source Code Control", "source control management");
+            correctionAdd("source code control", "source control management");
+            correctionAdd("version-control", "source control management");
+
+            correctionAdd("micro management", "micromanagement");
+
+            correctionAdd("Oracle ASM", "Oracle Automatic Storage Management");
+
+            correctionAdd("Quality Management", "quality management");
+
+            correctionAdd("filemanagement", "file management");
+
+            correctionAdd("SIEM", "security information and event management");
 
             correctionAdd("structure map", "StructureMap");
             correctionAdd("structuremap", "StructureMap");
@@ -18679,10 +18763,6 @@ namespace OverflowHelper.core
 
             correctionAdd("lisp", "Lisp");
             correctionAdd("LISP", "Lisp");
-
-            correctionAdd("elisp", "Emacs&nbsp;Lisp");
-            correctionAdd("Emacs Lisp", "Emacs&nbsp;Lisp");
-            correctionAdd("emacs lisp", "Emacs&nbsp;Lisp");
 
             correctionAdd("isp", "ISP");
             correctionAdd("Internet Service Provider", "ISP");
@@ -23001,6 +23081,7 @@ namespace OverflowHelper.core
             correctionAdd("installtion", "installation");
 
             correctionAdd("reinstallatio", "reinstallation");
+            correctionAdd("re-installation", "reinstallation");
 
             correctionAdd("openbsd", "OpenBSD");
             correctionAdd("obsd", "OpenBSD");
@@ -23303,10 +23384,6 @@ namespace OverflowHelper.core
             correctionAdd("Horiztonally", "horizontally");
             correctionAdd("horiztonally", "horizontally");
 
-            correctionAdd("managament", "management");
-            correctionAdd("mngt", "management");
-            correctionAdd("Management", "management");
-
             correctionAdd("portuguese", "Portuguese");
             correctionAdd("Purtiguise", "Portuguese");
             correctionAdd("Portugese", "Portuguese");
@@ -23590,14 +23667,6 @@ namespace OverflowHelper.core
 
             correctionAdd("dto", "DTO");
             correctionAdd("Dto", "DTO");
-
-            correctionAdd("MICROEMACS", "MicroEMACS");
-            correctionAdd("uEmacs", "MicroEMACS");
-            correctionAdd("microemacs", "MicroEMACS");
-            correctionAdd("Microemacs", "MicroEMACS");
-            correctionAdd("MicroEmacs", "MicroEMACS");
-            correctionAdd("MICROEmacs", "MicroEMACS");
-            correctionAdd("MICROemacs", "MicroEMACS");
 
             correctionAdd("netmon", "Network Monitor");
             correctionAdd("Netmon", "Network Monitor");
@@ -24583,6 +24652,8 @@ namespace OverflowHelper.core
             correctionAdd("amounf", "amount");
             correctionAdd("amont", "amount");
             correctionAdd("amout", "amount");
+
+            correctionAdd("para mount", "paramount");
 
             correctionAdd("aksing", "asking");
             correctionAdd("Asling", "asking");
@@ -26002,8 +26073,6 @@ namespace OverflowHelper.core
             correctionAdd("obselete", "obsolete");
             correctionAdd("obsolute", "obsolete");
             correctionAdd("obsolote", "obsolete");
-
-            correctionAdd("para mount", "paramount");
 
             correctionAdd("powerplant", "power plant");
 
@@ -27427,6 +27496,7 @@ namespace OverflowHelper.core
             correctionAdd("re-create", "recreate");
             correctionAdd("Re-create", "recreate");
             correctionAdd("recate", "recreate");
+            correctionAdd("recreat", "recreate");
 
             correctionAdd("creat", "create");
             correctionAdd("craete", "create");
@@ -27777,6 +27847,7 @@ namespace OverflowHelper.core
             correctionAdd("cheatsheet", "cheat sheet");
             correctionAdd("cheat-sheet", "cheat sheet");
             correctionAdd("Cheat Sheet", "cheat sheet");
+            correctionAdd("Cheat sheet", "cheat sheet");
 
             correctionAdd("counter example", "counterexample");
             correctionAdd("counter-example", "counterexample");
@@ -28394,17 +28465,6 @@ namespace OverflowHelper.core
             correctionAdd("Situation", "situation");
             correctionAdd("situatiuon", "situation");
 
-            correctionAdd("SCM", "source control management");
-            correctionAdd("scm", "source control management");
-            correctionAdd("source control", "source control management");
-            correctionAdd("VC", "source control management");
-            correctionAdd("version control", "source control management");
-            correctionAdd("Software Change Management", "source control management");
-            correctionAdd("software change management", "source control management");
-            correctionAdd("Source Code Control", "source control management");
-            correctionAdd("source code control", "source control management");
-            correctionAdd("version-control", "source control management");
-
             correctionAdd("syle", "style");
             correctionAdd("sytle", "style");
 
@@ -28451,6 +28511,7 @@ namespace OverflowHelper.core
             correctionAdd("backup", "back up");
             correctionAdd("bacakup", "back up");
             correctionAdd("back-up", "back up");
+            correctionAdd("Backup", "back up");
 
             correctionAdd("bluepencil", "blue-pencil");
 
@@ -28894,6 +28955,7 @@ namespace OverflowHelper.core
             correctionAdd("instl", "install");
             correctionAdd("intall", "install");
             correctionAdd("Install", "install");
+            correctionAdd("Intall", "install");
 
             correctionAdd("re-install", "reinstall");
             correctionAdd("Re-install", "reinstall");
@@ -30576,8 +30638,6 @@ namespace OverflowHelper.core
             correctionAdd("unmatainable", "unmaintainable");
 
             correctionAdd("Navier Stokes equation", "Navier–Stokes equations");
-
-            correctionAdd("AUR", "Arch User Repository");
 
             correctionAdd("yaourt", "Yaourt");
 
@@ -35486,8 +35546,6 @@ namespace OverflowHelper.core
             correctionAdd("low-pass", "low-pass filter");
             correctionAdd("LPF", "low-pass filter");
 
-            correctionAdd("micro management", "micromanagement");
-
             correctionAdd("milliamp", "milliampere");
 
             correctionAdd("milliVolt", "millivolt");
@@ -37345,8 +37403,6 @@ namespace OverflowHelper.core
 
             correctionAdd("esp32", "ESP32");
 
-            correctionAdd("doom emacs", "Doom Emacs");
-
             correctionAdd("survery", "survey");
 
             correctionAdd("canto", "Canto");
@@ -38753,8 +38809,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Chili", "Chile");
 
-            correctionAdd("Oracle ASM", "Oracle Automatic Storage Management");
-
             correctionAdd("pySerial", "PySerial");
             correctionAdd("Pyserial", "PySerial");
 
@@ -39633,12 +39687,13 @@ namespace OverflowHelper.core
 
             correctionAdd("pikc", "pick");
 
+            // A diff tool. KDE. Linux.
+            // Alternative URL: <https://apps.kde.org/kompare/>
             correctionAdd("kompare", "Kompare");
 
+            // A diff tool. Linux and Windows
             correctionAdd("meld", "Meld");
             correctionAdd("MELD", "Meld");
-
-            correctionAdd("xemacs", "XEmacs");
 
             correctionAdd("ddl", "DDL");
             correctionAdd("data definition language", "DDL");
@@ -39655,9 +39710,6 @@ namespace OverflowHelper.core
             correctionAdd("micrometer", "μm");
             correctionAdd("um", "μm");
             correctionAdd("micrometre", "μm");
-
-            correctionAdd("Pi-Hole", "Pi-hole");
-            correctionAdd("pihole", "Pi-hole");
 
             correctionAdd("adult's", "adults");
 
@@ -40421,9 +40473,6 @@ namespace OverflowHelper.core
             correctionAdd("leiningen", "Leiningen");
 
             correctionAdd("commentor", "commenter");
-
-            correctionAdd("elpa", "Emacs Lisp Package Archive");
-            correctionAdd("ELPA", "Emacs Lisp Package Archive");
 
             correctionAdd("melpa", "MELPA");
 
@@ -42642,6 +42691,7 @@ namespace OverflowHelper.core
 
             correctionAdd("boot loader", "bootloader");
             correctionAdd("bootloder", "bootloader");
+            correctionAdd("bootoloader", "bootloader");
 
             correctionAdd("contribues", "contributes");
 
@@ -42703,9 +42753,6 @@ namespace OverflowHelper.core
             correctionAdd("heding", "heading");
 
             correctionAdd("Specialty", "specialty");
-
-            correctionAdd("alacritty", "Alacritty");
-            correctionAdd("Allacritty", "Alacritty");
 
             correctionAdd("IBN", "Internet background radiation");
             correctionAdd("IBR", "Internet background radiation");
@@ -43008,8 +43055,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Points of Presence", "point of presence");
             correctionAdd("PoP", "point of presence");
-
-            correctionAdd("Quality Management", "quality management");
 
             correctionAdd("Software Quality Assurance", "software quality assurance");
             correctionAdd("SQA", "software quality assurance");
@@ -45511,8 +45556,6 @@ namespace OverflowHelper.core
             correctionAdd("nJoy", "enjoy");
             correctionAdd("enjoyy", "enjoy");
 
-            correctionAdd("filemanagement", "file management");
-
             correctionAdd("envoking", "invoking");
 
             correctionAdd("NETCAT", "netcat");
@@ -45536,8 +45579,6 @@ namespace OverflowHelper.core
             correctionAdd("coeercion", "coercion");
 
             correctionAdd("gate keeping", "gatekeeping");
-
-            correctionAdd("spacemacs", "Spacemacs");
 
             correctionAdd("alamred", "alarmed");
 
@@ -45726,8 +45767,6 @@ namespace OverflowHelper.core
             correctionAdd("NTFS junction", "junction point");
             correctionAdd("NTFS junction point", "junction point");
             correctionAdd("junction", "junction point");
-
-            correctionAdd("SIEM", "security information and event management");
 
             correctionAdd("sockpuppeting", "sock puppeting");
 
@@ -47587,6 +47626,7 @@ namespace OverflowHelper.core
 
             correctionAdd("maximum transmission unit", "MTU");
 
+            // Alternative URL: <https://www.youtube.com/watch?v=8PhdfcX9tG0&t=5m10s>
             correctionAdd("flogging a dead-horse", "flogging a dead horse");
 
             correctionAdd("BulmaJS", "Bulma");
@@ -49814,6 +49854,7 @@ namespace OverflowHelper.core
             correctionAdd("hack nerd fonts", "Hack Nerd Font");
 
             correctionAdd("nerd fonts", "Nerd Fonts");
+            correctionAdd("Nerd font", "Nerd Fonts");
 
             // See also <https://www.powerthesaurus.org/pluses_and_minuses>
             correctionAdd("plus and minus", "pluses and minuses");
@@ -50319,8 +50360,6 @@ namespace OverflowHelper.core
 
             correctionAdd("3 tier", "three-tiered");
 
-            correctionAdd("Arch Wiki", "ArchWiki");
-
             correctionAdd("benefical", "beneficial");
 
             // United States
@@ -50446,13 +50485,36 @@ namespace OverflowHelper.core
 
             correctionAdd("fixed-up", "fixed up");
 
-            correctionAdd("MOUNT", "mount");
-
             correctionAdd("resque", "rescue");
 
             correctionAdd("turn-key", "turnkey");
 
             correctionAdd("wellcome", "welcome");
+
+            correctionAdd("GDISK", "gdisk");
+
+            correctionAdd("gnus", "Gnus");
+
+            correctionAdd("Host Protected Area", "host protected area");
+            correctionAdd("HPA", "host protected area");
+
+            correctionAdd("proven", "proved");
+
+            // A Windows utility / application
+            correctionAdd("Puretext", "PureText");
+
+            correctionAdd("regolith", "Regolith");
+
+            correctionAdd("shucking", "shucking external hard drives");
+
+            correctionAdd("sligthest", "slightest");
+
+            correctionAdd("thorat", "throat");
+
+            // A CPU feature
+            correctionAdd("TurboBoost", "Turbo Boost");
+
+            correctionAdd("Easystore", "Western Digital Easystore");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -78575,6 +78637,36 @@ namespace OverflowHelper.core
 
             URL_Add("welcome", "https://en.wiktionary.org/wiki/welcome#Adjective");
 
+            URL_Add("Dired", "https://en.wikipedia.org/wiki/Dired");
+
+            URL_Add("gdisk", "https://linux.die.net/man/8/gdisk");
+
+            URL_Add("Gnus", "https://en.wikipedia.org/wiki/Gnus");
+
+            URL_Add("host protected area", "https://en.wikipedia.org/wiki/Host_protected_area");
+
+            URL_Add("Ibuffer mode", "https://www.emacswiki.org/emacs/IbufferMode");
+
+            URL_Add("List-buffers", "https://www.gnu.org/software/emacs/manual/html_node/emacs/List-Buffers.html");
+
+            URL_Add("proved", "https://en.wiktionary.org/wiki/prove#Verb");
+
+            URL_Add("PureText", "https://stevemiller.net/puretext/");
+
+            URL_Add("Regolith", "https://www.makeuseof.com/what-is-regolith-linux-desktop/");
+
+            URL_Add("shucking external hard drives", "https://www.howtogeek.com/324769/how-to-get-premium-hard-drives-for-cheap-by-shucking-external-drives/");
+
+            URL_Add("slightest", "https://en.wiktionary.org/wiki/slightest#Adjective");
+
+            URL_Add("throat", "https://en.wiktionary.org/wiki/throat#Noun");
+
+            URL_Add("Turbo Boost", "https://en.wikipedia.org/wiki/Intel_Turbo_Boost");
+
+            URL_Add("Western Digital Easystore", "https://en.wikipedia.org/wiki/Western_Digital#WD_brand");
+
+            URL_Add("Windows Server 2012 R2", "https://en.wikipedia.org/wiki/Windows_Server_2012_R2");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -80623,6 +80715,9 @@ namespace OverflowHelper.core
 
             correctionAdd("LTS_", "long-term support_");
 
+            correctionAdd("ESP_", "EFI system partition_");
+            correctionAdd("esp_", "EFI system partition_");
+
             // URL mappings
             //
             //
@@ -81781,6 +81876,8 @@ namespace OverflowHelper.core
             URL_Add("Oracle_", "https://en.wikipedia.org/wiki/Oracle_Corporation");
 
             URL_Add("long-term support_", "https://en.wikipedia.org/wiki/Long-term_support");
+
+            URL_Add("EFI system partition_", "https://en.wikipedia.org/wiki/EFI_system_partition");
 
         } //addLookupData_alternativeWordSet()
 
