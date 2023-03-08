@@ -438,6 +438,7 @@ namespace OverflowHelper.core
             correctionAdd("Widnows", "Windows");
             correctionAdd("winjeet", "Windows");
             correctionAdd("Winows", "Windows");
+            correctionAdd("winwoes", "Windows");
 
             correctionAdd("Win 3.11", "Windows 3.11");
             correctionAdd("Win3.x", "Windows 3.11");
@@ -3841,6 +3842,7 @@ namespace OverflowHelper.core
 
             // Linux. Windows. Partitioning
             correctionAdd("GUID Partition Table", "GPT");
+            correctionAdd("gpt", "GPT");
 
             // Linux. Windows. Partitioning
             correctionAdd("GRUB2", "GRUB 2");
@@ -5747,6 +5749,11 @@ namespace OverflowHelper.core
             correctionAdd("vulme", "volume");
 
             correctionAdd("nvme", "NVMe");
+
+            correctionAdd("NVME", "NVM Express");
+            correctionAdd("mvme", "NVM Express");
+            correctionAdd("mvve", "NVM Express");
+            correctionAdd("nvve", "NVM Express");
 
             correctionAdd("mi", "me");
             correctionAdd("med", "me");
@@ -9034,6 +9041,7 @@ namespace OverflowHelper.core
             correctionAdd("onw", "one");
             correctionAdd("onle", "one");
             correctionAdd("onde", "one");
+            correctionAdd("One", "one");
 
             correctionAdd("ones", "one’s");
             correctionAdd("One's", "one’s");
@@ -13068,6 +13076,12 @@ namespace OverflowHelper.core
             correctionAdd("INTERNET EXPLORER", "Internet&nbsp;Explorer");
             correctionAdd("nternet Explorer", "Internet&nbsp;Explorer");
 
+            correctionAdd("Internet Explorer 5", "Internet&nbsp;Explorer&nbsp;5"); // Sort of identity mapping
+            correctionAdd("IE 5", "Internet&nbsp;Explorer&nbsp;5");
+            correctionAdd("ie5", "Internet&nbsp;Explorer&nbsp;5");
+            correctionAdd("ie 5", "Internet&nbsp;Explorer&nbsp;5");
+            correctionAdd("IE5", "Internet&nbsp;Explorer&nbsp;5");
+
             correctionAdd("IE6", "Internet&nbsp;Explorer&nbsp;6");
             correctionAdd("IE 6", "Internet&nbsp;Explorer&nbsp;6");
             correctionAdd("ie6", "Internet&nbsp;Explorer&nbsp;6");
@@ -13114,6 +13128,40 @@ namespace OverflowHelper.core
             correctionAdd("Internet&nbsp;Explorer 11", "Internet&nbsp;Explorer&nbsp;11");
             correctionAdd("Internet Explorer 11", "Internet&nbsp;Explorer&nbsp;11"); // Effectively self (line-breaks)
             correctionAdd("MS IE 11", "Internet&nbsp;Explorer&nbsp;11");
+
+            correctionAdd("ISO-8859-1", "ISO&nbsp;8859-1");
+            correctionAdd("ISO 8859-1", "ISO&nbsp;8859-1");
+            correctionAdd("ISO 8859", "ISO&nbsp;8859-1");
+            correctionAdd("ISO8859", "ISO&nbsp;8859-1");
+            correctionAdd("ISO/IEC-8859", "ISO&nbsp;8859-1");
+            correctionAdd("IEC-8859", "ISO&nbsp;8859-1");
+            correctionAdd("ISO-8859", "ISO&nbsp;8859-1");
+            correctionAdd("iso-8859", "ISO&nbsp;8859-1");
+            correctionAdd("iso 8859", "ISO&nbsp;8859-1");
+            correctionAdd("iso-8859-1", "ISO&nbsp;8859-1");
+            correctionAdd("iso-5589-1", "ISO&nbsp;8859-1");
+            correctionAdd("8859-1", "ISO&nbsp;8859-1");
+            correctionAdd("8859", "ISO&nbsp;8859-1");
+            correctionAdd("8851", "ISO&nbsp;8859-1");
+            correctionAdd("Latin1", "ISO&nbsp;8859-1");
+            correctionAdd("Latin-1", "ISO&nbsp;8859-1");
+            correctionAdd("iso_8859_1", "ISO&nbsp;8859-1");
+            correctionAdd("iso 8859 1", "ISO&nbsp;8859-1");
+            correctionAdd("ISO 8851", "ISO&nbsp;8859-1");
+            correctionAdd("latin1", "ISO&nbsp;8859-1");
+            correctionAdd("Latin 1", "ISO&nbsp;8859-1");
+            correctionAdd("8681", "ISO&nbsp;8859-1");
+            correctionAdd("iso-8859-2", "ISO&nbsp;8859-1");
+
+            correctionAdd("ietf", "IETF");
+
+            correctionAdd("802.11", "IEEE 802.11");
+            correctionAdd("80211", "IEEE 802.11");
+
+            correctionAdd("ielts", "IELTS");
+
+            correctionAdd("iEEEtran", "IEEEtran");
+            correctionAdd("ieeetrans", "IEEEtran");
 
             correctionAdd("genge", "change");
             correctionAdd("Chnage", "change");
@@ -18600,6 +18648,7 @@ namespace OverflowHelper.core
             correctionAdd("whidh", "which");
             correctionAdd("Wich", "which");
             correctionAdd("Which", "which");
+            correctionAdd("whivch", "which");
 
             correctionAdd("fiddler", "Fiddler");
 
@@ -25499,30 +25548,6 @@ namespace OverflowHelper.core
 
             correctionAdd("fortnite", "Fortnite");
 
-            correctionAdd("ISO-8859-1", "ISO&nbsp;8859-1");
-            correctionAdd("ISO 8859-1", "ISO&nbsp;8859-1");
-            correctionAdd("ISO 8859", "ISO&nbsp;8859-1");
-            correctionAdd("ISO8859", "ISO&nbsp;8859-1");
-            correctionAdd("ISO/IEC-8859", "ISO&nbsp;8859-1");
-            correctionAdd("IEC-8859", "ISO&nbsp;8859-1");
-            correctionAdd("ISO-8859", "ISO&nbsp;8859-1");
-            correctionAdd("iso-8859", "ISO&nbsp;8859-1");
-            correctionAdd("iso 8859", "ISO&nbsp;8859-1");
-            correctionAdd("iso-8859-1", "ISO&nbsp;8859-1");
-            correctionAdd("iso-5589-1", "ISO&nbsp;8859-1");
-            correctionAdd("8859-1", "ISO&nbsp;8859-1");
-            correctionAdd("8859", "ISO&nbsp;8859-1");
-            correctionAdd("8851", "ISO&nbsp;8859-1");
-            correctionAdd("Latin1", "ISO&nbsp;8859-1");
-            correctionAdd("Latin-1", "ISO&nbsp;8859-1");
-            correctionAdd("iso_8859_1", "ISO&nbsp;8859-1");
-            correctionAdd("iso 8859 1", "ISO&nbsp;8859-1");
-            correctionAdd("ISO 8851", "ISO&nbsp;8859-1");
-            correctionAdd("latin1", "ISO&nbsp;8859-1");
-            correctionAdd("Latin 1", "ISO&nbsp;8859-1");
-            correctionAdd("8681", "ISO&nbsp;8859-1");
-            correctionAdd("iso-8859-2", "ISO&nbsp;8859-1");
-
             correctionAdd("lxc", "LXC");
 
             correctionAdd("mstest", "MSTest");
@@ -26902,6 +26927,7 @@ namespace OverflowHelper.core
 
             correctionAdd("accordindgly", "accordingly");
             correctionAdd("accondingly", "accordingly");
+            correctionAdd("acordingly", "accordingly");
 
             correctionAdd("coerse", "coerce");
 
@@ -29887,6 +29913,47 @@ namespace OverflowHelper.core
             correctionAdd("dis-assembly", "disassembly");
             correctionAdd("dissassembly", "disassembly");
 
+            correctionAdd("sytem", "system");
+            correctionAdd("sistem", "system");
+            correctionAdd("sysytem", "system");
+
+            correctionAdd("Embedded system", "embedded system");
+
+            correctionAdd("os", "operating system");
+            correctionAdd("OS", "operating system");
+            correctionAdd("O/S", "operating system");
+            correctionAdd("o/s", "operating system");
+            correctionAdd("Operating System", "operating system");
+            correctionAdd("Os", "operating system");
+            correctionAdd("Operating Sytem", "operating system");
+            correctionAdd("operation system", "operating system");
+            correctionAdd("operational system", "operating system");
+            correctionAdd("Operative system", "operating system");
+            correctionAdd("operative system", "operating system");
+            correctionAdd("Operating system", "operating system");
+            correctionAdd("operatating system", "operating system");
+            correctionAdd("Operation System", "operating system");
+            correctionAdd("operting system", "operating system");
+            correctionAdd("Operation system", "operating system");
+            correctionAdd("Opearting System", "operating system");
+            correctionAdd("operatig system", "operating system");
+            correctionAdd("opertive sytem", "operating system");
+
+            correctionAdd("FileSystem", "file system");
+            correctionAdd("FS", "file system");
+            correctionAdd("filesystem", "file system");
+            correctionAdd("file-system", "file system");
+            correctionAdd("file sytem", "file system");
+            correctionAdd("fs", "file system");
+            correctionAdd("filesytem", "file system");
+            correctionAdd("File system", "file system");
+            correctionAdd("file - system", "file system");
+
+            correctionAdd("VCS", "version control system"); // Expansion, actually ""
+            correctionAdd("vcs", "version control system");
+            correctionAdd("Version Control", "version control system");
+            correctionAdd("version-control system", "version control system");
+
             // Start of the chess part...
             correctionAdd("Rapid", "rapid"); // Chess
 
@@ -32093,57 +32160,11 @@ namespace OverflowHelper.core
 
             correctionAdd("skiped", "skipped");
 
-            correctionAdd("Embedded system", "embedded system");
-
-            correctionAdd("os", "operating system");
-            correctionAdd("OS", "operating system");
-            correctionAdd("O/S", "operating system");
-            correctionAdd("o/s", "operating system");
-            correctionAdd("Operating System", "operating system");
-            correctionAdd("Os", "operating system");
-            correctionAdd("Operating Sytem", "operating system");
-            correctionAdd("operation system", "operating system");
-            correctionAdd("operational system", "operating system");
-            correctionAdd("Operative system", "operating system");
-            correctionAdd("operative system", "operating system");
-            correctionAdd("Operating system", "operating system");
-            correctionAdd("operatating system", "operating system");
-            correctionAdd("Operation System", "operating system");
-            correctionAdd("operting system", "operating system");
-            correctionAdd("Operation system", "operating system");
-            correctionAdd("Opearting System", "operating system");
-            correctionAdd("operatig system", "operating system");
-            correctionAdd("opertive sytem", "operating system");
-
-            correctionAdd("FileSystem", "file system");
-            correctionAdd("FS", "file system");
-            correctionAdd("filesystem", "file system");
-            correctionAdd("file-system", "file system");
-            correctionAdd("file sytem", "file system");
-            correctionAdd("fs", "file system");
-            correctionAdd("filesytem", "file system");
-            correctionAdd("File system", "file system");
-            correctionAdd("file - system", "file system");
-
-            correctionAdd("VCS", "version control system"); // Expansion, actually ""
-            correctionAdd("vcs", "version control system");
-            correctionAdd("Version Control", "version control system");
-            correctionAdd("version-control system", "version control system");
-
-            correctionAdd("sytem", "system");
-            correctionAdd("sistem", "system");
-
             correctionAdd("ugrade", "upgrade");
             correctionAdd("upgade", "upgrade");
             correctionAdd("upgrage", "upgrade");
 
             correctionAdd("upgaded", "upgraded");
-
-            correctionAdd("Internet Explorer 5", "Internet&nbsp;Explorer&nbsp;5"); // Sort of identity mapping
-            correctionAdd("IE 5", "Internet&nbsp;Explorer&nbsp;5");
-            correctionAdd("ie5", "Internet&nbsp;Explorer&nbsp;5");
-            correctionAdd("ie 5", "Internet&nbsp;Explorer&nbsp;5");
-            correctionAdd("IE5", "Internet&nbsp;Explorer&nbsp;5");
 
             correctionAdd("alianate", "alienate");
 
@@ -32356,8 +32377,6 @@ namespace OverflowHelper.core
 
             correctionAdd("precense", "presence");
             correctionAdd("presense", "presence");
-
-            correctionAdd("ietf", "IETF");
 
             correctionAdd("no-follow", "nofollow");
 
@@ -36798,9 +36817,6 @@ namespace OverflowHelper.core
             correctionAdd("fsf", "Free Software Foundation");
             correctionAdd("FSF", "Free Software Foundation");
 
-            correctionAdd("802.11", "IEEE 802.11");
-            correctionAdd("80211", "IEEE 802.11");
-
             correctionAdd("quebec", "Quebec");
 
             correctionAdd("comutter", "commuter");
@@ -39734,8 +39750,6 @@ namespace OverflowHelper.core
             correctionAdd("circuitikz", "CircuiTikZ");
 
             correctionAdd("excite", "Excite");
-
-            correctionAdd("ielts", "IELTS");
 
             correctionAdd("mba", "MBA");
 
@@ -42800,9 +42814,6 @@ namespace OverflowHelper.core
             correctionAdd("gawk", "Gawk");
             correctionAdd("GAWK", "Gawk");
 
-            correctionAdd("iEEEtran", "IEEEtran");
-            correctionAdd("ieeetrans", "IEEEtran");
-
             correctionAdd("poytning theorem", "Poynting's theorem");
             correctionAdd("Poynting theorem", "Poynting's theorem");
             correctionAdd("Poytning theorem", "Poynting's theorem");
@@ -42883,6 +42894,8 @@ namespace OverflowHelper.core
             correctionAdd("boot loader", "bootloader");
             correctionAdd("bootloder", "bootloader");
             correctionAdd("bootoloader", "bootloader");
+            correctionAdd("Boot-Loader", "bootloader");
+            correctionAdd("boot-loader", "bootloader");
 
             correctionAdd("contribues", "contributes");
 
@@ -44986,6 +44999,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Internet archive", "Internet Archive");
             correctionAdd("internet archive", "Internet Archive");
+            correctionAdd("archive.org", "Internet Archive");
 
             correctionAdd("melbourne", "Melbourne");
 
@@ -47004,6 +47018,7 @@ namespace OverflowHelper.core
             correctionAdd("raylib", "Raylib");
 
             correctionAdd("enbled", "enabled");
+            correctionAdd("anabled", "enabled");
 
             correctionAdd("bokeh", "Bokeh");
 
@@ -50643,8 +50658,6 @@ namespace OverflowHelper.core
 
             correctionAdd("NBD", "network block device");
 
-            correctionAdd("NVME", "NVM Express");
-
             correctionAdd("worhtful", "worthful");
 
             correctionAdd("breath-holding", "breathholding");
@@ -50698,6 +50711,22 @@ namespace OverflowHelper.core
             correctionAdd("keycloak", "Keycloak");
 
             correctionAdd("OIDC", "OpenID Connect");
+
+            correctionAdd("abscent", "absent");
+
+            correctionAdd("Blkid", "blkid");
+
+            correctionAdd("Bootable", "bootable");
+
+            correctionAdd("CHATTR", "chattr");
+
+            correctionAdd("misschoice", "mischoice");
+
+            correctionAdd("partuuid", "PARTUUID");
+
+            correctionAdd("ptuuid", "PTUUID");
+
+            correctionAdd("rvalue", "r-value");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -78928,6 +78957,22 @@ namespace OverflowHelper.core
 
             URL_Add("OpenID Connect", "https://en.wikipedia.org/wiki/OpenID#OpenID_Connect_(OIDC)");
 
+            URL_Add("absent", "https://en.wiktionary.org/wiki/absent#Adjective");
+
+            URL_Add("blkid", "https://linux.die.net/man/8/blkid");
+
+            URL_Add("bootable", "https://en.wiktionary.org/wiki/bootable#Adjective");
+
+            URL_Add("chattr", "https://en.wikipedia.org/wiki/Chattr");
+
+            URL_Add("mischoice", "https://en.wiktionary.org/wiki/mischoice#Noun");
+
+            URL_Add("PARTUUID", "https://unix.stackexchange.com/questions/375548/what-is-uuid-partuuid-and-ptuuid");
+
+            URL_Add("PTUUID", "https://unix.stackexchange.com/questions/375548/what-is-uuid-partuuid-and-ptuuid");
+
+            URL_Add("r-value", "https://en.wikipedia.org/wiki/Value_(computer_science)#lrvalue");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -80992,9 +81037,9 @@ namespace OverflowHelper.core
             //
             correctionAdd("parted_", "Parted_");
 
-            // Alternative URL: 
+            // Alternative URL:
             //
-            //   <https://testsigma.com/blog/css-breakpoints/#What_are_CSS_breakpoints> 
+            //   <https://testsigma.com/blog/css-breakpoints/#What_are_CSS_breakpoints>
             //
             correctionAdd("breakpoint_", "CSS breakpoint_");
 
