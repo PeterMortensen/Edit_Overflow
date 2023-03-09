@@ -2526,6 +2526,7 @@ namespace OverflowHelper.core
             correctionAdd("Linux distro", "distribution");
             correctionAdd("destro", "distribution");
             correctionAdd("disto", "distribution");
+            correctionAdd("distribute", "distribution");
 
             // A Linux distribution
             correctionAdd("Pop! OS", "Pop!_OS");
@@ -2620,6 +2621,10 @@ namespace OverflowHelper.core
             correctionAdd("Arch linux", "Arch Linux");
             correctionAdd("Arch-Linux", "Arch Linux");
             correctionAdd("ArhLinux", "Arch Linux");
+            correctionAdd("Linux Arch", "Arch Linux");
+            correctionAdd("Linux arch", "Arch Linux");
+            correctionAdd("linux arch", "Arch Linux");
+            correctionAdd("ARCH", "Arch Linux");
 
             // Arch Linux
             correctionAdd("AUR", "Arch User Repository");
@@ -2988,6 +2993,8 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
             correctionAdd("Ubuntu Bionic Beaver", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
             correctionAdd("Ubuntu 18 LTS", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu Bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
 
             correctionAdd("Ubuntu 18.10 (Cosmic Cuttlefish)", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)"); // Sort of identity mapping
             correctionAdd("Ubuntu Cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
@@ -3395,6 +3402,21 @@ namespace OverflowHelper.core
             // Unix
             correctionAdd("SUNOS", "SunOS");
             correctionAdd("sunos", "SunOS");
+
+            correctionAdd("kernal", "kernel"); // The old misspelling is reserved for Commodore only (shame on them for carrying it forward).
+            correctionAdd("Kernel", "kernel");
+            correctionAdd("kenel", "kernel");
+            correctionAdd("Kernal", "kernel");
+            correctionAdd("Karnal", "kernel");
+            correctionAdd("karnal", "kernel");
+            correctionAdd("kerenel", "kernel");
+
+            correctionAdd("micro-kernel", "microkernel");
+
+            correctionAdd("kernels", "CUDA kernels");
+
+            correctionAdd("Kernel Density Estimation", "kernel density estimation");
+            correctionAdd("Kernel Density Estimates", "kernel density estimation");
 
             correctionAdd("LTT", "Linux Tech Tips");
             correctionAdd("ltt", "Linux Tech Tips");
@@ -3873,6 +3895,18 @@ namespace OverflowHelper.core
             // Video editing software. Based on KDE and
             // Qt (Linux), but it is cross-platform.
             correctionAdd("kdenlive", "Kdenlive");
+
+            // Linux
+            correctionAdd("Blkid", "blkid");
+
+            // Linux
+            correctionAdd("CHATTR", "chattr");
+
+            // Linux. GRUB. Partitioning.
+            correctionAdd("partuuid", "PARTUUID");
+
+            // Linux. GRUB. Partitioning.
+            correctionAdd("ptuuid", "PTUUID");
 
             // Bluetooth. A Linux tool.
             correctionAdd("gattool", "gatttool");
@@ -5754,6 +5788,7 @@ namespace OverflowHelper.core
             correctionAdd("mvme", "NVM Express");
             correctionAdd("mvve", "NVM Express");
             correctionAdd("nvve", "NVM Express");
+            correctionAdd("MVNe", "NVM Express");
 
             correctionAdd("mi", "me");
             correctionAdd("med", "me");
@@ -16907,6 +16942,7 @@ namespace OverflowHelper.core
             correctionAdd("live-cd", "live CD");
             correctionAdd("liveCd", "live CD");
             correctionAdd("Live-CD", "live CD");
+            correctionAdd("Live Cd", "live CD");
 
             correctionAdd("apps", "application"); // Plural, to avoid nearly duplicate entries.
             correctionAdd("Apps", "application"); // Plural, to avoid nearly duplicate entries.
@@ -18573,6 +18609,8 @@ namespace OverflowHelper.core
             correctionAdd("Bird-site", "Twitter");
             correctionAdd("bird site", "Twitter");
             correctionAdd("bird-site", "Twitter");
+            correctionAdd("twiiter", "Twitter");
+            correctionAdd("twiter", "Twitter");
 
             correctionAdd("AppStore", "App&nbsp;Store");
             correctionAdd("App Store", "App&nbsp;Store");
@@ -21583,13 +21621,6 @@ namespace OverflowHelper.core
             correctionAdd("existanse", "existence");
             correctionAdd("existense", "existence");
 
-            correctionAdd("kernal", "kernel"); // The old misspelling is reserved for Commodore only (shame on them for carrying it forward).
-            correctionAdd("Kernel", "kernel");
-            correctionAdd("kenel", "kernel");
-            correctionAdd("Kernal", "kernel");
-            correctionAdd("Karnal", "kernel");
-            correctionAdd("karnal", "kernel");
-
             correctionAdd("scilab", "Scilab");
             correctionAdd("SciLab", "Scilab");
             correctionAdd("SCILAB", "Scilab");
@@ -22072,6 +22103,7 @@ namespace OverflowHelper.core
             correctionAdd("dosen’t", "doesn’t");
             correctionAdd("doesn'", "doesn’t");
             correctionAdd("doesn t", "doesn’t");
+            correctionAdd("doestn", "doesn’t");
 
             correctionAdd("grammer", "grammar");
             correctionAdd("Grammar", "grammar");
@@ -25417,6 +25449,7 @@ namespace OverflowHelper.core
             correctionAdd("ampacity", "current");
             correctionAdd("Current", "current");
             correctionAdd("curent", "current");
+            correctionAdd("ctrrent", "current");
 
             correctionAdd("never-the-less", "nevertheless");
             correctionAdd("never the less", "nevertheless");
@@ -26131,6 +26164,7 @@ namespace OverflowHelper.core
             correctionAdd("wan", "want");
             correctionAdd("wante", "want");
             correctionAdd("wnt", "want");
+            correctionAdd("WanT", "want");
 
             correctionAdd("work force", "workforce");
 
@@ -31734,6 +31768,7 @@ namespace OverflowHelper.core
             correctionAdd("BOOSTRAP", "Bootstrap");
             correctionAdd("bootsrap", "Bootstrap");
             correctionAdd("Twitter Bootstrap", "Bootstrap");
+            correctionAdd("twiiter bootstrap", "Bootstrap");
 
             correctionAdd("yer", "yet");
 
@@ -31793,6 +31828,7 @@ namespace OverflowHelper.core
             correctionAdd("doube", "double");
             correctionAdd("dubble", "double");
             correctionAdd("doubble", "double");
+            correctionAdd("duble", "double");
 
             correctionAdd("femenine", "feminine");
 
@@ -39030,6 +39066,7 @@ namespace OverflowHelper.core
             correctionAdd("quiker", "quicker");
 
             correctionAdd("re-format", "reformat");
+            correctionAdd("reformate", "reformat");
 
             correctionAdd("hash-pling", "shebang");
             correctionAdd("sha-bang", "shebang");
@@ -40969,8 +41006,6 @@ namespace OverflowHelper.core
 
             correctionAdd("lengthly", "lengthy");
 
-            correctionAdd("kernels", "CUDA kernels");
-
             correctionAdd("CrunchBase", "Crunchbase");
 
             correctionAdd("gid", "GID");
@@ -42019,9 +42054,6 @@ namespace OverflowHelper.core
             correctionAdd("sophos", "Sophos");
 
             correctionAdd("Complain", "complain");
-
-            correctionAdd("Kernel Density Estimation", "kernel density estimation");
-            correctionAdd("Kernel Density Estimates", "kernel density estimation");
 
             correctionAdd("Mixture Model", "mixture model");
 
@@ -48403,8 +48435,6 @@ namespace OverflowHelper.core
 
             correctionAdd("on a platter", "on a silver platter");
 
-            correctionAdd("micro-kernel", "microkernel");
-
             correctionAdd("multi-user", "multiuser");
 
             correctionAdd("SDIO", "Secure Digital Input Output");
@@ -50714,19 +50744,33 @@ namespace OverflowHelper.core
 
             correctionAdd("abscent", "absent");
 
-            correctionAdd("Blkid", "blkid");
-
             correctionAdd("Bootable", "bootable");
-
-            correctionAdd("CHATTR", "chattr");
 
             correctionAdd("misschoice", "mischoice");
 
-            correctionAdd("partuuid", "PARTUUID");
-
-            correctionAdd("ptuuid", "PTUUID");
-
             correctionAdd("rvalue", "r-value");
+
+            // Linux. A terminal program.
+            correctionAdd("LX Terminal", "LXTerminal");
+
+            // Linux. A terminal program.
+            //
+            // Alternative URLs:
+            //
+            //   <https://wiki.archlinux.org/title/Rxvt-unicode>
+            //   <https://en.wikipedia.org/wiki/Rxvt>
+            //
+            //
+            correctionAdd("URXVT", "rxvt-unicode");
+
+            correctionAdd("truble", "trouble");
+
+            correctionAdd("Hardware Enablement", "Ubuntu Hardware Enablement");
+            correctionAdd("HWE", "Ubuntu Hardware Enablement");
+
+            correctionAdd("yaboot", "Yaboot");
+
+            correctionAdd("Zipl", "zipl");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -78973,6 +79017,18 @@ namespace OverflowHelper.core
 
             URL_Add("r-value", "https://en.wikipedia.org/wiki/Value_(computer_science)#lrvalue");
 
+            URL_Add("LXTerminal", "https://github.com/lxde/lxterminal");
+
+            URL_Add("rxvt-unicode", "https://man.archlinux.org/man/urxvt.1");
+
+            URL_Add("trouble", "https://en.wiktionary.org/wiki/trouble#Noun");
+
+            URL_Add("Ubuntu Hardware Enablement", "https://ubuntu.com/kernel/lifecycle");
+
+            URL_Add("Yaboot", "https://en.wikipedia.org/wiki/Yaboot");
+
+            URL_Add("zipl", "https://www.ibm.com/docs/en/linux-on-systems?topic=u-boot-device");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -81043,6 +81099,10 @@ namespace OverflowHelper.core
             //
             correctionAdd("breakpoint_", "CSS breakpoint_");
 
+            correctionAdd("fallback_", "fall back_");
+
+            correctionAdd("LSB_", "Linux Standard Base_");
+
             // URL mappings
             //
             //
@@ -82207,6 +82267,10 @@ namespace OverflowHelper.core
             URL_Add("Parted_", "https://en.wikipedia.org/wiki/GNU_Parted");
 
             URL_Add("CSS breakpoint_", "https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/");
+
+            URL_Add("fall back_", "https://en.wiktionary.org/wiki/fall_back#Verb");
+
+            URL_Add("Linux Standard Base_", "https://en.wikipedia.org/wiki/Linux_Standard_Base");
 
         } //addLookupData_alternativeWordSet()
 
