@@ -4359,6 +4359,20 @@ namespace OverflowHelper.core
             correctionAdd("Encodeing", "encoding");
             correctionAdd("encodeing", "encoding");
 
+            correctionAdd("prject", "project");
+            correctionAdd("projet", "project");
+            correctionAdd("proj", "project");
+            correctionAdd("projcet", "project");
+            correctionAdd("proyect", "project");
+            correctionAdd("Projekt", "project");
+            correctionAdd("projekt", "project");
+            correctionAdd("Project", "project");
+            correctionAdd("projct", "project");
+            correctionAdd("poject", "project");
+            correctionAdd("prj", "project");
+            correctionAdd("Prject", "project");
+            correctionAdd("procect", "project");
+
             // A programming web site
             correctionAdd("cp", "The Code Project");
             correctionAdd("CP", "The Code Project");
@@ -4688,6 +4702,7 @@ namespace OverflowHelper.core
             correctionAdd("stackechange", "Stack&nbsp;Exchange");
             correctionAdd("stackex", "Stack&nbsp;Exchange");
             correctionAdd("StackX", "Stack&nbsp;Exchange");
+            correctionAdd("S/E", "Stack&nbsp;Exchange");
 
             // Stack Overflow
             correctionAdd("full stackoverflow developer", "full Stack Overflow developer");
@@ -5080,6 +5095,7 @@ namespace OverflowHelper.core
             correctionAdd("the Unix site", "Unix & Linux (Stack Exchange site)");
             correctionAdd("unix/linux", "Unix & Linux (Stack Exchange site)");
             correctionAdd("unix.stackexchange.com", "Unix & Linux (Stack Exchange site)");
+            correctionAdd("Unix And Linux", "Unix & Linux (Stack Exchange site)");
 
             correctionAdd("Expatriates", "Expatriates (Stack Exchange site)");
             correctionAdd("expatriates", "Expatriates (Stack Exchange site)");
@@ -12099,6 +12115,7 @@ namespace OverflowHelper.core
             correctionAdd("ck550", "CK550 V2");
             correctionAdd("ck550 v2", "CK550 V2");
             correctionAdd("CK-550 V2", "CK550 V2");
+            correctionAdd("CK550 v2", "CK550 V2");
 
             // A mechanical keyboard from Cooler Master
             //
@@ -12627,6 +12644,8 @@ namespace OverflowHelper.core
             correctionAdd("Parameter", "parameter");
             correctionAdd("parm", "parameter");
             correctionAdd("parms", "parameter");
+            correctionAdd("parmeter", "parameter");
+            correctionAdd("prameter", "parameter");
 
             correctionAdd("defualt", "default");
             correctionAdd("defult", "default");
@@ -15199,6 +15218,7 @@ namespace OverflowHelper.core
             correctionAdd("downvet", "downvote");
             correctionAdd("downvot", "downvote");
             correctionAdd("dowmvote", "downvote");
+            correctionAdd("Down vote", "downvote");
 
             correctionAdd("dved", "downvoted");
             correctionAdd("donwvoted", "downvoted");
@@ -17034,6 +17054,7 @@ namespace OverflowHelper.core
             correctionAdd("htaccess file", ".htaccess");
             correctionAdd(".htacces", ".htaccess");
             correctionAdd("Htaccess", ".htaccess");
+            correctionAdd("htacceess", ".htaccess");
 
             correctionAdd("OFDMA", "orthogonal frequency-division multiple access");
 
@@ -18277,6 +18298,8 @@ namespace OverflowHelper.core
             correctionAdd("repuation", "reputation points");
             correctionAdd("repution", "reputation points");
             correctionAdd("Reps", "reputation points");
+            correctionAdd("Pointz", "reputation points");
+            correctionAdd("pointz", "reputation points");
 
             correctionAdd("squid", "Squid");
 
@@ -19854,6 +19877,8 @@ namespace OverflowHelper.core
             correctionAdd("Filezilla", "FileZilla");
             correctionAdd("file zilla", "FileZilla");
             correctionAdd("fileZilla", "FileZilla");
+            correctionAdd("FileZila", "FileZilla");
+            correctionAdd("Filezila", "FileZilla");
 
             correctionAdd("spi", "SPI");
 
@@ -20442,6 +20467,8 @@ namespace OverflowHelper.core
             correctionAdd("AV software", "antivirus software");
             correctionAdd("Antivirus", "antivirus software");
             correctionAdd("antivirus soft", "antivirus software");
+            correctionAdd("anti-malware", "antivirus software");
+            correctionAdd("antimalware", "antivirus software");
 
             correctionAdd("sw", "software");
             correctionAdd("SW", "software");
@@ -22922,19 +22949,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Coding Standard", "coding standard");
 
-            correctionAdd("prject", "project");
-            correctionAdd("projet", "project");
-            correctionAdd("proj", "project");
-            correctionAdd("projcet", "project");
-            correctionAdd("proyect", "project");
-            correctionAdd("Projekt", "project");
-            correctionAdd("projekt", "project");
-            correctionAdd("Project", "project");
-            correctionAdd("projct", "project");
-            correctionAdd("poject", "project");
-            correctionAdd("prj", "project");
-            correctionAdd("Prject", "project");
-
             correctionAdd("greenfield", "greenfield project");
             correctionAdd("green field", "greenfield project");
 
@@ -24383,6 +24397,7 @@ namespace OverflowHelper.core
             correctionAdd("I stead", "instead");
             correctionAdd("insteed", "instead");
             correctionAdd("indtead", "instead");
+            correctionAdd("istead", "instead");
 
             correctionAdd("rethorical", "rhetorical");
             correctionAdd("rethorocal", "rhetorical");
@@ -25177,6 +25192,9 @@ namespace OverflowHelper.core
             correctionAdd("Spreadsheet", "spreadsheet");
             correctionAdd("spreadhsset", "spreadsheet");
             correctionAdd("spreadshset", "spreadsheet");
+            correctionAdd("Spread Sheet", "spreadsheet");
+            correctionAdd("SpreadSheet", "spreadsheet");
+            correctionAdd("spread sheet", "spreadsheet");
 
             correctionAdd("sintax", "syntax");
             correctionAdd("sytax", "syntax");
@@ -32485,6 +32503,7 @@ namespace OverflowHelper.core
 
             correctionAdd("hanling", "handling");
             correctionAdd("Hanling", "handling");
+            correctionAdd("handeling", "handling");
 
             correctionAdd("ioen", "join");
 
@@ -48643,6 +48662,7 @@ namespace OverflowHelper.core
             correctionAdd("consequece", "consequence");
 
             correctionAdd("deleteing", "deleting");
+            correctionAdd("deletin", "deleting");
 
             correctionAdd("higher up", "higher-up");
 
@@ -49046,6 +49066,8 @@ namespace OverflowHelper.core
             correctionAdd("AME", "Aviation Medical Examiner");
 
             correctionAdd("cronjob", "cron job");
+            correctionAdd("Cron Job", "cron job");
+            correctionAdd("CronJob", "cron job");
 
             correctionAdd("multi-lingual", "multilingual");
 
@@ -50768,9 +50790,35 @@ namespace OverflowHelper.core
             correctionAdd("Hardware Enablement", "Ubuntu Hardware Enablement");
             correctionAdd("HWE", "Ubuntu Hardware Enablement");
 
+            // A PC bootloader (like GRUB)
             correctionAdd("yaboot", "Yaboot");
 
+            // A PC bootloader (like GRUB)
             correctionAdd("Zipl", "zipl");
+
+            correctionAdd("airconditioner", "air conditioner");
+            correctionAdd("air-conditioner", "air conditioner");
+
+            correctionAdd("If all else fails", "if all else fails");
+
+            correctionAdd("late-comer", "latecomer");
+
+            correctionAdd("mis-clicked", "misclicked");
+
+            correctionAdd("netetiquette", "netiquette");
+
+            correctionAdd("old timer", "oldtimer");
+            correctionAdd("old-timer", "oldtimer");
+
+            correctionAdd("on-boarded", "onboarded");
+
+            correctionAdd("lookout", "look out");
+            correctionAdd("lookuout", "look out");
+
+            // Artificial neural networks
+            correctionAdd("Perceptron", "perceptron");
+
+            correctionAdd("whack a mole", "whack-a-mole");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -79029,6 +79077,26 @@ namespace OverflowHelper.core
 
             URL_Add("zipl", "https://www.ibm.com/docs/en/linux-on-systems?topic=u-boot-device");
 
+            URL_Add("air conditioner", "https://en.wiktionary.org/wiki/air_conditioner#Noun");
+
+            URL_Add("if all else fails", "https://www.merriam-webster.com/dictionary/when%20all%20else%20fails");
+
+            URL_Add("latecomer", "https://en.wiktionary.org/wiki/latecomer#Noun");
+
+            URL_Add("misclicked", "https://en.wiktionary.org/wiki/misclick#Verb");
+
+            URL_Add("netiquette", "https://en.wikipedia.org/wiki/Etiquette_in_technology#Netiquette");
+
+            URL_Add("oldtimer", "https://en.wiktionary.org/wiki/oldtimer#Noun");
+
+            URL_Add("onboarded", "https://en.wiktionary.org/wiki/onboard#Verb");
+
+            URL_Add("look out", "https://en.wiktionary.org/wiki/look_out#Verb");
+
+            URL_Add("perceptron", "https://en.wikipedia.org/wiki/Perceptron");
+
+            URL_Add("whack-a-mole", "https://en.wiktionary.org/wiki/whack-a-mole#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -80690,6 +80758,7 @@ namespace OverflowHelper.core
             correctionAdd("tiring_", "tiering_");
 
             correctionAdd("clean-up_", "cleanup_");
+            correctionAdd("clean up_", "cleanup_");
 
             correctionAdd("WRAP_", "Warp_");
             correctionAdd("warp_", "Warp_");
@@ -81102,6 +81171,10 @@ namespace OverflowHelper.core
             correctionAdd("fallback_", "fall back_");
 
             correctionAdd("LSB_", "Linux Standard Base_");
+
+            // TCP/IP
+            correctionAdd("TTL_", "time to live_");
+            correctionAdd("Time To Live_", "time to live_");
 
             // URL mappings
             //
@@ -82271,6 +82344,8 @@ namespace OverflowHelper.core
             URL_Add("fall back_", "https://en.wiktionary.org/wiki/fall_back#Verb");
 
             URL_Add("Linux Standard Base_", "https://en.wikipedia.org/wiki/Linux_Standard_Base");
+
+            URL_Add("time to live_", "https://en.wikipedia.org/wiki/Time_to_live");
 
         } //addLookupData_alternativeWordSet()
 
