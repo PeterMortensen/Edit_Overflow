@@ -51486,7 +51486,7 @@ namespace OverflowHelper.core
 
             URL_Add("Hibernate", "https://en.wikipedia.org/wiki/Hibernate_%28Java%29");
 
-            URL_Add("POCO", "https://en.wikipedia.org/wiki/Plain_Old_CLR_Object");
+            URL_Add("POCO", "https://en.wikipedia.org/wiki/Plain_old_CLR_object"); // Old: https://en.wikipedia.org/wiki/Plain_Old_CLR_Object
 
             URL_Add("Struts", "https://en.wikipedia.org/wiki/Apache_Struts");
 
@@ -51745,7 +51745,7 @@ namespace OverflowHelper.core
 
             URL_Add("BitTorrent", "https://en.wikipedia.org/wiki/BitTorrent");
 
-            URL_Add("Notepad", "https://en.wikipedia.org/wiki/Notepad_%28software%29");
+            URL_Add("Notepad", "https://en.wikipedia.org/wiki/Windows_Notepad"); // Old: https://en.wikipedia.org/wiki/Notepad_%28software%29
 
             URL_Add("WordPad", "https://en.wikipedia.org/wiki/WordPad");
 
@@ -51976,7 +51976,7 @@ namespace OverflowHelper.core
 
             URL_Add("WMV", "https://en.wikipedia.org/wiki/Windows_Media_Video");
 
-            URL_Add("MP4", "https://en.wikipedia.org/wiki/MPEG-4_Part_14");
+            URL_Add("MP4", "https://en.wikipedia.org/wiki/MP4_file_format"); // https://en.wikipedia.org/wiki/MPEG-4_Part_14
 
             URL_Add("H.264", "https://en.wikipedia.org/wiki/H.264/MPEG-4_AVC");
 
@@ -52894,7 +52894,7 @@ namespace OverflowHelper.core
 
             URL_Add("sketch", "http://www.arduino.cc/en/Tutorial/Sketch");
 
-            URL_Add("plain old data structure", "https://en.wikipedia.org/wiki/Plain_old_data_structure");
+            URL_Add("plain old data structure", "https://en.wikipedia.org/wiki/Passive_data_structure"); // Old: https://en.wikipedia.org/wiki/Plain_old_data_structure
 
             URL_Add("PWM", "https://en.wikipedia.org/wiki/Pulse-width_modulation");
 
@@ -53180,8 +53180,6 @@ namespace OverflowHelper.core
 
             URL_Add("EPS", "https://en.wikipedia.org/wiki/Encapsulated_PostScript");
 
-            URL_Add("EFI", "https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface");
-
             URL_Add("LogCat", "https://developer.android.com/studio/debug/am-logcat"); // Old (404 now): https://sites.google.com/site/androidhowto/how-to-1/save-logcat-to-a-text-file
 
             URL_Add("between", "https://en.wiktionary.org/wiki/between#Preposition"); // Old: https://en.wiktionary.org/wiki/between
@@ -53192,7 +53190,7 @@ namespace OverflowHelper.core
 
             URL_Add("Photoshop", "https://en.wikipedia.org/wiki/Adobe_Photoshop");
 
-            URL_Add("microSD", "https://en.wikipedia.org/wiki/Secure_Digital#Physical_size");
+            URL_Add("microSD", "https://en.wikipedia.org/wiki/SD_card#Physical_size"); // https://en.wikipedia.org/wiki/Secure_Digital#Physical_size
 
             URL_Add("Nmap", "https://en.wikipedia.org/wiki/Nmap");
 
@@ -53236,7 +53234,7 @@ namespace OverflowHelper.core
 
             URL_Add("Simulink", "https://en.wikipedia.org/wiki/Simulink");
 
-            URL_Add("URL encoding", "https://en.wikipedia.org/wiki/Percent-encoding");
+            URL_Add("URL encoding", "https://en.wikipedia.org/wiki/URL_encoding"); // Old: https://en.wikipedia.org/wiki/Percent-encoding
 
             URL_Add("Play Framework", "https://en.wikipedia.org/wiki/Play_Framework");
 
@@ -53610,8 +53608,6 @@ namespace OverflowHelper.core
 
             URL_Add("AdSense", "https://en.wikipedia.org/wiki/AdSense");
 
-            URL_Add("UEFI", "https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface");
-
             URL_Add("RAII", "https://en.wikipedia.org/wiki/Resource_Acquisition_Is_Initialization");
 
             URL_Add("relevant", "https://en.wiktionary.org/wiki/relevant#Adjective");
@@ -53872,7 +53868,7 @@ namespace OverflowHelper.core
 
             URL_Add("Get-Help", "https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.core/Get-Help"); // Old: http://technet.microsoft.com/en-us/library/hh849696.aspx
 
-            URL_Add("Remove-Item", "http://technet.microsoft.com/en-us/library/hh849765.aspx");
+            URL_Add("Remove-Item", "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/remove-item"); // Old: http://technet.microsoft.com/en-us/library/hh849765.aspx
 
             URL_Add("WMI", "https://en.wikipedia.org/wiki/Windows_Management_Instrumentation");
 
@@ -54774,7 +54770,7 @@ namespace OverflowHelper.core
 
             URL_Add("Set-Service", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/set-service");
 
-            URL_Add("ATtiny85", "http://www.microchip.com/wwwproducts/en/ATtiny85");
+            URL_Add("ATtiny85", "https://www.microchip.com/en-us/product/ATtiny85"); // Old: http://www.microchip.com/wwwproducts/en/ATtiny85
 
             URL_Add("Fritzing", "https://en.wikipedia.org/wiki/Fritzing");
 
@@ -56811,8 +56807,6 @@ namespace OverflowHelper.core
 
             URL_Add("Bower", "https://bower.io/");
 
-            URL_Add("Cherry MX", "https://en.wikipedia.org/wiki/Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards"); // Old: https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards
-
             URL_Add("GTK", "https://en.wikipedia.org/wiki/GTK");
 
             URL_Add("Indiegogo", "https://en.wikipedia.org/wiki/Indiegogo");
@@ -56823,7 +56817,7 @@ namespace OverflowHelper.core
 
             URL_Add("Mars", "https://en.wikipedia.org/wiki/Mars");
 
-            URL_Add("Razer BlackWidow", "https://www.razer.com/gaming-keyboards-keypads/razer-blackwidow");
+            URL_Add("Razer BlackWidow", "https://en.wikipedia.org/wiki/List_of_Razer_products#Keyboards"); // Old: https://www.razer.com/gaming-keyboards-keypads/razer-blackwidow
 
             URL_Add("nonmechanical", "https://en.wiktionary.org/wiki/nonmechanical#Adjective");
 
@@ -58736,8 +58730,6 @@ namespace OverflowHelper.core
             URL_Add("at a moment's notice", "https://en.wiktionary.org/wiki/at_a_moment%27s_notice#Prepositional_phrase");
 
             URL_Add("blessing in disguise", "https://en.wiktionary.org/wiki/blessing_in_disguise#Noun");
-
-            URL_Add("cherry picking", "https://en.wiktionary.org/wiki/cherry_picking#Verb");
 
             URL_Add("cryptocurrency", "https://en.wikipedia.org/wiki/Cryptocurrency");
 
@@ -61047,8 +61039,6 @@ namespace OverflowHelper.core
 
             URL_Add("Poincaré recurrence theorem", "https://en.wikipedia.org/wiki/Poincar%C3%A9_recurrence_theorem");
 
-            URL_Add("cherry-pick", "https://en.wiktionary.org/wiki/cherry-pick#Verb");
-
             URL_Add("confinement", "https://en.wiktionary.org/wiki/confinement#Noun");
 
             URL_Add("deserves", "https://en.wiktionary.org/wiki/deserve#Verb");
@@ -61308,8 +61298,6 @@ namespace OverflowHelper.core
             URL_Add("CIA", "https://en.wikipedia.org/wiki/Central_Intelligence_Agency");
 
             URL_Add("Cheerio", "https://cheerio.js.org/");
-
-            URL_Add("Cherry MX Brown", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
 
             URL_Add("Corsair", "https://en.wikipedia.org/wiki/Corsair_Components#Products");
 
@@ -61769,10 +61757,6 @@ namespace OverflowHelper.core
 
             URL_Add("Alpine.js", "https://github.com/alpinejs/alpine");
 
-            URL_Add("Cherry MX Blue", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
-
-            URL_Add("Cherry MX Red", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
-
             URL_Add("Occam's razor", "https://en.wikipedia.org/wiki/Occam's_razor");
 
             URL_Add("Proxima Centauri", "https://en.wikipedia.org/wiki/Proxima_Centauri");
@@ -61825,7 +61809,7 @@ namespace OverflowHelper.core
 
             URL_Add("Avalonia", "http://avaloniaui.net/");
 
-            URL_Add("Jest", "https://en.wikipedia.org/wiki/Jest_(JavaScript_framework)");
+            URL_Add("Jest", "https://en.wikipedia.org/wiki/Jest_(framework)"); // Old: https://en.wikipedia.org/wiki/Jest_(JavaScript_framework)
 
             URL_Add("Laplace transform", "https://en.wikipedia.org/wiki/Laplace_transform");
 
@@ -66593,7 +66577,7 @@ namespace OverflowHelper.core
 
             URL_Add("permitted", "https://en.wiktionary.org/wiki/permit#Verb");
 
-            URL_Add("short self-contained correct example", "https://en.wikipedia.org/wiki/Minimal_working_example");
+            URL_Add("short self-contained correct example", "https://en.wikipedia.org/wiki/Minimal_reproducible_example"); // Old: https://en.wikipedia.org/wiki/Minimal_working_example
 
             URL_Add("CTAN", "https://en.wikipedia.org/wiki/CTAN");
 
@@ -68327,8 +68311,6 @@ namespace OverflowHelper.core
 
             URL_Add("technologies", "https://en.wiktionary.org/wiki/technology#Noun");
 
-            URL_Add("CherryPy", "https://en.wikipedia.org/wiki/CherryPy");
-
             URL_Add("Rank 1 Constraint System", "https://github.com/scipr-lab/libsnark");
 
             URL_Add("icon", "https://en.wiktionary.org/wiki/icon#Noun");
@@ -69756,8 +69738,6 @@ namespace OverflowHelper.core
             URL_Add("predecessor", "https://en.wiktionary.org/wiki/predecessor#Noun");
 
             URL_Add("warm fuzzies", "https://en.wiktionary.org/wiki/warm_fuzzy#Noun");
-
-            URL_Add("Cherry MX Black", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
 
             URL_Add("Closure Compiler", "https://en.wikipedia.org/wiki/Google_Closure_Tools#Closure_Compiler");
 
@@ -71228,8 +71208,6 @@ namespace OverflowHelper.core
             URL_Add("BlackBerry PlayBook", "https://en.wikipedia.org/wiki/BlackBerry_PlayBook");
 
             URL_Add("C17", "https://en.wikipedia.org/wiki/C17_(C_standard_revision)");
-
-            URL_Add("Cherry MX Green", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
 
             URL_Add("Twenty Ten", "https://wordpress.org/themes/twentyten/");
 
@@ -72733,7 +72711,7 @@ namespace OverflowHelper.core
 
             URL_Add("representation", "https://en.wiktionary.org/wiki/representation#Noun");
 
-            URL_Add("robots exclusion standard", "https://en.wikipedia.org/wiki/Robots_exclusion_standard");
+            URL_Add("robots exclusion standard", "https://en.wikipedia.org/wiki/Robots.txt"); // Old: https://en.wikipedia.org/wiki/Robots_exclusion_standard
 
             URL_Add("starfish", "https://en.wikipedia.org/wiki/Starfish");
 
@@ -74829,7 +74807,7 @@ namespace OverflowHelper.core
 
             URL_Add("edX", "https://en.wikipedia.org/wiki/EdX");
 
-            URL_Add("meta is murder", "https://www.codinghorror.com/blog/2009/07/meta-is-murder.html");
+            URL_Add("meta is murder", "https://blog.codinghorror.com/meta-is-murder/"); // Old: https://www.codinghorror.com/blog/2009/07/meta-is-murder.html
 
             URL_Add("one-day", "https://en.wiktionary.org/wiki/one-day#Adjective");
 
@@ -76007,7 +75985,7 @@ namespace OverflowHelper.core
 
             URL_Add("-Wwrite-strings", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings");
 
-            URL_Add("C string", "https://en.wikipedia.org/wiki/C_string_handling#Overview_of_functions");
+            URL_Add("C string", "https://en.wikipedia.org/wiki/C_string"); // Old: https://en.wikipedia.org/wiki/C_string_handling#Overview_of_functions
 
             URL_Add("catastrophe", "https://en.wiktionary.org/wiki/catastrophe#Noun");
 
@@ -78345,8 +78323,6 @@ namespace OverflowHelper.core
 
             URL_Add("Microsoft Flight Simulator", "https://en.wikipedia.org/wiki/Microsoft_Flight_Simulator");
 
-            URL_Add("Cherry MX Tactile Grey", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
-
             URL_Add("Hacker Public Radio", "https://www.hackerpublicradio.org/");
 
             URL_Add("bind_param()", "https://www.php.net/manual/en/mysqli-stmt.bind-param.php");
@@ -79112,6 +79088,30 @@ namespace OverflowHelper.core
             URL_Add("The definition of insanity is doing the same thing over and over again, but expecting different results", "https://quoteinvestigator.com/2017/03/23/same/");
 
             URL_Add("voltage regulator", "https://en.wikipedia.org/wiki/Voltage_regulator");
+
+            URL_Add("cherry picking", "https://en.wiktionary.org/wiki/cherry_picking#Verb");
+
+            URL_Add("cherry-pick", "https://en.wiktionary.org/wiki/cherry-pick#Verb");
+
+            URL_Add("CherryPy", "https://en.wikipedia.org/wiki/CherryPy");
+
+            URL_Add("Cherry MX", "https://en.wikipedia.org/wiki/Cherry_AG#Cherry_MX"); // Old: https://en.wikipedia.org/wiki/Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards. Even older: https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards
+
+            URL_Add("Cherry MX Brown", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
+
+            URL_Add("Cherry MX Blue", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
+
+            URL_Add("Cherry MX Red", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
+
+            URL_Add("Cherry MX Black", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
+
+            URL_Add("Cherry MX Green", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
+
+            URL_Add("Cherry MX Tactile Grey", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
+
+            URL_Add("EFI", "https://en.wikipedia.org/wiki/UEFI"); // Old: https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface
+
+            URL_Add("UEFI", "https://en.wikipedia.org/wiki/UEFI"); // Old: https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -81447,7 +81447,7 @@ namespace OverflowHelper.core
 
             URL_Add("enter_", "https://en.wiktionary.org/wiki/enter#Verb");
 
-            URL_Add("Team Foundation Server_", "https://en.wikipedia.org/wiki/Team_Foundation_Server");
+            URL_Add("Team Foundation Server_", "https://en.wikipedia.org/wiki/Azure_DevOps_Server"); // Old: https://en.wikipedia.org/wiki/Team_Foundation_Server
 
             URL_Add("code_", "https://en.wiktionary.org/wiki/code#Noun");
 
@@ -82143,7 +82143,7 @@ namespace OverflowHelper.core
 
             URL_Add("MySQL (tag wiki)_", "https://stackoverflow.com/questions/tagged/mysql");
 
-            URL_Add("Jon Skeet_", "https://meta.stackexchange.com/questions/9134/jon-skeet-facts");
+            URL_Add("Jon Skeet_", "https://meta.stackexchange.com/questions/9134/jon-skeet-facts/9182#9182"); // Old: https://meta.stackexchange.com/questions/9134/jon-skeet-facts
 
             URL_Add("third party_", "https://en.wiktionary.org/wiki/third_party#Noun");
 
