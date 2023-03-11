@@ -15624,6 +15624,7 @@ namespace OverflowHelper.core
 
             correctionAdd("mongoose", "Mongoose");
             correctionAdd("MONGOOSE", "Mongoose");
+            correctionAdd("Mongooose", "Mongoose");
 
             correctionAdd("mongochef", "MongoChef");
 
@@ -21059,6 +21060,13 @@ namespace OverflowHelper.core
             correctionAdd("ms office", "Microsoft Office");
             correctionAdd("MS OFfice", "Microsoft Office");
 
+            correctionAdd("laod", "load");
+            correctionAdd("Load", "load");
+
+            correctionAdd("re-load", "reload");
+            correctionAdd("Relaod", "reload");
+            correctionAdd("relaod", "reload");
+
             correctionAdd("DL", "download");
             correctionAdd("dwnld", "download");
             correctionAdd("DLing", "download"); // Not 100% correct ("ing" should be added)
@@ -21076,6 +21084,20 @@ namespace OverflowHelper.core
             correctionAdd("downlad", "download");
             correctionAdd("Down load", "download");
             correctionAdd("Download", "download");
+
+            correctionAdd("uplaod", "upload");
+            correctionAdd("uload", "upload");
+            correctionAdd("uoload", "upload");
+
+            correctionAdd("re-upload", "reupload");
+
+            correctionAdd("truck load", "truckload");
+
+            correctionAdd("boat load", "boatload");
+
+            correctionAdd("chainload", "chain load");
+
+            correctionAdd("playload", "payload");
 
             correctionAdd("pydev", "PyDev");
             correctionAdd("Pydev", "PyDev");
@@ -24880,6 +24902,7 @@ namespace OverflowHelper.core
 
             correctionAdd("uA", "µA");
             correctionAdd("microampere", "µA");
+            correctionAdd("microamp", "µA");
 
             correctionAdd("appriciated", "appreciated");
             correctionAdd("appericated", "appreciated");
@@ -27332,6 +27355,11 @@ namespace OverflowHelper.core
             correctionAdd("extremitys", "extremities");
 
             correctionAdd("fare", "fair");
+
+            correctionAdd("leagal", "legal");
+            correctionAdd("Legal", "legal");
+
+            correctionAdd("legaly", "legally");
 
             correctionAdd("illigal", "illegal");
             correctionAdd("ilegal", "illegal");
@@ -39711,8 +39739,6 @@ namespace OverflowHelper.core
 
             correctionAdd("fracton", "fraction");
 
-            correctionAdd("legaly", "legally");
-
             correctionAdd("nonstarter", "non-starter");
             correctionAdd("non starter", "non-starter");
 
@@ -39833,10 +39859,6 @@ namespace OverflowHelper.core
 
             correctionAdd("preservers", "preserves");
 
-            correctionAdd("re-load", "reload");
-            correctionAdd("Relaod", "reload");
-            correctionAdd("relaod", "reload");
-
             correctionAdd("rigit", "rigid");
 
             correctionAdd("MWI", "Everett interpretation");
@@ -39922,8 +39944,6 @@ namespace OverflowHelper.core
             correctionAdd("reluctancy", "reluctance");
 
             correctionAdd("striked", "struck");
-
-            correctionAdd("truck load", "truckload");
 
             correctionAdd("YTD", "year-to-date");
 
@@ -42887,10 +42907,6 @@ namespace OverflowHelper.core
 
             correctionAdd("SDR", "software-defined radio");
 
-            correctionAdd("uplaod", "upload");
-            correctionAdd("uload", "upload");
-            correctionAdd("uoload", "upload");
-
             correctionAdd("Wireless Communication", "wireless communication");
 
             correctionAdd("Barban-Davenport-Halberstam theorem", "Barban–Davenport–Halberstam theorem");
@@ -43968,8 +43984,6 @@ namespace OverflowHelper.core
             correctionAdd("Combinatorics", "combinatorics");
 
             correctionAdd("file path", "filepath");
-
-            correctionAdd("re-upload", "reupload");
 
             correctionAdd("Statistical", "statistical");
 
@@ -47325,8 +47339,6 @@ namespace OverflowHelper.core
 
             correctionAdd("bootmanager", "boot manager");
 
-            correctionAdd("chainload", "chain load");
-
             correctionAdd("cilinder", "cylinder");
 
             correctionAdd("Ext2", "ext2");
@@ -47678,8 +47690,6 @@ namespace OverflowHelper.core
             correctionAdd("econmical", "economical");
             correctionAdd("econimcal", "economical");
             correctionAdd("economcal", "economical");
-
-            correctionAdd("leagal", "legal");
 
             correctionAdd("system-on-chip", "system on a chip");
             correctionAdd("SoC", "system on a chip");
@@ -49144,8 +49154,6 @@ namespace OverflowHelper.core
 
             correctionAdd("land owner", "landowner");
 
-            correctionAdd("laod", "load");
-
             correctionAdd("runner up", "runner-up");
             correctionAdd("runnerup", "runner-up");
 
@@ -49201,8 +49209,6 @@ namespace OverflowHelper.core
             correctionAdd("k6", "Grafana k6");
 
             correctionAdd("newman", "Newman");
-
-            correctionAdd("playload", "payload");
 
             correctionAdd("WHOIS", "whois");
 
@@ -50503,8 +50509,6 @@ namespace OverflowHelper.core
 
             correctionAdd("autonimous", "autonomous");
 
-            correctionAdd("boat load", "boatload");
-
             correctionAdd("inard", "innard");
 
             correctionAdd("swiss cheese", "Swiss cheese");
@@ -50819,6 +50823,12 @@ namespace OverflowHelper.core
             correctionAdd("Perceptron", "perceptron");
 
             correctionAdd("whack a mole", "whack-a-mole");
+
+            correctionAdd("android 14", "Android 14");
+
+            correctionAdd("insanity", "The definition of insanity is doing the same thing over and over again, but expecting different results");
+
+            correctionAdd("Voltage regulator", "voltage regulator");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -79097,6 +79107,12 @@ namespace OverflowHelper.core
 
             URL_Add("whack-a-mole", "https://en.wiktionary.org/wiki/whack-a-mole#Noun");
 
+            URL_Add("Android 14", "https://en.wikipedia.org/wiki/Android_version_history#Android_14");
+
+            URL_Add("The definition of insanity is doing the same thing over and over again, but expecting different results", "https://quoteinvestigator.com/2017/03/23/same/");
+
+            URL_Add("voltage regulator", "https://en.wikipedia.org/wiki/Voltage_regulator");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -79531,6 +79547,8 @@ namespace OverflowHelper.core
             correctionAdd("law.se_", "Law (Stack Exchange site)_");
             correctionAdd("Law.SE_", "Law (Stack Exchange site)_");
             correctionAdd("Law SE_", "Law (Stack Exchange site)_");
+            correctionAdd("Legal StackExchange_", "Law (Stack Exchange site)_");
+            correctionAdd("Legal_", "Law (Stack Exchange site)_");
 
             correctionAdd("Mathematica site_", "Mathematica (Stack Exchange site)_");
             correctionAdd("Mathematica SE_", "Mathematica (Stack Exchange site)_");
@@ -81176,6 +81194,8 @@ namespace OverflowHelper.core
             correctionAdd("TTL_", "time to live_");
             correctionAdd("Time To Live_", "time to live_");
 
+            correctionAdd("AD_", "air defence_");
+
             // URL mappings
             //
             //
@@ -82346,6 +82366,8 @@ namespace OverflowHelper.core
             URL_Add("Linux Standard Base_", "https://en.wikipedia.org/wiki/Linux_Standard_Base");
 
             URL_Add("time to live_", "https://en.wikipedia.org/wiki/Time_to_live");
+
+            URL_Add("air defence_", "https://en.wikipedia.org/wiki/Anti-aircraft_warfare");
 
         } //addLookupData_alternativeWordSet()
 
