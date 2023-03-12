@@ -5059,6 +5059,7 @@ namespace OverflowHelper.core
             correctionAdd("Neta Stack Overflow", "Meta&nbsp;Stack&nbsp;Overflow");
             correctionAdd("Meta.Stackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
             correctionAdd("MetaStackOverflow", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("StackOverflow Meta", "Meta&nbsp;Stack&nbsp;Overflow");
 
             correctionAdd("Meta StackExchange", "Meta&nbsp;Stack&nbsp;Exchange");
             correctionAdd("MSE", "Meta&nbsp;Stack&nbsp;Exchange");
@@ -5805,6 +5806,7 @@ namespace OverflowHelper.core
             correctionAdd("mvve", "NVM Express");
             correctionAdd("nvve", "NVM Express");
             correctionAdd("MVNe", "NVM Express");
+            correctionAdd("evns", "NVM Express");
 
             correctionAdd("mi", "me");
             correctionAdd("med", "me");
@@ -7193,6 +7195,7 @@ namespace OverflowHelper.core
             correctionAdd("Charles H. Moore", "Chuck Moore");
             correctionAdd("Moore", "Chuck Moore");
             correctionAdd("chuck", "Chuck Moore");
+            correctionAdd("Chuck", "Chuck Moore");
 
             // An implementation of Forth
             correctionAdd("gforth", "Gforth");
@@ -10010,6 +10013,7 @@ namespace OverflowHelper.core
 
             correctionAdd("bios", "BIOS");
             correctionAdd("Bios", "BIOS");
+            correctionAdd("BOIS", "BIOS");
 
             correctionAdd("Netbios", "NetBIOS");
             correctionAdd("NetBios", "NetBIOS");
@@ -26905,6 +26909,8 @@ namespace OverflowHelper.core
 
             correctionAdd("instaling", "installing");
             correctionAdd("Installing", "installing");
+            correctionAdd("Installating", "installing");
+            correctionAdd("installating", "installing");
 
             correctionAdd("liek", "like");
             correctionAdd("lke", "like");
@@ -27560,6 +27566,7 @@ namespace OverflowHelper.core
             correctionAdd("Allegedly", "allegedly");
             correctionAdd("Allejedly", "allegedly");
             correctionAdd("allejedly", "allegedly");
+            correctionAdd("alejedly", "allegedly");
 
             correctionAdd("contiue", "continue");
             correctionAdd("countinue", "continue");
@@ -28801,6 +28808,7 @@ namespace OverflowHelper.core
 
             correctionAdd("word list", "wordlist");
             correctionAdd("Wordlist", "wordlist");
+            correctionAdd("Word list", "wordlist");
 
             correctionAdd("work flow", "workflow");
             correctionAdd("work-flow", "workflow");
@@ -35448,6 +35456,7 @@ namespace OverflowHelper.core
             correctionAdd("peacemaker", "pacemaker");
 
             correctionAdd("poly fill", "polyfill");
+            correctionAdd("polfyill", "polyfill");
 
             correctionAdd("Pound", "pound");
             correctionAdd("lbs", "pound");
@@ -36692,6 +36701,7 @@ namespace OverflowHelper.core
             correctionAdd("juust", "just");
             correctionAdd("jusst", "just");
             correctionAdd("jjst", "just");
+            correctionAdd("jut", "just");
 
             correctionAdd("Logistic Regression", "logistic regression");
 
@@ -37131,6 +37141,7 @@ namespace OverflowHelper.core
             correctionAdd("stud", "stood");
 
             correctionAdd("stuggle", "struggle");
+            correctionAdd("strugle", "struggle");
 
             correctionAdd("Shanghi", "Shanghai");
 
@@ -50829,6 +50840,14 @@ namespace OverflowHelper.core
             correctionAdd("insanity", "The definition of insanity is doing the same thing over and over again, but expecting different results");
 
             correctionAdd("Voltage regulator", "voltage regulator");
+
+            correctionAdd("Exchange Sort", "exchange sort");
+
+            correctionAdd("Resoldering", "resoldering");
+
+            correctionAdd("Restriction of Hazardous Substances Directive", "RoHS");
+
+            correctionAdd("wd40", "WD-40");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -79112,6 +79131,14 @@ namespace OverflowHelper.core
             URL_Add("EFI", "https://en.wikipedia.org/wiki/UEFI"); // Old: https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface
 
             URL_Add("UEFI", "https://en.wikipedia.org/wiki/UEFI"); // Old: https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface
+
+            URL_Add("exchange sort", "https://en.wikipedia.org/wiki/Sorting_algorithm#Exchange_sort");
+
+            URL_Add("resoldering", "https://en.wikipedia.org/wiki/Soldering#Desoldering_and_resoldering");
+
+            URL_Add("RoHS", "https://en.wikipedia.org/wiki/Restriction_of_Hazardous_Substances_Directive");
+
+            URL_Add("WD-40", "https://en.wikipedia.org/wiki/WD-40");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
