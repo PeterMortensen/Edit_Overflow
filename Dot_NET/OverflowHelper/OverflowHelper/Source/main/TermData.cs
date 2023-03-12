@@ -765,12 +765,12 @@ namespace OverflowHelper.core
             correctionAdd("windows server 2019", "Windows Server 2019");
             correctionAdd("2019 windows server", "Windows Server 2019");
 
-            correctionAdd("Exchange server", "Exchange Server");
-
             correctionAdd("exchange", "Microsoft Exchange Server");
             correctionAdd("Exchange", "Microsoft Exchange Server");
             correctionAdd("Micorosft Exhange", "Microsoft Exchange Server");
             correctionAdd("Exhange", "Microsoft Exchange Server");
+            correctionAdd("Exchange Server", "Microsoft Exchange Server");
+            correctionAdd("Exchange server", "Microsoft Exchange Server");
 
             correctionAdd("exchange 2003 server", "Exchange Server 2003");
             correctionAdd("exchange server 2003", "Exchange Server 2003");
@@ -2152,8 +2152,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Indium", "indium");
             correctionAdd("In", "indium");
-
-            correctionAdd("Se", "selenium (chemical element)");
 
             correctionAdd("Tellurium", "tellurium");
             correctionAdd("Te", "tellurium");
@@ -4335,18 +4333,18 @@ namespace OverflowHelper.core
 
             correctionAdd("one-hot Encoding", "one-hot encoding");
 
-            correctionAdd("url-encoding", "URL encoding");
-            correctionAdd("URLencoded", "URL encoding"); // Not 100% correct.
-            correctionAdd("URL encoded", "URL encoding");
-            correctionAdd("URL Encoding", "URL encoding");
-            correctionAdd("URL-Encoding", "URL encoding");
-            correctionAdd("URL-encoding", "URL encoding");
-            correctionAdd("url encoding", "URL encoding");
-
             correctionAdd("percent-encoded", "percent-encoding");
             correctionAdd("percent encoding", "percent-encoding");
             correctionAdd("percent encode", "percent-encoding"); // Not 100% correct: Word class clash. Or least not the same tense.
             correctionAdd("percent-encode", "percent-encoding"); // Not 100% correct: Word class clash. Or least not the same tense.
+            correctionAdd("URL encoding", "percent-encoding");
+            correctionAdd("url-encoding", "percent-encoding");
+            correctionAdd("URLencoded", "percent-encoding"); // Not 100% correct.
+            correctionAdd("URL encoded", "percent-encoding");
+            correctionAdd("URL Encoding", "percent-encoding");
+            correctionAdd("URL-Encoding", "percent-encoding");
+            correctionAdd("URL-encoding", "percent-encoding");
+            correctionAdd("url encoding", "percent-encoding");
 
             correctionAdd("RLE", "run-length encoding");
             correctionAdd("run length encoding", "run-length encoding");
@@ -4761,8 +4759,6 @@ namespace OverflowHelper.core
             correctionAdd("SO close vote reviewers", "SOCVR");
             correctionAdd("Stack Overflow close vote reviewers", "SOCVR");
 
-            correctionAdd("Stack Overflow teams", "Stack Overflow Teams");
-
             correctionAdd("SO Teams", "Stack Overflow for Teams");
             correctionAdd("SOfT", "Stack Overflow for Teams");
             correctionAdd("StackOverflow for Teams", "Stack Overflow for Teams");
@@ -4773,6 +4769,8 @@ namespace OverflowHelper.core
             correctionAdd("Stackoverflow for Teams", "Stack Overflow for Teams");
             correctionAdd("StackOverflow Team", "Stack Overflow for Teams");
             correctionAdd("StackOverflow Teams", "Stack Overflow for Teams");
+            correctionAdd("Stack Overflow teams", "Stack Overflow for Teams");
+            correctionAdd("Stack Overflow Teams", "Stack Overflow for Teams");
 
             correctionAdd("not a forum", "Stack Overflow is not a forum");
             correctionAdd("isn't a forum", "Stack Overflow is not a forum");
@@ -5799,14 +5797,14 @@ namespace OverflowHelper.core
             correctionAdd("vlume", "volume");
             correctionAdd("vulme", "volume");
 
+            correctionAdd("NVM Express", "NVMe");
             correctionAdd("nvme", "NVMe");
-
-            correctionAdd("NVME", "NVM Express");
-            correctionAdd("mvme", "NVM Express");
-            correctionAdd("mvve", "NVM Express");
-            correctionAdd("nvve", "NVM Express");
-            correctionAdd("MVNe", "NVM Express");
-            correctionAdd("evns", "NVM Express");
+            correctionAdd("NVME", "NVMe");
+            correctionAdd("mvme", "NVMe");
+            correctionAdd("mvve", "NVMe");
+            correctionAdd("nvve", "NVMe");
+            correctionAdd("MVNe", "NVMe");
+            correctionAdd("evns", "NVMe");
 
             correctionAdd("mi", "me");
             correctionAdd("med", "me");
@@ -6977,8 +6975,8 @@ namespace OverflowHelper.core
             correctionAdd("GNU Multiple Precision Arithmetic Library", "GMP");
 
             correctionAdd("gnu parallel", "GNU parallel");
-
-            correctionAdd("Parallel", "GNU Parallel");
+            correctionAdd("GNU Parallel", "GNU parallel");
+            correctionAdd("Parallel", "GNU parallel");
 
             correctionAdd("screen", "Screen");
             correctionAdd("GNU Screen", "Screen");
@@ -7174,9 +7172,9 @@ namespace OverflowHelper.core
             correctionAdd("Programming language", "programming language");
 
             correctionAdd("HLL", "high-level programming language");
-
-            correctionAdd("high level language", "high-level language");
-            correctionAdd("High level language", "high-level language");
+            correctionAdd("High level language", "high-level programming language");
+            correctionAdd("high level language", "high-level programming language");
+            correctionAdd("high-level language", "high-level programming language");
 
             correctionAdd("curly-brace programming language", "curly-bracket programming language");
             correctionAdd("bracket language", "curly-bracket programming language");
@@ -10471,8 +10469,8 @@ namespace OverflowHelper.core
             //correctionAdd("mac OS 12", "macOS v10.12 (Sierra)"); //Why are these outcommented???
             //correctionAdd("macOS 12", "macOS v10.12 (Sierra)");
             //correctionAdd("MacOS 12", "macOS v10.12 (Sierra)");
-
-            correctionAdd("Mac OS X Sierra", "Mac OS X v10.12 (Sierra)");
+            correctionAdd("Mac OS X Sierra", "macOS v10.12 (Sierra)");
+            correctionAdd("Mac OS X v10.12 (Sierra)", "macOS v10.12 (Sierra)");
 
             correctionAdd("macOS High Sierra", "macOS v10.13 (High Sierra)");
             correctionAdd("macOS v10.13", "macOS v10.13 (High Sierra)");
@@ -53253,8 +53251,6 @@ namespace OverflowHelper.core
 
             URL_Add("Simulink", "https://en.wikipedia.org/wiki/Simulink");
 
-            URL_Add("URL encoding", "https://en.wikipedia.org/wiki/URL_encoding"); // Old: https://en.wikipedia.org/wiki/Percent-encoding
-
             URL_Add("Play Framework", "https://en.wikipedia.org/wiki/Play_Framework");
 
             URL_Add("Calendar", "https://en.wikipedia.org/wiki/Calendar_(Apple)"); // Old: https://en.wikipedia.org/wiki/Calendar_%28application%29
@@ -55040,8 +55036,6 @@ namespace OverflowHelper.core
             URL_Add("Kubernetes", "https://en.wikipedia.org/wiki/Kubernetes");
 
             URL_Add("MAMP", "https://en.wikipedia.org/wiki/MAMP");
-
-            URL_Add("Mac OS X v10.12 (Sierra)", "https://en.wikipedia.org/wiki/MacOS_Sierra");
 
             URL_Add("NMAKE", "https://msdn.microsoft.com/en-us/library/dd9y37ha.aspx");
 
@@ -65266,8 +65260,6 @@ namespace OverflowHelper.core
 
             URL_Add("Tigran Petrosian", "https://en.wikipedia.org/wiki/Tigran_Petrosian");
 
-            URL_Add("Exchange Server", "https://en.wikipedia.org/wiki/Microsoft_Exchange_Server");
-
             URL_Add("MicroPython", "https://en.wikipedia.org/wiki/MicroPython");
 
             URL_Add("Microchip", "https://en.wikipedia.org/wiki/Microchip_Technology");
@@ -65941,8 +65933,6 @@ namespace OverflowHelper.core
             URL_Add("BitClout", "https://en.wikipedia.org/wiki/BitClout");
 
             URL_Add("Eclipse JDT", "https://en.wikipedia.org/wiki/Eclipse_(software)#Architecture");
-
-            URL_Add("GNU Parallel", "https://en.wikipedia.org/wiki/GNU_parallel");
 
             URL_Add("Language Server Protocol", "https://en.wikipedia.org/wiki/Language_Server_Protocol");
 
@@ -67434,8 +67424,6 @@ namespace OverflowHelper.core
 
             URL_Add("retrorocket", "https://en.wiktionary.org/wiki/retrorocket#Noun");
 
-            URL_Add("selenium (chemical element)", "https://en.wikipedia.org/wiki/Selenium");
-
             URL_Add("self-reliant", "https://en.wiktionary.org/wiki/self-reliant#Adjective");
 
             URL_Add("set", "https://en.wiktionary.org/wiki/set#Verb");
@@ -68763,8 +68751,6 @@ namespace OverflowHelper.core
             URL_Add("in the name of Jesus", "https://www.allaboutprayer.org/in-the-name-of-jesus-faq.htm");
 
             URL_Add("whistleblowing", "https://en.wiktionary.org/wiki/whistleblowing#Noun");
-
-            URL_Add("Stack Overflow Teams", "https://meta.stackoverflow.com/questions/tagged/stack-overflow-for-teams");
 
             URL_Add("Wolfram Research", "https://en.wikipedia.org/wiki/Wolfram_Research");
 
@@ -78598,8 +78584,6 @@ namespace OverflowHelper.core
 
             URL_Add("handcrafted", "https://en.wiktionary.org/wiki/handcrafted#Adjective");
 
-            URL_Add("high-level language", "https://en.wikipedia.org/wiki/High-level_programming_language");
-
             URL_Add("Indian Standard Time", "https://en.wikipedia.org/wiki/Indian_Standard_Time");
 
             URL_Add("instruction set", "https://en.wikipedia.org/wiki/Instruction_set_architecture#Overview");
@@ -78989,8 +78973,6 @@ namespace OverflowHelper.core
             URL_Add("Loki", "https://en.wikipedia.org/wiki/Elementary_OS#0.4_Loki");
 
             URL_Add("network block device", "https://en.wikipedia.org/wiki/Network_block_device");
-
-            URL_Add("NVM Express", "https://en.wikipedia.org/wiki/NVM_Express");
 
             URL_Add("proposition", "https://en.wiktionary.org/wiki/proposition#Noun");
 
@@ -81075,7 +81057,9 @@ namespace OverflowHelper.core
             correctionAdd("astro_", "Astro_");
 
             // The chemical element
-            correctionAdd("Selenium_", "selenium_");
+            correctionAdd("Selenium_", "selenium (chemical element)_");
+            correctionAdd("selenium_", "selenium (chemical element)_");
+            correctionAdd("Se_", "selenium (chemical element)_");
 
             // A software package for Node.js
             correctionAdd("radium_", "Radium_");
@@ -82218,7 +82202,7 @@ namespace OverflowHelper.core
 
             URL_Add("lookup_", "https://en.wiktionary.org/wiki/lookup#Noun");
 
-            URL_Add("selenium_", "https://en.wikipedia.org/wiki/Selenium");
+            URL_Add("selenium (chemical element)_", "https://en.wikipedia.org/wiki/Selenium");
 
             URL_Add("unittest_", "https://docs.python.org/3.8/library/unittest.html");
 
