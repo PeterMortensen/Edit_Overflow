@@ -678,6 +678,12 @@
                         $Wikipedia_URL_constructed =
                             "https://en.wikipedia.org/wiki/$lookUpTerm";
 
+                        #Though it should probably be encoded
+                        #somehow (for example, spaces)...
+                        $Wikipedia_URL_constructed_disambig =
+                            "https://en.wikipedia.org/wiki/$lookUpTerm" .
+                            "_(disambiguation)";
+
                         $WiktionarySearch_URL =
                             "https://duckduckgo.com/html/?q=" .
                             "Wiktionary%20$lookUpTerm";
@@ -729,6 +735,13 @@
                           get_HTMLlink(
                               "Wikipedia (constructed)",
                               $Wikipedia_URL_constructed,
+                              $EOL_andBaseIndent_sub
+                          ) .
+                          "\n" . $EOL_andBaseIndent_sub;
+                        echo
+                          get_HTMLlink(
+                              "Wikipedia (disambiguation page)",
+                              $Wikipedia_URL_constructed_disambig,
                               $EOL_andBaseIndent_sub
                           ) .
                           "\n" . $EOL_andBaseIndent_sub;
