@@ -1813,6 +1813,7 @@ namespace OverflowHelper.core
             correctionAdd("domen", "domain");
             correctionAdd("domani", "domain");
             correctionAdd("doamin", "domain");
+            correctionAdd("domian", "domain");
 
             correctionAdd("domain.com", "Domain.com");
 
@@ -4198,6 +4199,8 @@ namespace OverflowHelper.core
             correctionAdd("12", "Android 12");
 
             correctionAdd("13", "Android 13");
+
+            correctionAdd("android 14", "Android 14");
 
             // Marketplace for Android apps
             correctionAdd("f-droid", "F-Droid");
@@ -7293,6 +7296,9 @@ namespace OverflowHelper.core
 
             // Perl
             correctionAdd("Wall", "Larry Wall");
+
+            // A programming language
+            correctionAdd("j", "J");
 
             correctionAdd("larry page", "Larry Page");
 
@@ -15381,6 +15387,7 @@ namespace OverflowHelper.core
             correctionAdd("Worpress", "WordPress");
             correctionAdd("word-press", "WordPress");
             correctionAdd("Wordpess", "WordPress");
+            correctionAdd("worpress", "WordPress");
 
             correctionAdd("ssl", "SSL");
             correctionAdd("SLL", "SSL");
@@ -26208,6 +26215,7 @@ namespace OverflowHelper.core
             correctionAdd("wante", "want");
             correctionAdd("wnt", "want");
             correctionAdd("WanT", "want");
+            correctionAdd("wann", "want");
 
             correctionAdd("work force", "workforce");
 
@@ -27086,6 +27094,7 @@ namespace OverflowHelper.core
             correctionAdd("acc", "account");
             correctionAdd("acoount", "account");
             correctionAdd("Account", "account");
+            correctionAdd("accocunt", "account");
 
             correctionAdd("contributer", "contributor");
 
@@ -33423,6 +33432,11 @@ namespace OverflowHelper.core
 
             correctionAdd("Data Scientist", "data scientist");
 
+            correctionAdd("scientust", "scientist");
+            correctionAdd("Scientist", "scientist");
+
+            correctionAdd("Computer Scientist", "computer scientist");
+
             correctionAdd("debuger", "debugger");
 
             correctionAdd("KE", "kinetic energy");
@@ -33847,6 +33861,7 @@ namespace OverflowHelper.core
             correctionAdd("yoo", "you");
             correctionAdd("yuo", "you");
             correctionAdd("yopu", "you");
+            correctionAdd("yu", "you");
 
             correctionAdd("Zinc", "zinc");
             correctionAdd("Zn", "zinc");
@@ -34274,8 +34289,6 @@ namespace OverflowHelper.core
             correctionAdd("JSON Web Token", "JWT");
 
             correctionAdd("MSMQ", "Microsoft Message Queuing");
-
-            correctionAdd("scientust", "scientist");
 
             correctionAdd("self explanatory", "self-explanatory");
 
@@ -47039,8 +47052,6 @@ namespace OverflowHelper.core
             correctionAdd("redux toolkit", "Redux Toolkit");
             correctionAdd("Redux toolkit", "Redux Toolkit");
 
-            correctionAdd("Computer Scientist", "computer scientist");
-
             correctionAdd("Computing", "computing");
 
             correctionAdd("ecoder", "encoder");
@@ -50833,8 +50844,6 @@ namespace OverflowHelper.core
 
             correctionAdd("whack a mole", "whack-a-mole");
 
-            correctionAdd("android 14", "Android 14");
-
             correctionAdd("insanity", "The definition of insanity is doing the same thing over and over again, but expecting different results");
 
             correctionAdd("Voltage regulator", "voltage regulator");
@@ -50846,6 +50855,14 @@ namespace OverflowHelper.core
             correctionAdd("Restriction of Hazardous Substances Directive", "RoHS");
 
             correctionAdd("wd40", "WD-40");
+
+            correctionAdd("Pfeeliea", "Philae");
+            correctionAdd("Pfeelia", "Philae");
+
+            // Alternative URL: <https://en.wiktionary.org/wiki/Ecclesiastical_Latin#Proper_noun>
+            correctionAdd("ecclesiastical Latin", "Ecclesiastical Latin");
+
+            correctionAdd("job-offer", "job offer");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -79122,6 +79139,14 @@ namespace OverflowHelper.core
 
             URL_Add("WD-40", "https://en.wikipedia.org/wiki/WD-40");
 
+            URL_Add("Philae", "https://en.wikipedia.org/wiki/Philae_(spacecraft)");
+
+            URL_Add("Ecclesiastical Latin", "https://en.wikipedia.org/wiki/Ecclesiastical_Latin");
+
+            URL_Add("J", "https://en.wikipedia.org/wiki/J_(programming_language)");
+
+            URL_Add("job offer", "https://en.wiktionary.org/wiki/job_offer#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -81207,6 +81232,15 @@ namespace OverflowHelper.core
 
             correctionAdd("AD_", "air defence_");
 
+            correctionAdd("prime number_", "prime numbers_");
+
+            correctionAdd("rosetta_", "Rosetta_");
+
+            correctionAdd("TH_", "th_");
+
+            // A programming language
+            correctionAdd("k_", "K_");
+
             // URL mappings
             //
             //
@@ -82379,6 +82413,14 @@ namespace OverflowHelper.core
             URL_Add("time to live_", "https://en.wikipedia.org/wiki/Time_to_live");
 
             URL_Add("air defence_", "https://en.wikipedia.org/wiki/Anti-aircraft_warfare");
+
+            URL_Add("prime numbers_", "https://en.wikipedia.org/wiki/List_of_prime_numbers#The_first_1000_prime_numbers");
+
+            URL_Add("Rosetta_", "https://en.wikipedia.org/wiki/Rosetta_(spacecraft)");
+
+            URL_Add("th_", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th");
+
+            URL_Add("K_", "https://en.wikipedia.org/wiki/K_(programming_language)");
 
         } //addLookupData_alternativeWordSet()
 
