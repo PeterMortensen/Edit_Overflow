@@ -3309,6 +3309,7 @@ namespace OverflowHelper.core
             correctionAdd("parrot os", "Parrot OS");
             correctionAdd("parrot OS", "Parrot OS");
             correctionAdd("Parrot", "Parrot OS");
+            correctionAdd("parrot", "Parrot OS");
 
             // A Linux distribution
             correctionAdd("pureos", "PureOS");
@@ -5825,6 +5826,7 @@ namespace OverflowHelper.core
             correctionAdd("on the spectrum", "autism spectrum disorder");
             correctionAdd("the spectrum", "autism spectrum disorder");
             correctionAdd("aspies", "autism spectrum disorder");
+            correctionAdd("spectrum disorder", "autism spectrum disorder");
 
             correctionAdd("multiple ways to Rome", "all roads lead to Rome");
 
@@ -16251,7 +16253,20 @@ namespace OverflowHelper.core
 
             correctionAdd("Aptitude", "aptitude");
 
+            correctionAdd("my's", "mine");
+            correctionAdd("mys", "mine");
+
+            // A tool for project management and issue tracking
             correctionAdd("redmine", "Redmine");
+
+            correctionAdd("Ruby Mine", "RubyMine");
+
+            correctionAdd("Methamphetamine", "methamphetamine");
+
+            correctionAdd("determint", "determine");
+            correctionAdd("determent", "determine");
+            correctionAdd("determin", "determine");
+            correctionAdd("determinate", "determine");
 
             correctionAdd("flickr", "Flickr");
 
@@ -21893,6 +21908,11 @@ namespace OverflowHelper.core
             // A JavaScript library for artificial neural networks
             correctionAdd("Brain JS", "Brain.js");
             correctionAdd("brain.js", "Brain.js");
+
+            // JavaScript 
+            correctionAdd("jasmine", "Jasmine");
+            correctionAdd("jazmine", "Jasmine");
+            correctionAdd("Jazmine", "Jasmine");
 
             correctionAdd("inheritence", "inheritance");
             correctionAdd("inherittance", "inheritance");
@@ -34717,10 +34737,6 @@ namespace OverflowHelper.core
 
             correctionAdd("un-welcoming", "unwelcoming");
 
-            correctionAdd("jasmine", "Jasmine");
-            correctionAdd("jazmine", "Jasmine");
-            correctionAdd("Jazmine", "Jasmine");
-
             correctionAdd("middle age", "Middle Ages");
             correctionAdd("middle âge", "Middle Ages");
 
@@ -35523,6 +35539,8 @@ namespace OverflowHelper.core
 
             correctionAdd("bake", "back");
             correctionAdd("bacak", "back");
+            correctionAdd("Bakc", "back");
+            correctionAdd("bakc", "back");
 
             correctionAdd("fall back", "fallback");
             correctionAdd("fall-back", "fallback");
@@ -42896,8 +42914,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Ridge Regression", "Ridge regression");
 
-            correctionAdd("Ruby Mine", "RubyMine");
-
             correctionAdd("functionning", "functioning");
 
             correctionAdd("Has", "has");
@@ -44073,8 +44089,6 @@ namespace OverflowHelper.core
             correctionAdd("Geometric", "geometric");
 
             correctionAdd("hyphoteses", "hypotheses");
-
-            correctionAdd("Methamphetamine", "methamphetamine");
 
             correctionAdd("missclassification", "misclassification");
 
@@ -48863,11 +48877,6 @@ namespace OverflowHelper.core
 
             correctionAdd("stack allocated", "stack-allocated");
 
-            correctionAdd("determint", "determine");
-            correctionAdd("determent", "determine");
-            correctionAdd("determin", "determine");
-            correctionAdd("determinate", "determine");
-
             correctionAdd("insurace", "insurance");
 
             correctionAdd("MV", "mv");
@@ -50976,6 +50985,15 @@ namespace OverflowHelper.core
             correctionAdd("potentionaly", "potentially");
 
             correctionAdd("trainning", "training");
+
+            correctionAdd("borderline personality", "borderline personality disorder");
+
+            correctionAdd("moto", "motto");
+
+            correctionAdd("tactical downvoting", "tactical downvoting on Stack Overflow");
+
+            correctionAdd("the four eyes principle", "two-man rule");
+            correctionAdd("the principle of four-eyes", "two-man rule");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -79313,6 +79331,16 @@ namespace OverflowHelper.core
             URL_Add("potentially", "https://en.wiktionary.org/wiki/potentially#Adverb");
 
             URL_Add("training", "https://en.wiktionary.org/wiki/train#Verb");
+
+            URL_Add("borderline personality disorder", "https://en.wikipedia.org/wiki/Borderline_personality_disorder");
+
+            URL_Add("mine", "https://en.wiktionary.org/wiki/mine#Pronoun");
+
+            URL_Add("motto", "https://en.wiktionary.org/wiki/motto#Noun");
+
+            URL_Add("tactical downvoting on Stack Overflow", "https://meta.stackexchange.com/questions/22771/the-answer-to-tactical-downvoting-problem");
+
+            URL_Add("two-man rule", "https://en.wikipedia.org/wiki/Two-man_rule");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
