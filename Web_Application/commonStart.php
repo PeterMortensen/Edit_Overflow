@@ -69,7 +69,18 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a688 2023-03-16T121901Z+0";
+        return "Edit Overflow v. 1.1.49a689 2023-03-16T181907Z+0";
+
+    }
+
+
+    # Note that we are using the WordPress convention of
+    # name prefixing functions (with "get_") that
+    # return a value (no side effects).
+    #
+    function get_SEOpreferences()
+    {
+        return "Correct all Internet's typos! By Peter Mortensen";
     }
 
 
@@ -141,7 +152,9 @@
         # Later: Sanity check of $aExtraQueryParameters (must end
         #        in "&", unless it is an empty string)
 
-        $someTitle = "$aHeadline - " . get_EditOverflowID();
+        $someHeadline = "$aHeadline - " . get_EditOverflowID();
+          
+        $someTitle = $someHeadline . ". " . get_SEOpreferences() . ".";
 
         the_startOfDocument(
             $someTitle,
@@ -149,7 +162,7 @@
             $aExtraQueryParameters,
             $aExtraTopCommentContent);
 
-        echo "<h1>$someTitle</h1>\n";
+        echo "<h1>$someHeadline</h1>\n";
 
 
         adjustForWordPressMadness();
