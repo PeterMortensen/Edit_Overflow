@@ -1283,6 +1283,7 @@ namespace OverflowHelper.core
             correctionAdd("GIT bash", "Git Bash");
             correctionAdd("Git-Bash", "Git Bash");
             correctionAdd("Git-bash", "Git Bash");
+            correctionAdd("GIT BASH", "Git Bash");
 
             correctionAdd("msysGit", "MSysGit");
             correctionAdd("msysgit", "MSysGit");
@@ -1328,6 +1329,7 @@ namespace OverflowHelper.core
             correctionAdd("GitExtension", "Git Extensions");
             correctionAdd("Git extensions", "Git Extensions");
             correctionAdd("GE", "Git Extensions");
+            correctionAdd("Gitextensions", "Git Extensions");
 
             correctionAdd("gitweb", "GitWeb");
             correctionAdd("Gitweb", "GitWeb");
@@ -5385,13 +5387,14 @@ namespace OverflowHelper.core
             correctionAdd("piece of shit", "POS");
             correctionAdd("p.o.s", "POS");
 
-            correctionAdd("re-structure", "restructure");
-
             correctionAdd("stricture", "structure");
             correctionAdd("strucure", "structure");
             correctionAdd("struture", "structure");
             correctionAdd("structur", "structure");
             correctionAdd("structurate", "structure");
+            correctionAdd("strcture", "structure");
+
+            correctionAdd("re-structure", "restructure");
 
             correctionAdd("data stricture", "data structure");
             correctionAdd("datastructure", "data structure");
@@ -5515,6 +5518,8 @@ namespace OverflowHelper.core
             correctionAdd("priciple", "principle");
             correctionAdd("princpiple", "principle");
 
+            // "Be conservative in what you do, and be
+            // liberal in what you accept from others".
             correctionAdd("Robustness Principle", "Postel's law");
             correctionAdd("robustness principle", "Postel's law");
 
@@ -5578,6 +5583,53 @@ namespace OverflowHelper.core
 
             correctionAdd("authenticode", "Authenticode");
             correctionAdd("AuthentiCode", "Authenticode");
+
+            correctionAdd("auth", "authentication"); // Expansion.
+            correctionAdd("Auth", "authentication"); // Expansion, but case problem
+            correctionAdd("authunticate", "authentication"); // Not 100% correct (noun vs. verb form)
+            correctionAdd("authentification", "authentication");
+            correctionAdd("authenticaion", "authentication");
+            correctionAdd("Authentiaction", "authentication"); // Expansion, but case problem
+            correctionAdd("authentiaction", "authentication");
+            correctionAdd("authencation", "authentication");
+            correctionAdd("authenticatrion", "authentication");
+            correctionAdd("Authentication", "authentication");
+            correctionAdd("AUTH", "authentication");
+            correctionAdd("autheticatation", "authentication");
+            correctionAdd("authenticatation", "authentication");
+            correctionAdd("authn", "authentication");
+
+            correctionAdd("Authenticate", "authenticate");
+            correctionAdd("authenticaticate", "authenticate");
+            correctionAdd("athenticate", "authenticate");
+
+            correctionAdd("Authorization", "authorization");
+            correctionAdd("authorizaion", "authorization");
+            correctionAdd("authz", "authorization");
+
+            correctionAdd("autuomn", "autumn");
+            correctionAdd("Autumn", "autumn");
+            correctionAdd("autum", "autumn");
+            correctionAdd("authumn", "autumn");
+            correctionAdd("authum", "autumn");
+            correctionAdd("authom", "autumn");
+            correctionAdd("authoum", "autumn");
+            correctionAdd("autoum", "autumn");
+            correctionAdd("autuhm", "autumn");
+
+            correctionAdd("authorative", "authoritative");
+            correctionAdd("athoritative", "authoritative");
+            correctionAdd("authoritive", "authoritative");
+            correctionAdd("authorial", "authoritative");
+
+            correctionAdd("Author", "author");
+
+            correctionAdd("authorites", "authorities");
+            correctionAdd("authorties", "authorities");
+            correctionAdd("authoroties", "authorities");
+
+            correctionAdd("authorize", "authorise");
+            correctionAdd("autohrize", "authorise");
 
             correctionAdd("Visual Studio code", "Visual Studio Code");
             correctionAdd("VSCode", "Visual Studio Code");
@@ -8108,6 +8160,9 @@ namespace OverflowHelper.core
             correctionAdd("pulseviiew", "PulseView");
             correctionAdd("Pulseview", "PulseView");
             correctionAdd("Pulse view", "PulseView");
+
+            // Sigrok. Just an example of a pull request on GitHub.
+            correctionAdd("PR 181", "PR 181 (Sigrok)");
 
             correctionAdd("WebHook", "webhook");
 
@@ -10879,6 +10934,10 @@ namespace OverflowHelper.core
             correctionAdd("Hybernate", "Hibernate");
             correctionAdd("hybernate", "Hibernate");
 
+            correctionAdd("hipernating", "hibernating");
+            correctionAdd("hybernating", "hibernating");
+            correctionAdd("hypernating", "hibernating");
+
             correctionAdd("struts", "Struts");
             correctionAdd("s2", "Struts"); // Actually Struts 2.
             correctionAdd("S2", "Struts"); // Actually Struts 2.
@@ -13426,6 +13485,7 @@ namespace OverflowHelper.core
             correctionAdd("expecially", "especially");
             correctionAdd("Expecially", "especially");
             correctionAdd("espicially", "especially");
+            correctionAdd("espescially", "especially");
 
             // Note: We currently can't support terms ending in full
             //       stop (".") (what was the reason? - SQL issues and/or
@@ -17046,6 +17106,12 @@ namespace OverflowHelper.core
             correctionAdd("Soap", "SOAP");
             correctionAdd("SAOP", "SOAP");
 
+            correctionAdd("nusoap", "NuSOAP");
+            correctionAdd("Nusoap", "NuSOAP");
+
+            // Web services (WSDL, SOAP, WS*, etc.)
+            correctionAdd("MTOM", "Message Transmission Optimization Mechanism");
+
             //correctionAdd("nginx", "nginx");
             correctionAdd("Nginx", "nginx");
             correctionAdd("NGINX", "nginx");
@@ -17509,20 +17575,6 @@ namespace OverflowHelper.core
 
             correctionAdd("radius", "RADIUS");
             correctionAdd("Radius", "RADIUS");
-
-            correctionAdd("auth", "authentication"); // Expansion.
-            correctionAdd("Auth", "authentication"); // Expansion, but case problem
-            correctionAdd("authunticate", "authentication"); // Not 100% correct (noun vs. verb form)
-            correctionAdd("authentification", "authentication");
-            correctionAdd("authenticaion", "authentication");
-            correctionAdd("Authentiaction", "authentication"); // Expansion, but case problem
-            correctionAdd("authentiaction", "authentication");
-            correctionAdd("authencation", "authentication");
-            correctionAdd("authenticatrion", "authentication");
-            correctionAdd("Authentication", "authentication");
-            correctionAdd("AUTH", "authentication");
-            correctionAdd("autheticatation", "authentication");
-            correctionAdd("authenticatation", "authentication");
 
             correctionAdd("Zip", "ZIP");
             correctionAdd("zip", "ZIP");
@@ -18950,6 +19002,7 @@ namespace OverflowHelper.core
             correctionAdd("taskmanager", "Task Manager");
             correctionAdd("Task manager", "Task Manager");
             correctionAdd("TaskManager", "Task Manager");
+            correctionAdd("tasks manager", "Task Manager");
 
             correctionAdd("SysInternals", "Sysinternals");
             correctionAdd("Sys Internals", "Sysinternals");
@@ -21909,7 +21962,7 @@ namespace OverflowHelper.core
             correctionAdd("Brain JS", "Brain.js");
             correctionAdd("brain.js", "Brain.js");
 
-            // JavaScript 
+            // JavaScript
             correctionAdd("jasmine", "Jasmine");
             correctionAdd("jazmine", "Jasmine");
             correctionAdd("Jazmine", "Jasmine");
@@ -22336,16 +22389,6 @@ namespace OverflowHelper.core
             correctionAdd("Chocolaty", "Chocolatey");
 
             correctionAdd("pcb", "PCB");
-
-            correctionAdd("autuomn", "autumn");
-            correctionAdd("Autumn", "autumn");
-            correctionAdd("autum", "autumn");
-            correctionAdd("authumn", "autumn");
-            correctionAdd("authum", "autumn");
-            correctionAdd("authom", "autumn");
-            correctionAdd("authoum", "autumn");
-            correctionAdd("autoum", "autumn");
-            correctionAdd("autuhm", "autumn");
 
             correctionAdd("accomodate", "accommodate");
 
@@ -27991,6 +28034,7 @@ namespace OverflowHelper.core
             correctionAdd("accept", "except");
 
             correctionAdd("extrenal", "external");
+            correctionAdd("exernal", "external");
 
             correctionAdd("minmalistic", "minimalistic");
 
@@ -29417,11 +29461,6 @@ namespace OverflowHelper.core
             correctionAdd("meager", "meagre");
 
             correctionAdd("arpa", "ARPA");
-
-            correctionAdd("authorative", "authoritative");
-            correctionAdd("athoritative", "authoritative");
-            correctionAdd("authoritive", "authoritative");
-            correctionAdd("authorial", "authoritative");
 
             correctionAdd("gabarge", "garbage");
             correctionAdd("garbik", "garbage");
@@ -35077,8 +35116,6 @@ namespace OverflowHelper.core
 
             correctionAdd("outrage", "outage");
 
-            correctionAdd("Author", "author");
-
             correctionAdd("feelling", "feeling");
             correctionAdd("filling", "feeling");
 
@@ -35754,10 +35791,6 @@ namespace OverflowHelper.core
 
             correctionAdd("amoung", "among");
             correctionAdd("amonng", "among");
-
-            correctionAdd("authorites", "authorities");
-            correctionAdd("authorties", "authorities");
-            correctionAdd("authoroties", "authorities");
 
             correctionAdd("burnd", "burned");
 
@@ -37017,6 +37050,7 @@ namespace OverflowHelper.core
             correctionAdd("producion", "production");
             correctionAdd("prodyction", "production");
             correctionAdd("Production", "production");
+            correctionAdd("produyction", "production");
 
             correctionAdd("re-fire", "refire");
 
@@ -37282,10 +37316,6 @@ namespace OverflowHelper.core
             correctionAdd("Re-authenticate", "reauthenticate");
             correctionAdd("re-authenticate", "reauthenticate");
             correctionAdd("reathenticate", "reauthenticate");
-
-            correctionAdd("Authenticate", "authenticate");
-            correctionAdd("authenticaticate", "authenticate");
-            correctionAdd("athenticate", "authenticate");
 
             correctionAdd("relay", "rely");
 
@@ -38497,6 +38527,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Dealt", "dealt");
             correctionAdd("Delt", "dealt");
+            correctionAdd("delt", "dealt");
 
             correctionAdd("diatetics", "dietetics");
 
@@ -39370,6 +39401,7 @@ namespace OverflowHelper.core
             correctionAdd("mayority", "majority");
 
             correctionAdd("PRETTIER", "Prettier");
+            correctionAdd("prettier", "Prettier");
 
             correctionAdd("re-throw", "rethrow");
 
@@ -41912,9 +41944,6 @@ namespace OverflowHelper.core
             correctionAdd("Bit.ly", "Bitly");
             correctionAdd("bit.ly", "Bitly");
 
-            correctionAdd("Authorization", "authorization");
-            correctionAdd("authorizaion", "authorization");
-
             correctionAdd("autictic", "autistic");
 
             correctionAdd("grap", "grab");
@@ -42144,9 +42173,6 @@ namespace OverflowHelper.core
 
             correctionAdd("New Horizon", "New Horizons");
             correctionAdd("new horizon", "New Horizons");
-
-            correctionAdd("nusoap", "NuSOAP");
-            correctionAdd("Nusoap", "NuSOAP");
 
             correctionAdd("VASP", "Vienna Ab initio Simulation Package");
 
@@ -49241,9 +49267,6 @@ namespace OverflowHelper.core
 
             correctionAdd("mipmaps", "MIP maps");
 
-            correctionAdd("authorize", "authorise");
-            correctionAdd("autohrize", "authorise");
-
             correctionAdd("battlefied", "battlefield");
 
             correctionAdd("Enrollment", "enrollment");
@@ -50994,6 +51017,8 @@ namespace OverflowHelper.core
 
             correctionAdd("the four eyes principle", "two-man rule");
             correctionAdd("the principle of four-eyes", "two-man rule");
+
+            correctionAdd("git-cola", "Git Cola");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -79341,6 +79366,14 @@ namespace OverflowHelper.core
             URL_Add("tactical downvoting on Stack Overflow", "https://meta.stackexchange.com/questions/22771/the-answer-to-tactical-downvoting-problem");
 
             URL_Add("two-man rule", "https://en.wikipedia.org/wiki/Two-man_rule");
+
+            URL_Add("Git Cola", "https://git-cola.github.io/");
+
+            URL_Add("hibernating", "https://en.wiktionary.org/wiki/hibernate#Verb");
+
+            URL_Add("PR 181 (Sigrok)", "https://github.com/sigrokproject/libsigrok/pull/181");
+
+            URL_Add("Message Transmission Optimization Mechanism", "https://en.wikipedia.org/wiki/Message_Transmission_Optimization_Mechanism");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
