@@ -1400,6 +1400,9 @@ namespace OverflowHelper.core
 
             correctionAdd("GitBox", "Gitbox");
 
+            // A Git client
+            correctionAdd("git-cola", "Git Cola");
+
             // A version control system
             correctionAdd("subversion", "Subversion");
             correctionAdd("SubVersion", "Subversion");
@@ -2917,6 +2920,7 @@ namespace OverflowHelper.core
             correctionAdd("ubuntu14.04 LTS", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
             correctionAdd("ubuntu 14.04 LTS", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
             correctionAdd("Ubuntu 14.04 LTS", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
+            correctionAdd("trusty Ubuntu 14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
 
             correctionAdd("Ubuntu 14.10 (Utopic Unicorn)", "Ubuntu&nbsp;14.10 (Utopic Unicorn)"); // Sort of identity mapping
             correctionAdd("14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
@@ -22639,6 +22643,7 @@ namespace OverflowHelper.core
             correctionAdd("two-step verification", "two-factor authentication");
             correctionAdd("2SV", "two-factor authentication");
             correctionAdd("2-Step Verification", "two-factor authentication");
+            correctionAdd("2 factor authentication", "two-factor authentication");
 
             correctionAdd("pla", "PLA");
 
@@ -25362,6 +25367,7 @@ namespace OverflowHelper.core
             correctionAdd("mills", "millisecond");
             correctionAdd("miliseconds", "millisecond");
             correctionAdd("msec", "millisecond");
+            correctionAdd("millisecondes", "millisecond");
 
             correctionAdd("programm", "program");
             correctionAdd("Programm", "program");
@@ -39239,6 +39245,8 @@ namespace OverflowHelper.core
 
             correctionAdd("ns", "nanosecond");
             correctionAdd("Nanosecond", "nanosecond");
+            correctionAdd("Nanoseconds", "nanosecond");
+            correctionAdd("nanoseconds", "nanosecond");
 
             correctionAdd("re-compilation", "recompilation");
 
@@ -51018,7 +51026,11 @@ namespace OverflowHelper.core
             correctionAdd("the four eyes principle", "two-man rule");
             correctionAdd("the principle of four-eyes", "two-man rule");
 
-            correctionAdd("git-cola", "Git Cola");
+            correctionAdd("ball-park", "ballpark");
+
+            correctionAdd("explaines", "explains");
+
+            correctionAdd("LLaMA", "Large Language Model Meta AI");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -79375,6 +79387,12 @@ namespace OverflowHelper.core
 
             URL_Add("Message Transmission Optimization Mechanism", "https://en.wikipedia.org/wiki/Message_Transmission_Optimization_Mechanism");
 
+            URL_Add("ballpark", "https://en.wiktionary.org/wiki/ballpark#Adjective");
+
+            URL_Add("explains", "https://en.wiktionary.org/wiki/explain#Verb");
+
+            URL_Add("Large Language Model Meta AI", "https://en.wikipedia.org/wiki/Large_language_model#List_of_large_language_models");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -81484,6 +81502,9 @@ namespace OverflowHelper.core
             // A programming language
             correctionAdd("k_", "K_");
 
+            correctionAdd("units_", "GNU Units_");
+            correctionAdd("GNU units_", "GNU Units_");
+
             // URL mappings
             //
             //
@@ -82672,6 +82693,8 @@ namespace OverflowHelper.core
             URL_Add("Parrot_", "https://en.wikipedia.org/wiki/Parrot_virtual_machine");
 
             URL_Add("Scheme (tag wiki)_", "https://stackoverflow.com/questions/tagged/scheme");
+
+            URL_Add("GNU Units_", "https://en.wikipedia.org/wiki/GNU_Units");
 
         } //addLookupData_alternativeWordSet()
 
