@@ -5044,6 +5044,7 @@ namespace OverflowHelper.core
             correctionAdd("SO - Portuguese", "Stack Overflow em Português");
             correctionAdd("PT.se", "Stack Overflow em Português");
             correctionAdd("Portuguese site", "Stack Overflow em Português");
+            correctionAdd("Portuguese SO", "Stack Overflow em Português");
 
             correctionAdd("Workplace", "The Workplace (Stack Exchange site)");
             correctionAdd("The Workplace", "The Workplace (Stack Exchange site)"); // Sort of identity mapping
@@ -10196,6 +10197,8 @@ namespace OverflowHelper.core
             correctionAdd("iO.S", "iOS");
             correctionAdd("Ios", "iOS");
             correctionAdd("IOs", "iOS");
+            correctionAdd("IoS", "iOS");
+            correctionAdd("ioS", "iOS");
 
             correctionAdd("WatchOS", "watchOS");
 
@@ -21442,6 +21445,19 @@ namespace OverflowHelper.core
             correctionAdd("heart bleed", "Heartbleed");
             correctionAdd("Heart bleed", "Heartbleed");
 
+            correctionAdd("hearth", "heart");
+            correctionAdd("hart", "heart");
+
+            correctionAdd("by hearth", "by heart");
+
+            correctionAdd("heart-ache", "heartache");
+
+            correctionAdd("dishearteneing", "disheartening");
+
+            correctionAdd("heart broken", "heartbroken");
+
+            correctionAdd("heart strings", "heartstrings");
+
             correctionAdd("cap", "capacitor");
             correctionAdd("capasitor", "capacitor");
             correctionAdd("Capcitors", "capacitor"); // Not 100% correct - plural and case.
@@ -23412,6 +23428,7 @@ namespace OverflowHelper.core
             correctionAdd("Probability", "probability");
 
             correctionAdd("invitability", "inevitability");
+            correctionAdd("inevitablity", "inevitability");
 
             correctionAdd("re-usability", "reusability");
 
@@ -29139,8 +29156,6 @@ namespace OverflowHelper.core
             correctionAdd("criterions", "criteria");
 
             correctionAdd("dead see", "dead sea");
-
-            correctionAdd("dishearteneing", "disheartening");
 
             correctionAdd("deja vu", "déjà vu");
             correctionAdd("Déjà vu", "déjà vu");
@@ -35284,11 +35299,6 @@ namespace OverflowHelper.core
 
             correctionAdd("cowered", "coward");
 
-            correctionAdd("hearth", "heart");
-            correctionAdd("hart", "heart");
-
-            correctionAdd("heart broken", "heartbroken");
-
             correctionAdd("borken", "broken");
             correctionAdd("proken", "broken");
 
@@ -35507,6 +35517,7 @@ namespace OverflowHelper.core
             correctionAdd("higlight", "highlight");
 
             correctionAdd("modifiy", "modify");
+            correctionAdd("modificate", "modify");
 
             correctionAdd("Nesting", "nesting");
             correctionAdd("Neseting", "nesting");
@@ -39550,8 +39561,6 @@ namespace OverflowHelper.core
 
             correctionAdd("foundering", "floundering");
 
-            correctionAdd("heart strings", "heartstrings");
-
             correctionAdd("tair", "tear");
 
             correctionAdd("unoperational", "inoperational");
@@ -41859,6 +41868,7 @@ namespace OverflowHelper.core
             correctionAdd("symoblic", "symbolic"); // True typo
 
             correctionAdd("techologies", "technologies");
+            correctionAdd("tecnologies", "technologies");
 
             correctionAdd("R1CS", "Rank 1 Constraint System");
 
@@ -43101,6 +43111,11 @@ namespace OverflowHelper.core
             correctionAdd("DaVinci resolve", "DaVinci Resolve");
             correctionAdd("davinci resolve", "DaVinci Resolve");
 
+            correctionAdd("slove", "solve");
+            correctionAdd("solove", "solve");
+
+            correctionAdd("resove", "resolve");
+
             correctionAdd("glfw", "GLFW");
 
             correctionAdd("wild west", "Wild West");
@@ -43899,6 +43914,7 @@ namespace OverflowHelper.core
             correctionAdd("super-power", "superpower");
 
             correctionAdd("Upvoting", "upvoting");
+            correctionAdd("up-voting", "upvoting");
 
             correctionAdd("godot", "Godot");
 
@@ -46876,8 +46892,6 @@ namespace OverflowHelper.core
             correctionAdd("Pythagoras' theorem", "Pythagorean theorem");
             correctionAdd("pythagorean theorem", "Pythagorean theorem");
 
-            correctionAdd("heart-ache", "heartache");
-
             correctionAdd("lower than expected", "lower-than-expected");
 
             correctionAdd("marshaled", "marshalled");
@@ -47920,8 +47934,6 @@ namespace OverflowHelper.core
             correctionAdd("Julia Mono", "JuliaMono");
 
             correctionAdd("reenabling", "re-enabling");
-
-            correctionAdd("slove", "solve");
 
             correctionAdd("summonned", "summoned");
 
@@ -49791,8 +49803,6 @@ namespace OverflowHelper.core
 
             correctionAdd("discendent", "descendant");
 
-            correctionAdd("resove", "resolve");
-
             correctionAdd("anecdoctal", "anecdotal");
 
             correctionAdd("oder", "order");
@@ -51030,7 +51040,31 @@ namespace OverflowHelper.core
 
             correctionAdd("explaines", "explains");
 
+            // Alternative URLs: 
+            //
+            //   <https://arstechnica.com/information-technology/2023/03/you-can-now-run-a-gpt-3-level-ai-model-on-your-laptop-phone-and-raspberry-pi/>
+            //   <https://en.wikipedia.org/wiki/Large_language_model#List_of_large_language_models> 
+            //
             correctionAdd("LLaMA", "Large Language Model Meta AI");
+            correctionAdd("LLaMa", "Large Language Model Meta AI");
+            correctionAdd("LlaMA.cpp", "Large Language Model Meta AI");
+            correctionAdd("LLaMA.cpp", "Large Language Model Meta AI");
+            correctionAdd("llama.cpp", "Large Language Model Meta AI");
+
+            correctionAdd("distiguishing", "distinguishing");
+
+            correctionAdd("VT-x", "Intel VT-x");
+
+            correctionAdd("parallelizable", "parallelisable");
+
+            correctionAdd("paired down", "pared down");
+
+            correctionAdd("Processor", "processor");
+
+            correctionAdd("representd", "represented");
+
+            correctionAdd("yoast", "Yoast SEO");
+            correctionAdd("Yoast", "Yoast SEO");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -79391,7 +79425,23 @@ namespace OverflowHelper.core
 
             URL_Add("explains", "https://en.wiktionary.org/wiki/explain#Verb");
 
-            URL_Add("Large Language Model Meta AI", "https://en.wikipedia.org/wiki/Large_language_model#List_of_large_language_models");
+            URL_Add("Large Language Model Meta AI", "https://en.wikipedia.org/wiki/LLaMA");
+
+            URL_Add("by heart", "https://en.wiktionary.org/wiki/by_heart#Prepositional_phrase");
+
+            URL_Add("distinguishing", "https://en.wiktionary.org/wiki/distinguishing#Adjective");
+
+            URL_Add("Intel VT-x", "https://en.wikipedia.org/wiki/X86_virtualization#Intel_virtualization_(VT-x)");
+
+            URL_Add("parallelisable", "https://en.wiktionary.org/wiki/parallelisable#Adjective");
+
+            URL_Add("pared down", "https://en.wiktionary.org/wiki/pare_down#Verb");
+
+            URL_Add("processor", "https://en.wiktionary.org/wiki/processor#Noun");
+
+            URL_Add("represented", "https://en.wiktionary.org/wiki/represent#Verb");
+
+            URL_Add("Yoast SEO", "https://en.wikipedia.org/wiki/Yoast_SEO");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -81505,6 +81555,9 @@ namespace OverflowHelper.core
             correctionAdd("units_", "GNU Units_");
             correctionAdd("GNU units_", "GNU Units_");
 
+            correctionAdd("shortcircuit_", "short circuit_");
+            correctionAdd("short-circuit_", "short circuit_");
+
             // URL mappings
             //
             //
@@ -82695,6 +82748,8 @@ namespace OverflowHelper.core
             URL_Add("Scheme (tag wiki)_", "https://stackoverflow.com/questions/tagged/scheme");
 
             URL_Add("GNU Units_", "https://en.wikipedia.org/wiki/GNU_Units");
+
+            URL_Add("short circuit_", "https://en.wiktionary.org/wiki/short_circuit#Verb");
 
         } //addLookupData_alternativeWordSet()
 
