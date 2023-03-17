@@ -551,7 +551,7 @@
             </p>
 
             <p><a href="https://www.youtube.com/watch?v=1Dax90QyXgI&t=0m38s"
-                >Present simple tense, third person</a>
+                >Present simple tense, third person singular</a>
                 - t<u>h</u>ere must be an 's': <br/>
                 <input
                     name="X21"
