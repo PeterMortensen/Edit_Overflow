@@ -69,7 +69,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a689 2023-03-16T181907Z+0";
+        return "Edit Overflow v. 1.1.49a690 2023-03-17T105906Z+0";
 
     }
 
@@ -80,7 +80,7 @@
     #
     function get_SEOpreferences()
     {
-        return "Correct all Internet's typos! By Peter Mortensen";
+        return "Correct all the Internet's typos! By Peter Mortensen";
     }
 
 
