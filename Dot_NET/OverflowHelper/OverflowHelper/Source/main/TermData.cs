@@ -647,6 +647,70 @@ namespace OverflowHelper.core
             correctionAdd("WSL-2", "WSL 2");
             correctionAdd("wsl2", "WSL 2");
 
+            correctionAdd("virtuallization", "virtualization");
+
+            // Virtualization
+            correctionAdd("VT-x", "Intel VT-x");
+
+            // Virtualization
+            correctionAdd("Virtualbox", "VirtualBox");
+            correctionAdd("virtualbox", "VirtualBox");
+            correctionAdd("virtual box", "VirtualBox");
+            correctionAdd("Virtual Box", "VirtualBox");
+            correctionAdd("VirtulBox", "VirtualBox");
+            correctionAdd("Virtual box", "VirtualBox");
+            correctionAdd("VBox", "VirtualBox");
+            correctionAdd("VirualBox", "VirtualBox");
+            correctionAdd("vbox", "VirtualBox");
+            correctionAdd("VirtualBOX", "VirtualBox");
+            correctionAdd("VirtuaBox", "VirtualBox");
+
+            // Virtualization. Linux.
+            correctionAdd("qemu", "QEMU");
+            correctionAdd("QEmu", "QEMU");
+            correctionAdd("Qemu", "QEMU");
+            correctionAdd("qEmu", "QEMU");
+
+            // Virtualization. Linux.
+            correctionAdd("kvm", "KVM"); // Conflict with KVM switch, "keyboard, visual display unit, mouse", <https://en.wikipedia.org/wiki/KVM_switch>. ALTERNATIVE.
+            correctionAdd("KVm", "KVM");
+
+            // Virtualization. Linux.
+            correctionAdd("xen", "Xen");
+
+            // Virtualization
+            correctionAdd("vmware", "VMware");
+            correctionAdd("VMWare", "VMware");
+            correctionAdd("VM Ware", "VMware");
+            correctionAdd("Vmware", "VMware");
+            correctionAdd("WMware", "VMware");
+            correctionAdd("WM Ware", "VMware");
+            correctionAdd("vmare", "VMware");
+            correctionAdd("vmWare", "VMware");
+            correctionAdd("VM ware", "VMware");
+            correctionAdd("VmWare", "VMware");
+            correctionAdd("VM-Ware", "VMware");
+            correctionAdd("VW Ware", "VMware");
+            correctionAdd("VW ware", "VMware");
+            correctionAdd("VWware", "VMware");
+            correctionAdd("vMware", "VMware");
+
+            correctionAdd("VMware VSphere", "VMware vSphere");
+
+            correctionAdd("ESX", "VMware ESXi");
+            correctionAdd("ESXi", "VMware ESXi");
+
+            // Virtualization
+            correctionAdd("HyperV", "Hyper-V");
+            correctionAdd("hyper-v", "Hyper-V");
+            correctionAdd("hyperv", "Hyper-V");
+            correctionAdd("hyper-V", "Hyper-V");
+            correctionAdd("hyper v", "Hyper-V");
+            correctionAdd("Hyper V", "Hyper-V");
+            correctionAdd("Hyper-v", "Hyper-V");
+            correctionAdd("hyperV", "Hyper-V");
+
+            // Virtualization
             correctionAdd("virtual PC", "Virtual&nbsp;PC");
             correctionAdd("Virtual PC", "Virtual&nbsp;PC");
             correctionAdd("virtual pc", "Virtual&nbsp;PC");
@@ -655,6 +719,9 @@ namespace OverflowHelper.core
             correctionAdd("VirualPC", "Virtual&nbsp;PC");
             correctionAdd("Virual PC", "Virtual&nbsp;PC");
             //correctionAdd("VPC", "Virtual&nbsp;PC"); This is now reserved for "virtual private cloud"...
+
+            correctionAdd("virt-manager", "Virtual Machine Manager");
+            correctionAdd("virt manager", "Virtual Machine Manager");
 
             correctionAdd("cassini", "Cassini web server");
             correctionAdd("cassini web server", "Cassini web server");
@@ -1137,6 +1204,60 @@ namespace OverflowHelper.core
             correctionAdd("Kirchhoff law", "Kirchhoff circuit laws");
             correctionAdd("Kirchhoffs Law", "Kirchhoff circuit laws");
             correctionAdd("Kirchhoff Circuit Laws", "Kirchhoff circuit laws");
+
+            correctionAdd("Circuit", "circuit");
+            correctionAdd("cicuit", "circuit");
+            correctionAdd("cuircuit", "circuit");
+            correctionAdd("circult", "circuit");
+
+            correctionAdd("circutry", "circuitry");
+
+            // Electronics
+            correctionAdd("circuitdiagram", "circuit diagram");
+            correctionAdd("schematics", "circuit diagram");
+            correctionAdd("schematic", "circuit diagram");
+            correctionAdd("schemactics", "circuit diagram");
+
+            // Electronics. Embedded systems / software
+            correctionAdd("icsp", "in-circuit serial programming");
+            correctionAdd("ICSP", "in-circuit serial programming");
+
+            // Related to embedded systems and microcontrollers
+            correctionAdd("gpio", "GPIO");
+
+            // Electronics
+            correctionAdd("snubber", "snub circuit");
+            correctionAdd("Snubber", "snub circuit");
+
+            // The noun. Electronics
+            correctionAdd("short cirquit", "short circuit");
+            correctionAdd("Short-cirquit", "short circuit");
+            correctionAdd("short-cirquit", "short circuit");
+
+            // Electronics
+            correctionAdd("7400", "7400-series integrated circuits");
+
+            // Electronics
+            correctionAdd("application-specific integrated circuit", "ASIC");
+            correctionAdd("asic", "ASIC");
+            correctionAdd("ASICs", "ASIC");
+            correctionAdd("Application-Specific Integrated Circuit", "ASIC");
+
+            // Electronics
+            correctionAdd("SOIC", "small outline integrated circuit");
+
+            // Boolean
+            correctionAdd("Short-cirquit evaluation", "short-circuit evaluation");
+
+            correctionAdd("CCTV", "closed-circuit television");
+            correctionAdd("cctv", "closed-circuit television");
+
+            correctionAdd("circuitlab", "CircuitLab");
+
+            correctionAdd("ground fault circuit interrupter", "residual-current device");
+            correctionAdd("Residual-current device", "residual-current device");
+            correctionAdd("RCD", "residual-current device");
+            correctionAdd("GFCI", "residual-current device");
 
             correctionAdd("newton raphson", "Newton–Raphson");
             correctionAdd("Newton's method", "Newton–Raphson");
@@ -2086,6 +2207,9 @@ namespace OverflowHelper.core
 
             correctionAdd("Sr-94", "strontium-94");
             correctionAdd("Sr 94", "strontium-94");
+
+            // The chemical element
+            correctionAdd("Xenon", "xenon");
 
             correctionAdd("Xe-133", "xenon-133");
 
@@ -3669,8 +3793,6 @@ namespace OverflowHelper.core
             correctionAdd("hp ux", "HP-UX");
             correctionAdd("HP UX", "HP-UX");
 
-            correctionAdd("unixen", "Unixen");
-
             correctionAdd("advanced programming in the unix environment", "Advanced Programming in the Unix Environment");
 
             correctionAdd("SCO Unix", "SCO UNIX");
@@ -3948,6 +4070,8 @@ namespace OverflowHelper.core
             correctionAdd("Zypper", "ZYpp");
             correctionAdd("zypper", "ZYpp");
 
+            correctionAdd("unixen", "Unixen");
+
             // Linux
             correctionAdd("linuxen", "Linuxen");
 
@@ -4024,6 +4148,9 @@ namespace OverflowHelper.core
 
             // A vector graphics language. Related to TeX/LaTeX
             correctionAdd("asymptote", "Asymptote");
+
+            // Tex / LaTeX. Electronics. Typesetting circuit diagrams
+            correctionAdd("circuitikz", "CircuiTikZ");
 
             correctionAdd("android", "Android");
             correctionAdd("andrioid", "Android"); // Misspelling.
@@ -4563,12 +4690,6 @@ namespace OverflowHelper.core
             // A computer game. For Windows.
             correctionAdd("MS fly simulator", "Microsoft Flight Simulator");
 
-            // Electronics
-            correctionAdd("circuitdiagram", "circuit diagram");
-            correctionAdd("schematics", "circuit diagram");
-            correctionAdd("schematic", "circuit diagram");
-            correctionAdd("schemactics", "circuit diagram");
-
             correctionAdd("SO", "Stack&nbsp;Overflow");
             correctionAdd("S.O", "Stack&nbsp;Overflow");
             correctionAdd("StacOkverflow", "Stack&nbsp;Overflow");
@@ -4930,6 +5051,12 @@ namespace OverflowHelper.core
 
             // Related to Stack Overflow
             correctionAdd("POB", "primarily opinion-based");
+
+            // Stack Overflow
+            correctionAdd("tactical downvoting", "tactical downvoting on Stack Overflow");
+
+            // Stack Overflow
+            correctionAdd("explain downvotes", "Encouraging people to explain downvotes");
 
             //  Start of Stack Exchange site list (not
             //  complete (only added on demand))
@@ -6505,6 +6632,7 @@ namespace OverflowHelper.core
             correctionAdd("Micropython", "MicroPython");
             correctionAdd("Micro Python", "MicroPython");
 
+            // Electronics. Embedded. Python.
             correctionAdd("Circuit Python", "CircuitPython");
             correctionAdd("circuit python", "CircuitPython");
             correctionAdd("curcuit python", "CircuitPython");
@@ -7209,6 +7337,34 @@ namespace OverflowHelper.core
 
             correctionAdd("hyper cube", "hypercube");
 
+            correctionAdd("hyper link", "hyperlink");
+            correctionAdd("HyperLink", "hyperlink");
+            correctionAdd("Hyperlink", "hyperlink");
+
+            correctionAdd("NH", "NHibernate");
+            correctionAdd("nhibernate", "NHibernate");
+            correctionAdd("Nhibernate", "NHibernate");
+            correctionAdd("nHibernate", "NHibernate");
+
+            correctionAdd("hibernate", "Hibernate");
+            correctionAdd("HIBERNATE", "Hibernate");
+            correctionAdd("Hybernate", "Hibernate");
+            correctionAdd("hybernate", "Hibernate");
+
+            correctionAdd("hipernating", "hibernating");
+            correctionAdd("hybernating", "hibernating");
+            correctionAdd("hypernating", "hibernating");
+
+            correctionAdd("http", "HTTP");
+            correctionAdd("Http", "HTTP");
+            correctionAdd("hhtp", "HTTP");
+            correctionAdd("HyperText Transfer Protocol", "HTTP");
+            correctionAdd("Hypertext Transfer Protocol", "HTTP");
+
+            correctionAdd("hyper parameter", "hyperparameter");
+
+            correctionAdd("hyper plane", "hyperplane");
+
             correctionAdd("descripte", "describe");
             correctionAdd("decribe", "describe");
             correctionAdd("descibe", "describe");
@@ -7227,18 +7383,6 @@ namespace OverflowHelper.core
 
             correctionAdd("utf-16le", "UTF-16LE");
 
-            correctionAdd("Virtualbox", "VirtualBox");
-            correctionAdd("virtualbox", "VirtualBox");
-            correctionAdd("virtual box", "VirtualBox");
-            correctionAdd("Virtual Box", "VirtualBox");
-            correctionAdd("VirtulBox", "VirtualBox");
-            correctionAdd("Virtual box", "VirtualBox");
-            correctionAdd("VBox", "VirtualBox");
-            correctionAdd("VirualBox", "VirtualBox");
-            correctionAdd("vbox", "VirtualBox");
-            correctionAdd("VirtualBOX", "VirtualBox");
-            correctionAdd("VirtuaBox", "VirtualBox");
-
             correctionAdd("vpc", "VPC");
             correctionAdd("virtual private cloud", "VPC");
 
@@ -7247,16 +7391,11 @@ namespace OverflowHelper.core
 
             correctionAdd("virtious", "virtuous");
 
-            correctionAdd("virtuallization", "virtualization");
-
             correctionAdd("VA", "virtual assistant");
 
             correctionAdd("Virtual Disk Image", "VDI");
 
             correctionAdd("VST", "Virtual Studio Technology");
-
-            correctionAdd("virt-manager", "Virtual Machine Manager");
-            correctionAdd("virt manager", "Virtual Machine Manager");
 
             correctionAdd("virually", "virtually");
 
@@ -7437,6 +7576,9 @@ namespace OverflowHelper.core
             // "C"
             correctionAdd("libc", "C standard library");
             correctionAdd("stdlib", "C standard library");
+
+            // "C"
+            correctionAdd("preprecessor", "C preprocessor");
 
             // Start of C / C++ function section
             //
@@ -7958,10 +8100,6 @@ namespace OverflowHelper.core
             correctionAdd("Sonarqube", "SonarQube");
             correctionAdd("sonarQube", "SonarQube");
 
-            correctionAdd("hyper link", "hyperlink");
-            correctionAdd("HyperLink", "hyperlink");
-            correctionAdd("Hyperlink", "hyperlink");
-
             correctionAdd("propperly", "properly");
             correctionAdd("proprerly", "properly");
 
@@ -8251,27 +8389,6 @@ namespace OverflowHelper.core
             correctionAdd("therr", "there");
             correctionAdd("Ther", "there");
             correctionAdd("There", "there");
-
-            correctionAdd("vmware", "VMware");
-            correctionAdd("VMWare", "VMware");
-            correctionAdd("VM Ware", "VMware");
-            correctionAdd("Vmware", "VMware");
-            correctionAdd("WMware", "VMware");
-            correctionAdd("WM Ware", "VMware");
-            correctionAdd("vmare", "VMware");
-            correctionAdd("vmWare", "VMware");
-            correctionAdd("VM ware", "VMware");
-            correctionAdd("VmWare", "VMware");
-            correctionAdd("VM-Ware", "VMware");
-            correctionAdd("VW Ware", "VMware");
-            correctionAdd("VW ware", "VMware");
-            correctionAdd("VWware", "VMware");
-            correctionAdd("vMware", "VMware");
-
-            correctionAdd("VMware VSphere", "VMware vSphere");
-
-            correctionAdd("ESX", "VMware ESXi");
-            correctionAdd("ESXi", "VMware ESXi");
 
             correctionAdd("whare", "where");
             correctionAdd("Whre", "where");
@@ -10931,20 +11048,6 @@ namespace OverflowHelper.core
             correctionAdd("Couchdb", "CouchDB");
             correctionAdd("CouchDb", "CouchDB");
 
-            correctionAdd("NH", "NHibernate");
-            correctionAdd("nhibernate", "NHibernate");
-            correctionAdd("Nhibernate", "NHibernate");
-            correctionAdd("nHibernate", "NHibernate");
-
-            correctionAdd("hibernate", "Hibernate");
-            correctionAdd("HIBERNATE", "Hibernate");
-            correctionAdd("Hybernate", "Hibernate");
-            correctionAdd("hybernate", "Hibernate");
-
-            correctionAdd("hipernating", "hibernating");
-            correctionAdd("hybernating", "hibernating");
-            correctionAdd("hypernating", "hibernating");
-
             correctionAdd("struts", "Struts");
             correctionAdd("s2", "Struts"); // Actually Struts 2.
             correctionAdd("S2", "Struts"); // Actually Struts 2.
@@ -11423,12 +11526,6 @@ namespace OverflowHelper.core
             correctionAdd("protobuff", "Protocol Buffers");
             correctionAdd("protobuf", "Protocol Buffers");
 
-            correctionAdd("http", "HTTP");
-            correctionAdd("Http", "HTTP");
-            correctionAdd("hhtp", "HTTP");
-            correctionAdd("HyperText Transfer Protocol", "HTTP");
-            correctionAdd("Hypertext Transfer Protocol", "HTTP");
-
             correctionAdd("Network News Transfer Protocol", "NNTP");
 
             correctionAdd("TAP", "Test Anything Protocol");
@@ -11662,9 +11759,6 @@ namespace OverflowHelper.core
             correctionAdd("fp", "functional programming");
             correctionAdd("FP", "functional programming");
             correctionAdd("Functional", "functional programming");
-
-            correctionAdd("icsp", "in-circuit serial programming");
-            correctionAdd("ICSP", "in-circuit serial programming");
 
             correctionAdd("Logic Programming", "logic programming");
 
@@ -14159,6 +14253,89 @@ namespace OverflowHelper.core
 
             correctionAdd("pivot-table", "pivot table");
 
+            correctionAdd("vode", "vote");
+
+            correctionAdd("up-vote", "upvote");
+            correctionAdd("UV", "upvote");
+            correctionAdd("UpVote", "upvote");
+            correctionAdd("up vote", "upvote");
+            correctionAdd("Up-Vote", "upvote");
+            correctionAdd("Upvote", "upvote");
+            correctionAdd("Up vote", "upvote");
+            correctionAdd("upmod", "upvote");
+            correctionAdd("upovote", "upvote");
+            correctionAdd("Upvite", "upvote");
+            correctionAdd("upvite", "upvote");
+
+            correctionAdd("up-voted", "upvoted");
+
+            correctionAdd("down-vote", "downvote");
+            correctionAdd("dv", "downvote");
+            correctionAdd("DV", "downvote");
+            correctionAdd("donwvote", "downvote");
+            correctionAdd("down vote", "downvote");
+            correctionAdd("down vode", "downvote");
+            correctionAdd("Downvote", "downvote");
+            correctionAdd("down Vote", "downvote");
+            correctionAdd("DownVote", "downvote");
+            correctionAdd("Down Vote", "downvote");
+            correctionAdd("Down-vote", "downvote");
+            correctionAdd("downmod", "downvote");
+            correctionAdd("mod down", "downvote");
+            correctionAdd("donwgrades", "downvote");
+            correctionAdd("downgrade", "downvote");
+            correctionAdd("downgrades", "downvote");
+            correctionAdd("Down-Vote", "downvote");
+            correctionAdd("downvet", "downvote");
+            correctionAdd("downvot", "downvote");
+            correctionAdd("dowmvote", "downvote");
+            correctionAdd("Down vote", "downvote");
+
+            correctionAdd("dved", "downvoted");
+            correctionAdd("donwvoted", "downvoted");
+            correctionAdd("donvoted", "downvoted");
+
+            correctionAdd("down-voter", "downvoter");
+            correctionAdd("down voter", "downvoter");
+
+            correctionAdd("down voting", "downvoting");
+            correctionAdd("down-voting", "downvoting");
+            correctionAdd("Dowvoting", "downvoting");
+            correctionAdd("dowvoting", "downvoting");
+            correctionAdd("Down voting", "downvoting");
+            correctionAdd("Downvoting", "downvoting");
+            correctionAdd("Down-voting", "downvoting");
+            correctionAdd("downvotig", "downvoting");
+
+            correctionAdd("Upvoting", "upvoting");
+            correctionAdd("up-voting", "upvoting");
+
+            correctionAdd("clsos", "close");
+            correctionAdd("colse", "close");
+
+            correctionAdd("coloses", "closes");
+
+            correctionAdd("colsed", "closed");
+
+            correctionAdd("clocsing", "closing");
+            correctionAdd("Clocsing", "closing");
+
+            correctionAdd("cved", "close voted");
+
+            correctionAdd("auto-close", "autoclose");
+
+            correctionAdd("Vote to Close", "vote to close");
+            correctionAdd("VTC", "vote to close");
+            correctionAdd("VtC", "vote to close");
+
+            correctionAdd("closedmindedness", "closed-mindedness");
+            correctionAdd("closed mindedness", "closed-mindedness");
+
+            correctionAdd("closed source", "closed-source software");
+            correctionAdd("closed source software", "closed-source software");
+
+            correctionAdd("auto-closing", "autoclosing");
+
             correctionAdd("trust-able", "trustable");
 
             correctionAdd("uncoutable", "uncountable");
@@ -15313,20 +15490,6 @@ namespace OverflowHelper.core
 
             correctionAdd("persuit", "pursuit");
 
-            correctionAdd("Circuit", "circuit");
-            correctionAdd("cicuit", "circuit");
-            correctionAdd("cuircuit", "circuit");
-            correctionAdd("circult", "circuit");
-
-            correctionAdd("snubber", "snub circuit");
-            correctionAdd("Snubber", "snub circuit");
-
-            correctionAdd("short cirquit", "short circuit");
-            correctionAdd("Short-cirquit", "short circuit");
-            correctionAdd("short-cirquit", "short circuit");
-
-            correctionAdd("Short-cirquit evaluation", "short-circuit evaluation");
-
             correctionAdd("eval", "evaluation");
             correctionAdd("evaluatoin", "evaluation");
             correctionAdd("evalution", "evaluation");
@@ -15345,82 +15508,6 @@ namespace OverflowHelper.core
             correctionAdd("htmlunit", "HtmlUnit");
 
             correctionAdd("close knit", "close-knit");
-
-            correctionAdd("vode", "vote");
-
-            correctionAdd("up-vote", "upvote");
-            correctionAdd("UV", "upvote");
-            correctionAdd("UpVote", "upvote");
-            correctionAdd("up vote", "upvote");
-            correctionAdd("Up-Vote", "upvote");
-            correctionAdd("Upvote", "upvote");
-            correctionAdd("Up vote", "upvote");
-            correctionAdd("upmod", "upvote");
-            correctionAdd("upovote", "upvote");
-            correctionAdd("Upvite", "upvote");
-            correctionAdd("upvite", "upvote");
-
-            correctionAdd("up-voted", "upvoted");
-
-            correctionAdd("down-vote", "downvote");
-            correctionAdd("dv", "downvote");
-            correctionAdd("DV", "downvote");
-            correctionAdd("donwvote", "downvote");
-            correctionAdd("down vote", "downvote");
-            correctionAdd("down vode", "downvote");
-            correctionAdd("Downvote", "downvote");
-            correctionAdd("down Vote", "downvote");
-            correctionAdd("DownVote", "downvote");
-            correctionAdd("Down Vote", "downvote");
-            correctionAdd("Down-vote", "downvote");
-            correctionAdd("downmod", "downvote");
-            correctionAdd("mod down", "downvote");
-            correctionAdd("donwgrades", "downvote");
-            correctionAdd("downgrade", "downvote");
-            correctionAdd("downgrades", "downvote");
-            correctionAdd("Down-Vote", "downvote");
-            correctionAdd("downvet", "downvote");
-            correctionAdd("downvot", "downvote");
-            correctionAdd("dowmvote", "downvote");
-            correctionAdd("Down vote", "downvote");
-
-            correctionAdd("dved", "downvoted");
-            correctionAdd("donwvoted", "downvoted");
-            correctionAdd("donvoted", "downvoted");
-
-            correctionAdd("down-voter", "downvoter");
-            correctionAdd("down voter", "downvoter");
-
-            correctionAdd("explain downvotes", "Encouraging people to explain downvotes");
-
-            correctionAdd("clsos", "close");
-            correctionAdd("colse", "close");
-
-            correctionAdd("coloses", "closes");
-
-            correctionAdd("colsed", "closed");
-
-            correctionAdd("clocsing", "closing");
-            correctionAdd("Clocsing", "closing");
-
-            correctionAdd("cved", "close voted");
-
-            correctionAdd("auto-close", "autoclose");
-
-            correctionAdd("Vote to Close", "vote to close");
-            correctionAdd("VTC", "vote to close");
-            correctionAdd("VtC", "vote to close");
-
-            correctionAdd("CCTV", "closed-circuit television");
-            correctionAdd("cctv", "closed-circuit television");
-
-            correctionAdd("closedmindedness", "closed-mindedness");
-            correctionAdd("closed mindedness", "closed-mindedness");
-
-            correctionAdd("closed source", "closed-source software");
-            correctionAdd("closed source software", "closed-source software");
-
-            correctionAdd("auto-closing", "autoclosing");
 
             correctionAdd("jsunit", "JSUnit");
             correctionAdd("jsUnit", "JSUnit");
@@ -15544,6 +15631,16 @@ namespace OverflowHelper.core
             correctionAdd("word-press", "WordPress");
             correctionAdd("Wordpess", "WordPress");
             correctionAdd("worpress", "WordPress");
+
+            correctionAdd("WPML", "WordPress Multilingual");
+
+            // The WordPress editor
+            correctionAdd("Guttenberg", "Gutenberg");
+            correctionAdd("gutenberg", "Gutenberg");
+
+            // WordPress
+            correctionAdd("yoast", "Yoast SEO");
+            correctionAdd("Yoast", "Yoast SEO");
 
             correctionAdd("ssl", "SSL");
             correctionAdd("SLL", "SSL");
@@ -15966,8 +16063,6 @@ namespace OverflowHelper.core
             correctionAdd("saml", "SAML");
 
             correctionAdd("cxml", "cXML");
-
-            correctionAdd("WPML", "WordPress Multilingual");
 
             correctionAdd("graphml", "GraphML");
 
@@ -17070,6 +17165,52 @@ namespace OverflowHelper.core
 
             correctionAdd("cpu", "CPU");
             correctionAdd("Cpu", "CPU");
+
+            correctionAdd("Processor", "processor");
+
+            correctionAdd("uP", "microprocessor");
+            correctionAdd("µp", "microprocessor");
+            correctionAdd("µP", "microprocessor");
+            correctionAdd("mP", "microprocessor");
+
+            correctionAdd("uContoller", "microcontroller");
+            correctionAdd("uController", "microcontroller");
+            correctionAdd("micro-controller", "microcontroller");
+            correctionAdd("uC", "microcontroller"); // Expansion
+            correctionAdd("mc", "microcontroller"); // Colision with something else? Midnight Commander. Microcontroller.
+            correctionAdd("MCU", "microcontroller"); // Expansion
+            correctionAdd("micro controllers", "microcontroller"); // Plural...
+            correctionAdd("micro controller", "microcontroller");
+            correctionAdd("mcu", "microcontroller"); // Expansion
+            correctionAdd("mictrocontroller", "microcontroller"); // Misspelling
+            correctionAdd("uc", "microcontroller"); // Expansion
+            correctionAdd("Microcontroller", "microcontroller"); // Depends on context...
+            correctionAdd("ucontroller", "microcontroller"); // Expansion
+            correctionAdd("Micro-controller", "microcontroller");
+            correctionAdd("μc", "microcontroller");
+            correctionAdd("microController", "microcontroller");
+            correctionAdd("microcontroler", "microcontroller");
+            correctionAdd("MicroController", "microcontroller");
+            correctionAdd("microntroller", "microcontroller"); // Misspelling
+            correctionAdd("µC", "microcontroller");
+            correctionAdd("mControlers", "microcontroller"); // Plural...
+            correctionAdd("mControler", "microcontroller");
+            correctionAdd("mController", "microcontroller");
+            correctionAdd("microncontroller", "microcontroller");
+            correctionAdd("mictrocontrollers", "microcontroller");
+            correctionAdd("microctroller", "microcontroller");
+            correctionAdd("Micro-Controller", "microcontroller");
+            correctionAdd("UC", "microcontroller");
+            correctionAdd("MC", "microcontroller");
+            correctionAdd("Microcontoller", "microcontroller");
+            correctionAdd("microcontoller", "microcontroller");
+
+            correctionAdd("Payment Processor", "payment processor");
+
+            correctionAdd("pre-processor", "preprocessor");
+
+            correctionAdd("many-core", "manycore processor");
+            correctionAdd("Many-core", "manycore processor");
 
             correctionAdd("sysadmin", "system administrator"); // Expansion.
             correctionAdd("Sysadmin", "system administrator");
@@ -18202,8 +18343,6 @@ namespace OverflowHelper.core
             correctionAdd("tray", "try");
             correctionAdd("trie", "try");
 
-            correctionAdd("circutry", "circuitry");
-
             correctionAdd("OC", "organic chemistry");
 
             correctionAdd("Chemistry", "chemistry");
@@ -18951,15 +19090,6 @@ namespace OverflowHelper.core
             correctionAdd("phy", "PHY");
             correctionAdd("Phy", "PHY");
 
-            correctionAdd("HyperV", "Hyper-V");
-            correctionAdd("hyper-v", "Hyper-V");
-            correctionAdd("hyperv", "Hyper-V");
-            correctionAdd("hyper-V", "Hyper-V");
-            correctionAdd("hyper v", "Hyper-V");
-            correctionAdd("Hyper V", "Hyper-V");
-            correctionAdd("Hyper-v", "Hyper-V");
-            correctionAdd("hyperV", "Hyper-V");
-
             correctionAdd("BluRay", "Blu-ray");
             correctionAdd("blu-ray", "Blu-ray");
             correctionAdd("Blu-Ray", "Blu-ray");
@@ -19361,11 +19491,6 @@ namespace OverflowHelper.core
             correctionAdd("DLL Hell", "DLL&nbsp;Hell"); // Sort of identity mapping
             correctionAdd("dll hell", "DLL&nbsp;Hell");
 
-            correctionAdd("qemu", "QEMU");
-            correctionAdd("QEmu", "QEMU");
-            correctionAdd("Qemu", "QEMU");
-            correctionAdd("qEmu", "QEMU");
-
             correctionAdd("gnu", "GNU");
             correctionAdd("Gnu", "GNU");
 
@@ -19482,9 +19607,6 @@ namespace OverflowHelper.core
             correctionAdd("cherry pick", "cherry-pick");
 
             correctionAdd("cherrypy", "CherryPy");
-
-            correctionAdd("kvm", "KVM"); // Conflict with KVM switch, "keyboard, visual display unit, mouse", <https://en.wikipedia.org/wiki/KVM_switch>. ALTERNATIVE.
-            correctionAdd("KVm", "KVM");
 
             // Music (classical)
             correctionAdd("Moonight Sonata", "Moonlight Sonata");
@@ -19834,6 +19956,27 @@ namespace OverflowHelper.core
             correctionAdd("CHATGPT", "ChatGPT");
             correctionAdd("ChatGTP", "ChatGPT");
 
+            // AI
+            correctionAdd("Prompt Engineering", "prompt engineering");
+
+            // AI / deep learning
+            correctionAdd("Stable Diffusion", "Stable&nbsp;Diffusion");
+            correctionAdd("StableDiffusion", "Stable&nbsp;Diffusion");
+            correctionAdd("S.D", "Stable&nbsp;Diffusion"); // Really "S.D.", but we can't handle some punctuation at the moment.
+
+            // AI. ChatGPT
+            //
+            // Alternative URLs: 
+            //
+            //   <https://arstechnica.com/information-technology/2023/03/you-can-now-run-a-gpt-3-level-ai-model-on-your-laptop-phone-and-raspberry-pi/>
+            //   <https://en.wikipedia.org/wiki/Large_language_model#List_of_large_language_models> 
+            //
+            correctionAdd("LLaMA", "Large Language Model Meta AI");
+            correctionAdd("LLaMa", "Large Language Model Meta AI");
+            correctionAdd("LlaMA.cpp", "Large Language Model Meta AI");
+            correctionAdd("LLaMA.cpp", "Large Language Model Meta AI");
+            correctionAdd("llama.cpp", "Large Language Model Meta AI");
+
             correctionAdd("mission accomplished", "AI responses");
             correctionAdd("Mission. Fucking. Accomplished", "AI responses");
             correctionAdd("mission fucking accomplished", "AI responses");
@@ -19931,43 +20074,6 @@ namespace OverflowHelper.core
             correctionAdd("model-view-controller", "model–view–controller");
 
             correctionAdd("Model-View-Presenter", "model–view–presenter");
-
-            correctionAdd("uContoller", "microcontroller");
-            correctionAdd("uController", "microcontroller");
-            correctionAdd("micro-controller", "microcontroller");
-            correctionAdd("uC", "microcontroller"); // Expansion
-            correctionAdd("mc", "microcontroller"); // Colision with something else? Midnight Commander. Microcontroller.
-            correctionAdd("MCU", "microcontroller"); // Expansion
-            correctionAdd("micro controllers", "microcontroller"); // Plural...
-            correctionAdd("micro controller", "microcontroller");
-            correctionAdd("mcu", "microcontroller"); // Expansion
-            correctionAdd("mictrocontroller", "microcontroller"); // Misspelling
-            correctionAdd("uc", "microcontroller"); // Expansion
-            correctionAdd("Microcontroller", "microcontroller"); // Depends on context...
-            correctionAdd("ucontroller", "microcontroller"); // Expansion
-            correctionAdd("Micro-controller", "microcontroller");
-            correctionAdd("μc", "microcontroller");
-            correctionAdd("microController", "microcontroller");
-            correctionAdd("microcontroler", "microcontroller");
-            correctionAdd("MicroController", "microcontroller");
-            correctionAdd("microntroller", "microcontroller"); // Misspelling
-            correctionAdd("µC", "microcontroller");
-            correctionAdd("mControlers", "microcontroller"); // Plural...
-            correctionAdd("mControler", "microcontroller");
-            correctionAdd("mController", "microcontroller");
-            correctionAdd("microncontroller", "microcontroller");
-            correctionAdd("mictrocontrollers", "microcontroller");
-            correctionAdd("microctroller", "microcontroller");
-            correctionAdd("Micro-Controller", "microcontroller");
-            correctionAdd("UC", "microcontroller");
-            correctionAdd("MC", "microcontroller");
-            correctionAdd("Microcontoller", "microcontroller");
-            correctionAdd("microcontoller", "microcontroller");
-
-            correctionAdd("uP", "microprocessor");
-            correctionAdd("µp", "microprocessor");
-            correctionAdd("µP", "microprocessor");
-            correctionAdd("mP", "microprocessor");
 
             correctionAdd("controlller", "controller");
             correctionAdd("Controlller", "controller");
@@ -22251,9 +22357,6 @@ namespace OverflowHelper.core
             correctionAdd("Set-up", "set up");
             correctionAdd("Set up", "set up");
             correctionAdd("seup", "set up");
-
-            // Related to embedded systems and microcontrollers
-            correctionAdd("gpio", "GPIO");
 
             correctionAdd("perms", "permissions");
             correctionAdd("premissions", "permissions");
@@ -28137,15 +28240,6 @@ namespace OverflowHelper.core
             correctionAdd("credate", "create");
             correctionAdd("creats", "create");
 
-            correctionAdd("down voting", "downvoting");
-            correctionAdd("down-voting", "downvoting");
-            correctionAdd("Dowvoting", "downvoting");
-            correctionAdd("dowvoting", "downvoting");
-            correctionAdd("Down voting", "downvoting");
-            correctionAdd("Downvoting", "downvoting");
-            correctionAdd("Down-voting", "downvoting");
-            correctionAdd("downvotig", "downvoting");
-
             correctionAdd("forground", "foreground");
             correctionAdd("fg", "foreground");
             correctionAdd("foregroud", "foreground");
@@ -29760,10 +29854,6 @@ namespace OverflowHelper.core
             correctionAdd("weater", "weather");
             correctionAdd("wheater", "weather");
             correctionAdd("wethar", "weather");
-
-            // The WordPress editor
-            correctionAdd("Guttenberg", "Gutenberg");
-            correctionAdd("gutenberg", "Gutenberg");
 
             correctionAdd("lbry.tv", "LBRY");
             correctionAdd("LBRL", "LBRY");
@@ -33051,6 +33141,12 @@ namespace OverflowHelper.core
             correctionAdd("reprensent", "represent");
             correctionAdd("repreasent", "represent");
 
+            correctionAdd("repsentation", "representation");
+
+            correctionAdd("representitive", "representative");
+
+            correctionAdd("representd", "represented");
+
             correctionAdd("Technical Debt", "technical debt");
             correctionAdd("tech debt", "technical debt");
             correctionAdd("Tech Debt", "technical debt");
@@ -35784,8 +35880,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ghosttown", "ghost town");
 
-            correctionAdd("Payment Processor", "payment processor");
-
             correctionAdd("powerty", "poverty");
 
             correctionAdd("preparinng", "preparing");
@@ -37663,11 +37757,6 @@ namespace OverflowHelper.core
             correctionAdd("GW Basic", "GW-BASIC");
             correctionAdd("GWBASIC", "GW-BASIC");
             correctionAdd("GW BASIC", "GW-BASIC");
-
-            correctionAdd("application-specific integrated circuit", "ASIC");
-            correctionAdd("asic", "ASIC");
-            correctionAdd("ASICs", "ASIC");
-            correctionAdd("Application-Specific Integrated Circuit", "ASIC");
 
             correctionAdd("2 meter band", "2-meter band");
             correctionAdd("2m", "2-meter band");
@@ -40009,8 +40098,6 @@ namespace OverflowHelper.core
 
             correctionAdd("pentest", "penetration test");
             correctionAdd("pen test", "penetration test");
-
-            correctionAdd("circuitikz", "CircuiTikZ");
 
             correctionAdd("excite", "Excite");
 
@@ -42676,8 +42763,6 @@ namespace OverflowHelper.core
             correctionAdd("Caltech", "California Institute of Technology");
             correctionAdd("Caltechc", "California Institute of Technology");
 
-            correctionAdd("circuitlab", "CircuitLab");
-
             correctionAdd("Word 2007", "Microsoft Word 2007");
             correctionAdd("MS Word 2007", "Microsoft Word 2007");
 
@@ -43913,9 +43998,6 @@ namespace OverflowHelper.core
             correctionAdd("super power", "superpower");
             correctionAdd("super-power", "superpower");
 
-            correctionAdd("Upvoting", "upvoting");
-            correctionAdd("up-voting", "upvoting");
-
             correctionAdd("godot", "Godot");
 
             correctionAdd("vsauce", "Vsauce");
@@ -44369,11 +44451,6 @@ namespace OverflowHelper.core
             correctionAdd("Electrical Ground Rod", "ground rod");
 
             correctionAdd("PDQ", "pretty damned quick");
-
-            correctionAdd("ground fault circuit interrupter", "residual-current device");
-            correctionAdd("Residual-current device", "residual-current device");
-            correctionAdd("RCD", "residual-current device");
-            correctionAdd("GFCI", "residual-current device");
 
             correctionAdd("Shredder", "shredder");
 
@@ -45745,8 +45822,6 @@ namespace OverflowHelper.core
 
             correctionAdd("nutz", "nuts");
 
-            correctionAdd("repsentation", "representation");
-
             correctionAdd("robots.txt", "robots exclusion standard");
 
             correctionAdd("sea star", "starfish");
@@ -46247,8 +46322,6 @@ namespace OverflowHelper.core
 
             correctionAdd("The Oxford Union Society", "Oxford Union");
 
-            correctionAdd("Xenon", "xenon");
-
             correctionAdd("Playstation", "PlayStation");
 
             correctionAdd("annotion", "annotation");
@@ -46373,13 +46446,7 @@ namespace OverflowHelper.core
             correctionAdd("nondeterministic finite-state machine", "nondeterministic finite automaton");
             correctionAdd("NFA", "nondeterministic finite automaton");
 
-            // AI
-            correctionAdd("Prompt Engineering", "prompt engineering");
-
-            // AI / deep learning
-            correctionAdd("Stable Diffusion", "Stable&nbsp;Diffusion");
-            correctionAdd("StableDiffusion", "Stable&nbsp;Diffusion");
-            correctionAdd("S.D", "Stable&nbsp;Diffusion"); // Really "S.D.", but we can't handle some punctuation at the moment.
+            correctionAdd("AIOHTTP", "aiohttp");
 
             correctionAdd("RAMdrive", "RAM drive");
 
@@ -46693,8 +46760,6 @@ namespace OverflowHelper.core
             correctionAdd("magnification API", "Magnification API");
 
             correctionAdd("dowwn", "down");
-
-            correctionAdd("hyper parameter", "hyperparameter");
 
             correctionAdd("beknown", "known");
 
@@ -47367,8 +47432,6 @@ namespace OverflowHelper.core
 
             correctionAdd("SMPL", "SmPL");
 
-            correctionAdd("xen", "Xen");
-
             correctionAdd("aero plane", "aeroplane");
 
             correctionAdd("alfabet", "alphabet");
@@ -47416,8 +47479,6 @@ namespace OverflowHelper.core
             correctionAdd("Ryzen 3950x", "Ryzen 3950X");
 
             correctionAdd("Laissez-Faire Capitalism", "laissez-faire capitalism");
-
-            correctionAdd("pre-processor", "preprocessor");
 
             correctionAdd("psexec", "PsExec");
 
@@ -47629,8 +47690,6 @@ namespace OverflowHelper.core
             correctionAdd("postin", "posting");
 
             correctionAdd("Provider", "provider");
-
-            correctionAdd("representitive", "representative");
 
             correctionAdd("hive mind", "hivemind");
 
@@ -48057,8 +48116,6 @@ namespace OverflowHelper.core
             correctionAdd("Shadertoy.com", "Shadertoy");
             correctionAdd("shadertoy", "Shadertoy");
 
-            correctionAdd("AIOHTTP", "aiohttp");
-
             correctionAdd("baned", "banned");
 
             correctionAdd("bit twidling", "bit twiddling");
@@ -48077,8 +48134,6 @@ namespace OverflowHelper.core
             correctionAdd("Fixed Wing Airplane", "fixed-wing aircraft");
 
             correctionAdd("non-compliant", "noncompliant");
-
-            correctionAdd("7400", "7400-series integrated circuits");
 
             correctionAdd("bmi2", "BMI2");
 
@@ -49264,8 +49319,6 @@ namespace OverflowHelper.core
 
             correctionAdd("globing", "globbing");
 
-            correctionAdd("hyper plane", "hyperplane");
-
             correctionAdd("instanyly", "instantly");
 
             correctionAdd("SMU", "source measure unit");
@@ -49480,8 +49533,6 @@ namespace OverflowHelper.core
 
             correctionAdd("sharable", "shareable");
             correctionAdd("share-able", "shareable");
-
-            correctionAdd("SOIC", "small outline integrated circuit");
 
             correctionAdd("teamlead", "team lead");
 
@@ -50107,8 +50158,6 @@ namespace OverflowHelper.core
             // Machine learning and artificial intelligence (TensorFlow)
             correctionAdd("adam optimizer", "Adam optimizer");
             correctionAdd("Adam", "Adam optimizer");
-
-            correctionAdd("preprecessor", "C preprocessor");
 
             correctionAdd("some what", "somewhat");
 
@@ -50992,9 +51041,6 @@ namespace OverflowHelper.core
 
             correctionAdd("featurefull", "featureful");
 
-            correctionAdd("many-core", "manycore processor");
-            correctionAdd("Many-core", "manycore processor");
-
             correctionAdd("AdBlocker ultimate", "AdBlocker Ultimate");
 
             correctionAdd("OpsWorks", "AWS OpsWorks");
@@ -51031,8 +51077,6 @@ namespace OverflowHelper.core
 
             correctionAdd("moto", "motto");
 
-            correctionAdd("tactical downvoting", "tactical downvoting on Stack Overflow");
-
             correctionAdd("the four eyes principle", "two-man rule");
             correctionAdd("the principle of four-eyes", "two-man rule");
 
@@ -51040,31 +51084,11 @@ namespace OverflowHelper.core
 
             correctionAdd("explaines", "explains");
 
-            // Alternative URLs: 
-            //
-            //   <https://arstechnica.com/information-technology/2023/03/you-can-now-run-a-gpt-3-level-ai-model-on-your-laptop-phone-and-raspberry-pi/>
-            //   <https://en.wikipedia.org/wiki/Large_language_model#List_of_large_language_models> 
-            //
-            correctionAdd("LLaMA", "Large Language Model Meta AI");
-            correctionAdd("LLaMa", "Large Language Model Meta AI");
-            correctionAdd("LlaMA.cpp", "Large Language Model Meta AI");
-            correctionAdd("LLaMA.cpp", "Large Language Model Meta AI");
-            correctionAdd("llama.cpp", "Large Language Model Meta AI");
-
             correctionAdd("distiguishing", "distinguishing");
-
-            correctionAdd("VT-x", "Intel VT-x");
 
             correctionAdd("parallelizable", "parallelisable");
 
             correctionAdd("paired down", "pared down");
-
-            correctionAdd("Processor", "processor");
-
-            correctionAdd("representd", "represented");
-
-            correctionAdd("yoast", "Yoast SEO");
-            correctionAdd("Yoast", "Yoast SEO");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -81555,6 +81579,7 @@ namespace OverflowHelper.core
             correctionAdd("units_", "GNU Units_");
             correctionAdd("GNU units_", "GNU Units_");
 
+            // The verb
             correctionAdd("shortcircuit_", "short circuit_");
             correctionAdd("short-circuit_", "short circuit_");
 
