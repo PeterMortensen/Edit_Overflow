@@ -4056,6 +4056,7 @@ namespace OverflowHelper.core
             //
             //   <https://wiki.archlinux.org/title/Rxvt-unicode>
             //   <https://en.wikipedia.org/wiki/Rxvt>
+            //   <https://man.archlinux.org/man/urxvt.7>
             //
             //
             correctionAdd("URXVT", "rxvt-unicode");
@@ -5513,6 +5514,7 @@ namespace OverflowHelper.core
 
             correctionAdd("pets", "Pets (Stack Exchange site)");
             correctionAdd("Pets", "Pets (Stack Exchange site)");
+            correctionAdd("Pets.SE", "Pets (Stack Exchange site)");
 
             correctionAdd("Board & Card Games", "Board & Card Games (Stack Exchange site)");
 
@@ -14775,6 +14777,7 @@ namespace OverflowHelper.core
             correctionAdd("foreach", "ForEach-Object");
             correctionAdd("%", "ForEach-Object");
             correctionAdd("Foreach-Object", "ForEach-Object");
+            correctionAdd("ForEach-object", "ForEach-Object");
 
             // Of PowerShell...
             correctionAdd("get-aduser", "Get-ADUser");
@@ -14854,6 +14857,10 @@ namespace OverflowHelper.core
 
             // Of PowerShell...
             correctionAdd("ConvertTo-JSON", "ConvertTo-Json");
+
+            // Of PowerShell...
+            correctionAdd("TrimEnd", "String.TrimEnd");
+            correctionAdd("trimend", "String.TrimEnd");
 
             // Of PowerShell...
             correctionAdd("write-debug", "Write-Debug");
@@ -19003,6 +19010,7 @@ namespace OverflowHelper.core
             correctionAdd("Base 64", "Base64");
             correctionAdd("B64", "Base64");
             correctionAdd("bas64", "Base64");
+            correctionAdd("BASE64", "Base64");
 
             correctionAdd("Etc", "etc.");
             correctionAdd("ETC", "etc.");
@@ -19966,10 +19974,10 @@ namespace OverflowHelper.core
 
             // AI. ChatGPT
             //
-            // Alternative URLs: 
+            // Alternative URLs:
             //
             //   <https://arstechnica.com/information-technology/2023/03/you-can-now-run-a-gpt-3-level-ai-model-on-your-laptop-phone-and-raspberry-pi/>
-            //   <https://en.wikipedia.org/wiki/Large_language_model#List_of_large_language_models> 
+            //   <https://en.wikipedia.org/wiki/Large_language_model#List_of_large_language_models>
             //
             correctionAdd("LLaMA", "Large Language Model Meta AI");
             correctionAdd("LLaMa", "Large Language Model Meta AI");
@@ -25081,6 +25089,7 @@ namespace OverflowHelper.core
 
             correctionAdd("dicovered", "discovered");
             correctionAdd("discoverd", "discovered");
+            correctionAdd("disovered", "discovered");
 
             correctionAdd("descrete", "discrete");
             correctionAdd("Discrete", "discrete");
@@ -25862,6 +25871,7 @@ namespace OverflowHelper.core
             correctionAdd("multi dimensional", "multidimensional");
             correctionAdd("multi-demensional", "multidimensional");
             correctionAdd("multidemensional", "multidimensional");
+            correctionAdd("multidimensaional", "multidimensional");
 
             correctionAdd("u-block origin", "uBlock Origin");
             correctionAdd("ublock origin", "uBlock Origin");
@@ -26826,6 +26836,7 @@ namespace OverflowHelper.core
             correctionAdd("requrement", "requirement");
             correctionAdd("Requirments", "requirement");
             correctionAdd("requirments", "requirement");
+            correctionAdd("reqs", "requirement");
 
             correctionAdd("adhd", "ADHD");
 
@@ -27055,6 +27066,7 @@ namespace OverflowHelper.core
             correctionAdd("intelliJ idea", "IntelliJ IDEA");
             correctionAdd("intellj", "IntelliJ IDEA");
             correctionAdd("intellj idea", "IntelliJ IDEA");
+            correctionAdd("itelliJ", "IntelliJ IDEA");
 
             correctionAdd("idear", "idea");
             correctionAdd("ideia", "idea");
@@ -41659,6 +41671,7 @@ namespace OverflowHelper.core
             correctionAdd("taylor series", "Taylor series");
 
             correctionAdd("plaintext", "plain text");
+            correctionAdd("plain-text", "plain text");
 
             correctionAdd("lulu", "Lulu");
 
@@ -44988,6 +45001,7 @@ namespace OverflowHelper.core
             correctionAdd("tornado", "Tornado");
 
             correctionAdd("yast", "YaST");
+            correctionAdd("Yast", "YaST");
 
             correctionAdd("two-way ANOVA", "two-way analysis of variance");
             correctionAdd("two way anova", "two-way analysis of variance");
@@ -45598,6 +45612,7 @@ namespace OverflowHelper.core
             correctionAdd("fastapi", "FastAPI");
 
             correctionAdd("Goland", "GoLand");
+            correctionAdd("goland", "GoLand");
 
             correctionAdd("Maxwell's Demon", "Maxwell's demon");
 
@@ -46356,6 +46371,15 @@ namespace OverflowHelper.core
             correctionAdd("5e", "Dungeons & Dragons 5th edition");
             correctionAdd("D&D 5e", "Dungeons & Dragons 5th edition");
 
+            // A board game
+            correctionAdd("battletech", "BattleTech");
+
+            // A board game
+            correctionAdd("Settlers", "The Settlers of Catan");
+            correctionAdd("Cataan", "The Settlers of Catan");
+            correctionAdd("Catan", "The Settlers of Catan");
+            correctionAdd("cataan", "The Settlers of Catan");
+
             correctionAdd("animtionation", "animation");
 
             correctionAdd("SIP", "System Integrity Protection");
@@ -46466,6 +46490,7 @@ namespace OverflowHelper.core
             correctionAdd("Non-English", "non-English");
             correctionAdd("non English", "non-English");
             correctionAdd("non english", "non-English");
+            correctionAdd("Non-english", "non-English");
 
             correctionAdd("LSBLK", "lsblk");
 
@@ -48767,13 +48792,6 @@ namespace OverflowHelper.core
 
             correctionAdd("3NF", "third normal form");
 
-            correctionAdd("battletech", "BattleTech");
-
-            correctionAdd("Settlers", "The Settlers of Catan");
-            correctionAdd("Cataan", "The Settlers of Catan");
-            correctionAdd("Catan", "The Settlers of Catan");
-            correctionAdd("cataan", "The Settlers of Catan");
-
             correctionAdd("tirangle", "triangle");
 
             correctionAdd("High-Level Shading Language", "HLSL");
@@ -49761,7 +49779,9 @@ namespace OverflowHelper.core
 
             correctionAdd("exessive", "excessive");
 
+            // Linux
             correctionAdd("xdg open", "xdg-open");
+            correctionAdd("Xdg-open", "xdg-open");
 
             correctionAdd("Dynamic", "Dynamic (Mathematica)");
 
@@ -50580,6 +50600,7 @@ namespace OverflowHelper.core
 
             correctionAdd("gstreamer", "GStreamer");
             correctionAdd("Gstreamer", "GStreamer");
+            correctionAdd("Gst", "GStreamer");
 
             correctionAdd("rivaling", "rival");
 
@@ -51089,6 +51110,33 @@ namespace OverflowHelper.core
             correctionAdd("parallelizable", "parallelisable");
 
             correctionAdd("paired down", "pared down");
+
+            correctionAdd("Guile", "GNU Guile");
+
+            correctionAdd("figth", "fight");
+
+            correctionAdd("non-conventional", "nonconventional");
+            correctionAdd("non conventional", "nonconventional");
+
+            // Linux. GUI.
+            correctionAdd("xdg", "freedesktop.org");
+            correctionAdd("X Desktop Group", "freedesktop.org");
+            correctionAdd("XDG", "freedesktop.org");
+
+            correctionAdd("roleplaying game", "role-playing game");
+            correctionAdd("role playing game", "role-playing game");
+
+            correctionAdd("search able", "searchable");
+
+            // Linux, etc.
+            correctionAdd("zmq", "ZeroMQ");
+            correctionAdd("ZMQ", "ZeroMQ");
+
+            correctionAdd("granualrities", "granularities");
+
+            correctionAdd("segmentor", "segmenter");
+
+            correctionAdd("tys", "types");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -79467,6 +79515,28 @@ namespace OverflowHelper.core
 
             URL_Add("Yoast SEO", "https://en.wikipedia.org/wiki/Yoast_SEO");
 
+            URL_Add("GNU Guile", "https://en.wikipedia.org/wiki/GNU_Guile");
+
+            URL_Add("fight", "https://en.wiktionary.org/wiki/fight#Verb");
+
+            URL_Add("nonconventional", "https://en.wiktionary.org/wiki/nonconventional#Adjective");
+
+            URL_Add("freedesktop.org", "https://en.wikipedia.org/wiki/Freedesktop.org");
+
+            URL_Add("role-playing game", "https://en.wikipedia.org/wiki/Role-playing_game");
+
+            URL_Add("searchable", "https://en.wiktionary.org/wiki/searchable#Adjective");
+
+            URL_Add("ZeroMQ", "https://en.wikipedia.org/wiki/ZeroMQ");
+
+            URL_Add("granularities", "https://en.wiktionary.org/wiki/granularity#Noun");
+
+            URL_Add("segmenter", "https://en.wiktionary.org/wiki/segmenter#Noun");
+
+            URL_Add("String.TrimEnd", "https://learn.microsoft.com/en-us/dotnet/api/system.string.trimend");
+
+            URL_Add("types", "https://en.wiktionary.org/wiki/type#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -79670,14 +79740,20 @@ namespace OverflowHelper.core
             correctionAdd("lmb_", "MSB_");
             correctionAdd("most significant bit_", "MSB_");
 
+            correctionAdd("chmod 400_", "400_");
+            correctionAdd("0400_", "400_");
+
+            correctionAdd("0555_", "555_");
+            correctionAdd("chmod 555_", "555_");
+
+            correctionAdd("chmod 640_", "640_");
+            correctionAdd("0640_", "640_");
+
             correctionAdd("0755_", "755_");
             correctionAdd("chmod 755_", "755_");
 
             correctionAdd("0777_", "777_");
             correctionAdd("chmod 777_", "777_");
-
-            correctionAdd("0555_", "555_");
-            correctionAdd("chmod 555_", "555_");
 
             correctionAdd("CM_", "Community Manager_");
 
@@ -80278,6 +80354,7 @@ namespace OverflowHelper.core
 
             correctionAdd("throwed_", "threw_");
 
+            // A programming language (IBM)
             correctionAdd("rpg_", "RPG_");
 
             correctionAdd("INPUT_", "input_");
@@ -81583,6 +81660,14 @@ namespace OverflowHelper.core
             correctionAdd("shortcircuit_", "short circuit_");
             correctionAdd("short-circuit_", "short circuit_");
 
+            correctionAdd("[tag:rust]_", "Rust (tag wiki)_");
+            correctionAdd("rust_", "Rust (tag wiki)_");
+            correctionAdd("Rust_", "Rust (tag wiki)_");
+
+            correctionAdd("[tag:vala]_", "Vala (tag wiki)_");
+            correctionAdd("vala_", "Vala (tag wiki)_");
+            correctionAdd("Vala_", "Vala (tag wiki)_");
+
             // URL mappings
             //
             //
@@ -82775,6 +82860,14 @@ namespace OverflowHelper.core
             URL_Add("GNU Units_", "https://en.wikipedia.org/wiki/GNU_Units");
 
             URL_Add("short circuit_", "https://en.wiktionary.org/wiki/short_circuit#Verb");
+
+            URL_Add("Rust (tag wiki)_", "https://stackoverflow.com/questions/tagged/rust");
+
+            URL_Add("Vala (tag wiki)_", "https://stackoverflow.com/questions/tagged/vala");
+
+            URL_Add("400_", "https://chmodcommand.com/chmod-400/");
+
+            URL_Add("640_", "https://chmodcommand.com/chmod-640/");
 
         } //addLookupData_alternativeWordSet()
 
