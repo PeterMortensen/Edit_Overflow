@@ -1246,6 +1246,51 @@ namespace OverflowHelper.core
             // Electronics
             correctionAdd("SOIC", "small outline integrated circuit");
 
+            // Electronics
+            correctionAdd("fpga", "FPGA");
+            correctionAdd("Fpga", "FPGA");
+            correctionAdd("Field Programmable Gate Array", "FPGA");
+            correctionAdd("field-programmable gate array", "FPGA");
+
+            // Electronics
+            correctionAdd("TVS", "Transient voltage suppressor");
+            correctionAdd("tvs", "Transient voltage suppressor");
+
+            correctionAdd("tvs electronics", "TVS Electronics");
+
+            correctionAdd("Electronics", "electronics");
+
+            correctionAdd("Digital Electronics", "digital electronics");
+
+            // Capacitors (electronics)
+            correctionAdd("Niticon", "Nichicon");
+
+            // Electronics
+            correctionAdd("thru-hole", "through-hole construction");
+            correctionAdd("throughhole", "through-hole construction");
+
+            correctionAdd("Paul Horowitz and Winfield Hill", "The Art of Electronics");
+            correctionAdd("H&H", "The Art of Electronics");
+
+            // Electronics
+            correctionAdd("Vellema", "Velleman");
+
+            // An oscilloscope manufacturer. Electronics.
+            correctionAdd("Rohde Scharz", "Rohde & Schwarz");
+
+            // A current measurement device. Electronics.
+            correctionAdd("JouleScope", "Joulescope");
+
+            // Electronics
+            correctionAdd("vhdl", "VHDL");
+
+            // Related to FPGA (electronics. VHDL. Verilog)
+            correctionAdd("vunit", "VUnit");
+
+            // Related to FPGA (electronics. VHDL. Verilog)
+            correctionAdd("modelsim", "ModelSim");
+            correctionAdd("Modelsim", "ModelSim");
+
             // Boolean
             correctionAdd("Short-cirquit evaluation", "short-circuit evaluation");
 
@@ -1900,6 +1945,12 @@ namespace OverflowHelper.core
 
             correctionAdd("Api Gateway", "Amazon API Gateway");
             correctionAdd("API Gateway", "Amazon API Gateway");
+
+            correctionAdd("OpsWorks", "AWS OpsWorks");
+            correctionAdd("opsworks", "AWS OpsWorks");
+
+            correctionAdd("SSM agent", "AWS Systems Manager Agent");
+            correctionAdd("SSM Agent", "AWS Systems Manager Agent");
 
             correctionAdd("aweosme", "awesome");
             correctionAdd("aswesome", "awesome");
@@ -4175,6 +4226,19 @@ namespace OverflowHelper.core
             // Linux
             correctionAdd("linuxen", "Linuxen");
 
+            // Linux
+            correctionAdd("xdg open", "xdg-open");
+            correctionAdd("Xdg-open", "xdg-open");
+
+            // Linux. GUI.
+            correctionAdd("xdg", "freedesktop.org");
+            correctionAdd("X Desktop Group", "freedesktop.org");
+            correctionAdd("XDG", "freedesktop.org");
+
+            // Linux, etc.
+            correctionAdd("zmq", "ZeroMQ");
+            correctionAdd("ZMQ", "ZeroMQ");
+
             // Bluetooth. A Linux tool.
             correctionAdd("gattool", "gatttool");
 
@@ -4477,7 +4541,11 @@ namespace OverflowHelper.core
             correctionAdd("f-droid", "F-Droid");
             correctionAdd("fdroid", "F-Droid");
 
+            // Android
             correctionAdd("AVD manager", "AVD Manager");
+
+            // Android
+            correctionAdd("aar", "AAR");
 
             // An Android phone
             correctionAdd("Galaxy XCover", "Galaxy Xcover");
@@ -7627,6 +7695,11 @@ namespace OverflowHelper.core
             correctionAdd("Brainf***", "Brainfuck");
             correctionAdd("brainfuck", "Brainfuck");
 
+            // Forth!
+            correctionAdd("open firmware", "Open Firmware");
+
+            correctionAdd("FINC", "Forth Inc.");
+
             // A programming language
             correctionAdd("r", "R"); // Not actually observed.
 
@@ -7731,6 +7804,27 @@ namespace OverflowHelper.core
             // A programming language
             correctionAdd("scheme", "Scheme");
             correctionAdd("SCHEME", "Scheme");
+
+            // A programming language
+            correctionAdd("PASCAL", "Pascal");
+            correctionAdd("pascal", "Pascal");
+            correctionAdd("PasCal", "Pascal");
+
+            // A Pascal implementation
+            correctionAdd("lazarus", "Lazarus");
+
+            // A programming language
+            correctionAdd("GO", "Go");
+            correctionAdd("go", "Go");
+            correctionAdd("golang", "Go");
+            correctionAdd("GoLang", "Go");
+            correctionAdd("go-lang", "Go");
+            correctionAdd("Golang", "Go");
+            correctionAdd("Go-lang", "Go");
+            correctionAdd("go lang", "Go");
+
+            // A programming language
+            correctionAdd("julia", "Julia");
 
             // A programming language
             correctionAdd("c", "C"); // Possible conflicts!!!
@@ -10622,8 +10716,6 @@ namespace OverflowHelper.core
             correctionAdd("Apple Mini", "Mac Mini");
 
             correctionAdd("imac", "iMac");
-
-            correctionAdd("macvim", "MacVim");
 
             correctionAdd("Apple Silicon", "Apple silicon");
             correctionAdd("Silicon MAC", "Apple silicon");
@@ -15084,6 +15176,19 @@ namespace OverflowHelper.core
             correctionAdd("viM", "Vim");
             correctionAdd("VIm", "Vim");
 
+            correctionAdd("VI", "vi");
+            correctionAdd("Vi", "vi");
+
+            // Vim
+            correctionAdd("vimrc", ".vimrc");
+
+            correctionAdd("VimL", "Vim script");
+            correctionAdd("Vimscript", "Vim script");
+            correctionAdd("vim script", "Vim script");
+
+            // A Vim (text editor) plugin
+            correctionAdd("yedit", "YEdit");
+
             correctionAdd("gvim", "gVim");
             correctionAdd("GVIM", "gVim");
             correctionAdd("gVIM", "gVim");
@@ -15091,8 +15196,15 @@ namespace OverflowHelper.core
             correctionAdd("GVim", "gVim");
             correctionAdd("givm", "gVim");
 
-            correctionAdd("VI", "vi");
-            correctionAdd("Vi", "vi");
+            correctionAdd("neovim", "Neovim");
+            correctionAdd("nvim", "Neovim");
+            correctionAdd("neoVim", "Neovim");
+
+            correctionAdd("macvim", "MacVim");
+
+            correctionAdd("vimgolf", "VimGolf");
+
+            correctionAdd("ideavim", "IdeaVim");
 
             correctionAdd("sourceforge", "SourceForge");
             correctionAdd("source forge", "SourceForge");
@@ -18311,6 +18423,7 @@ namespace OverflowHelper.core
             correctionAdd("Simple Build Tool", "SBT");
             correctionAdd("simple build tool", "SBT");
 
+            // Like YouTube
             correctionAdd("vimeo", "Vimeo");
 
             correctionAdd("netflix", "Netflix");
@@ -20812,13 +20925,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ftdi", "FTDI");
 
-            // A Pascal implementation
-            correctionAdd("lazarus", "Lazarus");
-
-            correctionAdd("PASCAL", "Pascal");
-            correctionAdd("pascal", "Pascal");
-            correctionAdd("PasCal", "Pascal");
-
             correctionAdd("Application verifier", "Application Verifier");
             correctionAdd("application verifier", "Application Verifier");
 
@@ -21785,34 +21891,11 @@ namespace OverflowHelper.core
             correctionAdd("djang", "Django");
             correctionAdd("Djago", "Django");
 
-            correctionAdd("GO", "Go");
-            correctionAdd("go", "Go");
-            correctionAdd("golang", "Go");
-            correctionAdd("GoLang", "Go");
-            correctionAdd("go-lang", "Go");
-            correctionAdd("Golang", "Go");
-            correctionAdd("Go-lang", "Go");
-            correctionAdd("go lang", "Go");
-
+            // Raspberry Pi. Media center software.
             correctionAdd("OpenElec", "OpenELEC");
             correctionAdd("Openelec", "OpenELEC");
             correctionAdd("Open Elec", "OpenELEC");
             correctionAdd("openelec", "OpenELEC");
-
-            // Electronics
-            correctionAdd("fpga", "FPGA");
-            correctionAdd("Fpga", "FPGA");
-            correctionAdd("Field Programmable Gate Array", "FPGA");
-            correctionAdd("field-programmable gate array", "FPGA");
-
-            correctionAdd("vhdl", "VHDL");
-
-            // Related to FPGA (electronics. VHDL. Verilog)
-            correctionAdd("vunit", "VUnit");
-
-            // Related to FPGA (electronics. VHDL. Verilog)
-            correctionAdd("modelsim", "ModelSim");
-            correctionAdd("Modelsim", "ModelSim");
 
             correctionAdd("what's", "what’s");
             correctionAdd("whats", "what’s");
@@ -28802,10 +28885,6 @@ namespace OverflowHelper.core
 
             correctionAdd("cartesian", "Cartesian");
 
-            correctionAdd("neovim", "Neovim");
-            correctionAdd("nvim", "Neovim");
-            correctionAdd("neoVim", "Neovim");
-
             correctionAdd("moquito", "mosquito");
 
             correctionAdd("cisco", "Cisco");
@@ -32125,11 +32204,6 @@ namespace OverflowHelper.core
             correctionAdd("Freelancer", "freelancer");
 
             correctionAdd("freelancer.com", "Freelancer.com");
-
-            correctionAdd("TVS", "Transient voltage suppressor");
-            correctionAdd("tvs", "Transient voltage suppressor");
-
-            correctionAdd("tvs electronics", "TVS Electronics");
 
             correctionAdd("docs", "documentation");
             correctionAdd("doc", "documentation");
@@ -35530,8 +35604,6 @@ namespace OverflowHelper.core
 
             correctionAdd("pentadactyl", "Pentadactyl");
 
-            correctionAdd("vimgolf", "VimGolf");
-
             correctionAdd("brane", "brain");
 
             correctionAdd("brake bread", "break bread");
@@ -35692,8 +35764,6 @@ namespace OverflowHelper.core
             correctionAdd("Posibly", "possibly");
             correctionAdd("Possibly", "possibly");
             correctionAdd("posibly", "possibly");
-
-            correctionAdd("Electronics", "electronics");
 
             correctionAdd("text-based", "textbased");
             correctionAdd("Text-Based", "textbased");
@@ -35892,8 +35962,6 @@ namespace OverflowHelper.core
 
             correctionAdd("surrend", "surrender");
 
-            correctionAdd("julia", "Julia");
-
             correctionAdd("tails", "Tails");
 
             correctionAdd("xlsx", "XLSX");
@@ -35918,9 +35986,6 @@ namespace OverflowHelper.core
             correctionAdd("FW", "firmware");
             correctionAdd("fw", "firmware");
             correctionAdd("firware", "firmware");
-
-            // Forth!
-            correctionAdd("open firmware", "Open Firmware");
 
             correctionAdd("bizare", "bizarre");
             correctionAdd("baazar", "bizarre");
@@ -37157,8 +37222,6 @@ namespace OverflowHelper.core
 
             correctionAdd("centimeter", "centimetre");
             correctionAdd("cm", "centimetre");
-
-            correctionAdd("Digital Electronics", "digital electronics");
 
             correctionAdd("leap of nerd faith", "leap of faith");
 
@@ -42550,9 +42613,6 @@ namespace OverflowHelper.core
             correctionAdd("stripped down", "stripped-down");
             correctionAdd("Stripped down", "stripped-down");
 
-            // An oscilloscope manufacturer. Electronics.
-            correctionAdd("Rohde Scharz", "Rohde & Schwarz");
-
             correctionAdd("deployd", "deployed");
 
             correctionAdd("encounted", "encountered");
@@ -46455,13 +46515,6 @@ namespace OverflowHelper.core
 
             correctionAdd("SIP", "System Integrity Protection");
 
-            // Capacitors (electronics)
-            correctionAdd("Niticon", "Nichicon");
-
-            // Electronics
-            correctionAdd("thru-hole", "through-hole construction");
-            correctionAdd("throughhole", "through-hole construction");
-
             correctionAdd("automatjon", "automation");
 
             correctionAdd("Emotion", "emotion");
@@ -47091,9 +47144,6 @@ namespace OverflowHelper.core
             correctionAdd("ecb", "ECB");
 
             correctionAdd("pkcs", "PKCS");
-
-            correctionAdd("Paul Horowitz and Winfield Hill", "The Art of Electronics");
-            correctionAdd("H&H", "The Art of Electronics");
 
             correctionAdd("XOR Cipher", "XOR cipher");
 
@@ -48543,8 +48593,6 @@ namespace OverflowHelper.core
 
             correctionAdd("duckdb", "DuckDB");
 
-            correctionAdd("ideavim", "IdeaVim");
-
             correctionAdd("inamenate", "inanimate");
 
             correctionAdd("on this way", "in this way");
@@ -48943,10 +48991,6 @@ namespace OverflowHelper.core
             correctionAdd("non-factor", "nonfactor");
 
             correctionAdd("so for", "so far");
-
-            correctionAdd("VimL", "Vim script");
-            correctionAdd("Vimscript", "Vim script");
-            correctionAdd("vim script", "Vim script");
 
             correctionAdd("We", "we");
 
@@ -49831,10 +49875,6 @@ namespace OverflowHelper.core
 
             correctionAdd("exessive", "excessive");
 
-            // Linux
-            correctionAdd("xdg open", "xdg-open");
-            correctionAdd("Xdg-open", "xdg-open");
-
             correctionAdd("Dynamic", "Dynamic (Mathematica)");
 
             correctionAdd("premptive", "preemptive");
@@ -50399,9 +50439,6 @@ namespace OverflowHelper.core
 
             correctionAdd("up-swell", "upswell");
 
-            // A Vim (text editor) plugin
-            correctionAdd("yedit", "YEdit");
-
             correctionAdd("in simple term", "in simple terms");
             correctionAdd("In simple term", "in simple terms");
 
@@ -50916,9 +50953,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Wallpaper", "wallpaper");
 
-            // Electronics
-            correctionAdd("Vellema", "Velleman");
-
             correctionAdd("zero-one-several principle", "zero one infinity rule");
 
             // A password manager
@@ -51103,12 +51137,6 @@ namespace OverflowHelper.core
 
             correctionAdd("AdBlocker ultimate", "AdBlocker Ultimate");
 
-            correctionAdd("OpsWorks", "AWS OpsWorks");
-            correctionAdd("opsworks", "AWS OpsWorks");
-
-            correctionAdd("SSM agent", "AWS Systems Manager Agent");
-            correctionAdd("SSM Agent", "AWS Systems Manager Agent");
-
             // A web site
             correctionAdd("howtogeek", "How-To Geek");
 
@@ -51155,19 +51183,10 @@ namespace OverflowHelper.core
             correctionAdd("non-conventional", "nonconventional");
             correctionAdd("non conventional", "nonconventional");
 
-            // Linux. GUI.
-            correctionAdd("xdg", "freedesktop.org");
-            correctionAdd("X Desktop Group", "freedesktop.org");
-            correctionAdd("XDG", "freedesktop.org");
-
             correctionAdd("roleplaying game", "role-playing game");
             correctionAdd("role playing game", "role-playing game");
 
             correctionAdd("search able", "searchable");
-
-            // Linux, etc.
-            correctionAdd("zmq", "ZeroMQ");
-            correctionAdd("ZMQ", "ZeroMQ");
 
             correctionAdd("granualrities", "granularities");
 
@@ -51176,8 +51195,6 @@ namespace OverflowHelper.core
             correctionAdd("tys", "types");
 
             correctionAdd("desgined", "designed");
-
-            correctionAdd("FINC", "Forth Inc.");
 
             correctionAdd("moniitor", "monitor");
 
@@ -51188,16 +51205,7 @@ namespace OverflowHelper.core
             // HTTPS
             correctionAdd("443", "port 443");
 
-            // Vim
-            correctionAdd("vimrc", ".vimrc");
-
-            // Android
-            correctionAdd("aar", "AAR");
-
             correctionAdd("uneffective", "ineffective");
-
-            // A current measurement device. Electronics.
-            correctionAdd("JouleScope", "Joulescope");
 
             correctionAdd("optimaly", "optimally");
 
