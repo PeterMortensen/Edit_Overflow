@@ -1110,6 +1110,7 @@ namespace OverflowHelper.core
             correctionAdd("File", "file");
             correctionAdd("fiels", "file");
             correctionAdd("fil", "file");
+            correctionAdd("fle", "file");
 
             // PHP
             correctionAdd("php.ini", "php.ini file");
@@ -3393,6 +3394,7 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu one", "Ubuntu One");
 
             correctionAdd("lubuntu", "Lubuntu");
+            correctionAdd("LUbuntu", "Lubuntu");
 
             correctionAdd("xubuntu", "Xubuntu");
             correctionAdd("xubunbtu", "Xubuntu");
@@ -7985,6 +7987,10 @@ namespace OverflowHelper.core
 
             correctionAdd("VC++2010", "Visual C++ 2010");
 
+            // Alternative URL:
+            //
+            //   <https://www.quora.com/Why-do-people-criticise-Yashavant-Kanetkar-books-like-Let-Us-C-Why-dont-more-people-use-Turbo-C>
+            //
             correctionAdd("TurboC++", "Turbo C++");
             correctionAdd("turbo c", "Turbo C++"); // Is this true?
             correctionAdd("turbo C", "Turbo C++");
@@ -7995,6 +8001,7 @@ namespace OverflowHelper.core
             correctionAdd("turbo C++", "Turbo C++");
             correctionAdd("Turbo-C", "Turbo C++");
             correctionAdd("Yashavant Kanetkar books", "Turbo C++");
+            correctionAdd("Kanetkar", "Turbo C++");
 
             correctionAdd("C++builder", "C++Builder");
             correctionAdd("c++builder", "C++Builder");
@@ -11912,6 +11919,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Preferences", "preferences");
             correctionAdd("Perferences", "preferences");
+            correctionAdd("Prefrences", "preferences");
+            correctionAdd("prefrences", "preferences");
 
             correctionAdd("iterference", "interference");
             correctionAdd("interferance", "interference");
@@ -18931,6 +18940,7 @@ namespace OverflowHelper.core
             correctionAdd("Moderator", "moderator");
             correctionAdd("Moderato", "moderator");
             correctionAdd("moderato", "moderator");
+            correctionAdd("moderatorar", "moderator");
 
             correctionAdd("cdn", "CDN");
             correctionAdd("content delivery network", "CDN");
@@ -24168,6 +24178,7 @@ namespace OverflowHelper.core
             correctionAdd("possiible", "possible");
             correctionAdd("possibile", "possible");
             correctionAdd("poissible", "possible");
+            correctionAdd("possilbe", "possible");
 
             correctionAdd("possebilities", "possibilities");
             correctionAdd("possibilites", "possibilities");
@@ -26258,6 +26269,7 @@ namespace OverflowHelper.core
             correctionAdd("furter", "further");
             correctionAdd("farer", "further");
             correctionAdd("futher", "further");
+            correctionAdd("furthert", "further");
 
             correctionAdd("internaly", "internally");
 
@@ -40294,6 +40306,7 @@ namespace OverflowHelper.core
             correctionAdd("Many-worlds interpretation", "Everett interpretation");
             correctionAdd("many worlds interpretation", "Everett interpretation");
             correctionAdd("many-worlds interpretation", "Everett interpretation");
+            correctionAdd("Many Worlds", "Everett interpretation");
 
             correctionAdd("Copenhagen Interpretation", "Copenhagen interpretation");
 
@@ -40508,6 +40521,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Stackblitz", "StackBlitz");
             correctionAdd("stackblitz", "StackBlitz");
+            correctionAdd("stakblitz", "StackBlitz");
 
             correctionAdd("mess", "messy");
 
@@ -42723,6 +42737,7 @@ namespace OverflowHelper.core
             correctionAdd("IINM", "if I'm not mistaken");
 
             correctionAdd("inconsequntial", "inconsequential");
+            correctionAdd("inconsequantial", "inconsequential");
 
             correctionAdd("interation", "iteration");
 
@@ -45803,6 +45818,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Hall effect sensor", "Hall sensor");
             correctionAdd("hall sensor", "Hall sensor");
+            correctionAdd("Hall effect", "Hall sensor");
 
             correctionAdd("lear siegler", "Lear Siegler");
 
@@ -51214,6 +51230,30 @@ namespace OverflowHelper.core
             // Alternative URL: <https://ethanschoonover.com/solarized/>
             //
             correctionAdd("solarized", "Solarized");
+
+            correctionAdd("autoai", "AutoAI");
+
+            correctionAdd("space cadet", "space-cadet keyboard");
+
+            correctionAdd("sutiable", "suitable");
+
+            correctionAdd("DSX", "Watson Studio");
+            correctionAdd("Data Science Experience", "Watson Studio");
+            correctionAdd("IBM Watson Studio", "Watson Studio");
+
+            correctionAdd("desctiption", "description");
+
+            correctionAdd("Fermilab", "Fermi National Accelerator Laboratory");
+
+            correctionAdd("fictious", "fictitious");
+
+            correctionAdd("hog wash", "hogwash");
+
+            correctionAdd("dis-ambiguous", "nonambiguous");
+
+            correctionAdd("pycord", "Pycord");
+
+            correctionAdd("unGodly", "ungodly");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -79641,6 +79681,28 @@ namespace OverflowHelper.core
             URL_Add("Solarized", "https://en.wikipedia.org/wiki/Solarized");
 
             URL_Add("works", "https://en.wiktionary.org/wiki/work#Verb");
+
+            URL_Add("AutoAI", "https://en.wikipedia.org/wiki/AutoAI");
+
+            URL_Add("space-cadet keyboard", "https://en.wikipedia.org/wiki/Space-cadet_keyboard");
+
+            URL_Add("suitable", "https://en.wiktionary.org/wiki/suitable#Adjective");
+
+            URL_Add("Watson Studio", "https://en.wikipedia.org/wiki/IBM_Watson_Studio");
+
+            URL_Add("description", "https://en.wiktionary.org/wiki/description#Noun");
+
+            URL_Add("Fermi National Accelerator Laboratory", "https://en.wikipedia.org/wiki/Fermilab");
+
+            URL_Add("fictitious", "https://en.wiktionary.org/wiki/fictitious#Adjective");
+
+            URL_Add("hogwash", "https://en.wiktionary.org/wiki/hogwash#Noun");
+
+            URL_Add("nonambiguous", "https://en.wiktionary.org/wiki/nonambiguous#Adjective");
+
+            URL_Add("Pycord", "https://github.com/Pycord-Development/pycord");
+
+            URL_Add("ungodly", "https://en.wiktionary.org/wiki/ungodly#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
