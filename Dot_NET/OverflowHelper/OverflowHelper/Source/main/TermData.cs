@@ -6904,6 +6904,262 @@ namespace OverflowHelper.core
             // Python
             correctionAdd("collections.defaultdict", "defaultdict");
 
+            correctionAdd("py script", "PyScript");
+            correctionAdd("py-script", "PyScript");
+            correctionAdd("pyscript", "PyScript");
+
+            correctionAdd("Pytype", "pytype");
+            correctionAdd("PyType", "pytype");
+
+            correctionAdd("pyqt", "PyQt");
+            correctionAdd("pyQt", "PyQt");
+
+            correctionAdd("scipy", "SciPy");
+            correctionAdd("Scipy", "SciPy");
+            correctionAdd("SciPY", "SciPy");
+            correctionAdd("SCIPY", "SciPy");
+            correctionAdd("ScyPy", "SciPy");
+
+            correctionAdd("sympy", "SymPy");
+            correctionAdd("Sympy", "SymPy");
+
+            correctionAdd("PyYaml", "PyYAML");
+
+            correctionAdd("cherrypy", "CherryPy");
+
+            correctionAdd("pydev", "PyDev");
+            correctionAdd("Pydev", "PyDev");
+
+            correctionAdd("pycharm", "PyCharm");
+            correctionAdd("Pycharm", "PyCharm");
+            correctionAdd("pyCharm", "PyCharm");
+
+            correctionAdd("PyCharm CE", "PyCharm Community Edition");
+
+            correctionAdd("Pylon", "Pylons");
+            correctionAdd("pylon", "Pylons");
+            correctionAdd("pylons", "Pylons");
+
+            correctionAdd("scrapy", "Scrapy");
+
+            correctionAdd("Pypy", "PyPy");
+            correctionAdd("pypy", "PyPy");
+
+            correctionAdd("PyPi", "PyPI");
+            correctionAdd("pypi", "PyPI");
+            correctionAdd("Pypi", "PyPI");
+            correctionAdd("PYPI", "PyPI");
+
+            correctionAdd("pyvisa", "PyVISA");
+            correctionAdd("PyVisa", "PyVISA");
+            correctionAdd("pyVisa", "PyVISA");
+            correctionAdd("Pyvisa", "PyVISA");
+
+            correctionAdd("scapy", "Scapy");
+
+            correctionAdd("pywin32", "PyWin32");
+            correctionAdd("pyWin32", "PyWin32");
+
+            correctionAdd("Quippy", "Quibi");
+            correctionAdd("Quibby", "Quibi");
+
+            correctionAdd("PYo3", "PyO3");
+            correctionAdd("pyo3", "PyO3");
+
+            correctionAdd("plotly.py", "Plotly");
+            correctionAdd("plotly", "Plotly");
+
+            correctionAdd("PyLint", "Pylint");
+            correctionAdd("pylint", "Pylint");
+            correctionAdd("pyling", "Pylint");
+            correctionAdd("pyLint", "Pylint");
+
+            correctionAdd("pytorch", "PyTorch");
+            correctionAdd("torch", "PyTorch");
+            correctionAdd("Torch", "PyTorch");
+            correctionAdd("Pytorch", "PyTorch");
+
+            correctionAdd("pyinstaller", "PyInstaller");
+            correctionAdd("Pyinstaller", "PyInstaller");
+
+            correctionAdd("py test", "pytest");
+            correctionAdd("Pytest", "pytest");
+
+            correctionAdd("capybara", "Capybara");
+
+            correctionAdd("pyforms", "PyForms");
+
+            correctionAdd("pygui", "PyGUI");
+
+            correctionAdd("pyside", "PySide");
+
+            correctionAdd("PySide2", "PySide&nbsp;2");
+            correctionAdd("PySide 2", "PySide&nbsp;2");
+            correctionAdd("pyside2", "PySide&nbsp;2");
+
+            correctionAdd("pysimplegui", "PySimpleGUI");
+
+            correctionAdd("spyder", "Spyder");
+
+            correctionAdd("pySerial", "PySerial");
+            correctionAdd("Pyserial", "PySerial");
+
+            correctionAdd("canopy", "Enthought Canopy");
+            correctionAdd("Canopy", "Enthought Canopy");
+
+            correctionAdd("pyperclip", "Pyperclip");
+
+            correctionAdd("pyshark", "PyShark");
+
+            correctionAdd("Pyaudio", "PyAudio");
+            correctionAdd("pyaudio", "PyAudio");
+
+            correctionAdd("tweepy", "Tweepy");
+
+            correctionAdd("Pymc3", "PyMC");
+            correctionAdd("PyMC3", "PyMC");
+
+            correctionAdd("pyscripter", "PyScripter");
+
+            correctionAdd("Prosemirror", "ProseMirror");
+
+            correctionAdd("h5.py", "h5py");
+
+            correctionAdd("Discord.py", "discord.py");
+
+            correctionAdd("PyGtk", "PyGTK");
+
+            correctionAdd("pyautogui", "PyAutoGUI");
+
+            correctionAdd("pycrypto", "PyCrypto");
+
+            correctionAdd("pycord", "Pycord");
+
+            correctionAdd("Openpyxl", "openpyxl");
+
+            correctionAdd("coy", "copy");
+
+            correctionAdd("XCOPY", "xcopy");
+
+            correctionAdd("copiying", "copying");
+            correctionAdd("cupying", "copying");
+
+            correctionAdd("copy constr", "copy constructor");
+
+            correctionAdd("copys", "copies");
+
+            correctionAdd("copy right", "copyright");
+
+            correctionAdd("copyediting", "copy editing");
+            correctionAdd("Copy-editing", "copy editing");
+            correctionAdd("copy-editing", "copy editing");
+
+            correctionAdd("floppy drive", "floppy disk drive");
+            correctionAdd("Floppy drive", "floppy disk drive");
+
+            correctionAdd("diskette", "floppy disk");
+            correctionAdd("floppy", "floppy disk");
+
+            correctionAdd("typying", "typing");
+
+            correctionAdd("tpye", "type");
+            correctionAdd("tipe", "type");
+
+            correctionAdd("robocopy", "Robocopy");
+
+            correctionAdd("accompyning", "accompanying");
+
+            correctionAdd("recipi", "recipe");
+            correctionAdd("recipy", "recipe");
+
+            correctionAdd("philosofy", "philosophy");
+            correctionAdd("phiolosopjy", "philosophy");
+            correctionAdd("phiolosophy", "philosophy");
+            correctionAdd("Philosophy", "philosophy");
+
+            correctionAdd("Natural Philosopy", "natural philosophy");
+
+            correctionAdd("phy", "PHY");
+            correctionAdd("Phy", "PHY");
+
+            correctionAdd("past", "paste");
+            correctionAdd("pste", "paste");
+
+            correctionAdd("clip-board", "clipboard");
+            correctionAdd("CLIP-BOARD", "clipboard");
+            correctionAdd("CLIPBOARD", "clipboard");
+            correctionAdd("clip board", "clipboard");
+            correctionAdd("clibpoard", "clipboard");
+            correctionAdd("clibboard", "clipboard");
+            correctionAdd("cliboard", "clipboard");
+            correctionAdd("copyboard", "clipboard");
+
+            correctionAdd("copypaste", "copy-paste");
+            correctionAdd("copy-n-paste", "copy-paste");
+            correctionAdd("copy and paste", "copy-paste");
+            correctionAdd("copy/paste", "copy-paste");
+            correctionAdd("copy-pasta", "copy-paste");
+            correctionAdd("copy past", "copy-paste");
+            correctionAdd("copy paste", "copy-paste");
+            correctionAdd("C&P", "copy-paste");
+
+            correctionAdd("copy paste detector", "Copy/Paste Detector");
+            correctionAdd("CPD", "Copy/Paste Detector");
+            correctionAdd("cpd", "Copy/Paste Detector");
+
+            correctionAdd("happynness", "happiness");
+            correctionAdd("happinness", "happiness");
+            correctionAdd("Happyness", "happiness");
+            correctionAdd("happyness", "happiness");
+
+            correctionAdd("Strcpy", "strcpy");
+
+            correctionAdd("puppeteer", "Puppeteer");
+            correctionAdd("puppetter", "Puppeteer");
+            correctionAdd("pypeteer", "Puppeteer");
+
+            correctionAdd("pajamas", "pyjamas");
+
+            // Mars 
+            correctionAdd("oppy", "Opportunity");
+
+            correctionAdd("Inverted pyramid", "inverted pyramid");
+
+            correctionAdd("spy++", "Spy++");
+
+            correctionAdd("occupyes", "occupies");
+
+            correctionAdd("pybossa", "Pybossa");
+
+            correctionAdd("pyodide", "Pyodide");
+            correctionAdd("pyodine", "Pyodide");
+            correctionAdd("pyodide.js", "Pyodide");
+
+            correctionAdd("die on a pyre", "hill to die on");
+
+            correctionAdd("Pythagoras' theorem", "Pythagorean theorem");
+            correctionAdd("pythagorean theorem", "Pythagorean theorem");
+
+            correctionAdd("APY", "annual percentage yield");
+
+            // .NET
+            correctionAdd("ilspy", "ILSpy");
+            correctionAdd("ildpy", "ILSpy");
+
+            correctionAdd("hdf5", "HDF5");
+
+            correctionAdd("esoterical", "esoteric");
+
+            correctionAdd("opied", "copied");
+            correctionAdd("copyied", "copied");
+            correctionAdd("copiped", "copied");
+
+            correctionAdd("Pekka Pykko", "Pekka Pyykkö");
+
+            correctionAdd("pyro", "Pyro");
+
+            correctionAdd("pyrrhic victory", "Pyrrhic victory");
+
             // Start of Python function section
             correctionAdd("sorted", "sorted()"); // Python
 
@@ -8675,10 +8931,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Nativescript", "NativeScript");
 
-            correctionAdd("py script", "PyScript");
-            correctionAdd("py-script", "PyScript");
-            correctionAdd("pyscript", "PyScript");
-
             correctionAdd("Google", "google"); // The verb...
             correctionAdd("Google (verb)", "google");
             correctionAdd("google (verb)", "google");
@@ -10100,7 +10352,7 @@ namespace OverflowHelper.core
             correctionAdd("ADO.net", "ADO.NET");
             correctionAdd("ADO", "ADO.NET");
 
-           correctionAdd("Cruisecontrol", "CruiseControl");
+            correctionAdd("Cruisecontrol", "CruiseControl");
             correctionAdd("cruisecontrol", "CruiseControl");
             correctionAdd("cruise control", "CruiseControl");
             correctionAdd("Cruise Control", "CruiseControl");
@@ -11174,9 +11426,6 @@ namespace OverflowHelper.core
 
             correctionAdd("RAMDISC", "RAM disk");
 
-            correctionAdd("diskette", "floppy disk");
-            correctionAdd("floppy", "floppy disk");
-
             correctionAdd("FDM", "Free Download Manager");
 
             correctionAdd("ria", "RIA");
@@ -11854,13 +12103,7 @@ namespace OverflowHelper.core
             correctionAdd("Doctype", "DOCTYPE");
             correctionAdd("doctype", "DOCTYPE");
 
-            correctionAdd("tpye", "type");
-            correctionAdd("tipe", "type");
-
             correctionAdd("file type", "filetype");
-
-            correctionAdd("Pytype", "pytype");
-            correctionAdd("PyType", "pytype");
 
             correctionAdd("clear type", "ClearType");
             correctionAdd("clear-type", "ClearType");
@@ -12575,6 +12818,12 @@ namespace OverflowHelper.core
             correctionAdd("o-ring", "O-ring");
             correctionAdd("o ring", "O-ring");
 
+            // A type of switch for keyboards
+            //
+            // Alternative URL: <https://keyboardsexpert.com/what-are-rubber-dome-keyboards/>
+            //
+            correctionAdd("rubberdome", "rubber dome");
+
             // A manufacturer of mechanical keyboards, etc.
             // (e.g., 'Ducky Shine 7')
             correctionAdd("ducky", "Ducky");
@@ -12632,6 +12881,7 @@ namespace OverflowHelper.core
             correctionAdd("ck550 v2", "CK550 V2");
             correctionAdd("CK-550 V2", "CK550 V2");
             correctionAdd("CK550 v2", "CK550 V2");
+            correctionAdd("ck-550", "CK550 V2");
 
             // A mechanical keyboard from Cooler Master
             //
@@ -12694,6 +12944,9 @@ namespace OverflowHelper.core
             correctionAdd("tenkeyless", "tenkeyless (80%)");
             correctionAdd("10 keyless", "tenkeyless (80%)");
             correctionAdd("Tenkeyless", "tenkeyless (80%)");
+
+            // A type of mechanical keyboards
+            correctionAdd("space cadet", "space-cadet keyboard");
 
             // A rubber dome keyboard
             correctionAdd("Natural Keyboard", "Microsoft Natural Keyboard");
@@ -14335,12 +14588,21 @@ namespace OverflowHelper.core
 
             correctionAdd("IANAL", "I am not a lawyer");
 
+            correctionAdd("SOL", "shit out of luck");
+
+            correctionAdd("pita", "PITA");
+            correctionAdd("pia", "PITA");
+            correctionAdd("PIA", "PITA");
+            correctionAdd("PAIN IN THE A", "PITA");
+            correctionAdd("pain in the a", "PITA");
+            correctionAdd("p.i.t.a", "PITA");
+
+            correctionAdd("AIUI", "as I understand it");
+
             correctionAdd("ymmv", "your mileage may vary");
             correctionAdd("YMMV", "your mileage may vary");
             correctionAdd("Your mileage may vary", "your mileage may vary");
             correctionAdd("milage may vary", "your mileage may vary");
-
-            correctionAdd("SOL", "shit out of luck");
 
             correctionAdd("milage", "mileage");
 
@@ -15267,9 +15529,6 @@ namespace OverflowHelper.core
             correctionAdd("fire bug", "Firebug");
             correctionAdd("fireBug", "Firebug");
 
-            correctionAdd("pyqt", "PyQt");
-            correctionAdd("pyQt", "PyQt");
-
             correctionAdd("resharper", "ReSharper");
             correctionAdd("Resharper", "ReSharper");
             correctionAdd("re-sharper", "ReSharper");
@@ -15532,12 +15791,6 @@ namespace OverflowHelper.core
 
             correctionAdd("mono", "Mono");
             correctionAdd("MONO", "Mono");
-
-            correctionAdd("scipy", "SciPy");
-            correctionAdd("Scipy", "SciPy");
-            correctionAdd("SciPY", "SciPy");
-            correctionAdd("SCIPY", "SciPy");
-            correctionAdd("ScyPy", "SciPy");
 
             correctionAdd("ldap", "LDAP");
 
@@ -16243,9 +16496,6 @@ namespace OverflowHelper.core
             correctionAdd("Word Pad", "WordPad");
             correctionAdd("worldpad", "WordPad");
 
-            correctionAdd("sympy", "SymPy");
-            correctionAdd("Sympy", "SymPy");
-
             correctionAdd("pil", "PIL");
 
             correctionAdd("xbox", "Xbox");
@@ -16368,8 +16618,6 @@ namespace OverflowHelper.core
 
             correctionAdd("qml", "QML");
             correctionAdd("Qml", "QML");
-
-            correctionAdd("PyYaml", "PyYAML");
 
             correctionAdd("LXML", "lxml");
 
@@ -19387,16 +19635,6 @@ namespace OverflowHelper.core
             correctionAdd("bio", "biography");
             correctionAdd("biografy", "biography");
 
-            correctionAdd("philosofy", "philosophy");
-            correctionAdd("phiolosopjy", "philosophy");
-            correctionAdd("phiolosophy", "philosophy");
-            correctionAdd("Philosophy", "philosophy");
-
-            correctionAdd("Natural Philosopy", "natural philosophy");
-
-            correctionAdd("phy", "PHY");
-            correctionAdd("Phy", "PHY");
-
             correctionAdd("BluRay", "Blu-ray");
             correctionAdd("blu-ray", "Blu-ray");
             correctionAdd("Blu-Ray", "Blu-ray");
@@ -19911,8 +20149,6 @@ namespace OverflowHelper.core
             correctionAdd("cherrypick", "cherry-pick");
             correctionAdd("cherry pick", "cherry-pick");
 
-            correctionAdd("cherrypy", "CherryPy");
-
             // Music (classical)
             correctionAdd("Moonight Sonata", "Moonlight Sonata");
 
@@ -20277,6 +20513,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Generative AI", "generative AI");
             correctionAdd("generative ai", "generative AI");
+
+            correctionAdd("autoai", "AutoAI");
 
             correctionAdd("wolf algorithm", "Wolff algorithm");
             correctionAdd("Wolf algorithm", "Wolff algorithm");
@@ -21447,8 +21685,6 @@ namespace OverflowHelper.core
             correctionAdd("Meteor.JS", "Meteor");
             correctionAdd("MeteorJs", "Meteor");
 
-            correctionAdd("robocopy", "Robocopy");
-
             correctionAdd("pfx", "PFX");
 
             correctionAdd("althou", "although");
@@ -21650,15 +21886,6 @@ namespace OverflowHelper.core
             correctionAdd("chainload", "chain load");
 
             correctionAdd("playload", "payload");
-
-            correctionAdd("pydev", "PyDev");
-            correctionAdd("Pydev", "PyDev");
-
-            correctionAdd("pycharm", "PyCharm");
-            correctionAdd("Pycharm", "PyCharm");
-            correctionAdd("pyCharm", "PyCharm");
-
-            correctionAdd("PyCharm CE", "PyCharm Community Edition");
 
             correctionAdd("communite", "community");
             correctionAdd("cummanty", "community");
@@ -22034,9 +22261,6 @@ namespace OverflowHelper.core
             correctionAdd("CAT6", "Cat&nbsp;6");
             correctionAdd("CAT 6", "Cat&nbsp;6");
 
-            correctionAdd("Pypy", "PyPy");
-            correctionAdd("pypy", "PyPy");
-
             correctionAdd("SocketIO", "Socket.IO");
             correctionAdd("socket.io", "Socket.IO");
             correctionAdd("sockets.io", "Socket.IO");
@@ -22078,10 +22302,6 @@ namespace OverflowHelper.core
             correctionAdd("DoS", "DDoS"); // Not strictly correct (the extra "D" means "distributed")
             correctionAdd("ddos", "DDoS");
             correctionAdd("DDos", "DDoS");
-
-            correctionAdd("Pylon", "Pylons");
-            correctionAdd("pylon", "Pylons");
-            correctionAdd("pylons", "Pylons");
 
             correctionAdd("wmi", "WMI");
 
@@ -23322,8 +23542,6 @@ namespace OverflowHelper.core
 
             correctionAdd("docker", "Docker");
 
-            correctionAdd("scrapy", "Scrapy");
-
             correctionAdd("scrapped", "scraped");
 
             correctionAdd("scrap", "scrape");
@@ -24476,11 +24694,6 @@ namespace OverflowHelper.core
             correctionAdd("nmake", "NMAKE");
             correctionAdd("NMake", "NMAKE");
 
-            correctionAdd("PyPi", "PyPI");
-            correctionAdd("pypi", "PyPI");
-            correctionAdd("Pypi", "PyPI");
-            correctionAdd("PYPI", "PyPI");
-
             correctionAdd("scmitt trigger", "Schmitt trigger");
             correctionAdd("Schmidt", "Schmitt trigger");
             correctionAdd("Schmidt trigger", "Schmitt trigger");
@@ -25132,15 +25345,6 @@ namespace OverflowHelper.core
             correctionAdd("aprroach", "approach");
             correctionAdd("appraoch", "approach");
 
-            correctionAdd("clip-board", "clipboard");
-            correctionAdd("CLIP-BOARD", "clipboard");
-            correctionAdd("CLIPBOARD", "clipboard");
-            correctionAdd("clip board", "clipboard");
-            correctionAdd("clibpoard", "clipboard");
-            correctionAdd("clibboard", "clipboard");
-            correctionAdd("cliboard", "clipboard");
-            correctionAdd("copyboard", "clipboard");
-
             correctionAdd("eaquation", "equation");
 
             correctionAdd("extensinon", "extension");
@@ -25396,11 +25600,6 @@ namespace OverflowHelper.core
             correctionAdd("burocrat", "bureaucrat");
 
             correctionAdd("giberish", "gibberish");
-
-            correctionAdd("happynness", "happiness");
-            correctionAdd("happinness", "happiness");
-            correctionAdd("Happyness", "happiness");
-            correctionAdd("happyness", "happiness");
 
             correctionAdd("manger", "manager");
             correctionAdd("mananger", "manager");
@@ -26778,11 +26977,6 @@ namespace OverflowHelper.core
 
             correctionAdd("muslim", "Muslim");
 
-            correctionAdd("pyvisa", "PyVISA");
-            correctionAdd("PyVisa", "PyVISA");
-            correctionAdd("pyVisa", "PyVISA");
-            correctionAdd("Pyvisa", "PyVISA");
-
             correctionAdd("samsung", "Samsung");
             correctionAdd("Sumsung", "Samsung");
 
@@ -27765,8 +27959,6 @@ namespace OverflowHelper.core
             correctionAdd("Lastpass", "LastPass");
             correctionAdd("lastpass", "LastPass");
 
-            correctionAdd("scapy", "Scapy");
-
             correctionAdd("aggresive", "aggressive");
             correctionAdd("aggro", "aggressive");
             correctionAdd("agressive", "aggressive");
@@ -28586,9 +28778,6 @@ namespace OverflowHelper.core
             correctionAdd("logitech", "Logitech");
             correctionAdd("Logi", "Logitech");
 
-            correctionAdd("pywin32", "PyWin32");
-            correctionAdd("pyWin32", "PyWin32");
-
             correctionAdd("svm", "SVM");
 
             correctionAdd("add in", "add-in");
@@ -28800,18 +28989,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Alphanumeric", "alphanumeric");
             correctionAdd("alpha numeric", "alphanumeric");
-
-            correctionAdd("past", "paste");
-            correctionAdd("pste", "paste");
-
-            correctionAdd("copypaste", "copy-paste");
-            correctionAdd("copy-n-paste", "copy-paste");
-            correctionAdd("copy and paste", "copy-paste");
-            correctionAdd("copy/paste", "copy-paste");
-            correctionAdd("copy-pasta", "copy-paste");
-            correctionAdd("copy past", "copy-paste");
-            correctionAdd("copy paste", "copy-paste");
-            correctionAdd("C&P", "copy-paste");
 
             correctionAdd("Currying", "currying");
 
@@ -29590,8 +29767,6 @@ namespace OverflowHelper.core
             correctionAdd("Travis-CI", "Travis CI");
             correctionAdd("travis-ci", "Travis CI");
 
-            correctionAdd("accompyning", "accompanying");
-
             correctionAdd("ao", "among others");
             correctionAdd("a.o", "among others");
 
@@ -29759,9 +29934,6 @@ namespace OverflowHelper.core
             correctionAdd("XLM", "Stellar");
 
             correctionAdd("Wasi", "WASI");
-
-            correctionAdd("recipi", "recipe");
-            correctionAdd("recipy", "recipe");
 
             correctionAdd("wind-mill", "windmill");
             correctionAdd("wind mill", "windmill");
@@ -31137,8 +31309,6 @@ namespace OverflowHelper.core
             correctionAdd("neece", "niece");
             correctionAdd("neese", "niece");
 
-            correctionAdd("Strcpy", "strcpy");
-
             correctionAdd("italian", "Italian");
             correctionAdd("Italien", "Italian");
 
@@ -31349,9 +31519,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ivy league", "Ivy League");
             correctionAdd("Ivey", "Ivy League");
-
-            correctionAdd("Quippy", "Quibi");
-            correctionAdd("Quibby", "Quibi");
 
             correctionAdd("disgraful", "disgraceful");
 
@@ -31600,9 +31767,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Jamstack", "JAMstack");
             correctionAdd("jamstack", "JAMstack");
-
-            correctionAdd("PYo3", "PyO3");
-            correctionAdd("pyo3", "PyO3");
 
             correctionAdd("tco", "TCO");
 
@@ -32154,9 +32318,6 @@ namespace OverflowHelper.core
             correctionAdd("cufflinks", "Cufflinks");
 
             correctionAdd("iir", "IIR");
-
-            correctionAdd("plotly.py", "Plotly");
-            correctionAdd("plotly", "Plotly");
 
             correctionAdd("Regex Buddy", "RegexBuddy");
             correctionAdd("regexbuddy", "RegexBuddy");
@@ -32884,11 +33045,6 @@ namespace OverflowHelper.core
 
             correctionAdd("pidgin", "Pidgin");
 
-            correctionAdd("PyLint", "Pylint");
-            correctionAdd("pylint", "Pylint");
-            correctionAdd("pyling", "Pylint");
-            correctionAdd("pyLint", "Pylint");
-
             correctionAdd("tcptrace", "TCPTrace");
             correctionAdd("Tcptrace", "TCPTrace");
 
@@ -33032,11 +33188,6 @@ namespace OverflowHelper.core
             correctionAdd("Lambo", "Lamborghini");
             correctionAdd("lambo", "Lamborghini");
 
-            correctionAdd("pytorch", "PyTorch");
-            correctionAdd("torch", "PyTorch");
-            correctionAdd("Torch", "PyTorch");
-            correctionAdd("Pytorch", "PyTorch");
-
             correctionAdd("pelican", "Sveshnikov Variation (Lasker–Pelikan)");
 
             correctionAdd("udacity", "Udacity");
@@ -33054,9 +33205,6 @@ namespace OverflowHelper.core
             correctionAdd("gaussian", "Gaussian");
 
             correctionAdd("laplacian", "Laplacian");
-
-            correctionAdd("pyinstaller", "PyInstaller");
-            correctionAdd("Pyinstaller", "PyInstaller");
 
             correctionAdd("measily", "measly");
 
@@ -33083,10 +33231,6 @@ namespace OverflowHelper.core
             correctionAdd("Ener", "Enter");
 
             correctionAdd("gpa", "GPA");
-
-            correctionAdd("opied", "copied");
-            correctionAdd("copyied", "copied");
-            correctionAdd("copiped", "copied");
 
             correctionAdd("procederal", "procedural");
 
@@ -35090,10 +35234,6 @@ namespace OverflowHelper.core
 
             correctionAdd("mocha", "Mocha");
 
-            correctionAdd("puppeteer", "Puppeteer");
-            correctionAdd("puppetter", "Puppeteer");
-            correctionAdd("pypeteer", "Puppeteer");
-
             correctionAdd("Abelian", "abelian");
 
             correctionAdd("admissble", "admissible");
@@ -35711,8 +35851,6 @@ namespace OverflowHelper.core
             correctionAdd("X-mas", "Christmas");
 
             correctionAdd("Natural gas", "natural gas");
-
-            correctionAdd("pajamas", "pyjamas");
 
             correctionAdd("das", "DAS");
 
@@ -36727,9 +36865,6 @@ namespace OverflowHelper.core
 
             correctionAdd("positionnal", "positional");
 
-            correctionAdd("py test", "pytest");
-            correctionAdd("Pytest", "pytest");
-
             correctionAdd("re-routing", "rerouting");
 
             correctionAdd("Touchpad", "touchpad");
@@ -36921,8 +37056,6 @@ namespace OverflowHelper.core
             correctionAdd("sufferring", "suffering");
             correctionAdd("stuffering", "suffering");
 
-            correctionAdd("capybara", "Capybara");
-
             correctionAdd("Galleio", "Galileo Galilei");
             correctionAdd("galilio galilie", "Galileo Galilei");
             correctionAdd("Gallio Galileo", "Galileo Galilei");
@@ -36985,18 +37118,6 @@ namespace OverflowHelper.core
             correctionAdd("libavg", "Libavg");
 
             correctionAdd("phoenix", "Phoenix");
-
-            correctionAdd("pyforms", "PyForms");
-
-            correctionAdd("pygui", "PyGUI");
-
-            correctionAdd("pyside", "PySide");
-
-            correctionAdd("PySide2", "PySide&nbsp;2");
-            correctionAdd("PySide 2", "PySide&nbsp;2");
-            correctionAdd("pyside2", "PySide&nbsp;2");
-
-            correctionAdd("pysimplegui", "PySimpleGUI");
 
             correctionAdd("vietnam", "Vietnam");
 
@@ -37110,8 +37231,6 @@ namespace OverflowHelper.core
             correctionAdd("pid", "PID");
 
             correctionAdd("playwright", "Playwright");
-
-            correctionAdd("spyder", "Spyder");
 
             correctionAdd("aproval", "approval");
 
@@ -37541,9 +37660,6 @@ namespace OverflowHelper.core
             correctionAdd("dumn", "dumb");
             correctionAdd("dum", "dumb");
             correctionAdd("dumm", "dumb");
-
-            correctionAdd("floppy drive", "floppy disk drive");
-            correctionAdd("Floppy drive", "floppy disk drive");
 
             correctionAdd("frontrunner", "front runner");
 
@@ -38017,12 +38133,7 @@ namespace OverflowHelper.core
             correctionAdd("complied", "compiled");
             correctionAdd("compled", "compiled");
 
-            correctionAdd("pita", "PITA");
-            correctionAdd("pia", "PITA");
-            correctionAdd("PIA", "PITA");
-            correctionAdd("PAIN IN THE A", "PITA");
-            correctionAdd("pain in the a", "PITA");
-            correctionAdd("p.i.t.a", "PITA");
+            correctionAdd("AIOHTTP", "aiohttp");
 
             correctionAdd("stolon", "Stolon");
 
@@ -38370,10 +38481,6 @@ namespace OverflowHelper.core
 
             correctionAdd("lauched", "launched");
             correctionAdd("lunched", "launched");
-
-            correctionAdd("copy paste detector", "Copy/Paste Detector");
-            correctionAdd("CPD", "Copy/Paste Detector");
-            correctionAdd("cpd", "Copy/Paste Detector");
 
             correctionAdd("HTTP Request Smuggling", "HTTP request smuggling");
 
@@ -38798,9 +38905,6 @@ namespace OverflowHelper.core
             correctionAdd("Rumania", "Romania");
 
             correctionAdd("UAE", "United Arab Emirates");
-
-            correctionAdd("copiying", "copying");
-            correctionAdd("cupying", "copying");
 
             correctionAdd("sinicism", "cynicism");
             correctionAdd("cinism", "cynicism");
@@ -39574,9 +39678,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Chili", "Chile");
 
-            correctionAdd("pySerial", "PySerial");
-            correctionAdd("Pyserial", "PySerial");
-
             correctionAdd("sereal", "serial");
             correctionAdd("seral", "serial");
             correctionAdd("Serail", "serial");
@@ -39699,8 +39800,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ghostery", "Ghostery");
             correctionAdd("Ghosty", "Ghostery");
-
-            correctionAdd("oppy", "Opportunity");
 
             correctionAdd("upstart", "Upstart");
 
@@ -40701,9 +40800,6 @@ namespace OverflowHelper.core
             correctionAdd("Strangly", "strangely");
             correctionAdd("strangly", "strangely");
 
-            correctionAdd("canopy", "Enthought Canopy");
-            correctionAdd("Canopy", "Enthought Canopy");
-
             correctionAdd("london", "London");
             correctionAdd("Londen", "London");
 
@@ -41218,8 +41314,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ndk", "NDK");
 
-            correctionAdd("pyperclip", "Pyperclip");
-
             correctionAdd("ubi", "UBI");
 
             correctionAdd("documentate", "document");
@@ -41289,8 +41383,6 @@ namespace OverflowHelper.core
             correctionAdd("cutting edge", "cutting-edge");
 
             correctionAdd("dispell", "dispel");
-
-            correctionAdd("Inverted pyramid", "inverted pyramid");
 
             correctionAdd("questionaire", "questionnaire");
 
@@ -41597,8 +41689,6 @@ namespace OverflowHelper.core
             correctionAdd("geives", "gives");
 
             correctionAdd("pro-active", "proactive");
-
-            correctionAdd("pyshark", "PyShark");
 
             correctionAdd("ation", "action");
 
@@ -42078,9 +42168,6 @@ namespace OverflowHelper.core
             correctionAdd("noreaster", "nor'easter");
 
             correctionAdd("cortana", "Cortana");
-
-            correctionAdd("Pyaudio", "PyAudio");
-            correctionAdd("pyaudio", "PyAudio");
 
             correctionAdd("Salesforce Object Query Language", "SOQL");
             correctionAdd("soql", "SOQL");
@@ -42851,8 +42938,6 @@ namespace OverflowHelper.core
 
             correctionAdd("gftp", "gFTP");
 
-            correctionAdd("occupyes", "occupies");
-
             correctionAdd("powerplay", "power play");
 
             correctionAdd("retro", "retrospective");
@@ -43236,8 +43321,6 @@ namespace OverflowHelper.core
             correctionAdd("crowdflower", "CrowdFlower");
 
             correctionAdd("jeopardy", "Jeopardy");
-
-            correctionAdd("pybossa", "Pybossa");
 
             correctionAdd("toloka", "Toloka");
 
@@ -43985,8 +44068,6 @@ namespace OverflowHelper.core
             correctionAdd("Qradar", "QRadar");
             correctionAdd("qradar", "QRadar");
 
-            correctionAdd("spy++", "Spy++");
-
             correctionAdd("console app", "console application");
             correctionAdd("Console-app", "console application");
             correctionAdd("Console app", "console application");
@@ -44303,10 +44384,6 @@ namespace OverflowHelper.core
             correctionAdd("youke", "yoke");
 
             correctionAdd("falun gong", "Falun Gong");
-
-            correctionAdd("pyodide", "Pyodide");
-            correctionAdd("pyodine", "Pyodide");
-            correctionAdd("pyodide.js", "Pyodide");
 
             correctionAdd("SoloLearn", "Sololearn");
             correctionAdd("sololearn", "Sololearn");
@@ -44925,8 +45002,6 @@ namespace OverflowHelper.core
             correctionAdd("exo planet", "exoplanet");
 
             correctionAdd("finsished", "finished");
-
-            correctionAdd("die on a pyre", "hill to die on");
 
             correctionAdd("lagre", "large");
             correctionAdd("Lagre", "large");
@@ -45876,8 +45951,6 @@ namespace OverflowHelper.core
 
             correctionAdd("spock", "Spock");
 
-            correctionAdd("tweepy", "Tweepy");
-
             correctionAdd("hrs", "hours");
 
             correctionAdd("Innumerous", "innumerous");
@@ -46227,9 +46300,6 @@ namespace OverflowHelper.core
             correctionAdd("Shell", "shell");
 
             correctionAdd("triple-quote", "triple quote");
-
-            correctionAdd("Pymc3", "PyMC");
-            correctionAdd("PyMC3", "PyMC");
 
             correctionAdd("set-aduser", "Set-ADUser");
 
@@ -46608,8 +46678,6 @@ namespace OverflowHelper.core
             correctionAdd("nondeterministic finite-state machine", "nondeterministic finite automaton");
             correctionAdd("NFA", "nondeterministic finite automaton");
 
-            correctionAdd("AIOHTTP", "aiohttp");
-
             correctionAdd("RAMdrive", "RAM drive");
 
             correctionAdd("unreal", "Unreal Engine");
@@ -46776,8 +46844,6 @@ namespace OverflowHelper.core
             correctionAdd("Boehm", "Hans Boehm");
 
             correctionAdd("Lord of the flies", "Lord of the Flies");
-
-            correctionAdd("pyscripter", "PyScripter");
 
             correctionAdd("anglebracket", "angle bracket");
 
@@ -47081,8 +47147,6 @@ namespace OverflowHelper.core
 
             correctionAdd("cua-mode", "Cua-mode");
 
-            correctionAdd("AIUI", "as I understand it");
-
             correctionAdd("asses", "assess");
 
             correctionAdd("either or", "either-or");
@@ -47111,9 +47175,6 @@ namespace OverflowHelper.core
             correctionAdd("Clean architecture", "Clean Architecture");
 
             correctionAdd("IJW", "It Just Works");
-
-            correctionAdd("Pythagoras' theorem", "Pythagorean theorem");
-            correctionAdd("pythagorean theorem", "Pythagorean theorem");
 
             correctionAdd("lower than expected", "lower-than-expected");
 
@@ -47348,8 +47409,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Thesis", "thesis");
 
-            correctionAdd("APY", "annual percentage yield");
-
             correctionAdd("denial of service", "denial-of-service attack");
 
             correctionAdd("human readble", "human-readable");
@@ -47400,8 +47459,6 @@ namespace OverflowHelper.core
             correctionAdd("consisits", "consists");
 
             correctionAdd("the-one", "the one");
-
-            correctionAdd("XCOPY", "xcopy");
 
             correctionAdd("Dynamic Generalized Linear Model", "dynamic generalized linear model");
             correctionAdd("dglm", "dynamic generalized linear model");
@@ -47709,8 +47766,6 @@ namespace OverflowHelper.core
             correctionAdd("AS number", "autonomous system number");
             correctionAdd("ASN", "autonomous system number");
 
-            correctionAdd("coy", "copy");
-
             correctionAdd("File Manager", "file manager");
             correctionAdd("FileMang", "file manager");
 
@@ -47761,9 +47816,6 @@ namespace OverflowHelper.core
             correctionAdd("eurocent", "Eurocent");
 
             correctionAdd("Flix Bus", "FlixBus");
-
-            correctionAdd("ilspy", "ILSpy");
-            correctionAdd("ildpy", "ILSpy");
 
             correctionAdd("ISO 9660", "ISO&nbsp;9660");
             correctionAdd("iso9660", "ISO&nbsp;9660");
@@ -47958,15 +48010,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Dungeons and Dragons die", "Dungeons & Dragons die");
 
+            // BIOS. Flash. 
             correctionAdd("flashrom", "Flashrom");
-
-            correctionAdd("hdf5", "HDF5");
-
-            correctionAdd("Prosemirror", "ProseMirror");
-
-            correctionAdd("esoterical", "esoteric");
-
-            correctionAdd("h5.py", "h5py");
 
             correctionAdd("M4", "m4");
 
@@ -48535,8 +48580,6 @@ namespace OverflowHelper.core
 
             correctionAdd("denieing", "denying");
 
-            correctionAdd("Discord.py", "discord.py");
-
             correctionAdd("hand write", "handwrite");
 
             correctionAdd("liiked", "liked");
@@ -48618,8 +48661,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Cockpit", "cockpit");
 
-            correctionAdd("copy constr", "copy constructor");
-
             correctionAdd("cross domain request", "cross-domain request");
 
             correctionAdd("singularity", "Singularity");
@@ -48691,8 +48732,6 @@ namespace OverflowHelper.core
             correctionAdd("forwardslash", "forward slash");
             correctionAdd("foward slash", "forward slash");
 
-            correctionAdd("Openpyxl", "openpyxl");
-
             correctionAdd("Sprite", "sprite");
 
             correctionAdd("allrounder", "all-rounder");
@@ -48715,8 +48754,6 @@ namespace OverflowHelper.core
             correctionAdd("pain killer", "painkiller");
 
             correctionAdd("Pickle", "pickle");
-
-            correctionAdd("PyGtk", "PyGTK");
 
             correctionAdd("re-traverse", "retraverse");
 
@@ -49011,8 +49048,6 @@ namespace OverflowHelper.core
             correctionAdd("We", "we");
 
             correctionAdd("decision-making", "decision making");
-
-            correctionAdd("copys", "copies");
 
             correctionAdd("maleware", "malware");
 
@@ -49336,8 +49371,6 @@ namespace OverflowHelper.core
 
             correctionAdd("particule", "particle");
 
-            correctionAdd("Pekka Pykko", "Pekka Pyykkö");
-
             correctionAdd("emerge", "Portage");
             correctionAdd("portage", "Portage");
 
@@ -49378,8 +49411,6 @@ namespace OverflowHelper.core
 
             correctionAdd("non-instrumented", "noninstrumented");
             correctionAdd("non instrumented", "noninstrumented");
-
-            correctionAdd("pyautogui", "PyAutoGUI");
 
             correctionAdd("scrutinsing", "scrutinising");
 
@@ -49901,8 +49932,6 @@ namespace OverflowHelper.core
 
             correctionAdd("2 step", "two-step");
 
-            correctionAdd("pyro", "Pyro");
-
             correctionAdd("twisted", "Twisted");
 
             correctionAdd("GPT-3 Codex", "Codex");
@@ -49959,8 +49988,6 @@ namespace OverflowHelper.core
             correctionAdd("in the practice", "in practice");
             correctionAdd("On the practice", "in practice");
             correctionAdd("on the practice", "in practice");
-
-            correctionAdd("pycrypto", "PyCrypto");
 
             correctionAdd("Cactus", "cactus");
 
@@ -50458,8 +50485,6 @@ namespace OverflowHelper.core
             correctionAdd("in simple term", "in simple terms");
             correctionAdd("In simple term", "in simple terms");
 
-            correctionAdd("pyrrhic victory", "Pyrrhic victory");
-
             correctionAdd("stafull", "statefull");
 
             correctionAdd("csend", "send");
@@ -50484,8 +50509,6 @@ namespace OverflowHelper.core
             correctionAdd("compleated", "completed");
 
             correctionAdd("i", "I");
-
-            correctionAdd("copy right", "copyright");
 
             correctionAdd("micronationalisim", "micronationalism");
 
@@ -50731,13 +50754,7 @@ namespace OverflowHelper.core
             correctionAdd("tbf", "to be fair");
             correctionAdd("TBF", "to be fair");
 
-            correctionAdd("copyediting", "copy editing");
-            correctionAdd("Copy-editing", "copy editing");
-            correctionAdd("copy-editing", "copy editing");
-
             correctionAdd("time span", "timespan");
-
-            correctionAdd("typying", "typing");
 
             correctionAdd("activitypub", "ActivityPub");
 
@@ -51231,10 +51248,6 @@ namespace OverflowHelper.core
             //
             correctionAdd("solarized", "Solarized");
 
-            correctionAdd("autoai", "AutoAI");
-
-            correctionAdd("space cadet", "space-cadet keyboard");
-
             correctionAdd("sutiable", "suitable");
 
             correctionAdd("DSX", "Watson Studio");
@@ -51250,8 +51263,6 @@ namespace OverflowHelper.core
             correctionAdd("hog wash", "hogwash");
 
             correctionAdd("dis-ambiguous", "nonambiguous");
-
-            correctionAdd("pycord", "Pycord");
 
             correctionAdd("unGodly", "ungodly");
 
@@ -79703,6 +79714,8 @@ namespace OverflowHelper.core
             URL_Add("Pycord", "https://github.com/Pycord-Development/pycord");
 
             URL_Add("ungodly", "https://en.wiktionary.org/wiki/ungodly#Adjective");
+
+            URL_Add("rubber dome", "https://en.wikipedia.org/wiki/Keyboard_technology#Dome-switch_keyboard");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
