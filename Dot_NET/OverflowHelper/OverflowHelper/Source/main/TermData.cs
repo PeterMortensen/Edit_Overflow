@@ -5111,6 +5111,7 @@ namespace OverflowHelper.core
             correctionAdd("stackex", "Stack&nbsp;Exchange");
             correctionAdd("StackX", "Stack&nbsp;Exchange");
             correctionAdd("S/E", "Stack&nbsp;Exchange");
+            correctionAdd("Stach Exchange", "Stack&nbsp;Exchange");
 
             // Stack Overflow
             correctionAdd("full stackoverflow developer", "full Stack Overflow developer");
@@ -7120,7 +7121,7 @@ namespace OverflowHelper.core
 
             correctionAdd("pajamas", "pyjamas");
 
-            // Mars 
+            // Mars
             correctionAdd("oppy", "Opportunity");
 
             correctionAdd("Inverted pyramid", "inverted pyramid");
@@ -9713,6 +9714,7 @@ namespace OverflowHelper.core
 
             correctionAdd("pyspark", "PySpark");
             correctionAdd("Pyspark", "PySpark");
+            correctionAdd("pySpark", "PySpark");
 
             correctionAdd("hive", "Apache Hive");
             correctionAdd("Hive", "Apache Hive");
@@ -18453,11 +18455,22 @@ namespace OverflowHelper.core
             correctionAdd("temporaty", "temporary");
             correctionAdd("temporay", "temporary");
 
-            correctionAdd("ssh", "SSH");
-            correctionAdd("Secure Shell", "SSH");
-
             correctionAdd("faq", "FAQ");
             correctionAdd("Faq", "FAQ");
+
+            correctionAdd("sintax", "syntax");
+            correctionAdd("sytax", "syntax");
+            correctionAdd("syntaxis", "syntax");
+            correctionAdd("sintaxis", "syntax");
+            correctionAdd("synthax", "syntax");
+            correctionAdd("synatx", "syntax");
+            correctionAdd("snytax", "syntax");
+            correctionAdd("syntaxe", "syntax");
+            correctionAdd("syntex", "syntax");
+            correctionAdd("syantax", "syntax");
+            correctionAdd("Sytax", "syntax");
+
+            correctionAdd("cryptographic message syntax", "Cryptographic Message Syntax");
 
             correctionAdd("cert", "certificate");
             correctionAdd("Cert", "certificate");
@@ -18494,8 +18507,6 @@ namespace OverflowHelper.core
             correctionAdd("Lets Encrypt", "Let's Encrypt");
             correctionAdd("LetsEncrypt", "Let's Encrypt");
 
-            correctionAdd("cerfified", "certified");
-
             correctionAdd("enrypt", "encrypt");
             correctionAdd("incrypt", "encrypt");
 
@@ -18506,9 +18517,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ECC", "elliptic-curve cryptography");
 
-            // Related to cryptography
-            correctionAdd("OBF", "OFB");
-
             correctionAdd("crypto-currency", "cryptocurrency");
             correctionAdd("crypto currency", "cryptocurrency");
             correctionAdd("CryptoCurrency", "cryptocurrency");
@@ -18516,13 +18524,19 @@ namespace OverflowHelper.core
             correctionAdd("Crypto", "cryptocurrency");
             correctionAdd("Cryptocurrency", "cryptocurrency");
 
-            correctionAdd("cryptographic message syntax", "Cryptographic Message Syntax");
-
             correctionAdd("Cryptographically", "cryptographically");
 
             correctionAdd("Cryptographically Secure", "cryptographically secure");
 
             correctionAdd("Cryptanalysis", "cryptanalysis");
+
+            // Related to cryptography
+            correctionAdd("OBF", "OFB");
+
+            correctionAdd("ssh", "SSH");
+            correctionAdd("Secure Shell", "SSH");
+
+            correctionAdd("cerfified", "certified");
 
             correctionAdd("certianly", "certainly");
             correctionAdd("certanly", "certainly");
@@ -20458,6 +20472,10 @@ namespace OverflowHelper.core
             correctionAdd("gpt-3", "GPT-3");
             correctionAdd("gpt3", "GPT-3");
 
+            correctionAdd("GPT-3 Codex", "Codex");
+
+            correctionAdd("GPT4", "GPT-4");
+
             // An AI system
             correctionAdd("chatGPT", "ChatGPT");
             correctionAdd("chatgpt", "ChatGPT");
@@ -21886,6 +21904,7 @@ namespace OverflowHelper.core
             correctionAdd("chainload", "chain load");
 
             correctionAdd("playload", "payload");
+            correctionAdd("Payload", "payload");
 
             correctionAdd("communite", "community");
             correctionAdd("cummanty", "community");
@@ -23036,6 +23055,7 @@ namespace OverflowHelper.core
             correctionAdd("Idian", "Indian");
 
             correctionAdd("grad", "graduate");
+            correctionAdd("Graduate", "graduate");
 
             correctionAdd("Tant", "tantalum capacitor");
             correctionAdd("Tantelum", "tantalum capacitor");
@@ -23421,6 +23441,7 @@ namespace OverflowHelper.core
             correctionAdd("qs", "question");
             correctionAdd("questuin", "question");
             correctionAdd("Q", "question");
+            correctionAdd("quetion", "question");
 
             correctionAdd("automatatically", "automatically");
             correctionAdd("automaticlly", "automatically");
@@ -24357,6 +24378,7 @@ namespace OverflowHelper.core
             correctionAdd("wonna", "want to");
             correctionAdd("wanto", "want to");
 
+            // PHP
             correctionAdd("laravel", "Laravel");
             correctionAdd("laraval", "Laravel");
             correctionAdd("Laraval", "Laravel");
@@ -24365,6 +24387,24 @@ namespace OverflowHelper.core
             correctionAdd("LRAVEL", "Laravel");
             correctionAdd("lravel", "Laravel");
             correctionAdd("LARAVEL", "Laravel");
+
+            // PHP
+            correctionAdd("blade", "Blade");
+            correctionAdd("laravel-blade", "Blade");
+
+            // PHP
+            correctionAdd("mix", "Laravel Mix");
+
+            // PHP
+            correctionAdd("elequont", "Laravel Eloquent");
+            correctionAdd("Eloquent", "Laravel Eloquent");
+            correctionAdd("eloquent", "Laravel Eloquent");
+
+            // PHP
+            correctionAdd("Forge", "Laravel Forge");
+
+            // PHP
+            correctionAdd("Jetstream", "Laravel Jetstream");
 
             correctionAdd("wasnt", "wasn’t");
             correctionAdd("wasn't", "wasn’t");
@@ -25010,6 +25050,7 @@ namespace OverflowHelper.core
             correctionAdd("responsabilities", "responsibilities");
             correctionAdd("responsibilitites", "responsibilities");
             correctionAdd("responsobilities", "responsibilities");
+            correctionAdd("responsabilitites", "responsibilities");
 
             correctionAdd("responsability", "responsibility");
             correctionAdd("responsbility", "responsibility");
@@ -25945,17 +25986,6 @@ namespace OverflowHelper.core
             correctionAdd("Spread Sheet", "spreadsheet");
             correctionAdd("SpreadSheet", "spreadsheet");
             correctionAdd("spread sheet", "spreadsheet");
-
-            correctionAdd("sintax", "syntax");
-            correctionAdd("sytax", "syntax");
-            correctionAdd("syntaxis", "syntax");
-            correctionAdd("sintaxis", "syntax");
-            correctionAdd("synthax", "syntax");
-            correctionAdd("synatx", "syntax");
-            correctionAdd("snytax", "syntax");
-            correctionAdd("syntaxe", "syntax");
-            correctionAdd("syntex", "syntax");
-            correctionAdd("syantax", "syntax");
 
             correctionAdd("india", "India");
             correctionAdd("INDIA", "India");
@@ -27633,6 +27663,7 @@ namespace OverflowHelper.core
             correctionAdd("phyiscs", "physics");
             correctionAdd("Physcs", "physics");
             correctionAdd("phyics", "physics");
+            correctionAdd("Phyiscs", "physics");
 
             correctionAdd("Particle Physics", "particle physics");
 
@@ -29948,6 +29979,7 @@ namespace OverflowHelper.core
             correctionAdd("garbik", "garbage");
 
             correctionAdd("rewoke", "revoke");
+            correctionAdd("revoque", "revoke");
 
             correctionAdd("rewoked", "revoked");
 
@@ -31096,6 +31128,7 @@ namespace OverflowHelper.core
             correctionAdd("Daniil", "Daniil Dubov"); // Chess
 
             correctionAdd("elo", "Elo"); // Chess
+            correctionAdd("ELO", "Elo"); // Chess
 
             correctionAdd("fide", "FIDE"); // Chess
             correctionAdd("Fide", "FIDE"); // Chess
@@ -32986,9 +33019,6 @@ namespace OverflowHelper.core
             correctionAdd("specifiying", "specifying");
 
             correctionAdd("White noise", "white noise");
-
-            correctionAdd("blade", "Blade");
-            correctionAdd("laravel-blade", "Blade");
 
             correctionAdd("OmniSharper", "OmniSharp");
             correctionAdd("omni-sharp", "OmniSharp");
@@ -35657,6 +35687,7 @@ namespace OverflowHelper.core
             correctionAdd("resurse", "resource");
             correctionAdd("recource", "resource");
             correctionAdd("Ressource", "resource");
+            correctionAdd("Resource", "resource");
 
             correctionAdd("scoure", "source");
             correctionAdd("sorce", "source");
@@ -38996,6 +39027,7 @@ namespace OverflowHelper.core
 
             correctionAdd("fit", "feet");
             correctionAdd("ft", "feet");
+            correctionAdd("'", "feet");
 
             correctionAdd("fetisist", "feticist");
 
@@ -43993,8 +44025,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Distrowatch", "DistroWatch");
 
-            correctionAdd("mix", "Laravel Mix");
-
             correctionAdd("log4net", "Log4net");
 
             correctionAdd("National Institute of Standards and Technology", "NIST");
@@ -45552,6 +45582,7 @@ namespace OverflowHelper.core
             correctionAdd("Internet archive", "Internet Archive");
             correctionAdd("internet archive", "Internet Archive");
             correctionAdd("archive.org", "Internet Archive");
+            correctionAdd("web.archive.org", "Internet Archive");
 
             correctionAdd("melbourne", "Melbourne");
 
@@ -46169,6 +46200,7 @@ namespace OverflowHelper.core
 
             correctionAdd("beter", "better");
             correctionAdd("btter", "better");
+            correctionAdd("batter", "better");
 
             correctionAdd("bi-weekly", "biweekly");
 
@@ -46810,10 +46842,6 @@ namespace OverflowHelper.core
 
             correctionAdd("IBus", "Intelligent Input Bus");
 
-            correctionAdd("elequont", "Laravel Eloquent");
-            correctionAdd("Eloquent", "Laravel Eloquent");
-            correctionAdd("eloquent", "Laravel Eloquent");
-
             correctionAdd("requests", "Requests");
 
             correctionAdd("S/G", "Staging Ground");
@@ -47253,8 +47281,6 @@ namespace OverflowHelper.core
             correctionAdd("hf", "HF");
 
             correctionAdd("KeePass", "KeePassXC");
-
-            correctionAdd("Forge", "Laravel Forge");
 
             correctionAdd("vhf", "VHF");
 
@@ -48010,7 +48036,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Dungeons and Dragons die", "Dungeons & Dragons die");
 
-            // BIOS. Flash. 
+            // BIOS. Flash.
             correctionAdd("flashrom", "Flashrom");
 
             correctionAdd("M4", "m4");
@@ -49934,8 +49960,6 @@ namespace OverflowHelper.core
 
             correctionAdd("twisted", "Twisted");
 
-            correctionAdd("GPT-3 Codex", "Codex");
-
             correctionAdd("MSL", "Metal Shading Language");
             correctionAdd("Metal SL", "Metal Shading Language");
             correctionAdd("metal SL", "Metal Shading Language");
@@ -51265,6 +51289,24 @@ namespace OverflowHelper.core
             correctionAdd("dis-ambiguous", "nonambiguous");
 
             correctionAdd("unGodly", "ungodly");
+
+            correctionAdd("Community Building", "Community Building (Stack Exchange site)");
+
+            correctionAdd("Computer Science Educators", "Computer Science Educators (Stack Exchange site)");
+
+            correctionAdd("hugemongous", "humongous");
+
+            correctionAdd("IRA", "Individual Retirement Arrangement");
+
+            correctionAdd("left-over", "leftover");
+            correctionAdd("left over", "leftover");
+
+            correctionAdd("pre-specified", "prespecified");
+            correctionAdd("pre specified", "prespecified");
+
+            correctionAdd("reherse", "rehearse");
+
+            correctionAdd("sligth", "slight");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -79717,6 +79759,26 @@ namespace OverflowHelper.core
 
             URL_Add("rubber dome", "https://en.wikipedia.org/wiki/Keyboard_technology#Dome-switch_keyboard");
 
+            URL_Add("Community Building (Stack Exchange site)", "https://communitybuilding.stackexchange.com/tour");
+
+            URL_Add("Computer Science Educators (Stack Exchange site)", "https://cseducators.stackexchange.com/tour");
+
+            URL_Add("GPT-4", "https://en.wikipedia.org/wiki/GPT-4");
+
+            URL_Add("humongous", "https://en.wiktionary.org/wiki/humongous#Adjective");
+
+            URL_Add("Individual Retirement Arrangement", "https://en.wikipedia.org/wiki/Individual_retirement_account");
+
+            URL_Add("Laravel Jetstream", "https://en.wikipedia.org/wiki/Laravel#History");
+
+            URL_Add("leftover", "https://en.wiktionary.org/wiki/leftover#Adjective");
+
+            URL_Add("prespecified", "https://en.wiktionary.org/wiki/prespecified#Adjective");
+
+            URL_Add("rehearse", "https://en.wiktionary.org/wiki/rehearse#Verb");
+
+            URL_Add("slight", "https://en.wiktionary.org/wiki/slight#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -81849,6 +81911,12 @@ namespace OverflowHelper.core
             correctionAdd("vala_", "Vala (tag wiki)_");
             correctionAdd("Vala_", "Vala (tag wiki)_");
 
+            correctionAdd("Chess_", "Chess (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("chess_", "Chess (Stack Exchange site)_");
+            correctionAdd("Chess Exchange_", "Chess (Stack Exchange site)_");
+
+            correctionAdd("cut-off_", "cutoff_");
+
             // URL mappings
             //
             //
@@ -83049,6 +83117,10 @@ namespace OverflowHelper.core
             URL_Add("400_", "https://chmodcommand.com/chmod-400/");
 
             URL_Add("640_", "https://chmodcommand.com/chmod-640/");
+
+            URL_Add("Chess (Stack Exchange site)_", "https://chess.stackexchange.com/tour");
+
+            URL_Add("cutoff_", "https://en.wiktionary.org/wiki/cutoff#Noun");
 
         } //addLookupData_alternativeWordSet()
 
