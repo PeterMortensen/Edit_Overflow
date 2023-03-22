@@ -5762,6 +5762,10 @@ namespace OverflowHelper.core
 
             correctionAdd("Board & Card Games", "Board & Card Games (Stack Exchange site)");
 
+            correctionAdd("Community Building", "Community Building (Stack Exchange site)");
+
+            correctionAdd("Computer Science Educators", "Computer Science Educators (Stack Exchange site)");
+
             correctionAdd("piece of shit", "POS");
             correctionAdd("p.o.s", "POS");
 
@@ -15567,6 +15571,8 @@ namespace OverflowHelper.core
 
             correctionAdd("A320", "Airbus A320");
             correctionAdd("Airbus 320", "Airbus A320");
+            correctionAdd("Airbus a320", "Airbus A320");
+            correctionAdd("a320", "Airbus A320");
 
             correctionAdd("A330", "Airbus A330");
             correctionAdd("Airbus 330", "Airbus A330");
@@ -20503,6 +20509,7 @@ namespace OverflowHelper.core
             correctionAdd("chat.gpt", "ChatGPT");
             correctionAdd("CHATGPT", "ChatGPT");
             correctionAdd("ChatGTP", "ChatGPT");
+            correctionAdd("Chat-GPT", "ChatGPT");
 
             // AI
             correctionAdd("Prompt Engineering", "prompt engineering");
@@ -23358,6 +23365,7 @@ namespace OverflowHelper.core
             correctionAdd("achknowledge", "acknowledge");
             correctionAdd("acknowlegde", "acknowledge");
             correctionAdd("acknoledge", "acknowledge");
+            correctionAdd("acklowledge", "acknowledge");
 
             correctionAdd("knowlege", "knowledge");
             correctionAdd("knowlodge", "knowledge");
@@ -23702,6 +23710,7 @@ namespace OverflowHelper.core
             correctionAdd("revceive", "receive");
             correctionAdd("Recieve", "receive");
             correctionAdd("reacive", "receive");
+            correctionAdd("receiv", "receive");
 
             correctionAdd("allways", "always");
             correctionAdd("alwys", "always");
@@ -27673,6 +27682,7 @@ namespace OverflowHelper.core
             correctionAdd("reseache", "research");
             correctionAdd("re-search", "research");
             correctionAdd("reasearch", "research");
+            correctionAdd("reserach", "research");
 
             correctionAdd("elasticsearch", "Elasticsearch");
             correctionAdd("Elasticsearches", "Elasticsearch");
@@ -32435,6 +32445,7 @@ namespace OverflowHelper.core
             correctionAdd("documentaiton", "documentation");
             correctionAdd("documantation", "documentation");
             correctionAdd("docos", "documentation");
+            correctionAdd("docummentation", "documentation");
 
             correctionAdd("Dox", "doxx");
             correctionAdd("dox", "doxx");
@@ -41341,6 +41352,7 @@ namespace OverflowHelper.core
             correctionAdd("leiningen", "Leiningen");
 
             correctionAdd("commentor", "commenter");
+            correctionAdd("comment-er", "commenter");
 
             correctionAdd("melpa", "MELPA");
 
@@ -51159,6 +51171,19 @@ namespace OverflowHelper.core
 
             correctionAdd("whack a mole", "whack-a-mole");
 
+            // "There is no substantive evidence that Einstein wrote or
+            //   spoke the statement. It is listed within a section
+            //   called “Misattributed to Einstein” in the
+            //   comprehensive reference “The Ultimate
+            //   Quotable Einstein” from Princeton
+            //   University Press"
+            //
+            //   (1981, Alcoholics Anonymous)
+            //
+            // Also Narcotics Anonymous (same year):
+            //
+            //   <https://en.wikiquote.org/wiki/Rita_Mae_Brown#Misattributed>
+            //
             correctionAdd("insanity", "The definition of insanity is doing the same thing over and over again, but expecting different results");
 
             correctionAdd("Voltage regulator", "voltage regulator");
@@ -51290,10 +51315,6 @@ namespace OverflowHelper.core
 
             correctionAdd("unGodly", "ungodly");
 
-            correctionAdd("Community Building", "Community Building (Stack Exchange site)");
-
-            correctionAdd("Computer Science Educators", "Computer Science Educators (Stack Exchange site)");
-
             correctionAdd("hugemongous", "humongous");
 
             correctionAdd("IRA", "Individual Retirement Arrangement");
@@ -51307,6 +51328,37 @@ namespace OverflowHelper.core
             correctionAdd("reherse", "rehearse");
 
             correctionAdd("sligth", "slight");
+
+            // Homework help
+            correctionAdd("chegg", "Chegg");
+
+            correctionAdd("creater", "creator");
+
+            correctionAdd("cyrstalline", "crystalline");
+
+            correctionAdd("hyd", "hydraulics");
+
+            correctionAdd("in class", "in-class");
+
+            correctionAdd("IWYU", "Include What You Use");
+            correctionAdd("Include What you use", "Include What You Use");
+            correctionAdd("include-what-you-use", "Include What You Use");
+
+            correctionAdd("mapbox Js", "Mapbox GL JS");
+            correctionAdd("Mapbox GL Js", "Mapbox GL JS");
+
+            correctionAdd("non-volatile", "nonvolatile");
+            correctionAdd("nonvolative", "nonvolatile");
+
+            // Not to be confused with PhysicsOverflow,
+            // <https://en.wikipedia.org/wiki/PhysicsOverflow>
+            //
+            correctionAdd("PF", "Physics Forums");
+            correctionAdd("physics forum", "Physics Forums");
+
+            correctionAdd("step-wise", "stepwise");
+
+            correctionAdd("superluminous", "superluminal");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -79779,6 +79831,28 @@ namespace OverflowHelper.core
 
             URL_Add("slight", "https://en.wiktionary.org/wiki/slight#Adjective");
 
+            URL_Add("Chegg", "https://en.wikipedia.org/wiki/Chegg");
+
+            URL_Add("creator", "https://en.wiktionary.org/wiki/creator#Noun");
+
+            URL_Add("crystalline", "https://en.wiktionary.org/wiki/crystalline#Adjective");
+
+            URL_Add("hydraulics", "https://en.wiktionary.org/wiki/hydraulics#Noun");
+
+            URL_Add("in-class", "https://en.wiktionary.org/wiki/in-class#Adjective");
+
+            URL_Add("Include What You Use", "https://github.com/include-what-you-use/include-what-you-use");
+
+            URL_Add("Mapbox GL JS", "https://docs.mapbox.com/mapbox-gl-js/guides/");
+
+            URL_Add("nonvolatile", "https://en.wiktionary.org/wiki/nonvolatile#Adjective");
+
+            URL_Add("Physics Forums", "https://www.physicsforums.com/insights/about-physics-forums/");
+
+            URL_Add("stepwise", "https://en.wiktionary.org/wiki/stepwise#Adjective");
+
+            URL_Add("superluminal", "https://en.wiktionary.org/wiki/superluminal#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -80381,6 +80455,10 @@ namespace OverflowHelper.core
             correctionAdd("DataScience_", "Data Science (Stack Exchange site)_");
             correctionAdd("datascience.SE_", "Data Science (Stack Exchange site)_");
 
+            correctionAdd("Chess_", "Chess (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("chess_", "Chess (Stack Exchange site)_");
+            correctionAdd("Chess Exchange_", "Chess (Stack Exchange site)_");
+
             correctionAdd("puted_", "put_");
             correctionAdd("punt_", "put_");
 
@@ -80427,6 +80505,7 @@ namespace OverflowHelper.core
             correctionAdd("googlr_", "Google Search_");
             correctionAdd("goolge_", "Google Search_");
             correctionAdd("Goog_", "Google Search_");
+            correctionAdd("Googol_", "Google Search_");
 
             correctionAdd("google_", "Google (company)_");
 
@@ -81910,10 +81989,6 @@ namespace OverflowHelper.core
             correctionAdd("[tag:vala]_", "Vala (tag wiki)_");
             correctionAdd("vala_", "Vala (tag wiki)_");
             correctionAdd("Vala_", "Vala (tag wiki)_");
-
-            correctionAdd("Chess_", "Chess (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("chess_", "Chess (Stack Exchange site)_");
-            correctionAdd("Chess Exchange_", "Chess (Stack Exchange site)_");
 
             correctionAdd("cut-off_", "cutoff_");
 

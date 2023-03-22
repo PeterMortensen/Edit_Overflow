@@ -69,7 +69,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a698 2023-03-21T180738Z+0";
+        return "Edit Overflow v. 1.1.49a699 2023-03-22T200358Z+0";
     }
 
 
@@ -152,7 +152,7 @@
         #        in "&", unless it is an empty string)
 
         $someHeadline = "$aHeadline - " . get_EditOverflowID();
-          
+
         $someTitle = $someHeadline . ". " . get_SEOpreferences() . ".";
 
         the_startOfDocument(
