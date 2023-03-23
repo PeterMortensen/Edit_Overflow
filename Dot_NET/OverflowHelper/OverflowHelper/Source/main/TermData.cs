@@ -1280,6 +1280,13 @@ namespace OverflowHelper.core
             correctionAdd("Rohde Scharz", "Rohde & Schwarz");
 
             // A current measurement device. Electronics.
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.joulescope.com/pages/downloads>
+            //   <https://www.youtube.com/watch?v=M3Yn-CEpzGA>
+            //     Explains how it is actually used.
+            //
             correctionAdd("JouleScope", "Joulescope");
 
             // Electronics
@@ -4624,18 +4631,6 @@ namespace OverflowHelper.core
             correctionAdd("seyt", "set");
             correctionAdd("det", "set");
 
-            correctionAdd("re-set", "reset");
-            correctionAdd("reseted", "reset");
-            correctionAdd("Reset", "reset");
-            correctionAdd("resetted", "reset");
-
-            correctionAdd("reseting", "resetting");
-            correctionAdd("Reseting", "resetting");
-            correctionAdd("re-setting", "resetting");
-
-            correctionAdd("resetable", "resettable");
-            correctionAdd("Resetable", "resettable");
-
             correctionAdd("offest", "offset");
 
             correctionAdd("dataset", "data set");
@@ -4698,6 +4693,557 @@ namespace OverflowHelper.core
             correctionAdd("pascal format", "PASCAL VOC Dataset");
 
             correctionAdd("hashset", "HashSet");
+
+            correctionAdd("re-set", "reset");
+            correctionAdd("reseted", "reset");
+            correctionAdd("Reset", "reset");
+            correctionAdd("resetted", "reset");
+
+            correctionAdd("reseting", "resetting");
+            correctionAdd("Reseting", "resetting");
+            correctionAdd("re-setting", "resetting");
+
+            correctionAdd("resetable", "resettable");
+            correctionAdd("Resetable", "resettable");
+
+            correctionAdd("abble", "able");
+            correctionAdd("ale", "able");
+            correctionAdd("ablr", "able");
+            correctionAdd("a be", "able");
+            correctionAdd("abl", "able");
+
+            correctionAdd("var", "variable");
+            correctionAdd("vars", "variable"); // Plural, to avoid nearly duplicate entries.
+            correctionAdd("varialbe", "variable");
+            correctionAdd("varibale", "variable");
+            correctionAdd("variabe", "variable");
+            correctionAdd("valiarble", "variable");
+            correctionAdd("varible", "variable");
+            correctionAdd("variales", "variable");
+            correctionAdd("varaible", "variable");
+            correctionAdd("vailble", "variable");
+            correctionAdd("varialble", "variable");
+            correctionAdd("varable", "variable");
+            correctionAdd("variabel", "variable");
+            correctionAdd("Variabile", "variable");
+            correctionAdd("variabile", "variable");
+            correctionAdd("vaibles", "variable");
+            correctionAdd("vaible", "variable");
+            correctionAdd("vairiables", "variable");
+            correctionAdd("vairable", "variable");
+            correctionAdd("variabes", "variable");
+            correctionAdd("VARABLE", "variable");
+            correctionAdd("Varialbe", "variable");
+            correctionAdd("varaibles", "variable");
+            correctionAdd("vraiable", "variable");
+            correctionAdd("Variable", "variable");
+            correctionAdd("variale", "variable");
+            correctionAdd("Vairable", "variable");
+            correctionAdd("Var", "variable");
+            correctionAdd("vaiable", "variable");
+            correctionAdd("variablr", "variable");
+            correctionAdd("varrible", "variable");
+
+            correctionAdd("env var", "environment variable");
+            correctionAdd("Env Var", "environment variable");
+            correctionAdd("ENV-Variable", "environment variable");
+            correctionAdd("envar", "environment variable");
+            correctionAdd("envionmental variable", "environment variable");
+            correctionAdd("Environment Variable", "environment variable");
+            correctionAdd("ENV var", "environment variable");
+            correctionAdd("env variable", "environment variable");
+            correctionAdd("environemt variable", "environment variable");
+            correctionAdd("environement variable", "environment variable");
+            correctionAdd("environment var", "environment variable");
+            correctionAdd("env. variable", "environment variable");
+            correctionAdd("Environment variable", "environment variable");
+            correctionAdd("env's variable", "environment variable");
+            correctionAdd("ENV variable", "environment variable");
+            correctionAdd("envvar", "environment variable");
+            correctionAdd("Environment variables", "environment variable");
+            correctionAdd("environment variables", "environment variable");
+            correctionAdd("env vars", "environment variable");
+            correctionAdd("ENV VARIABLE", "environment variable");
+            correctionAdd("environments vars", "environment variable");
+            correctionAdd("environment vars", "environment variable");
+            correctionAdd("environments var", "environment variable");
+            correctionAdd("env. var", "environment variable");
+            correctionAdd("Env variable", "environment variable");
+            correctionAdd("Environmental variable", "environment variable");
+            correctionAdd("environmental variable", "environment variable");
+            correctionAdd("Enviornment variable", "environment variable");
+            correctionAdd("enviornment variable", "environment variable");
+            correctionAdd("enviroment variable", "environment variable");
+            correctionAdd("environment-variable", "environment variable");
+            correctionAdd("ENV vars", "environment variable");
+            correctionAdd("environment varrible", "environment variable");
+
+            correctionAdd("DISPLAY", "DISPLAY environment variable");
+
+            correctionAdd("state-variable", "state variable");
+
+            correctionAdd("Categorical Variable", "categorical variable");
+            correctionAdd("Categorical Variables", "categorical variable");
+            correctionAdd("categorical variables", "categorical variable");
+
+            correctionAdd("Instance variable", "instance variable");
+
+            correctionAdd("Random Variable", "random variable");
+
+            // The common noun (not the HTML tag)
+            correctionAdd("tbl", "table");
+            correctionAdd("tabel", "table");
+
+            correctionAdd("Tablet", "tablet");
+
+            correctionAdd("pivot-table", "pivot table");
+
+            correctionAdd("toc", "TOC");
+            correctionAdd("ToC", "TOC");
+            correctionAdd("table of contens", "TOC");
+            correctionAdd("table of contents", "TOC");
+
+            correctionAdd("LightTable", "Light Table");
+
+            correctionAdd("Periodic Table", "periodic table");
+
+            correctionAdd("lut", "lookup table");
+            correctionAdd("LUT", "lookup table");
+
+            correctionAdd("trust-able", "trustable");
+
+            correctionAdd("uncoutable", "uncountable");
+
+            correctionAdd("writeable", "writable");
+
+            correctionAdd("profiterable", "profitable");
+
+            correctionAdd("acceptible", "acceptable");
+            correctionAdd("aceptable", "acceptable");
+
+            correctionAdd("inevietable", "inevitable");
+            correctionAdd("invitable", "inevitable");
+            correctionAdd("inevatable", "inevitable");
+            correctionAdd("inevatble", "inevitable");
+            correctionAdd("ineviable", "inevitable");
+
+            correctionAdd("unconfortable", "uncomfortable");
+
+            correctionAdd("comfortaple", "comfortable");
+            correctionAdd("comftravle", "comfortable");
+            correctionAdd("comftrable", "comfortable");
+            correctionAdd("comfrtable", "comfortable");
+            correctionAdd("confortable", "comfortable");
+            correctionAdd("comformtable", "comfortable");
+            correctionAdd("conformtable", "comfortable");
+            correctionAdd("comfi", "comfortable");
+            correctionAdd("comfy", "comfortable");
+
+            correctionAdd("predictible", "predictable");
+            correctionAdd("predicatble", "predictable");
+
+            correctionAdd("un-reputable", "unreputable");
+
+            correctionAdd("pasteable", "pastable");
+
+            correctionAdd("cache able", "cacheable");
+            correctionAdd("cachable", "cacheable");
+
+            correctionAdd("unpredicatable", "unpredictable");
+
+            correctionAdd("instable", "unstable");
+
+            correctionAdd("executeable", "executable");
+            correctionAdd("exucutable", "executable");
+            correctionAdd("excuteable", "executable");
+            correctionAdd("executible", "executable");
+            correctionAdd("exetuable", "executable");
+            correctionAdd("exeutable", "executable");
+
+            correctionAdd("PIE", "position-independent executable");
+
+            correctionAdd("inexecusable", "inexcusable");
+
+            correctionAdd("unnaccountable", "unaccountable");
+
+            correctionAdd("inacceptable", "unacceptable");
+
+            correctionAdd("regretable", "regrettable");
+
+            correctionAdd("maintable", "maintainable");
+
+            correctionAdd("cutable", "cuttable");
+
+            correctionAdd("understable", "understandable");
+            correctionAdd("undestandable", "understandable");
+            correctionAdd("understandble", "understandable");
+
+            correctionAdd("associatable", "associable");
+
+            correctionAdd("unfomattable", "unformattable");
+
+            correctionAdd("setable", "settable");
+
+            correctionAdd("stabil", "stable");
+
+            correctionAdd("Bootable", "bootable");
+
+            correctionAdd("sutiable", "suitable");
+
+            correctionAdd("replaceble", "replaceable");
+            correctionAdd("replacable", "replaceable");
+
+            correctionAdd("irreplacable", "irreplaceable");
+
+            correctionAdd("avaliable", "available");
+            correctionAdd("abailable", "available");
+            correctionAdd("availble", "available");
+            correctionAdd("availaible", "available");
+            correctionAdd("avalible", "available");
+            correctionAdd("availible", "available");
+            correctionAdd("avaiable", "available");
+            correctionAdd("avialable", "available");
+            correctionAdd("avaialble", "available");
+            correctionAdd("availabe", "available");
+            correctionAdd("avilable", "available");
+            correctionAdd("AVILABLE", "available");
+            correctionAdd("AVAILABLE", "available");
+            correctionAdd("avaible", "available");
+            correctionAdd("avialale", "available");
+            correctionAdd("aviable", "available");
+            correctionAdd("avail", "available");
+            correctionAdd("avalable", "available");
+
+            correctionAdd("unavalable", "unavailable");
+
+            correctionAdd("SITES-AVAILABLE", "sites-available");
+
+            correctionAdd("writen", "written");
+            correctionAdd("wrtten", "written");
+            correctionAdd("wfitten", "written");
+            correctionAdd("writeen", "written");
+
+            correctionAdd("wright", "writeX");
+
+            correctionAdd("writeup", "write-up");
+            correctionAdd("write up", "write-up");
+            correctionAdd("writup", "write-up");
+
+            correctionAdd("writed", "wrote");
+            correctionAdd("wrot", "wrote");
+            correctionAdd("wrout", "wrote");
+
+            correctionAdd("write protected", "write-protected");
+
+            correctionAdd("usuable", "usable");
+            correctionAdd("useble", "usable");
+            correctionAdd("useable", "usable");
+
+            correctionAdd("scallable", "scalable");
+            correctionAdd("scaleable", "scalable");
+
+            correctionAdd("vonuravle", "vulnerable");
+
+            correctionAdd("unviable", "inviable");
+
+            correctionAdd("measureable", "measurable");
+
+            correctionAdd("reenable", "re-enable");
+            correctionAdd("ReEnable", "re-enable");
+            correctionAdd("Re-enable", "re-enable");
+
+            correctionAdd("overrideable", "overridable");
+            correctionAdd("ovveridable", "overridable");
+            correctionAdd("overidable", "overridable");
+
+            correctionAdd("disbale", "disable");
+            correctionAdd("dissable", "disable");
+            correctionAdd("diable", "disable");
+            correctionAdd("disablink", "disable");
+            correctionAdd("disble", "disable");
+
+            correctionAdd("fore-see-able", "foreseeable");
+            correctionAdd("foreseable", "foreseeable");
+
+            correctionAdd("configureable", "configurable");
+
+            correctionAdd("scroll-able", "scrollable");
+
+            correctionAdd("valueable", "valuable");
+            correctionAdd("valable", "valuable");
+            correctionAdd("value-able", "valuable");
+
+            correctionAdd("re-usable", "reusable");
+            correctionAdd("reuseable", "reusable");
+            correctionAdd("reusabe", "reusable");
+
+            correctionAdd("compile-able", "compilable");
+            correctionAdd("compileable", "compilable");
+
+            correctionAdd("noticable", "noticeable");
+
+            correctionAdd("parseable", "parsable");
+
+            correctionAdd("Parsec", "parsec");
+
+            correctionAdd("prase", "parse");
+            correctionAdd("perse", "parse");
+
+            correctionAdd("unsable", "unusable");
+
+            correctionAdd("percievable", "perceivable");
+
+            correctionAdd("identifyable", "identifiable");
+
+            correctionAdd("desireable", "desirable");
+
+            correctionAdd("rechargable", "rechargeable");
+
+            correctionAdd("renawable", "renewable");
+
+            correctionAdd("banable", "bannable");
+
+            correctionAdd("unresonable", "unreasonable");
+
+            correctionAdd("unsalvagable", "unsalvageable");
+
+            correctionAdd("driveable", "drivable");
+
+            correctionAdd("impecable", "impeccable");
+
+            correctionAdd("runneable", "runnable");
+
+            correctionAdd("immesurable", "immeasurable");
+
+            correctionAdd("acheivable", "achievable");
+
+            correctionAdd("instalable", "installable");
+
+            correctionAdd("seriliasble", "serialisable");
+            correctionAdd("seriliazble", "serialisable");
+
+            correctionAdd("undesiriable", "undesirable");
+
+            correctionAdd("belivable", "believable");
+
+            correctionAdd("controllabe", "controllable");
+
+            correctionAdd("extenable", "extendable");
+
+            correctionAdd("programable", "programmable");
+            correctionAdd("programmamble", "programmable");
+            correctionAdd("programamble", "programmable");
+
+            correctionAdd("learn-able", "learnable");
+
+            correctionAdd("sizable", "sizeable");
+
+            correctionAdd("resizeable", "resizable");
+
+            correctionAdd("non desirable", "nondesirable");
+
+            // Windows
+            correctionAdd("Clickonce", "ClickOnce");
+            correctionAdd("clickonce", "ClickOnce");
+            correctionAdd("click once", "ClickOnce");
+            correctionAdd("click-once", "ClickOnce");
+            correctionAdd("clickOnce", "ClickOnce");
+            correctionAdd("Click Once", "ClickOnce");
+            correctionAdd("Click-Once", "ClickOnce");
+            correctionAdd("clickone", "ClickOnce");
+            correctionAdd("OneClick", "ClickOnce");
+            correctionAdd("Click once", "ClickOnce");
+            correctionAdd("Click-once", "ClickOnce");
+            correctionAdd("ClckOnce", "ClickOnce"); // Misspelling.
+            correctionAdd("CO", "ClickOnce");
+            correctionAdd("one click", "ClickOnce");
+            correctionAdd("cliconce", "ClickOnce");
+            correctionAdd("ClicOnse", "ClickOnce");
+
+            correctionAdd("clique", "click");
+            correctionAdd("clic", "click");
+            correctionAdd("lick", "click");
+            correctionAdd("clicl", "click");
+            correctionAdd("CLick", "click");
+            correctionAdd("Click", "click");
+
+            correctionAdd("klicking", "clicking");
+
+            correctionAdd("right click", "right-click");
+            correctionAdd("Right-Click", "right-click");
+            correctionAdd("Right Click", "right-click");
+            correctionAdd("Right-click", "right-click");
+            correctionAdd("rigth click", "right-click");
+            correctionAdd("Right click", "right-click");
+            correctionAdd("rt-click", "right-click");
+            correctionAdd("Rightclick", "right-click");
+            correctionAdd("right Click", "right-click");
+            correctionAdd("rightclick", "right-click");
+            correctionAdd("right lick", "right-click");
+            correctionAdd("right-clic", "right-click");
+
+            correctionAdd("right licking", "right-clicking");
+            correctionAdd("right clicking", "right-clicking");
+
+            correctionAdd("cliqued", "clicked");
+
+            correctionAdd("click-able", "clickable");
+            correctionAdd("Click-able", "clickable");
+
+            correctionAdd("double click", "double-click");
+            correctionAdd("dubble click", "double-click");
+            correctionAdd("doubble click", "double-click");
+            correctionAdd("Double click", "double-click");
+            correctionAdd("Double Click", "double-click");
+            correctionAdd("Double-click", "double-click");
+
+            correctionAdd("single click", "single-click");
+
+            correctionAdd("left click", "left-click");
+            correctionAdd("Left click", "left-click");
+            correctionAdd("Left-click", "left-click");
+
+            correctionAdd("double clicking", "double-clicking");
+            correctionAdd("doublicking", "double-clicking");
+            correctionAdd("doubclicking", "double-clicking");
+            correctionAdd("doubleclicking", "double-clicking");
+            correctionAdd("Double clicking", "double-clicking");
+
+            correctionAdd("mis-clicking", "misclicking");
+
+            correctionAdd("click bait", "clickbait");
+            correctionAdd("Click bait", "clickbait");
+            correctionAdd("click-bait", "clickbait");
+
+            correctionAdd("ack", "acknowledge");
+            correctionAdd("ackknowledge", "acknowledge");
+            correctionAdd("achknowledge", "acknowledge");
+            correctionAdd("acknowlegde", "acknowledge");
+            correctionAdd("acknoledge", "acknowledge");
+            correctionAdd("acklowledge", "acknowledge");
+
+            correctionAdd("knowlege", "knowledge");
+            correctionAdd("knowlodge", "knowledge");
+            correctionAdd("KNAWLEDGE", "knowledge");
+            correctionAdd("knawledge", "knowledge");
+            correctionAdd("knowldge", "knowledge");
+            correctionAdd("knoledge", "knowledge");
+
+            correctionAdd("knowledgebase", "knowledge base");
+            correctionAdd("knowledge-base", "knowledge base");
+
+            correctionAdd("knowlegeable", "knowledgeable");
+            correctionAdd("knowledgable", "knowledgeable");
+
+            correctionAdd("Knowledge Transfer", "knowledge transfer");
+
+            correctionAdd("tranfer", "transfer");
+            correctionAdd("Tranfer", "transfer");
+            correctionAdd("transer", "transfer");
+
+            correctionAdd("unmaintaned", "unmaintained");
+
+            correctionAdd("unmatainable", "unmaintainable");
+
+            correctionAdd("laughbale", "laughable");
+
+            correctionAdd("skimable", "skimmable");
+
+            correctionAdd("aplicable", "applicable");
+
+            correctionAdd("tollerable", "tolerable");
+
+            correctionAdd("interchaneable", "interchangeable");
+
+            correctionAdd("changable", "changeable");
+
+            correctionAdd("reliablle", "reliable");
+            correctionAdd("relailable", "reliable");
+            correctionAdd("relilable", "reliable");
+
+            correctionAdd("scanable", "scannable");
+
+            correctionAdd("non-recoverable", "nonrecoverable");
+            correctionAdd("non recoverable", "nonrecoverable");
+
+            correctionAdd("non-overridable", "nonoverridable");
+
+            correctionAdd("enforcable", "enforceable");
+            correctionAdd("Enforcable", "enforceable");
+
+            correctionAdd("managable", "manageable");
+            correctionAdd("manageble", "manageable");
+
+            correctionAdd("visualizeable", "visualizable");
+
+            correctionAdd("unvoidable", "unavoidable");
+
+            correctionAdd("afordable", "affordable");
+
+            correctionAdd("discuss-able", "discussable");
+
+            correctionAdd("Admirable", "admirable");
+
+            correctionAdd("decodeable", "decodable");
+
+            correctionAdd("salvagable", "salvageable");
+
+            correctionAdd("unrealiable", "unreliable");
+
+            correctionAdd("removeable", "removable");
+
+            correctionAdd("indispensible", "indispensable");
+
+            correctionAdd("preferrable", "preferable");
+
+            correctionAdd("breatheable", "breathable");
+
+            correctionAdd("dragable", "draggable");
+
+            correctionAdd("human readble", "human-readable");
+            correctionAdd("human readable", "human-readable");
+
+            correctionAdd("instanciable", "instantiable");
+
+            correctionAdd("querable", "queryable");
+
+            correctionAdd("comendable", "commendable");
+
+            correctionAdd("switcable", "switchable");
+
+            correctionAdd("probhable", "probable");
+
+            correctionAdd("flagable", "flaggable");
+
+            correctionAdd("sharable", "shareable");
+            correctionAdd("share-able", "shareable");
+
+            correctionAdd("resonable", "reasonable");
+
+            correctionAdd("collideable", "collidable");
+
+            correctionAdd("unbale", "unable");
+
+            correctionAdd("adviseable", "advisable");
+
+            correctionAdd("non significant", "nonsignificant");
+
+            correctionAdd("customizable", "customisable");
+
+            correctionAdd("fundeable", "fundable");
+
+            correctionAdd("capaple", "capable");
+
+            correctionAdd("unreadble", "unreadable");
+            correctionAdd("unredable", "unreadable");
+
+            correctionAdd("optimize-able", "optimizable");
+
+            correctionAdd("misschoice", "mischoice");
+
+            correctionAdd("parallelizable", "parallelisable");
+
+            correctionAdd("search able", "searchable");
 
             correctionAdd("Northwind", "Northwind database");
 
@@ -6960,7 +7506,9 @@ namespace OverflowHelper.core
             correctionAdd("pyVisa", "PyVISA");
             correctionAdd("Pyvisa", "PyVISA");
 
+            // Python
             correctionAdd("scapy", "Scapy");
+            correctionAdd("SCAPY", "Scapy");
 
             correctionAdd("pywin32", "PyWin32");
             correctionAdd("pyWin32", "PyWin32");
@@ -7004,6 +7552,7 @@ namespace OverflowHelper.core
 
             correctionAdd("pysimplegui", "PySimpleGUI");
 
+            // An IDE for Python
             correctionAdd("spyder", "Spyder");
 
             correctionAdd("pySerial", "PySerial");
@@ -7019,6 +7568,7 @@ namespace OverflowHelper.core
             correctionAdd("Pyaudio", "PyAudio");
             correctionAdd("pyaudio", "PyAudio");
 
+            // Python. Twitter.
             correctionAdd("tweepy", "Tweepy");
 
             correctionAdd("Pymc3", "PyMC");
@@ -7030,7 +7580,11 @@ namespace OverflowHelper.core
 
             correctionAdd("h5.py", "h5py");
 
+            // Python. Discord.
             correctionAdd("Discord.py", "discord.py");
+
+            // Python. Discord. A fork of discord.py
+            correctionAdd("pycord", "Pycord");
 
             correctionAdd("PyGtk", "PyGTK");
 
@@ -7038,9 +7592,11 @@ namespace OverflowHelper.core
 
             correctionAdd("pycrypto", "PyCrypto");
 
-            correctionAdd("pycord", "Pycord");
-
+            // Python
             correctionAdd("Openpyxl", "openpyxl");
+
+            // Python
+            correctionAdd("Pickle", "pickle");
 
             correctionAdd("coy", "copy");
 
@@ -11621,11 +12177,6 @@ namespace OverflowHelper.core
 
             correctionAdd("MINTTY", "mintty");
 
-            correctionAdd("replaceble", "replaceable");
-            correctionAdd("replacable", "replaceable");
-
-            correctionAdd("irreplacable", "irreplaceable");
-
             correctionAdd("replase", "replace");
             correctionAdd("repalce", "replace");
             correctionAdd("reeplace", "replace");
@@ -13301,74 +13852,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Parenthesed", "parenthesised");
 
-            correctionAdd("state-variable", "state variable");
-
-            correctionAdd("var", "variable");
-            correctionAdd("vars", "variable"); // Plural, to avoid nearly duplicate entries.
-            correctionAdd("varialbe", "variable");
-            correctionAdd("varibale", "variable");
-            correctionAdd("variabe", "variable");
-            correctionAdd("valiarble", "variable");
-            correctionAdd("varible", "variable");
-            correctionAdd("variales", "variable");
-            correctionAdd("varaible", "variable");
-            correctionAdd("vailble", "variable");
-            correctionAdd("varialble", "variable");
-            correctionAdd("varable", "variable");
-            correctionAdd("variabel", "variable");
-            correctionAdd("Variabile", "variable");
-            correctionAdd("variabile", "variable");
-            correctionAdd("vaibles", "variable");
-            correctionAdd("vaible", "variable");
-            correctionAdd("vairiables", "variable");
-            correctionAdd("vairable", "variable");
-            correctionAdd("variabes", "variable");
-            correctionAdd("VARABLE", "variable");
-            correctionAdd("Varialbe", "variable");
-            correctionAdd("varaibles", "variable");
-            correctionAdd("vraiable", "variable");
-            correctionAdd("Variable", "variable");
-            correctionAdd("variale", "variable");
-            correctionAdd("Vairable", "variable");
-            correctionAdd("Var", "variable");
-            correctionAdd("vaiable", "variable");
-            correctionAdd("variablr", "variable");
-            correctionAdd("varrible", "variable");
-
-            correctionAdd("env var", "environment variable");
-            correctionAdd("Env Var", "environment variable");
-            correctionAdd("ENV-Variable", "environment variable");
-            correctionAdd("envar", "environment variable");
-            correctionAdd("envionmental variable", "environment variable");
-            correctionAdd("Environment Variable", "environment variable");
-            correctionAdd("ENV var", "environment variable");
-            correctionAdd("env variable", "environment variable");
-            correctionAdd("environemt variable", "environment variable");
-            correctionAdd("environement variable", "environment variable");
-            correctionAdd("environment var", "environment variable");
-            correctionAdd("env. variable", "environment variable");
-            correctionAdd("Environment variable", "environment variable");
-            correctionAdd("env's variable", "environment variable");
-            correctionAdd("ENV variable", "environment variable");
-            correctionAdd("envvar", "environment variable");
-            correctionAdd("Environment variables", "environment variable");
-            correctionAdd("environment variables", "environment variable");
-            correctionAdd("env vars", "environment variable");
-            correctionAdd("ENV VARIABLE", "environment variable");
-            correctionAdd("environments vars", "environment variable");
-            correctionAdd("environment vars", "environment variable");
-            correctionAdd("environments var", "environment variable");
-            correctionAdd("env. var", "environment variable");
-            correctionAdd("Env variable", "environment variable");
-            correctionAdd("Environmental variable", "environment variable");
-            correctionAdd("environmental variable", "environment variable");
-            correctionAdd("Enviornment variable", "environment variable");
-            correctionAdd("enviornment variable", "environment variable");
-            correctionAdd("enviroment variable", "environment variable");
-            correctionAdd("environment-variable", "environment variable");
-            correctionAdd("ENV vars", "environment variable");
-            correctionAdd("environment varrible", "environment variable");
-
             correctionAdd("aligment", "alignment");
             correctionAdd("alligment", "alignment");
 
@@ -14454,13 +14937,6 @@ namespace OverflowHelper.core
             correctionAdd("imge", "image");
             correctionAdd("Img", "image");
 
-            correctionAdd("abble", "able");
-            correctionAdd("ale", "able");
-            correctionAdd("ablr", "able");
-            correctionAdd("a be", "able");
-
-            correctionAdd("DISPLAY", "DISPLAY environment variable");
-
             correctionAdd("msg", "message");
             correctionAdd("massege", "message");
             correctionAdd("messeage", "message");
@@ -14659,29 +15135,6 @@ namespace OverflowHelper.core
             correctionAdd("gmial", "Gmail");
             correctionAdd("Gmial", "Gmail");
 
-            correctionAdd("avaliable", "available");
-            correctionAdd("abailable", "available");
-            correctionAdd("availble", "available");
-            correctionAdd("availaible", "available");
-            correctionAdd("avalible", "available");
-            correctionAdd("availible", "available");
-            correctionAdd("avaiable", "available");
-            correctionAdd("avialable", "available");
-            correctionAdd("avaialble", "available");
-            correctionAdd("availabe", "available");
-            correctionAdd("avilable", "available");
-            correctionAdd("AVILABLE", "available");
-            correctionAdd("AVAILABLE", "available");
-            correctionAdd("avaible", "available");
-            correctionAdd("avialale", "available");
-            correctionAdd("aviable", "available");
-            correctionAdd("avail", "available");
-            correctionAdd("avalable", "available");
-
-            correctionAdd("unavalable", "unavailable");
-
-            correctionAdd("SITES-AVAILABLE", "sites-available");
-
             correctionAdd("adobe air", "Adobe AIR");
             correctionAdd("AIR", "Adobe AIR");
             correctionAdd("Adobe air", "Adobe AIR");
@@ -14723,76 +15176,6 @@ namespace OverflowHelper.core
             correctionAdd("comma separated", "comma-separated");
             correctionAdd("comma separted", "comma-separated");
             correctionAdd("comma seperated", "comma-separated");
-
-            correctionAdd("profiterable", "profitable");
-
-            correctionAdd("acceptible", "acceptable");
-            correctionAdd("aceptable", "acceptable");
-
-            correctionAdd("inevietable", "inevitable");
-            correctionAdd("invitable", "inevitable");
-            correctionAdd("inevatable", "inevitable");
-            correctionAdd("inevatble", "inevitable");
-            correctionAdd("ineviable", "inevitable");
-
-            correctionAdd("unconfortable", "uncomfortable");
-
-            correctionAdd("comfortaple", "comfortable");
-            correctionAdd("comftravle", "comfortable");
-            correctionAdd("comftrable", "comfortable");
-            correctionAdd("comfrtable", "comfortable");
-            correctionAdd("confortable", "comfortable");
-            correctionAdd("comformtable", "comfortable");
-            correctionAdd("conformtable", "comfortable");
-            correctionAdd("comfi", "comfortable");
-            correctionAdd("comfy", "comfortable");
-
-            correctionAdd("predictible", "predictable");
-            correctionAdd("predicatble", "predictable");
-
-            correctionAdd("un-reputable", "unreputable");
-
-            correctionAdd("pasteable", "pastable");
-
-            correctionAdd("cache able", "cacheable");
-            correctionAdd("cachable", "cacheable");
-
-            correctionAdd("unpredicatable", "unpredictable");
-
-            correctionAdd("instable", "unstable");
-
-            correctionAdd("executeable", "executable");
-            correctionAdd("exucutable", "executable");
-            correctionAdd("excuteable", "executable");
-            correctionAdd("executible", "executable");
-            correctionAdd("exetuable", "executable");
-            correctionAdd("exeutable", "executable");
-
-            correctionAdd("unnaccountable", "unaccountable");
-
-            correctionAdd("lut", "lookup table");
-            correctionAdd("LUT", "lookup table");
-
-            correctionAdd("inacceptable", "unacceptable");
-
-            correctionAdd("regretable", "regrettable");
-
-            correctionAdd("setable", "settable");
-
-            correctionAdd("unfomattable", "unformattable");
-
-            // The common noun (not the HTML tag)
-            correctionAdd("tbl", "table");
-            correctionAdd("tabel", "table");
-
-            correctionAdd("toc", "TOC");
-            correctionAdd("ToC", "TOC");
-            correctionAdd("table of contens", "TOC");
-            correctionAdd("table of contents", "TOC");
-
-            correctionAdd("Tablet", "tablet");
-
-            correctionAdd("pivot-table", "pivot table");
 
             correctionAdd("vode", "vote");
 
@@ -14876,10 +15259,6 @@ namespace OverflowHelper.core
             correctionAdd("closed source software", "closed-source software");
 
             correctionAdd("auto-closing", "autoclosing");
-
-            correctionAdd("trust-able", "trustable");
-
-            correctionAdd("uncoutable", "uncountable");
 
             correctionAdd("propery", "property");
             correctionAdd("proprty", "property");
@@ -15428,25 +15807,7 @@ namespace OverflowHelper.core
             // Of PowerShell...
             correctionAdd("write-error", "Write-Error");
 
-            correctionAdd("writeable", "writable");
-
-            correctionAdd("writen", "written");
-            correctionAdd("wrtten", "written");
-            correctionAdd("wfitten", "written");
-            correctionAdd("writeen", "written");
-
-            correctionAdd("wright", "writeX");
-
-            correctionAdd("writeup", "write-up");
-            correctionAdd("write up", "write-up");
-            correctionAdd("writup", "write-up");
-
-            correctionAdd("writed", "wrote");
-            correctionAdd("wrot", "wrote");
-            correctionAdd("wrout", "wrote");
-
-            correctionAdd("write protected", "write-protected");
-
+            // A text editor
             correctionAdd("vim", "Vim");
             correctionAdd("VIM", "Vim");
             correctionAdd("ViM", "Vim");
@@ -18577,121 +18938,6 @@ namespace OverflowHelper.core
             // Open source
             correctionAdd("gpl", "GPL");
 
-            correctionAdd("usuable", "usable");
-            correctionAdd("useble", "usable");
-            correctionAdd("useable", "usable");
-
-            correctionAdd("scallable", "scalable");
-            correctionAdd("scaleable", "scalable");
-
-            correctionAdd("maintable", "maintainable");
-
-            correctionAdd("vonuravle", "vulnerable");
-
-            correctionAdd("unviable", "inviable");
-
-            correctionAdd("measureable", "measurable");
-
-            correctionAdd("reenable", "re-enable");
-            correctionAdd("ReEnable", "re-enable");
-            correctionAdd("Re-enable", "re-enable");
-
-            correctionAdd("associatable", "associable");
-
-            correctionAdd("overrideable", "overridable");
-            correctionAdd("ovveridable", "overridable");
-            correctionAdd("overidable", "overridable");
-
-            correctionAdd("disbale", "disable");
-            correctionAdd("dissable", "disable");
-            correctionAdd("diable", "disable");
-            correctionAdd("disablink", "disable");
-            correctionAdd("disble", "disable");
-
-            correctionAdd("fore-see-able", "foreseeable");
-            correctionAdd("foreseable", "foreseeable");
-
-            correctionAdd("configureable", "configurable");
-
-            correctionAdd("scroll-able", "scrollable");
-
-            correctionAdd("valueable", "valuable");
-            correctionAdd("valable", "valuable");
-            correctionAdd("value-able", "valuable");
-
-            correctionAdd("re-usable", "reusable");
-            correctionAdd("reuseable", "reusable");
-            correctionAdd("reusabe", "reusable");
-
-            correctionAdd("compile-able", "compilable");
-            correctionAdd("compileable", "compilable");
-
-            correctionAdd("noticable", "noticeable");
-
-            correctionAdd("parseable", "parsable");
-
-            correctionAdd("Parsec", "parsec");
-
-            correctionAdd("prase", "parse");
-            correctionAdd("perse", "parse");
-
-            correctionAdd("unsable", "unusable");
-
-            correctionAdd("LightTable", "Light Table");
-
-            correctionAdd("percievable", "perceivable");
-
-            correctionAdd("identifyable", "identifiable");
-
-            correctionAdd("desireable", "desirable");
-
-            correctionAdd("rechargable", "rechargeable");
-
-            correctionAdd("renawable", "renewable");
-
-            correctionAdd("banable", "bannable");
-
-            correctionAdd("unresonable", "unreasonable");
-
-            correctionAdd("unsalvagable", "unsalvageable");
-
-            correctionAdd("driveable", "drivable");
-
-            correctionAdd("impecable", "impeccable");
-
-            correctionAdd("runneable", "runnable");
-
-            correctionAdd("immesurable", "immeasurable");
-
-            correctionAdd("acheivable", "achievable");
-
-            correctionAdd("instalable", "installable");
-
-            correctionAdd("seriliasble", "serialisable");
-            correctionAdd("seriliazble", "serialisable");
-
-            correctionAdd("undesiriable", "undesirable");
-
-            correctionAdd("belivable", "believable");
-
-            correctionAdd("controllabe", "controllable");
-
-            correctionAdd("extenable", "extendable");
-
-            correctionAdd("inexecusable", "inexcusable");
-
-            correctionAdd("programable", "programmable");
-            correctionAdd("programmamble", "programmable");
-            correctionAdd("programamble", "programmable");
-
-            correctionAdd("learn-able", "learnable");
-
-            correctionAdd("sizable", "sizeable");
-
-            correctionAdd("resizeable", "resizable");
-
-            correctionAdd("non desirable", "nondesirable");
-
             correctionAdd("utorrent", "µTorrent");
             correctionAdd("uTorrent", "µTorrent");
             correctionAdd("Utorrent", "µTorrent");
@@ -20066,77 +20312,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Yslow", "YSlow");
             correctionAdd("yslow", "YSlow");
-
-            correctionAdd("Clickonce", "ClickOnce");
-            correctionAdd("clickonce", "ClickOnce");
-            correctionAdd("click once", "ClickOnce");
-            correctionAdd("click-once", "ClickOnce");
-            correctionAdd("clickOnce", "ClickOnce");
-            correctionAdd("Click Once", "ClickOnce");
-            correctionAdd("Click-Once", "ClickOnce");
-            correctionAdd("clickone", "ClickOnce");
-            correctionAdd("OneClick", "ClickOnce");
-            correctionAdd("Click once", "ClickOnce");
-            correctionAdd("Click-once", "ClickOnce");
-            correctionAdd("ClckOnce", "ClickOnce"); // Misspelling.
-            correctionAdd("CO", "ClickOnce");
-            correctionAdd("one click", "ClickOnce");
-            correctionAdd("cliconce", "ClickOnce");
-            correctionAdd("ClicOnse", "ClickOnce");
-
-            correctionAdd("clique", "click");
-            correctionAdd("clic", "click");
-            correctionAdd("lick", "click");
-            correctionAdd("clicl", "click");
-            correctionAdd("CLick", "click");
-            correctionAdd("Click", "click");
-
-            correctionAdd("klicking", "clicking");
-
-            correctionAdd("right click", "right-click");
-            correctionAdd("Right-Click", "right-click");
-            correctionAdd("Right Click", "right-click");
-            correctionAdd("Right-click", "right-click");
-            correctionAdd("rigth click", "right-click");
-            correctionAdd("Right click", "right-click");
-            correctionAdd("rt-click", "right-click");
-            correctionAdd("Rightclick", "right-click");
-            correctionAdd("right Click", "right-click");
-            correctionAdd("rightclick", "right-click");
-            correctionAdd("right lick", "right-click");
-
-            correctionAdd("right licking", "right-clicking");
-            correctionAdd("right clicking", "right-clicking");
-
-            correctionAdd("cliqued", "clicked");
-
-            correctionAdd("click-able", "clickable");
-            correctionAdd("Click-able", "clickable");
-
-            correctionAdd("double click", "double-click");
-            correctionAdd("dubble click", "double-click");
-            correctionAdd("doubble click", "double-click");
-            correctionAdd("Double click", "double-click");
-            correctionAdd("Double Click", "double-click");
-            correctionAdd("Double-click", "double-click");
-
-            correctionAdd("single click", "single-click");
-
-            correctionAdd("left click", "left-click");
-            correctionAdd("Left click", "left-click");
-            correctionAdd("Left-click", "left-click");
-
-            correctionAdd("double clicking", "double-clicking");
-            correctionAdd("doublicking", "double-clicking");
-            correctionAdd("doubclicking", "double-clicking");
-            correctionAdd("doubleclicking", "double-clicking");
-            correctionAdd("Double clicking", "double-clicking");
-
-            correctionAdd("mis-clicking", "misclicking");
-
-            correctionAdd("click bait", "clickbait");
-            correctionAdd("Click bait", "clickbait");
-            correctionAdd("click-bait", "clickbait");
 
             correctionAdd("Ccleaner", "CCleaner");
             correctionAdd("ccleaner", "CCleaner");
@@ -23359,32 +23534,6 @@ namespace OverflowHelper.core
             correctionAdd("Man-in-the-Middle Attack", "man-in-the-middle attack");
 
             correctionAdd("mvvm", "MVVM");
-
-            correctionAdd("ack", "acknowledge");
-            correctionAdd("ackknowledge", "acknowledge");
-            correctionAdd("achknowledge", "acknowledge");
-            correctionAdd("acknowlegde", "acknowledge");
-            correctionAdd("acknoledge", "acknowledge");
-            correctionAdd("acklowledge", "acknowledge");
-
-            correctionAdd("knowlege", "knowledge");
-            correctionAdd("knowlodge", "knowledge");
-            correctionAdd("KNAWLEDGE", "knowledge");
-            correctionAdd("knawledge", "knowledge");
-            correctionAdd("knowldge", "knowledge");
-            correctionAdd("knoledge", "knowledge");
-
-            correctionAdd("knowledgebase", "knowledge base");
-            correctionAdd("knowledge-base", "knowledge base");
-
-            correctionAdd("knowlegeable", "knowledgeable");
-            correctionAdd("knowledgable", "knowledgeable");
-
-            correctionAdd("Knowledge Transfer", "knowledge transfer");
-
-            correctionAdd("tranfer", "transfer");
-            correctionAdd("Tranfer", "transfer");
-            correctionAdd("transer", "transfer");
 
             correctionAdd("edge", "Edge");
             correctionAdd("EDGE", "Edge");
@@ -31707,10 +31856,6 @@ namespace OverflowHelper.core
 
             correctionAdd("unit-less", "unitless");
             correctionAdd("unit less", "unitless");
-
-            correctionAdd("unmaintaned", "unmaintained");
-
-            correctionAdd("unmatainable", "unmaintainable");
 
             correctionAdd("Navier Stokes equation", "Navier–Stokes equations");
 
@@ -40937,8 +41082,6 @@ namespace OverflowHelper.core
             correctionAdd("industrial strength", "industrial-strength");
             correctionAdd("industrial grade", "industrial-strength");
 
-            correctionAdd("laughbale", "laughable");
-
             correctionAdd("listenning", "listening");
             correctionAdd("listerning", "listening");
             correctionAdd("Listenting", "listening");
@@ -41013,8 +41156,6 @@ namespace OverflowHelper.core
 
             correctionAdd("re order", "reorder");
             correctionAdd("re-order", "reorder");
-
-            correctionAdd("skimable", "skimmable");
 
             correctionAdd("amf", "AMF");
 
@@ -41904,8 +42045,6 @@ namespace OverflowHelper.core
             correctionAdd("Strapi CMS", "Strapi");
             correctionAdd("strapi", "Strapi");
 
-            correctionAdd("aplicable", "applicable");
-
             correctionAdd("calrity", "clarity");
 
             correctionAdd("dam", "damn");
@@ -42156,10 +42295,6 @@ namespace OverflowHelper.core
             correctionAdd("under-sampled", "undersampled");
             correctionAdd("under sampled", "undersampled");
 
-            correctionAdd("understable", "understandable");
-            correctionAdd("undestandable", "understandable");
-            correctionAdd("understandble", "understandable");
-
             correctionAdd("cocoa pods", "CocoaPods");
             correctionAdd("Pod", "CocoaPods");
             correctionAdd("Cocoapods", "CocoaPods");
@@ -42282,8 +42417,6 @@ namespace OverflowHelper.core
             correctionAdd("causual", "casual");
 
             correctionAdd("salutions", "salutations");
-
-            correctionAdd("tollerable", "tolerable");
 
             correctionAdd("unconditionnal", "unconditional");
             correctionAdd("Unconditionnal", "unconditional");
@@ -42486,8 +42619,6 @@ namespace OverflowHelper.core
             correctionAdd("Evidentially", "evidently");
 
             correctionAdd("immence", "immense");
-
-            correctionAdd("interchaneable", "interchangeable");
 
             correctionAdd("Owned", "owned");
             correctionAdd("0wned", "owned");
@@ -42993,8 +43124,6 @@ namespace OverflowHelper.core
             correctionAdd("Aug", "August");
             correctionAdd("AUGUST", "August");
             correctionAdd("augest", "August");
-
-            correctionAdd("changable", "changeable");
 
             correctionAdd("constrains", "constraints");
             correctionAdd("contraints", "constraints");
@@ -43621,10 +43750,6 @@ namespace OverflowHelper.core
 
             correctionAdd("mindlesslly", "mindlessly");
 
-            correctionAdd("reliablle", "reliable");
-            correctionAdd("relailable", "reliable");
-            correctionAdd("relilable", "reliable");
-
             correctionAdd("second worst", "second-worst");
 
             correctionAdd("strawman", "straw man");
@@ -43671,8 +43796,6 @@ namespace OverflowHelper.core
             correctionAdd("Counsilor", "counselor");
 
             correctionAdd("kerfufle", "kerfuffle");
-
-            correctionAdd("scanable", "scannable");
 
             correctionAdd("c5", "C5");
 
@@ -43745,9 +43868,6 @@ namespace OverflowHelper.core
             correctionAdd("non-committed", "noncommitted");
             correctionAdd("non-comitted", "noncommitted");
 
-            correctionAdd("non-recoverable", "nonrecoverable");
-            correctionAdd("non recoverable", "nonrecoverable");
-
             correctionAdd("de-hashing", "rehashing");
 
             correctionAdd("Alzheimer's Disease", "Alzheimer's disease");
@@ -43758,8 +43878,6 @@ namespace OverflowHelper.core
             correctionAdd("shingled magnetic recording", "SMR");
 
             correctionAdd("cooldown", "cool down");
-
-            correctionAdd("non-overridable", "nonoverridable");
 
             correctionAdd("soveld", "solved");
             correctionAdd("sloved", "solved");
@@ -44247,9 +44365,6 @@ namespace OverflowHelper.core
             correctionAdd("Delta-v", "delta-v");
             correctionAdd("delta V", "delta-v");
 
-            correctionAdd("enforcable", "enforceable");
-            correctionAdd("Enforcable", "enforceable");
-
             correctionAdd("NG SERVE", "ng serve");
 
             correctionAdd("oftused", "oft-used");
@@ -44283,9 +44398,6 @@ namespace OverflowHelper.core
 
             correctionAdd("looser coupling", "loose coupling");
 
-            correctionAdd("managable", "manageable");
-            correctionAdd("manageble", "manageable");
-
             correctionAdd("super power", "superpower");
             correctionAdd("super-power", "superpower");
 
@@ -44304,8 +44416,6 @@ namespace OverflowHelper.core
             correctionAdd("loope", "loops");
 
             correctionAdd("Transpile", "transpile");
-
-            correctionAdd("visualizeable", "visualizable");
 
             correctionAdd("DomainKeys Identified Mail", "DKIM");
             correctionAdd("dkim", "DKIM");
@@ -44420,8 +44530,6 @@ namespace OverflowHelper.core
             correctionAdd("Lift", "lift");
 
             correctionAdd("Pilot", "pilot");
-
-            correctionAdd("unvoidable", "unavoidable");
 
             correctionAdd("youke", "yoke");
 
@@ -44544,8 +44652,6 @@ namespace OverflowHelper.core
             correctionAdd("openedge", "OpenEdge");
 
             correctionAdd("stylus", "Stylus");
-
-            correctionAdd("afordable", "affordable");
 
             correctionAdd("de-emphasize", "de-emphasise");
             correctionAdd("deemphasise", "de-emphasise");
@@ -45126,8 +45232,6 @@ namespace OverflowHelper.core
 
             correctionAdd("bass-guitar", "bass guitar");
 
-            correctionAdd("discuss-able", "discussable");
-
             correctionAdd("Electric", "electric");
             correctionAdd("electic", "electric");
 
@@ -45229,10 +45333,6 @@ namespace OverflowHelper.core
             correctionAdd("Adaptation", "adaptation");
 
             correctionAdd("addresses", "addressed");
-
-            correctionAdd("Categorical Variable", "categorical variable");
-            correctionAdd("Categorical Variables", "categorical variable");
-            correctionAdd("categorical variables", "categorical variable");
 
             correctionAdd("desparation", "desperation");
 
@@ -45394,10 +45494,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Broglie", "Louis de Broglie");
             correctionAdd("de Broglie", "Louis de Broglie");
-
-            correctionAdd("Admirable", "admirable");
-
-            correctionAdd("decodeable", "decodable");
 
             correctionAdd("Enquiring", "enquiring");
 
@@ -45632,8 +45728,6 @@ namespace OverflowHelper.core
 
             correctionAdd("SOCK", "SOCKS");
 
-            correctionAdd("salvagable", "salvageable");
-
             correctionAdd("VWP", "Visa Waiver Program");
 
             correctionAdd("bit-banging", "bit banging");
@@ -45687,6 +45781,7 @@ namespace OverflowHelper.core
 
             correctionAdd("unsuccessfull", "unsuccessful");
             correctionAdd("unsuccesful", "unsuccessful");
+            correctionAdd("unsucessful", "unsuccessful");
 
             correctionAdd("Banglore", "Bangalore");
             correctionAdd("bangalore", "Bangalore");
@@ -45855,8 +45950,6 @@ namespace OverflowHelper.core
             correctionAdd("Scripting", "scripting");
             correctionAdd("scruipting", "scripting");
 
-            correctionAdd("unrealiable", "unreliable");
-
             correctionAdd("British Medical Journal", "The BMJ");
             correctionAdd("BMJ", "The BMJ");
 
@@ -45892,8 +45985,6 @@ namespace OverflowHelper.core
             correctionAdd("dymanic", "dynamic");
 
             correctionAdd("Linearithmic", "linearithmic");
-
-            correctionAdd("removeable", "removable");
 
             correctionAdd("Space industry", "space industry");
 
@@ -45970,8 +46061,6 @@ namespace OverflowHelper.core
             correctionAdd("student's t-distribution", "Student's t-distribution");
 
             correctionAdd("along side", "alongside");
-
-            correctionAdd("indispensible", "indispensable");
 
             correctionAdd("sweetspot", "sweet spot");
 
@@ -46338,8 +46427,6 @@ namespace OverflowHelper.core
             correctionAdd("envoking", "invoking");
 
             correctionAdd("NETCAT", "netcat");
-
-            correctionAdd("preferrable", "preferable");
 
             correctionAdd("Shell", "shell");
 
@@ -47006,8 +47093,6 @@ namespace OverflowHelper.core
 
             correctionAdd("get together", "get-together");
 
-            correctionAdd("Instance variable", "instance variable");
-
             correctionAdd("pronunced", "pronounced");
             correctionAdd("pronuced", "pronounced");
 
@@ -47329,8 +47414,6 @@ namespace OverflowHelper.core
 
             correctionAdd("allow-listing", "allowlisting");
 
-            correctionAdd("breatheable", "breathable");
-
             correctionAdd("CHOWN", "chown");
 
             correctionAdd("dwingling", "dwindling");
@@ -47432,8 +47515,6 @@ namespace OverflowHelper.core
 
             correctionAdd("tinder", "Tinder");
 
-            correctionAdd("dragable", "draggable");
-
             correctionAdd("there after", "thereafter");
             correctionAdd("There after", "thereafter");
 
@@ -47448,9 +47529,6 @@ namespace OverflowHelper.core
             correctionAdd("Thesis", "thesis");
 
             correctionAdd("denial of service", "denial-of-service attack");
-
-            correctionAdd("human readble", "human-readable");
-            correctionAdd("human readable", "human-readable");
 
             correctionAdd("Bayasian", "Bayesian");
             correctionAdd("Beyasian", "Bayesian");
@@ -47627,8 +47705,6 @@ namespace OverflowHelper.core
             correctionAdd("dotcom", "dot-com");
 
             correctionAdd("fokls", "folks");
-
-            correctionAdd("instanciable", "instantiable");
 
             correctionAdd("one self", "oneself");
 
@@ -47999,8 +48075,6 @@ namespace OverflowHelper.core
 
             correctionAdd("non inverted", "noninverted");
 
-            correctionAdd("Random Variable", "random variable");
-
             correctionAdd("remane", "remain");
 
             correctionAdd("truthi-ness", "truthiness");
@@ -48127,8 +48201,6 @@ namespace OverflowHelper.core
             correctionAdd("nice looking", "nice-looking");
 
             correctionAdd("Plot", "plot");
-
-            correctionAdd("querable", "queryable");
 
             correctionAdd("2N7000", "2N7000 (MOSFET)");
 
@@ -48557,8 +48629,6 @@ namespace OverflowHelper.core
             correctionAdd("StencilJS", "Stencil");
             correctionAdd("stencil", "Stencil");
 
-            correctionAdd("comendable", "commendable");
-
             correctionAdd("loggging", "logging");
 
             correctionAdd("off the shelf", "off-the-shelf");
@@ -48791,8 +48861,6 @@ namespace OverflowHelper.core
 
             correctionAdd("pain killer", "painkiller");
 
-            correctionAdd("Pickle", "pickle");
-
             correctionAdd("re-traverse", "retraverse");
 
             correctionAdd("typesafe", "type-safe");
@@ -48833,8 +48901,6 @@ namespace OverflowHelper.core
             correctionAdd("Sysctl", "sysctl");
 
             correctionAdd("anciety", "anxiety");
-
-            correctionAdd("switcable", "switchable");
 
             correctionAdd("brotli", "Brotli");
 
@@ -49299,8 +49365,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Expected Conditions", "ExpectedConditions");
 
-            correctionAdd("probhable", "probable");
-
             correctionAdd("causually", "causally");
 
             correctionAdd("re-do", "redo");
@@ -49321,8 +49385,6 @@ namespace OverflowHelper.core
             correctionAdd("Cauchy-Schwarz inequality", "Cauchy–Schwarz inequality");
 
             correctionAdd("colorama", "Colorama");
-
-            correctionAdd("flagable", "flaggable");
 
             correctionAdd("personal time off", "paid time off");
             correctionAdd("PTO", "paid time off");
@@ -49732,9 +49794,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Named pipe", "named pipe");
 
-            correctionAdd("sharable", "shareable");
-            correctionAdd("share-able", "shareable");
-
             correctionAdd("teamlead", "team lead");
 
             correctionAdd("vararity", "variety");
@@ -49791,8 +49850,6 @@ namespace OverflowHelper.core
             correctionAdd("quantifibly", "quantifiably");
 
             correctionAdd("ready made", "ready-made");
-
-            correctionAdd("resonable", "reasonable");
 
             correctionAdd("sco", "SCO");
 
@@ -50033,8 +50090,6 @@ namespace OverflowHelper.core
 
             correctionAdd("tenenat", "tenant");
 
-            correctionAdd("cutable", "cuttable");
-
             correctionAdd("Winnie the Pooh", "Winnie-the-Pooh");
 
             correctionAdd("decilned", "declined");
@@ -50185,8 +50240,6 @@ namespace OverflowHelper.core
 
             correctionAdd("write-off", "write off");
 
-            correctionAdd("collideable", "collidable");
-
             correctionAdd("shutsdown", "shuts down");
 
             correctionAdd("advartised", "advertised");
@@ -50220,8 +50273,6 @@ namespace OverflowHelper.core
             correctionAdd("Out of band", "out-of-band");
             correctionAdd("out of band", "out-of-band");
 
-            correctionAdd("Periodic Table", "periodic table");
-
             correctionAdd("re installed", "reinstalled");
             correctionAdd("reainstalled", "reinstalled");
 
@@ -50245,8 +50296,6 @@ namespace OverflowHelper.core
             correctionAdd("H&I", "Help & Improvement queue");
 
             correctionAdd("intervall", "interval");
-
-            correctionAdd("PIE", "position-independent executable");
 
             correctionAdd("Power Law", "power law");
 
@@ -50318,8 +50367,6 @@ namespace OverflowHelper.core
             correctionAdd("Comply", "comply");
 
             correctionAdd("re-produced", "reproduced");
-
-            correctionAdd("unbale", "unable");
 
             correctionAdd("arrnaging", "arranging");
 
@@ -50454,10 +50501,6 @@ namespace OverflowHelper.core
             correctionAdd("britgness", "brightness");
 
             correctionAdd("unlug", "unplug");
-
-            correctionAdd("adviseable", "advisable");
-
-            correctionAdd("non significant", "nonsignificant");
 
             correctionAdd("SmashingMagazine", "Smashing Magazine");
 
@@ -50627,8 +50670,6 @@ namespace OverflowHelper.core
 
             correctionAdd("numercial", "numerical");
 
-            correctionAdd("customizable", "customisable");
-
             correctionAdd("Haversine formula", "haversine distance");
             correctionAdd("Haversine distance", "haversine distance");
             correctionAdd("Haversine", "haversine distance");
@@ -50715,16 +50756,12 @@ namespace OverflowHelper.core
 
             correctionAdd("titles", "titled");
 
-            correctionAdd("fundeable", "fundable");
-
             correctionAdd("startingpoint", "starting point");
 
             correctionAdd("strawmen", "straw men");
             correctionAdd("strawmen arguments", "straw men");
 
             correctionAdd("all round", "all-around");
-
-            correctionAdd("capaple", "capable");
 
             // An x86 assembler
             correctionAdd("FASMW", "FASM");
@@ -50809,9 +50846,6 @@ namespace OverflowHelper.core
 
             correctionAdd("satisified", "satisfied");
 
-            correctionAdd("unreadble", "unreadable");
-            correctionAdd("unredable", "unreadable");
-
             correctionAdd("suplied", "supplied");
 
             correctionAdd("coumpound", "compound");
@@ -50855,8 +50889,6 @@ namespace OverflowHelper.core
             correctionAdd("handholding", "hand-holding");
 
             correctionAdd("hand crafted", "handcrafted");
-
-            correctionAdd("optimize-able", "optimizable");
 
             correctionAdd("oriented on", "oriented toward");
 
@@ -50980,8 +51012,6 @@ namespace OverflowHelper.core
             correctionAdd("self induced", "self-induced");
 
             correctionAdd("corkscrew", "Corkscrew");
-
-            correctionAdd("stabil", "stable");
 
             correctionAdd("DCM", "dichloromethane");
 
@@ -51130,10 +51160,6 @@ namespace OverflowHelper.core
 
             correctionAdd("abscent", "absent");
 
-            correctionAdd("Bootable", "bootable");
-
-            correctionAdd("misschoice", "mischoice");
-
             correctionAdd("rvalue", "r-value");
 
             correctionAdd("truble", "trouble");
@@ -51256,8 +51282,6 @@ namespace OverflowHelper.core
 
             correctionAdd("distiguishing", "distinguishing");
 
-            correctionAdd("parallelizable", "parallelisable");
-
             correctionAdd("paired down", "pared down");
 
             correctionAdd("figth", "fight");
@@ -51267,8 +51291,6 @@ namespace OverflowHelper.core
 
             correctionAdd("roleplaying game", "role-playing game");
             correctionAdd("role playing game", "role-playing game");
-
-            correctionAdd("search able", "searchable");
 
             correctionAdd("granualrities", "granularities");
 
@@ -51296,8 +51318,6 @@ namespace OverflowHelper.core
             // Alternative URL: <https://ethanschoonover.com/solarized/>
             //
             correctionAdd("solarized", "Solarized");
-
-            correctionAdd("sutiable", "suitable");
 
             correctionAdd("DSX", "Watson Studio");
             correctionAdd("Data Science Experience", "Watson Studio");
@@ -51359,6 +51379,12 @@ namespace OverflowHelper.core
             correctionAdd("step-wise", "stepwise");
 
             correctionAdd("superluminous", "superluminal");
+
+            correctionAdd("frustarting", "frustrating");
+
+            correctionAdd("Inquisitive", "Inquisitive badge");
+
+            correctionAdd("timeseries", "time series");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -79852,6 +79878,12 @@ namespace OverflowHelper.core
             URL_Add("stepwise", "https://en.wiktionary.org/wiki/stepwise#Adjective");
 
             URL_Add("superluminal", "https://en.wiktionary.org/wiki/superluminal#Adjective");
+
+            URL_Add("frustrating", "https://en.wiktionary.org/wiki/frustrating#Adjective");
+
+            URL_Add("Inquisitive badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/67399#67399");
+
+            URL_Add("time series", "https://en.wiktionary.org/wiki/time_series#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
