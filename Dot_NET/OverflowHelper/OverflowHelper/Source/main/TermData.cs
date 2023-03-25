@@ -452,12 +452,14 @@ namespace OverflowHelper.core
 
             correctionAdd("WinNT", "Windows NT");
             correctionAdd("WindowsNT", "Windows NT");
+            correctionAdd("NT", "Windows NT");
 
             correctionAdd("Windows 95", "Windows&nbsp;95"); // Sort of identity mapping
             correctionAdd("95", "Windows&nbsp;95");
             correctionAdd("Win95", "Windows&nbsp;95");
             correctionAdd("windows 95", "Windows&nbsp;95");
             correctionAdd("Windows95", "Windows&nbsp;95");
+            correctionAdd("'95", "Windows&nbsp;95");
 
             correctionAdd("Windows 98", "Windows&nbsp;98");
             correctionAdd("windows 98", "Windows&nbsp;98");
@@ -5592,6 +5594,7 @@ namespace OverflowHelper.core
             correctionAdd("stock overflow", "Stack&nbsp;Overflow");
             correctionAdd("stackoerflow", "Stack&nbsp;Overflow");
             correctionAdd("StackOvereflow", "Stack&nbsp;Overflow");
+            correctionAdd("stockoverflown", "Stack&nbsp;Overflow");
 
             correctionAdd("SE", "Stack&nbsp;Exchange");
             correctionAdd("stackexchange", "Stack&nbsp;Exchange");
@@ -7305,6 +7308,7 @@ namespace OverflowHelper.core
             correctionAdd("jupyterlab", "JupyterLab");
             correctionAdd("Jupyter lab", "JupyterLab");
             correctionAdd("jupyter lab", "JupyterLab");
+            correctionAdd("Jupyter Lab", "JupyterLab");
 
             correctionAdd("biopython", "Biopython");
 
@@ -8233,6 +8237,7 @@ namespace OverflowHelper.core
             correctionAdd("libreries", "libraries");
             correctionAdd("Libraries", "libraries");
             correctionAdd("librabries", "libraries");
+            correctionAdd("libraies", "libraries");
 
             correctionAdd("enterprise library", "Enterprise Library"); // Really "Microsoft Enterprise Library"
 
@@ -11585,6 +11590,7 @@ namespace OverflowHelper.core
             correctionAdd("Os x", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("Mac os x", "Mac&nbsp;OS&nbsp;X");
             correctionAdd("Osx", "Mac&nbsp;OS&nbsp;X");
+            correctionAdd("macOS X", "Mac&nbsp;OS&nbsp;X");
 
             correctionAdd("Mac mini", "Mac Mini");
             correctionAdd("mac mini", "Mac Mini");
@@ -11623,6 +11629,7 @@ namespace OverflowHelper.core
             correctionAdd("MAC OS", "macOS");
             correctionAdd("mac OS", "macOS");
             correctionAdd("macos", "macOS");
+            correctionAdd("MACOS", "macOS");
 
             correctionAdd("Mac OS X v10.2 (Jaguar)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar)"); // Sort of identity mapping
             correctionAdd("Jaguar", "Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar)");
@@ -17190,6 +17197,7 @@ namespace OverflowHelper.core
             correctionAdd("FIrefox", "Firefox");
             correctionAdd("Mozzilla", "Firefox");
             correctionAdd("MFF", "Firefox");
+            correctionAdd("fireFox", "Firefox");
 
             correctionAdd("Firefox quatum", "Firefox Quantum");
             correctionAdd("Firefox quantum", "Firefox Quantum");
@@ -17688,6 +17696,7 @@ namespace OverflowHelper.core
             correctionAdd("independient", "independent");
             correctionAdd("independed", "independent");
             correctionAdd("independend", "independent");
+            correctionAdd("indipendent", "independent");
 
             correctionAdd("dependant", "dependent"); // Common misspelling...
             correctionAdd("depented", "dependent");
@@ -23945,6 +23954,7 @@ namespace OverflowHelper.core
             correctionAdd("alwasys", "always");
             correctionAdd("alwayes", "always");
             correctionAdd("alwaly", "always");
+            correctionAdd("alwaus", "always");
 
             correctionAdd("spanish", "Spanish");
             correctionAdd("SPanish", "Spanish");
@@ -27112,6 +27122,7 @@ namespace OverflowHelper.core
             correctionAdd("throughouly", "thoroughly");
             correctionAdd("throughoutly", "thoroughly");
             correctionAdd("thouroughly", "thoroughly");
+            correctionAdd("throuroughly", "thoroughly");
 
             correctionAdd("roughy", "roughly");
             correctionAdd("roughtly", "roughly");
@@ -28528,6 +28539,7 @@ namespace OverflowHelper.core
             correctionAdd("power-pc", "PowerPC");
             correctionAdd("Power PC", "PowerPC");
             correctionAdd("PPC", "PowerPC");
+            correctionAdd("power pc", "PowerPC");
 
             correctionAdd("WOW64", "WoW64");
 
@@ -28831,6 +28843,7 @@ namespace OverflowHelper.core
             correctionAdd("easist", "easiest");
             correctionAdd("esasiest", "easiest");
             correctionAdd("esiest", "easiest");
+            correctionAdd("most easiest", "easiest");
 
             correctionAdd("exept", "except");
             correctionAdd("cept", "except");
@@ -37447,6 +37460,8 @@ namespace OverflowHelper.core
             correctionAdd("tgey", "they");
             correctionAdd("Yhey", "they");
             correctionAdd("yhey", "they");
+            correctionAdd("Thay", "they");
+            correctionAdd("thay", "they");
 
             correctionAdd("transation", "transaction");
 
@@ -44609,6 +44624,7 @@ namespace OverflowHelper.core
             correctionAdd("SwitchySharp", "Proxy SwitchySharp");
 
             correctionAdd("Sparc", "SPARC");
+            correctionAdd("sparc", "SPARC");
 
             correctionAdd("StartPage", "Startpage");
             correctionAdd("Startpage.com", "Startpage");
@@ -47048,6 +47064,7 @@ namespace OverflowHelper.core
             correctionAdd("first Answer", "First answers review queue");
             correctionAdd("First answers", "First answers review queue");
             correctionAdd("first answers", "First answers review queue");
+            correctionAdd("FA", "First answers review queue");
 
             // Related to Stack Exchange
             correctionAdd("late answer", "Late answers review queue");
@@ -51471,6 +51488,20 @@ namespace OverflowHelper.core
             correctionAdd("self contradictory", "self-contradictory");
 
             correctionAdd("single digit", "single-digit");
+
+            correctionAdd("MSVC STL", "C++ Standard Library");
+            correctionAdd("libc++", "C++ Standard Library");
+            correctionAdd("libstdc++", "C++ Standard Library");
+
+            correctionAdd("darwin", "Darwin");
+
+            correctionAdd("SR-71", "Lockheed SR-71 Blackbird");
+
+            correctionAdd("MRI", "magnetic resonance imaging");
+
+            correctionAdd("XB-70", "North American XB-70 Valkyrie");
+
+            correctionAdd("PEBKAC", "problem exists between keyboard and chair");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -80016,6 +80047,18 @@ namespace OverflowHelper.core
             URL_Add("kilolightyear", "https://en.wiktionary.org/wiki/kilolightyear#Noun");
 
             URL_Add("megalightyear", "https://en.wiktionary.org/wiki/megalightyear#Noun");
+
+            URL_Add("C++ Standard Library", "https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library#Implementations");
+
+            URL_Add("Darwin", "https://en.wikipedia.org/wiki/Darwin_(operating_system)");
+
+            URL_Add("Lockheed SR-71 Blackbird", "https://en.wikipedia.org/wiki/Lockheed_SR-71_Blackbird");
+
+            URL_Add("magnetic resonance imaging", "https://en.wikipedia.org/wiki/Magnetic_resonance_imaging");
+
+            URL_Add("North American XB-70 Valkyrie", "https://en.wikipedia.org/wiki/North_American_XB-70_Valkyrie");
+
+            URL_Add("problem exists between keyboard and chair", "https://en.wiktionary.org/wiki/PEBKAC#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
