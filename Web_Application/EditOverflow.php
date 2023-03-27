@@ -303,6 +303,7 @@
             # in the PHP error log file.
             $linkYouTubeCompatible = "";
             $link_HTML = "";
+            $grammaticalWordClass = "";
             $link_WikiMedia = "";
             $link_WikiMedia_External = "";
             $correctionComment = "";
@@ -358,6 +359,25 @@
             # huge list (as of 2020-10-29, 14852 items)
             if ($correctTerm)
             {
+
+                # If the URL is a Wiktionary one, extract the
+                # (grammatical) word class and display it
+                # close to the correct word.
+                if (preg_match('/^https:\/\/en.wiktionary.org\/wiki\//', $URL) !== 0)
+                {
+                    # Example (without the brackets):
+                    #
+                    #   <https://en.wiktionary.org/wiki/doesn%27t#Verb>
+
+                    # $grammaticalWordClass = 'Is a Wiktionary URL...';
+                    $replacer_g = new StringReplacerWithRegex($URL);
+                    $replacer_g->transform(
+                      'https:\/\/en.wiktionary.org\/wiki\/.+#(.+)', '$1');
+                    $grammaticalWordClass = $replacer_g->currentString();
+                }
+
+                https://en.wiktionary.org/wiki/is#Verb
+
                 # Add to our built-up edit summary string (using
                 # the carried-over state and our new lookup)
 
@@ -777,11 +797,13 @@
                     id="LookUpTerm"
                     class="XYZ3"
                     <?php the_formValue($lookUpTerm); ?>
-                    style="width:150px;"
+                    style="width:170px;"
                     accesskey="L"
                     title="Shortcut: Shift + Alt + L"
                     autofocus
                 >
+
+                <p></p>
 
                 <!-- Note:  we keep the same identifier "CorrectedTerm",
                             even if the lookup fails.
@@ -832,22 +854,31 @@
                         #
                         the_formValue($effectiveTerm . " ");
                     ?>
-                    style="width:150px;"
+                    style="width:170px;"
                     accesskey="C"
                     title="Shortcut: Shift + Alt + C"
                 >
 
+
+                <!-- <p class="grammaticalWordClass">Some word class</p> -->
+                <!-- <p>e</p> -->
+                <!-- <p></p> -->
+                <!-- Some word class -->
                 <?php
-                    # Unconditional (but it will be an empty string
-                    # if there aren't any hits)
-                    #
-                    #the_formValue($effectiveTerm . " ");
+                    echo "<p class=\"grammaticalWordClass\">$grammaticalWordClass</p>"
+                ?>
+
+                <?php
+                    # Optional: A "line" with one or more alternatives
+                    #           to the main lookup result (from other
+                    #           word sets)
 
                     if ($alternative)
                     {
                         echo "<label for=\"CorrectedTerm\">Alternatives</label>\n";
                         echo "                " . # Internal indent (don't we have a variable for this???)
-                              "<p class=\"entry-line\">$alternative</p>\n";
+                              "<p class=\"entry-line\">$alternative</p>\n" .
+                              "<p></p>";
                     }
                 ?>
 
@@ -863,6 +894,8 @@
                     title="Shortcut: Shift + Alt + M"
                 >
 
+                <p></p>
+
                 <label for="editSummary_output2"><b></b></label>
                 <input
                     name="editSummary_output2"
@@ -874,6 +907,8 @@
                     accesskey="O"
                     title="Shortcut: Shift + Alt + O"
                 >
+
+                <p></p>
 
                 <?php
                   # Note 1: We can not (currently) break it into several
@@ -905,6 +940,8 @@
                     title="Shortcut: Shift + Alt + E"
                 >
 
+                <p></p>
+
                 <label for="URL2">Link (<u>i</u>nline Markdown)</label>
                 <input
                     name="URL2"
@@ -918,6 +955,8 @@
                     title="Shortcut: Shift + Alt + I"
                 >
 
+                <p></p>
+
                 <label for="URL3">Link (<u>Y</u>ouTube compatible)</label>
                 <input
                     name="URL3"
@@ -930,6 +969,8 @@
                     accesskey="Y"
                     title="Shortcut: Shift + Alt + Y"
                 >
+
+                <p></p>
 
                 <label for="URL4">Link (<u>H</u>TML)</label>
                 <input
@@ -963,6 +1004,8 @@
                     title="Shortcut: Shift + Alt + H"
                 >
 
+                <p></p>
+
                 <label for="URL6">Link (MediaWi<u>k</u>i)</label>
                 <input
                     name="URL6"
@@ -994,6 +1037,8 @@
                     accesskey="K"
                     title="Shortcut: Shift + Alt + K"
                 >
+
+                <p></p>
 
                 <label for="URL7">Link (MediaWiki, e<u>x</u>ternal)</label>
                 <input
@@ -1027,6 +1072,8 @@
                     title="Shortcut: Shift + Alt + X"
                 >
 
+                <p></p>
+
                 <label for="URL5">Correction commen<u>t</u></label>
                 <input
                     name="URL5"
@@ -1045,6 +1092,8 @@
                     accesskey="T"
                     title="Shortcut: Shift + Alt + T"
                 >
+
+                <p></p>
 
                 <?php
                     #No, not for now. But do consider it.

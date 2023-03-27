@@ -69,7 +69,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a702 2023-03-25T210417Z+0";
+        return "Edit Overflow v. 1.1.49a705 2023-03-27T222754Z+0";
     }
 
 
@@ -845,7 +845,11 @@
             .formgrid
             {
                 display: grid;
-                grid-template-columns: minmax(5%, 130px) 1em 2fr;
+                
+                /*                         Col1              Col2 Col3               Col4   */
+                /*  grid-template-columns: minmax(5%, 130px) 1em  2fr                minmax(5%, 350px); */
+                /*  grid-template-columns: minmax(5%, 200px) 1em  minmax(5%, 350px)  2fr; */
+                    grid-template-columns: minmax(5%, 200px) 1em  170px              2fr;
                                        /* 10% 1fr 2fr 12em;
                                           1fr 1em 2fr
                                        */
@@ -854,6 +858,8 @@
                 align-items: center;
             }
 
+            /* Column 3 is for the text (<label>) for the checkbox,
+               close to the narrow column 2.   */ 
             input,
             output,
             textarea,
@@ -866,9 +872,17 @@
                 margin: 0;
             }
 
+            p.grammaticalWordClass
+            {
+                grid-column: 4 / 4;
+                width: auto;
+                margin: 0;
+                border-color: #B7873E;
+            }
+
             .formgrid > div
             {
-                grid-column: 3 / 4;
+                grid-column: 1 / 5;
                 width: auto;
                 margin: 0;
             }
