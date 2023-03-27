@@ -2146,9 +2146,6 @@ cd ${SELINUM_DRIVERSCRIPT_DIR}
 pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125 --disable=R0913 --disable=C0302 --disable=R0914  $SELINUM_DRIVERSCRIPT_FILENAME ; evaluateBuildResult 1 $? "Python linting for the Selenium script"
 
 
-
-
-
 # ###########################################################################
 #
 # The rest presumes the work folder is the current folder
@@ -2174,8 +2171,8 @@ sourceSpellcheck  4
 #
 #   2. Indentation rules (even number of spaces)
 #
-# Note: This is direct inspection of the PHP source code, ***not*** as
-#       run by a web serber (rendered HTML).
+# Note: This is direct inspection of the PHP source code, 
+#       ***not*** as run by a web serber (rendered HTML).
 #
 keyboardShortcutConsistencyCheck  EditOverflow.php          "Edit Overflow lookup"       5
 
