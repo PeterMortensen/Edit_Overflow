@@ -168,7 +168,11 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         someElement = self.browser.find_element_by_name(aFieldID)
         someValue = someElement.get_attribute("value")
 
-        self.assertEqual(someValue, anExpectedValue, anExplanation)
+        self.assertEqual(
+            someValue,
+            anExpectedValue,
+            f"{anExplanation}. Not equal: {someValue} != {anExpectedValue}"
+            )
 
 
     # Helper function for testing. Mostly for _setGeneralTextField()
@@ -757,16 +761,13 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             aURL, content_in_2, content_out_2, -1,
             "m", "The Markdown formatter result was bad!")
 
-    #Only a stub now. It is not used anywhere
-    # Helper function for testing the Edit Overflow link builder
-    # page.
+    # Helper function for testing the
+    # Edit Overflow link builder page.
     #
     # Notes:
     #
     #    1. We currently only test the output for the
     #       inline Markdown link.
-    #
-    #    2. XXX
     #
     def _linkBuild(self,
                    aURL,
