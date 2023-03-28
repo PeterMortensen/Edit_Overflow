@@ -2593,6 +2593,7 @@ namespace OverflowHelper.core
             correctionAdd("distributed version control system", "distributed revision control");
             correctionAdd("distributed revision control system", "distributed revision control");
             correctionAdd("Distributed revision control", "distributed revision control");
+            correctionAdd("SVC", "distributed revision control");
 
             correctionAdd("controll", "control");
             correctionAdd("contol", "control");
@@ -4177,6 +4178,7 @@ namespace OverflowHelper.core
             // A terminal program. Linux.
             correctionAdd("alacritty", "Alacritty");
             correctionAdd("Allacritty", "Alacritty");
+            correctionAdd("Allacrity", "Alacritty");
 
             // The Linux command
             correctionAdd("MOUNT", "mount");
@@ -23630,6 +23632,7 @@ namespace OverflowHelper.core
 
             correctionAdd("buld.gradle", "build.gradle");
             correctionAdd("buiild.gradle", "build.gradle");
+            correctionAdd("BUILD.GRADLE", "build.gradle");
 
             correctionAdd("gradlew", "Gradle Wrapper");
 
@@ -46515,6 +46518,7 @@ namespace OverflowHelper.core
             correctionAdd("aven", "even");
             correctionAdd("eben", "even");
             correctionAdd("Even", "even");
+            correctionAdd("event", "even");
 
             correctionAdd("narcistic", "narcissistic");
 
@@ -51527,6 +51531,7 @@ namespace OverflowHelper.core
 
             correctionAdd("considereable", "considerable");
 
+            // CSS
             correctionAdd("Grid-Column", "grid-column");
 
             correctionAdd("media query", "media queries");
@@ -51578,6 +51583,21 @@ namespace OverflowHelper.core
             correctionAdd("2nd Edition", "second edition");
 
             correctionAdd("wacom", "Wacom");
+
+            correctionAdd("excel 2013", "Excel 2013");
+
+            correctionAdd("ncrease", "increase");
+
+            correctionAdd("Max-width", "max-width");
+
+            correctionAdd("nifti", "nifty");
+
+            correctionAdd("s8", "Samsung Galaxy S8");
+
+            correctionAdd("PEP 328", "PEP&nbsp;328");
+
+            correctionAdd("PEP 366", "PEP&nbsp;366");
+            correctionAdd("366", "PEP&nbsp;366");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -80168,6 +80188,20 @@ namespace OverflowHelper.core
 
             URL_Add("Wacom", "https://en.wikipedia.org/wiki/Wacom");
 
+            URL_Add("Excel 2013", "https://en.wikipedia.org/wiki/Microsoft_Excel#Excel_2013_(v15.0)");
+
+            URL_Add("increase", "https://en.wiktionary.org/wiki/increase#Verb");
+
+            URL_Add("max-width", "https://developer.mozilla.org/en-US/docs/Web/CSS/max-width");
+
+            URL_Add("nifty", "https://en.wiktionary.org/wiki/nifty#Adjective");
+
+            URL_Add("Samsung Galaxy S8", "https://en.wikipedia.org/wiki/Samsung_Galaxy_S8");
+
+            URL_Add("PEP&nbsp;328", "https://peps.python.org/pep-0328/");
+
+            URL_Add("PEP&nbsp;366", "https://peps.python.org/pep-0366/");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -82321,6 +82355,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Edn_", "edition_");
 
+            correctionAdd("explanation_", "\"Explanation is vital for a good answer.\"_");
+
             // URL mappings
             //
             //
@@ -83531,6 +83567,8 @@ namespace OverflowHelper.core
             URL_Add("postscript_", "https://en.wiktionary.org/wiki/postscript#Noun");
 
             URL_Add("edition_", "https://en.wiktionary.org/wiki/edition#Noun");
+
+            URL_Add("\"Explanation is vital for a good answer.\"_", "https://meta.stackexchange.com/questions/258474/deal-with-famous-profiles-and-the-possibility-of-fakes/258475#258475");
 
         } //addLookupData_alternativeWordSet()
 
