@@ -4625,15 +4625,17 @@ namespace OverflowHelper.core
             correctionAdd("Samsung galaxy s7", "Samsung Galaxy S7");
             correctionAdd("Galaxy S7", "Samsung Galaxy S7");
 
-            // An Android phone
-            correctionAdd("Nexus 5X", "Nexus&nbsp;5X");
-            correctionAdd("nexus 5x", "Nexus&nbsp;5X");
+            correctionAdd("s8", "Samsung Galaxy S8");
 
             // An Android phone
             correctionAdd("Galaxy s10", "Galaxy S10");
 
             // Android phones
             correctionAdd("galaxy", "Samsung Galaxy S series");
+
+            // An Android phone
+            correctionAdd("Nexus 5X", "Nexus&nbsp;5X");
+            correctionAdd("nexus 5x", "Nexus&nbsp;5X");
 
             // Expansion, not case correction.
             correctionAdd("db", "database");
@@ -7371,6 +7373,11 @@ namespace OverflowHelper.core
             correctionAdd("pep 8", "PEP&nbsp;8");
             correctionAdd("PEP 0008", "PEP&nbsp;8");
 
+            correctionAdd("PEP 328", "PEP&nbsp;328");
+
+            correctionAdd("PEP 366", "PEP&nbsp;366");
+            correctionAdd("366", "PEP&nbsp;366");
+
             // Python
             correctionAdd("PEP 498", "PEP&nbsp;498"); // Sort of identity mapping
             correctionAdd("pep498", "PEP&nbsp;498");
@@ -8677,6 +8684,8 @@ namespace OverflowHelper.core
             correctionAdd("97", "Excel 97");
 
             correctionAdd("excel 2003", "Excel 2003");
+
+            correctionAdd("excel 2013", "Excel 2013");
 
             // A programming language
             correctionAdd("vba", "VBA");
@@ -27296,6 +27305,7 @@ namespace OverflowHelper.core
             correctionAdd("firth", "fifth");
 
             correctionAdd("greather", "greater");
+            correctionAdd("greeter", "greater");
 
             correctionAdd("induvidual", "individual");
 
@@ -29908,6 +29918,7 @@ namespace OverflowHelper.core
             correctionAdd("situtation", "situation");
             correctionAdd("Situation", "situation");
             correctionAdd("situatiuon", "situation");
+            correctionAdd("situ", "situation");
 
             correctionAdd("syle", "style");
             correctionAdd("sytle", "style");
@@ -30752,6 +30763,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Facade pattern", "facade pattern");
             correctionAdd("facade", "facade pattern");
+            correctionAdd("Facade", "facade pattern");
 
             correctionAdd("strategi pattern", "strategy pattern");
 
@@ -32462,6 +32474,8 @@ namespace OverflowHelper.core
             correctionAdd("cross-platfrom", "cross-platform");
             correctionAdd("Cross platform", "cross-platform");
             correctionAdd("crossplatfom", "cross-platform");
+            correctionAdd("cross-plat", "cross-platform");
+            correctionAdd("crossplat", "cross-platform");
 
             correctionAdd("plattform", "platform");
             correctionAdd("platoform", "platform");
@@ -33513,6 +33527,7 @@ namespace OverflowHelper.core
             correctionAdd("sceptisicm", "scepticism");
             correctionAdd("skepticism", "scepticism");
             correctionAdd("sceptisism", "scepticism");
+            correctionAdd("spekticism", "scepticism");
 
             correctionAdd("seperate the wheat from the chaff", "separate the wheat from the chaff");
             correctionAdd("the wheat from the chaff", "separate the wheat from the chaff");
@@ -51534,6 +51549,9 @@ namespace OverflowHelper.core
             // CSS
             correctionAdd("Grid-Column", "grid-column");
 
+            // CSS
+            correctionAdd("Max-width", "max-width");
+
             correctionAdd("media query", "media queries");
 
             correctionAdd("meta-character", "metacharacter");
@@ -51584,20 +51602,15 @@ namespace OverflowHelper.core
 
             correctionAdd("wacom", "Wacom");
 
-            correctionAdd("excel 2013", "Excel 2013");
-
             correctionAdd("ncrease", "increase");
-
-            correctionAdd("Max-width", "max-width");
 
             correctionAdd("nifti", "nifty");
 
-            correctionAdd("s8", "Samsung Galaxy S8");
+            correctionAdd("bean-counter", "bean counter");
+            correctionAdd("beancounter", "bean counter");
 
-            correctionAdd("PEP 328", "PEP&nbsp;328");
-
-            correctionAdd("PEP 366", "PEP&nbsp;366");
-            correctionAdd("366", "PEP&nbsp;366");
+            correctionAdd("lay person", "layperson");
+            correctionAdd("lay-person", "layperson");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -80201,6 +80214,10 @@ namespace OverflowHelper.core
             URL_Add("PEP&nbsp;328", "https://peps.python.org/pep-0328/");
 
             URL_Add("PEP&nbsp;366", "https://peps.python.org/pep-0366/");
+
+            URL_Add("bean counter", "https://en.wiktionary.org/wiki/bean_counter#Noun");
+
+            URL_Add("layperson", "https://en.wiktionary.org/wiki/layperson#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...

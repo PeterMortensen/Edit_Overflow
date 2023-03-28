@@ -376,8 +376,6 @@
                     $grammaticalWordClass = $replacer_g->currentString();
                 }
 
-                https://en.wiktionary.org/wiki/is#Verb
-
                 # Add to our built-up edit summary string (using
                 # the carried-over state and our new lookup)
 
