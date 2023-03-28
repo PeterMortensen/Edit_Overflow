@@ -38,11 +38,11 @@
               "",
               "3. Parameters are supported, including for GET:\n\n" .
                 $allIndent .
-                "<https://pmortensen.eu/world/Link_Builder.php?" . 
+                "<https://pmortensen.eu/world/Link_Builder.php?" .
                   "LinkText=CPU&" .
                   "URL=https://en.wikipedia.org/wiki/Central_processing_unit&OverflowStyle=Native>\n\n" .
                 $allIndent .
-                "<https://pmortensen.eu/world/Link_Builder.php?" . 
+                "<https://pmortensen.eu/world/Link_Builder.php?" .
                   "LinkText=CPU&" .
                   "URL=https://en.wikipedia.org/wiki/Central_processing_unit>\n\n"
             );
@@ -239,6 +239,8 @@
                     title="Shortcut: Shift + Alt + K"
                 />
 
+                <p></p>
+
                 <label for="URL"><u>U</u>RL</label>
                 <input
                     name="URL"
@@ -284,9 +286,12 @@
                 #}
                 ?>
 
+                <p></p>
 
                 <!-- **************************************************** -->
                 <h2>Output</h2>
+
+                <p></p>
 
                 <p></p>
 
@@ -304,6 +309,8 @@
                     title="Shortcut: Shift + Alt + T"
                 />
 
+                <p></p>
+
                 <label for="ShortMark_part1">Short Markdown, re<u>f</u>erence</label>
                 <input
                     name="ShortMark_part2"
@@ -316,6 +323,7 @@
                     title="Shortcut: Shift + Alt + F"
                 />
 
+                <p></p>
 
                 <label for="inlineMarkdown">Inline <u>M</u>arkdown</label>
                 <input
@@ -329,6 +337,7 @@
                     title="Shortcut: Shift + Alt + M"
                 />
 
+                <p></p>
 
                 <label for="HTML_link"><u>H</u>TML</label>
                 <input
@@ -347,6 +356,8 @@
                     title="Shortcut: Shift + Alt + H"
                 />
 
+                <p></p>
+
                 <label for="MediaWiki_link">M<u>e</u>diaWiki</label>
                 <input
                     name="MediaWiki_link"
@@ -359,6 +370,7 @@
                     title="Shortcut: Shift + Alt + E"
                 />
 
+                <p></p>
 
 
                 <!--  Hidden field, close to the output format for
@@ -394,6 +406,8 @@
                     title="Shortcut: Shift + Alt + R"
                 />
                 <label for="resetState"><u>R</u>eset lookup state</label>  <!-- The order matters! -->
+
+                <p></p>
 
 
                 <!--  Submit button  -->
