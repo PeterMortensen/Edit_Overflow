@@ -359,22 +359,10 @@
             # huge list (as of 2020-10-29, 14852 items)
             if ($correctTerm)
             {
-
                 # If the URL is a Wiktionary one, extract the
                 # (grammatical) word class and display it
                 # close to the correct word.
-                if (preg_match('/^https:\/\/en.wiktionary.org\/wiki\//', $URL) !== 0)
-                {
-                    # Example (without the brackets):
-                    #
-                    #   <https://en.wiktionary.org/wiki/doesn%27t#Verb>
-
-                    # $grammaticalWordClass = 'Is a Wiktionary URL...';
-                    $replacer_g = new StringReplacerWithRegex($URL);
-                    $replacer_g->transform(
-                      'https:\/\/en.wiktionary.org\/wiki\/.+#(.+)', '$1');
-                    $grammaticalWordClass = $replacer_g->currentString();
-                }
+                $grammaticalWordClass = extractGrammaticalWordClass($URL);
 
                 # Add to our built-up edit summary string (using
                 # the carried-over state and our new lookup)

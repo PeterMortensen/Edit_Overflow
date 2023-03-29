@@ -69,7 +69,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a707 2023-03-28T222731Z+0";
+        return "Edit Overflow v. 1.1.49a708 2023-03-29T000121Z+0";
     }
 
 
@@ -682,6 +682,45 @@
     } #WikiMedia_Link_External()
 
 
+    # If the URL is a Wiktionary one, extract the
+    # (grammatical) word class. Otherwise, return
+    # an empty string.
+    #
+    # Example:
+    #
+    #   Input
+    #
+    #     https://en.wiktionary.org/wiki/is#Verb
+    #
+    #   Output
+    #
+    #     Verb
+    #
+    function extractGrammaticalWordClass($aURL)
+    {
+        $toReturn = "";
+
+        # If the URL is a Wiktionary one, extract the
+        # (grammatical) word class and display it
+        # close to the correct word.
+        if (preg_match('/^https:\/\/en.wiktionary.org\/wiki\//', $aURL) !== 0)
+        {
+            # Example (without the brackets):
+            #
+            #   <https://en.wiktionary.org/wiki/doesn%27t#Verb>
+
+            # $grammaticalWordClass = 'Is a Wiktionary URL...';
+            $replacer_g = new StringReplacerWithRegex($aURL);
+            $replacer_g->transform(
+              'https:\/\/en.wiktionary.org\/wiki\/.+#(.+)', '$1');
+            $toReturn = $replacer_g->currentString();
+        }
+
+        return $toReturn;
+    } #extractGrammaticalWordClass()
+
+
+
     # Note that we are using the WordPress convention of name
     # prefixing functions (with "the_") that echo's.
     #
@@ -845,7 +884,7 @@
             .formgrid
             {
                 display: grid;
-                
+
                 /*                         Col1              Col2 Col3               Col4   */
                 /*  grid-template-columns: minmax(5%, 130px) 1em  2fr                minmax(5%, 350px); */
                 /*  grid-template-columns: minmax(5%, 200px) 1em  minmax(5%, 350px)  2fr; */
@@ -859,7 +898,7 @@
             }
 
             /* Column 3 is for the text (<label>) for the checkbox,
-               close to the narrow column 2.   */ 
+               close to the narrow column 2.   */
             input,
             output,
             textarea,
