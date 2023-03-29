@@ -26,10 +26,18 @@
 
             function alternativeLink($anIncorrectTerm,
                                       $aCorrectTerm,
-                                      $anID)
+                                      $anID,
+                                      $aSomeAnnotation)
             {
                 #$baseURL = "https://pmortensen.eu/world/EditOverflow.php";
                 $baseURL = "/world/EditOverflow.php?OverflowStyle=Native";
+
+                $extraText = "";
+                if ($aSomeAnnotation !== "")
+                {
+                    $extraText = " (" . strtolower($aSomeAnnotation) . ")";
+                }
+
                 return
                     "<a " .
                     "href=" .
@@ -37,7 +45,8 @@
                     urlencode($anIncorrectTerm) .
                     "\"" .
                     " id=\"$anID\"" .
-                    ">" . stripTrailingUnderscore($aCorrectTerm) . "</a>";
+                    ">" . stripTrailingUnderscore($aCorrectTerm) . "</a>" .
+                    $extraText;
             } #alternativeLink()
 
             function lookup($aPDO, $aLookupTerm)
@@ -328,11 +337,15 @@
             if ($correctTerm2 &&
                 ($correctTerm2 != $correctTerm)) # Only
             {
-                # Note: $URL2 is not used because we link to a ***new***
-                #       Edit Overflow page where the lookup will
-                #       take place and the URL be displayed...
+                # Note: $URL2 is not used as a link because we link to a
+                #       ***new*** Edit Overflow page where the lookup
+                #       will take place and the URL be displayed...
                 #
-                $alternative .= alternativeLink($incorrectTerm2, $correctTerm2, 1002);
+                $alternative .= alternativeLink(
+                                    $incorrectTerm2,
+                                    $correctTerm2,
+                                    1002,
+                                    extractGrammaticalWordClass($URL2));
             }
             if ($correctTerm3 &&
                 ($correctTerm3 != $correctTerm2))
@@ -345,7 +358,11 @@
                 #       Edit Overflow page where the lookup will
                 #       take place and the URL be displayed...
                 #
-                $alternative .= alternativeLink($incorrectTerm3, $correctTerm3, 1003);
+                $alternative .= alternativeLink(
+                                    $incorrectTerm3,
+                                    $correctTerm3,
+                                    1003,
+                                    extractGrammaticalWordClass($URL3));
             }
 
             # Encode for display, e.g. "&" as "&amp;" and "<" as "&lt;".
