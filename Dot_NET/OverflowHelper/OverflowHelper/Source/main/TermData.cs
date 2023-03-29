@@ -19928,6 +19928,7 @@ namespace OverflowHelper.core
             correctionAdd("JQuery Isotope", "jQuery&nbsp;Isotope");
             correctionAdd("isotope", "jQuery&nbsp;Isotope");
 
+            // Yes, I need to properly attribute/reference the "spacefaring" entry.
             correctionAdd("twitter", "Twitter");
             correctionAdd("tritter", "Twitter");
             correctionAdd("twittter", "Twitter");

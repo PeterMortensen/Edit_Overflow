@@ -69,7 +69,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.49a709 2023-03-29T115550Z+0";
+        return "Edit Overflow v. 1.1.49a710 2023-03-29T151556Z+0";
     }
 
 
@@ -711,14 +711,39 @@
 
             # $grammaticalWordClass = 'Is a Wiktionary URL...';
             $replacer_g = new StringReplacerWithRegex($aURL);
+
+            # Extract the HTML anchor part (e.g. "Prepositional_phrase")
             $replacer_g->transform(
               'https:\/\/en.wiktionary.org\/wiki\/.+#(.+)', '$1');
-            $toReturn = $replacer_g->currentString();
-        }
 
+            $anchor = $replacer_g->currentString();
+
+            # For now: Suppress output for those where the word class
+            #          is not in the URL (an alternative could be
+            #          exception list (mapping for a list of
+            #          correct words to the word class))
+            if (
+                ($anchor !== "Etymology")          &&
+                ($anchor !== "Etymology_1")        &&
+                ($anchor !== "Alternative_forms")  &&
+                ($anchor !== "Usage_notes")        &&
+                1)
+            {
+                # Replace underscores with a space
+                $replacer_g->transform('_', ' ');
+
+                # Remove numbers. Ideally only at the end, but we
+                # don't have any with numbers not at the end.
+                $replacer_g->transform('\d', '');
+
+                # Remove trailing space
+                $replacer_g->transform('\s+$', '');
+
+                $toReturn = $replacer_g->currentString();
+            }
+        }
         return $toReturn;
     } #extractGrammaticalWordClass()
-
 
 
     # Note that we are using the WordPress convention of name
