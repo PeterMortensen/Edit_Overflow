@@ -639,9 +639,6 @@
             function test_generateWikiMedia_Link(
                 $anID, $aSomeURL, $aSomeCorrectTerm, $anExpectedOutput)
             {
-                #Delete at any time
-                #$WikiLink = WikiMedia_Link("https://en.wikipedia.org/wiki/PHP", $aSomeCorrectTerm);
-
                 $WikiLink = WikiMedia_Link($aSomeURL, $aSomeCorrectTerm);
 
                 #print "<p>For $anID. Output: >>>$WikiLink<<<</p>";
@@ -649,6 +646,12 @@
 
                 if ($WikiLink !== $anExpectedOutput)
                 {
+                    # Note: Currently test failures are detected 
+                    #       by the output of this string 
+                    #       (without the quotes):
+                    #
+                    #           "Failed test. ID: "
+
                     echo "<br/><br/>\n";
                     echo
                       "Failed test. ID: $anID. " .
@@ -657,6 +660,35 @@
                     #assert(false);
                 }
             } #test_generateWikiMedia_Link()
+
+
+            # Helper function for testing
+            #
+            function test_extractGrammaticalWordClass(
+                $anID, $aSomeURL, $anExpectedOutput)
+            {
+                $wordClass = extractGrammaticalWordClass($aSomeURL);
+
+                #print "<p>For $anID. Output: >>>$WikiLink<<<</p>";
+                #print "<p>Some URL: >>>$aSomeURL<<</p>";
+                assert(false);
+
+                if ($wordClass !== $anExpectedOutput)
+                {
+                    # Note: Currently test failures are detected 
+                    #       by the output of this string 
+                    #       (without the quotes):
+                    #
+                    #           "Failed test. ID: "
+
+                    echo "<br/><br/>\n";
+                    echo
+                      "Failed test. ID: $anID. Extract grammatical word class. " .
+                      "The output, \"$wordClass\" is not as expected " .
+                      "(\"$anExpectedOutput\").\n";
+                    assert(false);
+                }
+            } #test_extractGrammaticalWordClass()
 
 
             # The main functionality of this page (one of various
@@ -1148,7 +1180,14 @@
             #
             test_removeTrailingSpacesAndTABs(1040, "<https", 0);
 
+            # Correct character count (e.g., that user
+            # input "<" is not counted as 4 ("&lt;")).
+            #
+            test_extractGrammaticalWordClass(
+              1041, "https://en.wiktionary.org/wiki/is#Verb", "Verb");
 
+            test_extractGrammaticalWordClass(
+              1042, "https://en.wikipedia.org/wiki/JavaScript", "");
 
             #test_generateWikiMedia_Link(1029, "https://en.wikipedia.org/wiki/Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards", "XXXXX", "[[Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards|Cherry MX]]");
             #For debugging
