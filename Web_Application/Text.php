@@ -646,8 +646,8 @@
 
                 if ($WikiLink !== $anExpectedOutput)
                 {
-                    # Note: Currently test failures are detected 
-                    #       by the output of this string 
+                    # Note: Currently test failures are detected
+                    #       by the output of this string
                     #       (without the quotes):
                     #
                     #           "Failed test. ID: "
@@ -674,8 +674,8 @@
 
                 if ($wordClass !== $anExpectedOutput)
                 {
-                    # Note: Currently test failures are detected 
-                    #       by the output of this string 
+                    # Note: Currently test failures are detected
+                    #       by the output of this string
                     #       (without the quotes):
                     #
                     #           "Failed test. ID: "
@@ -1187,6 +1187,22 @@
 
             test_extractGrammaticalWordClass(
               1042, "https://en.wikipedia.org/wiki/JavaScript", "");
+
+            test_extractGrammaticalWordClass(
+              1043, "https://en.wiktionary.org/wiki/google#Verb_2", "Verb");
+
+            # Underscore / space should not be removed if used as
+            # a separator of words
+            test_extractGrammaticalWordClass(
+              1044, "https://en.wiktionary.org/wiki/IMO#Prepositional_phrase", "Prepositional phrase");
+
+            # Test that we actually suppress some HTML anchors in the
+            # output. Those word entries do actually have a word
+            # class, but it is not in the URL.
+            #
+            test_extractGrammaticalWordClass(
+              1045, "https://en.wiktionary.org/wiki/PS#Alternative_forms", "");
+
 
             #test_generateWikiMedia_Link(1029, "https://en.wikipedia.org/wiki/Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards", "XXXXX", "[[Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards|Cherry MX]]");
             #For debugging
