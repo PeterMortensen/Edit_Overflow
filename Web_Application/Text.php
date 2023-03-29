@@ -671,7 +671,6 @@
 
                 #print "<p>For $anID. Output: >>>$WikiLink<<<</p>";
                 #print "<p>Some URL: >>>$aSomeURL<<</p>";
-                assert(false);
 
                 if ($wordClass !== $anExpectedOutput)
                 {
