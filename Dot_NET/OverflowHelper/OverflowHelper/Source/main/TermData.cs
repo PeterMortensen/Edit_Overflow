@@ -18214,6 +18214,7 @@ namespace OverflowHelper.core
             correctionAdd("Seperation", "separation");
 
             correctionAdd("framerate", "frame rate");
+            correctionAdd("Framerate", "frame rate");
 
             correctionAdd("iliterate", "illiterate");
             correctionAdd("Illiterate", "illiterate");
@@ -30272,6 +30273,7 @@ namespace OverflowHelper.core
 
             // In 'The Hitchhiker's Guide to the Galaxy'
             correctionAdd("leading theory", "a leading theory");
+            correctionAdd("a theory", "a leading theory");
 
             // Astronomy (though also featured in The Hitchhiker's Guide to the Galaxy)
             correctionAdd("ursa major", "Ursa Major");
@@ -44901,6 +44903,7 @@ namespace OverflowHelper.core
 
             correctionAdd("customized", "customised");
             correctionAdd("customizated", "customised");
+            correctionAdd("customed", "customised");
 
             correctionAdd("karoekee", "karaoke");
 
@@ -51611,6 +51614,9 @@ namespace OverflowHelper.core
 
             correctionAdd("lay person", "layperson");
             correctionAdd("lay-person", "layperson");
+
+            correctionAdd("bit rate", "bitrate");
+            correctionAdd("Bitrate", "bitrate");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -80219,6 +80225,8 @@ namespace OverflowHelper.core
 
             URL_Add("layperson", "https://en.wiktionary.org/wiki/layperson#Noun");
 
+            URL_Add("bitrate", "https://en.wiktionary.org/wiki/bitrate#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -82374,6 +82382,8 @@ namespace OverflowHelper.core
 
             correctionAdd("explanation_", "\"Explanation is vital for a good answer.\"_");
 
+            correctionAdd("2-step_", "two-step_");
+
             // URL mappings
             //
             //
@@ -83586,6 +83596,8 @@ namespace OverflowHelper.core
             URL_Add("edition_", "https://en.wiktionary.org/wiki/edition#Noun");
 
             URL_Add("\"Explanation is vital for a good answer.\"_", "https://meta.stackexchange.com/questions/258474/deal-with-famous-profiles-and-the-possibility-of-fakes/258475#258475");
+
+            URL_Add("two-step_", "https://en.wiktionary.org/wiki/two-step#Adjective");
 
         } //addLookupData_alternativeWordSet()
 
