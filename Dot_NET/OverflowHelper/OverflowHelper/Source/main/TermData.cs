@@ -1161,6 +1161,113 @@ namespace OverflowHelper.core
 
             correctionAdd("AWG", "arbitrary waveform generator");
 
+            correctionAdd("Electronics", "electronics");
+
+            // Electronics
+            correctionAdd("transitor", "transistor");
+            correctionAdd("Transistor", "transistor");
+
+            // Electronics
+            correctionAdd("BJT", "bipolar junction transistor");
+            correctionAdd("bip", "bipolar junction transistor");
+            correctionAdd("bjt", "bipolar junction transistor");
+
+            // BJT
+            correctionAdd("hfe", "DC current gain");
+            correctionAdd("hFE", "DC current gain");
+
+            // Electronics. BJT
+            correctionAdd("Early Effect", "Early effect");
+
+            // Electronics. BJT
+            correctionAdd("Ebers-Moll", "Ebers–Moll model");
+            correctionAdd("Ebbers Moll", "Ebers–Moll model");
+
+            // Electronics
+            correctionAdd("igbt", "IGBT");
+
+            // Electronics
+            correctionAdd("baker clamp", "Baker clamp");
+
+            correctionAdd("mosfet", "MOSFET");
+            correctionAdd("Mosfet", "MOSFET");
+
+            correctionAdd("P Channel mosfet", "p-channel MOSFET");
+            correctionAdd("PMOS", "p-channel MOSFET");
+            correctionAdd("pMOS", "p-channel MOSFET");
+            correctionAdd("Pch FET", "p-channel MOSFET");
+            correctionAdd("P-mos", "p-channel MOSFET");
+            correctionAdd("P mos", "p-channel MOSFET");
+            correctionAdd("P MOS", "p-channel MOSFET");
+            correctionAdd("P-Channel", "p-channel MOSFET");
+
+            correctionAdd("N-channel MOSFET", "n-channel MOSFET");
+            correctionAdd("N-Channel MOSFET", "n-channel MOSFET");
+            correctionAdd("Nch", "n-channel MOSFET");
+            correctionAdd("N channel", "n-channel MOSFET");
+            correctionAdd("N channel MOSFET", "n-channel MOSFET");
+            correctionAdd("N-Channel", "n-channel MOSFET");
+
+            correctionAdd("2N7000", "2N7000 (MOSFET)");
+
+            correctionAdd("Digital Electronics", "digital electronics");
+
+            // Electronics
+            correctionAdd("7400", "7400-series integrated circuits");
+
+            // Related to embedded systems and microcontrollers
+            correctionAdd("gpio", "GPIO");
+
+            // Electronics. Embedded systems / software
+            correctionAdd("icsp", "in-circuit serial programming");
+            correctionAdd("ICSP", "in-circuit serial programming");
+
+            // Electronics
+            correctionAdd("application-specific integrated circuit", "ASIC");
+            correctionAdd("asic", "ASIC");
+            correctionAdd("ASICs", "ASIC");
+            correctionAdd("Application-Specific Integrated Circuit", "ASIC");
+
+            // Electronics
+            correctionAdd("SOIC", "small outline integrated circuit");
+
+            // Electronics
+            correctionAdd("fpga", "FPGA");
+            correctionAdd("Fpga", "FPGA");
+            correctionAdd("Field Programmable Gate Array", "FPGA");
+            correctionAdd("field-programmable gate array", "FPGA");
+
+            // Electronics. FPGA.
+            correctionAdd("vhdl", "VHDL");
+
+            // Electronics. FPGA.
+            correctionAdd("verilog", "Verilog");
+
+            correctionAdd("systemverilog", "SystemVerilog");
+            correctionAdd("System Verilog", "SystemVerilog");
+            correctionAdd("system verilog", "SystemVerilog");
+            correctionAdd("system Verilog", "SystemVerilog");
+
+            // Related to FPGA (electronics. VHDL. Verilog)
+            correctionAdd("vunit", "VUnit");
+
+            // Related to FPGA (electronics. VHDL. Verilog)
+            correctionAdd("modelsim", "ModelSim");
+            correctionAdd("Modelsim", "ModelSim");
+
+            // Electronics
+            correctionAdd("Voltage", "voltage");
+            correctionAdd("coltage", "voltage");
+            correctionAdd("voltange", "voltage");
+
+            // Electronics
+            correctionAdd("amperage", "current");
+            correctionAdd("ampacity", "current");
+            correctionAdd("Current", "current");
+            correctionAdd("curent", "current");
+            correctionAdd("ctrrent", "current");
+
+            // Electronics
             correctionAdd("ohm's law", "Ohm's law");
             correctionAdd("Ohm law", "Ohm's law");
             correctionAdd("ohm law", "Ohm's law");
@@ -1172,11 +1279,81 @@ namespace OverflowHelper.core
             correctionAdd("ohms laws", "Ohm's law");
             correctionAdd("ohm's laws", "Ohm's law");
 
+            // Electronics
+            correctionAdd("resister", "resistor");
+            correctionAdd("resitor", "resistor");
+
+            // Electronics
+            correctionAdd("pullup", "pull-up resistor");
+            correctionAdd("pull up", "pull-up resistor");
+            correctionAdd("pullup resistor", "pull-up resistor");
+            correctionAdd("pull up resistor", "pull-up resistor");
+            correctionAdd("pull-up", "pull-up resistor");
+            correctionAdd("Pull-up", "pull-up resistor");
+
+            // Electronics
+            correctionAdd("pulldown", "pull-down resistor");
+            correctionAdd("pull down resistor", "pull-down resistor");
+
+            // Electronics
+            correctionAdd("Esr", "ESR");
+            correctionAdd("esr", "ESR");
+            correctionAdd("equivalent series resistance", "ESR");
+
+            // Electronics
+            correctionAdd("resistence", "resistance");
+
+            // Electronics
+            correctionAdd("photoresistor", "light-dependent resistor");
+            correctionAdd("LDR", "light-dependent resistor");
+
+            // Electronics
+            correctionAdd("cap", "capacitor");
+            correctionAdd("capasitor", "capacitor");
+            correctionAdd("Capcitors", "capacitor"); // Not 100% correct - plural and case.
+            correctionAdd("capcitors", "capacitor"); // Not 100% correct - plural.
+            correctionAdd("Capcitor", "capacitor");
+            correctionAdd("capcitor", "capacitor");
+            correctionAdd("Capacitor", "capacitor");
+            correctionAdd("Cap", "capacitor");
+
+            // Electronics
+            correctionAdd("cappacitive", "capacitive");
+            correctionAdd("capacitative", "capacitive");
+
+            // Electronics
+            correctionAdd("Capacitance", "capacitance");
+
+            // Electronics. Unit.
+            correctionAdd("microhenry", "µH");
+            correctionAdd("uH", "µH");
+
+            // Electronics. Relays and motors
+            correctionAdd("back emf", "back-EMF");
+            correctionAdd("back-emf", "back-EMF");
+            correctionAdd("back EMF", "back-EMF");
+
+            correctionAdd("relais", "relays");
+
+            // Electronics
+            correctionAdd("Reed switch", "reed switch");
+
+            // Electronics. Sensor.
+            correctionAdd("strain gage", "strain gauge");
+
+            correctionAdd("dc-dc converter", "DC-to-DC converter");
+            correctionAdd("dc/DC", "DC-to-DC converter");
+
             correctionAdd("De Morgans laws", "De Morgan's laws");
             correctionAdd("De Morgan's law", "De Morgan's laws");
 
-            // But it depends on context. E.g., there are other areas
-            // where it refers to, e.g., black-body radiation.
+            // Electronics
+            //
+            // Note: There some ambiguity when not qualified
+            //       by "circuit". Itt depends on context.
+            //       E.g., there are other areas where it
+            //       refers to, e.g., black-body radiation.
+            //
             correctionAdd("Kirchhoff's law", "Kirchhoff circuit laws");
             correctionAdd("Kirchoff's Law", "Kirchhoff circuit laws");
             correctionAdd("Kirkoff", "Kirchhoff circuit laws");
@@ -1208,6 +1385,12 @@ namespace OverflowHelper.core
             correctionAdd("Kirchhoffs Law", "Kirchhoff circuit laws");
             correctionAdd("Kirchhoff Circuit Laws", "Kirchhoff circuit laws");
 
+            // Electronics
+            correctionAdd("CCCS", "current-controlled current source");
+
+            // Electronics
+            correctionAdd("CCVS", "current-controlled voltage source");
+
             correctionAdd("Circuit", "circuit");
             correctionAdd("cicuit", "circuit");
             correctionAdd("cuircuit", "circuit");
@@ -1215,55 +1398,26 @@ namespace OverflowHelper.core
 
             correctionAdd("circutry", "circuitry");
 
-            // Electronics
-            correctionAdd("circuitdiagram", "circuit diagram");
-            correctionAdd("schematics", "circuit diagram");
-            correctionAdd("schematic", "circuit diagram");
-            correctionAdd("schemactics", "circuit diagram");
-
-            // Electronics. Embedded systems / software
-            correctionAdd("icsp", "in-circuit serial programming");
-            correctionAdd("ICSP", "in-circuit serial programming");
-
-            // Related to embedded systems and microcontrollers
-            correctionAdd("gpio", "GPIO");
-
-            // Electronics
-            correctionAdd("snubber", "snub circuit");
-            correctionAdd("Snubber", "snub circuit");
-
             // The noun. Electronics
             correctionAdd("short cirquit", "short circuit");
             correctionAdd("Short-cirquit", "short circuit");
             correctionAdd("short-cirquit", "short circuit");
 
             // Electronics
-            correctionAdd("7400", "7400-series integrated circuits");
+            correctionAdd("circuitdiagram", "circuit diagram");
+            correctionAdd("schematics", "circuit diagram");
+            correctionAdd("schematic", "circuit diagram");
+            correctionAdd("schemactics", "circuit diagram");
 
             // Electronics
-            correctionAdd("application-specific integrated circuit", "ASIC");
-            correctionAdd("asic", "ASIC");
-            correctionAdd("ASICs", "ASIC");
-            correctionAdd("Application-Specific Integrated Circuit", "ASIC");
-
-            // Electronics
-            correctionAdd("SOIC", "small outline integrated circuit");
-
-            // Electronics
-            correctionAdd("fpga", "FPGA");
-            correctionAdd("Fpga", "FPGA");
-            correctionAdd("Field Programmable Gate Array", "FPGA");
-            correctionAdd("field-programmable gate array", "FPGA");
+            correctionAdd("snubber", "snub circuit");
+            correctionAdd("Snubber", "snub circuit");
 
             // Electronics
             correctionAdd("TVS", "Transient voltage suppressor");
             correctionAdd("tvs", "Transient voltage suppressor");
 
             correctionAdd("tvs electronics", "TVS Electronics");
-
-            correctionAdd("Electronics", "electronics");
-
-            correctionAdd("Digital Electronics", "digital electronics");
 
             // Capacitors (electronics)
             correctionAdd("Niticon", "Nichicon");
@@ -1290,16 +1444,6 @@ namespace OverflowHelper.core
             //     Explains how it is actually used.
             //
             correctionAdd("JouleScope", "Joulescope");
-
-            // Electronics
-            correctionAdd("vhdl", "VHDL");
-
-            // Related to FPGA (electronics. VHDL. Verilog)
-            correctionAdd("vunit", "VUnit");
-
-            // Related to FPGA (electronics. VHDL. Verilog)
-            correctionAdd("modelsim", "ModelSim");
-            correctionAdd("Modelsim", "ModelSim");
 
             // Boolean
             correctionAdd("Short-cirquit evaluation", "short-circuit evaluation");
@@ -1981,6 +2125,7 @@ namespace OverflowHelper.core
 
             correctionAdd("lawsi", "lousy");
             correctionAdd("lawsy", "lousy");
+            correctionAdd("lowsy", "lousy");
 
             correctionAdd("slime", "SLIME");
 
@@ -5740,6 +5885,7 @@ namespace OverflowHelper.core
             correctionAdd("code snippets", "Stack Snippets");
             correctionAdd("SO Snippet", "Stack Snippets");
             correctionAdd("Stack Snippet", "Stack Snippets");
+            correctionAdd("Stack snippets", "Stack Snippets");
 
             // Of Stack Overflow.
             correctionAdd("Stack Editor", "Stacks Editor");
@@ -5896,6 +6042,18 @@ namespace OverflowHelper.core
 
             // Stack Overflow
             correctionAdd("explain downvotes", "Encouraging people to explain downvotes");
+
+            // Mostly related to Stack Overflow and Stack Exchange,
+            // but it is a general problem.
+            correctionAdd("meta", "meta talk");
+
+            // Stack Overflow
+            correctionAdd("NLN", "no longer needed");
+
+            // Stack Overflow
+            correctionAdd("roomba", "the Roomba");
+            correctionAdd("Roomba", "the Roomba");
+            correctionAdd("the roomba", "the Roomba");
 
             //  Start of Stack Exchange site list (not
             //  complete (only added on demand))
@@ -12080,6 +12238,7 @@ namespace OverflowHelper.core
             correctionAdd("TailwindCss", "Tailwind CSS");
             correctionAdd("Tailwind css", "Tailwind CSS");
             correctionAdd("TailwindCSS", "Tailwind CSS");
+            correctionAdd("Tailwind-CSS", "Tailwind CSS");
 
             correctionAdd("box-model", "CSS box model");
             correctionAdd("box model", "CSS box model");
@@ -12093,11 +12252,25 @@ namespace OverflowHelper.core
             correctionAdd("css comment", "CSS comments");
             correctionAdd("css comments", "CSS comments");
             correctionAdd("CSS comment character sequence", "CSS comments");
+            correctionAdd("comment character sequence", "CSS comments");
 
             correctionAdd("CSS validation", "W3C CSS validator");
 
             correctionAdd("scss", "SCSS");
             correctionAdd("Sassy CSS", "SCSS");
+
+            // CSS
+            correctionAdd("Grid-Column", "grid-column");
+
+            // CSS
+            correctionAdd("Max-width", "max-width");
+
+            // A meta tool: a framework to develop CSS tools
+            correctionAdd("POSTCSS", "PostCSS");
+            correctionAdd("postCSS", "PostCSS");
+
+            // A CSS linter
+            correctionAdd("stylelint", "Stylelint");
 
             correctionAdd("flexiblity", "flexibilty");
 
@@ -12564,6 +12737,7 @@ namespace OverflowHelper.core
 
             // C++
             correctionAdd("cpprefrence", "cppreference.com");
+            correctionAdd("cppreference", "cppreference.com");
 
             // C++
             correctionAdd("MSVC STL", "C++ Standard Library");
@@ -14936,6 +15110,7 @@ namespace OverflowHelper.core
             correctionAdd("madule", "module");
             correctionAdd("modual", "module");
             correctionAdd("moudule", "module");
+            correctionAdd("Module", "module");
 
             correctionAdd("o/p", "output"); // Can it be confused with "OP"?
             correctionAdd("ouptut", "output");
@@ -15278,6 +15453,7 @@ namespace OverflowHelper.core
             correctionAdd("Adobe Air", "Adobe AIR");
 
             correctionAdd("gatsby", "Gatsby");
+            correctionAdd("Gatsby.js", "Gatsby");
 
             correctionAdd("jruby", "JRuby");
 
@@ -16438,6 +16614,9 @@ namespace OverflowHelper.core
             correctionAdd("Megabits", "megabit");
 
             correctionAdd("btis", "bits");
+
+            correctionAdd("bit rate", "bitrate");
+            correctionAdd("Bitrate", "bitrate");
 
             correctionAdd("bit/s", "&nbsp;bit/s"); // Sort of identity mapping
             correctionAdd("bps", "&nbsp;bit/s"); // Different unit.
@@ -21719,9 +21898,6 @@ namespace OverflowHelper.core
             correctionAdd("bay area", "Bay Area");
             correctionAdd("Bay area", "Bay Area");
 
-            correctionAdd("mosfet", "MOSFET");
-            correctionAdd("Mosfet", "MOSFET");
-
             correctionAdd("heroku", "Heroku");
             correctionAdd("HEROKU", "Heroku");
 
@@ -22406,15 +22582,6 @@ namespace OverflowHelper.core
 
             correctionAdd("heart strings", "heartstrings");
 
-            correctionAdd("cap", "capacitor");
-            correctionAdd("capasitor", "capacitor");
-            correctionAdd("Capcitors", "capacitor"); // Not 100% correct - plural and case.
-            correctionAdd("capcitors", "capacitor"); // Not 100% correct - plural.
-            correctionAdd("Capcitor", "capacitor");
-            correctionAdd("capcitor", "capacitor");
-            correctionAdd("Capacitor", "capacitor");
-            correctionAdd("Cap", "capacitor");
-
             correctionAdd("ppl", "people");
             correctionAdd("peole", "people");
             correctionAdd("poeple", "people");
@@ -22439,10 +22606,6 @@ namespace OverflowHelper.core
             correctionAdd("Scart", "SCART");
 
             correctionAdd("guiminer", "GUIMiner");
-
-            correctionAdd("Esr", "ESR");
-            correctionAdd("esr", "ESR");
-            correctionAdd("equivalent series resistance", "ESR");
 
             correctionAdd("ctags", "Ctags");
 
@@ -23493,8 +23656,6 @@ namespace OverflowHelper.core
             correctionAdd("Berkeley DB", "Berkeley&nbsp;DB"); // Self (effectively)
             correctionAdd("BerekelyDB", "Berkeley&nbsp;DB");
 
-            correctionAdd("verilog", "Verilog");
-
             correctionAdd("isnt", "isn’t");
             correctionAdd("aint", "isn’t");
             correctionAdd("ain't", "isn’t");
@@ -24056,6 +24217,7 @@ namespace OverflowHelper.core
             correctionAdd("Golden Shield", "Golden Shield Project");
 
             correctionAdd("sub project", "subproject");
+            correctionAdd("sub-project", "subproject");
 
             correctionAdd("outdated answers", "outdated answers project");
 
@@ -24072,13 +24234,6 @@ namespace OverflowHelper.core
             correctionAdd("refferening", "referring");
 
             correctionAdd("DynamoDb", "DynamoDB");
-
-            correctionAdd("pullup", "pull-up resistor");
-            correctionAdd("pull up", "pull-up resistor");
-            correctionAdd("pullup resistor", "pull-up resistor");
-            correctionAdd("pull up resistor", "pull-up resistor");
-            correctionAdd("pull-up", "pull-up resistor");
-            correctionAdd("Pull-up", "pull-up resistor");
 
             correctionAdd("snmp", "SNMP");
 
@@ -24612,6 +24767,7 @@ namespace OverflowHelper.core
             correctionAdd("utils", "utilities");
             correctionAdd("utilties", "utilities");
             correctionAdd("utilies", "utilities");
+            correctionAdd("utitilies", "utilities");
 
             correctionAdd("util", "utility");
             correctionAdd("Utility", "utility");
@@ -24906,9 +25062,6 @@ namespace OverflowHelper.core
             correctionAdd("canadian", "Canadian");
 
             correctionAdd("persistant", "persistent");
-
-            correctionAdd("resister", "resistor");
-            correctionAdd("resitor", "resistor");
 
             correctionAdd("openjdk", "OpenJDK");
             correctionAdd("open_jdk", "OpenJDK");
@@ -26336,9 +26489,6 @@ namespace OverflowHelper.core
             correctionAdd("adhoc", "ad hoc");
             correctionAdd("ad-hoc", "ad hoc");
 
-            correctionAdd("cappacitive", "capacitive");
-            correctionAdd("capacitative", "capacitive");
-
             correctionAdd("coord", "coordinate");
             correctionAdd("co-ordinate", "coordinate");
             correctionAdd("co ordinate", "coordinate");
@@ -26553,12 +26703,6 @@ namespace OverflowHelper.core
 
             correctionAdd("bare bones", "bare-bones");
             correctionAdd("barebones", "bare-bones");
-
-            correctionAdd("amperage", "current");
-            correctionAdd("ampacity", "current");
-            correctionAdd("Current", "current");
-            correctionAdd("curent", "current");
-            correctionAdd("ctrrent", "current");
 
             correctionAdd("never-the-less", "nevertheless");
             correctionAdd("never the less", "nevertheless");
@@ -27346,6 +27490,7 @@ namespace OverflowHelper.core
             // Cross-platform UI library. Written in Dart.
             correctionAdd("flutter", "Flutter");
             correctionAdd("Fludder", "Flutter");
+            correctionAdd("futter", "Flutter");
 
             correctionAdd("flutter quill", "FlutterQuill");
             correctionAdd("Flutter Quill", "FlutterQuill");
@@ -27468,8 +27613,6 @@ namespace OverflowHelper.core
             correctionAdd("abilites", "abilities");
 
             correctionAdd("advetise", "advertise");
-
-            correctionAdd("Capacitance", "capacitance");
 
             correctionAdd("cost effective", "cost-effective");
 
@@ -28027,8 +28170,6 @@ namespace OverflowHelper.core
             correctionAdd("reccessive", "recessive");
             correctionAdd("Reccessive", "recessive");
 
-            correctionAdd("resistence", "resistance");
-
             correctionAdd("screenfull", "screenful");
 
             correctionAdd("simpel", "simple");
@@ -28088,22 +28229,6 @@ namespace OverflowHelper.core
             correctionAdd("monitazation", "monetisation");
 
             correctionAdd("on wards", "onwards");
-
-            correctionAdd("P Channel mosfet", "p-channel MOSFET");
-            correctionAdd("PMOS", "p-channel MOSFET");
-            correctionAdd("pMOS", "p-channel MOSFET");
-            correctionAdd("Pch FET", "p-channel MOSFET");
-            correctionAdd("P-mos", "p-channel MOSFET");
-            correctionAdd("P mos", "p-channel MOSFET");
-            correctionAdd("P MOS", "p-channel MOSFET");
-            correctionAdd("P-Channel", "p-channel MOSFET");
-
-            correctionAdd("N-channel MOSFET", "n-channel MOSFET");
-            correctionAdd("N-Channel MOSFET", "n-channel MOSFET");
-            correctionAdd("Nch", "n-channel MOSFET");
-            correctionAdd("N channel", "n-channel MOSFET");
-            correctionAdd("N channel MOSFET", "n-channel MOSFET");
-            correctionAdd("N-Channel", "n-channel MOSFET");
 
             correctionAdd("pro-bono", "pro bono");
 
@@ -29462,6 +29587,7 @@ namespace OverflowHelper.core
             correctionAdd("satellit", "satellite");
             correctionAdd("sat", "satellite");
             correctionAdd("SAT", "satellite");
+            correctionAdd("satelelite", "satellite");
 
             correctionAdd("slow down", "slowdown");
 
@@ -33208,10 +33334,6 @@ namespace OverflowHelper.core
             correctionAdd("unlinke", "unlike");
             correctionAdd("Unlinke", "unlike");
 
-            correctionAdd("Voltage", "voltage");
-            correctionAdd("coltage", "voltage");
-            correctionAdd("voltange", "voltage");
-
             correctionAdd("wuman", "woman");
 
             correctionAdd("Bw-trees", "B-tree");
@@ -33246,6 +33368,7 @@ namespace OverflowHelper.core
             correctionAdd("upgrage", "upgrade");
 
             correctionAdd("upgaded", "upgraded");
+            correctionAdd("upgrated", "upgraded");
 
             correctionAdd("alianate", "alienate");
 
@@ -35950,13 +36073,6 @@ namespace OverflowHelper.core
             correctionAdd("Lean", "lean");
             correctionAdd("LEAN", "lean");
 
-            correctionAdd("BJT", "bipolar junction transistor");
-            correctionAdd("bip", "bipolar junction transistor");
-            correctionAdd("bjt", "bipolar junction transistor");
-
-            correctionAdd("transitor", "transistor");
-            correctionAdd("Transistor", "transistor");
-
             correctionAdd("destructuring", "destructuring assignment");
             correctionAdd("destructing", "destructuring assignment"); // Proper words, but we actually saw it in this context.
             correctionAdd("destructure", "destructuring assignment");
@@ -36233,6 +36349,7 @@ namespace OverflowHelper.core
             correctionAdd("wad", "was");
             correctionAdd("waa", "was");
             correctionAdd("waqs", "was");
+            correctionAdd("whas", "was");
 
             correctionAdd("ipaas", "iPaaS");
 
@@ -37941,6 +38058,7 @@ namespace OverflowHelper.core
             correctionAdd("Coldblooded", "cold-blooded");
 
             correctionAdd("concider", "consider");
+            correctionAdd("conisder", "consider");
 
             correctionAdd("curtesea", "courtesy");
             correctionAdd("Courtesy", "courtesy");
@@ -38020,9 +38138,6 @@ namespace OverflowHelper.core
             correctionAdd("dumm", "dumb");
 
             correctionAdd("frontrunner", "front runner");
-
-            correctionAdd("pulldown", "pull-down resistor");
-            correctionAdd("pull down resistor", "pull-down resistor");
 
             correctionAdd("purschase", "purchase");
             correctionAdd("Pursache", "purchase");
@@ -38383,11 +38498,6 @@ namespace OverflowHelper.core
 
             correctionAdd("frase", "phrase");
 
-            correctionAdd("systemverilog", "SystemVerilog");
-            correctionAdd("System Verilog", "SystemVerilog");
-            correctionAdd("system verilog", "SystemVerilog");
-            correctionAdd("system Verilog", "SystemVerilog");
-
             correctionAdd("Vb", "Visual Basic"); // Expansion.
             correctionAdd("VB", "Visual Basic"); // Expansion. Conflict with VirtualBox.
             correctionAdd("visual basic", "Visual Basic");
@@ -38713,6 +38823,7 @@ namespace OverflowHelper.core
             correctionAdd("by purpose", "on purpose");
 
             correctionAdd("general purpose", "general-purpose");
+            correctionAdd("generall purpose", "general-purpose");
 
             correctionAdd("porpouse", "purpose");
             correctionAdd("porpuse", "purpose");
@@ -39347,10 +39458,6 @@ namespace OverflowHelper.core
             correctionAdd("night vision goggle", "NVG");
             correctionAdd("nvgs", "NVG");
             correctionAdd("nvg", "NVG");
-
-            correctionAdd("back emf", "back-EMF");
-            correctionAdd("back-emf", "back-EMF");
-            correctionAdd("back EMF", "back-EMF");
 
             correctionAdd("fit", "feet");
             correctionAdd("ft", "feet");
@@ -41590,9 +41697,6 @@ namespace OverflowHelper.core
             correctionAdd("Simplily", "simply");
             correctionAdd("simplily", "simply");
 
-            correctionAdd("microhenry", "µH");
-            correctionAdd("uH", "µH");
-
             correctionAdd("lwip", "LwIP");
             correctionAdd("LWIP", "LwIP");
 
@@ -43537,8 +43641,6 @@ namespace OverflowHelper.core
             correctionAdd("subequation", "sub-equation");
 
             correctionAdd("x/open", "X/Open");
-
-            correctionAdd("relais", "relays");
 
             correctionAdd("standardization", "standardisation");
             correctionAdd("standarization", "standardisation");
@@ -47565,13 +47667,6 @@ namespace OverflowHelper.core
 
             correctionAdd("earth-like", "earthlike");
 
-            correctionAdd("photoresistor", "light-dependent resistor");
-            correctionAdd("LDR", "light-dependent resistor");
-
-            correctionAdd("Reed switch", "reed switch");
-
-            correctionAdd("strain gage", "strain gauge");
-
             correctionAdd("anuga", "ANUGA");
 
             correctionAdd("Altera Quartus Prime", "Altera Quartus II");
@@ -48310,6 +48405,8 @@ namespace OverflowHelper.core
             correctionAdd("seven-segment", "seven-segment display");
             correctionAdd("7-segment", "seven-segment display");
             correctionAdd("7-segment display", "seven-segment display");
+            correctionAdd("7 segment", "seven-segment display");
+            correctionAdd("seven segment", "seven-segment display");
 
             correctionAdd("UIAUTOMATORVIEWER", "uiautomatorviewer");
 
@@ -48344,8 +48441,6 @@ namespace OverflowHelper.core
             correctionAdd("nice looking", "nice-looking");
 
             correctionAdd("Plot", "plot");
-
-            correctionAdd("2N7000", "2N7000 (MOSFET)");
 
             correctionAdd("armhf", "ARMv7");
 
@@ -49547,23 +49642,9 @@ namespace OverflowHelper.core
 
             correctionAdd("regurtating", "regurgitating");
 
-            correctionAdd("hfe", "DC current gain");
-            correctionAdd("hFE", "DC current gain");
-
-            correctionAdd("Early Effect", "Early effect");
-
-            correctionAdd("Ebers-Moll", "Ebers–Moll model");
-            correctionAdd("Ebbers Moll", "Ebers–Moll model");
-
-            correctionAdd("NLN", "no longer needed");
-
             correctionAdd("prosposal", "proposal");
             correctionAdd("Prosposal", "proposal");
             correctionAdd("propopal", "proposal");
-
-            correctionAdd("roomba", "the Roomba");
-            correctionAdd("Roomba", "the Roomba");
-            correctionAdd("the roomba", "the Roomba");
 
             correctionAdd("STeven Watanabe", "Steven Watanabe");
 
@@ -49890,9 +49971,6 @@ namespace OverflowHelper.core
 
             correctionAdd("with due respect", "with all due respect");
             correctionAdd("due respect", "with all due respect");
-
-            correctionAdd("dc-dc converter", "DC-to-DC converter");
-            correctionAdd("dc/DC", "DC-to-DC converter");
 
             correctionAdd("experimentign", "experimenting");
             correctionAdd("experimentingn", "experimenting");
@@ -50465,6 +50543,7 @@ namespace OverflowHelper.core
             correctionAdd("ANR", "application not responding");
 
             correctionAdd("CSCOPE", "cscope");
+            correctionAdd("Cscope", "cscope");
 
             correctionAdd("editorconfig", "EditorConfig");
             correctionAdd("Editor Config", "EditorConfig");
@@ -51550,12 +51629,6 @@ namespace OverflowHelper.core
 
             correctionAdd("considereable", "considerable");
 
-            // CSS
-            correctionAdd("Grid-Column", "grid-column");
-
-            // CSS
-            correctionAdd("Max-width", "max-width");
-
             correctionAdd("media query", "media queries");
 
             correctionAdd("meta-character", "metacharacter");
@@ -51616,8 +51689,23 @@ namespace OverflowHelper.core
             correctionAdd("lay person", "layperson");
             correctionAdd("lay-person", "layperson");
 
-            correctionAdd("bit rate", "bitrate");
-            correctionAdd("Bitrate", "bitrate");
+            correctionAdd("adj", "adjective");
+
+            correctionAdd("generall", "general");
+
+            correctionAdd("newegg", "Newegg");
+
+            correctionAdd("usuall", "usual");
+
+            correctionAdd("Anglicizations", "anglicizations");
+
+            correctionAdd("ach", "each");
+
+            correctionAdd("Indian-English", "Indian English");
+
+            correctionAdd("revet", "revert");
+
+            correctionAdd("sum up", "sum-up");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -80228,6 +80316,38 @@ namespace OverflowHelper.core
 
             URL_Add("bitrate", "https://en.wiktionary.org/wiki/bitrate#Noun");
 
+            URL_Add("adjective", "https://en.wiktionary.org/wiki/adjective#Noun");
+
+            URL_Add("Baker clamp", "https://en.wikipedia.org/wiki/Baker_clamp");
+
+            URL_Add("current-controlled current source", "https://en.wikipedia.org/wiki/Dependent_source#Classification");
+
+            URL_Add("current-controlled voltage source", "https://en.wikipedia.org/wiki/Dependent_source#Classification");
+
+            URL_Add("general", "https://en.wiktionary.org/wiki/general#Adjective");
+
+            URL_Add("IGBT", "https://en.wikipedia.org/wiki/Insulated-gate_bipolar_transistor");
+
+            URL_Add("meta talk", "https://meta.stackexchange.com/questions/179444/accept-an-edit-that-edited-noob-into-conventional-english/179447#comment543123_179444");
+
+            URL_Add("Newegg", "https://en.wikipedia.org/wiki/Newegg");
+
+            URL_Add("usual", "https://en.wiktionary.org/wiki/usual#Adjective");
+
+            URL_Add("anglicizations", "https://en.wiktionary.org/wiki/anglicization#Noun");
+
+            URL_Add("each", "https://en.wiktionary.org/wiki/each#Determiner");
+
+            URL_Add("Indian English", "https://en.wikipedia.org/wiki/Indian_English");
+
+            URL_Add("PostCSS", "https://en.wikipedia.org/wiki/PostCSS");
+
+            URL_Add("revert", "https://en.wiktionary.org/wiki/revert#Verb");
+
+            URL_Add("Stylelint", "https://stylelint.io/");
+
+            URL_Add("sum-up", "https://en.wiktionary.org/wiki/sum-up#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -82385,6 +82505,10 @@ namespace OverflowHelper.core
 
             correctionAdd("2-step_", "two-step_");
 
+            correctionAdd("FLex_", "Flex_");
+
+            correctionAdd("sorted_", "sorted out_");
+
             // URL mappings
             //
             //
@@ -83599,6 +83723,10 @@ namespace OverflowHelper.core
             URL_Add("\"Explanation is vital for a good answer.\"_", "https://meta.stackexchange.com/questions/258474/deal-with-famous-profiles-and-the-possibility-of-fakes/258475#258475");
 
             URL_Add("two-step_", "https://en.wiktionary.org/wiki/two-step#Adjective");
+
+            URL_Add("Flex_", "https://api.flutter.dev/flutter/widgets/Flex-class.html");
+
+            URL_Add("sorted out_", "https://en.wiktionary.org/wiki/sort_out#Verb");
 
         } //addLookupData_alternativeWordSet()
 
