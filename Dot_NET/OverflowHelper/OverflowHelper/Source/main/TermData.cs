@@ -1229,6 +1229,11 @@ namespace OverflowHelper.core
             correctionAdd("Application-Specific Integrated Circuit", "ASIC");
 
             // Electronics
+            correctionAdd("system-on-chip", "system on a chip");
+            correctionAdd("SoC", "system on a chip");
+            correctionAdd("system-on-a-chip", "system on a chip");
+
+            // Electronics
             correctionAdd("SOIC", "small outline integrated circuit");
 
             // Electronics
@@ -1260,12 +1265,36 @@ namespace OverflowHelper.core
             correctionAdd("coltage", "voltage");
             correctionAdd("voltange", "voltage");
 
+            correctionAdd("Volt", "volt");
+            correctionAdd("v", "volt");
+            correctionAdd("V", "volt"); // Not incorrect, but in order to lookup "V".
+            correctionAdd("Volts", "volt");
+            correctionAdd("volts", "volt");
+
             // Electronics
             correctionAdd("amperage", "current");
             correctionAdd("ampacity", "current");
             correctionAdd("Current", "current");
             correctionAdd("curent", "current");
             correctionAdd("ctrrent", "current");
+
+            // Electronics
+            correctionAdd("a", "ampere"); // Lots of ambiguity!!!
+            correctionAdd("A", "ampere"); // Not incorrect, just another form
+            correctionAdd("Amps", "ampere"); // Not incorrect, just another form
+            correctionAdd("amps", "ampere"); // Not incorrect, just another form
+            correctionAdd("amp", "ampere"); // Not incorrect, just another form
+            correctionAdd("Amp", "ampere"); // Not incorrect, just another form
+            correctionAdd("Ampere", "ampere");
+
+            // Electronics
+            correctionAdd("pawer", "power");
+            correctionAdd("pwer", "power");
+
+            // Electronics
+            correctionAdd("w", "watt"); // Lots of ambiguity!!!
+            correctionAdd("W", "watt"); // Not incorrect, just another form
+            correctionAdd("Watt", "watt");
 
             // Electronics
             correctionAdd("ohm's law", "Ohm's law");
@@ -1317,6 +1346,17 @@ namespace OverflowHelper.core
             correctionAdd("Capacitor", "capacitor");
             correctionAdd("Cap", "capacitor");
 
+            correctionAdd("Tant", "tantalum capacitor");
+            correctionAdd("Tantelum", "tantalum capacitor");
+            correctionAdd("tantelum", "tantalum capacitor");
+            correctionAdd("tantalum", "tantalum capacitor");
+
+            correctionAdd("NP0", "NP0 capacitor");
+            correctionAdd("NPO", "NP0 capacitor");
+
+            // Capacitors (electronics)
+            correctionAdd("Niticon", "Nichicon");
+
             // Electronics
             correctionAdd("cappacitive", "capacitive");
             correctionAdd("capacitative", "capacitive");
@@ -1337,6 +1377,13 @@ namespace OverflowHelper.core
 
             // Electronics
             correctionAdd("Reed switch", "reed switch");
+
+            // Electronics
+            correctionAdd("seven-segment", "seven-segment display");
+            correctionAdd("7-segment", "seven-segment display");
+            correctionAdd("7-segment display", "seven-segment display");
+            correctionAdd("7 segment", "seven-segment display");
+            correctionAdd("seven segment", "seven-segment display");
 
             // Electronics. Sensor.
             correctionAdd("strain gage", "strain gauge");
@@ -1419,9 +1466,6 @@ namespace OverflowHelper.core
 
             correctionAdd("tvs electronics", "TVS Electronics");
 
-            // Capacitors (electronics)
-            correctionAdd("Niticon", "Nichicon");
-
             // Electronics
             correctionAdd("thru-hole", "through-hole construction");
             correctionAdd("throughhole", "through-hole construction");
@@ -1457,6 +1501,14 @@ namespace OverflowHelper.core
             correctionAdd("Residual-current device", "residual-current device");
             correctionAdd("RCD", "residual-current device");
             correctionAdd("GFCI", "residual-current device");
+
+            // Science fiction. Film.
+            correctionAdd("Back to the Future", "flux capacitor");
+            correctionAdd("flux", "flux capacitor");
+            correctionAdd("1.21", "flux capacitor");
+            correctionAdd("gigawatts", "flux capacitor");
+            correctionAdd("giggawatts", "flux capacitor");
+            correctionAdd("1.21 GW", "flux capacitor");
 
             correctionAdd("newton raphson", "Newton–Raphson");
             correctionAdd("Newton's method", "Newton–Raphson");
@@ -1986,6 +2038,10 @@ namespace OverflowHelper.core
 
             // A Java chip (IC)
             correctionAdd("ajile", "Ajile");
+
+            // A software library. Java.
+            correctionAdd("rest-assured", "REST Assured");
+            correctionAdd("REST-assured", "REST Assured");
 
             correctionAdd("amazon", "Amazon DOT com"); // The name is actually Amazon.com, but we have reasons not to use something that looks like a URL...
             correctionAdd("Amazon", "Amazon DOT com");
@@ -6055,6 +6111,66 @@ namespace OverflowHelper.core
             correctionAdd("Roomba", "the Roomba");
             correctionAdd("the roomba", "the Roomba");
 
+            correctionAdd("english", "English");
+            correctionAdd("Englisch", "English");
+            correctionAdd("emglish", "English");
+            correctionAdd("Englis", "English");
+            correctionAdd("englisch", "English");
+
+            correctionAdd("non-english", "non-English");
+            correctionAdd("nonenglish", "non-English");
+            correctionAdd("Non English", "non-English");
+            correctionAdd("Non-English", "non-English");
+            correctionAdd("non English", "non-English");
+            correctionAdd("non english", "non-English");
+            correctionAdd("Non-english", "non-English");
+
+            correctionAdd("Indian-English", "Indian English");
+
+            // English
+            correctionAdd("esl", "ESL");
+
+            // English
+            correctionAdd("TOEFL", "Test of English as a Foreign Language");
+
+            correctionAdd("are belong to us", "broken English");
+            correctionAdd("belong to us", "broken English");
+
+            correctionAdd("dict", "dictionary");
+            correctionAdd("disctionary", "dictionary");
+            correctionAdd("dictinary", "dictionary");
+            correctionAdd("dictionare", "dictionary");
+            correctionAdd("dictionnary", "dictionary");
+            correctionAdd("Dictionary", "dictionary");
+            correctionAdd("Dectionary", "dictionary");
+            correctionAdd("dectionary", "dictionary");
+
+            // English
+            correctionAdd("CALD", "Cambridge Dictionary");
+            correctionAdd("Cambridge Advanced Learner's Dictionary", "Cambridge Dictionary");
+            correctionAdd("cambridge dictionary", "Cambridge Dictionary");
+
+            correctionAdd("Collins Dictionary", "Collins English Dictionary");
+            correctionAdd("collins dictionary", "Collins English Dictionary");
+
+            // English. India. Indian space.
+            correctionAdd("Wren & Martin", "High School English Grammar and Composition by Wren and Martin");
+            correctionAdd("wren and Martin", "High School English Grammar and Composition by Wren and Martin");
+            correctionAdd("Wren and Martin", "High School English Grammar and Composition by Wren and Martin");
+            correctionAdd("wren and martin", "High School English Grammar and Composition by Wren and Martin");
+
+            correctionAdd("doubt", "question (Indian English)");
+            correctionAdd("dout", "question (Indian English)");
+
+            correctionAdd("english man", "Englishman");
+
+            // English
+            correctionAdd("NGRAM", "n-gram");
+            correctionAdd("nGRAM", "n-gram");
+
+            // E.g. India
+            correctionAdd("Fatalism", "fatalism");
+
             //  Start of Stack Exchange site list (not
             //  complete (only added on demand))
             //
@@ -8884,6 +9000,12 @@ namespace OverflowHelper.core
 
             // A programming language
             correctionAdd("julia", "Julia");
+
+            // A programming language
+            correctionAdd("dart", "Dart");
+
+            // A programming language
+            correctionAdd("elm", "Elm");
 
             // A programming language
             correctionAdd("c", "C"); // Possible conflicts!!!
@@ -13280,22 +13402,6 @@ namespace OverflowHelper.core
             correctionAdd("oxbridge", "Oxbridge");
 
             correctionAdd("abriged", "abridged");
-
-            correctionAdd("dict", "dictionary");
-            correctionAdd("disctionary", "dictionary");
-            correctionAdd("dictinary", "dictionary");
-            correctionAdd("dictionare", "dictionary");
-            correctionAdd("dictionnary", "dictionary");
-            correctionAdd("Dictionary", "dictionary");
-            correctionAdd("Dectionary", "dictionary");
-            correctionAdd("dectionary", "dictionary");
-
-            correctionAdd("CALD", "Cambridge Dictionary");
-            correctionAdd("Cambridge Advanced Learner's Dictionary", "Cambridge Dictionary");
-            correctionAdd("cambridge dictionary", "Cambridge Dictionary");
-
-            correctionAdd("Collins Dictionary", "Collins English Dictionary");
-            correctionAdd("collins dictionary", "Collins English Dictionary");
 
             correctionAdd("US", "USA");
             correctionAdd("united states", "USA");
@@ -20804,6 +20910,21 @@ namespace OverflowHelper.core
             correctionAdd("arm", "ARM");
             correctionAdd("Arm", "ARM");
 
+            correctionAdd("cortex-m", "Cortex-M");
+            correctionAdd("Cortex-m", "Cortex-M");
+            correctionAdd("ARM Cortex M", "Cortex-M"); // Not 100% correct.
+            correctionAdd("Cortex M", "Cortex-M");
+            correctionAdd("ARM cortex-m", "Cortex-M");
+            correctionAdd("Arm Cortex", "Cortex-M");
+            correctionAdd("ARM Cortex", "Cortex-M");
+            correctionAdd("CORTEX-M", "Cortex-M");
+            correctionAdd("ARM Cortex-M", "Cortex-M");
+            correctionAdd("arm cortex", "Cortex-M");
+
+            correctionAdd("armhf", "ARMv7");
+
+            correctionAdd("armv8", "ARMv8");
+
             correctionAdd("n/w", "network");
             correctionAdd("Network", "network");
             correctionAdd("networc", "network");
@@ -22973,24 +23094,6 @@ namespace OverflowHelper.core
             correctionAdd("launchpad", "Launchpad");
             correctionAdd("LaunchPad", "Launchpad");
 
-            correctionAdd("Volt", "volt");
-            correctionAdd("v", "volt");
-            correctionAdd("V", "volt"); // Not incorrect, but in order to lookup "V".
-            correctionAdd("Volts", "volt");
-            correctionAdd("volts", "volt");
-
-            correctionAdd("a", "ampere"); // Lots of ambiguity!!!
-            correctionAdd("A", "ampere"); // Not incorrect, just another form
-            correctionAdd("Amps", "ampere"); // Not incorrect, just another form
-            correctionAdd("amps", "ampere"); // Not incorrect, just another form
-            correctionAdd("amp", "ampere"); // Not incorrect, just another form
-            correctionAdd("Amp", "ampere"); // Not incorrect, just another form
-            correctionAdd("Ampere", "ampere");
-
-            correctionAdd("w", "watt"); // Lots of ambiguity!!!
-            correctionAdd("W", "watt"); // Not incorrect, just another form
-            correctionAdd("Watt", "watt");
-
             correctionAdd("thunderbird", "Thunderbird");
             correctionAdd("thunterbird", "Thunderbird");
             correctionAdd("ThunderBird", "Thunderbird");
@@ -23553,11 +23656,6 @@ namespace OverflowHelper.core
 
             correctionAdd("grad", "graduate");
             correctionAdd("Graduate", "graduate");
-
-            correctionAdd("Tant", "tantalum capacitor");
-            correctionAdd("Tantelum", "tantalum capacitor");
-            correctionAdd("tantelum", "tantalum capacitor");
-            correctionAdd("tantalum", "tantalum capacitor");
 
             correctionAdd("necessaraily", "necessarily");
             correctionAdd("nessessarily", "necessarily");
@@ -24392,17 +24490,6 @@ namespace OverflowHelper.core
             correctionAdd("retreive", "retrieve");
             correctionAdd("Retrive", "retrieve");
             correctionAdd("reteive", "retrieve");
-
-            correctionAdd("cortex-m", "Cortex-M");
-            correctionAdd("Cortex-m", "Cortex-M");
-            correctionAdd("ARM Cortex M", "Cortex-M"); // Not 100% correct.
-            correctionAdd("Cortex M", "Cortex-M");
-            correctionAdd("ARM cortex-m", "Cortex-M");
-            correctionAdd("Arm Cortex", "Cortex-M");
-            correctionAdd("ARM Cortex", "Cortex-M");
-            correctionAdd("CORTEX-M", "Cortex-M");
-            correctionAdd("ARM Cortex-M", "Cortex-M");
-            correctionAdd("arm cortex", "Cortex-M");
 
             correctionAdd("sims", "seems");
             correctionAdd("seams", "seems");
@@ -26174,6 +26261,8 @@ namespace OverflowHelper.core
             correctionAdd("MSys", "MSYS");
             correctionAdd("msys", "MSYS");
             correctionAdd("Msys", "MSYS");
+
+            correctionAdd("msys2", "MSYS2");
 
             correctionAdd("scpi", "SCPI");
 
@@ -30206,14 +30295,19 @@ namespace OverflowHelper.core
             correctionAdd("blogger", "Blogger");
             correctionAdd("Bloggar", "Blogger");
 
+            correctionAdd("corse", "coarse");
+            correctionAdd("Corse", "coarse");
+
+            // HTML. Web
             correctionAdd("cors", "CORS");
             correctionAdd("Cross-Origin Resource Sharing", "CORS");
             correctionAdd("cross-origin resource sharing", "CORS");
             correctionAdd("Cors", "CORS");
 
-            correctionAdd("dart", "Dart");
-
-            correctionAdd("elm", "Elm");
+            // HTML. Web
+            correctionAdd("COEP", "cross-origin resource policy");
+            correctionAdd("CORP", "cross-origin resource policy");
+            correctionAdd("Cross-Origin Resource Policy", "cross-origin resource policy");
 
             correctionAdd("gtk#", "Gtk#");
 
@@ -33660,8 +33754,6 @@ namespace OverflowHelper.core
 
             correctionAdd("un-follow", "unfollow");
 
-            correctionAdd("esl", "ESL");
-
             correctionAdd("depriciation", "deprecation");
             correctionAdd("depreciation", "deprecation");
             correctionAdd("deprication", "deprecation");
@@ -35289,9 +35381,6 @@ namespace OverflowHelper.core
             correctionAdd("ading", "adding");
             correctionAdd("addind", "adding");
 
-            correctionAdd("corse", "coarse");
-            correctionAdd("Corse", "coarse");
-
             correctionAdd("intrest", "interest");
             correctionAdd("intererest", "interest");
 
@@ -36874,11 +36963,6 @@ namespace OverflowHelper.core
 
             correctionAdd("under performing", "underperforming");
 
-            correctionAdd("Wren & Martin", "High School English Grammar and Composition by Wren and Martin");
-            correctionAdd("wren and Martin", "High School English Grammar and Composition by Wren and Martin");
-            correctionAdd("Wren and Martin", "High School English Grammar and Composition by Wren and Martin");
-            correctionAdd("wren and martin", "High School English Grammar and Composition by Wren and Martin");
-
             correctionAdd("Mercator Projection", "Mercator projection");
 
             correctionAdd("moose", "Moose");
@@ -37750,9 +37834,6 @@ namespace OverflowHelper.core
             correctionAdd("non linear", "nonlinear");
 
             correctionAdd("pupulate", "populate");
-
-            correctionAdd("pawer", "power");
-            correctionAdd("pwer", "power");
 
             correctionAdd("realeised", "realised");
             correctionAdd("relaeiesd", "realised");
@@ -40353,10 +40434,6 @@ namespace OverflowHelper.core
 
             correctionAdd("inement", "imminent");
             correctionAdd("immenent", "imminent");
-
-            correctionAdd("english man", "Englishman");
-
-            correctionAdd("Fatalism", "fatalism");
 
             correctionAdd("foundering", "floundering");
 
@@ -47059,20 +47136,6 @@ namespace OverflowHelper.core
             correctionAdd("UE", "Unreal Engine");
             correctionAdd("Unreal", "Unreal Engine");
 
-            correctionAdd("english", "English");
-            correctionAdd("Englisch", "English");
-            correctionAdd("emglish", "English");
-            correctionAdd("Englis", "English");
-            correctionAdd("englisch", "English");
-
-            correctionAdd("non-english", "non-English");
-            correctionAdd("nonenglish", "non-English");
-            correctionAdd("Non English", "non-English");
-            correctionAdd("Non-English", "non-English");
-            correctionAdd("non English", "non-English");
-            correctionAdd("non english", "non-English");
-            correctionAdd("Non-english", "non-English");
-
             correctionAdd("LSBLK", "lsblk");
 
             correctionAdd("lsb", "LSB");
@@ -47322,8 +47385,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Tauri", "Tauri Studio");
             correctionAdd("tauri", "Tauri Studio");
-
-            correctionAdd("TOEFL", "Test of English as a Foreign Language");
 
             correctionAdd("double-precision floating point", "double-precision floating-point format");
 
@@ -48323,12 +48384,6 @@ namespace OverflowHelper.core
             correctionAdd("contextmenu", "context menu");
             correctionAdd("Context Menu", "context menu");
 
-            correctionAdd("doubt", "question (Indian English)");
-            correctionAdd("dout", "question (Indian English)");
-
-            correctionAdd("NGRAM", "n-gram");
-            correctionAdd("nGRAM", "n-gram");
-
             correctionAdd("non linearity", "nonlinearity");
 
             correctionAdd("vectorialy", "vectorially");
@@ -48402,20 +48457,11 @@ namespace OverflowHelper.core
 
             correctionAdd("qualifed", "qualified");
 
-            correctionAdd("seven-segment", "seven-segment display");
-            correctionAdd("7-segment", "seven-segment display");
-            correctionAdd("7-segment display", "seven-segment display");
-            correctionAdd("7 segment", "seven-segment display");
-            correctionAdd("seven segment", "seven-segment display");
-
             correctionAdd("UIAUTOMATORVIEWER", "uiautomatorviewer");
 
             correctionAdd("HCL", "HCL Notes");
 
             correctionAdd("hanami", "Hanami");
-
-            correctionAdd("NP0", "NP0 capacitor");
-            correctionAdd("NPO", "NP0 capacitor");
 
             correctionAdd("Unityscript", "UnityScript");
             correctionAdd("unityscript", "UnityScript");
@@ -48432,21 +48478,12 @@ namespace OverflowHelper.core
 
             correctionAdd("OCI", "Open Container Initiative");
 
-            correctionAdd("rest-assured", "REST Assured");
-            correctionAdd("REST-assured", "REST Assured");
-
             correctionAdd("MUSL", "musl");
             correctionAdd("Musl", "musl");
 
             correctionAdd("nice looking", "nice-looking");
 
             correctionAdd("Plot", "plot");
-
-            correctionAdd("armhf", "ARMv7");
-
-            correctionAdd("armv8", "ARMv8");
-
-            correctionAdd("msys2", "MSYS2");
 
             correctionAdd("roman empire", "Roman Empire");
 
@@ -48467,10 +48504,6 @@ namespace OverflowHelper.core
             correctionAdd("econimcal", "economical");
             correctionAdd("economcal", "economical");
 
-            correctionAdd("system-on-chip", "system on a chip");
-            correctionAdd("SoC", "system on a chip");
-            correctionAdd("system-on-a-chip", "system on a chip");
-
             correctionAdd("CNN", "convolutional neural network");
             correctionAdd("ConvNet", "convolutional neural network");
             correctionAdd("Convolutinal Neural Networks", "convolutional neural network");
@@ -48483,10 +48516,6 @@ namespace OverflowHelper.core
             correctionAdd("bouding", "bounding");
 
             correctionAdd("bouding box", "bounding box");
-
-            correctionAdd("COEP", "cross-origin resource policy");
-            correctionAdd("CORP", "cross-origin resource policy");
-            correctionAdd("Cross-Origin Resource Policy", "cross-origin resource policy");
 
             correctionAdd("discernable", "discernible");
 
@@ -48819,13 +48848,6 @@ namespace OverflowHelper.core
             correctionAdd("back of the envelope", "back-of-the-envelope");
 
             correctionAdd("common place", "commonplace");
-
-            correctionAdd("Back to the Future", "flux capacitor");
-            correctionAdd("flux", "flux capacitor");
-            correctionAdd("1.21", "flux capacitor");
-            correctionAdd("gigawatts", "flux capacitor");
-            correctionAdd("giggawatts", "flux capacitor");
-            correctionAdd("1.21 GW", "flux capacitor");
 
             correctionAdd("h/t", "hat tip");
 
@@ -50502,9 +50524,6 @@ namespace OverflowHelper.core
             correctionAdd("Ballerina lang", "Ballerina");
             correctionAdd("ballerina", "Ballerina");
 
-            correctionAdd("are belong to us", "broken English");
-            correctionAdd("belong to us", "broken English");
-
             correctionAdd("counter-checked", "counterchecked");
 
             correctionAdd("dissappointedly", "disappointedly");
@@ -51700,8 +51719,6 @@ namespace OverflowHelper.core
             correctionAdd("Anglicizations", "anglicizations");
 
             correctionAdd("ach", "each");
-
-            correctionAdd("Indian-English", "Indian English");
 
             correctionAdd("revet", "revert");
 
