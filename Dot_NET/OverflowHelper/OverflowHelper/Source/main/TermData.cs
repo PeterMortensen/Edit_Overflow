@@ -1161,6 +1161,11 @@ namespace OverflowHelper.core
 
             correctionAdd("AWG", "arbitrary waveform generator");
 
+            correctionAdd("dvice", "device");
+            correctionAdd("devise", "device");
+            correctionAdd("Device", "device");
+            correctionAdd("Devise", "device");
+
             correctionAdd("Electronics", "electronics");
 
             // Electronics
@@ -1209,6 +1214,9 @@ namespace OverflowHelper.core
             correctionAdd("N-Channel", "n-channel MOSFET");
 
             correctionAdd("2N7000", "2N7000 (MOSFET)");
+
+            // Electronics
+            correctionAdd("tl431", "TL431");
 
             correctionAdd("Digital Electronics", "digital electronics");
 
@@ -5171,6 +5179,7 @@ namespace OverflowHelper.core
             correctionAdd("wrtten", "written");
             correctionAdd("wfitten", "written");
             correctionAdd("writeen", "written");
+            correctionAdd("wrirtten", "written");
 
             correctionAdd("wright", "writeX");
 
@@ -5581,6 +5590,7 @@ namespace OverflowHelper.core
             correctionAdd("prj", "project");
             correctionAdd("Prject", "project");
             correctionAdd("procect", "project");
+            correctionAdd("projetc", "project");
 
             // A programming web site
             correctionAdd("cp", "The Code Project");
@@ -8580,6 +8590,13 @@ namespace OverflowHelper.core
             correctionAdd("yahoo!Answers", "Yahoo Answers");
             correctionAdd("yahoo! Answers", "Yahoo Answers");
 
+            // Yahoo Answers
+            correctionAdd("babby formed", "How Is Babby Formed?");
+            correctionAdd("babby", "How Is Babby Formed?");
+            correctionAdd("How is babby formed?", "How Is Babby Formed?");
+            correctionAdd("how is babby formed", "How Is Babby Formed?");
+            correctionAdd("How is babby formed", "How Is Babby Formed?");
+
             correctionAdd("Yahoo pipe", "Yahoo Pipes");
             correctionAdd("Pipes", "Yahoo Pipes");
             correctionAdd("Yahoo! Pipes", "Yahoo Pipes");
@@ -11494,6 +11511,7 @@ namespace OverflowHelper.core
             correctionAdd("hva", "have");
             correctionAdd("hane", "have");
             correctionAdd("hwne", "have");
+            correctionAdd("hae", "have");
 
             correctionAdd("havent", "haven’t");
             correctionAdd("havn't", "haven’t");
@@ -21322,10 +21340,6 @@ namespace OverflowHelper.core
             correctionAdd("Programmable Logic Devices", "programmable logic device");
             correctionAdd("PLD", "programmable logic device");
 
-            correctionAdd("dvice", "device");
-            correctionAdd("devise", "device");
-            correctionAdd("Device", "device");
-
             correctionAdd("Kies", "Samsung Kies");
             correctionAdd("kies", "Samsung Kies");
             correctionAdd("Samsung kies", "Samsung Kies");
@@ -26428,6 +26442,7 @@ namespace OverflowHelper.core
             correctionAdd("Checkout", "check out");
             correctionAdd("chack out", "check out");
             correctionAdd("checout", "check out");
+            correctionAdd("Check out", "check out");
 
             correctionAdd("prof", "professor");
             correctionAdd("Prof", "professor");
@@ -34021,6 +34036,7 @@ namespace OverflowHelper.core
             correctionAdd("Douglas Crowford", "Douglas Crockford");
 
             correctionAdd("grunt", "Grunt");
+            correctionAdd("gruntjs", "Grunt");
 
             correctionAdd("jshint", "JSHint");
 
@@ -34438,6 +34454,8 @@ namespace OverflowHelper.core
             correctionAdd("drop-down", "drop-down menu");
             correctionAdd("drop down", "drop-down menu");
             correctionAdd("drowndown", "drop-down menu");
+            correctionAdd("dopdowsn", "drop-down menu");
+            correctionAdd("dropdowsn", "drop-down menu");
 
             correctionAdd("FreeCodeCamp", "freeCodeCamp");
             correctionAdd("Free code camp", "freeCodeCamp");
@@ -42982,6 +43000,9 @@ namespace OverflowHelper.core
 
             correctionAdd("un-commenting", "uncommenting");
 
+            correctionAdd("commeting", "commenting");
+            correctionAdd("comenting", "commenting");
+
             correctionAdd("acumulate", "accumulate");
 
             correctionAdd("deted", "deleted");
@@ -44809,11 +44830,6 @@ namespace OverflowHelper.core
 
             correctionAdd("cunningham's law", "Cunningham's Law");
 
-            correctionAdd("babby formed", "How Is Babby Formed?");
-            correctionAdd("babby", "How Is Babby Formed?");
-            correctionAdd("How is babby formed?", "How Is Babby Formed?");
-            correctionAdd("how is babby formed", "How Is Babby Formed?");
-
             correctionAdd("Thomson", "J. J. Thomson");
 
             correctionAdd("qtile", "Qtile");
@@ -45098,8 +45114,6 @@ namespace OverflowHelper.core
 
             correctionAdd("WHYT", "What have you tried?");
             correctionAdd("What you tried?", "What have you tried?");
-
-            correctionAdd("commeting", "commenting");
 
             correctionAdd("endeless", "endless");
             correctionAdd("Endeless", "endless");
@@ -80365,6 +80379,8 @@ namespace OverflowHelper.core
 
             URL_Add("sum-up", "https://en.wiktionary.org/wiki/sum-up#Noun");
 
+            URL_Add("TL431", "https://en.wikipedia.org/wiki/TL431");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -82526,6 +82542,8 @@ namespace OverflowHelper.core
 
             correctionAdd("sorted_", "sorted out_");
 
+            correctionAdd("dist_", "distributable_");
+
             // URL mappings
             //
             //
@@ -83744,6 +83762,8 @@ namespace OverflowHelper.core
             URL_Add("Flex_", "https://api.flutter.dev/flutter/widgets/Flex-class.html");
 
             URL_Add("sorted out_", "https://en.wiktionary.org/wiki/sort_out#Verb");
+
+            URL_Add("distributable_", "https://stackoverflow.com/questions/22842691/what-is-the-meaning-of-the-dist-directory-in-open-source-projects/33051731#33051731");
 
         } //addLookupData_alternativeWordSet()
 
