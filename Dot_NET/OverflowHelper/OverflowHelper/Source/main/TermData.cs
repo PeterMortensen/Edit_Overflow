@@ -1916,6 +1916,134 @@ namespace OverflowHelper.core
             // A Subversion client
             correctionAdd("SyncrhoSVN", "Syncro SVN Client");
 
+            correctionAdd("lang", "language");
+            correctionAdd("langauge", "language");
+            correctionAdd("lanuguage", "language");
+            correctionAdd("languade", "language");
+            correctionAdd("langugae", "language");
+            correctionAdd("langue", "language");
+            correctionAdd("langage", "language");
+            correctionAdd("languague", "language");
+            correctionAdd("launguage", "language");
+            correctionAdd("lanuage", "language");
+            correctionAdd("lannguage", "language");
+            correctionAdd("lanugage", "language");
+            correctionAdd("lanague", "language");
+            correctionAdd("languaje", "language");
+            correctionAdd("languange", "language");
+            correctionAdd("languge", "language");
+            correctionAdd("languates", "language"); // Not 100% correct - plural.
+            correctionAdd("languaes", "language"); // Not 100% correct - plural.
+            correctionAdd("languages", "language"); // Not 100% correct - plural.
+            correctionAdd("languae", "language");
+            correctionAdd("lenguaje", "language");
+            correctionAdd("lenguage", "language");
+            correctionAdd("launagues", "language"); // Not 100% correct - plural.
+            correctionAdd("lanagues", "language"); // Not 100% correct - plural.
+            correctionAdd("langaues", "language"); // Not 100% correct - plural.
+            correctionAdd("launague", "language");
+            correctionAdd("lenguages", "language");
+
+            correctionAdd("Language", "programming language");
+            correctionAdd("Programming Language", "programming language");
+            correctionAdd("prog lang", "programming language");
+            correctionAdd("proglang", "programming language");
+            correctionAdd("Programming language", "programming language");
+
+            correctionAdd("HLL", "high-level programming language");
+            correctionAdd("High level language", "high-level programming language");
+            correctionAdd("high level language", "high-level programming language");
+            correctionAdd("high-level language", "high-level programming language");
+
+            correctionAdd("curly-brace programming language", "curly-bracket programming language");
+            correctionAdd("bracket language", "curly-bracket programming language");
+
+            correctionAdd("Asm", "assembly language");
+            correctionAdd("asm", "assembly language");
+            correctionAdd("ASM", "assembly language");
+            correctionAdd("assembly", "assembly language");
+            correctionAdd("Assembly", "assembly language");
+            correctionAdd("Assembler", "assembly language");
+            correctionAdd("assembler", "assembly language");
+            correctionAdd("assmebly", "assembly language");
+            correctionAdd("Assembly language", "assembly language");
+            correctionAdd("ASSEMBLER", "assembly language");
+            correctionAdd("assemble-language", "assembly language");
+            correctionAdd("assemble language", "assembly language");
+            correctionAdd("assebmly", "assembly language");
+            correctionAdd("assember", "assembly language");
+
+            correctionAdd("DSL", "domain-specific language");
+            correctionAdd("dsl", "domain-specific language");
+            correctionAdd("Domain Specific Language", "domain-specific language");
+            correctionAdd("domain specific language", "domain-specific language");
+            correctionAdd("specific domain language", "domain-specific language");
+            correctionAdd("Dsl", "domain-specific language");
+            correctionAdd("Domain specific language", "domain-specific language");
+            correctionAdd("domain-specific-language", "domain-specific language");
+
+            correctionAdd("EL", "Expression Language");
+
+            correctionAdd("english", "English");
+            correctionAdd("Englisch", "English");
+            correctionAdd("emglish", "English");
+            correctionAdd("Englis", "English");
+            correctionAdd("englisch", "English");
+
+            correctionAdd("non-english", "non-English");
+            correctionAdd("nonenglish", "non-English");
+            correctionAdd("Non English", "non-English");
+            correctionAdd("Non-English", "non-English");
+            correctionAdd("non English", "non-English");
+            correctionAdd("non english", "non-English");
+            correctionAdd("Non-english", "non-English");
+
+            correctionAdd("Indian-English", "Indian English");
+
+            // English
+            correctionAdd("esl", "ESL");
+
+            // English
+            correctionAdd("TOEFL", "Test of English as a Foreign Language");
+
+            correctionAdd("are belong to us", "broken English");
+            correctionAdd("belong to us", "broken English");
+
+            correctionAdd("dict", "dictionary");
+            correctionAdd("disctionary", "dictionary");
+            correctionAdd("dictinary", "dictionary");
+            correctionAdd("dictionare", "dictionary");
+            correctionAdd("dictionnary", "dictionary");
+            correctionAdd("Dictionary", "dictionary");
+            correctionAdd("Dectionary", "dictionary");
+            correctionAdd("dectionary", "dictionary");
+
+            // English
+            correctionAdd("CALD", "Cambridge Dictionary");
+            correctionAdd("Cambridge Advanced Learner's Dictionary", "Cambridge Dictionary");
+            correctionAdd("cambridge dictionary", "Cambridge Dictionary");
+
+            correctionAdd("Collins Dictionary", "Collins English Dictionary");
+            correctionAdd("collins dictionary", "Collins English Dictionary");
+
+            // English. India. Indian space.
+            correctionAdd("Wren & Martin", "High School English Grammar and Composition by Wren and Martin");
+            correctionAdd("wren and Martin", "High School English Grammar and Composition by Wren and Martin");
+            correctionAdd("Wren and Martin", "High School English Grammar and Composition by Wren and Martin");
+            correctionAdd("wren and martin", "High School English Grammar and Composition by Wren and Martin");
+
+            correctionAdd("doubt", "question (Indian English)");
+            correctionAdd("dout", "question (Indian English)");
+
+            correctionAdd("english man", "Englishman");
+
+            // English
+            correctionAdd("NGRAM", "n-gram");
+            correctionAdd("nGRAM", "n-gram");
+
+            // E.g. India
+            correctionAdd("Fatalism", "fatalism");
+
             correctionAdd("java", "Java");
             correctionAdd("JAVA", "Java");
             correctionAdd("Jave", "Java");
@@ -2266,15 +2394,6 @@ namespace OverflowHelper.core
 
             correctionAdd("mime", "MIME");
             correctionAdd("Mime", "MIME");
-
-            correctionAdd("DSL", "domain-specific language");
-            correctionAdd("dsl", "domain-specific language");
-            correctionAdd("Domain Specific Language", "domain-specific language");
-            correctionAdd("domain specific language", "domain-specific language");
-            correctionAdd("specific domain language", "domain-specific language");
-            correctionAdd("Dsl", "domain-specific language");
-            correctionAdd("Domain specific language", "domain-specific language");
-            correctionAdd("domain-specific-language", "domain-specific language");
 
             correctionAdd("DDD", "domain-driven design"); // Expansion.
             correctionAdd("Domain Driven Design", "domain-driven design");
@@ -6358,66 +6477,6 @@ namespace OverflowHelper.core
             correctionAdd("6 to 8", "6 - 8 weeks");
             correctionAdd("6-8 weeks", "6 - 8 weeks");
 
-            correctionAdd("english", "English");
-            correctionAdd("Englisch", "English");
-            correctionAdd("emglish", "English");
-            correctionAdd("Englis", "English");
-            correctionAdd("englisch", "English");
-
-            correctionAdd("non-english", "non-English");
-            correctionAdd("nonenglish", "non-English");
-            correctionAdd("Non English", "non-English");
-            correctionAdd("Non-English", "non-English");
-            correctionAdd("non English", "non-English");
-            correctionAdd("non english", "non-English");
-            correctionAdd("Non-english", "non-English");
-
-            correctionAdd("Indian-English", "Indian English");
-
-            // English
-            correctionAdd("esl", "ESL");
-
-            // English
-            correctionAdd("TOEFL", "Test of English as a Foreign Language");
-
-            correctionAdd("are belong to us", "broken English");
-            correctionAdd("belong to us", "broken English");
-
-            correctionAdd("dict", "dictionary");
-            correctionAdd("disctionary", "dictionary");
-            correctionAdd("dictinary", "dictionary");
-            correctionAdd("dictionare", "dictionary");
-            correctionAdd("dictionnary", "dictionary");
-            correctionAdd("Dictionary", "dictionary");
-            correctionAdd("Dectionary", "dictionary");
-            correctionAdd("dectionary", "dictionary");
-
-            // English
-            correctionAdd("CALD", "Cambridge Dictionary");
-            correctionAdd("Cambridge Advanced Learner's Dictionary", "Cambridge Dictionary");
-            correctionAdd("cambridge dictionary", "Cambridge Dictionary");
-
-            correctionAdd("Collins Dictionary", "Collins English Dictionary");
-            correctionAdd("collins dictionary", "Collins English Dictionary");
-
-            // English. India. Indian space.
-            correctionAdd("Wren & Martin", "High School English Grammar and Composition by Wren and Martin");
-            correctionAdd("wren and Martin", "High School English Grammar and Composition by Wren and Martin");
-            correctionAdd("Wren and Martin", "High School English Grammar and Composition by Wren and Martin");
-            correctionAdd("wren and martin", "High School English Grammar and Composition by Wren and Martin");
-
-            correctionAdd("doubt", "question (Indian English)");
-            correctionAdd("dout", "question (Indian English)");
-
-            correctionAdd("english man", "Englishman");
-
-            // English
-            correctionAdd("NGRAM", "n-gram");
-            correctionAdd("nGRAM", "n-gram");
-
-            // E.g. India
-            correctionAdd("Fatalism", "fatalism");
-
             //  Start of Stack Exchange site list (not
             //  complete (only added on demand))
             //
@@ -9070,20 +9129,6 @@ namespace OverflowHelper.core
             correctionAdd("virtious cycle", "virtuous circle");
 
             correctionAdd("VATSIM", "Virtual Air Traffic Simulation Network");
-
-            correctionAdd("Language", "programming language");
-            correctionAdd("Programming Language", "programming language");
-            correctionAdd("prog lang", "programming language");
-            correctionAdd("proglang", "programming language");
-            correctionAdd("Programming language", "programming language");
-
-            correctionAdd("HLL", "high-level programming language");
-            correctionAdd("High level language", "high-level programming language");
-            correctionAdd("high level language", "high-level programming language");
-            correctionAdd("high-level language", "high-level programming language");
-
-            correctionAdd("curly-brace programming language", "curly-bracket programming language");
-            correctionAdd("bracket language", "curly-bracket programming language");
 
             // A programming language
             correctionAdd("f#", "F#");
@@ -24499,6 +24544,7 @@ namespace OverflowHelper.core
             correctionAdd("reciving", "receiving");
             correctionAdd("receiveing", "receiving");
             correctionAdd("receving", "receiving");
+            correctionAdd("recivieng", "receiving");
 
             correctionAdd("recieve", "receive");
             correctionAdd("recive", "receive");
@@ -36121,52 +36167,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Word of Mouth", "word of mouth");
 
-            correctionAdd("EL", "Expression Language");
-
-            correctionAdd("Asm", "assembly language");
-            correctionAdd("asm", "assembly language");
-            correctionAdd("ASM", "assembly language");
-            correctionAdd("assembly", "assembly language");
-            correctionAdd("Assembly", "assembly language");
-            correctionAdd("Assembler", "assembly language");
-            correctionAdd("assembler", "assembly language");
-            correctionAdd("assmebly", "assembly language");
-            correctionAdd("Assembly language", "assembly language");
-            correctionAdd("ASSEMBLER", "assembly language");
-            correctionAdd("assemble-language", "assembly language");
-            correctionAdd("assemble language", "assembly language");
-            correctionAdd("assebmly", "assembly language");
-            correctionAdd("assember", "assembly language");
-
             correctionAdd("Egyptian braces", "Egyptian brackets"); // That is, K&R style
             correctionAdd("Egyptian Brackets", "Egyptian brackets"); // That is, K&R style
-
-            correctionAdd("lang", "language");
-            correctionAdd("langauge", "language");
-            correctionAdd("lanuguage", "language");
-            correctionAdd("languade", "language");
-            correctionAdd("langugae", "language");
-            correctionAdd("langue", "language");
-            correctionAdd("langage", "language");
-            correctionAdd("languague", "language");
-            correctionAdd("launguage", "language");
-            correctionAdd("lanuage", "language");
-            correctionAdd("lannguage", "language");
-            correctionAdd("lanugage", "language");
-            correctionAdd("lanague", "language");
-            correctionAdd("languaje", "language");
-            correctionAdd("languange", "language");
-            correctionAdd("languge", "language");
-            correctionAdd("languates", "language"); // Not 100% correct - plural.
-            correctionAdd("languaes", "language"); // Not 100% correct - plural.
-            correctionAdd("languages", "language"); // Not 100% correct - plural.
-            correctionAdd("languae", "language");
-            correctionAdd("lenguaje", "language");
-            correctionAdd("lenguage", "language");
-            correctionAdd("launagues", "language"); // Not 100% correct - plural.
-            correctionAdd("lanagues", "language"); // Not 100% correct - plural.
-            correctionAdd("langaues", "language"); // Not 100% correct - plural.
-            correctionAdd("launague", "language");
 
             correctionAdd("URL-shortening", "URL shortening");
 
@@ -51822,6 +51824,7 @@ namespace OverflowHelper.core
 
             correctionAdd("admob", "AdMob");
 
+            // Windows. NTFS.
             correctionAdd("resource fork on Windows", "alternate data stream");
             correctionAdd("ADS", "alternate data stream");
             correctionAdd("Alternate Data Stream", "alternate data stream");
@@ -51845,7 +51848,7 @@ namespace OverflowHelper.core
             correctionAdd("ROC", "receiver operating characteristic");
 
             // Alternative URL: <https://twitter.com/ArweaveEco>
-            // 
+            //
             correctionAdd("arweave", "Arweave");
 
             correctionAdd("automaticated", "automated");
@@ -51885,6 +51888,10 @@ namespace OverflowHelper.core
 
             correctionAdd("on the short run", "in the short run");
             correctionAdd("On the short run", "in the short run");
+
+            correctionAdd("Paas", "PaaS");
+
+            correctionAdd("far as", "as far as");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -80585,6 +80592,10 @@ namespace OverflowHelper.core
 
             URL_Add("in the short run", "https://en.wiktionary.org/wiki/in_the_short_run#Prepositional_phrase");
 
+            URL_Add("PaaS", "https://en.wikipedia.org/wiki/Platform_as_a_service");
+
+            URL_Add("as far as", "https://en.wiktionary.org/wiki/as_far_as#Conjunction");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -82750,7 +82761,11 @@ namespace OverflowHelper.core
 
             correctionAdd("dist_", "distributable_");
 
-            correctionAdd("speedup _", "speed up_");
+            correctionAdd("[tag:css]_", "CSS (tag wiki)_");
+            correctionAdd("css_", "CSS (tag wiki)_");
+            correctionAdd("CSS_", "CSS (tag wiki)_");
+
+            correctionAdd("speedup_", "speed up_");
 
             // URL mappings
             //
@@ -83974,6 +83989,8 @@ namespace OverflowHelper.core
             URL_Add("distributable_", "https://stackoverflow.com/questions/22842691/what-is-the-meaning-of-the-dist-directory-in-open-source-projects/33051731#33051731");
 
             URL_Add("speed up_", "https://en.wiktionary.org/wiki/speed_up#Verb");
+
+            URL_Add("CSS (tag wiki)_", "https://stackoverflow.com/questions/tagged/css");
 
         } //addLookupData_alternativeWordSet()
 
