@@ -6078,6 +6078,47 @@ namespace OverflowHelper.core
 
             correctionAdd("idris", "Idris");
 
+            correctionAdd("genge", "change");
+            correctionAdd("Chnage", "change");
+            correctionAdd("Change", "change");
+            correctionAdd("chenge", "change");
+            correctionAdd("chnage", "change");
+            correctionAdd("chaing", "change");
+            correctionAdd("Chage", "change");
+            correctionAdd("chage", "change");
+            correctionAdd("chance", "change");
+            correctionAdd("chng", "change");
+
+            correctionAdd("Diffie-Hellman", "Diffie–Hellman key exchange");
+            correctionAdd("diffie hellman", "Diffie–Hellman key exchange");
+
+            // Windows
+            correctionAdd("DDE", "Dynamic Data Exchange");
+
+            // A Windows program
+            correctionAdd("process hacker", "Process Hacker");
+
+            // A utility (program) for Windows
+            correctionAdd("Sharpkeys", "SharpKeys");
+
+            correctionAdd("NYSE", "New York Stock Exchange");
+
+            correctionAdd("experts exchange", "Experts-Exchange");
+            correctionAdd("EE", "Experts-Exchange");
+            correctionAdd("Experts Exchange", "Experts-Exchange");
+            correctionAdd("expertsexchange", "Experts-Exchange");
+            correctionAdd("Experts exchange", "Experts-Exchange");
+            correctionAdd("expertexchange", "Experts-Exchange");
+            correctionAdd("experts-exchange", "Experts-Exchange");
+            correctionAdd("hyphen site", "Experts-Exchange");
+            correctionAdd("the hyphen site", "Experts-Exchange");
+            correctionAdd("Expert Sexchange", "Experts-Exchange");
+            correctionAdd("Expertsexchange", "Experts-Exchange");
+            correctionAdd("ExpertsExchange", "Experts-Exchange");
+            correctionAdd("Experts&nbsp;Exchange", "Experts-Exchange");
+            correctionAdd("Expert-Exchange", "Experts-Exchange");
+            correctionAdd("sex change site", "Experts-Exchange");
+
             correctionAdd("SO", "Stack&nbsp;Overflow");
             correctionAdd("S.O", "Stack&nbsp;Overflow");
             correctionAdd("StacOkverflow", "Stack&nbsp;Overflow");
@@ -7944,6 +7985,7 @@ namespace OverflowHelper.core
             correctionAdd("Jupyter lab", "JupyterLab");
             correctionAdd("jupyter lab", "JupyterLab");
             correctionAdd("Jupyter Lab", "JupyterLab");
+            correctionAdd("Jupyter LAB", "JupyterLab");
 
             correctionAdd("biopython", "Biopython");
 
@@ -9747,6 +9789,7 @@ namespace OverflowHelper.core
             correctionAdd("MSVS2013", "Visual&nbsp;Studio&nbsp;2013");
             correctionAdd("Visual&nbsp;Studio 2013", "Visual&nbsp;Studio&nbsp;2013");
             correctionAdd("Visual Studio 12", "Visual&nbsp;Studio&nbsp;2013");
+            correctionAdd("2013", "Visual&nbsp;Studio&nbsp;2013");
 
             correctionAdd("VS 2015", "Visual&nbsp;Studio&nbsp;2015");
             correctionAdd("VS2015", "Visual&nbsp;Studio&nbsp;2015");
@@ -14423,9 +14466,6 @@ namespace OverflowHelper.core
             correctionAdd("Sallen-Key", "Sallen–Key filter");
             correctionAdd("Sallen-Key filter", "Sallen–Key filter");
 
-            correctionAdd("Diffie-Hellman", "Diffie–Hellman key exchange");
-            correctionAdd("diffie hellman", "Diffie–Hellman key exchange");
-
             // Alternatives:
             //
             //   <https://medium.com/@goynikhil/what-is-jwt-jws-jwe-and-jwk-when-we-should-use-which-token-in-our-business-applications-74ae91f7c96b>
@@ -15184,32 +15224,6 @@ namespace OverflowHelper.core
 
             correctionAdd("iEEEtran", "IEEEtran");
             correctionAdd("ieeetrans", "IEEEtran");
-
-            correctionAdd("genge", "change");
-            correctionAdd("Chnage", "change");
-            correctionAdd("Change", "change");
-            correctionAdd("chenge", "change");
-            correctionAdd("chnage", "change");
-            correctionAdd("chaing", "change");
-            correctionAdd("Chage", "change");
-            correctionAdd("chage", "change");
-            correctionAdd("chance", "change");
-
-            correctionAdd("experts exchange", "Experts-Exchange");
-            correctionAdd("EE", "Experts-Exchange");
-            correctionAdd("Experts Exchange", "Experts-Exchange");
-            correctionAdd("expertsexchange", "Experts-Exchange");
-            correctionAdd("Experts exchange", "Experts-Exchange");
-            correctionAdd("expertexchange", "Experts-Exchange");
-            correctionAdd("experts-exchange", "Experts-Exchange");
-            correctionAdd("hyphen site", "Experts-Exchange");
-            correctionAdd("the hyphen site", "Experts-Exchange");
-            correctionAdd("Expert Sexchange", "Experts-Exchange");
-            correctionAdd("Expertsexchange", "Experts-Exchange");
-            correctionAdd("ExpertsExchange", "Experts-Exchange");
-            correctionAdd("Experts&nbsp;Exchange", "Experts-Exchange");
-            correctionAdd("Expert-Exchange", "Experts-Exchange");
-            correctionAdd("sex change site", "Experts-Exchange");
 
             correctionAdd("shopify", "Shopify");
             correctionAdd("Shopfiy", "Shopify");
@@ -24741,15 +24755,6 @@ namespace OverflowHelper.core
             correctionAdd("altap Salamander", "Altap Salamander");
             correctionAdd("Slamander", "Altap Salamander");
 
-            // Windows
-            correctionAdd("DDE", "Dynamic Data Exchange");
-
-            // A Windows program
-            correctionAdd("process hacker", "Process Hacker");
-
-            // A utility (program) for Windows
-            correctionAdd("Sharpkeys", "SharpKeys");
-
             // An oscilloscope manufacturer
             correctionAdd("Tektronics", "Tektronix");
             correctionAdd("Tek", "Tektronix");
@@ -25051,6 +25056,7 @@ namespace OverflowHelper.core
             correctionAdd("meinttenance", "maintenance");
             correctionAdd("mainttenance", "maintenance");
             correctionAdd("maintaintenance", "maintenance");
+            correctionAdd("maintainence", "maintenance");
 
             correctionAdd("mantained", "maintained");
             correctionAdd("maintaned", "maintained");
@@ -25571,6 +25577,7 @@ namespace OverflowHelper.core
             correctionAdd("K8s", "Kubernetes");
             correctionAdd("K8", "Kubernetes");
             correctionAdd("k8", "Kubernetes");
+            correctionAdd("kubernets", "Kubernetes");
 
             correctionAdd("mamp", "MAMP");
             correctionAdd("Mamp", "MAMP");
@@ -31610,8 +31617,10 @@ namespace OverflowHelper.core
 
             correctionAdd("Karpov", "Anatoly Karpov"); // Chess
 
-            correctionAdd("Nepo", "Ian Nepomniachtchi"); // Chess
-            correctionAdd("nepo", "Ian Nepomniachtchi"); // Chess
+            // Chess
+            correctionAdd("Nepo", "Ian Nepomniachtchi");
+            correctionAdd("nepo", "Ian Nepomniachtchi");
+            correctionAdd("Nepomniachtchi", "Ian Nepomniachtchi");
 
             correctionAdd("Candidates", "Candidates Tournament 2020"); // Chess
             correctionAdd("Candidate's", "Candidates Tournament 2020"); // Chess
@@ -37284,6 +37293,7 @@ namespace OverflowHelper.core
             correctionAdd("schisophrenia", "schizophrenia");
 
             correctionAdd("take away", "takeaway");
+            correctionAdd("take-away", "takeaway");
 
             correctionAdd("trespas", "trespass");
 
@@ -49234,6 +49244,8 @@ namespace OverflowHelper.core
             correctionAdd("pairs", "axiom of pairing");
 
             correctionAdd("IDA", "Interactive Disassembler");
+            correctionAdd("IDA Pro", "Interactive Disassembler");
+            correctionAdd("Interactive Disassembler Professional", "Interactive Disassembler");
 
             correctionAdd("metal performance shaders", "Metal Performance Shaders");
 
@@ -49273,8 +49285,6 @@ namespace OverflowHelper.core
             correctionAdd("BofA", "Bank of America");
 
             correctionAdd("linked-list", "linked list");
-
-            correctionAdd("NYSE", "New York Stock Exchange");
 
             correctionAdd("adjancent", "adjacent");
 
@@ -51892,6 +51902,10 @@ namespace OverflowHelper.core
             correctionAdd("Paas", "PaaS");
 
             correctionAdd("far as", "as far as");
+
+            correctionAdd("dotproduct", "dot product");
+
+            correctionAdd("jabaco", "Jabaco");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -80596,6 +80610,10 @@ namespace OverflowHelper.core
 
             URL_Add("as far as", "https://en.wiktionary.org/wiki/as_far_as#Conjunction");
 
+            URL_Add("dot product", "https://en.wiktionary.org/wiki/dot_product#Noun");
+
+            URL_Add("Jabaco", "https://en.wikipedia.org/wiki/List_of_JVM_languages#JVM_implementations_of_existing_languages");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -81202,6 +81220,9 @@ namespace OverflowHelper.core
             correctionAdd("Chess_", "Chess (Stack Exchange site)_"); // Sort of identity mapping
             correctionAdd("chess_", "Chess (Stack Exchange site)_");
             correctionAdd("Chess Exchange_", "Chess (Stack Exchange site)_");
+
+            correctionAdd("artificial intelligence_", "Artificial Intelligence (Stack Exchange site)_");
+            correctionAdd("Artificial Intelligence_", "Artificial Intelligence (Stack Exchange site)_"); // Sort of identity mapping
 
             correctionAdd("puted_", "put_");
             correctionAdd("punt_", "put_");
@@ -83991,6 +84012,8 @@ namespace OverflowHelper.core
             URL_Add("speed up_", "https://en.wiktionary.org/wiki/speed_up#Verb");
 
             URL_Add("CSS (tag wiki)_", "https://stackoverflow.com/questions/tagged/css");
+
+            URL_Add("Artificial Intelligence (Stack Exchange site)_", "https://ai.stackexchange.com/tour");
 
         } //addLookupData_alternativeWordSet()
 
