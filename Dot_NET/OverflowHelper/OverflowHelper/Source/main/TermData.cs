@@ -3441,6 +3441,8 @@ namespace OverflowHelper.core
             correctionAdd("Debian Buster", "Debian&nbsp;10 (Buster)");
             correctionAdd("Debian buster", "Debian&nbsp;10 (Buster)");
             correctionAdd("debian 10", "Debian&nbsp;10 (Buster)");
+            correctionAdd("buster", "Debian&nbsp;10 (Buster)");
+            correctionAdd("debian buster", "Debian&nbsp;10 (Buster)");
 
             // Linux
             correctionAdd("Debian 11 (Bullseye)", "Debian&nbsp;11 (Bullseye)"); // Sort of identity mapping
@@ -6753,6 +6755,7 @@ namespace OverflowHelper.core
             correctionAdd("WordPress Development", "WordPress Development (Stack Exchange site)");
             correctionAdd("wordpress dev", "WordPress Development (Stack Exchange site)");
             correctionAdd("WordPress dev", "WordPress Development (Stack Exchange site)");
+            correctionAdd("Wordpress Development", "WordPress Development (Stack Exchange site)");
 
             correctionAdd("Software Recs", "Software Recommendations (Stack Exchange site)");
             correctionAdd("software recommendations", "Software Recommendations (Stack Exchange site)");
@@ -6761,6 +6764,9 @@ namespace OverflowHelper.core
             correctionAdd("Software Recommendations", "Software Recommendations (Stack Exchange site)");
             correctionAdd("soft rec", "Software Recommendations (Stack Exchange site)");
             correctionAdd("softrec", "Software Recommendations (Stack Exchange site)");
+            correctionAdd("SW recs", "Software Recommendations (Stack Exchange site)");
+            correctionAdd("soft recs", "Software Recommendations (Stack Exchange site)");
+            correctionAdd("softrecs", "Software Recommendations (Stack Exchange site)");
 
             correctionAdd("code review", "Code Review (Stack Exchange site)");
             correctionAdd("CodeReview", "Code Review (Stack Exchange site)");
@@ -9926,6 +9932,7 @@ namespace OverflowHelper.core
 
             correctionAdd("css-lang", "```lang-css");
             correctionAdd("lang-css", "```lang-css");
+            correctionAdd("lang=css", "```lang-css");
 
             correctionAdd("html-lang", "```lang-html");
             correctionAdd("lang-html", "```lang-html");
@@ -13471,6 +13478,8 @@ namespace OverflowHelper.core
             correctionAdd("refenrence", "reference");
             correctionAdd("Refference", "reference");
             correctionAdd("referece", "reference");
+            correctionAdd("Referenece", "reference");
+            correctionAdd("referenece", "reference");
 
             correctionAdd("refrenced", "referenced");
             correctionAdd("reffed", "referenced");
@@ -19545,6 +19554,9 @@ namespace OverflowHelper.core
 
             correctionAdd("rcord", "record");
             correctionAdd("reccord", "record");
+
+            correctionAdd("recored", "recorded");
+            correctionAdd("Recored", "recorded");
 
             correctionAdd("dns", "DNS");
 
@@ -27027,6 +27039,9 @@ namespace OverflowHelper.core
             correctionAdd("heigth", "height");
             correctionAdd("Height", "height");
             correctionAdd("Heigh", "height");
+            correctionAdd("heignt", "height");
+            correctionAdd("heigt", "height");
+            correctionAdd("heith", "height");
 
             correctionAdd("malcious", "malicious");
             correctionAdd("malicicios", "malicious");
@@ -30286,6 +30301,7 @@ namespace OverflowHelper.core
             correctionAdd("Man page", "man page");
             correctionAdd("manual page", "man page");
             correctionAdd("manpage", "man page");
+            correctionAdd("MAN page", "man page");
 
             correctionAdd("mark-up", "markup");
             correctionAdd("mark up", "markup");
@@ -34404,6 +34420,7 @@ namespace OverflowHelper.core
             correctionAdd("victory’s", "victories");
 
             correctionAdd("counter-argument", "counterargument");
+            correctionAdd("counter argument", "counterargument");
 
             correctionAdd("Median", "median");
 
@@ -42595,6 +42612,8 @@ namespace OverflowHelper.core
             correctionAdd("wbsite", "website");
             correctionAdd("webiste", "website");
             correctionAdd("Web Site", "website");
+            correctionAdd("web side", "website");
+            correctionAdd("webside", "website");
 
             correctionAdd("Webpage", "web page");
             correctionAdd("webpage", "web page");
@@ -45208,6 +45227,10 @@ namespace OverflowHelper.core
             correctionAdd("customized", "customised");
             correctionAdd("customizated", "customised");
             correctionAdd("customed", "customised");
+            correctionAdd("COSTIMIZED", "customised");
+            correctionAdd("costimized", "customised");
+            correctionAdd("costomized", "customised");
+            correctionAdd("custimized", "customised");
 
             correctionAdd("karoekee", "karaoke");
 
@@ -46340,6 +46363,7 @@ namespace OverflowHelper.core
             correctionAdd("VSCode insiders", "Visual Studio Code Insiders");
             correctionAdd("VS code insider", "Visual Studio Code Insiders");
             correctionAdd("VS code insiders", "Visual Studio Code Insiders");
+            correctionAdd("VSCode insider", "Visual Studio Code Insiders");
 
             correctionAdd("Dysautonomia", "dysautonomia");
 
@@ -51906,6 +51930,30 @@ namespace OverflowHelper.core
             correctionAdd("dotproduct", "dot product");
 
             correctionAdd("jabaco", "Jabaco");
+
+            correctionAdd("anticlockwise", "counterclockwise");
+            correctionAdd("CCW", "counterclockwise");
+            correctionAdd("Counter Clockwise", "counterclockwise");
+            correctionAdd("CounterCLockwise", "counterclockwise");
+            correctionAdd("anti clockwise", "counterclockwise");
+            correctionAdd("ccw", "counterclockwise");
+            correctionAdd("counter-clockwise", "counterclockwise");
+
+            correctionAdd("Bellman-Ford", "Bellman–Ford algorithm");
+
+            correctionAdd("min heap", "binary min heap");
+            correctionAdd("binary heap", "binary min heap");
+            correctionAdd("minheap", "binary min heap");
+
+            correctionAdd("dijkstra's algorithm", "Dijkstra's algorithm");
+
+            correctionAdd("multiplcation", "multiplication");
+            correctionAdd("Multiplcation", "multiplication");
+
+            correctionAdd("SPFA_Queue", "Shortest Path Faster Algorithm");
+            correctionAdd("SPFA", "Shortest Path Faster Algorithm");
+
+            correctionAdd("tabnine", "Tabnine");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -80614,6 +80662,22 @@ namespace OverflowHelper.core
 
             URL_Add("Jabaco", "https://en.wikipedia.org/wiki/List_of_JVM_languages#JVM_implementations_of_existing_languages");
 
+            URL_Add("counterclockwise", "https://en.wiktionary.org/wiki/counterclockwise#Adjective");
+
+            URL_Add("recorded", "https://en.wiktionary.org/wiki/record#Verb");
+
+            URL_Add("Bellman–Ford algorithm", "https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm");
+
+            URL_Add("binary min heap", "https://en.wikipedia.org/wiki/Binary_heap");
+
+            URL_Add("Dijkstra's algorithm", "https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm");
+
+            URL_Add("multiplication", "https://en.wiktionary.org/wiki/multiplication#Noun");
+
+            URL_Add("Shortest Path Faster Algorithm", "https://en.wikipedia.org/wiki/Shortest_path_faster_algorithm");
+
+            URL_Add("Tabnine", "https://blogs.cisco.com/developer/tabninepairprogramming01");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -82788,6 +82852,8 @@ namespace OverflowHelper.core
 
             correctionAdd("speedup_", "speed up_");
 
+            correctionAdd("Clockwise_", "clockwise_");
+
             // URL mappings
             //
             //
@@ -84014,6 +84080,8 @@ namespace OverflowHelper.core
             URL_Add("CSS (tag wiki)_", "https://stackoverflow.com/questions/tagged/css");
 
             URL_Add("Artificial Intelligence (Stack Exchange site)_", "https://ai.stackexchange.com/tour");
+
+            URL_Add("clockwise_", "https://en.wiktionary.org/wiki/clockwise#Adjective");
 
         } //addLookupData_alternativeWordSet()
 
