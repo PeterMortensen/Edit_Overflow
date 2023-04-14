@@ -701,6 +701,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ESX", "VMware ESXi");
             correctionAdd("ESXi", "VMware ESXi");
+            correctionAdd("esxi", "VMware ESXi");
 
             // Virtualization
             correctionAdd("HyperV", "Hyper-V");
@@ -7514,6 +7515,7 @@ namespace OverflowHelper.core
 
             correctionAdd("vlume", "volume");
             correctionAdd("vulme", "volume");
+            correctionAdd("vol", "volume");
 
             // Not to be confused with eMMC
             correctionAdd("NVM Express", "NVMe");
@@ -13374,6 +13376,8 @@ namespace OverflowHelper.core
             correctionAdd("expressJS", "Express.js");
             correctionAdd("proto", "Express.js");
             correctionAdd("expres.js", "Express.js");
+            correctionAdd("ExpressJs", "Express.js");
+            correctionAdd("Expressjs", "Express.js");
 
             correctionAdd("expresion", "expression");
             correctionAdd("Expression", "expression");
@@ -29149,6 +29153,7 @@ namespace OverflowHelper.core
             correctionAdd("Allejedly", "allegedly");
             correctionAdd("allejedly", "allegedly");
             correctionAdd("alejedly", "allegedly");
+            correctionAdd("allelegly", "allegedly");
 
             correctionAdd("contiue", "continue");
             correctionAdd("countinue", "continue");
@@ -30562,6 +30567,9 @@ namespace OverflowHelper.core
             correctionAdd("thought out", "thought-out");
 
             correctionAdd("trigging", "triggering");
+            correctionAdd("trigering", "triggering");
+            correctionAdd("trigerring", "triggering");
+            correctionAdd("triggerring", "triggering");
 
             correctionAdd("WRT", "with respect to");
             correctionAdd("Wrt", "with respect to");
@@ -31971,9 +31979,11 @@ namespace OverflowHelper.core
             correctionAdd("plachutta", "Plachutta"); // Chess
             correctionAdd("PLACHUTTA", "Plachutta"); // Chess
 
-            correctionAdd("liren", "Ding Liren"); // Chess
-            correctionAdd("Liren", "Ding Liren"); // Chess
-            correctionAdd("Ding", "Ding Liren"); // Chess
+            // Chess
+            correctionAdd("liren", "Ding Liren");
+            correctionAdd("Liren", "Ding Liren");
+            correctionAdd("Ding", "Ding Liren");
+            correctionAdd("ding", "Ding Liren");
 
             correctionAdd("anish giri", "Anish Giri"); // Chess
             correctionAdd("Amish Girl", "Anish Giri"); // Chess
@@ -34843,6 +34853,7 @@ namespace OverflowHelper.core
 
             correctionAdd("mein", "mean");
             correctionAdd("msan", "mean");
+            correctionAdd("meen", "mean");
 
             correctionAdd("mught", "might");
             correctionAdd("migh", "might");
@@ -39561,6 +39572,7 @@ namespace OverflowHelper.core
             correctionAdd("swiching", "switching");
             correctionAdd("swithcing", "switching");
             correctionAdd("switchig", "switching");
+            correctionAdd("swicthing", "switching");
 
             correctionAdd("Technological Singularity", "technological singularity");
             correctionAdd("technical singularity", "technological singularity");
@@ -42102,6 +42114,7 @@ namespace OverflowHelper.core
             correctionAdd("solaar", "Solaar");
 
             correctionAdd("Steve Arino", "Steve Gibson");
+            correctionAdd("Gibson", "Steve Gibson");
 
             correctionAdd("adinfinitum", "ad infinitum");
 
@@ -51953,7 +51966,15 @@ namespace OverflowHelper.core
             correctionAdd("SPFA_Queue", "Shortest Path Faster Algorithm");
             correctionAdd("SPFA", "Shortest Path Faster Algorithm");
 
+            // Programming tool, allegedly powered by AI
             correctionAdd("tabnine", "Tabnine");
+
+            correctionAdd("handlebars", "Handlebars.js");
+            correctionAdd("Handlebars", "Handlebars.js");
+
+            correctionAdd("salve", "slave");
+
+            correctionAdd("D6", "d6");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -80678,6 +80699,12 @@ namespace OverflowHelper.core
 
             URL_Add("Tabnine", "https://blogs.cisco.com/developer/tabninepairprogramming01");
 
+            URL_Add("Handlebars.js", "https://en.wikipedia.org/wiki/Mustache_(template_system)#Handlebars");
+
+            URL_Add("slave", "https://en.wiktionary.org/wiki/slave#Noun");
+
+            URL_Add("d6", "https://en.wiktionary.org/wiki/d6#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -82854,6 +82881,10 @@ namespace OverflowHelper.core
 
             correctionAdd("Clockwise_", "clockwise_");
 
+            correctionAdd("handy_", "mobile phone_");
+
+            correctionAdd("Internet Explorer_", "We believe that Internet Explorer is a really good browser._");
+
             // URL mappings
             //
             //
@@ -84082,6 +84113,10 @@ namespace OverflowHelper.core
             URL_Add("Artificial Intelligence (Stack Exchange site)_", "https://ai.stackexchange.com/tour");
 
             URL_Add("clockwise_", "https://en.wiktionary.org/wiki/clockwise#Adjective");
+
+            URL_Add("mobile phone_", "https://www.youtube.com/watch?v=xfeMGVCX-Gk&t=5m10s");
+
+            URL_Add("We believe that Internet Explorer is a really good browser._", "https://www.youtube.com/watch?v=ZCCvKlrHB7k&t=13m21s");
 
         } //addLookupData_alternativeWordSet()
 
