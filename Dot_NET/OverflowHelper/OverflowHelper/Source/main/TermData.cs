@@ -1763,6 +1763,7 @@ namespace OverflowHelper.core
             correctionAdd("Copilot", "GitHub Copilot");
             correctionAdd("Co-Pilot", "GitHub Copilot");
             correctionAdd("GitHub CoPilot", "GitHub Copilot");
+            correctionAdd("GH Copilot", "GitHub Copilot");
 
             correctionAdd("ChatGPT Copilot", "GitHub Copilot X");
 
@@ -6459,6 +6460,7 @@ namespace OverflowHelper.core
 
             correctionAdd("SO Teams", "Stack Overflow for Teams");
             correctionAdd("SOfT", "Stack Overflow for Teams");
+            correctionAdd("SOFT", "Stack Overflow for Teams");
             correctionAdd("StackOverflow for Teams", "Stack Overflow for Teams");
             correctionAdd("SO for Teams", "Stack Overflow for Teams");
             correctionAdd("SO for teams", "Stack Overflow for Teams");
@@ -8200,6 +8202,7 @@ namespace OverflowHelper.core
 
             // Python
             correctionAdd("cpython", "CPython");
+            correctionAdd("cPython", "CPython");
 
             correctionAdd("PIP", "pip"); // Not actually observed. The Python thing.
 
@@ -13820,6 +13823,8 @@ namespace OverflowHelper.core
             correctionAdd("fp", "functional programming");
             correctionAdd("FP", "functional programming");
             correctionAdd("Functional", "functional programming");
+            correctionAdd("Functionl", "functional programming");
+            correctionAdd("functionl", "functional programming");
 
             correctionAdd("Logic Programming", "logic programming");
 
@@ -15908,6 +15913,7 @@ namespace OverflowHelper.core
             correctionAdd("IDK", "I don't know");
             correctionAdd("i dunno", "I don't know");
             correctionAdd("idunno", "I don't know");
+            correctionAdd("iunno", "I don't know");
 
             correctionAdd("afaik", "as far as I know");
             correctionAdd("Afaik", "as far as I know");
@@ -19660,6 +19666,7 @@ namespace OverflowHelper.core
             correctionAdd("Concatenate", "concatenate");
             correctionAdd("concate", "concatenate");
             correctionAdd("concatenat", "concatenate");
+            correctionAdd("Concat", "concatenate");
 
             correctionAdd("node.js", "Node.js");
             correctionAdd("NodeJS", "Node.js");
@@ -21771,6 +21778,9 @@ namespace OverflowHelper.core
             correctionAdd("CHATgpt", "ChatGPT");
             correctionAdd("Chatgpt", "ChatGPT");
             correctionAdd("CHAT GPT", "ChatGPT");
+            correctionAdd("C-GPT", "ChatGPT");
+            correctionAdd("ChatGPT 3", "ChatGPT");
+            correctionAdd("stochastic parrot", "ChatGPT");
 
             // AI
             correctionAdd("Prompt Engineering", "prompt engineering");
@@ -21800,6 +21810,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Generative AI", "generative AI");
             correctionAdd("generative ai", "generative AI");
+            correctionAdd("GenAI", "generative AI");
 
             correctionAdd("autoai", "AutoAI");
 
@@ -28334,6 +28345,7 @@ namespace OverflowHelper.core
             correctionAdd("intersted", "interested");
             correctionAdd("intereased", "interested");
             correctionAdd("interted", "interested");
+            correctionAdd("instered", "interested");
 
             correctionAdd("Iodine", "iodine");
 
@@ -30223,6 +30235,22 @@ namespace OverflowHelper.core
             correctionAdd("Step by step", "step-by-step");
             correctionAdd("Step by Step", "step-by-step");
 
+            correctionAdd("case by case", "case-by-case");
+
+            correctionAdd("creative commons", "Creative Commons licence");
+            correctionAdd("Creative Common", "Creative Commons licence");
+            correctionAdd("CreativeCommons", "Creative Commons licence");
+            correctionAdd("cc", "Creative Commons licence");
+            correctionAdd("Creative Commons", "Creative Commons licence");
+
+            correctionAdd("Creative Common by-sa", "Creative Commons BY-SA");
+            correctionAdd("CC BY-SA", "Creative Commons BY-SA"); // "CC BY-SA" (not "CC-BY-SA") seems to be the correct shortform, though a source needs to be found.
+            correctionAdd("CC-BY-SA", "Creative Commons BY-SA");
+            correctionAdd("BY-SA", "Creative Commons BY-SA");
+            correctionAdd("cc by-sa", "Creative Commons BY-SA");
+            correctionAdd("cc-by-sa", "Creative Commons BY-SA");
+            correctionAdd("CC-by-SA", "Creative Commons BY-SA");
+
             correctionAdd("XPERF", "xperf");
 
             correctionAdd("PPA", "Personal Package Archive");
@@ -30433,8 +30461,6 @@ namespace OverflowHelper.core
 
             correctionAdd("CamelCase", "camel case");
             correctionAdd("camelCase", "camel case");
-
-            correctionAdd("case by case", "case-by-case");
 
             correctionAdd("casette", "cassette");
 
@@ -32621,6 +32647,7 @@ namespace OverflowHelper.core
             correctionAdd("origianl", "original");
             correctionAdd("origanal", "original");
             correctionAdd("oryginal", "original");
+            correctionAdd("oroginal", "original");
 
             correctionAdd("unusuall", "unusual");
             correctionAdd("unusal", "unusual");
@@ -33013,19 +33040,6 @@ namespace OverflowHelper.core
             correctionAdd("hard-coded", "hard coded");
             correctionAdd("hardcoded", "hard coded");
             correctionAdd("hardcore", "hard coded");
-
-            correctionAdd("creative commons", "Creative Commons licence");
-            correctionAdd("Creative Common", "Creative Commons licence");
-            correctionAdd("CreativeCommons", "Creative Commons licence");
-            correctionAdd("cc", "Creative Commons licence");
-            correctionAdd("Creative Commons", "Creative Commons licence");
-
-            correctionAdd("Creative Common by-sa", "Creative Commons BY-SA");
-            correctionAdd("CC-BY-SA", "Creative Commons BY-SA");
-            correctionAdd("BY-SA", "Creative Commons BY-SA");
-            correctionAdd("cc by-sa", "Creative Commons BY-SA");
-            correctionAdd("CC BY-SA", "Creative Commons BY-SA");
-            correctionAdd("cc-by-sa", "Creative Commons BY-SA");
 
             correctionAdd("Code complete", "Code Complete");
 
@@ -37668,6 +37682,8 @@ namespace OverflowHelper.core
             correctionAdd("GTK 3", "GTK&nbsp;3");
             correctionAdd("gtk3", "GTK&nbsp;3");
             correctionAdd("gtk 3", "GTK&nbsp;3");
+            correctionAdd("GTK-3", "GTK&nbsp;3");
+            correctionAdd("gtk-3", "GTK&nbsp;3");
 
             correctionAdd("brain dead", "brain-dead");
 
@@ -37790,6 +37806,7 @@ namespace OverflowHelper.core
             correctionAdd("thingamagic", "thingamajiggy");
             correctionAdd("thingamagiggi", "thingamajiggy");
             correctionAdd("thingamagigie", "thingamajiggy");
+            correctionAdd("thingamaggy", "thingamajiggy");
 
             correctionAdd("thingyes", "thingies");
 
@@ -46346,6 +46363,7 @@ namespace OverflowHelper.core
             correctionAdd("re-program", "reprogram");
 
             correctionAdd("apex", "Apex");
+            correctionAdd("Salesforce apex", "Apex");
 
             correctionAdd("bulgarian", "Bulgarian");
 
@@ -47178,6 +47196,7 @@ namespace OverflowHelper.core
             correctionAdd("call-upon", "call upon");
 
             correctionAdd("repurcussion", "repercussion");
+            correctionAdd("repercution", "repercussion");
 
             correctionAdd("ket", "bra–ket notation");
             correctionAdd("bra-ket", "bra–ket notation");
@@ -52157,6 +52176,25 @@ namespace OverflowHelper.core
             correctionAdd("Disguise", "disguise");
 
             correctionAdd("trumbowyg", "Trumbowyg");
+
+            correctionAdd("dogdy", "dodgy");
+
+            correctionAdd("EventBrite", "Eventbrite");
+
+            correctionAdd("Live stream", "live stream");
+
+            correctionAdd("advertesing", "advertising");
+            correctionAdd("advertasing", "advertising");
+
+            correctionAdd("expiriment", "experiment");
+            correctionAdd("experement", "experiment");
+            correctionAdd("expirement", "experiment");
+
+            correctionAdd("going forwards", "going forward");
+
+            correctionAdd("methodoly", "methodology");
+
+            correctionAdd("NLG", "natural language generation");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -80973,6 +81011,22 @@ namespace OverflowHelper.core
 
             URL_Add("Trumbowyg", "https://alex-d.github.io/Trumbowyg/documentation/");
 
+            URL_Add("dodgy", "https://en.wiktionary.org/wiki/dodgy#Adjective");
+
+            URL_Add("Eventbrite", "https://en.wikipedia.org/wiki/Eventbrite");
+
+            URL_Add("live stream", "https://en.wiktionary.org/wiki/live_stream#Noun");
+
+            URL_Add("advertising", "https://en.wiktionary.org/wiki/advertising#Noun");
+
+            URL_Add("experiment", "https://en.wiktionary.org/wiki/experiment#Noun");
+
+            URL_Add("going forward", "https://en.wiktionary.org/wiki/going_forward#Adverb");
+
+            URL_Add("methodology", "https://en.wiktionary.org/wiki/methodology#Noun");
+
+            URL_Add("natural language generation", "https://en.wiktionary.org/wiki/NLG#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -83164,6 +83218,10 @@ namespace OverflowHelper.core
 
             correctionAdd("text editor_", "Text Editor_");
 
+            correctionAdd("burned_", "burninated_");
+
+            correctionAdd("start up_", "startup_");
+
             // URL mappings
             //
             //
@@ -84404,6 +84462,10 @@ namespace OverflowHelper.core
             URL_Add("scope_", "https://en.wiktionary.org/wiki/scope#Noun");
 
             URL_Add("Text Editor_", "https://help.ubuntu.com/community/gedit");
+
+            URL_Add("burninated_", "https://meta.stackoverflow.com/tags/burninate-request/info");
+
+            URL_Add("startup_", "https://en.wiktionary.org/wiki/startup#Noun");
 
         } //addLookupData_alternativeWordSet()
 
