@@ -17108,9 +17108,16 @@ namespace OverflowHelper.core
             correctionAdd("DOJO", "Dojo Toolkit");
             correctionAdd("dojo toolkit", "Dojo Toolkit");
 
+            // A Linux text editor
+            //
+            // Disguised as "Text Editor" on Ubuntu / GNOME.
             correctionAdd("GEdit", "gedit");
             correctionAdd("Gedit", "gedit");
             correctionAdd("gEdit", "gedit");
+
+            // Windows
+            correctionAdd("RegEdit.exe", "RegEdit");
+            correctionAdd("regedit", "RegEdit");
 
             correctionAdd("BBedit", "BBEdit");
 
@@ -17130,9 +17137,6 @@ namespace OverflowHelper.core
             correctionAdd("JEdit", "jEdit");
             correctionAdd("jedit", "jEdit");
             correctionAdd("Jedit", "jEdit");
-
-            correctionAdd("RegEdit.exe", "RegEdit");
-            correctionAdd("regedit", "RegEdit");
 
             correctionAdd("Richedit", "RichEdit");
 
@@ -20953,6 +20957,15 @@ namespace OverflowHelper.core
             correctionAdd("advertsment", "advertisement");
             //correctionAdd("ad", "advertisement");  collision with Active Directory.
 
+            correctionAdd("advetise", "advertise");
+
+            correctionAdd("advartised", "advertised");
+
+            correctionAdd("advertesing", "advertising");
+            correctionAdd("advertasing", "advertising");
+
+            correctionAdd("advertantly", "advertently");
+
             correctionAdd("mpi", "MPI");
 
             correctionAdd("openmpi", "Open&nbsp;MPI");
@@ -21442,7 +21455,9 @@ namespace OverflowHelper.core
             //
             // Not to be confused with "Ode an die Freude" (Beethoven)
             //
-            // Alternative URL: <https://en.wikipedia.org/wiki/Jesu,_Joy_of_Man%27s_Desiring>
+            // Alternative URL:
+            //   <https://en.wikipedia.org/wiki/Jesu,_Joy_of_Man%27s_Desiring>
+            //
             correctionAdd("Freude", "\"Jesus bleibet meine Freude\" BWV 147, 10");
             correctionAdd("147", "\"Jesus bleibet meine Freude\" BWV 147, 10");
             correctionAdd("BWV 147", "\"Jesus bleibet meine Freude\" BWV 147, 10");
@@ -28320,8 +28335,6 @@ namespace OverflowHelper.core
 
             correctionAdd("abilites", "abilities");
 
-            correctionAdd("advetise", "advertise");
-
             correctionAdd("cost effective", "cost-effective");
 
             correctionAdd("encrytpion", "encryption");
@@ -30342,8 +30355,12 @@ namespace OverflowHelper.core
 
             correctionAdd("idiosyncracies", "idiosyncrasies");
 
+            correctionAdd("jnlp", "JNLP");
+
             correctionAdd("NLP", "natural language processing");
             correctionAdd("nlp", "natural language processing");
+
+            correctionAdd("NLG", "natural language generation");
 
             correctionAdd("nitty gritty", "nitty-gritty");
             correctionAdd("nitty grities", "nitty-gritty");
@@ -35015,8 +35032,6 @@ namespace OverflowHelper.core
             correctionAdd("speculatijg", "speculating");
 
             correctionAdd("trigerred", "triggered");
-
-            correctionAdd("jnlp", "JNLP");
 
             correctionAdd("allocte", "allocate");
 
@@ -42819,6 +42834,8 @@ namespace OverflowHelper.core
             correctionAdd("OAuth 2.0", "OAuth 2");
 
             correctionAdd("12 factor app", "Twelve-Factor Application methodology");
+
+            correctionAdd("methodoly", "methodology");
 
             correctionAdd("heatmap", "heat map");
             correctionAdd("heats map", "heat map");
@@ -50773,8 +50790,6 @@ namespace OverflowHelper.core
 
             correctionAdd("shutsdown", "shuts down");
 
-            correctionAdd("advartised", "advertised");
-
             correctionAdd("Associate Lecturer", "associate lecturer");
 
             correctionAdd("Atomic Weight", "atomic weight");
@@ -51465,8 +51480,6 @@ namespace OverflowHelper.core
             correctionAdd("Pascal's Triangle", "Pascal's triangle");
 
             correctionAdd("omni directional", "omnidirectional");
-
-            correctionAdd("advertantly", "advertently");
 
             correctionAdd("features wise", "featurewise");
             correctionAdd("Features wise", "featurewise");
@@ -52183,18 +52196,11 @@ namespace OverflowHelper.core
 
             correctionAdd("Live stream", "live stream");
 
-            correctionAdd("advertesing", "advertising");
-            correctionAdd("advertasing", "advertising");
-
             correctionAdd("expiriment", "experiment");
             correctionAdd("experement", "experiment");
             correctionAdd("expirement", "experiment");
 
             correctionAdd("going forwards", "going forward");
-
-            correctionAdd("methodoly", "methodology");
-
-            correctionAdd("NLG", "natural language generation");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -83216,8 +83222,10 @@ namespace OverflowHelper.core
 
             correctionAdd("scoop_", "scope_");
 
+            // gedit in disguise
             correctionAdd("text editor_", "Text Editor_");
 
+            // Related to Stack Overflow and Stack Exchange
             correctionAdd("burned_", "burninated_");
 
             correctionAdd("start up_", "startup_");
