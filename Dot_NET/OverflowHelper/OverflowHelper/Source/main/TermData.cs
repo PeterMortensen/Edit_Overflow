@@ -19087,8 +19087,11 @@ namespace OverflowHelper.core
             correctionAdd("speraration", "separation");
             correctionAdd("Seperation", "separation");
 
+            // Alternative URL: <https://en.wiktionary.org/wiki/frame_rate#Noun>
             correctionAdd("framerate", "frame rate");
             correctionAdd("Framerate", "frame rate");
+            correctionAdd("FPS", "frame rate");
+            correctionAdd("fps", "frame rate");
 
             correctionAdd("iliterate", "illiterate");
             correctionAdd("Illiterate", "illiterate");
@@ -27661,8 +27664,6 @@ namespace OverflowHelper.core
             correctionAdd("eighter", "either");
             correctionAdd("Eiter", "either");
             correctionAdd("eiter", "either");
-
-            correctionAdd("FPS", "fps");
 
             correctionAdd("furhter", "further");
             correctionAdd("furter", "further");
@@ -53354,7 +53355,7 @@ namespace OverflowHelper.core
 
             URL_Add("AAC", "https://en.wikipedia.org/wiki/Advanced_Audio_Coding");
 
-            URL_Add("Stack&nbsp;Overflow", "https://stackoverflow.com/legal/trademark-guidance"); // Old: http://stackoverflow.com/legal/trademark-guidance. Even older: https://en.wikipedia.org/wiki/Stack_Overflow
+            URL_Add("Stack&nbsp;Overflow", "https://stackoverflow.design/brand/copywriting/naming/"); // Old: https://stackoverflow.com/legal/trademark-guidance. Old: http://stackoverflow.com/legal/trademark-guidance. Even older: https://en.wikipedia.org/wiki/Stack_Overflow
 
             URL_Add("Meta&nbsp;Stack&nbsp;Overflow", "https://stackoverflow.com/help/whats-meta"); // Old: https://en.wikipedia.org/wiki/Stack_Overflow#Meta_Stack_Overflow
 
@@ -53932,7 +53933,7 @@ namespace OverflowHelper.core
 
             URL_Add("JAD", "https://en.wikipedia.org/wiki/JAD_%28file_format%29");
 
-            URL_Add("SD card", "https://en.wikipedia.org/wiki/Secure_Digital");
+            URL_Add("SD card", "https://en.wikipedia.org/wiki/SD_card"); // Old: https://en.wikipedia.org/wiki/Secure_Digital
 
             URL_Add("Symbian", "https://en.wikipedia.org/wiki/Symbian");
 
@@ -54226,7 +54227,7 @@ namespace OverflowHelper.core
 
             URL_Add("duplicate", "https://en.wiktionary.org/wiki/duplicate#Noun"); // Old: https://en.wiktionary.org/wiki/duplicate
 
-            URL_Add("Stack&nbsp;Apps", "http://stackapps.com/about");
+            URL_Add("Stack&nbsp;Apps", "https://stackapps.com/help"); // Old: http://stackapps.com/about
 
             URL_Add("primary key", "https://en.wikipedia.org/wiki/Unique_key#Defining_primary_keys");
 
@@ -57363,7 +57364,7 @@ namespace OverflowHelper.core
 
             URL_Add("either", "https://en.wiktionary.org/wiki/either#Pronoun");
 
-            URL_Add("fps", "https://en.wikipedia.org/wiki/Frames_per_second");
+            URL_Add("frame rate", "https://en.wikipedia.org/wiki/Frame_rate"); // Old: https://en.wikipedia.org/wiki/Frames_per_second
 
             URL_Add("further", "https://en.wiktionary.org/wiki/further#Adverb");
 
@@ -57428,8 +57429,6 @@ namespace OverflowHelper.core
             URL_Add("essentially", "https://en.wiktionary.org/wiki/essentially#Adverb");
 
             URL_Add("formatting", "https://en.wiktionary.org/wiki/formatting#Noun");
-
-            URL_Add("frame rate", "https://en.wiktionary.org/wiki/frame_rate#Noun");
 
             URL_Add("independently", "https://en.wiktionary.org/wiki/independently#Adverb");
 
@@ -59499,7 +59498,7 @@ namespace OverflowHelper.core
 
             URL_Add("Adobe", "https://en.wikipedia.org/wiki/Adobe_Inc.");
 
-            URL_Add("GitKraken", "https://en.wikipedia.org/wiki/Axosoft");
+            URL_Add("GitKraken", "https://en.wikipedia.org/wiki/GitKraken#GitKraken"); // Old: https://en.wikipedia.org/wiki/Axosoft
 
             URL_Add("The New York Times", "https://en.wikipedia.org/wiki/The_New_York_Times");
 
@@ -61895,7 +61894,7 @@ namespace OverflowHelper.core
 
             URL_Add("Laplacian", "https://en.wiktionary.org/wiki/Laplacian#Adjective");
 
-            URL_Add("PyInstaller", "http://www.pyinstaller.org/");
+            URL_Add("PyInstaller", "https://pyinstaller.org/en/stable/"); // Old: http://www.pyinstaller.org/
 
             URL_Add("measly", "https://en.wiktionary.org/wiki/measly#Adjective");
 
@@ -66131,7 +66130,7 @@ namespace OverflowHelper.core
 
             URL_Add("ZIP Code", "https://en.wikipedia.org/wiki/ZIP_Code");
 
-            URL_Add("function key", "https://en.wikipedia.org/wiki/Function_key#MS-DOS/Windows");
+            URL_Add("function key", "https://en.wikipedia.org/wiki/IBM_PC_keyboard#Invented_for_computers_with_video_displays"); // Old: https://en.wikipedia.org/wiki/Function_key#MS-DOS/Windows
 
             URL_Add("launched", "https://en.wiktionary.org/wiki/launch#Verb");
 
@@ -70247,7 +70246,7 @@ namespace OverflowHelper.core
 
             URL_Add("Git LFS", "https://git-lfs.github.com/");
 
-            URL_Add("JupyterLab", "https://en.wikipedia.org/wiki/Project_Jupyter#Jupyter_Notebook_Applications"); // Old: https://en.wikipedia.org/wiki/Project_Jupyter#Jupyter_Notebook
+            URL_Add("JupyterLab", "https://en.wikipedia.org/wiki/Project_Jupyter#Applications"); // Old: https://en.wikipedia.org/wiki/Project_Jupyter#Jupyter_Notebook_Applications Old: https://en.wikipedia.org/wiki/Project_Jupyter#Jupyter_Notebook
 
             URL_Add("MWE", "https://en.wikipedia.org/wiki/Minimal_working_example");
 
@@ -79673,7 +79672,7 @@ namespace OverflowHelper.core
 
             URL_Add("educatedness", "https://en.wiktionary.org/wiki/educatedness#Noun");
 
-            URL_Add("generative AI", "https://www.insidehighered.com/blogs/higher-ed-gamma/chatgpt-threat-or-menace");
+            URL_Add("generative AI", "https://en.wikipedia.org/wiki/Generative_artificial_intelligence"); // Old: https://www.insidehighered.com/blogs/higher-ed-gamma/chatgpt-threat-or-menace
 
             URL_Add("Magick.NET", "https://github.com/dlemstra/Magick.NET");
 
@@ -82589,7 +82588,7 @@ namespace OverflowHelper.core
 
             // AI
             //
-            // Alternative URL: <https://en.wikipedia.org/wiki/Large_language_model>
+            // Alternative URL: <https://theamericangenius.com/tech-news/large-language-models/>
             //
             correctionAdd("LM_", "large language model_");
             correctionAdd("LLM_", "large language model_");
@@ -83435,7 +83434,7 @@ namespace OverflowHelper.core
 
             URL_Add("tee_", "https://en.wikipedia.org/wiki/Tee_(command)");
 
-            URL_Add("Stack&nbsp;Overflow_", "https://stackoverflow.design/brand/copywriting/naming/"); // Old: https://stackoverflow.com/tour
+            URL_Add("Stack&nbsp;Overflow_", "https://stackoverflow.com/legal/trademark-guidance"); // Old: https://stackoverflow.design/brand/copywriting/naming/. Old: https://stackoverflow.com/tour
 
             URL_Add("Ganymede_", "https://en.wikipedia.org/wiki/Ganymede_(moon)");
 
@@ -83545,7 +83544,7 @@ namespace OverflowHelper.core
 
             URL_Add("National Instruments_", "https://en.wikipedia.org/wiki/National_Instruments");
 
-            URL_Add("Seasoned Advice (Stack Exchange site)_", "https://bitcoin.stackexchange.com/tour");
+            URL_Add("Seasoned Advice (Stack Exchange site)_", "https://cooking.stackexchange.com/tour"); // Old (blantantly wroing): https://bitcoin.stackexchange.com/tour
 
             URL_Add("pi_", "https://en.wikipedia.org/wiki/Pi");
 
@@ -83945,7 +83944,7 @@ namespace OverflowHelper.core
 
             URL_Add("BREW_", "https://en.wikipedia.org/wiki/Binary_Runtime_Environment_for_Wireless");
 
-            URL_Add("large language model_", "https://theamericangenius.com/tech-news/large-language-models/");
+            URL_Add("large language model_", "https://en.wikipedia.org/wiki/Large_language_model");
 
             URL_Add("IFR_", "https://en.wikipedia.org/wiki/Instrument_flight_rules");
 
