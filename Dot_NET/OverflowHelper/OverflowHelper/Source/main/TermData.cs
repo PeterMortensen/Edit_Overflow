@@ -1045,6 +1045,7 @@ namespace OverflowHelper.core
             correctionAdd("CP-1250", "Windows-1250");
             correctionAdd("1250", "Windows-1250");
             correctionAdd("cp1250", "Windows-1250");
+            correctionAdd("CE/CP-1250", "Windows-1250");
 
             correctionAdd("windows update", "Windows Update");
             correctionAdd("Windows update", "Windows Update");
@@ -2330,6 +2331,7 @@ namespace OverflowHelper.core
             correctionAdd("amazon.com", "Amazon DOT com");
             correctionAdd("AMZN", "Amazon DOT com");
             correctionAdd("amzon", "Amazon DOT com");
+            correctionAdd("AMAZON", "Amazon DOT com");
 
             correctionAdd("Amazon aws", "Amazon AWS");
             correctionAdd("aws", "Amazon AWS");
@@ -2439,6 +2441,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Api Gateway", "Amazon API Gateway");
             correctionAdd("API Gateway", "Amazon API Gateway");
+
+            correctionAdd("AMAZON translate", "Amazon Translate");
 
             correctionAdd("OpsWorks", "AWS OpsWorks");
             correctionAdd("opsworks", "AWS OpsWorks");
@@ -4367,9 +4371,6 @@ namespace OverflowHelper.core
 
             correctionAdd("pyusb", "PyUSB");
 
-            correctionAdd("Power Delivery", "USB power delivery");
-            correctionAdd("USB Power Delivery", "USB power delivery");
-
             correctionAdd("LSUSB", "lsusb");
             correctionAdd("lsub", "lsusb");
 
@@ -4439,6 +4440,22 @@ namespace OverflowHelper.core
             correctionAdd("pen-drive", "USB flash drive");
             correctionAdd("usb flash drive", "USB flash drive");
             correctionAdd("Pendrive", "USB flash drive");
+
+            correctionAdd("Power Delivery", "USB power delivery");
+            correctionAdd("USB Power Delivery", "USB power delivery");
+
+            correctionAdd("verry", "very");
+            correctionAdd("vary", "very");
+            correctionAdd("WEAWY", "very");
+            correctionAdd("weawy", "very");
+            correctionAdd("bery", "very");
+
+            correctionAdd("CD", "continuous delivery"); // Potentially conflict with CD / CD-ROM
+            correctionAdd("Continuous Delivery", "continuous delivery");
+
+            correctionAdd("CI/CD", "continuous integration/continuous delivery");
+            correctionAdd("Ci/Cd", "continuous integration/continuous delivery");
+            correctionAdd("ci/cd", "continuous integration/continuous delivery");
 
             correctionAdd("Slurm", "Slurm Workload Manager");
             correctionAdd("Simple Linux Utility for Resource Management", "Slurm Workload Manager");
@@ -5650,12 +5667,48 @@ namespace OverflowHelper.core
             correctionAdd("Click bait", "clickbait");
             correctionAdd("click-bait", "clickbait");
 
+            // General (not the specialised electronics signal meaning)
+            correctionAdd("leadin edgee", "leading edge");
+
+            correctionAdd("bleeding edge", "bleeding-edge");
+
+            correctionAdd("cutting edge", "cutting-edge");
+
+            correctionAdd("two-edged sword", "double-edged sword");
+
+            correctionAdd("edgecase", "edge case");
+            correctionAdd("edge-case", "edge case");
+
+            correctionAdd("alledged", "alleged");
+            correctionAdd("allegded", "alleged");
+            correctionAdd("alleded", "alleged");
+            correctionAdd("Alledged", "alleged");
+
+            correctionAdd("alegedly", "allegedly");
+            correctionAdd("alledgedly", "allegedly");
+            correctionAdd("allegdedly", "allegedly");
+            correctionAdd("aledgely", "allegedly");
+            correctionAdd("alledgely", "allegedly");
+            correctionAdd("Allegedly", "allegedly");
+            correctionAdd("Allejedly", "allegedly");
+            correctionAdd("allejedly", "allegedly");
+            correctionAdd("alejedly", "allegedly");
+            correctionAdd("allelegly", "allegedly");
+
+            correctionAdd("alledge", "allege");
+
             correctionAdd("ack", "acknowledge");
             correctionAdd("ackknowledge", "acknowledge");
             correctionAdd("achknowledge", "acknowledge");
             correctionAdd("acknowlegde", "acknowledge");
             correctionAdd("acknoledge", "acknowledge");
             correctionAdd("acklowledge", "acknowledge");
+
+            correctionAdd("acknowledgement", "acknowledgment");
+            correctionAdd("acknowledegement", "acknowledgment");
+            correctionAdd("acknowledegment", "acknowledgment");
+
+            correctionAdd("achknowledged", "acknowledged");
 
             correctionAdd("knowlege", "knowledge");
             correctionAdd("knowlodge", "knowledge");
@@ -5671,6 +5724,75 @@ namespace OverflowHelper.core
             correctionAdd("knowledgable", "knowledgeable");
 
             correctionAdd("Knowledge Transfer", "knowledge transfer");
+
+            correctionAdd("priv", "privilege");
+            correctionAdd("priveledges", "privilege"); // Not 100% correct - plural.
+            correctionAdd("priveledge", "privilege");
+            correctionAdd("privilegges", "privilege"); // Not 100% correct - plural.
+            correctionAdd("privilegge", "privilege");
+            correctionAdd("privileg", "privilege");
+            correctionAdd("privile", "privilege");
+            correctionAdd("privil", "privilege");
+            correctionAdd("priveliges", "privilege"); // Not 100% correct - plural.
+            correctionAdd("privelages", "privilege"); // Not 100% correct - plural.
+            correctionAdd("privs", "privilege"); // Not 100% correct - plural.
+            correctionAdd("priviledge", "privilege");
+            correctionAdd("privilage", "privilege");
+            correctionAdd("privelage", "privilege");
+            correctionAdd("privilegies", "privilege"); // Not 100% correct - plural.
+            correctionAdd("privilige", "privilege");
+            correctionAdd("previlige", "privilege");
+            correctionAdd("previliged", "privilege"); // Not 100% correct - tense.
+            correctionAdd("privlige", "privilege");
+            correctionAdd("privlege", "privilege");
+            correctionAdd("privillage", "privilege");
+            correctionAdd("privelege", "privilege");
+            correctionAdd("privilegde", "privilege");
+            correctionAdd("previlage", "privilege");
+            correctionAdd("previlege", "privilege");
+            correctionAdd("privilegie", "privilege");
+            correctionAdd("privilge", "privilege");
+            correctionAdd("privillege", "privilege");
+            correctionAdd("priveldge", "privilege");
+            correctionAdd("previledge", "privilege");
+            correctionAdd("previllage", "privilege");
+            correctionAdd("previllege", "privilege");
+            correctionAdd("Priviledge", "privilege");
+            correctionAdd("priviledges", "privilege");
+            correctionAdd("previledges", "privilege");
+            correctionAdd("preiveledge", "privilege");
+            correctionAdd("privilages", "privilege");
+            correctionAdd("privileges", "privilege");
+            correctionAdd("provilege", "privilege");
+            correctionAdd("privelige", "privilege");
+            correctionAdd("pricledge", "privilege");
+            correctionAdd("privledge", "privilege");
+            correctionAdd("prvilege", "privilege");
+
+            correctionAdd("priviledged", "privileged");
+            correctionAdd("privelaged", "privileged");
+            correctionAdd("priveleged", "privileged");
+            correctionAdd("prjvileged", "privileged");
+
+            correctionAdd("full fledged", "full-fledged");
+
+            correctionAdd("hedgefund", "hedge fund");
+
+            correctionAdd("openedge", "OpenEdge");
+
+            correctionAdd("ZK SNARK", "zk-SNARK");
+            correctionAdd("non-interactive zero-knowledge proof", "zk-SNARK");
+            correctionAdd("zkSnark", "zk-SNARK");
+            correctionAdd("ZkSnark", "zk-SNARK");
+            correctionAdd("Zk-SNARK", "zk-SNARK");
+            correctionAdd("Zk-Snark", "zk-SNARK");
+            correctionAdd("zk-Snark", "zk-SNARK");
+            correctionAdd("zkSNARK", "zk-SNARK");
+            correctionAdd("zksnark", "zk-SNARK");
+
+            correctionAdd("ZKP", "zero-knowledge proof");
+            correctionAdd("Zero Knowledge Proof", "zero-knowledge proof");
+            correctionAdd("zero knowledge proof", "zero-knowledge proof");
 
             correctionAdd("tranfer", "transfer");
             correctionAdd("Tranfer", "transfer");
@@ -6524,6 +6646,8 @@ namespace OverflowHelper.core
             correctionAdd("plagisarism", "plagiarism");
             correctionAdd("Plagiasrism", "plagiarism");
             correctionAdd("plag", "plagiarism"); // A shorthand
+            correctionAdd("Plagia", "plagiarism");
+            correctionAdd("plagia", "plagiarism");
 
             correctionAdd("plagarised", "plagiarised");
 
@@ -7428,6 +7552,16 @@ namespace OverflowHelper.core
             correctionAdd("Cascadia", "Cascadia Code");
             correctionAdd("cascadia", "Cascadia Code");
 
+            // A font
+            correctionAdd("consolas", "Consolas");
+
+            // A font
+            correctionAdd("octicons", "Octicons");
+
+            // A Windows font
+            correctionAdd("lucida console", "Lucida Console");
+
+            // What is it? A software development tool?
             correctionAdd("avocode", "Avocode");
 
             correctionAdd("ansi escape code", "ANSI escape code");
@@ -9583,6 +9717,7 @@ namespace OverflowHelper.core
             correctionAdd("c++14", "C++14");
             correctionAdd("C14", "C++14");
             correctionAdd("C14++", "C++14");
+            correctionAdd("14", "C++14");
 
             correctionAdd("c++17", "C++17");
 
@@ -10043,6 +10178,98 @@ namespace OverflowHelper.core
             correctionAdd("propperly", "properly");
             correctionAdd("proprerly", "properly");
 
+            correctionAdd("onw", "one");
+            correctionAdd("onle", "one");
+            correctionAdd("onde", "one");
+            correctionAdd("One", "one");
+            correctionAdd("wone", "one");
+
+            correctionAdd("ones", "one’s");
+            correctionAdd("One's", "one’s");
+            correctionAdd("one's", "one’s");
+
+            correctionAdd("1-to-1", "one-to-one");
+            correctionAdd("1 to 1", "one-to-one");
+            correctionAdd("one to one", "one-to-one");
+
+            correctionAdd("1-on-1", "one-on-one");
+            correctionAdd("one on one", "one-on-one");
+            correctionAdd("1on1", "one-on-one");
+            correctionAdd("1 on 1", "one-on-one");
+            correctionAdd("1:1", "one-on-one");
+
+            correctionAdd("1 Liner", "one-liner");
+            correctionAdd("one liner", "one-liner");
+            correctionAdd("oneliner", "one-liner");
+            correctionAdd("one line", "one-liner");
+            correctionAdd("1 liner", "one-liner");
+            correctionAdd("oneline", "one-liner");
+            correctionAdd("onliner", "one-liner");
+            correctionAdd("one linear", "one-liner");
+            correctionAdd("One Liner", "one-liner");
+            correctionAdd("1-liner", "one-liner");
+            correctionAdd("One liner", "one-liner");
+            correctionAdd("on-liner", "one-liner");
+
+            correctionAdd("onedrive", "OneDrive");
+            correctionAdd("one-drive", "OneDrive");
+            correctionAdd("one drive", "OneDrive");
+
+            correctionAdd("noone", "no one");
+            correctionAdd("no-one", "no one");
+            correctionAdd("No one", "no one");
+            correctionAdd("No-one", "no one");
+            correctionAdd("NOONE", "no one");
+            correctionAdd("no ne", "no one");
+            correctionAdd("no on e", "no one");
+            correctionAdd("NO ONE", "no one");
+
+            correctionAdd("some one", "someone");
+            correctionAdd("somone", "someone");
+            correctionAdd("someoone", "someone");
+            correctionAdd("Some one", "someone");
+            correctionAdd("some1", "someone");
+            correctionAdd("soemone", "someone");
+
+            correctionAdd("any one", "anyone");
+            correctionAdd("any onw", "anyone");
+            correctionAdd("anyonw", "anyone");
+            correctionAdd("any1", "anyone");
+            correctionAdd("Anyone", "anyone");
+
+            correctionAdd("every one", "everyone");
+            correctionAdd("Every1", "everyone");
+            correctionAdd("every1", "everyone");
+            correctionAdd("evryone", "everyone");
+            correctionAdd("everone", "everyone");
+            correctionAdd("Enery one", "everyone");
+            correctionAdd("Eneryone", "everyone");
+            correctionAdd("enery one", "everyone");
+
+            correctionAdd("N1", "number one");
+
+            correctionAdd("1 by 1", "one by one");
+            correctionAdd("One by One", "one by one");
+
+            correctionAdd("F1", "Formula One");
+            correctionAdd("formula one", "Formula One");
+            correctionAdd("formula 1", "Formula One");
+            correctionAdd("Formula 1", "Formula One");
+
+            correctionAdd("nexus one", "Nexus One");
+            correctionAdd("Nexus one", "Nexus One");
+
+            correctionAdd("non", "none");
+            correctionAdd("Non", "none");
+            correctionAdd("nonw", "none");
+
+            correctionAdd("stand alone", "stand-alone");
+            correctionAdd("standalone", "stand-alone");
+            correctionAdd("stand alowne", "stand-alone");
+            correctionAdd("Standalone", "stand-alone");
+
+            correctionAdd("square 1", "square one");
+
             correctionAdd("xml-python", "```lang-python");
             correctionAdd("lang-python", "```lang-python");
             correctionAdd("lang-py", "```lang-python");
@@ -10183,6 +10410,7 @@ namespace OverflowHelper.core
             correctionAdd("messender", "Facebook Messenger");
             correctionAdd("facebook messenger", "Facebook Messenger");
             correctionAdd("Facebook messenger", "Facebook Messenger");
+            correctionAdd("messager", "Facebook Messenger");
 
             correctionAdd("Metaverse", "Facebook Metaverse");
 
@@ -11265,97 +11493,6 @@ namespace OverflowHelper.core
             correctionAdd("tiff", "TIFF");
             correctionAdd("tif", "TIFF");
             correctionAdd("TIF", "TIFF");
-
-            correctionAdd("onw", "one");
-            correctionAdd("onle", "one");
-            correctionAdd("onde", "one");
-            correctionAdd("One", "one");
-
-            correctionAdd("ones", "one’s");
-            correctionAdd("One's", "one’s");
-            correctionAdd("one's", "one’s");
-
-            correctionAdd("1-to-1", "one-to-one");
-            correctionAdd("1 to 1", "one-to-one");
-            correctionAdd("one to one", "one-to-one");
-
-            correctionAdd("1-on-1", "one-on-one");
-            correctionAdd("one on one", "one-on-one");
-            correctionAdd("1on1", "one-on-one");
-            correctionAdd("1 on 1", "one-on-one");
-            correctionAdd("1:1", "one-on-one");
-
-            correctionAdd("1 Liner", "one-liner");
-            correctionAdd("one liner", "one-liner");
-            correctionAdd("oneliner", "one-liner");
-            correctionAdd("one line", "one-liner");
-            correctionAdd("1 liner", "one-liner");
-            correctionAdd("oneline", "one-liner");
-            correctionAdd("onliner", "one-liner");
-            correctionAdd("one linear", "one-liner");
-            correctionAdd("One Liner", "one-liner");
-            correctionAdd("1-liner", "one-liner");
-            correctionAdd("One liner", "one-liner");
-            correctionAdd("on-liner", "one-liner");
-
-            correctionAdd("onedrive", "OneDrive");
-            correctionAdd("one-drive", "OneDrive");
-            correctionAdd("one drive", "OneDrive");
-
-            correctionAdd("noone", "no one");
-            correctionAdd("no-one", "no one");
-            correctionAdd("No one", "no one");
-            correctionAdd("No-one", "no one");
-            correctionAdd("NOONE", "no one");
-            correctionAdd("no ne", "no one");
-            correctionAdd("no on e", "no one");
-            correctionAdd("NO ONE", "no one");
-
-            correctionAdd("some one", "someone");
-            correctionAdd("somone", "someone");
-            correctionAdd("someoone", "someone");
-            correctionAdd("Some one", "someone");
-            correctionAdd("some1", "someone");
-            correctionAdd("soemone", "someone");
-
-            correctionAdd("any one", "anyone");
-            correctionAdd("any onw", "anyone");
-            correctionAdd("anyonw", "anyone");
-            correctionAdd("any1", "anyone");
-            correctionAdd("Anyone", "anyone");
-
-            correctionAdd("every one", "everyone");
-            correctionAdd("Every1", "everyone");
-            correctionAdd("every1", "everyone");
-            correctionAdd("evryone", "everyone");
-            correctionAdd("everone", "everyone");
-            correctionAdd("Enery one", "everyone");
-            correctionAdd("Eneryone", "everyone");
-            correctionAdd("enery one", "everyone");
-
-            correctionAdd("N1", "number one");
-
-            correctionAdd("1 by 1", "one by one");
-            correctionAdd("One by One", "one by one");
-
-            correctionAdd("F1", "Formula One");
-            correctionAdd("formula one", "Formula One");
-            correctionAdd("formula 1", "Formula One");
-            correctionAdd("Formula 1", "Formula One");
-
-            correctionAdd("nexus one", "Nexus One");
-            correctionAdd("Nexus one", "Nexus One");
-
-            correctionAdd("non", "none");
-            correctionAdd("Non", "none");
-            correctionAdd("nonw", "none");
-
-            correctionAdd("stand alone", "stand-alone");
-            correctionAdd("standalone", "stand-alone");
-            correctionAdd("stand alowne", "stand-alone");
-            correctionAdd("Standalone", "stand-alone");
-
-            correctionAdd("square 1", "square one");
 
             correctionAdd("OJ", "online judge");
 
@@ -13185,6 +13322,19 @@ namespace OverflowHelper.core
 
             correctionAdd("U+2217", "ASTERISK OPERATOR");
 
+            correctionAdd("adress", "address");
+            correctionAdd("addres", "address");
+            correctionAdd("adres", "address");
+            correctionAdd("addresss", "address");
+            correctionAdd("Addres", "address");
+            correctionAdd("Address", "address");
+            correctionAdd("ADDRESSS", "address");
+            correctionAdd("ADDRESS", "address");
+            correctionAdd("addrees", "address");
+            correctionAdd("adresss", "address");
+            correctionAdd("adresse", "address");
+            correctionAdd("Adress", "address");
+
             correctionAdd("ip", "IP address");
             correctionAdd("IP", "IP address");
             correctionAdd("@IP", "IP address");
@@ -13228,18 +13378,6 @@ namespace OverflowHelper.core
             correctionAdd("MAC addr", "MAC address");
             correctionAdd("Mac Address", "MAC address");
             correctionAdd("MAC Adresse", "MAC address");
-
-            correctionAdd("adress", "address");
-            correctionAdd("addres", "address");
-            correctionAdd("adres", "address");
-            correctionAdd("addresss", "address");
-            correctionAdd("Addres", "address");
-            correctionAdd("Address", "address");
-            correctionAdd("ADDRESSS", "address");
-            correctionAdd("ADDRESS", "address");
-            correctionAdd("addrees", "address");
-            correctionAdd("adresss", "address");
-            correctionAdd("adresse", "address");
 
             correctionAdd("DDR", "DDR SDRAM");
             correctionAdd("ddr", "DDR SDRAM");
@@ -14685,6 +14823,9 @@ namespace OverflowHelper.core
             correctionAdd("reveal it", "DenverCoder9");
             correctionAdd("Denvercoder Problem", "DenverCoder9");
             correctionAdd("Denvercoder problem", "DenverCoder9");
+            correctionAdd("Denver", "DenverCoder9");
+            correctionAdd("denver", "DenverCoder9");
+            correctionAdd("left the building", "DenverCoder9");
 
             correctionAdd("Purity", "Purity (xkcd 435)");
 
@@ -15339,6 +15480,11 @@ namespace OverflowHelper.core
             correctionAdd("Internet&nbsp;Explorer 11", "Internet&nbsp;Explorer&nbsp;11");
             correctionAdd("Internet Explorer 11", "Internet&nbsp;Explorer&nbsp;11"); // Effectively self (line-breaks)
             correctionAdd("MS IE 11", "Internet&nbsp;Explorer&nbsp;11");
+
+            // Windows web browser
+            correctionAdd("edge", "Edge");
+            correctionAdd("EDGE", "Edge");
+            correctionAdd("Microsoft Edge", "Edge");
 
             correctionAdd("latin", "Latin");
 
@@ -16313,6 +16459,12 @@ namespace OverflowHelper.core
             correctionAdd("end-user", "end user");
 
             correctionAdd("multi-user", "multiuser");
+
+            // C# / .NET function
+            correctionAdd("decimal.Round", "Decimal.Round");
+
+            // C# / .NET function
+            correctionAdd("math.round", "Math.Round");
 
             // Of PowerShell...
             correctionAdd("start-transcript", "Start-Transcript");
@@ -21829,6 +21981,8 @@ namespace OverflowHelper.core
             correctionAdd("Generative AI", "generative AI");
             correctionAdd("generative ai", "generative AI");
             correctionAdd("GenAI", "generative AI");
+            correctionAdd("GanAI", "generative AI");
+            correctionAdd("generative artificial intelligence", "generative AI");
 
             correctionAdd("autoai", "AutoAI");
 
@@ -22499,50 +22653,6 @@ namespace OverflowHelper.core
             correctionAdd("recommned", "recommend");
             correctionAdd("recomment", "recommend");
             correctionAdd("reccomed", "recommend");
-
-            correctionAdd("priv", "privilege");
-            correctionAdd("priveledges", "privilege"); // Not 100% correct - plural.
-            correctionAdd("priveledge", "privilege");
-            correctionAdd("privilegges", "privilege"); // Not 100% correct - plural.
-            correctionAdd("privilegge", "privilege");
-            correctionAdd("privileg", "privilege");
-            correctionAdd("privile", "privilege");
-            correctionAdd("privil", "privilege");
-            correctionAdd("priveliges", "privilege"); // Not 100% correct - plural.
-            correctionAdd("privelages", "privilege"); // Not 100% correct - plural.
-            correctionAdd("privs", "privilege"); // Not 100% correct - plural.
-            correctionAdd("priviledge", "privilege");
-            correctionAdd("privilage", "privilege");
-            correctionAdd("privelage", "privilege");
-            correctionAdd("privilegies", "privilege"); // Not 100% correct - plural.
-            correctionAdd("privilige", "privilege");
-            correctionAdd("previlige", "privilege");
-            correctionAdd("previliged", "privilege"); // Not 100% correct - tense.
-            correctionAdd("privlige", "privilege");
-            correctionAdd("privlege", "privilege");
-            correctionAdd("privillage", "privilege");
-            correctionAdd("privelege", "privilege");
-            correctionAdd("privilegde", "privilege");
-            correctionAdd("previlage", "privilege");
-            correctionAdd("previlege", "privilege");
-            correctionAdd("privilegie", "privilege");
-            correctionAdd("privilge", "privilege");
-            correctionAdd("privillege", "privilege");
-            correctionAdd("priveldge", "privilege");
-            correctionAdd("previledge", "privilege");
-            correctionAdd("previllage", "privilege");
-            correctionAdd("previllege", "privilege");
-            correctionAdd("Priviledge", "privilege");
-            correctionAdd("priviledges", "privilege");
-            correctionAdd("previledges", "privilege");
-            correctionAdd("preiveledge", "privilege");
-            correctionAdd("privilages", "privilege");
-            correctionAdd("privileges", "privilege");
-            correctionAdd("provilege", "privilege");
-            correctionAdd("privelige", "privilege");
-            correctionAdd("pricledge", "privilege");
-            correctionAdd("privledge", "privilege");
-            correctionAdd("prvilege", "privilege");
 
             correctionAdd("UpnP", "UPnP");
 
@@ -24577,10 +24687,6 @@ namespace OverflowHelper.core
 
             correctionAdd("mvvm", "MVVM");
 
-            correctionAdd("edge", "Edge");
-            correctionAdd("EDGE", "Edge");
-            correctionAdd("Microsoft Edge", "Edge");
-
             correctionAdd("western digital", "Western Digital");
             correctionAdd("WD", "Western Digital");
 
@@ -25083,6 +25189,18 @@ namespace OverflowHelper.core
             // A Windows application
             correctionAdd("altap Salamander", "Altap Salamander");
             correctionAdd("Slamander", "Altap Salamander");
+
+            // A Windows utility / application
+            correctionAdd("Puretext", "PureText");
+
+            // Windows. NTFS.
+            correctionAdd("resource fork on Windows", "alternate data stream");
+            correctionAdd("ADS", "alternate data stream");
+            correctionAdd("Alternate Data Stream", "alternate data stream");
+            correctionAdd("Alternate Data Streams", "alternate data stream");
+
+            correctionAdd("Windows Store", "Microsoft Store");
+            correctionAdd("Windows store", "Microsoft Store");
 
             // An oscilloscope manufacturer
             correctionAdd("Tektronics", "Tektronix");
@@ -27736,11 +27854,6 @@ namespace OverflowHelper.core
             correctionAdd("POWER BI", "Power BI");
             correctionAdd("power Bi", "Power BI");
 
-            correctionAdd("alledged", "alleged");
-            correctionAdd("allegded", "alleged");
-            correctionAdd("alleded", "alleged");
-            correctionAdd("Alledged", "alleged");
-
             correctionAdd("alllow", "allow");
             correctionAdd("alow", "allow");
             correctionAdd("Alow", "allow");
@@ -29465,17 +29578,6 @@ namespace OverflowHelper.core
 
             correctionAdd("WOW64", "WoW64");
 
-            correctionAdd("alegedly", "allegedly");
-            correctionAdd("alledgedly", "allegedly");
-            correctionAdd("allegdedly", "allegedly");
-            correctionAdd("aledgely", "allegedly");
-            correctionAdd("alledgely", "allegedly");
-            correctionAdd("Allegedly", "allegedly");
-            correctionAdd("Allejedly", "allegedly");
-            correctionAdd("allejedly", "allegedly");
-            correctionAdd("alejedly", "allegedly");
-            correctionAdd("allelegly", "allegedly");
-
             correctionAdd("contiue", "continue");
             correctionAdd("countinue", "continue");
             correctionAdd("contiune", "continue");
@@ -29699,8 +29801,6 @@ namespace OverflowHelper.core
             correctionAdd("anythig", "anything");
             correctionAdd("enything", "anything");
             correctionAdd("anyting", "anything");
-
-            correctionAdd("bleeding edge", "bleeding-edge");
 
             correctionAdd("developming", "developing");
             correctionAdd("developping", "developing");
@@ -30392,8 +30492,6 @@ namespace OverflowHelper.core
             correctionAdd("eventully", "eventually");
 
             correctionAdd("fraudly", "fraudulently");
-
-            correctionAdd("full fledged", "full-fledged");
 
             correctionAdd("heatsink", "heat sink");
 
@@ -31755,10 +31853,6 @@ namespace OverflowHelper.core
 
             correctionAdd("kolkata", "Kolkata");
 
-            correctionAdd("acknowledgement", "acknowledgment");
-            correctionAdd("acknowledegement", "acknowledgment");
-            correctionAdd("acknowledegment", "acknowledgment");
-
             correctionAdd("actrocities", "atrocities");
 
             correctionAdd("collequal", "colloquial");
@@ -31870,6 +31964,7 @@ namespace OverflowHelper.core
             correctionAdd("sytem", "system");
             correctionAdd("sistem", "system");
             correctionAdd("sysytem", "system");
+            correctionAdd("systen", "system");
 
             correctionAdd("Embedded system", "embedded system");
 
@@ -33685,8 +33780,6 @@ namespace OverflowHelper.core
             correctionAdd("MSc", "Master of Science");
             correctionAdd("M.S", "Master of Science");
 
-            correctionAdd("two-edged sword", "double-edged sword");
-
             correctionAdd("after-effects", "After Effects");
             correctionAdd("after effects", "After Effects");
 
@@ -33937,8 +34030,6 @@ namespace OverflowHelper.core
             correctionAdd("AAA games", "AAA");
 
             correctionAdd("cisc", "CISC");
-
-            correctionAdd("alledge", "allege");
 
             correctionAdd("co worker", "coworker");
             correctionAdd("co-worker", "coworker");
@@ -34193,8 +34284,6 @@ namespace OverflowHelper.core
             correctionAdd("dcl", "DCL");
 
             correctionAdd("ed25519", "Ed25519");
-
-            correctionAdd("achknowledged", "acknowledged");
 
             correctionAdd("apostrofe", "apostrophe");
 
@@ -34486,11 +34575,6 @@ namespace OverflowHelper.core
             correctionAdd("unto", "into"); // Als a true typo
             correctionAdd("in to", "into");
             correctionAdd("itno", "into");
-
-            correctionAdd("priviledged", "privileged");
-            correctionAdd("privelaged", "privileged");
-            correctionAdd("priveleged", "privileged");
-            correctionAdd("prjvileged", "privileged");
 
             correctionAdd("breath", "breathe");
 
@@ -35573,10 +35657,6 @@ namespace OverflowHelper.core
 
             correctionAdd("bullet-proof", "bulletproof");
             correctionAdd("bullet proof", "bulletproof");
-
-            correctionAdd("ZKP", "zero-knowledge proof");
-            correctionAdd("Zero Knowledge Proof", "zero-knowledge proof");
-            correctionAdd("zero knowledge proof", "zero-knowledge proof");
 
             correctionAdd("lotsa", "lots of");
 
@@ -36759,14 +36839,6 @@ namespace OverflowHelper.core
             correctionAdd("sourse", "source");
             correctionAdd("Soure", "source");
             correctionAdd("soure", "source");
-
-            correctionAdd("CD", "continuous delivery"); // Potentially conflict with CD / CD-ROM
-            correctionAdd("Continuous Delivery", "continuous delivery");
-
-            correctionAdd("verry", "very");
-            correctionAdd("vary", "very");
-            correctionAdd("WEAWY", "very");
-            correctionAdd("weawy", "very");
 
             correctionAdd("BABYLON", "Babylon");
 
@@ -38449,6 +38521,7 @@ namespace OverflowHelper.core
 
             correctionAdd("cos", "cosine");
             correctionAdd("Cosine", "cosine");
+            correctionAdd("cosinus", "cosine");
 
             correctionAdd("pre-allocate", "preallocate");
 
@@ -39425,8 +39498,6 @@ namespace OverflowHelper.core
             correctionAdd("coup de grace", "coup de grâce");
 
             correctionAdd("discontinuties", "discontinuities");
-
-            correctionAdd("hedgefund", "hedge fund");
 
             correctionAdd("instistional", "institutional");
             correctionAdd("instustional", "institutional");
@@ -42289,8 +42360,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Bioinformatics", "bioinformatics");
 
-            correctionAdd("cutting edge", "cutting-edge");
-
             correctionAdd("dispell", "dispel");
 
             correctionAdd("questionaire", "questionnaire");
@@ -43122,16 +43191,6 @@ namespace OverflowHelper.core
             correctionAdd("R1CS", "Rank 1 Constraint System");
 
             correctionAdd("Icon", "icon");
-
-            correctionAdd("ZK SNARK", "zk-SNARK");
-            correctionAdd("non-interactive zero-knowledge proof", "zk-SNARK");
-            correctionAdd("zkSnark", "zk-SNARK");
-            correctionAdd("ZkSnark", "zk-SNARK");
-            correctionAdd("Zk-SNARK", "zk-SNARK");
-            correctionAdd("Zk-Snark", "zk-SNARK");
-            correctionAdd("zk-Snark", "zk-SNARK");
-            correctionAdd("zkSNARK", "zk-SNARK");
-            correctionAdd("zksnark", "zk-SNARK");
 
             correctionAdd("Neopixel", "NeoPixel");
             correctionAdd("neopixel", "NeoPixel");
@@ -44074,6 +44133,7 @@ namespace OverflowHelper.core
             correctionAdd("Criminology", "criminology");
 
             correctionAdd("differeces", "differences");
+            correctionAdd("differencies", "differences");
 
             correctionAdd("chromecast", "Chromecast");
 
@@ -44516,6 +44576,7 @@ namespace OverflowHelper.core
             correctionAdd("integreted", "integrated");
 
             correctionAdd("propertional", "proportional");
+            correctionAdd("proprortional", "proportional");
 
             correctionAdd("relys", "relies");
 
@@ -45335,8 +45396,6 @@ namespace OverflowHelper.core
             correctionAdd("Deep Space Network", "NASA Deep Space Network");
             correctionAdd("DSN", "NASA Deep Space Network");
 
-            correctionAdd("openedge", "OpenEdge");
-
             correctionAdd("stylus", "Stylus");
 
             correctionAdd("de-emphasize", "de-emphasise");
@@ -45470,9 +45529,6 @@ namespace OverflowHelper.core
             correctionAdd("Endeless", "endless");
 
             correctionAdd("non alphabetic", "nonalphabetic");
-
-            // A font
-            correctionAdd("consolas", "Consolas");
 
             correctionAdd("Docblock", "DocBlock");
             correctionAdd("docblock", "DocBlock");
@@ -46500,9 +46556,6 @@ namespace OverflowHelper.core
 
             correctionAdd("kivyMD", "KivyMD");
 
-            correctionAdd("edgecase", "edge case");
-            correctionAdd("edge-case", "edge case");
-
             correctionAdd("erroreously", "erroneously");
 
             correctionAdd("seaferer", "seafarer");
@@ -47501,10 +47554,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Kaspersky", "Kaspersky Anti-Virus");
 
-            correctionAdd("CI/CD", "continuous integration/continuous delivery");
-            correctionAdd("Ci/Cd", "continuous integration/continuous delivery");
-            correctionAdd("ci/cd", "continuous integration/continuous delivery");
-
             correctionAdd("day dreaming", "daydreaming");
 
             correctionAdd("hero page", "hero header");
@@ -47667,6 +47716,7 @@ namespace OverflowHelper.core
             correctionAdd("triage review queue", "Triage review queue");
             correctionAdd("triage", "Triage review queue");
             correctionAdd("Triage queue", "Triage review queue");
+            correctionAdd("triage queue", "Triage review queue");
 
             // Related to Stack Exchange
             correctionAdd("Suggested Edits", "Suggested edits review queue");
@@ -50809,6 +50859,7 @@ namespace OverflowHelper.core
             correctionAdd("head-hunted", "headhunted");
 
             correctionAdd("interin", "interim");
+            correctionAdd("interrim", "interim");
 
             correctionAdd("MA", "Master of Arts");
 
@@ -51082,10 +51133,7 @@ namespace OverflowHelper.core
 
             correctionAdd("golang nuts", "golang-nuts");
 
-            // A font
-            correctionAdd("octicons", "Octicons");
-
-           // See also <https://www.powerthesaurus.org/pluses_and_minuses>
+            // See also <https://www.powerthesaurus.org/pluses_and_minuses>
             correctionAdd("plus and minus", "pluses and minuses");
 
             correctionAdd("pro and con", "pros and cons");
@@ -51607,9 +51655,6 @@ namespace OverflowHelper.core
 
             correctionAdd("proven", "proved");
 
-            // A Windows utility / application
-            correctionAdd("Puretext", "PureText");
-
             correctionAdd("regolith", "Regolith");
 
             correctionAdd("sligthest", "slightest");
@@ -52020,12 +52065,6 @@ namespace OverflowHelper.core
 
             correctionAdd("admob", "AdMob");
 
-            // Windows. NTFS.
-            correctionAdd("resource fork on Windows", "alternate data stream");
-            correctionAdd("ADS", "alternate data stream");
-            correctionAdd("Alternate Data Stream", "alternate data stream");
-            correctionAdd("Alternate Data Streams", "alternate data stream");
-
             correctionAdd("anti-collision", "anticollision");
             correctionAdd("Anti collision", "anticollision");
             correctionAdd("anti collision", "anticollision");
@@ -52097,6 +52136,7 @@ namespace OverflowHelper.core
             correctionAdd("anti clockwise", "counterclockwise");
             correctionAdd("ccw", "counterclockwise");
             correctionAdd("counter-clockwise", "counterclockwise");
+            correctionAdd("counter clockwise", "counterclockwise");
 
             correctionAdd("Bellman-Ford", "Bellman–Ford algorithm");
 
@@ -52202,6 +52242,28 @@ namespace OverflowHelper.core
             correctionAdd("expirement", "experiment");
 
             correctionAdd("going forwards", "going forward");
+
+            correctionAdd("alfa-numeric", "alfanumeric");
+
+            correctionAdd("applaude", "applaud");
+
+            correctionAdd("assymetrical", "asymmetrical");
+            correctionAdd("asymetrical", "asymmetrical");
+
+            correctionAdd("charactarisation", "characterisation");
+
+            // Really "d.p.", but we can't handle that at the moment
+            correctionAdd("d.p", "decimal point");
+
+            correctionAdd("hall-mark", "hallmark");
+
+            correctionAdd("just sayin", "just saying");
+
+            correctionAdd("midpointrounding", "MidpointRounding");
+
+            correctionAdd("overloding", "overloading");
+
+            correctionAdd("leadin", "leading");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -81032,6 +81094,38 @@ namespace OverflowHelper.core
 
             URL_Add("natural language generation", "https://en.wiktionary.org/wiki/NLG#Noun");
 
+            URL_Add("alfanumeric", "https://en.wiktionary.org/wiki/alfanumeric#Adjective");
+
+            URL_Add("Amazon Translate", "https://docs.aws.amazon.com/translate/latest/dg/what-is.html");
+
+            URL_Add("applaud", "https://en.wiktionary.org/wiki/applaud#Verb");
+
+            URL_Add("asymmetrical", "https://en.wiktionary.org/wiki/asymmetrical#Adjective");
+
+            URL_Add("characterisation", "https://en.wiktionary.org/wiki/characterisation#Noun");
+
+            URL_Add("decimal point", "https://en.wiktionary.org/wiki/decimal_point#Noun");
+
+            URL_Add("Decimal.Round", "https://learn.microsoft.com/en-us/dotnet/api/system.decimal.round");
+
+            URL_Add("hallmark", "https://en.wiktionary.org/wiki/hallmark#Noun");
+
+            URL_Add("just saying", "https://en.wiktionary.org/wiki/just_saying#Adverb");
+
+            URL_Add("Lucida Console", "https://en.wikipedia.org/wiki/Lucida#Lucida_Console");
+
+            URL_Add("Math.Round", "https://learn.microsoft.com/en-us/dotnet/api/system.math.round");
+
+            URL_Add("Microsoft Store", "https://en.wikipedia.org/wiki/Microsoft_Store");
+
+            URL_Add("MidpointRounding", "https://learn.microsoft.com/en-us/dotnet/api/system.midpointrounding");
+
+            URL_Add("overloading", "https://en.wiktionary.org/wiki/overloading#Noun");
+
+            URL_Add("leading", "https://en.wiktionary.org/wiki/leading#Adjective");
+
+            URL_Add("leading edge", "https://en.wiktionary.org/wiki/leading_edge#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -82595,6 +82689,12 @@ namespace OverflowHelper.core
             correctionAdd("LLMs_", "large language model_");
             correctionAdd("Large Language Model_", "large language model_");
 
+            // AI
+            correctionAdd("Large Language Model Meta AI_", "LLaMA_");
+
+            // AI
+            correctionAdd("gpt_", "GPT_");
+
             correctionAdd("ifr_", "IFR_");
 
             correctionAdd("icecream_", "ice cream_");
@@ -83228,6 +83328,8 @@ namespace OverflowHelper.core
             correctionAdd("burned_", "burninated_");
 
             correctionAdd("start up_", "startup_");
+
+            correctionAdd("edgee_", "edge_");
 
             // URL mappings
             //
@@ -84473,6 +84575,12 @@ namespace OverflowHelper.core
             URL_Add("burninated_", "https://meta.stackoverflow.com/tags/burninate-request/info");
 
             URL_Add("startup_", "https://en.wiktionary.org/wiki/startup#Noun");
+
+            URL_Add("GPT_", "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer");
+
+            URL_Add("LLaMA_", "https://en.wikipedia.org/wiki/LLaMA");
+
+            URL_Add("edge_", "https://en.wiktionary.org/wiki/edge#Noun");
 
         } //addLookupData_alternativeWordSet()
 
