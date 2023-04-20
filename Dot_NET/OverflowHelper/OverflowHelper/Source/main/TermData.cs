@@ -644,6 +644,7 @@ namespace OverflowHelper.core
             correctionAdd("WSL", "Windows Subsystem for Linux");
             correctionAdd("Windows subsystem for Linux", "Windows Subsystem for Linux");
             correctionAdd("Linux Sub-System for Windows", "Windows Subsystem for Linux");
+            correctionAdd("Windows Subsystem For Linux", "Windows Subsystem for Linux");
 
             correctionAdd("WSL2", "WSL 2");
             correctionAdd("WSL-2", "WSL 2");
@@ -2955,6 +2956,7 @@ namespace OverflowHelper.core
             correctionAdd("Min", "minimum");
             correctionAdd("minimun", "minimum");
             correctionAdd("minim", "minimum");
+            correctionAdd("minum", "minimum");
 
             correctionAdd("max", "maximum");
             correctionAdd("maxium", "maximum");
@@ -6630,6 +6632,7 @@ namespace OverflowHelper.core
             correctionAdd("StackOverflow Teams", "Stack Overflow for Teams");
             correctionAdd("Stack Overflow teams", "Stack Overflow for Teams");
             correctionAdd("Stack Overflow Teams", "Stack Overflow for Teams");
+            correctionAdd("Stack Overflow For Teams", "Stack Overflow for Teams");
 
             correctionAdd("not a forum", "Stack Overflow is not a forum");
             correctionAdd("isn't a forum", "Stack Overflow is not a forum");
@@ -12429,6 +12432,7 @@ namespace OverflowHelper.core
             correctionAdd("temple OS", "TempleOS");
             correctionAdd("TEMPLEOS", "TempleOS");
             correctionAdd("TEMPLE OS", "TempleOS");
+            correctionAdd("Templeos", "TempleOS");
 
             correctionAdd("webOS", "WebOS");
 
@@ -17322,6 +17326,8 @@ namespace OverflowHelper.core
             correctionAdd("regedit", "RegEdit");
 
             correctionAdd("BBedit", "BBEdit");
+            correctionAdd("Bbedit", "BBEdit");
+            correctionAdd("bbedit", "BBEdit");
 
             correctionAdd("Slickedit", "SlickEdit");
 
@@ -20039,6 +20045,7 @@ namespace OverflowHelper.core
             correctionAdd("Characters", "characters");
             correctionAdd("haracter", "characters");
             correctionAdd("haracters", "characters");
+            correctionAdd("charactar", "characters");
 
             correctionAdd("MarkDown", "Markdown");
             correctionAdd("markdown", "Markdown");
@@ -22806,6 +22813,7 @@ namespace OverflowHelper.core
             correctionAdd("infra-red", "infrared");
 
             correctionAdd("bsd", "BSD");
+            correctionAdd("Bsd", "BSD");
 
             correctionAdd("CAN Bus", "CAN bus");
             correctionAdd("CANbus", "CAN bus");
@@ -25760,10 +25768,16 @@ namespace OverflowHelper.core
             correctionAdd("chalenge", "challenge");
             correctionAdd("chalendge", "challenge");
 
+            // A Python distribution
             correctionAdd("anaconda", "Anaconda");
             correctionAdd("anonconda", "Anaconda");
             correctionAdd("Annaconda", "Anaconda");
 
+            // A bootstrap version of Anaconda. Python
+            correctionAdd("miniconda", "Miniconda");
+            correctionAdd("MiniConda", "Miniconda");
+
+            // A Python package manager
             correctionAdd("conda", "Conda");
             correctionAdd("Condo", "Conda");
             correctionAdd("condo", "Conda");
@@ -25950,6 +25964,7 @@ namespace OverflowHelper.core
             correctionAdd("OpenJDk", "OpenJDK");
             correctionAdd("OpenJdk", "OpenJDK");
             correctionAdd("Open Jdk", "OpenJDK");
+            correctionAdd("openJdk", "OpenJDK");
 
             correctionAdd("instanciate", "instantiate");
             correctionAdd("inatantiate", "instantiate");
@@ -27887,6 +27902,7 @@ namespace OverflowHelper.core
             correctionAdd("Digital Ocean", "DigitalOcean");
             correctionAdd("digital ocean", "DigitalOcean");
             correctionAdd("DO", "DigitalOcean");
+            correctionAdd("Digitalocean", "DigitalOcean");
 
             correctionAdd("fifo", "FIFO");
             correctionAdd("Fifo", "FIFO");
@@ -33746,6 +33762,7 @@ namespace OverflowHelper.core
             correctionAdd("For what it's worth", "for what it's worth");
 
             correctionAdd("apl", "APL");
+            correctionAdd("Apl", "APL");
 
             correctionAdd("bpel", "BPEL");
 
@@ -42838,6 +42855,7 @@ namespace OverflowHelper.core
 
             correctionAdd("fortran 90", "Fortran 90");
             correctionAdd("fortran90", "Fortran 90");
+            correctionAdd("Fortran90", "Fortran 90");
 
             correctionAdd("FCRON", "fcron");
 
@@ -49015,9 +49033,6 @@ namespace OverflowHelper.core
 
             correctionAdd("manchester encoding", "Manchester encoding");
 
-            correctionAdd("miniconda", "Miniconda");
-            correctionAdd("MiniConda", "Miniconda");
-
             correctionAdd("Regular expressions 101", "Regex101");
             correctionAdd("regex101", "Regex101");
             correctionAdd("RegEx101", "Regex101");
@@ -52172,6 +52187,7 @@ namespace OverflowHelper.core
 
             // Programming tool, allegedly powered by AI
             correctionAdd("tabnine", "Tabnine");
+            correctionAdd("TabNine", "Tabnine");
 
             correctionAdd("handlebars", "Handlebars.js");
             correctionAdd("Handlebars", "Handlebars.js");
@@ -52298,6 +52314,10 @@ namespace OverflowHelper.core
             correctionAdd("pro-tem", "pro tem");
 
             correctionAdd("up-tick", "uptick");
+
+            correctionAdd("monday.com", "Monday.com");
+
+            correctionAdd("Ipados", "iPadOS");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -81181,6 +81201,10 @@ namespace OverflowHelper.core
             URL_Add("Stack Overflow Trends", "https://insights.stackoverflow.com/trends?tags=");
 
             URL_Add("uptick", "https://en.wiktionary.org/wiki/uptick#Noun");
+
+            URL_Add("Monday.com", "https://en.wikipedia.org/wiki/Monday.com");
+
+            URL_Add("iPadOS", "https://en.wikipedia.org/wiki/IPadOS");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
