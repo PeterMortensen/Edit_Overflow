@@ -4178,6 +4178,7 @@ namespace OverflowHelper.core
             correctionAdd("bashprofile", ".bash_profile");
             correctionAdd("bash profile", ".bash_profile");
             correctionAdd(".bashprofile", ".bash_profile");
+            correctionAdd("~/.bash_profile", ".bash_profile");
 
             // Bash. Linux.
             //
@@ -4569,6 +4570,18 @@ namespace OverflowHelper.core
             correctionAdd("Busybox", "BusyBox");
             correctionAdd("busy box", "BusyBox");
             correctionAdd("busybox", "BusyBox");
+
+            correctionAdd("Zsh", "Z shell");
+            correctionAdd("zsh", "Z shell");
+            correctionAdd("ZSH", "Z shell");
+            correctionAdd("Z-shell", "Z shell");
+            correctionAdd("ZSH Shell", "Z shell");
+            correctionAdd("zsh shell", "Z shell");
+            correctionAdd("Z Shell", "Z shell");
+            correctionAdd("z shell", "Z shell");
+            correctionAdd("ZShell", "Z shell");
+
+            correctionAdd("oh-my-zsh", "Oh My Zsh");
 
             // Bash. Linux.
             correctionAdd("zshrc", ".zshrc");
@@ -5667,6 +5680,29 @@ namespace OverflowHelper.core
             correctionAdd("Click bait", "clickbait");
             correctionAdd("click-bait", "clickbait");
 
+            // Our galaxy
+            correctionAdd("milky way", "Milky Way");
+            correctionAdd("Milkyway", "Milky Way");
+
+            correctionAdd("Andromeda galaxy", "Andromeda Galaxy");
+            correctionAdd("M31", "Andromeda Galaxy");
+
+            correctionAdd("hitch-hike", "hitchhike");
+            correctionAdd("hitch hike", "hitchhike");
+
+            correctionAdd("hitchhiker", "The Hitchhiker's Guide to the Galaxy");
+            correctionAdd("HHGTTG", "The Hitchhiker's Guide to the Galaxy");
+            correctionAdd("Hitchhiker", "The Hitchhiker's Guide to the Galaxy");
+
+            // Astronomy (though also featured in The Hitchhiker's Guide to the Galaxy)
+            correctionAdd("ursa major", "Ursa Major");
+
+            // In 'The Hitchhiker's Guide to the Galaxy'
+            correctionAdd("leading theory", "a leading theory");
+            correctionAdd("a theory", "a leading theory");
+
+            correctionAdd("leadin", "leading");
+
             // General (not the specialised electronics signal meaning)
             correctionAdd("leadin edgee", "leading edge");
 
@@ -6504,6 +6540,7 @@ namespace OverflowHelper.core
             correctionAdd("StackX", "Stack&nbsp;Exchange");
             correctionAdd("S/E", "Stack&nbsp;Exchange");
             correctionAdd("Stach Exchange", "Stack&nbsp;Exchange");
+            correctionAdd("se.com", "Stack&nbsp;Exchange");
 
             // Joke answer on Stack Exchange about Jon Skeet. Stack Exchange. Stack Overflow.
             correctionAdd("chuck norris question", "Chuck Norris question");
@@ -6725,6 +6762,14 @@ namespace OverflowHelper.core
             correctionAdd("6 to 8 weeks", "6 - 8 weeks");
             correctionAdd("6 to 8", "6 - 8 weeks");
             correctionAdd("6-8 weeks", "6 - 8 weeks");
+
+            // Stack Overflow
+            correctionAdd("Not an answer", "not an answer");
+            correctionAdd("NAA", "not an answer");
+            correctionAdd("Not An Answer", "not an answer");
+
+            // Stack Overflow
+            correctionAdd("StackOverflow Trends", "Stack Overflow Trends");
 
             //  Start of Stack Exchange site list (not
             //  complete (only added on demand))
@@ -8534,6 +8579,11 @@ namespace OverflowHelper.core
 
             // Python
             correctionAdd("Pickle", "pickle");
+
+            // Python
+            correctionAdd("spotipy", "Spotipy");
+
+            correctionAdd("pylance", "Pylance");
 
             correctionAdd("coy", "copy");
 
@@ -20468,6 +20518,7 @@ namespace OverflowHelper.core
             correctionAdd("derectly", "directly");
             correctionAdd("direclty", "directly");
             correctionAdd("directyl", "directly");
+            correctionAdd("directily", "directly");
 
             correctionAdd("cwd", "current working directory");
             correctionAdd("CWD", "current working directory");
@@ -29066,6 +29117,7 @@ namespace OverflowHelper.core
             correctionAdd("likleyhood", "likelihood");
             correctionAdd("likelyhood", "likelihood");
             correctionAdd("Likelyhood", "likelihood");
+            correctionAdd("liklihood", "likelihood");
 
             correctionAdd("monetization", "monetisation");
             correctionAdd("monitasation", "monetisation");
@@ -30510,16 +30562,6 @@ namespace OverflowHelper.core
 
             correctionAdd("tft", "TFT");
 
-            correctionAdd("Zsh", "Z shell");
-            correctionAdd("zsh", "Z shell");
-            correctionAdd("ZSH", "Z shell");
-            correctionAdd("Z-shell", "Z shell");
-            correctionAdd("ZSH Shell", "Z shell");
-            correctionAdd("zsh shell", "Z shell");
-            correctionAdd("Z Shell", "Z shell");
-            correctionAdd("z shell", "Z shell");
-            correctionAdd("ZShell", "Z shell");
-
             correctionAdd("case-insensitive", "case insensitive");
             correctionAdd("caseinsensitive", "case insensitive");
             correctionAdd("case in-sensitive", "case insensitive");
@@ -31222,27 +31264,6 @@ namespace OverflowHelper.core
             correctionAdd("schmit-cassegrain", "Schmidt–Cassegrain");
             correctionAdd("schmitt cassegrain", "Schmidt–Cassegrain");
             correctionAdd("Cassegrain", "Schmidt–Cassegrain");
-
-            // Our galaxy
-            correctionAdd("milky way", "Milky Way");
-            correctionAdd("Milkyway", "Milky Way");
-
-            correctionAdd("Andromeda galaxy", "Andromeda Galaxy");
-            correctionAdd("M31", "Andromeda Galaxy");
-
-            correctionAdd("hitch-hike", "hitchhike");
-            correctionAdd("hitch hike", "hitchhike");
-
-            correctionAdd("hitchhiker", "The Hitchhiker's Guide to the Galaxy");
-            correctionAdd("HHGTTG", "The Hitchhiker's Guide to the Galaxy");
-            correctionAdd("Hitchhiker", "The Hitchhiker's Guide to the Galaxy");
-
-            // In 'The Hitchhiker's Guide to the Galaxy'
-            correctionAdd("leading theory", "a leading theory");
-            correctionAdd("a theory", "a leading theory");
-
-            // Astronomy (though also featured in The Hitchhiker's Guide to the Galaxy)
-            correctionAdd("ursa major", "Ursa Major");
 
             correctionAdd("Interstellar", "interstellar");
 
@@ -36861,6 +36882,7 @@ namespace OverflowHelper.core
 
             correctionAdd("cross posted", "crossposted");
             correctionAdd("Cross posted", "crossposted");
+            correctionAdd("Crossposted", "crossposted");
 
             correctionAdd("postet", "posted");
             correctionAdd("psoted", "posted");
@@ -40198,6 +40220,7 @@ namespace OverflowHelper.core
             correctionAdd("horde", "hoard");
 
             correctionAdd("re-compile", "recompile");
+            correctionAdd("re compile", "recompile");
 
             correctionAdd("tbqh", "to be quite honest");
 
@@ -41372,6 +41395,7 @@ namespace OverflowHelper.core
             correctionAdd("saxon", "Saxon");
 
             correctionAdd("STAX", "StAX");
+            correctionAdd("stax", "StAX");
 
             correctionAdd("universe sandbox", "Universe Sandbox");
 
@@ -46125,11 +46149,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Exemplary", "exemplary");
 
-            // Stack Overflow
-            correctionAdd("Not an answer", "not an answer");
-            correctionAdd("NAA", "not an answer");
-            correctionAdd("Not An Answer", "not an answer");
-
             correctionAdd("anwser", "answer");
             correctionAdd("awnser", "answer");
             correctionAdd("anwswer", "answer");
@@ -48997,6 +49016,7 @@ namespace OverflowHelper.core
             correctionAdd("manchester encoding", "Manchester encoding");
 
             correctionAdd("miniconda", "Miniconda");
+            correctionAdd("MiniConda", "Miniconda");
 
             correctionAdd("Regular expressions 101", "Regex101");
             correctionAdd("regex101", "Regex101");
@@ -51754,6 +51774,7 @@ namespace OverflowHelper.core
             correctionAdd("late-comer", "latecomer");
 
             correctionAdd("mis-clicked", "misclicked");
+            correctionAdd("miss-clicked", "misclicked");
 
             correctionAdd("netetiquette", "netiquette");
 
@@ -52005,9 +52026,6 @@ namespace OverflowHelper.core
             correctionAdd("inspecter", "Inspector");
 
             correctionAdd("landsapce", "landscape");
-
-            // Python
-            correctionAdd("spotipy", "Spotipy");
 
             correctionAdd("Autocorrelation", "autocorrelation");
 
@@ -52263,7 +52281,23 @@ namespace OverflowHelper.core
 
             correctionAdd("overloding", "overloading");
 
-            correctionAdd("leadin", "leading");
+            correctionAdd("counterindication", "contraindication");
+            correctionAdd("counter indication", "contraindication");
+
+            correctionAdd("Shapesheet", "ShapeSheet");
+            correctionAdd("shapesheet", "ShapeSheet");
+
+            correctionAdd("woodstox", "Woodstox");
+
+            correctionAdd("efect", "effect");
+
+            correctionAdd("moderat", "moderate");
+
+            correctionAdd("omni-presence", "omnipresence");
+
+            correctionAdd("pro-tem", "pro tem");
+
+            correctionAdd("up-tick", "uptick");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -81125,6 +81159,28 @@ namespace OverflowHelper.core
             URL_Add("leading", "https://en.wiktionary.org/wiki/leading#Adjective");
 
             URL_Add("leading edge", "https://en.wiktionary.org/wiki/leading_edge#Noun");
+
+            URL_Add("contraindication", "https://en.wiktionary.org/wiki/contraindication#Noun");
+
+            URL_Add("Pylance", "https://devblogs.microsoft.com/python/announcing-pylance-fast-feature-rich-language-support-for-python-in-visual-studio-code/");
+
+            URL_Add("ShapeSheet", "https://learn.microsoft.com/en-us/office/client-developer/visio/concepts-visio-shapesheet");
+
+            URL_Add("Woodstox", "https://github.com/FasterXML/woodstox");
+
+            URL_Add("effect", "https://en.wiktionary.org/wiki/effect#Noun");
+
+            URL_Add("moderate", "https://en.wiktionary.org/wiki/moderate#Verb");
+
+            URL_Add("Oh My Zsh", "https://github.com/ohmyzsh/ohmyzsh");
+
+            URL_Add("omnipresence", "https://en.wiktionary.org/wiki/omnipresence#Noun");
+
+            URL_Add("pro tem", "https://en.wiktionary.org/wiki/pro_tem#Adjective");
+
+            URL_Add("Stack Overflow Trends", "https://insights.stackoverflow.com/trends?tags=");
+
+            URL_Add("uptick", "https://en.wiktionary.org/wiki/uptick#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
