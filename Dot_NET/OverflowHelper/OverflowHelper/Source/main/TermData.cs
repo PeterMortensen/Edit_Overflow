@@ -4484,6 +4484,7 @@ namespace OverflowHelper.core
                                                  // italics in this case)...
 
             correctionAdd("aix", "AIX");
+            correctionAdd("Aix", "AIX");
 
             correctionAdd("TAIL", "tail");
 
@@ -7538,6 +7539,7 @@ namespace OverflowHelper.core
             correctionAdd("codium", "VSCodium");
             correctionAdd("Codium", "VSCodium");
             correctionAdd("vscodium", "VSCodium");
+            correctionAdd("Vscodium", "VSCodium");
 
             correctionAdd("leet code", "LeetCode");
             correctionAdd("Leetcode", "LeetCode");
@@ -11992,6 +11994,7 @@ namespace OverflowHelper.core
             correctionAdd(".NET MAUI", "Multi-platform App UI");
             correctionAdd("maui", "Multi-platform App UI");
             correctionAdd(".net maui", "Multi-platform App UI");
+            correctionAdd(".Net Maui", "Multi-platform App UI");
 
             correctionAdd("DNNE", ".NET native exports");
 
@@ -13222,6 +13225,7 @@ namespace OverflowHelper.core
             correctionAdd("couchdb", "CouchDB");
             correctionAdd("Couchdb", "CouchDB");
             correctionAdd("CouchDb", "CouchDB");
+            correctionAdd("Couch DB", "CouchDB");
 
             correctionAdd("struts", "Struts");
             correctionAdd("s2", "Struts"); // Actually Struts 2.
@@ -15678,6 +15682,7 @@ namespace OverflowHelper.core
             correctionAdd("Rabbit MQ", "RabbitMQ");
             correctionAdd("rabbitmq", "RabbitMQ");
             correctionAdd("rabbit mq", "RabbitMQ");
+            correctionAdd("Rabbitmq", "RabbitMQ");
 
             correctionAdd("esp", "especially");
             correctionAdd("especally", "especially");
@@ -18474,6 +18479,7 @@ namespace OverflowHelper.core
             correctionAdd("redmine", "Redmine");
 
             correctionAdd("Ruby Mine", "RubyMine");
+            correctionAdd("Rubymine", "RubyMine");
 
             correctionAdd("Methamphetamine", "methamphetamine");
 
@@ -28937,6 +28943,7 @@ namespace OverflowHelper.core
             correctionAdd("mern", "MERN");
 
             correctionAdd("neo4j", "Neo4j");
+            correctionAdd("Neo4J", "Neo4j");
 
             correctionAdd("nigerian", "Nigerian");
 
@@ -34947,6 +34954,7 @@ namespace OverflowHelper.core
             correctionAdd("Swift UI", "SwiftUI");
             correctionAdd("SwiftUi", "SwiftUI");
             correctionAdd("swiftui", "SwiftUI");
+            correctionAdd("Swiftui", "SwiftUI");
 
             correctionAdd("deam", "deem");
 
@@ -36958,6 +36966,7 @@ namespace OverflowHelper.core
             correctionAdd("kafka", "Kafka");
             correctionAdd("kafa", "Kafka");
             correctionAdd("kakfa", "Kafka");
+            correctionAdd("Apache Kafka", "Kafka");
 
             correctionAdd("OpenBox", "Openbox");
             correctionAdd("openbox", "Openbox");
@@ -41586,6 +41595,7 @@ namespace OverflowHelper.core
 
             correctionAdd("sklearn", "scikit-learn");
             correctionAdd("Scikit-learn", "scikit-learn");
+            correctionAdd("Scikit-Learn", "scikit-learn");
 
             correctionAdd("micrometer", "μm");
             correctionAdd("um", "μm");
@@ -46733,6 +46743,7 @@ namespace OverflowHelper.core
             correctionAdd("sportmanship", "sportsmanship");
 
             correctionAdd("fastapi", "FastAPI");
+            correctionAdd("Fastapi", "FastAPI");
 
             correctionAdd("Maxwell's Demon", "Maxwell's demon");
 
@@ -52325,6 +52336,7 @@ namespace OverflowHelper.core
             correctionAdd("monday.com", "Monday.com");
 
             correctionAdd("Ipados", "iPadOS");
+            correctionAdd("IpadOS", "iPadOS");
 
             correctionAdd("APAC", "Asia-Pacific");
 
@@ -52339,6 +52351,8 @@ namespace OverflowHelper.core
             correctionAdd("given up", "Stack Overflow gave up enforcing the license");
 
             correctionAdd("tidb", "TiDB");
+
+            correctionAdd("Youtrack", "YouTrack");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -81240,6 +81254,8 @@ namespace OverflowHelper.core
             URL_Add("Stack Overflow gave up enforcing the license", "https://meta.stackoverflow.com/a/413407");
 
             URL_Add("TiDB", "https://en.wikipedia.org/wiki/TiDB");
+
+            URL_Add("YouTrack", "https://en.wikipedia.org/wiki/YouTrack");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
