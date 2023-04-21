@@ -6474,6 +6474,8 @@ namespace OverflowHelper.core
             correctionAdd("StackOvereflow", "Stack&nbsp;Overflow");
             correctionAdd("stockoverflown", "Stack&nbsp;Overflow");
             correctionAdd("ST", "Stack&nbsp;Overflow");
+            correctionAdd("StackOverflow.com", "Stack&nbsp;Overflow");
+            correctionAdd("stackoverflow.com", "Stack&nbsp;Overflow");
 
             correctionAdd("SE", "Stack&nbsp;Exchange");
             correctionAdd("stackexchange", "Stack&nbsp;Exchange");
@@ -16408,6 +16410,8 @@ namespace OverflowHelper.core
 
             correctionAdd("CosmoDB", "Azure Cosmos DB");
             correctionAdd("CosmosDB", "Azure Cosmos DB");
+            correctionAdd("Cosmos DB", "Azure Cosmos DB");
+            correctionAdd("DBCosmos", "Azure Cosmos DB");
 
             correctionAdd("azure devops", "Azure DevOps");
             correctionAdd("Azure Devops", "Azure DevOps");
@@ -18781,6 +18785,7 @@ namespace OverflowHelper.core
             correctionAdd("Dependending", "depending");
             correctionAdd("dependending", "depending");
             correctionAdd("deppending", "depending");
+            correctionAdd("depnding", "depending");
 
             correctionAdd("dependance", "dependence");
 
@@ -30242,6 +30247,7 @@ namespace OverflowHelper.core
 
             correctionAdd("WIRED Magazine", "Wired");
             correctionAdd("\"WIRED\" Magazine", "Wired");
+            correctionAdd("WIRED", "Wired");
 
             correctionAdd("analyics", "analytics");
 
@@ -48888,6 +48894,7 @@ namespace OverflowHelper.core
             correctionAdd("disproven", "disproved");
 
             correctionAdd("Cockroach DB", "CockroachDB");
+            correctionAdd("Cockroach", "CockroachDB");
 
             correctionAdd("OCI", "Open Container Initiative");
 
@@ -52318,6 +52325,20 @@ namespace OverflowHelper.core
             correctionAdd("monday.com", "Monday.com");
 
             correctionAdd("Ipados", "iPadOS");
+
+            correctionAdd("APAC", "Asia-Pacific");
+
+            correctionAdd("EMEA", "Europe, the Middle East and Africa");
+
+            correctionAdd("Gdscript", "GDScript");
+
+            correctionAdd("halftruth", "half-truth");
+
+            correctionAdd("Rad Studio", "RAD Studio");
+
+            correctionAdd("given up", "Stack Overflow gave up enforcing the license");
+
+            correctionAdd("tidb", "TiDB");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -81206,6 +81227,20 @@ namespace OverflowHelper.core
 
             URL_Add("iPadOS", "https://en.wikipedia.org/wiki/IPadOS");
 
+            URL_Add("Asia-Pacific", "https://en.wikipedia.org/wiki/APAC");
+
+            URL_Add("Europe, the Middle East and Africa", "https://en.wikipedia.org/wiki/Europe,_the_Middle_East_and_Africa");
+
+            URL_Add("GDScript", "https://en.wikipedia.org/wiki/Godot_(game_engine)#GDScript");
+
+            URL_Add("half-truth", "https://en.wiktionary.org/wiki/half-truth#Noun");
+
+            URL_Add("RAD Studio", "https://en.wikipedia.org/wiki/Delphi_(software)");
+
+            URL_Add("Stack Overflow gave up enforcing the license", "https://meta.stackoverflow.com/a/413407");
+
+            URL_Add("TiDB", "https://en.wikipedia.org/wiki/TiDB");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -83411,6 +83446,8 @@ namespace OverflowHelper.core
 
             correctionAdd("edgee_", "edge_");
 
+            correctionAdd("glitch_", "Glitch_");
+
             // URL mappings
             //
             //
@@ -84661,6 +84698,8 @@ namespace OverflowHelper.core
             URL_Add("LLaMA_", "https://en.wikipedia.org/wiki/LLaMA");
 
             URL_Add("edge_", "https://en.wiktionary.org/wiki/edge#Noun");
+
+            URL_Add("Glitch_", "https://en.wikipedia.org/wiki/Glitch_(New_York_company)");
 
         } //addLookupData_alternativeWordSet()
 
