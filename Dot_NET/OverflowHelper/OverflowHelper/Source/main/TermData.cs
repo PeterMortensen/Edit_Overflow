@@ -11995,6 +11995,7 @@ namespace OverflowHelper.core
             correctionAdd("maui", "Multi-platform App UI");
             correctionAdd(".net maui", "Multi-platform App UI");
             correctionAdd(".Net Maui", "Multi-platform App UI");
+            correctionAdd("Maui", "Multi-platform App UI");
 
             correctionAdd("DNNE", ".NET native exports");
 
@@ -21486,6 +21487,7 @@ namespace OverflowHelper.core
 
             correctionAdd("db2", "DB2");
             correctionAdd("Db2", "DB2");
+            correctionAdd("IBM DB2", "DB2");
 
             correctionAdd("led", "LED");
             correctionAdd("Led", "LED");
@@ -52354,6 +52356,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Youtrack", "YouTrack");
 
+            correctionAdd("firebird", "Firebird");
+
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -81257,6 +81261,8 @@ namespace OverflowHelper.core
 
             URL_Add("YouTrack", "https://en.wikipedia.org/wiki/YouTrack");
 
+            URL_Add("Firebird", "https://en.wikipedia.org/wiki/Firebird_(database_server)");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -83464,6 +83470,10 @@ namespace OverflowHelper.core
 
             correctionAdd("glitch_", "Glitch_");
 
+            // The Linux development framework (not to be 
+            // confused with .NET MAUI.
+            correctionAdd("Maui_", "Multi-Adaptable User Interface_");
+
             // URL mappings
             //
             //
@@ -84716,6 +84726,8 @@ namespace OverflowHelper.core
             URL_Add("edge_", "https://en.wiktionary.org/wiki/edge#Noun");
 
             URL_Add("Glitch_", "https://en.wikipedia.org/wiki/Glitch_(New_York_company)");
+
+            URL_Add("Multi-Adaptable User Interface_", "https://mauikit.org/");
 
         } //addLookupData_alternativeWordSet()
 
