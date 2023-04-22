@@ -2136,6 +2136,7 @@ namespace OverflowHelper.core
             correctionAdd("Java FX", "JavaFX");
             correctionAdd("Java Fax", "JavaFX");
             correctionAdd("Java Fx", "JavaFX");
+            correctionAdd("Javafx", "JavaFX");
 
             // ME = Micro Edition
             // Old name: "Java ME was formerly known as Java 2 Platform, Micro Edition (J2ME)".
@@ -28962,6 +28963,8 @@ namespace OverflowHelper.core
             correctionAdd("intellj", "IntelliJ IDEA");
             correctionAdd("intellj idea", "IntelliJ IDEA");
             correctionAdd("itelliJ", "IntelliJ IDEA");
+            correctionAdd("Intelij", "IntelliJ IDEA");
+            correctionAdd("itellij", "IntelliJ IDEA");
 
             // An IDE.
             correctionAdd("rider", "Rider");
@@ -30912,6 +30915,7 @@ namespace OverflowHelper.core
             correctionAdd("interrrupt", "interrupt");
 
             correctionAdd("kindergarden", "kindergarten");
+            correctionAdd("Kindergarden", "kindergarten");
 
             correctionAdd("man", "man page");
             correctionAdd("Man page", "man page");
@@ -34947,6 +34951,7 @@ namespace OverflowHelper.core
             correctionAdd("repreasent", "represent");
 
             correctionAdd("repsentation", "representation");
+            correctionAdd("repr", "representation");
 
             correctionAdd("representitive", "representative");
 
@@ -47111,6 +47116,8 @@ namespace OverflowHelper.core
             correctionAdd("Catch-all", "catch-all");
             correctionAdd("Catchall", "catch-all");
             correctionAdd("catchall", "catch-all");
+            correctionAdd("catch all", "catch-all");
+            correctionAdd("catch them all", "catch-all");
 
             correctionAdd("Expr", "expr");
 
@@ -52289,6 +52296,18 @@ namespace OverflowHelper.core
             correctionAdd("min heap", "binary min heap");
             correctionAdd("binary heap", "binary min heap");
             correctionAdd("minheap", "binary min heap");
+            correctionAdd("min-heap", "binary min heap");
+
+            correctionAdd("MaxHeap", "binary max heap");
+            correctionAdd("max Heap", "binary max heap");
+            correctionAdd("max heap", "binary max heap");
+            correctionAdd("max-heap", "binary max heap");
+            correctionAdd("maxHeap", "binary max heap");
+
+            // A Python module
+            correctionAdd("HEAPQ", "heapq");
+
+            correctionAdd("swaping", "swapping");
 
             correctionAdd("dijkstra's algorithm", "Dijkstra's algorithm");
 
@@ -81351,6 +81370,12 @@ namespace OverflowHelper.core
             URL_Add("Harvard CS50", "https://en.wikipedia.org/wiki/CS50");
 
             URL_Add("Retrocomputing (Stack Exchange site)", "https://retrocomputing.stackexchange.com/tour");
+
+            URL_Add("binary max heap", "https://en.wikipedia.org/wiki/Binary_heap");
+
+            URL_Add("heapq", "https://docs.python.org/3.8/library/heapq.html");
+
+            URL_Add("swapping", "https://en.wiktionary.org/wiki/swap#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
