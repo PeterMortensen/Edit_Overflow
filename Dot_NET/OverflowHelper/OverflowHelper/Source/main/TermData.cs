@@ -4831,6 +4831,7 @@ namespace OverflowHelper.core
             // DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
             ////////////////////////////////////////////////////////////////
             correctionAdd("BLE", "Bluetooth LE");
+            correctionAdd("ble", "Bluetooth LE");
 
             correctionAdd("Pdf", "PDF");
             correctionAdd("pdf", "PDF");
@@ -6362,6 +6363,7 @@ namespace OverflowHelper.core
             correctionAdd("chage", "change");
             correctionAdd("chance", "change");
             correctionAdd("chng", "change");
+            correctionAdd("chang", "change");
 
             correctionAdd("Diffie-Hellman", "Diffie–Hellman key exchange");
             correctionAdd("diffie hellman", "Diffie–Hellman key exchange");
@@ -14641,6 +14643,7 @@ namespace OverflowHelper.core
             correctionAdd("cooler master", "Cooler Master");
             correctionAdd("coolermaster", "Cooler Master");
             correctionAdd("COOLERMASTER", "Cooler Master");
+            correctionAdd("Cooler master", "Cooler Master");
 
             // Related to mechanical keyboards
             correctionAdd("drop", "Drop");
@@ -17588,6 +17591,7 @@ namespace OverflowHelper.core
             correctionAdd("baudrate", "baud rate");
             correctionAdd("Baud rate", "baud rate");
             correctionAdd("BAUD rate", "baud rate");
+            correctionAdd("baud speed", "baud rate");
 
             correctionAdd("Baud", "baud");
 
@@ -19226,6 +19230,7 @@ namespace OverflowHelper.core
             correctionAdd("b.c", "because");
             correctionAdd("beacouse", "because");
             correctionAdd("becos", "because");
+            correctionAdd("becquse", "because");
 
             correctionAdd("Whitehouse", "White House");
             correctionAdd("white house", "White House");
@@ -19476,6 +19481,7 @@ namespace OverflowHelper.core
             correctionAdd("substrate", "Substrate");
 
             correctionAdd("eloborate", "elaborate");
+            correctionAdd("elaborator", "elaborate");
 
             correctionAdd("data-rate", "data rate");
 
@@ -20799,6 +20805,7 @@ namespace OverflowHelper.core
             correctionAdd("it,s", "it’s");
             correctionAdd("it'ss", "it’s");
             correctionAdd("it'", "it’s");
+            correctionAdd("jts", "it’s");
 
             correctionAdd("O/", "o/");
             correctionAdd("\\o/", "o/");
@@ -20814,6 +20821,7 @@ namespace OverflowHelper.core
             correctionAdd("isself", "itself");
             correctionAdd("iself", "itself");
             correctionAdd("itselve", "itself");
+            correctionAdd("itsel", "itself");
 
             correctionAdd("jpeg", "JPEG");
             correctionAdd("Jpeg", "JPEG");
@@ -20925,6 +20933,7 @@ namespace OverflowHelper.core
             correctionAdd("Undefined Behaviour", "undefined behaviour");
 
             correctionAdd("color", "colour");
+            correctionAdd("collor", "colour");
 
             correctionAdd("endevaour", "endeavour");
             correctionAdd("endeavor", "endeavour");
@@ -23256,6 +23265,8 @@ namespace OverflowHelper.core
             correctionAdd("Of Course", "of course");
             correctionAdd("ofcource", "of course");
             correctionAdd("course", "of course");
+            correctionAdd("Of curse", "of course");
+            correctionAdd("of curse", "of course");
 
             correctionAdd("Sublime text", "Sublime Text");
             correctionAdd("sublime text", "Sublime Text");
@@ -26780,6 +26791,7 @@ namespace OverflowHelper.core
             correctionAdd("theri", "their"); // A true typo
             correctionAdd("theIr", "their");
             correctionAdd("heir", "their");
+            correctionAdd("tier", "their");
 
             correctionAdd("docker hub", "Docker Hub");
             correctionAdd("DockerHub", "Docker Hub");
@@ -29338,6 +29350,9 @@ namespace OverflowHelper.core
             correctionAdd("usuallally", "usually");
             correctionAdd("usally", "usually");
             correctionAdd("usuallly", "usually");
+            correctionAdd("Usaully", "usually");
+            correctionAdd("Usually", "usually");
+            correctionAdd("usaully", "usually");
 
             correctionAdd("britain", "Britain");
             correctionAdd("Britian", "Britain");
@@ -30241,6 +30256,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Higgs Boson", "Higgs boson");
             correctionAdd("Higg's boson", "Higgs boson");
+            correctionAdd("Higgs", "Higgs boson");
 
             correctionAdd("Mev", "MeV");
 
@@ -30898,6 +30914,7 @@ namespace OverflowHelper.core
             correctionAdd("happpened", "happened");
             correctionAdd("hapend", "happened");
             correctionAdd("happended", "happened");
+            correctionAdd("happenned", "happened");
 
             correctionAdd("Harmonic Oscillator", "harmonic oscillator");
 
@@ -31814,6 +31831,7 @@ namespace OverflowHelper.core
             correctionAdd("HAM radio", "ham radio");
 
             correctionAdd("self distroy", "self-destruct");
+            correctionAdd("self destruct", "self-destruct");
 
             correctionAdd("short cut", "shortcut");
             correctionAdd("shortuct", "shortcut");
@@ -32828,6 +32846,7 @@ namespace OverflowHelper.core
 
             correctionAdd("shuttle", "Space Shuttle");
             correctionAdd("Shuttle", "Space Shuttle");
+            correctionAdd("space shuttle", "Space Shuttle");
 
             correctionAdd("starship", "SpaceX Starship");
             correctionAdd("Starship", "SpaceX Starship");
@@ -37193,6 +37212,7 @@ namespace OverflowHelper.core
             correctionAdd("waa", "was");
             correctionAdd("waqs", "was");
             correctionAdd("whas", "was");
+            correctionAdd("wqs", "was");
 
             correctionAdd("ipaas", "iPaaS");
 
@@ -49228,6 +49248,7 @@ namespace OverflowHelper.core
             correctionAdd("shadertoy", "Shadertoy");
 
             correctionAdd("baned", "banned");
+            correctionAdd("banded", "banned");
 
             correctionAdd("bit twidling", "bit twiddling");
             correctionAdd("bit-twiddling", "bit twiddling");
@@ -52486,6 +52507,16 @@ namespace OverflowHelper.core
             correctionAdd("michio kaku", "Michio Kaku");
 
             correctionAdd("on behalf", "on behalf of");
+
+            correctionAdd("JUICE", "Jupiter Icy Moons Explorer");
+
+            correctionAdd("over weight", "overweight");
+
+            correctionAdd("Challenger blows up", "Space Shuttle Challenger disaster");
+
+            correctionAdd("10th", "tenth");
+
+            correctionAdd("sfx v750", "V750 SFX Gold");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -81406,6 +81437,16 @@ namespace OverflowHelper.core
 
             URL_Add("on behalf of", "https://en.wiktionary.org/wiki/on_behalf_of#Prepositional_phrase");
 
+            URL_Add("Jupiter Icy Moons Explorer", "https://en.wikipedia.org/wiki/Jupiter_Icy_Moons_Explorer");
+
+            URL_Add("overweight", "https://en.wiktionary.org/wiki/overweight#Adjective");
+
+            URL_Add("Space Shuttle Challenger disaster", "https://en.wikipedia.org/wiki/Space_Shuttle_Challenger_disaster");
+
+            URL_Add("tenth", "https://en.wiktionary.org/wiki/tenth#Adjective");
+
+            URL_Add("V750 SFX Gold", "https://www.coolermaster.com/catalog/power-supplies/v-series/v750-sfx-gold/");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -82215,6 +82256,7 @@ namespace OverflowHelper.core
             correctionAdd("anf_", "and_");
             correctionAdd("ant_", "and_");
             correctionAdd("snd_", "and_");
+            correctionAdd("qnd_", "and_");
 
             correctionAdd("blitz++_", "Blitz++_");
             correctionAdd("Blitz_", "Blitz++_");
@@ -82308,6 +82350,7 @@ namespace OverflowHelper.core
             correctionAdd("rdason_", "reason_");
             correctionAdd("Reson_", "reason_");
             correctionAdd("reson_", "reason_");
+            correctionAdd("reqson_", "reason_");
 
             correctionAdd("Parallel_", "parallel_");
 
