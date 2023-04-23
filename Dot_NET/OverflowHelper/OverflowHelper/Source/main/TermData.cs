@@ -14678,6 +14678,8 @@ namespace OverflowHelper.core
             correctionAdd("CK-550 V2", "CK550 V2");
             correctionAdd("CK550 v2", "CK550 V2");
             correctionAdd("ck-550", "CK550 V2");
+            correctionAdd("CK 550 V2", "CK550 V2");
+            correctionAdd("ck 550 v2", "CK550 V2");
 
             // A mechanical keyboard from Cooler Master
             //
@@ -25631,6 +25633,7 @@ namespace OverflowHelper.core
             correctionAdd("Actally", "actually");
             correctionAdd("actally", "actually");
             correctionAdd("actullay", "actually");
+            correctionAdd("acutally", "actually");
 
             correctionAdd("re-post", "repost");
 
@@ -30886,6 +30889,8 @@ namespace OverflowHelper.core
 
             correctionAdd("gratefull", "grateful");
             correctionAdd("greatful", "grateful");
+            correctionAdd("Great ful", "grateful");
+            correctionAdd("great ful", "grateful");
 
             correctionAdd("happned", "happened");
             correctionAdd("happeed", "happened");
@@ -52469,6 +52474,18 @@ namespace OverflowHelper.core
             correctionAdd("firebird", "Firebird");
 
             correctionAdd("PDFLATEX", "pdflatex");
+
+            correctionAdd("wary", "aware");
+
+            correctionAdd("Confusius", "Confucius");
+
+            correctionAdd("for profit", "for-profit");
+
+            correctionAdd("Bard", "Google Bard");
+
+            correctionAdd("michio kaku", "Michio Kaku");
+
+            correctionAdd("on behalf", "on behalf of");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -81377,6 +81394,18 @@ namespace OverflowHelper.core
 
             URL_Add("swapping", "https://en.wiktionary.org/wiki/swap#Verb");
 
+            URL_Add("aware", "https://en.wiktionary.org/wiki/aware#Adjective");
+
+            URL_Add("Confucius", "https://en.wikipedia.org/wiki/Confucius");
+
+            URL_Add("for-profit", "https://en.wiktionary.org/wiki/for-profit#Adjective");
+
+            URL_Add("Google Bard", "https://en.wikipedia.org/wiki/Bard_(chatbot)");
+
+            URL_Add("Michio Kaku", "https://en.wikipedia.org/wiki/Michio_Kaku");
+
+            URL_Add("on behalf of", "https://en.wiktionary.org/wiki/on_behalf_of#Prepositional_phrase");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -83628,6 +83657,10 @@ namespace OverflowHelper.core
             // confused with .NET MAUI.
             correctionAdd("Maui_", "Multi-Adaptable User Interface_");
 
+            correctionAdd("BFF_", "back-end for front-end_");
+
+            correctionAdd("TD_", "training data_");
+
             // URL mappings
             //
             //
@@ -84882,6 +84915,10 @@ namespace OverflowHelper.core
             URL_Add("Glitch_", "https://en.wikipedia.org/wiki/Glitch_(New_York_company)");
 
             URL_Add("Multi-Adaptable User Interface_", "https://mauikit.org/");
+
+            URL_Add("back-end for front-end_", "https://codemag.com/Article/2203081/A-Deep-Dive-into-the-Back-End-for-Front-End-Pattern");
+
+            URL_Add("training data_", "https://en.wikipedia.org/wiki/Training,_validation,_and_test_data_sets");
 
         } //addLookupData_alternativeWordSet()
 
