@@ -91,7 +91,6 @@ namespace OverflowHelper.core
 
         private Dictionary<string, int> mCorrect2Count;
 
-
         /****************************************************************************
          *    Constructor                                                           *
          ****************************************************************************/
@@ -153,7 +152,7 @@ namespace OverflowHelper.core
 
             termListStruct wordList = someTermData.getWordList();
 
-            //Adaptation, at least for now
+            // Adaptation, at least for now
             mIncorrect2Correct = wordList.incorrect2Correct;
             mCorrectTerm2URL = wordList.correctTerm2URL;
 
@@ -226,6 +225,8 @@ namespace OverflowHelper.core
 
             private List<int> mIndexes; // Into mKeys
 
+            private Dictionary<string, int> mCorrect2Count;
+
 
             //****************************************************************************
             //*                                                                          *
@@ -239,10 +240,11 @@ namespace OverflowHelper.core
             public SortByCorrectThenIncorrect_usingIndex(
                 Dictionary<string, string> anIncorrect2Correct,
                 Dictionary<string, int> aCorrect2Count)
-            { 
+            {
                 // We need to remember it for when the
                 // compare function is called...
                 mIncorrect2Correct = anIncorrect2Correct;
+                mCorrect2Count = aCorrect2Count;
 
                 int len = anIncorrect2Correct.Count;
 
@@ -294,35 +296,52 @@ namespace OverflowHelper.core
                     string primary1 = mIncorrect2Correct[secondary1];
                     string primary2 = mIncorrect2Correct[secondary2];
 
-                    int compareResult_primary = primary1.CompareTo(primary2);
+                    int count1 = mCorrect2Count[primary1];
+                    int count2 = mCorrect2Count[primary2];
 
-                    if (compareResult_primary != 0)
-                    {
-                        // Ascending sort for primary key.
-                        toReturn = compareResult_primary;
+                    // Stub for now. For unchanged functionality
+                    count1 = 7;
+                    count2 = 7;
+
+                    // Descending sort for the number of misspellings 
+                    int compareResult_count = count1.CompareTo(count2);
+
+                    if (compareResult_count != 0)
+                    {                        
+                        toReturn = compareResult_count;
                     }
                     else
                     {
-                        // The same primary key - use the
-                        // second key: incorrect term
+                        // Ascending sort for the correct word.
+                        int compareResult_primary = primary1.CompareTo(primary2);
 
-                        int compareResult_secondary = secondary1.CompareTo(secondary2);
-
-                        if (compareResult_secondary != 0)
+                        if (compareResult_primary != 0)
                         {
-                            // Ascending sort for secondary key.
-                            toReturn = compareResult_secondary;
+                            toReturn = compareResult_primary;
                         }
                         else
                         {
-                            // Both keys are equal...
-                            //
-                            // We should never be here as the secondary
-                            // key is unique. ASSERT?
-                            Utility.debuggerRest();
+                            // The same primary key - use the
+                            // second key: incorrect term
 
-                        } // The same incorrect word. Use the secondary key
-                    } //JJJJJ compare
+                            // Ascending sort for the incorrect word.
+                            int compareResult_secondary = secondary1.CompareTo(secondary2);
+
+                            if (compareResult_secondary != 0)
+                            {
+                                toReturn = compareResult_secondary;
+                            }
+                            else
+                            {
+                                // Both keys are equal...
+                                //
+                                // We should never be here as the secondary
+                                // key is unique. ASSERT?
+                                Utility.debuggerRest();
+
+                            } // The same incorrect word.
+                        } //Different correct word
+                    } //Different number of misspellings
                 }
                 else
                 {
@@ -1470,7 +1489,7 @@ namespace OverflowHelper.core
                            ref aCorrectTerm2URL,
                            ref aCorrect2Count
                            );
-            // The main side effect is the changing of 
+            // The main side effect is the changing of
             // the content of ref HTML_tableRows...
 
 
