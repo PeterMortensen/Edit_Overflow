@@ -330,9 +330,9 @@ namespace OverflowHelper.core
                 if (mIncorrect2Correct_Reverse.TryGetValue(aCorrectedTerm,
                                                            out badTerm))
                 {
-                    // If we are here then there is more than one corrected
-                    // term. That is OK. That just means there is more than
-                    // one misspelling!
+                    // If we are here then there is more than one 
+                    // corrected term. That is OK. That just 
+                    // means there is more than one misspelling!
 
                     int count = mCorrect2Count[aCorrectedTerm];
                     count++;

@@ -275,17 +275,20 @@ namespace OverflowHelper.Tests
             someWord2URLs.Add(
                 "JavaScript",
                 "https://en.wikipedia.org/wiki/JavaScript");
+            someCorrect2Count.Add("JavaScript", 42);
 
             // Second
             someCaseCorrections.Add("angstrom", "Ångström Linux");
             someWord2URLs.Add(
                 "Ångström Linux",
                 "https://en.wikipedia.org/wiki/%C3%85ngstr%C3%B6m_distribution");
+            someCorrect2Count.Add("Ångström Linux", 6);
 
             // Third
             someCaseCorrections.Add("utorrent", "µTorrent");
             someWord2URLs.Add(
                 "µTorrent", "http://en.wikipedia.org/wiki/%CE%9CTorrent");
+            someCorrect2Count.Add("µTorrent", 1);
 
             int incorrectWords = someCaseCorrections.Count;
 
