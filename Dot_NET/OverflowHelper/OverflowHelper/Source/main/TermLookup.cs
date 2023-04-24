@@ -147,16 +147,13 @@ namespace OverflowHelper.core
             //    //  processorArchitecture  "AMD64"
             //}
 
-
             TermData someTermData = new TermData();
-
 
             termListStruct wordList = someTermData.getWordList();
 
             //Adaptation, at least for now
             mIncorrect2Correct = wordList.incorrect2Correct;
             mCorrectTerm2URL = wordList.correctTerm2URL;
-
         } //Constructor
 
 
@@ -173,14 +170,15 @@ namespace OverflowHelper.core
             string corrStr;
             if (mIncorrect2Correct.TryGetValue(aQueryStr, out corrStr))
             {
-                Utility.debuggerRest(); //Found case correction!
+                Utility.debuggerRest(); // Found case correction!
             }
             else
             {
                 corrStr = aQueryStr;
             }
 
-            // Even if there is no case correction it may already be the correct case!
+            // Even if there is no case correction it
+            // may already be the correct case!
             anOutCorrectedWOrd = corrStr;
             string URLStr;
             if (mCorrectTerm2URL.TryGetValue(corrStr, out URLStr))
@@ -188,7 +186,8 @@ namespace OverflowHelper.core
                 toReturn = URLStr; // We have a match!
             }
 
-            // If lookup failed then we will guess the Wikipedia URL (if allowed to do so).
+            // If lookup failed then we will guess the
+            // Wikipedia URL (if allowed to do so).
             if (toReturn.Length == 0)
             {
                 if (aGuessURLifFailedLookup)
@@ -265,39 +264,42 @@ namespace OverflowHelper.core
 
             //****************************************************************************
             //*                                                                          *
-            //*    Note: The input is keys, not an actual values                         *
+            //*    Note: The input is keys, not the actual values                        *
             //*                                                                          *
             //****************************************************************************
             public int Compare(int aItem1, int aItem2)
             {
-                int toReturn = 0; //Default: equal.
+                int toReturn = 0; // Default: equal.
 
                 if (aItem1 != aItem2)
                 {
+                    // The correct term is the primary key.
+                    string primary1 = mIncorrect2Correct[secondary1];
+                    string primary2 = mIncorrect2Correct[secondary2];
+
                     // The unique key, the incorrect term, is the secondary key.
                     //
                     string secondary1 = mKeys[aItem1];
                     string secondary2 = mKeys[aItem2];
 
-                    // The correct term is the primary key.
-                    string primary1 = mIncorrect2Correct[secondary1];
-                    string primary2 = mIncorrect2Correct[secondary2];
-
                     int compareResult_primary = primary1.CompareTo(primary2);
 
                     if (compareResult_primary != 0)
                     {
-                        toReturn = compareResult_primary; //Ascending sort for primary key.
+                        // Ascending sort for primary key.
+                        toReturn = compareResult_primary;
                     }
                     else
                     {
-                        //Same primary key - use second key: incorrect term
+                        // The same primary key - use the
+                        // second key: incorrect term
 
                         int compareResult_secondary = secondary1.CompareTo(secondary2);
 
                         if (compareResult_secondary != 0)
                         {
-                            toReturn = compareResult_secondary; //Ascending sort for secondary key.
+                            // Ascending sort for secondary key.
+                            toReturn = compareResult_secondary;
                         }
                         else
                         {
@@ -307,13 +309,13 @@ namespace OverflowHelper.core
                             // key is unique. ASSERT?
                             Utility.debuggerRest();
 
-                        } //Same XYZ, use second key: ABC
+                        } // The same incorrect word. Use the secondary key
                     } //JJJJJ compare
                 }
                 else
                 {
-                    Utility.debuggerRest(); // Indexes equal. Does this ever
-                    // happen??? Yes! - apparently the
+                    Utility.debuggerRest(); // Indexes equal. Does
+                    // this ever happen??? Yes! - apparently the
                     // sorting algorithm does not check
                     // for equality before the call to
                     // this function...
@@ -344,9 +346,12 @@ namespace OverflowHelper.core
 
 
         /****************************************************************************
-         *    <placeholder for header>                                              *
+         *                                                                          *  
+         *    Utility formatting function                                           *
+         *                                                                          *
          ****************************************************************************/
-        private string correctionInfoStr2(string aBadTerm, string aCorrectedTerm)
+        private static string correctionInfoStr2(
+            string aBadTerm, string aCorrectedTerm)
         {
             return "bad term '" +
                    aBadTerm +
@@ -355,9 +360,11 @@ namespace OverflowHelper.core
 
 
         /****************************************************************************
-         *    <placeholder for header>                                              *
+         *                                                                          *  
+         *    Utility formatting function                                           *
+         *                                                                          *
          ****************************************************************************/
-        private string URLmappingStr2(string aCorrectedTerm, string aURL)
+        private static string URLmappingStr2(string aCorrectedTerm, string aURL)
         {
             return "correct term '" +
                    aCorrectedTerm +
@@ -432,15 +439,7 @@ namespace OverflowHelper.core
          *                                                                          *
          *    Escaping of SQL                                                       *
          *                                                                          *
-         *    For now (we need more, though):                                       *
-         *                                                                          *
-         *      1. Backslash                                                        *
-         *                                                                          *
-         *         Escaped by backslash itself                                      *
-         *                                                                          *
-         *      2. Single quotes.                                                   *
-         *                                                                          *
-         *         Escaped by single quote itself                                   *
+         *    For now (we may need more, though):                                   *
          *                                                                          *
          ****************************************************************************/
         private static string escapeSQL(string aStringForSQL)
@@ -568,10 +567,7 @@ namespace OverflowHelper.core
             //           "<" -> "&lt;" -> "&amp;lt;"
             //
 
-            //Incorrect!!!!! (The order matters)
-            //return aStringForHTML.Replace("<", "&lt;").Replace("&", "&amp;");
-
-            //Correct
+            // Correct. Note that the order matters!
             return aStringForHTML.Replace("&", "&amp;").Replace("<", "&lt;");
         } //escapeHTML()
 
@@ -824,7 +820,6 @@ namespace OverflowHelper.core
                 string msg = string.Empty; // Default: empty - flag for no errors.
 
                 bool firstCorrectedTerm = someCorrectTerm != prevCorrectTerm;
-
 
                 // On-the-fly check - during the export (but it would be
                 // better if this check was done at program startup)
