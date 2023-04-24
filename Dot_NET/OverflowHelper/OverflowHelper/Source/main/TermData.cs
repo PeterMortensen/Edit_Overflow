@@ -39,10 +39,8 @@ namespace OverflowHelper.core
      ****************************************************************************/
     public class TermData
     {
-
         private Dictionary<string, string> mIncorrect2Correct;
         private Dictionary<string, string> mCorrectTerm2URL;
-
 
         private Dictionary<string, string> mIncorrect2Correct_Reverse; // Reverse
         //  mapping, for checking purposes only (at the expense of using more
@@ -58,7 +56,6 @@ namespace OverflowHelper.core
          ****************************************************************************/
         public TermData()
         {
-
             mIncorrect2Correct = new Dictionary<string, string>();
             mIncorrect2Correct_Reverse = new Dictionary<string, string>();
 

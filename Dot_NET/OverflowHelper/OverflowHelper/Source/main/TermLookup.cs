@@ -204,9 +204,9 @@ namespace OverflowHelper.core
         // *                                                                       *
         // *    Helper class for sorting the correction list.                      *
         // *                                                                       *
-        // *    We sort a list of keys (incorrect terms - as they are              *
-        // *    unique) - we couldn't sort the original values anyway              *
-        // *    as they are hashes                                                 *
+        // *    We sort a list of keys (incorrect terms, as they are               *
+        // *    unique); we couldn't sort the original values anyway               *
+        // *    as they are hashes.                                                *
         // *                                                                       *
         // *                                                                       *
         // d$ <summary> For sorting...                                             *
@@ -229,8 +229,8 @@ namespace OverflowHelper.core
             public SortByCorrectThenIncorrect_usingIndex(
                 Dictionary<string, string> anIncorrect2Correct)
             {
-                mIncorrect2Correct = anIncorrect2Correct; // We need to remember it for when
-                // the compare function is called...
+                mIncorrect2Correct = anIncorrect2Correct; // We need to 
+                // remember it for when the compare function is called...
 
                 int len = anIncorrect2Correct.Count;
 
@@ -791,17 +791,19 @@ namespace OverflowHelper.core
             SortByCorrectThenIncorrect_usingIndex sortObject =
                 new SortByCorrectThenIncorrect_usingIndex(anIncorrect2Correct);
 
-            List<int> indexes = sortObject.indexes(); // Unsorted at this point
+            // Unsorted at this point. The values are arbitrary (but 
+            // unique), but they happen to start at 1, followed by
+            // 2, 3, etc.
+            List<int> indexes = sortObject.indexes(); 
 
-            indexes.Sort(sortObject); // After: Those indexes are now
-            //        sorted such that looking up the keys in order in
-            //        mIncorrect2Correct will return the entries in the
-            //        given defined sort order, in this case the
-            //        correct term as the primary key and the
-            //        incorrect term in as the secondary key.
+            // After: Those indexes are now sorted such that looking 
+            // up the keys (in order) in mIncorrect2Correct will 
+            // return the entries in the given defined sort order, 
+            // in this case the correct term as the primary key 
+            // and the incorrect term in as the secondary key.
             //
-            //        In order words, grouping by the
-            //        correct term...
+            // In order words, grouping by the correct term...
+            indexes.Sort(sortObject); 
 
             List<string> someKeys_incorrectTerms = sortObject.keys();
 
