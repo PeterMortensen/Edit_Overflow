@@ -89,6 +89,8 @@ namespace OverflowHelper.core
         private Dictionary<string, string> mIncorrect2Correct;
         private Dictionary<string, string> mCorrectTerm2URL;
 
+        private Dictionary<string, int> mCorrect2Count;
+
 
         /****************************************************************************
          *    Constructor                                                           *
@@ -154,6 +156,8 @@ namespace OverflowHelper.core
             //Adaptation, at least for now
             mIncorrect2Correct = wordList.incorrect2Correct;
             mCorrectTerm2URL = wordList.correctTerm2URL;
+
+            mCorrect2Count = wordList.correct2Count;
         } //Constructor
 
 
@@ -224,13 +228,21 @@ namespace OverflowHelper.core
 
 
             //****************************************************************************
+            //*                                                                          *
             //*    Constructor                                                           *
+            //*                                                                          *
+            //*    aCorrect2Count is for sorting by the number of misspellings           *
+            //*    as the primary key (for Mortensen technology popularity               *
+            //*    index (MTPI))                                                         *
+            //*                                                                          *
             //****************************************************************************
             public SortByCorrectThenIncorrect_usingIndex(
-                Dictionary<string, string> anIncorrect2Correct)
-            {
-                mIncorrect2Correct = anIncorrect2Correct; // We need to 
-                // remember it for when the compare function is called...
+                Dictionary<string, string> anIncorrect2Correct,
+                Dictionary<string, int> aCorrect2Count)
+            { 
+                // We need to remember it for when the
+                // compare function is called...
+                mIncorrect2Correct = anIncorrect2Correct;
 
                 int len = anIncorrect2Correct.Count;
 
@@ -273,14 +285,14 @@ namespace OverflowHelper.core
 
                 if (aItem1 != aItem2)
                 {
+                    // The unique key, the incorrect
+                    // term, is the secondary key.
+                    string secondary1 = mKeys[aItem1];
+                    string secondary2 = mKeys[aItem2];
+
                     // The correct term is the primary key.
                     string primary1 = mIncorrect2Correct[secondary1];
                     string primary2 = mIncorrect2Correct[secondary2];
-
-                    // The unique key, the incorrect term, is the secondary key.
-                    //
-                    string secondary1 = mKeys[aItem1];
-                    string secondary2 = mKeys[aItem2];
 
                     int compareResult_primary = primary1.CompareTo(primary2);
 
@@ -346,7 +358,7 @@ namespace OverflowHelper.core
 
 
         /****************************************************************************
-         *                                                                          *  
+         *                                                                          *
          *    Utility formatting function                                           *
          *                                                                          *
          ****************************************************************************/
@@ -360,7 +372,7 @@ namespace OverflowHelper.core
 
 
         /****************************************************************************
-         *                                                                          *  
+         *                                                                          *
          *    Utility formatting function                                           *
          *                                                                          *
          ****************************************************************************/
@@ -786,24 +798,28 @@ namespace OverflowHelper.core
             ref string aLongestCorrectTerm,
             ref string aLongestURL,
             ref Dictionary<string, string> anIncorrect2Correct,
-            ref Dictionary<string, string> aCorrectTerm2URL)
+            ref Dictionary<string, string> aCorrectTerm2URL,
+            ref Dictionary<string, int> aCorrect2Count
+            )
         {
             SortByCorrectThenIncorrect_usingIndex sortObject =
-                new SortByCorrectThenIncorrect_usingIndex(anIncorrect2Correct);
+                new SortByCorrectThenIncorrect_usingIndex(
+                    anIncorrect2Correct,
+                    aCorrect2Count);
 
-            // Unsorted at this point. The values are arbitrary (but 
+            // Unsorted at this point. The values are arbitrary (but
             // unique), but they happen to start at 1, followed by
             // 2, 3, etc.
-            List<int> indexes = sortObject.indexes(); 
+            List<int> indexes = sortObject.indexes();
 
-            // After: Those indexes are now sorted such that looking 
-            // up the keys (in order) in mIncorrect2Correct will 
-            // return the entries in the given defined sort order, 
-            // in this case the correct term as the primary key 
+            // After: Those indexes are now sorted such that looking
+            // up the keys (in order) in mIncorrect2Correct will
+            // return the entries in the given defined sort order,
+            // in this case the correct term as the primary key
             // and the incorrect term in as the secondary key.
             //
             // In order words, grouping by the correct term...
-            indexes.Sort(sortObject); 
+            indexes.Sort(sortObject);
 
             List<string> someKeys_incorrectTerms = sortObject.keys();
 
@@ -1032,7 +1048,9 @@ namespace OverflowHelper.core
                            ref longestCorrectTerm,
                            ref longestURL,
                            ref mIncorrect2Correct,
-                           ref mCorrectTerm2URL);
+                           ref mCorrectTerm2URL,
+                           ref mCorrect2Count
+                           );
 
             return SQL_tableRows.ToString();
         } //dumpWordList_asSQL()
@@ -1404,6 +1422,7 @@ namespace OverflowHelper.core
             ref Dictionary<string, string> anIncorrect2Correct,
             int aUniqueWords,
             ref Dictionary<string, string> aCorrectTerm2URL,
+            ref Dictionary<string, int> aCorrect2Count,
             string aVersionStr,
             string aDateStr
             )
@@ -1448,9 +1467,11 @@ namespace OverflowHelper.core
                            ref longestCorrectTerm,
                            ref longestURL,
                            ref anIncorrect2Correct,
-                           ref aCorrectTerm2URL);
-            // The main side effect is the changing of the content
-            // of ref HTML_tableRows...
+                           ref aCorrectTerm2URL,
+                           ref aCorrect2Count
+                           );
+            // The main side effect is the changing of 
+            // the content of ref HTML_tableRows...
 
 
             string lenLongestInCorrectTermStr = longestInCorrectTerm.Length.ToString();
@@ -1518,6 +1539,7 @@ namespace OverflowHelper.core
                       ref mIncorrect2Correct,
                       mCorrectTerm2URL.Count,
                       ref mCorrectTerm2URL,
+                      ref mCorrect2Count,
                       aVersionStr,
                       aDateStr);
         } //dumpWordList_asHTML()
@@ -1592,7 +1614,8 @@ namespace OverflowHelper.core
                            ref longestCorrectTerm,
                            ref longestURL,
                            ref mIncorrect2Correct,
-                           ref mCorrectTerm2URL);
+                           ref mCorrectTerm2URL,
+                           ref mCorrect2Count);
 
             // For unit testing under Jest (which runs under Node.js)
             sb.Append("\n\n\n\n");
