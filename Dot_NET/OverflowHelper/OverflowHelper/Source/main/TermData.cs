@@ -5693,6 +5693,7 @@ namespace OverflowHelper.core
             correctionAdd("click bait", "clickbait");
             correctionAdd("Click bait", "clickbait");
             correctionAdd("click-bait", "clickbait");
+            correctionAdd("Click-bait", "clickbait");
 
             // Our galaxy
             correctionAdd("milky way", "Milky Way");
@@ -14238,6 +14239,7 @@ namespace OverflowHelper.core
             correctionAdd("United States", "USA");
             correctionAdd("usa", "USA");
             correctionAdd("United states", "USA");
+            correctionAdd("Yew-Knighted Stakes O‘Murrica", "USA");
 
             correctionAdd("Dollar", "dollar");
             correctionAdd("Dollars", "dollar");
@@ -16434,6 +16436,8 @@ namespace OverflowHelper.core
             correctionAdd("donwvoted", "downvoted");
             correctionAdd("donvoted", "downvoted");
             correctionAdd("down voted", "downvoted");
+            correctionAdd("DVted", "downvoted");
+            correctionAdd("DVtes", "downvoted");
 
             correctionAdd("down-voter", "downvoter");
             correctionAdd("down voter", "downvoter");
@@ -50327,6 +50331,7 @@ namespace OverflowHelper.core
             correctionAdd("foot-hold", "foothold");
 
             correctionAdd("PineScript", "Pine Script");
+            correctionAdd("Pine script", "Pine Script");
 
             correctionAdd("Jeff Atwood's giant S", "Pluralization Bug");
             correctionAdd("giant S", "Pluralization Bug");
@@ -52517,6 +52522,18 @@ namespace OverflowHelper.core
             correctionAdd("10th", "tenth");
 
             correctionAdd("sfx v750", "V750 SFX Gold");
+
+            correctionAdd("binance", "Binance");
+
+            correctionAdd("Fisher Price", "Fisher-Price");
+
+            correctionAdd("Speedtest.net", "Speedtest by Ookla");
+            correctionAdd("Speedtest", "Speedtest by Ookla");
+
+            correctionAdd("the layoff", "the November 2017 Stack Overflow mass layoff");
+
+            correctionAdd("wpm", "words per minute");
+            correctionAdd("WPM", "words per minute");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -81447,6 +81464,16 @@ namespace OverflowHelper.core
 
             URL_Add("V750 SFX Gold", "https://www.coolermaster.com/catalog/power-supplies/v-series/v750-sfx-gold/");
 
+            URL_Add("Binance", "https://en.wikipedia.org/wiki/Binance");
+
+            URL_Add("Fisher-Price", "https://en.wikipedia.org/wiki/Fisher-Price");
+
+            URL_Add("Speedtest by Ookla", "https://en.wikipedia.org/wiki/Speedtest.net");
+
+            URL_Add("the November 2017 Stack Overflow mass layoff", "https://chat.meta.stackexchange.com/transcript/message/7926678#7926678");
+
+            URL_Add("words per minute", "https://en.wiktionary.org/wiki/wpm#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -83135,6 +83162,7 @@ namespace OverflowHelper.core
             correctionAdd("iPA_", "IPA_");
 
             correctionAdd("TV_", "TradingView_");
+            correctionAdd("Tradingview_", "TradingView_");
 
             correctionAdd("fast forward_", "fast-forward_");
             correctionAdd("ff_", "fast-forward_");
@@ -83703,6 +83731,8 @@ namespace OverflowHelper.core
             correctionAdd("BFF_", "back-end for front-end_");
 
             correctionAdd("TD_", "training data_");
+
+            correctionAdd("WPM_", "wpm_");
 
             // URL mappings
             //
@@ -84962,6 +84992,8 @@ namespace OverflowHelper.core
             URL_Add("back-end for front-end_", "https://codemag.com/Article/2203081/A-Deep-Dive-into-the-Back-End-for-Front-End-Pattern");
 
             URL_Add("training data_", "https://en.wikipedia.org/wiki/Training,_validation,_and_test_data_sets");
+
+            URL_Add("wpm_", "https://en.wiktionary.org/wiki/wpm#Noun");
 
         } //addLookupData_alternativeWordSet()
 
