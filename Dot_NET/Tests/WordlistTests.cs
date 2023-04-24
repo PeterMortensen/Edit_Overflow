@@ -154,9 +154,9 @@ namespace OverflowHelper.Tests
             Dictionary<string, int> someCorrect2Count =
                 new Dictionary<string, int>();
 
-            string Wordlist_HTML = 
+            string Wordlist_HTML =
                 wordListAsHTML(
-                    someCaseCorrections, 
+                    someCaseCorrections,
                     someWord2URLs,
                     someCorrect2Count);
 
@@ -292,9 +292,9 @@ namespace OverflowHelper.Tests
 
             int incorrectWords = someCaseCorrections.Count;
 
-            string Wordlist_HTML = 
+            string Wordlist_HTML =
                 wordListAsHTML(
-                    someCaseCorrections, 
+                    someCaseCorrections,
                     someWord2URLs,
                     someCorrect2Count);
 
@@ -327,6 +327,7 @@ namespace OverflowHelper.Tests
                     incorrectWords * -2 +
                     2 +
                     7 +
+                    13 +
                     0,
                 len,
                 "XYZ");
@@ -365,6 +366,7 @@ namespace OverflowHelper.Tests
             //    +7 For making the code checking headline compatible
             //       with the keyboard shortcut on the fixed string
             //       page...
+            //    +13 For temporary extra output for count of misspellings
 
             Assert.AreEqual(Wordlist_HTML.IndexOf("\t"), -1, "XYZ"); // Detect
             // any TABs...
@@ -428,10 +430,11 @@ namespace OverflowHelper.Tests
                 someWord2URLs.Add(
                     "&lt;",
                     "https://www.w3.org/wiki/Common_HTML_entities_used_for_typography");
+                someCorrect2Count.Add("&lt;", 3);
 
-                string Wordlist_HTML = 
+                string Wordlist_HTML =
                     wordListAsHTML(
-                        someCaseCorrections, 
+                        someCaseCorrections,
                         someWord2URLs,
                         someCorrect2Count);
 
@@ -446,7 +449,8 @@ namespace OverflowHelper.Tests
                 //  table, "XYZ");
                 Assert.AreEqual(
                   expectedIndent +
-                    "<tr> <td><div id=\"&lt;\"></div>&lt;</td><td>&amp;lt;</td><td>https://www.w3.org/wiki/Common_HTML_entities_used_for_typography</td> </tr>\n",
+                    //"<tr> <td><div id=\"&lt;\"></div>&lt;</td><td>&amp;lt;</td><td>https://www.w3.org/wiki/Common_HTML_entities_used_for_typography</td> </tr>\n",
+                    "<tr> <td><div id=\"&lt;\"></div>&lt;</td><td>&amp;lt; (3)</td><td>https://www.w3.org/wiki/Common_HTML_entities_used_for_typography</td> </tr>\n",
                   table, "XYZ");
             }
 

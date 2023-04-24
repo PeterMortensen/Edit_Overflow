@@ -91,6 +91,7 @@ namespace OverflowHelper.core
 
         private Dictionary<string, int> mCorrect2Count;
 
+
         /****************************************************************************
          *    Constructor                                                           *
          ****************************************************************************/
@@ -299,15 +300,15 @@ namespace OverflowHelper.core
                     int count1 = mCorrect2Count[primary1];
                     int count2 = mCorrect2Count[primary2];
 
-                    // Stub for now. For unchanged functionality
+                    // For unchanged functionality
                     count1 = 7;
                     count2 = 7;
 
-                    // Descending sort for the number of misspellings 
-                    int compareResult_count = count1.CompareTo(count2);
+                    // Descending sort for the number of misspellings
+                    int compareResult_count = count2.CompareTo(count1);
 
                     if (compareResult_count != 0)
-                    {                        
+                    {
                         toReturn = compareResult_count;
                     }
                     else
@@ -617,7 +618,8 @@ namespace OverflowHelper.core
                                                   string aCorrectedTerm,
                                                   ref HTML_builder aInOutBuilder,
                                                   string aURL,
-                                                  bool aFirstCorrectedTerm)
+                                                  bool aFirstCorrectedTerm,
+                                                  int aMisspellingCount)
         {
             // Only include the HTML anchor for the ***first*** word in
             // a group of words (the same correct word, but different
@@ -627,6 +629,7 @@ namespace OverflowHelper.core
             // HTML validation ('id' must be unique).
             //
             string anchor = "";
+            string extraForCorrectWord = "";
             if (aFirstCorrectedTerm)
             {
                 // Generate an acceptable identifier (for the HTML anchor)
@@ -654,6 +657,8 @@ namespace OverflowHelper.core
                   @" id=""" + escapedCorrectedTerm + @""""; // Note: Leading space
 
                 anchor = HTML_builder.singleLineTagStrWithAttr("div", "", attrStr);
+
+                extraForCorrectWord = " (" + aMisspellingCount + ")";
             }
 
             string outerColumnsSeparator = " ";
@@ -678,7 +683,10 @@ namespace OverflowHelper.core
                      "td", anchor + escapeHTML(aBadTerm)) + innerColumnsSeparator +
 
                    HTML_builder.singleLineTagStr(
-                     "td", escapeHTML(aCorrectedTerm)) + innerColumnsSeparator +
+                     "td",
+                     escapeHTML(aCorrectedTerm) + extraForCorrectWord) +
+
+                         innerColumnsSeparator +
 
                    HTML_builder.singleLineTagStr(
                      "td", aURL) + outerColumnsSeparator
@@ -853,6 +861,7 @@ namespace OverflowHelper.core
             {
                 string someIncorrectTerm = someKeys_incorrectTerms[someIndex];
                 string someCorrectTerm = anIncorrect2Correct[someIncorrectTerm];
+                int misspellingCount = aCorrect2Count[someCorrectTerm];
 
                 string msg = string.Empty; // Default: empty - flag for no errors.
 
@@ -932,7 +941,8 @@ namespace OverflowHelper.core
                                                   someCorrectTerm,
                                                   ref builder,
                                                   someURL,
-                                                  firstCorrectedTerm);
+                                                  firstCorrectedTerm,
+                                                  misspellingCount);
                             break;
 
                         case wordListOutputTypeEnum.SQL:
