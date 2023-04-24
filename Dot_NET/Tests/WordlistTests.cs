@@ -66,7 +66,8 @@ namespace OverflowHelper.Tests
          ****************************************************************************/
         private string wordListAsHTML(
             Dictionary<string, string> aSomeCaseCorrections,
-            Dictionary<string, string> aSomeWord2URLs)
+            Dictionary<string, string> aSomeWord2URLs,
+            Dictionary<string, int> aCorrect2Count)
         {
             //EditorOverflowApplication app = new EditorOverflowApplication_Windows();
             EditorOverflowApplication app = new EditorOverflowApplication_Unix();
@@ -78,6 +79,7 @@ namespace OverflowHelper.Tests
                 ref aSomeCaseCorrections,
                 aSomeWord2URLs.Count,
                 ref aSomeWord2URLs,
+                ref aCorrect2Count,
 
                 //This is equivalent, for the refactoring, but
                 //should we use fixed or empty strings instead??
@@ -149,8 +151,14 @@ namespace OverflowHelper.Tests
                new Dictionary<string, string>();
             Dictionary<string, string> someWord2URLs =
                 new Dictionary<string, string>();
+            Dictionary<string, int> someCorrect2Count =
+                new Dictionary<string, int>();
 
-            string Wordlist_HTML = wordListAsHTML(someCaseCorrections, someWord2URLs);
+            string Wordlist_HTML = 
+                wordListAsHTML(
+                    someCaseCorrections, 
+                    someWord2URLs,
+                    someCorrect2Count);
 
             int len = Wordlist_HTML.Length;
 
@@ -259,6 +267,8 @@ namespace OverflowHelper.Tests
                new Dictionary<string, string>();
             Dictionary<string, string> someWord2URLs =
                 new Dictionary<string, string>();
+            Dictionary<string, int> someCorrect2Count =
+                new Dictionary<string, int>();
 
             // First
             someCaseCorrections.Add("JS", "JavaScript");
@@ -279,7 +289,11 @@ namespace OverflowHelper.Tests
 
             int incorrectWords = someCaseCorrections.Count;
 
-            string Wordlist_HTML = wordListAsHTML(someCaseCorrections, someWord2URLs);
+            string Wordlist_HTML = 
+                wordListAsHTML(
+                    someCaseCorrections, 
+                    someWord2URLs,
+                    someCorrect2Count);
 
             int len = Wordlist_HTML.Length;
 
@@ -380,6 +394,8 @@ namespace OverflowHelper.Tests
                new Dictionary<string, string>();
             Dictionary<string, string> someWord2URLs =
                 new Dictionary<string, string>();
+            Dictionary<string, int> someCorrect2Count =
+                new Dictionary<string, int>();
 
             // Detect if we get double HTML encoding (an error - not what
             // we want. For example, order matters in escapeHTML()
@@ -410,7 +426,12 @@ namespace OverflowHelper.Tests
                     "&lt;",
                     "https://www.w3.org/wiki/Common_HTML_entities_used_for_typography");
 
-                string Wordlist_HTML = wordListAsHTML(someCaseCorrections, someWord2URLs);
+                string Wordlist_HTML = 
+                    wordListAsHTML(
+                        someCaseCorrections, 
+                        someWord2URLs,
+                        someCorrect2Count);
+
                 string table = extractHTMLtable(Wordlist_HTML);
 
                 const string expectedIndent = "            ";

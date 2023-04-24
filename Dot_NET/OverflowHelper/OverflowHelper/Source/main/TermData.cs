@@ -31,6 +31,7 @@ namespace OverflowHelper.core
     {
         public Dictionary<string, string> incorrect2Correct;
         public Dictionary<string, string> correctTerm2URL;
+        public Dictionary<string, int>    correct2Count;
     }
 
 
@@ -50,6 +51,12 @@ namespace OverflowHelper.core
         //
         //  Later: perhaps get rid of it after use, to save memory.
 
+        // Cached information (we build it up when reading in the
+        // word list definitions): Number of misspellings for
+        // each correct word. E.g., for the computing the
+        // Mortensen technology popularity index (MTPI)
+        private Dictionary<string, int> mCorrect2Count;
+
 
         /****************************************************************************
          *    Constructor                                                           *
@@ -60,6 +67,8 @@ namespace OverflowHelper.core
             mIncorrect2Correct_Reverse = new Dictionary<string, string>();
 
             mCorrectTerm2URL = new Dictionary<string, string>();
+
+            mCorrect2Count = new Dictionary<string, int>();
 
             addLookupData();
 
@@ -81,6 +90,8 @@ namespace OverflowHelper.core
 
             toReturn.incorrect2Correct = mIncorrect2Correct;
             toReturn.correctTerm2URL = mCorrectTerm2URL;
+
+            toReturn.correct2Count = mCorrect2Count;
 
             return toReturn;
         }
