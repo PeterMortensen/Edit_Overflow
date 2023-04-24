@@ -328,15 +328,23 @@ namespace OverflowHelper.core
 
                 string badTerm;
                 if (mIncorrect2Correct_Reverse.TryGetValue(aCorrectedTerm,
-                                                        out badTerm))
+                                                           out badTerm))
                 {
                     // If we are here then there is more than one corrected
                     // term. That is OK. That just means there is more than
                     // one misspelling!
+
+                    int count = mCorrect2Count[aCorrectedTerm];
+                    count++;
+
+                    // Write back
+                    mCorrect2Count[aCorrectedTerm] = count;
                 }
                 else
                 {
                     mIncorrect2Correct_Reverse.Add(aCorrectedTerm, aBadTerm);
+
+                    mCorrect2Count.Add(aCorrectedTerm, 1);
                 }
             }
         } //correctionAdd()
