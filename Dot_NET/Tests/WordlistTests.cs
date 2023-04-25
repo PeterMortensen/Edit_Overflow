@@ -73,19 +73,19 @@ namespace OverflowHelper.Tests
             EditorOverflowApplication app = new EditorOverflowApplication_Unix();
 
             string Wordlist_HTML =
-              TermLookup.dumpWordList_asHTML(
-                "",
-                ", + , operators , {", // Some of it will be transformed...
-                ref aSomeCaseCorrections,
-                aSomeWord2URLs.Count,
-                ref aSomeWord2URLs,
-                ref aCorrect2Count,
-
-                //This is equivalent, for the refactoring, but
-                //should we use fixed or empty strings instead??
-                app.fullVersionStr(),
-                app.versionString_dateOnly()
-              );
+                TermLookup.dumpWordList_asHTML(
+                    "",
+                    ", + , operators , {", // Some of it will be transformed...
+                    ref aSomeCaseCorrections,
+                    aSomeWord2URLs.Count,
+                    ref aSomeWord2URLs,
+                    ref aCorrect2Count,
+                    
+                    //This is equivalent, for the refactoring, but
+                    //should we use fixed or empty strings instead??
+                    app.fullVersionStr(),
+                    app.versionString_dateOnly()
+                );
 
             return Wordlist_HTML;
         } //wordListAsHTML()

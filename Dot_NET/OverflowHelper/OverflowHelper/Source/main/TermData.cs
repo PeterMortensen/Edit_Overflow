@@ -330,8 +330,8 @@ namespace OverflowHelper.core
                 if (mIncorrect2Correct_Reverse.TryGetValue(aCorrectedTerm,
                                                            out badTerm))
                 {
-                    // If we are here then there is more than one 
-                    // corrected term. That is OK. That just 
+                    // If we are here then there is more than one
+                    // corrected term. That is OK. That just
                     // means there is more than one misspelling!
 
                     int count = mCorrect2Count[aCorrectedTerm];
@@ -8743,6 +8743,7 @@ namespace OverflowHelper.core
 
             correctionAdd("diskette", "floppy disk");
             correctionAdd("floppy", "floppy disk");
+            correctionAdd("floppies", "floppy disk");
 
             correctionAdd("typying", "typing");
 
@@ -10006,6 +10007,7 @@ namespace OverflowHelper.core
             correctionAdd("Turbo-C", "Turbo C++");
             correctionAdd("Yashavant Kanetkar books", "Turbo C++");
             correctionAdd("Kanetkar", "Turbo C++");
+            correctionAdd("old textbooks", "Turbo C++");
 
             correctionAdd("C++builder", "C++Builder");
             correctionAdd("c++builder", "C++Builder");
@@ -13073,6 +13075,7 @@ namespace OverflowHelper.core
             correctionAdd("OSX 11", "macOS v11 (Big Sur)");
             correctionAdd("macos 11", "macOS v11 (Big Sur)");
             correctionAdd("macos-11", "macOS v11 (Big Sur)");
+            correctionAdd("macOS BigSur", "macOS v11 (Big Sur)");
 
             correctionAdd("monterey", "macOS&nbsp;v12 (Monterey)");
             correctionAdd("macOS v12 (Monterey)", "macOS&nbsp;v12 (Monterey)");
@@ -21238,6 +21241,7 @@ namespace OverflowHelper.core
             correctionAdd("appstore", "App&nbsp;Store");
             correctionAdd("Apple store", "App&nbsp;Store"); // Not 100% correct
             correctionAdd("app-store", "App&nbsp;Store");
+            correctionAdd("apple store", "App&nbsp;Store");
 
             correctionAdd("Antlr", "ANTLR");
             correctionAdd("Antler", "ANTLR");
@@ -30593,12 +30597,12 @@ namespace OverflowHelper.core
             correctionAdd("Creative Commons", "Creative Commons licence");
 
             correctionAdd("Creative Common by-sa", "Creative Commons BY-SA");
-            correctionAdd("CC BY-SA", "Creative Commons BY-SA"); // "CC BY-SA" (not "CC-BY-SA") seems to be the correct shortform, though a source needs to be found.
+            correctionAdd("CC BY-SA", "Creative Commons BY-SA");
             correctionAdd("CC-BY-SA", "Creative Commons BY-SA");
             correctionAdd("BY-SA", "Creative Commons BY-SA");
             correctionAdd("cc by-sa", "Creative Commons BY-SA");
             correctionAdd("cc-by-sa", "Creative Commons BY-SA");
-            correctionAdd("CC-by-SA", "Creative Commons BY-SA");
+            correctionAdd("CC-by-SA", "Creative Commons BY-SA"); // "CC-by-SA" (not "CC BY-SA") seems to be the correct shortform, though an authoritative source needs to be found.
 
             correctionAdd("XPERF", "xperf");
 
@@ -38004,6 +38008,7 @@ namespace OverflowHelper.core
             correctionAdd("upd", "update");
             correctionAdd("updeate", "update");
             correctionAdd("upadte", "update");
+            correctionAdd("Update", "update");
 
             correctionAdd("volantory", "voluntary");
             correctionAdd("voluntory", "voluntary");
@@ -39548,6 +39553,7 @@ namespace OverflowHelper.core
             correctionAdd("deliverys", "deliveries");
 
             correctionAdd("re-boot", "reboot");
+            correctionAdd("Reboot", "reboot");
 
             correctionAdd("sku", "SKU");
             correctionAdd("stock keeping unit", "SKU");
@@ -52550,6 +52556,8 @@ namespace OverflowHelper.core
 
             correctionAdd("wpm", "words per minute");
             correctionAdd("WPM", "words per minute");
+
+            correctionAdd("Apple 2", "Apple II");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -81490,6 +81498,8 @@ namespace OverflowHelper.core
 
             URL_Add("words per minute", "https://en.wiktionary.org/wiki/wpm#Noun");
 
+            URL_Add("Apple II", "https://en.wikipedia.org/wiki/Apple_II");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -82196,7 +82206,8 @@ namespace OverflowHelper.core
 
             correctionAdd("down vote_", "downvote_");
 
-            correctionAdd("cc-by-sa_", "CC-BY-SA_");
+            correctionAdd("cc-by-sa_", "CC-by-SA_");
+            correctionAdd("CC-BY-SA_", "CC-by-SA_");
 
             correctionAdd("WA_", "Washington_");
 
@@ -83750,6 +83761,11 @@ namespace OverflowHelper.core
 
             correctionAdd("WPM_", "wpm_");
 
+            // For the full quote (we already have it in the main word set)
+            correctionAdd("Hanlon's razor_", "Never attribute to malice that which is adequately explained by stupidity._");
+
+            correctionAdd("Update_", "update_");
+
             // URL mappings
             //
             //
@@ -84021,7 +84037,7 @@ namespace OverflowHelper.core
 
             URL_Add("Writing (Stack Exchange site)_", "https://writing.stackexchange.com/tour");
 
-            URL_Add("CC-BY-SA_", "https://en.wikipedia.org/wiki/Creative_Commons_license#Seven_regularly_used_licenses");
+            URL_Add("CC-by-SA_", "https://en.wikipedia.org/wiki/Creative_Commons_license#Seven_regularly_used_licenses");
 
             URL_Add("Washington_", "https://en.wikipedia.org/wiki/Washington_(state)");
 
@@ -85010,6 +85026,10 @@ namespace OverflowHelper.core
             URL_Add("training data_", "https://en.wikipedia.org/wiki/Training,_validation,_and_test_data_sets");
 
             URL_Add("wpm_", "https://en.wiktionary.org/wiki/wpm#Noun");
+
+            URL_Add("Never attribute to malice that which is adequately explained by stupidity._", "https://en.wikipedia.org/wiki/Hanlon%27s_razor");
+
+            URL_Add("update_", "https://en.wiktionary.org/wiki/update#Noun");
 
         } //addLookupData_alternativeWordSet()
 
