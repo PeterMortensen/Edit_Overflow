@@ -2171,7 +2171,7 @@ sourceSpellcheck  4
 #
 #   2. Indentation rules (even number of spaces)
 #
-# Note: This is direct inspection of the PHP source code, 
+# Note: This is direct inspection of the PHP source code,
 #       ***not*** as run by a web serber (rendered HTML).
 #
 keyboardShortcutConsistencyCheck  EditOverflow.php          "Edit Overflow lookup"       5
@@ -2524,7 +2524,7 @@ cat '/home/mortensen/temp2/2022-02-25/Backup/Backup_2022-02-25_smallFiles/2022-0
 #       2022-01-25: 5374604 bytes
 
 # Note: The same build number
-wordListExport 31 "SQL" $SQL_FILE 7430000 8180000
+wordListExport 31 "SQL" $SQL_FILE 7580000 8340000
 
 # Note: The same build number
 export MATCHING_LINES=`grep -c 'DROP TABLE EditOverflow'  ${SQL_FILE}`
@@ -2581,7 +2581,7 @@ rm $HTML_FILE
 #       2022-01-25: 3310553 bytes
 
 # Note: The same build number
-wordListExport 33 "HTML"  $HTML_FILE   4640000 5110000
+wordListExport 33 "HTML"  $HTML_FILE   4730000 5210000
 
 
 cp  $HTML_FILE  $HTML_FILE_GENERIC
