@@ -2646,6 +2646,7 @@ namespace OverflowHelper.core
             correctionAdd("compilator", "compiler");
             correctionAdd("compoiler", "compiler");
             correctionAdd("compilier", "compiler");
+            correctionAdd("comiler", "compiler");
 
             correctionAdd("Cross Compiler", "cross compiler");
             correctionAdd("Cross-Compiler", "cross compiler");
@@ -4442,6 +4443,7 @@ namespace OverflowHelper.core
             correctionAdd("Raspberry-Pi", "Raspberry Pi");
             correctionAdd("RaspPi", "Raspberry Pi");
             correctionAdd("rasbery pi", "Raspberry Pi");
+            correctionAdd("Raspberr", "Raspberry Pi");
 
             // Raspberry Pi
             correctionAdd("raspbmc", "Raspbmc");
@@ -6876,6 +6878,7 @@ namespace OverflowHelper.core
             correctionAdd("S/E", "Stack&nbsp;Exchange");
             correctionAdd("Stach Exchange", "Stack&nbsp;Exchange");
             correctionAdd("se.com", "Stack&nbsp;Exchange");
+            correctionAdd("Sackexchange", "Stack&nbsp;Exchange");
 
             // Famous question on Stack Overflow (featured on the podcast).
             correctionAdd("hard-deleted", "hard-deleted boat programming question");
@@ -6966,6 +6969,7 @@ namespace OverflowHelper.core
             correctionAdd("Stack Overflow teams", "Stack Overflow for Teams");
             correctionAdd("Stack Overflow Teams", "Stack Overflow for Teams");
             correctionAdd("Stack Overflow For Teams", "Stack Overflow for Teams");
+            correctionAdd("stackoverflow for teams", "Stack Overflow for Teams");
 
             correctionAdd("not a forum", "Stack Overflow is not a forum");
             correctionAdd("isn't a forum", "Stack Overflow is not a forum");
@@ -8968,6 +8972,8 @@ namespace OverflowHelper.core
 
             // An IDE for Python
             correctionAdd("spyder", "Spyder");
+            correctionAdd("Spyder IDE", "Spyder");
+            correctionAdd("spyder IDE", "Spyder");
 
             correctionAdd("pySerial", "PySerial");
             correctionAdd("Pyserial", "PySerial");
@@ -9761,6 +9767,7 @@ namespace OverflowHelper.core
             correctionAdd("bison", "GNU Bison");
 
             correctionAdd("lex", "Lex");
+            correctionAdd("lax", "Lex");
 
             correctionAdd("yacc", "Yacc");
 
@@ -11333,6 +11340,8 @@ namespace OverflowHelper.core
             correctionAdd("google-chrome-devtools", "Chrome DevTools");
             correctionAdd("chrome dev tools", "Chrome DevTools");
             correctionAdd("dev-tools", "Chrome DevTools");
+            correctionAdd("DEVTools", "Chrome DevTools");
+            correctionAdd("Devtools", "Chrome DevTools");
 
             correctionAdd("Google tag manager", "Google Tag Manager");
 
@@ -13020,6 +13029,7 @@ namespace OverflowHelper.core
             correctionAdd("m1", "Apple M1");
             correctionAdd("M1", "Apple M1");
             correctionAdd("M1 Mac", "Apple M1");
+            correctionAdd("M1 MAC", "Apple M1");
 
             correctionAdd("M2", "Apple M2");
             correctionAdd("m2", "Apple M2");
@@ -14187,6 +14197,7 @@ namespace OverflowHelper.core
             correctionAdd("swtich", "switch");
             correctionAdd("swith", "switch");
             correctionAdd("swicth", "switch");
+            correctionAdd("swich", "switch");
 
             correctionAdd("vps", "VPS");
             correctionAdd("Virtual Private Server", "VPS");
@@ -14963,6 +14974,9 @@ namespace OverflowHelper.core
             // Alternative URL: <https://www.youtube.com/watch?v=zdhagRsZW6Y&t=8m52s>
             correctionAdd("Kailh BOX Pink", "Kailh BOX Pink switch");
 
+            correctionAdd("Kailh BOX V2", "Kailh BOX V2 Red switch");
+            correctionAdd("Kailh Box V2", "Kailh BOX V2 Red switch");
+
             // A type of switch for mechanical keyboards
             correctionAdd("gateron", "Gateron");
             correctionAdd("gataron", "Gateron");
@@ -14971,7 +14985,16 @@ namespace OverflowHelper.core
             correctionAdd("gateron yellow", "Gateron Yellow");
             correctionAdd("gat yellows", "Gateron Yellow");
 
+            // A type of switch for mechanical keyboards
             correctionAdd("gateron pink", "Gateron Pink");
+
+            // A type of switch for mechanical keyboards
+            //
+            // Alternative URL:
+            //
+            //   <https://keyboardsexpert.com/complete-guide-to-outemu-switches/>
+            //
+            correctionAdd("outemu", "Outemu");
 
             // A component used in mechanical keyboards (to
             // enable replaceable switches).
@@ -15018,7 +15041,7 @@ namespace OverflowHelper.core
             correctionAdd("group buy", "Drop");
             correctionAdd("drop.com", "Drop");
 
-            // A program from Cooler Master
+            // A configuration Windows program from Cooler Master
             correctionAdd("MasterPlus", "MasterPlus+");
             correctionAdd("Masterplus", "MasterPlus+");
             correctionAdd("masterplus", "MasterPlus+");
@@ -15026,14 +15049,28 @@ namespace OverflowHelper.core
             // A manufacturer of mechanical keyboards, etc.
             correctionAdd("razer", "Razer");
 
-            // A mechanical keyboard from Ducky
+            // A full-size mechanical keyboard from Ducky
             correctionAdd("Ducky Shine", "Ducky Shine 7");
             correctionAdd("Ducky 7", "Ducky Shine 7");
 
             // A mechanical keyboard from Ducky (or rather a series)
             correctionAdd("Ducky One Two", "Ducky One 2");
 
-            // A mechanical keyboard from Cooler Master
+            // A full-size mechanical keyboard from Cooler Master
+            //
+            correctionAdd("CK 350", "CK350");
+
+            // A crippled (tenkeyless (80%)) mechanical
+            // keyboard from Cooler Master
+            //
+            // Allegedly, with hot hot-swappable optical switches.
+            //
+            // Quote...: "No soldering, no accidental burns, no messing
+            //            with molten wire on your precious baby."
+            //
+            correctionAdd("ck351", "CK351");
+
+            // A full-size mechanical keyboard from Cooler Master
             //
             // The previous iteration was "CK550" (without "V2",
             // with different kind of switches, etc.):
@@ -15050,12 +15087,6 @@ namespace OverflowHelper.core
             correctionAdd("CK 550 V2", "CK550 V2");
             correctionAdd("ck 550 v2", "CK550 V2");
             correctionAdd("CK 550 v2", "CK550 V2");
-
-            // A mechanical keyboard from Cooler Master
-            //
-            // Allegedly, with hot hot-swappable optical switches.
-            //
-            correctionAdd("ck351", "CK351");
 
             // A mechanical keyboard from Cooler Master
             correctionAdd("Cooler Master QuickFire Rapid", "Cooler Master Quick Fire Rapid");
@@ -22553,6 +22584,9 @@ namespace OverflowHelper.core
             correctionAdd("GenAI", "generative AI");
             correctionAdd("GanAI", "generative AI");
             correctionAdd("generative artificial intelligence", "generative AI");
+            correctionAdd("Generated AU", "generative AI");
+            correctionAdd("generated AI", "generative AI");
+            correctionAdd("generated AU", "generative AI");
 
             correctionAdd("autoai", "AutoAI");
 
@@ -26245,6 +26279,7 @@ namespace OverflowHelper.core
             // A bootstrap version of Anaconda. Python
             correctionAdd("miniconda", "Miniconda");
             correctionAdd("MiniConda", "Miniconda");
+            correctionAdd("conda mini", "Miniconda");
 
             // A Python package manager
             correctionAdd("conda", "Conda");
@@ -28518,6 +28553,10 @@ namespace OverflowHelper.core
             correctionAdd("celsius", "Celsius");
             correctionAdd("celcius", "Celsius");
             correctionAdd("Celcius", "Celsius");
+
+            correctionAdd("°C", "&nbsp;°C");
+            correctionAdd("Deg C", "&nbsp;°C");
+            correctionAdd("deg C", "&nbsp;°C");
 
             correctionAdd("eu", "EU");
             correctionAdd("Eu", "EU");
@@ -31416,6 +31455,7 @@ namespace OverflowHelper.core
             correctionAdd("thant", "that");
             correctionAdd("That", "that");
             correctionAdd("thhat", "that");
+            correctionAdd("thet", "that");
 
             correctionAdd("val", "value");
             correctionAdd("vaue", "value");
@@ -31855,6 +31895,7 @@ namespace OverflowHelper.core
             correctionAdd("re-install", "reinstall");
             correctionAdd("Re-install", "reinstall");
             correctionAdd("Reinstall", "reinstall");
+            correctionAdd("reintall", "reinstall");
 
             correctionAdd("pre install", "preinstall");
             correctionAdd("pre-install", "preinstall");
@@ -33294,6 +33335,7 @@ namespace OverflowHelper.core
             correctionAdd("Isopropyl alcohol", "isopropyl alcohol");
             correctionAdd("IPA", "isopropyl alcohol");
             correctionAdd("isoprop", "isopropyl alcohol");
+            correctionAdd("rubbing alcohol", "isopropyl alcohol");
 
             // Big tech. Algorithm cult. Synonym for bad hiring
             // practices. Passing interview degree industry.
@@ -36177,6 +36219,7 @@ namespace OverflowHelper.core
             correctionAdd("yuo", "you");
             correctionAdd("yopu", "you");
             correctionAdd("yu", "you");
+            correctionAdd("yiu", "you");
 
             correctionAdd("Zinc", "zinc");
             correctionAdd("Zn", "zinc");
@@ -40791,6 +40834,7 @@ namespace OverflowHelper.core
             correctionAdd("smiles", "SMILES");
 
             correctionAdd("in-compatible", "incompatible");
+            correctionAdd("imcompatible", "incompatible");
 
             correctionAdd("Maily Dale", "Daily Mail");
 
@@ -50835,6 +50879,17 @@ namespace OverflowHelper.core
             // A computer game
             correctionAdd("FNF", "Friday Night Funkin'");
 
+            correctionAdd("wargame", "war game");
+
+            correctionAdd("roleplaying game", "role-playing game");
+            correctionAdd("role playing game", "role-playing game");
+
+            correctionAdd("platformer game", "platform game");
+
+            correctionAdd("OGL", "Open Game License");
+
+            correctionAdd("OGL scandal", "the OGL scandal");
+
             correctionAdd("Cross Origin Request", "cross-origin request");
 
             correctionAdd("esapi", "OWASP Enterprise Security API");
@@ -51288,6 +51343,7 @@ namespace OverflowHelper.core
             correctionAdd("ELISA", "ELIZA");
 
             correctionAdd("pooping", "popping");
+            correctionAdd("poping", "popping");
 
             correctionAdd("telex", "telex terminal");
             correctionAdd("Telex", "telex terminal");
@@ -51688,8 +51744,6 @@ namespace OverflowHelper.core
             correctionAdd("rain drop", "raindrop");
 
             correctionAdd("vigilence", "vigilance");
-
-            correctionAdd("wargame", "war game");
 
             correctionAdd("celebrety", "celebrity");
 
@@ -52169,6 +52223,7 @@ namespace OverflowHelper.core
 
             correctionAdd("potentionally", "potentially");
             correctionAdd("potentionaly", "potentially");
+            correctionAdd("potentically", "potentially");
 
             correctionAdd("trainning", "training");
 
@@ -52191,9 +52246,6 @@ namespace OverflowHelper.core
 
             correctionAdd("non-conventional", "nonconventional");
             correctionAdd("non conventional", "nonconventional");
-
-            correctionAdd("roleplaying game", "role-playing game");
-            correctionAdd("role playing game", "role-playing game");
 
             correctionAdd("granualrities", "granularities");
 
@@ -52430,8 +52482,6 @@ namespace OverflowHelper.core
             correctionAdd("Placebo effect", "placebo effect");
 
             correctionAdd("plantuml", "PlantUML");
-
-            correctionAdd("platformer game", "platform game");
 
             correctionAdd("self reported", "self-reported");
 
@@ -52707,17 +52757,29 @@ namespace OverflowHelper.core
 
             correctionAdd("resuface", "resurface");
 
-            correctionAdd("°C", "&nbsp;°C");
-            correctionAdd("Deg C", "&nbsp;°C");
-            correctionAdd("deg C", "&nbsp;°C");
-
             correctionAdd("Modis", "MODIS");
-
-            correctionAdd("OGL", "Open Game License");
 
             correctionAdd("searchs", "searches");
 
-            correctionAdd("OGL scandal", "the OGL scandal");
+            correctionAdd("switch cleaner", "contact cleaner");
+
+            correctionAdd("dialing", "dealing");
+
+            correctionAdd("gcc 4.8", "GCC 4.8");
+
+            correctionAdd("influencial", "influential");
+
+            correctionAdd("iotream", "iostream");
+
+            correctionAdd("Power8", "POWER8");
+            correctionAdd("Power 8", "POWER8");
+
+            correctionAdd("self interest", "self-interest");
+
+            // A power supply from Cooler Master
+            correctionAdd("v850w sfx", "V850 SFX Gold");
+
+            correctionAdd("mis-configured", "misconfigured");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -81730,6 +81792,30 @@ namespace OverflowHelper.core
 
             URL_Add("the OGL scandal", "https://en.wikipedia.org/wiki/Open_Game_License#Leaked_OGL1.1_draft");
 
+            URL_Add("CK350", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck350/");
+
+            URL_Add("contact cleaner", "https://en.wikipedia.org/wiki/Contact_cleaner");
+
+            URL_Add("dealing", "https://en.wiktionary.org/wiki/deal#Verb");
+
+            URL_Add("GCC 4.8", "https://gcc.gnu.org/releases.html");
+
+            URL_Add("influential", "https://en.wiktionary.org/wiki/influential#Adjective");
+
+            URL_Add("iostream", "https://en.wikipedia.org/wiki/Input/output_(C%2B%2B)#Overview");
+
+            URL_Add("Kailh BOX V2 Red switch", "https://www.kailh.net/products/kailh-box-v2-switch-set");
+
+            URL_Add("Outemu", "https://switchandclick.com/outemu-switches-are-they-good/");
+
+            URL_Add("POWER8", "https://en.wikipedia.org/wiki/POWER8");
+
+            URL_Add("self-interest", "https://en.wiktionary.org/wiki/self-interest#Noun");
+
+            URL_Add("V850 SFX Gold", "https://www.coolermaster.com/catalog/power-supplies/v-series/v850-sfx-gold/");
+
+            URL_Add("misconfigured", "https://en.wiktionary.org/wiki/misconfigure#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -84010,6 +84096,8 @@ namespace OverflowHelper.core
 
             correctionAdd("inc_", "Inc_");
 
+            correctionAdd("CK550_", "CK550 V2_");
+
             // URL mappings
             //
             //
@@ -85282,6 +85370,8 @@ namespace OverflowHelper.core
             URL_Add("signal processing_", "https://en.wikipedia.org/wiki/Signal_processing");
 
             URL_Add("Inc_", "https://en.wiktionary.org/wiki/Inc#Adjective");
+
+            URL_Add("CK550 V2_", "https://pmortensen.eu/world2/2023/02/13/low-cost-fully-macro-capable-mechanical-keyboard-cooler-master-ck-550/");
 
         } //addLookupData_alternativeWordSet()
 
