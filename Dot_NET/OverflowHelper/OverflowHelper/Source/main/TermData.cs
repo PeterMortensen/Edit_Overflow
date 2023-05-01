@@ -625,7 +625,7 @@ namespace OverflowHelper.core
             correctionAdd("WIN10", "Windows&nbsp;10");
             correctionAdd("window 10", "Windows&nbsp;10");
             correctionAdd("WINDOWS 10", "Windows&nbsp;10");
-            correctionAdd("Windows 10", "Windows&nbsp;10"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>.
+            correctionAdd("Windows 10", "Windows&nbsp;10"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}"
 
             correctionAdd("Windows 10 home", "Windows 10 Home");
             correctionAdd("Windows OS 10 Home Edition", "Windows 10 Home");
@@ -1409,6 +1409,7 @@ namespace OverflowHelper.core
             correctionAdd("Ohmn's law", "Ohm's law");
             correctionAdd("ohms laws", "Ohm's law");
             correctionAdd("ohm's laws", "Ohm's law");
+            correctionAdd("Ohm’s law", "Ohm's law");
 
             // Electronics
             correctionAdd("resister", "resistor");
@@ -1590,6 +1591,15 @@ namespace OverflowHelper.core
             //     Explains how it is actually used.
             //
             correctionAdd("JouleScope", "Joulescope");
+
+            // General (not the specialised electronics signal meaning)
+            correctionAdd("leadin edgee", "leading edge");
+
+            // Related to electronics (testing)
+            correctionAdd("POGO", "pogo");
+
+            // Electronics
+            correctionAdd("botch wire", "bodge wire");
 
             // Boolean
             correctionAdd("Short-cirquit evaluation", "short-circuit evaluation");
@@ -3705,6 +3715,7 @@ namespace OverflowHelper.core
             correctionAdd("Ubtu", "Ubuntu");
             correctionAdd("Uubntu", "Ubuntu");
             correctionAdd("ubantu", "Ubuntu");
+            correctionAdd("uBuntu", "Ubuntu");
 
             correctionAdd("Ubuntu 7.10 (Gutsy Gibbon)", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)"); // Sort of identity mapping
             correctionAdd("Gutsy", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
@@ -4029,7 +4040,7 @@ namespace OverflowHelper.core
             correctionAdd("jammy", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
             correctionAdd("Jammy Jellyfish", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
             correctionAdd("Jammy jellyfish", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("Ubuntu 22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)"); // Has a strange space character
+            correctionAdd("Ubuntu 22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}"
             correctionAdd("jammy jellyfish", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
             correctionAdd("ubuntu 22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
             correctionAdd("Ubuntu22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
@@ -6028,9 +6039,6 @@ namespace OverflowHelper.core
 
             correctionAdd("leadin", "leading");
 
-            // General (not the specialised electronics signal meaning)
-            correctionAdd("leadin edgee", "leading edge");
-
             correctionAdd("bleeding edge", "bleeding-edge");
 
             correctionAdd("cutting edge", "cutting-edge");
@@ -6690,6 +6698,107 @@ namespace OverflowHelper.core
             // A utility (program) for Windows
             correctionAdd("Sharpkeys", "SharpKeys");
 
+            correctionAdd("airmolecule", "air molecule");
+
+            correctionAdd("aviaion", "aviation");
+
+            // Aviation
+            correctionAdd("General Aviation", "general aviation");
+
+            // Aviation
+            // Aviation
+            correctionAdd("Airliner", "airliner");
+
+            // An airliner
+            correctionAdd("Air Lingus", "Aer Lingus");
+
+            // An airliner
+            correctionAdd("air canada", "Air Canada");
+
+            // An airliner
+            correctionAdd("british airways", "British Airways");
+
+            // Aviation
+            correctionAdd("aircrafts", "aircraft");
+            correctionAdd("air craft", "aircraft");
+            correctionAdd("aircarft", "aircraft");
+            correctionAdd("A/C", "aircraft");
+
+            // An aircraft
+            correctionAdd("PA44", "Piper PA-44 Seminole");
+
+            // A type of aircraft
+            correctionAdd("airbus", "Airbus");
+
+            // An aircraft
+            correctionAdd("A220", "Airbus A220");
+
+            // An aircraft
+            correctionAdd("Airbus 319", "Airbus A319");
+            correctionAdd("A319", "Airbus A319");
+
+            // An aircraft
+            correctionAdd("A320", "Airbus A320");
+            correctionAdd("Airbus 320", "Airbus A320");
+            correctionAdd("Airbus a320", "Airbus A320");
+            correctionAdd("a320", "Airbus A320");
+
+            // An aircraft
+            correctionAdd("A330", "Airbus A330");
+            correctionAdd("Airbus 330", "Airbus A330");
+
+            // An aircraft
+            correctionAdd("A350", "Airbus 350");
+
+            // Aviation
+            correctionAdd("A380", "Airbus A380");
+
+            // An aircraft
+            correctionAdd("747", "Boeing 747");
+            correctionAdd("B747", "Boeing 747");
+
+            // An aircraft
+            correctionAdd("777", "Boeing 777");
+
+            // An aircraft
+            correctionAdd("Dreamliner", "Boeing 787");
+            correctionAdd("B787", "Boeing 787");
+            correctionAdd("787", "Boeing 787");
+            correctionAdd("Boing 787 Dreamliner", "Boeing 787");
+
+            // An aircraft
+            correctionAdd("DC-8", "Douglas DC-8");
+
+            // An aircraft
+            correctionAdd("PA28", "Piper PA-28 Cherokee");
+            correctionAdd("PA-28", "Piper PA-28 Cherokee");
+
+            // An aircraft
+            correctionAdd("SR-71", "Lockheed SR-71 Blackbird");
+
+            // An aircraft
+            correctionAdd("XB-70", "North American XB-70 Valkyrie");
+
+            // Aviation
+            correctionAdd("Airframe and Powerplant", "Aviation Maintenance Technician");
+            correctionAdd("A&P", "Aviation Maintenance Technician");
+
+            // Aviation
+            correctionAdd("Business Jet", "business jet");
+            correctionAdd("Business jet", "business jet");
+
+            // Related to aviation / aircraft
+            correctionAdd("mach", "Mach");
+
+            // Related to aviation / aircraft
+            correctionAdd("transsonic", "transonic");
+
+            // Aviation
+            correctionAdd("enroute", "en route");
+
+            correctionAdd("Aero-medical Examiner", "Aviation Medical Examiner");
+            correctionAdd("AME", "Aviation Medical Examiner");
+
             correctionAdd("NYSE", "New York Stock Exchange");
 
             correctionAdd("experts exchange", "Experts-Exchange");
@@ -7205,7 +7314,7 @@ namespace OverflowHelper.core
             correctionAdd("Superusers", "Super&nbsp;User (Stack Exchange site)");
             correctionAdd("Super&nbsp;User", "Super&nbsp;User (Stack Exchange site)");
             correctionAdd("Super User (Stack Exchange site)", "Super&nbsp;User (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Super User", "Super&nbsp;User (Stack Exchange site)"); // Has a strange space character
+            correctionAdd("Super User", "Super&nbsp;User (Stack Exchange site)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}"
 
             correctionAdd("Ask Ubuntu (Stack Exchange site)", "Ask&nbsp;Ubuntu (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("Ask&nbsp;Ubuntu", "Ask&nbsp;Ubuntu (Stack Exchange site)"); // Sort of identity mapping
@@ -7857,9 +7966,6 @@ namespace OverflowHelper.core
 
             correctionAdd("on principal", "on principle");
 
-            // Related to electronics (testing)
-            correctionAdd("POGO", "pogo");
-
             correctionAdd("pseudo code", "pseudocode");
             correctionAdd("Pseudo Code", "pseudocode");
             correctionAdd("pseudyo", "pseudocode"); // Not exact, no "code" in the input
@@ -8263,6 +8369,7 @@ namespace OverflowHelper.core
             correctionAdd("re-frame", "reframe");
 
             correctionAdd("fullblown", "full-blown");
+            correctionAdd("full blown", "full-blown");
 
             correctionAdd("blaim", "blame");
 
@@ -9048,6 +9155,32 @@ namespace OverflowHelper.core
             correctionAdd("spotipy", "Spotipy");
 
             correctionAdd("pylance", "Pylance");
+
+            // A Python distribution
+            correctionAdd("anaconda", "Anaconda");
+            correctionAdd("anonconda", "Anaconda");
+            correctionAdd("Annaconda", "Anaconda");
+
+            // A bootstrap version of Anaconda. Python
+            correctionAdd("miniconda", "Miniconda");
+            correctionAdd("MiniConda", "Miniconda");
+            correctionAdd("conda mini", "Miniconda");
+
+            // A Python package manager
+            correctionAdd("conda", "Conda");
+            correctionAdd("Condo", "Conda");
+            correctionAdd("condo", "Conda");
+
+            // Python
+            correctionAdd("f string", "f-string");
+            correctionAdd("formatted string literals", "f-string");
+            correctionAdd("F-string", "f-string");
+            correctionAdd("F string", "f-string");
+            correctionAdd("F String", "f-string");
+            correctionAdd("f-String", "f-string");
+            correctionAdd("fstrings", "f-string");
+            correctionAdd("f-strings", "f-string");
+            correctionAdd("f' string", "f-string");
 
             correctionAdd("coy", "copy");
 
@@ -13913,40 +14046,42 @@ namespace OverflowHelper.core
             correctionAdd("endash", "en dash");
             correctionAdd("en-dash", "en dash");
 
-            correctionAdd("U+2014", "EM DASH");
-            correctionAdd("Code point 2014", "EM DASH");
-            correctionAdd("code point 2014", "EM DASH");
-
-            correctionAdd("U+2013", "EN DASH");
-            correctionAdd("Code point 2013", "EN DASH");
-            correctionAdd("code point 2013", "EN DASH");
-
-            correctionAdd("U+00E4", "LATIN SMALL LETTER A WITH DIAERESIS");
-
-            correctionAdd("U+201C", "LEFT DOUBLE QUOTATION MARK");
-
-            correctionAdd("U+2212", "MINUS SIGN");
+            correctionAdd("U+0020", "SPACE");
 
             correctionAdd("U+00A0", "NO-BREAK SPACE");
             correctionAdd("NO BREAK SPACE", "NO-BREAK SPACE");
             correctionAdd("00A0", "NO-BREAK SPACE");
 
-            correctionAdd("U+FFFD", "REPLACEMENT CHARACTER");
-
-            correctionAdd("U+201D", "RIGHT DOUBLE QUOTATION MARK");
-
-            correctionAdd("U+0020", "SPACE");
-
-            correctionAdd("U+200C", "ZERO WIDTH NON-JOINER");
+            correctionAdd("U+00E4", "LATIN SMALL LETTER A WITH DIAERESIS");
 
             correctionAdd("U+200B", "ZERO WIDTH SPACE");
             correctionAdd("ZERO-WIDTH SPACE", "ZERO WIDTH SPACE");
             correctionAdd("zero width space", "ZERO WIDTH SPACE");
             correctionAdd("zero-width space", "ZERO WIDTH SPACE");
 
+            correctionAdd("U+200C", "ZERO WIDTH NON-JOINER");
+
+            correctionAdd("U+2013", "EN DASH");
+            correctionAdd("Code point 2013", "EN DASH");
+            correctionAdd("code point 2013", "EN DASH");
+
+            correctionAdd("U+2014", "EM DASH");
+            correctionAdd("Code point 2014", "EM DASH");
+            correctionAdd("code point 2014", "EM DASH");
+
+            correctionAdd("U+2018", "LEFT SINGLE QUOTATION MARK");
+
+            correctionAdd("U+201C", "LEFT DOUBLE QUOTATION MARK");
+
+            correctionAdd("U+201D", "RIGHT DOUBLE QUOTATION MARK");
+
+            correctionAdd("U+2212", "MINUS SIGN");
+
             correctionAdd("U+2217", "ASTERISK OPERATOR");
 
             correctionAdd("U+FEFF", "ZERO WIDTH NO-BREAK SPACE");
+
+            correctionAdd("U+FFFD", "REPLACEMENT CHARACTER");
 
             correctionAdd("adress", "address");
             correctionAdd("addres", "address");
@@ -14134,6 +14269,8 @@ namespace OverflowHelper.core
             correctionAdd("CGG", "GCC");
 
             correctionAdd("gcc 4.8", "GCC 4.8");
+
+            correctionAdd("gcc 10", "GCC 10");
 
             correctionAdd("gcc warning options", "GCC warning options lists");
             correctionAdd("GCC warning options", "GCC warning options lists");
@@ -14877,6 +15014,8 @@ namespace OverflowHelper.core
             correctionAdd("Keybpard", "keyboard");
             correctionAdd("keybpard", "keyboard");
 
+            correctionAdd("key matrix", "keyboard matrix");
+
             correctionAdd("keyboard-shortcut", "keyboard shortcut");
 
             correctionAdd("key-press", "key press");
@@ -15165,10 +15304,18 @@ namespace OverflowHelper.core
 
             // A full-size mechanical keyboard from Cooler Master
             //
+            // Manual:
+            //
+            //   <https://coolermaster.egnyte.com/dd/eGAvqb0y77>
+            //
             correctionAdd("Ck552", "CK552");
 
             // A crippled (65%) mechanical keyboard
             // from Cooler Master
+            //
+            // Manual:
+            //
+            //   <https://coolermaster.egnyte.com/dd/YnagZgiuQk>
             //
             correctionAdd("Ck721", "CK721");
 
@@ -17175,6 +17322,9 @@ namespace OverflowHelper.core
             correctionAdd("jsonb", "JSONB");
 
             correctionAdd("json.l", "JSONL");
+            correctionAdd("JSON Lines", "JSONL");
+            correctionAdd("JSON lines", "JSONL");
+            correctionAdd("jsonl", "JSONL");
 
             correctionAdd("topojson", "TopoJSON");
 
@@ -17674,91 +17824,6 @@ namespace OverflowHelper.core
             correctionAdd("XAMP", "XAMPP");
             correctionAdd("XAAMP", "XAMPP");
             correctionAdd("XXAMP", "XAMPP");
-
-            correctionAdd("aviaion", "aviation");
-
-            // Aviation
-            correctionAdd("General Aviation", "general aviation");
-
-            // An aircraft
-            correctionAdd("PA44", "Piper PA-44 Seminole");
-
-            correctionAdd("airbus", "Airbus");
-
-            correctionAdd("A220", "Airbus A220");
-
-            // An aircraft
-            correctionAdd("Airbus 319", "Airbus A319");
-            correctionAdd("A319", "Airbus A319");
-
-            correctionAdd("A320", "Airbus A320");
-            correctionAdd("Airbus 320", "Airbus A320");
-            correctionAdd("Airbus a320", "Airbus A320");
-            correctionAdd("a320", "Airbus A320");
-
-            correctionAdd("A330", "Airbus A330");
-            correctionAdd("Airbus 330", "Airbus A330");
-
-            correctionAdd("A350", "Airbus 350");
-
-            // Aviation
-            correctionAdd("A380", "Airbus A380");
-
-            correctionAdd("Air Lingus", "Aer Lingus");
-
-            correctionAdd("air canada", "Air Canada");
-
-            correctionAdd("747", "Boeing 747");
-            correctionAdd("B747", "Boeing 747");
-
-            correctionAdd("777", "Boeing 777");
-
-            correctionAdd("Dreamliner", "Boeing 787");
-            correctionAdd("B787", "Boeing 787");
-            correctionAdd("787", "Boeing 787");
-            correctionAdd("Boing 787 Dreamliner", "Boeing 787");
-
-            // An aircraft
-            correctionAdd("DC-8", "Douglas DC-8");
-
-            correctionAdd("british airways", "British Airways");
-
-            correctionAdd("Airframe and Powerplant", "Aviation Maintenance Technician");
-            correctionAdd("A&P", "Aviation Maintenance Technician");
-
-            correctionAdd("airmolecule", "air molecule");
-
-            correctionAdd("Airliner", "airliner");
-
-            correctionAdd("Business Jet", "business jet");
-            correctionAdd("Business jet", "business jet");
-
-            // Related to aviation / aircraft
-            correctionAdd("mach", "Mach");
-
-            // Related to aviation / aircraft
-            correctionAdd("transsonic", "transonic");
-
-            correctionAdd("enroute", "en route");
-
-            // An aircraft
-            correctionAdd("PA28", "Piper PA-28 Cherokee");
-            correctionAdd("PA-28", "Piper PA-28 Cherokee");
-
-            correctionAdd("aircrafts", "aircraft");
-            correctionAdd("air craft", "aircraft");
-            correctionAdd("aircarft", "aircraft");
-            correctionAdd("A/C", "aircraft");
-
-            // Aviation
-            correctionAdd("Aero-medical Examiner", "Aviation Medical Examiner");
-            correctionAdd("AME", "Aviation Medical Examiner");
-
-            // Aviation
-            correctionAdd("SR-71", "Lockheed SR-71 Blackbird");
-
-            // Aviation
-            correctionAdd("XB-70", "North American XB-70 Valkyrie");
 
             correctionAdd("pipewire", "PipeWire");
             correctionAdd("Pipewire", "PipeWire");
@@ -19997,6 +20062,13 @@ namespace OverflowHelper.core
 
             correctionAdd("cpu", "CPU");
             correctionAdd("Cpu", "CPU");
+
+            // A CPU feature
+            correctionAdd("TurboBoost", "Turbo Boost");
+
+            // A type of  microprocessor/CPU
+            correctionAdd("Power8", "POWER8");
+            correctionAdd("Power 8", "POWER8");
 
             correctionAdd("Processor", "processor");
 
@@ -24257,6 +24329,7 @@ namespace OverflowHelper.core
             correctionAdd("winword", "Microsoft Word");
             correctionAdd("WORD", "Microsoft Word");
             correctionAdd("ms-word", "Microsoft Word");
+            correctionAdd("Winword", "Microsoft Word");
 
             correctionAdd("wpa", "WPA");
 
@@ -24794,6 +24867,23 @@ namespace OverflowHelper.core
             correctionAdd("F16", "F-16");
             correctionAdd("F 16", "F-16");
             correctionAdd("f 16", "F-16");
+
+            correctionAdd("F-18", "F/A-18");
+            correctionAdd("F18", "F/A-18");
+
+            correctionAdd("F22", "F-22 Raptor");
+            correctionAdd("F-22", "F-22 Raptor");
+
+            correctionAdd("F35", "F-35");
+            correctionAdd("f-35", "F-35");
+            correctionAdd("f35", "F-35");
+            correctionAdd("joint strike fighter", "F-35");
+            correctionAdd("Joint Strike Fighter", "F-35");
+            correctionAdd("JOINT STRIKE FIGHTER", "F-35");
+
+            correctionAdd("F1 visa", "F-1 visa");
+
+            correctionAdd("F2 visa", "F-2 visa");
 
             correctionAdd("pls", "please");
             correctionAdd("plz", "please");
@@ -25895,13 +25985,6 @@ namespace OverflowHelper.core
             correctionAdd("seams", "seems");
             correctionAdd("seemes", "seems");
 
-            correctionAdd("F35", "F-35");
-            correctionAdd("f-35", "F-35");
-            correctionAdd("f35", "F-35");
-            correctionAdd("joint strike fighter", "F-35");
-            correctionAdd("Joint Strike Fighter", "F-35");
-            correctionAdd("JOINT STRIKE FIGHTER", "F-35");
-
             correctionAdd("kicad", "KiCad");
             correctionAdd("Kicad", "KiCad");
             correctionAdd("KICAD", "KiCad");
@@ -26378,21 +26461,6 @@ namespace OverflowHelper.core
             correctionAdd("chanlenge", "challenge");
             correctionAdd("chalenge", "challenge");
             correctionAdd("chalendge", "challenge");
-
-            // A Python distribution
-            correctionAdd("anaconda", "Anaconda");
-            correctionAdd("anonconda", "Anaconda");
-            correctionAdd("Annaconda", "Anaconda");
-
-            // A bootstrap version of Anaconda. Python
-            correctionAdd("miniconda", "Miniconda");
-            correctionAdd("MiniConda", "Miniconda");
-            correctionAdd("conda mini", "Miniconda");
-
-            // A Python package manager
-            correctionAdd("conda", "Conda");
-            correctionAdd("Condo", "Conda");
-            correctionAdd("condo", "Conda");
 
             correctionAdd("jekyll", "Jekyll");
             correctionAdd("Jerkyll", "Jekyll");
@@ -31808,6 +31876,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Big Data", "big data");
             correctionAdd("Big data", "big data");
+            correctionAdd("bigdata", "big data");
 
             correctionAdd("FISH", "Fish");
             correctionAdd("fish", "Fish");
@@ -31842,6 +31911,8 @@ namespace OverflowHelper.core
             correctionAdd("reconize", "recognise");
             correctionAdd("reconigze", "recognise");
             correctionAdd("recongize", "recognise");
+            correctionAdd("recegnise", "recognise");
+            correctionAdd("recegnize", "recognise");
 
             correctionAdd("repeatation", "repetition");
             correctionAdd("repetiton", "repetition");
@@ -32238,6 +32309,8 @@ namespace OverflowHelper.core
             correctionAdd("O'Reilly", "O'Reilly Media");
             correctionAdd("oreilly", "O'Reilly Media");
             correctionAdd("o'reilly", "O'Reilly Media");
+            correctionAdd("Orielly", "O'Reilly Media");
+            correctionAdd("orielly", "O'Reilly Media");
 
             correctionAdd("spotify", "Spotify");
 
@@ -32647,6 +32720,7 @@ namespace OverflowHelper.core
             correctionAdd("filesytem", "file system");
             correctionAdd("File system", "file system");
             correctionAdd("file - system", "file system");
+            correctionAdd("files system", "file system");
 
             correctionAdd("VCS", "version control system"); // Expansion, actually ""
             correctionAdd("vcs", "version control system");
@@ -35481,6 +35555,7 @@ namespace OverflowHelper.core
 
             correctionAdd("abandonded", "abandoned");
             correctionAdd("abandonned", "abandoned");
+            correctionAdd("abondanned", "abandoned");
 
             correctionAdd("battallion", "battalion");
 
@@ -37501,6 +37576,7 @@ namespace OverflowHelper.core
             correctionAdd("kafa", "Kafka");
             correctionAdd("kakfa", "Kafka");
             correctionAdd("Apache Kafka", "Kafka");
+            correctionAdd("apache kafka", "Kafka");
 
             correctionAdd("OpenBox", "Openbox");
             correctionAdd("openbox", "Openbox");
@@ -38863,8 +38939,6 @@ namespace OverflowHelper.core
             correctionAdd("4g", "4G");
             correctionAdd("LTE", "4G");
 
-            correctionAdd("F22", "F-22 Raptor");
-
             correctionAdd("SQLite 3", "SQLite&nbsp;3");
             correctionAdd("SQLite3", "SQLite&nbsp;3");
             correctionAdd("sqlite3", "SQLite&nbsp;3");
@@ -39451,7 +39525,7 @@ namespace OverflowHelper.core
             correctionAdd("tyring", "tiring");
 
             correctionAdd("B 737", "Boing 737");
-            correctionAdd("B737", "Boing 737");
+            correctionAdd("B737", "Boing 737"); // The correct shortform (not "B-737")
             correctionAdd("737", "Boing 737");
 
             correctionAdd("codeavengers.com", "Code Avengers");
@@ -43583,6 +43657,14 @@ namespace OverflowHelper.core
             correctionAdd("angle-of-attack", "angle of attack");
             correctionAdd("AOA", "angle of attack");
 
+            correctionAdd("ICAO", "International Civil Aviation Organization");
+
+            // Aviation
+            correctionAdd("jack screw", "jackscrew");
+
+            // Aviation
+            correctionAdd("air-frame", "airframe");
+
             correctionAdd("ipcc", "IPCC");
             correctionAdd("Intergovernmental Panel on Climate Change", "IPCC");
 
@@ -45227,16 +45309,6 @@ namespace OverflowHelper.core
 
             correctionAdd("dirting", "dirtying");
 
-            correctionAdd("f string", "f-string");
-            correctionAdd("formatted string literals", "f-string");
-            correctionAdd("F-string", "f-string");
-            correctionAdd("F string", "f-string");
-            correctionAdd("F String", "f-string");
-            correctionAdd("f-String", "f-string");
-            correctionAdd("fstrings", "f-string");
-            correctionAdd("f-strings", "f-string");
-            correctionAdd("f' string", "f-string");
-
             correctionAdd("phase", "face");
 
             correctionAdd("prize", "price");
@@ -46031,9 +46103,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Quotient", "quotient");
 
-            correctionAdd("F-18", "F/A-18");
-            correctionAdd("F18", "F/A-18");
-
             correctionAdd("North-Korean", "North Korean");
 
             correctionAdd("stm32f103", "STM32F103");
@@ -46048,8 +46117,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Docblock", "DocBlock");
             correctionAdd("docblock", "DocBlock");
-
-            correctionAdd("ICAO", "International Civil Aviation Organization");
 
             correctionAdd("book keeping", "bookkeeping");
             correctionAdd("book-keeping", "bookkeeping");
@@ -48453,6 +48520,7 @@ namespace OverflowHelper.core
 
             correctionAdd("north-west", "northwest");
 
+            // .NET
             correctionAdd("AnyCPU", "Any CPU");
             correctionAdd("any cpu", "Any CPU");
             correctionAdd("anycpu", "Any CPU");
@@ -49457,10 +49525,6 @@ namespace OverflowHelper.core
             correctionAdd("BSD license", "BSD-licensed");
 
             correctionAdd("code runner", "Code Runner");
-
-            correctionAdd("F1 visa", "F-1 visa");
-
-            correctionAdd("F2 visa", "F-2 visa");
 
             correctionAdd("Far manager", "Far Manager");
 
@@ -52111,9 +52175,6 @@ namespace OverflowHelper.core
 
             correctionAdd("thorat", "throat");
 
-            // A CPU feature
-            correctionAdd("TurboBoost", "Turbo Boost");
-
             correctionAdd("Easystore", "Western Digital Easystore");
 
             correctionAdd("AT", "assistive technology");
@@ -52830,16 +52891,19 @@ namespace OverflowHelper.core
 
             correctionAdd("influencial", "influential");
 
-            correctionAdd("Power8", "POWER8");
-            correctionAdd("Power 8", "POWER8");
-
             correctionAdd("self interest", "self-interest");
 
             correctionAdd("mis-configured", "misconfigured");
 
+            // A distributed file system
             correctionAdd("Tachyon", "Alluxio");
 
             correctionAdd("non-printable", "nonprintable");
+            correctionAdd("non-pritable", "nonprintable");
+
+            correctionAdd("Peltier", "Peltier element");
+
+            correctionAdd("tighly", "tightly");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -81895,6 +81959,22 @@ namespace OverflowHelper.core
             URL_Add("TTC Mechanical Switch", "https://techbullish.com/ttc-switches/");
 
             URL_Add("jq", "https://stedolan.github.io/jq/");
+
+            URL_Add("airframe", "https://en.wiktionary.org/wiki/airframe#Noun");
+
+            URL_Add("bodge wire", "https://hackaday.com/tag/bodge-wire/");
+
+            URL_Add("GCC 10", "https://gcc.gnu.org/releases.html");
+
+            URL_Add("jackscrew", "https://en.wiktionary.org/wiki/jackscrew#Noun");
+
+            URL_Add("keyboard matrix", "https://en.wikipedia.org/wiki/Keyboard_matrix_circuit");
+
+            URL_Add("LEFT SINGLE QUOTATION MARK", "https://www.utf8-chartable.de/unicode-utf8-table.pl?start=8192&number=128");
+
+            URL_Add("Peltier element", "https://en.wikipedia.org/wiki/Thermoelectric_cooling");
+
+            URL_Add("tightly", "https://en.wiktionary.org/wiki/tightly#Adverb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
