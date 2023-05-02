@@ -7788,6 +7788,7 @@ namespace OverflowHelper.core
             correctionAdd("StackExhange.Math", "Mathematics (Stack Exchange site)");
             correctionAdd("the Math site", "Mathematics (Stack Exchange site)");
             correctionAdd("MathExchange", "Mathematics (Stack Exchange site)");
+            correctionAdd("math stackexchange", "Mathematics (Stack Exchange site)");
 
             correctionAdd("pets", "Pets (Stack Exchange site)");
             correctionAdd("Pets", "Pets (Stack Exchange site)");
@@ -20893,6 +20894,7 @@ namespace OverflowHelper.core
             correctionAdd("ECC", "elliptic-curve cryptography");
 
             correctionAdd("Cryptographically", "cryptographically");
+            correctionAdd("cryptorgaphically", "cryptographically");
 
             correctionAdd("Cryptographically Secure", "cryptographically secure");
 
@@ -23489,6 +23491,7 @@ namespace OverflowHelper.core
             correctionAdd("evernote", "Evernote");
 
             correctionAdd("onenote", "OneNote");
+            correctionAdd("oneNote", "OneNote");
 
             correctionAdd("foot note", "footnote");
 
@@ -29986,6 +29989,7 @@ namespace OverflowHelper.core
             correctionAdd("probllem", "problem");
             correctionAdd("Pr0blam", "problem");
             correctionAdd("pr0blam", "problem");
+            correctionAdd("probrems", "problem");
 
             correctionAdd("problemantic", "problematic");
 
@@ -31455,6 +31459,7 @@ namespace OverflowHelper.core
             correctionAdd("hapend", "happened");
             correctionAdd("happended", "happened");
             correctionAdd("happenned", "happened");
+            correctionAdd("happenend", "happened");
 
             correctionAdd("Harmonic Oscillator", "harmonic oscillator");
 
@@ -43619,6 +43624,7 @@ namespace OverflowHelper.core
             correctionAdd("WebCam", "webcam");
 
             correctionAdd("webp", "WebP");
+            correctionAdd("Webp", "WebP");
 
             correctionAdd("webscraping", "web scraping");
             correctionAdd("web-scraping", "web scraping");
@@ -47851,6 +47857,7 @@ namespace OverflowHelper.core
             correctionAdd("validiation", "validation");
 
             correctionAdd("uVision", "µVision");
+            correctionAdd("Uvision", "µVision");
 
             correctionAdd("formuation", "formulation");
 
@@ -52904,6 +52911,17 @@ namespace OverflowHelper.core
             correctionAdd("Peltier", "Peltier element");
 
             correctionAdd("tighly", "tightly");
+
+            correctionAdd("author attribution", "author attribution on Stack Overflow");
+
+            correctionAdd("documentation dump", "documentation dump on Stack Overflow");
+
+            correctionAdd("oneTBB", "oneAPI Threading Building Blocks");
+            correctionAdd("TBB", "oneAPI Threading Building Blocks");
+
+            correctionAdd("IDT", "interrupt descriptor table");
+
+            correctionAdd("qwertz", "QWERTZ");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -81976,6 +81994,16 @@ namespace OverflowHelper.core
 
             URL_Add("tightly", "https://en.wiktionary.org/wiki/tightly#Adverb");
 
+            URL_Add("author attribution on Stack Overflow", "https://meta.stackoverflow.com/questions/424177/how-should-answers-citing-chatgpt-be-flagged/424179#424179");
+
+            URL_Add("documentation dump on Stack Overflow", "https://stackoverflow.com/questions/34319000/what-constitutes-a-valid-c-identifier/34319264#34319264");
+
+            URL_Add("oneAPI Threading Building Blocks", "https://en.wikipedia.org/wiki/Threading_Building_Blocks");
+
+            URL_Add("interrupt descriptor table", "https://en.wikipedia.org/wiki/Interrupt_descriptor_table");
+
+            URL_Add("QWERTZ", "https://en.wikipedia.org/wiki/QWERTZ");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -84265,6 +84293,8 @@ namespace OverflowHelper.core
             correctionAdd("stray error_", "Unicode blues in C++ and similar languages (after copying from web pages, Skype chat, etc.)_");
             correctionAdd("stray blues_", "Unicode blues in C++ and similar languages (after copying from web pages, Skype chat, etc.)_");
 
+            correctionAdd("Portable Executable_", "Portable Executable (PE)_");
+
             // URL mappings
             //
             //
@@ -85541,6 +85571,8 @@ namespace OverflowHelper.core
             URL_Add("CK550 V2_", "https://pmortensen.eu/world2/2023/02/13/low-cost-fully-macro-capable-mechanical-keyboard-cooler-master-ck-550/");
 
             URL_Add("Unicode blues in C++ and similar languages (after copying from web pages, Skype chat, etc.)_", "https://pmortensen.eu/world2/2023/05/01/unicode-blues-in-c-and-similar-languages-after-copying-from-web-pages-skype-chat-etc/");
+
+            URL_Add("Portable Executable (PE)_", "https://en.wikipedia.org/wiki/Portable_Executable");
 
         } //addLookupData_alternativeWordSet()
 
