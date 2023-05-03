@@ -1039,6 +1039,7 @@ namespace OverflowHelper.core
             correctionAdd("cp1252", "Windows-1252");
             correctionAdd("1252", "Windows-1252");
             correctionAdd("Windows 1252", "Windows-1252");
+            correctionAdd("Window 1252", "Windows-1252");
 
             correctionAdd("file explorer", "File Explorer");
             correctionAdd("Windows file explorer", "File Explorer");
@@ -2252,6 +2253,9 @@ namespace OverflowHelper.core
             correctionAdd("Serverfaces", "JavaServer Faces");
             correctionAdd("jsf", "JavaServer Faces");
             correctionAdd("JSF", "JavaServer Faces");
+            correctionAdd("Java Server Faces", "JavaServer Faces");
+            correctionAdd("Java Server faces", "JavaServer Faces");
+            correctionAdd("Java Server server faces", "JavaServer Faces");
 
             correctionAdd("jsp", "JSP"); // Not actually observed.
             correctionAdd("Jsp", "JSP");
@@ -8703,32 +8707,34 @@ namespace OverflowHelper.core
             // PHP function
             correctionAdd("strpos", "strpos()");
 
-            correctionAdd("mhash", "mhash()");
+            correctionAdd("mhash", "mhash()"); // PHP function
 
-            correctionAdd("mb_split", "mb_split()");
+            correctionAdd("mb_split", "mb_split()"); // PHP function
 
+            // PHP function
             correctionAdd("mbstring", "mb_string()");
             correctionAdd("mb_string", "mb_string()");
 
             // PHP function
             correctionAdd("mail", "mail()");
 
+            // PHP function
             correctionAdd("mcrypt", "Mcrypt()");
             correctionAdd("Mcrypt", "Mcrypt()");
 
-            correctionAdd("strftime", "strftime()");
+            correctionAdd("strftime", "strftime()"); // PHP function
 
-            correctionAdd("utf8_encode", "utf8_encode()");
+            correctionAdd("utf8_encode", "utf8_encode()"); // PHP function
 
-            correctionAdd("mknod", "mknod()");
+            correctionAdd("mknod", "mknod()"); // PHP function
 
-            correctionAdd("rpartition", "rpartition()");
+            correctionAdd("rpartition", "rpartition()"); // PHP function
 
-            correctionAdd("urlencode", "urlencode()");
+            correctionAdd("urlencode", "urlencode()"); // PHP function
 
-            correctionAdd("htmlspecialchars", "htmlspecialchars()"); // PHP
+            correctionAdd("htmlspecialchars", "htmlspecialchars()"); // PHP function
 
-            correctionAdd("rawurlencode", "rawurlencode()"); // PHP
+            correctionAdd("rawurlencode", "rawurlencode()"); // PHP function
 
             correctionAdd("rtrim", "rtrim()"); // PHP function
 
@@ -8741,6 +8747,12 @@ namespace OverflowHelper.core
             correctionAdd("call_user_func_array", "call_user_func_array()"); // PHP function
 
             correctionAdd("implode", "implode()"); // PHP function
+
+            correctionAdd("get_html_translation_table", "get_html_translation_table()"); // PHP function
+
+            correctionAdd("htmlspecialchars_decode", "htmlspecialchars_decode()"); // PHP function
+
+            correctionAdd("ord", "ord()"); // PHP function
 
             // A programming language
             correctionAdd("python", "Python");
@@ -12122,6 +12134,19 @@ namespace OverflowHelper.core
             correctionAdd("Apache Utils", "Apache Commons");
             correctionAdd("apache.commons", "Apache Commons");
 
+            correctionAdd("Commons Lang", "Apache Commons Lang");
+
+            correctionAdd("Commons-IO", "Commons&nbsp;IO");
+            correctionAdd("commons-io", "Commons&nbsp;IO");
+            correctionAdd("commons", "Commons&nbsp;IO");
+            correctionAdd("Commons", "Commons&nbsp;IO");
+            correctionAdd("Apache Commons IO", "Commons&nbsp;IO");
+            correctionAdd("Commons IO", "Commons&nbsp;IO");
+
+            // In Apache Commons
+            correctionAdd("StringEscapeUtils.unescapeHtml3", "StringEscapeUtils.unescapeHtml3()");
+            correctionAdd("unescapeHtml3", "StringEscapeUtils.unescapeHtml3()");
+
             correctionAdd("Airflow", "Apache Airflow");
             correctionAdd("apache-airflow", "Apache Airflow");
             correctionAdd("airflow", "Apache Airflow");
@@ -12151,21 +12176,12 @@ namespace OverflowHelper.core
             correctionAdd("ASF", "Apache Software Foundation");
             correctionAdd("Apache SF", "Apache Software Foundation");
 
-            correctionAdd("Commons Lang", "Apache Commons Lang");
-
             correctionAdd("tomcat", "Tomcat");
             correctionAdd("tomacat", "Tomcat");
             correctionAdd("TOMCAT", "Tomcat");
             correctionAdd("Apache Tomcat", "Tomcat");
             correctionAdd("Apache tomcat", "Tomcat");
             correctionAdd("apache tomcat", "Tomcat");
-
-            correctionAdd("Commons-IO", "Commons&nbsp;IO");
-            correctionAdd("commons-io", "Commons&nbsp;IO");
-            correctionAdd("commons", "Commons&nbsp;IO");
-            correctionAdd("Commons", "Commons&nbsp;IO");
-            correctionAdd("Apache Commons IO", "Commons&nbsp;IO");
-            correctionAdd("Commons IO", "Commons&nbsp;IO");
 
             correctionAdd("HttpComponents", "Apache HttpComponents");
             correctionAdd("Http Components", "Apache HttpComponents");
@@ -16372,6 +16388,8 @@ namespace OverflowHelper.core
             correctionAdd("Latin 1", "ISO&nbsp;8859-1");
             correctionAdd("8681", "ISO&nbsp;8859-1");
             correctionAdd("iso-8859-2", "ISO&nbsp;8859-1");
+            correctionAdd("8801", "ISO&nbsp;8859-1");
+            correctionAdd("ISO/IEC 8859-1", "ISO&nbsp;8859-1");
 
             correctionAdd("Latin2", "ISO&nbsp;8859-2");
             correctionAdd("ISO 8859-2", "ISO&nbsp;8859-2"); // Sort of identity mapping
@@ -18885,6 +18903,10 @@ namespace OverflowHelper.core
             correctionAdd("HTMl", "HTML");
             correctionAdd("HMTL", "HTML");
 
+            correctionAdd("HTML 3.2", "HTML&nbsp;3.2"); // Sort of identity mapping
+            correctionAdd("HTML&nbsp;3", "HTML&nbsp;3.2");
+            correctionAdd("HTML 3", "HTML&nbsp;3.2");
+
             correctionAdd("HTML 4.0", "HTML&nbsp;4"); // Sort of identity mapping
             correctionAdd("HTML 4", "HTML&nbsp;4");
             correctionAdd("HTML4", "HTML&nbsp;4");
@@ -20797,6 +20819,7 @@ namespace OverflowHelper.core
             correctionAdd("haracter", "characters");
             correctionAdd("haracters", "characters");
             correctionAdd("charactar", "characters");
+            correctionAdd("charcters", "characters");
 
             correctionAdd("MarkDown", "Markdown");
             correctionAdd("markdown", "Markdown");
@@ -22795,6 +22818,8 @@ namespace OverflowHelper.core
             correctionAdd("Generated AU", "generative AI");
             correctionAdd("generated AI", "generative AI");
             correctionAdd("generated AU", "generative AI");
+            correctionAdd("genAI", "generative AI");
+            correctionAdd("generative \"AI\"", "generative AI");
 
             correctionAdd("autoai", "AutoAI");
 
@@ -24040,6 +24065,7 @@ namespace OverflowHelper.core
             correctionAdd("straitforward", "straightforward");
             correctionAdd("straighforward", "straightforward");
             correctionAdd("straight foward", "straightforward");
+            correctionAdd("straight forwards", "straightforward");
 
             correctionAdd("dvd", "DVD");
 
@@ -31933,6 +31959,7 @@ namespace OverflowHelper.core
             correctionAdd("licence", "license");
 
             correctionAdd("MIT license", "MIT License");
+            correctionAdd("MIT licence", "MIT License");
 
             correctionAdd("re-license", "relicense");
 
@@ -32398,6 +32425,7 @@ namespace OverflowHelper.core
             correctionAdd("intepreted", "interpreted");
 
             correctionAdd("misinterpeted", "misinterpreted");
+            correctionAdd("misinterperted", "misinterpreted");
 
             correctionAdd("distroy", "destroy");
 
@@ -37364,6 +37392,7 @@ namespace OverflowHelper.core
             correctionAdd("nothimg", "nothing");
             correctionAdd("notheing", "nothing");
             correctionAdd("nothign", "nothing");
+            correctionAdd("nothings", "nothing");
 
             correctionAdd("off the cuff", "off-the-cuff");
             correctionAdd("Off the cuff", "off-the-cuff");
@@ -52051,6 +52080,7 @@ namespace OverflowHelper.core
             correctionAdd("apend", "append");
 
             correctionAdd("Text Box", "text box");
+            correctionAdd("textbox", "text box");
 
             correctionAdd("high end", "high-end");
 
@@ -52955,6 +52985,12 @@ namespace OverflowHelper.core
             correctionAdd("gold-nugget", "gold nugget");
 
             correctionAdd("Lazy Loading", "lazy loading");
+
+            correctionAdd("U+2019", "RIGHT SINGLE QUOTATION MARK");
+
+            correctionAdd("U+00BB", "RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK");
+
+            correctionAdd("mis-rendered", "misrendered");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -82048,6 +82084,22 @@ namespace OverflowHelper.core
             URL_Add("gold nugget", "https://en.wikipedia.org/wiki/Gold_nugget");
 
             URL_Add("lazy loading", "https://en.wikipedia.org/wiki/Lazy_loading");
+
+            URL_Add("get_html_translation_table()", "https://www.php.net/manual/en/function.get-html-translation-table.php");
+
+            URL_Add("HTML&nbsp;3.2", "https://en.wikipedia.org/wiki/HTML#HTML_3");
+
+            URL_Add("htmlspecialchars_decode()", "https://www.php.net/manual/en/function.htmlspecialchars-decode.php");
+
+            URL_Add("ord()", "https://www.php.net/manual/en/function.ord.php");
+
+            URL_Add("RIGHT SINGLE QUOTATION MARK", "https://www.utf8-chartable.de/unicode-utf8-table.pl?start=8192&number=128");
+
+            URL_Add("RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK", "https://www.utf8-chartable.de/unicode-utf8-table.pl?start=128");
+
+            URL_Add("StringEscapeUtils.unescapeHtml3()", "https://commons.apache.org/proper/commons-lang/apidocs/org/apache/commons/lang3/StringEscapeUtils.html#unescapeHtml3-java.lang.String-");
+
+            URL_Add("misrendered", "https://en.wiktionary.org/wiki/misrender#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
