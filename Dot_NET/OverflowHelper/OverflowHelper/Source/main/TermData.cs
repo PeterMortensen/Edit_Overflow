@@ -2122,8 +2122,13 @@ namespace OverflowHelper.core
             correctionAdd("IDA Pro", "Interactive Disassembler");
             correctionAdd("Interactive Disassembler Professional", "Interactive Disassembler");
 
+            correctionAdd("X86", "x86");
+
             // An x86 assembler
             correctionAdd("FASMW", "FASM");
+
+            // x86
+            correctionAdd("IDT", "interrupt descriptor table");
 
             correctionAdd("MASM", "Microsoft Macro Assembler");
 
@@ -6037,6 +6042,10 @@ namespace OverflowHelper.core
             correctionAdd("leading theory", "a leading theory");
             correctionAdd("a theory", "a leading theory");
 
+            // In 'The Hitchhiker's Guide to the Galaxy'
+            correctionAdd("burn down the forests", "a small inflation problem");
+            correctionAdd("inflation proplem", "a small inflation problem");
+
             correctionAdd("leadin", "leading");
 
             correctionAdd("bleeding edge", "bleeding-edge");
@@ -7247,7 +7256,14 @@ namespace OverflowHelper.core
             // name is a Star Wars reference.
             correctionAdd("trilogy", "the trilogy");
 
+            // Stack Overflow, etc. Stack Exchange
             correctionAdd("SOFU", "Stack Overflow, Server Fault and Super User");
+
+            // Stack Overflow
+            correctionAdd("author attribution", "author attribution on Stack Overflow");
+
+            // Stack Overflow
+            correctionAdd("documentation dump", "documentation dump on Stack Overflow");
 
             //  Start of Stack Exchange site list (not
             //  complete (only added on demand))
@@ -7935,6 +7951,9 @@ namespace OverflowHelper.core
             correctionAdd("Pareto", "Pareto principle");
             correctionAdd("pareto principle", "Pareto principle");
             correctionAdd("Pareto Principle", "Pareto principle");
+
+            correctionAdd("GPD", "generalized Pareto distribution");
+            correctionAdd("Generalized Pareto distribution", "generalized Pareto distribution");
 
             correctionAdd("Heisenberg Uncertainty Principle", "Heisenberg's uncertainty principle");
             correctionAdd("Uncertainty Principle", "Heisenberg's uncertainty principle");
@@ -9793,6 +9812,7 @@ namespace OverflowHelper.core
             correctionAdd("backbone.js", "Backbone.js");
             correctionAdd("Backbone JS", "Backbone.js");
             correctionAdd("Backboone", "Backbone.js");
+            correctionAdd("backbone js", "Backbone.js");
 
             // A JavaScript library for artificial neural networks
             correctionAdd("Brain JS", "Brain.js");
@@ -13039,6 +13059,7 @@ namespace OverflowHelper.core
             correctionAdd("fellow swoop", "one fell swoop");
 
             correctionAdd("Crop", "crop");
+            correctionAdd("cropped", "crop");
 
             correctionAdd("op", "OP");
             correctionAdd("OQ", "OP");
@@ -14271,6 +14292,9 @@ namespace OverflowHelper.core
 
             correctionAdd("gcc 4.8", "GCC 4.8");
 
+            correctionAdd("GCC 4.8.3", "GCC 4.8.3 (2014-05-22)");
+            correctionAdd("gcc 4.8.3", "GCC 4.8.3 (2014-05-22)");
+
             correctionAdd("gcc 10", "GCC 10");
 
             correctionAdd("gcc warning options", "GCC warning options lists");
@@ -14298,8 +14322,12 @@ namespace OverflowHelper.core
             correctionAdd("libc++", "C++ Standard Library");
             correctionAdd("libstdc++", "C++ Standard Library");
 
-            // C++
+            // Part of a C++ library
             correctionAdd("iotream", "iostream");
+
+            // A C++ library
+            correctionAdd("oneTBB", "oneAPI Threading Building Blocks");
+            correctionAdd("TBB", "oneAPI Threading Building Blocks");
 
             // A compiler. C and C++.
             correctionAdd("clang", "Clang");
@@ -15026,6 +15054,13 @@ namespace OverflowHelper.core
             correctionAdd("key stroke", "keystroke");
 
             // A keyboard layout
+            correctionAdd("qwerty", "QWERTY");
+            correctionAdd("Qwerty", "QWERTY");
+
+            // A keyboard layout. German.
+            correctionAdd("qwertz", "QWERTZ");
+
+            // A keyboard layout
             correctionAdd("US keyboard", "United States keyboard layout");
             correctionAdd("us keyboard", "United States keyboard layout");
             correctionAdd("Keyboard - US", "United States keyboard layout");
@@ -15044,6 +15079,7 @@ namespace OverflowHelper.core
             // A keyboard layout
             correctionAdd("colemak", "Colemak");
             correctionAdd("Colemake", "Colemak");
+            correctionAdd("coleman", "Colemak");
 
             // A keyboard layout
             correctionAdd("workman", "Workman");
@@ -26502,6 +26538,7 @@ namespace OverflowHelper.core
             correctionAdd("Positive", "positive");
 
             correctionAdd("false-positive", "false positive");
+            correctionAdd("false-positives", "false positive");
 
             correctionAdd("negatvie", "negative");
             correctionAdd("neg", "negative");
@@ -27310,6 +27347,7 @@ namespace OverflowHelper.core
             correctionAdd("to do", "todo");
             correctionAdd("to-do", "todo");
             correctionAdd("To-Do", "todo");
+            correctionAdd("Todo", "todo");
 
             correctionAdd("irish", "Irish");
 
@@ -28094,9 +28132,6 @@ namespace OverflowHelper.core
 
             correctionAdd("asap", "ASAP");
 
-            correctionAdd("qwerty", "QWERTY");
-            correctionAdd("Qwerty", "QWERTY");
-
             correctionAdd("spring boot", "Spring Boot");
             correctionAdd("Spring boot", "Spring Boot");
             correctionAdd("springboot", "Spring Boot");
@@ -28376,6 +28411,7 @@ namespace OverflowHelper.core
             correctionAdd("uBlock", "uBlock Origin");
             correctionAdd("u-Block", "uBlock Origin");
             correctionAdd("uBlock Origins", "uBlock Origin");
+            correctionAdd("ublock", "uBlock Origin");
 
             correctionAdd("nsfw", "NSFW");
 
@@ -31700,6 +31736,8 @@ namespace OverflowHelper.core
             correctionAdd("initilization", "initialisation");
             correctionAdd("initalization", "initialisation");
             correctionAdd("intialisation", "initialisation");
+            correctionAdd("initialasation", "initialisation");
+            correctionAdd("initialazation", "initialisation");
 
             correctionAdd("Millennials", "millennials");
             correctionAdd("millinials", "millennials");
@@ -44610,6 +44648,7 @@ namespace OverflowHelper.core
             correctionAdd("HSS", "high-speed steel");
 
             correctionAdd("Infinity", "infinity");
+            correctionAdd("infinty", "infinity");
 
             correctionAdd("needet", "needed");
             correctionAdd("needeed", "needed");
@@ -47429,8 +47468,6 @@ namespace OverflowHelper.core
 
             correctionAdd("non-rigid", "nonrigid");
             correctionAdd("non rigid", "nonrigid");
-
-            correctionAdd("X86", "x86");
 
             correctionAdd("Design system", "design system");
 
@@ -52044,6 +52081,7 @@ namespace OverflowHelper.core
             correctionAdd("Assimp", "Open Asset Import Library");
 
             correctionAdd("forbideen", "forbidden");
+            correctionAdd("forbiden", "forbidden");
 
             correctionAdd("search-result", "search result");
 
@@ -52912,16 +52950,11 @@ namespace OverflowHelper.core
 
             correctionAdd("tighly", "tightly");
 
-            correctionAdd("author attribution", "author attribution on Stack Overflow");
+            correctionAdd("business catalyst", "Business Catalyst");
 
-            correctionAdd("documentation dump", "documentation dump on Stack Overflow");
+            correctionAdd("gold-nugget", "gold nugget");
 
-            correctionAdd("oneTBB", "oneAPI Threading Building Blocks");
-            correctionAdd("TBB", "oneAPI Threading Building Blocks");
-
-            correctionAdd("IDT", "interrupt descriptor table");
-
-            correctionAdd("qwertz", "QWERTZ");
+            correctionAdd("Lazy Loading", "lazy loading");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -82004,6 +82037,18 @@ namespace OverflowHelper.core
 
             URL_Add("QWERTZ", "https://en.wikipedia.org/wiki/QWERTZ");
 
+            URL_Add("a small inflation problem", "https://www.youtube.com/watch?v=fMoPR2IA2Uk&t=2m11s");
+
+            URL_Add("Business Catalyst", "https://en.wikipedia.org/wiki/Business_Catalyst");
+
+            URL_Add("GCC 4.8.3 (2014-05-22)", "https://gcc.gnu.org/gcc-4.8/");
+
+            URL_Add("generalized Pareto distribution", "https://en.wikipedia.org/wiki/Generalized_Pareto_distribution");
+
+            URL_Add("gold nugget", "https://en.wikipedia.org/wiki/Gold_nugget");
+
+            URL_Add("lazy loading", "https://en.wikipedia.org/wiki/Lazy_loading");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -82352,6 +82397,14 @@ namespace OverflowHelper.core
             correctionAdd("stack overflow_", "Stack&nbsp;Overflow_");
             correctionAdd("stackoverflow_", "Stack&nbsp;Overflow_");
             correctionAdd("Stackoverflow_", "Stack&nbsp;Overflow_");
+
+            // Related to Stack Overflow and Stack Exchange
+            correctionAdd("burned_", "burninated_");
+
+            // A canonical Stack Overflow question for
+            // "Error: Stray \xxx" in C/C++
+            correctionAdd("stray error_", "Unicode blues in C++ and similar languages (after copying from web pages, Skype chat, etc.)_");
+            correctionAdd("stray blues_", "Unicode blues in C++ and similar languages (after copying from web pages, Skype chat, etc.)_");
 
             correctionAdd("ganymede_", "Ganymede_");
 
@@ -83007,6 +83060,13 @@ namespace OverflowHelper.core
 
             correctionAdd("HEAD_", "head_");
 
+            // Plain old data structure, JavaScript version.
+            correctionAdd("plain old JavaScript object_", "POJO_");
+
+            // JavaScript
+            correctionAdd("LIT_", "Lit_");
+            correctionAdd("lit_", "Lit_");
+
             // The Stack Overflow tags
             correctionAdd("[tag:.net]_", ".NET (tag wiki)_");
             correctionAdd("[tag:dotnet]_", ".NET (tag wiki)_"); // Tag synonym
@@ -83389,17 +83449,23 @@ namespace OverflowHelper.core
             correctionAdd("Body_", "body_");
             correctionAdd("BODY_", "body_");
 
-            correctionAdd("DIV_", "div_"); // HTML tag
+            correctionAdd("DIV_", "div_"); // An HTML tag
 
-            correctionAdd("formular_", "form_"); // HTML tag
+            correctionAdd("formular_", "form_"); // An HTML tag (forms)
 
             correctionAdd("IMG_", "img_"); // HTML tag
 
-            correctionAdd("HTML_", "html_"); // HTML tag
+            correctionAdd("HTML_", "html_"); // An HTML tag
 
             correctionAdd("TH_", "th_"); // An HTML tag (tables)
 
             correctionAdd("TR_", "tr_"); // An HTML tag (tables)
+
+            // An HTML attribute (for an HTML tag)
+            correctionAdd("HREF_", "href_");
+
+            // An HTML tag
+            correctionAdd("LI_", "li_");
 
             correctionAdd("BE_", "backward elimination_");
             correctionAdd("Backward Elimination_", "backward elimination_");
@@ -83533,9 +83599,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ZFC_", "Zermelo–Fraenkel axioms_");
             correctionAdd("ZF_", "Zermelo–Fraenkel axioms_");
-
-            // Plain old data structure, JavaScript version.
-            correctionAdd("plain old JavaScript object_", "POJO_");
 
             correctionAdd("coursier_", "Coursier_");
             correctionAdd("cs_", "Coursier_");
@@ -83964,6 +84027,33 @@ namespace OverflowHelper.core
             // A Windows snap-in/Control Panel
             correctionAdd("services_", "Services_");
 
+            correctionAdd("win8_", "Windows&nbsp;8_");
+            correctionAdd("Win8_", "Windows&nbsp;8_");
+            correctionAdd("Windows 8_", "Windows&nbsp;8_");
+            correctionAdd("windows 8_", "Windows&nbsp;8_");
+            correctionAdd("win 8_", "Windows&nbsp;8_");
+            correctionAdd("Win 8_", "Windows&nbsp;8_");
+            correctionAdd("W8_", "Windows&nbsp;8_");
+            correctionAdd("Windows8_", "Windows&nbsp;8_");
+            correctionAdd("window-8_", "Windows&nbsp;8_");
+            correctionAdd("windows-8_", "Windows&nbsp;8_");
+            correctionAdd("WIn 8_", "Windows&nbsp;8_");
+            correctionAdd("WIN 8_", "Windows&nbsp;8_");
+            correctionAdd("8_", "Windows&nbsp;8_"); // Ambiguous!
+            correctionAdd("windows8_", "Windows&nbsp;8_");
+            correctionAdd("Win-8_", "Windows&nbsp;8_");
+            correctionAdd("win 8.0_", "Windows&nbsp;8_");
+            correctionAdd("windows 8.0_", "Windows&nbsp;8_");
+            correctionAdd("8.0_", "Windows&nbsp;8_");
+
+            // Hard disk drive and SSD partition. Windows and Linux.
+            correctionAdd("ESP_", "EFI system partition_");
+            correctionAdd("esp_", "EFI system partition_");
+            correctionAdd("EFI System Partition_", "EFI system partition_");
+
+            // Windows. Abbr. "PE"
+            correctionAdd("Portable Executable_", "Portable Executable (PE)_");
+
             correctionAdd("part-of-speech_", "part of speech_");
             correctionAdd("POS_", "part of speech_");
             correctionAdd("PoS_", "part of speech_");
@@ -84001,25 +84091,6 @@ namespace OverflowHelper.core
             correctionAdd("CLASS_", "class_");
 
             correctionAdd("ID_", "id_");
-
-            correctionAdd("win8_", "Windows&nbsp;8_");
-            correctionAdd("Win8_", "Windows&nbsp;8_");
-            correctionAdd("Windows 8_", "Windows&nbsp;8_");
-            correctionAdd("windows 8_", "Windows&nbsp;8_");
-            correctionAdd("win 8_", "Windows&nbsp;8_");
-            correctionAdd("Win 8_", "Windows&nbsp;8_");
-            correctionAdd("W8_", "Windows&nbsp;8_");
-            correctionAdd("Windows8_", "Windows&nbsp;8_");
-            correctionAdd("window-8_", "Windows&nbsp;8_");
-            correctionAdd("windows-8_", "Windows&nbsp;8_");
-            correctionAdd("WIn 8_", "Windows&nbsp;8_");
-            correctionAdd("WIN 8_", "Windows&nbsp;8_");
-            correctionAdd("8_", "Windows&nbsp;8_"); // Ambiguous!
-            correctionAdd("windows8_", "Windows&nbsp;8_");
-            correctionAdd("Win-8_", "Windows&nbsp;8_");
-            correctionAdd("win 8.0_", "Windows&nbsp;8_");
-            correctionAdd("windows 8.0_", "Windows&nbsp;8_");
-            correctionAdd("8.0_", "Windows&nbsp;8_");
 
             correctionAdd("finde_", "fine_");
 
@@ -84152,11 +84223,6 @@ namespace OverflowHelper.core
 
             correctionAdd("LTS_", "long-term support_");
 
-            // Hard disk drive and SSD partition. Windows and Linux.
-            correctionAdd("ESP_", "EFI system partition_");
-            correctionAdd("esp_", "EFI system partition_");
-            correctionAdd("EFI System Partition_", "EFI system partition_");
-
             // PC hardware. Hard disk drives. SSDs. Disks. Partioning.
             //
             // Alternative URL:
@@ -84248,9 +84314,6 @@ namespace OverflowHelper.core
             // gedit in disguise
             correctionAdd("text editor_", "Text Editor_");
 
-            // Related to Stack Overflow and Stack Exchange
-            correctionAdd("burned_", "burninated_");
-
             correctionAdd("start up_", "startup_");
 
             correctionAdd("edgee_", "edge_");
@@ -84289,11 +84352,6 @@ namespace OverflowHelper.core
             correctionAdd("Signal Processing_", "signal processing_");
 
             correctionAdd("inc_", "Inc_");
-
-            correctionAdd("stray error_", "Unicode blues in C++ and similar languages (after copying from web pages, Skype chat, etc.)_");
-            correctionAdd("stray blues_", "Unicode blues in C++ and similar languages (after copying from web pages, Skype chat, etc.)_");
-
-            correctionAdd("Portable Executable_", "Portable Executable (PE)_");
 
             // URL mappings
             //
@@ -85573,6 +85631,12 @@ namespace OverflowHelper.core
             URL_Add("Unicode blues in C++ and similar languages (after copying from web pages, Skype chat, etc.)_", "https://pmortensen.eu/world2/2023/05/01/unicode-blues-in-c-and-similar-languages-after-copying-from-web-pages-skype-chat-etc/");
 
             URL_Add("Portable Executable (PE)_", "https://en.wikipedia.org/wiki/Portable_Executable");
+
+            URL_Add("href_", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#href");
+
+            URL_Add("li_", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li");
+
+            URL_Add("Lit_", "https://github.com/lit/lit");
 
         } //addLookupData_alternativeWordSet()
 
