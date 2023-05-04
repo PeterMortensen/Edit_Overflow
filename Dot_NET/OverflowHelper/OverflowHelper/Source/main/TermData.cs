@@ -2364,6 +2364,7 @@ namespace OverflowHelper.core
             correctionAdd("Java-black-belt", "JavaBlackBelt");
             correctionAdd("Javablackbelt", "JavaBlackBelt");
 
+            // A website. Java.
             correctionAdd("javatpoint", "Javatpoint");
 
             correctionAdd("jvisualVM", "Java VisualVM");
@@ -2412,6 +2413,22 @@ namespace OverflowHelper.core
             // A software library. Java.
             correctionAdd("rest-assured", "REST Assured");
             correctionAdd("REST-assured", "REST Assured");
+
+            // A book. Java.
+            correctionAdd("effective java", "Effective Java");
+
+            correctionAdd("derby", "Apache Derby");
+            correctionAdd("Derby", "Apache Derby");
+            correctionAdd("Java DB", "Apache Derby");
+            correctionAdd("JavaDB", "Apache Derby");
+            correctionAdd("java DB", "Apache Derby");
+            correctionAdd("java db", "Apache Derby");
+
+            // Java
+            correctionAdd("JMX", "Java Management Extensions");
+
+            // Java
+            correctionAdd("jconsole", "JConsole");
 
             correctionAdd("amazon", "Amazon DOT com"); // The name is actually Amazon.com, but we have reasons not to use something that looks like a URL...
             correctionAdd("Amazon", "Amazon DOT com");
@@ -6049,6 +6066,9 @@ namespace OverflowHelper.core
             // In 'The Hitchhiker's Guide to the Galaxy'
             correctionAdd("burn down the forests", "a small inflation problem");
             correctionAdd("inflation proplem", "a small inflation problem");
+
+            // In 'The Hitchhiker's Guide to the Galaxy'
+            correctionAdd("protest", "existential protest");
 
             correctionAdd("leadin", "leading");
 
@@ -12995,7 +13015,35 @@ namespace OverflowHelper.core
 
             correctionAdd("SharePoint online", "SharePoint Online");
 
+            correctionAdd("rending", "rendering");
+            correctionAdd("Rendering", "rendering");
+            correctionAdd("rendenring", "rendering");
+
+            correctionAdd("re-render", "rerender");
+            correctionAdd("re render", "rerender");
+
+            correctionAdd("mis-rendered", "misrendered");
+
+            correctionAdd("surrend", "surrender");
+
+            correctionAdd("ROP", "render output unit");
+
             correctionAdd("URP", "Universal Render Pipeline");
+
+            correctionAdd("PBR", "physically based rendering");
+            correctionAdd("Physically Based Rendering", "physically based rendering");
+
+            correctionAdd("SSR", "server-side rendering");
+            correctionAdd("Server side rendering", "server-side rendering");
+            correctionAdd("server side rendering", "server-side rendering");
+            correctionAdd("Server-side rendering", "server-side rendering");
+            correctionAdd("ssr rendering", "server-side rendering");
+            correctionAdd("ssr", "server-side rendering");
+
+            correctionAdd("Client side rendering", "client-side rendering");
+            correctionAdd("Client-side rendering", "client-side rendering");
+            correctionAdd("CSR", "client-side rendering");
+            correctionAdd("csr", "client-side rendering");
 
             correctionAdd("multi-line", "multiline");
             correctionAdd("Multiline", "multiline");
@@ -13336,6 +13384,7 @@ namespace OverflowHelper.core
             correctionAdd("Apple Mini", "Mac Mini");
 
             correctionAdd("imac", "iMac");
+            correctionAdd("iMAC", "iMac");
 
             correctionAdd("Apple Silicon", "Apple silicon");
             correctionAdd("Silicon MAC", "Apple silicon");
@@ -14003,6 +14052,7 @@ namespace OverflowHelper.core
             correctionAdd("mingw32", "MinGW");
             correctionAdd("miniGW", "MinGW");
             correctionAdd("MinGW32", "MinGW");
+            correctionAdd("MinGw", "MinGW");
 
             correctionAdd("mingw64", "Mingw-w64");
             correctionAdd("MingW64", "Mingw-w64");
@@ -14090,6 +14140,8 @@ namespace OverflowHelper.core
             correctionAdd("NO BREAK SPACE", "NO-BREAK SPACE");
             correctionAdd("00A0", "NO-BREAK SPACE");
 
+            correctionAdd("U+00BB", "RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK");
+
             correctionAdd("U+00E4", "LATIN SMALL LETTER A WITH DIAERESIS");
 
             correctionAdd("U+200B", "ZERO WIDTH SPACE");
@@ -14108,6 +14160,8 @@ namespace OverflowHelper.core
             correctionAdd("code point 2014", "EM DASH");
 
             correctionAdd("U+2018", "LEFT SINGLE QUOTATION MARK");
+
+            correctionAdd("U+2019", "RIGHT SINGLE QUOTATION MARK");
 
             correctionAdd("U+201C", "LEFT DOUBLE QUOTATION MARK");
 
@@ -16726,6 +16780,7 @@ namespace OverflowHelper.core
 
             correctionAdd("hosts", "hosts file");
             correctionAdd("host file", "hosts file");
+            correctionAdd("/etc/hosts", "hosts file");
 
             correctionAdd(".exe", "EXE file");
             correctionAdd("exe", "EXE file");
@@ -19661,6 +19716,12 @@ namespace OverflowHelper.core
             correctionAdd("hyperterminal", "HyperTerminal");
             correctionAdd("Hyper Terminal", "HyperTerminal");
 
+            // A Unix/Linux terminal program
+            correctionAdd("minicom", "Minicom");
+
+            // A Unix/Linux terminal program
+            correctionAdd("cutecom", "Cutecom");
+
             // Software library for computer terminals / command line
             //
             // In the family 'termio', 'termcap', 'terminfo', and 'ncurses'.
@@ -21409,6 +21470,22 @@ namespace OverflowHelper.core
             correctionAdd("Ian", "I’m");
             correctionAdd("I\\m", "I’m");
             correctionAdd("It'm", "I’m");
+            correctionAdd("ım", "I’m"); // The "i" is U+0131 (LATIN SMALL LETTER DOTLESS I) used in Turkey, etc. (<https://en.wikipedia.org/wiki/Dotless_I>) UTF-8: 304 261 (octal). 0xC4 0xB1 (hexadecimal). <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=300>. It can be searched for using the regular expression \x{0131} (`\u0131` in Visual Studio Code and some others).
+
+            correctionAdd("turkish", "Turkish");
+
+            correctionAdd("turkey", "Turkey");
+
+            correctionAdd("kazakhstan", "Kazakhstan");
+
+            correctionAdd("kyrgyzstan", "Kyrgyzstan");
+
+            correctionAdd("tajikistan", "Tajikistan");
+
+            correctionAdd("turkmenistan", "Turkmenistan");
+
+            correctionAdd("uzbekistan", "Uzbekistan");
+            correctionAdd("Uzbetistan", "Uzbekistan");
 
             correctionAdd("IO", "I/O");
             correctionAdd("io", "I/O");
@@ -21562,6 +21639,7 @@ namespace OverflowHelper.core
 
             correctionAdd("neighbor", "neighbour");
             correctionAdd("neigbour", "neighbour");
+            correctionAdd("neibour", "neighbour");
 
             correctionAdd("UB", "undefined behaviour");
             correctionAdd("Undefined Behavior", "undefined behaviour");
@@ -25564,6 +25642,7 @@ namespace OverflowHelper.core
             correctionAdd("Q", "question");
             correctionAdd("quetion", "question");
             correctionAdd("qquestion", "question");
+            correctionAdd("queetion", "question");
 
             correctionAdd("automatatically", "automatically");
             correctionAdd("automaticlly", "automatically");
@@ -25787,6 +25866,8 @@ namespace OverflowHelper.core
             correctionAdd("xamarin", "Xamarin");
             correctionAdd("Xamarine", "Xamarin");
             correctionAdd("Ximarian", "Xamarin");
+
+            correctionAdd("xamarin studio", "Xamarin Studio");
 
             correctionAdd("vxworks", "VxWorks");
 
@@ -26562,9 +26643,13 @@ namespace OverflowHelper.core
             correctionAdd("positve", "positive");
             correctionAdd("+ive", "positive");
             correctionAdd("Positive", "positive");
+            correctionAdd("posite", "positive");
+            correctionAdd("posites", "positive");
 
             correctionAdd("false-positive", "false positive");
             correctionAdd("false-positives", "false positive");
+            correctionAdd("false posite", "false positive");
+            correctionAdd("false posites", "false positive");
 
             correctionAdd("negatvie", "negative");
             correctionAdd("neg", "negative");
@@ -33471,8 +33556,6 @@ namespace OverflowHelper.core
 
             correctionAdd("open plan office", "open-plan office");
 
-            correctionAdd("minicom", "Minicom");
-
             // A Canadian city
             correctionAdd("montreal", "Montreal");
 
@@ -36924,6 +37007,8 @@ namespace OverflowHelper.core
 
             correctionAdd("chaning", "changing");
             correctionAdd("changin", "changing");
+            correctionAdd("Changning", "changing");
+            correctionAdd("changning", "changing");
 
             correctionAdd("CYAN", "cyan");
             correctionAdd("Cyan", "cyan");
@@ -38004,8 +38089,6 @@ namespace OverflowHelper.core
             correctionAdd("stubburn", "stubborn");
             correctionAdd("stuburn", "stubborn");
 
-            correctionAdd("surrend", "surrender");
-
             correctionAdd("tails", "Tails");
 
             correctionAdd("xlsx", "XLSX");
@@ -38466,8 +38549,6 @@ namespace OverflowHelper.core
             correctionAdd("re-earn", "reearn");
 
             correctionAdd("short term", "short-term");
-
-            correctionAdd("turkish", "Turkish");
 
             correctionAdd("guestimate", "guesstimate");
             correctionAdd("gestimate", "guesstimate");
@@ -39995,6 +40076,7 @@ namespace OverflowHelper.core
             correctionAdd("Wolfram alpha", "WolframAlpha");
 
             correctionAdd("defs", "definitions");
+            correctionAdd("definitionss", "definitions");
 
             correctionAdd("detaikl", "detail");
             correctionAdd("deatil", "detail");
@@ -40083,9 +40165,6 @@ namespace OverflowHelper.core
             correctionAdd("forgetten", "forgotten");
 
             correctionAdd("re-draw", "redraw");
-
-            correctionAdd("re-render", "rerender");
-            correctionAdd("re render", "rerender");
 
             correctionAdd("re-scheduling", "rescheduling");
 
@@ -42152,13 +42231,6 @@ namespace OverflowHelper.core
 
             correctionAdd("movitate", "motivate");
 
-            correctionAdd("PBR", "physically based rendering");
-            correctionAdd("Physically Based Rendering", "physically based rendering");
-
-            correctionAdd("rending", "rendering");
-            correctionAdd("Rendering", "rendering");
-            correctionAdd("rendenring", "rendering");
-
             correctionAdd("activity monitor", "Activity Monitor");
 
             correctionAdd("Above", "above");
@@ -43249,17 +43321,6 @@ namespace OverflowHelper.core
             correctionAdd("screen scrabe", "screen-scrape");
             correctionAdd("Screenscrape", "screen-scrape");
 
-            correctionAdd("kazakhstan", "Kazakhstan");
-
-            correctionAdd("kyrgyzstan", "Kyrgyzstan");
-
-            correctionAdd("tajikistan", "Tajikistan");
-
-            correctionAdd("turkmenistan", "Turkmenistan");
-
-            correctionAdd("uzbekistan", "Uzbekistan");
-            correctionAdd("Uzbetistan", "Uzbekistan");
-
             correctionAdd("as follow", "as follows");
             correctionAdd("as followed", "as follows");
             correctionAdd("as following", "as follows");
@@ -43861,6 +43922,7 @@ namespace OverflowHelper.core
 
             correctionAdd("erros", "errors");
             correctionAdd("errore", "errors");
+            correctionAdd("errorss", "errors");
 
             correctionAdd("non-existing", "nonexisting");
             correctionAdd("non existing", "nonexisting");
@@ -44725,21 +44787,9 @@ namespace OverflowHelper.core
 
             correctionAdd("necro posting", "necroposting");
 
-            correctionAdd("SSR", "server-side rendering");
-            correctionAdd("Server side rendering", "server-side rendering");
-            correctionAdd("server side rendering", "server-side rendering");
-            correctionAdd("Server-side rendering", "server-side rendering");
-            correctionAdd("ssr rendering", "server-side rendering");
-            correctionAdd("ssr", "server-side rendering");
-
             correctionAdd("supper", "super");
 
             correctionAdd("well formed", "well-formed");
-
-            correctionAdd("Client side rendering", "client-side rendering");
-            correctionAdd("Client-side rendering", "client-side rendering");
-            correctionAdd("CSR", "client-side rendering");
-            correctionAdd("csr", "client-side rendering");
 
             correctionAdd("entrypoint", "ENTRYPOINT");
 
@@ -46298,8 +46348,6 @@ namespace OverflowHelper.core
             // Partitioning
             correctionAdd("Host Protected Area", "host protected area");
             correctionAdd("HPA", "host protected area");
-
-            correctionAdd("ROP", "render output unit");
 
             correctionAdd("Rocket Science", "rocket science");
             correctionAdd("rocket sience", "rocket science");
@@ -52789,8 +52837,6 @@ namespace OverflowHelper.core
 
             correctionAdd("rotaing", "rotating");
 
-            correctionAdd("effective java", "Effective Java");
-
             correctionAdd("frustation", "frustration");
 
             correctionAdd("polute", "pollute");
@@ -52800,13 +52846,6 @@ namespace OverflowHelper.core
             correctionAdd("streamlit", "Streamlit");
 
             correctionAdd("10s", "tens");
-
-            correctionAdd("derby", "Apache Derby");
-            correctionAdd("Derby", "Apache Derby");
-            correctionAdd("Java DB", "Apache Derby");
-            correctionAdd("JavaDB", "Apache Derby");
-            correctionAdd("java DB", "Apache Derby");
-            correctionAdd("java db", "Apache Derby");
 
             correctionAdd("Disguise", "disguise");
 
@@ -52986,11 +53025,10 @@ namespace OverflowHelper.core
 
             correctionAdd("Lazy Loading", "lazy loading");
 
-            correctionAdd("U+2019", "RIGHT SINGLE QUOTATION MARK");
+            // Protocol / communications
+            correctionAdd("at command", "AT command");
 
-            correctionAdd("U+00BB", "RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK");
-
-            correctionAdd("mis-rendered", "misrendered");
+            correctionAdd("pore", "poor");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -82101,6 +82139,22 @@ namespace OverflowHelper.core
 
             URL_Add("misrendered", "https://en.wiktionary.org/wiki/misrender#Verb");
 
+            URL_Add("AT command", "https://en.wikipedia.org/wiki/Hayes_AT_command_set#GSM");
+
+            URL_Add("Cutecom", "https://help.ubuntu.com/community/Cutecom");
+
+            URL_Add("existential protest", "https://www.youtube.com/watch?v=jHG2tHJWVK8&t=12m0s");
+
+            URL_Add("Java Management Extensions", "https://en.wikipedia.org/wiki/Java_Management_Extensions");
+
+            URL_Add("JConsole", "https://en.wikipedia.org/wiki/JConsole");
+
+            URL_Add("poor", "https://en.wiktionary.org/wiki/poor#Adjective");
+
+            URL_Add("Turkey", "https://en.wikipedia.org/wiki/Turkey");
+
+            URL_Add("Xamarin Studio", "https://en.wikipedia.org/wiki/Xamarin#Xamarin_Studio");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -84016,6 +84070,7 @@ namespace OverflowHelper.core
             correctionAdd("WAIT_", "wait_");
 
             correctionAdd("some_", "same_");
+            correctionAdd("sam_", "same_");
 
             correctionAdd("Copilot_", "Copilot (copyright laundering machine)_");
             correctionAdd("CoPilot_", "Copilot (copyright laundering machine)_");
