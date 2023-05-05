@@ -625,7 +625,7 @@ namespace OverflowHelper.core
             correctionAdd("WIN10", "Windows&nbsp;10");
             correctionAdd("window 10", "Windows&nbsp;10");
             correctionAdd("WINDOWS 10", "Windows&nbsp;10");
-            correctionAdd("Windows 10", "Windows&nbsp;10"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}"
+            correctionAdd("Windows 10", "Windows&nbsp;10"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
 
             correctionAdd("Windows 10 home", "Windows 10 Home");
             correctionAdd("Windows OS 10 Home Edition", "Windows 10 Home");
@@ -2703,6 +2703,7 @@ namespace OverflowHelper.core
             correctionAdd("complilation", "compilation");
             correctionAdd("compiliation", "compilation");
             correctionAdd("compilate", "compilation");
+            correctionAdd("Compilation", "compilation");
 
             correctionAdd("re-compilation", "recompilation");
 
@@ -3622,6 +3623,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Maya", "Linux Mint 13 (Maya)");
 
+            correctionAdd("Linux Mint Sonya", "Linux Mint 18.2 (Sonya)");
+
             // A Linux distribution
             correctionAdd("debian", "Debian");
             correctionAdd("deb", "Debian");
@@ -3697,6 +3700,8 @@ namespace OverflowHelper.core
             correctionAdd("Bullseye", "Debian&nbsp;11 (Bullseye)");
             correctionAdd("Debian 11", "Debian&nbsp;11 (Bullseye)");
             correctionAdd("debian 11", "Debian&nbsp;11 (Bullseye)");
+            correctionAdd("Debian Bullseye", "Debian&nbsp;11 (Bullseye)");
+            correctionAdd("Debian&nbsp;11", "Debian&nbsp;11 (Bullseye)");
 
             // A Linux distribution for Raspberry Pi, based on Debian
             correctionAdd("raspian", "Raspbian"); // Misspelling.
@@ -4066,7 +4071,7 @@ namespace OverflowHelper.core
             correctionAdd("jammy", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
             correctionAdd("Jammy Jellyfish", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
             correctionAdd("Jammy jellyfish", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("Ubuntu 22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}"
+            correctionAdd("Ubuntu 22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
             correctionAdd("jammy jellyfish", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
             correctionAdd("ubuntu 22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
             correctionAdd("Ubuntu22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
@@ -5827,6 +5832,7 @@ namespace OverflowHelper.core
             correctionAdd("yup", "Yup");
 
             correctionAdd("Stroustrup", "Bjarne Stroustrup");
+            correctionAdd("Bjarne", "Bjarne Stroustrup");
 
             correctionAdd("Disk cleanup", "Disk Cleanup");
             correctionAdd("Disk Cleaner", "Disk Cleanup"); // Misremembered name...
@@ -7354,7 +7360,7 @@ namespace OverflowHelper.core
             correctionAdd("Superusers", "Super&nbsp;User (Stack Exchange site)");
             correctionAdd("Super&nbsp;User", "Super&nbsp;User (Stack Exchange site)");
             correctionAdd("Super User (Stack Exchange site)", "Super&nbsp;User (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Super User", "Super&nbsp;User (Stack Exchange site)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}"
+            correctionAdd("Super User", "Super&nbsp;User (Stack Exchange site)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
 
             correctionAdd("Ask Ubuntu (Stack Exchange site)", "Ask&nbsp;Ubuntu (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("Ask&nbsp;Ubuntu", "Ask&nbsp;Ubuntu (Stack Exchange site)"); // Sort of identity mapping
@@ -14039,6 +14045,7 @@ namespace OverflowHelper.core
             correctionAdd("cgywin", "Cygwin");
             correctionAdd("Cggwin", "Cygwin");
             correctionAdd("CYGWIN", "Cygwin");
+            correctionAdd("Cywin", "Cygwin");
 
             correctionAdd("mingw", "MinGW");
             correctionAdd("minGW", "MinGW");
@@ -15886,6 +15893,13 @@ namespace OverflowHelper.core
             correctionAdd("securitty", "security");
 
             correctionAdd("ESET", "ESET Smart Security");
+
+            correctionAdd("ptr", "pointer");
+            correctionAdd("Pointer", "pointer");
+
+            correctionAdd("null-pointer", "null pointer");
+            correctionAdd("nullpointer", "null pointer");
+            correctionAdd("nullptr", "null pointer");
 
             correctionAdd("-debug-pass=Arguments", "-fdebug-pass-arguments (Clang)");
             correctionAdd("-fdebug-pass-arguments", "-fdebug-pass-arguments (Clang)");
@@ -17906,6 +17920,7 @@ namespace OverflowHelper.core
             correctionAdd("Segmentation fault", "segmentation fault");
             correctionAdd("segment violation", "segmentation fault");
             correctionAdd("SEGFAULT", "segmentation fault");
+            correctionAdd("segmentaion fault", "segmentation fault");
 
             correctionAdd("firebug", "Firebug");
             correctionAdd("FireBug", "Firebug");
@@ -18603,6 +18618,8 @@ namespace OverflowHelper.core
 
             correctionAdd("pro micro", "Arduino Pro Micro");
             correctionAdd("Pro Micro", "Arduino Pro Micro");
+            correctionAdd("Arduino pro micro", "Arduino Pro Micro");
+            correctionAdd("arduino pro micro", "Arduino Pro Micro");
 
             // Arduino PCB extensions board
             correctionAdd("Sketch", "sketch");
@@ -19926,6 +19943,7 @@ namespace OverflowHelper.core
             correctionAdd("beacouse", "because");
             correctionAdd("becos", "because");
             correctionAdd("becquse", "because");
+            correctionAdd("becuz", "because");
 
             correctionAdd("Whitehouse", "White House");
             correctionAdd("white house", "White House");
@@ -21470,7 +21488,7 @@ namespace OverflowHelper.core
             correctionAdd("Ian", "I’m");
             correctionAdd("I\\m", "I’m");
             correctionAdd("It'm", "I’m");
-            correctionAdd("ım", "I’m"); // The "i" is U+0131 (LATIN SMALL LETTER DOTLESS I) used in Turkey, etc. (<https://en.wikipedia.org/wiki/Dotless_I>) UTF-8: 304 261 (octal). 0xC4 0xB1 (hexadecimal). <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=300>. It can be searched for using the regular expression \x{0131} (`\u0131` in Visual Studio Code and some others).
+            correctionAdd("ım", "I’m"); // The "i" is U+0131 (LATIN SMALL LETTER DOTLESS I) used in Turkey, etc. (<https://en.wikipedia.org/wiki/Dotless_I>) UTF-8: 304 261 (octal). 0xC4 0xB1 (hexadecimal). <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=300>. It can be searched for using the regular expression \x{0131} ("\u0131" in Visual Studio Code and some others).
 
             correctionAdd("turkish", "Turkish");
 
@@ -25220,6 +25238,8 @@ namespace OverflowHelper.core
             correctionAdd("obvioulsy", "obviously");
             correctionAdd("obivously", "obviously");
             correctionAdd("abviously", "obviously");
+            correctionAdd("Obvoiusly", "obviously");
+            correctionAdd("obvoiusly", "obviously");
 
             correctionAdd("trello", "Trello");
 
@@ -28711,6 +28731,8 @@ namespace OverflowHelper.core
             correctionAdd("elsewise", "otherwise");
             correctionAdd("ohterwise", "otherwise");
             correctionAdd("Other wise", "otherwise");
+            correctionAdd("Othewise", "otherwise");
+            correctionAdd("othewise", "otherwise");
 
             correctionAdd("scrollbar", "scroll bar");
             correctionAdd("scroll-bar", "scroll bar");
@@ -29509,18 +29531,22 @@ namespace OverflowHelper.core
             correctionAdd("anomymous", "anonymous");
             correctionAdd("anonyomous", "anonymous");
             correctionAdd("anoynomous", "anonymous");
+            correctionAdd("annonymous", "anonymous");
+            correctionAdd("annoymous", "anonymous");
 
             correctionAdd("aproved", "approved");
 
             correctionAdd("asigning", "assigning");
             correctionAdd("assinging", "assigning");
 
-            correctionAdd("third party cookies", "third-party cookies");
-            correctionAdd("Third-Party Cookies", "third-party cookies");
-
             correctionAdd("coockies", "cookies");
             correctionAdd("Cookies", "cookies");
             correctionAdd("Cookie", "cookies"); // Not 100% correct - plural/singular.
+            correctionAdd("cookie", "cookies");
+            correctionAdd("cookkie", "cookies");
+
+            correctionAdd("third party cookies", "third-party cookies");
+            correctionAdd("Third-Party Cookies", "third-party cookies");
 
             correctionAdd("hidding", "hiding");
 
@@ -32409,6 +32435,7 @@ namespace OverflowHelper.core
             correctionAdd("Whether", "whether");
             correctionAdd("wethere", "whether");
             correctionAdd("Wether", "whether");
+            correctionAdd("wither", "whether");
 
             correctionAdd("weater", "weather");
             correctionAdd("wheater", "weather");
@@ -35980,11 +36007,22 @@ namespace OverflowHelper.core
 
             correctionAdd("AMD threadripper", "AMD Ryzen Threadripper");
 
+            // A type of CPU
             correctionAdd("XEON", "Xeon");
             correctionAdd("xeon", "Xeon");
 
+            // A CPU
+            correctionAdd("Xeon E5 1620", "Xeon E5-1620");
+
+            // A CPU
+            correctionAdd("W5580", "Xeon W5580");
+
+            // A CPU
+            correctionAdd("Xeon E5 2650", "Xeon E5-2650");
+
             correctionAdd("perurbation", "perturbation");
 
+            // A file format for playlists
             correctionAdd("m3u8", "M3U8");
 
             correctionAdd("Poincarre Reccurrance theorem", "Poincaré recurrence theorem");
@@ -36029,10 +36067,6 @@ namespace OverflowHelper.core
             correctionAdd("Mercury", "mercury");
 
             correctionAdd("multiplicty", "multiplicity");
-
-            correctionAdd("null-pointer", "null pointer");
-            correctionAdd("nullpointer", "null pointer");
-            correctionAdd("nullptr", "null pointer");
 
             correctionAdd("perhapse", "perhaps");
             correctionAdd("pheraps", "perhaps");
@@ -41078,9 +41112,6 @@ namespace OverflowHelper.core
 
             correctionAdd("azimut", "azimuth");
 
-            correctionAdd("racecondition", "race condition");
-            correctionAdd("racing condition", "race condition");
-
             correctionAdd("conditon", "condition");
             correctionAdd("coniditon", "condition");
             correctionAdd("contition", "condition");
@@ -41089,6 +41120,11 @@ namespace OverflowHelper.core
             correctionAdd("cndition", "condition");
             correctionAdd("consition", "condition");
             correctionAdd("condination", "condition");
+            correctionAdd("Codition", "condition");
+            correctionAdd("codition", "condition");
+
+            correctionAdd("racecondition", "race condition");
+            correctionAdd("racing condition", "race condition");
 
             correctionAdd("earth rays", "earth radiation");
             correctionAdd("Earth ray", "earth radiation");
@@ -42731,6 +42767,7 @@ namespace OverflowHelper.core
             correctionAdd("aspectj", "AspectJ");
 
             correctionAdd("Photon", "Eclipse Photon");
+            correctionAdd("Eclipse photon", "Eclipse Photon");
 
             correctionAdd("jahia", "Jahia");
 
@@ -43742,6 +43779,7 @@ namespace OverflowHelper.core
 
             correctionAdd("webflow", "Webflow");
             correctionAdd("WEBFLOW", "Webflow");
+            correctionAdd("web flow", "Webflow");
 
             correctionAdd("web forms", "Web Forms");
             correctionAdd("webforms", "Web Forms");
@@ -48657,8 +48695,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Macronutrient", "macronutrient");
 
-            correctionAdd("ptr", "pointer");
-
             correctionAdd("schitsofrenic", "schizophrenic");
 
             correctionAdd("Clean architecture", "Clean Architecture");
@@ -48978,10 +49014,6 @@ namespace OverflowHelper.core
             correctionAdd("menues", "menus");
 
             correctionAdd("Agner Fog's optimization manuals", "Agner Fog's optimisation manuals");
-
-            correctionAdd("Xeon E5 1620", "Xeon E5-1620");
-
-            correctionAdd("W5580", "Xeon W5580");
 
             correctionAdd("hardcoding", "hard coding");
             correctionAdd("hard-coding", "hard coding");
@@ -51238,6 +51270,7 @@ namespace OverflowHelper.core
             correctionAdd("reprocicity", "reciprocity");
 
             correctionAdd("roving", "removing");
+            correctionAdd("remouving", "removing");
 
             correctionAdd("tranforming", "transforming");
 
@@ -53029,6 +53062,26 @@ namespace OverflowHelper.core
             correctionAdd("at command", "AT command");
 
             correctionAdd("pore", "poor");
+
+            // Linux / software development
+            correctionAdd("buildroot", "Buildroot");
+
+            correctionAdd("corner-case", "corner case");
+
+            // A series of PCs from HP
+            correctionAdd("proliant", "ProLiant");
+
+            // A feature of C
+            //
+            // Alternative URL: 
+            //   <https://stackoverflow.com/questions/30153902/c11-c11-exended-and-universal-character-escaping>
+            //
+            correctionAdd("Universal Character Names", "universal character names");
+            correctionAdd("UCN", "universal character names");
+
+            correctionAdd("unreconverable", "unrecoverable");
+
+            correctionAdd("pre-date", "predate");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -82155,6 +82208,22 @@ namespace OverflowHelper.core
 
             URL_Add("Xamarin Studio", "https://en.wikipedia.org/wiki/Xamarin#Xamarin_Studio");
 
+            URL_Add("Buildroot", "https://en.wikipedia.org/wiki/Buildroot");
+
+            URL_Add("corner case", "https://en.wiktionary.org/wiki/corner_case#Noun");
+
+            URL_Add("Linux Mint 18.2 (Sonya)", "https://en.wikipedia.org/wiki/Linux_Mint#Releases");
+
+            URL_Add("ProLiant", "https://en.wikipedia.org/wiki/ProLiant");
+
+            URL_Add("universal character names", "https://en.wikipedia.org/wiki/Escape_sequences_in_C#Universal_character_names");
+
+            URL_Add("unrecoverable", "https://en.wiktionary.org/wiki/unrecoverable#Adjective");
+
+            URL_Add("Xeon E5-2650", "https://en.wikipedia.org/wiki/List_of_Intel_Xeon_processors_(Sandy_Bridge-based)#Xeon_E5-26xx_(dual-processor)");
+
+            URL_Add("predate", "https://en.wiktionary.org/wiki/predate#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -83528,6 +83597,13 @@ namespace OverflowHelper.core
             // Perl
             correctionAdd("parrot_", "Parrot_");
 
+            // Perl
+            //
+            // The corresponding join(): 
+            //   <https://perldoc.perl.org/perlfunc#join-EXPR%2CLIST>
+            //
+            correctionAdd("push_", "push()_");
+
             correctionAdd("AWS Lightsail_", "Amazon Lightsail_");
             correctionAdd("Aws Lightsail_", "Amazon Lightsail_");
             correctionAdd("light sail_", "Amazon Lightsail_");
@@ -84239,6 +84315,12 @@ namespace OverflowHelper.core
             correctionAdd("BREAK_", "Break_");
             correctionAdd("break_", "Break_");
 
+            // A full-size mechanical keyboard from Cooler Master
+            //
+            // The URL is to a blog post.
+            correctionAdd("CK550_", "CK550 V2_");
+            correctionAdd("ck550_", "CK550 V2_");
+
             correctionAdd("hansel_", "Hanselminutes_");
             correctionAdd("hanselminutes_", "Hanselminutes_");
 
@@ -84449,12 +84531,6 @@ namespace OverflowHelper.core
 
             // The URL is to a blog post
             correctionAdd("geany_", "Geany_");
-
-            // A full-size mechanical keyboard from Cooler Master
-            //
-            // The URL is to a blog post.
-            correctionAdd("CK550_", "CK550 V2_");
-            correctionAdd("ck550_", "CK550 V2_");
 
             correctionAdd("Signal Processing_", "signal processing_");
 
@@ -85744,6 +85820,8 @@ namespace OverflowHelper.core
             URL_Add("li_", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li");
 
             URL_Add("Lit_", "https://github.com/lit/lit");
+
+            URL_Add("push()_", "https://perldoc.perl.org/perlfunc#push-ARRAY%2CLIST");
 
         } //addLookupData_alternativeWordSet()
 
