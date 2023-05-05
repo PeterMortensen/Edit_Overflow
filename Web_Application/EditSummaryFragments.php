@@ -370,7 +370,9 @@
                     ```lang-vbnet,
                     ```lang-python,
                     ```lang-xml,
-                    ```lang-bash <br/>
+                    ```lang-bash,
+                    ```lang-typescript
+                    <br/>
                 <input
                     name="X31"
                     type="text"
