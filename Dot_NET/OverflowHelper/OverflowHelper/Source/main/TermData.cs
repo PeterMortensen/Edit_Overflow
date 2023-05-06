@@ -7316,6 +7316,124 @@ namespace OverflowHelper.core
             // Stack Overflow
             correctionAdd("documentation dump", "documentation dump on Stack Overflow");
 
+            correctionAdd("diffrent", "different");
+            correctionAdd("diferent", "different");
+            correctionAdd("differemt", "different");
+            correctionAdd("diffrernt", "different");
+            correctionAdd("differernt", "different");
+            correctionAdd("differnt", "different");
+            correctionAdd("defferent", "different");
+            correctionAdd("deferent", "different");
+            correctionAdd("differant", "different");
+            correctionAdd("diffferent", "different");
+            correctionAdd("differeny", "different");
+            correctionAdd("differents", "different");
+            correctionAdd("Differnt", "different");
+            correctionAdd("differente", "different");
+            correctionAdd("diffent", "different");
+            correctionAdd("dfferent", "different");
+            correctionAdd("diferrent", "different");
+            correctionAdd("differrent", "different");
+            correctionAdd("differnet", "different");
+            correctionAdd("differennt", "different");
+            correctionAdd("differen", "different");
+
+            correctionAdd("diffrence", "difference");
+            correctionAdd("diference", "difference");
+            correctionAdd("Difference", "difference");
+            correctionAdd("diffrance", "difference");
+            correctionAdd("differance", "difference");
+            correctionAdd("diffrerence", "difference");
+            correctionAdd("Diference", "difference");
+            correctionAdd("differece", "difference");
+            correctionAdd("diffenerce", "difference");
+            correctionAdd("differnce", "difference");
+
+            correctionAdd("differeces", "differences");
+            correctionAdd("differencies", "differences");
+
+            correctionAdd("diffrentiate", "differentiate");
+            correctionAdd("differ", "differentiate");
+            correctionAdd("differenciate", "differentiate");
+            correctionAdd("diferences", "differentiate");
+            correctionAdd("diferenciate", "differentiate");
+
+            correctionAdd("differiential", "differential");
+
+            correctionAdd("ordinary differential equation", "ODE");
+            correctionAdd("ode", "ODE");
+
+            // "There is no substantive evidence that Einstein wrote or
+            //   spoke the statement. It is listed within a section
+            //   called “Misattributed to Einstein” in the
+            //   comprehensive reference “The Ultimate
+            //   Quotable Einstein” from Princeton
+            //   University Press"
+            //
+            //   (1981, Alcoholics Anonymous)
+            //
+            // Also Narcotics Anonymous (same year):
+            //
+            //   <https://en.wikiquote.org/wiki/Rita_Mae_Brown#Misattributed>
+            //
+            correctionAdd("insanity", "The definition of insanity is doing the same thing over and over again, but expecting different results");
+
+            correctionAdd("Geometry", "geometry");
+            correctionAdd("geoemetry", "geometry");
+            correctionAdd("Geoemtry", "geometry");
+            correctionAdd("geoemtry", "geometry");
+
+            correctionAdd("Differential Geometry", "differential geometry");
+
+            correctionAdd("computational binary solid geometry", "constructive solid geometry");
+            correctionAdd("CSG", "constructive solid geometry");
+            correctionAdd("csg", "constructive solid geometry");
+            correctionAdd("Constructive Solid Geometry", "constructive solid geometry");
+
+            // Funny alternative URL: <http://d-e-f-i-n-i-t-e-l-y.com/>
+            correctionAdd("definately", "definitely");
+            correctionAdd("definetely", "definitely");
+            correctionAdd("definatly", "definitely");
+            correctionAdd("Definitly", "definitely");
+            correctionAdd("definitly", "definitely");
+            correctionAdd("definitetly", "definitely");
+            correctionAdd("definiately", "definitely");
+            correctionAdd("definetly", "definitely");
+            correctionAdd("denitely", "definitely");
+            correctionAdd("definively", "definitely");
+            correctionAdd("deffinetely", "definitely");
+            correctionAdd("definetily", "definitely");
+            correctionAdd("defiantly", "definitely");
+            correctionAdd("deffo", "definitely"); // Slang term
+            correctionAdd("defininetly", "definitely");
+            correctionAdd("defenitely", "definitely");
+            correctionAdd("defenetly", "definitely");
+            correctionAdd("deffinetly", "definitely");
+            correctionAdd("defo", "definitely");
+            correctionAdd("definatily", "definitely");
+            correctionAdd("definitelly", "definitely");
+            correctionAdd("diffenately", "definitely");
+            correctionAdd("definitley", "definitely");
+            correctionAdd("definently", "definitely");
+            correctionAdd("Definatly", "definitely");
+            correctionAdd("defintely", "definitely");
+            correctionAdd("Deffinatly", "definitely");
+            correctionAdd("deffinatly", "definitely");
+            correctionAdd("defenatly", "definitely");
+            correctionAdd("definietly", "definitely");
+            correctionAdd("definiteley", "definitely");
+            correctionAdd("def", "definitely");
+            correctionAdd("Defo", "definitely");
+            correctionAdd("Defently", "definitely");
+            correctionAdd("defently", "definitely");
+            correctionAdd("Definitely", "definitely");
+            correctionAdd("definitelt", "definitely");
+            correctionAdd("defintitely", "definitely");
+            correctionAdd("deffinitly", "definitely");
+            correctionAdd("defenitly", "definitely");
+            correctionAdd("definetley", "definitely");
+            correctionAdd("defiently", "definitely");
+
             //  Start of Stack Exchange site list (not
             //  complete (only added on demand))
             //
@@ -13872,6 +13990,7 @@ namespace OverflowHelper.core
             correctionAdd("CSS-3", "CSS&nbsp;3");
             correctionAdd("Css3", "CSS&nbsp;3");
             correctionAdd("Css 3", "CSS&nbsp;3");
+            correctionAdd("css-3", "CSS&nbsp;3");
 
             correctionAdd("flexbox", "Flexbox");
             correctionAdd("flex-box", "Flexbox");
@@ -14270,6 +14389,18 @@ namespace OverflowHelper.core
             correctionAdd("adresss", "address");
             correctionAdd("adresse", "address");
             correctionAdd("Adress", "address");
+
+            correctionAdd("addresses", "addressed");
+            correctionAdd("adressed", "addressed");
+
+            correctionAdd("adressing", "addressing");
+
+            correctionAdd("Un-addressed", "unaddressed");
+            correctionAdd("un-addressed", "unaddressed");
+
+            correctionAdd("address-space", "address space");
+
+            correctionAdd("ASLR", "address space layout randomization");
 
             correctionAdd("ip", "IP address");
             correctionAdd("IP", "IP address");
@@ -16956,9 +17087,6 @@ namespace OverflowHelper.core
             correctionAdd("p-n diode", "p–n diode");
             correctionAdd("PN diode", "p–n diode");
 
-            correctionAdd("ordinary differential equation", "ODE");
-            correctionAdd("ode", "ODE");
-
             correctionAdd("quirk mode", "quirks mode");
             correctionAdd("QUIRK MODE", "quirks mode");
 
@@ -19520,50 +19648,6 @@ namespace OverflowHelper.core
             correctionAdd("indefinetely", "indefinitely");
             correctionAdd("indefenetly", "indefinitely");
 
-            // Funny alternative URL: <http://d-e-f-i-n-i-t-e-l-y.com/>
-            correctionAdd("definately", "definitely");
-            correctionAdd("definetely", "definitely");
-            correctionAdd("definatly", "definitely");
-            correctionAdd("Definitly", "definitely");
-            correctionAdd("definitly", "definitely");
-            correctionAdd("definitetly", "definitely");
-            correctionAdd("definiately", "definitely");
-            correctionAdd("definetly", "definitely");
-            correctionAdd("denitely", "definitely");
-            correctionAdd("definively", "definitely");
-            correctionAdd("deffinetely", "definitely");
-            correctionAdd("definetily", "definitely");
-            correctionAdd("defiantly", "definitely");
-            correctionAdd("deffo", "definitely"); // Slang term
-            correctionAdd("defininetly", "definitely");
-            correctionAdd("defenitely", "definitely");
-            correctionAdd("defenetly", "definitely");
-            correctionAdd("deffinetly", "definitely");
-            correctionAdd("defo", "definitely");
-            correctionAdd("definatily", "definitely");
-            correctionAdd("definitelly", "definitely");
-            correctionAdd("diffenately", "definitely");
-            correctionAdd("definitley", "definitely");
-            correctionAdd("definently", "definitely");
-            correctionAdd("Definatly", "definitely");
-            correctionAdd("defintely", "definitely");
-            correctionAdd("Deffinatly", "definitely");
-            correctionAdd("deffinatly", "definitely");
-            correctionAdd("defenatly", "definitely");
-            correctionAdd("definietly", "definitely");
-            correctionAdd("definiteley", "definitely");
-            correctionAdd("def", "definitely");
-            correctionAdd("Defo", "definitely");
-            correctionAdd("Defently", "definitely");
-            correctionAdd("defently", "definitely");
-            correctionAdd("Definitely", "definitely");
-            correctionAdd("definitelt", "definitely");
-            correctionAdd("defintitely", "definitely");
-            correctionAdd("deffinitly", "definitely");
-            correctionAdd("defenitly", "definitely");
-            correctionAdd("definetley", "definitely");
-            correctionAdd("defiently", "definitely");
-
             correctionAdd("Unfortunatly", "unfortunately");
             correctionAdd("unfortunatly", "unfortunately");
             correctionAdd("unfortunatley", "unfortunately");
@@ -21485,13 +21569,6 @@ namespace OverflowHelper.core
             correctionAdd("electro chemistry", "electrochemistry");
 
             correctionAdd("tapestry", "Tapestry");
-
-            correctionAdd("Differential Geometry", "differential geometry");
-
-            correctionAdd("Geometry", "geometry");
-            correctionAdd("geoemetry", "geometry");
-            correctionAdd("Geoemtry", "geometry");
-            correctionAdd("geoemtry", "geometry");
 
             correctionAdd("reentry", "re-entry");
 
@@ -28690,12 +28767,6 @@ namespace OverflowHelper.core
 
             correctionAdd("civillian", "civilian");
 
-            correctionAdd("diffrentiate", "differentiate");
-            correctionAdd("differ", "differentiate");
-            correctionAdd("differenciate", "differentiate");
-            correctionAdd("diferences", "differentiate");
-            correctionAdd("diferenciate", "differentiate");
-
             correctionAdd("Uwsgi", "uWSGI");
             correctionAdd("UWSGI", "uWSGI");
             correctionAdd("uwsgi", "uWSGI");
@@ -28748,17 +28819,6 @@ namespace OverflowHelper.core
             correctionAdd("challanging", "challenging");
 
             correctionAdd("competant", "competent");
-
-            correctionAdd("diffrence", "difference");
-            correctionAdd("diference", "difference");
-            correctionAdd("Difference", "difference");
-            correctionAdd("diffrance", "difference");
-            correctionAdd("differance", "difference");
-            correctionAdd("diffrerence", "difference");
-            correctionAdd("Diference", "difference");
-            correctionAdd("differece", "difference");
-            correctionAdd("diffenerce", "difference");
-            correctionAdd("differnce", "difference");
 
             correctionAdd("disasterous", "disastrous");
             correctionAdd("disastrorous", "disastrous");
@@ -36706,28 +36766,6 @@ namespace OverflowHelper.core
             correctionAdd("Zinc", "zinc");
             correctionAdd("Zn", "zinc");
 
-            correctionAdd("diffrent", "different");
-            correctionAdd("diferent", "different");
-            correctionAdd("differemt", "different");
-            correctionAdd("diffrernt", "different");
-            correctionAdd("differernt", "different");
-            correctionAdd("differnt", "different");
-            correctionAdd("defferent", "different");
-            correctionAdd("deferent", "different");
-            correctionAdd("differant", "different");
-            correctionAdd("diffferent", "different");
-            correctionAdd("differeny", "different");
-            correctionAdd("differents", "different");
-            correctionAdd("Differnt", "different");
-            correctionAdd("differente", "different");
-            correctionAdd("diffent", "different");
-            correctionAdd("dfferent", "different");
-            correctionAdd("diferrent", "different");
-            correctionAdd("differrent", "different");
-            correctionAdd("differnet", "different");
-            correctionAdd("differennt", "different");
-            correctionAdd("differen", "different");
-
             correctionAdd("in hand", "on hand");
 
             correctionAdd("before hand", "beforehand");
@@ -43372,12 +43410,6 @@ namespace OverflowHelper.core
 
             correctionAdd("flip side", "flipside");
 
-            correctionAdd("addresses", "addressed");
-            correctionAdd("adressed", "addressed");
-
-            correctionAdd("Un-addressed", "unaddressed");
-            correctionAdd("un-addressed", "unaddressed");
-
             correctionAdd("passportJS", "Passport.js");
             correctionAdd("passport.js", "Passport.js");
             correctionAdd("Passport", "Passport.js");
@@ -45021,9 +45053,6 @@ namespace OverflowHelper.core
             correctionAdd("bestest", "best");
 
             correctionAdd("Criminology", "criminology");
-
-            correctionAdd("differeces", "differences");
-            correctionAdd("differencies", "differences");
 
             correctionAdd("chromecast", "Chromecast");
 
@@ -47848,11 +47877,6 @@ namespace OverflowHelper.core
 
             correctionAdd("bi-weekly", "biweekly");
 
-            correctionAdd("computational binary solid geometry", "constructive solid geometry");
-            correctionAdd("CSG", "constructive solid geometry");
-            correctionAdd("csg", "constructive solid geometry");
-            correctionAdd("Constructive Solid Geometry", "constructive solid geometry");
-
             correctionAdd("Marshall law", "martial law");
             correctionAdd("Marshall Law", "martial law");
             correctionAdd("marshall law", "martial law");
@@ -48125,8 +48149,6 @@ namespace OverflowHelper.core
             correctionAdd("tweedie distribution", "Tweedie distribution");
 
             correctionAdd("Theory of Computation", "theory of computation");
-
-            correctionAdd("ASLR", "address space layout randomization");
 
             correctionAdd("Premature Optimization", "premature optimization");
 
@@ -50770,8 +50792,6 @@ namespace OverflowHelper.core
 
             correctionAdd("hpanel", "hPanel");
 
-            correctionAdd("address-space", "address space");
-
             correctionAdd("Expected Conditions", "ExpectedConditions");
 
             correctionAdd("causually", "causally");
@@ -51473,8 +51493,6 @@ namespace OverflowHelper.core
             correctionAdd("decilned", "declined");
 
             correctionAdd("msk", "mask");
-
-            correctionAdd("adressing", "addressing");
 
             correctionAdd("discendent", "descendant");
 
@@ -52535,21 +52553,6 @@ namespace OverflowHelper.core
 
             correctionAdd("whack a mole", "whack-a-mole");
 
-            // "There is no substantive evidence that Einstein wrote or
-            //   spoke the statement. It is listed within a section
-            //   called “Misattributed to Einstein” in the
-            //   comprehensive reference “The Ultimate
-            //   Quotable Einstein” from Princeton
-            //   University Press"
-            //
-            //   (1981, Alcoholics Anonymous)
-            //
-            // Also Narcotics Anonymous (same year):
-            //
-            //   <https://en.wikiquote.org/wiki/Rita_Mae_Brown#Misattributed>
-            //
-            correctionAdd("insanity", "The definition of insanity is doing the same thing over and over again, but expecting different results");
-
             correctionAdd("Voltage regulator", "voltage regulator");
 
             correctionAdd("Exchange Sort", "exchange sort");
@@ -53195,16 +53198,14 @@ namespace OverflowHelper.core
             correctionAdd("dick-head", "dickhead");
             correctionAdd("DH", "dickhead");
 
-            correctionAdd("differiential", "differential");
-
             correctionAdd("dreamincode", "DreamInCode");
 
             correctionAdd("dual core", "dual-core");
 
-            // A measure for text difficulty 
+            // A measure for text difficulty
             correctionAdd("Flesch-Kincaid Grade Level", "Flesch–Kincaid Grade Level");
 
-            // A measure for text difficulty 
+            // A measure for text difficulty
             correctionAdd("Gunning Fog Index", "Gunning fog index");
 
             correctionAdd("Freshman", "freshman");
@@ -53218,7 +53219,7 @@ namespace OverflowHelper.core
 
             correctionAdd("indictes", "indicates");
 
-            // A JavaScript library. Not to be confused 
+            // A JavaScript library. Not to be confused
             // with R package 'leaflet'.
             correctionAdd("leaflet", "Leaflet");
 
@@ -84774,21 +84775,24 @@ namespace OverflowHelper.core
 
             correctionAdd("inc_", "Inc_");
 
-            correctionAdd("upd_", "'Edit:' or 'Update:' (a bad practice on Stack Overflow)_");
-            correctionAdd("Upd_", "'Edit:' or 'Update:' (a bad practice on Stack Overflow)_");
-
             correctionAdd("cya_", "CYA_");
 
             correctionAdd("doubleclick_", "double-click_");
-
-            correctionAdd("edit_", "Edit: or Update: (bad practice on Stack Overflow)_");
-            correctionAdd("Edit_", "Edit: or Update: (bad practice on Stack Overflow)_");
 
             // A file format. For word processing documents,
             // spreadsheets, etc.
             correctionAdd("ODS_", "ods_");
 
             correctionAdd("VISA_", "Visa_");
+
+            correctionAdd("upd_", "Edit: or Update: (bad practice on Stack Overflow)_");
+            correctionAdd("Edit_", "Edit: or Update: (bad practice on Stack Overflow)_");
+            correctionAdd("Upd_", "Edit: or Update: (bad practice on Stack Overflow)_");
+            correctionAdd("edit_", "Edit: or Update: (bad practice on Stack Overflow)_");
+
+            correctionAdd("[tag:leaflet]_", "Leaflet (tag wiki)_");
+            correctionAdd("leaflet_", "Leaflet (tag wiki)_");
+            correctionAdd("Leaflet_", "Leaflet (tag wiki)_");
 
             // URL mappings
             //
@@ -86077,19 +86081,19 @@ namespace OverflowHelper.core
 
             URL_Add("push()_", "https://perldoc.perl.org/perlfunc#push-ARRAY%2CLIST");
 
-            URL_Add("'Edit:' or 'Update:' (a bad practice on Stack Overflow)_", "https://meta.stackexchange.com/questions/131009/what-should-i-keep-out-of-my-posts-and-titles/131011#131011");
-
             URL_Add("CSS&nbsp;3 (tag wiki)_", "https://stackoverflow.com/questions/tagged/css-3");
 
             URL_Add("CYA_", "https://en.wiktionary.org/wiki/cover_one%27s_ass#Verb");
 
             URL_Add("double-click_", "https://en.wiktionary.org/wiki/double-click#Noun");
 
-            URL_Add("Edit: or Update: (bad practice on Stack Overflow)_", "https://meta.stackexchange.com/questions/131009/what-should-i-keep-out-of-my-posts-and-titles/131011#131011");
-
             URL_Add("ods_", "https://en.wikipedia.org/wiki/OpenDocument_technical_specification#Document_representation");
 
             URL_Add("Visa_", "https://en.wikipedia.org/wiki/Visa_Inc.");
+
+            URL_Add("Edit: or Update: (bad practice on Stack Overflow)_", "https://meta.stackexchange.com/questions/131009/what-should-i-keep-out-of-my-posts-and-titles/131011#131011");
+
+            URL_Add("Leaflet (tag wiki)_", "https://stackoverflow.com/questions/tagged/leaflet");
 
         } //addLookupData_alternativeWordSet()
 
