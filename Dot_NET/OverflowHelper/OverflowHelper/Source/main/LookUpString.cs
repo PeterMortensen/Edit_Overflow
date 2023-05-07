@@ -183,6 +183,9 @@ namespace OverflowHelper.core
                 // Sample: "Malmö"
                 (aRawString[endIdx] != 'ö') &&
 
+                // Sample: "Perú"
+                (aRawString[endIdx] != 'ú') &&
+
                 true
               )
             {
