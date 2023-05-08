@@ -3841,6 +3841,7 @@ namespace OverflowHelper.core
             correctionAdd("oneiric", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
             correctionAdd("Ubuntu 11", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)"); // 11 being 11.04 depends on context...
             correctionAdd("Oneiric", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
+            correctionAdd("uBuntu Oneiric", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
 
             correctionAdd("Ubuntu 12.04 (Precise Pangolin)", "Ubuntu&nbsp;12.04 (Precise Pangolin)"); // Sort of identity mapping
             correctionAdd("12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
@@ -4501,6 +4502,7 @@ namespace OverflowHelper.core
             correctionAdd("RaspPi", "Raspberry Pi");
             correctionAdd("rasbery pi", "Raspberry Pi");
             correctionAdd("Raspberr", "Raspberry Pi");
+            correctionAdd("rasperry PI", "Raspberry Pi");
 
             // Raspberry Pi
             correctionAdd("raspbmc", "Raspbmc");
@@ -14792,11 +14794,11 @@ namespace OverflowHelper.core
 
             correctionAdd("ld", "GNU linker");
 
-            // Linux 
+            // Linux
             correctionAdd("autotools", "GNU Autotools");
             correctionAdd("Autotools", "GNU Autotools");
 
-            // Linux 
+            // Linux
             correctionAdd("GNU Binutils", "GNU Binary Utilities");
             correctionAdd("binutils", "GNU Binary Utilities");
 
@@ -16670,6 +16672,8 @@ namespace OverflowHelper.core
             correctionAdd("--funswitch-loops", "-funswitch-loops");
 
             correctionAdd("--fextended-identifiers", "-fextended-identifiers");
+
+            correctionAdd("--finput-charset", "-finput-charset");
 
             correctionAdd("WIX", "WiX");
             correctionAdd("Wix", "WiX");
@@ -53402,6 +53406,16 @@ namespace OverflowHelper.core
 
             correctionAdd("VCPKG", "vcpkg");
 
+            correctionAdd("at anyrate", "at any rate");
+            correctionAdd("At anyrate", "at any rate");
+
+            correctionAdd("beat the whole purpose", "defeat the purpose");
+
+            correctionAdd("herb sutter", "Herb Sutter");
+
+            correctionAdd("plea-bargain", "plea bargain");
+            correctionAdd("plea deal", "plea bargain");
+
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -82690,6 +82704,16 @@ namespace OverflowHelper.core
             URL_Add("GCC 4.6.1 (2011-06-27)", "https://gcc.gnu.org/gcc-4.6/");
 
             URL_Add("vcpkg", "https://en.wikipedia.org/wiki/Vcpkg");
+
+            URL_Add("-finput-charset", "https://gcc.gnu.org/onlinedocs/gcc/Preprocessor-Options.html#index-finput-charset");
+
+            URL_Add("at any rate", "https://en.wiktionary.org/wiki/at_any_rate#Prepositional_phrase");
+
+            URL_Add("defeat the purpose", "https://en.wiktionary.org/wiki/defeat_the_purpose#Verb");
+
+            URL_Add("Herb Sutter", "https://en.wikipedia.org/wiki/Herb_Sutter");
+
+            URL_Add("plea bargain", "https://en.wiktionary.org/wiki/plea_bargain#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
