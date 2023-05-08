@@ -4331,6 +4331,7 @@ namespace OverflowHelper.core
             correctionAdd("packman", "Pacman");
             correctionAdd("pakman", "Pacman");
             correctionAdd("pac-man", "Pacman");
+            correctionAdd("PacMan", "Pacman");
 
             // Linux
             correctionAdd("Ubuntu software center", "Ubuntu Software Center");
@@ -8154,6 +8155,14 @@ namespace OverflowHelper.core
             correctionAdd("pov", "point of view");
             correctionAdd("point view", "point of view");
 
+            correctionAdd("consept", "concept");
+
+            correctionAdd("conceptayalising", "conceptualising");
+
+            correctionAdd("conseptionally", "conceptionally");
+
+            correctionAdd("conceptional", "conceptual");
+
             correctionAdd("proof-of-concept", "proof of concept");
             correctionAdd("Proof-of-concept", "proof of concept");
             correctionAdd("Proof of Concept", "proof of concept");
@@ -10635,6 +10644,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("Universal Character Names", "universal character names");
             correctionAdd("UCN", "universal character names");
+            correctionAdd("universal character name", "universal character names");
 
             // Start of C / C++ function section
             //
@@ -14670,6 +14680,8 @@ namespace OverflowHelper.core
             correctionAdd("GNU Compiler Collection", "GCC");
             correctionAdd("CGG", "GCC");
 
+            correctionAdd("gcc 4.6.1", "GCC 4.6.1 (2011-06-27)");
+
             correctionAdd("gcc 4.8", "GCC 4.8");
 
             correctionAdd("GCC 4.8.3", "GCC 4.8.3 (2014-05-22)");
@@ -14772,6 +14784,7 @@ namespace OverflowHelper.core
             correctionAdd("GNU make", "GNU Make");
             correctionAdd("Gnu-make", "GNU Make");
 
+            // With ls cat, ls, rm, etc.
             correctionAdd("Core Utilities", "GNU Core Utilities");
             correctionAdd("coreutils", "GNU Core Utilities");
             correctionAdd("GNU utils", "GNU Core Utilities");
@@ -14779,8 +14792,11 @@ namespace OverflowHelper.core
 
             correctionAdd("ld", "GNU linker");
 
+            // Linux 
             correctionAdd("autotools", "GNU Autotools");
+            correctionAdd("Autotools", "GNU Autotools");
 
+            // Linux 
             correctionAdd("GNU Binutils", "GNU Binary Utilities");
             correctionAdd("binutils", "GNU Binary Utilities");
 
@@ -16652,6 +16668,8 @@ namespace OverflowHelper.core
             correctionAdd("--ftree-vectorize", "-ftree-vectorize");
 
             correctionAdd("--funswitch-loops", "-funswitch-loops");
+
+            correctionAdd("--fextended-identifiers", "-fextended-identifiers");
 
             correctionAdd("WIX", "WiX");
             correctionAdd("Wix", "WiX");
@@ -22182,6 +22200,8 @@ namespace OverflowHelper.core
             correctionAdd("beautifull", "beautiful");
             correctionAdd("beautuful", "beautiful");
             correctionAdd("beutifull", "beautiful");
+
+            correctionAdd("beaty", "beauty");
 
             correctionAdd("beam", "BEAM");
 
@@ -32316,6 +32336,7 @@ namespace OverflowHelper.core
             correctionAdd("Wrt", "with respect to");
             correctionAdd("wrt", "with respect to");
             correctionAdd("in respect of", "with respect to");
+            correctionAdd("w.r.t", "with respect to");
 
             correctionAdd("new-ish", "newish");
 
@@ -37788,6 +37809,20 @@ namespace OverflowHelper.core
 
             correctionAdd("role", "roll"); // Verb. The noun is in the alternative word set...
 
+            correctionAdd("roll-back", "roll back");
+            correctionAdd("rollback", "roll back");
+            correctionAdd("rool back", "roll back");
+            correctionAdd("Rollback", "roll back");
+
+            correctionAdd("rolledback", "rolled back");
+
+            correctionAdd("role out", "roll out");
+            correctionAdd("rool out", "roll out");
+
+            correctionAdd("roll up the sleeves", "roll up your sleeves");
+
+            correctionAdd("roleacoster", "rollercoaster");
+
             correctionAdd("Pitch", "pitch");
 
             correctionAdd("Yaw", "yaw");
@@ -38385,11 +38420,6 @@ namespace OverflowHelper.core
 
             correctionAdd("broke the camel's back", "the straw that broke the camel's back");
             correctionAdd("straw that broke the camel's back", "the straw that broke the camel's back");
-
-            correctionAdd("roll-back", "roll back");
-            correctionAdd("rollback", "roll back");
-            correctionAdd("rool back", "roll back");
-            correctionAdd("Rollback", "roll back");
 
             correctionAdd("feedbacks", "feedback");
             correctionAdd("feed back", "feedback");
@@ -39336,8 +39366,6 @@ namespace OverflowHelper.core
             correctionAdd("HTTP 2.0", "HTTP/2");
             correctionAdd("HTTP 2", "HTTP/2");
 
-            correctionAdd("conceptayalising", "conceptualising");
-
             correctionAdd("Ivory tower", "ivory tower");
 
             correctionAdd("map", "maximum a posteriori estimation");
@@ -39526,8 +39554,6 @@ namespace OverflowHelper.core
             correctionAdd("clousure", "closure");
             correctionAdd("Closure", "closure");
             correctionAdd("clouser", "closure");
-
-            correctionAdd("consept", "concept");
 
             correctionAdd("repectively", "respectively");
             correctionAdd("resp", "respectively");
@@ -40204,9 +40230,6 @@ namespace OverflowHelper.core
             correctionAdd("preety", "pretty");
             correctionAdd("preaty", "pretty");
             correctionAdd("preatty", "pretty");
-
-            correctionAdd("role out", "roll out");
-            correctionAdd("rool out", "roll out");
 
             correctionAdd("soured", "sourced");
 
@@ -41076,8 +41099,6 @@ namespace OverflowHelper.core
 
             correctionAdd("wizzard", "wizard");
 
-            correctionAdd("conseptionally", "conceptionally");
-
             correctionAdd("hird", "herd");
 
             correctionAdd("Thermocouple", "thermocouple");
@@ -41285,8 +41306,6 @@ namespace OverflowHelper.core
             correctionAdd("Dunning-Kruger effect", "Dunning–Kruger effect");
 
             correctionAdd("hestancy", "hesitancy");
-
-            correctionAdd("roll up the sleeves", "roll up your sleeves");
 
             correctionAdd("SYSLOG", "syslog");
 
@@ -42001,8 +42020,6 @@ namespace OverflowHelper.core
             correctionAdd("halped", "helped");
 
             correctionAdd("pre-existing", "preexisting");
-
-            correctionAdd("roleacoster", "rollercoaster");
 
             correctionAdd("waisting", "wasting");
             correctionAdd("waising", "wasting");
@@ -53376,18 +53393,14 @@ namespace OverflowHelper.core
             // Windows
             correctionAdd("services.msc", "Services.msc");
 
-            correctionAdd("beaty", "beauty");
-
-            correctionAdd("conceptional", "conceptual");
-
             correctionAdd("imba", "Imba");
-
-            correctionAdd("rolledback", "rolled back");
 
             correctionAdd("shortlived", "short-lived");
             correctionAdd("short lived", "short-lived");
 
             correctionAdd("succesor", "successor");
+
+            correctionAdd("VCPKG", "vcpkg");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -82671,6 +82684,12 @@ namespace OverflowHelper.core
             URL_Add("short-lived", "https://en.wiktionary.org/wiki/short-lived#Adjective");
 
             URL_Add("successor", "https://en.wiktionary.org/wiki/successor#Noun");
+
+            URL_Add("-fextended-identifiers", "https://gcc.gnu.org/onlinedocs/gcc/Preprocessor-Options.html#index-fextended-identifiers");
+
+            URL_Add("GCC 4.6.1 (2011-06-27)", "https://gcc.gnu.org/gcc-4.6/");
+
+            URL_Add("vcpkg", "https://en.wikipedia.org/wiki/Vcpkg");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
