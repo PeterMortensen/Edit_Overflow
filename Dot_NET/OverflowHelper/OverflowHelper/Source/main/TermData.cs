@@ -3681,6 +3681,7 @@ namespace OverflowHelper.core
             correctionAdd("Debian 8 Jessie", "Debian&nbsp;8 (Jessie)");
             correctionAdd("8 \"Jessie\"", "Debian&nbsp;8 (Jessie)");
             correctionAdd("Debian 8 \"Jessie\"", "Debian&nbsp;8 (Jessie)");
+            correctionAdd("JESSIE", "Debian&nbsp;8 (Jessie)");
 
             correctionAdd("Debian 9 (Stretch)", "Debian&nbsp;9 (Stretch)"); // Sort of identity mapping
             correctionAdd("Debian 9", "Debian&nbsp;9 (Stretch)");
@@ -5018,6 +5019,7 @@ namespace OverflowHelper.core
             ////////////////////////////////////////////////////////////////
             correctionAdd("BLE", "Bluetooth LE");
             correctionAdd("ble", "Bluetooth LE");
+            correctionAdd("bluetooth low energy", "Bluetooth LE");
 
             correctionAdd("politicans", "politicians");
 
@@ -6342,7 +6344,32 @@ namespace OverflowHelper.core
 
             correctionAdd("indispensible", "indispensable");
 
+            correctionAdd("preffer", "prefer");
+            correctionAdd("prefere", "prefer");
+
+            correctionAdd("preffers", "prefers");
+
+            correctionAdd("prefered", "preferred");
+            correctionAdd("preffered", "preferred");
+            correctionAdd("preferrred", "preferred");
+
             correctionAdd("preferrable", "preferable");
+
+            correctionAdd("preferebly", "preferably");
+            correctionAdd("prefrebly", "preferably");
+            correctionAdd("Preferrably", "preferably");
+            correctionAdd("preferrably", "preferably");
+            correctionAdd("Preferably", "preferably");
+            correctionAdd("preferredly", "preferably");
+
+            correctionAdd("prefrence", "preference");
+            correctionAdd("Prefences", "preference");
+            correctionAdd("preferance", "preference");
+
+            correctionAdd("Preferences", "preferences");
+            correctionAdd("Perferences", "preferences");
+            correctionAdd("Prefrences", "preferences");
+            correctionAdd("prefrences", "preferences");
 
             correctionAdd("breatheable", "breathable");
 
@@ -7723,6 +7750,7 @@ namespace OverflowHelper.core
             correctionAdd("meta stack exchange", "Meta&nbsp;Stack&nbsp;Exchange");
             correctionAdd("Over Meta", "Meta&nbsp;Stack&nbsp;Exchange");
             correctionAdd("Over-Meta", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("Über meta", "Meta&nbsp;Stack&nbsp;Exchange");
 
             correctionAdd("Unix&Linux", "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)");
             correctionAdd("U&L", "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)");
@@ -9528,6 +9556,10 @@ namespace OverflowHelper.core
             correctionAdd("copy past", "copy-paste");
             correctionAdd("copy paste", "copy-paste");
             correctionAdd("C&P", "copy-paste");
+            correctionAdd("copy & paste", "copy-paste");
+            correctionAdd("copy&paste", "copy-paste");
+            correctionAdd("copy'n'past", "copy-paste");
+            correctionAdd("copy'n'paste", "copy-paste");
 
             correctionAdd("copy paste detector", "Copy/Paste Detector");
             correctionAdd("CPD", "Copy/Paste Detector");
@@ -11445,6 +11477,7 @@ namespace OverflowHelper.core
             correctionAdd("ok", "OK");
             correctionAdd("Ok", "OK");
             correctionAdd("okai", "OK");
+            correctionAdd("Okey", "OK");
 
             correctionAdd("Tick Tok", "TikTok");
             correctionAdd("ticktock", "TikTok");
@@ -14969,6 +15002,13 @@ namespace OverflowHelper.core
 
             correctionAdd("datatype", "data type");
 
+            correctionAdd("DSX", "Watson Studio");
+            correctionAdd("Data Science Experience", "Watson Studio");
+            correctionAdd("IBM Watson Studio", "Watson Studio");
+
+            correctionAdd("datamining", "data mining");
+            correctionAdd("data-mining", "data mining");
+
             correctionAdd("mime type", "MIME type");
             correctionAdd("Mime-Type", "MIME type");
             correctionAdd("Mime Type", "MIME type");
@@ -15017,15 +15057,6 @@ namespace OverflowHelper.core
             correctionAdd("cross reference", "cross-reference");
 
             correctionAdd("self reference", "self-reference");
-
-            correctionAdd("prefrence", "preference");
-            correctionAdd("Prefences", "preference");
-            correctionAdd("preferance", "preference");
-
-            correctionAdd("Preferences", "preferences");
-            correctionAdd("Perferences", "preferences");
-            correctionAdd("Prefrences", "preferences");
-            correctionAdd("prefrences", "preferences");
 
             correctionAdd("iterference", "interference");
             correctionAdd("interferance", "interference");
@@ -20366,6 +20397,9 @@ namespace OverflowHelper.core
             correctionAdd("inspite of", "in spite of");
             correctionAdd("inspite", "in spite of");
             correctionAdd("Inspite", "in spite of");
+            correctionAdd("Despite of", "in spite of");
+            correctionAdd("despite of", "in spite of");
+            correctionAdd("in despite of", "in spite of");
 
             correctionAdd("interms of", "in terms of");
             correctionAdd("interms", "in terms of");
@@ -24795,6 +24829,7 @@ namespace OverflowHelper.core
             correctionAdd("Whatsap", "WhatsApp");
             correctionAdd("WhastApp", "WhatsApp");
             correctionAdd("whastapp", "WhatsApp");
+            correctionAdd("Whats-App", "WhatsApp");
 
             // Currently defunc due to some recent changes!!!
             //  correctionAdd("Textpad++", "Textpad++");
@@ -25538,6 +25573,7 @@ namespace OverflowHelper.core
             correctionAdd("Grammar", "grammar");
             correctionAdd("gramer", "grammar");
             correctionAdd("gramar", "grammar");
+            correctionAdd("gremmer", "grammar");
 
             correctionAdd("chinese", "Chinese");
             correctionAdd("Chiense", "Chinese");
@@ -25651,6 +25687,7 @@ namespace OverflowHelper.core
             correctionAdd("tht's", "that’s");
             correctionAdd("tht’s", "that’s");
             correctionAdd("that´s", "that’s");
+            correctionAdd("that0s", "that’s");
 
             // correctionAdd("v.s", "vs."); // Bug...
             correctionAdd("versus", "vs."); //
@@ -26565,6 +26602,8 @@ namespace OverflowHelper.core
             correctionAdd("Thks", "thanks");
             correctionAdd("thks", "thanks");
             correctionAdd("Thansk", "thanks");
+            correctionAdd("Thankx", "thanks");
+            correctionAdd("thankx", "thanks");
 
             correctionAdd("abillity", "ability");
             correctionAdd("ablity", "ability");
@@ -27003,6 +27042,12 @@ namespace OverflowHelper.core
             // PHP
             correctionAdd("Jetstream", "Laravel Jetstream");
 
+            // PHP
+            correctionAdd("Query Builder", "Laravel database query builder");
+
+            // PHP
+            correctionAdd("guzzle", "Guzzle");
+
             correctionAdd("wasnt", "wasn’t");
             correctionAdd("wasn't", "wasn’t");
             correctionAdd("wasn", "wasn’t");
@@ -27111,10 +27156,6 @@ namespace OverflowHelper.core
             correctionAdd("Off Topic", "off-topic");
             correctionAdd("out of topic", "off-topic");
             correctionAdd("Off-topic", "off-topic");
-
-            correctionAdd("prefered", "preferred");
-            correctionAdd("preffered", "preferred");
-            correctionAdd("preferrred", "preferred");
 
             correctionAdd("refered", "referred");
             correctionAdd("reffered", "referred");
@@ -28839,6 +28880,7 @@ namespace OverflowHelper.core
 
             correctionAdd("bare bones", "bare-bones");
             correctionAdd("barebones", "bare-bones");
+            correctionAdd("bear bones", "bare-bones");
 
             correctionAdd("never-the-less", "nevertheless");
             correctionAdd("never the less", "nevertheless");
@@ -30955,6 +30997,7 @@ namespace OverflowHelper.core
             correctionAdd("occation", "occasion");
             correctionAdd("occacion", "occasion");
             correctionAdd("occasition", "occasion");
+            correctionAdd("Occassion", "occasion");
 
             correctionAdd("IFS", "internal field separator");
             correctionAdd("input field separator", "internal field separator");
@@ -31854,6 +31897,8 @@ namespace OverflowHelper.core
             correctionAdd("third amendment", "Third Amendment");
 
             correctionAdd("eventully", "eventually");
+            correctionAdd("Eentually", "eventually");
+            correctionAdd("eentually", "eventually");
 
             correctionAdd("fraudly", "fraudulently");
 
@@ -36176,9 +36221,27 @@ namespace OverflowHelper.core
 
             correctionAdd("deam", "deem");
 
+            correctionAdd("code Page", "code page");
+            correctionAdd("codepage", "code page");
+
+            correctionAdd("CP 437", "Code page 437");
+
             correctionAdd("cp 850", "Code page 850");
             correctionAdd("CP-850", "Code page 850");
             correctionAdd("CP 850", "Code page 850");
+
+            // Character encoding for simplified Chinese. Code page.
+            correctionAdd("CP-936", "Code page 936");
+            correctionAdd("CP936", "Code page 936");
+
+            // Character set used for simplified Chinese characters. GBK
+            correctionAdd("GB 2312", "GB&nbsp;2312");
+            correctionAdd("GB2312", "GB&nbsp;2312");
+            correctionAdd("GB encoding", "GB&nbsp;2312");
+            correctionAdd("Simplified Chinese", "GB&nbsp;2312");
+
+            // An extension of GB 2312 (simplified Chinese characters)
+            correctionAdd("gbk", "GBK");
 
             correctionAdd("actaul", "actual");
 
@@ -36200,9 +36263,6 @@ namespace OverflowHelper.core
             correctionAdd("Torvalds", "Linus Torvalds");
 
             correctionAdd("dimimish", "diminish");
-
-            correctionAdd("preffer", "prefer");
-            correctionAdd("prefere", "prefer");
 
             correctionAdd("referr", "refer");
             correctionAdd("reffer", "refer");
@@ -37949,6 +38009,18 @@ namespace OverflowHelper.core
 
             correctionAdd("narsissist", "narcissist");
 
+            correctionAdd("narcicsts", "narcissists");
+
+            correctionAdd("narcistic", "narcissistic");
+
+            correctionAdd("narcisism", "narcissism");
+
+            correctionAdd("plus perfect number", "narcissistic number");
+            correctionAdd("Armstrong number", "narcissistic number");
+            correctionAdd("PPDI", "narcissistic number");
+            correctionAdd("armstrong number", "narcissistic number");
+            correctionAdd("pluperfect digital invariant", "narcissistic number");
+
             correctionAdd("staring", "starting");
             correctionAdd("startign", "starting");
             correctionAdd("statring", "starting");
@@ -38611,6 +38683,7 @@ namespace OverflowHelper.core
             correctionAdd("amonng", "among");
             correctionAdd("Amog", "among");
             correctionAdd("amog", "among");
+            correctionAdd("amongs", "among");
 
             correctionAdd("burnd", "burned");
 
@@ -39486,13 +39559,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Mental Health", "mental health");
 
-            correctionAdd("preferebly", "preferably");
-            correctionAdd("prefrebly", "preferably");
-            correctionAdd("Preferrably", "preferably");
-            correctionAdd("preferrably", "preferably");
-            correctionAdd("Preferably", "preferably");
-            correctionAdd("preferredly", "preferably");
-
             correctionAdd("self evident", "self-evident");
 
             correctionAdd("short-story", "short story");
@@ -39628,8 +39694,6 @@ namespace OverflowHelper.core
             correctionAdd("technial", "technical");
             correctionAdd("techincal", "technical");
             correctionAdd("tecnical", "technical");
-
-            correctionAdd("CP 437", "Code page 437");
 
             correctionAdd("energy star", "Energy Star");
 
@@ -42815,9 +42879,6 @@ namespace OverflowHelper.core
 
             correctionAdd("appraoches", "approaches");
 
-            correctionAdd("code Page", "code page");
-            correctionAdd("codepage", "code page");
-
             correctionAdd("Curly", "curly");
 
             correctionAdd("manuvre", "manoeuvre");
@@ -43775,8 +43836,6 @@ namespace OverflowHelper.core
             correctionAdd("backdoor", "back door");
 
             correctionAdd("dismotivated", "demotivated");
-
-            correctionAdd("narcicsts", "narcissists");
 
             correctionAdd("regardles", "regardless");
 
@@ -47043,11 +47102,6 @@ namespace OverflowHelper.core
 
             correctionAdd("AM335X", "AM335x");
 
-            correctionAdd("CP-936", "Code page 936");
-            correctionAdd("CP936", "Code page 936");
-
-            correctionAdd("gbk", "GBK");
-
             correctionAdd("arrangment", "arrangement");
 
             correctionAdd("Constrain", "constrain");
@@ -48129,8 +48183,6 @@ namespace OverflowHelper.core
             correctionAdd("eben", "even");
             correctionAdd("Even", "even");
             correctionAdd("event", "even");
-
-            correctionAdd("narcistic", "narcissistic");
 
             correctionAdd("secundary", "secondary");
 
@@ -52003,12 +52055,6 @@ namespace OverflowHelper.core
 
             correctionAdd("lcc", "LCC");
 
-            correctionAdd("plus perfect number", "narcissistic number");
-            correctionAdd("Armstrong number", "narcissistic number");
-            correctionAdd("PPDI", "narcissistic number");
-            correctionAdd("armstrong number", "narcissistic number");
-            correctionAdd("pluperfect digital invariant", "narcissistic number");
-
             correctionAdd("catl", "CATL");
 
             correctionAdd("un-commented", "uncommented");
@@ -52799,10 +52845,6 @@ namespace OverflowHelper.core
             //
             correctionAdd("solarized", "Solarized");
 
-            correctionAdd("DSX", "Watson Studio");
-            correctionAdd("Data Science Experience", "Watson Studio");
-            correctionAdd("IBM Watson Studio", "Watson Studio");
-
             correctionAdd("desctiption", "description");
             correctionAdd("discription", "description");
             correctionAdd("discriptions", "description");
@@ -53256,9 +53298,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Edge Computing", "edge computing");
 
-            correctionAdd("GB 2312", "GB&nbsp;2312");
-            correctionAdd("GB2312", "GB&nbsp;2312");
-
             correctionAdd("arm waving", "hand waving");
 
             correctionAdd("letdown", "let-down");
@@ -53404,6 +53443,7 @@ namespace OverflowHelper.core
 
             correctionAdd("succesor", "successor");
 
+            // C++ library thingy. Microsoft.
             correctionAdd("VCPKG", "vcpkg");
 
             correctionAdd("at anyrate", "at any rate");
@@ -53411,10 +53451,23 @@ namespace OverflowHelper.core
 
             correctionAdd("beat the whole purpose", "defeat the purpose");
 
+            // C++
             correctionAdd("herb sutter", "Herb Sutter");
 
             correctionAdd("plea-bargain", "plea bargain");
             correctionAdd("plea deal", "plea bargain");
+
+            // A rapper (a person)
+            correctionAdd("50 cents", "50 Cent");
+            correctionAdd("50 cent", "50 Cent");
+
+            correctionAdd("excerp", "excerpt");
+
+            correctionAdd("Image Processing", "image processing");
+
+            // Music
+            correctionAdd("boogie woogie", "boogie-woogie");
+            correctionAdd("Boogie Woogie", "boogie-woogie");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -82715,6 +82768,24 @@ namespace OverflowHelper.core
 
             URL_Add("plea bargain", "https://en.wiktionary.org/wiki/plea_bargain#Noun");
 
+            URL_Add("50 Cent", "https://en.wikipedia.org/wiki/50_Cent");
+
+            URL_Add("data mining", "https://en.wiktionary.org/wiki/data_mining#Noun");
+
+            URL_Add("excerpt", "https://en.wiktionary.org/wiki/excerpt#Noun");
+
+            URL_Add("Guzzle", "https://github.com/guzzle/guzzle");
+
+            URL_Add("image processing", "https://en.wikipedia.org/wiki/Image_processing");
+
+            URL_Add("Laravel database query builder", "https://laravel.com/docs/10.x/queries#introduction");
+
+            URL_Add("narcissism", "https://en.wiktionary.org/wiki/narcissism#Noun");
+
+            URL_Add("prefers", "https://en.wiktionary.org/wiki/prefer#Verb");
+
+            URL_Add("boogie-woogie", "https://en.wikipedia.org/wiki/Boogie-woogie");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -85066,6 +85137,14 @@ namespace OverflowHelper.core
             correctionAdd("zalgo_", "Stack Overflow Zalgo answer (regular expressions)_");
             correctionAdd("Zalgo_", "Stack Overflow Zalgo answer (regular expressions)_");
 
+            correctionAdd("Credentials_", "credentials_");
+
+            correctionAdd("power_", "electric power_");
+
+            correctionAdd("necro posting_", "necroposting_");
+
+            correctionAdd("top-level_", "toplevel_");
+
             // URL mappings
             //
             //
@@ -86374,6 +86453,14 @@ namespace OverflowHelper.core
             URL_Add("exit_", "https://en.wiktionary.org/wiki/exit#Verb");
 
             URL_Add("Stack Overflow Zalgo answer (regular expressions)_", "https://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags/1732454#1732454");
+
+            URL_Add("credentials_", "https://en.wikipedia.org/wiki/Credential#Information_technology");
+
+            URL_Add("electric power_", "https://en.wikipedia.org/wiki/Electric_power");
+
+            URL_Add("necroposting_", "https://en.wikipedia.org/wiki/Internet_forum#Necroposting");
+
+            URL_Add("toplevel_", "https://en.wiktionary.org/wiki/toplevel#Noun");
 
         } //addLookupData_alternativeWordSet()
 
