@@ -664,6 +664,8 @@ namespace OverflowHelper.core
             correctionAdd("Windows subsystem for Linux", "Windows Subsystem for Linux");
             correctionAdd("Linux Sub-System for Windows", "Windows Subsystem for Linux");
             correctionAdd("Windows Subsystem For Linux", "Windows Subsystem for Linux");
+            correctionAdd("Windows subsystem for linux", "Windows Subsystem for Linux");
+            correctionAdd("windows subsystem for linux", "Windows Subsystem for Linux");
 
             correctionAdd("WSL2", "WSL 2");
             correctionAdd("WSL-2", "WSL 2");
@@ -5599,6 +5601,7 @@ namespace OverflowHelper.core
             correctionAdd("ENV vars", "environment variable");
             correctionAdd("environment varrible", "environment variable");
             correctionAdd("environmetn variable", "environment variable");
+            correctionAdd("enviroment variables", "environment variable");
 
             correctionAdd("DISPLAY", "DISPLAY environment variable");
 
@@ -11820,6 +11823,7 @@ namespace OverflowHelper.core
             correctionAdd("google scholar", "Google Scholar");
             correctionAdd("GS", "Google Scholar");
             correctionAdd("Google scholar", "Google Scholar");
+            correctionAdd("GoogleScholar", "Google Scholar");
 
             correctionAdd("guava", "Google Guava");
             correctionAdd("Guava", "Google Guava");
@@ -19963,6 +19967,7 @@ namespace OverflowHelper.core
             correctionAdd("har disk", "hard disk drive");
             correctionAdd("rotating rust", "hard disk drive");
             correctionAdd("Hard drive", "hard disk drive");
+            correctionAdd("hardrive", "hard disk drive");
 
             correctionAdd("shucking", "shucking external hard drives");
 
@@ -21310,6 +21315,7 @@ namespace OverflowHelper.core
             correctionAdd("haracters", "characters");
             correctionAdd("charactar", "characters");
             correctionAdd("charcters", "characters");
+            correctionAdd("caharacters", "characters");
 
             correctionAdd("MarkDown", "Markdown");
             correctionAdd("markdown", "Markdown");
@@ -24871,6 +24877,7 @@ namespace OverflowHelper.core
             correctionAdd("WORD", "Microsoft Word");
             correctionAdd("ms-word", "Microsoft Word");
             correctionAdd("Winword", "Microsoft Word");
+            correctionAdd("Ms word", "Microsoft Word");
 
             correctionAdd("wpa", "WPA");
 
@@ -26919,6 +26926,19 @@ namespace OverflowHelper.core
             correctionAdd("go to considered harmful", "Go To Statement Considered Harmful");
             correctionAdd("goto considered harmful", "Go To Statement Considered Harmful");
             correctionAdd("go to statement considered harmful", "Go To Statement Considered Harmful");
+
+            correctionAdd("conisdering", "considering");
+
+            correctionAdd("concider", "consider");
+            correctionAdd("conisder", "consider");
+            correctionAdd("Consider", "consider");
+            correctionAdd("consideres", "consider");
+
+            correctionAdd("re-consider", "reconsider");
+
+            correctionAdd("considereable", "considerable");
+
+            correctionAdd("consiered", "considered");
 
             correctionAdd("three.js", "Three.js");
             correctionAdd("three js", "Three.js");
@@ -29597,6 +29617,7 @@ namespace OverflowHelper.core
             correctionAdd("arxiv", "arXiv");
             correctionAdd("ArXiv", "arXiv");
             correctionAdd("arkivx", "arXiv");
+            correctionAdd("Arxiv", "arXiv");
 
             correctionAdd("buddhist", "Buddhist");
 
@@ -30167,6 +30188,8 @@ namespace OverflowHelper.core
             correctionAdd("itelliJ", "IntelliJ IDEA");
             correctionAdd("Intelij", "IntelliJ IDEA");
             correctionAdd("itellij", "IntelliJ IDEA");
+            correctionAdd("IntelliJ-IDEA", "IntelliJ IDEA");
+            correctionAdd("IntelliJ-Idea", "IntelliJ IDEA");
 
             // An IDE.
             correctionAdd("rider", "Rider");
@@ -34335,8 +34358,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Carbon monoxide", "carbon monoxide");
             correctionAdd("carbo monoxide", "carbon monoxide");
-
-            correctionAdd("conisdering", "considering");
 
             correctionAdd("Debye", "debye");
 
@@ -39978,12 +39999,6 @@ namespace OverflowHelper.core
             correctionAdd("coldblooded", "cold-blooded");
             correctionAdd("Coldblooded", "cold-blooded");
 
-            correctionAdd("concider", "consider");
-            correctionAdd("conisder", "consider");
-            correctionAdd("Consider", "consider");
-
-            correctionAdd("re-consider", "reconsider");
-
             correctionAdd("curtesea", "courtesy");
             correctionAdd("Courtesy", "courtesy");
 
@@ -44209,7 +44224,11 @@ namespace OverflowHelper.core
             correctionAdd("Webservice", "web service");
             correctionAdd("web-service", "web service");
 
+            // Alternative URL:
+            //   <https://en.wikipedia.org/wiki/Shared_web_hosting_service>
+            //
             correctionAdd("web hotel", "shared web hosting service");
+            correctionAdd("shared hosting", "shared web hosting service");
 
             // Aviation
             correctionAdd("AoA", "angle of attack");
@@ -46669,6 +46688,7 @@ namespace OverflowHelper.core
             correctionAdd("flaot", "floating-point number");
             correctionAdd("flaots", "floating-point number");
             correctionAdd("floats", "floating-point number");
+            correctionAdd("floating point", "floating-point number");
 
             correctionAdd("imuplse", "impulse");
 
@@ -49770,6 +49790,7 @@ namespace OverflowHelper.core
             correctionAdd("Last but not least", "last but not least");
             correctionAdd("Last, but not least", "last but not least");
             correctionAdd("the last but not the least", "last but not least");
+            correctionAdd("last but least", "last but not least");
 
             correctionAdd("multi-national", "multinational");
 
@@ -49825,6 +49846,7 @@ namespace OverflowHelper.core
             correctionAdd("rich-text", "rich text");
             correctionAdd("Rich Text", "rich text");
             correctionAdd("formatted text", "rich text");
+            correctionAdd("richtext", "rich text");
 
             correctionAdd("togling", "toggling");
 
@@ -52932,8 +52954,6 @@ namespace OverflowHelper.core
             correctionAdd("colorcode", "color code");
             correctionAdd("color-code", "color code");
 
-            correctionAdd("considereable", "considerable");
-
             correctionAdd("media query", "media queries");
 
             correctionAdd("meta-character", "metacharacter");
@@ -52953,8 +52973,6 @@ namespace OverflowHelper.core
             correctionAdd("landsapce", "landscape");
 
             correctionAdd("Autocorrelation", "autocorrelation");
-
-            correctionAdd("consiered", "considered");
 
             correctionAdd("dog fooding", "dogfooding");
 
@@ -53468,6 +53486,20 @@ namespace OverflowHelper.core
             // Music
             correctionAdd("boogie woogie", "boogie-woogie");
             correctionAdd("Boogie Woogie", "boogie-woogie");
+
+            correctionAdd("databricks", "Databricks");
+
+            correctionAdd("HEXDUMP", "hexdump");
+
+            correctionAdd("Journal Club", "journal club");
+
+            correctionAdd("on-looker", "onlooker");
+
+            correctionAdd("PRL", "Physical Review Letters");
+
+            correctionAdd("quiterss", "QuiteRSS");
+
+            correctionAdd("Scirate", "SciRate");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -82786,6 +82818,20 @@ namespace OverflowHelper.core
 
             URL_Add("boogie-woogie", "https://en.wikipedia.org/wiki/Boogie-woogie");
 
+            URL_Add("Databricks", "https://en.wikipedia.org/wiki/Databricks#Products");
+
+            URL_Add("hexdump", "https://linux.die.net/man/1/hexdump");
+
+            URL_Add("journal club", "https://en.wikipedia.org/wiki/Journal_club");
+
+            URL_Add("onlooker", "https://en.wiktionary.org/wiki/onlooker#Noun");
+
+            URL_Add("Physical Review Letters", "https://en.wikipedia.org/wiki/Physical_Review_Letters");
+
+            URL_Add("QuiteRSS", "https://en.wikipedia.org/wiki/QuiteRSS");
+
+            URL_Add("SciRate", "https://scirate.com/about");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -82846,6 +82892,8 @@ namespace OverflowHelper.core
 
             correctionAdd("evry_", "every_");
             correctionAdd("evrery_", "every_");
+            correctionAdd("Ever_", "every_");
+            correctionAdd("ever_", "every_");
 
             correctionAdd("nee_", "new_");
             correctionAdd("noew_", "new_");
@@ -85145,6 +85193,10 @@ namespace OverflowHelper.core
 
             correctionAdd("top-level_", "toplevel_");
 
+            correctionAdd("SCM_", "supply chain management_");
+
+            correctionAdd("WordPress_", "WordPress.com_");
+
             // URL mappings
             //
             //
@@ -86461,6 +86513,10 @@ namespace OverflowHelper.core
             URL_Add("necroposting_", "https://en.wikipedia.org/wiki/Internet_forum#Necroposting");
 
             URL_Add("toplevel_", "https://en.wiktionary.org/wiki/toplevel#Noun");
+
+            URL_Add("supply chain management_", "https://en.wikipedia.org/wiki/Supply_chain_management");
+
+            URL_Add("WordPress.com_", "https://en.wikipedia.org/wiki/WordPress.com");
 
         } //addLookupData_alternativeWordSet()
 
