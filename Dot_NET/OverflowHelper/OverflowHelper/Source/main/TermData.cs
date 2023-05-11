@@ -2465,6 +2465,7 @@ namespace OverflowHelper.core
             correctionAdd("aws-s3", "Amazon S3");
             correctionAdd("aws s3", "Amazon S3");
             correctionAdd("S3 Amazon", "Amazon S3");
+            correctionAdd("AWS S3", "Amazon S3");
 
             correctionAdd("AWS Code Pipeline", "AWS CodePipeline");
 
@@ -3219,12 +3220,6 @@ namespace OverflowHelper.core
             correctionAdd("World Wide Web Consortium", "W3C");
             correctionAdd("w3c org", "W3C");
             correctionAdd("w3.org", "W3C");
-
-            correctionAdd("Cavium ThunderX", "ThunderX (Cavium)");
-            correctionAdd("ThunderX", "ThunderX (Cavium)");
-            correctionAdd("Cavium", "ThunderX (Cavium)");
-            correctionAdd("Thunder X", "ThunderX (Cavium)");
-            correctionAdd("Cavium Thunder X", "ThunderX (Cavium)");
 
             // A YouTube channel by said
             //
@@ -4564,6 +4559,9 @@ namespace OverflowHelper.core
 
             correctionAdd("usbc", "USB-C");
             correctionAdd("usb-c", "USB-C");
+            correctionAdd("USB C", "USB-C");
+            correctionAdd("USB c", "USB-C");
+            correctionAdd("usb c", "USB-C");
 
             correctionAdd("pyusb", "PyUSB");
 
@@ -4848,7 +4846,17 @@ namespace OverflowHelper.core
             correctionAdd("thuna", "Thunar");
 
             // A mail client (both Windows and Linux)
-            correctionAdd("thunderbolt", "Thunderbolt");
+            correctionAdd("thunderbird", "Thunderbird");
+            correctionAdd("thunterbird", "Thunderbird");
+            correctionAdd("ThunderBird", "Thunderbird");
+            correctionAdd("Tbird", "Thunderbird");
+            correctionAdd("tbird", "Thunderbird");
+            correctionAdd("T Bird", "Thunderbird");
+            correctionAdd("T-Bird", "Thunderbird");
+            correctionAdd("TB", "Thunderbird"); // Will conflict in many other contexts! E.g., "terrabyte"
+            correctionAdd("Thunderbir", "Thunderbird");
+            correctionAdd("TBird", "Thunderbird");
+            correctionAdd("thundetbird", "Thunderbird");
 
             // Linux
             correctionAdd("Konky", "Conky");
@@ -6667,6 +6675,7 @@ namespace OverflowHelper.core
             correctionAdd("This", "this");
             correctionAdd("t his", "this");
             correctionAdd("dis", "this");
+            correctionAdd("htis", "this");
 
             correctionAdd("paranthesis", "parenthesis");
             correctionAdd("paren", "parenthesis");
@@ -9493,6 +9502,20 @@ namespace OverflowHelper.core
             correctionAdd("f-strings", "f-string");
             correctionAdd("f' string", "f-string");
 
+            correctionAdd("requests", "Requests"); // A Python library
+
+            correctionAdd("requst", "request");
+            correctionAdd("resquest", "request");
+            correctionAdd("Request", "request");
+            correctionAdd("reqest", "request");
+            correctionAdd("reguest", "request");
+            correctionAdd("reques", "request");
+            correctionAdd("Reqest", "request");
+            correctionAdd("req", "request");
+            correctionAdd("requet", "request");
+
+            correctionAdd("requestedt", "requested");
+
             correctionAdd("coy", "copy");
 
             correctionAdd("XCOPY", "xcopy");
@@ -10283,6 +10306,238 @@ namespace OverflowHelper.core
 
             correctionAdd("kgdb", "KGDB");
 
+            correctionAdd("bom", "BOM");
+            correctionAdd("byte order mark", "BOM");
+            correctionAdd("Byte Order Mark", "BOM");
+            correctionAdd("B.O.M", "BOM");
+            correctionAdd("Byte order mark", "BOM");
+            correctionAdd("Byte-Order Mark", "BOM");
+            correctionAdd("byte-order mark", "BOM");
+            correctionAdd("Byte Order Marker", "BOM");
+
+            correctionAdd("utf", "UTF");
+
+            correctionAdd("UTF7", "UTF-7");
+
+            correctionAdd("utf-8", "UTF-8");
+            correctionAdd("utf8", "UTF-8");
+            correctionAdd("UTF8", "UTF-8");
+            correctionAdd("Utf-8", "UTF-8");
+            correctionAdd("Utf8", "UTF-8");
+            correctionAdd("UTF 8", "UTF-8");
+            correctionAdd("utf 8", "UTF-8");
+
+            correctionAdd("utf-16", "UTF-16");
+            correctionAdd("UTF16", "UTF-16");
+            correctionAdd("utf16", "UTF-16");
+
+            correctionAdd("utf-16be", "UTF-16BE");
+
+            correctionAdd("utf-16le", "UTF-16LE");
+
+            correctionAdd("UTF32", "UTF-32");
+            correctionAdd("utf-32", "UTF-32");
+            correctionAdd("utf32", "UTF-32");
+
+            correctionAdd("code Page", "code page");
+            correctionAdd("codepage", "code page");
+
+            correctionAdd("CP 437", "Code page 437");
+
+            correctionAdd("cp 850", "Code page 850");
+            correctionAdd("CP-850", "Code page 850");
+            correctionAdd("CP 850", "Code page 850");
+
+            // Character encoding for simplified Chinese. Code page.
+            correctionAdd("CP-936", "Code page 936");
+            correctionAdd("CP936", "Code page 936");
+
+            // Character set used for simplified Chinese characters. GBK
+            //
+            // Shorthand(?): "GB"
+            correctionAdd("GB 2312", "GB&nbsp;2312");
+            correctionAdd("GB2312", "GB&nbsp;2312");
+            correctionAdd("GB encoding", "GB&nbsp;2312");
+            correctionAdd("Simplified Chinese", "GB&nbsp;2312");
+
+            // An extension of GB 2312 (simplified Chinese characters)
+            correctionAdd("gbk", "GBK");
+
+            correctionAdd("Byte", "byte");
+
+            correctionAdd("kb", "&nbsp;KB"); // Assuming bytes, not bits...
+            correctionAdd("KB", "&nbsp;KB"); // Assuming bytes, not bits...
+            correctionAdd("Kbyte", "&nbsp;KB");
+            correctionAdd("Kb", "&nbsp;KB");
+            correctionAdd("KByte", "&nbsp;KB");
+
+            correctionAdd("mb", "&nbsp;MB"); // Assuming bytes, not bits...
+            correctionAdd("MB", "&nbsp;MB"); // Assuming bytes, not bits...
+            correctionAdd("mega byte", "&nbsp;MB");
+            correctionAdd("megabyte", "&nbsp;MB");
+            correctionAdd("Mega byte", "&nbsp;MB");
+            correctionAdd("MBytes", "&nbsp;MB");
+            correctionAdd("Mbyte", "&nbsp;MB");
+            correctionAdd("meg", "&nbsp;MB");
+            correctionAdd("megs", "&nbsp;MB");
+            correctionAdd("Mb", "&nbsp;MB");
+            correctionAdd("Megabyte", "&nbsp;MB");
+            correctionAdd("Megabytes", "&nbsp;MB");
+
+            correctionAdd("gb", "&nbsp;GB"); // Assuming bytes, not bits...
+            correctionAdd("GByte", "&nbsp;GB");
+            correctionAdd("GB", "&nbsp;GB"); // For convenience
+            correctionAdd("gigabyte", "&nbsp;GB"); // Shrinking...
+            correctionAdd("Giga Byte", "&nbsp;GB");
+            correctionAdd("Giga byte", "&nbsp;GB");
+            correctionAdd("giga byte", "&nbsp;GB");
+            correctionAdd("gigs", "&nbsp;GB");
+            correctionAdd("gig", "&nbsp;GB");
+            correctionAdd("Gig", "&nbsp;GB");
+            correctionAdd("Gb", "&nbsp;GB");
+            correctionAdd("Gigabyte", "&nbsp;GB");
+            correctionAdd("Gigabytes", "&nbsp;GB");
+            correctionAdd("gigabytes", "&nbsp;GB");
+
+            correctionAdd("tb", "&nbsp;TB");
+            correctionAdd("Tb", "&nbsp;TB"); // Conflicts with Thunderbird
+            correctionAdd("terrabyte", "&nbsp;TB");
+            correctionAdd("terra byte", "&nbsp;TB");
+            correctionAdd("tera byte", "&nbsp;TB");
+            correctionAdd("terabyte", "&nbsp;TB");
+            correctionAdd("Terabyte", "&nbsp;TB");
+
+            correctionAdd("multi-byte", "multibyte");
+
+            correctionAdd("byte string", "bytestring");
+
+            correctionAdd("bt", "bit");
+            correctionAdd("Bit", "bit");
+            correctionAdd("bti", "bit");
+
+            correctionAdd("Megabit", "megabit");
+            correctionAdd("Megabits", "megabit");
+
+            correctionAdd("btis", "bits");
+
+            correctionAdd("bit rate", "bitrate");
+            correctionAdd("Bitrate", "bitrate");
+
+            correctionAdd("bit/s", "&nbsp;bit/s"); // Sort of identity mapping
+            correctionAdd("bps", "&nbsp;bit/s"); // Different unit.
+            correctionAdd("bits/s", "&nbsp;bit/s");
+            correctionAdd("Bits / s", "&nbsp;bit/s");
+            correctionAdd("bits / s", "&nbsp;bit/s");
+            correctionAdd("b/s", "&nbsp;bit/s");
+
+            correctionAdd("kbit/s", "&nbsp;kbit/s"); // Sort of identity mapping
+            correctionAdd("kbps", "&nbsp;kbit/s"); // Different unit.
+            correctionAdd("Kbps", "&nbsp;kbit/s"); // Different unit.
+            correctionAdd("kBits/s", "&nbsp;kbit/s");
+            correctionAdd("kbits/s", "&nbsp;kbit/s");
+            correctionAdd("Kb/sec", "&nbsp;kbit/s");
+            correctionAdd("kBit/s", "&nbsp;kbit/s");
+            correctionAdd("KBPS", "&nbsp;kbit/s");
+            correctionAdd("Kbit / s", "&nbsp;kbit/s");
+            correctionAdd("kbit / s", "&nbsp;kbit/s");
+            correctionAdd("KBits / s", "&nbsp;kbit/s");
+            correctionAdd("KBits/s", "&nbsp;kbit/s");
+
+            correctionAdd("Mbit/s", "&nbsp;Mbit/s"); // Sort of identity mapping
+            correctionAdd("mbps", "&nbsp;Mbit/s"); // Different unit.
+            correctionAdd("Mbps", "&nbsp;Mbit/s"); // Different unit.
+            correctionAdd("MBps", "&nbsp;Mbit/s"); // Different unit.
+            correctionAdd("mbs", "&nbsp;Mbit/s"); // Misspelling
+            correctionAdd("MBit/s", "&nbsp;Mbit/s"); // Case
+            correctionAdd("mbit", "&nbsp;Mbit/s"); // Misspelling
+            correctionAdd("mbit/s", "&nbsp;Mbit/s");
+            correctionAdd("MBit", "&nbsp;Mbit/s");
+            correctionAdd("Mbit", "&nbsp;Mbit/s");
+            correctionAdd("megabit/s", "&nbsp;Mbit/s");
+            correctionAdd("Mbs", "&nbsp;Mbit/s");
+            correctionAdd("Megabits/s", "&nbsp;Mbit/s");
+            correctionAdd("Megabit/s", "&nbsp;Mbit/s");
+
+            correctionAdd("Gbit/s", "&nbsp;Gbit/s"); // Sort of identity mapping
+            correctionAdd("gbps", "&nbsp;Gbit/s"); // Different unit.
+            correctionAdd("gbit", "&nbsp;Gbit/s");
+            correctionAdd("Gbit", "&nbsp;Gbit/s");
+            correctionAdd("Gbps", "&nbsp;Gbit/s");
+            correctionAdd("Gpbs", "&nbsp;Gbit/s"); // Real typo
+            correctionAdd("gb/s", "&nbsp;Gbit/s");
+            correctionAdd("gbit/s", "&nbsp;Gbit/s");
+            correctionAdd("GBit/s", "&nbsp;Gbit/s");
+            correctionAdd("Gigabits/second", "&nbsp;Gbit/s");
+            correctionAdd("Gigabits/s", "&nbsp;Gbit/s");
+            correctionAdd("gigabits/s", "&nbsp;Gbit/s");
+            correctionAdd("gigabit/s", "&nbsp;Gbit/s");
+            correctionAdd("gigabit per second", "&nbsp;Gbit/s");
+
+            correctionAdd("BaudRate", "baud rate");
+            correctionAdd("baudRate", "baud rate");
+            correctionAdd("baudrate", "baud rate");
+            correctionAdd("Baud rate", "baud rate");
+            correctionAdd("BAUD rate", "baud rate");
+            correctionAdd("baud speed", "baud rate");
+
+            correctionAdd("Baud", "baud");
+
+            correctionAdd("mega baud", "megabaud");
+
+            correctionAdd("9,600", "9,600 baud");
+            correctionAdd("9600", "9,600 baud");
+
+            correctionAdd("14,400", "14,400 baud");
+            correctionAdd("14400", "14,400 baud");
+
+            correctionAdd("115,200", "115,200 baud");
+            correctionAdd("115200", "115,200 baud");
+
+            correctionAdd("19,200", "19,200 baud");
+            correctionAdd("19200", "19,200 baud");
+
+            correctionAdd("Hz", "&nbsp;Hz"); // Sort of identity mapping
+            correctionAdd("hz", "&nbsp;Hz"); // Spelling.
+            correctionAdd("Hertz", "&nbsp;Hz");
+            correctionAdd("HZ", "&nbsp;Hz");
+
+            correctionAdd("kHz", "&nbsp;kHz"); // Sort of identity mapping
+            correctionAdd("KHz", "&nbsp;kHz"); // Spelling/case.
+            correctionAdd("Khz", "&nbsp;kHz"); // Spelling/case.
+            correctionAdd("khz", "&nbsp;kHz"); // Spelling/case.
+            correctionAdd("KHZ", "&nbsp;kHz"); // Spelling/case.
+            correctionAdd("kHZ", "&nbsp;kHz");
+
+            correctionAdd("MHz", "&nbsp;MHz"); // Sort of identity mapping
+            correctionAdd("Mhz", "&nbsp;MHz"); // Spelling.
+            correctionAdd("mhz", "&nbsp;MHz"); // Spelling. Could be millihertz
+            correctionAdd("MHZ", "&nbsp;MHz"); // Spelling.
+            correctionAdd("mHz", "&nbsp;MHz"); // Spelling. Could be millihertz
+            correctionAdd("Mz", "&nbsp;MHz");
+            correctionAdd("megahert", "&nbsp;MHz");
+            correctionAdd("megahertz", "&nbsp;MHz");
+
+            correctionAdd("GHz", "&nbsp;GHz"); // Sort of identity mapping
+            correctionAdd("Ghz", "&nbsp;GHz"); // Spelling.
+            correctionAdd("GHZ", "&nbsp;GHz"); // Spelling.
+            correctionAdd("ghz", "&nbsp;GHz"); // Spelling.
+            correctionAdd("gHz", "&nbsp;GHz"); // Spelling.
+            correctionAdd("gigahert", "&nbsp;GHz");
+            correctionAdd("gigahertz", "&nbsp;GHz");
+
+            correctionAdd("THz", "&nbsp;THz"); // Sort of identity mapping
+            correctionAdd("thz", "&nbsp;THz");
+            correctionAdd("Thz", "&nbsp;THz");
+            correctionAdd("Terahertz", "&nbsp;THz");
+            correctionAdd("terahertz", "&nbsp;THz");
+
+            correctionAdd("5 GHz", "5&nbsp;GHz"); // Sort of identity mapping
+            correctionAdd("5GHz", "5&nbsp;GHz");
+
+            correctionAdd("Micro Bit", "BBC Micro Bit");
+            correctionAdd("micro:bit", "BBC Micro Bit");
+            correctionAdd("BBC micro:bit", "BBC Micro Bit");
+
             correctionAdd("guidanance", "guidance");
             correctionAdd("guidence", "guidance");
             correctionAdd("Guidence", "guidance");
@@ -10418,10 +10673,6 @@ namespace OverflowHelper.core
             correctionAdd("Wannabe", "wannabe");
 
             correctionAdd("black magic probe", "Black Magic Probe");
-
-            correctionAdd("utf-16be", "UTF-16BE");
-
-            correctionAdd("utf-16le", "UTF-16LE");
 
             correctionAdd("tech", "technology");
             correctionAdd("tecnology", "technology");
@@ -14335,18 +14586,6 @@ namespace OverflowHelper.core
             correctionAdd("intarnetz", "Internet");
             correctionAdd("interment", "Internet");
 
-            correctionAdd("utf-8", "UTF-8");
-            correctionAdd("utf8", "UTF-8");
-            correctionAdd("UTF8", "UTF-8");
-            correctionAdd("Utf-8", "UTF-8");
-            correctionAdd("Utf8", "UTF-8");
-            correctionAdd("UTF 8", "UTF-8");
-            correctionAdd("utf 8", "UTF-8");
-
-            correctionAdd("utf-16", "UTF-16");
-            correctionAdd("UTF16", "UTF-16");
-            correctionAdd("utf16", "UTF-16");
-
             correctionAdd("couchdb", "CouchDB");
             correctionAdd("Couchdb", "CouchDB");
             correctionAdd("CouchDb", "CouchDB");
@@ -14796,9 +15035,30 @@ namespace OverflowHelper.core
             correctionAdd("Qmake", "qmake");
             correctionAdd("QMake", "qmake");
 
+            // A build system for C++, etc.
             correctionAdd("Cmake", "CMake");
             correctionAdd("cmake", "CMake");
             correctionAdd("CMAKE", "CMake");
+
+            // CMake
+            correctionAdd("cmakelist", "CMakeLists.txt");
+            correctionAdd("CMakeLists", "CMakeLists.txt");
+            correctionAdd("cmakelists.txt", "CMakeLists.txt");
+            correctionAdd("cmakelists", "CMakeLists.txt");
+            correctionAdd("CMakeList", "CMakeLists.txt");
+            correctionAdd("CMakeList.txt", "CMakeLists.txt");
+            correctionAdd("CMakelists.txt", "CMakeLists.txt");
+
+            // CMake
+            correctionAdd("CmakeCache.txt", "CMakeCache.txt");
+
+            // CMake
+            correctionAdd("cflags", "CFLAGS");
+
+            // CMake
+            correctionAdd("CXX", "CXXFLAGS");
+            correctionAdd("CXX flags", "CXXFLAGS");
+            correctionAdd("cxxflags", "CXXFLAGS");
 
             correctionAdd("gnu", "GNU");
             correctionAdd("Gnu", "GNU");
@@ -16893,10 +17153,14 @@ namespace OverflowHelper.core
             correctionAdd("iso-8859-2", "ISO&nbsp;8859-1");
             correctionAdd("8801", "ISO&nbsp;8859-1");
             correctionAdd("ISO/IEC 8859-1", "ISO&nbsp;8859-1");
+            correctionAdd("ISO-8859-n", "ISO&nbsp;8859-1");
 
             correctionAdd("Latin2", "ISO&nbsp;8859-2");
             correctionAdd("ISO 8859-2", "ISO&nbsp;8859-2"); // Sort of identity mapping
             correctionAdd("Latin-2", "ISO&nbsp;8859-2");
+
+            correctionAdd("iso-8859-15", "ISO&nbsp;8859-15");
+            correctionAdd("ISO 8859-15", "ISO&nbsp;8859-15"); // Sort of identity mapping
 
             correctionAdd("ietf", "IETF");
 
@@ -17713,16 +17977,7 @@ namespace OverflowHelper.core
             correctionAdd("prs", "pull request");
             correctionAdd("PRs", "pull request");
             correctionAdd("pull-request", "pull request");
-
-            correctionAdd("requst", "request");
-            correctionAdd("resquest", "request");
-            correctionAdd("Request", "request");
-            correctionAdd("reqest", "request");
-            correctionAdd("reguest", "request");
-            correctionAdd("reques", "request");
-            correctionAdd("Reqest", "request");
-            correctionAdd("req", "request");
-            correctionAdd("requet", "request");
+            correctionAdd("Pull request", "pull request");
 
             // Though the corresponding tag does not exist
             // on Stack Overflow, only for "Azure"...
@@ -18684,133 +18939,6 @@ namespace OverflowHelper.core
             correctionAdd("tight knit", "tight-knit");
 
             correctionAdd("Maggot", "Magit");
-
-            correctionAdd("Micro Bit", "BBC Micro Bit");
-            correctionAdd("micro:bit", "BBC Micro Bit");
-            correctionAdd("BBC micro:bit", "BBC Micro Bit");
-
-            correctionAdd("bt", "bit");
-            correctionAdd("Bit", "bit");
-            correctionAdd("bti", "bit");
-
-            correctionAdd("Megabit", "megabit");
-            correctionAdd("Megabits", "megabit");
-
-            correctionAdd("btis", "bits");
-
-            correctionAdd("bit rate", "bitrate");
-            correctionAdd("Bitrate", "bitrate");
-
-            correctionAdd("bit/s", "&nbsp;bit/s"); // Sort of identity mapping
-            correctionAdd("bps", "&nbsp;bit/s"); // Different unit.
-            correctionAdd("bits/s", "&nbsp;bit/s");
-            correctionAdd("Bits / s", "&nbsp;bit/s");
-            correctionAdd("bits / s", "&nbsp;bit/s");
-            correctionAdd("b/s", "&nbsp;bit/s");
-
-            correctionAdd("kbit/s", "&nbsp;kbit/s"); // Sort of identity mapping
-            correctionAdd("kbps", "&nbsp;kbit/s"); // Different unit.
-            correctionAdd("Kbps", "&nbsp;kbit/s"); // Different unit.
-            correctionAdd("kBits/s", "&nbsp;kbit/s");
-            correctionAdd("kbits/s", "&nbsp;kbit/s");
-            correctionAdd("Kb/sec", "&nbsp;kbit/s");
-            correctionAdd("kBit/s", "&nbsp;kbit/s");
-            correctionAdd("KBPS", "&nbsp;kbit/s");
-            correctionAdd("Kbit / s", "&nbsp;kbit/s");
-            correctionAdd("kbit / s", "&nbsp;kbit/s");
-            correctionAdd("KBits / s", "&nbsp;kbit/s");
-            correctionAdd("KBits/s", "&nbsp;kbit/s");
-
-            correctionAdd("Mbit/s", "&nbsp;Mbit/s"); // Sort of identity mapping
-            correctionAdd("mbps", "&nbsp;Mbit/s"); // Different unit.
-            correctionAdd("Mbps", "&nbsp;Mbit/s"); // Different unit.
-            correctionAdd("MBps", "&nbsp;Mbit/s"); // Different unit.
-            correctionAdd("mbs", "&nbsp;Mbit/s"); // Misspelling
-            correctionAdd("MBit/s", "&nbsp;Mbit/s"); // Case
-            correctionAdd("mbit", "&nbsp;Mbit/s"); // Misspelling
-            correctionAdd("mbit/s", "&nbsp;Mbit/s");
-            correctionAdd("MBit", "&nbsp;Mbit/s");
-            correctionAdd("Mbit", "&nbsp;Mbit/s");
-            correctionAdd("megabit/s", "&nbsp;Mbit/s");
-            correctionAdd("Mbs", "&nbsp;Mbit/s");
-            correctionAdd("Megabits/s", "&nbsp;Mbit/s");
-            correctionAdd("Megabit/s", "&nbsp;Mbit/s");
-
-            correctionAdd("Gbit/s", "&nbsp;Gbit/s"); // Sort of identity mapping
-            correctionAdd("gbps", "&nbsp;Gbit/s"); // Different unit.
-            correctionAdd("gbit", "&nbsp;Gbit/s");
-            correctionAdd("Gbit", "&nbsp;Gbit/s");
-            correctionAdd("Gbps", "&nbsp;Gbit/s");
-            correctionAdd("Gpbs", "&nbsp;Gbit/s"); // Real typo
-            correctionAdd("gb/s", "&nbsp;Gbit/s");
-            correctionAdd("gbit/s", "&nbsp;Gbit/s");
-            correctionAdd("GBit/s", "&nbsp;Gbit/s");
-            correctionAdd("Gigabits/second", "&nbsp;Gbit/s");
-            correctionAdd("Gigabits/s", "&nbsp;Gbit/s");
-            correctionAdd("gigabits/s", "&nbsp;Gbit/s");
-            correctionAdd("gigabit/s", "&nbsp;Gbit/s");
-            correctionAdd("gigabit per second", "&nbsp;Gbit/s");
-
-            correctionAdd("BaudRate", "baud rate");
-            correctionAdd("baudRate", "baud rate");
-            correctionAdd("baudrate", "baud rate");
-            correctionAdd("Baud rate", "baud rate");
-            correctionAdd("BAUD rate", "baud rate");
-            correctionAdd("baud speed", "baud rate");
-
-            correctionAdd("Baud", "baud");
-
-            correctionAdd("mega baud", "megabaud");
-
-            correctionAdd("9,600", "9,600 baud");
-            correctionAdd("9600", "9,600 baud");
-
-            correctionAdd("14,400", "14,400 baud");
-            correctionAdd("14400", "14,400 baud");
-
-            correctionAdd("115,200", "115,200 baud");
-            correctionAdd("115200", "115,200 baud");
-
-            correctionAdd("19,200", "19,200 baud");
-            correctionAdd("19200", "19,200 baud");
-
-            correctionAdd("Hz", "&nbsp;Hz"); // Sort of identity mapping
-            correctionAdd("hz", "&nbsp;Hz"); // Spelling.
-            correctionAdd("Hertz", "&nbsp;Hz");
-            correctionAdd("HZ", "&nbsp;Hz");
-
-            correctionAdd("kHz", "&nbsp;kHz"); // Sort of identity mapping
-            correctionAdd("KHz", "&nbsp;kHz"); // Spelling/case.
-            correctionAdd("Khz", "&nbsp;kHz"); // Spelling/case.
-            correctionAdd("khz", "&nbsp;kHz"); // Spelling/case.
-            correctionAdd("KHZ", "&nbsp;kHz"); // Spelling/case.
-            correctionAdd("kHZ", "&nbsp;kHz");
-
-            correctionAdd("MHz", "&nbsp;MHz"); // Sort of identity mapping
-            correctionAdd("Mhz", "&nbsp;MHz"); // Spelling.
-            correctionAdd("mhz", "&nbsp;MHz"); // Spelling. Could be millihertz
-            correctionAdd("MHZ", "&nbsp;MHz"); // Spelling.
-            correctionAdd("mHz", "&nbsp;MHz"); // Spelling. Could be millihertz
-            correctionAdd("Mz", "&nbsp;MHz");
-            correctionAdd("megahert", "&nbsp;MHz");
-            correctionAdd("megahertz", "&nbsp;MHz");
-
-            correctionAdd("GHz", "&nbsp;GHz"); // Sort of identity mapping
-            correctionAdd("Ghz", "&nbsp;GHz"); // Spelling.
-            correctionAdd("GHZ", "&nbsp;GHz"); // Spelling.
-            correctionAdd("ghz", "&nbsp;GHz"); // Spelling.
-            correctionAdd("gHz", "&nbsp;GHz"); // Spelling.
-            correctionAdd("gigahert", "&nbsp;GHz");
-            correctionAdd("gigahertz", "&nbsp;GHz");
-
-            correctionAdd("THz", "&nbsp;THz"); // Sort of identity mapping
-            correctionAdd("thz", "&nbsp;THz");
-            correctionAdd("Thz", "&nbsp;THz");
-            correctionAdd("Terahertz", "&nbsp;THz");
-            correctionAdd("terahertz", "&nbsp;THz");
-
-            correctionAdd("5 GHz", "5&nbsp;GHz"); // Sort of identity mapping
-            correctionAdd("5GHz", "5&nbsp;GHz");
 
             correctionAdd("habbit", "habit");
 
@@ -19926,6 +20054,8 @@ namespace OverflowHelper.core
             correctionAdd("unfortunetally", "unfortunately");
             correctionAdd("unfortunateily", "unfortunately");
             correctionAdd("unfortunatily", "unfortunately");
+            correctionAdd("Unforutnately", "unfortunately");
+            correctionAdd("unforutnately", "unfortunately");
 
             correctionAdd("fortunatly", "fortunately");
 
@@ -20681,12 +20811,22 @@ namespace OverflowHelper.core
 
             correctionAdd("armv8", "ARMv8");
 
+            // A type of ARM processor
+            correctionAdd("Cavium ThunderX", "ThunderX (Cavium)");
+            correctionAdd("ThunderX", "ThunderX (Cavium)");
+            correctionAdd("Cavium", "ThunderX (Cavium)");
+            correctionAdd("Thunder X", "ThunderX (Cavium)");
+            correctionAdd("Cavium Thunder X", "ThunderX (Cavium)");
+
             // An ARM microcontroller development board. Based on the STM32F415.
             //
             // Alternative URL: <https://1bitsquared.com/products/1bitsy>
             //
             correctionAdd("1bitsy", "1Bitsy");
             correctionAdd("1BitSy", "1Bitsy");
+
+            // A hardware connector (mostly Apple)
+            correctionAdd("thunderbolt", "Thunderbolt");
 
             correctionAdd("Payment Processor", "payment processor");
 
@@ -22845,6 +22985,9 @@ namespace OverflowHelper.core
             correctionAdd("rss", "RSS");
             correctionAdd("Rss", "RSS");
 
+            // An RSS reader
+            correctionAdd("quiterss", "QuiteRSS");
+
             correctionAdd("combo", "combination"); // "combo" is slang - <https://en.wiktionary.orgz/wiki/combo#Noun>.
             correctionAdd("comb", "combination");
             correctionAdd("Combo", "combination");
@@ -23333,6 +23476,8 @@ namespace OverflowHelper.core
             correctionAdd("generated AU", "generative AI");
             correctionAdd("genAI", "generative AI");
             correctionAdd("generative \"AI\"", "generative AI");
+            correctionAdd("Gen AI", "generative AI");
+            correctionAdd("gen AI", "generative AI");
 
             correctionAdd("autoai", "AutoAI");
 
@@ -25010,15 +25155,6 @@ namespace OverflowHelper.core
             correctionAdd("beginener", "beginner");
             correctionAdd("Begginer", "beginner");
 
-            correctionAdd("bom", "BOM");
-            correctionAdd("byte order mark", "BOM");
-            correctionAdd("Byte Order Mark", "BOM");
-            correctionAdd("B.O.M", "BOM");
-            correctionAdd("Byte order mark", "BOM");
-            correctionAdd("Byte-Order Mark", "BOM");
-            correctionAdd("byte-order mark", "BOM");
-            correctionAdd("Byte Order Marker", "BOM");
-
             correctionAdd("ffmpeg", "FFmpeg");
             correctionAdd("FFMPEG", "FFmpeg");
             correctionAdd("Ffmpeg", "FFmpeg");
@@ -25152,18 +25288,6 @@ namespace OverflowHelper.core
             correctionAdd("launchpad", "Launchpad");
             correctionAdd("LaunchPad", "Launchpad");
 
-            correctionAdd("thunderbird", "Thunderbird");
-            correctionAdd("thunterbird", "Thunderbird");
-            correctionAdd("ThunderBird", "Thunderbird");
-            correctionAdd("Tbird", "Thunderbird");
-            correctionAdd("tbird", "Thunderbird");
-            correctionAdd("T Bird", "Thunderbird");
-            correctionAdd("T-Bird", "Thunderbird");
-            correctionAdd("TB", "Thunderbird"); // Will conflict in many other contexts! E.g., "terrabyte"
-            correctionAdd("Thunderbir", "Thunderbird");
-            correctionAdd("TBird", "Thunderbird");
-            correctionAdd("thundetbird", "Thunderbird");
-
             correctionAdd("Bit-locker", "BitLocker");
             correctionAdd("bitlocker", "BitLocker");
             correctionAdd("Bitlocker", "BitLocker");
@@ -25198,40 +25322,6 @@ namespace OverflowHelper.core
             correctionAdd("inhereted", "inherited");
 
             correctionAdd("inherites", "inherits");
-
-            correctionAdd("mb", "&nbsp;MB"); // Assuming bytes, not bits...
-            correctionAdd("MB", "&nbsp;MB"); // Assuming bytes, not bits...
-            correctionAdd("mega byte", "&nbsp;MB");
-            correctionAdd("megabyte", "&nbsp;MB");
-            correctionAdd("Mega byte", "&nbsp;MB");
-            correctionAdd("MBytes", "&nbsp;MB");
-            correctionAdd("Mbyte", "&nbsp;MB");
-            correctionAdd("meg", "&nbsp;MB");
-            correctionAdd("megs", "&nbsp;MB");
-            correctionAdd("Mb", "&nbsp;MB");
-            correctionAdd("Megabyte", "&nbsp;MB");
-            correctionAdd("Megabytes", "&nbsp;MB");
-
-            correctionAdd("gb", "&nbsp;GB"); // Assuming bytes, not bits...
-            correctionAdd("GByte", "&nbsp;GB");
-            correctionAdd("GB", "&nbsp;GB"); // For convenience
-            correctionAdd("gigabyte", "&nbsp;GB"); // Shrinking...
-            correctionAdd("Giga Byte", "&nbsp;GB");
-            correctionAdd("Giga byte", "&nbsp;GB");
-            correctionAdd("giga byte", "&nbsp;GB");
-            correctionAdd("gigs", "&nbsp;GB");
-            correctionAdd("gig", "&nbsp;GB");
-            correctionAdd("Gig", "&nbsp;GB");
-            correctionAdd("Gb", "&nbsp;GB");
-            correctionAdd("Gigabyte", "&nbsp;GB");
-            correctionAdd("Gigabytes", "&nbsp;GB");
-            correctionAdd("gigabytes", "&nbsp;GB");
-
-            correctionAdd("kb", "&nbsp;KB"); // Assuming bytes, not bits...
-            correctionAdd("KB", "&nbsp;KB"); // Assuming bytes, not bits...
-            correctionAdd("Kbyte", "&nbsp;KB");
-            correctionAdd("Kb", "&nbsp;KB");
-            correctionAdd("KByte", "&nbsp;KB");
 
             correctionAdd("rdbms", "RDBMS");
 
@@ -27362,14 +27452,6 @@ namespace OverflowHelper.core
             correctionAdd("bottem", "bottom");
             correctionAdd("btwn", "bottom");
 
-            correctionAdd("cmakelist", "CMakeLists.txt");
-            correctionAdd("CMakeLists", "CMakeLists.txt");
-            correctionAdd("cmakelists.txt", "CMakeLists.txt");
-            correctionAdd("cmakelists", "CMakeLists.txt");
-            correctionAdd("CMakeList", "CMakeLists.txt");
-            correctionAdd("CMakeList.txt", "CMakeLists.txt");
-            correctionAdd("CMakelists.txt", "CMakeLists.txt");
-
             correctionAdd("fpu", "FPU");
 
             correctionAdd("Kdiff3", "KDiff3");
@@ -29494,6 +29576,7 @@ namespace OverflowHelper.core
             correctionAdd("outputing", "outputting");
 
             correctionAdd("offputting", "off-putting");
+            correctionAdd("off putting", "off-putting");
 
             correctionAdd("inputing", "inputting");
 
@@ -29840,6 +29923,7 @@ namespace OverflowHelper.core
             correctionAdd("literary", "literally");
             correctionAdd("Litterally", "literally");
             correctionAdd("litterally", "literally");
+            correctionAdd("litrally", "literally");
 
             correctionAdd("gof", "Design Patterns: Elements of Reusable Object-Oriented Software (GoF book)");
             correctionAdd("Gof", "Design Patterns: Elements of Reusable Object-Oriented Software (GoF book)");
@@ -35064,6 +35148,7 @@ namespace OverflowHelper.core
             correctionAdd("veryfy", "verify");
             correctionAdd("veirfy", "verify");
             correctionAdd("veryfi", "verify");
+            correctionAdd("verrify", "verify");
 
             correctionAdd("Freelancer", "freelancer");
 
@@ -36242,28 +36327,6 @@ namespace OverflowHelper.core
 
             correctionAdd("deam", "deem");
 
-            correctionAdd("code Page", "code page");
-            correctionAdd("codepage", "code page");
-
-            correctionAdd("CP 437", "Code page 437");
-
-            correctionAdd("cp 850", "Code page 850");
-            correctionAdd("CP-850", "Code page 850");
-            correctionAdd("CP 850", "Code page 850");
-
-            // Character encoding for simplified Chinese. Code page.
-            correctionAdd("CP-936", "Code page 936");
-            correctionAdd("CP936", "Code page 936");
-
-            // Character set used for simplified Chinese characters. GBK
-            correctionAdd("GB 2312", "GB&nbsp;2312");
-            correctionAdd("GB2312", "GB&nbsp;2312");
-            correctionAdd("GB encoding", "GB&nbsp;2312");
-            correctionAdd("Simplified Chinese", "GB&nbsp;2312");
-
-            // An extension of GB 2312 (simplified Chinese characters)
-            correctionAdd("gbk", "GBK");
-
             correctionAdd("actaul", "actual");
 
             correctionAdd("collage", "college");
@@ -36376,6 +36439,7 @@ namespace OverflowHelper.core
             correctionAdd("Lo-Dash", "Lodash");
             correctionAdd("lo-dash", "Lodash");
             correctionAdd("Lodash.js", "Lodash");
+            correctionAdd("loDash", "Lodash");
 
             correctionAdd("hymen", "human");
             correctionAdd("Human", "human");
@@ -37056,6 +37120,7 @@ namespace OverflowHelper.core
             correctionAdd("yopu", "you");
             correctionAdd("yu", "you");
             correctionAdd("yiu", "you");
+            correctionAdd("Ypu", "you");
 
             correctionAdd("Zinc", "zinc");
             correctionAdd("Zn", "zinc");
@@ -38684,14 +38749,6 @@ namespace OverflowHelper.core
 
             correctionAdd("preparinng", "preparing");
 
-            correctionAdd("tb", "&nbsp;TB");
-            correctionAdd("Tb", "&nbsp;TB"); // Conflicts with Thunderbird
-            correctionAdd("terrabyte", "&nbsp;TB");
-            correctionAdd("terra byte", "&nbsp;TB");
-            correctionAdd("tera byte", "&nbsp;TB");
-            correctionAdd("terabyte", "&nbsp;TB");
-            correctionAdd("Terabyte", "&nbsp;TB");
-
             correctionAdd("ops", "operations");
 
             correctionAdd("recon", "reconnaissance");
@@ -40093,10 +40150,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Micheal Jackson", "Michael Jackson");
 
-            correctionAdd("UTF32", "UTF-32");
-            correctionAdd("utf-32", "UTF-32");
-            correctionAdd("utf32", "UTF-32");
-
             correctionAdd("contineing", "continuing");
             correctionAdd("continueing", "continuing");
             correctionAdd("Continueing", "continuing");
@@ -40712,18 +40765,19 @@ namespace OverflowHelper.core
 
             correctionAdd("enlightn", "enlighten");
 
-            correctionAdd("on porpouse", "on purpose");
-            correctionAdd("by purpose", "on purpose");
-
-            correctionAdd("general purpose", "general-purpose");
-            correctionAdd("generall purpose", "general-purpose");
-
             correctionAdd("porpouse", "purpose");
             correctionAdd("porpuse", "purpose");
             correctionAdd("putpose", "purpose");
             correctionAdd("purpuse", "purpose");
             correctionAdd("pourpose", "purpose");
             correctionAdd("purpouse", "purpose");
+            correctionAdd("purposone", "purpose");
+
+            correctionAdd("on porpouse", "on purpose");
+            correctionAdd("by purpose", "on purpose");
+
+            correctionAdd("general purpose", "general-purpose");
+            correctionAdd("generall purpose", "general-purpose");
 
             correctionAdd("hell bent", "hell-bent");
 
@@ -40835,6 +40889,7 @@ namespace OverflowHelper.core
             correctionAdd("inlcuding", "including");
             correctionAdd("incluiding", "including");
             correctionAdd("inluciding", "including");
+            correctionAdd("incluing", "including");
 
             correctionAdd("lauched", "launched");
             correctionAdd("lunched", "launched");
@@ -42254,6 +42309,9 @@ namespace OverflowHelper.core
             correctionAdd("lacs", "lakh");
             correctionAdd("lac", "lakh");
             correctionAdd("hundreds of thousands", "lakh");
+            correctionAdd("lahk", "lakh");
+            correctionAdd("lahks", "lakh");
+            correctionAdd("laks", "lakh");
 
             correctionAdd("re-evaluate", "reevaluate");
 
@@ -44285,6 +44343,7 @@ namespace OverflowHelper.core
             correctionAdd("cocaopods", "CocoaPods");
             correctionAdd("cocoa pod", "CocoaPods");
             correctionAdd("cocoapod", "CocoaPods");
+            correctionAdd("CocoaPod", "CocoaPods");
 
             correctionAdd("msp", "MSP");
 
@@ -44538,8 +44597,6 @@ namespace OverflowHelper.core
             correctionAdd("Tandem computers", "Tandem Computers");
 
             correctionAdd("XNS", "Xerox Network Systems");
-
-            correctionAdd("Byte", "byte");
 
             correctionAdd("equaling", "equalling");
 
@@ -46791,8 +46848,6 @@ namespace OverflowHelper.core
 
             correctionAdd("hundreth", "hundredth");
 
-            correctionAdd("multi-byte", "multibyte");
-
             correctionAdd("priortise", "prioritise");
             correctionAdd("Pritoize", "prioritise");
             correctionAdd("prioritize", "prioritise");
@@ -46982,8 +47037,6 @@ namespace OverflowHelper.core
 
             correctionAdd("merriam-webster", "Merriam-Webster");
             correctionAdd("merrian-webster", "Merriam-Webster");
-
-            correctionAdd("UTF7", "UTF-7");
 
             correctionAdd("aspect-ratio", "aspect ratio");
 
@@ -47380,9 +47433,6 @@ namespace OverflowHelper.core
             correctionAdd("HST", "Hubble Space Telescope");
             correctionAdd("Hubble", "Hubble Space Telescope");
 
-            correctionAdd("iso-8859-15", "ISO&nbsp;8859-15");
-            correctionAdd("ISO 8859-15", "ISO&nbsp;8859-15"); // Sort of identity mapping
-
             correctionAdd("Publisher", "Microsoft Publisher");
 
             correctionAdd("Symfony 4", "Symfony&nbsp;4");
@@ -47546,8 +47596,6 @@ namespace OverflowHelper.core
             correctionAdd("Salesforce apex", "Apex");
 
             correctionAdd("bulgarian", "Bulgarian");
-
-            correctionAdd("utf", "UTF");
 
             correctionAdd("idialised", "idealised");
 
@@ -48164,8 +48212,6 @@ namespace OverflowHelper.core
 
             correctionAdd("vuex", "Vuex");
 
-            correctionAdd("byte string", "bytestring");
-
             correctionAdd("Count", "count");
 
             correctionAdd("deserializing", "deserialising");
@@ -48708,8 +48754,6 @@ namespace OverflowHelper.core
             correctionAdd("BURP", "Burp Suite");
 
             correctionAdd("IBus", "Intelligent Input Bus");
-
-            correctionAdd("requests", "Requests");
 
             correctionAdd("S/G", "Staging Ground");
             correctionAdd("SG", "Staging Ground");
@@ -50309,8 +50353,6 @@ namespace OverflowHelper.core
             correctionAdd("temper", "tamper");
 
             correctionAdd("Tree", "tree");
-
-            correctionAdd("CmakeCache.txt", "CMakeCache.txt");
 
             correctionAdd("gravity forms", "Gravity Forms");
 
@@ -53487,19 +53529,39 @@ namespace OverflowHelper.core
             correctionAdd("boogie woogie", "boogie-woogie");
             correctionAdd("Boogie Woogie", "boogie-woogie");
 
+            // Sort of cloud. A web-based platform for working with Spark
             correctionAdd("databricks", "Databricks");
 
+            // Linux
             correctionAdd("HEXDUMP", "hexdump");
 
             correctionAdd("Journal Club", "journal club");
 
             correctionAdd("on-looker", "onlooker");
 
+            // A scientific journal
             correctionAdd("PRL", "Physical Review Letters");
 
-            correctionAdd("quiterss", "QuiteRSS");
-
+            // A web site
             correctionAdd("Scirate", "SciRate");
+
+            correctionAdd("Catastrophic", "catastrophic");
+
+            correctionAdd("conserted", "concerted");
+
+            correctionAdd("kiwibrowser", "Kiwi Browser");
+
+            correctionAdd("leveldb", "LevelDB");
+
+            correctionAdd("maximizing", "maximising");
+
+            correctionAdd("network-wide", "networkwide");
+
+            correctionAdd("one hit wonder", "one-hit wonder");
+
+            correctionAdd("reevaluation", "re-evaluation");
+
+            correctionAdd("inergonomic", "unergonomic");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -82832,6 +82894,30 @@ namespace OverflowHelper.core
 
             URL_Add("SciRate", "https://scirate.com/about");
 
+            URL_Add("CFLAGS", "https://cmake.org/cmake/help/latest/envvar/CFLAGS.html");
+
+            URL_Add("CXXFLAGS", "https://cmake.org/cmake/help/latest/envvar/CXXFLAGS.html");
+
+            URL_Add("requested", "https://en.wiktionary.org/wiki/request#Verb");
+
+            URL_Add("catastrophic", "https://en.wiktionary.org/wiki/catastrophic#Adjective");
+
+            URL_Add("concerted", "https://en.wiktionary.org/wiki/concert#Verb");
+
+            URL_Add("Kiwi Browser", "https://kiwibrowser.com/about/");
+
+            URL_Add("LevelDB", "https://en.wikipedia.org/wiki/LevelDB");
+
+            URL_Add("maximising", "https://en.wiktionary.org/wiki/maximise#Verb");
+
+            URL_Add("networkwide", "https://en.wiktionary.org/wiki/networkwide#Adjective");
+
+            URL_Add("one-hit wonder", "https://en.wiktionary.org/wiki/one-hit_wonder#Noun");
+
+            URL_Add("re-evaluation", "https://en.wiktionary.org/wiki/re-evaluation#Noun");
+
+            URL_Add("unergonomic", "https://en.wiktionary.org/wiki/unergonomic#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -82988,6 +83074,7 @@ namespace OverflowHelper.core
             correctionAdd("tex_", "text_");
 
             correctionAdd("tieing_", "tying_");
+            correctionAdd("tyeing_", "tying_");
 
             correctionAdd("cd_", "CD_");
 
@@ -84894,6 +84981,10 @@ namespace OverflowHelper.core
             // a Tunisian.
             //
             // See also: <https://meta.stackoverflow.com/questions/422798/are-edits-that-only-remove-excessive-indentation-from-lazy-copy-pastes-an-improv#comment944208_422798>
+            //
+            // Note: It is here because of a conflict in the main word
+            //       set (and uses the exact same URL)
+            //
             correctionAdd("next_", "following_");
             correctionAdd("the next_", "following_");
 
@@ -85175,6 +85266,7 @@ namespace OverflowHelper.core
             correctionAdd("Edit_", "Edit: or Update: (bad practice on Stack Overflow)_");
             correctionAdd("Upd_", "Edit: or Update: (bad practice on Stack Overflow)_");
             correctionAdd("edit_", "Edit: or Update: (bad practice on Stack Overflow)_");
+            correctionAdd("historical_", "Edit: or Update: (bad practice on Stack Overflow)_");
 
             correctionAdd("establish_", "established_");
 
