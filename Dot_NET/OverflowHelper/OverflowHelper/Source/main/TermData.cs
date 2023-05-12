@@ -2792,8 +2792,6 @@ namespace OverflowHelper.core
             correctionAdd("CET", "Central European Time");
             correctionAdd("cet", "Central European Time");
 
-            correctionAdd("Minkowski spacetime", "Minkowski space");
-
             correctionAdd("Jit", "JIT");
             correctionAdd("jit", "JIT");
             correctionAdd("Just-In-Time", "JIT");
@@ -3122,6 +3120,8 @@ namespace OverflowHelper.core
 
             correctionAdd("itanium", "Itanium");
 
+            correctionAdd("Minkowski spacetime", "Minkowski space");
+
             correctionAdd("min", "minimum");
             correctionAdd("minmal", "minimum");
             correctionAdd("minium", "minimum");
@@ -3134,6 +3134,17 @@ namespace OverflowHelper.core
             correctionAdd("minim", "minimum");
             correctionAdd("minum", "minimum");
 
+            correctionAdd("min heap", "binary min heap");
+            correctionAdd("binary heap", "binary min heap");
+            correctionAdd("minheap", "binary min heap");
+            correctionAdd("min-heap", "binary min heap");
+
+            correctionAdd("MaxHeap", "binary max heap");
+            correctionAdd("max Heap", "binary max heap");
+            correctionAdd("max heap", "binary max heap");
+            correctionAdd("max-heap", "binary max heap");
+            correctionAdd("maxHeap", "binary max heap");
+
             correctionAdd("max", "maximum");
             correctionAdd("maxium", "maximum");
             correctionAdd("Max", "maximum");
@@ -3143,6 +3154,21 @@ namespace OverflowHelper.core
             correctionAdd("maximam", "maximum");
             correctionAdd("maximun", "maximum");
             correctionAdd("Maximun", "maximum");
+
+            correctionAdd("maximizing", "maximising");
+
+            correctionAdd("map", "maximum a posteriori estimation");
+            correctionAdd("MAP", "maximum a posteriori estimation");
+
+            correctionAdd("mle", "maximum likelihood estimation");
+            correctionAdd("MLE", "maximum likelihood estimation");
+            correctionAdd("Maximum Likelihood Estimation", "maximum likelihood estimation");
+
+            correctionAdd("MTOW", "maximum takeoff weight");
+
+            correctionAdd("Maxwell's Demon", "Maxwell's demon");
+
+            correctionAdd("maximum transmission unit", "MTU");
 
             correctionAdd("Beligum", "Belgium");
             correctionAdd("beligum", "Belgium");
@@ -6571,6 +6597,7 @@ namespace OverflowHelper.core
 
             correctionAdd("War Games", "WarGames");
             correctionAdd("war games", "WarGames");
+            correctionAdd("WARGAMES", "WarGames");
 
             correctionAdd("bowser", "Bowser"); // Related to a computer game
 
@@ -9556,6 +9583,7 @@ namespace OverflowHelper.core
             correctionAdd("phiolosopjy", "philosophy");
             correctionAdd("phiolosophy", "philosophy");
             correctionAdd("Philosophy", "philosophy");
+            correctionAdd("phylosophy", "philosophy");
 
             correctionAdd("Natural Philosopy", "natural philosophy");
 
@@ -15406,6 +15434,7 @@ namespace OverflowHelper.core
             correctionAdd("Software Engineering", "software engineering");
             correctionAdd("softwareengineering", "software engineering");
             correctionAdd("Software engineering", "software engineering");
+            correctionAdd("soft eng", "software engineering");
 
             // A software development methodology
             correctionAdd("Agile", "agile");
@@ -17889,6 +17918,8 @@ namespace OverflowHelper.core
             correctionAdd("downvot", "downvote");
             correctionAdd("dowmvote", "downvote");
             correctionAdd("Down vote", "downvote");
+            correctionAdd("Dwn vote", "downvote");
+            correctionAdd("dwn vote", "downvote");
 
             correctionAdd("dved", "downvoted");
             correctionAdd("donwvoted", "downvoted");
@@ -19192,6 +19223,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Arduino ide", "Arduino IDE");
             correctionAdd("arduino ide", "Arduino IDE");
+            correctionAdd("arduino IDE", "Arduino IDE");
+            correctionAdd("arduinoIDE", "Arduino IDE");
 
             correctionAdd("Pro Mini", "Arduino Pro Mini");
             correctionAdd("ProMini", "Arduino Pro Mini");
@@ -19683,6 +19716,26 @@ namespace OverflowHelper.core
             correctionAdd("Firefox quatum", "Firefox Quantum");
             correctionAdd("Firefox quantum", "Firefox Quantum");
             correctionAdd("Firefox Quatum", "Firefox Quantum");
+            correctionAdd("firefox quantum", "Firefox Quantum");
+
+            // Largely replaced by Firefox Quantum (which
+            // broke many extensions), but it is still
+            // provide. Wikipedia no longer explains
+            // "ESR"; it is for "extended support release".
+            //
+            correctionAdd("firefox esr", "Firefox ESR");
+            correctionAdd("Firefox esr", "Firefox ESR");
+            correctionAdd("Firefox-ESR", "Firefox ESR");
+
+            // A suite of programs that used to include the chat
+            // client ChatZilla, e.g. for IRC (but no longer,
+            // despite what the documentation may say).
+            //
+            // Alternative URL: <https://pvm-professionalengineering.blogspot.com/2018/04/using-chatzilla-in-age-of-firefox.html>
+            correctionAdd("Seamonkey", "SeaMonkey");
+
+            // A chat client, e.g., for IRC
+            correctionAdd("Chatzilla", "ChatZilla");
 
             // A web browser
             correctionAdd("netscape", "Netscape");
@@ -21058,6 +21111,8 @@ namespace OverflowHelper.core
             correctionAdd("full stack developer", "full-stack developer");
             correctionAdd("full stack web developer", "full-stack developer");
             correctionAdd("fullstack developer", "full-stack developer");
+            correctionAdd("dev fullstack", "full-stack developer");
+            correctionAdd("developer fullstack", "full-stack developer");
 
             correctionAdd("web-developer", "web developer");
 
@@ -21079,30 +21134,6 @@ namespace OverflowHelper.core
             correctionAdd("rubberducking", "rubber duck debugging");
             correctionAdd("rubber duck", "rubber duck debugging");
 
-            correctionAdd("Engineer", "engineer");
-            correctionAdd("enginner", "engineer");
-            correctionAdd("enginneer", "engineer");
-            correctionAdd("enginineer", "engineer");
-            correctionAdd("engie", "engineer");
-            correctionAdd("engies", "engineer");
-
-            correctionAdd("Senior Engineer", "senior engineer");
-
-            correctionAdd("Civil Engineer", "civil engineer");
-
-            correctionAdd("reverse engineer", "reverse-engineer");
-
-            correctionAdd("reverse engineered", "reverse-engineered");
-
-            correctionAdd("Data Engineer", "data engineer");
-
-            correctionAdd("Data Engineering", "data engineering");
-
-            correctionAdd("Reverse Engineering", "reverse engineering");
-            correctionAdd("reverse-engineering", "reverse engineering");
-
-            correctionAdd("QE", "quality engineering");
-
             correctionAdd("Engineering", "engineering");
             correctionAdd("engeniring", "engineering");
             correctionAdd("engeneering", "engineering");
@@ -21110,6 +21141,20 @@ namespace OverflowHelper.core
             correctionAdd("Enginnering", "engineering");
             correctionAdd("enginering", "engineering");
             correctionAdd("enginnering", "engineering");
+            correctionAdd("eng", "engineering");
+
+            correctionAdd("reverse engineered", "reverse-engineered");
+
+            correctionAdd("reverse engineer", "reverse-engineer");
+
+            correctionAdd("Reverse Engineering", "reverse engineering");
+            correctionAdd("reverse-engineering", "reverse engineering");
+
+            correctionAdd("NRE", "non-recurring engineering");
+
+            correctionAdd("QE", "quality engineering");
+
+            correctionAdd("Data Engineering", "data engineering");
 
             correctionAdd("Mechanical engineering", "mechanical engineering");
             correctionAdd("Mechanical Engineering", "mechanical engineering");
@@ -21122,7 +21167,18 @@ namespace OverflowHelper.core
 
             correctionAdd("Electrical Engineering", "electrical engineering");
 
-            correctionAdd("NRE", "non-recurring engineering");
+            correctionAdd("Engineer", "engineer");
+            correctionAdd("enginner", "engineer");
+            correctionAdd("enginneer", "engineer");
+            correctionAdd("enginineer", "engineer");
+            correctionAdd("engie", "engineer");
+            correctionAdd("engies", "engineer");
+
+            correctionAdd("Senior Engineer", "senior engineer");
+
+            correctionAdd("Civil Engineer", "civil engineer");
+
+            correctionAdd("Data Engineer", "data engineer");
 
             correctionAdd("occuring", "occurring");
 
@@ -21555,6 +21611,7 @@ namespace OverflowHelper.core
             correctionAdd("certficate", "certificate");
             correctionAdd("Certifiacte", "certificate");
             correctionAdd("certifiacte", "certificate");
+            correctionAdd("certificat", "certificate");
 
             correctionAdd("CA", "certificate authority");
             correctionAdd("Certificate authority", "certificate authority");
@@ -23650,16 +23707,6 @@ namespace OverflowHelper.core
             correctionAdd("Irc", "IRC");
 
             correctionAdd("lircd", "LIRC");
-
-            // A suite of program that used to include the chat
-            // client ChatZilla, e.g. for IRC (but no longer,
-            // despite what the documentation may say).
-            //
-            // Alternative URL: <https://pvm-professionalengineering.blogspot.com/2018/04/using-chatzilla-in-age-of-firefox.html>
-            correctionAdd("Seamonkey", "SeaMonkey");
-
-            // A chat client, e.g., for IRC
-            correctionAdd("Chatzilla", "ChatZilla");
 
             correctionAdd("telnet", "Telnet");
 
@@ -26050,6 +26097,8 @@ namespace OverflowHelper.core
             correctionAdd("buiild.gradle", "build.gradle");
             correctionAdd("BUILD.GRADLE", "build.gradle");
             correctionAdd("gradle.build", "build.gradle");
+            correctionAdd("Build.grandle", "build.gradle");
+            correctionAdd("build.grandle", "build.gradle");
 
             correctionAdd("gradlew", "Gradle Wrapper");
 
@@ -32873,6 +32922,7 @@ namespace OverflowHelper.core
 
             correctionAdd("disadvange", "disadvantage");
             correctionAdd("disavantage", "disadvantage");
+            correctionAdd("disvantage", "disadvantage");
 
             correctionAdd("advantange", "advantage");
             correctionAdd("advanatge", "advantage");
@@ -33849,10 +33899,13 @@ namespace OverflowHelper.core
 
             correctionAdd("tourney", "tournament"); // Chess
 
-            correctionAdd("nakamura", "Hikaru Nakamura"); // Chess
-            correctionAdd("Hikaru", "Hikaru Nakamura"); // Chess
-            correctionAdd("hikaru", "Hikaru Nakamura"); // Chess
-            correctionAdd("Nakamura", "Hikaru Nakamura"); // Chess
+            // Chess
+            correctionAdd("nakamura", "Hikaru Nakamura");
+            correctionAdd("Hikaru", "Hikaru Nakamura");
+            correctionAdd("hikaru", "Hikaru Nakamura");
+            correctionAdd("Nakamura", "Hikaru Nakamura");
+            correctionAdd("GMHikaru", "Hikaru Nakamura");
+            correctionAdd("nakumura", "Hikaru Nakamura");
 
             correctionAdd("Kan", "Kan (Paulsen) Variation"); // Chess
 
@@ -39523,13 +39576,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Ivory tower", "ivory tower");
 
-            correctionAdd("map", "maximum a posteriori estimation");
-            correctionAdd("MAP", "maximum a posteriori estimation");
-
-            correctionAdd("mle", "maximum likelihood estimation");
-            correctionAdd("MLE", "maximum likelihood estimation");
-            correctionAdd("Maximum Likelihood Estimation", "maximum likelihood estimation");
-
             correctionAdd("precesion", "precession");
 
             correctionAdd("prominance", "prominence");
@@ -39582,8 +39628,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ancesstor", "ancestor");
             correctionAdd("anccestor", "ancestor");
-
-            correctionAdd("MTOW", "maximum takeoff weight");
 
             correctionAdd("pre-defined", "predefined");
             correctionAdd("Pre defined", "predefined");
@@ -47799,10 +47843,6 @@ namespace OverflowHelper.core
             correctionAdd("range-based", "rangebased");
             correctionAdd("range based", "rangebased");
 
-            correctionAdd("firefox esr", "Firefox ESR");
-            correctionAdd("Firefox esr", "Firefox ESR");
-            correctionAdd("Firefox-ESR", "Firefox ESR");
-
             correctionAdd("rpm", "RPM");
 
             correctionAdd("alowed", "allowed");
@@ -47810,6 +47850,7 @@ namespace OverflowHelper.core
 
             correctionAdd("no break space", "non-breaking space");
             correctionAdd("non breaking space", "non-breaking space");
+            correctionAdd("Non-breaking space", "non-breaking space");
 
             correctionAdd("mapquest", "MapQuest");
 
@@ -47841,8 +47882,6 @@ namespace OverflowHelper.core
 
             correctionAdd("fastapi", "FastAPI");
             correctionAdd("Fastapi", "FastAPI");
-
-            correctionAdd("Maxwell's Demon", "Maxwell's demon");
 
             correctionAdd("pixar", "Pixar");
 
@@ -50275,8 +50314,6 @@ namespace OverflowHelper.core
             correctionAdd("instrucment", "instrument");
 
             correctionAdd("visious circle", "vicious circle");
-
-            correctionAdd("maximum transmission unit", "MTU");
 
             // Alternative URL: <https://www.youtube.com/watch?v=8PhdfcX9tG0&t=5m10s>
             correctionAdd("flogging a dead-horse", "flogging a dead horse");
@@ -53134,17 +53171,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Bellman-Ford", "Bellman–Ford algorithm");
 
-            correctionAdd("min heap", "binary min heap");
-            correctionAdd("binary heap", "binary min heap");
-            correctionAdd("minheap", "binary min heap");
-            correctionAdd("min-heap", "binary min heap");
-
-            correctionAdd("MaxHeap", "binary max heap");
-            correctionAdd("max Heap", "binary max heap");
-            correctionAdd("max heap", "binary max heap");
-            correctionAdd("max-heap", "binary max heap");
-            correctionAdd("maxHeap", "binary max heap");
-
             // A Python module
             correctionAdd("HEAPQ", "heapq");
 
@@ -53533,6 +53559,10 @@ namespace OverflowHelper.core
             correctionAdd("databricks", "Databricks");
 
             // Linux
+            //
+            // Alternative URL:
+            //   <https://en.wikipedia.org/wiki/Hex_dump#Samples>
+            //
             correctionAdd("HEXDUMP", "hexdump");
 
             correctionAdd("Journal Club", "journal club");
@@ -53551,9 +53581,8 @@ namespace OverflowHelper.core
 
             correctionAdd("kiwibrowser", "Kiwi Browser");
 
+            // On-disk key-value store. Related to Snappy.
             correctionAdd("leveldb", "LevelDB");
-
-            correctionAdd("maximizing", "maximising");
 
             correctionAdd("network-wide", "networkwide");
 
@@ -53562,6 +53591,50 @@ namespace OverflowHelper.core
             correctionAdd("reevaluation", "re-evaluation");
 
             correctionAdd("inergonomic", "unergonomic");
+
+            // Compression algorithm. Competitor: Snappy
+            correctionAdd("LC4", "LZ4");
+
+            // Compression algorithm
+            correctionAdd("snappy", "Snappy");
+
+            // Cryptography
+            correctionAdd("md4", "MD4");
+
+            // Cryptography
+            correctionAdd("Privacy-Enhanced Mail", "PEM");
+            correctionAdd("pem", "PEM");
+
+            // A city
+            correctionAdd("Vuledar", "Vuhledar");
+
+            correctionAdd("boys club", "boys' club");
+
+            correctionAdd("crashs", "crashes");
+
+            correctionAdd("french drain", "French drain");
+
+            correctionAdd("akka", "Akka");
+
+            correctionAdd("distribution of numbers", "Benford's law");
+
+            correctionAdd("chanced", "changed");
+
+            correctionAdd("Chinese room", "Chinese room argument");
+
+            correctionAdd("mill", "Mill");
+
+            correctionAdd("phylosopher", "philosopher");
+
+            correctionAdd("speech to text", "speech-to-text");
+            correctionAdd("STT", "speech-to-text");
+
+            correctionAdd("TTS", "text-to-speech");
+
+            correctionAdd("torah", "Torah");
+
+            correctionAdd("TypeSense", "Typesense");
+            correctionAdd("typesense", "Typesense");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -82918,6 +82991,42 @@ namespace OverflowHelper.core
 
             URL_Add("unergonomic", "https://en.wiktionary.org/wiki/unergonomic#Adjective");
 
+            URL_Add("LZ4", "https://en.wikipedia.org/wiki/LZ4_(compression_algorithm)");
+
+            URL_Add("MD4", "https://en.wikipedia.org/wiki/MD4");
+
+            URL_Add("PEM", "https://en.wikipedia.org/wiki/Privacy-Enhanced_Mail");
+
+            URL_Add("Snappy", "https://en.wikipedia.org/wiki/Snappy_(compression)");
+
+            URL_Add("Vuhledar", "https://en.wikipedia.org/wiki/Battle_of_Vuhledar");
+
+            URL_Add("boys' club", "https://en.wiktionary.org/wiki/boys%27_club#Noun");
+
+            URL_Add("crashes", "https://en.wiktionary.org/wiki/crash#Verb");
+
+            URL_Add("French drain", "https://en.wikipedia.org/wiki/French_drain");
+
+            URL_Add("Akka", "https://en.wikipedia.org/wiki/Akka_(toolkit)");
+
+            URL_Add("Benford's law", "https://en.wikipedia.org/wiki/Benford%27s_law");
+
+            URL_Add("changed", "https://en.wiktionary.org/wiki/change#Verb");
+
+            URL_Add("Chinese room argument", "https://en.wikipedia.org/wiki/Chinese_room");
+
+            URL_Add("Mill", "https://com-lihaoyi.github.io/mill/mill/Intro_to_Mill.html");
+
+            URL_Add("philosopher", "https://en.wiktionary.org/wiki/philosopher#Noun");
+
+            URL_Add("speech-to-text", "https://en.wikipedia.org/wiki/Speech_recognition");
+
+            URL_Add("text-to-speech", "https://en.wikipedia.org/wiki/Text-to-speech");
+
+            URL_Add("Torah", "https://en.wiktionary.org/wiki/Torah#Proper_noun");
+
+            URL_Add("Typesense", "https://github.com/typesense/typesense");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -85289,6 +85398,13 @@ namespace OverflowHelper.core
 
             correctionAdd("WordPress_", "WordPress.com_");
 
+            correctionAdd("md_", "MD_");
+
+            correctionAdd("miss-click_", "misclick_");
+
+            correctionAdd("xd_", "XD_");
+            correctionAdd("xD_", "XD_");
+
             // URL mappings
             //
             //
@@ -86609,6 +86725,12 @@ namespace OverflowHelper.core
             URL_Add("supply chain management_", "https://en.wikipedia.org/wiki/Supply_chain_management");
 
             URL_Add("WordPress.com_", "https://en.wikipedia.org/wiki/WordPress.com");
+
+            URL_Add("MD_", "https://en.wikipedia.org/wiki/MD4");
+
+            URL_Add("misclick_", "https://en.wiktionary.org/wiki/misclick#Noun");
+
+            URL_Add("XD_", "https://en.wiktionary.org/wiki/XD#Symbol");
 
         } //addLookupData_alternativeWordSet()
 
