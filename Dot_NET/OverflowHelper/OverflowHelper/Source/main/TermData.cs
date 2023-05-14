@@ -2724,6 +2724,7 @@ namespace OverflowHelper.core
             correctionAdd("any way", "anyway");
             correctionAdd("Any way", "anyway");
             correctionAdd("aniway", "anyway");
+            correctionAdd("anywasy", "anyway");
 
             correctionAdd("anymore", "any more");
             correctionAdd("animore", "any more");
@@ -3027,6 +3028,22 @@ namespace OverflowHelper.core
             correctionAdd("Timeframe", "time frame");
 
             correctionAdd("At", "at");
+
+            correctionAdd("parelell", "parallel");
+            correctionAdd("paralell", "parallel");
+            correctionAdd("parrallel", "parallel");
+            correctionAdd("Parrellel", "parallel");
+            correctionAdd("parrellel", "parallel");
+            correctionAdd("paralel", "parallel");
+            correctionAdd("parallell", "parallel");
+            correctionAdd("parralel", "parallel");
+            correctionAdd("pareller", "parallel");
+            correctionAdd("paraller", "parallel");
+            correctionAdd("parrelle", "parallel");
+            correctionAdd("parralell", "parallel");
+
+            correctionAdd("paralelly", "parallelly");
+            correctionAdd("parallely", "parallelly");
 
             correctionAdd("Lithium", "lithium");
             correctionAdd("Lithion", "lithium");
@@ -7476,6 +7493,7 @@ namespace OverflowHelper.core
             correctionAdd("Stack snippets", "Stack Snippets");
             correctionAdd("stacksnippets", "Stack Snippets");
             correctionAdd("Code Snippets", "Stack Snippets");
+            correctionAdd("stack snippet", "Stack Snippets");
 
             // Of Stack Overflow.
             correctionAdd("Stack Editor", "Stacks Editor");
@@ -9748,6 +9766,10 @@ namespace OverflowHelper.core
             correctionAdd("f-strings", "f-string");
             correctionAdd("f' string", "f-string");
 
+            correctionAdd("dask", "Dask"); // A Python library
+
+            correctionAdd("flask", "Flask"); // Python. Web.
+
             correctionAdd("requests", "Requests"); // A Python library
 
             correctionAdd("requst", "request");
@@ -10517,19 +10539,6 @@ namespace OverflowHelper.core
             correctionAdd("gnu parallel", "GNU parallel");
             correctionAdd("GNU Parallel", "GNU parallel");
             correctionAdd("Parallel", "GNU parallel");
-
-            correctionAdd("parelell", "parallel");
-            correctionAdd("paralell", "parallel");
-            correctionAdd("parrallel", "parallel");
-            correctionAdd("Parrellel", "parallel");
-            correctionAdd("parrellel", "parallel");
-            correctionAdd("paralel", "parallel");
-            correctionAdd("parallell", "parallel");
-            correctionAdd("parralel", "parallel");
-            correctionAdd("pareller", "parallel");
-            correctionAdd("paraller", "parallel");
-            correctionAdd("parallely", "parallel");
-            correctionAdd("parrelle", "parallel");
 
             correctionAdd("visualgdb", "VisualGDB");
             correctionAdd("visualGDB", "VisualGDB");
@@ -16380,6 +16389,7 @@ namespace OverflowHelper.core
             // Related to mechanical keyboards
             correctionAdd("hot swappable", "hot-swappable");
             correctionAdd("hot-swapple", "hot-swappable");
+            correctionAdd("swapple", "hot-swappable");
 
             // Related to keyboards
             correctionAdd("NKRO", "n-key rollover");
@@ -25279,7 +25289,20 @@ namespace OverflowHelper.core
             correctionAdd("Mine craft", "Minecraft");
             correctionAdd("Minceraft", "Minecraft");
 
-            correctionAdd("flask", "Flask");
+            correctionAdd("aks", "ask");
+            correctionAdd("assk", "ask");
+
+            correctionAdd("re-ask", "reask");
+            correctionAdd("re ask", "reask");
+
+            correctionAdd("tasK", "task");
+
+            correctionAdd("msk", "mask");
+
+            correctionAdd("bit mask", "bitmask");
+            correctionAdd("bit-mask", "bitmask");
+
+            correctionAdd("face mask", "facemask");
 
             correctionAdd("o-scope", "oscilloscope");
             correctionAdd("o'scope", "oscilloscope");
@@ -25703,6 +25726,8 @@ namespace OverflowHelper.core
             correctionAdd("usefsul", "useful");
             correctionAdd("use for", "useful");
             correctionAdd("use-full", "useful");
+            correctionAdd("Usefu", "useful");
+            correctionAdd("usefu", "useful");
 
             correctionAdd("Memoization", "memoization");
 
@@ -30115,6 +30140,7 @@ namespace OverflowHelper.core
             correctionAdd("NOBEL PRIZE", "Nobel Prize");
             correctionAdd("nobel prize", "Nobel Prize");
             correctionAdd("Nobel prize", "Nobel Prize");
+            correctionAdd("novel prize", "Nobel Prize");
 
             correctionAdd("abilites", "abilities");
 
@@ -30938,6 +30964,7 @@ namespace OverflowHelper.core
             correctionAdd("Pr0blam", "problem");
             correctionAdd("pr0blam", "problem");
             correctionAdd("probrems", "problem");
+            correctionAdd("problesm", "problem");
 
             correctionAdd("problemantic", "problematic");
 
@@ -35085,8 +35112,6 @@ namespace OverflowHelper.core
             correctionAdd("Boing", "Boeing");
             correctionAdd("boing", "Boeing");
 
-            correctionAdd("aks", "ask");
-
             correctionAdd("over night", "overnight");
 
             correctionAdd("smoke screen", "smokescreen");
@@ -35760,8 +35785,6 @@ namespace OverflowHelper.core
             correctionAdd("Come-a-Gutsa", "come a gutser");
 
             correctionAdd("exgress", "egress");
-
-            correctionAdd("face mask", "facemask");
 
             correctionAdd("hot spot", "hotspot");
 
@@ -37061,6 +37084,7 @@ namespace OverflowHelper.core
             correctionAdd("our self's", "ourselves");
             correctionAdd("our selfs", "ourselves");
             correctionAdd("our selves", "ourselves");
+            correctionAdd("outselves", "ourselves");
 
             correctionAdd("preperation", "preparation");
 
@@ -37244,9 +37268,6 @@ namespace OverflowHelper.core
             correctionAdd("ov", "of");
 
             correctionAdd("error-proof", "errorproof");
-
-            correctionAdd("re-ask", "reask");
-            correctionAdd("re ask", "reask");
 
             correctionAdd("Codesandbox", "CodeSandbox");
             correctionAdd("codesandbox", "CodeSandbox");
@@ -37504,6 +37525,7 @@ namespace OverflowHelper.core
             correctionAdd("sice", "since");
             correctionAdd("sonce", "since");
             correctionAdd("SInce", "since");
+            correctionAdd("sinc", "since");
 
             correctionAdd("asian", "Asian");
             correctionAdd("asain", "Asian");
@@ -38695,8 +38717,6 @@ namespace OverflowHelper.core
 
             correctionAdd("originaly", "originally");
             correctionAdd("orginally", "originally");
-
-            correctionAdd("paralelly", "parallelly");
 
             correctionAdd("Percentage Point", "percentage point");
 
@@ -40695,6 +40715,7 @@ namespace OverflowHelper.core
             correctionAdd("emited", "emitted");
 
             correctionAdd("Hawking", "Stephen Hawking");
+            correctionAdd("Steven Hawking", "Stephen Hawking");
 
             correctionAdd("AIOHTTP", "aiohttp");
 
@@ -42389,8 +42410,6 @@ namespace OverflowHelper.core
             correctionAdd("continuation passing style", "continuation-passing style");
 
             correctionAdd("over head", "overhead");
-
-            correctionAdd("dask", "Dask");
 
             correctionAdd("garbage-collect", "garbage collect");
 
@@ -47509,9 +47528,6 @@ namespace OverflowHelper.core
             correctionAdd("olympiad", "Olympiad");
             correctionAdd("olimpiad", "Olympiad");
 
-            correctionAdd("bit mask", "bitmask");
-            correctionAdd("bit-mask", "bitmask");
-
             correctionAdd("electro-dynamical", "electrodynamical");
 
             correctionAdd("scatterplot", "scatter plot");
@@ -51837,8 +51853,6 @@ namespace OverflowHelper.core
 
             correctionAdd("decilned", "declined");
 
-            correctionAdd("msk", "mask");
-
             correctionAdd("anecdoctal", "anecdotal");
 
             correctionAdd("oder", "order");
@@ -52584,8 +52598,6 @@ namespace OverflowHelper.core
             correctionAdd("Commonwealth", "the Commonwealth");
 
             correctionAdd("inaproachability", "inapproachability");
-
-            correctionAdd("tasK", "task");
 
             // Software related. APIs.
             correctionAdd("wso 2", "WSO2");
@@ -53683,11 +53695,33 @@ namespace OverflowHelper.core
 
             correctionAdd("bozzy", "bossy");
 
+            // An artificial intelligence programming language
             correctionAdd("mojo", "Mojo");
 
             correctionAdd("over-board", "overboard");
 
             correctionAdd("the pile", "The Pile");
+
+            correctionAdd("anti-christ", "Antichrist");
+
+            correctionAdd("assumptoins", "assumptions");
+
+            correctionAdd("Hooft", "Gerard 't Hooft");
+            correctionAdd("Hofft", "Gerard 't Hooft");
+
+            correctionAdd("idies", "ideas");
+
+            correctionAdd("iq", "IQ");
+
+            correctionAdd("Susskind", "Leonard Susskind");
+
+            correctionAdd("Quantum Gravi", "quantum gravity");
+
+            correctionAdd("seeminlgy", "seemingly");
+
+            correctionAdd("self consistent", "self-consistent");
+
+            correctionAdd("motorcycle maintenance", "Zen and the Art of Motorcycle Maintenance");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -83100,6 +83134,26 @@ namespace OverflowHelper.core
 
             URL_Add("The Pile", "https://github.com/EleutherAI/the-pile");
 
+            URL_Add("Antichrist", "https://en.wiktionary.org/wiki/Antichrist#Proper_noun");
+
+            URL_Add("assumptions", "https://en.wiktionary.org/wiki/assumption#Noun");
+
+            URL_Add("Gerard 't Hooft", "https://en.wikipedia.org/wiki/Gerard_%27t_Hooft");
+
+            URL_Add("ideas", "https://en.wiktionary.org/wiki/idea#Noun");
+
+            URL_Add("IQ", "https://en.wikipedia.org/wiki/Intelligence_quotient");
+
+            URL_Add("Leonard Susskind", "https://en.wikipedia.org/wiki/Leonard_Susskind");
+
+            URL_Add("quantum gravity", "https://en.wikipedia.org/wiki/Quantum_gravity");
+
+            URL_Add("seemingly", "https://en.wiktionary.org/wiki/seemingly#Adverb");
+
+            URL_Add("self-consistent", "https://en.wiktionary.org/wiki/self-consistent#Adjective");
+
+            URL_Add("Zen and the Art of Motorcycle Maintenance", "https://en.wikipedia.org/wiki/Zen_and_the_Art_of_Motorcycle_Maintenance");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -84539,6 +84593,7 @@ namespace OverflowHelper.core
 
             // The English word (an 'article')
             correctionAdd("s_", "a_");
+            correctionAdd("wa_", "a_");
 
             // HTML tag
             correctionAdd("Body_", "body_");
