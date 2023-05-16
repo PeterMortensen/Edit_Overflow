@@ -371,7 +371,8 @@
                     ```lang-python,
                     ```lang-xml,
                     ```lang-bash,
-                    ```lang-typescript
+                    ```lang-typescript,
+                    ```lang-yaml
                     <br/>
                 <input
                     name="X31"
