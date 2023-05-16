@@ -1630,6 +1630,8 @@ namespace OverflowHelper.core
             correctionAdd("gigawatts", "flux capacitor");
             correctionAdd("giggawatts", "flux capacitor");
             correctionAdd("1.21 GW", "flux capacitor");
+            correctionAdd("Giggawatt", "flux capacitor");
+            correctionAdd("jigga", "flux capacitor");
 
             correctionAdd("newton raphson", "Newton–Raphson");
             correctionAdd("Newton's method", "Newton–Raphson");
@@ -30921,6 +30923,8 @@ namespace OverflowHelper.core
             correctionAdd("accocunt", "account");
 
             correctionAdd("contributer", "contributor");
+            correctionAdd("contirbutor", "contributor");
+            correctionAdd("contirbutors", "contributor");
 
             correctionAdd("equall", "equal");
             correctionAdd("queal", "equal");
@@ -33694,6 +33698,7 @@ namespace OverflowHelper.core
             correctionAdd("difficuly", "difficulty");
 
             correctionAdd("eatable", "edible");
+            correctionAdd("edable", "edible");
 
             correctionAdd("Mind", "mind");
             correctionAdd("MInd", "mind");
@@ -34877,6 +34882,8 @@ namespace OverflowHelper.core
             correctionAdd("similer", "similar");
             correctionAdd("simialr", "similar");
             correctionAdd("similair", "similar");
+            correctionAdd("Simiar", "similar");
+            correctionAdd("simiar", "similar");
 
             correctionAdd("Similary", "similarly"); // Not 100% correct - case.
             correctionAdd("similary", "similarly");
@@ -51134,6 +51141,7 @@ namespace OverflowHelper.core
             correctionAdd("theoric", "theoretic");
 
             correctionAdd("there're", "there are");
+            correctionAdd("There're", "there are");
 
             correctionAdd("VLA", "variable-length array");
             correctionAdd("Variable Length Array", "variable-length array");
