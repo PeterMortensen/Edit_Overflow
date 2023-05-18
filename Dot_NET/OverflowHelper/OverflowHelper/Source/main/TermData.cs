@@ -2204,6 +2204,7 @@ namespace OverflowHelper.core
 
             correctionAdd("doubt", "question (Indian English)");
             correctionAdd("dout", "question (Indian English)");
+            correctionAdd("doubts", "question (Indian English)");
 
             correctionAdd("english man", "Englishman");
 
@@ -2526,6 +2527,7 @@ namespace OverflowHelper.core
             correctionAdd("cloudfront", "Amazon CloudFront");
             correctionAdd("CloudFront", "Amazon CloudFront");
             correctionAdd("Cloudfront", "Amazon CloudFront");
+            correctionAdd("cloud front", "Amazon CloudFront");
 
             correctionAdd("Amazon Simple Queue Service", "Amazon SQS");
             correctionAdd("SQS", "Amazon SQS");
@@ -2598,11 +2600,58 @@ namespace OverflowHelper.core
             correctionAdd("mime", "MIME");
             correctionAdd("Mime", "MIME");
 
+            correctionAdd("desing", "design");
+            correctionAdd("Design", "design");
+            correctionAdd("deisng", "design");
+
+            correctionAdd("re-design", "redesign");
+
             correctionAdd("DDD", "domain-driven design"); // Expansion.
             correctionAdd("Domain Driven Design", "domain-driven design");
             correctionAdd("Domain-Driven Design", "domain-driven design");
             correctionAdd("ddd", "domain-driven design");
             correctionAdd("domain driven development", "domain-driven design");
+
+            correctionAdd("object oriented design", "object-oriented design");
+            correctionAdd("OOD", "object-oriented design");
+            correctionAdd("Object Oriented Design", "object-oriented design");
+            correctionAdd("ood", "object-oriented design");
+
+            correctionAdd("PWA", "progressive web application");
+            correctionAdd("Progressive Web Application", "progressive web application");
+            correctionAdd("Progressive Web App", "progressive web application");
+            correctionAdd("Progressive Web app", "progressive web application");
+            correctionAdd("progressive web app", "progressive web application");
+            correctionAdd("Progressive web app", "progressive web application");
+            correctionAdd("pwa", "progressive web application");
+            correctionAdd("progressive-web-app", "progressive web application");
+
+            correctionAdd("RWD", "responsive web design");
+            correctionAdd("responsive design", "responsive web design");
+            correctionAdd("Responsive web design", "responsive web design");
+            correctionAdd("Responsive design", "responsive web design");
+            correctionAdd("Responsive Design", "responsive web design");
+
+            correctionAdd("material design", "Material Design");
+            correctionAdd("Material design", "Material Design");
+            correctionAdd("Meterial Design", "Material Design");
+            correctionAdd("material", "Material Design");
+
+            correctionAdd("XD", "experience design");
+
+            correctionAdd("UXD", "user experience design");
+
+            correctionAdd("DOD", "data-oriented design");
+
+            correctionAdd("cad", "computer-aided design");
+            correctionAdd("CAD", "computer-aided design");
+
+            correctionAdd("InDesign", "Adobe InDesign");
+            correctionAdd("Indesign", "Adobe InDesign");
+
+            correctionAdd("ant design", "Ant Design");
+            correctionAdd("Antd", "Ant Design");
+            correctionAdd("antd", "Ant Design");
 
             correctionAdd("domen", "domain");
             correctionAdd("domani", "domain");
@@ -5561,6 +5610,15 @@ namespace OverflowHelper.core
             correctionAdd("ndk", "NDK");
             correctionAdd("NdK", "NDK");
 
+            correctionAdd("Eclair", "Android 2.0 (Eclair)");
+            correctionAdd("eclair", "Android 2.0 (Eclair)");
+            correctionAdd("Android 2", "Android 2.0 (Eclair)");
+            correctionAdd("Android 2.0", "Android 2.0 (Eclair)");
+            correctionAdd("android 2.0", "Android 2.0 (Eclair)");
+            correctionAdd("android 2.1", "Android 2.0 (Eclair)"); // Is this mapping actually correct? Yes! It covers Android 2.0 and Android 2.1.
+            correctionAdd("Android 2.1", "Android 2.0 (Eclair)"); // Is this mapping actually correct? Yes! It covers Android 2.0 and Android 2.1.
+            correctionAdd("2.1", "Android 2.0 (Eclair)"); // Is this mapping actually correct? Yes! It covers Android 2.0 and Android 2.1.
+
             correctionAdd("Android 7", "Android 7.0 (Nougat)");
             correctionAdd("Nougart", "Android 7.0 (Nougat)");
             correctionAdd("Nougat", "Android 7.0 (Nougat)");
@@ -5584,18 +5642,15 @@ namespace OverflowHelper.core
             correctionAdd("Android Pie", "Android 9.0 (Pie)");
             correctionAdd("android 9", "Android 9.0 (Pie)");
 
+            // Duplicate of "Android&nbsp;10"?
             correctionAdd("androidx", "Android X");
             correctionAdd("android x", "Android X");
             correctionAdd("X Android", "Android X");
+            correctionAdd("android 10", "Android X");
 
-            correctionAdd("Eclair", "Android 2.0 (Eclair)");
-            correctionAdd("eclair", "Android 2.0 (Eclair)");
-            correctionAdd("Android 2", "Android 2.0 (Eclair)");
-            correctionAdd("Android 2.0", "Android 2.0 (Eclair)");
-            correctionAdd("android 2.0", "Android 2.0 (Eclair)");
-            correctionAdd("android 2.1", "Android 2.0 (Eclair)"); // Is this mapping actually correct? Yes! It covers Android 2.0 and Android 2.1.
-            correctionAdd("Android 2.1", "Android 2.0 (Eclair)"); // Is this mapping actually correct? Yes! It covers Android 2.0 and Android 2.1.
-            correctionAdd("2.1", "Android 2.0 (Eclair)"); // Is this mapping actually correct? Yes! It covers Android 2.0 and Android 2.1.
+            // Duplicate of "Android&nbsp;10"?
+            correctionAdd("jetpack", "Android Jetpack");
+            correctionAdd("Jetpack", "Android Jetpack");
 
             correctionAdd("Android version 10", "Android&nbsp;10");
             correctionAdd("Android 10", "Android&nbsp;10");
@@ -5604,9 +5659,6 @@ namespace OverflowHelper.core
             correctionAdd("android q", "Android&nbsp;10");
             correctionAdd("AndroidX", "Android&nbsp;10");
             correctionAdd("androidX", "Android&nbsp;10");
-
-            correctionAdd("jetpack", "Android Jetpack");
-            correctionAdd("Jetpack", "Android Jetpack");
 
             correctionAdd("android 11", "Android&nbsp;11");
             correctionAdd("Android 11", "Android&nbsp;11");
@@ -8325,6 +8377,8 @@ namespace OverflowHelper.core
             correctionAdd("Web Applicaitons", "Web&nbsp;Applications (Stack Exchange site)");
             correctionAdd("Web Applications (Stack Exchange site)", "Web&nbsp;Applications (Stack Exchange site)");
             correctionAdd("Web&nbsp;Applications", "Web&nbsp;Applications (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("nothing to install", "Web&nbsp;Applications (Stack Exchange site)");
+            correctionAdd("webapps.se", "Web&nbsp;Applications (Stack Exchange site)");
 
             correctionAdd("Webmasters", "Webmasters (Stack Exchange site)");
             correctionAdd("Pro Webmasters", "Webmasters (Stack Exchange site)");
@@ -13576,6 +13630,9 @@ namespace OverflowHelper.core
             correctionAdd("ASPNetCore", "ASP.NET Core");
             correctionAdd("ASPNetCore MVC", "ASP.NET Core");
             correctionAdd(".NET core MVC", "ASP.NET Core");
+            correctionAdd("Mvc Core", "ASP.NET Core");
+            correctionAdd("asp.net core MVC", "ASP.NET Core");
+            correctionAdd("mvc core", "ASP.NET Core");
 
             correctionAdd("asp net core 3.0", "ASP.NET Core 3.0");
 
@@ -16067,10 +16124,12 @@ namespace OverflowHelper.core
             correctionAdd("kayboard", "keyboard");
             correctionAdd("Keybpard", "keyboard");
             correctionAdd("keybpard", "keyboard");
+            correctionAdd("keybaord", "keyboard");
 
             correctionAdd("key matrix", "keyboard matrix");
 
             correctionAdd("keyboard-shortcut", "keyboard shortcut");
+            correctionAdd("keyboard-shortcuts", "keyboard shortcut");
 
             correctionAdd("key-press", "key press");
             correctionAdd("Key-Press", "key press");
@@ -18015,12 +18074,6 @@ namespace OverflowHelper.core
 
             correctionAdd("AFK", "away from keyboard");
 
-            correctionAdd("IIUC", "if I understand correctly");
-
-            correctionAdd("iirc", "if I remember correctly");
-            correctionAdd("Iirc", "if I remember correctly");
-            correctionAdd("IIRC", "if I remember correctly");
-
             correctionAdd("LGTM", "looks good to me");
 
             correctionAdd("CMIIW", "correct me if I'm wrong");
@@ -18099,6 +18152,19 @@ namespace OverflowHelper.core
             correctionAdd("IFAIK", "as far as I know");
             correctionAdd("ifaik", "as far as I know");
             correctionAdd("AFIK", "as far as I know");
+
+            correctionAdd("IIUC", "if I understand correctly");
+
+            correctionAdd("iirc", "if I remember correctly");
+            correctionAdd("Iirc", "if I remember correctly");
+            correctionAdd("IIRC", "if I remember correctly");
+
+            correctionAdd("correclty", "correctly");
+            correctionAdd("corrdctly", "correctly");
+            correctionAdd("correcty", "correctly");
+            correctionAdd("correcltly", "correctly");
+            correctionAdd("corrctly", "correctly");
+            correctionAdd("correctlty", "correctly");
 
             correctionAdd("knwo", "know");
             correctionAdd("khow", "know");
@@ -18921,6 +18987,7 @@ namespace OverflowHelper.core
             correctionAdd("ediot", "edit");
             correctionAdd("edti", "edit");
             correctionAdd("Edit", "edit");
+            correctionAdd("EDIT", "edit");
 
             correctionAdd("reedit", "re-edit");
 
@@ -21218,6 +21285,20 @@ namespace OverflowHelper.core
             correctionAdd("Thunder X", "ThunderX (Cavium)");
             correctionAdd("Cavium Thunder X", "ThunderX (Cavium)");
 
+            correctionAdd("stm32", "STM32");
+            correctionAdd("Stm32", "STM32");
+            correctionAdd("stm 32", "STM32");
+
+            correctionAdd("STM32Cube", "STM32CubeMX");
+            correctionAdd("cube", "STM32CubeMX");
+            correctionAdd("CubeMX", "STM32CubeMX");
+
+            correctionAdd("stm32f103", "STM32F103");
+
+            // A suite of development boards for STM32 (ARM)
+            correctionAdd("nucleo", "Nucleo");
+            correctionAdd("NUCLEO", "Nucleo");
+
             // An ARM microcontroller development board. Based on the STM32F415.
             //
             // Alternative URL: <https://1bitsquared.com/products/1bitsy>
@@ -23052,6 +23133,7 @@ namespace OverflowHelper.core
             correctionAdd("TKinter", "Tkinter");
             correctionAdd("TkInter", "Tkinter");
             correctionAdd("tk", "Tkinter");
+            correctionAdd("tKinter", "Tkinter");
 
             correctionAdd("CanOpen", "CANopen");
             correctionAdd("CANOpen", "CANopen");
@@ -23273,6 +23355,7 @@ namespace OverflowHelper.core
             correctionAdd("pdb", "PDB");
 
             correctionAdd("lan", "LAN");
+            correctionAdd("Lan", "LAN");
 
             correctionAdd("usenet", "Usenet");
             correctionAdd("USENET", "Usenet");
@@ -24513,6 +24596,7 @@ namespace OverflowHelper.core
             correctionAdd("recommned", "recommend");
             correctionAdd("recomment", "recommend");
             correctionAdd("reccomed", "recommend");
+            correctionAdd("recommoend", "recommend");
 
             correctionAdd("UpnP", "UPnP");
 
@@ -25805,6 +25889,7 @@ namespace OverflowHelper.core
             correctionAdd("fellowing", "following");
             correctionAdd("followig", "following");
             correctionAdd("foll", "following");
+            correctionAdd("followin", "following");
 
             correctionAdd("thougth", "thought");
             correctionAdd("thougt", "thought");
@@ -26886,10 +26971,6 @@ namespace OverflowHelper.core
             correctionAdd("Autocad", "AutoCAD");
             correctionAdd("autocad", "AutoCAD");
             correctionAdd("AutoCad", "AutoCAD");
-
-            correctionAdd("stm32", "STM32");
-            correctionAdd("Stm32", "STM32");
-            correctionAdd("stm 32", "STM32");
 
             correctionAdd("gulp", "Gulp.js");
             correctionAdd("Gulp", "Gulp.js");
@@ -28261,12 +28342,6 @@ namespace OverflowHelper.core
             correctionAdd("BigO", "big O");
             correctionAdd("Big-O", "big O");
 
-            correctionAdd("correclty", "correctly");
-            correctionAdd("corrdctly", "correctly");
-            correctionAdd("correcty", "correctly");
-            correctionAdd("correcltly", "correctly");
-            correctionAdd("corrctly", "correctly");
-
             correctionAdd("Kg", "kg");
             correctionAdd("KG", "kg");
             correctionAdd("kilo", "kg");
@@ -28928,47 +29003,6 @@ namespace OverflowHelper.core
             correctionAdd("mid level", "midlevel");
             correctionAdd("middle lavel", "midlevel");
             correctionAdd("mid", "midlevel");
-
-            correctionAdd("PWA", "progressive web application");
-            correctionAdd("Progressive Web Application", "progressive web application");
-            correctionAdd("Progressive Web App", "progressive web application");
-            correctionAdd("Progressive Web app", "progressive web application");
-            correctionAdd("progressive web app", "progressive web application");
-            correctionAdd("Progressive web app", "progressive web application");
-            correctionAdd("pwa", "progressive web application");
-            correctionAdd("progressive-web-app", "progressive web application");
-
-            correctionAdd("RWD", "responsive web design");
-            correctionAdd("responsive design", "responsive web design");
-            correctionAdd("Responsive web design", "responsive web design");
-            correctionAdd("Responsive design", "responsive web design");
-            correctionAdd("Responsive Design", "responsive web design");
-
-            correctionAdd("material design", "Material Design");
-            correctionAdd("Material design", "Material Design");
-            correctionAdd("Meterial Design", "Material Design");
-            correctionAdd("material", "Material Design");
-
-            correctionAdd("XD", "experience design");
-
-            correctionAdd("UXD", "user experience design");
-
-            correctionAdd("DOD", "data-oriented design");
-
-            correctionAdd("cad", "computer-aided design");
-            correctionAdd("CAD", "computer-aided design");
-
-            correctionAdd("re-design", "redesign");
-
-            correctionAdd("desing", "design");
-            correctionAdd("Design", "design");
-
-            correctionAdd("InDesign", "Adobe InDesign");
-            correctionAdd("Indesign", "Adobe InDesign");
-
-            correctionAdd("ant design", "Ant Design");
-            correctionAdd("Antd", "Ant Design");
-            correctionAdd("antd", "Ant Design");
 
             correctionAdd("themself", "themselves");
             correctionAdd("them selfs", "themselves");
@@ -37274,6 +37308,7 @@ namespace OverflowHelper.core
             correctionAdd("EF core", "Entity Framework Core");
             correctionAdd("EFCore", "Entity Framework Core");
             correctionAdd("EFC", "Entity Framework Core");
+            correctionAdd("ef core", "Entity Framework Core");
 
             correctionAdd("fire fight", "firefight");
             correctionAdd("fire-fight", "firefight");
@@ -40091,6 +40126,7 @@ namespace OverflowHelper.core
             correctionAdd("technial", "technical");
             correctionAdd("techincal", "technical");
             correctionAdd("tecnical", "technical");
+            correctionAdd("techical", "technical");
 
             correctionAdd("energy star", "Energy Star");
 
@@ -41627,14 +41663,15 @@ namespace OverflowHelper.core
 
             correctionAdd("amune", "immune");
 
+            correctionAdd("interpretaion", "interpretation");
+            correctionAdd("Interpretaion", "interpretation");
+            correctionAdd("internpretation", "interpretation");
+            correctionAdd("interpretration", "interpretation");
+
             correctionAdd("miss interpretation", "misinterpretation");
             correctionAdd("mis-interpretation", "misinterpretation");
 
             correctionAdd("over interpretation", "overinterpretation");
-
-            correctionAdd("interpretaion", "interpretation");
-            correctionAdd("Interpretaion", "interpretation");
-            correctionAdd("internpretation", "interpretation");
 
             correctionAdd("numurous", "numerous");
 
@@ -45060,10 +45097,6 @@ namespace OverflowHelper.core
 
             correctionAdd("narwhal", "Narwhal");
 
-            correctionAdd("STM32Cube", "STM32CubeMX");
-            correctionAdd("cube", "STM32CubeMX");
-            correctionAdd("CubeMX", "STM32CubeMX");
-
             correctionAdd("mainteiner", "maintainer");
             correctionAdd("maintener", "maintainer");
             correctionAdd("mantainer", "maintainer");
@@ -46992,8 +47025,6 @@ namespace OverflowHelper.core
             correctionAdd("Quotient", "quotient");
 
             correctionAdd("North-Korean", "North Korean");
-
-            correctionAdd("stm32f103", "STM32F103");
 
             correctionAdd("WHYT", "What have you tried?");
             correctionAdd("What you tried?", "What have you tried?");
@@ -50192,6 +50223,10 @@ namespace OverflowHelper.core
 
             correctionAdd("hanami", "Hanami");
 
+            // Alternative URL:
+            //
+            //   <https://blog.unity.com/community/unityscripts-long-ride-off-into-the-sunset>
+            //
             correctionAdd("Unityscript", "UnityScript");
             correctionAdd("unityscript", "UnityScript");
 
@@ -50490,9 +50525,6 @@ namespace OverflowHelper.core
 
             correctionAdd("nSS", "NSS");
             correctionAdd("Nss", "NSS");
-
-            correctionAdd("nucleo", "Nucleo");
-            correctionAdd("NUCLEO", "Nucleo");
 
             correctionAdd("Board", "board");
 
@@ -50971,11 +51003,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Hanlons razor", "Hanlon's razor");
             correctionAdd("Hanlon's Razor", "Hanlon's razor");
-
-            correctionAdd("object oriented design", "object-oriented design");
-            correctionAdd("OOD", "object-oriented design");
-            correctionAdd("Object Oriented Design", "object-oriented design");
-            correctionAdd("ood", "object-oriented design");
 
             correctionAdd("suprise", "surprise");
 
@@ -52088,6 +52115,7 @@ namespace OverflowHelper.core
             correctionAdd("Reanme", "rename");
 
             correctionAdd("S3 Bucket", "S3 bucket");
+            correctionAdd("s3 bucket", "S3 bucket");
 
             correctionAdd("self defense", "self-defense");
 
@@ -53839,6 +53867,12 @@ namespace OverflowHelper.core
             correctionAdd("Metric", "metric");
 
             correctionAdd("Unit Circle", "unit circle");
+
+            correctionAdd("acuse", "accuse");
+
+            correctionAdd("CMMI", "Capability Maturity Model Integration");
+
+            correctionAdd("clealry", "clearly");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -83317,6 +83351,12 @@ namespace OverflowHelper.core
 
             URL_Add("Z-transform", "https://en.wikipedia.org/wiki/Z-transform");
 
+            URL_Add("accuse", "https://en.wiktionary.org/wiki/accuse#Verb");
+
+            URL_Add("Capability Maturity Model Integration", "https://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration");
+
+            URL_Add("clearly", "https://en.wiktionary.org/wiki/clearly#Adverb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -84235,6 +84275,7 @@ namespace OverflowHelper.core
             correctionAdd("Reson_", "reason_");
             correctionAdd("reson_", "reason_");
             correctionAdd("reqson_", "reason_");
+            correctionAdd("resoan_", "reason_");
 
             correctionAdd("Parallel_", "parallel_");
 
@@ -85676,6 +85717,7 @@ namespace OverflowHelper.core
             correctionAdd("Upd_", "Edit: or Update: (bad practice on Stack Overflow)_");
             correctionAdd("edit_", "Edit: or Update: (bad practice on Stack Overflow)_");
             correctionAdd("historical_", "Edit: or Update: (bad practice on Stack Overflow)_");
+            correctionAdd("EDIT_", "Edit: or Update: (bad practice on Stack Overflow)_");
 
             correctionAdd("establish_", "established_");
 
@@ -85710,6 +85752,8 @@ namespace OverflowHelper.core
             correctionAdd("any t_", "net_");
 
             correctionAdd("ROC_", "radius of convergence_");
+
+            correctionAdd("wide area network_", "WAN_");
 
             // URL mappings
             //
@@ -87045,6 +87089,8 @@ namespace OverflowHelper.core
             URL_Add("jQuery (tag wiki)_", "https://stackoverflow.com/questions/tagged/jquery");
 
             URL_Add("radius of convergence_", "https://en.wikipedia.org/wiki/Radius_of_convergence");
+
+            URL_Add("WAN_", "https://en.wikipedia.org/wiki/Wide_area_network");
 
         } //addLookupData_alternativeWordSet()
 
