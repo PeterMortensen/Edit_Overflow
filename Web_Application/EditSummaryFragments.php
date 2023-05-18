@@ -276,7 +276,7 @@
                     type="text"
                     id="X20"
                     class="X20"
-                    value="Removed historical information (that is what the revision history is for)—the question/answer should be as if it was written right now. "
+                    value="Removed historical information (that is what the revision history is for)—the question/answer should be as if it was written right now; see e.g. <https://meta.stackexchange.com/a/131011>. "
                     style="width:960px;"
                     accesskey="B"
                     title="Shortcut: Shift + Alt + B"
