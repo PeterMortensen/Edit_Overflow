@@ -3040,6 +3040,7 @@ namespace OverflowHelper.core
             correctionAdd("assumtpion", "assumption");
             correctionAdd("assumtion", "assumption");
             correctionAdd("asumption", "assumption");
+            correctionAdd("assuption", "assumption");
 
             correctionAdd("assumptoins", "assumptions");
 
@@ -3464,6 +3465,7 @@ namespace OverflowHelper.core
             correctionAdd("btc", "bitcoin"); // Expansion
             correctionAdd("BITCOINS", "bitcoin");
             correctionAdd("BITCOIN", "bitcoin");
+            correctionAdd("botcoin", "bitcoin");
 
             correctionAdd("bitcoinqt", "Bitcoin-Qt");
             correctionAdd("Bitcoinqt", "Bitcoin-Qt");
@@ -5642,13 +5644,13 @@ namespace OverflowHelper.core
             correctionAdd("Android Pie", "Android 9.0 (Pie)");
             correctionAdd("android 9", "Android 9.0 (Pie)");
 
-            // Duplicate of "Android&nbsp;10"?
+            //Duplicate of "Android&nbsp;10"?
             correctionAdd("androidx", "Android X");
             correctionAdd("android x", "Android X");
             correctionAdd("X Android", "Android X");
             correctionAdd("android 10", "Android X");
 
-            // Duplicate of "Android&nbsp;10"?
+            //Duplicate of "Android&nbsp;10"?
             correctionAdd("jetpack", "Android Jetpack");
             correctionAdd("Jetpack", "Android Jetpack");
 
@@ -6756,6 +6758,7 @@ namespace OverflowHelper.core
             correctionAdd("Perferences", "preferences");
             correctionAdd("Prefrences", "preferences");
             correctionAdd("prefrences", "preferences");
+            correctionAdd("prefs", "preferences");
 
             correctionAdd("breatheable", "breathable");
 
@@ -7052,6 +7055,7 @@ namespace OverflowHelper.core
             correctionAdd("i,e", ", that is, X");
             correctionAdd("i.,e", ", that is, X");
             correctionAdd("i.E", ", that is, X"); // Really "i.E."
+            correctionAdd("i. e", ", that is, X");
 
             correctionAdd("thsi", "this");
             correctionAdd("tis", "this");
@@ -7303,6 +7307,7 @@ namespace OverflowHelper.core
 
             // Aviation
             correctionAdd("A380", "Airbus A380");
+            correctionAdd("a380", "Airbus A380");
 
             // An aircraft
             correctionAdd("747", "Boeing 747");
@@ -10134,6 +10139,7 @@ namespace OverflowHelper.core
             correctionAdd("agnular", "Angular");
             correctionAdd("Anjular js", "Angular");
             correctionAdd("angulare", "Angular");
+            correctionAdd("anuglar", "Angular");
 
             //Duplicate of the "Angular" entry?
             correctionAdd("Angular 2", "Angular&nbsp;2"); // Sort of identity mapping
@@ -10705,6 +10711,8 @@ namespace OverflowHelper.core
             correctionAdd("Utf8", "UTF-8");
             correctionAdd("UTF 8", "UTF-8");
             correctionAdd("utf 8", "UTF-8");
+            correctionAdd("codepage 65001", "UTF-8");
+            correctionAdd("cp65001", "UTF-8");
 
             correctionAdd("utf-16", "UTF-16");
             correctionAdd("UTF16", "UTF-16");
@@ -10713,6 +10721,7 @@ namespace OverflowHelper.core
             correctionAdd("utf-16be", "UTF-16BE");
 
             correctionAdd("utf-16le", "UTF-16LE");
+            correctionAdd("UTF-16 LE", "UTF-16LE");
 
             correctionAdd("UTF32", "UTF-32");
             correctionAdd("utf-32", "UTF-32");
@@ -16133,6 +16142,7 @@ namespace OverflowHelper.core
 
             correctionAdd("key-press", "key press");
             correctionAdd("Key-Press", "key press");
+            correctionAdd("keypress", "key press");
 
             correctionAdd("key-stroke", "keystroke");
             correctionAdd("key stroke", "keystroke");
@@ -16692,6 +16702,9 @@ namespace OverflowHelper.core
             correctionAdd("Windows Key", "Windows key");
             correctionAdd("Windows Logo Key", "Windows key");
             correctionAdd("windows key", "Windows key");
+            correctionAdd("Win Key", "Windows key");
+            correctionAdd("WinKey", "Windows key");
+            correctionAdd("Windowkey", "Windows key");
 
             // Keyboard
             correctionAdd("number pad", "numeric keypad");
@@ -19467,6 +19480,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Commit", "commit");
             correctionAdd("commmit", "commit");
+            correctionAdd("Commmit", "commit");
 
             correctionAdd("delimite", "delimit");
 
@@ -21028,6 +21042,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ITNOA", "in the name of Allah");
             correctionAdd("In The Name Of Allah", "in the name of Allah");
+            correctionAdd("In the Name of Allah", "in the name of Allah");
 
             correctionAdd("in Jesus' name", "in the name of Jesus");
             correctionAdd("ITNOJ", "in the name of Jesus");
@@ -27161,6 +27176,7 @@ namespace OverflowHelper.core
             correctionAdd("Thansk", "thanks");
             correctionAdd("Thankx", "thanks");
             correctionAdd("thankx", "thanks");
+            correctionAdd("thank's", "thanks");
 
             correctionAdd("abillity", "ability");
             correctionAdd("ablity", "ability");
@@ -27342,6 +27358,14 @@ namespace OverflowHelper.core
 
             correctionAdd("cross post", "crosspost");
             correctionAdd("x-post", "crosspost");
+
+            correctionAdd("cross posted", "crossposted");
+            correctionAdd("Cross posted", "crossposted");
+            correctionAdd("Crossposted", "crossposted");
+
+            correctionAdd("cross posting", "crossposting");
+            correctionAdd("Cross posting", "crossposting");
+            correctionAdd("Crossposting", "crossposting");
 
             correctionAdd("sign-post", "signpost");
             correctionAdd("sign post", "signpost");
@@ -33188,7 +33212,21 @@ namespace OverflowHelper.core
 
             correctionAdd("obfucation", "obfuscation");
 
+            correctionAdd("practise", "practice");
+            correctionAdd("practive", "practice");
+
             correctionAdd("practized", "practised");
+
+            correctionAdd("practicing", "practising");
+            correctionAdd("praticing", "practising");
+
+            correctionAdd("practicaly", "practically");
+            correctionAdd("Practicaly", "practically");
+            correctionAdd("practially", "practically");
+
+            correctionAdd("practioners", "practitioners");
+
+            correctionAdd("pratical", "practical");
 
             correctionAdd("take off", "takeoff");
 
@@ -35329,6 +35367,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Boing", "Boeing");
             correctionAdd("boing", "Boeing");
+            correctionAdd("boeing", "Boeing");
 
             correctionAdd("over night", "overnight");
 
@@ -36491,10 +36530,6 @@ namespace OverflowHelper.core
 
             correctionAdd("9th", "ninth");
 
-            correctionAdd("practicaly", "practically");
-            correctionAdd("Practicaly", "practically");
-            correctionAdd("practially", "practically");
-
             correctionAdd("quility", "quality");
             correctionAdd("qulity", "quality");
             correctionAdd("Quality", "quality");
@@ -37090,9 +37125,6 @@ namespace OverflowHelper.core
 
             correctionAdd("excalamation mark", "exclamation mark");
             correctionAdd("Excalamation mark", "exclamation mark");
-
-            correctionAdd("practise", "practice");
-            correctionAdd("practive", "practice");
 
             correctionAdd("quater", "quarter");
 
@@ -38642,10 +38674,6 @@ namespace OverflowHelper.core
             correctionAdd("new syntax highlighter", "Highlight.js");
             correctionAdd("weird syntax", "Highlight.js");
             correctionAdd("weird formatting", "Highlight.js");
-
-            correctionAdd("cross posted", "crossposted");
-            correctionAdd("Cross posted", "crossposted");
-            correctionAdd("Crossposted", "crossposted");
 
             correctionAdd("postet", "posted");
             correctionAdd("psoted", "posted");
@@ -42629,8 +42657,6 @@ namespace OverflowHelper.core
             correctionAdd("overiding", "overriding");
 
             correctionAdd("post-process", "postprocess");
-
-            correctionAdd("practioners", "practitioners");
 
             correctionAdd("queen-side", "queenside");
 
@@ -46801,10 +46827,6 @@ namespace OverflowHelper.core
 
             correctionAdd("attemted", "attempted");
 
-            correctionAdd("cross posting", "crossposting");
-            correctionAdd("Cross posting", "crossposting");
-            correctionAdd("Crossposting", "crossposting");
-
             correctionAdd("Homonym", "homonym");
 
             correctionAdd("smoothed particle hydrodynamics", "smoothed-particle hydrodynamics");
@@ -49087,6 +49109,8 @@ namespace OverflowHelper.core
             correctionAdd("anglebracket", "angle bracket");
             correctionAdd("angular bracket", "angle bracket");
             correctionAdd("angular brackets", "angle bracket");
+            correctionAdd("angled bracket", "angle bracket");
+            correctionAdd("angled brackets", "angle bracket");
 
             correctionAdd("eye sight", "eyesight");
 
@@ -52611,8 +52635,6 @@ namespace OverflowHelper.core
 
             correctionAdd("onesidedly", "one-sidedly");
 
-            correctionAdd("pratical", "practical");
-
             correctionAdd("more fast", "faster");
 
             correctionAdd("re-parse", "reparse");
@@ -53423,6 +53445,7 @@ namespace OverflowHelper.core
             correctionAdd("parttime", "part-time");
 
             correctionAdd("pathelogical", "pathological");
+            correctionAdd("pathalogical", "pathological");
 
             correctionAdd("rate-limiting", "rate limiting");
 
@@ -53873,6 +53896,34 @@ namespace OverflowHelper.core
             correctionAdd("CMMI", "Capability Maturity Model Integration");
 
             correctionAdd("clealry", "clearly");
+
+            correctionAdd("gGmbH", "gemeinnützige GmbH");
+
+            correctionAdd("ggmbh", "GmbH");
+
+            correctionAdd("QANTAS", "Qantas");
+
+            correctionAdd("Arts & Crafts", "Arts&nbsp;&&nbsp;Crafts (Stack Exchange site)");
+            correctionAdd("Arts & Crafts (Stack Exchange site)", "Arts&nbsp;&&nbsp;Crafts (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("Arts&nbsp;&&nbsp;Crafts", "Arts&nbsp;&&nbsp;Crafts (Stack Exchange site)"); // Sort of identity mapping
+
+            correctionAdd("chcp", "CHCP");
+
+            correctionAdd("fact-checked", "fact checked");
+            correctionAdd("factchecked", "fact checked");
+
+            correctionAdd("filehandle", "file handle");
+
+            correctionAdd("good-willed", "goodwilled");
+
+            correctionAdd("stagged", "staged");
+
+            correctionAdd("Time Limit Exceeded", "time limit exceeded");
+            correctionAdd("TLE", "time limit exceeded");
+
+            correctionAdd("Trial and Error", "trial and error");
+
+            correctionAdd("someone's wish is my command", "your wish is my command");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -83357,6 +83408,32 @@ namespace OverflowHelper.core
 
             URL_Add("clearly", "https://en.wiktionary.org/wiki/clearly#Adverb");
 
+            URL_Add("gemeinnützige GmbH", "https://en.wikipedia.org/wiki/Gesellschaft_mit_beschr%C3%A4nkter_Haftung");
+
+            URL_Add("GmbH", "https://en.wikipedia.org/wiki/Gesellschaft_mit_beschr%C3%A4nkter_Haftung");
+
+            URL_Add("Qantas", "https://en.wikipedia.org/wiki/Qantas");
+
+            URL_Add("Arts&nbsp;&&nbsp;Crafts (Stack Exchange site)", "https://crafts.stackexchange.com/tour");
+
+            URL_Add("CHCP", "https://ss64.com/nt/chcp.html");
+
+            URL_Add("fact checked", "https://en.wiktionary.org/wiki/fact_check#Verb");
+
+            URL_Add("file handle", "https://en.wiktionary.org/wiki/file_handle#Noun");
+
+            URL_Add("goodwilled", "https://en.wiktionary.org/wiki/goodwilled#Adjective");
+
+            URL_Add("practising", "https://en.wiktionary.org/wiki/practise#Verb");
+
+            URL_Add("staged", "https://en.wiktionary.org/wiki/staged#Adjective");
+
+            URL_Add("time limit exceeded", "https://en.wiktionary.org/wiki/TLE#Noun");
+
+            URL_Add("trial and error", "https://en.wiktionary.org/wiki/trial_and_error#Noun");
+
+            URL_Add("your wish is my command", "https://en.wiktionary.org/wiki/your_wish_is_my_command#Phrase");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -85754,6 +85831,13 @@ namespace OverflowHelper.core
             correctionAdd("ROC_", "radius of convergence_");
 
             correctionAdd("wide area network_", "WAN_");
+            correctionAdd("wan_", "WAN_");
+
+            correctionAdd("main_", "main()_");
+
+            correctionAdd("cross posted_", "crossposted_");
+
+            correctionAdd("cross posting_", "crossposting_");
 
             // URL mappings
             //
@@ -87091,6 +87175,12 @@ namespace OverflowHelper.core
             URL_Add("radius of convergence_", "https://en.wikipedia.org/wiki/Radius_of_convergence");
 
             URL_Add("WAN_", "https://en.wikipedia.org/wiki/Wide_area_network");
+
+            URL_Add("main()_", "https://en.wikipedia.org/wiki/Entry_point#C_and_C++");
+
+            URL_Add("crossposted_", "https://en.wikipedia.org/wiki/Crossposting");
+
+            URL_Add("crossposting_", "https://en.wiktionary.org/wiki/crosspost#Verb");
 
         } //addLookupData_alternativeWordSet()
 
