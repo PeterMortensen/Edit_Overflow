@@ -1122,6 +1122,12 @@ namespace OverflowHelper.core
             // Windows / CMD
             correctionAdd("setx", "SETX");
 
+            // Windows / CMD
+            correctionAdd("chcp", "CHCP");
+
+            // CMD
+            correctionAdd("XCOPY", "xcopy");
+
             // Windows
             correctionAdd("dll", "DLL file"); // Expansion, as in context it is usually a file.
             correctionAdd("DLL", "DLL file"); // Expansion, as in context it is usually a file.
@@ -1139,6 +1145,60 @@ namespace OverflowHelper.core
             correctionAdd("fiels", "file");
             correctionAdd("fil", "file");
             correctionAdd("fle", "file");
+
+            correctionAdd("fils", "files");
+
+            correctionAdd("filesize", "file size");
+
+            correctionAdd("file name", "filename");
+            correctionAdd("Filename", "filename");
+            correctionAdd("File name", "filename");
+
+            correctionAdd("8dot3", "8.3 filename");
+            correctionAdd("8.3", "8.3 filename");
+
+            correctionAdd("path name", "pathname");
+
+            correctionAdd("file extension", "filename extension");
+            correctionAdd("file extention", "filename extension");
+
+            correctionAdd("file type", "filetype");
+
+            correctionAdd("FD", "file descriptor");
+            correctionAdd("fd", "file descriptor");
+
+            correctionAdd("filemanagement", "file management");
+
+            correctionAdd("file chooser", "file dialog");
+            correctionAdd("File CHooser", "file dialog");
+            correctionAdd("File dialog", "file dialog");
+
+            correctionAdd("file path", "filepath");
+
+            correctionAdd("filehandle", "file handle");
+
+            correctionAdd("FileSystem", "file system");
+            correctionAdd("FS", "file system");
+            correctionAdd("filesystem", "file system");
+            correctionAdd("file-system", "file system");
+            correctionAdd("file sytem", "file system");
+            correctionAdd("fs", "file system");
+            correctionAdd("filesytem", "file system");
+            correctionAdd("File system", "file system");
+            correctionAdd("file - system", "file system");
+            correctionAdd("files system", "file system");
+            correctionAdd("File System", "file system");
+
+            correctionAdd("File Manager", "file manager");
+            correctionAdd("FileMang", "file manager");
+
+            correctionAdd("FHS", "Filesystem Hierarchy Standard");
+            correctionAdd("filesystem hierarchy standard", "Filesystem Hierarchy Standard");
+
+            correctionAdd("firepath", "FirePath");
+            correctionAdd("Firepath", "FirePath");
+
+            correctionAdd("coy", "copy");
 
             // PHP
             correctionAdd("php.ini", "php.ini file");
@@ -2883,9 +2943,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Payment Processor", "payment processor");
 
-            // Duplicate of "C preprocessor"?
-            correctionAdd("pre-processor", "preprocessor");
-
             // A text editor
             correctionAdd("geany", "Geany");
             correctionAdd("Geney", "Geany");
@@ -3074,15 +3131,6 @@ namespace OverflowHelper.core
             correctionAdd("Nickname", "nickname");
 
             correctionAdd("screenname", "screen name");
-
-            correctionAdd("file name", "filename");
-            correctionAdd("Filename", "filename");
-            correctionAdd("File name", "filename");
-
-            correctionAdd("8dot3", "8.3 filename");
-            correctionAdd("8.3", "8.3 filename");
-
-            correctionAdd("path name", "pathname");
 
             correctionAdd("nam", "name");
             correctionAdd("Name", "name");
@@ -5119,6 +5167,7 @@ namespace OverflowHelper.core
             //
             // Both Linux and Windows
             correctionAdd("DOS2UNIX", "dos2unix");
+            correctionAdd("Dos2unix", "dos2unix");
 
             // A software tool
             //
@@ -5209,9 +5258,6 @@ namespace OverflowHelper.core
             // Unix / Linux
             correctionAdd("dtrace", "DTrace");
             correctionAdd("Dtrace", "DTrace");
-
-            correctionAdd("FD", "file descriptor");
-            correctionAdd("fd", "file descriptor");
 
             // Linux
             correctionAdd("FDISK", "fdisk");
@@ -6848,8 +6894,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Quality Management", "quality management");
 
-            correctionAdd("filemanagement", "file management");
-
             correctionAdd("SIEM", "security information and event management");
 
             correctionAdd("enconding", "encoding");
@@ -7261,8 +7305,12 @@ namespace OverflowHelper.core
             correctionAdd("General Aviation", "general aviation");
 
             // Aviation
-            // Aviation
             correctionAdd("Airliner", "airliner");
+
+            // An airliner.
+            //
+            //A duplicate of "airliner"
+            correctionAdd("Airline", "airline");
 
             // An airliner
             correctionAdd("Air Lingus", "Aer Lingus");
@@ -7272,6 +7320,21 @@ namespace OverflowHelper.core
 
             // An airliner
             correctionAdd("british airways", "British Airways");
+
+            correctionAdd("Air Portugal", "TAP Air Portugal");
+
+            // An airliner
+            correctionAdd("Middle East airlines", "Middle East Airlines");
+
+            // An airliner
+            correctionAdd("united", "United Airlines");
+            correctionAdd("united airlines", "United Airlines");
+
+            // An airliner
+            correctionAdd("virgin atlantic", "Virgin Atlantic");
+
+            // An airline
+            correctionAdd("QANTAS", "Qantas");
 
             // Aviation
             correctionAdd("aircrafts", "aircraft");
@@ -8517,6 +8580,10 @@ namespace OverflowHelper.core
             correctionAdd("Motor Vehicle Maintenance & Repair (Stack Exchange site)", "Motor&nbsp;Vehicle&nbsp;Maintenance&nbsp;&&nbsp;Repair (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("Motor&nbsp;Vehicle&nbsp;Maintenance&nbsp;&&nbsp;Repair", "Motor&nbsp;Vehicle&nbsp;Maintenance&nbsp;&&nbsp;Repair (Stack Exchange site)");
 
+            correctionAdd("Arts & Crafts", "Arts&nbsp;&&nbsp;Crafts (Stack Exchange site)");
+            correctionAdd("Arts & Crafts (Stack Exchange site)", "Arts&nbsp;&&nbsp;Crafts (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("Arts&nbsp;&&nbsp;Crafts", "Arts&nbsp;&&nbsp;Crafts (Stack Exchange site)"); // Sort of identity mapping
+
             correctionAdd("piece of shit", "POS");
             correctionAdd("p.o.s", "POS");
 
@@ -9368,8 +9435,10 @@ namespace OverflowHelper.core
 
             correctionAdd("mb_convert_encoding", "mb_convert_encoding()");
 
+            // PHP function
             correctionAdd("file_get_contents", "file_get_contents()");
 
+            // PHP function
             correctionAdd("file_put_contents", "file_put_contents()");
 
             correctionAdd("htmlentities", "htmlentities()");
@@ -9923,15 +9992,6 @@ namespace OverflowHelper.core
             correctionAdd("psycopath", "psychopath");
 
             correctionAdd("flightfath", "flight path");
-
-            correctionAdd("file path", "filepath");
-
-            correctionAdd("firepath", "FirePath");
-            correctionAdd("Firepath", "FirePath");
-
-            correctionAdd("coy", "copy");
-
-            correctionAdd("XCOPY", "xcopy");
 
             correctionAdd("copiying", "copying");
             correctionAdd("cupying", "copying");
@@ -10713,6 +10773,7 @@ namespace OverflowHelper.core
             correctionAdd("utf 8", "UTF-8");
             correctionAdd("codepage 65001", "UTF-8");
             correctionAdd("cp65001", "UTF-8");
+            correctionAdd("65001", "UTF-8");
 
             correctionAdd("utf-16", "UTF-16");
             correctionAdd("UTF16", "UTF-16");
@@ -10722,6 +10783,8 @@ namespace OverflowHelper.core
 
             correctionAdd("utf-16le", "UTF-16LE");
             correctionAdd("UTF-16 LE", "UTF-16LE");
+            correctionAdd("UTF-16le", "UTF-16LE");
+            correctionAdd("utf-16-le", "UTF-16LE");
 
             correctionAdd("UTF32", "UTF-32");
             correctionAdd("utf-32", "UTF-32");
@@ -11313,8 +11376,16 @@ namespace OverflowHelper.core
 
             // "C"
             correctionAdd("preprecessor", "C preprocessor");
+            correctionAdd("C-preprocessor", "C preprocessor");
+            correctionAdd("c preprocessor", "C preprocessor");
+            correctionAdd("c-preprocessor", "C preprocessor");
+            correctionAdd("C-PreProcessor", "C preprocessor");
+            correctionAdd("C Preprocessor", "C preprocessor");
 
-            // A feature of C
+             // Duplicate of "C preprocessor"?
+            correctionAdd("pre-processor", "preprocessor");
+
+           // A feature of C
             //
             // Alternative URL:
             //   <https://stackoverflow.com/questions/30153902/c11-c11-exended-and-universal-character-escaping>
@@ -11424,6 +11495,7 @@ namespace OverflowHelper.core
             correctionAdd("Boost C++ Libraries", "Boost");
             correctionAdd("BOOST", "Boost");
             correctionAdd("bosst", "Boost");
+            correctionAdd("boot", "Boost");
 
             // Can not currently be looked up due to a bug!!!! It works fine
             // in the web interface 2021-08-04, though.
@@ -13957,8 +14029,6 @@ namespace OverflowHelper.core
 
             correctionAdd("time line", "timeline");
 
-            correctionAdd("Airline", "airline");
-
             correctionAdd("NL", "newline");
             correctionAdd("new-line", "newline");
 
@@ -15654,8 +15724,6 @@ namespace OverflowHelper.core
             correctionAdd("Doctype", "DOCTYPE");
             correctionAdd("doctype", "DOCTYPE");
 
-            correctionAdd("file type", "filetype");
-
             correctionAdd("clear type", "ClearType");
             correctionAdd("clear-type", "ClearType");
 
@@ -15849,6 +15917,12 @@ namespace OverflowHelper.core
 
             correctionAdd("Procedural programming", "procedural programming");
             correctionAdd("Procedural Programming", "procedural programming");
+
+            // Software engineering
+            correctionAdd("no silver bullet", "No Silver Bullet");
+
+            // Software engineering
+            correctionAdd("CMMI", "Capability Maturity Model Integration");
 
             correctionAdd("TAOCP", "The Art of Computer Programming");
             correctionAdd("TAOP", "The Art of Computer Programming");
@@ -17751,6 +17825,7 @@ namespace OverflowHelper.core
             correctionAdd("for exampe", "for example");
             correctionAdd("For examle", "for example");
             correctionAdd("F.ex", "for example");
+            correctionAdd("For. eg", "for example");
 
             correctionAdd("exsample", "example");
             correctionAdd("Exaplme", "example"); // Not 100% correct - case.
@@ -18259,6 +18334,9 @@ namespace OverflowHelper.core
             correctionAdd("hobby", "Hobby");
 
             correctionAdd("TSV", "tab-separated value");
+            correctionAdd("tab-delimitated", "tab-separated value");
+            correctionAdd("tab-delimited", "tab-separated value");
+            correctionAdd("tab-separated", "tab-separated value");
 
             correctionAdd("csv", "CSV");
             correctionAdd("Coma Separated Values", "CSV");
@@ -21304,6 +21382,7 @@ namespace OverflowHelper.core
             correctionAdd("Stm32", "STM32");
             correctionAdd("stm 32", "STM32");
 
+            // There also "STM32CubeIDE" (<https://www.st.com/en/development-tools/stm32cubeide.html>)
             correctionAdd("STM32Cube", "STM32CubeMX");
             correctionAdd("cube", "STM32CubeMX");
             correctionAdd("CubeMX", "STM32CubeMX");
@@ -21886,6 +21965,7 @@ namespace OverflowHelper.core
             correctionAdd("stasistics", "statistics");
             correctionAdd("Stats", "statistics");
             correctionAdd("Statistics", "statistics");
+            correctionAdd("statistic", "statistics");
 
             correctionAdd("btw", "by the way");
             correctionAdd("Btw", "by the way");
@@ -21938,6 +22018,7 @@ namespace OverflowHelper.core
             correctionAdd("charactar", "characters");
             correctionAdd("charcters", "characters");
             correctionAdd("caharacters", "characters");
+            correctionAdd("chracters", "characters");
 
             correctionAdd("MarkDown", "Markdown");
             correctionAdd("markdown", "Markdown");
@@ -24947,6 +25028,7 @@ namespace OverflowHelper.core
             correctionAdd("HOWTO", "how-to");
             correctionAdd("How-to", "how-to");
 
+            // Windows
             correctionAdd("Filemon", "FileMon");
             correctionAdd("filemon", "FileMon");
             correctionAdd("FILEMON", "FileMon");
@@ -25036,6 +25118,7 @@ namespace OverflowHelper.core
             correctionAdd("Sublimetext", "Sublime Text");
             correctionAdd("SUBLIME", "Sublime Text");
             correctionAdd("sublimeText", "Sublime Text");
+            correctionAdd("sublime Text", "Sublime Text");
 
             correctionAdd("propriety", "proprietary");
             correctionAdd("propriotary", "proprietary");
@@ -27473,6 +27556,8 @@ namespace OverflowHelper.core
 
             correctionAdd("good will", "goodwill");
 
+            correctionAdd("good-willed", "goodwilled");
+
             correctionAdd("wil", "will");
             correctionAdd("wlil", "will");
             correctionAdd("wll", "will");
@@ -28310,6 +28395,7 @@ namespace OverflowHelper.core
             correctionAdd("yerself", "yourself");
 
             correctionAdd("cyrillic", "Cyrillic");
+            correctionAdd("ciryllic", "Cyrillic");
 
             correctionAdd("twig", "Twig");
 
@@ -29080,6 +29166,8 @@ namespace OverflowHelper.core
             correctionAdd("howewer", "however");
             correctionAdd("hower", "however");
             correctionAdd("HOwever", "however");
+            correctionAdd("Howwever", "however");
+            correctionAdd("howwever", "however");
 
             correctionAdd("Perf Board", "perfboard");
             correctionAdd("Purfboard", "perfboard");
@@ -31530,6 +31618,7 @@ namespace OverflowHelper.core
             correctionAdd("contiue", "continue");
             correctionAdd("countinue", "continue");
             correctionAdd("contiune", "continue");
+            correctionAdd("continuate", "continue");
 
             correctionAdd("keepign", "keeping");
 
@@ -31643,6 +31732,7 @@ namespace OverflowHelper.core
             correctionAdd("cantaning", "containing");
             correctionAdd("contianing", "containing");
             correctionAdd("containig", "containing");
+            correctionAdd("cantaining", "containing");
 
             correctionAdd("verifed", "verified");
 
@@ -32122,10 +32212,6 @@ namespace OverflowHelper.core
 
             correctionAdd("diaglog", "dialog");
             correctionAdd("dialoge", "dialog");
-
-            correctionAdd("file chooser", "file dialog");
-            correctionAdd("File CHooser", "file dialog");
-            correctionAdd("File dialog", "file dialog");
 
             correctionAdd("intimitely", "intimately");
 
@@ -32825,6 +32911,7 @@ namespace OverflowHelper.core
             correctionAdd("Value", "value");
             correctionAdd("valie", "value");
             correctionAdd("valu", "value");
+            correctionAdd("vlue", "value");
 
             correctionAdd("WHOAMI", "whoami");
 
@@ -33179,8 +33266,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Labanon", "Lebanon");
 
-            correctionAdd("Middle East airlines", "Middle East Airlines");
-
             correctionAdd("NERDTree", "NERD tree");
             correctionAdd("NERDtree", "NERD tree");
             correctionAdd("The NERD tree", "NERD tree");
@@ -33188,13 +33273,6 @@ namespace OverflowHelper.core
             correctionAdd("nerdtree", "NERD tree");
 
             correctionAdd("neotree", "Neo Tree");
-
-            correctionAdd("Air Portugal", "TAP Air Portugal");
-
-            correctionAdd("united", "United Airlines");
-            correctionAdd("united airlines", "United Airlines");
-
-            correctionAdd("virgin atlantic", "Virgin Atlantic");
 
             correctionAdd("xmonad", "XMonad");
             correctionAdd("Xmonad", "XMonad");
@@ -33918,18 +33996,6 @@ namespace OverflowHelper.core
 
             // An RTOS operating system
             correctionAdd("rtx", "RTX");
-
-            correctionAdd("FileSystem", "file system");
-            correctionAdd("FS", "file system");
-            correctionAdd("filesystem", "file system");
-            correctionAdd("file-system", "file system");
-            correctionAdd("file sytem", "file system");
-            correctionAdd("fs", "file system");
-            correctionAdd("filesytem", "file system");
-            correctionAdd("File system", "file system");
-            correctionAdd("file - system", "file system");
-            correctionAdd("files system", "file system");
-            correctionAdd("File System", "file system");
 
             correctionAdd("VCS", "version control system"); // Expansion, actually ""
             correctionAdd("vcs", "version control system");
@@ -35914,8 +35980,6 @@ namespace OverflowHelper.core
 
             //correctionAdd("FT.", "featuring"); // Not currently allowed...
             correctionAdd("FT", "featuring");
-
-            correctionAdd("fils", "files");
 
             correctionAdd("fot", "for");
             correctionAdd("für", "for");
@@ -40698,6 +40762,8 @@ namespace OverflowHelper.core
             correctionAdd("thankyou", "thank you");
             correctionAdd("Thankyou", "thank you");
             correctionAdd("Thank you", "thank you");
+            correctionAdd("Thank your", "thank you");
+            correctionAdd("thank your", "thank you");
 
             correctionAdd("ireland", "Ireland");
 
@@ -40956,6 +41022,7 @@ namespace OverflowHelper.core
             correctionAdd("deserilization", "deserialisation");
 
             correctionAdd("grpc", "gRPC");
+            correctionAdd("gRpc", "gRPC");
 
             correctionAdd("restrication", "restriction");
             correctionAdd("Restriccione", "restriction");
@@ -41299,9 +41366,6 @@ namespace OverflowHelper.core
             correctionAdd("defered", "deferred");
             correctionAdd("deffered", "deferred");
             correctionAdd("defferred", "deferred");
-
-            correctionAdd("file extension", "filename extension");
-            correctionAdd("file extention", "filename extension");
 
             correctionAdd("instructor's", "instructors");
 
@@ -42182,6 +42246,7 @@ namespace OverflowHelper.core
 
             correctionAdd("automatical", "automatic");
             correctionAdd("autmatic", "automatic");
+            correctionAdd("utomatic", "automatic");
 
             correctionAdd("draconic", "draconian");
 
@@ -43405,6 +43470,7 @@ namespace OverflowHelper.core
             correctionAdd("Procastinate", "procrastinate");
 
             correctionAdd("conemu", "ConEmu");
+            correctionAdd("Conemu", "ConEmu");
 
             correctionAdd("Edited", "edited");
             correctionAdd("Editted", "edited");
@@ -43523,6 +43589,7 @@ namespace OverflowHelper.core
             correctionAdd("listerning", "listening");
             correctionAdd("Listenting", "listening");
             correctionAdd("listenting", "listening");
+            correctionAdd("listeting", "listening");
 
             correctionAdd("re-display", "redisplay");
 
@@ -49945,8 +50012,6 @@ namespace OverflowHelper.core
 
             correctionAdd("gollum", "Gollum");
 
-            correctionAdd("filesize", "file size");
-
             correctionAdd("Manifest", "manifest");
             correctionAdd("Mainfest", "manifest");
             correctionAdd("manifiest", "manifest");
@@ -49982,9 +50047,6 @@ namespace OverflowHelper.core
 
             correctionAdd("AS number", "autonomous system number");
             correctionAdd("ASN", "autonomous system number");
-
-            correctionAdd("File Manager", "file manager");
-            correctionAdd("FileMang", "file manager");
 
             correctionAdd("hit the nail upon the top", "hit the nail on the head");
 
@@ -50574,9 +50636,6 @@ namespace OverflowHelper.core
 
             correctionAdd("DistroTube", "Derek Taylor");
             correctionAdd("DT", "Derek Taylor");
-
-            correctionAdd("FHS", "Filesystem Hierarchy Standard");
-            correctionAdd("filesystem hierarchy standard", "Filesystem Hierarchy Standard");
 
             correctionAdd("Open Services Gateway initiative", "OSGi");
 
@@ -51223,6 +51282,8 @@ namespace OverflowHelper.core
             correctionAdd("soule", "soul");
 
             correctionAdd("stageing", "staging");
+
+            correctionAdd("stagged", "staged");
 
             correctionAdd("substancial", "substantial");
             correctionAdd("substencial", "substantial");
@@ -52855,9 +52916,6 @@ namespace OverflowHelper.core
 
             correctionAdd("fait", "faith");
 
-            // Software engineering
-            correctionAdd("no silver bullet", "No Silver Bullet");
-
             correctionAdd("on par", "on a par");
 
             correctionAdd("time correlated", "time-correlated");
@@ -53893,30 +53951,10 @@ namespace OverflowHelper.core
 
             correctionAdd("acuse", "accuse");
 
-            correctionAdd("CMMI", "Capability Maturity Model Integration");
-
             correctionAdd("clealry", "clearly");
-
-            correctionAdd("gGmbH", "gemeinnützige GmbH");
-
-            correctionAdd("ggmbh", "GmbH");
-
-            correctionAdd("QANTAS", "Qantas");
-
-            correctionAdd("Arts & Crafts", "Arts&nbsp;&&nbsp;Crafts (Stack Exchange site)");
-            correctionAdd("Arts & Crafts (Stack Exchange site)", "Arts&nbsp;&&nbsp;Crafts (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Arts&nbsp;&&nbsp;Crafts", "Arts&nbsp;&&nbsp;Crafts (Stack Exchange site)"); // Sort of identity mapping
-
-            correctionAdd("chcp", "CHCP");
 
             correctionAdd("fact-checked", "fact checked");
             correctionAdd("factchecked", "fact checked");
-
-            correctionAdd("filehandle", "file handle");
-
-            correctionAdd("good-willed", "goodwilled");
-
-            correctionAdd("stagged", "staged");
 
             correctionAdd("Time Limit Exceeded", "time limit exceeded");
             correctionAdd("TLE", "time limit exceeded");
@@ -53924,6 +53962,41 @@ namespace OverflowHelper.core
             correctionAdd("Trial and Error", "trial and error");
 
             correctionAdd("someone's wish is my command", "your wish is my command");
+            correctionAdd("is my wish", "your wish is my command");
+
+            correctionAdd("gmbh", "GmbH");
+
+            correctionAdd("gGmbH", "gemeinnützige GmbH");
+
+            correctionAdd("continuated", "continued");
+
+            correctionAdd("CRTP pattern", "curiously recurring template pattern");
+
+            correctionAdd("delimitated", "delimited");
+
+            correctionAdd("Encoded", "encoded");
+
+            correctionAdd("liens", "lines");
+
+            correctionAdd("Assalamu alaykum", "As-salamu alaykum");
+            correctionAdd("As-Salamu Alaykum", "As-salamu alaykum");
+            correctionAdd("As-salāmu ʿalaykum", "As-salamu alaykum");
+            correctionAdd("Assalamu Alaikum", "As-salamu alaykum");
+            correctionAdd("Assalamu Alaykum", "As-salamu alaykum");
+            correctionAdd("Assalamu ‘Alaykum", "As-salamu alaykum");
+            correctionAdd("alaykum as salaam", "As-salamu alaykum");
+            correctionAdd("as-salaam alaykum", "As-salamu alaykum");
+            correctionAdd("assalaamu alaykum", "As-salamu alaykum");
+            correctionAdd("assalamu alaykum", "As-salamu alaykum");
+            correctionAdd("salam", "As-salamu alaykum");
+            correctionAdd("salam 3lekom", "As-salamu alaykum");
+            correctionAdd("salam alaykum", "As-salamu alaykum");
+            correctionAdd("salamun alaykum", "As-salamu alaykum");
+            correctionAdd("salem alaykùm", "As-salamu alaykum");
+
+            correctionAdd("Contradictory", "contradictory");
+
+            correctionAdd("not a real question", "Why is \"Can someone help me?\" not an actual question?");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -83410,8 +83483,6 @@ namespace OverflowHelper.core
 
             URL_Add("gemeinnützige GmbH", "https://en.wikipedia.org/wiki/Gesellschaft_mit_beschr%C3%A4nkter_Haftung");
 
-            URL_Add("GmbH", "https://en.wikipedia.org/wiki/Gesellschaft_mit_beschr%C3%A4nkter_Haftung");
-
             URL_Add("Qantas", "https://en.wikipedia.org/wiki/Qantas");
 
             URL_Add("Arts&nbsp;&&nbsp;Crafts (Stack Exchange site)", "https://crafts.stackexchange.com/tour");
@@ -83433,6 +83504,24 @@ namespace OverflowHelper.core
             URL_Add("trial and error", "https://en.wiktionary.org/wiki/trial_and_error#Noun");
 
             URL_Add("your wish is my command", "https://en.wiktionary.org/wiki/your_wish_is_my_command#Phrase");
+
+            URL_Add("GmbH", "https://en.wikipedia.org/wiki/Gesellschaft_mit_beschr%C3%A4nkter_Haftung");
+
+            URL_Add("continued", "https://en.wiktionary.org/wiki/continue#Verb");
+
+            URL_Add("curiously recurring template pattern", "https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern");
+
+            URL_Add("delimited", "https://en.wiktionary.org/wiki/delimit#Verb");
+
+            URL_Add("encoded", "https://en.wiktionary.org/wiki/encode#Verb");
+
+            URL_Add("lines", "https://en.wiktionary.org/wiki/line#Noun");
+
+            URL_Add("As-salamu alaykum", "https://en.wikipedia.org/wiki/As-salamu_alaykum");
+
+            URL_Add("contradictory", "https://en.wiktionary.org/wiki/contradictory#Adjective");
+
+            URL_Add("Why is \"Can someone help me?\" not an actual question?", "https://meta.stackoverflow.com/questions/284236/why-is-can-someone-help-me-not-an-actual-question");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -85579,10 +85668,20 @@ namespace OverflowHelper.core
             correctionAdd("hansel_", "Hanselminutes_");
             correctionAdd("hanselminutes_", "Hanselminutes_");
 
+            // It is in the alternative word set, because it
+            // is a synonym for "C string".
+            //
+            // Alternative URL:
+            //   <https://en.wiktionary.org/wiki/null-terminated#Adjective>
+            //
             correctionAdd("C string_", "null-terminated string_");
             correctionAdd("ASCIIZ_", "null-terminated string_");
             correctionAdd("asciiz_", "null-terminated string_");
             correctionAdd("null-terminated_", "null-terminated string_");
+            correctionAdd("nul terminating_", "null-terminated string_");
+            correctionAdd("nul-terminating_", "null-terminated string_");
+            correctionAdd("null-terminating_", "null-terminated string_");
+            correctionAdd("zero-terminated string_", "null-terminated string_");
 
             correctionAdd("small string optimization_", "short string optimization_");
             correctionAdd("SSO_", "short string optimization_");
@@ -85838,6 +85937,10 @@ namespace OverflowHelper.core
             correctionAdd("cross posted_", "crossposted_");
 
             correctionAdd("cross posting_", "crossposting_");
+
+            // It is here because it conflicts with
+            // "cpp" in the main word set.
+            correctionAdd("cpp_", "C preprocessor_"); // 'cpp' is the name of an executable.
 
             // URL mappings
             //
@@ -87181,6 +87284,8 @@ namespace OverflowHelper.core
             URL_Add("crossposted_", "https://en.wikipedia.org/wiki/Crossposting");
 
             URL_Add("crossposting_", "https://en.wiktionary.org/wiki/crosspost#Verb");
+
+            URL_Add("C preprocessor_", "https://en.wikipedia.org/wiki/C_preprocessor");
 
         } //addLookupData_alternativeWordSet()
 
