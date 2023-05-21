@@ -186,6 +186,12 @@ namespace OverflowHelper.core
                 // Sample: "Perú"
                 (aRawString[endIdx] != 'ú') &&
 
+                // U+0131 (LATIN SMALL LETTER DOTLESS I). E.g., 
+                // from Turkish systems.
+                //
+                // Sample: "Hı"
+                (aRawString[endIdx] != 'ı') &&
+
                 true
               )
             {
