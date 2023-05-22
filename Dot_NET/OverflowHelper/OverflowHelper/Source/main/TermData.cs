@@ -1124,7 +1124,7 @@ namespace OverflowHelper.core
 
             // Windows / CMD
             // Alternative URL:
-            // 
+            //
             //   <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/chcp>
             correctionAdd("chcp", "CHCP");
 
@@ -3742,10 +3742,10 @@ namespace OverflowHelper.core
             correctionAdd("glitch", "we fixed the glitch");
 
             // An Office Space reference
-            // 
+            //
             // Alternative URL:
             //    <https://www.youtube.com/watch?v=F7SNEdjftno>
-            // 
+            //
             correctionAdd("bare minimum", "the bare minimum");
 
             correctionAdd("squarespace", "Squarespace");
@@ -9845,8 +9845,6 @@ namespace OverflowHelper.core
             correctionAdd("pylon", "Pylons");
             correctionAdd("pylons", "Pylons");
 
-            correctionAdd("scrapy", "Scrapy");
-
             correctionAdd("Pypy", "PyPy");
             correctionAdd("pypy", "PyPy");
 
@@ -10001,6 +9999,20 @@ namespace OverflowHelper.core
             correctionAdd("Reqest", "request");
             correctionAdd("req", "request");
             correctionAdd("requet", "request");
+
+            correctionAdd("scrapy", "Scrapy"); // A Python library for web scraping.
+
+            correctionAdd("unsplash", "Unsplash");
+
+            // Related to web scraping (Scrapy) and JavaScript rendering
+            correctionAdd("splash", "Splash");
+
+            correctionAdd("webscraping", "web scraping");
+            correctionAdd("web-scraping", "web scraping");
+            correctionAdd("Web Scrapper", "web scraping");
+            correctionAdd("web scrapper", "web scraping");
+            correctionAdd("web scraper", "web scraping");
+            correctionAdd("web scraped", "web scraping");
 
             correctionAdd("requestedt", "requested");
 
@@ -12750,6 +12762,7 @@ namespace OverflowHelper.core
 
             correctionAdd("un", "in");
             correctionAdd("n", "in");
+            correctionAdd("inn", "in");
 
             correctionAdd("mysql", "MySQL");
             correctionAdd("mySQL", "MySQL");
@@ -16512,6 +16525,8 @@ namespace OverflowHelper.core
             correctionAdd("Masterplus", "MasterPlus+");
             correctionAdd("masterplus", "MasterPlus+");
             correctionAdd("master+", "MasterPlus+");
+            correctionAdd("MP+", "MasterPlus+");
+            correctionAdd("Master Plus", "MasterPlus+");
 
             // A manufacturer of mechanical keyboards, etc.
             correctionAdd("razer", "Razer");
@@ -16526,6 +16541,15 @@ namespace OverflowHelper.core
             // A full-size mechanical keyboard from Cooler Master
             //
             correctionAdd("CK 350", "CK350");
+
+            // A crippled (tenkeyless (80%)) mechanical
+            // keyboard from Cooler Master
+            //
+            // Manual:
+            //
+            //   <https://coolermaster.egnyte.com/dl/FUaOLGU7ju>
+            //
+            correctionAdd("CK530v2", "CK530 V2");
 
             // A crippled (tenkeyless (80%)) mechanical
             // keyboard from Cooler Master
@@ -37183,6 +37207,9 @@ namespace OverflowHelper.core
             correctionAdd("drowndown", "drop-down menu");
             correctionAdd("dopdowsn", "drop-down menu");
             correctionAdd("dropdowsn", "drop-down menu");
+            correctionAdd("Dropdown list", "drop-down menu");
+            correctionAdd("drop-down list", "drop-down menu");
+            correctionAdd("dropdown list", "drop-down menu");
 
             correctionAdd("FreeCodeCamp", "freeCodeCamp");
             correctionAdd("Free code camp", "freeCodeCamp");
@@ -37681,6 +37708,7 @@ namespace OverflowHelper.core
             correctionAdd("Sand Box", "sandbox");
             correctionAdd("sanbox", "sandbox");
             correctionAdd("Sanbox", "sandbox");
+            correctionAdd("Sandbox", "sandbox");
 
             correctionAdd("2", "two");
             correctionAdd("tow", "two");
@@ -44742,13 +44770,6 @@ namespace OverflowHelper.core
             correctionAdd("webp", "WebP");
             correctionAdd("Webp", "WebP");
 
-            correctionAdd("webscraping", "web scraping");
-            correctionAdd("web-scraping", "web scraping");
-            correctionAdd("Web Scrapper", "web scraping");
-            correctionAdd("web scrapper", "web scraping");
-            correctionAdd("web scraper", "web scraping");
-            correctionAdd("web scraped", "web scraping");
-
             correctionAdd("Weblogic", "WebLogic");
             correctionAdd("weblogic", "WebLogic");
 
@@ -47417,8 +47438,6 @@ namespace OverflowHelper.core
             correctionAdd("columbia", "Colombia");
 
             correctionAdd("pixabay", "Pixabay");
-
-            correctionAdd("unsplash", "Unsplash");
 
             correctionAdd("associete", "associate");
 
@@ -54070,6 +54089,8 @@ namespace OverflowHelper.core
             correctionAdd("Overformatted", "overformatted");
 
             correctionAdd("takes the bisket", "takes the biscuit");
+
+            correctionAdd("LH", "left-hand");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -83628,6 +83649,12 @@ namespace OverflowHelper.core
 
             URL_Add("Xornet II", "https://www.coolermaster.com/catalog/legacy-products/peripheral/xornet-ii/");
 
+            URL_Add("CK530 V2", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck530-v2/");
+
+            URL_Add("left-hand", "https://en.wiktionary.org/wiki/left-hand#Adjective");
+
+            URL_Add("Splash", "https://github.com/scrapinghub/splash");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -85612,6 +85639,7 @@ namespace OverflowHelper.core
             correctionAdd("unit test_", "unittest_");
 
             correctionAdd("chatgpt_", "ChatGPT_");
+            correctionAdd("Chat_", "ChatGPT_");
 
             // Mainly for an alternative URL
             correctionAdd("stack exchange_", "Stack&nbsp;Exchange_");
