@@ -456,6 +456,7 @@ namespace OverflowHelper.core
             correctionAdd("Winows", "Windows");
             correctionAdd("winwoes", "Windows");
             correctionAdd("windown", "Windows");
+            correctionAdd("MS-WINDOWS", "Windows");
 
             correctionAdd("Win 3.11", "Windows 3.11");
             correctionAdd("Win3.x", "Windows 3.11");
@@ -528,6 +529,8 @@ namespace OverflowHelper.core
             correctionAdd("WindowsXP", "Windows&nbsp;XP");
             correctionAdd("winxp", "Windows&nbsp;XP");
             correctionAdd("Win-XP", "Windows&nbsp;XP");
+            correctionAdd("MS WINDOWS XP", "Windows&nbsp;XP");
+            correctionAdd("MS-WINDOWS XP", "Windows&nbsp;XP");
 
             correctionAdd("XP SP2", "Windows&nbsp;XP SP2");
             correctionAdd("Windows XP SP2", "Windows&nbsp;XP SP2"); // Sort of identity mapping
@@ -2195,6 +2198,7 @@ namespace OverflowHelper.core
             correctionAdd("IDA", "Interactive Disassembler");
             correctionAdd("IDA Pro", "Interactive Disassembler");
             correctionAdd("Interactive Disassembler Professional", "Interactive Disassembler");
+            correctionAdd("IDA pro", "Interactive Disassembler");
 
             correctionAdd("X86", "x86");
 
@@ -10068,6 +10072,8 @@ namespace OverflowHelper.core
             correctionAdd("phiolosophy", "philosophy");
             correctionAdd("Philosophy", "philosophy");
             correctionAdd("phylosophy", "philosophy");
+            correctionAdd("Phillosofy", "philosophy");
+            correctionAdd("phillosofy", "philosophy");
 
             correctionAdd("Natural Philosopy", "natural philosophy");
 
@@ -11421,6 +11427,7 @@ namespace OverflowHelper.core
             correctionAdd("c-preprocessor", "C preprocessor");
             correctionAdd("C-PreProcessor", "C preprocessor");
             correctionAdd("C Preprocessor", "C preprocessor");
+            correctionAdd("c pre processor", "C preprocessor");
 
              // Duplicate of "C preprocessor"?
             correctionAdd("pre-processor", "preprocessor");
@@ -11556,6 +11563,7 @@ namespace OverflowHelper.core
             correctionAdd("dev c++", "Dev-C++");
             correctionAdd("dev c", "Dev-C++");
             correctionAdd("developer c", "Dev-C++");
+            correctionAdd("DEV c++", "Dev-C++");
 
             correctionAdd("msvc", "Microsoft Visual C++");
             correctionAdd("ms vc", "Microsoft Visual C++");
@@ -11609,6 +11617,9 @@ namespace OverflowHelper.core
             correctionAdd("Yashavant Kanetkar books", "Turbo C++");
             correctionAdd("Kanetkar", "Turbo C++");
             correctionAdd("old textbooks", "Turbo C++");
+            correctionAdd("TCC", "Turbo C++");
+            correctionAdd("turboC++", "Turbo C++");
+            correctionAdd("turboc++", "Turbo C++");
 
             correctionAdd("C++builder", "C++Builder");
             correctionAdd("c++builder", "C++Builder");
@@ -11618,6 +11629,10 @@ namespace OverflowHelper.core
             correctionAdd("borland c++", "C++Builder");
             correctionAdd("Borland C++", "C++Builder");
             correctionAdd("Borland C", "C++Builder");
+            correctionAdd("Boland C++", "C++Builder");
+            correctionAdd("Borland c++", "C++Builder");
+            correctionAdd("borland C++", "C++Builder");
+            correctionAdd("borlandC++", "C++Builder");
 
             correctionAdd("Objective-c++", "Objective-C++");
             correctionAdd("Objective C++", "Objective-C++");
@@ -11631,6 +11646,7 @@ namespace OverflowHelper.core
             correctionAdd("Intel C Compiler", "Intel C++ Compiler");
             correctionAdd("ICC", "Intel C++ Compiler");
             correctionAdd("icc", "Intel C++ Compiler");
+            correctionAdd("Intel C++", "Intel C++ Compiler");
 
             correctionAdd("PGI", "PGI compiler");
 
@@ -15225,6 +15241,7 @@ namespace OverflowHelper.core
             correctionAdd("U+00A0", "NO-BREAK SPACE");
             correctionAdd("NO BREAK SPACE", "NO-BREAK SPACE");
             correctionAdd("00A0", "NO-BREAK SPACE");
+            correctionAdd("A0", "NO-BREAK SPACE");
 
             correctionAdd("U+00BB", "RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK");
 
@@ -15443,11 +15460,6 @@ namespace OverflowHelper.core
 
             correctionAdd("SDCC", "Small Device C Compiler");
             correctionAdd("sdcc", "Small Device C Compiler");
-
-            correctionAdd("TinyCC", "Tiny C Compiler");
-            correctionAdd("TCC", "Tiny C Compiler");
-            correctionAdd("tCc", "Tiny C Compiler");
-            correctionAdd("tcc", "Tiny C Compiler");
 
             // A compiler. C, C++, etc.
             correctionAdd("gcc", "GCC");
@@ -16532,6 +16544,11 @@ namespace OverflowHelper.core
             correctionAdd("razer", "Razer");
 
             // A full-size mechanical keyboard from Ducky
+            //
+            // Alternative URL:
+            //
+            //   <https://www.duckychannel.com.tw/en/Ducky-Shine7>
+            //
             correctionAdd("Ducky Shine", "Ducky Shine 7");
             correctionAdd("Ducky 7", "Ducky Shine 7");
 
@@ -16597,6 +16614,9 @@ namespace OverflowHelper.core
             //
             correctionAdd("Ck721", "CK721");
             correctionAdd("CK 721", "CK721");
+
+            // A mouse from Cooler Master
+            correctionAdd("mm730", "MM730");
 
             // A mechanical keyboard from Cooler Master
             correctionAdd("MK750", "MasterKeys MK750");
@@ -19627,6 +19647,7 @@ namespace OverflowHelper.core
             correctionAdd("delimeter", "delimiter");
 
             correctionAdd("delimitated", "delimited");
+            correctionAdd("delimted", "delimited");
 
             correctionAdd("retrofit", "Retrofit");
             correctionAdd("RetroFit", "Retrofit");
@@ -21816,6 +21837,7 @@ namespace OverflowHelper.core
             correctionAdd("curricila", "curricula");
             correctionAdd("curriculums", "curricula");
             correctionAdd("cirricula", "curricula");
+            correctionAdd("curriculae", "curricula");
 
             correctionAdd("CV", "curriculum vitae");
             correctionAdd("cv", "curriculum vitae");
@@ -29890,6 +29912,7 @@ namespace OverflowHelper.core
             correctionAdd("degugging", "debugging");
             correctionAdd("debbuging", "debugging");
             correctionAdd("dubugging", "debugging");
+            correctionAdd("DEBBUGING", "debugging");
 
             correctionAdd("Distcc", "distcc");
 
@@ -33337,6 +33360,7 @@ namespace OverflowHelper.core
             correctionAdd("usigin", "using");
             correctionAdd("suign", "using");
             correctionAdd("usning", "using");
+            correctionAdd("Using", "using");
 
             correctionAdd("ActiVision", "Activision");
 
@@ -33897,6 +33921,7 @@ namespace OverflowHelper.core
             correctionAdd("traing", "trying");
             correctionAdd("truing", "trying");
             correctionAdd("triyng", "trying");
+            correctionAdd("tryung", "trying");
 
             correctionAdd("tryna", "trying to");
 
@@ -37809,6 +37834,7 @@ namespace OverflowHelper.core
             correctionAdd("thuasand", "thousand");
 
             correctionAdd("borland", "Borland");
+            correctionAdd("Boland", "Borland");
 
             correctionAdd("nand", "NAND");
 
@@ -45972,6 +45998,7 @@ namespace OverflowHelper.core
             correctionAdd("Has", "has");
             correctionAdd("ahs", "has");
             correctionAdd("hase", "has");
+            correctionAdd("haas", "has");
 
             correctionAdd("lit", "literature");
 
@@ -54091,6 +54118,37 @@ namespace OverflowHelper.core
             correctionAdd("takes the bisket", "takes the biscuit");
 
             correctionAdd("LH", "left-hand");
+
+            correctionAdd("cdnjs.com", "cdnjs");
+
+            correctionAdd("g-LOC", "g-force induced loss of consciousness");
+            correctionAdd("G-LOC", "g-force induced loss of consciousness");
+            correctionAdd("g lock", "g-force induced loss of consciousness");
+
+            correctionAdd("newpipe", "NewPipe");
+
+            correctionAdd("philosofically", "philosophically");
+
+            correctionAdd("anywhere nere", "anywhere near");
+
+            correctionAdd("nere", "near");
+
+            correctionAdd("bad-mouthing", "badmouthing");
+            correctionAdd("bad mouthing", "badmouthing");
+
+            correctionAdd("coused", "caused");
+
+            correctionAdd("codegear", "CodeGear");
+
+            correctionAdd("compresion", "compression");
+
+            correctionAdd("stary", "stray");
+
+            correctionAdd("turbo pascal", "Turbo Pascal");
+
+            correctionAdd("work day", "workday");
+
+            correctionAdd("X Macro", "X macro");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -78339,8 +78397,6 @@ namespace OverflowHelper.core
 
             URL_Add("functional programming", "https://en.wikipedia.org/wiki/Functional_programming");
 
-            URL_Add("Tiny C Compiler", "https://en.wikipedia.org/wiki/Tiny_C_Compiler");
-
             URL_Add("Washington, D.C.", "https://en.wikipedia.org/wiki/Washington%2C_D.C.");
 
             URL_Add("testing", "https://en.wiktionary.org/wiki/testing#Noun");
@@ -83655,6 +83711,36 @@ namespace OverflowHelper.core
 
             URL_Add("Splash", "https://github.com/scrapinghub/splash");
 
+            URL_Add("cdnjs", "https://en.wikipedia.org/wiki/Cdnjs");
+
+            URL_Add("g-force induced loss of consciousness", "https://en.wikipedia.org/wiki/G-LOC");
+
+            URL_Add("NewPipe", "https://de.wikipedia.org/wiki/NewPipe");
+
+            URL_Add("philosophically", "https://en.wiktionary.org/wiki/philosophically#Adverb");
+
+            URL_Add("anywhere near", "https://en.wiktionary.org/wiki/anywhere_near#Adverb");
+
+            URL_Add("MM730", "https://www.coolermaster.com/catalog/peripheral/mice/mm730/");
+
+            URL_Add("near", "https://en.wiktionary.org/wiki/near#Preposition");
+
+            URL_Add("badmouthing", "https://en.wiktionary.org/wiki/badmouth#Verb");
+
+            URL_Add("caused", "https://en.wiktionary.org/wiki/cause#Verb");
+
+            URL_Add("CodeGear", "https://en.wikipedia.org/wiki/CodeGear");
+
+            URL_Add("compression", "https://en.wiktionary.org/wiki/compression#Noun");
+
+            URL_Add("stray", "https://en.wiktionary.org/wiki/stray#Adjective");
+
+            URL_Add("Turbo Pascal", "https://en.wikipedia.org/wiki/Turbo_Pascal");
+
+            URL_Add("workday", "https://en.wiktionary.org/wiki/workday#Noun");
+
+            URL_Add("X macro", "https://en.wikipedia.org/wiki/X_Macro");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -85155,7 +85241,7 @@ namespace OverflowHelper.core
             correctionAdd("datacenter_", "data center_");
             correctionAdd("DC_", "data center_");
 
-            correctionAdd("TCC_", "Take Command Console_");
+            //correctionAdd("TCC_", "Take Command Console_");  disabled due to a conflict with "Tiny C Compiler"
             correctionAdd("Take Control_", "Take Command Console_");
             correctionAdd("4DOS for Windows NT_", "Take Command Console_");
             correctionAdd("4NT_", "Take Command Console_");
@@ -86080,6 +86166,12 @@ namespace OverflowHelper.core
             //
             // The name of an executable
             correctionAdd("cpp_", "C preprocessor_"); // 'cpp' is the name of an executable.
+
+            // It is here because of a conflict with TCC for "Turbo C++"
+            correctionAdd("TinyCC_", "Tiny C Compiler_");
+            correctionAdd("TCC_", "Tiny C Compiler_");
+            correctionAdd("tCc_", "Tiny C Compiler_");
+            correctionAdd("tcc_", "Tiny C Compiler_");
 
             // URL mappings
             //
@@ -87429,6 +87521,8 @@ namespace OverflowHelper.core
             URL_Add("-Wstring-concatenation (Clang)_", "https://clang.llvm.org/docs/ClangCommandLineReference.html#cmdoption-clang1-o-file");
 
             URL_Add("-Wwriteable-strings (Clang)_", "https://clang.llvm.org/docs/DiagnosticsReference.html#wwritable-strings");
+
+            URL_Add("Tiny C Compiler_", "https://en.wikipedia.org/wiki/Tiny_C_Compiler");
 
         } //addLookupData_alternativeWordSet()
 
