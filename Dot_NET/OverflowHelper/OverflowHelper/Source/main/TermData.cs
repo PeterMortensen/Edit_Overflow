@@ -1258,12 +1258,62 @@ namespace OverflowHelper.core
             correctionAdd("CDW", "charge density wave");
             correctionAdd("Charge density wave", "charge density wave");
 
-            correctionAdd("AWG", "arbitrary waveform generator");
-
             correctionAdd("cmb", "cosmic microwave background");
             correctionAdd("CMB", "cosmic microwave background");
             correctionAdd("Cosmic Microwave Background", "cosmic microwave background");
             correctionAdd("CMBR", "cosmic microwave background");
+
+            correctionAdd("short", "shorten");
+
+            correctionAdd("short-out", "short out");
+            correctionAdd("shortout", "short out");
+
+            correctionAdd("short cut", "shortcut");
+            correctionAdd("shortuct", "shortcut");
+            correctionAdd("shortcurt", "shortcut");
+            correctionAdd("short-cut", "shortcut");
+            correctionAdd("shorcut", "shortcut");
+
+            correctionAdd("short hand", "shorthand");
+            correctionAdd("short-hand", "shorthand");
+            correctionAdd("Shortand", "shorthand");
+            correctionAdd("shortand", "shorthand");
+
+            correctionAdd("short term", "short-term");
+
+            correctionAdd("short-story", "short story");
+
+            correctionAdd("short cuts", "shortcuts");
+
+            correctionAdd("short-form", "short form");
+
+            correctionAdd("short sited", "short-sighted");
+            correctionAdd("short sighted", "short-sighted");
+            correctionAdd("shortsighted", "short-sighted");
+
+            correctionAdd("shortcoming", "shortcomings");
+            correctionAdd("short coming", "shortcomings");
+
+            correctionAdd("shortlived", "short-lived");
+            correctionAdd("short lived", "short-lived");
+
+            correctionAdd("Short Scale", "short scale");
+
+            correctionAdd("Long Scale", "long scale");
+
+            correctionAdd("sscce", "short self-contained correct example");
+            correctionAdd("SSCCE", "short self-contained correct example");
+
+            correctionAdd("SPFA_Queue", "Shortest Path Faster Algorithm");
+            correctionAdd("SPFA", "Shortest Path Faster Algorithm");
+
+            correctionAdd("SMLE", "Short, Magazine, Lee–Enfield");
+
+            correctionAdd("ar-15", "AR-15");
+
+            correctionAdd("Firearm", "firearm");
+
+            correctionAdd("Rifle", "rifle");
 
             correctionAdd("Electro-Magnetic field", "electromagnetic field");
 
@@ -1291,6 +1341,8 @@ namespace OverflowHelper.core
             correctionAdd("Bohmian mechanics", "de Broglie–Bohm theory");
             correctionAdd("pilot wave theory", "de Broglie–Bohm theory");
             correctionAdd("de Broglie-Bohm theory", "de Broglie–Bohm theory");
+
+            correctionAdd("AWG", "arbitrary waveform generator");
 
             correctionAdd("Bridge", "bridge");
 
@@ -16598,6 +16650,9 @@ namespace OverflowHelper.core
             correctionAdd("Lincoln", "Abraham Lincoln");
             correctionAdd("Abe", "Abraham Lincoln");
 
+            correctionAdd("cripled", "crippled");
+            correctionAdd("cribbled", "crippled");
+
             // An "elitist" (whatever that means) name. It
             // is "keyboard shortcut" for the rest of us.
             correctionAdd("keybinding", "key binding");
@@ -16853,6 +16908,17 @@ namespace OverflowHelper.core
             // (e.g., 'V700RGB', 'V700S', and 'V500')
             correctionAdd("Rappoo", "Rapoo");
 
+            // A full-size mechanical keyboard from Rapoo
+            //
+            // Alternative URL:
+            //
+            //   <https://pmortensen.eu/world2/2021/12/24/rapoo-mechanical-keyboards-gotchas-and-setup/>
+            //     Rapoo mechanical keyboards gotchas and setup
+            //
+            correctionAdd("V700 RGB", "Rapoo V700RGB");
+            correctionAdd("V700", "Rapoo V700RGB");
+            correctionAdd("V700RGB", "Rapoo V700RGB");
+
             // A manufacturer of mechanical keyboards, etc.
             // (e.g., 'K95')
             correctionAdd("corsair", "Corsair");
@@ -16877,6 +16943,11 @@ namespace OverflowHelper.core
             //
             correctionAdd("K3", "Keychron K3 Pro ISO");
             correctionAdd("Keychron K3", "Keychron K3 Pro ISO");
+
+            correctionAdd("keytron v5", "Keychron V5 ISO");
+            correctionAdd("Keychron V5", "Keychron V5 ISO");
+            correctionAdd("Keytron V5", "Keychron V5 ISO");
+            correctionAdd("keychron v5", "Keychron V5 ISO");
 
             // A Chinese manufacturer, incl. of mechanical keyboards
             correctionAdd("CoolerMaster", "Cooler Master");
@@ -16999,9 +17070,9 @@ namespace OverflowHelper.core
             // A mouse from Cooler Master
             //
             // Manual:
-            // 
+            //
             //   <https://coolermaster.egnyte.com/dl/Mc4Ypejdiw/>
-            // 
+            //
             correctionAdd("mm711", "MM711");
 
             // A mouse from Cooler Master
@@ -17059,6 +17130,7 @@ namespace OverflowHelper.core
             correctionAdd("Corne", "Corne keyboard");
             correctionAdd("corne", "Corne keyboard");
             correctionAdd("crkbd", "Corne keyboard");
+            correctionAdd("corn", "Corne keyboard");
 
             // A mechanical keyboard. Switches: Alps SKCM cream/ivory.
             //
@@ -17094,12 +17166,41 @@ namespace OverflowHelper.core
             // Software for mechanical keyboards (firmware)
             correctionAdd("qmk", "QMK");
 
-            // Software for mechanical keyboards (firmware?)
+            // 'KP' for keypad (numeric keypad)
+            // A keycode for QMK (mechanical keyboard software)
+            correctionAdd("KC_PAST", "KC_KP_ASTERISK");
+
+            // 'KP' for keypad (numeric keypad)
+            // A keycode for QMK (mechanical keyboard software)
+            correctionAdd("KC_PSLS", "KC_KP_SLASH");
+
+            // A keycode for QMK (mechanical keyboard software)
+            correctionAdd("kc_no", "KC_NO");
+
+            // A keycode for QMK (mechanical keyboard software)
+            correctionAdd("KC_TRNS", "KC_TRANSPARENT");
+
+            // A keycode for QMK (mechanical keyboard software)
+            correctionAdd("context menu key code", "KC_APPLICATION");
+            correctionAdd("KC_APP", "KC_APPLICATION");
+
+            // Configuration software for mechanical keyboards 
+            // based on QMK
             //
             // Allegedly for "Versatile Input Assistant"
             //
             correctionAdd("via", "Via");
             correctionAdd("VIA", "Via");
+
+            // Configuration software for 
+            // mechanical keyboards 
+            // (QMK based?)
+            correctionAdd("ORYX", "Oryx");
+
+            // A crippled (40%) mechanical keyboard
+            //
+            // A mechanical keyboard (QMK based)
+            correctionAdd("EZ Planck", "Planck EZ");
 
             // Software for mechanical keyboards (firmware?)
             correctionAdd("vial", "Vial");
@@ -17263,6 +17364,9 @@ namespace OverflowHelper.core
             correctionAdd("num pad", "numeric keypad");
             correctionAdd("Numeric keypad", "numeric keypad");
             correctionAdd("numeric keyboard", "numeric keypad");
+            correctionAdd("KP", "numeric keypad");
+            correctionAdd("Keypad", "numeric keypad");
+            correctionAdd("keypad", "numeric keypad");
 
             correctionAdd("mks", "MKS");
 
@@ -17526,6 +17630,28 @@ namespace OverflowHelper.core
             correctionAdd("Payload", "payload");
 
             correctionAdd("work load", "workload");
+
+            correctionAdd("statment", "statement");
+            correctionAdd("statemet", "statement");
+            correctionAdd("statemetns", "statement");
+            correctionAdd("statemaent", "statement");
+            correctionAdd("statemnt", "statement");
+            correctionAdd("statemen", "statement");
+            correctionAdd("Statment", "statement");
+            correctionAdd("stamenet", "statement");
+            correctionAdd("statenet", "statement");
+            correctionAdd("statenent", "statement");
+            correctionAdd("stament", "statement");
+            correctionAdd("Statement", "statement");
+            correctionAdd("stetement", "statement");
+            correctionAdd("satemant", "statement");
+            correctionAdd("staemant", "statement");
+            correctionAdd("statemant", "statement");
+            correctionAdd("statemtn", "statement");
+            correctionAdd("statmetn", "statement");
+
+            correctionAdd("staments", "statements");
+            correctionAdd("statments", "statements");
 
             correctionAdd("-debug-pass=Arguments", "-fdebug-pass-arguments (Clang)");
             correctionAdd("-fdebug-pass-arguments", "-fdebug-pass-arguments (Clang)");
@@ -18703,6 +18829,9 @@ namespace OverflowHelper.core
             correctionAdd("iirc", "if I remember correctly");
             correctionAdd("Iirc", "if I remember correctly");
             correctionAdd("IIRC", "if I remember correctly");
+
+            correctionAdd("AMOF", "as a matter of fact");
+            correctionAdd("amof", "as a matter of fact");
 
             correctionAdd("correclty", "correctly");
             correctionAdd("corrdctly", "correctly");
@@ -20701,6 +20830,7 @@ namespace OverflowHelper.core
             correctionAdd("Mozzilla", "Firefox");
             correctionAdd("MFF", "Firefox");
             correctionAdd("fireFox", "Firefox");
+            correctionAdd("Firedox", "Firefox");
 
             correctionAdd("Firefox quatum", "Firefox Quantum");
             correctionAdd("Firefox quantum", "Firefox Quantum");
@@ -26769,7 +26899,7 @@ namespace OverflowHelper.core
             correctionAdd("Black hole", "black hole");
 
             correctionAdd("schottky", "Schottky");
-            correctionAdd("shottky", "Schottky");
+            correctionAdd("shotshottky", "Schottky");
             correctionAdd("Schottkey", "Schottky");
             correctionAdd("SCHOTTKY", "Schottky");
             correctionAdd("schotsky", "Schottky");
@@ -28826,26 +28956,6 @@ namespace OverflowHelper.core
             correctionAdd("Seperator", "separator");
             correctionAdd("saperator", "separator");
 
-            correctionAdd("statment", "statement");
-            correctionAdd("statemet", "statement");
-            correctionAdd("statemetns", "statement");
-            correctionAdd("statemaent", "statement");
-            correctionAdd("statemnt", "statement");
-            correctionAdd("statemen", "statement");
-            correctionAdd("Statment", "statement");
-            correctionAdd("stamenet", "statement");
-            correctionAdd("statenet", "statement");
-            correctionAdd("statenent", "statement");
-            correctionAdd("stament", "statement");
-            correctionAdd("Statement", "statement");
-            correctionAdd("stetement", "statement");
-            correctionAdd("satemant", "statement");
-            correctionAdd("staemant", "statement");
-            correctionAdd("statemant", "statement");
-
-            correctionAdd("staments", "statements");
-            correctionAdd("statments", "statements");
-
             correctionAdd("strenhgt", "strength");
             correctionAdd("strengtb", "strength");
 
@@ -29839,6 +29949,7 @@ namespace OverflowHelper.core
             correctionAdd("amounf", "amount");
             correctionAdd("amont", "amount");
             correctionAdd("amout", "amount");
+            correctionAdd("amoount", "amount");
 
             correctionAdd("para mount", "paramount");
 
@@ -34174,12 +34285,6 @@ namespace OverflowHelper.core
             correctionAdd("self distroy", "self-destruct");
             correctionAdd("self destruct", "self-destruct");
 
-            correctionAdd("short cut", "shortcut");
-            correctionAdd("shortuct", "shortcut");
-            correctionAdd("shortcurt", "shortcut");
-            correctionAdd("short-cut", "shortcut");
-            correctionAdd("shorcut", "shortcut");
-
             // --------------------------------------------------------------
             //
             correctionAdd("ansi C", "ANSI C");
@@ -35510,6 +35615,10 @@ namespace OverflowHelper.core
             correctionAdd("bib bang", "Big Bang");
 
             correctionAdd("dfu", "DFU");
+
+            // Microcontroller flasher/reader software 
+            // for DFU capable devices
+            correctionAdd("Dfu-util", "dfu-util");
 
             correctionAdd("dip", "DIP");
 
@@ -38123,11 +38232,6 @@ namespace OverflowHelper.core
 
             correctionAdd("wayland", "Wayland");
 
-            correctionAdd("short hand", "shorthand");
-            correctionAdd("short-hand", "shorthand");
-            correctionAdd("Shortand", "shorthand");
-            correctionAdd("shortand", "shorthand");
-
             correctionAdd("by the other hand", "on the other hand");
             correctionAdd("In the other hand", "on the other hand");
             correctionAdd("in the other hand", "on the other hand");
@@ -40058,13 +40162,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Liqyefying", "liquefying");
 
-            correctionAdd("Long Scale", "long scale");
-
-            correctionAdd("Short Scale", "short scale");
-
-            correctionAdd("AMOF", "as a matter of fact");
-            correctionAdd("amof", "as a matter of fact");
-
             correctionAdd("backburner", "back burner");
 
             correctionAdd("grocerie store", "grocery store");
@@ -40081,8 +40178,6 @@ namespace OverflowHelper.core
             correctionAdd("kick-in", "kick in");
 
             correctionAdd("re-earn", "reearn");
-
-            correctionAdd("short term", "short-term");
 
             correctionAdd("guestimate", "guesstimate");
             correctionAdd("gestimate", "guesstimate");
@@ -40573,8 +40668,6 @@ namespace OverflowHelper.core
             correctionAdd("Mental Health", "mental health");
 
             correctionAdd("self evident", "self-evident");
-
-            correctionAdd("short-story", "short story");
 
             correctionAdd("4g", "4G");
             correctionAdd("LTE", "4G");
@@ -43533,9 +43626,6 @@ namespace OverflowHelper.core
 
             correctionAdd("permmitted", "permitted");
 
-            correctionAdd("sscce", "short self-contained correct example");
-            correctionAdd("SSCCE", "short self-contained correct example");
-
             correctionAdd("apporoximated", "approximated");
             correctionAdd("aproroximated", "approximated");
 
@@ -45229,8 +45319,6 @@ namespace OverflowHelper.core
             correctionAdd("notifiction", "notification");
             correctionAdd("Notifiction", "notification");
             correctionAdd("notfication", "notification");
-
-            correctionAdd("short cuts", "shortcuts");
 
             correctionAdd("similator", "simulator");
 
@@ -47971,8 +48059,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Red", "red");
 
-            correctionAdd("short-form", "short form");
-
             correctionAdd("Square", "square");
 
             correctionAdd("Strong Nuclear Force", "strong nuclear force");
@@ -48062,6 +48148,7 @@ namespace OverflowHelper.core
             correctionAdd("grayed-out", "grayed out");
 
             correctionAdd("preemtively", "preemptively");
+            correctionAdd("pre-emptively", "preemptively");
 
             correctionAdd("tornado", "Tornado");
 
@@ -48192,8 +48279,6 @@ namespace OverflowHelper.core
             correctionAdd("GZIP", "gzip");
 
             correctionAdd("Obligatory", "obligatory");
-
-            correctionAdd("short", "shorten");
 
             correctionAdd("Ether", "ETH");
 
@@ -49748,10 +49833,6 @@ namespace OverflowHelper.core
             correctionAdd("do to", "due to");
             correctionAdd("Do to", "due to");
 
-            correctionAdd("short sited", "short-sighted");
-            correctionAdd("short sighted", "short-sighted");
-            correctionAdd("shortsighted", "short-sighted");
-
             correctionAdd("slowlier", "slower");
 
             correctionAdd("Static Code Analysis", "static code analysis");
@@ -50570,6 +50651,7 @@ namespace OverflowHelper.core
             correctionAdd("remoe", "remove");
             correctionAdd("rem9ve", "remove");
             correctionAdd("reomove", "remove");
+            correctionAdd("remve", "remove");
 
             correctionAdd("re-tag", "retag");
 
@@ -52055,9 +52137,6 @@ namespace OverflowHelper.core
 
             correctionAdd("cabal", "Cabal");
 
-            correctionAdd("shortcoming", "shortcomings");
-            correctionAdd("short coming", "shortcomings");
-
             correctionAdd("state sponsored", "state-sponsored");
 
             // In probability theory (mathematics). Actually, it
@@ -52849,6 +52928,7 @@ namespace OverflowHelper.core
             correctionAdd("brighness", "brightness");
             correctionAdd("brigtness", "brightness");
             correctionAdd("britgness", "brightness");
+            correctionAdd("brightnes", "brightness");
 
             correctionAdd("unlug", "unplug");
 
@@ -52859,14 +52939,6 @@ namespace OverflowHelper.core
 
             correctionAdd("sux", "sucks");
             correctionAdd("suxx", "sucks");
-
-            correctionAdd("ar-15", "AR-15");
-
-            correctionAdd("Firearm", "firearm");
-
-            correctionAdd("Rifle", "rifle");
-
-            correctionAdd("SMLE", "Short, Magazine, Lee–Enfield");
 
             correctionAdd("re-filling", "refilling");
 
@@ -53823,9 +53895,6 @@ namespace OverflowHelper.core
             correctionAdd("multiplcation", "multiplication");
             correctionAdd("Multiplcation", "multiplication");
 
-            correctionAdd("SPFA_Queue", "Shortest Path Faster Algorithm");
-            correctionAdd("SPFA", "Shortest Path Faster Algorithm");
-
             // Programming tool, allegedly powered by AI
             correctionAdd("tabnine", "Tabnine");
             correctionAdd("TabNine", "Tabnine");
@@ -54161,12 +54230,6 @@ namespace OverflowHelper.core
 
             correctionAdd("imba", "Imba");
 
-            correctionAdd("shortlived", "short-lived");
-            correctionAdd("short lived", "short-lived");
-
-            correctionAdd("short-out", "short out");
-            correctionAdd("shortout", "short out");
-
             correctionAdd("succesor", "successor");
 
             // C++ library thingy. Microsoft.
@@ -54412,8 +54475,6 @@ namespace OverflowHelper.core
 
             correctionAdd("eat-up", "eat up");
 
-            correctionAdd("cripled", "crippled");
-
             correctionAdd("civilization", "civilisation");
 
             correctionAdd("express himself", "express yourself");
@@ -54427,8 +54488,6 @@ namespace OverflowHelper.core
 
             correctionAdd("well developed", "well-developed");
 
-            correctionAdd("Dfu-util", "dfu-util");
-
             correctionAdd("to the right direction", "in the right direction");
 
             correctionAdd("openup", "open up");
@@ -54436,6 +54495,25 @@ namespace OverflowHelper.core
             correctionAdd("Page", "page");
 
             correctionAdd("XINPUT", "xinput");
+
+            correctionAdd("beleived", "believed");
+
+            correctionAdd("loked", "looked");
+
+            correctionAdd("msg queue", "message queue");
+
+            correctionAdd("poduced", "produced");
+
+            correctionAdd("reassamble", "reassemble");
+
+            correctionAdd("reviewd", "reviewed");
+
+            correctionAdd("includs", "includes");
+            correctionAdd("Includs", "includes");
+
+            correctionAdd("shooted", "shot");
+
+            correctionAdd("typesystem", "type system");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -84148,6 +84226,42 @@ namespace OverflowHelper.core
 
             URL_Add("coded", "https://en.wiktionary.org/wiki/code#Verb");
 
+            URL_Add("believed", "https://en.wiktionary.org/wiki/believe#Verb");
+
+            URL_Add("KC_KP_ASTERISK", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("KC_KP_SLASH", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("KC_NO", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("KC_TRANSPARENT", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("Keychron V5 ISO", "https://www.keychron.com/products/keychron-v5-qmk-custom-mechanical-keyboard-iso-layout-collection");
+
+            URL_Add("looked", "https://en.wiktionary.org/wiki/look#Verb");
+
+            URL_Add("message queue", "https://en.wikipedia.org/wiki/Message_queue");
+
+            URL_Add("produced", "https://en.wiktionary.org/wiki/produce#Verb");
+
+            URL_Add("reassemble", "https://en.wiktionary.org/wiki/reassemble#Verb");
+
+            URL_Add("reviewed", "https://en.wiktionary.org/wiki/review#Verb");
+
+            URL_Add("includes", "https://en.wiktionary.org/wiki/include#Verb");
+
+            URL_Add("KC_APPLICATION", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("Oryx", "https://www.zsa.io/oryx");
+
+            URL_Add("Planck EZ", "https://odysee.com/@DistroTube:2/the-planck-ez-keyboard.-47-keys-are-all:9");
+
+            URL_Add("shot", "https://en.wiktionary.org/wiki/shoot#Verb");
+
+            URL_Add("type system", "https://en.wikipedia.org/wiki/Type_system");
+
+            URL_Add("Rapoo V700RGB", "http://www.rapoo.com/product/207");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -86604,6 +86718,17 @@ namespace OverflowHelper.core
 
             correctionAdd("TUI_", "text-based user interface_");
 
+            correctionAdd("left-click_", "left-click key code (QMK)_");
+            correctionAdd("KC_MS_BTN1_", "left-click key code (QMK)_");
+            correctionAdd("left-click key code_", "left-click key code (QMK)_");
+
+            // Mouse right-click
+            correctionAdd("right-click_", "right-click key code (QMK)_");
+            correctionAdd("KC_MS_BTN2_", "right-click key code (QMK)_");
+            correctionAdd("right-click key code_", "right-click key code (QMK)_");
+
+            correctionAdd("Tap Dance_", "tap dance_");
+
             // URL mappings
             //
             //
@@ -87968,6 +88093,12 @@ namespace OverflowHelper.core
             URL_Add("flair_", "https://www.youtube.com/watch?v=_ChQK8j6so8&t=1s");
 
             URL_Add("text-based user interface_", "https://en.wikipedia.org/wiki/Text-based_user_interface");
+
+            URL_Add("left-click key code (QMK)_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("right-click key code (QMK)_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("tap dance_", "https://github.com/qmk/qmk_firmware/blob/master/docs/feature_tap_dance.md");
 
         } //addLookupData_alternativeWordSet()
 
