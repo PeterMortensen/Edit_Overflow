@@ -928,7 +928,7 @@ function HTML_validation_base()
 #
 # Parameters:
 #
-#   $1   File name
+#   $1   File name (.php)
 #
 #   $2   Identification string
 #
@@ -2755,6 +2755,16 @@ eval ${LFTP_COMMAND}  ; evaluateBuildResult 38 $? "copying the HTML word list to
 #                      2022-06-03 12:32:02 UTC
 #                      Connection timed out
 #
+#  2023-05-30     Claimed (they probably broke something 
+#                 in the validation itself):
+#
+#                     Error: & did not start a character 
+#                      reference. (& probably should have
+#                      been escaped as &amp;.)
+#
+#                     At line 491, column 66
+#
+#                     ?showsource=yes&doc=https%3A%2
 #
 if [ ${DISABLE_HTMLVALIDATION} != 1 ]; then
     HTML_validation      EditOverflow.php                   "Edit Overflow lookup"    39
