@@ -2248,6 +2248,9 @@ namespace OverflowHelper.core
             correctionAdd("assebmly", "assembly language");
             correctionAdd("assember", "assembly language");
 
+            correctionAdd("dissassemble", "disassemble");
+            correctionAdd("deassemble", "disassemble");
+
             correctionAdd("IDA", "Interactive Disassembler");
             correctionAdd("IDA Pro", "Interactive Disassembler");
             correctionAdd("Interactive Disassembler Professional", "Interactive Disassembler");
@@ -5964,7 +5967,38 @@ namespace OverflowHelper.core
 
             correctionAdd("skillset", "skill set");
 
+            correctionAdd("typesystem", "type system");
+
+            correctionAdd("tys", "types");
+
             correctionAdd("type set", "typeset");
+
+            correctionAdd("tpye", "type");
+            correctionAdd("tipe", "type");
+
+            correctionAdd("typesafe", "type-safe");
+            correctionAdd("type-save", "type-safe");
+
+            correctionAdd("type check", "type-check");
+            correctionAdd("typecheck", "type-check");
+
+            correctionAdd("type cast", "typecast");
+
+            correctionAdd("typechecking", "type checking");
+            correctionAdd("type-checking", "type checking");
+
+            correctionAdd("TypeSense", "Typesense");
+            correctionAdd("typesense", "Typesense");
+
+            correctionAdd("Type Erasure", "type erasure");
+
+            correctionAdd("typsetter", "typesetter");
+
+            correctionAdd("typeout", "type out");
+
+            correctionAdd("typying", "typing");
+
+            correctionAdd("type writer", "typewriter");
 
             correctionAdd("featureset", "feature set");
 
@@ -8147,6 +8181,78 @@ namespace OverflowHelper.core
 
             // Bryan Lunduke's code of conduct
             correctionAdd("be excellent to each other", "Bill & Ted's Excellent Adventure");
+
+            // Stack Overflow
+            correctionAdd("question banned", "question-banned");
+
+            // Stack Overflow
+            correctionAdd("asker", "questioner");
+            correctionAdd("questioneer", "questioner");
+
+            // Stack Overflow
+            correctionAdd("question-ban", "question ban");
+
+            // Stack Overflow
+            correctionAdd("text as images", "text as an image");
+            correctionAdd("text as image", "text as an image");
+            correctionAdd("code as an image", "text as an image");
+            correctionAdd("code as image", "text as an image");
+            correctionAdd("image as code", "text as an image");
+            correctionAdd("screenshots of code", "text as an image");
+            correctionAdd("Images as text", "text as an image");
+            correctionAdd("images as text", "text as an image");
+
+            // Stack Exchange
+            correctionAdd("single source", "The single source of truth for the site list");
+            correctionAdd("single source of truth", "The single source of truth for the site list");
+
+            // Related to Stack Exchange
+            correctionAdd("first answer", "First answers review queue");
+            correctionAdd("first Answer", "First answers review queue");
+            correctionAdd("First answers", "First answers review queue");
+            correctionAdd("first answers", "First answers review queue");
+            correctionAdd("FA", "First answers review queue");
+
+            // Related to Stack Exchange
+            correctionAdd("late answer", "Late answers review queue");
+            correctionAdd("Late answers", "Late answers review queue");
+            correctionAdd("late answers", "Late answers review queue");
+            correctionAdd("late-answers review queue", "Late answers review queue");
+
+            // Related to Stack Exchange
+            correctionAdd("low quality answers", "Low quality answers review queue");
+            correctionAdd("Low quality posts", "Low quality answers review queue");
+            correctionAdd("low quality answers queue", "Low quality answers review queue");
+            correctionAdd("LQA", "Low quality answers review queue");
+            correctionAdd("Low quality answers", "Low quality answers review queue");
+
+            // Related to Stack Exchange
+            correctionAdd("\"First questions\" review", "First questions review queue");
+            correctionAdd("First questions", "First questions review queue");
+            correctionAdd("first questions", "First questions review queue");
+            correctionAdd("First posts", "First questions review queue");
+            correctionAdd("first question review queue", "First questions review queue");
+            correctionAdd("First Questions queue", "First questions review queue");
+            correctionAdd("first posts", "First questions review queue");
+            correctionAdd("first-posts", "First questions review queue");
+
+            // Related to Stack Exchange
+            correctionAdd("triage review queue", "Triage review queue");
+            correctionAdd("triage", "Triage review queue");
+            correctionAdd("Triage queue", "Triage review queue");
+            correctionAdd("triage queue", "Triage review queue");
+            correctionAdd("Triage", "Triage review queue");
+
+            // Related to Stack Exchange
+            correctionAdd("Suggested Edits", "Suggested edits review queue");
+            correctionAdd("Suggested edits", "Suggested edits review queue");
+            correctionAdd("suggested edits", "Suggested edits review queue");
+            correctionAdd("Suggested Edit", "Suggested edits review queue");
+            correctionAdd("suggested edit queue", "Suggested edits review queue");
+            correctionAdd("suggested edits queue", "Suggested edits review queue");
+
+            // Stack Overflow
+            correctionAdd("H&I", "Help & Improvement queue");
 
             correctionAdd("diffrent", "different");
             correctionAdd("diferent", "different");
@@ -10516,11 +10622,6 @@ namespace OverflowHelper.core
             correctionAdd("floppy", "floppy disk");
             correctionAdd("floppies", "floppy disk");
 
-            correctionAdd("typying", "typing");
-
-            correctionAdd("tpye", "type");
-            correctionAdd("tipe", "type");
-
             correctionAdd("robocopy", "Robocopy");
 
             correctionAdd("recipi", "recipe");
@@ -10838,6 +10939,34 @@ namespace OverflowHelper.core
             correctionAdd("es12", "ES.Next");
             correctionAdd("ES 12", "ES.Next");
 
+            correctionAdd("type script", "TypeScript");
+            correctionAdd("typescript", "TypeScript");
+            correctionAdd("Typescript", "TypeScript");
+            correctionAdd("TS", "TypeScript");
+            correctionAdd("Typescritp", "TypeScript");
+            correctionAdd("typescritp", "TypeScript");
+            correctionAdd("typoscript", "TypeScript");
+            // "I have this code in my typoscript"
+            correctionAdd("typescrypt", "TypeScript");
+            correctionAdd("TSC", "TypeScript");
+            correctionAdd("tsc", "TypeScript");
+            correctionAdd("ts", "TypeScript");
+            correctionAdd("Typesript", "TypeScript");
+            correctionAdd("Typscript", "TypeScript");
+            correctionAdd("typescrip", "TypeScript");
+            correctionAdd("type Script", "TypeScript");
+            correctionAdd("typeScript", "TypeScript");
+            correctionAdd("typescipt", "TypeScript");
+            correctionAdd("Ts", "TypeScript");
+            correctionAdd("TYPESCRIPT", "TypeScript");
+            correctionAdd("typesccript", "TypeScript");
+            correctionAdd("TypeSciprt", "TypeScript");
+            correctionAdd("TypeScirpt", "TypeScript");
+            correctionAdd("TSX", "TypeScript");
+
+            correctionAdd("TypeScript Playground", "TS Playground");
+            correctionAdd("TS playground", "TS Playground");
+
             correctionAdd("action script", "ActionScript");
             correctionAdd("actionscript", "ActionScript");
             correctionAdd("Actionscript", "ActionScript");
@@ -10886,31 +11015,6 @@ namespace OverflowHelper.core
             correctionAdd("Applescript", "AppleScript");
             correctionAdd("apple script", "AppleScript");
             correctionAdd("Apple Script", "AppleScript");
-
-            correctionAdd("type script", "TypeScript");
-            correctionAdd("typescript", "TypeScript");
-            correctionAdd("Typescript", "TypeScript");
-            correctionAdd("TS", "TypeScript");
-            correctionAdd("Typescritp", "TypeScript");
-            correctionAdd("typescritp", "TypeScript");
-            correctionAdd("typoscript", "TypeScript");
-            // "I have this code in my typoscript"
-            correctionAdd("typescrypt", "TypeScript");
-            correctionAdd("TSC", "TypeScript");
-            correctionAdd("tsc", "TypeScript");
-            correctionAdd("ts", "TypeScript");
-            correctionAdd("Typesript", "TypeScript");
-            correctionAdd("Typscript", "TypeScript");
-            correctionAdd("typescrip", "TypeScript");
-            correctionAdd("type Script", "TypeScript");
-            correctionAdd("typeScript", "TypeScript");
-            correctionAdd("typescipt", "TypeScript");
-            correctionAdd("Ts", "TypeScript");
-            correctionAdd("TYPESCRIPT", "TypeScript");
-            correctionAdd("typesccript", "TypeScript");
-            correctionAdd("TypeSciprt", "TypeScript");
-            correctionAdd("TypeScirpt", "TypeScript");
-            correctionAdd("TSX", "TypeScript");
 
             correctionAdd("user script", "userscript");
             correctionAdd("Userscript", "userscript");
@@ -12018,6 +12122,7 @@ namespace OverflowHelper.core
             correctionAdd("microsoft vc++", "Microsoft Visual C++");
             correctionAdd("Microsoft vc++", "Microsoft Visual C++");
             correctionAdd("Microsoft VC++", "Microsoft Visual C++");
+            correctionAdd("Vc++", "Microsoft Visual C++");
 
             correctionAdd("VC2005", "Microsoft Visual C++ 8.0");
             correctionAdd("Visual C++ 2005", "Microsoft Visual C++ 8.0");
@@ -12723,6 +12828,35 @@ namespace OverflowHelper.core
             correctionAdd("Loot", "look");
             correctionAdd("Lok", "look");
             correctionAdd("lok", "look");
+
+            correctionAdd("loks", "looks");
+            correctionAdd("look's", "looks");
+
+            correctionAdd("loocking", "looking");
+            correctionAdd("locking", "looking");
+            correctionAdd("Lookg", "looking");
+            correctionAdd("lookg", "looking");
+
+            correctionAdd("loked", "looked");
+
+            correctionAdd("look to", "look at");
+
+            correctionAdd("looking in to", "looking into");
+
+            correctionAdd("lookout", "look out");
+            correctionAdd("lookuout", "look out");
+
+            correctionAdd("good looking", "good-looking");
+
+            correctionAdd("nice looking", "nice-looking");
+
+            correctionAdd("over-looking", "overlooking");
+
+            correctionAdd("look-a-like", "lookalike");
+            correctionAdd("look a like", "lookalike");
+
+            correctionAdd("LAF", "look and feel");
+            correctionAdd("L&F", "look and feel");
 
             // Book store
             correctionAdd("Barnes and Noble", "Barnes & Noble");
@@ -13847,9 +13981,6 @@ namespace OverflowHelper.core
 
             correctionAdd("re-check", "recheck");
             correctionAdd("Re-check", "recheck");
-
-            correctionAdd("type check", "type-check");
-            correctionAdd("typecheck", "type-check");
 
             correctionAdd("counter check", "countercheck");
             correctionAdd("Counter check", "countercheck");
@@ -17017,6 +17148,8 @@ namespace OverflowHelper.core
             //
             //   <https://coolermaster.egnyte.com/dl/FUaOLGU7ju>
             //
+            // Standalone firmware: <https://www.dropbox.com/s/7j9n81cyx1da2ln/CK530V2_FW_0437_0491_4.00_202110061642.exe%284%29.zip?dl=0>
+            //
             correctionAdd("CK530v2", "CK530 V2");
 
             // A crippled (tenkeyless (80%)) mechanical
@@ -17192,14 +17325,15 @@ namespace OverflowHelper.core
             correctionAdd("via", "Via");
             correctionAdd("VIA", "Via");
 
-            // Configuration software for 
-            // mechanical keyboards 
+            // Configuration software for mechanical keyboards 
             // (QMK based?)
+            //
+            // Yes, Oryx is a heavily overloaded term.
             correctionAdd("ORYX", "Oryx");
 
-            // A crippled (40%) mechanical keyboard
+            // A crippled (40%) mechanical keyboard (QMK based)
             //
-            // A mechanical keyboard (QMK based)
+            // Yes, the name of the physicist is Planck, Max Planck
             correctionAdd("EZ Planck", "Planck EZ");
 
             // Software for mechanical keyboards (firmware?)
@@ -26899,7 +27033,7 @@ namespace OverflowHelper.core
             correctionAdd("Black hole", "black hole");
 
             correctionAdd("schottky", "Schottky");
-            correctionAdd("shotshottky", "Schottky");
+            correctionAdd("shottky", "Schottky");
             correctionAdd("Schottkey", "Schottky");
             correctionAdd("SCHOTTKY", "Schottky");
             correctionAdd("schotsky", "Schottky");
@@ -27449,16 +27583,6 @@ namespace OverflowHelper.core
             correctionAdd("QNA", "Q&A");
             correctionAdd("Q & Ad", "Q&A");
 
-            // Stack Overflow
-            correctionAdd("question banned", "question-banned");
-
-            // Stack Overflow
-            correctionAdd("asker", "questioner");
-            correctionAdd("questioneer", "questioner");
-
-            // Stack Overflow
-            correctionAdd("question-ban", "question ban");
-
             correctionAdd("automatatically", "automatically");
             correctionAdd("automaticlly", "automatically");
             correctionAdd("autoamtically", "automatically");
@@ -27527,6 +27651,16 @@ namespace OverflowHelper.core
             correctionAdd("screenschot", "screenshot");
             correctionAdd("screenshoot", "screenshot");
             correctionAdd("scrrenshot", "screenshot");
+
+            correctionAdd("1-shot", "one-shot");
+
+            correctionAdd("snap shot", "snapshot");
+            correctionAdd("shap shot", "snapshot");
+            correctionAdd("shapshot", "snapshot");
+
+            correctionAdd("head shot", "headshot");
+
+            correctionAdd("shooted", "shot");
 
             correctionAdd("world war 1", "World War I");
             correctionAdd("ww1", "World War I");
@@ -28304,17 +28438,6 @@ namespace OverflowHelper.core
 
             correctionAdd("godot", "Godot");
 
-            correctionAdd("loocking", "looking");
-            correctionAdd("locking", "looking");
-            correctionAdd("Lookg", "looking");
-            correctionAdd("lookg", "looking");
-
-            correctionAdd("good looking", "good-looking");
-
-            correctionAdd("nice looking", "nice-looking");
-
-            correctionAdd("over-looking", "overlooking");
-
             correctionAdd("good will", "goodwill");
 
             correctionAdd("good-willed", "goodwilled");
@@ -28641,6 +28764,10 @@ namespace OverflowHelper.core
             correctionAdd("bslieve", "believe");
             correctionAdd("beileve", "believe");
             correctionAdd("beleve", "believe");
+
+            correctionAdd("beleives", "believes");
+
+            correctionAdd("beleived", "believed");
 
             correctionAdd("pronounciation", "pronunciation");
             correctionAdd("pronuncian", "pronunciation");
@@ -30111,9 +30238,6 @@ namespace OverflowHelper.core
             correctionAdd("Iron", "iron");
             correctionAdd("Fe", "iron");
 
-            correctionAdd("loks", "looks");
-            correctionAdd("look's", "looks");
-
             correctionAdd("meaddle", "middle");
             correctionAdd("middlest", "middle");
 
@@ -31461,6 +31585,7 @@ namespace OverflowHelper.core
             correctionAdd("mulitple", "multiple");
             correctionAdd("multipe", "multiple");
             correctionAdd("multipile", "multiple");
+            correctionAdd("multipler", "multiple");
 
             correctionAdd("pronunce", "pronounce");
             correctionAdd("pronuounce", "pronounce");
@@ -32166,6 +32291,15 @@ namespace OverflowHelper.core
             correctionAdd("rewiev", "review");
             correctionAdd("reciew", "review");
             correctionAdd("reveiw", "review");
+
+            correctionAdd("reviewd", "reviewed");
+
+            correctionAdd("Peer Review", "peer review");
+            correctionAdd("peer-review", "peer review");
+
+            correctionAdd("peer-reviewed", "peer reviewed");
+
+            correctionAdd("prevoew", "preview");
 
             correctionAdd("semi colon", "semicolon");
             correctionAdd("semi-colon", "semicolon");
@@ -34402,8 +34536,6 @@ namespace OverflowHelper.core
             correctionAdd("tryijg", "trying");
 
             correctionAdd("tryna", "trying to");
-
-            correctionAdd("type cast", "typecast");
 
             correctionAdd("vedio", "video");
             correctionAdd("viddy", "video");
@@ -36645,8 +36777,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Shindler's list", "Schindler's List");
 
-            correctionAdd("beleives", "believes");
-
             correctionAdd("hiaerchies", "hierarchies");
 
             correctionAdd("suspicien", "suspicion");
@@ -37320,8 +37450,6 @@ namespace OverflowHelper.core
             correctionAdd("meassurement", "measurement");
             correctionAdd("measurment", "measurement");
 
-            correctionAdd("1-shot", "one-shot");
-
             correctionAdd("oportunities", "opportunities");
 
             correctionAdd("reprensent", "represent");
@@ -37460,6 +37588,10 @@ namespace OverflowHelper.core
 
             correctionAdd("re-orient", "reorient");
             correctionAdd("Re-orient", "reorient");
+
+            correctionAdd("poduced", "produced");
+
+            correctionAdd("re-produced", "reproduced");
 
             correctionAdd("reproduceable", "reproducible");
             correctionAdd("reporducible", "reproducible");
@@ -38627,6 +38759,19 @@ namespace OverflowHelper.core
             correctionAdd("Quee", "queue");
             correctionAdd("quee", "queue");
 
+            correctionAdd("Enque", "enqueue");
+            correctionAdd("enqueu", "enqueue");
+
+            correctionAdd("jumped the queue", "jump the queue");
+            correctionAdd("jumped the cue", "jump the queue");
+
+            correctionAdd("dead letter queue", "DLQ");
+            correctionAdd("dlq", "DLQ");
+            correctionAdd("dql", "DLQ");
+            correctionAdd("DQL", "DLQ");
+
+            correctionAdd("msg queue", "message queue");
+
             correctionAdd("self explanatory", "self-explanatory");
 
             correctionAdd("suspention", "suspension");
@@ -39557,9 +39702,6 @@ namespace OverflowHelper.core
 
             correctionAdd("mold", "mould");
 
-            correctionAdd("Peer Review", "peer review");
-            correctionAdd("peer-review", "peer review");
-
             correctionAdd("possibily", "possibly");
             correctionAdd("Possibily", "possibly");
             correctionAdd("Posibly", "possibly");
@@ -40222,9 +40364,6 @@ namespace OverflowHelper.core
 
             correctionAdd("CAT", "cat");
 
-            correctionAdd("look-a-like", "lookalike");
-            correctionAdd("look a like", "lookalike");
-
             correctionAdd("planed", "planned");
 
             correctionAdd("supersticious", "superstitious");
@@ -40884,9 +41023,6 @@ namespace OverflowHelper.core
 
             correctionAdd("re-pair", "repair");
 
-            correctionAdd("typechecking", "type checking");
-            correctionAdd("type-checking", "type checking");
-
             correctionAdd("purify", "Purify");
 
             correctionAdd("brusk", "brusque");
@@ -41470,8 +41606,6 @@ namespace OverflowHelper.core
             correctionAdd("tri-lingual", "trilingual");
             correctionAdd("3-lingual", "trilingual");
 
-            correctionAdd("type writer", "typewriter");
-
             correctionAdd("OPENDOCMAN", "OpenDocMan");
 
             correctionAdd("USDC", "USD Coin");
@@ -41753,10 +41887,6 @@ namespace OverflowHelper.core
             correctionAdd("Noyce", "nice");
             correctionAdd("noyce", "nice");
             correctionAdd("N O I C E", "nice");
-
-            correctionAdd("snap shot", "snapshot");
-            correctionAdd("shap shot", "snapshot");
-            correctionAdd("shapshot", "snapshot");
 
             correctionAdd("disk utility", "Disk Utility");
 
@@ -42477,12 +42607,6 @@ namespace OverflowHelper.core
 
             correctionAdd("indexes", "indices");
             correctionAdd("indicies", "indices");
-
-            correctionAdd("Enque", "enqueue");
-            correctionAdd("enqueu", "enqueue");
-
-            correctionAdd("jumped the queue", "jump the queue");
-            correctionAdd("jumped the cue", "jump the queue");
 
             correctionAdd("scenerio", "scenario");
             correctionAdd("Scanario", "scenario");
@@ -43213,9 +43337,6 @@ namespace OverflowHelper.core
 
             correctionAdd("wraped", "wrapped");
 
-            correctionAdd("LAF", "look and feel");
-            correctionAdd("L&F", "look and feel");
-
             correctionAdd("teel", "feel");
             correctionAdd("teal", "feel"); // True typo + dyslexia
             correctionAdd("fee", "feel");
@@ -43410,6 +43531,16 @@ namespace OverflowHelper.core
 
             correctionAdd("humerous", "humorous");
 
+            correctionAdd("includ", "include");
+            correctionAdd("inlcude", "include");
+            correctionAdd("inculde", "include");
+            correctionAdd("inculude", "include");
+            correctionAdd("incluede", "include");
+            correctionAdd("incude", "include");
+
+            correctionAdd("includs", "includes");
+            correctionAdd("Includs", "includes");
+
             correctionAdd("inculded", "included");
             correctionAdd("includede", "included");
             correctionAdd("inclded", "included");
@@ -43468,8 +43599,6 @@ namespace OverflowHelper.core
             correctionAdd("exercise to the reader", "exercise for the reader");
 
             correctionAdd("logs", "logarithms");
-
-            correctionAdd("peer-reviewed", "peer reviewed");
 
             correctionAdd("re-using", "reusing");
 
@@ -43876,11 +44005,6 @@ namespace OverflowHelper.core
             correctionAdd("stakblitz", "StackBlitz");
 
             correctionAdd("mess", "messy");
-
-            correctionAdd("dead letter queue", "DLQ");
-            correctionAdd("dlq", "DLQ");
-            correctionAdd("dql", "DLQ");
-            correctionAdd("DQL", "DLQ");
 
             correctionAdd("hangman", "Hangman");
 
@@ -44926,13 +45050,6 @@ namespace OverflowHelper.core
 
             correctionAdd("IPhoto", "iPhoto");
 
-            correctionAdd("includ", "include");
-            correctionAdd("inlcude", "include");
-            correctionAdd("inculde", "include");
-            correctionAdd("inculude", "include");
-            correctionAdd("incluede", "include");
-            correctionAdd("incude", "include");
-
             correctionAdd("Launchd", "launchd");
 
             correctionAdd("nativelly", "natively");
@@ -45081,8 +45198,6 @@ namespace OverflowHelper.core
             correctionAdd("FSCK", "fsck");
 
             correctionAdd("taxnomy", "taxonomy");
-
-            correctionAdd("typsetter", "typesetter");
 
             correctionAdd("circleci", "CircleCI");
             correctionAdd("CircleCi", "CircleCI");
@@ -45552,8 +45667,6 @@ namespace OverflowHelper.core
             correctionAdd("non specific", "nonspecific");
 
             correctionAdd("radistive", "radiative");
-
-            correctionAdd("Type Erasure", "type erasure");
 
             correctionAdd("accomodation", "accommodation");
 
@@ -46255,6 +46368,7 @@ namespace OverflowHelper.core
 
             correctionAdd("guies", "guys");
             correctionAdd("Guies", "guys");
+            correctionAdd("guyz", "guys");
 
             correctionAdd("Uservoice", "UserVoice");
             correctionAdd("user voice", "UserVoice");
@@ -46895,9 +47009,6 @@ namespace OverflowHelper.core
             correctionAdd("quality control", "QC");
             correctionAdd("Quality Control", "QC");
 
-            correctionAdd("TypeScript Playground", "TS Playground");
-            correctionAdd("TS playground", "TS Playground");
-
             correctionAdd("vertica", "Vertica");
 
             correctionAdd("Points of Presence", "point of presence");
@@ -47280,6 +47391,7 @@ namespace OverflowHelper.core
             correctionAdd("super-power", "superpower");
 
             correctionAdd("vsauce", "Vsauce");
+            correctionAdd("VSauce", "Vsauce");
 
             correctionAdd("cyclomatic", "cyclomatic complexity");
             correctionAdd("McCabe complexity test", "cyclomatic complexity");
@@ -48470,8 +48582,6 @@ namespace OverflowHelper.core
 
             correctionAdd("enableing", "enabling");
 
-            correctionAdd("head shot", "headshot");
-
             correctionAdd("HTS", "high-temperature superconductor");
 
             correctionAdd("over-emphasising", "overemphasising");
@@ -48531,8 +48641,6 @@ namespace OverflowHelper.core
             correctionAdd("fregment", "fragment");
 
             correctionAdd("DSO", "digital storage oscilloscope");
-
-            correctionAdd("prevoew", "preview");
 
             correctionAdd("dirver", "driver");
             correctionAdd("drover", "driver");
@@ -49682,55 +49790,6 @@ namespace OverflowHelper.core
 
             correctionAdd("if-statement", "if statement");
 
-            // Related to Stack Exchange
-            correctionAdd("first answer", "First answers review queue");
-            correctionAdd("first Answer", "First answers review queue");
-            correctionAdd("First answers", "First answers review queue");
-            correctionAdd("first answers", "First answers review queue");
-            correctionAdd("FA", "First answers review queue");
-
-            // Related to Stack Exchange
-            correctionAdd("late answer", "Late answers review queue");
-            correctionAdd("Late answers", "Late answers review queue");
-            correctionAdd("late answers", "Late answers review queue");
-            correctionAdd("late-answers review queue", "Late answers review queue");
-
-            // Related to Stack Exchange
-            correctionAdd("low quality answers", "Low quality answers review queue");
-            correctionAdd("Low quality posts", "Low quality answers review queue");
-            correctionAdd("low quality answers queue", "Low quality answers review queue");
-            correctionAdd("LQA", "Low quality answers review queue");
-            correctionAdd("Low quality answers", "Low quality answers review queue");
-
-            // Related to Stack Exchange
-            correctionAdd("\"First questions\" review", "First questions review queue");
-            correctionAdd("First questions", "First questions review queue");
-            correctionAdd("first questions", "First questions review queue");
-            correctionAdd("First posts", "First questions review queue");
-            correctionAdd("first question review queue", "First questions review queue");
-            correctionAdd("First Questions queue", "First questions review queue");
-            correctionAdd("first posts", "First questions review queue");
-            correctionAdd("first-posts", "First questions review queue");
-
-            // Related to Stack Exchange
-            correctionAdd("triage review queue", "Triage review queue");
-            correctionAdd("triage", "Triage review queue");
-            correctionAdd("Triage queue", "Triage review queue");
-            correctionAdd("triage queue", "Triage review queue");
-            correctionAdd("Triage", "Triage review queue");
-
-            // Related to Stack Exchange
-            correctionAdd("Suggested Edits", "Suggested edits review queue");
-            correctionAdd("Suggested edits", "Suggested edits review queue");
-            correctionAdd("suggested edits", "Suggested edits review queue");
-            correctionAdd("Suggested Edit", "Suggested edits review queue");
-            correctionAdd("suggested edit queue", "Suggested edits review queue");
-            correctionAdd("suggested edits queue", "Suggested edits review queue");
-
-            // Stack Exchange
-            correctionAdd("single source", "The single source of truth for the site list");
-            correctionAdd("single source of truth", "The single source of truth for the site list");
-
             correctionAdd("unity", "Unity");
 
             correctionAdd("aeolian", "Aeolian mode");
@@ -50805,8 +50864,6 @@ namespace OverflowHelper.core
 
             correctionAdd("aging", "ageing");
 
-            correctionAdd("look to", "look at");
-
             correctionAdd("subjectif", "subjective");
 
             correctionAdd("Cockroach DB", "CockroachDB");
@@ -51100,9 +51157,6 @@ namespace OverflowHelper.core
             correctionAdd("interfare", "interfere");
 
             correctionAdd("symantics", "semantics");
-
-            correctionAdd("dissassemble", "disassemble");
-            correctionAdd("deassemble", "disassemble");
 
             correctionAdd("HiZ", "high impedance");
             correctionAdd("hi-Z", "high impedance");
@@ -51416,9 +51470,6 @@ namespace OverflowHelper.core
             correctionAdd("Transmac", "TransMac");
 
             correctionAdd("pain killer", "painkiller");
-
-            correctionAdd("typesafe", "type-safe");
-            correctionAdd("type-save", "type-safe");
 
             correctionAdd("extensionality", "axiom of extensionality");
 
@@ -51926,6 +51977,8 @@ namespace OverflowHelper.core
 
             correctionAdd("asssembled", "assembled");
 
+            correctionAdd("reassamble", "reassemble");
+
             correctionAdd("iterspersed", "interspersed");
 
             correctionAdd("interweaved", "interwoven");
@@ -52158,15 +52211,6 @@ namespace OverflowHelper.core
             correctionAdd("myvidoop", "myVidoop");
 
             correctionAdd("running costs", "operating costs");
-
-            correctionAdd("text as images", "text as an image");
-            correctionAdd("text as image", "text as an image");
-            correctionAdd("code as an image", "text as an image");
-            correctionAdd("code as image", "text as an image");
-            correctionAdd("image as code", "text as an image");
-            correctionAdd("screenshots of code", "text as an image");
-            correctionAdd("Images as text", "text as an image");
-            correctionAdd("images as text", "text as an image");
 
             // Alternative URL: <https://github.com/grafana/grafana>
             // (is it actually the same thing?)
@@ -52735,9 +52779,6 @@ namespace OverflowHelper.core
 
             correctionAdd("dissappointedly", "disappointedly");
 
-            // Stack Overflow
-            correctionAdd("H&I", "Help & Improvement queue");
-
             correctionAdd("intervall", "interval");
 
             correctionAdd("Power Law", "power law");
@@ -52803,13 +52844,9 @@ namespace OverflowHelper.core
             correctionAdd("telex", "telex terminal");
             correctionAdd("Telex", "telex terminal");
 
-            correctionAdd("typeout", "type out");
-
             correctionAdd("classificating", "classifying");
 
             correctionAdd("Comply", "comply");
-
-            correctionAdd("re-produced", "reproduced");
 
             correctionAdd("arrnaging", "arranging");
 
@@ -53216,8 +53253,6 @@ namespace OverflowHelper.core
 
             correctionAdd("digitial", "digital");
 
-            correctionAdd("looking in to", "looking into");
-
             correctionAdd("Maintainability", "maintainability");
 
             correctionAdd("tbf", "to be fair");
@@ -53554,9 +53589,6 @@ namespace OverflowHelper.core
 
             correctionAdd("on-boarded", "onboarded");
 
-            correctionAdd("lookout", "look out");
-            correctionAdd("lookuout", "look out");
-
             // Artificial neural networks
             correctionAdd("Perceptron", "perceptron");
 
@@ -53640,8 +53672,6 @@ namespace OverflowHelper.core
             correctionAdd("granualrities", "granularities");
 
             correctionAdd("segmentor", "segmenter");
-
-            correctionAdd("tys", "types");
 
             correctionAdd("desgined", "designed");
 
@@ -54326,9 +54356,6 @@ namespace OverflowHelper.core
 
             correctionAdd("torah", "Torah");
 
-            correctionAdd("TypeSense", "Typesense");
-            correctionAdd("typesense", "Typesense");
-
             correctionAdd("bla", "blah");
             correctionAdd("blabla", "blah");
 
@@ -54496,24 +54523,33 @@ namespace OverflowHelper.core
 
             correctionAdd("XINPUT", "xinput");
 
-            correctionAdd("beleived", "believed");
+            correctionAdd("cash rich", "cash-rich");
 
-            correctionAdd("loked", "looked");
+            correctionAdd("clear-itemproperty", "Clear-ItemProperty");
 
-            correctionAdd("msg queue", "message queue");
+            correctionAdd("debugability", "debuggability");
 
-            correctionAdd("poduced", "produced");
+            correctionAdd("debugable", "debuggable");
 
-            correctionAdd("reassamble", "reassemble");
+            correctionAdd("general availability", "general availability (GA)");
+            correctionAdd("General Availability", "general availability (GA)");
 
-            correctionAdd("reviewd", "reviewed");
+            correctionAdd("nit-picking", "nitpicking");
 
-            correctionAdd("includs", "includes");
-            correctionAdd("Includs", "includes");
+            correctionAdd("non-sustainable", "nonsustainable");
+            correctionAdd("non sustainable", "nonsustainable");
 
-            correctionAdd("shooted", "shot");
+            correctionAdd("testabilty", "testability");
 
-            correctionAdd("typesystem", "type system");
+            correctionAdd("whish", "wish");
+
+            correctionAdd("determanistic", "deterministic");
+
+            correctionAdd("units in the last place", "ulp");
+            correctionAdd("ULP", "ulp");
+            correctionAdd("Units in the Last Place", "ulp");
+
+            correctionAdd("undetermanistic", "undeterministic");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -84262,6 +84298,30 @@ namespace OverflowHelper.core
 
             URL_Add("Rapoo V700RGB", "http://www.rapoo.com/product/207");
 
+            URL_Add("cash-rich", "https://dictionary.cambridge.org/dictionary/english/cash-rich");
+
+            URL_Add("Clear-ItemProperty", "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/clear-itemproperty");
+
+            URL_Add("debuggability", "https://en.wiktionary.org/wiki/debuggability#Noun");
+
+            URL_Add("debuggable", "https://en.wiktionary.org/wiki/debuggable#Adjective");
+
+            URL_Add("general availability (GA)", "https://en.wikipedia.org/wiki/Software_release_life_cycle#General_availability_(GA)");
+
+            URL_Add("nitpicking", "https://en.wiktionary.org/wiki/nitpicking#Noun");
+
+            URL_Add("nonsustainable", "https://en.wiktionary.org/wiki/nonsustainable#Adjective");
+
+            URL_Add("testability", "https://en.wiktionary.org/wiki/testability#Noun");
+
+            URL_Add("wish", "https://en.wiktionary.org/wiki/wish#Verb");
+
+            URL_Add("deterministic", "https://en.wiktionary.org/wiki/deterministic#Adjective");
+
+            URL_Add("ulp", "https://en.wikipedia.org/wiki/Unit_in_the_last_place");
+
+            URL_Add("undeterministic", "https://en.wiktionary.org/wiki/undeterministic#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -86370,6 +86430,7 @@ namespace OverflowHelper.core
             correctionAdd("ID_", "id_");
 
             correctionAdd("finde_", "fine_");
+            correctionAdd("fin_", "fine_");
 
             correctionAdd("Top_", "top_");
 
@@ -86718,16 +86779,26 @@ namespace OverflowHelper.core
 
             correctionAdd("TUI_", "text-based user interface_");
 
-            correctionAdd("left-click_", "left-click key code (QMK)_");
-            correctionAdd("KC_MS_BTN1_", "left-click key code (QMK)_");
-            correctionAdd("left-click key code_", "left-click key code (QMK)_");
+            // Mouse left-click in QMK
+            //
+            // Alternative URL: <https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md>
+            correctionAdd("left-click_", "left-click key code (KC_BTN1. QMK)_");
+            correctionAdd("KC_MS_BTN1_", "left-click key code (KC_BTN1. QMK)_");
+            correctionAdd("left-click key code_", "left-click key code (KC_BTN1. QMK)_");
+            correctionAdd("left-click key code (QMK)_", "left-click key code (KC_BTN1. QMK)_");
 
-            // Mouse right-click
-            correctionAdd("right-click_", "right-click key code (QMK)_");
-            correctionAdd("KC_MS_BTN2_", "right-click key code (QMK)_");
-            correctionAdd("right-click key code_", "right-click key code (QMK)_");
+            // Mouse right-click in QMK
+            //
+            // Alternative URL: <https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md>
+            correctionAdd("right-click_", "right-click key code (KC_BTN2. QMK)_");
+            correctionAdd("KC_MS_BTN2_", "right-click key code (KC_BTN2. QMK)_");
+            correctionAdd("right-click key code_", "right-click key code (KC_BTN2. QMK)_");
+            correctionAdd("right-click key code (QMK)_", "right-click key code (KC_BTN2. QMK)_");
 
+            // QMK
             correctionAdd("Tap Dance_", "tap dance_");
+
+            correctionAdd("Facebook_", "Meta_");
 
             // URL mappings
             //
@@ -88094,11 +88165,13 @@ namespace OverflowHelper.core
 
             URL_Add("text-based user interface_", "https://en.wikipedia.org/wiki/Text-based_user_interface");
 
-            URL_Add("left-click key code (QMK)_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+            URL_Add("left-click key code (KC_BTN1. QMK)_", "https://github.com/qmk/qmk_firmware/blob/master/docs/feature_mouse_keys.md");
 
-            URL_Add("right-click key code (QMK)_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+            URL_Add("right-click key code (KC_BTN2. QMK)_", "https://github.com/qmk/qmk_firmware/blob/master/docs/feature_mouse_keys.md");
 
             URL_Add("tap dance_", "https://github.com/qmk/qmk_firmware/blob/master/docs/feature_tap_dance.md");
+
+            URL_Add("Meta_", "https://en.wikipedia.org/wiki/Meta_Platforms");
 
         } //addLookupData_alternativeWordSet()
 
