@@ -2414,6 +2414,9 @@ namespace OverflowHelper.core
             correctionAdd("Englis", "English");
             correctionAdd("englisch", "English");
 
+            correctionAdd("are belong to us", "broken English");
+            correctionAdd("belong to us", "broken English");
+
             correctionAdd("non-english", "non-English");
             correctionAdd("nonenglish", "non-English");
             correctionAdd("Non English", "non-English");
@@ -2429,9 +2432,6 @@ namespace OverflowHelper.core
 
             // English
             correctionAdd("TOEFL", "Test of English as a Foreign Language");
-
-            correctionAdd("are belong to us", "broken English");
-            correctionAdd("belong to us", "broken English");
 
             correctionAdd("dict", "dictionary");
             correctionAdd("disctionary", "dictionary");
@@ -2460,6 +2460,14 @@ namespace OverflowHelper.core
             correctionAdd("dout", "question (Indian English)");
             correctionAdd("doubts", "question (Indian English)");
 
+            correctionAdd("english man", "Englishman");
+
+            // English
+            correctionAdd("NGRAM", "n-gram");
+            correctionAdd("nGRAM", "n-gram");
+
+            correctionAdd("plain english", "plain English");
+
             correctionAdd("doubtfull", "doubtful");
 
             correctionAdd("the benefit of the doubt", "benefit of the doubt");
@@ -2471,12 +2479,6 @@ namespace OverflowHelper.core
             correctionAdd("shadow of a doubt", "beyond a shadow of a doubt");
 
             correctionAdd("in doubts", "in doubt");
-
-            correctionAdd("english man", "Englishman");
-
-            // English
-            correctionAdd("NGRAM", "n-gram");
-            correctionAdd("nGRAM", "n-gram");
 
             // E.g. India
             correctionAdd("Fatalism", "fatalism");
@@ -8180,6 +8182,8 @@ namespace OverflowHelper.core
             correctionAdd("Flak Overflow", "Stack&nbsp;Overflow");
             correctionAdd("Flak overflow", "Stack&nbsp;Overflow");
             correctionAdd("SO.main", "Stack&nbsp;Overflow");
+            correctionAdd("StaffOverflow", "Stack&nbsp;Overflow");
+            correctionAdd("Staxk Overflow", "Stack&nbsp;Overflow");
 
             correctionAdd("SE", "Stack&nbsp;Exchange");
             correctionAdd("stackexchange", "Stack&nbsp;Exchange");
@@ -9215,6 +9219,7 @@ namespace OverflowHelper.core
             correctionAdd("ELU", "English&nbsp;Language & Usage (Stack Exchange site)");
             correctionAdd("English Language & Usage (Stack Exchange site)", "English&nbsp;Language & Usage (Stack Exchange site)");
             correctionAdd("English&nbsp;Language & Usage", "English&nbsp;Language & Usage (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("English.SE", "English&nbsp;Language & Usage (Stack Exchange site)");
 
             correctionAdd("Wordpress dev", "WordPress&nbsp;Development (Stack Exchange site)");
             correctionAdd("WordPress development", "WordPress&nbsp;Development (Stack Exchange site)");
@@ -9355,6 +9360,7 @@ namespace OverflowHelper.core
             correctionAdd("TeX&nbsp;-&nbsp;LaTeX", "TeX&nbsp;-&nbsp;LaTeX (Stack Exchange site)"); // Sort of identity mapping
 
             correctionAdd("Puzzling", "Puzzling (Stack Exchange site)");
+            correctionAdd("Puzzling.SE", "Puzzling (Stack Exchange site)");
 
             correctionAdd("photography", "Photography (Stack Exchange site)");
             correctionAdd("Photography", "Photography (Stack Exchange site)");
@@ -10556,6 +10562,7 @@ namespace OverflowHelper.core
             correctionAdd("jupyter lab", "JupyterLab");
             correctionAdd("Jupyter Lab", "JupyterLab");
             correctionAdd("Jupyter LAB", "JupyterLab");
+            correctionAdd("jupyter labs", "JupyterLab");
 
             correctionAdd("biopython", "Biopython");
 
@@ -20341,7 +20348,7 @@ namespace OverflowHelper.core
 
             correctionAdd("wait-job", "Wait-Job"); // Of PowerShell...
 
-            correctionAdd("clear-itemproperty", "Clear-ItemProperty");
+            correctionAdd("clear-itemproperty", "Clear-ItemProperty"); // Of PowerShell...
 
             correctionAdd("ediot", "edit");
             correctionAdd("edti", "edit");
@@ -23611,6 +23618,7 @@ namespace OverflowHelper.core
             correctionAdd("active domain", "Active Directory");
 
             correctionAdd("simmetry", "symmetry");
+            correctionAdd("semetry", "symmetry");
 
             correctionAdd("Biochemistry", "biochemistry");
             correctionAdd("BioChem", "biochemistry");
@@ -23699,6 +23707,7 @@ namespace OverflowHelper.core
             correctionAdd("I\\m", "I’m");
             correctionAdd("It'm", "I’m");
             correctionAdd("ım", "I’m"); // The "i" is U+0131 (LATIN SMALL LETTER DOTLESS I) used in Turkey, etc. (<https://en.wikipedia.org/wiki/Dotless_I>) UTF-8: 304 261 (octal). 0xC4 0xB1 (hexadecimal). <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=300>. It can be searched for using the regular expression \x{0131} ("\u0131" in Visual Studio Code and some others).
+            correctionAdd("I yam", "I’m");
 
             correctionAdd("turkish", "Turkish");
 
@@ -26317,6 +26326,7 @@ namespace OverflowHelper.core
             correctionAdd("disambiaguation", "disambiguation");
 
             correctionAdd("dissambiguating", "disambiguating");
+            correctionAdd("disambugating", "disambiguating");
 
             correctionAdd("disambigate", "disambiguate");
             correctionAdd("disambuguate", "disambiguate");
@@ -27493,6 +27503,7 @@ namespace OverflowHelper.core
             correctionAdd("abviously", "obviously");
             correctionAdd("Obvoiusly", "obviously");
             correctionAdd("obvoiusly", "obviously");
+            correctionAdd("obs", "obviously");
 
             correctionAdd("trello", "Trello");
 
@@ -27910,6 +27921,7 @@ namespace OverflowHelper.core
             correctionAdd("qt's", "questions");
             correctionAdd("qts", "questions");
             correctionAdd("questiond", "questions");
+            correctionAdd("qusetions", "questions");
 
             correctionAdd("questionmark", "question mark");
 
@@ -28454,6 +28466,11 @@ namespace OverflowHelper.core
             correctionAdd("retreive", "retrieve");
             correctionAdd("Retrive", "retrieve");
             correctionAdd("reteive", "retrieve");
+
+            correctionAdd("retreiving", "retrieving");
+            correctionAdd("retriving", "retrieving");
+
+            correctionAdd("re-trigger", "retrigger");
 
             correctionAdd("kicad", "KiCad");
             correctionAdd("Kicad", "KiCad");
@@ -29591,6 +29608,7 @@ namespace OverflowHelper.core
             correctionAdd("previosly", "previously");
             correctionAdd("previusly", "previously");
             correctionAdd("preaviously", "previously");
+            correctionAdd("priorly", "previously");
 
             correctionAdd("profissional", "professional");
             correctionAdd("pro", "professional");
@@ -30073,6 +30091,8 @@ namespace OverflowHelper.core
             correctionAdd("solutution", "solution");
             correctionAdd("solt", "solution");
             correctionAdd("soluce", "solution");
+            correctionAdd("SOULUTION", "solution");
+            correctionAdd("Soulution", "solution");
 
             correctionAdd("threeshold", "threshold");
             correctionAdd("treeshold", "threshold");
@@ -31168,6 +31188,16 @@ namespace OverflowHelper.core
             correctionAdd("Space x", "SpaceX");
             correctionAdd("SPACEX", "SpaceX");
 
+            // SpaceX
+            correctionAdd("dragon 2", "Dragon 2");
+
+            // SpaceX
+            correctionAdd("F9", "Falcon 9");
+            correctionAdd("Falcon", "Falcon 9");
+
+            // SpaceX
+            correctionAdd("falcon heavy", "Falcon Heavy");
+
             correctionAdd("tcpview", "TCPView");
 
             correctionAdd("Tera-term", "Tera Term");
@@ -31413,6 +31443,7 @@ namespace OverflowHelper.core
             correctionAdd("ArXiv", "arXiv");
             correctionAdd("arkivx", "arXiv");
             correctionAdd("Arxiv", "arXiv");
+            correctionAdd("axiv", "arXiv");
 
             correctionAdd("buddhist", "Buddhist");
 
@@ -35638,12 +35669,6 @@ namespace OverflowHelper.core
 
             correctionAdd("atlas V", "Atlas V");
 
-            correctionAdd("dragon 2", "Dragon 2");
-
-            correctionAdd("F9", "Falcon 9");
-
-            correctionAdd("falcon heavy", "Falcon Heavy");
-
             correctionAdd("Teams", "Microsoft Teams");
 
             correctionAdd("Office365", "Office 365");
@@ -39388,6 +39413,7 @@ namespace OverflowHelper.core
             correctionAdd("Free lancing", "freelancing");
 
             correctionAdd("genereic", "generic");
+            correctionAdd("genreric", "generic");
 
             correctionAdd("respectt", "respect");
 
@@ -41543,8 +41569,6 @@ namespace OverflowHelper.core
             correctionAdd("reathenticate", "reauthenticate");
 
             correctionAdd("relay", "rely");
-
-            correctionAdd("re-trigger", "retrigger");
 
             correctionAdd("uninitialized", "uninitialised");
             correctionAdd("un-initialized", "uninitialised");
@@ -43868,6 +43892,7 @@ namespace OverflowHelper.core
             correctionAdd("Bin Laden", "Osama bin Laden");
 
             correctionAdd("qanon", "QAnon");
+            correctionAdd("Q-Anon", "QAnon");
 
             correctionAdd("tanzania", "Tanzania");
 
@@ -46113,6 +46138,8 @@ namespace OverflowHelper.core
             correctionAdd("re-inventing", "reinventing");
 
             correctionAdd("raptor engine", "Raptor engine");
+            correctionAdd("Raptor", "Raptor engine");
+            correctionAdd("raptor", "Raptor engine");
 
             correctionAdd("Sabatier process", "Sabatier reaction");
 
@@ -52209,6 +52236,7 @@ namespace OverflowHelper.core
 
             correctionAdd("PineScript", "Pine Script");
             correctionAdd("Pine script", "Pine Script");
+            correctionAdd("pinescript", "Pine Script");
 
             correctionAdd("Jeff Atwood's giant S", "Pluralization Bug");
             correctionAdd("giant S", "Pluralization Bug");
@@ -54644,11 +54672,6 @@ namespace OverflowHelper.core
 
             correctionAdd("odoo", "Odoo");
 
-            correctionAdd("plain english", "plain English");
-
-            correctionAdd("retreiving", "retrieving");
-            correctionAdd("retriving", "retrieving");
-
             correctionAdd("ride", "rid");
 
             correctionAdd("sloppiests", "sloppiest");
@@ -54656,6 +54679,20 @@ namespace OverflowHelper.core
             correctionAdd("termux", "Termux");
 
             correctionAdd("worm-hole", "wormhole");
+
+            correctionAdd("longshot", "long shot");
+
+            correctionAdd("posessing", "possessing");
+
+            correctionAdd("re-purpose", "repurpose");
+
+            correctionAdd("re-tagging", "retagging");
+
+            correctionAdd("snake_case", "snake case");
+
+            correctionAdd("specifity", "specificity");
+
+            correctionAdd("buddha", "the Buddha");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -84470,6 +84507,20 @@ namespace OverflowHelper.core
 
             URL_Add("wormhole", "https://en.wiktionary.org/wiki/wormhole#Noun");
 
+            URL_Add("long shot", "https://en.wiktionary.org/wiki/long_shot#Noun");
+
+            URL_Add("possessing", "https://en.wiktionary.org/wiki/possess#Verb");
+
+            URL_Add("repurpose", "https://en.wiktionary.org/wiki/repurpose#Verb");
+
+            URL_Add("retagging", "https://en.wiktionary.org/wiki/retag#Verb");
+
+            URL_Add("snake case", "https://en.wikipedia.org/wiki/Snake_case");
+
+            URL_Add("specificity", "https://en.wiktionary.org/wiki/specificity#Noun");
+
+            URL_Add("the Buddha", "https://en.wiktionary.org/wiki/Buddha#Proper_noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -86948,6 +86999,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Facebook_", "Meta_");
 
+            correctionAdd("superheavy_", "Super Heavy_");
+
             // URL mappings
             //
             //
@@ -88320,6 +88373,8 @@ namespace OverflowHelper.core
             URL_Add("tap dance_", "https://github.com/qmk/qmk_firmware/blob/master/docs/feature_tap_dance.md");
 
             URL_Add("Meta_", "https://en.wikipedia.org/wiki/Meta_Platforms");
+
+            URL_Add("Super Heavy_", "https://en.wikipedia.org/wiki/SpaceX_Super_Heavy");
 
         } //addLookupData_alternativeWordSet()
 
