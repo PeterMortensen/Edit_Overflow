@@ -1642,6 +1642,10 @@ namespace OverflowHelper.core
             correctionAdd("Amp", "ampere"); // Not incorrect, just another form
             correctionAdd("Ampere", "ampere");
 
+            correctionAdd("milliampere-hour", "mA·h");
+            correctionAdd("mAh", "mA·h");
+            correctionAdd("mah", "mA·h");
+
             // Electronics
             correctionAdd("pawer", "power");
             correctionAdd("pwer", "power");
@@ -1871,6 +1875,14 @@ namespace OverflowHelper.core
             correctionAdd("GFCI", "residual-current device");
 
             correctionAdd("Electrical Ground Rod", "ground rod");
+
+            correctionAdd("Osmand", "OsmAnd");
+
+            correctionAdd("Wolfram Alpha", "WolframAlpha");
+            correctionAdd("wolfram alpha", "WolframAlpha");
+            correctionAdd("wolfarm alpha", "WolframAlpha");
+            correctionAdd("WA", "WolframAlpha");
+            correctionAdd("Wolfram alpha", "WolframAlpha");
 
             // Science fiction. Film.
             correctionAdd("Back to the Future", "flux capacitor");
@@ -4134,8 +4146,6 @@ namespace OverflowHelper.core
             correctionAdd("osmnx", "OSMnx");
 
             correctionAdd("osmc", "OSMC");
-
-            correctionAdd("Osmand", "OsmAnd");
 
             correctionAdd("josm", "JOSM");
 
@@ -7003,6 +7013,8 @@ namespace OverflowHelper.core
             correctionAdd("identifyable", "identifiable");
 
             correctionAdd("identitfier", "identifier");
+            correctionAdd("indentifer", "identifier");
+            correctionAdd("indentifier", "identifier");
 
             correctionAdd("identificator", "identification");
             correctionAdd("identificators", "identification");
@@ -7010,7 +7022,158 @@ namespace OverflowHelper.core
             correctionAdd("IDP", "identity provider");
             correctionAdd("IdP", "identity provider");
 
+            correctionAdd("auth", "authentication"); // Expansion.
+            correctionAdd("Auth", "authentication"); // Expansion, but case problem
+            correctionAdd("authunticate", "authentication"); // Not 100% correct (noun vs. verb form)
+            correctionAdd("authentification", "authentication");
+            correctionAdd("authenticaion", "authentication");
+            correctionAdd("Authentiaction", "authentication"); // Expansion, but case problem
+            correctionAdd("authentiaction", "authentication");
+            correctionAdd("authencation", "authentication");
+            correctionAdd("authenticatrion", "authentication");
+            correctionAdd("Authentication", "authentication");
+            correctionAdd("AUTH", "authentication");
+            correctionAdd("autheticatation", "authentication");
+            correctionAdd("authenticatation", "authentication");
+            correctionAdd("authn", "authentication");
+
+            correctionAdd("Authenticate", "authenticate");
+            correctionAdd("authenticaticate", "authenticate");
+            correctionAdd("athenticate", "authenticate");
+
+            correctionAdd("Re-authenticate", "reauthenticate");
+            correctionAdd("re-authenticate", "reauthenticate");
+            correctionAdd("reathenticate", "reauthenticate");
+
+            correctionAdd("authz", "authorization");
+            correctionAdd("Authorization", "authorization");
+            correctionAdd("authorizaion", "authorization");
+
+            correctionAdd("2-factor auth", "two-factor authentication");
+            correctionAdd("2 factor auth", "two-factor authentication");
+            correctionAdd("two-factor auth", "two-factor authentication");
+            correctionAdd("two factor auth", "two-factor authentication");
+            correctionAdd("Two-Factor Authentication", "two-factor authentication");
+            correctionAdd("Two Factor Authentication", "two-factor authentication");
+            correctionAdd("2FA", "two-factor authentication");
+            correctionAdd("two factor authentication", "two-factor authentication");
+            correctionAdd("2-factor authentication", "two-factor authentication");
+            correctionAdd("Two-factor", "two-factor authentication");
+            correctionAdd("two-factor", "two-factor authentication");
+            correctionAdd("2 factor", "two-factor authentication");
+            correctionAdd("Two Factor authentication", "two-factor authentication");
+            correctionAdd("2fa", "two-factor authentication");
+            correctionAdd("Two factor authentication", "two-factor authentication");
+            correctionAdd("2FO", "two-factor authentication");
+            correctionAdd("TFA", "two-factor authentication");
+            correctionAdd("two-step verification", "two-factor authentication");
+            correctionAdd("2SV", "two-factor authentication");
+            correctionAdd("2-Step Verification", "two-factor authentication");
+            correctionAdd("2 factor authentication", "two-factor authentication");
+
+            correctionAdd("12 factor app", "Twelve-Factor Application methodology");
+
             correctionAdd("MFA", "multi-factor authentication");
+
+            correctionAdd("Oauth", "OAuth");
+            correctionAdd("oauth", "OAuth");
+            correctionAdd("OAUTH", "OAuth");
+            correctionAdd("oAuth", "OAuth");
+            correctionAdd("open auth", "OAuth");
+            correctionAdd("outh", "OAuth");
+            correctionAdd("Aouth", "OAuth");
+            correctionAdd("aouth", "OAuth");
+
+            correctionAdd("cryptographic message syntax", "Cryptographic Message Syntax");
+
+            correctionAdd("oauth 2", "OAuth 2");
+            correctionAdd("oauth2", "OAuth 2");
+            correctionAdd("OAuth2", "OAuth 2");
+            correctionAdd("Oauth2", "OAuth 2");
+            correctionAdd("OAUTH2", "OAuth 2");
+            correctionAdd("OAuth 2.0", "OAuth 2");
+
+            correctionAdd("auth0", "Auth0");
+
+            correctionAdd("openid", "OpenID");
+            correctionAdd("openID", "OpenID");
+            correctionAdd("openId", "OpenID");
+            correctionAdd("open id", "OpenID");
+            correctionAdd("OpenId", "OpenID");
+            correctionAdd("open-id", "OpenID");
+            correctionAdd("open ID", "OpenID");
+            correctionAdd("Open ID", "OpenID");
+            correctionAdd("Open Id", "OpenID");
+            correctionAdd("OPENID", "OpenID");
+            correctionAdd("Open-ID", "OpenID");
+
+            correctionAdd("myopenid", "MyOpenID");
+            correctionAdd("myOpenId", "MyOpenID");
+            correctionAdd("myOpenID", "MyOpenID");
+            correctionAdd("MyOpenId", "MyOpenID");
+
+            correctionAdd("authenticode", "Authenticode");
+            correctionAdd("AuthentiCode", "Authenticode");
+
+            correctionAdd("cert", "certificate");
+            correctionAdd("Cert", "certificate");
+            correctionAdd("certs", "certificate"); // Expansion, not 100% correct. Add a plural feature?
+            correctionAdd("certicificate", "certificate"); // Misspelling.
+            correctionAdd("certicate", "certificate");
+            correctionAdd("certifcate", "certificate");
+            correctionAdd("certitificate", "certificate");
+            correctionAdd("cerificate", "certificate");
+            correctionAdd("Certificate", "certificate");
+            correctionAdd("certficate", "certificate");
+            correctionAdd("Certifiacte", "certificate");
+            correctionAdd("certifiacte", "certificate");
+            correctionAdd("certificat", "certificate");
+
+            correctionAdd("CA", "certificate authority");
+            correctionAdd("Certificate authority", "certificate authority");
+            correctionAdd("Certificate Authority", "certificate authority");
+            correctionAdd("Certification Authority", "certificate authority");
+
+            correctionAdd("RootCA", "root certificate authority");
+            correctionAdd("Root Ca", "root certificate authority");
+            correctionAdd("Root CA", "root certificate authority");
+            correctionAdd("Root certificate authority", "root certificate authority");
+
+            correctionAdd("certbot", "Certbot");
+
+            correctionAdd("certify the web", "Certify The Web");
+
+            // Related to certificates and cryptography
+            correctionAdd("let's encrypt", "Let's Encrypt");
+            correctionAdd("lets encrypt", "Let's Encrypt");
+            correctionAdd("letsencrypt", "Let's Encrypt");
+            correctionAdd("Let's encrypt", "Let's Encrypt");
+            correctionAdd("Lets Encrypt", "Let's Encrypt");
+            correctionAdd("LetsEncrypt", "Let's Encrypt");
+
+            correctionAdd("enrypt", "encrypt");
+            correctionAdd("incrypt", "encrypt");
+
+            correctionAdd("crypto", "cryptography");
+            correctionAdd("crypt", "cryptography");
+            correctionAdd("Cryptography", "cryptography");
+            correctionAdd("cypto", "cryptography");
+
+            correctionAdd("ECC", "elliptic-curve cryptography");
+
+            correctionAdd("Cryptographically", "cryptographically");
+            correctionAdd("cryptorgaphically", "cryptographically");
+
+            correctionAdd("Cryptographically Secure", "cryptographically secure");
+
+            correctionAdd("Cryptanalysis", "cryptanalysis");
+
+            // Related to cryptography
+            correctionAdd("OBF", "OFB");
+
+            correctionAdd("ESTA", "Electronic System for Travel Authorization");
+
+            correctionAdd("RMA", "return merchandise authorization");
 
             correctionAdd("idendical", "identical");
             correctionAdd("indentical", "identical");
@@ -9825,32 +9988,6 @@ namespace OverflowHelper.core
 
             correctionAdd("spagetti-code", "spaghetti code");
 
-            correctionAdd("authenticode", "Authenticode");
-            correctionAdd("AuthentiCode", "Authenticode");
-
-            correctionAdd("auth", "authentication"); // Expansion.
-            correctionAdd("Auth", "authentication"); // Expansion, but case problem
-            correctionAdd("authunticate", "authentication"); // Not 100% correct (noun vs. verb form)
-            correctionAdd("authentification", "authentication");
-            correctionAdd("authenticaion", "authentication");
-            correctionAdd("Authentiaction", "authentication"); // Expansion, but case problem
-            correctionAdd("authentiaction", "authentication");
-            correctionAdd("authencation", "authentication");
-            correctionAdd("authenticatrion", "authentication");
-            correctionAdd("Authentication", "authentication");
-            correctionAdd("AUTH", "authentication");
-            correctionAdd("autheticatation", "authentication");
-            correctionAdd("authenticatation", "authentication");
-            correctionAdd("authn", "authentication");
-
-            correctionAdd("Authenticate", "authenticate");
-            correctionAdd("authenticaticate", "authenticate");
-            correctionAdd("athenticate", "authenticate");
-
-            correctionAdd("Authorization", "authorization");
-            correctionAdd("authorizaion", "authorization");
-            correctionAdd("authz", "authorization");
-
             correctionAdd("autuomn", "autumn");
             correctionAdd("Autumn", "autumn");
             correctionAdd("autum", "autumn");
@@ -10316,6 +10453,7 @@ namespace OverflowHelper.core
             correctionAdd("fpm", "FastCGI Process Manager");
             correctionAdd("PHP-FPM", "FastCGI Process Manager");
             correctionAdd("php-fpm", "FastCGI Process Manager");
+            correctionAdd("FPM", "FastCGI Process Manager");
 
             correctionAdd("SuPHP", "suPHP");
 
@@ -11242,6 +11380,7 @@ namespace OverflowHelper.core
             correctionAdd("jav script", "JavaScript");
             correctionAdd("javascrit", "JavaScript");
             correctionAdd("javaScripts", "JavaScript");
+            correctionAdd("javasccript", "JavaScript");
 
             correctionAdd("vanilla Javascript", "vanilla JavaScript");
             correctionAdd("vanilla js", "vanilla JavaScript");
@@ -13251,6 +13390,7 @@ namespace OverflowHelper.core
             correctionAdd("facebook messenger", "Facebook Messenger");
             correctionAdd("Facebook messenger", "Facebook Messenger");
             correctionAdd("messager", "Facebook Messenger");
+            correctionAdd("messeneger", "Facebook Messenger");
 
             correctionAdd("Metaverse", "Facebook Metaverse");
 
@@ -17582,6 +17722,7 @@ namespace OverflowHelper.core
             correctionAdd("Keychron V5", "Keychron V5 ISO");
             correctionAdd("Keytron V5", "Keychron V5 ISO");
             correctionAdd("keychron v5", "Keychron V5 ISO");
+            correctionAdd("Keytron 5", "Keychron V5 ISO");
 
             // A Chinese manufacturer, incl. of mechanical keyboards
             correctionAdd("CoolerMaster", "Cooler Master");
@@ -17655,8 +17796,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("CK530v2", "CK530 V2");
 
-            // A crippled (tenkeyless (80%)) mechanical
-            // keyboard from Cooler Master
+            // A full-size mechanical keyboard from Cooler Master
             //
             // Allegedly, with hot hot-swappable optical switches.
             //
@@ -17852,6 +17992,7 @@ namespace OverflowHelper.core
             correctionAdd("hot swap", "hot-swappable");
             correctionAdd("hot-swap", "hot-swappable");
             correctionAdd("Hot-Swappable", "hot-swappable");
+            correctionAdd("Hot Swappable", "hot-swappable");
 
             // Related to keyboards
             correctionAdd("NKRO", "n-key rollover");
@@ -19296,6 +19437,7 @@ namespace OverflowHelper.core
             correctionAdd("extected", "expected");
             correctionAdd("Expeted", "expected");
             correctionAdd("expeted", "expected");
+            correctionAdd("expeteced", "expected");
 
             correctionAdd("expect", "Expect");
             correctionAdd("EXPECT", "Expect");
@@ -21385,32 +21527,6 @@ namespace OverflowHelper.core
             correctionAdd("Symphony", "Symfony");
             correctionAdd("symphony", "Symfony");
 
-            correctionAdd("openid", "OpenID");
-            correctionAdd("openID", "OpenID");
-            correctionAdd("openId", "OpenID");
-            correctionAdd("open id", "OpenID");
-            correctionAdd("OpenId", "OpenID");
-            correctionAdd("open-id", "OpenID");
-            correctionAdd("open ID", "OpenID");
-            correctionAdd("Open ID", "OpenID");
-            correctionAdd("Open Id", "OpenID");
-            correctionAdd("OPENID", "OpenID");
-            correctionAdd("Open-ID", "OpenID");
-
-            correctionAdd("myopenid", "MyOpenID");
-            correctionAdd("myOpenId", "MyOpenID");
-            correctionAdd("myOpenID", "MyOpenID");
-            correctionAdd("MyOpenId", "MyOpenID");
-
-            correctionAdd("Oauth", "OAuth");
-            correctionAdd("oauth", "OAuth");
-            correctionAdd("OAUTH", "OAuth");
-            correctionAdd("oAuth", "OAuth");
-            correctionAdd("open auth", "OAuth");
-            correctionAdd("outh", "OAuth");
-            correctionAdd("Aouth", "OAuth");
-            correctionAdd("aouth", "OAuth");
-
             correctionAdd("tinymce", "TinyMCE");
             correctionAdd("TinyMce", "TinyMCE");
             correctionAdd("tinyMCE", "TinyMCE");
@@ -23352,64 +23468,6 @@ namespace OverflowHelper.core
             correctionAdd("syantax", "syntax");
             correctionAdd("Sytax", "syntax");
 
-            correctionAdd("cryptographic message syntax", "Cryptographic Message Syntax");
-
-            correctionAdd("cert", "certificate");
-            correctionAdd("Cert", "certificate");
-            correctionAdd("certs", "certificate"); // Expansion, not 100% correct. Add a plural feature?
-            correctionAdd("certicificate", "certificate"); // Misspelling.
-            correctionAdd("certicate", "certificate");
-            correctionAdd("certifcate", "certificate");
-            correctionAdd("certitificate", "certificate");
-            correctionAdd("cerificate", "certificate");
-            correctionAdd("Certificate", "certificate");
-            correctionAdd("certficate", "certificate");
-            correctionAdd("Certifiacte", "certificate");
-            correctionAdd("certifiacte", "certificate");
-            correctionAdd("certificat", "certificate");
-
-            correctionAdd("CA", "certificate authority");
-            correctionAdd("Certificate authority", "certificate authority");
-            correctionAdd("Certificate Authority", "certificate authority");
-            correctionAdd("Certification Authority", "certificate authority");
-
-            correctionAdd("RootCA", "root certificate authority");
-            correctionAdd("Root Ca", "root certificate authority");
-            correctionAdd("Root CA", "root certificate authority");
-            correctionAdd("Root certificate authority", "root certificate authority");
-
-            correctionAdd("certbot", "Certbot");
-
-            correctionAdd("certify the web", "Certify The Web");
-
-            // Related to certificates and cryptography
-            correctionAdd("let's encrypt", "Let's Encrypt");
-            correctionAdd("lets encrypt", "Let's Encrypt");
-            correctionAdd("letsencrypt", "Let's Encrypt");
-            correctionAdd("Let's encrypt", "Let's Encrypt");
-            correctionAdd("Lets Encrypt", "Let's Encrypt");
-            correctionAdd("LetsEncrypt", "Let's Encrypt");
-
-            correctionAdd("enrypt", "encrypt");
-            correctionAdd("incrypt", "encrypt");
-
-            correctionAdd("crypto", "cryptography");
-            correctionAdd("crypt", "cryptography");
-            correctionAdd("Cryptography", "cryptography");
-            correctionAdd("cypto", "cryptography");
-
-            correctionAdd("ECC", "elliptic-curve cryptography");
-
-            correctionAdd("Cryptographically", "cryptographically");
-            correctionAdd("cryptorgaphically", "cryptographically");
-
-            correctionAdd("Cryptographically Secure", "cryptographically secure");
-
-            correctionAdd("Cryptanalysis", "cryptanalysis");
-
-            // Related to cryptography
-            correctionAdd("OBF", "OFB");
-
             correctionAdd("ssh", "SSH");
             correctionAdd("Secure Shell", "SSH");
 
@@ -23577,6 +23635,7 @@ namespace OverflowHelper.core
             correctionAdd("myy", "my");
             correctionAdd("mmy", "my");
             correctionAdd("muy", "my");
+            correctionAdd("ma", "my");
 
             correctionAdd("sqlalchemy", "SQLAlchemy");
             correctionAdd("Sqlalchemy", "SQLAlchemy");
@@ -27856,28 +27915,6 @@ namespace OverflowHelper.core
             correctionAdd("vivaldi", "Vivaldi");
             correctionAdd("vivaldo", "Vivaldi");
 
-            correctionAdd("2-factor auth", "two-factor authentication");
-            correctionAdd("2 factor auth", "two-factor authentication");
-            correctionAdd("two-factor auth", "two-factor authentication");
-            correctionAdd("two factor auth", "two-factor authentication");
-            correctionAdd("Two-Factor Authentication", "two-factor authentication");
-            correctionAdd("Two Factor Authentication", "two-factor authentication");
-            correctionAdd("2FA", "two-factor authentication");
-            correctionAdd("two factor authentication", "two-factor authentication");
-            correctionAdd("2-factor authentication", "two-factor authentication");
-            correctionAdd("Two-factor", "two-factor authentication");
-            correctionAdd("two-factor", "two-factor authentication");
-            correctionAdd("2 factor", "two-factor authentication");
-            correctionAdd("Two Factor authentication", "two-factor authentication");
-            correctionAdd("2fa", "two-factor authentication");
-            correctionAdd("Two factor authentication", "two-factor authentication");
-            correctionAdd("2FO", "two-factor authentication");
-            correctionAdd("TFA", "two-factor authentication");
-            correctionAdd("two-step verification", "two-factor authentication");
-            correctionAdd("2SV", "two-factor authentication");
-            correctionAdd("2-Step Verification", "two-factor authentication");
-            correctionAdd("2 factor authentication", "two-factor authentication");
-
             correctionAdd("pla", "PLA");
 
             correctionAdd("abs", "ABS");
@@ -30236,6 +30273,7 @@ namespace OverflowHelper.core
             correctionAdd("soluions", "solution");
             correctionAdd("soulion", "solution");
             correctionAdd("soulions", "solution");
+            correctionAdd("Soltion", "solution");
 
             correctionAdd("hi-res", "high-resolution");
             correctionAdd("high-res", "high-resolution");
@@ -30355,8 +30393,6 @@ namespace OverflowHelper.core
             correctionAdd("incriment", "increment");
             correctionAdd("inclriment", "increment");
             correctionAdd("incrment", "increment");
-
-            correctionAdd("ma", "mA");
 
             correctionAdd("acl", "ACL");
 
@@ -34249,6 +34285,7 @@ namespace OverflowHelper.core
             correctionAdd("Implemeted", "implemented");
             correctionAdd("implemeted", "implemented");
             correctionAdd("implimented", "implemented");
+            correctionAdd("implemeneted", "implemented");
 
             correctionAdd("obteined", "obtained");
 
@@ -41627,10 +41664,6 @@ namespace OverflowHelper.core
             correctionAdd("rational", "rationale");
             correctionAdd("Rationale", "rationale");
 
-            correctionAdd("Re-authenticate", "reauthenticate");
-            correctionAdd("re-authenticate", "reauthenticate");
-            correctionAdd("reathenticate", "reauthenticate");
-
             correctionAdd("relay", "rely");
 
             correctionAdd("uninitialized", "uninitialised");
@@ -42034,12 +42067,6 @@ namespace OverflowHelper.core
             correctionAdd("iceland", "Iceland");
 
             correctionAdd("ttl", "TTL");
-
-            correctionAdd("Wolfram Alpha", "WolframAlpha");
-            correctionAdd("wolfram alpha", "WolframAlpha");
-            correctionAdd("wolfarm alpha", "WolframAlpha");
-            correctionAdd("WA", "WolframAlpha");
-            correctionAdd("Wolfram alpha", "WolframAlpha");
 
             correctionAdd("defs", "definitions");
             correctionAdd("definitionss", "definitions");
@@ -42449,6 +42476,7 @@ namespace OverflowHelper.core
 
             correctionAdd("contaians", "contains");
             correctionAdd("conatians", "contains");
+            correctionAdd("containts", "contains");
 
             correctionAdd("LHS", "left-hand side");
             correctionAdd("left hand side", "left-hand side");
@@ -42778,6 +42806,7 @@ namespace OverflowHelper.core
             correctionAdd("back propogation", "backpropagation");
             correctionAdd("backprop", "backpropagation");
             correctionAdd("Backprop", "backpropagation");
+            correctionAdd("back propagation", "backpropagation");
 
             correctionAdd("icloud", "iCloud");
             correctionAdd("icloud.com", "iCloud");
@@ -45474,15 +45503,6 @@ namespace OverflowHelper.core
 
             correctionAdd("lulu", "Lulu");
 
-            correctionAdd("oauth 2", "OAuth 2");
-            correctionAdd("oauth2", "OAuth 2");
-            correctionAdd("OAuth2", "OAuth 2");
-            correctionAdd("Oauth2", "OAuth 2");
-            correctionAdd("OAUTH2", "OAuth 2");
-            correctionAdd("OAuth 2.0", "OAuth 2");
-
-            correctionAdd("12 factor app", "Twelve-Factor Application methodology");
-
             correctionAdd("methodoly", "methodology");
 
             correctionAdd("heatmap", "heat map");
@@ -47508,6 +47528,7 @@ namespace OverflowHelper.core
             correctionAdd("tutorial republic", "Tutorial Republic");
 
             correctionAdd("al", "all");
+            correctionAdd("alla", "all");
 
             correctionAdd("contein", "contain");
             correctionAdd("constain", "contain");
@@ -49733,8 +49754,6 @@ namespace OverflowHelper.core
 
             correctionAdd("intitution", "institution");
 
-            correctionAdd("ESTA", "Electronic System for Travel Authorization");
-
             correctionAdd("NSF", "National Science Foundation");
 
             correctionAdd("Forward Declaration", "forward declaration");
@@ -49779,8 +49798,6 @@ namespace OverflowHelper.core
             correctionAdd("Ammo", "ammunition");
             correctionAdd("ammo", "ammunition");
             correctionAdd("ammuntion", "ammunition");
-
-            correctionAdd("RMA", "return merchandise authorization");
 
             correctionAdd("Star Trek: TNG", "Star Trek: The Next Generation");
             correctionAdd("TNG", "Star Trek: The Next Generation");
@@ -51800,6 +51817,7 @@ namespace OverflowHelper.core
             correctionAdd("AoB", "angle of bank");
 
             correctionAdd("attachted", "attached");
+            correctionAdd("atached", "attached");
 
             correctionAdd("face-saving", "facesaving");
             correctionAdd("face saving", "facesaving");
@@ -53237,10 +53255,6 @@ namespace OverflowHelper.core
             correctionAdd("chat-bot", "chatbot");
 
             correctionAdd("facette", "facet");
-
-            correctionAdd("milliampere-hour", "mA·h");
-            correctionAdd("mAh", "mA·h");
-            correctionAdd("mah", "mA·h");
 
             correctionAdd("ill defined", "ill-defined");
 
@@ -54692,8 +54706,6 @@ namespace OverflowHelper.core
             correctionAdd("ULP", "ulp");
             correctionAdd("Units in the Last Place", "ulp");
 
-            correctionAdd("auth0", "Auth0");
-
             correctionAdd("end point", "endpoint");
 
             correctionAdd("re-confirm", "reconfirm");
@@ -54722,6 +54734,12 @@ namespace OverflowHelper.core
             correctionAdd("announcments", "announcements");
 
             correctionAdd("bulk-modulus", "bulk modulus");
+
+            correctionAdd("Drop Alt", "Drop ALT");
+
+            correctionAdd("Iphone7", "iPhone 7");
+
+            correctionAdd("mappying", "mapping");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -59484,8 +59502,6 @@ namespace OverflowHelper.core
             URL_Add("in order", "https://en.wiktionary.org/wiki/in_order#Adverb");
 
             URL_Add("increment", "https://en.wiktionary.org/wiki/increment#Verb");
-
-            URL_Add("mA", "https://en.wiktionary.org/wiki/mA#Translingual");
 
             URL_Add("ACL", "https://en.wikipedia.org/wiki/Access_control_list");
 
@@ -84562,6 +84578,12 @@ namespace OverflowHelper.core
 
             URL_Add("style guide", "https://en.wiktionary.org/wiki/style_guide#Noun");
 
+            URL_Add("Drop ALT", "https://www.rtings.com/keyboard/reviews/drop/alt");
+
+            URL_Add("iPhone 7", "https://en.wikipedia.org/wiki/IPhone_7");
+
+            URL_Add("mapping", "https://en.wiktionary.org/wiki/mapping#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -87045,6 +87067,11 @@ namespace OverflowHelper.core
             correctionAdd("intended_", "indented_");
             correctionAdd("intented_", "indented_");
 
+            correctionAdd("ma_", "mA_");
+
+            correctionAdd("WAF_", "AWS Web Application Firewall_");
+            correctionAdd("AWS WAF_", "AWS Web Application Firewall_");
+
             // URL mappings
             //
             //
@@ -88421,6 +88448,10 @@ namespace OverflowHelper.core
             URL_Add("Super Heavy_", "https://en.wikipedia.org/wiki/SpaceX_Super_Heavy");
 
             URL_Add("indented_", "https://en.wiktionary.org/wiki/indent#Verb");
+
+            URL_Add("mA_", "https://en.wiktionary.org/wiki/mA#Translingual");
+
+            URL_Add("AWS Web Application Firewall_", "https://aws.amazon.com/waf/");
 
         } //addLookupData_alternativeWordSet()
 
