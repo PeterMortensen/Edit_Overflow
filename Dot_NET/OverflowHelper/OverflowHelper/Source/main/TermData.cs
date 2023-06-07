@@ -1308,6 +1308,59 @@ namespace OverflowHelper.core
             correctionAdd("sscce", "short self-contained correct example");
             correctionAdd("SSCCE", "short self-contained correct example");
 
+            correctionAdd("algo", "algorithm");
+            correctionAdd("alghorithm", "algorithm");
+            correctionAdd("algoritms", "algorithm"); // Not 100% correct - case.
+            correctionAdd("algoritm", "algorithm");
+            correctionAdd("algirithms", "algorithm"); // Not 100% correct - case.
+            correctionAdd("algirithm", "algorithm");
+            correctionAdd("algorith", "algorithm");
+            correctionAdd("algorithim", "algorithm");
+            correctionAdd("algoritmn", "algorithm");
+            correctionAdd("algorithum", "algorithm");
+            correctionAdd("Algorethems", "algorithm");
+            correctionAdd("algorethems", "algorithm");
+            correctionAdd("alorithum", "algorithm");
+            correctionAdd("Algorithms", "algorithm");
+            correctionAdd("algorithms", "algorithm");
+            correctionAdd("algorithem", "algorithm");
+            correctionAdd("Algo", "algorithm");
+            correctionAdd("algortihm", "algorithm");
+            correctionAdd("algos", "algorithm");
+            correctionAdd("alogs", "algorithm");
+
+            correctionAdd("divide and conquer algorithms", "divide-and-conquer algorithm");
+            correctionAdd("divide & conquer", "divide-and-conquer algorithm");
+            correctionAdd("divide-and-conquer", "divide-and-conquer algorithm");
+
+            correctionAdd("the painter", "Shlemiel the painter’s algorithm");
+            correctionAdd("Schlemiel the Painter's algorithm", "Shlemiel the painter’s algorithm");
+            correctionAdd("Shlemiel the painter's algorithm", "Shlemiel the painter’s algorithm");
+            correctionAdd("Shlemiel the Painter's algorithm", "Shlemiel the painter’s algorithm");
+            correctionAdd("Schlemiel-the-Painter", "Shlemiel the painter’s algorithm");
+            correctionAdd("Shlemiel the painter’s", "Shlemiel the painter’s algorithm");
+            correctionAdd("Shlemiel the painter", "Shlemiel the painter’s algorithm");
+            correctionAdd("Schlemiel the painter", "Shlemiel the painter’s algorithm");
+            correctionAdd("Shlemiel", "Shlemiel the painter’s algorithm");
+            correctionAdd("Schlemiel", "Shlemiel the painter’s algorithm");
+            correctionAdd("Shlemiel the painter algorithm", "Shlemiel the painter’s algorithm");
+            correctionAdd("Painter", "Shlemiel the painter’s algorithm");
+            correctionAdd("The Painter", "Shlemiel the painter’s algorithm");
+            correctionAdd("Scleimel the painter", "Shlemiel the painter’s algorithm");
+
+            correctionAdd("Grover's Algorithm", "Grover's algorithm");
+
+            correctionAdd("Baum-Welch Algorithm", "Baum–Welch algorithm");
+            correctionAdd("Baum-Welch algorithm", "Baum–Welch algorithm");
+
+            correctionAdd("XOR swap", "XOR swap algorithm");
+
+            correctionAdd("Evolutionary Algorithm", "evolutionary algorithm");
+            correctionAdd("evolutionary algorithms", "evolutionary algorithm");
+
+            correctionAdd("welford", "Welford's algorithm");
+            correctionAdd("welford's algorithm", "Welford's algorithm");
+
             correctionAdd("SPFA_Queue", "Shortest Path Faster Algorithm");
             correctionAdd("SPFA", "Shortest Path Faster Algorithm");
 
@@ -6418,6 +6471,8 @@ namespace OverflowHelper.core
 
             correctionAdd("type cast", "typecast");
 
+            correctionAdd("type casting", "typecasting");
+
             correctionAdd("typechecking", "type checking");
             correctionAdd("type-checking", "type checking");
 
@@ -8504,6 +8559,7 @@ namespace OverflowHelper.core
             correctionAdd("Sackexchange", "Stack&nbsp;Exchange");
             correctionAdd("stack site", "Stack&nbsp;Exchange");
             correctionAdd("stack sites", "Stack&nbsp;Exchange");
+            correctionAdd("Sack Exchange", "Stack&nbsp;Exchange");
 
             // Famous question on Stack Overflow (featured on the podcast).
             correctionAdd("hard-deleted", "hard-deleted boat programming question");
@@ -12255,6 +12311,7 @@ namespace OverflowHelper.core
             correctionAdd("hyper link", "hyperlink");
             correctionAdd("HyperLink", "hyperlink");
             correctionAdd("Hyperlink", "hyperlink");
+            correctionAdd("hiperlink", "hyperlink");
 
             correctionAdd("NH", "NHibernate");
             correctionAdd("nhibernate", "NHibernate");
@@ -13870,6 +13927,7 @@ namespace OverflowHelper.core
 
             correctionAdd("broken google search", "broken Google search");
             correctionAdd("search is broken", "broken Google search");
+            correctionAdd("broken search", "broken Google search");
 
             correctionAdd("jquery", "jQuery");
             correctionAdd("JQuery", "jQuery");
@@ -14573,6 +14631,16 @@ namespace OverflowHelper.core
             correctionAdd("iPHONE", "iPhone");
             correctionAdd("ifone", "iPhone"); // Misspelling.
             correctionAdd("IPhone", "iPhone");
+
+            correctionAdd("iPhone xs", "iPhone XS");
+
+            correctionAdd("iPhone xr", "iPhone XR");
+
+            correctionAdd("IPhone SE", "iPhone SE");
+
+            correctionAdd("iphone 3gs", "iPhone 3GS");
+
+            correctionAdd("Iphone7", "iPhone 7");
 
             correctionAdd("symbian", "Symbian");
 
@@ -17914,6 +17982,10 @@ namespace OverflowHelper.core
             correctionAdd("M3501", "Apple Extended Keyboard II");
             correctionAdd("AEKII", "Apple Extended Keyboard II");
 
+            // A mechanical keyboard.
+            //
+            correctionAdd("Drop Alt", "Drop ALT");
+
             // A type of mechanical keyboards (not vendor-specific)
             correctionAdd("tkl", "tenkeyless (80%)");
             correctionAdd("TKL", "tenkeyless (80%)");
@@ -20696,6 +20768,8 @@ namespace OverflowHelper.core
             correctionAdd("segment violation", "segmentation fault");
             correctionAdd("SEGFAULT", "segmentation fault");
             correctionAdd("segmentaion fault", "segmentation fault");
+            correctionAdd("Segmentetion Fault", "segmentation fault");
+            correctionAdd("segmentetion fault", "segmentation fault");
 
             correctionAdd("firebug", "Firebug");
             correctionAdd("FireBug", "Firebug");
@@ -22621,6 +22695,8 @@ namespace OverflowHelper.core
             correctionAdd("Despite of", "in spite of");
             correctionAdd("despite of", "in spite of");
             correctionAdd("in despite of", "in spite of");
+            correctionAdd("In spite of", "in spite of");
+            correctionAdd("Inspite of", "in spite of");
 
             correctionAdd("interms of", "in terms of");
             correctionAdd("interms", "in terms of");
@@ -23080,6 +23156,7 @@ namespace OverflowHelper.core
             correctionAdd("occurrrence", "occurrence");
             correctionAdd("Occurance", "occurrence");
             correctionAdd("occurances", "occurrence");
+            correctionAdd("Occurence", "occurrence");
 
             correctionAdd("ocurr", "occur");
             correctionAdd("occure", "occur");
@@ -25131,57 +25208,6 @@ namespace OverflowHelper.core
             correctionAdd("Division", "division");
 
             correctionAdd("Binary Search", "binary search");
-
-            correctionAdd("divide and conquer algorithms", "divide-and-conquer algorithm");
-            correctionAdd("divide & conquer", "divide-and-conquer algorithm");
-            correctionAdd("divide-and-conquer", "divide-and-conquer algorithm");
-
-            correctionAdd("algo", "algorithm");
-            correctionAdd("alghorithm", "algorithm");
-            correctionAdd("algoritms", "algorithm"); // Not 100% correct - case.
-            correctionAdd("algoritm", "algorithm");
-            correctionAdd("algirithms", "algorithm"); // Not 100% correct - case.
-            correctionAdd("algirithm", "algorithm");
-            correctionAdd("algorith", "algorithm");
-            correctionAdd("algorithim", "algorithm");
-            correctionAdd("algoritmn", "algorithm");
-            correctionAdd("algorithum", "algorithm");
-            correctionAdd("Algorethems", "algorithm");
-            correctionAdd("algorethems", "algorithm");
-            correctionAdd("alorithum", "algorithm");
-            correctionAdd("Algorithms", "algorithm");
-            correctionAdd("algorithms", "algorithm");
-            correctionAdd("algorithem", "algorithm");
-            correctionAdd("Algo", "algorithm");
-            correctionAdd("algortihm", "algorithm");
-
-            correctionAdd("the painter", "Shlemiel the painter’s algorithm");
-            correctionAdd("Schlemiel the Painter's algorithm", "Shlemiel the painter’s algorithm");
-            correctionAdd("Shlemiel the painter's algorithm", "Shlemiel the painter’s algorithm");
-            correctionAdd("Shlemiel the Painter's algorithm", "Shlemiel the painter’s algorithm");
-            correctionAdd("Schlemiel-the-Painter", "Shlemiel the painter’s algorithm");
-            correctionAdd("Shlemiel the painter’s", "Shlemiel the painter’s algorithm");
-            correctionAdd("Shlemiel the painter", "Shlemiel the painter’s algorithm");
-            correctionAdd("Schlemiel the painter", "Shlemiel the painter’s algorithm");
-            correctionAdd("Shlemiel", "Shlemiel the painter’s algorithm");
-            correctionAdd("Schlemiel", "Shlemiel the painter’s algorithm");
-            correctionAdd("Shlemiel the painter algorithm", "Shlemiel the painter’s algorithm");
-            correctionAdd("Painter", "Shlemiel the painter’s algorithm");
-            correctionAdd("The Painter", "Shlemiel the painter’s algorithm");
-            correctionAdd("Scleimel the painter", "Shlemiel the painter’s algorithm");
-
-            correctionAdd("Grover's Algorithm", "Grover's algorithm");
-
-            correctionAdd("Baum-Welch Algorithm", "Baum–Welch algorithm");
-            correctionAdd("Baum-Welch algorithm", "Baum–Welch algorithm");
-
-            correctionAdd("XOR swap", "XOR swap algorithm");
-
-            correctionAdd("Evolutionary Algorithm", "evolutionary algorithm");
-            correctionAdd("evolutionary algorithms", "evolutionary algorithm");
-
-            correctionAdd("welford", "Welford's algorithm");
-            correctionAdd("welford's algorithm", "Welford's algorithm");
 
             correctionAdd("ai", "artificial intelligence");
             correctionAdd("AI", "artificial intelligence");
@@ -30053,6 +30079,7 @@ namespace OverflowHelper.core
             correctionAdd("aproch", "approach");
             correctionAdd("aprroach", "approach");
             correctionAdd("appraoch", "approach");
+            correctionAdd("apporach", "approach");
 
             correctionAdd("eaquation", "equation");
 
@@ -33842,6 +33869,7 @@ namespace OverflowHelper.core
             correctionAdd("canncect", "connect");
             correctionAdd("conncect", "connect");
             correctionAdd("connecte", "connect");
+            correctionAdd("cnnect", "connect");
 
             correctionAdd("dissconnected", "disconnected");
 
@@ -35489,11 +35517,13 @@ namespace OverflowHelper.core
 
             correctionAdd("Svidler", "Peter Svidler"); // Chess
 
-            correctionAdd("fabi", "Fabiano Caruana"); // Chess
-            correctionAdd("fabiano", "Fabiano Caruana"); // Chess
-            correctionAdd("Caruana", "Fabiano Caruana"); // Chess
-            correctionAdd("caruana", "Fabiano Caruana"); // Chess
-            correctionAdd("Fabi", "Fabiano Caruana"); // Chess
+            // Chess
+            correctionAdd("fabi", "Fabiano Caruana");
+            correctionAdd("fabiano", "Fabiano Caruana");
+            correctionAdd("Caruana", "Fabiano Caruana");
+            correctionAdd("caruana", "Fabiano Caruana");
+            correctionAdd("Fabi", "Fabiano Caruana");
+            correctionAdd("Fabiano", "Fabiano Caruana");
 
             correctionAdd("Aronian", "Levon Aronian"); // Chess
             correctionAdd("Levon", "Levon Aronian"); // Chess
@@ -35510,6 +35540,7 @@ namespace OverflowHelper.core
             correctionAdd("Nakamura", "Hikaru Nakamura");
             correctionAdd("GMHikaru", "Hikaru Nakamura");
             correctionAdd("nakumura", "Hikaru Nakamura");
+            correctionAdd("Nakumoro", "Hikaru Nakamura");
 
             correctionAdd("Kan", "Kan (Paulsen) Variation"); // Chess
 
@@ -35859,6 +35890,7 @@ namespace OverflowHelper.core
             correctionAdd("occisonally", "occasionally");
             correctionAdd("occasonally", "occasionally");
             correctionAdd("occasinally", "occasionally");
+            correctionAdd("occisionally", "occasionally");
 
             correctionAdd("ocassional", "occasional");
             correctionAdd("occational", "occasional");
@@ -37224,6 +37256,7 @@ namespace OverflowHelper.core
 
             correctionAdd("porte monnaie", "portmanteau");
             correctionAdd("portemonais", "portmanteau");
+            correctionAdd("portemeno", "portmanteau");
 
             correctionAdd("psycology", "psychology");
             correctionAdd("phychology", "psychology");
@@ -38749,6 +38782,7 @@ namespace OverflowHelper.core
             correctionAdd("understnad", "understand");
             correctionAdd("anderstand", "understand");
             correctionAdd("understant", "understand");
+            correctionAdd("undersand", "understand");
 
             correctionAdd("thansand", "thousand");
             correctionAdd("tousind", "thousand");
@@ -41344,8 +41378,6 @@ namespace OverflowHelper.core
             correctionAdd("Re-attach", "re-attach");
 
             correctionAdd("insure", "ensure");
-
-            correctionAdd("iPhone xs", "iPhone XS");
 
             correctionAdd("Module pattern", "module pattern");
 
@@ -45338,8 +45370,6 @@ namespace OverflowHelper.core
             correctionAdd("horizonal", "horizontal");
             correctionAdd("horitzontal", "horizontal");
 
-            correctionAdd("iPhone xr", "iPhone XR");
-
             correctionAdd("IPhoto", "iPhoto");
 
             correctionAdd("Launchd", "launchd");
@@ -49267,8 +49297,6 @@ namespace OverflowHelper.core
 
             correctionAdd("follow suite", "follow suit");
 
-            correctionAdd("IPhone SE", "iPhone SE");
-
             correctionAdd("mid sentence", "midsentence");
 
             correctionAdd("nutz", "nuts");
@@ -50963,6 +50991,7 @@ namespace OverflowHelper.core
 
             correctionAdd("repeatetly", "repeatedly");
             correctionAdd("repeatly", "repeatedly");
+            correctionAdd("repeatdly", "repeatedly");
 
             correctionAdd("semi-oval", "semioval");
 
@@ -51440,8 +51469,6 @@ namespace OverflowHelper.core
             correctionAdd("jail broken", "jailbreaking"); // Not exact...
             correctionAdd("jail breaking", "jailbreaking");
             correctionAdd("jailbroken", "jailbreaking");
-
-            correctionAdd("iphone 3gs", "iPhone 3GS");
 
             correctionAdd("idevice", "iDevice");
 
@@ -54735,11 +54762,19 @@ namespace OverflowHelper.core
 
             correctionAdd("bulk-modulus", "bulk modulus");
 
-            correctionAdd("Drop Alt", "Drop ALT");
-
-            correctionAdd("Iphone7", "iPhone 7");
-
             correctionAdd("mappying", "mapping");
+
+            correctionAdd("all over the places", "all over the place");
+
+            correctionAdd("apologi", "apology");
+
+            correctionAdd("hystorical", "historical");
+
+            // A database
+            correctionAdd("kdb", "kdb+");
+
+            correctionAdd("Stakeholders", "stakeholders");
+            correctionAdd("Stackeholders", "stakeholders");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -84584,6 +84619,18 @@ namespace OverflowHelper.core
 
             URL_Add("mapping", "https://en.wiktionary.org/wiki/mapping#Noun");
 
+            URL_Add("all over the place", "https://en.wiktionary.org/wiki/all_over_the_place#Prepositional_phrase");
+
+            URL_Add("apology", "https://en.wiktionary.org/wiki/apology#Noun");
+
+            URL_Add("historical", "https://en.wiktionary.org/wiki/historical#Adjective");
+
+            URL_Add("kdb+", "https://en.wikipedia.org/wiki/Kdb%2B");
+
+            URL_Add("stakeholders", "https://en.wiktionary.org/wiki/stakeholder#Noun");
+
+            URL_Add("typecasting", "https://en.wiktionary.org/wiki/typecast#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -87072,6 +87119,10 @@ namespace OverflowHelper.core
             correctionAdd("WAF_", "AWS Web Application Firewall_");
             correctionAdd("AWS WAF_", "AWS Web Application Firewall_");
 
+            correctionAdd("backslash_", "backlash_");
+
+            correctionAdd("its'_", "its_");
+
             // URL mappings
             //
             //
@@ -88452,6 +88503,10 @@ namespace OverflowHelper.core
             URL_Add("mA_", "https://en.wiktionary.org/wiki/mA#Translingual");
 
             URL_Add("AWS Web Application Firewall_", "https://aws.amazon.com/waf/");
+
+            URL_Add("backlash_", "https://en.wiktionary.org/wiki/backlash#Noun");
+
+            URL_Add("its_", "https://en.wiktionary.org/wiki/its#Pronoun");
 
         } //addLookupData_alternativeWordSet()
 
