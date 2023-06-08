@@ -2581,7 +2581,7 @@ rm $HTML_FILE
 #       2022-01-25: 3310553 bytes
 
 # Note: The same build number
-wordListExport 33 "HTML"  $HTML_FILE   4820000 5310000
+wordListExport 33 "HTML"  $HTML_FILE   4920000 5420000
 
 
 cp  $HTML_FILE  $HTML_FILE_GENERIC
@@ -2755,10 +2755,10 @@ eval ${LFTP_COMMAND}  ; evaluateBuildResult 38 $? "copying the HTML word list to
 #                      2022-06-03 12:32:02 UTC
 #                      Connection timed out
 #
-#  2023-05-30     Claimed (they probably broke something 
+#  2023-05-30     Claimed (they probably broke something
 #                 in the validation itself):
 #
-#                     Error: & did not start a character 
+#                     Error: & did not start a character
 #                      reference. (& probably should have
 #                      been escaped as &amp;.)
 #
