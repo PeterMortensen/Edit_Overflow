@@ -4551,6 +4551,7 @@ namespace OverflowHelper.core
             correctionAdd("Linux arch", "Arch Linux");
             correctionAdd("linux arch", "Arch Linux");
             correctionAdd("ARCH", "Arch Linux");
+            correctionAdd("arch-linux", "Arch Linux");
 
             // Arch Linux
             correctionAdd("AUR", "Arch User Repository");
@@ -5523,23 +5524,12 @@ namespace OverflowHelper.core
             correctionAdd("USB c", "USB-C");
             correctionAdd("usb c", "USB-C");
 
-            correctionAdd("pyusb", "PyUSB");
-
-            correctionAdd("LSUSB", "lsusb");
-            correctionAdd("lsub", "lsusb");
-
-            correctionAdd("USBASP", "USBasp");
-            correctionAdd("usbasp", "USBasp");
-
-            correctionAdd("v-usb", "V-USB");
-
-            correctionAdd("URB", "USB Request Block");
-
-            correctionAdd("USBlyser", "USBlyzer");
-
             correctionAdd("micro-USB", "Micro-USB");
             correctionAdd("micro USB", "Micro-USB");
             correctionAdd("MicroB USB", "Micro-USB");
+
+            correctionAdd("usb hub", "USB hub");
+            correctionAdd("USB Hub", "USB hub");
 
             correctionAdd("USB 2.0 Low-Pin Interface", "ULPI");
             correctionAdd("UTMI+ Low Pin Interface", "ULPI");
@@ -5547,20 +5537,20 @@ namespace OverflowHelper.core
             correctionAdd("UTMI+ low pin interface", "ULPI");
             correctionAdd("UTMI+ low-pin interface", "ULPI");
 
-            correctionAdd("USB transceiver macrocell interface", "UTMI");
-            correctionAdd("USB 2.0 Transceiver Macrocell Interface", "UTMI");
-            correctionAdd("USB Transceiver Macrocell Interface", "UTMI");
+            correctionAdd("usb cdc", "USB communications device class");
+            correctionAdd("USB CDC", "USB communications device class");
 
-            correctionAdd("usb hub", "USB hub");
-            correctionAdd("USB Hub", "USB hub");
+            correctionAdd("URB", "USB Request Block");
 
-            correctionAdd("WinUsb", "WinUSB");
+            correctionAdd("OTG", "USB On-The-Go");
+            correctionAdd("USB-to-go", "USB On-The-Go");
+            correctionAdd("USB OTG", "USB On-The-Go");
 
-            correctionAdd("live usb", "live USB");
-            correctionAdd("live linux", "live USB");
-            correctionAdd("Live-USB", "live USB");
-            correctionAdd("Live USB", "live USB");
-            correctionAdd("LiveUSB", "live USB");
+            correctionAdd("usbtmc", "USBTMC");
+            correctionAdd("USB TMC", "USBTMC");
+
+            correctionAdd("LSUSB", "lsusb");
+            correctionAdd("lsub", "lsusb");
 
             correctionAdd("Libusb", "libusb");
             correctionAdd("libUsb", "libusb");
@@ -5568,12 +5558,29 @@ namespace OverflowHelper.core
             correctionAdd("LibUSB", "libusb");
             correctionAdd("LIBUSB", "libusb");
 
-            correctionAdd("usbtmc", "USBTMC");
-            correctionAdd("USB TMC", "USBTMC");
+            correctionAdd("pyusb", "PyUSB");
 
-            correctionAdd("OTG", "USB On-The-Go");
-            correctionAdd("USB-to-go", "USB On-The-Go");
-            correctionAdd("USB OTG", "USB On-The-Go");
+            correctionAdd("USBASP", "USBasp");
+            correctionAdd("usbasp", "USBasp");
+
+            correctionAdd("v-usb", "V-USB");
+
+            correctionAdd("USBlyser", "USBlyzer");
+
+            correctionAdd("USB transceiver macrocell interface", "UTMI");
+            correctionAdd("USB 2.0 Transceiver Macrocell Interface", "UTMI");
+            correctionAdd("USB Transceiver Macrocell Interface", "UTMI");
+
+            correctionAdd("WinUsb", "WinUSB");
+
+            correctionAdd("Power Delivery", "USB power delivery");
+            correctionAdd("USB Power Delivery", "USB power delivery");
+
+            correctionAdd("live usb", "live USB");
+            correctionAdd("live linux", "live USB");
+            correctionAdd("Live-USB", "live USB");
+            correctionAdd("Live USB", "live USB");
+            correctionAdd("LiveUSB", "live USB");
 
             correctionAdd("USB memory", "USB flash drive");
             correctionAdd("thum drive", "USB flash drive");
@@ -5600,9 +5607,6 @@ namespace OverflowHelper.core
             correctionAdd("bery", "very");
             correctionAdd("Wery", "very");
             correctionAdd("wery", "very");
-
-            correctionAdd("Power Delivery", "USB power delivery");
-            correctionAdd("USB Power Delivery", "USB power delivery");
 
             correctionAdd("CD", "continuous delivery"); // Potentially conflict with CD / CD-ROM
             correctionAdd("Continuous Delivery", "continuous delivery");
@@ -6587,6 +6591,7 @@ namespace OverflowHelper.core
             correctionAdd("vaiable", "variable");
             correctionAdd("variablr", "variable");
             correctionAdd("varrible", "variable");
+            correctionAdd("vatiable", "variable");
 
             correctionAdd("env var", "environment variable");
             correctionAdd("Env Var", "environment variable");
@@ -7040,6 +7045,7 @@ namespace OverflowHelper.core
             correctionAdd("valueable", "valuable");
             correctionAdd("valable", "valuable");
             correctionAdd("value-able", "valuable");
+            correctionAdd("voluable", "valuable");
 
             correctionAdd("re-usable", "reusable");
             correctionAdd("reuseable", "reusable");
@@ -9587,6 +9593,10 @@ namespace OverflowHelper.core
             correctionAdd("CGSE", "Code&nbsp;Golf (Stack Exchange site)");
             correctionAdd("Code Golf (Stack Exchange site)", "Code&nbsp;Golf (Stack Exchange site)");
             correctionAdd("Code&nbsp;Golf", "Code&nbsp;Golf (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("CG.SE", "Code&nbsp;Golf (Stack Exchange site)");
+            correctionAdd("CGCC", "Code&nbsp;Golf (Stack Exchange site)");
+            correctionAdd("code golf & code challenges", "Code&nbsp;Golf (Stack Exchange site)");
+            correctionAdd("code golf and code challenges", "Code&nbsp;Golf (Stack Exchange site)");
 
             correctionAdd("Game development", "Game&nbsp;Development (Stack Exchange site)");
             correctionAdd("Game Development", "Game&nbsp;Development (Stack Exchange site)"); // Sort of identity mapping
@@ -10756,6 +10766,7 @@ namespace OverflowHelper.core
             correctionAdd("Phython", "Python");
             correctionAdd("puthon", "Python");
             correctionAdd("pithon", "Python");
+            correctionAdd("paython", "Python");
 
             correctionAdd("python2", "Python&nbsp;2");
             correctionAdd("Python 2", "Python&nbsp;2");
@@ -11442,6 +11453,8 @@ namespace OverflowHelper.core
             correctionAdd("vanilla js", "vanilla JavaScript");
             correctionAdd("Vanilla JavaScript", "vanilla JavaScript");
             correctionAdd("vanilla javascript", "vanilla JavaScript");
+            correctionAdd("Vanilla JS", "vanilla JavaScript");
+            correctionAdd("vanilla JS", "vanilla JavaScript");
 
             // The old discontinued version 1.x.
             correctionAdd("AngularJs", "AngularJS");
@@ -12413,6 +12426,15 @@ namespace OverflowHelper.core
             correctionAdd("virtious circle", "virtuous circle");
             correctionAdd("virtious cycle", "virtuous circle");
 
+            correctionAdd("visious circle", "vicious circle");
+
+            correctionAdd("cicle", "circle");
+            correctionAdd("cirlce", "circle");
+
+            correctionAdd("fullcircle", "full circle");
+
+            correctionAdd("Unit Circle", "unit circle");
+
             correctionAdd("VATSIM", "Virtual Air Traffic Simulation Network");
 
             // A programming language
@@ -13210,6 +13232,7 @@ namespace OverflowHelper.core
             correctionAdd("1-to-1", "one-to-one");
             correctionAdd("1 to 1", "one-to-one");
             correctionAdd("one to one", "one-to-one");
+            correctionAdd("One to one", "one-to-one");
 
             correctionAdd("1-on-1", "one-on-one");
             correctionAdd("one on one", "one-on-one");
@@ -17098,6 +17121,13 @@ namespace OverflowHelper.core
             correctionAdd("definiton", "definition");
             correctionAdd("defintion", "definition");
             correctionAdd("defenition", "definition");
+            correctionAdd("definetion", "definition");
+
+            correctionAdd("defs", "definitions");
+            correctionAdd("definitionss", "definitions");
+            correctionAdd("definetions", "definitions");
+
+            correctionAdd("DoD", "Definition of Done");
 
             correctionAdd("optinal", "optional");
             correctionAdd("optoional", "optional");
@@ -17308,6 +17338,7 @@ namespace OverflowHelper.core
             correctionAdd("usa", "USA");
             correctionAdd("United states", "USA");
             correctionAdd("Yew-Knighted Stakes O‘Murrica", "USA");
+            correctionAdd("Untied States", "USA"); // A typo observed on 2023-06-07. By DW (Deutsche Welle)!!! Peinlich!
 
             correctionAdd("Dollar", "dollar");
             correctionAdd("Dollars", "dollar");
@@ -17355,7 +17386,11 @@ namespace OverflowHelper.core
             correctionAdd("Texas", "Texas, United States");
             correctionAdd("texas", "Texas, United States");
 
-            correctionAdd("NE", "Nebraska, United States");
+            correctionAdd("NE", "Nebraska, United States"); // A United States state
+
+            correctionAdd("alabama", "Alabama"); // A United States state
+
+            correctionAdd("wisconsin", "Wisconsin"); // A United States state
 
             correctionAdd("SoCal", "Southern California");
 
@@ -19314,6 +19349,7 @@ namespace OverflowHelper.core
             correctionAdd("allso", "also");
             correctionAdd("a;so", "also");
             correctionAdd("wlso", "also");
+            correctionAdd("aslo", "also");
 
             correctionAdd("espresso", "Espresso"); // Web editor from MacRabbit.
             correctionAdd("Expresso", "Espresso");
@@ -25394,6 +25430,7 @@ namespace OverflowHelper.core
             correctionAdd("Hugging Face", "Hugging&nbsp;Face"); // Sort of identity mapping
             correctionAdd("HuggingFace", "Hugging&nbsp;Face");
             correctionAdd("Huggingface", "Hugging&nbsp;Face");
+            correctionAdd("hugging face", "Hugging&nbsp;Face");
 
             // Artificial intelligence
             correctionAdd("imagenet", "ImageNet");
@@ -27410,6 +27447,7 @@ namespace OverflowHelper.core
             correctionAdd("foll", "following");
             correctionAdd("followin", "following");
             correctionAdd("followr", "following");
+            correctionAdd("followings", "following");
 
             correctionAdd("thougth", "thought");
             correctionAdd("thougt", "thought");
@@ -27774,6 +27812,7 @@ namespace OverflowHelper.core
             correctionAdd("didn;t", "didn’t");
             correctionAdd("didn\"t", "didn’t");
             correctionAdd("didn´t", "didn’t");
+            correctionAdd("didint", "didn’t");
 
             correctionAdd("thats", "that’s");
             correctionAdd("Thats", "that’s"); // Not 100% correct (case)
@@ -27884,6 +27923,7 @@ namespace OverflowHelper.core
             correctionAdd("unnessecary", "unnecessary");
             correctionAdd("unnnecessary", "unnecessary");
             correctionAdd("unnnecessry", "unnecessary");
+            correctionAdd("unn ecessary", "unnecessary");
 
             correctionAdd("firemonkey", "FireMonkey");
             correctionAdd("Firemonkey", "FireMonkey");
@@ -29222,6 +29262,8 @@ namespace OverflowHelper.core
             correctionAdd("false-positives", "false positive");
             correctionAdd("false posite", "false positive");
             correctionAdd("false posites", "false positive");
+
+            correctionAdd("true-negative", "true negative");
 
             correctionAdd("negatvie", "negative");
             correctionAdd("neg", "negative");
@@ -31653,6 +31695,8 @@ namespace OverflowHelper.core
             correctionAdd("greeter", "greater");
 
             correctionAdd("induvidual", "individual");
+            correctionAdd("indidivual", "individual");
+            correctionAdd("indidivuals", "individual");
 
             correctionAdd("procastination", "procrastination");
             correctionAdd("Procastination", "procrastination");
@@ -32188,6 +32232,17 @@ namespace OverflowHelper.core
             correctionAdd("Goland", "GoLand");
             correctionAdd("goland", "GoLand");
 
+            // An IDE
+            correctionAdd("Eric4", "Eric 4");
+            correctionAdd("Eric", "Eric 4");
+            correctionAdd("eric", "Eric 4");
+
+            // An IDE
+            correctionAdd("Ninja IDE", "NINJA-IDE");
+            correctionAdd("Ninja-IDE", "NINJA-IDE");
+            correctionAdd("Ninja-ide", "NINJA-IDE");
+            correctionAdd("Ninjia", "NINJA-IDE");
+
             correctionAdd("incomming", "incoming");
 
             correctionAdd("Proxy", "proxy");
@@ -32603,6 +32658,7 @@ namespace OverflowHelper.core
             correctionAdd("difficalt", "difficult");
             correctionAdd("dificult", "difficult");
             correctionAdd("dicficult", "difficult");
+            correctionAdd("difficoult", "difficult");
 
             correctionAdd("Achiles Heel", "Achilles heel");
 
@@ -33457,6 +33513,10 @@ namespace OverflowHelper.core
             correctionAdd("Repetitive strain injury", "RSI");
 
             correctionAdd("swagger", "Swagger");
+
+            correctionAdd("openAPI", "OpenAPI Specification");
+            correctionAdd("OpenAPI", "OpenAPI Specification");
+            correctionAdd("Swagger Specification", "OpenAPI Specification");
 
             correctionAdd("multi-core", "multicore");
             correctionAdd("multi core", "multicore");
@@ -37745,6 +37805,7 @@ namespace OverflowHelper.core
             correctionAdd("bigquery", "BigQuery");
             correctionAdd("bq", "BigQuery");
             correctionAdd("BQ", "BigQuery");
+            correctionAdd("BigQuiery", "BigQuery");
 
             correctionAdd("Query", "query");
             correctionAdd("queri", "query");
@@ -38576,14 +38637,15 @@ namespace OverflowHelper.core
 
             correctionAdd("anthy", "Anthy");
 
-            correctionAdd("associative Array", "associative array");
-            correctionAdd("associate array", "associative array");
-            correctionAdd("Associative Array", "associative array");
-
             correctionAdd("aarray", "array");
             correctionAdd("arrary", "array");
             correctionAdd("arry", "array");
             correctionAdd("arra", "array");
+            correctionAdd("Array", "array");
+
+            correctionAdd("associative Array", "associative array");
+            correctionAdd("associate array", "associative array");
+            correctionAdd("Associative Array", "associative array");
 
             correctionAdd("fire", "FIRE");
 
@@ -40113,6 +40175,7 @@ namespace OverflowHelper.core
             correctionAdd("tp", "to"); // True typo
             correctionAdd("fo", "to"); // True typo
             correctionAdd("ti", "to");
+            correctionAdd("tom", "to");
 
             correctionAdd("Dr. Fauchi", "Dr. Fauci");
             correctionAdd("fauci", "Dr. Fauci");
@@ -40490,6 +40553,12 @@ namespace OverflowHelper.core
             correctionAdd("stacktrace", "stack trace");
 
             correctionAdd("suceed", "succeed");
+            correctionAdd("succd", "succeed");
+
+            correctionAdd("suceeds", "succeeds");
+
+            correctionAdd("succeded", "succeeded");
+            correctionAdd("succded", "succeeded");
 
             correctionAdd("turnes", "turns");
 
@@ -42100,9 +42169,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ttl", "TTL");
 
-            correctionAdd("defs", "definitions");
-            correctionAdd("definitionss", "definitions");
-
             correctionAdd("detaikl", "detail");
             correctionAdd("deatil", "detail");
 
@@ -42355,9 +42421,6 @@ namespace OverflowHelper.core
 
             correctionAdd("loch ness", "Loch Ness Monster");
             correctionAdd("Loch Ness", "Loch Ness Monster");
-
-            correctionAdd("cicle", "circle");
-            correctionAdd("cirlce", "circle");
 
             correctionAdd("crasiness", "craziness");
 
@@ -44385,6 +44448,8 @@ namespace OverflowHelper.core
 
             correctionAdd("re-occur", "reoccur");
 
+            correctionAdd("re-occurring", "reoccurring");
+
             correctionAdd("sayinf", "saying");
 
             correctionAdd("trimed", "trimmed");
@@ -45767,8 +45832,6 @@ namespace OverflowHelper.core
 
             correctionAdd("extra-tropical", "extratropical");
 
-            correctionAdd("fullcircle", "full circle");
-
             correctionAdd("noreaster", "nor'easter");
 
             correctionAdd("cortana", "Cortana");
@@ -46971,6 +47034,7 @@ namespace OverflowHelper.core
             correctionAdd("bootoloader", "bootloader");
             correctionAdd("Boot-Loader", "bootloader");
             correctionAdd("boot-loader", "bootloader");
+            correctionAdd("boodloader", "bootloader");
 
             correctionAdd("contribues", "contributes");
 
@@ -49456,8 +49520,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Stringification", "stringification");
 
-            correctionAdd("suceeds", "succeeds");
-
             correctionAdd("C driver", "C drive");
 
             correctionAdd("phabricator", "Phabricator");
@@ -50443,8 +50505,6 @@ namespace OverflowHelper.core
 
             correctionAdd("cudatext", "CudaText");
 
-            correctionAdd("DoD", "Definition of Done");
-
             correctionAdd("Entanglement", "entanglement");
 
             correctionAdd("Edit Overflow", "Edit&nbsp;Overflow");
@@ -51219,8 +51279,6 @@ namespace OverflowHelper.core
 
             correctionAdd("pro-tempore", "pro tempore");
 
-            correctionAdd("succeded", "succeeded");
-
             correctionAdd("wire-less", "wireless");
             correctionAdd("wireles", "wireless");
 
@@ -51425,8 +51483,6 @@ namespace OverflowHelper.core
             correctionAdd("DIFF3", "diff3");
 
             correctionAdd("instrucment", "instrument");
-
-            correctionAdd("visious circle", "vicious circle");
 
             // Alternative URL: <https://www.youtube.com/watch?v=8PhdfcX9tG0&t=5m10s>
             correctionAdd("flogging a dead-horse", "flogging a dead horse");
@@ -52329,6 +52385,7 @@ namespace OverflowHelper.core
             correctionAdd("PineScript", "Pine Script");
             correctionAdd("Pine script", "Pine Script");
             correctionAdd("pinescript", "Pine Script");
+            correctionAdd("PINE script", "Pine Script");
 
             correctionAdd("Jeff Atwood's giant S", "Pluralization Bug");
             correctionAdd("giant S", "Pluralization Bug");
@@ -52898,8 +52955,6 @@ namespace OverflowHelper.core
             correctionAdd("de Bruijn indices", "de Bruijn index");
 
             correctionAdd("metacoq", "MetaCoq");
-
-            correctionAdd("alabama", "Alabama");
 
             correctionAdd("Answerers", "answerers");
             correctionAdd("Answeres", "answerers");
@@ -54583,8 +54638,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Metric", "metric");
 
-            correctionAdd("Unit Circle", "unit circle");
-
             correctionAdd("acuse", "accuse");
 
             correctionAdd("clealry", "clearly");
@@ -54775,6 +54828,31 @@ namespace OverflowHelper.core
 
             correctionAdd("Stakeholders", "stakeholders");
             correctionAdd("Stackeholders", "stakeholders");
+
+            correctionAdd("chaininng", "chaining");
+
+            correctionAdd("healthcheck", "health check");
+
+            correctionAdd("parcially", "partially");
+
+            correctionAdd("picom", "Picom");
+
+            correctionAdd("piechart", "pie chart");
+            correctionAdd("Pie Chart", "pie chart");
+
+            correctionAdd("primay", "primary");
+
+            correctionAdd("Silhouette Score", "silhouette value");
+            correctionAdd("Silhouette score", "silhouette value");
+            correctionAdd("silhouette score", "silhouette value");
+
+            correctionAdd("theather", "theater");
+
+            correctionAdd("triming", "trimming");
+
+            // A web site for programming
+            correctionAdd("TryItOnline", "Try It Online");
+            correctionAdd("TIO", "Try It Online");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -84631,6 +84709,40 @@ namespace OverflowHelper.core
 
             URL_Add("typecasting", "https://en.wiktionary.org/wiki/typecast#Verb");
 
+            URL_Add("chaining", "https://en.wiktionary.org/wiki/chain#Verb");
+
+            URL_Add("Eric 4", "https://en.wikipedia.org/wiki/Eric_(software)");
+
+            URL_Add("health check", "https://dictionary.cambridge.org/dictionary/english/health-check");
+
+            URL_Add("NINJA-IDE", "https://en.wikipedia.org/wiki/Ninja-IDE");
+
+            URL_Add("OpenAPI Specification", "https://en.wikipedia.org/wiki/OpenAPI_Specification");
+
+            URL_Add("partially", "https://en.wiktionary.org/wiki/partially#Adverb");
+
+            URL_Add("Picom", "https://en.wikipedia.org/wiki/Picom");
+
+            URL_Add("pie chart", "https://en.wiktionary.org/wiki/pie_chart#Noun");
+
+            URL_Add("primary", "https://en.wiktionary.org/wiki/primary#Adjective");
+
+            URL_Add("reoccurring", "https://en.wiktionary.org/wiki/reoccur#Verb");
+
+            URL_Add("silhouette value", "https://en.wikipedia.org/wiki/Silhouette_(clustering)");
+
+            URL_Add("theater", "https://en.wiktionary.org/wiki/theater#Noun");
+
+            URL_Add("trimming", "https://en.wiktionary.org/wiki/trim#Verb");
+
+            URL_Add("true negative", "https://en.wikipedia.org/wiki/True_negative");
+
+            URL_Add("Try It Online", "https://tio.run/");
+
+            URL_Add("USB communications device class", "https://en.wikipedia.org/wiki/USB_communications_device_class");
+
+            URL_Add("Wisconsin", "https://en.wikipedia.org/wiki/Wisconsin");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -87122,6 +87234,9 @@ namespace OverflowHelper.core
             correctionAdd("backslash_", "backlash_");
 
             correctionAdd("its'_", "its_");
+            correctionAdd("it's_", "its_");
+
+            correctionAdd("deutsche welle_", "Deutsche Welle_");
 
             // URL mappings
             //
@@ -88507,6 +88622,8 @@ namespace OverflowHelper.core
             URL_Add("backlash_", "https://en.wiktionary.org/wiki/backlash#Noun");
 
             URL_Add("its_", "https://en.wiktionary.org/wiki/its#Pronoun");
+
+            URL_Add("Deutsche Welle_", "https://en.wikipedia.org/wiki/Deutsche_Welle");
 
         } //addLookupData_alternativeWordSet()
 
