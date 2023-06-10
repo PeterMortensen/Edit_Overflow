@@ -4259,6 +4259,7 @@ namespace OverflowHelper.core
 
             correctionAdd("work flow", "workflow");
             correctionAdd("work-flow", "workflow");
+            correctionAdd("workfolow", "workflow");
 
             correctionAdd("work around", "workaround");
             correctionAdd("work-around", "workaround");
@@ -8175,6 +8176,7 @@ namespace OverflowHelper.core
             correctionAdd("Open Solaris", "OpenSolaris");
 
             correctionAdd("crysis", "crisis");
+            correctionAdd("Crysis", "crisis");
 
             correctionAdd("qgis", "QGIS");
 
@@ -11211,6 +11213,7 @@ namespace OverflowHelper.core
             correctionAdd("flask", "Flask"); // Python. Web.
 
             correctionAdd("requests", "Requests"); // A Python library
+            correctionAdd("requestS", "Requests");
 
             // The common noun...
             correctionAdd("requst", "request");
@@ -18067,10 +18070,26 @@ namespace OverflowHelper.core
             correctionAdd("context menu key code", "KC_APPLICATION");
             correctionAdd("KC_APP", "KC_APPLICATION");
 
+            // A QMK function (C)
+            correctionAdd("eeconfig_update_kb", "eeconfig_update_kb()");
+
+            // A QMK function (C)
+            correctionAdd("eeconfig_update_user", "eeconfig_update_user()");
+
+            // A QMK function (C)
+            correctionAdd("rgblight_sethsv", "rgblight_sethsv()");
+
+            correctionAdd("qmk macros", "QMK macros");
+
             // Configuration software for mechanical keyboards
             // based on QMK
             //
             // Allegedly for "Versatile Input Assistant"
+            //
+            // Alternative URL (stand-alone executables, 
+            // without requiring Google Chrome):
+            //
+            //   <https://github.com/the-via/releases/releases>
             //
             correctionAdd("via", "Via");
             correctionAdd("VIA", "Via");
@@ -19918,6 +19937,7 @@ namespace OverflowHelper.core
             // A podcast
             correctionAdd("security now", "Security Now");
             correctionAdd("SN", "Security Now");
+            correctionAdd("Security now", "Security Now");
 
             correctionAdd("GMail", "Gmail");
             correctionAdd("gmail", "Gmail");
@@ -20958,6 +20978,7 @@ namespace OverflowHelper.core
             correctionAdd("syncronous", "synchronise");
             correctionAdd("syncronized", "synchronise"); // Not 100% correct. Add a tense feature?
             correctionAdd("syncronise", "synchronise");
+            correctionAdd("sycn", "synchronise");
 
             correctionAdd("async", "asynchronously");
             correctionAdd("Async", "asynchronously");
@@ -21120,6 +21141,7 @@ namespace OverflowHelper.core
 
             correctionAdd("tid bit", "tidbit");
             correctionAdd("tit bit", "tidbit");
+            correctionAdd("titbit", "tidbit");
 
             correctionAdd("Hohmann transfer", "Hohmann transfer orbit");
 
@@ -24073,6 +24095,7 @@ namespace OverflowHelper.core
             correctionAdd("it'ss", "it’s");
             correctionAdd("it'", "it’s");
             correctionAdd("jts", "it’s");
+            correctionAdd("its", "it’s");
 
             correctionAdd("O/", "o/");
             correctionAdd("\\o/", "o/");
@@ -33868,6 +33891,7 @@ namespace OverflowHelper.core
 
             correctionAdd("thn", "then");
             correctionAdd("Then", "then");
+            correctionAdd("rhen", "then");
 
             correctionAdd("tigger", "trigger");
 
@@ -35366,15 +35390,17 @@ namespace OverflowHelper.core
             correctionAdd("Stock fish", "Stockfish"); // Chess
             correctionAdd("stock fish", "Stockfish"); // Chess
 
-            correctionAdd("double Fianchetto", "double fianchetto"); // Chess
+            // Chess
+            correctionAdd("finchetto", "fianchetto");
+            correctionAdd("finneketto", "fianchetto");
+            correctionAdd("Fianchetto", "fianchetto");
+            correctionAdd("fiensketö", "fianchetto");
+            correctionAdd("finketta", "fianchetto");
+            correctionAdd("finnechetto", "fianchetto");
+            correctionAdd("feinkettel", "fianchetto");
+            correctionAdd("finkettle", "fianchetto");
 
-            correctionAdd("finchetto", "fianchetto"); // Chess
-            correctionAdd("finneketto", "fianchetto"); // Chess
-            correctionAdd("Fianchetto", "fianchetto"); // Chess
-            correctionAdd("fiensketö", "fianchetto"); // Chess
-            correctionAdd("finketta", "fianchetto"); // Chess
-            correctionAdd("finnechetto", "fianchetto"); // Chess
-            correctionAdd("feinkettel", "fianchetto"); // Chess
+            correctionAdd("double Fianchetto", "double fianchetto"); // Chess
 
             correctionAdd("Petrov", "Petrov's Defence"); // Chess
             correctionAdd("petrov", "Petrov's Defence"); // Chess
@@ -35601,6 +35627,7 @@ namespace OverflowHelper.core
             correctionAdd("GMHikaru", "Hikaru Nakamura");
             correctionAdd("nakumura", "Hikaru Nakamura");
             correctionAdd("Nakumoro", "Hikaru Nakamura");
+            correctionAdd("Hikaro", "Hikaru Nakamura");
 
             correctionAdd("Kan", "Kan (Paulsen) Variation"); // Chess
 
@@ -40676,6 +40703,7 @@ namespace OverflowHelper.core
             correctionAdd("force-feeding", "force feeding");
 
             correctionAdd("neuro typical", "neurotypical");
+            correctionAdd("Neurotypical", "neurotypical");
 
             correctionAdd("responsable", "responsible");
 
@@ -46687,6 +46715,7 @@ namespace OverflowHelper.core
             correctionAdd("connectec", "connects");
             correctionAdd("Connnects", "connects");
             correctionAdd("connnects", "connects");
+            correctionAdd("conects", "connects");
 
             correctionAdd("enlightning", "enlightening");
 
@@ -46756,6 +46785,7 @@ namespace OverflowHelper.core
 
             correctionAdd("studyig", "studying");
             correctionAdd("studing", "studying");
+            correctionAdd("studyingh", "studying");
 
             correctionAdd("commons math", "Commons-Math"); // Is NOT PowerShell related...
 
@@ -53526,6 +53556,7 @@ namespace OverflowHelper.core
             correctionAdd("digitial", "digital");
 
             correctionAdd("Maintainability", "maintainability");
+            correctionAdd("maintainablity", "maintainability");
 
             correctionAdd("tbf", "to be fair");
             correctionAdd("TBF", "to be fair");
@@ -54853,6 +54884,19 @@ namespace OverflowHelper.core
             // A web site for programming
             correctionAdd("TryItOnline", "Try It Online");
             correctionAdd("TIO", "Try It Online");
+
+            correctionAdd("deathh", "death");
+
+            correctionAdd("inable", "enable");
+
+            correctionAdd("multi-level", "multilevel");
+            correctionAdd("multi level", "multilevel");
+
+            correctionAdd("currated", "curated");
+
+            correctionAdd("fashinable", "fashionable");
+
+            correctionAdd("kiwix", "Kiwix");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -84743,6 +84787,26 @@ namespace OverflowHelper.core
 
             URL_Add("Wisconsin", "https://en.wikipedia.org/wiki/Wisconsin");
 
+            URL_Add("death", "https://en.wiktionary.org/wiki/death#Noun");
+
+            URL_Add("enable", "https://en.wiktionary.org/wiki/enable#Verb");
+
+            URL_Add("multilevel", "https://en.wiktionary.org/wiki/multilevel#Adjective");
+
+            URL_Add("curated", "https://en.wiktionary.org/wiki/curated#Adjective");
+
+            URL_Add("eeconfig_update_kb()", "https://github.com/qmk/qmk_firmware/blob/master/docs/feature_eeprom.md");
+
+            URL_Add("eeconfig_update_user()", "https://github.com/qmk/qmk_firmware/blob/master/docs/feature_eeprom.md");
+
+            URL_Add("fashionable", "https://en.wiktionary.org/wiki/fashionable#Adjective");
+
+            URL_Add("Kiwix", "https://en.wikipedia.org/wiki/Kiwix");
+
+            URL_Add("rgblight_sethsv()", "https://github.com/qmk/qmk_firmware/blob/master/docs/feature_rgblight.md");
+
+            URL_Add("QMK macros", "https://getreuer.info/posts/keyboards/macros/index.html");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -85129,6 +85193,7 @@ namespace OverflowHelper.core
             correctionAdd("fidn_", "find_");
 
             correctionAdd("our_", "out_");
+            correctionAdd("ouit_", "out_");
 
             correctionAdd("cargo_", "Cargo_");
 
@@ -87238,6 +87303,8 @@ namespace OverflowHelper.core
 
             correctionAdd("deutsche welle_", "Deutsche Welle_");
 
+            correctionAdd("CSR_", "corporate social responsibility_");
+
             // URL mappings
             //
             //
@@ -88624,6 +88691,8 @@ namespace OverflowHelper.core
             URL_Add("its_", "https://en.wiktionary.org/wiki/its#Pronoun");
 
             URL_Add("Deutsche Welle_", "https://en.wikipedia.org/wiki/Deutsche_Welle");
+
+            URL_Add("corporate social responsibility_", "https://en.wikipedia.org/wiki/Corporate_social_responsibility");
 
         } //addLookupData_alternativeWordSet()
 
