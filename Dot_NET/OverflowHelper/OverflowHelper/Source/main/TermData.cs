@@ -7775,6 +7775,14 @@ namespace OverflowHelper.core
 
             correctionAdd("platformer game", "platform game");
 
+            correctionAdd("licence", "license");
+            correctionAdd("licnese", "license");
+
+            correctionAdd("re-license", "relicense");
+
+            correctionAdd("MIT license", "MIT License");
+            correctionAdd("MIT licence", "MIT License");
+
             correctionAdd("OGL", "Open Game License");
 
             correctionAdd("OGL scandal", "the OGL scandal");
@@ -8819,6 +8827,8 @@ namespace OverflowHelper.core
 
             // Related to licensing by Creative Commons BY-SA (CC-by-SA)
             correctionAdd("given up", "Stack Overflow gave up enforcing the license");
+            correctionAdd("enforcing license", "Stack Overflow gave up enforcing the license");
+            correctionAdd("long time ago", "Stack Overflow gave up enforcing the license");
 
             // Related to the Stack Exchange Android app (defunc due to it)
             correctionAdd("the layoff", "the November 2017 Stack Overflow mass layoff");
@@ -9804,6 +9814,7 @@ namespace OverflowHelper.core
             correctionAdd("MO", "MathOverflow (Stack Exchange site)");
             correctionAdd("MathOverflow", "MathOverflow (Stack Exchange site)");
             correctionAdd("MathOverflow.SE", "MathOverflow (Stack Exchange site)");
+            correctionAdd("Mathoverflow", "MathOverflow (Stack Exchange site)");
 
             correctionAdd("Maths", "Mathematics (Stack Exchange site)");
             correctionAdd("Mathematics SE", "Mathematics (Stack Exchange site)");
@@ -15162,6 +15173,7 @@ namespace OverflowHelper.core
             correctionAdd("c #", "C#");
             correctionAdd("C♯", "C#");
             correctionAdd("C sharp", "C#");
+            correctionAdd("C-sharp", "C#");
 
             correctionAdd("C# 2", "C# 2.0");
             correctionAdd("C#2", "C# 2.0");
@@ -17594,6 +17606,7 @@ namespace OverflowHelper.core
             correctionAdd("colemak", "Colemak");
             correctionAdd("Colemake", "Colemak");
             correctionAdd("coleman", "Colemak");
+            correctionAdd("Coleman", "Colemak");
 
             // A keyboard layout
             correctionAdd("workman", "Workman");
@@ -21931,6 +21944,11 @@ namespace OverflowHelper.core
 
             // A web browser
             correctionAdd("basilisk", "Basilisk");
+
+            correctionAdd("browser spell checking", "web browser spell checking");
+
+            // An offline web browser
+            correctionAdd("kiwix", "Kiwix");
 
             correctionAdd("sql", "SQL");
             correctionAdd("Sql", "SQL");
@@ -32110,8 +32128,6 @@ namespace OverflowHelper.core
             correctionAdd("setttings", "settings");
             correctionAdd("setitngs", "settings");
 
-            correctionAdd("browser spell checking", "web browser spell checking");
-
             correctionAdd("cross browser", "cross-browser");
 
             correctionAdd("browserstack", "BrowserStack");
@@ -34430,13 +34446,6 @@ namespace OverflowHelper.core
             correctionAdd("globaly", "globally");
             correctionAdd("globably", "globally");
             correctionAdd("golbally", "globally");
-
-            correctionAdd("licence", "license");
-
-            correctionAdd("MIT license", "MIT License");
-            correctionAdd("MIT licence", "MIT License");
-
-            correctionAdd("re-license", "relicense");
 
             correctionAdd("mambo jumbo", "mumbo jumbo");
 
@@ -40076,6 +40085,7 @@ namespace OverflowHelper.core
             correctionAdd("discution", "discussion");
             correctionAdd("discussiion", "discussion");
             correctionAdd("discusssion", "discussion");
+            correctionAdd("disucssion", "discussion");
 
             correctionAdd("brad", "broad");
 
@@ -43613,6 +43623,7 @@ namespace OverflowHelper.core
 
             correctionAdd("cheked", "checked");
             correctionAdd("Cheked", "checked");
+            correctionAdd("cheched", "checked");
 
             correctionAdd("millimeter", "millimetre");
             correctionAdd("milimiter", "millimetre");
@@ -54896,7 +54907,27 @@ namespace OverflowHelper.core
 
             correctionAdd("fashinable", "fashionable");
 
-            correctionAdd("kiwix", "Kiwix");
+            correctionAdd("fouling", "fooling");
+
+            correctionAdd("gaia", "Gaia");
+
+            correctionAdd("Hayashi stage", "Hayashi track");
+
+            correctionAdd("keybr", "Keybr");
+
+            correctionAdd("laters", "layers");
+
+            correctionAdd("non-experts", "nonexperts");
+            correctionAdd("non experts", "nonexperts");
+
+            correctionAdd("radiatiin", "radiation");
+
+            correctionAdd("sun-like", "sunlike");
+            correctionAdd("sun like", "sunlike");
+
+            correctionAdd("Indian space", "the Indian space");
+
+            correctionAdd("use to", "used to");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -84807,6 +84838,26 @@ namespace OverflowHelper.core
 
             URL_Add("QMK macros", "https://getreuer.info/posts/keyboards/macros/index.html");
 
+            URL_Add("fooling", "https://en.wiktionary.org/wiki/fool#Verb");
+
+            URL_Add("Gaia", "https://en.wikipedia.org/wiki/Gaia_(spacecraft)");
+
+            URL_Add("Hayashi track", "https://en.wikipedia.org/wiki/Hayashi_track");
+
+            URL_Add("Keybr", "https://typingdonewell.com/blog/how-to-use-keybr-beginners-guide-with-photos/");
+
+            URL_Add("layers", "https://en.wiktionary.org/wiki/layer#Noun");
+
+            URL_Add("nonexperts", "https://en.wiktionary.org/wiki/nonexpert#Noun");
+
+            URL_Add("radiation", "https://en.wiktionary.org/wiki/radiation#Noun");
+
+            URL_Add("sunlike", "https://en.wiktionary.org/wiki/sunlike#Adjective");
+
+            URL_Add("the Indian space", "https://english.stackexchange.com/questions/4645/is-it-ever-correct-to-have-a-space-before-a-question-or-exclamation-mark#comment206109_4645");
+
+            URL_Add("used to", "https://en.wiktionary.org/wiki/used_to#Usage_notes");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -85237,6 +85288,7 @@ namespace OverflowHelper.core
             correctionAdd("Chemistry_", "Chemistry (Stack Exchange site)_"); // Sort of identity mapping"
             correctionAdd("chemistry_", "Chemistry (Stack Exchange site)_");
             correctionAdd("Chemistry.se_", "Chemistry (Stack Exchange site)_");
+            correctionAdd("ChemSE_", "Chemistry (Stack Exchange site)_");
 
             correctionAdd("Electrical Engineering SE_", "Electrical&nbsp;Engineering (Stack Exchange site)_");
             correctionAdd("EE.SE_", "Electrical&nbsp;Engineering (Stack Exchange site)_");
@@ -85281,6 +85333,7 @@ namespace OverflowHelper.core
             correctionAdd("Phys.SE_", "Physics (Stack Exchange site)_");
             correctionAdd("PhysE_", "Physics (Stack Exchange site)_");
             correctionAdd("phys-stack_", "Physics (Stack Exchange site)_");
+            correctionAdd("Physics stackexchange_", "Physics (Stack Exchange site)_");
 
             correctionAdd("RaspberryPi.SE_", "Raspberry&nbsp;Pi (Stack Exchange site)_");
             correctionAdd("Raspberry Pi_", "Raspberry&nbsp;Pi (Stack Exchange site)_"); // Sort of identity mapping
@@ -85397,6 +85450,7 @@ namespace OverflowHelper.core
             correctionAdd("Cross Validated (Stack Exchange site)_", "Cross&nbsp;Validated (Stack Exchange site)_");
             correctionAdd("Cross&nbsp;Validated_", "Cross&nbsp;Validated (Stack Exchange site)_"); // Sort of identity mapping
             correctionAdd("CrossValidated.SE_", "Cross&nbsp;Validated (Stack Exchange site)_");
+            correctionAdd("stats_", "Cross&nbsp;Validated (Stack Exchange site)_");
 
             correctionAdd("space exploration_", "Space&nbsp;Exploration (Stack Exchange site)_");
             correctionAdd("Space Exploration_", "Space&nbsp;Exploration (Stack Exchange site)_");
@@ -86610,6 +86664,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Usability_", "usability_");
             correctionAdd("usability study_", "usability_");
+            correctionAdd("dog fooding_", "usability_");
+            correctionAdd("dogfooding_", "usability_");
 
             correctionAdd("Airport_", "airport_");
 
