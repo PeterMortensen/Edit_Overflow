@@ -5485,6 +5485,17 @@ namespace OverflowHelper.core
             correctionAdd("pihole", "Pi-hole");
             correctionAdd("PiHole", "Pi-hole");
 
+            correctionAdd("maybee", "maybe");
+            correctionAdd("maby", "maybe");
+            correctionAdd("mabye", "maybe");
+            correctionAdd("mybe", "maybe");
+            correctionAdd("mabey", "maybe");
+            correctionAdd("May be", "maybe");
+            correctionAdd("Maybe", "maybe");
+            correctionAdd("may be", "maybe");
+            correctionAdd("mabe", "maybe");
+            correctionAdd("Mabye", "maybe");
+
             correctionAdd("usb", "USB");
             correctionAdd("Usb", "USB");
 
@@ -5600,6 +5611,55 @@ namespace OverflowHelper.core
             correctionAdd("pen-drive", "USB flash drive");
             correctionAdd("usb flash drive", "USB flash drive");
             correctionAdd("Pendrive", "USB flash drive");
+
+            correctionAdd("FLASH", "flash memory");
+            correctionAdd("flah", "flash memory");
+            correctionAdd("flash", "flash memory");
+
+            // "CF" is taken by ColdFusion.
+            correctionAdd("compactflash", "CompactFlash");
+            correctionAdd("Compactflash", "CompactFlash");
+
+            correctionAdd("dfu", "DFU");
+
+            // Microcontroller flasher/reader software
+            // for DFU capable devices
+            correctionAdd("Dfu-util", "dfu-util");
+
+            // A file format. E.g., for flashing microcontrollers.
+            correctionAdd("Motorola S-record", "S19");
+            correctionAdd("s19", "S19");
+            correctionAdd("Motorola s19", "S19");
+            correctionAdd("SREC", "S19");
+            correctionAdd("srec", "S19");
+
+            // Software to read and write BIOS flash memory.
+            correctionAdd("flashrom", "Flashrom");
+
+            correctionAdd("memmory", "memory");
+            correctionAdd("Memory", "memory");
+            correctionAdd("memeory", "memory");
+            correctionAdd("mem", "memory");
+
+            correctionAdd("lstm", "long short-term memory");
+            correctionAdd("LSTM", "long short-term memory");
+            correctionAdd("Long Short Term Memory", "long short-term memory");
+
+            correctionAdd("Memory Leak", "memory leak");
+
+            correctionAdd("in memory", "in-memory");
+
+            correctionAdd("memory-model", "memory model");
+
+            correctionAdd("flash light", "flashlight");
+
+            correctionAdd("Newsflash", "NewsFlash");
+
+            correctionAdd("newsbeuter", "Newsbeuter");
+            correctionAdd("News buiter", "Newsbeuter");
+
+            correctionAdd("News Boat", "Newsboat");
+            correctionAdd("newsboat", "Newsboat");
 
             correctionAdd("verry", "very");
             correctionAdd("vary", "very");
@@ -7759,6 +7819,7 @@ namespace OverflowHelper.core
 
             // A computer game. For Windows.
             correctionAdd("MS fly simulator", "Microsoft Flight Simulator");
+            correctionAdd("Microsoft flight simulator", "Microsoft Flight Simulator");
 
             // A computer game
             correctionAdd("Skyrim", "The Elder Scrolls V: Skyrim");
@@ -8729,6 +8790,7 @@ namespace OverflowHelper.core
 
             correctionAdd("plagarised", "plagiarised");
             correctionAdd("plagiasrised", "plagiarised");
+            correctionAdd("plagged", "plagiarised");
 
             correctionAdd("plagirising", "plagiarising");
             correctionAdd("plagarizing", "plagiarising");
@@ -11961,6 +12023,7 @@ namespace OverflowHelper.core
             correctionAdd("Library", "library");
             correctionAdd("librabry", "library");
             correctionAdd("libraray", "library");
+            correctionAdd("librarry", "library");
 
             correctionAdd("libs", "libraries");
             correctionAdd("Libs", "libraries");
@@ -12312,17 +12375,6 @@ namespace OverflowHelper.core
 
             // A program to download files from YouTube
             correctionAdd("youtube dl", "youtube-dl");
-
-            correctionAdd("maybee", "maybe");
-            correctionAdd("maby", "maybe");
-            correctionAdd("mabye", "maybe");
-            correctionAdd("mybe", "maybe");
-            correctionAdd("mabey", "maybe");
-            correctionAdd("May be", "maybe");
-            correctionAdd("Maybe", "maybe");
-            correctionAdd("may be", "maybe");
-            correctionAdd("mabe", "maybe");
-            correctionAdd("Mabye", "maybe");
 
             correctionAdd("adobe", "Adobe");
             correctionAdd("ADOBE", "Adobe");
@@ -14281,6 +14333,7 @@ namespace OverflowHelper.core
             correctionAdd("TSQL Server", "SQL&nbsp;Server");
             correctionAdd("MS SQL SERVER", "SQL&nbsp;Server");
             correctionAdd("MS SQLserver", "SQL&nbsp;Server");
+            correctionAdd("MSSQL Server", "SQL&nbsp;Server");
 
             correctionAdd("SQLServer 2000", "SQL Server 2000");
             correctionAdd("SQL2000", "SQL Server 2000");
@@ -15610,6 +15663,7 @@ namespace OverflowHelper.core
             correctionAdd("reality-distortion field", "reality distortion field");
 
             correctionAdd("WWDC", "Apple Worldwide Developers Conference");
+            correctionAdd("wwdc", "Apple Worldwide Developers Conference");
 
             correctionAdd("ios", "iOS");
             correctionAdd("IOS", "iOS");
@@ -16484,13 +16538,6 @@ namespace OverflowHelper.core
             correctionAdd("FBO", "fixed-base operator");
 
             correctionAdd("Comma Operator", "comma operator");
-
-            correctionAdd("flash", "Flash"); // Adobe's, not what is inside USB sticks.
-            correctionAdd("Adobe Flash", "Flash"); // Adobe's, not what is inside USB sticks.
-
-            // "CF" is taken by ColdFusion.
-            correctionAdd("compactflash", "CompactFlash");
-            correctionAdd("Compactflash", "CompactFlash");
 
             correctionAdd("squach", "squash");
 
@@ -17842,6 +17889,7 @@ namespace OverflowHelper.core
             correctionAdd("Keytron V5", "Keychron V5 ISO");
             correctionAdd("keychron v5", "Keychron V5 ISO");
             correctionAdd("Keytron 5", "Keychron V5 ISO");
+            correctionAdd("keytron V5", "Keychron V5 ISO");
 
             // A Chinese manufacturer, incl. of mechanical keyboards
             correctionAdd("CoolerMaster", "Cooler Master");
@@ -18099,7 +18147,7 @@ namespace OverflowHelper.core
             //
             // Allegedly for "Versatile Input Assistant"
             //
-            // Alternative URL (stand-alone executables, 
+            // Alternative URL (stand-alone executables,
             // without requiring Google Chrome):
             //
             //   <https://github.com/the-via/releases/releases>
@@ -22005,9 +22053,6 @@ namespace OverflowHelper.core
             correctionAdd("MS Build", "MSBuild");
             correctionAdd("MS BUild", "MSBuild");
 
-            correctionAdd("re build", "rebuild");
-            correctionAdd("re-build", "rebuild");
-
             correctionAdd("buid", "build");
             correctionAdd("bulid", "build");
             correctionAdd("buidl", "build");
@@ -22017,6 +22062,10 @@ namespace OverflowHelper.core
             correctionAdd("biuld", "build");
             correctionAdd("fild", "build");
             correctionAdd("Bulid", "build");
+            correctionAdd("buil", "build");
+
+            correctionAdd("re build", "rebuild");
+            correctionAdd("re-build", "rebuild");
 
             correctionAdd("cocoa", "Cocoa");
 
@@ -22502,6 +22551,7 @@ namespace OverflowHelper.core
             correctionAdd("code blocks", "Code::Blocks");
             correctionAdd("code::blocks", "Code::Blocks");
             correctionAdd("code:blocks", "Code::Blocks");
+            correctionAdd("Code::Block", "Code::Blocks");
 
             correctionAdd("termina", "terminal");
             correctionAdd("termianl", "terminal");
@@ -22842,10 +22892,28 @@ namespace OverflowHelper.core
 
             correctionAdd("infront", "in front");
 
+            correctionAdd("whit", "with");
+            correctionAdd("W/", "with");
+            correctionAdd("whith", "with");
+            correctionAdd("wuth", "with");
+            correctionAdd("wit", "with");
+            correctionAdd("wiht", "with");
+            correctionAdd("w/", "with");
+            correctionAdd("wirh", "with");
+            correctionAdd("wiuth", "with");
+            correctionAdd("Whit", "with");
+            correctionAdd("witht", "with");
+            correctionAdd("Whith", "with");
+            correctionAdd("woth", "with");
+            correctionAdd("withe", "with");
+            correctionAdd("witg", "with");
+
             correctionAdd("In Conjunction With", "in conjunction with");
             correctionAdd("i.c.w", "in conjunction with");
             correctionAdd("in-conjuction", "in conjunction with");
             correctionAdd("in-conjuction with", "in conjunction with");
+
+            correctionAdd("bare with", "bear with");
 
             correctionAdd("in the first-place", "in the first place");
 
@@ -30468,6 +30536,7 @@ namespace OverflowHelper.core
             correctionAdd("apreciated", "appreciated");
             correctionAdd("apprecieated", "appreciated");
             correctionAdd("appreaciated", "appreciated");
+            correctionAdd("appricated", "appreciated");
 
             correctionAdd("netbios-ns", "port 137");
 
@@ -34043,23 +34112,6 @@ namespace OverflowHelper.core
             correctionAdd("manpage", "man page");
             correctionAdd("MAN page", "man page");
 
-            correctionAdd("memmory", "memory");
-            correctionAdd("Memory", "memory");
-            correctionAdd("memeory", "memory");
-            correctionAdd("mem", "memory");
-
-            correctionAdd("lstm", "long short-term memory");
-            correctionAdd("LSTM", "long short-term memory");
-            correctionAdd("Long Short Term Memory", "long short-term memory");
-
-            correctionAdd("Memory Leak", "memory leak");
-
-            correctionAdd("in memory", "in-memory");
-
-            correctionAdd("FLASH", "flash memory");
-
-            correctionAdd("memory-model", "memory model");
-
             correctionAdd("misc", "miscellaneous");
             correctionAdd("miscelaneous", "miscellaneous");
             correctionAdd("Misc", "miscellaneous");
@@ -34326,23 +34378,6 @@ namespace OverflowHelper.core
 
             correctionAdd("suprisingly", "surprisingly");
             correctionAdd("Suprisingly", "surprisingly");
-
-            correctionAdd("whit", "with");
-            correctionAdd("W/", "with");
-            correctionAdd("whith", "with");
-            correctionAdd("wuth", "with");
-            correctionAdd("wit", "with");
-            correctionAdd("wiht", "with");
-            correctionAdd("w/", "with");
-            correctionAdd("wirh", "with");
-            correctionAdd("wiuth", "with");
-            correctionAdd("Whit", "with");
-            correctionAdd("witht", "with");
-            correctionAdd("Whith", "with");
-            correctionAdd("woth", "with");
-            correctionAdd("withe", "with");
-
-            correctionAdd("bare with", "bear with");
 
             correctionAdd("blogspot", "BlogSpot");
 
@@ -36087,6 +36122,7 @@ namespace OverflowHelper.core
             correctionAdd("seqeuence", "sequence");
             correctionAdd("seqence", "sequence");
             correctionAdd("sequenct", "sequence");
+            correctionAdd("sequencue", "sequence");
 
             correctionAdd("ivy league", "Ivy League");
             correctionAdd("Ivey", "Ivy League");
@@ -36245,12 +36281,6 @@ namespace OverflowHelper.core
 
             correctionAdd("big bang", "Big Bang");
             correctionAdd("bib bang", "Big Bang");
-
-            correctionAdd("dfu", "DFU");
-
-            // Microcontroller flasher/reader software
-            // for DFU capable devices
-            correctionAdd("Dfu-util", "dfu-util");
 
             correctionAdd("dip", "DIP");
 
@@ -42312,14 +42342,6 @@ namespace OverflowHelper.core
 
             correctionAdd("elfeed", "Elfeed");
 
-            correctionAdd("Newsflash", "NewsFlash");
-
-            correctionAdd("newsbeuter", "Newsbeuter");
-            correctionAdd("News buiter", "Newsbeuter");
-
-            correctionAdd("News Boat", "Newsboat");
-            correctionAdd("newsboat", "Newsboat");
-
             correctionAdd("pandoc", "Pandoc");
 
             correctionAdd("SWAY", "Sway");
@@ -45538,8 +45560,6 @@ namespace OverflowHelper.core
             correctionAdd("dbaa", "DBAA");
 
             correctionAdd("H265", "H.265");
-
-            correctionAdd("MAY", "May");
 
             correctionAdd("spring integration", "Spring Integration");
             correctionAdd("spring Integration", "Spring Integration");
@@ -49131,8 +49151,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ViolentMonkey", "Violentmonkey");
 
-            correctionAdd("flash light", "flashlight");
-
             correctionAdd("over-zealous", "overzealous");
 
             correctionAdd("eloquence", "Eloquence");
@@ -51168,9 +51186,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Dungeons and Dragons die", "Dungeons & Dragons die");
 
-            // BIOS. Flash.
-            correctionAdd("flashrom", "Flashrom");
-
             correctionAdd("M4", "m4");
 
             correctionAdd("togling", "toggling");
@@ -51230,13 +51245,6 @@ namespace OverflowHelper.core
             correctionAdd("Plot", "plot");
 
             correctionAdd("roman empire", "Roman Empire");
-
-            // A file format. E.g., for flashing microcontrollers.
-            correctionAdd("Motorola S-record", "S19");
-            correctionAdd("s19", "S19");
-            correctionAdd("Motorola s19", "S19");
-            correctionAdd("SREC", "S19");
-            correctionAdd("srec", "S19");
 
             correctionAdd("back-handed", "backhanded");
 
@@ -54909,6 +54917,7 @@ namespace OverflowHelper.core
 
             correctionAdd("fouling", "fooling");
 
+            // A spacecraft
             correctionAdd("gaia", "Gaia");
 
             correctionAdd("Hayashi stage", "Hayashi track");
@@ -55837,8 +55846,6 @@ namespace OverflowHelper.core
             URL_Add("Firesheep", "https://en.wikipedia.org/wiki/Firesheep");
 
             URL_Add("Processing", "https://en.wikipedia.org/wiki/Processing"); // Old: https://en.wikipedia.org/wiki/Processing_%28programming_language%29
-
-            URL_Add("Flash", "https://en.wikipedia.org/wiki/Adobe_Flash");
 
             URL_Add("jQuery UI", "https://en.wikipedia.org/wiki/JQuery_UI");
 
@@ -72118,8 +72125,6 @@ namespace OverflowHelper.core
 
             URL_Add("H.265", "https://en.wikipedia.org/wiki/High_Efficiency_Video_Coding");
 
-            URL_Add("May", "https://en.wiktionary.org/wiki/May#Proper_noun");
-
             URL_Add("Schrödinger's cat", "https://en.wikipedia.org/wiki/Schr%C3%B6dinger's_cat");
 
             URL_Add("Spring Integration", "https://en.wikipedia.org/wiki/Spring_Integration");
@@ -87361,6 +87366,12 @@ namespace OverflowHelper.core
 
             correctionAdd("CSR_", "corporate social responsibility_");
 
+            correctionAdd("flash_", "Flash_"); // Adobe's, not what is inside USB sticks.
+            correctionAdd("Adobe Flash_", "Flash_"); // Adobe's, not what is inside USB sticks.
+
+            correctionAdd("MAY_", "May_");
+            correctionAdd("may_", "May_");
+
             // URL mappings
             //
             //
@@ -88749,6 +88760,10 @@ namespace OverflowHelper.core
             URL_Add("Deutsche Welle_", "https://en.wikipedia.org/wiki/Deutsche_Welle");
 
             URL_Add("corporate social responsibility_", "https://en.wikipedia.org/wiki/Corporate_social_responsibility");
+
+            URL_Add("Flash_", "https://en.wikipedia.org/wiki/Adobe_Flash");
+
+            URL_Add("May_", "https://en.wiktionary.org/wiki/May#Proper_noun");
 
         } //addLookupData_alternativeWordSet()
 
