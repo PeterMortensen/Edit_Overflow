@@ -7365,6 +7365,7 @@ namespace OverflowHelper.core
 
             correctionAdd("idendical", "identical");
             correctionAdd("indentical", "identical");
+            correctionAdd("identitcal", "identical");
 
             correctionAdd("indendation", "indentation");
             correctionAdd("indentitation", "indentation");
@@ -15468,6 +15469,7 @@ namespace OverflowHelper.core
 
             correctionAdd("on line", "online");
             correctionAdd("on-line", "online");
+            correctionAdd("on the line", "online");
 
             correctionAdd("dead line", "deadline");
             correctionAdd("dealine", "deadline");
@@ -55001,6 +55003,10 @@ namespace OverflowHelper.core
             correctionAdd("tungsten inert gas", "TIG welding");
             correctionAdd("TIG", "TIG welding");
 
+            correctionAdd("itenerate", "iterate");
+
+            correctionAdd("SO Labs", "Stack Overflow Labs");
+
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -84951,6 +84957,10 @@ namespace OverflowHelper.core
             URL_Add("The Scorpion and the Frog", "https://en.wikipedia.org/wiki/The_Scorpion_and_the_Frog");
 
             URL_Add("TIG welding", "https://en.wikipedia.org/wiki/Gas_tungsten_arc_welding");
+
+            URL_Add("iterate", "https://en.wiktionary.org/wiki/iterate#Verb");
+
+            URL_Add("Stack Overflow Labs", "https://stackoverflow.co/labs/?utm_source=so-owned&utm_medium=referral&utm_campaign=dev-survey-2023&utm_content=survey-results-sidebar");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
