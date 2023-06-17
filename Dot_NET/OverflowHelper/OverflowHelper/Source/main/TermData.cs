@@ -1462,6 +1462,10 @@ namespace OverflowHelper.core
             correctionAdd("ARM Cortex-M", "Cortex-M");
             correctionAdd("arm cortex", "Cortex-M");
 
+            correctionAdd("ARM-Cortex-M0", "Cortex-M0");
+            correctionAdd("ARM Cortex-M0", "Cortex-M0");
+            correctionAdd("Cortex M0", "Cortex-M0");
+
             correctionAdd("Cortex M4", "Cortex-M4");
 
             correctionAdd("armhf", "ARMv7");
@@ -3319,8 +3323,6 @@ namespace OverflowHelper.core
             correctionAdd("testet", "tested");
             correctionAdd("testes", "tested");
 
-            correctionAdd("testabilty", "testability");
-
             correctionAdd("testcase", "test case");
 
             correctionAdd("test set", "test data set");
@@ -3426,6 +3428,129 @@ namespace OverflowHelper.core
             correctionAdd("DUT", "device under test");
 
             correctionAdd("integration-test", "integration test");
+
+            correctionAdd("testabilty", "testability");
+
+            correctionAdd("abillity", "ability");
+            correctionAdd("ablity", "ability");
+            correctionAdd("abiliity", "ability");
+            correctionAdd("abilit", "ability");
+
+            correctionAdd("log4j-vulnerability", "Log4Shell vulnerability");
+            correctionAdd("log4shell vulnerability", "Log4Shell vulnerability");
+            correctionAdd("log4shell", "Log4Shell vulnerability");
+            correctionAdd("Log4Shell", "Log4Shell vulnerability");
+            correctionAdd("Log4shell", "Log4Shell vulnerability");
+            correctionAdd("CVE-2021-44228", "Log4Shell vulnerability");
+            correctionAdd("cve-2021-44228", "Log4Shell vulnerability");
+            correctionAdd("log4j Security Vulnerabilities", "Log4Shell vulnerability");
+            correctionAdd("log4j security vulnerabilities", "Log4Shell vulnerability");
+            correctionAdd("Log4j Security Vulnerabilities", "Log4Shell vulnerability");
+            correctionAdd("Log4j security vulnerabilities", "Log4Shell vulnerability");
+            correctionAdd("Log4j security vulnerability", "Log4Shell vulnerability");
+            correctionAdd("log4j security vulnerability", "Log4Shell vulnerability");
+            correctionAdd("Log4j vuln", "Log4Shell vulnerability");
+
+            correctionAdd("HA", "high availability");
+
+            correctionAdd("vuln", "vulnerability");
+
+            correctionAdd("vulnerablities", "vulnerabilities");
+            correctionAdd("vulnarabilities", "vulnerabilities");
+            correctionAdd("vulns", "vulnerabilities");
+
+            correctionAdd("enfore", "enforce");
+            correctionAdd("Enfore", "enforce");
+            correctionAdd("Enforcce", "enforce");
+            correctionAdd("enforcce", "enforce");
+
+            correctionAdd("enforcable", "enforceable");
+            correctionAdd("Enforcable", "enforceable");
+
+            correctionAdd("enforcability", "enforceability");
+
+            correctionAdd("reenforces", "re-enforces");
+
+            correctionAdd("debuger", "debugger");
+
+            correctionAdd("debuged", "debugged");
+
+            correctionAdd("debuging", "debugging");
+            correctionAdd("debuggin", "debugging");
+            correctionAdd("debug", "debugging");
+            correctionAdd("Debbugging", "debugging");
+            correctionAdd("debbugging", "debugging");
+            correctionAdd("degugging", "debugging");
+            correctionAdd("debbuging", "debugging");
+            correctionAdd("dubugging", "debugging");
+            correctionAdd("DEBBUGING", "debugging");
+
+            correctionAdd("debugability", "debuggability");
+
+            correctionAdd("debugable", "debuggable");
+
+            correctionAdd("Debugview", "DebugView");
+            correctionAdd("debugview", "DebugView");
+            correctionAdd("debug view", "DebugView");
+            correctionAdd("Dbgview", "DebugView");
+            correctionAdd("DbgView", "DebugView");
+            correctionAdd("debugiview", "DebugView");
+
+            correctionAdd("XDebug", "Xdebug");
+            correctionAdd("xdebug", "Xdebug");
+            correctionAdd("xDebug", "Xdebug");
+
+            correctionAdd("printf debugging", "print debugging");
+
+            // Technique used in software development
+            correctionAdd("rubberducking", "rubber duck debugging");
+            correctionAdd("rubber duck", "rubber duck debugging");
+
+            correctionAdd("interop", "interoperability");
+
+            correctionAdd("useability", "usability");
+
+            correctionAdd("permiability", "permeability");
+
+            correctionAdd("readbility", "readability");
+            correctionAdd("readibility", "readability");
+            correctionAdd("readabilty", "readability");
+
+            correctionAdd("stabilty", "stability");
+            correctionAdd("staibility", "stability");
+
+            correctionAdd("searcheability", "searchability");
+
+            correctionAdd("probablity", "probability");
+            correctionAdd("propability", "probability");
+            correctionAdd("Probability", "probability");
+
+            correctionAdd("invitability", "inevitability");
+            correctionAdd("inevitablity", "inevitability");
+
+            correctionAdd("re-usability", "reusability");
+
+            correctionAdd("repeatibility", "repeatability");
+            correctionAdd("Repeatability", "repeatability");
+            correctionAdd("repeatebility", "repeatability");
+
+            correctionAdd("unpredicability", "unpredictability");
+
+            correctionAdd("managebility", "manageability");
+
+            correctionAdd("immutablity", "immutability");
+            correctionAdd("imutablity", "immutability");
+
+            correctionAdd("maneuverability", "manoeuvrability");
+
+            correctionAdd("Maintainability", "maintainability");
+            correctionAdd("maintainablity", "maintainability");
+
+            correctionAdd("inaproachability", "inapproachability");
+
+            correctionAdd("indispensibility", "indispensability");
+
+            correctionAdd("reachbility", "reachability");
 
             correctionAdd("cyclomatic", "cyclomatic complexity");
             correctionAdd("McCabe complexity test", "cyclomatic complexity");
@@ -4371,9 +4496,6 @@ namespace OverflowHelper.core
 
             correctionAdd("workspce", "workspace");
 
-            correctionAdd("whitespace", "white space");
-            correctionAdd("white-space", "white space");
-
             correctionAdd("name space", "namespace");
             correctionAdd("namespacs", "namespace");
 
@@ -4393,6 +4515,26 @@ namespace OverflowHelper.core
             //    <https://www.youtube.com/watch?v=F7SNEdjftno>
             //
             correctionAdd("bare minimum", "the bare minimum");
+
+            correctionAdd("whitespace", "white space");
+            correctionAdd("white-space", "white space");
+
+            correctionAdd("White Dwarf", "white dwarf");
+
+            correctionAdd("White noise", "white noise");
+
+            correctionAdd("non-White", "nonwhite");
+
+            correctionAdd("white board", "whiteboard");
+
+            correctionAdd("black and white", "black-and-white");
+            correctionAdd("B&W", "black-and-white");
+            correctionAdd("b&w", "black-and-white");
+
+            correctionAdd("whitelist", "allowlist");
+            correctionAdd("allow-list", "allowlist");
+
+            correctionAdd("allow-listing", "allowlisting");
 
             correctionAdd("squarespace", "Squarespace");
             correctionAdd("SquareSpace", "Squarespace");
@@ -5495,21 +5637,6 @@ namespace OverflowHelper.core
             correctionAdd("DoS", "DDoS"); // Not strictly correct (the extra "D" means "distributed")
             correctionAdd("ddos", "DDoS");
             correctionAdd("DDos", "DDoS");
-
-            correctionAdd("log4j-vulnerability", "Log4Shell vulnerability");
-            correctionAdd("log4shell vulnerability", "Log4Shell vulnerability");
-            correctionAdd("log4shell", "Log4Shell vulnerability");
-            correctionAdd("Log4Shell", "Log4Shell vulnerability");
-            correctionAdd("Log4shell", "Log4Shell vulnerability");
-            correctionAdd("CVE-2021-44228", "Log4Shell vulnerability");
-            correctionAdd("cve-2021-44228", "Log4Shell vulnerability");
-            correctionAdd("log4j Security Vulnerabilities", "Log4Shell vulnerability");
-            correctionAdd("log4j security vulnerabilities", "Log4Shell vulnerability");
-            correctionAdd("Log4j Security Vulnerabilities", "Log4Shell vulnerability");
-            correctionAdd("Log4j security vulnerabilities", "Log4Shell vulnerability");
-            correctionAdd("Log4j security vulnerability", "Log4Shell vulnerability");
-            correctionAdd("log4j security vulnerability", "Log4Shell vulnerability");
-            correctionAdd("Log4j vuln", "Log4Shell vulnerability");
 
             correctionAdd("irb", "Interactive Ruby Shell");
             correctionAdd("IRB", "Interactive Ruby Shell");
@@ -6994,8 +7121,6 @@ namespace OverflowHelper.core
 
             correctionAdd("unavalable", "unavailable");
 
-            correctionAdd("HA", "high availability");
-
             correctionAdd("commercially available off-the-shelf", "commercial off-the-shelf");
             correctionAdd("COTS", "commercial off-the-shelf");
 
@@ -7204,12 +7329,6 @@ namespace OverflowHelper.core
             correctionAdd("scaleable", "scalable");
 
             correctionAdd("vonuravle", "vulnerable");
-
-            correctionAdd("vuln", "vulnerability");
-
-            correctionAdd("vulnerablities", "vulnerabilities");
-            correctionAdd("vulnarabilities", "vulnerabilities");
-            correctionAdd("vulns", "vulnerabilities");
 
             correctionAdd("unviable", "inviable");
 
@@ -7796,18 +7915,6 @@ namespace OverflowHelper.core
             correctionAdd("RTO", "Recovery Time Objective");
 
             correctionAdd("non-overridable", "nonoverridable");
-
-            correctionAdd("enfore", "enforce");
-            correctionAdd("Enfore", "enforce");
-            correctionAdd("Enforcce", "enforce");
-            correctionAdd("enforcce", "enforce");
-
-            correctionAdd("enforcable", "enforceable");
-            correctionAdd("Enforcable", "enforceable");
-
-            correctionAdd("enforcability", "enforceability");
-
-            correctionAdd("reenforces", "re-enforces");
 
             correctionAdd("managable", "manageable");
             correctionAdd("manageble", "manageable");
@@ -8830,6 +8937,7 @@ namespace OverflowHelper.core
             correctionAdd("John Skeet", "Jon Skeet");
             correctionAdd("skeet", "Jon Skeet");
 
+            // Code commenting style standard
             correctionAdd("Jon Skeet decree", "Jon Skeet Decree");
 
             // Stack Overflow
@@ -13320,6 +13428,7 @@ namespace OverflowHelper.core
             correctionAdd("VS9", "Visual&nbsp;Studio&nbsp;2008");
             correctionAdd("Visual Studio 9.0", "Visual&nbsp;Studio&nbsp;2008");
             correctionAdd("Visual Studio 9", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("MSVC 2008", "Visual&nbsp;Studio&nbsp;2008");
 
             correctionAdd("VS 2012", "Visual&nbsp;Studio&nbsp;2012");
             correctionAdd("VS2012", "Visual&nbsp;Studio&nbsp;2012");
@@ -17761,6 +17870,12 @@ namespace OverflowHelper.core
             correctionAdd("biden", "Joe Biden");
 
             // United States politics
+            correctionAdd("Whitehouse", "White House");
+            correctionAdd("white house", "White House");
+            correctionAdd("WHouse", "White House");
+            correctionAdd("WhiteHouse", "White House");
+
+            // United States politics
             correctionAdd("state of the union", "State of the Union Address");
             correctionAdd("SOTU", "State of the Union Address");
 
@@ -17834,9 +17949,11 @@ namespace OverflowHelper.core
             correctionAdd("Colemake", "Colemak");
             correctionAdd("coleman", "Colemak");
             correctionAdd("Coleman", "Colemak");
+            correctionAdd("COLEMAK", "Colemak");
 
             // A keyboard layout
             correctionAdd("workman", "Workman");
+            correctionAdd("WORKMAN", "Workman");
 
             // A keyboard layout
             correctionAdd("DVORAK", "Dvorak");
@@ -17893,6 +18010,7 @@ namespace OverflowHelper.core
             correctionAdd("mx sw", "Cherry MX");
 
             // A type of switch for mechanical keyboards
+            // Linear
             correctionAdd("cherry mx red", "Cherry MX Red");
             correctionAdd("Cherry Red", "Cherry MX Red");
             correctionAdd("MX red", "Cherry MX Red");
@@ -17902,6 +18020,18 @@ namespace OverflowHelper.core
             correctionAdd("CHERRY MX Red", "Cherry MX Red");
 
             // A type of switch for mechanical keyboards
+            // Linear
+            correctionAdd("Cherry MX SPEED Silver", "Cherry MX Speed Silver");
+            correctionAdd("Cherry MX Speed silver", "Cherry MX Speed Silver");
+
+            // A type of switch for mechanical keyboards
+            // Linear
+            correctionAdd("Cherry Black", "Cherry MX Black");
+            correctionAdd("mx black", "Cherry MX Black");
+            correctionAdd("MX Black", "Cherry MX Black");
+
+            // A type of switch for mechanical keyboards
+            // Tactile, but not clicky
             correctionAdd("cherry max brown", "Cherry MX Brown");
             correctionAdd("Cherry Brown", "Cherry MX Brown");
             correctionAdd("MX Brown", "Cherry MX Brown");
@@ -17910,6 +18040,16 @@ namespace OverflowHelper.core
             correctionAdd("MX brown", "Cherry MX Brown");
 
             // A type of switch for mechanical keyboards
+            // Tactile, but not clicky
+            correctionAdd("tactile grey", "Cherry MX Tactile Grey");
+            correctionAdd("Tactile Grey", "Cherry MX Tactile Grey");
+
+            // A type of switch for mechanical keyboards.
+            // Tactile, but not clicky
+            correctionAdd("MX Cherry Clear", "Cherry MX Clear");
+
+            // A type of switch for mechanical keyboards
+            // Tactile and clicky
             correctionAdd("Mx blue", "Cherry MX Blue");
             correctionAdd("mx blue", "Cherry MX Blue");
             correctionAdd("MX Blue", "Cherry MX Blue");
@@ -17918,20 +18058,8 @@ namespace OverflowHelper.core
             correctionAdd("Cherry Blue", "Cherry MX Blue");
 
             // A type of switch for mechanical keyboards
+            // Tactile and clicky
             correctionAdd("CHERRY MX GREEN", "Cherry MX Green");
-
-            // A type of switch for mechanical keyboards
-            correctionAdd("Cherry Black", "Cherry MX Black");
-            correctionAdd("mx black", "Cherry MX Black");
-            correctionAdd("MX Black", "Cherry MX Black");
-
-            // A type of switch for mechanical keyboards
-            correctionAdd("tactile grey", "Cherry MX Tactile Grey");
-            correctionAdd("Tactile Grey", "Cherry MX Tactile Grey");
-
-            // A type of switch for mechanical keyboards
-            correctionAdd("Cherry MX SPEED Silver", "Cherry MX Speed Silver");
-            correctionAdd("Cherry MX Speed silver", "Cherry MX Speed Silver");
 
             // A type of switch for mechanical keyboards
             correctionAdd("Black Alps", "Alps SKCM Black");
@@ -17987,6 +18115,7 @@ namespace OverflowHelper.core
             correctionAdd("gataron", "Gateron");
             correctionAdd("Gatheron", "Gateron");
             correctionAdd("gatheron", "Gateron");
+            correctionAdd("Gat", "Gateron");
 
             // A type of switch for mechanical keyboards
             correctionAdd("gateron yellow", "Gateron Yellow");
@@ -18070,6 +18199,8 @@ namespace OverflowHelper.core
             correctionAdd("keychron v5", "Keychron V5 ISO");
             correctionAdd("Keytron 5", "Keychron V5 ISO");
             correctionAdd("keytron V5", "Keychron V5 ISO");
+            correctionAdd("Keychron v5", "Keychron V5 ISO");
+            correctionAdd("Keythron V5", "Keychron V5 ISO");
 
             // A Chinese manufacturer, incl. of mechanical keyboards
             correctionAdd("CoolerMaster", "Cooler Master");
@@ -18336,7 +18467,7 @@ namespace OverflowHelper.core
             correctionAdd("VIA", "Via");
 
             // Configuration software for mechanical keyboards
-            // (QMK based?)
+            // (it is a fork of QMK)
             //
             // Yes, Oryx is a heavily overloaded term.
             //
@@ -18870,41 +19001,6 @@ namespace OverflowHelper.core
 
             correctionAdd("staments", "statements");
             correctionAdd("statments", "statements");
-
-            correctionAdd("debuger", "debugger");
-
-            correctionAdd("debuged", "debugged");
-
-            correctionAdd("debuging", "debugging");
-            correctionAdd("debuggin", "debugging");
-            correctionAdd("debug", "debugging");
-            correctionAdd("Debbugging", "debugging");
-            correctionAdd("debbugging", "debugging");
-            correctionAdd("degugging", "debugging");
-            correctionAdd("debbuging", "debugging");
-            correctionAdd("dubugging", "debugging");
-            correctionAdd("DEBBUGING", "debugging");
-
-            correctionAdd("debugability", "debuggability");
-
-            correctionAdd("debugable", "debuggable");
-
-            correctionAdd("Debugview", "DebugView");
-            correctionAdd("debugview", "DebugView");
-            correctionAdd("debug view", "DebugView");
-            correctionAdd("Dbgview", "DebugView");
-            correctionAdd("DbgView", "DebugView");
-            correctionAdd("debugiview", "DebugView");
-
-            correctionAdd("XDebug", "Xdebug");
-            correctionAdd("xdebug", "Xdebug");
-            correctionAdd("xDebug", "Xdebug");
-
-            correctionAdd("printf debugging", "print debugging");
-
-            // Technique used in software development
-            correctionAdd("rubberducking", "rubber duck debugging");
-            correctionAdd("rubber duck", "rubber duck debugging");
 
             correctionAdd("dev", "developer"); // Expansion.
             correctionAdd("devel", "developer"); // Expansion.
@@ -19675,6 +19771,8 @@ namespace OverflowHelper.core
             correctionAdd("espicially", "especially");
             correctionAdd("espescially", "especially");
             correctionAdd("espeacilly", "especially");
+            correctionAdd("Espically", "especially");
+            correctionAdd("espically", "especially");
 
             // Note: We currently can't support terms ending in full
             //       stop (".") (what was the reason? - SQL issues and/or
@@ -23027,11 +23125,6 @@ namespace OverflowHelper.core
             correctionAdd("becquse", "because");
             correctionAdd("becuz", "because");
 
-            correctionAdd("Whitehouse", "White House");
-            correctionAdd("white house", "White House");
-            correctionAdd("WHouse", "White House");
-            correctionAdd("WhiteHouse", "White House");
-
             correctionAdd("in-house", "in house");
             correctionAdd("inhouse", "in house");
 
@@ -23769,6 +23862,7 @@ namespace OverflowHelper.core
             correctionAdd("coonfiguration", "configuration");
             correctionAdd("configuraiton", "configuration");
             correctionAdd("Conf", "configuration");
+            correctionAdd("configon", "configuration");
 
             correctionAdd("Voip", "VoIP");
             correctionAdd("VOIP", "VoIP");
@@ -29027,47 +29121,6 @@ namespace OverflowHelper.core
             correctionAdd("thankx", "thanks");
             correctionAdd("thank's", "thanks");
 
-            correctionAdd("abillity", "ability");
-            correctionAdd("ablity", "ability");
-            correctionAdd("abiliity", "ability");
-
-            correctionAdd("interop", "interoperability");
-
-            correctionAdd("useability", "usability");
-
-            correctionAdd("permiability", "permeability");
-
-            correctionAdd("readbility", "readability");
-            correctionAdd("readibility", "readability");
-            correctionAdd("readabilty", "readability");
-
-            correctionAdd("stabilty", "stability");
-            correctionAdd("staibility", "stability");
-
-            correctionAdd("searcheability", "searchability");
-
-            correctionAdd("probablity", "probability");
-            correctionAdd("propability", "probability");
-            correctionAdd("Probability", "probability");
-
-            correctionAdd("invitability", "inevitability");
-            correctionAdd("inevitablity", "inevitability");
-
-            correctionAdd("re-usability", "reusability");
-
-            correctionAdd("repeatibility", "repeatability");
-            correctionAdd("Repeatability", "repeatability");
-            correctionAdd("repeatebility", "repeatability");
-
-            correctionAdd("unpredicability", "unpredictability");
-
-            correctionAdd("managebility", "manageability");
-
-            correctionAdd("immutablity", "immutability");
-            correctionAdd("imutablity", "immutability");
-
-            correctionAdd("maneuverability", "manoeuvrability");
-
             correctionAdd("collegaue", "colleague");
             correctionAdd("collegue", "colleague");
             correctionAdd("collegues", "colleague");
@@ -29341,6 +29394,7 @@ namespace OverflowHelper.core
             correctionAdd("conisder", "consider");
             correctionAdd("Consider", "consider");
             correctionAdd("consideres", "consider");
+            correctionAdd("сonsider", "consider"); // The "c" is U+0441 (CYRILLIC SMALL LETTER ES). UTF-8: 321 201 (octal). 0xD1 0x81 (hexadecimal). <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=1085&number=128>. It can be searched for using the regular expression \x{0441} ("\u0441" in Visual Studio Code and some others).
 
             correctionAdd("re-consider", "reconsider");
 
@@ -29551,6 +29605,7 @@ namespace OverflowHelper.core
             correctionAdd("re-define", "redefine");
 
             correctionAdd("glib", "GLib");
+            correctionAdd("GLIB", "GLib");
 
             correctionAdd("off topic", "off-topic");
             correctionAdd("offtopic", "off-topic");
@@ -30986,7 +31041,11 @@ namespace OverflowHelper.core
             correctionAdd("repetative", "repetitive");
             correctionAdd("repetetive", "repetitive");
 
+            // IC (integrated circuit) and calculator manufacturer
             correctionAdd("TI", "Texas Instruments");
+
+            // IC (integrated circuit) manufacturer
+            correctionAdd("Feescale", "Freescale");
 
             correctionAdd("Ad Hoc", "ad hoc");
             correctionAdd("adhoc", "ad hoc");
@@ -33018,6 +33077,7 @@ namespace OverflowHelper.core
             correctionAdd("absense", "absence");
 
             correctionAdd("BitWise", "bitwise");
+            correctionAdd("Bitwise", "bitwise");
 
             correctionAdd("choce", "choice");
             correctionAdd("cohoice", "choice");
@@ -33026,6 +33086,7 @@ namespace OverflowHelper.core
             correctionAdd("commiting", "committing");
 
             correctionAdd("compliment", "complement");
+            correctionAdd("Complement", "complement");
 
             correctionAdd("Democratic", "democratic");
 
@@ -36252,6 +36313,7 @@ namespace OverflowHelper.core
             correctionAdd("IPA", "isopropyl alcohol");
             correctionAdd("isoprop", "isopropyl alcohol");
             correctionAdd("rubbing alcohol", "isopropyl alcohol");
+            correctionAdd("Isopropyl Alcohol", "isopropyl alcohol");
 
             correctionAdd("Electrical Contact Cleaner", "electrical contact cleaner");
 
@@ -37037,8 +37099,6 @@ namespace OverflowHelper.core
 
             correctionAdd("pertanining", "pertaining");
 
-            correctionAdd("White Dwarf", "white dwarf");
-
             correctionAdd("philosphical", "philosophical");
             correctionAdd("phylosophical", "philosophical");
 
@@ -37706,8 +37766,6 @@ namespace OverflowHelper.core
             correctionAdd("Specifing", "specifying");
             correctionAdd("specifiying", "specifying");
 
-            correctionAdd("White noise", "white noise");
-
             correctionAdd("OmniSharper", "OmniSharp");
             correctionAdd("omni-sharp", "OmniSharp");
             correctionAdd("Omnisharp", "OmniSharp");
@@ -38083,6 +38141,7 @@ namespace OverflowHelper.core
 
             correctionAdd("trafic", "traffic");
             correctionAdd("trafiic", "traffic");
+            correctionAdd("terrafic", "traffic");
 
             correctionAdd("buyed", "bought");
 
@@ -39592,6 +39651,7 @@ namespace OverflowHelper.core
             correctionAdd("Occams Razor", "Occam's razor");
             correctionAdd("occams razor", "Occam's razor");
             correctionAdd("Occam's Razor", "Occam's razor");
+            correctionAdd("Occams razor", "Occam's razor");
 
             correctionAdd("Proxima Centuri", "Proxima Centauri");
             correctionAdd("Proxima", "Proxima Centauri");
@@ -40152,8 +40212,6 @@ namespace OverflowHelper.core
             correctionAdd("psoted", "posted");
 
             correctionAdd("epi-center", "epicenter");
-
-            correctionAdd("non-White", "nonwhite");
 
             correctionAdd("over-simplify", "oversimplify");
 
@@ -44290,8 +44348,6 @@ namespace OverflowHelper.core
             correctionAdd("non-relativistic", "nonrelativistic");
             correctionAdd("non relativistic", "nonrelativistic");
 
-            correctionAdd("white board", "whiteboard");
-
             correctionAdd("resuts", "results");
             correctionAdd("resulats", "results");
 
@@ -44570,6 +44626,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("worth a grain of salt", "with a grain of salt");
             correctionAdd("a grain of salt", "with a grain of salt");
+            correctionAdd("grain of salt", "with a grain of salt");
 
             correctionAdd("angel", "angle");
             correctionAdd("Angel", "angle");
@@ -47030,10 +47087,6 @@ namespace OverflowHelper.core
 
             correctionAdd("attibuted", "attributed");
 
-            correctionAdd("black and white", "black-and-white");
-            correctionAdd("B&W", "black-and-white");
-            correctionAdd("b&w", "black-and-white");
-
             correctionAdd("misstagged", "mistagged");
 
             correctionAdd("non-conforming", "nonconforming");
@@ -47212,6 +47265,9 @@ namespace OverflowHelper.core
             correctionAdd("galary", "gallery");
             correctionAdd("galory", "gallery");
 
+            correctionAdd("resove", "resolve");
+            correctionAdd("reslove", "resolve");
+
             correctionAdd("da Vinci Resolve", "DaVinci Resolve");
             correctionAdd("DaVinici resolve", "DaVinci Resolve");
             correctionAdd("DaVinci resolve", "DaVinci Resolve");
@@ -47219,8 +47275,6 @@ namespace OverflowHelper.core
 
             correctionAdd("slove", "solve");
             correctionAdd("solove", "solve");
-
-            correctionAdd("resove", "resolve");
 
             correctionAdd("glfw", "GLFW");
 
@@ -50646,11 +50700,6 @@ namespace OverflowHelper.core
 
             correctionAdd("NWS", "National Weather Service");
 
-            correctionAdd("whitelist", "allowlist");
-            correctionAdd("allow-list", "allowlist");
-
-            correctionAdd("allow-listing", "allowlisting");
-
             correctionAdd("CHOWN", "chown");
 
             correctionAdd("dwingling", "dwindling");
@@ -52925,6 +52974,7 @@ namespace OverflowHelper.core
 
             correctionAdd("symbel", "symbol");
             correctionAdd("symble", "symbol");
+            correctionAdd("simbol", "symbol");
 
             correctionAdd("timelimit", "time limit");
             correctionAdd("time-limit", "time limit");
@@ -53692,9 +53742,6 @@ namespace OverflowHelper.core
 
             correctionAdd("digitial", "digital");
 
-            correctionAdd("Maintainability", "maintainability");
-            correctionAdd("maintainablity", "maintainability");
-
             correctionAdd("tbf", "to be fair");
             correctionAdd("TBF", "to be fair");
 
@@ -53745,8 +53792,6 @@ namespace OverflowHelper.core
             correctionAdd("pissig", "pissing");
 
             correctionAdd("Commonwealth", "the Commonwealth");
-
-            correctionAdd("inaproachability", "inapproachability");
 
             // Software related. APIs.
             correctionAdd("wso 2", "WSO2");
@@ -53978,8 +54023,6 @@ namespace OverflowHelper.core
             correctionAdd("Eisenhower-Matrix", "Eisenhower matrix");
 
             correctionAdd("Electron Degeneracy Pressure", "electron degeneracy pressure");
-
-            correctionAdd("indispensibility", "indispensability");
 
             correctionAdd("tatical", "tactical");
 
@@ -54801,8 +54844,6 @@ namespace OverflowHelper.core
 
             correctionAdd("blue sky", "Bluesky");
 
-            correctionAdd("reachbility", "reachability");
-
             correctionAdd("Metric", "metric");
 
             correctionAdd("acuse", "accuse");
@@ -55085,9 +55126,30 @@ namespace OverflowHelper.core
 
             correctionAdd("QtOpcUa", "Qt OPC UA");
 
-            correctionAdd("ARM-Cortex-M0", "ARM Cortex-M0");
+            correctionAdd("signatures", "signature");
+            correctionAdd("signatature", "signature");
+            correctionAdd("signitature", "signature");
 
-            correctionAdd("Feescale", "Freescale");
+            correctionAdd("Bach, moot", "Bakhmut");
+
+            correctionAdd("colatteral", "collateral");
+            correctionAdd("colateral", "collateral");
+
+            correctionAdd("pfd", "primary flight display");
+            correctionAdd("PFD", "primary flight display");
+
+            correctionAdd("retreived", "retrieved");
+
+            correctionAdd("summarization", "summarisation");
+            correctionAdd("sumarization", "summarisation");
+
+            correctionAdd("to the best of my knowledge", "to my knowledge");
+            correctionAdd("In my knowledge", "to my knowledge");
+            correctionAdd("To my knowledge", "to my knowledge");
+
+            correctionAdd("understud", "understood");
+
+            correctionAdd("verbatum", "verbatim");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -85048,7 +85110,7 @@ namespace OverflowHelper.core
 
             URL_Add("Qt OPC UA", "https://doc.qt.io/qt-6/qtopcua-overview.html");
 
-            URL_Add("ARM Cortex-M0", "https://en.wikipedia.org/wiki/ARM_Cortex-M#Cortex-M0");
+            URL_Add("Cortex-M0", "https://en.wikipedia.org/wiki/ARM_Cortex-M#Cortex-M0");
 
             URL_Add("Freescale", "https://en.wikipedia.org/wiki/Freescale_Semiconductor");
 
@@ -85065,6 +85127,26 @@ namespace OverflowHelper.core
             URL_Add("Lily58", "https://github.com/kata0510/Lily58");
 
             URL_Add("Sofle keyboard", "https://josefadamcik.github.io/SofleKeyboard/");
+
+            URL_Add("signature", "https://en.wiktionary.org/wiki/signature#Noun");
+
+            URL_Add("Cherry MX Clear", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX");
+
+            URL_Add("Bakhmut", "https://en.wikipedia.org/wiki/Bakhmut");
+
+            URL_Add("collateral", "https://en.wiktionary.org/wiki/collateral#Adjective");
+
+            URL_Add("primary flight display", "https://en.wikipedia.org/wiki/Primary_flight_display");
+
+            URL_Add("retrieved", "https://en.wiktionary.org/wiki/retrieve#Verb");
+
+            URL_Add("summarisation", "https://en.wiktionary.org/wiki/summarisation#Noun");
+
+            URL_Add("to my knowledge", "https://en.wiktionary.org/wiki/to_one%27s_knowledge#Prepositional_phrase");
+
+            URL_Add("understood", "https://en.wiktionary.org/wiki/understand#Verb");
+
+            URL_Add("verbatim", "https://en.wiktionary.org/wiki/verbatim#Adverb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -86843,6 +86925,7 @@ namespace OverflowHelper.core
             correctionAdd("-Wwrite-strings_", "-Wwriteable-strings (Clang)_");
 
             correctionAdd("iPA_", "IPA_");
+            correctionAdd("Isopropyl Alcohol_", "IPA_");
 
             correctionAdd("TV_", "TradingView_");
             correctionAdd("Tradingview_", "TradingView_");
@@ -86964,6 +87047,7 @@ namespace OverflowHelper.core
             correctionAdd("RP2040_", "Raspberry Pi Pico_");
             correctionAdd("rp2040_", "Raspberry Pi Pico_");
             correctionAdd("Rasp Pico_", "Raspberry Pi Pico_");
+            correctionAdd("rp pi pico_", "Raspberry Pi Pico_");
 
             correctionAdd("drop-down list box_", "drop-down list_");
             correctionAdd("DDLB_", "drop-down list_");
