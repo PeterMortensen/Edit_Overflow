@@ -3055,6 +3055,7 @@ namespace OverflowHelper.core
             correctionAdd("run-time", "run time");
             correctionAdd("rutime", "run time");
             correctionAdd("Run time", "run time");
+            correctionAdd("running time", "run time");
 
             correctionAdd("long-time", "longtime");
 
@@ -48588,6 +48589,8 @@ namespace OverflowHelper.core
 
             correctionAdd("imposible", "impossible");
             correctionAdd("imposiible", "impossible");
+            correctionAdd("Impossibru", "impossible");
+            correctionAdd("impossibru", "impossible");
 
             correctionAdd("Post mortem", "post mortem");
 
@@ -55204,6 +55207,12 @@ namespace OverflowHelper.core
             correctionAdd("L2TP", "Layer 2 Tunneling Protocol");
 
             correctionAdd("mikrotik", "MikroTik");
+
+            correctionAdd("memory type range register", "MTRR");
+            correctionAdd("MTTR", "MTRR");
+
+            correctionAdd("registerin", "registering");
+            correctionAdd("Registerin", "registering");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -85228,6 +85237,10 @@ namespace OverflowHelper.core
 
             URL_Add("MikroTik", "https://en.wikipedia.org/wiki/MikroTik");
 
+            URL_Add("MTRR", "https://en.wikipedia.org/wiki/Memory_type_range_register");
+
+            URL_Add("registering", "https://en.wiktionary.org/wiki/register#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -86660,6 +86673,10 @@ namespace OverflowHelper.core
             correctionAdd("mlflow_", "MLflow (tag wiki)_");
             correctionAdd("MLflow_", "MLflow (tag wiki)_");
 
+            correctionAdd("[tag:typescript]_", "TypeScript (tag wiki)_");
+            correctionAdd("typescript_", "TypeScript (tag wiki)_");
+            correctionAdd("TypeScript_", "TypeScript (tag wiki)_");
+
             // Perl
             correctionAdd("parrot_", "Parrot_");
 
@@ -87003,6 +87020,8 @@ namespace OverflowHelper.core
             correctionAdd("-Wstring-concatenation_", "-Wstring-concatenation (Clang)_");
 
             correctionAdd("-Wwrite-strings_", "-Wwriteable-strings (Clang)_");
+
+            correctionAdd("-std_", "-std= (Clang)_");
 
             correctionAdd("iPA_", "IPA_");
             correctionAdd("Isopropyl Alcohol_", "IPA_");
@@ -87748,7 +87767,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Shell_", "Shell Mera_");
 
-            correctionAdd("-std_", "-std= (Clang)_");
+            correctionAdd("PAT_", "page attribute table_");
 
             // URL mappings
             //
@@ -89150,6 +89169,10 @@ namespace OverflowHelper.core
             URL_Add("Shell Mera_", "https://en.wikipedia.org/wiki/Shell,_Ecuador");
 
             URL_Add("-std= (Clang)_", "https://clang.llvm.org/docs/ClangCommandLineReference.html#cmdoption-clang-std");
+
+            URL_Add("page attribute table_", "https://en.wikipedia.org/wiki/Page_attribute_table");
+
+            URL_Add("TypeScript (tag wiki)_", "https://stackoverflow.com/questions/tagged/typescript");
 
         } //addLookupData_alternativeWordSet()
 
