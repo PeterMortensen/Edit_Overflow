@@ -10655,6 +10655,7 @@ namespace OverflowHelper.core
             correctionAdd("Quantum field", "quantum field");
 
             correctionAdd("Quantum Gravi", "quantum gravity");
+            correctionAdd("Quantum Gravity", "quantum gravity");
 
             correctionAdd("QFT", "quantum field theory");
             correctionAdd("Quantum Field Theory", "quantum field theory");
@@ -15579,6 +15580,8 @@ namespace OverflowHelper.core
             correctionAdd("C♯", "C#");
             correctionAdd("C sharp", "C#");
             correctionAdd("C-sharp", "C#");
+            correctionAdd("See Sharp", "C#");
+            correctionAdd("see sharp", "C#");
 
             correctionAdd("C# 2", "C# 2.0");
             correctionAdd("C#2", "C# 2.0");
@@ -15698,6 +15701,7 @@ namespace OverflowHelper.core
             correctionAdd("haven't", "haven’t");
             correctionAdd("have n't", "haven’t");
             correctionAdd("havnt", "haven’t");
+            correctionAdd("have'nt", "haven’t");
 
             correctionAdd("gotta", "have got to");
             correctionAdd("Gotta", "have got to");
@@ -17125,6 +17129,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Godbolt", "Compiler Explorer");
             correctionAdd("godbolt", "Compiler Explorer");
+            correctionAdd("Compiler-Explorer", "Compiler Explorer");
 
             correctionAdd("JIT-compiler", "JIT compiler");
 
@@ -18254,6 +18259,15 @@ namespace OverflowHelper.core
             correctionAdd("K3", "Keychron K3 Pro ISO");
             correctionAdd("Keychron K3", "Keychron K3 Pro ISO");
 
+            // A 96% (crippled wrt. PgUp and PgDn, etc.) mechanical keyboard
+            // from Keychron.
+            //
+            // QMK capable
+            //
+            // Manual:
+            //
+            //   <>
+            //
             correctionAdd("keytron v5", "Keychron V5 ISO");
             correctionAdd("Keychron V5", "Keychron V5 ISO");
             correctionAdd("Keytron V5", "Keychron V5 ISO");
@@ -18675,6 +18689,7 @@ namespace OverflowHelper.core
             correctionAdd("KP", "numeric keypad");
             correctionAdd("Keypad", "numeric keypad");
             correctionAdd("keypad", "numeric keypad");
+            correctionAdd("Num pad", "numeric keypad");
 
             // A key on a keyboard. Modifier.
             correctionAdd("CTRL", "Ctrl");
@@ -18725,6 +18740,7 @@ namespace OverflowHelper.core
             correctionAdd("menu key", "context menu key");
             correctionAdd("Menu button", "context menu key");
             correctionAdd("menu button", "context menu key");
+            correctionAdd("Context key", "context menu key");
 
             // A key on a keyboard
             correctionAdd("numeric lock", "Num Lock");
@@ -25340,6 +25356,8 @@ namespace OverflowHelper.core
             correctionAdd("St Link", "ST-LINK");
             correctionAdd("st-link", "ST-LINK");
             correctionAdd("stlink", "ST-LINK");
+            correctionAdd("ST link", "ST-LINK");
+            correctionAdd("ST-link", "ST-LINK");
 
             correctionAdd("Star link", "Starlink");
             correctionAdd("starlink", "Starlink");
@@ -29990,6 +30008,7 @@ namespace OverflowHelper.core
             correctionAdd("enaought", "enough");
             correctionAdd("enaugh", "enough");
             correctionAdd("enoungh", "enough");
+            correctionAdd("enuf", "enough");
 
             correctionAdd("exisiting", "existing");
             correctionAdd("exsiting", "existing");
@@ -36751,6 +36770,8 @@ namespace OverflowHelper.core
             correctionAdd("General Relativity", "general relativity");
             correctionAdd("General Reativity", "general relativity");
             correctionAdd("general relatiity", "general relativity");
+            correctionAdd("General Theory of Relativity", "general relativity");
+            correctionAdd("general theory of relativity", "general relativity");
 
             correctionAdd("mis match", "mismatch");
             correctionAdd("mis-match", "mismatch");
@@ -55213,6 +55234,17 @@ namespace OverflowHelper.core
 
             correctionAdd("registerin", "registering");
             correctionAdd("Registerin", "registering");
+
+            correctionAdd("Droplet", "droplet");
+
+            correctionAdd("southside", "south-facing");
+
+            correctionAdd("wroth", "worth");
+
+            correctionAdd("1800 Compact", "96%");
+            correctionAdd("1800", "96%");
+            correctionAdd("1800 compact", "96%");
+            correctionAdd("1800-Compact", "96%");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -85240,6 +85272,14 @@ namespace OverflowHelper.core
             URL_Add("MTRR", "https://en.wikipedia.org/wiki/Memory_type_range_register");
 
             URL_Add("registering", "https://en.wiktionary.org/wiki/register#Verb");
+
+            URL_Add("droplet", "https://en.wikipedia.org/wiki/DigitalOcean#Products_and_business_model");
+
+            URL_Add("south-facing", "https://www.reddit.com/r/MechanicalKeyboards/comments/dtygu1/eli5_whats_the_point_of_southfacing_leds_on/");
+
+            URL_Add("worth", "https://en.wiktionary.org/wiki/worth#Adjective");
+
+            URL_Add("96%", "https://switchandclick.com/keyboard-sizes/");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
