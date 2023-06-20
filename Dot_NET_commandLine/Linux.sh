@@ -1156,6 +1156,83 @@ function PHP_code_test()
 
 # ###########################################################################
 #
+# Helper function to reduce redundancy. Checks for the presense
+# of a given string on one of the web pages, both in the source
+# and in production.
+#
+# It will also do some extra tests that are in common for
+# all the different PHP scripts:
+#
+#     1. Detection of syntax errors
+#
+#     2. Detection of stray output from debugging - so it
+#        does not end up on web pages
+#
+#     3. Detection of failed PHP unit tests (so we don't overlook them
+#        (every run of the build script will check for it). The output
+#        from failed tests would end up on the web page).
+#
+# Parameters:
+#
+#   $1   File name (of the PHP script)
+#
+#   $2   Identification string
+#
+#   $3   Build number
+#
+#   $4   Forbidden string
+#
+#
+function forbidden_content()
+{
+    startOfBuildStep $3 "Start checking for verbidden content in $1: $2"
+
+    #Later
+    # #####################################
+    #
+    # 1. Sanity check of parameters to this function
+
+
+    # #####################################
+    #
+    # 2. Check directly in the source file
+    #
+    #export UNITTEST_MATCHSTRING="Failed test. ID: "
+    grep -q "${4}" ${1} ; test $? -ne 0 ; evaluateBuildResult $3 $? "Verbidden test: $2 (signature $4 was found in file $1). "
+
+
+    # Later: Check on the local web server (but that normally
+    #        passes as this build script properly copies the
+    #        file there). 
+
+
+    #Not now. We get error "406 Not Acceptable" from wget:
+    #
+    #    About download from https://pmortensen.eu/world/EditSummaryFragments.php?OverflowStyle=Native
+    #    --2023-06-20 20:23:10--  https://pmortensen.eu/world/EditSummaryFragments.php?OverflowStyle=Native
+    #    Resolving pmortensen.eu (pmortensen.eu)... 94.231.108.241
+    #    Connecting to pmortensen.eu (pmortensen.eu)|94.231.108.241|:443... connected.
+    #    HTTP request sent, awaiting response... 406 Not Acceptable
+    #    2023-06-20 20:23:10 ERROR 406: Not Acceptable.
+    ##
+    ## #####################################
+    ##
+    ##  2. Check in production
+    ##
+    #export BASE_URL="https://pmortensen.eu/world"
+    #export EXTRA_PARAMETERS="?OverflowStyle=Native"
+    #export SUBMIT_URL="${BASE_URL}/${1}${EXTRA_PARAMETERS}"
+    #echo "About download from ${SUBMIT_URL}" 
+    #
+    ##Some redundancy here (only the wget part is different)
+    ##wget -q -O- ${SUBMIT_URL} | grep -q "${4}" ${1} ; test $? -ne 0 ; evaluateBuildResult $3 $? "Verbidden test: $2 ($4 was found on ${SUBMIT_URL}). "
+    #wget -O- ${SUBMIT_URL}
+
+} #forbidden_content()
+
+
+# ###########################################################################
+#
 # Helper function to reduce redundancy.
 #
 # Used to detect changes to files (e.g., a web
@@ -2324,6 +2401,22 @@ PHP_code_test  CannedComments.php        "canned comments"                      
 #        due to a current limitation in PHP_code_test()...
 #
 PHP_code_test  Link_Builder.php        "link builder"                            17  "OverflowStyle=Native&PHP_DoWarnings=On"   "Undefined variable: dummy2"
+
+
+
+# ###########################################################################
+#
+#  Test test'ish. E.g., positively identify broken links, in
+#  both source and production
+#
+
+#OK, false alarm (there might have been a temporary
+#problem with a particular video on YouTube). But 
+#at least we now prepared...
+## A broken link. On YouTube.-
+#forbidden_content  EditSummaryFragments.php  "Broken link"  18  "1Dax90QyXgI"
+
+
 
 
 # ###########################################################################
