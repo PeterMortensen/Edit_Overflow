@@ -7072,6 +7072,7 @@ namespace OverflowHelper.core
             correctionAdd("executible", "executable");
             correctionAdd("exetuable", "executable");
             correctionAdd("exeutable", "executable");
+            correctionAdd("Executable", "executable");
 
             correctionAdd("PIE", "position-independent executable");
 
@@ -8000,6 +8001,8 @@ namespace OverflowHelper.core
             correctionAdd("Prefrences", "preferences");
             correctionAdd("prefrences", "preferences");
             correctionAdd("prefs", "preferences");
+            correctionAdd("Prefernces", "preferences");
+            correctionAdd("prefernces", "preferences");
 
             correctionAdd("breatheable", "breathable");
 
@@ -9473,6 +9476,7 @@ namespace OverflowHelper.core
 
             correctionAdd("code base", "codebase");
             correctionAdd("code-base", "codebase");
+            correctionAdd("Codebase", "codebase");
 
             correctionAdd("Code Coverage", "code coverage");
             correctionAdd("code-coverage", "code coverage");
@@ -9627,6 +9631,7 @@ namespace OverflowHelper.core
             correctionAdd("codepage 65001", "UTF-8");
             correctionAdd("cp65001", "UTF-8");
             correctionAdd("65001", "UTF-8");
+            correctionAdd("UFT-8", "UTF-8");
 
             correctionAdd("utf-16", "UTF-16");
             correctionAdd("UTF16", "UTF-16");
@@ -14305,6 +14310,7 @@ namespace OverflowHelper.core
             correctionAdd("Co-lab", "Colaboratory");
             correctionAdd("colabratorary", "Colaboratory");
             correctionAdd("collab", "Colaboratory");
+            correctionAdd("Google Colab", "Colaboratory");
 
             correctionAdd("google photos", "Google Photos");
 
@@ -18060,6 +18066,53 @@ namespace OverflowHelper.core
             // keyboards (not vendor-specific)
             correctionAdd("opticatility", "optical switch");
 
+            // A type of RGB lighting for mechanical keyboards
+            correctionAdd("southside", "south-facing");
+
+            // A component used in mechanical keyboards (to
+            // enable replaceable switches).
+            // See also <https://www.reddit.com/r/MechanicalKeyboards/comments/o8h0nb/mill_max_sockets_0305_vs_7305_vs_holtite/>
+            correctionAdd("Millmax", "7305 Mill-Max socket");
+            correctionAdd("7305 Mill-Max", "7305 Mill-Max socket");
+            correctionAdd("mill-max", "7305 Mill-Max socket");
+
+            // Can be related to mechanical keyboards (used
+            // as sound dampeners).
+            correctionAdd("O ring", "O-ring");
+            correctionAdd("o-ring", "O-ring");
+            correctionAdd("o ring", "O-ring");
+
+            // A type of mechanical keyboards (not vendor-specific)
+            correctionAdd("tkl", "tenkeyless (80%)");
+            correctionAdd("TKL", "tenkeyless (80%)");
+            correctionAdd("tenkeyless", "tenkeyless (80%)");
+            correctionAdd("10 keyless", "tenkeyless (80%)");
+            correctionAdd("Tenkeyless", "tenkeyless (80%)");
+
+            correctionAdd("1800 Compact", "96%");
+            correctionAdd("1800", "96%");
+            correctionAdd("1800 compact", "96%");
+            correctionAdd("1800-Compact", "96%");
+
+            // Related to mechanical keyboards
+            correctionAdd("hot swappable", "hot-swappable");
+            correctionAdd("hot-swapple", "hot-swappable");
+            correctionAdd("swapple", "hot-swappable");
+            correctionAdd("Hot swapple", "hot-swappable");
+            correctionAdd("hot swapple", "hot-swappable");
+            correctionAdd("hot swap", "hot-swappable");
+            correctionAdd("hot-swap", "hot-swappable");
+            correctionAdd("Hot-Swappable", "hot-swappable");
+            correctionAdd("Hot Swappable", "hot-swappable");
+
+            // Related to keyboards
+            correctionAdd("NKRO", "n-key rollover");
+            correctionAdd("N-key-rollover", "n-key rollover");
+            correctionAdd("Nkey rollover", "n-key rollover");
+            correctionAdd("N-Key Rollover", "n-key rollover");
+            correctionAdd("N-key rollover", "n-key rollover");
+            correctionAdd("nkro", "n-key rollover");
+
             // A type of switch for mechanical keyboards
             //
             // "Exploded" keys (animation): <https://www.corsair.com/us/en/k70-rgb-gaming-keyboard>
@@ -18201,19 +18254,6 @@ namespace OverflowHelper.core
             // A type of switch for mechanical keyboards
             correctionAdd("TTC", "TTC Mechanical Switch");
 
-            // A component used in mechanical keyboards (to
-            // enable replaceable switches).
-            // See also <https://www.reddit.com/r/MechanicalKeyboards/comments/o8h0nb/mill_max_sockets_0305_vs_7305_vs_holtite/>
-            correctionAdd("Millmax", "7305 Mill-Max socket");
-            correctionAdd("7305 Mill-Max", "7305 Mill-Max socket");
-            correctionAdd("mill-max", "7305 Mill-Max socket");
-
-            // Can be related to mechanical keyboards (used
-            // as sound dampeners).
-            correctionAdd("O ring", "O-ring");
-            correctionAdd("o-ring", "O-ring");
-            correctionAdd("o ring", "O-ring");
-
             // A manufacturer of mechanical keyboards, etc.
             // (e.g., 'Ducky Shine 7')
             correctionAdd("ducky", "Ducky");
@@ -18276,6 +18316,7 @@ namespace OverflowHelper.core
             correctionAdd("keytron V5", "Keychron V5 ISO");
             correctionAdd("Keychron v5", "Keychron V5 ISO");
             correctionAdd("Keythron V5", "Keychron V5 ISO");
+            correctionAdd("Keytron v5", "Keychron V5 ISO");
 
             // A Chinese manufacturer, incl. of mechanical keyboards
             correctionAdd("CoolerMaster", "Cooler Master");
@@ -18472,13 +18513,6 @@ namespace OverflowHelper.core
             //
             correctionAdd("Drop Alt", "Drop ALT");
 
-            // A type of mechanical keyboards (not vendor-specific)
-            correctionAdd("tkl", "tenkeyless (80%)");
-            correctionAdd("TKL", "tenkeyless (80%)");
-            correctionAdd("tenkeyless", "tenkeyless (80%)");
-            correctionAdd("10 keyless", "tenkeyless (80%)");
-            correctionAdd("Tenkeyless", "tenkeyless (80%)");
-
             // A type of mechanical keyboards (originally
             // vendor-specific, but it is now also used
             // a generic term).
@@ -18496,51 +18530,6 @@ namespace OverflowHelper.core
 
             // Hardware for typing out from USB (like a keyboard)
             correctionAdd("RubberDucky", "Rubber Ducky");
-
-            // Software for mechanical keyboards (firmware)
-            correctionAdd("qmk", "QMK");
-
-            // 'KP' for keypad (numeric keypad)
-            // A keycode for QMK (mechanical keyboard software)
-            correctionAdd("KC_PAST", "KC_KP_ASTERISK");
-
-            // 'KP' for keypad (numeric keypad)
-            // A keycode for QMK (mechanical keyboard software)
-            correctionAdd("KC_PSLS", "KC_KP_SLASH");
-
-            // A keycode for QMK (mechanical keyboard software)
-            correctionAdd("kc_no", "KC_NO");
-
-            // A keycode for QMK (mechanical keyboard software)
-            correctionAdd("KC_TRNS", "KC_TRANSPARENT");
-
-            // A keycode for QMK (mechanical keyboard software)
-            correctionAdd("context menu key code", "KC_APPLICATION");
-            correctionAdd("KC_APP", "KC_APPLICATION");
-
-            // A QMK function (C)
-            correctionAdd("eeconfig_update_kb", "eeconfig_update_kb()");
-
-            // A QMK function (C)
-            correctionAdd("eeconfig_update_user", "eeconfig_update_user()");
-
-            // A QMK function (C)
-            correctionAdd("rgblight_sethsv", "rgblight_sethsv()");
-
-            correctionAdd("qmk macros", "QMK macros");
-
-            // Configuration software for mechanical keyboards
-            // based on QMK
-            //
-            // Allegedly for "Versatile Input Assistant"
-            //
-            // Alternative URL (stand-alone executables,
-            // without requiring Google Chrome):
-            //
-            //   <https://github.com/the-via/releases/releases>
-            //
-            correctionAdd("via", "Via");
-            correctionAdd("VIA", "Via");
 
             // Configuration software for mechanical keyboards
             // (it is a fork of QMK)
@@ -18594,32 +18583,58 @@ namespace OverflowHelper.core
             correctionAdd("Sofle", "Sofle keyboard");
             correctionAdd("sofle", "Sofle keyboard");
 
+            // Software for mechanical keyboards (firmware)
+            correctionAdd("qmk", "QMK");
+
+            // 'KP' for keypad (numeric keypad)
+            // A keycode for QMK (mechanical keyboard software)
+            correctionAdd("KC_PAST", "KC_KP_ASTERISK");
+
+            // 'KP' for keypad (numeric keypad)
+            // A keycode for QMK (mechanical keyboard software)
+            correctionAdd("KC_PSLS", "KC_KP_SLASH");
+
+            // A keycode for QMK (mechanical keyboard software)
+            correctionAdd("kc_no", "KC_NO");
+
+            // A keycode for QMK (mechanical keyboard software)
+            correctionAdd("KC_TRNS", "KC_TRANSPARENT");
+
+            // A keycode for QMK (mechanical keyboard software)
+            correctionAdd("context menu key code", "KC_APPLICATION");
+            correctionAdd("KC_APP", "KC_APPLICATION");
+
+            // A QMK function (C)
+            correctionAdd("eeconfig_update_kb", "eeconfig_update_kb()");
+
+            // A QMK function (C)
+            correctionAdd("eeconfig_update_user", "eeconfig_update_user()");
+
+            // A QMK function (C)
+            correctionAdd("rgblight_sethsv", "rgblight_sethsv()");
+
+            correctionAdd("qmk macros", "QMK macros");
+
+            // Configuration software for mechanical keyboards
+            // based on QMK
+            //
+            // Allegedly for "Versatile Input Assistant"
+            //
+            // Alternative URL (stand-alone executables,
+            // without requiring Google Chrome):
+            //
+            //   <https://github.com/the-via/releases/releases>
+            //
+            correctionAdd("via", "Via");
+            correctionAdd("VIA", "Via");
+
             // Software for mechanical keyboards (firmware?)
             correctionAdd("vial", "Vial");
             correctionAdd("VIAL", "Vial");
 
-            // Related to mechanical keyboards
-            correctionAdd("hot swappable", "hot-swappable");
-            correctionAdd("hot-swapple", "hot-swappable");
-            correctionAdd("swapple", "hot-swappable");
-            correctionAdd("Hot swapple", "hot-swappable");
-            correctionAdd("hot swapple", "hot-swappable");
-            correctionAdd("hot swap", "hot-swappable");
-            correctionAdd("hot-swap", "hot-swappable");
-            correctionAdd("Hot-Swappable", "hot-swappable");
-            correctionAdd("Hot Swappable", "hot-swappable");
-
             // A content-free YouTube channel (pure entertainment)
             // about mechanical keyboards
             correctionAdd("glarses", "Glarses");
-
-            // Related to keyboards
-            correctionAdd("NKRO", "n-key rollover");
-            correctionAdd("N-key-rollover", "n-key rollover");
-            correctionAdd("Nkey rollover", "n-key rollover");
-            correctionAdd("N-Key Rollover", "n-key rollover");
-            correctionAdd("N-key rollover", "n-key rollover");
-            correctionAdd("nkro", "n-key rollover");
 
             // Windows program to operate several keyboards
             // ***independently*** (e.g., for a software-only
@@ -18950,14 +18965,15 @@ namespace OverflowHelper.core
 
             correctionAdd("re-parent", "reparent");
 
+            correctionAdd("transparant", "transparent");
+            correctionAdd("trasparent", "transparent");
+
             correctionAdd("non transparent", "nontransparent");
 
             correctionAdd("semi transparent", "semitransparent");
             correctionAdd("semi-transparant", "semitransparent");
             correctionAdd("semi transparant", "semitransparent");
             correctionAdd("semi-transparent", "semitransparent");
-
-            correctionAdd("transparant", "transparent");
 
             correctionAdd("Parenthesed", "parenthesised");
 
@@ -19595,6 +19611,7 @@ namespace OverflowHelper.core
             correctionAdd("PoweShell", "PowerShell");
             correctionAdd("psh", "PowerShell");
             correctionAdd("powerschell", "PowerShell");
+            correctionAdd("pwsh", "PowerShell");
 
             correctionAdd("ISE", "PowerShell ISE");
             correctionAdd("powershell ISE", "PowerShell ISE");
@@ -23494,6 +23511,7 @@ namespace OverflowHelper.core
 
             correctionAdd("eloborate", "elaborate");
             correctionAdd("elaborator", "elaborate");
+            correctionAdd("ellaborate", "elaborate");
 
             correctionAdd("data-rate", "data rate");
 
@@ -24723,6 +24741,7 @@ namespace OverflowHelper.core
             correctionAdd("bahaviour", "behaviour");
             correctionAdd("vehaviour", "behaviour");
             correctionAdd("behaveour", "behaviour");
+            correctionAdd("BEHAVOIR", "behaviour");
 
             correctionAdd("neighbor", "neighbour");
             correctionAdd("neigbour", "neighbour");
@@ -31652,6 +31671,9 @@ namespace OverflowHelper.core
             correctionAdd("digital ocean", "DigitalOcean");
             correctionAdd("DO", "DigitalOcean");
             correctionAdd("Digitalocean", "DigitalOcean");
+
+            // Sort of virtual machine. Related to DigitalOcean.
+            correctionAdd("Droplet", "droplet");
 
             correctionAdd("fifo", "FIFO");
             correctionAdd("Fifo", "FIFO");
@@ -55235,16 +55257,19 @@ namespace OverflowHelper.core
             correctionAdd("registerin", "registering");
             correctionAdd("Registerin", "registering");
 
-            correctionAdd("Droplet", "droplet");
-
-            correctionAdd("southside", "south-facing");
-
             correctionAdd("wroth", "worth");
 
-            correctionAdd("1800 Compact", "96%");
-            correctionAdd("1800", "96%");
-            correctionAdd("1800 compact", "96%");
-            correctionAdd("1800-Compact", "96%");
+            correctionAdd("it is not human", "It is not human");
+
+            correctionAdd("selecteable", "selectable");
+
+            correctionAdd("neofetch", "Neofetch");
+
+            correctionAdd("Clause", "clause");
+
+            correctionAdd("midjourney", "Midjourney");
+
+            correctionAdd("TLC", "tender loving care");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -85281,6 +85306,18 @@ namespace OverflowHelper.core
 
             URL_Add("96%", "https://switchandclick.com/keyboard-sizes/");
 
+            URL_Add("It is not human", "https://www.youtube.com/watch?v=SRKjf8b4f2E&t=1m52s");
+
+            URL_Add("selectable", "https://en.wiktionary.org/wiki/selectable#Adjective");
+
+            URL_Add("Neofetch", "https://en.wikipedia.org/wiki/Neofetch");
+
+            URL_Add("clause", "https://en.wiktionary.org/wiki/clause#Noun");
+
+            URL_Add("Midjourney", "https://en.wikipedia.org/wiki/Midjourney");
+
+            URL_Add("tender loving care", "https://en.wiktionary.org/wiki/TLC#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -86716,6 +86753,10 @@ namespace OverflowHelper.core
             correctionAdd("[tag:typescript]_", "TypeScript (tag wiki)_");
             correctionAdd("typescript_", "TypeScript (tag wiki)_");
             correctionAdd("TypeScript_", "TypeScript (tag wiki)_");
+
+            correctionAdd("[tag:elixir]_", "Elixir (tag wiki)_");
+            correctionAdd("elixir_", "Elixir (tag wiki)_");
+            correctionAdd("Elixir_", "Elixir (tag wiki)_");
 
             // Perl
             correctionAdd("parrot_", "Parrot_");
@@ -89213,6 +89254,8 @@ namespace OverflowHelper.core
             URL_Add("page attribute table_", "https://en.wikipedia.org/wiki/Page_attribute_table");
 
             URL_Add("TypeScript (tag wiki)_", "https://stackoverflow.com/questions/tagged/typescript");
+
+            URL_Add("Elixir (tag wiki)_", "https://stackoverflow.com/questions/tagged/elixir");
 
         } //addLookupData_alternativeWordSet()
 
