@@ -1137,6 +1137,24 @@ namespace OverflowHelper.core
             // CMD
             correctionAdd("XCOPY", "xcopy");
 
+            correctionAdd("fiel", "file");
+            correctionAdd("fiie", "file");
+            correctionAdd("File", "file");
+            correctionAdd("fiels", "file");
+            correctionAdd("fil", "file");
+            correctionAdd("fle", "file");
+
+            correctionAdd("fils", "files");
+
+            correctionAdd("managament", "management");
+            correctionAdd("mngt", "management");
+            correctionAdd("Management", "management");
+            correctionAdd("Mgmt", "management");
+            correctionAdd("mgmt", "management");
+            correctionAdd("managment", "management");
+
+            correctionAdd("filemanagement", "file management");
+
             // Windows
             correctionAdd("dll", "DLL file"); // Expansion, as in context it is usually a file.
             correctionAdd("DLL", "DLL file"); // Expansion, as in context it is usually a file.
@@ -1147,15 +1165,6 @@ namespace OverflowHelper.core
             correctionAdd("Dynamic Link Library", "DLL file");
             correctionAdd("DLLS", "DLL file");
             correctionAdd("dlls", "DLL file");
-
-            correctionAdd("fiel", "file");
-            correctionAdd("fiie", "file");
-            correctionAdd("File", "file");
-            correctionAdd("fiels", "file");
-            correctionAdd("fil", "file");
-            correctionAdd("fle", "file");
-
-            correctionAdd("fils", "files");
 
             correctionAdd("filesize", "file size");
 
@@ -1175,8 +1184,6 @@ namespace OverflowHelper.core
 
             correctionAdd("FD", "file descriptor");
             correctionAdd("fd", "file descriptor");
-
-            correctionAdd("filemanagement", "file management");
 
             correctionAdd("file chooser", "file dialog");
             correctionAdd("File CHooser", "file dialog");
@@ -8186,12 +8193,6 @@ namespace OverflowHelper.core
 
             correctionAdd("IndexedDB", "Indexed Database API");
 
-            correctionAdd("managament", "management");
-            correctionAdd("mngt", "management");
-            correctionAdd("Management", "management");
-            correctionAdd("Mgmt", "management");
-            correctionAdd("mgmt", "management");
-
             correctionAdd("PM", "project management"); // PM is an overloaded term...
             correctionAdd("Project Management", "project management");
 
@@ -8948,6 +8949,8 @@ namespace OverflowHelper.core
             correctionAdd("stack site", "Stack&nbsp;Exchange");
             correctionAdd("stack sites", "Stack&nbsp;Exchange");
             correctionAdd("Sack Exchange", "Stack&nbsp;Exchange");
+            correctionAdd("Stack Company", "Stack&nbsp;Exchange");
+            correctionAdd("StackCompany", "Stack&nbsp;Exchange");
 
             // Famous question on Stack Overflow (featured on the podcast).
             correctionAdd("hard-deleted", "hard-deleted boat programming question");
@@ -11466,6 +11469,7 @@ namespace OverflowHelper.core
 
             correctionAdd("pyqt", "PyQt");
             correctionAdd("pyQt", "PyQt");
+            correctionAdd("PYQT", "PyQt");
 
             correctionAdd("scipy", "SciPy");
             correctionAdd("Scipy", "SciPy");
@@ -13923,6 +13927,7 @@ namespace OverflowHelper.core
             correctionAdd("Ok", "OK");
             correctionAdd("okai", "OK");
             correctionAdd("Okey", "OK");
+            correctionAdd("Okie doke", "OK");
 
             correctionAdd("Tick Tok", "TikTok");
             correctionAdd("ticktock", "TikTok");
@@ -16060,6 +16065,7 @@ namespace OverflowHelper.core
             correctionAdd("Makbook", "MacBook Pro");
             correctionAdd("MAC book", "MacBook Pro");
             correctionAdd("MACbook", "MacBook Pro");
+            correctionAdd("macpro", "MacBook Pro");
 
             correctionAdd("macbook air", "MacBook Air");
             correctionAdd("Macbook Air", "MacBook Air");
@@ -16405,6 +16411,7 @@ namespace OverflowHelper.core
             correctionAdd("El Capitan 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
             correctionAdd("Mac OS X v10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
             correctionAdd("EL CAPITAN", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
+            correctionAdd("mac os el capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)");
 
             correctionAdd("Sierra", "macOS v10.12 (Sierra)");
             correctionAdd("10.12", "macOS v10.12 (Sierra)");
@@ -25954,6 +25961,26 @@ namespace OverflowHelper.core
 
             correctionAdd("autoai", "AutoAI");
 
+            // Machine learning / AI
+            correctionAdd("AUC", "area under curve");
+
+            // Machine learning / AI
+            correctionAdd("Confusion Matrix", "confusion matrix");
+
+            // Machine learning / AI
+            correctionAdd("roc", "receiver operating characteristic");
+            correctionAdd("ROC", "receiver operating characteristic");
+
+            // Programming tool, allegedly powered by AI
+            correctionAdd("tabnine", "Tabnine");
+            correctionAdd("TabNine", "Tabnine");
+
+            // A collection of data for AI training
+            correctionAdd("the pile", "The Pile");
+
+            // A generative AI tool for images
+            correctionAdd("midjourney", "Midjourney");
+
             // Machine learning and artificial intelligence (TensorFlow)
             correctionAdd("adam optimizer", "Adam optimizer");
             correctionAdd("Adam", "Adam optimizer");
@@ -29318,6 +29345,8 @@ namespace OverflowHelper.core
             correctionAdd("comm", "communication");
             correctionAdd("communucation", "communication");
             correctionAdd("commnication", "communication");
+            correctionAdd("communications", "communication");
+            correctionAdd("comunications", "communication");
 
             correctionAdd("altera", "Altera");
 
@@ -29990,6 +30019,13 @@ namespace OverflowHelper.core
             correctionAdd("communikcate", "communicate");
             correctionAdd("communucate", "communicate");
             correctionAdd("comminicate", "communicate");
+
+            correctionAdd("cosist", "consist");
+
+            correctionAdd("consits", "consists");
+            correctionAdd("consisits", "consists");
+
+            correctionAdd("consists in", "consists of");
 
             correctionAdd("consistant", "consistent");
 
@@ -33251,6 +33287,9 @@ namespace OverflowHelper.core
             correctionAdd("organiation", "organisation");
             correctionAdd("organization", "organisation");
             correctionAdd("Organization", "organisation");
+            correctionAdd("orgnaization", "organisation");
+            correctionAdd("orgnanization", "organisation");
+            correctionAdd("orgnazation", "organisation");
 
             correctionAdd("reorg", "reorganisation");
             correctionAdd("re-org", "reorganisation");
@@ -38554,6 +38593,8 @@ namespace OverflowHelper.core
 
             correctionAdd("instanciating", "instantiating");
             correctionAdd("instancing", "instantiating");
+            correctionAdd("Instansiating", "instantiating");
+            correctionAdd("instansiating", "instantiating");
 
             correctionAdd("mows", "moves");
 
@@ -46686,6 +46727,7 @@ namespace OverflowHelper.core
             correctionAdd("extarct", "extract");
             correctionAdd("extrct", "extract");
             correctionAdd("extraxt", "extract");
+            correctionAdd("extrat", "extract");
 
             correctionAdd("moderationg", "moderation");
 
@@ -50926,9 +50968,6 @@ namespace OverflowHelper.core
             correctionAdd("SPM", "Swift Package Manager");
             correctionAdd("spm", "Swift Package Manager");
 
-            correctionAdd("consits", "consists");
-            correctionAdd("consisits", "consists");
-
             correctionAdd("the-one", "the one");
 
             correctionAdd("Dynamic Generalized Linear Model", "dynamic generalized linear model");
@@ -51980,8 +52019,6 @@ namespace OverflowHelper.core
             correctionAdd("duckdb", "DuckDB");
 
             correctionAdd("inamenate", "inanimate");
-
-            correctionAdd("consists in", "consists of");
 
             correctionAdd("Cockpit", "cockpit");
 
@@ -54419,16 +54456,6 @@ namespace OverflowHelper.core
             correctionAdd("apples to oranges", "apples and oranges");
             correctionAdd("apples-to-oranges", "apples and oranges");
 
-            // Machine learning / AI
-            correctionAdd("AUC", "area under curve");
-
-            // Machine learning / AI
-            correctionAdd("Confusion Matrix", "confusion matrix");
-
-            // Machine learning / AI
-            correctionAdd("roc", "receiver operating characteristic");
-            correctionAdd("ROC", "receiver operating characteristic");
-
             // Alternative URL: <https://twitter.com/ArweaveEco>
             //
             correctionAdd("arweave", "Arweave");
@@ -54495,10 +54522,6 @@ namespace OverflowHelper.core
 
             correctionAdd("multiplcation", "multiplication");
             correctionAdd("Multiplcation", "multiplication");
-
-            // Programming tool, allegedly powered by AI
-            correctionAdd("tabnine", "Tabnine");
-            correctionAdd("TabNine", "Tabnine");
 
             correctionAdd("handlebars", "Handlebars.js");
             correctionAdd("Handlebars", "Handlebars.js");
@@ -54922,9 +54945,6 @@ namespace OverflowHelper.core
 
             correctionAdd("over-board", "overboard");
 
-            // A data for AI training
-            correctionAdd("the pile", "The Pile");
-
             correctionAdd("anti-christ", "Antichrist");
 
             correctionAdd("iq", "IQ");
@@ -55267,9 +55287,44 @@ namespace OverflowHelper.core
 
             correctionAdd("Clause", "clause");
 
-            correctionAdd("midjourney", "Midjourney");
-
             correctionAdd("TLC", "tender loving care");
+
+            correctionAdd("controlnet", "ControlNet");
+
+            correctionAdd("semi-formal", "semiformal");
+
+            correctionAdd("VAE", "variational autoencoder");
+
+            correctionAdd("autoGPT", "Auto-GPT");
+
+            correctionAdd("chatpdf", "ChatPDF");
+
+            correctionAdd("clickthroughs", "click-throughs");
+            correctionAdd("click throughs", "click-throughs");
+
+            correctionAdd("domain specific", "domain-specific");
+
+            correctionAdd("farfetched", "far-fetched");
+            correctionAdd("far fetched", "far-fetched");
+
+            correctionAdd("identifiiers", "identifiers");
+
+            // A software application
+            correctionAdd("nuke", "Nuke");
+
+            correctionAdd("sephardic", "Sephardic");
+
+            correctionAdd("shacharit", "Shacharit");
+
+            // A company 
+            correctionAdd("foundry", "The Foundry Visionmongers");
+            correctionAdd("Foundry", "The Foundry Visionmongers");
+
+            correctionAdd("useses", "uses");
+
+            correctionAdd("wordsalad", "word salad");
+
+            correctionAdd("Wost", "worst");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -85318,6 +85373,40 @@ namespace OverflowHelper.core
 
             URL_Add("tender loving care", "https://en.wiktionary.org/wiki/TLC#Noun");
 
+            URL_Add("ControlNet", "https://en.wikipedia.org/wiki/Stable_Diffusion#ControlNet");
+
+            URL_Add("semiformal", "https://en.wiktionary.org/wiki/semiformal#Adjective");
+
+            URL_Add("variational autoencoder", "https://en.wikipedia.org/wiki/Variational_autoencoder");
+
+            URL_Add("Auto-GPT", "https://en.wikipedia.org/wiki/Auto-GPT");
+
+            URL_Add("ChatPDF", "https://easywithai.com/ai-writers/chatpdf/");
+
+            URL_Add("click-throughs", "https://en.wiktionary.org/wiki/click-through#Noun");
+
+            URL_Add("consist", "https://en.wiktionary.org/wiki/consist#Verb");
+
+            URL_Add("domain-specific", "https://en.wiktionary.org/wiki/domain-specific#Adjective");
+
+            URL_Add("far-fetched", "https://en.wiktionary.org/wiki/far-fetched#Adjective");
+
+            URL_Add("identifiers", "https://en.wiktionary.org/wiki/identifier#Noun");
+
+            URL_Add("Nuke", "https://en.wikipedia.org/wiki/Nuke_(software)");
+
+            URL_Add("Sephardic", "https://en.wiktionary.org/wiki/Sephardic#Adjective");
+
+            URL_Add("Shacharit", "https://en.wikipedia.org/wiki/Shacharit");
+
+            URL_Add("The Foundry Visionmongers", "https://en.wikipedia.org/wiki/The_Foundry_Visionmongers");
+
+            URL_Add("uses", "https://en.wiktionary.org/wiki/use#Verb");
+
+            URL_Add("word salad", "https://en.wiktionary.org/wiki/word_salad#Noun");
+
+            URL_Add("worst", "https://en.wiktionary.org/wiki/worst#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -87010,7 +87099,6 @@ namespace OverflowHelper.core
             //
             // Alternative URL: <https://theamericangenius.com/tech-news/large-language-models/>
             //
-            correctionAdd("LM_", "large language model_");
             correctionAdd("LLM_", "large language model_");
             correctionAdd("LLMs_", "large language model_");
             correctionAdd("Large Language Model_", "large language model_");
@@ -87849,6 +87937,13 @@ namespace OverflowHelper.core
             correctionAdd("Shell_", "Shell Mera_");
 
             correctionAdd("PAT_", "page attribute table_");
+
+            correctionAdd("documentation_", "Documentation_");
+
+            correctionAdd("LORA_", "LoRA_");
+            correctionAdd("Low-Rank Adaptation_", "LoRA_");
+
+            correctionAdd("foot_", "Foot_");
 
             // URL mappings
             //
@@ -89256,6 +89351,12 @@ namespace OverflowHelper.core
             URL_Add("TypeScript (tag wiki)_", "https://stackoverflow.com/questions/tagged/typescript");
 
             URL_Add("Elixir (tag wiki)_", "https://stackoverflow.com/questions/tagged/elixir");
+
+            URL_Add("Documentation_", "https://meta.stackoverflow.com/questions/354217/sunsetting-documentation");
+
+            URL_Add("LoRA_", "https://huggingface.co/docs/diffusers/main/en/training/lora");
+
+            URL_Add("Foot_", "https://wiki.archlinux.org/title/Foot");
 
         } //addLookupData_alternativeWordSet()
 
