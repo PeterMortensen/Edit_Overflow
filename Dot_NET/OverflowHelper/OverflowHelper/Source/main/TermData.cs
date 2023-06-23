@@ -1926,6 +1926,12 @@ namespace OverflowHelper.core
             // Electronics
             correctionAdd("botch wire", "bodge wire");
 
+            // Electronics
+            correctionAdd("monstable", "monostable multivibrator");
+            correctionAdd("Monostable Multivibrator", "monostable multivibrator");
+            correctionAdd("monoshot", "monostable multivibrator");
+            correctionAdd("mono stable", "monostable multivibrator");
+
             // Boolean
             correctionAdd("Short-cirquit evaluation", "short-circuit evaluation");
 
@@ -3590,6 +3596,34 @@ namespace OverflowHelper.core
 
             correctionAdd("goat", "greatest of all time");
             correctionAdd("GOAT", "greatest of all time");
+
+            correctionAdd("North", "north");
+            correctionAdd("n", "north");
+            correctionAdd("N", "north");
+
+            correctionAdd("South", "south");
+            correctionAdd("s", "south");
+            correctionAdd("S", "south");
+
+            correctionAdd("East", "east");
+            correctionAdd("e", "east");
+            correctionAdd("E", "east");
+
+            correctionAdd("north-west", "northwest");
+            correctionAdd("nw", "northwest");
+            correctionAdd("NW", "northwest");
+
+            correctionAdd("northeast", "north-east");
+            correctionAdd("North-East", "north-east");
+            correctionAdd("North East", "north-east");
+            correctionAdd("north east", "north-east");
+            correctionAdd("NE", "north-east");
+            correctionAdd("ne", "north-east");
+
+            //We would also like "SE", but there are conflicts (in both word sets)
+            correctionAdd("South East", "southeast");
+            correctionAdd("south east", "southeast");
+            correctionAdd("se", "southeast");
 
             correctionAdd("lastest", "latest");
             correctionAdd("Latests", "latest");
@@ -6992,6 +7026,15 @@ namespace OverflowHelper.core
             correctionAdd("lut", "lookup table");
             correctionAdd("LUT", "lookup table");
 
+            correctionAdd("stabil", "stable");
+
+            correctionAdd("stable-ize", "stabilise");
+            correctionAdd("stablize", "stabilise");
+            correctionAdd("stablise", "stabilise");
+            correctionAdd("stabilize", "stabilise");
+
+            correctionAdd("instable", "unstable");
+
             correctionAdd("trust-able", "trustable");
 
             correctionAdd("uncoutable", "uncountable");
@@ -7071,8 +7114,6 @@ namespace OverflowHelper.core
 
             correctionAdd("unpredicatable", "unpredictable");
 
-            correctionAdd("instable", "unstable");
-
             correctionAdd("executeable", "executable");
             correctionAdd("exucutable", "executable");
             correctionAdd("excuteable", "executable");
@@ -7130,8 +7171,6 @@ namespace OverflowHelper.core
             correctionAdd("unfomattable", "unformattable");
 
             correctionAdd("setable", "settable");
-
-            correctionAdd("stabil", "stable");
 
             correctionAdd("Bootable", "bootable");
 
@@ -14457,7 +14496,6 @@ namespace OverflowHelper.core
             correctionAdd("ajex", "Ajax"); // Misspelling.
 
             correctionAdd("un", "in");
-            correctionAdd("n", "in");
             correctionAdd("inn", "in");
 
             correctionAdd("mysql", "MySQL");
@@ -17815,8 +17853,6 @@ namespace OverflowHelper.core
             correctionAdd("Texas", "Texas, United States");
             correctionAdd("texas", "Texas, United States");
 
-            correctionAdd("NE", "Nebraska, United States"); // A United States state
-
             correctionAdd("alabama", "Alabama"); // A United States state
 
             correctionAdd("wisconsin", "Wisconsin"); // A United States state
@@ -18889,14 +18925,9 @@ namespace OverflowHelper.core
             correctionAdd("south Africa", "South Africa");
             correctionAdd("S A", "South Africa");
 
-            correctionAdd("South East", "southeast");
-            correctionAdd("south east", "southeast");
-
             correctionAdd("SAA", "South Atlantic Anomaly");
             correctionAdd("South Atlantic Anomnaly", "South Atlantic Anomaly");
             correctionAdd("south atlantic anomaly", "South Atlantic Anomaly");
-
-            correctionAdd("South", "south");
 
             correctionAdd("tel aviv", "Tel Aviv");
 
@@ -24918,10 +24949,6 @@ namespace OverflowHelper.core
 
             correctionAdd("beam", "BEAM");
 
-            // Artificial intelligence
-            correctionAdd("bert", "BERT");
-            correctionAdd("Bert", "BERT");
-
             correctionAdd("w/o", "without");
             correctionAdd("w/out", "without");
             correctionAdd("Whithout", "without");
@@ -25921,12 +25948,25 @@ namespace OverflowHelper.core
             correctionAdd("GPT-Chat", "ChatGPT");
 
             // Artificial intelligence
+            correctionAdd("autoGPT", "Auto-GPT");
+
+            // Artificial intelligence
+            correctionAdd("chatpdf", "ChatPDF");
+
+            // Artificial intelligence
             correctionAdd("Prompt Engineering", "prompt engineering");
 
             // Artificial intelligence / deep learning
             correctionAdd("Stable Diffusion", "Stable&nbsp;Diffusion");
             correctionAdd("StableDiffusion", "Stable&nbsp;Diffusion");
             correctionAdd("S.D", "Stable&nbsp;Diffusion"); // Really "S.D.", but we can't handle some punctuation at the moment.
+            correctionAdd("stable diffusion", "Stable&nbsp;Diffusion");
+
+            // Artificial intelligence. Neural network. Stable Diffusion
+            correctionAdd("controlnet", "ControlNet");
+
+            // Artificial intelligence
+            correctionAdd("VAE", "variational autoencoder");
 
             // Artificial intelligence. ChatGPT
             //
@@ -25941,6 +25981,9 @@ namespace OverflowHelper.core
             correctionAdd("LLaMA.cpp", "Large Language Model Meta AI");
             correctionAdd("llama.cpp", "Large Language Model Meta AI");
             correctionAdd("llama", "Large Language Model Meta AI");
+
+            correctionAdd("LM", "language model");
+            correctionAdd("Language Model", "language model");
 
             correctionAdd("mission accomplished", "AI responses");
             correctionAdd("Mission. Fucking. Accomplished", "AI responses");
@@ -26015,6 +26058,10 @@ namespace OverflowHelper.core
 
             // Artificial intelligence
             correctionAdd("imagenet", "ImageNet");
+
+            // Artificial intelligence
+            correctionAdd("bert", "BERT");
+            correctionAdd("Bert", "BERT");
 
             correctionAdd("wolf algorithm", "Wolff algorithm");
             correctionAdd("Wolf algorithm", "Wolff algorithm");
@@ -30971,6 +31018,7 @@ namespace OverflowHelper.core
             correctionAdd("recursivly", "recursively");
             correctionAdd("recursivelly", "recursively");
             correctionAdd("recusively", "recursively");
+            correctionAdd("recusrively", "recursively");
 
             correctionAdd("stubled", "stumble");
 
@@ -35523,11 +35571,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Ruble", "ruble");
 
-            correctionAdd("seee", "see");
-            correctionAdd("se", "see");
-            correctionAdd("SEE", "see");
-            correctionAdd("See", "see");
-
             correctionAdd("tilda", "tilde");
             correctionAdd("tidle", "tilde");
 
@@ -38380,8 +38423,6 @@ namespace OverflowHelper.core
             correctionAdd("his self", "himself");
             correctionAdd("him self", "himself");
 
-            correctionAdd("North", "north");
-
             correctionAdd("victory’s", "victories");
 
             correctionAdd("counter-argument", "counterargument");
@@ -39581,16 +39622,6 @@ namespace OverflowHelper.core
             correctionAdd("tecnique", "technique");
             correctionAdd("techique", "technique");
             correctionAdd("techinque", "technique");
-
-            correctionAdd("e-text editor", "E Text Editor");
-            correctionAdd("E", "E Text Editor"); // Not specific enough??
-            correctionAdd("E-Texteditor", "E Text Editor");
-            correctionAdd("e-texteditor", "E Text Editor");
-            correctionAdd("e texteditor", "E Text Editor");
-            correctionAdd("E-Text Editor", "E Text Editor");
-            correctionAdd("e-TextEditor", "E Text Editor");
-            correctionAdd("e-Text Editor", "E Text Editor");
-            correctionAdd("e.TextEditor", "E Text Editor");
 
             correctionAdd("Text Editor", "text editor");
             correctionAdd("text Editor", "text editor");
@@ -42750,6 +42781,7 @@ namespace OverflowHelper.core
             correctionAdd("the intents and purposes", "for all intents and purposes");
             correctionAdd("for the intents and purposes", "for all intents and purposes");
             correctionAdd("all intent and purposes", "for all intents and purposes");
+            correctionAdd("for all intensive purposes", "for all intents and purposes");
 
             correctionAdd("beat the whole purpose", "defeat the purpose");
 
@@ -45346,11 +45378,6 @@ namespace OverflowHelper.core
             correctionAdd("retro rocket", "retrorocket");
 
             correctionAdd("self reliant", "self-reliant");
-
-            correctionAdd("sulpur", "sulphur");
-            correctionAdd("S", "sulphur");
-            correctionAdd("Sulphur", "sulphur");
-            correctionAdd("Sulpur", "sulphur");
 
             correctionAdd("Swastika", "swastika");
 
@@ -48850,11 +48877,6 @@ namespace OverflowHelper.core
             correctionAdd("brother", "sibling");
             correctionAdd("wibling", "sibling");
 
-            correctionAdd("stable-ize", "stabilise");
-            correctionAdd("stablize", "stabilise");
-            correctionAdd("stablise", "stabilise");
-            correctionAdd("stabilize", "stabilise");
-
             correctionAdd("iBurst", "iburst");
             correctionAdd("IBURST", "iburst");
 
@@ -49457,11 +49479,6 @@ namespace OverflowHelper.core
             correctionAdd("Bug", "bug");
 
             correctionAdd("extorsion", "extortion");
-
-            correctionAdd("northeast", "north-east");
-            correctionAdd("North-East", "north-east");
-            correctionAdd("North East", "north-east");
-            correctionAdd("north east", "north-east");
 
             correctionAdd("right of passage", "rite of passage");
 
@@ -50713,8 +50730,6 @@ namespace OverflowHelper.core
 
             correctionAdd("either or", "either-or");
 
-            correctionAdd("north-west", "northwest");
-
             correctionAdd("dubai", "Dubai");
 
             correctionAdd("emirates", "Emirates");
@@ -50737,8 +50752,6 @@ namespace OverflowHelper.core
 
             correctionAdd("deploye", "deploy");
 
-            correctionAdd("East", "east");
-
             correctionAdd("eitherway", "either way");
             correctionAdd("Eitherway", "either way");
 
@@ -50747,8 +50760,6 @@ namespace OverflowHelper.core
             correctionAdd("monstrocity", "monstrosity");
 
             correctionAdd("quiet point", "quiescent point");
-
-            correctionAdd("West", "west");
 
             correctionAdd("witting on the wall", "writing on the wall");
 
@@ -51398,11 +51409,6 @@ namespace OverflowHelper.core
             correctionAdd("Provider", "provider");
 
             correctionAdd("hive mind", "hivemind");
-
-            correctionAdd("monstable", "monostable multivibrator");
-            correctionAdd("Monostable Multivibrator", "monostable multivibrator");
-            correctionAdd("monoshot", "monostable multivibrator");
-            correctionAdd("mono stable", "monostable multivibrator");
 
             correctionAdd("neihborhood", "neighborhood");
 
@@ -52423,9 +52429,6 @@ namespace OverflowHelper.core
 
             correctionAdd("asenine", "asinine");
             correctionAdd("Asenine", "asinine");
-
-            correctionAdd("LM", "language model");
-            correctionAdd("Language Model", "language model");
 
             correctionAdd("LEFT join", "left outer join");
             correctionAdd("left join", "left outer join");
@@ -55289,15 +55292,7 @@ namespace OverflowHelper.core
 
             correctionAdd("TLC", "tender loving care");
 
-            correctionAdd("controlnet", "ControlNet");
-
             correctionAdd("semi-formal", "semiformal");
-
-            correctionAdd("VAE", "variational autoencoder");
-
-            correctionAdd("autoGPT", "Auto-GPT");
-
-            correctionAdd("chatpdf", "ChatPDF");
 
             correctionAdd("clickthroughs", "click-throughs");
             correctionAdd("click throughs", "click-throughs");
@@ -55316,7 +55311,7 @@ namespace OverflowHelper.core
 
             correctionAdd("shacharit", "Shacharit");
 
-            // A company 
+            // A company
             correctionAdd("foundry", "The Foundry Visionmongers");
             correctionAdd("Foundry", "The Foundry Visionmongers");
 
@@ -56376,8 +56371,6 @@ namespace OverflowHelper.core
             URL_Add("PSPad", "https://en.wikipedia.org/wiki/PSPad");
 
             URL_Add("TextPad", "https://en.wikipedia.org/wiki/TextPad");
-
-            URL_Add("E Text Editor", "https://en.wikipedia.org/wiki/E_Text_Editor");
 
             URL_Add("Wine", "https://en.wikipedia.org/wiki/Wine_%28software%29");
 
@@ -63236,8 +63229,6 @@ namespace OverflowHelper.core
             URL_Add("podcast", "https://en.wiktionary.org/wiki/podcast#Noun");
 
             URL_Add("ruble", "https://en.wiktionary.org/wiki/ruble#Noun");
-
-            URL_Add("see", "https://en.wiktionary.org/wiki/see#Verb");
 
             URL_Add("tilde", "https://en.wiktionary.org/wiki/tilde#Noun");
 
@@ -71893,8 +71884,6 @@ namespace OverflowHelper.core
 
             URL_Add("set", "https://en.wiktionary.org/wiki/set#Verb");
 
-            URL_Add("sulphur", "https://en.wikipedia.org/wiki/Sulfur");
-
             URL_Add("swastika", "https://en.wiktionary.org/wiki/swastika#Noun");
 
             URL_Add("tell apart", "https://en.wiktionary.org/wiki/tell_apart#Verb");
@@ -77957,8 +77946,6 @@ namespace OverflowHelper.core
 
             URL_Add("Lidar", "https://en.wikipedia.org/wiki/Lidar");
 
-            URL_Add("Nebraska, United States", "https://en.wikipedia.org/wiki/Nebraska");
-
             URL_Add("grid", "https://en.wiktionary.org/wiki/grid#Noun");
 
             URL_Add("hex editor", "https://en.wikipedia.org/wiki/Hex_editor");
@@ -78110,8 +78097,6 @@ namespace OverflowHelper.core
             URL_Add("monstrosity", "https://en.wiktionary.org/wiki/monstrosity#Noun");
 
             URL_Add("quiescent point", "https://en.wikipedia.org/wiki/Bipolar_transistor_biasing");
-
-            URL_Add("west", "https://en.wiktionary.org/wiki/west#Noun");
 
             URL_Add("writing on the wall", "https://en.wiktionary.org/wiki/writing_on_the_wall#Noun");
 
@@ -86074,6 +86059,10 @@ namespace OverflowHelper.core
             correctionAdd("Artificial Intelligence (Stack Exchange site)_", "Artificial&nbsp;Intelligence (Stack Exchange site)_");
             correctionAdd("Artificial&nbsp;Intelligence_", "Artificial&nbsp;Intelligence (Stack Exchange site)_"); // Sort of identity mapping
 
+            // Artificial intelligence
+            correctionAdd("LORA_", "LoRA_");
+            correctionAdd("Low-Rank Adaptation_", "LoRA_");
+
             correctionAdd("puted_", "put_");
             correctionAdd("punt_", "put_");
 
@@ -86423,8 +86412,6 @@ namespace OverflowHelper.core
             correctionAdd("intellectual property core_", "IP core_");
             correctionAdd("IP-Core_", "IP core_");
             correctionAdd("IP-Cores_", "IP core_");
-
-            correctionAdd("N_", "n_");
 
             correctionAdd("Tantalum_", "tantalum_");
 
@@ -87934,16 +87921,46 @@ namespace OverflowHelper.core
 
             correctionAdd("give_", "given_");
 
+            // A city in Ecuador (South America)
             correctionAdd("Shell_", "Shell Mera_");
 
             correctionAdd("PAT_", "page attribute table_");
 
             correctionAdd("documentation_", "Documentation_");
 
-            correctionAdd("LORA_", "LoRA_");
-            correctionAdd("Low-Rank Adaptation_", "LoRA_");
-
             correctionAdd("foot_", "Foot_");
+
+            correctionAdd("sulpur_", "sulphur_");
+            correctionAdd("S_", "sulphur_");
+            correctionAdd("Sulphur_", "sulphur_");
+            correctionAdd("Sulpur_", "sulphur_");
+
+            correctionAdd("e-text editor_", "E Text Editor_");
+            correctionAdd("E_", "E Text Editor_"); // Not specific enough??
+            correctionAdd("E-Texteditor_", "E Text Editor_");
+            correctionAdd("e-texteditor_", "E Text Editor_");
+            correctionAdd("e texteditor_", "E Text Editor_");
+            correctionAdd("E-Text Editor_", "E Text Editor_");
+            correctionAdd("e-TextEditor_", "E Text Editor_");
+            correctionAdd("e-Text Editor_", "E Text Editor_");
+            correctionAdd("e.TextEditor_", "E Text Editor_");
+
+            correctionAdd("NE_", "Nebraska, United States_"); // A United States state
+
+            correctionAdd("se_", "see_");
+            correctionAdd("seee_", "see_");
+            correctionAdd("SEE_", "see_");
+            correctionAdd("See_", "see_");
+
+            // A (very badly named) Node.js module
+            correctionAdd("N_", "n_");
+
+            correctionAdd("West_", "west_");
+            correctionAdd("w_", "west_");
+            correctionAdd("W_", "west_");
+
+            correctionAdd("south-west_", "southwest_");
+            correctionAdd("SW_", "southwest_");
 
             // URL mappings
             //
@@ -88447,8 +88464,6 @@ namespace OverflowHelper.core
             URL_Add("IP core_", "https://en.wikipedia.org/wiki/Semiconductor_intellectual_property_core#Types_of_IP_cores");
 
             URL_Add("intellectual property_", "https://en.wikipedia.org/wiki/Intellectual_property");
-
-            URL_Add("n_", "https://www.npmjs.com/package/n");
 
             URL_Add("tantalum_", "https://en.wikipedia.org/wiki/Tantalum");
 
@@ -89357,6 +89372,20 @@ namespace OverflowHelper.core
             URL_Add("LoRA_", "https://huggingface.co/docs/diffusers/main/en/training/lora");
 
             URL_Add("Foot_", "https://wiki.archlinux.org/title/Foot");
+
+            URL_Add("n_", "https://www.npmjs.com/package/n");
+
+            URL_Add("sulphur_", "https://en.wikipedia.org/wiki/Sulfur");
+
+            URL_Add("E Text Editor_", "https://en.wikipedia.org/wiki/E_Text_Editor");
+
+            URL_Add("west_", "https://en.wiktionary.org/wiki/west#Noun");
+
+            URL_Add("Nebraska, United States_", "https://en.wikipedia.org/wiki/Nebraska");
+
+            URL_Add("see_", "https://en.wiktionary.org/wiki/see#Verb");
+
+            URL_Add("southwest_", "https://en.wiktionary.org/wiki/southwest#Noun");
 
         } //addLookupData_alternativeWordSet()
 
