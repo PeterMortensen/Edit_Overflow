@@ -3297,6 +3297,7 @@ namespace OverflowHelper.core
             correctionAdd("analise", "analyse");
             correctionAdd("anylise", "analyse");
             correctionAdd("analize", "analyse");
+            correctionAdd("analysize", "analyse");
 
             correctionAdd("anyother", "another");
             correctionAdd("enother", "another");
@@ -4225,6 +4226,12 @@ namespace OverflowHelper.core
             correctionAdd("chromedriver", "Selenium ChromeDriver");
 
             correctionAdd("selenium IDE", "Selenium IDE");
+
+            // Related to Selenium
+            correctionAdd("qmtery", "QMetry");
+
+            // Related to Selenium
+            correctionAdd("QAF", "QMetry Automation Framework");
 
             correctionAdd("trapezoid rule", "trapezoidal rule");
             correctionAdd("Trapezium rule", "trapezoidal rule");
@@ -5606,6 +5613,7 @@ namespace OverflowHelper.core
             // Bash. Linux.
             correctionAdd(".profile", ".profile file");
             correctionAdd("~/.profile", ".profile file");
+            correctionAdd("bash.profile", ".profile file");
 
             // Bash. Linux.
             correctionAdd("~/.bash_aliases", ".bash_aliases");
@@ -16809,9 +16817,6 @@ namespace OverflowHelper.core
             correctionAdd("TOR", "Tor");
             correctionAdd("ToR", "Tor");
 
-            correctionAdd("qt", "Qt");
-            correctionAdd("QT", "Qt");
-
             correctionAdd("Qt creator", "Qt Creator");
             correctionAdd("QtCreator", "Qt Creator");
             correctionAdd("Qt creater", "Qt Creator");
@@ -17409,6 +17414,7 @@ namespace OverflowHelper.core
             correctionAdd("ver", "version");
             correctionAdd("Version", "version");
             correctionAdd("Verion", "version");
+            correctionAdd("veriosn", "version");
 
             correctionAdd("programing", "programming");
             correctionAdd("pragramming", "programming");
@@ -18468,6 +18474,20 @@ namespace OverflowHelper.core
             //   <https://coolermaster.egnyte.com/dd/eGAvqb0y77>
             //
             correctionAdd("Ck552", "CK552");
+
+            // A crippled (60%) mechanical keyboard from Cooler Master.
+            // "TTC Low Profile Mechanical Switch". Wireless (Bluetooth). 
+            // RGB (per-key) lighting.
+            //
+            // Manual:
+            //
+            //   <https://coolermaster.egnyte.com/dd/Zs68uEUuMU>
+            //
+            // A review: 
+            //
+            //   <https://www.pcmag.com/reviews/cooler-master-sk622>
+            //
+            correctionAdd("sk622", "SK622");
 
             // A crippled (65%) mechanical keyboard
             // from Cooler Master. "TTC Mechanical Switch".
@@ -25857,6 +25877,7 @@ namespace OverflowHelper.core
             correctionAdd("NNs", "artificial neural network");
             correctionAdd("Neural networks", "artificial neural network");
             correctionAdd("neural-network", "artificial neural network");
+            correctionAdd("neyral network", "artificial neural network");
 
             // Related to artificial intelligence
             correctionAdd("DNN", "deep neural network");
@@ -28721,6 +28742,7 @@ namespace OverflowHelper.core
             correctionAdd("quetion", "question");
             correctionAdd("qquestion", "question");
             correctionAdd("queetion", "question");
+            correctionAdd("Qt", "question");
 
             correctionAdd("qustions", "questions");
             correctionAdd("Qt's", "questions");
@@ -30369,6 +30391,7 @@ namespace OverflowHelper.core
 
             correctionAdd("intermeidate", "intermediate");
             correctionAdd("intermadiate", "intermediate");
+            correctionAdd("mediate", "intermediate");
 
             correctionAdd("peice", "piece");
             correctionAdd("piecies", "piece");
@@ -30642,6 +30665,7 @@ namespace OverflowHelper.core
             correctionAdd("aprroach", "approach");
             correctionAdd("appraoch", "approach");
             correctionAdd("apporach", "approach");
+            correctionAdd("Approach", "approach");
 
             correctionAdd("eaquation", "equation");
 
@@ -35693,6 +35717,7 @@ namespace OverflowHelper.core
             correctionAdd("sistem", "system");
             correctionAdd("sysytem", "system");
             correctionAdd("systen", "system");
+            correctionAdd("System", "system");
 
             correctionAdd("Embedded system", "embedded system");
 
@@ -36327,7 +36352,9 @@ namespace OverflowHelper.core
             correctionAdd("Gukesh D", "Dommaraju Gukesh"); // Chess
             correctionAdd("Gukesh", "Dommaraju Gukesh"); // Chess
 
-            correctionAdd("Nodirbek", "Nodirbek Abdusattorov"); // Chess
+            // Chess
+            correctionAdd("Nodirbek", "Nodirbek Abdusattorov");
+            correctionAdd("Nordibek", "Nodirbek Abdusattorov");
             //
             // End of the chess part
 
@@ -48006,6 +48033,7 @@ namespace OverflowHelper.core
             correctionAdd("FR", "feature request");
             correctionAdd("Feature Request", "feature request");
             correctionAdd("feature-request", "feature request");
+            correctionAdd("Feature-Request", "feature request");
 
             correctionAdd("North pole", "north pole");
 
@@ -55283,6 +55311,7 @@ namespace OverflowHelper.core
             correctionAdd("wroth", "worth");
 
             correctionAdd("it is not human", "It is not human");
+            correctionAdd("not human", "It is not human");
 
             correctionAdd("selecteable", "selectable");
 
@@ -55320,6 +55349,24 @@ namespace OverflowHelper.core
             correctionAdd("wordsalad", "word salad");
 
             correctionAdd("Wost", "worst");
+
+            correctionAdd("CVE", "Common Vulnerabilities and Exposures");
+
+            correctionAdd("CWE", "Common Weakness Enumeration");
+
+            correctionAdd("ccxt", "CCXT");
+
+            correctionAdd("acer", "Acer");
+
+            correctionAdd("adversarialy", "adversarially");
+
+            correctionAdd("Beanshell", "BeanShell");
+
+            correctionAdd("Elasticsearch, Logstash, and Kibana", "ELK");
+
+            correctionAdd("imageJ", "ImageJ");
+
+            correctionAdd("pearpc", "PearPC");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -55958,8 +56005,6 @@ namespace OverflowHelper.core
             URL_Add("PowerBuilder", "https://en.wikipedia.org/wiki/PowerBuilder");
 
             URL_Add("Swing", "https://en.wikipedia.org/wiki/Swing_%28Java%29");
-
-            URL_Add("Qt", "https://en.wikipedia.org/wiki/Qt_%28software%29"); // The URL changed. Old: <https://en.wikipedia.org/wiki/Qt_%28toolkit%29>.
 
             URL_Add("IntelliSense", "https://en.wikipedia.org/wiki/Intelligent_code_completion#IntelliSense"); // Previous: <https://en.wikipedia.org/wiki/Intelli-sense>
 
@@ -85392,6 +85437,30 @@ namespace OverflowHelper.core
 
             URL_Add("worst", "https://en.wiktionary.org/wiki/worst#Adjective");
 
+            URL_Add("Common Vulnerabilities and Exposures", "https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures");
+
+            URL_Add("Common Weakness Enumeration", "https://en.wikipedia.org/wiki/Common_Weakness_Enumeration");
+
+            URL_Add("SK622", "https://www.coolermaster.com/catalog/peripheral/keyboards/sk622-silver/");
+
+            URL_Add("CCXT", "https://github.com/ccxt/ccxt");
+
+            URL_Add("QMetry", "https://qmetry.github.io/qaf/");
+
+            URL_Add("QMetry Automation Framework", "https://qmetry.github.io/qaf/");
+
+            URL_Add("Acer", "https://en.wikipedia.org/wiki/Acer_Inc.");
+
+            URL_Add("adversarially", "https://en.wiktionary.org/wiki/adversarially#Adverb");
+
+            URL_Add("BeanShell", "https://en.wikipedia.org/wiki/BeanShell");
+
+            URL_Add("ELK", "https://www.elastic.co/what-is/elk-stack");
+
+            URL_Add("ImageJ", "https://en.wikipedia.org/wiki/ImageJ");
+
+            URL_Add("PearPC", "https://en.wikipedia.org/wiki/PearPC");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -87961,6 +88030,16 @@ namespace OverflowHelper.core
 
             correctionAdd("south-west_", "southwest_");
             correctionAdd("SW_", "southwest_");
+            correctionAdd("sw_", "southwest_");
+
+            correctionAdd("b_", "B_");
+
+            correctionAdd("[tag:clojure]_", "Clojure (tag wiki)_");
+            correctionAdd("clojure_", "Clojure (tag wiki)_");
+            correctionAdd("Clojure_", "Clojure (tag wiki)_");
+
+            correctionAdd("qt_", "Qt_");
+            correctionAdd("QT_", "Qt_");
 
             // URL mappings
             //
@@ -89386,6 +89465,12 @@ namespace OverflowHelper.core
             URL_Add("see_", "https://en.wiktionary.org/wiki/see#Verb");
 
             URL_Add("southwest_", "https://en.wiktionary.org/wiki/southwest#Noun");
+
+            URL_Add("B_", "https://en.wikipedia.org/wiki/B_(programming_language)");
+
+            URL_Add("Clojure (tag wiki)_", "https://stackoverflow.com/questions/tagged/clojure");
+
+            URL_Add("Qt_", "https://en.wikipedia.org/wiki/Qt_%28software%29"); // The URL changed. Old: <https://en.wikipedia.org/wiki/Qt_%28toolkit%29>.
 
         } //addLookupData_alternativeWordSet()
 
