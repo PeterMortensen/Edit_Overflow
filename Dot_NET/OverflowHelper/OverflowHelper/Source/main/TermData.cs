@@ -6895,6 +6895,7 @@ namespace OverflowHelper.core
             correctionAdd("Mnist", "MNIST data set");
             correctionAdd("MNST", "MNIST data set");
             correctionAdd("MNST dataset", "MNIST data set");
+            correctionAdd("MNIST", "MNIST data set");
 
             correctionAdd("IRIS", "Iris data set");
             correctionAdd("iris data set", "Iris data set");
@@ -15759,6 +15760,7 @@ namespace OverflowHelper.core
             correctionAdd("have n't", "haven’t");
             correctionAdd("havnt", "haven’t");
             correctionAdd("have'nt", "haven’t");
+            correctionAdd("heavent", "haven’t");
 
             correctionAdd("gotta", "have got to");
             correctionAdd("Gotta", "have got to");
@@ -29350,6 +29352,7 @@ namespace OverflowHelper.core
 
             correctionAdd("kotlin", "Kotlin");
             correctionAdd("KOTLIN", "Kotlin");
+            correctionAdd("kotln", "Kotlin");
 
             correctionAdd("Email", "email");
             correctionAdd("meail", "email");
@@ -34216,11 +34219,12 @@ namespace OverflowHelper.core
 
             correctionAdd("no harm no foul", "no harm, no foul");
 
-            correctionAdd("non-alphanumeric", "nonalphanumeric");
-            correctionAdd("non alphanumeric", "nonalphanumeric");
-
             correctionAdd("Alphanumeric", "alphanumeric");
             correctionAdd("alpha numeric", "alphanumeric");
+            correctionAdd("AlphaNumeric", "alphanumeric");
+
+            correctionAdd("non-alphanumeric", "nonalphanumeric");
+            correctionAdd("non alphanumeric", "nonalphanumeric");
 
             correctionAdd("Currying", "currying");
 
@@ -38522,6 +38526,7 @@ namespace OverflowHelper.core
             correctionAdd("SwiftUi", "SwiftUI");
             correctionAdd("swiftui", "SwiftUI");
             correctionAdd("Swiftui", "SwiftUI");
+            correctionAdd("swift UI", "SwiftUI");
 
             correctionAdd("deam", "deem");
 
@@ -38908,6 +38913,8 @@ namespace OverflowHelper.core
             correctionAdd("RAGRET", "regret");
 
             correctionAdd("suspedended", "suspended");
+
+            correctionAdd("acer", "Acer");
 
             correctionAdd("aspire", "Acer Aspire");
             correctionAdd("Aser Aspire", "Acer Aspire");
@@ -46876,6 +46883,7 @@ namespace OverflowHelper.core
             correctionAdd("secs", "seconds");
 
             correctionAdd("tel", "tell");
+            correctionAdd("tall", "tell");
 
             correctionAdd("bcpl", "BCPL");
 
@@ -53893,6 +53901,7 @@ namespace OverflowHelper.core
             correctionAdd("here're", "here’re");
 
             correctionAdd("this's", "this is");
+            correctionAdd("This's", "this is");
 
             correctionAdd("class room", "classroom");
 
@@ -55356,8 +55365,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ccxt", "CCXT");
 
-            correctionAdd("acer", "Acer");
-
             correctionAdd("adversarialy", "adversarially");
 
             correctionAdd("Beanshell", "BeanShell");
@@ -55367,6 +55374,32 @@ namespace OverflowHelper.core
             correctionAdd("imageJ", "ImageJ");
 
             correctionAdd("pearpc", "PearPC");
+
+            correctionAdd("de-Broglie wavelength", "de Broglie wavelength");
+
+            correctionAdd("gMock", "Google Mock");
+            correctionAdd("GMock", "Google Mock");
+            correctionAdd("Google C++ Mocking Framework", "Google Mock");
+            correctionAdd("gmock", "Google Mock");
+
+            correctionAdd("half-hearted", "halfhearted");
+            correctionAdd("half hearted", "halfhearted");
+
+            correctionAdd("Pearson Correlation", "Pearson correlation coefficient");
+            correctionAdd("PCC", "Pearson correlation coefficient");
+            correctionAdd("PPMCC", "Pearson correlation coefficient");
+            correctionAdd("Pearson Correlation Coefficient", "Pearson correlation coefficient");
+            correctionAdd("Pearson correlation", "Pearson correlation coefficient");
+            correctionAdd("Pearson product-moment correlation coefficient", "Pearson correlation coefficient");
+            correctionAdd("Pearson's r", "Pearson correlation coefficient");
+            correctionAdd("bivariate correlation", "Pearson correlation coefficient");
+            correctionAdd("pearson correlation", "Pearson correlation coefficient");
+
+            correctionAdd("SUT", "system under test");
+
+            correctionAdd("zoom-in", "zoom in");
+
+            correctionAdd("zoom-out", "zoom out");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -85460,6 +85493,20 @@ namespace OverflowHelper.core
             URL_Add("ImageJ", "https://en.wikipedia.org/wiki/ImageJ");
 
             URL_Add("PearPC", "https://en.wikipedia.org/wiki/PearPC");
+
+            URL_Add("de Broglie wavelength", "https://en.wikipedia.org/wiki/Matter_wave");
+
+            URL_Add("Google Mock", "https://en.wikipedia.org/wiki/List_of_unit_testing_frameworks#C++");
+
+            URL_Add("halfhearted", "https://en.wiktionary.org/wiki/halfhearted#Adjective");
+
+            URL_Add("Pearson correlation coefficient", "https://en.wikipedia.org/wiki/Pearson_correlation_coefficient");
+
+            URL_Add("system under test", "https://en.wikipedia.org/wiki/System_under_test");
+
+            URL_Add("zoom in", "https://en.wiktionary.org/wiki/zoom_in#Verb");
+
+            URL_Add("zoom out", "https://en.wiktionary.org/wiki/zoom_out#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
