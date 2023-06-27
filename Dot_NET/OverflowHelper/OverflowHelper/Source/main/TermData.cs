@@ -1400,11 +1400,16 @@ namespace OverflowHelper.core
             correctionAdd("wavefunction", "wave function");
             correctionAdd("wave-function", "wave function");
 
+            correctionAdd("Broglie", "Louis de Broglie");
+            correctionAdd("de Broglie", "Louis de Broglie");
+
             correctionAdd("Bohm's interpretation", "de Broglie–Bohm theory");
             correctionAdd("Bohm interpretation", "de Broglie–Bohm theory");
             correctionAdd("Bohmian mechanics", "de Broglie–Bohm theory");
             correctionAdd("pilot wave theory", "de Broglie–Bohm theory");
             correctionAdd("de Broglie-Bohm theory", "de Broglie–Bohm theory");
+
+            correctionAdd("de-Broglie wavelength", "de Broglie wavelength");
 
             correctionAdd("AWG", "arbitrary waveform generator");
 
@@ -9291,6 +9296,8 @@ namespace OverflowHelper.core
 
             // Stack Overflow
             correctionAdd("question-ban", "question ban");
+            correctionAdd("Q ban", "question ban");
+            correctionAdd("Q-ban", "question ban");
 
             // Stack Overflow
             correctionAdd("text as images", "text as an image");
@@ -10083,6 +10090,7 @@ namespace OverflowHelper.core
             correctionAdd("skeptics", "Skeptics (Stack Exchange site)");
             correctionAdd("Skeptics", "Skeptics (Stack Exchange site)");
             correctionAdd("skeptics.stackexhange", "Skeptics (Stack Exchange site)");
+            correctionAdd("Skeptics.SE", "Skeptics (Stack Exchange site)");
 
             correctionAdd("Worldbuilding", "Worldbuilding (Stack Exchange site)");
             correctionAdd("worldbuilding", "Worldbuilding (Stack Exchange site)");
@@ -18478,14 +18486,14 @@ namespace OverflowHelper.core
             correctionAdd("Ck552", "CK552");
 
             // A crippled (60%) mechanical keyboard from Cooler Master.
-            // "TTC Low Profile Mechanical Switch". Wireless (Bluetooth). 
+            // "TTC Low Profile Mechanical Switch". Wireless (Bluetooth).
             // RGB (per-key) lighting.
             //
             // Manual:
             //
             //   <https://coolermaster.egnyte.com/dd/Zs68uEUuMU>
             //
-            // A review: 
+            // A review:
             //
             //   <https://www.pcmag.com/reviews/cooler-master-sk622>
             //
@@ -29353,6 +29361,7 @@ namespace OverflowHelper.core
             correctionAdd("kotlin", "Kotlin");
             correctionAdd("KOTLIN", "Kotlin");
             correctionAdd("kotln", "Kotlin");
+            correctionAdd("koitlin", "Kotlin");
 
             correctionAdd("Email", "email");
             correctionAdd("meail", "email");
@@ -45961,6 +45970,7 @@ namespace OverflowHelper.core
             correctionAdd("dbaa", "DBAA");
 
             correctionAdd("H265", "H.265");
+            correctionAdd("h265", "H.265");
 
             correctionAdd("spring integration", "Spring Integration");
             correctionAdd("spring Integration", "Spring Integration");
@@ -48024,6 +48034,10 @@ namespace OverflowHelper.core
             correctionAdd("Verbally", "verbally");
 
             correctionAdd("Displayport", "DisplayPort");
+            correctionAdd("DP", "DisplayPort");
+            correctionAdd("Display Port", "DisplayPort");
+            correctionAdd("display port", "DisplayPort");
+            correctionAdd("displayport", "DisplayPort");
 
             correctionAdd("Get OfficeWebAppsFarm", "Get-OfficeWebAppsFarm");
 
@@ -48695,6 +48709,7 @@ namespace OverflowHelper.core
             correctionAdd("ever-green", "evergreen");
 
             correctionAdd("forver", "forever");
+            correctionAdd("for ever", "forever");
 
             correctionAdd("hosp", "hospitalisation");
 
@@ -49166,9 +49181,6 @@ namespace OverflowHelper.core
 
             correctionAdd("FCM", "Firebase Cloud Messaging");
             correctionAdd("fcm", "Firebase Cloud Messaging");
-
-            correctionAdd("Broglie", "Louis de Broglie");
-            correctionAdd("de Broglie", "Louis de Broglie");
 
             correctionAdd("Enquiring", "enquiring");
 
@@ -55375,8 +55387,6 @@ namespace OverflowHelper.core
 
             correctionAdd("pearpc", "PearPC");
 
-            correctionAdd("de-Broglie wavelength", "de Broglie wavelength");
-
             correctionAdd("gMock", "Google Mock");
             correctionAdd("GMock", "Google Mock");
             correctionAdd("Google C++ Mocking Framework", "Google Mock");
@@ -55400,6 +55410,23 @@ namespace OverflowHelper.core
             correctionAdd("zoom-in", "zoom in");
 
             correctionAdd("zoom-out", "zoom out");
+
+            correctionAdd("co-operate", "cooperate");
+
+            correctionAdd("fftw", "FFTW");
+
+            correctionAdd("over view", "overview");
+
+            correctionAdd("Constructed Languages", "Constructed&nbsp;Languages (Stack Exchange site)");
+            correctionAdd("Constructed Languages (Stack Exchange site)", "Constructed&nbsp;Languages (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("Constructed&nbsp;Languages", "Constructed&nbsp;Languages (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("Conlang.SE", "Constructed&nbsp;Languages (Stack Exchange site)");
+
+            correctionAdd("Programming Language Design and Implementation", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)");
+            correctionAdd("Programming Language Design and Implementation (Stack Exchange site)", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)"); // Sort of identity mapping
+
+            correctionAdd("getaway", "gateway");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -85508,6 +85535,18 @@ namespace OverflowHelper.core
 
             URL_Add("zoom out", "https://en.wiktionary.org/wiki/zoom_out#Verb");
 
+            URL_Add("cooperate", "https://en.wiktionary.org/wiki/cooperate#Verb");
+
+            URL_Add("FFTW", "https://en.wikipedia.org/wiki/FFTW");
+
+            URL_Add("overview", "https://en.wiktionary.org/wiki/overview#Noun");
+
+            URL_Add("Constructed&nbsp;Languages (Stack Exchange site)", "https://conlang.stackexchange.com/tour");
+
+            URL_Add("Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)", "https://languagedesign.stackexchange.com/tour");
+
+            URL_Add("gateway", "https://en.wiktionary.org/wiki/gateway#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -86058,6 +86097,7 @@ namespace OverflowHelper.core
             correctionAdd("Science Fiction & Fantasy (Stack Exchange site)_", "Science&nbsp;Fiction&nbsp;&&nbsp;Fantasy (Stack Exchange site)_");
             correctionAdd("Science&nbsp;Fiction&nbsp;&&nbsp;Fantasy_", "Science&nbsp;Fiction&nbsp;&&nbsp;Fantasy (Stack Exchange site)_"); // Sort of identity mapping
             correctionAdd("Sci-Fi Fantasy_", "Science&nbsp;Fiction&nbsp;&&nbsp;Fantasy (Stack Exchange site)_");
+            correctionAdd("SFF.SE_", "Science&nbsp;Fiction&nbsp;&&nbsp;Fantasy (Stack Exchange site)_");
 
             correctionAdd("Medical Sciences_", "Medical&nbsp;Sciences (Stack Exchange site)_");
             correctionAdd("Medical SE_", "Medical&nbsp;Sciences (Stack Exchange site)_");
