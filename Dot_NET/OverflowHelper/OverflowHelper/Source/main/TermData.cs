@@ -5943,9 +5943,6 @@ namespace OverflowHelper.core
 
             correctionAdd("WinUsb", "WinUSB");
 
-            correctionAdd("Power Delivery", "USB power delivery");
-            correctionAdd("USB Power Delivery", "USB power delivery");
-
             correctionAdd("live usb", "live USB");
             correctionAdd("live linux", "live USB");
             correctionAdd("Live-USB", "live USB");
@@ -5969,6 +5966,18 @@ namespace OverflowHelper.core
             correctionAdd("pen-drive", "USB flash drive");
             correctionAdd("usb flash drive", "USB flash drive");
             correctionAdd("Pendrive", "USB flash drive");
+
+            correctionAdd("Power Delivery", "USB power delivery");
+            correctionAdd("USB Power Delivery", "USB power delivery");
+
+            correctionAdd("verry", "very");
+            correctionAdd("vary", "very");
+            correctionAdd("WEAWY", "very");
+            correctionAdd("weawy", "very");
+            correctionAdd("bery", "very");
+            correctionAdd("Wery", "very");
+            correctionAdd("wery", "very");
+            correctionAdd("vety", "very");
 
             correctionAdd("FLASH", "flash memory");
             correctionAdd("flah", "flash memory");
@@ -6016,14 +6025,6 @@ namespace OverflowHelper.core
 
             correctionAdd("News Boat", "Newsboat");
             correctionAdd("newsboat", "Newsboat");
-
-            correctionAdd("verry", "very");
-            correctionAdd("vary", "very");
-            correctionAdd("WEAWY", "very");
-            correctionAdd("weawy", "very");
-            correctionAdd("bery", "very");
-            correctionAdd("Wery", "very");
-            correctionAdd("wery", "very");
 
             correctionAdd("CD", "continuous delivery"); // Potentially conflict with CD / CD-ROM
             correctionAdd("Continuous Delivery", "continuous delivery");
@@ -8268,6 +8269,11 @@ namespace OverflowHelper.core
 
             correctionAdd("SIEM", "security information and event management");
 
+            correctionAdd("codding", "coding");
+            correctionAdd("Coding", "coding");
+            correctionAdd("codeing", "coding");
+            correctionAdd("cofing", "coding");
+
             correctionAdd("endcode", "encode");
 
             correctionAdd("enconding", "encoding");
@@ -8312,10 +8318,6 @@ namespace OverflowHelper.core
             correctionAdd("url-encode", "URL encode");
 
             correctionAdd("DMIDECODE", "dmidecode");
-
-            correctionAdd("codding", "coding");
-            correctionAdd("Coding", "coding");
-            correctionAdd("codeing", "coding");
 
             correctionAdd("prject", "project");
             correctionAdd("projet", "project");
@@ -10336,6 +10338,15 @@ namespace OverflowHelper.core
             correctionAdd("Arts & Crafts", "Arts&nbsp;&&nbsp;Crafts (Stack Exchange site)");
             correctionAdd("Arts & Crafts (Stack Exchange site)", "Arts&nbsp;&&nbsp;Crafts (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("Arts&nbsp;&&nbsp;Crafts", "Arts&nbsp;&&nbsp;Crafts (Stack Exchange site)"); // Sort of identity mapping
+
+            correctionAdd("Constructed Languages", "Constructed&nbsp;Languages (Stack Exchange site)");
+            correctionAdd("Constructed Languages (Stack Exchange site)", "Constructed&nbsp;Languages (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("Constructed&nbsp;Languages", "Constructed&nbsp;Languages (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("Conlang.SE", "Constructed&nbsp;Languages (Stack Exchange site)");
+
+            correctionAdd("Programming Language Design and Implementation", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)");
+            correctionAdd("Programming Language Design and Implementation (Stack Exchange site)", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)"); // Sort of identity mapping
 
             correctionAdd("piece of shit", "POS");
             correctionAdd("p.o.s", "POS");
@@ -15759,6 +15770,7 @@ namespace OverflowHelper.core
             correctionAdd("hwne", "have");
             correctionAdd("hae", "have");
             correctionAdd("nhave", "have"); // Typo with the space bar...
+            correctionAdd("vave", "have");
 
             correctionAdd("havent", "haven’t");
             correctionAdd("havn't", "haven’t");
@@ -18520,6 +18532,14 @@ namespace OverflowHelper.core
 
             // A mouse from Cooler Master
             correctionAdd("mm730", "MM730");
+
+            // A mouse from Cooler Master
+            //
+            // Manual:
+            //
+            //   <https://coolermaster.egnyte.com/dd/TkNZCJThp4>
+            //
+            correctionAdd("mm731", "MM731");
 
             // A mechanical keyboard from Cooler Master
             correctionAdd("MK750", "MasterKeys MK750");
@@ -21457,6 +21477,10 @@ namespace OverflowHelper.core
             correctionAdd("WIFi", "Wi-Fi");
             correctionAdd("Wi Fi", "Wi-Fi");
 
+            // Wi-Fi. A frequency band.
+            correctionAdd("2.4 GHz", "2.4&nbsp;GHz");
+            correctionAdd("2.4g", "2.4&nbsp;GHz");
+
             correctionAdd("Wi-Fi Protected Setup", "WPS");
             correctionAdd("Wi-Fi Simple Config", "WPS");
 
@@ -23705,6 +23729,41 @@ namespace OverflowHelper.core
             correctionAdd("n tier", "n-tier");
             correctionAdd("N tier", "n-tier");
 
+            correctionAdd("i", "I");
+            correctionAdd("1", "I"); // The number... Huge risk
+                                     // of false positives...
+            correctionAdd("iu", "I");
+
+            correctionAdd("im", "I’m"); // Collision with Instant messaging and ImageMagick.
+            correctionAdd("i m", "I’m");
+            correctionAdd("Im", "I’m");
+            correctionAdd("i'm", "I’m");
+            correctionAdd("I`m", "I’m");
+            correctionAdd("I´m", "I’m");
+            correctionAdd("I'am", "I’m");
+            correctionAdd("I‘m", "I’m");
+            correctionAdd("i'am", "I’m");
+            correctionAdd("I'm", "I’m");
+            correctionAdd("I\"m", "I’m");
+            correctionAdd("I m", "I’m");
+            correctionAdd("I,m", "I’m");
+            correctionAdd("I 'm", "I’m");
+            correctionAdd("II'm", "I’m");
+            correctionAdd("I'M", "I’m");
+            correctionAdd("i'n", "I’m");
+            correctionAdd("I.m", "I’m");
+            correctionAdd("Im'", "I’m");
+            correctionAdd("ima", "I’m");
+            correctionAdd("i´m", "I’m");
+            correctionAdd("I ma", "I’m");
+            correctionAdd("Iam", "I’m");
+            correctionAdd("I am", "I’m");
+            correctionAdd("Ian", "I’m");
+            correctionAdd("I\\m", "I’m");
+            correctionAdd("It'm", "I’m");
+            correctionAdd("ım", "I’m"); // The "i" is U+0131 (LATIN SMALL LETTER DOTLESS I) used in Turkey, etc. (<https://en.wikipedia.org/wiki/Dotless_I>) UTF-8: 304 261 (octal). 0xC4 0xB1 (hexadecimal). <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=300>. It can be searched for using the regular expression \x{0131} ("\u0131" in Visual Studio Code and some others).
+            correctionAdd("I yam", "I’m");
+
             correctionAdd("Hi", "hi");
             correctionAdd("Hy", "hi");
             correctionAdd("hy", "hi");
@@ -24613,36 +24672,6 @@ namespace OverflowHelper.core
             correctionAdd("miscrosoft", "Microsoft");
             correctionAdd("m$", "Microsoft");
             correctionAdd("MICROSOFT", "Microsoft");
-
-            correctionAdd("im", "I’m"); // Collision with Instant messaging and ImageMagick.
-            correctionAdd("i m", "I’m");
-            correctionAdd("Im", "I’m");
-            correctionAdd("i'm", "I’m");
-            correctionAdd("I`m", "I’m");
-            correctionAdd("I´m", "I’m");
-            correctionAdd("I'am", "I’m");
-            correctionAdd("I‘m", "I’m");
-            correctionAdd("i'am", "I’m");
-            correctionAdd("I'm", "I’m");
-            correctionAdd("I\"m", "I’m");
-            correctionAdd("I m", "I’m");
-            correctionAdd("I,m", "I’m");
-            correctionAdd("I 'm", "I’m");
-            correctionAdd("II'm", "I’m");
-            correctionAdd("I'M", "I’m");
-            correctionAdd("i'n", "I’m");
-            correctionAdd("I.m", "I’m");
-            correctionAdd("Im'", "I’m");
-            correctionAdd("ima", "I’m");
-            correctionAdd("i´m", "I’m");
-            correctionAdd("I ma", "I’m");
-            correctionAdd("Iam", "I’m");
-            correctionAdd("I am", "I’m");
-            correctionAdd("Ian", "I’m");
-            correctionAdd("I\\m", "I’m");
-            correctionAdd("It'm", "I’m");
-            correctionAdd("ım", "I’m"); // The "i" is U+0131 (LATIN SMALL LETTER DOTLESS I) used in Turkey, etc. (<https://en.wikipedia.org/wiki/Dotless_I>) UTF-8: 304 261 (octal). 0xC4 0xB1 (hexadecimal). <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=300>. It can be searched for using the regular expression \x{0131} ("\u0131" in Visual Studio Code and some others).
-            correctionAdd("I yam", "I’m");
 
             correctionAdd("turkish", "Turkish");
 
@@ -29948,6 +29977,7 @@ namespace OverflowHelper.core
             correctionAdd("fisrt", "first");
             correctionAdd("firts", "first");
             correctionAdd("furst", "first");
+            correctionAdd("firdt", "first");
 
             correctionAdd("j1939", "J1939");
 
@@ -32935,6 +32965,7 @@ namespace OverflowHelper.core
             correctionAdd("gettitng", "getting");
             correctionAdd("gedding", "getting");
             correctionAdd("shedding", "getting");
+            correctionAdd("gating", "getting");
 
             correctionAdd("shedding rid of", "getting rid of");
 
@@ -35003,6 +35034,7 @@ namespace OverflowHelper.core
             correctionAdd("suign", "using");
             correctionAdd("usning", "using");
             correctionAdd("Using", "using");
+            correctionAdd("uising", "using");
 
             correctionAdd("ActiVision", "Activision");
 
@@ -35555,6 +35587,7 @@ namespace OverflowHelper.core
             correctionAdd("triyng", "trying");
             correctionAdd("tryung", "trying");
             correctionAdd("tryijg", "trying");
+            correctionAdd("tryinng", "trying");
 
             correctionAdd("tryna", "trying to");
 
@@ -36522,6 +36555,9 @@ namespace OverflowHelper.core
             correctionAdd("286", "Intel 80286");
 
             correctionAdd("386", "Intel 80386");
+
+            correctionAdd("Intel 8087", "x87 floating-point coprocessor");
+            correctionAdd("x87 co-processor", "x87 floating-point coprocessor");
 
             correctionAdd("geneally", "generally");
             correctionAdd("generaly", "generally");
@@ -39913,6 +39949,10 @@ namespace OverflowHelper.core
             correctionAdd("Filed", "field");
             correctionAdd("feild", "field");
 
+            correctionAdd("fileds", "fields");
+
+            correctionAdd("field bus", "fieldbus");
+
             correctionAdd("bit field", "bitfield");
             correctionAdd("bit-field", "bitfield");
             correctionAdd("Bit-field", "bitfield");
@@ -42447,6 +42487,10 @@ namespace OverflowHelper.core
 
             correctionAdd("Branch Prediction", "branch prediction");
 
+            correctionAdd("predict", "prediction");
+            correctionAdd("pridict", "prediction");
+            correctionAdd("pridiction", "prediction");
+
             correctionAdd("errorred", "errored");
 
             correctionAdd("france", "France");
@@ -42896,8 +42940,6 @@ namespace OverflowHelper.core
             correctionAdd("thoughtreader", "thought reader");
 
             correctionAdd("IRAN", "inspect and repair as necessary");
-
-            correctionAdd("iu", "IU");
 
             correctionAdd("loch ness", "Loch Ness Monster");
             correctionAdd("Loch Ness", "Loch Ness Monster");
@@ -47730,6 +47772,8 @@ namespace OverflowHelper.core
             correctionAdd("soveld", "solved");
             correctionAdd("sloved", "solved");
             correctionAdd("Solved", "solved");
+            correctionAdd("Soleved", "solved");
+            correctionAdd("soleved", "solved");
 
             correctionAdd("ASCII Art", "ASCII art");
 
@@ -48766,8 +48810,6 @@ namespace OverflowHelper.core
             correctionAdd("ILS", "instrument landing system");
 
             correctionAdd("ombudsman", "ombudsperson");
-
-            correctionAdd("predict", "prediction");
 
             correctionAdd("Process Substitution", "process substitution");
 
@@ -51113,6 +51155,7 @@ namespace OverflowHelper.core
 
             correctionAdd("enbled", "enabled");
             correctionAdd("anabled", "enabled");
+            correctionAdd("enabeled", "enabled");
 
             correctionAdd("bokeh", "Bokeh");
 
@@ -52701,8 +52744,6 @@ namespace OverflowHelper.core
 
             correctionAdd("decucing", "deducing");
 
-            correctionAdd("field bus", "fieldbus");
-
             correctionAdd("micro-satellite", "microsatellite");
 
             correctionAdd("Spacewire", "SpaceWire");
@@ -53709,10 +53750,6 @@ namespace OverflowHelper.core
             correctionAdd("compelete", "completed");
             correctionAdd("Compleated", "completed");
             correctionAdd("compleated", "completed");
-
-            correctionAdd("i", "I");
-            correctionAdd("1", "I"); // The number... Huge risk
-                                     // of false positives...
 
             correctionAdd("micronationalisim", "micronationalism");
 
@@ -55413,20 +55450,16 @@ namespace OverflowHelper.core
 
             correctionAdd("co-operate", "cooperate");
 
+            // A C (and OCaml) library for FFT
             correctionAdd("fftw", "FFTW");
 
             correctionAdd("over view", "overview");
 
-            correctionAdd("Constructed Languages", "Constructed&nbsp;Languages (Stack Exchange site)");
-            correctionAdd("Constructed Languages (Stack Exchange site)", "Constructed&nbsp;Languages (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Constructed&nbsp;Languages", "Constructed&nbsp;Languages (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Conlang.SE", "Constructed&nbsp;Languages (Stack Exchange site)");
-
-            correctionAdd("Programming Language Design and Implementation", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)");
-            correctionAdd("Programming Language Design and Implementation (Stack Exchange site)", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)"); // Sort of identity mapping
-
             correctionAdd("getaway", "gateway");
+
+            correctionAdd("market place", "marketplace");
+
+            correctionAdd("xscale", "XScale");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -69290,8 +69323,6 @@ namespace OverflowHelper.core
             URL_Add("inspect and repair as necessary", "https://www.allacronyms.com/IRAN/Inspect_and_Repair_As_Necessary");
 
             URL_Add("GNU parallel", "https://en.wikipedia.org/wiki/GNU_parallel");
-
-            URL_Add("IU", "https://en.wikipedia.org/wiki/International_unit");
 
             URL_Add("Loch Ness Monster", "https://en.wikipedia.org/wiki/Loch_Ness_Monster");
 
@@ -85547,6 +85578,18 @@ namespace OverflowHelper.core
 
             URL_Add("gateway", "https://en.wiktionary.org/wiki/gateway#Noun");
 
+            URL_Add("2.4&nbsp;GHz", "https://en.wikipedia.org/wiki/Wi-Fi#History");
+
+            URL_Add("fields", "https://en.wiktionary.org/wiki/field#Noun");
+
+            URL_Add("marketplace", "https://en.wiktionary.org/wiki/marketplace#Noun");
+
+            URL_Add("MM731", "https://www.coolermaster.com/catalog/peripheral/mice/mm731/");
+
+            URL_Add("x87 floating-point coprocessor", "https://en.wikipedia.org/wiki/Intel_8087");
+
+            URL_Add("XScale", "https://en.wikipedia.org/wiki/XScale");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -88128,6 +88171,9 @@ namespace OverflowHelper.core
             correctionAdd("qt_", "Qt_");
             correctionAdd("QT_", "Qt_");
 
+            // In this word set due to a collision with "iu" (for "I")
+            correctionAdd("iu_", "IU_");
+
             // URL mappings
             //
             //
@@ -89558,6 +89604,8 @@ namespace OverflowHelper.core
             URL_Add("Clojure (tag wiki)_", "https://stackoverflow.com/questions/tagged/clojure");
 
             URL_Add("Qt_", "https://en.wikipedia.org/wiki/Qt_%28software%29"); // The URL changed. Old: <https://en.wikipedia.org/wiki/Qt_%28toolkit%29>.
+
+            URL_Add("IU_", "https://en.wikipedia.org/wiki/International_unit");
 
         } //addLookupData_alternativeWordSet()
 
