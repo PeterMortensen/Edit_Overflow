@@ -1265,6 +1265,7 @@ namespace OverflowHelper.core
 
             correctionAdd("North American Nanohertz Observatory for Gravitational Waves", "NANOGrav");
             correctionAdd("Nanograv", "NANOGrav");
+            correctionAdd("nanograv", "NANOGrav");
 
             correctionAdd("CDW", "charge density wave");
             correctionAdd("Charge density wave", "charge density wave");
@@ -7805,6 +7806,7 @@ namespace OverflowHelper.core
             // In 'The Hitchhiker's Guide to the Galaxy'
             correctionAdd("leading theory", "a leading theory");
             correctionAdd("a theory", "a leading theory");
+            correctionAdd("interesting theory", "a leading theory");
 
             // In 'The Hitchhiker's Guide to the Galaxy'
             correctionAdd("burn down the forests", "a small inflation problem");
@@ -8931,6 +8933,7 @@ namespace OverflowHelper.core
             correctionAdd("StaffOverflow", "Stack&nbsp;Overflow");
             correctionAdd("Staxk Overflow", "Stack&nbsp;Overflow");
             correctionAdd("Stack OVerflow", "Stack&nbsp;Overflow");
+            correctionAdd("Stackoverflwo", "Stack&nbsp;Overflow");
 
             correctionAdd("SE", "Stack&nbsp;Exchange");
             correctionAdd("stackexchange", "Stack&nbsp;Exchange");
@@ -9101,6 +9104,7 @@ namespace OverflowHelper.core
             correctionAdd("Stack Overflow Teams", "Stack Overflow for Teams");
             correctionAdd("Stack Overflow For Teams", "Stack Overflow for Teams");
             correctionAdd("stackoverflow for teams", "Stack Overflow for Teams");
+            correctionAdd("Stackoverflwo for teams", "Stack Overflow for Teams");
 
             correctionAdd("not a forum", "Stack Overflow is not a forum");
             correctionAdd("isn't a forum", "Stack Overflow is not a forum");
@@ -10309,6 +10313,7 @@ namespace OverflowHelper.core
             correctionAdd("the Math site", "Mathematics (Stack Exchange site)");
             correctionAdd("MathExchange", "Mathematics (Stack Exchange site)");
             correctionAdd("math stackexchange", "Mathematics (Stack Exchange site)");
+            correctionAdd("math.se", "Mathematics (Stack Exchange site)");
 
             correctionAdd("pets", "Pets (Stack Exchange site)");
             correctionAdd("Pets", "Pets (Stack Exchange site)");
@@ -15906,6 +15911,8 @@ namespace OverflowHelper.core
 
             correctionAdd("multi-line", "multiline");
             correctionAdd("Multiline", "multiline");
+            correctionAdd("Multi line", "multiline");
+            correctionAdd("multi line", "multiline");
 
             correctionAdd("single-line", "singleline");
             correctionAdd("Single line", "singleline");
@@ -22263,6 +22270,7 @@ namespace OverflowHelper.core
             correctionAdd("tinyMCE", "TinyMCE");
             correctionAdd("tinyMce", "TinyMCE");
             correctionAdd("TINYmce", "TinyMCE");
+            correctionAdd("Tiny MCE", "TinyMCE");
 
             correctionAdd("blackberry", "BlackBerry");
             correctionAdd("Blackberry", "BlackBerry");
@@ -28202,12 +28210,14 @@ namespace OverflowHelper.core
             correctionAdd("i3", "Core&nbsp;i3");
             correctionAdd("Core i3", "Core&nbsp;i3");
             correctionAdd("core i3", "Core&nbsp;i3");
+            correctionAdd("core-i3", "Core&nbsp;i3");
 
             // A type of CPU
             correctionAdd("i5", "Core&nbsp;i5");
             correctionAdd("core i5", "Core&nbsp;i5");
             correctionAdd("Core i5", "Core&nbsp;i5");
             correctionAdd("Intel Core i5", "Core&nbsp;i5");
+            correctionAdd("core-i5", "Core&nbsp;i5");
 
             // A type of CPU
             correctionAdd("i7", "Core&nbsp;i7");
@@ -38610,6 +38620,7 @@ namespace OverflowHelper.core
             correctionAdd("reporducible", "reproducible");
             correctionAdd("reproducable", "reproducible");
             correctionAdd("Reproduceable", "reproducible");
+            correctionAdd("reprocable", "reproducible");
 
             correctionAdd("roate", "rotate");
             correctionAdd("rotete", "rotate");
@@ -55460,6 +55471,35 @@ namespace OverflowHelper.core
             correctionAdd("market place", "marketplace");
 
             correctionAdd("xscale", "XScale");
+
+            correctionAdd("adjunc professor", "adjunct professor");
+
+            correctionAdd("cachefly", "CacheFly");
+
+            correctionAdd("casimir effect", "Casimir effect");
+
+            correctionAdd("2120", "Core i3-2120");
+
+            correctionAdd("EF EPI", "EF English Proficiency Index");
+
+            correctionAdd("fuze", "fuse");
+
+            correctionAdd("h61", "H61");
+
+            correctionAdd("halucination", "hallucination");
+
+            correctionAdd("Inspiron 620S", "Inspiron 620s");
+
+            correctionAdd("recharts", "Recharts");
+
+            correctionAdd("recepients", "recipients");
+            correctionAdd("reciepints", "recipients");
+
+            correctionAdd("scholorship", "scholarship");
+
+            correctionAdd("super massive blackhole", "supermassive black hole");
+
+            correctionAdd("Zwillo", "Zillow");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -85590,6 +85630,34 @@ namespace OverflowHelper.core
 
             URL_Add("XScale", "https://en.wikipedia.org/wiki/XScale");
 
+            URL_Add("adjunct professor", "https://en.wikipedia.org/wiki/Adjunct_professor");
+
+            URL_Add("CacheFly", "https://en.wikipedia.org/wiki/CacheFly");
+
+            URL_Add("Casimir effect", "https://en.wikipedia.org/wiki/Casimir_effect");
+
+            URL_Add("Core i3-2120", "https://en.wikipedia.org/wiki/List_of_Intel_Core_i3_processors#Sandy_Bridge_microarchitecture_(2nd_generation)");
+
+            URL_Add("EF English Proficiency Index", "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index");
+
+            URL_Add("fuse", "https://en.wiktionary.org/wiki/fuse#Noun");
+
+            URL_Add("H61", "https://en.wikipedia.org/wiki/LGA_1155#Sandy_Bridge_family_of_chipsets");
+
+            URL_Add("hallucination", "https://en.wiktionary.org/wiki/hallucination#Noun");
+
+            URL_Add("Inspiron 620s", "https://en.wikipedia.org/wiki/Dell_Inspiron_desktop_computers#Inspiron_620_and_Inspiron_620s");
+
+            URL_Add("Recharts", "https://github.com/recharts/recharts");
+
+            URL_Add("recipients", "https://en.wiktionary.org/wiki/recipient#Noun");
+
+            URL_Add("scholarship", "https://en.wiktionary.org/wiki/scholarship#Noun");
+
+            URL_Add("supermassive black hole", "https://en.wikipedia.org/wiki/Supermassive_black_hole");
+
+            URL_Add("Zillow", "https://en.wikipedia.org/wiki/Zillow");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -88174,6 +88242,8 @@ namespace OverflowHelper.core
             // In this word set due to a collision with "iu" (for "I")
             correctionAdd("iu_", "IU_");
 
+            correctionAdd("imo_", "in my opinion_");
+
             // URL mappings
             //
             //
@@ -89606,6 +89676,8 @@ namespace OverflowHelper.core
             URL_Add("Qt_", "https://en.wikipedia.org/wiki/Qt_%28software%29"); // The URL changed. Old: <https://en.wikipedia.org/wiki/Qt_%28toolkit%29>.
 
             URL_Add("IU_", "https://en.wikipedia.org/wiki/International_unit");
+
+            URL_Add("in my opinion_", "https://en.wiktionary.org/wiki/IMO#Prepositional_phrase");
 
         } //addLookupData_alternativeWordSet()
 
