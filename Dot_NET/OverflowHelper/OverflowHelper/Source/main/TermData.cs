@@ -1578,6 +1578,9 @@ namespace OverflowHelper.core
             // A CPU microarchitecture
             correctionAdd("Sandybridge", "Sandy Bridge");
 
+            // A PC motherboard Sandy Bridge chipset
+            correctionAdd("h61", "H61");
+
             // A CPU microarchitecture
             correctionAdd("IvyBridge", "Ivy Bridge");
 
@@ -18517,6 +18520,7 @@ namespace OverflowHelper.core
             //   <https://www.pcmag.com/reviews/cooler-master-sk622>
             //
             correctionAdd("sk622", "SK622");
+            correctionAdd("Sk622", "SK622");
 
             // A crippled (65%) mechanical keyboard
             // from Cooler Master. "TTC Mechanical Switch".
@@ -28206,11 +28210,19 @@ namespace OverflowHelper.core
             correctionAdd("Login", "log in");
             correctionAdd("Log in", "log in");
 
+            correctionAdd("Core 2", "Core&nbsp;2");
+            correctionAdd("Core2", "Core&nbsp;2");
+            correctionAdd("core2", "Core&nbsp;2");
+            correctionAdd("core 2", "Core&nbsp;2");
+            correctionAdd("core i2", "Core&nbsp;2");
+
             // A type of CPU
             correctionAdd("i3", "Core&nbsp;i3");
             correctionAdd("Core i3", "Core&nbsp;i3");
             correctionAdd("core i3", "Core&nbsp;i3");
             correctionAdd("core-i3", "Core&nbsp;i3");
+
+            correctionAdd("2120", "Core i3-2120");
 
             // A type of CPU
             correctionAdd("i5", "Core&nbsp;i5");
@@ -28264,6 +28276,8 @@ namespace OverflowHelper.core
             correctionAdd("Black Hole", "black hole");
             correctionAdd("BH", "black hole");
             correctionAdd("Black hole", "black hole");
+
+            correctionAdd("super massive blackhole", "supermassive black hole");
 
             correctionAdd("schottky", "Schottky");
             correctionAdd("shottky", "Schottky");
@@ -32716,6 +32730,7 @@ namespace OverflowHelper.core
             correctionAdd("const", "constant");
             correctionAdd("constnat", "constant");
             correctionAdd("contstant", "constant");
+            correctionAdd("constance", "constant");
 
             correctionAdd("democrasy", "democracy");
             correctionAdd("democacy", "democracy");
@@ -37920,6 +37935,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Inspiron", "Dell Inspiron");
 
+            correctionAdd("Inspiron 620S", "Inspiron 620s");
+
             correctionAdd("deted", "deleted");
             correctionAdd("delleted", "deleted");
 
@@ -39562,6 +39579,8 @@ namespace OverflowHelper.core
             correctionAdd("sonce", "since");
             correctionAdd("SInce", "since");
             correctionAdd("sinc", "since");
+            correctionAdd("Sinvce", "since");
+            correctionAdd("sinvce", "since");
 
             correctionAdd("asian", "Asian");
             correctionAdd("asain", "Asian");
@@ -43529,6 +43548,8 @@ namespace OverflowHelper.core
             correctionAdd("Dunning kruger effekt", "Dunning–Kruger effect");
             correctionAdd("Danning-Kruger", "Dunning–Kruger effect");
             correctionAdd("Dunning-Kruger effect", "Dunning–Kruger effect");
+            correctionAdd("Dunning–Kruger", "Dunning–Kruger effect");
+            correctionAdd("dunning kruger", "Dunning–Kruger effect");
 
             correctionAdd("hestancy", "hesitancy");
 
@@ -45215,12 +45236,6 @@ namespace OverflowHelper.core
             correctionAdd("LOH", "large object heap");
             correctionAdd("Large Object Heap", "large object heap");
 
-            correctionAdd("Core 2", "Core&nbsp;2");
-            correctionAdd("Core2", "Core&nbsp;2");
-            correctionAdd("core2", "Core&nbsp;2");
-            correctionAdd("core 2", "Core&nbsp;2");
-            correctionAdd("core i2", "Core&nbsp;2");
-
             correctionAdd("Landau", "Martin Landau");
 
             correctionAdd("npc", "NPC");
@@ -46618,6 +46633,7 @@ namespace OverflowHelper.core
             correctionAdd("arithmatic", "arithmetic");
             correctionAdd("arthematic", "arithmetic");
             correctionAdd("arithmetics", "arithmetic");
+            correctionAdd("arthimetic", "arithmetic");
 
             correctionAdd("bunus", "bonus");
             correctionAdd("Bunus", "bonus");
@@ -51927,6 +51943,7 @@ namespace OverflowHelper.core
             correctionAdd("DT", "Derek Taylor");
 
             correctionAdd("Open Services Gateway initiative", "OSGi");
+            correctionAdd("OSGI", "OSGi");
 
             correctionAdd("RotateRight/Zoom", "RotateRight Zoom");
 
@@ -54594,6 +54611,7 @@ namespace OverflowHelper.core
             correctionAdd("Voicemail", "voicemail");
 
             correctionAdd("Paas", "PaaS");
+            correctionAdd("paas", "PaaS");
 
             correctionAdd("far as", "as far as");
             correctionAdd("ias far as", "as far as");
@@ -55478,17 +55496,11 @@ namespace OverflowHelper.core
 
             correctionAdd("casimir effect", "Casimir effect");
 
-            correctionAdd("2120", "Core i3-2120");
-
             correctionAdd("EF EPI", "EF English Proficiency Index");
 
             correctionAdd("fuze", "fuse");
 
-            correctionAdd("h61", "H61");
-
             correctionAdd("halucination", "hallucination");
-
-            correctionAdd("Inspiron 620S", "Inspiron 620s");
 
             correctionAdd("recharts", "Recharts");
 
@@ -55497,9 +55509,21 @@ namespace OverflowHelper.core
 
             correctionAdd("scholorship", "scholarship");
 
-            correctionAdd("super massive blackhole", "supermassive black hole");
-
             correctionAdd("Zwillo", "Zillow");
+
+            correctionAdd("draw back", "drawback");
+
+            // Physics. Quantum mechanics. Mathematics.
+            correctionAdd("John Bell", "John Stewart Bell");
+
+            // The painting
+            correctionAdd("mona lisa", "Mona Lisa");
+
+            correctionAdd("offramp", "off-ramp");
+            correctionAdd("off ramp", "off-ramp");
+
+            // A star
+            correctionAdd("polaris", "Polaris");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -85658,6 +85682,16 @@ namespace OverflowHelper.core
 
             URL_Add("Zillow", "https://en.wikipedia.org/wiki/Zillow");
 
+            URL_Add("drawback", "https://en.wiktionary.org/wiki/drawback#Noun");
+
+            URL_Add("John Stewart Bell", "https://en.wikipedia.org/wiki/John_Stewart_Bell");
+
+            URL_Add("Mona Lisa", "https://en.wikipedia.org/wiki/Mona_Lisa");
+
+            URL_Add("off-ramp", "https://en.wiktionary.org/wiki/off-ramp#Noun");
+
+            URL_Add("Polaris", "https://en.wikipedia.org/wiki/Polaris");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -86316,6 +86350,8 @@ namespace OverflowHelper.core
             correctionAdd("datascience.SE_", "Data&nbsp;Science (Stack Exchange site)_");
             correctionAdd("Data Science (Stack Exchange site)_", "Data&nbsp;Science (Stack Exchange site)_");
             correctionAdd("Data&nbsp;Science_", "Data&nbsp;Science (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("DSSE_", "Data&nbsp;Science (Stack Exchange site)_");
+            correctionAdd("Data Science SE_", "Data&nbsp;Science (Stack Exchange site)_");
 
             correctionAdd("Chess_", "Chess (Stack Exchange site)_"); // Sort of identity mapping
             correctionAdd("chess_", "Chess (Stack Exchange site)_");
