@@ -10355,6 +10355,7 @@ namespace OverflowHelper.core
             correctionAdd("Programming Language Design and Implementation", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)");
             correctionAdd("Programming Language Design and Implementation (Stack Exchange site)", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("PLDI", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)");
 
             correctionAdd("piece of shit", "POS");
             correctionAdd("p.o.s", "POS");
@@ -18533,6 +18534,14 @@ namespace OverflowHelper.core
             correctionAdd("Ck721", "CK721");
             correctionAdd("CK 721", "CK721");
 
+            // A wired mouse from Cooler Master. Omron switches.
+            //
+            // Manual:
+            //
+            //   <https://coolermaster.egnyte.com/dl/TqEDXXgOaU/>
+            //
+            correctionAdd("mm710", "MM710");
+
             // A mouse from Cooler Master
             //
             // Manual:
@@ -20583,6 +20592,7 @@ namespace OverflowHelper.core
             correctionAdd("TAB", "tab character");
 
             correctionAdd("tabs are evil", "TABs are evil");
+            correctionAdd("TAB haters", "TABs are evil");
 
             correctionAdd("TSV", "tab-separated value");
             correctionAdd("tab-delimitated", "tab-separated value");
@@ -23495,10 +23505,16 @@ namespace OverflowHelper.core
 
             correctionAdd("easy to use", "easy-to-use");
 
+            // A star
             correctionAdd("Beteljuice", "Betelgeuse");
             correctionAdd("beetlejuice", "Betelgeuse");
             correctionAdd("Betelgease", "Betelgeuse");
             correctionAdd("BeetleJuice", "Betelgeuse");
+
+            // A star
+            correctionAdd("polaris", "Polaris");
+            correctionAdd("North Star", "Polaris");
+            correctionAdd("Pole Star", "Polaris");
 
             correctionAdd("rootcause", "root cause");
             correctionAdd("Root Cause", "root cause");
@@ -25307,6 +25323,7 @@ namespace OverflowHelper.core
             correctionAdd("Task manager", "Task Manager");
             correctionAdd("TaskManager", "Task Manager");
             correctionAdd("tasks manager", "Task Manager");
+            correctionAdd("Taskmanager", "Task Manager");
 
             correctionAdd("SysInternals", "Sysinternals");
             correctionAdd("Sys Internals", "Sysinternals");
@@ -29504,6 +29521,7 @@ namespace OverflowHelper.core
             correctionAdd("redicoulus", "ridiculous");
             correctionAdd("redicuous", "ridiculous");
             correctionAdd("rediculous", "ridiculous");
+            correctionAdd("redoculous", "ridiculous");
 
             correctionAdd("actaully", "actually");
             correctionAdd("actualy", "actually");
@@ -30709,6 +30727,8 @@ namespace OverflowHelper.core
             correctionAdd("attenttion", "attention");
             correctionAdd("atenttion", "attention");
             correctionAdd("attetion", "attention");
+            correctionAdd("Attantion", "attention");
+            correctionAdd("attantion", "attention");
 
             correctionAdd("inf", "infinite");
             correctionAdd("infinte", "infinite");
@@ -31678,6 +31698,8 @@ namespace OverflowHelper.core
             correctionAdd("withing", "within");
             correctionAdd("whithin", "within");
             correctionAdd("with-in", "within");
+            correctionAdd("Whining", "within");
+            correctionAdd("whining", "within");
 
             correctionAdd("warry", "worry");
             correctionAdd("wory", "worry");
@@ -36313,7 +36335,9 @@ namespace OverflowHelper.core
             correctionAdd("Duda", "Jan-Krzysztof Duda"); // Chess
             correctionAdd("duda", "Jan-Krzysztof Duda"); // Chess
 
-            correctionAdd("Rapport", "Richárd Rapport"); // Chess
+            // Chess
+            correctionAdd("Rapport", "Richárd Rapport");
+            correctionAdd("rapport", "Richárd Rapport");
 
             correctionAdd("nezmedtimov", "Rashid Nezhmetdinov"); // Chess
             correctionAdd("Nezhmetdinov", "Rashid Nezhmetdinov"); // Chess
@@ -38638,6 +38662,13 @@ namespace OverflowHelper.core
             correctionAdd("reproducable", "reproducible");
             correctionAdd("Reproduceable", "reproducible");
             correctionAdd("reprocable", "reproducible");
+            correctionAdd("reproductible", "reproducible");
+
+            correctionAdd("ireproducible", "irreproducible");
+
+            correctionAdd("non reproductible", "nonreproducible");
+            correctionAdd("non reproducible", "nonreproducible");
+            correctionAdd("non-reproducible", "nonreproducible");
 
             correctionAdd("roate", "rotate");
             correctionAdd("rotete", "rotate");
@@ -41916,6 +41947,9 @@ namespace OverflowHelper.core
             correctionAdd("jusst", "just");
             correctionAdd("jjst", "just");
             correctionAdd("jut", "just");
+            correctionAdd("Just", "just");
+            correctionAdd("Justing", "just");
+            correctionAdd("justing", "just");
 
             correctionAdd("Logistic Regression", "logistic regression");
 
@@ -43961,6 +43995,15 @@ namespace OverflowHelper.core
             correctionAdd("caupter", "capture");
             correctionAdd("captuyre", "capture");
 
+            correctionAdd("Capture the Flag", "capture the flag");
+            correctionAdd("CTF", "capture the flag");
+            correctionAdd("ctf", "capture the flag");
+
+            correctionAdd("Screen Capture", "screen capture");
+
+            correctionAdd("Capturated", "captured");
+            correctionAdd("capturated", "captured");
+
             correctionAdd("celabration", "celebration");
 
             correctionAdd("celabrations", "celebrations");
@@ -44189,6 +44232,7 @@ namespace OverflowHelper.core
             correctionAdd("Putler", "Vladimir Putin");
             correctionAdd("Bunker Grandpa", "Vladimir Putin");
             correctionAdd("bunker grandpa", "Vladimir Putin");
+            correctionAdd("bunker bitch", "Vladimir Putin");
 
             correctionAdd("lanucher", "launcher");
 
@@ -44479,10 +44523,6 @@ namespace OverflowHelper.core
 
             correctionAdd("proguard", "ProGuard");
             correctionAdd("Proguard", "ProGuard");
-
-            correctionAdd("Capture the Flag", "capture the flag");
-            correctionAdd("CTF", "capture the flag");
-            correctionAdd("ctf", "capture the flag");
 
             correctionAdd("cfi", "comparative fit index");
             correctionAdd("CFI", "comparative fit index");
@@ -47843,6 +47883,7 @@ namespace OverflowHelper.core
             correctionAdd("bio-weapon", "bioweapon");
 
             correctionAdd("re-running", "rerunning");
+            correctionAdd("re-runnning", "rerunning");
 
             correctionAdd("sub-page", "subpage");
 
@@ -49377,8 +49418,6 @@ namespace OverflowHelper.core
 
             correctionAdd("burried", "buried");
 
-            correctionAdd("ireproducible", "irreproducible");
-
             correctionAdd("inconditionally", "unconditionally");
             correctionAdd("Unconditionnaly", "unconditionally");
             correctionAdd("unconditionnaly", "unconditionally");
@@ -50171,8 +50210,6 @@ namespace OverflowHelper.core
 
             correctionAdd("establashing", "establishing");
 
-            correctionAdd("Screen Capture", "screen capture");
-
             correctionAdd("SUV", "sport utility vehicle");
 
             correctionAdd("sub contract", "subcontract");
@@ -50501,6 +50538,7 @@ namespace OverflowHelper.core
             correctionAdd("junction", "junction point");
 
             correctionAdd("sockpuppeting", "sock puppeting");
+            correctionAdd("sock pupating", "sock puppeting");
 
             correctionAdd("wonki", "wonky");
 
@@ -55522,8 +55560,9 @@ namespace OverflowHelper.core
             correctionAdd("offramp", "off-ramp");
             correctionAdd("off ramp", "off-ramp");
 
-            // A star
-            correctionAdd("polaris", "Polaris");
+            correctionAdd("re-ingest", "reingest");
+
+            correctionAdd("re-ingesting", "reingesting");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -85691,6 +85730,16 @@ namespace OverflowHelper.core
             URL_Add("off-ramp", "https://en.wiktionary.org/wiki/off-ramp#Noun");
 
             URL_Add("Polaris", "https://en.wikipedia.org/wiki/Polaris");
+
+            URL_Add("captured", "https://en.wiktionary.org/wiki/capture#Verb");
+
+            URL_Add("reingest", "https://en.wiktionary.org/wiki/reingest#Verb");
+
+            URL_Add("reingesting", "https://en.wiktionary.org/wiki/reingest#Verb");
+
+            URL_Add("MM710", "https://www.coolermaster.com/catalog/peripheral/mice/mm710/");
+
+            URL_Add("nonreproducible", "https://en.wiktionary.org/wiki/nonreproducible#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
