@@ -11562,6 +11562,9 @@ namespace OverflowHelper.core
             correctionAdd("Jupyter LAB", "JupyterLab");
             correctionAdd("jupyter labs", "JupyterLab");
 
+            // An online Jupyter Notebook-like thing. Online only?
+            correctionAdd("noteable", "Noteable");
+
             correctionAdd("biopython", "Biopython");
 
             correctionAdd("Python boost", "Boost.Python");
@@ -11921,10 +11924,29 @@ namespace OverflowHelper.core
 
             correctionAdd("flask", "Flask"); // Python. Web.
 
-            // A Python library  
+            // A Python library
+            //
+            // There is a well-known example of typosquatting involving
+            // it:
+            //
+            //    <https://lwn.net/Articles/694830/>
+            //
+            //
+            //    <https://quabr.com/48333990/what-is-the-story-behind-russianidiot-on-pypi>
+            //      What is the story behind RussianIdiot on PyPI?
+            //
+            //      Now deleted. The GitHub account, <https://github.com/russianidiot>
+            //      is also deleted. But it is still on PyPI:
+            //      <https://pypi.org/user/russianidiot/>
+            //
+            //      And archived at:
+            //
+            //        <https://web.archive.org/web/20200131074235/https://github.com/russianidiot?tab=repositories>
+            //
             correctionAdd("requests", "Requests");
             correctionAdd("requestS", "Requests");
             correctionAdd("requestes", "Requests");
+            correctionAdd("reqeusts", "Requests");
 
             // The common noun...
             correctionAdd("requst", "request");
@@ -18135,6 +18157,20 @@ namespace OverflowHelper.core
             correctionAdd("cripled", "crippled");
             correctionAdd("cribbled", "crippled");
 
+            correctionAdd("argb", "ARGB");
+            correctionAdd("aRGB", "ARGB");
+
+            correctionAdd("rgb", "RGB");
+            correctionAdd("rbg", "RGB"); // Letter order (typo)
+            correctionAdd("RBG", "RGB"); // Letter order (typo)
+
+            correctionAdd("rgba", "RGBA");
+
+            correctionAdd("SRGB", "sRGB");
+
+            // Related to RGB
+            correctionAdd("Alpha channel", "alpha channel");
+
             // An "elitist" (whatever that means) name. It
             // is "keyboard shortcut" for the rest of us.
             correctionAdd("keybinding", "key binding");
@@ -18506,6 +18542,7 @@ namespace OverflowHelper.core
             correctionAdd("COOLERMASTER", "Cooler Master");
             correctionAdd("Cooler master", "Cooler Master");
             correctionAdd("Cool Master", "Cooler Master");
+            correctionAdd("Coole Master", "Cooler Master");
 
             // It is broken and a waste of time:
             //
@@ -24586,6 +24623,13 @@ namespace OverflowHelper.core
             correctionAdd("A10 GPU accelerator", "Nvidia A10 GPU accelerator");
             correctionAdd("A10", "Nvidia A10 GPU accelerator");
 
+            // A series of single-board computers with some AI capabilities
+            correctionAdd("Jetson", "Nvidia Jetson");
+
+            // A single-board computer with some AI capabilities
+            correctionAdd("Jetson Nano", "Nvidia Jetson Nano");
+            correctionAdd("jetson nano", "Nvidia Jetson Nano");
+
             correctionAdd("Try", "try");
             correctionAdd("Tray", "try");
             correctionAdd("tray", "try");
@@ -26924,13 +26968,6 @@ namespace OverflowHelper.core
             correctionAdd("vcl", "VCL");
 
             correctionAdd("squeak", "Squeak");
-
-            correctionAdd("argb", "ARGB");
-            correctionAdd("aRGB", "ARGB");
-
-            correctionAdd("rgb", "RGB");
-            correctionAdd("rbg", "RGB"); // Letter order (typo)
-            correctionAdd("RBG", "RGB"); // Letter order (typo)
 
             correctionAdd("IR", "infrared"); // Expansion
             correctionAdd("Infrared", "infrared");
@@ -32737,8 +32774,6 @@ namespace OverflowHelper.core
 
             correctionAdd("disproven", "disproved");
 
-            correctionAdd("Performance Improvement Plan", "performance improvement plan");
-
             correctionAdd("proccess", "process");
             correctionAdd("porcess", "process");
             correctionAdd("provess", "process");
@@ -35664,6 +35699,7 @@ namespace OverflowHelper.core
             correctionAdd("instaled", "installed");
             correctionAdd("instlled", "installed");
             correctionAdd("instilled", "installed");
+            correctionAdd("Installed", "installed");
 
             correctionAdd("tryng", "trying");
             correctionAdd("tryting", "trying");
@@ -40343,8 +40379,6 @@ namespace OverflowHelper.core
 
             correctionAdd("monodroid", "MonoDroid");
 
-            correctionAdd("rgba", "RGBA");
-
             correctionAdd("RJ 45", "RJ45S");
             correctionAdd("RJ45", "RJ45S");
 
@@ -41401,6 +41435,7 @@ namespace OverflowHelper.core
             correctionAdd("interpeter", "interpreter");
             correctionAdd("Interpreteter", "interpreter");
             correctionAdd("interpreteter", "interpreter");
+            correctionAdd("interpretor", "interpreter");
 
             correctionAdd("memrise", "memorise");
 
@@ -42113,6 +42148,9 @@ namespace OverflowHelper.core
             correctionAdd("pre-allocating", "preallocating");
 
             correctionAdd("pre-allocation", "preallocation");
+
+            correctionAdd("alolocation", "allocation");
+            correctionAdd("alocation", "allocation");
 
             correctionAdd("prepop", "prepopulate");
 
@@ -48881,8 +48919,6 @@ namespace OverflowHelper.core
             correctionAdd("resume", "résumé");
             correctionAdd("Resume", "résumé");
 
-            correctionAdd("SRGB", "sRGB");
-
             correctionAdd("Services", "services");
 
             correctionAdd("sun setting", "sunsetting");
@@ -50459,6 +50495,16 @@ namespace OverflowHelper.core
             correctionAdd("Cataan", "The Settlers of Catan");
             correctionAdd("Catan", "The Settlers of Catan");
             correctionAdd("cataan", "The Settlers of Catan");
+
+            // A (physical) game
+            correctionAdd("Gravitrips", "Connect Four");
+            correctionAdd("Connect 4", "Connect Four");
+            correctionAdd("Drop Four", "Connect Four");
+            correctionAdd("Find Four", "Connect Four");
+            correctionAdd("Four Up", "Connect Four");
+            correctionAdd("Four in a Row", "Connect Four");
+            correctionAdd("Plot Four", "Connect Four");
+            correctionAdd("connect 4", "Connect Four");
 
             correctionAdd("animtionation", "animation");
 
@@ -52730,6 +52776,7 @@ namespace OverflowHelper.core
             // Alternative URL: <https://karma-runner.github.io/latest/index.html>
             correctionAdd("Karma JS", "Karma");
             correctionAdd("karma", "Karma");
+            correctionAdd("Kaarma", "Karma");
 
             correctionAdd("thrash", "trash");
 
@@ -55303,6 +55350,8 @@ namespace OverflowHelper.core
             correctionAdd("cash rich", "cash-rich");
 
             correctionAdd("nit-picking", "nitpicking");
+            correctionAdd("Nit picking", "nitpicking");
+            correctionAdd("nit picking", "nitpicking");
 
             correctionAdd("non-sustainable", "nonsustainable");
             correctionAdd("non sustainable", "nonsustainable");
@@ -55613,8 +55662,6 @@ namespace OverflowHelper.core
 
             correctionAdd("re-ingesting", "reingesting");
 
-            correctionAdd("Alpha channel", "alpha channel");
-
             correctionAdd("swotches", "switches");
 
             correctionAdd("smath", "match");
@@ -55622,27 +55669,7 @@ namespace OverflowHelper.core
             correctionAdd("shortned", "shortened");
             correctionAdd("Shortned", "shortened");
 
-            // A (physical) game
-            correctionAdd("Gravitrips", "Connect Four");
-            correctionAdd("Connect 4", "Connect Four");
-            correctionAdd("Drop Four", "Connect Four");
-            correctionAdd("Find Four", "Connect Four");
-            correctionAdd("Four Up", "Connect Four");
-            correctionAdd("Four in a Row", "Connect Four");
-            correctionAdd("Plot Four", "Connect Four");
-            correctionAdd("connect 4", "Connect Four");
-
             correctionAdd("low hanging fruits", "low-hanging fruit");
-
-            // An online Jupyter Notebook-like thing
-            correctionAdd("noteable", "Noteable");
-
-            // A series of single-board computers with some AI capabilities
-            correctionAdd("Jetson", "Nvidia Jetson");
-
-            // A single-board computer with some AI capabilities
-            correctionAdd("Jetson Nano", "Nvidia Jetson Nano");
-            correctionAdd("jetson nano", "Nvidia Jetson Nano");
 
             correctionAdd("Rigidbody", "rigid body");
 
@@ -55656,6 +55683,14 @@ namespace OverflowHelper.core
             correctionAdd("typo squatting", "typosquatting");
 
             correctionAdd("unliekly", "unlikely");
+
+            correctionAdd("Batch file", "batch file");
+
+            correctionAdd("front end framework", "front-end framework");
+
+            correctionAdd("Pt", "part");
+
+            correctionAdd("riskfree", "risk-free");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -71582,8 +71617,6 @@ namespace OverflowHelper.core
 
             URL_Add("overcomplicated", "https://en.wiktionary.org/wiki/overcomplicated#Adjective");
 
-            URL_Add("performance improvement plan", "https://en.wiktionary.org/wiki/PIP#Noun");
-
             URL_Add("pick", "https://en.wiktionary.org/wiki/pick#Verb");
 
             URL_Add("FileMerge", "https://en.wikipedia.org/wiki/Apple_Developer_Tools#FileMerge");
@@ -85872,6 +85905,16 @@ namespace OverflowHelper.core
 
             URL_Add("unlikely", "https://en.wiktionary.org/wiki/unlikely#Adjective");
 
+            URL_Add("allocation", "https://en.wiktionary.org/wiki/allocation#Noun");
+
+            URL_Add("batch file", "https://en.wikipedia.org/wiki/Batch_file");
+
+            URL_Add("front-end framework", "https://en.wiktionary.org/wiki/front-end#Adjective");
+
+            URL_Add("part", "https://en.wiktionary.org/wiki/part#Noun");
+
+            URL_Add("risk-free", "https://en.wiktionary.org/wiki/risk-free#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -88464,6 +88507,13 @@ namespace OverflowHelper.core
 
             correctionAdd("muss_", "must_");
 
+            // Alternative URL: <https://en.wiktionary.org/wiki/PIP#Noun>
+            //
+            correctionAdd("Performance Improvement Plan_", "performance improvement plan_");
+            correctionAdd("PIP_", "performance improvement plan_");
+
+            correctionAdd("front end_", "front-end_");
+
             // URL mappings
             //
             //
@@ -89902,6 +89952,10 @@ namespace OverflowHelper.core
             URL_Add("fact check_", "https://en.wiktionary.org/wiki/fact_check#Noun");
 
             URL_Add("must_", "https://en.wiktionary.org/wiki/must#Verb");
+
+            URL_Add("performance improvement plan_", "https://en.wikipedia.org/wiki/Performance_improvement#Performance_improvement_plans");
+
+            URL_Add("front-end_", "https://en.wiktionary.org/wiki/front-end#Adjective");
 
         } //addLookupData_alternativeWordSet()
 
