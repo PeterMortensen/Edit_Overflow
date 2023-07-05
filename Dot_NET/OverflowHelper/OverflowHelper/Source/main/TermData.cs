@@ -8531,6 +8531,19 @@ namespace OverflowHelper.core
 
             correctionAdd("instanciable", "instantiable");
 
+            correctionAdd("instanciate", "instantiate");
+            correctionAdd("inatantiate", "instantiate");
+            correctionAdd("instatiate", "instantiate");
+
+            correctionAdd("instanciating", "instantiating");
+            correctionAdd("instancing", "instantiating");
+            correctionAdd("Instansiating", "instantiating");
+            correctionAdd("instansiating", "instantiating");
+
+            correctionAdd("instanciation", "instantiation");
+
+            correctionAdd("un-instantiated", "uninstantiated");
+
             correctionAdd("querable", "queryable");
 
             correctionAdd("comendable", "commendable");
@@ -9875,6 +9888,46 @@ namespace OverflowHelper.core
             correctionAdd("code-coverage", "code coverage");
 
             correctionAdd("code-monkey", "code monkey");
+
+            correctionAdd("tampermonkey", "Tampermonkey");
+            correctionAdd("tamper monkey", "Tampermonkey");
+            correctionAdd("TamperMonkey", "Tampermonkey");
+            correctionAdd("Tamper Monkey", "Tampermonkey");
+            correctionAdd("Tampermokey", "Tampermonkey");
+
+            // Userscripts support for browsers
+            correctionAdd("ViolentMonkey", "Violentmonkey");
+
+            // JavaScript. Web browser
+            correctionAdd("greasemonkey", "Greasemonkey");
+            correctionAdd("grease monkey", "Greasemonkey");
+            correctionAdd("GreaseMonkey", "Greasemonkey");
+            correctionAdd("greasmonkey", "Greasemonkey");
+            correctionAdd("GM", "Greasemonkey");
+            correctionAdd("Grease Monkey", "Greasemonkey");
+
+            // A suite of programs that used to include the chat
+            // client ChatZilla, e.g. for IRC (but no longer,
+            // despite what the documentation may say).
+            //
+            // Alternative URL: <https://pvm-professionalengineering.blogspot.com/2018/04/using-chatzilla-in-age-of-firefox.html>
+            correctionAdd("Seamonkey", "SeaMonkey");
+
+            // A cross-platform GUI framework
+            correctionAdd("firemonkey", "FireMonkey");
+            correctionAdd("Firemonkey", "FireMonkey");
+
+            correctionAdd("monkeypatch", "monkey patch");
+
+            correctionAdd("Monkey patching", "monkey patching");
+
+            correctionAdd("surveymonkey", "SurveyMonkey");
+
+            // A JavaScript and WebAssembly engine
+            correctionAdd("spider monkey", "SpiderMonkey");
+            correctionAdd("spidermonkey", "SpiderMonkey");
+
+            correctionAdd("monkey123", "password reuse");
 
             correctionAdd("code completetion", "code completion");
 
@@ -14074,6 +14127,172 @@ namespace OverflowHelper.core
             // Python, VB.NET, etc.
             correctionAdd("COVERITY", "Coverity");
 
+            // C++
+            correctionAdd("CPPcheck", "Cppcheck");
+            correctionAdd("cppcheck", "Cppcheck");
+            correctionAdd("CPPCheck", "Cppcheck");
+            correctionAdd("CppCheck", "Cppcheck");
+
+            correctionAdd("BCC", "BPF Compiler Collection");
+            correctionAdd("bcc", "BPF Compiler Collection");
+
+            // A vendor of C and C++ compilers
+            //
+            // Not to be confused with "Kailh" (switches
+            // for mechanical keyboards)
+            correctionAdd("keil", "Keil");
+
+            // A compiler vendor, e.g. "D"
+            correctionAdd("digital mars", "Digital Mars");
+
+            correctionAdd("Godbolt", "Compiler Explorer");
+            correctionAdd("godbolt", "Compiler Explorer");
+            correctionAdd("Compiler-Explorer", "Compiler Explorer");
+
+            correctionAdd("JIT-compiler", "JIT compiler");
+
+            correctionAdd("GHC", "Glasgow Haskell Compiler");
+            correctionAdd("ghc", "Glasgow Haskell Compiler");
+
+            correctionAdd("SDCC", "Small Device C Compiler");
+            correctionAdd("sdcc", "Small Device C Compiler");
+
+            // A compiler. C, C++, etc.
+            correctionAdd("gcc", "GCC");
+            correctionAdd("Gcc", "GCC");
+            correctionAdd("GNU C Compiler", "GCC");
+            correctionAdd("GNU C compiler", "GCC");
+            correctionAdd("GNUC", "GCC");
+            correctionAdd("GNU c", "GCC");
+            correctionAdd("GNU Compiler Collection", "GCC");
+            correctionAdd("CGG", "GCC");
+
+            correctionAdd("gcc 4.6.1", "GCC 4.6.1 (2011-06-27)");
+
+            correctionAdd("gcc 4.8", "GCC 4.8.0 (2013-03-22)");
+            correctionAdd("GCC 4.8", "GCC 4.8.0 (2013-03-22)");
+
+            correctionAdd("GCC 4.8.3", "GCC 4.8.3 (2014-05-22)");
+            correctionAdd("gcc 4.8.3", "GCC 4.8.3 (2014-05-22)");
+
+            correctionAdd("gcc 7.1.0", "GCC 7.1 (2017-05-02)");
+
+            correctionAdd("g++ 7.4.0", "GCC 7.4 (2018-12-06)");
+            correctionAdd("GCC 7.4", "GCC 7.4 (2018-12-06)");
+            correctionAdd("GCC 7.4.0", "GCC 7.4 (2018-12-06)");
+            correctionAdd("gcc 7.4", "GCC 7.4 (2018-12-06)");
+            correctionAdd("gcc 7.4.0", "GCC 7.4 (2018-12-06)");
+
+            correctionAdd("gcc 10", "GCC 10");
+
+            correctionAdd("gcc 10.1", "GCC 10.1");
+
+            correctionAdd("gcc warning options", "GCC warning options lists");
+            correctionAdd("GCC warning options", "GCC warning options lists");
+            correctionAdd("GCC options", "GCC warning options lists");
+
+            correctionAdd("gcc macOS", "executable 'gcc' on macOS is the Clang compiler, not GCC");
+            correctionAdd("GCC macOS", "executable 'gcc' on macOS is the Clang compiler, not GCC");
+            correctionAdd("executable 'gcc'", "executable 'gcc' on macOS is the Clang compiler, not GCC");
+
+            correctionAdd("exit code 1", "clang: error: linker command failed with exit code 1");
+            correctionAdd("Clang linker signature", "clang: error: linker command failed with exit code 1");
+            correctionAdd("linker command failed with exit code 1", "clang: error: linker command failed with exit code 1");
+
+            correctionAdd("1 exit status", "collect2: error: ld returned 1 exit status");
+            correctionAdd("1 exit", "collect2: error: ld returned 1 exit status");
+            correctionAdd("GCC linker signature", "collect2: error: ld returned 1 exit status");
+
+            // C++
+            correctionAdd("cpprefrence", "cppreference.com");
+            correctionAdd("cppreference", "cppreference.com");
+
+            // C++
+            correctionAdd("MSVC STL", "C++ Standard Library");
+            correctionAdd("libc++", "C++ Standard Library");
+            correctionAdd("libstdc++", "C++ Standard Library");
+
+            // Part of a C++ library
+            correctionAdd("iotream", "iostream");
+
+            // A C++ library
+            correctionAdd("oneTBB", "oneAPI Threading Building Blocks");
+            correctionAdd("TBB", "oneAPI Threading Building Blocks");
+
+            // A compiler. C and C++.
+            correctionAdd("clang", "Clang");
+            correctionAdd("CLANG", "Clang");
+            correctionAdd("CLang", "Clang");
+
+            // A compiler framework, e.g. for C and C++.
+            // Closely related to Clang.
+            correctionAdd("llvm", "LLVM");
+            correctionAdd("LVVM", "LLVM");
+            correctionAdd("lvvm", "LLVM");
+
+            correctionAdd("LLVM Intermediate representation", "LLVM intermediate representation");
+            correctionAdd("LLVM IR", "LLVM intermediate representation");
+
+            correctionAdd("MIR", "mid-level intermediate representation");
+            correctionAdd("Mid-level IR", "mid-level intermediate representation");
+            correctionAdd("mid-level IR", "mid-level intermediate representation");
+
+            correctionAdd("high-level intermediate representation", "HIR");
+            correctionAdd("High-Level Intermediate Representation", "HIR");
+
+            correctionAdd("low-level intermediate representation", "LIR");
+            correctionAdd("Low-level Intermediate Representation", "LIR");
+
+            correctionAdd("multi-level IR", "MLIR");
+            correctionAdd("Multi-Level Intermediate Representation", "MLIR");
+            correctionAdd("multi-level intermediate representation", "MLIR");
+
+            correctionAdd("very low-level intermediate representation", "VLIR");
+            correctionAdd("very low-level IR", "VLIR");
+
+            correctionAdd("Qmake", "qmake");
+            correctionAdd("QMake", "qmake");
+
+            // A build system for C++, etc.
+            correctionAdd("Cmake", "CMake");
+            correctionAdd("cmake", "CMake");
+            correctionAdd("CMAKE", "CMake");
+
+            // CMake
+            correctionAdd("cmakelist", "CMakeLists.txt");
+            correctionAdd("CMakeLists", "CMakeLists.txt");
+            correctionAdd("cmakelists.txt", "CMakeLists.txt");
+            correctionAdd("cmakelists", "CMakeLists.txt");
+            correctionAdd("CMakeList", "CMakeLists.txt");
+            correctionAdd("CMakeList.txt", "CMakeLists.txt");
+            correctionAdd("CMakelists.txt", "CMakeLists.txt");
+
+            // CMake
+            correctionAdd("CmakeCache.txt", "CMakeCache.txt");
+
+            // CMake
+            correctionAdd("cflags", "CFLAGS");
+
+            // CMake
+            correctionAdd("CXX", "CXXFLAGS");
+            correctionAdd("CXX flags", "CXXFLAGS");
+            correctionAdd("cxxflags", "CXXFLAGS");
+
+            // C++ library thingy. Microsoft.
+            correctionAdd("VCPKG", "vcpkg");
+
+            // C++
+            correctionAdd("herb sutter", "Herb Sutter");
+
+            correctionAdd("gMock", "Google Mock");
+            correctionAdd("GMock", "Google Mock");
+            correctionAdd("Google C++ Mocking Framework", "Google Mock");
+            correctionAdd("gmock", "Google Mock");
+
+            // C++
+            correctionAdd("one definition rule", "ODR");
+            correctionAdd("One Definition Rule", "ODR");
+
             // A static code analysis tool for C++, Java, TypeScript,
             // Go, PHP, Ruby, HTML, CSS, T-SQL, VB.NET, XML, etc.
             //
@@ -15472,12 +15691,6 @@ namespace OverflowHelper.core
 
             correctionAdd("cross check", "cross-check");
             correctionAdd("crosscheck", "cross-check");
-
-            // C++
-            correctionAdd("CPPcheck", "Cppcheck");
-            correctionAdd("cppcheck", "Cppcheck");
-            correctionAdd("CPPCheck", "Cppcheck");
-            correctionAdd("CppCheck", "Cppcheck");
 
             correctionAdd(".net", ".NET"); // This does NOT work (lookup fails) with the recent changes!!!
             correctionAdd(".Net", ".NET"); // This does NOT work (lookup fails) with the recent changes!!!
@@ -17448,151 +17661,6 @@ namespace OverflowHelper.core
 
             correctionAdd("inputed", "inputted");
 
-            correctionAdd("BCC", "BPF Compiler Collection");
-            correctionAdd("bcc", "BPF Compiler Collection");
-
-            // A vendor of C and C++ compilers
-            //
-            // Not to be confused with "Kailh" (switches
-            // for mechanical keyboards)
-            correctionAdd("keil", "Keil");
-
-            // A compiler vendor, e.g. "D"
-            correctionAdd("digital mars", "Digital Mars");
-
-            correctionAdd("Godbolt", "Compiler Explorer");
-            correctionAdd("godbolt", "Compiler Explorer");
-            correctionAdd("Compiler-Explorer", "Compiler Explorer");
-
-            correctionAdd("JIT-compiler", "JIT compiler");
-
-            correctionAdd("GHC", "Glasgow Haskell Compiler");
-            correctionAdd("ghc", "Glasgow Haskell Compiler");
-
-            correctionAdd("SDCC", "Small Device C Compiler");
-            correctionAdd("sdcc", "Small Device C Compiler");
-
-            // A compiler. C, C++, etc.
-            correctionAdd("gcc", "GCC");
-            correctionAdd("Gcc", "GCC");
-            correctionAdd("GNU C Compiler", "GCC");
-            correctionAdd("GNU C compiler", "GCC");
-            correctionAdd("GNUC", "GCC");
-            correctionAdd("GNU c", "GCC");
-            correctionAdd("GNU Compiler Collection", "GCC");
-            correctionAdd("CGG", "GCC");
-
-            correctionAdd("gcc 4.6.1", "GCC 4.6.1 (2011-06-27)");
-
-            correctionAdd("gcc 4.8", "GCC 4.8.0 (2013-03-22)");
-            correctionAdd("GCC 4.8", "GCC 4.8.0 (2013-03-22)");
-
-            correctionAdd("GCC 4.8.3", "GCC 4.8.3 (2014-05-22)");
-            correctionAdd("gcc 4.8.3", "GCC 4.8.3 (2014-05-22)");
-
-            correctionAdd("gcc 7.1.0", "GCC 7.1 (2017-05-02)");
-
-            correctionAdd("g++ 7.4.0", "GCC 7.4 (2018-12-06)");
-            correctionAdd("GCC 7.4", "GCC 7.4 (2018-12-06)");
-            correctionAdd("GCC 7.4.0", "GCC 7.4 (2018-12-06)");
-            correctionAdd("gcc 7.4", "GCC 7.4 (2018-12-06)");
-            correctionAdd("gcc 7.4.0", "GCC 7.4 (2018-12-06)");
-
-            correctionAdd("gcc 10", "GCC 10");
-
-            correctionAdd("gcc 10.1", "GCC 10.1");
-
-            correctionAdd("gcc warning options", "GCC warning options lists");
-            correctionAdd("GCC warning options", "GCC warning options lists");
-            correctionAdd("GCC options", "GCC warning options lists");
-
-            correctionAdd("gcc macOS", "executable 'gcc' on macOS is the Clang compiler, not GCC");
-            correctionAdd("GCC macOS", "executable 'gcc' on macOS is the Clang compiler, not GCC");
-            correctionAdd("executable 'gcc'", "executable 'gcc' on macOS is the Clang compiler, not GCC");
-
-            correctionAdd("exit code 1", "clang: error: linker command failed with exit code 1");
-            correctionAdd("Clang linker signature", "clang: error: linker command failed with exit code 1");
-            correctionAdd("linker command failed with exit code 1", "clang: error: linker command failed with exit code 1");
-
-            correctionAdd("1 exit status", "collect2: error: ld returned 1 exit status");
-            correctionAdd("1 exit", "collect2: error: ld returned 1 exit status");
-            correctionAdd("GCC linker signature", "collect2: error: ld returned 1 exit status");
-
-            // C++
-            correctionAdd("cpprefrence", "cppreference.com");
-            correctionAdd("cppreference", "cppreference.com");
-
-            // C++
-            correctionAdd("MSVC STL", "C++ Standard Library");
-            correctionAdd("libc++", "C++ Standard Library");
-            correctionAdd("libstdc++", "C++ Standard Library");
-
-            // Part of a C++ library
-            correctionAdd("iotream", "iostream");
-
-            // A C++ library
-            correctionAdd("oneTBB", "oneAPI Threading Building Blocks");
-            correctionAdd("TBB", "oneAPI Threading Building Blocks");
-
-            // A compiler. C and C++.
-            correctionAdd("clang", "Clang");
-            correctionAdd("CLANG", "Clang");
-            correctionAdd("CLang", "Clang");
-
-            // A compiler framework, e.g. for C and C++.
-            // Closely related to Clang.
-            correctionAdd("llvm", "LLVM");
-            correctionAdd("LVVM", "LLVM");
-            correctionAdd("lvvm", "LLVM");
-
-            correctionAdd("LLVM Intermediate representation", "LLVM intermediate representation");
-            correctionAdd("LLVM IR", "LLVM intermediate representation");
-
-            correctionAdd("MIR", "mid-level intermediate representation");
-            correctionAdd("Mid-level IR", "mid-level intermediate representation");
-            correctionAdd("mid-level IR", "mid-level intermediate representation");
-
-            correctionAdd("high-level intermediate representation", "HIR");
-            correctionAdd("High-Level Intermediate Representation", "HIR");
-
-            correctionAdd("low-level intermediate representation", "LIR");
-            correctionAdd("Low-level Intermediate Representation", "LIR");
-
-            correctionAdd("multi-level IR", "MLIR");
-            correctionAdd("Multi-Level Intermediate Representation", "MLIR");
-            correctionAdd("multi-level intermediate representation", "MLIR");
-
-            correctionAdd("very low-level intermediate representation", "VLIR");
-            correctionAdd("very low-level IR", "VLIR");
-
-            correctionAdd("Qmake", "qmake");
-            correctionAdd("QMake", "qmake");
-
-            // A build system for C++, etc.
-            correctionAdd("Cmake", "CMake");
-            correctionAdd("cmake", "CMake");
-            correctionAdd("CMAKE", "CMake");
-
-            // CMake
-            correctionAdd("cmakelist", "CMakeLists.txt");
-            correctionAdd("CMakeLists", "CMakeLists.txt");
-            correctionAdd("cmakelists.txt", "CMakeLists.txt");
-            correctionAdd("cmakelists", "CMakeLists.txt");
-            correctionAdd("CMakeList", "CMakeLists.txt");
-            correctionAdd("CMakeList.txt", "CMakeLists.txt");
-            correctionAdd("CMakelists.txt", "CMakeLists.txt");
-
-            // CMake
-            correctionAdd("CmakeCache.txt", "CMakeCache.txt");
-
-            // CMake
-            correctionAdd("cflags", "CFLAGS");
-
-            // CMake
-            correctionAdd("CXX", "CXXFLAGS");
-            correctionAdd("CXX flags", "CXXFLAGS");
-            correctionAdd("cxxflags", "CXXFLAGS");
-
             correctionAdd("gnu", "GNU");
             correctionAdd("Gnu", "GNU");
 
@@ -19228,17 +19296,47 @@ namespace OverflowHelper.core
             // A key on a keyboard
             correctionAdd("f5", "F5");
 
+            // A key on a keyboard
+            correctionAdd("Command key", "Apple key");
+            correctionAdd("Cmd key", "Apple key");
+
+            // A command-line tool for Windows
+            correctionAdd("CMDKEY", "cmdkey");
+
+            correctionAdd("digikey", "Digi-Key");
+            correctionAdd("Digikey", "Digi-Key");
+
+            correctionAdd("publically", "publicly");
+            correctionAdd("pubically", "publicly");
+            correctionAdd("publicaly", "publicly");
+            correctionAdd("publictly", "publicly");
+
+            correctionAdd("publics", "public");
+            correctionAdd("puplic", "public");
+            correctionAdd("pulic", "public");
+
+            correctionAdd("publickey", "public key");
+            correctionAdd("pub key", "public key");
+
+            correctionAdd("press key", "Press Key");
+
+            correctionAdd("press keys", "Press Keys");
+
+            correctionAdd("allen key", "Allen key");
+
+            correctionAdd("Ubikey", "YubiKey");
+            correctionAdd("Yubikey", "YubiKey");
+            correctionAdd("Yubico keys", "YubiKey");
+            correctionAdd("Yubico key", "YubiKey");
+            correctionAdd("yubikey", "YubiKey");
+            correctionAdd("Yuebee", "YubiKey");
+
+            correctionAdd("turn-key", "turnkey");
+
+            // A system of (physical) units
             correctionAdd("mks", "MKS");
 
             correctionAdd("MKLINK", "mklink");
-
-            // JavaScript. Web browser
-            correctionAdd("greasemonkey", "Greasemonkey");
-            correctionAdd("grease monkey", "Greasemonkey");
-            correctionAdd("GreaseMonkey", "Greasemonkey");
-            correctionAdd("greasmonkey", "Greasemonkey");
-            correctionAdd("GM", "Greasemonkey");
-            correctionAdd("Grease Monkey", "Greasemonkey");
 
             // Databases
             correctionAdd("fk", "foreign key");
@@ -22742,13 +22840,6 @@ namespace OverflowHelper.core
             correctionAdd("firefox esr", "Firefox ESR");
             correctionAdd("Firefox esr", "Firefox ESR");
             correctionAdd("Firefox-ESR", "Firefox ESR");
-
-            // A suite of programs that used to include the chat
-            // client ChatZilla, e.g. for IRC (but no longer,
-            // despite what the documentation may say).
-            //
-            // Alternative URL: <https://pvm-professionalengineering.blogspot.com/2018/04/using-chatzilla-in-age-of-firefox.html>
-            correctionAdd("Seamonkey", "SeaMonkey");
 
             // A chat client, e.g., for IRC
             correctionAdd("Chatzilla", "ChatZilla");
@@ -28782,9 +28873,6 @@ namespace OverflowHelper.core
             correctionAdd("unnecessraly", "unnecessarily");
             correctionAdd("unecessarily", "unnecessarily");
 
-            correctionAdd("firemonkey", "FireMonkey");
-            correctionAdd("Firemonkey", "FireMonkey");
-
             correctionAdd("Berekeley", "Berkeley");
 
             correctionAdd("Berekeley DB", "Berkeley&nbsp;DB");
@@ -29657,9 +29745,6 @@ namespace OverflowHelper.core
             correctionAdd("What ever", "whatever");
             correctionAdd("whaterver", "whatever");
 
-            correctionAdd("digikey", "Digi-Key");
-            correctionAdd("Digikey", "Digi-Key");
-
             correctionAdd("rs485", "RS-485");
             correctionAdd("Rs485", "RS-485");
             correctionAdd("RS485", "RS-485");
@@ -30204,10 +30289,6 @@ namespace OverflowHelper.core
             correctionAdd("OpenJdk", "OpenJDK");
             correctionAdd("Open Jdk", "OpenJDK");
             correctionAdd("openJdk", "OpenJDK");
-
-            correctionAdd("instanciate", "instantiate");
-            correctionAdd("inatantiate", "instantiate");
-            correctionAdd("instatiate", "instantiate");
 
             correctionAdd("1st", "first");
             correctionAdd("Fist", "first");
@@ -32764,18 +32845,6 @@ namespace OverflowHelper.core
             correctionAdd("well publicized", "well-publicised");
             correctionAdd("well-publicized", "well-publicised");
 
-            correctionAdd("publically", "publicly");
-            correctionAdd("pubically", "publicly");
-            correctionAdd("publicaly", "publicly");
-            correctionAdd("publictly", "publicly");
-
-            correctionAdd("publics", "public");
-            correctionAdd("puplic", "public");
-            correctionAdd("pulic", "public");
-
-            correctionAdd("publickey", "public key");
-            correctionAdd("pub key", "public key");
-
             // A podcast network
             correctionAdd("hackerpublicradio", "Hacker Public Radio");
 
@@ -33537,10 +33606,6 @@ namespace OverflowHelper.core
 
             correctionAdd("mtp", "MTP");
 
-            correctionAdd("press key", "Press Key");
-
-            correctionAdd("press keys", "Press Keys");
-
             correctionAdd("star trek", "Star Trek");
 
             correctionAdd("starbucks", "Starbucks");
@@ -33583,6 +33648,10 @@ namespace OverflowHelper.core
             correctionAdd("emploee", "employee");
             correctionAdd("Employee", "employee");
 
+            correctionAdd("non-employee", "nonemployee");
+            correctionAdd("no employee", "nonemployee");
+            correctionAdd("non employee", "nonemployee");
+
             correctionAdd("excecute", "execute");
             correctionAdd("excute", "execute");
             correctionAdd("exceute", "execute");
@@ -33616,8 +33685,6 @@ namespace OverflowHelper.core
             correctionAdd("monetize", "monetise");
             correctionAdd("monitise", "monetise");
             correctionAdd("Monetise", "monetise");
-
-            correctionAdd("Monkey patching", "monkey patching");
 
             correctionAdd("org", "organisation");
             correctionAdd("organiation", "organisation");
@@ -34984,8 +35051,6 @@ namespace OverflowHelper.core
 
             correctionAdd("shakespearean", "Shakespearean");
 
-            correctionAdd("surveymonkey", "SurveyMonkey");
-
             correctionAdd("ad blocker", "adblocker");
             correctionAdd("ad-blocker", "adblocker");
             correctionAdd("ADBlocker", "adblocker");
@@ -35826,12 +35891,6 @@ namespace OverflowHelper.core
             correctionAdd("vidieo", "video");
             correctionAdd("vidio", "video");
             correctionAdd("Video", "video");
-
-            correctionAdd("tampermonkey", "Tampermonkey");
-            correctionAdd("tamper monkey", "Tampermonkey");
-            correctionAdd("TamperMonkey", "Tampermonkey");
-            correctionAdd("Tamper Monkey", "Tampermonkey");
-            correctionAdd("Tampermokey", "Tampermonkey");
 
             correctionAdd("Bitcoin cash", "Bitcoin Cash");
 
@@ -37800,6 +37859,23 @@ namespace OverflowHelper.core
             correctionAdd("doubble", "double");
             correctionAdd("duble", "double");
 
+            correctionAdd("tripple", "triple");
+            correctionAdd("trippe", "triple");
+
+            correctionAdd("quadruplicate", "quadruple");
+
+            correctionAdd("triplepoint", "triple point");
+
+            correctionAdd("triple-quote", "triple quote");
+
+            correctionAdd("des", "DES");
+
+            correctionAdd("3DES", "Triple DES");
+            correctionAdd("3des", "Triple DES");
+            correctionAdd("3 DES", "Triple DES");
+
+            correctionAdd("tripple checked", "triple checked");
+
             correctionAdd("femenine", "feminine");
 
             correctionAdd("forensic", "forensics");
@@ -38939,11 +39015,6 @@ namespace OverflowHelper.core
             correctionAdd("assocciation", "association");
             correctionAdd("Assocation", "association");
             correctionAdd("assocation", "association");
-
-            correctionAdd("instanciating", "instantiating");
-            correctionAdd("instancing", "instantiating");
-            correctionAdd("Instansiating", "instantiating");
-            correctionAdd("instansiating", "instantiating");
 
             correctionAdd("mows", "moves");
 
@@ -42181,8 +42252,6 @@ namespace OverflowHelper.core
 
             correctionAdd("SWAG", "swag");
 
-            correctionAdd("triplepoint", "triple point");
-
             correctionAdd("un-earn", "unearn");
 
             correctionAdd("beginns", "begins");
@@ -43189,8 +43258,6 @@ namespace OverflowHelper.core
 
             correctionAdd("mockout", "mock out");
 
-            correctionAdd("monkeypatch", "monkey patch");
-
             correctionAdd("Nose", "nose");
 
             correctionAdd("obcession", "obsession");
@@ -44004,8 +44071,6 @@ namespace OverflowHelper.core
 
             correctionAdd("voilated", "violated");
 
-            correctionAdd("allen key", "Allen key");
-
             correctionAdd("bugs bunny", "Bugs Bunny");
 
             correctionAdd("Computer Architecture", "computer architecture");
@@ -44198,9 +44263,6 @@ namespace OverflowHelper.core
             correctionAdd("seding", "sending");
 
             correctionAdd("wild fire", "wildfire");
-
-            correctionAdd("spider monkey", "SpiderMonkey");
-            correctionAdd("spidermonkey", "SpiderMonkey");
 
             correctionAdd("NM", "New Mexico");
 
@@ -44849,12 +44911,6 @@ namespace OverflowHelper.core
             correctionAdd("sterialised", "sterilised");
 
             correctionAdd("world-wide", "worldwide");
-
-            correctionAdd("3DES", "Triple DES");
-            correctionAdd("3des", "Triple DES");
-            correctionAdd("3 DES", "Triple DES");
-
-            correctionAdd("des", "DES");
 
             correctionAdd("contomperary", "contemporary");
 
@@ -49804,8 +49860,6 @@ namespace OverflowHelper.core
             correctionAdd("suppresed", "suppressed");
             correctionAdd("supressed", "suppressed");
 
-            correctionAdd("ViolentMonkey", "Violentmonkey");
-
             correctionAdd("over-zealous", "overzealous");
 
             correctionAdd("eloquence", "Eloquence");
@@ -50259,8 +50313,6 @@ namespace OverflowHelper.core
 
             correctionAdd("promptforcredential", "PromptForCredential");
 
-            correctionAdd("CMDKEY", "cmdkey");
-
             correctionAdd("dbfiddle", "db<>fiddle");
             correctionAdd("DBFIDDLE", "db<>fiddle");
 
@@ -50301,8 +50353,6 @@ namespace OverflowHelper.core
             correctionAdd("envoking", "invoking");
 
             correctionAdd("NETCAT", "netcat");
-
-            correctionAdd("triple-quote", "triple quote");
 
             correctionAdd("answer-er", "answerer");
             correctionAdd("aswere", "answerer");
@@ -50522,8 +50572,6 @@ namespace OverflowHelper.core
             correctionAdd("Hassan", "Kherson");
 
             correctionAdd("mastodon", "Mastodon");
-
-            correctionAdd("instanciation", "instantiation");
 
             correctionAdd("Cameron", "David Cameron");
 
@@ -51398,13 +51446,6 @@ namespace OverflowHelper.core
 
             correctionAdd("koa", "Koa");
 
-            correctionAdd("Ubikey", "YubiKey");
-            correctionAdd("Yubikey", "YubiKey");
-            correctionAdd("Yubico keys", "YubiKey");
-            correctionAdd("Yubico key", "YubiKey");
-            correctionAdd("yubikey", "YubiKey");
-            correctionAdd("Yuebee", "YubiKey");
-
             correctionAdd("famiously", "famously");
             correctionAdd("Famiously", "famously");
 
@@ -51920,11 +51961,6 @@ namespace OverflowHelper.core
             correctionAdd("non-commital", "noncommittal");
 
             correctionAdd("rreplacing", "replacing");
-
-            correctionAdd("tripple", "triple");
-            correctionAdd("trippe", "triple");
-
-            correctionAdd("tripple checked", "triple checked");
 
             correctionAdd("Julia Mono", "JuliaMono");
 
@@ -54386,8 +54422,6 @@ namespace OverflowHelper.core
             correctionAdd("wrist watch", "wristwatch");
             correctionAdd("wrist-watch", "wristwatch");
 
-            correctionAdd("monkey123", "password reuse");
-
             correctionAdd("Wallpaper", "wallpaper");
 
             correctionAdd("zero-one-several principle", "zero one infinity rule");
@@ -54406,8 +54440,6 @@ namespace OverflowHelper.core
             correctionAdd("accoustumed", "accustomed");
 
             correctionAdd("resque", "rescue");
-
-            correctionAdd("turn-key", "turnkey");
 
             correctionAdd("wellcome", "welcome");
 
@@ -55156,12 +55188,6 @@ namespace OverflowHelper.core
 
             correctionAdd("succesor", "successor");
 
-            // C++ library thingy. Microsoft.
-            correctionAdd("VCPKG", "vcpkg");
-
-            // C++
-            correctionAdd("herb sutter", "Herb Sutter");
-
             correctionAdd("plea-bargain", "plea bargain");
             correctionAdd("plea deal", "plea bargain");
 
@@ -55645,11 +55671,6 @@ namespace OverflowHelper.core
 
             correctionAdd("pearpc", "PearPC");
 
-            correctionAdd("gMock", "Google Mock");
-            correctionAdd("GMock", "Google Mock");
-            correctionAdd("Google C++ Mocking Framework", "Google Mock");
-            correctionAdd("gmock", "Google Mock");
-
             correctionAdd("half-hearted", "halfhearted");
             correctionAdd("half hearted", "halfhearted");
 
@@ -55753,27 +55774,13 @@ namespace OverflowHelper.core
 
             correctionAdd("dumbell", "bell");
 
-            correctionAdd("non-employee", "nonemployee");
-            correctionAdd("no employee", "nonemployee");
-            correctionAdd("non employee", "nonemployee");
-
-            correctionAdd("quadruplicate", "quadruple");
-
             correctionAdd("Tough luck", "tough luck");
             correctionAdd("Though luck", "tough luck");
             correctionAdd("though luck", "tough luck");
 
             correctionAdd("joy ride", "joyride");
 
-            correctionAdd("Command key", "Apple key");
-            correctionAdd("Cmd key", "Apple key");
-
             correctionAdd("ICPC", "International Collegiate Programming Contest");
-
-            correctionAdd("one definition rule", "ODR");
-            correctionAdd("One Definition Rule", "ODR");
-
-            correctionAdd("un-instantiated", "uninstantiated");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
