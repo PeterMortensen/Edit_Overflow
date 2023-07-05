@@ -1860,6 +1860,7 @@ namespace OverflowHelper.core
             correctionAdd("ohms laws", "Ohm's law");
             correctionAdd("ohm's laws", "Ohm's law");
             correctionAdd("Ohm’s law", "Ohm's law");
+            correctionAdd("ohm’s law", "Ohm's law");
 
             // Electronics
             correctionAdd("resister", "resistor");
@@ -10948,6 +10949,7 @@ namespace OverflowHelper.core
             correctionAdd("Visual code", "Visual Studio Code");
             correctionAdd("Visusal Studio Code", "Visual Studio Code");
             correctionAdd("visual studio Code", "Visual Studio Code");
+            correctionAdd("visual studios code", "Visual Studio Code");
 
             // Related to Visual Studio Code
             correctionAdd("codium", "VSCodium");
@@ -18625,6 +18627,7 @@ namespace OverflowHelper.core
             //   <https://www.corsair.com/us/en/p/keyboards/ch-9109410-na/k70-rgb-pro-mechanical-gaming-keyboard-with-pbt-double-shot-pro-keycaps-cherry-mx-red-ch-9109410-na>
             //
             correctionAdd("Corsair K70", "Corsair K70 RGB PRO");
+            correctionAdd("K70", "Corsair K70 RGB PRO");
 
             // Bloatware for Corsair keyboards
             //
@@ -18715,6 +18718,7 @@ namespace OverflowHelper.core
             correctionAdd("MP+", "MasterPlus+");
             correctionAdd("Master Plus", "MasterPlus+");
             correctionAdd("master plus", "MasterPlus+");
+            correctionAdd("cooler master plus", "MasterPlus+");
 
             // A manufacturer of mechanical keyboards, etc.
             correctionAdd("razer", "Razer");
@@ -18806,6 +18810,17 @@ namespace OverflowHelper.core
             //
             correctionAdd("sk622", "SK622");
             correctionAdd("Sk622", "SK622");
+
+            // Full-size mechanical keyboard from Cooler Master.
+            // "TTC Low Profile Mechanical Switch".
+            // Wired and wireless (Bluetooth only).
+            // RGB (per-key) lighting.
+            //
+            // Manual:
+            //
+            //   <https://coolermaster.egnyte.com/dd/a2Z2qP3Zq1>
+            //
+            correctionAdd("sk653", "SK653");
 
             // A crippled (65%) mechanical keyboard
             // from Cooler Master. "TTC Mechanical Switch".
@@ -21024,6 +21039,7 @@ namespace OverflowHelper.core
             correctionAdd("CosmosDB", "Azure Cosmos DB");
             correctionAdd("Cosmos DB", "Azure Cosmos DB");
             correctionAdd("DBCosmos", "Azure Cosmos DB");
+            correctionAdd("cosmosdb", "Azure Cosmos DB");
 
             correctionAdd("azure devops", "Azure DevOps");
             correctionAdd("Azure Devops", "Azure DevOps");
@@ -27221,6 +27237,9 @@ namespace OverflowHelper.core
             correctionAdd("third parties", "third-party");
             correctionAdd("Third-Party", "third-party");
             correctionAdd("Third-party", "third-party");
+            correctionAdd("thidpart", "third-party");
+            correctionAdd("thidparty", "third-party");
+            correctionAdd("thirdpart", "third-party");
 
             correctionAdd("B2C", "business-to-consumer");
             correctionAdd("b2c", "business-to-consumer");
@@ -29807,6 +29826,8 @@ namespace OverflowHelper.core
             correctionAdd("accidentically", "accidentally");
             correctionAdd("accidetally", "accidentally");
             correctionAdd("accidentely", "accidentally");
+            correctionAdd("accendentally", "accidentally");
+            correctionAdd("accindentally", "accidentally");
 
             correctionAdd("goood", "good");
             correctionAdd("gud", "good");
@@ -31986,6 +32007,7 @@ namespace OverflowHelper.core
             correctionAdd("eighter", "either");
             correctionAdd("Eiter", "either");
             correctionAdd("eiter", "either");
+            correctionAdd("eother", "either");
 
             correctionAdd("furhter", "further");
             correctionAdd("furter", "further");
@@ -33334,6 +33356,8 @@ namespace OverflowHelper.core
             correctionAdd("transpancy", "transparency");
 
             correctionAdd("pii", "PII");
+            correctionAdd("personally identifiable information", "PII");
+            correctionAdd("Personally Identifiable Information", "PII");
 
             correctionAdd("acct", "account");
             correctionAdd("acount", "account");
@@ -38321,6 +38345,7 @@ namespace OverflowHelper.core
 
             correctionAdd("troubleshoout", "troubleshoot");
             correctionAdd("trouble-shoot", "troubleshoot");
+            correctionAdd("trouble shoot", "troubleshoot");
 
             correctionAdd("which ever", "whichever");
             correctionAdd("Which ever", "whichever");
@@ -54668,6 +54693,7 @@ namespace OverflowHelper.core
             correctionAdd("Bounties", "bounties");
 
             correctionAdd("capabilites", "capabilities");
+            correctionAdd("capabailties", "capabilities");
 
             correctionAdd("cameleonic", "chameleonic");
 
@@ -55726,6 +55752,28 @@ namespace OverflowHelper.core
             correctionAdd("afficiando", "aficionado");
 
             correctionAdd("dumbell", "bell");
+
+            correctionAdd("non-employee", "nonemployee");
+            correctionAdd("no employee", "nonemployee");
+            correctionAdd("non employee", "nonemployee");
+
+            correctionAdd("quadruplicate", "quadruple");
+
+            correctionAdd("Tough luck", "tough luck");
+            correctionAdd("Though luck", "tough luck");
+            correctionAdd("though luck", "tough luck");
+
+            correctionAdd("joy ride", "joyride");
+
+            correctionAdd("Command key", "Apple key");
+            correctionAdd("Cmd key", "Apple key");
+
+            correctionAdd("ICPC", "International Collegiate Programming Contest");
+
+            correctionAdd("one definition rule", "ODR");
+            correctionAdd("One Definition Rule", "ODR");
+
+            correctionAdd("un-instantiated", "uninstantiated");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -85958,6 +86006,24 @@ namespace OverflowHelper.core
 
             URL_Add("SK620", "https://www.coolermaster.com/catalog/peripheral/keyboards/sk620");
 
+            URL_Add("nonemployee", "https://en.wiktionary.org/wiki/nonemployee#Noun");
+
+            URL_Add("quadruple", "https://en.wiktionary.org/wiki/quadruple#Verb");
+
+            URL_Add("tough luck", "https://en.wiktionary.org/wiki/tough_luck#Noun");
+
+            URL_Add("joyride", "https://en.wiktionary.org/wiki/joyride#Noun");
+
+            URL_Add("Apple key", "https://en.wikipedia.org/wiki/Command_key");
+
+            URL_Add("International Collegiate Programming Contest", "https://en.wikipedia.org/wiki/International_Collegiate_Programming_Contest");
+
+            URL_Add("ODR", "https://en.wikipedia.org/wiki/One_Definition_Rule");
+
+            URL_Add("SK653", "https://www.coolermaster.com/catalog/peripheral/keyboards/sk653/");
+
+            URL_Add("uninstantiated", "https://en.wiktionary.org/wiki/uninstantiated#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -86627,6 +86693,33 @@ namespace OverflowHelper.core
             correctionAdd("Artificial Intelligence_", "Artificial&nbsp;Intelligence (Stack Exchange site)_"); // Sort of identity mapping
             correctionAdd("Artificial Intelligence (Stack Exchange site)_", "Artificial&nbsp;Intelligence (Stack Exchange site)_");
             correctionAdd("Artificial&nbsp;Intelligence_", "Artificial&nbsp;Intelligence (Stack Exchange site)_"); // Sort of identity mapping
+
+            correctionAdd("software quality assurance_", "Software&nbsp;Quality&nbsp;Assurance&nbsp;&&nbsp;Testing (Stack Exchange site)_");
+            correctionAdd("Software Quality Assurance & Testing (Stack Exchange site)_", "Software&nbsp;Quality&nbsp;Assurance&nbsp;&&nbsp;Testing (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("Software&nbsp;Quality&nbsp;Assurance&nbsp;&&nbsp;Testing_", "Software&nbsp;Quality&nbsp;Assurance&nbsp;&&nbsp;Testing (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("Software Quality Assurance_", "Software&nbsp;Quality&nbsp;Assurance&nbsp;&&nbsp;Testing (Stack Exchange site)_");
+
+            // Mainly for an alternative URL
+            correctionAdd("stack exchange_", "Stack&nbsp;Exchange_");
+            correctionAdd("Stack Exchange_", "Stack&nbsp;Exchange_"); // Sort of identity mapping"
+            correctionAdd("stackexchange_", "Stack&nbsp;Exchange_");
+            correctionAdd("StackExchange_", "Stack&nbsp;Exchange_");
+            correctionAdd("Stack_", "Stack&nbsp;Exchange_");
+            correctionAdd("Stackexchange_", "Stack&nbsp;Exchange_");
+
+            correctionAdd("SEDE_", "Stack Exchange Data Explorer_");
+
+            correctionAdd("upd_", "Edit: or Update: (bad practice on Stack Overflow)_");
+            correctionAdd("Edit_", "Edit: or Update: (bad practice on Stack Overflow)_");
+            correctionAdd("Upd_", "Edit: or Update: (bad practice on Stack Overflow)_");
+            correctionAdd("edit_", "Edit: or Update: (bad practice on Stack Overflow)_");
+            correctionAdd("historical_", "Edit: or Update: (bad practice on Stack Overflow)_");
+            correctionAdd("EDIT_", "Edit: or Update: (bad practice on Stack Overflow)_");
+
+            // Alternative URL: <https://stackoverflow.com/questions/6751105/why-its-not-possible-to-use-regex-to-parse-html-xml-a-formal-explanation-in-la>
+            //
+            correctionAdd("zalgo_", "Stack Overflow Zalgo answer (regular expressions)_");
+            correctionAdd("Zalgo_", "Stack Overflow Zalgo answer (regular expressions)_");
 
             // Artificial intelligence
             correctionAdd("LORA_", "LoRA_");
@@ -87974,14 +88067,6 @@ namespace OverflowHelper.core
             correctionAdd("chatgpt_", "ChatGPT_");
             correctionAdd("Chat_", "ChatGPT_");
 
-            // Mainly for an alternative URL
-            correctionAdd("stack exchange_", "Stack&nbsp;Exchange_");
-            correctionAdd("Stack Exchange_", "Stack&nbsp;Exchange_"); // Sort of identity mapping"
-            correctionAdd("stackexchange_", "Stack&nbsp;Exchange_");
-            correctionAdd("StackExchange_", "Stack&nbsp;Exchange_");
-            correctionAdd("Stack_", "Stack&nbsp;Exchange_");
-            correctionAdd("Stackexchange_", "Stack&nbsp;Exchange_");
-
             correctionAdd("Resistance_", "resistance_");
 
             correctionAdd("Z shell_", "Z shell in the default shell in macOS v10.15 (Catalina)_");
@@ -88204,8 +88289,6 @@ namespace OverflowHelper.core
 
             correctionAdd("hald_", "half_");
 
-            correctionAdd("SEDE_", "Stack Exchange Data Explorer_");
-
             // Aviation
             //
             // Parent: <https://en.wikipedia.org/wiki/List_of_aviation,_avionics,_aerospace_and_aeronautical_abbreviations#F>
@@ -88361,21 +88444,9 @@ namespace OverflowHelper.core
 
             correctionAdd("VISA_", "Visa_");
 
-            correctionAdd("upd_", "Edit: or Update: (bad practice on Stack Overflow)_");
-            correctionAdd("Edit_", "Edit: or Update: (bad practice on Stack Overflow)_");
-            correctionAdd("Upd_", "Edit: or Update: (bad practice on Stack Overflow)_");
-            correctionAdd("edit_", "Edit: or Update: (bad practice on Stack Overflow)_");
-            correctionAdd("historical_", "Edit: or Update: (bad practice on Stack Overflow)_");
-            correctionAdd("EDIT_", "Edit: or Update: (bad practice on Stack Overflow)_");
-
             correctionAdd("establish_", "established_");
 
             correctionAdd("exist_", "exit_");
-
-            // Alternative URL: <https://stackoverflow.com/questions/6751105/why-its-not-possible-to-use-regex-to-parse-html-xml-a-formal-explanation-in-la>
-            //
-            correctionAdd("zalgo_", "Stack Overflow Zalgo answer (regular expressions)_");
-            correctionAdd("Zalgo_", "Stack Overflow Zalgo answer (regular expressions)_");
 
             correctionAdd("Credentials_", "credentials_");
 
@@ -90021,6 +90092,8 @@ namespace OverflowHelper.core
             URL_Add("laugh_", "https://en.wiktionary.org/wiki/laugh#Noun");
 
             URL_Add("Ext&nbsp;JS_", "https://en.wikipedia.org/wiki/Ext_JS");
+
+            URL_Add("Software&nbsp;Quality&nbsp;Assurance&nbsp;&&nbsp;Testing (Stack Exchange site)_", "https://sqa.stackexchange.com/tour");
 
         } //addLookupData_alternativeWordSet()
 
