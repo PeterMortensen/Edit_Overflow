@@ -10697,6 +10697,7 @@ namespace OverflowHelper.core
             correctionAdd("MathExchange", "Mathematics (Stack Exchange site)");
             correctionAdd("math stackexchange", "Mathematics (Stack Exchange site)");
             correctionAdd("math.se", "Mathematics (Stack Exchange site)");
+            correctionAdd("MathSE", "Mathematics (Stack Exchange site)");
 
             correctionAdd("pets", "Pets (Stack Exchange site)");
             correctionAdd("Pets", "Pets (Stack Exchange site)");
@@ -16602,6 +16603,7 @@ namespace OverflowHelper.core
             correctionAdd("MAC book", "MacBook Pro");
             correctionAdd("MACbook", "MacBook Pro");
             correctionAdd("macpro", "MacBook Pro");
+            correctionAdd("MaBook", "MacBook Pro");
 
             correctionAdd("macbook air", "MacBook Air");
             correctionAdd("Macbook Air", "MacBook Air");
@@ -16629,6 +16631,7 @@ namespace OverflowHelper.core
             correctionAdd("Mac Pro M1", "MacBook Pro M1");
             correctionAdd("MacBook M1 Pro", "MacBook Pro M1");
             correctionAdd("Mac Pro", "MacBook Pro M1");
+            correctionAdd("Macbook M1", "MacBook Pro M1");
 
             correctionAdd("M1 Max", "M1 Max MacBook Pro");
             correctionAdd("M1 max", "M1 Max MacBook Pro");
@@ -17938,6 +17941,7 @@ namespace OverflowHelper.core
             correctionAdd("defintion", "definition");
             correctionAdd("defenition", "definition");
             correctionAdd("definetion", "definition");
+            correctionAdd("Defintion", "definition");
 
             correctionAdd("defs", "definitions");
             correctionAdd("definitionss", "definitions");
@@ -18988,6 +18992,7 @@ namespace OverflowHelper.core
             // Alternative URL: <https://www.youtube.com/watch?v=QDMQH-EoCK8>
             correctionAdd("M3501", "Apple Extended Keyboard II");
             correctionAdd("AEKII", "Apple Extended Keyboard II");
+            correctionAdd("AEK11", "Apple Extended Keyboard II");
 
             // A mechanical keyboard.
             //
@@ -19064,6 +19069,11 @@ namespace OverflowHelper.core
             correctionAdd("sofle", "Sofle keyboard");
 
             // Software for mechanical keyboards (firmware)
+            //
+            // Alternative URL:
+            //
+            //   <https://github.com/qmk/qmk_firmware>
+            //
             correctionAdd("qmk", "QMK");
 
             // 'KP' for keypad (numeric keypad)
@@ -24113,6 +24123,7 @@ namespace OverflowHelper.core
             correctionAdd("Hı", "hi"); // The "i" is U+0131 (LATIN SMALL LETTER DOTLESS I) used in Turkey, etc. (<https://en.wikipedia.org/wiki/Dotless_I>) UTF-8: 304 261 (octal). 0xC4 0xB1 (hexadecimal). <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=300>. It can be searched for using the regular expression \x{0131} ("\u0131" in Visual Studio Code and some others).
             correctionAdd("howdy", "hi");
             correctionAdd("hı", "hi");
+            correctionAdd("HI", "hi");
 
             correctionAdd("DELPHI", "Delphi");
             correctionAdd("delphi", "Delphi");
@@ -27914,6 +27925,8 @@ namespace OverflowHelper.core
             correctionAdd("WhastApp", "WhatsApp");
             correctionAdd("whastapp", "WhatsApp");
             correctionAdd("Whats-App", "WhatsApp");
+            correctionAdd("WhatApp", "WhatsApp");
+            correctionAdd("whatapp", "WhatsApp");
 
             // Currently defunc due to some recent changes!!!
             //  correctionAdd("Textpad++", "Textpad++");
@@ -29702,6 +29715,7 @@ namespace OverflowHelper.core
             correctionAdd("Thankx", "thanks");
             correctionAdd("thankx", "thanks");
             correctionAdd("thank's", "thanks");
+            correctionAdd("Thank's", "thanks");
 
             correctionAdd("collegaue", "colleague");
             correctionAdd("collegue", "colleague");
@@ -39380,6 +39394,7 @@ namespace OverflowHelper.core
             correctionAdd("frsutreated", "frustrated");
             correctionAdd("frustated", "frustrated");
             correctionAdd("fraustrated", "frustrated");
+            correctionAdd("fruustrated", "frustrated");
 
             correctionAdd("mortals", "mere mortals");
 
@@ -39457,6 +39472,10 @@ namespace OverflowHelper.core
 
             correctionAdd("JSLT", "JSTL");
 
+            // Alternative URL: 
+            //
+            //   <https://en.wikipedia.org/wiki/Keycap#Materials>
+            //
             correctionAdd("pbt", "PBT");
 
             correctionAdd("pug", "Pug");
@@ -40073,6 +40092,7 @@ namespace OverflowHelper.core
             correctionAdd("janki", "janky");
 
             correctionAdd("Life", "life");
+            correctionAdd("lyfe", "life");
 
             correctionAdd("misleaded", "misled");
 
@@ -50926,6 +50946,7 @@ namespace OverflowHelper.core
 
             correctionAdd("yeild", "yield");
             correctionAdd("yeld", "yield");
+            correctionAdd("yeald", "yield");
 
             correctionAdd("egyptian", "Egyptian");
 
@@ -55417,6 +55438,7 @@ namespace OverflowHelper.core
             correctionAdd("express herself", "express yourself");
 
             correctionAdd("peridically", "periodically");
+            correctionAdd("periodicly", "periodically");
 
             correctionAdd("Plural", "plural");
 
@@ -55781,6 +55803,22 @@ namespace OverflowHelper.core
             correctionAdd("joy ride", "joyride");
 
             correctionAdd("ICPC", "International Collegiate Programming Contest");
+
+            correctionAdd("coconspirator", "co-conspirator");
+
+            correctionAdd("data driven", "data-driven");
+
+            correctionAdd("4 lyfe", "for life");
+
+            correctionAdd("light speed", "lightspeed");
+
+            correctionAdd("lsited", "listed");
+
+            correctionAdd("over reacted", "overreacted");
+
+            correctionAdd("Sonarcloud", "SonarCloud");
+
+            correctionAdd("10 fold", "tenfold");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -86030,6 +86068,22 @@ namespace OverflowHelper.core
             URL_Add("SK653", "https://www.coolermaster.com/catalog/peripheral/keyboards/sk653/");
 
             URL_Add("uninstantiated", "https://en.wiktionary.org/wiki/uninstantiated#Adjective");
+
+            URL_Add("co-conspirator", "https://en.wiktionary.org/wiki/co-conspirator#Noun");
+
+            URL_Add("data-driven", "https://en.wiktionary.org/wiki/data-driven#Adjective");
+
+            URL_Add("for life", "https://en.wiktionary.org/wiki/for_life#Prepositional_phrase");
+
+            URL_Add("lightspeed", "https://en.wiktionary.org/wiki/lightspeed#Noun");
+
+            URL_Add("listed", "https://en.wiktionary.org/wiki/list#Verb");
+
+            URL_Add("overreacted", "https://en.wiktionary.org/wiki/overreact#Verb");
+
+            URL_Add("SonarCloud", "https://en.wikipedia.org/wiki/SonarSource#Products");
+
+            URL_Add("tenfold", "https://en.wiktionary.org/wiki/tenfold#Adverb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
