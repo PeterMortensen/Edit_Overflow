@@ -3679,10 +3679,6 @@ namespace OverflowHelper.core
 
             correctionAdd("turing test", "Turing test");
 
-            correctionAdd("test flight", "TestFlight");
-            correctionAdd("Testflight", "TestFlight");
-            correctionAdd("testflight", "TestFlight");
-
             correctionAdd("pentest", "penetration test");
             correctionAdd("pen test", "penetration test");
 
@@ -3896,6 +3892,193 @@ namespace OverflowHelper.core
             correctionAdd("flite", "flight");
             correctionAdd("fligth", "flight");
 
+            correctionAdd("test flight", "TestFlight");
+            correctionAdd("Testflight", "TestFlight");
+            correctionAdd("testflight", "TestFlight");
+
+            // A computer game. For Windows.
+            correctionAdd("MS fly simulator", "Microsoft Flight Simulator");
+            correctionAdd("Microsoft flight simulator", "Microsoft Flight Simulator");
+
+            correctionAdd("aviaion", "aviation");
+
+            // Aviation
+            correctionAdd("FL", "flight level");
+
+            // Aviation
+            correctionAdd("flightfath", "flight path");
+
+            // Aviation
+            correctionAdd("flight bans", "flight ban");
+            correctionAdd("flights band", "flight ban");
+            correctionAdd("flights ban", "flight ban");
+
+            // Aviation
+            correctionAdd("EFB", "electronic flight bag");
+
+            // Aviation
+            correctionAdd("pfd", "primary flight display");
+            correctionAdd("PFD", "primary flight display");
+
+            // Aviation
+            correctionAdd("General Aviation", "general aviation");
+
+            // Aviation
+            correctionAdd("Airliner", "airliner");
+
+            // An airliner.
+            //
+            //A duplicate of "airliner"
+            correctionAdd("Airline", "airline");
+
+            // An airliner
+            correctionAdd("Air Lingus", "Aer Lingus");
+
+            // An airliner
+            correctionAdd("air canada", "Air Canada");
+
+            // An airliner
+            correctionAdd("british airways", "British Airways");
+
+            correctionAdd("Air Portugal", "TAP Air Portugal");
+
+            // An airliner
+            correctionAdd("Middle East airlines", "Middle East Airlines");
+
+            // An airliner
+            correctionAdd("united", "United Airlines");
+            correctionAdd("united airlines", "United Airlines");
+
+            // An airliner
+            correctionAdd("virgin atlantic", "Virgin Atlantic");
+
+            // An airline
+            correctionAdd("QANTAS", "Qantas");
+
+            // Aviation
+            correctionAdd("aircrafts", "aircraft");
+            correctionAdd("air craft", "aircraft");
+            correctionAdd("aircarft", "aircraft");
+            correctionAdd("A/C", "aircraft");
+
+            // An aircraft
+            correctionAdd("PA44", "Piper PA-44 Seminole");
+
+            // A type of aircraft
+            correctionAdd("airbus", "Airbus");
+
+            // An aircraft
+            correctionAdd("A220", "Airbus A220");
+
+            // An aircraft
+            correctionAdd("Airbus 319", "Airbus A319");
+            correctionAdd("A319", "Airbus A319");
+
+            // An aircraft
+            correctionAdd("A320", "Airbus A320");
+            correctionAdd("Airbus 320", "Airbus A320");
+            correctionAdd("Airbus a320", "Airbus A320");
+            correctionAdd("a320", "Airbus A320");
+
+            // An aircraft
+            correctionAdd("A330", "Airbus A330");
+            correctionAdd("Airbus 330", "Airbus A330");
+
+            // An aircraft
+            correctionAdd("A350", "Airbus 350");
+
+            // Aviation
+            correctionAdd("A380", "Airbus A380");
+            correctionAdd("a380", "Airbus A380");
+
+            correctionAdd("Boing", "Boeing");
+            correctionAdd("boing", "Boeing");
+            correctionAdd("boeing", "Boeing");
+
+            correctionAdd("737 MAX", "Boeing 737 MAX");
+            correctionAdd("737 Max", "Boeing 737 MAX");
+            correctionAdd("Boeing Max", "Boeing 737 MAX");
+            correctionAdd("Boing Max", "Boeing 737 MAX");
+            correctionAdd("boing max", "Boeing 737 MAX");
+            correctionAdd("737 Maxx", "Boeing 737 MAX");
+            correctionAdd("737-MAX", "Boeing 737 MAX");
+            correctionAdd("737 max", "Boeing 737 MAX");
+
+            // An aircraft
+            correctionAdd("747", "Boeing 747");
+            correctionAdd("B747", "Boeing 747");
+
+            // An aircraft
+            correctionAdd("777", "Boeing 777");
+
+            // An aircraft
+            correctionAdd("Dreamliner", "Boeing 787");
+            correctionAdd("B787", "Boeing 787");
+            correctionAdd("787", "Boeing 787");
+            correctionAdd("Boing 787 Dreamliner", "Boeing 787");
+
+            // An aircraft
+            correctionAdd("DC-8", "Douglas DC-8");
+
+            // An aircraft
+            correctionAdd("PA28", "Piper PA-28 Cherokee");
+            correctionAdd("PA-28", "Piper PA-28 Cherokee");
+
+            // An aircraft
+            correctionAdd("SR-71", "Lockheed SR-71 Blackbird");
+
+            // An aircraft
+            correctionAdd("XB-70", "North American XB-70 Valkyrie");
+
+            // An aircraft
+            correctionAdd("C172", "Cessna 172");
+            correctionAdd("C-172", "Cessna 172");
+
+            // An aircraft
+            correctionAdd("Cessna 180", "Cessna 180 Skywagon");
+
+            // An aircraft
+            correctionAdd("Cessna 206 Turbo", "Cessna 206");
+            correctionAdd("206 Turbo", "Cessna 206");
+
+            // An aircraft
+            correctionAdd("P-38 Lightning", "Lockheed P-38 Lightning");
+            correctionAdd("P 38", "Lockheed P-38 Lightning");
+            correctionAdd("P 38 lightning", "Lockheed P-38 Lightning");
+
+            // Aviation
+            correctionAdd("Airframe and Powerplant", "Aviation Maintenance Technician");
+            correctionAdd("A&P", "Aviation Maintenance Technician");
+
+            // Aviation
+            correctionAdd("Business Jet", "business jet");
+            correctionAdd("Business jet", "business jet");
+
+            // Related to aviation / aircraft
+            correctionAdd("mach", "Mach");
+
+            // Related to aviation / aircraft
+            correctionAdd("transsonic", "transonic");
+
+            // Aviation
+            correctionAdd("enroute", "en route");
+
+            // Aviation
+            correctionAdd("Aero-medical Examiner", "Aviation Medical Examiner");
+            correctionAdd("AME", "Aviation Medical Examiner");
+
+            // Aviation
+            correctionAdd("groundeffect", "ground effect");
+
+            correctionAdd("goddard space flight center", "Goddard Space Flight Center");
+
+            correctionAdd("ISS", "International Space Station");
+
+            correctionAdd("JPL", "Jet Propulsion Laboratory");
+
+            correctionAdd("Deep Space Network", "NASA Deep Space Network");
+            correctionAdd("DSN", "NASA Deep Space Network");
+
             correctionAdd("lite", "light");
             correctionAdd("ligth", "light");
             correctionAdd("ligt", "light");
@@ -3903,22 +4086,58 @@ namespace OverflowHelper.core
             correctionAdd("ligh", "light");
             correctionAdd("LIGTH", "light");
 
+            correctionAdd("light speed", "lightspeed");
+
+            correctionAdd("Speed of light", "speed of light");
+
+            // Alternative URL: <https://en.wikipedia.org/wiki/Faster-than-light>
+            correctionAdd("FTL", "faster-than-light");
+            correctionAdd("Faster Than Light", "faster-than-light");
+            correctionAdd("Faster-Than-Light", "faster-than-light");
+
+            correctionAdd("lightyear", "light year");
+            correctionAdd("light-year", "light year");
+            correctionAdd("ly", "light year");
+            correctionAdd("Light-year", "light year");
+
+            correctionAdd("G ly", "gigalightyear");
+            correctionAdd("Gly", "gigalightyear");
+            correctionAdd("gly", "gigalightyear");
+
+            correctionAdd("kilolight-year", "kilolightyear");
+            correctionAdd("K ly", "kilolightyear");
+            correctionAdd("Kly", "kilolightyear");
+            correctionAdd("kly", "kilolightyear");
+
+            correctionAdd("megalight-year", "megalightyear");
+            correctionAdd("M ly", "megalightyear");
+            correctionAdd("Mly", "megalightyear");
+
+            correctionAdd("lightsail", "light sail");
+
+            correctionAdd("star light", "starlight");
+
+            correctionAdd("daylite", "daylight");
+
             correctionAdd("flash light", "flashlight");
 
-            correctionAdd("light-hearted", "lighthearted");
+            correctionAdd("LED-lightstrip", "LED strip light");
+            correctionAdd("LED lightstrip", "LED strip light");
+
+            correctionAdd("lightbulb", "light bulb");
+
+            correctionAdd("incandescent lightbulb", "incandescent light bulb");
+
+            correctionAdd("backligt", "backlight");
+
+            correctionAdd("gas light", "gaslight");
 
             correctionAdd("Lightning", "lightning");
 
             correctionAdd("Lightning bolt", "lightning bolt");
             correctionAdd("Lightning Bolt", "lightning bolt");
 
-            correctionAdd("lightbox", "Lightbox");
-
-            correctionAdd("highligting", "highlighting");
-            correctionAdd("highligthting", "highlighting");
-            correctionAdd("highlighitng", "highlighting");
-            correctionAdd("high-lighting", "highlighting");
-            correctionAdd("highlihting", "highlighting");
+            correctionAdd("light-hearted", "lighthearted");
 
             correctionAdd("gasligthing", "gaslighting");
             correctionAdd("gas lighting", "gaslighting");
@@ -3929,6 +4148,134 @@ namespace OverflowHelper.core
             correctionAdd("ligthweight", "lightweight");
             correctionAdd("Lightweigth", "lightweight");
             correctionAdd("lightweigth", "lightweight");
+
+            correctionAdd("enlightn", "enlighten");
+
+            correctionAdd("enlightment", "enlightenment");
+
+            correctionAdd("enlightning", "enlightening");
+
+            correctionAdd("hightlight", "highlight");
+            correctionAdd("highligh", "highlight");
+            correctionAdd("higlight", "highlight");
+
+            correctionAdd("highligting", "highlighting");
+            correctionAdd("highligthting", "highlighting");
+            correctionAdd("highlighitng", "highlighting");
+            correctionAdd("high-lighting", "highlighting");
+            correctionAdd("highlihting", "highlighting");
+
+            correctionAdd("highlited", "highlighted");
+            correctionAdd("hightlighted", "highlighted");
+
+            correctionAdd("highlightjs", "Highlight.js");
+            correctionAdd("HighlightJS", "Highlight.js");
+            correctionAdd("highlight.js", "Highlight.js");
+            correctionAdd("hIghlightjs", "Highlight.js");
+            correctionAdd("Highlight.JS", "Highlight.js");
+            correctionAdd("Highlight JS", "Highlight.js");
+            correctionAdd("Highlight", "Highlight.js");
+            correctionAdd("weird syntax highlight", "Highlight.js");
+            correctionAdd("weird syntax highlighter", "Highlight.js");
+            correctionAdd("weird syntax highlighting", "Highlight.js");
+            correctionAdd("the syntax highlighter", "Highlight.js");
+            correctionAdd("the weird syntax highlighter", "Highlight.js");
+            correctionAdd("syntax highlighter", "Highlight.js");
+            correctionAdd("new syntax highlighter", "Highlight.js");
+            correctionAdd("weird syntax", "Highlight.js");
+            correctionAdd("weird formatting", "Highlight.js");
+
+            correctionAdd("syntax highlighitng", "syntax highlighting");
+            correctionAdd("syntax-highlighting", "syntax highlighting");
+            correctionAdd("Syntax highlighting", "syntax highlighting");
+            correctionAdd("Syntax Highlighting", "syntax highlighting");
+
+            correctionAdd("prtime", "PRTime");
+
+            correctionAdd("zoneddatetime", "ZonedDateTime");
+
+            correctionAdd("DST", "daylight saving time");
+            correctionAdd("daylight saving", "daylight saving time");
+
+            // A United States time zone
+            correctionAdd("PDT", "Pacific Daylight Time");
+            correctionAdd("US Pacific DST", "Pacific Daylight Time");
+
+            // A United States time zone
+            correctionAdd("edt", "EDT");
+            correctionAdd("Eastern DST", "EDT");
+            correctionAdd("Eastern Daylight Time", "EDT");
+            correctionAdd("US Eastern DST", "EDT");
+
+            // A United States time zone
+            correctionAdd("est", "EST");
+            correctionAdd("Eastern Time Zone", "EST");
+
+            // A United States time zone
+            correctionAdd("CST", "Central Standard Time");
+
+            // An Indian time zone
+            correctionAdd("IST", "Indian Standard Time");
+
+            correctionAdd("CET", "Central European Time");
+            correctionAdd("cet", "Central European Time");
+
+            correctionAdd("LightTable", "Light Table");
+
+            correctionAdd("ligHTTPd", "lighttpd");
+
+            // Music (classical)
+            correctionAdd("Moonight Sonata", "Moonlight Sonata");
+
+            correctionAdd("romantic music", "Romantic music");
+
+            correctionAdd("baroque", "Baroque music");
+
+            correctionAdd("Classical music", "classical music");
+
+            correctionAdd("Music", "music");
+
+            // Music composer
+            correctionAdd("J. S. Bach", "Johann Sebastian Bach");
+            correctionAdd("Bach", "Johann Sebastian Bach");
+
+            // Music (Bach)
+            //
+            // Not to be confused with "Ode an die Freude" (Beethoven)
+            //
+            // Alternative URL:
+            //   <https://en.wikipedia.org/wiki/Jesu,_Joy_of_Man%27s_Desiring>
+            //
+            correctionAdd("Freude", "\"Jesus bleibet meine Freude\" BWV 147, 10");
+            correctionAdd("147", "\"Jesus bleibet meine Freude\" BWV 147, 10");
+            correctionAdd("BWV 147", "\"Jesus bleibet meine Freude\" BWV 147, 10");
+            correctionAdd("freude", "\"Jesus bleibet meine Freude\" BWV 147, 10"); // A shortcut
+            correctionAdd("BW 147", "\"Jesus bleibet meine Freude\" BWV 147, 10");
+            correctionAdd("bw 147", "\"Jesus bleibet meine Freude\" BWV 147, 10");
+            correctionAdd("bw147", "\"Jesus bleibet meine Freude\" BWV 147, 10");
+            correctionAdd("417", "\"Jesus bleibet meine Freude\" BWV 147, 10");
+            correctionAdd("BWM", "\"Jesus bleibet meine Freude\" BWV 147, 10");
+
+            correctionAdd("sligth", "slight");
+
+            correctionAdd("sligtly", "slightly");
+            correctionAdd("slighty", "slightly");
+            correctionAdd("slighly", "slightly");
+            correctionAdd("Sligtly", "slightly");
+
+            correctionAdd("silverlight", "Silverlight");
+            correctionAdd("sliverlight", "Silverlight"); // Common misspelling...
+            correctionAdd("Sliverlight", "Silverlight"); // Common misspelling...
+            correctionAdd("Silverligt", "Silverlight");
+            correctionAdd("Silvelight", "Silverlight");
+            correctionAdd("Silver light", "Silverlight");
+            correctionAdd("siverlight", "Silverlight");
+            correctionAdd("solverlight", "Silverlight"); // Misspelling...
+            correctionAdd("SIlverlight", "Silverlight");
+            correctionAdd("silver light", "Silverlight");
+            correctionAdd("SilverLight", "Silverlight");
+
+            correctionAdd("lightbox", "Lightbox");
 
             correctionAdd("sattelite", "satellite");
             correctionAdd("satelite", "satellite");
@@ -3944,18 +4291,6 @@ namespace OverflowHelper.core
 
             correctionAdd("fire fighting", "firefighting");
             correctionAdd("fire-fighting", "firefighting");
-
-            correctionAdd("silverlight", "Silverlight");
-            correctionAdd("sliverlight", "Silverlight"); // Common misspelling...
-            correctionAdd("Sliverlight", "Silverlight"); // Common misspelling...
-            correctionAdd("Silverligt", "Silverlight");
-            correctionAdd("Silvelight", "Silverlight");
-            correctionAdd("Silver light", "Silverlight");
-            correctionAdd("siverlight", "Silverlight");
-            correctionAdd("solverlight", "Silverlight"); // Misspelling...
-            correctionAdd("SIlverlight", "Silverlight");
-            correctionAdd("silver light", "Silverlight");
-            correctionAdd("SilverLight", "Silverlight");
 
             correctionAdd("catholic", "Catholic");
 
@@ -4099,38 +4434,8 @@ namespace OverflowHelper.core
             correctionAdd("Space Time", "spacetime");
             correctionAdd("Space-Time", "spacetime");
 
-            correctionAdd("DST", "daylight saving time");
-            correctionAdd("daylight saving", "daylight saving time");
-
             correctionAdd("quicktime", "QuickTime");
             correctionAdd("Quicktime", "QuickTime");
-
-            correctionAdd("prtime", "PRTime");
-
-            correctionAdd("zoneddatetime", "ZonedDateTime");
-
-            // A United States time zone
-            correctionAdd("PDT", "Pacific Daylight Time");
-            correctionAdd("US Pacific DST", "Pacific Daylight Time");
-
-            // A United States time zone
-            correctionAdd("edt", "EDT");
-            correctionAdd("Eastern DST", "EDT");
-            correctionAdd("Eastern Daylight Time", "EDT");
-            correctionAdd("US Eastern DST", "EDT");
-
-            // A United States time zone
-            correctionAdd("est", "EST");
-            correctionAdd("Eastern Time Zone", "EST");
-
-            // A United States time zone
-            correctionAdd("CST", "Central Standard Time");
-
-            // An Indian time zone
-            correctionAdd("IST", "Indian Standard Time");
-
-            correctionAdd("CET", "Central European Time");
-            correctionAdd("cet", "Central European Time");
 
             correctionAdd("Jit", "JIT");
             correctionAdd("jit", "JIT");
@@ -4785,6 +5090,20 @@ namespace OverflowHelper.core
             correctionAdd("WFH", "working from home");
 
             correctionAdd("webwork", "WebWork");
+
+            correctionAdd("listenning", "listening");
+            correctionAdd("listerning", "listening");
+            correctionAdd("Listenting", "listening");
+            correctionAdd("listenting", "listening");
+            correctionAdd("listeting", "listening");
+
+            correctionAdd("listner", "listener");
+
+            correctionAdd("lsited", "listed");
+
+            correctionAdd("List Comprehension", "list comprehension");
+            correctionAdd("List comprehension", "list comprehension");
+            correctionAdd("listcomp", "list comprehension");
 
             // A text editor
             correctionAdd("emacs", "Emacs");
@@ -7412,8 +7731,6 @@ namespace OverflowHelper.core
             correctionAdd("table of contens", "TOC");
             correctionAdd("table of contents", "TOC");
 
-            correctionAdd("LightTable", "Light Table");
-
             correctionAdd("Periodic Table", "periodic table");
 
             correctionAdd("lut", "lookup table");
@@ -8493,10 +8810,6 @@ namespace OverflowHelper.core
             // A game
             correctionAdd("tower of hanoi", "Tower of Hanoi");
 
-            // A computer game. For Windows.
-            correctionAdd("MS fly simulator", "Microsoft Flight Simulator");
-            correctionAdd("Microsoft flight simulator", "Microsoft Flight Simulator");
-
             // A computer game
             correctionAdd("Skyrim", "The Elder Scrolls V: Skyrim");
             correctionAdd("skyrim", "The Elder Scrolls V: Skyrim");
@@ -8723,7 +9036,25 @@ namespace OverflowHelper.core
 
             correctionAdd("john resig", "John Resig");
 
+            correctionAdd("Life", "life");
+            correctionAdd("lyfe", "life");
+
+            correctionAdd("4 lyfe", "for life");
+
+            correctionAdd("real life", "real-life");
+
+            correctionAdd("shelf-life", "shelf life");
+
+            correctionAdd("wild life", "wildlife");
+
+            correctionAdd("extra terrestrial life", "extraterrestrial life");
+
+            correctionAdd("QoL", "quality of life");
+
             correctionAdd("game of life", "Game of Life");
+
+            correctionAdd("BDFL", "benevolent dictator for life");
+            correctionAdd("BDfL", "benevolent dictator for life");
 
             correctionAdd("game play", "gameplay");
             correctionAdd("game-play", "gameplay");
@@ -8977,160 +9308,6 @@ namespace OverflowHelper.core
             correctionAdd("Sharpkeys", "SharpKeys");
 
             correctionAdd("airmolecule", "air molecule");
-
-            correctionAdd("aviaion", "aviation");
-
-            // Aviation
-            correctionAdd("General Aviation", "general aviation");
-
-            // Aviation
-            correctionAdd("Airliner", "airliner");
-
-            // An airliner.
-            //
-            //A duplicate of "airliner"
-            correctionAdd("Airline", "airline");
-
-            // An airliner
-            correctionAdd("Air Lingus", "Aer Lingus");
-
-            // An airliner
-            correctionAdd("air canada", "Air Canada");
-
-            // An airliner
-            correctionAdd("british airways", "British Airways");
-
-            correctionAdd("Air Portugal", "TAP Air Portugal");
-
-            // An airliner
-            correctionAdd("Middle East airlines", "Middle East Airlines");
-
-            // An airliner
-            correctionAdd("united", "United Airlines");
-            correctionAdd("united airlines", "United Airlines");
-
-            // An airliner
-            correctionAdd("virgin atlantic", "Virgin Atlantic");
-
-            // An airline
-            correctionAdd("QANTAS", "Qantas");
-
-            // Aviation
-            correctionAdd("aircrafts", "aircraft");
-            correctionAdd("air craft", "aircraft");
-            correctionAdd("aircarft", "aircraft");
-            correctionAdd("A/C", "aircraft");
-
-            // An aircraft
-            correctionAdd("PA44", "Piper PA-44 Seminole");
-
-            // A type of aircraft
-            correctionAdd("airbus", "Airbus");
-
-            // An aircraft
-            correctionAdd("A220", "Airbus A220");
-
-            // An aircraft
-            correctionAdd("Airbus 319", "Airbus A319");
-            correctionAdd("A319", "Airbus A319");
-
-            // An aircraft
-            correctionAdd("A320", "Airbus A320");
-            correctionAdd("Airbus 320", "Airbus A320");
-            correctionAdd("Airbus a320", "Airbus A320");
-            correctionAdd("a320", "Airbus A320");
-
-            // An aircraft
-            correctionAdd("A330", "Airbus A330");
-            correctionAdd("Airbus 330", "Airbus A330");
-
-            // An aircraft
-            correctionAdd("A350", "Airbus 350");
-
-            // Aviation
-            correctionAdd("A380", "Airbus A380");
-            correctionAdd("a380", "Airbus A380");
-
-            correctionAdd("Boing", "Boeing");
-            correctionAdd("boing", "Boeing");
-            correctionAdd("boeing", "Boeing");
-
-            correctionAdd("737 MAX", "Boeing 737 MAX");
-            correctionAdd("737 Max", "Boeing 737 MAX");
-            correctionAdd("Boeing Max", "Boeing 737 MAX");
-            correctionAdd("Boing Max", "Boeing 737 MAX");
-            correctionAdd("boing max", "Boeing 737 MAX");
-            correctionAdd("737 Maxx", "Boeing 737 MAX");
-            correctionAdd("737-MAX", "Boeing 737 MAX");
-            correctionAdd("737 max", "Boeing 737 MAX");
-
-            // An aircraft
-            correctionAdd("747", "Boeing 747");
-            correctionAdd("B747", "Boeing 747");
-
-            // An aircraft
-            correctionAdd("777", "Boeing 777");
-
-            // An aircraft
-            correctionAdd("Dreamliner", "Boeing 787");
-            correctionAdd("B787", "Boeing 787");
-            correctionAdd("787", "Boeing 787");
-            correctionAdd("Boing 787 Dreamliner", "Boeing 787");
-
-            // An aircraft
-            correctionAdd("DC-8", "Douglas DC-8");
-
-            // An aircraft
-            correctionAdd("PA28", "Piper PA-28 Cherokee");
-            correctionAdd("PA-28", "Piper PA-28 Cherokee");
-
-            // An aircraft
-            correctionAdd("SR-71", "Lockheed SR-71 Blackbird");
-
-            // An aircraft
-            correctionAdd("XB-70", "North American XB-70 Valkyrie");
-
-            // An aircraft
-            correctionAdd("C172", "Cessna 172");
-            correctionAdd("C-172", "Cessna 172");
-
-            // An aircraft
-            correctionAdd("Cessna 180", "Cessna 180 Skywagon");
-
-            // An aircraft
-            correctionAdd("Cessna 206 Turbo", "Cessna 206");
-            correctionAdd("206 Turbo", "Cessna 206");
-
-            // An aircraft
-            correctionAdd("P-38 Lightning", "Lockheed P-38 Lightning");
-            correctionAdd("P 38", "Lockheed P-38 Lightning");
-            correctionAdd("P 38 lightning", "Lockheed P-38 Lightning");
-
-            // Aviation
-            correctionAdd("FL", "flight level");
-
-            // Aviation
-            correctionAdd("Airframe and Powerplant", "Aviation Maintenance Technician");
-            correctionAdd("A&P", "Aviation Maintenance Technician");
-
-            // Aviation
-            correctionAdd("Business Jet", "business jet");
-            correctionAdd("Business jet", "business jet");
-
-            // Related to aviation / aircraft
-            correctionAdd("mach", "Mach");
-
-            // Related to aviation / aircraft
-            correctionAdd("transsonic", "transonic");
-
-            // Aviation
-            correctionAdd("enroute", "en route");
-
-            correctionAdd("Aero-medical Examiner", "Aviation Medical Examiner");
-            correctionAdd("AME", "Aviation Medical Examiner");
-
-            // Aviation
-            correctionAdd("groundeffect", "ground effect");
 
             correctionAdd("NYSE", "New York Stock Exchange");
 
@@ -12197,8 +12374,6 @@ namespace OverflowHelper.core
             correctionAdd("xPath", "XPath");
 
             correctionAdd("psycopath", "psychopath");
-
-            correctionAdd("flightfath", "flight path");
 
             correctionAdd("copiying", "copying");
             correctionAdd("cupying", "copying");
@@ -24016,8 +24191,6 @@ namespace OverflowHelper.core
             correctionAdd("ngnix", "nginx");
             correctionAdd("NGinx", "nginx");
 
-            correctionAdd("ligHTTPd", "lighttpd");
-
             correctionAdd("guid", "GUID");
             correctionAdd("Guid", "GUID");
             correctionAdd("Guide", "GUID");
@@ -26053,38 +26226,6 @@ namespace OverflowHelper.core
             correctionAdd("cherrypick", "cherry-pick");
             correctionAdd("cherry pick", "cherry-pick");
 
-            // Music (classical)
-            correctionAdd("Moonight Sonata", "Moonlight Sonata");
-
-            correctionAdd("romantic music", "Romantic music");
-
-            correctionAdd("baroque", "Baroque music");
-
-            correctionAdd("Classical music", "classical music");
-
-            correctionAdd("Music", "music");
-
-            // Music composer
-            correctionAdd("J. S. Bach", "Johann Sebastian Bach");
-            correctionAdd("Bach", "Johann Sebastian Bach");
-
-            // Music (Bach)
-            //
-            // Not to be confused with "Ode an die Freude" (Beethoven)
-            //
-            // Alternative URL:
-            //   <https://en.wikipedia.org/wiki/Jesu,_Joy_of_Man%27s_Desiring>
-            //
-            correctionAdd("Freude", "\"Jesus bleibet meine Freude\" BWV 147, 10");
-            correctionAdd("147", "\"Jesus bleibet meine Freude\" BWV 147, 10");
-            correctionAdd("BWV 147", "\"Jesus bleibet meine Freude\" BWV 147, 10");
-            correctionAdd("freude", "\"Jesus bleibet meine Freude\" BWV 147, 10"); // A shortcut
-            correctionAdd("BW 147", "\"Jesus bleibet meine Freude\" BWV 147, 10");
-            correctionAdd("bw 147", "\"Jesus bleibet meine Freude\" BWV 147, 10");
-            correctionAdd("bw147", "\"Jesus bleibet meine Freude\" BWV 147, 10");
-            correctionAdd("417", "\"Jesus bleibet meine Freude\" BWV 147, 10");
-            correctionAdd("BWM", "\"Jesus bleibet meine Freude\" BWV 147, 10");
-
             correctionAdd("non-mechanical", "nonmechanical");
             correctionAdd("non mechanical", "nonmechanical");
 
@@ -27847,23 +27988,6 @@ namespace OverflowHelper.core
 
             correctionAdd("heart-breaking", "heartbreaking");
             correctionAdd("heart breaking", "heartbreaking");
-
-            correctionAdd("goddard space flight center", "Goddard Space Flight Center");
-
-            correctionAdd("ISS", "International Space Station");
-
-            correctionAdd("JPL", "Jet Propulsion Laboratory");
-
-            correctionAdd("Deep Space Network", "NASA Deep Space Network");
-            correctionAdd("DSN", "NASA Deep Space Network");
-
-            correctionAdd("highlited", "highlighted");
-            correctionAdd("hightlighted", "highlighted");
-
-            correctionAdd("sligtly", "slightly");
-            correctionAdd("slighty", "slightly");
-            correctionAdd("slighly", "slightly");
-            correctionAdd("Sligtly", "slightly");
 
             correctionAdd("Loc", "LOC");
             correctionAdd("loc", "LOC");
@@ -37468,8 +37592,6 @@ namespace OverflowHelper.core
 
             correctionAdd("concact", "contact");
 
-            correctionAdd("gas light", "gaslight");
-
             correctionAdd("here doc", "heredoc");
             correctionAdd("Heredoc", "heredoc");
             correctionAdd("heredocs", "heredoc");
@@ -37924,8 +38046,6 @@ namespace OverflowHelper.core
 
             correctionAdd("gorgeious", "gorgeous");
 
-            correctionAdd("lightbulb", "light bulb");
-
             correctionAdd("quickiest", "quickest");
 
             correctionAdd("Kiddie Scripter", "script kiddie");
@@ -37958,24 +38078,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Gy", "gigayear");
             correctionAdd("Gigayear", "gigayear");
-
-            correctionAdd("lightyear", "light year");
-            correctionAdd("light-year", "light year");
-            correctionAdd("ly", "light year");
-            correctionAdd("Light-year", "light year");
-
-            correctionAdd("G ly", "gigalightyear");
-            correctionAdd("Gly", "gigalightyear");
-            correctionAdd("gly", "gigalightyear");
-
-            correctionAdd("kilolight-year", "kilolightyear");
-            correctionAdd("K ly", "kilolightyear");
-            correctionAdd("Kly", "kilolightyear");
-            correctionAdd("kly", "kilolightyear");
-
-            correctionAdd("megalight-year", "megalightyear");
-            correctionAdd("M ly", "megalightyear");
-            correctionAdd("Mly", "megalightyear");
 
             correctionAdd("open doc", "OpenDoc");
             correctionAdd("opendoc", "OpenDoc");
@@ -39472,7 +39574,7 @@ namespace OverflowHelper.core
 
             correctionAdd("JSLT", "JSTL");
 
-            // Alternative URL: 
+            // Alternative URL:
             //
             //   <https://en.wikipedia.org/wiki/Keycap#Materials>
             //
@@ -39785,9 +39887,11 @@ namespace OverflowHelper.core
 
             correctionAdd("lifeboat", "Lifeboat badge");
 
+            // Stack Exchange / Stack Overflow
             correctionAdd("Enlightened", "Enlightened badge");
             correctionAdd("enlightened badge", "Enlightened badge");
 
+            // Stack Exchange / Stack Overflow
             correctionAdd("socratic badge", "Socratic badge");
 
             correctionAdd("ennineered", "engineered");
@@ -40090,9 +40194,6 @@ namespace OverflowHelper.core
             correctionAdd("hand full", "handful");
 
             correctionAdd("janki", "janky");
-
-            correctionAdd("Life", "life");
-            correctionAdd("lyfe", "life");
 
             correctionAdd("misleaded", "misled");
 
@@ -40592,9 +40693,6 @@ namespace OverflowHelper.core
 
             correctionAdd("spliting", "splitting");
 
-            correctionAdd("BDFL", "benevolent dictator for life");
-            correctionAdd("BDfL", "benevolent dictator for life");
-
             correctionAdd("Linguistics", "linguistics");
 
             correctionAdd("Microgravity", "microgravity");
@@ -40763,23 +40861,6 @@ namespace OverflowHelper.core
             correctionAdd("soure", "source");
 
             correctionAdd("BABYLON", "Babylon");
-
-            correctionAdd("highlightjs", "Highlight.js");
-            correctionAdd("HighlightJS", "Highlight.js");
-            correctionAdd("highlight.js", "Highlight.js");
-            correctionAdd("hIghlightjs", "Highlight.js");
-            correctionAdd("Highlight.JS", "Highlight.js");
-            correctionAdd("Highlight JS", "Highlight.js");
-            correctionAdd("Highlight", "Highlight.js");
-            correctionAdd("weird syntax highlight", "Highlight.js");
-            correctionAdd("weird syntax highlighter", "Highlight.js");
-            correctionAdd("weird syntax highlighting", "Highlight.js");
-            correctionAdd("the syntax highlighter", "Highlight.js");
-            correctionAdd("the weird syntax highlighter", "Highlight.js");
-            correctionAdd("syntax highlighter", "Highlight.js");
-            correctionAdd("new syntax highlighter", "Highlight.js");
-            correctionAdd("weird syntax", "Highlight.js");
-            correctionAdd("weird formatting", "Highlight.js");
 
             correctionAdd("postet", "posted");
             correctionAdd("psoted", "posted");
@@ -41002,10 +41083,6 @@ namespace OverflowHelper.core
             correctionAdd("anomoly", "anomaly");
 
             correctionAdd("detrement", "detriment");
-
-            correctionAdd("hightlight", "highlight");
-            correctionAdd("highligh", "highlight");
-            correctionAdd("higlight", "highlight");
 
             correctionAdd("modifiy", "modify");
             correctionAdd("modificate", "modify");
@@ -43156,8 +43233,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Central Limit Theorem", "central limit theorem");
 
-            correctionAdd("enlightn", "enlighten");
-
             correctionAdd("porpouse", "purpose");
             correctionAdd("porpuse", "purpose");
             correctionAdd("putpose", "purpose");
@@ -43198,11 +43273,6 @@ namespace OverflowHelper.core
             correctionAdd("miss interpret", "misinterpret");
             correctionAdd("misinterpet", "misinterpret");
             correctionAdd("misinterprete", "misinterpret");
-
-            correctionAdd("syntax highlighitng", "syntax highlighting");
-            correctionAdd("syntax-highlighting", "syntax highlighting");
-            correctionAdd("Syntax highlighting", "syntax highlighting");
-            correctionAdd("Syntax Highlighting", "syntax highlighting");
 
             correctionAdd("thorwing", "throwing");
             correctionAdd("Thowing", "throwing");
@@ -43533,8 +43603,6 @@ namespace OverflowHelper.core
             correctionAdd("under paid", "underpaid");
 
             correctionAdd("valus", "values");
-
-            correctionAdd("backligt", "backlight");
 
             correctionAdd("disguested", "disgusted");
 
@@ -44266,10 +44334,6 @@ namespace OverflowHelper.core
             correctionAdd("effeciency", "efficiency");
 
             correctionAdd("evidense", "evidence");
-
-            correctionAdd("flight bans", "flight ban");
-            correctionAdd("flights band", "flight ban");
-            correctionAdd("flights ban", "flight ban");
 
             correctionAdd("foriner", "foreigner");
 
@@ -45473,12 +45537,6 @@ namespace OverflowHelper.core
             correctionAdd("industrial strength", "industrial-strength");
             correctionAdd("industrial grade", "industrial-strength");
 
-            correctionAdd("listenning", "listening");
-            correctionAdd("listerning", "listening");
-            correctionAdd("Listenting", "listening");
-            correctionAdd("listenting", "listening");
-            correctionAdd("listeting", "listening");
-
             correctionAdd("star", "start");
             correctionAdd("Start", "start");
             correctionAdd("Star", "start");
@@ -45777,8 +45835,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Baryonic", "baryonic");
 
-            correctionAdd("enlightment", "enlightenment");
-
             correctionAdd("gardient", "gradient");
 
             correctionAdd("oled", "OLED");
@@ -45790,8 +45846,6 @@ namespace OverflowHelper.core
             correctionAdd("randomply", "randomly");
 
             correctionAdd("seqences", "sequences");
-
-            correctionAdd("star light", "starlight");
 
             correctionAdd("Joule Thief", "Joule thief");
 
@@ -46138,8 +46192,6 @@ namespace OverflowHelper.core
 
             correctionAdd("realeased", "released");
 
-            correctionAdd("Speed of light", "speed of light");
-
             correctionAdd("BC Canada", "British Columbia, Canada");
 
             correctionAdd("definies", "defines");
@@ -46209,8 +46261,6 @@ namespace OverflowHelper.core
             correctionAdd("unices", "Unices");
 
             correctionAdd("intensional", "intentional");
-
-            correctionAdd("lightsail", "light sail");
 
             correctionAdd("Multi-platform", "multi-platform");
             correctionAdd("Multi platform", "multi-platform");
@@ -46360,8 +46410,6 @@ namespace OverflowHelper.core
             correctionAdd("dart-pad", "DartPad");
 
             correctionAdd("Constitutionally", "constitutionally");
-
-            correctionAdd("listner", "listener");
 
             correctionAdd("Science", "science");
 
@@ -47002,10 +47050,6 @@ namespace OverflowHelper.core
             correctionAdd("corellation", "correlation");
             correctionAdd("correlaton", "correlation");
 
-            correctionAdd("List Comprehension", "list comprehension");
-            correctionAdd("List comprehension", "list comprehension");
-            correctionAdd("listcomp", "list comprehension");
-
             correctionAdd("over complicate", "overcomplicate");
 
             correctionAdd("precendence", "precedence");
@@ -47500,8 +47544,6 @@ namespace OverflowHelper.core
             correctionAdd("Connnects", "connects");
             correctionAdd("connnects", "connects");
             correctionAdd("conects", "connects");
-
-            correctionAdd("enlightning", "enlightening");
 
             correctionAdd("microservice", "microservices");
             correctionAdd("Microservices", "microservices");
@@ -48733,8 +48775,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Cocaine", "cocaine");
 
-            correctionAdd("extra terrestrial life", "extraterrestrial life");
-
             correctionAdd("finih", "finish");
 
             correctionAdd("Geometric", "geometric");
@@ -48750,8 +48790,6 @@ namespace OverflowHelper.core
             correctionAdd("Nicotine", "nicotine");
 
             correctionAdd("Probabilistic", "probabilistic");
-
-            correctionAdd("wild life", "wildlife");
 
             correctionAdd("web 2.0", "Web 2.0");
 
@@ -48777,8 +48815,6 @@ namespace OverflowHelper.core
 
             correctionAdd("naturaly", "naturally");
             correctionAdd("naturely", "naturally");
-
-            correctionAdd("shelf-life", "shelf life");
 
             correctionAdd("sub-optimal", "suboptimal");
 
@@ -49148,8 +49184,6 @@ namespace OverflowHelper.core
 
             correctionAdd("paranoya", "paranoia");
 
-            correctionAdd("real life", "real-life");
-
             correctionAdd("staid", "stayed");
 
             correctionAdd("tie-break", "tiebreak");
@@ -49388,9 +49422,6 @@ namespace OverflowHelper.core
             correctionAdd("pre-trained", "pretrained");
 
             correctionAdd("reminader", "reminder");
-
-            correctionAdd("LED-lightstrip", "LED strip light");
-            correctionAdd("LED lightstrip", "LED strip light");
 
             correctionAdd("came in mind", "came to mind");
 
@@ -50109,8 +50140,6 @@ namespace OverflowHelper.core
             correctionAdd("collapseable", "collapsible");
 
             correctionAdd("descent", "decent");
-
-            correctionAdd("EFB", "electronic flight bag");
 
             correctionAdd("falacy", "fallacy");
 
@@ -51309,8 +51338,6 @@ namespace OverflowHelper.core
 
             correctionAdd("there after", "thereafter");
             correctionAdd("There after", "thereafter");
-
-            correctionAdd("daylite", "daylight");
 
             correctionAdd("exiftool", "ExifTool");
 
@@ -53142,8 +53169,6 @@ namespace OverflowHelper.core
 
             correctionAdd("protractor", "Protractor");
 
-            correctionAdd("QoL", "quality of life");
-
             correctionAdd("rankmath", "Rank Math");
 
             correctionAdd("submited", "submitted");
@@ -53704,8 +53729,6 @@ namespace OverflowHelper.core
             correctionAdd("Faced", "faced");
 
             correctionAdd("fanrtastic", "fantastic");
-
-            correctionAdd("incandescent lightbulb", "incandescent light bulb");
 
             correctionAdd("Integrating", "integrating");
 
@@ -54380,11 +54403,6 @@ namespace OverflowHelper.core
             correctionAdd("bi-partisan", "bipartisan");
             correctionAdd("bi partisan", "bipartisan");
 
-            // Alternative URL: <https://en.wikipedia.org/wiki/Faster-than-light>
-            correctionAdd("FTL", "faster-than-light");
-            correctionAdd("Faster Than Light", "faster-than-light");
-            correctionAdd("Faster-Than-Light", "faster-than-light");
-
             correctionAdd("Open Source Intelligence", "open-source intelligence");
 
             correctionAdd("space-faring", "spacefaring");
@@ -54690,8 +54708,6 @@ namespace OverflowHelper.core
             correctionAdd("pre specified", "prespecified");
 
             correctionAdd("reherse", "rehearse");
-
-            correctionAdd("sligth", "slight");
 
             // Homework help
             correctionAdd("chegg", "Chegg");
@@ -55599,9 +55615,6 @@ namespace OverflowHelper.core
             correctionAdd("colatteral", "collateral");
             correctionAdd("colateral", "collateral");
 
-            correctionAdd("pfd", "primary flight display");
-            correctionAdd("PFD", "primary flight display");
-
             correctionAdd("to the best of my knowledge", "to my knowledge");
             correctionAdd("In my knowledge", "to my knowledge");
             correctionAdd("To my knowledge", "to my knowledge");
@@ -55807,12 +55820,6 @@ namespace OverflowHelper.core
             correctionAdd("coconspirator", "co-conspirator");
 
             correctionAdd("data driven", "data-driven");
-
-            correctionAdd("4 lyfe", "for life");
-
-            correctionAdd("light speed", "lightspeed");
-
-            correctionAdd("lsited", "listed");
 
             correctionAdd("over reacted", "overreacted");
 
