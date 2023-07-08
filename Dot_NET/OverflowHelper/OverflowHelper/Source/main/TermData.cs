@@ -17868,6 +17868,7 @@ namespace OverflowHelper.core
             correctionAdd("re-input", "reinput");
 
             correctionAdd("inputed", "inputted");
+            correctionAdd("imputed", "inputted");
 
             correctionAdd("gnu", "GNU");
             correctionAdd("Gnu", "GNU");
@@ -19038,7 +19039,7 @@ namespace OverflowHelper.core
 
             // A full-size mechanical keyboard from Cooler Master
             //
-            // Manual: 
+            // Manual:
             //
             //   <https://coolermaster.egnyte.com/dd/I0a0WVtSm3/>
             //
@@ -19053,7 +19054,7 @@ namespace OverflowHelper.core
             //     CK550
             //
             //     Manual: <https://coolermaster.egnyte.com/dd/A6sEDv3ceH>
-            //            
+            //
             correctionAdd("CK550", "CK550 V2");
             correctionAdd("CK-550", "CK550 V2");
             correctionAdd("ck550", "CK550 V2");
@@ -25413,6 +25414,7 @@ namespace OverflowHelper.core
             correctionAdd("vehaviour", "behaviour");
             correctionAdd("behaveour", "behaviour");
             correctionAdd("BEHAVOIR", "behaviour");
+            correctionAdd("beheaviour", "behaviour");
 
             correctionAdd("neighbor", "neighbour");
             correctionAdd("neigbour", "neighbour");
@@ -26525,6 +26527,7 @@ namespace OverflowHelper.core
             correctionAdd("GPT-Chat", "ChatGPT");
             correctionAdd("SpamGPT", "ChatGPT");
             correctionAdd("CHatGPT", "ChatGPT");
+            correctionAdd("cg", "ChatGPT");
 
             // Artificial intelligence
             correctionAdd("autoGPT", "Auto-GPT");
@@ -35009,6 +35012,7 @@ namespace OverflowHelper.core
             correctionAdd("conncect", "connect");
             correctionAdd("connecte", "connect");
             correctionAdd("cnnect", "connect");
+            correctionAdd("connet", "connect");
 
             correctionAdd("dissconnected", "disconnected");
 
@@ -35216,6 +35220,7 @@ namespace OverflowHelper.core
             correctionAdd("That", "that");
             correctionAdd("thhat", "that");
             correctionAdd("thet", "that");
+            correctionAdd("thai", "that");
 
             correctionAdd("val", "value");
             correctionAdd("vaue", "value");
@@ -36947,6 +36952,7 @@ namespace OverflowHelper.core
             correctionAdd("abou", "about");
             correctionAdd("abt", "about");
             correctionAdd("aout", "about");
+            correctionAdd("aboue", "about");
 
             correctionAdd("open plan office", "open-plan office");
 
@@ -37900,6 +37906,8 @@ namespace OverflowHelper.core
             correctionAdd("implent", "implement");
             correctionAdd("implemente", "implement");
             correctionAdd("Implement", "implement");
+            correctionAdd("implment", "implement");
+            correctionAdd("implmet", "implement");
 
             correctionAdd("regristration", "registration");
 
@@ -52918,6 +52926,7 @@ namespace OverflowHelper.core
             correctionAdd("catastrophy", "catastrophe");
 
             correctionAdd("clonw", "clown");
+            correctionAdd("clone", "clown");
 
             correctionAdd("head scratching", "head-scratching");
 
@@ -55868,6 +55877,22 @@ namespace OverflowHelper.core
             correctionAdd("10 fold", "tenfold");
 
             correctionAdd("Hubspot", "HubSpot");
+
+            correctionAdd("44,100", "44,100 Hz");
+            correctionAdd("44100", "44,100 Hz");
+
+            correctionAdd("lugage", "luggage");
+
+            correctionAdd("Afterburner", "MSI Afterburner");
+
+            correctionAdd("multi-tenant", "multitenant");
+            correctionAdd("Multi-Tenant", "multitenant");
+
+            correctionAdd("regreted", "regretted");
+
+            correctionAdd("Riva Tuner", "RivaTuner");
+
+            correctionAdd("therad pool", "thread pool");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -86140,6 +86165,20 @@ namespace OverflowHelper.core
 
             URL_Add("MasterMouse", "https://www.coolermaster.com/catalog/legacy-products/peripheral/mastermouse-s/#!");
 
+            URL_Add("44,100 Hz", "https://en.wikipedia.org/wiki/44%2C100_Hz");
+
+            URL_Add("luggage", "https://en.wiktionary.org/wiki/luggage#Noun");
+
+            URL_Add("MSI Afterburner", "https://en.wikipedia.org/wiki/RivaTuner");
+
+            URL_Add("multitenant", "https://en.wiktionary.org/wiki/multitenant#Adjective");
+
+            URL_Add("regretted", "https://en.wiktionary.org/wiki/regret#Verb");
+
+            URL_Add("RivaTuner", "https://en.wikipedia.org/wiki/RivaTuner");
+
+            URL_Add("thread pool", "https://en.wikipedia.org/wiki/Thread_pool");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -86465,6 +86504,7 @@ namespace OverflowHelper.core
             correctionAdd("Charcoal_", "SmokeDetector_");
             correctionAdd("Charcoal Project_", "SmokeDetector_");
             correctionAdd("Charcoal project_", "SmokeDetector_");
+            correctionAdd("SD_", "SmokeDetector_");
 
             correctionAdd("rep_", "representative_");
 
@@ -88428,6 +88468,7 @@ namespace OverflowHelper.core
             correctionAdd("Thread_", "thread_");
             correctionAdd("Tread_", "thread_");
             correctionAdd("tread_", "thread_");
+            correctionAdd("therad_", "thread_");
 
             correctionAdd("monkey-patch_", "monkey patch_");
 
@@ -88764,6 +88805,8 @@ namespace OverflowHelper.core
             correctionAdd("etxjs_", "Ext&nbsp;JS_");
 
             correctionAdd("clown_", "clone_");
+
+            correctionAdd("Metasmoke_", "metasmoke_");
 
             // URL mappings
             //
@@ -90215,6 +90258,8 @@ namespace OverflowHelper.core
             URL_Add("Software&nbsp;Quality&nbsp;Assurance&nbsp;&&nbsp;Testing (Stack Exchange site)_", "https://sqa.stackexchange.com/tour");
 
             URL_Add("clone_", "https://en.wiktionary.org/wiki/clone#Verb");
+
+            URL_Add("metasmoke_", "https://github.com/Charcoal-SE/metasmoke");
 
         } //addLookupData_alternativeWordSet()
 
