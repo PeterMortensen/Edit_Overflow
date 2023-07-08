@@ -2592,6 +2592,7 @@ namespace OverflowHelper.core
             correctionAdd("assemble language", "assembly language");
             correctionAdd("assebmly", "assembly language");
             correctionAdd("assember", "assembly language");
+            correctionAdd("assemply", "assembly language");
 
             correctionAdd("dissassemble", "disassemble");
             correctionAdd("deassemble", "disassemble");
@@ -3047,6 +3048,10 @@ namespace OverflowHelper.core
             correctionAdd("apache kafka", "Kafka");
 
             correctionAdd("apache AGE", "Apache AGE");
+            correctionAdd("AGE", "Apache AGE");
+            correctionAdd("Apache age", "Apache AGE");
+            correctionAdd("apache age", "Apache AGE");
+            correctionAdd("apacheAGE", "Apache AGE");
 
             // Java
             correctionAdd("JMX", "Java Management Extensions");
@@ -8509,6 +8514,13 @@ namespace OverflowHelper.core
             // In 'The Hitchhiker's Guide to the Galaxy'
             correctionAdd("protest", "existential protest");
 
+            // In 'The Hitchhiker's Guide to the Galaxy'
+            correctionAdd("on display", "hiding information");
+            correctionAdd("calling attention to", "hiding information");
+            correctionAdd("actually telling anybody", "hiding information");
+            correctionAdd("actually telling anyone", "hiding information");
+            correctionAdd("telling anyone", "hiding information");
+
             correctionAdd("probelm", "problem");
             correctionAdd("probem", "problem");
             correctionAdd("ploblem", "problem");
@@ -8651,6 +8663,7 @@ namespace OverflowHelper.core
             correctionAdd("reliablle", "reliable");
             correctionAdd("relailable", "reliable");
             correctionAdd("relilable", "reliable");
+            correctionAdd("realiable", "reliable");
 
             correctionAdd("scanable", "scannable");
 
@@ -12943,6 +12956,11 @@ namespace OverflowHelper.core
 
             correctionAdd("react-icons", "React Icons");
 
+            correctionAdd("CRA", "Create React App");
+            correctionAdd("create-react-app", "Create React App");
+            correctionAdd("CREATE REACT APP", "Create React App");
+            correctionAdd("create react app", "Create React App");
+
             correctionAdd("material ui", "MUI");
             correctionAdd("MATERIAL-UI", "MUI");
             correctionAdd("React Material-UI", "MUI");
@@ -16569,18 +16587,18 @@ namespace OverflowHelper.core
             correctionAdd("HPE 2930m", "HPE 2930M");
             correctionAdd("2930m", "HPE 2930M");
 
+            // A latop from HP / HPE
             correctionAdd("HP Probook", "HP ProBook");
             correctionAdd("Probook", "HP ProBook");
 
             // A series of PCs from HP / HPE
             correctionAdd("proliant", "ProLiant");
 
-            // Partitioning
-            correctionAdd("Host Protected Area", "host protected area");
-            correctionAdd("HPA", "host protected area");
-
             // A PC from HP / HPE
             correctionAdd("HP Spectre x-360", "HP Spectre x360");
+
+            // A latop from HP / HPE
+            correctionAdd("hp envy 360", "HP Envy x360");
 
             correctionAdd("gpib", "GPIB");
             correctionAdd("HPIB", "GPIB");
@@ -16589,6 +16607,10 @@ namespace OverflowHelper.core
             correctionAdd("HPC", "high-performance computing");
             correctionAdd("high performance compute", "high-performance computing");
             correctionAdd("High Performance Compute", "high-performance computing");
+
+            // Partitioning
+            correctionAdd("Host Protected Area", "host protected area");
+            correctionAdd("HPA", "host protected area");
 
             correctionAdd("high-performance liquid chromatography", "HPLC");
 
@@ -16705,9 +16727,17 @@ namespace OverflowHelper.core
 
             correctionAdd("reactos", "ReactOS");
 
+            correctionAdd("over-react", "overreact");
+
+            correctionAdd("over reacted", "overreacted");
+
             correctionAdd("rxn", "reaction");
 
             correctionAdd("re-activate", "reactivate");
+
+            correctionAdd("Sabatier process", "Sabatier reaction");
+
+            correctionAdd("Grignard Reaction", "Grignard reaction");
 
             correctionAdd("nmos", "NMOS");
             correctionAdd("nMOS", "NMOS");
@@ -19008,11 +19038,22 @@ namespace OverflowHelper.core
 
             // A full-size mechanical keyboard from Cooler Master
             //
+            // Manual: 
+            //
+            //   <https://coolermaster.egnyte.com/dd/I0a0WVtSm3/>
+            //
+            // Alternative URL:
+            //
+            //   <https://pmortensen.eu/world2/2023/02/13/low-cost-fully-macro-capable-mechanical-keyboard-cooler-master-ck-550/>
+            //
             // The previous iteration was "CK550" (without "V2",
             // with different kind of switches, etc.):
             //
             //   <https://www.coolermaster.com/catalog/peripheral/keyboards/ck550/>
+            //     CK550
             //
+            //     Manual: <https://coolermaster.egnyte.com/dd/A6sEDv3ceH>
+            //            
             correctionAdd("CK550", "CK550 V2");
             correctionAdd("CK-550", "CK550 V2");
             correctionAdd("ck550", "CK550 V2");
@@ -19122,6 +19163,9 @@ namespace OverflowHelper.core
 
             // A mouse from Cooler Master
             correctionAdd("xornet ii", "Xornet II");
+
+            // A mouse from Cooler Master (or a series of mice?)
+            correctionAdd("mastermouse", "MasterMouse");
 
             // The link is broken now. Typical
             // way to behave - to break links.
@@ -22804,6 +22848,7 @@ namespace OverflowHelper.core
             correctionAdd("Blackberry", "BlackBerry");
             correctionAdd("BB", "BlackBerry");
             correctionAdd("bb", "BlackBerry");
+            correctionAdd("Black Berry", "BlackBerry");
 
             correctionAdd("valgrind", "Valgrind");
             correctionAdd("valgring", "Valgrind"); // Misspelling.
@@ -27383,6 +27428,7 @@ namespace OverflowHelper.core
             correctionAdd("3ds max", "3ds&nbsp;Max");
             correctionAdd("3dsmax", "3ds&nbsp;Max");
             correctionAdd("3DS Max", "3ds&nbsp;Max");
+            correctionAdd("3DsMax", "3ds&nbsp;Max");
 
             correctionAdd("equilivant", "equivalent");
             correctionAdd("equivilent", "equivalent");
@@ -27915,6 +27961,7 @@ namespace OverflowHelper.core
             correctionAdd("eeprom", "EEPROM");
             correctionAdd("EEprom", "EEPROM");
             correctionAdd("eeProm", "EEPROM");
+            correctionAdd("Ephrom", "EEPROM");
 
             correctionAdd("eprom", "EPROM");
             correctionAdd("Eprom", "EPROM");
@@ -29149,6 +29196,7 @@ namespace OverflowHelper.core
             correctionAdd("no body", "nobody");
             correctionAdd("knowbody", "nobody");
             correctionAdd("noboy", "nobody");
+            correctionAdd("nbd", "nobody");
 
             correctionAdd("airbnb", "Airbnb");
             correctionAdd("AirBnB", "Airbnb");
@@ -31920,6 +31968,7 @@ namespace OverflowHelper.core
 
             correctionAdd("genereated", "generated");
             correctionAdd("genetated", "generated");
+            correctionAdd("genenrated", "generated");
 
             correctionAdd("hight", "height");
             correctionAdd("hieght", "height");
@@ -32253,6 +32302,8 @@ namespace OverflowHelper.core
             correctionAdd("offficial", "official");
 
             correctionAdd("unoffical", "unofficial");
+            correctionAdd("unnoficial", "unofficial");
+            correctionAdd("unoficial", "unofficial");
 
             correctionAdd("other wise", "otherwise");
             correctionAdd("o/w", "otherwise");
@@ -33847,6 +33898,7 @@ namespace OverflowHelper.core
             correctionAdd("rewiev", "review");
             correctionAdd("reciew", "review");
             correctionAdd("reveiw", "review");
+            correctionAdd("refiew", "review");
 
             correctionAdd("reviewd", "reviewed");
 
@@ -35200,6 +35252,7 @@ namespace OverflowHelper.core
             correctionAdd("cluser", "cluster");
 
             correctionAdd("consise", "concise");
+            correctionAdd("concice", "concise");
 
             correctionAdd("criterias", "criteria");
             correctionAdd("citeria", "criteria");
@@ -39027,6 +39080,8 @@ namespace OverflowHelper.core
             correctionAdd("Reproduceable", "reproducible");
             correctionAdd("reprocable", "reproducible");
             correctionAdd("reproductible", "reproducible");
+            correctionAdd("reprodusable", "reproducible");
+            correctionAdd("reprodusible", "reproducible");
 
             correctionAdd("ireproducible", "irreproducible");
 
@@ -39151,6 +39206,7 @@ namespace OverflowHelper.core
             correctionAdd("embarcadero", "Embarcadero");
 
             correctionAdd("bilion", "billion");
+            correctionAdd("Billion", "billion");
 
             correctionAdd("concensus", "consensus");
             correctionAdd("Concensus", "consensus");
@@ -44935,8 +44991,6 @@ namespace OverflowHelper.core
             correctionAdd("ilu", "incomplete LU factorization");
             correctionAdd("ILU", "incomplete LU factorization");
 
-            correctionAdd("over-react", "overreact");
-
             correctionAdd("sanitasion", "sanitation");
 
             correctionAdd("sliped", "slipped");
@@ -46384,11 +46438,6 @@ namespace OverflowHelper.core
 
             correctionAdd("fajans' rules", "Fajans' rules");
 
-            correctionAdd("CRA", "Create React App");
-            correctionAdd("create-react-app", "Create React App");
-            correctionAdd("CREATE REACT APP", "Create React App");
-            correctionAdd("create react app", "Create React App");
-
             correctionAdd("mikroORM", "MikroORM");
 
             correctionAdd("moment.js", "Moment.js");
@@ -47164,8 +47213,6 @@ namespace OverflowHelper.core
             correctionAdd("raptor engine", "Raptor engine");
             correctionAdd("Raptor", "Raptor engine");
             correctionAdd("raptor", "Raptor engine");
-
-            correctionAdd("Sabatier process", "Sabatier reaction");
 
             correctionAdd("self sufficient", "self-sufficient");
 
@@ -50562,8 +50609,6 @@ namespace OverflowHelper.core
             correctionAdd("Stirling's formula", "Stirling's approximation");
 
             correctionAdd("kingston", "Kingston");
-
-            correctionAdd("Grignard Reaction", "Grignard reaction");
 
             correctionAdd("peron", "person");
 
@@ -55489,9 +55534,6 @@ namespace OverflowHelper.core
 
             correctionAdd("foot gun", "footgun");
 
-            correctionAdd("on display", "hiding information");
-            correctionAdd("calling attention to", "hiding information");
-
             correctionAdd("beyond any reasonable doubt", "beyond a reasonable doubt");
 
             correctionAdd("get ride of", "get rid of");
@@ -55821,11 +55863,11 @@ namespace OverflowHelper.core
 
             correctionAdd("data driven", "data-driven");
 
-            correctionAdd("over reacted", "overreacted");
-
             correctionAdd("Sonarcloud", "SonarCloud");
 
             correctionAdd("10 fold", "tenfold");
+
+            correctionAdd("Hubspot", "HubSpot");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -86092,6 +86134,12 @@ namespace OverflowHelper.core
 
             URL_Add("tenfold", "https://en.wiktionary.org/wiki/tenfold#Adverb");
 
+            URL_Add("HP Envy x360", "https://en.wikipedia.org/wiki/HP_Envy#HP_Envy_x360");
+
+            URL_Add("HubSpot", "https://en.wikipedia.org/wiki/HubSpot");
+
+            URL_Add("MasterMouse", "https://www.coolermaster.com/catalog/legacy-products/peripheral/mastermouse-s/#!");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -88244,6 +88292,7 @@ namespace OverflowHelper.core
 
             correctionAdd("finde_", "fine_");
             correctionAdd("fin_", "fine_");
+            correctionAdd("fince_", "fine_");
 
             correctionAdd("Top_", "top_");
 
@@ -88713,6 +88762,8 @@ namespace OverflowHelper.core
             correctionAdd("extJS_", "Ext&nbsp;JS_");
             correctionAdd("Extjs_", "Ext&nbsp;JS_");
             correctionAdd("etxjs_", "Ext&nbsp;JS_");
+
+            correctionAdd("clown_", "clone_");
 
             // URL mappings
             //
@@ -90162,6 +90213,8 @@ namespace OverflowHelper.core
             URL_Add("Ext&nbsp;JS_", "https://en.wikipedia.org/wiki/Ext_JS");
 
             URL_Add("Software&nbsp;Quality&nbsp;Assurance&nbsp;&&nbsp;Testing (Stack Exchange site)_", "https://sqa.stackexchange.com/tour");
+
+            URL_Add("clone_", "https://en.wiktionary.org/wiki/clone#Verb");
 
         } //addLookupData_alternativeWordSet()
 
