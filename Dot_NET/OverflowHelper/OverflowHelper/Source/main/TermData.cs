@@ -30,8 +30,11 @@ namespace OverflowHelper.core
     public struct termListStruct
     {
         public Dictionary<string, string> incorrect2Correct;
+
         public Dictionary<string, string> correctTerm2URL;
+
         public Dictionary<string, int>    correct2Count;
+        public Dictionary<string, int>    correct2WordCount;
     }
 
 
@@ -51,11 +54,23 @@ namespace OverflowHelper.core
         //
         //  Later: perhaps get rid of it after use, to save memory.
 
-        // Cached information (we build it up when reading in the
-        // word list definitions): Number of misspellings for
-        // each correct word. E.g., for the computing the
-        // Mortensen technology popularity index (MTPI)
-        private Dictionary<string, int> mCorrect2Count;
+        // Cached information that may used for sorting (we build
+        // it up when reading in the word list definitions):
+        //
+        //   Number of misspellings for each correct word. E.g.,
+        //   for the computing the Mortensen technology
+        //   popularity index (MTPI)
+        private Dictionary<string, int> mCorrect2NumberOfIncorrects;
+
+        // Cached information that may used for sorting (we build
+        // it up when reading in the word list definitions):
+        //
+        //   Number of words for each correct term
+        //
+        // Example: For correct term "take the wind out of someone’s sails",
+        //          the count would 7.
+        //
+        private Dictionary<string, int> mCorrect2WordCount;
 
 
         /****************************************************************************
@@ -68,7 +83,9 @@ namespace OverflowHelper.core
 
             mCorrectTerm2URL = new Dictionary<string, string>();
 
-            mCorrect2Count = new Dictionary<string, int>();
+            mCorrect2NumberOfIncorrects = new Dictionary<string, int>();
+
+            mCorrect2WordCount = new Dictionary<string, int>();
 
             addLookupData();
 
@@ -91,7 +108,9 @@ namespace OverflowHelper.core
             toReturn.incorrect2Correct = mIncorrect2Correct;
             toReturn.correctTerm2URL = mCorrectTerm2URL;
 
-            toReturn.correct2Count = mCorrect2Count;
+            toReturn.correct2Count = mCorrect2NumberOfIncorrects;
+
+            toReturn.correct2WordCount = mCorrect2WordCount;
 
             return toReturn;
         }
@@ -334,17 +353,33 @@ namespace OverflowHelper.core
                     // corrected term. That is OK. That just
                     // means there is more than one misspelling!
 
-                    int count = mCorrect2Count[aCorrectedTerm];
+                    int count = mCorrect2NumberOfIncorrects[aCorrectedTerm];
                     count++;
 
                     // Write back
-                    mCorrect2Count[aCorrectedTerm] = count;
+                    mCorrect2NumberOfIncorrects[aCorrectedTerm] = count;
                 }
                 else
                 {
                     mIncorrect2Correct_Reverse.Add(aCorrectedTerm, aBadTerm);
 
-                    mCorrect2Count.Add(aCorrectedTerm, 1);
+                    mCorrect2NumberOfIncorrects.Add(aCorrectedTerm, 1);
+
+                    // Note: We don't have any leading or trailing space
+                    //
+                    // Why isn't there built-in ***simple***
+                    // way to do this???
+                    int words = 0;
+                    foreach (char someCharacter in aCorrectedTerm)
+                    {
+                        if (someCharacter == ' ')
+                        {
+                            words++;
+                        }
+                    }
+                    words++;
+
+                    mCorrect2WordCount.Add(aCorrectedTerm, words);
                 }
             }
         } //correctionAdd()
@@ -8833,6 +8868,9 @@ namespace OverflowHelper.core
             // A computer game
             correctionAdd("FNF", "Friday Night Funkin'");
 
+            // An API related to a particular computer game
+            correctionAdd("fivem", "FiveM");
+
             correctionAdd("roleplaying game", "role-playing game");
             correctionAdd("role playing game", "role-playing game");
 
@@ -9339,6 +9377,7 @@ namespace OverflowHelper.core
             correctionAdd("Experts&nbsp;Exchange", "Experts-Exchange");
             correctionAdd("Expert-Exchange", "Experts-Exchange");
             correctionAdd("sex change site", "Experts-Exchange");
+            correctionAdd("Hyphen Site", "Experts-Exchange");
 
             correctionAdd("SO", "Stack&nbsp;Overflow");
             correctionAdd("S.O", "Stack&nbsp;Overflow");
@@ -9681,6 +9720,8 @@ namespace OverflowHelper.core
             correctionAdd("plagirise", "plagiarise");
             correctionAdd("plagirase", "plagiarise");
             correctionAdd("plaigarise", "plagiarise");
+            correctionAdd("plagarize", "plagiarise");
+            correctionAdd("plagiarize", "plagiarise");
 
             correctionAdd("plagarism", "plagiarism");
             correctionAdd("Plaigarism", "plagiarism");
@@ -18906,6 +18947,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("Corsair K70", "Corsair K70 RGB PRO");
             correctionAdd("K70", "Corsair K70 RGB PRO");
+            correctionAdd("k70", "Corsair K70 RGB PRO");
 
             // Bloatware for Corsair keyboards
             //
@@ -19009,6 +19051,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("Ducky Shine", "Ducky Shine 7");
             correctionAdd("Ducky 7", "Ducky Shine 7");
+            correctionAdd("ducky 7", "Ducky Shine 7");
 
             // A mechanical keyboard from Ducky (or rather a series)
             correctionAdd("Ducky One Two", "Ducky One 2");
@@ -19213,6 +19256,8 @@ namespace OverflowHelper.core
             correctionAdd("M3501", "Apple Extended Keyboard II");
             correctionAdd("AEKII", "Apple Extended Keyboard II");
             correctionAdd("AEK11", "Apple Extended Keyboard II");
+            correctionAdd("aek11", "Apple Extended Keyboard II");
+            correctionAdd("aekii", "Apple Extended Keyboard II");
 
             // A mechanical keyboard.
             //
@@ -25295,6 +25340,7 @@ namespace OverflowHelper.core
             correctionAdd("it'", "it’s");
             correctionAdd("jts", "it’s");
             correctionAdd("its", "it’s");
+            correctionAdd("Its", "it’s");
 
             correctionAdd("O/", "o/");
             correctionAdd("\\o/", "o/");
@@ -26489,6 +26535,7 @@ namespace OverflowHelper.core
 
             correctionAdd("GPT4", "GPT-4");
             correctionAdd("gpt-4", "GPT-4");
+            correctionAdd("model 4", "GPT-4");
 
             // An artificial intelligence system
             correctionAdd("chatGPT", "ChatGPT");
@@ -30502,6 +30549,7 @@ namespace OverflowHelper.core
             correctionAdd("credentails", "credentials");
             correctionAdd("Crdentials", "credentials");
             correctionAdd("Credentials", "credentials");
+            correctionAdd("creds", "credentials");
 
             correctionAdd("credability", "credibility");
             correctionAdd("credibibility", "credibility");
@@ -32176,6 +32224,10 @@ namespace OverflowHelper.core
             correctionAdd("wory", "worry");
             correctionAdd("worrt", "worry");
             correctionAdd("wourrie", "worry");
+
+            correctionAdd("worring", "worrying");
+
+            correctionAdd("worringly", "worryingly");
 
             correctionAdd("fortnite", "Fortnite");
 
@@ -40706,6 +40758,7 @@ namespace OverflowHelper.core
             correctionAdd("additonal", "additional");
             correctionAdd("Aditional", "additional");
             correctionAdd("addional", "additional");
+            correctionAdd("additiona", "additional");
 
             correctionAdd("bloc", "block");
 
@@ -53272,8 +53325,6 @@ namespace OverflowHelper.core
 
             correctionAdd("selef-learning", "self-learning");
 
-            correctionAdd("worring", "worrying");
-
             correctionAdd("paid homework", "paid homework (corruption)");
 
             correctionAdd("cabal", "Cabal");
@@ -54124,6 +54175,8 @@ namespace OverflowHelper.core
 
             correctionAdd("chat bot", "chatbot");
             correctionAdd("chat-bot", "chatbot");
+            correctionAdd("Chat Bot", "chatbot");
+            correctionAdd("ChatBot", "chatbot");
 
             correctionAdd("facette", "facet");
 
@@ -55893,6 +55946,28 @@ namespace OverflowHelper.core
             correctionAdd("Riva Tuner", "RivaTuner");
 
             correctionAdd("therad pool", "thread pool");
+
+            correctionAdd("hashtable", "hash table");
+
+            // Related to computer security
+            correctionAdd("bruce schneier", "Bruce Schneier");
+
+            correctionAdd("CoC", "code of conduct");
+
+            correctionAdd("content mill", "content farm");
+
+            correctionAdd("lagrangian", "Lagrangian");
+
+            correctionAdd("missfiring", "misfiring");
+
+            correctionAdd("nui", "NUI");
+
+            correctionAdd("plugable", "pluggable");
+
+            correctionAdd("SWOT Analysis", "swot analysis");
+
+            correctionAdd("thermo nuclear", "thermonuclear");
+            correctionAdd("thermonuelcear", "thermonuclear");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -86179,6 +86254,30 @@ namespace OverflowHelper.core
 
             URL_Add("thread pool", "https://en.wikipedia.org/wiki/Thread_pool");
 
+            URL_Add("hash table", "https://en.wikipedia.org/wiki/Hash_table");
+
+            URL_Add("Bruce Schneier", "https://en.wikipedia.org/wiki/Bruce_Schneier");
+
+            URL_Add("code of conduct", "https://en.wikipedia.org/wiki/Code_of_conduct");
+
+            URL_Add("content farm", "https://en.wikipedia.org/wiki/Content_farm");
+
+            URL_Add("FiveM", "https://github.com/citizenfx/fivem");
+
+            URL_Add("Lagrangian", "https://en.wiktionary.org/wiki/Lagrangian#Adjective");
+
+            URL_Add("misfiring", "https://en.wiktionary.org/wiki/misfire#Verb");
+
+            URL_Add("NUI", "https://docs.fivem.net/docs/scripting-manual/nui-development/");
+
+            URL_Add("pluggable", "https://en.wiktionary.org/wiki/pluggable#Adjective");
+
+            URL_Add("swot analysis", "https://en.wikipedia.org/wiki/SWOT_analysis");
+
+            URL_Add("thermonuclear", "https://en.wiktionary.org/wiki/thermonuclear#Adjective");
+
+            URL_Add("worryingly", "https://en.wiktionary.org/wiki/worryingly#Adverb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -86592,6 +86691,23 @@ namespace OverflowHelper.core
             correctionAdd("Mathemetics_", "mathematics_");
             correctionAdd("Maths_", "mathematics_");
 
+            correctionAdd("upd_", "Edit: or Update: (bad practice on Stack Overflow)_");
+            correctionAdd("Edit_", "Edit: or Update: (bad practice on Stack Overflow)_");
+            correctionAdd("Upd_", "Edit: or Update: (bad practice on Stack Overflow)_");
+            correctionAdd("edit_", "Edit: or Update: (bad practice on Stack Overflow)_");
+            correctionAdd("historical_", "Edit: or Update: (bad practice on Stack Overflow)_");
+            correctionAdd("EDIT_", "Edit: or Update: (bad practice on Stack Overflow)_");
+
+            // Alternative URL: <https://stackoverflow.com/questions/6751105/why-its-not-possible-to-use-regex-to-parse-html-xml-a-formal-explanation-in-la>
+            //
+            correctionAdd("zalgo_", "Stack Overflow Zalgo answer (regular expressions)_");
+            correctionAdd("Zalgo_", "Stack Overflow Zalgo answer (regular expressions)_");
+
+            // Stack Overflow / Stack Exchange
+            correctionAdd("code of conduct_", "the code of conduct_");
+            correctionAdd("CoC_", "the code of conduct_");
+            correctionAdd("the CoC_", "the code of conduct_");
+
             correctionAdd("User Experience_", "User&nbsp;Experience (Stack Exchange site)_");
             correctionAdd("UX_", "User&nbsp;Experience (Stack Exchange site)_");
             correctionAdd("UX Stack Exchange_", "User&nbsp;Experience (Stack Exchange site)_");
@@ -86865,18 +86981,6 @@ namespace OverflowHelper.core
 
             correctionAdd("SEDE_", "Stack Exchange Data Explorer_");
 
-            correctionAdd("upd_", "Edit: or Update: (bad practice on Stack Overflow)_");
-            correctionAdd("Edit_", "Edit: or Update: (bad practice on Stack Overflow)_");
-            correctionAdd("Upd_", "Edit: or Update: (bad practice on Stack Overflow)_");
-            correctionAdd("edit_", "Edit: or Update: (bad practice on Stack Overflow)_");
-            correctionAdd("historical_", "Edit: or Update: (bad practice on Stack Overflow)_");
-            correctionAdd("EDIT_", "Edit: or Update: (bad practice on Stack Overflow)_");
-
-            // Alternative URL: <https://stackoverflow.com/questions/6751105/why-its-not-possible-to-use-regex-to-parse-html-xml-a-formal-explanation-in-la>
-            //
-            correctionAdd("zalgo_", "Stack Overflow Zalgo answer (regular expressions)_");
-            correctionAdd("Zalgo_", "Stack Overflow Zalgo answer (regular expressions)_");
-
             // Artificial intelligence
             correctionAdd("LORA_", "LoRA_");
             correctionAdd("Low-Rank Adaptation_", "LoRA_");
@@ -86998,6 +87102,7 @@ namespace OverflowHelper.core
             correctionAdd("aer_", "are_");
             correctionAdd("hare_", "are_");
             correctionAdd("aree_", "are_");
+            correctionAdd("arew_", "are_");
 
             correctionAdd("Graph_", "Microsoft Graph_");
             correctionAdd("Microsoft graph_", "Microsoft Graph_");
@@ -90260,6 +90365,8 @@ namespace OverflowHelper.core
             URL_Add("clone_", "https://en.wiktionary.org/wiki/clone#Verb");
 
             URL_Add("metasmoke_", "https://github.com/Charcoal-SE/metasmoke");
+
+            URL_Add("the code of conduct_", "https://meta.stackexchange.com/conduct");
 
         } //addLookupData_alternativeWordSet()
 
