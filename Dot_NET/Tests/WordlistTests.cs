@@ -67,7 +67,9 @@ namespace OverflowHelper.Tests
         private string wordListAsHTML(
             Dictionary<string, string> aSomeCaseCorrections,
             Dictionary<string, string> aSomeWord2URLs,
-            Dictionary<string, int> aCorrect2Count)
+            Dictionary<string, int> aCorrect2Count,
+            Dictionary<string, int> aCorrect2WordCount
+            )
         {
             //EditorOverflowApplication app = new EditorOverflowApplication_Windows();
             EditorOverflowApplication app = new EditorOverflowApplication_Unix();
@@ -80,6 +82,7 @@ namespace OverflowHelper.Tests
                     aSomeWord2URLs.Count,
                     ref aSomeWord2URLs,
                     ref aCorrect2Count,
+                    ref aCorrect2WordCount,
                     
                     //This is equivalent, for the refactoring, but
                     //should we use fixed or empty strings instead??
@@ -153,12 +156,15 @@ namespace OverflowHelper.Tests
                 new Dictionary<string, string>();
             Dictionary<string, int> someCorrect2Count =
                 new Dictionary<string, int>();
+            Dictionary<string, int> someCorrect2WordCount =
+                new Dictionary<string, int>();
 
             string Wordlist_HTML =
                 wordListAsHTML(
                     someCaseCorrections,
                     someWord2URLs,
-                    someCorrect2Count);
+                    someCorrect2Count,
+                    someCorrect2WordCount);
 
             int len = Wordlist_HTML.Length;
 
@@ -269,6 +275,8 @@ namespace OverflowHelper.Tests
                 new Dictionary<string, string>();
             Dictionary<string, int> someCorrect2Count =
                 new Dictionary<string, int>();
+            Dictionary<string, int> someCorrect2WordCount =
+                new Dictionary<string, int>();
 
             // First
             someCaseCorrections.Add("JS", "JavaScript");
@@ -276,6 +284,7 @@ namespace OverflowHelper.Tests
                 "JavaScript",
                 "https://en.wikipedia.org/wiki/JavaScript");
             someCorrect2Count.Add("JavaScript", 42);
+            someCorrect2WordCount.Add("JavaScript", 1);
 
             // Second
             someCaseCorrections.Add("angstrom", "Ångström Linux");
@@ -283,12 +292,14 @@ namespace OverflowHelper.Tests
                 "Ångström Linux",
                 "https://en.wikipedia.org/wiki/%C3%85ngstr%C3%B6m_distribution");
             someCorrect2Count.Add("Ångström Linux", 6);
+            someCorrect2WordCount.Add("Ångström Linux", 2);
 
             // Third
             someCaseCorrections.Add("utorrent", "µTorrent");
             someWord2URLs.Add(
                 "µTorrent", "http://en.wikipedia.org/wiki/%CE%9CTorrent");
             someCorrect2Count.Add("µTorrent", 1);
+            someCorrect2WordCount.Add("µTorrent", 1);
 
             int incorrectWords = someCaseCorrections.Count;
 
@@ -296,7 +307,9 @@ namespace OverflowHelper.Tests
                 wordListAsHTML(
                     someCaseCorrections,
                     someWord2URLs,
-                    someCorrect2Count);
+                    someCorrect2Count,
+                    someCorrect2WordCount
+                    );
 
             int len = Wordlist_HTML.Length;
 
@@ -401,6 +414,8 @@ namespace OverflowHelper.Tests
                 new Dictionary<string, string>();
             Dictionary<string, int> someCorrect2Count =
                 new Dictionary<string, int>();
+            Dictionary<string, int> someCorrect2WordCount =
+                new Dictionary<string, int>();
 
             // Detect if we get double HTML encoding (an error - not what
             // we want. For example, order matters in escapeHTML()
@@ -436,7 +451,9 @@ namespace OverflowHelper.Tests
                     wordListAsHTML(
                         someCaseCorrections,
                         someWord2URLs,
-                        someCorrect2Count);
+                        someCorrect2Count,
+                        someCorrect2WordCount
+                        );
 
                 string table = extractHTMLtable(Wordlist_HTML);
 
