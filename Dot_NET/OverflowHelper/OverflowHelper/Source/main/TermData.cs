@@ -46,25 +46,26 @@ namespace OverflowHelper.core
     {
         private Dictionary<string, string> mIncorrect2Correct;
 
-        // But do we need it? Aren't we just using it to record
-        // a list of correct words?
-        //
-        // Couldn't we use mCorrectTerm2URL instead? The reverse
-        // mapping is not unique anyway - there doesn't seem to
-        // be a need for the value for this purpose.
-        //
-        //   Maybe. But the URL mapping is not known until later:
-        //   Usually all are the word mappings are added first,
-        //   before any of the URL mappings. We could initially
-        //   use a placeholder value for the URL.
-        //
-        private Dictionary<string, string> mIncorrect2Correct_Reverse; // Reverse
-        //  mapping, for checking purposes only (at the expense of using more
-        //  memory).
-        //
-        // It is strictly private to this class.
-        //
-        //  Later: perhaps get rid of it after use, to save memory.
+        //Delete at any time
+        //// But do we need it? Aren't we just using it to record
+        //// a list of correct words?
+        ////
+        //// Couldn't we use mCorrectTerm2URL instead? The reverse
+        //// mapping is not unique anyway - there doesn't seem to
+        //// be a need for the value for this purpose.
+        ////
+        ////   Maybe. But the URL mapping is not known until later:
+        ////   Usually all are the word mappings are added first,
+        ////   before any of the URL mappings. We could initially
+        ////   use a placeholder value for the URL.
+        ////
+        //private Dictionary<string, string> mIncorrect2Correct_Reverse; // Reverse
+        ////  mapping, for checking purposes only (at the expense of using more
+        ////  memory).
+        ////
+        //// It is strictly private to this class.
+        ////
+        ////  Later: perhaps get rid of it after use, to save memory.
 
 
         private Dictionary<string, string> mCorrectTerm2URL;
@@ -95,7 +96,6 @@ namespace OverflowHelper.core
         public TermData()
         {
             mIncorrect2Correct = new Dictionary<string, string>();
-            mIncorrect2Correct_Reverse = new Dictionary<string, string>();
 
             mCorrectTerm2URL = new Dictionary<string, string>();
 
@@ -105,8 +105,9 @@ namespace OverflowHelper.core
 
             addLookupData();
 
-            //Future: Assert length of mIncorrect2Correct_Reverse equal to
-            //               length of mCorrectTerm2URL
+            //Future: Assert length of mCorrectTerm2URL equal to
+            //               length of mCorrect2NumberOfIncorrects
+            //               and length of mCorrect2WordCount
 
             checkTermDataStructures();
         } //Constructor
@@ -145,14 +146,32 @@ namespace OverflowHelper.core
                 mIncorrect2Correct.GetEnumerator();
             while (hashEnumerator2.MoveNext())
             {
-                string curKey = hashEnumerator2.Current.Key;
-                string curValue = hashEnumerator2.Current.Value;
+                string someIncorrectTerm = hashEnumerator2.Current.Key;
+                string someCorrectTerm   = hashEnumerator2.Current.Value;
 
-                string URL;
-                if (!mCorrectTerm2URL.TryGetValue(curValue, out URL))
+                string someURL;
+                if (mCorrectTerm2URL.TryGetValue(someCorrectTerm, out someURL))
                 {
-                    string msgStr = "No URL mapping for the term \"" +
-                                    curValue + "\".";
+                    if (someURL == "") // As an empty string was used as a
+                                       // placeholder while ingesting the
+                                       // word mappings.
+                    {
+                        // Inconsistent input data detected
+                        string msgStr = "No URL mapping for the term \"" +
+                                        someCorrectTerm + "\".";
+                        reportError(msgStr);
+                    }
+                }
+                else
+                {
+                    // mCorrectTerm2URL is guaranteed to have all
+                    // placeholders (for each correct word we
+                    // have ingested), so we should never
+                    // be here!
+                    string msgStr =
+                        "Internally inconsistent datastructures: " +
+                        "URL entry missing for key: \"" +
+                        someCorrectTerm + "\".";
                     reportError(msgStr);
                 }
             } //Hash iteration.
@@ -360,9 +379,14 @@ namespace OverflowHelper.core
 
                 mIncorrect2Correct.Add(aBadTerm, aCorrectedTerm);
 
-                string badTerm;
-                if (mIncorrect2Correct_Reverse.TryGetValue(aCorrectedTerm,
-                                                           out badTerm))
+                string someURL;
+
+                // We use mCorrectTerm2URL to detect if it is the
+                // first time we have encountered a particular
+                // correct word.
+                //
+                if (mCorrectTerm2URL.TryGetValue(aCorrectedTerm,
+                                                 out someURL))
                 {
                     // If we are here then there is more than one
                     // corrected term. That is OK. That just
@@ -378,7 +402,10 @@ namespace OverflowHelper.core
                 {
                     // First encounter of particular correct word
 
-                    mIncorrect2Correct_Reverse.Add(aCorrectedTerm, aBadTerm);
+                    // Use a placeholder at this point. We only use
+                    // the keys for this part (the actual value
+                    // (URL) will be added at a later stage).
+                    mCorrectTerm2URL.Add(aCorrectedTerm, "");
 
                     mCorrect2NumberOfIncorrects.Add(aCorrectedTerm, 1);
 
@@ -407,42 +434,54 @@ namespace OverflowHelper.core
          ****************************************************************************/
         private void URL_Add(string aCorrectedTerm, string aURL)
         {
-            //Later: sanity checks, e.g. that the key already
+            //Later: sanity checks, e.g., that the key already
             //       exists in mIncorrect2Correct.
 
-            string URL;
-            if (mCorrectTerm2URL.TryGetValue(aCorrectedTerm, out URL))
+            string someURL;
+            if (mCorrectTerm2URL.TryGetValue(aCorrectedTerm, out someURL))
             {
                 //Later: factor out.
 
-                // Double entry!
-                string msg = "Double entry for the URL mapping " +
-                             keyValueInfoStr(aCorrectedTerm, aURL);
-                reportError(msg);
+                if (someURL == "") // We used an empty string as a placeholder
+                                   // when reading in the word mappings.
+                {
+                    // Warning only.
+                    sanityCheck(aCorrectedTerm, aCorrectedTerm, aURL);
+                    sanityCheck(aURL,           aCorrectedTerm, aURL);
+
+                    //mCorrectTerm2URL.Add(aCorrectedTerm, aURL);
+                    
+                    mCorrectTerm2URL[aCorrectedTerm] = aURL; 
+                    // Replace the placeholder
+                }
+                else
+                {
+                    // Double entry!
+                    string msg = "Double entry for the URL mapping " +
+                                 keyValueInfoStr(aCorrectedTerm, aURL);
+                    reportError(msg);
+                }
             }
             else
             {
                 // Warning only.
-                sanityCheck(aCorrectedTerm, aCorrectedTerm, aURL);
-                sanityCheck(aURL,           aCorrectedTerm, aURL);
-
-                // Warning only.
                 // We expect that the corresponding correction mapping has
                 // already been added.
-                string badTerm;
-                if (mIncorrect2Correct_Reverse.TryGetValue(aCorrectedTerm, out badTerm))
-                {
 
-                }
-                else
-                {
-                    // No correction mapping exist!
-                    string msg =
-                        "Missing correction mapping for the corrected term \"" +
-                        aCorrectedTerm + "\".";
-                    reportError(msg);
-                }
-                mCorrectTerm2URL.Add(aCorrectedTerm, aURL);
+                // mCorrectTerm2URL is guaranteed to have all placeholders
+                // (for each correct word we have ingested), so we may be
+                // here due to inconsistent input data.
+                //
+                string msgStr =
+                    "Hanging URL (no corresponding correct term): \"" +
+                    aURL + "\".";
+                reportError(msgStr);
+
+                // No correction mapping exist!
+                string msg =
+                    "Missing correction mapping for the corrected term \"" +
+                    aCorrectedTerm + "\".";
+                reportError(msg);
             }
         } //URL_Add()
 
