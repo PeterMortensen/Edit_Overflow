@@ -83,7 +83,7 @@ namespace OverflowHelper.Tests
                     ref aSomeWord2URLs,
                     ref aCorrect2Count,
                     ref aCorrect2WordCount,
-                    
+
                     //This is equivalent, for the refactoring, but
                     //should we use fixed or empty strings instead??
                     app.fullVersionStr(),
@@ -255,6 +255,97 @@ namespace OverflowHelper.Tests
 
         /****************************************************************************
          *                                                                          *
+         *    A helper function for the test                                        *
+         *                                                                          *
+         ****************************************************************************/
+        private void smallWordlist(
+            ref Dictionary<string, string> aCaseCorrections,
+            ref Dictionary<string, string> aWord2URLs,
+            ref Dictionary<string, int> aCorrect2Count,
+            ref Dictionary<string, int> aCorrect2WordCount)
+        {
+            // First
+            aCaseCorrections.Add("JS", "JavaScript");
+            aWord2URLs.Add(
+                "JavaScript",
+                "https://en.wikipedia.org/wiki/JavaScript");
+            aCorrect2Count.Add("JavaScript", 42);
+            aCorrect2WordCount.Add("JavaScript", 1);
+
+            // Second
+            //
+            // Notes:
+            //
+            //   1) This does not currently sorted correctly. "Å"
+            //      is sorted as "A".
+            //
+            //   2) For purposes of testing the sort order, we
+            //      changed "Ångström Linux" to "KÅngtröm Linux"
+            //      (expected to be after "JavaScript" in the
+            //       normal sort order, but before if sorted
+            //       words in the correct term)
+            //
+            //aCaseCorrections.Add("angstrom", "KÅngtröm Linux");
+            aCaseCorrections.Add("Kngstrom", "KÅngtröm Linux");
+            aWord2URLs.Add(
+                "KÅngtröm Linux",
+                "https://en.wikipedia.org/wiki/%C3%85ngstr%C3%B6m_distribution");
+            aCorrect2Count.Add("KÅngtröm Linux", 6);
+            aCorrect2WordCount.Add("KÅngtröm Linux", 2);
+
+            // Third
+            aCaseCorrections.Add("utorrent", "µTorrent");
+            aWord2URLs.Add(
+                "µTorrent", "http://en.wikipedia.org/wiki/%CE%9CTorrent");
+            aCorrect2Count.Add("µTorrent", 1);
+            aCorrect2WordCount.Add("µTorrent", 1);
+        } //smallWordlist()
+
+
+        /****************************************************************************
+         *                                                                          *
+         *    A helper function for the test (though it ought to be in              *
+         *    a general utility class; it is completely general (not                *
+         *    dependent on this the application)                                    *
+         *                                                                          *
+         ****************************************************************************/
+        bool stringBefore(string aSomeString,
+                          string aBeforeString,
+                          string anAfterString)
+        {
+            int beforeIndex = aSomeString.IndexOf(aBeforeString);
+            int afterIndex = aSomeString.IndexOf(anAfterString);
+
+            // Sort of internal check of the test specification
+            Assert.IsFalse(beforeIndex == -1);
+            Assert.IsFalse(afterIndex == -1);
+
+            return beforeIndex < afterIndex;
+        } //stringBefore()
+
+
+        /****************************************************************************
+         *                                                                          *
+         *    A helper function for the test (though it ought to be in              *
+         *    a general utility class; it is completely general (not                *
+         *    dependent on this the application)                                    *
+         *                                                                          *
+         ****************************************************************************/
+        bool stringBefore_EditOverflowHTML(string aSomeString,
+                                           string aBeforeString,
+                                           string anAfterString)
+        {
+            // We need disambiguate, as the start of the HTML may contain
+            // strings that happen to match, e.g. "JavaScript".
+
+            return stringBefore(aSomeString,
+                                "<td>" + aBeforeString,
+                                "<td>" + anAfterString);
+        } //stringBefore()
+
+
+        /****************************************************************************
+         *                                                                          *
          *    Intent: More like a regression test (detect (unexpected) changes)     *
          *            for the HTML export result than a unit test.                  *
          *                                                                          *
@@ -271,35 +362,21 @@ namespace OverflowHelper.Tests
 
             Dictionary<string, string> someCaseCorrections =
                new Dictionary<string, string>();
+
             Dictionary<string, string> someWord2URLs =
                 new Dictionary<string, string>();
+
             Dictionary<string, int> someCorrect2Count =
                 new Dictionary<string, int>();
+
             Dictionary<string, int> someCorrect2WordCount =
                 new Dictionary<string, int>();
 
-            // First
-            someCaseCorrections.Add("JS", "JavaScript");
-            someWord2URLs.Add(
-                "JavaScript",
-                "https://en.wikipedia.org/wiki/JavaScript");
-            someCorrect2Count.Add("JavaScript", 42);
-            someCorrect2WordCount.Add("JavaScript", 1);
-
-            // Second
-            someCaseCorrections.Add("angstrom", "Ångström Linux");
-            someWord2URLs.Add(
-                "Ångström Linux",
-                "https://en.wikipedia.org/wiki/%C3%85ngstr%C3%B6m_distribution");
-            someCorrect2Count.Add("Ångström Linux", 6);
-            someCorrect2WordCount.Add("Ångström Linux", 2);
-
-            // Third
-            someCaseCorrections.Add("utorrent", "µTorrent");
-            someWord2URLs.Add(
-                "µTorrent", "http://en.wikipedia.org/wiki/%CE%9CTorrent");
-            someCorrect2Count.Add("µTorrent", 1);
-            someCorrect2WordCount.Add("µTorrent", 1);
+            smallWordlist(
+                ref someCaseCorrections,
+                ref someWord2URLs,
+                ref someCorrect2Count,
+                ref someCorrect2WordCount);
 
             int incorrectWords = someCaseCorrections.Count;
 
@@ -383,6 +460,41 @@ namespace OverflowHelper.Tests
 
             Assert.AreEqual(Wordlist_HTML.IndexOf("\t"), -1, "XYZ"); // Detect
             // any TABs...
+
+
+            //For debugging
+            //TestContext.WriteLine("\nThe HTML for the word list in the tests:\n\n");
+            //TestContext.WriteLine(Wordlist_HTML);
+
+            // For now: Some test for the sort order. This is crude as we
+            //          only test for the relative positions of items.
+            //          We ought to directly test the sorted list, but
+            //          it is currently locked up inside a class...
+            //
+            // Notes:
+            //
+            //   * We use the incorrect terms even though
+            //     the correct term may be the actual key.
+            //
+            //   * "JavaScript" happens to be in the header of
+            //     the HTML (incl. the quotes), so we can not
+            //     use that alone in our test specification:
+            //
+            //         expanding "JS" to "JavaScript"
+            //
+            //     Disambiguate by adding "<td>" in front (now built
+            //     into our helper function)
+            //
+            // For enforcing the ***normal sort order*** (alfanumertic
+            // sort of groups of correct terms).
+            Assert.IsTrue(stringBefore_EditOverflowHTML(
+              Wordlist_HTML, "JavaScript", "KÅngtröm Linux"));
+
+            // When configured for sorting by number of words. In the
+            // future, this will be configurable.
+            //Assert.IsTrue(stringBefore_EditOverflowHTML(
+            //    Wordlist_HTML, "KÅngtröm Linux", "JavaScript"));
+
         } //HTMLexport_fixedWordList()
 
 
