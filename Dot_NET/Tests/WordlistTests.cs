@@ -377,8 +377,22 @@ namespace OverflowHelper.Tests
                 ref someWord2URLs,
                 ref someCorrect2Count,
                 ref someCorrect2WordCount);
-
             int incorrectWords = someCaseCorrections.Count;
+
+            //Self test. For now.
+            //
+            //Note: For the current word list, there happens to be
+            //      only one incorrect word per correct word. Thus
+            //      all numbers are the same. That is not the case
+            //      in general.
+            //
+            const int kIncorrectWords = 3;
+            const int kCorrectWords = 3;
+            Assert.AreEqual(incorrectWords, kIncorrectWords, "Test word list: Unexpected number of incorrect words");
+            Assert.AreEqual(someWord2URLs.Count, kCorrectWords, "Test word list: Unexpected number of URLs");
+            Assert.AreEqual(someCorrect2Count.Count, kCorrectWords, "Test word list: Unexpected number of items in hash for incorrect terms count");
+            Assert.AreEqual(someCorrect2WordCount.Count, kCorrectWords, "Test word list: Unexpected number of items in hash for correct terms word count");
+
 
             string Wordlist_HTML =
                 wordListAsHTML(
