@@ -27,6 +27,7 @@ using System; // For Console
 namespace OverflowHelper.core
 {
 
+    // "term" as in correct term or incorrect term (often a single word)
     public struct termListStruct
     {
         public Dictionary<string, string> incorrect2Correct;
@@ -44,8 +45,19 @@ namespace OverflowHelper.core
     public class TermData
     {
         private Dictionary<string, string> mIncorrect2Correct;
-        private Dictionary<string, string> mCorrectTerm2URL;
 
+        // But do we need it? Aren't we just using it to record
+        // a list of correct words?
+        //
+        // Couldn't we use mCorrectTerm2URL instead? The reverse
+        // mapping is not unique anyway - there doesn't seem to
+        // be a need for the value for this purpose.
+        //
+        //   Maybe. But the URL mapping is not known until later:
+        //   Usually all are the word mappings are added first,
+        //   before any of the URL mappings. We could initially
+        //   use a placeholder value for the URL.
+        //
         private Dictionary<string, string> mIncorrect2Correct_Reverse; // Reverse
         //  mapping, for checking purposes only (at the expense of using more
         //  memory).
@@ -53,6 +65,10 @@ namespace OverflowHelper.core
         // It is strictly private to this class.
         //
         //  Later: perhaps get rid of it after use, to save memory.
+
+
+        private Dictionary<string, string> mCorrectTerm2URL;
+
 
         // Cached information that may used for sorting (we build
         // it up when reading in the word list definitions):
@@ -89,8 +105,8 @@ namespace OverflowHelper.core
 
             addLookupData();
 
-            //Future: Assert   length of mIncorrect2Correct_Reverse equal to
-            //                 length of mCorrectTerm2URL
+            //Future: Assert length of mIncorrect2Correct_Reverse equal to
+            //               length of mCorrectTerm2URL
 
             checkTermDataStructures();
         } //Constructor
@@ -106,10 +122,9 @@ namespace OverflowHelper.core
             termListStruct toReturn;
 
             toReturn.incorrect2Correct = mIncorrect2Correct;
+
             toReturn.correctTerm2URL = mCorrectTerm2URL;
-
             toReturn.correct2Count = mCorrect2NumberOfIncorrects;
-
             toReturn.correct2WordCount = mCorrect2WordCount;
 
             return toReturn;
@@ -361,6 +376,8 @@ namespace OverflowHelper.core
                 }
                 else
                 {
+                    // First encounter of particular correct word
+
                     mIncorrect2Correct_Reverse.Add(aCorrectedTerm, aBadTerm);
 
                     mCorrect2NumberOfIncorrects.Add(aCorrectedTerm, 1);

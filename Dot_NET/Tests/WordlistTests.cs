@@ -379,7 +379,7 @@ namespace OverflowHelper.Tests
                 ref someCorrect2WordCount);
             int incorrectWords = someCaseCorrections.Count;
 
-            //Self test. For now.
+            //Self test. For now. Safeguards during refactoring.
             //
             //Note: For the current word list, there happens to be
             //      only one incorrect word per correct word. Thus
