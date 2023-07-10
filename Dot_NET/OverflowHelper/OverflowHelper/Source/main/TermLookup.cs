@@ -5,7 +5,7 @@
 *                                                                          *
 * Purpose: Effectively cached lookup in Wikipedia, Wiktionary, and         *
 *          other places (by 2020 the number of new JavaScript              *
-*          libraries has grown so insane that even Wikiepdia               *
+*          libraries has grown so insane that even Wikipedia               *
 *          can't keep up and in some cases there is only an                *
 *          illdefined README file in some obscure GitHub                   *
 *          repository).                                                    *
@@ -316,15 +316,17 @@ namespace OverflowHelper.core
                     int wordCount2 = mCorrect2WordCount[primary2];
 
                     // For unchanged sort functionality (sorted (and 
-                    // grouped) by the correct term/word)
+                    // grouped) by the correct term/word). To be
+                    // made dynamic in the future. 
+                    //
+                    // Note that unit tests now enforce the default 
+                    // sort order, so they must be disabled or 
+                    // changed for the build script to succeed.
+                    //
                     countIncorrectWords1 = 7;
                     countIncorrectWords2 = 7;
-
-                    // For unchanged sort functionality (sorted (and 
-                    // grouped) by the correct term/word)
                     wordCount1 = 7;
                     wordCount2 = 7;
-
 
                     // Descending sort for the number of misspellings
                     int compareResult_count = 
@@ -349,6 +351,9 @@ namespace OverflowHelper.core
                         else
                         {
                             // Ascending sort for the correct word.
+                            //
+                            // It is apparently case insensitive.
+                            //
                             int compareResult_primary = primary1.CompareTo(primary2);
 
                             if (compareResult_primary != 0)
@@ -881,7 +886,7 @@ namespace OverflowHelper.core
             // up the keys (in order) in mIncorrect2Correct will
             // return the entries in the given defined sort order,
             // in this case the correct term as the primary key
-            // and the incorrect term in as the secondary key.
+            // and the incorrect term as the secondary key.
             //
             // In order words, grouping by the correct term...
             indexes.Sort(sortObject);
