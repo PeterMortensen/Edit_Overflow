@@ -21717,6 +21717,9 @@ namespace OverflowHelper.core
             // A JSON processor
             correctionAdd("Jq", "jq");
 
+            // A data interchange format based on JSON
+            correctionAdd("bson", "BSON");
+
             correctionAdd("imort", "import");
             correctionAdd("inport", "import");
 
@@ -24804,6 +24807,9 @@ namespace OverflowHelper.core
             correctionAdd("Node version manager", "NVM");
             correctionAdd("Node.js version manager", "NVM");
             correctionAdd("node version manager", "NVM");
+
+            // A Node.js module
+            correctionAdd("formidable", "Formidable");
 
             correctionAdd("tho", "though");
             correctionAdd("thogh", "though");
@@ -56105,8 +56111,6 @@ namespace OverflowHelper.core
 
             correctionAdd("000 webhost", "000webhost");
 
-            correctionAdd("bson", "BSON");
-
             correctionAdd("Clients", "clients");
 
             correctionAdd("Decision Tree", "decision tree");
@@ -56132,9 +56136,7 @@ namespace OverflowHelper.core
             correctionAdd("Windows RT", "Windows&nbsp;RT");
             correctionAdd("WindowsRT", "Windows&nbsp;RT");
 
-            correctionAdd("drogon", "Drogon");
-
-            correctionAdd("formidable", "Formidable");
+            correctionAdd("drogon", "Drogon"); // A C++ library
 
             correctionAdd("Photoscan", "Google PhotoScan");
             correctionAdd("Google Photoscan", "Google PhotoScan");
