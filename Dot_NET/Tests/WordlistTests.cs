@@ -66,9 +66,14 @@ namespace OverflowHelper.Tests
          ****************************************************************************/
         private string wordListAsHTML(
             Dictionary<string, string> aSomeCaseCorrections,
-            Dictionary<string, string> aSomeWord2URLs,
-            Dictionary<string, int> aCorrect2Count,
-            Dictionary<string, int> aCorrect2WordCount
+
+            //Delete at any time
+            //Dictionary<string, string> aSomeWord2URLs,
+            //Dictionary<string, int> aCorrect2Count,
+            //Dictionary<string, int> aCorrect2WordCount
+
+            correctTermInfoStruct aCorrectTermInfo
+
             )
         {
             //EditorOverflowApplication app = new EditorOverflowApplication_Windows();
@@ -79,10 +84,14 @@ namespace OverflowHelper.Tests
                     "",
                     ", + , operators , {", // Some of it will be transformed...
                     ref aSomeCaseCorrections,
-                    aSomeWord2URLs.Count,
-                    ref aSomeWord2URLs,
-                    ref aCorrect2Count,
-                    ref aCorrect2WordCount,
+                    aCorrectTermInfo.correctTerm2URL.Count,
+
+                    //Delete at any time
+                    //ref aSomeWord2URLs,
+                    //ref aCorrect2Count,
+                    //ref aCorrect2WordCount,
+
+                    aCorrectTermInfo,
 
                     //This is equivalent, for the refactoring, but
                     //should we use fixed or empty strings instead??
@@ -152,19 +161,35 @@ namespace OverflowHelper.Tests
             //
             Dictionary<string, string> someCaseCorrections =
                new Dictionary<string, string>();
-            Dictionary<string, string> someWord2URLs =
+
+            //Delete at any time
+            //Dictionary<string, string> someWord2URLs =
+            //    new Dictionary<string, string>();
+            //Dictionary<string, int> someCorrect2Count =
+            //    new Dictionary<string, int>();
+            //Dictionary<string, int> someCorrect2WordCount =
+            //    new Dictionary<string, int>();
+
+            correctTermInfoStruct someCorrectTermInfo;
+            someCorrectTermInfo.correctTerm2URL =
                 new Dictionary<string, string>();
-            Dictionary<string, int> someCorrect2Count =
+            someCorrectTermInfo.correct2Count =
                 new Dictionary<string, int>();
-            Dictionary<string, int> someCorrect2WordCount =
+            someCorrectTermInfo.correct2WordCount =
                 new Dictionary<string, int>();
 
             string Wordlist_HTML =
                 wordListAsHTML(
                     someCaseCorrections,
-                    someWord2URLs,
-                    someCorrect2Count,
-                    someCorrect2WordCount);
+
+                    //Delete at any time
+                    //someWord2URLs,
+                    //someCorrect2Count,
+                    //someCorrect2WordCount
+
+                    someCorrectTermInfo
+
+                    );
 
             int len = Wordlist_HTML.Length;
 
@@ -260,17 +285,23 @@ namespace OverflowHelper.Tests
          ****************************************************************************/
         private void smallWordlist(
             ref Dictionary<string, string> aCaseCorrections,
-            ref Dictionary<string, string> aWord2URLs,
-            ref Dictionary<string, int> aCorrect2Count,
-            ref Dictionary<string, int> aCorrect2WordCount)
+
+            //Delete at any time
+            //ref Dictionary<string, string> aWord2URLs,
+            //ref Dictionary<string, int> aCorrect2Count,
+            //ref Dictionary<string, int> aCorrect2WordCount
+
+            correctTermInfoStruct aCorrectTermInfo
+
+            )
         {
             // First
             aCaseCorrections.Add("JS", "JavaScript");
-            aWord2URLs.Add(
+            aCorrectTermInfo.correctTerm2URL.Add(
                 "JavaScript",
                 "https://en.wikipedia.org/wiki/JavaScript");
-            aCorrect2Count.Add("JavaScript", 42);
-            aCorrect2WordCount.Add("JavaScript", 1);
+            aCorrectTermInfo.correct2Count.Add("JavaScript", 42);
+            aCorrectTermInfo.correct2WordCount.Add("JavaScript", 1);
 
             // Second
             //
@@ -287,18 +318,18 @@ namespace OverflowHelper.Tests
             //
             //aCaseCorrections.Add("angstrom", "KÅngtröm Linux");
             aCaseCorrections.Add("Kngstrom", "KÅngtröm Linux");
-            aWord2URLs.Add(
+            aCorrectTermInfo.correctTerm2URL.Add(
                 "KÅngtröm Linux",
                 "https://en.wikipedia.org/wiki/%C3%85ngstr%C3%B6m_distribution");
-            aCorrect2Count.Add("KÅngtröm Linux", 6);
-            aCorrect2WordCount.Add("KÅngtröm Linux", 2);
+            aCorrectTermInfo.correct2Count.Add("KÅngtröm Linux", 6);
+            aCorrectTermInfo.correct2WordCount.Add("KÅngtröm Linux", 2);
 
             // Third
             aCaseCorrections.Add("utorrent", "µTorrent");
-            aWord2URLs.Add(
+            aCorrectTermInfo.correctTerm2URL.Add(
                 "µTorrent", "http://en.wikipedia.org/wiki/%CE%9CTorrent");
-            aCorrect2Count.Add("µTorrent", 1);
-            aCorrect2WordCount.Add("µTorrent", 1);
+            aCorrectTermInfo.correct2Count.Add("µTorrent", 1);
+            aCorrectTermInfo.correct2WordCount.Add("µTorrent", 1);
         } //smallWordlist()
 
 
@@ -363,20 +394,33 @@ namespace OverflowHelper.Tests
             Dictionary<string, string> someCaseCorrections =
                new Dictionary<string, string>();
 
-            Dictionary<string, string> someWord2URLs =
+            //Delete at any time
+            //Dictionary<string, string> someWord2URLs =
+            //    new Dictionary<string, string>();
+            //Dictionary<string, int> someCorrect2Count =
+            //    new Dictionary<string, int>();
+            //Dictionary<string, int> someCorrect2WordCount =
+            //    new Dictionary<string, int>();
+
+            correctTermInfoStruct someCorrectTermInfo;
+            someCorrectTermInfo.correctTerm2URL =
                 new Dictionary<string, string>();
-
-            Dictionary<string, int> someCorrect2Count =
+            someCorrectTermInfo.correct2Count =
                 new Dictionary<string, int>();
-
-            Dictionary<string, int> someCorrect2WordCount =
+            someCorrectTermInfo.correct2WordCount =
                 new Dictionary<string, int>();
 
             smallWordlist(
                 ref someCaseCorrections,
-                ref someWord2URLs,
-                ref someCorrect2Count,
-                ref someCorrect2WordCount);
+
+                //Delete at any time
+                //ref someWord2URLs,
+                //ref someCorrect2Count,
+                //ref someCorrect2WordCount
+                someCorrectTermInfo
+
+                );
+
             int incorrectWords = someCaseCorrections.Count;
 
             //Self test. For now. Safeguards during refactoring.
@@ -389,17 +433,21 @@ namespace OverflowHelper.Tests
             const int kIncorrectWords = 3;
             const int kCorrectWords = 3;
             Assert.AreEqual(incorrectWords, kIncorrectWords, "Test word list: Unexpected number of incorrect words");
-            Assert.AreEqual(someWord2URLs.Count, kCorrectWords, "Test word list: Unexpected number of URLs");
-            Assert.AreEqual(someCorrect2Count.Count, kCorrectWords, "Test word list: Unexpected number of items in hash for incorrect terms count");
-            Assert.AreEqual(someCorrect2WordCount.Count, kCorrectWords, "Test word list: Unexpected number of items in hash for correct terms word count");
-
+            Assert.AreEqual(someCorrectTermInfo.correctTerm2URL.Count, kCorrectWords, "Test word list: Unexpected number of URLs");
+            Assert.AreEqual(someCorrectTermInfo.correct2Count.Count, kCorrectWords, "Test word list: Unexpected number of items in hash for incorrect terms count");
+            Assert.AreEqual(someCorrectTermInfo.correct2WordCount.Count, kCorrectWords, "Test word list: Unexpected number of items in hash for correct terms word count");
 
             string Wordlist_HTML =
                 wordListAsHTML(
                     someCaseCorrections,
-                    someWord2URLs,
-                    someCorrect2Count,
-                    someCorrect2WordCount
+
+                    //Delete at any time
+                    //someWord2URLs,
+                    //someCorrect2Count,
+                    //someCorrect2WordCount
+
+                    someCorrectTermInfo
+
                     );
 
             int len = Wordlist_HTML.Length;
@@ -536,11 +584,21 @@ namespace OverflowHelper.Tests
 
             Dictionary<string, string> someCaseCorrections =
                new Dictionary<string, string>();
-            Dictionary<string, string> someWord2URLs =
+
+            //Delete at any time
+            //Dictionary<string, string> someWord2URLs =
+            //    new Dictionary<string, string>();
+            //Dictionary<string, int> someCorrect2Count =
+            //    new Dictionary<string, int>();
+            //Dictionary<string, int> someCorrect2WordCount =
+            //    new Dictionary<string, int>();
+
+            correctTermInfoStruct someCorrectTermInfo;
+            someCorrectTermInfo.correctTerm2URL =
                 new Dictionary<string, string>();
-            Dictionary<string, int> someCorrect2Count =
+            someCorrectTermInfo.correct2Count =
                 new Dictionary<string, int>();
-            Dictionary<string, int> someCorrect2WordCount =
+            someCorrectTermInfo.correct2WordCount =
                 new Dictionary<string, int>();
 
             // Detect if we get double HTML encoding (an error - not what
@@ -568,17 +626,25 @@ namespace OverflowHelper.Tests
                 //someCaseCorrections.Add("&LT;", "&lt;");
 
                 // Only once per correct item
-                someWord2URLs.Add(
+                someCorrectTermInfo.correctTerm2URL.Add(
                     "&lt;",
                     "https://www.w3.org/wiki/Common_HTML_entities_used_for_typography");
-                someCorrect2Count.Add("&lt;", 3);
+                someCorrectTermInfo.correct2Count.Add("&lt;", 3);
+
+                //Note: Missing for 'someCorrectTermInfo.correct2WordCount'
+
 
                 string Wordlist_HTML =
                     wordListAsHTML(
                         someCaseCorrections,
-                        someWord2URLs,
-                        someCorrect2Count,
-                        someCorrect2WordCount
+
+                        //Delete at any time
+                        //someWord2URLs,
+                        //someCorrect2Count,
+                        //someCorrect2WordCount
+
+                        someCorrectTermInfo
+
                         );
 
                 string table = extractHTMLtable(Wordlist_HTML);

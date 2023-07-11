@@ -20,22 +20,50 @@ using System; // For Console
 //
 
 
-
 /****************************************************************************
  *    <placeholder for header>                                              *
  ****************************************************************************/
 namespace OverflowHelper.core
 {
 
+    public struct correctTermInfoStruct
+    {
+        public Dictionary<string, string> correctTerm2URL;
+
+        // Mostly used as cached information during sorting
+
+        // Cached information that may used for sorting (we build
+        // it up when reading in the word list definitions):
+        //
+        //   Number of misspellings for each correct word. E.g.,
+        //   for the computing the Mortensen technology
+        //   popularity index (MTPI)
+        public Dictionary<string, int>    correct2Count;
+                                          //mCorrect2NumberOfIncorrects
+
+        // Cached information that may used for sorting (we build
+        // it up when reading in the word list definitions):
+        //
+        //   Number of words for each correct term
+        //
+        // Example: For correct term "take the wind out of someone’s sails",
+        //          the count would 7.
+        public Dictionary<string, int>    correct2WordCount;
+                                          //mCorrect2WordCount
+    }
+
+
     // "term" as in correct term or incorrect term (often a single word)
     public struct termListStruct
     {
         public Dictionary<string, string> incorrect2Correct;
 
-        public Dictionary<string, string> correctTerm2URL;
+        //Delete at any time
+        //public Dictionary<string, string> correctTerm2URL;
+        //public Dictionary<string, int>    correct2Count;
+        //public Dictionary<string, int>    correct2WordCount;
 
-        public Dictionary<string, int>    correct2Count;
-        public Dictionary<string, int>    correct2WordCount;
+        public correctTermInfoStruct correctTermInfo;
     }
 
 
@@ -44,6 +72,8 @@ namespace OverflowHelper.core
      ****************************************************************************/
     public class TermData
     {
+        // Key:   An incorrect term
+        // Value: A correct term
         private Dictionary<string, string> mIncorrect2Correct;
 
         //Delete at any time
@@ -68,26 +98,29 @@ namespace OverflowHelper.core
         ////  Later: perhaps get rid of it after use, to save memory.
 
 
-        private Dictionary<string, string> mCorrectTerm2URL;
+        //Delete at any time
+        //private Dictionary<string, string> mCorrectTerm2URL;
+        //
+        //// Cached information that may used for sorting (we build
+        //// it up when reading in the word list definitions):
+        ////
+        ////   Number of misspellings for each correct word. E.g.,
+        ////   for the computing the Mortensen technology
+        ////   popularity index (MTPI)
+        //private Dictionary<string, int> mCorrect2NumberOfIncorrects;
+        //
+        //// Cached information that may used for sorting (we build
+        //// it up when reading in the word list definitions):
+        ////
+        ////   Number of words for each correct term
+        ////
+        //// Example: For correct term "take the wind out of someone’s sails",
+        ////          the count would 7.
+        ////
+        //private Dictionary<string, int> mCorrect2WordCount;
 
-
-        // Cached information that may used for sorting (we build
-        // it up when reading in the word list definitions):
-        //
-        //   Number of misspellings for each correct word. E.g.,
-        //   for the computing the Mortensen technology
-        //   popularity index (MTPI)
-        private Dictionary<string, int> mCorrect2NumberOfIncorrects;
-
-        // Cached information that may used for sorting (we build
-        // it up when reading in the word list definitions):
-        //
-        //   Number of words for each correct term
-        //
-        // Example: For correct term "take the wind out of someone’s sails",
-        //          the count would 7.
-        //
-        private Dictionary<string, int> mCorrect2WordCount;
+        // Key: A correct term
+        private correctTermInfoStruct mCorrect2correctTermInfo;
 
 
         /****************************************************************************
@@ -97,11 +130,18 @@ namespace OverflowHelper.core
         {
             mIncorrect2Correct = new Dictionary<string, string>();
 
-            mCorrectTerm2URL = new Dictionary<string, string>();
+            //Delete at any time
+            //mCorrectTerm2URL = new Dictionary<string, string>();
+            //mCorrect2NumberOfIncorrects = new Dictionary<string, int>();
+            //mCorrect2WordCount = new Dictionary<string, int>();
 
-            mCorrect2NumberOfIncorrects = new Dictionary<string, int>();
-
-            mCorrect2WordCount = new Dictionary<string, int>();
+            //Perhaps better in a constructor for the struct
+            mCorrect2correctTermInfo.correctTerm2URL =
+                new Dictionary<string, string>();
+            mCorrect2correctTermInfo.correct2Count =
+                new Dictionary<string, int>();
+            mCorrect2correctTermInfo.correct2WordCount =
+                new Dictionary<string, int>();
 
             addLookupData();
 
@@ -124,9 +164,12 @@ namespace OverflowHelper.core
 
             toReturn.incorrect2Correct = mIncorrect2Correct;
 
-            toReturn.correctTerm2URL = mCorrectTerm2URL;
-            toReturn.correct2Count = mCorrect2NumberOfIncorrects;
-            toReturn.correct2WordCount = mCorrect2WordCount;
+            //Delete at any time
+            //toReturn.correctTerm2URL = mCorrectTerm2URL;
+            //toReturn.correct2Count = mCorrect2NumberOfIncorrects;
+            //toReturn.correct2WordCount = mCorrect2WordCount;
+
+            toReturn.correctTermInfo = mCorrect2correctTermInfo;
 
             return toReturn;
         }
@@ -150,7 +193,7 @@ namespace OverflowHelper.core
                 string someCorrectTerm   = hashEnumerator2.Current.Value;
 
                 string someURL;
-                if (mCorrectTerm2URL.TryGetValue(someCorrectTerm, out someURL))
+                if (mCorrect2correctTermInfo.correctTerm2URL.TryGetValue(someCorrectTerm, out someURL))
                 {
                     if (someURL == "") // As an empty string was used as a
                                        // placeholder while ingesting the
@@ -385,18 +428,18 @@ namespace OverflowHelper.core
                 // first time we have encountered a particular
                 // correct word.
                 //
-                if (mCorrectTerm2URL.TryGetValue(aCorrectedTerm,
+                if (mCorrect2correctTermInfo.correctTerm2URL.TryGetValue(aCorrectedTerm,
                                                  out someURL))
                 {
                     // If we are here then there is more than one
                     // corrected term. That is OK. That just
                     // means there is more than one misspelling!
 
-                    int count = mCorrect2NumberOfIncorrects[aCorrectedTerm];
+                     int count = mCorrect2correctTermInfo.correct2Count[aCorrectedTerm];
                     count++;
 
                     // Write back
-                    mCorrect2NumberOfIncorrects[aCorrectedTerm] = count;
+                    mCorrect2correctTermInfo.correct2Count[aCorrectedTerm] = count;
                 }
                 else
                 {
@@ -405,9 +448,9 @@ namespace OverflowHelper.core
                     // Use a placeholder at this point. We only use
                     // the keys for this part (the actual value
                     // (URL) will be added at a later stage).
-                    mCorrectTerm2URL.Add(aCorrectedTerm, "");
+                    mCorrect2correctTermInfo.correctTerm2URL.Add(aCorrectedTerm, "");
 
-                    mCorrect2NumberOfIncorrects.Add(aCorrectedTerm, 1);
+                    mCorrect2correctTermInfo.correct2Count.Add(aCorrectedTerm, 1);
 
                     // Note: We don't have any leading or trailing space
                     //
@@ -423,7 +466,7 @@ namespace OverflowHelper.core
                     }
                     words++;
 
-                    mCorrect2WordCount.Add(aCorrectedTerm, words);
+                    mCorrect2correctTermInfo.correct2WordCount.Add(aCorrectedTerm, words);
                 }
             }
         } //correctionAdd()
@@ -438,7 +481,7 @@ namespace OverflowHelper.core
             //       exists in mIncorrect2Correct.
 
             string someURL;
-            if (mCorrectTerm2URL.TryGetValue(aCorrectedTerm, out someURL))
+            if (mCorrect2correctTermInfo.correctTerm2URL.TryGetValue(aCorrectedTerm, out someURL))
             {
                 //Later: factor out.
 
@@ -449,9 +492,9 @@ namespace OverflowHelper.core
                     sanityCheck(aCorrectedTerm, aCorrectedTerm, aURL);
                     sanityCheck(aURL,           aCorrectedTerm, aURL);
 
-                    //mCorrectTerm2URL.Add(aCorrectedTerm, aURL);
-                    
-                    mCorrectTerm2URL[aCorrectedTerm] = aURL; 
+                    //mCorrect2correctTermInfo.correctTerm2URL.Add(aCorrectedTerm, aURL);
+
+                    mCorrect2correctTermInfo.correctTerm2URL[aCorrectedTerm] = aURL;
                     // Replace the placeholder
                 }
                 else
@@ -468,7 +511,7 @@ namespace OverflowHelper.core
                 // We expect that the corresponding correction mapping has
                 // already been added.
 
-                // mCorrectTerm2URL is guaranteed to have all placeholders
+                // mCorrect2correctTermInfo.correctTerm2URL is guaranteed to have all placeholders
                 // (for each correct word we have ingested), so we may be
                 // here due to inconsistent input data.
                 //
