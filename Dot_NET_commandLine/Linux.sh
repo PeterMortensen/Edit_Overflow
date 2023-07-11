@@ -2674,7 +2674,7 @@ rm $HTML_FILE
 #       2022-01-25: 3310553 bytes
 
 # Note: The same build number
-wordListExport 33 "HTML"  $HTML_FILE   4920000 5420000
+wordListExport 33 "HTML"  $HTML_FILE   5020000 5530000
 
 
 cp  $HTML_FILE  $HTML_FILE_GENERIC
