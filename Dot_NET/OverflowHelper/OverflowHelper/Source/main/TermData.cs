@@ -15646,6 +15646,7 @@ namespace OverflowHelper.core
             correctionAdd("postreg", "PostgreSQL");
             correctionAdd("postrgres", "PostgreSQL");
             correctionAdd("postrgeSQL", "PostgreSQL");
+            correctionAdd("postresql", "PostgreSQL");
 
             // The name of the executable for the corresponding
             // client for PostgreSQL (very confusing naming)
@@ -16550,6 +16551,7 @@ namespace OverflowHelper.core
             correctionAdd("FX cop", "FxCop");
             correctionAdd("fxcop", "FxCop");
             correctionAdd("FXCop", "FxCop");
+            correctionAdd("Fxcop", "FxCop");
 
             correctionAdd("Stylecop", "StyleCop");
             correctionAdd("stylecop", "StyleCop");
@@ -21091,6 +21093,7 @@ namespace OverflowHelper.core
             correctionAdd("Image", "image");
             correctionAdd("imge", "image");
             correctionAdd("Img", "image");
+            correctionAdd("iamge", "image");
 
             correctionAdd("msg", "message");
             correctionAdd("massege", "message");
@@ -21286,6 +21289,17 @@ namespace OverflowHelper.core
             //   <https://www.youtube.com/watch?v=V0aDEvmf5u0&t=2m43s>
             //
             correctionAdd("an opinion", "Well, you know, that's just like, your opinion, man");
+
+            correctionAdd("worth there salt", "worth their salt");
+
+            // Alternative URL:
+            //   <https://www.youtube.com/watch?v=VkezQMb1DHw&t=1m>
+            //
+            correctionAdd("worth a grain of salt", "with a grain of salt");
+            correctionAdd("a grain of salt", "with a grain of salt");
+            correctionAdd("grain of salt", "with a grain of salt");
+
+            correctionAdd("worhtful", "worthful");
 
             correctionAdd("correclty", "correctly");
             correctionAdd("corrdctly", "correctly");
@@ -26699,6 +26713,7 @@ namespace OverflowHelper.core
             correctionAdd("SpamGPT", "ChatGPT");
             correctionAdd("CHatGPT", "ChatGPT");
             correctionAdd("cg", "ChatGPT");
+            correctionAdd("cChatGPT", "ChatGPT");
 
             // Artificial intelligence
             correctionAdd("autoGPT", "Auto-GPT");
@@ -35966,6 +35981,7 @@ namespace OverflowHelper.core
             correctionAdd("Npm", "npm");
             correctionAdd("Node package manager", "npm");
             correctionAdd("Node Package Manager", "npm");
+            correctionAdd("mpn", "npm");
 
             correctionAdd("seperated", "separated");
             correctionAdd("separeted", "separated");
@@ -37781,6 +37797,7 @@ namespace OverflowHelper.core
 
             correctionAdd("conver", "convert");
             correctionAdd("covert", "convert");
+            correctionAdd("converte", "convert");
 
             correctionAdd("bruteforce", "brute-force attack");
             correctionAdd("bruteforce attack", "brute-force attack");
@@ -41976,6 +41993,8 @@ namespace OverflowHelper.core
             correctionAdd("Update", "update");
             correctionAdd("Updte", "update");
             correctionAdd("updte", "update");
+            correctionAdd("UPPDATE", "update");
+            correctionAdd("uppdate", "update");
 
             correctionAdd("unpdated", "updated");
             correctionAdd("Updated", "updated");
@@ -45253,8 +45272,6 @@ namespace OverflowHelper.core
             correctionAdd("Paragravity", "paragravity");
             correctionAdd("Parargrvity", "paragravity");
 
-            correctionAdd("worth there salt", "worth their salt");
-
             correctionAdd("intgers", "integers");
 
             correctionAdd("well defined", "well-defined");
@@ -45476,13 +45493,6 @@ namespace OverflowHelper.core
             correctionAdd("builting", "building");
 
             correctionAdd("UNIQ", "uniq");
-
-            // Alternative URL:
-            //   <https://www.youtube.com/watch?v=VkezQMb1DHw&t=1m>
-            //
-            correctionAdd("worth a grain of salt", "with a grain of salt");
-            correctionAdd("a grain of salt", "with a grain of salt");
-            correctionAdd("grain of salt", "with a grain of salt");
 
             correctionAdd("angel", "angle");
             correctionAdd("Angel", "angle");
@@ -54734,8 +54744,6 @@ namespace OverflowHelper.core
 
             correctionAdd("NBD", "network block device");
 
-            correctionAdd("worhtful", "worthful");
-
             correctionAdd("condoleances", "condolences");
             correctionAdd("Condoleances", "condolences");
 
@@ -55880,8 +55888,6 @@ namespace OverflowHelper.core
             correctionAdd("registerin", "registering");
             correctionAdd("Registerin", "registering");
 
-            correctionAdd("wroth", "worth");
-
             correctionAdd("it is not human", "It is not human");
             correctionAdd("not human", "It is not human");
 
@@ -56125,6 +56131,21 @@ namespace OverflowHelper.core
 
             correctionAdd("Windows RT", "Windows&nbsp;RT");
             correctionAdd("WindowsRT", "Windows&nbsp;RT");
+
+            correctionAdd("drogon", "Drogon");
+
+            correctionAdd("formidable", "Formidable");
+
+            correctionAdd("Photoscan", "Google PhotoScan");
+            correctionAdd("Google Photoscan", "Google PhotoScan");
+
+            correctionAdd("Lucas-Kanade method", "Lucas–Kanade method");
+
+            correctionAdd("Paisa", "paisa");
+
+            correctionAdd("lying to our faces", "to our faces");
+
+            correctionAdd("useages", "usages");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -86137,8 +86158,6 @@ namespace OverflowHelper.core
 
             URL_Add("south-facing", "https://www.reddit.com/r/MechanicalKeyboards/comments/dtygu1/eli5_whats_the_point_of_southfacing_leds_on/");
 
-            URL_Add("worth", "https://en.wiktionary.org/wiki/worth#Adjective");
-
             URL_Add("96%", "https://switchandclick.com/keyboard-sizes/");
 
             URL_Add("It is not human", "https://www.youtube.com/watch?v=SRKjf8b4f2E&t=1m52s");
@@ -86460,6 +86479,20 @@ namespace OverflowHelper.core
             URL_Add("weakening", "https://en.wiktionary.org/wiki/weaken#Verb");
 
             URL_Add("Windows&nbsp;RT", "https://en.wikipedia.org/wiki/Windows_RT");
+
+            URL_Add("Drogon", "https://en.wikipedia.org/wiki/Drogon_(software)");
+
+            URL_Add("Formidable", "https://www.npmjs.com/package/express-formidable");
+
+            URL_Add("Google PhotoScan", "https://en.wikipedia.org/wiki/Google_Photos#History");
+
+            URL_Add("Lucas–Kanade method", "https://en.wikipedia.org/wiki/Lucas%E2%80%93Kanade_method");
+
+            URL_Add("paisa", "https://en.wikipedia.org/wiki/Paisa");
+
+            URL_Add("to our faces", "https://idioms.thefreedictionary.com/to+our+faces");
+
+            URL_Add("usages", "https://en.wiktionary.org/wiki/usage#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -88314,8 +88347,6 @@ namespace OverflowHelper.core
 
             correctionAdd("GameDev_", "game development_");
 
-            correctionAdd("Work_", "work_");
-
             correctionAdd("Usability_", "usability_");
             correctionAdd("usability study_", "usability_");
             correctionAdd("dog fooding_", "usability_");
@@ -88511,6 +88542,7 @@ namespace OverflowHelper.core
             correctionAdd("chatgpt_", "ChatGPT_");
             correctionAdd("Chat_", "ChatGPT_");
             correctionAdd("December 2022_", "ChatGPT_");
+            correctionAdd("cg_", "ChatGPT_");
 
             correctionAdd("Resistance_", "resistance_");
 
@@ -89104,6 +89136,18 @@ namespace OverflowHelper.core
             correctionAdd("Decision Tree_", "decision tree learning_");
 
             correctionAdd("plagiarism_", "What do we do with answers that are entirely copied and improperly attributed (only a \"reference\" link or similar is included)?_");
+
+            correctionAdd("Work_", "work_");
+
+            correctionAdd("wroth_", "worth_");
+
+            correctionAdd("CV_", "computer vision_");
+            correctionAdd("Computer Vision_", "computer vision_");
+
+            correctionAdd("hallow_", "hollow_");
+
+            correctionAdd("Keychron V5 ISO_", "Keychron V5, a reasonably priced fully macro-capable QMK-based mechanical keyboard_");
+            correctionAdd("Keychron V5_", "Keychron V5, a reasonably priced fully macro-capable QMK-based mechanical keyboard_");
 
             // URL mappings
             //
@@ -89946,8 +89990,6 @@ namespace OverflowHelper.core
 
             URL_Add("game development_", "https://en.wikipedia.org/wiki/Video_game_development");
 
-            URL_Add("work_", "https://en.wiktionary.org/wiki/work#Verb");
-
             URL_Add("Information&nbsp;Security (Stack Exchange site)_", "https://security.stackexchange.com/tour");
 
             URL_Add("Project&nbsp;Management (Stack Exchange site)_", "https://pm.stackexchange.com/tour");
@@ -90565,6 +90607,16 @@ namespace OverflowHelper.core
             URL_Add("decision tree learning_", "https://en.wikipedia.org/wiki/Decision_tree_learning");
 
             URL_Add("What do we do with answers that are entirely copied and improperly attributed (only a \"reference\" link or similar is included)?_", "https://meta.stackoverflow.com/questions/321299/");
+
+            URL_Add("work_", "https://en.wiktionary.org/wiki/work#Verb");
+
+            URL_Add("worth_", "https://en.wiktionary.org/wiki/worth#Adjective");
+
+            URL_Add("computer vision_", "https://en.wikipedia.org/wiki/Computer_vision");
+
+            URL_Add("hollow_", "https://en.wiktionary.org/wiki/hollow#Adjective");
+
+            URL_Add("Keychron V5, a reasonably priced fully macro-capable QMK-based mechanical keyboard_", "https://pmortensen.eu/world2/2023/06/19/keychron-v5-a-reasonably-priced-fully-macro-capable-qmk-based-mechanical-keyboard/");
 
         } //addLookupData_alternativeWordSet()
 
