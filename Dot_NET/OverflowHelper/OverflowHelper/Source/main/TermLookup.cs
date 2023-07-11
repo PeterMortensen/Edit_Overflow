@@ -98,7 +98,7 @@ namespace OverflowHelper.core
         //// Only used if sorting by the number of words
         //// in the correct term (as the primary key)
         //private Dictionary<string, int> mCorrect2WordCount;
-        private correctTermInfoStruct mCorrect2correctTermInfo;
+        private correctTermInfoStruct mCorrectTermInfo;
 
 
         /****************************************************************************
@@ -166,10 +166,10 @@ namespace OverflowHelper.core
             mIncorrect2Correct = wordList.incorrect2Correct;
 
             //Delete at any time
-            //mCorrectTerm2URL = wordList.correctTerm2URL;
-            //mCorrect2Count = wordList.correct2Count;
-            //mCorrect2WordCount = wordList.correct2WordCount;
-            mCorrect2correctTermInfo = wordList.correctTermInfo;
+            //mCorrectTerm2URL = wordList.URLs;
+            //mCorrect2Count = wordList.incorrectTermCount;
+            //mCorrect2WordCount = wordList.wordCount;
+            mCorrectTermInfo = wordList.correctTermInfo;
 
         } //Constructor
 
@@ -198,7 +198,7 @@ namespace OverflowHelper.core
             // may already be the correct case!
             anOutCorrectedWOrd = corrStr;
             string URLStr;
-            if (mCorrect2correctTermInfo.correctTerm2URL.TryGetValue(corrStr, out URLStr))
+            if (mCorrectTermInfo.URLs.TryGetValue(corrStr, out URLStr))
             {
                 toReturn = URLStr; // We have a match!
             }
@@ -243,7 +243,7 @@ namespace OverflowHelper.core
             //Delete at any time
             //private Dictionary<string, int> mCorrect2Count;
             //private Dictionary<string, int> mCorrect2WordCount;
-            correctTermInfoStruct mCorrect2correctTermInfo;
+            correctTermInfoStruct mCorrectTermInfo;
 
 
             //****************************************************************************
@@ -272,7 +272,7 @@ namespace OverflowHelper.core
 
                 //mCorrect2Count = aCorrect2Count;
                 //mCorrect2WordCount = aCorrect2WordCount;
-                mCorrect2correctTermInfo = aCorrectTermInfo;
+                mCorrectTermInfo = aCorrectTermInfo;
 
                 int len = anIncorrect2Correct.Count;
 
@@ -324,11 +324,11 @@ namespace OverflowHelper.core
                     string primary1 = mIncorrect2Correct[secondary1];
                     string primary2 = mIncorrect2Correct[secondary2];
 
-                    int countIncorrectWords1 = mCorrect2correctTermInfo.correct2Count[primary1];
-                    int countIncorrectWords2 = mCorrect2correctTermInfo.correct2Count[primary2];
+                    int incorrectTermCount1 = mCorrectTermInfo.incorrectTermCount[primary1];
+                    int incorrectTermCount2 = mCorrectTermInfo.incorrectTermCount[primary2];
 
-                    int wordCount1 = mCorrect2correctTermInfo.correct2WordCount[primary1];
-                    int wordCount2 = mCorrect2correctTermInfo.correct2WordCount[primary2];
+                    int wordCount1 = mCorrectTermInfo.wordCount[primary1];
+                    int wordCount2 = mCorrectTermInfo.wordCount[primary2];
 
                     // For unchanged sort functionality (sorted (and
                     // grouped) by the correct term/word). To be
@@ -338,14 +338,14 @@ namespace OverflowHelper.core
                     // sort order, so they must be disabled or
                     // changed for the build script to succeed.
                     //
-                    countIncorrectWords1 = 7;
-                    countIncorrectWords2 = 7;
+                    incorrectTermCount1 = 7;
+                    incorrectTermCount2 = 7;
                     wordCount1 = 7;
                     wordCount2 = 7;
 
                     // Descending sort for the number of misspellings
                     int compareResult_count =
-                        countIncorrectWords2.CompareTo(countIncorrectWords1);
+                        incorrectTermCount2.CompareTo(incorrectTermCount1);
 
                     // Descending sort for the number
                     // of words in a correct term
@@ -927,7 +927,7 @@ namespace OverflowHelper.core
                 string someCorrectTerm = anIncorrect2Correct[someIncorrectTerm];
 
                 int misspellingCount =
-                    aCorrectTermInfo.correct2Count[someCorrectTerm];
+                    aCorrectTermInfo.incorrectTermCount[someCorrectTerm];
 
                 string msg = string.Empty; // Default: empty - flag for no errors.
 
@@ -935,7 +935,7 @@ namespace OverflowHelper.core
 
                 // On-the-fly check - during the export (but it would be
                 // better if this check was done at program startup)
-                if (aCorrectTermInfo.correctTerm2URL.ContainsKey(someIncorrectTerm))
+                if (aCorrectTermInfo.URLs.ContainsKey(someIncorrectTerm))
                 {
                     msg =
                       "Incorrect term \"" + someIncorrectTerm +
@@ -943,7 +943,7 @@ namespace OverflowHelper.core
                 }
 
                 string someURL = null;
-                if (!aCorrectTermInfo.correctTerm2URL.TryGetValue(someCorrectTerm, out someURL))
+                if (!aCorrectTermInfo.URLs.TryGetValue(someCorrectTerm, out someURL))
                 {
                     // Fail. What should we do?
 
@@ -1123,7 +1123,7 @@ namespace OverflowHelper.core
             //    ----------------------------------------------
             //    2019-12-11  9686        1925736        199
             //
-            int correctWordEntries = mCorrect2correctTermInfo.correctTerm2URL.Count;
+            int correctWordEntries = mCorrectTermInfo.URLs.Count;
             int incorrectWordEntries = mIncorrect2Correct.Count;
 
             //int capacity = 1200000;
@@ -1149,7 +1149,7 @@ namespace OverflowHelper.core
                            //ref mCorrect2Count,
                            //ref mCorrect2WordCount
 
-                           mCorrect2correctTermInfo
+                           mCorrectTermInfo
 
                            );
 
@@ -1552,7 +1552,7 @@ namespace OverflowHelper.core
             //    2019-12-11  9686        1162309          120.0
             //
             int incorrectWordEntries = anIncorrect2Correct.Count;
-            int correctWordEntries = aCorrectTermInfo.correctTerm2URL.Count;
+            int correctWordEntries = aCorrectTermInfo.URLs.Count;
 
             //int capacity = 1200000;
             //
@@ -1650,13 +1650,13 @@ namespace OverflowHelper.core
                       aCodeCheck_regularExpression,
                       aCodeCheck_AllOfExplanations,
                       ref mIncorrect2Correct,
-                      mCorrect2correctTermInfo.correctTerm2URL.Count,
+                      mCorrectTermInfo.URLs.Count,
 
                       //Delete at any time
                       //ref mCorrectTerm2URL,
                       //ref mCorrect2Count,
                       //ref mCorrect2WordCount,
-                      mCorrect2correctTermInfo,
+                      mCorrectTermInfo,
 
                       aVersionStr,
                       aDateStr);
@@ -1687,7 +1687,7 @@ namespace OverflowHelper.core
             //
             //
             int incorrectWordEntries = mIncorrect2Correct.Count;
-            int correctWordEntries = mCorrect2correctTermInfo.correctTerm2URL.Count;
+            int correctWordEntries = mCorrectTermInfo.URLs.Count;
 
             //int capacity = 1200000;
             //
@@ -1739,7 +1739,7 @@ namespace OverflowHelper.core
                            //ref mCorrect2Count,
                            //ref mCorrect2WordCount
 
-                           mCorrect2correctTermInfo
+                           mCorrectTermInfo
 
                            );
 
