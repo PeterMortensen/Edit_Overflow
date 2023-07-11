@@ -84,7 +84,7 @@ namespace OverflowHelper.Tests
                     "",
                     ", + , operators , {", // Some of it will be transformed...
                     ref aSomeCaseCorrections,
-                    aCorrectTermInfo.correctTerm2URL.Count,
+                    aCorrectTermInfo.URLs.Count,
 
                     //Delete at any time
                     //ref aSomeWord2URLs,
@@ -171,11 +171,11 @@ namespace OverflowHelper.Tests
             //    new Dictionary<string, int>();
 
             correctTermInfoStruct someCorrectTermInfo;
-            someCorrectTermInfo.correctTerm2URL =
+            someCorrectTermInfo.URLs =
                 new Dictionary<string, string>();
-            someCorrectTermInfo.correct2Count =
+            someCorrectTermInfo.incorrectTermCount =
                 new Dictionary<string, int>();
-            someCorrectTermInfo.correct2WordCount =
+            someCorrectTermInfo.wordCount =
                 new Dictionary<string, int>();
 
             string Wordlist_HTML =
@@ -297,11 +297,11 @@ namespace OverflowHelper.Tests
         {
             // First
             aCaseCorrections.Add("JS", "JavaScript");
-            aCorrectTermInfo.correctTerm2URL.Add(
+            aCorrectTermInfo.URLs.Add(
                 "JavaScript",
                 "https://en.wikipedia.org/wiki/JavaScript");
-            aCorrectTermInfo.correct2Count.Add("JavaScript", 42);
-            aCorrectTermInfo.correct2WordCount.Add("JavaScript", 1);
+            aCorrectTermInfo.incorrectTermCount.Add("JavaScript", 42);
+            aCorrectTermInfo.wordCount.Add("JavaScript", 1);
 
             // Second
             //
@@ -318,18 +318,18 @@ namespace OverflowHelper.Tests
             //
             //aCaseCorrections.Add("angstrom", "KÅngtröm Linux");
             aCaseCorrections.Add("Kngstrom", "KÅngtröm Linux");
-            aCorrectTermInfo.correctTerm2URL.Add(
+            aCorrectTermInfo.URLs.Add(
                 "KÅngtröm Linux",
                 "https://en.wikipedia.org/wiki/%C3%85ngstr%C3%B6m_distribution");
-            aCorrectTermInfo.correct2Count.Add("KÅngtröm Linux", 6);
-            aCorrectTermInfo.correct2WordCount.Add("KÅngtröm Linux", 2);
+            aCorrectTermInfo.incorrectTermCount.Add("KÅngtröm Linux", 6);
+            aCorrectTermInfo.wordCount.Add("KÅngtröm Linux", 2);
 
             // Third
             aCaseCorrections.Add("utorrent", "µTorrent");
-            aCorrectTermInfo.correctTerm2URL.Add(
+            aCorrectTermInfo.URLs.Add(
                 "µTorrent", "http://en.wikipedia.org/wiki/%CE%9CTorrent");
-            aCorrectTermInfo.correct2Count.Add("µTorrent", 1);
-            aCorrectTermInfo.correct2WordCount.Add("µTorrent", 1);
+            aCorrectTermInfo.incorrectTermCount.Add("µTorrent", 1);
+            aCorrectTermInfo.wordCount.Add("µTorrent", 1);
         } //smallWordlist()
 
 
@@ -403,11 +403,11 @@ namespace OverflowHelper.Tests
             //    new Dictionary<string, int>();
 
             correctTermInfoStruct someCorrectTermInfo;
-            someCorrectTermInfo.correctTerm2URL =
+            someCorrectTermInfo.URLs =
                 new Dictionary<string, string>();
-            someCorrectTermInfo.correct2Count =
+            someCorrectTermInfo.incorrectTermCount =
                 new Dictionary<string, int>();
-            someCorrectTermInfo.correct2WordCount =
+            someCorrectTermInfo.wordCount =
                 new Dictionary<string, int>();
 
             smallWordlist(
@@ -433,9 +433,9 @@ namespace OverflowHelper.Tests
             const int kIncorrectWords = 3;
             const int kCorrectWords = 3;
             Assert.AreEqual(incorrectWords, kIncorrectWords, "Test word list: Unexpected number of incorrect words");
-            Assert.AreEqual(someCorrectTermInfo.correctTerm2URL.Count, kCorrectWords, "Test word list: Unexpected number of URLs");
-            Assert.AreEqual(someCorrectTermInfo.correct2Count.Count, kCorrectWords, "Test word list: Unexpected number of items in hash for incorrect terms count");
-            Assert.AreEqual(someCorrectTermInfo.correct2WordCount.Count, kCorrectWords, "Test word list: Unexpected number of items in hash for correct terms word count");
+            Assert.AreEqual(someCorrectTermInfo.URLs.Count, kCorrectWords, "Test word list: Unexpected number of URLs");
+            Assert.AreEqual(someCorrectTermInfo.incorrectTermCount.Count, kCorrectWords, "Test word list: Unexpected number of items in hash for incorrect terms count");
+            Assert.AreEqual(someCorrectTermInfo.wordCount.Count, kCorrectWords, "Test word list: Unexpected number of items in hash for correct terms word count");
 
             string Wordlist_HTML =
                 wordListAsHTML(
@@ -594,11 +594,11 @@ namespace OverflowHelper.Tests
             //    new Dictionary<string, int>();
 
             correctTermInfoStruct someCorrectTermInfo;
-            someCorrectTermInfo.correctTerm2URL =
+            someCorrectTermInfo.URLs =
                 new Dictionary<string, string>();
-            someCorrectTermInfo.correct2Count =
+            someCorrectTermInfo.incorrectTermCount =
                 new Dictionary<string, int>();
-            someCorrectTermInfo.correct2WordCount =
+            someCorrectTermInfo.wordCount =
                 new Dictionary<string, int>();
 
             // Detect if we get double HTML encoding (an error - not what
@@ -626,12 +626,12 @@ namespace OverflowHelper.Tests
                 //someCaseCorrections.Add("&LT;", "&lt;");
 
                 // Only once per correct item
-                someCorrectTermInfo.correctTerm2URL.Add(
+                someCorrectTermInfo.URLs.Add(
                     "&lt;",
                     "https://www.w3.org/wiki/Common_HTML_entities_used_for_typography");
-                someCorrectTermInfo.correct2Count.Add("&lt;", 3);
+                someCorrectTermInfo.incorrectTermCount.Add("&lt;", 3);
 
-                //Note: Missing for 'someCorrectTermInfo.correct2WordCount'
+                //Note: Missing for 'someCorrectTermInfo.wordCount'
 
 
                 string Wordlist_HTML =
