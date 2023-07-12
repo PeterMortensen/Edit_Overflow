@@ -330,6 +330,9 @@ namespace OverflowHelper.core
                     int wordCount1 = mCorrectTermInfo.wordCount[primary1];
                     int wordCount2 = mCorrectTermInfo.wordCount[primary2];
 
+                    int uppercaseCount1 = mCorrectTermInfo.uppercaseCount[primary1];
+                    int uppercaseCount2 = mCorrectTermInfo.uppercaseCount[primary2];
+
                     // For unchanged sort functionality (sorted (and
                     // grouped) by the correct term/word). To be
                     // made dynamic in the future.
@@ -342,6 +345,8 @@ namespace OverflowHelper.core
                     incorrectTermCount2 = 7;
                     wordCount1 = 7;
                     wordCount2 = 7;
+                    uppercaseCount1 = 7;
+                    uppercaseCount2 = 7;
 
                     // Descending sort for the number of misspellings
                     int compareResult_count =
@@ -352,52 +357,70 @@ namespace OverflowHelper.core
                     int compareResult_wordCount =
                         wordCount2.CompareTo(wordCount1);
 
-                    if (compareResult_wordCount != 0)
+                    // Ascending sort for the number of uppercase letters.
+                    // That is, all lowercase first.
+                    int compareResult_uppercases =
+                        uppercaseCount1.CompareTo(uppercaseCount2);
+
+                    // If enabled, group all lower case from the rest.
+                    // Usually used in combination with the word
+                    // count (so the longest lower case correct
+                    // words comes first)
+                    if (compareResult_uppercases != 0)
                     {
-                        toReturn = compareResult_wordCount;
+                        toReturn = compareResult_uppercases;
                     }
                     else
                     {
-                        if (compareResult_count != 0)
+                        if (compareResult_wordCount != 0)
                         {
-                            toReturn = compareResult_count;
+                            toReturn = compareResult_wordCount;
                         }
                         else
                         {
-                            // Ascending sort for the correct word.
-                            //
-                            // It is apparently case insensitive.
-                            //
-                            int compareResult_primary = primary1.CompareTo(primary2);
-
-                            if (compareResult_primary != 0)
+                            if (compareResult_count != 0)
                             {
-                                toReturn = compareResult_primary;
+                                toReturn = compareResult_count;
                             }
                             else
                             {
-                                // The same primary key - use the
-                                // second key: incorrect term
+                                // Ascending sort for the correct word.
+                                //
+                                // It is apparently case insensitive.
+                                //
+                                int compareResult_primary = primary1.CompareTo(primary2);
 
-                                // Ascending sort for the incorrect word.
-                                int compareResult_secondary = secondary1.CompareTo(secondary2);
-
-                                if (compareResult_secondary != 0)
+                                if (compareResult_primary != 0)
                                 {
-                                    toReturn = compareResult_secondary;
+                                    toReturn = compareResult_primary;
                                 }
                                 else
                                 {
-                                    // Both keys are equal...
-                                    //
-                                    // We should never be here as the secondary
-                                    // key is unique. ASSERT?
-                                    Utility.debuggerRest();
+                                    // The same primary key - use the
+                                    // second key: incorrect term
 
-                                } // The same incorrect word.
-                            } //Different correct word
-                        } //Different number of misspellings
+                                    // Ascending sort for the incorrect word.
+                                    int compareResult_secondary = secondary1.CompareTo(secondary2);
+
+                                    if (compareResult_secondary != 0)
+                                    {
+                                        toReturn = compareResult_secondary;
+                                    }
+                                    else
+                                    {
+                                        // Both keys are equal...
+                                        //
+                                        // We should never be here as the secondary
+                                        // key is unique. ASSERT?
+                                        Utility.debuggerRest();
+
+                                    } // The same incorrect word.
+                                } //Different correct word
+                            } //Different number of misspellings
+                        }
+
                     }
+
                 }
                 else
                 {
