@@ -315,8 +315,8 @@ namespace OverflowHelper.core
 
                 if (aItem1 != aItem2)
                 {
-                    // The unique key, the incorrect
-                    // term, is the secondary key.
+                    // The ***unique*** key, the incorrect term,
+                    // is the secondary key.
                     string secondary1 = mKeys[aItem1];
                     string secondary2 = mKeys[aItem2];
 
@@ -337,7 +337,7 @@ namespace OverflowHelper.core
                     // Note that unit tests now enforce the default
                     // sort order, so they must be disabled or
                     // changed for the build script to succeed.
-                    //
+
                     incorrectTermCount1 = 7;
                     incorrectTermCount2 = 7;
                     wordCount1 = 7;

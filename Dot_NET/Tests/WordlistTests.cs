@@ -307,7 +307,7 @@ namespace OverflowHelper.Tests
             //
             // Notes:
             //
-            //   1) This does not currently sorted correctly. "Å"
+            //   1) This does not currently sort correctly. "Å"
             //      is sorted as "A".
             //
             //   2) For purposes of testing the sort order, we
@@ -340,9 +340,9 @@ namespace OverflowHelper.Tests
          *    dependent on this the application)                                    *
          *                                                                          *
          ****************************************************************************/
-        bool stringBefore(string aSomeString,
-                          string aBeforeString,
-                          string anAfterString)
+        static bool stringBefore(string aSomeString,
+                                 string aBeforeString,
+                                 string anAfterString)
         {
             int beforeIndex = aSomeString.IndexOf(aBeforeString);
             int afterIndex = aSomeString.IndexOf(anAfterString);
@@ -547,10 +547,11 @@ namespace OverflowHelper.Tests
             //     Disambiguate by adding "<td>" in front (now built
             //     into our helper function)
             //
+
             // For enforcing the ***normal sort order*** (alfanumertic
             // sort of groups of correct terms).
             Assert.IsTrue(stringBefore_EditOverflowHTML(
-              Wordlist_HTML, "JavaScript", "KÅngtröm Linux"));
+                Wordlist_HTML, "JavaScript", "KÅngtröm Linux"));
 
             // When configured for sorting by number of words. In the
             // future, this will be configurable.
@@ -794,9 +795,23 @@ namespace OverflowHelper.Tests
             Assert.AreEqual(HTMLcontent1.IndexOf("\t"), -1, "XYZ"); // Detect
             // any TABs...
 
-
         } //HTML_builder_appendOperations()
 
+
+        /****************************************************************************
+         *                                                                          *
+         *    <It doesn't really belong here, but the origin in TermData.cs>        *
+         *                                                                          *
+         ****************************************************************************/
+        [Test]
+        public void wordCount()
+        {
+            // Note: It is application-independent, so it
+            //       should be somewhere elsae
+
+            Assert.AreEqual(2, TermData.wordCount("Ångström Linux"), "XYZ");
+            Assert.AreEqual(1, TermData.wordCount("Linux"), "XYZ");
+        } //wordCount()
 
 
     } //class StringReplacerWithRegexTests

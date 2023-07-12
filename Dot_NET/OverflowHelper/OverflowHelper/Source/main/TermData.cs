@@ -155,6 +155,30 @@ namespace OverflowHelper.core
 
         /****************************************************************************
          *                                                                          *
+         *    Note: This function presumes no leading or trailing space; the        *
+         *          result will be incorrect in that case                           *
+         *                                                                          *
+         ****************************************************************************/
+        public static int wordCount(string aText)
+        {            
+            // Why isn't there built-in ***simple***
+            // way to do this???
+            int words = 0;
+            foreach (char someCharacter in aText)
+            {
+                if (someCharacter == ' ')
+                {
+                    words++;
+                }
+            }
+            words++;
+
+            return words;
+        } //wordCount()
+
+
+        /****************************************************************************
+         *                                                                          *
          *    That is, both the word mappings and the URLs for the correct words    *
          *                                                                          *
          ****************************************************************************/
@@ -435,7 +459,7 @@ namespace OverflowHelper.core
                     // corrected term. That is OK. That just
                     // means there is more than one misspelling!
 
-                     int count = mCorrectTermInfo.incorrectTermCount[aCorrectedTerm];
+                    int count = mCorrectTermInfo.incorrectTermCount[aCorrectedTerm];
                     count++;
 
                     // Write back
@@ -454,17 +478,7 @@ namespace OverflowHelper.core
 
                     // Note: We don't have any leading or trailing space
                     //
-                    // Why isn't there built-in ***simple***
-                    // way to do this???
-                    int words = 0;
-                    foreach (char someCharacter in aCorrectedTerm)
-                    {
-                        if (someCharacter == ' ')
-                        {
-                            words++;
-                        }
-                    }
-                    words++;
+                    int words = TermData.wordCount(aCorrectedTerm);
 
                     mCorrectTermInfo.wordCount.Add(aCorrectedTerm, words);
                 }
