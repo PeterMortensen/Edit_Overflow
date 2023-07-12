@@ -1711,6 +1711,7 @@ namespace OverflowHelper.core
             correctionAdd("Mango Mussolini", "Trump");
             correctionAdd("Dump", "Trump");
             correctionAdd("Conald Chump", "Trump");
+            correctionAdd("Trimp", "Trump");
 
             correctionAdd("dime a dozen", "a dime a dozen");
 
@@ -3373,6 +3374,11 @@ namespace OverflowHelper.core
 
             correctionAdd("Lambda", "AWS Lambda");
             correctionAdd("AWS lambda", "AWS Lambda");
+
+            correctionAdd("AWS Aurora", "Amazon Aurora");
+
+            correctionAdd("AWS MSK", "Amazon Managed Streaming for Apache Kafka");
+            correctionAdd("MSK", "Amazon Managed Streaming for Apache Kafka");
 
             correctionAdd("Lambda expression", "lambda expression");
             correctionAdd("lamda expression", "lambda expression");
@@ -8444,6 +8450,7 @@ namespace OverflowHelper.core
             correctionAdd("outh", "OAuth");
             correctionAdd("Aouth", "OAuth");
             correctionAdd("aouth", "OAuth");
+            correctionAdd("oath", "OAuth");
 
             correctionAdd("cryptographic message syntax", "Cryptographic Message Syntax");
 
@@ -9105,7 +9112,22 @@ namespace OverflowHelper.core
 
             correctionAdd("Northwind", "Northwind database");
 
+            correctionAdd("firebase", "Firebase");
+            correctionAdd("fire base", "Firebase");
+            correctionAdd("firebse", "Firebase");
+            correctionAdd("FireBase", "Firebase");
+
             correctionAdd("Realtime Database", "Firebase Realtime Database");
+
+            correctionAdd("FCM", "Firebase Cloud Messaging");
+            correctionAdd("fcm", "Firebase Cloud Messaging");
+
+            correctionAdd("firebaseui", "FirebaseUI");
+
+            correctionAdd("firebase cli", "Firebase CLI");
+            correctionAdd("firebase CLI", "Firebase CLI");
+
+            correctionAdd("flutterfire", "FlutterFire");
 
             correctionAdd("oracle11g", "Oracle Database 11g Release 1");
             correctionAdd("oracle 11g", "Oracle Database 11g Release 1");
@@ -16935,12 +16957,13 @@ namespace OverflowHelper.core
             correctionAdd("over reacted", "overreacted");
 
             correctionAdd("rxn", "reaction");
-
-            correctionAdd("re-activate", "reactivate");
+            correctionAdd("rection", "reaction");
 
             correctionAdd("Sabatier process", "Sabatier reaction");
 
             correctionAdd("Grignard Reaction", "Grignard reaction");
+
+            correctionAdd("re-activate", "reactivate");
 
             correctionAdd("nmos", "NMOS");
             correctionAdd("nMOS", "NMOS");
@@ -19096,6 +19119,7 @@ namespace OverflowHelper.core
             correctionAdd("V700 RGB", "Rapoo V700RGB");
             correctionAdd("V700", "Rapoo V700RGB");
             correctionAdd("V700RGB", "Rapoo V700RGB");
+            correctionAdd("Rapoo V700", "Rapoo V700RGB");
 
             // A manufacturer of mechanical keyboards, etc.
             // (e.g., 'K95')
@@ -20565,6 +20589,7 @@ namespace OverflowHelper.core
             correctionAdd("psh", "PowerShell");
             correctionAdd("powerschell", "PowerShell");
             correctionAdd("pwsh", "PowerShell");
+            correctionAdd("powersheel", "PowerShell");
 
             correctionAdd("ISE", "PowerShell ISE");
             correctionAdd("powershell ISE", "PowerShell ISE");
@@ -30040,11 +30065,6 @@ namespace OverflowHelper.core
             correctionAdd("redux", "Redux");
             correctionAdd("REDUX", "Redux");
 
-            correctionAdd("firebase", "Firebase");
-            correctionAdd("fire base", "Firebase");
-            correctionAdd("firebse", "Firebase");
-            correctionAdd("FireBase", "Firebase");
-
             correctionAdd("european", "European");
 
             correctionAdd("europe", "Europe");
@@ -34508,6 +34528,7 @@ namespace OverflowHelper.core
             correctionAdd("Next", "Next.js");
             correctionAdd("Next Js", "Next.js");
             correctionAdd("NextJs", "Next.js");
+            correctionAdd("Next js", "Next.js");
 
             correctionAdd("nestjs", "NestJS");
             correctionAdd("nest", "NestJS");
@@ -40193,6 +40214,7 @@ namespace OverflowHelper.core
             correctionAdd("steward badge", "Steward badge");
 
             correctionAdd("archaeologist", "Archaeologist badge");
+            correctionAdd("Archaeologist", "Archaeologist badge");
 
             correctionAdd("Curious", "Curious badge");
 
@@ -40201,6 +40223,7 @@ namespace OverflowHelper.core
             correctionAdd("Critic", "Critic badge");
 
             correctionAdd("tenacious", "Tenacious badge");
+            correctionAdd("Tenacious", "Tenacious badge");
 
             correctionAdd("lifeboat", "Lifeboat badge");
 
@@ -46598,6 +46621,7 @@ namespace OverflowHelper.core
             correctionAdd("net cdf", "NetCDF");
             correctionAdd("netCDF", "NetCDF");
             correctionAdd("net CDF", "NetCDF");
+            correctionAdd("nc", "NetCDF");
 
             correctionAdd("bogstandard", "bog-standard");
             correctionAdd("bog standard", "bog-standard");
@@ -49855,9 +49879,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Born Rule", "Born rule");
 
-            correctionAdd("FCM", "Firebase Cloud Messaging");
-            correctionAdd("fcm", "Firebase Cloud Messaging");
-
             correctionAdd("Enquiring", "enquiring");
 
             correctionAdd("GZIP", "gzip");
@@ -51205,7 +51226,8 @@ namespace OverflowHelper.core
 
             correctionAdd("crt", "CRT");
 
-            correctionAdd("unsung hero", "Unsung Hero");
+            correctionAdd("unsung hero", "Unsung Hero badge");
+            correctionAdd("Unsung Hero", "Unsung Hero badge");
 
             correctionAdd("high-and-dry", "high and dry");
 
@@ -52126,8 +52148,6 @@ namespace OverflowHelper.core
 
             correctionAdd("sum's", "sums");
 
-            correctionAdd("firebaseui", "FirebaseUI");
-
             correctionAdd("Thunberg", "Greta Thunberg");
 
             correctionAdd("Radon-Nikodym theorem", "Radon–Nikodym theorem");
@@ -52270,6 +52290,7 @@ namespace OverflowHelper.core
             correctionAdd("ConvNet", "convolutional neural network");
             correctionAdd("Convolutinal Neural Networks", "convolutional neural network");
             correctionAdd("Convolutional Neural Networks", "convolutional neural network");
+            correctionAdd("Convolutional Neural Network", "convolutional neural network");
 
             correctionAdd("over-formatting", "overformatting");
 
@@ -55280,6 +55301,7 @@ namespace OverflowHelper.core
             correctionAdd("going forwards", "going forward");
 
             correctionAdd("alfa-numeric", "alfanumeric");
+            correctionAdd("alfanumertic", "alfanumeric");
 
             correctionAdd("applaude", "applaud");
 
@@ -55931,8 +55953,6 @@ namespace OverflowHelper.core
             correctionAdd("u turn", "U-turn");
             correctionAdd("u-turn", "U-turn");
 
-            correctionAdd("AWS Aurora", "Amazon Aurora");
-
             correctionAdd("Sample", "sample");
 
             correctionAdd("l2tp", "Layer 2 Tunneling Protocol");
@@ -56200,6 +56220,21 @@ namespace OverflowHelper.core
             correctionAdd("lying to our faces", "to our faces");
 
             correctionAdd("useages", "usages");
+
+            correctionAdd("datacube", "data cube");
+
+            correctionAdd("dummer", "dumber");
+
+            correctionAdd("segger", "Segger");
+
+            correctionAdd("sub menu", "submenu");
+            correctionAdd("sub-menu", "submenu");
+
+            correctionAdd("syscall", "system call");
+
+            correctionAdd("under-documented", "underdocumented");
+
+            correctionAdd("silo-ing", "siloing");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -78582,7 +78617,7 @@ namespace OverflowHelper.core
 
             URL_Add("N95 respirator", "https://en.wikipedia.org/wiki/N95_respirator");
 
-            URL_Add("Unsung Hero", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/68258#68258");
+            URL_Add("Unsung Hero badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/68258#68258");
 
             URL_Add("high and dry", "https://en.wiktionary.org/wiki/high_and_dry#Adjective");
 
@@ -86548,6 +86583,26 @@ namespace OverflowHelper.core
 
             URL_Add("usages", "https://en.wiktionary.org/wiki/usage#Noun");
 
+            URL_Add("Amazon Managed Streaming for Apache Kafka", "https://aws.amazon.com/msk/");
+
+            URL_Add("data cube", "https://en.wikipedia.org/wiki/Data_cube");
+
+            URL_Add("dumber", "https://en.wiktionary.org/wiki/dumber#Adjective");
+
+            URL_Add("Firebase CLI", "https://firebase.google.com/docs/cli/");
+
+            URL_Add("FlutterFire", "https://firebase.flutter.dev/docs/overview/");
+
+            URL_Add("Segger", "https://en.wikipedia.org/wiki/Segger_Microcontroller_Systems");
+
+            URL_Add("submenu", "https://en.wiktionary.org/wiki/submenu#Noun");
+
+            URL_Add("system call", "https://en.wikipedia.org/wiki/System_call");
+
+            URL_Add("underdocumented", "https://en.wiktionary.org/wiki/underdocumented#Adjective");
+
+            URL_Add("siloing", "https://en.wiktionary.org/wiki/silo#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -88169,6 +88224,7 @@ namespace OverflowHelper.core
             correctionAdd("Makre_", "make_");
             correctionAdd("makre_", "make_");
             correctionAdd("amke_", "make_");
+            correctionAdd("Make_", "make_");
 
             correctionAdd("won_", "own_");
 
@@ -89154,6 +89210,7 @@ namespace OverflowHelper.core
 
             correctionAdd("muss_", "must_");
             correctionAdd("mast_", "must_");
+            correctionAdd("mudt_", "must_");
 
             // Alternative URL: <https://en.wiktionary.org/wiki/PIP#Noun>
             //
@@ -89188,8 +89245,7 @@ namespace OverflowHelper.core
             correctionAdd("oracles_", "blockchain oracle_");
 
             correctionAdd("Decision Tree_", "decision tree learning_");
-
-            correctionAdd("plagiarism_", "What do we do with answers that are entirely copied and improperly attributed (only a \"reference\" link or similar is included)?_");
+            correctionAdd("decision tree_", "decision tree learning_");
 
             correctionAdd("Work_", "work_");
 
@@ -89202,6 +89258,12 @@ namespace OverflowHelper.core
 
             correctionAdd("Keychron V5 ISO_", "Keychron V5, a reasonably priced fully macro-capable QMK-based mechanical keyboard_");
             correctionAdd("Keychron V5_", "Keychron V5, a reasonably priced fully macro-capable QMK-based mechanical keyboard_");
+
+            // Note: The correct term is currently too long
+            //       for our database item... (146 maximum?)
+            correctionAdd("plagiarism_", "What do we do with answers that are entirely copied and improperly attributed (only a \"reference\" link or similar is included)?_");
+
+            correctionAdd("exclode_", "explode_");
 
             // URL mappings
             //
@@ -90671,6 +90733,8 @@ namespace OverflowHelper.core
             URL_Add("hollow_", "https://en.wiktionary.org/wiki/hollow#Adjective");
 
             URL_Add("Keychron V5, a reasonably priced fully macro-capable QMK-based mechanical keyboard_", "https://pmortensen.eu/world2/2023/06/19/keychron-v5-a-reasonably-priced-fully-macro-capable-qmk-based-mechanical-keyboard/");
+
+            URL_Add("explode_", "https://en.wiktionary.org/wiki/explode#Verb");
 
         } //addLookupData_alternativeWordSet()
 
