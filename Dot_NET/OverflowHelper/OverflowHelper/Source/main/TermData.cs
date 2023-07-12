@@ -50,6 +50,20 @@ namespace OverflowHelper.core
         //          the count would 7.
         public Dictionary<string, int>    wordCount;
                                           //mCorrect2WordCount
+
+        public static correctTermInfoStruct CreateDefaultInstance()
+        {
+            correctTermInfoStruct toReturn;
+            toReturn.URLs = new Dictionary<string, string>();
+            toReturn.incorrectTermCount = new Dictionary<string, int>();
+            toReturn.wordCount = new Dictionary<string, int>();
+            return toReturn;
+        }
+
+        //public void init()
+        //{
+        //    URLs = new Dictionary<string, string>();
+        //}
     }
 
 
@@ -135,13 +149,18 @@ namespace OverflowHelper.core
             //mCorrect2NumberOfIncorrects = new Dictionary<string, int>();
             //mCorrect2WordCount = new Dictionary<string, int>();
 
-            //Perhaps better in a constructor for the struct
-            mCorrectTermInfo.URLs =
-                new Dictionary<string, string>();
-            mCorrectTermInfo.incorrectTermCount =
-                new Dictionary<string, int>();
-            mCorrectTermInfo.wordCount =
-                new Dictionary<string, int>();
+            //Delete at any time
+            ////Perhaps better in a constructor for the struct
+            //mCorrectTermInfo.URLs =
+            //    new Dictionary<string, string>();
+            //mCorrectTermInfo.incorrectTermCount =
+            //    new Dictionary<string, int>();
+            //mCorrectTermInfo.wordCount =
+            //    new Dictionary<string, int>();
+
+            mCorrectTermInfo = correctTermInfoStruct.CreateDefaultInstance();
+
+
 
             addLookupData();
 
@@ -160,7 +179,7 @@ namespace OverflowHelper.core
          *                                                                          *
          ****************************************************************************/
         public static int wordCount(string aText)
-        {            
+        {
             // Why isn't there built-in ***simple***
             // way to do this???
             int words = 0;

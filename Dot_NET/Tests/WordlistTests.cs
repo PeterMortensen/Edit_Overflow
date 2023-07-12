@@ -66,15 +66,7 @@ namespace OverflowHelper.Tests
          ****************************************************************************/
         private string wordListAsHTML(
             Dictionary<string, string> aSomeCaseCorrections,
-
-            //Delete at any time
-            //Dictionary<string, string> aSomeWord2URLs,
-            //Dictionary<string, int> aCorrect2Count,
-            //Dictionary<string, int> aCorrect2WordCount
-
-            correctTermInfoStruct aCorrectTermInfo
-
-            )
+            correctTermInfoStruct aCorrectTermInfo)
         {
             //EditorOverflowApplication app = new EditorOverflowApplication_Windows();
             EditorOverflowApplication app = new EditorOverflowApplication_Unix();
@@ -170,26 +162,20 @@ namespace OverflowHelper.Tests
             //Dictionary<string, int> someCorrect2WordCount =
             //    new Dictionary<string, int>();
 
-            correctTermInfoStruct someCorrectTermInfo;
-            someCorrectTermInfo.URLs =
-                new Dictionary<string, string>();
-            someCorrectTermInfo.incorrectTermCount =
-                new Dictionary<string, int>();
-            someCorrectTermInfo.wordCount =
-                new Dictionary<string, int>();
+            //Delete at any time
+            //correctTermInfoStruct someCorrectTermInfo;
+            //someCorrectTermInfo.URLs =
+            //    new Dictionary<string, string>();
+            //someCorrectTermInfo.incorrectTermCount =
+            //    new Dictionary<string, int>();
+            //someCorrectTermInfo.wordCount =
+            //    new Dictionary<string, int>();
+
+            correctTermInfoStruct someCorrectTermInfo = 
+              correctTermInfoStruct.CreateDefaultInstance();
 
             string Wordlist_HTML =
-                wordListAsHTML(
-                    someCaseCorrections,
-
-                    //Delete at any time
-                    //someWord2URLs,
-                    //someCorrect2Count,
-                    //someCorrect2WordCount
-
-                    someCorrectTermInfo
-
-                    );
+                wordListAsHTML(someCaseCorrections, someCorrectTermInfo);
 
             int len = Wordlist_HTML.Length;
 
@@ -285,15 +271,7 @@ namespace OverflowHelper.Tests
          ****************************************************************************/
         private void smallWordlist(
             ref Dictionary<string, string> aCaseCorrections,
-
-            //Delete at any time
-            //ref Dictionary<string, string> aWord2URLs,
-            //ref Dictionary<string, int> aCorrect2Count,
-            //ref Dictionary<string, int> aCorrect2WordCount
-
-            correctTermInfoStruct aCorrectTermInfo
-
-            )
+            correctTermInfoStruct aCorrectTermInfo)
         {
             // First
             aCaseCorrections.Add("JS", "JavaScript");
@@ -402,13 +380,17 @@ namespace OverflowHelper.Tests
             //Dictionary<string, int> someCorrect2WordCount =
             //    new Dictionary<string, int>();
 
-            correctTermInfoStruct someCorrectTermInfo;
-            someCorrectTermInfo.URLs =
-                new Dictionary<string, string>();
-            someCorrectTermInfo.incorrectTermCount =
-                new Dictionary<string, int>();
-            someCorrectTermInfo.wordCount =
-                new Dictionary<string, int>();
+            //Delete at any time
+            //correctTermInfoStruct someCorrectTermInfo;
+            //someCorrectTermInfo.URLs =
+            //    new Dictionary<string, string>();
+            //someCorrectTermInfo.incorrectTermCount =
+            //    new Dictionary<string, int>();
+            //someCorrectTermInfo.wordCount =
+            //    new Dictionary<string, int>();
+
+            correctTermInfoStruct someCorrectTermInfo = 
+              correctTermInfoStruct.CreateDefaultInstance();
 
             smallWordlist(
                 ref someCaseCorrections,
@@ -594,13 +576,17 @@ namespace OverflowHelper.Tests
             //Dictionary<string, int> someCorrect2WordCount =
             //    new Dictionary<string, int>();
 
-            correctTermInfoStruct someCorrectTermInfo;
-            someCorrectTermInfo.URLs =
-                new Dictionary<string, string>();
-            someCorrectTermInfo.incorrectTermCount =
-                new Dictionary<string, int>();
-            someCorrectTermInfo.wordCount =
-                new Dictionary<string, int>();
+            //Delete at any time
+            //correctTermInfoStruct someCorrectTermInfo;
+            //someCorrectTermInfo.URLs =
+            //    new Dictionary<string, string>();
+            //someCorrectTermInfo.incorrectTermCount =
+            //    new Dictionary<string, int>();
+            //someCorrectTermInfo.wordCount =
+            //    new Dictionary<string, int>();
+
+            correctTermInfoStruct someCorrectTermInfo = 
+              correctTermInfoStruct.CreateDefaultInstance();
 
             // Detect if we get double HTML encoding (an error - not what
             // we want. For example, order matters in escapeHTML()
@@ -633,7 +619,6 @@ namespace OverflowHelper.Tests
                 someCorrectTermInfo.incorrectTermCount.Add("&lt;", 3);
 
                 //Note: Missing for 'someCorrectTermInfo.wordCount'
-
 
                 string Wordlist_HTML =
                     wordListAsHTML(
@@ -811,6 +796,23 @@ namespace OverflowHelper.Tests
 
             Assert.AreEqual(2, TermData.wordCount("Ångström Linux"), "XYZ");
             Assert.AreEqual(1, TermData.wordCount("Linux"), "XYZ");
+        } //wordCount()
+
+
+        /****************************************************************************
+         *                                                                          *
+         *    <It doesn't really belong here, but the origin in TermData.cs>        *
+         *                                                                          *
+         ****************************************************************************/
+        [Test]
+        public void correctTermInfoInitialisation()
+        {
+            correctTermInfoStruct someCorrectTermInfo = 
+              correctTermInfoStruct.CreateDefaultInstance();
+
+            Assert.AreNotEqual(null, someCorrectTermInfo.URLs, "XYZ");
+            Assert.AreNotEqual(null, someCorrectTermInfo.incorrectTermCount, "XYZ");
+            Assert.AreNotEqual(null, someCorrectTermInfo.wordCount, "XYZ");
         } //wordCount()
 
 
