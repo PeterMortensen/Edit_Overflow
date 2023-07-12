@@ -39,7 +39,6 @@ namespace OverflowHelper.core
         //   for the computing the Mortensen technology
         //   popularity index (MTPI)
         public Dictionary<string, int>    incorrectTermCount;
-                                          //mCorrect2NumberOfIncorrects
 
         // Cached information that may used for sorting (we build
         // it up when reading in the word list definitions):
@@ -49,7 +48,15 @@ namespace OverflowHelper.core
         // Example: For correct term "take the wind out of someone’s sails",
         //          the count would 7.
         public Dictionary<string, int>    wordCount;
-                                          //mCorrect2WordCount
+
+        // Cached information that may used for sorting (we build
+        // it up when reading in the word list definitions):
+        //
+        //   Number of uppercase letter for each correct term.
+        //   We use it for grouping idioms, etc. closer 
+        //   together (in the sort of the wordlist).
+        public Dictionary<string, int> uppercaseCount;
+
 
         public static correctTermInfoStruct CreateDefaultInstance()
         {
@@ -57,6 +64,7 @@ namespace OverflowHelper.core
             toReturn.URLs = new Dictionary<string, string>();
             toReturn.incorrectTermCount = new Dictionary<string, int>();
             toReturn.wordCount = new Dictionary<string, int>();
+            toReturn.uppercaseCount = new Dictionary<string, int>();
             return toReturn;
         }
 
@@ -71,11 +79,6 @@ namespace OverflowHelper.core
     public struct termListStruct
     {
         public Dictionary<string, string> incorrect2Correct;
-
-        //Delete at any time
-        //public Dictionary<string, string> URLs;
-        //public Dictionary<string, int>    incorrectTermCount;
-        //public Dictionary<string, int>    wordCount;
 
         public correctTermInfoStruct correctTermInfo;
     }
@@ -198,6 +201,25 @@ namespace OverflowHelper.core
 
         /****************************************************************************
          *                                                                          *
+         *   Return the number of uppercase letters in the given string             *
+         *                                                                          *
+         ****************************************************************************/
+        public static int uppercases(string aText)
+        {
+            int uppers = 0;
+            foreach (char someCharacter in aText)
+            {
+                if (char.IsUpper(someCharacter))
+                {
+                    uppers++;
+                }
+            }
+            return uppers;
+        } //wordCount()
+
+
+        /****************************************************************************
+         *                                                                          *
          *    That is, both the word mappings and the URLs for the correct words    *
          *                                                                          *
          ****************************************************************************/
@@ -206,11 +228,6 @@ namespace OverflowHelper.core
             termListStruct toReturn;
 
             toReturn.incorrect2Correct = mIncorrect2Correct;
-
-            //Delete at any time
-            //toReturn.URLs = mCorrectTerm2URL;
-            //toReturn.incorrectTermCount = mCorrect2NumberOfIncorrects;
-            //toReturn.wordCount = mCorrect2WordCount;
 
             toReturn.correctTermInfo = mCorrectTermInfo;
 
@@ -498,8 +515,10 @@ namespace OverflowHelper.core
                     // Note: We don't have any leading or trailing space
                     //
                     int words = TermData.wordCount(aCorrectedTerm);
-
                     mCorrectTermInfo.wordCount.Add(aCorrectedTerm, words);
+
+                    int uppercases = TermData.uppercases(aCorrectedTerm);
+                    mCorrectTermInfo.uppercaseCount.Add(aCorrectedTerm, uppercases);
                 }
             }
         } //correctionAdd()

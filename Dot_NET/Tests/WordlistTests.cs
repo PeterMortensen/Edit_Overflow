@@ -171,7 +171,7 @@ namespace OverflowHelper.Tests
             //someCorrectTermInfo.wordCount =
             //    new Dictionary<string, int>();
 
-            correctTermInfoStruct someCorrectTermInfo = 
+            correctTermInfoStruct someCorrectTermInfo =
               correctTermInfoStruct.CreateDefaultInstance();
 
             string Wordlist_HTML =
@@ -280,6 +280,7 @@ namespace OverflowHelper.Tests
                 "https://en.wikipedia.org/wiki/JavaScript");
             aCorrectTermInfo.incorrectTermCount.Add("JavaScript", 42);
             aCorrectTermInfo.wordCount.Add("JavaScript", 1);
+            aCorrectTermInfo.uppercaseCount.Add("JavaScript", 2);
 
             // Second
             //
@@ -289,25 +290,36 @@ namespace OverflowHelper.Tests
             //      is sorted as "A".
             //
             //   2) For purposes of testing the sort order, we
-            //      changed "Ångström Linux" to "KÅngtröm Linux"
+            //      changed "Ångström Linux" to "Kångtröm linux"
             //      (expected to be after "JavaScript" in the
             //       normal sort order, but before if sorted
             //       words in the correct term)
             //
-            //aCaseCorrections.Add("angstrom", "KÅngtröm Linux");
-            aCaseCorrections.Add("Kngstrom", "KÅngtröm Linux");
+            //aCaseCorrections.Add("angstrom", "Kångtröm linux");
+            aCaseCorrections.Add("Kngstrom", "Kångtröm linux");
             aCorrectTermInfo.URLs.Add(
-                "KÅngtröm Linux",
+                "Kångtröm linux",
                 "https://en.wikipedia.org/wiki/%C3%85ngstr%C3%B6m_distribution");
-            aCorrectTermInfo.incorrectTermCount.Add("KÅngtröm Linux", 6);
-            aCorrectTermInfo.wordCount.Add("KÅngtröm Linux", 2);
+            aCorrectTermInfo.incorrectTermCount.Add("Kångtröm linux", 6);
+            aCorrectTermInfo.wordCount.Add("Kångtröm linux", 2);
+            aCorrectTermInfo.uppercaseCount.Add("Kångtröm linux", 1);
+
+            //// Third
+            //aCaseCorrections.Add("utorrent", "µTorrent");
+            //aCorrectTermInfo.URLs.Add(
+            //    "µTorrent", "http://en.wikipedia.org/wiki/%CE%9CTorrent");
+            //aCorrectTermInfo.incorrectTermCount.Add("µTorrent", 1);
+            //aCorrectTermInfo.wordCount.Add("µTorrent", 1);
+            //aCorrectTermInfo.uppercaseCount.Add("µTorrent", 1);
 
             // Third
-            aCaseCorrections.Add("utorrent", "µTorrent");
+            aCaseCorrections.Add("utorrent", "tor 7777");
             aCorrectTermInfo.URLs.Add(
-                "µTorrent", "http://en.wikipedia.org/wiki/%CE%9CTorrent");
-            aCorrectTermInfo.incorrectTermCount.Add("µTorrent", 1);
-            aCorrectTermInfo.wordCount.Add("µTorrent", 1);
+                "tor 7777", "http://en.wikipedia.org/wiki/%CE%9CTorrent");
+            aCorrectTermInfo.incorrectTermCount.Add("tor 7777", 1);
+            aCorrectTermInfo.wordCount.Add("tor 7777", 2);
+            aCorrectTermInfo.uppercaseCount.Add("tor 7777", 0);
+
         } //smallWordlist()
 
 
@@ -389,7 +401,7 @@ namespace OverflowHelper.Tests
             //someCorrectTermInfo.wordCount =
             //    new Dictionary<string, int>();
 
-            correctTermInfoStruct someCorrectTermInfo = 
+            correctTermInfoStruct someCorrectTermInfo =
               correctTermInfoStruct.CreateDefaultInstance();
 
             smallWordlist(
@@ -510,6 +522,14 @@ namespace OverflowHelper.Tests
             //TestContext.WriteLine("\nThe HTML for the word list in the tests:\n\n");
             //TestContext.WriteLine(Wordlist_HTML);
 
+            // Note: Part of these tests only tests the correct
+            //       setup of our test data. It does ***NOT***
+            //       test the correct functioning of building
+            //       datastructures in TermData.cs...
+            //
+            //       But it does test the correct configuration
+            //       and functioning of the sort.
+            //
             // For now: Some test for the sort order. This is crude as we
             //          only test for the relative positions of items.
             //          We ought to directly test the sorted list, but
@@ -530,15 +550,20 @@ namespace OverflowHelper.Tests
             //     into our helper function)
             //
 
-            // For enforcing the ***normal sort order*** (alfanumertic
+            // For enforcing the ***normal sort order*** (alfanumeric
             // sort of groups of correct terms).
             Assert.IsTrue(stringBefore_EditOverflowHTML(
-                Wordlist_HTML, "JavaScript", "KÅngtröm Linux"));
+                Wordlist_HTML, "JavaScript", "Kångtröm linux"));
+            Assert.IsTrue(stringBefore_EditOverflowHTML(
+                Wordlist_HTML, "Kångtröm linux", "tor 7777"));
 
-            // When configured for sorting by number of words. In the
+            // When configured for sorting by number of words, with
+            // all lowercase first. In the
             // future, this will be configurable.
             //Assert.IsTrue(stringBefore_EditOverflowHTML(
-            //    Wordlist_HTML, "KÅngtröm Linux", "JavaScript"));
+            //    Wordlist_HTML, "tor 7777", "Kångtröm linux"));
+            //Assert.IsTrue(stringBefore_EditOverflowHTML(
+            //    Wordlist_HTML, "Kångtröm linux", "JavaScript"));
 
         } //HTMLexport_fixedWordList()
 
@@ -585,7 +610,7 @@ namespace OverflowHelper.Tests
             //someCorrectTermInfo.wordCount =
             //    new Dictionary<string, int>();
 
-            correctTermInfoStruct someCorrectTermInfo = 
+            correctTermInfoStruct someCorrectTermInfo =
               correctTermInfoStruct.CreateDefaultInstance();
 
             // Detect if we get double HTML encoding (an error - not what
@@ -796,6 +821,12 @@ namespace OverflowHelper.Tests
 
             Assert.AreEqual(2, TermData.wordCount("Ångström Linux"), "XYZ");
             Assert.AreEqual(1, TermData.wordCount("Linux"), "XYZ");
+
+            Assert.AreEqual(1, TermData.uppercases("Linux"), "XYZ");
+            Assert.AreEqual(0, TermData.uppercases("linux"), "XYZ");
+            Assert.AreEqual(3, TermData.uppercases("LiNuX"), "XYZ");
+            Assert.AreEqual(1, TermData.uppercases("Kångtröm linux"), "XYZ");
+
         } //wordCount()
 
 
@@ -807,12 +838,13 @@ namespace OverflowHelper.Tests
         [Test]
         public void correctTermInfoInitialisation()
         {
-            correctTermInfoStruct someCorrectTermInfo = 
+            correctTermInfoStruct someCorrectTermInfo =
               correctTermInfoStruct.CreateDefaultInstance();
 
             Assert.AreNotEqual(null, someCorrectTermInfo.URLs, "XYZ");
             Assert.AreNotEqual(null, someCorrectTermInfo.incorrectTermCount, "XYZ");
             Assert.AreNotEqual(null, someCorrectTermInfo.wordCount, "XYZ");
+            Assert.AreNotEqual(null, someCorrectTermInfo.uppercaseCount, "XYZ");
         } //wordCount()
 
 
