@@ -53,7 +53,7 @@ namespace OverflowHelper.core
         // it up when reading in the word list definitions):
         //
         //   Number of uppercase letter for each correct term.
-        //   We use it for grouping idioms, etc. closer 
+        //   We use it for grouping idioms, etc. closer
         //   together (in the sort of the wordlist).
         public Dictionary<string, int> uppercaseCount;
 
@@ -839,6 +839,31 @@ namespace OverflowHelper.core
 
             correctionAdd("dc", "DC"); // Note: Collision with "domain controller" (Windows Server).
             correctionAdd("Dc", "DC");
+
+            correctionAdd("manu", "menu");
+            correctionAdd("munu", "menu");
+            correctionAdd("Menu", "menu");
+            correctionAdd("menue", "menu");
+
+            correctionAdd("menues", "menus");
+
+            correctionAdd("sub menu", "submenu");
+            correctionAdd("sub-menu", "submenu");
+
+            correctionAdd("contextmenu", "context menu");
+            correctionAdd("Context Menu", "context menu");
+
+            correctionAdd("dropdown", "drop-down menu");
+            correctionAdd("Drop-down", "drop-down menu");
+            correctionAdd("Drop-Down", "drop-down menu");
+            correctionAdd("drop-down", "drop-down menu");
+            correctionAdd("drop down", "drop-down menu");
+            correctionAdd("drowndown", "drop-down menu");
+            correctionAdd("dopdowsn", "drop-down menu");
+            correctionAdd("dropdowsn", "drop-down menu");
+            correctionAdd("Dropdown list", "drop-down menu");
+            correctionAdd("drop-down list", "drop-down menu");
+            correctionAdd("dropdown list", "drop-down menu");
 
             correctionAdd("APP Domains", "application domain");
             correctionAdd("APP Domain", "application domain");
@@ -10954,6 +10979,7 @@ namespace OverflowHelper.core
             correctionAdd("tex.stackexchange", "TeX&nbsp;-&nbsp;LaTeX (Stack Exchange site)");
             correctionAdd("TeX - LaTeX (Stack Exchange site)", "TeX&nbsp;-&nbsp;LaTeX (Stack Exchange site)");
             correctionAdd("TeX&nbsp;-&nbsp;LaTeX", "TeX&nbsp;-&nbsp;LaTeX (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("Tex-LaTeX", "TeX&nbsp;-&nbsp;LaTeX (Stack Exchange site)");
 
             correctionAdd("Puzzling", "Puzzling (Stack Exchange site)");
             correctionAdd("Puzzling.SE", "Puzzling (Stack Exchange site)");
@@ -11149,6 +11175,15 @@ namespace OverflowHelper.core
             correctionAdd("Programming Language Design and Implementation (Stack Exchange site)", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("PLDI", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)");
+            correctionAdd("Programming Language and Implementation", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)");
+
+            correctionAdd("Amateur Radio", "Amateur&nbsp;Radio (Stack Exchange site)");
+            correctionAdd("Amateur Radio (Stack Exchange site)", "Amateur&nbsp;Radio (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("Amateur&nbsp;Radio", "Amateur&nbsp;Radio (Stack Exchange site)"); // Sort of identity mapping
+
+            correctionAdd("Vi and Vim", "Vi&nbsp;and&nbsp;Vim (Stack Exchange site)");
+            correctionAdd("Vi and Vim (Stack Exchange site)", "Vi&nbsp;and&nbsp;Vim (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("Vi&nbsp;and&nbsp;Vim", "Vi&nbsp;and&nbsp;Vim (Stack Exchange site)"); // Sort of identity mapping
 
             correctionAdd("piece of shit", "POS");
             correctionAdd("p.o.s", "POS");
@@ -33421,11 +33456,6 @@ namespace OverflowHelper.core
 
             correctionAdd("hidding", "hiding");
 
-            correctionAdd("manu", "menu");
-            correctionAdd("munu", "menu");
-            correctionAdd("Menu", "menu");
-            correctionAdd("menue", "menu");
-
             correctionAdd("mising", "missing");
             correctionAdd("missings", "missing");
 
@@ -33915,6 +33945,7 @@ namespace OverflowHelper.core
             correctionAdd("throrough", "thorough");
             correctionAdd("throurough", "thorough");
             correctionAdd("Throurough", "thorough");
+            correctionAdd("thougrough", "thorough");
 
             correctionAdd("usuallally", "usually");
             correctionAdd("usally", "usually");
@@ -35170,6 +35201,7 @@ namespace OverflowHelper.core
             correctionAdd("phychich", "psychic");
             correctionAdd("phycic", "psychic");
             correctionAdd("psichic", "psychic");
+            correctionAdd("phycich", "psychic");
 
             correctionAdd("alibaba", "Alibaba");
 
@@ -39575,18 +39607,6 @@ namespace OverflowHelper.core
             correctionAdd("confinent", "confinement");
 
             correctionAdd("deserve's", "deserves");
-
-            correctionAdd("dropdown", "drop-down menu");
-            correctionAdd("Drop-down", "drop-down menu");
-            correctionAdd("Drop-Down", "drop-down menu");
-            correctionAdd("drop-down", "drop-down menu");
-            correctionAdd("drop down", "drop-down menu");
-            correctionAdd("drowndown", "drop-down menu");
-            correctionAdd("dopdowsn", "drop-down menu");
-            correctionAdd("dropdowsn", "drop-down menu");
-            correctionAdd("Dropdown list", "drop-down menu");
-            correctionAdd("drop-down list", "drop-down menu");
-            correctionAdd("dropdown list", "drop-down menu");
 
             correctionAdd("FreeCodeCamp", "freeCodeCamp");
             correctionAdd("Free code camp", "freeCodeCamp");
@@ -45029,6 +45049,7 @@ namespace OverflowHelper.core
             correctionAdd("ETH Zurich", "ETH Zürich");
 
             correctionAdd("bachelors", "bachelor's degree");
+            correctionAdd("bachelor's", "bachelor's degree");
 
             correctionAdd("Carriage Return", "carriage return");
             correctionAdd("c/r", "carriage return");
@@ -51763,8 +51784,6 @@ namespace OverflowHelper.core
             correctionAdd("low quality", "low-quality");
             correctionAdd("Low Quality", "low-quality");
 
-            correctionAdd("menues", "menus");
-
             correctionAdd("Agner Fog's optimization manuals", "Agner Fog's optimisation manuals");
 
             correctionAdd("hardcoding", "hard coding");
@@ -52181,9 +52200,6 @@ namespace OverflowHelper.core
             correctionAdd("truthyness", "truthiness");
 
             correctionAdd("truthi", "truthy");
-
-            correctionAdd("contextmenu", "context menu");
-            correctionAdd("Context Menu", "context menu");
 
             correctionAdd("non linearity", "nonlinearity");
 
@@ -56225,16 +56241,26 @@ namespace OverflowHelper.core
 
             correctionAdd("dummer", "dumber");
 
+            // Company with products for embedded software development
             correctionAdd("segger", "Segger");
-
-            correctionAdd("sub menu", "submenu");
-            correctionAdd("sub-menu", "submenu");
 
             correctionAdd("syscall", "system call");
 
             correctionAdd("under-documented", "underdocumented");
 
             correctionAdd("silo-ing", "siloing");
+
+            correctionAdd("wimbledon", "2023 Wimbledon Championships");
+
+            correctionAdd("nature", "Nature");
+
+            correctionAdd("TANSTAAFL", "there ain't no such thing as a free lunch");
+
+            correctionAdd("einsteinian", "Einsteinian");
+
+            correctionAdd("trouble-some", "troublesome");
+
+            correctionAdd("type-safety", "type safety");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -86602,6 +86628,22 @@ namespace OverflowHelper.core
             URL_Add("underdocumented", "https://en.wiktionary.org/wiki/underdocumented#Adjective");
 
             URL_Add("siloing", "https://en.wiktionary.org/wiki/silo#Verb");
+
+            URL_Add("2023 Wimbledon Championships", "https://en.wikipedia.org/wiki/2023_Wimbledon_Championships_%E2%80%93_Men%27s_singles");
+
+            URL_Add("Nature", "https://en.wikipedia.org/wiki/Nature_(journal)");
+
+            URL_Add("there ain't no such thing as a free lunch", "https://en.wiktionary.org/wiki/TANSTAAFL#Phrase");
+
+            URL_Add("Amateur&nbsp;Radio (Stack Exchange site)", "https://ham.stackexchange.com/tour");
+
+            URL_Add("Einsteinian", "https://en.wiktionary.org/wiki/Einsteinian#Adjective");
+
+            URL_Add("troublesome", "https://en.wiktionary.org/wiki/troublesome#Adjective");
+
+            URL_Add("type safety", "https://en.wiktionary.org/wiki/type_safety#Noun");
+
+            URL_Add("Vi&nbsp;and&nbsp;Vim (Stack Exchange site)", "https://vi.stackexchange.com/tour");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
