@@ -4325,6 +4325,7 @@ namespace OverflowHelper.core
             correctionAdd("light-year", "light year");
             correctionAdd("ly", "light year");
             correctionAdd("Light-year", "light year");
+            correctionAdd("LY", "light year");
 
             correctionAdd("G ly", "gigalightyear");
             correctionAdd("Gly", "gigalightyear");
@@ -11143,6 +11144,7 @@ namespace OverflowHelper.core
             correctionAdd("math stackexchange", "Mathematics (Stack Exchange site)");
             correctionAdd("math.se", "Mathematics (Stack Exchange site)");
             correctionAdd("MathSE", "Mathematics (Stack Exchange site)");
+            correctionAdd("math.SE", "Mathematics (Stack Exchange site)");
 
             correctionAdd("pets", "Pets (Stack Exchange site)");
             correctionAdd("Pets", "Pets (Stack Exchange site)");
@@ -19214,7 +19216,7 @@ namespace OverflowHelper.core
             correctionAdd("CORSAIR", "Corsair");
             correctionAdd("Corsaire", "Corsair");
 
-            // A full-size mechanical keyboard from Cooler Master
+            // A full-size mechanical keyboard from Corsair
             //
             // Alternative URL:
             //
@@ -19223,6 +19225,9 @@ namespace OverflowHelper.core
             correctionAdd("Corsair K70", "Corsair K70 RGB PRO");
             correctionAdd("K70", "Corsair K70 RGB PRO");
             correctionAdd("k70", "Corsair K70 RGB PRO");
+
+            correctionAdd("K95", "Corsair K95 RGB");
+            correctionAdd("Corsair K95", "Corsair K95 RGB");
 
             // Bloatware for Corsair keyboards
             //
@@ -25958,6 +25963,7 @@ namespace OverflowHelper.core
             correctionAdd("garbage collection", "GC");
             correctionAdd("garbagge collection", "GC");
             correctionAdd("Garbage Collection", "GC");
+            correctionAdd("garbage-collection", "GC");
 
             correctionAdd("uri", "URI");
             correctionAdd("Uri", "URI");
@@ -34639,6 +34645,7 @@ namespace OverflowHelper.core
             correctionAdd("artefacts", "artefact");
             correctionAdd("artfacts", "artefact");
             correctionAdd("artifacts", "artefact");
+            correctionAdd("aritfact", "artefact");
 
             correctionAdd("easyest", "easiest");
             correctionAdd("easist", "easiest");
@@ -35137,6 +35144,7 @@ namespace OverflowHelper.core
             correctionAdd("step by step", "step-by-step");
             correctionAdd("Step by step", "step-by-step");
             correctionAdd("Step by Step", "step-by-step");
+            correctionAdd("steps by step", "step-by-step");
 
             correctionAdd("creative commons", "Creative Commons licence");
             correctionAdd("Creative Common", "Creative Commons licence");
@@ -40745,6 +40753,7 @@ namespace OverflowHelper.core
             correctionAdd("Proxima Centuri", "Proxima Centauri");
             correctionAdd("Proxima", "Proxima Centauri");
             correctionAdd("proxima", "Proxima Centauri");
+            correctionAdd("proxima centauri", "Proxima Centauri");
 
             correctionAdd("Proxima B", "Proxima Centauri b");
 
@@ -41694,6 +41703,7 @@ namespace OverflowHelper.core
             correctionAdd("mousepad", "Mousepad");
 
             correctionAdd("neptune", "Neptune");
+            correctionAdd("Neptun", "Neptune");
 
             correctionAdd("notepadqq", "Notepadqq");
 
@@ -56334,6 +56344,18 @@ namespace OverflowHelper.core
 
             correctionAdd("multi tasking", "multitasking");
             correctionAdd("multi taskng", "multitasking");
+
+            correctionAdd("Mybatis", "MyBatis");
+            correctionAdd("mybatis", "MyBatis");
+
+            correctionAdd("nightsky", "night sky");
+
+            correctionAdd("openSTLinux", "OpenSTLinux");
+
+            correctionAdd("QG", "question generation");
+
+            // Related to 4G
+            correctionAdd("S1AP", "S1 Application Protocol");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -86750,6 +86772,18 @@ namespace OverflowHelper.core
 
             URL_Add("witch hunt", "https://en.wiktionary.org/wiki/witch-hunt#Noun");
 
+            URL_Add("Corsair K95 RGB", "https://www.corsair.com/us/en/p/keyboards/ch-9000220-na/corsair-gaming-k95-rgb-mechanical-gaming-keyboard-cherry-mx-red-ch-9000220-na");
+
+            URL_Add("MyBatis", "https://en.wikipedia.org/wiki/MyBatis");
+
+            URL_Add("night sky", "https://en.wiktionary.org/wiki/night_sky#Noun");
+
+            URL_Add("OpenSTLinux", "https://wiki.st.com/stm32mpu/wiki/OpenSTLinux_distribution");
+
+            URL_Add("question generation", "https://meta.stackoverflow.com/questions/425647/questions-and-answers-success-rate-improval-by-research-with-llm");
+
+            URL_Add("S1 Application Protocol", "https://www.synopsys.com/software-integrity/security-testing/fuzz-testing/defensics/protocols/s1ap-server.html");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -89424,6 +89458,9 @@ namespace OverflowHelper.core
 
             correctionAdd("screen shot_", "screenshot_");
 
+            correctionAdd("superset_", "Apache Superset_");
+            correctionAdd("Superset_", "Apache Superset_");
+
             // URL mappings
             //
             //
@@ -90896,6 +90933,8 @@ namespace OverflowHelper.core
             URL_Add("explode_", "https://en.wiktionary.org/wiki/explode#Verb");
 
             URL_Add("screenshot_", "https://en.wiktionary.org/wiki/screenshot#Verb");
+
+            URL_Add("Apache Superset_", "https://en.wikipedia.org/wiki/Apache_Superset");
 
         } //addLookupData_alternativeWordSet()
 
