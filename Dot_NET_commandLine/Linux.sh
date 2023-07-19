@@ -302,6 +302,7 @@ export EFFECTIVE_DATE='2020-10-24'
 export EFFECTIVE_DATE='2021-02-03'
 export EFFECTIVE_DATE='2021-06-14'
 export EFFECTIVE_DATE='2022-03-01'
+export EFFECTIVE_DATE='2023-07-11'
 
 
 export SRCFOLDER_BASE='/home/embo/UserProf/At_XP64/Edit_Overflow'
@@ -1203,7 +1204,7 @@ function forbidden_content()
 
     # Later: Check on the local web server (but that normally
     #        passes as this build script properly copies the
-    #        file there). 
+    #        file there).
 
 
     #Not now. We get error "406 Not Acceptable" from wget:
@@ -1222,7 +1223,7 @@ function forbidden_content()
     #export BASE_URL="https://pmortensen.eu/world"
     #export EXTRA_PARAMETERS="?OverflowStyle=Native"
     #export SUBMIT_URL="${BASE_URL}/${1}${EXTRA_PARAMETERS}"
-    #echo "About download from ${SUBMIT_URL}" 
+    #echo "About download from ${SUBMIT_URL}"
     #
     ##Some redundancy here (only the wget part is different)
     ##wget -q -O- ${SUBMIT_URL} | grep -q "${4}" ${1} ; test $? -ne 0 ; evaluateBuildResult $3 $? "Verbidden test: $2 ($4 was found on ${SUBMIT_URL}). "
@@ -2411,7 +2412,7 @@ PHP_code_test  Link_Builder.php        "link builder"                           
 #
 
 #OK, false alarm (there might have been a temporary
-#problem with a particular video on YouTube). But 
+#problem with a particular video on YouTube). But
 #at least we now prepared...
 ## A broken link. On YouTube.-
 #forbidden_content  EditSummaryFragments.php  "Broken link"  18  "1Dax90QyXgI"
@@ -2617,7 +2618,7 @@ cat '/home/mortensen/temp2/2022-02-25/Backup/Backup_2022-02-25_smallFiles/2022-0
 #       2022-01-25: 5374604 bytes
 
 # Note: The same build number
-wordListExport 31 "SQL" $SQL_FILE 7880000 8680000
+wordListExport 31 "SQL" $SQL_FILE 8040000 8850000
 
 # Note: The same build number
 export MATCHING_LINES=`grep -c 'DROP TABLE EditOverflow'  ${SQL_FILE}`
