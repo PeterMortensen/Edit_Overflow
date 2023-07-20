@@ -3807,6 +3807,13 @@ namespace OverflowHelper.core
             correctionAdd("enything", "anything");
             correctionAdd("anyting", "anything");
 
+            //Note: Some of the incorrect words are
+            //      not in the same verb tense
+            correctionAdd("setted", "set");
+            correctionAdd("seyt", "set");
+            correctionAdd("det", "set");
+            correctionAdd("Setted", "set");
+
             correctionAdd("TEST", "test");
 
             correctionAdd("testng", "testing");
@@ -6305,6 +6312,7 @@ namespace OverflowHelper.core
             correctionAdd("alpine", "Alpine Linux");
             correctionAdd("alpine linux", "Alpine Linux");
             correctionAdd("Alpine", "Alpine Linux");
+            correctionAdd("alphine linux", "Alpine Linux");
 
             // A Linux distribution
             correctionAdd("Linux MX", "MX Linux");
@@ -7744,11 +7752,6 @@ namespace OverflowHelper.core
             correctionAdd("Oracle Database", "Oracle");
             correctionAdd("Oracle database", "Oracle");
             correctionAdd("oracle database", "Oracle");
-
-            //Note: The incorrect words are not in the same verb tense
-            correctionAdd("setted", "set");
-            correctionAdd("seyt", "set");
-            correctionAdd("det", "set");
 
             correctionAdd("offest", "offset");
 
@@ -9840,6 +9843,7 @@ namespace OverflowHelper.core
 
             // For Stack Exchange accounts
             correctionAdd("deleted questions", "see deleted questions");
+            correctionAdd("deleted posts", "see deleted questions");
 
             // Stack Exchange / Stack Overflow
             correctionAdd("stack snippets", "Stack Snippets");
@@ -19226,6 +19230,9 @@ namespace OverflowHelper.core
             correctionAdd("K70", "Corsair K70 RGB PRO");
             correctionAdd("k70", "Corsair K70 RGB PRO");
 
+            // A full-size mechanical keyboard (with 18 macro
+            // keys that only work on Windows) from Corsair
+            //
             correctionAdd("K95", "Corsair K95 RGB");
             correctionAdd("Corsair K95", "Corsair K95 RGB");
 
@@ -20260,6 +20267,26 @@ namespace OverflowHelper.core
             correctionAdd("undfined", "undefined");
             correctionAdd("unidefined", "undefined");
             correctionAdd("undefinded", "undefined");
+
+            correctionAdd("atribute", "attribute");
+            correctionAdd("Attribut", "attribute");
+            correctionAdd("attribut", "attribute");
+            correctionAdd("attrbute", "attribute");
+            correctionAdd("attribure", "attribute");
+            correctionAdd("attr", "attribute");
+            correctionAdd("atrribute", "attribute");
+            correctionAdd("atturibute", "attribute");
+            correctionAdd("Attrabuite", "attribute");
+            correctionAdd("Attrabute", "attribute");
+            correctionAdd("Attribuite", "attribute");
+            correctionAdd("Attribute", "attribute");
+            correctionAdd("attrabuite", "attribute");
+            correctionAdd("attrabute", "attribute");
+            correctionAdd("attribuite", "attribute");
+
+            correctionAdd("sub-attribute", "subattribute");
+
+            correctionAdd("sub pattern", "subpattern");
 
             correctionAdd("-debug-pass=Arguments", "-fdebug-pass-arguments (Clang)");
             correctionAdd("-fdebug-pass-arguments", "-fdebug-pass-arguments (Clang)");
@@ -21900,6 +21927,17 @@ namespace OverflowHelper.core
 
             correctionAdd("assimp", "Open Asset Import Library");
             correctionAdd("Assimp", "Open Asset Import Library");
+
+            correctionAdd("conection", "connection");
+            correctionAdd("Conntection", "connection");
+            correctionAdd("Connection", "connection");
+            correctionAdd("connexion", "connection");
+            correctionAdd("connnection", "connection");
+            correctionAdd("connectoin", "connection");
+
+            correctionAdd("remote desktop", "Remote Desktop Connection");
+            correctionAdd("Remote Desktop", "Remote Desktop Connection");
+            correctionAdd("Remote desktop", "Remote Desktop Connection");
 
             // Of PowerShell...
             correctionAdd("start-transcript", "Start-Transcript");
@@ -29647,6 +29685,7 @@ namespace OverflowHelper.core
             correctionAdd("qquestion", "question");
             correctionAdd("queetion", "question");
             correctionAdd("Qt", "question");
+            correctionAdd("questun", "question");
 
             correctionAdd("qustions", "questions");
             correctionAdd("Qt's", "questions");
@@ -32562,6 +32601,7 @@ namespace OverflowHelper.core
             correctionAdd("rasy", "easy");
             correctionAdd("esay", "easy");
             correctionAdd("easiy", "easy");
+            correctionAdd("wasy", "easy");
 
             correctionAdd("idear", "idea");
             correctionAdd("ideia", "idea");
@@ -32738,6 +32778,7 @@ namespace OverflowHelper.core
             correctionAdd("aswered", "answered");
             correctionAdd("anwsered", "answered");
             correctionAdd("awsered", "answered");
+            correctionAdd("ansurd", "answered");
 
             correctionAdd("anti aliasing", "antialiasing");
             correctionAdd("Anti aliasing", "antialiasing");
@@ -33277,6 +33318,7 @@ namespace OverflowHelper.core
 
             correctionAdd("sugest", "suggest");
             correctionAdd("sudgest", "suggest");
+            correctionAdd("Suggest", "suggest");
 
             correctionAdd("suggestiong", "suggestion");
             correctionAdd("Suggestiong", "suggestion");
@@ -35769,15 +35811,6 @@ namespace OverflowHelper.core
             correctionAdd("ao", "among others");
             correctionAdd("a.o", "among others");
 
-            correctionAdd("atribute", "attribute");
-            correctionAdd("Attribut", "attribute");
-            correctionAdd("attribut", "attribute");
-            correctionAdd("attrbute", "attribute");
-            correctionAdd("attribure", "attribute");
-            correctionAdd("attr", "attribute");
-            correctionAdd("atrribute", "attribute");
-            correctionAdd("atturibute", "attribute");
-
             correctionAdd("conjuction", "conjunction");
 
             correctionAdd("corosion", "corrosion");
@@ -36339,6 +36372,14 @@ namespace OverflowHelper.core
             correctionAdd("Pinto", "Pinta");
 
             correctionAdd("counter part", "counterpart");
+
+            correctionAdd("tell appart", "tell apart");
+
+            correctionAdd("multi part", "multipart");
+            correctionAdd("Multi part", "multipart");
+
+            correctionAdd("Pt", "part");
+            correctionAdd("aprt", "part");
 
             correctionAdd("dito", "ditto");
             correctionAdd("Dito", "ditto");
@@ -36904,6 +36945,8 @@ namespace OverflowHelper.core
             correctionAdd("Alireza", "Alireza Firouzja"); // Chess
             correctionAdd("alireza", "Alireza Firouzja"); // Chess
             correctionAdd("Alireze", "Alireza Firouzja"); // Chess
+            correctionAdd("The Chosen One", "Alireza Firouzja");
+            correctionAdd("the chosen one", "Alireza Firouzja");
 
             // Chess
             correctionAdd("Gary Kasparov", "Garry Kasparov");
@@ -39094,16 +39137,6 @@ namespace OverflowHelper.core
             correctionAdd("gpa", "GPA");
 
             correctionAdd("procederal", "procedural");
-
-            correctionAdd("remote desktop", "Remote Desktop Connection");
-            correctionAdd("Remote Desktop", "Remote Desktop Connection");
-            correctionAdd("Remote desktop", "Remote Desktop Connection");
-
-            correctionAdd("conection", "connection");
-            correctionAdd("Conntection", "connection");
-            correctionAdd("Connection", "connection");
-            correctionAdd("connexion", "connection");
-            correctionAdd("connnection", "connection");
 
             correctionAdd("couchbase", "Couchbase");
 
@@ -46238,8 +46271,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Swastika", "swastika");
 
-            correctionAdd("tell appart", "tell apart");
-
             correctionAdd("threepronged", "three-pronged");
             correctionAdd("3 prong", "three-pronged");
 
@@ -50149,10 +50180,6 @@ namespace OverflowHelper.core
 
             correctionAdd("forcely", "forcibly");
 
-            correctionAdd("sub-attribute", "subattribute");
-
-            correctionAdd("sub pattern", "subpattern");
-
             correctionAdd("Internet archive", "Internet Archive");
             correctionAdd("internet archive", "Internet Archive");
             correctionAdd("archive.org", "Internet Archive");
@@ -53685,9 +53712,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Mock", "mock");
 
-            correctionAdd("multi part", "multipart");
-            correctionAdd("Multi part", "multipart");
-
             correctionAdd("twinkle in your daddy's eye", "twinkle in one's father's eye");
             correctionAdd("a twinkle in one's daddy's eye", "twinkle in one's father's eye");
             correctionAdd("glint in the milkman's eye", "twinkle in one's father's eye");
@@ -56198,8 +56222,6 @@ namespace OverflowHelper.core
 
             correctionAdd("front end framework", "front-end framework");
 
-            correctionAdd("Pt", "part");
-
             correctionAdd("riskfree", "risk-free");
 
             correctionAdd("Gibbs Paradox", "Gibbs paradox");
@@ -56356,6 +56378,14 @@ namespace OverflowHelper.core
 
             // Related to 4G
             correctionAdd("S1AP", "S1 Application Protocol");
+
+            correctionAdd("recruter", "recruiter");
+
+            correctionAdd("flet", "Flet");
+
+            correctionAdd("invetory", "inventory");
+
+            correctionAdd("Offers", "offers");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -86784,6 +86814,14 @@ namespace OverflowHelper.core
 
             URL_Add("S1 Application Protocol", "https://www.synopsys.com/software-integrity/security-testing/fuzz-testing/defensics/protocols/s1ap-server.html");
 
+            URL_Add("recruiter", "https://en.wiktionary.org/wiki/recruiter#Noun");
+
+            URL_Add("Flet", "https://flet.dev/docs/");
+
+            URL_Add("inventory", "https://en.wiktionary.org/wiki/inventory#Noun");
+
+            URL_Add("offers", "https://en.wiktionary.org/wiki/offer#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -87714,6 +87752,7 @@ namespace OverflowHelper.core
             correctionAdd("interstellar_", "Interstellar_");
 
             correctionAdd("throwed_", "threw_");
+            correctionAdd("thowed_", "threw_");
 
             // A programming language (IBM)
             correctionAdd("rpg_", "RPG_");
@@ -88589,6 +88628,7 @@ namespace OverflowHelper.core
 
             correctionAdd("selct_", "select_");
             correctionAdd("slect_", "select_");
+            correctionAdd("selectize_", "select_");
 
             correctionAdd("delete_", "DELETE_");
 
@@ -89460,6 +89500,8 @@ namespace OverflowHelper.core
 
             correctionAdd("superset_", "Apache Superset_");
             correctionAdd("Superset_", "Apache Superset_");
+
+            correctionAdd("tru_", "true_");
 
             // URL mappings
             //
@@ -90935,6 +90977,8 @@ namespace OverflowHelper.core
             URL_Add("screenshot_", "https://en.wiktionary.org/wiki/screenshot#Verb");
 
             URL_Add("Apache Superset_", "https://en.wikipedia.org/wiki/Apache_Superset");
+
+            URL_Add("true_", "https://en.wiktionary.org/wiki/true#Adjective");
 
         } //addLookupData_alternativeWordSet()
 
