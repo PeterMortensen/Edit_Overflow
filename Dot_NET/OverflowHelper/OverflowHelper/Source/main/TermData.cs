@@ -1266,6 +1266,7 @@ namespace OverflowHelper.core
 
             correctionAdd("file explorer", "File Explorer");
             correctionAdd("Windows file explorer", "File Explorer");
+            correctionAdd("Windows Browser", "File Explorer");
 
             correctionAdd("winrm", "WinRM");
             correctionAdd("Windows Remote Management", "WinRM");
@@ -3307,6 +3308,12 @@ namespace OverflowHelper.core
 
             correctionAdd("AWS Code Pipeline", "AWS CodePipeline");
 
+            // More generaly, "identity and access management", AKA
+            // identity management (IdM) AKA
+            // identity and access management (IAM or IdAM)
+            //
+            //   <https://en.wikipedia.org/wiki/Identity_management>
+            //
             correctionAdd("IAM", "AWS Identity and Access Management");
             correctionAdd("AWS AMI", "AWS Identity and Access Management");
             correctionAdd("AWS IAM", "AWS Identity and Access Management");
@@ -3587,6 +3594,7 @@ namespace OverflowHelper.core
 
             correctionAdd("realtime", "real-time");
             correctionAdd("real time", "real-time");
+            correctionAdd("Realtime", "real-time");
 
             correctionAdd("any time", "anytime");
 
@@ -4045,7 +4053,23 @@ namespace OverflowHelper.core
 
             correctionAdd("indispensibility", "indispensability");
 
+            correctionAdd("ach", "each");
+            correctionAdd("Eeach", "each");
+            correctionAdd("eeach", "each");
+
+            correctionAdd("eachother", "each other");
+
+            correctionAdd("eachothers", "each other's");
+
             correctionAdd("reachbility", "reachability");
+
+            correctionAdd("teached", "taught");
+            correctionAdd("taugth", "taught");
+
+            correctionAdd("ELI5", "explain like I'm five"); // But note it is now ambiguous due to the machine learning dataset of the same name (see e.g. <https://huggingface.co/datasets/eli5>)
+            correctionAdd("teach me like I'm five", "explain like I'm five");
+
+            correctionAdd("Equifax", "2017 Equifax data breach");
 
             correctionAdd("cyclomatic", "cyclomatic complexity");
             correctionAdd("McCabe complexity test", "cyclomatic complexity");
@@ -5150,6 +5174,9 @@ namespace OverflowHelper.core
 
             // Cryptocurrency. Ethereum.
             correctionAdd("besu", "Besu");
+
+            // A compiler related to Ethereum
+            correctionAdd("brownie", "Brownie");
 
             // Cryptocurrency
             correctionAdd("hyper ledger", "hyperledger");
@@ -12628,6 +12655,7 @@ namespace OverflowHelper.core
             correctionAdd("cross domain request", "cross-domain request");
 
             correctionAdd("Cross Origin Request", "cross-origin request");
+            correctionAdd("cross origin", "cross-origin request");
 
             correctionAdd("esapi", "OWASP Enterprise Security API");
             correctionAdd("ESAPI", "OWASP Enterprise Security API");
@@ -21736,6 +21764,7 @@ namespace OverflowHelper.core
             correctionAdd("azure devops", "Azure DevOps");
             correctionAdd("Azure Devops", "Azure DevOps");
             correctionAdd("Azire Devops", "Azure DevOps");
+            correctionAdd("Azure Dev Ops", "Azure DevOps");
 
             correctionAdd("Microsoft Azure Active Directory", "Azure AD");
             correctionAdd("azureAD", "Azure AD");
@@ -22625,6 +22654,9 @@ namespace OverflowHelper.core
             correctionAdd("GEdit", "gedit");
             correctionAdd("Gedit", "gedit");
             correctionAdd("gEdit", "gedit");
+
+            // A webcam application. GNOME
+            correctionAdd("cheese", "Cheese");
 
             // Windows
             correctionAdd("RegEdit.exe", "RegEdit");
@@ -28177,6 +28209,7 @@ namespace OverflowHelper.core
             correctionAdd("disambugation", "disambiguation");
             correctionAdd("disambigation", "disambiguation");
             correctionAdd("disambiaguation", "disambiguation");
+            correctionAdd("Disambugation", "disambiguation");
 
             correctionAdd("dissambiguating", "disambiguating");
             correctionAdd("disambugating", "disambiguating");
@@ -33264,6 +33297,9 @@ namespace OverflowHelper.core
             // Flutter
             correctionAdd("flutter flame", "Flutter Flame");
 
+            // Flutter. Cross-platform user interface framework
+            correctionAdd("flet", "Flet");
+
             correctionAdd("Hawai", "Hawaii");
 
             correctionAdd("Hongkong", "Hong Kong");
@@ -33968,6 +34004,7 @@ namespace OverflowHelper.core
             correctionAdd("hirarious", "hilarious");
             correctionAdd("hillarous", "hilarious");
             correctionAdd("hillarious", "hilarious");
+            correctionAdd("hilarous", "hilarious");
 
             correctionAdd("leage", "league");
             correctionAdd("Leage", "league");
@@ -41645,9 +41682,6 @@ namespace OverflowHelper.core
             correctionAdd("site-wide", "sitewide");
             correctionAdd("site wide", "sitewide");
 
-            correctionAdd("teached", "taught");
-            correctionAdd("taugth", "taught");
-
             correctionAdd("islam", "Islam");
 
             correctionAdd("accleration", "acceleration");
@@ -44421,8 +44455,6 @@ namespace OverflowHelper.core
 
             correctionAdd("spedifies", "specifies");
 
-            correctionAdd("eachother", "each other");
-
             correctionAdd("fund rising", "fundraising");
 
             correctionAdd("mistankenly", "mistakenly");
@@ -45992,9 +46024,6 @@ namespace OverflowHelper.core
 
             correctionAdd("turnoff", "turn off");
 
-            correctionAdd("ELI5", "explain like I'm five"); // But note it is now ambiguous due to the machine learning dataset of the same name (see e.g. <https://huggingface.co/datasets/eli5>)
-            correctionAdd("teach me like I'm five", "explain like I'm five");
-
             correctionAdd("2g", "2G");
 
             correctionAdd("alder lake", "Alder Lake");
@@ -46466,8 +46495,6 @@ namespace OverflowHelper.core
             correctionAdd("Gibson", "Steve Gibson");
 
             correctionAdd("adinfinitum", "ad infinitum");
-
-            correctionAdd("eachothers", "each other's");
 
             correctionAdd("empheral", "ephemeral");
             correctionAdd("ephmeral", "ephemeral");
@@ -48106,6 +48133,7 @@ namespace OverflowHelper.core
             correctionAdd("one way", "one-way");
 
             correctionAdd("sais", "says");
+            correctionAdd("syas", "says");
 
             correctionAdd("2nd person", "second person");
 
@@ -49695,6 +49723,7 @@ namespace OverflowHelper.core
 
             correctionAdd("underlieng", "underlying");
             correctionAdd("uderlying", "underlying");
+            correctionAdd("underlaying", "underlying");
 
             correctionAdd("amiga", "Amiga");
 
@@ -52261,6 +52290,7 @@ namespace OverflowHelper.core
             correctionAdd("neihborhood", "neighborhood");
 
             correctionAdd("potentioal", "potential");
+            correctionAdd("potentional", "potential");
 
             correctionAdd("repeatetly", "repeatedly");
             correctionAdd("repeatly", "repeatedly");
@@ -53816,8 +53846,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Tensor Cores", "Tensor cores");
 
-            correctionAdd("Equifax", "2017 Equifax data breach");
-
             correctionAdd("App Bundle", "application bundle");
 
             correctionAdd("blacklist", "blocklist");
@@ -55253,8 +55281,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Anglicizations", "anglicizations");
 
-            correctionAdd("ach", "each");
-
             correctionAdd("revet", "revert");
 
             correctionAdd("admob", "AdMob");
@@ -55472,6 +55498,7 @@ namespace OverflowHelper.core
             // AI. Artificial intelligence.
             correctionAdd("Bard", "Google Bard");
             correctionAdd("bard", "Google Bard");
+            correctionAdd("Google Brad", "Google Bard");
 
             correctionAdd("michio kaku", "Michio Kaku");
 
@@ -56381,11 +56408,34 @@ namespace OverflowHelper.core
 
             correctionAdd("recruter", "recruiter");
 
-            correctionAdd("flet", "Flet");
-
             correctionAdd("invetory", "inventory");
 
             correctionAdd("Offers", "offers");
+
+            // Related to parallel computing
+            correctionAdd("openACC", "OpenACC");
+            correctionAdd("openacc", "OpenACC");
+
+            correctionAdd("a-frame", "A-Frame");
+            correctionAdd("aframe", "A-Frame");
+
+            correctionAdd("ABAC", "attribute-based access control");
+            correctionAdd("policy-based access control", "attribute-based access control");
+
+            correctionAdd("hls", "HTTP Live Streaming");
+            correctionAdd("HLS", "HTTP Live Streaming");
+
+            correctionAdd("oculus quest", "Oculus Quest");
+            correctionAdd("Oculus", "Oculus Quest");
+            correctionAdd("oculus", "Oculus Quest");
+
+            correctionAdd("role-based security", "role-based access control");
+            correctionAdd("RBAC", "role-based access control");
+
+            correctionAdd("srt", "Secure Reliable Transport");
+            correctionAdd("SRT", "Secure Reliable Transport");
+
+            correctionAdd("Solutions", "solutions");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -86822,6 +86872,26 @@ namespace OverflowHelper.core
 
             URL_Add("offers", "https://en.wiktionary.org/wiki/offer#Verb");
 
+            URL_Add("Brownie", "https://eth-brownie.readthedocs.io/en/stable/compile.html");
+
+            URL_Add("Cheese", "https://en.wikipedia.org/wiki/Cheese_(software)");
+
+            URL_Add("OpenACC", "https://en.wikipedia.org/wiki/OpenACC");
+
+            URL_Add("A-Frame", "https://en.wikipedia.org/wiki/A-Frame_(virtual_reality_framework)");
+
+            URL_Add("attribute-based access control", "https://en.wikipedia.org/wiki/Attribute-based_access_control");
+
+            URL_Add("HTTP Live Streaming", "https://en.wikipedia.org/wiki/HTTP_Live_Streaming");
+
+            URL_Add("Oculus Quest", "https://en.wikipedia.org/wiki/Oculus_Quest");
+
+            URL_Add("role-based access control", "https://en.wikipedia.org/wiki/Role-based_access_control");
+
+            URL_Add("Secure Reliable Transport", "https://en.wikipedia.org/wiki/Secure_Reliable_Transport");
+
+            URL_Add("solutions", "https://en.wiktionary.org/wiki/solution#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -87392,6 +87462,8 @@ namespace OverflowHelper.core
             correctionAdd("Science&nbsp;Fiction&nbsp;&&nbsp;Fantasy_", "Science&nbsp;Fiction&nbsp;&&nbsp;Fantasy (Stack Exchange site)_"); // Sort of identity mapping
             correctionAdd("Sci-Fi Fantasy_", "Science&nbsp;Fiction&nbsp;&&nbsp;Fantasy (Stack Exchange site)_");
             correctionAdd("SFF.SE_", "Science&nbsp;Fiction&nbsp;&&nbsp;Fantasy (Stack Exchange site)_");
+            correctionAdd("SciFi SE_", "Science&nbsp;Fiction&nbsp;&&nbsp;Fantasy (Stack Exchange site)_");
+            correctionAdd("SciFi.SE_", "Science&nbsp;Fiction&nbsp;&&nbsp;Fantasy (Stack Exchange site)_");
 
             correctionAdd("Medical Sciences_", "Medical&nbsp;Sciences (Stack Exchange site)_");
             correctionAdd("Medical SE_", "Medical&nbsp;Sciences (Stack Exchange site)_");
@@ -87555,6 +87627,7 @@ namespace OverflowHelper.core
             correctionAdd("Sql mi_", "Azure SQL Managed Instance_");
             correctionAdd("sql mi_", "Azure SQL Managed Instance_");
             correctionAdd("sql mi managed instance_", "Azure SQL Managed Instance_");
+            correctionAdd("Managed Instance_", "Azure SQL Managed Instance_");
 
             correctionAdd("coce_", "code_");
             correctionAdd("Coce_", "code_");
@@ -88563,6 +88636,7 @@ namespace OverflowHelper.core
 
             // AI
             correctionAdd("Large Language Model Meta AI_", "LLaMA_");
+            correctionAdd("LlamaI_", "LLaMA_");
 
             // AI
             correctionAdd("gpt_", "GPT_");
@@ -89502,6 +89576,13 @@ namespace OverflowHelper.core
             correctionAdd("Superset_", "Apache Superset_");
 
             correctionAdd("tru_", "true_");
+
+            correctionAdd("managed identity_", "managed identities_");
+            correctionAdd("MI_", "managed identities_");
+
+            correctionAdd("obs_", "Open Broadcaster Software_");
+            correctionAdd("OBS Studio_", "Open Broadcaster Software_");
+            correctionAdd("OBS_", "Open Broadcaster Software_");
 
             // URL mappings
             //
@@ -90979,6 +91060,10 @@ namespace OverflowHelper.core
             URL_Add("Apache Superset_", "https://en.wikipedia.org/wiki/Apache_Superset");
 
             URL_Add("true_", "https://en.wiktionary.org/wiki/true#Adjective");
+
+            URL_Add("managed identities_", "https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview");
+
+            URL_Add("Open Broadcaster Software_", "https://en.wikipedia.org/wiki/OBS_Studio");
 
         } //addLookupData_alternativeWordSet()
 
