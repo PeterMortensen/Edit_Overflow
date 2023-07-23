@@ -3623,6 +3623,8 @@ namespace OverflowHelper.core
             correctionAdd("worest case", "worst-case");
             correctionAdd("worrest case", "worst-case");
 
+            correctionAdd("worst case scenario", "worst-case scenario");
+
             correctionAdd("any case", "in any case");
             correctionAdd("anycase", "in any case");
 
@@ -10239,6 +10241,9 @@ namespace OverflowHelper.core
             correctionAdd("suggested edit queue", "Suggested edits review queue");
             correctionAdd("suggested edits queue", "Suggested edits review queue");
 
+            // Related to Stack Exchange
+            correctionAdd("Review Queues", "review queues");
+
             // Stack Overflow
             correctionAdd("H&I", "Help & Improvement queue");
 
@@ -12751,6 +12756,12 @@ namespace OverflowHelper.core
             correctionAdd("Python Anywhere", "PythonAnywhere");
             correctionAdd("pythonanywhere", "PythonAnywhere");
 
+            // A Python module
+            correctionAdd("HEAPQ", "heapq");
+
+            // Hashes, e.g. in Python 
+            correctionAdd("Separate Chaining", "separate chaining");
+
             correctionAdd("intending", "indenting");
             correctionAdd("Intending", "indenting");
 
@@ -13369,6 +13380,11 @@ namespace OverflowHelper.core
             // A software library related to Jest, React, and JavaScript.
             correctionAdd("enzyme", "Enzyme");
             correctionAdd("jest enzyme", "Enzyme");
+
+            // React components
+            correctionAdd("Chakra", "Chakra UI");
+            correctionAdd("chakra", "Chakra UI");
+            correctionAdd("chakra ui", "Chakra UI");
 
             // A software library for testing JavaScript code
             correctionAdd("JEST", "Jest");
@@ -17779,6 +17795,7 @@ namespace OverflowHelper.core
             correctionAdd("Tailwind css", "Tailwind CSS");
             correctionAdd("TailwindCSS", "Tailwind CSS");
             correctionAdd("Tailwind-CSS", "Tailwind CSS");
+            correctionAdd("tailwind.css", "Tailwind CSS");
 
             correctionAdd("box-model", "CSS box model");
             correctionAdd("box model", "CSS box model");
@@ -25128,6 +25145,7 @@ namespace OverflowHelper.core
             correctionAdd("Stats", "statistics");
             correctionAdd("Statistics", "statistics");
             correctionAdd("statistic", "statistics");
+            correctionAdd("Statistic", "statistics");
 
             correctionAdd("btw", "by the way");
             correctionAdd("Btw", "by the way");
@@ -26552,8 +26570,19 @@ namespace OverflowHelper.core
             correctionAdd("led", "LED");
             correctionAdd("Led", "LED");
 
+            // Computer equipment manufacturer
             correctionAdd("asus", "Asus");
             correctionAdd("ASUS", "Asus");
+
+            // A laptop
+            correctionAdd("Asus TUF F15 Gaming", "Asus TUF Gaming F15");
+            correctionAdd("Asus Tuf F15 Gaming", "Asus TUF Gaming F15");
+            correctionAdd("TUF Gaming F15", "Asus TUF Gaming F15");
+            correctionAdd("tuf", "Asus TUF Gaming F15");
+
+            // An Asus product brand
+            correctionAdd("ROG", "Republic of Gamers");
+            correctionAdd("rog", "Republic of Gamers");
 
             correctionAdd("captcha", "CAPTCHA");
             correctionAdd("catpcha", "CAPTCHA");
@@ -31482,7 +31511,12 @@ namespace OverflowHelper.core
             correctionAdd("commodore 64", "Commodore 64");
             correctionAdd("c64", "Commodore 64");
 
+            // Molecular biology. DNA.
             correctionAdd("dna", "DNA");
+
+            // Molecular biology. DNA.
+            correctionAdd("gc content", "GC-content");
+            correctionAdd("GC content", "GC-content");
 
             correctionAdd("Devops", "DevOps");
             correctionAdd("devops", "DevOps");
@@ -35426,6 +35460,7 @@ namespace OverflowHelper.core
 
             correctionAdd("asciidoc", "AsciiDoc");
             correctionAdd("ASCII Doc", "AsciiDoc");
+            correctionAdd("ascidoc", "AsciiDoc");
 
             correctionAdd("asciidoctor", "Asciidoctor");
 
@@ -36457,6 +36492,7 @@ namespace OverflowHelper.core
             correctionAdd("Dito", "ditto");
 
             correctionAdd("egagement", "engagement");
+            correctionAdd("engaugement", "engagement");
 
             correctionAdd("DS", "data science");
             correctionAdd("Data Science", "data science");
@@ -37450,6 +37486,8 @@ namespace OverflowHelper.core
 
             correctionAdd("pint", "print");
             correctionAdd("prrint", "print");
+            correctionAdd("priint", "print");
+            correctionAdd("priitn", "print");
 
             correctionAdd("blue-print", "blueprint");
 
@@ -37815,6 +37853,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Jamstack", "JAMstack");
             correctionAdd("jamstack", "JAMstack");
+            correctionAdd("jamstak", "JAMstack");
 
             correctionAdd("tco", "TCO");
 
@@ -38778,6 +38817,7 @@ namespace OverflowHelper.core
             correctionAdd("raison detre", "raison d'être");
 
             correctionAdd("fasta", "FASTA format");
+            correctionAdd("FASTA", "FASTA format");
 
             correctionAdd("nemo", "Nemo");
 
@@ -41685,6 +41725,7 @@ namespace OverflowHelper.core
 
             correctionAdd("push back", "pushback");
             correctionAdd("push-back", "pushback");
+            correctionAdd("Pushback", "pushback");
 
             correctionAdd("call back", "callback");
 
@@ -53271,11 +53312,6 @@ namespace OverflowHelper.core
             correctionAdd("xdr", "XDR");
             correctionAdd("External Data Representation", "XDR");
 
-            correctionAdd("Asus TUF F15 Gaming", "Asus TUF Gaming F15");
-            correctionAdd("Asus Tuf F15 Gaming", "Asus TUF Gaming F15");
-            correctionAdd("TUF Gaming F15", "Asus TUF Gaming F15");
-            correctionAdd("tuf", "Asus TUF Gaming F15");
-
             correctionAdd("Minimax", "minimax");
 
             correctionAdd("space before unit", "MOS:UNITS");
@@ -53830,6 +53866,7 @@ namespace OverflowHelper.core
             correctionAdd("cthulhu", "Cthulhu");
 
             correctionAdd("prining", "printing");
+            correctionAdd("priting", "printing");
 
             correctionAdd("andromeda paradox", "Andromeda paradox");
 
@@ -55388,9 +55425,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Bellman-Ford", "Bellman–Ford algorithm");
 
-            // A Python module
-            correctionAdd("HEAPQ", "heapq");
-
             correctionAdd("swaping", "swapping");
 
             correctionAdd("dijkstra's algorithm", "Dijkstra's algorithm");
@@ -56467,15 +56501,25 @@ namespace OverflowHelper.core
             correctionAdd("srt", "Secure Reliable Transport");
             correctionAdd("SRT", "Secure Reliable Transport");
 
-            correctionAdd("Chakra", "Chakra UI");
-            correctionAdd("chakra", "Chakra UI");
-            correctionAdd("chakra ui", "Chakra UI");
-
             correctionAdd("least absolute shrinkage and selection operator", "lasso");
             correctionAdd("LASSO", "lasso");
             correctionAdd("Lasso", "lasso");
 
             correctionAdd("over fit", "overfit");
+
+            correctionAdd("prerendered", "pre-rendered");
+
+            correctionAdd("staticly", "statically");
+
+            correctionAdd("throtting", "throttling");
+
+            correctionAdd("greedyly", "greedily");
+
+            correctionAdd("humans rights", "human rights");
+
+            correctionAdd("slipup", "slip-up");
+
+            correctionAdd("unkowingly", "unknowingly");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -86942,6 +86986,30 @@ namespace OverflowHelper.core
 
             URL_Add("Tennessee", "https://en.wikipedia.org/wiki/Tennessee");
 
+            URL_Add("pre-rendered", "https://en.wiktionary.org/wiki/pre-render#Verb");
+
+            URL_Add("statically", "https://en.wiktionary.org/wiki/statically#Adverb");
+
+            URL_Add("GC-content", "https://en.wikipedia.org/wiki/GC-content");
+
+            URL_Add("Republic of Gamers", "https://en.wikipedia.org/wiki/Asus#Republic_of_Gamers_(ROG)");
+
+            URL_Add("throttling", "https://en.wiktionary.org/wiki/throttle#Verb");
+
+            URL_Add("greedily", "https://en.wiktionary.org/wiki/greedily#Adverb");
+
+            URL_Add("human rights", "https://en.wiktionary.org/wiki/human_rights#Noun");
+
+            URL_Add("review queues", "https://stackoverflow.com/review");
+
+            URL_Add("separate chaining", "https://en.wikipedia.org/wiki/Hash_table#Separate_chaining");
+
+            URL_Add("slip-up", "https://en.wiktionary.org/wiki/slip-up#Noun");
+
+            URL_Add("unknowingly", "https://en.wiktionary.org/wiki/unknowingly#Adverb");
+
+            URL_Add("worst-case scenario", "https://en.wiktionary.org/wiki/worst-case_scenario#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -89636,6 +89704,10 @@ namespace OverflowHelper.core
 
             correctionAdd("black list_", "blacklist_");
 
+            correctionAdd("asf_", "as fuck_");
+
+            correctionAdd("leaded_", "led_");
+
             // URL mappings
             //
             //
@@ -91118,6 +91190,10 @@ namespace OverflowHelper.core
             URL_Add("Open Broadcaster Software_", "https://en.wikipedia.org/wiki/OBS_Studio");
 
             URL_Add("blacklist_", "https://en.wiktionary.org/wiki/blacklist#Verb");
+
+            URL_Add("as fuck_", "https://en.wiktionary.org/wiki/asf#Phrase");
+
+            URL_Add("led_", "https://en.wiktionary.org/wiki/lead#Verb_2");
 
         } //addLookupData_alternativeWordSet()
 
