@@ -3324,10 +3324,6 @@ namespace OverflowHelper.core
             correctionAdd("sns", "Amazon SNS");
             correctionAdd("Amazon Simple Notification Service", "Amazon SNS");
 
-            correctionAdd("Redshift", "Amazon Redshift");
-            correctionAdd("AWS redshift", "Amazon Redshift");
-            correctionAdd("AWS Redshift", "Amazon Redshift");
-
             correctionAdd("Amazon EKS", "Amazon Elastic Kubernetes Service");
             correctionAdd("eks", "Amazon Elastic Kubernetes Service");
             correctionAdd("EKS", "Amazon Elastic Kubernetes Service");
@@ -10643,6 +10639,7 @@ namespace OverflowHelper.core
             correctionAdd("RU.se", "Stack Overflow на русском (Stack Exchange site)");
             correctionAdd("Russian site", "Stack Overflow на русском (Stack Exchange site)");
             correctionAdd("ruSO", "Stack Overflow на русском (Stack Exchange site)");
+            correctionAdd("ruso", "Stack Overflow на русском (Stack Exchange site)");
 
             correctionAdd("jp.SO", "スタック・オーバーフロー (Stack Exchange site)");
             correctionAdd("SO.jp", "スタック・オーバーフロー (Stack Exchange site)");
@@ -28564,6 +28561,7 @@ namespace OverflowHelper.core
             correctionAdd("by hearth", "by heart");
 
             correctionAdd("heart-ache", "heartache");
+            correctionAdd("heart act", "heartache");
 
             correctionAdd("dishearteneing", "disheartening");
 
@@ -32807,6 +32805,7 @@ namespace OverflowHelper.core
             correctionAdd("neigter", "neither");
             correctionAdd("nither", "neither");
             correctionAdd("nether", "neither");
+            correctionAdd("niether", "neither");
 
             correctionAdd("offical", "official");
             correctionAdd("Offical", "official");
@@ -33613,6 +33612,7 @@ namespace OverflowHelper.core
             correctionAdd("Temporily", "temporarily");
             correctionAdd("temporily", "temporarily");
             correctionAdd("temprarily", "temporarily");
+            correctionAdd("temporalily", "temporarily");
 
             correctionAdd("wieght", "weight");
             correctionAdd("waight", "weight");
@@ -37163,9 +37163,12 @@ namespace OverflowHelper.core
             correctionAdd("Fabi", "Fabiano Caruana");
             correctionAdd("Fabiano", "Fabiano Caruana");
 
-            correctionAdd("Aronian", "Levon Aronian"); // Chess
-            correctionAdd("Levon", "Levon Aronian"); // Chess
-            correctionAdd("levon", "Levon Aronian"); // Chess
+            // Chess
+            correctionAdd("Aronian", "Levon Aronian");
+            correctionAdd("Levon", "Levon Aronian");
+            correctionAdd("levon", "Levon Aronian");
+            correctionAdd("arion", "Levon Aronian");
+            correctionAdd("lavon", "Levon Aronian");
 
             correctionAdd("Castling", "castling"); // Chess
 
@@ -41181,6 +41184,7 @@ namespace OverflowHelper.core
 
             correctionAdd("out side", "outside");
             correctionAdd("outsite", "outside");
+            correctionAdd("oustide", "outside");
 
             correctionAdd("role", "roll"); // Verb. The noun is in the alternative word set...
 
@@ -41597,6 +41601,7 @@ namespace OverflowHelper.core
             correctionAdd("Where else", "whereas");
             correctionAdd("where else", "whereas");
             correctionAdd("whereelse", "whereas");
+            correctionAdd("Wheras", "whereas");
 
             correctionAdd("christmas", "Christmas");
             correctionAdd("xmas", "Christmas");
@@ -47669,6 +47674,7 @@ namespace OverflowHelper.core
             correctionAdd("non-blocking", "nonblocking");
             correctionAdd("non blocking", "nonblocking");
             correctionAdd("none blocking", "nonblocking");
+            correctionAdd("Non blocking", "nonblocking");
 
             correctionAdd("objetive", "objective");
             correctionAdd("Objetive", "objective");
@@ -55018,6 +55024,7 @@ namespace OverflowHelper.core
             correctionAdd("whichcraft", "witchcraft");
 
             correctionAdd("which hint", "witch hunt");
+            correctionAdd("witch-hunt", "witch hunt");
 
             correctionAdd("writswatch", "wristwatch");
             correctionAdd("wrist watch", "wristwatch");
@@ -56554,7 +56561,7 @@ namespace OverflowHelper.core
             correctionAdd("inversiy", "InversifyJS");
             correctionAdd("inversify", "InversifyJS");
 
-            // Fonts
+            // Fonts / typography
             correctionAdd("Kerning", "kerning");
             correctionAdd("Keming", "kerning");
             correctionAdd("Kerming", "kerning");
@@ -56567,6 +56574,22 @@ namespace OverflowHelper.core
 
             // Linux
             correctionAdd("TASKSET", "taskset");
+
+            correctionAdd("masive", "massive");
+
+            correctionAdd("Typography", "typography");
+
+            correctionAdd("rythm", "rhythm");
+
+            correctionAdd("bank slate", "blank slate");
+            correctionAdd("Bank slate", "blank slate");
+
+            correctionAdd("chunck", "chunk");
+            correctionAdd("chucnk", "chunk");
+
+            correctionAdd("instanciates", "instantiates");
+
+            correctionAdd("amibia", "amoeba");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -73497,8 +73520,6 @@ namespace OverflowHelper.core
 
             URL_Add("weaselly", "https://en.wiktionary.org/wiki/weaselly#Adjective");
 
-            URL_Add("Amazon Redshift", "https://en.wikipedia.org/wiki/Amazon_Redshift");
-
             URL_Add("Memored", "https://github.com/PaquitoSoft/memored");
 
             URL_Add("decelerated", "https://en.wiktionary.org/wiki/decelerate#Verb");
@@ -87069,6 +87090,20 @@ namespace OverflowHelper.core
 
             URL_Add("taskset", "https://en.wikipedia.org/wiki/Processor_affinity#Specific_operating_systems");
 
+            URL_Add("massive", "https://en.wiktionary.org/wiki/massive#Adjective");
+
+            URL_Add("typography", "https://en.wiktionary.org/wiki/typography#Noun");
+
+            URL_Add("rhythm", "https://en.wiktionary.org/wiki/rhythm#Noun");
+
+            URL_Add("blank slate", "https://en.wiktionary.org/wiki/blank_slate#Noun");
+
+            URL_Add("chunk", "https://en.wiktionary.org/wiki/chunk#Noun");
+
+            URL_Add("instantiates", "https://en.wiktionary.org/wiki/instantiate#Verb");
+
+            URL_Add("amoeba", "https://en.wikipedia.org/wiki/Amoeba");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -88118,6 +88153,12 @@ namespace OverflowHelper.core
 
             correctionAdd("amazon lex_", "Amazon Lex_");
             correctionAdd("lex_", "Amazon Lex_");
+
+            correctionAdd("Redshift_", "Amazon Redshift_");
+            correctionAdd("AWS redshift_", "Amazon Redshift_");
+            correctionAdd("AWS Redshift_", "Amazon Redshift_");
+            correctionAdd("AWS redhsift_", "Amazon Redshift_");
+            correctionAdd("redhsift_", "Amazon Redshift_");
 
             correctionAdd("upgradation_", "upgrade_");
 
@@ -89373,6 +89414,7 @@ namespace OverflowHelper.core
             correctionAdd("Tread_", "thread_");
             correctionAdd("tread_", "thread_");
             correctionAdd("therad_", "thread_");
+            correctionAdd("thred_", "thread_");
 
             correctionAdd("monkey-patch_", "monkey patch_");
 
@@ -91258,6 +91300,8 @@ namespace OverflowHelper.core
             URL_Add("led_", "https://en.wiktionary.org/wiki/lead#Verb_2");
 
             URL_Add("pkg_", "https://en.wikipedia.org/wiki/Image_Packaging_System");
+
+            URL_Add("Amazon Redshift_", "https://en.wikipedia.org/wiki/Amazon_Redshift");
 
         } //addLookupData_alternativeWordSet()
 
