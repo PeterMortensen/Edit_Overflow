@@ -8821,6 +8821,7 @@ namespace OverflowHelper.core
             correctionAdd("probrems", "problem");
             correctionAdd("problesm", "problem");
             correctionAdd("pb", "problem");
+            correctionAdd("prom", "problem");
 
             correctionAdd("leadin", "leading");
 
@@ -11004,6 +11005,7 @@ namespace OverflowHelper.core
             correctionAdd("CGCC", "Code&nbsp;Golf (Stack Exchange site)");
             correctionAdd("code golf & code challenges", "Code&nbsp;Golf (Stack Exchange site)");
             correctionAdd("code golf and code challenges", "Code&nbsp;Golf (Stack Exchange site)");
+            correctionAdd("Code Golf & coding challenges", "Code&nbsp;Golf (Stack Exchange site)");
 
             correctionAdd("Game development", "Game&nbsp;Development (Stack Exchange site)");
             correctionAdd("Game Development", "Game&nbsp;Development (Stack Exchange site)"); // Sort of identity mapping
@@ -19573,6 +19575,15 @@ namespace OverflowHelper.core
             //   <https://coolermaster.egnyte.com/dl/Mc4Ypejdiw/>
             //
             correctionAdd("mm711", "MM711");
+
+            // A mouse from Cooler Master.
+            // Wireless (both Bluetooth and 2.4 GHz).
+            //
+            // Manual:
+            //
+            //   <https://coolermaster.egnyte.com/dl/9DeXlgzgnt/>
+            //
+            correctionAdd("mm712", "MM712");
 
             // A mouse from Cooler Master
             correctionAdd("mm730", "MM730");
@@ -29363,6 +29374,14 @@ namespace OverflowHelper.core
             correctionAdd("gramer", "grammar");
             correctionAdd("gramar", "grammar");
             correctionAdd("gremmer", "grammar");
+
+            correctionAdd("grammarly", "Grammarly");
+            correctionAdd("Grammary", "Grammarly");
+
+            correctionAdd("gramatically", "grammatically");
+
+            correctionAdd("gramatical", "grammatical");
+            correctionAdd("gramitical", "grammatical");
 
             correctionAdd("chinese", "Chinese");
             correctionAdd("Chiense", "Chinese");
@@ -41638,6 +41657,7 @@ namespace OverflowHelper.core
 
             correctionAdd("mythical manmonth", "The Mythical Man-Month");
             correctionAdd("The Mythical Man Month", "The Mythical Man-Month");
+            correctionAdd("mythical man month", "The Mythical Man-Month");
 
             correctionAdd("motnh", "month");
             correctionAdd("Month", "month");
@@ -45416,9 +45436,6 @@ namespace OverflowHelper.core
             correctionAdd("bitchute", "BitChute");
             correctionAdd("Bitchute", "BitChute");
 
-            correctionAdd("grammarly", "Grammarly");
-            correctionAdd("Grammary", "Grammarly");
-
             // AI-based grammar, spell checking, etc. Similar to Grammarly
             correctionAdd("quillbot", "QuillBot");
             correctionAdd("Quillbot", "QuillBot");
@@ -46025,8 +46042,6 @@ namespace OverflowHelper.core
             correctionAdd("bier", "beer");
 
             correctionAdd("clorinated", "chlorinated");
-
-            correctionAdd("gramatically", "grammatically");
 
             correctionAdd("Mind map", "mind map");
 
@@ -56589,7 +56604,31 @@ namespace OverflowHelper.core
 
             correctionAdd("instanciates", "instantiates");
 
+            // For example, it describes users of 40% keyboards. 
+            //
+            // Alternative URLs: 
+            //
+            //   <https://www.youtube.com/watch?v=1NWzNj_Po6s&t=6m17s>
+            //   <https://www.youtube.com/watch?v=OyC12A24Sag&t=11m30s>
+            //
             correctionAdd("amibia", "amoeba");
+
+            correctionAdd("the red dragon book", "Compilers: Principles, Techniques, and Tools");
+            correctionAdd("Dragon book", "Compilers: Principles, Techniques, and Tools");
+            correctionAdd("The Dragon book", "Compilers: Principles, Techniques, and Tools");
+            correctionAdd("dragon book", "Compilers: Principles, Techniques, and Tools");
+            correctionAdd("red Dragon book", "Compilers: Principles, Techniques, and Tools");
+            correctionAdd("red dragon book", "Compilers: Principles, Techniques, and Tools");
+
+            correctionAdd("initrd", "initial ramdisk");
+
+            correctionAdd("iradicate", "irradicate");
+
+            correctionAdd("journalling", "journaling");
+
+            correctionAdd("kedro", "Kedro");
+
+            correctionAdd("squashfs", "SquashFS");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -87103,6 +87142,22 @@ namespace OverflowHelper.core
             URL_Add("instantiates", "https://en.wiktionary.org/wiki/instantiate#Verb");
 
             URL_Add("amoeba", "https://en.wikipedia.org/wiki/Amoeba");
+
+            URL_Add("Compilers: Principles, Techniques, and Tools", "https://en.wikipedia.org/wiki/Compilers:_Principles,_Techniques,_and_Tools");
+
+            URL_Add("grammatical", "https://en.wiktionary.org/wiki/grammatical#Adjective");
+
+            URL_Add("initial ramdisk", "https://en.wikipedia.org/wiki/Initial_ramdisk");
+
+            URL_Add("irradicate", "https://en.wiktionary.org/wiki/irradicate#Verb");
+
+            URL_Add("journaling", "https://en.wiktionary.org/wiki/journaling#Noun");
+
+            URL_Add("Kedro", "https://github.com/kedro-org/kedro");
+
+            URL_Add("MM712", "https://www.coolermaster.com/catalog/peripheral/mice/mm712/");
+
+            URL_Add("SquashFS", "https://en.wikipedia.org/wiki/SquashFS");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
