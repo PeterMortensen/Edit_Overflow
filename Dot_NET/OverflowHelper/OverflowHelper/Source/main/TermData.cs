@@ -10155,6 +10155,7 @@ namespace OverflowHelper.core
             // Alternative URL: <https://meta.stackexchange.com/questions/390241>
             //
             correctionAdd("SO Labs", "Stack Overflow Labs");
+            correctionAdd("SO labs", "Stack Overflow Labs");
 
             correctionAdd("diffrent", "different");
             correctionAdd("diferent", "different");
@@ -11308,6 +11309,8 @@ namespace OverflowHelper.core
             correctionAdd("data Structure", "data structure");
             correctionAdd("datastruct", "data structure"); // A shorthand
             correctionAdd("Data Structure", "data structure");
+            correctionAdd("datastrucure", "data structure");
+            correctionAdd("datastruture", "data structure");
 
             correctionAdd("POD", "plain old data structure");
             correctionAdd("pod", "plain old data structure");
@@ -17192,6 +17195,7 @@ namespace OverflowHelper.core
             correctionAdd("Apple store", "App&nbsp;Store"); // Not 100% correct
             correctionAdd("app-store", "App&nbsp;Store");
             correctionAdd("apple store", "App&nbsp;Store");
+            correctionAdd("Appstore", "App&nbsp;Store");
 
             // Apple Inc.
             correctionAdd("reality-distortion field", "reality distortion field");
@@ -17207,6 +17211,23 @@ namespace OverflowHelper.core
             correctionAdd("IOs", "iOS");
             correctionAdd("IoS", "iOS");
             correctionAdd("ioS", "iOS");
+
+            correctionAdd("iOS 7", "iOS&nbsp;7");
+            correctionAdd("iOS7", "iOS&nbsp;7");
+
+            correctionAdd("iOS 8", "iOS&nbsp;8");
+            correctionAdd("iOS8", "iOS&nbsp;8");
+
+            correctionAdd("iOS 9", "iOS&nbsp;9");
+            correctionAdd("iOS9", "iOS&nbsp;9");
+
+            correctionAdd("iOS-10", "iOS&nbsp;10");
+            correctionAdd("iOS 10", "iOS&nbsp;10"); // Sort of identity mapping
+            correctionAdd("iOS10", "iOS&nbsp;10");
+
+            correctionAdd("iOS-11", "iOS&nbsp;11");
+            correctionAdd("iOS 11", "iOS&nbsp;11"); // Sort of identity mapping
+            correctionAdd("iOS11", "iOS&nbsp;11");
 
             correctionAdd("WatchOS", "watchOS");
 
@@ -18640,7 +18661,9 @@ namespace OverflowHelper.core
             // A software development methodology
             correctionAdd("Agile", "agile");
 
-            correctionAdd("SAFe", "Scaled Agile Framework");
+            correctionAdd("SAFe", "scaled agile framework");
+            correctionAdd("SAFE", "scaled agile framework");
+            correctionAdd("Scaled Agile Framework", "scaled agile framework");
 
             // An Agile methodology
             correctionAdd("scrum", "Scrum");
@@ -21522,6 +21545,7 @@ namespace OverflowHelper.core
             correctionAdd("split the baby", "Judgement of Solomon");
 
             correctionAdd("baby with the bathwater", "throw the baby out with the bathwater");
+            correctionAdd("throwing the baby out with the bathwater", "throw the baby out with the bathwater");
 
             correctionAdd("lmk", "let me know");
 
@@ -25901,6 +25925,7 @@ namespace OverflowHelper.core
             correctionAdd("behaveour", "behaviour");
             correctionAdd("BEHAVOIR", "behaviour");
             correctionAdd("beheaviour", "behaviour");
+            correctionAdd("behavour", "behaviour");
 
             correctionAdd("neighbor", "neighbour");
             correctionAdd("neigbour", "neighbour");
@@ -33720,6 +33745,7 @@ namespace OverflowHelper.core
             correctionAdd("constnat", "constant");
             correctionAdd("contstant", "constant");
             correctionAdd("constance", "constant");
+            correctionAdd("consant", "constant");
 
             correctionAdd("democrasy", "democracy");
             correctionAdd("democacy", "democracy");
@@ -34814,6 +34840,10 @@ namespace OverflowHelper.core
             correctionAdd("Peachpie", "PeachPie");
 
             correctionAdd("sudoku", "Sudoku");
+            correctionAdd("sodoku", "Sudoku");
+            correctionAdd("soduku", "Sudoku");
+            correctionAdd("suducu", "Sudoku");
+            correctionAdd("suduku", "Sudoku");
 
             correctionAdd("absolutly", "absolutely");
             correctionAdd("absulotly", "absolutely");
@@ -43220,6 +43250,7 @@ namespace OverflowHelper.core
             correctionAdd("exicution", "execution");
             correctionAdd("Execution", "execution");
             correctionAdd("EXECUTATION", "execution");
+            correctionAdd("executition", "execution");
 
             correctionAdd("BLM", "Black Lives Matter");
             correctionAdd("blm", "Black Lives Matter");
@@ -44223,6 +44254,8 @@ namespace OverflowHelper.core
 
             correctionAdd("lawier", "lawyer");
             correctionAdd("Lawyer", "lawyer");
+            correctionAdd("lawer", "lawyer");
+            correctionAdd("laywer", "lawyer");
 
             correctionAdd("sclalar", "scalar");
 
@@ -44756,6 +44789,8 @@ namespace OverflowHelper.core
 
             correctionAdd("ansynchronous", "asynchronous");
             correctionAdd("asynch", "asynchronous");
+            correctionAdd("asynchroniouos", "asynchronous");
+            correctionAdd("asynchronious", "asynchronous");
 
             correctionAdd("bulldodge", "bulldoze");
 
@@ -56604,9 +56639,9 @@ namespace OverflowHelper.core
 
             correctionAdd("instanciates", "instantiates");
 
-            // For example, it describes users of 40% keyboards. 
+            // For example, it describes users of 40% keyboards.
             //
-            // Alternative URLs: 
+            // Alternative URLs:
             //
             //   <https://www.youtube.com/watch?v=1NWzNj_Po6s&t=6m17s>
             //   <https://www.youtube.com/watch?v=OyC12A24Sag&t=11m30s>
@@ -56629,6 +56664,14 @@ namespace OverflowHelper.core
             correctionAdd("kedro", "Kedro");
 
             correctionAdd("squashfs", "SquashFS");
+
+            correctionAdd("air-intake", "air intake");
+
+            correctionAdd("compresser", "compressor");
+
+            correctionAdd("FN", "false negative");
+
+            correctionAdd("glade", "glad");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -64269,7 +64312,7 @@ namespace OverflowHelper.core
 
             URL_Add("Rotten Tomatoes", "https://en.wikipedia.org/wiki/Rotten_Tomatoes");
 
-            URL_Add("Scaled Agile Framework", "https://en.wikipedia.org/wiki/Scaled_agile_framework");
+            URL_Add("scaled agile framework", "https://en.wikipedia.org/wiki/Scaled_agile_framework");
 
             URL_Add("Security Now", "https://en.wikipedia.org/wiki/Security_Now");
 
@@ -87159,6 +87202,24 @@ namespace OverflowHelper.core
 
             URL_Add("SquashFS", "https://en.wikipedia.org/wiki/SquashFS");
 
+            URL_Add("air intake", "https://en.wiktionary.org/wiki/air_intake#Noun");
+
+            URL_Add("compressor", "https://en.wiktionary.org/wiki/compressor#Noun");
+
+            URL_Add("false negative", "https://en.wiktionary.org/wiki/false_negative#Noun");
+
+            URL_Add("glad", "https://en.wiktionary.org/wiki/glad#Adjective");
+
+            URL_Add("iOS&nbsp;10", "https://en.wikipedia.org/wiki/IOS_10");
+
+            URL_Add("iOS&nbsp;11", "https://en.wikipedia.org/wiki/IOS_11");
+
+            URL_Add("iOS&nbsp;7", "https://en.wikipedia.org/wiki/IOS_7");
+
+            URL_Add("iOS&nbsp;8", "https://en.wikipedia.org/wiki/IOS_8");
+
+            URL_Add("iOS&nbsp;9", "https://en.wikipedia.org/wiki/IOS_9");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -87601,6 +87662,7 @@ namespace OverflowHelper.core
             correctionAdd("Bioinformatics-SE_", "Bioinformatics (Stack Exchange site)_");
             correctionAdd("bioinformatics SE_", "Bioinformatics (Stack Exchange site)_");
             correctionAdd("bioinformatics-SE_", "Bioinformatics (Stack Exchange site)_");
+            correctionAdd("bioinformatics_", "Bioinformatics (Stack Exchange site)_");
 
             correctionAdd("Chemistry SE_", "Chemistry (Stack Exchange site)_");
             correctionAdd("chemistry SE_", "Chemistry (Stack Exchange site)_");
