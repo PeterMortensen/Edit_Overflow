@@ -2155,9 +2155,6 @@ namespace OverflowHelper.core
             correctionAdd("7 segment", "seven-segment display");
             correctionAdd("seven segment", "seven-segment display");
 
-            // Electronics. Sensor.
-            correctionAdd("strain gage", "strain gauge");
-
             correctionAdd("dc-dc converter", "DC-to-DC converter");
             correctionAdd("dc/DC", "DC-to-DC converter");
 
@@ -2293,6 +2290,13 @@ namespace OverflowHelper.core
             correctionAdd("GFCI", "residual-current device");
 
             correctionAdd("Electrical Ground Rod", "ground rod");
+
+            // Electronics. Sensor.
+            correctionAdd("strain gage", "strain gauge");
+
+            correctionAdd("gaue", "gauge");
+            correctionAdd("guage", "gauge");
+            correctionAdd("Guage", "gauge");
 
             correctionAdd("Osmand", "OsmAnd");
 
@@ -3790,6 +3794,7 @@ namespace OverflowHelper.core
             correctionAdd("an other", "another");
             correctionAdd("anther", "another");
             correctionAdd("An other", "another");
+            correctionAdd("anothe", "another");
 
             correctionAdd("otehr", "other");
             correctionAdd("outter", "other");
@@ -4832,9 +4837,6 @@ namespace OverflowHelper.core
 
             correctionAdd("thorium 232", "thorium-233");
 
-            correctionAdd("Uranium", "uranium");
-            correctionAdd("U", "uranium");
-
             correctionAdd("U-235", "uranium-235");
             correctionAdd("U 235", "uranium-235");
             correctionAdd("235 U", "uranium-235");
@@ -4979,15 +4981,6 @@ namespace OverflowHelper.core
             correctionAdd("Potassium Carbonate", "potassium carbonate");
 
             correctionAdd("Potassium Hydroxide", "potassium hydroxide");
-
-            correctionAdd("ide", "IDE");
-            correctionAdd("iDE", "IDE"); // Misspelling.
-            correctionAdd("Ide", "IDE");
-            correctionAdd("Integrated Development Environment", "IDE");
-            correctionAdd("I.D.E", "IDE");
-            correctionAdd("YDE", "IDE");
-            correctionAdd("Integrated Development Editor", "IDE");
-            correctionAdd("ID", "IDE");
 
             // A text editor
             correctionAdd("atom", "Atom");
@@ -5584,6 +5577,30 @@ namespace OverflowHelper.core
 
             // Alternative URL: <https://github.com/rails/execjs>
             correctionAdd("execjs", "ExecJS");
+
+            correctionAdd("cheak", "check");
+            correctionAdd("Cheak", "check");
+            correctionAdd("ceck", "check");
+            correctionAdd("chek", "check");
+            correctionAdd("chack", "check");
+            correctionAdd("chect", "check");
+            correctionAdd("ckeck", "check");
+
+            correctionAdd("spell-check", "spellcheck");
+            correctionAdd("spell check", "spellcheck");
+
+            correctionAdd("doublecheck", "double check");
+            correctionAdd("double-check", "double check");
+            correctionAdd("Double check", "double check");
+
+            correctionAdd("re-check", "recheck");
+            correctionAdd("Re-check", "recheck");
+
+            correctionAdd("counter check", "countercheck");
+            correctionAdd("Counter check", "countercheck");
+
+            correctionAdd("cross check", "cross-check");
+            correctionAdd("crosscheck", "cross-check");
 
             correctionAdd("linux", "Linux");
             correctionAdd("LINUX", "Linux");
@@ -6803,6 +6820,9 @@ namespace OverflowHelper.core
             correctionAdd("mabe", "maybe");
             correctionAdd("Mabye", "maybe");
 
+            correctionAdd("id", "ID");
+            correctionAdd("of", "ID"); // Double typo (slide / offset)
+
             correctionAdd("usb", "USB");
             correctionAdd("Usb", "USB");
 
@@ -7692,6 +7712,7 @@ namespace OverflowHelper.core
 
             correctionAdd("13", "Android 13");
             correctionAdd("android version 13", "Android 13");
+            correctionAdd("android 13", "Android 13");
 
             correctionAdd("android 14", "Android 14");
 
@@ -7805,6 +7826,7 @@ namespace OverflowHelper.core
 
             correctionAdd("typesafe", "type-safe");
             correctionAdd("type-save", "type-safe");
+            correctionAdd("type safe", "type-safe");
 
             correctionAdd("type check", "type-check");
             correctionAdd("typecheck", "type-check");
@@ -10962,6 +10984,8 @@ namespace OverflowHelper.core
             correctionAdd("Software Recommendations (Stack Exchange site)", "Software&nbsp;Recommendations (Stack Exchange site)");
             correctionAdd("Software&nbsp;Recommendations", "Software&nbsp;Recommendations (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("softwarerecs", "Software&nbsp;Recommendations (Stack Exchange site)");
+            correctionAdd("Software Recommendations", "Software&nbsp;Recommendations (Stack Exchange site)");
+            correctionAdd("Sofware Recommendations", "Software&nbsp;Recommendations (Stack Exchange site)");
 
             correctionAdd("code review", "Code&nbsp;Review (Stack Exchange site)");
             correctionAdd("CodeReview", "Code&nbsp;Review (Stack Exchange site)");
@@ -14189,6 +14213,7 @@ namespace OverflowHelper.core
 
              // Duplicate of "C preprocessor"?
             correctionAdd("pre-processor", "preprocessor");
+            correctionAdd("proprocessor", "preprocessor");
 
            // A feature of C
             //
@@ -16249,6 +16274,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Iphone7", "iPhone 7");
 
+            correctionAdd("iphone 14", "iPhone 14");
+
             correctionAdd("symbian", "Symbian");
 
             correctionAdd("linphone", "Linphone");
@@ -16280,29 +16307,6 @@ namespace OverflowHelper.core
             correctionAdd("re-cloning", "recloning");
 
             correctionAdd("over done", "overdone");
-
-            correctionAdd("cheak", "check");
-            correctionAdd("Cheak", "check");
-            correctionAdd("ceck", "check");
-            correctionAdd("chek", "check");
-            correctionAdd("chack", "check");
-            correctionAdd("chect", "check");
-
-            correctionAdd("spell-check", "spellcheck");
-            correctionAdd("spell check", "spellcheck");
-
-            correctionAdd("doublecheck", "double check");
-            correctionAdd("double-check", "double check");
-            correctionAdd("Double check", "double check");
-
-            correctionAdd("re-check", "recheck");
-            correctionAdd("Re-check", "recheck");
-
-            correctionAdd("counter check", "countercheck");
-            correctionAdd("Counter check", "countercheck");
-
-            correctionAdd("cross check", "cross-check");
-            correctionAdd("crosscheck", "cross-check");
 
             correctionAdd(".net", ".NET"); // This does NOT work (lookup fails) with the recent changes!!!
             correctionAdd(".Net", ".NET"); // This does NOT work (lookup fails) with the recent changes!!!
@@ -26183,6 +26187,7 @@ namespace OverflowHelper.core
             correctionAdd("tuts", "tutorial");
             correctionAdd("torturial", "tutorial"); // !!!!!
             correctionAdd("toturial", "tutorial");
+            correctionAdd("tuturial", "tutorial");
 
             correctionAdd("jQuery Isotope", "jQuery&nbsp;Isotope"); // Sort of identity mapping
             correctionAdd("Isotope", "jQuery&nbsp;Isotope");
@@ -29423,6 +29428,7 @@ namespace OverflowHelper.core
             correctionAdd("Atleast", "at least");
             correctionAdd("at leas", "at least");
             correctionAdd("at leadt", "at least");
+            correctionAdd("atvleast", "at least"); // True typo (involving the space bar)
 
             correctionAdd("lest", "least");
             correctionAdd("leas", "least");
@@ -30585,6 +30591,7 @@ namespace OverflowHelper.core
             correctionAdd("actally", "actually");
             correctionAdd("actullay", "actually");
             correctionAdd("acutally", "actually");
+            correctionAdd("actuaslly", "actually");
 
             correctionAdd("re-post", "repost");
 
@@ -31470,6 +31477,7 @@ namespace OverflowHelper.core
             correctionAdd("responsiblity", "responsibility");
 
             correctionAdd("suprised", "surprised");
+            correctionAdd("surprized", "surprised");
 
             correctionAdd("3rd", "third");
             correctionAdd("3th", "third");
@@ -31738,6 +31746,7 @@ namespace OverflowHelper.core
             correctionAdd("unlit", "until");
             correctionAdd("untll", "until");
             correctionAdd("unitl", "until");
+            correctionAdd("untilt", "until");
 
             correctionAdd("democraticly", "democratically");
 
@@ -32070,6 +32079,7 @@ namespace OverflowHelper.core
             correctionAdd("apprecieated", "appreciated");
             correctionAdd("appreaciated", "appreciated");
             correctionAdd("appricated", "appreciated");
+            correctionAdd("apprciated", "appreciated");
 
             correctionAdd("netbios-ns", "port 137");
 
@@ -34674,9 +34684,6 @@ namespace OverflowHelper.core
             correctionAdd("Collector", "collector");
 
             correctionAdd("Drain", "drain");
-
-            correctionAdd("gaue", "gauge");
-            correctionAdd("guage", "gauge");
 
             correctionAdd("happlily", "happily");
             correctionAdd("happilly", "happily");
@@ -38845,14 +38852,6 @@ namespace OverflowHelper.core
 
             correctionAdd("tomorrows", "tomorrow's");
 
-            correctionAdd("Id", "I’d");
-            correctionAdd("I´d", "I’d");
-            correctionAdd("I'd", "I’d");
-            correctionAdd("i'd", "I’d");
-            correctionAdd("id", "I’d");
-            correctionAdd("I'ld", "I’d");
-            correctionAdd("i'ld", "I’d");
-
             correctionAdd("Shindler's list", "Schindler's List");
 
             correctionAdd("hiaerchies", "hierarchies");
@@ -39980,6 +39979,7 @@ namespace OverflowHelper.core
             correctionAdd("Competitive", "competitive");
             correctionAdd("Competetive", "competitive");
             correctionAdd("Competative", "competitive");
+            correctionAdd("compeitive", "competitive");
 
             correctionAdd("excalamation mark", "exclamation mark");
             correctionAdd("Excalamation mark", "exclamation mark");
@@ -40361,12 +40361,6 @@ namespace OverflowHelper.core
 
             correctionAdd("lotsa", "lots of");
 
-            correctionAdd("Of", "of");
-            correctionAdd("onf", "of");
-            correctionAdd("ot", "of");
-            correctionAdd("if", "of");
-            correctionAdd("ov", "of");
-
             correctionAdd("error-proof", "errorproof");
 
             correctionAdd("2", "two");
@@ -40393,6 +40387,7 @@ namespace OverflowHelper.core
             correctionAdd("yu", "you");
             correctionAdd("yiu", "you");
             correctionAdd("Ypu", "you");
+            correctionAdd("U", "you");
 
             correctionAdd("Zinc", "zinc");
             correctionAdd("Zn", "zinc");
@@ -44523,6 +44518,7 @@ namespace OverflowHelper.core
             correctionAdd("intheeral", "integral");
 
             correctionAdd("mans", "means");
+            correctionAdd("menas", "means");
 
             correctionAdd("long term", "long-term");
             correctionAdd("long terms", "long-term");
@@ -47871,8 +47867,18 @@ namespace OverflowHelper.core
             correctionAdd("wateing", "waiting");
             correctionAdd("waitin", "waiting");
 
+            // A speech recognition system
             correctionAdd("cmu sphinx", "CMU Sphinx");
             correctionAdd("cmusphinx", "CMU Sphinx");
+
+            // A Python library 
+            //
+            // Alternative URLs:
+            //   <https://wiki.pysthon.org/moin/Sphinx>
+            //   <https://www.codeproject.com/Articles/5246442/Use-Sphinx-for-Python-Documentation>
+            //   <https://www.sphinx-doc.org/en/master/>
+            //            
+            correctionAdd("sphinx", "Sphinx");
 
             correctionAdd("Hidden Markov Model", "Hidden Markov model");
 
@@ -48440,6 +48446,8 @@ namespace OverflowHelper.core
             correctionAdd("yipe", "yes");
             correctionAdd("Yh", "yes");
             correctionAdd("yh", "yes");
+            correctionAdd("Yea", "yes");
+            correctionAdd("yea", "yes");
 
             correctionAdd("eviews", "EViews");
 
@@ -48507,6 +48515,7 @@ namespace OverflowHelper.core
 
             correctionAdd("galary", "gallery");
             correctionAdd("galory", "gallery");
+            correctionAdd("galleru", "gallery");
 
             correctionAdd("resove", "resolve");
             correctionAdd("reslove", "resolve");
@@ -50961,6 +50970,7 @@ namespace OverflowHelper.core
 
             correctionAdd("shift cipher", "Caesar cipher");
             correctionAdd("cesa encryption", "Caesar cipher");
+            correctionAdd("Caesar Cipher", "Caesar cipher");
 
             correctionAdd("XOR Cipher", "XOR cipher");
 
@@ -51503,6 +51513,7 @@ namespace OverflowHelper.core
             correctionAdd("rent free", "rent-free");
 
             correctionAdd("technicaly", "technically");
+            correctionAdd("tecnhically", "technically");
 
             correctionAdd("Burp suite", "Burp Suite");
             correctionAdd("BURP", "Burp Suite");
@@ -56693,7 +56704,54 @@ namespace OverflowHelper.core
             correctionAdd("Valencia", "mosquitos in Valencia (Hans Christian Andersen)");
             correctionAdd("mosquitos in Valencia", "mosquitos in Valencia (Hans Christian Andersen)");
 
-            correctionAdd("sphinx", "Sphinx");
+            correctionAdd("ide", "IDE");
+            correctionAdd("iDE", "IDE"); // Misspelling.
+            correctionAdd("Ide", "IDE");
+            correctionAdd("Integrated Development Environment", "IDE");
+            correctionAdd("I.D.E", "IDE");
+            correctionAdd("YDE", "IDE");
+            correctionAdd("Integrated Development Editor", "IDE");
+            //cXXorrectionAdd("ID_", "IDE");  Currently a conflict with other words
+
+            correctionAdd("oe", "or");
+            correctionAdd("ot", "or");
+
+            correctionAdd("if", "IF");
+            correctionAdd("intermediate frequency", "IF");
+
+            correctionAdd("appendline", "AppendLine");
+
+            correctionAdd("*ss", "ass");
+
+            correctionAdd("Fuel Gauge", "fuel gauge");
+            correctionAdd("Fuel Guage", "fuel gauge");
+            correctionAdd("fuel guage", "fuel gauge");
+
+            correctionAdd("happay", "happy");
+
+            correctionAdd("on the long term", "in the long term");
+            correctionAdd("On the long term", "in the long term");
+
+            correctionAdd("MTZ", "Miller–Tucker–Zemlin formulation");
+
+            correctionAdd("psf", "point spread function");
+            correctionAdd("PSF", "point spread function");
+
+            correctionAdd("side lobes", "sidelobes");
+
+            correctionAdd("Someone else", "someone else");
+            correctionAdd("Someone elese", "someone else");
+            correctionAdd("someone elese", "someone else");
+
+            correctionAdd("spell mistake", "spelling mistake");
+
+            correctionAdd("tradition", "traditional");
+
+            correctionAdd("tresure", "treasure");
+
+            correctionAdd("tresures", "treasures");
+
+            correctionAdd("USACO", "United States of America Computing Olympiad");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -58120,8 +58178,6 @@ namespace OverflowHelper.core
             URL_Add("ZedGraph", "http://www.codeproject.com/KB/graphics/zedgraph.aspx");
 
             URL_Add("Jython", "https://en.wikipedia.org/wiki/Jython");
-
-            URL_Add("IDE", "https://en.wikipedia.org/wiki/Integrated_development_environment");
 
             URL_Add("concatenate", "https://en.wiktionary.org/wiki/concatenate#Verb"); // Old: https://en.wiktionary.org/wiki/concatenate
 
@@ -61182,8 +61238,6 @@ namespace OverflowHelper.core
             URL_Add("rhetorical", "https://en.wiktionary.org/wiki/rhetorical#Adjective");
 
             URL_Add("thorium", "https://en.wikipedia.org/wiki/Thorium");
-
-            URL_Add("uranium", "https://en.wikipedia.org/wiki/Uranium");
 
             URL_Add("with", "https://en.wiktionary.org/wiki/with#Preposition");
 
@@ -65935,8 +65989,6 @@ namespace OverflowHelper.core
             URL_Add("tomorrow's", "https://en.wiktionary.org/wiki/tomorrow's#Adjective"); // Does not actually exist at Wiktionary. But "today's" exists. Was it deleted?
 
             URL_Add("today's", "https://en.wiktionary.org/wiki/today's#Adjective"); // Old: https://en.wiktionary.org/wiki/today's
-
-            URL_Add("I’d", "https://en.wiktionary.org/wiki/I%27d#Contraction");
 
             URL_Add("Schindler's List", "https://en.wikipedia.org/wiki/Schindler's_List");
 
@@ -78888,8 +78940,6 @@ namespace OverflowHelper.core
 
             URL_Add("graph", "https://en.wiktionary.org/wiki/graph#Noun");
 
-            URL_Add("of", "https://en.wiktionary.org/wiki/of#Preposition");
-
             URL_Add("opinionated", "https://en.wiktionary.org/wiki/opinionated#Adjective");
 
             URL_Add("optional", "https://en.wiktionary.org/wiki/optional#Adjective");
@@ -87256,6 +87306,44 @@ namespace OverflowHelper.core
 
             URL_Add("Sphinx", "https://github.com/sphinx-doc/sphinx");
 
+            URL_Add("iPhone 14", "https://en.wikipedia.org/wiki/IPhone_14");
+
+            URL_Add("IDE", "https://en.wikipedia.org/wiki/Integrated_development_environment");
+
+            URL_Add("or", "https://en.wiktionary.org/wiki/or#Conjunction");
+
+            URL_Add("IF", "https://en.wikipedia.org/wiki/Intermediate_frequency");
+
+            URL_Add("ID", "https://en.wiktionary.org/wiki/ID#Noun");
+
+            URL_Add("AppendLine", "https://learn.microsoft.com/en-us/dotnet/api/system.text.stringbuilder.appendline");
+
+            URL_Add("ass", "https://en.wiktionary.org/wiki/ass#Noun_2");
+
+            URL_Add("fuel gauge", "https://en.wiktionary.org/wiki/fuel_gauge#Noun");
+
+            URL_Add("happy", "https://en.wiktionary.org/wiki/happy#Adjective");
+
+            URL_Add("in the long term", "https://en.wiktionary.org/wiki/in_the_long_term#Prepositional_phrase");
+
+            URL_Add("Miller–Tucker–Zemlin formulation", "https://en.wikipedia.org/wiki/Travelling_salesman_problem#Integer_linear_programming_formulations");
+
+            URL_Add("point spread function", "https://en.wikipedia.org/wiki/Point_spread_function");
+
+            URL_Add("sidelobes", "https://en.wikipedia.org/wiki/Sidelobes");
+
+            URL_Add("someone else", "https://en.wiktionary.org/wiki/someone_else#Pronoun");
+
+            URL_Add("spelling mistake", "https://www.collinsdictionary.com/dictionary/english/spelling-mistake");
+
+            URL_Add("traditional", "https://en.wiktionary.org/wiki/traditional#Adjective");
+
+            URL_Add("treasure", "https://en.wiktionary.org/wiki/treasure#Noun");
+
+            URL_Add("treasures", "https://en.wiktionary.org/wiki/treasure#Noun");
+
+            URL_Add("United States of America Computing Olympiad", "https://en.wikipedia.org/wiki/United_States_of_America_Computing_Olympiad");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -88090,9 +88178,6 @@ namespace OverflowHelper.core
             correctionAdd("Graph_", "Microsoft Graph_");
             correctionAdd("Microsoft graph_", "Microsoft Graph_");
 
-            correctionAdd("if_", "IF_");
-            correctionAdd("intermediate frequency_", "IF_");
-
             // It is in the alternative word set because one of the
             // mappings conflicts with "opion" for "opinion"...
             correctionAdd("opion_", "option_");
@@ -88280,9 +88365,6 @@ namespace OverflowHelper.core
             correctionAdd("GIGA-BYTE_", "Gigabyte Technology_");
             correctionAdd("gigebyte_", "Gigabyte Technology_");
             correctionAdd("GB_", "Gigabyte Technology_");
-
-            correctionAdd("oe_", "or_");
-            correctionAdd("ot_", "or_");
 
             correctionAdd("thing_", "think_");
 
@@ -89424,8 +89506,6 @@ namespace OverflowHelper.core
 
             correctionAdd("CLASS_", "class_");
 
-            correctionAdd("ID_", "id_");
-
             correctionAdd("finde_", "fine_");
             correctionAdd("fin_", "fine_");
             correctionAdd("fince_", "fine_");
@@ -89955,6 +90035,7 @@ namespace OverflowHelper.core
 
             correctionAdd("asf_", "as fuck_");
 
+            // The irregular verb "lead"
             correctionAdd("leaded_", "led_");
 
             correctionAdd("PKG_", "pkg_");
@@ -89969,6 +90050,23 @@ namespace OverflowHelper.core
             correctionAdd("handy_", "mobile phone_");
 
             correctionAdd("clown_", "clone_");
+
+            correctionAdd("Uranium_", "uranium_");
+            correctionAdd("U_", "uranium_");
+
+            correctionAdd("Id_", "I’d_");
+            correctionAdd("I´d_", "I’d_");
+            correctionAdd("I'd_", "I’d_");
+            correctionAdd("i'd_", "I’d_");
+            correctionAdd("id_", "I’d_");
+            correctionAdd("I'ld_", "I’d_");
+            correctionAdd("i'ld_", "I’d_");
+
+            correctionAdd("Of_", "of_");
+            correctionAdd("onf_", "of_");
+            correctionAdd("ot_", "of_");
+            correctionAdd("if_", "of_");
+            correctionAdd("ov_", "of_");
 
             // URL mappings
             //
@@ -90293,8 +90391,6 @@ namespace OverflowHelper.core
 
             URL_Add("Microsoft Graph_", "https://en.wikipedia.org/wiki/Microsoft_Graph");
 
-            URL_Add("IF_", "https://en.wikipedia.org/wiki/Intermediate_frequency");
-
             URL_Add("option_", "https://en.wiktionary.org/wiki/option#Noun");
 
             URL_Add("UltraEdit_", "https://en.wikipedia.org/wiki/UltraEdit");
@@ -90446,8 +90542,6 @@ namespace OverflowHelper.core
             URL_Add("Gigabyte Technology_", "https://en.wikipedia.org/wiki/Gigabyte_Technology");
 
             URL_Add("think_", "https://en.wiktionary.org/wiki/think#Verb");
-
-            URL_Add("or_", "https://en.wiktionary.org/wiki/or#Conjunction");
 
             URL_Add("player character_", "https://en.wikipedia.org/wiki/Player_character");
 
@@ -91029,8 +91123,6 @@ namespace OverflowHelper.core
 
             URL_Add("class_", "https://en.wikipedia.org/wiki/HTML_attribute#Common_attributes");
 
-            URL_Add("id_", "https://en.wikipedia.org/wiki/HTML_attribute#Common_attributes");
-
             URL_Add("Windows&nbsp;8_", "https://en.wikipedia.org/wiki/Windows_8");
 
             URL_Add("fine_", "https://en.wiktionary.org/wiki/fine#Adverb");
@@ -91460,6 +91552,12 @@ namespace OverflowHelper.core
             URL_Add("Amazon Redshift_", "https://en.wikipedia.org/wiki/Amazon_Redshift");
 
             URL_Add("one_", "https://en.wiktionary.org/wiki/one#Pronoun");
+
+            URL_Add("uranium_", "https://en.wikipedia.org/wiki/Uranium");
+
+            URL_Add("I’d_", "https://en.wiktionary.org/wiki/I%27d#Contraction");
+
+            URL_Add("of_", "https://en.wiktionary.org/wiki/of#Preposition");
 
         } //addLookupData_alternativeWordSet()
 
