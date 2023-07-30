@@ -10707,6 +10707,7 @@ namespace OverflowHelper.core
             correctionAdd("EarthScience", "Earth&nbsp;Science (Stack Exchange site)");
             correctionAdd("Earth Science (Stack Exchange site)", "Earth&nbsp;Science (Stack Exchange site)");
             correctionAdd("Earth&nbsp;Science", "Earth&nbsp;Science (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("ESSE", "Earth&nbsp;Science (Stack Exchange site)");
 
             correctionAdd("Computational Science SE", "Computational&nbsp;Science (Stack Exchange site)");
             correctionAdd("Computational Science", "Computational&nbsp;Science (Stack Exchange site)"); // Sort of identity mapping
@@ -19558,6 +19559,21 @@ namespace OverflowHelper.core
             correctionAdd("Sk622", "SK622");
             correctionAdd("SK662", "SK622");
             correctionAdd("Sk662", "SK622");
+
+            // A crippled (tenkeyless (80%)) mechanical keyboard 
+            // from Cooler Master (Cherry MX Low Profile 
+            // (actuation point reduced by 0.8 mm)).
+            // Slim. Wired. RGB (per-key) lighting.
+            //
+            // Manual:
+            //
+            //   <https://coolermaster.egnyte.com/dd/f1Qqfab2m5>
+            //
+            // Configuration software:
+            //
+            //   Cooler Master Portal
+            //
+            correctionAdd("sk630", "SK630");
 
             // Full-size mechanical keyboard from Cooler Master.
             // "TTC Low Profile Mechanical Switch".
@@ -56753,6 +56769,14 @@ namespace OverflowHelper.core
 
             correctionAdd("USACO", "United States of America Computing Olympiad");
 
+            correctionAdd("Gmc terrain 2018", "GMC Terrain 2018");
+
+            // Not to be confused with SQLite. Is SQLite for Flutter.
+            correctionAdd("SQFlite", "SQFLite");
+            correctionAdd("SQFLITE", "SQFLite");
+            correctionAdd("Sqflite", "SQFLite");
+            correctionAdd("sqflite", "SQFLite");
+
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -87343,6 +87367,12 @@ namespace OverflowHelper.core
             URL_Add("treasures", "https://en.wiktionary.org/wiki/treasure#Noun");
 
             URL_Add("United States of America Computing Olympiad", "https://en.wikipedia.org/wiki/United_States_of_America_Computing_Olympiad");
+
+            URL_Add("GMC Terrain 2018", "https://en.wikipedia.org/wiki/GMC_Terrain#Second_generation_(2018)");
+
+            URL_Add("SK630", "https://www.coolermaster.com/catalog/peripheral/keyboards/sk630/");
+
+            URL_Add("SQFLite", "https://github.com/tekartik/sqflite");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
