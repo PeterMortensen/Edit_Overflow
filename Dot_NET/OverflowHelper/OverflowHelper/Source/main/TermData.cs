@@ -2882,6 +2882,8 @@ namespace OverflowHelper.core
             correctionAdd("Dictionary", "dictionary");
             correctionAdd("Dectionary", "dictionary");
             correctionAdd("dectionary", "dictionary");
+            correctionAdd("dictionairy", "dictionary");
+            correctionAdd("dictionnairy", "dictionary");
 
             // English
             correctionAdd("CALD", "Cambridge Dictionary");
@@ -5766,6 +5768,8 @@ namespace OverflowHelper.core
             correctionAdd("RedHat Linux", "Red Hat Linux"); // The OS, not the company.
             correctionAdd("REDHAT", "Red Hat Linux"); // The OS, not the company.
             correctionAdd("RHL", "Red Hat Linux");
+            correctionAdd("Linux RedHat", "Red Hat Linux");
+            correctionAdd("linux RedHat", "Red Hat Linux");
 
             // A Linux distribution
             correctionAdd("RHEL", "Red Hat Enterprise Linux"); // The OS, not the company.
@@ -8606,6 +8610,8 @@ namespace OverflowHelper.core
             correctionAdd("Let's encrypt", "Let's Encrypt");
             correctionAdd("Lets Encrypt", "Let's Encrypt");
             correctionAdd("LetsEncrypt", "Let's Encrypt");
+            correctionAdd("Lets encrypt", "Let's Encrypt");
+            correctionAdd("Letsencrypt", "Let's Encrypt");
 
             correctionAdd("enrypt", "encrypt");
             correctionAdd("incrypt", "encrypt");
@@ -11584,6 +11590,8 @@ namespace OverflowHelper.core
             correctionAdd("Visusal Studio Code", "Visual Studio Code");
             correctionAdd("visual studio Code", "Visual Studio Code");
             correctionAdd("visual studios code", "Visual Studio Code");
+            correctionAdd("Visual code studio", "Visual Studio Code");
+            correctionAdd("visual code studio", "Visual Studio Code");
 
             // Related to Visual Studio Code
             correctionAdd("codium", "VSCodium");
@@ -12685,6 +12693,19 @@ namespace OverflowHelper.core
 
             // A Python library
             //
+            // Alternative URLs:
+            //   <https://wiki.pysthon.org/moin/Sphinx>
+            //   <https://www.codeproject.com/Articles/5246442/Use-Sphinx-for-Python-Documentation>
+            //   <https://www.sphinx-doc.org/en/master/>
+            //
+            correctionAdd("sphinx", "Sphinx");
+
+            // Python
+            correctionAdd("Beeware", "BeeWare");
+            correctionAdd("beeware", "BeeWare");
+
+            // A Python library
+            //
             // There is a well-known example of typosquatting involving
             // it:
             //
@@ -13361,6 +13382,7 @@ namespace OverflowHelper.core
             correctionAdd("react Js", "React");
             correctionAdd("reactJs", "React");
             correctionAdd("React Js", "React");
+            correctionAdd("react-js", "React");
 
             correctionAdd("react native", "React Native");
             correctionAdd("react-native", "React Native");
@@ -15905,6 +15927,12 @@ namespace OverflowHelper.core
 
             correctionAdd("sqlite_orm", "SQLite ORM");
 
+            // Not to be confused with SQLite. Is SQLite for Flutter.
+            correctionAdd("SQFlite", "SQFLite");
+            correctionAdd("SQFLITE", "SQFLite");
+            correctionAdd("Sqflite", "SQFLite");
+            correctionAdd("sqflite", "SQFLite");
+
             correctionAdd("pgsql", "PostgreSQL");
             correctionAdd("Postgre", "PostgreSQL");
             correctionAdd("postgre", "PostgreSQL");
@@ -16275,7 +16303,11 @@ namespace OverflowHelper.core
 
             correctionAdd("Iphone7", "iPhone 7");
 
+            correctionAdd("iphone 13", "iPhone 13");
+
             correctionAdd("iphone 14", "iPhone 14");
+
+            correctionAdd("iphone X", "iPhone X");
 
             correctionAdd("symbian", "Symbian");
 
@@ -17228,6 +17260,10 @@ namespace OverflowHelper.core
             correctionAdd("iOS-11", "iOS&nbsp;11");
             correctionAdd("iOS 11", "iOS&nbsp;11"); // Sort of identity mapping
             correctionAdd("iOS11", "iOS&nbsp;11");
+
+            correctionAdd("ios 16", "iOS 16");
+
+            correctionAdd("ios 17", "iOS 17");
 
             correctionAdd("WatchOS", "watchOS");
 
@@ -18716,7 +18752,26 @@ namespace OverflowHelper.core
             correctionAdd("TAOCP", "The Art of Computer Programming");
             correctionAdd("TAOP", "The Art of Computer Programming");
 
+            correctionAdd("competetive", "competitive");
+            correctionAdd("competative", "competitive");
+            correctionAdd("Competitive", "competitive");
+            correctionAdd("Competetive", "competitive");
+            correctionAdd("Competative", "competitive");
+            correctionAdd("compeitive", "competitive");
+
+            correctionAdd("out compete", "outcompete");
+
             correctionAdd("Competitive Programming", "competitive programming");
+            correctionAdd("Sport Programming", "competitive programming");
+            correctionAdd("sport programming", "competitive programming");
+
+            correctionAdd("USACO", "United States of America Computing Olympiad");
+
+            correctionAdd("competant", "competent");
+
+            correctionAdd("competance", "competence");
+
+            correctionAdd("incompetant", "incompetent");
 
             correctionAdd("project mess detector", "Programming Mistake Detector");
             correctionAdd("PMD", "Programming Mistake Detector");
@@ -19136,6 +19191,9 @@ namespace OverflowHelper.core
 
             // A type of RGB lighting for mechanical keyboards
             correctionAdd("southside", "south-facing");
+
+            // A type of RGB lighting for mechanical keyboards
+            correctionAdd("north facing", "north-facing");
 
             // A component used in mechanical keyboards (to
             // enable replaceable switches).
@@ -19560,8 +19618,8 @@ namespace OverflowHelper.core
             correctionAdd("SK662", "SK622");
             correctionAdd("Sk662", "SK622");
 
-            // A crippled (tenkeyless (80%)) mechanical keyboard 
-            // from Cooler Master (Cherry MX Low Profile 
+            // A crippled (tenkeyless (80%)) mechanical keyboard
+            // from Cooler Master (Cherry MX Low Profile
             // (actuation point reduced by 0.8 mm)).
             // Slim. Wired. RGB (per-key) lighting.
             //
@@ -25321,6 +25379,9 @@ namespace OverflowHelper.core
             // DNS
             correctionAdd("txt record", "TXT record");
 
+            // A DNS service provider
+            correctionAdd("namecheap", "Namecheap");
+
             correctionAdd("ram", "RAM");
             correctionAdd("Ram", "RAM");
             correctionAdd("RAm", "RAM");
@@ -25460,6 +25521,7 @@ namespace OverflowHelper.core
             correctionAdd("specifig", "specific");
             correctionAdd("Specific", "specific");
             correctionAdd("speficic", "specific");
+            correctionAdd("speicific", "specific");
 
             correctionAdd("specifity", "specificity");
 
@@ -25491,8 +25553,11 @@ namespace OverflowHelper.core
 
             correctionAdd("mini iPad", "iPad Mini");
             correctionAdd("mini-iPad", "iPad Mini");
+            correctionAdd("iPad mini", "iPad Mini");
 
             correctionAdd("iPad air", "iPad Air");
+
+            correctionAdd("iPad pro", "iPad Pro");
 
             correctionAdd("rhino", "Rhino");
 
@@ -32778,8 +32843,6 @@ namespace OverflowHelper.core
             correctionAdd("challending", "challenging");
             correctionAdd("challanging", "challenging");
 
-            correctionAdd("competant", "competent");
-
             correctionAdd("disasterous", "disastrous");
             correctionAdd("disastrorous", "disastrous");
 
@@ -35295,6 +35358,7 @@ namespace OverflowHelper.core
             correctionAdd("myslef", "myself");
 
             correctionAdd("returnig", "returning");
+            correctionAdd("returing", "returning");
 
             correctionAdd("stuf", "stuff");
 
@@ -35812,6 +35876,7 @@ namespace OverflowHelper.core
             correctionAdd("thhat", "that");
             correctionAdd("thet", "that");
             correctionAdd("thai", "that");
+            correctionAdd("thast", "that");
 
             correctionAdd("val", "value");
             correctionAdd("vaue", "value");
@@ -39989,13 +40054,6 @@ namespace OverflowHelper.core
             correctionAdd("mig21", "MiG-21");
 
             correctionAdd("air to air missile", "air-to-air missile");
-
-            correctionAdd("competetive", "competitive");
-            correctionAdd("competative", "competitive");
-            correctionAdd("Competitive", "competitive");
-            correctionAdd("Competetive", "competitive");
-            correctionAdd("Competative", "competitive");
-            correctionAdd("compeitive", "competitive");
 
             correctionAdd("excalamation mark", "exclamation mark");
             correctionAdd("Excalamation mark", "exclamation mark");
@@ -47887,15 +47945,6 @@ namespace OverflowHelper.core
             correctionAdd("cmu sphinx", "CMU Sphinx");
             correctionAdd("cmusphinx", "CMU Sphinx");
 
-            // A Python library 
-            //
-            // Alternative URLs:
-            //   <https://wiki.pysthon.org/moin/Sphinx>
-            //   <https://www.codeproject.com/Articles/5246442/Use-Sphinx-for-Python-Documentation>
-            //   <https://www.sphinx-doc.org/en/master/>
-            //            
-            correctionAdd("sphinx", "Sphinx");
-
             correctionAdd("Hidden Markov Model", "Hidden Markov model");
 
             correctionAdd("Compose", "Jetpack Compose");
@@ -48165,6 +48214,15 @@ namespace OverflowHelper.core
 
             correctionAdd("Word 2010", "Microsoft Word 2010");
             correctionAdd("MS Word 2010", "Microsoft Word 2010");
+
+            correctionAdd("Publisher", "Microsoft Publisher");
+
+            correctionAdd("Microsoft Hardware Diagnostic tool", "Hwinfo.exe");
+
+            correctionAdd("PnP", "Microsoft 365 Patterns & Practices");
+
+            correctionAdd("Windows Intune", "Microsoft Intune");
+            correctionAdd("Intune", "Microsoft Intune");
 
             correctionAdd("Redux Devtools", "Redux DevTools");
 
@@ -50273,8 +50331,6 @@ namespace OverflowHelper.core
             correctionAdd("HST", "Hubble Space Telescope");
             correctionAdd("Hubble", "Hubble Space Telescope");
 
-            correctionAdd("Publisher", "Microsoft Publisher");
-
             correctionAdd("Symfony 4", "Symfony&nbsp;4");
             correctionAdd("Symfony4", "Symfony&nbsp;4");
             correctionAdd("SF4", "Symfony&nbsp;4");
@@ -51139,6 +51195,9 @@ namespace OverflowHelper.core
             correctionAdd("establashing", "establishing");
 
             correctionAdd("SUV", "sport utility vehicle");
+
+            // A car (SUV)
+            correctionAdd("Gmc terrain 2018", "GMC Terrain 2018");
 
             correctionAdd("sub contract", "subcontract");
 
@@ -52279,8 +52338,6 @@ namespace OverflowHelper.core
 
             correctionAdd("4k", "4K");
 
-            correctionAdd("Microsoft Hardware Diagnostic tool", "Hwinfo.exe");
-
             correctionAdd("Soundtrap", "SoundTrap");
             correctionAdd("soundtrap", "SoundTrap");
 
@@ -52436,8 +52493,6 @@ namespace OverflowHelper.core
 
             correctionAdd("age wise", "agewise");
 
-            correctionAdd("competance", "competence");
-
             correctionAdd("DOA", "dead on arrival");
 
             correctionAdd("egree", "degree");
@@ -52452,8 +52507,6 @@ namespace OverflowHelper.core
             correctionAdd("high ranked", "high-ranking");
 
             correctionAdd("historam", "histogram");
-
-            correctionAdd("incompetant", "incompetent");
 
             correctionAdd("lable", "label");
 
@@ -52738,8 +52791,6 @@ namespace OverflowHelper.core
 
             correctionAdd("discordJS", "discord.js");
             correctionAdd("discord js", "discord.js");
-
-            correctionAdd("out compete", "outcompete");
 
             correctionAdd("Liquidbase", "Liquibase");
 
@@ -54967,6 +55018,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Fortigate", "FortiGate");
             correctionAdd("fortigate", "FortiGate");
+            correctionAdd("FORTIGATE", "FortiGate");
 
             correctionAdd("handholding", "hand-holding");
 
@@ -55398,8 +55450,6 @@ namespace OverflowHelper.core
             correctionAdd("timeseries", "time series");
 
             correctionAdd("Humble Pie", "humble pie");
-
-            correctionAdd("PnP", "Microsoft 365 Patterns & Practices");
 
             correctionAdd("our world in data", "Our World in Data");
             correctionAdd("Our World in data", "Our World in Data");
@@ -56767,15 +56817,24 @@ namespace OverflowHelper.core
 
             correctionAdd("tresures", "treasures");
 
-            correctionAdd("USACO", "United States of America Computing Olympiad");
+            correctionAdd("R10000", "MIPS R10000");
 
-            correctionAdd("Gmc terrain 2018", "GMC Terrain 2018");
+            correctionAdd("MITMPROXY", "mitmproxy");
 
-            // Not to be confused with SQLite. Is SQLite for Flutter.
-            correctionAdd("SQFlite", "SQFLite");
-            correctionAdd("SQFLITE", "SQFLite");
-            correctionAdd("Sqflite", "SQFLite");
-            correctionAdd("sqflite", "SQFLite");
+            correctionAdd("hight voltage", "high voltage");
+            correctionAdd("high-voltage", "high voltage");
+
+            correctionAdd("ALPN", "Application-Layer Protocol Negotiation");
+
+            correctionAdd("SNI", "Server Name Indication");
+
+            correctionAdd("side tracked", "sidetracked");
+            correctionAdd("side-tracked", "sidetracked");
+
+            correctionAdd("circuit-breaker", "circuit breaker");
+
+            correctionAdd("haxm", "Hardware Accelerated Execution Manager");
+            correctionAdd("HAXM", "Hardware Accelerated Execution Manager");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -87374,6 +87433,40 @@ namespace OverflowHelper.core
 
             URL_Add("SQFLite", "https://github.com/tekartik/sqflite");
 
+            URL_Add("MIPS R10000", "https://en.wikipedia.org/wiki/R10000");
+
+            URL_Add("mitmproxy", "https://github.com/mitmproxy/mitmproxy");
+
+            URL_Add("high voltage", "https://en.wiktionary.org/wiki/high_voltage#Noun");
+
+            URL_Add("Application-Layer Protocol Negotiation", "https://en.wikipedia.org/wiki/Application-Layer_Protocol_Negotiation");
+
+            URL_Add("Server Name Indication", "https://en.wikipedia.org/wiki/Server_Name_Indication");
+
+            URL_Add("sidetracked", "https://en.wiktionary.org/wiki/sidetrack#Verb");
+
+            URL_Add("BeeWare", "https://pypi.org/project/beeware/");
+
+            URL_Add("circuit breaker", "https://en.wikipedia.org/wiki/Circuit_breaker");
+
+            URL_Add("Hardware Accelerated Execution Manager", "https://en.wikipedia.org/wiki/QEMU#Accelerator");
+
+            URL_Add("iOS 16", "https://en.wikipedia.org/wiki/IOS_16");
+
+            URL_Add("iOS 17", "https://en.wikipedia.org/wiki/IOS_17");
+
+            URL_Add("iPad Pro", "https://en.wikipedia.org/wiki/IPad_Pro");
+
+            URL_Add("iPhone 13", "https://en.wikipedia.org/wiki/IPhone_13");
+
+            URL_Add("iPhone X", "https://en.wikipedia.org/wiki/IPhone_X");
+
+            URL_Add("Microsoft Intune", "https://en.wikipedia.org/wiki/Microsoft_Intune");
+
+            URL_Add("Namecheap", "https://en.wikipedia.org/wiki/Namecheap");
+
+            URL_Add("north-facing", "https://keyboardsexpert.com/north-facing-vs-south-facing-keyboard-switches/");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -87794,6 +87887,7 @@ namespace OverflowHelper.core
             correctionAdd("historical_", "Edit: or Update: (bad practice on Stack Overflow)_");
             correctionAdd("EDIT_", "Edit: or Update: (bad practice on Stack Overflow)_");
             correctionAdd("historical information_", "Edit: or Update: (bad practice on Stack Overflow)_");
+            correctionAdd("Edit:_", "Edit: or Update: (bad practice on Stack Overflow)_");
 
             // Alternative URL: <https://stackoverflow.com/questions/6751105/why-its-not-possible-to-use-regex-to-parse-html-xml-a-formal-explanation-in-la>
             //
@@ -90098,6 +90192,8 @@ namespace OverflowHelper.core
             correctionAdd("if_", "of_");
             correctionAdd("ov_", "of_");
 
+            correctionAdd("hight_", "high_");
+
             // URL mappings
             //
             //
@@ -91588,6 +91684,8 @@ namespace OverflowHelper.core
             URL_Add("I’d_", "https://en.wiktionary.org/wiki/I%27d#Contraction");
 
             URL_Add("of_", "https://en.wiktionary.org/wiki/of#Preposition");
+
+            URL_Add("high_", "https://en.wiktionary.org/wiki/high#Adjective");
 
         } //addLookupData_alternativeWordSet()
 
