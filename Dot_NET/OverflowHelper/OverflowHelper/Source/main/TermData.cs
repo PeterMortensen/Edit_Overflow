@@ -1901,6 +1901,17 @@ namespace OverflowHelper.core
 
             correctionAdd("Northbridge", "northbridge"); // On a PC motherboard
 
+            correctionAdd("mobo", "motherboard");
+            correctionAdd("Mobo", "motherboard");
+            correctionAdd("MOBO", "motherboard");
+            correctionAdd("mother board", "motherboard");
+            correctionAdd("MOB", "motherboard");
+            correctionAdd("MBO", "motherboard");
+            correctionAdd("mohterboard", "motherboard");
+            correctionAdd("Motherboard", "motherboard");
+
+            correctionAdd("msi motherboard", "MSI motherboard");
+
             // On a PC motherboard
             correctionAdd("South Bridge", "southbridge");
             correctionAdd("south bridge", "southbridge");
@@ -1923,6 +1934,20 @@ namespace OverflowHelper.core
 
             correctionAdd("Electronics", "electronics");
             correctionAdd("elec", "electronics");
+
+            correctionAdd("Circuit", "circuit");
+            correctionAdd("cicuit", "circuit");
+            correctionAdd("cuircuit", "circuit");
+            correctionAdd("circult", "circuit");
+            correctionAdd("Circut", "circuit");
+            correctionAdd("circut", "circuit");
+
+            correctionAdd("circutry", "circuitry");
+
+            // The noun. Electronics
+            correctionAdd("short cirquit", "short circuit");
+            correctionAdd("Short-cirquit", "short circuit");
+            correctionAdd("short-cirquit", "short circuit");
 
             // Electronics
             correctionAdd("transitor", "transistor");
@@ -2205,18 +2230,6 @@ namespace OverflowHelper.core
 
             // Electronics
             correctionAdd("CCVS", "current-controlled voltage source");
-
-            correctionAdd("Circuit", "circuit");
-            correctionAdd("cicuit", "circuit");
-            correctionAdd("cuircuit", "circuit");
-            correctionAdd("circult", "circuit");
-
-            correctionAdd("circutry", "circuitry");
-
-            // The noun. Electronics
-            correctionAdd("short cirquit", "short circuit");
-            correctionAdd("Short-cirquit", "short circuit");
-            correctionAdd("short-cirquit", "short circuit");
 
             // Electronics
             correctionAdd("circuitdiagram", "circuit diagram");
@@ -2815,6 +2828,7 @@ namespace OverflowHelper.core
             correctionAdd("assebmly", "assembly language");
             correctionAdd("assember", "assembly language");
             correctionAdd("assemply", "assembly language");
+            correctionAdd("Assembly Language", "assembly language");
 
             correctionAdd("dissassemble", "disassemble");
             correctionAdd("deassemble", "disassemble");
@@ -20189,6 +20203,7 @@ namespace OverflowHelper.core
             correctionAdd("left the building", "DenverCoder9");
             correctionAdd("may never know", "DenverCoder9");
             correctionAdd("never know", "DenverCoder9");
+            correctionAdd("we may never know", "DenverCoder9");
 
             correctionAdd("Purity", "Purity (xkcd 435)");
 
@@ -20497,6 +20512,27 @@ namespace OverflowHelper.core
             correctionAdd("sub-attribute", "subattribute");
 
             correctionAdd("sub pattern", "subpattern");
+
+            // Alternative URL:
+            //
+            //   <https://en.wiktionary.org/wiki/argument#Noun> (8.)
+            //
+            correctionAdd("arg", "argument");
+            correctionAdd("agurment", "argument");
+            correctionAdd("arugument", "argument");
+            correctionAdd("arguement", "argument");
+            correctionAdd("Arg", "argument");
+            correctionAdd("arugment", "argument");
+            correctionAdd("arrgument", "argument");
+            correctionAdd("argumet", "argument");
+            correctionAdd("agrument", "argument");
+            correctionAdd("rgument", "argument");
+            correctionAdd("arguemnt", "argument");
+
+            correctionAdd("args", "arguments");
+            correctionAdd("agruments", "arguments");
+            correctionAdd("arguements", "arguments");
+            correctionAdd("argument's", "arguments");
 
             correctionAdd("-debug-pass=Arguments", "-fdebug-pass-arguments (Clang)");
             correctionAdd("-fdebug-pass-arguments", "-fdebug-pass-arguments (Clang)");
@@ -24649,10 +24685,6 @@ namespace OverflowHelper.core
 
             correctionAdd("diffuse", "Diffuse");
 
-            correctionAdd("Use", "use");
-            correctionAdd("USe", "use");
-            correctionAdd("usd", "use");
-
             correctionAdd("cat and mouse", "cat-and-mouse");
 
             correctionAdd("Mouse", "mouse");
@@ -25605,22 +25637,6 @@ namespace OverflowHelper.core
 
             correctionAdd("skype", "Skype");
             correctionAdd("SKYPE", "Skype");
-
-            correctionAdd("arg", "argument");
-            correctionAdd("args", "argument"); // Not 100% correct - plural.
-            correctionAdd("agurment", "argument");
-            correctionAdd("arugument", "argument");
-            correctionAdd("arguement", "argument");
-            correctionAdd("Arg", "argument");
-            correctionAdd("arugment", "argument");
-            correctionAdd("arrgument", "argument");
-            correctionAdd("argumet", "argument");
-            correctionAdd("agrument", "argument");
-            correctionAdd("rgument", "argument");
-            correctionAdd("agruments", "argument");
-            correctionAdd("arguments", "argument");
-            correctionAdd("arguements", "argument");
-            correctionAdd("arguemnt", "argument");
 
             correctionAdd("epub", "EPUB");
             correctionAdd("ePub", "EPUB");
@@ -27176,6 +27192,7 @@ namespace OverflowHelper.core
             correctionAdd("CHatGPT", "ChatGPT");
             correctionAdd("cg", "ChatGPT");
             correctionAdd("cChatGPT", "ChatGPT");
+            correctionAdd("chstGPT", "ChatGPT");
 
             // Artificial intelligence
             correctionAdd("autoGPT", "Auto-GPT");
@@ -28229,15 +28246,6 @@ namespace OverflowHelper.core
 
             correctionAdd("bing", "Bing");
             correctionAdd("BING", "Bing");
-
-            correctionAdd("mobo", "motherboard");
-            correctionAdd("Mobo", "motherboard");
-            correctionAdd("MOBO", "motherboard");
-            correctionAdd("mother board", "motherboard");
-            correctionAdd("MOB", "motherboard");
-            correctionAdd("MBO", "motherboard");
-            correctionAdd("mohterboard", "motherboard");
-            correctionAdd("Motherboard", "motherboard");
 
             correctionAdd("ocx", "OCX");
 
@@ -30919,8 +30927,36 @@ namespace OverflowHelper.core
 
             correctionAdd("ollydbg", "OllyDbg");
 
+            // A type of CPU / CPU instruction set
             correctionAdd("Mips", "MIPS");
             correctionAdd("mips", "MIPS");
+            correctionAdd("Misp", "MIPS");
+            correctionAdd("misp", "MIPS");
+
+            // A MIPS processor
+            correctionAdd("R10000", "MIPS R10000");
+
+            // A MIPS processor simulator
+            correctionAdd("spim", "SPIM");
+
+            // It seems to be used as a MIPS processor simulator
+            //
+            // Alternative URLs:
+            //
+            //   <https://rti.etf.bg.ac.rs/rti/ri3aor/Simulators/rsim.html>
+            //   <http://softlib.rice.edu/rsim.html>
+            //   <https://dl.acm.org/doi/10.1145/271014.271015>
+            //   <https://www.cs.utexas.edu/users/poems/Documents/August1998/teds/tsld006.htm>
+            //     Instruction-level CPU simulators
+            //     "R10000 - RSIM (Rice)"
+            //   <https://stackoverflow.com/questions/76797961>
+            //     Issues with cross compilation C to MIPS
+            //   <https://github.com/rsimgroup/rsim/blob/master/docs/html/manual.html>
+            //
+            //
+            correctionAdd("Rice Simulator for ILP Multiprocessors", "RSIM");
+            correctionAdd("Rsim", "RSIM");
+            correctionAdd("rsim", "RSIM");
 
             correctionAdd("wanna", "want to");
             correctionAdd("wanne", "want to");
@@ -38908,6 +38944,7 @@ namespace OverflowHelper.core
             correctionAdd("fr", "for");
             correctionAdd("fore", "for");
             correctionAdd("fir", "for");
+            correctionAdd("Fot", "for");
 
             correctionAdd("jalous", "jealous");
             correctionAdd("jelous", "jealous");
@@ -45442,6 +45479,8 @@ namespace OverflowHelper.core
             correctionAdd("Gate Array", "gate array");
 
             correctionAdd("overiding", "overriding");
+            correctionAdd("over riding", "overriding");
+            correctionAdd("over-riding", "overriding");
 
             correctionAdd("post-process", "postprocess");
 
@@ -51074,6 +51113,7 @@ namespace OverflowHelper.core
             correctionAdd("threadripper", "Threadripper");
 
             correctionAdd("vuex", "Vuex");
+            correctionAdd("VUEX", "Vuex");
 
             correctionAdd("Count", "count");
 
@@ -52468,8 +52508,6 @@ namespace OverflowHelper.core
             correctionAdd("LHC", "Large Hadron Collider");
 
             correctionAdd("m.2", "M.2");
-
-            correctionAdd("msi motherboard", "MSI motherboard");
 
             correctionAdd("mazda", "Mazda");
 
@@ -56599,6 +56637,7 @@ namespace OverflowHelper.core
             correctionAdd("segger", "Segger");
 
             correctionAdd("syscall", "system call");
+            correctionAdd("syscalls", "system call"); // Not 100% correct - plural.
 
             correctionAdd("under-documented", "underdocumented");
 
@@ -56817,8 +56856,6 @@ namespace OverflowHelper.core
 
             correctionAdd("tresures", "treasures");
 
-            correctionAdd("R10000", "MIPS R10000");
-
             correctionAdd("MITMPROXY", "mitmproxy");
 
             correctionAdd("hight voltage", "high voltage");
@@ -56835,6 +56872,23 @@ namespace OverflowHelper.core
 
             correctionAdd("haxm", "Hardware Accelerated Execution Manager");
             correctionAdd("HAXM", "Hardware Accelerated Execution Manager");
+
+            correctionAdd("Asynchronous Server Gateway Interface", "ASGI");
+            correctionAdd("asgi", "ASGI");
+
+            correctionAdd("dimentions", "dimensions");
+
+            correctionAdd("hostinger", "Hostinger");
+
+            correctionAdd("ndenumerate", "ndenumerate()");
+
+            correctionAdd("University of Illinois", "University of Illinois Urbana-Champaign");
+            correctionAdd("U Illinois", "University of Illinois Urbana-Champaign");
+
+            correctionAdd("Internet Protocol camera", "IP&nbsp;camera");
+            correctionAdd("IP camera", "IP&nbsp;camera"); // Sort of identity mapping"
+            correctionAdd("ip camera", "IP&nbsp;camera");
+            correctionAdd("ipcamera", "IP&nbsp;camera");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -58441,8 +58495,6 @@ namespace OverflowHelper.core
             URL_Add("Skype", "https://en.wikipedia.org/wiki/Skype");
 
             URL_Add("Forth", "https://en.wikipedia.org/wiki/Forth_%28programming_language%29");
-
-            URL_Add("argument", "https://en.wikipedia.org/wiki/Parameter_%28computer_programming%29");
 
             URL_Add("EPUB", "https://en.wikipedia.org/wiki/EPUB");
 
@@ -72714,8 +72766,6 @@ namespace OverflowHelper.core
             URL_Add("truckload", "https://en.wiktionary.org/wiki/truckload#Noun");
 
             URL_Add("try", "https://en.wiktionary.org/wiki/try#Verb");
-
-            URL_Add("use", "https://en.wiktionary.org/wiki/use#Verb");
 
             URL_Add("delimit", "https://en.wiktionary.org/wiki/delimit#Verb");
 
@@ -87467,6 +87517,26 @@ namespace OverflowHelper.core
 
             URL_Add("north-facing", "https://keyboardsexpert.com/north-facing-vs-south-facing-keyboard-switches/");
 
+            URL_Add("ASGI", "https://en.wikipedia.org/wiki/Asynchronous_Server_Gateway_Interface");
+
+            URL_Add("dimensions", "https://en.wiktionary.org/wiki/dimension#Noun");
+
+            URL_Add("Hostinger", "https://en.wikipedia.org/wiki/Hostinger");
+
+            URL_Add("ndenumerate()", "https://numpy.org/doc/stable/reference/generated/numpy.ndenumerate.html");
+
+            URL_Add("SPIM", "https://en.wikipedia.org/wiki/SPIM");
+
+            URL_Add("RSIM", "http://sadve.cs.illinois.edu/Publications/computer02.pdf");
+
+            URL_Add("University of Illinois Urbana-Champaign", "https://en.wikipedia.org/wiki/University_of_Illinois_Urbana-Champaign");
+
+            URL_Add("argument", "https://en.wikipedia.org/wiki/Parameter_%28computer_programming%29");
+
+            URL_Add("arguments", "https://en.wiktionary.org/wiki/argument#Noun");
+
+            URL_Add("IP&nbsp;camera", "https://en.wikipedia.org/wiki/IP_camera");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -88410,6 +88480,7 @@ namespace OverflowHelper.core
             correctionAdd("bean_", "being_");
             correctionAdd("beiing_", "being_");
             correctionAdd("bein_", "being_");
+            correctionAdd("beaing_", "being_");
 
             correctionAdd("illustrator_", "Adobe Illustrator_");
             correctionAdd("adobe illustrator_", "Adobe Illustrator_");
@@ -90194,6 +90265,27 @@ namespace OverflowHelper.core
 
             correctionAdd("hight_", "high_");
 
+            correctionAdd("Use_", "use_");
+            correctionAdd("USe_", "use_");
+            correctionAdd("usd_", "use_");
+
+            // A MIPS processor simulator
+            //
+            // Alternative URLs:
+            //
+            //   <https://github.com/gon1332/mars>
+            //   <http://courses.missouristate.edu/kenvollmar/mars/>
+            //
+            correctionAdd("Mars_", "MARS_");
+            correctionAdd("MIPS Assembler and Runtime Simulator_", "MARS_");
+
+            correctionAdd("IL_", "Illinois_");
+
+            correctionAdd("assembly_", ".NET assembly_");
+
+            correctionAdd("Remote Function Call_", "RFC_");
+            correctionAdd("rfc_", "RFC_");
+
             // URL mappings
             //
             //
@@ -91686,6 +91778,16 @@ namespace OverflowHelper.core
             URL_Add("of_", "https://en.wiktionary.org/wiki/of#Preposition");
 
             URL_Add("high_", "https://en.wiktionary.org/wiki/high#Adjective");
+
+            URL_Add("use_", "https://en.wiktionary.org/wiki/use#Verb");
+
+            URL_Add("MARS_", "https://en.wikipedia.org/wiki/SPIM#SPIM_Alternatives/Competitors");
+
+            URL_Add("Illinois_", "https://en.wikipedia.org/wiki/Illinois");
+
+            URL_Add(".NET assembly_", "https://en.wikipedia.org/wiki/Assembly_(CLI)");
+
+            URL_Add("RFC_", "https://en.wikipedia.org/wiki/Remote_Function_Call");
 
         } //addLookupData_alternativeWordSet()
 
