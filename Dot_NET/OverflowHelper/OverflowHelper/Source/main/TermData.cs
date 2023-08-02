@@ -4502,6 +4502,24 @@ namespace OverflowHelper.core
 
             correctionAdd("ligHTTPd", "lighttpd");
 
+            correctionAdd("roman", "Roman");
+
+            correctionAdd("roman empire", "Roman Empire");
+
+            correctionAdd("roman numerals", "Roman numerals");
+
+            correctionAdd("roman catholic", "Roman Catholic");
+
+            correctionAdd("Rumania", "Romania");
+
+            correctionAdd("Romani people", "Roma");
+
+            correctionAdd("jew", "Jew");
+
+            correctionAdd("lutheran", "Lutheran");
+
+            correctionAdd("Szinti", "Sinti");
+
             // Music (classical)
             correctionAdd("Moonight Sonata", "Moonlight Sonata");
 
@@ -7059,6 +7077,7 @@ namespace OverflowHelper.core
                                                  // of punctuation and
                                                  // formatting (Markdown
                                                  // italics in this case)...
+            correctionAdd("unix-likes", "Unix-like");
 
             correctionAdd("aix", "AIX");
             correctionAdd("Aix", "AIX");
@@ -9485,11 +9504,6 @@ namespace OverflowHelper.core
             correctionAdd("flymake", "Flymake");
             correctionAdd("FlyMake", "Flymake");
 
-            correctionAdd("si", "is");
-            correctionAdd("ia", "is");
-            correctionAdd("ist", "is");
-            correctionAdd("uis", "is");
-
             //correctionAdd("ie", ", that is"); // Not included as it conflicts with Internet Explorer.
             correctionAdd("I.e", ", that is, X"); // Specified without end full stop, to avoid the non-letter/non-digit XXX feature in this program.
             correctionAdd("i.e", ", that is, X"); // Specified without end full stop, to avoid the non-letter/non-digit XXX feature in this program.
@@ -10940,6 +10954,7 @@ namespace OverflowHelper.core
             correctionAdd("Over Meta", "Meta&nbsp;Stack&nbsp;Exchange");
             correctionAdd("Over-Meta", "Meta&nbsp;Stack&nbsp;Exchange");
             correctionAdd("Über meta", "Meta&nbsp;Stack&nbsp;Exchange");
+            correctionAdd("overmeta", "Meta&nbsp;Stack&nbsp;Exchange");
 
             correctionAdd("Unix&Linux", "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)");
             correctionAdd("U&L", "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)");
@@ -14820,11 +14835,13 @@ namespace OverflowHelper.core
             // A compiler vendor, e.g. "D"
             correctionAdd("digital mars", "Digital Mars");
 
-            correctionAdd("Godbolt", "Compiler Explorer");
-            correctionAdd("godbolt", "Compiler Explorer");
-            correctionAdd("Compiler-Explorer", "Compiler Explorer");
-
             correctionAdd("JIT-compiler", "JIT compiler");
+
+            correctionAdd("Godbolt", "Compiler Explorer");
+            correctionAdd("Compiler-Explorer", "Compiler Explorer");
+            correctionAdd("GobBolt", "Compiler Explorer");
+            correctionAdd("compiler explorer", "Compiler Explorer");
+            correctionAdd("godbolt", "Compiler Explorer");
 
             correctionAdd("GHC", "Glasgow Haskell Compiler");
             correctionAdd("ghc", "Glasgow Haskell Compiler");
@@ -14841,6 +14858,8 @@ namespace OverflowHelper.core
             correctionAdd("GNU c", "GCC");
             correctionAdd("GNU Compiler Collection", "GCC");
             correctionAdd("CGG", "GCC");
+
+            correctionAdd("GCC 4.2.1", "GCC 4.2.1 (2007-07-18)");
 
             correctionAdd("gcc 4.6.1", "GCC 4.6.1 (2011-06-27)");
 
@@ -19695,6 +19714,14 @@ namespace OverflowHelper.core
             //
             correctionAdd("mm712", "MM712");
 
+            // A wired mouse from Cooler Master. Optical switches.
+            //
+            // Manual:
+            //
+            //   <https://coolermaster.egnyte.com/dl/sN8MpYhhhS>
+            //
+            correctionAdd("mm720", "MM720");
+
             // A mouse from Cooler Master
             correctionAdd("mm730", "MM730");
 
@@ -22543,6 +22570,7 @@ namespace OverflowHelper.core
             correctionAdd("Write", "Write-Output");
             correctionAdd("Write-output", "Write-Output");
             correctionAdd("write-ouptut", "Write-Output");
+            correctionAdd("write", "Write-Output");
 
             // Of PowerShell...
             correctionAdd("write-host", "Write-Host");
@@ -26810,6 +26838,7 @@ namespace OverflowHelper.core
             correctionAdd("soulion", "solution");
             correctionAdd("soulions", "solution");
             correctionAdd("Soltion", "solution");
+            correctionAdd("solutino", "solution");
 
             correctionAdd("Solutions", "solutions");
 
@@ -29383,6 +29412,7 @@ namespace OverflowHelper.core
             correctionAdd("Core i5", "Core&nbsp;i5");
             correctionAdd("Intel Core i5", "Core&nbsp;i5");
             correctionAdd("core-i5", "Core&nbsp;i5");
+            correctionAdd("Intel i5", "Core&nbsp;i5");
 
             // A type of CPU
             correctionAdd("i7", "Core&nbsp;i7");
@@ -30504,8 +30534,6 @@ namespace OverflowHelper.core
             correctionAdd("TEKTRONIX", "Tektronix");
 
             correctionAdd("arabic", "Arabic");
-
-            correctionAdd("roman", "Roman");
 
             correctionAdd("tensorflow", "TensorFlow");
             correctionAdd("Tensorflow", "TensorFlow");
@@ -44515,8 +44543,6 @@ namespace OverflowHelper.core
 
             correctionAdd("q-chem", "Q-Chem");
 
-            correctionAdd("Rumania", "Romania");
-
             correctionAdd("UAE", "United Arab Emirates");
 
             correctionAdd("sinicism", "cynicism");
@@ -52713,8 +52739,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Plot", "plot");
 
-            correctionAdd("roman empire", "Roman Empire");
-
             correctionAdd("back-handed", "backhanded");
 
             correctionAdd("ch root", "chroot");
@@ -53494,16 +53518,6 @@ namespace OverflowHelper.core
             correctionAdd("Ethnicities", "ethnicities");
 
             correctionAdd("Hygroscopic", "hygroscopic");
-
-            correctionAdd("jew", "Jew");
-
-            correctionAdd("lutheran", "Lutheran");
-
-            correctionAdd("Romani people", "Roma");
-
-            correctionAdd("roman catholic", "Roman Catholic");
-
-            correctionAdd("Szinti", "Sinti");
 
             correctionAdd("Heisenberg", "Werner Heisenberg");
 
@@ -54698,6 +54712,8 @@ namespace OverflowHelper.core
             correctionAdd("CalDav", "CalDAV");
 
             correctionAdd("lcc", "LCC");
+            correctionAdd("Little C Compiler", "LCC");
+            correctionAdd("Local C Compiler", "LCC");
 
             correctionAdd("catl", "CATL");
 
@@ -56889,6 +56905,16 @@ namespace OverflowHelper.core
             correctionAdd("IP camera", "IP&nbsp;camera"); // Sort of identity mapping"
             correctionAdd("ip camera", "IP&nbsp;camera");
             correctionAdd("ipcamera", "IP&nbsp;camera");
+
+            correctionAdd("Write(2)", "write(2)");
+
+            correctionAdd("faint-of-heart", "faint of heart");
+
+            correctionAdd("non consistent", "nonconsistent");
+
+            correctionAdd("re-checked", "rechecked");
+
+            correctionAdd("stems that", "stems from");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -62062,8 +62088,6 @@ namespace OverflowHelper.core
             URL_Add("Vagrant", "https://en.wikipedia.org/wiki/Vagrant_%28software%29");
 
             URL_Add("still", "https://en.wiktionary.org/wiki/still#Adverb");
-
-            URL_Add("Compiler Explorer", "https://github.com/mattgodbolt/compiler-explorer");
 
             URL_Add("DigitalOcean", "https://en.wikipedia.org/wiki/DigitalOcean");
 
@@ -67250,8 +67274,6 @@ namespace OverflowHelper.core
             URL_Add("frustrated", "https://en.wiktionary.org/wiki/frustrated#Adjective");
 
             URL_Add("game console", "https://en.wikipedia.org/wiki/Video_game_console");
-
-            URL_Add("is", "https://en.wiktionary.org/wiki/is#Verb");
 
             URL_Add("man-made", "https://en.wiktionary.org/wiki/man-made#Adjective");
 
@@ -87537,6 +87559,24 @@ namespace OverflowHelper.core
 
             URL_Add("IP&nbsp;camera", "https://en.wikipedia.org/wiki/IP_camera");
 
+            URL_Add("Compiler Explorer", "https://github.com/mattgodbolt/compiler-explorer");
+
+            URL_Add("write(2)", "https://linux.die.net/man/2/write");
+
+            URL_Add("faint of heart", "https://en.wiktionary.org/wiki/faint_of_heart#Noun");
+
+            URL_Add("MM720", "https://www.coolermaster.com/catalog/peripheral/mice/mm720/");
+
+            URL_Add("GCC 4.2.1 (2007-07-18)", "https://gcc.gnu.org/gcc-4.2/");
+
+            URL_Add("nonconsistent", "https://en.wiktionary.org/wiki/nonconsistent#Adjective");
+
+            URL_Add("rechecked", "https://en.wiktionary.org/wiki/recheck#Verb");
+
+            URL_Add("Roman numerals", "https://en.wikipedia.org/wiki/Roman_numerals");
+
+            URL_Add("stems from", "https://dictionary.cambridge.org/dictionary/english/stem-from");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -88327,7 +88367,18 @@ namespace OverflowHelper.core
             correctionAdd("Brute Force_", "brute force_");
             correctionAdd("brute-force_", "brute force_");
 
+            correctionAdd("Use_", "use_");
+            correctionAdd("USe_", "use_");
+            correctionAdd("usd_", "use_");
+            correctionAdd("ise_", "use_");
+
             correctionAdd("cuase_", "cause_");
+
+            correctionAdd("EDW_", "data warehouse_");
+            correctionAdd("DWH_", "data warehouse_");
+            correctionAdd("DW_", "data warehouse_");
+            correctionAdd("datawarehouse_", "data warehouse_");
+            correctionAdd("enterprise data warehouse_", "data warehouse_");
 
             correctionAdd("EX_", "ex_");
 
@@ -89548,12 +89599,6 @@ namespace OverflowHelper.core
 
             correctionAdd("List Comprehension_", "list comprehension_");
 
-            correctionAdd("EDW_", "data warehouse_");
-            correctionAdd("DWH_", "data warehouse_");
-            correctionAdd("DW_", "data warehouse_");
-            correctionAdd("datawarehouse_", "data warehouse_");
-            correctionAdd("enterprise data warehouse_", "data warehouse_");
-
             correctionAdd("currenty_", "current_");
             correctionAdd("Current_", "current_");
             correctionAdd("Currenty_", "current_");
@@ -90265,10 +90310,6 @@ namespace OverflowHelper.core
 
             correctionAdd("hight_", "high_");
 
-            correctionAdd("Use_", "use_");
-            correctionAdd("USe_", "use_");
-            correctionAdd("usd_", "use_");
-
             // A MIPS processor simulator
             //
             // Alternative URLs:
@@ -90279,12 +90320,25 @@ namespace OverflowHelper.core
             correctionAdd("Mars_", "MARS_");
             correctionAdd("MIPS Assembler and Runtime Simulator_", "MARS_");
 
-            correctionAdd("IL_", "Illinois_");
-
             correctionAdd("assembly_", ".NET assembly_");
 
             correctionAdd("Remote Function Call_", "RFC_");
             correctionAdd("rfc_", "RFC_");
+
+            correctionAdd("godbolt_", "Godbolt_");
+            correctionAdd("Compiler Explorer_", "Godbolt_");
+
+            correctionAdd("syscalls_", "syscalls(2)_");
+            correctionAdd("Syscalls(2)_", "syscalls(2)_");
+            correctionAdd("system call_", "syscalls(2)_");
+
+            correctionAdd("IL_", "Illinois_");
+
+            correctionAdd("si_", "is_");
+            correctionAdd("ia_", "is_");
+            correctionAdd("ist_", "is_");
+            correctionAdd("uis_", "is_");
+            correctionAdd("os_", "is_");
 
             // URL mappings
             //
@@ -91788,6 +91842,12 @@ namespace OverflowHelper.core
             URL_Add(".NET assembly_", "https://en.wikipedia.org/wiki/Assembly_(CLI)");
 
             URL_Add("RFC_", "https://en.wikipedia.org/wiki/Remote_Function_Call");
+
+            URL_Add("Godbolt_", "https://github.com/mattgodbolt/compiler-explorer");
+
+            URL_Add("syscalls(2)_", "https://linux.die.net/man/2/syscalls");
+
+            URL_Add("is_", "https://en.wiktionary.org/wiki/is#Verb");
 
         } //addLookupData_alternativeWordSet()
 
