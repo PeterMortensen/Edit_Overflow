@@ -3801,6 +3801,12 @@ namespace OverflowHelper.core
             correctionAdd("analize", "analyse");
             correctionAdd("analysize", "analyse");
 
+            correctionAdd("otehr", "other");
+            correctionAdd("outter", "other");
+            correctionAdd("outher", "other");
+            correctionAdd("ather", "other");
+            correctionAdd("oder", "other");
+
             correctionAdd("anyother", "another");
             correctionAdd("enother", "another");
             correctionAdd("Anotehr", "another");
@@ -3811,11 +3817,6 @@ namespace OverflowHelper.core
             correctionAdd("anther", "another");
             correctionAdd("An other", "another");
             correctionAdd("anothe", "another");
-
-            correctionAdd("otehr", "other");
-            correctionAdd("outter", "other");
-            correctionAdd("outher", "other");
-            correctionAdd("ather", "other");
 
             correctionAdd("instanyly", "instantly");
 
@@ -6662,8 +6663,10 @@ namespace OverflowHelper.core
             // Bash. Linux.
             correctionAdd("~/.bash_aliases", ".bash_aliases");
 
+            // A Linux/Unix shell
             correctionAdd("sh", "Bourne shell");
 
+            // A Linux/Unix shell
             correctionAdd("Zsh", "Z shell");
             correctionAdd("zsh", "Z shell");
             correctionAdd("ZSH", "Z shell");
@@ -6683,7 +6686,7 @@ namespace OverflowHelper.core
             correctionAdd("basheclipse", "BashEclipse");
             correctionAdd("Basheclipse", "BashEclipse");
 
-            // Linux
+            // A Linux/Unix shell
             correctionAdd("ksh", "KornShell");
             correctionAdd("korn shell", "KornShell");
             correctionAdd("Kornshell", "KornShell");
@@ -6691,18 +6694,27 @@ namespace OverflowHelper.core
             correctionAdd("KSH", "KornShell");
             correctionAdd("Korn Shell", "KornShell");
 
+            // A Linux/Unix shell
             correctionAdd("dash", "Dash");
             correctionAdd("DASH", "Dash");
             correctionAdd("Debian Almquist Shell", "Dash");
 
+            // A Linux/Unix shell
             correctionAdd("csh", "C shell");
 
+            // A Linux/Unix shell
             correctionAdd("Hamilton shell", "Hamilton C shell");
 
-            // Linux
+            // A Linux/Unix shell
             correctionAdd("Ash", "ash");
             correctionAdd("Almquist", "ash");
             correctionAdd("Almquist shell", "ash");
+
+            // A Linux/Unix shell
+            correctionAdd("FISH", "Fish");
+            correctionAdd("fish", "Fish");
+            correctionAdd("Fish Shell", "Fish");
+            correctionAdd("Fish shell", "Fish");
 
             // Bash. Linux.
             correctionAdd("Sourcing", "sourcing");
@@ -7848,6 +7860,7 @@ namespace OverflowHelper.core
 
             correctionAdd("normalization", "database normalization");
             correctionAdd("Normalization", "database normalization");
+            correctionAdd("normalisation", "database normalization");
 
             // Related to databases
             correctionAdd("scema", "schema");
@@ -8524,6 +8537,15 @@ namespace OverflowHelper.core
             correctionAdd("unsable", "unusable");
 
             correctionAdd("percievable", "perceivable");
+
+            correctionAdd("analisys", "analysis");
+            correctionAdd("alaysis", "analysis");
+            correctionAdd("alnaysis", "analysis");
+            correctionAdd("analisis", "analysis");
+            correctionAdd("anaylisis", "analysis");
+            correctionAdd("analsys", "analysis");
+            correctionAdd("analysation", "analysis");
+            correctionAdd("analyzation", "analysis");
 
             correctionAdd("indentify", "identify");
 
@@ -9597,13 +9619,6 @@ namespace OverflowHelper.core
             correctionAdd("hyptothesis", "hypothesis");
             correctionAdd("hypotesis", "hypothesis");
 
-            correctionAdd("analisys", "analysis");
-            correctionAdd("alaysis", "analysis");
-            correctionAdd("alnaysis", "analysis");
-            correctionAdd("analisis", "analysis");
-            correctionAdd("anaylisis", "analysis");
-            correctionAdd("analsys", "analysis");
-
             correctionAdd("PCA", "principal component analysis");
             correctionAdd("Principal Component Analysis", "principal component analysis");
             correctionAdd("Peripheral Component Analysis", "principal component analysis");
@@ -10563,6 +10578,7 @@ namespace OverflowHelper.core
             correctionAdd("utf", "UTF");
 
             correctionAdd("UTF7", "UTF-7");
+            correctionAdd("utf-7", "UTF-7");
 
             correctionAdd("utf-8", "UTF-8");
             correctionAdd("utf8", "UTF-8");
@@ -12966,7 +12982,17 @@ namespace OverflowHelper.core
             correctionAdd("Happyness", "happiness");
             correctionAdd("happyness", "happiness");
 
+            // In the standard C library
             correctionAdd("Strcpy", "strcpy");
+
+            // In the standard C library
+            correctionAdd("strncpy", "strncpy()");
+
+            // In the standard C library
+            correctionAdd("strcmp", "strcmp()");
+
+            // In the standard C library
+            correctionAdd("StrTok", "strtok");
 
             correctionAdd("puppeteer", "Puppeteer");
             correctionAdd("puppetter", "Puppeteer");
@@ -14093,6 +14119,31 @@ namespace OverflowHelper.core
             correctionAdd("errror", "error");
             correctionAdd("erro", "error");
             correctionAdd("errow", "error");
+
+            correctionAdd("half-sphere", "halfsphere");
+            correctionAdd("half sphere", "halfsphere");
+
+            correctionAdd("hemissphere", "hemisphere");
+            correctionAdd("Hemisphere", "hemisphere");
+
+            correctionAdd("ico-sphere", "icosphere");
+
+            correctionAdd("southern hemisphere", "Southern Hemisphere");
+            correctionAdd("Southern hemisphere", "Southern Hemisphere");
+
+            correctionAdd("Northern Hemiphere", "Northern Hemisphere");
+            correctionAdd("northern hemisphere", "Northern Hemisphere");
+            correctionAdd("Northern hemisphere", "Northern Hemisphere");
+
+            correctionAdd("atmosfere", "atmosphere");
+
+            correctionAdd("stratosfere", "stratosphere");
+
+            correctionAdd("Photosphere", "photosphere");
+
+            correctionAdd("struts", "Struts");
+            correctionAdd("s2", "Struts"); // Actually Struts 2.
+            correctionAdd("S2", "Struts"); // Actually Struts 2.
 
             // A programming language
             correctionAdd("f#", "F#");
@@ -15255,6 +15306,7 @@ namespace OverflowHelper.core
             correctionAdd("Fakebook", "Facebook");
             correctionAdd("facetube", "Facebook");
             correctionAdd("facetubes", "Facebook");
+            correctionAdd("Facebook.com", "Facebook");
 
             correctionAdd("graph api", "Graph API"); // Part of the Facebook Platform.
             correctionAdd("graph API", "Graph API"); // Part of the Facebook Platform.
@@ -15422,32 +15474,9 @@ namespace OverflowHelper.core
 
             correctionAdd("tooked", "took");
 
-            correctionAdd("StrTok", "strtok");
-
             correctionAdd("lombok", "Lombok");
 
             correctionAdd("over look", "overlook");
-
-            correctionAdd("half-sphere", "halfsphere");
-            correctionAdd("half sphere", "halfsphere");
-
-            correctionAdd("hemissphere", "hemisphere");
-            correctionAdd("Hemisphere", "hemisphere");
-
-            correctionAdd("ico-sphere", "icosphere");
-
-            correctionAdd("southern hemisphere", "Southern Hemisphere");
-            correctionAdd("Southern hemisphere", "Southern Hemisphere");
-
-            correctionAdd("Northern Hemiphere", "Northern Hemisphere");
-            correctionAdd("northern hemisphere", "Northern Hemisphere");
-            correctionAdd("Northern hemisphere", "Northern Hemisphere");
-
-            correctionAdd("atmosfere", "atmosphere");
-
-            correctionAdd("stratosfere", "stratosphere");
-
-            correctionAdd("Photosphere", "photosphere");
 
             correctionAdd("ther", "there");
             correctionAdd("thers", "there");
@@ -15776,6 +15805,7 @@ namespace OverflowHelper.core
             correctionAdd("skia", "Skia");
 
             correctionAdd("google pay", "Google Pay");
+            correctionAdd("GooglePay", "Google Pay");
 
             correctionAdd("google fit", "Google Fit");
 
@@ -18131,10 +18161,6 @@ namespace OverflowHelper.core
             correctionAdd("CouchDb", "CouchDB");
             correctionAdd("Couch DB", "CouchDB");
 
-            correctionAdd("struts", "Struts");
-            correctionAdd("s2", "Struts"); // Actually Struts 2.
-            correctionAdd("S2", "Struts"); // Actually Struts 2.
-
             correctionAdd("ready boost", "ReadyBoost");
             correctionAdd("readyboost", "ReadyBoost");
 
@@ -19251,6 +19277,8 @@ namespace OverflowHelper.core
 
             correctionAdd("key cap", "keycap");
             correctionAdd("Keycap", "keycap");
+            correctionAdd("KeyCaps", "keycap"); // Not 100% correct - plural.
+            correctionAdd("keycaps", "keycap"); // Not 100% correct - plural.
 
             correctionAdd("Mechanical Keyboard", "mechanical keyboard");
             correctionAdd("mech keyb", "mechanical keyboard"); // A shortcut (for expansion)
@@ -19563,6 +19591,7 @@ namespace OverflowHelper.core
             correctionAdd("Keychron v5", "Keychron V5 ISO");
             correctionAdd("Keythron V5", "Keychron V5 ISO");
             correctionAdd("Keytron v5", "Keychron V5 ISO");
+            correctionAdd("Keythron v5", "Keychron V5 ISO");
 
             // A Chinese manufacturer, incl. of mechanical keyboards
             correctionAdd("CoolerMaster", "Cooler Master");
@@ -20177,6 +20206,24 @@ namespace OverflowHelper.core
             // A key on a keyboard
             correctionAdd("Command key", "Apple key");
             correctionAdd("Cmd key", "Apple key");
+
+            // Online training of typing speed
+            //
+            // Alternative URLs:
+            //
+            //   <https://groups.google.com/g/keybr/about>
+            //   <https://www.keybr.com/>
+            //
+            correctionAdd("keybr", "Keybr");
+            correctionAdd("keybr.com", "Keybr");
+            correctionAdd("Keybr.com", "Keybr");
+
+            // Online training of typing speed
+            //
+            // Alternative URL: <https://www.monkeytype.com/>
+            //
+            correctionAdd("monkeytype", "Monkeytype");
+            correctionAdd("monkey type", "Monkeytype");
 
             // A command-line tool for Windows
             correctionAdd("CMDKEY", "cmdkey");
@@ -26311,6 +26358,7 @@ namespace OverflowHelper.core
             correctionAdd("withour", "without");
             correctionAdd("widthout", "without");
             correctionAdd("With out", "without");
+            correctionAdd("wihout", "without");
 
             correctionAdd("blender", "Blender");
 
@@ -27180,10 +27228,10 @@ namespace OverflowHelper.core
             correctionAdd("Abominable Intelligence", "artificial intelligence");
             correctionAdd("IA", "artificial intelligence");
 
-            // Related to artificial intelligence
+            // Related to artificial intelligence (AI)
             correctionAdd("Genetic Algorithm", "genetic algorithm");
 
-            // Related to artificial intelligence
+            // Related to artificial intelligence (AI)
             correctionAdd("ANN", "artificial neural network"); // Expansion
             correctionAdd("Neural Network", "artificial neural network");
             correctionAdd("neural network", "artificial neural network");
@@ -27196,15 +27244,15 @@ namespace OverflowHelper.core
             correctionAdd("neural-network", "artificial neural network");
             correctionAdd("neyral network", "artificial neural network");
 
-            // Related to artificial intelligence
+            // Related to artificial intelligence (AI)
             correctionAdd("DNN", "deep neural network");
             correctionAdd("Deep Neural Network", "deep neural network");
 
-            // Related to artificial intelligence
+            // Related to artificial intelligence (AI)
             correctionAdd("tdnn", "time delay neural network");
             correctionAdd("TDNN", "time delay neural network");
 
-            // Related to artificial intelligence
+            // Related to artificial intelligence (AI)
             correctionAdd("Machine learning", "machine learning");
             correctionAdd("Machine Learning", "machine learning");
             correctionAdd("MachineLearning", "machine learning");
@@ -27212,11 +27260,11 @@ namespace OverflowHelper.core
             correctionAdd("ML", "machine learning");
             correctionAdd("machine-learning", "machine learning");
 
-            // Related to artificial intelligence
+            // Related to artificial intelligence (AI)
             correctionAdd("Deep Learning", "deep learning");
             correctionAdd("Deep learning", "deep learning");
 
-            // Related to artificial intelligence
+            // Related to artificial intelligence (AI)
             correctionAdd("Reinforcement learning", "reinforcement learning");
             correctionAdd("RL", "reinforcement learning");
             correctionAdd("Reinforcement Learning", "reinforcement learning");
@@ -27234,7 +27282,7 @@ namespace OverflowHelper.core
             correctionAdd("open AI", "OpenAI");
             correctionAdd("open ai", "OpenAI");
 
-            // Related to artificial intelligence
+            // Related to artificial intelligence (AI)
             correctionAdd("GPT3", "GPT-3");
             correctionAdd("gpt-3", "GPT-3");
             correctionAdd("gpt3", "GPT-3");
@@ -27250,7 +27298,7 @@ namespace OverflowHelper.core
             correctionAdd("gpt-4", "GPT-4");
             correctionAdd("model 4", "GPT-4");
 
-            // An artificial intelligence system
+            // An artificial intelligence system (AI)
             correctionAdd("chatGPT", "ChatGPT");
             correctionAdd("chatgpt", "ChatGPT");
             correctionAdd("CGPT", "ChatGPT");
@@ -27348,13 +27396,13 @@ namespace OverflowHelper.core
 
             correctionAdd("autoai", "AutoAI");
 
-            // Machine learning / AI
+            // Machine learning / artificial intelligence (AI)
             correctionAdd("AUC", "area under curve");
 
-            // Machine learning / AI
+            // Machine learning / artificial intelligence (AI)
             correctionAdd("Confusion Matrix", "confusion matrix");
 
-            // Machine learning / AI
+            // Machine learning / artificial intelligence (AI)
             correctionAdd("roc", "receiver operating characteristic");
             correctionAdd("ROC", "receiver operating characteristic");
 
@@ -27362,17 +27410,17 @@ namespace OverflowHelper.core
             correctionAdd("tabnine", "Tabnine");
             correctionAdd("TabNine", "Tabnine");
 
-            // A collection of data for AI training
+            // A collection of data for artificial intelligence (AI) training
             correctionAdd("the pile", "The Pile");
 
-            // A generative AI tool for images
+            // A generative artificial intelligence (AI) tool for images
             correctionAdd("midjourney", "Midjourney");
 
-            // Machine learning and artificial intelligence (TensorFlow)
+            // Machine learning and artificial intelligence (AI) (TensorFlow)
             correctionAdd("adam optimizer", "Adam optimizer");
             correctionAdd("Adam", "Adam optimizer");
 
-            // An artificial intelligence programming language
+            // An artificial intelligence (AI) programming language
             correctionAdd("mojo", "Mojo");
 
             // Artificial intelligence (AI). Similarity search and clustering of dense vectors
@@ -27406,6 +27454,30 @@ namespace OverflowHelper.core
             // Artificial intelligence (AI)
             correctionAdd("bert", "BERT");
             correctionAdd("Bert", "BERT");
+
+            // Artificial intelligence (AI).
+            correctionAdd("Bard", "Google Bard");
+            correctionAdd("bard", "Google Bard");
+            correctionAdd("Google Brad", "Google Bard");
+
+            // artificial intelligence (AI)-based grammar,
+            // spell checking, etc. Similar to Grammarly
+            correctionAdd("quillbot", "QuillBot");
+            correctionAdd("Quillbot", "QuillBot");
+
+            // Artificial intelligence (AI).
+            correctionAdd("human annotator", "human annotator for AI");
+            correctionAdd("annotator", "human annotator for AI");
+
+            // Stack Overflow
+            // Artificial intelligence (AI).
+            // Alternative URL:
+            //   <https://stackoverflow.co/labs/>
+            correctionAdd("Overflow AI", "OverflowAI");
+
+            // AI. Speech recognition.
+            // Artificial intelligence (AI).
+            correctionAdd("whisper", "Whisper");
 
             correctionAdd("wolf algorithm", "Wolff algorithm");
             correctionAdd("Wolf algorithm", "Wolff algorithm");
@@ -27501,6 +27573,7 @@ namespace OverflowHelper.core
 
             correctionAdd("foursquare", "Foursquare");
             correctionAdd("Four square", "Foursquare");
+            correctionAdd("Foursqaure", "Foursquare");
 
             correctionAdd("XARGS", "xargs");
 
@@ -30771,6 +30844,7 @@ namespace OverflowHelper.core
             correctionAdd("cross posting", "crossposting");
             correctionAdd("Cross posting", "crossposting");
             correctionAdd("Crossposting", "crossposting");
+            correctionAdd("cross-posting", "crossposting");
 
             correctionAdd("sign-post", "signpost");
             correctionAdd("sign post", "signpost");
@@ -35025,6 +35099,7 @@ namespace OverflowHelper.core
             correctionAdd("Nestjs", "NestJS");
             correctionAdd("Nest Js", "NestJS");
             correctionAdd("NestJs", "NestJS");
+            correctionAdd("nest js", "NestJS");
 
             correctionAdd("nuxt", "Nuxt.js");
             correctionAdd("Nuxt", "Nuxt.js");
@@ -35990,6 +36065,7 @@ namespace OverflowHelper.core
             correctionAdd("thet", "that");
             correctionAdd("thai", "that");
             correctionAdd("thast", "that");
+            correctionAdd("tht", "that");
 
             correctionAdd("val", "value");
             correctionAdd("vaue", "value");
@@ -36222,9 +36298,6 @@ namespace OverflowHelper.core
             correctionAdd("Big Data", "big data");
             correctionAdd("Big data", "big data");
             correctionAdd("bigdata", "big data");
-
-            correctionAdd("FISH", "Fish");
-            correctionAdd("fish", "Fish");
 
             correctionAdd("foucs", "focus");
 
@@ -36659,6 +36732,8 @@ namespace OverflowHelper.core
             correctionAdd("Winner winner chicken dinner", "winner, winner, chicken dinner");
             correctionAdd("winner winner chicken dinner", "winner, winner, chicken dinner");
             correctionAdd("Winner, winner, chicken dinner", "winner, winner, chicken dinner");
+            correctionAdd("Winner winner", "winner, winner, chicken dinner");
+            correctionAdd("winner winner", "winner, winner, chicken dinner");
 
             correctionAdd("ntlm", "NTLM");
 
@@ -43026,6 +43101,8 @@ namespace OverflowHelper.core
 
             correctionAdd("pre-select", "preselect");
 
+            correctionAdd("pre selected", "preselected");
+
             correctionAdd("supervior", "supervisor");
             correctionAdd("supervisior", "supervisor");
 
@@ -43121,6 +43198,7 @@ namespace OverflowHelper.core
             correctionAdd("Just", "just");
             correctionAdd("Justing", "just");
             correctionAdd("justing", "just");
+            correctionAdd("Jut", "just");
 
             correctionAdd("Logistic Regression", "logistic regression");
 
@@ -44438,6 +44516,7 @@ namespace OverflowHelper.core
             correctionAdd("Lawyer", "lawyer");
             correctionAdd("lawer", "lawyer");
             correctionAdd("laywer", "lawyer");
+            correctionAdd("lawiyer", "lawyer");
 
             correctionAdd("sclalar", "scalar");
 
@@ -45655,10 +45734,6 @@ namespace OverflowHelper.core
             correctionAdd("bitchute", "BitChute");
             correctionAdd("Bitchute", "BitChute");
 
-            // AI-based grammar, spell checking, etc. Similar to Grammarly
-            correctionAdd("quillbot", "QuillBot");
-            correctionAdd("Quillbot", "QuillBot");
-
             correctionAdd("juristiction", "jurisdiction");
 
             correctionAdd("when ever", "whenever");
@@ -46705,8 +46780,6 @@ namespace OverflowHelper.core
 
             correctionAdd("anti matter", "antimatter");
             correctionAdd("anti-matter", "antimatter");
-
-            correctionAdd("pre selected", "preselected");
 
             correctionAdd("recieved", "received");
             correctionAdd("recived", "received");
@@ -51936,6 +52009,8 @@ namespace OverflowHelper.core
 
             correctionAdd("HOC", "higher-order component");
             correctionAdd("HoC", "higher-order component");
+            correctionAdd("Higher Order Component", "higher-order component");
+            correctionAdd("higher order component", "higher-order component");
 
             correctionAdd("mofo", "motherfucker");
 
@@ -54409,8 +54484,6 @@ namespace OverflowHelper.core
 
             correctionAdd("anecdoctal", "anecdotal");
 
-            correctionAdd("oder", "order");
-
             correctionAdd("saxon-js", "SaxonJS");
 
             correctionAdd("sording", "sorting");
@@ -55825,11 +55898,7 @@ namespace OverflowHelper.core
 
             correctionAdd("for profit", "for-profit");
 
-            // Artificial intelligence (AI).
-            correctionAdd("Bard", "Google Bard");
-            correctionAdd("bard", "Google Bard");
-            correctionAdd("Google Brad", "Google Bard");
-
+            // A physicist
             correctionAdd("michio kaku", "Michio Kaku");
 
             correctionAdd("on behalf", "on behalf of");
@@ -56352,23 +56421,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Hayashi stage", "Hayashi track");
 
-            // Online training of typing speed
-            //
-            // Alternative URLs:
-            //
-            //   <https://groups.google.com/g/keybr/about>
-            //   <https://www.keybr.com/>
-            //
-            correctionAdd("keybr", "Keybr");
-            correctionAdd("keybr.com", "Keybr");
-
-            // Online training of typing speed
-            //
-            // Alternative URL: <https://www.monkeytype.com/>
-            //
-            correctionAdd("monkeytype", "Monkeytype");
-            correctionAdd("monkey type", "Monkeytype");
-
             correctionAdd("laters", "layers");
 
             correctionAdd("non-experts", "nonexperts");
@@ -56863,9 +56915,6 @@ namespace OverflowHelper.core
 
             correctionAdd("guard rails", "guardrails");
 
-            correctionAdd("human annotator", "human annotator for AI");
-            correctionAdd("annotator", "human annotator for AI");
-
             correctionAdd("mixup", "mix up");
 
             correctionAdd("mosquitos", "mosquitos in Valencia (Hans Christian Andersen)");
@@ -56955,6 +57004,37 @@ namespace OverflowHelper.core
             correctionAdd("Write(2)", "write(2)");
 
             correctionAdd("stems that", "stems from");
+
+            correctionAdd("grafemes", "graphemes");
+
+            correctionAdd("implementation dependent", "implementation-dependent");
+
+            correctionAdd("pre-dates", "predates");
+
+            correctionAdd("car industrie", "car industry");
+
+            correctionAdd("containerize", "containerise");
+            correctionAdd("containarize", "containerise");
+
+            correctionAdd("prisma", "Prisma");
+
+            correctionAdd("siklls", "skills");
+
+            correctionAdd("Am", "am");
+
+            correctionAdd("Apple Pay", "Apple&nbsp;Pay");
+            correctionAdd("Apple-Pay", "Apple&nbsp;Pay");
+            correctionAdd("ApplePay", "Apple&nbsp;Pay");
+
+            correctionAdd("Wallet", "Google Wallet");
+            correctionAdd("Android Pay", "Google Wallet");
+
+            correctionAdd("high-fives", "high fives");
+            correctionAdd("Hi-fives", "high fives");
+            correctionAdd("hi-fives", "high fives");
+
+            correctionAdd("unauthorized", "unauthorised");
+            correctionAdd("un-authorized", "unauthorised");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -83305,8 +83385,6 @@ namespace OverflowHelper.core
 
             URL_Add("fortunately", "https://en.wiktionary.org/wiki/fortunately#Adverb");
 
-            URL_Add("order", "https://en.wiktionary.org/wiki/order#Verb");
-
             URL_Add("purposed", "https://en.wiktionary.org/wiki/purposed#Adjective");
 
             URL_Add("SaxonJS", "https://en.wikipedia.org/wiki/Saxon_XSLT#Versions");
@@ -87627,6 +87705,38 @@ namespace OverflowHelper.core
 
             URL_Add("Scott Meyers", "https://en.wikipedia.org/wiki/Scott_Meyers");
 
+            URL_Add("graphemes", "https://en.wikipedia.org/wiki/Grapheme");
+
+            URL_Add("implementation-dependent", "https://en.wikipedia.org/wiki/End-of-file#Details");
+
+            URL_Add("predates", "https://en.wiktionary.org/wiki/predate#Verb");
+
+            URL_Add("strcmp()", "https://en.wikipedia.org/wiki/C_string_handling#Functions");
+
+            URL_Add("strncpy()", "https://en.wikipedia.org/wiki/C_string_handling#Functions");
+
+            URL_Add("car industry", "https://en.wikipedia.org/wiki/Automotive_industry");
+
+            URL_Add("containerise", "https://en.wiktionary.org/wiki/containerise#Verb");
+
+            URL_Add("OverflowAI", "https://stackoverflow.blog/2023/07/27/announcing-overflowai/");
+
+            URL_Add("Prisma", "https://docs.nestjs.com/recipes/prisma");
+
+            URL_Add("skills", "https://en.wiktionary.org/wiki/skill#Noun");
+
+            URL_Add("Whisper", "https://github.com/openai/whisper");
+
+            URL_Add("am", "https://en.wiktionary.org/wiki/am#Verb");
+
+            URL_Add("Apple&nbsp;Pay", "https://en.wikipedia.org/wiki/Apple_Pay");
+
+            URL_Add("Google Wallet", "https://en.wikipedia.org/wiki/Google_Wallet");
+
+            URL_Add("high fives", "https://en.wiktionary.org/wiki/high_five#Noun");
+
+            URL_Add("unauthorised", "https://en.wiktionary.org/wiki/unauthorised#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -88744,6 +88854,9 @@ namespace OverflowHelper.core
             correctionAdd("LIT_", "Lit_");
             correctionAdd("lit_", "Lit_");
 
+            // A React (JavaScript) libeary
+            correctionAdd("reselect_", "Reselect_");
+
             // The Stack Overflow tags
             correctionAdd("[tag:.net]_", ".NET (tag wiki)_");
             correctionAdd("[tag:dotnet]_", ".NET (tag wiki)_"); // Tag synonym
@@ -89370,6 +89483,7 @@ namespace OverflowHelper.core
 
             correctionAdd("stie_", "site_");
             correctionAdd("Site_", "site_");
+            correctionAdd("side_", "site_");
 
             correctionAdd("ice_", "ICE_");
 
@@ -90105,6 +90219,7 @@ namespace OverflowHelper.core
             correctionAdd("cross posted_", "crossposted_");
 
             correctionAdd("cross posting_", "crossposting_");
+            correctionAdd("cross-posting_", "crossposting_");
 
             // It is here because it conflicts with
             // "cpp" in the main word set.
@@ -90191,6 +90306,7 @@ namespace OverflowHelper.core
             correctionAdd("PAT_", "page attribute table_");
 
             correctionAdd("documentation_", "Documentation_");
+            correctionAdd("SO Documentation_", "Documentation_");
 
             correctionAdd("foot_", "Foot_");
 
@@ -90407,6 +90523,9 @@ namespace OverflowHelper.core
             correctionAdd("meyer_", "Erik Meijer (functional programming guy has a bunch of presentations where he trashes Agile while using this weird coloured shirt)_");
             correctionAdd("weird shirt_", "Erik Meijer (functional programming guy has a bunch of presentations where he trashes Agile while using this weird coloured shirt)_");
             correctionAdd("Eric Meyer_", "Erik Meijer (functional programming guy has a bunch of presentations where he trashes Agile while using this weird coloured shirt)_");
+            correctionAdd("Eric_", "Erik Meijer (functional programming guy has a bunch of presentations where he trashes Agile while using this weird coloured shirt)_");
+
+            correctionAdd("sim_", "simulation_");
 
             // URL mappings
             //
@@ -91919,9 +92038,13 @@ namespace OverflowHelper.core
 
             URL_Add("normalisation_", "https://en.wiktionary.org/wiki/normalisation#Noun");
 
-            URL_Add("order_", "https://en.wiktionary.org/wiki/order#Noun");
+            URL_Add("order_", "https://en.wiktionary.org/wiki/order#Verb");
 
             URL_Add("Erik Meijer (functional programming guy has a bunch of presentations where he trashes Agile while using this weird coloured shirt)_", "https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f");
+
+            URL_Add("Reselect_", "https://github.com/reduxjs/reselect");
+
+            URL_Add("simulation_", "https://en.wiktionary.org/wiki/simulation#Noun");
 
         } //addLookupData_alternativeWordSet()
 
