@@ -4847,6 +4847,13 @@ namespace OverflowHelper.core
             correctionAdd("paralelly", "parallelly");
             correctionAdd("parallely", "parallelly");
 
+            correctionAdd("Battery", "battery");
+
+            correctionAdd("battries", "batteries");
+            correctionAdd("batterys", "batteries");
+
+            correctionAdd("BMS", "battery management system");
+
             correctionAdd("Lithium", "lithium");
             correctionAdd("Lithion", "lithium");
             correctionAdd("Li", "lithium");
@@ -4889,6 +4896,8 @@ namespace OverflowHelper.core
             correctionAdd("2P", "two parallel");
 
             correctionAdd("Ni-cad", "NiCad");
+
+            correctionAdd("double A batteries", "AA batteries");
 
             correctionAdd("Neutrino", "neutrino");
 
@@ -9182,6 +9191,7 @@ namespace OverflowHelper.core
             correctionAdd("BFS", "breadth-first search");
             correctionAdd("breath first search", "breadth-first search");
             correctionAdd("breadth first search", "breadth-first search");
+            correctionAdd("bfs", "breadth-first search");
 
             correctionAdd("depth first search", "depth-first search");
             correctionAdd("Depth First Search", "depth-first search");
@@ -9972,12 +9982,6 @@ namespace OverflowHelper.core
             correctionAdd("StackOverflow blog", "the Stack Overflow blog");
 
             correctionAdd("Stack Overflow dump", "Stack Overflow data dump");
-
-            // Stack Exchange / Stack Overflow
-            correctionAdd("Eternal September on SO", "Eternal September on Stack Overflow");
-            correctionAdd("big city problems", "Eternal September on Stack Overflow");
-            correctionAdd("eternal september on SO", "Eternal September on Stack Overflow");
-            correctionAdd("eternal september on so", "Eternal September on Stack Overflow");
 
             // Stack Overflow
             correctionAdd("bogus answers on Stack Overflow", "completely bogus answers on Stack Overflow");
@@ -11743,6 +11747,10 @@ namespace OverflowHelper.core
             correctionAdd("xCode", "Xcode");
             correctionAdd("x-code", "Xcode");
             correctionAdd("XCODE", "Xcode");
+
+            correctionAdd("Xcode Cloud", "Xcode&nbsp;Cloud");
+            correctionAdd("Xcode cloud", "Xcode&nbsp;Cloud");
+            correctionAdd("xcode cloud", "Xcode&nbsp;Cloud");
 
             correctionAdd("unicode", "Unicode");
             correctionAdd("UNICODE", "Unicode");
@@ -18935,6 +18943,16 @@ namespace OverflowHelper.core
 
             correctionAdd("USACO", "United States of America Computing Olympiad");
 
+            correctionAdd("Mathematical Olympics", "International Mathematical Olympiad");
+
+            correctionAdd("olympiad", "Olympiad");
+            correctionAdd("olimpiad", "Olympiad");
+
+            correctionAdd("olympics", "Olympics");
+
+            // A volcano on Mars (planet)
+            correctionAdd("olympus mons", "Olympus Mons");
+
             correctionAdd("competant", "competent");
 
             correctionAdd("competance", "competence");
@@ -23622,6 +23640,8 @@ namespace OverflowHelper.core
             correctionAdd("semi-implicit Euler method", "symplectic Euler");
 
             correctionAdd("Euler tree traversal", "Euler tour technique");
+
+            correctionAdd("euler angles", "Euler angles");
 
             correctionAdd("FireSheep", "Firesheep");
 
@@ -38969,8 +38989,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ENRON", "Enron");
 
-            correctionAdd("olympics", "Olympics");
-
             correctionAdd("stylish", "Stylish");
 
             correctionAdd("sweden", "Sweden");
@@ -39441,6 +39459,9 @@ namespace OverflowHelper.core
 
             correctionAdd("florida", "Florida");
             correctionAdd("Fla", "Florida");
+
+            // Cuba
+            correctionAdd("havana", "Havana");
 
             correctionAdd("The Philippines", "the Philippines");
             correctionAdd("Phillipines", "the Philippines");
@@ -42005,10 +42026,6 @@ namespace OverflowHelper.core
             correctionAdd("ipaas", "iPaaS");
 
             correctionAdd("gaz", "gas");
-
-            correctionAdd("ar", "as");
-            correctionAdd("Ar", "as");
-            correctionAdd("als", "as");
 
             correctionAdd("cliche", "cliché");
 
@@ -45716,11 +45733,6 @@ namespace OverflowHelper.core
 
             correctionAdd("pasifism", "pacifism");
 
-            correctionAdd("double A batteries", "AA batteries");
-
-            correctionAdd("battries", "batteries");
-            correctionAdd("batterys", "batteries");
-
             correctionAdd("wholistic", "holistic");
 
             correctionAdd("nagivation", "navigation");
@@ -47626,6 +47638,7 @@ namespace OverflowHelper.core
             correctionAdd("cocoa pod", "CocoaPods");
             correctionAdd("cocoapod", "CocoaPods");
             correctionAdd("CocoaPod", "CocoaPods");
+            correctionAdd("Pods", "CocoaPods");
 
             correctionAdd("msp", "MSP");
 
@@ -48704,6 +48717,7 @@ namespace OverflowHelper.core
             correctionAdd("ahs", "has");
             correctionAdd("hase", "has");
             correctionAdd("haas", "has");
+            correctionAdd("as", "has");
 
             correctionAdd("lit", "literature");
 
@@ -49743,8 +49757,6 @@ namespace OverflowHelper.core
 
             correctionAdd("North-Americans", "North Americans");
 
-            correctionAdd("olympus mons", "Olympus Mons");
-
             correctionAdd("seti", "SETI");
             correctionAdd("search for extraterrestrial intelligence", "SETI");
 
@@ -50535,9 +50547,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Ether", "ETH");
 
-            correctionAdd("olympiad", "Olympiad");
-            correctionAdd("olimpiad", "Olympiad");
-
             correctionAdd("electro-dynamical", "electrodynamical");
 
             correctionAdd("scatterplot", "scatter plot");
@@ -50934,8 +50943,6 @@ namespace OverflowHelper.core
             correctionAdd("visual Micro", "Visual Micro");
             correctionAdd("VisualMicro", "Visual Micro");
             correctionAdd("vMicro", "Visual Micro");
-
-            correctionAdd("BMS", "battery management system");
 
             correctionAdd("cyclicly", "cyclically");
 
@@ -54100,6 +54107,8 @@ namespace OverflowHelper.core
             correctionAdd("rankmath", "Rank Math");
 
             correctionAdd("submited", "submitted");
+            correctionAdd("Summitted", "submitted");
+            correctionAdd("summitted", "submitted");
 
             correctionAdd("on your own risk", "at your own risk");
 
@@ -54854,8 +54863,6 @@ namespace OverflowHelper.core
             correctionAdd("malvolent", "malevolent");
 
             correctionAdd("intoksicated", "intoxicated");
-
-            correctionAdd("Battery", "battery");
 
             // Alternative: <https://httpie.io/>
             //
@@ -57086,6 +57093,42 @@ namespace OverflowHelper.core
             correctionAdd("un-authorized", "unauthorised");
 
             correctionAdd("bodering", "bothering");
+
+            // An island
+            correctionAdd("aruba", "Aruba");
+
+            correctionAdd("bonaire", "Bonaire");
+
+            correctionAdd("bulgaria", "Bulgaria");
+
+            correctionAdd("canada", "Canada");
+
+            // An island
+            correctionAdd("Curacao", "Curaçao");
+
+            // Windows. Disk partitioning, including assigning drive letter.        
+            // Alternative URL:
+            //
+            //   <https://ss64.com/nt/diskpart.html>
+            //
+            correctionAdd("DISKPART", "diskpart");
+
+            // An island
+            correctionAdd("saba", "Saba");
+
+            // An island
+            correctionAdd("St. Eustatius", "Sint Eustatius");
+
+            // An island
+            correctionAdd("St. Maarten", "Sint Maarten");
+
+            correctionAdd("multi-page", "multipage");
+
+            correctionAdd("comunicative", "communicative");
+
+            correctionAdd("Quaternion", "quaternion");
+
+            correctionAdd("alkaline", "alkaline battery");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -68539,8 +68582,6 @@ namespace OverflowHelper.core
             URL_Add("Nordic", "https://en.wiktionary.org/wiki/Nordic#Adjective");
 
             URL_Add("annual", "https://en.wiktionary.org/wiki/annual#Adjective");
-
-            URL_Add("as", "https://en.wiktionary.org/wiki/as#Conjunction");
 
             URL_Add("cliché", "https://en.wiktionary.org/wiki/clich%C3%A9#Noun");
 
@@ -83132,8 +83173,6 @@ namespace OverflowHelper.core
 
             URL_Add("loose end", "https://en.wiktionary.org/wiki/loose_end#Noun");
 
-            URL_Add("Eternal September on Stack Overflow", "https://stackoverflow.blog/2010/10/04/asking-better-questions/");
-
             URL_Add("full Stack Overflow developer", "https://www.christianheilmann.com/2015/07/17/the-full-stackoverflow-developer/");
 
             URL_Add("opt in", "https://en.wiktionary.org/wiki/opt_in#Verb");
@@ -87810,6 +87849,40 @@ namespace OverflowHelper.core
 
             URL_Add("Robert's Rules of Order", "https://en.wikipedia.org/wiki/Robert%27s_Rules_of_Order");
 
+            URL_Add("Aruba", "https://en.wikipedia.org/wiki/Aruba");
+
+            URL_Add("Bonaire", "https://en.wikipedia.org/wiki/Bonaire");
+
+            URL_Add("Bulgaria", "https://en.wikipedia.org/wiki/Bulgaria");
+
+            URL_Add("Canada", "https://en.wikipedia.org/wiki/Canada");
+
+            URL_Add("Curaçao", "https://en.wikipedia.org/wiki/Cura%C3%A7ao");
+
+            URL_Add("diskpart", "https://en.wikipedia.org/wiki/Diskpart");
+
+            URL_Add("Havana", "https://en.wikipedia.org/wiki/Havana");
+
+            URL_Add("Saba", "https://en.wikipedia.org/wiki/Saba_(island)");
+
+            URL_Add("Sint Eustatius", "https://en.wikipedia.org/wiki/Sint_Eustatius");
+
+            URL_Add("Sint Maarten", "https://en.wikipedia.org/wiki/Sint_Maarten");
+
+            URL_Add("multipage", "https://en.wiktionary.org/wiki/multipage#Adjective");
+
+            URL_Add("communicative", "https://en.wiktionary.org/wiki/communicative#Adjective");
+
+            URL_Add("Euler angles", "https://en.wikipedia.org/wiki/Euler_angles");
+
+            URL_Add("International Mathematical Olympiad", "https://en.wikipedia.org/wiki/International_Mathematical_Olympiad");
+
+            URL_Add("quaternion", "https://en.wikipedia.org/wiki/Quaternion");
+
+            URL_Add("Xcode&nbsp;Cloud", "https://en.wikipedia.org/wiki/Xcode#13.x_series");
+
+            URL_Add("alkaline battery", "https://en.wikipedia.org/wiki/Alkaline_battery");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -89357,6 +89430,7 @@ namespace OverflowHelper.core
             correctionAdd("ST_", "STMicroelectronics_");
 
             correctionAdd("castle_", "our princess is in another castle_");
+            correctionAdd("princess in another castle_", "our princess is in another castle_");
 
             // HTML tag
             correctionAdd("Body_", "body_");
@@ -89981,8 +90055,6 @@ namespace OverflowHelper.core
             correctionAdd("uninterruptible power source_", "UPS_");
             correctionAdd("uninterruptible power supply_", "UPS_");
 
-            correctionAdd("AR_", "ar_");
-
             correctionAdd("CLASS_", "class_");
 
             correctionAdd("finde_", "fine_");
@@ -90437,6 +90509,7 @@ namespace OverflowHelper.core
 
             correctionAdd("imo_", "in my opinion_");
             correctionAdd("for my opinion_", "in my opinion_");
+            correctionAdd("IMO_", "in my opinion_");
 
             // Alternative URL: <https://en.wiktionary.org/wiki/PIP#Noun>
             //
@@ -90625,6 +90698,20 @@ namespace OverflowHelper.core
             correctionAdd("commitlint_", "Commitlint_");
             correctionAdd("Commitment_", "Commitlint_");
             correctionAdd("commitment_", "Commitlint_");
+
+            // Stack Exchange / Stack Overflow
+            correctionAdd("Eternal September on SO_", "Eternal September on Stack Overflow_");
+            correctionAdd("big city problems_", "Eternal September on Stack Overflow_");
+            correctionAdd("eternal september on SO_", "Eternal September on Stack Overflow_");
+            correctionAdd("eternal september on so_", "Eternal September on Stack Overflow_");
+
+            correctionAdd("ar_", "as_");
+            correctionAdd("Ar_", "as_");
+            correctionAdd("als_", "as_");
+
+            correctionAdd("He_", "he_");
+
+            correctionAdd("Vector_", "vector_");
 
             // URL mappings
             //
@@ -91677,8 +91764,6 @@ namespace OverflowHelper.core
 
             URL_Add("match()_", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match");
 
-            URL_Add("ar_", "https://en.wikipedia.org/wiki/Ar_(Unix)");
-
             URL_Add("class_", "https://en.wikipedia.org/wiki/HTML_attribute#Common_attributes");
 
             URL_Add("Windows&nbsp;8_", "https://en.wikipedia.org/wiki/Windows_8");
@@ -92156,6 +92241,14 @@ namespace OverflowHelper.core
             URL_Add("in my opinion_", "https://en.wiktionary.org/wiki/IMO#Prepositional_phrase");
 
             URL_Add("Commitlint_", "https://github.com/conventional-changelog/commitlint");
+
+            URL_Add("Eternal September on Stack Overflow_", "https://stackoverflow.blog/2010/10/04/asking-better-questions/");
+
+            URL_Add("as_", "https://en.wiktionary.org/wiki/as#Conjunction");
+
+            URL_Add("he_", "https://en.wiktionary.org/wiki/he#Pronoun");
+
+            URL_Add("vector_", "https://en.wiktionary.org/wiki/vector#Noun");
 
         } //addLookupData_alternativeWordSet()
 
