@@ -2332,6 +2332,40 @@ namespace OverflowHelper.core
             correctionAdd("Giggawatt", "flux capacitor");
             correctionAdd("jigga", "flux capacitor");
 
+            // Science fiction. Film.
+            correctionAdd("2001", "2001: A Space Odyssey");
+
+            // Quote from "2001: A Space Odyssey"
+            correctionAdd("full of stars", "it's full of stars!");
+
+            // A film
+            correctionAdd("office space", "Office Space");
+
+            // A quote from Office Space
+            correctionAdd("glitch", "we fixed the glitch");
+
+            // An Office Space reference
+            //
+            // Alternative URL:
+            //    <https://www.youtube.com/watch?v=F7SNEdjftno>
+            //
+            correctionAdd("bare minimum", "the bare minimum");
+
+            // A film
+            correctionAdd("War Games", "WarGames");
+            correctionAdd("war games", "WarGames");
+            correctionAdd("WARGAMES", "WarGames");
+            correctionAdd("wargames", "WarGames");
+
+            // A film
+            correctionAdd("Stop Worrying", "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb");
+            correctionAdd("Dr. Strangelove", "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb");
+            correctionAdd("Strangelove", "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb");
+            correctionAdd("stop worrying", "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb");
+
+            // A film. Or rather a series of films
+            correctionAdd("resident evil", "Resident Evil");
+
             correctionAdd("newton raphson", "Newton–Raphson");
             correctionAdd("Newton's method", "Newton–Raphson");
             correctionAdd("newton's method", "Newton–Raphson");
@@ -4852,6 +4886,8 @@ namespace OverflowHelper.core
             correctionAdd("battries", "batteries");
             correctionAdd("batterys", "batteries");
 
+            correctionAdd("alkaline", "alkaline battery");
+
             correctionAdd("BMS", "battery management system");
 
             correctionAdd("Lithium", "lithium");
@@ -5076,6 +5112,7 @@ namespace OverflowHelper.core
             // A software testing tool for web browsers / web sites
             correctionAdd("selenium", "Selenium");
             correctionAdd("seleium", "Selenium");
+            correctionAdd("selenuim", "Selenium");
 
             correctionAdd("Selenium RC", "Selenium Remote Control");
 
@@ -5498,34 +5535,6 @@ namespace OverflowHelper.core
             correctionAdd("HAIR SPACE", "hair space");
 
             correctionAdd("meat space", "meatspace");
-
-            // A film
-            correctionAdd("office space", "Office Space");
-
-            // Quote from Office Space
-            correctionAdd("glitch", "we fixed the glitch");
-
-            // An Office Space reference
-            //
-            // Alternative URL:
-            //    <https://www.youtube.com/watch?v=F7SNEdjftno>
-            //
-            correctionAdd("bare minimum", "the bare minimum");
-
-            // A film
-            correctionAdd("War Games", "WarGames");
-            correctionAdd("war games", "WarGames");
-            correctionAdd("WARGAMES", "WarGames");
-            correctionAdd("wargames", "WarGames");
-
-            // A film
-            correctionAdd("Stop Worrying", "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb");
-            correctionAdd("Dr. Strangelove", "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb");
-            correctionAdd("Strangelove", "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb");
-            correctionAdd("stop worrying", "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb");
-
-            // A film. Or rather a series of films
-            correctionAdd("resident evil", "Resident Evil");
 
             correctionAdd("priv", "privilege");
             correctionAdd("priveledges", "privilege"); // Not 100% correct - plural.
@@ -9526,6 +9535,9 @@ namespace OverflowHelper.core
             correctionAdd("4 lyfe", "for life");
 
             correctionAdd("real life", "real-life");
+            correctionAdd("RealLife", "real-life");
+            correctionAdd("realLife", "real-life");
+            correctionAdd("reallife", "real-life");
 
             correctionAdd("shelf-life", "shelf life");
 
@@ -9714,6 +9726,7 @@ namespace OverflowHelper.core
             correctionAdd("franglais", "Franglais");
 
             correctionAdd("Emphasize", "emphasis");
+            correctionAdd("emphasiz", "emphasis");
 
             correctionAdd("apophis", "Apophis");
             correctionAdd("Apophos", "Apophis");
@@ -11868,6 +11881,15 @@ namespace OverflowHelper.core
             correctionAdd("ifconfig", "ip addr"); // On Linux. Not incorrect, just the replacement on Linux...
             correctionAdd("ip a", "ip addr"); // On Linux. Not incorrect, just the replacement on Linux...
 
+            correctionAdd("scropt", "script");
+            correctionAdd("scrip", "script");
+            correctionAdd("Script", "script");
+            correctionAdd("scritpt", "script");
+            correctionAdd("sript", "script");
+            correctionAdd("scritp", "script");
+            correctionAdd("srcipt", "script");
+            correctionAdd("scrpit", "script");
+
             correctionAdd("ghostscript", "Ghostscript");
             correctionAdd("GhostScript", "Ghostscript");
 
@@ -11876,14 +11898,6 @@ namespace OverflowHelper.core
             correctionAdd("ps", "PostScript"); // Possible collision with the Unix
                                                // command-line command. And
                                                // PowerShell alias for Get-Process...
-
-            correctionAdd("scropt", "script");
-            correctionAdd("scrip", "script");
-            correctionAdd("Script", "script");
-            correctionAdd("scritpt", "script");
-            correctionAdd("sript", "script");
-            correctionAdd("scritp", "script");
-            correctionAdd("srcipt", "script");
 
             // JavaScript
             //
@@ -12682,6 +12696,8 @@ namespace OverflowHelper.core
             correctionAdd("Pypi", "PyPI");
             correctionAdd("PYPI", "PyPI");
             correctionAdd("pipy", "PyPI");
+            correctionAdd("PyPI.org", "PyPI");
+            correctionAdd("pypi.org", "PyPI");
 
             correctionAdd("pyvisa", "PyVISA");
             correctionAdd("PyVisa", "PyVISA");
@@ -12918,6 +12934,7 @@ namespace OverflowHelper.core
             correctionAdd("BEAUTIFULSOUP", "Beautiful Soup");
             correctionAdd("Beatifulsoup", "Beautiful Soup");
             correctionAdd("Beasutiful soup", "Beautiful Soup");
+            correctionAdd("bs4", "Beautiful Soup");
 
             correctionAdd("unsplash", "Unsplash");
 
@@ -13670,6 +13687,7 @@ namespace OverflowHelper.core
             correctionAdd("Libraries", "libraries");
             correctionAdd("librabries", "libraries");
             correctionAdd("libraies", "libraries");
+            correctionAdd("libraris", "libraries");
 
             correctionAdd("enterprise library", "Enterprise Library"); // Really "Microsoft Enterprise Library"
 
@@ -14523,6 +14541,7 @@ namespace OverflowHelper.core
             correctionAdd("BOOST", "Boost");
             correctionAdd("bosst", "Boost");
             correctionAdd("boot", "Boost");
+            correctionAdd("Boost C++", "Boost");
 
             // Can not currently be looked up due to a bug!!!! It works fine
             // in the web interface 2021-08-04, though.
@@ -19820,9 +19839,7 @@ namespace OverflowHelper.core
             //
             //   <https://coolermaster.egnyte.com/dd/f1Qqfab2m5>
             //
-            // Configuration software:
-            //
-            //   Cooler Master Portal
+            // Configuration software: Cooler Master Portal
             //
             correctionAdd("sk630", "SK630");
 
@@ -19857,7 +19874,8 @@ namespace OverflowHelper.core
             //
             correctionAdd("mm710", "MM710");
 
-            // A mouse from Cooler Master
+            // A wired mouse from Cooler Master. Omron switches.
+            // Configuration software: MasterPlus+
             //
             // Manual:
             //
@@ -19886,14 +19904,21 @@ namespace OverflowHelper.core
             correctionAdd("mm730", "MM730");
 
             // A mouse from Cooler Master
+            // Wireless (both Bluetooth and 2.4 GHz).
+            // Configuration software: MasterPlus+
+            //
+            // Manual:
+            //
+            //   <https://coolermaster.egnyte.com/dd/DF2ZH3v6Jd>
+            //
+            correctionAdd("mm731", "MM731");
+
+            // A mechanical keyboard from Cooler Master
             //
             // Manual:
             //
             //   <https://coolermaster.egnyte.com/dd/TkNZCJThp4>
             //
-            correctionAdd("mm731", "MM731");
-
-            // A mechanical keyboard from Cooler Master
             correctionAdd("MK750", "MasterKeys MK750");
 
             // A mechanical keyboard from Cooler Master
@@ -20562,6 +20587,8 @@ namespace OverflowHelper.core
             correctionAdd("re-load", "reload");
             correctionAdd("Relaod", "reload");
             correctionAdd("relaod", "reload");
+            correctionAdd("Realod", "reload");
+            correctionAdd("realod", "reload");
 
             correctionAdd("DL", "download");
             correctionAdd("dwnld", "download");
@@ -20768,6 +20795,8 @@ namespace OverflowHelper.core
             correctionAdd("-Wreturn-stack-address", "-Wreturn-stack-address (Clang)");
 
             correctionAdd("--Wall", "-Wall");
+            correctionAdd("-wall", "-Wall");
+            correctionAdd("wall", "-Wall");
 
             correctionAdd("--Werror", "-Werror");
             correctionAdd("Werror", "-Werror");
@@ -21139,6 +21168,8 @@ namespace OverflowHelper.core
             correctionAdd("--finput-charset", "-finput-charset");
 
             correctionAdd("--Wtraditional", "-Wtraditional"); // For GCC
+
+            correctionAdd("--Warith-conversion", "-Warith-conversion");
 
             correctionAdd("WIX", "WiX");
             correctionAdd("Wix", "WiX");
@@ -21945,8 +21976,6 @@ namespace OverflowHelper.core
             correctionAdd("opion", "opinion");
             correctionAdd("oppinion", "opinion");
 
-            correctionAdd("for my opinion", "in my opinion");
-
             correctionAdd("worth there salt", "worth their salt");
 
             // A film quote (from "The Big Lebowski")
@@ -22354,6 +22383,14 @@ namespace OverflowHelper.core
 
             // A data interchange format based on JSON
             correctionAdd("bson", "BSON");
+
+            correctionAdd("imho", "IMHO");
+            correctionAdd("Imho", "IMHO");
+            correctionAdd("IHMO", "IMHO");
+
+            correctionAdd("imo", "IMO");
+            correctionAdd("Imo", "IMO");
+            correctionAdd("in my opinion", "IMO");
 
             correctionAdd("imort", "import");
             correctionAdd("inport", "import");
@@ -24300,13 +24337,6 @@ namespace OverflowHelper.core
 
             correctionAdd("xmpp", "XMPP");
 
-            correctionAdd("imho", "IMHO");
-            correctionAdd("Imho", "IMHO");
-            correctionAdd("IHMO", "IMHO");
-
-            correctionAdd("imo", "IMO");
-            correctionAdd("Imo", "IMO");
-
             correctionAdd("rmi", "RMI");
 
             correctionAdd("opensocial", "OpenSocial");
@@ -25981,6 +26011,7 @@ namespace OverflowHelper.core
             correctionAdd("Dir", "directory");
             correctionAdd("directiory", "directory");
             correctionAdd("direcory", "directory");
+            correctionAdd("directry", "directory");
 
             correctionAdd("dirs", "directories");
             correctionAdd("direcotires", "directories");
@@ -30487,6 +30518,8 @@ namespace OverflowHelper.core
             correctionAdd("statemachine", "finite-state machine");
             correctionAdd("FSM", "finite-state machine");
             correctionAdd("state machine", "finite-state machine");
+            correctionAdd("Finite State machine", "finite-state machine");
+            correctionAdd("finite state machine", "finite-state machine");
 
             correctionAdd("Mealy Machine", "Mealy machine");
 
@@ -32994,6 +33027,7 @@ namespace OverflowHelper.core
             correctionAdd("odesk", "oDesk");
 
             correctionAdd("preceede", "precede");
+            correctionAdd("preceed", "precede");
 
             correctionAdd("dimenson", "dimension");
             correctionAdd("dimenion", "dimension");
@@ -33874,6 +33908,8 @@ namespace OverflowHelper.core
             correctionAdd("Trillion", "trillion");
 
             correctionAdd("useage", "usage");
+            correctionAdd("Usase", "usage");
+            correctionAdd("usase", "usage");
 
             correctionAdd("Isreal", "Israel"); // Misspelled in the "WarGames" movie (though not the only place)...
             correctionAdd("Israle", "Israel");
@@ -37667,8 +37703,10 @@ namespace OverflowHelper.core
             correctionAdd("fide", "FIDE"); // Chess
             correctionAdd("Fide", "FIDE"); // Chess
 
-            correctionAdd("MVL", "Maxime Vachier-Lagrave"); // Chess
-            correctionAdd("Maxime", "Maxime Vachier-Lagrave"); // Chess
+            // Chess
+            correctionAdd("MVL", "Maxime Vachier-Lagrave");
+            correctionAdd("Maxime", "Maxime Vachier-Lagrave");
+            correctionAdd("mvl", "Maxime Vachier-Lagrave");
 
             correctionAdd("botnivik", "Mikhail Botvinnik"); // Chess
             correctionAdd("botvinik", "Mikhail Botvinnik"); // Chess
@@ -45216,6 +45254,9 @@ namespace OverflowHelper.core
             correctionAdd("proide", "provide");
             correctionAdd("provie", "provide");
             correctionAdd("provied", "provide");
+
+            correctionAdd("appling", "applying");
+            correctionAdd("Appling", "applying");
 
             correctionAdd("re-apply", "reapply");
 
@@ -57106,7 +57147,7 @@ namespace OverflowHelper.core
             // An island
             correctionAdd("Curacao", "Curaçao");
 
-            // Windows. Disk partitioning, including assigning drive letter.        
+            // Windows. Disk partitioning, including assigning drive letter.
             // Alternative URL:
             //
             //   <https://ss64.com/nt/diskpart.html>
@@ -57128,7 +57169,24 @@ namespace OverflowHelper.core
 
             correctionAdd("Quaternion", "quaternion");
 
-            correctionAdd("alkaline", "alkaline battery");
+            correctionAdd("ac cepts", "accepts");
+
+            correctionAdd("Bypass", "bypass");
+
+            correctionAdd("Diamond", "diamond");
+
+            correctionAdd("donge", "dongle");
+            correctionAdd("Donge", "dongle");
+
+            correctionAdd("excact", "exact");
+
+            correctionAdd("httpx", "HTTPX");
+
+            // A book. Python.
+            correctionAdd("Learn Python the hard way", "Learn Python the Hard Way");
+
+            // A book author. E.g., of "Learn Python the Hard Way"
+            correctionAdd("Zed A. Shaw", "Zed Shaw");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -87839,8 +87897,6 @@ namespace OverflowHelper.core
 
             URL_Add("GCC 13.1", "https://gcc.gnu.org/gcc-13/");
 
-            URL_Add("in my opinion", "https://en.wiktionary.org/wiki/in_my_opinion#Prepositional_phrase");
-
             URL_Add("outer loop", "https://en.wikipedia.org/wiki/Outer_loop");
 
             URL_Add("Snake", "https://en.wikipedia.org/wiki/Snake_(video_game_genre)");
@@ -87882,6 +87938,30 @@ namespace OverflowHelper.core
             URL_Add("Xcode&nbsp;Cloud", "https://en.wikipedia.org/wiki/Xcode#13.x_series");
 
             URL_Add("alkaline battery", "https://en.wikipedia.org/wiki/Alkaline_battery");
+
+            URL_Add("-Warith-conversion", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Warith-conversion");
+
+            URL_Add("accepts", "https://en.wiktionary.org/wiki/accept#Verb");
+
+            URL_Add("applying", "https://en.wiktionary.org/wiki/apply#Verb");
+
+            URL_Add("bypass", "https://en.wiktionary.org/wiki/bypass#Verb");
+
+            URL_Add("diamond", "https://en.wiktionary.org/wiki/diamond#Noun");
+
+            URL_Add("dongle", "https://en.wiktionary.org/wiki/dongle#Noun");
+
+            URL_Add("exact", "https://en.wiktionary.org/wiki/exact#Adjective");
+
+            URL_Add("HTTPX", "https://www.python-httpx.org/");
+
+            URL_Add("it's full of stars!", "https://en.wikiquote.org/wiki/2001:_A_Space_Odyssey_(film)#Misattributed");
+
+            URL_Add("Learn Python the Hard Way", "https://en.wikipedia.org/wiki/Zed_Shaw#Books");
+
+            URL_Add("Zed Shaw", "https://en.wikipedia.org/wiki/Zed_Shaw");
+
+            URL_Add("2001: A Space Odyssey", "https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -89406,6 +89486,13 @@ namespace OverflowHelper.core
             correctionAdd("elixir_", "Elixir (tag wiki)_");
             correctionAdd("Elixir_", "Elixir (tag wiki)_");
 
+            correctionAdd("[tag:clojure]_", "Clojure (tag wiki)_");
+            correctionAdd("clojure_", "Clojure (tag wiki)_");
+            correctionAdd("Clojure_", "Clojure (tag wiki)_");
+
+            correctionAdd("[tag:shell]_", "shell (tag wiki)_");
+            correctionAdd("shell_", "shell (tag wiki)_");
+
             // Perl
             correctionAdd("parrot_", "Parrot_");
 
@@ -90491,10 +90578,6 @@ namespace OverflowHelper.core
 
             correctionAdd("b_", "B_");
 
-            correctionAdd("[tag:clojure]_", "Clojure (tag wiki)_");
-            correctionAdd("clojure_", "Clojure (tag wiki)_");
-            correctionAdd("Clojure_", "Clojure (tag wiki)_");
-
             correctionAdd("qt_", "Qt_");
             correctionAdd("QT_", "Qt_");
 
@@ -90508,8 +90591,8 @@ namespace OverflowHelper.core
             correctionAdd("mudt_", "must_");
 
             correctionAdd("imo_", "in my opinion_");
-            correctionAdd("for my opinion_", "in my opinion_");
             correctionAdd("IMO_", "in my opinion_");
+            correctionAdd("for my opinion_", "in my opinion_");
 
             // Alternative URL: <https://en.wiktionary.org/wiki/PIP#Noun>
             //
@@ -90704,6 +90787,7 @@ namespace OverflowHelper.core
             correctionAdd("big city problems_", "Eternal September on Stack Overflow_");
             correctionAdd("eternal september on SO_", "Eternal September on Stack Overflow_");
             correctionAdd("eternal september on so_", "Eternal September on Stack Overflow_");
+            correctionAdd("Eternal September_", "Eternal September on Stack Overflow_");
 
             correctionAdd("ar_", "as_");
             correctionAdd("Ar_", "as_");
@@ -90712,6 +90796,11 @@ namespace OverflowHelper.core
             correctionAdd("He_", "he_");
 
             correctionAdd("Vector_", "vector_");
+
+            correctionAdd("PDA_", "pushdown automaton_");
+            correctionAdd("Push-down machine_", "pushdown automaton_");
+
+            correctionAdd("nova_", "Nova_");
 
             // URL mappings
             //
@@ -92249,6 +92338,12 @@ namespace OverflowHelper.core
             URL_Add("he_", "https://en.wiktionary.org/wiki/he#Pronoun");
 
             URL_Add("vector_", "https://en.wiktionary.org/wiki/vector#Noun");
+
+            URL_Add("pushdown automaton_", "https://en.wikipedia.org/wiki/Pushdown_automaton");
+
+            URL_Add("shell (tag wiki)_", "https://stackoverflow.com/questions/tagged/shell");
+
+            URL_Add("Nova_", "https://en.wikipedia.org/wiki/OpenStack#Compute_(Nova)");
 
         } //addLookupData_alternativeWordSet()
 
