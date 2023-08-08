@@ -825,6 +825,31 @@ namespace OverflowHelper.core
             correctionAdd("LTSB", "Windows 10 Enterprise LTSC");
             correctionAdd("Windows 10 LTSB", "Windows 10 Enterprise LTSC");
 
+            correctionAdd("Windows 2016", "Windows Server 2016");
+            correctionAdd("windows 2016", "Windows Server 2016");
+            correctionAdd("Server 2016", "Windows Server 2016");
+            correctionAdd("windows server 2016", "Windows Server 2016");
+            correctionAdd("2016 Windows Server", "Windows Server 2016");
+            correctionAdd("Windows Server/10", "Windows Server 2016");
+            correctionAdd("Windows 10 Server", "Windows Server 2016");
+
+            correctionAdd("1803", "Windows 10, 2018-04-10 Update (version 1803)");
+
+            correctionAdd("Windows 10 version 1903 (May 2019 update)", "Windows&nbsp;10 version 1903 (May 2019 update)"); // Sort of identity mapping
+            correctionAdd("19H1", "Windows&nbsp;10 version 1903 (May 2019 update)");
+            correctionAdd("1903", "Windows&nbsp;10 version 1903 (May 2019 update)");
+
+            correctionAdd("Creators Update", "Windows 10 version 1703");
+            correctionAdd("creators update", "Windows 10 version 1703");
+
+            // Released 2019-07-19         
+            correctionAdd("18945", "Windows 10 Insider Preview Build 18945");
+            correctionAdd("Build 18945", "Windows 10 Insider Preview Build 18945");
+            correctionAdd("build 18945", "Windows 10 Insider Preview Build 18945");
+
+            correctionAdd("windows server 2019", "Windows Server 2019");
+            correctionAdd("2019 windows server", "Windows Server 2019");
+
             correctionAdd("Win11", "Windows&nbsp;11");
             correctionAdd("Windows 11", "Windows&nbsp;11");
             correctionAdd("windows 11", "Windows&nbsp;11");
@@ -885,6 +910,7 @@ namespace OverflowHelper.core
             correctionAdd("Windows Subsystem For Linux", "Windows Subsystem for Linux");
             correctionAdd("Windows subsystem for linux", "Windows Subsystem for Linux");
             correctionAdd("windows subsystem for linux", "Windows Subsystem for Linux");
+            correctionAdd("Wsl", "Windows Subsystem for Linux");
 
             correctionAdd("WSL2", "WSL 2");
             correctionAdd("WSL-2", "WSL 2");
@@ -1064,17 +1090,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Server 2012 R2", "Windows Server 2012 R2");
             correctionAdd("server 2012 r2", "Windows Server 2012 R2");
-
-            correctionAdd("Windows 2016", "Windows Server 2016");
-            correctionAdd("windows 2016", "Windows Server 2016");
-            correctionAdd("Server 2016", "Windows Server 2016");
-            correctionAdd("windows server 2016", "Windows Server 2016");
-            correctionAdd("2016 Windows Server", "Windows Server 2016");
-            correctionAdd("Windows Server/10", "Windows Server 2016");
-            correctionAdd("Windows 10 Server", "Windows Server 2016");
-
-            correctionAdd("windows server 2019", "Windows Server 2019");
-            correctionAdd("2019 windows server", "Windows Server 2019");
 
             correctionAdd("exchange", "Microsoft Exchange Server");
             correctionAdd("Exchange", "Microsoft Exchange Server");
@@ -1271,16 +1286,10 @@ namespace OverflowHelper.core
             correctionAdd("winrm", "WinRM");
             correctionAdd("Windows Remote Management", "WinRM");
 
-            correctionAdd("1803", "Windows 10, 2018-04-10 Update (version 1803)");
-
             correctionAdd("uwp", "UWP");
             correctionAdd("Universal Windows Platform", "UWP");
 
             correctionAdd("ETW", "Event Tracing for Windows");
-
-            correctionAdd("Windows 10 version 1903 (May 2019 update)", "Windows&nbsp;10 version 1903 (May 2019 update)"); // Sort of identity mapping
-            correctionAdd("19H1", "Windows&nbsp;10 version 1903 (May 2019 update)");
-            correctionAdd("1903", "Windows&nbsp;10 version 1903 (May 2019 update)");
 
             correctionAdd("windows firewall", "Windows Firewall");
             correctionAdd("Windows firewall", "Windows Firewall");
@@ -1299,9 +1308,6 @@ namespace OverflowHelper.core
             correctionAdd("Windows Live translator", "Microsoft Translator");
             correctionAdd("Bing Translate", "Microsoft Translator");
             correctionAdd("Bing Translator", "Microsoft Translator");
-
-            correctionAdd("Creators Update", "Windows 10 version 1703");
-            correctionAdd("creators update", "Windows 10 version 1703");
 
             correctionAdd("Windows Sockets API", "Winsock");
             correctionAdd("winsock", "Winsock");
@@ -1439,6 +1445,24 @@ namespace OverflowHelper.core
             correctionAdd("efect", "effect");
             correctionAdd("affect", "effect"); // A homonym/homophone
 
+            correctionAdd("exept", "except");
+            correctionAdd("cept", "except");
+            correctionAdd("excpet", "except");
+            correctionAdd("accept", "except"); // A homonym/homophone?"
+
+            correctionAdd("ac cepts", "accepts");
+
+            correctionAdd("accepeted", "accepted");
+            correctionAdd("accpeted", "accepted");
+
+            correctionAdd("accpeting", "accepting");
+            correctionAdd("acceptig", "accepting");
+
+            correctionAdd("acceptible", "acceptable");
+            correctionAdd("aceptable", "acceptable");
+
+            correctionAdd("accpetance", "acceptance");
+
             correctionAdd("sideeffect", "side effect");
             correctionAdd("side-effect", "side effect");
             correctionAdd("side affects", "side effect");
@@ -1493,6 +1517,441 @@ namespace OverflowHelper.core
 
             correctionAdd("after-effects", "After Effects");
             correctionAdd("after effects", "After Effects");
+
+            correctionAdd("bee", "be");
+            correctionAdd("ba", "be");
+            correctionAdd("bea", "be");
+            correctionAdd("b", "be");
+
+            correctionAdd("beeing", "being");
+            correctionAdd("bean", "being");
+            correctionAdd("beiing", "being");
+            correctionAdd("bein", "being");
+            correctionAdd("beaing", "being");
+
+            correctionAdd("isnt", "isn’t");
+            correctionAdd("aint", "isn’t");
+            correctionAdd("ain't", "isn’t");
+            correctionAdd("isn´t", "isn’t");
+            correctionAdd("ain´t", "isn’t");
+            correctionAdd("inst", "isn’t");
+            correctionAdd("isnt't", "isn’t");
+            correctionAdd("isn't", "isn’t");
+            correctionAdd("is't", "isn’t");
+            correctionAdd("is’t", "isn’t");
+            correctionAdd("ISN'T", "isn’t");
+            correctionAdd("Isn't", "isn’t");
+            correctionAdd("Isn’t", "isn’t");
+            correctionAdd("izn't", "isn’t");
+            correctionAdd("is n", "isn’t");
+            correctionAdd("is nt", "isn’t");
+            correctionAdd("Ain't", "isn’t");
+            correctionAdd("is'nt", "isn’t");
+
+            correctionAdd("arent", "aren’t");
+            correctionAdd("arn't", "aren’t");
+            correctionAdd("arnt", "aren’t");
+            correctionAdd("aren't", "aren’t");
+            correctionAdd("Arent", "aren’t");
+
+            correctionAdd("wes", "was");
+            correctionAdd("wass", "was");
+            correctionAdd("wad", "was");
+            correctionAdd("waa", "was");
+            correctionAdd("waqs", "was");
+            correctionAdd("whas", "was");
+            correctionAdd("wqs", "was");
+            correctionAdd("wa", "was");
+
+            correctionAdd("wasnt", "wasn’t");
+            correctionAdd("wasn't", "wasn’t");
+            correctionAdd("wasn", "wasn’t");
+
+            correctionAdd("ware", "were");
+            correctionAdd("where", "were"); // A homonym/homophone
+
+            correctionAdd("wern't", "weren’t");
+            correctionAdd("Were'nt", "weren’t");
+            correctionAdd("weren't", "weren’t");
+            correctionAdd("were'nt", "weren’t");
+
+            correctionAdd("any where", "anywhere");
+            correctionAdd("anyhere", "anywhere");
+            correctionAdd("anywehre", "anywhere");
+            correctionAdd("any ware", "anywhere");
+            correctionAdd("anyware", "anywhere");
+            correctionAdd("anywere", "anywhere");
+
+            correctionAdd("no where", "nowhere");
+            correctionAdd("nowehre", "nowhere");
+            correctionAdd("no-where", "nowhere");
+            correctionAdd("No where", "nowhere");
+
+            correctionAdd("else where", "elsewhere");
+            correctionAdd("elsehwere", "elsewhere");
+            correctionAdd("otherwhere", "elsewhere");
+
+            correctionAdd("every where", "everywhere");
+            correctionAdd("eveywhere", "everywhere");
+
+            correctionAdd("some where", "somewhere");
+            correctionAdd("somwhere", "somewhere");
+            correctionAdd("someplace", "somewhere");
+            correctionAdd("some place", "somewhere");
+            correctionAdd("somehwere", "somewhere");
+            correctionAdd("somwwhere", "somewhere");
+            correctionAdd("Somehwere", "somewhere");
+
+            correctionAdd("Has", "has");
+            correctionAdd("ahs", "has");
+            correctionAdd("hase", "has");
+            correctionAdd("haas", "has");
+            correctionAdd("as", "has");
+
+            correctionAdd("hasnt", "hasn't");
+
+            correctionAdd("hava", "have");
+            correctionAdd("Hvae", "have");
+            correctionAdd("hvae", "have");
+            correctionAdd("hhave", "have");
+            correctionAdd("hv", "have");
+            correctionAdd("haave", "have");
+            correctionAdd("hove", "have");
+            correctionAdd("hav", "have");
+            correctionAdd("gave", "have");
+            correctionAdd("ahev", "have");
+            correctionAdd("habe", "have");
+            correctionAdd("Have", "have");
+            correctionAdd("hasve", "have");
+            correctionAdd("hva", "have");
+            correctionAdd("hane", "have");
+            correctionAdd("hwne", "have");
+            correctionAdd("hae", "have");
+            correctionAdd("nhave", "have"); // Typo with the space bar...
+            correctionAdd("vave", "have");
+
+            correctionAdd("havent", "haven’t");
+            correctionAdd("havn't", "haven’t");
+            correctionAdd("Havent", "haven’t");
+            correctionAdd("haven´t", "haven’t");
+            correctionAdd("haven't", "haven’t");
+            correctionAdd("have n't", "haven’t");
+            correctionAdd("havnt", "haven’t");
+            correctionAdd("have'nt", "haven’t");
+            correctionAdd("heavent", "haven’t");
+
+            correctionAdd("hade", "had");
+            correctionAdd("hads", "had");
+
+            correctionAdd("hadn't", "hadn’t");
+            correctionAdd("hadnt", "hadn’t");
+
+            correctionAdd("do", "so");
+            correctionAdd("soo", "so");
+
+            correctionAdd("dont", "don’t");
+            correctionAdd("Dont", "don’t"); // Not 100% correct - case.
+            correctionAdd("dom't", "don’t");
+            correctionAdd("don't", "don’t");
+            correctionAdd("dont't", "don’t");
+            correctionAdd("don´t", "don’t");
+            correctionAdd("do't", "don’t");
+            correctionAdd("dnt", "don’t");
+            correctionAdd("don`t", "don’t");
+            correctionAdd("dont’t", "don’t");
+            correctionAdd("Don`t", "don’t");
+            correctionAdd("donw", "don’t");
+            correctionAdd("DON'T", "don’t");
+            correctionAdd("dond", "don’t");
+            correctionAdd("DONT", "don’t");
+            correctionAdd("Don't", "don’t");
+            correctionAdd("donn't", "don’t");
+            correctionAdd("don;t", "don’t");
+            correctionAdd("don’y", "don’t");
+            correctionAdd("don,t", "don’t");
+            correctionAdd("ont", "don’t");
+            correctionAdd("Dont'", "don’t");
+            correctionAdd("on't", "don’t");
+            correctionAdd("donnt", "don’t");
+            correctionAdd("dun", "don’t");
+            correctionAdd("Don´t", "don’t");
+
+            correctionAdd("doesnt", "doesn’t");
+            correctionAdd("doest", "doesn’t");
+            correctionAdd("dosent", "doesn’t");
+            correctionAdd("deosn't", "doesn’t");
+            correctionAdd("dosen't", "doesn’t");
+            correctionAdd("doens't", "doesn’t");
+            correctionAdd("doestnt", "doesn’t");
+            correctionAdd("dosn't", "doesn’t");
+            correctionAdd("doen't", "doesn’t");
+            correctionAdd("doenst", "doesn’t");
+            correctionAdd("doesent", "doesn’t");
+            correctionAdd("desn’t", "doesn’t");
+            correctionAdd("dosnt", "doesn’t");
+            correctionAdd("does’t", "doesn’t");
+            correctionAdd("doesn't", "doesn’t");
+            correctionAdd("doesn`t", "doesn’t");
+            correctionAdd("doesn´t", "doesn’t");
+            correctionAdd("does'nt", "doesn’t");
+            correctionAdd("Dosen't", "doesn’t");
+            correctionAdd("doesn", "doesn’t");
+            correctionAdd("Doesnt", "doesn’t");
+            correctionAdd("does't", "doesn’t");
+            correctionAdd("donst", "doesn’t");
+            correctionAdd("doesnt't", "doesn’t");
+            correctionAdd("dones", "doesn’t");
+            correctionAdd("doens", "doesn’t");
+            correctionAdd("dosen", "doesn’t");
+            correctionAdd("dowsn´t", "doesn’t");
+            correctionAdd("dowsn’t", "doesn’t");
+            correctionAdd("dowsnt", "doesn’t");
+            correctionAdd("dosn’t", "doesn’t");
+            correctionAdd("Doesn't", "doesn’t");
+            correctionAdd("doent", "doesn’t");
+            correctionAdd("deson't", "doesn’t");
+            correctionAdd("dosen’t", "doesn’t");
+            correctionAdd("doesn'", "doesn’t");
+            correctionAdd("doesn t", "doesn’t");
+            correctionAdd("doestn", "doesn’t");
+            correctionAdd("Desen't", "doesn’t");
+            correctionAdd("desen't", "doesn’t");
+            correctionAdd("donsn't", "doesn’t");
+
+            correctionAdd("dit", "did");
+
+            //correctionAdd("didn´", "didn’t");  We can't handle it at the
+            //                                   moment, due to the trailing
+            //                                   backtick being regarded as
+            //                                   punctuation by default, not
+            //                                   part of the word...
+            //
+            correctionAdd("didnt", "didn’t");
+            correctionAdd("didin't", "didn’t");
+            correctionAdd("din't", "didn’t");
+            correctionAdd("din`t", "didn’t");
+            correctionAdd("didn`t", "didn’t");
+            correctionAdd("did't", "didn’t");
+            correctionAdd("dint", "didn’t");
+            correctionAdd("didn't", "didn’t");
+            correctionAdd("din’t", "didn’t");
+            correctionAdd("did`nt", "didn’t");
+            correctionAdd("didn t", "didn’t");
+            correctionAdd("did'nt", "didn’t");
+            correctionAdd("diedn#t", "didn’t");
+            correctionAdd("diedn't", "didn’t");
+            correctionAdd("didn;t", "didn’t");
+            correctionAdd("didn\"t", "didn’t");
+            correctionAdd("didn´t", "didn’t");
+            correctionAdd("didint", "didn’t");
+            correctionAdd("dudnt", "didn’t");
+
+            correctionAdd("elso", "also");
+            correctionAdd("aso", "also");
+            correctionAdd("alos", "also");
+            correctionAdd("alsso", "also");
+            correctionAdd("alo", "also");
+            correctionAdd("alao", "also");
+            correctionAdd("allso", "also");
+            correctionAdd("a;so", "also");
+            correctionAdd("wlso", "also");
+            correctionAdd("aslo", "also");
+
+            correctionAdd("espresso", "Espresso"); // Web editor from MacRabbit.
+            correctionAdd("Expresso", "Espresso");
+
+            correctionAdd("ur", "your");
+            correctionAdd("yout", "your");
+            correctionAdd("yor", "your");
+            correctionAdd("Yout", "your");
+            correctionAdd("you'r", "your");
+            correctionAdd("You'r", "your");
+            correctionAdd("Your", "your");
+            correctionAdd("yourt", "your");
+            correctionAdd("youe", "your");
+            correctionAdd("yyour", "your");
+            correctionAdd("yiur", "your");
+            correctionAdd("yoir", "your");
+            correctionAdd("Youur", "your");
+            correctionAdd("youur", "your");
+            correctionAdd("yur", "your");
+            correctionAdd("yoru", "your");
+            correctionAdd("you’re", "your"); // A homonym/homophone
+
+            correctionAdd("thn", "then");
+            correctionAdd("Then", "then");
+            correctionAdd("rhen", "then");
+            correctionAdd("than", "then"); // A homonym/homophone
+            correctionAdd("Than", "then");
+
+            correctionAdd("thier", "their"); // A true typo
+            correctionAdd("theur", "their");
+            correctionAdd("thiere", "their");
+            correctionAdd("thei", "their");
+            correctionAdd("theri", "their"); // A true typo
+            correctionAdd("theIr", "their");
+            correctionAdd("heir", "their");
+            correctionAdd("tier", "their");
+            correctionAdd("there", "their"); // A homonym/homophone
+
+            correctionAdd("They", "they");
+            correctionAdd("Thye", "they");
+            correctionAdd("tney", "they");
+            correctionAdd("tgey", "they");
+            correctionAdd("Yhey", "they");
+            correctionAdd("yhey", "they");
+            correctionAdd("Thay", "they");
+            correctionAdd("thay", "they");
+            correctionAdd("Thez", "they"); // Caused by a German keyboard layout...
+            correctionAdd("thez", "they"); // Caused by a German keyboard layout...
+
+            correctionAdd("the're", "they’re");
+            correctionAdd("they re", "they’re");
+            correctionAdd("theyre", "they’re");
+            correctionAdd("they're", "they’re");
+            correctionAdd("The're", "they’re");
+            correctionAdd("they´re", "they’re");
+
+            correctionAdd("cab", "can");
+            correctionAdd("cann", "can");
+            correctionAdd("Can", "can");
+            correctionAdd("cam", "can");
+            correctionAdd("cn", "can");
+            correctionAdd("cane", "can");
+
+            correctionAdd("cant", "can’t");
+            correctionAdd("cann't", "can’t"); // A true typo!
+            correctionAdd("cann’t", "can’t");
+            correctionAdd("connot", "can’t");
+            correctionAdd("carn’t", "can’t");
+            correctionAdd("can´t", "can’t");
+            correctionAdd("cand", "can’t");
+            correctionAdd("Cant", "can’t");
+            correctionAdd("can`t", "can’t");
+            correctionAdd("can't", "can’t");
+            correctionAdd("Cant'", "can’t");
+            correctionAdd("cant'", "can’t");
+            correctionAdd("Carnt", "can’t");
+            correctionAdd("carnt", "can’t");
+            correctionAdd("can'T", "can’t");
+            correctionAdd("CAN'T", "can’t");
+            correctionAdd("CANT", "can’t");
+            correctionAdd("camn't", "can’t");
+            correctionAdd("Can't", "can’t");
+            correctionAdd("cam’t", "can’t");
+            correctionAdd("can'not", "can’t");
+            correctionAdd("cnt", "can’t");
+            correctionAdd("can;'t", "can’t");
+            correctionAdd("cant't", "can’t");
+            correctionAdd("Can´t", "can’t");
+
+            correctionAdd("coul", "could");
+            correctionAdd("coulld", "could");
+            correctionAdd("coud", "could");
+            correctionAdd("cpuld", "could");
+            correctionAdd("coult", "could");
+
+            correctionAdd("couldnt", "couldn’t");
+            correctionAdd("Couldnt", "couldn’t"); // Not 100% correct - case.
+            correctionAdd("coudln't", "couldn’t");
+            correctionAdd("coulden't", "couldn’t");
+            correctionAdd("could'nt", "couldn’t");
+            correctionAdd("coulnd", "couldn’t");
+            correctionAdd("coulnd't", "couldn’t");
+            correctionAdd("cudn't", "couldn’t");
+            correctionAdd("cudnt", "couldn’t");
+            correctionAdd("coudn't", "couldn’t");
+            correctionAdd("cound't", "couldn’t");
+            correctionAdd("could't", "couldn’t");
+            correctionAdd("coudnt", "couldn’t");
+            correctionAdd("couldn´t", "couldn’t");
+            correctionAdd("couldn't", "couldn’t");
+            correctionAdd("could'n", "couldn’t");
+            correctionAdd("couln't", "couldn’t");
+            correctionAdd("couldent", "couldn’t");
+            correctionAdd("couldt", "couldn’t");
+
+            correctionAdd("wud", "would");
+            correctionAdd("whould", "would");
+            correctionAdd("woudl", "would");
+            correctionAdd("wold", "would");
+            correctionAdd("woul", "would");
+            correctionAdd("Woulc", "would");
+            correctionAdd("woulc", "would");
+            correctionAdd("wouhld", "would");
+            correctionAdd("woud", "would");
+            correctionAdd("wld", "would");
+
+            correctionAdd("wouldnt", "wouldn’t");
+            correctionAdd("wouldn't", "wouldn’t");
+            correctionAdd("woulnd't", "wouldn’t");
+            correctionAdd("woudn't", "wouldn’t");
+            correctionAdd("would't", "wouldn’t");
+            correctionAdd("wouldn´t", "wouldn’t");
+            correctionAdd("Wouldnt", "wouldn’t");
+            correctionAdd("woudln't", "wouldn’t");
+            correctionAdd("woudlnt", "wouldn’t");
+            correctionAdd("eouldn't", "wouldn’t");
+            correctionAdd("eouldnt", "wouldn’t");
+            correctionAdd("wouldt", "wouldn’t");
+            correctionAdd("would?t", "wouldn’t");
+            correctionAdd("wouyldn't", "wouldn’t");
+
+            correctionAdd("wont", "won’t");
+            correctionAdd("won´t", "won’t");
+            correctionAdd("won`t", "won’t");
+            correctionAdd("wont’t", "won’t");
+            correctionAdd("won", "won’t");
+            correctionAdd("won't", "won’t");
+            correctionAdd("WON'T", "won’t");
+            correctionAdd("Won?t", "won’t");
+            correctionAdd("won?t", "won’t");
+            correctionAdd("son?t", "won’t"); // Partly a real typo. Alternative (less likely) typo: don't
+            correctionAdd("sont", "won’t"); // Partly a real typo. Alternative (less likely) typo: don't
+            correctionAdd("won'T", "won’t");
+
+            correctionAdd("shud", "should");
+            correctionAdd("shuold", "should");
+            correctionAdd("shold", "should");
+            correctionAdd("shoud", "should");
+            correctionAdd("shuld", "should");
+            correctionAdd("hould", "should");
+            correctionAdd("shod", "should");
+            correctionAdd("shood", "should");
+            correctionAdd("chud", "should");
+            correctionAdd("chould", "should");
+            correctionAdd("sould", "should");
+            correctionAdd("Shoud", "should");
+            correctionAdd("Should", "should");
+            correctionAdd("shoul", "should");
+            correctionAdd("shoulb", "should");
+            correctionAdd("shoule", "should");
+            correctionAdd("shoudl", "should");
+            correctionAdd("shoould", "should");
+            correctionAdd("shouold", "should");
+            correctionAdd("Shoult", "should");
+            correctionAdd("shoult", "should");
+            correctionAdd("shpuld", "should");
+            correctionAdd("sholud", "should");
+
+            correctionAdd("Shoudn't", "shouldn’t");
+            correctionAdd("shoudn't", "shouldn’t");
+            correctionAdd("Should't", "shouldn’t");
+            correctionAdd("should't", "shouldn’t");
+            correctionAdd("shouldnt", "shouldn’t");
+            correctionAdd("shoulnd´t", "shouldn’t");
+            correctionAdd("shouldn´t", "shouldn’t");
+            correctionAdd("shoulndt", "shouldn’t");
+            correctionAdd("shoulnd't", "shouldn’t");
+            correctionAdd("shoudnt", "shouldn’t");
+            correctionAdd("shoyuldn't", "shouldn’t");
+            correctionAdd("Shouldnt", "shouldn’t");
+            correctionAdd("souldn't", "shouldn’t");
+            correctionAdd("shouldn't", "shouldn’t");
+            correctionAdd("shuldnt", "shouldn’t");
+            correctionAdd("shuoldn't", "shouldn’t");
+
+            correctionAdd("trashcan", "trash can");
 
             // PHP
             correctionAdd("php.ini", "php.ini file");
@@ -3842,175 +4301,6 @@ namespace OverflowHelper.core
             correctionAdd("at anyrate", "at any rate");
             correctionAdd("At anyrate", "at any rate");
 
-            correctionAdd("bee", "be");
-            correctionAdd("ba", "be");
-            correctionAdd("bea", "be");
-            correctionAdd("b", "be");
-
-            correctionAdd("beeing", "being");
-            correctionAdd("bean", "being");
-            correctionAdd("beiing", "being");
-            correctionAdd("bein", "being");
-            correctionAdd("beaing", "being");
-
-            correctionAdd("isnt", "isn’t");
-            correctionAdd("aint", "isn’t");
-            correctionAdd("ain't", "isn’t");
-            correctionAdd("isn´t", "isn’t");
-            correctionAdd("ain´t", "isn’t");
-            correctionAdd("inst", "isn’t");
-            correctionAdd("isnt't", "isn’t");
-            correctionAdd("isn't", "isn’t");
-            correctionAdd("is't", "isn’t");
-            correctionAdd("is’t", "isn’t");
-            correctionAdd("ISN'T", "isn’t");
-            correctionAdd("Isn't", "isn’t");
-            correctionAdd("Isn’t", "isn’t");
-            correctionAdd("izn't", "isn’t");
-            correctionAdd("is n", "isn’t");
-            correctionAdd("is nt", "isn’t");
-            correctionAdd("Ain't", "isn’t");
-            correctionAdd("is'nt", "isn’t");
-
-            correctionAdd("wes", "was");
-            correctionAdd("wass", "was");
-            correctionAdd("wad", "was");
-            correctionAdd("waa", "was");
-            correctionAdd("waqs", "was");
-            correctionAdd("whas", "was");
-            correctionAdd("wqs", "was");
-            correctionAdd("wa", "was");
-
-            correctionAdd("ware", "were");
-            correctionAdd("where", "were"); // A homonym/homophone
-
-            correctionAdd("wern't", "weren’t");
-            correctionAdd("Were'nt", "weren’t");
-            correctionAdd("weren't", "weren’t");
-            correctionAdd("were'nt", "weren’t");
-
-            correctionAdd("any where", "anywhere");
-            correctionAdd("anyhere", "anywhere");
-            correctionAdd("anywehre", "anywhere");
-            correctionAdd("any ware", "anywhere");
-            correctionAdd("anyware", "anywhere");
-            correctionAdd("anywere", "anywhere");
-
-            correctionAdd("no where", "nowhere");
-            correctionAdd("nowehre", "nowhere");
-            correctionAdd("no-where", "nowhere");
-            correctionAdd("No where", "nowhere");
-
-            correctionAdd("else where", "elsewhere");
-            correctionAdd("elsehwere", "elsewhere");
-            correctionAdd("otherwhere", "elsewhere");
-
-            correctionAdd("every where", "everywhere");
-            correctionAdd("eveywhere", "everywhere");
-
-            correctionAdd("some where", "somewhere");
-            correctionAdd("somwhere", "somewhere");
-            correctionAdd("someplace", "somewhere");
-            correctionAdd("some place", "somewhere");
-            correctionAdd("somehwere", "somewhere");
-            correctionAdd("somwwhere", "somewhere");
-            correctionAdd("Somehwere", "somewhere");
-
-            correctionAdd("Has", "has");
-            correctionAdd("ahs", "has");
-            correctionAdd("hase", "has");
-            correctionAdd("haas", "has");
-            correctionAdd("as", "has");
-
-            correctionAdd("hasnt", "hasn't");
-
-            correctionAdd("hava", "have");
-            correctionAdd("Hvae", "have");
-            correctionAdd("hvae", "have");
-            correctionAdd("hhave", "have");
-            correctionAdd("hv", "have");
-            correctionAdd("haave", "have");
-            correctionAdd("hove", "have");
-            correctionAdd("hav", "have");
-            correctionAdd("gave", "have");
-            correctionAdd("ahev", "have");
-            correctionAdd("habe", "have");
-            correctionAdd("Have", "have");
-            correctionAdd("hasve", "have");
-            correctionAdd("hva", "have");
-            correctionAdd("hane", "have");
-            correctionAdd("hwne", "have");
-            correctionAdd("hae", "have");
-            correctionAdd("nhave", "have"); // Typo with the space bar...
-            correctionAdd("vave", "have");
-
-            correctionAdd("havent", "haven’t");
-            correctionAdd("havn't", "haven’t");
-            correctionAdd("Havent", "haven’t");
-            correctionAdd("haven´t", "haven’t");
-            correctionAdd("haven't", "haven’t");
-            correctionAdd("have n't", "haven’t");
-            correctionAdd("havnt", "haven’t");
-            correctionAdd("have'nt", "haven’t");
-            correctionAdd("heavent", "haven’t");
-
-            correctionAdd("hade", "had");
-            correctionAdd("hads", "had");
-
-            correctionAdd("hadn't", "hadn’t");
-            correctionAdd("hadnt", "hadn’t");
-
-            correctionAdd("ur", "your");
-            correctionAdd("yout", "your");
-            correctionAdd("yor", "your");
-            correctionAdd("Yout", "your");
-            correctionAdd("you'r", "your");
-            correctionAdd("You'r", "your");
-            correctionAdd("Your", "your");
-            correctionAdd("yourt", "your");
-            correctionAdd("youe", "your");
-            correctionAdd("yyour", "your");
-            correctionAdd("yiur", "your");
-            correctionAdd("yoir", "your");
-            correctionAdd("Youur", "your");
-            correctionAdd("youur", "your");
-            correctionAdd("yur", "your");
-            correctionAdd("yoru", "your");
-            correctionAdd("you’re", "your"); // A homonym/homophone
-
-            correctionAdd("thn", "then");
-            correctionAdd("Then", "then");
-            correctionAdd("rhen", "then");
-            correctionAdd("than", "then"); // A homonym/homophone
-
-            correctionAdd("thier", "their"); // A true typo
-            correctionAdd("theur", "their");
-            correctionAdd("thiere", "their");
-            correctionAdd("thei", "their");
-            correctionAdd("theri", "their"); // A true typo
-            correctionAdd("theIr", "their");
-            correctionAdd("heir", "their");
-            correctionAdd("tier", "their");
-            correctionAdd("there", "their"); // A homonym/homophone
-
-            correctionAdd("They", "they");
-            correctionAdd("Thye", "they");
-            correctionAdd("tney", "they");
-            correctionAdd("tgey", "they");
-            correctionAdd("Yhey", "they");
-            correctionAdd("yhey", "they");
-            correctionAdd("Thay", "they");
-            correctionAdd("thay", "they");
-            correctionAdd("Thez", "they"); // Caused by a German keyboard layout...
-            correctionAdd("thez", "they"); // Caused by a German keyboard layout...
-
-            correctionAdd("the're", "they’re");
-            correctionAdd("they re", "they’re");
-            correctionAdd("theyre", "they’re");
-            correctionAdd("they're", "they’re");
-            correctionAdd("The're", "they’re");
-            correctionAdd("they´re", "they’re");
-
             correctionAdd("smothen", "smoothen");
 
             correctionAdd("anoymous", "anonymous");
@@ -5086,6 +5376,7 @@ namespace OverflowHelper.core
             correctionAdd("battries", "batteries");
             correctionAdd("batterys", "batteries");
 
+            // Zinc + manganese dioxide
             correctionAdd("alkaline", "alkaline battery");
 
             correctionAdd("BMS", "battery management system");
@@ -8341,24 +8632,6 @@ namespace OverflowHelper.core
 
             correctionAdd("profiterable", "profitable");
 
-            correctionAdd("exept", "except");
-            correctionAdd("cept", "except");
-            correctionAdd("excpet", "except");
-            correctionAdd("accept", "except");
-
-            correctionAdd("ac cepts", "accepts");
-
-            correctionAdd("accepeted", "accepted");
-            correctionAdd("accpeted", "accepted");
-
-            correctionAdd("accpeting", "accepting");
-            correctionAdd("acceptig", "accepting");
-
-            correctionAdd("acceptible", "acceptable");
-            correctionAdd("aceptable", "acceptable");
-
-            correctionAdd("accpetance", "acceptance");
-
             correctionAdd("inevietable", "inevitable");
             correctionAdd("invitable", "inevitable");
             correctionAdd("inevatable", "inevitable");
@@ -10851,6 +11124,7 @@ namespace OverflowHelper.core
             correctionAdd("Unicode code coint", "code point");
             correctionAdd("code coint", "code point");
             correctionAdd("codecoint", "code point");
+            correctionAdd("Unicode value", "code point");
 
             correctionAdd("bom", "BOM");
             correctionAdd("byte order mark", "BOM");
@@ -13358,6 +13632,12 @@ namespace OverflowHelper.core
 
             correctionAdd(".format()", ".format"); // Python function
 
+            // Alternative URL:
+            //
+            //   <https://python-reference.readthedocs.io/en/latest/docs/str/splitlines.html>
+            //
+            correctionAdd("Splitlines", "splitlines"); // Python function
+
             correctionAdd("foramt", "format");
             correctionAdd("formate", "format");
             correctionAdd("foramat", "format");
@@ -15788,8 +16068,6 @@ namespace OverflowHelper.core
             correctionAdd("gobbledegook", "gobbledygook");
 
             correctionAdd("PlayBook", "BlackBerry PlayBook");
-
-            correctionAdd("tooked", "took");
 
             correctionAdd("lombok", "Lombok");
 
@@ -20649,6 +20927,13 @@ namespace OverflowHelper.core
 
             correctionAdd("mexicans", "Mexicans");
 
+            correctionAdd("republican", "Republican");
+
+            correctionAdd("jamaican", "Jamaican");
+
+            correctionAdd("Photoscan", "Google PhotoScan");
+            correctionAdd("Google Photoscan", "Google PhotoScan");
+
             correctionAdd("SAA", "South Atlantic Anomaly");
             correctionAdd("South Atlantic Anomnaly", "South Atlantic Anomaly");
             correctionAdd("south atlantic anomaly", "South Atlantic Anomaly");
@@ -21663,23 +21948,6 @@ namespace OverflowHelper.core
             correctionAdd("achedemia", "academia");
             correctionAdd("Academia", "academia");
 
-            correctionAdd("do", "so");
-            correctionAdd("soo", "so");
-
-            correctionAdd("elso", "also");
-            correctionAdd("aso", "also");
-            correctionAdd("alos", "also");
-            correctionAdd("alsso", "also");
-            correctionAdd("alo", "also");
-            correctionAdd("alao", "also");
-            correctionAdd("allso", "also");
-            correctionAdd("a;so", "also");
-            correctionAdd("wlso", "also");
-            correctionAdd("aslo", "also");
-
-            correctionAdd("espresso", "Espresso"); // Web editor from MacRabbit.
-            correctionAdd("Expresso", "Espresso");
-
             correctionAdd("rabbithole", "rabbit hole");
 
             correctionAdd("Rabbit MQ", "RabbitMQ");
@@ -22065,6 +22333,44 @@ namespace OverflowHelper.core
             correctionAdd("gem", "RubyGems");
             correctionAdd("rubygem", "RubyGems");
 
+            correctionAdd("rememer", "remember");
+            correctionAdd("rember", "remember");
+            correctionAdd("remeber", "remember");
+            correctionAdd("rememeber", "remember");
+            correctionAdd("rememebr", "remember");
+            correctionAdd("remembr", "remember");
+            correctionAdd("remmeber", "remember");
+            correctionAdd("Rememebr", "remember");
+
+            correctionAdd("remebered", "remembered");
+
+            correctionAdd("membet", "member");
+            correctionAdd("memeber", "member");
+
+            correctionAdd("memebers", "members");
+
+            correctionAdd("member of parliament", "Member of Parliament");
+            correctionAdd("MP", "Member of Parliament");
+
+            correctionAdd("atke", "take");
+
+            correctionAdd("tooked", "took");
+            correctionAdd("tooks", "took");
+
+            correctionAdd("take away", "takeaway");
+            correctionAdd("take-away", "takeaway");
+
+            correctionAdd("take into accound", "take into account");
+            correctionAdd("take in count", "take into account");
+            correctionAdd("take into the account", "take into account");
+            correctionAdd("get into account", "take into account");
+
+            correctionAdd("takes the bisket", "takes the biscuit");
+
+            correctionAdd("take the wind out of someones sail", "take the wind out of someone’s sails");
+            correctionAdd("take the wind out of someone's sail", "take the wind out of someone’s sails");
+            correctionAdd("take the wind out of someone's sails", "take the wind out of someone’s sails");
+
             correctionAdd("knwo", "know");
             correctionAdd("khow", "know");
             correctionAdd("knoe", "know");
@@ -22156,10 +22462,6 @@ namespace OverflowHelper.core
             correctionAdd("may vary", "your mileage may vary");
 
             correctionAdd("milage", "mileage");
-
-            correctionAdd("take the wind out of someones sail", "take the wind out of someone’s sails");
-            correctionAdd("take the wind out of someone's sail", "take the wind out of someone’s sails");
-            correctionAdd("take the wind out of someone's sails", "take the wind out of someone’s sails");
 
             correctionAdd("play Solomon", "Judgement of Solomon");
             correctionAdd("Solomon", "Judgement of Solomon");
@@ -22399,22 +22701,6 @@ namespace OverflowHelper.core
             correctionAdd("properies", "properties");
             correctionAdd("propreties", "properties");
 
-            correctionAdd("rememer", "remember");
-            correctionAdd("rember", "remember");
-            correctionAdd("remeber", "remember");
-            correctionAdd("rememeber", "remember");
-            correctionAdd("rememebr", "remember");
-            correctionAdd("remembr", "remember");
-            correctionAdd("remmeber", "remember");
-
-            correctionAdd("membet", "member");
-            correctionAdd("memeber", "member");
-
-            correctionAdd("memebers", "members");
-
-            correctionAdd("member of parliament", "Member of Parliament");
-            correctionAdd("MP", "Member of Parliament");
-
             // Though the corresponding tag does not exist
             // on Stack Overflow, only for "Azure"...
             correctionAdd("AZURE", "Microsoft Azure");
@@ -22645,6 +22931,8 @@ namespace OverflowHelper.core
             correctionAdd("connnection", "connection");
             correctionAdd("connectoin", "connection");
             correctionAdd("connectio", "connection");
+
+            correctionAdd("connexions", "connections");
 
             correctionAdd("remote desktop", "Remote Desktop Connection");
             correctionAdd("Remote Desktop", "Remote Desktop Connection");
@@ -25579,31 +25867,6 @@ namespace OverflowHelper.core
             correctionAdd("OpenCV2", "OpenCV&nbsp;2");
             correctionAdd("OpenCV 2", "OpenCV&nbsp;2"); // Sort of identity mapping
 
-            correctionAdd("cant", "can’t");
-            correctionAdd("cann't", "can’t"); // A true typo!
-            correctionAdd("cann’t", "can’t");
-            correctionAdd("connot", "can’t");
-            correctionAdd("carn’t", "can’t");
-            correctionAdd("can´t", "can’t");
-            correctionAdd("cand", "can’t");
-            correctionAdd("Cant", "can’t");
-            correctionAdd("can`t", "can’t");
-            correctionAdd("can't", "can’t");
-            correctionAdd("Cant'", "can’t");
-            correctionAdd("cant'", "can’t");
-            correctionAdd("Carnt", "can’t");
-            correctionAdd("carnt", "can’t");
-            correctionAdd("can'T", "can’t");
-            correctionAdd("CAN'T", "can’t");
-            correctionAdd("CANT", "can’t");
-            correctionAdd("camn't", "can’t");
-            correctionAdd("Can't", "can’t");
-            correctionAdd("cam’t", "can’t");
-            correctionAdd("can'not", "can’t");
-            correctionAdd("cnt", "can’t");
-            correctionAdd("can;'t", "can’t");
-            correctionAdd("cant't", "can’t");
-
             correctionAdd("VSS", "Visual SourceSafe");
             correctionAdd("vss", "Visual SourceSafe");
             correctionAdd("Visual source safe", "Visual SourceSafe");
@@ -26137,33 +26400,6 @@ namespace OverflowHelper.core
 
             correctionAdd("swig", "SWIG");
 
-            correctionAdd("dont", "don’t");
-            correctionAdd("Dont", "don’t"); // Not 100% correct - case.
-            correctionAdd("dom't", "don’t");
-            correctionAdd("don't", "don’t");
-            correctionAdd("dont't", "don’t");
-            correctionAdd("don´t", "don’t");
-            correctionAdd("do't", "don’t");
-            correctionAdd("dnt", "don’t");
-            correctionAdd("don`t", "don’t");
-            correctionAdd("dont’t", "don’t");
-            correctionAdd("Don`t", "don’t");
-            correctionAdd("donw", "don’t");
-            correctionAdd("DON'T", "don’t");
-            correctionAdd("dond", "don’t");
-            correctionAdd("DONT", "don’t");
-            correctionAdd("Don't", "don’t");
-            correctionAdd("donn't", "don’t");
-            correctionAdd("don;t", "don’t");
-            correctionAdd("don’y", "don’t");
-            correctionAdd("don,t", "don’t");
-            correctionAdd("ont", "don’t");
-            correctionAdd("Dont'", "don’t");
-            correctionAdd("on't", "don’t");
-            correctionAdd("donnt", "don’t");
-            correctionAdd("dun", "don’t");
-            correctionAdd("Don´t", "don’t");
-
             correctionAdd("Lapack", "LAPACK");
             correctionAdd("lapack", "LAPACK");
 
@@ -26571,19 +26807,6 @@ namespace OverflowHelper.core
             correctionAdd("ZXspectrum", "ZX Spectrum");
             correctionAdd("ZXSpectrum", "ZX Spectrum");
             correctionAdd("zx spectrum", "ZX Spectrum");
-
-            correctionAdd("wont", "won’t");
-            correctionAdd("won´t", "won’t");
-            correctionAdd("won`t", "won’t");
-            correctionAdd("wont’t", "won’t");
-            correctionAdd("won", "won’t");
-            correctionAdd("won't", "won’t");
-            correctionAdd("WON'T", "won’t");
-            correctionAdd("Won?t", "won’t");
-            correctionAdd("won?t", "won’t");
-            correctionAdd("son?t", "won’t"); // Partly a real typo. Alternative (less likely) typo: don't
-            correctionAdd("sont", "won’t"); // Partly a real typo. Alternative (less likely) typo: don't
-            correctionAdd("won'T", "won’t");
 
             correctionAdd("xsl", "XSL");
 
@@ -27679,6 +27902,9 @@ namespace OverflowHelper.core
 
             // Artificial intelligence (AI)
             correctionAdd("autoGPT", "Auto-GPT");
+            correctionAdd("AutoGPT", "Auto-GPT");
+            correctionAdd("auto gpt", "Auto-GPT");
+            correctionAdd("autogpt", "Auto-GPT");
 
             // Artificial intelligence (AI)
             correctionAdd("chatpdf", "ChatPDF");
@@ -29303,17 +29529,6 @@ namespace OverflowHelper.core
             correctionAdd("let`s", "let’s");
             correctionAdd("let'", "let’s");
 
-            correctionAdd("wud", "would");
-            correctionAdd("whould", "would");
-            correctionAdd("woudl", "would");
-            correctionAdd("wold", "would");
-            correctionAdd("woul", "would");
-            correctionAdd("Woulc", "would");
-            correctionAdd("woulc", "would");
-            correctionAdd("wouhld", "would");
-            correctionAdd("woud", "would");
-            correctionAdd("wld", "would");
-
             correctionAdd("minecraft", "Minecraft");
             correctionAdd("mine craft", "Minecraft");
             correctionAdd("Mine craft", "Minecraft");
@@ -29931,48 +30146,6 @@ namespace OverflowHelper.core
             correctionAdd("Schottky diode", "Schottky");
             correctionAdd("Schotky", "Schottky");
 
-            correctionAdd("doesnt", "doesn’t");
-            correctionAdd("doest", "doesn’t");
-            correctionAdd("dosent", "doesn’t");
-            correctionAdd("deosn't", "doesn’t");
-            correctionAdd("dosen't", "doesn’t");
-            correctionAdd("doens't", "doesn’t");
-            correctionAdd("doestnt", "doesn’t");
-            correctionAdd("dosn't", "doesn’t");
-            correctionAdd("doen't", "doesn’t");
-            correctionAdd("doenst", "doesn’t");
-            correctionAdd("doesent", "doesn’t");
-            correctionAdd("desn’t", "doesn’t");
-            correctionAdd("dosnt", "doesn’t");
-            correctionAdd("does’t", "doesn’t");
-            correctionAdd("doesn't", "doesn’t");
-            correctionAdd("doesn`t", "doesn’t");
-            correctionAdd("doesn´t", "doesn’t");
-            correctionAdd("does'nt", "doesn’t");
-            correctionAdd("Dosen't", "doesn’t");
-            correctionAdd("doesn", "doesn’t");
-            correctionAdd("Doesnt", "doesn’t");
-            correctionAdd("does't", "doesn’t");
-            correctionAdd("donst", "doesn’t");
-            correctionAdd("doesnt't", "doesn’t");
-            correctionAdd("dones", "doesn’t");
-            correctionAdd("doens", "doesn’t");
-            correctionAdd("dosen", "doesn’t");
-            correctionAdd("dowsn´t", "doesn’t");
-            correctionAdd("dowsn’t", "doesn’t");
-            correctionAdd("dowsnt", "doesn’t");
-            correctionAdd("dosn’t", "doesn’t");
-            correctionAdd("Doesn't", "doesn’t");
-            correctionAdd("doent", "doesn’t");
-            correctionAdd("deson't", "doesn’t");
-            correctionAdd("dosen’t", "doesn’t");
-            correctionAdd("doesn'", "doesn’t");
-            correctionAdd("doesn t", "doesn’t");
-            correctionAdd("doestn", "doesn’t");
-            correctionAdd("Desen't", "doesn’t");
-            correctionAdd("desen't", "doesn’t");
-            correctionAdd("donsn't", "doesn’t");
-
             correctionAdd("grammer", "grammar");
             correctionAdd("Grammar", "grammar");
             correctionAdd("gramer", "grammar");
@@ -30071,32 +30244,6 @@ namespace OverflowHelper.core
             correctionAdd("whatosever", "whatsoever");
 
             correctionAdd("dmz", "DMZ");
-
-            //correctionAdd("didn´", "didn’t");  We can't handle it at the
-            //                                   moment, due to the trailing
-            //                                   backtick being regarded as
-            //                                   punctuation by default, not
-            //                                   part of the word...
-            //
-            correctionAdd("didnt", "didn’t");
-            correctionAdd("didin't", "didn’t");
-            correctionAdd("din't", "didn’t");
-            correctionAdd("din`t", "didn’t");
-            correctionAdd("didn`t", "didn’t");
-            correctionAdd("did't", "didn’t");
-            correctionAdd("dint", "didn’t");
-            correctionAdd("didn't", "didn’t");
-            correctionAdd("din’t", "didn’t");
-            correctionAdd("did`nt", "didn’t");
-            correctionAdd("didn t", "didn’t");
-            correctionAdd("did'nt", "didn’t");
-            correctionAdd("diedn#t", "didn’t");
-            correctionAdd("diedn't", "didn’t");
-            correctionAdd("didn;t", "didn’t");
-            correctionAdd("didn\"t", "didn’t");
-            correctionAdd("didn´t", "didn’t");
-            correctionAdd("didint", "didn’t");
-            correctionAdd("dudnt", "didn’t");
 
             correctionAdd("thats", "that’s");
             correctionAdd("Thats", "that’s"); // Not 100% correct (case)
@@ -30284,26 +30431,6 @@ namespace OverflowHelper.core
             correctionAdd("openocd", "OpenOCD");
             correctionAdd("openOCD", "OpenOCD");
             correctionAdd("openosd", "OpenOCD");
-
-            correctionAdd("couldnt", "couldn’t");
-            correctionAdd("Couldnt", "couldn’t"); // Not 100% correct - case.
-            correctionAdd("coudln't", "couldn’t");
-            correctionAdd("coulden't", "couldn’t");
-            correctionAdd("could'nt", "couldn’t");
-            correctionAdd("coulnd", "couldn’t");
-            correctionAdd("coulnd't", "couldn’t");
-            correctionAdd("cudn't", "couldn’t");
-            correctionAdd("cudnt", "couldn’t");
-            correctionAdd("coudn't", "couldn’t");
-            correctionAdd("cound't", "couldn’t");
-            correctionAdd("could't", "couldn’t");
-            correctionAdd("coudnt", "couldn’t");
-            correctionAdd("couldn´t", "couldn’t");
-            correctionAdd("couldn't", "couldn’t");
-            correctionAdd("could'n", "couldn’t");
-            correctionAdd("couln't", "couldn’t");
-            correctionAdd("couldent", "couldn’t");
-            correctionAdd("couldt", "couldn’t");
 
             correctionAdd("CPNAEL", "cPanel");
             correctionAdd("cpanel", "cPanel");
@@ -30918,47 +31045,6 @@ namespace OverflowHelper.core
 
             correctionAdd("neiboughood", "neighbourhood");
 
-            correctionAdd("shud", "should");
-            correctionAdd("shuold", "should");
-            correctionAdd("shold", "should");
-            correctionAdd("shoud", "should");
-            correctionAdd("shuld", "should");
-            correctionAdd("hould", "should");
-            correctionAdd("shod", "should");
-            correctionAdd("shood", "should");
-            correctionAdd("chud", "should");
-            correctionAdd("chould", "should");
-            correctionAdd("sould", "should");
-            correctionAdd("Shoud", "should");
-            correctionAdd("Should", "should");
-            correctionAdd("shoul", "should");
-            correctionAdd("shoulb", "should");
-            correctionAdd("shoule", "should");
-            correctionAdd("shoudl", "should");
-            correctionAdd("shoould", "should");
-            correctionAdd("shouold", "should");
-            correctionAdd("Shoult", "should");
-            correctionAdd("shoult", "should");
-            correctionAdd("shpuld", "should");
-            correctionAdd("sholud", "should");
-
-            correctionAdd("Shoudn't", "shouldn’t");
-            correctionAdd("shoudn't", "shouldn’t");
-            correctionAdd("Should't", "shouldn’t");
-            correctionAdd("should't", "shouldn’t");
-            correctionAdd("shouldnt", "shouldn’t");
-            correctionAdd("shoulnd´t", "shouldn’t");
-            correctionAdd("shouldn´t", "shouldn’t");
-            correctionAdd("shoulndt", "shouldn’t");
-            correctionAdd("shoulnd't", "shouldn’t");
-            correctionAdd("shoudnt", "shouldn’t");
-            correctionAdd("shoyuldn't", "shouldn’t");
-            correctionAdd("Shouldnt", "shouldn’t");
-            correctionAdd("souldn't", "shouldn’t");
-            correctionAdd("shouldn't", "shouldn’t");
-            correctionAdd("shuldnt", "shouldn’t");
-            correctionAdd("shuoldn't", "shouldn’t");
-
             correctionAdd("redux", "Redux");
             correctionAdd("REDUX", "Redux");
 
@@ -31356,21 +31442,6 @@ namespace OverflowHelper.core
             correctionAdd("utilize", "utilise");
             correctionAdd("utilises", "utilise");
 
-            correctionAdd("wouldnt", "wouldn’t");
-            correctionAdd("wouldn't", "wouldn’t");
-            correctionAdd("woulnd't", "wouldn’t");
-            correctionAdd("woudn't", "wouldn’t");
-            correctionAdd("would't", "wouldn’t");
-            correctionAdd("wouldn´t", "wouldn’t");
-            correctionAdd("Wouldnt", "wouldn’t");
-            correctionAdd("woudln't", "wouldn’t");
-            correctionAdd("woudlnt", "wouldn’t");
-            correctionAdd("eouldn't", "wouldn’t");
-            correctionAdd("eouldnt", "wouldn’t");
-            correctionAdd("wouldt", "wouldn’t");
-            correctionAdd("would?t", "wouldn’t");
-            correctionAdd("wouyldn't", "wouldn’t");
-
             correctionAdd("implemention", "implementation");
             correctionAdd("implemenation", "implementation");
             correctionAdd("implementaion", "implementation");
@@ -31478,10 +31549,6 @@ namespace OverflowHelper.core
 
             // PHP
             correctionAdd("guzzle", "Guzzle");
-
-            correctionAdd("wasnt", "wasn’t");
-            correctionAdd("wasn't", "wasn’t");
-            correctionAdd("wasn", "wasn’t");
 
             correctionAdd("challange", "challenge");
             correctionAdd("chanlenge", "challenge");
@@ -36762,6 +36829,7 @@ namespace OverflowHelper.core
 
             correctionAdd("pratical", "practical");
 
+            // Aviation
             correctionAdd("take off", "takeoff");
 
             correctionAdd("Thirteenth", "thirteenth");
@@ -39863,8 +39931,6 @@ namespace OverflowHelper.core
             correctionAdd("Fizz buzz", "fizz buzz");
             correctionAdd("FizzBuzz", "fizz buzz");
 
-            correctionAdd("remebered", "remembered");
-
             correctionAdd("gaussian", "Gaussian");
 
             correctionAdd("laplacian", "Laplacian");
@@ -40731,12 +40797,6 @@ namespace OverflowHelper.core
             correctionAdd("pbt", "PBT");
 
             correctionAdd("pug", "Pug");
-
-            correctionAdd("coul", "could");
-            correctionAdd("coulld", "could");
-            correctionAdd("coud", "could");
-            correctionAdd("cpuld", "could");
-            correctionAdd("coult", "could");
 
             correctionAdd("in-tact", "intact");
             correctionAdd("in tact", "intact");
@@ -42763,9 +42823,6 @@ namespace OverflowHelper.core
 
             correctionAdd("schisophrenia", "schizophrenia");
 
-            correctionAdd("take away", "takeaway");
-            correctionAdd("take-away", "takeaway");
-
             correctionAdd("trespas", "trespass");
 
             correctionAdd("a2a", "A2A");
@@ -43839,11 +43896,6 @@ namespace OverflowHelper.core
             correctionAdd("gethering", "gathering");
 
             correctionAdd("probabilites", "probabilities");
-
-            correctionAdd("take into accound", "take into account");
-            correctionAdd("take in count", "take into account");
-            correctionAdd("take into the account", "take into account");
-            correctionAdd("get into account", "take into account");
 
             correctionAdd("tireing", "tiring");
             correctionAdd("tiering", "tiring");
@@ -45545,15 +45597,6 @@ namespace OverflowHelper.core
             correctionAdd("sram", "SRAM");
 
             correctionAdd("artisitcally", "artistically");
-
-            correctionAdd("trashcan", "trash can");
-
-            correctionAdd("cab", "can");
-            correctionAdd("cann", "can");
-            correctionAdd("Can", "can");
-            correctionAdd("cam", "can");
-            correctionAdd("cn", "can");
-            correctionAdd("cane", "can");
 
             correctionAdd("quiker", "quicker");
 
@@ -47782,8 +47825,6 @@ namespace OverflowHelper.core
             correctionAdd("SourceMap", "source map");
 
             correctionAdd("change directory", "cd");
-
-            correctionAdd("dit", "did");
 
             correctionAdd("extra-tropical", "extratropical");
 
@@ -50210,8 +50251,6 @@ namespace OverflowHelper.core
 
             correctionAdd("sun setting", "sunsetting");
 
-            correctionAdd("atke", "take");
-
             correctionAdd("two party system", "two-party system");
 
             correctionAdd("unsurprizingly", "unsurprisingly");
@@ -50763,8 +50802,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Munchausen Trilemma", "Münchhausen trilemma");
 
-            correctionAdd("republican", "Republican");
-
             correctionAdd("burried", "buried");
 
             correctionAdd("inconditionally", "unconditionally");
@@ -50787,8 +50824,6 @@ namespace OverflowHelper.core
             correctionAdd("precident", "president");
 
             correctionAdd("clubhouse", "Clubhouse");
-
-            correctionAdd("jamaican", "Jamaican");
 
             correctionAdd("markov chain", "Markov chain");
             correctionAdd("Markov's chain", "Markov chain");
@@ -51551,12 +51586,6 @@ namespace OverflowHelper.core
             correctionAdd("alerady", "already");
             correctionAdd("alreayd", "already");
             correctionAdd("arleady", "already");
-
-            correctionAdd("arent", "aren’t");
-            correctionAdd("arn't", "aren’t");
-            correctionAdd("arnt", "aren’t");
-            correctionAdd("aren't", "aren’t");
-            correctionAdd("Arent", "aren’t");
 
             correctionAdd("takeoff/go-around", "TO/GA");
             correctionAdd("toga", "TO/GA");
@@ -56352,8 +56381,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Overformatted", "overformatted");
 
-            correctionAdd("takes the bisket", "takes the biscuit");
-
             correctionAdd("LH", "left-hand");
 
             correctionAdd("cdnjs.com", "cdnjs");
@@ -56851,9 +56878,6 @@ namespace OverflowHelper.core
 
             correctionAdd("drogon", "Drogon"); // A C++ library
 
-            correctionAdd("Photoscan", "Google PhotoScan");
-            correctionAdd("Google Photoscan", "Google PhotoScan");
-
             correctionAdd("Lucas-Kanade method", "Lucas–Kanade method");
 
             correctionAdd("Paisa", "paisa");
@@ -57164,6 +57188,7 @@ namespace OverflowHelper.core
             correctionAdd("Curacao", "Curaçao");
 
             // Windows. Disk partitioning, including assigning drive letter.
+            //
             // Alternative URL:
             //
             //   <https://ss64.com/nt/diskpart.html>
@@ -87988,6 +88013,12 @@ namespace OverflowHelper.core
 
             URL_Add("whoa", "https://en.wiktionary.org/wiki/whoa#Interjection");
 
+            URL_Add("splitlines", "https://docs.python.org/3/library/stdtypes.html#str.splitlines");
+
+            URL_Add("Windows 10 Insider Preview Build 18945", "https://blogs.windows.com/windows-insider/2019/07/26/announcing-windows-10-insider-preview-build-18945/");
+
+            URL_Add("connections", "https://en.wiktionary.org/wiki/connection#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -88815,6 +88846,7 @@ namespace OverflowHelper.core
             correctionAdd("USe_", "use_");
             correctionAdd("usd_", "use_");
             correctionAdd("ise_", "use_");
+            correctionAdd("us_", "use_");
 
             correctionAdd("cuase_", "cause_");
 
@@ -88855,12 +88887,6 @@ namespace OverflowHelper.core
             correctionAdd("chicago manual of style_", "The Chicago Manual of Style_");
             correctionAdd("Chicago_", "The Chicago Manual of Style_");
             correctionAdd("CMOS_", "The Chicago Manual of Style_");
-
-            correctionAdd("Are_", "are_");
-            correctionAdd("aer_", "are_");
-            correctionAdd("hare_", "are_");
-            correctionAdd("aree_", "are_");
-            correctionAdd("arew_", "are_");
 
             correctionAdd("Graph_", "Microsoft Graph_");
             correctionAdd("Microsoft graph_", "Microsoft Graph_");
@@ -89795,8 +89821,6 @@ namespace OverflowHelper.core
 
             correctionAdd("bootcamp_", "boot camp_");
 
-            correctionAdd("then_", "than_"); // A homonym/homophone
-
             correctionAdd("mathjax_", "MathJax basic tutorial and quick reference_");
             correctionAdd("MathJax_", "MathJax basic tutorial and quick reference_");
 
@@ -90417,6 +90441,8 @@ namespace OverflowHelper.core
 
             correctionAdd("choise_", "choose_");
             correctionAdd("Choise_", "choose_");
+            correctionAdd("Chosse_", "choose_");
+            correctionAdd("chosse_", "choose_");
 
             // The URL is to a blog post
             correctionAdd("geany_", "Geany_");
@@ -90822,6 +90848,10 @@ namespace OverflowHelper.core
 
             correctionAdd("nova_", "Nova_");
 
+            correctionAdd("then_", "than_"); // A homonym/homophone
+            correctionAdd("Than_", "than_");
+            correctionAdd("Then_", "than_");
+
             correctionAdd("ben_", "been_");
             correctionAdd("bean_", "been_");
             correctionAdd("bene_", "been_");
@@ -90864,6 +90894,12 @@ namespace OverflowHelper.core
             correctionAdd("Wher_", "where_");
             correctionAdd("wher_", "where_");
             correctionAdd("were_", "where_"); // A homonym/homophone
+
+            correctionAdd("Are_", "are_");
+            correctionAdd("aer_", "are_");
+            correctionAdd("hare_", "are_");
+            correctionAdd("aree_", "are_");
+            correctionAdd("arew_", "are_");
 
             // URL mappings
             //
