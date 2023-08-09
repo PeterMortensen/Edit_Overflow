@@ -842,7 +842,7 @@ namespace OverflowHelper.core
             correctionAdd("Creators Update", "Windows 10 version 1703");
             correctionAdd("creators update", "Windows 10 version 1703");
 
-            // Released 2019-07-19         
+            // Released 2019-07-19
             correctionAdd("18945", "Windows 10 Insider Preview Build 18945");
             correctionAdd("Build 18945", "Windows 10 Insider Preview Build 18945");
             correctionAdd("build 18945", "Windows 10 Insider Preview Build 18945");
@@ -1318,6 +1318,12 @@ namespace OverflowHelper.core
             correctionAdd("windows task scheduler", "Windows Task Scheduler");
             correctionAdd("window task scheduler", "Windows Task Scheduler");
             correctionAdd("windows Task Scheduler", "Windows Task Scheduler");
+            correctionAdd("the scheduler", "Windows Task Scheduler");
+
+            //A duplicate? Yes!
+            correctionAdd("task scheduler", "Task Scheduler");
+            correctionAdd("Task Scheudler", "Task Scheduler");
+            correctionAdd("Task scheduler", "Task Scheduler");
 
             correctionAdd("CP-1251", "Windows-1251");
             correctionAdd("1251", "Windows-1251");
@@ -1337,9 +1343,22 @@ namespace OverflowHelper.core
             //
             correctionAdd("program and feature", "Programs and Features"); // Windows control panel
 
+            correctionAdd("console app", "console application");
+            correctionAdd("Console-app", "console application");
+            correctionAdd("Console app", "console application");
+
             // Windows
+            // Windows console
             correctionAdd("conhost.exe", "conhost");
             correctionAdd("conhsot", "conhost");
+
+            // Windows console
+            correctionAdd("Windows Pseudoconsole", "Windows Pseudo Console");
+            correctionAdd("ConPTY", "Windows Pseudo Console");
+            correctionAdd("Conpty", "Windows Pseudo Console");
+            correctionAdd("Console Pseudo Console", "Windows Pseudo Console");
+            correctionAdd("console pseudo console", "Windows Pseudo Console");
+            correctionAdd("conpty", "Windows Pseudo Console");
 
             // Windows
             correctionAdd("start menu", "Start menu");
@@ -1529,6 +1548,43 @@ namespace OverflowHelper.core
             correctionAdd("bein", "being");
             correctionAdd("beaing", "being");
 
+            correctionAdd("Am", "am");
+
+            correctionAdd("i", "I");
+            correctionAdd("1", "I"); // The number... Huge risk
+                                     // of false positives...
+            correctionAdd("iu", "I");
+
+            correctionAdd("im", "I’m"); // Collision with Instant messaging and ImageMagick.
+            correctionAdd("i m", "I’m");
+            correctionAdd("Im", "I’m");
+            correctionAdd("i'm", "I’m");
+            correctionAdd("I`m", "I’m");
+            correctionAdd("I´m", "I’m");
+            correctionAdd("I'am", "I’m");
+            correctionAdd("I‘m", "I’m");
+            correctionAdd("i'am", "I’m");
+            correctionAdd("I'm", "I’m");
+            correctionAdd("I\"m", "I’m");
+            correctionAdd("I m", "I’m");
+            correctionAdd("I,m", "I’m");
+            correctionAdd("I 'm", "I’m");
+            correctionAdd("II'm", "I’m");
+            correctionAdd("I'M", "I’m");
+            correctionAdd("i'n", "I’m");
+            correctionAdd("I.m", "I’m");
+            correctionAdd("Im'", "I’m");
+            correctionAdd("ima", "I’m");
+            correctionAdd("i´m", "I’m");
+            correctionAdd("I ma", "I’m");
+            correctionAdd("Iam", "I’m");
+            correctionAdd("I am", "I’m");
+            correctionAdd("Ian", "I’m");
+            correctionAdd("I\\m", "I’m");
+            correctionAdd("It'm", "I’m");
+            correctionAdd("ım", "I’m"); // The "i" is U+0131 (LATIN SMALL LETTER DOTLESS I) used in Turkey, etc. (<https://en.wikipedia.org/wiki/Dotless_I>) UTF-8: 304 261 (octal). 0xC4 0xB1 (hexadecimal). <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=300>. It can be searched for using the regular expression \x{0131} ("\u0131" in Visual Studio Code and some others).
+            correctionAdd("I yam", "I’m");
+
             correctionAdd("isnt", "isn’t");
             correctionAdd("aint", "isn’t");
             correctionAdd("ain't", "isn’t");
@@ -1630,6 +1686,13 @@ namespace OverflowHelper.core
             correctionAdd("nhave", "have"); // Typo with the space bar...
             correctionAdd("vave", "have");
 
+            correctionAdd("havig", "having");
+            correctionAdd("havin", "having");
+            correctionAdd("havng", "having");
+            correctionAdd("Having", "having");
+            correctionAdd("haviing", "having");
+            correctionAdd("haveing", "having");
+
             correctionAdd("havent", "haven’t");
             correctionAdd("havn't", "haven’t");
             correctionAdd("Havent", "haven’t");
@@ -1645,6 +1708,19 @@ namespace OverflowHelper.core
 
             correctionAdd("hadn't", "hadn’t");
             correctionAdd("hadnt", "hadn’t");
+
+            correctionAdd("ive", "I’ve");
+            correctionAdd("Ive", "I’ve");
+            correctionAdd("Iv'e", "I’ve");
+            correctionAdd("I've", "I’ve");
+            correctionAdd("iv", "I’ve");
+            correctionAdd("I'v", "I’ve");
+            correctionAdd("I´ve", "I’ve");
+            correctionAdd("Iv", "I’ve");
+            correctionAdd("iver", "I’ve");
+            correctionAdd("i've", "I’ve");
+            correctionAdd("I`ve", "I’ve");
+            correctionAdd("i'v", "I’ve");
 
             correctionAdd("do", "so");
             correctionAdd("soo", "so");
@@ -1870,6 +1946,37 @@ namespace OverflowHelper.core
             correctionAdd("couln't", "couldn’t");
             correctionAdd("couldent", "couldn’t");
             correctionAdd("couldt", "couldn’t");
+
+            correctionAdd("good will", "goodwill");
+
+            correctionAdd("good-willed", "goodwilled");
+
+            correctionAdd("wil", "will");
+            correctionAdd("wlil", "will");
+            correctionAdd("wll", "will");
+            correctionAdd("wiil", "will");
+            correctionAdd("WIll", "will");
+            correctionAdd("Wil", "will");
+
+            correctionAdd("you ll", "you’ll");
+            correctionAdd("youll", "you’ll");
+            correctionAdd("you'l", "you’ll");
+            correctionAdd("you'll", "you’ll");
+            correctionAdd("youl", "you’ll");
+            correctionAdd("you i'll", "you’ll");
+            correctionAdd("u'll", "you’ll");
+
+            correctionAdd("I'll", "I’ll");
+            correctionAdd("ill", "I’ll");
+            correctionAdd("i'll", "I’ll");
+            correctionAdd("i ll", "I’ll");
+
+            correctionAdd("it'll", "it’ll");
+            correctionAdd("it ll", "it’ll");
+            correctionAdd("itll", "it’ll");
+
+            correctionAdd("we'll", "we’ll");
+            correctionAdd("we ll", "we’ll");
 
             correctionAdd("wud", "would");
             correctionAdd("whould", "would");
@@ -4010,6 +4117,8 @@ namespace OverflowHelper.core
             correctionAdd("answsers", "answers");
             correctionAdd("answears", "answers");
             correctionAdd("answres", "answers");
+            correctionAdd("answares", "answers");
+            correctionAdd("answars", "answers");
 
             correctionAdd("lawsi", "lousy");
             correctionAdd("lawsy", "lousy");
@@ -13496,6 +13605,10 @@ namespace OverflowHelper.core
             // A book author. E.g., of "Learn Python the Hard Way"
             correctionAdd("Zed A. Shaw", "Zed Shaw");
 
+            // A website
+            correctionAdd("Python tutor", "Python Tutor");
+            correctionAdd("python tutor", "Python Tutor");
+
             correctionAdd("intending", "indenting");
             correctionAdd("Intending", "indenting");
 
@@ -14082,6 +14195,7 @@ namespace OverflowHelper.core
             correctionAdd("reactJs", "React");
             correctionAdd("React Js", "React");
             correctionAdd("react-js", "React");
+            correctionAdd("reavt", "React");
 
             correctionAdd("react native", "React Native");
             correctionAdd("react-native", "React Native");
@@ -14093,6 +14207,7 @@ namespace OverflowHelper.core
             correctionAdd("reactnative", "React Native");
             correctionAdd("react Native", "React Native");
             correctionAdd("reactNative", "React Native");
+            correctionAdd("reavt native", "React Native");
 
             correctionAdd("React mui", "MUI React");
             correctionAdd("React mui material", "MUI React");
@@ -19613,6 +19728,11 @@ namespace OverflowHelper.core
 
             correctionAdd("Caltech", "California Institute of Technology");
             correctionAdd("Caltechc", "California Institute of Technology");
+
+            correctionAdd("Cal", "University of California, Berkeley");
+            correctionAdd("Berekeley", "University of California, Berkeley");
+            correctionAdd("Berkeley", "University of California, Berkeley");
+            correctionAdd("UC Berkeley", "University of California, Berkeley");
 
             // A United States state
             correctionAdd("Texas", "Texas, United States");
@@ -25674,41 +25794,6 @@ namespace OverflowHelper.core
             correctionAdd("n tier", "n-tier");
             correctionAdd("N tier", "n-tier");
 
-            correctionAdd("i", "I");
-            correctionAdd("1", "I"); // The number... Huge risk
-                                     // of false positives...
-            correctionAdd("iu", "I");
-
-            correctionAdd("im", "I’m"); // Collision with Instant messaging and ImageMagick.
-            correctionAdd("i m", "I’m");
-            correctionAdd("Im", "I’m");
-            correctionAdd("i'm", "I’m");
-            correctionAdd("I`m", "I’m");
-            correctionAdd("I´m", "I’m");
-            correctionAdd("I'am", "I’m");
-            correctionAdd("I‘m", "I’m");
-            correctionAdd("i'am", "I’m");
-            correctionAdd("I'm", "I’m");
-            correctionAdd("I\"m", "I’m");
-            correctionAdd("I m", "I’m");
-            correctionAdd("I,m", "I’m");
-            correctionAdd("I 'm", "I’m");
-            correctionAdd("II'm", "I’m");
-            correctionAdd("I'M", "I’m");
-            correctionAdd("i'n", "I’m");
-            correctionAdd("I.m", "I’m");
-            correctionAdd("Im'", "I’m");
-            correctionAdd("ima", "I’m");
-            correctionAdd("i´m", "I’m");
-            correctionAdd("I ma", "I’m");
-            correctionAdd("Iam", "I’m");
-            correctionAdd("I am", "I’m");
-            correctionAdd("Ian", "I’m");
-            correctionAdd("I\\m", "I’m");
-            correctionAdd("It'm", "I’m");
-            correctionAdd("ım", "I’m"); // The "i" is U+0131 (LATIN SMALL LETTER DOTLESS I) used in Turkey, etc. (<https://en.wikipedia.org/wiki/Dotless_I>) UTF-8: 304 261 (octal). 0xC4 0xB1 (hexadecimal). <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=300>. It can be searched for using the regular expression \x{0131} ("\u0131" in Visual Studio Code and some others).
-            correctionAdd("I yam", "I’m");
-
             correctionAdd("Hi", "hi");
             correctionAdd("Hy", "hi");
             correctionAdd("hy", "hi");
@@ -29753,10 +29838,6 @@ namespace OverflowHelper.core
             correctionAdd("SciLab", "Scilab");
             correctionAdd("SCILAB", "Scilab");
 
-            correctionAdd("task scheduler", "Task Scheduler");
-            correctionAdd("Task Scheudler", "Task Scheduler");
-            correctionAdd("Task scheduler", "Task Scheduler");
-
             correctionAdd("N Audio", "NAudio");
             correctionAdd("Naudio", "NAudio");
 
@@ -30365,8 +30446,6 @@ namespace OverflowHelper.core
             correctionAdd("unnecesseraly", "unnecessarily");
             correctionAdd("unnecessraly", "unnecessarily");
             correctionAdd("unecessarily", "unnecessarily");
-
-            correctionAdd("Berekeley", "Berkeley");
 
             correctionAdd("Berekeley DB", "Berkeley&nbsp;DB");
             correctionAdd("Berkeley DB", "Berkeley&nbsp;DB"); // Self (effectively)
@@ -31367,17 +31446,6 @@ namespace OverflowHelper.core
 
             correctionAdd("godot", "Godot");
 
-            correctionAdd("good will", "goodwill");
-
-            correctionAdd("good-willed", "goodwilled");
-
-            correctionAdd("wil", "will");
-            correctionAdd("wlil", "will");
-            correctionAdd("wll", "will");
-            correctionAdd("wiil", "will");
-            correctionAdd("WIll", "will");
-            correctionAdd("Wil", "will");
-
             correctionAdd("gotsha", "gotcha");
             correctionAdd("gottach", "gotcha");
             correctionAdd("gotach", "gotcha");
@@ -31743,6 +31811,11 @@ namespace OverflowHelper.core
 
             correctionAdd("mcp2515", "MCP2515");
 
+            correctionAdd("credability", "credibility");
+            correctionAdd("credibibility", "credibility");
+
+            correctionAdd("crediple", "credible");
+
             correctionAdd("cred", "credentials");
             correctionAdd("crendentials", "credentials");
             correctionAdd("credentias", "credentials");
@@ -31753,14 +31826,26 @@ namespace OverflowHelper.core
             correctionAdd("Credential", "credentials");
             correctionAdd("credential", "credentials");
 
-            correctionAdd("credability", "credibility");
-            correctionAdd("credibibility", "credibility");
+            correctionAdd("creat", "create");
+            correctionAdd("craete", "create");
+            correctionAdd("crate", "create");
+            correctionAdd("vreate", "create");
+            correctionAdd("reate", "create");
+            correctionAdd("Crate", "create");
+            correctionAdd("credate", "create");
+            correctionAdd("creats", "create");
+            correctionAdd("Create", "create");
+
+            correctionAdd("re-create", "recreate");
+            correctionAdd("Re-create", "recreate");
+            correctionAdd("recate", "recreate");
+            correctionAdd("recreat", "recreate");
+
+            correctionAdd("Credit Card", "credit card");
 
             correctionAdd("incredably", "incredibly");
             correctionAdd("Increadibly", "incredibly");
             correctionAdd("Incredably", "incredibly");
-
-            correctionAdd("Credit Card", "credit card");
 
             correctionAdd("LinqPad", "LINQPad");
             correctionAdd("linqPad", "LINQPad");
@@ -33669,26 +33754,6 @@ namespace OverflowHelper.core
             correctionAdd("veritcal", "vertical");
             correctionAdd("vert", "vertical");
 
-            correctionAdd("you ll", "you’ll");
-            correctionAdd("youll", "you’ll");
-            correctionAdd("you'l", "you’ll");
-            correctionAdd("you'll", "you’ll");
-            correctionAdd("youl", "you’ll");
-            correctionAdd("you i'll", "you’ll");
-            correctionAdd("u'll", "you’ll");
-
-            correctionAdd("I'll", "I’ll");
-            correctionAdd("ill", "I’ll");
-            correctionAdd("i'll", "I’ll");
-            correctionAdd("i ll", "I’ll");
-
-            correctionAdd("it'll", "it’ll");
-            correctionAdd("it ll", "it’ll");
-            correctionAdd("itll", "it’ll");
-
-            correctionAdd("we'll", "we’ll");
-            correctionAdd("we ll", "we’ll");
-
             correctionAdd("APOLLO", "Apollo");
 
             correctionAdd("Applocker", "AppLocker");
@@ -34522,6 +34587,7 @@ namespace OverflowHelper.core
             correctionAdd("itellij", "IntelliJ IDEA");
             correctionAdd("IntelliJ-IDEA", "IntelliJ IDEA");
             correctionAdd("IntelliJ-Idea", "IntelliJ IDEA");
+            correctionAdd("IJ", "IntelliJ IDEA");
 
             // An IDE.
             correctionAdd("rider", "Rider");
@@ -35054,6 +35120,7 @@ namespace OverflowHelper.core
 
             correctionAdd("emphasize", "emphasise");
             correctionAdd("emphisize", "emphasise");
+            correctionAdd("ephasize", "emphasise");
 
             correctionAdd("employe", "employee");
             correctionAdd("empploee", "employee");
@@ -35580,21 +35647,6 @@ namespace OverflowHelper.core
             correctionAdd("activly", "actively");
             correctionAdd("activile", "actively");
             correctionAdd("activily", "actively");
-
-            correctionAdd("creat", "create");
-            correctionAdd("craete", "create");
-            correctionAdd("crate", "create");
-            correctionAdd("vreate", "create");
-            correctionAdd("reate", "create");
-            correctionAdd("Crate", "create");
-            correctionAdd("credate", "create");
-            correctionAdd("creats", "create");
-            correctionAdd("Create", "create");
-
-            correctionAdd("re-create", "recreate");
-            correctionAdd("Re-create", "recreate");
-            correctionAdd("recate", "recreate");
-            correctionAdd("recreat", "recreate");
 
             correctionAdd("forground", "foreground");
             correctionAdd("fg", "foreground");
@@ -38073,9 +38125,11 @@ namespace OverflowHelper.core
             correctionAdd("Mamedyarov", "Shakhriyar Mamedyarov"); // Chess
             correctionAdd("Shakh", "Shakhriyar Mamedyarov"); // Chess
 
-            correctionAdd("Praggnanandhaa", "Rameshbabu Praggnanandhaa"); // Chess
-            correctionAdd("Pragg", "Rameshbabu Praggnanandhaa"); // Chess
-            correctionAdd("pragg", "Rameshbabu Praggnanandhaa"); // Chess
+            // Chess
+            correctionAdd("Praggnanandhaa", "Rameshbabu Praggnanandhaa");
+            correctionAdd("Pragg", "Rameshbabu Praggnanandhaa");
+            correctionAdd("pragg", "Rameshbabu Praggnanandhaa");
+            correctionAdd("prag", "Rameshbabu Praggnanandhaa");
 
             correctionAdd("world championship 2023", "World Chess Championship 2023"); // Chess
             correctionAdd("world championship 2022", "World Chess Championship 2023"); // Chess
@@ -39236,19 +39290,6 @@ namespace OverflowHelper.core
             correctionAdd("twiiter bootstrap", "Bootstrap");
 
             correctionAdd("yer", "yet");
-
-            correctionAdd("ive", "I’ve");
-            correctionAdd("Ive", "I’ve");
-            correctionAdd("Iv'e", "I’ve");
-            correctionAdd("I've", "I’ve");
-            correctionAdd("iv", "I’ve");
-            correctionAdd("I'v", "I’ve");
-            correctionAdd("I´ve", "I’ve");
-            correctionAdd("Iv", "I’ve");
-            correctionAdd("iver", "I’ve");
-            correctionAdd("i've", "I’ve");
-            correctionAdd("I`ve", "I’ve");
-            correctionAdd("i'v", "I’ve");
 
             correctionAdd("msc", "Master of Science");
             correctionAdd("Msc", "Master of Science");
@@ -41035,6 +41076,7 @@ namespace OverflowHelper.core
 
             correctionAdd("RHS", "right-hand side");
             correctionAdd("right hand side", "right-hand side");
+            correctionAdd("right-side", "right-hand side");
 
             correctionAdd("right most", "right-most");
 
@@ -43166,12 +43208,6 @@ namespace OverflowHelper.core
             correctionAdd("yakk shaving", "yak shaving");
             correctionAdd("yack shaving", "yak shaving");
 
-            correctionAdd("havig", "having");
-            correctionAdd("havin", "having");
-            correctionAdd("havng", "having");
-            correctionAdd("Having", "having");
-            correctionAdd("haviing", "having");
-
             correctionAdd("Platinum", "platinum");
 
             correctionAdd("Robotic", "robotic");
@@ -44662,6 +44698,7 @@ namespace OverflowHelper.core
 
             correctionAdd("LHS", "left-hand side");
             correctionAdd("left hand side", "left-hand side");
+            correctionAdd("left-side", "left-hand side");
 
             correctionAdd("mispelling", "misspelling");
             correctionAdd("misspeling", "misspelling");
@@ -49585,12 +49622,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Qradar", "QRadar");
             correctionAdd("qradar", "QRadar");
-
-            correctionAdd("console app", "console application");
-            correctionAdd("Console-app", "console application");
-            correctionAdd("Console app", "console application");
-
-            correctionAdd("crediple", "credible");
 
             correctionAdd("ecstacy", "ecstasy");
 
@@ -57157,8 +57188,6 @@ namespace OverflowHelper.core
 
             correctionAdd("siklls", "skills");
 
-            correctionAdd("Am", "am");
-
             correctionAdd("Apple Pay", "Apple&nbsp;Pay");
             correctionAdd("Apple-Pay", "Apple&nbsp;Pay");
             correctionAdd("ApplePay", "Apple&nbsp;Pay");
@@ -57223,6 +57252,14 @@ namespace OverflowHelper.core
             correctionAdd("damded", "damned");
 
             correctionAdd("Whoa", "whoa");
+
+            correctionAdd("CS61A", "CS 61A");
+
+            correctionAdd("micro switch", "miniature snap-action switch");
+            correctionAdd("Micro Switch", "miniature snap-action switch");
+            correctionAdd("microswitch", "miniature snap-action switch");
+
+            correctionAdd("MM711 Lite", "MM711 LITE");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -60703,8 +60740,6 @@ namespace OverflowHelper.core
             URL_Add("Get-ADGroupMember", "https://technet.microsoft.com/en-us/library/ee617193.aspx");
 
             URL_Add("FireMonkey", "https://en.wikipedia.org/wiki/FireMonkey");
-
-            URL_Add("Berkeley", "https://en.wikipedia.org/wiki/Berkeley,_California");
 
             URL_Add("Berkeley&nbsp;DB", "https://en.wikipedia.org/wiki/Berkeley_DB");
 
@@ -88019,6 +88054,18 @@ namespace OverflowHelper.core
 
             URL_Add("connections", "https://en.wiktionary.org/wiki/connection#Noun");
 
+            URL_Add("Windows Pseudo Console", "https://devblogs.microsoft.com/commandline/windows-command-line-introducing-the-windows-pseudo-console-conpty/");
+
+            URL_Add("CS 61A", "https://inst.eecs.berkeley.edu/~cs61a/sp23/");
+
+            URL_Add("miniature snap-action switch", "https://en.wikipedia.org/wiki/Miniature_snap-action_switch");
+
+            URL_Add("MM711 LITE", "https://www.coolermaster.com/catalog/peripheral/mice/mm711-lite/");
+
+            URL_Add("Python Tutor", "https://www.blog.pythonlibrary.org/2018/10/22/pydev-of-the-week-philip-guo/");
+
+            URL_Add("University of California, Berkeley", "https://en.wikipedia.org/wiki/University_of_California%2C_Berkeley");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -90901,6 +90948,11 @@ namespace OverflowHelper.core
             correctionAdd("aree_", "are_");
             correctionAdd("arew_", "are_");
 
+            // The city, not the university
+            correctionAdd("Berekeley_", "Berkeley_");
+
+            correctionAdd("miniature snap-action switch_", "micro switch_");
+
             // URL mappings
             //
             //
@@ -92453,6 +92505,10 @@ namespace OverflowHelper.core
             URL_Add("we’re_", "https://en.wiktionary.org/wiki/we're#Contraction");
 
             URL_Add("where_", "https://en.wiktionary.org/wiki/where#Adverb");
+
+            URL_Add("Berkeley_", "https://en.wikipedia.org/wiki/Berkeley,_California");
+
+            URL_Add("micro switch_", "https://en.wikipedia.org/wiki/Miniature_snap-action_switch");
 
         } //addLookupData_alternativeWordSet()
 
