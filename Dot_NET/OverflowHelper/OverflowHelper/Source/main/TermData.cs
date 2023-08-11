@@ -1441,6 +1441,818 @@ namespace OverflowHelper.core
             // CMD
             correctionAdd("XCOPY", "xcopy");
 
+            // Windows
+            correctionAdd("dll", "DLL file"); // Expansion, as in context it is usually a file.
+            correctionAdd("DLL", "DLL file"); // Expansion, as in context it is usually a file.
+            correctionAdd("Dll", "DLL file"); // Expansion, as in context it is usually a file.
+            correctionAdd("dll file", "DLL file");
+            correctionAdd("DLLs", "DLL file");
+            correctionAdd("dll-file", "DLL file");
+            correctionAdd("Dynamic Link Library", "DLL file");
+            correctionAdd("DLLS", "DLL file");
+            correctionAdd("dlls", "DLL file");
+
+            // Windows
+            correctionAdd("Clickonce", "ClickOnce");
+            correctionAdd("clickonce", "ClickOnce");
+            correctionAdd("click once", "ClickOnce");
+            correctionAdd("click-once", "ClickOnce");
+            correctionAdd("clickOnce", "ClickOnce");
+            correctionAdd("Click Once", "ClickOnce");
+            correctionAdd("Click-Once", "ClickOnce");
+            correctionAdd("clickone", "ClickOnce");
+            correctionAdd("OneClick", "ClickOnce");
+            correctionAdd("Click once", "ClickOnce");
+            correctionAdd("Click-once", "ClickOnce");
+            correctionAdd("ClckOnce", "ClickOnce"); // Misspelling.
+            correctionAdd("CO", "ClickOnce");
+            correctionAdd("one click", "ClickOnce");
+            correctionAdd("cliconce", "ClickOnce");
+            correctionAdd("ClicOnse", "ClickOnce");
+
+            // Windows
+            correctionAdd("DDE", "Dynamic Data Exchange");
+
+            // A Windows program
+            correctionAdd("process hacker", "Process Hacker");
+
+            // A utility (program) for Windows
+            correctionAdd("Sharpkeys", "SharpKeys");
+
+            correctionAdd(".net", ".NET"); // This does NOT work (lookup fails) with the recent changes!!!
+            correctionAdd(".Net", ".NET"); // This does NOT work (lookup fails) with the recent changes!!!
+            correctionAdd("dotnet", ".NET");
+            correctionAdd("dot net", ".NET");
+            correctionAdd("Dotnet", ".NET");
+            correctionAdd(".NEt", ".NET");
+            correctionAdd("DotNet", ".NET");
+            correctionAdd("Dot Net", ".NET");
+            correctionAdd("Net", ".NET");
+            correctionAdd("dotNET", ".NET");
+            correctionAdd("dotNet", ".NET");
+            correctionAdd(".net framework", ".NET"); // Not 100% correct.
+            correctionAdd("netframework", ".NET");
+            correctionAdd(".net Framework", ".NET");
+            correctionAdd(".Net F/W", ".NET");
+            correctionAdd(".NET FW", ".NET");
+            correctionAdd("Net framework", ".NET");
+            correctionAdd(".Net Framwork", ".NET");
+            correctionAdd("Dot.NET", ".NET");
+            correctionAdd(".NET FrameWork", ".NET");
+            correctionAdd(".NET Framework", ".NET");
+            correctionAdd(".NET framework", ".NET"); // Not 100% correct.
+            correctionAdd("NetFramework", ".NET");
+            correctionAdd("Dot NET", ".NET");
+            correctionAdd("dot new", ".NET");
+            correctionAdd("Dot.Net", ".NET");
+            correctionAdd(".NetFramework", ".NET");
+            correctionAdd(".NET frameowkr", ".NET");
+            correctionAdd(".Net Framework", ".NET");
+            correctionAdd("dot.NET", ".NET");
+            correctionAdd(".Net framework", ".NET");
+            correctionAdd("net framwork", ".NET");
+            correctionAdd("net framework", ".NET");
+            correctionAdd(".NETFramework", ".NET");
+            correctionAdd("#net", ".NET");
+            correctionAdd(".net Framwork", ".NET");
+            correctionAdd(".net framwork", ".NET");
+            correctionAdd(".NET framwork", ".NET");
+            correctionAdd(".Net framwork", ".NET");
+            correctionAdd(".netframework", ".NET");
+
+            correctionAdd(".net3.5", ".NET 3.5");
+            correctionAdd(".NET35", ".NET 3.5");
+            correctionAdd(".NET 35", ".NET 3.5");
+            correctionAdd(".NET-3.5", ".NET 3.5");
+            correctionAdd("Dot Net 3.5", ".NET 3.5");
+
+            correctionAdd(".NET 5", ".NET&nbsp;5");
+            correctionAdd(".Net 5", ".NET&nbsp;5");
+
+            correctionAdd(".NET 6", ".NET&nbsp;6");
+            correctionAdd(".Net 6", ".NET&nbsp;6");
+
+            correctionAdd(".net core", ".NET Core");
+            correctionAdd("dot net core", ".NET Core");
+            correctionAdd(".Net Core", ".NET Core");
+            correctionAdd("dotnet core", ".NET Core");
+            correctionAdd("dotnetcore", ".NET Core");
+            correctionAdd("Core", ".NET Core");
+            correctionAdd(".net Core", ".NET Core");
+            correctionAdd(".NET core", ".NET Core");
+            correctionAdd(".Net core", ".NET Core");
+            correctionAdd(".Net-core", ".NET Core");
+            correctionAdd("netcore", ".NET Core");
+            correctionAdd(".NET CORE", ".NET Core");
+            correctionAdd("Net Core", ".NET Core");
+            correctionAdd(".Net.core", ".NET Core");
+            correctionAdd("DotNet Core", ".NET Core");
+            correctionAdd("Dot net core", ".NET Core");
+            correctionAdd("net core", ".NET Core");
+            correctionAdd("net Core", ".NET Core");
+            correctionAdd(".netcore", ".NET Core");
+            correctionAdd(".nerdcore", ".NET Core"); // There is another meaning, but it was used in the context of .NET Core...
+            correctionAdd(".net-core", ".NET Core");
+            correctionAdd(".NETCore", ".NET Core");
+            correctionAdd("Dot Net Core", ".NET Core");
+            correctionAdd("DotNET_core", ".NET Core");
+            correctionAdd("dotnet-core", ".NET Core");
+            correctionAdd("DotNET core", ".NET Core");
+            correctionAdd("Dotnet core", ".NET Core");
+            correctionAdd("NetCore", ".NET Core");
+            correctionAdd("Net.Core", ".NET Core");
+            correctionAdd(".NetCore", ".NET Core");
+            correctionAdd("notnetcore", ".NET Core");
+            correctionAdd("core", ".NET Core");
+            correctionAdd(". Net-core", ".NET Core");
+            correctionAdd("CORE", ".NET Core");
+
+            correctionAdd("net core 3.0", ".NET Core 3.0");
+            correctionAdd("Core 3.0", ".NET Core 3.0");
+
+            correctionAdd(".NETStandard", ".NET Standard");
+            correctionAdd(".netstandard", ".NET Standard");
+            correctionAdd("net standard", ".NET Standard");
+            correctionAdd(".net standard", ".NET Standard");
+            correctionAdd(".NET standard", ".NET Standard");
+            correctionAdd(".Net-Standard", ".NET Standard");
+
+            correctionAdd(".Net micro framework", ".NET Micro Framework");
+            correctionAdd(".NET micro framework", ".NET Micro Framework");
+            correctionAdd(".Net Micro Framework", ".NET Micro Framework");
+            correctionAdd(".NetMF", ".NET Micro Framework");
+            correctionAdd(".netmf", ".NET Micro Framework");
+            correctionAdd(".NET MF", ".NET Micro Framework");
+            correctionAdd(".NETMF", ".NET Micro Framework");
+            correctionAdd("netmf", ".NET Micro Framework");
+            correctionAdd("Netmf", ".NET Micro Framework");
+            correctionAdd("NETMF", ".NET Micro Framework");
+
+            correctionAdd(".NetCF", ".NET Compact Framework");
+            correctionAdd("Dot.net CF", ".NET Compact Framework");
+            correctionAdd(".Net CF", ".NET Compact Framework");
+            correctionAdd("compact framework", ".NET Compact Framework");
+            correctionAdd("compact framewok", ".NET Compact Framework");
+            correctionAdd(".NET CF", ".NET Compact Framework");
+            correctionAdd("CF .NET", ".NET Compact Framework");
+            correctionAdd("Compact Framework", ".NET Compact Framework");
+            correctionAdd("Compact", ".NET Compact Framework");
+
+            // .NET
+            correctionAdd("dlr", "DLR");
+            correctionAdd("Dynamic Language Runtime", "DLR");
+
+            // A .NET library
+            correctionAdd("polly", "Polly");
+
+            correctionAdd(".Net reflector", ".NET Reflector");
+            correctionAdd(".NET reflector", ".NET Reflector");
+            correctionAdd("Reflector", ".NET Reflector");
+            correctionAdd("reflector", ".NET Reflector");
+            correctionAdd(".net reflector", ".NET Reflector");
+            correctionAdd(".Net Reflector", ".NET Reflector");
+
+            correctionAdd("process explorer", "Process&nbsp;Explorer");
+            correctionAdd("Process Explorer", "Process&nbsp;Explorer");
+            correctionAdd("ProcessExplorer", "Process&nbsp;Explorer");
+            correctionAdd("processexplorer", "Process&nbsp;Explorer");
+            correctionAdd("process Explorer", "Process&nbsp;Explorer");
+            correctionAdd("procexp", "Process&nbsp;Explorer");
+            correctionAdd("Procexp", "Process&nbsp;Explorer");
+            correctionAdd("ProcExp", "Process&nbsp;Explorer");
+            correctionAdd("Processor explorer", "Process&nbsp;Explorer");
+            correctionAdd("Processor Explorer", "Process&nbsp;Explorer"); // Effectively self.
+
+            correctionAdd("Ilasm", "ILAsm");
+
+            correctionAdd("Ildasm", "ILDASM");
+            correctionAdd("ildasm", "ILDASM");
+
+            correctionAdd("il", "CIL"); // The .NET one.
+            correctionAdd("IL", "CIL"); // The .NET one.
+            correctionAdd("MSIL", "CIL"); // The .NET one.
+            correctionAdd("msil", "CIL"); // The .NET one.
+            correctionAdd("cil", "CIL"); // The .NET one.
+
+            // Expansion, not case correction.
+            correctionAdd("Entity Framework", "ADO.NET Entity Framework");
+            correctionAdd("EF", "ADO.NET Entity Framework");
+            correctionAdd("ADO.Net Entity Framework", "ADO.NET Entity Framework");
+            correctionAdd("entity framework", "ADO.NET Entity Framework");
+            correctionAdd("Entities framework", "ADO.NET Entity Framework");
+            correctionAdd("Ado.net entity framework", "ADO.NET Entity Framework");
+            correctionAdd("ef", "ADO.NET Entity Framework");
+            correctionAdd("ado.net entity framework", "ADO.NET Entity Framework");
+            correctionAdd("Entity framework", "ADO.NET Entity Framework");
+            correctionAdd("EntityFramework", "ADO.NET Entity Framework");
+            correctionAdd("ADO.Net entity framework", "ADO.NET Entity Framework");
+            correctionAdd("Entitiy framework", "ADO.NET Entity Framework");
+            correctionAdd("enitity framewrok", "ADO.NET Entity Framework");
+            correctionAdd("entityframwork", "ADO.NET Entity Framework");
+            correctionAdd("Enity framework", "ADO.NET Entity Framework");
+            correctionAdd("Entity FrameWork", "ADO.NET Entity Framework");
+            correctionAdd("Entity", "ADO.NET Entity Framework");
+
+            correctionAdd("EF Core", "Entity Framework Core");
+            correctionAdd("EF core", "Entity Framework Core");
+            correctionAdd("EFCore", "Entity Framework Core");
+            correctionAdd("EFC", "Entity Framework Core");
+            correctionAdd("ef core", "Entity Framework Core");
+            correctionAdd("EntityFramework Core", "Entity Framework Core");
+
+            correctionAdd("asp", "ASP Classic");
+            correctionAdd("ASP", "ASP Classic");
+            correctionAdd("ASP classic", "ASP Classic");
+            correctionAdd("Classic ASP", "ASP Classic");
+            correctionAdd("classic ASP", "ASP Classic");
+            correctionAdd("Classic-ASP", "ASP Classic");
+            correctionAdd("classic asp", "ASP Classic");
+            correctionAdd("asp classic", "ASP Classic");
+            correctionAdd("old ASP", "ASP Classic"); // Synonym.
+            correctionAdd("classicASP", "ASP Classic");
+            correctionAdd("ASPclassic", "ASP Classic");
+            correctionAdd("classicasp", "ASP Classic");
+            correctionAdd("Classic Asp", "ASP Classic");
+            correctionAdd("Asp Classic", "ASP Classic");
+
+            correctionAdd("asp.net", "ASP.NET");
+            correctionAdd("ASP.net", "ASP.NET");
+            correctionAdd("ASP.Net", "ASP.NET");
+            correctionAdd("Asp.net", "ASP.NET");
+            correctionAdd("Asp.NET", "ASP.NET");
+            correctionAdd("Asp.Net", "ASP.NET");
+            correctionAdd("ASp.NET", "ASP.NET");
+            correctionAdd("asp.NET", "ASP.NET");
+            correctionAdd("ASPNET", "ASP.NET");
+            correctionAdd("asp.et", "ASP.NET");
+            correctionAdd("Aps.net", "ASP.NET"); // Misspelling.
+            correctionAdd("AsP.NET", "ASP.NET");
+            correctionAdd("APS.NET", "ASP.NET");
+            correctionAdd("Asp .Net", "ASP.NET");
+            correctionAdd("aspnet", "ASP.NET");
+            correctionAdd("ASP .NET", "ASP.NET");
+            correctionAdd("ASP NET", "ASP.NET");
+            correctionAdd("asp .net", "ASP.NET");
+            correctionAdd("asmx", "ASP.NET"); // Is this correct?
+            correctionAdd("Asp dot net", "ASP.NET");
+            correctionAdd("new ASP", "ASP.NET"); // Synonym.
+            correctionAdd("aps.net", "ASP.NET"); // Misspelling.
+            correctionAdd("asp .Net", "ASP.NET");
+            correctionAdd("ASp.net", "ASP.NET");
+            correctionAdd("asp,net", "ASP.NET");
+            correctionAdd("ASP Dot NET", "ASP.NET");
+            correctionAdd("AspNet", "ASP.NET");
+            correctionAdd("Aspdotnet", "ASP.NET");
+            correctionAdd("ASP .Net", "ASP.NET");
+            correctionAdd("asp.net net", "ASP.NET");
+            correctionAdd("ASP. NET", "ASP.NET");
+            correctionAdd("aspx", "ASP.NET");
+
+            correctionAdd("ASP.net MVC", "ASP.NET MVC");
+            correctionAdd("ASP.Net MVC", "ASP.NET MVC");
+            correctionAdd("asp.net mvc", "ASP.NET MVC");
+            correctionAdd("Asp.net mvc", "ASP.NET MVC");
+            correctionAdd("asp.net-mvc", "ASP.NET MVC");
+            correctionAdd("asp net mvc", "ASP.NET MVC");
+            correctionAdd("MVC.Net", "ASP.NET MVC");
+            correctionAdd("MVC .Net", "ASP.NET MVC");
+            correctionAdd("asp.net MVC", "ASP.NET MVC");
+            correctionAdd("mvc.net", "ASP.NET MVC");
+            correctionAdd("ASPNET MVC", "ASP.NET MVC");
+            correctionAdd("aspnet mvc", "ASP.NET MVC");
+            correctionAdd("ASP MVC", "ASP.NET MVC");
+            correctionAdd("ASP.MVC", "ASP.NET MVC");
+            correctionAdd("Asp.net MVC", "ASP.NET MVC"); // Seen on a comment to Jeff Atwood's blog [sic].
+            correctionAdd("ASP.Net MvC", "ASP.NET MVC");
+            correctionAdd("Aps.net MVC", "ASP.NET MVC");
+            correctionAdd("MVC", "ASP.NET MVC");
+            correctionAdd("MVC3", "ASP.NET MVC"); // Not strictly match - 3 is lost.
+            correctionAdd("mvc3", "ASP.NET MVC"); // Not strictly match - 3 is lost.
+            correctionAdd("mvc", "ASP.NET MVC"); // General, but is normally what is meant.
+            correctionAdd("Asp .Net MVC", "ASP.NET MVC");
+            correctionAdd("Asp.Net Mvc", "ASP.NET MVC");
+            correctionAdd(".NET mvc", "ASP.NET MVC");
+            correctionAdd(".net mvc", "ASP.NET MVC");
+            correctionAdd(".net MVC", "ASP.NET MVC");
+            correctionAdd(".NET MVC", "ASP.NET MVC");
+            correctionAdd("Asp.Net MVC", "ASP.NET MVC");
+            correctionAdd("ASP.NET-MVC", "ASP.NET MVC");
+            correctionAdd("asp .Net MVC", "ASP.NET MVC");
+            correctionAdd("Mvc", "ASP.NET MVC");
+            correctionAdd("Asp.net Mvc", "ASP.NET MVC");
+            correctionAdd("ASP .NET MVC", "ASP.NET MVC");
+            correctionAdd("asp mvc", "ASP.NET MVC");
+            correctionAdd("MVC.net", "ASP.NET MVC");
+            correctionAdd("Asp Mvc", "ASP.NET MVC");
+            correctionAdd("MVC.NET", "ASP.NET MVC");
+            correctionAdd(".Net MVC", "ASP.NET MVC");
+
+            correctionAdd("asp core", "ASP.NET Core");
+            correctionAdd("Asp.net core", "ASP.NET Core");
+            correctionAdd("aspnet core", "ASP.NET Core");
+            correctionAdd("asp.net core", "ASP.NET Core");
+            correctionAdd("ASP core", "ASP.NET Core");
+            correctionAdd("ASP.Net core", "ASP.NET Core");
+            correctionAdd("ASP.Net Core", "ASP.NET Core");
+            correctionAdd("ASP.NET CORE", "ASP.NET Core");
+            correctionAdd("asp net core", "ASP.NET Core");
+            correctionAdd(".net core mvc", "ASP.NET Core");
+            correctionAdd(".NET Core mvc", "ASP.NET Core");
+            correctionAdd(".NET Core MVC", "ASP.NET Core");
+            correctionAdd(".NET Core ASP.NET MVC", "ASP.NET Core");
+            correctionAdd("ASP.NET MVC Core", "ASP.NET Core");
+            correctionAdd("asp.net core mvc", "ASP.NET Core");
+            correctionAdd("Asp.net MVC core", "ASP.NET Core");
+            correctionAdd("Asp.net Core", "ASP.NET Core");
+            correctionAdd("Asp.Net Core", "ASP.NET Core");
+            correctionAdd("Asp.Net core", "ASP.NET Core");
+            correctionAdd("ASP .NET Core", "ASP.NET Core");
+            correctionAdd("ASP Core", "ASP.NET Core");
+            correctionAdd("aspnetcore", "ASP.NET Core");
+            correctionAdd("ASP.NET core", "ASP.NET Core");
+            correctionAdd("asp.net Core", "ASP.NET Core");
+            correctionAdd("asp.net-core", "ASP.NET Core");
+            correctionAdd("AspNetCore", "ASP.NET Core");
+            correctionAdd("AspNet Core", "ASP.NET Core");
+            correctionAdd("aspnet core mvc", "ASP.NET Core");
+            correctionAdd("core MVC", "ASP.NET Core");
+            correctionAdd("asp dotnet core", "ASP.NET Core");
+            correctionAdd("asp .net core", "ASP.NET Core");
+            correctionAdd(".net core MVC", "ASP.NET Core");
+            correctionAdd(".Net Core MVC", "ASP.NET Core");
+            correctionAdd("ASP.Net CORE", "ASP.NET Core");
+            correctionAdd("asp dot net core", "ASP.NET Core");
+            correctionAdd("asp.dot net core", "ASP.NET Core");
+            correctionAdd("asp.dot .net core", "ASP.NET Core");
+            correctionAdd("ASP.NET Core MVC", "ASP.NET Core");
+            correctionAdd("ASP.net Core", "ASP.NET Core");
+            correctionAdd("ASP Net Core", "ASP.NET Core");
+            correctionAdd("ASP .Net Core", "ASP.NET Core");
+            correctionAdd("Asp.netCore", "ASP.NET Core");
+            correctionAdd("ASP.Net Core MVC", "ASP.NET Core");
+            correctionAdd("ASPNet Core", "ASP.NET Core");
+            correctionAdd("ASPNet Core MVC", "ASP.NET Core");
+            correctionAdd("ASPNetCore", "ASP.NET Core");
+            correctionAdd("ASPNetCore MVC", "ASP.NET Core");
+            correctionAdd(".NET core MVC", "ASP.NET Core");
+            correctionAdd("Mvc Core", "ASP.NET Core");
+            correctionAdd("asp.net core MVC", "ASP.NET Core");
+            correctionAdd("mvc core", "ASP.NET Core");
+
+            correctionAdd("asp net core 3.0", "ASP.NET Core 3.0");
+
+            // ASP.NET and .NET
+            correctionAdd("razor", "Razor");
+            correctionAdd(".cshtml", "Razor");
+            correctionAdd("cshtml", "Razor");
+            correctionAdd("CSHTML", "Razor");
+
+            correctionAdd("Dotnet CLI", ".NET CLI");
+            correctionAdd("Dotnet cli", ".NET CLI");
+
+            correctionAdd(".NET FIDDLE", ".NET Fiddle");
+            correctionAdd("dot net fiddle", ".NET Fiddle");
+
+            correctionAdd("MAUI", "Multi-platform App UI");
+            correctionAdd("muawi", "Multi-platform App UI");
+            correctionAdd("muavi", "Multi-platform App UI");
+            correctionAdd(".NET MAUI", "Multi-platform App UI");
+            correctionAdd("maui", "Multi-platform App UI");
+            correctionAdd(".net maui", "Multi-platform App UI");
+            correctionAdd(".Net Maui", "Multi-platform App UI");
+            correctionAdd("Maui", "Multi-platform App UI");
+            correctionAdd(".NET Maui", "Multi-platform App UI");
+
+            correctionAdd("DNNE", ".NET native exports");
+
+            correctionAdd("DotNet Rocks", ".NET Rocks");
+
+            correctionAdd(".NET remoting", ".NET Remoting");
+            correctionAdd("Remoting", ".NET Remoting");
+            correctionAdd("remoting", ".NET Remoting");
+
+            // Related to .NET
+            correctionAdd("Rosyln", "Roslyn");
+            correctionAdd("Roselyn", "Roslyn");
+
+            // Related to Windows
+            correctionAdd("drwatson", "Dr. Watson");
+
+            correctionAdd("ado.net", "ADO.NET");
+            correctionAdd("Ado.Net", "ADO.NET");
+            correctionAdd("ADO.Net", "ADO.NET");
+            correctionAdd("ADO.net", "ADO.NET");
+            correctionAdd("ADO", "ADO.NET");
+
+            correctionAdd("Cruisecontrol", "CruiseControl");
+            correctionAdd("cruisecontrol", "CruiseControl");
+            correctionAdd("cruise control", "CruiseControl");
+            correctionAdd("Cruise Control", "CruiseControl");
+            correctionAdd("crruise", "CruiseControl");
+            correctionAdd("cruse control", "CruiseControl");
+            correctionAdd("CC", "CruiseControl"); // Collisions? E.g. "carbon copy"?
+
+            correctionAdd("CruiseControl.net", "CruiseControl.NET");
+            correctionAdd("CruiseControl.Net", "CruiseControl.NET");
+            correctionAdd("cruisecontrol.net", "CruiseControl.NET");
+            correctionAdd("cruiseontrol.net", "CruiseControl.NET");
+            correctionAdd("CCNet", "CruiseControl.NET");
+            correctionAdd("CC.Net", "CruiseControl.NET");
+            correctionAdd("ccnet", "CruiseControl.NET");
+            correctionAdd("cruise control.net", "CruiseControl.NET");
+            correctionAdd("Cruise Control.NET", "CruiseControl.NET");
+            correctionAdd("CC.NET", "CruiseControl.NET");
+            correctionAdd("cruise control.NET", "CruiseControl.NET");
+            correctionAdd("Cruise-Control.Net", "CruiseControl.NET");
+            correctionAdd("Cruisecontrol.net", "CruiseControl.NET");
+            correctionAdd("CCNET", "CruiseControl.NET");
+
+            correctionAdd("Spring.Net", "Spring.NET");
+
+            correctionAdd("paint.net", "Paint.NET");
+            correctionAdd("Paint.Net", "Paint.NET");
+            correctionAdd("Paint.net", "Paint.NET");
+            correctionAdd("Paint .Net", "Paint.NET");
+            correctionAdd("paint .net", "Paint.NET");
+            correctionAdd("paint.NET", "Paint.NET");
+
+            correctionAdd("TestDriven.Net", "TestDriven.NET");
+            correctionAdd("TD.NET", "TestDriven.NET");
+            correctionAdd("TestDriven.net", "TestDriven.NET");
+            //correctionAdd("TestDriven.Net", "TestDriven.NET");
+
+            correctionAdd("MEF", "Managed Extensibility Framework");
+
+            correctionAdd("Lucene.net", "Lucene.NET");
+            correctionAdd("Lucene.Net", "Lucene.NET");
+
+            correctionAdd("XUnit.net", "xUnit.net");
+
+            correctionAdd("Json.net", "Json.NET");
+            correctionAdd("JSON.Net", "Json.NET");
+            correctionAdd("JSON.NET", "Json.NET");
+            correctionAdd("Json.Net", "Json.NET");
+            correctionAdd("json.net", "Json.NET");
+            correctionAdd("newton.json", "Json.NET");
+            correctionAdd("Newtonsoft.Json", "Json.NET");
+
+            correctionAdd("ALT.NET", "ALT .NET");
+
+            correctionAdd("TF.NET", "TensorFlow.NET");
+            correctionAdd("Tensorflow.Net", "TensorFlow.NET");
+
+            correctionAdd("c#", "C#");
+            correctionAdd("C Sharp", "C#");
+            correctionAdd("Csharp", "C#");
+            correctionAdd("csharp", "C#");
+            correctionAdd("CSharp", "C#");
+            correctionAdd("c-sharp", "C#");
+            correctionAdd("c sharp", "C#");
+            correctionAdd("C #", "C#");
+            correctionAdd("С#", "C#"); // They look the same, but they are not (for instance, one of them may be flagged by a spell checker (really a false positive)). It UTF-8 sequence 0xD0 0xA1: Unicode code point U+0421, CYRILLIC CAPITAL LETTER ES
+            correctionAdd("Сsharp", "C#"); // C is not C...
+            correctionAdd("С sharp", "C#"); // C is not C...
+            correctionAdd("С Sharp", "C#"); // C is not C...
+            correctionAdd("c #", "C#");
+            correctionAdd("C♯", "C#");
+            correctionAdd("C sharp", "C#");
+            correctionAdd("C-sharp", "C#");
+            correctionAdd("See Sharp", "C#");
+            correctionAdd("see sharp", "C#");
+
+            correctionAdd("C# 2", "C# 2.0");
+            correctionAdd("C#2", "C# 2.0");
+
+            correctionAdd("C# 3", "C# 3.0");
+            correctionAdd("C#3", "C# 3.0");
+
+            correctionAdd("c# 9", "C# 9.0");
+            correctionAdd("c#9", "C# 9.0");
+            correctionAdd("C#9", "C# 9.0");
+
+            correctionAdd("VB.Net", "VB.NET");
+            correctionAdd("Vb.Net", "VB.NET");
+            correctionAdd("vb.net", "VB.NET");
+            correctionAdd("VB.net", "VB.NET");
+            correctionAdd("Vb.net", "VB.NET");
+            correctionAdd("vbnet", "VB.NET");
+            correctionAdd("vb.Net", "VB.NET");
+            correctionAdd("VB .Net", "VB.NET");
+            correctionAdd("vb dot net", "VB.NET");
+            correctionAdd("vb .net", "VB.NET");
+            correctionAdd("VB.NEt", "VB.NET");
+            correctionAdd("VB .net", "VB.NET");
+            correctionAdd("vb.NET", "VB.NET");
+            correctionAdd("Vb.NET", "VB.NET");
+            correctionAdd("VBNet", "VB.NET");
+            correctionAdd("Visual Basic.Net", "VB.NET");
+            correctionAdd("visual basic.net", "VB.NET");
+            correctionAdd("Visual Basic .Net", "VB.NET");
+            correctionAdd("Visual Basic .NET", "VB.NET");
+            correctionAdd("VB .NET", "VB.NET");
+            correctionAdd("Visual Basic.net", "VB.NET");
+            correctionAdd("Visual Basic .net", "VB.NET");
+
+            correctionAdd("VB6", "Visual Basic 6.0");
+            correctionAdd("vb6", "Visual Basic 6.0");
+            correctionAdd("vb 6", "Visual Basic 6.0");
+            correctionAdd("Vb6", "Visual Basic 6.0");
+            correctionAdd("visual basic 6", "Visual Basic 6.0");
+            correctionAdd("VB 6", "Visual Basic 6.0");
+            correctionAdd("vb 6.0", "Visual Basic 6.0");
+            correctionAdd("visual basic 6.0", "Visual Basic 6.0");
+            correctionAdd("Visual basic 6.0", "Visual Basic 6.0");
+            correctionAdd("vb6.0", "Visual Basic 6.0");
+            correctionAdd("VB 6.0", "Visual Basic 6.0");
+            correctionAdd("Visual Basic 6", "Visual Basic 6.0");
+
+            // Windows program to operate several keyboards
+            // ***independently*** (e.g., for a software-only
+            // solution for macro keyboards)
+            correctionAdd("HIDMacros", "HID Macros");
+            correctionAdd("hid macros", "HID Macros");
+            correctionAdd("HidMacros", "HID Macros");
+            correctionAdd("HIDmacros", "HID Macros");
+            correctionAdd("HID macros", "HID Macros");
+            correctionAdd("HIODMacros", "HID Macros");
+
+            // Windows program to simulate key presses and mouse
+            // actions.  Keyboard
+            correctionAdd("Autoit", "AutoIt");
+            correctionAdd("autoit", "AutoIt");
+            correctionAdd("autoIt", "AutoIt");
+            correctionAdd("AutoIT", "AutoIt");
+            correctionAdd("auoti", "AutoIt");
+            correctionAdd("Auto-it", "AutoIt");
+            correctionAdd("Auto IT", "AutoIt");
+            correctionAdd("auto IT", "AutoIt");
+            correctionAdd("auto-it", "AutoIt");
+            correctionAdd("auto it", "AutoIt");
+            correctionAdd("autoIT", "AutoIt");
+            correctionAdd("AutiIT", "AutoIt"); // True typo...
+            correctionAdd("AitoIt", "AutoIt");
+
+            // Windows program to simulate key presses and mouse
+            // actions. Keyboard
+            correctionAdd("Autohotkey", "AutoHotkey");
+            correctionAdd("AHK", "AutoHotkey");
+            correctionAdd("AutoHotKey", "AutoHotkey");
+            correctionAdd("autohotkey", "AutoHotkey");
+            correctionAdd("Auto Hot Key", "AutoHotkey");
+            correctionAdd("AutoHotKeys", "AutoHotkey");
+            correctionAdd("autohotkeys", "AutoHotkey");
+            correctionAdd("ahk", "AutoHotkey");
+
+            // A command-line tool for Windows
+            correctionAdd("CMDKEY", "cmdkey");
+
+            correctionAdd("WIX", "WiX");
+            correctionAdd("Wix", "WiX");
+            correctionAdd("wix", "WiX");
+            correctionAdd("WIx", "WiX");
+
+            // Now used for PowerShell:
+            //
+            //correctionAdd("p.s", "PS"); // Conflict with PowerShell.
+            //correctionAdd("P/S", "PS"); // Conflict with PowerShell.
+            //correctionAdd("P.s", "PS"); // Conflict with PowerShell. Really "P.s."
+            //
+            correctionAdd("Powershell", "PowerShell");
+            correctionAdd("powershell", "PowerShell");
+            correctionAdd("Power Shell", "PowerShell");
+            correctionAdd("power shell", "PowerShell");
+            correctionAdd("Power-shell", "PowerShell");
+            correctionAdd("Poweshell", "PowerShell"); // Misspelling.
+            correctionAdd("PSH", "PowerShell");
+            correctionAdd("POWERSHELL", "PowerShell");
+            correctionAdd("poowershell", "PowerShell");
+            correctionAdd("Powereshell", "PowerShell");
+            correctionAdd("Power shell", "PowerShell");
+            correctionAdd("poweshell", "PowerShell"); // Misspelling.
+            correctionAdd("power-shell", "PowerShell");
+            correctionAdd("powershelgl", "PowerShell"); // Misspelling.
+            correctionAdd("powershelll", "PowerShell");
+            correctionAdd("powershel", "PowerShell");
+            correctionAdd("Powerhshell", "PowerShell");
+            correctionAdd("Powershelll", "PowerShell");
+            correctionAdd("PoSH", "PowerShell");
+            correctionAdd("poSH", "PowerShell");
+            correctionAdd("POSH", "PowerShell");
+            correctionAdd("PoSh", "PowerShell");
+            correctionAdd("PS", "PowerShell"); // Conflict with abbr. "PS" for "post scriptum" - <https://en.wiktionary.org/wiki/PS#English>
+            correctionAdd("posh", "PowerShell");
+            correctionAdd("Posh", "PowerShell");
+            correctionAdd("powerShell", "PowerShell");
+            correctionAdd("POsh", "PowerShell");
+            correctionAdd("powsershell", "PowerShell");
+            correctionAdd("PoweShell", "PowerShell");
+            correctionAdd("psh", "PowerShell");
+            correctionAdd("powerschell", "PowerShell");
+            correctionAdd("pwsh", "PowerShell");
+            correctionAdd("PowerShells", "PowerShell");
+            correctionAdd("powersheel", "PowerShell");
+
+            correctionAdd("ISE", "PowerShell ISE");
+            correctionAdd("powershell ISE", "PowerShell ISE");
+            correctionAdd("powershell ise", "PowerShell ISE");
+            correctionAdd("ise", "PowerShell ISE");
+            correctionAdd("Powershell ISE", "PowerShell ISE");
+            correctionAdd("PowerShell ise", "PowerShell ISE");
+
+            correctionAdd("powershell core", "PowerShell Core");
+            correctionAdd("Powershell Core", "PowerShell Core");
+            correctionAdd("PSCore", "PowerShell Core");
+            correctionAdd("PS Core", "PowerShell Core");
+            correctionAdd("Powershell core", "PowerShell Core");
+            correctionAdd("PowerShell core", "PowerShell Core");
+
+            correctionAdd("ie", "Internet&nbsp;Explorer"); // Conflict with i.e. ...
+            correctionAdd("IE", "Internet&nbsp;Explorer");
+            correctionAdd("internet explorer", "Internet&nbsp;Explorer");
+            correctionAdd("internet explore", "Internet&nbsp;Explorer");
+            correctionAdd("I.E", "Internet&nbsp;Explorer");
+            correctionAdd("Internet Explorer", "Internet&nbsp;Explorer");
+            correctionAdd("internet-explorer", "Internet&nbsp;Explorer");
+            correctionAdd("interne explorer", "Internet&nbsp;Explorer");
+            correctionAdd("Internet explorer", "Internet&nbsp;Explorer");
+            correctionAdd("IExplorer", "Internet&nbsp;Explorer");
+            correctionAdd("Internet exlorer", "Internet&nbsp;Explorer"); // Misspelling
+            correctionAdd("iexplore", "Internet&nbsp;Explorer");
+            correctionAdd("iE", "Internet&nbsp;Explorer");
+            correctionAdd("internert explorer", "Internet&nbsp;Explorer");
+            correctionAdd("internet Explorer", "Internet&nbsp;Explorer");
+            correctionAdd("MSIE", "Internet&nbsp;Explorer");
+            correctionAdd("Internet Exploder", "Internet&nbsp;Explorer");
+            correctionAdd("Internet Exploere", "Internet&nbsp;Explorer");
+            correctionAdd("INTERNET EXPLORER", "Internet&nbsp;Explorer");
+            correctionAdd("nternet Explorer", "Internet&nbsp;Explorer");
+
+            correctionAdd("Internet Explorer 5", "Internet&nbsp;Explorer&nbsp;5"); // Sort of identity mapping
+            correctionAdd("IE 5", "Internet&nbsp;Explorer&nbsp;5");
+            correctionAdd("ie5", "Internet&nbsp;Explorer&nbsp;5");
+            correctionAdd("ie 5", "Internet&nbsp;Explorer&nbsp;5");
+            correctionAdd("IE5", "Internet&nbsp;Explorer&nbsp;5");
+
+            correctionAdd("IE6", "Internet&nbsp;Explorer&nbsp;6");
+            correctionAdd("IE 6", "Internet&nbsp;Explorer&nbsp;6");
+            correctionAdd("ie6", "Internet&nbsp;Explorer&nbsp;6");
+            correctionAdd("iE6", "Internet&nbsp;Explorer&nbsp;6");
+            correctionAdd("Internet Explorer 6", "Internet&nbsp;Explorer&nbsp;6");
+
+            correctionAdd("IE7", "Internet&nbsp;Explorer&nbsp;7");
+            correctionAdd("ie7", "Internet&nbsp;Explorer&nbsp;7");
+            correctionAdd("IE 7", "Internet&nbsp;Explorer&nbsp;7");
+            correctionAdd("Internet Explorer 7", "Internet&nbsp;Explorer&nbsp;7");
+            correctionAdd("ie 7", "Internet&nbsp;Explorer&nbsp;7");
+            correctionAdd("iE7", "Internet&nbsp;Explorer&nbsp;7");
+            correctionAdd("Internet&nbsp;Explorer 7", "Internet&nbsp;Explorer&nbsp;7");
+            correctionAdd("Ie7", "Internet&nbsp;Explorer&nbsp;7");
+            correctionAdd("IE-7", "Internet&nbsp;Explorer&nbsp;7");
+            correctionAdd("i.e. 7", "Internet&nbsp;Explorer&nbsp;7");
+
+            correctionAdd("IE8", "Internet&nbsp;Explorer&nbsp;8");
+            correctionAdd("ie8", "Internet&nbsp;Explorer&nbsp;8");
+            correctionAdd("IE 8", "Internet&nbsp;Explorer&nbsp;8");
+            correctionAdd("IE-8", "Internet&nbsp;Explorer&nbsp;8");
+            correctionAdd("Internet Explorer 8", "Internet&nbsp;Explorer&nbsp;8"); // Effectively self
+            correctionAdd("ie 8", "Internet&nbsp;Explorer&nbsp;8");
+            correctionAdd("i.e. 8", "Internet&nbsp;Explorer&nbsp;8");
+
+            correctionAdd("Internet Explorer 9", "Internet&nbsp;Explorer&nbsp;9");
+            correctionAdd("IE9", "Internet&nbsp;Explorer&nbsp;9");
+            correctionAdd("ie9", "Internet&nbsp;Explorer&nbsp;9");
+            correctionAdd("IE 9", "Internet&nbsp;Explorer&nbsp;9");
+            correctionAdd("ie 9", "Internet&nbsp;Explorer&nbsp;9");
+            correctionAdd("Internet&nbsp;Explorer 9", "Internet&nbsp;Explorer&nbsp;9");
+            correctionAdd("IE-9", "Internet&nbsp;Explorer&nbsp;9");
+
+            correctionAdd("Internet Explorer 10", "Internet&nbsp;Explorer&nbsp;10"); // Sort of identity mapping
+            correctionAdd("ie10", "Internet&nbsp;Explorer&nbsp;10");
+            correctionAdd("ie 10", "Internet&nbsp;Explorer&nbsp;10");
+            correctionAdd("IE 10", "Internet&nbsp;Explorer&nbsp;10");
+            correctionAdd("IE10", "Internet&nbsp;Explorer&nbsp;10");
+            correctionAdd("Internet&nbsp;Explorer 10", "Internet&nbsp;Explorer&nbsp;10");
+            correctionAdd("Explorer 10", "Internet&nbsp;Explorer&nbsp;10");
+
+            correctionAdd("ie11", "Internet&nbsp;Explorer&nbsp;11");
+            correctionAdd("ie 11", "Internet&nbsp;Explorer&nbsp;11");
+            correctionAdd("IE 11", "Internet&nbsp;Explorer&nbsp;11");
+            correctionAdd("IE11", "Internet&nbsp;Explorer&nbsp;11");
+            correctionAdd("Internet&nbsp;Explorer 11", "Internet&nbsp;Explorer&nbsp;11");
+            correctionAdd("Internet Explorer 11", "Internet&nbsp;Explorer&nbsp;11"); // Effectively self (line-breaks)
+            correctionAdd("MS IE 11", "Internet&nbsp;Explorer&nbsp;11");
+
+            // Windows web browser
+            correctionAdd("edge", "Edge");
+            correctionAdd("EDGE", "Edge");
+            correctionAdd("Microsoft Edge", "Edge");
+
+            // Windows
+            correctionAdd("RegEdit.exe", "RegEdit");
+            correctionAdd("regedit", "RegEdit");
+
+            // A Windows application
+            correctionAdd("calc.exe", "Calculator");
+
+            // Windows
+            correctionAdd("CHM", "Microsoft Compiled HTML Help");
+
+            // Windows.
+            correctionAdd("winmerge", "WinMerge");
+            correctionAdd("Winmerge", "WinMerge");
+
+            correctionAdd("taskmgr", "Task Manager");
+            correctionAdd("task manager", "Task Manager");
+            correctionAdd("taskmanager", "Task Manager");
+            correctionAdd("Task manager", "Task Manager");
+            correctionAdd("TaskManager", "Task Manager");
+            correctionAdd("tasks manager", "Task Manager");
+            correctionAdd("Taskmanager", "Task Manager");
+
+            correctionAdd("SysInternals", "Sysinternals");
+            correctionAdd("Sys Internals", "Sysinternals");
+            correctionAdd("sysInternals", "Sysinternals");
+            correctionAdd("sysinternals", "Sysinternals");
+
+            // Windows. Files / folders.
+            correctionAdd("unc", "UNC");
+            correctionAdd("Universal Naming Convention", "UNC");
+
+            // Windows
+            correctionAdd("Filemon", "FileMon");
+            correctionAdd("filemon", "FileMon");
+            correctionAdd("FILEMON", "FileMon");
+            correctionAdd("filemonitor", "FileMon");
+
+            // A Windows application
+            correctionAdd("total Commander", "Total Commander");
+            correctionAdd("total commander", "Total Commander");
+            correctionAdd("Total commander", "Total Commander");
+
+            // A Windows application
+            correctionAdd("altap Salamander", "Altap Salamander");
+            correctionAdd("Slamander", "Altap Salamander");
+
+            // A Windows utility / application
+            correctionAdd("Puretext", "PureText");
+
+            // Windows. NTFS.
+            correctionAdd("resource fork on Windows", "alternate data stream");
+            correctionAdd("ADS", "alternate data stream");
+            correctionAdd("Alternate Data Stream", "alternate data stream");
+            correctionAdd("Alternate Data Streams", "alternate data stream");
+
+            correctionAdd("Windows Store", "Microsoft Store");
+            correctionAdd("Windows store", "Microsoft Store");
+
+            correctionAdd("Command Prompt", "cmd.exe");
+            correctionAdd("cmd", "cmd.exe");
+            correctionAdd("Command&nbsp;Prompt", "cmd.exe");
+            correctionAdd("CMD", "cmd.exe");
+            correctionAdd("CMD.exe", "cmd.exe");
+            correctionAdd("CMD.EXE", "cmd.exe");
+
+            // DOS / Windows
+            correctionAdd("Batch file", "batch file");
+
+            correctionAdd("Word 2007", "Microsoft Word 2007");
+            correctionAdd("MS Word 2007", "Microsoft Word 2007");
+
+            correctionAdd("Word 2010", "Microsoft Word 2010");
+            correctionAdd("MS Word 2010", "Microsoft Word 2010");
+
+            correctionAdd("Publisher", "Microsoft Publisher");
+
+            correctionAdd("Microsoft Hardware Diagnostic tool", "Hwinfo.exe");
+
+            correctionAdd("PnP", "Microsoft 365 Patterns & Practices");
+
+            correctionAdd("Windows Intune", "Microsoft Intune");
+            correctionAdd("Intune", "Microsoft Intune");
+
+            // Windows
+            correctionAdd("services.msc", "Services.msc");
+
+            correctionAdd("Windows RT", "Windows&nbsp;RT");
+            correctionAdd("WindowsRT", "Windows&nbsp;RT");
+
+            // Windows. Disk partitioning, including assigning drive letter.
+            //
+            // Alternative URL:
+            //
+            //   <https://ss64.com/nt/diskpart.html>
+            //
+            correctionAdd("DISKPART", "diskpart");
+
+            // Windows
+            correctionAdd("system32", "System32");
+            correctionAdd("system 32", "System32");
+
+            correctionAdd("Cmdlet", "cmdlet");
+            correctionAdd("CmdLet", "cmdlet");
+            correctionAdd("commandlet", "cmdlet");
+            correctionAdd("cmd-let", "cmdlet");
+
             correctionAdd("fiel", "file");
             correctionAdd("fiie", "file");
             correctionAdd("File", "file");
@@ -1458,17 +2270,6 @@ namespace OverflowHelper.core
             correctionAdd("managment", "management");
 
             correctionAdd("filemanagement", "file management");
-
-            // Windows
-            correctionAdd("dll", "DLL file"); // Expansion, as in context it is usually a file.
-            correctionAdd("DLL", "DLL file"); // Expansion, as in context it is usually a file.
-            correctionAdd("Dll", "DLL file"); // Expansion, as in context it is usually a file.
-            correctionAdd("dll file", "DLL file");
-            correctionAdd("DLLs", "DLL file");
-            correctionAdd("dll-file", "DLL file");
-            correctionAdd("Dynamic Link Library", "DLL file");
-            correctionAdd("DLLS", "DLL file");
-            correctionAdd("dlls", "DLL file");
 
             correctionAdd("filesize", "file size");
 
@@ -3265,6 +4066,7 @@ namespace OverflowHelper.core
             correctionAdd("Co-Pilot", "GitHub Copilot");
             correctionAdd("GitHub CoPilot", "GitHub Copilot");
             correctionAdd("GH Copilot", "GitHub Copilot");
+            correctionAdd("Copilots", "GitHub Copilot");
 
             correctionAdd("ChatGPT Copilot", "GitHub Copilot X");
 
@@ -5671,6 +6473,11 @@ namespace OverflowHelper.core
             correctionAdd("Magnesium", "magnesium");
             correctionAdd("Mg", "magnesium");
 
+            // Alternative URL:
+            //
+            //   <https://www.youtube.com/watch?v=UDczD_Wx_PU&t=1m41s>
+            //     Keydous NJ80 keyboard review (Gateron Pro Yellow)
+            //
             correctionAdd("aluminum", "aluminium");
             correctionAdd("Al", "aluminium");
             correctionAdd("Aliminium", "aluminium");
@@ -9476,24 +10283,6 @@ namespace OverflowHelper.core
 
             correctionAdd("non desirable", "nondesirable");
 
-            // Windows
-            correctionAdd("Clickonce", "ClickOnce");
-            correctionAdd("clickonce", "ClickOnce");
-            correctionAdd("click once", "ClickOnce");
-            correctionAdd("click-once", "ClickOnce");
-            correctionAdd("clickOnce", "ClickOnce");
-            correctionAdd("Click Once", "ClickOnce");
-            correctionAdd("Click-Once", "ClickOnce");
-            correctionAdd("clickone", "ClickOnce");
-            correctionAdd("OneClick", "ClickOnce");
-            correctionAdd("Click once", "ClickOnce");
-            correctionAdd("Click-once", "ClickOnce");
-            correctionAdd("ClckOnce", "ClickOnce"); // Misspelling.
-            correctionAdd("CO", "ClickOnce");
-            correctionAdd("one click", "ClickOnce");
-            correctionAdd("cliconce", "ClickOnce");
-            correctionAdd("ClicOnse", "ClickOnce");
-
             correctionAdd("clique", "click");
             correctionAdd("clic", "click");
             correctionAdd("lick", "click");
@@ -10485,15 +11274,6 @@ namespace OverflowHelper.core
             correctionAdd("Diffie-Hellman", "Diffie–Hellman key exchange");
             correctionAdd("diffie hellman", "Diffie–Hellman key exchange");
 
-            // Windows
-            correctionAdd("DDE", "Dynamic Data Exchange");
-
-            // A Windows program
-            correctionAdd("process hacker", "Process Hacker");
-
-            // A utility (program) for Windows
-            correctionAdd("Sharpkeys", "SharpKeys");
-
             correctionAdd("airmolecule", "air molecule");
 
             correctionAdd("NYSE", "New York Stock Exchange");
@@ -10619,6 +11399,7 @@ namespace OverflowHelper.core
 
             // A code commenting style standard
             correctionAdd("Jon Skeet decree", "Jon Skeet Decree");
+            correctionAdd("Jon Skeet Degree", "Jon Skeet Decree");
 
             // Stack Overflow
             correctionAdd("full stackoverflow developer", "full Stack Overflow developer");
@@ -10743,6 +11524,7 @@ namespace OverflowHelper.core
             correctionAdd("plag", "plagiarism"); // A shorthand
             correctionAdd("Plagia", "plagiarism");
             correctionAdd("plagia", "plagiarism");
+            correctionAdd("plafiarism", "plagiarism");
 
             correctionAdd("plagarised", "plagiarised");
             correctionAdd("plagiasrised", "plagiarised");
@@ -12416,6 +13198,9 @@ namespace OverflowHelper.core
 
             // A Visual Studio Code configuration file
             correctionAdd("task.json", "tasks.json");
+
+            // A Visual Studio Code configuration file
+            correctionAdd("keybinding.json", "keybindings.json");
 
             correctionAdd("code-insider", "Visual Studio Code Insiders");
             correctionAdd("Visual Studio Code Insiders build", "Visual Studio Code Insiders");
@@ -17270,493 +18055,6 @@ namespace OverflowHelper.core
 
             correctionAdd("over done", "overdone");
 
-            correctionAdd(".net", ".NET"); // This does NOT work (lookup fails) with the recent changes!!!
-            correctionAdd(".Net", ".NET"); // This does NOT work (lookup fails) with the recent changes!!!
-            correctionAdd("dotnet", ".NET");
-            correctionAdd("dot net", ".NET");
-            correctionAdd("Dotnet", ".NET");
-            correctionAdd(".NEt", ".NET");
-            correctionAdd("DotNet", ".NET");
-            correctionAdd("Dot Net", ".NET");
-            correctionAdd("Net", ".NET");
-            correctionAdd("dotNET", ".NET");
-            correctionAdd("dotNet", ".NET");
-            correctionAdd(".net framework", ".NET"); // Not 100% correct.
-            correctionAdd("netframework", ".NET");
-            correctionAdd(".net Framework", ".NET");
-            correctionAdd(".Net F/W", ".NET");
-            correctionAdd(".NET FW", ".NET");
-            correctionAdd("Net framework", ".NET");
-            correctionAdd(".Net Framwork", ".NET");
-            correctionAdd("Dot.NET", ".NET");
-            correctionAdd(".NET FrameWork", ".NET");
-            correctionAdd(".NET Framework", ".NET");
-            correctionAdd(".NET framework", ".NET"); // Not 100% correct.
-            correctionAdd("NetFramework", ".NET");
-            correctionAdd("Dot NET", ".NET");
-            correctionAdd("dot new", ".NET");
-            correctionAdd("Dot.Net", ".NET");
-            correctionAdd(".NetFramework", ".NET");
-            correctionAdd(".NET frameowkr", ".NET");
-            correctionAdd(".Net Framework", ".NET");
-            correctionAdd("dot.NET", ".NET");
-            correctionAdd(".Net framework", ".NET");
-            correctionAdd("net framwork", ".NET");
-            correctionAdd("net framework", ".NET");
-            correctionAdd(".NETFramework", ".NET");
-            correctionAdd("#net", ".NET");
-            correctionAdd(".net Framwork", ".NET");
-            correctionAdd(".net framwork", ".NET");
-            correctionAdd(".NET framwork", ".NET");
-            correctionAdd(".Net framwork", ".NET");
-            correctionAdd(".netframework", ".NET");
-
-            correctionAdd(".net3.5", ".NET 3.5");
-            correctionAdd(".NET35", ".NET 3.5");
-            correctionAdd(".NET 35", ".NET 3.5");
-            correctionAdd(".NET-3.5", ".NET 3.5");
-            correctionAdd("Dot Net 3.5", ".NET 3.5");
-
-            correctionAdd(".NET 5", ".NET&nbsp;5");
-            correctionAdd(".Net 5", ".NET&nbsp;5");
-
-            correctionAdd(".NET 6", ".NET&nbsp;6");
-            correctionAdd(".Net 6", ".NET&nbsp;6");
-
-            correctionAdd(".net core", ".NET Core");
-            correctionAdd("dot net core", ".NET Core");
-            correctionAdd(".Net Core", ".NET Core");
-            correctionAdd("dotnet core", ".NET Core");
-            correctionAdd("dotnetcore", ".NET Core");
-            correctionAdd("Core", ".NET Core");
-            correctionAdd(".net Core", ".NET Core");
-            correctionAdd(".NET core", ".NET Core");
-            correctionAdd(".Net core", ".NET Core");
-            correctionAdd(".Net-core", ".NET Core");
-            correctionAdd("netcore", ".NET Core");
-            correctionAdd(".NET CORE", ".NET Core");
-            correctionAdd("Net Core", ".NET Core");
-            correctionAdd(".Net.core", ".NET Core");
-            correctionAdd("DotNet Core", ".NET Core");
-            correctionAdd("Dot net core", ".NET Core");
-            correctionAdd("net core", ".NET Core");
-            correctionAdd("net Core", ".NET Core");
-            correctionAdd(".netcore", ".NET Core");
-            correctionAdd(".nerdcore", ".NET Core"); // There is another meaning, but it was used in the context of .NET Core...
-            correctionAdd(".net-core", ".NET Core");
-            correctionAdd(".NETCore", ".NET Core");
-            correctionAdd("Dot Net Core", ".NET Core");
-            correctionAdd("DotNET_core", ".NET Core");
-            correctionAdd("dotnet-core", ".NET Core");
-            correctionAdd("DotNET core", ".NET Core");
-            correctionAdd("Dotnet core", ".NET Core");
-            correctionAdd("NetCore", ".NET Core");
-            correctionAdd("Net.Core", ".NET Core");
-            correctionAdd(".NetCore", ".NET Core");
-            correctionAdd("notnetcore", ".NET Core");
-            correctionAdd("core", ".NET Core");
-            correctionAdd(". Net-core", ".NET Core");
-            correctionAdd("CORE", ".NET Core");
-
-            correctionAdd("net core 3.0", ".NET Core 3.0");
-            correctionAdd("Core 3.0", ".NET Core 3.0");
-
-            correctionAdd(".NETStandard", ".NET Standard");
-            correctionAdd(".netstandard", ".NET Standard");
-            correctionAdd("net standard", ".NET Standard");
-            correctionAdd(".net standard", ".NET Standard");
-            correctionAdd(".NET standard", ".NET Standard");
-            correctionAdd(".Net-Standard", ".NET Standard");
-
-            correctionAdd(".Net micro framework", ".NET Micro Framework");
-            correctionAdd(".NET micro framework", ".NET Micro Framework");
-            correctionAdd(".Net Micro Framework", ".NET Micro Framework");
-            correctionAdd(".NetMF", ".NET Micro Framework");
-            correctionAdd(".netmf", ".NET Micro Framework");
-            correctionAdd(".NET MF", ".NET Micro Framework");
-            correctionAdd(".NETMF", ".NET Micro Framework");
-            correctionAdd("netmf", ".NET Micro Framework");
-            correctionAdd("Netmf", ".NET Micro Framework");
-            correctionAdd("NETMF", ".NET Micro Framework");
-
-            correctionAdd(".NetCF", ".NET Compact Framework");
-            correctionAdd("Dot.net CF", ".NET Compact Framework");
-            correctionAdd(".Net CF", ".NET Compact Framework");
-            correctionAdd("compact framework", ".NET Compact Framework");
-            correctionAdd("compact framewok", ".NET Compact Framework");
-            correctionAdd(".NET CF", ".NET Compact Framework");
-            correctionAdd("CF .NET", ".NET Compact Framework");
-            correctionAdd("Compact Framework", ".NET Compact Framework");
-            correctionAdd("Compact", ".NET Compact Framework");
-
-            // .NET
-            correctionAdd("dlr", "DLR");
-            correctionAdd("Dynamic Language Runtime", "DLR");
-
-            // A .NET library
-            correctionAdd("polly", "Polly");
-
-            correctionAdd(".Net reflector", ".NET Reflector");
-            correctionAdd(".NET reflector", ".NET Reflector");
-            correctionAdd("Reflector", ".NET Reflector");
-            correctionAdd("reflector", ".NET Reflector");
-            correctionAdd(".net reflector", ".NET Reflector");
-            correctionAdd(".Net Reflector", ".NET Reflector");
-
-            correctionAdd("process explorer", "Process&nbsp;Explorer");
-            correctionAdd("Process Explorer", "Process&nbsp;Explorer");
-            correctionAdd("ProcessExplorer", "Process&nbsp;Explorer");
-            correctionAdd("processexplorer", "Process&nbsp;Explorer");
-            correctionAdd("process Explorer", "Process&nbsp;Explorer");
-            correctionAdd("procexp", "Process&nbsp;Explorer");
-            correctionAdd("Procexp", "Process&nbsp;Explorer");
-            correctionAdd("ProcExp", "Process&nbsp;Explorer");
-            correctionAdd("Processor explorer", "Process&nbsp;Explorer");
-            correctionAdd("Processor Explorer", "Process&nbsp;Explorer"); // Effectively self.
-
-            correctionAdd("Ilasm", "ILAsm");
-
-            correctionAdd("Ildasm", "ILDASM");
-            correctionAdd("ildasm", "ILDASM");
-
-            correctionAdd("il", "CIL"); // The .NET one.
-            correctionAdd("IL", "CIL"); // The .NET one.
-            correctionAdd("MSIL", "CIL"); // The .NET one.
-            correctionAdd("msil", "CIL"); // The .NET one.
-            correctionAdd("cil", "CIL"); // The .NET one.
-
-            // Expansion, not case correction.
-            correctionAdd("Entity Framework", "ADO.NET Entity Framework");
-            correctionAdd("EF", "ADO.NET Entity Framework");
-            correctionAdd("ADO.Net Entity Framework", "ADO.NET Entity Framework");
-            correctionAdd("entity framework", "ADO.NET Entity Framework");
-            correctionAdd("Entities framework", "ADO.NET Entity Framework");
-            correctionAdd("Ado.net entity framework", "ADO.NET Entity Framework");
-            correctionAdd("ef", "ADO.NET Entity Framework");
-            correctionAdd("ado.net entity framework", "ADO.NET Entity Framework");
-            correctionAdd("Entity framework", "ADO.NET Entity Framework");
-            correctionAdd("EntityFramework", "ADO.NET Entity Framework");
-            correctionAdd("ADO.Net entity framework", "ADO.NET Entity Framework");
-            correctionAdd("Entitiy framework", "ADO.NET Entity Framework");
-            correctionAdd("enitity framewrok", "ADO.NET Entity Framework");
-            correctionAdd("entityframwork", "ADO.NET Entity Framework");
-            correctionAdd("Enity framework", "ADO.NET Entity Framework");
-            correctionAdd("Entity FrameWork", "ADO.NET Entity Framework");
-            correctionAdd("Entity", "ADO.NET Entity Framework");
-
-            correctionAdd("EF Core", "Entity Framework Core");
-            correctionAdd("EF core", "Entity Framework Core");
-            correctionAdd("EFCore", "Entity Framework Core");
-            correctionAdd("EFC", "Entity Framework Core");
-            correctionAdd("ef core", "Entity Framework Core");
-            correctionAdd("EntityFramework Core", "Entity Framework Core");
-
-            correctionAdd("asp", "ASP Classic");
-            correctionAdd("ASP", "ASP Classic");
-            correctionAdd("ASP classic", "ASP Classic");
-            correctionAdd("Classic ASP", "ASP Classic");
-            correctionAdd("classic ASP", "ASP Classic");
-            correctionAdd("Classic-ASP", "ASP Classic");
-            correctionAdd("classic asp", "ASP Classic");
-            correctionAdd("asp classic", "ASP Classic");
-            correctionAdd("old ASP", "ASP Classic"); // Synonym.
-            correctionAdd("classicASP", "ASP Classic");
-            correctionAdd("ASPclassic", "ASP Classic");
-            correctionAdd("classicasp", "ASP Classic");
-            correctionAdd("Classic Asp", "ASP Classic");
-            correctionAdd("Asp Classic", "ASP Classic");
-
-            correctionAdd("asp.net", "ASP.NET");
-            correctionAdd("ASP.net", "ASP.NET");
-            correctionAdd("ASP.Net", "ASP.NET");
-            correctionAdd("Asp.net", "ASP.NET");
-            correctionAdd("Asp.NET", "ASP.NET");
-            correctionAdd("Asp.Net", "ASP.NET");
-            correctionAdd("ASp.NET", "ASP.NET");
-            correctionAdd("asp.NET", "ASP.NET");
-            correctionAdd("ASPNET", "ASP.NET");
-            correctionAdd("asp.et", "ASP.NET");
-            correctionAdd("Aps.net", "ASP.NET"); // Misspelling.
-            correctionAdd("AsP.NET", "ASP.NET");
-            correctionAdd("APS.NET", "ASP.NET");
-            correctionAdd("Asp .Net", "ASP.NET");
-            correctionAdd("aspnet", "ASP.NET");
-            correctionAdd("ASP .NET", "ASP.NET");
-            correctionAdd("ASP NET", "ASP.NET");
-            correctionAdd("asp .net", "ASP.NET");
-            correctionAdd("asmx", "ASP.NET"); // Is this correct?
-            correctionAdd("Asp dot net", "ASP.NET");
-            correctionAdd("new ASP", "ASP.NET"); // Synonym.
-            correctionAdd("aps.net", "ASP.NET"); // Misspelling.
-            correctionAdd("asp .Net", "ASP.NET");
-            correctionAdd("ASp.net", "ASP.NET");
-            correctionAdd("asp,net", "ASP.NET");
-            correctionAdd("ASP Dot NET", "ASP.NET");
-            correctionAdd("AspNet", "ASP.NET");
-            correctionAdd("Aspdotnet", "ASP.NET");
-            correctionAdd("ASP .Net", "ASP.NET");
-            correctionAdd("asp.net net", "ASP.NET");
-            correctionAdd("ASP. NET", "ASP.NET");
-            correctionAdd("aspx", "ASP.NET");
-
-            correctionAdd("ASP.net MVC", "ASP.NET MVC");
-            correctionAdd("ASP.Net MVC", "ASP.NET MVC");
-            correctionAdd("asp.net mvc", "ASP.NET MVC");
-            correctionAdd("Asp.net mvc", "ASP.NET MVC");
-            correctionAdd("asp.net-mvc", "ASP.NET MVC");
-            correctionAdd("asp net mvc", "ASP.NET MVC");
-            correctionAdd("MVC.Net", "ASP.NET MVC");
-            correctionAdd("MVC .Net", "ASP.NET MVC");
-            correctionAdd("asp.net MVC", "ASP.NET MVC");
-            correctionAdd("mvc.net", "ASP.NET MVC");
-            correctionAdd("ASPNET MVC", "ASP.NET MVC");
-            correctionAdd("aspnet mvc", "ASP.NET MVC");
-            correctionAdd("ASP MVC", "ASP.NET MVC");
-            correctionAdd("ASP.MVC", "ASP.NET MVC");
-            correctionAdd("Asp.net MVC", "ASP.NET MVC"); // Seen on a comment to Jeff Atwood's blog [sic].
-            correctionAdd("ASP.Net MvC", "ASP.NET MVC");
-            correctionAdd("Aps.net MVC", "ASP.NET MVC");
-            correctionAdd("MVC", "ASP.NET MVC");
-            correctionAdd("MVC3", "ASP.NET MVC"); // Not strictly match - 3 is lost.
-            correctionAdd("mvc3", "ASP.NET MVC"); // Not strictly match - 3 is lost.
-            correctionAdd("mvc", "ASP.NET MVC"); // General, but is normally what is meant.
-            correctionAdd("Asp .Net MVC", "ASP.NET MVC");
-            correctionAdd("Asp.Net Mvc", "ASP.NET MVC");
-            correctionAdd(".NET mvc", "ASP.NET MVC");
-            correctionAdd(".net mvc", "ASP.NET MVC");
-            correctionAdd(".net MVC", "ASP.NET MVC");
-            correctionAdd(".NET MVC", "ASP.NET MVC");
-            correctionAdd("Asp.Net MVC", "ASP.NET MVC");
-            correctionAdd("ASP.NET-MVC", "ASP.NET MVC");
-            correctionAdd("asp .Net MVC", "ASP.NET MVC");
-            correctionAdd("Mvc", "ASP.NET MVC");
-            correctionAdd("Asp.net Mvc", "ASP.NET MVC");
-            correctionAdd("ASP .NET MVC", "ASP.NET MVC");
-            correctionAdd("asp mvc", "ASP.NET MVC");
-            correctionAdd("MVC.net", "ASP.NET MVC");
-            correctionAdd("Asp Mvc", "ASP.NET MVC");
-            correctionAdd("MVC.NET", "ASP.NET MVC");
-            correctionAdd(".Net MVC", "ASP.NET MVC");
-
-            correctionAdd("asp core", "ASP.NET Core");
-            correctionAdd("Asp.net core", "ASP.NET Core");
-            correctionAdd("aspnet core", "ASP.NET Core");
-            correctionAdd("asp.net core", "ASP.NET Core");
-            correctionAdd("ASP core", "ASP.NET Core");
-            correctionAdd("ASP.Net core", "ASP.NET Core");
-            correctionAdd("ASP.Net Core", "ASP.NET Core");
-            correctionAdd("ASP.NET CORE", "ASP.NET Core");
-            correctionAdd("asp net core", "ASP.NET Core");
-            correctionAdd(".net core mvc", "ASP.NET Core");
-            correctionAdd(".NET Core mvc", "ASP.NET Core");
-            correctionAdd(".NET Core MVC", "ASP.NET Core");
-            correctionAdd(".NET Core ASP.NET MVC", "ASP.NET Core");
-            correctionAdd("ASP.NET MVC Core", "ASP.NET Core");
-            correctionAdd("asp.net core mvc", "ASP.NET Core");
-            correctionAdd("Asp.net MVC core", "ASP.NET Core");
-            correctionAdd("Asp.net Core", "ASP.NET Core");
-            correctionAdd("Asp.Net Core", "ASP.NET Core");
-            correctionAdd("Asp.Net core", "ASP.NET Core");
-            correctionAdd("ASP .NET Core", "ASP.NET Core");
-            correctionAdd("ASP Core", "ASP.NET Core");
-            correctionAdd("aspnetcore", "ASP.NET Core");
-            correctionAdd("ASP.NET core", "ASP.NET Core");
-            correctionAdd("asp.net Core", "ASP.NET Core");
-            correctionAdd("asp.net-core", "ASP.NET Core");
-            correctionAdd("AspNetCore", "ASP.NET Core");
-            correctionAdd("AspNet Core", "ASP.NET Core");
-            correctionAdd("aspnet core mvc", "ASP.NET Core");
-            correctionAdd("core MVC", "ASP.NET Core");
-            correctionAdd("asp dotnet core", "ASP.NET Core");
-            correctionAdd("asp .net core", "ASP.NET Core");
-            correctionAdd(".net core MVC", "ASP.NET Core");
-            correctionAdd(".Net Core MVC", "ASP.NET Core");
-            correctionAdd("ASP.Net CORE", "ASP.NET Core");
-            correctionAdd("asp dot net core", "ASP.NET Core");
-            correctionAdd("asp.dot net core", "ASP.NET Core");
-            correctionAdd("asp.dot .net core", "ASP.NET Core");
-            correctionAdd("ASP.NET Core MVC", "ASP.NET Core");
-            correctionAdd("ASP.net Core", "ASP.NET Core");
-            correctionAdd("ASP Net Core", "ASP.NET Core");
-            correctionAdd("ASP .Net Core", "ASP.NET Core");
-            correctionAdd("Asp.netCore", "ASP.NET Core");
-            correctionAdd("ASP.Net Core MVC", "ASP.NET Core");
-            correctionAdd("ASPNet Core", "ASP.NET Core");
-            correctionAdd("ASPNet Core MVC", "ASP.NET Core");
-            correctionAdd("ASPNetCore", "ASP.NET Core");
-            correctionAdd("ASPNetCore MVC", "ASP.NET Core");
-            correctionAdd(".NET core MVC", "ASP.NET Core");
-            correctionAdd("Mvc Core", "ASP.NET Core");
-            correctionAdd("asp.net core MVC", "ASP.NET Core");
-            correctionAdd("mvc core", "ASP.NET Core");
-
-            correctionAdd("asp net core 3.0", "ASP.NET Core 3.0");
-
-            // ASP.NET and .NET
-            correctionAdd("razor", "Razor");
-            correctionAdd(".cshtml", "Razor");
-            correctionAdd("cshtml", "Razor");
-            correctionAdd("CSHTML", "Razor");
-
-            correctionAdd("Dotnet CLI", ".NET CLI");
-            correctionAdd("Dotnet cli", ".NET CLI");
-
-            correctionAdd(".NET FIDDLE", ".NET Fiddle");
-            correctionAdd("dot net fiddle", ".NET Fiddle");
-
-            correctionAdd("MAUI", "Multi-platform App UI");
-            correctionAdd("muawi", "Multi-platform App UI");
-            correctionAdd("muavi", "Multi-platform App UI");
-            correctionAdd(".NET MAUI", "Multi-platform App UI");
-            correctionAdd("maui", "Multi-platform App UI");
-            correctionAdd(".net maui", "Multi-platform App UI");
-            correctionAdd(".Net Maui", "Multi-platform App UI");
-            correctionAdd("Maui", "Multi-platform App UI");
-            correctionAdd(".NET Maui", "Multi-platform App UI");
-
-            correctionAdd("DNNE", ".NET native exports");
-
-            correctionAdd("DotNet Rocks", ".NET Rocks");
-
-            correctionAdd(".NET remoting", ".NET Remoting");
-            correctionAdd("Remoting", ".NET Remoting");
-            correctionAdd("remoting", ".NET Remoting");
-
-            // Related to .NET
-            correctionAdd("Rosyln", "Roslyn");
-            correctionAdd("Roselyn", "Roslyn");
-
-            // Related to Windows
-            correctionAdd("drwatson", "Dr. Watson");
-
-            correctionAdd("ado.net", "ADO.NET");
-            correctionAdd("Ado.Net", "ADO.NET");
-            correctionAdd("ADO.Net", "ADO.NET");
-            correctionAdd("ADO.net", "ADO.NET");
-            correctionAdd("ADO", "ADO.NET");
-
-            correctionAdd("Cruisecontrol", "CruiseControl");
-            correctionAdd("cruisecontrol", "CruiseControl");
-            correctionAdd("cruise control", "CruiseControl");
-            correctionAdd("Cruise Control", "CruiseControl");
-            correctionAdd("crruise", "CruiseControl");
-            correctionAdd("cruse control", "CruiseControl");
-            correctionAdd("CC", "CruiseControl"); // Collisions? E.g. "carbon copy"?
-
-            correctionAdd("CruiseControl.net", "CruiseControl.NET");
-            correctionAdd("CruiseControl.Net", "CruiseControl.NET");
-            correctionAdd("cruisecontrol.net", "CruiseControl.NET");
-            correctionAdd("cruiseontrol.net", "CruiseControl.NET");
-            correctionAdd("CCNet", "CruiseControl.NET");
-            correctionAdd("CC.Net", "CruiseControl.NET");
-            correctionAdd("ccnet", "CruiseControl.NET");
-            correctionAdd("cruise control.net", "CruiseControl.NET");
-            correctionAdd("Cruise Control.NET", "CruiseControl.NET");
-            correctionAdd("CC.NET", "CruiseControl.NET");
-            correctionAdd("cruise control.NET", "CruiseControl.NET");
-            correctionAdd("Cruise-Control.Net", "CruiseControl.NET");
-            correctionAdd("Cruisecontrol.net", "CruiseControl.NET");
-            correctionAdd("CCNET", "CruiseControl.NET");
-
-            correctionAdd("Spring.Net", "Spring.NET");
-
-            correctionAdd("paint.net", "Paint.NET");
-            correctionAdd("Paint.Net", "Paint.NET");
-            correctionAdd("Paint.net", "Paint.NET");
-            correctionAdd("Paint .Net", "Paint.NET");
-            correctionAdd("paint .net", "Paint.NET");
-            correctionAdd("paint.NET", "Paint.NET");
-
-            correctionAdd("TestDriven.Net", "TestDriven.NET");
-            correctionAdd("TD.NET", "TestDriven.NET");
-            correctionAdd("TestDriven.net", "TestDriven.NET");
-            //correctionAdd("TestDriven.Net", "TestDriven.NET");
-
-            correctionAdd("MEF", "Managed Extensibility Framework");
-
-            correctionAdd("Lucene.net", "Lucene.NET");
-            correctionAdd("Lucene.Net", "Lucene.NET");
-
-            correctionAdd("XUnit.net", "xUnit.net");
-
-            correctionAdd("Json.net", "Json.NET");
-            correctionAdd("JSON.Net", "Json.NET");
-            correctionAdd("JSON.NET", "Json.NET");
-            correctionAdd("Json.Net", "Json.NET");
-            correctionAdd("json.net", "Json.NET");
-            correctionAdd("newton.json", "Json.NET");
-            correctionAdd("Newtonsoft.Json", "Json.NET");
-
-            correctionAdd("ALT.NET", "ALT .NET");
-
-            correctionAdd("TF.NET", "TensorFlow.NET");
-            correctionAdd("Tensorflow.Net", "TensorFlow.NET");
-
-            correctionAdd("c#", "C#");
-            correctionAdd("C Sharp", "C#");
-            correctionAdd("Csharp", "C#");
-            correctionAdd("csharp", "C#");
-            correctionAdd("CSharp", "C#");
-            correctionAdd("c-sharp", "C#");
-            correctionAdd("c sharp", "C#");
-            correctionAdd("C #", "C#");
-            correctionAdd("С#", "C#"); // They look the same, but they are not (for instance, one of them may be flagged by a spell checker (really a false positive)). It UTF-8 sequence 0xD0 0xA1: Unicode code point U+0421, CYRILLIC CAPITAL LETTER ES
-            correctionAdd("Сsharp", "C#"); // C is not C...
-            correctionAdd("С sharp", "C#"); // C is not C...
-            correctionAdd("С Sharp", "C#"); // C is not C...
-            correctionAdd("c #", "C#");
-            correctionAdd("C♯", "C#");
-            correctionAdd("C sharp", "C#");
-            correctionAdd("C-sharp", "C#");
-            correctionAdd("See Sharp", "C#");
-            correctionAdd("see sharp", "C#");
-
-            correctionAdd("C# 2", "C# 2.0");
-            correctionAdd("C#2", "C# 2.0");
-
-            correctionAdd("C# 3", "C# 3.0");
-            correctionAdd("C#3", "C# 3.0");
-
-            correctionAdd("c# 9", "C# 9.0");
-            correctionAdd("c#9", "C# 9.0");
-            correctionAdd("C#9", "C# 9.0");
-
-            correctionAdd("VB.Net", "VB.NET");
-            correctionAdd("Vb.Net", "VB.NET");
-            correctionAdd("vb.net", "VB.NET");
-            correctionAdd("VB.net", "VB.NET");
-            correctionAdd("Vb.net", "VB.NET");
-            correctionAdd("vbnet", "VB.NET");
-            correctionAdd("vb.Net", "VB.NET");
-            correctionAdd("VB .Net", "VB.NET");
-            correctionAdd("vb dot net", "VB.NET");
-            correctionAdd("vb .net", "VB.NET");
-            correctionAdd("VB.NEt", "VB.NET");
-            correctionAdd("VB .net", "VB.NET");
-            correctionAdd("vb.NET", "VB.NET");
-            correctionAdd("Vb.NET", "VB.NET");
-            correctionAdd("VBNet", "VB.NET");
-            correctionAdd("Visual Basic.Net", "VB.NET");
-            correctionAdd("visual basic.net", "VB.NET");
-            correctionAdd("Visual Basic .Net", "VB.NET");
-            correctionAdd("Visual Basic .NET", "VB.NET");
-            correctionAdd("VB .NET", "VB.NET");
-            correctionAdd("Visual Basic.net", "VB.NET");
-            correctionAdd("Visual Basic .net", "VB.NET");
-
-            correctionAdd("VB6", "Visual Basic 6.0");
-            correctionAdd("vb6", "Visual Basic 6.0");
-            correctionAdd("vb 6", "Visual Basic 6.0");
-            correctionAdd("Vb6", "Visual Basic 6.0");
-            correctionAdd("visual basic 6", "Visual Basic 6.0");
-            correctionAdd("VB 6", "Visual Basic 6.0");
-            correctionAdd("vb 6.0", "Visual Basic 6.0");
-            correctionAdd("visual basic 6.0", "Visual Basic 6.0");
-            correctionAdd("Visual basic 6.0", "Visual Basic 6.0");
-            correctionAdd("vb6.0", "Visual Basic 6.0");
-            correctionAdd("VB 6.0", "Visual Basic 6.0");
-            correctionAdd("Visual Basic 6", "Visual Basic 6.0");
-
             correctionAdd("scala", "Scala");
             correctionAdd("SCALA", "Scala");
 
@@ -20119,6 +20417,7 @@ namespace OverflowHelper.core
             correctionAdd("mech", "mechanical keyboard"); // A shortcut (for expansion)
             correctionAdd("Mech", "mechanical keyboard"); // A shortcut (for expansion)
             correctionAdd("MK", "mechanical keyboard");
+            correctionAdd("mech keyboard", "mechanical keyboard");
 
             // Sort of a type of mechanical keyboards
             correctionAdd("macro keypad", "macro pad");
@@ -20147,9 +20446,18 @@ namespace OverflowHelper.core
             correctionAdd("opticatility", "optical switch");
 
             // A type of RGB lighting for mechanical keyboards
+            //
+            // Alternative URL:
+            //   <https://www.reddit.com/r/MechanicalKeyboards/comments/dtygu1/eli5_whats_the_point_of_southfacing_leds_on/>
+            //
             correctionAdd("southside", "south-facing");
+            correctionAdd("south facing", "south-facing");
 
             // A type of RGB lighting for mechanical keyboards
+            //
+            // Alternative URL:
+            //   <https://keyboardsexpert.com/north-facing-vs-south-facing-keyboard-switches/>
+            //
             correctionAdd("north facing", "north-facing");
 
             // A component used in mechanical keyboards (to
@@ -20210,6 +20518,7 @@ namespace OverflowHelper.core
             correctionAdd("Mx switch", "Cherry MX");
             correctionAdd("mx switch", "Cherry MX");
             correctionAdd("mx sw", "Cherry MX");
+            correctionAdd("cherry MX", "Cherry MX");
 
             // A type of switch for mechanical keyboards
             // Linear
@@ -20241,6 +20550,7 @@ namespace OverflowHelper.core
             correctionAdd("mx brown", "Cherry MX Brown");
             correctionAdd("Mx Brown", "Cherry MX Brown");
             correctionAdd("MX brown", "Cherry MX Brown");
+            correctionAdd("brown", "Cherry MX Brown");
 
             // A type of switch for mechanical keyboards
             // Tactile, but not clicky
@@ -20279,6 +20589,7 @@ namespace OverflowHelper.core
             // Not to be confused with "Keil"
             correctionAdd("Kail", "Kailh");
             correctionAdd("Keihl", "Kailh");
+            correctionAdd("kailh", "Kailh");
 
             // A type of switch for mechanical keyboards
             // See also <https://switchandclick.com/kailh-switches-a-comprehensive-guide/>.
@@ -20314,11 +20625,20 @@ namespace OverflowHelper.core
             correctionAdd("Kailh Box V2", "Kailh BOX V2 Red switch");
 
             // A type of switch for mechanical keyboards
+            //
+            // Alternative URL:
+            //
+            //   <https://www.gateron.co/blogs/news/which-gateron-switch-should-i-choose>
+            //   <https://digiva.net/gateron-switch-guide/>
+            //     The most comprehensive
+            //   <https://gateron.com/products/gateron-g-pro-3-pin-switch-features>
+            //
             correctionAdd("gateron", "Gateron");
             correctionAdd("gataron", "Gateron");
             correctionAdd("Gatheron", "Gateron");
             correctionAdd("gatheron", "Gateron");
             correctionAdd("Gat", "Gateron");
+            correctionAdd("gat", "Gateron");
 
             // A type of switch for mechanical keyboards
             correctionAdd("gateron yellow", "Gateron Yellow");
@@ -20326,6 +20646,39 @@ namespace OverflowHelper.core
 
             // A type of switch for mechanical keyboards
             correctionAdd("gateron pink", "Gateron Pink");
+
+            // A type of switch for mechanical keyboards
+            correctionAdd("gat brown", "Gateron Brown");
+
+            // A type of switch for mechanical keyboards
+            correctionAdd("brown pro", "Gateron G Pro Brown");
+            correctionAdd("Gateron Brown Pro", "Gateron G Pro Brown");
+            correctionAdd("gat brown pro", "Gateron G Pro Brown");
+
+            // A type of switch for mechanical keyboards
+            correctionAdd("ink black", "Gateron Ink Black V2");
+
+            // A type of switch for mechanical keyboards
+            correctionAdd("gat blue cap", "Gateron Blue Cap");
+
+            // A type of switch for mechanical keyboards
+            correctionAdd("gat brown cap", "Gateron Brown Cap");
+
+            // A type of switch for mechanical keyboards
+            correctionAdd("Gateron G-Pro", "Gateron G Pro");
+
+            // Mechanical keyboards. A feature of Gateron G Pro switches
+            //
+            // Alternative URL:
+            //
+            //   <https://hhkeyboard.us/blog/gateron-switches-guide>
+            //
+            //     "The Gateron G Pro line was created for RGB-loving gamers
+            //       ... keyboard lighting solutions shine as bright as
+            //       possible ... a light-guiding column that concentrates
+            //       their illumination"
+            //
+            correctionAdd("RGB SMD condenser", "light-concentrating structure");
 
             // A type of switch for mechanical keyboards
             //
@@ -20471,6 +20824,7 @@ namespace OverflowHelper.core
             correctionAdd("Master Plus", "MasterPlus+");
             correctionAdd("master plus", "MasterPlus+");
             correctionAdd("cooler master plus", "MasterPlus+");
+            correctionAdd("Master+", "MasterPlus+");
 
             // A manufacturer of mechanical keyboards, etc.
             correctionAdd("razer", "Razer");
@@ -20590,6 +20944,17 @@ namespace OverflowHelper.core
             //
             correctionAdd("sk630", "SK630");
 
+            // Full-size mechanical keyboard ("TTC Low Profile Mechanical Switch").
+            // Wired only. RGB (per-key) lighting.
+            //
+            // Product sheet (the manual is not available):
+            //
+            //   <https://coolermaster.egnyte.com/dd/QDOfPJrMuu>
+            //
+            // Configuration software: MasterPlus+
+            // 
+            correctionAdd("sk652", "SK652");
+
             // Full-size mechanical keyboard from Cooler Master.
             // "TTC Low Profile Mechanical Switch".
             // Wired and wireless (Bluetooth only).
@@ -20599,6 +20964,8 @@ namespace OverflowHelper.core
             //
             //   <https://coolermaster.egnyte.com/dd/a2Z2qP3Zq1>
             //
+            // Configuration software: MasterPlus+
+            // 
             correctionAdd("sk653", "SK653");
 
             // A crippled (65%) mechanical keyboard
@@ -20609,6 +20976,8 @@ namespace OverflowHelper.core
             //
             //   <https://coolermaster.egnyte.com/dd/YnagZgiuQk>
             //
+            // Configuration software: MasterPlus+
+            // 
             correctionAdd("Ck721", "CK721");
             correctionAdd("CK 721", "CK721");
             correctionAdd("ck721", "CK721");
@@ -20622,25 +20991,26 @@ namespace OverflowHelper.core
             correctionAdd("mm710", "MM710");
 
             // A wired mouse from Cooler Master. Omron switches.
-            // Configuration software: MasterPlus+
             //
             // Manual:
             //
             //   <https://coolermaster.egnyte.com/dl/Mc4Ypejdiw/>
             //
+            // Configuration software: MasterPlus+
+            // 
             correctionAdd("mm711", "MM711");
 
             // A wired mouse from Cooler Master. Micro switches.
             //
             // Not to be confused with MM711 (without "LITE")
             //
-            // Configuration software: None!
-            //
             // Product sheet (no manual available):
             //
             //   <https://coolermaster.egnyte.com/dl/irgtZqTo1f/>
             //
-            correctionAdd("MM711 Lite", "MM711 LITE");
+            // Configuration software: None!
+            // 
+           correctionAdd("MM711 Lite", "MM711 LITE");
 
             // A mouse from Cooler Master.
             // Wireless (both Bluetooth and 2.4 GHz).
@@ -20664,12 +21034,13 @@ namespace OverflowHelper.core
 
             // A mouse from Cooler Master
             // Wireless (both Bluetooth and 2.4 GHz).
-            // Configuration software: MasterPlus+
             //
             // Manual:
             //
             //   <https://coolermaster.egnyte.com/dd/DF2ZH3v6Jd>
             //
+            // Configuration software: MasterPlus+
+            // 
             correctionAdd("mm731", "MM731");
 
             // A mechanical keyboard from Cooler Master
@@ -20877,48 +21248,11 @@ namespace OverflowHelper.core
             // about mechanical keyboards
             correctionAdd("glarses", "Glarses");
 
-            // Windows program to operate several keyboards
-            // ***independently*** (e.g., for a software-only
-            // solution for macro keyboards)
-            correctionAdd("HIDMacros", "HID Macros");
-            correctionAdd("hid macros", "HID Macros");
-            correctionAdd("HidMacros", "HID Macros");
-            correctionAdd("HIDmacros", "HID Macros");
-            correctionAdd("HID macros", "HID Macros");
-            correctionAdd("HIODMacros", "HID Macros");
-
             correctionAdd("Macro", "macro"); // No, not "macronutrient"...
 
             correctionAdd("Macronutrient", "macronutrient");
 
             correctionAdd("luamacros", "LuaMacros");
-
-            // Windows program to simulate key presses and mouse
-            // actions.  Keyboard
-            correctionAdd("Autoit", "AutoIt");
-            correctionAdd("autoit", "AutoIt");
-            correctionAdd("autoIt", "AutoIt");
-            correctionAdd("AutoIT", "AutoIt");
-            correctionAdd("auoti", "AutoIt");
-            correctionAdd("Auto-it", "AutoIt");
-            correctionAdd("Auto IT", "AutoIt");
-            correctionAdd("auto IT", "AutoIt");
-            correctionAdd("auto-it", "AutoIt");
-            correctionAdd("auto it", "AutoIt");
-            correctionAdd("autoIT", "AutoIt");
-            correctionAdd("AutiIT", "AutoIt"); // True typo...
-            correctionAdd("AitoIt", "AutoIt");
-
-            // Windows program to simulate key presses and mouse
-            // actions. Keyboard
-            correctionAdd("Autohotkey", "AutoHotkey");
-            correctionAdd("AHK", "AutoHotkey");
-            correctionAdd("AutoHotKey", "AutoHotkey");
-            correctionAdd("autohotkey", "AutoHotkey");
-            correctionAdd("Auto Hot Key", "AutoHotkey");
-            correctionAdd("AutoHotKeys", "AutoHotkey");
-            correctionAdd("autohotkeys", "AutoHotkey");
-            correctionAdd("ahk", "AutoHotkey");
 
             correctionAdd("key word", "keyword");
             correctionAdd("keword", "keyword");
@@ -21079,9 +21413,6 @@ namespace OverflowHelper.core
             //
             correctionAdd("monkeytype", "Monkeytype");
             correctionAdd("monkey type", "Monkeytype");
-
-            // A command-line tool for Windows
-            correctionAdd("CMDKEY", "cmdkey");
 
             correctionAdd("digikey", "Digi-Key");
             correctionAdd("Digikey", "Digi-Key");
@@ -21970,66 +22301,6 @@ namespace OverflowHelper.core
 
             correctionAdd("--Warith-conversion", "-Warith-conversion"); // For GCC
 
-            correctionAdd("WIX", "WiX");
-            correctionAdd("Wix", "WiX");
-            correctionAdd("wix", "WiX");
-            correctionAdd("WIx", "WiX");
-
-            // Now used for PowerShell:
-            //
-            //correctionAdd("p.s", "PS"); // Conflict with PowerShell.
-            //correctionAdd("P/S", "PS"); // Conflict with PowerShell.
-            //correctionAdd("P.s", "PS"); // Conflict with PowerShell. Really "P.s."
-            //
-            correctionAdd("Powershell", "PowerShell");
-            correctionAdd("powershell", "PowerShell");
-            correctionAdd("Power Shell", "PowerShell");
-            correctionAdd("power shell", "PowerShell");
-            correctionAdd("Power-shell", "PowerShell");
-            correctionAdd("Poweshell", "PowerShell"); // Misspelling.
-            correctionAdd("PSH", "PowerShell");
-            correctionAdd("POWERSHELL", "PowerShell");
-            correctionAdd("poowershell", "PowerShell");
-            correctionAdd("Powereshell", "PowerShell");
-            correctionAdd("Power shell", "PowerShell");
-            correctionAdd("poweshell", "PowerShell"); // Misspelling.
-            correctionAdd("power-shell", "PowerShell");
-            correctionAdd("powershelgl", "PowerShell"); // Misspelling.
-            correctionAdd("powershelll", "PowerShell");
-            correctionAdd("powershel", "PowerShell");
-            correctionAdd("Powerhshell", "PowerShell");
-            correctionAdd("Powershelll", "PowerShell");
-            correctionAdd("PoSH", "PowerShell");
-            correctionAdd("poSH", "PowerShell");
-            correctionAdd("POSH", "PowerShell");
-            correctionAdd("PoSh", "PowerShell");
-            correctionAdd("PS", "PowerShell"); // Conflict with abbr. "PS" for "post scriptum" - <https://en.wiktionary.org/wiki/PS#English>
-            correctionAdd("posh", "PowerShell");
-            correctionAdd("Posh", "PowerShell");
-            correctionAdd("powerShell", "PowerShell");
-            correctionAdd("POsh", "PowerShell");
-            correctionAdd("powsershell", "PowerShell");
-            correctionAdd("PoweShell", "PowerShell");
-            correctionAdd("psh", "PowerShell");
-            correctionAdd("powerschell", "PowerShell");
-            correctionAdd("pwsh", "PowerShell");
-            correctionAdd("PowerShells", "PowerShell");
-            correctionAdd("powersheel", "PowerShell");
-
-            correctionAdd("ISE", "PowerShell ISE");
-            correctionAdd("powershell ISE", "PowerShell ISE");
-            correctionAdd("powershell ise", "PowerShell ISE");
-            correctionAdd("ise", "PowerShell ISE");
-            correctionAdd("Powershell ISE", "PowerShell ISE");
-            correctionAdd("PowerShell ise", "PowerShell ISE");
-
-            correctionAdd("powershell core", "PowerShell Core");
-            correctionAdd("Powershell Core", "PowerShell Core");
-            correctionAdd("PSCore", "PowerShell Core");
-            correctionAdd("PS Core", "PowerShell Core");
-            correctionAdd("Powershell core", "PowerShell Core");
-            correctionAdd("PowerShell core", "PowerShell Core");
-
             correctionAdd("P.S", "post scriptum"); // Note: We don't have "PS" as it conflicts with "PowerShell".
             correctionAdd("P.s", "post scriptum");
             correctionAdd("P/S", "post scriptum");
@@ -22038,87 +22309,6 @@ namespace OverflowHelper.core
             correctionAdd("Expression blend", "Expression Blend");
             correctionAdd("blend", "Expression Blend");
             correctionAdd("Blend", "Expression Blend");
-
-            correctionAdd("ie", "Internet&nbsp;Explorer"); // Conflict with i.e. ...
-            correctionAdd("IE", "Internet&nbsp;Explorer");
-            correctionAdd("internet explorer", "Internet&nbsp;Explorer");
-            correctionAdd("internet explore", "Internet&nbsp;Explorer");
-            correctionAdd("I.E", "Internet&nbsp;Explorer");
-            correctionAdd("Internet Explorer", "Internet&nbsp;Explorer");
-            correctionAdd("internet-explorer", "Internet&nbsp;Explorer");
-            correctionAdd("interne explorer", "Internet&nbsp;Explorer");
-            correctionAdd("Internet explorer", "Internet&nbsp;Explorer");
-            correctionAdd("IExplorer", "Internet&nbsp;Explorer");
-            correctionAdd("Internet exlorer", "Internet&nbsp;Explorer"); // Misspelling
-            correctionAdd("iexplore", "Internet&nbsp;Explorer");
-            correctionAdd("iE", "Internet&nbsp;Explorer");
-            correctionAdd("internert explorer", "Internet&nbsp;Explorer");
-            correctionAdd("internet Explorer", "Internet&nbsp;Explorer");
-            correctionAdd("MSIE", "Internet&nbsp;Explorer");
-            correctionAdd("Internet Exploder", "Internet&nbsp;Explorer");
-            correctionAdd("Internet Exploere", "Internet&nbsp;Explorer");
-            correctionAdd("INTERNET EXPLORER", "Internet&nbsp;Explorer");
-            correctionAdd("nternet Explorer", "Internet&nbsp;Explorer");
-
-            correctionAdd("Internet Explorer 5", "Internet&nbsp;Explorer&nbsp;5"); // Sort of identity mapping
-            correctionAdd("IE 5", "Internet&nbsp;Explorer&nbsp;5");
-            correctionAdd("ie5", "Internet&nbsp;Explorer&nbsp;5");
-            correctionAdd("ie 5", "Internet&nbsp;Explorer&nbsp;5");
-            correctionAdd("IE5", "Internet&nbsp;Explorer&nbsp;5");
-
-            correctionAdd("IE6", "Internet&nbsp;Explorer&nbsp;6");
-            correctionAdd("IE 6", "Internet&nbsp;Explorer&nbsp;6");
-            correctionAdd("ie6", "Internet&nbsp;Explorer&nbsp;6");
-            correctionAdd("iE6", "Internet&nbsp;Explorer&nbsp;6");
-            correctionAdd("Internet Explorer 6", "Internet&nbsp;Explorer&nbsp;6");
-
-            correctionAdd("IE7", "Internet&nbsp;Explorer&nbsp;7");
-            correctionAdd("ie7", "Internet&nbsp;Explorer&nbsp;7");
-            correctionAdd("IE 7", "Internet&nbsp;Explorer&nbsp;7");
-            correctionAdd("Internet Explorer 7", "Internet&nbsp;Explorer&nbsp;7");
-            correctionAdd("ie 7", "Internet&nbsp;Explorer&nbsp;7");
-            correctionAdd("iE7", "Internet&nbsp;Explorer&nbsp;7");
-            correctionAdd("Internet&nbsp;Explorer 7", "Internet&nbsp;Explorer&nbsp;7");
-            correctionAdd("Ie7", "Internet&nbsp;Explorer&nbsp;7");
-            correctionAdd("IE-7", "Internet&nbsp;Explorer&nbsp;7");
-            correctionAdd("i.e. 7", "Internet&nbsp;Explorer&nbsp;7");
-
-            correctionAdd("IE8", "Internet&nbsp;Explorer&nbsp;8");
-            correctionAdd("ie8", "Internet&nbsp;Explorer&nbsp;8");
-            correctionAdd("IE 8", "Internet&nbsp;Explorer&nbsp;8");
-            correctionAdd("IE-8", "Internet&nbsp;Explorer&nbsp;8");
-            correctionAdd("Internet Explorer 8", "Internet&nbsp;Explorer&nbsp;8"); // Effectively self
-            correctionAdd("ie 8", "Internet&nbsp;Explorer&nbsp;8");
-            correctionAdd("i.e. 8", "Internet&nbsp;Explorer&nbsp;8");
-
-            correctionAdd("Internet Explorer 9", "Internet&nbsp;Explorer&nbsp;9");
-            correctionAdd("IE9", "Internet&nbsp;Explorer&nbsp;9");
-            correctionAdd("ie9", "Internet&nbsp;Explorer&nbsp;9");
-            correctionAdd("IE 9", "Internet&nbsp;Explorer&nbsp;9");
-            correctionAdd("ie 9", "Internet&nbsp;Explorer&nbsp;9");
-            correctionAdd("Internet&nbsp;Explorer 9", "Internet&nbsp;Explorer&nbsp;9");
-            correctionAdd("IE-9", "Internet&nbsp;Explorer&nbsp;9");
-
-            correctionAdd("Internet Explorer 10", "Internet&nbsp;Explorer&nbsp;10"); // Sort of identity mapping
-            correctionAdd("ie10", "Internet&nbsp;Explorer&nbsp;10");
-            correctionAdd("ie 10", "Internet&nbsp;Explorer&nbsp;10");
-            correctionAdd("IE 10", "Internet&nbsp;Explorer&nbsp;10");
-            correctionAdd("IE10", "Internet&nbsp;Explorer&nbsp;10");
-            correctionAdd("Internet&nbsp;Explorer 10", "Internet&nbsp;Explorer&nbsp;10");
-            correctionAdd("Explorer 10", "Internet&nbsp;Explorer&nbsp;10");
-
-            correctionAdd("ie11", "Internet&nbsp;Explorer&nbsp;11");
-            correctionAdd("ie 11", "Internet&nbsp;Explorer&nbsp;11");
-            correctionAdd("IE 11", "Internet&nbsp;Explorer&nbsp;11");
-            correctionAdd("IE11", "Internet&nbsp;Explorer&nbsp;11");
-            correctionAdd("Internet&nbsp;Explorer 11", "Internet&nbsp;Explorer&nbsp;11");
-            correctionAdd("Internet Explorer 11", "Internet&nbsp;Explorer&nbsp;11"); // Effectively self (line-breaks)
-            correctionAdd("MS IE 11", "Internet&nbsp;Explorer&nbsp;11");
-
-            // Windows web browser
-            correctionAdd("edge", "Edge");
-            correctionAdd("EDGE", "Edge");
-            correctionAdd("Microsoft Edge", "Edge");
 
             correctionAdd("latin", "Latin");
 
@@ -22602,6 +22792,15 @@ namespace OverflowHelper.core
             correctionAdd("gem", "RubyGems");
             correctionAdd("rubygem", "RubyGems");
 
+            correctionAdd("membet", "member");
+            correctionAdd("memeber", "member");
+            correctionAdd("meber", "member");
+
+            correctionAdd("memebers", "members");
+
+            correctionAdd("member of parliament", "Member of Parliament");
+            correctionAdd("MP", "Member of Parliament");
+
             correctionAdd("rememer", "remember");
             correctionAdd("rember", "remember");
             correctionAdd("remeber", "remember");
@@ -22612,14 +22811,6 @@ namespace OverflowHelper.core
             correctionAdd("Rememebr", "remember");
 
             correctionAdd("remebered", "remembered");
-
-            correctionAdd("membet", "member");
-            correctionAdd("memeber", "member");
-
-            correctionAdd("memebers", "members");
-
-            correctionAdd("member of parliament", "Member of Parliament");
-            correctionAdd("MP", "Member of Parliament");
 
             correctionAdd("atke", "take");
 
@@ -23899,10 +24090,6 @@ namespace OverflowHelper.core
             // A webcam application. GNOME
             correctionAdd("cheese", "Cheese");
 
-            // Windows
-            correctionAdd("RegEdit.exe", "RegEdit");
-            correctionAdd("regedit", "RegEdit");
-
             correctionAdd("BBedit", "BBEdit");
             correctionAdd("Bbedit", "BBEdit");
             correctionAdd("bbedit", "BBEdit");
@@ -24672,16 +24859,6 @@ namespace OverflowHelper.core
             correctionAdd("MSHTML", "Trident");
             correctionAdd("trident", "Trident");
 
-            // A Windows application
-            correctionAdd("calc.exe", "Calculator");
-
-            // Windows
-            correctionAdd("CHM", "Microsoft Compiled HTML Help");
-
-            // Windows.
-            correctionAdd("winmerge", "WinMerge");
-            correctionAdd("Winmerge", "WinMerge");
-
             correctionAdd("firefox", "Firefox");
             correctionAdd("firfox", "Firefox");
             correctionAdd("FF", "Firefox");
@@ -25045,7 +25222,10 @@ namespace OverflowHelper.core
             // Computer science
             correctionAdd("Knuth", "Donald Knuth");
 
+            // Perl. Regular expressions
             correctionAdd("pcre", "PCRE");
+
+            correctionAdd("PCRE 2", "PCRE2");
 
             correctionAdd("SAFARI", "Safari");
             correctionAdd("safari", "Safari");
@@ -27406,23 +27586,6 @@ namespace OverflowHelper.core
 
             correctionAdd("fql", "FQL");
 
-            correctionAdd("taskmgr", "Task Manager");
-            correctionAdd("task manager", "Task Manager");
-            correctionAdd("taskmanager", "Task Manager");
-            correctionAdd("Task manager", "Task Manager");
-            correctionAdd("TaskManager", "Task Manager");
-            correctionAdd("tasks manager", "Task Manager");
-            correctionAdd("Taskmanager", "Task Manager");
-
-            correctionAdd("SysInternals", "Sysinternals");
-            correctionAdd("Sys Internals", "Sysinternals");
-            correctionAdd("sysInternals", "Sysinternals");
-            correctionAdd("sysinternals", "Sysinternals");
-
-            // Windows. Files / folders.
-            correctionAdd("unc", "UNC");
-            correctionAdd("Universal Naming Convention", "UNC");
-
             correctionAdd("rf", "RF");
 
             correctionAdd("lob", "LOB");
@@ -27653,8 +27816,9 @@ namespace OverflowHelper.core
             correctionAdd("tuf", "Asus TUF Gaming F15");
 
             // An Asus product brand
-            correctionAdd("ROG", "Republic of Gamers");
+            correctionAdd("ROG", "Republic of Gamers"); // "ROG" is the proper shorthand
             correctionAdd("rog", "Republic of Gamers");
+            correctionAdd("RoG", "Republic of Gamers");
 
             correctionAdd("captcha", "CAPTCHA");
             correctionAdd("catpcha", "CAPTCHA");
@@ -28065,6 +28229,7 @@ namespace OverflowHelper.core
             correctionAdd("OpenaAI", "OpenAI");
             correctionAdd("open AI", "OpenAI");
             correctionAdd("open ai", "OpenAI");
+            correctionAdd("openAi", "OpenAI");
 
             // Related to artificial intelligence (AI)
             correctionAdd("GPT3", "GPT-3");
@@ -29223,12 +29388,6 @@ namespace OverflowHelper.core
             correctionAdd("how to", "how-to");
             correctionAdd("HOWTO", "how-to");
             correctionAdd("How-to", "how-to");
-
-            // Windows
-            correctionAdd("Filemon", "FileMon");
-            correctionAdd("filemon", "FileMon");
-            correctionAdd("FILEMON", "FileMon");
-            correctionAdd("filemonitor", "FileMon");
 
             correctionAdd("us", "µs"); // Microseconds.
             correctionAdd("uS", "µs"); // Microseconds.
@@ -31270,26 +31429,6 @@ namespace OverflowHelper.core
             correctionAdd("european", "European");
 
             correctionAdd("europe", "Europe");
-
-            correctionAdd("total Commander", "Total Commander");
-            correctionAdd("total commander", "Total Commander");
-            correctionAdd("Total commander", "Total Commander");
-
-            // A Windows application
-            correctionAdd("altap Salamander", "Altap Salamander");
-            correctionAdd("Slamander", "Altap Salamander");
-
-            // A Windows utility / application
-            correctionAdd("Puretext", "PureText");
-
-            // Windows. NTFS.
-            correctionAdd("resource fork on Windows", "alternate data stream");
-            correctionAdd("ADS", "alternate data stream");
-            correctionAdd("Alternate Data Stream", "alternate data stream");
-            correctionAdd("Alternate Data Streams", "alternate data stream");
-
-            correctionAdd("Windows Store", "Microsoft Store");
-            correctionAdd("Windows store", "Microsoft Store");
 
             // An oscilloscope manufacturer
             correctionAdd("Tektronics", "Tektronix");
@@ -36885,6 +37024,12 @@ namespace OverflowHelper.core
             correctionAdd("recegnise", "recognise");
             correctionAdd("recegnize", "recognise");
 
+            correctionAdd("recognizing", "recognising");
+            correctionAdd("recogonizing", "recognising");
+            correctionAdd("regognizing", "recognising");
+
+            correctionAdd("regognition", "recognition");
+
             correctionAdd("repeatation", "repetition");
             correctionAdd("repetiton", "repetition");
 
@@ -37068,21 +37213,6 @@ namespace OverflowHelper.core
 
             correctionAdd("powerfull", "powerful");
             correctionAdd("powwrful", "powerful");
-
-            correctionAdd("Command Prompt", "cmd.exe");
-            correctionAdd("cmd", "cmd.exe");
-            correctionAdd("Command&nbsp;Prompt", "cmd.exe");
-            correctionAdd("CMD", "cmd.exe");
-            correctionAdd("CMD.exe", "cmd.exe");
-            correctionAdd("CMD.EXE", "cmd.exe");
-
-            // DOS / Windows
-            correctionAdd("Batch file", "batch file");
-
-            correctionAdd("Cmdlet", "cmdlet");
-            correctionAdd("CmdLet", "cmdlet");
-            correctionAdd("commandlet", "cmdlet");
-            correctionAdd("cmd-let", "cmdlet");
 
             correctionAdd("cli", "command-line interface");
             correctionAdd("Command Line Interface", "command-line interface");
@@ -41583,10 +41713,6 @@ namespace OverflowHelper.core
 
             correctionAdd("FTW", "for the win");
             correctionAdd("ftw", "for the win");
-
-            correctionAdd("recognizing", "recognising");
-            correctionAdd("recogonizing", "recognising");
-            correctionAdd("regognizing", "recognising");
 
             correctionAdd("signning", "signing");
 
@@ -48771,21 +48897,6 @@ namespace OverflowHelper.core
 
             correctionAdd("whathaveyou", "what have you");
 
-            correctionAdd("Word 2007", "Microsoft Word 2007");
-            correctionAdd("MS Word 2007", "Microsoft Word 2007");
-
-            correctionAdd("Word 2010", "Microsoft Word 2010");
-            correctionAdd("MS Word 2010", "Microsoft Word 2010");
-
-            correctionAdd("Publisher", "Microsoft Publisher");
-
-            correctionAdd("Microsoft Hardware Diagnostic tool", "Hwinfo.exe");
-
-            correctionAdd("PnP", "Microsoft 365 Patterns & Practices");
-
-            correctionAdd("Windows Intune", "Microsoft Intune");
-            correctionAdd("Intune", "Microsoft Intune");
-
             correctionAdd("Redux Devtools", "Redux DevTools");
 
             correctionAdd("tslint", "TSLint");
@@ -48973,6 +49084,7 @@ namespace OverflowHelper.core
             correctionAdd("attibuted", "attributed");
 
             correctionAdd("misstagged", "mistagged");
+            correctionAdd("mis-tagged", "mistagged");
 
             correctionAdd("non-conforming", "nonconforming");
 
@@ -56349,9 +56461,6 @@ namespace OverflowHelper.core
 
             correctionAdd("un-answerable", "unanswerable");
 
-            // Windows
-            correctionAdd("services.msc", "Services.msc");
-
             correctionAdd("imba", "Imba");
 
             correctionAdd("succesor", "successor");
@@ -56999,9 +57108,6 @@ namespace OverflowHelper.core
 
             correctionAdd("weakning", "weakening");
 
-            correctionAdd("Windows RT", "Windows&nbsp;RT");
-            correctionAdd("WindowsRT", "Windows&nbsp;RT");
-
             correctionAdd("drogon", "Drogon"); // A C++ library
 
             correctionAdd("Lucas-Kanade method", "Lucas–Kanade method");
@@ -57311,14 +57417,6 @@ namespace OverflowHelper.core
             // An island
             correctionAdd("Curacao", "Curaçao");
 
-            // Windows. Disk partitioning, including assigning drive letter.
-            //
-            // Alternative URL:
-            //
-            //   <https://ss64.com/nt/diskpart.html>
-            //
-            correctionAdd("DISKPART", "diskpart");
-
             // An island
             correctionAdd("saba", "Saba");
 
@@ -57357,28 +57455,28 @@ namespace OverflowHelper.core
             correctionAdd("dmg", "Apple Disk Image");
             correctionAdd(".dmg", "Apple Disk Image");
 
-            correctionAdd("keybinding.json", "keybindings.json");
-
-            correctionAdd("regognition", "recognition");
-
-            // Windows
-            correctionAdd("system32", "System32");
-            correctionAdd("system 32", "System32");
-
-            correctionAdd("PCRE 2", "PCRE2");
-
             correctionAdd("fridge", "refrigerator");
             correctionAdd("refrigator", "refrigerator");
 
             // Alternative URLs:
             //
             //   <https://meta.stackoverflow.com/questions/418569/>
-            //     Oceanbase tag is being used for fake questions and answers
+            //     "The Oceanbase tag is being used for
+            //      fake questions and answers"
             //
             //
             correctionAdd("OceanBase", "OceanBase Database");
             correctionAdd("Oceanbase", "OceanBase Database");
             correctionAdd("oceanbase", "OceanBase Database");
+
+            correctionAdd("Submitting", "submitting");
+
+            correctionAdd("sign on bonus", "sign-on bonus");
+
+            correctionAdd("ommission", "omission");
+
+            // A kind of glue
+            correctionAdd("two component adhesive", "two-component adhesive");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -87293,7 +87391,7 @@ namespace OverflowHelper.core
 
             URL_Add("droplet", "https://en.wikipedia.org/wiki/DigitalOcean#Products_and_business_model");
 
-            URL_Add("south-facing", "https://www.reddit.com/r/MechanicalKeyboards/comments/dtygu1/eli5_whats_the_point_of_southfacing_leds_on/");
+            URL_Add("south-facing", "https://keyboardsexpert.com/north-facing-vs-south-facing-keyboard-switches/");
 
             URL_Add("96%", "https://switchandclick.com/keyboard-sizes/");
 
@@ -88212,6 +88310,30 @@ namespace OverflowHelper.core
             URL_Add("refrigerator", "https://en.wiktionary.org/wiki/refrigerator#Noun");
 
             URL_Add("OceanBase Database", "https://github.com/oceanbase/oceanbase");
+
+            URL_Add("Gateron Brown", "https://dailyclack.com/products/gateron-switches");
+
+            URL_Add("light-concentrating structure", "https://www.keychron.com/products/gateron-g-pro-2-0-switch");
+
+            URL_Add("submitting", "https://en.wiktionary.org/wiki/submit#Verb");
+
+            URL_Add("Gateron Ink Black V2", "https://www.gateron.co/blogs/news/what-s-the-best-gateron-linear-switch-for-mechanical-keyboards");
+
+            URL_Add("Gateron G Pro Brown", "https://www.gateron.co/collections/g-pro-series/products/gateron-switch-set?variant=40017397448793");
+
+            URL_Add("Gateron Blue Cap", "https://www.gateron.co/blogs/news/a-detailed-review-of-the-gateron-cap-blue-and-cap-brown-switches");
+
+            URL_Add("Gateron Brown Cap", "https://www.gateron.co/blogs/news/a-detailed-review-of-the-gateron-cap-blue-and-cap-brown-switches");
+
+            URL_Add("Gateron G Pro", "https://hhkeyboard.us/blog/gateron-switches-guide");
+
+            URL_Add("sign-on bonus", "https://en.wikipedia.org/wiki/Signing_bonus");
+
+            URL_Add("SK652", "https://www.coolermaster.com/catalog/peripheral/keyboards/sk652/");
+
+            URL_Add("omission", "https://en.wiktionary.org/wiki/omission#Noun");
+
+            URL_Add("two-component adhesive", "https://en.wikipedia.org/wiki/Adhesive#Multi-part");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
