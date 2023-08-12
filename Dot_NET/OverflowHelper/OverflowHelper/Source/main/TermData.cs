@@ -13195,6 +13195,7 @@ namespace OverflowHelper.core
             correctionAdd("Visual Studio Code settings", "settings.json");
             correctionAdd("setting.json", "settings.json");
             correctionAdd("settings json", "settings.json");
+            correctionAdd("settings.xml", "settings.json");
 
             // A Visual Studio Code configuration file
             correctionAdd("task.json", "tasks.json");
@@ -20952,7 +20953,7 @@ namespace OverflowHelper.core
             //   <https://coolermaster.egnyte.com/dd/QDOfPJrMuu>
             //
             // Configuration software: MasterPlus+
-            // 
+            //
             correctionAdd("sk652", "SK652");
 
             // Full-size mechanical keyboard from Cooler Master.
@@ -20965,7 +20966,7 @@ namespace OverflowHelper.core
             //   <https://coolermaster.egnyte.com/dd/a2Z2qP3Zq1>
             //
             // Configuration software: MasterPlus+
-            // 
+            //
             correctionAdd("sk653", "SK653");
 
             // A crippled (65%) mechanical keyboard
@@ -20977,7 +20978,7 @@ namespace OverflowHelper.core
             //   <https://coolermaster.egnyte.com/dd/YnagZgiuQk>
             //
             // Configuration software: MasterPlus+
-            // 
+            //
             correctionAdd("Ck721", "CK721");
             correctionAdd("CK 721", "CK721");
             correctionAdd("ck721", "CK721");
@@ -20997,7 +20998,7 @@ namespace OverflowHelper.core
             //   <https://coolermaster.egnyte.com/dl/Mc4Ypejdiw/>
             //
             // Configuration software: MasterPlus+
-            // 
+            //
             correctionAdd("mm711", "MM711");
 
             // A wired mouse from Cooler Master. Micro switches.
@@ -21009,7 +21010,7 @@ namespace OverflowHelper.core
             //   <https://coolermaster.egnyte.com/dl/irgtZqTo1f/>
             //
             // Configuration software: None!
-            // 
+            //
            correctionAdd("MM711 Lite", "MM711 LITE");
 
             // A mouse from Cooler Master.
@@ -21040,7 +21041,7 @@ namespace OverflowHelper.core
             //   <https://coolermaster.egnyte.com/dd/DF2ZH3v6Jd>
             //
             // Configuration software: MasterPlus+
-            // 
+            //
             correctionAdd("mm731", "MM731");
 
             // A mechanical keyboard from Cooler Master
@@ -24137,6 +24138,14 @@ namespace OverflowHelper.core
             correctionAdd("spilt", "split");
 
             correctionAdd("ommit", "omit");
+
+            correctionAdd("ommitting", "omitting");
+
+            correctionAdd("omited", "omitted");
+            correctionAdd("ommited", "omitted");
+            correctionAdd("ommitted", "omitted");
+
+            correctionAdd("ommission", "omission");
 
             correctionAdd("gerrit", "Gerrit");
 
@@ -36355,6 +36364,7 @@ namespace OverflowHelper.core
             correctionAdd("command pallet", "Command Palette");
             correctionAdd("command pallete", "Command Palette");
             correctionAdd("command palette", "Command Palette");
+            correctionAdd("Command Pallete", "Command Palette");
 
             correctionAdd("brackets", "Brackets");
 
@@ -38207,17 +38217,21 @@ namespace OverflowHelper.core
 
             correctionAdd("Kan", "Kan (Paulsen) Variation"); // Chess
 
-            correctionAdd("Harikrishna", "Pentala Harikrishna"); // Chess
-            correctionAdd("harichrisna", "Pentala Harikrishna"); // Chess
-            correctionAdd("harikrisna", "Pentala Harikrishna"); // Chess
+            // Chess
+            correctionAdd("Harikrishna", "Pentala Harikrishna");
+            correctionAdd("harichrisna", "Pentala Harikrishna");
+            correctionAdd("harikrisna", "Pentala Harikrishna");
 
-            correctionAdd("Chucky", "Vassily Ivanchuk"); // Chess
-            correctionAdd("chucky", "Vassily Ivanchuk"); // Chess
-            correctionAdd("Ivanchuck", "Vassily Ivanchuk"); // Chess
-            correctionAdd("Ivanchuk", "Vassily Ivanchuk"); // Chess
-            correctionAdd("ivanchuk", "Vassily Ivanchuk"); // Chess
+            // Chess
+            correctionAdd("Chucky", "Vassily Ivanchuk");
+            correctionAdd("chucky", "Vassily Ivanchuk");
+            correctionAdd("Ivanchuck", "Vassily Ivanchuk");
+            correctionAdd("Ivanchuk", "Vassily Ivanchuk");
+            correctionAdd("ivanchuk", "Vassily Ivanchuk");
+            correctionAdd("Chuk", "Vassily Ivanchuk");
 
-            correctionAdd("Chess", "chess"); // Chess
+            // Chess
+            correctionAdd("Chess", "chess");
             correctionAdd("checss", "chess");
 
             correctionAdd("chess board", "chessboard"); // Chess
@@ -38876,6 +38890,14 @@ namespace OverflowHelper.core
             correctionAdd("remotly", "remotely");
 
             correctionAdd("submiter", "submitter");
+
+            correctionAdd("submited", "submitted");
+            correctionAdd("Summitted", "submitted");
+            correctionAdd("summitted", "submitted");
+
+            correctionAdd("sumbit", "submit");
+
+            correctionAdd("Submitting", "submitting");
 
             correctionAdd("taxing", "taxiing");
             correctionAdd("taxying", "taxiing");
@@ -47693,8 +47715,6 @@ namespace OverflowHelper.core
             correctionAdd("Multi-platform", "multi-platform");
             correctionAdd("Multi platform", "multi-platform");
 
-            correctionAdd("ommitting", "omitting");
-
             correctionAdd("psush", "push");
 
             correctionAdd("Spider Oak", "SpiderOak");
@@ -50718,10 +50738,6 @@ namespace OverflowHelper.core
 
             correctionAdd("metaheuristics", "metaheuristic");
             correctionAdd("Metaheuristic", "metaheuristic");
-
-            correctionAdd("omited", "omitted");
-            correctionAdd("ommited", "omitted");
-            correctionAdd("ommitted", "omitted");
 
             correctionAdd("Optimization Problem", "optimization problem");
 
@@ -54451,10 +54467,6 @@ namespace OverflowHelper.core
 
             correctionAdd("rankmath", "Rank Math");
 
-            correctionAdd("submited", "submitted");
-            correctionAdd("Summitted", "submitted");
-            correctionAdd("summitted", "submitted");
-
             correctionAdd("on your own risk", "at your own risk");
 
             correctionAdd("GGplot2", "ggplot2");
@@ -54491,8 +54503,6 @@ namespace OverflowHelper.core
             correctionAdd("DDS", "direct digital synthesis");
 
             correctionAdd("incedental", "incidental");
-
-            correctionAdd("sumbit", "submit");
 
             correctionAdd("eye sore", "eyesore");
 
@@ -57469,11 +57479,7 @@ namespace OverflowHelper.core
             correctionAdd("Oceanbase", "OceanBase Database");
             correctionAdd("oceanbase", "OceanBase Database");
 
-            correctionAdd("Submitting", "submitting");
-
             correctionAdd("sign on bonus", "sign-on bonus");
-
-            correctionAdd("ommission", "omission");
 
             // A kind of glue
             correctionAdd("two component adhesive", "two-component adhesive");
