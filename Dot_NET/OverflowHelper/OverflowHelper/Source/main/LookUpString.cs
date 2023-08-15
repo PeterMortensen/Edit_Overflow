@@ -107,6 +107,15 @@ namespace OverflowHelper.core
                 //          %
                 //          ~
 
+                // Double quotes. Sample: "8 "Jessie""
+                (aRawString[endIdx] != '\"') &&
+
+                // Single quotes. Sample: "'like button'"
+                (aRawString[endIdx] != '\'') &&
+
+                // Real apostrophe. Sample: "I’"
+                (aRawString[endIdx] != '’') &&
+
                 // For words in the alternative word set (we use
                 // the convention of a trailing underscore)
                 (aRawString[endIdx] != '_') &&
@@ -116,9 +125,6 @@ namespace OverflowHelper.core
 
                 // Sample: "&mdash;"
                 (aRawString[endIdx] != ';') &&
-
-                // Single quotes. Sample: "'like button'"
-                (aRawString[endIdx] != '\'') &&
 
                 // Sample: "Hello, World!"
                 (aRawString[endIdx] != '!') &&
@@ -149,9 +155,6 @@ namespace OverflowHelper.core
 
                 // Sample: "M$"
                 (aRawString[endIdx] != '$') &&
-
-                // Sample: "8 "Jessie""
-                (aRawString[endIdx] != '\"') &&
 
                 // Sample: "<br>"
                 (aRawString[endIdx] != '>') &&
@@ -186,7 +189,7 @@ namespace OverflowHelper.core
                 // Sample: "Perú"
                 (aRawString[endIdx] != 'ú') &&
 
-                // U+0131 (LATIN SMALL LETTER DOTLESS I). E.g., 
+                // U+0131 (LATIN SMALL LETTER DOTLESS I). E.g.,
                 // from Turkish systems.
                 //
                 // Sample: "Hı"

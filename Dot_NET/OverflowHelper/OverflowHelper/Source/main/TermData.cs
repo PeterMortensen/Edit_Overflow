@@ -2541,6 +2541,8 @@ namespace OverflowHelper.core
             correctionAdd("It'm", "I’m");
             correctionAdd("ım", "I’m"); // The "i" is U+0131 (LATIN SMALL LETTER DOTLESS I) used in Turkey, etc. (<https://en.wikipedia.org/wiki/Dotless_I>) UTF-8: 304 261 (octal). 0xC4 0xB1 (hexadecimal). <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=300>. It can be searched for using the regular expression \x{0131} ("\u0131" in Visual Studio Code and some others).
             correctionAdd("I yam", "I’m");
+            correctionAdd("I'", "I’m");
+            correctionAdd("I’", "I’m");
 
             correctionAdd("isnt", "isn’t");
             correctionAdd("aint", "isn’t");
@@ -4830,7 +4832,7 @@ namespace OverflowHelper.core
             // A Java library (Android)
             correctionAdd("dagger", "Dagger");
 
-            // Related to the Java library Dagger
+            // Related to the Dagger Java library
             correctionAdd("hilt", "Hilt");
 
             // Java
@@ -7482,7 +7484,7 @@ namespace OverflowHelper.core
             correctionAdd("evil mode", "Evil Mode");
             correctionAdd("Evil mode", "Evil Mode");
 
-            // A Emacs plugin
+            // An Emacs plugin
             correctionAdd("neotree", "Neo Tree");
 
             correctionAdd("Midevil", "medieval");
@@ -9462,6 +9464,97 @@ namespace OverflowHelper.core
 
             correctionAdd("polynormal", "polynomial");
 
+            correctionAdd("genge", "change");
+            correctionAdd("Chnage", "change");
+            correctionAdd("Change", "change");
+            correctionAdd("chenge", "change");
+            correctionAdd("chnage", "change");
+            correctionAdd("chaing", "change");
+            correctionAdd("Chage", "change");
+            correctionAdd("chage", "change");
+            correctionAdd("chance", "change");
+            correctionAdd("chng", "change");
+            correctionAdd("chang", "change");
+            correctionAdd("changer", "change");
+
+            correctionAdd("chaininng", "chaining");
+
+            correctionAdd("tool chain", "toolchain");
+            correctionAdd("Toolchain", "toolchain");
+
+            correctionAdd("tool chains", "toolchains");
+
+            correctionAdd("on chains", "in chains");
+
+            correctionAdd("daisychain", "daisy chain");
+            correctionAdd("daisy-chain", "daisy chain");
+
+            correctionAdd("key chain", "keychain");
+
+            // Alternative URL: <https://en.wiktionary.org/wiki/supply_chain#Noun>
+            correctionAdd("Supply Chain", "supply chain");
+            correctionAdd("supplychain", "supply chain");
+
+            correctionAdd("KPI", "key performance indicator");
+
+            correctionAdd("k/v", "key-value");
+            correctionAdd("key/value", "key-value");
+
+            correctionAdd("MCMC", "Markov chain Monte Carlo");
+
+            correctionAdd("Poisson Distribution", "Poisson distribution");
+
+            correctionAdd("markov chain", "Markov chain");
+            correctionAdd("Markov's chain", "Markov chain");
+
+            correctionAdd("bigchaindb", "BigchainDB");
+            correctionAdd("Bigchaindb", "BigchainDB");
+
+            correctionAdd("chainload", "chain load");
+
+            correctionAdd("laod", "load");
+            correctionAdd("Load", "load");
+
+            correctionAdd("re-load", "reload");
+            correctionAdd("Relaod", "reload");
+            correctionAdd("relaod", "reload");
+            correctionAdd("Realod", "reload");
+            correctionAdd("realod", "reload");
+
+            correctionAdd("DL", "download");
+            correctionAdd("dwnld", "download");
+            correctionAdd("DLing", "download"); // Not 100% correct ("ing" should be added)
+            correctionAdd("downlaod", "download");
+            correctionAdd("dl", "download");
+            correctionAdd("dowload", "download");
+            correctionAdd("donwload", "download");
+            correctionAdd("Downalod", "download");
+            correctionAdd("downalod", "download");
+            correctionAdd("Dowloaad", "download");
+            correctionAdd("Dowload", "download");
+            correctionAdd("downlead", "download");
+            correctionAdd("dosnload", "download");
+            correctionAdd("Downlad", "download");
+            correctionAdd("downlad", "download");
+            correctionAdd("Down load", "download");
+            correctionAdd("Download", "download");
+
+            correctionAdd("uplaod", "upload");
+            correctionAdd("uload", "upload");
+            correctionAdd("uoload", "upload");
+            correctionAdd("uploade", "upload");
+
+            correctionAdd("re-upload", "reupload");
+
+            correctionAdd("truck load", "truckload");
+
+            correctionAdd("boat load", "boatload");
+
+            correctionAdd("playload", "payload");
+            correctionAdd("Payload", "payload");
+
+            correctionAdd("work load", "workload");
+
             // Blockchain / cryptocurrency
             correctionAdd("Polakdot", "Polkadot");
             correctionAdd("polkadot", "Polkadot");
@@ -9481,6 +9574,17 @@ namespace OverflowHelper.core
             correctionAdd("Polkadot{JS}", "polkadot{.js}");
             correctionAdd("@polkadot{.js}", "polkadot{.js}");
             correctionAdd("Polkadot{.js}", "polkadot{.js}");
+
+            correctionAdd("Blockchain", "blockchain");
+            correctionAdd("Block chain", "blockchain");
+            correctionAdd("block chain", "blockchain");
+
+            correctionAdd("RSK blockchain", "Rootstock blockchain");
+            correctionAdd("RSK", "Rootstock blockchain");
+            correctionAdd("Rootstock Blockchain", "Rootstock blockchain");
+
+            correctionAdd("Smart contract", "smart contract");
+            correctionAdd("Smart Contract", "smart contract");
 
             correctionAdd("polute", "pollute");
 
@@ -11730,19 +11834,6 @@ namespace OverflowHelper.core
             correctionAdd("eris", "Eris");
 
             correctionAdd("idris", "Idris");
-
-            correctionAdd("genge", "change");
-            correctionAdd("Chnage", "change");
-            correctionAdd("Change", "change");
-            correctionAdd("chenge", "change");
-            correctionAdd("chnage", "change");
-            correctionAdd("chaing", "change");
-            correctionAdd("Chage", "change");
-            correctionAdd("chage", "change");
-            correctionAdd("chance", "change");
-            correctionAdd("chng", "change");
-            correctionAdd("chang", "change");
-            correctionAdd("changer", "change");
 
             correctionAdd("Diffie-Hellman", "Diffie–Hellman key exchange");
             correctionAdd("diffie hellman", "Diffie–Hellman key exchange");
@@ -16528,7 +16619,7 @@ namespace OverflowHelper.core
             correctionAdd("C Preprocessor", "C preprocessor");
             correctionAdd("c pre processor", "C preprocessor");
 
-             // Duplicate of "C preprocessor"?
+            // Duplicate of "C preprocessor"?
             correctionAdd("pre-processor", "preprocessor");
             correctionAdd("proprocessor", "preprocessor");
             correctionAdd("precompiler", "preprocessor");
@@ -21958,13 +22049,6 @@ namespace OverflowHelper.core
             correctionAdd("Keyword", "keyword");
             correctionAdd("keywork", "keyword");
 
-            correctionAdd("key chain", "keychain");
-
-            correctionAdd("k/v", "key-value");
-            correctionAdd("key/value", "key-value");
-
-            correctionAdd("KPI", "key performance indicator");
-
             // Keyboard
             correctionAdd("number pad", "numeric keypad");
             correctionAdd("ten key", "numeric keypad");
@@ -22377,51 +22461,6 @@ namespace OverflowHelper.core
             correctionAdd("null-pointer", "null pointer");
             correctionAdd("nullpointer", "null pointer");
             correctionAdd("nullptr", "null pointer");
-
-            correctionAdd("laod", "load");
-            correctionAdd("Load", "load");
-
-            correctionAdd("re-load", "reload");
-            correctionAdd("Relaod", "reload");
-            correctionAdd("relaod", "reload");
-            correctionAdd("Realod", "reload");
-            correctionAdd("realod", "reload");
-
-            correctionAdd("DL", "download");
-            correctionAdd("dwnld", "download");
-            correctionAdd("DLing", "download"); // Not 100% correct ("ing" should be added)
-            correctionAdd("downlaod", "download");
-            correctionAdd("dl", "download");
-            correctionAdd("dowload", "download");
-            correctionAdd("donwload", "download");
-            correctionAdd("Downalod", "download");
-            correctionAdd("downalod", "download");
-            correctionAdd("Dowloaad", "download");
-            correctionAdd("Dowload", "download");
-            correctionAdd("downlead", "download");
-            correctionAdd("dosnload", "download");
-            correctionAdd("Downlad", "download");
-            correctionAdd("downlad", "download");
-            correctionAdd("Down load", "download");
-            correctionAdd("Download", "download");
-
-            correctionAdd("uplaod", "upload");
-            correctionAdd("uload", "upload");
-            correctionAdd("uoload", "upload");
-            correctionAdd("uploade", "upload");
-
-            correctionAdd("re-upload", "reupload");
-
-            correctionAdd("truck load", "truckload");
-
-            correctionAdd("boat load", "boatload");
-
-            correctionAdd("chainload", "chain load");
-
-            correctionAdd("playload", "payload");
-            correctionAdd("Payload", "payload");
-
-            correctionAdd("work load", "workload");
 
             correctionAdd("statment", "statement");
             correctionAdd("statemet", "statement");
@@ -26574,8 +26613,6 @@ namespace OverflowHelper.core
 
             correctionAdd("on this way", "in this way");
             correctionAdd("On this way", "in this way");
-
-            correctionAdd("on chains", "in chains");
 
             correctionAdd("in the longer run", "in the long run");
             correctionAdd("On the long run", "in the long run");
@@ -33961,10 +33998,6 @@ namespace OverflowHelper.core
             correctionAdd("JetBrain", "JetBrains");
             correctionAdd("Jetbrain", "JetBrains");
 
-            correctionAdd("Blockchain", "blockchain");
-            correctionAdd("Block chain", "blockchain");
-            correctionAdd("block chain", "blockchain");
-
             correctionAdd("commited", "committed");
             correctionAdd("comitted", "committed");
 
@@ -39779,9 +39812,6 @@ namespace OverflowHelper.core
             correctionAdd("prgrammer", "programmer");
             correctionAdd("Programmer", "programmer");
 
-            correctionAdd("tool chain", "toolchain");
-            correctionAdd("Toolchain", "toolchain");
-
             correctionAdd("track", "trick");
 
             correctionAdd("Tenure-Track", "tenure-track");
@@ -39834,6 +39864,7 @@ namespace OverflowHelper.core
             correctionAdd("doubleqoute", "double quote");
             correctionAdd("double-qoute", "double quote");
             correctionAdd("speech mark", "double quote");
+            correctionAdd("Double quote", "double quote");
 
             correctionAdd("down sample", "downsample");
 
@@ -45426,9 +45457,6 @@ namespace OverflowHelper.core
             correctionAdd("cess pool", "cesspool");
             correctionAdd("session pool", "cesspool");
 
-            correctionAdd("daisychain", "daisy chain");
-            correctionAdd("daisy-chain", "daisy chain");
-
             correctionAdd("durign", "during");
             correctionAdd("druing", "during");
             correctionAdd("durng", "during");
@@ -49435,10 +49463,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Fortune 50", "Fortune 500");
 
-            correctionAdd("MCMC", "Markov chain Monte Carlo");
-
-            correctionAdd("Poisson Distribution", "Poisson distribution");
-
             correctionAdd("apalls", "appalls");
 
             correctionAdd("Gamma Distribution", "gamma distribution");
@@ -51281,13 +51305,6 @@ namespace OverflowHelper.core
             correctionAdd("sugar-code", "sugarcoat");
             correctionAdd("sugarcode", "sugarcoat");
 
-            correctionAdd("RSK blockchain", "Rootstock blockchain");
-            correctionAdd("RSK", "Rootstock blockchain");
-            correctionAdd("Rootstock Blockchain", "Rootstock blockchain");
-
-            correctionAdd("Smart contract", "smart contract");
-            correctionAdd("Smart Contract", "smart contract");
-
             correctionAdd("Munchausen Trilemma", "Münchhausen trilemma");
 
             correctionAdd("burried", "buried");
@@ -51312,9 +51329,6 @@ namespace OverflowHelper.core
             correctionAdd("precident", "president");
 
             correctionAdd("clubhouse", "Clubhouse");
-
-            correctionAdd("markov chain", "Markov chain");
-            correctionAdd("Markov's chain", "Markov chain");
 
             correctionAdd("zfs", "ZFS");
 
@@ -54221,10 +54235,6 @@ namespace OverflowHelper.core
             correctionAdd("Unintelligle", "unintelligible");
             correctionAdd("unintelligle", "unintelligible");
 
-            // Alternative URL: <https://en.wiktionary.org/wiki/supply_chain#Noun>
-            correctionAdd("Supply Chain", "supply chain");
-            correctionAdd("supplychain", "supply chain");
-
             correctionAdd("Class-Based Views", "class-based view");
             correctionAdd("CBV", "class-based view");
 
@@ -55424,9 +55434,6 @@ namespace OverflowHelper.core
             correctionAdd("catl", "CATL");
 
             correctionAdd("un-commented", "uncommented");
-
-            correctionAdd("bigchaindb", "BigchainDB");
-            correctionAdd("Bigchaindb", "BigchainDB");
 
             correctionAdd("comissioning", "commissioning");
             correctionAdd("Commisioning", "commissioning");
@@ -56947,8 +56954,6 @@ namespace OverflowHelper.core
             correctionAdd("Stakeholders", "stakeholders");
             correctionAdd("Stackeholders", "stakeholders");
 
-            correctionAdd("chaininng", "chaining");
-
             correctionAdd("healthcheck", "health check");
 
             correctionAdd("parcially", "partially");
@@ -57666,6 +57671,8 @@ namespace OverflowHelper.core
 
             correctionAdd("hamburger menu", "hamburger button");
             correctionAdd("Hamburger menu", "hamburger button");
+
+            correctionAdd("ATMega128", "ATmega128");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -88576,6 +88583,10 @@ namespace OverflowHelper.core
 
             URL_Add("hamburger button", "https://en.wikipedia.org/wiki/Hamburger_button");
 
+            URL_Add("ATmega128", "https://www.microchip.com/wwwproducts/en/ATmega128");
+
+            URL_Add("toolchains", "https://en.wiktionary.org/wiki/toolchain#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -90051,6 +90062,10 @@ namespace OverflowHelper.core
             correctionAdd("mysql_", "MySQL (tag wiki)_");
             correctionAdd("MySQL_", "MySQL (tag wiki)_");
 
+            // Alternative URL (syntax highligting support)
+            //
+            //   <https://meta.stackexchange.com/questions/392137/groovy-syntax-highlighting>
+            //
             correctionAdd("[tag:gradle]_", "Gradle (tag wiki)_");
             correctionAdd("gradle_", "Gradle (tag wiki)_");
             correctionAdd("Gradle_", "Gradle (tag wiki)_");
@@ -91082,8 +91097,17 @@ namespace OverflowHelper.core
             // It is here because it conflicts with
             // "cpp" in the main word set.
             //
-            // The name of an executable
-            correctionAdd("cpp_", "C preprocessor_"); // 'cpp' is the name of an executable.
+            // The exetutable 'cpp':
+            //   <https://gcc.gnu.org/onlinedocs/cpp/Overview.html>
+            //
+            //     Though it is confusingly written (is it a concept/name or
+            //     literal?). It is clearer that it is literal (command line
+            //     program) by the man page (it isn't clear from
+            //     the Wikipedia article either):
+            //
+            //       <https://linux.die.net/man/1/cpp>
+            //
+            correctionAdd("cpp_", "C preprocessor_"); // The particular 'cpp' is the name of an executable.
 
             // It is here because of a conflict with TCC for "Turbo C++"
             correctionAdd("TinyCC_", "Tiny C Compiler_");
