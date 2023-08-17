@@ -6039,6 +6039,11 @@ namespace OverflowHelper.core
             correctionAdd("auto gpt", "Auto-GPT");
             correctionAdd("autogpt", "Auto-GPT");
 
+            // Artificial intelligence (AI). Related to GPT.
+            // Anders Hejlsberg
+            correctionAdd("typechat", "TypeChat");
+            correctionAdd("Typechat", "TypeChat");
+
             // Artificial intelligence (AI)
             correctionAdd("chatpdf", "ChatPDF");
 
@@ -6157,6 +6162,7 @@ namespace OverflowHelper.core
             // Artificial intelligence (AI).
             correctionAdd("whisper", "Whisper");
 
+            // Artificial intelligence (AI).
             correctionAdd("Generative AI", "generative AI");
             correctionAdd("generative ai", "generative AI");
             correctionAdd("GenAI", "generative AI");
@@ -6170,6 +6176,7 @@ namespace OverflowHelper.core
             correctionAdd("Gen AI", "generative AI");
             correctionAdd("gen AI", "generative AI");
 
+            // Artificial intelligence (AI).
             correctionAdd("autoai", "AutoAI");
 
             correctionAdd("Equifax", "2017 Equifax data breach");
@@ -6248,6 +6255,20 @@ namespace OverflowHelper.core
 
             correctionAdd("date stamp", "datestamp");
             correctionAdd("Date stamp", "datestamp");
+
+            correctionAdd("centeral", "central");
+
+            correctionAdd("centered", "centred");
+
+            correctionAdd("self centered", "self-centered");
+
+            correctionAdd("epi-center", "epicenter");
+
+            correctionAdd("CoM", "centre of mass");
+            correctionAdd("center of mass", "centre of mass");
+
+            correctionAdd("CG", "center of gravity");
+            correctionAdd("c.g", "center of gravity");
 
             correctionAdd("flite", "flight");
             correctionAdd("fligth", "flight");
@@ -7198,6 +7219,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Selenium RC", "Selenium Remote Control");
 
+            // Selenium
             correctionAdd("selenium-webdriver", "Selenium WebDriver");
             correctionAdd("Selenium-Webdriver", "Selenium WebDriver");
             correctionAdd("Selenium-webdriver", "Selenium WebDriver");
@@ -7220,11 +7242,13 @@ namespace OverflowHelper.core
             correctionAdd("selenium web-driver", "Selenium WebDriver");
             correctionAdd("Selenium/WebDriver", "Selenium WebDriver");
 
+            // Selenium
             correctionAdd("Chromedriver", "Selenium ChromeDriver");
             correctionAdd("ChromeDriver", "Selenium ChromeDriver");
             correctionAdd("Selenium Chromedriver", "Selenium ChromeDriver");
             correctionAdd("chromedriver", "Selenium ChromeDriver");
 
+            // Selenium
             correctionAdd("selenium IDE", "Selenium IDE");
 
             // Related to Selenium
@@ -7232,6 +7256,13 @@ namespace OverflowHelper.core
 
             // Related to Selenium
             correctionAdd("QAF", "QMetry Automation Framework");
+
+            // Selenium
+            correctionAdd("WebdriverWait", "WebDriverWait");
+            correctionAdd("webdriverwait", "WebDriverWait");
+
+            // Selenium
+            correctionAdd("rselenium", "RSelenium");
 
             correctionAdd("trapezoid rule", "trapezoidal rule");
             correctionAdd("Trapezium rule", "trapezoidal rule");
@@ -13115,6 +13146,7 @@ namespace OverflowHelper.core
             correctionAdd("Russian site", "Stack Overflow на русском (Stack Exchange site)");
             correctionAdd("ruSO", "Stack Overflow на русском (Stack Exchange site)");
             correctionAdd("ruso", "Stack Overflow на русском (Stack Exchange site)");
+            correctionAdd("RU.SO", "Stack Overflow на русском (Stack Exchange site)");
 
             correctionAdd("jp.SO", "スタック・オーバーフロー (Stack Exchange site)");
             correctionAdd("SO.jp", "スタック・オーバーフロー (Stack Exchange site)");
@@ -13746,6 +13778,7 @@ namespace OverflowHelper.core
             correctionAdd("Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("PLDI", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)");
             correctionAdd("Programming Language and Implementation", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)");
+            correctionAdd("langdev.SE", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)");
 
             correctionAdd("Amateur Radio", "Amateur&nbsp;Radio (Stack Exchange site)");
             correctionAdd("Amateur Radio (Stack Exchange site)", "Amateur&nbsp;Radio (Stack Exchange site)"); // Sort of identity mapping
@@ -19921,6 +19954,19 @@ namespace OverflowHelper.core
             correctionAdd("FLEX", "Flex");
             correctionAdd("Adobe Flex", "Flex");
 
+            correctionAdd("collumn", "column");
+            correctionAdd("colum", "column");
+            correctionAdd("colume", "column");
+            correctionAdd("col", "column");
+            correctionAdd("coluomn", "column");
+            correctionAdd("coloumn", "column");
+            correctionAdd("Coloum", "column");
+            correctionAdd("coloum", "column");
+            correctionAdd("Column", "column");
+            correctionAdd("colimn", "column");
+            correctionAdd("colomn", "column");
+            correctionAdd("culomn", "column");
+
             correctionAdd("css", "CSS");
             correctionAdd("Css", "CSS");
 
@@ -20933,6 +20979,18 @@ namespace OverflowHelper.core
 
             correctionAdd("aspectj", "AspectJ");
 
+            correctionAdd("espaced", "escape");
+            correctionAdd("esacape", "escape");
+            correctionAdd("escapce", "escape");
+            correctionAdd("Escape", "escape");
+            correctionAdd("esapce", "escape");
+            correctionAdd("Esacpe", "escape");
+            correctionAdd("esacpe", "escape");
+
+            correctionAdd("escallate", "escalate");
+
+            correctionAdd("scaping", "escaping");
+
             correctionAdd("expection", "expectation");
             correctionAdd("exoectation", "expectation");
             correctionAdd("Expectaion", "expectation");
@@ -21324,7 +21382,9 @@ namespace OverflowHelper.core
             correctionAdd("keybpard", "keyboard");
             correctionAdd("keybaord", "keyboard");
             correctionAdd("keyboad", "keyboard");
-            correctionAdd("kbs", "keyboard");
+
+            correctionAdd("kbs", "keyboards");
+            correctionAdd("keybaords", "keyboards");
 
             correctionAdd("key matrix", "keyboard matrix");
 
@@ -21509,6 +21569,8 @@ namespace OverflowHelper.core
             correctionAdd("Cherry MX Speed silver", "Cherry MX Speed Silver");
             correctionAdd("CHERRY MX Speed Silver", "Cherry MX Speed Silver");
             correctionAdd("speed silver", "Cherry MX Speed Silver");
+            correctionAdd("speed-silver", "Cherry MX Speed Silver");
+            correctionAdd("speed-silvers", "Cherry MX Speed Silver");
 
             // A type of switch for mechanical keyboards
             // Linear
@@ -25291,6 +25353,7 @@ namespace OverflowHelper.core
             correctionAdd("word-press", "WordPress");
             correctionAdd("Wordpess", "WordPress");
             correctionAdd("worpress", "WordPress");
+            correctionAdd("wordpresss", "WordPress");
 
             correctionAdd("WPML", "WordPress Multilingual");
 
@@ -25399,12 +25462,18 @@ namespace OverflowHelper.core
             correctionAdd("scetch", "sketch");
             correctionAdd("schetch", "sketch");
 
-            correctionAdd("avr", "AVR");
-            correctionAdd("Avr", "AVR");
+            correctionAdd("atmel", "Atmel");
+            correctionAdd("ATMEL", "Atmel");
+            correctionAdd("Attmel", "Atmel");
+
+            correctionAdd("Atmel studio", "Atmel Studio");
 
             correctionAdd("avrstudio", "AVR Studio");
             correctionAdd("AVR STUDIO", "AVR Studio");
             correctionAdd("AVRstudio", "AVR Studio");
+
+            correctionAdd("avr", "AVR");
+            correctionAdd("Avr", "AVR");
 
             correctionAdd("winavr", "WinAVR");
 
@@ -27771,7 +27840,8 @@ namespace OverflowHelper.core
             // A series of single-board computers with some AI capabilities
             correctionAdd("Jetson", "Nvidia Jetson");
 
-            // A single-board computer with some AI capabilities
+            // A single-board computer with some
+            // AI (artificial intelligence) capabilities
             correctionAdd("Jetson Nano", "Nvidia Jetson Nano");
             correctionAdd("jetson nano", "Nvidia Jetson Nano");
 
@@ -34054,16 +34124,6 @@ namespace OverflowHelper.core
             correctionAdd("sprinboot", "Spring Boot");
             correctionAdd("Spring-boot", "Spring Boot");
 
-            correctionAdd("collumn", "column");
-            correctionAdd("colum", "column");
-            correctionAdd("colume", "column");
-            correctionAdd("col", "column");
-            correctionAdd("coluomn", "column");
-            correctionAdd("coloumn", "column");
-            correctionAdd("Coloum", "column");
-            correctionAdd("coloum", "column");
-            correctionAdd("Column", "column");
-
             correctionAdd("crated", "created");
             correctionAdd("creaded", "created");
             correctionAdd("ceated", "created");
@@ -34384,6 +34444,9 @@ namespace OverflowHelper.core
             correctionAdd("apreciatte", "appreciate");
             correctionAdd("appreciatte", "appreciate");
             correctionAdd("apricieat", "appreciate");
+            correctionAdd("Aprecite", "appreciate");
+            correctionAdd("apprecite", "appreciate");
+            correctionAdd("aprecite", "appreciate");
 
             correctionAdd("chalenging", "challenging");
             correctionAdd("challending", "challenging");
@@ -34605,6 +34668,7 @@ namespace OverflowHelper.core
             correctionAdd("simultanius", "simultaneously");
             correctionAdd("simultaniuosly", "simultaneously");
             correctionAdd("simutaniuosly", "simultaneously");
+            correctionAdd("simultaneoulsy", "simultaneously");
 
             correctionAdd("supose", "suppose");
             correctionAdd("supost", "suppose");
@@ -36609,14 +36673,6 @@ namespace OverflowHelper.core
 
             correctionAdd("dilema", "dilemma");
 
-            correctionAdd("espaced", "escape");
-            correctionAdd("esacape", "escape");
-            correctionAdd("escapce", "escape");
-            correctionAdd("Escape", "escape");
-            correctionAdd("esapce", "escape");
-            correctionAdd("Esacpe", "escape");
-            correctionAdd("esacpe", "escape");
-
             correctionAdd("GLIBC", "glibc");
 
             correctionAdd("sensative", "sensitive");
@@ -37069,12 +37125,6 @@ namespace OverflowHelper.core
             correctionAdd("ascidoc", "AsciiDoc");
 
             correctionAdd("asciidoctor", "Asciidoctor");
-
-            correctionAdd("atmel", "Atmel");
-            correctionAdd("ATMEL", "Atmel");
-            correctionAdd("Attmel", "Atmel");
-
-            correctionAdd("Atmel studio", "Atmel Studio");
 
             correctionAdd("bbs", "BBS");
 
@@ -39115,6 +39165,22 @@ namespace OverflowHelper.core
 
             correctionAdd("Intel 8087", "x87 floating-point coprocessor");
             correctionAdd("x87 co-processor", "x87 floating-point coprocessor");
+
+            correctionAdd("floating point number", "floating-point number");
+            correctionAdd("flaot", "floating-point number");
+            correctionAdd("flaots", "floating-point number");
+            correctionAdd("floats", "floating-point number");
+            correctionAdd("floating point", "floating-point number");
+            correctionAdd("floatting point", "floating-point number");
+            correctionAdd("Floating point number", "floating-point number");
+
+            correctionAdd("double-precision floating point", "double-precision floating-point format");
+
+            // A library. Incl. floating-point number rounding
+            correctionAdd("core-math", "CORE-MATH");
+
+            // A library. Incl. floating-point number rounding
+            correctionAdd("rlibm", "RLIBM");
 
             correctionAdd("geneally", "generally");
             correctionAdd("generaly", "generally");
@@ -41422,9 +41488,6 @@ namespace OverflowHelper.core
             correctionAdd("Aser Aspire", "Acer Aspire");
             correctionAdd("Aspire", "Acer Aspire");
 
-            correctionAdd("CoM", "centre of mass");
-            correctionAdd("center of mass", "centre of mass");
-
             correctionAdd("cognative", "cognitive");
 
             correctionAdd("constrast", "contrast");
@@ -42842,8 +42905,6 @@ namespace OverflowHelper.core
             correctionAdd("postet", "posted");
             correctionAdd("psoted", "posted");
 
-            correctionAdd("epi-center", "epicenter");
-
             correctionAdd("over-simplify", "oversimplify");
 
             correctionAdd("re-education", "reeducation");
@@ -43492,9 +43553,6 @@ namespace OverflowHelper.core
             correctionAdd("rs", "Rs");
 
             correctionAdd("adviced", "advised");
-
-            correctionAdd("CG", "center of gravity");
-            correctionAdd("c.g", "center of gravity");
 
             correctionAdd("emitter follower", "common collector");
             correctionAdd("Common Collector", "common collector");
@@ -44443,8 +44501,6 @@ namespace OverflowHelper.core
             correctionAdd("doodle", "Doodle");
 
             correctionAdd("omnis studio", "Omnis Studio");
-
-            correctionAdd("escallate", "escalate");
 
             correctionAdd("insitute", "institute");
 
@@ -48512,8 +48568,6 @@ namespace OverflowHelper.core
 
             correctionAdd("re-convert", "reconvert");
 
-            correctionAdd("self centered", "self-centered");
-
             correctionAdd("unexpecedly", "unexpectedly");
 
             correctionAdd("GETENT", "getent");
@@ -48618,6 +48672,7 @@ namespace OverflowHelper.core
 
             correctionAdd("quotation marks", "quotes");
             correctionAdd("quetes", "quotes");
+            correctionAdd("quotas", "quotes");
 
             correctionAdd("tell-tale", "telltale");
             correctionAdd("tell tale", "telltale");
@@ -48770,6 +48825,7 @@ namespace OverflowHelper.core
 
             correctionAdd("neads", "needs");
             correctionAdd("need's", "needs");
+            correctionAdd("meeds", "needs");
 
             correctionAdd("needet", "needed");
             correctionAdd("needeed", "needed");
@@ -50689,13 +50745,6 @@ namespace OverflowHelper.core
             correctionAdd("dbase 2", "dBase II");
             correctionAdd("dbase II", "dBase II");
 
-            correctionAdd("floating point number", "floating-point number");
-            correctionAdd("flaot", "floating-point number");
-            correctionAdd("flaots", "floating-point number");
-            correctionAdd("floats", "floating-point number");
-            correctionAdd("floating point", "floating-point number");
-            correctionAdd("floatting point", "floating-point number");
-
             correctionAdd("imuplse", "impulse");
 
             correctionAdd("ready.mobi", "mobiReady");
@@ -51329,10 +51378,6 @@ namespace OverflowHelper.core
             correctionAdd("webaim", "WebAIM");
 
             correctionAdd("webroot", "Webroot");
-
-            // Selenium
-            correctionAdd("WebdriverWait", "WebDriverWait");
-            correctionAdd("webdriverwait", "WebDriverWait");
 
             correctionAdd("web-development", "Web development");
             correctionAdd("web development", "Web development");
@@ -52603,8 +52648,6 @@ namespace OverflowHelper.core
             correctionAdd("Tauri", "Tauri Studio");
             correctionAdd("tauri", "Tauri Studio");
 
-            correctionAdd("double-precision floating point", "double-precision floating-point format");
-
             correctionAdd("duping", "duplicating");
 
             correctionAdd("he-he", "hehe");
@@ -52972,8 +53015,6 @@ namespace OverflowHelper.core
             correctionAdd("Business as Usual", "business as usual");
             correctionAdd("BaU", "business as usual");
             correctionAdd("BAU", "business as usual");
-
-            correctionAdd("centeral", "central");
 
             correctionAdd("scape goat", "scapegoat");
 
@@ -53417,6 +53458,8 @@ namespace OverflowHelper.core
             correctionAdd("Re-tag", "retag");
 
             correctionAdd("re-tagging", "retagging");
+
+            correctionAdd("re-tagged", "retagged");
 
             correctionAdd("toptube", "top tube");
 
@@ -53967,6 +54010,8 @@ namespace OverflowHelper.core
 
             correctionAdd("one quote", "single quote");
             correctionAdd("single-quote", "single quote");
+
+            correctionAdd("single quotas", "single quotes");
 
             correctionAdd("day 1", "day one");
 
@@ -57743,7 +57788,9 @@ namespace OverflowHelper.core
 
             correctionAdd("editor-in-chief", "editor in chief");
 
-            correctionAdd("centered", "centred");
+            correctionAdd("Exploding kittens", "Exploding Kittens");
+
+            correctionAdd("Hejlsberg", "Anders Hejlsberg");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -88688,6 +88735,26 @@ namespace OverflowHelper.core
 
             URL_Add("centred", "https://en.wiktionary.org/wiki/centred#Adjective");
 
+            URL_Add("CORE-MATH", "https://core-math.gitlabpages.inria.fr/");
+
+            URL_Add("escaping", "https://en.wiktionary.org/wiki/escape#Verb");
+
+            URL_Add("RLIBM", "https://github.com/rutgers-apl/The-RLIBM-Project");
+
+            URL_Add("single quotes", "https://en.wiktionary.org/wiki/single_quote#Noun");
+
+            URL_Add("Exploding Kittens", "https://en.wikipedia.org/wiki/Exploding_Kittens");
+
+            URL_Add("keyboards", "https://en.wiktionary.org/wiki/keyboard#Noun");
+
+            URL_Add("retagged", "https://en.wiktionary.org/wiki/retag#Verb");
+
+            URL_Add("RSelenium", "https://www.rdocumentation.org/packages/RSelenium/versions/1.7.9");
+
+            URL_Add("Anders Hejlsberg", "https://en.wikipedia.org/wiki/Anders_Hejlsberg");
+
+            URL_Add("TypeChat", "https://github.com/microsoft/Typechat");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -89615,6 +89682,7 @@ namespace OverflowHelper.core
             correctionAdd("LA_", "Los Angeles_");
             correctionAdd("LosAngeles_", "Los Angeles_");
             correctionAdd("losangeles_", "Los Angeles_");
+            correctionAdd("Los Angelos_", "Los Angeles_");
 
             correctionAdd("Virtual Machine_", "virtual machine_");
             correctionAdd("vm_", "virtual machine_");
@@ -90897,6 +90965,7 @@ namespace OverflowHelper.core
             correctionAdd("finde_", "fine_");
             correctionAdd("fin_", "fine_");
             correctionAdd("fince_", "fine_");
+            correctionAdd("fien_", "fine_");
 
             correctionAdd("Top_", "top_");
 
