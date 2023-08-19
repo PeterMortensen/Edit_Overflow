@@ -8042,6 +8042,7 @@ namespace OverflowHelper.core
             correctionAdd("procect", "project");
             correctionAdd("projetc", "project");
             correctionAdd("porject", "project");
+            correctionAdd("ptoject", "project");
 
             correctionAdd("linux", "Linux");
             correctionAdd("LINUX", "Linux");
@@ -12774,6 +12775,9 @@ namespace OverflowHelper.core
             correctionAdd("PHP collective", "PHP Collective");
             correctionAdd("php collective", "PHP Collective");
 
+            // Stack Overflow
+            correctionAdd("very interesting", "more likely reason for crash in answerers on Stack Overflow after ChatGPT introduction");
+
             correctionAdd("privacy badger", "Privacy Badger");
 
             correctionAdd("diffrent", "different");
@@ -15817,6 +15821,8 @@ namespace OverflowHelper.core
             correctionAdd("Vanilla JS", "vanilla JavaScript");
             correctionAdd("vanilla JS", "vanilla JavaScript");
             correctionAdd("VanillaJS", "vanilla JavaScript");
+            correctionAdd("vainilla", "vanilla JavaScript");
+            correctionAdd("vanilla", "vanilla JavaScript");
 
             // A JavaScript specification
             correctionAdd("amd module", "AMD module");
@@ -16203,6 +16209,8 @@ namespace OverflowHelper.core
             correctionAdd("react Native", "React Native");
             correctionAdd("reactNative", "React Native");
             correctionAdd("reavt native", "React Native");
+            correctionAdd("react navtive", "React Native");
+            correctionAdd("reactnavtive", "React Native");
 
             correctionAdd("React mui", "MUI React");
             correctionAdd("React mui material", "MUI React");
@@ -16316,6 +16324,15 @@ namespace OverflowHelper.core
             // (or 'R for Leaflet'?) - <https://rstudio.github.io/leaflet/>
             //
             correctionAdd("leaflet", "Leaflet");
+
+            // A (free) book
+            //
+            // Alternative URLs:
+            //
+            //   <https://eloquentjavascript.net/>
+            //   <https://open.umn.edu/opentextbooks/textbooks/453>
+            //
+            correctionAdd("Eloquent Javascript", "Eloquent JavaScript");
 
             correctionAdd("RX", "reactive programming");
             correctionAdd("Reactive Programming", "reactive programming");
@@ -22596,6 +22613,7 @@ namespace OverflowHelper.core
             correctionAdd("num lock", "Num Lock");
             correctionAdd("Numeric Lock", "Num Lock");
             correctionAdd("Num lock", "Num Lock");
+            correctionAdd("NumLk", "Num Lock");
 
             // A key on a keyboard
             correctionAdd("Caps lock", "Caps Lock");
@@ -25497,6 +25515,30 @@ namespace OverflowHelper.core
             correctionAdd("mootools", "MooTools");
             correctionAdd("Mootols", "MooTools");
 
+            correctionAdd("prefect", "perfect");
+
+            correctionAdd("prefectly", "perfectly");
+            correctionAdd("perfectely", "perfectly");
+            correctionAdd("perferctly", "perfectly");
+            correctionAdd("perfecty", "perfectly");
+            correctionAdd("perfrectly", "perfectly");
+            correctionAdd("perfeclty", "perfectly");
+
+            correctionAdd("non perfect", "nonperfect");
+            correctionAdd("Non perfect", "nonperfect");
+            correctionAdd("non-perfect", "nonperfect");
+
+            correctionAdd("Present Perfect", "present perfect");
+
+            correctionAdd("plus perfect number", "narcissistic number");
+            correctionAdd("Armstrong number", "narcissistic number");
+            correctionAdd("PPDI", "narcissistic number");
+            correctionAdd("armstrong number", "narcissistic number");
+            correctionAdd("pluperfect digital invariant", "narcissistic number");
+
+            correctionAdd("wordperfect", "WordPerfect");
+            correctionAdd("word perfect", "WordPerfect");
+
             correctionAdd("wordpress", "WordPress");
             correctionAdd("Wordpress", "WordPress");
             correctionAdd("wordperss", "WordPress");
@@ -28379,12 +28421,6 @@ namespace OverflowHelper.core
             correctionAdd("Big endian", "big-endian");
             correctionAdd("BE", "big-endian");
 
-            correctionAdd("backend", "back end");
-            correctionAdd("BackEnd", "back end");
-            correctionAdd("Back-End", "back end");
-            correctionAdd("Back End", "back end");
-            correctionAdd("backen", "back end");
-
             correctionAdd("Little Endian", "little-endian");
             correctionAdd("LittleEndian", "little-endian");
             correctionAdd("littleendian", "little-endian");
@@ -28620,6 +28656,7 @@ namespace OverflowHelper.core
 
             correctionAdd("advertesing", "advertising");
             correctionAdd("advertasing", "advertising");
+            correctionAdd("advertizing", "advertising");
 
             correctionAdd("advertantly", "advertently");
 
@@ -31464,6 +31501,7 @@ namespace OverflowHelper.core
             // result in "Double entry for the
             // key 'vs' (value is 'vs.')."
             correctionAdd("v/s", "vs."); //
+            correctionAdd("verses", "vs.");
 
             correctionAdd("grad", "graduate");
             correctionAdd("Graduate", "graduate");
@@ -31833,9 +31871,6 @@ namespace OverflowHelper.core
             correctionAdd("DD", "dd"); // Not actual observed
 
             correctionAdd("bottle neck", "bottleneck");
-
-            correctionAdd("wordperfect", "WordPerfect");
-            correctionAdd("word perfect", "WordPerfect");
 
             correctionAdd("screen shot", "screenshot");
             correctionAdd("screen-shot", "screenshot");
@@ -33936,13 +33971,6 @@ namespace OverflowHelper.core
             correctionAdd("hebrew", "Hebrew");
 
             correctionAdd("implimenting", "implementing");
-
-            correctionAdd("prefectly", "perfectly");
-            correctionAdd("perfectely", "perfectly");
-            correctionAdd("perferctly", "perfectly");
-            correctionAdd("perfecty", "perfectly");
-            correctionAdd("perfrectly", "perfectly");
-            correctionAdd("perfeclty", "perfectly");
 
             correctionAdd("phonemenia", "phonomena");
 
@@ -36161,6 +36189,7 @@ namespace OverflowHelper.core
 
             correctionAdd("portefolio", "portfolio");
             correctionAdd("PORTFOLIO", "portfolio");
+            correctionAdd("portofolio", "portfolio");
 
             correctionAdd("reccomending", "recommending");
 
@@ -36316,6 +36345,8 @@ namespace OverflowHelper.core
             correctionAdd("everythings", "everything");
             correctionAdd("EVerything", "everything");
             correctionAdd("Everything", "everything");
+            correctionAdd("every things", "everything");
+            correctionAdd("evry things", "everything");
 
             correctionAdd("tooo", "too");
 
@@ -36590,6 +36621,7 @@ namespace OverflowHelper.core
             correctionAdd("whin", "when");
             correctionAdd("whwen", "when");
             correctionAdd("whent", "when");
+            correctionAdd("Wheen", "when");
 
             correctionAdd("costom", "custom");
             correctionAdd("costum", "custom");
@@ -39262,8 +39294,6 @@ namespace OverflowHelper.core
             correctionAdd("generaly", "generally");
             correctionAdd("general.ly", "generally");
 
-            correctionAdd("Present Perfect", "present perfect");
-
             correctionAdd("munin", "Munin");
 
             correctionAdd("swiss army knife", "Swiss Army knife");
@@ -39798,6 +39828,7 @@ namespace OverflowHelper.core
             correctionAdd("reg", "register");
             correctionAdd("regist", "register");
             correctionAdd("regsiter", "register");
+            correctionAdd("regiter", "register");
 
             correctionAdd("regs", "registers");
 
@@ -40029,8 +40060,6 @@ namespace OverflowHelper.core
             correctionAdd("intermident", "intermittent");
 
             correctionAdd("non tainted", "nontainted");
-
-            correctionAdd("prefect", "perfect");
 
             correctionAdd("bushound", "Bus Hound");
             correctionAdd("bus hound", "Bus Hound");
@@ -42513,6 +42542,7 @@ namespace OverflowHelper.core
             correctionAdd("Front-End", "front end");
             correctionAdd("Front End", "front end");
             correctionAdd("frontEnd", "front end");
+            correctionAdd("FE", "front end");
 
             correctionAdd("Communist Party of China", "Chinese Communist Party");
             correctionAdd("Ccp", "Chinese Communist Party");
@@ -42831,12 +42861,6 @@ namespace OverflowHelper.core
             correctionAdd("narcistic", "narcissistic");
 
             correctionAdd("narcisism", "narcissism");
-
-            correctionAdd("plus perfect number", "narcissistic number");
-            correctionAdd("Armstrong number", "narcissistic number");
-            correctionAdd("PPDI", "narcissistic number");
-            correctionAdd("armstrong number", "narcissistic number");
-            correctionAdd("pluperfect digital invariant", "narcissistic number");
 
             correctionAdd("staring", "starting");
             correctionAdd("startign", "starting");
@@ -49215,6 +49239,7 @@ namespace OverflowHelper.core
 
             correctionAdd("inconsequntial", "inconsequential");
             correctionAdd("inconsequantial", "inconsequential");
+            correctionAdd("inconsequentail", "inconsequential");
 
             correctionAdd("interation", "iteration");
 
@@ -57815,11 +57840,20 @@ namespace OverflowHelper.core
 
             correctionAdd("Interior Designer", "interior designer");
 
-            correctionAdd("very interesting", "more likely reason for crash in answerers on Stack Overflow after ChatGPT introduction");
+            correctionAdd("delightfull", "delightful");
 
-            correctionAdd("non perfect", "nonperfect");
-            correctionAdd("Non perfect", "nonperfect");
-            correctionAdd("non-perfect", "nonperfect");
+            correctionAdd("untestet", "untested");
+            correctionAdd("Untestet", "untested");
+
+            correctionAdd("MMAP", "mmap");
+
+            correctionAdd("mountpoint", "mount point");
+
+            correctionAdd("free lance", "freelance");
+
+            correctionAdd("Mypy", "mypy");
+
+            correctionAdd("navtive", "native");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -84068,8 +84102,6 @@ namespace OverflowHelper.core
 
             URL_Add("resolve", "https://en.wiktionary.org/wiki/resolve#Verb");
 
-            URL_Add("back end", "https://en.wiktionary.org/wiki/back_end#Noun");
-
             URL_Add("anecdotal", "https://en.wiktionary.org/wiki/anecdotal#Adjective");
 
             URL_Add("fortunately", "https://en.wiktionary.org/wiki/fortunately#Adverb");
@@ -88792,6 +88824,22 @@ namespace OverflowHelper.core
 
             URL_Add("nonperfect", "https://en.wiktionary.org/wiki/nonperfect#Adjective");
 
+            URL_Add("delightful", "https://en.wiktionary.org/wiki/delightful#Adjective");
+
+            URL_Add("untested", "https://en.wiktionary.org/wiki/untested#Adjective");
+
+            URL_Add("Eloquent JavaScript", "https://en.wikipedia.org/wiki/Wikipedia:WikiProject_JavaScript/Reference_library#Downloadable_e-books");
+
+            URL_Add("mmap", "https://en.wikipedia.org/wiki/Mmap");
+
+            URL_Add("mount point", "https://en.wiktionary.org/wiki/mount_point#Noun");
+
+            URL_Add("freelance", "https://en.wiktionary.org/wiki/freelance#Adjective");
+
+            URL_Add("mypy", "https://mypy.readthedocs.io/en/latest/");
+
+            URL_Add("native", "https://en.wiktionary.org/wiki/native#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -90396,7 +90444,7 @@ namespace OverflowHelper.core
             // An HTML tag
             correctionAdd("LI_", "li_");
 
-            correctionAdd("BE_", "backward elimination_");
+            //correctionAdd("BE_", "backward elimination_");  conflict with another word
             correctionAdd("Backward Elimination_", "backward elimination_");
 
             correctionAdd("functionnal_", "functional_");
@@ -91790,6 +91838,15 @@ namespace OverflowHelper.core
 
             correctionAdd("whent_", "went_");
             correctionAdd("Whent_", "went_");
+
+            correctionAdd("backend_", "back end_");
+            correctionAdd("BackEnd_", "back end_");
+            correctionAdd("Back-End_", "back end_");
+            correctionAdd("Back End_", "back end_");
+            correctionAdd("backen_", "back end_");
+            correctionAdd("BE_", "back end_");
+
+            correctionAdd("CSV_", "csv (the (literal) name of a Python module)_");
 
             // URL mappings
             //
@@ -93389,6 +93446,10 @@ namespace OverflowHelper.core
             URL_Add("DIP_", "https://en.wikipedia.org/wiki/Dual_in-line_package");
 
             URL_Add("went_", "https://en.wiktionary.org/wiki/went#Verb");
+
+            URL_Add("back end_", "https://en.wiktionary.org/wiki/back_end#Noun");
+
+            URL_Add("csv (the (literal) name of a Python module)_", "https://docs.python.org/3.8/library/csv.html");
 
         } //addLookupData_alternativeWordSet()
 
