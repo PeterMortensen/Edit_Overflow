@@ -1469,6 +1469,14 @@ namespace OverflowHelper.core
 
             // Windows
             // Windows console
+            //
+            // Alternative URL:
+            //
+            //   <https://blogs.windows.com/windowsdeveloper/2014/10/07/console-improvements-in-the-windows-10-technical-preview/> 
+            //     Console Improvements in the Windows 10 Technical Preview
+            //
+            //     Includes "CTRL + C. Copy selected text to the clipboard."
+            //
             correctionAdd("conhost.exe", "conhost");
             correctionAdd("conhsot", "conhost");
 
@@ -2535,8 +2543,21 @@ namespace OverflowHelper.core
             // A (physical) card game
             correctionAdd("Exploding kittens", "Exploding Kittens");
 
-            // A game
+            // A computer game
             correctionAdd("halo infinite", "Halo Infinite");
+
+            // A computer game (rhythm)
+            correctionAdd("osu", "Osu");
+            correctionAdd("Osu!", "Osu");
+            correctionAdd("osu!", "Osu");
+
+            // A computer game (rhythm). Open source.
+            correctionAdd("stepmania", "StepMania");
+            correctionAdd("Mania", "StepMania");
+            correctionAdd("mania", "StepMania");
+
+            // A computer game (rhythm). Based on StepMania. Open source.
+            correctionAdd("etterna", "Etterna");
 
             correctionAdd("opn", "on");
             correctionAdd("ob", "on");
@@ -4166,6 +4187,8 @@ namespace OverflowHelper.core
 
             // Electronics
             correctionAdd("resistence", "resistance");
+            correctionAdd("Restistance", "resistance");
+            correctionAdd("restistance", "resistance");
 
             // Electronics
             correctionAdd("photoresistor", "light-dependent resistor");
@@ -11863,6 +11886,7 @@ namespace OverflowHelper.core
             correctionAdd("salvagable", "salvageable");
 
             correctionAdd("unrealiable", "unreliable");
+            correctionAdd("unrylable", "unreliable");
 
             correctionAdd("removeable", "removable");
 
@@ -12332,6 +12356,7 @@ namespace OverflowHelper.core
             correctionAdd("vis", "vis-à-vis");
 
             correctionAdd("bassis", "basis");
+            correctionAdd("base", "basis");
 
             correctionAdd("chassi", "chassis");
 
@@ -13920,6 +13945,7 @@ namespace OverflowHelper.core
             correctionAdd("UL&U", "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)");
             correctionAdd("Unix/Linux", "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)");
             correctionAdd("unix.SO", "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)");
+            correctionAdd("Unix.stackexchange.com", "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)");
 
             correctionAdd("Expatriates", "Expatriates (Stack Exchange site)");
             correctionAdd("expatriates", "Expatriates (Stack Exchange site)");
@@ -18258,6 +18284,7 @@ namespace OverflowHelper.core
             correctionAdd("lang-python", "```lang-python");
             correctionAdd("lang-py", "```lang-python");
             correctionAdd("```lang-py", "```lang-python");
+            correctionAdd("```py", "```lang-python");
 
             correctionAdd("csharp-lang", "```lang-csharp");
             correctionAdd("lang-csharp", "```lang-csharp");
@@ -22411,6 +22438,7 @@ namespace OverflowHelper.core
             correctionAdd("master plus", "MasterPlus+");
             correctionAdd("cooler master plus", "MasterPlus+");
             correctionAdd("Master+", "MasterPlus+");
+            correctionAdd("masterplus+", "MasterPlus+");
 
             // A manufacturer of mechanical keyboards, etc.
             correctionAdd("razer", "Razer");
@@ -22453,7 +22481,7 @@ namespace OverflowHelper.core
             correctionAdd("ck351", "CK351");
 
             // A full-size mechanical keyboard from Cooler Master
-            // "TTC Mechanical Switch". RGB (per-key) lighting. 
+            // "TTC Mechanical Switch". RGB (per-key) lighting.
             //
             // Manual:
             //
@@ -23438,6 +23466,7 @@ namespace OverflowHelper.core
             correctionAdd("attrabute", "attribute");
             correctionAdd("attribuite", "attribute");
             correctionAdd("attibute", "attribute");
+            correctionAdd("attritube", "attribute");
 
             correctionAdd("sub-attribute", "subattribute");
 
@@ -26257,6 +26286,7 @@ namespace OverflowHelper.core
             correctionAdd("fast cgi", "FastCGI");
             correctionAdd("fast CGI", "FastCGI");
             correctionAdd("FCGI", "FastCGI");
+            correctionAdd("FastCgi", "FastCGI");
 
             correctionAdd("cgi", "CGI");
             correctionAdd("Cgi", "CGI");
@@ -28991,14 +29021,6 @@ namespace OverflowHelper.core
             correctionAdd("graphiz", "Graphviz");
             correctionAdd("Graphiz", "Graphviz");
 
-            correctionAdd("Ads", "advertisement"); // Not 100% correct - capitalisation and plural.
-            correctionAdd("ads", "advertisement"); // Not 100% correct - capitalisation and plural.
-            correctionAdd("adverts", "advertisement"); // Not 100% correct - plural.
-            correctionAdd("advert", "advertisement");
-            correctionAdd("advertisment", "advertisement");
-            correctionAdd("advertsment", "advertisement");
-            //correctionAdd("ad", "advertisement");  collision with Active Directory.
-
             correctionAdd("advetise", "advertise");
             correctionAdd("advirtise", "advertise");
 
@@ -29497,6 +29519,16 @@ namespace OverflowHelper.core
 
             correctionAdd("lisp", "Lisp");
             correctionAdd("LISP", "Lisp");
+
+            correctionAdd("Common lisp", "Common Lisp");
+            correctionAdd("common list", "Common Lisp");
+            correctionAdd("common-lisp", "Common Lisp");
+            correctionAdd("common lisp", "Common Lisp");
+            correctionAdd("common Lisp", "Common Lisp");
+
+            correctionAdd("Clisp", "CLISP");
+
+            correctionAdd("newlisp", "newLISP");
 
             correctionAdd("isp", "ISP");
             correctionAdd("Internet Service Provider", "ISP");
@@ -31373,12 +31405,6 @@ namespace OverflowHelper.core
             correctionAdd("Bit Locker", "BitLocker");
             correctionAdd("Bit locker", "BitLocker");
 
-            correctionAdd("Common lisp", "Common Lisp");
-            correctionAdd("common list", "Common Lisp");
-            correctionAdd("common-lisp", "Common Lisp");
-            correctionAdd("common lisp", "Common Lisp");
-            correctionAdd("common Lisp", "Common Lisp");
-
             correctionAdd("prolog", "Prolog");
             correctionAdd("PROLOG", "Prolog");
 
@@ -31996,6 +32022,8 @@ namespace OverflowHelper.core
             correctionAdd("n3wb", "newbie");
             correctionAdd("newbies", "newbie");
             correctionAdd("newbe", "newbie");
+            correctionAdd("new for", "newbie");
+            correctionAdd("new to", "newbie"); // Actualy the more correct form
 
             correctionAdd("Foxpro", "FoxPro");
             correctionAdd("foxpro", "FoxPro");
@@ -37767,7 +37795,10 @@ namespace OverflowHelper.core
             correctionAdd("formatted text", "rich text");
             correctionAdd("richtext", "rich text");
 
+            // Alternative URL: <https://en.wikipedia.org/wiki/Style_manual>
+            //
             correctionAdd("styleguide", "style guide");
+            correctionAdd("style manual", "style guide");
 
             correctionAdd("tat", "that");
             correctionAdd("taht", "that");
@@ -45081,6 +45112,7 @@ namespace OverflowHelper.core
             correctionAdd("Thank you", "thank you");
             correctionAdd("Thank your", "thank you");
             correctionAdd("thank your", "thank you");
+            correctionAdd("thank-you", "thank you");
 
             correctionAdd("ireland", "Ireland");
 
@@ -49307,6 +49339,7 @@ namespace OverflowHelper.core
             correctionAdd("encyrpted", "encrypted");
             correctionAdd("ecrypted", "encrypted");
             correctionAdd("Encrypted", "encrypted");
+            correctionAdd("encripted", "encrypted");
 
             correctionAdd("extarct", "extract");
             correctionAdd("extrct", "extract");
@@ -52321,8 +52354,6 @@ namespace OverflowHelper.core
             correctionAdd("secundary", "secondary");
 
             correctionAdd("Valsalva maneuver", "valsalva maneuver");
-
-            correctionAdd("Clisp", "CLISP");
 
             correctionAdd("flv", "FLV");
 
@@ -56555,6 +56586,7 @@ namespace OverflowHelper.core
             correctionAdd("revet", "revert");
 
             correctionAdd("admob", "AdMob");
+            correctionAdd("Admob", "AdMob");
 
             correctionAdd("anti-collision", "anticollision");
             correctionAdd("Anti collision", "anticollision");
@@ -57954,6 +57986,7 @@ namespace OverflowHelper.core
 
             correctionAdd("templateied", "templated");
 
+            // Mathematics
             correctionAdd("I.F", "identity function");
 
             correctionAdd("synonum", "synonym");
@@ -57973,8 +58006,31 @@ namespace OverflowHelper.core
 
             correctionAdd("Social engineering", "social engineering");
 
-            // A website 
+            // A website
             correctionAdd("readthedocs", "Read the Docs");
+
+            correctionAdd("clue on", "clue about");
+            correctionAdd("clue of", "clue about");
+
+            correctionAdd("PPRINT", "pprint");
+
+            correctionAdd("Teed", "teed");
+
+            correctionAdd("web banner", "banner ad");
+            correctionAdd("Banner ad", "banner ad");
+
+            correctionAdd("ecpm", "eCPM");
+
+            // A particular command-line prompt. PowerShell? Bash in WSL?
+            //
+            // Alternative URL: <https://ohmyposh.dev/>
+            // 
+            correctionAdd("oh-my-posh", "Oh My Posh");
+            correctionAdd("oh my posh", "Oh My Posh");
+
+            correctionAdd("RLHF", "reinforcement learning from human feedback");
+            correctionAdd("Reinforcement Learning via Human Feedback", "reinforcement learning from human feedback");
+            correctionAdd("reinforcement learning from human preferences", "reinforcement learning from human feedback");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -59851,8 +59907,6 @@ namespace OverflowHelper.core
             URL_Add("Graphviz", "https://en.wikipedia.org/wiki/Graphviz");
 
             URL_Add("library", "https://en.wikipedia.org/wiki/Library_%28computing%29");
-
-            URL_Add("advertisement", "https://en.wikipedia.org/wiki/Advertisements");
 
             URL_Add("Open&nbsp;MPI", "https://en.wikipedia.org/wiki/Open_MPI");
 
@@ -89057,6 +89111,28 @@ namespace OverflowHelper.core
 
             URL_Add("side by side", "https://en.wiktionary.org/wiki/side_by_side#Adverb");
 
+            URL_Add("clue about", "https://en.wiktionary.org/wiki/clue#Noun");
+
+            URL_Add("pprint", "https://docs.python.org/3.8/library/pprint.html");
+
+            URL_Add("teed", "https://en.wikipedia.org/wiki/Tee_(command)");
+
+            URL_Add("Osu", "https://en.wikipedia.org/wiki/Osu!");
+
+            URL_Add("Etterna", "https://etternagame.github.io/wiki/");
+
+            URL_Add("StepMania", "https://en.wikipedia.org/wiki/StepMania");
+
+            URL_Add("newLISP", "https://en.wikipedia.org/wiki/NewLISP");
+
+            URL_Add("banner ad", "https://en.wikipedia.org/wiki/Web_banner");
+
+            URL_Add("eCPM", "https://en.wikipedia.org/wiki/Cost_per_mille#Effective_cost_per_mille");
+
+            URL_Add("Oh My Posh", "https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal");
+
+            URL_Add("reinforcement learning from human feedback", "https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -89200,6 +89276,7 @@ namespace OverflowHelper.core
             // Artificial intelligence (AI)
             correctionAdd("Large Language Model Meta AI_", "LLaMA_");
             correctionAdd("Llama_", "LLaMA_");
+            correctionAdd("LLama_", "LLaMA_");
 
             // Artificial intelligence (AI)
             correctionAdd("gpt_", "GPT_");
@@ -90619,6 +90696,18 @@ namespace OverflowHelper.core
             correctionAdd("[tag:dagger]_", "Dagger (tag wiki)_");
             correctionAdd("dagger_", "Dagger (tag wiki)_");
             correctionAdd("Dagger_", "Dagger (tag wiki)_");
+
+            correctionAdd("[tag:axios]_", "Axios (tag wiki)_");
+            correctionAdd("axios_", "Axios (tag wiki)_");
+            correctionAdd("Axios_", "Axios (tag wiki)_");
+
+            correctionAdd("[tag:docker]_", "Docker (tag wiki)_");
+            correctionAdd("docker_", "Docker (tag wiki)_");
+            correctionAdd("Docker_", "Docker (tag wiki)_");
+
+            correctionAdd("[tag:mongodb]_", "MongoDB (tag wiki)_");
+            correctionAdd("mongodb_", "MongoDB (tag wiki)_");
+            correctionAdd("MongoDB_", "MongoDB (tag wiki)_");
 
             // Perl
             correctionAdd("parrot_", "Parrot_");
@@ -92112,6 +92201,19 @@ namespace OverflowHelper.core
             correctionAdd("DA_", "dielectric absorption_");
 
             correctionAdd("fair_", "fare_");
+
+            correctionAdd("Ads_", "advertisement_"); // Not 100% correct - capitalisation and plural.
+            correctionAdd("ads_", "advertisement_"); // Not 100% correct - capitalisation and plural.
+            correctionAdd("adverts_", "advertisement_"); // Not 100% correct - plural.
+            correctionAdd("advert_", "advertisement_");
+            correctionAdd("advertisment_", "advertisement_");
+            correctionAdd("advertsment_", "advertisement_");
+            correctionAdd("ad_", "advertisement_");
+
+            correctionAdd("wsl_", "WSL_"); // For an alternative to the full name
+            correctionAdd("Windows Subsystem for Linux_", "WSL_");
+
+            correctionAdd("newbie_", "new to_");
 
             // URL mappings
             //
@@ -93733,6 +93835,18 @@ namespace OverflowHelper.core
             URL_Add("dielectric absorption_", "https://en.wikipedia.org/wiki/Dielectric_absorption");
 
             URL_Add("fare_", "https://en.wiktionary.org/wiki/fare#Verb");
+
+            URL_Add("Docker (tag wiki)_", "https://stackoverflow.com/questions/tagged/docker");
+
+            URL_Add("MongoDB (tag wiki)_", "https://stackoverflow.com/questions/tagged/mongodb");
+
+            URL_Add("Axios (tag wiki)_", "https://stackoverflow.com/questions/tagged/axios");
+
+            URL_Add("advertisement_", "https://en.wikipedia.org/wiki/Advertisements");
+
+            URL_Add("WSL_", "https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux");
+
+            URL_Add("new to_", "https://en.wiktionary.org/wiki/newbie#Noun");
 
         } //addLookupData_alternativeWordSet()
 
