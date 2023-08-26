@@ -6991,6 +6991,8 @@ namespace OverflowHelper.core
             correctionAdd("generative \"AI\"", "generative AI");
             correctionAdd("Gen AI", "generative AI");
             correctionAdd("gen AI", "generative AI");
+            correctionAdd("gen ai", "generative AI");
+            correctionAdd("genai", "generative AI");
 
             // Artificial intelligence (AI).
             correctionAdd("autoai", "AutoAI");
@@ -28128,6 +28130,7 @@ namespace OverflowHelper.core
             correctionAdd("thouhg", "though");
             correctionAdd("thpugh", "though");
             correctionAdd("Though", "though");
+            correctionAdd("thought", "though");
 
             correctionAdd("radius", "RADIUS");
             correctionAdd("Radius", "RADIUS");
@@ -58086,6 +58089,15 @@ namespace OverflowHelper.core
             correctionAdd("flawlessy", "flawlessly");
 
             correctionAdd("grandiouse", "grandiose");
+
+            correctionAdd("Argument-Dependent Lookup", "argument-dependent lookup");
+            correctionAdd("ADL", "argument-dependent lookup");
+            correctionAdd("Koenig lookup", "argument-dependent lookup");
+            correctionAdd("Koenig-looked-up", "argument-dependent lookup");
+
+            correctionAdd("baeline", "baseline");
+
+            correctionAdd("pre-marriage", "premarriage");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -89214,6 +89226,12 @@ namespace OverflowHelper.core
 
             URL_Add("kubectl", "https://en.wikipedia.org/wiki/Kubernetes#API_clients");
 
+            URL_Add("argument-dependent lookup", "https://en.cppreference.com/w/cpp/language/adl");
+
+            URL_Add("baseline", "https://en.wiktionary.org/wiki/baseline#Noun");
+
+            URL_Add("premarriage", "https://en.wiktionary.org/wiki/premarriage#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -90139,6 +90157,7 @@ namespace OverflowHelper.core
             correctionAdd("ant_", "and_");
             correctionAdd("snd_", "and_");
             correctionAdd("qnd_", "and_");
+            correctionAdd("ane_", "and_");
 
             correctionAdd("blitz++_", "Blitz++_");
             correctionAdd("Blitz_", "Blitz++_");
@@ -90245,6 +90264,7 @@ namespace OverflowHelper.core
             correctionAdd("buss_", "bus_");
 
             correctionAdd("to_", "do_");
+            correctionAdd("di_", "do_");
 
             correctionAdd("IO_", "Io_");
 
@@ -92303,6 +92323,7 @@ namespace OverflowHelper.core
             correctionAdd("thaught_", "thought_");
             correctionAdd("thot_", "thought_");
             correctionAdd("thout_", "thought_");
+            correctionAdd("though_", "thought_");
 
             correctionAdd("lock-down_", "lock down_");
 
