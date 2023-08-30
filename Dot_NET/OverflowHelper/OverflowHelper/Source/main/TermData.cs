@@ -6709,6 +6709,7 @@ namespace OverflowHelper.core
             correctionAdd("Artificial intelligence", "artificial intelligence");
             correctionAdd("Abominable Intelligence", "artificial intelligence");
             correctionAdd("IA", "artificial intelligence");
+            correctionAdd("Artificial Idiot", "artificial intelligence");
 
             // Related to artificial intelligence (AI)
             correctionAdd("Genetic Algorithm", "genetic algorithm");
@@ -6844,6 +6845,7 @@ namespace OverflowHelper.core
             correctionAdd("cg", "ChatGPT");
             correctionAdd("cChatGPT", "ChatGPT");
             correctionAdd("chstGPT", "ChatGPT");
+            correctionAdd("CrapGPT", "ChatGPT");
 
             // Artificial intelligence (AI).
             correctionAdd("human annotator", "human annotator for AI");
@@ -7406,6 +7408,13 @@ namespace OverflowHelper.core
 
             correctionAdd("enlightning", "enlightening");
 
+            correctionAdd("highligting", "highlighting");
+            correctionAdd("highligthting", "highlighting");
+            correctionAdd("highlighitng", "highlighting");
+            correctionAdd("high-lighting", "highlighting");
+            correctionAdd("highlihting", "highlighting");
+            correctionAdd("highlighing", "highlighting");
+
             correctionAdd("syntax highlighitng", "syntax highlighting");
             correctionAdd("syntax-highlighting", "syntax highlighting");
             correctionAdd("Syntax highlighting", "syntax highlighting");
@@ -7420,12 +7429,6 @@ namespace OverflowHelper.core
             correctionAdd("ligthweight", "lightweight");
             correctionAdd("Lightweigth", "lightweight");
             correctionAdd("lightweigth", "lightweight");
-
-            correctionAdd("highligting", "highlighting");
-            correctionAdd("highligthting", "highlighting");
-            correctionAdd("highlighitng", "highlighting");
-            correctionAdd("high-lighting", "highlighting");
-            correctionAdd("highlihting", "highlighting");
 
             correctionAdd("highlightjs", "Highlight.js");
             correctionAdd("HighlightJS", "Highlight.js");
@@ -12481,6 +12484,7 @@ namespace OverflowHelper.core
             correctionAdd("t his", "this");
             correctionAdd("dis", "this");
             correctionAdd("htis", "this");
+            correctionAdd("thism", "this");
 
             correctionAdd("paranthesis", "parenthesis");
             correctionAdd("paren", "parenthesis");
@@ -14309,6 +14313,7 @@ namespace OverflowHelper.core
             correctionAdd("Web&nbsp;Applications", "Web&nbsp;Applications (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("nothing to install", "Web&nbsp;Applications (Stack Exchange site)");
             correctionAdd("webapps.se", "Web&nbsp;Applications (Stack Exchange site)");
+            correctionAdd("Web Apps SE", "Web&nbsp;Applications (Stack Exchange site)");
 
             correctionAdd("Webmasters", "Webmasters (Stack Exchange site)");
             correctionAdd("Pro Webmasters", "Webmasters (Stack Exchange site)");
@@ -21668,6 +21673,7 @@ namespace OverflowHelper.core
             correctionAdd("sport programming", "competitive programming");
             correctionAdd("Competitive Proggramming", "competitive programming");
             correctionAdd("competitive proggramming", "competitive programming");
+            correctionAdd("competitive coding", "competitive programming");
 
             correctionAdd("USACO", "United States of America Computing Olympiad");
 
@@ -25882,6 +25888,7 @@ namespace OverflowHelper.core
             correctionAdd("ommit", "omit");
 
             correctionAdd("ommitting", "omitting");
+            correctionAdd("omiting", "omitting");
 
             correctionAdd("omited", "omitted");
             correctionAdd("ommited", "omitted");
@@ -28607,6 +28614,7 @@ namespace OverflowHelper.core
             correctionAdd("direclty", "directly");
             correctionAdd("directyl", "directly");
             correctionAdd("directily", "directly");
+            correctionAdd("dirrectly", "directly");
 
             correctionAdd("cwd", "current working directory");
             correctionAdd("CWD", "current working directory");
@@ -34258,6 +34266,7 @@ namespace OverflowHelper.core
             correctionAdd("tied", "tried");
             correctionAdd("traydi", "tried");
             correctionAdd("trayid", "tried");
+            correctionAdd("trried", "tried");
 
             correctionAdd("justfied", "justified");
 
@@ -38116,6 +38125,7 @@ namespace OverflowHelper.core
             correctionAdd("implimented", "implemented");
             correctionAdd("implemeneted", "implemented");
             correctionAdd("implementet", "implemented");
+            correctionAdd("implemtened", "implemented");
 
             correctionAdd("obteined", "obtained");
 
@@ -38313,6 +38323,7 @@ namespace OverflowHelper.core
             correctionAdd("practioners", "practitioners");
 
             correctionAdd("pratical", "practical");
+            correctionAdd("paractical", "practical");
 
             correctionAdd("Thirteenth", "thirteenth");
             correctionAdd("13th", "thirteenth");
@@ -41136,6 +41147,7 @@ namespace OverflowHelper.core
             correctionAdd("hackerrank", "HackerRank");
             correctionAdd("Hackerrank", "HackerRank");
             correctionAdd("hacker rank", "HackerRank");
+            correctionAdd("H4x0rRnk", "HackerRank");
 
             correctionAdd("jms", "JMS");
 
@@ -44323,6 +44335,7 @@ namespace OverflowHelper.core
             correctionAdd("bot", "not");
 
             correctionAdd("poor mans", "poor man's");
+            correctionAdd("Poor man's", "poor man's");
 
             correctionAdd("positionnal", "positional");
 
@@ -50603,6 +50616,7 @@ namespace OverflowHelper.core
             correctionAdd("Display Port", "DisplayPort");
             correctionAdd("display port", "DisplayPort");
             correctionAdd("displayport", "DisplayPort");
+            correctionAdd("dp", "DisplayPort");
 
             correctionAdd("Get OfficeWebAppsFarm", "Get-OfficeWebAppsFarm");
 
@@ -58098,6 +58112,9 @@ namespace OverflowHelper.core
             correctionAdd("baeline", "baseline");
 
             correctionAdd("pre-marriage", "premarriage");
+
+            correctionAdd("cses", "CSES Problem Set");
+            correctionAdd("CSES", "CSES Problem Set");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -89232,6 +89249,8 @@ namespace OverflowHelper.core
 
             URL_Add("premarriage", "https://en.wiktionary.org/wiki/premarriage#Adjective");
 
+            URL_Add("CSES Problem Set", "https://cses.fi/");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -89730,6 +89749,7 @@ namespace OverflowHelper.core
             correctionAdd("chemistry_", "Chemistry (Stack Exchange site)_");
             correctionAdd("Chemistry.se_", "Chemistry (Stack Exchange site)_");
             correctionAdd("ChemSE_", "Chemistry (Stack Exchange site)_");
+            correctionAdd("chemistry.se_", "Chemistry (Stack Exchange site)_");
 
             correctionAdd("Electrical Engineering SE_", "Electrical&nbsp;Engineering (Stack Exchange site)_");
             correctionAdd("EE.SE_", "Electrical&nbsp;Engineering (Stack Exchange site)_");
@@ -89775,6 +89795,7 @@ namespace OverflowHelper.core
             correctionAdd("PhysE_", "Physics (Stack Exchange site)_");
             correctionAdd("phys-stack_", "Physics (Stack Exchange site)_");
             correctionAdd("Physics stackexchange_", "Physics (Stack Exchange site)_");
+            correctionAdd("physics.se_", "Physics (Stack Exchange site)_");
 
             correctionAdd("RaspberryPi.SE_", "Raspberry&nbsp;Pi (Stack Exchange site)_");
             correctionAdd("Raspberry Pi_", "Raspberry&nbsp;Pi (Stack Exchange site)_"); // Sort of identity mapping
@@ -92329,6 +92350,9 @@ namespace OverflowHelper.core
 
             correctionAdd("Type Allocation Code_", "TAC_");
 
+            correctionAdd("DP_", "dynamic programming_");
+            correctionAdd("dp_", "dynamic programming_");
+
             // URL mappings
             //
             //
@@ -93967,6 +93991,8 @@ namespace OverflowHelper.core
             URL_Add("lock down_", "https://en.wiktionary.org/wiki/lock_down#Verb");
 
             URL_Add("TAC_", "https://en.wikipedia.org/wiki/Type_Allocation_Code");
+
+            URL_Add("dynamic programming_", "https://en.wikipedia.org/wiki/Dynamic_programming");
 
         } //addLookupData_alternativeWordSet()
 
