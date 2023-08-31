@@ -2681,12 +2681,99 @@ namespace OverflowHelper.core
             correctionAdd("after-effects", "After Effects");
             correctionAdd("after effects", "After Effects");
 
+            correctionAdd("expresion", "expression");
+            correctionAdd("Expression", "expression");
+            correctionAdd("expr", "expression");
+
+            correctionAdd("sub expression", "subexpression");
+
+            correctionAdd("regex", "regular expression");
+            correctionAdd("Regex", "regular expression");
+            correctionAdd("regexp", "regular expression");
+            correctionAdd("Regexp", "regular expression");
+            correctionAdd("regx", "regular expression");
+            correctionAdd("REGEX", "regular expression");
+            correctionAdd("regular Expression", "regular expression");
+            correctionAdd("Regular experssion", "regular expression");
+            correctionAdd("Regular expression", "regular expression");
+            correctionAdd("Regular Expression", "regular expression");
+            correctionAdd("RegEx", "regular expression");
+            correctionAdd("regexes", "regular expression"); // Not 100% correct - plural.
+            correctionAdd("reg-exp", "regular expression");
+            correctionAdd("Regular Expressions", "regular expression"); // Not 100% correct - plural.
+            correctionAdd("Regexes", "regular expression"); // Not 100% correct - plural.
+            correctionAdd("RegExp", "regular expression");
+            correctionAdd("RE", "regular expression");
+            correctionAdd("reqular expression", "regular expression");
+            correctionAdd("re", "regular expression");
+            correctionAdd("regular exp", "regular expression");
+            correctionAdd("regular expressions", "regular expression"); // Not 100% correct - plural.
+            correctionAdd("RegE", "regular expression");
+            correctionAdd("regEx", "regular expression");
+            correctionAdd("regexpr", "regular expression");
+            correctionAdd("RegularExpression", "regular expression");
+            correctionAdd("regular express", "regular expression");
+            correctionAdd("regex expression", "regular expression");
+            correctionAdd("RegEXP", "regular expression");
+            correctionAdd("regext", "regular expression");
+            correctionAdd("reqular expressions", "regular expression");
+            correctionAdd("Reg Expression", "regular expression");
+            correctionAdd("Reg Exp", "regular expression");
+            correctionAdd("reg exp", "regular expression");
+            correctionAdd("reg exps", "regular expression");
+            correctionAdd("regulare expression", "regular expression");
+            correctionAdd("reg-ex", "regular expression");
+            correctionAdd("REGEXP", "regular expression");
+            correctionAdd("Regular-Expression", "regular expression");
+            correctionAdd("eegular expression", "regular expression");
+            correctionAdd("regular expresion", "regular expression");
+            correctionAdd("REGX", "regular expression");
+
+            correctionAdd("Regular expressions 101", "Regex101");
+            correctionAdd("regex101", "Regex101");
+            correctionAdd("RegEx101", "Regex101");
+
+            correctionAdd("two problems", "Regular expressions: now you have two problems");
+
+            correctionAdd("Lambda expression", "lambda expression");
+            correctionAdd("lamda expression", "lambda expression");
+            correctionAdd("lambda", "lambda expression");
+            correctionAdd("lamda", "lambda expression");
+            correctionAdd("lambd", "lambda expression");
+
+            correctionAdd("DSL", "domain-specific language");
+            correctionAdd("dsl", "domain-specific language");
+            correctionAdd("Domain Specific Language", "domain-specific language");
+            correctionAdd("domain specific language", "domain-specific language");
+            correctionAdd("specific domain language", "domain-specific language");
+            correctionAdd("Dsl", "domain-specific language");
+            correctionAdd("Domain specific language", "domain-specific language");
+            correctionAdd("domain-specific-language", "domain-specific language");
+
+            correctionAdd("S expression", "S-expression");
+            correctionAdd("s-expression", "S-expression");
+            correctionAdd("s expression", "S-expression");
+
+            correctionAdd("CTE", "common table expression");
+            correctionAdd("cte", "common table expression");
+            correctionAdd("Common Table Expression", "common table expression");
+            correctionAdd("Common Table Expressions", "common table expression");
+
+            correctionAdd("FEEL", "Friendly Enough Expression Language");
+
+            correctionAdd("EL", "Expression Language");
+
+            correctionAdd("Expression blend", "Expression Blend");
+            correctionAdd("blend", "Expression Blend");
+            correctionAdd("Blend", "Expression Blend");
+
             correctionAdd("bee", "be");
             correctionAdd("ba", "be");
             correctionAdd("bea", "be");
             correctionAdd("b", "be");
             correctionAdd("ne", "be");
             correctionAdd("by", "be");
+            correctionAdd("ber", "be");
 
             correctionAdd("beeing", "being");
             correctionAdd("bean", "being");
@@ -4530,6 +4617,7 @@ namespace OverflowHelper.core
             correctionAdd("queetion", "question");
             correctionAdd("Qt", "question");
             correctionAdd("questun", "question");
+            correctionAdd("quation", "question");
 
             correctionAdd("qustions", "questions");
             correctionAdd("Qt's", "questions");
@@ -5162,17 +5250,6 @@ namespace OverflowHelper.core
             correctionAdd("IDT", "interrupt descriptor table");
 
             correctionAdd("MASM", "Microsoft Macro Assembler");
-
-            correctionAdd("DSL", "domain-specific language");
-            correctionAdd("dsl", "domain-specific language");
-            correctionAdd("Domain Specific Language", "domain-specific language");
-            correctionAdd("domain specific language", "domain-specific language");
-            correctionAdd("specific domain language", "domain-specific language");
-            correctionAdd("Dsl", "domain-specific language");
-            correctionAdd("Domain specific language", "domain-specific language");
-            correctionAdd("domain-specific-language", "domain-specific language");
-
-            correctionAdd("EL", "Expression Language");
 
             correctionAdd("india", "India");
             correctionAdd("INDIA", "India");
@@ -5927,12 +6004,6 @@ namespace OverflowHelper.core
 
             correctionAdd("AWS MSK", "Amazon Managed Streaming for Apache Kafka");
             correctionAdd("MSK", "Amazon Managed Streaming for Apache Kafka");
-
-            correctionAdd("Lambda expression", "lambda expression");
-            correctionAdd("lamda expression", "lambda expression");
-            correctionAdd("lambda", "lambda expression");
-            correctionAdd("lamda", "lambda expression");
-            correctionAdd("lambd", "lambda expression");
 
             correctionAdd("aweosme", "awesome");
             correctionAdd("aswesome", "awesome");
@@ -8571,6 +8642,7 @@ namespace OverflowHelper.core
             correctionAdd("pricledge", "privilege");
             correctionAdd("privledge", "privilege");
             correctionAdd("prvilege", "privilege");
+            correctionAdd("Privileges", "privilege");
 
             correctionAdd("priviledged", "privileged");
             correctionAdd("privelaged", "privileged");
@@ -15549,6 +15621,15 @@ namespace OverflowHelper.core
 
             correctionAdd("in default", "by default");
 
+            correctionAdd("Udev", "udev");
+            correctionAdd("UDEV", "udev");
+
+            // A plagiarism-infested software development forum
+            correctionAdd("Dev.to", "DEV");
+            correctionAdd("dev.to", "DEV");
+            correctionAdd("DEV.to", "DEV");
+            correctionAdd("devto", "DEV");
+
             // A programming language
             correctionAdd("python", "Python");
             correctionAdd("PYTHON", "Python");
@@ -17539,6 +17620,11 @@ namespace OverflowHelper.core
 
             // Perl
             correctionAdd("Wall", "Larry Wall");
+
+            // Perl. Regular expressions
+            correctionAdd("pcre", "PCRE");
+
+            correctionAdd("PCRE 2", "PCRE2");
 
             // A programming language
             correctionAdd("j", "J");
@@ -21392,9 +21478,6 @@ namespace OverflowHelper.core
             correctionAdd("ExpressJs", "Express.js");
             correctionAdd("Expressjs", "Express.js");
 
-            correctionAdd("expresion", "expression");
-            correctionAdd("Expression", "expression");
-
             correctionAdd("proptocol", "protocol");
             correctionAdd("protocl", "protocol");
             correctionAdd("procol", "protocol");
@@ -24074,10 +24157,6 @@ namespace OverflowHelper.core
             correctionAdd("P.s", "post scriptum");
             correctionAdd("P/S", "post scriptum");
             correctionAdd("p.s", "post scriptum");
-
-            correctionAdd("Expression blend", "Expression Blend");
-            correctionAdd("blend", "Expression Blend");
-            correctionAdd("Blend", "Expression Blend");
 
             correctionAdd("latin", "Latin");
 
@@ -26853,48 +26932,6 @@ namespace OverflowHelper.core
             correctionAdd("jboss", "JBoss");
             correctionAdd("Jboss", "JBoss");
 
-            correctionAdd("regex", "regular expression");
-            correctionAdd("Regex", "regular expression");
-            correctionAdd("regexp", "regular expression");
-            correctionAdd("Regexp", "regular expression");
-            correctionAdd("regx", "regular expression");
-            correctionAdd("REGEX", "regular expression");
-            correctionAdd("regular Expression", "regular expression");
-            correctionAdd("Regular experssion", "regular expression");
-            correctionAdd("Regular expression", "regular expression");
-            correctionAdd("Regular Expression", "regular expression");
-            correctionAdd("RegEx", "regular expression");
-            correctionAdd("regexes", "regular expression"); // Not 100% correct - plural.
-            correctionAdd("reg-exp", "regular expression");
-            correctionAdd("Regular Expressions", "regular expression"); // Not 100% correct - plural.
-            correctionAdd("Regexes", "regular expression"); // Not 100% correct - plural.
-            correctionAdd("RegExp", "regular expression");
-            correctionAdd("RE", "regular expression");
-            correctionAdd("reqular expression", "regular expression");
-            correctionAdd("re", "regular expression");
-            correctionAdd("regular exp", "regular expression");
-            correctionAdd("regular expressions", "regular expression"); // Not 100% correct - plural.
-            correctionAdd("RegE", "regular expression");
-            correctionAdd("regEx", "regular expression");
-            correctionAdd("regexpr", "regular expression");
-            correctionAdd("RegularExpression", "regular expression");
-            correctionAdd("regular express", "regular expression");
-            correctionAdd("regex expression", "regular expression");
-            correctionAdd("RegEXP", "regular expression");
-            correctionAdd("regext", "regular expression");
-            correctionAdd("reqular expressions", "regular expression");
-            correctionAdd("Reg Expression", "regular expression");
-            correctionAdd("Reg Exp", "regular expression");
-            correctionAdd("reg exp", "regular expression");
-            correctionAdd("reg exps", "regular expression");
-            correctionAdd("regulare expression", "regular expression");
-            correctionAdd("reg-ex", "regular expression");
-            correctionAdd("REGEXP", "regular expression");
-            correctionAdd("Regular-Expression", "regular expression");
-            correctionAdd("eegular expression", "regular expression");
-            correctionAdd("regular expresion", "regular expression");
-            correctionAdd("REGX", "regular expression");
-
             correctionAdd("repl", "REPL");
             correctionAdd("RPEL", "REPL");
 
@@ -27048,11 +27085,6 @@ namespace OverflowHelper.core
 
             // Computer science
             correctionAdd("Knuth", "Donald Knuth");
-
-            // Perl. Regular expressions
-            correctionAdd("pcre", "PCRE");
-
-            correctionAdd("PCRE 2", "PCRE2");
 
             correctionAdd("SAFARI", "Safari");
             correctionAdd("safari", "Safari");
@@ -32859,6 +32891,44 @@ namespace OverflowHelper.core
             correctionAdd("Thank's", "thanks");
             correctionAdd("Thankss", "thanks");
             correctionAdd("thankss", "thanks");
+            correctionAdd("THAKS", "thanks");
+
+            correctionAdd("ty", "thank you");
+            correctionAdd("Ty", "thank you");
+            correctionAdd("tu", "thank you");
+            correctionAdd("Tu", "thank you");
+            correctionAdd("tnx", "thank you");
+            correctionAdd("Thanku", "thank you");
+            correctionAdd("thanku", "thank you");
+            correctionAdd("thank u", "thank you");
+            correctionAdd("Thnak you", "thank you");
+            correctionAdd("thnak you", "thank you");
+            correctionAdd("Thanks you", "thank you");
+            correctionAdd("thanks you", "thank you");
+            correctionAdd("tnq", "thank you");
+            correctionAdd("TNQ", "thank you");
+            correctionAdd("Thank You", "thank you");
+            correctionAdd("Thank-You", "thank you");
+            correctionAdd("thankyou", "thank you");
+            correctionAdd("Thankyou", "thank you");
+            correctionAdd("Thank you", "thank you");
+            correctionAdd("Thank your", "thank you");
+            correctionAdd("thank your", "thank you");
+            correctionAdd("thank-you", "thank you");
+
+            correctionAdd("tysm", "thank you very much");
+
+            correctionAdd("thankfull", "thankful");
+
+            correctionAdd("thaknfully", "thankfully");
+
+            correctionAdd("TIA", "thanks in advance");
+            correctionAdd("T.I.A", "thanks in advance");
+            correctionAdd("tia", "thanks in advance");
+            correctionAdd("thanks in adavnce", "thanks in advance");
+            correctionAdd("Thanks beforehand", "thanks in advance");
+            correctionAdd("Thanks in advance", "thanks in advance");
+            correctionAdd("thanks beforehand", "thanks in advance");
 
             correctionAdd("collegaue", "colleague");
             correctionAdd("collegue", "colleague");
@@ -35286,22 +35356,31 @@ namespace OverflowHelper.core
             correctionAdd("simutaniuosly", "simultaneously");
             correctionAdd("simultaneoulsy", "simultaneously");
 
-            correctionAdd("supose", "suppose");
-            correctionAdd("supost", "suppose");
-            correctionAdd("supouse", "suppose");
-            correctionAdd("suppouse", "suppose");
-            correctionAdd("Supose", "suppose");
-            correctionAdd("Supoose", "suppose");
-            correctionAdd("supoose", "suppose");
-
             correctionAdd("suposed", "supposed");
             correctionAdd("supoused", "supposed");
             correctionAdd("suppoused", "supposed");
             correctionAdd("suppoosed", "supposed");
+            correctionAdd("suppose", "supposed");
 
             correctionAdd("suppodsedly", "supposedly");
             correctionAdd("Suppodsedly", "supposedly");
             correctionAdd("supsosedly", "supposedly");
+
+            correctionAdd("suport", "support");
+            correctionAdd("supoprt", "support");
+            correctionAdd("SUPORT", "support");
+            correctionAdd("suppport", "support");
+
+            correctionAdd("suported", "supported");
+            correctionAdd("supproted", "supported");
+            correctionAdd("supportetd", "supported");
+            correctionAdd("supprted", "supported");
+
+            correctionAdd("un-supported", "unsupported");
+            correctionAdd("unsuported", "unsupported");
+            correctionAdd("unspported", "unsupported");
+
+            correctionAdd("suppoter", "supporter");
 
             correctionAdd("jure", "sure");
             correctionAdd("shure", "sure");
@@ -36490,11 +36569,6 @@ namespace OverflowHelper.core
             correctionAdd("NP", "no problem");
             correctionAdd("Np", "no problem");
 
-            correctionAdd("suport", "support");
-            correctionAdd("supoprt", "support");
-            correctionAdd("SUPORT", "support");
-            correctionAdd("suppport", "support");
-
             correctionAdd("fltk", "FLTK");
 
             correctionAdd("venn diagram", "Venn diagram");
@@ -37259,9 +37333,6 @@ namespace OverflowHelper.core
             correctionAdd("the h-word", "help vampire");
             correctionAdd("help vampirism", "help vampire");
 
-            correctionAdd("Udev", "udev");
-            correctionAdd("UDEV", "udev");
-
             correctionAdd("visonary", "visionary");
 
             correctionAdd("ps1", "PS1");
@@ -37379,15 +37450,6 @@ namespace OverflowHelper.core
             correctionAdd("s/", "s/PATTERN/REPLACEMENT/msixpodualngcer");
 
             correctionAdd("swollow", "swallow");
-
-            correctionAdd("un-supported", "unsupported");
-            correctionAdd("unsuported", "unsupported");
-            correctionAdd("unspported", "unsupported");
-
-            correctionAdd("suported", "supported");
-            correctionAdd("supproted", "supported");
-            correctionAdd("supportetd", "supported");
-            correctionAdd("supprted", "supported");
 
             correctionAdd("vocabolary", "vocabulary");
             correctionAdd("vocab", "vocabulary");
@@ -40741,8 +40803,6 @@ namespace OverflowHelper.core
             correctionAdd("logarithmith", "logarithm");
             correctionAdd("log", "logarithm");
 
-            correctionAdd("sub expression", "subexpression");
-
             correctionAdd("arised", "arose");
 
             correctionAdd("coinsides", "coincides");
@@ -41419,8 +41479,6 @@ namespace OverflowHelper.core
 
             correctionAdd("subjectivness", "subjectiveness");
             correctionAdd("subjectivnes", "subjectiveness");
-
-            correctionAdd("suppoter", "supporter");
 
             correctionAdd("totaly", "totally");
             correctionAdd("tottaly", "totally");
@@ -45169,29 +45227,6 @@ namespace OverflowHelper.core
             correctionAdd("spcial", "special");
             correctionAdd("speciall", "special");
 
-            correctionAdd("ty", "thank you");
-            correctionAdd("Ty", "thank you");
-            correctionAdd("tu", "thank you");
-            correctionAdd("Tu", "thank you");
-            correctionAdd("tnx", "thank you");
-            correctionAdd("Thanku", "thank you");
-            correctionAdd("thanku", "thank you");
-            correctionAdd("thank u", "thank you");
-            correctionAdd("Thnak you", "thank you");
-            correctionAdd("thnak you", "thank you");
-            correctionAdd("Thanks you", "thank you");
-            correctionAdd("thanks you", "thank you");
-            correctionAdd("tnq", "thank you");
-            correctionAdd("TNQ", "thank you");
-            correctionAdd("Thank You", "thank you");
-            correctionAdd("Thank-You", "thank you");
-            correctionAdd("thankyou", "thank you");
-            correctionAdd("Thankyou", "thank you");
-            correctionAdd("Thank you", "thank you");
-            correctionAdd("Thank your", "thank you");
-            correctionAdd("thank your", "thank you");
-            correctionAdd("thank-you", "thank you");
-
             correctionAdd("ireland", "Ireland");
 
             correctionAdd("maga", "Make America Great Again");
@@ -45474,8 +45509,6 @@ namespace OverflowHelper.core
             correctionAdd("Protein", "protein");
             correctionAdd("Protien", "protein");
             correctionAdd("protien", "protein");
-
-            correctionAdd("thankfull", "thankful");
 
             correctionAdd("death valley", "Death Valley");
 
@@ -46440,10 +46473,6 @@ namespace OverflowHelper.core
 
             correctionAdd("MicroCap", "Micro-Cap");
 
-            correctionAdd("S expression", "S-expression");
-            correctionAdd("s-expression", "S-expression");
-            correctionAdd("s expression", "S-expression");
-
             correctionAdd("appriately", "appropriately");
             correctionAdd("aproperiately", "appropriately");
             correctionAdd("approeriately", "appropriately");
@@ -46519,11 +46548,6 @@ namespace OverflowHelper.core
             correctionAdd("1n4148", "1N4148");
 
             correctionAdd("dag", "DAG");
-
-            // A plagiarism-infested software development forum
-            correctionAdd("Dev.to", "DEV");
-            correctionAdd("dev.to", "DEV");
-            correctionAdd("DEV.to", "DEV");
 
             correctionAdd("SQL*Plus", "SQL Plus");
             correctionAdd("sql * plus", "SQL Plus");
@@ -47990,14 +48014,6 @@ namespace OverflowHelper.core
 
             correctionAdd("owership", "ownership");
 
-            correctionAdd("TIA", "thanks in advance");
-            correctionAdd("T.I.A", "thanks in advance");
-            correctionAdd("tia", "thanks in advance");
-            correctionAdd("thanks in adavnce", "thanks in advance");
-            correctionAdd("Thanks beforehand", "thanks in advance");
-            correctionAdd("Thanks in advance", "thanks in advance");
-            correctionAdd("thanks beforehand", "thanks in advance");
-
             correctionAdd("the bees kneeze", "the bee's knees");
 
             correctionAdd("eclipse", "Eclipse");
@@ -48288,8 +48304,6 @@ namespace OverflowHelper.core
 
             correctionAdd("DMN", "Decision Model and Notation");
 
-            correctionAdd("FEEL", "Friendly Enough Expression Language");
-
             correctionAdd("QPF", "QFP");
 
             correctionAdd("solaar", "Solaar");
@@ -48491,11 +48505,6 @@ namespace OverflowHelper.core
             correctionAdd("faraday cage", "Faraday cage");
 
             correctionAdd("MU-MIMO", "Multi-user MIMO");
-
-            correctionAdd("CTE", "common table expression");
-            correctionAdd("cte", "common table expression");
-            correctionAdd("Common Table Expression", "common table expression");
-            correctionAdd("Common Table Expressions", "common table expression");
 
             correctionAdd("CDT", "Eclipse CDT");
             correctionAdd("Eclipse/CDT", "Eclipse CDT");
@@ -51944,8 +51953,6 @@ namespace OverflowHelper.core
 
             correctionAdd("toast", "pop-up notification");
 
-            correctionAdd("thaknfully", "thankfully");
-
             correctionAdd("Lukashenko", "Alexander Lukashenko");
 
             correctionAdd("Obama", "Barack Obama");
@@ -52283,8 +52290,6 @@ namespace OverflowHelper.core
             correctionAdd("catchall", "catch-all");
             correctionAdd("catch all", "catch-all");
             correctionAdd("catch them all", "catch-all");
-
-            correctionAdd("Expr", "expr");
 
             correctionAdd("face lift", "facelift");
 
@@ -53986,10 +53991,6 @@ namespace OverflowHelper.core
 
             correctionAdd("informix", "Informix");
 
-            correctionAdd("Regular expressions 101", "Regex101");
-            correctionAdd("regex101", "Regex101");
-            correctionAdd("RegEx101", "Regex101");
-
             correctionAdd("SQL92", "SQL-92");
             correctionAdd("SQL 92", "SQL-92");
 
@@ -54448,8 +54449,6 @@ namespace OverflowHelper.core
             correctionAdd("mudball", "big ball of mud");
 
             correctionAdd("dumbed-down", "dumbed down");
-
-            correctionAdd("two problems", "Regular expressions: now you have two problems");
 
             correctionAdd("one size fits all", "one-size-fits-all");
 
@@ -58115,6 +58114,9 @@ namespace OverflowHelper.core
 
             correctionAdd("cses", "CSES Problem Set");
             correctionAdd("CSES", "CSES Problem Set");
+
+            correctionAdd("LVM", "logical volume management");
+            correctionAdd("lvm", "logical volume management");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -63334,8 +63336,6 @@ namespace OverflowHelper.core
             URL_Add("simultaneously", "https://en.wiktionary.org/wiki/simultaneously#Adverb");
 
             URL_Add("slightly", "https://en.wiktionary.org/wiki/slightly#Adverb");
-
-            URL_Add("suppose", "https://en.wiktionary.org/wiki/suppose#Verb");
 
             URL_Add("sure", "https://en.wiktionary.org/wiki/sure#Adverb");
 
@@ -79909,8 +79909,6 @@ namespace OverflowHelper.core
 
             URL_Add("catch-all", "https://en.wiktionary.org/wiki/catch-all#Noun");
 
-            URL_Add("expr", "https://en.wikipedia.org/wiki/Expr");
-
             URL_Add("facelift", "https://en.wiktionary.org/wiki/facelift#Noun");
 
             URL_Add("idempotence", "https://en.wiktionary.org/wiki/idempotence#Noun");
@@ -89251,6 +89249,10 @@ namespace OverflowHelper.core
 
             URL_Add("CSES Problem Set", "https://cses.fi/");
 
+            URL_Add("thank you very much", "https://en.wiktionary.org/wiki/thank_you_so_much#Interjection");
+
+            URL_Add("logical volume management", "https://en.wikipedia.org/wiki/Logical_volume_management");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -90296,6 +90298,8 @@ namespace OverflowHelper.core
             correctionAdd("thankyou_", "thank-you_");
             correctionAdd("thank you_", "thank-you_");
 
+            correctionAdd("Hi_", "thanks in advance_");
+
             correctionAdd("bited_", "bit_");
 
             correctionAdd("SET_", "set_");
@@ -91125,6 +91129,14 @@ namespace OverflowHelper.core
 
             correctionAdd("SVM_", "support vector machines_");
 
+            correctionAdd("supose_", "suppose_");
+            correctionAdd("supost_", "suppose_");
+            correctionAdd("supouse_", "suppose_");
+            correctionAdd("suppouse_", "suppose_");
+            correctionAdd("Supose_", "suppose_");
+            correctionAdd("Supoose_", "suppose_");
+            correctionAdd("supoose_", "suppose_");
+
             correctionAdd("dolphin_", "Android Studio 15 (Dolphin)_");
             correctionAdd("Android Studio 15_", "Android Studio 15 (Dolphin)_");
             correctionAdd("Dolphin_", "Android Studio 15 (Dolphin)_");
@@ -91163,8 +91175,6 @@ namespace OverflowHelper.core
             correctionAdd("ff_", "fast-forward_");
             correctionAdd("Fast Forward_", "fast-forward_");
             correctionAdd("FF_", "fast-forward_");
-
-            correctionAdd("Hi_", "thanks in advance_");
 
             correctionAdd("timeout_", "time out_");
 
@@ -92352,6 +92362,9 @@ namespace OverflowHelper.core
 
             correctionAdd("DP_", "dynamic programming_");
             correctionAdd("dp_", "dynamic programming_");
+
+            // Unix
+            correctionAdd("Expr_", "expr_");
 
             // URL mappings
             //
@@ -93993,6 +94006,10 @@ namespace OverflowHelper.core
             URL_Add("TAC_", "https://en.wikipedia.org/wiki/Type_Allocation_Code");
 
             URL_Add("dynamic programming_", "https://en.wikipedia.org/wiki/Dynamic_programming");
+
+            URL_Add("expr_", "https://en.wikipedia.org/wiki/Expr");
+
+            URL_Add("suppose_", "https://en.wiktionary.org/wiki/suppose#Verb");
 
         } //addLookupData_alternativeWordSet()
 
