@@ -2819,6 +2819,8 @@ namespace OverflowHelper.core
             correctionAdd("I yam", "I’m");
             correctionAdd("I'", "I’m");
             correctionAdd("I’", "I’m");
+            correctionAdd("i am", "I’m");
+            correctionAdd("iam", "I’m");
 
             correctionAdd("isnt", "isn’t");
             correctionAdd("aint", "isn’t");
@@ -3857,6 +3859,8 @@ namespace OverflowHelper.core
             // A book
             correctionAdd("Robert's rules", "Robert's Rules of Order");
 
+            correctionAdd("RAMDISC", "RAM disk");
+
             correctionAdd("uContoller", "microcontroller");
             correctionAdd("uController", "microcontroller");
             correctionAdd("micro-controller", "microcontroller");
@@ -3973,6 +3977,9 @@ namespace OverflowHelper.core
             correctionAdd("amd", "AMD");
             correctionAdd("AMd", "AMD");
             correctionAdd("Amd", "AMD");
+
+            // A software development tool
+            correctionAdd("AMD CodeXL", "CodeXL");
 
             // A CPU feature (AMD only?)
             correctionAdd("TurboBoost", "Turbo Boost");
@@ -4539,6 +4546,11 @@ namespace OverflowHelper.core
             correctionAdd("back-tic", "backtick");
             correctionAdd("back-tics", "backtick");
             correctionAdd("back mark", "backtick");
+            correctionAdd("Backquotes", "backtick");
+            correctionAdd("Backticks", "backtick");
+            correctionAdd("backquotes", "backtick");
+            correctionAdd("backticks", "backtick");
+            correctionAdd("backward quote", "backtick");
 
             correctionAdd("quatation mark", "quotation mark");
             correctionAdd("quotationmark", "quotation mark");
@@ -5394,6 +5406,80 @@ namespace OverflowHelper.core
             correctionAdd("Rich Text", "rich text");
             correctionAdd("formatted text", "rich text");
             correctionAdd("richtext", "rich text");
+
+            correctionAdd("num", "number");
+            correctionAdd("no", "number");
+            correctionAdd("numer", "number");
+            correctionAdd("nbr", "number");
+            correctionAdd("Number", "number");
+            correctionAdd("numnber", "number");
+            correctionAdd("numbes", "number");
+            correctionAdd("Nº", "number");
+
+            correctionAdd("Prime Number", "prime number");
+            correctionAdd("primes", "prime number");
+            correctionAdd("primenumber", "prime number");
+
+            correctionAdd("Magic Number", "magic number");
+
+            correctionAdd("AS number", "autonomous system number");
+            correctionAdd("ASN", "autonomous system number");
+
+            correctionAdd("SSN", "Social Security number");
+            correctionAdd("ss#", "Social Security number");
+            correctionAdd("social security", "Social Security number");
+            correctionAdd("social security number", "Social Security number");
+
+            correctionAdd("F-stop", "f-number");
+            correctionAdd("F-number", "f-number");
+            correctionAdd("F-Stop", "f-number");
+            correctionAdd("f-stop", "f-number");
+
+            correctionAdd("plus perfect number", "narcissistic number");
+            correctionAdd("Armstrong number", "narcissistic number");
+            correctionAdd("PPDI", "narcissistic number");
+            correctionAdd("armstrong number", "narcissistic number");
+            correctionAdd("pluperfect digital invariant", "narcissistic number");
+
+            correctionAdd("Complex number", "complex number");
+
+            correctionAdd("PAN", "permanent account number");
+
+            correctionAdd("linenumber", "line number");
+            correctionAdd("line no", "line number");
+
+            correctionAdd("Line Feed", "line feed");
+            correctionAdd("linefeed", "line feed");
+            correctionAdd("LineFeed", "line feed");
+
+            correctionAdd("linebreak", "line break");
+            correctionAdd("Line-Break", "line break");
+            correctionAdd("line-break", "line break");
+
+            correctionAdd("linemanager", "line manager");
+            correctionAdd("line-manager", "line manager");
+
+            correctionAdd("lineterminator", "line terminator");
+
+            correctionAdd("Line integral", "line integral");
+
+            correctionAdd("prefect", "perfect");
+
+            correctionAdd("prefectly", "perfectly");
+            correctionAdd("perfectely", "perfectly");
+            correctionAdd("perferctly", "perfectly");
+            correctionAdd("perfecty", "perfectly");
+            correctionAdd("perfrectly", "perfectly");
+            correctionAdd("perfeclty", "perfectly");
+
+            correctionAdd("non perfect", "nonperfect");
+            correctionAdd("Non perfect", "nonperfect");
+            correctionAdd("non-perfect", "nonperfect");
+
+            correctionAdd("Present Perfect", "present perfect");
+
+            correctionAdd("wordperfect", "WordPerfect");
+            correctionAdd("word perfect", "WordPerfect");
 
             correctionAdd("286", "Intel 80286");
 
@@ -8514,6 +8600,7 @@ namespace OverflowHelper.core
             correctionAdd("List Comprehension", "list comprehension");
             correctionAdd("List comprehension", "list comprehension");
             correctionAdd("listcomp", "list comprehension");
+            correctionAdd("list of comprehensions", "list comprehension");
 
             correctionAdd("plugg", "plug");
             correctionAdd("pulg", "plug");
@@ -11156,13 +11243,11 @@ namespace OverflowHelper.core
             correctionAdd("abl", "able");
 
             correctionAdd("var", "variable");
-            correctionAdd("vars", "variable"); // Plural, to avoid nearly duplicate entries.
             correctionAdd("varialbe", "variable");
             correctionAdd("varibale", "variable");
             correctionAdd("variabe", "variable");
             correctionAdd("valiarble", "variable");
             correctionAdd("varible", "variable");
-            correctionAdd("variales", "variable");
             correctionAdd("varaible", "variable");
             correctionAdd("vailble", "variable");
             correctionAdd("varialble", "variable");
@@ -11170,14 +11255,10 @@ namespace OverflowHelper.core
             correctionAdd("variabel", "variable");
             correctionAdd("Variabile", "variable");
             correctionAdd("variabile", "variable");
-            correctionAdd("vaibles", "variable");
             correctionAdd("vaible", "variable");
-            correctionAdd("vairiables", "variable");
             correctionAdd("vairable", "variable");
-            correctionAdd("variabes", "variable");
             correctionAdd("VARABLE", "variable");
             correctionAdd("Varialbe", "variable");
-            correctionAdd("varaibles", "variable");
             correctionAdd("vraiable", "variable");
             correctionAdd("Variable", "variable");
             correctionAdd("variale", "variable");
@@ -11187,6 +11268,13 @@ namespace OverflowHelper.core
             correctionAdd("variablr", "variable");
             correctionAdd("varrible", "variable");
             correctionAdd("vatiable", "variable");
+
+            correctionAdd("vars", "variables");
+            correctionAdd("variales", "variables");
+            correctionAdd("vaibles", "variables");
+            correctionAdd("vairiables", "variables");
+            correctionAdd("variabes", "variables");
+            correctionAdd("varaibles", "variables");
 
             correctionAdd("env var", "environment variable");
             correctionAdd("Env Var", "environment variable");
@@ -12611,6 +12699,16 @@ namespace OverflowHelper.core
             correctionAdd("Nemesis", "nemesis");
 
             correctionAdd("Nucleosynthesis", "nucleosynthesis");
+
+            correctionAdd("synthetize", "synthetise");
+            correctionAdd("sinthetize", "synthetise");
+
+            correctionAdd("synthesizes", "synthesises");
+            correctionAdd("syntheizes", "synthesises");
+
+            correctionAdd("synth", "synthesizer");
+
+            correctionAdd("DDS", "direct digital synthesis");
 
             correctionAdd("emojies", "emojis");
 
@@ -14982,28 +15080,6 @@ namespace OverflowHelper.core
             correctionAdd("ANSI color escape sequence", "ANSI escape code");
             correctionAdd("ANSI escape sequence", "ANSI escape code");
             correctionAdd("ANSI esc", "ANSI escape code");
-
-            correctionAdd("num", "number");
-            correctionAdd("no", "number");
-            correctionAdd("numer", "number");
-            correctionAdd("nbr", "number");
-            correctionAdd("Number", "number");
-            correctionAdd("numnber", "number");
-            correctionAdd("numbes", "number");
-
-            correctionAdd("Prime Number", "prime number");
-            correctionAdd("primes", "prime number");
-            correctionAdd("primenumber", "prime number");
-
-            correctionAdd("SSN", "Social Security number");
-            correctionAdd("ss#", "Social Security number");
-            correctionAdd("social security", "Social Security number");
-            correctionAdd("social security number", "Social Security number");
-
-            correctionAdd("F-stop", "f-number");
-            correctionAdd("F-number", "f-number");
-            correctionAdd("F-Stop", "f-number");
-            correctionAdd("f-stop", "f-number");
 
             correctionAdd("Quantum mechanics", "quantum mechanics");
             correctionAdd("QM", "quantum mechanics");
@@ -20901,8 +20977,6 @@ namespace OverflowHelper.core
             correctionAdd("Sandisk", "SanDisk");
             correctionAdd("sandisk", "SanDisk");
 
-            correctionAdd("RAMDISC", "RAM disk");
-
             correctionAdd("FDM", "Free Download Manager");
 
             correctionAdd("ria", "RIA");
@@ -26179,30 +26253,6 @@ namespace OverflowHelper.core
             correctionAdd("Mootools", "MooTools");
             correctionAdd("mootools", "MooTools");
             correctionAdd("Mootols", "MooTools");
-
-            correctionAdd("prefect", "perfect");
-
-            correctionAdd("prefectly", "perfectly");
-            correctionAdd("perfectely", "perfectly");
-            correctionAdd("perferctly", "perfectly");
-            correctionAdd("perfecty", "perfectly");
-            correctionAdd("perfrectly", "perfectly");
-            correctionAdd("perfeclty", "perfectly");
-
-            correctionAdd("non perfect", "nonperfect");
-            correctionAdd("Non perfect", "nonperfect");
-            correctionAdd("non-perfect", "nonperfect");
-
-            correctionAdd("Present Perfect", "present perfect");
-
-            correctionAdd("plus perfect number", "narcissistic number");
-            correctionAdd("Armstrong number", "narcissistic number");
-            correctionAdd("PPDI", "narcissistic number");
-            correctionAdd("armstrong number", "narcissistic number");
-            correctionAdd("pluperfect digital invariant", "narcissistic number");
-
-            correctionAdd("wordperfect", "WordPerfect");
-            correctionAdd("word perfect", "WordPerfect");
 
             correctionAdd("wordpress", "WordPress");
             correctionAdd("Wordpress", "WordPress");
@@ -36460,9 +36510,6 @@ namespace OverflowHelper.core
             correctionAdd("retrn", "return");
             correctionAdd("retunr", "return");
             correctionAdd("retuen", "return");
-
-            correctionAdd("synthetize", "synthetise");
-            correctionAdd("sinthetize", "synthetise");
 
             correctionAdd("transparancy", "transparency");
             correctionAdd("transperancy", "transparency");
@@ -47424,6 +47471,7 @@ namespace OverflowHelper.core
 
             correctionAdd("obderved", "observed");
             correctionAdd("osbserved", "observed");
+            correctionAdd("obversed", "observed");
 
             correctionAdd("othogonal", "orthogonal");
 
@@ -50285,8 +50333,6 @@ namespace OverflowHelper.core
 
             correctionAdd("substracted", "subtracted");
 
-            correctionAdd("synth", "synthesizer");
-
             correctionAdd("Airplay", "AirPlay");
 
             correctionAdd("Papa smurf", "Papa Smurf");
@@ -52315,8 +52361,6 @@ namespace OverflowHelper.core
 
             correctionAdd("tron", "TRON");
 
-            correctionAdd("Complex number", "complex number");
-
             correctionAdd("imag", "imaginary");
 
             correctionAdd("Numerical Relativity", "numerical relativity");
@@ -53060,8 +53104,6 @@ namespace OverflowHelper.core
             correctionAdd("marshall", "marshalling");
             correctionAdd("martialing", "marshalling");
 
-            correctionAdd("PAN", "permanent account number");
-
             correctionAdd("RtR", "right to repair");
 
             correctionAdd("ton's", "tons");
@@ -53423,24 +53465,6 @@ namespace OverflowHelper.core
             correctionAdd("hardcoding", "hard coding");
             correctionAdd("hard-coding", "hard coding");
 
-            correctionAdd("linenumber", "line number");
-            correctionAdd("line no", "line number");
-
-            correctionAdd("Line Feed", "line feed");
-            correctionAdd("linefeed", "line feed");
-            correctionAdd("LineFeed", "line feed");
-
-            correctionAdd("linebreak", "line break");
-            correctionAdd("Line-Break", "line break");
-            correctionAdd("line-break", "line break");
-
-            correctionAdd("linemanager", "line manager");
-            correctionAdd("line-manager", "line manager");
-
-            correctionAdd("lineterminator", "line terminator");
-
-            correctionAdd("Line integral", "line integral");
-
             correctionAdd("andrew koenig", "Andrew Koenig");
             correctionAdd("Andy Koenig", "Andrew Koenig");
 
@@ -53641,9 +53665,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Bind", "BIND");
             correctionAdd("bind", "BIND");
-
-            correctionAdd("AS number", "autonomous system number");
-            correctionAdd("ASN", "autonomous system number");
 
             correctionAdd("hit the nail upon the top", "hit the nail on the head");
 
@@ -54763,8 +54784,6 @@ namespace OverflowHelper.core
 
             correctionAdd("unappropriately", "inappropriately");
 
-            correctionAdd("Magic Number", "magic number");
-
             correctionAdd("insurace", "insurance");
 
             correctionAdd("MV", "mv");
@@ -55075,8 +55094,6 @@ namespace OverflowHelper.core
             correctionAdd("dows", "rows");
 
             correctionAdd("check point", "checkpoint");
-
-            correctionAdd("DDS", "direct digital synthesis");
 
             correctionAdd("incedental", "incidental");
 
@@ -58118,6 +58135,8 @@ namespace OverflowHelper.core
             correctionAdd("LVM", "logical volume management");
             correctionAdd("lvm", "logical volume management");
 
+            correctionAdd("type-less", "typeless");
+
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -59643,8 +59662,6 @@ namespace OverflowHelper.core
             URL_Add("LGPL", "https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License");
 
             URL_Add("if I remember correctly", "https://en.wiktionary.org/wiki/IIRC#Phrase"); // Old: https://en.wiktionary.org/wiki/IIRC
-
-            URL_Add("variable", "https://en.wikipedia.org/wiki/Variable_%28computer_science%29");
 
             URL_Add("µTorrent", "https://en.wikipedia.org/wiki/%CE%9CTorrent");
 
@@ -89252,6 +89269,16 @@ namespace OverflowHelper.core
             URL_Add("thank you very much", "https://en.wiktionary.org/wiki/thank_you_so_much#Interjection");
 
             URL_Add("logical volume management", "https://en.wikipedia.org/wiki/Logical_volume_management");
+
+            URL_Add("variable", "https://en.wikipedia.org/wiki/Variable_%28computer_science%29");
+
+            URL_Add("variables", "https://en.wikipedia.org/wiki/Variable_%28computer_science%29");
+
+            URL_Add("CodeXL", "https://en.wikipedia.org/wiki/CodeXL");
+
+            URL_Add("synthesises", "https://en.wiktionary.org/wiki/synthesise#Verb");
+
+            URL_Add("typeless", "https://en.wiktionary.org/wiki/typeless#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
