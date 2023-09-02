@@ -5957,6 +5957,12 @@ namespace OverflowHelper.core
             correctionAdd("Apache age", "Apache AGE");
             correctionAdd("apache age", "Apache AGE");
             correctionAdd("apacheAGE", "Apache AGE");
+            correctionAdd("Apache Age", "Apache AGE");
+            correctionAdd("Apache-AGE", "Apache AGE");
+            correctionAdd("Apache-Age", "Apache AGE");
+            correctionAdd("Apache-age", "Apache AGE");
+            correctionAdd("age", "Apache AGE");
+            correctionAdd("apache-age", "Apache AGE");
 
             correctionAdd("amazon", "Amazon DOT com"); // The name is actually Amazon.com, but we have reasons not to use something that looks like a URL...
             correctionAdd("Amazon", "Amazon DOT com");
@@ -18696,6 +18702,7 @@ namespace OverflowHelper.core
             correctionAdd("none-lang", "```lang-none");
             correctionAdd("lang-none", "```lang-none");
             correctionAdd("```bash", "```lang-none");
+            correctionAdd("```", "```lang-none");
 
             correctionAdd("php-lang", "```lang-php");
             correctionAdd("lang-php", "```lang-php");
@@ -22831,6 +22838,8 @@ namespace OverflowHelper.core
             correctionAdd("Ducky Shine", "Ducky Shine 7");
             correctionAdd("Ducky 7", "Ducky Shine 7");
             correctionAdd("ducky 7", "Ducky Shine 7");
+            correctionAdd("Shine 7", "Ducky Shine 7");
+            correctionAdd("shine 7", "Ducky Shine 7");
 
             // A mechanical keyboard from Ducky (or rather a series)
             correctionAdd("Ducky One Two", "Ducky One 2");
@@ -30299,6 +30308,8 @@ namespace OverflowHelper.core
             correctionAdd("SQL-Injection", "SQL injection");
             correctionAdd("SQl injection", "SQL injection");
             correctionAdd("SQLInjection", "SQL injection");
+            correctionAdd("Sql Injection Attack", "SQL injection");
+            correctionAdd("sql injection attack", "SQL injection");
 
             // A PHP relational database driver
             correctionAdd("mysqli", "MySQLi");
@@ -36703,6 +36714,7 @@ namespace OverflowHelper.core
             correctionAdd("voluntorily", "voluntarily");
             correctionAdd("volunataraly", "voluntarily");
             correctionAdd("voluntaraly", "voluntarily");
+            correctionAdd("volunteryly", "voluntarily");
 
             correctionAdd("ammend", "amend");
 
@@ -58174,6 +58186,10 @@ namespace OverflowHelper.core
             correctionAdd("type-less", "typeless");
 
             correctionAdd("astro turfing", "astroturfing");
+
+            correctionAdd("play integrity API", "Play Integrity API");
+
+            correctionAdd("run-away", "runaway");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -89326,6 +89342,10 @@ namespace OverflowHelper.core
 
             URL_Add("Stack Overflow Forums", "https://meta.stackoverflow.com/questions/426107/discussions-experiment-launching-on-nlp-collective");
 
+            URL_Add("Play Integrity API", "https://developer.android.com/google/play/integrity/overview");
+
+            URL_Add("runaway", "https://en.wiktionary.org/wiki/runaway#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -92445,6 +92465,9 @@ namespace OverflowHelper.core
             // Unix
             correctionAdd("NICE_", "nice_");
 
+            // PostgreSQL. A C API.
+            correctionAdd("SPI_", "Server Programming Interface_");
+
             // URL mappings
             //
             //
@@ -94091,6 +94114,8 @@ namespace OverflowHelper.core
             URL_Add("suppose_", "https://en.wiktionary.org/wiki/suppose#Verb");
 
             URL_Add("nice_", "https://en.wikipedia.org/wiki/Nice_(Unix)");
+
+            URL_Add("Server Programming Interface_", "https://www.postgresql.org/docs/7.0/spi.htm");
 
         } //addLookupData_alternativeWordSet()
 
