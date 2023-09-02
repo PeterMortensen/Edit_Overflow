@@ -1098,6 +1098,615 @@ namespace OverflowHelper.core
 
             correctionAdd("Unit Circle", "unit circle");
 
+            correctionAdd("short hand", "shorthand");
+            correctionAdd("short-hand", "shorthand");
+            correctionAdd("Shortand", "shorthand");
+            correctionAdd("shortand", "shorthand");
+
+            correctionAdd("short", "shorten");
+
+            correctionAdd("short-out", "short out");
+            correctionAdd("shortout", "short out");
+
+            correctionAdd("short cut", "shortcut");
+            correctionAdd("shortuct", "shortcut");
+            correctionAdd("shortcurt", "shortcut");
+            correctionAdd("short-cut", "shortcut");
+            correctionAdd("shorcut", "shortcut");
+
+            correctionAdd("short term", "short-term");
+
+            correctionAdd("short-story", "short story");
+
+            correctionAdd("short cuts", "shortcuts");
+
+            correctionAdd("short-form", "short form");
+
+            correctionAdd("short sited", "short-sighted");
+            correctionAdd("short sighted", "short-sighted");
+            correctionAdd("shortsighted", "short-sighted");
+
+            correctionAdd("shortcoming", "shortcomings");
+            correctionAdd("short coming", "shortcomings");
+
+            correctionAdd("shortlived", "short-lived");
+            correctionAdd("short lived", "short-lived");
+
+            correctionAdd("Short Scale", "short scale");
+
+            correctionAdd("Long Scale", "long scale");
+
+            correctionAdd("eBook", "e-book");
+            correctionAdd("e book", "e-book");
+            correctionAdd("ebook", "e-book");
+
+            correctionAdd("docbook", "DocBook");
+
+            correctionAdd("text book", "textbook");
+            correctionAdd("Textbook", "textbook");
+
+            correctionAdd("Notebook", "notebook");
+
+            correctionAdd("phone book", "phonebook");
+
+            correctionAdd("MLA", "MLA Handbook");
+
+            correctionAdd("almos", "almost");
+            correctionAdd("alomst", "almost");
+            correctionAdd("allmost", "almost");
+            correctionAdd("alsmost", "almost");
+            correctionAdd("alsomst", "almost");
+
+            correctionAdd("left most", "leftmost");
+
+            correctionAdd("must", "most");
+            correctionAdd("mos", "most");
+
+            correctionAdd("splitted", "split");
+            correctionAdd("spited", "split");
+            correctionAdd("splited", "split");
+            correctionAdd("spilt", "split");
+
+            correctionAdd("spliting", "splitting");
+            correctionAdd("Spliting", "splitting");
+
+            correctionAdd("secundary", "secondary");
+
+            correctionAdd("second-most", "second most");
+
+            correctionAdd("second-to-last", "second to last");
+
+            correctionAdd("second worst", "second-worst");
+
+            correctionAdd("bottommost", "bottom-most");
+
+            correctionAdd("front-most", "frontmost");
+
+            correctionAdd("second-hand", "secondhand");
+
+            correctionAdd("second order", "second-order");
+            correctionAdd("2nd order", "second-order");
+
+            correctionAdd("2nd person", "second person");
+
+            correctionAdd("second class", "second-class");
+
+            correctionAdd("second thought", "second thoughts");
+            correctionAdd("second though", "second thoughts");
+
+            correctionAdd("Citizen", "citizen");
+
+            correctionAdd("first class citizen", "first-class citizen");
+
+            // Also related to comments on Stack Exchange and Stack Overflow
+            correctionAdd("second class citizen", "second-class citizen");
+
+            correctionAdd("Citizen Science", "citizen science");
+            correctionAdd("Citizen science", "citizen science");
+
+            // Databases
+            correctionAdd("1NF", "first normal form");
+
+            // Databases
+            correctionAdd("2NF", "second normal form");
+
+            // Databases
+            correctionAdd("3NF", "third normal form");
+
+            correctionAdd("split second", "split-second");
+
+            correctionAdd("sec", "seconds");
+            correctionAdd("secs", "seconds");
+            correctionAdd("secods", "seconds");
+            correctionAdd("segs", "seconds");
+            correctionAdd("secounds", "seconds");
+
+            correctionAdd("milisecond", "millisecond");
+            correctionAdd("millisec", "millisecond");
+            correctionAdd("mS", "millisecond");
+            correctionAdd("mili second", "millisecond");
+            correctionAdd("milli second", "millisecond");
+            correctionAdd("millisonds", "millisecond");
+            correctionAdd("milliseonds", "millisecond");
+            correctionAdd("milliseconds", "millisecond");
+            correctionAdd("millis", "millisecond");
+            correctionAdd("millisecs", "millisecond");
+            correctionAdd("millisecodn", "millisecond");
+            correctionAdd("millisecodns", "millisecond");
+            correctionAdd("mills", "millisecond");
+            correctionAdd("miliseconds", "millisecond");
+            correctionAdd("msec", "millisecond");
+            correctionAdd("millisecondes", "millisecond");
+
+            // Byte sequence CE BC 73
+            correctionAdd("microsecond", "μs");
+            correctionAdd("u sec", "μs");
+            correctionAdd("usec", "μs");
+            correctionAdd("usecond", "μs");
+            correctionAdd("u second", "μs");
+            correctionAdd("micro second", "μs");
+            correctionAdd("μsec", "μs");
+            correctionAdd("μ sec", "μs");
+
+            // Duplicate? Two different representations of "µ"?
+            // Byte sequence C2 B5
+            correctionAdd("us", "µs"); // Microseconds.
+            correctionAdd("uS", "µs"); // Microseconds.
+            correctionAdd("uSec", "µs"); // Microseconds.
+
+            correctionAdd("ns", "nanosecond");
+            correctionAdd("Nanosecond", "nanosecond");
+            correctionAdd("Nanoseconds", "nanosecond");
+            correctionAdd("nanoseconds", "nanosecond");
+
+            correctionAdd("arc second", "arcsecond");
+
+            correctionAdd("BNF", "Backus–Naur form");
+            correctionAdd("Backus-Naur form", "Backus–Naur form");
+            correctionAdd("backus", "Backus–Naur form");
+            correctionAdd("naur", "Backus–Naur form");
+            correctionAdd("bnf", "Backus–Naur form");
+
+            correctionAdd("EBNF", "Extended Backus–Naur form");
+            correctionAdd("ebnf", "Extended Backus–Naur form");
+
+            correctionAdd("ABNF", "augmented Backus–Naur form");
+
+            correctionAdd("Extended BPF", "eBPF");
+            correctionAdd("eBFP", "eBPF");
+
+            correctionAdd("Byte", "byte");
+
+            correctionAdd("kb", "&nbsp;KB"); // Assuming bytes, not bits...
+            correctionAdd("KB", "&nbsp;KB"); // Assuming bytes, not bits...
+            correctionAdd("Kbyte", "&nbsp;KB");
+            correctionAdd("Kb", "&nbsp;KB");
+            correctionAdd("KByte", "&nbsp;KB");
+
+            correctionAdd("mb", "&nbsp;MB"); // Assuming bytes, not bits...
+            correctionAdd("MB", "&nbsp;MB"); // Assuming bytes, not bits...
+            correctionAdd("mega byte", "&nbsp;MB");
+            correctionAdd("megabyte", "&nbsp;MB");
+            correctionAdd("Mega byte", "&nbsp;MB");
+            correctionAdd("MBytes", "&nbsp;MB");
+            correctionAdd("Mbyte", "&nbsp;MB");
+            correctionAdd("meg", "&nbsp;MB");
+            correctionAdd("megs", "&nbsp;MB");
+            correctionAdd("Mb", "&nbsp;MB");
+            correctionAdd("Megabyte", "&nbsp;MB");
+            correctionAdd("Megabytes", "&nbsp;MB");
+
+            correctionAdd("gb", "&nbsp;GB"); // Assuming bytes, not bits...
+            correctionAdd("GByte", "&nbsp;GB");
+            correctionAdd("GB", "&nbsp;GB"); // For convenience
+            correctionAdd("gigabyte", "&nbsp;GB"); // Shrinking...
+            correctionAdd("Giga Byte", "&nbsp;GB");
+            correctionAdd("Giga byte", "&nbsp;GB");
+            correctionAdd("giga byte", "&nbsp;GB");
+            correctionAdd("gigs", "&nbsp;GB");
+            correctionAdd("gig", "&nbsp;GB");
+            correctionAdd("Gig", "&nbsp;GB");
+            correctionAdd("Gb", "&nbsp;GB");
+            correctionAdd("Gigabyte", "&nbsp;GB");
+            correctionAdd("Gigabytes", "&nbsp;GB");
+            correctionAdd("gigabytes", "&nbsp;GB");
+
+            correctionAdd("tb", "&nbsp;TB");
+            correctionAdd("Tb", "&nbsp;TB"); // Conflicts with Thunderbird
+            correctionAdd("terrabyte", "&nbsp;TB");
+            correctionAdd("terra byte", "&nbsp;TB");
+            correctionAdd("tera byte", "&nbsp;TB");
+            correctionAdd("terabyte", "&nbsp;TB");
+            correctionAdd("Terabyte", "&nbsp;TB");
+
+            correctionAdd("multi-byte", "multibyte");
+
+            correctionAdd("byte string", "bytestring");
+
+            correctionAdd("bt", "bit");
+            correctionAdd("Bit", "bit");
+            correctionAdd("bti", "bit");
+
+            correctionAdd("Megabit", "megabit");
+            correctionAdd("Megabits", "megabit");
+
+            correctionAdd("btis", "bits");
+            correctionAdd("bts", "bits");
+
+            correctionAdd("bit rate", "bitrate");
+            correctionAdd("Bitrate", "bitrate");
+
+            correctionAdd("bit/s", "&nbsp;bit/s"); // Sort of identity mapping
+            correctionAdd("bps", "&nbsp;bit/s"); // Different unit.
+            correctionAdd("bits/s", "&nbsp;bit/s");
+            correctionAdd("Bits / s", "&nbsp;bit/s");
+            correctionAdd("bits / s", "&nbsp;bit/s");
+            correctionAdd("b/s", "&nbsp;bit/s");
+
+            correctionAdd("kbit/s", "&nbsp;kbit/s"); // Sort of identity mapping
+            correctionAdd("kbps", "&nbsp;kbit/s"); // Different unit.
+            correctionAdd("Kbps", "&nbsp;kbit/s"); // Different unit.
+            correctionAdd("kBits/s", "&nbsp;kbit/s");
+            correctionAdd("kbits/s", "&nbsp;kbit/s");
+            correctionAdd("Kb/sec", "&nbsp;kbit/s");
+            correctionAdd("kBit/s", "&nbsp;kbit/s");
+            correctionAdd("KBPS", "&nbsp;kbit/s");
+            correctionAdd("Kbit / s", "&nbsp;kbit/s");
+            correctionAdd("kbit / s", "&nbsp;kbit/s");
+            correctionAdd("KBits / s", "&nbsp;kbit/s");
+            correctionAdd("KBits/s", "&nbsp;kbit/s");
+
+            correctionAdd("Mbit/s", "&nbsp;Mbit/s"); // Sort of identity mapping
+            correctionAdd("mbps", "&nbsp;Mbit/s"); // Different unit.
+            correctionAdd("Mbps", "&nbsp;Mbit/s"); // Different unit.
+            correctionAdd("MBps", "&nbsp;Mbit/s"); // Different unit.
+            correctionAdd("mbs", "&nbsp;Mbit/s"); // Misspelling
+            correctionAdd("MBit/s", "&nbsp;Mbit/s"); // Case
+            correctionAdd("mbit", "&nbsp;Mbit/s"); // Misspelling
+            correctionAdd("mbit/s", "&nbsp;Mbit/s");
+            correctionAdd("MBit", "&nbsp;Mbit/s");
+            correctionAdd("Mbit", "&nbsp;Mbit/s");
+            correctionAdd("megabit/s", "&nbsp;Mbit/s");
+            correctionAdd("Mbs", "&nbsp;Mbit/s");
+            correctionAdd("Megabits/s", "&nbsp;Mbit/s");
+            correctionAdd("Megabit/s", "&nbsp;Mbit/s");
+
+            correctionAdd("Gbit/s", "&nbsp;Gbit/s"); // Sort of identity mapping
+            correctionAdd("gbps", "&nbsp;Gbit/s"); // Different unit.
+            correctionAdd("gbit", "&nbsp;Gbit/s");
+            correctionAdd("Gbit", "&nbsp;Gbit/s");
+            correctionAdd("Gbps", "&nbsp;Gbit/s");
+            correctionAdd("Gpbs", "&nbsp;Gbit/s"); // Real typo
+            correctionAdd("gb/s", "&nbsp;Gbit/s");
+            correctionAdd("gbit/s", "&nbsp;Gbit/s");
+            correctionAdd("GBit/s", "&nbsp;Gbit/s");
+            correctionAdd("Gigabits/second", "&nbsp;Gbit/s");
+            correctionAdd("Gigabits/s", "&nbsp;Gbit/s");
+            correctionAdd("gigabits/s", "&nbsp;Gbit/s");
+            correctionAdd("gigabit/s", "&nbsp;Gbit/s");
+            correctionAdd("gigabit per second", "&nbsp;Gbit/s");
+
+            correctionAdd("BaudRate", "baud rate");
+            correctionAdd("baudRate", "baud rate");
+            correctionAdd("baudrate", "baud rate");
+            correctionAdd("Baud rate", "baud rate");
+            correctionAdd("BAUD rate", "baud rate");
+            correctionAdd("baud speed", "baud rate");
+
+            correctionAdd("Baud", "baud");
+
+            correctionAdd("mega baud", "megabaud");
+
+            correctionAdd("9,600", "9,600 baud");
+            correctionAdd("9600", "9,600 baud");
+
+            correctionAdd("14,400", "14,400 baud");
+            correctionAdd("14400", "14,400 baud");
+
+            correctionAdd("115,200", "115,200 baud");
+            correctionAdd("115200", "115,200 baud");
+
+            correctionAdd("19,200", "19,200 baud");
+            correctionAdd("19200", "19,200 baud");
+
+            correctionAdd("Hz", "&nbsp;Hz"); // Sort of identity mapping
+            correctionAdd("hz", "&nbsp;Hz"); // Spelling.
+            correctionAdd("Hertz", "&nbsp;Hz");
+            correctionAdd("HZ", "&nbsp;Hz");
+
+            correctionAdd("kHz", "&nbsp;kHz"); // Sort of identity mapping
+            correctionAdd("KHz", "&nbsp;kHz"); // Spelling/case.
+            correctionAdd("Khz", "&nbsp;kHz"); // Spelling/case.
+            correctionAdd("khz", "&nbsp;kHz"); // Spelling/case.
+            correctionAdd("KHZ", "&nbsp;kHz"); // Spelling/case.
+            correctionAdd("kHZ", "&nbsp;kHz");
+
+            correctionAdd("MHz", "&nbsp;MHz"); // Sort of identity mapping
+            correctionAdd("Mhz", "&nbsp;MHz"); // Spelling.
+            correctionAdd("mhz", "&nbsp;MHz"); // Spelling. Could be millihertz
+            correctionAdd("MHZ", "&nbsp;MHz"); // Spelling.
+            correctionAdd("mHz", "&nbsp;MHz"); // Spelling. Could be millihertz
+            correctionAdd("Mz", "&nbsp;MHz");
+            correctionAdd("megahert", "&nbsp;MHz");
+            correctionAdd("megahertz", "&nbsp;MHz");
+
+            correctionAdd("GHz", "&nbsp;GHz"); // Sort of identity mapping
+            correctionAdd("Ghz", "&nbsp;GHz"); // Spelling.
+            correctionAdd("GHZ", "&nbsp;GHz"); // Spelling.
+            correctionAdd("ghz", "&nbsp;GHz"); // Spelling.
+            correctionAdd("gHz", "&nbsp;GHz"); // Spelling.
+            correctionAdd("gigahert", "&nbsp;GHz");
+            correctionAdd("gigahertz", "&nbsp;GHz");
+
+            correctionAdd("THz", "&nbsp;THz"); // Sort of identity mapping
+            correctionAdd("thz", "&nbsp;THz");
+            correctionAdd("Thz", "&nbsp;THz");
+            correctionAdd("Terahertz", "&nbsp;THz");
+            correctionAdd("terahertz", "&nbsp;THz");
+
+            correctionAdd("5 GHz", "5&nbsp;GHz"); // Sort of identity mapping
+            correctionAdd("5GHz", "5&nbsp;GHz");
+
+            correctionAdd("newton raphson", "Newton–Raphson");
+            correctionAdd("Newton's method", "Newton–Raphson");
+            correctionAdd("newton's method", "Newton–Raphson");
+
+            correctionAdd("Newtons first law of motion", "Newton's first law of motion");
+            correctionAdd("newton's first law", "Newton's first law of motion");
+            correctionAdd("Newton's first law", "Newton's first law of motion");
+            correctionAdd("Newton's First Law", "Newton's first law of motion");
+
+            correctionAdd("Newton's 2nd law", "Newton's second law of motion");
+            correctionAdd("Newtons second law of motion", "Newton's second law of motion");
+            correctionAdd("Newton's Second Law", "Newton's second law of motion");
+            correctionAdd("newton's second law", "Newton's second law of motion");
+            correctionAdd("Newton's second law", "Newton's second law of motion");
+            correctionAdd("Newtons II law", "Newton's second law of motion");
+
+            correctionAdd("Newton's Third Law", "Newton's third law of motion");
+
+            correctionAdd("newtons laws", "Newton's laws of motion");
+            correctionAdd("Newton's Laws of Motion", "Newton's laws of motion");
+            correctionAdd("Newton laws", "Newton's laws of motion");
+            correctionAdd("Newton's laws", "Newton's laws of motion");
+
+            correctionAdd("Newtons's law of gravitation", "Newton's law of universal gravitation");
+
+            correctionAdd("2nd law of Thermodynamics", "second law of thermodynamics");
+            correctionAdd("II law of thermodynamics", "second law of thermodynamics");
+
+            correctionAdd("Dandified YUM", "DNF");
+            correctionAdd("dnf", "DNF");
+
+            correctionAdd("1st edition", "first edition");
+            correctionAdd("1/e", "first edition");
+            correctionAdd("1st Edition", "first edition");
+
+            correctionAdd("2nd edition", "second edition");
+            correctionAdd("2/e", "second edition");
+            correctionAdd("2nd Edition", "second edition");
+
+            correctionAdd("playbook", "Ansible playbook");
+
+            correctionAdd("hand work", "handwork");
+
+            correctionAdd("in our hands", "on our hands");
+
+            correctionAdd("in hand", "on hand");
+
+            correctionAdd("by hands", "by hand");
+
+            correctionAdd("by the other hand", "on the other hand");
+            correctionAdd("In the other hand", "on the other hand");
+            correctionAdd("in the other hand", "on the other hand");
+            correctionAdd("In another hand", "on the other hand");
+            correctionAdd("in another hand", "on the other hand");
+            correctionAdd("By the other hand", "on the other hand");
+            correctionAdd("One the other hand", "on the other hand");
+            correctionAdd("one the other hand", "on the other hand");
+            correctionAdd("OTOH", "on the other hand");
+            correctionAdd("otoh", "on the other hand");
+            correctionAdd("on the hand", "on the other hand");
+            correctionAdd("On the other side", "on the other hand");
+            correctionAdd("on the other side", "on the other hand");
+            correctionAdd("In the other side", "on the other hand");
+            correctionAdd("in the other side", "on the other hand");
+            correctionAdd("In other hand", "on the other hand");
+            correctionAdd("in other hand", "on the other hand");
+            correctionAdd("On the other, hand", "on the other hand");
+            correctionAdd("on the other, hand", "on the other hand");
+            correctionAdd("On the other hand", "on the other hand");
+            correctionAdd("On other hand", "on the other hand");
+            correctionAdd("on other hand", "on the other hand");
+
+            correctionAdd("on one hand", "on the one hand");
+            correctionAdd("From one hand", "on the one hand");
+            correctionAdd("from one hand", "on the one hand");
+            correctionAdd("On the one hand", "on the one hand");
+            correctionAdd("On one hand", "on the one hand");
+            correctionAdd("In one hand", "on the one hand");
+            correctionAdd("in one hand", "on the one hand");
+            correctionAdd("One one hand", "on the one hand");
+            correctionAdd("One the one hand", "on the one hand");
+            correctionAdd("one the one hand", "on the one hand");
+
+            correctionAdd("handfull", "handful");
+            correctionAdd("hand-full", "handful");
+            correctionAdd("hand fulll", "handful");
+            correctionAdd("hand full", "handful");
+
+            correctionAdd("hands on", "hands-on");
+            correctionAdd("handson", "hands-on");
+            correctionAdd("Hands on", "hands-on");
+
+            correctionAdd("first-hand", "firsthand");
+            correctionAdd("first hand", "firsthand");
+            correctionAdd("Firsthand", "firsthand");
+
+            correctionAdd("hand worked", "handworked");
+
+            correctionAdd("hand-wavy", "handwavy");
+
+            correctionAdd("arm waving", "hand waving");
+
+            correctionAdd("back-handed", "backhanded");
+
+            correctionAdd("heavy handed", "heavy-handed");
+
+            correctionAdd("handholding", "hand-holding");
+
+            correctionAdd("handheld", "hand-held");
+            correctionAdd("hand held", "hand-held");
+
+            correctionAdd("hand write", "handwrite");
+
+            correctionAdd("hand crafted", "handcrafted");
+
+            correctionAdd("free-hand", "freehand");
+
+            correctionAdd("before hand", "beforehand");
+            correctionAdd("beforhand", "beforehand");
+            correctionAdd("beforehands", "beforehand");
+
+            correctionAdd("LH", "left-hand");
+
+            correctionAdd("LHS", "left-hand side");
+            correctionAdd("left hand side", "left-hand side");
+            correctionAdd("left-side", "left-hand side");
+
+            correctionAdd("right hand", "right-hand");
+
+            correctionAdd("RHS", "right-hand side");
+            correctionAdd("right hand side", "right-hand side");
+            correctionAdd("right-side", "right-hand side");
+
+            correctionAdd("right most", "right-most");
+
+            correctionAdd("single handedly", "single-handedly");
+            correctionAdd("singlehandedly", "single-handedly");
+
+            correctionAdd("handel", "handle");
+            correctionAdd("hangle", "handle");
+
+            correctionAdd("hanling", "handling");
+            correctionAdd("Hanling", "handling");
+            correctionAdd("handeling", "handling");
+
+            correctionAdd("handeld", "handled");
+
+            correctionAdd("handlebars", "Handlebars.js");
+            correctionAdd("Handlebars", "Handlebars.js");
+
+            correctionAdd("hand-coded", "hard coded");
+            correctionAdd("hand-codded", "hard coded");
+            correctionAdd("hard-codded", "hard coded");
+            correctionAdd("hard-coded", "hard coded");
+            correctionAdd("hardcoded", "hard coded");
+            correctionAdd("hardcore", "hard coded");
+
+            correctionAdd("TIA", "thanks in advance");
+            correctionAdd("T.I.A", "thanks in advance");
+            correctionAdd("tia", "thanks in advance");
+            correctionAdd("thanks in adavnce", "thanks in advance");
+            correctionAdd("Thanks beforehand", "thanks in advance");
+            correctionAdd("Thanks in advance", "thanks in advance");
+            correctionAdd("thanks beforehand", "thanks in advance");
+
+            correctionAdd("thnx", "thanks");
+            correctionAdd("thans", "thanks");
+            correctionAdd("thx", "thanks");
+            correctionAdd("Thenks", "thanks");
+            correctionAdd("thenks", "thanks");
+            correctionAdd("thaks", "thanks");
+            correctionAdd("Tks", "thanks");
+            correctionAdd("tks", "thanks");
+            correctionAdd("Thnaks", "thanks");
+            correctionAdd("thnaks", "thanks");
+            correctionAdd("tnks", "thanks");
+            correctionAdd("THX", "thanks");
+            correctionAdd("tanx", "thanks");
+            correctionAdd("thanx", "thanks");
+            correctionAdd("Thans", "thanks");
+            correctionAdd("Thanks", "thanks");
+            correctionAdd("THanks", "thanks");
+            correctionAdd("Thaks", "thanks");
+            correctionAdd("Thks", "thanks");
+            correctionAdd("thks", "thanks");
+            correctionAdd("Thansk", "thanks");
+            correctionAdd("Thankx", "thanks");
+            correctionAdd("thankx", "thanks");
+            correctionAdd("thank's", "thanks");
+            correctionAdd("Thank's", "thanks");
+            correctionAdd("Thankss", "thanks");
+            correctionAdd("thankss", "thanks");
+            correctionAdd("THAKS", "thanks");
+
+            correctionAdd("ty", "thank you");
+            correctionAdd("Ty", "thank you");
+            correctionAdd("tu", "thank you");
+            correctionAdd("Tu", "thank you");
+            correctionAdd("tnx", "thank you");
+            correctionAdd("Thanku", "thank you");
+            correctionAdd("thanku", "thank you");
+            correctionAdd("thank u", "thank you");
+            correctionAdd("Thnak you", "thank you");
+            correctionAdd("thnak you", "thank you");
+            correctionAdd("Thanks you", "thank you");
+            correctionAdd("thanks you", "thank you");
+            correctionAdd("tnq", "thank you");
+            correctionAdd("TNQ", "thank you");
+            correctionAdd("Thank You", "thank you");
+            correctionAdd("Thank-You", "thank you");
+            correctionAdd("thankyou", "thank you");
+            correctionAdd("Thankyou", "thank you");
+            correctionAdd("Thank you", "thank you");
+            correctionAdd("Thank your", "thank you");
+            correctionAdd("thank your", "thank you");
+            correctionAdd("thank-you", "thank you");
+
+            correctionAdd("tysm", "thank you very much");
+
+            correctionAdd("thankfull", "thankful");
+
+            correctionAdd("thaknfully", "thankfully");
+
+            correctionAdd("ambersand", "ampersand");
+            correctionAdd("apersand", "ampersand");
+            correctionAdd("ampesand", "ampersand");
+
+            correctionAdd("thansand", "thousand");
+            correctionAdd("tousind", "thousand");
+            correctionAdd("thouthand", "thousand");
+            correctionAdd("thoutand", "thousand");
+            correctionAdd("thothand", "thousand");
+            correctionAdd("thouhand", "thousand");
+            correctionAdd("thuasand", "thousand");
+
+            correctionAdd("nand", "NAND");
+
+            correctionAdd("england", "England");
+
+            correctionAdd("norther ireland", "Northern Ireland");
+            correctionAdd("NI", "Northern Ireland");
+
+            correctionAdd("scotland", "Scotland");
+
+            correctionAdd("Findland", "Finland");
+            correctionAdd("finnland", "Finland");
+            correctionAdd("finland", "Finland");
+
+            correctionAdd("switzerland", "Switzerland");
+
+            correctionAdd("GreenLand", "Greenland");
+            correctionAdd("greenland", "Greenland");
+
+            // Windows. Compilers. IDEs.
+            correctionAdd("borland", "Borland");
+            correctionAdd("Boland", "Borland");
+
+            // Unix
+            correctionAdd("wayland", "Wayland");
+
             correctionAdd("VA", "virtual assistant");
 
             correctionAdd("VST", "Virtual Studio Technology");
@@ -2576,16 +3185,22 @@ namespace OverflowHelper.core
 
             correctionAdd("ac cepts", "accepts");
 
-            correctionAdd("accepeted", "accepted");
-            correctionAdd("accpeted", "accepted");
+            correctionAdd("un-accept", "unaccept");
 
             correctionAdd("accpeting", "accepting");
             correctionAdd("acceptig", "accepting");
 
+            correctionAdd("accepeted", "accepted");
+            correctionAdd("accpeted", "accepted");
+
             correctionAdd("acceptible", "acceptable");
             correctionAdd("aceptable", "acceptable");
 
+            correctionAdd("inacceptable", "unacceptable");
+
             correctionAdd("accpetance", "acceptance");
+
+            correctionAdd("UAT", "user acceptance testing");
 
             correctionAdd("sideeffect", "side effect");
             correctionAdd("side-effect", "side effect");
@@ -3353,44 +3968,6 @@ namespace OverflowHelper.core
             correctionAdd("Cosmic Microwave Background", "cosmic microwave background");
             correctionAdd("CMBR", "cosmic microwave background");
 
-            correctionAdd("short", "shorten");
-
-            correctionAdd("short-out", "short out");
-            correctionAdd("shortout", "short out");
-
-            correctionAdd("short cut", "shortcut");
-            correctionAdd("shortuct", "shortcut");
-            correctionAdd("shortcurt", "shortcut");
-            correctionAdd("short-cut", "shortcut");
-            correctionAdd("shorcut", "shortcut");
-
-            correctionAdd("short hand", "shorthand");
-            correctionAdd("short-hand", "shorthand");
-            correctionAdd("Shortand", "shorthand");
-            correctionAdd("shortand", "shorthand");
-
-            correctionAdd("short term", "short-term");
-
-            correctionAdd("short-story", "short story");
-
-            correctionAdd("short cuts", "shortcuts");
-
-            correctionAdd("short-form", "short form");
-
-            correctionAdd("short sited", "short-sighted");
-            correctionAdd("short sighted", "short-sighted");
-            correctionAdd("shortsighted", "short-sighted");
-
-            correctionAdd("shortcoming", "shortcomings");
-            correctionAdd("short coming", "shortcomings");
-
-            correctionAdd("shortlived", "short-lived");
-            correctionAdd("short lived", "short-lived");
-
-            correctionAdd("Short Scale", "short scale");
-
-            correctionAdd("Long Scale", "long scale");
-
             correctionAdd("sscce", "short self-contained correct example");
             correctionAdd("SSCCE", "short self-contained correct example");
 
@@ -3805,16 +4382,6 @@ namespace OverflowHelper.core
             correctionAdd("horizondally", "horizontally");
             correctionAdd("Horiztonally", "horizontally");
             correctionAdd("horiztonally", "horizontally");
-
-            correctionAdd("Citizen", "citizen");
-
-            correctionAdd("first class citizen", "first-class citizen");
-
-            // Also related to comments on Stack Exchange and Stack Overflow
-            correctionAdd("second class citizen", "second-class citizen");
-
-            correctionAdd("Citizen Science", "citizen science");
-            correctionAdd("Citizen science", "citizen science");
 
             correctionAdd("trump", "Trump");
             correctionAdd("Citizen Trump", "Trump");
@@ -4740,31 +5307,6 @@ namespace OverflowHelper.core
             correctionAdd("worth a grain of salt", "with a grain of salt");
             correctionAdd("a grain of salt", "with a grain of salt");
             correctionAdd("grain of salt", "with a grain of salt");
-
-            correctionAdd("newton raphson", "Newton–Raphson");
-            correctionAdd("Newton's method", "Newton–Raphson");
-            correctionAdd("newton's method", "Newton–Raphson");
-
-            correctionAdd("Newtons first law of motion", "Newton's first law of motion");
-            correctionAdd("newton's first law", "Newton's first law of motion");
-            correctionAdd("Newton's first law", "Newton's first law of motion");
-            correctionAdd("Newton's First Law", "Newton's first law of motion");
-
-            correctionAdd("Newton's 2nd law", "Newton's second law of motion");
-            correctionAdd("Newtons second law of motion", "Newton's second law of motion");
-            correctionAdd("Newton's Second Law", "Newton's second law of motion");
-            correctionAdd("newton's second law", "Newton's second law of motion");
-            correctionAdd("Newton's second law", "Newton's second law of motion");
-            correctionAdd("Newtons II law", "Newton's second law of motion");
-
-            correctionAdd("Newton's Third Law", "Newton's third law of motion");
-
-            correctionAdd("newtons laws", "Newton's laws of motion");
-            correctionAdd("Newton's Laws of Motion", "Newton's laws of motion");
-            correctionAdd("Newton laws", "Newton's laws of motion");
-            correctionAdd("Newton's laws", "Newton's laws of motion");
-
-            correctionAdd("Newtons's law of gravitation", "Newton's law of universal gravitation");
 
             correctionAdd("Fick's law", "Fick's laws");
 
@@ -6662,8 +7204,6 @@ namespace OverflowHelper.core
             correctionAdd("Integration Testing", "integration testing");
             correctionAdd("Intregration Test", "integration testing");
 
-            correctionAdd("UAT", "user acceptance testing");
-
             correctionAdd("Regression Testing", "regression testing");
 
             correctionAdd("loadtesting", "load testing");
@@ -8560,8 +9100,6 @@ namespace OverflowHelper.core
             correctionAdd("work tree", "worktree");
 
             correctionAdd("re-work", "rework");
-
-            correctionAdd("hand work", "handwork");
 
             correctionAdd("workorder", "work order");
             correctionAdd("Work-order", "work order");
@@ -11437,8 +11975,6 @@ namespace OverflowHelper.core
 
             correctionAdd("unnaccountable", "unaccountable");
 
-            correctionAdd("inacceptable", "unacceptable");
-
             correctionAdd("regretable", "regrettable");
 
             correctionAdd("maintable", "maintainable");
@@ -11915,20 +12451,6 @@ namespace OverflowHelper.core
             correctionAdd("extende", "extended");
 
             correctionAdd("extenable", "extendable");
-
-            correctionAdd("BNF", "Backus–Naur form");
-            correctionAdd("Backus-Naur form", "Backus–Naur form");
-            correctionAdd("backus", "Backus–Naur form");
-            correctionAdd("naur", "Backus–Naur form");
-            correctionAdd("bnf", "Backus–Naur form");
-
-            correctionAdd("EBNF", "Extended Backus–Naur form");
-            correctionAdd("ebnf", "Extended Backus–Naur form");
-
-            correctionAdd("ABNF", "augmented Backus–Naur form");
-
-            correctionAdd("Extended BPF", "eBPF");
-            correctionAdd("eBFP", "eBPF");
 
             correctionAdd("programable", "programmable");
             correctionAdd("programmamble", "programmable");
@@ -15359,16 +15881,6 @@ namespace OverflowHelper.core
             correctionAdd("requste", "request");
             correctionAdd("rewuest", "request");
 
-            correctionAdd("splitted", "split");
-            correctionAdd("spited", "split");
-            correctionAdd("splited", "split");
-            correctionAdd("spilt", "split");
-
-            correctionAdd("spliting", "splitting");
-            correctionAdd("Spliting", "splitting");
-
-            correctionAdd("split second", "split-second");
-
             correctionAdd("php", "PHP");
             correctionAdd("Php", "PHP");
             correctionAdd("pHp", "PHP");
@@ -17222,178 +17734,6 @@ namespace OverflowHelper.core
 
             correctionAdd("kgdb", "KGDB");
 
-            correctionAdd("Byte", "byte");
-
-            correctionAdd("kb", "&nbsp;KB"); // Assuming bytes, not bits...
-            correctionAdd("KB", "&nbsp;KB"); // Assuming bytes, not bits...
-            correctionAdd("Kbyte", "&nbsp;KB");
-            correctionAdd("Kb", "&nbsp;KB");
-            correctionAdd("KByte", "&nbsp;KB");
-
-            correctionAdd("mb", "&nbsp;MB"); // Assuming bytes, not bits...
-            correctionAdd("MB", "&nbsp;MB"); // Assuming bytes, not bits...
-            correctionAdd("mega byte", "&nbsp;MB");
-            correctionAdd("megabyte", "&nbsp;MB");
-            correctionAdd("Mega byte", "&nbsp;MB");
-            correctionAdd("MBytes", "&nbsp;MB");
-            correctionAdd("Mbyte", "&nbsp;MB");
-            correctionAdd("meg", "&nbsp;MB");
-            correctionAdd("megs", "&nbsp;MB");
-            correctionAdd("Mb", "&nbsp;MB");
-            correctionAdd("Megabyte", "&nbsp;MB");
-            correctionAdd("Megabytes", "&nbsp;MB");
-
-            correctionAdd("gb", "&nbsp;GB"); // Assuming bytes, not bits...
-            correctionAdd("GByte", "&nbsp;GB");
-            correctionAdd("GB", "&nbsp;GB"); // For convenience
-            correctionAdd("gigabyte", "&nbsp;GB"); // Shrinking...
-            correctionAdd("Giga Byte", "&nbsp;GB");
-            correctionAdd("Giga byte", "&nbsp;GB");
-            correctionAdd("giga byte", "&nbsp;GB");
-            correctionAdd("gigs", "&nbsp;GB");
-            correctionAdd("gig", "&nbsp;GB");
-            correctionAdd("Gig", "&nbsp;GB");
-            correctionAdd("Gb", "&nbsp;GB");
-            correctionAdd("Gigabyte", "&nbsp;GB");
-            correctionAdd("Gigabytes", "&nbsp;GB");
-            correctionAdd("gigabytes", "&nbsp;GB");
-
-            correctionAdd("tb", "&nbsp;TB");
-            correctionAdd("Tb", "&nbsp;TB"); // Conflicts with Thunderbird
-            correctionAdd("terrabyte", "&nbsp;TB");
-            correctionAdd("terra byte", "&nbsp;TB");
-            correctionAdd("tera byte", "&nbsp;TB");
-            correctionAdd("terabyte", "&nbsp;TB");
-            correctionAdd("Terabyte", "&nbsp;TB");
-
-            correctionAdd("multi-byte", "multibyte");
-
-            correctionAdd("byte string", "bytestring");
-
-            correctionAdd("bt", "bit");
-            correctionAdd("Bit", "bit");
-            correctionAdd("bti", "bit");
-
-            correctionAdd("Megabit", "megabit");
-            correctionAdd("Megabits", "megabit");
-
-            correctionAdd("btis", "bits");
-            correctionAdd("bts", "bits");
-
-            correctionAdd("bit rate", "bitrate");
-            correctionAdd("Bitrate", "bitrate");
-
-            correctionAdd("bit/s", "&nbsp;bit/s"); // Sort of identity mapping
-            correctionAdd("bps", "&nbsp;bit/s"); // Different unit.
-            correctionAdd("bits/s", "&nbsp;bit/s");
-            correctionAdd("Bits / s", "&nbsp;bit/s");
-            correctionAdd("bits / s", "&nbsp;bit/s");
-            correctionAdd("b/s", "&nbsp;bit/s");
-
-            correctionAdd("kbit/s", "&nbsp;kbit/s"); // Sort of identity mapping
-            correctionAdd("kbps", "&nbsp;kbit/s"); // Different unit.
-            correctionAdd("Kbps", "&nbsp;kbit/s"); // Different unit.
-            correctionAdd("kBits/s", "&nbsp;kbit/s");
-            correctionAdd("kbits/s", "&nbsp;kbit/s");
-            correctionAdd("Kb/sec", "&nbsp;kbit/s");
-            correctionAdd("kBit/s", "&nbsp;kbit/s");
-            correctionAdd("KBPS", "&nbsp;kbit/s");
-            correctionAdd("Kbit / s", "&nbsp;kbit/s");
-            correctionAdd("kbit / s", "&nbsp;kbit/s");
-            correctionAdd("KBits / s", "&nbsp;kbit/s");
-            correctionAdd("KBits/s", "&nbsp;kbit/s");
-
-            correctionAdd("Mbit/s", "&nbsp;Mbit/s"); // Sort of identity mapping
-            correctionAdd("mbps", "&nbsp;Mbit/s"); // Different unit.
-            correctionAdd("Mbps", "&nbsp;Mbit/s"); // Different unit.
-            correctionAdd("MBps", "&nbsp;Mbit/s"); // Different unit.
-            correctionAdd("mbs", "&nbsp;Mbit/s"); // Misspelling
-            correctionAdd("MBit/s", "&nbsp;Mbit/s"); // Case
-            correctionAdd("mbit", "&nbsp;Mbit/s"); // Misspelling
-            correctionAdd("mbit/s", "&nbsp;Mbit/s");
-            correctionAdd("MBit", "&nbsp;Mbit/s");
-            correctionAdd("Mbit", "&nbsp;Mbit/s");
-            correctionAdd("megabit/s", "&nbsp;Mbit/s");
-            correctionAdd("Mbs", "&nbsp;Mbit/s");
-            correctionAdd("Megabits/s", "&nbsp;Mbit/s");
-            correctionAdd("Megabit/s", "&nbsp;Mbit/s");
-
-            correctionAdd("Gbit/s", "&nbsp;Gbit/s"); // Sort of identity mapping
-            correctionAdd("gbps", "&nbsp;Gbit/s"); // Different unit.
-            correctionAdd("gbit", "&nbsp;Gbit/s");
-            correctionAdd("Gbit", "&nbsp;Gbit/s");
-            correctionAdd("Gbps", "&nbsp;Gbit/s");
-            correctionAdd("Gpbs", "&nbsp;Gbit/s"); // Real typo
-            correctionAdd("gb/s", "&nbsp;Gbit/s");
-            correctionAdd("gbit/s", "&nbsp;Gbit/s");
-            correctionAdd("GBit/s", "&nbsp;Gbit/s");
-            correctionAdd("Gigabits/second", "&nbsp;Gbit/s");
-            correctionAdd("Gigabits/s", "&nbsp;Gbit/s");
-            correctionAdd("gigabits/s", "&nbsp;Gbit/s");
-            correctionAdd("gigabit/s", "&nbsp;Gbit/s");
-            correctionAdd("gigabit per second", "&nbsp;Gbit/s");
-
-            correctionAdd("BaudRate", "baud rate");
-            correctionAdd("baudRate", "baud rate");
-            correctionAdd("baudrate", "baud rate");
-            correctionAdd("Baud rate", "baud rate");
-            correctionAdd("BAUD rate", "baud rate");
-            correctionAdd("baud speed", "baud rate");
-
-            correctionAdd("Baud", "baud");
-
-            correctionAdd("mega baud", "megabaud");
-
-            correctionAdd("9,600", "9,600 baud");
-            correctionAdd("9600", "9,600 baud");
-
-            correctionAdd("14,400", "14,400 baud");
-            correctionAdd("14400", "14,400 baud");
-
-            correctionAdd("115,200", "115,200 baud");
-            correctionAdd("115200", "115,200 baud");
-
-            correctionAdd("19,200", "19,200 baud");
-            correctionAdd("19200", "19,200 baud");
-
-            correctionAdd("Hz", "&nbsp;Hz"); // Sort of identity mapping
-            correctionAdd("hz", "&nbsp;Hz"); // Spelling.
-            correctionAdd("Hertz", "&nbsp;Hz");
-            correctionAdd("HZ", "&nbsp;Hz");
-
-            correctionAdd("kHz", "&nbsp;kHz"); // Sort of identity mapping
-            correctionAdd("KHz", "&nbsp;kHz"); // Spelling/case.
-            correctionAdd("Khz", "&nbsp;kHz"); // Spelling/case.
-            correctionAdd("khz", "&nbsp;kHz"); // Spelling/case.
-            correctionAdd("KHZ", "&nbsp;kHz"); // Spelling/case.
-            correctionAdd("kHZ", "&nbsp;kHz");
-
-            correctionAdd("MHz", "&nbsp;MHz"); // Sort of identity mapping
-            correctionAdd("Mhz", "&nbsp;MHz"); // Spelling.
-            correctionAdd("mhz", "&nbsp;MHz"); // Spelling. Could be millihertz
-            correctionAdd("MHZ", "&nbsp;MHz"); // Spelling.
-            correctionAdd("mHz", "&nbsp;MHz"); // Spelling. Could be millihertz
-            correctionAdd("Mz", "&nbsp;MHz");
-            correctionAdd("megahert", "&nbsp;MHz");
-            correctionAdd("megahertz", "&nbsp;MHz");
-
-            correctionAdd("GHz", "&nbsp;GHz"); // Sort of identity mapping
-            correctionAdd("Ghz", "&nbsp;GHz"); // Spelling.
-            correctionAdd("GHZ", "&nbsp;GHz"); // Spelling.
-            correctionAdd("ghz", "&nbsp;GHz"); // Spelling.
-            correctionAdd("gHz", "&nbsp;GHz"); // Spelling.
-            correctionAdd("gigahert", "&nbsp;GHz");
-            correctionAdd("gigahertz", "&nbsp;GHz");
-
-            correctionAdd("THz", "&nbsp;THz"); // Sort of identity mapping
-            correctionAdd("thz", "&nbsp;THz");
-            correctionAdd("Thz", "&nbsp;THz");
-            correctionAdd("Terahertz", "&nbsp;THz");
-            correctionAdd("terahertz", "&nbsp;THz");
-
-            correctionAdd("5 GHz", "5&nbsp;GHz"); // Sort of identity mapping
-            correctionAdd("5GHz", "5&nbsp;GHz");
-
             correctionAdd("Micro Bit", "BBC Micro Bit");
             correctionAdd("micro:bit", "BBC Micro Bit");
             correctionAdd("BBC micro:bit", "BBC Micro Bit");
@@ -18701,8 +19041,9 @@ namespace OverflowHelper.core
 
             correctionAdd("none-lang", "```lang-none");
             correctionAdd("lang-none", "```lang-none");
-            correctionAdd("```bash", "```lang-none");
             correctionAdd("```", "```lang-none");
+            correctionAdd("```bash", "```lang-none"); // As it is completely broken at Stack Overflow / Stack Exchange.
+            correctionAdd("```shell", "```lang-none"); // As it is completely broken at Stack Overflow / Stack Exchange.
 
             correctionAdd("php-lang", "```lang-php");
             correctionAdd("lang-php", "```lang-php");
@@ -18817,23 +19158,6 @@ namespace OverflowHelper.core
             correctionAdd("messeneger", "Facebook Messenger");
 
             correctionAdd("Metaverse", "Facebook Metaverse");
-
-            correctionAdd("eBook", "e-book");
-            correctionAdd("e book", "e-book");
-            correctionAdd("ebook", "e-book");
-
-            correctionAdd("docbook", "DocBook");
-
-            correctionAdd("text book", "textbook");
-            correctionAdd("Textbook", "textbook");
-
-            correctionAdd("Notebook", "notebook");
-
-            correctionAdd("phone book", "phonebook");
-
-            correctionAdd("MLA", "MLA Handbook");
-
-            correctionAdd("playbook", "Ansible playbook");
 
             correctionAdd("ok", "OK");
             correctionAdd("Ok", "OK");
@@ -30941,10 +31265,6 @@ namespace OverflowHelper.core
             correctionAdd("HOWTO", "how-to");
             correctionAdd("How-to", "how-to");
 
-            correctionAdd("us", "µs"); // Microseconds.
-            correctionAdd("uS", "µs"); // Microseconds.
-            correctionAdd("uSec", "µs"); // Microseconds.
-
             correctionAdd("LibO", "LibreOffice");
             correctionAdd("Libreoffice", "LibreOffice");
             correctionAdd("Libre Office", "LibreOffice");
@@ -32966,72 +33286,6 @@ namespace OverflowHelper.core
 
             correctionAdd("SYbase", "Sybase");
 
-            correctionAdd("thnx", "thanks");
-            correctionAdd("thans", "thanks");
-            correctionAdd("thx", "thanks");
-            correctionAdd("Thenks", "thanks");
-            correctionAdd("thenks", "thanks");
-            correctionAdd("thaks", "thanks");
-            correctionAdd("Tks", "thanks");
-            correctionAdd("tks", "thanks");
-            correctionAdd("Thnaks", "thanks");
-            correctionAdd("thnaks", "thanks");
-            correctionAdd("tnks", "thanks");
-            correctionAdd("THX", "thanks");
-            correctionAdd("tanx", "thanks");
-            correctionAdd("thanx", "thanks");
-            correctionAdd("Thans", "thanks");
-            correctionAdd("Thanks", "thanks");
-            correctionAdd("THanks", "thanks");
-            correctionAdd("Thaks", "thanks");
-            correctionAdd("Thks", "thanks");
-            correctionAdd("thks", "thanks");
-            correctionAdd("Thansk", "thanks");
-            correctionAdd("Thankx", "thanks");
-            correctionAdd("thankx", "thanks");
-            correctionAdd("thank's", "thanks");
-            correctionAdd("Thank's", "thanks");
-            correctionAdd("Thankss", "thanks");
-            correctionAdd("thankss", "thanks");
-            correctionAdd("THAKS", "thanks");
-
-            correctionAdd("ty", "thank you");
-            correctionAdd("Ty", "thank you");
-            correctionAdd("tu", "thank you");
-            correctionAdd("Tu", "thank you");
-            correctionAdd("tnx", "thank you");
-            correctionAdd("Thanku", "thank you");
-            correctionAdd("thanku", "thank you");
-            correctionAdd("thank u", "thank you");
-            correctionAdd("Thnak you", "thank you");
-            correctionAdd("thnak you", "thank you");
-            correctionAdd("Thanks you", "thank you");
-            correctionAdd("thanks you", "thank you");
-            correctionAdd("tnq", "thank you");
-            correctionAdd("TNQ", "thank you");
-            correctionAdd("Thank You", "thank you");
-            correctionAdd("Thank-You", "thank you");
-            correctionAdd("thankyou", "thank you");
-            correctionAdd("Thankyou", "thank you");
-            correctionAdd("Thank you", "thank you");
-            correctionAdd("Thank your", "thank you");
-            correctionAdd("thank your", "thank you");
-            correctionAdd("thank-you", "thank you");
-
-            correctionAdd("tysm", "thank you very much");
-
-            correctionAdd("thankfull", "thankful");
-
-            correctionAdd("thaknfully", "thankfully");
-
-            correctionAdd("TIA", "thanks in advance");
-            correctionAdd("T.I.A", "thanks in advance");
-            correctionAdd("tia", "thanks in advance");
-            correctionAdd("thanks in adavnce", "thanks in advance");
-            correctionAdd("Thanks beforehand", "thanks in advance");
-            correctionAdd("Thanks in advance", "thanks in advance");
-            correctionAdd("thanks beforehand", "thanks in advance");
-
             correctionAdd("collegaue", "colleague");
             correctionAdd("collegue", "colleague");
             correctionAdd("collegues", "colleague");
@@ -33591,6 +33845,7 @@ namespace OverflowHelper.core
             correctionAdd("firts", "first");
             correctionAdd("furst", "first");
             correctionAdd("firdt", "first");
+            correctionAdd("1-st", "first");
 
             correctionAdd("j1939", "J1939");
 
@@ -33986,13 +34241,6 @@ namespace OverflowHelper.core
             correctionAdd("suprised", "surprised");
             correctionAdd("surprized", "surprised");
 
-            correctionAdd("3rd", "third");
-            correctionAdd("3th", "third");
-            correctionAdd("3Rd", "third");
-            correctionAdd("theird", "third");
-            correctionAdd("3-rd", "third");
-            correctionAdd("3'rd", "third");
-
             correctionAdd("visa versa", "vice versa");
             correctionAdd("Vis versa", "vice versa");
             correctionAdd("vise versa", "vice versa");
@@ -34161,25 +34409,6 @@ namespace OverflowHelper.core
             correctionAdd("rater", "rather");
             correctionAdd("rathen", "rather");
             correctionAdd("rahter", "rather");
-
-            correctionAdd("2nd", "second");
-            correctionAdd("Secound", "second");
-            correctionAdd("secound", "second");
-            correctionAdd("seconde", "second");
-            correctionAdd("seond", "second");
-            correctionAdd("2st", "second");
-            correctionAdd("Secon", "second");
-            correctionAdd("secon", "second");
-            correctionAdd("segs", "second");
-            correctionAdd("seg", "second");
-            correctionAdd("2th", "second");
-            correctionAdd("²nd", "second");
-            correctionAdd("2-nd", "second");
-            correctionAdd("Sedond", "second");
-            correctionAdd("sedond", "second");
-            correctionAdd("Second", "second");
-            correctionAdd("scond", "second");
-            correctionAdd("secounds", "second");
 
             correctionAdd("to do", "todo");
             correctionAdd("to-do", "todo");
@@ -34803,23 +35032,6 @@ namespace OverflowHelper.core
             correctionAdd("familier", "familiar");
             correctionAdd("fimilliar", "familiar");
 
-            correctionAdd("milisecond", "millisecond");
-            correctionAdd("millisec", "millisecond");
-            correctionAdd("mS", "millisecond");
-            correctionAdd("mili second", "millisecond");
-            correctionAdd("milli second", "millisecond");
-            correctionAdd("millisonds", "millisecond");
-            correctionAdd("milliseonds", "millisecond");
-            correctionAdd("milliseconds", "millisecond");
-            correctionAdd("millis", "millisecond");
-            correctionAdd("millisecs", "millisecond");
-            correctionAdd("millisecodn", "millisecond");
-            correctionAdd("millisecodns", "millisecond");
-            correctionAdd("mills", "millisecond");
-            correctionAdd("miliseconds", "millisecond");
-            correctionAdd("msec", "millisecond");
-            correctionAdd("millisecondes", "millisecond");
-
             correctionAdd("programm", "program");
             correctionAdd("Programm", "program");
             correctionAdd("prograame", "program");
@@ -35398,23 +35610,6 @@ namespace OverflowHelper.core
             correctionAdd("alllow", "allow");
             correctionAdd("alow", "allow");
             correctionAdd("Alow", "allow");
-
-            correctionAdd("almos", "almost");
-            correctionAdd("alomst", "almost");
-            correctionAdd("allmost", "almost");
-            correctionAdd("alsmost", "almost");
-            correctionAdd("alsomst", "almost");
-
-            correctionAdd("left most", "leftmost");
-
-            correctionAdd("must", "most");
-            correctionAdd("mos", "most");
-
-            correctionAdd("second-most", "second most");
-
-            correctionAdd("bottommost", "bottom-most");
-
-            correctionAdd("front-most", "frontmost");
 
             correctionAdd("answeared", "answered");
             correctionAdd("aswered", "answered");
@@ -38738,9 +38933,6 @@ namespace OverflowHelper.core
 
             correctionAdd("conqer", "conquer");
 
-            correctionAdd("handel", "handle");
-            correctionAdd("hangle", "handle");
-
             correctionAdd("jargons", "jargon");
             correctionAdd("Jargons", "jargon");
 
@@ -38830,9 +39022,6 @@ namespace OverflowHelper.core
             correctionAdd("faound", "found");
             correctionAdd("foud", "found");
             correctionAdd("founded", "found");
-
-            correctionAdd("single handedly", "single-handedly");
-            correctionAdd("singlehandedly", "single-handedly");
 
             correctionAdd("spectaculary", "spectacularly");
 
@@ -40222,13 +40411,6 @@ namespace OverflowHelper.core
             correctionAdd("Binary Large OBject", "BLOB");
             correctionAdd("blop", "BLOB");
 
-            correctionAdd("hand-coded", "hard coded");
-            correctionAdd("hand-codded", "hard coded");
-            correctionAdd("hard-codded", "hard coded");
-            correctionAdd("hard-coded", "hard coded");
-            correctionAdd("hardcoded", "hard coded");
-            correctionAdd("hardcore", "hard coded");
-
             correctionAdd("EPIC", "Epic");
 
             correctionAdd("yoga", "Yoga");
@@ -41403,10 +41585,6 @@ namespace OverflowHelper.core
             correctionAdd("fav icon", "favicon");
             correctionAdd("Fav icon", "favicon");
 
-            correctionAdd("hanling", "handling");
-            correctionAdd("Hanling", "handling");
-            correctionAdd("handeling", "handling");
-
             correctionAdd("ioen", "join");
 
             correctionAdd("sceptisicm", "scepticism");
@@ -42352,8 +42530,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Locale", "locale");
 
-            correctionAdd("in our hands", "on our hands");
-
             correctionAdd("psyciatrist", "psychiatrist");
             correctionAdd("psykiatrist", "psychiatrist");
 
@@ -42465,89 +42641,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Zinc", "zinc");
             correctionAdd("Zn", "zinc");
-
-            correctionAdd("in hand", "on hand");
-
-            correctionAdd("before hand", "beforehand");
-            correctionAdd("beforhand", "beforehand");
-            correctionAdd("beforehands", "beforehand");
-
-            correctionAdd("ambersand", "ampersand");
-            correctionAdd("apersand", "ampersand");
-            correctionAdd("ampesand", "ampersand");
-
-            correctionAdd("wayland", "Wayland");
-
-            correctionAdd("by the other hand", "on the other hand");
-            correctionAdd("In the other hand", "on the other hand");
-            correctionAdd("in the other hand", "on the other hand");
-            correctionAdd("In another hand", "on the other hand");
-            correctionAdd("in another hand", "on the other hand");
-            correctionAdd("By the other hand", "on the other hand");
-            correctionAdd("One the other hand", "on the other hand");
-            correctionAdd("one the other hand", "on the other hand");
-            correctionAdd("OTOH", "on the other hand");
-            correctionAdd("otoh", "on the other hand");
-            correctionAdd("on the hand", "on the other hand");
-            correctionAdd("On the other side", "on the other hand");
-            correctionAdd("on the other side", "on the other hand");
-            correctionAdd("In the other side", "on the other hand");
-            correctionAdd("in the other side", "on the other hand");
-            correctionAdd("In other hand", "on the other hand");
-            correctionAdd("in other hand", "on the other hand");
-            correctionAdd("On the other, hand", "on the other hand");
-            correctionAdd("on the other, hand", "on the other hand");
-            correctionAdd("On the other hand", "on the other hand");
-            correctionAdd("On other hand", "on the other hand");
-            correctionAdd("on other hand", "on the other hand");
-
-            correctionAdd("on one hand", "on the one hand");
-            correctionAdd("From one hand", "on the one hand");
-            correctionAdd("from one hand", "on the one hand");
-            correctionAdd("On the one hand", "on the one hand");
-            correctionAdd("On one hand", "on the one hand");
-            correctionAdd("In one hand", "on the one hand");
-            correctionAdd("in one hand", "on the one hand");
-            correctionAdd("One one hand", "on the one hand");
-            correctionAdd("One the one hand", "on the one hand");
-            correctionAdd("one the one hand", "on the one hand");
-
-            correctionAdd("thansand", "thousand");
-            correctionAdd("tousind", "thousand");
-            correctionAdd("thouthand", "thousand");
-            correctionAdd("thoutand", "thousand");
-            correctionAdd("thothand", "thousand");
-            correctionAdd("thouhand", "thousand");
-            correctionAdd("thuasand", "thousand");
-
-            correctionAdd("borland", "Borland");
-            correctionAdd("Boland", "Borland");
-
-            correctionAdd("nand", "NAND");
-
-            correctionAdd("right hand", "right-hand");
-
-            correctionAdd("RHS", "right-hand side");
-            correctionAdd("right hand side", "right-hand side");
-            correctionAdd("right-side", "right-hand side");
-
-            correctionAdd("right most", "right-most");
-
-            correctionAdd("england", "England");
-
-            correctionAdd("norther ireland", "Northern Ireland");
-            correctionAdd("NI", "Northern Ireland");
-
-            correctionAdd("scotland", "Scotland");
-
-            correctionAdd("Findland", "Finland");
-            correctionAdd("finnland", "Finland");
-            correctionAdd("finland", "Finland");
-
-            correctionAdd("switzerland", "Switzerland");
-
-            correctionAdd("GreenLand", "Greenland");
-            correctionAdd("greenland", "Greenland");
 
             correctionAdd("ennineered", "engineered");
             correctionAdd("engeneered", "engineered");
@@ -42834,11 +42927,6 @@ namespace OverflowHelper.core
             correctionAdd("attitudine", "attitude");
             correctionAdd("atitudine", "attitude");
             correctionAdd("attudine", "attitude");
-
-            correctionAdd("handfull", "handful");
-            correctionAdd("hand-full", "handful");
-            correctionAdd("hand fulll", "handful");
-            correctionAdd("hand full", "handful");
 
             correctionAdd("janki", "janky");
 
@@ -43434,10 +43522,6 @@ namespace OverflowHelper.core
             correctionAdd("feelling", "feeling");
             correctionAdd("filling", "feeling");
 
-            correctionAdd("hands on", "hands-on");
-            correctionAdd("handson", "hands-on");
-            correctionAdd("Hands on", "hands-on");
-
             correctionAdd("boolean", "Boolean");
             correctionAdd("bolean", "Boolean");
             correctionAdd("bool", "Boolean");
@@ -43574,9 +43658,6 @@ namespace OverflowHelper.core
             correctionAdd("Same origin policies", "same-origin policy");
             correctionAdd("same origin policies", "same-origin policy");
             correctionAdd("same origon policy", "same-origin policy");
-
-            correctionAdd("2nd law of Thermodynamics", "second law of thermodynamics");
-            correctionAdd("II law of thermodynamics", "second law of thermodynamics");
 
             correctionAdd("Semantic Versioning", "semantic versioning");
             correctionAdd("semver", "semantic versioning");
@@ -43994,6 +44075,7 @@ namespace OverflowHelper.core
 
             correctionAdd("cannonical", "canonical");
             correctionAdd("conanical", "canonical");
+            correctionAdd("conical", "canonical");
 
             correctionAdd("hundereds", "hundreds");
             correctionAdd("hundrets", "hundreds");
@@ -45272,15 +45354,6 @@ namespace OverflowHelper.core
             correctionAdd("wittness", "witness");
             correctionAdd("Wittness", "witness");
 
-            correctionAdd("microsecond", "μs");
-            correctionAdd("u sec", "μs");
-            correctionAdd("usec", "μs");
-            correctionAdd("usecond", "μs");
-            correctionAdd("u second", "μs");
-            correctionAdd("micro second", "μs");
-            correctionAdd("μsec", "μs");
-            correctionAdd("μ sec", "μs");
-
             correctionAdd("fediverse", "Fediverse");
             correctionAdd("FediVerse", "Fediverse");
 
@@ -45957,10 +46030,6 @@ namespace OverflowHelper.core
 
             correctionAdd("SQUISH", "squish");
 
-            correctionAdd("LHS", "left-hand side");
-            correctionAdd("left hand side", "left-hand side");
-            correctionAdd("left-side", "left-hand side");
-
             correctionAdd("mispelling", "misspelling");
             correctionAdd("misspeling", "misspelling");
 
@@ -45991,8 +46060,6 @@ namespace OverflowHelper.core
             correctionAdd("non-zero", "nonzero");
             correctionAdd("none-zero", "nonzero");
             correctionAdd("non zero", "nonzero");
-
-            correctionAdd("second class", "second-class");
 
             correctionAdd("acte", "act");
 
@@ -46872,11 +46939,6 @@ namespace OverflowHelper.core
 
             correctionAdd("clearifying", "clarifying");
 
-            correctionAdd("ns", "nanosecond");
-            correctionAdd("Nanosecond", "nanosecond");
-            correctionAdd("Nanoseconds", "nanosecond");
-            correctionAdd("nanoseconds", "nanosecond");
-
             correctionAdd("re-typing", "retyping");
 
             correctionAdd("willy nilly", "willy-nilly");
@@ -47198,10 +47260,6 @@ namespace OverflowHelper.core
             correctionAdd("exta", "extra");
             correctionAdd("exra", "extra");
 
-            correctionAdd("first-hand", "firsthand");
-            correctionAdd("first hand", "firsthand");
-            correctionAdd("Firsthand", "firsthand");
-
             correctionAdd("mat", "may");
 
             correctionAdd("over-engineered", "overengineered");
@@ -47229,8 +47287,6 @@ namespace OverflowHelper.core
             correctionAdd("9/11", "September 11 attacks");
             correctionAdd("9/11 attacks", "September 11 attacks");
 
-            correctionAdd("hand worked", "handworked");
-
             correctionAdd("qties", "quantities");
             correctionAdd("qty's", "quantities");
 
@@ -47255,6 +47311,7 @@ namespace OverflowHelper.core
             correctionAdd("whenver", "whenever");
             correctionAdd("When ever", "whenever");
             correctionAdd("whenevr", "whenever");
+            correctionAdd("whenevevr", "whenever");
 
             correctionAdd("nevar", "never");
             correctionAdd("Nevar", "never");
@@ -47815,9 +47872,6 @@ namespace OverflowHelper.core
             correctionAdd("spents", "spent");
 
             correctionAdd("prolongued", "prolonged");
-
-            correctionAdd("second order", "second-order");
-            correctionAdd("2nd order", "second-order");
 
             correctionAdd("Winer", "Dave Winer");
 
@@ -48777,8 +48831,6 @@ namespace OverflowHelper.core
 
             correctionAdd("dam", "damn");
 
-            correctionAdd("hand-wavy", "handwavy");
-
             correctionAdd("dart-pad", "DartPad");
 
             correctionAdd("Constitutionally", "constitutionally");
@@ -49538,8 +49590,6 @@ namespace OverflowHelper.core
             correctionAdd("excuted", "executed");
             correctionAdd("ececuted", "executed");
 
-            correctionAdd("handeld", "handled");
-
             correctionAdd("PICOCOM", "picocom");
 
             correctionAdd("tweeters", "tweezers");
@@ -49599,10 +49649,6 @@ namespace OverflowHelper.core
             correctionAdd("PE", "progressive enhancement");
 
             correctionAdd("provifing", "providing");
-
-            correctionAdd("sec", "seconds");
-            correctionAdd("secs", "seconds");
-            correctionAdd("secods", "seconds");
 
             correctionAdd("tel", "tell");
             correctionAdd("tall", "tell");
@@ -49970,8 +50016,6 @@ namespace OverflowHelper.core
             correctionAdd("syas", "says");
             correctionAdd("Says", "says");
 
-            correctionAdd("2nd person", "second person");
-
             correctionAdd("sub equation", "sub-equation");
             correctionAdd("subequation", "sub-equation");
 
@@ -49994,8 +50038,6 @@ namespace OverflowHelper.core
             correctionAdd("non-conforming", "nonconforming");
 
             correctionAdd("pramga", "pragma");
-
-            correctionAdd("second-to-last", "second to last");
 
             correctionAdd("smoothes", "smooths");
 
@@ -50290,8 +50332,6 @@ namespace OverflowHelper.core
 
             correctionAdd("mindlesslly", "mindlessly");
 
-            correctionAdd("second worst", "second-worst");
-
             correctionAdd("strawman", "straw man");
 
             correctionAdd("suming", "summing");
@@ -50524,6 +50564,8 @@ namespace OverflowHelper.core
             correctionAdd("SQA", "software quality assurance");
 
             correctionAdd("DOSbox", "DOSBox");
+            correctionAdd("DOS-Box", "DOSBox");
+            correctionAdd("dosbox", "DOSBox");
 
             correctionAdd("onetab", "OneTab");
             correctionAdd("Onetab", "OneTab");
@@ -50568,8 +50610,6 @@ namespace OverflowHelper.core
             correctionAdd("VLT", "Very Large Telescope");
 
             correctionAdd("vesta", "Vesta");
-
-            correctionAdd("arc second", "arcsecond");
 
             correctionAdd("BSSID", "basic service set identifier");
 
@@ -50805,11 +50845,6 @@ namespace OverflowHelper.core
 
             correctionAdd("FX-82MS", "fx-82MS");
 
-            correctionAdd("handheld", "hand-held");
-            correctionAdd("hand held", "hand-held");
-
-            correctionAdd("un-accept", "unaccept");
-
             correctionAdd("Black Hat", "Black Hat Briefings");
             correctionAdd("BlackHat", "Black Hat Briefings");
 
@@ -51020,8 +51055,6 @@ namespace OverflowHelper.core
             correctionAdd("Y2K bug", "Y2K problem");
             correctionAdd("Y2K", "Y2K problem");
             correctionAdd("Year 2000 problem", "Y2K problem");
-
-            correctionAdd("heavy handed", "heavy-handed");
 
             correctionAdd("plane", "plain");
 
@@ -52033,9 +52066,6 @@ namespace OverflowHelper.core
 
             correctionAdd("more safe", "safer");
 
-            correctionAdd("Dandified YUM", "DNF");
-            correctionAdd("dnf", "DNF");
-
             correctionAdd("kivyMD", "KivyMD");
 
             correctionAdd("seaferer", "seafarer");
@@ -52513,8 +52543,6 @@ namespace OverflowHelper.core
             correctionAdd("eben", "even");
             correctionAdd("Even", "even");
             correctionAdd("event", "even");
-
-            correctionAdd("secundary", "secondary");
 
             correctionAdd("Valsalva maneuver", "valsalva maneuver");
 
@@ -53972,8 +54000,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Plot", "plot");
 
-            correctionAdd("back-handed", "backhanded");
-
             correctionAdd("ch root", "chroot");
 
             correctionAdd("conserning", "concerning");
@@ -54347,8 +54373,6 @@ namespace OverflowHelper.core
 
             correctionAdd("denieing", "denying");
 
-            correctionAdd("hand write", "handwrite");
-
             correctionAdd("liiked", "liked");
 
             correctionAdd("uggly", "ugly");
@@ -54665,19 +54689,13 @@ namespace OverflowHelper.core
 
             correctionAdd("Centrifugal Force", "centrifugal force");
 
-            correctionAdd("1NF", "first normal form");
-
             correctionAdd("HSM", "hardware security module");
 
             correctionAdd("loding", "loading");
 
             correctionAdd("resuling", "resulting");
 
-            correctionAdd("2NF", "second normal form");
-
             correctionAdd("thales", "Thales");
-
-            correctionAdd("3NF", "third normal form");
 
             correctionAdd("tirangle", "triangle");
 
@@ -54927,9 +54945,6 @@ namespace OverflowHelper.core
 
             correctionAdd("canonilised", "canonicalised");
             correctionAdd("canonicalized", "canonicalised");
-
-            correctionAdd("second thought", "second thoughts");
-            correctionAdd("second though", "second thoughts");
 
             correctionAdd("hpanel", "hPanel");
 
@@ -55693,8 +55708,6 @@ namespace OverflowHelper.core
             correctionAdd("Out of band", "out-of-band");
             correctionAdd("out of band", "out-of-band");
 
-            correctionAdd("second-hand", "secondhand");
-
             correctionAdd("AA", "Alcoholics Anonymous");
 
             correctionAdd("aria", "Aria");
@@ -56217,10 +56230,6 @@ namespace OverflowHelper.core
             correctionAdd("fortigate", "FortiGate");
             correctionAdd("FORTIGATE", "FortiGate");
 
-            correctionAdd("handholding", "hand-holding");
-
-            correctionAdd("hand crafted", "handcrafted");
-
             correctionAdd("oriented on", "oriented toward");
 
             correctionAdd("fazing out", "phasing out");
@@ -56362,8 +56371,6 @@ namespace OverflowHelper.core
 
             // A password manager
             correctionAdd("bitwarden", "Bitwarden");
-
-            correctionAdd("free-hand", "freehand");
 
             correctionAdd("most lazy", "laziest");
 
@@ -56680,14 +56687,6 @@ namespace OverflowHelper.core
             correctionAdd("scripteable", "scriptable");
             correctionAdd("Scripteable", "scriptable");
 
-            correctionAdd("1st edition", "first edition");
-            correctionAdd("1/e", "first edition");
-            correctionAdd("1st Edition", "first edition");
-
-            correctionAdd("2nd edition", "second edition");
-            correctionAdd("2/e", "second edition");
-            correctionAdd("2nd Edition", "second edition");
-
             correctionAdd("wacom", "Wacom");
 
             correctionAdd("ncrease", "increase");
@@ -56781,9 +56780,6 @@ namespace OverflowHelper.core
 
             correctionAdd("multiplcation", "multiplication");
             correctionAdd("Multiplcation", "multiplication");
-
-            correctionAdd("handlebars", "Handlebars.js");
-            correctionAdd("Handlebars", "Handlebars.js");
 
             correctionAdd("salve", "slave");
 
@@ -56955,8 +56951,6 @@ namespace OverflowHelper.core
             correctionAdd("buildbot", "Buildbot");
 
             correctionAdd("Edge Computing", "edge computing");
-
-            correctionAdd("arm waving", "hand waving");
 
             correctionAdd("letdown", "let-down");
 
@@ -57222,8 +57216,6 @@ namespace OverflowHelper.core
             correctionAdd("Tucker Carlsen", "Tucker Carlson");
 
             correctionAdd("upholded", "upheld");
-
-            correctionAdd("LH", "left-hand");
 
             correctionAdd("cdnjs.com", "cdnjs");
 
@@ -58187,9 +58179,18 @@ namespace OverflowHelper.core
 
             correctionAdd("astro turfing", "astroturfing");
 
+            // Android
             correctionAdd("play integrity API", "Play Integrity API");
 
             correctionAdd("run-away", "runaway");
+
+            correctionAdd("cookie cutter", "cookie-cutter");
+            correctionAdd("cookiecutter", "cookie-cutter");
+
+            correctionAdd("Pebblehost", "PebbleHost");
+            correctionAdd("pebblehost", "PebbleHost");
+
+            correctionAdd("requirement.txt", "requirements.txt");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -62527,8 +62528,6 @@ namespace OverflowHelper.core
 
             URL_Add("surprised", "https://en.wiktionary.org/wiki/surprise#Verb");
 
-            URL_Add("third", "https://en.wiktionary.org/wiki/third#Adjective");
-
             URL_Add("vice versa", "https://en.wiktionary.org/wiki/vice_versa#Adverb");
 
             URL_Add("Atom", "https://en.wikipedia.org/wiki/Atom_(text_editor)");
@@ -62686,8 +62685,6 @@ namespace OverflowHelper.core
             URL_Add("party", "https://en.wiktionary.org/wiki/party#Noun");
 
             URL_Add("rather", "https://en.wiktionary.org/wiki/rather#Adverb");
-
-            URL_Add("second", "https://en.wiktionary.org/wiki/second#Adjective");
 
             URL_Add("todo", "https://en.wiktionary.org/wiki/todo#Noun");
 
@@ -89346,6 +89343,14 @@ namespace OverflowHelper.core
 
             URL_Add("runaway", "https://en.wiktionary.org/wiki/runaway#Noun");
 
+            URL_Add("by hand", "https://en.wiktionary.org/wiki/by_hand#Prepositional_phrase");
+
+            URL_Add("cookie-cutter", "https://en.wiktionary.org/wiki/cookie-cutter#Adjective");
+
+            URL_Add("PebbleHost", "https://www.reddit.com/r/pebblehost/");
+
+            URL_Add("requirements.txt", "https://stackoverflow.com/questions/74506852/what-is-the-requirements-txt-what-should-be-in-it");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -92468,6 +92473,33 @@ namespace OverflowHelper.core
             // PostgreSQL. A C API.
             correctionAdd("SPI_", "Server Programming Interface_");
 
+            // The adjective
+            correctionAdd("2nd_", "second_");
+            correctionAdd("Secound_", "second_");
+            correctionAdd("secound_", "second_");
+            correctionAdd("seconde_", "second_");
+            correctionAdd("seond_", "second_");
+            correctionAdd("2st_", "second_");
+            correctionAdd("Secon_", "second_");
+            correctionAdd("secon_", "second_");
+            correctionAdd("seg_", "second_");
+            correctionAdd("2th_", "second_");
+            correctionAdd("²nd_", "second_");
+            correctionAdd("2-nd_", "second_");
+            correctionAdd("Sedond_", "second_");
+            correctionAdd("sedond_", "second_");
+            correctionAdd("Second_", "second_");
+            correctionAdd("scond_", "second_");
+            correctionAdd("2-d_", "second_");
+
+            correctionAdd("3rd_", "third_");
+            correctionAdd("3th_", "third_");
+            correctionAdd("3Rd_", "third_");
+            correctionAdd("theird_", "third_");
+            correctionAdd("3-rd_", "third_");
+            correctionAdd("3'rd_", "third_");
+            correctionAdd("3-d_", "third_");
+
             // URL mappings
             //
             //
@@ -94116,6 +94148,10 @@ namespace OverflowHelper.core
             URL_Add("nice_", "https://en.wikipedia.org/wiki/Nice_(Unix)");
 
             URL_Add("Server Programming Interface_", "https://www.postgresql.org/docs/7.0/spi.htm");
+
+            URL_Add("second_", "https://en.wiktionary.org/wiki/second#Adjective");
+
+            URL_Add("third_", "https://en.wiktionary.org/wiki/third#Adjective");
 
         } //addLookupData_alternativeWordSet()
 
