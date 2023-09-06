@@ -163,13 +163,13 @@
 #    42. HTML validation: Edit summary fragments
 #    43. HTML validation: Canned comments
 #    44. HTML validation: Link builder
-#    44. HTML validation: Word list (HTML)
+#    45. HTML validation: Word list (HTML)
 #
 #    45. Starting checks of the generated HTML
 #
-#    46. Starting web interface regression tests. Both for the local web server and production.
+#    47. Starting web interface regression tests. Both for the local web server and production.
 #
-#    47. End of build. All build steps succeeded!!
+#    48. End of build. All build steps succeeded!!
 #
 #############################################################################
 
@@ -1925,26 +1925,6 @@ startOfBuildStep "2" "Checking prerequisites"
 # error log files to source folders...
 cd $WORKFOLDER
 
-#Delete at any time
-##checkCommand "ls" 47
-##checkCommand "ls -lsatr" 46
-##checkCommand "ls lkjlj" 45
-#
-##Missing parameter not detected.
-##
-##checkCommand "lslkjlj" 44
-#
-##Missing parameter detected.
-##checkCommand "pylint"
-#
-##Missing parameter detected. But this is
-##only coincidental, because the exit
-##code from 'ls' is zero and all
-##parameters are shifted one
-##down due to the undefined
-##third parameter...
-##checkCommand "ls" 43
-
 
 # Note:
 #
@@ -1958,12 +1938,6 @@ prefix1="\n\nThe prerequisite"
 prefix2="is not installed. Execute these commands:\n\n"
 postfix1="\n\n\n"
 
-#Delete at any time
-# This is to prevent XXX:
-#
-#    "Command 'pip3' not found"
-#checkCommand "pip3" "${prefix1} Pip 3 ${prefix2}ABC\nXYZ\nDEF\npip3 install pylint ${postfix1}"  1
-
 # This is to prevent:
 #
 #    "/usr/bin/python3: No module named pip"
@@ -1971,14 +1945,6 @@ postfix1="\n\n\n"
 #checkCommand "pip3" "${prefix1} Pip 3 ${prefix2}ABC\nXYZ\nDEF\npip3 install pylint ${postfix1}"  1
 checkCommand "pip3 --version" "${prefix1} Pip 3 ${prefix2}ABC\nXYZ\nDEF\nsudo apt install python3-pip ${postfix1}"  2
 
-            #Delete at any time
-            # We need to detect this
-            #
-            #   "/usr/bin/python3: No module named pip"
-            #
-            #   But how do we do it without risking to
-            #   install something? We just want to
-            #   detect the problem.
 
 # Pylint itself
 #
@@ -1999,7 +1965,7 @@ checkCommand "pylint --version" "${prefix1} Pylint ${prefix2}ABC\nXYZ\nDEF\nsudo
 #    web_regress.py:29:0: E0401: Unable to import 'selenium' (import-error)
 #    web_regress.py:30:0: E0401: Unable to import 'selenium.webdriver.common.keys' (import-error)
 #
-# However, the executable in not "selenium"...
+# However, the executable is not "selenium"...
 # 'pip3 show selenium' will return an exit
 # code different from zero if it isn't
 # found, but this does not fit in
@@ -2875,7 +2841,7 @@ if [ ${DISABLE_HTMLVALIDATION} != 1 ]; then
     #     503 Service Unavailable
     #     No server is available to handle this request.
     #
-    HTML_validation_base ${HTML_FILE_GENERIC_FILENAMEONLY}  "Word list (HTML)"        44  '%2FEditOverflow%2F_Wordlist'
+    HTML_validation_base ${HTML_FILE_GENERIC_FILENAMEONLY}  "Word list (HTML)"        45  '%2FEditOverflow%2F_Wordlist'
 fi
 
 
@@ -2889,7 +2855,7 @@ fi
 #
 startOfBuildStep "45" "Starting checks of the generated HTML"
 export MATCHING_LINES=`grep -c '<div id="Mark_Zuckerberg">'  ${HTML_FILE_GENERIC}`
-mustBeEqual ${MATCHING_LINES} 1  45   "HTML anchor is not unique"
+mustBeEqual ${MATCHING_LINES} 1  46   "HTML anchor is not unique"
 
 
 #We should probably get rid of these two entirely. They are a
@@ -2978,7 +2944,7 @@ mustBeEqual ${MATCHING_LINES} 1  45   "HTML anchor is not unique"
 #
 #   5. XXXX
 #
-startOfBuildStep "46" "Starting web interface regression tests. Both for the local web server and production."
+startOfBuildStep "47" "Starting web interface regression tests. Both for the local web server and production."
 
 retrieveWebHostingErrorLog  "_before_"
 
@@ -3017,7 +2983,7 @@ retrieveWebHostingErrorLog  "_before_"
 #python3 $SELINUM_DRIVERSCRIPT_FILENAME  -k "test_mainLookup_JavaScript"  ; evaluateBuildResult 11 $? "web interface regression tests"
 #
 # Note: The same build number
-python3 $SELINUM_DRIVERSCRIPT_FILENAME  ; evaluateBuildResult 46 $? "web interface regression tests"
+python3 $SELINUM_DRIVERSCRIPT_FILENAME  ; evaluateBuildResult 47 $? "web interface regression tests"
 
 # Observed 2021-11-05T003000, but only once (it
 # did not happen when repeating the build):
@@ -3100,7 +3066,7 @@ echo
 # if the build failed or not (as we would not be here if
 # any of the previous build steps failed).
 #
-startOfBuildStep "47" "End of build. All build steps succeeded!!"
+startOfBuildStep "48" "End of build. All build steps succeeded!!"
 
 timeStamp "End time  "
 
