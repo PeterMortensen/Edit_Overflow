@@ -4807,6 +4807,9 @@ namespace OverflowHelper.core
             correctionAdd("devise", "device");
             correctionAdd("Device", "device");
             correctionAdd("Devise", "device");
+            correctionAdd("defice", "device");
+
+            correctionAdd("BYOD", "bring your own device");
 
             correctionAdd("Electronics", "electronics");
             correctionAdd("elec", "electronics");
@@ -5048,6 +5051,15 @@ namespace OverflowHelper.core
 
             correctionAdd("relais", "relays");
 
+            correctionAdd("swtich", "switch");
+            correctionAdd("swith", "switch");
+            correctionAdd("swicth", "switch");
+            correctionAdd("swich", "switch");
+            correctionAdd("swotch", "switch");
+            correctionAdd("Swith", "switch");
+            correctionAdd("Swithc", "switch");
+            correctionAdd("swithc", "switch");
+
             // Electronics
             correctionAdd("Reed switch", "reed switch");
 
@@ -5188,6 +5200,10 @@ namespace OverflowHelper.core
             correctionAdd("gaue", "gauge");
             correctionAdd("guage", "gauge");
             correctionAdd("Guage", "gauge");
+
+            correctionAdd("pld", "programmable logic device");
+            correctionAdd("Programmable Logic Devices", "programmable logic device");
+            correctionAdd("PLD", "programmable logic device");
 
             correctionAdd("Osmand", "OsmAnd");
 
@@ -8776,9 +8792,12 @@ namespace OverflowHelper.core
             correctionAdd("Mg", "magnesium");
 
             // Alternative URL:
-            //
+            // 
             //   <https://www.youtube.com/watch?v=UDczD_Wx_PU&t=1m41s>
             //     Keydous NJ80 keyboard review (Gateron Pro Yellow)
+            // 
+            //     Note: It is ***not*** displaced, despite the title 
+            //           of it... The timestamp is there for a reason.
             //
             correctionAdd("aluminum", "aluminium");
             correctionAdd("Al", "aluminium");
@@ -9871,6 +9890,7 @@ namespace OverflowHelper.core
             correctionAdd("debian 11", "Debian&nbsp;11 (Bullseye)");
             correctionAdd("Debian Bullseye", "Debian&nbsp;11 (Bullseye)");
             correctionAdd("Debian&nbsp;11", "Debian&nbsp;11 (Bullseye)");
+            correctionAdd("bullseye", "Debian&nbsp;11 (Bullseye)");
 
             // Linux
             correctionAdd("Bookworm", "Debian&nbsp;12 (Bookworm)");
@@ -11443,6 +11463,7 @@ namespace OverflowHelper.core
             correctionAdd("uploade", "upload");
 
             correctionAdd("re-upload", "reupload");
+            correctionAdd("re upload", "reupload");
 
             correctionAdd("truck load", "truckload");
 
@@ -11749,9 +11770,14 @@ namespace OverflowHelper.core
             correctionAdd("SDK 31", "Android 12");
             correctionAdd("12", "Android 12");
 
+            // Alternative URL (for API levels):
+            //
+            //   <https://en.wikipedia.org/wiki/Android_version_history#Overview>
+            //
             correctionAdd("13", "Android 13");
             correctionAdd("android version 13", "Android 13");
             correctionAdd("android 13", "Android 13");
+            correctionAdd("API 33", "Android 13");
 
             correctionAdd("android 14", "Android 14");
 
@@ -13052,6 +13078,7 @@ namespace OverflowHelper.core
             correctionAdd("preferrred", "preferred");
 
             correctionAdd("preferrable", "preferable");
+            correctionAdd("prefereble", "preferable");
 
             correctionAdd("preferebly", "preferably");
             correctionAdd("prefrebly", "preferably");
@@ -13422,6 +13449,7 @@ namespace OverflowHelper.core
             correctionAdd("dis", "this");
             correctionAdd("htis", "this");
             correctionAdd("thism", "this");
+            correctionAdd("thos", "this");
 
             correctionAdd("paranthesis", "parenthesis");
             correctionAdd("paren", "parenthesis");
@@ -15805,6 +15833,17 @@ namespace OverflowHelper.core
             correctionAdd("ifconfig", "ip addr"); // On Linux. Not incorrect, just the replacement on Linux...
             correctionAdd("ip a", "ip addr"); // On Linux. Not incorrect, just the replacement on Linux...
 
+            // Windows / DOS
+            correctionAdd("tskill", "TSKILL");
+
+            // A terminal program for Windows
+            correctionAdd("Hyperterminal", "HyperTerminal");
+            correctionAdd("hyperterminal", "HyperTerminal");
+            correctionAdd("Hyper Terminal", "HyperTerminal");
+
+            // A book author. Software development for Windows, etc.
+            correctionAdd("Petzold", "Charles Petzold");
+
             correctionAdd("scropt", "script");
             correctionAdd("scrip", "script");
             correctionAdd("Script", "script");
@@ -17023,6 +17062,9 @@ namespace OverflowHelper.core
 
             // Python
             correctionAdd("requirement.txt", "requirements.txt");
+
+            // Python. A code formatter.
+            correctionAdd("black", "Black");
 
             correctionAdd("HTTPS EveryWhere", "HTTPS Everywhere");
 
@@ -18944,6 +18986,8 @@ namespace OverflowHelper.core
 
             correctionAdd("GCC 4.8.3", "GCC 4.8.3 (2014-05-22)");
             correctionAdd("gcc 4.8.3", "GCC 4.8.3 (2014-05-22)");
+
+            correctionAdd("gcc 4.9", "GCC 4.9.0 (2014-04-22)");
 
             correctionAdd("gcc 7.1.0", "GCC 7.1 (2017-05-02)");
 
@@ -22044,13 +22088,6 @@ namespace OverflowHelper.core
 
             correctionAdd("BPFTRACE", "bpftrace");
 
-            correctionAdd("swtich", "switch");
-            correctionAdd("swith", "switch");
-            correctionAdd("swicth", "switch");
-            correctionAdd("swich", "switch");
-            correctionAdd("swotch", "switch");
-            correctionAdd("Swith", "switch");
-
             correctionAdd("tortoisehg", "TortoiseHg");
             correctionAdd("Tortoise HG", "TortoiseHg");
 
@@ -22797,6 +22834,24 @@ namespace OverflowHelper.core
             correctionAdd("mods", "moderators");
             correctionAdd("moderatos", "moderators");
 
+            correctionAdd("blu", "blue");
+
+            correctionAdd("CYAN", "cyan");
+            correctionAdd("Cyan", "cyan");
+
+            correctionAdd("grn", "green");
+
+            correctionAdd("prp", "purple");
+
+            correctionAdd("Yellow", "yellow");
+            correctionAdd("Yelllow", "yellow");
+
+            correctionAdd("oragne", "orange");
+
+            correctionAdd("Red", "red");
+
+            correctionAdd("gray", "grey");
+
             // An "elitist" (whatever that means) name. It
             // is "keyboard shortcut" for the rest of us.
             correctionAdd("keybinding", "key binding");
@@ -23128,7 +23183,7 @@ namespace OverflowHelper.core
             // A type of switch for mechanical keyboards
             // Linear. 50 g. Extra travel: 3.2 mm
             //
-            // Alternative URL:
+            // Alternative URLs:
             //
             //   <https://digiva.net/gateron-switch-guide#ezoic-pub-ad-placeholder-169>
             //
@@ -23267,10 +23322,6 @@ namespace OverflowHelper.core
             //
             // QMK capable
             //
-            // Manual:
-            //
-            //   <>
-            //
             correctionAdd("keytron v5", "Keychron V5 ISO");
             correctionAdd("Keychron V5", "Keychron V5 ISO");
             correctionAdd("Keytron V5", "Keychron V5 ISO");
@@ -23281,6 +23332,24 @@ namespace OverflowHelper.core
             correctionAdd("Keythron V5", "Keychron V5 ISO");
             correctionAdd("Keytron v5", "Keychron V5 ISO");
             correctionAdd("Keythron v5", "Keychron V5 ISO");
+
+            // A full-size mechanical keyboard from Keychron.
+            // Gateron switches.
+            // RGB (per-key) south-facing (unwanted light bleed) lighting.
+            //
+            // QMK capable
+            //
+            // Manual:
+            //
+            //   <https://www.keychron.com/pages/keychron-v6-user-manual>
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.keychron.com/pages/keychron-v6-user-guide>
+            //
+            correctionAdd("Keychron v6", "Keychron V6 ISO");
+            correctionAdd("Keytron V6", "Keychron V6 ISO");
+            correctionAdd("keytron v6", "Keychron V6 ISO");
 
             // A Chinese manufacturer, incl. of mechanical keyboards
             correctionAdd("CoolerMaster", "Cooler Master");
@@ -25147,6 +25216,40 @@ namespace OverflowHelper.core
 
             correctionAdd("INI", "INI file");
 
+            correctionAdd("reccomand", "recommend");
+            correctionAdd("recommand", "recommend");
+            correctionAdd("recomand", "recommend");
+            correctionAdd("reccomend", "recommend");
+            correctionAdd("recommendend", "recommend"); // Not 100% correct - is for "recommended".
+            correctionAdd("recomend", "recommend");
+            correctionAdd("reccommend", "recommend");
+            correctionAdd("reccomened", "recommend");
+            correctionAdd("recommned", "recommend");
+            correctionAdd("recomment", "recommend");
+            correctionAdd("reccomed", "recommend");
+            correctionAdd("recommoend", "recommend");
+
+            correctionAdd("reccomending", "recommending");
+
+            correctionAdd("recomendation", "recommendation");
+            correctionAdd("reccomendation", "recommendation");
+            correctionAdd("recommandation", "recommendation");
+            correctionAdd("reccomondation", "recommendation");
+            correctionAdd("recommondation", "recommendation");
+            correctionAdd("rec", "recommendation");
+            correctionAdd("reccommendation", "recommendation");
+            correctionAdd("recomondation", "recommendation");
+            correctionAdd("recs", "recommendation");
+            correctionAdd("Recomendation", "recommendation");
+            correctionAdd("Recommendation", "recommendation");
+            correctionAdd("Recommention", "recommendation");
+            correctionAdd("recommention", "recommendation");
+            correctionAdd("recommendaion", "recommendation");
+            correctionAdd("recom", "recommendation"); // A shorthand
+            correctionAdd("Reccomendation", "recommendation");
+
+            correctionAdd("recomendations", "recommendations");
+
             correctionAdd("commmand", "command");
             correctionAdd("commad", "command");
             correctionAdd("comand", "command");
@@ -25157,6 +25260,7 @@ namespace OverflowHelper.core
             correctionAdd("Commend", "command");
             correctionAdd("commnad", "command");
             correctionAdd("commond", "command");
+            correctionAdd("commend", "command");
 
             correctionAdd("commandos", "commands");
             correctionAdd("commads", "commands");
@@ -26819,6 +26923,7 @@ namespace OverflowHelper.core
             correctionAdd("Wordpess", "WordPress");
             correctionAdd("worpress", "WordPress");
             correctionAdd("wordpresss", "WordPress");
+            correctionAdd("WordpRESS", "WordPress");
 
             correctionAdd("WPML", "WordPress Multilingual");
 
@@ -27836,11 +27941,6 @@ namespace OverflowHelper.core
 
             correctionAdd("pseudotty", "pseudoterminal");
             correctionAdd("PTY", "pseudoterminal");
-
-            // A terminal program for Windows
-            correctionAdd("Hyperterminal", "HyperTerminal");
-            correctionAdd("hyperterminal", "HyperTerminal");
-            correctionAdd("Hyper Terminal", "HyperTerminal");
 
             // A Unix/Linux terminal program
             correctionAdd("minicom", "Minicom");
@@ -30568,10 +30668,6 @@ namespace OverflowHelper.core
             correctionAdd("cyanogenmod", "CyanogenMod");
             correctionAdd("cynogenmod", "CyanogenMod");
 
-            correctionAdd("pld", "programmable logic device");
-            correctionAdd("Programmable Logic Devices", "programmable logic device");
-            correctionAdd("PLD", "programmable logic device");
-
             correctionAdd("Kies", "Samsung Kies");
             correctionAdd("kies", "Samsung Kies");
             correctionAdd("Samsung kies", "Samsung Kies");
@@ -31067,53 +31163,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Application verifier", "Application Verifier");
             correctionAdd("application verifier", "Application Verifier");
-
-            correctionAdd("reccomand", "recommend");
-            correctionAdd("recommand", "recommend");
-            correctionAdd("recomand", "recommend");
-            correctionAdd("reccomend", "recommend");
-            correctionAdd("recommendend", "recommend"); // Not 100% correct - is for "recommended".
-            correctionAdd("recomend", "recommend");
-            correctionAdd("reccommend", "recommend");
-            correctionAdd("reccomened", "recommend");
-            correctionAdd("recommned", "recommend");
-            correctionAdd("recomment", "recommend");
-            correctionAdd("reccomed", "recommend");
-            correctionAdd("recommoend", "recommend");
-
-            correctionAdd("reccomending", "recommending");
-
-            correctionAdd("recommanded", "recommended");
-            correctionAdd("recoomended", "recommended");
-            correctionAdd("commend", "recommended");
-            correctionAdd("Recomended", "recommended");
-            correctionAdd("recomended", "recommended");
-            correctionAdd("recommmended", "recommended");
-            correctionAdd("reccomended", "recommended");
-            correctionAdd("Recommented", "recommended");
-            correctionAdd("recommented", "recommended");
-            correctionAdd("recommened", "recommended");
-            correctionAdd("reccomanded", "recommended");
-            correctionAdd("recomanded", "recommended");
-
-            correctionAdd("recomendation", "recommendation");
-            correctionAdd("reccomendation", "recommendation");
-            correctionAdd("recommandation", "recommendation");
-            correctionAdd("reccomondation", "recommendation");
-            correctionAdd("recommondation", "recommendation");
-            correctionAdd("rec", "recommendation");
-            correctionAdd("reccommendation", "recommendation");
-            correctionAdd("recomondation", "recommendation");
-            correctionAdd("recs", "recommendation");
-            correctionAdd("Recomendation", "recommendation");
-            correctionAdd("Recommendation", "recommendation");
-            correctionAdd("Recommention", "recommendation");
-            correctionAdd("recommention", "recommendation");
-            correctionAdd("recommendaion", "recommendation");
-            correctionAdd("recom", "recommendation"); // A shorthand
-            correctionAdd("Reccomendation", "recommendation");
-
-            correctionAdd("recomendations", "recommendations");
 
             correctionAdd("UpnP", "UPnP");
 
@@ -38724,9 +38773,6 @@ namespace OverflowHelper.core
             correctionAdd("repeatation", "repetition");
             correctionAdd("repetiton", "repetition");
 
-            correctionAdd("Yellow", "yellow");
-            correctionAdd("Yelllow", "yellow");
-
             correctionAdd("Afghanisthan", "Afghanistan");
             correctionAdd("afghanistan", "Afghanistan");
 
@@ -39718,11 +39764,13 @@ namespace OverflowHelper.core
 
             correctionAdd("queens gambit", "Queen's Gambit"); // Chess
 
-            correctionAdd("arma", "Armageddon"); // Chess
-            correctionAdd("armageddon", "Armageddon"); // Chess
-            correctionAdd("Armaggeddon", "Armageddon"); // Chess
+            // Chess
+            correctionAdd("arma", "Armageddon");
+            correctionAdd("armageddon", "Armageddon");
+            correctionAdd("Armaggeddon", "Armageddon");
             correctionAdd("argagedon", "Armageddon");
             correctionAdd("armagedon", "Armageddon");
+            correctionAdd("armaggedon", "Armageddon");
 
             correctionAdd("alekhins", "Alekhine's Defence"); // Chess
             correctionAdd("alekhins defence", "Alekhine's Defence"); // Chess
@@ -42939,6 +42987,8 @@ namespace OverflowHelper.core
             correctionAdd("for moment", "at the moment");
             correctionAdd("for the moment", "at the moment");
             correctionAdd("at the mo", "at the moment");
+            correctionAdd("at this moment", "at the moment");
+            correctionAdd("in this moment", "at the moment");
 
             correctionAdd("momment", "moment");
             correctionAdd("moemnt", "moment");
@@ -43068,9 +43118,6 @@ namespace OverflowHelper.core
             correctionAdd("changin", "changing");
             correctionAdd("Changning", "changing");
             correctionAdd("changning", "changing");
-
-            correctionAdd("CYAN", "cyan");
-            correctionAdd("Cyan", "cyan");
 
             correctionAdd("FTW", "for the win");
             correctionAdd("ftw", "for the win");
@@ -46570,12 +46617,6 @@ namespace OverflowHelper.core
             correctionAdd("Papua New Gunnea", "Papua New Guinea");
 
             correctionAdd("algebracally", "algebraically");
-
-            correctionAdd("blu", "blue");
-
-            correctionAdd("grn", "green");
-
-            correctionAdd("prp", "purple");
 
             correctionAdd("view port", "viewport");
 
@@ -51689,8 +51730,6 @@ namespace OverflowHelper.core
 
             correctionAdd("over used", "overused");
 
-            correctionAdd("Red", "red");
-
             correctionAdd("Square", "square");
 
             correctionAdd("AM335X", "AM335x");
@@ -52701,8 +52740,6 @@ namespace OverflowHelper.core
 
             correctionAdd("sun setted", "sunsetted");
 
-            correctionAdd("black", "Black");
-
             correctionAdd("fortify", "Fortify");
 
             correctionAdd("accompasing", "accompassing");
@@ -53079,8 +53116,6 @@ namespace OverflowHelper.core
             correctionAdd("leftwm", "LeftWM");
 
             correctionAdd("mobile device management", "MDM");
-
-            correctionAdd("BYOD", "bring your own device");
 
             correctionAdd("DPKG", "dpkg");
 
@@ -55962,8 +55997,6 @@ namespace OverflowHelper.core
             correctionAdd("Commisioning", "commissioning");
             correctionAdd("commisioning", "commissioning");
 
-            correctionAdd("gray", "grey");
-
             correctionAdd("low cost", "low-cost");
             correctionAdd("Low cost", "low-cost");
 
@@ -58208,9 +58241,6 @@ namespace OverflowHelper.core
             correctionAdd("linkaege", "linkage");
             correctionAdd("linakege", "linkage");
 
-            // A book author. Software development for Windows, etc.
-            correctionAdd("Petzold", "Charles Petzold");
-
             correctionAdd("fugured", "figured");
 
             correctionAdd("interchangably", "interchangeably");
@@ -58266,6 +58296,12 @@ namespace OverflowHelper.core
             correctionAdd("boilerplate", "boilerplate code");
 
             correctionAdd("ct scan", "CT scan");
+
+            correctionAdd("cancelable", "cancellable");
+
+            correctionAdd("debounse", "debounce");
+
+            correctionAdd("boundry", "boundary");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -60793,13 +60829,9 @@ namespace OverflowHelper.core
 
             URL_Add("Application Verifier", "http://msdn.microsoft.com/en-us/library/windows/desktop/dd371695%28v=vs.85%29.aspx");
 
-            URL_Add("recommend", "https://en.wiktionary.org/wiki/recommend#Verb"); // Old: https://en.wiktionary.org/wiki/recommend
-
             URL_Add("recommending", "https://en.wiktionary.org/wiki/recommend#Verb"); // Old: https://en.wiktionary.org/wiki/recommend
 
             URL_Add("recommendation", "https://en.wiktionary.org/wiki/recommendation#Noun");
-
-            URL_Add("recommended", "https://en.wiktionary.org/wiki/recommended#Verb");
 
             URL_Add("privilege", "https://en.wikipedia.org/wiki/Privilege_%28computing%29");
 
@@ -89454,6 +89486,22 @@ namespace OverflowHelper.core
 
             URL_Add("time to time", "https://en.wiktionary.org/wiki/time_to_time#Adverb");
 
+            URL_Add("recommend", "https://en.wiktionary.org/wiki/recommend#Verb"); // Old: https://en.wiktionary.org/wiki/recommend
+
+            URL_Add("cancellable", "https://en.wiktionary.org/wiki/cancellable#Adjective");
+
+            URL_Add("GCC 4.9.0 (2014-04-22)", "https://gcc.gnu.org/gcc-4.9/");
+
+            URL_Add("Keychron V6 ISO", "https://www.keychron.com/products/keychron-v6-qmk-custom-mechanical-keyboard-iso-layout-collection");
+
+            URL_Add("TSKILL", "https://ss64.com/nt/tskill.html");
+
+            URL_Add("debounce", "https://en.wikipedia.org/wiki/Switch#Debouncing");
+
+            URL_Add("orange", "https://en.wiktionary.org/wiki/orange#Noun");
+
+            URL_Add("boundary", "https://en.wiktionary.org/wiki/boundary#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -91749,6 +91797,16 @@ namespace OverflowHelper.core
             correctionAdd("CK550_", "CK550 V2_");
             correctionAdd("ck550_", "CK550 V2_");
 
+            correctionAdd("Keychron V5 ISO_", "Keychron V5, a reasonably priced fully macro-capable QMK-based mechanical keyboard_");
+            correctionAdd("Keychron V5_", "Keychron V5, a reasonably priced fully macro-capable QMK-based mechanical keyboard_");
+
+            // A mechanical keyboard from Dygma
+            //
+            // Alternative URL: <https://dygma.com/pages/raise>
+            //
+            correctionAdd("raise_", "Raise_");
+            correctionAdd("RAISE_", "Raise_");
+
             correctionAdd("hansel_", "Hanselminutes_");
             correctionAdd("hanselminutes_", "Hanselminutes_");
 
@@ -92197,9 +92255,6 @@ namespace OverflowHelper.core
 
             correctionAdd("hallow_", "hollow_");
 
-            correctionAdd("Keychron V5 ISO_", "Keychron V5, a reasonably priced fully macro-capable QMK-based mechanical keyboard_");
-            correctionAdd("Keychron V5_", "Keychron V5, a reasonably priced fully macro-capable QMK-based mechanical keyboard_");
-
             // Note: The correct term is currently too long
             //       for our database item... (146 maximum?)
             //
@@ -92482,9 +92537,6 @@ namespace OverflowHelper.core
             // For the short form (often used)
             correctionAdd("Multi-platform App UI_", ".NET MAUI_");
 
-            correctionAdd("raise_", "Raise_");
-            correctionAdd("RAISE_", "Raise_");
-
             correctionAdd("dip_", "DIP_");
 
             correctionAdd("whent_", "went_");
@@ -92623,6 +92675,19 @@ namespace OverflowHelper.core
             correctionAdd("fro_", "for_");
 
             correctionAdd("cypher_", "Cypher_");
+
+            correctionAdd("recommanded_", "recommended_");
+            correctionAdd("recoomended_", "recommended_");
+            correctionAdd("commend_", "recommended_");
+            correctionAdd("Recomended_", "recommended_");
+            correctionAdd("recomended_", "recommended_");
+            correctionAdd("recommmended_", "recommended_");
+            correctionAdd("reccomended_", "recommended_");
+            correctionAdd("Recommented_", "recommended_");
+            correctionAdd("recommented_", "recommended_");
+            correctionAdd("recommened_", "recommended_");
+            correctionAdd("reccomanded_", "recommended_");
+            correctionAdd("recomanded_", "recommended_");
 
             // URL mappings
             //
@@ -94286,6 +94351,8 @@ namespace OverflowHelper.core
             URL_Add("for_", "https://en.wiktionary.org/wiki/for#Preposition");
 
             URL_Add("Cypher_", "https://en.wikipedia.org/wiki/Cypher_(query_language)");
+
+            URL_Add("recommended_", "https://en.wiktionary.org/wiki/recommended#Verb");
 
         } //addLookupData_alternativeWordSet()
 
