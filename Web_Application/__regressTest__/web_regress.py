@@ -20,6 +20,12 @@
 #           functions (to reduce the redundancy). Or they are functions
 #           whose names are expected by "unittest" (e.g. for setup).
 #
+# Historical notes:
+#
+#   'find_element_by_name' was removed in later versions of Selenium.
+#   See e.g. <https://stackoverflow.com/questions/72773206>
+#
+#
 ########################################################################
 
 import unittest # Home page: <https://docs.python.org/3.8/library/unittest.html>
@@ -116,7 +122,8 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     #
     def _core_setField(self, aFieldID, aNewValue):
 
-        someElement = self.browser.find_element_by_name(aFieldID)
+        #someElement = self.browser.driver.find_element("name", aFieldID)
+        someElement = self.browser.find_element("name", aFieldID)
         someElement.clear()
         someElement.send_keys(aNewValue)
 
@@ -165,7 +172,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         #    the DOM, it is not in the current frame context, or
         #    the document has been refreshed"
         #
-        someElement = self.browser.find_element_by_name(aFieldID)
+        someElement = self.browser.find_element("name", aFieldID)
         someValue = someElement.get_attribute("value")
 
         self.assertEqual(
@@ -186,7 +193,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     #
     def _core_setHTML_textField(self, aFieldID, aText):
 
-        lookUpElement = self.browser.find_element_by_name(aFieldID)
+        lookUpElement = self.browser.find_element("name", aFieldID)
         lookUpElement.clear()
         lookUpElement.send_keys(aText)
 
@@ -257,7 +264,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     #
     def _setCheckbox(self, anCheckboxName):
 
-        checkboxElement = self.browser.find_element_by_name(anCheckboxName)
+        checkboxElement = self.browser.find_element("name", anCheckboxName)
 
         if not checkboxElement.is_selected():
 
@@ -532,7 +539,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         #          for now - the other forms only have one
         #          submit button.
         #
-        lookUpElement = self.browser.find_element_by_name("someText")
+        lookUpElement = self.browser.find_element("name", "someText")
 
         lookUpElement.send_keys(Keys.SHIFT + Keys.ALT + aKey + Keys.SHIFT + Keys.ALT)
 
@@ -579,7 +586,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
 
         self._webpageKeyboardShort(aKeyboardShortcutLetter)
 
-        lookUpElement = self.browser.find_element_by_name("someText")
+        lookUpElement = self.browser.find_element("name", "someText")
 
         formatterResult = lookUpElement.get_attribute("value")
 
@@ -591,7 +598,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         if anExpectedCharacters >= 0:
 
             # E.g., containing "Now 9 characters (incl. newlines)".
-            msg2Element = self.browser.find_element_by_name("Message2")
+            msg2Element = self.browser.find_element("name", "Message2")
 
             #msg2 = msg2Element.get_value()
             msg2 = msg2Element.text
@@ -1164,7 +1171,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         #pass
 
 
-    # Production: Using form-based  (server roundtrip) lookup, test of the
+    # Production: Using form-based (server roundtrip) lookup, test of the
     #             central function of Edit Overflow for web: Looking up
     #             incorrect terms (typically misspelling words)
     #
