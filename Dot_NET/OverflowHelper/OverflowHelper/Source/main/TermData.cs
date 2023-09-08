@@ -2135,6 +2135,7 @@ namespace OverflowHelper.core
             correctionAdd("wscript", "Windows Script Host");
             correctionAdd("WScript", "Windows Script Host");
             correctionAdd("Wscript", "Windows Script Host");
+            correctionAdd("Windows Scripting", "Windows Script Host");
 
             correctionAdd("Credential manager", "Credential Manager");
             correctionAdd("credential manager", "Credential Manager");
@@ -3442,6 +3443,9 @@ namespace OverflowHelper.core
             correctionAdd("Hall effect sensor", "Hall sensor");
             correctionAdd("hall sensor", "Hall sensor");
             correctionAdd("Hall effect", "Hall sensor");
+            correctionAdd("HAL effect", "Hall sensor");
+            correctionAdd("HALL effect", "Hall sensor");
+            correctionAdd("hall effect", "Hall sensor");
 
             correctionAdd("after-effects", "After Effects");
             correctionAdd("after effects", "After Effects");
@@ -8796,6 +8800,7 @@ namespace OverflowHelper.core
             correctionAdd("Silicon", "silicon");
             correctionAdd("Si", "silicon");
             correctionAdd("silicium", "silicon");
+            correctionAdd("silicone", "silicon");
 
             correctionAdd("Sr", "strontium");
             correctionAdd("Strontium", "strontium");
@@ -10699,12 +10704,11 @@ namespace OverflowHelper.core
             correctionAdd("ddos", "DDoS");
             correctionAdd("DDos", "DDoS");
 
-            correctionAdd("irb", "Interactive Ruby Shell");
-            correctionAdd("IRB", "Interactive Ruby Shell");
-
             correctionAdd("in a nut shell", "in a nutshell");
+            correctionAdd("in a nutshel", "in a nutshell");
 
             correctionAdd("nut shell", "nutshell");
+            correctionAdd("nutshel", "nutshell");
 
             // An organisation
             correctionAdd("Euro Linux", "EuroLinux");
@@ -12203,6 +12207,9 @@ namespace OverflowHelper.core
             correctionAdd("undersand", "understand");
 
             correctionAdd("understud", "understood");
+            correctionAdd("understoood", "understood");
+
+            correctionAdd("missunderstood", "misunderstood");
 
             correctionAdd("understable", "understandable");
             correctionAdd("undestandable", "understandable");
@@ -15819,6 +15826,7 @@ namespace OverflowHelper.core
             correctionAdd("ANSI color escape sequence", "ANSI escape code");
             correctionAdd("ANSI escape sequence", "ANSI escape code");
             correctionAdd("ANSI esc", "ANSI escape code");
+            correctionAdd("ANSI escape", "ANSI escape code");
 
             correctionAdd("Quantum mechanics", "quantum mechanics");
             correctionAdd("QM", "quantum mechanics");
@@ -19265,6 +19273,51 @@ namespace OverflowHelper.core
 
             correctionAdd("square 1", "square one");
 
+            correctionAdd("ruby", "Ruby");
+            correctionAdd("RUBY", "Ruby");
+            correctionAdd("rubi", "Ruby");
+            correctionAdd("Rubi", "Ruby");
+
+            correctionAdd("RoR", "Ruby on Rails");
+            correctionAdd("ROR", "Ruby on Rails");
+            correctionAdd("Rails", "Ruby on Rails");
+            correctionAdd("rails", "Ruby on Rails");
+            correctionAdd("ruby on rails", "Ruby on Rails");
+            correctionAdd("Ruby On Rails", "Ruby on Rails");
+            correctionAdd("Ruby on rails", "Ruby on Rails");
+            correctionAdd("ruby-on-rails", "Ruby on Rails");
+            correctionAdd("RubyOnRails", "Ruby on Rails");
+            correctionAdd("Ruby-on-Rails", "Ruby on Rails");
+            correctionAdd("Ruby-on-rails", "Ruby on Rails");
+            correctionAdd("ruby over rails", "Ruby on Rails");
+            correctionAdd("RubyonRails", "Ruby on Rails");
+            correctionAdd("ruby/rails", "Ruby on Rails");
+            correctionAdd("On Rails", "Ruby on Rails");
+            correctionAdd("ror", "Ruby on Rails");
+            correctionAdd("Ror", "Ruby on Rails");
+            correctionAdd("RAILS", "Ruby on Rails");
+
+            correctionAdd("gem", "RubyGems");
+            correctionAdd("rubygem", "RubyGems");
+
+            correctionAdd("jruby", "JRuby");
+
+            correctionAdd("Ironruby", "IronRuby");
+            correctionAdd("ironRuby", "IronRuby");
+            correctionAdd("ironruby", "IronRuby");
+
+            correctionAdd("Ruby Mine", "RubyMine");
+            correctionAdd("Rubymine", "RubyMine");
+
+            correctionAdd("ruby racer", "Ruby Racer");
+            correctionAdd("rubyracer", "Ruby Racer");
+
+            correctionAdd("irb", "Interactive Ruby Shell");
+            correctionAdd("IRB", "Interactive Ruby Shell");
+
+            correctionAdd("rvm", "Ruby Version Manager");
+            correctionAdd("RVM", "Ruby Version Manager");
+
             correctionAdd("xml-python", "```lang-python");
             correctionAdd("lang-python", "```lang-python");
             correctionAdd("lang-py", "```lang-python");
@@ -22643,6 +22696,7 @@ namespace OverflowHelper.core
             correctionAdd("silicone valley", "Silicon Valley");
             correctionAdd("Silicone valley", "Silicon Valley");
             correctionAdd("Silicon Vallay", "Silicon Valley");
+            correctionAdd("Silicone Valley", "Silicon Valley");
 
             correctionAdd("Caltech", "California Institute of Technology");
             correctionAdd("Caltechc", "California Institute of Technology");
@@ -24349,6 +24403,7 @@ namespace OverflowHelper.core
             correctionAdd("devolaper", "developer");
             correctionAdd("debvelopper", "developer");
             correctionAdd("Developer", "developer");
+            correctionAdd("develper", "developer");
 
             correctionAdd("full stack developer", "full-stack developer");
             correctionAdd("full stack web developer", "full-stack developer");
@@ -25357,33 +25412,6 @@ namespace OverflowHelper.core
 
             correctionAdd("dtype", "data type object");
 
-            correctionAdd("ruby", "Ruby");
-            correctionAdd("RUBY", "Ruby");
-            correctionAdd("rubi", "Ruby");
-            correctionAdd("Rubi", "Ruby");
-
-            correctionAdd("RoR", "Ruby on Rails");
-            correctionAdd("ROR", "Ruby on Rails");
-            correctionAdd("Rails", "Ruby on Rails");
-            correctionAdd("rails", "Ruby on Rails");
-            correctionAdd("ruby on rails", "Ruby on Rails");
-            correctionAdd("Ruby On Rails", "Ruby on Rails");
-            correctionAdd("Ruby on rails", "Ruby on Rails");
-            correctionAdd("ruby-on-rails", "Ruby on Rails");
-            correctionAdd("RubyOnRails", "Ruby on Rails");
-            correctionAdd("Ruby-on-Rails", "Ruby on Rails");
-            correctionAdd("Ruby-on-rails", "Ruby on Rails");
-            correctionAdd("ruby over rails", "Ruby on Rails");
-            correctionAdd("RubyonRails", "Ruby on Rails");
-            correctionAdd("ruby/rails", "Ruby on Rails");
-            correctionAdd("On Rails", "Ruby on Rails");
-            correctionAdd("ror", "Ruby on Rails");
-            correctionAdd("Ror", "Ruby on Rails");
-            correctionAdd("RAILS", "Ruby on Rails");
-
-            correctionAdd("gem", "RubyGems");
-            correctionAdd("rubygem", "RubyGems");
-
             correctionAdd("membet", "member");
             correctionAdd("memeber", "member");
             correctionAdd("meber", "member");
@@ -25401,6 +25429,7 @@ namespace OverflowHelper.core
             correctionAdd("remembr", "remember");
             correctionAdd("remmeber", "remember");
             correctionAdd("Rememebr", "remember");
+            correctionAdd("Remeber", "remember");
 
             correctionAdd("remebered", "remembered");
 
@@ -25582,12 +25611,6 @@ namespace OverflowHelper.core
 
             correctionAdd("gatsby", "Gatsby");
             correctionAdd("Gatsby.js", "Gatsby");
-
-            correctionAdd("jruby", "JRuby");
-
-            correctionAdd("Ironruby", "IronRuby");
-            correctionAdd("ironRuby", "IronRuby");
-            correctionAdd("ironruby", "IronRuby");
 
             correctionAdd("there by", "thereby");
 
@@ -27716,9 +27739,6 @@ namespace OverflowHelper.core
 
             // A tool for project management and issue tracking
             correctionAdd("redmine", "Redmine");
-
-            correctionAdd("Ruby Mine", "RubyMine");
-            correctionAdd("Rubymine", "RubyMine");
 
             correctionAdd("Methamphetamine", "methamphetamine");
 
@@ -30151,9 +30171,6 @@ namespace OverflowHelper.core
             correctionAdd("dupelicate", "duplicate");
             correctionAdd("duplciate", "duplicate");
             correctionAdd("dupl1cate", "duplicate");
-
-            correctionAdd("ruby racer", "Ruby Racer");
-            correctionAdd("rubyracer", "Ruby Racer");
 
             correctionAdd("Truecrypt", "TrueCrypt");
             correctionAdd("truecrypt", "TrueCrypt");
@@ -41242,6 +41259,7 @@ namespace OverflowHelper.core
             correctionAdd("bootsrap", "Bootstrap");
             correctionAdd("Twitter Bootstrap", "Bootstrap");
             correctionAdd("twiiter bootstrap", "Bootstrap");
+            correctionAdd("BOOTSTRAP", "Bootstrap");
 
             correctionAdd("yer", "yet");
 
@@ -46374,6 +46392,7 @@ namespace OverflowHelper.core
             correctionAdd("lawiyer", "lawyer");
 
             correctionAdd("sclalar", "scalar");
+            correctionAdd("scaler", "scalar");
 
             correctionAdd("valus", "values");
             correctionAdd("vales", "values");
@@ -47925,8 +47944,6 @@ namespace OverflowHelper.core
             correctionAdd("failes", "fails");
 
             correctionAdd("hammerig", "hammering");
-
-            correctionAdd("missunderstood", "misunderstood");
 
             correctionAdd("re-building", "rebuilding");
 
@@ -58350,6 +58367,24 @@ namespace OverflowHelper.core
             correctionAdd("falling is this pit", "falling into this pitfall");
 
             correctionAdd("splitor", "splitter");
+
+            correctionAdd("VP", "vice president");
+
+            correctionAdd("Teradata Aster", "Aster");
+
+            correctionAdd("Maglev", "maglev");
+
+            correctionAdd("Overclocking", "overclocking");
+
+            correctionAdd("radare", "Radare2");
+            correctionAdd("Radare", "Radare2");
+            correctionAdd("r2", "Radare2");
+
+            correctionAdd("RTG", "radioisotope thermoelectric generator");
+
+            correctionAdd("the martian", "The Martian");
+
+            correctionAdd("thermo-electric", "thermoelectric");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -89570,6 +89605,24 @@ namespace OverflowHelper.core
 
             URL_Add("Velocity Template Language", "https://velocity.apache.org/engine/1.7/user-guide.html#velocity-template-language-vtl-an-introduction");
 
+            URL_Add("Ruby Version Manager", "https://en.wikipedia.org/wiki/Ruby_Version_Manager");
+
+            URL_Add("vice president", "https://en.wiktionary.org/wiki/vice_president#Noun");
+
+            URL_Add("Aster", "https://en.wikipedia.org/wiki/Teradata#Technology_and_products");
+
+            URL_Add("maglev", "https://en.wikipedia.org/wiki/Maglev");
+
+            URL_Add("overclocking", "https://en.wikipedia.org/wiki/Overclocking");
+
+            URL_Add("Radare2", "https://en.wikipedia.org/wiki/Radare2");
+
+            URL_Add("radioisotope thermoelectric generator", "https://en.wikipedia.org/wiki/Radioisotope_thermoelectric_generator");
+
+            URL_Add("The Martian", "https://en.wikipedia.org/wiki/The_Martian_(film)");
+
+            URL_Add("thermoelectric", "https://en.wiktionary.org/wiki/thermoelectric#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -92765,6 +92818,8 @@ namespace OverflowHelper.core
 
             correctionAdd("falling into this pitfall_", "falling into a trap_");
 
+            correctionAdd("mrs_", "Mrs_");
+
             // URL mappings
             //
             //
@@ -94435,6 +94490,8 @@ namespace OverflowHelper.core
             URL_Add("Apache Velocity_", "https://en.wikipedia.org/wiki/Apache_Velocity");
 
             URL_Add("falling into a trap_", "https://en.wiktionary.org/wiki/fall_into_a_trap#Verb");
+
+            URL_Add("Mrs_", "https://en.wiktionary.org/wiki/Mrs#Noun");
 
         } //addLookupData_alternativeWordSet()
 
