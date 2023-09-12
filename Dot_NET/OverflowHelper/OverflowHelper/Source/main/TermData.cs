@@ -947,6 +947,7 @@ namespace OverflowHelper.core
             // An RTOS. E.g., used by QMK on ARM
             correctionAdd("chibiOS", "ChibiOS/RT");
             correctionAdd("ChibiOS", "ChibiOS/RT");
+            correctionAdd("chibios", "ChibiOS/RT");
 
             // An RTOS operating system
             correctionAdd("rtx", "RTX");
@@ -4494,6 +4495,15 @@ namespace OverflowHelper.core
             correctionAdd("The're", "they’re");
             correctionAdd("they´re", "they’re");
 
+            correctionAdd("hare", "here");
+            correctionAdd("Hare", "here");
+            correctionAdd("herr", "here");
+            correctionAdd("hier", "here");
+            correctionAdd("Heare", "here");
+            correctionAdd("heare", "here");
+            correctionAdd("her", "here");
+            correctionAdd("hire", "here");
+
             correctionAdd("cab", "can");
             correctionAdd("cann", "can");
             correctionAdd("Can", "can");
@@ -5227,6 +5237,9 @@ namespace OverflowHelper.core
 
             correctionAdd("unlinke", "unlike");
             correctionAdd("Unlinke", "unlike");
+
+            // Linux / Unix
+            correctionAdd("unlink", "unlink()");
 
             correctionAdd("human-like", "humanlike");
             correctionAdd("human like", "humanlike");
@@ -11834,6 +11847,8 @@ namespace OverflowHelper.core
             correctionAdd("wery", "very");
             correctionAdd("vety", "very");
 
+            correctionAdd("varing", "varying");
+
             correctionAdd("FLASH", "flash memory");
             correctionAdd("flah", "flash memory");
             correctionAdd("flash", "flash memory");
@@ -13327,7 +13342,22 @@ namespace OverflowHelper.core
 
             correctionAdd("configureable", "configurable");
 
+            correctionAdd("scrol", "scroll");
+            correctionAdd("schroll", "scroll");
+            correctionAdd("schrol", "scroll");
+            correctionAdd("scholl", "scroll");
+            correctionAdd("Scroll", "scroll");
+            correctionAdd("scrool", "scroll");
+            correctionAdd("sroll", "scroll");
+            correctionAdd("Schrol", "scroll");
+            correctionAdd("scoll", "scroll");
+
+            correctionAdd("scolling", "scrolling");
+
             correctionAdd("scroll-able", "scrollable");
+
+            correctionAdd("scrollbar", "scroll bar");
+            correctionAdd("scroll-bar", "scroll bar");
 
             correctionAdd("valueable", "valuable");
             correctionAdd("valable", "valuable");
@@ -13974,6 +14004,19 @@ namespace OverflowHelper.core
 
             correctionAdd("sharable", "shareable");
             correctionAdd("share-able", "shareable");
+
+            correctionAdd("non-sharable", "nonsharable");
+            correctionAdd("non sharable", "nonsharable");
+
+            correctionAdd("share holder", "shareholder");
+
+            // Alternative URL:
+            //   <https://en.wikipedia.org/wiki/Shared_web_hosting_service>
+            //
+            correctionAdd("web hotel", "shared web hosting service");
+            correctionAdd("shared hosting", "shared web hosting service");
+
+            correctionAdd("sharethis", "ShareThis");
 
             correctionAdd("collideable", "collidable");
 
@@ -15814,13 +15857,6 @@ namespace OverflowHelper.core
             correctionAdd("Code Review (Stack Exchange site)", "Code&nbsp;Review (Stack Exchange site)");
             correctionAdd("Code&nbsp;Review", "Code&nbsp;Review (Stack Exchange site)"); // Sort of identity mapping
 
-            correctionAdd("database administrators", "Database&nbsp;Administrators (Stack Exchange site)");
-            correctionAdd("Database Administrators", "Database&nbsp;Administrators (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("dba.stackexchange.com", "Database&nbsp;Administrators (Stack Exchange site)");
-            correctionAdd("Database Administrators (Stack Exchange site)", "Database&nbsp;Administrators (Stack Exchange site)");
-            correctionAdd("Database&nbsp;Administrators", "Database&nbsp;Administrators (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Database Adminstrators", "Database&nbsp;Administrators (Stack Exchange site)");
-
             correctionAdd("Apple SE", "Ask&nbsp;Different (Stack Exchange site)");
             correctionAdd("Ask Different", "Ask&nbsp;Different (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("AskDifferent", "Ask&nbsp;Different (Stack Exchange site)");
@@ -17167,6 +17203,8 @@ namespace OverflowHelper.core
             correctionAdd("ord", "ord()"); // PHP function
 
             correctionAdd("stripslashes", "stripslashes()"); // PHP function
+
+            correctionAdd("json_decode", "json_decode()"); // PHP function
 
             correctionAdd("defualt", "default");
             correctionAdd("defult", "default");
@@ -18634,6 +18672,9 @@ namespace OverflowHelper.core
             correctionAdd("hermes", "Hermes");
 
             correctionAdd("JavaScript libraries", "JavaScript libraries madness");
+
+            // JavaScript minification
+            correctionAdd("YUICompressor", "YUI Compressor");
 
             correctionAdd("lib", "library");
             correctionAdd("Lib", "library"); // Not 100% correct - casing.
@@ -20243,16 +20284,35 @@ namespace OverflowHelper.core
             correctionAdd("web sphere", "WebSphere");
             correctionAdd("websphere", "WebSphere");
 
-            correctionAdd("hare", "here");
-            correctionAdd("Hare", "here");
-            correctionAdd("herr", "here");
-            correctionAdd("hier", "here");
-            correctionAdd("Heare", "here");
-            correctionAdd("heare", "here");
-            correctionAdd("her", "here");
-            correctionAdd("hire", "here");
+            correctionAdd("WebSphere MQ", "IBM MQ"); // A previous name
+            correctionAdd("WebSphere mq", "IBM MQ");
+            correctionAdd("websphere mq", "IBM MQ");
+            correctionAdd("Websphere MQ", "IBM MQ");
+            correctionAdd("MQSeries", "IBM MQ"); // A previous name
+            correctionAdd("MQ", "IBM MQ");
+            correctionAdd("WMQ", "IBM MQ");
+
+            correctionAdd("WAS", "WebSphere Application Server");
+
+            // Related to WebSphere MQ AKA IBM MQ
+            correctionAdd("xa", "XA");
 
             correctionAdd("Nativescript", "NativeScript");
+
+            // Alternative URLs:
+            //
+            //   <https://www.ibm.com/docs/en/was/8.5.5?topic=SSEQTP_8.5.5/com.ibm.websphere.javadoc.doc/web/spidocs/com/ibm/wsspi/uow/UOWManager.html>
+            //     Websphere MQ AKA IBM MQ
+            //
+            //   <https://stackoverflow.com/questions/6056683/>
+            //     Practical usage of the unit of work and repository patterns
+            //
+            correctionAdd("UoW", "unit of work pattern");
+            correctionAdd("UOW", "unit of work pattern");
+            correctionAdd("Unit of Work", "unit of work pattern");
+            correctionAdd("unit of work", "unit of work pattern");
+            correctionAdd("Unit Of Work", "unit of work pattern");
+            correctionAdd("Unit of Work pattern", "unit of work pattern");
 
             correctionAdd("Google", "google"); // The verb...
             correctionAdd("Google (verb)", "google");
@@ -20569,6 +20629,7 @@ namespace OverflowHelper.core
             correctionAdd("broken google search", "broken Google search");
             correctionAdd("search is broken", "broken Google search");
             correctionAdd("broken search", "broken Google search");
+            correctionAdd("broken search engines", "broken Google search");
 
             correctionAdd("Search Engine", "search engine");
             correctionAdd("serch engine", "search engine");
@@ -21399,6 +21460,13 @@ namespace OverflowHelper.core
 
             correctionAdd("selfdiscipline", "self-discipline");
             correctionAdd("self discipline", "self-discipline");
+
+            //correctionAdd("SP", "SharePoint"); // Collisions with stored procedure. And possibly Service Pack?
+            correctionAdd("Sharepoint", "SharePoint");
+            correctionAdd("sharepoint", "SharePoint");
+            correctionAdd("share point", "SharePoint");
+            correctionAdd("share-point", "SharePoint");
+            correctionAdd("sharePoint", "SharePoint");
 
             correctionAdd("SharePoint online", "SharePoint Online");
 
@@ -22657,6 +22725,7 @@ namespace OverflowHelper.core
             correctionAdd("adresss", "address");
             correctionAdd("adresse", "address");
             correctionAdd("Adress", "address");
+            correctionAdd("addrss", "address");
 
             correctionAdd("addresses", "addressed");
             correctionAdd("adressed", "addressed");
@@ -24748,6 +24817,7 @@ namespace OverflowHelper.core
             correctionAdd("caps lock", "Caps Lock");
             correctionAdd("capslock", "Caps Lock");
             correctionAdd("Cap lock", "Caps Lock");
+            correctionAdd("CAPS LOCK", "Caps Lock");
 
             correctionAdd("SCRLK", "Scroll Lock");
             correctionAdd("scroll lock", "Scroll Lock");
@@ -25153,6 +25223,82 @@ namespace OverflowHelper.core
 
             correctionAdd("Oops", "oops");
             correctionAdd("OOps", "oops");
+
+            // An IDE
+            correctionAdd("CodeBlocks", "Code::Blocks");
+            correctionAdd("Code Blocks", "Code::Blocks");
+            correctionAdd("Code::blocks", "Code::Blocks");
+            correctionAdd("codeblocks", "Code::Blocks");
+            correctionAdd("Codeblocks", "Code::Blocks");
+            correctionAdd("codeblock", "Code::Blocks");
+            correctionAdd("code::block", "Code::Blocks");
+            correctionAdd("code blocks", "Code::Blocks");
+            correctionAdd("code::blocks", "Code::Blocks");
+            correctionAdd("code:blocks", "Code::Blocks");
+            correctionAdd("Code::Block", "Code::Blocks");
+
+            correctionAdd("ast", "AST");
+            correctionAdd("abstract syntax tree", "AST"); // Going to the abbreviation
+            correctionAdd("Abstract Syntax Tree", "AST"); // Going to the abbreviation
+            correctionAdd("CodeDom", "AST");
+            correctionAdd("Code Document Object Model", "AST");
+            correctionAdd("Abstract syntax tree", "AST");
+
+            correctionAdd("CODEC", "codec");
+            correctionAdd("Codec", "codec");
+
+            correctionAdd("low code", "low-code development platform");
+            correctionAdd("low-code", "low-code development platform");
+            correctionAdd("Low-code", "low-code development platform");
+            correctionAdd("Low code", "low-code development platform");
+            correctionAdd("LowCode", "low-code development platform");
+            correctionAdd("Low Code", "low-code development platform");
+            correctionAdd("Low-code development platform", "low-code development platform");
+            correctionAdd("lowcode", "low-code development platform");
+
+            correctionAdd("no-code", "no-code development platform");
+            correctionAdd("no code", "no-code development platform");
+            correctionAdd("non coding", "no-code development platform");
+            correctionAdd("NoCode", "no-code development platform");
+            correctionAdd("No Code", "no-code development platform");
+            correctionAdd("nocode", "no-code development platform");
+            correctionAdd("No-code", "no-code development platform");
+
+            correctionAdd("Static Code Analysis", "static code analysis");
+
+            correctionAdd("static code ananlyser", "static code analyser");
+
+            correctionAdd("RCE", "remote code execution");
+            correctionAdd("Remote Code Execution", "remote code execution");
+
+            correctionAdd("sugar coat", "sugarcoat");
+            correctionAdd("sugar-code", "sugarcoat");
+            correctionAdd("sugarcode", "sugarcoat");
+
+            correctionAdd("source code pro", "Source Code Pro");
+
+            correctionAdd("hot code deployment", "hot code loading");
+
+            correctionAdd("colorcode", "color code");
+            correctionAdd("color-code", "color code");
+
+            correctionAdd("dreamincode", "DreamInCode");
+
+            correctionAdd("CoC", "code of conduct");
+
+            correctionAdd("boiler-plate code", "boilerplate code");
+            correctionAdd("boilerplate", "boilerplate code");
+
+            correctionAdd("FreeCodeCamp", "freeCodeCamp");
+            correctionAdd("Free code camp", "freeCodeCamp");
+            correctionAdd("fcc", "freeCodeCamp");
+            correctionAdd("FCC", "freeCodeCamp");
+            correctionAdd("free code camp", "freeCodeCamp");
+            correctionAdd("Free Code Camp", "freeCodeCamp");
+            correctionAdd("Freecode camp", "freeCodeCamp");
+            correctionAdd("freecodecamp", "freeCodeCamp");
+            correctionAdd("Freecodecamp.com", "freeCodeCamp");
+            correctionAdd("Freecodecamp.org", "freeCodeCamp");
 
             correctionAdd("-debug-pass=Arguments", "-fdebug-pass-arguments (Clang)");
             correctionAdd("-fdebug-pass-arguments", "-fdebug-pass-arguments (Clang)");
@@ -28575,19 +28721,6 @@ namespace OverflowHelper.core
 
             correctionAdd("confluence", "Confluence");
 
-            // An IDE
-            correctionAdd("CodeBlocks", "Code::Blocks");
-            correctionAdd("Code Blocks", "Code::Blocks");
-            correctionAdd("Code::blocks", "Code::Blocks");
-            correctionAdd("codeblocks", "Code::Blocks");
-            correctionAdd("Codeblocks", "Code::Blocks");
-            correctionAdd("codeblock", "Code::Blocks");
-            correctionAdd("code::block", "Code::Blocks");
-            correctionAdd("code blocks", "Code::Blocks");
-            correctionAdd("code::blocks", "Code::Blocks");
-            correctionAdd("code:blocks", "Code::Blocks");
-            correctionAdd("Code::Block", "Code::Blocks");
-
             correctionAdd("termina", "terminal");
             correctionAdd("termianl", "terminal");
             correctionAdd("termial", "terminal");
@@ -30363,13 +30496,6 @@ namespace OverflowHelper.core
             correctionAdd("Antlr", "ANTLR");
             correctionAdd("Antler", "ANTLR");
             correctionAdd("antler", "ANTLR");
-
-            correctionAdd("ast", "AST");
-            correctionAdd("abstract syntax tree", "AST"); // Going to the abbreviation
-            correctionAdd("Abstract Syntax Tree", "AST"); // Going to the abbreviation
-            correctionAdd("CodeDom", "AST");
-            correctionAdd("Code Document Object Model", "AST");
-            correctionAdd("Abstract syntax tree", "AST");
 
             correctionAdd("swf", "SWF"); // Usually "swf" would be replaced with "SWF file".
 
@@ -32701,6 +32827,21 @@ namespace OverflowHelper.core
             correctionAdd("Interrupt Service Routine", "ISR");
             correctionAdd("interrupt service routine", "ISR");
 
+            correctionAdd("exsist", "exist");
+
+            correctionAdd("exisst", "exists");
+            correctionAdd("exsists", "exists");
+            correctionAdd("exsits", "exists");
+            correctionAdd("esists", "exists");
+
+            correctionAdd("exisiting", "existing");
+            correctionAdd("exsiting", "existing");
+            correctionAdd("xisting", "existing");
+            correctionAdd("exsting", "existing");
+            correctionAdd("exising", "existing");
+
+            correctionAdd("existant", "existent");
+
             correctionAdd("existance", "existence");
             correctionAdd("existanse", "existence");
             correctionAdd("existense", "existence");
@@ -34127,15 +34268,6 @@ namespace OverflowHelper.core
             correctionAdd("schrödinger's cat", "Schrödinger's cat");
             correctionAdd("Schrodinger's cat", "Schrödinger's cat");
 
-            correctionAdd("scrol", "scroll");
-            correctionAdd("schroll", "scroll");
-            correctionAdd("schrol", "scroll");
-            correctionAdd("scholl", "scroll");
-            correctionAdd("Scroll", "scroll");
-            correctionAdd("scrool", "scroll");
-            correctionAdd("sroll", "scroll");
-            correctionAdd("Schrol", "scroll");
-
             correctionAdd("schrader", "Schrader valve");
 
             correctionAdd("maintanance", "maintenance");
@@ -34744,12 +34876,6 @@ namespace OverflowHelper.core
             correctionAdd("enaugh", "enough");
             correctionAdd("enoungh", "enough");
             correctionAdd("enuf", "enough");
-
-            correctionAdd("exisiting", "existing");
-            correctionAdd("exsiting", "existing");
-            correctionAdd("xisting", "existing");
-            correctionAdd("exsting", "existing");
-            correctionAdd("exising", "existing");
 
             correctionAdd("inly", "only"); // Likely a real typo
             correctionAdd("on;y", "only");
@@ -36237,9 +36363,6 @@ namespace OverflowHelper.core
             correctionAdd("Other wise", "otherwise");
             correctionAdd("Othewise", "otherwise");
             correctionAdd("othewise", "otherwise");
-
-            correctionAdd("scrollbar", "scroll bar");
-            correctionAdd("scroll-bar", "scroll bar");
 
             correctionAdd("re-writing", "rewriting");
             correctionAdd("Re-writing", "rewriting");
@@ -37745,8 +37868,6 @@ namespace OverflowHelper.core
 
             correctionAdd("sendmail", "Sendmail");
 
-            correctionAdd("existant", "existent");
-
             correctionAdd("inpersonation", "impersonation");
             correctionAdd("imporsonation", "impersonation");
             correctionAdd("impersonnation", "impersonation");
@@ -38564,6 +38685,9 @@ namespace OverflowHelper.core
 
             correctionAdd("cisco", "Cisco");
             correctionAdd("CISCO", "Cisco");
+
+            // Cisco
+            correctionAdd("type6", "Type 6");
 
             correctionAdd("back-stab", "backstab");
 
@@ -40867,8 +40991,6 @@ namespace OverflowHelper.core
             correctionAdd("doin", "doing");
             correctionAdd("doinf", "doing");
 
-            correctionAdd("exsist", "exist");
-
             correctionAdd("non-missing", "nonmissing");
 
             correctionAdd("soluable", "soluble");
@@ -41425,9 +41547,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Gnd", "GND");
 
-            correctionAdd("CODEC", "codec");
-            correctionAdd("Codec", "codec");
-
             correctionAdd("joistick", "joystick");
 
             correctionAdd("programer", "programmer");
@@ -41594,6 +41713,7 @@ namespace OverflowHelper.core
             correctionAdd("Twitter Bootstrap", "Bootstrap");
             correctionAdd("twiiter bootstrap", "Bootstrap");
             correctionAdd("BOOTSTRAP", "Bootstrap");
+            correctionAdd("bootstrap.css", "Bootstrap");
 
             correctionAdd("yer", "yet");
 
@@ -41736,23 +41856,6 @@ namespace OverflowHelper.core
 
             correctionAdd("l10n", "language localisation");
             correctionAdd("L10n", "language localisation");
-
-            correctionAdd("low code", "low-code development platform");
-            correctionAdd("low-code", "low-code development platform");
-            correctionAdd("Low-code", "low-code development platform");
-            correctionAdd("Low code", "low-code development platform");
-            correctionAdd("LowCode", "low-code development platform");
-            correctionAdd("Low Code", "low-code development platform");
-            correctionAdd("Low-code development platform", "low-code development platform");
-            correctionAdd("lowcode", "low-code development platform");
-
-            correctionAdd("no-code", "no-code development platform");
-            correctionAdd("no code", "no-code development platform");
-            correctionAdd("non coding", "no-code development platform");
-            correctionAdd("NoCode", "no-code development platform");
-            correctionAdd("No Code", "no-code development platform");
-            correctionAdd("nocode", "no-code development platform");
-            correctionAdd("No-code", "no-code development platform");
 
             correctionAdd("payed", "paid");
             correctionAdd("paied", "paid");
@@ -42119,13 +42222,6 @@ namespace OverflowHelper.core
             correctionAdd("presense", "presence");
 
             correctionAdd("no-follow", "nofollow");
-
-            //correctionAdd("SP", "SharePoint"); // Collisions with stored procedure. And possibly Service Pack?
-            correctionAdd("Sharepoint", "SharePoint");
-            correctionAdd("sharepoint", "SharePoint");
-            correctionAdd("share point", "SharePoint");
-            correctionAdd("share-point", "SharePoint");
-            correctionAdd("sharePoint", "SharePoint");
 
             correctionAdd("powerpoint", "PowerPoint");
             correctionAdd("power point", "PowerPoint");
@@ -42748,17 +42844,6 @@ namespace OverflowHelper.core
 
             correctionAdd("deserve's", "deserves");
 
-            correctionAdd("FreeCodeCamp", "freeCodeCamp");
-            correctionAdd("Free code camp", "freeCodeCamp");
-            correctionAdd("fcc", "freeCodeCamp");
-            correctionAdd("FCC", "freeCodeCamp");
-            correctionAdd("free code camp", "freeCodeCamp");
-            correctionAdd("Free Code Camp", "freeCodeCamp");
-            correctionAdd("Freecode camp", "freeCodeCamp");
-            correctionAdd("freecodecamp", "freeCodeCamp");
-            correctionAdd("Freecodecamp.com", "freeCodeCamp");
-            correctionAdd("Freecodecamp.org", "freeCodeCamp");
-
             correctionAdd("getgo", "get-go");
             correctionAdd("get go", "get-go");
 
@@ -43291,8 +43376,6 @@ namespace OverflowHelper.core
 
             correctionAdd("rgeular", "regular");
             correctionAdd("regullar", "regular");
-
-            correctionAdd("share holder", "shareholder");
 
             correctionAdd("World", "world");
             correctionAdd("qorld", "world");
@@ -44036,10 +44119,6 @@ namespace OverflowHelper.core
             correctionAdd("Electrostaic force", "electrostatic force");
 
             correctionAdd("ESD", "electrostatic discharge");
-
-            correctionAdd("Static Code Analysis", "static code analysis");
-
-            correctionAdd("static code ananlyser", "static code analyser");
 
             correctionAdd("SSA form", "SSA");
             correctionAdd("static single assignment form", "SSA");
@@ -45663,6 +45742,9 @@ namespace OverflowHelper.core
             correctionAdd("Decibel", "decibel");
             correctionAdd("desibel", "decibel");
 
+            correctionAdd("deploye", "deploy");
+            correctionAdd("depoy", "deploy");
+
             correctionAdd("re-deploy", "redeploy");
 
             correctionAdd("sematically", "semantically");
@@ -46608,6 +46690,10 @@ namespace OverflowHelper.core
             correctionAdd("llc", "LLC");
 
             correctionAdd("conspitorial", "conspiratorial");
+
+            correctionAdd("coconspirator", "co-conspirator");
+
+            correctionAdd("conspiratoryli", "conspiratorily");
 
             correctionAdd("dangarous", "dangerous");
             correctionAdd("dengerous", "dangerous");
@@ -49508,12 +49594,6 @@ namespace OverflowHelper.core
             correctionAdd("Webservice", "web service");
             correctionAdd("web-service", "web service");
 
-            // Alternative URL:
-            //   <https://en.wikipedia.org/wiki/Shared_web_hosting_service>
-            //
-            correctionAdd("web hotel", "shared web hosting service");
-            correctionAdd("shared hosting", "shared web hosting service");
-
             correctionAdd("ipcc", "IPCC");
             correctionAdd("Intergovernmental Panel on Climate Change", "IPCC");
 
@@ -49567,8 +49647,14 @@ namespace OverflowHelper.core
 
             correctionAdd("landord", "landlord");
 
+            // Alternative URL:
+            //
+            //   <https://en.wikipedia.org/wiki/Minification_(programming)>
+            //
             correctionAdd("minifiacation", "minification");
             correctionAdd("Minifiacation", "minification");
+            correctionAdd("minifiers", "minification");
+            correctionAdd("minifier", "minification");
 
             correctionAdd("notifiction", "notification");
             correctionAdd("Notifiction", "notification");
@@ -50261,6 +50347,7 @@ namespace OverflowHelper.core
             correctionAdd("retro", "retrospective");
 
             correctionAdd("win win", "win-win");
+            correctionAdd("winwin", "win-win");
 
             correctionAdd("august", "August");
             correctionAdd("Agu", "August");
@@ -50933,10 +51020,6 @@ namespace OverflowHelper.core
 
             correctionAdd("unsigned char", "`unsigned char`");
 
-            correctionAdd("exisst", "exists");
-            correctionAdd("exsists", "exists");
-            correctionAdd("exsits", "exists");
-
             correctionAdd("linarity", "linearity");
 
             correctionAdd("rpeating", "repeating");
@@ -51281,9 +51364,6 @@ namespace OverflowHelper.core
             correctionAdd("describted", "described");
 
             correctionAdd("re-instate", "reinstate");
-
-            correctionAdd("RCE", "remote code execution");
-            correctionAdd("Remote Code Execution", "remote code execution");
 
             correctionAdd("Skybox", "skybox");
 
@@ -52323,10 +52403,6 @@ namespace OverflowHelper.core
             correctionAdd("omni channel", "omnichannel");
             correctionAdd("Omni channel", "omnichannel");
 
-            correctionAdd("sugar coat", "sugarcoat");
-            correctionAdd("sugar-code", "sugarcoat");
-            correctionAdd("sugarcode", "sugarcoat");
-
             correctionAdd("Munchausen Trilemma", "Münchhausen trilemma");
 
             correctionAdd("burried", "buried");
@@ -52400,6 +52476,7 @@ namespace OverflowHelper.core
 
             correctionAdd("surveiled", "surveilled");
 
+            // A font
             correctionAdd("SF Mono", "San Francisco Mono");
 
             correctionAdd("SOCK", "SOCKS");
@@ -52882,8 +52959,6 @@ namespace OverflowHelper.core
 
             correctionAdd("pdl", "Perl Data Language");
             correctionAdd("PDL", "Perl Data Language");
-
-            correctionAdd("source code pro", "Source Code Pro");
 
             correctionAdd("beter", "better");
             correctionAdd("btter", "better");
@@ -53675,8 +53750,6 @@ namespace OverflowHelper.core
 
             correctionAdd("curropted", "corrupted");
 
-            correctionAdd("deploye", "deploy");
-
             correctionAdd("eitherway", "either way");
             correctionAdd("Eitherway", "either way");
 
@@ -53850,8 +53923,6 @@ namespace OverflowHelper.core
             correctionAdd("exiftool", "ExifTool");
 
             correctionAdd("gerber", "Gerber");
-
-            correctionAdd("sharethis", "ShareThis");
 
             correctionAdd("Thesis", "thesis");
 
@@ -56818,8 +56889,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Hudak", "Paul Hudak");
 
-            correctionAdd("hot code deployment", "hot code loading");
-
             correctionAdd("quartz composer", "Quartz Composer");
 
             // xkcd 224
@@ -56972,9 +57041,6 @@ namespace OverflowHelper.core
             correctionAdd("capabailties", "capabilities");
 
             correctionAdd("cameleonic", "chameleonic");
-
-            correctionAdd("colorcode", "color code");
-            correctionAdd("color-code", "color code");
 
             correctionAdd("media query", "media queries");
             correctionAdd("media Query", "media queries");
@@ -57335,8 +57401,6 @@ namespace OverflowHelper.core
             correctionAdd("ffs", "for fuck's sake");
 
             correctionAdd("H3ll", "hell");
-
-            correctionAdd("dreamincode", "DreamInCode");
 
             correctionAdd("dual core", "dual-core");
 
@@ -57923,8 +57987,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ICPC", "International Collegiate Programming Contest");
 
-            correctionAdd("coconspirator", "co-conspirator");
-
             correctionAdd("data driven", "data-driven");
 
             correctionAdd("Sonarcloud", "SonarCloud");
@@ -57953,8 +58015,6 @@ namespace OverflowHelper.core
 
             // Related to computer security
             correctionAdd("bruce schneier", "Bruce Schneier");
-
-            correctionAdd("CoC", "code of conduct");
 
             correctionAdd("content mill", "content farm");
 
@@ -58461,14 +58521,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Toxic Masculinity", "toxic masculinity");
 
-            correctionAdd("conspiratoryli", "conspiratorily");
-
+            // Software security
             correctionAdd("imperva", "Imperva");
-
-            correctionAdd("unlink", "unlink()");
-
-            correctionAdd("boiler-plate code", "boilerplate code");
-            correctionAdd("boilerplate", "boilerplate code");
 
             correctionAdd("debounse", "debounce");
 
@@ -58499,6 +58553,15 @@ namespace OverflowHelper.core
             correctionAdd("incling", "inkling");
 
             correctionAdd("by demand", "on demand");
+
+            correctionAdd("fail back", "failback");
+
+            correctionAdd("fail over", "failover");
+
+            correctionAdd("half assing", "half-assing");
+            correctionAdd("halfassing", "half-assing");
+
+            correctionAdd("Obfuscator", "obfuscator");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -68532,8 +68595,6 @@ namespace OverflowHelper.core
             URL_Add("Borland", "https://en.wikipedia.org/wiki/Borland");
 
             URL_Add("Code&nbsp;Review (Stack Exchange site)", "https://codereview.stackexchange.com/tour");
-
-            URL_Add("Database&nbsp;Administrators (Stack Exchange site)", "https://dba.stackexchange.com/tour");
 
             URL_Add("Drupal&nbsp;Answers (Stack Exchange site)", "https://drupal.stackexchange.com/tour");
 
@@ -89791,6 +89852,34 @@ namespace OverflowHelper.core
 
             URL_Add("left arrow key", "https://en.wikipedia.org/wiki/Arrow_keys");
 
+            URL_Add("varying", "https://en.wiktionary.org/wiki/vary#Verb");
+
+            URL_Add("IBM MQ", "https://en.wikipedia.org/wiki/IBM_MQ");
+
+            URL_Add("failback", "https://en.wiktionary.org/wiki/failback#Noun");
+
+            URL_Add("failover", "https://en.wiktionary.org/wiki/failover#Noun");
+
+            URL_Add("nonsharable", "https://en.wiktionary.org/wiki/nonsharable#Adjective");
+
+            URL_Add("unit of work pattern", "https://softwareengineering.stackexchange.com/questions/325844/best-design-pattern-for-two-specific-scenarios-the-first-one-fits-neatly-into-a");
+
+            URL_Add("WebSphere Application Server", "https://en.wikipedia.org/wiki/IBM_WebSphere_Application_Server");
+
+            URL_Add("XA", "https://www.ibm.com/docs/en/ibm-mq/9.1?topic=registration-summarizing-xa-calls");
+
+            URL_Add("half-assing", "https://en.wiktionary.org/wiki/half-ass#Verb");
+
+            URL_Add("json_decode()", "https://www.php.net/manual/en/function.json-decode.php");
+
+            URL_Add("obfuscator", "https://en.wiktionary.org/wiki/obfuscator#Noun");
+
+            URL_Add("scrolling", "https://en.wiktionary.org/wiki/scroll#Verb");
+
+            URL_Add("Type 6", "https://community.cisco.com/t5/networking-knowledge-base/configuring-type-6-passwords-in-ios-xe/ta-p/4438495#toc-hId--1163070806");
+
+            URL_Add("YUI Compressor", "https://github.com/yui/yuicompressor");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -90591,6 +90680,7 @@ namespace OverflowHelper.core
             correctionAdd("cod_", "code_");
             correctionAdd("wode_", "code_");
             correctionAdd("cody_", "code_");
+            correctionAdd("cade_", "code_");
 
             correctionAdd("Nevermind_", "never mind_");
             correctionAdd("nevermind_", "never mind_");
@@ -90911,6 +91001,14 @@ namespace OverflowHelper.core
 
             correctionAdd("Lit_", "Literature (Stack Exchange site)_");
             correctionAdd("Literature_", "Literature (Stack Exchange site)_");
+
+            correctionAdd("database administrators_", "Database&nbsp;Administrators (Stack Exchange site)_");
+            correctionAdd("Database Administrators_", "Database&nbsp;Administrators (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("dba.stackexchange.com_", "Database&nbsp;Administrators (Stack Exchange site)_");
+            correctionAdd("Database Administrators (Stack Exchange site)_", "Database&nbsp;Administrators (Stack Exchange site)_");
+            correctionAdd("Database&nbsp;Administrators_", "Database&nbsp;Administrators (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("Database Adminstrators_", "Database&nbsp;Administrators (Stack Exchange site)_");
+            correctionAdd("DBA_", "Database&nbsp;Administrators (Stack Exchange site)_");
 
             correctionAdd("Redshift_", "Amazon Redshift_");
             correctionAdd("AWS redshift_", "Amazon Redshift_");
@@ -93029,8 +93127,13 @@ namespace OverflowHelper.core
             correctionAdd("KC_LEFT_", "Left Arrow (KC_LEFT. QMK. 80 (decimal))_");
             correctionAdd("left arrow_", "Left Arrow (KC_LEFT. QMK. 80 (decimal))_");
 
-            correctionAdd("KC_ENTER_", "Return (KC_ENTER. QMK. 60 (decimal))_");
-            correctionAdd("Enter key_", "Return (KC_ENTER. QMK. 60 (decimal))_");
+            correctionAdd("KC_ENTER_", "Return (KC_ENTER. QMK. 40 (decimal))_");
+            correctionAdd("Enter key_", "Return (KC_ENTER. QMK. 40 (decimal))_");
+
+            correctionAdd("DR_", "disaster recovery_");
+
+            // The operator (in programming languages)
+            correctionAdd("not_", "NOT_");
 
             // URL mappings
             //
@@ -94715,7 +94818,13 @@ namespace OverflowHelper.core
 
             URL_Add("Left Arrow (KC_LEFT. QMK. 80 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
 
-            URL_Add("Return (KC_ENTER. QMK. 60 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+            URL_Add("Return (KC_ENTER. QMK. 40 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("disaster recovery_", "https://en.wikipedia.org/wiki/Disaster_recovery");
+
+            URL_Add("Database&nbsp;Administrators (Stack Exchange site)_", "https://dba.stackexchange.com/tour");
+
+            URL_Add("NOT_", "https://en.wikipedia.org/wiki/Negation");
 
         } //addLookupData_alternativeWordSet()
 
