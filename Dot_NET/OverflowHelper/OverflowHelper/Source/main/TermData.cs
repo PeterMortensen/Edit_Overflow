@@ -859,6 +859,22 @@ namespace OverflowHelper.core
 
             correctionAdd("Embedded system", "embedded system");
 
+            correctionAdd("emdedded", "embedded");
+            correctionAdd("ebmedded", "embedded");
+            correctionAdd("embeded", "embedded");
+            correctionAdd("Embeded", "embedded");
+            correctionAdd("imbedded", "embedded");
+            correctionAdd("embed", "embedded");
+
+            correctionAdd("non embedded", "nonembedded");
+            correctionAdd("non embed", "nonembedded");
+
+            // A podcast
+            correctionAdd("embedded fm", "Embedded FM");
+
+            // Company with products for embedded software development
+            correctionAdd("segger", "Segger");
+
             correctionAdd("Design system", "design system");
 
             correctionAdd("HIPS", "host-based intrusion prevention system");
@@ -2697,6 +2713,30 @@ namespace OverflowHelper.core
             correctionAdd("Chili", "Chile");
 
             correctionAdd("chilean", "Chilean");
+
+            correctionAdd("germany", "Germany");
+
+            correctionAdd("german", "German");
+            correctionAdd("gearman", "German");
+            correctionAdd("deutch", "German");
+            correctionAdd("deutsch", "German");
+
+            correctionAdd("germanic", "Germanic");
+
+            correctionAdd("cdu", "CDU");
+            correctionAdd("Christian Democratic Union of Germany", "CDU");
+
+            correctionAdd("Weimar Rebublics", "Weimar Republic");
+
+            correctionAdd("germaine", "germane");
+
+            correctionAdd("slavic", "Slavic");
+
+            correctionAdd("french", "French");
+            correctionAdd("FRENCH", "French");
+
+            correctionAdd("british", "British");
+            correctionAdd("btish", "British");
 
             // Windows. Compilers. IDEs.
             correctionAdd("borland", "Borland");
@@ -9444,11 +9484,6 @@ namespace OverflowHelper.core
             correctionAdd("Genea", "Geany");
             correctionAdd("geant", "Geany");
             correctionAdd("Genay", "Geany");
-
-            correctionAdd("germany", "Germany");
-
-            correctionAdd("cdu", "CDU");
-            correctionAdd("Christian Democratic Union of Germany", "CDU");
 
             correctionAdd("compay", "company");
             correctionAdd("Company", "company");
@@ -23845,24 +23880,6 @@ namespace OverflowHelper.core
             //
             correctionAdd("qmk", "QMK");
 
-            // 'KP' for keypad (numeric keypad)
-            // A keycode for QMK (mechanical keyboard software)
-            correctionAdd("KC_PAST", "KC_KP_ASTERISK");
-
-            // 'KP' for keypad (numeric keypad)
-            // A keycode for QMK (mechanical keyboard software)
-            correctionAdd("KC_PSLS", "KC_KP_SLASH");
-
-            // A keycode for QMK (mechanical keyboard software)
-            correctionAdd("kc_no", "KC_NO");
-
-            // A keycode for QMK (mechanical keyboard software)
-            correctionAdd("KC_TRNS", "KC_TRANSPARENT");
-
-            // A keycode for QMK (mechanical keyboard software)
-            correctionAdd("context menu key code", "KC_APPLICATION");
-            correctionAdd("KC_APP", "KC_APPLICATION");
-
             // A QMK function (C)
             correctionAdd("eeconfig_update_kb", "eeconfig_update_kb()");
 
@@ -35261,10 +35278,6 @@ namespace OverflowHelper.core
             correctionAdd("devops", "DevOps");
             correctionAdd("dev ops", "DevOps");
 
-            correctionAdd("germanic", "Germanic");
-
-            correctionAdd("slavic", "Slavic");
-
             correctionAdd("SCCM", "System Center Configuration Manager");
 
             correctionAdd("woocommerce", "WooCommerce");
@@ -36499,6 +36512,9 @@ namespace OverflowHelper.core
             correctionAdd("pbi", "Power BI");
             correctionAdd("POWER BI", "Power BI");
             correctionAdd("power Bi", "Power BI");
+
+            // Related to Power BI
+            correctionAdd("pbix", "PBIX");
 
             correctionAdd("alllow", "allow");
             correctionAdd("alow", "allow");
@@ -41209,17 +41225,6 @@ namespace OverflowHelper.core
 
             correctionAdd("maniuplation", "manipulation");
 
-            correctionAdd("german", "German");
-            correctionAdd("gearman", "German");
-            correctionAdd("deutch", "German");
-            correctionAdd("deutsch", "German");
-
-            correctionAdd("french", "French");
-            correctionAdd("FRENCH", "French");
-
-            correctionAdd("british", "British");
-            correctionAdd("btish", "British");
-
             correctionAdd("marrage", "marriage");
 
             correctionAdd("similiar", "similar");
@@ -42557,13 +42562,6 @@ namespace OverflowHelper.core
             correctionAdd("Cunningham", "Ward Cunningham");
 
             correctionAdd("yandex", "Yandex");
-
-            correctionAdd("emdedded", "embedded");
-            correctionAdd("ebmedded", "embedded");
-            correctionAdd("embeded", "embedded");
-            correctionAdd("Embeded", "embedded");
-            correctionAdd("imbedded", "embedded");
-            correctionAdd("embed", "embedded");
 
             correctionAdd("Factory Pattern", "factory pattern");
             correctionAdd("fabrique method", "factory pattern");
@@ -43989,8 +43987,6 @@ namespace OverflowHelper.core
             correctionAdd("Ni-MH", "NiMH");
             correctionAdd("Ni-Mh", "NiMH");
             correctionAdd("NiMh", "NiMH");
-
-            correctionAdd("germaine", "germane");
 
             correctionAdd("thumb2", "Thumb-2");
             correctionAdd("thumb-2", "Thumb-2");
@@ -55149,8 +55145,6 @@ namespace OverflowHelper.core
 
             correctionAdd("SDIO", "Secure Digital Input Output");
 
-            correctionAdd("embedded fm", "Embedded FM");
-
             correctionAdd("top-notch", "top notch");
 
             correctionAdd("noysier", "noisier");
@@ -58132,9 +58126,6 @@ namespace OverflowHelper.core
 
             correctionAdd("dummer", "dumber");
 
-            // Company with products for embedded software development
-            correctionAdd("segger", "Segger");
-
             correctionAdd("silo-ing", "siloing");
 
             correctionAdd("wimbledon", "2023 Wimbledon Championships");
@@ -58629,13 +58620,6 @@ namespace OverflowHelper.core
             correctionAdd("halfassing", "half-assing");
 
             correctionAdd("Modulo", "modulo");
-
-            correctionAdd("non embedded", "nonembedded");
-            correctionAdd("non embed", "nonembedded");
-
-            correctionAdd("pbix", "PBIX");
-
-            correctionAdd("Weimar Rebublics", "Weimar Republic");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -88140,14 +88124,6 @@ namespace OverflowHelper.core
 
             URL_Add("believed", "https://en.wiktionary.org/wiki/believe#Verb");
 
-            URL_Add("KC_KP_ASTERISK", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
-
-            URL_Add("KC_KP_SLASH", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
-
-            URL_Add("KC_NO", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
-
-            URL_Add("KC_TRANSPARENT", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
-
             URL_Add("Keychron V5 ISO", "https://www.keychron.com/products/keychron-v5-qmk-custom-mechanical-keyboard-iso-layout-collection");
 
             URL_Add("looked", "https://en.wiktionary.org/wiki/look#Verb");
@@ -88161,8 +88137,6 @@ namespace OverflowHelper.core
             URL_Add("reviewed", "https://en.wiktionary.org/wiki/review#Verb");
 
             URL_Add("includes", "https://en.wiktionary.org/wiki/include#Verb");
-
-            URL_Add("KC_APPLICATION", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
 
             URL_Add("Oryx", "https://www.zsa.io/oryx");
 
@@ -92585,21 +92559,63 @@ namespace OverflowHelper.core
 
             correctionAdd("TUI_", "text-based user interface_");
 
+            // 'KP' for keypad (numeric keypad)
+            // A keycode for QMK (mechanical keyboard software)
+            correctionAdd("KC_PAST_", "KC_KP_ASTERISK_");
+
+            // 'KP' for keypad (numeric keypad)
+            // A keycode for QMK (mechanical keyboard software)
+            correctionAdd("KC_PSLS_", "KC_KP_SLASH_");
+
+            // A keycode for QMK (mechanical keyboard software)
+            correctionAdd("kc_no_", "KC_NO_");
+
+            // A keycode for QMK (mechanical keyboard software)
+            correctionAdd("KC_TRNS_", "KC_TRANSPARENT_");
+
+            // A keycode for QMK (mechanical keyboard software)
+            correctionAdd("context menu key code_", "KC_APPLICATION_");
+            correctionAdd("KC_APP_", "KC_APPLICATION_");
+
             // Mouse left-click in QMK
             //
             // Alternative URL: <https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md>
-            correctionAdd("left-click_", "left-click key code (KC_BTN1. QMK)_");
-            correctionAdd("KC_MS_BTN1_", "left-click key code (KC_BTN1. QMK)_");
-            correctionAdd("left-click key code_", "left-click key code (KC_BTN1. QMK)_");
-            correctionAdd("left-click key code (QMK)_", "left-click key code (KC_BTN1. QMK)_");
+            //
+            // Alias: KC_BTN1
+            correctionAdd("left-click_", "left-click key code (KC_MS_BTN1. QMK. 209 (decimal))_");
+            correctionAdd("KC_MS_BTN1_", "left-click key code (KC_MS_BTN1. QMK. 209 (decimal))_");
+            correctionAdd("left-click key code_", "left-click key code (KC_MS_BTN1. QMK. 209 (decimal))_");
+            correctionAdd("left-click key code (QMK)_", "left-click key code (KC_MS_BTN1. QMK. 209 (decimal))_");
+            correctionAdd("KC_BTN1_", "left-click key code (KC_MS_BTN1. QMK. 209 (decimal))_");
 
             // Mouse right-click in QMK
             //
             // Alternative URL: <https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md>
-            correctionAdd("right-click_", "right-click key code (KC_BTN2. QMK)_");
-            correctionAdd("KC_MS_BTN2_", "right-click key code (KC_BTN2. QMK)_");
-            correctionAdd("right-click key code_", "right-click key code (KC_BTN2. QMK)_");
-            correctionAdd("right-click key code (QMK)_", "right-click key code (KC_BTN2. QMK)_");
+            //
+            // Alias: KC_BTN2
+            correctionAdd("right-click_", "right-click key code (KC_MS_BTN2. QMK. 210 (decimal))_");
+            correctionAdd("KC_MS_BTN2_", "right-click key code (KC_MS_BTN2. QMK. 210 (decimal))_");
+            correctionAdd("right-click key code_", "right-click key code (KC_MS_BTN2. QMK. 210 (decimal))_");
+            correctionAdd("right-click key code (QMK)_", "right-click key code (KC_MS_BTN2. QMK. 210 (decimal))_");
+            correctionAdd("KC_BTN2_", "right-click key code (KC_MS_BTN2. QMK. 210 (decimal))_");
+
+            correctionAdd("kc_c_", "c (KC_C. QMK. 6 (decimal))_");
+
+            correctionAdd("KC_LEFT_", "Left Arrow (KC_LEFT. QMK. 80 (decimal))_");
+            correctionAdd("left arrow_", "Left Arrow (KC_LEFT. QMK. 80 (decimal))_");
+
+            // Alias: KC_ENT
+            correctionAdd("KC_ENTER_", "Return (KC_ENTER. QMK. 40 (decimal))_");
+            correctionAdd("Enter key_", "Return (KC_ENTER. QMK. 40 (decimal))_");
+            correctionAdd("KC_ENT_", "Return (KC_ENTER. QMK. 40 (decimal))_");
+
+            // Alias: KC_VOLD
+            correctionAdd("KC_VOLD_", "Volume Down (KC_AUDIO_VOL_DOWN. QMK. 170 (decimal))_");
+            correctionAdd("KC_VOLDOWN_", "Volume Down (KC_AUDIO_VOL_DOWN. QMK. 170 (decimal))_");
+
+            // Alias: KC_VOLU
+            correctionAdd("KC_VOLU_", "Volume Up (KC_AUDIO_VOL_UP. QMK. 169 (decimal))_");
+            correctionAdd("KC_VOLUP_", "Volume Up (KC_AUDIO_VOL_UP. QMK. 169 (decimal))_");
 
             // QMK
             correctionAdd("Tap Dance_", "tap dance_");
@@ -93221,20 +93237,6 @@ namespace OverflowHelper.core
 
             // About the undersigned...
             correctionAdd("15 minutes of fame_", "editor in chief_");
-
-            correctionAdd("kc_c_", "c (KC_C. QMK. 6 (decimal))_");
-
-            correctionAdd("KC_LEFT_", "Left Arrow (KC_LEFT. QMK. 80 (decimal))_");
-            correctionAdd("left arrow_", "Left Arrow (KC_LEFT. QMK. 80 (decimal))_");
-
-            correctionAdd("KC_ENTER_", "Return (KC_ENTER. QMK. 40 (decimal))_");
-            correctionAdd("Enter key_", "Return (KC_ENTER. QMK. 40 (decimal))_");
-
-            correctionAdd("KC_VOLD_", "Volume Down (KC_AUDIO_VOL_DOWN. QMK. ?? (decimal))_");
-            correctionAdd("KC_VOLDOWN_", "Volume Down (KC_AUDIO_VOL_DOWN. QMK. ?? (decimal))_");
-
-            correctionAdd("KC_VOLU_", "Volume Up (KC_AUDIO_VOL_UP. QMK. ?? (decimal))_");
-            correctionAdd("KC_VOLUP_", "Volume Up (KC_AUDIO_VOL_UP. QMK. ?? (decimal))_");
 
             correctionAdd("DR_", "disaster recovery_");
 
@@ -94598,9 +94600,9 @@ namespace OverflowHelper.core
 
             URL_Add("text-based user interface_", "https://en.wikipedia.org/wiki/Text-based_user_interface");
 
-            URL_Add("left-click key code (KC_BTN1. QMK)_", "https://github.com/qmk/qmk_firmware/blob/master/docs/feature_mouse_keys.md");
+            URL_Add("left-click key code (KC_MS_BTN1. QMK. 209 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/feature_mouse_keys.md");
 
-            URL_Add("right-click key code (KC_BTN2. QMK)_", "https://github.com/qmk/qmk_firmware/blob/master/docs/feature_mouse_keys.md");
+            URL_Add("right-click key code (KC_MS_BTN2. QMK. 210 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/feature_mouse_keys.md");
 
             URL_Add("tap dance_", "https://github.com/qmk/qmk_firmware/blob/master/docs/feature_tap_dance.md");
 
@@ -94944,9 +94946,19 @@ namespace OverflowHelper.core
 
             URL_Add("least_", "https://en.wiktionary.org/wiki/least#Adjective");
 
-            URL_Add("Volume Down (KC_AUDIO_VOL_DOWN. QMK. ?? (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+            URL_Add("Volume Down (KC_AUDIO_VOL_DOWN. QMK. 170 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
 
-            URL_Add("Volume Up (KC_AUDIO_VOL_UP. QMK. ?? (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+            URL_Add("Volume Up (KC_AUDIO_VOL_UP. QMK. 169 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("KC_KP_ASTERISK_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("KC_KP_SLASH_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("KC_NO_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("KC_TRANSPARENT_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("KC_APPLICATION_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
 
         } //addLookupData_alternativeWordSet()
 
