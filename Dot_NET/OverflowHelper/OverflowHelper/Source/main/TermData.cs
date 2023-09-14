@@ -24254,6 +24254,7 @@ namespace OverflowHelper.core
             //   <https://digiva.net/gateron-switch-guide#ezoic-pub-ad-placeholder-169>
             //
             correctionAdd("Gateron G-Pro Yellow", "Gateron G Pro Yellow");
+            correctionAdd("Gateron pro yellow", "Gateron G Pro Yellow");
 
             // A type of switch for mechanical keyboards
             correctionAdd("gateron pink", "Gateron Pink");
@@ -24944,6 +24945,7 @@ namespace OverflowHelper.core
             correctionAdd("Menu button", "context menu key");
             correctionAdd("menu button", "context menu key");
             correctionAdd("Context key", "context menu key");
+            correctionAdd("Context Menu Key", "context menu key");
 
             // A key on a keyboard
             correctionAdd("numeric lock", "Num Lock");
@@ -58621,6 +58623,11 @@ namespace OverflowHelper.core
 
             correctionAdd("Modulo", "modulo");
 
+            correctionAdd("Moore's law", "Moore’s law");
+            correctionAdd("More's law", "Moore’s law");
+
+            correctionAdd("uniquenes", "uniqueness");
+
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -89960,6 +89967,10 @@ namespace OverflowHelper.core
 
             URL_Add("Weimar Republic", "https://en.wikipedia.org/wiki/Weimar_Republic");
 
+            URL_Add("Moore’s law", "https://en.wikipedia.org/wiki/Moore%27s_law");
+
+            URL_Add("uniqueness", "https://en.wiktionary.org/wiki/uniqueness#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -90274,9 +90285,8 @@ namespace OverflowHelper.core
             correctionAdd("1 line_", "one-line_");
             correctionAdd("1-line_", "one-line_");
 
-            correctionAdd("basic_", "101_");
-            correctionAdd("one oh one_", "101_");
-
+            //correctionAdd("basic_", "101_");  Conflict with another entry
+            //correctionAdd("one oh one_", "101_");
             correctionAdd("Photosphere_", "Photo Sphere_");
             correctionAdd("photosphere_", "Photo Sphere_");
 
@@ -92561,61 +92571,82 @@ namespace OverflowHelper.core
 
             // 'KP' for keypad (numeric keypad)
             // A keycode for QMK (mechanical keyboard software)
-            correctionAdd("KC_PAST_", "KC_KP_ASTERISK_");
+            correctionAdd("KC_PAST_", "numeric keypad * keycode (KC_KP_ASTERISK. QMK. 85 (decimal))_");
+            correctionAdd("KC_KP_ASTERISK_", "numeric keypad * keycode (KC_KP_ASTERISK. QMK. 85 (decimal))_");
+            correctionAdd("85_", "numeric keypad * keycode (KC_KP_ASTERISK. QMK. 85 (decimal))_");
 
             // 'KP' for keypad (numeric keypad)
             // A keycode for QMK (mechanical keyboard software)
-            correctionAdd("KC_PSLS_", "KC_KP_SLASH_");
+            correctionAdd("KC_PSLS_", "numeric keypad / keycode (KC_KP_SLASH. QMK. 84 (decimal))_");
+            correctionAdd("KC_KP_SLASH_", "numeric keypad / keycode (KC_KP_SLASH. QMK. 84 (decimal))_");
+            correctionAdd("84_", "numeric keypad / keycode (KC_KP_SLASH. QMK. 84 (decimal))_");
 
             // A keycode for QMK (mechanical keyboard software)
-            correctionAdd("kc_no_", "KC_NO_");
+            correctionAdd("kc_no_", "no key action keycode (KC_NO. QMK. 0 (decimal))_");
+            correctionAdd("KC_NO_", "no key action keycode (KC_NO. QMK. 0 (decimal))_");
+            correctionAdd("0_", "no key action keycode (KC_NO. QMK. 0 (decimal))_");
 
             // A keycode for QMK (mechanical keyboard software)
-            correctionAdd("KC_TRNS_", "KC_TRANSPARENT_");
+            correctionAdd("KC_TRNS_", "inherit key keycode (KC_TRANSPARENT. QMK. 1 (decimal))_");
+            correctionAdd("KC_TRANSPARENT_", "inherit key keycode (KC_TRANSPARENT. QMK. 1 (decimal))_");
+            correctionAdd("1_", "inherit key keycode (KC_TRANSPARENT. QMK. 1 (decimal))_");
 
             // A keycode for QMK (mechanical keyboard software)
-            correctionAdd("context menu key code_", "KC_APPLICATION_");
-            correctionAdd("KC_APP_", "KC_APPLICATION_");
+            correctionAdd("context menu key code_", "context menu keycode (KC_APPLICATION. QMK. 101 (decimal))_");
+            correctionAdd("KC_APP_", "context menu keycode (KC_APPLICATION. QMK. 101 (decimal))_");
+            correctionAdd("context menu key_", "context menu keycode (KC_APPLICATION. QMK. 101 (decimal))_");
+            correctionAdd("KC_APPLICATION_", "context menu keycode (KC_APPLICATION. QMK. 101 (decimal))_");
+            correctionAdd("101_", "context menu keycode (KC_APPLICATION. QMK. 101 (decimal))_");
 
             // Mouse left-click in QMK
             //
             // Alternative URL: <https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md>
             //
             // Alias: KC_BTN1
-            correctionAdd("left-click_", "left-click key code (KC_MS_BTN1. QMK. 209 (decimal))_");
-            correctionAdd("KC_MS_BTN1_", "left-click key code (KC_MS_BTN1. QMK. 209 (decimal))_");
-            correctionAdd("left-click key code_", "left-click key code (KC_MS_BTN1. QMK. 209 (decimal))_");
-            correctionAdd("left-click key code (QMK)_", "left-click key code (KC_MS_BTN1. QMK. 209 (decimal))_");
-            correctionAdd("KC_BTN1_", "left-click key code (KC_MS_BTN1. QMK. 209 (decimal))_");
+            correctionAdd("left-click_", "left-click keycode (KC_MS_BTN1. QMK. 209 (decimal))_");
+            correctionAdd("left-click key code_", "left-click keycode (KC_MS_BTN1. QMK. 209 (decimal))_");
+            correctionAdd("left-click key code (QMK)_", "left-click keycode (KC_MS_BTN1. QMK. 209 (decimal))_");
+            correctionAdd("KC_BTN1_", "left-click keycode (KC_MS_BTN1. QMK. 209 (decimal))_");
+            correctionAdd("KC_MS_BTN1_", "left-click keycode (KC_MS_BTN1. QMK. 209 (decimal))_");
+            correctionAdd("209_", "left-click keycode (KC_MS_BTN1. QMK. 209 (decimal))_");
 
             // Mouse right-click in QMK
             //
             // Alternative URL: <https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md>
             //
             // Alias: KC_BTN2
-            correctionAdd("right-click_", "right-click key code (KC_MS_BTN2. QMK. 210 (decimal))_");
-            correctionAdd("KC_MS_BTN2_", "right-click key code (KC_MS_BTN2. QMK. 210 (decimal))_");
-            correctionAdd("right-click key code_", "right-click key code (KC_MS_BTN2. QMK. 210 (decimal))_");
-            correctionAdd("right-click key code (QMK)_", "right-click key code (KC_MS_BTN2. QMK. 210 (decimal))_");
-            correctionAdd("KC_BTN2_", "right-click key code (KC_MS_BTN2. QMK. 210 (decimal))_");
+            correctionAdd("right-click_", "right-click keycode (KC_MS_BTN2. QMK. 210 (decimal))_");
+            correctionAdd("right-click key code_", "right-click keycode (KC_MS_BTN2. QMK. 210 (decimal))_");
+            correctionAdd("right-click key code (QMK)_", "right-click keycode (KC_MS_BTN2. QMK. 210 (decimal))_");
+            correctionAdd("KC_BTN2_", "right-click keycode (KC_MS_BTN2. QMK. 210 (decimal))_");
+            correctionAdd("KC_MS_BTN2_", "right-click keycode (KC_MS_BTN2. QMK. 210 (decimal))_");
+            correctionAdd("210_", "right-click keycode (KC_MS_BTN2. QMK. 210 (decimal))_");
 
-            correctionAdd("kc_c_", "c (KC_C. QMK. 6 (decimal))_");
+            correctionAdd("kc_c_", "c keycode (KC_C. QMK. 6 (decimal))_");
+            correctionAdd("KC_C_", "c keycode (KC_C. QMK. 6 (decimal))_");
+            correctionAdd("6_", "c keycode (KC_C. QMK. 6 (decimal))_");
 
-            correctionAdd("KC_LEFT_", "Left Arrow (KC_LEFT. QMK. 80 (decimal))_");
-            correctionAdd("left arrow_", "Left Arrow (KC_LEFT. QMK. 80 (decimal))_");
+            correctionAdd("left arrow_", "Left Arrow keycode (KC_LEFT. QMK. 80 (decimal))_");
+            correctionAdd("KC_LEFT_", "Left Arrow keycode (KC_LEFT. QMK. 80 (decimal))_");
+            correctionAdd("80_", "Left Arrow keycode (KC_LEFT. QMK. 80 (decimal))_");
 
             // Alias: KC_ENT
-            correctionAdd("KC_ENTER_", "Return (KC_ENTER. QMK. 40 (decimal))_");
-            correctionAdd("Enter key_", "Return (KC_ENTER. QMK. 40 (decimal))_");
-            correctionAdd("KC_ENT_", "Return (KC_ENTER. QMK. 40 (decimal))_");
+            correctionAdd("Enter key_", "Return keycode (KC_ENTER. QMK. 40 (decimal))_");
+            correctionAdd("KC_ENT_", "Return keycode (KC_ENTER. QMK. 40 (decimal))_");
+            correctionAdd("KC_ENTER_", "Return keycode (KC_ENTER. QMK. 40 (decimal))_");
+            correctionAdd("40_", "Return keycode (KC_ENTER. QMK. 40 (decimal))_");
 
             // Alias: KC_VOLD
-            correctionAdd("KC_VOLD_", "Volume Down (KC_AUDIO_VOL_DOWN. QMK. 170 (decimal))_");
-            correctionAdd("KC_VOLDOWN_", "Volume Down (KC_AUDIO_VOL_DOWN. QMK. 170 (decimal))_");
+            correctionAdd("KC_VOLD_", "Volume Down keycode (KC_AUDIO_VOL_DOWN. QMK. 170 (decimal))_");
+            correctionAdd("KC_VOLDOWN_", "Volume Down keycode (KC_AUDIO_VOL_DOWN. QMK. 170 (decimal))_");
+            correctionAdd("KC_AUDIO_VOL_DOWN_", "Volume Down keycode (KC_AUDIO_VOL_DOWN. QMK. 170 (decimal))_");
+            correctionAdd("170_", "Volume Down keycode (KC_AUDIO_VOL_DOWN. QMK. 170 (decimal))_");
 
             // Alias: KC_VOLU
-            correctionAdd("KC_VOLU_", "Volume Up (KC_AUDIO_VOL_UP. QMK. 169 (decimal))_");
-            correctionAdd("KC_VOLUP_", "Volume Up (KC_AUDIO_VOL_UP. QMK. 169 (decimal))_");
+            correctionAdd("KC_VOLU_", "Volume Up keycode (KC_AUDIO_VOL_UP. QMK. 169 (decimal))_");
+            correctionAdd("KC_VOLUP_", "Volume Up keycode (KC_AUDIO_VOL_UP. QMK. 169 (decimal))_");
+            correctionAdd("KC_AUDIO_VOL_UP_", "Volume Up keycode (KC_AUDIO_VOL_UP. QMK. 169 (decimal))_");
+            correctionAdd("169_", "Volume Up keycode (KC_AUDIO_VOL_UP. QMK. 169 (decimal))_");
 
             // QMK
             correctionAdd("Tap Dance_", "tap dance_");
@@ -93391,8 +93422,6 @@ namespace OverflowHelper.core
             URL_Add("weapon of mass destruction_", "https://en.wikipedia.org/wiki/Weapon_of_mass_destruction");
 
             URL_Add("one-line_", "https://www.collinsdictionary.com/dictionary/english/one-line");
-
-            URL_Add("101_", "https://en.wiktionary.org/wiki/101#Adjective");
 
             URL_Add("Photo Sphere_", "https://en.wikipedia.org/wiki/Google_Camera#Photo_Sphere");
 
@@ -94600,9 +94629,9 @@ namespace OverflowHelper.core
 
             URL_Add("text-based user interface_", "https://en.wikipedia.org/wiki/Text-based_user_interface");
 
-            URL_Add("left-click key code (KC_MS_BTN1. QMK. 209 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/feature_mouse_keys.md");
+            URL_Add("left-click keycode (KC_MS_BTN1. QMK. 209 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/feature_mouse_keys.md");
 
-            URL_Add("right-click key code (KC_MS_BTN2. QMK. 210 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/feature_mouse_keys.md");
+            URL_Add("right-click keycode (KC_MS_BTN2. QMK. 210 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/feature_mouse_keys.md");
 
             URL_Add("tap dance_", "https://github.com/qmk/qmk_firmware/blob/master/docs/feature_tap_dance.md");
 
@@ -94932,11 +94961,11 @@ namespace OverflowHelper.core
 
             URL_Add("editor in chief_", "https://blog.superuser.com/2011/04/27/peter-mortensen-editor-in-chief/");
 
-            URL_Add("c (KC_C. QMK. 6 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+            URL_Add("c keycode (KC_C. QMK. 6 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
 
-            URL_Add("Left Arrow (KC_LEFT. QMK. 80 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+            URL_Add("Left Arrow keycode (KC_LEFT. QMK. 80 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
 
-            URL_Add("Return (KC_ENTER. QMK. 40 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+            URL_Add("Return keycode (KC_ENTER. QMK. 40 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
 
             URL_Add("disaster recovery_", "https://en.wikipedia.org/wiki/Disaster_recovery");
 
@@ -94946,19 +94975,20 @@ namespace OverflowHelper.core
 
             URL_Add("least_", "https://en.wiktionary.org/wiki/least#Adjective");
 
-            URL_Add("Volume Down (KC_AUDIO_VOL_DOWN. QMK. 170 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+            URL_Add("Volume Down keycode (KC_AUDIO_VOL_DOWN. QMK. 170 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
 
-            URL_Add("Volume Up (KC_AUDIO_VOL_UP. QMK. 169 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+            URL_Add("Volume Up keycode (KC_AUDIO_VOL_UP. QMK. 169 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
 
-            URL_Add("KC_KP_ASTERISK_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+            URL_Add("numeric keypad / keycode (KC_KP_SLASH. QMK. 84 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
 
-            URL_Add("KC_KP_SLASH_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+            URL_Add("no key action keycode (KC_NO. QMK. 0 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
 
-            URL_Add("KC_NO_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+            URL_Add("inherit key keycode (KC_TRANSPARENT. QMK. 1 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
 
-            URL_Add("KC_TRANSPARENT_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+            URL_Add("context menu keycode (KC_APPLICATION. QMK. 101 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
 
-            URL_Add("KC_APPLICATION_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+            //URL_Add("101_", "https://en.wiktionary.org/wiki/101#Adjective");   Conflict with another entry
+            URL_Add("numeric keypad * keycode (KC_KP_ASTERISK. QMK. 85 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
 
         } //addLookupData_alternativeWordSet()
 
