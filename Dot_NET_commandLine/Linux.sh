@@ -2290,6 +2290,9 @@ keyboardShortcutConsistencyCheck  Link_Builder.php          "link builder"      
 #
 #     Why is this required??? Interface "lo" (loopback) should work for localhost.
 #
+#     Note that it is not the only reason for this error.
+#
+#
 PHP_code_test  EditOverflow.php          "main lookup"             11  "OverflowStyle=Native&LookUpTerm=JS"  "Access denied for user"
 
 
@@ -2584,7 +2587,7 @@ cat '/home/mortensen/temp2/2022-02-25/Backup/Backup_2022-02-25_smallFiles/2022-0
 #       2022-01-25: 5374604 bytes
 
 # Note: The same build number
-wordListExport 31 "SQL" $SQL_FILE 8200000 9030000
+wordListExport 31 "SQL" $SQL_FILE 8360000 9210000
 
 # Note: The same build number
 export MATCHING_LINES=`grep -c 'DROP TABLE EditOverflow'  ${SQL_FILE}`
