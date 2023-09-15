@@ -908,15 +908,29 @@ namespace OverflowHelper.core
 
             correctionAdd("hypecycle", "hype cycle");
 
+            correctionAdd("espaced", "escape");
+            correctionAdd("esacape", "escape");
+            correctionAdd("escapce", "escape");
+            correctionAdd("Escape", "escape");
+            correctionAdd("esapce", "escape");
+            correctionAdd("Esacpe", "escape");
+            correctionAdd("esacpe", "escape");
+
+            correctionAdd("scaping", "escaping");
+
+            correctionAdd("un-escape", "unescape");
+
+            correctionAdd("escallate", "escalate");
+
             correctionAdd("bycicle", "bicycle");
             correctionAdd("Bycycle", "bicycle");
             correctionAdd("bycycle", "bicycle");
 
             correctionAdd("giant", "Giant Bicycles");
 
-            correctionAdd("giant escape", "Giant Escape");
+            correctionAdd("giant escape", "Giant Escape"); // A bicycle from Giant Bicycles
 
-            correctionAdd("giant tcr", "Giant TCR");
+            correctionAdd("giant tcr", "Giant TCR"); // A brand of bicycles from Giant Bicycles
 
             correctionAdd("betd", "BETD"); // Bicycle parts manufacturer/seller
 
@@ -4032,6 +4046,12 @@ namespace OverflowHelper.core
 
             correctionAdd("azores", "the Azores");
             correctionAdd("the azores", "the Azores");
+
+            correctionAdd("iran", "Iran");
+
+            correctionAdd("farsi", "Farsi");
+
+            correctionAdd("Persian Language", "Persian language");
 
             correctionAdd("christianity", "Christianity");
 
@@ -10513,6 +10533,12 @@ namespace OverflowHelper.core
 
             // Aviation
             correctionAdd("VATSIM", "Virtual Air Traffic Simulation Network");
+
+            // Aviation
+            correctionAdd("IRAN", "inspect and repair as necessary");
+
+            // Aviation
+            correctionAdd("air space", "airspace");
 
             correctionAdd("goddard space flight center", "Goddard Space Flight Center");
 
@@ -20445,6 +20471,21 @@ namespace OverflowHelper.core
 
             correctionAdd("communitys", "communities");
 
+            correctionAdd("entry level", "entry-level");
+
+            correctionAdd("top level", "top-level");
+
+            correctionAdd("mid-level", "midlevel");
+            correctionAdd("middling-level", "midlevel");
+            correctionAdd("middle level", "midlevel");
+            correctionAdd("mid level", "midlevel");
+            correctionAdd("middle lavel", "midlevel");
+            correctionAdd("mid", "midlevel");
+
+            correctionAdd("mid-point", "midpoint");
+
+            correctionAdd("midsize", "mid-size");
+
             // A programming language
             correctionAdd("f#", "F#");
             correctionAdd("Fsharp", "F#");
@@ -24771,18 +24812,6 @@ namespace OverflowHelper.core
 
             correctionAdd("aspectj", "AspectJ");
 
-            correctionAdd("espaced", "escape");
-            correctionAdd("esacape", "escape");
-            correctionAdd("escapce", "escape");
-            correctionAdd("Escape", "escape");
-            correctionAdd("esapce", "escape");
-            correctionAdd("Esacpe", "escape");
-            correctionAdd("esacpe", "escape");
-
-            correctionAdd("escallate", "escalate");
-
-            correctionAdd("scaping", "escaping");
-
             correctionAdd("expection", "expectation");
             correctionAdd("exoectation", "expectation");
             correctionAdd("Expectaion", "expectation");
@@ -25116,6 +25145,13 @@ namespace OverflowHelper.core
 
             correctionAdd("cripled", "crippled");
             correctionAdd("cribbled", "crippled");
+
+            correctionAdd("unqiue", "unique");
+
+            correctionAdd("uniquenes", "uniqueness");
+
+            correctionAdd("non-unique", "nonunique");
+            correctionAdd("non unique", "nonunique");
 
             correctionAdd("argb", "ARGB");
             correctionAdd("aRGB", "ARGB");
@@ -36011,17 +36047,6 @@ namespace OverflowHelper.core
 
             correctionAdd("lower than expected", "lower-than-expected");
 
-            correctionAdd("entry level", "entry-level");
-
-            correctionAdd("top level", "top-level");
-
-            correctionAdd("mid-level", "midlevel");
-            correctionAdd("middling-level", "midlevel");
-            correctionAdd("middle level", "midlevel");
-            correctionAdd("mid level", "midlevel");
-            correctionAdd("middle lavel", "midlevel");
-            correctionAdd("mid", "midlevel");
-
             correctionAdd("themself", "themselves");
             correctionAdd("them selfs", "themselves");
             correctionAdd("themselfs", "themselves");
@@ -44709,15 +44734,6 @@ namespace OverflowHelper.core
 
             correctionAdd("eevee", "Eevee");
 
-            // Aviation
-            correctionAdd("IRAN", "inspect and repair as necessary");
-
-            correctionAdd("iran", "Iran");
-
-            correctionAdd("farsi", "Farsi");
-
-            correctionAdd("Persian Language", "Persian language");
-
             correctionAdd("Miranda", "Miranda IM");
 
             correctionAdd("tirangle", "triangle");
@@ -48641,8 +48657,6 @@ namespace OverflowHelper.core
 
             correctionAdd("manuvre", "manoeuvre");
 
-            correctionAdd("mid-point", "midpoint");
-
             correctionAdd("Pit Bull", "pit bull");
 
             correctionAdd("red-herring", "red herring");
@@ -50160,9 +50174,6 @@ namespace OverflowHelper.core
             correctionAdd("nedad", "needed");
 
             correctionAdd("needa", "need to");
-
-            correctionAdd("non-unique", "nonunique");
-            correctionAdd("non unique", "nonunique");
 
             correctionAdd("un-commenting", "uncommenting");
 
@@ -55045,8 +55056,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Thingworx", "ThingWorx");
 
-            correctionAdd("unqiue", "unique");
-
             correctionAdd("in the end of", "at the end of");
             correctionAdd("In end of", "at the end of");
             correctionAdd("In the end of", "at the end of");
@@ -58672,14 +58681,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Moore's law", "Moore’s law");
             correctionAdd("More's law", "Moore’s law");
-
-            correctionAdd("uniquenes", "uniqueness");
-
-            correctionAdd("midsize", "mid-size");
-
-            correctionAdd("air space", "airspace");
-
-            correctionAdd("un-escape", "unescape");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -92693,6 +92694,15 @@ namespace OverflowHelper.core
             correctionAdd("KC_C_", "c keycode (KC_C. QMK. 6 (decimal))_");
             correctionAdd("6_", "c keycode (KC_C. QMK. 6 (decimal))_");
 
+            correctionAdd("KC_L_", "l keycode (KC_L. QMK. 15 (decimal))_");
+            correctionAdd("15_", "l keycode (KC_L. QMK. 15 (decimal))_");
+
+            correctionAdd("KC_V_", "v keycode (KC_V. QMK. 25 (decimal))_");
+            correctionAdd("25_", "v keycode (KC_V. QMK. 25 (decimal))_");
+
+            correctionAdd("KC_F4_", "F4 keycode (KC_F4. QMK. 61 (decimal))_");
+            correctionAdd("61_", "F4 keycode (KC_F4. QMK. 61 (decimal))_");
+
             correctionAdd("left arrow_", "Left Arrow keycode (KC_LEFT. QMK. 80 (decimal))_");
             correctionAdd("KC_LEFT_", "Left Arrow keycode (KC_LEFT. QMK. 80 (decimal))_");
             correctionAdd("80_", "Left Arrow keycode (KC_LEFT. QMK. 80 (decimal))_");
@@ -92702,6 +92712,13 @@ namespace OverflowHelper.core
             correctionAdd("KC_ENT_", "Return keycode (KC_ENTER. QMK. 40 (decimal))_");
             correctionAdd("KC_ENTER_", "Return keycode (KC_ENTER. QMK. 40 (decimal))_");
             correctionAdd("40_", "Return keycode (KC_ENTER. QMK. 40 (decimal))_");
+
+            correctionAdd("KC_BSPC_", "Backspace keycode (KC_BACKSPACE. QMK. 42 (decimal))_");
+            correctionAdd("KC_BACKSPACE_", "Backspace keycode (KC_BACKSPACE. QMK. 42 (decimal))_");
+            correctionAdd("42_", "Backspace keycode (KC_BACKSPACE. QMK. 42 (decimal))_");
+
+            correctionAdd("KC_TAB_", "Tab keycode (KC_TAB. QMK. 43 (decimal))_");
+            correctionAdd("43_", "Tab keycode (KC_TAB. QMK. 43 (decimal))_");
 
             // Alias: KC_VOLD
             correctionAdd("KC_VOLD_", "Volume Down keycode (KC_AUDIO_VOL_DOWN. QMK. 170 (decimal))_");
@@ -95075,6 +95092,16 @@ namespace OverflowHelper.core
             URL_Add("Caps Lock_", "https://en.wikipedia.org/wiki/Caps_Lock");
 
             URL_Add("we_", "https://en.wiktionary.org/wiki/we#Pronoun");
+
+            URL_Add("l keycode (KC_L. QMK. 15 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("v keycode (KC_V. QMK. 25 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("Backspace keycode (KC_BACKSPACE. QMK. 42 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("Tab keycode (KC_TAB. QMK. 43 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("F4 keycode (KC_F4. QMK. 61 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
 
         } //addLookupData_alternativeWordSet()
 
