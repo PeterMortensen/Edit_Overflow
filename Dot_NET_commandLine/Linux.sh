@@ -2844,6 +2844,12 @@ if [ ${DISABLE_HTMLVALIDATION} != 1 ]; then
     #     503 Service Unavailable
     #     No server is available to handle this request.
     #
+    # It also failed 2023-09-15. Was it due to a passed size 
+    # threshold or some new change/change? After we manually 
+    # submitted it, enabled some JavaScript, and checked 
+    # the checkbox in the "I am a human" dialog, it 
+    # worked again...
+    #
     HTML_validation_base ${HTML_FILE_GENERIC_FILENAMEONLY}  "Word list (HTML)"        45  '%2FEditOverflow%2F_Wordlist'
 fi
 
