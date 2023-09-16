@@ -1119,6 +1119,9 @@ namespace OverflowHelper.core
             correctionAdd("Coleman", "Colemak");
             correctionAdd("COLEMAK", "Colemak");
 
+            // A keyboard layout (transition to Colemak)
+            correctionAdd("tarmak", "Tarmak");
+
             // A keyboard layout
             correctionAdd("workman", "Workman");
             correctionAdd("WORKMAN", "Workman");
@@ -1127,6 +1130,9 @@ namespace OverflowHelper.core
             correctionAdd("DVORAK", "Dvorak");
             correctionAdd("dvorak", "Dvorak");
             correctionAdd("Dvorak layout", "Dvorak");
+
+            // A keyboard layout (transition to Dvorak)
+            correctionAdd("minimak", "Minimak");
 
             correctionAdd("key cap", "keycap");
             correctionAdd("Keycap", "keycap");
@@ -20481,6 +20487,7 @@ namespace OverflowHelper.core
             correctionAdd("mid level", "midlevel");
             correctionAdd("middle lavel", "midlevel");
             correctionAdd("mid", "midlevel");
+            correctionAdd("Midlevel", "midlevel");
 
             correctionAdd("mid-point", "midpoint");
 
@@ -25066,6 +25073,13 @@ namespace OverflowHelper.core
 
             // United States
             correctionAdd("Harvard", "Harvard University");
+
+            // A programming course at Harvard
+            correctionAdd("CS50", "Harvard CS50");
+            correctionAdd("cs50", "Harvard CS50");
+            correctionAdd("cs50x", "Harvard CS50");
+            correctionAdd("Harvard CS50x", "Harvard CS50");
+            correctionAdd("CS50x", "Harvard CS50");
 
             // United States
             correctionAdd("Tufts", "Tufts University");
@@ -34301,6 +34315,7 @@ namespace OverflowHelper.core
             correctionAdd("alwayes", "always");
             correctionAdd("alwaly", "always");
             correctionAdd("alwaus", "always");
+            correctionAdd("a,ways", "always");
 
             correctionAdd("spanish", "Spanish");
             correctionAdd("SPanish", "Spanish");
@@ -35899,6 +35914,7 @@ namespace OverflowHelper.core
             correctionAdd("releas", "release");
             correctionAdd("Relese", "release");
             correctionAdd("Release", "release");
+            correctionAdd("releasse", "release");
 
             correctionAdd("seperatist", "separatist");
 
@@ -39867,14 +39883,20 @@ namespace OverflowHelper.core
             correctionAdd("web archive", "Wayback Machine");
             correctionAdd("webarchive", "Wayback Machine");
 
+            correctionAdd("John Von Neumann", "John von Neumann");
+
+            // E.g., same address spaces for RAM, program memory, and EEPROM
+            // E.g., as opposed to a Harvard architecture
             correctionAdd("Von Neuman machine", "von Neumann machine");
             correctionAdd("von Neumann", "von Neumann machine");
             correctionAdd("von Neuman machine", "von Neumann machine");
             correctionAdd("Von Neumann machine", "von Neumann machine");
             correctionAdd("van neumann", "von Neumann machine");
             correctionAdd("Von Neumann", "von Neumann machine");
+            correctionAdd("von Neumann architecture", "von Neumann machine");
 
-            correctionAdd("John Von Neumann", "John von Neumann");
+            // E.g., as opposed to a von Neumann machine
+            correctionAdd("harvard architecture", "Harvard architecture");
 
             // A software developer turned manosphere carver
             correctionAdd("sonmez", "John Sonmez");
@@ -42175,6 +42197,9 @@ namespace OverflowHelper.core
             correctionAdd("intersting", "interesting");
             correctionAdd("Instresting", "interesting");
             correctionAdd("instresting", "interesting");
+            correctionAdd("Intredasting", "interesting");
+            correctionAdd("interedasting", "interesting");
+            correctionAdd("intredasting", "interesting");
 
             correctionAdd("l10n", "language localisation");
             correctionAdd("L10n", "language localisation");
@@ -44010,13 +44035,6 @@ namespace OverflowHelper.core
             correctionAdd("stomack", "stomach");
 
             correctionAdd("wack", "whack");
-
-            // A programming course at Harvard
-            correctionAdd("CS50", "Harvard CS50");
-            correctionAdd("cs50", "Harvard CS50");
-            correctionAdd("cs50x", "Harvard CS50");
-            correctionAdd("Harvard CS50x", "Harvard CS50");
-            correctionAdd("CS50x", "Harvard CS50");
 
             correctionAdd("mindfield", "minefield"); // !!!!!
 
@@ -53468,6 +53486,7 @@ namespace OverflowHelper.core
             correctionAdd("full on", "full-on");
 
             correctionAdd("transistion", "transition");
+            correctionAdd("transiton", "transition");
 
             correctionAdd("pop", "population");
 
@@ -58681,6 +58700,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Moore's law", "Moore’s law");
             correctionAdd("More's law", "Moore’s law");
+
+            correctionAdd("misscommunication", "miscommunication");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -90046,6 +90067,14 @@ namespace OverflowHelper.core
             URL_Add("std::enable_if", "https://en.cppreference.com/w/cpp/types/enable_if");
 
             URL_Add("Windows Forms Designer", "https://learn.microsoft.com/en-us/visualstudio/designers/walkthrough-windows-forms-designer");
+
+            URL_Add("Tarmak", "https://forum.colemak.com/topic/1858-learn-colemak-in-steps-with-the-tarmak-layouts/");
+
+            URL_Add("Minimak", "http://www.minimak.org/");
+
+            URL_Add("Harvard architecture", "https://en.wikipedia.org/wiki/Harvard_architecture");
+
+            URL_Add("miscommunication", "https://en.wiktionary.org/wiki/miscommunication#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
