@@ -922,6 +922,12 @@ namespace OverflowHelper.core
 
             correctionAdd("escallate", "escalate");
 
+            correctionAdd("brandname", "brand name");
+
+            correctionAdd("re-branded", "rebranded");
+
+            correctionAdd("brand-new", "brand new");
+
             correctionAdd("bycicle", "bicycle");
             correctionAdd("Bycycle", "bicycle");
             correctionAdd("bycycle", "bicycle");
@@ -951,6 +957,104 @@ namespace OverflowHelper.core
             correctionAdd("cirlce", "circle");
 
             correctionAdd("Unit Circle", "unit circle");
+
+            correctionAdd("famious", "famous");
+            correctionAdd("Famious", "famous");
+            correctionAdd("famouse", "famous");
+
+            correctionAdd("famiously", "famously");
+            correctionAdd("Famiously", "famously");
+
+            correctionAdd("non-famous", "nonfamous");
+            correctionAdd("non famous", "nonfamous");
+
+            correctionAdd("world-known", "world-famous");
+            correctionAdd("qorld-beknown", "world-famous");
+            correctionAdd("world-beknown", "world-famous");
+
+            correctionAdd("cat and mouse", "cat-and-mouse");
+
+            correctionAdd("Mouse", "mouse");
+
+            correctionAdd("mouses", "mice");
+            correctionAdd("Mouses", "mice");
+
+            correctionAdd("Mouse wheel", "mouse wheel");
+            correctionAdd("Mouse Wheel", "mouse wheel");
+
+            correctionAdd("mousepad", "Mousepad");
+
+            correctionAdd("clique", "click");
+            correctionAdd("clic", "click");
+            correctionAdd("lick", "click");
+            correctionAdd("clicl", "click");
+            correctionAdd("CLick", "click");
+            correctionAdd("Click", "click");
+
+            correctionAdd("klicking", "clicking");
+
+            correctionAdd("cliqued", "clicked");
+
+            correctionAdd("mis-clicked", "misclicked");
+            correctionAdd("miss-clicked", "misclicked");
+
+            correctionAdd("right click", "right-click");
+            correctionAdd("Right-Click", "right-click");
+            correctionAdd("Right Click", "right-click");
+            correctionAdd("Right-click", "right-click");
+            correctionAdd("rigth click", "right-click");
+            correctionAdd("Right click", "right-click");
+            correctionAdd("rt-click", "right-click");
+            correctionAdd("Rightclick", "right-click");
+            correctionAdd("right Click", "right-click");
+            correctionAdd("rightclick", "right-click");
+            correctionAdd("right lick", "right-click");
+            correctionAdd("right-clic", "right-click");
+
+            correctionAdd("right licking", "right-clicking");
+            correctionAdd("right clicking", "right-clicking");
+
+            correctionAdd("rn", "right now");
+
+            correctionAdd("click-able", "clickable");
+            correctionAdd("Click-able", "clickable");
+
+            correctionAdd("double click", "double-click");
+            correctionAdd("dubble click", "double-click");
+            correctionAdd("doubble click", "double-click");
+            correctionAdd("Double click", "double-click");
+            correctionAdd("Double Click", "double-click");
+            correctionAdd("Double-click", "double-click");
+            correctionAdd("doublclick", "double-click");
+            correctionAdd("doubleclick", "double-click");
+
+            correctionAdd("single click", "single-click");
+
+            correctionAdd("left click", "left-click");
+            correctionAdd("Left click", "left-click");
+            correctionAdd("Left-click", "left-click");
+
+            correctionAdd("double clicking", "double-clicking");
+            correctionAdd("doublicking", "double-clicking");
+            correctionAdd("doubclicking", "double-clicking");
+            correctionAdd("doubleclicking", "double-clicking");
+            correctionAdd("Double clicking", "double-clicking");
+
+            correctionAdd("mis-clicking", "misclicking");
+
+            correctionAdd("click bait", "clickbait");
+            correctionAdd("Click bait", "clickbait");
+            correctionAdd("click-bait", "clickbait");
+            correctionAdd("Click-bait", "clickbait");
+
+            correctionAdd("clickthroughs", "click-throughs");
+            correctionAdd("click throughs", "click-throughs");
+
+            // A computer mouse
+            correctionAdd("G900", "Logitech G900");
+
+            // A computer mouse
+            correctionAdd("MX518", "Logitech MX518");
 
             correctionAdd("tpye", "type");
             correctionAdd("tipe", "type");
@@ -3559,15 +3663,6 @@ namespace OverflowHelper.core
 
             correctionAdd("LSBLK", "lsblk");
 
-            // Note: MSB is in another word set...
-            correctionAdd("lsb", "LSB");
-            correctionAdd("Least significant bit", "LSB");
-            correctionAdd("right-most bit", "LSB");
-            correctionAdd("right most bit", "LSB");
-            correctionAdd("rmb", "LSB");
-            correctionAdd("least significant bit", "LSB");
-            correctionAdd("LSb", "LSB");
-
             // Alternative URL:
             //
             //   <https://en.wikipedia.org/wiki/Minification_(programming)>
@@ -3742,69 +3837,6 @@ namespace OverflowHelper.core
             correctionAdd("alr", "all right");
 
             correctionAdd("right of passage", "rite of passage");
-
-            correctionAdd("clique", "click");
-            correctionAdd("clic", "click");
-            correctionAdd("lick", "click");
-            correctionAdd("clicl", "click");
-            correctionAdd("CLick", "click");
-            correctionAdd("Click", "click");
-
-            correctionAdd("klicking", "clicking");
-
-            correctionAdd("cliqued", "clicked");
-
-            correctionAdd("right click", "right-click");
-            correctionAdd("Right-Click", "right-click");
-            correctionAdd("Right Click", "right-click");
-            correctionAdd("Right-click", "right-click");
-            correctionAdd("rigth click", "right-click");
-            correctionAdd("Right click", "right-click");
-            correctionAdd("rt-click", "right-click");
-            correctionAdd("Rightclick", "right-click");
-            correctionAdd("right Click", "right-click");
-            correctionAdd("rightclick", "right-click");
-            correctionAdd("right lick", "right-click");
-            correctionAdd("right-clic", "right-click");
-
-            correctionAdd("right licking", "right-clicking");
-            correctionAdd("right clicking", "right-clicking");
-
-            correctionAdd("rn", "right now");
-
-            correctionAdd("click-able", "clickable");
-            correctionAdd("Click-able", "clickable");
-
-            correctionAdd("double click", "double-click");
-            correctionAdd("dubble click", "double-click");
-            correctionAdd("doubble click", "double-click");
-            correctionAdd("Double click", "double-click");
-            correctionAdd("Double Click", "double-click");
-            correctionAdd("Double-click", "double-click");
-            correctionAdd("doublclick", "double-click");
-            correctionAdd("doubleclick", "double-click");
-
-            correctionAdd("single click", "single-click");
-
-            correctionAdd("left click", "left-click");
-            correctionAdd("Left click", "left-click");
-            correctionAdd("Left-click", "left-click");
-
-            correctionAdd("double clicking", "double-clicking");
-            correctionAdd("doublicking", "double-clicking");
-            correctionAdd("doubclicking", "double-clicking");
-            correctionAdd("doubleclicking", "double-clicking");
-            correctionAdd("Double clicking", "double-clicking");
-
-            correctionAdd("mis-clicking", "misclicking");
-
-            correctionAdd("click bait", "clickbait");
-            correctionAdd("Click bait", "clickbait");
-            correctionAdd("click-bait", "clickbait");
-            correctionAdd("Click-bait", "clickbait");
-
-            correctionAdd("clickthroughs", "click-throughs");
-            correctionAdd("click throughs", "click-throughs");
 
             correctionAdd("right ascention", "right ascension");
 
@@ -5787,6 +5819,7 @@ namespace OverflowHelper.core
             correctionAdd("hae", "have");
             correctionAdd("nhave", "have"); // Typo with the space bar...
             correctionAdd("vave", "have");
+            correctionAdd("ahve", "have");
 
             correctionAdd("havig", "having");
             correctionAdd("havin", "having");
@@ -13351,6 +13384,8 @@ namespace OverflowHelper.core
             correctionAdd("flah", "flash memory");
             correctionAdd("flash", "flash memory");
             correctionAdd("Flash", "flash memory");
+            correctionAdd("Flash Memory", "flash memory");
+            correctionAdd("Flash memory", "flash memory");
 
             // "CF" is taken by ColdFusion.
             correctionAdd("compactflash", "CompactFlash");
@@ -13756,6 +13791,7 @@ namespace OverflowHelper.core
             correctionAdd("Police", "police");
 
             correctionAdd("polate", "polite");
+            correctionAdd("pollite", "polite");
 
             correctionAdd("polymer", "Polymer");
 
@@ -15301,6 +15337,7 @@ namespace OverflowHelper.core
             correctionAdd("deferenece", "dereference");
             correctionAdd("deference", "dereference");
             correctionAdd("derefenece", "dereference");
+            correctionAdd("derefrence", "dereference");
 
             correctionAdd("cross reference", "cross-reference");
             correctionAdd("cross-reef", "cross-reference");
@@ -17203,6 +17240,7 @@ namespace OverflowHelper.core
             correctionAdd("Stack OVerflow", "Stack&nbsp;Overflow");
             correctionAdd("Stackoverflwo", "Stack&nbsp;Overflow");
             correctionAdd("StackOvervlow", "Stack&nbsp;Overflow");
+            correctionAdd("CuntOverflow", "Stack&nbsp;Overflow");
 
             correctionAdd("MSO", "Meta&nbsp;Stack&nbsp;Overflow");
             correctionAdd("mso", "Meta&nbsp;Stack&nbsp;Overflow");
@@ -17961,6 +17999,7 @@ namespace OverflowHelper.core
             correctionAdd("Codium", "VSCodium");
             correctionAdd("vscodium", "VSCodium");
             correctionAdd("Vscodium", "VSCodium");
+            correctionAdd("VScodium", "VSCodium");
 
             // A Visual Studio Code configuration file
             correctionAdd("jsconfig", "jsconfig.json");
@@ -18256,8 +18295,6 @@ namespace OverflowHelper.core
             correctionAdd("colorscheme", "colour scheme");
 
             correctionAdd("howcome", "how come");
-
-            correctionAdd("brandname", "brand name");
 
             correctionAdd("erron", "error");
             correctionAdd("Error", "error");
@@ -29470,10 +29507,6 @@ namespace OverflowHelper.core
 
             correctionAdd("diffuse", "Diffuse");
 
-            correctionAdd("cat and mouse", "cat-and-mouse");
-
-            correctionAdd("Mouse", "mouse");
-
             correctionAdd("mis-use", "misuse");
 
             correctionAdd("isssue", "issue");
@@ -30135,6 +30168,7 @@ namespace OverflowHelper.core
             correctionAdd("WIkipedia", "Wikipedia");
             correctionAdd("Wikipedea", "Wikipedia");
             correctionAdd("Wikiepdia", "Wikipedia");
+            correctionAdd("Wikidepia", "Wikipedia");
 
             correctionAdd("udp", "UDP");
             correctionAdd("Udp", "UDP");
@@ -41073,6 +41107,7 @@ namespace OverflowHelper.core
             correctionAdd("abt", "about");
             correctionAdd("aout", "about");
             correctionAdd("aboue", "about");
+            correctionAdd("abut", "about");
 
             // A Canadian city
             correctionAdd("montreal", "Montreal");
@@ -42398,6 +42433,7 @@ namespace OverflowHelper.core
             correctionAdd("ehat", "what");
             correctionAdd("wut", "what");
             correctionAdd("whata", "what");
+            correctionAdd("whad", "what");
 
             correctionAdd("dsa", "DSA");
 
@@ -44906,8 +44942,6 @@ namespace OverflowHelper.core
 
             correctionAdd("leafpad", "Leafpad");
 
-            correctionAdd("mousepad", "Mousepad");
-
             correctionAdd("neptune", "Neptune");
             correctionAdd("Neptun", "Neptune");
 
@@ -45236,13 +45270,6 @@ namespace OverflowHelper.core
             correctionAdd("condenscending", "condescending");
 
             correctionAdd("elaboratelt", "elaborately");
-
-            correctionAdd("non-famous", "nonfamous");
-            correctionAdd("non famous", "nonfamous");
-
-            correctionAdd("famious", "famous");
-            correctionAdd("Famious", "famous");
-            correctionAdd("famouse", "famous");
 
             correctionAdd("Oil", "oil");
 
@@ -47088,6 +47115,7 @@ namespace OverflowHelper.core
             correctionAdd("durign", "during");
             correctionAdd("druing", "during");
             correctionAdd("durng", "during");
+            correctionAdd("durring", "during");
 
             correctionAdd("firtly", "firstly");
             correctionAdd("Firtly", "firstly");
@@ -48613,10 +48641,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Virgin galactic", "Virgin Galactic");
 
-            correctionAdd("Left Mouse Button", "left mouse button");
-            correctionAdd("LMB", "left mouse button");
-            correctionAdd("lmb", "left mouse button");
-
             correctionAdd("Vomit Comet", "vomit comet");
 
             correctionAdd("ng-if", "*ngIf");
@@ -50021,9 +50045,6 @@ namespace OverflowHelper.core
 
             correctionAdd("memozing", "memoizing");
 
-            correctionAdd("Mouse wheel", "mouse wheel");
-            correctionAdd("Mouse Wheel", "mouse wheel");
-
             correctionAdd("Row", "row");
 
             correctionAdd("stars", "starts");
@@ -50476,8 +50497,6 @@ namespace OverflowHelper.core
             correctionAdd("branch-less", "branchless");
             correctionAdd("brunchless", "branchless");
 
-            correctionAdd("brand-new", "brand new");
-
             correctionAdd("conculsion", "conclusion");
             correctionAdd("conclution", "conclusion");
 
@@ -50576,9 +50595,6 @@ namespace OverflowHelper.core
 
             correctionAdd("NXOpen", "NX Open");
             correctionAdd("Nx open", "NX Open");
-
-            correctionAdd("beief", "belief");
-            correctionAdd("beleif", "belief");
 
             correctionAdd("best-practice", "best practice");
             correctionAdd("Best Practice", "best practice");
@@ -52529,6 +52545,7 @@ namespace OverflowHelper.core
             correctionAdd("burn down the forest", "see the forest for the trees");
 
             correctionAdd("show stopper", "showstopper");
+            correctionAdd("show-stopper", "showstopper");
 
             correctionAdd("tip of a tree", "tip of the iceberg");
             correctionAdd("Tip of the Iceberg", "tip of the iceberg");
@@ -53813,10 +53830,6 @@ namespace OverflowHelper.core
 
             correctionAdd("beknown", "known");
 
-            correctionAdd("world-known", "world-famous");
-            correctionAdd("qorld-beknown", "world-famous");
-            correctionAdd("world-beknown", "world-famous");
-
             correctionAdd("ovh", "OVH");
 
             correctionAdd("OvhCloud", "OVHcloud");
@@ -54259,9 +54272,6 @@ namespace OverflowHelper.core
 
             correctionAdd("koa", "Koa");
 
-            correctionAdd("famiously", "famously");
-            correctionAdd("Famiously", "famously");
-
             correctionAdd("Scikit-image", "scikit-image");
 
             correctionAdd("Toffler", "Alvin Toffler");
@@ -54347,9 +54357,6 @@ namespace OverflowHelper.core
             correctionAdd("Bat", "bat");
 
             correctionAdd("bufferise", "buffer");
-
-            correctionAdd("mouses", "mice");
-            correctionAdd("Mouses", "mice");
 
             correctionAdd("Capitalism", "capitalism");
 
@@ -56543,12 +56550,6 @@ namespace OverflowHelper.core
 
             correctionAdd("User Story", "user story");
 
-            // A computer mouse
-            correctionAdd("G900", "Logitech G900");
-
-            // A computer mouse
-            correctionAdd("MX518", "Logitech MX518");
-
             correctionAdd("aquiring", "acquiring");
 
             correctionAdd("chat bot", "chatbot");
@@ -57007,9 +57008,6 @@ namespace OverflowHelper.core
             correctionAdd("air-conditioner", "air conditioner");
 
             correctionAdd("late-comer", "latecomer");
-
-            correctionAdd("mis-clicked", "misclicked");
-            correctionAdd("miss-clicked", "misclicked");
 
             correctionAdd("netetiquette", "netiquette");
 
@@ -58230,6 +58228,8 @@ namespace OverflowHelper.core
 
             correctionAdd("demo", "demonstration");
             correctionAdd("demonstratopn", "demonstration");
+            correctionAdd("Demostration", "demonstration");
+            correctionAdd("demostration", "demonstration");
 
             correctionAdd("multi tasking", "multitasking");
             correctionAdd("multi taskng", "multitasking");
@@ -58702,6 +58702,33 @@ namespace OverflowHelper.core
             correctionAdd("More's law", "Moore’s law");
 
             correctionAdd("misscommunication", "miscommunication");
+
+            correctionAdd("derefrenced", "dereferenced");
+
+            correctionAdd("espeak", "ESpeak");
+
+            correctionAdd("pining", "pinging");
+
+            correctionAdd("playinf", "playing");
+
+            correctionAdd("vermont", "Vermont");
+
+            correctionAdd("Least significant bit", "LSb");
+            correctionAdd("right-most bit", "LSb");
+            correctionAdd("right most bit", "LSb");
+            correctionAdd("least significant bit", "LSb");
+            correctionAdd("lsb", "LSb");
+            correctionAdd("rmb", "LSb");
+            correctionAdd("LSB", "LSb");
+
+            correctionAdd("left-most bit", "MSb");
+            correctionAdd("left most bit", "MSb");
+            correctionAdd("most significant bit", "MSb");
+            correctionAdd("msb", "MSb");
+            correctionAdd("lmb", "MSb");
+            correctionAdd("MSB", "MSb");
+
+            correctionAdd("progmem", "PROGMEM");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -74630,8 +74657,6 @@ namespace OverflowHelper.core
 
             URL_Add("Virgin Galactic", "https://en.wikipedia.org/wiki/Virgin_Galactic");
 
-            URL_Add("left mouse button", "https://en.wiktionary.org/wiki/LMB#Noun");
-
             URL_Add("vomit comet", "https://en.wikipedia.org/wiki/Reduced-gravity_aircraft");
 
             URL_Add("*ngIf", "https://angular.io/api/common/NgIf");
@@ -76863,8 +76888,6 @@ namespace OverflowHelper.core
             URL_Add("NX Open", "https://docs.plm.automation.siemens.com/tdoc/nx/10/nx_api/#uid:index");
 
             URL_Add("Windows&nbsp;11", "https://en.wikipedia.org/wiki/Windows_11");
-
-            URL_Add("belief", "https://en.wiktionary.org/wiki/belief#Noun");
 
             URL_Add("best practice", "https://en.wiktionary.org/wiki/best_practice#Noun");
 
@@ -80779,8 +80802,6 @@ namespace OverflowHelper.core
             URL_Add("Unreal Engine", "https://en.wikipedia.org/wiki/Unreal_Engine#Unreal_Engine_3");
 
             URL_Add("lsblk", "https://linux.die.net/man/8/lsblk");
-
-            URL_Add("LSB",  "https://en.wikipedia.org/wiki/Bit_numbering#Bit_significance_and_indexing");
 
             URL_Add("Nashorn", "https://en.wikipedia.org/wiki/Nashorn_(JavaScript_engine)");
 
@@ -90076,6 +90097,24 @@ namespace OverflowHelper.core
 
             URL_Add("miscommunication", "https://en.wiktionary.org/wiki/miscommunication#Noun");
 
+            URL_Add("dereferenced", "https://en.wiktionary.org/wiki/dereference#Verb");
+
+            URL_Add("ESpeak", "https://en.wikipedia.org/wiki/ESpeak");
+
+            URL_Add("pinging", "https://en.wiktionary.org/wiki/ping#Verb");
+
+            URL_Add("playing", "https://en.wiktionary.org/wiki/play#Verb");
+
+            URL_Add("Vermont", "https://en.wikipedia.org/wiki/Vermont");
+
+            URL_Add("MSb", "https://en.wikipedia.org/wiki/Bit_numbering#Bit_significance_and_indexing");
+
+            URL_Add("LSb",  "https://en.wikipedia.org/wiki/Bit_numbering#Bit_significance_and_indexing");
+
+            URL_Add("rebranded", "https://en.wiktionary.org/wiki/rebrand#Verb");
+
+            URL_Add("PROGMEM", "https://www.arduino.cc/reference/en/language/variables/utilities/progmem/");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -90987,10 +91026,6 @@ namespace OverflowHelper.core
             correctionAdd("ULTRAEDIT_", "UltraEdit_");
 
             correctionAdd("english_", "English_");
-
-            correctionAdd("Right Mouse Button_", "right mouse button_");
-            correctionAdd("RMB_", "right mouse button_");
-            correctionAdd("rmb_", "right mouse button_");
 
             correctionAdd("andd_", "and_");
             correctionAdd("abd_", "and_");
@@ -92485,8 +92520,6 @@ namespace OverflowHelper.core
 
             correctionAdd("fallback_", "fall back_");
 
-            correctionAdd("LSB_", "Linux Standard Base_");
-
             // TCP/IP
             correctionAdd("TTL_", "time to live_");
             correctionAdd("Time To Live_", "time to live_");
@@ -93238,6 +93271,7 @@ namespace OverflowHelper.core
             correctionAdd("advertisment_", "advertisement_");
             correctionAdd("advertsment_", "advertisement_");
             correctionAdd("ad_", "advertisement_");
+            correctionAdd("adds_", "advertisement_");
 
             correctionAdd("wsl_", "WSL_"); // For an alternative to the full name
             correctionAdd("Windows Subsystem for Linux_", "WSL_");
@@ -93384,19 +93418,6 @@ namespace OverflowHelper.core
 
             correctionAdd("DR_", "disaster recovery_");
 
-            // The operator (in programming languages)
-            correctionAdd("not_", "NOT_");
-
-            correctionAdd("lest_", "least_");
-            correctionAdd("leas_", "least_");
-            correctionAdd("leadt_", "least_");
-
-            correctionAdd("msb_", "MSB_");
-            correctionAdd("left-most bit_", "MSB_");
-            correctionAdd("left most bit_", "MSB_");
-            correctionAdd("lmb_", "MSB_");
-            correctionAdd("most significant bit_", "MSB_");
-
             // A key on a keyboard
             correctionAdd("Caps lock_", "Caps Lock_");
             correctionAdd("caps-lock_", "Caps Lock_");
@@ -93413,6 +93434,29 @@ namespace OverflowHelper.core
             correctionAdd("We_", "we_");
             correctionAdd("Whe_", "we_");
             correctionAdd("whe_", "we_");
+
+            correctionAdd("beief_", "belief_");
+            correctionAdd("beleif_", "belief_");
+            correctionAdd("believe_", "belief_");
+
+            correctionAdd("believes_", "beliefs_");
+
+            // The operator (in programming languages)
+            correctionAdd("not_", "NOT_");
+
+            correctionAdd("lest_", "least_");
+            correctionAdd("leas_", "least_");
+            correctionAdd("leadt_", "least_");
+
+            correctionAdd("LSB_", "Linux Standard Base_");
+
+            correctionAdd("Left Mouse Button_", "left mouse button_");
+            correctionAdd("LMB_", "left mouse button_");
+            correctionAdd("lmb_", "left mouse button_");
+
+            correctionAdd("Right Mouse Button_", "right mouse button_");
+            correctionAdd("RMB_", "right mouse button_");
+            correctionAdd("rmb_", "right mouse button_");
 
             // URL mappings
             //
@@ -93512,8 +93556,6 @@ namespace OverflowHelper.core
             URL_Add("PS_", "https://en.wiktionary.org/wiki/PS#Noun");
 
             URL_Add("Epic_", "https://en.wikipedia.org/wiki/Epic_(web_browser)");
-
-            URL_Add("MSB_", "https://en.wikipedia.org/wiki/Bit_numbering#Bit_significance_and_indexing");
 
             URL_Add("755_", "https://chmodcommand.com/chmod-755/");
 
@@ -94559,8 +94601,6 @@ namespace OverflowHelper.core
 
             URL_Add("fall back_", "https://en.wiktionary.org/wiki/fall_back#Verb");
 
-            URL_Add("Linux Standard Base_", "https://en.wikipedia.org/wiki/Linux_Standard_Base");
-
             URL_Add("time to live_", "https://en.wikipedia.org/wiki/Time_to_live");
 
             URL_Add("air defence_", "https://en.wikipedia.org/wiki/Anti-aircraft_warfare");
@@ -95131,6 +95171,14 @@ namespace OverflowHelper.core
             URL_Add("Tab keycode (KC_TAB. QMK. 43 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
 
             URL_Add("F4 keycode (KC_F4. QMK. 61 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("belief_", "https://en.wiktionary.org/wiki/belief#Noun");
+
+            URL_Add("beliefs_", "https://en.wiktionary.org/wiki/belief#Noun");
+
+            URL_Add("left mouse button_", "https://en.wiktionary.org/wiki/LMB#Noun");
+
+            URL_Add("Linux Standard Base_", "https://en.wikipedia.org/wiki/Linux_Standard_Base");
 
         } //addLookupData_alternativeWordSet()
 
