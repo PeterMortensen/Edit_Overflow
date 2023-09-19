@@ -972,6 +972,25 @@ namespace OverflowHelper.core
             correctionAdd("qorld-beknown", "world-famous");
             correctionAdd("world-beknown", "world-famous");
 
+            correctionAdd("blu", "blue");
+            correctionAdd("Blue", "blue");
+
+            correctionAdd("CYAN", "cyan");
+            correctionAdd("Cyan", "cyan");
+
+            correctionAdd("grn", "green");
+
+            correctionAdd("prp", "purple");
+
+            correctionAdd("Yellow", "yellow");
+            correctionAdd("Yelllow", "yellow");
+
+            correctionAdd("oragne", "orange");
+
+            correctionAdd("Red", "red");
+
+            correctionAdd("gray", "grey");
+
             correctionAdd("cat and mouse", "cat-and-mouse");
 
             correctionAdd("Mouse", "mouse");
@@ -1733,6 +1752,19 @@ namespace OverflowHelper.core
             //
             correctionAdd("CK 350", "CK350");
 
+            // A full-size mechanical keyboard from Cooler Master
+            //
+            // Allegedly, with hot hot-swappable optical switches.
+            //
+            // Quote...: "No soldering, no accidental burns, no messing
+            //            with molten wire on your precious baby."
+            //
+            // Configuration software: MasterPlus+
+            //
+            correctionAdd("ck351", "CK351");
+
+            correctionAdd("ck352", "CK352");
+
             // A crippled (tenkeyless (80%)) mechanical
             // keyboard from Cooler Master
             //
@@ -1743,15 +1775,6 @@ namespace OverflowHelper.core
             // Standalone firmware: <https://www.dropbox.com/s/7j9n81cyx1da2ln/CK530V2_FW_0437_0491_4.00_202110061642.exe%284%29.zip?dl=0>
             //
             correctionAdd("CK530v2", "CK530 V2");
-
-            // A full-size mechanical keyboard from Cooler Master
-            //
-            // Allegedly, with hot hot-swappable optical switches.
-            //
-            // Quote...: "No soldering, no accidental burns, no messing
-            //            with molten wire on your precious baby."
-            //
-            correctionAdd("ck351", "CK351");
 
             // A full-size mechanical keyboard from Cooler Master
             // "TTC Mechanical Switch". RGB (per-key) lighting.
@@ -6770,7 +6793,172 @@ namespace OverflowHelper.core
             correctionAdd("human-like", "humanlike");
             correctionAdd("human like", "humanlike");
 
+            correctionAdd("Eartth", "Earth");
+
             correctionAdd("earth-like", "earthlike");
+
+            correctionAdd("Telluric", "telluric");
+
+            correctionAdd("Earthquake", "earthquake");
+            correctionAdd("earth quake", "earthquake");
+
+            correctionAdd("from the face of earth", "from the face of the earth");
+
+            correctionAdd("Low Earth orbit", "low Earth orbit");
+            correctionAdd("Low Earth Orbit", "low Earth orbit");
+            correctionAdd("low earth orbit", "low Earth orbit");
+            correctionAdd("LEO", "low Earth orbit");
+
+            correctionAdd("earth rays", "earth radiation");
+            correctionAdd("Earth ray", "earth radiation");
+            correctionAdd("Earth rays", "earth radiation");
+
+            correctionAdd("hearth", "heart");
+            correctionAdd("hart", "heart");
+
+            correctionAdd("by hearth", "by heart");
+
+            correctionAdd("lite", "light");
+            correctionAdd("ligth", "light");
+            correctionAdd("ligt", "light");
+            correctionAdd("lignt", "light");
+            correctionAdd("ligh", "light");
+            correctionAdd("LIGTH", "light");
+
+            correctionAdd("light speed", "lightspeed");
+
+            correctionAdd("Speed of light", "speed of light");
+
+            // Alternative URL: <https://en.wikipedia.org/wiki/Faster-than-light>
+            correctionAdd("FTL", "faster-than-light");
+            correctionAdd("Faster Than Light", "faster-than-light");
+            correctionAdd("Faster-Than-Light", "faster-than-light");
+
+            correctionAdd("lightyear", "light year");
+            correctionAdd("light-year", "light year");
+            correctionAdd("ly", "light year");
+            correctionAdd("Light-year", "light year");
+            correctionAdd("LY", "light year");
+
+            correctionAdd("G ly", "gigalightyear");
+            correctionAdd("Gly", "gigalightyear");
+            correctionAdd("gly", "gigalightyear");
+
+            correctionAdd("kilolight-year", "kilolightyear");
+            correctionAdd("K ly", "kilolightyear");
+            correctionAdd("Kly", "kilolightyear");
+            correctionAdd("kly", "kilolightyear");
+
+            correctionAdd("megalight-year", "megalightyear");
+            correctionAdd("M ly", "megalightyear");
+            correctionAdd("Mly", "megalightyear");
+
+            correctionAdd("lightsail", "light sail");
+
+            correctionAdd("star light", "starlight");
+
+            correctionAdd("daylite", "daylight");
+
+            correctionAdd("flash light", "flashlight");
+
+            correctionAdd("LED-lightstrip", "LED strip light");
+            correctionAdd("LED lightstrip", "LED strip light");
+
+            correctionAdd("lightbulb", "light bulb");
+
+            correctionAdd("incandescent lightbulb", "incandescent light bulb");
+
+            correctionAdd("backligt", "backlight");
+            correctionAdd("BACKLIGTH", "backlight");
+            correctionAdd("backligth", "backlight");
+
+            correctionAdd("gas light", "gaslight");
+
+            correctionAdd("Lightning bolt", "lightning bolt");
+            correctionAdd("Lightning Bolt", "lightning bolt");
+
+            correctionAdd("light-hearted", "lighthearted");
+
+            correctionAdd("heart-ache", "heartache");
+            correctionAdd("heart act", "heartache");
+
+            correctionAdd("dishearteneing", "disheartening");
+
+            correctionAdd("heart broken", "heartbroken");
+
+            correctionAdd("heart strings", "heartstrings");
+
+            correctionAdd("heart-breaking", "heartbreaking");
+            correctionAdd("heart breaking", "heartbreaking");
+
+            correctionAdd("half-hearted", "halfhearted");
+            correctionAdd("half hearted", "halfhearted");
+
+            correctionAdd("faint-of-heart", "faint of heart");
+
+            correctionAdd("to (one's) heart's content", "to (one's) heart’s content");
+            correctionAdd("heart's content", "to (one's) heart’s content");
+
+            correctionAdd("heartbleed", "Heartbleed");
+            correctionAdd("HeartBleed", "Heartbleed");
+            correctionAdd("heart bleed", "Heartbleed");
+            correctionAdd("Heart bleed", "Heartbleed");
+
+            correctionAdd("lightning", "lighting");
+
+            correctionAdd("hightlight", "highlight");
+            correctionAdd("highligh", "highlight");
+            correctionAdd("higlight", "highlight");
+
+            correctionAdd("highlited", "highlighted");
+            correctionAdd("hightlighted", "highlighted");
+
+            correctionAdd("enlightn", "enlighten");
+
+            correctionAdd("enlightment", "enlightenment");
+
+            correctionAdd("enlightning", "enlightening");
+
+            correctionAdd("highligting", "highlighting");
+            correctionAdd("highligthting", "highlighting");
+            correctionAdd("highlighitng", "highlighting");
+            correctionAdd("high-lighting", "highlighting");
+            correctionAdd("highlihting", "highlighting");
+            correctionAdd("highlighing", "highlighting");
+
+            correctionAdd("syntax highlighitng", "syntax highlighting");
+            correctionAdd("syntax-highlighting", "syntax highlighting");
+            correctionAdd("Syntax highlighting", "syntax highlighting");
+            correctionAdd("Syntax Highlighting", "syntax highlighting");
+
+            correctionAdd("gasligthing", "gaslighting");
+            correctionAdd("gas lighting", "gaslighting");
+
+            correctionAdd("light-weight", "lightweight");
+            correctionAdd("light waight", "lightweight");
+            correctionAdd("light weight", "lightweight");
+            correctionAdd("ligthweight", "lightweight");
+            correctionAdd("Lightweigth", "lightweight");
+            correctionAdd("lightweigth", "lightweight");
+
+            // Stack Overflow. Syntax highlighting.
+            correctionAdd("highlightjs", "Highlight.js");
+            correctionAdd("HighlightJS", "Highlight.js");
+            correctionAdd("highlight.js", "Highlight.js");
+            correctionAdd("hIghlightjs", "Highlight.js");
+            correctionAdd("Highlight.JS", "Highlight.js");
+            correctionAdd("Highlight JS", "Highlight.js");
+            correctionAdd("Highlight", "Highlight.js");
+            correctionAdd("weird syntax highlight", "Highlight.js");
+            correctionAdd("weird syntax highlighter", "Highlight.js");
+            correctionAdd("weird syntax highlighting", "Highlight.js");
+            correctionAdd("the syntax highlighter", "Highlight.js");
+            correctionAdd("the weird syntax highlighter", "Highlight.js");
+            correctionAdd("syntax highlighter", "Highlight.js");
+            correctionAdd("new syntax highlighter", "Highlight.js");
+            correctionAdd("weird syntax", "Highlight.js");
+            correctionAdd("weird formatting", "Highlight.js");
+            correctionAdd("weird highlighter", "Highlight.js");
 
             correctionAdd("sun-like", "sunlike");
             correctionAdd("sun like", "sunlike");
@@ -8437,6 +8625,39 @@ namespace OverflowHelper.core
 
             correctionAdd("wordperfect", "WordPerfect");
             correctionAdd("word perfect", "WordPerfect");
+
+            correctionAdd("communcation", "communication");
+            correctionAdd("comms", "communication");
+            correctionAdd("comm", "communication");
+            correctionAdd("communucation", "communication");
+            correctionAdd("commnication", "communication");
+            correctionAdd("communications", "communication");
+            correctionAdd("comunications", "communication");
+
+            correctionAdd("misscommunication", "miscommunication");
+
+            correctionAdd("Telecommunication", "telecommunication");
+            correctionAdd("Telecommunications", "telecommunication");
+
+            correctionAdd("Wireless Communication", "wireless communication");
+
+            correctionAdd("nfc", "NFC");
+            correctionAdd("Near-field communication", "NFC");
+            correctionAdd("near-field communication", "NFC");
+            correctionAdd("near field communication", "NFC");
+
+            correctionAdd("IPC", "inter-process communication");
+            correctionAdd("Inter Process Communication", "inter-process communication");
+            correctionAdd("Interprocess communication", "inter-process communication");
+            correctionAdd("inter process communication", "inter-process communication");
+            correctionAdd("interprocess communication", "inter-process communication");
+
+            correctionAdd("async serial communication", "asynchronous serial communication");
+            correctionAdd("async serial comms", "asynchronous serial communication");
+            correctionAdd("async serial", "asynchronous serial communication");
+
+            // Protocol / communications
+            correctionAdd("at command", "AT command");
 
             correctionAdd("286", "Intel 80286");
 
@@ -10365,6 +10586,7 @@ namespace OverflowHelper.core
             // A computer game. For Windows.
             correctionAdd("MS fly simulator", "Microsoft Flight Simulator");
             correctionAdd("Microsoft flight simulator", "Microsoft Flight Simulator");
+            correctionAdd("MSFS", "Microsoft Flight Simulator");
 
             correctionAdd("aviaion", "aviation");
 
@@ -10420,6 +10642,9 @@ namespace OverflowHelper.core
             // Aviation
             correctionAdd("ILS", "instrument landing system");
 
+            // Aviation
+            correctionAdd("IRS", "Inertial Reference System");
+
             // An airliner.
             //
             //A duplicate of "airliner"
@@ -10465,6 +10690,9 @@ namespace OverflowHelper.core
             correctionAdd("A220", "Airbus A220");
 
             // An aircraft
+            correctionAdd("a310-300", "A310-300");
+
+            // An aircraft
             correctionAdd("Airbus 319", "Airbus A319");
             correctionAdd("A319", "Airbus A319");
 
@@ -10473,6 +10701,9 @@ namespace OverflowHelper.core
             correctionAdd("Airbus 320", "Airbus A320");
             correctionAdd("Airbus a320", "Airbus A320");
             correctionAdd("a320", "Airbus A320");
+
+            // A series of aircraft
+            correctionAdd("A320 neo", "A320neo");
 
             // An aircraft
             correctionAdd("A330", "Airbus A330");
@@ -10501,6 +10732,9 @@ namespace OverflowHelper.core
             // An aircraft
             correctionAdd("747", "Boeing 747");
             correctionAdd("B747", "Boeing 747");
+
+            correctionAdd("747-8I", "Boeing 747-8I");
+            correctionAdd("747-8i", "Boeing 747-8I");
 
             // An aircraft
             correctionAdd("777", "Boeing 777");
@@ -10579,6 +10813,12 @@ namespace OverflowHelper.core
             // Aviation
             correctionAdd("air space", "airspace");
 
+            // Aviation / space
+            correctionAdd("Virgin galactic", "Virgin Galactic");
+
+            // Aviation / astro
+            correctionAdd("Vomit Comet", "vomit comet");
+
             correctionAdd("goddard space flight center", "Goddard Space Flight Center");
 
             correctionAdd("ISS", "International Space Station");
@@ -10587,153 +10827,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Deep Space Network", "NASA Deep Space Network");
             correctionAdd("DSN", "NASA Deep Space Network");
-
-            correctionAdd("lite", "light");
-            correctionAdd("ligth", "light");
-            correctionAdd("ligt", "light");
-            correctionAdd("lignt", "light");
-            correctionAdd("ligh", "light");
-            correctionAdd("LIGTH", "light");
-
-            correctionAdd("light speed", "lightspeed");
-
-            correctionAdd("Speed of light", "speed of light");
-
-            // Alternative URL: <https://en.wikipedia.org/wiki/Faster-than-light>
-            correctionAdd("FTL", "faster-than-light");
-            correctionAdd("Faster Than Light", "faster-than-light");
-            correctionAdd("Faster-Than-Light", "faster-than-light");
-
-            correctionAdd("lightyear", "light year");
-            correctionAdd("light-year", "light year");
-            correctionAdd("ly", "light year");
-            correctionAdd("Light-year", "light year");
-            correctionAdd("LY", "light year");
-
-            correctionAdd("G ly", "gigalightyear");
-            correctionAdd("Gly", "gigalightyear");
-            correctionAdd("gly", "gigalightyear");
-
-            correctionAdd("kilolight-year", "kilolightyear");
-            correctionAdd("K ly", "kilolightyear");
-            correctionAdd("Kly", "kilolightyear");
-            correctionAdd("kly", "kilolightyear");
-
-            correctionAdd("megalight-year", "megalightyear");
-            correctionAdd("M ly", "megalightyear");
-            correctionAdd("Mly", "megalightyear");
-
-            correctionAdd("lightsail", "light sail");
-
-            correctionAdd("star light", "starlight");
-
-            correctionAdd("daylite", "daylight");
-
-            correctionAdd("flash light", "flashlight");
-
-            correctionAdd("LED-lightstrip", "LED strip light");
-            correctionAdd("LED lightstrip", "LED strip light");
-
-            correctionAdd("lightbulb", "light bulb");
-
-            correctionAdd("incandescent lightbulb", "incandescent light bulb");
-
-            correctionAdd("backligt", "backlight");
-            correctionAdd("BACKLIGTH", "backlight");
-            correctionAdd("backligth", "backlight");
-
-            correctionAdd("gas light", "gaslight");
-
-            correctionAdd("Lightning bolt", "lightning bolt");
-            correctionAdd("Lightning Bolt", "lightning bolt");
-
-            correctionAdd("hearth", "heart");
-            correctionAdd("hart", "heart");
-
-            correctionAdd("light-hearted", "lighthearted");
-
-            correctionAdd("by hearth", "by heart");
-
-            correctionAdd("heart-ache", "heartache");
-            correctionAdd("heart act", "heartache");
-
-            correctionAdd("dishearteneing", "disheartening");
-
-            correctionAdd("heart broken", "heartbroken");
-
-            correctionAdd("heart strings", "heartstrings");
-
-            correctionAdd("heart-breaking", "heartbreaking");
-            correctionAdd("heart breaking", "heartbreaking");
-
-            correctionAdd("half-hearted", "halfhearted");
-            correctionAdd("half hearted", "halfhearted");
-
-            correctionAdd("faint-of-heart", "faint of heart");
-
-            correctionAdd("to (one's) heart's content", "to (one's) heart’s content");
-            correctionAdd("heart's content", "to (one's) heart’s content");
-
-            correctionAdd("heartbleed", "Heartbleed");
-            correctionAdd("HeartBleed", "Heartbleed");
-            correctionAdd("heart bleed", "Heartbleed");
-            correctionAdd("Heart bleed", "Heartbleed");
-
-            correctionAdd("lightning", "lighting");
-
-            correctionAdd("hightlight", "highlight");
-            correctionAdd("highligh", "highlight");
-            correctionAdd("higlight", "highlight");
-
-            correctionAdd("highlited", "highlighted");
-            correctionAdd("hightlighted", "highlighted");
-
-            correctionAdd("enlightn", "enlighten");
-
-            correctionAdd("enlightment", "enlightenment");
-
-            correctionAdd("enlightning", "enlightening");
-
-            correctionAdd("highligting", "highlighting");
-            correctionAdd("highligthting", "highlighting");
-            correctionAdd("highlighitng", "highlighting");
-            correctionAdd("high-lighting", "highlighting");
-            correctionAdd("highlihting", "highlighting");
-            correctionAdd("highlighing", "highlighting");
-
-            correctionAdd("syntax highlighitng", "syntax highlighting");
-            correctionAdd("syntax-highlighting", "syntax highlighting");
-            correctionAdd("Syntax highlighting", "syntax highlighting");
-            correctionAdd("Syntax Highlighting", "syntax highlighting");
-
-            correctionAdd("gasligthing", "gaslighting");
-            correctionAdd("gas lighting", "gaslighting");
-
-            correctionAdd("light-weight", "lightweight");
-            correctionAdd("light waight", "lightweight");
-            correctionAdd("light weight", "lightweight");
-            correctionAdd("ligthweight", "lightweight");
-            correctionAdd("Lightweigth", "lightweight");
-            correctionAdd("lightweigth", "lightweight");
-
-            // Stack Overflow. Syntax highlighting.
-            correctionAdd("highlightjs", "Highlight.js");
-            correctionAdd("HighlightJS", "Highlight.js");
-            correctionAdd("highlight.js", "Highlight.js");
-            correctionAdd("hIghlightjs", "Highlight.js");
-            correctionAdd("Highlight.JS", "Highlight.js");
-            correctionAdd("Highlight JS", "Highlight.js");
-            correctionAdd("Highlight", "Highlight.js");
-            correctionAdd("weird syntax highlight", "Highlight.js");
-            correctionAdd("weird syntax highlighter", "Highlight.js");
-            correctionAdd("weird syntax highlighting", "Highlight.js");
-            correctionAdd("the syntax highlighter", "Highlight.js");
-            correctionAdd("the weird syntax highlighter", "Highlight.js");
-            correctionAdd("syntax highlighter", "Highlight.js");
-            correctionAdd("new syntax highlighter", "Highlight.js");
-            correctionAdd("weird syntax", "Highlight.js");
-            correctionAdd("weird formatting", "Highlight.js");
-            correctionAdd("weird highlighter", "Highlight.js");
 
             correctionAdd("prtime", "PRTime");
 
@@ -10885,8 +10978,6 @@ namespace OverflowHelper.core
             correctionAdd("kompany", "company");
 
             correctionAdd("The Walt Disney Company", "Disney");
-
-            correctionAdd("telco", "telecommunications company");
 
             // .NET
             correctionAdd("AnyCPU", "Any CPU");
@@ -15339,6 +15430,8 @@ namespace OverflowHelper.core
             correctionAdd("derefenece", "dereference");
             correctionAdd("derefrence", "dereference");
 
+            correctionAdd("derefrenced", "dereferenced");
+
             correctionAdd("cross reference", "cross-reference");
             correctionAdd("cross-reef", "cross-reference");
             correctionAdd("cross-ref", "cross-reference");
@@ -15923,6 +16016,12 @@ namespace OverflowHelper.core
             correctionAdd("airmolecule", "air molecule");
 
             correctionAdd("NYSE", "New York Stock Exchange");
+
+            correctionAdd("entousiast", "enthusiast");
+
+            correctionAdd("enthousiastic", "enthusiastic");
+            correctionAdd("enthousiast", "enthusiastic");
+            correctionAdd("entousiatic", "enthusiastic");
 
             correctionAdd("bagde", "badge");
             correctionAdd("bade", "badge");
@@ -20730,6 +20829,7 @@ namespace OverflowHelper.core
             correctionAdd("C string", "C&nbsp;string");
             correctionAdd("null-terminated string", "C&nbsp;string");
             correctionAdd("null-terminated", "C&nbsp;string");
+            correctionAdd("c string", "C&nbsp;string");
 
             // A programming language
             //
@@ -24409,6 +24509,7 @@ namespace OverflowHelper.core
             correctionAdd("outpur", "output");
             correctionAdd("outupt", "output");
             correctionAdd("0utput", "output");
+            correctionAdd("ouaput", "output");
 
             correctionAdd("re-input", "reinput");
 
@@ -25049,6 +25150,8 @@ namespace OverflowHelper.core
 
             correctionAdd("TN", "Tennessee"); // A United States state
 
+            correctionAdd("vermont", "Vermont"); // A United States state
+
             // A United States city
             correctionAdd("new york", "New York");
             correctionAdd("NewYork", "New York");
@@ -25254,24 +25357,6 @@ namespace OverflowHelper.core
 
             correctionAdd("mods", "moderators");
             correctionAdd("moderatos", "moderators");
-
-            correctionAdd("blu", "blue");
-
-            correctionAdd("CYAN", "cyan");
-            correctionAdd("Cyan", "cyan");
-
-            correctionAdd("grn", "green");
-
-            correctionAdd("prp", "purple");
-
-            correctionAdd("Yellow", "yellow");
-            correctionAdd("Yelllow", "yellow");
-
-            correctionAdd("oragne", "orange");
-
-            correctionAdd("Red", "red");
-
-            correctionAdd("gray", "grey");
 
             correctionAdd("adblock", "Adblock");
             correctionAdd("AdBlock", "Adblock");
@@ -26370,6 +26455,7 @@ namespace OverflowHelper.core
             correctionAdd("eplicitly", "explicitly");
             correctionAdd("explicitelly", "explicitly");
             correctionAdd("explicitlly", "explicitly");
+            correctionAdd("explicitily", "explicitly");
 
             correctionAdd("exponental", "exponential");
             correctionAdd("expnonential", "exponential");
@@ -27911,11 +27997,6 @@ namespace OverflowHelper.core
 
             correctionAdd("habbit", "habit");
 
-            correctionAdd("Low Earth orbit", "low Earth orbit");
-            correctionAdd("Low Earth Orbit", "low Earth orbit");
-            correctionAdd("low earth orbit", "low Earth orbit");
-            correctionAdd("LEO", "low Earth orbit");
-
             correctionAdd("tid bit", "tidbit");
             correctionAdd("tit bit", "tidbit");
             correctionAdd("titbit", "tidbit");
@@ -28234,6 +28315,9 @@ namespace OverflowHelper.core
             correctionAdd("skecht", "sketch");
             correctionAdd("scetch", "sketch");
             correctionAdd("schetch", "sketch");
+
+            // Arduino
+            correctionAdd("progmem", "PROGMEM");
 
             correctionAdd("atmel", "Atmel");
             correctionAdd("ATMEL", "Atmel");
@@ -32176,11 +32260,6 @@ namespace OverflowHelper.core
             correctionAdd("labview", "LabVIEW");
             correctionAdd("labVIEW", "LabVIEW");
 
-            correctionAdd("nfc", "NFC");
-            correctionAdd("Near-field communication", "NFC");
-            correctionAdd("near-field communication", "NFC");
-            correctionAdd("near field communication", "NFC");
-
             correctionAdd("Lilo", "LILO");
             correctionAdd("lilo", "LILO");
 
@@ -33149,6 +33228,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Ping", "ping");
 
+            correctionAdd("pining", "pinging");
+
             correctionAdd("dslr", "DSLR");
 
             correctionAdd("RavenDb", "RavenDB");
@@ -33882,6 +33963,7 @@ namespace OverflowHelper.core
             correctionAdd("newbe", "newbie");
             correctionAdd("new for", "newbie");
             correctionAdd("new to", "newbie"); // Actualy the more correct form
+            correctionAdd("new in", "newbie");
 
             correctionAdd("Foxpro", "FoxPro");
             correctionAdd("foxpro", "FoxPro");
@@ -34574,14 +34656,6 @@ namespace OverflowHelper.core
             correctionAdd("umbraco", "Umbraco");
 
             correctionAdd("fritzing", "Fritzing");
-
-            correctionAdd("communcation", "communication");
-            correctionAdd("comms", "communication");
-            correctionAdd("comm", "communication");
-            correctionAdd("communucation", "communication");
-            correctionAdd("commnication", "communication");
-            correctionAdd("communications", "communication");
-            correctionAdd("comunications", "communication");
 
             correctionAdd("altera", "Altera");
 
@@ -39893,10 +39967,6 @@ namespace OverflowHelper.core
 
             correctionAdd("acceleromator", "accelerometer");
 
-            correctionAdd("enthousiastic", "enthusiastic");
-            correctionAdd("enthousiast", "enthusiastic");
-            correctionAdd("entousiatic", "enthusiastic");
-
             correctionAdd("Power for the course", "par for the course");
             correctionAdd("power for the course", "par for the course");
 
@@ -41279,6 +41349,7 @@ namespace OverflowHelper.core
             correctionAdd("master's", "master's degree");
             correctionAdd("Master's degree", "master's degree");
             correctionAdd("master degree", "master's degree");
+            correctionAdd("Master’s", "master's degree");
 
             correctionAdd("Lilypad", "LilyPad");
 
@@ -42498,6 +42569,7 @@ namespace OverflowHelper.core
             correctionAdd("apostrophy", "apostrophe");
 
             correctionAdd("costed", "cost");
+            correctionAdd("coat", "cost");
 
             correctionAdd("Encyclopedia", "encyclopedia");
             correctionAdd("enclopeia", "encyclopedia");
@@ -45991,12 +46063,6 @@ namespace OverflowHelper.core
             correctionAdd("exlude", "exclude");
             correctionAdd("exlcude", "exclude");
 
-            correctionAdd("IPC", "inter-process communication");
-            correctionAdd("Inter Process Communication", "inter-process communication");
-            correctionAdd("Interprocess communication", "inter-process communication");
-            correctionAdd("inter process communication", "inter-process communication");
-            correctionAdd("interprocess communication", "inter-process communication");
-
             correctionAdd("prod", "production");
             correctionAdd("producion", "production");
             correctionAdd("prodyction", "production");
@@ -46606,8 +46672,6 @@ namespace OverflowHelper.core
 
             correctionAdd("death valley", "Death Valley");
 
-            correctionAdd("Eartth", "Earth");
-
             correctionAdd("bend", "bent");
 
             correctionAdd("IMRECT", "imrect");
@@ -47171,9 +47235,6 @@ namespace OverflowHelper.core
 
             correctionAdd("life span", "lifespan");
 
-            correctionAdd("Telecommunication", "telecommunication");
-            correctionAdd("Telecommunications", "telecommunication");
-
             correctionAdd("utterley", "utterly");
 
             correctionAdd("wear out", "wearout");
@@ -47458,10 +47519,6 @@ namespace OverflowHelper.core
 
             correctionAdd("racecondition", "race condition");
             correctionAdd("racing condition", "race condition");
-
-            correctionAdd("earth rays", "earth radiation");
-            correctionAdd("Earth ray", "earth radiation");
-            correctionAdd("Earth rays", "earth radiation");
 
             correctionAdd("new", "knew");
 
@@ -47885,8 +47942,6 @@ namespace OverflowHelper.core
             correctionAdd("Serial", "serial");
 
             correctionAdd("Shog", "Shog9");
-
-            correctionAdd("entousiast", "enthusiast");
 
             correctionAdd("in depth", "in-depth");
 
@@ -48638,10 +48693,6 @@ namespace OverflowHelper.core
 
             correctionAdd("simjacking", "SIM swap scam");
             correctionAdd("SIM swapping", "SIM swap scam");
-
-            correctionAdd("Virgin galactic", "Virgin Galactic");
-
-            correctionAdd("Vomit Comet", "vomit comet");
 
             correctionAdd("ng-if", "*ngIf");
             correctionAdd("NgIf", "*ngIf");
@@ -50990,7 +51041,7 @@ namespace OverflowHelper.core
 
             correctionAdd("grepwin", "grepWin");
 
-            correctionAdd("Wireless Communication", "wireless communication");
+            correctionAdd("telco", "telecommunications company");
 
             correctionAdd("Barban-Davenport-Halberstam theorem", "Barban–Davenport–Halberstam theorem");
 
@@ -53322,8 +53373,6 @@ namespace OverflowHelper.core
             correctionAdd("fair suck of the sauce bottle", "fair suck of the sav");
             correctionAdd("Suck of the zap", "fair suck of the sav");
 
-            correctionAdd("from the face of earth", "from the face of the earth");
-
             correctionAdd("imageniation", "imagination");
             correctionAdd("emagination", "imagination");
 
@@ -53467,10 +53516,6 @@ namespace OverflowHelper.core
             correctionAdd("puncutation", "punctuation");
 
             correctionAdd("uniform", "uniform initialization");
-
-            correctionAdd("async serial communication", "asynchronous serial communication");
-            correctionAdd("async serial comms", "asynchronous serial communication");
-            correctionAdd("async serial", "asynchronous serial communication");
 
             correctionAdd("MCQ", "multiple-choice question");
 
@@ -54120,9 +54165,6 @@ namespace OverflowHelper.core
             correctionAdd("New Ginea", "New Guinea");
 
             correctionAdd("stacks", "Stacks");
-
-            correctionAdd("Earthquake", "earthquake");
-            correctionAdd("earth quake", "earthquake");
 
             correctionAdd("mailinglist", "mailing list");
 
@@ -55964,6 +56006,8 @@ namespace OverflowHelper.core
             correctionAdd("thomson scattering", "Thomson scattering");
             correctionAdd("thompson scattering", "Thomson scattering");
 
+            correctionAdd("rayleigh scattering", "Rayleigh scattering");
+
             correctionAdd("wear levelling", "wear leveling");
             correctionAdd("wear-leveling", "wear leveling");
 
@@ -57506,9 +57550,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Lazy Loading", "lazy loading");
 
-            // Protocol / communications
-            correctionAdd("at command", "AT command");
-
             correctionAdd("pore", "poor");
 
             // Linux / software development
@@ -58701,17 +58742,9 @@ namespace OverflowHelper.core
             correctionAdd("Moore's law", "Moore’s law");
             correctionAdd("More's law", "Moore’s law");
 
-            correctionAdd("misscommunication", "miscommunication");
-
-            correctionAdd("derefrenced", "dereferenced");
-
             correctionAdd("espeak", "ESpeak");
 
-            correctionAdd("pining", "pinging");
-
             correctionAdd("playinf", "playing");
-
-            correctionAdd("vermont", "Vermont");
 
             correctionAdd("Least significant bit", "LSb");
             correctionAdd("right-most bit", "LSb");
@@ -58728,7 +58761,18 @@ namespace OverflowHelper.core
             correctionAdd("lmb", "MSb");
             correctionAdd("MSB", "MSb");
 
-            correctionAdd("progmem", "PROGMEM");
+            correctionAdd("Albedo", "albedo");
+
+            correctionAdd("ground based", "ground-based");
+
+            correctionAdd("Methane", "methane");
+
+            correctionAdd("pre-built", "prebuilt");
+
+            correctionAdd("spacebased", "space-based");
+            correctionAdd("space based", "space-based");
+
+            correctionAdd("telesope", "telescope");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -90115,6 +90159,32 @@ namespace OverflowHelper.core
 
             URL_Add("PROGMEM", "https://www.arduino.cc/reference/en/language/variables/utilities/progmem/");
 
+            URL_Add("albedo", "https://en.wikipedia.org/wiki/Albedo");
+
+            URL_Add("ground-based", "https://dictionary.cambridge.org/us/example/english/ground-based-telescope");
+
+            URL_Add("methane", "https://en.wikipedia.org/wiki/Methane");
+
+            URL_Add("prebuilt", "https://en.wiktionary.org/wiki/prebuilt#Adjective");
+
+            URL_Add("Rayleigh scattering", "https://en.wikipedia.org/wiki/Rayleigh_scattering#From_molecules");
+
+            URL_Add("space-based", "https://en.wiktionary.org/wiki/space-based#Adjective");
+
+            URL_Add("telescope", "https://en.wiktionary.org/wiki/telescope#Noun");
+
+            URL_Add("telluric", "https://en.wiktionary.org/wiki/telluric#Adjective");
+
+            URL_Add("A310-300", "https://en.wikipedia.org/wiki/Airbus_A310#Variants");
+
+            URL_Add("A320neo", "https://en.wikipedia.org/wiki/Airbus_A320neo_family");
+
+            URL_Add("Boeing 747-8I", "https://en.wikipedia.org/wiki/Boeing_747-8#747-8_Intercontinental");
+
+            URL_Add("Inertial Reference System", "https://aviationinfo.net/inertial-navigation-system-ins-and-inertial-reference-system-irs-differences-and-functions/");
+
+            URL_Add("CK352", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck352/");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -90800,6 +90870,7 @@ namespace OverflowHelper.core
             correctionAdd("cs.stackexchange.com_", "Computer&nbsp;Science (Stack Exchange site)_");
             correctionAdd("Computer Science (Stack Exchange site)_", "Computer&nbsp;Science (Stack Exchange site)_");
             correctionAdd("Computer&nbsp;Science_", "Computer&nbsp;Science (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("CS.StackExchange_", "Computer&nbsp;Science (Stack Exchange site)_");
 
             correctionAdd("Information Security_", "Information&nbsp;Security (Stack Exchange site)_");
             correctionAdd("Security_", "Information&nbsp;Security (Stack Exchange site)_");
@@ -93458,6 +93529,8 @@ namespace OverflowHelper.core
             correctionAdd("RMB_", "right mouse button_");
             correctionAdd("rmb_", "right mouse button_");
 
+            correctionAdd("enthousiast_", "enthusiasts_");
+
             // URL mappings
             //
             //
@@ -95179,6 +95252,8 @@ namespace OverflowHelper.core
             URL_Add("left mouse button_", "https://en.wiktionary.org/wiki/LMB#Noun");
 
             URL_Add("Linux Standard Base_", "https://en.wikipedia.org/wiki/Linux_Standard_Base");
+
+            URL_Add("enthusiasts_", "https://en.wiktionary.org/wiki/enthusiast#Noun");
 
         } //addLookupData_alternativeWordSet()
 
