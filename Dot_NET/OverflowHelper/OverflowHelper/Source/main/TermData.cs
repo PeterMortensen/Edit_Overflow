@@ -3886,6 +3886,8 @@ namespace OverflowHelper.core
             correctionAdd("beforhand", "beforehand");
             correctionAdd("beforehands", "beforehand");
 
+            correctionAdd("hands-down", "hands down");
+
             correctionAdd("RtR", "right to repair");
 
             correctionAdd("rightaway", "right away");
@@ -7192,11 +7194,13 @@ namespace OverflowHelper.core
             correctionAdd("STM32Cube", "STM32CubeMX");
             correctionAdd("cube", "STM32CubeMX");
             correctionAdd("CubeMX", "STM32CubeMX");
+            correctionAdd("STM32 cube", "STM32CubeMX");
 
             // Alternative URL:
             //   <https://www.st.com/en/development-tools/stm32cubeide.html>)
             //
             correctionAdd("stm32cubeIDE", "STM32CubeIDE");
+            correctionAdd("STM32 cube ide", "STM32CubeIDE");
 
             correctionAdd("stm32f103", "STM32F103");
 
@@ -10043,6 +10047,7 @@ namespace OverflowHelper.core
             // Technique used in software development
             correctionAdd("rubberducking", "rubber duck debugging");
             correctionAdd("rubber duck", "rubber duck debugging");
+            correctionAdd("rubberduck", "rubber duck debugging");
 
             correctionAdd("interop", "interoperability");
 
@@ -13309,6 +13314,8 @@ namespace OverflowHelper.core
 
             // A Linux/Unix shell
             correctionAdd("sh", "Bourne shell");
+            correctionAdd("bourn shell", "Bourne shell");
+            correctionAdd("bourne shell", "Bourne shell");
 
             // A Linux/Unix shell
             correctionAdd("Zsh", "Z shell");
@@ -17247,6 +17254,7 @@ namespace OverflowHelper.core
             correctionAdd("SeverFault", "Server&nbsp;Fault");
             correctionAdd("serverfault.com", "Server&nbsp;Fault");
             correctionAdd("serverFault", "Server&nbsp;Fault");
+            correctionAdd("Server Vault", "Server&nbsp;Fault");
 
             correctionAdd("SuperUser", "Super&nbsp;User (Stack Exchange site)");
             correctionAdd("SU", "Super&nbsp;User (Stack Exchange site)");
@@ -29699,6 +29707,8 @@ namespace OverflowHelper.core
             correctionAdd("IRL", "in real life");
 
             correctionAdd("IMX", "in my experience");
+            correctionAdd("IME", "in my experience");
+            correctionAdd("Ime", "in my experience");
 
             correctionAdd("in simple term", "in simple terms");
             correctionAdd("In simple term", "in simple terms");
@@ -35714,6 +35724,8 @@ namespace OverflowHelper.core
             correctionAdd("previusly", "previously");
             correctionAdd("preaviously", "previously");
             correctionAdd("priorly", "previously");
+            correctionAdd("Previouisly", "previously");
+            correctionAdd("previouisly", "previously");
 
             correctionAdd("profissional", "professional");
             correctionAdd("pro", "professional");
@@ -58818,6 +58830,20 @@ namespace OverflowHelper.core
             correctionAdd("MSB", "MSb");
 
             correctionAdd("Albedo", "albedo");
+
+            correctionAdd("carrousel", "carousel");
+
+            correctionAdd("Laser", "laser");
+
+            correctionAdd("mean spirited", "mean-spirited");
+
+            correctionAdd("0x7363682E", "pointers");
+            correctionAdd("0x3A28213A", "pointers");
+            correctionAdd("0x6339392C", "pointers");
+
+            correctionAdd("distange", "distance");
+
+            correctionAdd("in lue", "in lieu");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -85396,7 +85422,7 @@ namespace OverflowHelper.core
 
             URL_Add("Enlightened badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/68258#68258");
 
-            URL_Add("in my experience", "https://en.wiktionary.org/wiki/IMX#Prepositional_phrase");
+            URL_Add("in my experience", "https://en.wiktionary.org/wiki/IME#Prepositional_phrase");
 
             URL_Add("Sallen–Key filter", "https://en.wikipedia.org/wiki/Sallen%E2%80%93Key_topology#Application:_low-pass_filter");
 
@@ -90248,6 +90274,20 @@ namespace OverflowHelper.core
 
             URL_Add("setter", "https://en.wiktionary.org/wiki/setter#Noun");
 
+            URL_Add("carousel", "https://en.wiktionary.org/wiki/carousel#Noun");
+
+            URL_Add("hands down", "https://en.wiktionary.org/wiki/hands_down#Adverb");
+
+            URL_Add("laser", "https://en.wikipedia.org/wiki/Laser");
+
+            URL_Add("mean-spirited", "https://en.wiktionary.org/wiki/mean-spirited#Adjective");
+
+            URL_Add("pointers", "https://www.explainxkcd.com/wiki/index.php/138:_Pointers");
+
+            URL_Add("distance", "https://en.wiktionary.org/wiki/distance#Noun");
+
+            URL_Add("in lieu", "https://en.wiktionary.org/wiki/in_lieu#Adverb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -90500,6 +90540,8 @@ namespace OverflowHelper.core
 
             correctionAdd("chmod 640_", "640_");
             correctionAdd("0640_", "640_");
+
+            correctionAdd("chmod 666_", "666_");
 
             correctionAdd("0755_", "755_");
             correctionAdd("chmod 755_", "755_");
@@ -91838,6 +91880,10 @@ namespace OverflowHelper.core
             correctionAdd("mongodb_", "MongoDB (tag wiki)_");
             correctionAdd("MongoDB_", "MongoDB (tag wiki)_");
 
+            correctionAdd("[tag:powershell]_", "PowerShell (tag wiki)_");
+            correctionAdd("powershell_", "PowerShell (tag wiki)_");
+            correctionAdd("PowerShell_", "PowerShell (tag wiki)_");
+
             // Perl
             correctionAdd("parrot_", "Parrot_");
 
@@ -93130,6 +93176,7 @@ namespace OverflowHelper.core
             correctionAdd("if_", "of_");
             correctionAdd("ov_", "of_");
             correctionAdd("o_", "of_");
+            correctionAdd("ort_", "of_");
 
             correctionAdd("hight_", "high_");
 
@@ -95319,6 +95366,10 @@ namespace OverflowHelper.core
             URL_Add("enthusiasts_", "https://en.wiktionary.org/wiki/enthusiast#Noun");
 
             URL_Add("bra–ket notation_", "https://en.wikipedia.org/wiki/Bra%E2%80%93ket_notation");
+
+            URL_Add("666_", "https://chmodcommand.com/chmod-666/");
+
+            URL_Add("PowerShell (tag wiki)_", "https://stackoverflow.com/questions/tagged/powershell");
 
         } //addLookupData_alternativeWordSet()
 
