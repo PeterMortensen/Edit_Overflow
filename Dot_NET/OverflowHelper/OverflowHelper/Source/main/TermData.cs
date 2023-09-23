@@ -34480,6 +34480,7 @@ namespace OverflowHelper.core
             correctionAdd("scrrenshot", "screenshot");
 
             correctionAdd("1-shot", "one-shot");
+            correctionAdd("one shot", "one-shot");
 
             correctionAdd("snap shot", "snapshot");
             correctionAdd("shap shot", "snapshot");
@@ -93010,14 +93011,32 @@ namespace OverflowHelper.core
             correctionAdd("KC_F_", "f keycode (KC_F. QMK. 9 (decimal))_");
             correctionAdd("9_", "f keycode (KC_F. QMK. 9 (decimal))_");
 
+            correctionAdd("KC_G_", "g keycode (KC_G. QMK. 10 (decimal))_");
+            correctionAdd("10_", "g keycode (KC_G. QMK. 10 (decimal))_");
+
+            correctionAdd("KC_H_", "h keycode (KC_H. QMK. 11 (decimal))_");
+            correctionAdd("11_", "h keycode (KC_H. QMK. 11 (decimal))_");
+
             correctionAdd("KC_I_", "i keycode (KC_I. QMK. 12 (decimal))_");
             correctionAdd("12_", "i keycode (KC_I. QMK. 12 (decimal))_");
+
+            correctionAdd("KC_K_", "k keycode (KC_K. QMK. 14 (decimal))_");
+            correctionAdd("14_", "k keycode (KC_K. QMK. 14 (decimal))_");
 
             correctionAdd("KC_L_", "l keycode (KC_L. QMK. 15 (decimal))_");
             correctionAdd("15_", "l keycode (KC_L. QMK. 15 (decimal))_");
 
             correctionAdd("KC_M_", "m keycode (KC_M. QMK. 16 (decimal))_");
             correctionAdd("16_", "m keycode (KC_M. QMK. 16 (decimal))_");
+
+            correctionAdd("KC_N_", "n keycode (KC_N. QMK. 17 (decimal))_");
+            correctionAdd("17_", "n keycode (KC_N. QMK. 17 (decimal))_");
+
+            correctionAdd("KC_O_", "n keycode (KC_O. QMK. 18 (decimal))_");
+            correctionAdd("18_", "n keycode (KC_O. QMK. 18 (decimal))_");
+
+            correctionAdd("KC_P_", "p keycode (KC_P. QMK. 19 (decimal))_");
+            correctionAdd("19_", "p keycode (KC_P. QMK. 19 (decimal))_");
 
             correctionAdd("KC_R_", "r keycode (KC_R. QMK. 21 (decimal))_");
             correctionAdd("21_", "r keycode (KC_R. QMK. 21 (decimal))_");
@@ -93034,11 +93053,29 @@ namespace OverflowHelper.core
             correctionAdd("KC_V_", "v keycode (KC_V. QMK. 25 (decimal))_");
             correctionAdd("25_", "v keycode (KC_V. QMK. 25 (decimal))_");
 
+            correctionAdd("KC_W_", "w keycode (KC_W. QMK. 26 (decimal))_");
+            correctionAdd("26_", "w keycode (KC_W. QMK. 26 (decimal))_");
+
+            correctionAdd("KC_X_", "x keycode (KC_X. QMK. 27 (decimal))_");
+            correctionAdd("27_", "x keycode (KC_X. QMK. 27 (decimal))_");
+
+            correctionAdd("KC_Y_", "y keycode (KC_Y. QMK. 28 (decimal))_");
+            correctionAdd("28_", "y keycode (KC_Y. QMK. 28 (decimal))_");
+
+            correctionAdd("KC_2_", "2 keycode (KC_2. QMK. 31 (decimal))_");
+            correctionAdd("31_", "2 keycode (KC_2. QMK. 31 (decimal))_");
+
             correctionAdd("KC_5_", "5 keycode (KC_5. QMK. 34 (decimal))_");
             correctionAdd("34_", "5 keycode (KC_5. QMK. 34 (decimal))_");
 
             correctionAdd("KC_6_", "6 keycode (KC_6. QMK. 35 (decimal))_");
             correctionAdd("35_", "6 keycode (KC_6. QMK. 35 (decimal))_");
+
+            correctionAdd("KC_8_", "8 keycode (KC_8. QMK. 37 (decimal))_");
+            correctionAdd("37_", "8 keycode (KC_8. QMK. 37 (decimal))_");
+
+            correctionAdd("KC_9_", "9 keycode (KC_9. QMK. 38 (decimal))_");
+            correctionAdd("38_", "9 keycode (KC_9. QMK. 38 (decimal))_");
 
             correctionAdd("KC_ESC_", "Esc keycode (KC_ESCAPE. QMK. 41 (decimal))_");
             correctionAdd("41_", "Esc keycode (KC_ESCAPE. QMK. 41 (decimal))_");
@@ -93047,6 +93084,15 @@ namespace OverflowHelper.core
             correctionAdd("KC_SPC_", "Space keycode (KC_SPACE. QMK. 44 (decimal))_");
             correctionAdd("44_", "Space keycode (KC_SPACE. QMK. 44 (decimal))_");
             correctionAdd("KC_SPACE_", "Space keycode (KC_SPACE. QMK. 44 (decimal))_");
+
+            correctionAdd("KC_COMMA_", "Comma keycode (KC_COMMA. QMK. 54 (decimal))_");
+            correctionAdd("54_", "Comma keycode (KC_COMMA. QMK. 54 (decimal))_");
+
+            correctionAdd("KC_DOT_", "Full stop keycode (KC_DOT. QMK. 55 (decimal))_");
+            correctionAdd("55_", "Full stop keycode (KC_DOT. QMK. 55 (decimal))_");
+
+            correctionAdd("KC_SLASH_", "Forward slash keycode (KC_SLASH. QMK. 56 (decimal))_");
+            correctionAdd("56_", "Forward slash keycode (KC_SLASH. QMK. 56 (decimal))_");
 
             correctionAdd("KC_F4_", "F4 keycode (KC_F4. QMK. 61 (decimal))_");
             correctionAdd("61_", "F4 keycode (KC_F4. QMK. 61 (decimal))_");
@@ -95518,6 +95564,36 @@ namespace OverflowHelper.core
             URL_Add("Space keycode (KC_SPACE. QMK. 44 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
 
             URL_Add("Home keycode (KC_HOME. QMK. 74 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("2 keycode (KC_2. QMK. 31 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("8 keycode (KC_8. QMK. 37 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("9 keycode (KC_9. QMK. 38 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("Comma keycode (KC_COMMA. QMK. 54 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("Forward slash keycode (KC_SLASH. QMK. 56 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("Full stop keycode (KC_DOT. QMK. 55 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("g keycode (KC_G. QMK. 10 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("h keycode (KC_H. QMK. 11 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("k keycode (KC_K. QMK. 14 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("n keycode (KC_N. QMK. 17 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("n keycode (KC_O. QMK. 18 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("p keycode (KC_P. QMK. 19 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("w keycode (KC_W. QMK. 26 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("x keycode (KC_X. QMK. 27 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("y keycode (KC_Y. QMK. 28 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
 
         } //addLookupData_alternativeWordSet()
 
