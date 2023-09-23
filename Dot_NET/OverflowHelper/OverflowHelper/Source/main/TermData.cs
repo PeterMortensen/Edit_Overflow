@@ -7636,6 +7636,8 @@ namespace OverflowHelper.core
             correctionAdd("back-emf", "back-EMF");
             correctionAdd("back EMF", "back-EMF");
 
+            correctionAdd("EMF", "emf");
+
             correctionAdd("relais", "relays");
 
             correctionAdd("swtich", "switch");
@@ -31756,6 +31758,7 @@ namespace OverflowHelper.core
             correctionAdd("combo", "combination"); // "combo" is slang - <https://en.wiktionary.orgz/wiki/combo#Noun>.
             correctionAdd("comb", "combination");
             correctionAdd("Combo", "combination");
+            correctionAdd("combi", "combination");
 
             correctionAdd("IPV6", "IPv6");
             correctionAdd("ipv6", "IPv6");
@@ -46218,6 +46221,7 @@ namespace OverflowHelper.core
             correctionAdd("pre-seed", "preseed");
 
             correctionAdd("pricate", "private");
+            correctionAdd("pivate", "private");
 
             correctionAdd("pun-y", "punny");
 
@@ -90348,6 +90352,8 @@ namespace OverflowHelper.core
 
             URL_Add("well-received", "https://en.wiktionary.org/wiki/well-received#Adjective");
 
+            URL_Add("emf", "https://en.wikipedia.org/wiki/Electromotive_force");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -93001,11 +93007,23 @@ namespace OverflowHelper.core
             correctionAdd("KC_C_", "c keycode (KC_C. QMK. 6 (decimal))_");
             correctionAdd("6_", "c keycode (KC_C. QMK. 6 (decimal))_");
 
+            correctionAdd("KC_F_", "f keycode (KC_F. QMK. 9 (decimal))_");
+            correctionAdd("9_", "f keycode (KC_F. QMK. 9 (decimal))_");
+
+            correctionAdd("KC_I_", "i keycode (KC_I. QMK. 12 (decimal))_");
+            correctionAdd("12_", "i keycode (KC_I. QMK. 12 (decimal))_");
+
             correctionAdd("KC_L_", "l keycode (KC_L. QMK. 15 (decimal))_");
             correctionAdd("15_", "l keycode (KC_L. QMK. 15 (decimal))_");
 
+            correctionAdd("KC_M_", "m keycode (KC_M. QMK. 16 (decimal))_");
+            correctionAdd("16_", "m keycode (KC_M. QMK. 16 (decimal))_");
+
             correctionAdd("KC_R_", "r keycode (KC_R. QMK. 21 (decimal))_");
             correctionAdd("21_", "r keycode (KC_R. QMK. 21 (decimal))_");
+
+            correctionAdd("KC_S_", "s keycode (KC_S. QMK. 22 (decimal))_");
+            correctionAdd("22_", "s keycode (KC_S. QMK. 22 (decimal))_");
 
             correctionAdd("KC_T_", "t keycode (KC_T. QMK. 23 (decimal))_");
             correctionAdd("23_", "t keycode (KC_T. QMK. 23 (decimal))_");
@@ -93022,8 +93040,19 @@ namespace OverflowHelper.core
             correctionAdd("KC_6_", "6 keycode (KC_6. QMK. 35 (decimal))_");
             correctionAdd("35_", "6 keycode (KC_6. QMK. 35 (decimal))_");
 
+            correctionAdd("KC_ESC_", "Esc keycode (KC_ESCAPE. QMK. 41 (decimal))_");
+            correctionAdd("41_", "Esc keycode (KC_ESCAPE. QMK. 41 (decimal))_");
+            correctionAdd("KC_ESCAPE_", "Esc keycode (KC_ESCAPE. QMK. 41 (decimal))_");
+
+            correctionAdd("KC_SPC_", "Space keycode (KC_SPACE. QMK. 44 (decimal))_");
+            correctionAdd("44_", "Space keycode (KC_SPACE. QMK. 44 (decimal))_");
+            correctionAdd("KC_SPACE_", "Space keycode (KC_SPACE. QMK. 44 (decimal))_");
+
             correctionAdd("KC_F4_", "F4 keycode (KC_F4. QMK. 61 (decimal))_");
             correctionAdd("61_", "F4 keycode (KC_F4. QMK. 61 (decimal))_");
+
+            correctionAdd("KC_HOME_", "Home keycode (KC_HOME. QMK. 74 (decimal))_");
+            correctionAdd("74_", "Home keycode (KC_HOME. QMK. 74 (decimal))_");
 
             correctionAdd("left arrow_", "Left Arrow keycode (KC_LEFT. QMK. 80 (decimal))_");
             correctionAdd("KC_LEFT_", "Left Arrow keycode (KC_LEFT. QMK. 80 (decimal))_");
@@ -95475,6 +95504,20 @@ namespace OverflowHelper.core
             URL_Add("a keycode (KC_A. QMK. 4 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
 
             URL_Add("u keycode (KC_U. QMK. 24 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("Esc keycode (KC_ESCAPE. QMK. 41 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("f keycode (KC_F. QMK. 9 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("i keycode (KC_I. QMK. 12 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("m keycode (KC_M. QMK. 16 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("s keycode (KC_S. QMK. 22 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("Space keycode (KC_SPACE. QMK. 44 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("Home keycode (KC_HOME. QMK. 74 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
 
         } //addLookupData_alternativeWordSet()
 
