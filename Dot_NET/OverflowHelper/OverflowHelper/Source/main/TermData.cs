@@ -10347,7 +10347,7 @@ namespace OverflowHelper.core
             correctionAdd("percieved", "perceived");
             correctionAdd("precieved", "perceived");
 
-            // Radio 
+            // Radio
             correctionAdd("Superheterodyne Receiver", "superheterodyne receiver");
 
             correctionAdd("ELI5", "explain like I'm five"); // But note it is now ambiguous due to the machine learning dataset of the same name (see e.g. <https://huggingface.co/datasets/eli5>)
@@ -37574,6 +37574,7 @@ namespace OverflowHelper.core
             correctionAdd("Activity", "activity");
             correctionAdd("Actiity", "activity");
             correctionAdd("actiity", "activity");
+            correctionAdd("Acticity", "activity");
 
             correctionAdd("anually", "annually");
 
@@ -92990,6 +92991,9 @@ namespace OverflowHelper.core
             correctionAdd("KC_MS_BTN2_", "right-click keycode (KC_MS_BTN2. QMK. 210 (decimal))_");
             correctionAdd("210_", "right-click keycode (KC_MS_BTN2. QMK. 210 (decimal))_");
 
+            correctionAdd("KC_A_", "a keycode (KC_A. QMK. 4 (decimal))_");
+            correctionAdd("4_", "a keycode (KC_A. QMK. 4 (decimal))_");
+
             correctionAdd("KC_B_", "b keycode (KC_B. QMK. 5 (decimal))_");
             correctionAdd("5_", "b keycode (KC_B. QMK. 5 (decimal))_");
 
@@ -93006,11 +93010,17 @@ namespace OverflowHelper.core
             correctionAdd("KC_T_", "t keycode (KC_T. QMK. 23 (decimal))_");
             correctionAdd("23_", "t keycode (KC_T. QMK. 23 (decimal))_");
 
+            correctionAdd("KC_U_", "u keycode (KC_U. QMK. 24 (decimal))_");
+            correctionAdd("24_", "u keycode (KC_U. QMK. 24 (decimal))_");
+
             correctionAdd("KC_V_", "v keycode (KC_V. QMK. 25 (decimal))_");
             correctionAdd("25_", "v keycode (KC_V. QMK. 25 (decimal))_");
 
             correctionAdd("KC_5_", "5 keycode (KC_5. QMK. 34 (decimal))_");
             correctionAdd("34_", "5 keycode (KC_5. QMK. 34 (decimal))_");
+
+            correctionAdd("KC_6_", "6 keycode (KC_6. QMK. 35 (decimal))_");
+            correctionAdd("35_", "6 keycode (KC_6. QMK. 35 (decimal))_");
 
             correctionAdd("KC_F4_", "F4 keycode (KC_F4. QMK. 61 (decimal))_");
             correctionAdd("61_", "F4 keycode (KC_F4. QMK. 61 (decimal))_");
@@ -95459,6 +95469,12 @@ namespace OverflowHelper.core
             URL_Add("b keycode (KC_B. QMK. 5 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
 
             URL_Add("r keycode (KC_R. QMK. 21 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("6 keycode (KC_6. QMK. 35 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("a keycode (KC_A. QMK. 4 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("u keycode (KC_U. QMK. 24 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
 
         } //addLookupData_alternativeWordSet()
 
