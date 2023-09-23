@@ -16155,6 +16155,7 @@ namespace OverflowHelper.core
             correctionAdd("htis", "this");
             correctionAdd("thism", "this");
             correctionAdd("thos", "this");
+            correctionAdd("thiis", "this");
 
             correctionAdd("paranthesis", "parenthesis");
             correctionAdd("paren", "parenthesis");
@@ -37075,6 +37076,7 @@ namespace OverflowHelper.core
             correctionAdd("steal", "still");
             correctionAdd("sitll", "still");
             correctionAdd("sill", "still");
+            correctionAdd("stiill", "still");
 
             correctionAdd("fifo", "FIFO");
             correctionAdd("Fifo", "FIFO");
@@ -53929,6 +53931,7 @@ namespace OverflowHelper.core
             correctionAdd("angular brackets", "angle bracket");
             correctionAdd("angled bracket", "angle bracket");
             correctionAdd("angled brackets", "angle bracket");
+            correctionAdd("Angle bracket", "angle bracket");
 
             correctionAdd("eye sight", "eyesight");
 
@@ -93071,6 +93074,9 @@ namespace OverflowHelper.core
             correctionAdd("KC_6_", "6 keycode (KC_6. QMK. 35 (decimal))_");
             correctionAdd("35_", "6 keycode (KC_6. QMK. 35 (decimal))_");
 
+            correctionAdd("KC_7_", "7 keycode (KC_7. QMK. 36 (decimal))_");
+            correctionAdd("36_", "7 keycode (KC_7. QMK. 36 (decimal))_");
+
             correctionAdd("KC_8_", "8 keycode (KC_8. QMK. 37 (decimal))_");
             correctionAdd("37_", "8 keycode (KC_8. QMK. 37 (decimal))_");
 
@@ -93100,33 +93106,39 @@ namespace OverflowHelper.core
             correctionAdd("KC_HOME_", "Home keycode (KC_HOME. QMK. 74 (decimal))_");
             correctionAdd("74_", "Home keycode (KC_HOME. QMK. 74 (decimal))_");
 
-            correctionAdd("left arrow_", "Left Arrow keycode (KC_LEFT. QMK. 80 (decimal))_");
             correctionAdd("KC_LEFT_", "Left Arrow keycode (KC_LEFT. QMK. 80 (decimal))_");
+            correctionAdd("left arrow_", "Left Arrow keycode (KC_LEFT. QMK. 80 (decimal))_");
             correctionAdd("80_", "Left Arrow keycode (KC_LEFT. QMK. 80 (decimal))_");
 
             // Alias: KC_ENT
-            correctionAdd("Enter key_", "Return keycode (KC_ENTER. QMK. 40 (decimal))_");
-            correctionAdd("KC_ENT_", "Return keycode (KC_ENTER. QMK. 40 (decimal))_");
             correctionAdd("KC_ENTER_", "Return keycode (KC_ENTER. QMK. 40 (decimal))_");
+            correctionAdd("KC_ENT_", "Return keycode (KC_ENTER. QMK. 40 (decimal))_");
+            correctionAdd("Enter key_", "Return keycode (KC_ENTER. QMK. 40 (decimal))_");
             correctionAdd("40_", "Return keycode (KC_ENTER. QMK. 40 (decimal))_");
 
-            correctionAdd("KC_BSPC_", "Backspace keycode (KC_BACKSPACE. QMK. 42 (decimal))_");
             correctionAdd("KC_BACKSPACE_", "Backspace keycode (KC_BACKSPACE. QMK. 42 (decimal))_");
+            correctionAdd("KC_BSPC_", "Backspace keycode (KC_BACKSPACE. QMK. 42 (decimal))_");
             correctionAdd("42_", "Backspace keycode (KC_BACKSPACE. QMK. 42 (decimal))_");
 
             correctionAdd("KC_TAB_", "Tab keycode (KC_TAB. QMK. 43 (decimal))_");
             correctionAdd("43_", "Tab keycode (KC_TAB. QMK. 43 (decimal))_");
 
+            // For European keyboard layouts: The 102nd key, with
+            // "<", ">" (with Shift), and "\" (with AltGr).
+            correctionAdd("KC_NONUS_BACKSLASH_", "Angle bracket keycode (KC_NONUS_BACKSLASH. QMK. 100 (decimal))_");
+            correctionAdd("KC_NUBS_", "Angle bracket keycode (KC_NONUS_BACKSLASH. QMK. 100 (decimal))_");
+            correctionAdd("100_", "Angle bracket keycode (KC_NONUS_BACKSLASH. QMK. 100 (decimal))_");
+
             // Alias: KC_VOLD
+            correctionAdd("KC_AUDIO_VOL_DOWN_", "Volume Down keycode (KC_AUDIO_VOL_DOWN. QMK. 170 (decimal))_");
             correctionAdd("KC_VOLD_", "Volume Down keycode (KC_AUDIO_VOL_DOWN. QMK. 170 (decimal))_");
             correctionAdd("KC_VOLDOWN_", "Volume Down keycode (KC_AUDIO_VOL_DOWN. QMK. 170 (decimal))_");
-            correctionAdd("KC_AUDIO_VOL_DOWN_", "Volume Down keycode (KC_AUDIO_VOL_DOWN. QMK. 170 (decimal))_");
             correctionAdd("170_", "Volume Down keycode (KC_AUDIO_VOL_DOWN. QMK. 170 (decimal))_");
 
             // Alias: KC_VOLU
+            correctionAdd("KC_AUDIO_VOL_UP_", "Volume Up keycode (KC_AUDIO_VOL_UP. QMK. 169 (decimal))_");
             correctionAdd("KC_VOLU_", "Volume Up keycode (KC_AUDIO_VOL_UP. QMK. 169 (decimal))_");
             correctionAdd("KC_VOLUP_", "Volume Up keycode (KC_AUDIO_VOL_UP. QMK. 169 (decimal))_");
-            correctionAdd("KC_AUDIO_VOL_UP_", "Volume Up keycode (KC_AUDIO_VOL_UP. QMK. 169 (decimal))_");
             correctionAdd("169_", "Volume Up keycode (KC_AUDIO_VOL_UP. QMK. 169 (decimal))_");
 
             // QMK
@@ -95594,6 +95606,10 @@ namespace OverflowHelper.core
             URL_Add("x keycode (KC_X. QMK. 27 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
 
             URL_Add("y keycode (KC_Y. QMK. 28 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("7 keycode (KC_7. QMK. 36 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("Angle bracket keycode (KC_NONUS_BACKSLASH. QMK. 100 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
 
         } //addLookupData_alternativeWordSet()
 
