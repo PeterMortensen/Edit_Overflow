@@ -757,6 +757,7 @@ namespace OverflowHelper.core
             correctionAdd("window 10", "Windows&nbsp;10");
             correctionAdd("WINDOWS 10", "Windows&nbsp;10");
             correctionAdd("Windows 10", "Windows&nbsp;10"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("windown 10", "Windows&nbsp;10");
 
             correctionAdd("Windows 10 home", "Windows 10 Home");
             correctionAdd("Windows OS 10 Home Edition", "Windows 10 Home");
@@ -765,6 +766,8 @@ namespace OverflowHelper.core
 
             correctionAdd("LTSB", "Windows 10 Enterprise LTSC");
             correctionAdd("Windows 10 LTSB", "Windows 10 Enterprise LTSC");
+            correctionAdd("Windows 10 Enterprise", "Windows 10 Enterprise LTSC"); // Not 100% correct
+            correctionAdd("Windows 10 enterprise", "Windows 10 Enterprise LTSC"); // Not 100% correct
 
             correctionAdd("Windows 2016", "Windows Server 2016");
             correctionAdd("windows 2016", "Windows Server 2016");
@@ -990,6 +993,99 @@ namespace OverflowHelper.core
             correctionAdd("Red", "red");
 
             correctionAdd("gray", "grey");
+
+            correctionAdd("swipe", "swap");
+
+            correctionAdd("swaping", "swapping");
+
+            correctionAdd("swapiness", "swappiness");
+            correctionAdd("Swappiness", "swappiness");
+
+            correctionAdd("swollow", "swallow");
+
+            correctionAdd("SWAG", "swag");
+
+            correctionAdd("Swastika", "swastika");
+
+            correctionAdd("SWAY", "Sway");
+            correctionAdd("sway", "Sway");
+
+            correctionAdd("swagger", "Swagger");
+
+            correctionAdd("from another lens", "through another lens");
+
+            correctionAdd("trough", "through");
+            correctionAdd("thru", "through"); // Expansion
+            correctionAdd("througt", "through");
+            correctionAdd("threw", "through");
+            correctionAdd("thorugh", "through");
+            correctionAdd("throgh", "through");
+            correctionAdd("thro", "through");
+            correctionAdd("throuth", "through");
+            correctionAdd("tru", "through");
+            correctionAdd("througth", "through");
+            correctionAdd("throu", "through");
+            correctionAdd("throough", "through");
+            correctionAdd("througg", "through");
+            correctionAdd("throuh", "through");
+            correctionAdd("Throught", "through");
+            correctionAdd("throught", "through");
+            correctionAdd("throug", "through");
+            correctionAdd("throguh", "through");
+            correctionAdd("Troough", "through");
+            correctionAdd("troough", "through");
+            correctionAdd("thourgh", "through");
+            correctionAdd("trought", "through");
+            correctionAdd("rhought", "through");
+            correctionAdd("trhought", "through");
+            correctionAdd("throuogh", "through");
+
+            correctionAdd("trow", "throw");
+
+            correctionAdd("fallthrough", "fall-through");
+            correctionAdd("fall through", "fall-through");
+            correctionAdd("fall thought", "fall-through");
+            correctionAdd("fall though", "fall-through");
+            correctionAdd("fallthough", "fall-through");
+            correctionAdd("fall thru", "fall-through");
+
+            correctionAdd("walk through", "walkthrough");
+            correctionAdd("walk-through", "walkthrough");
+            correctionAdd("Walkthrough", "walkthrough");
+            correctionAdd("walk though", "walkthrough");
+
+            correctionAdd("pass through", "passthrough");
+
+            correctionAdd("throughly", "thoroughly");
+            correctionAdd("thorougly", "thoroughly");
+            correctionAdd("throroughly", "thoroughly");
+            correctionAdd("throroughouly", "thoroughly");
+            correctionAdd("throughouly", "thoroughly");
+            correctionAdd("throughoutly", "thoroughly");
+            correctionAdd("thouroughly", "thoroughly");
+            correctionAdd("throuroughly", "thoroughly");
+            correctionAdd("Thoroughly", "thoroughly");
+
+            correctionAdd("roughy", "roughly");
+            correctionAdd("roughtly", "roughly");
+
+            correctionAdd("thoughout", "throughout");
+            correctionAdd("through out", "throughout");
+            correctionAdd("through-out", "throughout");
+
+            correctionAdd("througput", "throughput");
+
+            correctionAdd("striketrough", "strike through");
+            correctionAdd("strikethrough", "strike through");
+
+            correctionAdd("thourough", "thorough");
+            correctionAdd("Throughrough", "thorough");
+            correctionAdd("throughrough", "thorough");
+            correctionAdd("throrough", "thorough");
+            correctionAdd("throurough", "thorough");
+            correctionAdd("Throurough", "thorough");
+            correctionAdd("thougrough", "thorough");
+            correctionAdd("thoughrough", "thorough");
 
             correctionAdd("cat and mouse", "cat-and-mouse");
 
@@ -2977,6 +3073,8 @@ namespace OverflowHelper.core
             correctionAdd("Wsl", "Windows Subsystem for Linux");
             correctionAdd("windows subsistem for Linux", "Windows Subsystem for Linux");
             correctionAdd("windows subsystem for Linux", "Windows Subsystem for Linux");
+            correctionAdd("Linux subsystem", "Windows Subsystem for Linux");
+            correctionAdd("linux subsystem", "Windows Subsystem for Linux");
 
             correctionAdd("WSL2", "WSL 2");
             correctionAdd("WSL-2", "WSL 2");
@@ -4245,6 +4343,8 @@ namespace OverflowHelper.core
             correctionAdd("installating", "installing");
             correctionAdd("Intalling", "installing");
             correctionAdd("intalling", "installing");
+            correctionAdd("insatlling", "installing");
+            correctionAdd("insatllling", "installing");
 
             correctionAdd("instaled", "installed");
             correctionAdd("instlled", "installed");
@@ -4262,6 +4362,8 @@ namespace OverflowHelper.core
             correctionAdd("installatin", "installation");
             correctionAdd("installtion", "installation");
             correctionAdd("intsallation", "installation");
+
+            correctionAdd("instalations", "installations");
 
             correctionAdd("pre install", "preinstall");
             correctionAdd("pre-install", "preinstall");
@@ -5481,6 +5583,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Windows Store", "Microsoft Store");
             correctionAdd("Windows store", "Microsoft Store");
+            correctionAdd("windows store", "Microsoft Store");
 
             // DOS / Windows
             correctionAdd("Batch file", "batch file");
@@ -6904,6 +7007,42 @@ namespace OverflowHelper.core
 
             correctionAdd("by hearth", "by heart");
 
+            correctionAdd("light-hearted", "lighthearted");
+
+            correctionAdd("heart-ache", "heartache");
+            correctionAdd("heart act", "heartache");
+
+            correctionAdd("dishearteneing", "disheartening");
+
+            correctionAdd("heart broken", "heartbroken");
+
+            correctionAdd("heart strings", "heartstrings");
+
+            correctionAdd("heart-breaking", "heartbreaking");
+            correctionAdd("heart breaking", "heartbreaking");
+
+            correctionAdd("half-hearted", "halfhearted");
+            correctionAdd("half hearted", "halfhearted");
+
+            correctionAdd("faint-of-heart", "faint of heart");
+
+            correctionAdd("to (one's) heart's content", "to (one's) heart’s content");
+            correctionAdd("heart's content", "to (one's) heart’s content");
+
+            correctionAdd("leadin", "leading");
+
+            correctionAdd("bleeding edge", "bleeding-edge");
+
+            correctionAdd("cutting edge", "cutting-edge");
+
+            correctionAdd("bleed through", "bleed-through");
+            correctionAdd("bleedthrough", "bleed-through");
+
+            correctionAdd("heartbleed", "Heartbleed");
+            correctionAdd("HeartBleed", "Heartbleed");
+            correctionAdd("heart bleed", "Heartbleed");
+            correctionAdd("Heart bleed", "Heartbleed");
+
             correctionAdd("lite", "light");
             correctionAdd("ligth", "light");
             correctionAdd("ligt", "light");
@@ -6962,33 +7101,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Lightning bolt", "lightning bolt");
             correctionAdd("Lightning Bolt", "lightning bolt");
-
-            correctionAdd("light-hearted", "lighthearted");
-
-            correctionAdd("heart-ache", "heartache");
-            correctionAdd("heart act", "heartache");
-
-            correctionAdd("dishearteneing", "disheartening");
-
-            correctionAdd("heart broken", "heartbroken");
-
-            correctionAdd("heart strings", "heartstrings");
-
-            correctionAdd("heart-breaking", "heartbreaking");
-            correctionAdd("heart breaking", "heartbreaking");
-
-            correctionAdd("half-hearted", "halfhearted");
-            correctionAdd("half hearted", "halfhearted");
-
-            correctionAdd("faint-of-heart", "faint of heart");
-
-            correctionAdd("to (one's) heart's content", "to (one's) heart’s content");
-            correctionAdd("heart's content", "to (one's) heart’s content");
-
-            correctionAdd("heartbleed", "Heartbleed");
-            correctionAdd("HeartBleed", "Heartbleed");
-            correctionAdd("heart bleed", "Heartbleed");
-            correctionAdd("Heart bleed", "Heartbleed");
 
             correctionAdd("lightning", "lighting");
 
@@ -7882,6 +7994,8 @@ namespace OverflowHelper.core
             correctionAdd("bench mark", "benchmark");
             correctionAdd("BenchMark", "benchmark");
             correctionAdd("Benchmark", "benchmark");
+
+            correctionAdd("bench marked", "benchmarked");
 
             correctionAdd("hall-mark", "hallmark");
 
@@ -10323,6 +10437,7 @@ namespace OverflowHelper.core
             correctionAdd("reveive", "receive");
 
             correctionAdd("recieves", "receives");
+            correctionAdd("recives", "receives");
 
             correctionAdd("recieving", "receiving");
             correctionAdd("recibing", "receiving");
@@ -11863,6 +11978,34 @@ namespace OverflowHelper.core
 
             correctionAdd("Beligum", "Belgium");
             correctionAdd("beligum", "Belgium");
+
+            correctionAdd("distination", "destination");
+            correctionAdd("dest", "destination");
+            correctionAdd("dist", "destination");
+
+            correctionAdd("distange", "distance");
+
+            correctionAdd("Distinct", "distinct");
+
+            correctionAdd("dinstinction", "distinction");
+
+            correctionAdd("destinguish", "distinguish");
+            correctionAdd("distiguich", "distinguish");
+            correctionAdd("distiguish", "distinguish");
+            correctionAdd("distinguis", "distinguish");
+
+            correctionAdd("distiguishing", "distinguishing");
+
+            correctionAdd("distil", "distill");
+            correctionAdd("destill", "distill");
+
+            correctionAdd("distribution of numbers", "Benford's law");
+
+            correctionAdd("Distcc", "distcc");
+
+            correctionAdd("distroy", "destroy");
+
+            correctionAdd("destoyed", "destroyed");
 
             correctionAdd("crypto-currency", "cryptocurrency");
             correctionAdd("crypto currency", "cryptocurrency");
@@ -15039,6 +15182,8 @@ namespace OverflowHelper.core
 
             correctionAdd("understud", "understood");
             correctionAdd("understoood", "understood");
+            correctionAdd("Understood", "understood");
+            correctionAdd("Unserstood", "understood");
 
             correctionAdd("missunderstood", "misunderstood");
 
@@ -15555,12 +15700,6 @@ namespace OverflowHelper.core
             correctionAdd("pb", "problem");
             correctionAdd("prom", "problem");
 
-            correctionAdd("leadin", "leading");
-
-            correctionAdd("bleeding edge", "bleeding-edge");
-
-            correctionAdd("cutting edge", "cutting-edge");
-
             correctionAdd("two-edged sword", "double-edged sword");
 
             correctionAdd("alledged", "alleged");
@@ -15654,6 +15793,7 @@ namespace OverflowHelper.core
 
             correctionAdd("aplicable", "applicable");
             correctionAdd("appliciable", "applicable");
+            correctionAdd("applicaple", "applicable");
 
             correctionAdd("tollerable", "tolerable");
 
@@ -19896,6 +20036,9 @@ namespace OverflowHelper.core
             correctionAdd("hdf5", "HDF5");
 
             correctionAdd("esoterical", "esoteric");
+
+            correctionAdd("esolang", "esoteric programming language");
+            correctionAdd("eso lang", "esoteric programming language");
 
             correctionAdd("opied", "copied");
             correctionAdd("copyied", "copied");
@@ -31169,48 +31312,6 @@ namespace OverflowHelper.core
             correctionAdd("uri", "URI");
             correctionAdd("Uri", "URI");
 
-            correctionAdd("trough", "through");
-            correctionAdd("thru", "through"); // Expansion
-            correctionAdd("througt", "through");
-            correctionAdd("threw", "through");
-            correctionAdd("thorugh", "through");
-            correctionAdd("throgh", "through");
-            correctionAdd("thro", "through");
-            correctionAdd("throuth", "through");
-            correctionAdd("tru", "through");
-            correctionAdd("througth", "through");
-            correctionAdd("throu", "through");
-            correctionAdd("throough", "through");
-            correctionAdd("througg", "through");
-            correctionAdd("throuh", "through");
-            correctionAdd("Throught", "through");
-            correctionAdd("throught", "through");
-            correctionAdd("throug", "through");
-            correctionAdd("throguh", "through");
-            correctionAdd("Troough", "through");
-            correctionAdd("troough", "through");
-            correctionAdd("thourgh", "through");
-            correctionAdd("trought", "through");
-            correctionAdd("rhought", "through");
-            correctionAdd("trhought", "through");
-            correctionAdd("throuogh", "through");
-
-            correctionAdd("trow", "throw");
-
-            correctionAdd("fallthrough", "fall-through");
-            correctionAdd("fall through", "fall-through");
-            correctionAdd("fall thought", "fall-through");
-            correctionAdd("fall though", "fall-through");
-            correctionAdd("fallthough", "fall-through");
-            correctionAdd("fall thru", "fall-through");
-
-            correctionAdd("walk through", "walkthrough");
-            correctionAdd("walk-through", "walkthrough");
-            correctionAdd("Walkthrough", "walkthrough");
-            correctionAdd("walk though", "walkthrough");
-
-            correctionAdd("pass through", "passthrough");
-
             correctionAdd("tut", "tutorial");
             correctionAdd("tutorail", "tutorial"); // Misspelling
             correctionAdd("tutiorial", "tutorial"); // Misspelling
@@ -31760,6 +31861,7 @@ namespace OverflowHelper.core
             correctionAdd("comb", "combination");
             correctionAdd("Combo", "combination");
             correctionAdd("combi", "combination");
+            correctionAdd("combonation", "combination");
 
             correctionAdd("IPV6", "IPv6");
             correctionAdd("ipv6", "IPv6");
@@ -32310,6 +32412,9 @@ namespace OverflowHelper.core
             correctionAdd("take a break", "wikiholiday");
 
             correctionAdd("faraday cage", "Faraday cage");
+
+            correctionAdd("Faraday's law", "Faraday's law of induction");
+            correctionAdd("faraday law", "Faraday's law of induction");
 
             correctionAdd("Balony", "baloney");
             correctionAdd("balony", "baloney");
@@ -35152,6 +35257,7 @@ namespace OverflowHelper.core
 
             correctionAdd("utilizing", "utilising");
             correctionAdd("utilozkng", "utilising");
+            correctionAdd("Utilizing", "utilising");
 
             correctionAdd("utilize", "utilise");
             correctionAdd("utilises", "utilise");
@@ -37013,8 +37119,6 @@ namespace OverflowHelper.core
             correctionAdd("constitude", "constitute");
             correctionAdd("constitue", "constitute");
 
-            correctionAdd("Distcc", "distcc");
-
             correctionAdd("eigther", "either");
             correctionAdd("eiether", "either");
             correctionAdd("eighter", "either");
@@ -37389,19 +37493,6 @@ namespace OverflowHelper.core
 
             correctionAdd("re-written", "rewritten");
             correctionAdd("Re-written", "rewritten");
-
-            correctionAdd("throughly", "thoroughly");
-            correctionAdd("thorougly", "thoroughly");
-            correctionAdd("throroughly", "thoroughly");
-            correctionAdd("throroughouly", "thoroughly");
-            correctionAdd("throughouly", "thoroughly");
-            correctionAdd("throughoutly", "thoroughly");
-            correctionAdd("thouroughly", "thoroughly");
-            correctionAdd("throuroughly", "thoroughly");
-            correctionAdd("Thoroughly", "thoroughly");
-
-            correctionAdd("roughy", "roughly");
-            correctionAdd("roughtly", "roughly");
 
             correctionAdd("runon", "run-on sentence"); // For expansion
             correctionAdd("run on", "run-on sentence"); // For expansion
@@ -38244,15 +38335,6 @@ namespace OverflowHelper.core
 
             correctionAdd("IFF", "iff");
 
-            correctionAdd("thourough", "thorough");
-            correctionAdd("Throughrough", "thorough");
-            correctionAdd("throughrough", "thorough");
-            correctionAdd("throrough", "thorough");
-            correctionAdd("throurough", "thorough");
-            correctionAdd("Throurough", "thorough");
-            correctionAdd("thougrough", "thorough");
-            correctionAdd("thoughrough", "thorough");
-
             correctionAdd("usuallally", "usually");
             correctionAdd("usally", "usually");
             correctionAdd("usuallly", "usually");
@@ -38641,10 +38723,6 @@ namespace OverflowHelper.core
 
             correctionAdd("tooo", "too");
 
-            correctionAdd("distination", "destination");
-            correctionAdd("dest", "destination");
-            correctionAdd("dist", "destination");
-
             correctionAdd("ASN1", "ASN.1");
             correctionAdd("ASN-1", "ASN.1");
 
@@ -38686,6 +38764,9 @@ namespace OverflowHelper.core
             correctionAdd("tellygram", "Telegram Messenger");
             correctionAdd("telegram", "Telegram Messenger");
             correctionAdd("Tg", "Telegram Messenger");
+
+            // A Python library for Telegram Messenger (mostly for bots)
+            correctionAdd("AIOGRAM", "aiogram");
 
             correctionAdd("LiVEJOURNAL", "LiveJournal");
             correctionAdd("Livejournal", "LiveJournal");
@@ -39100,8 +39181,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Repetitive strain injury", "RSI");
 
-            correctionAdd("swagger", "Swagger");
-
             correctionAdd("multi-core", "multicore");
             correctionAdd("multi core", "multicore");
             correctionAdd("muticore", "multicore");
@@ -39181,8 +39260,6 @@ namespace OverflowHelper.core
             correctionAdd("non-nonsensical", "nonsensical");
 
             correctionAdd("s/", "s/PATTERN/REPLACEMENT/msixpodualngcer");
-
-            correctionAdd("swollow", "swallow");
 
             correctionAdd("vocabolary", "vocabulary");
             correctionAdd("vocab", "vocabulary");
@@ -39602,6 +39679,10 @@ namespace OverflowHelper.core
             correctionAdd("sourrounding", "surrounding");
             correctionAdd("surrouding", "surrounding");
             correctionAdd("sorrounding", "surrounding");
+
+            correctionAdd("surounds", "surrounds");
+
+            correctionAdd("suround", "surround");
 
             correctionAdd("synchronious", "synchronous");
             correctionAdd("syncroniuous", "synchronous");
@@ -40400,10 +40481,6 @@ namespace OverflowHelper.core
 
             correctionAdd("misinterpeted", "misinterpreted");
             correctionAdd("misinterperted", "misinterpreted");
-
-            correctionAdd("distroy", "destroy");
-
-            correctionAdd("destoyed", "destroyed");
 
             correctionAdd("Ham Radio", "ham radio");
             correctionAdd("HAM radio", "ham radio");
@@ -41361,10 +41438,6 @@ namespace OverflowHelper.core
 
             correctionAdd("italian", "Italian");
             correctionAdd("Italien", "Italian");
-
-            correctionAdd("thoughout", "throughout");
-            correctionAdd("through out", "throughout");
-            correctionAdd("through-out", "throughout");
 
             correctionAdd("atlas V", "Atlas V");
 
@@ -43753,8 +43826,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Tertiary", "tertiary");
 
-            correctionAdd("througput", "throughput");
-
             correctionAdd("fire fight", "firefight");
             correctionAdd("fire-fight", "firefight");
 
@@ -43950,6 +44021,7 @@ namespace OverflowHelper.core
             correctionAdd("implicity", "implicitly");
             correctionAdd("imlicity", "implicitly");
             correctionAdd("impliciltly", "implicitly");
+            correctionAdd("implicly", "implicitly");
 
             correctionAdd("infeasable", "infeasible");
             correctionAdd("unfeasabe", "infeasible");
@@ -45196,6 +45268,10 @@ namespace OverflowHelper.core
             correctionAdd("Bizzare", "bizarre");
             correctionAdd("bizzare", "bizarre");
 
+            correctionAdd("realtion", "relation");
+
+            correctionAdd("Relational Calculus", "relational calculus");
+
             correctionAdd("rleationship", "relationship");
             correctionAdd("relation ship", "relationship");
             correctionAdd("realtionship", "relationship");
@@ -46175,8 +46251,6 @@ namespace OverflowHelper.core
             correctionAdd("wordwrap", "word wrap");
             correctionAdd("word-wrap", "word wrap");
 
-            correctionAdd("SWAG", "swag");
-
             correctionAdd("un-earn", "unearn");
 
             correctionAdd("beginns", "begins");
@@ -46944,9 +47018,6 @@ namespace OverflowHelper.core
 
             correctionAdd("pandoc", "Pandoc");
 
-            correctionAdd("SWAY", "Sway");
-            correctionAdd("sway", "Sway");
-
             correctionAdd("UCS2", "UCS-2");
             correctionAdd("ucs-2", "UCS-2");
 
@@ -47352,11 +47423,6 @@ namespace OverflowHelper.core
             correctionAdd("karl marx", "Karl Marx");
 
             correctionAdd("borne", "born");
-
-            correctionAdd("destinguish", "distinguish");
-            correctionAdd("distiguich", "distinguish");
-            correctionAdd("distiguish", "distinguish");
-            correctionAdd("distinguis", "distinguish");
 
             correctionAdd("Quasi", "quasi");
 
@@ -49042,8 +49108,6 @@ namespace OverflowHelper.core
 
             correctionAdd("reginol", "regional");
 
-            correctionAdd("Relational Calculus", "relational calculus");
-
             correctionAdd("Strangely", "strangely");
             correctionAdd("Strangly", "strangely");
             correctionAdd("strangly", "strangely");
@@ -49396,8 +49460,6 @@ namespace OverflowHelper.core
             correctionAdd("retro rocket", "retrorocket");
 
             correctionAdd("self reliant", "self-reliant");
-
-            correctionAdd("Swastika", "swastika");
 
             correctionAdd("threepronged", "three-pronged");
             correctionAdd("3 prong", "three-pronged");
@@ -50291,9 +50353,6 @@ namespace OverflowHelper.core
 
             correctionAdd("stars", "starts");
             correctionAdd("sarts", "starts");
-
-            correctionAdd("striketrough", "strike through");
-            correctionAdd("strikethrough", "strike through");
 
             correctionAdd("bitly", "Bitly");
             correctionAdd("Bit.ly", "Bitly");
@@ -51246,6 +51305,7 @@ namespace OverflowHelper.core
             correctionAdd("galary", "gallery");
             correctionAdd("galory", "gallery");
             correctionAdd("galleru", "gallery");
+            correctionAdd("galery", "gallery");
 
             correctionAdd("resove", "resolve");
             correctionAdd("reslove", "resolve");
@@ -51312,9 +51372,6 @@ namespace OverflowHelper.core
             correctionAdd("drumroll", "drum roll");
 
             correctionAdd("caucious", "cautious");
-
-            correctionAdd("swapiness", "swappiness");
-            correctionAdd("Swappiness", "swappiness");
 
             correctionAdd("appeace", "appease");
 
@@ -51909,9 +51966,6 @@ namespace OverflowHelper.core
             correctionAdd("César", "Julius Caesar");
 
             correctionAdd("software updater", "Software Updater");
-
-            correctionAdd("distil", "distill");
-            correctionAdd("destill", "distill");
 
             correctionAdd("high quality", "high-quality");
 
@@ -53210,8 +53264,6 @@ namespace OverflowHelper.core
 
             correctionAdd("sweetspot", "sweet spot");
 
-            correctionAdd("from another lens", "through another lens");
-
             correctionAdd("two body problem", "two-body problem");
 
             correctionAdd("CheckStyle", "Checkstyle");
@@ -53671,8 +53723,6 @@ namespace OverflowHelper.core
 
             correctionAdd("wald's equation", "Wald's equation");
 
-            correctionAdd("dinstinction", "distinction");
-
             correctionAdd("Trap Representation", "trap representation");
 
             correctionAdd("Reification", "reification");
@@ -54037,8 +54087,6 @@ namespace OverflowHelper.core
             correctionAdd("visio", "Visio");
 
             correctionAdd("contens", "contents");
-
-            correctionAdd("Distinct", "distinct");
 
             correctionAdd("do to", "due to");
             correctionAdd("Do to", "due to");
@@ -55375,8 +55423,6 @@ namespace OverflowHelper.core
             correctionAdd("Does", "does");
 
             correctionAdd("obtai", "obtain");
-
-            correctionAdd("surounds", "surrounds");
 
             correctionAdd("Sysctl", "sysctl");
 
@@ -57261,8 +57307,6 @@ namespace OverflowHelper.core
 
             correctionAdd("explaines", "explains");
 
-            correctionAdd("distiguishing", "distinguishing");
-
             correctionAdd("paired down", "pared down");
 
             correctionAdd("figth", "fight");
@@ -57480,8 +57524,6 @@ namespace OverflowHelper.core
             correctionAdd("counter clockwise", "counterclockwise");
 
             correctionAdd("Bellman-Ford", "Bellman–Ford algorithm");
-
-            correctionAdd("swaping", "swapping");
 
             correctionAdd("dijkstra's algorithm", "Dijkstra's algorithm");
 
@@ -57831,8 +57873,6 @@ namespace OverflowHelper.core
             correctionAdd("french drain", "French drain");
 
             correctionAdd("akka", "Akka");
-
-            correctionAdd("distribution of numbers", "Benford's law");
 
             correctionAdd("chanced", "changed");
 
@@ -58897,9 +58937,11 @@ namespace OverflowHelper.core
 
             correctionAdd("mean spirited", "mean-spirited");
 
-            correctionAdd("distange", "distance");
-
             correctionAdd("colide", "collide");
+
+            correctionAdd("BODMAS", "brackets, exponents, division/multiplication, addition/subtraction");
+            correctionAdd("BEDMAS", "brackets, exponents, division/multiplication, addition/subtraction");
+            correctionAdd("PEMDAS", "brackets, exponents, division/multiplication, addition/subtraction");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -90358,6 +90400,26 @@ namespace OverflowHelper.core
 
             URL_Add("emf", "https://en.wikipedia.org/wiki/Electromotive_force");
 
+            URL_Add("aiogram", "https://readthedocs.org/projects/aiogram/");
+
+            URL_Add("benchmarked", "https://en.wiktionary.org/wiki/benchmark#Verb");
+
+            URL_Add("bleed-through", "https://en.wiktionary.org/wiki/bleed-through#Noun");
+
+            URL_Add("brackets, exponents, division/multiplication, addition/subtraction", "https://en.wikipedia.org/wiki/Order_of_operations#Mnemonics");
+
+            URL_Add("esoteric programming language", "https://en.wikipedia.org/wiki/Esoteric_programming_language");
+
+            URL_Add("Faraday's law of induction", "https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction");
+
+            URL_Add("installations", "https://en.wiktionary.org/wiki/installation#Noun");
+
+            URL_Add("relation", "https://en.wiktionary.org/wiki/relation#Noun");
+
+            URL_Add("surround", "https://en.wiktionary.org/wiki/surround#Verb");
+
+            URL_Add("swap", "https://en.wiktionary.org/wiki/swap#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -93068,6 +93130,9 @@ namespace OverflowHelper.core
             correctionAdd("KC_2_", "2 keycode (KC_2. QMK. 31 (decimal))_");
             correctionAdd("31_", "2 keycode (KC_2. QMK. 31 (decimal))_");
 
+            correctionAdd("KC_4_", "4 keycode (KC_4. QMK. 33 (decimal))_");
+            correctionAdd("33_", "4 keycode (KC_4. QMK. 33 (decimal))_");
+
             correctionAdd("KC_5_", "5 keycode (KC_5. QMK. 34 (decimal))_");
             correctionAdd("34_", "5 keycode (KC_5. QMK. 34 (decimal))_");
 
@@ -93083,9 +93148,22 @@ namespace OverflowHelper.core
             correctionAdd("KC_9_", "9 keycode (KC_9. QMK. 38 (decimal))_");
             correctionAdd("38_", "9 keycode (KC_9. QMK. 38 (decimal))_");
 
+            // Alias: KC_ENT
+            correctionAdd("KC_ENTER_", "Return keycode (KC_ENTER. QMK. 40 (decimal))_");
+            correctionAdd("KC_ENT_", "Return keycode (KC_ENTER. QMK. 40 (decimal))_");
+            correctionAdd("Enter key_", "Return keycode (KC_ENTER. QMK. 40 (decimal))_");
+            correctionAdd("40_", "Return keycode (KC_ENTER. QMK. 40 (decimal))_");
+
             correctionAdd("KC_ESC_", "Esc keycode (KC_ESCAPE. QMK. 41 (decimal))_");
             correctionAdd("41_", "Esc keycode (KC_ESCAPE. QMK. 41 (decimal))_");
             correctionAdd("KC_ESCAPE_", "Esc keycode (KC_ESCAPE. QMK. 41 (decimal))_");
+
+            correctionAdd("KC_BACKSPACE_", "Backspace keycode (KC_BACKSPACE. QMK. 42 (decimal))_");
+            correctionAdd("KC_BSPC_", "Backspace keycode (KC_BACKSPACE. QMK. 42 (decimal))_");
+            correctionAdd("42_", "Backspace keycode (KC_BACKSPACE. QMK. 42 (decimal))_");
+
+            correctionAdd("KC_TAB_", "Tab keycode (KC_TAB. QMK. 43 (decimal))_");
+            correctionAdd("43_", "Tab keycode (KC_TAB. QMK. 43 (decimal))_");
 
             correctionAdd("KC_SPC_", "Space keycode (KC_SPACE. QMK. 44 (decimal))_");
             correctionAdd("44_", "Space keycode (KC_SPACE. QMK. 44 (decimal))_");
@@ -93098,6 +93176,7 @@ namespace OverflowHelper.core
             correctionAdd("55_", "Full stop keycode (KC_DOT. QMK. 55 (decimal))_");
 
             correctionAdd("KC_SLASH_", "Forward slash keycode (KC_SLASH. QMK. 56 (decimal))_");
+            correctionAdd("KC_SLSH_", "Forward slash keycode (KC_SLASH. QMK. 56 (decimal))_");
             correctionAdd("56_", "Forward slash keycode (KC_SLASH. QMK. 56 (decimal))_");
 
             correctionAdd("KC_F4_", "F4 keycode (KC_F4. QMK. 61 (decimal))_");
@@ -93106,22 +93185,28 @@ namespace OverflowHelper.core
             correctionAdd("KC_HOME_", "Home keycode (KC_HOME. QMK. 74 (decimal))_");
             correctionAdd("74_", "Home keycode (KC_HOME. QMK. 74 (decimal))_");
 
+            correctionAdd("KC_F6_", "F6 keycode (KC_F6. QMK. 63 (decimal))_");
+            correctionAdd("63_", "F6 keycode (KC_F6. QMK. 63 (decimal))_");
+
+            correctionAdd("KC_F12_", "F12 keycode (KC_F12. QMK. 69 (decimal))_");
+            correctionAdd("69_", "F12 keycode (KC_F12. QMK. 69 (decimal))_");
+
+            correctionAdd("KC_RIGHT_", "Right Arrow keycode (KC_RIGHT. QMK. 79 (decimal))_");
+            correctionAdd("KC_RGHT_", "Right Arrow keycode (KC_RIGHT. QMK. 79 (decimal))_");
+            correctionAdd("right arrow_", "Right Arrow keycode (KC_RIGHT. QMK. 79 (decimal))_");
+            correctionAdd("79_", "Right Arrow keycode (KC_RIGHT. QMK. 79 (decimal))_");
+
             correctionAdd("KC_LEFT_", "Left Arrow keycode (KC_LEFT. QMK. 80 (decimal))_");
             correctionAdd("left arrow_", "Left Arrow keycode (KC_LEFT. QMK. 80 (decimal))_");
             correctionAdd("80_", "Left Arrow keycode (KC_LEFT. QMK. 80 (decimal))_");
 
-            // Alias: KC_ENT
-            correctionAdd("KC_ENTER_", "Return keycode (KC_ENTER. QMK. 40 (decimal))_");
-            correctionAdd("KC_ENT_", "Return keycode (KC_ENTER. QMK. 40 (decimal))_");
-            correctionAdd("Enter key_", "Return keycode (KC_ENTER. QMK. 40 (decimal))_");
-            correctionAdd("40_", "Return keycode (KC_ENTER. QMK. 40 (decimal))_");
+            correctionAdd("KC_DOWN_", "Down Arrow keycode (KC_DOWN. QMK. 81 (decimal))_");
+            correctionAdd("down arrow_", "Down Arrow keycode (KC_DOWN. QMK. 81 (decimal))_");
+            correctionAdd("81_", "Down Arrow keycode (KC_DOWN. QMK. 81 (decimal))_");
 
-            correctionAdd("KC_BACKSPACE_", "Backspace keycode (KC_BACKSPACE. QMK. 42 (decimal))_");
-            correctionAdd("KC_BSPC_", "Backspace keycode (KC_BACKSPACE. QMK. 42 (decimal))_");
-            correctionAdd("42_", "Backspace keycode (KC_BACKSPACE. QMK. 42 (decimal))_");
-
-            correctionAdd("KC_TAB_", "Tab keycode (KC_TAB. QMK. 43 (decimal))_");
-            correctionAdd("43_", "Tab keycode (KC_TAB. QMK. 43 (decimal))_");
+            correctionAdd("KC_UP_", "Up Arrow keycode (KC_UP. QMK. 82 (decimal))_");
+            correctionAdd("up arrow_", "Up Arrow keycode (KC_UP. QMK. 82 (decimal))_");
+            correctionAdd("82_", "Up Arrow keycode (KC_UP. QMK. 82 (decimal))_");
 
             // For European keyboard layouts: The 102nd key, with
             // "<", ">" (with Shift), and "\" (with AltGr).
@@ -93816,6 +93901,10 @@ namespace OverflowHelper.core
 
             correctionAdd("VID_", "USB vendor ID_");
             correctionAdd("vendor ID_", "USB vendor ID_");
+
+            correctionAdd("commonmark_", "CommonMark_");
+
+            correctionAdd("utilising_", "using_");
 
             // URL mappings
             //
@@ -95610,6 +95699,22 @@ namespace OverflowHelper.core
             URL_Add("7 keycode (KC_7. QMK. 36 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
 
             URL_Add("Angle bracket keycode (KC_NONUS_BACKSLASH. QMK. 100 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("4 keycode (KC_4. QMK. 33 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("CommonMark_", "https://meta.stackexchange.com/questions/348746/were-switching-to-commonmark");
+
+            URL_Add("Down Arrow keycode (KC_DOWN. QMK. 81 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("F12 keycode (KC_F12. QMK. 69 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("F6 keycode (KC_F6. QMK. 63 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("Right Arrow keycode (KC_RIGHT. QMK. 79 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("Up Arrow keycode (KC_UP. QMK. 82 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("using_", "https://en.wikipedia.org/wiki/User:Tony1/How_to_improve_your_writing#Misplaced_formality");
 
         } //addLookupData_alternativeWordSet()
 
