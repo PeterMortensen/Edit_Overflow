@@ -1384,7 +1384,7 @@ namespace OverflowHelper.core
             correctionAdd("Macro keypad", "macro pad");
             correctionAdd("macro-pad", "macro pad");
 
-            // A type of switch for keyboards (not vendor-specific)
+             // A type of switch for keyboards (not vendor-specific)
             //
             // Alternative URL: <https://keyboardsexpert.com/what-are-rubber-dome-keyboards/>
             //
@@ -2269,6 +2269,7 @@ namespace OverflowHelper.core
             correctionAdd("Keypad", "numeric keypad");
             correctionAdd("keypad", "numeric keypad");
             correctionAdd("Num pad", "numeric keypad");
+            correctionAdd("key pad", "numeric keypad");
 
             // A key on a keyboard. Modifier.
             correctionAdd("CTRL", "Ctrl");
@@ -3872,6 +3873,15 @@ namespace OverflowHelper.core
             correctionAdd("benifit", "benefit");
             correctionAdd("benift", "benefit");
             correctionAdd("benfit", "benefit");
+
+            correctionAdd("proccess", "process");
+            correctionAdd("porcess", "process");
+            correctionAdd("provess", "process");
+            correctionAdd("procces", "process");
+            correctionAdd("proces", "process");
+            correctionAdd("Process", "process");
+            correctionAdd("proses", "process");
+            correctionAdd("prcoess", "process");
 
             correctionAdd("RUP", "Rational Unified Process");
             correctionAdd("rup", "Rational Unified Process");
@@ -5834,6 +5844,7 @@ namespace OverflowHelper.core
             correctionAdd("HAL effect", "Hall sensor");
             correctionAdd("HALL effect", "Hall sensor");
             correctionAdd("hall effect", "Hall sensor");
+            correctionAdd("Hall Effect", "Hall sensor");
 
             correctionAdd("after-effects", "After Effects");
             correctionAdd("after effects", "After Effects");
@@ -6345,17 +6356,18 @@ namespace OverflowHelper.core
             correctionAdd("couldent", "couldn’t");
             correctionAdd("couldt", "couldn’t");
 
-            correctionAdd("good will", "goodwill");
-            correctionAdd("good-will", "goodwill");
-
-            correctionAdd("good-willed", "goodwilled");
-
             correctionAdd("wil", "will");
             correctionAdd("wlil", "will");
             correctionAdd("wll", "will");
             correctionAdd("wiil", "will");
             correctionAdd("WIll", "will");
             correctionAdd("Wil", "will");
+            correctionAdd("swill", "will");
+
+            correctionAdd("good will", "goodwill");
+            correctionAdd("good-will", "goodwill");
+
+            correctionAdd("good-willed", "goodwilled");
 
             correctionAdd("you ll", "you’ll");
             correctionAdd("youll", "you’ll");
@@ -6505,8 +6517,13 @@ namespace OverflowHelper.core
             correctionAdd("Nanograv", "NANOGrav");
             correctionAdd("nanograv", "NANOGrav");
 
+            // Superconductors. Crystal.
             correctionAdd("CDW", "charge density wave");
             correctionAdd("Charge density wave", "charge density wave");
+
+            correctionAdd("chargepump", "charge pump");
+
+            correctionAdd("charge-carrier", "charge carrier");
 
             correctionAdd("cmb", "cosmic microwave background");
             correctionAdd("CMB", "cosmic microwave background");
@@ -6515,6 +6532,24 @@ namespace OverflowHelper.core
 
             correctionAdd("sscce", "short self-contained correct example");
             correctionAdd("SSCCE", "short self-contained correct example");
+
+            correctionAdd("Divx", "DivX");
+            correctionAdd("divx", "DivX");
+
+            correctionAdd("divi", "Divi");
+
+            correctionAdd("devide", "divide");
+
+            correctionAdd("dived", "divided");
+
+            correctionAdd("civider", "divider");
+
+            correctionAdd("DEI", "diversity, equity, and inclusion");
+
+            correctionAdd("divsor", "divisor");
+            correctionAdd("Divisor", "divisor");
+
+            correctionAdd("Division", "division");
 
             correctionAdd("algo", "algorithm");
             correctionAdd("alghorithm", "algorithm");
@@ -10326,6 +10361,28 @@ namespace OverflowHelper.core
             correctionAdd("teached", "taught");
             correctionAdd("taugth", "taught");
 
+            correctionAdd("mechnical", "mechanical");
+
+            correctionAdd("machanics", "mechanics");
+
+            correctionAdd("non-mechanical", "nonmechanical");
+            correctionAdd("non mechanical", "nonmechanical");
+
+            correctionAdd("mechanim", "mechanism");
+            correctionAdd("mechanisam", "mechanism");
+            correctionAdd("mecanism", "mechanism");
+            correctionAdd("meachanism", "mechanism");
+            correctionAdd("mechnism", "mechanism");
+            correctionAdd("mechnaism", "mechanism");
+
+            correctionAdd("Mechatronics", "mechatronics");
+
+            correctionAdd("MICV", "infantry fighting vehicle");
+            correctionAdd("IFV", "infantry fighting vehicle");
+            correctionAdd("mechanized infantry combat vehicle", "infantry fighting vehicle");
+
+            correctionAdd("Classical Mechanics", "classical mechanics");
+
             correctionAdd("Engineer", "engineer");
             correctionAdd("enginner", "engineer");
             correctionAdd("enginneer", "engineer");
@@ -10345,6 +10402,9 @@ namespace OverflowHelper.core
             correctionAdd("eng", "engineering");
             correctionAdd("engineeering", "engineering");
 
+            correctionAdd("Mechanical engineering", "mechanical engineering");
+            correctionAdd("Mechanical Engineering", "mechanical engineering");
+
             correctionAdd("reverse engineered", "reverse-engineered");
 
             correctionAdd("reverse engineer", "reverse-engineer");
@@ -10355,9 +10415,6 @@ namespace OverflowHelper.core
             correctionAdd("NRE", "non-recurring engineering");
 
             correctionAdd("QE", "quality engineering");
-
-            correctionAdd("Mechanical engineering", "mechanical engineering");
-            correctionAdd("Mechanical Engineering", "mechanical engineering");
 
             correctionAdd("Aeronautical Engineering", "aeronautical engineering");
 
@@ -15402,6 +15459,10 @@ namespace OverflowHelper.core
             correctionAdd("Bjarne stroustrup", "Bjarne Stroustrup");
             correctionAdd("bjarne stroustrup", "Bjarne Stroustrup");
             correctionAdd("stroustrup", "Bjarne Stroustrup");
+            correctionAdd("Strostrop", "Bjarne Stroustrup");
+            correctionAdd("Strostroup", "Bjarne Stroustrup");
+            correctionAdd("Stroustrop", "Bjarne Stroustrup");
+            correctionAdd("Stroustroup", "Bjarne Stroustrup");
 
             // A book. By Bjarne Stroustrup
             correctionAdd("Programming -- Principles and Practice Using C++", "Programming: Principles and Practice Using C++");
@@ -15564,6 +15625,7 @@ namespace OverflowHelper.core
             correctionAdd("implemetation", "implementation");
             correctionAdd("implemtation", "implementation");
             correctionAdd("Implementation", "implementation");
+            correctionAdd("implementatiuon", "implementation");
 
             correctionAdd("re-implementation", "reimplementation");
 
@@ -17145,6 +17207,7 @@ namespace OverflowHelper.core
             correctionAdd("differnet", "different");
             correctionAdd("differennt", "different");
             correctionAdd("differen", "different");
+            correctionAdd("diffezent", "different");
 
             correctionAdd("diffrence", "difference");
             correctionAdd("diference", "difference");
@@ -18889,6 +18952,7 @@ namespace OverflowHelper.core
             correctionAdd("requet", "request");
             correctionAdd("requste", "request");
             correctionAdd("rewuest", "request");
+            correctionAdd("reqeuest", "request");
 
             correctionAdd("childd", "child");
             correctionAdd("childe", "child");
@@ -22384,6 +22448,54 @@ namespace OverflowHelper.core
 
             correctionAdd("Nativescript", "NativeScript");
 
+            correctionAdd("patter", "pattern");
+            correctionAdd("patern", "pattern");
+            correctionAdd("patten", "pattern");
+
+            correctionAdd("anti pattern", "antipattern");
+            correctionAdd("anti-pattern", "antipattern");
+
+            correctionAdd("sub pattern", "subpattern");
+
+            correctionAdd("Design pattern", "design pattern");
+
+            correctionAdd("design patterns", "Design Patterns");
+            correctionAdd("Design patterns", "Design Patterns");
+
+            correctionAdd("Abstract Factory Pattern", "abstract factory pattern");
+
+            correctionAdd("Singleton", "singleton");
+            correctionAdd("singleton pattern", "singleton");
+            correctionAdd("Singleton pattern", "singleton");
+            correctionAdd("singltone", "singleton");
+            correctionAdd("singletone", "singleton");
+            correctionAdd("Singltone", "singleton");
+            correctionAdd("Singleton Pattern", "singleton");
+            correctionAdd("Singleton patern", "singleton");
+            correctionAdd("singlton", "singleton");
+            correctionAdd("Singelton", "singleton");
+            correctionAdd("singelton", "singleton");
+
+            correctionAdd("Observer Pattern", "observer pattern");
+            correctionAdd("observer", "observer pattern");
+            correctionAdd("observer design pattern", "observer pattern");
+
+            correctionAdd("Facade pattern", "facade pattern");
+            correctionAdd("facade", "facade pattern");
+            correctionAdd("Facade", "facade pattern");
+
+            correctionAdd("strategi pattern", "strategy pattern");
+
+            correctionAdd("Command pattern", "command pattern");
+            correctionAdd("Command objects", "command pattern");
+            correctionAdd("command object", "command pattern");
+            correctionAdd("command objects", "command pattern");
+
+            correctionAdd("command-query separation", "command–query separation");
+            correctionAdd("CQS", "command–query separation");
+
+            correctionAdd("Repository Pattern", "repository pattern");
+
             // Alternative URLs:
             //
             //   <https://www.ibm.com/docs/en/was/8.5.5?topic=SSEQTP_8.5.5/com.ibm.websphere.javadoc.doc/web/spidocs/com/ibm/wsspi/uow/UOWManager.html>
@@ -22398,6 +22510,17 @@ namespace OverflowHelper.core
             correctionAdd("unit of work", "unit of work pattern");
             correctionAdd("Unit Of Work", "unit of work pattern");
             correctionAdd("Unit of Work pattern", "unit of work pattern");
+            correctionAdd("UnitOfWork", "unit of work pattern");
+            correctionAdd("unitofwork", "unit of work pattern");
+
+            correctionAdd("Factory Pattern", "factory pattern");
+            correctionAdd("fabrique method", "factory pattern");
+
+            correctionAdd("Module pattern", "module pattern");
+
+            correctionAdd("Page Object Pattern", "page object pattern");
+
+            correctionAdd("async/await", "async/await pattern");
 
             correctionAdd("Google", "google"); // The verb...
             correctionAdd("Google (verb)", "google");
@@ -25141,6 +25264,88 @@ namespace OverflowHelper.core
 
             correctionAdd("Physics Education Research", "physics education research");
 
+            correctionAdd("physisist", "physicist");
+            correctionAdd("physist", "physicist");
+            correctionAdd("Physicist", "physicist");
+            correctionAdd("physicis", "physicist");
+            correctionAdd("phycisist", "physicist");
+
+            // A physicist. Nobel Prize winner
+            correctionAdd("Hooft", "Gerard 't Hooft");
+            correctionAdd("Hofft", "Gerard 't Hooft");
+
+            // A physicist (that people are afraid of)
+            correctionAdd("Susskind", "Leonard Susskind");
+
+            // A physicist
+            //
+            // Effectively Voldemort (at 01 min 36 secs) in the
+            // physics world. Eric Weinstein is terrified of
+            // Edward Witten. Not making contact with reality.
+            //
+            correctionAdd("Witten", "Edward Witten");
+
+            correctionAdd("unit-less", "unitless");
+            correctionAdd("unit less", "unitless");
+
+            correctionAdd("Navier Stokes equation", "Navier–Stokes equations");
+
+            // Not to be confused with PhysicsOverflow,
+            // <https://en.wikipedia.org/wiki/PhysicsOverflow>
+            //
+            correctionAdd("PF", "Physics Forums");
+            correctionAdd("physics forum", "Physics Forums");
+
+            // Physics. Quantum mechanics. Mathematics.
+            correctionAdd("John Bell", "John Stewart Bell");
+
+            // Particle physics
+            correctionAdd("A Pais", "Abraham Pais");
+
+            // Particle physics
+            //
+            // Alternative URL (1972 paper):
+            //
+            //   <https://www.sciencedirect.com/science/article/abs/pii/0370269372905321>
+            //
+            correctionAdd("Bouchiat", "Claude Bouchiat");
+
+            // Particle physics
+            //
+            // Alternative URL (1972 paper):
+            //
+            //   <https://www.sciencedirect.com/science/article/abs/pii/0370269372905321>
+            //
+            correctionAdd("Iliopoulos", "John Iliopoulos");
+
+            // Particle physics
+            //
+            // Alternative URL (1972 paper):
+            //
+            //   <https://www.sciencedirect.com/science/article/abs/pii/0370269372905321>
+            //
+            correctionAdd("Meyer", "Philippe Meyer");
+
+            // Particle physics
+            //
+            // Alternative URL:
+            //
+            //   <https://science.nd.edu/news-and-media/news/physicist-tsai-a-high-energy-theorist-joins-notre-dame-faculty/>
+            //
+            correctionAdd("Tsai", "Yuhsin Tsai");
+
+            // Particle physics
+            correctionAdd("d meson", "D meson");
+
+            // Particle physics
+            correctionAdd("Lee", "Benjamin W. Lee");
+
+            // Particle physics
+            correctionAdd("Gaillard", "Mary K. Gaillard");
+
+            // Particle physics
+            correctionAdd("Pauli", "Wolfgang Pauli");
+
             correctionAdd("researche", "research");
             correctionAdd("reseache", "research");
             correctionAdd("re-search", "research");
@@ -26105,8 +26310,6 @@ namespace OverflowHelper.core
             correctionAdd("attritube", "attribute");
 
             correctionAdd("sub-attribute", "subattribute");
-
-            correctionAdd("sub pattern", "subpattern");
 
             // Alternative URL:
             //
@@ -27690,14 +27893,6 @@ namespace OverflowHelper.core
             correctionAdd("remote desktop", "Remote Desktop Connection");
             correctionAdd("Remote Desktop", "Remote Desktop Connection");
             correctionAdd("Remote desktop", "Remote Desktop Connection");
-
-            correctionAdd("proccess", "process");
-            correctionAdd("porcess", "process");
-            correctionAdd("provess", "process");
-            correctionAdd("procces", "process");
-            correctionAdd("proces", "process");
-            correctionAdd("Process", "process");
-            correctionAdd("proses", "process");
 
             correctionAdd("Installshield", "InstallShield");
             correctionAdd("installshield", "InstallShield");
@@ -30153,26 +30348,6 @@ namespace OverflowHelper.core
             correctionAdd("User interface", "user interface");
             correctionAdd("user-interface", "user interface");
 
-            correctionAdd("mechanim", "mechanism");
-            correctionAdd("mechanisam", "mechanism");
-            correctionAdd("mecanism", "mechanism");
-            correctionAdd("meachanism", "mechanism");
-            correctionAdd("mechnism", "mechanism");
-            correctionAdd("mechnaism", "mechanism");
-
-            correctionAdd("non-mechanical", "nonmechanical");
-            correctionAdd("non mechanical", "nonmechanical");
-
-            correctionAdd("Mechatronics", "mechatronics");
-
-            correctionAdd("machanics", "mechanics");
-
-            correctionAdd("MICV", "infantry fighting vehicle");
-            correctionAdd("IFV", "infantry fighting vehicle");
-            correctionAdd("mechanized infantry combat vehicle", "infantry fighting vehicle");
-
-            correctionAdd("Classical Mechanics", "classical mechanics");
-
             correctionAdd("wget", "Wget");
             correctionAdd("WGET", "Wget");
             correctionAdd("WGet", "Wget");
@@ -31055,6 +31230,8 @@ namespace OverflowHelper.core
             correctionAdd("iself", "itself");
             correctionAdd("itselve", "itself");
             correctionAdd("itsel", "itself");
+            correctionAdd("it's self", "itself");
+            correctionAdd("its self", "itself");
 
             correctionAdd("jpeg", "JPEG");
             correctionAdd("Jpeg", "JPEG");
@@ -32038,22 +32215,6 @@ namespace OverflowHelper.core
             correctionAdd("Django-Rest-Framework", "Django REST Framework");
             correctionAdd("Django REST framework", "Django REST Framework");
 
-            correctionAdd("Divx", "DivX");
-            correctionAdd("divx", "DivX");
-
-            correctionAdd("divi", "Divi");
-
-            correctionAdd("devide", "divide");
-
-            correctionAdd("civider", "divider");
-
-            correctionAdd("DEI", "diversity, equity, and inclusion");
-
-            correctionAdd("divsor", "divisor");
-            correctionAdd("Divisor", "divisor");
-
-            correctionAdd("Division", "division");
-
             correctionAdd("Binary Search", "binary search");
 
             correctionAdd("wolf algorithm", "Wolff algorithm");
@@ -32282,6 +32443,7 @@ namespace OverflowHelper.core
 
             correctionAdd("tody", "today");
             correctionAdd("Today", "today");
+            correctionAdd("todan", "today");
 
             correctionAdd("todays", "today's");
             correctionAdd("Today's", "today's");
@@ -32415,6 +32577,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Faraday's law", "Faraday's law of induction");
             correctionAdd("faraday law", "Faraday's law of induction");
+            correctionAdd("Faraday's Law", "Faraday's law of induction");
 
             correctionAdd("Balony", "baloney");
             correctionAdd("balony", "baloney");
@@ -32599,18 +32762,6 @@ namespace OverflowHelper.core
             correctionAdd("Nordtsream", "Nord Stream");
 
             correctionAdd("opera mini", "Opera Mini");
-
-            correctionAdd("Singleton", "singleton");
-            correctionAdd("singleton pattern", "singleton");
-            correctionAdd("Singleton pattern", "singleton");
-            correctionAdd("singltone", "singleton");
-            correctionAdd("singletone", "singleton");
-            correctionAdd("Singltone", "singleton");
-            correctionAdd("Singleton Pattern", "singleton");
-            correctionAdd("Singleton patern", "singleton");
-            correctionAdd("singlton", "singleton");
-            correctionAdd("Singelton", "singleton");
-            correctionAdd("singelton", "singleton");
 
             correctionAdd("sdhc", "SDHC");
 
@@ -32856,6 +33007,7 @@ namespace OverflowHelper.core
             correctionAdd("equiv", "equivalent");
             correctionAdd("equivent", "equivalent");
             correctionAdd("equvalent", "equivalent");
+            correctionAdd("equiavalent", "equivalent");
 
             correctionAdd("parallels", "Parallels");
 
@@ -33233,6 +33385,7 @@ namespace OverflowHelper.core
             correctionAdd("prerequiresite", "prerequisite");
 
             correctionAdd("requites", "requisites"); // Misspelling.
+            correctionAdd("requisits", "requisites");
 
             correctionAdd("straight forward", "straightforward");
             correctionAdd("straight-forwards", "straightforward");
@@ -34279,6 +34432,7 @@ namespace OverflowHelper.core
             correctionAdd("necessarry", "necessary");
             correctionAdd("necessasry", "necessary");
             correctionAdd("necesserry", "necessary");
+            correctionAdd("nessesary", "necessary");
 
             correctionAdd("necessaraily", "necessarily");
             correctionAdd("nessessarily", "necessarily");
@@ -37794,6 +37948,9 @@ namespace OverflowHelper.core
             correctionAdd("Object-Oriented", "object-oriented (OO)");
             correctionAdd("Object-oriented", "object-oriented (OO)");
 
+            // Object-oriented programming
+            correctionAdd("God Object", "god object");
+
             correctionAdd("obselete", "obsolete");
             correctionAdd("obsolute", "obsolete");
             correctionAdd("obsolote", "obsolete");
@@ -40570,20 +40727,6 @@ namespace OverflowHelper.core
             correctionAdd("recurrence", "recursion");
             correctionAdd("resursion", "recursion");
 
-            correctionAdd("patter", "pattern");
-            correctionAdd("patern", "pattern");
-            correctionAdd("patten", "pattern");
-
-            correctionAdd("Observer Pattern", "observer pattern");
-            correctionAdd("observer", "observer pattern");
-            correctionAdd("observer design pattern", "observer pattern");
-
-            correctionAdd("Facade pattern", "facade pattern");
-            correctionAdd("facade", "facade pattern");
-            correctionAdd("Facade", "facade pattern");
-
-            correctionAdd("strategi pattern", "strategy pattern");
-
             correctionAdd("armbian", "Armbian");
 
             correctionAdd("Hostgator", "HostGator");
@@ -41723,32 +41866,6 @@ namespace OverflowHelper.core
             correctionAdd("obatining", "obtaining");
             correctionAdd("obtaning", "obtaining");
 
-            correctionAdd("physisist", "physicist");
-            correctionAdd("physist", "physicist");
-            correctionAdd("Physicist", "physicist");
-            correctionAdd("physicis", "physicist");
-            correctionAdd("phycisist", "physicist");
-
-            // A physicist. Nobel Prize winner
-            correctionAdd("Hooft", "Gerard 't Hooft");
-            correctionAdd("Hofft", "Gerard 't Hooft");
-
-            // A physicist (that people are afraid of)
-            correctionAdd("Susskind", "Leonard Susskind");
-
-            // A physicist
-            //
-            // Effectively Voldemort (at 01 min 36 secs) in the
-            // physics world. Eric Weinstein is terrified of
-            // Edward Witten. Not making contact with reality.
-            //
-            correctionAdd("Witten", "Edward Witten");
-
-            correctionAdd("unit-less", "unitless");
-            correctionAdd("unit less", "unitless");
-
-            correctionAdd("Navier Stokes equation", "Navier–Stokes equations");
-
             correctionAdd("yaourt", "Yaourt");
             correctionAdd("Yet AnOther User Repository Tool", "Yaourt");
 
@@ -41990,17 +42107,9 @@ namespace OverflowHelper.core
             correctionAdd("Pak", "Pakistan");
             correctionAdd("pakistan", "Pakistan");
 
-            correctionAdd("anti pattern", "antipattern");
-            correctionAdd("anti-pattern", "antipattern");
-
             correctionAdd("cplex", "CPLEX");
             correctionAdd("Cplex", "CPLEX");
             correctionAdd("IBM ILOG CPLEX Optimization Studio", "CPLEX");
-
-            correctionAdd("design patterns", "Design Patterns");
-            correctionAdd("Design patterns", "Design Patterns");
-
-            correctionAdd("Design pattern", "design pattern");
 
             correctionAdd("hamful", "harmful");
 
@@ -42603,8 +42712,6 @@ namespace OverflowHelper.core
             correctionAdd("payed", "paid");
             correctionAdd("paied", "paid");
 
-            correctionAdd("chargepump", "charge pump");
-
             correctionAdd("cypress", "Cypress");
 
             correctionAdd("taiwan", "Taiwan");
@@ -43196,9 +43303,6 @@ namespace OverflowHelper.core
             correctionAdd("Cunningham", "Ward Cunningham");
 
             correctionAdd("yandex", "Yandex");
-
-            correctionAdd("Factory Pattern", "factory pattern");
-            correctionAdd("fabrique method", "factory pattern");
 
             correctionAdd("maner", "manner");
             correctionAdd("manor", "manner");
@@ -45568,6 +45672,7 @@ namespace OverflowHelper.core
 
             correctionAdd("richard feynman", "Richard Feynman");
             correctionAdd("faynman", "Richard Feynman");
+            correctionAdd("Feynman", "Richard Feynman");
 
             correctionAdd("steam", "Steam");
 
@@ -46276,8 +46381,6 @@ namespace OverflowHelper.core
 
             correctionAdd("insure", "ensure");
 
-            correctionAdd("Module pattern", "module pattern");
-
             correctionAdd("re-pair", "repair");
 
             correctionAdd("purify", "Purify");
@@ -46318,8 +46421,6 @@ namespace OverflowHelper.core
 
             correctionAdd("criticization", "critique");
             correctionAdd("Critique", "critique");
-
-            correctionAdd("Page Object Pattern", "page object pattern");
 
             correctionAdd("Cloud computing", "cloud computing");
             correctionAdd("cloud", "cloud computing");
@@ -52546,6 +52647,10 @@ namespace OverflowHelper.core
 
             correctionAdd("amiga", "Amiga");
 
+            correctionAdd("A1200", "Amiga 1200");
+
+            correctionAdd("Amiga OS", "AmigaOS");
+
             correctionAdd("Kildall", "Gary Kildall");
 
             correctionAdd("dail", "dial");
@@ -52898,8 +53003,6 @@ namespace OverflowHelper.core
             correctionAdd("Web Framework", "web framework");
 
             correctionAdd("appologies", "apologies");
-
-            correctionAdd("async/await", "async/await pattern");
 
             correctionAdd("B&M", "brick and mortar");
             correctionAdd("Brick and Mortar store", "brick and mortar");
@@ -54721,8 +54824,6 @@ namespace OverflowHelper.core
             correctionAdd("x-2 wyvern", "X-02 Wyvern");
 
             correctionAdd("abstarct", "abstract");
-
-            correctionAdd("Abstract Factory Pattern", "abstract factory pattern");
 
             correctionAdd("age wise", "agewise");
 
@@ -56618,11 +56719,6 @@ namespace OverflowHelper.core
             correctionAdd("self referential", "self-referential");
             correctionAdd("Self referential", "self-referential");
 
-            correctionAdd("Command pattern", "command pattern");
-            correctionAdd("Command objects", "command pattern");
-            correctionAdd("command object", "command pattern");
-            correctionAdd("command objects", "command pattern");
-
             correctionAdd("fulliest", "fullest");
 
             correctionAdd("entirely copied", "When should answers consisting entirely of cited, copied content be flagged?");
@@ -57386,12 +57482,6 @@ namespace OverflowHelper.core
             correctionAdd("non-volatile", "nonvolatile");
             correctionAdd("nonvolative", "nonvolatile");
 
-            // Not to be confused with PhysicsOverflow,
-            // <https://en.wikipedia.org/wiki/PhysicsOverflow>
-            //
-            correctionAdd("PF", "Physics Forums");
-            correctionAdd("physics forum", "Physics Forums");
-
             correctionAdd("step-wise", "stepwise");
 
             correctionAdd("superluminous", "superluminal");
@@ -57573,6 +57663,7 @@ namespace OverflowHelper.core
             correctionAdd("cornner", "corner");
 
             correctionAdd("lorentz force", "Lorentz force");
+            correctionAdd("lorentz force law", "Lorentz force");
 
             correctionAdd("re-emit", "reemit");
 
@@ -58003,6 +58094,7 @@ namespace OverflowHelper.core
             correctionAdd("eat-up", "eat up");
 
             correctionAdd("civilization", "civilisation");
+            correctionAdd("civ", "civilisation");
 
             correctionAdd("express himself", "express yourself");
             correctionAdd("express herself", "express yourself");
@@ -58281,9 +58373,6 @@ namespace OverflowHelper.core
             correctionAdd("Zwillo", "Zillow");
 
             correctionAdd("draw back", "drawback");
-
-            // Physics. Quantum mechanics. Mathematics.
-            correctionAdd("John Bell", "John Stewart Bell");
 
             // The painting
             correctionAdd("mona lisa", "Mona Lisa");
@@ -58942,6 +59031,15 @@ namespace OverflowHelper.core
             correctionAdd("BODMAS", "brackets, exponents, division/multiplication, addition/subtraction");
             correctionAdd("BEDMAS", "brackets, exponents, division/multiplication, addition/subtraction");
             correctionAdd("PEMDAS", "brackets, exponents, division/multiplication, addition/subtraction");
+
+            correctionAdd("dig in to", "dig into");
+            correctionAdd("deep in to", "dig into");
+
+            // Android
+            correctionAdd("Memu", "MEmu Play");
+            correctionAdd("memu", "MEmu Play");
+
+            correctionAdd("missframed", "misframed");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -90420,6 +90518,46 @@ namespace OverflowHelper.core
 
             URL_Add("swap", "https://en.wiktionary.org/wiki/swap#Verb");
 
+            URL_Add("charge carrier", "https://en.wiktionary.org/wiki/charge_carrier#Noun");
+
+            URL_Add("Abraham Pais", "https://en.wikipedia.org/wiki/Abraham_Pais");
+
+            URL_Add("Amiga 1200", "https://en.wikipedia.org/wiki/Amiga_1200");
+
+            URL_Add("AmigaOS", "https://en.wikipedia.org/wiki/AmigaOS");
+
+            URL_Add("Benjamin W. Lee", "https://en.wikipedia.org/wiki/Benjamin_W._Lee");
+
+            URL_Add("Claude Bouchiat", "https://en.wikipedia.org/wiki/Claude_Bouchiat");
+
+            URL_Add("command–query separation", "https://en.wikipedia.org/wiki/Command%E2%80%93query_separation");
+
+            URL_Add("D meson", "https://en.wikipedia.org/wiki/D_meson");
+
+            URL_Add("dig into", "https://en.wiktionary.org/wiki/dig_into#Verb");
+
+            URL_Add("divided", "https://en.wiktionary.org/wiki/divide#Verb");
+
+            URL_Add("god object", "https://en.wikipedia.org/wiki/God_object");
+
+            URL_Add("John Iliopoulos", "https://en.wikipedia.org/wiki/John_Iliopoulos");
+
+            URL_Add("Mary K. Gaillard", "https://en.wikipedia.org/wiki/Mary_K._Gaillard");
+
+            URL_Add("mechanical", "https://en.wiktionary.org/wiki/mechanical#Adjective");
+
+            URL_Add("MEmu Play", "https://wikitia.com/wiki/MEmu_Play");
+
+            URL_Add("misframed", "https://en.wiktionary.org/wiki/misframe#Verb");
+
+            URL_Add("Philippe Meyer", "https://fr.wikipedia.org/wiki/Philippe_Meyer_(physicien)");
+
+            URL_Add("repository pattern", "https://softwareengineering.stackexchange.com/questions/132813/whos-the-author-creator-of-the-repository-pattern");
+
+            URL_Add("Wolfgang Pauli", "https://en.wikipedia.org/wiki/Wolfgang_Pauli");
+
+            URL_Add("Yuhsin Tsai", "https://physics.nd.edu/people/yuhsin-tsai/");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -93182,14 +93320,22 @@ namespace OverflowHelper.core
             correctionAdd("KC_F4_", "F4 keycode (KC_F4. QMK. 61 (decimal))_");
             correctionAdd("61_", "F4 keycode (KC_F4. QMK. 61 (decimal))_");
 
-            correctionAdd("KC_HOME_", "Home keycode (KC_HOME. QMK. 74 (decimal))_");
-            correctionAdd("74_", "Home keycode (KC_HOME. QMK. 74 (decimal))_");
-
             correctionAdd("KC_F6_", "F6 keycode (KC_F6. QMK. 63 (decimal))_");
             correctionAdd("63_", "F6 keycode (KC_F6. QMK. 63 (decimal))_");
 
             correctionAdd("KC_F12_", "F12 keycode (KC_F12. QMK. 69 (decimal))_");
             correctionAdd("69_", "F12 keycode (KC_F12. QMK. 69 (decimal))_");
+
+            correctionAdd("KC_HOME_", "Home keycode (KC_HOME. QMK. 74 (decimal))_");
+            correctionAdd("74_", "Home keycode (KC_HOME. QMK. 74 (decimal))_");
+
+            correctionAdd("KC_PGUP_", "Page Up keycode (KC_PAGE_UP. QMK. 75 (decimal))_");
+            correctionAdd("KC_PAGE_UP_", "Page Up keycode (KC_PAGE_UP. QMK. 75 (decimal))_");
+            correctionAdd("75_", "Page Up keycode (KC_PAGE_UP. QMK. 75 (decimal))_");
+
+            correctionAdd("KC_PGDN_", "Page Down keycode (KC_PAGE_DOWN. QMK. 78 (decimal))_");
+            correctionAdd("KC_PAGE_DOWN_", "Page Down keycode (KC_PAGE_DOWN. QMK. 78 (decimal))_");
+            correctionAdd("78_", "Page Down keycode (KC_PAGE_DOWN. QMK. 78 (decimal))_");
 
             correctionAdd("KC_RIGHT_", "Right Arrow keycode (KC_RIGHT. QMK. 79 (decimal))_");
             correctionAdd("KC_RGHT_", "Right Arrow keycode (KC_RIGHT. QMK. 79 (decimal))_");
@@ -95715,6 +95861,10 @@ namespace OverflowHelper.core
             URL_Add("Up Arrow keycode (KC_UP. QMK. 82 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
 
             URL_Add("using_", "https://en.wikipedia.org/wiki/User:Tony1/How_to_improve_your_writing#Misplaced_formality");
+
+            URL_Add("Page Down keycode (KC_PAGE_DOWN. QMK. 78 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("Page Up keycode (KC_PAGE_UP. QMK. 75 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
 
         } //addLookupData_alternativeWordSet()
 
