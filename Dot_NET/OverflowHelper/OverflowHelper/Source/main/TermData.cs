@@ -1768,6 +1768,8 @@ namespace OverflowHelper.core
             correctionAdd("Keythron V5", "Keychron V5 ISO");
             correctionAdd("Keytron v5", "Keychron V5 ISO");
             correctionAdd("Keythron v5", "Keychron V5 ISO");
+            correctionAdd("keychron/v5", "Keychron V5 ISO");
+            correctionAdd("v5", "Keychron V5 ISO");
 
             // A full-size mechanical keyboard from Keychron.
             // Gateron switches.
@@ -10678,6 +10680,8 @@ namespace OverflowHelper.core
             correctionAdd("cChatGPT", "ChatGPT");
             correctionAdd("chstGPT", "ChatGPT");
             correctionAdd("CrapGPT", "ChatGPT");
+            correctionAdd("Chat gpt", "ChatGPT");
+            correctionAdd("Chat-gpt", "ChatGPT");
 
             // Artificial intelligence (AI).
             correctionAdd("human annotator", "human annotator for AI");
@@ -13459,11 +13463,57 @@ namespace OverflowHelper.core
             // A Linux distribution
             correctionAdd("PC Linux OS", "PCLinuxOS");
 
-            // A Linux distribution
+            // Effectively a (lightweight) Linux distribution
+            //
+            // Some variants support 32 bit.
+            // JWM window manager.
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=qUpdHF69BQY>
+            //
+            correctionAdd("puppy linux", "Puppy Linux");
+            correctionAdd("Puppy", "Puppy Linux");
+
+            // A lightweight Linux distribution
+            // It supports 32 bit.
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=qUpdHF69BQY>
+            //
             correctionAdd("AntiX Linux", "antiX");
             correctionAdd("AntiX", "antiX");
             correctionAdd("antix", "antiX");
             correctionAdd("Antix", "antiX");
+
+            // A lightweight Linux distribution. Based on Debian.
+            correctionAdd("q4os", "Q4OS");
+
+            // A lightweight Linux distribution.
+            // But not 32 bit (based on Ubuntu LTS).
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=qUpdHF69BQY>
+            //
+            correctionAdd("linux lite", "Linux Lite");
+
+            // A lightweight Linux distribution.
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=qUpdHF69BQY>
+            //
+            correctionAdd("mabox", "Mabox Linux");
+            correctionAdd("Mabox", "Mabox Linux");
+
+            // Linux. A window manager.
+            correctionAdd("icewm", "IceWM");
+
+            // Linux. A window manager.
+            correctionAdd("Joe's Window Manager", "JWM");
+            correctionAdd("jwm", "JWM");
 
             // A Linux distribution
             correctionAdd("Alma Linux", "AlmaLinux");
@@ -13509,9 +13559,6 @@ namespace OverflowHelper.core
 
             // A Linux distribution
             correctionAdd("KANOTIX", "Kanotix");
-
-            // A Linux distribution
-            correctionAdd("linux lite", "Linux Lite");
 
             // A Linux distribution
             correctionAdd("Garuda", "Garuda Linux");
@@ -13572,10 +13619,6 @@ namespace OverflowHelper.core
 
             // A Linux distribution
             correctionAdd("pureos", "PureOS");
-
-            // Effectively a Linux distribution
-            correctionAdd("puppy linux", "Puppy Linux");
-            correctionAdd("Puppy", "Puppy Linux");
 
             // A Linux distribution
             correctionAdd("moonlight", "Moonlight");
@@ -24480,6 +24523,7 @@ namespace OverflowHelper.core
             correctionAdd("12.3", "macOS&nbsp;v12 (Monterey)");
             correctionAdd("macOS 12.3", "macOS&nbsp;v12 (Monterey)");
             correctionAdd("12.6", "macOS&nbsp;v12 (Monterey)");
+            correctionAdd("Macos Monterey", "macOS&nbsp;v12 (Monterey)");
 
             correctionAdd("macOS 13", "macOS&nbsp;v13 (Ventura)");
             correctionAdd("macOS v13 (Ventura)", "macOS&nbsp;v13 (Ventura)"); // Sort of identity mapping
@@ -24683,6 +24727,8 @@ namespace OverflowHelper.core
             correctionAdd("kohms", "kilohm");
             correctionAdd("kilo-ohm", "kilohm");
             correctionAdd("Kilohm", "kilohm");
+            correctionAdd("k Ohm", "kilohm");
+            correctionAdd("k ohm", "kilohm");
 
             correctionAdd("Mohm", "megohm");
             correctionAdd("megaohm", "megohm");
@@ -25943,6 +25989,8 @@ namespace OverflowHelper.core
             correctionAdd("rgb", "RGB");
             correctionAdd("rbg", "RGB"); // Letter order (typo)
             correctionAdd("RBG", "RGB"); // Letter order (typo)
+            correctionAdd("BGR", "RGB"); // Though it may be correct in an OpenCV context.
+            correctionAdd("bgr", "RGB");
 
             correctionAdd("rgba", "RGBA");
 
@@ -25950,6 +25998,15 @@ namespace OverflowHelper.core
 
             // Related to RGB
             correctionAdd("Alpha channel", "alpha channel");
+
+            // Related to RGB
+            correctionAdd("hsv", "HSV");
+            correctionAdd("hue, saturation, lightness", "HSV");
+
+            // Related to RGB
+            correctionAdd("colorspace", "colour space");
+            correctionAdd("color-space", "colour space");
+            correctionAdd("colourspace", "colour space");
 
             correctionAdd("modifiy", "modify");
             correctionAdd("modificate", "modify");
@@ -36377,6 +36434,14 @@ namespace OverflowHelper.core
 
             correctionAdd("visualastion", "visualisation");
 
+            // Electronics. Simulation.
+            correctionAdd("Spice", "SPICE");
+            correctionAdd("spice", "SPICE");
+
+            // Electronics. Simulation.
+            correctionAdd("hspice", "HSPICE");
+
+            // Electronics. Simulation.
             correctionAdd("ltspice", "LTspice");
             correctionAdd("LTSpice", "LTspice");
             correctionAdd("LTSPICE", "LTspice");
@@ -43967,6 +44032,8 @@ namespace OverflowHelper.core
             correctionAdd("serioulsy", "seriously");
             correctionAdd("seriouslsy", "seriously");
             correctionAdd("serously", "seriously");
+            correctionAdd("SRSLY", "seriously");
+            correctionAdd("srsly", "seriously");
 
             correctionAdd("unvind", "unwind");
 
@@ -47458,6 +47525,7 @@ namespace OverflowHelper.core
             correctionAdd("dangarous", "dangerous");
             correctionAdd("dengerous", "dangerous");
             correctionAdd("dangrous", "dangerous");
+            correctionAdd("dangeriuos", "dangerous");
 
             correctionAdd("up trend", "uptrend");
 
@@ -49001,8 +49069,6 @@ namespace OverflowHelper.core
 
             correctionAdd("dml", "DML");
             correctionAdd("data manipulation language", "DML");
-
-            correctionAdd("hspice", "HSPICE");
 
             correctionAdd("sklearn", "scikit-learn");
             correctionAdd("Scikit-learn", "scikit-learn");
@@ -54455,6 +54521,7 @@ namespace OverflowHelper.core
             correctionAdd("Edit Overflow", "Edit&nbsp;Overflow");
             correctionAdd("EditOverflow", "Edit&nbsp;Overflow");
             correctionAdd("edit overflow", "Edit&nbsp;Overflow");
+            correctionAdd("EO", "Edit&nbsp;Overflow");
 
             correctionAdd("NK", "North Korea");
 
@@ -56324,8 +56391,6 @@ namespace OverflowHelper.core
             correctionAdd("awfull", "awful");
 
             correctionAdd("prevailent", "prevalent");
-
-            correctionAdd("Spice", "SPICE");
 
             correctionAdd("tongue in cheek", "tongue-in-cheek");
 
@@ -59028,6 +59093,7 @@ namespace OverflowHelper.core
 
             correctionAdd("colide", "collide");
 
+            // Mathematics
             correctionAdd("BODMAS", "brackets, exponents, division/multiplication, addition/subtraction");
             correctionAdd("BEDMAS", "brackets, exponents, division/multiplication, addition/subtraction");
             correctionAdd("PEMDAS", "brackets, exponents, division/multiplication, addition/subtraction");
@@ -59040,6 +59106,11 @@ namespace OverflowHelper.core
             correctionAdd("memu", "MEmu Play");
 
             correctionAdd("missframed", "misframed");
+
+            correctionAdd("catch phrase", "catchphrase");
+            correctionAdd("catch-phrase", "catchphrase");
+
+            correctionAdd("sun flower", "sunflower");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -88724,7 +88795,7 @@ namespace OverflowHelper.core
 
             URL_Add("Kiwix", "https://en.wikipedia.org/wiki/Kiwix");
 
-            URL_Add("rgblight_sethsv()", "https://github.com/qmk/qmk_firmware/blob/master/docs/feature_rgblight.md");
+            URL_Add("rgblight_sethsv()", "https://github.com/qmk/qmk_firmware/blob/master/docs/feature_rgblight.md#hue-sat-val-change");
 
             URL_Add("QMK macros", "https://getreuer.info/posts/keyboards/macros/index.html");
 
@@ -90557,6 +90628,22 @@ namespace OverflowHelper.core
             URL_Add("Wolfgang Pauli", "https://en.wikipedia.org/wiki/Wolfgang_Pauli");
 
             URL_Add("Yuhsin Tsai", "https://physics.nd.edu/people/yuhsin-tsai/");
+
+            URL_Add("catchphrase", "https://en.wiktionary.org/wiki/catchphrase#Noun");
+
+            URL_Add("colour space", "https://en.wiktionary.org/wiki/color_space#Noun");
+
+            URL_Add("HSV", "https://en.wikipedia.org/wiki/HSL_and_HSV");
+
+            URL_Add("IceWM", "https://en.wikipedia.org/wiki/IceWM");
+
+            URL_Add("JWM", "https://en.wikipedia.org/wiki/JWM");
+
+            URL_Add("Mabox Linux", "https://it.wikipedia.org/wiki/Mabox_Linux");
+
+            URL_Add("Q4OS", "https://en.wikipedia.org/wiki/Q4OS");
+
+            URL_Add("sunflower", "https://en.wiktionary.org/wiki/sunflower#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -93372,6 +93459,12 @@ namespace OverflowHelper.core
             correctionAdd("KC_VOLUP_", "Volume Up keycode (KC_AUDIO_VOL_UP. QMK. 169 (decimal))_");
             correctionAdd("169_", "Volume Up keycode (KC_AUDIO_VOL_UP. QMK. 169 (decimal))_");
 
+            correctionAdd("KC_LWIN_", "Windows key keycode (KC_LEFT_GUI. QMK. 227 (decimal))_");
+            correctionAdd("KC_LCMD_", "Windows key keycode (KC_LEFT_GUI. QMK. 227 (decimal))_");
+            correctionAdd("KC_LEFT_GUI_", "Windows key keycode (KC_LEFT_GUI. QMK. 227 (decimal))_");
+            correctionAdd("KC_LGUI_", "Windows key keycode (KC_LEFT_GUI. QMK. 227 (decimal))_");
+            correctionAdd("227_", "Windows key keycode (KC_LEFT_GUI. QMK. 227 (decimal))_");
+
             // QMK
             correctionAdd("Tap Dance_", "tap dance_");
 
@@ -94005,6 +94098,7 @@ namespace OverflowHelper.core
             correctionAdd("Cap lock_", "Caps Lock_");
             correctionAdd("CAPS LOCK_", "Caps Lock_");
             correctionAdd("CL_", "Caps Lock_");
+            correctionAdd("CapsLock_", "Caps Lock_");
 
             correctionAdd("tuesday_", "Tuesday_");
             correctionAdd("Tu_", "Tuesday_");
@@ -94051,6 +94145,9 @@ namespace OverflowHelper.core
             correctionAdd("commonmark_", "CommonMark_");
 
             correctionAdd("utilising_", "using_");
+
+            correctionAdd("equivalent series inductance_", "ESL_");
+            correctionAdd("esl_", "ESL_");
 
             // URL mappings
             //
@@ -95865,6 +95962,10 @@ namespace OverflowHelper.core
             URL_Add("Page Down keycode (KC_PAGE_DOWN. QMK. 78 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
 
             URL_Add("Page Up keycode (KC_PAGE_UP. QMK. 75 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("ESL_", "https://en.wikipedia.org/wiki/Equivalent_series_inductance");
+
+            URL_Add("Windows key keycode (KC_LEFT_GUI. QMK. 227 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
 
         } //addLookupData_alternativeWordSet()
 
