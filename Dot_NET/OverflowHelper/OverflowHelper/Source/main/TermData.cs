@@ -1260,6 +1260,10 @@ namespace OverflowHelper.core
             correctionAdd("vial", "Vial");
             correctionAdd("VIAL", "Vial");
 
+            // Firmware for mechanical keyboards (Dygma)
+            correctionAdd("bazecor", "Bazecor");
+            correctionAdd("bazecore", "Bazecor");
+
             // An "elitist" (whatever that means) name. It
             // is "keyboard shortcut" for the rest of us.
             correctionAdd("keybinding", "key binding");
@@ -1327,6 +1331,8 @@ namespace OverflowHelper.core
             correctionAdd("Keyboard - US", "United States keyboard layout");
             correctionAdd("American keyboard", "United States keyboard layout");
             correctionAdd("american keyboard", "United States keyboard layout");
+            correctionAdd("US keyboard layout", "United States keyboard layout");
+            correctionAdd("US layout", "United States keyboard layout");
 
             // A keyboard layout
             correctionAdd("UK keyboard", "UK keyboard layout");
@@ -1788,6 +1794,7 @@ namespace OverflowHelper.core
             correctionAdd("Keychron v6", "Keychron V6 ISO");
             correctionAdd("Keytron V6", "Keychron V6 ISO");
             correctionAdd("keytron v6", "Keychron V6 ISO");
+            correctionAdd("v6", "Keychron V6 ISO");
 
             // A Chinese manufacturer, incl. of mechanical keyboards
             correctionAdd("CoolerMaster", "Cooler Master");
@@ -1823,6 +1830,7 @@ namespace OverflowHelper.core
             // A configuration Windows program from Cooler Master
             correctionAdd("Portal", "Cooler Master Portal");
             correctionAdd("CM portal", "Cooler Master Portal");
+            correctionAdd("MasterPortal", "Cooler Master Portal");
 
             // A configuration Windows program from Cooler Master.
             // The successor to "Cooler Master Portal"
@@ -1989,6 +1997,18 @@ namespace OverflowHelper.core
             // Configuration software: MasterPlus+
             //
             correctionAdd("sk653", "SK653");
+
+            // A crippled (65%) mechanical keyboard from Cooler Master
+            // (Kailh Box V2. hot-swappable). RGB (per-key) lighting.
+            // Volume knob (customisable).
+            //
+            // Manual:
+            //
+            //   <https://coolermaster.egnyte.com/dd/byV995QlU8>
+            //
+            // Configuration software: MasterPlus+
+            //
+            correctionAdd("ck720", "CK720");
 
             // A crippled (65%) mechanical keyboard
             // from Cooler Master. "TTC Mechanical Switch".
@@ -2408,6 +2428,14 @@ namespace OverflowHelper.core
             correctionAdd("space key", "space bar");
             correctionAdd("Space bar", "space bar");
             correctionAdd("spacebar", "space bar");
+
+            correctionAdd("jorney", "journey");
+
+            correctionAdd("Journal Club", "journal club");
+
+            correctionAdd("journalling", "journaling");
+
+            correctionAdd("journo", "journalist");
 
             correctionAdd("typesystem", "type system");
 
@@ -2864,6 +2892,7 @@ namespace OverflowHelper.core
             correctionAdd("opneCV", "OpenCV");
             correctionAdd("OPENCV", "OpenCV");
             correctionAdd("OPENcv", "OpenCV");
+            correctionAdd("Open cv", "OpenCV");
 
             correctionAdd("OpenCV2", "OpenCV&nbsp;2");
             correctionAdd("OpenCV 2", "OpenCV&nbsp;2"); // Sort of identity mapping
@@ -13504,6 +13533,7 @@ namespace OverflowHelper.core
             // Alternative URLs:
             //
             //   <https://www.youtube.com/watch?v=qUpdHF69BQY>
+            //   <https://maboxlinux.org/>
             //
             correctionAdd("mabox", "Mabox Linux");
             correctionAdd("Mabox", "Mabox Linux");
@@ -15028,6 +15058,48 @@ namespace OverflowHelper.core
 
             correctionAdd("featureset", "feature set");
 
+            correctionAdd("characterized", "characterised");
+            correctionAdd("caracterized", "characterised");
+
+            correctionAdd("chars", "characters"); // Expansion.
+            correctionAdd("char", "characters"); // Expansion, not 100% correct. Add a plural feature?
+            correctionAdd("charachter", "characters"); // Not 100% correct. Add a plural feature?
+            correctionAdd("charaters", "characters");
+            correctionAdd("charater", "characters");
+            correctionAdd("charector", "characters"); // Not 100% correct. Add a plural feature?
+            correctionAdd("charectors", "characters");
+            correctionAdd("cheracter", "characters");
+            correctionAdd("cheracters", "characters");
+            correctionAdd("charactercters", "characters");
+            correctionAdd("charecters", "characters");
+            correctionAdd("caracters", "characters");
+            correctionAdd("carracters", "characters");
+            correctionAdd("charchter", "characters");
+            correctionAdd("charcter", "characters");
+            correctionAdd("characher", "characters"); // Not 100% correct. Add a plural feature?
+            correctionAdd("charachers", "characters");
+            correctionAdd("character", "characters"); // Not 100% correct. Add a plural feature?
+            correctionAdd("caracter", "characters"); // Not 100% correct. Add a plural feature?
+            correctionAdd("charecter", "characters"); // Not 100% correct. Add a plural feature?
+            correctionAdd("caractere", "characters");
+            correctionAdd("charactere", "characters");
+            correctionAdd("characteres", "characters");
+            correctionAdd("charactes", "characters");
+            correctionAdd("Character", "characters");
+            correctionAdd("Characters", "characters");
+            correctionAdd("haracter", "characters");
+            correctionAdd("haracters", "characters");
+            correctionAdd("charactar", "characters");
+            correctionAdd("charcters", "characters");
+            correctionAdd("caharacters", "characters");
+            correctionAdd("chracters", "characters");
+            correctionAdd("Charactor", "characters");
+            correctionAdd("charactor", "characters");
+
+            correctionAdd("charasteristic", "characteristic");
+
+            correctionAdd("charactarisation", "characterisation");
+
             correctionAdd("charachter set", "character set");
             correctionAdd("charachterSet", "character set");
             correctionAdd("charachter Set", "character set");
@@ -15178,8 +15250,6 @@ namespace OverflowHelper.core
 
             correctionAdd("confort", "comfort");
 
-            correctionAdd("unconfortable", "uncomfortable");
-
             correctionAdd("comfortaple", "comfortable");
             correctionAdd("comftravle", "comfortable");
             correctionAdd("comftrable", "comfortable");
@@ -15189,9 +15259,12 @@ namespace OverflowHelper.core
             correctionAdd("conformtable", "comfortable");
             correctionAdd("comfi", "comfortable");
             correctionAdd("comfy", "comfortable");
+            correctionAdd("comfteable", "comfortable");
 
             correctionAdd("most comfortable", "comfortablest");
             correctionAdd("comfiest", "comfortablest");
+
+            correctionAdd("unconfortable", "uncomfortable");
 
             correctionAdd("predictible", "predictable");
             correctionAdd("predicatble", "predictable");
@@ -19718,6 +19791,7 @@ namespace OverflowHelper.core
             correctionAdd("pycharm", "PyCharm");
             correctionAdd("Pycharm", "PyCharm");
             correctionAdd("pyCharm", "PyCharm");
+            correctionAdd("py charm", "PyCharm");
 
             correctionAdd("PyCharm CE", "PyCharm Community Edition");
 
@@ -21066,30 +21140,40 @@ namespace OverflowHelper.core
             correctionAdd("hyper plane", "hyperplane");
 
             correctionAdd("param", "parameter"); // Expansion.
-            correctionAdd("params", "parameter"); // Expansion, not 100% correct. Add a plural feature?
-            correctionAdd("parametrs", "parameter"); // Not 100% correct - plural.
             correctionAdd("paramter", "parameter");
             correctionAdd("paramater", "parameter");
-            correctionAdd("paramaters", "parameter"); // Not 100% correct - plural.
             correctionAdd("paramenter", "parameter");
             correctionAdd("parametr", "parameter");
             correctionAdd("parament", "parameter");
             correctionAdd("parametar", "parameter");
             correctionAdd("parametre", "parameter");
             correctionAdd("Param", "parameter");
-            correctionAdd("parametera", "parameter"); // Some other language? Plural?
-            correctionAdd("parameters", "parameter"); // Not 100% correct - plural.
-            correctionAdd("parametres", "parameter");
-            correctionAdd("Params", "parameter");
             correctionAdd("paramtr", "parameter");
             correctionAdd("Parameter", "parameter");
             correctionAdd("parm", "parameter");
-            correctionAdd("parms", "parameter");
             correctionAdd("parmeter", "parameter");
             correctionAdd("prameter", "parameter");
-            correctionAdd("parametere", "parameter");
-            correctionAdd("parameteres", "parameter");
-            correctionAdd("paramateres", "parameter");
+            correctionAdd("paramiter", "parameter");
+            correctionAdd("peram", "parameter");
+            correctionAdd("perameter", "parameter");
+            correctionAdd("peramiter", "parameter");
+            correctionAdd("perimeter", "parameter");
+
+            correctionAdd("params", "parameters"); // Expansion
+            correctionAdd("parametrs", "parameters");
+            correctionAdd("paramaters", "parameters");
+            correctionAdd("parametera", "parameters"); // Some other language? A typo?
+            correctionAdd("parametres", "parameters");
+            correctionAdd("Params", "parameters");
+            correctionAdd("parms", "parameters");
+            correctionAdd("parameteres", "parameters");
+            correctionAdd("paramateres", "parameters");
+            correctionAdd("parametere", "parameters");
+            correctionAdd("perimeters", "parameters");
+            correctionAdd("paramiters", "parameters");
+            correctionAdd("perameters", "parameters");
+            correctionAdd("peramiters", "parameters");
+            correctionAdd("perams", "parameters");
 
             correctionAdd("descripte", "describe");
             correctionAdd("decribe", "describe");
@@ -30802,41 +30886,6 @@ namespace OverflowHelper.core
             correctionAdd("httpS", "HTTPS");
             correctionAdd("htttps", "HTTPS");
             correctionAdd("HTTPs", "HTTPS");
-
-            correctionAdd("chars", "characters"); // Expansion.
-            correctionAdd("char", "characters"); // Expansion, not 100% correct. Add a plural feature?
-            correctionAdd("charachter", "characters"); // Not 100% correct. Add a plural feature?
-            correctionAdd("charaters", "characters");
-            correctionAdd("charater", "characters");
-            correctionAdd("charector", "characters"); // Not 100% correct. Add a plural feature?
-            correctionAdd("charectors", "characters");
-            correctionAdd("cheracter", "characters");
-            correctionAdd("cheracters", "characters");
-            correctionAdd("charactercters", "characters");
-            correctionAdd("charecters", "characters");
-            correctionAdd("caracters", "characters");
-            correctionAdd("carracters", "characters");
-            correctionAdd("charchter", "characters");
-            correctionAdd("charcter", "characters");
-            correctionAdd("characher", "characters"); // Not 100% correct. Add a plural feature?
-            correctionAdd("charachers", "characters");
-            correctionAdd("character", "characters"); // Not 100% correct. Add a plural feature?
-            correctionAdd("caracter", "characters"); // Not 100% correct. Add a plural feature?
-            correctionAdd("charecter", "characters"); // Not 100% correct. Add a plural feature?
-            correctionAdd("caractere", "characters");
-            correctionAdd("charactere", "characters");
-            correctionAdd("characteres", "characters");
-            correctionAdd("charactes", "characters");
-            correctionAdd("Character", "characters");
-            correctionAdd("Characters", "characters");
-            correctionAdd("haracter", "characters");
-            correctionAdd("haracters", "characters");
-            correctionAdd("charactar", "characters");
-            correctionAdd("charcters", "characters");
-            correctionAdd("caharacters", "characters");
-            correctionAdd("chracters", "characters");
-            correctionAdd("Charactor", "characters");
-            correctionAdd("charactor", "characters");
 
             correctionAdd("xss", "XSS");
             correctionAdd("Cross Site Scripting", "XSS");
@@ -43455,8 +43504,6 @@ namespace OverflowHelper.core
 
             correctionAdd("battallion", "battalion");
 
-            correctionAdd("charasteristic", "characteristic");
-
             correctionAdd("detialed", "detailed");
             correctionAdd("detailled", "detailed");
 
@@ -47872,6 +47919,7 @@ namespace OverflowHelper.core
             correctionAdd("Zmodem", "ZMODEM");
 
             correctionAdd("controversion", "controversy");
+            correctionAdd("controversey", "controversy");
 
             correctionAdd("post doc", "postdoc");
             correctionAdd("Post-Doc", "postdoc");
@@ -53788,6 +53836,19 @@ namespace OverflowHelper.core
             // A car (SUV)
             correctionAdd("Gmc terrain 2018", "GMC Terrain 2018");
 
+            // A car
+            correctionAdd("honda fit", "Honda Fit");
+
+            correctionAdd("mazda", "Mazda");
+
+            // A car
+            correctionAdd("mazda cx9", "Mazda CX-9");
+
+            correctionAdd("cadillac", "Cadillac"); // A luxury car brand name
+            correctionAdd("cadellac", "Cadillac");
+
+            correctionAdd("lexus", "Lexus"); // A luxury car brand name
+
             correctionAdd("sub contract", "subcontract");
 
             correctionAdd("a/o", "and other");
@@ -54877,11 +54938,6 @@ namespace OverflowHelper.core
 
             correctionAdd("m.2", "M.2");
 
-            correctionAdd("mazda", "Mazda");
-
-            // A car
-            correctionAdd("mazda cx9", "Mazda CX-9");
-
             correctionAdd("R2dbc", "R2DBC");
             correctionAdd("r2dbc", "R2DBC");
 
@@ -55085,8 +55141,6 @@ namespace OverflowHelper.core
             correctionAdd("discernable", "discernible");
 
             correctionAdd("freestanding", "free-standing");
-
-            correctionAdd("jorney", "journey");
 
             correctionAdd("Opacity", "opacity");
 
@@ -56517,6 +56571,13 @@ namespace OverflowHelper.core
 
             correctionAdd("Honor", "honor");
 
+            correctionAdd("honors degree", "honours degree");
+            correctionAdd("Hons", "honours degree");
+            correctionAdd("hons", "honours degree");
+
+            correctionAdd("honorable", "honourable");
+            correctionAdd("Honourable", "honourable");
+
             correctionAdd("Lying", "lying");
 
             correctionAdd("meta data", "metadata");
@@ -56590,10 +56651,6 @@ namespace OverflowHelper.core
             correctionAdd("symbolhound", "SymbolHound");
 
             correctionAdd("wild card", "wildcard");
-
-            correctionAdd("honors degree", "honours degree");
-            correctionAdd("Hons", "honours degree");
-            correctionAdd("hons", "honours degree");
 
             correctionAdd("small scale", "small-scale");
 
@@ -57762,8 +57819,6 @@ namespace OverflowHelper.core
             correctionAdd("assymetrical", "asymmetrical");
             correctionAdd("asymetrical", "asymmetrical");
 
-            correctionAdd("charactarisation", "characterisation");
-
             correctionAdd("just sayin", "just saying");
 
             correctionAdd("midpointrounding", "MidpointRounding");
@@ -57980,8 +58035,6 @@ namespace OverflowHelper.core
 
             // Sort of cloud. A web-based platform for working with Spark
             correctionAdd("databricks", "Databricks");
-
-            correctionAdd("Journal Club", "journal club");
 
             // A scientific journal
             correctionAdd("PRL", "Physical Review Letters");
@@ -58697,8 +58750,6 @@ namespace OverflowHelper.core
 
             correctionAdd("iradicate", "irradicate");
 
-            correctionAdd("journalling", "journaling");
-
             correctionAdd("kedro", "Kedro");
 
             correctionAdd("squashfs", "SquashFS");
@@ -58873,9 +58924,6 @@ namespace OverflowHelper.core
             correctionAdd("wozzy", "Caroline Wozniacki");
 
             correctionAdd("saleor", "Saleor");
-
-            // A car
-            correctionAdd("honda fit", "Honda Fit");
 
             correctionAdd("and operator", "bitwise AND operator");
 
@@ -59111,6 +59159,10 @@ namespace OverflowHelper.core
             correctionAdd("catch-phrase", "catchphrase");
 
             correctionAdd("sun flower", "sunflower");
+
+            correctionAdd("hazzle", "hassle");
+
+            correctionAdd("laborius", "laborious");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -60595,8 +60647,6 @@ namespace OverflowHelper.core
             URL_Add("HTTPS", "https://en.wikipedia.org/wiki/HTTPS"); // Old: https://en.wikipedia.org/wiki/HTTP_Secure
 
             URL_Add("JSONP", "https://en.wikipedia.org/wiki/JSONP");
-
-            URL_Add("parameter", "https://en.wiktionary.org/wiki/parameter#Noun"); // Old: https://en.wiktionary.org/wiki/parameter
 
             URL_Add("characters", "https://en.wiktionary.org/wiki/character#Noun"); // Old: https://en.wiktionary.org/wiki/characters
 
@@ -90644,6 +90694,28 @@ namespace OverflowHelper.core
             URL_Add("Q4OS", "https://en.wikipedia.org/wiki/Q4OS");
 
             URL_Add("sunflower", "https://en.wiktionary.org/wiki/sunflower#Noun");
+
+            URL_Add("honourable", "https://en.wiktionary.org/wiki/honourable#Adjective");
+
+            URL_Add("journalist", "https://en.wiktionary.org/wiki/journalist#Noun");
+
+            URL_Add("Bazecor", "https://www.reddit.com/r/DygmaLab/comments/15hzxj4/important_download_bazecor_132/");
+
+            URL_Add("Cadillac", "https://en.wikipedia.org/wiki/Cadillac");
+
+            URL_Add("CK720", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck720/");
+
+            URL_Add("hassle", "https://en.wiktionary.org/wiki/hassle#Noun");
+
+            URL_Add("laborious", "https://en.wiktionary.org/wiki/laborious#Adjective");
+
+            URL_Add("Lexus", "https://en.wikipedia.org/wiki/Lexus");
+
+            URL_Add("parameter", "https://en.wiktionary.org/wiki/parameter#Noun"); // Old: https://en.wiktionary.org/wiki/parameter
+
+            URL_Add("parameters", "https://en.wiktionary.org/wiki/parameter#Noun"); // Old: https://en.wiktionary.org/wiki/parameter
+
+            URL_Add("characterised", "https://en.wiktionary.org/wiki/characterise#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
