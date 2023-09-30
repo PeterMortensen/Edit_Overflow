@@ -1795,6 +1795,7 @@ namespace OverflowHelper.core
             correctionAdd("Keytron V6", "Keychron V6 ISO");
             correctionAdd("keytron v6", "Keychron V6 ISO");
             correctionAdd("v6", "Keychron V6 ISO");
+            correctionAdd("V6", "Keychron V6 ISO");
 
             // A Chinese manufacturer, incl. of mechanical keyboards
             correctionAdd("CoolerMaster", "Cooler Master");
@@ -3289,6 +3290,9 @@ namespace OverflowHelper.core
 
             correctionAdd("videogame", "video game");
             correctionAdd("Videogame", "video game");
+
+            // A video game publisher
+            correctionAdd("rockstargames", "Rockstar Games");
 
             correctionAdd("game play", "gameplay");
             correctionAdd("game-play", "gameplay");
@@ -5217,6 +5221,8 @@ namespace OverflowHelper.core
             correctionAdd("Mvc Core", "ASP.NET Core");
             correctionAdd("asp.net core MVC", "ASP.NET Core");
             correctionAdd("mvc core", "ASP.NET Core");
+            correctionAdd("MVC core", "ASP.NET Core");
+            correctionAdd("mvc asp.core", "ASP.NET Core");
 
             correctionAdd("asp net core 3.0", "ASP.NET Core 3.0");
 
@@ -9553,6 +9559,9 @@ namespace OverflowHelper.core
 
             correctionAdd("Amazon Sagemaker", "Amazon SageMaker");
             correctionAdd("sagemaker", "Amazon SageMaker");
+            correctionAdd("AWS Sagemaker", "Amazon SageMaker");
+            correctionAdd("SageMaker", "Amazon SageMaker");
+            correctionAdd("Sagemaker", "Amazon SageMaker");
 
             correctionAdd("Api Gateway", "Amazon API Gateway");
             correctionAdd("API Gateway", "Amazon API Gateway");
@@ -10116,6 +10125,16 @@ namespace OverflowHelper.core
             correctionAdd("enything", "anything");
             correctionAdd("anyting", "anything");
 
+            correctionAdd("developement", "development");
+            correctionAdd("devolpment", "development");
+            correctionAdd("developpement", "development");
+            correctionAdd("develepment", "development");
+            correctionAdd("Devlopment", "development");
+            correctionAdd("devlopment", "development");
+            correctionAdd("Development", "development");
+            correctionAdd("Developement", "development");
+            correctionAdd("developemnt", "development");
+
             correctionAdd("TEST", "test");
 
             correctionAdd("testng", "testing");
@@ -10154,15 +10173,6 @@ namespace OverflowHelper.core
             correctionAdd("Behavior-Driven Development", "behavior-driven development");
             correctionAdd("bdd", "behavior-driven development");
             correctionAdd("Behaviour Driven Development", "behavior-driven development");
-
-            correctionAdd("developement", "development");
-            correctionAdd("devolpment", "development");
-            correctionAdd("developpement", "development");
-            correctionAdd("develepment", "development");
-            correctionAdd("Devlopment", "development");
-            correctionAdd("devlopment", "development");
-            correctionAdd("Development", "development");
-            correctionAdd("Developement", "development");
 
             correctionAdd("TAP", "Test Anything Protocol");
 
@@ -11126,7 +11136,8 @@ namespace OverflowHelper.core
             correctionAdd("Airbus 330", "Airbus A330");
 
             // An aircraft
-            correctionAdd("A350", "Airbus 350");
+            correctionAdd("A350", "Airbus A350");
+            correctionAdd("Airbus 350", "Airbus A350");
 
             // Aviation
             correctionAdd("A380", "Airbus A380");
@@ -12519,6 +12530,8 @@ namespace OverflowHelper.core
             correctionAdd("sepate", "separate");
             correctionAdd("sperate", "separate");
             correctionAdd("speerate", "separate");
+            correctionAdd("sceparate", "separate");
+            correctionAdd("sceprate", "separate");
 
             correctionAdd("seperated", "separated");
             correctionAdd("separeted", "separated");
@@ -19023,6 +19036,8 @@ namespace OverflowHelper.core
 
             correctionAdd("hassle free", "hasslefree");
             correctionAdd("hassle-free", "hasslefree");
+
+            correctionAdd("hazzle", "hassle");
 
             correctionAdd("error free", "errorfree");
             correctionAdd("error-free", "errorfree");
@@ -35276,6 +35291,8 @@ namespace OverflowHelper.core
             correctionAdd("emaill", "email");
             correctionAdd("eMail", "email");
 
+            correctionAdd("email's", "emails");
+
             correctionAdd("altogheter", "altogether");
             correctionAdd("all together", "altogether");
             correctionAdd("alltogether", "altogether");
@@ -44932,6 +44949,7 @@ namespace OverflowHelper.core
             correctionAdd("sssign", "assign");
             correctionAdd("assgin", "assign");
             correctionAdd("assing", "assign");
+            correctionAdd("Assign", "assign");
 
             correctionAdd("definitve", "definitive");
             correctionAdd("definitiev", "definitive");
@@ -47309,6 +47327,9 @@ namespace OverflowHelper.core
 
             correctionAdd("bare-word", "bareword");
 
+            correctionAdd("csend", "send");
+            correctionAdd("sand", "send");
+
             correctionAdd("re-send", "resend");
 
             correctionAdd("re-sent", "resent");
@@ -47474,6 +47495,7 @@ namespace OverflowHelper.core
             correctionAdd("clien side", "client-side");
             correctionAdd("Client side", "client-side");
             correctionAdd("clientside", "client-side");
+            correctionAdd("Client-Side", "client-side");
 
             correctionAdd("Source insight", "Source Insight");
             correctionAdd("scoure insight", "Source Insight");
@@ -47489,6 +47511,7 @@ namespace OverflowHelper.core
             correctionAdd("Serverside", "server-side");
             correctionAdd("serverside", "server-side");
             correctionAdd("Server side", "server-side");
+            correctionAdd("Server-Side", "server-side");
 
             correctionAdd("visualize", "visualise");
             correctionAdd("visaualize", "visualise");
@@ -47556,6 +47579,8 @@ namespace OverflowHelper.core
             correctionAdd("aliviate", "alleviate");
             correctionAdd("alleivate", "alleviate");
             correctionAdd("allievate", "alleviate");
+
+            correctionAdd("alliviation", "alleviation");
 
             correctionAdd("delusionial", "delusional");
 
@@ -52870,10 +52895,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Man and his symbols", "Man and His Symbols");
 
-            correctionAdd("Optimizing For Pearls, Not Sand", "Optimizing for pearls, not sand");
-            correctionAdd("sand", "Optimizing for pearls, not sand");
-            correctionAdd("pearls", "Optimizing for pearls, not sand");
-
             correctionAdd("canonalised", "canonised");
 
             correctionAdd("counseling", "counselling");
@@ -55609,6 +55630,7 @@ namespace OverflowHelper.core
 
             correctionAdd("combobox", "combo box");
             correctionAdd("CB", "combo box");
+            correctionAdd("combox", "combo box");
 
             correctionAdd("Gorby", "Mikhail Gorbachev");
             correctionAdd("Gorbatjev", "Mikhail Gorbachev");
@@ -56971,8 +56993,6 @@ namespace OverflowHelper.core
 
             correctionAdd("stafull", "stateful");
             correctionAdd("statefull", "stateful");
-
-            correctionAdd("csend", "send");
 
             correctionAdd("mean while", "meanwhile");
 
@@ -59160,9 +59180,17 @@ namespace OverflowHelper.core
 
             correctionAdd("sun flower", "sunflower");
 
-            correctionAdd("hazzle", "hassle");
-
             correctionAdd("laborius", "laborious");
+
+            correctionAdd("bOING bOING", "Boing Boing"); // A website
+            correctionAdd("Boingboing", "Boing Boing");
+            correctionAdd("boing boing", "Boing Boing");
+
+            correctionAdd("mailkit", "MailKit");
+
+            correctionAdd("self study", "self-study");
+
+            correctionAdd("tool kit", "toolkit");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -69921,7 +69949,7 @@ namespace OverflowHelper.core
 
             URL_Add("kept", "https://en.wiktionary.org/wiki/keep#Verb");
 
-            URL_Add("Airbus 350", "https://en.wikipedia.org/wiki/Airbus_A350_XWB");
+            URL_Add("Airbus A350", "https://en.wikipedia.org/wiki/Airbus_A350_XWB");
 
             URL_Add("Boeing 787", "https://en.wikipedia.org/wiki/Boeing_787_Dreamliner");
 
@@ -79862,8 +79890,6 @@ namespace OverflowHelper.core
             URL_Add("FuelPHP", "https://en.wikipedia.org/wiki/FuelPHP");
 
             URL_Add("Man and His Symbols", "https://en.wikipedia.org/wiki/Man_and_His_Symbols");
-
-            URL_Add("Optimizing for pearls, not sand", "https://stackoverflow.blog/2011/06/13/optimizing-for-pearls-not-sand/");
 
             URL_Add("USBasp", "https://reprap.org/wiki/USBasp");
 
@@ -90717,6 +90743,20 @@ namespace OverflowHelper.core
 
             URL_Add("characterised", "https://en.wiktionary.org/wiki/characterise#Verb");
 
+            URL_Add("alleviation", "https://en.wiktionary.org/wiki/alleviation#Noun");
+
+            URL_Add("Boing Boing", "https://en.wikipedia.org/wiki/Boing_Boing");
+
+            URL_Add("emails", "https://en.wiktionary.org/wiki/email#Noun");
+
+            URL_Add("MailKit", "https://github.com/jstedfast/MailKit");
+
+            URL_Add("Rockstar Games", "https://en.wikipedia.org/wiki/Rockstar_Games");
+
+            URL_Add("self-study", "https://en.wiktionary.org/wiki/self-study#Noun");
+
+            URL_Add("toolkit", "https://en.wiktionary.org/wiki/toolkit#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -94221,6 +94261,10 @@ namespace OverflowHelper.core
             correctionAdd("equivalent series inductance_", "ESL_");
             correctionAdd("esl_", "ESL_");
 
+            correctionAdd("Optimizing For Pearls, Not Sand_", "Optimizing for pearls, not sand_");
+            correctionAdd("sand_", "Optimizing for pearls, not sand_");
+            correctionAdd("pearls_", "Optimizing for pearls, not sand_");
+
             // URL mappings
             //
             //
@@ -96038,6 +96082,8 @@ namespace OverflowHelper.core
             URL_Add("ESL_", "https://en.wikipedia.org/wiki/Equivalent_series_inductance");
 
             URL_Add("Windows key keycode (KC_LEFT_GUI. QMK. 227 (decimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("Optimizing for pearls, not sand_", "https://stackoverflow.blog/2011/06/13/optimizing-for-pearls-not-sand/");
 
         } //addLookupData_alternativeWordSet()
 
