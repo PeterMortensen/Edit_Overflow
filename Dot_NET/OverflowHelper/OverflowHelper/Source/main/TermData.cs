@@ -1201,106 +1201,6 @@ namespace OverflowHelper.core
             // A computer mouse
             correctionAdd("MX518", "Logitech MX518");
 
-            correctionAdd("tpye", "type");
-            correctionAdd("tipe", "type");
-
-            correctionAdd("typying", "typing");
-
-            correctionAdd("re-typing", "retyping");
-
-            correctionAdd("typeout", "type out");
-
-            correctionAdd("type writer", "typewriter");
-
-            correctionAdd("typsetter", "typesetter");
-
-            correctionAdd("type set", "typeset");
-
-            correctionAdd("jkl", "JKL;");
-            correctionAdd("JKL", "JKL;");
-
-            // Online training of typing speed
-            //
-            // Alternative URLs:
-            //
-            //   <https://groups.google.com/g/keybr/about>
-            //   <https://www.keybr.com/>
-            //
-            correctionAdd("keybr", "Keybr");
-            correctionAdd("keybr.com", "Keybr");
-            correctionAdd("Keybr.com", "Keybr");
-
-            // Online training of typing speed
-            //
-            // Alternative URL: <https://www.monkeytype.com/>
-            //
-            correctionAdd("monkeytype", "Monkeytype");
-            correctionAdd("monkey type", "Monkeytype");
-
-            // Online training of typing speed
-            //
-            correctionAdd("typeracer", "TypeRacer");
-
-            // Online training of typing speed
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.techworm.net/2017/02/typing-practice-coders-programming-languages-like-c-java-c-c-javascript-html-ruby-python-etc.html>
-            //   <https://www.speedcoder.net/>
-            //
-            correctionAdd("speedcoder", "SpeedCoder");
-
-            // Software for mechanical keyboards (firmware)
-            //
-            // Alternative URL:
-            //
-            //   <https://github.com/qmk/qmk_firmware>
-            //
-            correctionAdd("qmk", "QMK");
-
-            // A QMK function (C)
-            correctionAdd("eeconfig_update_kb", "eeconfig_update_kb()");
-
-            // A QMK function (C)
-            correctionAdd("eeconfig_update_user", "eeconfig_update_user()");
-
-            // A QMK function (C)
-            correctionAdd("rgblight_sethsv", "rgblight_sethsv()");
-
-            correctionAdd("tap_code", "tap_code()"); // A QMK function (C)
-
-            correctionAdd("tap_code16", "tap_code16()"); // A QMK function (C)
-
-            correctionAdd("qmk macros", "QMK macros");
-
-            // Configuration software for mechanical keyboards
-            // based on QMK
-            //
-            // Allegedly for "Versatile Input Assistant"
-            //
-            // Alternative URL (stand-alone executables,
-            // without requiring Google Chrome):
-            //
-            //   <https://github.com/the-via/releases/releases>
-            //
-            correctionAdd("via", "Via");
-            correctionAdd("VIA", "Via");
-
-            // Software for mechanical keyboards (firmware?)
-            correctionAdd("vial", "Vial");
-            correctionAdd("VIAL", "Vial");
-
-            // Firmware for mechanical keyboards (Dygma)
-            correctionAdd("bazecor", "Bazecor");
-            correctionAdd("bazecore", "Bazecor");
-
-            // An "elitist" (whatever that means) name. It
-            // is "keyboard shortcut" for the rest of us.
-            correctionAdd("keybinding", "key binding");
-            correctionAdd("keybindding", "key binding");
-            correctionAdd("key-binding", "key binding");
-            correctionAdd("Key-Binding", "key binding");
-
             correctionAdd("kerboard", "keyboard");
             correctionAdd("kerbaord", "keyboard");
             correctionAdd("keyboatd", "keyboard");
@@ -1323,30 +1223,50 @@ namespace OverflowHelper.core
             correctionAdd("kbs", "keyboards");
             correctionAdd("keybaords", "keyboards");
 
-            correctionAdd("ket", "key");
+            correctionAdd("Mechanical Keyboard", "mechanical keyboard");
+            correctionAdd("mech keyb", "mechanical keyboard"); // A shortcut (for expansion)
+            correctionAdd("mech", "mechanical keyboard"); // A shortcut (for expansion)
+            correctionAdd("Mech", "mechanical keyboard"); // A shortcut (for expansion)
+            correctionAdd("MK", "mechanical keyboard");
+            correctionAdd("mech keyboard", "mechanical keyboard");
 
-            correctionAdd("key code", "keycode");
-            correctionAdd("ket code", "keycode");
-            correctionAdd("Keucode", "keycode");
-            correctionAdd("keucode", "keycode");
+            // A type of switch for keyboards (not vendor-specific)
+            //
+            // Alternative URL: <https://keyboardsexpert.com/what-are-rubber-dome-keyboards/>
+            //
+            correctionAdd("rubberdome", "rubber dome");
 
-            correctionAdd("key map", "keymap");
+            // Sort of a type of mechanical keyboards
+            correctionAdd("macro keypad", "macro pad");
+            correctionAdd("Macro Pad", "macro pad");
+            correctionAdd("MacroPad", "macro pad");
+            correctionAdd("Macropad", "macro pad");
+            correctionAdd("macro mechanical keypad", "macro pad");
+            correctionAdd("macropad", "macro pad");
+            correctionAdd("mechanical keypad", "macro pad");
+            correctionAdd("programmable keypad", "macro pad");
+            correctionAdd("Macro keypad", "macro pad");
+            correctionAdd("macro-pad", "macro pad");
 
-            correctionAdd("key mapping", "keymapping");
+            // Related to mechanical keyboards
+            correctionAdd("hot swappable", "hot-swappable");
+            correctionAdd("hot-swapple", "hot-swappable");
+            correctionAdd("swapple", "hot-swappable");
+            correctionAdd("Hot swapple", "hot-swappable");
+            correctionAdd("hot swapple", "hot-swappable");
+            correctionAdd("hot swap", "hot-swappable");
+            correctionAdd("hot-swap", "hot-swappable");
+            correctionAdd("Hot-Swappable", "hot-swappable");
+            correctionAdd("Hot Swappable", "hot-swappable");
 
-            correctionAdd("scan code", "scancode");
-
-            correctionAdd("key matrix", "keyboard matrix");
-
-            correctionAdd("keyboard-shortcut", "keyboard shortcut");
-            correctionAdd("keyboard-shortcuts", "keyboard shortcut");
-
-            correctionAdd("key-press", "key press");
-            correctionAdd("Key-Press", "key press");
-            correctionAdd("keypress", "key press");
-
-            correctionAdd("key-stroke", "keystroke");
-            correctionAdd("key stroke", "keystroke");
+            // Related to keyboards
+            correctionAdd("NKRO", "n-key rollover");
+            correctionAdd("N-key-rollover", "n-key rollover");
+            correctionAdd("Nkey rollover", "n-key rollover");
+            correctionAdd("N-Key Rollover", "n-key rollover");
+            correctionAdd("N-key rollover", "n-key rollover");
+            correctionAdd("nkro", "n-key rollover");
+            correctionAdd("N key rollover", "n-key rollover");
 
             // A keyboard layout
             correctionAdd("qwerty", "QWERTY");
@@ -1369,6 +1289,21 @@ namespace OverflowHelper.core
 
             // A keyboard layout
             correctionAdd("dk keyboard", "Danish keyboard layout");
+
+            // A type of mechanical keyboards (not vendor-specific).
+            // Or can be viewed as a keyboard layout.
+            correctionAdd("1800 Compact", "96%");
+            correctionAdd("1800", "96%");
+            correctionAdd("1800 compact", "96%");
+            correctionAdd("1800-Compact", "96%");
+
+            // A type of mechanical keyboards (not vendor-specific).
+            // Or can be viewed as a keyboard layout.
+            correctionAdd("tkl", "tenkeyless (80%)");
+            correctionAdd("TKL", "tenkeyless (80%)");
+            correctionAdd("tenkeyless", "tenkeyless (80%)");
+            correctionAdd("10 keyless", "tenkeyless (80%)");
+            correctionAdd("Tenkeyless", "tenkeyless (80%)");
 
             // A keyboard layout
             correctionAdd("ortholinear", "ortholinear keyboard");
@@ -1396,43 +1331,22 @@ namespace OverflowHelper.core
             // A keyboard layout (transition to Dvorak)
             correctionAdd("minimak", "Minimak");
 
+            correctionAdd("ket", "key");
+
+            correctionAdd("key-press", "key press");
+            correctionAdd("Key-Press", "key press");
+            correctionAdd("keypress", "key press");
+
+            correctionAdd("key-stroke", "keystroke");
+            correctionAdd("key stroke", "keystroke");
+
             correctionAdd("key cap", "keycap");
             correctionAdd("Keycap", "keycap");
             correctionAdd("KeyCaps", "keycap"); // Not 100% correct - plural.
             correctionAdd("keycaps", "keycap"); // Not 100% correct - plural.
 
-            correctionAdd("Mechanical Keyboard", "mechanical keyboard");
-            correctionAdd("mech keyb", "mechanical keyboard"); // A shortcut (for expansion)
-            correctionAdd("mech", "mechanical keyboard"); // A shortcut (for expansion)
-            correctionAdd("Mech", "mechanical keyboard"); // A shortcut (for expansion)
-            correctionAdd("MK", "mechanical keyboard");
-            correctionAdd("mech keyboard", "mechanical keyboard");
-
-            // Sort of a type of mechanical keyboards
-            correctionAdd("macro keypad", "macro pad");
-            correctionAdd("Macro Pad", "macro pad");
-            correctionAdd("MacroPad", "macro pad");
-            correctionAdd("Macropad", "macro pad");
-            correctionAdd("macro mechanical keypad", "macro pad");
-            correctionAdd("macropad", "macro pad");
-            correctionAdd("mechanical keypad", "macro pad");
-            correctionAdd("programmable keypad", "macro pad");
-            correctionAdd("Macro keypad", "macro pad");
-            correctionAdd("macro-pad", "macro pad");
-
-             // A type of switch for keyboards (not vendor-specific)
-            //
-            // Alternative URL: <https://keyboardsexpert.com/what-are-rubber-dome-keyboards/>
-            //
-            correctionAdd("rubberdome", "rubber dome");
-
-            // A type of switch for mechanical
-            // keyboards (not vendor-specific)
-            correctionAdd("linear switch", "linear mechanical keyboard switch");
-
-            // A type of switch for mechanical
-            // keyboards (not vendor-specific)
-            correctionAdd("opticatility", "optical switch");
+            // Mechanical keyboards
+            correctionAdd("DSA", "DSA keycap profile");
 
             // A type of RGB lighting for mechanical keyboards
             //
@@ -1452,6 +1366,30 @@ namespace OverflowHelper.core
             correctionAdd("north facing", "north-facing");
             correctionAdd("North-Facing", "north-facing");
 
+            // Mechanical keyboards. A feature (light guide) of
+            // Gateron G Pro switches (better direction of
+            // light from PCB mounted RGB LEDs, by means
+            // of the design of the plastic in the switch)
+            //
+            // Alternative URL:
+            //
+            //   <https://hhkeyboard.us/blog/gateron-switches-guide>
+            //
+            //     "The Gateron G Pro line was created for RGB-loving gamers
+            //       ... keyboard lighting solutions shine as bright as
+            //       possible ... a light-guiding column that concentrates
+            //       their illumination"
+            //
+            correctionAdd("RGB SMD condenser", "light-concentrating structure");
+
+            // A type of switch for mechanical
+            // keyboards (not vendor-specific)
+            correctionAdd("linear switch", "linear mechanical keyboard switch");
+
+            // A type of switch for mechanical
+            // keyboards (not vendor-specific)
+            correctionAdd("opticatility", "optical switch");
+
             // A component used in mechanical keyboards (to
             // enable replaceable switches).
             // See also <https://www.reddit.com/r/MechanicalKeyboards/comments/o8h0nb/mill_max_sockets_0305_vs_7305_vs_holtite/>
@@ -1464,38 +1402,6 @@ namespace OverflowHelper.core
             correctionAdd("O ring", "O-ring");
             correctionAdd("o-ring", "O-ring");
             correctionAdd("o ring", "O-ring");
-
-            // A type of mechanical keyboards (not vendor-specific)
-            correctionAdd("tkl", "tenkeyless (80%)");
-            correctionAdd("TKL", "tenkeyless (80%)");
-            correctionAdd("tenkeyless", "tenkeyless (80%)");
-            correctionAdd("10 keyless", "tenkeyless (80%)");
-            correctionAdd("Tenkeyless", "tenkeyless (80%)");
-
-            correctionAdd("1800 Compact", "96%");
-            correctionAdd("1800", "96%");
-            correctionAdd("1800 compact", "96%");
-            correctionAdd("1800-Compact", "96%");
-
-            // Related to mechanical keyboards
-            correctionAdd("hot swappable", "hot-swappable");
-            correctionAdd("hot-swapple", "hot-swappable");
-            correctionAdd("swapple", "hot-swappable");
-            correctionAdd("Hot swapple", "hot-swappable");
-            correctionAdd("hot swapple", "hot-swappable");
-            correctionAdd("hot swap", "hot-swappable");
-            correctionAdd("hot-swap", "hot-swappable");
-            correctionAdd("Hot-Swappable", "hot-swappable");
-            correctionAdd("Hot Swappable", "hot-swappable");
-
-            // Related to keyboards
-            correctionAdd("NKRO", "n-key rollover");
-            correctionAdd("N-key-rollover", "n-key rollover");
-            correctionAdd("Nkey rollover", "n-key rollover");
-            correctionAdd("N-Key Rollover", "n-key rollover");
-            correctionAdd("N-key rollover", "n-key rollover");
-            correctionAdd("nkro", "n-key rollover");
-            correctionAdd("N key rollover", "n-key rollover");
 
             // A type of switch for mechanical keyboards
             //
@@ -1689,22 +1595,6 @@ namespace OverflowHelper.core
             // Linear. 60 g
             correctionAdd("Gateron milky black", "Gateron Milky Black");
 
-            // Mechanical keyboards. A feature (light guide) of
-            // Gateron G Pro switches (better direction of
-            // light from PCB mounted RGB LEDs, by means
-            // of the design of the plastic in the switch)
-            //
-            // Alternative URL:
-            //
-            //   <https://hhkeyboard.us/blog/gateron-switches-guide>
-            //
-            //     "The Gateron G Pro line was created for RGB-loving gamers
-            //       ... keyboard lighting solutions shine as bright as
-            //       possible ... a light-guiding column that concentrates
-            //       their illumination"
-            //
-            correctionAdd("RGB SMD condenser", "light-concentrating structure");
-
             // A type of switch for mechanical keyboards
             //
             // Alternative URL:
@@ -1718,6 +1608,78 @@ namespace OverflowHelper.core
 
             // A type of switch for mechanical keyboards
             correctionAdd("Glourious Panda", "Glorious Panda");
+
+            correctionAdd("key code", "keycode");
+            correctionAdd("ket code", "keycode");
+            correctionAdd("Keucode", "keycode");
+            correctionAdd("keucode", "keycode");
+
+            correctionAdd("key map", "keymap");
+
+            correctionAdd("key mapping", "keymapping");
+
+            correctionAdd("scan code", "scancode");
+
+            correctionAdd("key matrix", "keyboard matrix");
+
+            correctionAdd("keyboard-shortcut", "keyboard shortcut");
+            correctionAdd("keyboard-shortcuts", "keyboard shortcut");
+
+            // An "elitist" (whatever that means) name. It
+            // is "keyboard shortcut" for the rest of us.
+            correctionAdd("keybinding", "key binding");
+            correctionAdd("keybindding", "key binding");
+            correctionAdd("key-binding", "key binding");
+            correctionAdd("Key-Binding", "key binding");
+
+            correctionAdd("tpye", "type");
+            correctionAdd("tipe", "type");
+
+            correctionAdd("typying", "typing");
+
+            correctionAdd("re-typing", "retyping");
+
+            correctionAdd("typeout", "type out");
+
+            correctionAdd("type writer", "typewriter");
+
+            correctionAdd("typsetter", "typesetter");
+
+            correctionAdd("type set", "typeset");
+
+            correctionAdd("jkl", "JKL;");
+            correctionAdd("JKL", "JKL;");
+
+            // Online training of typing speed
+            //
+            // Alternative URLs:
+            //
+            //   <https://groups.google.com/g/keybr/about>
+            //   <https://www.keybr.com/>
+            //
+            correctionAdd("keybr", "Keybr");
+            correctionAdd("keybr.com", "Keybr");
+            correctionAdd("Keybr.com", "Keybr");
+
+            // Online training of typing speed
+            //
+            // Alternative URL: <https://www.monkeytype.com/>
+            //
+            correctionAdd("monkeytype", "Monkeytype");
+            correctionAdd("monkey type", "Monkeytype");
+
+            // Online training of typing speed
+            //
+            correctionAdd("typeracer", "TypeRacer");
+
+            // Online training of typing speed
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.techworm.net/2017/02/typing-practice-coders-programming-languages-like-c-java-c-c-javascript-html-ruby-python-etc.html>
+            //   <https://www.speedcoder.net/>
+            //
+            correctionAdd("speedcoder", "SpeedCoder");
 
             // A manufacturer of mechanical keyboards, etc.
             // (e.g., 'Ducky Shine 7')
@@ -2224,27 +2186,6 @@ namespace OverflowHelper.core
             correctionAdd("Natural Keyboard", "Microsoft Natural Keyboard");
             correctionAdd("natural keyboard", "Microsoft Natural Keyboard");
 
-            // A programming language for Rubber Ducky (but it can
-            // also be seen as programming language for keyboard
-            // macros). Or as a notation.
-            //
-            correctionAdd("Ducky Script", "DuckyScript");
-            correctionAdd("Duckyscript", "DuckyScript");
-
-            // Hardware for typing out from USB (like a keyboard)
-            correctionAdd("RubberDucky", "Rubber Ducky");
-
-            // Configuration software for mechanical keyboards
-            // (it is a fork of QMK)
-            //
-            // Yes, Oryx is a heavily overloaded term.
-            //
-            // Alternative URL (at 07 min 16 secs):
-            //
-            //   <https://odysee.com/@DistroTube:2/the-planck-ez-keyboard.-47-keys-are-all:9>
-            //
-            correctionAdd("ORYX", "Oryx");
-
             // A crippled (40%) mechanical keyboard (QMK based)
             //
             // Yes, the name of the physicist is Planck, Max Planck
@@ -2285,6 +2226,71 @@ namespace OverflowHelper.core
             //
             correctionAdd("Sofle", "Sofle keyboard");
             correctionAdd("sofle", "Sofle keyboard");
+
+            // Hardware for typing out from USB (like a keyboard)
+            correctionAdd("RubberDucky", "Rubber Ducky");
+
+            // Software for mechanical keyboards (firmware)
+            //
+            // Alternative URL:
+            //
+            //   <https://github.com/qmk/qmk_firmware>
+            //
+            correctionAdd("qmk", "QMK");
+
+            correctionAdd("qmk macros", "QMK macros");
+
+            // A QMK function (C)
+            correctionAdd("eeconfig_update_kb", "eeconfig_update_kb()");
+
+            // A QMK function (C)
+            correctionAdd("eeconfig_update_user", "eeconfig_update_user()");
+
+            // A QMK function (C)
+            correctionAdd("rgblight_sethsv", "rgblight_sethsv()");
+
+            correctionAdd("tap_code", "tap_code()"); // A QMK function (C)
+
+            correctionAdd("tap_code16", "tap_code16()"); // A QMK function (C)
+
+            // Configuration software for mechanical keyboards
+            // based on QMK
+            //
+            // Allegedly for "Versatile Input Assistant"
+            //
+            // Alternative URL (stand-alone executables,
+            // without requiring Google Chrome):
+            //
+            //   <https://github.com/the-via/releases/releases>
+            //
+            correctionAdd("via", "Via");
+            correctionAdd("VIA", "Via");
+
+            // Software for mechanical keyboards (firmware?)
+            correctionAdd("vial", "Vial");
+            correctionAdd("VIAL", "Vial");
+
+            // Firmware for mechanical keyboards (Dygma)
+            correctionAdd("bazecor", "Bazecor");
+            correctionAdd("bazecore", "Bazecor");
+
+            // A programming language for Rubber Ducky (but it can
+            // also be seen as programming language for keyboard
+            // macros). Or as a notation.
+            //
+            correctionAdd("Ducky Script", "DuckyScript");
+            correctionAdd("Duckyscript", "DuckyScript");
+
+            // Configuration software for mechanical keyboards
+            // (it is a fork of QMK)
+            //
+            // Yes, Oryx is a heavily overloaded term.
+            //
+            // Alternative URL (at 07 min 16 secs):
+            //
+            //   <https://odysee.com/@DistroTube:2/the-planck-ez-keyboard.-47-keys-are-all:9>
+            //
+            correctionAdd("ORYX", "Oryx");
 
             // A content-free YouTube channel (pure entertainment)
             // about mechanical keyboards
@@ -6966,10 +6972,28 @@ namespace OverflowHelper.core
 
             correctionAdd("speed up", "speedup");
 
+            correctionAdd("beet", "beat");
+
+            correctionAdd("unbeatible", "unbeatable");
+
+            correctionAdd("beat the whole purpose", "defeat the purpose");
+
             correctionAdd("beat-'em-up", "beat 'em up");
             correctionAdd("Beat 'em Up", "beat 'em up");
             correctionAdd("beat'em up", "beat 'em up");
             correctionAdd("beat-em-up", "beat 'em up");
+
+            correctionAdd("filebeat", "Filebeat");
+
+            correctionAdd("beaty", "beauty");
+
+            correctionAdd("beatiful", "beautiful");
+            correctionAdd("beutiful", "beautiful");
+            correctionAdd("beautifull", "beautiful");
+            correctionAdd("beautuful", "beautiful");
+            correctionAdd("beutifull", "beautiful");
+
+            correctionAdd("beam", "BEAM");
 
             correctionAdd("end-up", "end up");
 
@@ -8270,6 +8294,8 @@ namespace OverflowHelper.core
 
             // A quote from Office Space
             correctionAdd("glitch", "we fixed the glitch");
+
+            correctionAdd("glitsy", "glitchy");
 
             // An Office Space reference
             //
@@ -21457,9 +21483,7 @@ namespace OverflowHelper.core
             correctionAdd("jewtube", "YouTube");
             correctionAdd("youbook", "YouTube");
             correctionAdd("youbooks", "YouTube");
-
-            correctionAdd("Youtuber", "YouTuber");
-            correctionAdd("youtuber", "YouTuber");
+            correctionAdd("youtuber", "YouTube");
 
             // Related to YouTube.
             correctionAdd("shocked faces", "shocked faces (YouTube algorithm)");
@@ -30257,7 +30281,7 @@ namespace OverflowHelper.core
             //
             // Related to the family 'termio', 'termcap', 'terminfo', and 'ncurses'.
             //
-            // Alternative URL: 
+            // Alternative URL:
             //
             //   <https://www.linuxfromscratch.org/blfs/view/svn/general/slang.html>
             //
@@ -30593,6 +30617,7 @@ namespace OverflowHelper.core
             correctionAdd("on the practice", "in practice");
 
             correctionAdd("IRL", "in real life");
+            correctionAdd("irl", "in real life");
 
             correctionAdd("IMX", "in my experience");
             correctionAdd("IME", "in my experience");
@@ -31815,16 +31840,6 @@ namespace OverflowHelper.core
             correctionAdd("little endian", "little-endian");
             correctionAdd("LE", "little-endian");
             correctionAdd("Little endian", "little-endian");
-
-            correctionAdd("beatiful", "beautiful");
-            correctionAdd("beutiful", "beautiful");
-            correctionAdd("beautifull", "beautiful");
-            correctionAdd("beautuful", "beautiful");
-            correctionAdd("beutifull", "beautiful");
-
-            correctionAdd("beaty", "beauty");
-
-            correctionAdd("beam", "BEAM");
 
             correctionAdd("w/o", "without");
             correctionAdd("w/out", "without");
@@ -40244,8 +40259,6 @@ namespace OverflowHelper.core
 
             correctionAdd("euclidean", "Euclidean");
 
-            correctionAdd("filebeat", "Filebeat");
-
             correctionAdd("PDP11", "PDP-11");
 
             correctionAdd("PDP7", "PDP-7");
@@ -40892,8 +40905,6 @@ namespace OverflowHelper.core
             correctionAdd("sqrl", "SQRL");
 
             correctionAdd("usain bolt", "Usain Bolt");
-
-            correctionAdd("beet", "beat");
 
             correctionAdd("die-hard", "diehard");
             correctionAdd("die hard", "diehard");
@@ -43216,8 +43227,6 @@ namespace OverflowHelper.core
             correctionAdd("wut", "what");
             correctionAdd("whata", "what");
             correctionAdd("whad", "what");
-
-            correctionAdd("dsa", "DSA");
 
             correctionAdd("ecdsa", "ECDSA");
 
@@ -47495,8 +47504,6 @@ namespace OverflowHelper.core
             correctionAdd("all intent and purposes", "for all intents and purposes");
             correctionAdd("for all intensive purposes", "for all intents and purposes");
 
-            correctionAdd("beat the whole purpose", "defeat the purpose");
-
             correctionAdd("hell bent", "hell-bent");
 
             correctionAdd("homogenous", "homogeneous");
@@ -51112,6 +51119,10 @@ namespace OverflowHelper.core
             correctionAdd("extraxt", "extract");
             correctionAdd("extrat", "extract");
 
+            correctionAdd("extrated", "extracted");
+
+            correctionAdd("exctraction", "extraction");
+
             correctionAdd("moderationg", "moderation");
 
             correctionAdd("OneHot", "one-hot");
@@ -51726,8 +51737,6 @@ namespace OverflowHelper.core
 
             correctionAdd("colling", "calling");
             correctionAdd("callng", "calling");
-
-            correctionAdd("exctraction", "extraction");
 
             correctionAdd("neck beard", "neckbeard");
 
@@ -59308,8 +59317,6 @@ namespace OverflowHelper.core
             correctionAdd("tool kit", "toolkit");
 
             correctionAdd("calliper", "caliper");
-
-            correctionAdd("glitsy", "glitchy");
 
             correctionAdd("haphasard", "haphazard");
 
@@ -68653,8 +68660,6 @@ namespace OverflowHelper.core
             URL_Add("what", "https://en.wiktionary.org/wiki/what#Pronoun");
 
             URL_Add("Codidact", "https://forum.codidact.org/t/what-are-we-trying-to-build/27/109");
-
-            URL_Add("DSA", "https://en.wikipedia.org/wiki/Digital_Signature_Algorithm");
 
             URL_Add("ECDSA", "https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm");
 
@@ -78369,8 +78374,6 @@ namespace OverflowHelper.core
             URL_Add("Stellar", "https://en.wikipedia.org/wiki/Stellar_(payment_network)");
 
             URL_Add("The Smurfs", "https://en.wikipedia.org/wiki/The_Smurfs");
-
-            URL_Add("YouTuber", "https://en.wiktionary.org/wiki/YouTuber#Noun");
 
             URL_Add("counterargued", "https://en.wiktionary.org/wiki/counterargue#Verb");
 
@@ -90938,6 +90941,12 @@ namespace OverflowHelper.core
 
             URL_Add("xkcd 356", "https://www.explainxkcd.com/wiki/index.php/356:_Nerd_Sniping");
 
+            URL_Add("DSA keycap profile", "https://fantechworld.com/keycap-profiles-differences/");
+
+            URL_Add("extracted", "https://en.wiktionary.org/wiki/extract#Verb");
+
+            URL_Add("unbeatable", "https://en.wiktionary.org/wiki/unbeatable#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -92001,13 +92010,6 @@ namespace OverflowHelper.core
             correctionAdd("tumble weed_", "tumbleweed_");
 
             correctionAdd("CI_", "confidence interval_");
-
-            correctionAdd("Gigebyte_", "Gigabyte Technology_");
-            correctionAdd("Gigabyte_", "Gigabyte Technology_");
-            correctionAdd("GIGABYTE_", "Gigabyte Technology_");
-            correctionAdd("GIGA-BYTE_", "Gigabyte Technology_");
-            correctionAdd("gigebyte_", "Gigabyte Technology_");
-            correctionAdd("GB_", "Gigabyte Technology_");
 
             correctionAdd("thing_", "think_");
 
@@ -93269,11 +93271,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Double Click_", "DoubleClick_");
 
-            correctionAdd("data structure_", "data structures and algorithms_");
-            correctionAdd("DSA_", "data structures and algorithms_");
-            correctionAdd("algorithm_", "data structures and algorithms_");
-            correctionAdd("DS&Alg_", "data structures and algorithms_");
-
             correctionAdd("Sr_", "senior_");
 
             // Communication software. For telephone exchanges.
@@ -94454,6 +94451,30 @@ namespace OverflowHelper.core
             correctionAdd("pearls_", "Optimizing for pearls, not sand_");
 
             correctionAdd("Matrix_", "The Matrix_");
+
+            //Conflict:
+            //// Cryptography
+            //correctionAdd("dsa_", "DSA_");
+            //URL_Add("DSA_", "https://en.wikipedia.org/wiki/Digital_Signature_Algorithm");
+            correctionAdd("data structure_", "data structures and algorithms_");
+            correctionAdd("DSA_", "data structures and algorithms_");
+            correctionAdd("algorithm_", "data structures and algorithms_");
+            correctionAdd("DS&Alg_", "data structures and algorithms_");
+
+            correctionAdd("Youtuber_", "YouTuber_");
+            correctionAdd("youtuber_", "YouTuber_");
+
+            correctionAdd("Gigebyte_", "Gigabyte Technology_");
+            correctionAdd("Gigabyte_", "Gigabyte Technology_");
+            correctionAdd("GIGABYTE_", "Gigabyte Technology_");
+            correctionAdd("GIGA-BYTE_", "Gigabyte Technology_");
+            correctionAdd("gigebyte_", "Gigabyte Technology_");
+            //correctionAdd("GB_", "Gigabyte Technology_"); Currently a conflict with another word
+
+            // In particular, mechanical keyboards (on the 
+            // order of 100 units at a time)
+            correctionAdd("GB_", "group buy_");
+            correctionAdd("gb_", "group buy_");
 
             // URL mappings
             //
@@ -96278,6 +96299,10 @@ namespace OverflowHelper.core
             URL_Add("Optimizing for pearls, not sand_", "https://stackoverflow.blog/2011/06/13/optimizing-for-pearls-not-sand/");
 
             URL_Add("The Matrix_", "https://en.wikipedia.org/wiki/The_Matrix");
+
+            URL_Add("YouTuber_", "https://en.wiktionary.org/wiki/YouTuber#Noun");
+
+            URL_Add("group buy_", "https://en.wikipedia.org/wiki/Group_buying#Business_model");
 
         } //addLookupData_alternativeWordSet()
 
