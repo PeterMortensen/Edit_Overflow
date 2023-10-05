@@ -1786,6 +1786,7 @@ namespace OverflowHelper.core
             correctionAdd("Keythron v5", "Keychron V5 ISO");
             correctionAdd("keychron/v5", "Keychron V5 ISO");
             correctionAdd("v5", "Keychron V5 ISO");
+            correctionAdd("V5", "Keychron V5 ISO");
 
             // A full-size mechanical keyboard from Keychron.
             // Gateron switches.
@@ -2369,6 +2370,8 @@ namespace OverflowHelper.core
             correctionAdd("Ctlr", "Ctrl");
             correctionAdd("Cltr", "Ctrl");
             correctionAdd("Cctrl", "Ctrl");
+            correctionAdd("CTR", "Ctrl");
+            correctionAdd("ctr", "Ctrl");
 
             // A key on a keyboard. Modifier.
             correctionAdd("SHIFT", "Shift");
@@ -3370,6 +3373,14 @@ namespace OverflowHelper.core
 
             correctionAdd("Game Engine", "game engine");
 
+            // Game development
+            correctionAdd("unity 3d", "Unity 3D");
+            correctionAdd("unity3d", "Unity 3D");
+            correctionAdd("Unity3D", "Unity 3D");
+
+            // A C software library for game development
+            correctionAdd("allegro", "Allegro");
+
             // An open source game engine
             correctionAdd("godot", "Godot");
 
@@ -3878,6 +3889,8 @@ namespace OverflowHelper.core
             correctionAdd("newton raphson", "Newton–Raphson");
             correctionAdd("Newton's method", "Newton–Raphson");
             correctionAdd("newton's method", "Newton–Raphson");
+            correctionAdd("Newton Raphson", "Newton–Raphson");
+            correctionAdd("Newton-Raphson", "Newton–Raphson");
 
             correctionAdd("Newtons first law of motion", "Newton's first law of motion");
             correctionAdd("newton's first law", "Newton's first law of motion");
@@ -4245,9 +4258,6 @@ namespace OverflowHelper.core
 
             correctionAdd("switzerland", "Switzerland");
 
-            correctionAdd("GreenLand", "Greenland");
-            correctionAdd("greenland", "Greenland");
-
             correctionAdd("poland", "Poland");
 
             correctionAdd("polish", "Polish");
@@ -4291,6 +4301,11 @@ namespace OverflowHelper.core
             correctionAdd("Denamark", "Denmark");
 
             correctionAdd("danes", "Danes");
+
+            correctionAdd("GreenLand", "Greenland");
+            correctionAdd("greenland", "Greenland");
+
+            correctionAdd("Faroe islands", "Faroe Islands");
 
             correctionAdd("norway", "Norway");
 
@@ -16800,6 +16815,7 @@ namespace OverflowHelper.core
             correctionAdd("instansiating", "instantiating");
 
             correctionAdd("instanciation", "instantiation");
+            correctionAdd("instantation", "instantiation");
 
             correctionAdd("un-instantiated", "uninstantiated");
 
@@ -21336,6 +21352,16 @@ namespace OverflowHelper.core
 
             correctionAdd("react-testing-library", "React Testing Library");
 
+            // React Native
+            //
+            // Package name: 'react-native-vision-camera'
+            //
+            // Alternative URLs:
+            //
+            //   <>
+            //
+            correctionAdd("react-native-vision-camera", "VisionCamera");
+
             correctionAdd("material ui", "MUI");
             correctionAdd("MATERIAL-UI", "MUI");
             correctionAdd("React Material-UI", "MUI");
@@ -21928,6 +21954,8 @@ namespace OverflowHelper.core
             correctionAdd("MS Excel", "Excel");
             correctionAdd("Ms Excel", "Excel");
             correctionAdd("Microsoft Excel", "Excel");
+            correctionAdd("Exel", "Excel");
+            correctionAdd("exel", "Excel");
 
             correctionAdd("97", "Excel 97");
 
@@ -23455,6 +23483,7 @@ namespace OverflowHelper.core
             correctionAdd("G cloud", "Google Cloud Platform");
             correctionAdd("GCP", "Google Cloud Platform");
             correctionAdd("gcp", "Google Cloud Platform");
+            correctionAdd("Google Cloud", "Google Cloud Platform");
 
             correctionAdd("Ad Words", "AdWords");
             correctionAdd("adwords", "AdWords");
@@ -30679,6 +30708,8 @@ namespace OverflowHelper.core
             correctionAdd("in layman's term", "in layman's terms");
 
             correctionAdd("in your shows", "in your shoes");
+            correctionAdd("in your place", "in your shoes");
+            correctionAdd("on your place", "in your shoes");
 
             correctionAdd("inspite of", "in spite of");
             correctionAdd("inspite", "in spite of");
@@ -31119,6 +31150,14 @@ namespace OverflowHelper.core
             correctionAdd("IPSec", "IPsec");
             correctionAdd("ipsect", "IPsec");
 
+            correctionAdd("ocurr", "occur");
+            correctionAdd("occure", "occur");
+            correctionAdd("ocur", "occur");
+
+            correctionAdd("occures", "occurs");
+            correctionAdd("occurrs", "occurs");
+            correctionAdd("occurres", "occurs");
+
             correctionAdd("occuring", "occurring");
 
             correctionAdd("occured", "occurred");
@@ -31132,13 +31171,7 @@ namespace OverflowHelper.core
             correctionAdd("occurances", "occurrence");
             correctionAdd("Occurence", "occurrence");
 
-            correctionAdd("ocurr", "occur");
-            correctionAdd("occure", "occur");
-            correctionAdd("ocur", "occur");
-
-            correctionAdd("occures", "occurs");
-            correctionAdd("occurrs", "occurs");
-            correctionAdd("occurres", "occurs");
+            correctionAdd("occurences", "occurrences");
 
             correctionAdd("curricila", "curricula");
             correctionAdd("curriculums", "curricula");
@@ -32210,6 +32243,9 @@ namespace OverflowHelper.core
             correctionAdd("xray", "X-ray");
             correctionAdd("x ray", "X-ray");
             correctionAdd("X ray", "X-ray");
+            correctionAdd("XRAY", "X-ray"); // Though there also a crypto
+                                            // thingy (not represented 
+                                            // in this list yet).
 
             // Should we expand to "Blue Screen of Death"? Or "blue screen of death"?
             correctionAdd("BSOD", "BSoD");
@@ -33358,21 +33394,6 @@ namespace OverflowHelper.core
 
             correctionAdd("hdmi", "HDMI");
             correctionAdd("HDMi", "HDMI");
-
-            correctionAdd("ctor", "constructor");
-            correctionAdd("CTOR", "constructor");
-            correctionAdd("c'tor", "constructor");
-            correctionAdd("contructor", "constructor");
-            correctionAdd("ctr", "constructor");
-            correctionAdd("CTor", "constructor");
-            correctionAdd("Constructor", "constructor");
-            correctionAdd("Ctor", "constructor");
-            correctionAdd("construstor", "constructor");
-            correctionAdd("cotr", "constructor");
-            correctionAdd("constuctor", "constructor");
-            correctionAdd("constr", "constructor");
-            correctionAdd("contrctor", "constructor");
-            correctionAdd("controctor", "constructor");
 
             correctionAdd("t4", "T4");
 
@@ -36894,10 +36915,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ocd", "OCD");
 
-            correctionAdd("unity 3d", "Unity 3D");
-            correctionAdd("unity3d", "Unity 3D");
-            correctionAdd("Unity3D", "Unity 3D");
-
             correctionAdd("Dansk", "dansk");
 
             correctionAdd("Engelsk", "engelsk");
@@ -38052,6 +38069,7 @@ namespace OverflowHelper.core
             correctionAdd("simultaniuosly", "simultaneously");
             correctionAdd("simutaniuosly", "simultaneously");
             correctionAdd("simultaneoulsy", "simultaneously");
+            correctionAdd("Simultaneously", "simultaneously");
 
             correctionAdd("suposed", "supposed");
             correctionAdd("supoused", "supposed");
@@ -38507,6 +38525,9 @@ namespace OverflowHelper.core
             correctionAdd("useage", "usage");
             correctionAdd("Usase", "usage");
             correctionAdd("usase", "usage");
+            correctionAdd("ussage", "usage");
+
+            correctionAdd("non-usage", "nonusage");
 
             correctionAdd("Isreal", "Israel"); // Misspelled in the "WarGames" movie (though not the only place)...
             correctionAdd("Israle", "Israel");
@@ -42522,6 +42543,8 @@ namespace OverflowHelper.core
             correctionAdd("atempt", "attempt");
 
             correctionAdd("attemted", "attempted");
+            correctionAdd("Attemped", "attempted");
+            correctionAdd("attemped", "attempted");
 
             correctionAdd("attemps", "attempts");
 
@@ -49056,6 +49079,7 @@ namespace OverflowHelper.core
             correctionAdd("whiney", "whiny");
 
             correctionAdd("wraping", "wrapping");
+            correctionAdd("warping", "wrapping");
 
             correctionAdd("verizon", "Verizon");
 
@@ -52273,6 +52297,7 @@ namespace OverflowHelper.core
             correctionAdd("idoit", "idiot");
             correctionAdd("Idiot", "idiot");
             correctionAdd("idot", "idiot");
+            correctionAdd("id10t", "idiot");
 
             correctionAdd("SYS.STDOUT", "sys.stdout");
 
@@ -53465,6 +53490,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Ucraine", "Ukraine");
             correctionAdd("Ukrain", "Ukraine");
+            correctionAdd("Ukr", "Ukraine");
+            correctionAdd("ukraine", "Ukraine");
 
             correctionAdd("ukrainian", "Ukrainian");
 
@@ -54537,6 +54564,17 @@ namespace OverflowHelper.core
 
             correctionAdd("raytracing", "ray tracing");
 
+            // Python / artificial intelligence
+            correctionAdd("ray", "Ray");
+
+            // C library for graphical applications and games
+            correctionAdd("raylib", "Raylib");
+
+            correctionAdd("thomson scattering", "Thomson scattering");
+            correctionAdd("thompson scattering", "Thomson scattering");
+
+            correctionAdd("rayleigh scattering", "Rayleigh scattering");
+
             correctionAdd("red-flag", "red flag");
             correctionAdd("redflag", "red flag");
             correctionAdd("Red Flag", "red flag");
@@ -55037,10 +55075,6 @@ namespace OverflowHelper.core
 
             correctionAdd("mqtt", "MQTT");
 
-            correctionAdd("ray", "Ray");
-
-            correctionAdd("raylib", "Raylib");
-
             correctionAdd("enbled", "enabled");
             correctionAdd("anabled", "enabled");
             correctionAdd("enabeled", "enabled");
@@ -55171,8 +55205,6 @@ namespace OverflowHelper.core
 
             correctionAdd("American Megatrends", "American Megatrends International");
             correctionAdd("AMI", "American Megatrends International");
-
-            correctionAdd("Faroe islands", "Faroe Islands");
 
             correctionAdd("gollum", "Gollum");
 
@@ -56709,11 +56741,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Roo", "Spring Roo");
 
-            correctionAdd("thomson scattering", "Thomson scattering");
-            correctionAdd("thompson scattering", "Thomson scattering");
-
-            correctionAdd("rayleigh scattering", "Rayleigh scattering");
-
             correctionAdd("wear levelling", "wear leveling");
             correctionAdd("wear-leveling", "wear leveling");
 
@@ -58101,6 +58128,7 @@ namespace OverflowHelper.core
 
             correctionAdd("counterindication", "contraindication");
             correctionAdd("counter indication", "contraindication");
+            correctionAdd("Counter indication", "contraindication");
 
             correctionAdd("Shapesheet", "ShapeSheet");
             correctionAdd("shapesheet", "ShapeSheet");
@@ -58251,8 +58279,6 @@ namespace OverflowHelper.core
             correctionAdd("mesured", "measured");
 
             correctionAdd("napoleonic", "Napoleonic");
-
-            correctionAdd("non-usage", "nonusage");
 
             correctionAdd("office-work", "office work");
 
@@ -59408,6 +59434,25 @@ namespace OverflowHelper.core
             correctionAdd("diggresion", "digression");
             correctionAdd("diggression", "digression");
             correctionAdd("digresion", "digression");
+
+            correctionAdd("budged", "budget");
+
+            // Alternative URL:
+            //
+            //   <https://thecontentauthority.com/blog/how-to-use-for-completeness-sake-in-a-sentence>
+            //
+            correctionAdd("for completeness shake", "for the sake of completeness");
+            correctionAdd("completeness sake", "for the sake of completeness");
+            correctionAdd("completeness shake", "for the sake of completeness");
+            correctionAdd("completeness' sake", "for the sake of completeness");
+
+            correctionAdd("Jury-rig", "jury-rig");
+
+            correctionAdd("skelton", "skeleton");
+
+            correctionAdd("trouble maker", "troublemaker");
+
+            correctionAdd("veiwers", "viewers");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -61816,8 +61861,6 @@ namespace OverflowHelper.core
             URL_Add("DevExpress", "https://www.devexpress.com/aboutus/"); // Old: http://www.devexpress.com/Home/Mission.xml
 
             URL_Add("HDMI", "https://en.wikipedia.org/wiki/HDMI");
-
-            URL_Add("constructor", "https://en.wikipedia.org/wiki/Constructor_%28object-oriented_programming%29");
 
             URL_Add("POST", "https://en.wikipedia.org/wiki/POST_%28HTTP%29");
 
@@ -91056,6 +91099,24 @@ namespace OverflowHelper.core
 
             URL_Add("geoscience", "https://en.wiktionary.org/wiki/geoscience#Noun");
 
+            URL_Add("Allegro", "https://en.wikipedia.org/wiki/Allegro_(software_library)");
+
+            URL_Add("budget", "https://en.wiktionary.org/wiki/budget#Noun");
+
+            URL_Add("for the sake of completeness", "https://dictionary.cambridge.org/dictionary/english/completeness");
+
+            URL_Add("jury-rig", "https://en.wiktionary.org/wiki/jury-rig#Verb");
+
+            URL_Add("occurrences", "https://en.wiktionary.org/wiki/occurrence#Noun");
+
+            URL_Add("skeleton", "https://en.wiktionary.org/wiki/skeleton#Noun");
+
+            URL_Add("troublemaker", "https://en.wiktionary.org/wiki/troublemaker#Noun");
+
+            URL_Add("viewers", "https://en.wiktionary.org/wiki/viewer#Noun");
+
+            URL_Add("VisionCamera", "https://github.com/mrousavy/react-native-vision-camera");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -94608,6 +94669,21 @@ namespace OverflowHelper.core
 
             correctionAdd("breeze_", "brief_");
 
+            correctionAdd("ctor_", "constructor_");
+            correctionAdd("CTOR_", "constructor_");
+            correctionAdd("c'tor_", "constructor_");
+            correctionAdd("contructor_", "constructor_");
+            correctionAdd("ctr_", "constructor_");
+            correctionAdd("CTor_", "constructor_");
+            correctionAdd("Constructor_", "constructor_");
+            correctionAdd("Ctor_", "constructor_");
+            correctionAdd("construstor_", "constructor_");
+            correctionAdd("cotr_", "constructor_");
+            correctionAdd("constuctor_", "constructor_");
+            correctionAdd("constr_", "constructor_");
+            correctionAdd("contrctor_", "constructor_");
+            correctionAdd("controctor_", "constructor_");
+
             // URL mappings
             //
             //
@@ -96441,6 +96517,8 @@ namespace OverflowHelper.core
             URL_Add("MX record_", "https://en.wikipedia.org/wiki/MX_record");
 
             URL_Add("brief_", "https://en.wiktionary.org/wiki/brief#Adjective");
+
+            URL_Add("constructor_", "https://en.wikipedia.org/wiki/Constructor_%28object-oriented_programming%29");
 
         } //addLookupData_alternativeWordSet()
 
