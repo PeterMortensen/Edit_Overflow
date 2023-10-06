@@ -2135,6 +2135,16 @@ namespace OverflowHelper.core
             correctionAdd("CM Quickfire Rapid", "Cooler Master Quick Fire Rapid");
             correctionAdd("CoolerMaster QuickFire Rapid", "Cooler Master Quick Fire Rapid");
 
+            // A keyboard-mouse combination: A wired full-size
+            // keyboard (clicky membrane-chanical) and a
+            // wired mouse from Cooler Master
+            //
+            // Manual:
+            //
+            //   <https://coolermaster.egnyte.com/dd/DgoYEsPou8>
+            //
+            correctionAdd("ms121", "MasterSet MS121");
+
             // A power supply from Cooler Master
             correctionAdd("v850w sfx", "V850 SFX Gold");
 
@@ -2168,11 +2178,12 @@ namespace OverflowHelper.core
             correctionAdd("Keybordio", "Keyboardio");
             correctionAdd("Keybordium", "Keyboardio");
 
-            // A mechanical keyboard
+            // A ergonomic mechanical keyboard
             //
             // See also <https://www.theverge.com/22566248/zsa-moonlander-mark-i-1-ergonomic-keyboard-mechanical-review>
             correctionAdd("Moonlander", "Moonlander Mark I");
             correctionAdd("moonlander", "Moonlander Mark I");
+            correctionAdd("Moon lander", "Moonlander Mark I");
 
             // A mechanical keyboard. DYI / open hardware.
             //
@@ -5048,6 +5059,7 @@ namespace OverflowHelper.core
             correctionAdd(".NET framwork", ".NET");
             correctionAdd(".Net framwork", ".NET");
             correctionAdd(".netframework", ".NET");
+            correctionAdd("Net Framework", ".NET");
 
             correctionAdd(".net3.5", ".NET 3.5");
             correctionAdd(".NET35", ".NET 3.5");
@@ -15547,21 +15559,6 @@ namespace OverflowHelper.core
             correctionAdd("Galaxy XCover", "Galaxy Xcover");
 
             // An Android phone
-            correctionAdd("Samsung Galaxy S III", "Samsung Galaxy&nbsp;S&nbsp;III"); // Sort of identity mapping
-            correctionAdd("samsung galaxy s III", "Samsung Galaxy&nbsp;S&nbsp;III");
-            correctionAdd("Samsung S3", "Samsung Galaxy&nbsp;S&nbsp;III");
-            correctionAdd("galaxyS", "Samsung Galaxy&nbsp;S&nbsp;III"); // Really S3?
-            correctionAdd("galaxy S", "Samsung Galaxy&nbsp;S&nbsp;III"); // Really S3?
-            correctionAdd("Galaxy S3", "Samsung Galaxy&nbsp;S&nbsp;III");
-            correctionAdd("Samsung Galaxy S3", "Samsung Galaxy&nbsp;S&nbsp;III");
-            correctionAdd("Galaxy III", "Samsung Galaxy&nbsp;S&nbsp;III");
-            correctionAdd("Galaxy S III", "Samsung Galaxy&nbsp;S&nbsp;III");
-            correctionAdd("Galaxy s3", "Samsung Galaxy&nbsp;S&nbsp;III");
-            correctionAdd("Samsung GalaxyIII", "Samsung Galaxy&nbsp;S&nbsp;III");
-            correctionAdd("Samsung Galaxy III", "Samsung Galaxy&nbsp;S&nbsp;III");
-            correctionAdd("Samsung Galaxy 3", "Samsung Galaxy&nbsp;S&nbsp;III");
-
-            // An Android phone
             correctionAdd("samsung s7", "Samsung Galaxy S7");
             correctionAdd("Samsung galaxy s7", "Samsung Galaxy S7");
             correctionAdd("Galaxy S7", "Samsung Galaxy S7");
@@ -18032,6 +18029,7 @@ namespace OverflowHelper.core
             correctionAdd("TamperMonkey", "Tampermonkey");
             correctionAdd("Tamper Monkey", "Tampermonkey");
             correctionAdd("Tampermokey", "Tampermonkey");
+            correctionAdd("Tamper monkey", "Tampermonkey");
 
             // Userscripts support for browsers
             correctionAdd("ViolentMonkey", "Violentmonkey");
@@ -23595,6 +23593,7 @@ namespace OverflowHelper.core
             correctionAdd("DDG", "DuckDuckGo");
             correctionAdd("Duck Duck Go", "DuckDuckGo");
             correctionAdd("ddg", "DuckDuckGo");
+            correctionAdd("DuckDuckGO", "DuckDuckGo");
 
             // A web search engine
             //
@@ -25240,6 +25239,8 @@ namespace OverflowHelper.core
             correctionAdd("ventura", "macOS&nbsp;v13 (Ventura)");
             correctionAdd("OS Ventura", "macOS&nbsp;v13 (Ventura)");
             correctionAdd("OS Ventura 13", "macOS&nbsp;v13 (Ventura)");
+            correctionAdd("MacOS Ventura 13", "macOS&nbsp;v13 (Ventura)");
+            correctionAdd("macOS v13", "macOS&nbsp;v13 (Ventura)");
 
             correctionAdd("Sonoma", "macOS&nbsp;v14 (Sonoma)");
             correctionAdd("macOS v14 (Sonoma)", "macOS&nbsp;v14 (Sonoma)"); // Sort of identity mapping
@@ -26744,8 +26745,25 @@ namespace OverflowHelper.core
             correctionAdd("XKCD", "xkcd");
             correctionAdd("Xkcd", "xkcd");
 
+            // xkcd...
+            correctionAdd("0x7363682E", "pointers");
+            correctionAdd("0x3A28213A", "pointers");
+            correctionAdd("0x6339392C", "pointers");
+            correctionAdd("138", "pointers");
+            correctionAdd("xkcd 138", "pointers");
+
+            correctionAdd("citation needed", "Wikipedian protester");
+            correctionAdd("protester", "Wikipedian protester");
+            correctionAdd("285", "Wikipedian protester");
+            correctionAdd("xkcd 285", "Wikipedian protester");
+
             correctionAdd("356", "xkcd 356");
             correctionAdd("nerd sniping", "xkcd 356");
+
+            correctionAdd("Purity", "Purity (xkcd 435)");
+            correctionAdd("purity", "Purity (xkcd 435)");
+            correctionAdd("435", "Purity (xkcd 435)");
+            correctionAdd("xkcd 435", "Purity (xkcd 435)");
 
             // xkcd 979 (Wisdom of the Ancients)
             correctionAdd("Denvercoder", "DenverCoder9");
@@ -26762,9 +26780,35 @@ namespace OverflowHelper.core
             correctionAdd("never know", "DenverCoder9");
             correctionAdd("we may never know", "DenverCoder9");
             correctionAdd("Ancients", "DenverCoder9");
+            correctionAdd("979", "DenverCoder9");
+            correctionAdd("xkcd 979", "DenverCoder9");
 
-            correctionAdd("Purity", "Purity (xkcd 435)");
-            correctionAdd("purity", "Purity (xkcd 435)");
+            correctionAdd("ptr", "pointer");
+            correctionAdd("Pointer", "pointer");
+            correctionAdd("poister", "pointer");
+
+            correctionAdd("null-pointer", "null pointer");
+            correctionAdd("nullpointer", "null pointer");
+            correctionAdd("nullptr", "null pointer");
+
+            correctionAdd("NPE", "null pointer exception");
+            correctionAdd("NullPointer Exception", "null pointer exception");
+            correctionAdd("nullpointer exception", "null pointer exception");
+            correctionAdd("NullPointerEceptions", "null pointer exception");
+            correctionAdd("NullPointerEception", "null pointer exception");
+            correctionAdd("NullPointerException", "null pointer exception");
+            correctionAdd("NPEs", "null pointer exception");
+            correctionAdd("npe", "null pointer exception");
+
+            correctionAdd("excetpion", "exception");
+            correctionAdd("excepetion", "exception");
+            correctionAdd("xeption", "exception");
+            correctionAdd("exeption", "exception");
+            correctionAdd("execption", "exception");
+            correctionAdd("Exeption", "exception");
+            correctionAdd("Eception", "exception");
+            correctionAdd("Exception", "exception");
+            correctionAdd("eception", "exception");
 
             correctionAdd("Content-type", "Content-Type"); // HTTP header
             correctionAdd("content-type", "Content-Type"); // HTTP header
@@ -26860,38 +26904,6 @@ namespace OverflowHelper.core
             correctionAdd("resultat", "result");
             correctionAdd("resoult", "result");
             correctionAdd("risult", "result");
-
-            correctionAdd("ptr", "pointer");
-            correctionAdd("Pointer", "pointer");
-            correctionAdd("poister", "pointer");
-
-            // xkcd...
-            correctionAdd("0x7363682E", "pointers");
-            correctionAdd("0x3A28213A", "pointers");
-            correctionAdd("0x6339392C", "pointers");
-
-            correctionAdd("null-pointer", "null pointer");
-            correctionAdd("nullpointer", "null pointer");
-            correctionAdd("nullptr", "null pointer");
-
-            correctionAdd("NPE", "null pointer exception");
-            correctionAdd("NullPointer Exception", "null pointer exception");
-            correctionAdd("nullpointer exception", "null pointer exception");
-            correctionAdd("NullPointerEceptions", "null pointer exception");
-            correctionAdd("NullPointerEception", "null pointer exception");
-            correctionAdd("NullPointerException", "null pointer exception");
-            correctionAdd("NPEs", "null pointer exception");
-            correctionAdd("npe", "null pointer exception");
-
-            correctionAdd("excetpion", "exception");
-            correctionAdd("excepetion", "exception");
-            correctionAdd("xeption", "exception");
-            correctionAdd("exeption", "exception");
-            correctionAdd("execption", "exception");
-            correctionAdd("Exeption", "exception");
-            correctionAdd("Eception", "exception");
-            correctionAdd("Exception", "exception");
-            correctionAdd("eception", "exception");
 
             correctionAdd("RSP register", "RSP register (stack pointer)");
             correctionAdd("RSP", "RSP register (stack pointer)");
@@ -28070,12 +28082,6 @@ namespace OverflowHelper.core
             correctionAdd("AIUI", "as I understand it");
 
             correctionAdd("PEBKAC", "problem exists between keyboard and chair");
-
-            correctionAdd("ymmv", "your mileage may vary");
-            correctionAdd("YMMV", "your mileage may vary");
-            correctionAdd("Your mileage may vary", "your mileage may vary");
-            correctionAdd("milage may vary", "your mileage may vary");
-            correctionAdd("may vary", "your mileage may vary");
 
             correctionAdd("milage", "mileage");
 
@@ -32244,7 +32250,7 @@ namespace OverflowHelper.core
             correctionAdd("x ray", "X-ray");
             correctionAdd("X ray", "X-ray");
             correctionAdd("XRAY", "X-ray"); // Though there also a crypto
-                                            // thingy (not represented 
+                                            // thingy (not represented
                                             // in this list yet).
 
             // Should we expand to "Blue Screen of Death"? Or "blue screen of death"?
@@ -36877,6 +36883,7 @@ namespace OverflowHelper.core
             correctionAdd("indtead", "instead");
             correctionAdd("istead", "instead");
             correctionAdd("insetad", "instead");
+            correctionAdd("insteand", "instead");
 
             correctionAdd("rethorical", "rhetorical");
             correctionAdd("rethorocal", "rhetorical");
@@ -37619,6 +37626,7 @@ namespace OverflowHelper.core
             correctionAdd("trouble shooting", "troubleshooting");
             correctionAdd("troubeshooting", "troubleshooting");
             correctionAdd("troubleshouting", "troubleshooting");
+            correctionAdd("TroubleShooting", "troubleshooting");
 
             correctionAdd("costomer", "customer");
             correctionAdd("costumer", "customer");
@@ -38421,6 +38429,7 @@ namespace OverflowHelper.core
             correctionAdd("afford", "effort");
             correctionAdd("effor", "effort");
             correctionAdd("efford", "effort");
+            correctionAdd("aford", "effort");
 
             correctionAdd("5th", "fifth");
             correctionAdd("Fifth", "fifth");
@@ -39446,6 +39455,7 @@ namespace OverflowHelper.core
 
             correctionAdd("local host", "localhost");
             correctionAdd("loccalhost", "localhost");
+            correctionAdd("locahost", "localhost");
 
             correctionAdd("protion", "portion");
 
@@ -39888,14 +39898,15 @@ namespace OverflowHelper.core
             correctionAdd("W3schools.com", "W3Schools");
             correctionAdd("W3CSchools", "W3Schools");
 
+            correctionAdd("School", "school");
+            correctionAdd("shcool", "school");
+            correctionAdd("shool", "school");
+
             correctionAdd("High School", "high school");
             correctionAdd("HS", "high school");
             correctionAdd("Highschool", "high school");
             correctionAdd("highschool", "high school");
             correctionAdd("High school", "high school");
-
-            correctionAdd("School", "school");
-            correctionAdd("shcool", "school");
 
             correctionAdd("mindstorm", "Lego Mindstorms");
             correctionAdd("Lego Mindstorm", "Lego Mindstorms");
@@ -42605,6 +42616,7 @@ namespace OverflowHelper.core
             correctionAdd("mis-match", "mismatch");
             correctionAdd("miss match", "mismatch");
             correctionAdd("missmatch", "mismatch");
+            correctionAdd("mismach", "mismatch");
 
             correctionAdd("Me Too", "MeToo");
 
@@ -44325,6 +44337,8 @@ namespace OverflowHelper.core
 
             correctionAdd("re-enter", "reenter");
 
+            correctionAdd("re-entering", "reentering");
+
             correctionAdd("Torque", "torque");
 
             correctionAdd("Belorus", "Belarus");
@@ -45171,6 +45185,7 @@ namespace OverflowHelper.core
             correctionAdd("laikely", "likely");
             correctionAdd("laikly", "likely");
             correctionAdd("likley", "likely"); // True typo
+            correctionAdd("lkely", "likely");
 
             correctionAdd("tipp", "tip");
 
@@ -50855,6 +50870,7 @@ namespace OverflowHelper.core
             correctionAdd("can not", "cannot");
             correctionAdd("canot", "cannot");
             correctionAdd("cannoth", "cannot");
+            correctionAdd("annot", "cannot");
 
             correctionAdd("combinatorical", "combinatorial");
             correctionAdd("Combinatorial", "combinatorial");
@@ -53689,6 +53705,7 @@ namespace OverflowHelper.core
 
             correctionAdd("suppresed", "suppressed");
             correctionAdd("supressed", "suppressed");
+            correctionAdd("suprressed", "suppressed");
 
             correctionAdd("over-zealous", "overzealous");
 
@@ -57382,6 +57399,7 @@ namespace OverflowHelper.core
             correctionAdd("easychair", "EasyChair");
 
             correctionAdd("ergo", "ergonomic");
+            correctionAdd("ergonomical", "ergonomic");
 
             correctionAdd("formual", "formula");
 
@@ -59453,6 +59471,10 @@ namespace OverflowHelper.core
             correctionAdd("trouble maker", "troublemaker");
 
             correctionAdd("veiwers", "viewers");
+
+            correctionAdd("chrome canary", "Chrome Canary");
+
+            correctionAdd("KMP algorithm", "Knuth–Morris–Pratt algorithm");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -62026,8 +62048,6 @@ namespace OverflowHelper.core
 
             URL_Add("W3Schools", "https://en.wikipedia.org/wiki/W3Schools");
 
-            URL_Add("Samsung Galaxy&nbsp;S&nbsp;III", "https://en.wikipedia.org/wiki/Samsung_Galaxy_S_III");
-
             URL_Add("Internet&nbsp;Explorer&nbsp;9", "https://en.wikipedia.org/wiki/Internet_Explorer_9");
 
             URL_Add("Internet&nbsp;Explorer&nbsp;10", "https://en.wikipedia.org/wiki/Internet_Explorer_11#Internet_Explorer_10");
@@ -63139,8 +63159,6 @@ namespace OverflowHelper.core
             URL_Add("LLDB", "https://en.wikipedia.org/wiki/LLDB_(debugger)");
 
             URL_Add("Xamarin", "https://en.wikipedia.org/wiki/Xamarin");
-
-            URL_Add("your mileage may vary", "https://en.wiktionary.org/wiki/your_mileage_may_vary#Phrase"); // Old: https://en.wiktionary.org/wiki/YMMV#Phrase. Old: https://en.wiktionary.org/wiki/YMMV
 
             URL_Add("ASP.NET Core", "https://en.wikipedia.org/wiki/ASP.NET_Core");
 
@@ -91117,6 +91135,16 @@ namespace OverflowHelper.core
 
             URL_Add("VisionCamera", "https://github.com/mrousavy/react-native-vision-camera");
 
+            URL_Add("Chrome Canary", "https://en.wikipedia.org/wiki/Google_Chrome#Release_channels,_cycles_and_updates");
+
+            URL_Add("reentering", "https://en.wiktionary.org/wiki/reenter#Verb");
+
+            URL_Add("MasterSet MS121", "https://www.coolermaster.com/catalog/peripheral/keyboards/masterset-ms121/");
+
+            URL_Add("Wikipedian protester", "https://explainxkcd.com/wiki/index.php/285:_Wikipedian_Protester");
+
+            URL_Add("Knuth–Morris–Pratt algorithm", "https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -94684,6 +94712,33 @@ namespace OverflowHelper.core
             correctionAdd("contrctor_", "constructor_");
             correctionAdd("controctor_", "constructor_");
 
+            // An Android phone
+            correctionAdd("Samsung Galaxy S III_", "Samsung Galaxy&nbsp;S&nbsp;III_"); // Sort of identity mapping
+            correctionAdd("samsung galaxy s III_", "Samsung Galaxy&nbsp;S&nbsp;III_");
+            correctionAdd("Samsung S3_", "Samsung Galaxy&nbsp;S&nbsp;III_");
+            correctionAdd("galaxyS_", "Samsung Galaxy&nbsp;S&nbsp;III_"); // Really S3?
+            correctionAdd("galaxy S_", "Samsung Galaxy&nbsp;S&nbsp;III_"); // Really S3?
+            correctionAdd("Galaxy S3_", "Samsung Galaxy&nbsp;S&nbsp;III_");
+            correctionAdd("Samsung Galaxy S3_", "Samsung Galaxy&nbsp;S&nbsp;III_");
+            correctionAdd("Galaxy III_", "Samsung Galaxy&nbsp;S&nbsp;III_");
+            correctionAdd("Galaxy S III_", "Samsung Galaxy&nbsp;S&nbsp;III_");
+            correctionAdd("Galaxy s3_", "Samsung Galaxy&nbsp;S&nbsp;III_");
+            correctionAdd("Samsung GalaxyIII_", "Samsung Galaxy&nbsp;S&nbsp;III_");
+            correctionAdd("Samsung Galaxy III_", "Samsung Galaxy&nbsp;S&nbsp;III_");
+            correctionAdd("Samsung Galaxy 3_", "Samsung Galaxy&nbsp;S&nbsp;III_");
+            correctionAdd("S III_", "Samsung Galaxy&nbsp;S&nbsp;III_");
+            correctionAdd("S3_", "Samsung Galaxy&nbsp;S&nbsp;III_");
+
+            correctionAdd("ymmv_", "your mileage may vary_");
+            correctionAdd("YMMV_", "your mileage may vary_");
+            correctionAdd("Your mileage may vary_", "your mileage may vary_");
+            correctionAdd("milage may vary_", "your mileage may vary_");
+            correctionAdd("may vary_", "your mileage may vary_");
+            correctionAdd("millage_", "your mileage may vary_");
+            correctionAdd("vary_", "your mileage may vary_");
+
+            correctionAdd("aford_", "afford_");
+
             // URL mappings
             //
             //
@@ -96519,6 +96574,12 @@ namespace OverflowHelper.core
             URL_Add("brief_", "https://en.wiktionary.org/wiki/brief#Adjective");
 
             URL_Add("constructor_", "https://en.wikipedia.org/wiki/Constructor_%28object-oriented_programming%29");
+
+            URL_Add("Samsung Galaxy&nbsp;S&nbsp;III_", "https://en.wikipedia.org/wiki/Samsung_Galaxy_S_III");
+
+            URL_Add("your mileage may vary_", "https://en.wiktionary.org/wiki/your_mileage_may_vary#Phrase"); // Old: https://en.wiktionary.org/wiki/YMMV#Phrase. Old: https://en.wiktionary.org/wiki/YMMV
+
+            URL_Add("afford_", "https://en.wiktionary.org/wiki/afford#Verb");
 
         } //addLookupData_alternativeWordSet()
 
