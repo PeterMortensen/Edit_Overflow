@@ -4229,6 +4229,7 @@ namespace OverflowHelper.core
             correctionAdd("Thank your", "thank you");
             correctionAdd("thank your", "thank you");
             correctionAdd("thank-you", "thank you");
+            correctionAdd("thank yuo", "thank you");
 
             correctionAdd("tysm", "thank you very much");
 
@@ -6637,6 +6638,7 @@ namespace OverflowHelper.core
             correctionAdd("WIll", "will");
             correctionAdd("Wil", "will");
             correctionAdd("swill", "will");
+            correctionAdd("sil", "will");
 
             correctionAdd("good will", "goodwill");
             correctionAdd("good-will", "goodwill");
@@ -12054,7 +12056,7 @@ namespace OverflowHelper.core
 
             correctionAdd("saturn", "Saturn"); // The planet
 
-            // Saturn  
+            // Saturn
             correctionAdd("enceladus", "Enceladus");
 
             correctionAdd("uranus", "Uranus"); // The planet
@@ -18740,30 +18742,6 @@ namespace OverflowHelper.core
             correctionAdd("MetaStackOverflow", "Meta&nbsp;Stack&nbsp;Overflow");
             correctionAdd("StackOverflow Meta", "Meta&nbsp;Stack&nbsp;Overflow");
 
-            correctionAdd("Meta StackExchange", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("MSE", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("mse", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("meta.SE", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("Meta SE", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("MetaSE", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("Meta.SE", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("meta-SE", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("Stack-exchange Meta", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("Stack exchange Meta", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("Meta Stack Exchange", "Meta&nbsp;Stack&nbsp;Exchange"); // Effectively self.
-            correctionAdd("meta.stackexchange", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("meta stock exchange", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("META StackExchange", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("Meta.StackExchange", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("Meta Stackexchange", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("Meta stackexchange", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("meta stackexchange", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("meta stack exchange", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("Over Meta", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("Over-Meta", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("Über meta", "Meta&nbsp;Stack&nbsp;Exchange");
-            correctionAdd("overmeta", "Meta&nbsp;Stack&nbsp;Exchange");
-
             correctionAdd("Unix&Linux", "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)");
             correctionAdd("U&L", "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)");
             correctionAdd("unix & linux", "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)");
@@ -22069,6 +22047,7 @@ namespace OverflowHelper.core
             correctionAdd("Microsoft Excel", "Excel");
             correctionAdd("Exel", "Excel");
             correctionAdd("exel", "Excel");
+            correctionAdd("MSE", "Excel");
 
             correctionAdd("97", "Excel 97");
 
@@ -23774,6 +23753,7 @@ namespace OverflowHelper.core
             correctionAdd("jQueryUi", "jQuery UI");
             correctionAdd("jquery.ui", "jQuery UI");
             correctionAdd("Jquery-ui", "jQuery UI");
+            correctionAdd("jqueryUI", "jQuery UI");
 
             correctionAdd("JQuery Mobile", "jQuery Mobile");
             correctionAdd("jquery mobile", "jQuery Mobile");
@@ -32489,6 +32469,10 @@ namespace OverflowHelper.core
             correctionAdd("dupelicate", "duplicate");
             correctionAdd("duplciate", "duplicate");
             correctionAdd("dupl1cate", "duplicate");
+
+            correctionAdd("dups", "duplicates");
+
+            correctionAdd("dublicated", "duplicated");
 
             correctionAdd("Truecrypt", "TrueCrypt");
             correctionAdd("truecrypt", "TrueCrypt");
@@ -57375,8 +57359,6 @@ namespace OverflowHelper.core
             correctionAdd("Tunesian", "Tunisian");
             correctionAdd("tunesian", "Tunisian");
 
-            correctionAdd("dublicated", "duplicated");
-
             correctionAdd("familarity", "familiarity");
 
             // Related to audio
@@ -62336,8 +62318,6 @@ namespace OverflowHelper.core
             URL_Add("Heartbleed", "https://en.wikipedia.org/wiki/Heartbleed");
 
             URL_Add("capacitor", "https://en.wikipedia.org/wiki/Capacitor");
-
-            URL_Add("Meta&nbsp;Stack&nbsp;Exchange", "https://meta.stackexchange.com/help/whats-meta");
 
             URL_Add("people", "https://en.wiktionary.org/wiki/people#Noun"); // Old: https://en.wiktionary.org/wiki/people
 
@@ -91170,6 +91150,8 @@ namespace OverflowHelper.core
 
             URL_Add("ZERO WIDTH JOINER", "https://www.utf8-chartable.de/unicode-utf8-table.pl?start=8192&number=128");
 
+            URL_Add("duplicates", "https://en.wiktionary.org/wiki/duplicate#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -91609,7 +91591,7 @@ namespace OverflowHelper.core
             correctionAdd("advices_", "advice_");
             correctionAdd("advise_", "advice_");
 
-            correctionAdd("MSE_", "mean squared error_");
+            //correctionAdd("MSE_", "mean squared error_"); //Conflict with another word
             correctionAdd("Mean Squares Error_", "mean squared error_");
 
             correctionAdd("BMP_", "Basic Multilingual Plane_");
@@ -92282,6 +92264,55 @@ namespace OverflowHelper.core
             correctionAdd("Database&nbsp;Administrators_", "Database&nbsp;Administrators (Stack Exchange site)_"); // Sort of identity mapping
             correctionAdd("Database Adminstrators_", "Database&nbsp;Administrators (Stack Exchange site)_");
             correctionAdd("DBA_", "Database&nbsp;Administrators (Stack Exchange site)_");
+
+            // Stack Overflow / Stack Exchange
+            correctionAdd("Metasmoke_", "metasmoke_");
+
+            // Note: The correct term is currently too long
+            //       for our database item... (146 maximum?)
+            //
+            // Alternative URLs:
+            //
+            //   <https://meta.stackoverflow.com/questions/404102/when-should-answers-consisting-entirely-of-cited-copied-content-be-flagged>
+            //
+            // For examples of "quote-only" answers:
+            //
+            //   <https://meta.stackoverflow.com/questions/422878/are-quote-only-answers-allowed/422881#422881>
+            //
+            correctionAdd("plagiarism_", "What do we do with answers that are entirely copied and improperly attributed (only a \"reference\" link or similar is included)?_");
+            correctionAdd("attribution_", "What do we do with answers that are entirely copied and improperly attributed (only a \"reference\" link or similar is included)?_");
+            correctionAdd("entirely copied, but properly attributed_", "What do we do with answers that are entirely copied and improperly attributed (only a \"reference\" link or similar is included)?_");
+
+            // Stack Exchange / Stack Overflow
+            correctionAdd("Eternal September on SO_", "Eternal September on Stack Overflow_");
+            correctionAdd("big city problems_", "Eternal September on Stack Overflow_");
+            correctionAdd("eternal september on SO_", "Eternal September on Stack Overflow_");
+            correctionAdd("eternal september on so_", "Eternal September on Stack Overflow_");
+            correctionAdd("Eternal September_", "Eternal September on Stack Overflow_");
+
+            correctionAdd("Meta StackExchange_", "Meta&nbsp;Stack&nbsp;Exchange_");
+            correctionAdd("MSE_", "Meta&nbsp;Stack&nbsp;Exchange_");
+            correctionAdd("mse_", "Meta&nbsp;Stack&nbsp;Exchange_");
+            correctionAdd("meta.SE_", "Meta&nbsp;Stack&nbsp;Exchange_");
+            correctionAdd("Meta SE_", "Meta&nbsp;Stack&nbsp;Exchange_");
+            correctionAdd("MetaSE_", "Meta&nbsp;Stack&nbsp;Exchange_");
+            correctionAdd("Meta.SE_", "Meta&nbsp;Stack&nbsp;Exchange_");
+            correctionAdd("meta-SE_", "Meta&nbsp;Stack&nbsp;Exchange_");
+            correctionAdd("Stack-exchange Meta_", "Meta&nbsp;Stack&nbsp;Exchange_");
+            correctionAdd("Stack exchange Meta_", "Meta&nbsp;Stack&nbsp;Exchange_");
+            correctionAdd("Meta Stack Exchange_", "Meta&nbsp;Stack&nbsp;Exchange_"); // Effectively self.
+            correctionAdd("meta.stackexchange_", "Meta&nbsp;Stack&nbsp;Exchange_");
+            correctionAdd("meta stock exchange_", "Meta&nbsp;Stack&nbsp;Exchange_");
+            correctionAdd("META StackExchange_", "Meta&nbsp;Stack&nbsp;Exchange_");
+            correctionAdd("Meta.StackExchange_", "Meta&nbsp;Stack&nbsp;Exchange_");
+            correctionAdd("Meta Stackexchange_", "Meta&nbsp;Stack&nbsp;Exchange_");
+            correctionAdd("Meta stackexchange_", "Meta&nbsp;Stack&nbsp;Exchange_");
+            correctionAdd("meta stackexchange_", "Meta&nbsp;Stack&nbsp;Exchange_");
+            correctionAdd("meta stack exchange_", "Meta&nbsp;Stack&nbsp;Exchange_");
+            correctionAdd("Over Meta_", "Meta&nbsp;Stack&nbsp;Exchange_");
+            correctionAdd("Over-Meta_", "Meta&nbsp;Stack&nbsp;Exchange_");
+            correctionAdd("Über meta_", "Meta&nbsp;Stack&nbsp;Exchange_");
+            correctionAdd("overmeta_", "Meta&nbsp;Stack&nbsp;Exchange_");
 
             correctionAdd("Redshift_", "Amazon Redshift_");
             correctionAdd("AWS redshift_", "Amazon Redshift_");
@@ -94097,9 +94128,6 @@ namespace OverflowHelper.core
             correctionAdd("Extjs_", "Ext&nbsp;JS_");
             correctionAdd("etxjs_", "Ext&nbsp;JS_");
 
-            // Stack Overflow / Stack Exchange
-            correctionAdd("Metasmoke_", "metasmoke_");
-
             correctionAdd("oracles_", "blockchain oracle_");
 
             correctionAdd("Decision Tree_", "decision tree learning_");
@@ -94113,21 +94141,6 @@ namespace OverflowHelper.core
             correctionAdd("Computer Vision_", "computer vision_");
 
             correctionAdd("hallow_", "hollow_");
-
-            // Note: The correct term is currently too long
-            //       for our database item... (146 maximum?)
-            //
-            // Alternative URLs:
-            //
-            //   <https://meta.stackoverflow.com/questions/404102/when-should-answers-consisting-entirely-of-cited-copied-content-be-flagged>
-            //
-            // For examples of "quote-only" answers:
-            //
-            //   <https://meta.stackoverflow.com/questions/422878/are-quote-only-answers-allowed/422881#422881>
-            //
-            correctionAdd("plagiarism_", "What do we do with answers that are entirely copied and improperly attributed (only a \"reference\" link or similar is included)?_");
-            correctionAdd("attribution_", "What do we do with answers that are entirely copied and improperly attributed (only a \"reference\" link or similar is included)?_");
-            correctionAdd("entirely copied, but properly attributed_", "What do we do with answers that are entirely copied and improperly attributed (only a \"reference\" link or similar is included)?_");
 
             correctionAdd("exclode_", "explode_");
 
@@ -94256,13 +94269,6 @@ namespace OverflowHelper.core
             correctionAdd("commitlint_", "Commitlint_");
             correctionAdd("Commitment_", "Commitlint_");
             correctionAdd("commitment_", "Commitlint_");
-
-            // Stack Exchange / Stack Overflow
-            correctionAdd("Eternal September on SO_", "Eternal September on Stack Overflow_");
-            correctionAdd("big city problems_", "Eternal September on Stack Overflow_");
-            correctionAdd("eternal september on SO_", "Eternal September on Stack Overflow_");
-            correctionAdd("eternal september on so_", "Eternal September on Stack Overflow_");
-            correctionAdd("Eternal September_", "Eternal September on Stack Overflow_");
 
             correctionAdd("ar_", "as_");
             correctionAdd("Ar_", "as_");
@@ -96605,6 +96611,8 @@ namespace OverflowHelper.core
             URL_Add("your mileage may vary_", "https://en.wiktionary.org/wiki/your_mileage_may_vary#Phrase"); // Old: https://en.wiktionary.org/wiki/YMMV#Phrase. Old: https://en.wiktionary.org/wiki/YMMV
 
             URL_Add("afford_", "https://en.wiktionary.org/wiki/afford#Verb");
+
+            URL_Add("Meta&nbsp;Stack&nbsp;Exchange_", "https://meta.stackexchange.com/help/whats-meta");
 
         } //addLookupData_alternativeWordSet()
 
