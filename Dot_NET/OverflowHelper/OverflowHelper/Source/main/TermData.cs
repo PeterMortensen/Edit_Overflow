@@ -2359,6 +2359,7 @@ namespace OverflowHelper.core
             correctionAdd("keypad", "numeric keypad");
             correctionAdd("Num pad", "numeric keypad");
             correctionAdd("key pad", "numeric keypad");
+            correctionAdd("numeric pad", "numeric keypad");
 
             // A key on a keyboard. Modifier.
             correctionAdd("CTRL", "Ctrl");
@@ -6824,6 +6825,10 @@ namespace OverflowHelper.core
 
             correctionAdd("Division", "division");
 
+            correctionAdd("Algorithmic", "algorithmic");
+
+            correctionAdd("algoritmically", "algorithmically");
+
             correctionAdd("algo", "algorithm");
             correctionAdd("alghorithm", "algorithm");
             correctionAdd("algoritms", "algorithm"); // Not 100% correct - case.
@@ -6846,9 +6851,76 @@ namespace OverflowHelper.core
             correctionAdd("alogs", "algorithm");
             correctionAdd("Algorithm", "algorithm");
 
+            // A sorting algorithm
+            correctionAdd("quick sort", "quicksort");
+            correctionAdd("Quicksort", "quicksort");
+            correctionAdd("Quick-sort", "quicksort");
+            correctionAdd("Quick sort", "quicksort");
+            correctionAdd("QuickSort", "quicksort");
+            correctionAdd("Quick Sort", "quicksort");
+            correctionAdd("quick-sort", "quicksort");
+
+            // A sorting algorithm
+            correctionAdd("shellsort", "Shellsort");
+
+            // A sorting algorithm
+            correctionAdd("Introsort", "introsort");
+
+            // A sorting algorithm
+            correctionAdd("Heapsort", "heapsort");
+
+            // A sorting algorithm
+            correctionAdd("radiks sort", "radix sort");
+            correctionAdd("Radix Sort", "radix sort");
+
+            // A sorting algorithm
+            correctionAdd("bubblesort", "bubble sort");
+            correctionAdd("Bubble Sort", "bubble sort");
+            correctionAdd("BubbleSort", "bubble sort");
+            correctionAdd("Bubble sort", "bubble sort");
+
+            // A sorting algorithm
+            correctionAdd("Bucket Sort", "bucket sort");
+
+            // A sorting algorithm
+            correctionAdd("mergesort", "merge sort");
+
+            // A sorting algorithm
+            correctionAdd("insert sort", "insertion sort");
+            correctionAdd("Insertion Sort", "insertion sort");
+            correctionAdd("Insertion sort", "insertion sort");
+
+            // A sorting algorithm
+            correctionAdd("Selection sort", "selection sort");
+            correctionAdd("selection Sort", "selection sort");
+            correctionAdd("selectionSort", "selection sort");
+
+            // A sorting algorithm
+            correctionAdd("timsort", "Timsort");
+            correctionAdd("TimSort", "Timsort");
+
+            correctionAdd("Grover's Algorithm", "Grover's algorithm");
+
+            correctionAdd("Baum-Welch Algorithm", "Baum–Welch algorithm");
+            correctionAdd("Baum-Welch algorithm", "Baum–Welch algorithm");
+
+            correctionAdd("Viola Jones algorithm", "Viola–Jones object detection framework");
+
+            correctionAdd("Schönhage-Strassen", "Schönhage–Strassen algorithm");
+
+            correctionAdd("Bellman-Ford", "Bellman–Ford algorithm");
+
+            correctionAdd("dijkstra's algorithm", "Dijkstra's algorithm");
+
+            correctionAdd("KMP algorithm", "Knuth–Morris–Pratt algorithm");
+
             correctionAdd("divide and conquer algorithms", "divide-and-conquer algorithm");
             correctionAdd("divide & conquer", "divide-and-conquer algorithm");
             correctionAdd("divide-and-conquer", "divide-and-conquer algorithm");
+
+            // Related to YouTube.
+            correctionAdd("shocked faces", "shocked faces (YouTube algorithm)");
+            correctionAdd("shocked face", "shocked faces (YouTube algorithm)");
 
             correctionAdd("the painter", "Shlemiel the painter’s algorithm");
             correctionAdd("Schlemiel the Painter's algorithm", "Shlemiel the painter’s algorithm");
@@ -6865,10 +6937,18 @@ namespace OverflowHelper.core
             correctionAdd("The Painter", "Shlemiel the painter’s algorithm");
             correctionAdd("Scleimel the painter", "Shlemiel the painter’s algorithm");
 
-            correctionAdd("Grover's Algorithm", "Grover's algorithm");
+            correctionAdd("Binary Search", "binary search");
 
-            correctionAdd("Baum-Welch Algorithm", "Baum–Welch algorithm");
-            correctionAdd("Baum-Welch algorithm", "Baum–Welch algorithm");
+            correctionAdd("wolf algorithm", "Wolff algorithm");
+            correctionAdd("Wolf algorithm", "Wolff algorithm");
+
+            correctionAdd("Simplex Algorithm", "simplex algorithm");
+
+            correctionAdd("Strassens algorithm", "Strassen algorithm");
+            correctionAdd("Strassen's algorithm", "Strassen algorithm");
+            correctionAdd("Strassen's algorithms", "Strassen algorithm");
+            correctionAdd("Strassens Algorithm", "Strassen algorithm");
+            correctionAdd("Strassens Algorithms", "Strassen algorithm");
 
             correctionAdd("XOR swap", "XOR swap algorithm");
             correctionAdd("bitwise XOR", "XOR swap algorithm");
@@ -6882,6 +6962,23 @@ namespace OverflowHelper.core
 
             correctionAdd("SPFA_Queue", "Shortest Path Faster Algorithm");
             correctionAdd("SPFA", "Shortest Path Faster Algorithm");
+
+            correctionAdd("cartesian", "Cartesian");
+
+            correctionAdd("cartesian product", "Cartesian product");
+
+            correctionAdd("Euclidean Distance", "Euclidean distance");
+            correctionAdd("euclidian distance", "Euclidean distance");
+            correctionAdd("Euclidian distance", "Euclidean distance");
+            correctionAdd("Euclidean algorithm", "Euclidean distance");
+            correctionAdd("Cartesian distance", "Euclidean distance");
+            correctionAdd("eucledian distance", "Euclidean distance");
+
+            correctionAdd("Cosine distance", "cosine distance");
+
+            correctionAdd("L2 norm", "L2 distance");
+
+            correctionAdd("Inner product", "inner product");
 
             correctionAdd("SMLE", "Short, Magazine, Lee–Enfield");
 
@@ -10974,6 +11071,8 @@ namespace OverflowHelper.core
             correctionAdd("GPT-3 davinci", "GPT-3 DaVinci");
             correctionAdd("gtp3 davinci", "GPT-3 DaVinci");
 
+            correctionAdd("GPT3.5", "GPT-3.5");
+
             correctionAdd("GPT4", "GPT-4");
             correctionAdd("gpt-4", "GPT-4");
             correctionAdd("model 4", "GPT-4");
@@ -11950,7 +12049,13 @@ namespace OverflowHelper.core
 
             correctionAdd("jupiter", "Jupiter"); // The planet
 
+            // Jupiter
+            correctionAdd("Europa", "Europa (moon)");
+
             correctionAdd("saturn", "Saturn"); // The planet
+
+            // Saturn  
+            correctionAdd("enceladus", "Enceladus");
 
             correctionAdd("uranus", "Uranus"); // The planet
 
@@ -12314,6 +12419,20 @@ namespace OverflowHelper.core
             correctionAdd("Potassium Carbonate", "potassium carbonate");
 
             correctionAdd("Potassium Hydroxide", "potassium hydroxide");
+
+            correctionAdd("Iron", "iron");
+            correctionAdd("Fe", "iron");
+
+            correctionAdd("Antimony", "antimony");
+            correctionAdd("Sb", "antimony");
+
+            correctionAdd("Arsenic", "arsenic");
+            correctionAdd("As", "arsenic");
+
+            correctionAdd("Bismuth", "bismuth");
+            correctionAdd("Bi", "bismuth");
+
+            correctionAdd("Nitrogen", "nitrogen");
 
             correctionAdd("Methane", "methane");
 
@@ -21689,10 +21808,6 @@ namespace OverflowHelper.core
             correctionAdd("youbooks", "YouTube");
             correctionAdd("youtuber", "YouTube");
 
-            // Related to YouTube.
-            correctionAdd("shocked faces", "shocked faces (YouTube algorithm)");
-            correctionAdd("shocked face", "shocked faces (YouTube algorithm)");
-
             // Related to YouTube, etc.
             correctionAdd("weird cap", "weird capitalisation");
 
@@ -23349,6 +23464,8 @@ namespace OverflowHelper.core
             correctionAdd("Chome", "Google Chrome");
             correctionAdd("chroms", "Google Chrome");
 
+            correctionAdd("chrome canary", "Chrome Canary");
+
             correctionAdd("lighthouse", "Lighthouse");
             correctionAdd("Google Lighthouse", "Lighthouse");
             correctionAdd("Google lighthouse", "Lighthouse");
@@ -23515,6 +23632,10 @@ namespace OverflowHelper.core
             correctionAdd("dev-tools", "Chrome DevTools");
             correctionAdd("DEVTools", "Chrome DevTools");
             correctionAdd("Devtools", "Chrome DevTools");
+
+            correctionAdd("ChromeOS", "Chrome OS");
+
+            correctionAdd("chromecast", "Chromecast");
 
             correctionAdd("Google tag manager", "Google Tag Manager");
 
@@ -24104,6 +24225,7 @@ namespace OverflowHelper.core
 
             // Related to Maven
             correctionAdd("Pom.xml", "pom.xml");
+            correctionAdd("POM.xml", "pom.xml");
 
             correctionAdd("pyspark", "PySpark");
             correctionAdd("Pyspark", "PySpark");
@@ -24620,8 +24742,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Garnet OS", "Palm OS");
             correctionAdd("palmOS", "Palm OS");
-
-            correctionAdd("ChromeOS", "Chrome OS");
 
             correctionAdd("BlackBerryOS", "BlackBerry OS");
 
@@ -25625,6 +25745,8 @@ namespace OverflowHelper.core
             correctionAdd("zero-width space", "ZERO WIDTH SPACE");
 
             correctionAdd("U+200C", "ZERO WIDTH NON-JOINER");
+
+            correctionAdd("U+200D", "ZERO WIDTH JOINER");
 
             correctionAdd("U+2013", "EN DASH");
             correctionAdd("Code point 2013", "EN DASH");
@@ -28367,54 +28489,6 @@ namespace OverflowHelper.core
             correctionAdd("azure machine learning", "Azure Machine Learning");
             correctionAdd("azure ml", "Azure Machine Learning");
             correctionAdd("azureml", "Azure Machine Learning");
-
-            // A sorting algorithm
-            correctionAdd("quick sort", "quicksort");
-            correctionAdd("Quicksort", "quicksort");
-            correctionAdd("Quick-sort", "quicksort");
-            correctionAdd("Quick sort", "quicksort");
-            correctionAdd("QuickSort", "quicksort");
-            correctionAdd("Quick Sort", "quicksort");
-            correctionAdd("quick-sort", "quicksort");
-
-            // A sorting algorithm
-            correctionAdd("shellsort", "Shellsort");
-
-            // A sorting algorithm
-            correctionAdd("Introsort", "introsort");
-
-            // A sorting algorithm
-            correctionAdd("Heapsort", "heapsort");
-
-            // A sorting algorithm
-            correctionAdd("radiks sort", "radix sort");
-            correctionAdd("Radix Sort", "radix sort");
-
-            // A sorting algorithm
-            correctionAdd("bubblesort", "bubble sort");
-            correctionAdd("Bubble Sort", "bubble sort");
-            correctionAdd("BubbleSort", "bubble sort");
-            correctionAdd("Bubble sort", "bubble sort");
-
-            // A sorting algorithm
-            correctionAdd("Bucket Sort", "bucket sort");
-
-            // A sorting algorithm
-            correctionAdd("mergesort", "merge sort");
-
-            // A sorting algorithm
-            correctionAdd("insert sort", "insertion sort");
-            correctionAdd("Insertion Sort", "insertion sort");
-            correctionAdd("Insertion sort", "insertion sort");
-
-            // A sorting algorithm
-            correctionAdd("Selection sort", "selection sort");
-            correctionAdd("selection Sort", "selection sort");
-            correctionAdd("selectionSort", "selection sort");
-
-            // A sorting algorithm
-            correctionAdd("timsort", "Timsort");
-            correctionAdd("TimSort", "Timsort");
 
             correctionAdd("seleting", "selecting");
 
@@ -32822,19 +32896,6 @@ namespace OverflowHelper.core
             correctionAdd("Django-Rest-Framework", "Django REST Framework");
             correctionAdd("Django REST framework", "Django REST Framework");
 
-            correctionAdd("Binary Search", "binary search");
-
-            correctionAdd("wolf algorithm", "Wolff algorithm");
-            correctionAdd("Wolf algorithm", "Wolff algorithm");
-
-            correctionAdd("Simplex Algorithm", "simplex algorithm");
-
-            correctionAdd("Strassens algorithm", "Strassen algorithm");
-            correctionAdd("Strassen's algorithm", "Strassen algorithm");
-            correctionAdd("Strassen's algorithms", "Strassen algorithm");
-            correctionAdd("Strassens Algorithm", "Strassen algorithm");
-            correctionAdd("Strassens Algorithms", "Strassen algorithm");
-
             correctionAdd("raid", "RAID");
             correctionAdd("Raid", "RAID");
 
@@ -35268,6 +35329,7 @@ namespace OverflowHelper.core
             correctionAdd("gradle.build", "build.gradle");
             correctionAdd("Build.grandle", "build.gradle");
             correctionAdd("build.grandle", "build.gradle");
+            correctionAdd("buil.gradle", "build.gradle");
 
             correctionAdd("gradlew", "Gradle Wrapper");
 
@@ -37596,13 +37658,8 @@ namespace OverflowHelper.core
             correctionAdd("exlusive", "exclusive");
             correctionAdd("exlcusive", "exclusive");
 
-            correctionAdd("Iron", "iron");
-            correctionAdd("Fe", "iron");
-
             correctionAdd("meaddle", "middle");
             correctionAdd("middlest", "middle");
-
-            correctionAdd("Nitrogen", "nitrogen");
 
             correctionAdd("scalling", "scaling");
 
@@ -40236,23 +40293,6 @@ namespace OverflowHelper.core
             correctionAdd("branchs", "branches");
             correctionAdd("braches", "branches");
 
-            correctionAdd("cartesian", "Cartesian");
-
-            correctionAdd("cartesian product", "Cartesian product");
-
-            correctionAdd("Euclidean Distance", "Euclidean distance");
-            correctionAdd("euclidian distance", "Euclidean distance");
-            correctionAdd("Euclidian distance", "Euclidean distance");
-            correctionAdd("Euclidean algorithm", "Euclidean distance");
-            correctionAdd("Cartesian distance", "Euclidean distance");
-            correctionAdd("eucledian distance", "Euclidean distance");
-
-            correctionAdd("Cosine distance", "cosine distance");
-
-            correctionAdd("L2 norm", "L2 distance");
-
-            correctionAdd("Inner product", "inner product");
-
             correctionAdd("moquito", "mosquito");
 
             correctionAdd("cisco", "Cisco");
@@ -42316,10 +42356,109 @@ namespace OverflowHelper.core
             correctionAdd("swiss army", "Swiss Army knife");
             correctionAdd("Swiss army", "Swiss Army knife");
 
+            correctionAdd("eclipse", "Eclipse");
+            correctionAdd("ECLIPSE", "Eclipse");
+            correctionAdd("EClpise", "Eclipse"); // Misspelling.
+            correctionAdd("Eclispe", "Eclipse"); // Misspelling.
+            correctionAdd("eclpse", "Eclipse"); // Misspelling.
+            correctionAdd("eclipde", "Eclipse"); // Misspelling.
+            correctionAdd("ecliplse", "Eclipse"); // Misspelling.
+            correctionAdd("eclipses", "Eclipse");
+            correctionAdd("eclips", "Eclipse"); // Misspelling.
+            correctionAdd("Ecilpse", "Eclipse"); // Misspelling.
+            correctionAdd("eclise", "Eclipse"); // Misspelling.
+            correctionAdd("ecplise", "Eclipse"); // Misspelling.
+            correctionAdd("Eclipe", "Eclipse"); // Misspelling.
+            correctionAdd("Eclips", "Eclipse");
+            correctionAdd("elipse", "Eclipse");
+
+            correctionAdd("callisto", "Eclipse v3.2 (Callisto)");
+
+            correctionAdd("europa", "Eclipse v3.3 (Europa)");
+
+            correctionAdd("ganymede", "Eclipse v3.4 (Ganymede)");
+            correctionAdd("Ganymede", "Eclipse v3.4 (Ganymede)");
+
+            correctionAdd("Eclipse v3.5 (Galileo)", "Eclipse&nbsp;v3.5 (Galileo)"); // Sort of identity mapping
+            correctionAdd("Eclipse Galileo", "Eclipse&nbsp;v3.5 (Galileo)");
+            correctionAdd("Galileo", "Eclipse&nbsp;v3.5 (Galileo)");
+            correctionAdd("galileo", "Eclipse&nbsp;v3.5 (Galileo)");
+
+            correctionAdd("Eclipse v3.7 (Indigo)", "Eclipse&nbsp;v3.7 (Indigo)"); // Sort of identity mapping
+            correctionAdd("Eclipse indigo", "Eclipse&nbsp;v3.7 (Indigo)");
+            correctionAdd("eclipse indigo", "Eclipse&nbsp;v3.7 (Indigo)");
+            correctionAdd("Indigo", "Eclipse&nbsp;v3.7 (Indigo)");
+            correctionAdd("indigo", "Eclipse&nbsp;v3.7 (Indigo)");
+
+            correctionAdd("Eclipse v4.2 (Juno)", "Eclipse&nbsp;v4.2 (Juno)"); // Sort of identity mapping
+            correctionAdd("Juno", "Eclipse&nbsp;v4.2 (Juno)");
+            correctionAdd("Eclipse Juno", "Eclipse&nbsp;v4.2 (Juno)");
+            correctionAdd("eclipse Juno", "Eclipse&nbsp;v4.2 (Juno)");
+            correctionAdd("juno", "Eclipse&nbsp;v4.2 (Juno)");
+
+            correctionAdd("Eclipse v4.3 (Kepler)", "Eclipse&nbsp;v4.3 (Kepler)"); // Sort of identity mapping
+            correctionAdd("Kepler", "Eclipse&nbsp;v4.3 (Kepler)");
+            correctionAdd("Keplar", "Eclipse&nbsp;v4.3 (Kepler)");
+            correctionAdd("Eclipse Kepler", "Eclipse&nbsp;v4.3 (Kepler)");
+            correctionAdd("kepler", "Eclipse&nbsp;v4.3 (Kepler)");
+
+            correctionAdd("Eclipse v4.4 (Luna)", "Eclipse&nbsp;v4.4 (Luna)"); // Sort of identity mapping
+            correctionAdd("eclipse luna", "Eclipse&nbsp;v4.4 (Luna)");
+            correctionAdd("luna", "Eclipse&nbsp;v4.4 (Luna)");
+            correctionAdd("Luna", "Eclipse&nbsp;v4.4 (Luna)");
+            correctionAdd("eclipse 4.4", "Eclipse&nbsp;v4.4 (Luna)");
+            correctionAdd("eclipse 4.4 Luna", "Eclipse&nbsp;v4.4 (Luna)");
+            correctionAdd("Eclipse Luna 4.4", "Eclipse&nbsp;v4.4 (Luna)");
+            correctionAdd("Eclipse 4.4 Luna", "Eclipse&nbsp;v4.4 (Luna)");
+            // Does not work due to the ending ")"...
+            //correctionAdd("Eclipse Luna(4.4)", "Eclipse&nbsp;v4.4 (Luna)");
+            //correctionAdd("Eclipse Luna (4.4)", "Eclipse&nbsp;v4.4 (Luna)");
+            correctionAdd("Eclipse Luna", "Eclipse&nbsp;v4.4 (Luna)");
+            correctionAdd("eclipse Luna", "Eclipse&nbsp;v4.4 (Luna)");
+
+            // Resolve the conclict with the planet Mars by adding
+            // a qualifying "Eclipse" with order and capitalisation
+            // variations (though it does require the user to
+            // know this).
+            correctionAdd("Mars eclipse", "Eclipse&nbsp;v4.5 (Mars)");
+            correctionAdd("Mars Eclipse", "Eclipse&nbsp;v4.5 (Mars)");
+            correctionAdd("Eclipse v4.5 (Mars)", "Eclipse&nbsp;v4.5 (Mars)"); // Sort of identity mapping
+            correctionAdd("Eclipse Mars", "Eclipse&nbsp;v4.5 (Mars)");
+            correctionAdd("eclipse Mars", "Eclipse&nbsp;v4.5 (Mars)");
+            correctionAdd("Eclipse mars", "Eclipse&nbsp;v4.5 (Mars)");
+
+            correctionAdd("Eclipse v4.6 (Neon)", "Eclipse&nbsp;v4.6 (Neon)"); // Sort of identity mapping
+            correctionAdd("Neon", "Eclipse&nbsp;v4.6 (Neon)");
+            correctionAdd("eclipse neon", "Eclipse&nbsp;v4.6 (Neon)");
+            correctionAdd("Eclipse Neon", "Eclipse&nbsp;v4.6 (Neon)");
+            correctionAdd("neon", "Eclipse&nbsp;v4.6 (Neon)");
+            correctionAdd("eclipse-neon", "Eclipse&nbsp;v4.6 (Neon)");
+
             //correctionAdd("oxygen", "Eclipse&nbsp;v4.7 (Oxygen)"); For now, we prefer the element "oxygen".
             correctionAdd("Eclipse v4.7 (Oxygen)", "Eclipse&nbsp;v4.7 (Oxygen)"); // Sort of identity mapping
             correctionAdd("Eclipse oxygen", "Eclipse&nbsp;v4.7 (Oxygen)");
             correctionAdd("Eclipse Oxygen", "Eclipse&nbsp;v4.7 (Oxygen)");
+
+            correctionAdd("JDT", "Eclipse JDT");
+
+            correctionAdd("Photon", "Eclipse Photon");
+            correctionAdd("Eclipse photon", "Eclipse Photon");
+
+            correctionAdd("CDT", "Eclipse CDT");
+            correctionAdd("Eclipse/CDT", "Eclipse CDT");
+
+            correctionAdd("Eclipse SUMO", "Simulation of Urban Mobility");
+            correctionAdd("SUMO", "Simulation of Urban Mobility");
+            correctionAdd("Simulation of Urban MObility", "Simulation of Urban Mobility");
+
+            // Is this related to or based on Eclipse?
+            correctionAdd("STS", "Spring Tool Suite");
+
+            // A framework. "Eclipse" is only there to cause confusion
+            correctionAdd("jersey", "Eclipse Jersey");
+            correctionAdd("Jersey", "Eclipse Jersey");
+            correctionAdd("Jersey RESTful Web Services", "Eclipse Jersey");
+            correctionAdd("Glassfish Jersey", "Eclipse Jersey");
 
             correctionAdd("doxygen", "Doxygen");
 
@@ -44107,8 +44246,6 @@ namespace OverflowHelper.core
             correctionAdd("kmeans clustering", "k-means clustering");
             correctionAdd("`k-means` clustering", "k-means clustering");
             correctionAdd("k means clustering", "k-means clustering");
-
-            correctionAdd("Algorithmic", "algorithmic");
 
             correctionAdd("assocciation", "association");
             correctionAdd("Assocation", "association");
@@ -46493,6 +46630,7 @@ namespace OverflowHelper.core
             correctionAdd("elment", "element");
             correctionAdd("elememt", "element");
             correctionAdd("elemet", "element");
+            correctionAdd("elemene", "element");
 
             correctionAdd("gut feel", "gut feeling");
 
@@ -46582,8 +46720,6 @@ namespace OverflowHelper.core
             correctionAdd("Navier-Stokes Equation", "Navier-Stokes equations");
             correctionAdd("Naiver Stokes equation", "Navier-Stokes equations");
             correctionAdd("Naiver Stokes equations", "Navier-Stokes equations");
-
-            correctionAdd("algoritmically", "algorithmically");
 
             correctionAdd("gloebbelist", "globalist");
 
@@ -48786,8 +48922,6 @@ namespace OverflowHelper.core
             correctionAdd("Bitcloud", "BitClout");
             correctionAdd("BitCloud", "BitClout");
 
-            correctionAdd("JDT", "Eclipse JDT");
-
             correctionAdd("clearifying", "clarifying");
 
             correctionAdd("willy nilly", "willy-nilly");
@@ -49855,9 +49989,6 @@ namespace OverflowHelper.core
 
             correctionAdd("amf", "AMF");
 
-            correctionAdd("Photon", "Eclipse Photon");
-            correctionAdd("Eclipse photon", "Eclipse Photon");
-
             correctionAdd("jahia", "Jahia");
 
             correctionAdd("byobu", "Byobu");
@@ -49953,103 +50084,7 @@ namespace OverflowHelper.core
 
             correctionAdd("the bees kneeze", "the bee's knees");
 
-            correctionAdd("eclipse", "Eclipse");
-            correctionAdd("ECLIPSE", "Eclipse");
-            correctionAdd("EClpise", "Eclipse"); // Misspelling.
-            correctionAdd("Eclispe", "Eclipse"); // Misspelling.
-            correctionAdd("eclpse", "Eclipse"); // Misspelling.
-            correctionAdd("eclipde", "Eclipse"); // Misspelling.
-            correctionAdd("ecliplse", "Eclipse"); // Misspelling.
-            correctionAdd("eclipses", "Eclipse");
-            correctionAdd("eclips", "Eclipse"); // Misspelling.
-            correctionAdd("Ecilpse", "Eclipse"); // Misspelling.
-            correctionAdd("eclise", "Eclipse"); // Misspelling.
-            correctionAdd("ecplise", "Eclipse"); // Misspelling.
-            correctionAdd("Eclipe", "Eclipse"); // Misspelling.
-            correctionAdd("Eclips", "Eclipse");
-            correctionAdd("elipse", "Eclipse");
-
-            correctionAdd("callisto", "Eclipse v3.2 (Callisto)");
-
-            correctionAdd("europa", "Eclipse v3.3 (Europa)");
-
-            correctionAdd("ganymede", "Eclipse v3.4 (Ganymede)");
-            correctionAdd("Ganymede", "Eclipse v3.4 (Ganymede)");
-
-            correctionAdd("Eclipse v3.5 (Galileo)", "Eclipse&nbsp;v3.5 (Galileo)"); // Sort of identity mapping
-            correctionAdd("Eclipse Galileo", "Eclipse&nbsp;v3.5 (Galileo)");
-            correctionAdd("Galileo", "Eclipse&nbsp;v3.5 (Galileo)");
-            correctionAdd("galileo", "Eclipse&nbsp;v3.5 (Galileo)");
-
-            correctionAdd("Eclipse v3.7 (Indigo)", "Eclipse&nbsp;v3.7 (Indigo)"); // Sort of identity mapping
-            correctionAdd("Eclipse indigo", "Eclipse&nbsp;v3.7 (Indigo)");
-            correctionAdd("eclipse indigo", "Eclipse&nbsp;v3.7 (Indigo)");
-            correctionAdd("Indigo", "Eclipse&nbsp;v3.7 (Indigo)");
-            correctionAdd("indigo", "Eclipse&nbsp;v3.7 (Indigo)");
-
-            correctionAdd("Eclipse v4.2 (Juno)", "Eclipse&nbsp;v4.2 (Juno)"); // Sort of identity mapping
-            correctionAdd("Juno", "Eclipse&nbsp;v4.2 (Juno)");
-            correctionAdd("Eclipse Juno", "Eclipse&nbsp;v4.2 (Juno)");
-            correctionAdd("eclipse Juno", "Eclipse&nbsp;v4.2 (Juno)");
-            correctionAdd("juno", "Eclipse&nbsp;v4.2 (Juno)");
-
-            correctionAdd("Eclipse v4.3 (Kepler)", "Eclipse&nbsp;v4.3 (Kepler)"); // Sort of identity mapping
-            correctionAdd("Kepler", "Eclipse&nbsp;v4.3 (Kepler)");
-            correctionAdd("Keplar", "Eclipse&nbsp;v4.3 (Kepler)");
-            correctionAdd("Eclipse Kepler", "Eclipse&nbsp;v4.3 (Kepler)");
-            correctionAdd("kepler", "Eclipse&nbsp;v4.3 (Kepler)");
-
-            correctionAdd("Eclipse v4.4 (Luna)", "Eclipse&nbsp;v4.4 (Luna)"); // Sort of identity mapping
-            correctionAdd("eclipse luna", "Eclipse&nbsp;v4.4 (Luna)");
-            correctionAdd("luna", "Eclipse&nbsp;v4.4 (Luna)");
-            correctionAdd("Luna", "Eclipse&nbsp;v4.4 (Luna)");
-            correctionAdd("eclipse 4.4", "Eclipse&nbsp;v4.4 (Luna)");
-            correctionAdd("eclipse 4.4 Luna", "Eclipse&nbsp;v4.4 (Luna)");
-            correctionAdd("Eclipse Luna 4.4", "Eclipse&nbsp;v4.4 (Luna)");
-            correctionAdd("Eclipse 4.4 Luna", "Eclipse&nbsp;v4.4 (Luna)");
-            // Does not work due to the ending ")"...
-            //correctionAdd("Eclipse Luna(4.4)", "Eclipse&nbsp;v4.4 (Luna)");
-            //correctionAdd("Eclipse Luna (4.4)", "Eclipse&nbsp;v4.4 (Luna)");
-            correctionAdd("Eclipse Luna", "Eclipse&nbsp;v4.4 (Luna)");
-            correctionAdd("eclipse Luna", "Eclipse&nbsp;v4.4 (Luna)");
-
-            // Resolve the conclict with the planet Mars by adding
-            // a qualifying "Eclipse" with order and capitalisation
-            // variations (though it does require the user to
-            // know this).
-            correctionAdd("Mars eclipse", "Eclipse&nbsp;v4.5 (Mars)");
-            correctionAdd("Mars Eclipse", "Eclipse&nbsp;v4.5 (Mars)");
-            correctionAdd("Eclipse v4.5 (Mars)", "Eclipse&nbsp;v4.5 (Mars)"); // Sort of identity mapping
-            correctionAdd("Eclipse Mars", "Eclipse&nbsp;v4.5 (Mars)");
-            correctionAdd("eclipse Mars", "Eclipse&nbsp;v4.5 (Mars)");
-            correctionAdd("Eclipse mars", "Eclipse&nbsp;v4.5 (Mars)");
-
-            correctionAdd("Eclipse v4.6 (Neon)", "Eclipse&nbsp;v4.6 (Neon)"); // Sort of identity mapping
-            correctionAdd("Neon", "Eclipse&nbsp;v4.6 (Neon)");
-            correctionAdd("eclipse neon", "Eclipse&nbsp;v4.6 (Neon)");
-            correctionAdd("Eclipse Neon", "Eclipse&nbsp;v4.6 (Neon)");
-            correctionAdd("neon", "Eclipse&nbsp;v4.6 (Neon)");
-            correctionAdd("eclipse-neon", "Eclipse&nbsp;v4.6 (Neon)");
-
-            correctionAdd("jersey", "Eclipse Jersey");
-            correctionAdd("Jersey", "Eclipse Jersey");
-            correctionAdd("Jersey RESTful Web Services", "Eclipse Jersey");
-            correctionAdd("Glassfish Jersey", "Eclipse Jersey");
-
-            correctionAdd("enceladus", "Enceladus");
-
-            correctionAdd("Europa", "Europa (moon)");
-
             correctionAdd("ftps", "FTPS");
-
-            correctionAdd("Antimony", "antimony");
-            correctionAdd("Sb", "antimony");
-
-            correctionAdd("Arsenic", "arsenic");
-            correctionAdd("As", "arsenic");
-
-            correctionAdd("Bismuth", "bismuth");
-            correctionAdd("Bi", "bismuth");
 
             correctionAdd("freakin", "freaking");
             correctionAdd("fekin", "freaking");
@@ -50088,7 +50123,16 @@ namespace OverflowHelper.core
 
             correctionAdd("Joule Thief", "Joule thief");
 
+            correctionAdd("flatter", "flatten");
+
+            correctionAdd("flattenig", "flattening");
+
             correctionAdd("flat-out", "flat out");
+
+            correctionAdd("flathub", "Flathub");
+
+            correctionAdd("flatpak", "Flatpak");
+            correctionAdd("Flatpack", "Flatpak");
 
             correctionAdd("simly", "simply");
             correctionAdd("Simply", "simply");
@@ -50269,8 +50313,6 @@ namespace OverflowHelper.core
 
             correctionAdd("enco­urax", "encouraged");
 
-            correctionAdd("flathub", "Flathub");
-
             // VPN software(?)
             correctionAdd("TailScale", "Tailscale");
             correctionAdd("Tail scale", "Tailscale");
@@ -50419,9 +50461,6 @@ namespace OverflowHelper.core
             correctionAdd("11ax", "802.11ax");
 
             correctionAdd("MU-MIMO", "Multi-user MIMO");
-
-            correctionAdd("CDT", "Eclipse CDT");
-            correctionAdd("Eclipse/CDT", "Eclipse CDT");
 
             correctionAdd("Linpack", "LINPACK");
 
@@ -51696,8 +51735,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Criminology", "criminology");
 
-            correctionAdd("chromecast", "Chromecast");
-
             correctionAdd("roku", "Roku");
 
             correctionAdd("definitviely", "definitively");
@@ -52321,11 +52358,10 @@ namespace OverflowHelper.core
 
             correctionAdd("Zir", "zir");
 
+            // Java
             correctionAdd("jars", "JAR files");
 
             correctionAdd("monnify", "Monnify");
-
-            correctionAdd("STS", "Spring Tool Suite");
 
             correctionAdd("Unstructured Supplementary Service Data", "USSD");
 
@@ -53257,9 +53293,6 @@ namespace OverflowHelper.core
 
             correctionAdd("unawared", "unaware");
 
-            correctionAdd("flatpak", "Flatpak");
-            correctionAdd("Flatpack", "Flatpak");
-
             correctionAdd("Adaptation", "adaptation");
 
             correctionAdd("desparation", "desperation");
@@ -53513,8 +53546,6 @@ namespace OverflowHelper.core
 
             // Ukraine
             correctionAdd("Bach, moot", "Bakhmut");
-
-            correctionAdd("flatter", "flatten");
 
             correctionAdd("neo pronoun", "neopronoun");
 
@@ -53782,10 +53813,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Linearithmic", "linearithmic");
 
-            correctionAdd("Eclipse SUMO", "Simulation of Urban Mobility");
-            correctionAdd("SUMO", "Simulation of Urban Mobility");
-            correctionAdd("Simulation of Urban MObility", "Simulation of Urban Mobility");
-
             correctionAdd("genunely", "genuinely");
 
             correctionAdd("Hardware Description Language", "hardware description language");
@@ -53936,8 +53963,6 @@ namespace OverflowHelper.core
             correctionAdd("stoneage", "Stone Age");
 
             correctionAdd("VT-100", "VT100");
-
-            correctionAdd("Viola Jones algorithm", "Viola–Jones object detection framework");
 
             correctionAdd("vite", "Vite");
 
@@ -57667,8 +57692,6 @@ namespace OverflowHelper.core
 
             correctionAdd("re-wiring", "rewiring");
 
-            correctionAdd("Schönhage-Strassen", "Schönhage–Strassen algorithm");
-
             correctionAdd("sourcefile", "source file");
 
             correctionAdd("victor yonokovich", "Viktor Yanukovych");
@@ -58058,10 +58081,6 @@ namespace OverflowHelper.core
             correctionAdd("ccw", "counterclockwise");
             correctionAdd("counter-clockwise", "counterclockwise");
             correctionAdd("counter clockwise", "counterclockwise");
-
-            correctionAdd("Bellman-Ford", "Bellman–Ford algorithm");
-
-            correctionAdd("dijkstra's algorithm", "Dijkstra's algorithm");
 
             correctionAdd("multiplcation", "multiplication");
             correctionAdd("Multiplcation", "multiplication");
@@ -59472,9 +59491,7 @@ namespace OverflowHelper.core
 
             correctionAdd("veiwers", "viewers");
 
-            correctionAdd("chrome canary", "Chrome Canary");
-
-            correctionAdd("KMP algorithm", "Knuth–Morris–Pratt algorithm");
+            correctionAdd("eary", "eerily");
 
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
@@ -91144,6 +91161,14 @@ namespace OverflowHelper.core
             URL_Add("Wikipedian protester", "https://explainxkcd.com/wiki/index.php/285:_Wikipedian_Protester");
 
             URL_Add("Knuth–Morris–Pratt algorithm", "https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm");
+
+            URL_Add("flattening", "https://en.wiktionary.org/wiki/flatten#Verb");
+
+            URL_Add("eerily", "https://en.wiktionary.org/wiki/eerily#Adverb");
+
+            URL_Add("GPT-3.5", "https://en.wikipedia.org/wiki/GPT-3#GPT-3.5");
+
+            URL_Add("ZERO WIDTH JOINER", "https://www.utf8-chartable.de/unicode-utf8-table.pl?start=8192&number=128");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
