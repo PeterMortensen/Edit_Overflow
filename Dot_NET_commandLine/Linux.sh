@@ -2587,7 +2587,7 @@ cat '/home/mortensen/temp2/2022-02-25/Backup/Backup_2022-02-25_smallFiles/2022-0
 #       2022-01-25: 5374604 bytes
 
 # Note: The same build number
-wordListExport 31 "SQL" $SQL_FILE 8360000 9210000
+wordListExport 31 "SQL" $SQL_FILE 8530000 9390000
 
 # Note: The same build number
 export MATCHING_LINES=`grep -c 'DROP TABLE EditOverflow'  ${SQL_FILE}`
