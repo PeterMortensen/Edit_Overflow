@@ -2220,6 +2220,8 @@ namespace OverflowHelper.core
             //
             // Yes, the name of the physicist is Planck, Max Planck
             correctionAdd("EZ Planck", "Planck EZ");
+            correctionAdd("plank", "Planck EZ");
+            correctionAdd("Plank", "Planck EZ");
 
             // A crippled (40%) mechanical keyboard
             //
@@ -2227,6 +2229,13 @@ namespace OverflowHelper.core
             //    <https://www.penaddict.com/blog/2021/5/19/the-olkb-planck-keyboard-review>
             //
             correctionAdd("OLKB", "Planck OLKB");
+
+            // A split 36-key mechanical keyboard
+            correctionAdd("chocofi", "Chocofi");
+            correctionAdd("Chockify", "Chocofi");
+
+            // A split 42-key mechanical keyboard (diode-less)
+            correctionAdd("piantor", "Piantor");
 
             // A crippled (68%) mechanical keyboard
             //
@@ -4333,6 +4342,8 @@ namespace OverflowHelper.core
             correctionAdd("Beligum", "Belgium");
             correctionAdd("beligum", "Belgium");
 
+            correctionAdd("brussels", "Brussels");
+
             correctionAdd("turkish", "Turkish");
 
             correctionAdd("turkey", "Turkey");
@@ -4869,6 +4880,7 @@ namespace OverflowHelper.core
             correctionAdd("1252", "Windows-1252");
             correctionAdd("Windows 1252", "Windows-1252");
             correctionAdd("Window 1252", "Windows-1252");
+            correctionAdd("Cp1252", "Windows-1252");
 
             correctionAdd("file explorer", "File Explorer");
             correctionAdd("Windows file explorer", "File Explorer");
@@ -6314,6 +6326,11 @@ namespace OverflowHelper.core
             correctionAdd("dont´t", "don’t");
             correctionAdd("don'n", "don’t");
 
+            correctionAdd("dose", "does");
+            correctionAdd("DOes", "does");
+            correctionAdd("Does", "does");
+            correctionAdd("dos", "does");
+
             correctionAdd("doesnt", "doesn’t");
             correctionAdd("doest", "doesn’t");
             correctionAdd("dosent", "doesn’t");
@@ -7613,330 +7630,27 @@ namespace OverflowHelper.core
             // As in Zen Buddhism
             correctionAdd("zenlike", "Zenlike");
 
+            // Electronics
             correctionAdd("Anode", "anode");
 
+            // Electronics
             correctionAdd("zener diode", "Zener diode");
             correctionAdd("zener", "Zener diode");
             correctionAdd("Zener", "Zener diode"); // Expansion
             correctionAdd("Z-diode", "Zener diode"); // Expansion
             correctionAdd("z-diode", "Zener diode"); // Expansion
 
-            correctionAdd("zen cart", "Zen Cart");
-            correctionAdd("ZenCart", "Zen Cart");
-            correctionAdd("zenCart", "Zen Cart");
+            // Electronics
+            correctionAdd("Diode", "diode");
+            correctionAdd("diodle", "diode");
 
-            correctionAdd("Zen Buddist", "Zen Buddhist");
+            // Electronics
+            correctionAdd("chua diode", "Chua's diode");
 
-            correctionAdd("zen", "Zen");
+            correctionAdd("photo diode", "photodiode");
 
-            correctionAdd("zend", "Zend Framework");
-            correctionAdd("Zend", "Zend Framework");
-            correctionAdd("ZF", "Zend Framework");
-            correctionAdd("zend framework", "Zend Framework");
-            correctionAdd("zf", "Zend Framework");
-            correctionAdd("ZEND", "Zend Framework");
-            correctionAdd("Laminas Project", "Zend Framework");
-
-            correctionAdd("zend studio", "Zend Studio");
-            correctionAdd("ZendSudio", "Zend Studio");
-            correctionAdd("ZendStudio", "Zend Studio");
-            correctionAdd("ZS", "Zend Studio");
-            correctionAdd("Zend IDE", "Zend Studio");
-
-            correctionAdd("horizentaly", "horizontally");
-            correctionAdd("horizondally", "horizontally");
-            correctionAdd("Horiztonally", "horizontally");
-            correctionAdd("horiztonally", "horizontally");
-
-            correctionAdd("trump", "Trump");
-            correctionAdd("Citizen Trump", "Trump");
-            correctionAdd("DJT", "Trump");
-            correctionAdd("Chumpolio", "Trump");
-            correctionAdd("Trumpolini", "Trump");
-            correctionAdd("Orange Jesus", "Trump");
-            correctionAdd("orange Maniac", "Trump");
-            correctionAdd("orange maniac", "Trump");
-            correctionAdd("orange toddler", "Trump");
-            correctionAdd("orange tan man", "Trump");
-            correctionAdd("orange man", "Trump");
-            correctionAdd("Orange baby", "Trump");
-            correctionAdd("orange baby", "Trump");
-            correctionAdd("Orange Julius", "Trump");
-            correctionAdd("orange predecessor", "Trump");
-            correctionAdd("Mango Mussolini", "Trump");
-            correctionAdd("Dump", "Trump");
-            correctionAdd("Conald Chump", "Trump");
-            correctionAdd("Trimp", "Trump");
-
-            correctionAdd("dime a dozen", "a dime a dozen");
-
-            correctionAdd("two dozens", "two dozen");
-
-            correctionAdd("benzene", "Benzene");
-
-            correctionAdd("programing", "programming");
-            correctionAdd("pragramming", "programming");
-            correctionAdd("proggraming", "programming");
-            correctionAdd("proggramming", "programming");
-            correctionAdd("prgramming", "programming");
-            correctionAdd("protramming", "programming");
-            correctionAdd("Programming", "programming");
-            correctionAdd("programmation", "programming");
-            correctionAdd("programmig", "programming");
-            correctionAdd("Proggramming", "programming");
-
-            // A book
-            correctionAdd("motorcycle maintenance", "Zen and the Art of Motorcycle Maintenance");
-
-            // A book
-            correctionAdd("Robert's rules", "Robert's Rules of Order");
-
-            correctionAdd("RAMDISC", "RAM disk");
-
-            correctionAdd("uContoller", "microcontroller");
-            correctionAdd("uController", "microcontroller");
-            correctionAdd("micro-controller", "microcontroller");
-            correctionAdd("uC", "microcontroller"); // Expansion
-            correctionAdd("mc", "microcontroller"); // Colision with something else? Midnight Commander. Microcontroller.
-            correctionAdd("MCU", "microcontroller"); // Expansion
-            correctionAdd("micro controllers", "microcontroller"); // Plural...
-            correctionAdd("micro controller", "microcontroller");
-            correctionAdd("mcu", "microcontroller"); // Expansion
-            correctionAdd("mictrocontroller", "microcontroller"); // Misspelling
-            correctionAdd("uc", "microcontroller"); // Expansion
-            correctionAdd("Microcontroller", "microcontroller"); // Depends on context...
-            correctionAdd("ucontroller", "microcontroller"); // Expansion
-            correctionAdd("Micro-controller", "microcontroller");
-            correctionAdd("μc", "microcontroller");
-            correctionAdd("microController", "microcontroller");
-            correctionAdd("microcontroler", "microcontroller");
-            correctionAdd("MicroController", "microcontroller");
-            correctionAdd("microntroller", "microcontroller"); // Misspelling
-            correctionAdd("µC", "microcontroller");
-            correctionAdd("mControlers", "microcontroller"); // Plural...
-            correctionAdd("mControler", "microcontroller");
-            correctionAdd("mController", "microcontroller");
-            correctionAdd("microncontroller", "microcontroller");
-            correctionAdd("mictrocontrollers", "microcontroller");
-            correctionAdd("microctroller", "microcontroller");
-            correctionAdd("Micro-Controller", "microcontroller");
-            correctionAdd("UC", "microcontroller");
-            correctionAdd("MC", "microcontroller");
-            correctionAdd("Microcontoller", "microcontroller");
-            correctionAdd("microcontoller", "microcontroller");
-
-            correctionAdd("arm", "ARM");
-            correctionAdd("Arm", "ARM");
-
-            correctionAdd("cortex-m", "Cortex-M");
-            correctionAdd("Cortex-m", "Cortex-M");
-            correctionAdd("ARM Cortex M", "Cortex-M"); // Not 100% correct.
-            correctionAdd("Cortex M", "Cortex-M");
-            correctionAdd("ARM cortex-m", "Cortex-M");
-            correctionAdd("Arm Cortex", "Cortex-M");
-            correctionAdd("ARM Cortex", "Cortex-M");
-            correctionAdd("CORTEX-M", "Cortex-M");
-            correctionAdd("ARM Cortex-M", "Cortex-M");
-            correctionAdd("arm cortex", "Cortex-M");
-
-            correctionAdd("ARM-Cortex-M0", "Cortex-M0");
-            correctionAdd("ARM Cortex-M0", "Cortex-M0");
-            correctionAdd("Cortex M0", "Cortex-M0");
-
-            correctionAdd("Cortex M4", "Cortex-M4");
-
-            correctionAdd("armhf", "ARMv7");
-
-            correctionAdd("armv8", "ARMv8");
-
-            // A type of ARM processor
-            correctionAdd("Cavium ThunderX", "ThunderX (Cavium)");
-            correctionAdd("ThunderX", "ThunderX (Cavium)");
-            correctionAdd("Cavium", "ThunderX (Cavium)");
-            correctionAdd("Thunder X", "ThunderX (Cavium)");
-            correctionAdd("Cavium Thunder X", "ThunderX (Cavium)");
-
-            // C/C++ compilers, e.g., for STMicroelectronics C166/ST10
-            correctionAdd("Tasking", "TASKING");
-
-            correctionAdd("stm32", "STM32");
-            correctionAdd("Stm32", "STM32");
-            correctionAdd("stm 32", "STM32");
-
-            correctionAdd("STM32Cube", "STM32CubeMX");
-            correctionAdd("cube", "STM32CubeMX");
-            correctionAdd("CubeMX", "STM32CubeMX");
-            correctionAdd("STM32 cube", "STM32CubeMX");
-
-            // Alternative URL:
-            //   <https://www.st.com/en/development-tools/stm32cubeide.html>)
-            //
-            correctionAdd("stm32cubeIDE", "STM32CubeIDE");
-            correctionAdd("STM32 cube ide", "STM32CubeIDE");
-
-            correctionAdd("stm32f103", "STM32F103");
-
-            // A suite of development boards for STM32 (ARM)
-            correctionAdd("nucleo", "Nucleo");
-            correctionAdd("NUCLEO", "Nucleo");
-
-            // An ARM microcontroller development board. Based on the STM32F415.
-            //
-            // Alternative URL: <https://1bitsquared.com/products/1bitsy>
-            //
-            correctionAdd("1bitsy", "1Bitsy");
-            correctionAdd("1BitSy", "1Bitsy");
-
-            // An STM32 (ARM) development board
-            correctionAdd("blue pill", "Blue Pill");
-            correctionAdd("blue-pill", "Blue Pill");
-            correctionAdd("BluePill", "Blue Pill");
-
-            // An STM32 (ARM) development board
-            correctionAdd("black pill", "Black Pill");
-
-            correctionAdd("Processor", "processor");
-
-            correctionAdd("uP", "microprocessor");
-            correctionAdd("µp", "microprocessor");
-            correctionAdd("µP", "microprocessor");
-            correctionAdd("mP", "microprocessor");
-
-            correctionAdd("cpu", "CPU");
-            correctionAdd("Cpu", "CPU");
-
-            // A type of  microprocessor/CPU
-            correctionAdd("Power8", "POWER8");
-            correctionAdd("Power 8", "POWER8");
-
-            correctionAdd("amd", "AMD");
-            correctionAdd("AMd", "AMD");
-            correctionAdd("Amd", "AMD");
-
-            // A software development tool
-            correctionAdd("AMD CodeXL", "CodeXL");
-
-            // A CPU feature (AMD only?)
-            correctionAdd("TurboBoost", "Turbo Boost");
-
-            // AMD CPU architecture
-            correctionAdd("zen2", "Zen 2");
-            correctionAdd("Zen2", "Zen 2");
-
-            // AMD CPU architecture
-            correctionAdd("AMD zen", "Zen 3");
-            correctionAdd("zen3", "Zen 3");
-            correctionAdd("Zen3", "Zen 3");
-
-            // A type of CPU (AMD)
-            correctionAdd("AMD threadripper", "AMD Ryzen Threadripper");
-
-            // A type of CPU (AMD)
-            correctionAdd("ryzen", "Ryzen");
-
-            // A CPU
-            correctionAdd("Ryzen 3950x", "Ryzen 3950X");
-
-            // A CPU microarchitecture (Intel)
-            correctionAdd("1st gen", "Nehalem");
-            correctionAdd("1st generation", "Nehalem");
-            correctionAdd("nehalem", "Nehalem");
-
-            // A CPU microarchitecture (Intel)
-            correctionAdd("westmere", "Westmere (1st generation)");
-
-            // A CPU microarchitecture (Intel)
-            correctionAdd("Sandybridge", "Sandy Bridge");
-            correctionAdd("2th gen", "Sandy Bridge");
-            correctionAdd("2th generation", "Sandy Bridge");
-
-            // A CPU microarchitecture (Intel)
-            correctionAdd("IvyBridge", "Ivy Bridge");
-            correctionAdd("3th gen", "Ivy Bridge");
-            correctionAdd("3th generation", "Ivy Bridge");
-
-            // A CPU microarchitecture (Intel)
-            correctionAdd("haswell", "Haswell");
-            correctionAdd("4th gen", "Haswell");
-            correctionAdd("4th generation", "Haswell");
-
-            // A CPU microarchitecture (Intel)
-            correctionAdd("5th gen", "Broadwell");
-            correctionAdd("5th generation", "Broadwell");
-            correctionAdd("broadwell", "Broadwell");
-
-            // A CPU microarchitecture (Intel)
-            correctionAdd("skylake", "Skylake");
-            correctionAdd("6th gen", "Skylake");
-            correctionAdd("6th generation", "Skylake");
-
-            // A CPU microarchitecture (Intel)
-            correctionAdd("7th gen", "Kaby Lake");
-            correctionAdd("7th generation", "Kaby Lake");
-
-            // A CPU microarchitecture (Intel)
-            correctionAdd("CoffeeLake", "Coffee Lake");
-            correctionAdd("8th gen", "Coffee Lake");
-            correctionAdd("8th generation", "Coffee Lake");
-
-            // A CPU microarchitecture (Intel)
-            correctionAdd("ice lake", "Ice Lake");
-            correctionAdd("Icelake", "Ice Lake");
-            correctionAdd("10th gen", "Ice Lake");
-            correctionAdd("10th generation", "Ice Lake");
-
-            // A CPU microarchitecture (Intel)
-            correctionAdd("tiger lake", "Tiger Lake");
-            correctionAdd("11th gen", "Tiger Lake");
-            correctionAdd("11th generation", "Tiger Lake");
-
-            // A CPU microarchitecture (Intel)
-            correctionAdd("alder lake", "Alder Lake");
-            correctionAdd("12th gen", "Alder Lake");
-            correctionAdd("12th generation", "Alder Lake");
-
-            // A type of CPU (Intel)
-            correctionAdd("XEON", "Xeon");
-            correctionAdd("xeon", "Xeon");
-
-            // A CPU (Intel)
-            correctionAdd("Xeon E5 1620", "Xeon E5-1620");
-
-            // A CPU (Intel)
-            correctionAdd("W5580", "Xeon W5580");
-
-            // A CPU (Intel)
-            correctionAdd("Xeon E5 2650", "Xeon E5-2650");
-
-            correctionAdd("Northbridge", "northbridge"); // On a PC motherboard
-
-            correctionAdd("mobo", "motherboard");
-            correctionAdd("Mobo", "motherboard");
-            correctionAdd("MOBO", "motherboard");
-            correctionAdd("mother board", "motherboard");
-            correctionAdd("MOB", "motherboard");
-            correctionAdd("MBO", "motherboard");
-            correctionAdd("mohterboard", "motherboard");
-            correctionAdd("Motherboard", "motherboard");
-
-            correctionAdd("msi motherboard", "MSI motherboard");
-
-            // On a PC motherboard
-            correctionAdd("South Bridge", "southbridge");
-            correctionAdd("south bridge", "southbridge");
-            correctionAdd("South bridge", "southbridge");
-            correctionAdd("Southbridge", "southbridge");
-
-            // A PC motherboard Sandy Bridge chipset
-            correctionAdd("h61", "H61");
-
-            correctionAdd("dvice", "device");
-            correctionAdd("devise", "device");
-            correctionAdd("Device", "device");
-            correctionAdd("Devise", "device");
-            correctionAdd("defice", "device");
-
-            correctionAdd("BYOD", "bring your own device");
+            correctionAdd("p-n diode", "p–n diode");
+            correctionAdd("PN diode", "p–n diode");
 
             correctionAdd("Electronics", "electronics");
             correctionAdd("elec", "electronics");
@@ -7980,6 +7694,10 @@ namespace OverflowHelper.core
 
             // Electronics
             correctionAdd("baker clamp", "Baker clamp");
+
+            correctionAdd("Class A", "Class A amplifier");
+
+            correctionAdd("Darlington", "Darlington transistor");
 
             correctionAdd("mosfet", "MOSFET");
             correctionAdd("Mosfet", "MOSFET");
@@ -8334,6 +8052,391 @@ namespace OverflowHelper.core
             correctionAdd("pld", "programmable logic device");
             correctionAdd("Programmable Logic Devices", "programmable logic device");
             correctionAdd("PLD", "programmable logic device");
+
+            correctionAdd("eeprom", "EEPROM");
+            correctionAdd("EEprom", "EEPROM");
+            correctionAdd("eeProm", "EEPROM");
+            correctionAdd("Ephrom", "EEPROM");
+            correctionAdd("ee_prom", "EEPROM");
+
+            correctionAdd("eprom", "EPROM");
+            correctionAdd("Eprom", "EPROM");
+
+            // Electronics
+            correctionAdd("Op Amps", "operational amplifier"); // Plural thing
+            correctionAdd("op-amp", "operational amplifier"); // Expansion
+            correctionAdd("op amp", "operational amplifier");
+            correctionAdd("Op amp", "operational amplifier");
+            correctionAdd("opamp", "operational amplifier");
+            correctionAdd("OpAmp", "operational amplifier");
+            correctionAdd("Opamp", "operational amplifier");
+            correctionAdd("Op Amp", "operational amplifier"); // The official short form is "op-amp" - <https://en.wiktionary.org/wiki/op-amp#English>
+            correctionAdd("OPAmps", "operational amplifier"); // Not 100% correct - plural.
+            correctionAdd("OPAmp", "operational amplifier");
+            correctionAdd("OP-AMP", "operational amplifier");
+            correctionAdd("opAmp", "operational amplifier");
+            correctionAdd("OA", "operational amplifier"); // Expansion
+            correctionAdd("opmap", "operational amplifier");
+            correctionAdd("OP-Amp", "operational amplifier");
+            correctionAdd("OP Amp", "operational amplifier");
+            correctionAdd("OP amp", "operational amplifier");
+            correctionAdd("OPamp", "operational amplifier");
+            correctionAdd("Op-Amp", "operational amplifier");
+
+            // An operational amplifier
+            correctionAdd("uA741", "μA741");
+            correctionAdd("ua741", "μA741");
+            correctionAdd("741", "μA741");
+            correctionAdd("UA-741", "μA741");
+            correctionAdd("UA 741", "μA741");
+            correctionAdd("LM741", "μA741");
+            correctionAdd("lm741", "μA741");
+
+            // Electronics
+            correctionAdd("Pick'n'place machine", "pick-and-place machine");
+
+            // Electronics. Simulation.
+            correctionAdd("Spice", "SPICE");
+            correctionAdd("spice", "SPICE");
+
+            // Electronics. Simulation.
+            correctionAdd("hspice", "HSPICE");
+
+            // Electronics. Simulation.
+            correctionAdd("ltspice", "LTspice");
+            correctionAdd("LTSpice", "LTspice");
+            correctionAdd("LTSPICE", "LTspice");
+            correctionAdd("LtSpice", "LTspice");
+
+            // Electronics
+            correctionAdd("analog-to-digital converter", "ADC");
+
+            // Electronics
+            correctionAdd("AMS", "analog-mixed-signal");
+
+            // Electronics
+            correctionAdd("AVDD", "analog power supply");
+
+            correctionAdd("analog", "analogue");
+
+            correctionAdd("analagous", "analogous");
+
+            correctionAdd("zen cart", "Zen Cart");
+            correctionAdd("ZenCart", "Zen Cart");
+            correctionAdd("zenCart", "Zen Cart");
+
+            correctionAdd("Zen Buddist", "Zen Buddhist");
+
+            correctionAdd("zen", "Zen");
+
+            correctionAdd("zend", "Zend Framework");
+            correctionAdd("Zend", "Zend Framework");
+            correctionAdd("ZF", "Zend Framework");
+            correctionAdd("zend framework", "Zend Framework");
+            correctionAdd("zf", "Zend Framework");
+            correctionAdd("ZEND", "Zend Framework");
+            correctionAdd("Laminas Project", "Zend Framework");
+
+            correctionAdd("zend studio", "Zend Studio");
+            correctionAdd("ZendSudio", "Zend Studio");
+            correctionAdd("ZendStudio", "Zend Studio");
+            correctionAdd("ZS", "Zend Studio");
+            correctionAdd("Zend IDE", "Zend Studio");
+
+            correctionAdd("horizentaly", "horizontally");
+            correctionAdd("horizondally", "horizontally");
+            correctionAdd("Horiztonally", "horizontally");
+            correctionAdd("horiztonally", "horizontally");
+
+            correctionAdd("trump", "Trump");
+            correctionAdd("Citizen Trump", "Trump");
+            correctionAdd("DJT", "Trump");
+            correctionAdd("Chumpolio", "Trump");
+            correctionAdd("Trumpolini", "Trump");
+            correctionAdd("Orange Jesus", "Trump");
+            correctionAdd("orange Maniac", "Trump");
+            correctionAdd("orange maniac", "Trump");
+            correctionAdd("orange toddler", "Trump");
+            correctionAdd("orange tan man", "Trump");
+            correctionAdd("orange man", "Trump");
+            correctionAdd("Orange baby", "Trump");
+            correctionAdd("orange baby", "Trump");
+            correctionAdd("Orange Julius", "Trump");
+            correctionAdd("orange predecessor", "Trump");
+            correctionAdd("Mango Mussolini", "Trump");
+            correctionAdd("Dump", "Trump");
+            correctionAdd("Conald Chump", "Trump");
+            correctionAdd("Trimp", "Trump");
+
+            correctionAdd("dime a dozen", "a dime a dozen");
+
+            correctionAdd("two dozens", "two dozen");
+
+            correctionAdd("benzene", "Benzene");
+
+            correctionAdd("programing", "programming");
+            correctionAdd("pragramming", "programming");
+            correctionAdd("proggraming", "programming");
+            correctionAdd("proggramming", "programming");
+            correctionAdd("prgramming", "programming");
+            correctionAdd("protramming", "programming");
+            correctionAdd("Programming", "programming");
+            correctionAdd("programmation", "programming");
+            correctionAdd("programmig", "programming");
+            correctionAdd("Proggramming", "programming");
+
+            // A book
+            correctionAdd("motorcycle maintenance", "Zen and the Art of Motorcycle Maintenance");
+
+            // A book
+            correctionAdd("Robert's rules", "Robert's Rules of Order");
+
+            correctionAdd("RAMDISC", "RAM disk");
+
+            correctionAdd("uContoller", "microcontroller");
+            correctionAdd("uController", "microcontroller");
+            correctionAdd("micro-controller", "microcontroller");
+            correctionAdd("uC", "microcontroller"); // Expansion
+            correctionAdd("mc", "microcontroller"); // Colision with something else? Midnight Commander. Microcontroller.
+            correctionAdd("MCU", "microcontroller"); // Expansion
+            correctionAdd("micro controllers", "microcontroller"); // Plural...
+            correctionAdd("micro controller", "microcontroller");
+            correctionAdd("mcu", "microcontroller"); // Expansion
+            correctionAdd("mictrocontroller", "microcontroller"); // Misspelling
+            correctionAdd("uc", "microcontroller"); // Expansion
+            correctionAdd("Microcontroller", "microcontroller"); // Depends on context...
+            correctionAdd("ucontroller", "microcontroller"); // Expansion
+            correctionAdd("Micro-controller", "microcontroller");
+            correctionAdd("μc", "microcontroller");
+            correctionAdd("microController", "microcontroller");
+            correctionAdd("microcontroler", "microcontroller");
+            correctionAdd("MicroController", "microcontroller");
+            correctionAdd("microntroller", "microcontroller"); // Misspelling
+            correctionAdd("µC", "microcontroller");
+            correctionAdd("mControlers", "microcontroller"); // Plural...
+            correctionAdd("mControler", "microcontroller");
+            correctionAdd("mController", "microcontroller");
+            correctionAdd("microncontroller", "microcontroller");
+            correctionAdd("mictrocontrollers", "microcontroller");
+            correctionAdd("microctroller", "microcontroller");
+            correctionAdd("Micro-Controller", "microcontroller");
+            correctionAdd("UC", "microcontroller");
+            correctionAdd("MC", "microcontroller");
+            correctionAdd("Microcontoller", "microcontroller");
+            correctionAdd("microcontoller", "microcontroller");
+
+            correctionAdd("arm", "ARM");
+            correctionAdd("Arm", "ARM");
+
+            correctionAdd("cortex-m", "Cortex-M");
+            correctionAdd("Cortex-m", "Cortex-M");
+            correctionAdd("ARM Cortex M", "Cortex-M"); // Not 100% correct.
+            correctionAdd("Cortex M", "Cortex-M");
+            correctionAdd("ARM cortex-m", "Cortex-M");
+            correctionAdd("Arm Cortex", "Cortex-M");
+            correctionAdd("ARM Cortex", "Cortex-M");
+            correctionAdd("CORTEX-M", "Cortex-M");
+            correctionAdd("ARM Cortex-M", "Cortex-M");
+            correctionAdd("arm cortex", "Cortex-M");
+
+            correctionAdd("ARM-Cortex-M0", "Cortex-M0");
+            correctionAdd("ARM Cortex-M0", "Cortex-M0");
+            correctionAdd("Cortex M0", "Cortex-M0");
+
+            correctionAdd("Cortex M4", "Cortex-M4");
+
+            correctionAdd("armhf", "ARMv7");
+
+            correctionAdd("armv8", "ARMv8");
+
+            // A type of ARM processor
+            correctionAdd("Cavium ThunderX", "ThunderX (Cavium)");
+            correctionAdd("ThunderX", "ThunderX (Cavium)");
+            correctionAdd("Cavium", "ThunderX (Cavium)");
+            correctionAdd("Thunder X", "ThunderX (Cavium)");
+            correctionAdd("Cavium Thunder X", "ThunderX (Cavium)");
+
+            // C/C++ compilers, e.g., for STMicroelectronics C166/ST10
+            correctionAdd("Tasking", "TASKING");
+
+            correctionAdd("stm32", "STM32");
+            correctionAdd("Stm32", "STM32");
+            correctionAdd("stm 32", "STM32");
+
+            correctionAdd("STM32Cube", "STM32CubeMX");
+            correctionAdd("cube", "STM32CubeMX");
+            correctionAdd("CubeMX", "STM32CubeMX");
+            correctionAdd("STM32 cube", "STM32CubeMX");
+
+            // Alternative URL:
+            //   <https://www.st.com/en/development-tools/stm32cubeide.html>)
+            //
+            correctionAdd("stm32cubeIDE", "STM32CubeIDE");
+            correctionAdd("STM32 cube ide", "STM32CubeIDE");
+
+            correctionAdd("stm32f103", "STM32F103");
+
+            // A suite of development boards for STM32 (ARM)
+            correctionAdd("nucleo", "Nucleo");
+            correctionAdd("NUCLEO", "Nucleo");
+
+            // An ARM microcontroller development board. Based on the STM32F415.
+            //
+            // Alternative URL: <https://1bitsquared.com/products/1bitsy>
+            //
+            correctionAdd("1bitsy", "1Bitsy");
+            correctionAdd("1BitSy", "1Bitsy");
+
+            // An STM32 (ARM) development board
+            correctionAdd("blue pill", "Blue Pill");
+            correctionAdd("blue-pill", "Blue Pill");
+            correctionAdd("BluePill", "Blue Pill");
+
+            // An STM32 (ARM) development board
+            correctionAdd("black pill", "Black Pill");
+
+            correctionAdd("Processor", "processor");
+
+            correctionAdd("uP", "microprocessor");
+            correctionAdd("µp", "microprocessor");
+            correctionAdd("µP", "microprocessor");
+            correctionAdd("mP", "microprocessor");
+
+            correctionAdd("cpu", "CPU");
+            correctionAdd("Cpu", "CPU");
+
+            // A type of  microprocessor/CPU
+            correctionAdd("Power8", "POWER8");
+            correctionAdd("Power 8", "POWER8");
+
+            correctionAdd("amd", "AMD");
+            correctionAdd("AMd", "AMD");
+            correctionAdd("Amd", "AMD");
+
+            // A software development tool
+            correctionAdd("AMD CodeXL", "CodeXL");
+
+            // A CPU feature (AMD only?)
+            correctionAdd("TurboBoost", "Turbo Boost");
+
+            // AMD CPU architecture
+            correctionAdd("zen2", "Zen 2");
+            correctionAdd("Zen2", "Zen 2");
+
+            // AMD CPU architecture
+            correctionAdd("AMD zen", "Zen 3");
+            correctionAdd("zen3", "Zen 3");
+            correctionAdd("Zen3", "Zen 3");
+
+            // A type of CPU (AMD)
+            correctionAdd("AMD threadripper", "AMD Ryzen Threadripper");
+
+            // A type of CPU (AMD)
+            correctionAdd("ryzen", "Ryzen");
+
+            // A CPU
+            correctionAdd("Ryzen 3950x", "Ryzen 3950X");
+
+            // A CPU microarchitecture (Intel)
+            correctionAdd("1st gen", "Nehalem");
+            correctionAdd("1st generation", "Nehalem");
+            correctionAdd("nehalem", "Nehalem");
+
+            // A CPU microarchitecture (Intel)
+            correctionAdd("westmere", "Westmere (1st generation)");
+
+            // A CPU microarchitecture (Intel)
+            correctionAdd("Sandybridge", "Sandy Bridge");
+            correctionAdd("2th gen", "Sandy Bridge");
+            correctionAdd("2th generation", "Sandy Bridge");
+
+            // A CPU microarchitecture (Intel)
+            correctionAdd("IvyBridge", "Ivy Bridge");
+            correctionAdd("3th gen", "Ivy Bridge");
+            correctionAdd("3th generation", "Ivy Bridge");
+
+            // A CPU microarchitecture (Intel)
+            correctionAdd("haswell", "Haswell");
+            correctionAdd("4th gen", "Haswell");
+            correctionAdd("4th generation", "Haswell");
+
+            // A CPU microarchitecture (Intel)
+            correctionAdd("5th gen", "Broadwell");
+            correctionAdd("5th generation", "Broadwell");
+            correctionAdd("broadwell", "Broadwell");
+
+            // A CPU microarchitecture (Intel)
+            correctionAdd("skylake", "Skylake");
+            correctionAdd("6th gen", "Skylake");
+            correctionAdd("6th generation", "Skylake");
+
+            // A CPU microarchitecture (Intel)
+            correctionAdd("7th gen", "Kaby Lake");
+            correctionAdd("7th generation", "Kaby Lake");
+
+            // A CPU microarchitecture (Intel)
+            correctionAdd("CoffeeLake", "Coffee Lake");
+            correctionAdd("8th gen", "Coffee Lake");
+            correctionAdd("8th generation", "Coffee Lake");
+
+            // A CPU microarchitecture (Intel)
+            correctionAdd("ice lake", "Ice Lake");
+            correctionAdd("Icelake", "Ice Lake");
+            correctionAdd("10th gen", "Ice Lake");
+            correctionAdd("10th generation", "Ice Lake");
+
+            // A CPU microarchitecture (Intel)
+            correctionAdd("tiger lake", "Tiger Lake");
+            correctionAdd("11th gen", "Tiger Lake");
+            correctionAdd("11th generation", "Tiger Lake");
+
+            // A CPU microarchitecture (Intel)
+            correctionAdd("alder lake", "Alder Lake");
+            correctionAdd("12th gen", "Alder Lake");
+            correctionAdd("12th generation", "Alder Lake");
+
+            // A type of CPU (Intel)
+            correctionAdd("XEON", "Xeon");
+            correctionAdd("xeon", "Xeon");
+
+            // A CPU (Intel)
+            correctionAdd("Xeon E5 1620", "Xeon E5-1620");
+
+            // A CPU (Intel)
+            correctionAdd("W5580", "Xeon W5580");
+
+            // A CPU (Intel)
+            correctionAdd("Xeon E5 2650", "Xeon E5-2650");
+
+            correctionAdd("Northbridge", "northbridge"); // On a PC motherboard
+
+            correctionAdd("mobo", "motherboard");
+            correctionAdd("Mobo", "motherboard");
+            correctionAdd("MOBO", "motherboard");
+            correctionAdd("mother board", "motherboard");
+            correctionAdd("MOB", "motherboard");
+            correctionAdd("MBO", "motherboard");
+            correctionAdd("mohterboard", "motherboard");
+            correctionAdd("Motherboard", "motherboard");
+
+            correctionAdd("msi motherboard", "MSI motherboard");
+
+            // On a PC motherboard
+            correctionAdd("South Bridge", "southbridge");
+            correctionAdd("south bridge", "southbridge");
+            correctionAdd("South bridge", "southbridge");
+            correctionAdd("Southbridge", "southbridge");
+
+            // A PC motherboard Sandy Bridge chipset
+            correctionAdd("h61", "H61");
+
+            correctionAdd("dvice", "device");
+            correctionAdd("devise", "device");
+            correctionAdd("Device", "device");
+            correctionAdd("Devise", "device");
+            correctionAdd("defice", "device");
+
+            correctionAdd("BYOD", "bring your own device");
 
             correctionAdd("Osmand", "OsmAnd");
 
@@ -11473,6 +11576,9 @@ namespace OverflowHelper.core
             // Aviation
             correctionAdd("IRS", "Inertial Reference System");
 
+            // Aviation
+            correctionAdd("IATA", "International Air Transport Association");
+
             // An airliner.
             //
             //A duplicate of "airliner"
@@ -11505,8 +11611,14 @@ namespace OverflowHelper.core
             // An airliner
             correctionAdd("virgin atlantic", "Virgin Atlantic");
 
-            // An airline
+            // An airliner
             correctionAdd("QANTAS", "Qantas");
+
+            correctionAdd("Abu Dhabi", "Emirate of Abu Dhabi");
+
+            // An airliner
+            correctionAdd("EY", "Etihad Airways");
+            correctionAdd("Etihad", "Etihad Airways");
 
             // Aviation
             correctionAdd("aircrafts", "aircraft");
@@ -11662,6 +11774,34 @@ namespace OverflowHelper.core
 
             // Aviation / space
             correctionAdd("TWR", "thrust-to-weight ratio");
+
+            correctionAdd("charles de guelle airport", "Charles de Gaulle Airport");
+
+            correctionAdd("LAX", "Los Angeles International Airport");
+
+            correctionAdd("LAS", "McCarran International Airport");
+
+            correctionAdd("SYD", "Sydney Airport");
+
+            correctionAdd("Tom Bradley", "Tom Bradley International Terminal");
+            correctionAdd("TBIT", "Tom Bradley International Terminal");
+
+            correctionAdd("DCA", "Ronald Reagan Washington National Airport");
+            correctionAdd("KDCA", "Ronald Reagan Washington National Airport");
+
+            correctionAdd("JFK", "John F. Kennedy International Airport");
+
+            correctionAdd("EWR", "Newark Liberty International Airport");
+
+            correctionAdd("ORD", "O'Hare International Airport");
+
+            correctionAdd("PIT", "Pittsburgh International Airport");
+
+            correctionAdd("Logan International Airport", "Boston Logan International Airport");
+            correctionAdd("BOS", "Boston Logan International Airport");
+            correctionAdd("KBOS", "Boston Logan International Airport");
+
+            correctionAdd("AUH", "Abu Dhabi International Airport");
 
             correctionAdd("airmolecule", "air molecule");
 
@@ -14837,9 +14977,6 @@ namespace OverflowHelper.core
             // Linux, GUI. A display manager.
             correctionAdd("lightdm", "LightDM");
             correctionAdd("Lightdm", "LightDM");
-
-            // Linux, GUI. A dock.
-            correctionAdd("plank", "Plank");
 
             // Linux, GUI.
             //
@@ -24679,16 +24816,6 @@ namespace OverflowHelper.core
             correctionAdd("NetBios", "NetBIOS");
             correctionAdd("netbios", "NetBIOS");
 
-            correctionAdd("dos", "DOS");
-            correctionAdd("MS DOS", "DOS");
-            correctionAdd("MS-DOS", "DOS");
-            correctionAdd("msdos", "DOS");
-            correctionAdd("Dos", "DOS");
-            correctionAdd("ms dos", "DOS");
-            correctionAdd("ms-dos", "DOS");
-            correctionAdd("MS-Dos", "DOS");
-            correctionAdd("MSDOS", "DOS");
-
             correctionAdd("FreeDos", "FreeDOS");
 
             correctionAdd("ReDOS", "ReDoS");
@@ -28010,20 +28137,11 @@ namespace OverflowHelper.core
 
             correctionAdd("Inode", "inode");
 
-            correctionAdd("Diode", "diode");
-
-            correctionAdd("chua diode", "Chua's diode");
-
             correctionAdd("org mode", "Org-mode");
             correctionAdd("org-mode", "Org-mode");
             correctionAdd("Org mode", "Org-mode");
             correctionAdd("Org Mode", "Org-mode");
             correctionAdd("Orgmode", "Org-mode");
-
-            correctionAdd("photo diode", "photodiode");
-
-            correctionAdd("p-n diode", "p–n diode");
-            correctionAdd("PN diode", "p–n diode");
 
             correctionAdd("quirk mode", "quirks mode");
             correctionAdd("QUIRK MODE", "quirks mode");
@@ -29872,6 +29990,7 @@ namespace OverflowHelper.core
 
             correctionAdd("processing", "Processing");
             correctionAdd("proccessing", "Processing");
+            correctionAdd("PROCESSING", "Processing");
 
             correctionAdd("Bittorrent", "BitTorrent");
             correctionAdd("bittorrent", "BitTorrent");
@@ -30570,32 +30689,6 @@ namespace OverflowHelper.core
             correctionAdd("Airport", "AirPort");
             correctionAdd("airport", "AirPort");
 
-            correctionAdd("charles de guelle airport", "Charles de Gaulle Airport");
-
-            correctionAdd("LAX", "Los Angeles International Airport");
-
-            correctionAdd("LAS", "McCarran International Airport");
-
-            correctionAdd("SYD", "Sydney Airport");
-
-            correctionAdd("Tom Bradley", "Tom Bradley International Terminal");
-            correctionAdd("TBIT", "Tom Bradley International Terminal");
-
-            correctionAdd("DCA", "Ronald Reagan Washington National Airport");
-            correctionAdd("KDCA", "Ronald Reagan Washington National Airport");
-
-            correctionAdd("JFK", "John F. Kennedy International Airport");
-
-            correctionAdd("EWR", "Newark Liberty International Airport");
-
-            correctionAdd("ORD", "O'Hare International Airport");
-
-            correctionAdd("PIT", "Pittsburgh International Airport");
-
-            correctionAdd("Logan International Airport", "Boston Logan International Airport");
-            correctionAdd("BOS", "Boston Logan International Airport");
-            correctionAdd("KBOS", "Boston Logan International Airport");
-
             correctionAdd("adsl", "ADSL");
 
             correctionAdd("legit", "legitimate"); // Expansion, not case correction.
@@ -30880,10 +30973,6 @@ namespace OverflowHelper.core
             correctionAdd("On the long run", "in the long run");
             correctionAdd("on the long run", "in the long run");
 
-            correctionAdd("in the practice", "in practice");
-            correctionAdd("On the practice", "in practice");
-            correctionAdd("on the practice", "in practice");
-
             correctionAdd("IRL", "in real life");
             correctionAdd("irl", "in real life");
 
@@ -30901,6 +30990,36 @@ namespace OverflowHelper.core
             correctionAdd("On the short run", "in the short run");
 
             correctionAdd("in-silico", "in silico");
+
+            correctionAdd("best-practice", "best practice");
+            correctionAdd("Best Practice", "best practice");
+
+            correctionAdd("in the practice", "in practice");
+            correctionAdd("On the practice", "in practice");
+            correctionAdd("on the practice", "in practice");
+
+            correctionAdd("practise", "practice");
+            correctionAdd("practive", "practice");
+            correctionAdd("pratice", "practice");
+
+            correctionAdd("practized", "practised");
+
+            correctionAdd("practicing", "practising");
+            correctionAdd("praticing", "practising");
+
+            correctionAdd("practicaly", "practically");
+            correctionAdd("Practicaly", "practically");
+            correctionAdd("practially", "practically");
+
+            correctionAdd("practioners", "practitioners");
+
+            correctionAdd("pratical", "practical");
+            correctionAdd("paractical", "practical");
+
+            correctionAdd("practicallity", "practicality");
+            correctionAdd("Practicality", "practicality");
+
+            correctionAdd("prace", "peace");
 
             correctionAdd("re-use", "reuse");
 
@@ -34188,45 +34307,6 @@ namespace OverflowHelper.core
             correctionAdd("guaranteaing", "guaranteeing");
             correctionAdd("Guaranteeing", "guaranteeing");
 
-            correctionAdd("eeprom", "EEPROM");
-            correctionAdd("EEprom", "EEPROM");
-            correctionAdd("eeProm", "EEPROM");
-            correctionAdd("Ephrom", "EEPROM");
-            correctionAdd("ee_prom", "EEPROM");
-
-            correctionAdd("eprom", "EPROM");
-            correctionAdd("Eprom", "EPROM");
-
-            // Electronics
-            correctionAdd("Op Amps", "operational amplifier"); // Plural thing
-            correctionAdd("op-amp", "operational amplifier"); // Expansion
-            correctionAdd("op amp", "operational amplifier");
-            correctionAdd("Op amp", "operational amplifier");
-            correctionAdd("opamp", "operational amplifier");
-            correctionAdd("OpAmp", "operational amplifier");
-            correctionAdd("Opamp", "operational amplifier");
-            correctionAdd("Op Amp", "operational amplifier"); // The official short form is "op-amp" - <https://en.wiktionary.org/wiki/op-amp#English>
-            correctionAdd("OPAmps", "operational amplifier"); // Not 100% correct - plural.
-            correctionAdd("OPAmp", "operational amplifier");
-            correctionAdd("OP-AMP", "operational amplifier");
-            correctionAdd("opAmp", "operational amplifier");
-            correctionAdd("OA", "operational amplifier"); // Expansion
-            correctionAdd("opmap", "operational amplifier");
-            correctionAdd("OP-Amp", "operational amplifier");
-            correctionAdd("OP Amp", "operational amplifier");
-            correctionAdd("OP amp", "operational amplifier");
-            correctionAdd("OPamp", "operational amplifier");
-            correctionAdd("Op-Amp", "operational amplifier");
-
-            // An operational amplifier
-            correctionAdd("uA741", "μA741");
-            correctionAdd("ua741", "μA741");
-            correctionAdd("741", "μA741");
-            correctionAdd("UA-741", "μA741");
-            correctionAdd("UA 741", "μA741");
-            correctionAdd("LM741", "μA741");
-            correctionAdd("lm741", "μA741");
-
             correctionAdd("nexus s", "Nexus S");
 
             correctionAdd("nexus 4", "Nexus&nbsp;4");
@@ -35639,9 +35719,6 @@ namespace OverflowHelper.core
             correctionAdd("Machine", "machine");
             correctionAdd("machinr", "machine");
 
-            // Electronics
-            correctionAdd("Pick'n'place machine", "pick-and-place machine");
-
             correctionAdd("statemachine", "finite-state machine");
             correctionAdd("FSM", "finite-state machine");
             correctionAdd("state machine", "finite-state machine");
@@ -36867,6 +36944,7 @@ namespace OverflowHelper.core
             correctionAdd("Scandanavian", "Scandinavian");
             correctionAdd("Scandinavianb", "Scandinavian");
             correctionAdd("scandanavian", "Scandinavian");
+            correctionAdd("scandic", "Scandinavian");
 
             correctionAdd("Big O", "big O");
             correctionAdd("BigO", "big O");
@@ -37096,19 +37174,6 @@ namespace OverflowHelper.core
             correctionAdd("tittle", "title");
 
             correctionAdd("visualastion", "visualisation");
-
-            // Electronics. Simulation.
-            correctionAdd("Spice", "SPICE");
-            correctionAdd("spice", "SPICE");
-
-            // Electronics. Simulation.
-            correctionAdd("hspice", "HSPICE");
-
-            // Electronics. Simulation.
-            correctionAdd("ltspice", "LTspice");
-            correctionAdd("LTSpice", "LTspice");
-            correctionAdd("LTSPICE", "LTspice");
-            correctionAdd("LtSpice", "LTspice");
 
             correctionAdd("Nato", "NATO");
             correctionAdd("nato", "NATO");
@@ -40984,26 +41049,6 @@ namespace OverflowHelper.core
 
             correctionAdd("deobfucated", "deobfuscated");
 
-            correctionAdd("practise", "practice");
-            correctionAdd("practive", "practice");
-
-            correctionAdd("practized", "practised");
-
-            correctionAdd("practicing", "practising");
-            correctionAdd("praticing", "practising");
-
-            correctionAdd("practicaly", "practically");
-            correctionAdd("Practicaly", "practically");
-            correctionAdd("practially", "practically");
-
-            correctionAdd("practioners", "practitioners");
-
-            correctionAdd("pratical", "practical");
-            correctionAdd("paractical", "practical");
-
-            correctionAdd("practicallity", "practicality");
-            correctionAdd("Practicality", "practicality");
-
             correctionAdd("Thirteenth", "thirteenth");
             correctionAdd("13th", "thirteenth");
 
@@ -43059,8 +43104,6 @@ namespace OverflowHelper.core
             correctionAdd("crtical", "critical");
 
             correctionAdd("uncritical", "noncritical");
-
-            correctionAdd("prace", "peace");
 
             correctionAdd("scandle", "scandal");
 
@@ -46268,10 +46311,6 @@ namespace OverflowHelper.core
             correctionAdd("sacrifise", "sacrifice");
             correctionAdd("sac", "sacrifice");
             correctionAdd("Sac", "sacrifice");
-
-            correctionAdd("Class A", "Class A amplifier");
-
-            correctionAdd("Darlington", "Darlington transistor");
 
             correctionAdd("fink", "Fink");
 
@@ -51512,9 +51551,6 @@ namespace OverflowHelper.core
             correctionAdd("NXOpen", "NX Open");
             correctionAdd("Nx open", "NX Open");
 
-            correctionAdd("best-practice", "best practice");
-            correctionAdd("Best Practice", "best practice");
-
             correctionAdd("cries faul", "cries foul");
 
             correctionAdd("derivates", "derivatives");
@@ -52539,19 +52575,7 @@ namespace OverflowHelper.core
 
             correctionAdd("straigthen", "straighten");
 
-            // Electronics
-            correctionAdd("analog-to-digital converter", "ADC");
-
-            // Electronics
-            correctionAdd("AMS", "analog-mixed-signal");
-
-            // Electronics
-            correctionAdd("AVDD", "analog power supply");
-
-            correctionAdd("analagous", "analogous");
-
-            correctionAdd("analog", "analogue");
-
+            // Spacecraft / rocket
             correctionAdd("Ariane5", "Ariane 5");
 
             correctionAdd("spigot", "Spigot");
@@ -55991,10 +56015,6 @@ namespace OverflowHelper.core
             correctionAdd("resource adapters", "RA");
 
             correctionAdd("DART", "DART (satellite)");
-
-            correctionAdd("dose", "does");
-            correctionAdd("DOes", "does");
-            correctionAdd("Does", "does");
 
             correctionAdd("obtai", "obtain");
 
@@ -59475,6 +59495,12 @@ namespace OverflowHelper.core
 
             correctionAdd("eary", "eerily");
 
+            correctionAdd("despecable", "despicable");
+
+            correctionAdd("nextgen", "next generation");
+            correctionAdd("next gen", "next generation");
+            correctionAdd("next-gen", "next generation");
+
             // Start of the coronavirus part...
             correctionAdd("dieing", "dying"); // Coronavirus
             correctionAdd("dyeing", "dying"); // Coronavirus
@@ -61268,8 +61294,6 @@ namespace OverflowHelper.core
             URL_Add("jQuery&nbsp;Isotope", "http://isotope.metafizzy.co/docs/introduction.html");
 
             URL_Add("Twitter", "https://en.wikipedia.org/wiki/Twitter");
-
-            URL_Add("DOS", "https://en.wikipedia.org/wiki/DOS");
 
             URL_Add("App&nbsp;Store", "https://en.wikipedia.org/wiki/App_Store_(iOS/iPadOS)"); // Old: https://en.wikipedia.org/wiki/App_Store_%28iOS%29
 
@@ -87258,8 +87282,6 @@ namespace OverflowHelper.core
 
             URL_Add("password reuse", "https://en.wikipedia.org/wiki/Wikipedia:10,000_most_common_passwords#Top_100");
 
-            URL_Add("Plank", "https://wiki.archlinux.org/title/Plank");
-
             URL_Add("Polybar", "https://github.com/polybar/polybar");
 
             URL_Add("tint2", "https://wiki.archlinux.org/title/Tint2");
@@ -91152,6 +91174,24 @@ namespace OverflowHelper.core
 
             URL_Add("duplicates", "https://en.wiktionary.org/wiki/duplicate#Noun");
 
+            URL_Add("Abu Dhabi International Airport", "https://en.wikipedia.org/wiki/Abu_Dhabi_International_Airport");
+
+            URL_Add("Brussels", "https://en.wikipedia.org/wiki/Brussels");
+
+            URL_Add("despicable", "https://en.wiktionary.org/wiki/despicable#Adjective");
+
+            URL_Add("Emirate of Abu Dhabi", "https://en.wikipedia.org/wiki/Emirate_of_Abu_Dhabi");
+
+            URL_Add("Etihad Airways", "https://en.wikipedia.org/wiki/Etihad_Airways");
+
+            URL_Add("International Air Transport Association", "https://en.wikipedia.org/wiki/International_Air_Transport_Association");
+
+            URL_Add("Chocofi", "https://kriscables.com/product/chocofi-split-keyboard-kit/");
+
+            URL_Add("Piantor", "https://shop.beekeeb.com/product/pre-soldered-piantor-split-keyboard/");
+
+            URL_Add("next generation", "https://en.wiktionary.org/wiki/next_generation#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -91187,8 +91227,21 @@ namespace OverflowHelper.core
             // Note: Due to a glitch in a checking Perl script, there should
             //       be an empty line before the first block...
 
+            correctionAdd("Delta_", "Delta Air Lines_");
+
+            correctionAdd("Airport_", "airport_");
+
             correctionAdd("pop_", "POP_");
             correctionAdd("Gregorio Luperón International Airport_", "POP_");
+
+            correctionAdd("BRU_", "Brussels Airport_");
+
+            correctionAdd("DEL_", "Indira Gandhi International Airport_");
+
+            correctionAdd("KTM_", "Tribhuvan International Airport_");
+            correctionAdd("TIA_", "Tribhuvan International Airport_");
+
+            correctionAdd("AD_", "air defence_");
 
             correctionAdd("msaccess_", "Microsoft Access_");
             correctionAdd("ms-access_", "Microsoft Access_");
@@ -91373,8 +91426,6 @@ namespace OverflowHelper.core
             correctionAdd("LESS_", "less_");
             correctionAdd("Less_", "less_");
             correctionAdd("lees_", "less_");
-
-            correctionAdd("Delta_", "Delta Air Lines_");
 
             correctionAdd("nota bene_", "NB_");
             correctionAdd("Nota bene_", "NB_");
@@ -93125,8 +93176,6 @@ namespace OverflowHelper.core
             correctionAdd("dog fooding_", "usability_");
             correctionAdd("dogfooding_", "usability_");
 
-            correctionAdd("Airport_", "airport_");
-
             // The URL is the siminal blog post on the topic
             correctionAdd("Help Vampire_", "help vampire_");
 
@@ -93596,8 +93645,6 @@ namespace OverflowHelper.core
             correctionAdd("TTL_", "time to live_");
             correctionAdd("Time To Live_", "time to live_");
 
-            correctionAdd("AD_", "air defence_");
-
             correctionAdd("prime number_", "prime numbers_");
 
             // A spacecraft
@@ -93768,6 +93815,8 @@ namespace OverflowHelper.core
             correctionAdd("queen_", "Queen_");
 
             correctionAdd("Flair_", "flair_");
+
+            correctionAdd("fair_", "fare_");
 
             correctionAdd("TUI_", "text-based user interface_");
 
@@ -94452,8 +94501,6 @@ namespace OverflowHelper.core
 
             correctionAdd("DA_", "dielectric absorption_");
 
-            correctionAdd("fair_", "fare_");
-
             correctionAdd("Ads_", "advertisement_"); // Not 100% correct - capitalisation and plural.
             correctionAdd("ads_", "advertisement_"); // Not 100% correct - capitalisation and plural.
             correctionAdd("adverts_", "advertisement_"); // Not 100% correct - plural.
@@ -94720,6 +94767,9 @@ namespace OverflowHelper.core
             // Linux
             correctionAdd("MV_", "mv_");
 
+            // Linux, GUI. A dock.
+            correctionAdd("plank_", "Plank_");
+
             // The common word (determiner)
             correctionAdd("More_", "more_");
             correctionAdd("moree_", "more_");
@@ -94769,6 +94819,16 @@ namespace OverflowHelper.core
             correctionAdd("vary_", "your mileage may vary_");
 
             correctionAdd("aford_", "afford_");
+
+            correctionAdd("dos_", "DOS_");
+            correctionAdd("MS DOS_", "DOS_");
+            correctionAdd("MS-DOS_", "DOS_");
+            correctionAdd("msdos_", "DOS_");
+            correctionAdd("Dos_", "DOS_");
+            correctionAdd("ms dos_", "DOS_");
+            correctionAdd("ms-dos_", "DOS_");
+            correctionAdd("MS-Dos_", "DOS_");
+            correctionAdd("MSDOS_", "DOS_");
 
             // URL mappings
             //
@@ -96613,6 +96673,16 @@ namespace OverflowHelper.core
             URL_Add("afford_", "https://en.wiktionary.org/wiki/afford#Verb");
 
             URL_Add("Meta&nbsp;Stack&nbsp;Exchange_", "https://meta.stackexchange.com/help/whats-meta");
+
+            URL_Add("DOS_", "https://en.wikipedia.org/wiki/DOS");
+
+            URL_Add("Brussels Airport_", "https://en.wikipedia.org/wiki/Brussels_Airport");
+
+            URL_Add("Indira Gandhi International Airport_", "https://en.wikipedia.org/wiki/Indira_Gandhi_International_Airport");
+
+            URL_Add("Tribhuvan International Airport_", "https://en.wikipedia.org/wiki/Tribhuvan_International_Airport");
+
+            URL_Add("Plank_", "https://wiki.archlinux.org/title/Plank");
 
         } //addLookupData_alternativeWordSet()
 
