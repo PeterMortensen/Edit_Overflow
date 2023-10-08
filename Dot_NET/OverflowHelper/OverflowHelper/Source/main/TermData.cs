@@ -4566,6 +4566,14 @@ namespace OverflowHelper.core
 
             correctionAdd("installment", "instalment");
 
+            correctionAdd("psedo", "pseudo");
+            correctionAdd("psuedo", "pseudo");
+            correctionAdd("Pseduo", "pseudo");
+            correctionAdd("pseduo", "pseudo");
+            correctionAdd("Psuedo", "pseudo");
+            correctionAdd("Psedudo", "pseudo");
+            correctionAdd("psedudo", "pseudo");
+
             // Windows. Compilers. IDEs.
             correctionAdd("borland", "Borland");
             correctionAdd("Boland", "Borland");
@@ -8110,12 +8118,16 @@ namespace OverflowHelper.core
 
             // Electronics
             correctionAdd("analog-to-digital converter", "ADC");
+            correctionAdd("adc", "ADC");
 
             // Electronics
             correctionAdd("AMS", "analog-mixed-signal");
 
             // Electronics
             correctionAdd("AVDD", "analog power supply");
+
+            // Electronics, especially embedded systems
+            correctionAdd("Brick", "brick");
 
             correctionAdd("analog", "analogue");
 
@@ -11507,9 +11519,16 @@ namespace OverflowHelper.core
             correctionAdd("CG", "center of gravity");
             correctionAdd("c.g", "center of gravity");
 
+            // A website. Note: The aircraft manufacturer
+            // is with an "e": "Boeing"...
+            correctionAdd("bOING bOING", "Boing Boing");
+            correctionAdd("Boingboing", "Boing Boing");
+            correctionAdd("boing boing", "Boing Boing");
+
             correctionAdd("flite", "flight");
             correctionAdd("fligth", "flight");
 
+            // A test tool for Apple smartphones
             correctionAdd("test flight", "TestFlight");
             correctionAdd("Testflight", "TestFlight");
             correctionAdd("testflight", "TestFlight");
@@ -11663,6 +11682,7 @@ namespace OverflowHelper.core
             correctionAdd("A380", "Airbus A380");
             correctionAdd("a380", "Airbus A380");
 
+            // Note the "e" after "o". It isn't "Boing"...
             correctionAdd("Boing", "Boeing");
             correctionAdd("boing", "Boeing");
             correctionAdd("boeing", "Boeing");
@@ -11693,6 +11713,12 @@ namespace OverflowHelper.core
             correctionAdd("Boing 787 Dreamliner", "Boeing 787");
 
             // An aircraft
+            correctionAdd("B 737", "Boeing 737");
+            correctionAdd("B737", "Boeing 737"); // The correct shortform (not "B-737")
+            correctionAdd("737", "Boeing 737");
+            correctionAdd("Boing 737", "Boeing 737");
+
+            // An aircraft
             correctionAdd("DC-8", "Douglas DC-8");
 
             // An aircraft
@@ -11710,11 +11736,40 @@ namespace OverflowHelper.core
             // An aircraft
             correctionAdd("Lockheed L-1049", "Lockheed L-1049 Super Constellation");
 
-            // An aircraft
+            // An aircraft (military)
             correctionAdd("XB-70", "North American XB-70 Valkyrie");
 
+            // An aircraft (military)
             correctionAdd("mig 21", "MiG-21");
             correctionAdd("mig21", "MiG-21");
+
+            // An aircraft (military)
+            correctionAdd("f-15", "F-15");
+            correctionAdd("f15", "F-15");
+            correctionAdd("F15", "F-15");
+
+            // An aircraft (military)
+            correctionAdd("f-16", "F-16");
+            correctionAdd("f16", "F-16");
+            correctionAdd("F16", "F-16");
+            correctionAdd("F 16", "F-16");
+            correctionAdd("f 16", "F-16");
+
+            // An aircraft (military)
+            correctionAdd("F-18", "F/A-18");
+            correctionAdd("F18", "F/A-18");
+
+            // An aircraft (military)
+            correctionAdd("F22", "F-22 Raptor");
+            correctionAdd("F-22", "F-22 Raptor");
+
+            // An aircraft (military)
+            correctionAdd("F35", "F-35");
+            correctionAdd("f-35", "F-35");
+            correctionAdd("f35", "F-35");
+            correctionAdd("joint strike fighter", "F-35");
+            correctionAdd("Joint Strike Fighter", "F-35");
+            correctionAdd("JOINT STRIKE FIGHTER", "F-35");
 
             // An aircraft
             correctionAdd("C172", "Cessna 172");
@@ -13930,6 +13985,7 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
             correctionAdd("ubuntu 18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
             correctionAdd("ubuntu 18 lts", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu 18.0.4", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
 
             correctionAdd("Ubuntu 18.10 (Cosmic Cuttlefish)", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)"); // Sort of identity mapping
             correctionAdd("Ubuntu Cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
@@ -15051,6 +15107,7 @@ namespace OverflowHelper.core
             correctionAdd("Allacritta", "Alacritty");
             correctionAdd("allacritta", "Alacritty");
             correctionAdd("alacrity", "Alacritty");
+            correctionAdd("allacrity", "Alacritty");
 
             // The Linux command
             correctionAdd("MOUNT", "mount");
@@ -19431,6 +19488,9 @@ namespace OverflowHelper.core
             correctionAdd("PSEUDO CODE", "pseudocode");
             correctionAdd("psedo code", "pseudocode");
             correctionAdd("PsuedoCode", "pseudocode");
+            correctionAdd("Psedudo code", "pseudocode");
+            correctionAdd("psedudo code", "pseudocode");
+            correctionAdd("psedudocode", "pseudocode");
 
             correctionAdd("sourcecode", "source code");
             correctionAdd("Source Code", "source code");
@@ -23460,6 +23520,7 @@ namespace OverflowHelper.core
             //   <https://deviq.com/design-patterns/repository-pattern/>
             //
             correctionAdd("Repository Pattern", "repository pattern");
+            correctionAdd("Repository pattern", "repository pattern");
 
             // Alternative URLs:
             //
@@ -26534,15 +26595,42 @@ namespace OverflowHelper.core
             correctionAdd("US Dollar", "US dollar");
             correctionAdd("US Dollars", "US dollar");
 
-            // A type of visa in the United States.
-            correctionAdd("H1B", "H-1B");
-            correctionAdd("h1b", "H-1B");
-            correctionAdd("H1(b)", "H-1B");
-            correctionAdd("H1b", "H-1B");
-            correctionAdd("H1-B", "H-1B");
+            correctionAdd("Visa", "visa");
+            correctionAdd("VISA", "visa");
 
             // A type of visa in the United States.
-            correctionAdd("H4", "H-4");
+            correctionAdd("H1B", "H-1B visa");
+            correctionAdd("h1b", "H-1B visa");
+            correctionAdd("H1(b)", "H-1B visa");
+            correctionAdd("H1b", "H-1B visa");
+            correctionAdd("H1-B", "H-1B visa");
+            correctionAdd("H-1B", "H-1B visa");
+
+            // A type of visa in the United States.
+            correctionAdd("H-2B", "H-2B visa");
+            correctionAdd("H2B", "H-2B visa");
+
+            // A type of visa in the United States.
+            correctionAdd("B-1", "B-1 visa");
+            correctionAdd("B1", "B-1 visa");
+
+            // A type of visa in the United States.
+            correctionAdd("B2 visa", "B-2 visa");
+            correctionAdd("B-2", "B-2 visa");
+            correctionAdd("B2", "B-2 visa");
+
+            // A type of visa in the United States.
+            correctionAdd("F1 visa", "F-1 visa");
+
+            // A type of visa in the United States.
+            correctionAdd("F2 visa", "F-2 visa");
+
+            // A type of visa in the United States.
+            correctionAdd("J1 visa", "J-1 visa");
+
+            // A type of visa in the United States.
+            correctionAdd("H4", "H-4 visa");
+            correctionAdd("H-4", "H-4 visa");
 
             // A United States college-level course and examination
             correctionAdd("Advanced Placement United States History", "AP United States History");
@@ -32550,6 +32638,7 @@ namespace OverflowHelper.core
             correctionAdd("archirecture", "architecture");
             correctionAdd("achitecture", "architecture");
             correctionAdd("archicture", "architecture");
+            correctionAdd("Architecture", "architecture");
 
             correctionAdd("stl", "STL");
             correctionAdd("Stl", "STL");
@@ -34908,45 +34997,6 @@ namespace OverflowHelper.core
             correctionAdd("single-page apps", "single-page application");
             correctionAdd("single web page app", "single-page application");
             correctionAdd("single web page application", "single-page application");
-
-            correctionAdd("f-15", "F-15");
-            correctionAdd("f15", "F-15");
-            correctionAdd("F15", "F-15");
-
-            correctionAdd("f-16", "F-16");
-            correctionAdd("f16", "F-16");
-            correctionAdd("F16", "F-16");
-            correctionAdd("F 16", "F-16");
-            correctionAdd("f 16", "F-16");
-
-            correctionAdd("F-18", "F/A-18");
-            correctionAdd("F18", "F/A-18");
-
-            correctionAdd("F22", "F-22 Raptor");
-            correctionAdd("F-22", "F-22 Raptor");
-
-            correctionAdd("F35", "F-35");
-            correctionAdd("f-35", "F-35");
-            correctionAdd("f35", "F-35");
-            correctionAdd("joint strike fighter", "F-35");
-            correctionAdd("Joint Strike Fighter", "F-35");
-            correctionAdd("JOINT STRIKE FIGHTER", "F-35");
-
-            correctionAdd("Visa", "visa");
-            correctionAdd("VISA", "visa");
-
-            correctionAdd("B-1", "B-1 visa");
-            correctionAdd("B1", "B-1 visa");
-
-            correctionAdd("B2 visa", "B-2 visa");
-            correctionAdd("B-2", "B-2 visa");
-            correctionAdd("B2", "B-2 visa");
-
-            correctionAdd("F1 visa", "F-1 visa");
-
-            correctionAdd("F2 visa", "F-2 visa");
-
-            correctionAdd("J1 visa", "J-1 visa");
 
             correctionAdd("pls", "please");
             correctionAdd("plz", "please");
@@ -39983,12 +40033,6 @@ namespace OverflowHelper.core
             correctionAdd("Gret", "great");
             correctionAdd("Great", "great");
             correctionAdd("gr8", "great");
-
-            correctionAdd("psedo", "pseudo");
-            correctionAdd("psuedo", "pseudo");
-            correctionAdd("Pseduo", "pseudo");
-            correctionAdd("pseduo", "pseudo");
-            correctionAdd("Psuedo", "pseudo");
 
             correctionAdd("w3Schools", "W3Schools");
             correctionAdd("w3schools", "W3Schools");
@@ -47390,10 +47434,6 @@ namespace OverflowHelper.core
             correctionAdd("tiering", "tiring");
             correctionAdd("tyering", "tiring");
             correctionAdd("tyring", "tiring");
-
-            correctionAdd("B 737", "Boing 737");
-            correctionAdd("B737", "Boing 737"); // The correct shortform (not "B-737")
-            correctionAdd("737", "Boing 737");
 
             correctionAdd("misspelled", "misspelt");
             correctionAdd("mispelled", "misspelt");
@@ -59451,11 +59491,6 @@ namespace OverflowHelper.core
 
             correctionAdd("laborius", "laborious");
 
-            // A website
-            correctionAdd("bOING bOING", "Boing Boing");
-            correctionAdd("Boingboing", "Boing Boing");
-            correctionAdd("boing boing", "Boing Boing");
-
             correctionAdd("mailkit", "MailKit");
 
             correctionAdd("tool kit", "toolkit");
@@ -70080,7 +70115,7 @@ namespace OverflowHelper.core
 
             URL_Add("Gulf of Mexico", "https://en.wikipedia.org/wiki/Gulf_of_Mexico");
 
-            URL_Add("H-1B", "https://en.wikipedia.org/wiki/H-1B_visa");
+            URL_Add("H-1B visa", "https://en.wikipedia.org/wiki/H-1B_visa");
 
             URL_Add("ISO&nbsp;2", "https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements");
 
@@ -72630,7 +72665,7 @@ namespace OverflowHelper.core
 
             URL_Add("BBCode", "https://en.wikipedia.org/wiki/BBCode");
 
-            URL_Add("Boing 737", "https://en.wikipedia.org/wiki/Boeing_737");
+            URL_Add("Boeing 737", "https://en.wikipedia.org/wiki/Boeing_737");
 
             URL_Add("Code Avengers", "https://www.codeavengers.com/");
 
@@ -85154,7 +85189,7 @@ namespace OverflowHelper.core
 
             URL_Add("Grafana k6", "https://k6.io/docs/");
 
-            URL_Add("H-4", "https://en.wikipedia.org/wiki/H-4_visa");
+            URL_Add("H-4 visa", "https://en.wikipedia.org/wiki/H-4_visa");
 
             URL_Add("John F. Kennedy International Airport", "https://en.wikipedia.org/wiki/John_F._Kennedy_International_Airport");
 
@@ -91192,6 +91227,10 @@ namespace OverflowHelper.core
 
             URL_Add("next generation", "https://en.wiktionary.org/wiki/next_generation#Adjective");
 
+            URL_Add("brick", "https://en.wikipedia.org/wiki/Brick_(electronics)");
+
+            URL_Add("H-2B visa", "https://en.wikipedia.org/wiki/H-2B_visa");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -94830,6 +94869,8 @@ namespace OverflowHelper.core
             correctionAdd("MS-Dos_", "DOS_");
             correctionAdd("MSDOS_", "DOS_");
 
+            correctionAdd("gaves_", "gave_");
+
             // URL mappings
             //
             //
@@ -96683,6 +96724,8 @@ namespace OverflowHelper.core
             URL_Add("Tribhuvan International Airport_", "https://en.wikipedia.org/wiki/Tribhuvan_International_Airport");
 
             URL_Add("Plank_", "https://wiki.archlinux.org/title/Plank");
+
+            URL_Add("gave_", "https://en.wiktionary.org/wiki/give#Verb");
 
         } //addLookupData_alternativeWordSet()
 
