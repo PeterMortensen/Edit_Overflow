@@ -2566,12 +2566,15 @@ startOfBuildStep "31" "Exporting the word list as SQL"
 #         is not automatically created by this
 #         script if it doesn't exist).
 #
-#Moved to PC2016 another crash Linux system crash 2022-02-26.
-## Moved to PC2016 after SSD-related Linux system crash 2020-05-31
-##cat /home/mortense2/temp2/2020-02-05/Header_EditOverflow_forMySQL_UTF8.sql  > $SQL_FILE
-##cat /home/mortensen/temp2/2020-05-30/Backup/Backup_2020-05-30_smallFiles/2020-05-30/Header_EditOverflow_forMySQL_UTF8.sql  > $SQL_FILE
-#cat '/home/embo/temp2/2020-06-02/Last Cinnamon backup_2020-05-30/Small files/Header_EditOverflow_forMySQL_UTF8.sql'  > $SQL_FILE
-cat '/home/mortensen/temp2/2022-02-25/Backup/Backup_2022-02-25_smallFiles/2022-02-25/Header_EditOverflow_forMySQL_UTF8.sql'  > $SQL_FILE
+#Now incorporated
+##Moved to PC2016 another crash Linux system crash 2022-02-26.
+### Moved to PC2016 after SSD-related Linux system crash 2020-05-31
+###cat /home/mortense2/temp2/2020-02-05/Header_EditOverflow_forMySQL_UTF8.sql  > $SQL_FILE
+###cat /home/mortensen/temp2/2020-05-30/Backup/Backup_2020-05-30_smallFiles/2020-05-30/Header_EditOverflow_forMySQL_UTF8.sql  > $SQL_FILE
+##cat '/home/embo/temp2/2020-06-02/Last Cinnamon backup_2020-05-30/Small files/Header_EditOverflow_forMySQL_UTF8.sql'  > $SQL_FILE
+#cat '/home/mortensen/temp2/2022-02-25/Backup/Backup_2022-02-25_smallFiles/2022-02-25/Header_EditOverflow_forMySQL_UTF8.sql'  > $SQL_FILE
+cat '/home/mortensen/UserProf/At_PC2016/_Incorporated_files/Header_EditOverflow_forMySQL_UTF8.sql'  > $SQL_FILE
+
 
 #export STDERR_FILE3="_stdErr_Export3.txt"
 
