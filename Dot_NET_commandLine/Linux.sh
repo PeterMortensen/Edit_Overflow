@@ -2774,6 +2774,11 @@ eval ${LFTP_COMMAND}  ; evaluateBuildResult 38 $? "copying the HTML word list to
 # HTML validation, both for the semi-static HTML pages and
 # the (generated) word list in HTML format.
 #
+# Note: This can fail if something went wrong with the previous
+#       update of the wordlist in production (as we presume
+#       particular word mappings to be present in the 
+#       database)
+#
 # It is currently dependent on an external service,
 # over the Internet. Some service failures:
 #
