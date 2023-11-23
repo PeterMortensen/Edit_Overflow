@@ -2281,14 +2281,15 @@ keyboardShortcutConsistencyCheck  Link_Builder.php          "link builder"      
 #   Reason:
 #
 #     Missing network connection (to the Internet). Not even a connection
-#     to nearest router (without an Internet connection) is enough. Is
+#     to the nearest router (without an Internet connection) is enough. Is
 #     a name server (DNS) required ("failure in name resolution"
 #     suggests it)? What needs to be looked up?
 #
 #     Is there a workaround? Putting 'localhost' in the hosts file? It
 #     is already there...
 #
-#     Why is this required??? Interface "lo" (loopback) should work for localhost.
+#     Why is this required??? Interface "lo" (loopback)
+#     should work for localhost.
 #
 #     Note that it is not the only reason for this error.
 #
@@ -2612,6 +2613,10 @@ mustBeEqual ${MATCHING_LINES} 1  31   "The generated SQL file is missing the hea
 # comes to the foreground) signals that it is
 # ready for import.
 #
+# Observed in Visual Studio Code 2023-11-23:
+#
+#   "The diff algorithm was stopped early (after 5000 ms.) [sic]"
+#
 startOfBuildStep "32" "Opening some web pages and applications for manual operations"
 
 # Open a web page for verification of push to GitHub
@@ -2776,7 +2781,7 @@ eval ${LFTP_COMMAND}  ; evaluateBuildResult 38 $? "copying the HTML word list to
 #
 # Note: This can fail if something went wrong with the previous
 #       update of the wordlist in production (as we presume
-#       particular word mappings to be present in the 
+#       particular word mappings to be present in the
 #       database)
 #
 # It is currently dependent on an external service,
