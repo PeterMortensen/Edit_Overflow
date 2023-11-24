@@ -16,7 +16,9 @@
         #'mysql:host=mysql19.unoeuro.com;dbname=pmortensen_eu_db',
 	    #'mysql:host=mysql19.simply.com;dbname=pmortensen_eu_db;charset=utf8',
         #$datebaseServer_BaseDomain = 'unoeuro.com';
-        $datebaseServer_BaseDomain = 'simply.com';
+        #$datebaseServer_BaseDomain = 'simply.com';
+        $datebaseServer_BaseDomain = 'localhost'; # So the build script works
+                                                  # without a network connection
 
         $datebaseName = 'pmortensen_eu_db';
 
