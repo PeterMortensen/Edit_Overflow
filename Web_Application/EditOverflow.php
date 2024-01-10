@@ -446,9 +446,9 @@
 
                 # Link, in MediaWiki format, internal (e.g., for Wikipedia)
                 #
-                # We preformat it in italics (two single quotes on Wikipeida)
+                # We preformat it in italics (two single quotes on Wikipedia)
                 # as we will often want to indicate it is literal (e.g.,
-                # on a talk page)-
+                # on a talk page).
                 #
                 $link_WikiMedia =
                     "''" .

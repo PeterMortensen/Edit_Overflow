@@ -287,9 +287,18 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
 
     # Helper function for testing. Mostly for _lookUp()
     #
-    def _checkEditSummary(self, aExpectedEditSummary, anExplanation):
+    def _checkEditSummary(self, anExpectedEditSummary, anExplanation):
 
-        self._core_checkFieldValue("editSummary_output", aExpectedEditSummary, anExplanation)
+        self._core_checkFieldValue("editSummary_output", anExpectedEditSummary, anExplanation)
+
+
+    # Helper function for testing. Mostly for _lookUp()
+    #
+    def _checkInternalMediaWikiLink(self, anExpectedLink, anExplanation):
+
+        self._core_checkFieldValue("URL6", anExpectedLink, anExplanation)
+
+
 
 
     # Helper function for testing
@@ -341,8 +350,9 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     #
     def _lookUp(self,
                 aLookUpTerm,
-                aExpectedEditSummary,
+                anExpectedEditSummary,
                 anExplanation,
+                anExpectedLink,
                 anAlternativeLinkText,
                 anAlternativeURL,
                 aWordListReferenceURL):
@@ -363,11 +373,15 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
 
         self._submitTerm(aLookUpTerm)
 
-        # For now, only regression test for the edit summary
-        # field. We ought to check the other output fields
-        # as well.
+        # Regression test for the edit summary field. We ought
+        # to check the other output fields as well.
         #
-        self._checkEditSummary(aExpectedEditSummary, anExplanation)
+        self._checkEditSummary(anExpectedEditSummary, anExplanation)
+
+        # Regression test for the result field "Link (MediaWiki)"
+        #
+        self._checkInternalMediaWikiLink(anExpectedLink, "Internal MediaWiki link")
+
 
         #time.sleep(3.0) # Not really necessary
 
@@ -497,7 +511,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                                    "is specified to be there.")
 
             else:
-                # The above covers theee combinations, thus
+                # The above covers three combinations, thus
                 # there is only one (invalid) one left.
 
                 # Or conversly, if it is specified to be empty, then
@@ -893,6 +907,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             self._lookUp("python",
                          firstRealLookup_editSummary,
                          defaultMsgForEditSummary,
+                         "''[[Python_%28programming_language%29|Python]]''",
                          "Python (tag wiki)",
                          #"http://localhost/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=python_")
                          altURLprefix + "python_",
@@ -907,6 +922,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             self._lookUp("PHP__Z",
                         firstRealLookup_editSummary,
                         'Changed edit summary for a failed Edit Overflow lookup',
+                        "",
                         "", "",
                         "") # Though in the browser it shows
                             # as the current page's URL...
@@ -916,10 +932,11 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             # Second direct lookup with a known
             # correct term (identity mapping)
             self._lookUp("until",
-                        'Active reading [<https://en.wikipedia.org/wiki/PHP> <https://en.wikipedia.org/wiki/Python_%28programming_language%29> <https://en.wiktionary.org/wiki/until#Conjunction>].',
-                        defaultMsgForEditSummary + 'for looking up a ***correct*** term',
-                        "", "",
-                        wordList_URLprefix + "until")
+                         'Active reading [<https://en.wikipedia.org/wiki/PHP> <https://en.wikipedia.org/wiki/Python_%28programming_language%29> <https://en.wiktionary.org/wiki/until#Conjunction>].',
+                         defaultMsgForEditSummary + 'for looking up a ***correct*** term',
+                         "''[[until#Conjunction|until]]''",
+                         "", "",
+                         wordList_URLprefix + "until")
 
         if True: # Test clearing the edit summary state (user controlled
                  # by checkbox "Reset lookup state")
@@ -934,6 +951,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             self._lookUp("php",
                          singleLookup_editSummary_PHP,
                          defaultMsgForEditSummary,
+                         "''[[PHP|PHP]]''",
                          "PHP (tag wiki)", altURLprefix + "php_",
                          wordList_URLprefix + "PHP")
 
@@ -948,6 +966,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             self._lookUp("PHP__Z",
                          singleLookup_editSummary_PHP,
                          defaultMsgForEditSummary,
+                         "",
                          "", "",
                          "") # Though in the browser it shows
                              # as the current page's URL...
@@ -958,6 +977,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             self._setCheckbox("resetState")
             self._lookUp("PHP__Z", "", defaultMsgForEditSummary,
                          "", "",
+                         "",
                          "") # Though in the browser it shows
                              # as the current page's URL...
 
@@ -973,6 +993,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             self._lookUp("*nix",
                          "Active reading [<https://en.wikipedia.org/wiki/Unix-like>].",
                          defaultMsgForEditSummary,
+                         "''[[Unix-like|Unix-like]]''",
                          "", "",
                          wordList_URLprefix + "Unix-like")
 
@@ -988,6 +1009,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             self._lookUp("SU",
                          "Active reading [<https://superuser.com/tour>].",
                          defaultMsgForEditSummary,
+                         "''Does not apply''",
                          "superuser",
                          altURLprefix + "Super%26nbsp%3BUser+%28Stack+Exchange+site%29_",
                            # Requires a weird mapping in the word list...
@@ -1010,6 +1032,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             self._lookUp("Microsoft Azure",
                          "Active reading [<https://en.wikipedia.org/wiki/Microsoft_Azure>].",
                          defaultMsgForEditSummary,
+                         "''[[Microsoft_Azure|Microsoft Azure]]''",
                          "Azure (tag wiki)",
                          altURLprefix + "Microsoft+Azure_", # "+" is for space in the
                                                             # URL query parameter
@@ -1028,6 +1051,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             self._lookUp("quite_",
                          "Active reading [<https://en.wiktionary.org/wiki/quite#Adverb>].",
                          defaultMsgForEditSummary,
+                         "''[[quite#Adverb|quite_]]''",
                          "quiet", altURLprefix + "quite",
                          wordList_URLprefix + "quite_")
 
@@ -1041,6 +1065,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             self._lookUp("c++",
                          "Active reading [<https://en.wikipedia.org/wiki/C%2B%2B>].",
                          defaultMsgForEditSummary,
+                         "''[[C%2B%2B|C++]]''",
                          "C++ (tag wiki)",
                          altURLprefix + "c%2B%2B_",
                          wordList_URLprefix + "C++")
