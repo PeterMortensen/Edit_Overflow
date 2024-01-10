@@ -69,7 +69,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.50a107 2024-01-09T200558Z+0";
+        return "Edit Overflow v. 1.1.50a108 2024-01-10T033509Z+0";
     }
 
 
@@ -629,8 +629,8 @@
         {
             # Note: We need to derive the link word (reference) from
             #       the URL instead of the correct term (as the
-            #       title on e.g. Wikipedia may not be the same
-            #       of the correct term).
+            #       title on, e.g., Wikipedia may not be the
+            #       same of the correct term).
 
             $replacer7 = new StringReplacerWithRegex($aURL);
 
@@ -647,7 +647,13 @@
             #
             #     '[[$1|' . $aCorrectTerm . ']]'
             #
+
+            # For (English) Wikipedia
             $replacer7->transform('https:\/\/en.wikipedia.org\/wiki\/(.*)', '[[$1|SENTINEL_ZZ]]');
+
+            # For (English) Wiktionary
+            $replacer7->transform('https:\/\/en.wiktionary.org\/wiki\/(.*)', '[[$1|SENTINEL_ZZ]]');
+
             $replacer7->transform('SENTINEL_ZZ', $aCorrectTerm);
 
             $linkStr = $replacer7->currentString();
