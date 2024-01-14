@@ -372,7 +372,8 @@
                     ```lang-xml,
                     ```lang-bash,
                     ```lang-typescript,
-                    ```lang-yaml
+                    ```lang-yaml,
+                    ```lang-kotlin
                     <br/>
                 <input
                     name="X31"
