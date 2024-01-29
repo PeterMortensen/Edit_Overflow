@@ -372,8 +372,8 @@
                     ```lang-xml,
                     ```lang-bash,
                     ```lang-typescript,
-                    ```lang-yaml,
-                    ```lang-kotlin
+                    ```lang-yaml, (Dockerfile)
+                    ```lang-kotlin (.kts)
                     <br/>
                 <input
                     name="X31"
