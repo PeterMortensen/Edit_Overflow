@@ -2784,6 +2784,12 @@ eval ${LFTP_COMMAND}  ; evaluateBuildResult 38 $? "copying the HTML word list to
 #       particular word mappings to be present in the
 #       database)
 #
+# Note: The first thing to try is to submit it manually from 
+#       a web browser. The URL for it is output to the
+#       screen
+#
+#
+#
 # It is currently dependent on an external service,
 # over the Internet. Some service failures:
 #
@@ -2815,12 +2821,12 @@ eval ${LFTP_COMMAND}  ; evaluateBuildResult 38 $? "copying the HTML word list to
 #
 #                      Somewhat later, all the small documents validated,
 #                      but extremely slowly (in a range on the order of
-#                      5 seconds - 40 seconds)  and validation on our
+#                      5 seconds - 40 seconds) and validation on our
 #                      5 MB HTML word list file hang for 50 minutes
 #                      before Ctrl + C...
 #
-#                      Even later, it also failed when submitted from a
-#                      web browser:
+#                      Even later, it also failed when submitted 
+#                      from a web browser:
 #
 #                          503 Service Unavailable
 #                          No server is available to handle this request.
@@ -2841,6 +2847,21 @@ eval ${LFTP_COMMAND}  ; evaluateBuildResult 38 $? "copying the HTML word list to
 #                     At line 491, column 66
 #
 #                     ?showsource=yes&doc=https%3A%2
+#
+#  2024-02-17T04:50  "failed (error code 1)"
+#
+#                    Due to a regular robot test:
+#
+#                      validator.w3.org
+#                      Verifying you are human. This may take a few seconds.
+#                      validator.w3.org needs to review the security 
+#                      of your connection before proceeding.
+#                      
+#                      Result:  
+#
+#                        validator.w3.org
+#                        Verification successful
+#                        Waiting for validator.w3.org to respond...
 #
 if [ ${DISABLE_HTMLVALIDATION} != 1 ]; then
     HTML_validation      EditOverflow.php                   "Edit Overflow lookup"    39
