@@ -2652,7 +2652,7 @@ rm $HTML_FILE
 #       2022-01-25: 3310553 bytes
 
 # Note: The same build number
-wordListExport 33 "HTML"  $HTML_FILE   5650000 6230000
+wordListExport 33 "HTML"  $HTML_FILE   5760000 6350000
 
 
 cp  $HTML_FILE  $HTML_FILE_GENERIC
@@ -2784,7 +2784,7 @@ eval ${LFTP_COMMAND}  ; evaluateBuildResult 38 $? "copying the HTML word list to
 #       particular word mappings to be present in the
 #       database)
 #
-# Note: The first thing to try is to submit it manually from 
+# Note: The first thing to try is to submit it manually from
 #       a web browser. The URL for it is output to the
 #       screen
 #
@@ -2825,7 +2825,7 @@ eval ${LFTP_COMMAND}  ; evaluateBuildResult 38 $? "copying the HTML word list to
 #                      5 MB HTML word list file hang for 50 minutes
 #                      before Ctrl + C...
 #
-#                      Even later, it also failed when submitted 
+#                      Even later, it also failed when submitted
 #                      from a web browser:
 #
 #                          503 Service Unavailable
@@ -2854,10 +2854,10 @@ eval ${LFTP_COMMAND}  ; evaluateBuildResult 38 $? "copying the HTML word list to
 #
 #                      validator.w3.org
 #                      Verifying you are human. This may take a few seconds.
-#                      validator.w3.org needs to review the security 
+#                      validator.w3.org needs to review the security
 #                      of your connection before proceeding.
-#                      
-#                      Result:  
+#
+#                      Result:
 #
 #                        validator.w3.org
 #                        Verification successful
