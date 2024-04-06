@@ -241,6 +241,16 @@
 
             $pdo = connectToDatabase();
 
+            # Some filtering of the lookup term, leading and
+            # trailing characters.
+            #
+            # For now, only whitespace. But to match the
+            # Windows application it should also exclude
+            # punctuation from the lookup (but retain
+            # it in the output)
+            #
+            $lookUpTerm = trim($lookUpTerm);
+
             # Primary lookup
             [$incorrectTerm, $correctTerm, $URL] =
                 lookup($pdo, $lookUpTerm);
