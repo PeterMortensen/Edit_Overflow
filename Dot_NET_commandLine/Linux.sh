@@ -2591,7 +2591,7 @@ cat '/home/mortensen/UserProf/At_PC2016/_Incorporated_files/Header_EditOverflow_
 #       2022-01-25: 5374604 bytes
 
 # Note: The same build number
-wordListExport 31 "SQL" $SQL_FILE 9220000 10130000
+wordListExport 31 "SQL" $SQL_FILE 9400000 10330000
 
 # Note: The same build number
 export MATCHING_LINES=`grep -c 'DROP TABLE EditOverflow'  ${SQL_FILE}`
@@ -2652,7 +2652,7 @@ rm $HTML_FILE
 #       2022-01-25: 3310553 bytes
 
 # Note: The same build number
-wordListExport 33 "HTML"  $HTML_FILE   5760000 6350000
+wordListExport 33 "HTML"  $HTML_FILE   5880000 6480000
 
 
 cp  $HTML_FILE  $HTML_FILE_GENERIC
