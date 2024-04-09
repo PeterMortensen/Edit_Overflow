@@ -472,10 +472,24 @@
                     "''"
                     ;
 
+                $RedditEditInstructions_Markdown =
+                  "*\"...\"* (to the right of *\"Share\"*) &rarr; " .
+                  "*\"Edit comment\"*";
+
+                # $correctionComment_Quora =
+                #   "It is \"" . $correctTerm . "\" (not \"" .
+                #   $lookUpTerm . "\"). See e.g.: " . $URL .
+                #   ". You can edit your question/comment/answer/post.";
+                $correctionComment_Markdown =
+                  "It is *\"[" . $correctTerm . "](" . $URL .
+                  ")\"* " .
+                  "(not *\"" . $lookUpTerm . "\"*). " .
+                  "You can edit (change) your question/comment/answer/post";
+
+                # Isolation from the rest
                 $correctionComment =
-                  "It is \"" . $correctTerm . "\" (not \"" .
-                  $lookUpTerm . "\"). See e.g.: " . $URL .
-                  ". You can edit your question/comment/answer/post.";
+                    $correctionComment_Markdown .
+                    " (" . $RedditEditInstructions_Markdown . ").";
 
                 # Cross reference to the word list (in HTML format)
                 # in the result, with a page anchor
