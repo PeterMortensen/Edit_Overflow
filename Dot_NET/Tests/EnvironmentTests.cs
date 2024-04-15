@@ -56,7 +56,7 @@ namespace OverflowHelper.Tests
             // Ensure we are actually running the expected version. But what
             // is actually our intent here? Why do we have this test?
 
-            string presumedNewest = "1.1.50a205";
+            string presumedNewest = "1.1.50a206";
 
             {
                 // For the main application
