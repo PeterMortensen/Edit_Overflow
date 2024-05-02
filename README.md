@@ -254,12 +254,12 @@ or constructive critisism are welcome.
 
   [50]: https://en.wikipedia.org/wiki/AutoIt
   [51]: https://en.wikipedia.org/wiki/PuTTY
-  [52]: http://amforth.sourceforge.net/
+  [52]: https://amforth.sourceforge.net/
 
-  [136]: http://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_2019-11-01.html
-  [135]: http://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_2019-07-27.html
-  [134]: http://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_2019-03-30.html
+  [136]: https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_2019-11-01.html
+  [135]: https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_2019-07-27.html
+  [134]: https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_2019-03-30.html
 
-  [150]: http://pmortensen.eu/world/EditOverflow1.html
+  [150]: https://pmortensen.eu/world/EditOverflow1.html
 
   [201]: https://github.com/PeterMortensen/Edit_Overflow/issues/1
