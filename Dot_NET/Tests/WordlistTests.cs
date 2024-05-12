@@ -204,6 +204,7 @@ namespace OverflowHelper.Tests
                     93 - 93 +
                     2 +
                     7 +
+                    3 +
                     0,
                 len,
                 "XYZ");
@@ -256,6 +257,7 @@ namespace OverflowHelper.Tests
             //    +7 For making the code checking headline compatible
             //       with the keyboard shortcut on the fixed string
             //       page...
+            //    +3 For changing three links to use HTTPS...
 
             Assert.AreEqual(Wordlist_HTML.IndexOf("\t"), -1, "XYZ"); // Detect
             // any TABs...
@@ -474,6 +476,7 @@ namespace OverflowHelper.Tests
                     2 +
                     7 +
                     13 +
+                    3 +
                     0,
                 len,
                 "XYZ");
@@ -512,7 +515,8 @@ namespace OverflowHelper.Tests
             //    +7 For making the code checking headline compatible
             //       with the keyboard shortcut on the fixed string
             //       page...
-            //    +13 For temporary extra output for count of misspellings
+            //   +13 For temporary extra output for count of misspellings
+            //    +3 For changing three links to use HTTPS...
 
             Assert.AreEqual(Wordlist_HTML.IndexOf("\t"), -1, "XYZ"); // Detect
             // any TABs...

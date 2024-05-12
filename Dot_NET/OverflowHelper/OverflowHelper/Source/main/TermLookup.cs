@@ -1504,19 +1504,19 @@ namespace OverflowHelper.core
             }
 
             aInOutBuilder.addContentWithEmptyLine(
-                "<a href=\"http://pmortensen.eu/world/EditOverflow1.html\">" +
+                "<a href=\"https://pmortensen.eu/world/EditOverflow1.html\">" +
                 "Edit Overflow for Web</a>"
             );
 
             aInOutBuilder.addContentWithEmptyLine(
-                "<a href=\"http://validator.w3.org/check?uri=" +
+                "<a href=\"https://validator.w3.org/check?uri=" +
                 presumedURL +
                 "&amp;charset=utf-8\">" +
                 "HTML validation</a>"
             );
 
             aInOutBuilder.addContentWithEmptyLine(
-                "<a href=\"http://pmortensen.eu/\">" +
+                "<a href=\"https://pmortensen.eu/\">" +
                 "Back to Edit Overflow page</a>"
             );
 
