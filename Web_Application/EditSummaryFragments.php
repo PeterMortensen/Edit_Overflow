@@ -308,7 +308,7 @@
             <p>Spelling of Stack Overflow, Stack&nbsp;Exchange,
                 and other Stack&nbsp;Exchange sites, etc.
                 No matter how it looks in a logo,
-                <a href="http://stackoverflow.com/legal/trademark-guidance"
+                <a href="https://policies.stackoverflow.co/company/trademark-guidance/#h1-2de2438a74fa0"
                 >it is "Stack&nbsp;Overflow" and "Stack&nbsp;Exchange"</a>
                 (the last section -
                 <em>"Proper Use of the Stack Exchange Name"</em>).
@@ -329,7 +329,7 @@
                     type="text"
                     id="X28"
                     class="X28"
-                    value="<http://stackoverflow.com/legal/trademark-guidance> (the last section) "
+                    value="<https://policies.stackoverflow.co/company/trademark-guidance/#h1-2de2438a74fa0> (the last section) "
                     style="width:500px;"
                     accesskey=""
                     title=""
@@ -344,7 +344,7 @@
                     type="text"
                     id="X29"
                     class="X29"
-                    value="More affirmative answer (this is not a forum - see e.g. <http://meta.stackexchange.com/a/92115>. It is a think tank (see <http://meta.stackoverflow.com/a/325681>). "
+                    value="More affirmative answer (this is not a forum - see e.g. <https://meta.stackexchange.com/a/92115>. It is a think tank (see <https://meta.stackoverflow.com/a/325681>). "
                     style="width:1120px;"
                     accesskey=""
                     title=""
@@ -523,7 +523,7 @@
             </p>
 
             <p>US native speakers, especially southern US,
-                <a href="http://www.wikihow.com/Use-Where,-Were-and-We're"
+                <a href="https://www.wikihow.com/Use-Where,-Were-and-We're"
                 >&quot;where&quot; vs.
                 &quot;were&quot;vs.
                 &quot;we're&quot;</a>: <br/>
@@ -532,7 +532,7 @@
                     type="text"
                     id="X30"
                     class="X30"
-                    value="<http://www.wikihow.com/Use-Where,-Were-and-We're> "
+                    value="<https://www.wikihow.com/Use-Where,-Were-and-We're> "
                     style="width:380px;"
                     accesskey=""
                     title=""

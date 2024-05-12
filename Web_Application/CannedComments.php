@@ -85,7 +85,7 @@
             <p><u>S</u>pelling of Stack Overflow, Stack&nbsp;Exchange,
                 and other Stack&nbsp;Exchange sites, etc.
                 No matter how it looks in a logo,
-                <a href="http://stackoverflow.com/legal/trademark-guidance"
+                <a href="https://policies.stackoverflow.co/company/trademark-guidance/#h1-2de2438a74fa0"
                 >it is "Stack&nbsp;Overflow" and "Stack&nbsp;Exchange"</a>
                 (the last section -
                 <em>"Proper Use of the Stack Exchange Name"</em>).
@@ -106,7 +106,7 @@
                     type="text"
                     id="X28"
                     class="X28"
-                    value="It is *&quot;Stack&nbsp;Overflow&quot;* and *&quot;Stack&nbsp;Exchange&quot;*, not *&quot;StackOverflow&quot;* and *&quot;StackExchange&quot;* (see e.g. [this official page](http://stackoverflow.com/legal/trademark-guidance) (the very last section, near &quot;As a name&quot;)). "
+                    value="It is *&quot;Stack&nbsp;Overflow&quot;* and *&quot;Stack&nbsp;Exchange&quot;*, not *&quot;StackOverflow&quot;* and *&quot;StackExchange&quot;* (see e.g. [this official page](https://policies.stackoverflow.co/company/trademark-guidance/#h1-2de2438a74fa0) (the very last section, near &quot;As a name&quot;)). "
                     style="width:830px;"
                     accesskey="S"
                     title="Shortcut: Shift + Alt + S"
@@ -163,7 +163,7 @@
                     type="text"
                     id="X31"
                     class="X31"
-                    value="[Stack Overflow is not a forum](http://meta.stackexchange.com/a/92115). It is a [think tank](http://meta.stackoverflow.com/a/325681). "
+                    value="[Stack Overflow is not a forum](https://meta.stackexchange.com/a/92115). It is a [think tank](https://meta.stackoverflow.com/a/325681). "
                     style="width:830px;"
                     accesskey="F"
                     title="Shortcut: Shift + Alt + F"

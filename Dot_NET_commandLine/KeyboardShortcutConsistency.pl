@@ -1,7 +1,6 @@
 #!perl
 #!/usr/bin/perl
 
-
 #############################################################################
 #                                                                           #
 # Copyright 2021     Peter Mortensen                                        #
@@ -11,6 +10,7 @@
 #           Overflow for Web:                                               #
 #                                                                           #
 #             1. Conflicting (double) keyboard shortcuts                    #
+#                                                                           #
 #             2. Inconsistency between tooltip text (with                   #
 #                information about what the shortcut is)                    #
 #                and the actual keyboard shortcut                           #
@@ -73,6 +73,8 @@
 #                          caused by changed PHP source that has a          #
 #                          a hardcoded exception in this script.            #
 #                                                                           #
+#             2024-05-11   Now insists on HTTPS links.                      #
+#                                                                           #
 #############################################################################
 
 # Future:
@@ -91,8 +93,6 @@
 #        class="XYZ32"
 #
 #   3. XXXX
-#
-
 
 
 use strict;
@@ -194,17 +194,16 @@ my $value = $kValuePreset; # "value" is the HTML form attribute
                            # name for the actual content of the
                            # HTML form element.
 
-# This is the indicated keyboard in the ***label*** for the
-# form element, by ***our own convention***, single letter
-# wrapped in underline, "<u></u>".
+# This is the indicated keyboard shortcut in
+# the ***label*** for the form element,
+# by ***our own convention***, single
+# letter wrapped in underline, "<u></u>".
 my $indicatedKeyboardShortcut = $kValuePreset;
 
 my $formLabelText             = $kValuePreset;
 
 # In "<a>" - that also can have a keyboard shortcut
 my $hrefAttribute             = $kValuePreset;
-
-
 
 
 my %accesskeys = ();
@@ -218,7 +217,8 @@ my $proceedWithMainProcessing = 1; # Default
 
 if (! $filename)
 {
-    # While making it less flexible, it also prevent some user errors.
+    # While making it less flexible, it
+    # also prevents some user errors.
     print "This script should be invoked with an actual file... " .
           "(standard input is not supported)\n\n";
 
@@ -270,6 +270,7 @@ if ($proceedWithMainProcessing)
         #print "Uneven: $leadingSpaces leading spaces - >>>$currentlLine<<<\n\n"
         #  if $hasUnevenSpaces;
 
+        # That is the indentation check...
         if ($hasUnevenSpaces)
         {
             print
@@ -281,8 +282,59 @@ if ($proceedWithMainProcessing)
             $errors++; # Some redundancy here...
         }
 
-        # Check for escape of double
-        # quotes in HTML form elements.
+        # Insist on HTTPS links
+        if (/http:\/\//) # Blind match, independent of context.
+                         # We can always add exceptions
+        {
+            # Some exceptions for now. They may not all
+            # be necessary, but for now we are only
+            # interested in user-facing URLs.
+            #
+            if (! (
+                    # In PHP comments
+                    (/^\s*\#/)                            || 
+
+                    # In test code 
+                    (/test_transformFor_YouTubeComments/) ||
+
+                    # Also test_transformFor_YouTubeComments(), 
+                    # but on a separate line.
+                    (/Neomi/) ||
+                    
+                    # For now, suppress the word list URLs
+                    #
+                    # Sample line:
+                    #
+                    #   <tr> <td><div id="ADK"></div>adk</td><td>ADK (1)</td><td>http://developer.android.com/guide/topics/usb/adk.html</td> </tr>
+                    #
+                    # We presume these table-related HTML tags are
+                    # not in other files that are checked.
+                    #
+                    (/<\/td> <\/tr>/) ||
+
+                    0
+                  )
+               )  
+            {
+                # Limit the error output, but still count
+                # the total number of errors
+                #                
+                if ($errors <= 20)
+                {
+                    print
+                      "\nError: HTTP link " .
+                      "on line $line. " .
+                      "\n\n";
+                }
+
+                $exitCode = 12;
+                $errors++; # Some redundancy here...
+            }
+        }
+
+
+        # Check for escape of double quotes
+        # in HTML form elements.
         #
         if (/value=\"/ || 0) # Guard for HTML form text input fields.
                              # But we could just use the unconditional
@@ -610,7 +662,6 @@ if ($proceedWithMainProcessing)
 
                         } # Not an exception
                     } # Check for indicated keyboard shortcut in the text
-
                 }
                 else
                 {
@@ -751,14 +802,13 @@ if ($proceedWithMainProcessing)
               "count ($shortcuts)\n\n";
             $exitCode = 100 + 2;
         }
-
     }
-
 } #An actual file name (and existing file) was provided in the script invocation
 
 if ($exitCode != 0)
 {
-    # As the reason for the error(s) may be obscured by some other output.
+    # As the reason for the error(s) may be
+    # obscured by some other output.
     print
       "\n\n$errors errors detected. Review the beginning of the output " .
       "(as the error information may or may be obscured by other output). \n\n";
