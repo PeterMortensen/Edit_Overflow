@@ -822,10 +822,11 @@ function createFolder()
 # Run a Perl script (currently "/Dot_NET_commandLine/KeyboardShortcutConsistency.pl")
 # on the indicated PHP source code and check:
 #
-#   1. Consistency between the shortcut key and the corresponding
-#      help text for it.
+#   1. Consistency between the shortcut key and 
+#      the corresponding help text for it.
 #
-#   2. Consistency of name, ID, etc. on a number of forms elements.
+#   2. Consistency of name, ID, etc. on a number 
+#      of forms elements.
 #
 #   3. Some rules regarding indentation.
 #
@@ -1603,7 +1604,7 @@ function wordListExport()
 #
 # Some rudimentary spell checking. Mostly designed to
 # catch the most frequent ones, like "paramter". We
-# don't want to make it comprehensible as it will
+# don't want to make it comprehensive as it will
 # probably result in false positives.
 #
 # Presumes the top of the source folder (e.g.,
@@ -1617,8 +1618,10 @@ function wordListExport()
 #
 #   1. More words
 #
-#   2. Perhaps use the source folder, so we are not misled to where
-#      correct (it should not be done to files in the work folder...)
+#   2. Perhaps use the source folder, so we are not 
+#      misled as to where correct the mistakes (it 
+#      should not be done to files in the work 
+#      folder...)
 #
 function sourceSpellcheck()
 {
@@ -2652,7 +2655,7 @@ rm $HTML_FILE
 #       2022-01-25: 3310553 bytes
 
 # Note: The same build number
-wordListExport 33 "HTML"  $HTML_FILE   6000000 6610000
+wordListExport 33 "HTML"  $HTML_FILE   6120000 6740000
 
 
 cp  $HTML_FILE  $HTML_FILE_GENERIC
