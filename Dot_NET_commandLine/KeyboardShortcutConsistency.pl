@@ -121,6 +121,8 @@ my $errors = 0; # For statistics
 
 my %assignedKeyboardShortcut = ();
 
+my %HTTP_URLs = ();
+
 
 # We only use the key in this hash
 my %keyboardShortcutSet =
@@ -292,16 +294,17 @@ if ($proceedWithMainProcessing)
             #
             if (! (
                     # In PHP comments
-                    (/^\s*\#/)                            || 
+                    (/^\s*\#/)                            ||
 
-                    # In test code 
+                    # In test code
                     (/test_transformFor_YouTubeComments/) ||
 
-                    # Also test_transformFor_YouTubeComments(), 
+                    # Also test_transformFor_YouTubeComments(),
                     # but on a separate line.
                     (/Neomi/) ||
-                    
-                    # For now, suppress the word list URLs
+
+                    # Optionally (e.g., outcomment to get a report
+                    # of URLs), suppress the word list URLs
                     #
                     # Sample line:
                     #
@@ -314,23 +317,45 @@ if ($proceedWithMainProcessing)
 
                     0
                   )
-               )  
+               )
             {
-                # Limit the error output, but still count
-                # the total number of errors
-                #                
-                if ($errors <= 20)
-                {
-                    print
-                      "\nError: HTTP link " .
-                      "on line $line. " .
-                      "\n\n";
-                }
-
                 $exitCode = 12;
                 $errors++; # Some redundancy here...
-            }
-        }
+
+                # Try to extract the URL (this currently only
+                # works for the URLs in the HTML export)
+                #
+                # Sample:
+                #
+                #   <tr> <td><div id="ADK"></div>adk</td><td>ADK (1)</td><td>http://developer.android.com/guide/topics/usb/adk.html</td> </tr>
+                #
+                # Note: ".*?" is the non-greedy version of ".*"
+                #
+                my $URL = "";
+                #if (/<\/td><td>(.*?)<\/td> <\/tr>$/)
+                if (/<\/td><td>([^<]+)<\/td> <\/tr>$/)
+                {
+                    $URL = $1;
+                    
+                    $HTTP_URLs{$URL}++;
+                }
+
+                # Optionally limit the error output, but
+                # still count the total number of errors
+                #
+                if ($errors <= 5 ||
+                   0  # We may want a report, with the
+                      # list of HTTP URLs
+                   )
+                {
+                    print
+                      "\nError $errors: HTTP link " .
+                      "on line $line. " .
+                      "URL: $URL";
+
+                } # Optional error output
+            } # Not an exception
+        } # HTTP link detected
 
 
         # Check for escape of double quotes
@@ -812,6 +837,22 @@ if ($exitCode != 0)
     print
       "\n\n$errors errors detected. Review the beginning of the output " .
       "(as the error information may or may be obscured by other output). \n\n";
+    
+    # Output HTTP URLs. (Is this the right place? Should it be above?)
+    #
+    my $HTTPcount = 0;
+    foreach (sort keys %HTTP_URLs)
+    {
+        my $URL = $_;
+        my $nonUniqueCount = $HTTP_URLs{$URL};
+        $HTTPcount++;
+                        
+        print "HTTP URL $HTTPcount ($nonUniqueCount): $URL\n";
+
+        #print "Key: $key\n";
+        #print "Value: >>>$value<<<\n";
+    }
+
 }
 
 exit $exitCode;
