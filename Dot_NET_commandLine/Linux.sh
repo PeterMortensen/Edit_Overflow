@@ -822,10 +822,10 @@ function createFolder()
 # Run a Perl script (currently "/Dot_NET_commandLine/KeyboardShortcutConsistency.pl")
 # on the indicated PHP source code and check:
 #
-#   1. Consistency between the shortcut key and 
+#   1. Consistency between the shortcut key and
 #      the corresponding help text for it.
 #
-#   2. Consistency of name, ID, etc. on a number 
+#   2. Consistency of name, ID, etc. on a number
 #      of forms elements.
 #
 #   3. Some rules regarding indentation.
@@ -1618,9 +1618,9 @@ function wordListExport()
 #
 #   1. More words
 #
-#   2. Perhaps use the source folder, so we are not 
-#      misled as to where correct the mistakes (it 
-#      should not be done to files in the work 
+#   2. Perhaps use the source folder, so we are not
+#      misled as to where correct the mistakes (it
+#      should not be done to files in the work
 #      folder...)
 #
 function sourceSpellcheck()
