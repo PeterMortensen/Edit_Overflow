@@ -2866,6 +2866,8 @@ eval ${LFTP_COMMAND}  ; evaluateBuildResult 38 $? "copying the HTML word list to
 #                        Verification successful
 #                        Waiting for validator.w3.org to respond...
 #
+#                    Internal IDs: ID 12749, 
+#
 if [ ${DISABLE_HTMLVALIDATION} != 1 ]; then
     HTML_validation      EditOverflow.php                   "Edit Overflow lookup"    39
     HTML_validation      Text.php                           "Text stuff"              40
