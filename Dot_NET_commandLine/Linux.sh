@@ -2115,6 +2115,11 @@ checkCommand "nvm --version" "${prefix1} nvm ${prefix2}\n# Note: Without 'sudo'!
 # on Ubuntu 18.04, but it was possible to
 # use 'nvm' to overcome it.
 #
+# Note: It will also fail without a working Internet
+#       connection. Why should just "jest --version"
+#       require an Internet connection????
+#       The error code is 127.
+#
 # Installation of the prerequisite ***sufficient high*** version
 # of Node.js on Ubuntu 18.04 (using nvm):
 #
