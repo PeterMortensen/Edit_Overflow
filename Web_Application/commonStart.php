@@ -5,7 +5,7 @@
     #
     #   1. This file doesn't output anything (to standard output) by
     #      itself (though it does execute some code (command-line
-    #      argument parsing for use locally for testng, defining
+    #      argument parsing for use locally for testing, defining
     #      some constants, and setting up some globals used for
     #      error detection/logging)).
     #
@@ -69,7 +69,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.50a285 2024-06-01T165044Z+0";
+        return "Edit Overflow v. 1.1.50a286 2024-06-02T214047Z+0";
     }
 
 

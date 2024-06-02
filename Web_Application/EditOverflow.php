@@ -261,6 +261,219 @@
             $lookUpTerm_stripped = rtrim($lookUpTerm, "_");
             $lookUpTerm_inMainWordSet = $lookUpTerm_stripped === $lookUpTerm;
 
+            $alternative2 = "";
+
+            # ===========================================================================
+            # =                                                                         =
+            # =    Generalised look up in alternative word lists                        =
+            # =                                                                         =
+            # ===========================================================================
+            if (1)
+            {
+                # Strategy: Progressively, search using the current
+                #           words in all word sets. Any found words
+                #           are used as new input. And so on.
+                #
+                #           Stop when the number of iterations have reached
+                #           some limit (should not normally happen). Or if
+                #           the number of current words haven't changed
+                #           after a sweep through the word sets (all
+                #           'word paths' have been followed).
+
+                # First seed: the lookup word (often a misspelling)
+                #
+                # Note: The past tense "looked" is somewhat
+                #       a misnomer during execution. We both
+                #       have words that have been looked up
+                #       and words haven't (yet).
+                #
+                $lookedUpWords[$lookUpTerm] = $URL;
+
+                $linkID = 1002; # Expected by our Selenium regression test
+                                # It is an arbitrary number, but it must
+                                # coordinated with the test.
+                $iterations = 0;
+                $done = 0;
+                while (!$done)
+                {
+                    $oldSize = count($lookedUpWords);
+
+                    # Note: It could be more efficient (it is potentially
+                    #       a Shlemiel the painter’s algorithm). Though
+                    #       in most cases there will only be one iteration. 
+                    #
+                    #       We repeat lookups (that we don't need to).
+                    #
+                    foreach ($lookedUpWords as $someWord => $value)
+                    {
+                        #echo "(Test: " . $someWord . ") ";
+
+                        $wordSets = 3;
+                        $postFix = "";
+
+                        # Note: For the search, we use the base form, without
+                        #       the underscores. We then construct the
+                        #       lookup terms by appending underscores.
+                        #
+                        #       Whereas in "$lookedUpWords" we keep the
+                        #       actual lookup terms (they need to be
+                        #       distinct between the word sets).
+                        #
+                        $someWord_stripped = rtrim($someWord, "_");
+
+                        # Inner loop, checking each word set
+                        for ($i = 0; $i < $wordSets; $i++)
+                        {
+                            #Delete at any time
+                            #if (!isset($value[$array_total[$i]]))
+                            #{
+                            #    $value[$array_total[$i]] = 0;
+                            #}
+                            #$a = $value[$array_total[$i]]++;
+
+                            $someLookUpTerm = $someWord_stripped . $postFix;
+
+                            #Delete at any time
+                            #if ($lookUpTerm === $someLookUpTerm)
+                            #{
+                            #
+                            #}
+
+                            [$someIncorrectTerm, $someCorrectTerm, $someURL] =
+                                lookup($pdo, $someLookUpTerm);
+
+                            if ($someCorrectTerm)
+                            {
+                                # Something was found
+
+                                # Record the first match, in case the primary
+                                # lookup did not give a result.
+                                #
+                                # In effect: Transparently use some other (often
+                                # the alternative) word set if the primary
+                                # lookup fails (e.g., seemless lookup when
+                                # blindly using a macro keyboard).
+                                #
+                                #Use some kind of indication it was found in the
+                                #alternative word set?
+                                #
+                                if (! $correctTerm)
+                                {
+                                    #Later: use stripTrailingUnderscore()
+                                    $correctTerm = $someCorrectTerm;
+
+                                    $URL = $someURL;
+                                }
+
+                                #Delete at any time
+                                ## We only the base form in our hash
+                                ## (we iterate through the word sets
+                                ## based on it and check for hits).
+                                #$someCorrectTerm_stripped =
+                                #    rtrim($someCorrectTerm, "_");
+
+                                if (array_key_exists($someCorrectTerm,
+                                                      $lookedUpWords))
+                                {
+                                    # We already have it.
+
+                                    # But we also need to fill in the URL
+                                    $lookedUpWords[$someCorrectTerm] = $someURL;
+                                }
+                                else
+                                {
+                                    if ($someIncorrectTerm === $someCorrectTerm)
+                                    {
+                                        # It was found, but the input was
+                                        # already a correct word.
+                                        #
+                                        # However, we still want to look it
+                                        # up as an incorrect word in the
+                                        # other word sets.
+                                        #
+                                        # Example:
+                                        #
+                                        #   XXXX
+                                        #
+                                        $lookedUpWords[$someCorrectTerm] = 1;
+                                    }
+                                    else
+                                    {
+                                        # If we got a new (correct) word,
+                                        # schedule it for lookup (as an
+                                        # incorrect word in another
+                                        # word set)
+
+                                        # '1': A placeholder. The URL is not
+                                        # known until the lookup has been
+                                        # performed
+                                        $lookedUpWords[$someCorrectTerm] = 1;
+
+                                    } # Input is not a correct word
+
+                                    # For output to the result page:
+                                    # Add to alternatives.
+                                    if (1)
+                                    {
+                                        # Should we use $someCorrectTerm_stripped
+                                        # here??
+
+                                        if ($someCorrectTerm !== $correctTerm)
+                                        {
+                                            # For debugging only
+                                            #$temp2 = "<br/> AT iteration $iterations: ";
+                                            #$temp2 = "<br/>$iterations: ";
+                                            $temp2 = "";
+
+                                            if ($alternative2)
+                                            {
+                                                $alternative2 .= " and ";
+                                            }
+
+                                            $alternative2 .=
+                                                $temp2 .
+                                                alternativeLink(
+                                                    $someIncorrectTerm,
+                                                    $someCorrectTerm,
+                                                    $linkID,
+                                                    extractGrammaticalWordClass($someURL));
+
+                                            $linkID++;
+                                        }
+                                    } # Block
+
+                                } # A new word?
+
+                            } # A database lookup hit
+
+                            $postFix .= "_";
+                        } # Searching for hits in other word sets.
+
+                    } # Through $lookedUpWords
+
+                    # Any new hits for words, going through all
+                    # the word sets?
+                    if (count($lookedUpWords) === $oldSize)
+                    {
+                        # No. We are done.
+                        $done = 1;
+                    }
+
+                    # Mostly to detect and prevent an infinite
+                    # loop. Normally it would exit by other
+                    # means
+                    $iterations++;
+                    #echo " XXX iteration: $iterations YYY ";
+                    if ($iterations > 20)
+                    {
+                        $done = 1;
+                    }
+                } # Iterating (outer) loop to find alternatives in other
+                  # word lists (indeterminate; it depends on the
+                  # content of the word list)
+            } # Block: Generalised look up in alternative word lists
+
+
             if ($lookUpTerm_inMainWordSet)
             {
                 $incorrectWordInTheOtherWordSet =  $lookUpTerm . "_";
@@ -300,20 +513,25 @@
             [$incorrectTerm3, $correctTerm3, $URL3] =
                 lookup($pdo, $correctWordInTheOtherWordSet);
 
-            # Transparently use the other (often the alternative)
-            # word set if the primary lookup fails (e.g.,
-            # seemless lookup when blindly using a
-            # macro keyboard).
-            #
-            #Use some kind of indication it was found in the
-            #alternative word set?
-            #
-            if (! $correctTerm)
+            if (1)  # No longer needed. We now have something
+                    # similar in the generalised part
             {
-                #Later: use stripTrailingUnderscore()
-                $correctTerm = $correctTerm2;
+                # Transparently use the other (often the alternative)
+                # word set if the primary lookup fails (e.g.,
+                # seemless lookup when blindly using a
+                # macro keyboard).
+                #
+                #Use some kind of indication it was found in the
+                #alternative word set?
+                #
+                if (! $correctTerm)
+                {
+                    #Later: use stripTrailingUnderscore()
+                    $correctTerm = $correctTerm2;
+                    #$correctTerm = $correctTerm2 . "XXXXXXXXXXXXXXXXXX"; // Will break the Selenium integration test...
 
-                $URL = $URL2;
+                    $URL = $URL2;
+                }
             }
 
             #echo "\n\nEffective correct term: $correctTerm \n\n\n\n";
@@ -374,6 +592,9 @@
                                     1003,
                                     extractGrammaticalWordClass($URL3));
             }
+
+            #$alternative .= "<br><br>TRACE: " . $alternative2; # For now. For debugging.
+            $alternative = $alternative2;
 
             # Encode for display, e.g. "&" as "&amp;" and "<" as "&lt;".
             #
@@ -525,7 +746,7 @@
                   "https://pmortensen.eu/" .
                   "EditOverflow/_Wordlist/EditOverflowList_latest.html" .
                   "#$WordListPageAnchor";
-            } //Term lokup succeeded
+            } //Term lookup succeeded
 
 
             $items = preg_split('/____/', $URLlist_encoded);
