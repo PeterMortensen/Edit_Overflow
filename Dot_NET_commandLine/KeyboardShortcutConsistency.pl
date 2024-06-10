@@ -75,6 +75,15 @@
 #                                                                           #
 #             2024-05-11   Now insists on HTTPS links.                      #
 #                                                                           #
+#             2024-06-10   Refinement of detecting HTTP links, e.g.,        #
+#                          avoiding some false positives.                   #
+#                                                                           #
+#                          Added exceptions for the remaining 11            #
+#                          HTTP-only links in the word list. And            #
+#                          we now effectively have detection of             #
+#                          new HTTP links in the build script               #
+#                          (that calls this script).                        #
+#                                                                           #
 #############################################################################
 
 # Future:
@@ -288,6 +297,47 @@ if ($proceedWithMainProcessing)
         if (/http:\/\//) # Blind match, independent of context.
                          # We can always add exceptions
         {
+            # In the HTML word list
+            my $URL = "";
+            my $isA_RealHTTP_link = 1;
+            if (/<\/td> <\/tr>/)
+            {
+                # For reporting purposes, try to extract the URL
+                # (this currently only works for the URLs in
+                # the HTML export).
+                #
+                # But also want to detect false positives from
+                # embedded URLs in the Wayback Machine.
+                #
+                # Sample:
+                #
+                #   <tr> <td><div id="ADK"></div>adk</td><td>ADK (1)</td><td>http://developer.android.com/guide/topics/usb/adk.html</td> </tr>
+                #
+                # Note: ".*?" is the non-greedy version of ".*"
+                #
+                #if (/<\/td><td>(.*?)<\/td> <\/tr>$/)
+                if (/<\/td><td>([^<]+)<\/td> <\/tr>$/)
+                {
+                    $URL = $1;
+
+                    # We insist they must start with "http://".
+                    # This is a way to avoid false positives
+                    # in Wayback Machine URLs. Example:
+                    #
+                    #     https://web.archive.org/web/20100426125115/http://www.mattmcdole.com/boat/
+                    #
+                    if ($URL =~ /^http:\/\//)
+                    {
+                        # Only unique URLs
+                        $HTTP_URLs{$URL}++;
+                    }
+                    else
+                    {
+                        $isA_RealHTTP_link = 0;
+                    }
+                }
+            }
+
             # Some exceptions for now. They may not all
             # be necessary, but for now we are only
             # interested in user-facing URLs.
@@ -296,7 +346,7 @@ if ($proceedWithMainProcessing)
                     # In PHP comments
                     (/^\s*\#/)                            ||
 
-                    # In test code
+                    # In PHP test code
                     (/test_transformFor_YouTubeComments/) ||
 
                     # Also test_transformFor_YouTubeComments(),
@@ -313,7 +363,29 @@ if ($proceedWithMainProcessing)
                     # We presume these table-related HTML tags are
                     # not in other files that are checked.
                     #
-                    (/<\/td> <\/tr>/) ||
+                    #(/<\/td> <\/tr>/) ||    # Outcomment to get a report
+
+                    (! $isA_RealHTTP_link) ||
+
+                    # List of URLs for which HTTPS does not
+                    # work, only HTTP (11 in the current
+                    # word list (0.06%)).
+                    #
+                    # A typical error is:
+                    #
+                    #   Error code: SSL_ERROR_BAD_CERT_DOMAIN
+                    #
+                    ($URL eq 'http://blog.markturansky.com/BetterJavascriptTemplates.html')                                                                   ||  #  1
+                    ($URL eq 'http://php-cli.com/')                                                                                                           ||  #  2
+                    ($URL eq 'http://structuremap.net/structuremap/')                                                                                         ||  #  3
+                    ($URL eq 'http://tflearn.org/')                                                                                                           ||  #  4
+                    ($URL eq 'http://vger.kernel.org/~davem/skb.html')                                                                                        ||  #  5
+                    ($URL eq 'http://www.catb.org/jargon/html/B/bullschildt.html')                                                                            ||  #  6
+                    ($URL eq 'http://www.cburch.com/logisim/')                                                                                                ||  #  7
+                    ($URL eq 'http://www.minimak.org/')                                                                                                       ||  #  8
+                    ($URL eq 'http://www.mosaic-industries.com/embedded-systems/microcontroller-projects/raspberry-pi/gpio-pin-electrical-specifications')    ||  #  9
+                    ($URL eq 'http://www.trirand.com/jqgridwiki/doku.php?id=start')                                                                           ||  # 10
+                    ($URL eq 'http://z80.info/zip/z80cpu_um.pdf')                                                                                             ||  # 11
 
                     0
                   )
@@ -322,29 +394,12 @@ if ($proceedWithMainProcessing)
                 $exitCode = 12;
                 $errors++; # Some redundancy here...
 
-                # Try to extract the URL (this currently only
-                # works for the URLs in the HTML export)
-                #
-                # Sample:
-                #
-                #   <tr> <td><div id="ADK"></div>adk</td><td>ADK (1)</td><td>http://developer.android.com/guide/topics/usb/adk.html</td> </tr>
-                #
-                # Note: ".*?" is the non-greedy version of ".*"
-                #
-                my $URL = "";
-                #if (/<\/td><td>(.*?)<\/td> <\/tr>$/)
-                if (/<\/td><td>([^<]+)<\/td> <\/tr>$/)
-                {
-                    $URL = $1;
-                    
-                    $HTTP_URLs{$URL}++;
-                }
 
                 # Optionally limit the error output, but
                 # still count the total number of errors
                 #
                 if ($errors <= 5 ||
-                   0  # We may want a report, with the
+                   1  # We may want a report, with the
                       # list of HTTP URLs
                    )
                 {
@@ -837,7 +892,7 @@ if ($exitCode != 0)
     print
       "\n\n$errors errors detected. Review the beginning of the output " .
       "(as the error information may or may be obscured by other output). \n\n";
-    
+
     # Output HTTP URLs. (Is this the right place? Should it be above?)
     #
     my $HTTPcount = 0;
@@ -846,7 +901,7 @@ if ($exitCode != 0)
         my $URL = $_;
         my $nonUniqueCount = $HTTP_URLs{$URL};
         $HTTPcount++;
-                        
+
         print "HTTP URL $HTTPcount ($nonUniqueCount): $URL\n";
 
         #print "Key: $key\n";
