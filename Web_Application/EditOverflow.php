@@ -308,7 +308,7 @@
                     {
                         #echo "(Test: " . $someWord . ") ";
 
-                        $wordSets = 3;
+                        $wordSets = 4;
                         $postFix = "";
 
                         # Note: For the search, we use the base form, without
