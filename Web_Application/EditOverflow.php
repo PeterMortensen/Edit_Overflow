@@ -271,8 +271,9 @@
             if (1)
             {
                 # Strategy: Progressively, search using the current
-                #           words in all word sets. Any found words
-                #           are used as new input. And so on.
+                #           words in all word sets. Any (unique)
+                #           found words are used as new input.
+                #           And so on.
                 #
                 #           Stop when the number of iterations have reached
                 #           some limit (should not normally happen). Or if
@@ -291,7 +292,7 @@
 
                 $linkID = 1002; # Expected by our Selenium regression test
                                 # It is an arbitrary number, but it must
-                                # coordinated with the test.
+                                # be coordinated with the test.
                 $iterations = 0;
                 $done = 0;
                 while (!$done)
@@ -300,7 +301,7 @@
 
                     # Note: It could be more efficient (it is potentially
                     #       a Shlemiel the painter’s algorithm). Though
-                    #       in most cases there will only be one iteration. 
+                    #       in most cases there will only be one iteration.
                     #
                     #       We repeat lookups (that we don't need to).
                     #
@@ -324,20 +325,7 @@
                         # Inner loop, checking each word set
                         for ($i = 0; $i < $wordSets; $i++)
                         {
-                            #Delete at any time
-                            #if (!isset($value[$array_total[$i]]))
-                            #{
-                            #    $value[$array_total[$i]] = 0;
-                            #}
-                            #$a = $value[$array_total[$i]]++;
-
                             $someLookUpTerm = $someWord_stripped . $postFix;
-
-                            #Delete at any time
-                            #if ($lookUpTerm === $someLookUpTerm)
-                            #{
-                            #
-                            #}
 
                             [$someIncorrectTerm, $someCorrectTerm, $someURL] =
                                 lookup($pdo, $someLookUpTerm);
@@ -364,13 +352,6 @@
 
                                     $URL = $someURL;
                                 }
-
-                                #Delete at any time
-                                ## We only the base form in our hash
-                                ## (we iterate through the word sets
-                                ## based on it and check for hits).
-                                #$someCorrectTerm_stripped =
-                                #    rtrim($someCorrectTerm, "_");
 
                                 if (array_key_exists($someCorrectTerm,
                                                       $lookedUpWords))
