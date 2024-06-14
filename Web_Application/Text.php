@@ -1285,7 +1285,7 @@
 
                 [$someText, $message] = textTransformation($textField, $button);
 
-            } //The GET or POST parameter exists
+            } # The GET or POST parameter exists
             else
             {
                 #echo "<p>Initial opening of Text.php</p>\n";
