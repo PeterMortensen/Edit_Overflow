@@ -509,7 +509,7 @@
                 {
                     #Later: use stripTrailingUnderscore()
                     $correctTerm = $correctTerm2;
-                    #$correctTerm = $correctTerm2 . "XXXXXXXXXXXXXXXXXX"; // Will break the Selenium integration test...
+                    #$correctTerm = $correctTerm2 . "XXXXXXXXXXXXXXXXXX"; # Will break the Selenium integration test...
 
                     $URL = $URL2;
                 }
@@ -674,24 +674,31 @@
                     "''"
                     ;
 
-                $RedditEditInstructions_Markdown =
-                  "*\"...\"* (to the right of *\"Share\"*) &rarr; " .
-                  "*\"Edit comment\"*";
-
                 # $correctionComment_Quora =
                 #   "It is \"" . $correctTerm . "\" (not \"" .
                 #   $lookUpTerm . "\"). See e.g.: " . $URL .
                 #   ". You can edit your question/comment/answer/post.";
                 $correctionComment_Markdown =
                   "It is *\"[" . $correctTerm . "](" . $URL .
-                  ")\"* " .
+                  ")\"* in this context " .
                   "(not *\"" . $lookUpTerm . "\"*). " .
                   "You can edit (change) your question/comment/answer/post";
+
+                $RedditEditInstructions_Markdown =
+                  "*\"...\"* (to the right of *\"Share\"*) &rarr; " .
+                  "*\"Edit comment\"*";
+
+                $noEditMetaTalk_Markdown =
+                  "Please, for such a minor change, " .
+                  "*\"Edit\"*, *\"Update\"*, or similar is " .
+                  "***[not](https://meta.stackexchange.com/a/131011)***" .
+                  " required (near *\"Changelogs\"*).";
 
                 # Isolation from the rest
                 $correctionComment =
                     $correctionComment_Markdown .
-                    " (" . $RedditEditInstructions_Markdown . ").";
+                    " (" . $RedditEditInstructions_Markdown . "). " .
+                    $noEditMetaTalk_Markdown;
 
                 # Cross reference to the word list (in HTML format)
                 # in the result, with a page anchor
@@ -727,7 +734,7 @@
                   "https://pmortensen.eu/" .
                   "EditOverflow/_Wordlist/EditOverflowList_latest.html" .
                   "#$WordListPageAnchor";
-            } //Term lookup succeeded
+            } # Term lookup succeeded
 
 
             $items = preg_split('/____/', $URLlist_encoded);

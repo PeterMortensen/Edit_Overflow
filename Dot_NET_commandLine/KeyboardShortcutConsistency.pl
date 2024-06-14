@@ -84,6 +84,9 @@
 #                          new HTTP links in the build script               #
 #                          (that calls this script).                        #
 #                                                                           #
+#             2024-06-14   Now rejects "//" as the comment                  #
+#                          character sequence                               #
+#                                                                           #
 #############################################################################
 
 # Future:
@@ -292,6 +295,41 @@ if ($proceedWithMainProcessing)
             $exitCode = 5;
             $errors++; # Some redundancy here...
         }
+
+        # Only allow "#" as the comment character
+        #
+        # The ":" is for an exception for URL,
+        # e.g. "https://validator"
+        #
+        if (/[^:]\/\//) # Blind match, independent of context.
+                        # We can always add exceptions
+        {
+            # Exceptions
+            if (!     # Gotcha: "!" has highest precedence. We must
+                      #         use an extra set of parentheses.
+                      #         Otherwise, "!" only applies to 
+                      #         the first term...
+                 (
+                   (/"\/\/"/) || # That is:  "//"
+                   (/\\\/\//) || # E.g.:     wiki\//'  (in a PHP file, 
+                                 #                      escaped "/")
+                   (/i\/\//)  || # E.g.:     wiki//'   (in generated 
+                                 #                      HTML, non-escaped 
+                                 #                      "/"))
+                   0
+
+                   #  \\\/\/
+                 )
+               )
+            {
+                print
+                  "\nAn invalid comment character sequence was detected. " .
+                  "On line $line: \n\n$_ \n\n";
+
+                $exitCode = 13;
+                $errors++; # Some redundancy here...
+            }
+        } # Only allow "#" as the comment character
 
         # Insist on HTTPS links
         if (/http:\/\//) # Blind match, independent of context.
