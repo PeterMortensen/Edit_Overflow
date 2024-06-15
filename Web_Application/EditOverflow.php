@@ -1056,6 +1056,15 @@
                             #      (should be fi)
 
                             echo "<u>C</u>orrected term"; #Used to be static HTML.
+
+                            # Indicate if an incorrect or correct word was 
+                            # looked up. The rtrim is for identical words 
+                            # from different word sets to test equal.
+                            if (rtrim($lookUpTerm, "_") ===
+                                rtrim($effectiveTerm, "_"))
+                            {
+                                echo " (the same)";
+                            }
                         }
                         else
                         {
