@@ -418,9 +418,7 @@ namespace OverflowHelper.core
                                 } //Different correct word
                             } //Different number of misspellings
                         }
-
                     }
-
                 }
                 else
                 {

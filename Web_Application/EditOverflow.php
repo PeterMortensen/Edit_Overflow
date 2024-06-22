@@ -101,14 +101,12 @@
                 return [$incorrectTerm, $correctTerm, $URL];
             } #lookup()
 
-
             # These two are for proper indentation in the
             # generated HTML source (by PHP).
             $headerLevelIndent = "        ";
             $baseIndent        = "$headerLevelIndent        ";
             $EOL_andBaseIndent = "\n$baseIndent";
             $EOL_andBaseIndent_sub = "\n    $baseIndent";
-
 
             # The only input field in the start HTML page
             #
