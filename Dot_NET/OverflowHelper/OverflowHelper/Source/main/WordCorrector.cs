@@ -16,7 +16,7 @@
  *                                                                          *
  *         Holding instances of some other classes (reducing                *
  *         the complexity on the Windows GUI client side).                  *
- *         And providing call-through/facede functions.                     *
+ *         And providing call-through/facade functions.                     *
  *                                                                          *
  *                                                                          *
  *                                                                          *
@@ -149,7 +149,7 @@ namespace OverflowHelper.core
             if (toReturn.WikipediaURL.Length > 0)
             {
                 mCheckinMessageBuilder.addWord(correctedWord,
-                                                toReturn.WikipediaURL);
+                                               toReturn.WikipediaURL);
 
                 //In user output: include leading and trailing whitespace
                 //from the input (so it works well with keyboard
