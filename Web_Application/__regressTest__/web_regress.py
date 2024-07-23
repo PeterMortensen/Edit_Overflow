@@ -299,8 +299,6 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         self._core_checkFieldValue("URL6", anExpectedLink, anExplanation)
 
 
-
-
     # Helper function for testing
     #
     # Submitting a term to Edit Overflow for web and
@@ -434,7 +432,6 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             #      Site relative URL in HTML source:
             #
             #        /world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=python_
-            #
             #
             alternativeURL = foundElement.get_attribute("href")
 
@@ -889,6 +886,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         wordList_URLprefix = "https://pmortensen.eu/EditOverflow/_Wordlist/EditOverflowList_latest.html#"
 
         singleLookup_editSummary_PHP = 'Active reading [<https://en.wikipedia.org/wiki/PHP>].'
+        singleLookup_editSummary_JavaScript = 'Active reading [<https://en.wikipedia.org/wiki/JavaScript>].'
 
         firstRealLookup_editSummary = 'Active reading [<https://en.wikipedia.org/wiki/PHP> <https://en.wikipedia.org/wiki/Python_%28programming_language%29>].'
         defaultMsgForEditSummary = 'Unexpected edit summary '
@@ -920,12 +918,12 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             # was fixed 2020-11-29.
             #
             self._lookUp("PHP__Z",
-                        firstRealLookup_editSummary,
-                        'Changed edit summary for a failed Edit Overflow lookup',
-                        "",
-                        "", "",
-                        "") # Though in the browser it shows
-                            # as the current page's URL...
+                         firstRealLookup_editSummary,
+                         'Changed edit summary for a failed Edit Overflow lookup',
+                         "",
+                         "", "",
+                         "") # Though in the browser it shows
+                             # as the current page's URL...
 
         if True: # Lookup ***after a failed*** lookup.
 
@@ -948,12 +946,13 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
 
             # Lookup with a reset, with a known term
             #
-            self._lookUp("php",
-                         singleLookup_editSummary_PHP,
+            self._lookUp("js",
+                         singleLookup_editSummary_JavaScript,
                          defaultMsgForEditSummary,
-                         "''[[PHP|PHP]]''",
-                         "PHP (tag wiki)", altURLprefix + "php_",
-                         wordList_URLprefix + "PHP")
+                         "''[[JavaScript|JavaScript]]''",
+                         "JavaScript (tag wiki)",
+                         altURLprefix + "JavaScript_",
+                         wordList_URLprefix + "JavaScript")
 
         if True: # Do a ***failing lookup*** after a reset - we had a
                  # regression with an edit summary of "Active reading []."
@@ -964,7 +963,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             # The edit summary should be unchanged from the previous
             #
             self._lookUp("PHP__Z",
-                         singleLookup_editSummary_PHP,
+                         singleLookup_editSummary_JavaScript,
                          defaultMsgForEditSummary,
                          "",
                          "", "",
