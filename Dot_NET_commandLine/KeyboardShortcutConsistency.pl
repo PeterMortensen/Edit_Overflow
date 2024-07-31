@@ -87,6 +87,8 @@
 #             2024-06-14   Now rejects "//" as the comment                  #
 #                          character sequence                               #
 #                                                                           #
+#             2024-07-31   Added an exception for an HTTP link              #
+#                                                                           #
 #############################################################################
 
 # Future:
@@ -406,7 +408,7 @@ if ($proceedWithMainProcessing)
                     (! $isA_RealHTTP_link) ||
 
                     # List of URLs for which HTTPS does not
-                    # work, only HTTP (11 in the current
+                    # work, only HTTP (12 in the current
                     # word list (0.06%)).
                     #
                     # A typical error is:
@@ -424,14 +426,13 @@ if ($proceedWithMainProcessing)
                     ($URL eq 'http://www.mosaic-industries.com/embedded-systems/microcontroller-projects/raspberry-pi/gpio-pin-electrical-specifications')    ||  #  9
                     ($URL eq 'http://www.trirand.com/jqgridwiki/doku.php?id=start')                                                                           ||  # 10
                     ($URL eq 'http://z80.info/zip/z80cpu_um.pdf')                                                                                             ||  # 11
-
+                    ($URL eq 'http://www.laputan.org/pub/papers/Cathedral-Paper.pdf')                                                                         ||  # 12
                     0
                   )
                )
             {
                 $exitCode = 12;
                 $errors++; # Some redundancy here...
-
 
                 # Optionally limit the error output, but
                 # still count the total number of errors
@@ -444,8 +445,11 @@ if ($proceedWithMainProcessing)
                     print
                       "\nError $errors: HTTP link " .
                       "on line $line. " .
-                      "URL: $URL";
-
+                      "URL: $URL\n\n";
+                    print
+                      "To add an exception, add it " .
+                      "near \"z80.info\" (line 428) in file " .
+                      "Dot_NET_commandLine/KeyboardShortcutConsistency.pl.\n\n";
                 } # Optional error output
             } # Not an exception
         } # HTTP link detected
