@@ -195,6 +195,8 @@ namespace OverflowHelper.core
                 // Sample: "Hı"
                 (aRawString[endIdx] != 'ı') &&
 
+                (aRawString[endIdx] != '€') &&
+
                 true
               )
             {
