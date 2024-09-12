@@ -197,6 +197,8 @@ namespace OverflowHelper.core
 
                 (aRawString[endIdx] != '€') &&
 
+                //(aRawString[endIdx] != 'Ω') &&
+
                 true
               )
             {
