@@ -2599,7 +2599,7 @@ cat '/home/mortensen/UserProf/At_PC2016/_Incorporated_files/Header_EditOverflow_
 #       2022-01-25: 5374604 bytes
 
 # Note: The same build number
-wordListExport 31 "SQL" $SQL_FILE 10380000 11410000
+wordListExport 31 "SQL" $SQL_FILE 10590000 11640000
 
 # Note: The same build number
 export MATCHING_LINES=`grep -c 'DROP TABLE EditOverflow'  ${SQL_FILE}`
@@ -3122,5 +3122,8 @@ echo
 startOfBuildStep "48" "End of build. All build steps succeeded!!"
 
 timeStamp "End time  "
+
+notify-send "The Edit Overflow build script has finished"
+
 
 
