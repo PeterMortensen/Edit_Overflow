@@ -1,0 +1,28 @@
+
+{
+  "https://schema.org/comment":
+
+      "Purpose: Configuration file for Jest (unit testing for JavaScript)",
+
+
+  "https://schema.org/comment":
+
+      "File package.json",
+
+
+  "name": "Edit_Overflow_unit_testing_with_Jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Peter Mortensen",
+  "license": "GPL",
+
+  "scripts": {
+      "test": "jest --colors"
+  }
+}
+
