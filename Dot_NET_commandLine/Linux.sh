@@ -2548,8 +2548,8 @@ wordListExport 30 "compileCheck"  $COMPILECHECK_OUT  40 100
 #
 # Export the Edit Overflow word list as SQL
 #
-# Note: Compiler errors will be reported to standard
-#       error
+# Note: Compiler errors will be reported
+#       to standard error
 #
 #       CS0162 is "warning : Unreachable code detected"
 #
@@ -2599,7 +2599,7 @@ cat '/home/mortensen/UserProf/At_PC2016/_Incorporated_files/Header_EditOverflow_
 #       2022-01-25: 5374604 bytes
 
 # Note: The same build number
-wordListExport 31 "SQL" $SQL_FILE 10590000 11640000
+wordListExport 31 "SQL" $SQL_FILE 10800000 11870000
 
 # Note: The same build number
 export MATCHING_LINES=`grep -c 'DROP TABLE EditOverflow'  ${SQL_FILE}`
