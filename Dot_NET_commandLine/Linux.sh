@@ -2757,7 +2757,14 @@ startOfBuildStep "37" "Updating the JavaScript word list file on pmortenen.eu (<
 cp  $JAVASCRIPT_FILE_GENERIC  $FTPTRANSFER_FOLDER_JAVASCRIPT
 export FTP_COMMANDS="mirror -R --verbose ${FTPTRANSFER_FOLDER_JAVASCRIPT} /public_html/world ; exit"
 export LFTP_COMMAND="lftp -e '${FTP_COMMANDS}' -u ${FTP_USER},${FTP_PASSWORD} ${FTP_SITE_URL}"
+
 # Note: The same build number
+#
+# Failed on 2024-11-06 (but only once):
+# 
+#   "mirror: Login failed: 500 USER: command requires a parameter
+#    1 error detected"  
+# 
 eval ${LFTP_COMMAND}  ; evaluateBuildResult 37 $? "copying the word list in JavaScript to the web site"
 
 
