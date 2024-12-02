@@ -359,7 +359,9 @@
                 <a href="https://meta.stackexchange.com/questions/353983/goodbye-prettify-hello-highlight-js-swapping-out-our-syntax-highlighter"
                 >later changes </a>
                 to the Stack Exchange software.
-                Possible code fencing formatting:
+                Possible code fencing formatting (note:
+                <a href="https://meta.stackexchange.com/questions/403526/syntax-highlighting-when-using-a-lang-alias-and-some-main-language-codes"
+                >broken in late 2024</a>):
                     ```lang-none,
                     ```lang-html,
                     ```lang-php,
