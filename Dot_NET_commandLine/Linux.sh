@@ -264,7 +264,7 @@
 #       The output is TAB-separated and can thus easily be
 #       post processed in LibreOffice Calc or similar.
 #
-# perl -nle 'if (/^\d+\./) { $prevBuildLine = $buildLine; $buildLine = $_; }  if (/^At: /) { $prevHours = $hours; $prevMinutes = $minutes; $prevSeconds = $seconds; if (/T(\d+):(\d+):(\d+)_(\d+)/) { $hours = $1; $minutes = $2; $seconds = $3 + $4 / 1000000000.0} $runTimeSeconds = 3600 * ($hours - $prevHours) + 60 * ($minutes - $prevMinutes) + ($seconds - $prevSeconds); print "Run time [secs]\t$runTimeSeconds\t$prevBuildLine" if $prevHours; }   '   '/home/embo/temp2/2021-11-05/Transcript of Edit Overflow build, 2021-11-05T171256.txt'  >  _BuildStepsTimings.txt
+# perl -nle 'if (/^\d+\./) { $prevBuildLine = $buildLine; $buildLine = $_; }  if (/^At: /) { $prevHours = $hours; $prevMinutes = $minutes; $prevSeconds = $seconds; if (/T(\d+):(\d+):(\d+)_(\d+)/) { $hours = $1; $minutes = $2; $seconds = $3 + $4 / 1000000000.0} $runTimeSeconds = 3600 * ($hours - $prevHours) + 60 * ($minutes - $prevMinutes) + ($seconds - $prevSeconds); print "Run time [secs]\t$runTimeSeconds\t$prevBuildLine" if $prevHours; }   '   '/home/embo/temp2/2021-11-05/Transcript of Edit Overflow build, 2021-11-05T171256.txt' > _BuildStepsTimings.txt
 #
 
 echo
@@ -918,7 +918,7 @@ function HTML_validation_base()
     # wrong (it sometimes does go wrong (every few months))
     #
     #wget -q -O- ${SUBMIT_URL} | grep -q 'The document validates according to the specified schema'      ; evaluateBuildResult $3 $? "W3 validation for $2 (file $1)"
-    wget -q -O- ${SUBMIT_URL}  >  ${STDOUT_FILE}  2>  ${STDERR_FILE}
+    wget -q -O- ${SUBMIT_URL} >  ${STDOUT_FILE}  2>  ${STDERR_FILE}
     cat ${STDOUT_FILE} | grep -q 'The document validates according to the specified schema'      ; evaluateBuildResult $3 $? "W3 validation for $2 (file $1)"
 
 } #HTML_validation_base()
@@ -1044,7 +1044,7 @@ function PHP_code_test()
 
     #php $1 "$4" > /home/embo/temp2/2021-09-14/_Text.html 2> ${STDERR_FILE}
     #php $1 "$4"
-    php $1 "$4"  > ${HTML_FILE_PHP}  2> ${STDERR_FILE}
+    php $1 "$4" > ${HTML_FILE_PHP}  2> ${STDERR_FILE}
 
     #cat ${STDERR_FILE}
     #echo "Standard error:" `cat ${STDERR_FILE}`
@@ -1478,15 +1478,15 @@ function checkFileSize()
 #
 #    $1   Build step number
 #
-#    $2   Export type. A string. Same as what the command-line version of
-#                      Edit Overflow requires as input. E.g. "SQL" for,
-#                      well, SQL.
+#    $2   Export type. A string. The Same as what the command-line
+#                      version of Edit Overflow requires as input.
+#                      E.g. "SQL" for, well, SQL.
 #
 #    $3   Export filename. Usually a full path name.
 #
-#    $4   Minimum size
+#    $4   Minimum size. For a sanity check of export file size
 #
-#    $5   Maximum size
+#    $5   Maximum size. For a sanity check of export file size
 #
 function wordListExport()
 {
@@ -1501,13 +1501,14 @@ function wordListExport()
     #
     #     bin/Debug/netcoreapp3.1/EditOverflow3
     #
-    # If the compilation fails, the return code is "1". It is masked
-    # by the grep's, but we are saved by the previous build step
-    # (a compilation error automatically terminates the unit
+    # If the compilation fails, the return code is "1".
+    # It is masked by the grep's, but we are saved by
+    # the previous build step (a compilation error
+    # automatically terminates the (C#) unit
     # tests).
 
-    # The environment variable the Edit Overflow command-line
-    # program expects.
+    # The environment variable the Edit Overflow
+    # command-line program expects (as an input).
     #
     export WORDLIST_OUTPUTTYPE=$2
 
@@ -1548,7 +1549,7 @@ function wordListExport()
     #       of compilation/sanity checking.
     #
     #time dotnet run -p EditOverflow3.csproj 2> ${STDERR_FILE}  | grep -v CS0219 | grep -v CS0162   >> $WORD_EXPORT_FILE  ; evaluateBuildResult $1 $? "word list export in $WORDLIST_OUTPUTTYPE format"
-    time dotnet run -p EditOverflow3.csproj 2> ${STDERR_FILE}  > ${STDOUT_FILE} ; evaluateBuildResult $1 $? "word list export in $WORDLIST_OUTPUTTYPE format"
+    time dotnet run -p EditOverflow3.csproj 2> ${STDERR_FILE} > ${STDOUT_FILE} ; evaluateBuildResult $1 $? "word list export in $WORDLIST_OUTPUTTYPE format"
 
     # Note: Because we immediately check for the exit code (and
     #       exit the entire build script if it is not 0), we
@@ -1659,9 +1660,9 @@ function sourceSpellcheck()
     #
     #   "Aparrently"
     #
-    #find ${EFFECTIVE_SOURCE_FOLDER} -type f | perl -nle 'print if /(\.sh$|\.cs$)/' | tr "\n" "\0" | xargs -0 grep -n 'paramter' | grep -v '            correctionAdd'  >  ${TEMP_MISSPELLINGS_LIST_FILE}
-    #find ${EFFECTIVE_SOURCE_FOLDER} -type f | perl -nle 'print if /(\.sh$|\.cs$)/' | tr "\n" "\0" | xargs -0 perl -nle 'if (/[^\"]paramter[^\"]/) { s/^\s+//g; print "$ARGV:$.: $_"; } ' | grep -v '            correctionAdd'  >  ${TEMP_MISSPELLINGS_LIST_FILE}
-    find ${EFFECTIVE_SOURCE_FOLDER} -type f | perl -nle 'print if /(\.sh$|\.cs$)/' | tr "\n" "\0" | xargs -0 perl -nle 'if (/[^\"]paramter[^\"]/) { s/^\s+//g; print "$ARGV: $_"; } ' | grep -v '            correctionAdd'  >  ${TEMP_MISSPELLINGS_LIST_FILE}
+    #find ${EFFECTIVE_SOURCE_FOLDER} -type f | perl -nle 'print if /(\.sh$|\.cs$)/' | tr "\n" "\0" | xargs -0 grep -n 'paramter' | grep -v '            correctionAdd' >  ${TEMP_MISSPELLINGS_LIST_FILE}
+    #find ${EFFECTIVE_SOURCE_FOLDER} -type f | perl -nle 'print if /(\.sh$|\.cs$)/' | tr "\n" "\0" | xargs -0 perl -nle 'if (/[^\"]paramter[^\"]/) { s/^\s+//g; print "$ARGV:$.: $_"; } ' | grep -v '            correctionAdd' >  ${TEMP_MISSPELLINGS_LIST_FILE}
+    find ${EFFECTIVE_SOURCE_FOLDER} -type f | perl -nle 'print if /(\.sh$|\.cs$)/' | tr "\n" "\0" | xargs -0 perl -nle 'if (/[^\"]paramter[^\"]/) { s/^\s+//g; print "$ARGV: $_"; } ' | grep -v '            correctionAdd' >  ${TEMP_MISSPELLINGS_LIST_FILE}
 
     #echo ${TEMP_MISSPELLINGS_LIST_FILE}
 
@@ -1691,7 +1692,7 @@ function sourceSpellcheck()
     # have to add exceptions by using "/* */" instead of "//"
     # for JavaScript code in a few places).
     #
-    find ${EFFECTIVE_SOURCE_FOLDER} -type f | perl -nle 'print if /(\.php$)/' | tr "\n" "\0" | xargs -0 perl -nle 'if (/^\s+\/\//) { s/^\s+//g; print "$ARGV: $_"; } ' | grep -v 'XXXXXZZZ'  >  ${TEMP_PHP_COMMENTCHARACTERS_FILE}
+    find ${EFFECTIVE_SOURCE_FOLDER} -type f | perl -nle 'print if /(\.php$)/' | tr "\n" "\0" | xargs -0 perl -nle 'if (/^\s+\/\//) { s/^\s+//g; print "$ARGV: $_"; } ' | grep -v 'XXXXXZZZ' >  ${TEMP_PHP_COMMENTCHARACTERS_FILE}
     cat ${TEMP_PHP_COMMENTCHARACTERS_FILE}
     checkFileSize  ${TEMP_PHP_COMMENTCHARACTERS_FILE} 0 0 $1 "PHP source comment character"
 
@@ -2578,11 +2579,11 @@ startOfBuildStep "31" "Exporting the word list as SQL"
 #Now incorporated
 ##Moved to PC2016 another crash Linux system crash 2022-02-26.
 ### Moved to PC2016 after SSD-related Linux system crash 2020-05-31
-###cat /home/mortense2/temp2/2020-02-05/Header_EditOverflow_forMySQL_UTF8.sql  > $SQL_FILE
-###cat /home/mortensen/temp2/2020-05-30/Backup/Backup_2020-05-30_smallFiles/2020-05-30/Header_EditOverflow_forMySQL_UTF8.sql  > $SQL_FILE
-##cat '/home/embo/temp2/2020-06-02/Last Cinnamon backup_2020-05-30/Small files/Header_EditOverflow_forMySQL_UTF8.sql'  > $SQL_FILE
-#cat '/home/mortensen/temp2/2022-02-25/Backup/Backup_2022-02-25_smallFiles/2022-02-25/Header_EditOverflow_forMySQL_UTF8.sql'  > $SQL_FILE
-cat '/home/mortensen/UserProf/At_PC2016/_Incorporated_files/Header_EditOverflow_forMySQL_UTF8.sql'  > $SQL_FILE
+###cat /home/mortense2/temp2/2020-02-05/Header_EditOverflow_forMySQL_UTF8.sql > $SQL_FILE
+###cat /home/mortensen/temp2/2020-05-30/Backup/Backup_2020-05-30_smallFiles/2020-05-30/Header_EditOverflow_forMySQL_UTF8.sql > $SQL_FILE
+##cat '/home/embo/temp2/2020-06-02/Last Cinnamon backup_2020-05-30/Small files/Header_EditOverflow_forMySQL_UTF8.sql' > $SQL_FILE
+#cat '/home/mortensen/temp2/2022-02-25/Backup/Backup_2022-02-25_smallFiles/2022-02-25/Header_EditOverflow_forMySQL_UTF8.sql' > $SQL_FILE
+cat '/home/mortensen/UserProf/At_PC2016/_Incorporated_files/Header_EditOverflow_forMySQL_UTF8.sql' > $SQL_FILE
 
 
 #export STDERR_FILE3="_stdErr_Export3.txt"
@@ -2599,7 +2600,7 @@ cat '/home/mortensen/UserProf/At_PC2016/_Incorporated_files/Header_EditOverflow_
 #       2022-01-25: 5374604 bytes
 
 # Note: The same build number
-wordListExport 31 "SQL" $SQL_FILE 10800000 11870000
+wordListExport 31 "SQL" $SQL_FILE 11020000 12110000
 
 # Note: The same build number
 export MATCHING_LINES=`grep -c 'DROP TABLE EditOverflow'  ${SQL_FILE}`
@@ -2761,10 +2762,10 @@ export LFTP_COMMAND="lftp -e '${FTP_COMMANDS}' -u ${FTP_USER},${FTP_PASSWORD} ${
 # Note: The same build number
 #
 # Failed on 2024-11-06 (but only once):
-# 
+#
 #   "mirror: Login failed: 500 USER: command requires a parameter
-#    1 error detected"  
-# 
+#    1 error detected"
+#
 eval ${LFTP_COMMAND}  ; evaluateBuildResult 37 $? "copying the word list in JavaScript to the web site"
 
 
