@@ -333,14 +333,14 @@ namespace OverflowHelper.core
                     int uppercaseCount1 = mCorrectTermInfo.uppercaseCount[primary1];
                     int uppercaseCount2 = mCorrectTermInfo.uppercaseCount[primary2];
 
-                    // For unchanged sort functionality (sorted (and
-                    // grouped) by the correct term/word). To be
+                    // Override: For unchanged sort functionality (sorted
+                    // (and grouped) by the correct term/word). To be
                     // made dynamic in the future.
                     //
                     // Note that unit tests now enforce the default
                     // sort order, so they must be disabled or
                     // changed for the build script to succeed.
-
+                    //
                     incorrectTermCount1 = 7;
                     incorrectTermCount2 = 7;
                     wordCount1 = 7;
@@ -366,6 +366,7 @@ namespace OverflowHelper.core
                     // Usually used in combination with the word
                     // count (so the longest lower case correct
                     // words comes first)
+                    //
                     if (compareResult_uppercases != 0)
                     {
                         toReturn = compareResult_uppercases;
@@ -411,7 +412,9 @@ namespace OverflowHelper.core
                                         // Both keys are equal...
                                         //
                                         // We should never be here as the secondary
-                                        // key is unique. ASSERT?
+                                        // key is unique (and the outer check
+                                        // is for equality of the index (the
+                                        // same entry)) ASSERT?
                                         Utility.debuggerRest();
 
                                     } // The same incorrect word.
@@ -594,7 +597,7 @@ namespace OverflowHelper.core
 
             // Escape the SQL, e.g. backslash
             string effectiveIncorrectTerm = escapeSQL(aBadTerm3);
-            string effectiveCorrectTerm =escapeSQL(aCorrectedTerm3);
+            string effectiveCorrectTerm = escapeSQL(aCorrectedTerm3);
             string effectiveURL = escapeSQL(aURL3);
 
             // Sanity check

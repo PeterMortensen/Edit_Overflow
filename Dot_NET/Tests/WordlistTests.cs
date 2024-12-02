@@ -172,7 +172,7 @@ namespace OverflowHelper.Tests
             //    new Dictionary<string, int>();
 
             correctTermInfoStruct someCorrectTermInfo =
-              correctTermInfoStruct.CreateDefaultInstance();
+              correctTermInfoStruct.CreateDefaultInstance(1000);
 
             string Wordlist_HTML =
                 wordListAsHTML(someCaseCorrections, someCorrectTermInfo);
@@ -404,7 +404,7 @@ namespace OverflowHelper.Tests
             //    new Dictionary<string, int>();
 
             correctTermInfoStruct someCorrectTermInfo =
-              correctTermInfoStruct.CreateDefaultInstance();
+              correctTermInfoStruct.CreateDefaultInstance(1000);
 
             smallWordlist(
                 ref someCaseCorrections,
@@ -615,7 +615,7 @@ namespace OverflowHelper.Tests
             //    new Dictionary<string, int>();
 
             correctTermInfoStruct someCorrectTermInfo =
-              correctTermInfoStruct.CreateDefaultInstance();
+              correctTermInfoStruct.CreateDefaultInstance(1000);
 
             // Detect if we get double HTML encoding (an error - not what
             // we want. For example, order matters in escapeHTML()
@@ -843,7 +843,7 @@ namespace OverflowHelper.Tests
         public void correctTermInfoInitialisation()
         {
             correctTermInfoStruct someCorrectTermInfo =
-              correctTermInfoStruct.CreateDefaultInstance();
+              correctTermInfoStruct.CreateDefaultInstance(1000);
 
             Assert.AreNotEqual(null, someCorrectTermInfo.URLs, "XYZ");
             Assert.AreNotEqual(null, someCorrectTermInfo.incorrectTermCount, "XYZ");
