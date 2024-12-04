@@ -9,5 +9,9 @@
         <PublishReadyToRun>true</PublishReadyToRun>
     </PropertyGroup>
 
+    <PropertyGroup>
+        <runtimeidentifier>linux-x64</runtimeidentifier>
+    </PropertyGroup>
+
 </Project>
 

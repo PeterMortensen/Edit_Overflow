@@ -2169,7 +2169,7 @@ checkCommand "ls  ${SELINUM_DRIVERFOLDER} " "${prefix1} Selenium driver folder e
 #
 startOfBuildStep "3" "Internal check of the web interface regression tests"
 
-#
+
 # Sort of prerequisite for testing
 #
 # Method names in Python are not checked for uniqueness, so only
@@ -2538,6 +2538,12 @@ startOfBuildStep "30" "C# compilation and sanity check"
 export LOOKUP="NO_THERE"
 export COMPILECHECK_OUT="_compileCheckOut.txt"
 rm $COMPILECHECK_OUT
+
+# Extra: Generate a native compiled version of Edit Overflow.
+#        The result is also 'EditOverflow3', but deeper in 
+#        the folder hierarchy, in folder '/linux-x64/publish'  
+#
+dotnet publish EditOverflow3.csproj
 
 # It is not a real export...
 # Note: The same build number
