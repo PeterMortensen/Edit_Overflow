@@ -2539,16 +2539,20 @@ export LOOKUP="NO_THERE"
 export COMPILECHECK_OUT="_compileCheckOut.txt"
 rm $COMPILECHECK_OUT
 
-# Extra: Generate a native compiled version of Edit Overflow.
-#        The result is also 'EditOverflow3', but deeper in 
-#        the folder hierarchy, in folder '/linux-x64/publish'  
-#
-dotnet publish EditOverflow3.csproj
-
 # It is not a real export...
 # Note: The same build number
 wordListExport 30 "compileCheck"  $COMPILECHECK_OUT  40 100
 
+# Extra: Generate a native compiled version of Edit Overflow.
+#        The result is also 'EditOverflow3', but deeper in
+#        the folder hierarchy, in folder '/linux-x64/publish'
+#
+# Example: </home/mortensen/temp2/2023-07-11/_DotNET_tryout/EditOverflow4/bin/Debug/netcoreapp3.1/linux-x64/publish/EditOverflow3>
+export supposedNativeApplicationPath="${WORKFOLDER}/bin/Debug/netcoreapp3.1/linux-x64/publish/EditOverflow3"
+timeStamp "Creating native Edit Overflow application"
+echo "Absolute path for native Edit Overflow application: ${supposedNativeApplicationPath}" ; echo
+dotnet publish EditOverflow3.csproj
+timeStamp "End creating native Edit Overflow application"
 
 
 # ###########################################################################
