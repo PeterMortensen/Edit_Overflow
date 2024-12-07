@@ -22,8 +22,10 @@ namespace EditOverflow2
         static void Main(string[] args)
         //static int Main(string[] args)
         {
-            string lookupWord = Environment.GetEnvironmentVariable("LOOKUP");
-            string outputType = Environment.GetEnvironmentVariable("WORDLIST_OUTPUTTYPE");
+            string lookupWord =
+                Environment.GetEnvironmentVariable("LOOKUP");
+            string outputType =
+                Environment.GetEnvironmentVariable("WORDLIST_OUTPUTTYPE");
 
             System.IO.TextWriter errorWriter = Console.Error;
             //Test!!!!!!!  To see if we actually detect output
@@ -39,29 +41,69 @@ namespace EditOverflow2
                                     // at the same time
             {
                 WordCorrector someWordCorrector = new WordCorrector();
-                lookupResultStructure lookupResult =
-                    someWordCorrector.lookup_Central(lookupWord, false);
 
-                string correctedText2 = lookupResult.correctedText;
-                int URLcount = lookupResult.URLcount;
+                const int kWordSets = 6;
+                //const int kWordSets = 1; // Test!!!!!!! For the old behaviour.
 
-                if (correctedText2 != string.Empty)
+                bool lookUpDone = false;
+                bool match = false;
+
+                int wordSet = 0;
+
+                string originalLookupWord = lookupWord;
+
+                // If it isn't in the main word set, try to look up
+                // the word in the alternative word sets.
+                //
+                // We presume the trailing underscores convention.
+                //
+                while (!lookUpDone)
                 {
-                    Console.WriteLine();
-                    Console.WriteLine(
-                        "Corrected word for " + lookupWord +
-                        " is: " + correctedText2);
-                    Console.WriteLine();
-                }
-                else
-                {
-                    Console.WriteLine(
-                        "The word \"" + lookupWord +
-                        "\" is not in the word list...");
-                }
+                    wordSet++;
+
+                    lookupResultStructure lookupResult =
+                        someWordCorrector.lookup_Central(lookupWord, false);
+
+                    string correctedText2 = lookupResult.correctedText;
+                    int URLcount = lookupResult.URLcount;
+
+                    if (correctedText2 != string.Empty)
+                    {
+                        Console.WriteLine();
+                        Console.WriteLine(
+                            "Corrected word for " + originalLookupWord +
+                            " is: " + correctedText2);
+                        Console.WriteLine();
+
+                        lookUpDone = true;
+                        match = true;
+                    }
+                    else
+                    {
+                        //Console.WriteLine(
+                        //    "The word \"" + lookupWord +
+                        //    "\" is not in the word list...");
+                    }
+
+                    if (wordSet >= kWordSets)
+                    {
+                        lookUpDone = true;
+                        if (!match)
+                        {
+                            Console.WriteLine(
+                                "The word \"" + originalLookupWord +
+                                "\" is not in the word list...");
+                        }
+                    }
+
+                    lookupWord += "_"; // For the next word set.
+                                       // We presume the naming convention
+                                       // with trailing underscores
+
+                } // Through all word sets, until there is a match
+
 
                 //Console.WriteLine("'alo...");
-
 
                 ////Test!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                 ////return 42;
@@ -90,7 +132,7 @@ namespace EditOverflow2
                 CodeFormattingCheck cfCheck = new CodeFormattingCheck();
 
 
-                // This will result in running the ***first*** level 
+                // This will result in running the ***first*** level
                 // of integrity testing for the word list data
                 TermLookup someTermLookup = new TermLookup();
 
@@ -153,13 +195,14 @@ namespace EditOverflow2
                 Console.WriteLine(toOutput);
 
             } //Exports
-            
-            
-            //Test!!!!!!!!!!!!!
+
+
+            //Test!!!!!!!!!!!!! E.g., to test the build script
+            //                  can detect failure
             //Environment.Exit(42);
 
         } //Main()
-        
+
     } //class Program
 }
 
