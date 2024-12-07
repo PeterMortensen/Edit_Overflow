@@ -649,8 +649,8 @@ function evaluateBuildResult()
 #
 # Purpose: Relieve the clients of boilerplate related to comparing
 #          two strings (and actions if they are not equal).
-#          Typically one of the strings is the result from
-#          some build action
+#          Typically, one of the strings is the result
+#          from some build action.
 #
 #          Check if two strings are equal. It stops the entire
 #          build and outputs a message (to standard output)
@@ -675,7 +675,7 @@ function evaluateBuildResult()
 function mustBeEqual()
 {
     #if [ $1 == $2 ] ; evaluateBuildResult $3  $? "Two strings not equal: $1 and $2 ($4)"
-    [[ $1 == $2 ]] ; evaluateBuildResult $3  $? "two strings not equal: $1 and $2 ($4)"
+    [[ $1 == $2 ]] ; evaluateBuildResult $3  $? "two strings not equal: \"$1\" and \"$2\" ($4)"
 } #mustBeEqual()
 
 
@@ -685,9 +685,9 @@ function mustBeEqual()
 #
 # Parameters:
 #
-#   $1   File name of an executable that must be able
-#        to execute in the current context (e.g., is
-#        in the path)
+#   $1   File name (or full path) of an executable that
+#        must be able to execute in the current context
+#        (e.g., is in the path)
 #
 #        Example (often not installed by default
 #                 on a given system):
@@ -713,11 +713,11 @@ function checkCommand()
     echo "Checking the prerequisite with command line '$1'"
     #echo   evaluateBuildResult() output an empty line first.
 
-    # We ought to check if the second or all parameters
-    # are missing (though the way it is used here,
-    # evaluateBuildResult() will catch it if the
-    # second parameter is missing - but only
-    # if the ).
+    #We ought to check if the second or all parameters
+    #are missing (though the way it is used here,
+    #evaluateBuildResult() will catch it if the
+    #second parameter is missing - but only
+    #if the XXX).
 
     #echo "Dollar 1: $1..."
     #echo "Dollar 2: $2..."
@@ -2543,6 +2543,7 @@ rm $COMPILECHECK_OUT
 # Note: The same build number
 wordListExport 30 "compileCheck"  $COMPILECHECK_OUT  40 100
 
+
 # Extra: Generate a native compiled version of Edit Overflow.
 #        The result is also 'EditOverflow3', but deeper in
 #        the folder hierarchy, in folder '/linux-x64/publish'
@@ -2553,6 +2554,57 @@ timeStamp "Creating native Edit Overflow application"
 echo "Absolute path for native Edit Overflow application: ${supposedNativeApplicationPath}" ; echo
 dotnet publish EditOverflow3.csproj
 timeStamp "End creating native Edit Overflow application"
+
+# Sanity check. That it actually exists and that the
+#               exit code when running it is 0.
+#
+# Though the exit code is effectively checked in the
+# "wordListExport" above (if the .NET and native
+# application is based on the same source code).
+#
+checkCommand "$supposedNativeApplicationPath" "Failed in running the native compiled command line application of Edit Overflow"  30
+
+# Clear out for any previous invocations
+unset LOOKUP
+unset WORDLIST_OUTPUTTYPE
+
+export LOOKUP="R2R"
+export LOOKUP_RESULT=$($supposedNativeApplicationPath)
+echo $LOOKUP_RESULT
+
+export LOOKUP="iy"
+export LOOKUP_RESULT=$($supposedNativeApplicationPath)
+echo $LOOKUP_RESULT
+
+# echo
+# echo
+# echo -n "$LOOKUP_RESULT" | xxd -g1 -u
+# echo
+# echo
+# echo -n "\nCorrected word for iy_____ is: it_____" | xxd -g1 -u
+# echo
+# echo
+# echo -n $'\n'"Corrected word for iy_____ is: it_____" | xxd -g1 -u
+# echo
+# echo
+
+# Notes:
+#
+#    1. This test depends on the content of
+#       the Edit Overflow word list.
+#
+#    2. Both strings must be quoted
+#
+#    3. For a successful lookup, there
+#       is a leading newline...
+#
+#mustBeEqual "${LOOKUP_RESULT}" 'The word "iy" is not in the word list...'  30   "The Edit Overflow commandline lookup result was not as expected."
+#mustBeEqual "${LOOKUP_RESULT}" "\nCorrected word for iy is: it_____"  30   "The Edit Overflow commandline lookup result was not as expected."
+#mustBeEqual "${LOOKUP_RESULT}" $'\n'"Corrected word for iy_____ is: it_____"  30   "The Edit Overflow commandline lookup result was not as expected."
+mustBeEqual "${LOOKUP_RESULT}" $'\n'"Corrected word for iy is: it_____"  30   "The Edit Overflow commandline lookup result was not as expected."
+
+# "LOOKUP" overrides, so we must reset it for exports to work...
+unset LOOKUP
 
 
 # ###########################################################################
