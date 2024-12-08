@@ -303,6 +303,7 @@ export EFFECTIVE_DATE='2021-02-03'
 export EFFECTIVE_DATE='2021-06-14'
 export EFFECTIVE_DATE='2022-03-01'
 export EFFECTIVE_DATE='2023-07-11'
+export EFFECTIVE_DATE='2024-12-07'
 
 
 export SRCFOLDER_BASE='/home/embo/UserProf/At_XP64/Edit_Overflow'
@@ -1439,8 +1440,8 @@ function retrieveWebHostingErrorLog()
 #
 # Parameters:
 #
-#    $1   The name of the to check for a file
-#         size range. E.g., the full path
+#    $1   The name of the export file to check for
+#         a file size range. E.g., the full path
 #
 #    $2   Minimum size. Is inclusive.
 #
@@ -1697,6 +1698,87 @@ function sourceSpellcheck()
     checkFileSize  ${TEMP_PHP_COMMENTCHARACTERS_FILE} 0 0 $1 "PHP source comment character"
 
 } #sourceSpellcheck()
+
+
+# ###########################################################################
+#
+# Helper function to reduce redundancy.
+#
+# Test of the Edit Overflow command-line interface.
+#
+#    $1   Build step number
+#
+#    $2   Application name. Executable name,
+#         e.g., a full path to it.
+#
+#    $3   String identifying the build step
+#         (for use in error messages)
+#
+#    $4   XXXXX
+#
+#    $5   XXXXXX
+#
+function testCommandLineInterface()
+{
+    #Future: Sanity check for the modification date
+    #        of the executable (it should only be
+    #        a minutes old).
+
+    # Aliases: More meaningful parameter names
+    export aBuildStepNumber=$1
+    export anApplicationName=$2
+    export aBuildIdentification=$3
+
+    # Sanity check. That it actually exists and that the
+    #               exit code when running it is 0.
+    #
+    # Though the exit code is effectively checked in the
+    # "wordListExport" above (if the .NET and native
+    # application is based on the same source code).
+    #
+    checkCommand "$anApplicationName" "Failed in running the $aBuildIdentification command line application of Edit Overflow"  $aBuildStepNumber
+
+    # Clear out for any previous invocations
+    unset LOOKUP
+    unset WORDLIST_OUTPUTTYPE
+
+    export LOOKUP="R2R"
+    export LOOKUP_RESULT=$($anApplicationName)
+    echo $LOOKUP_RESULT
+
+    timeStamp "CLI lookup, start"
+    export LOOKUP="iy"
+    export LOOKUP_RESULT=$($anApplicationName)
+    timeStamp "CLI lookup, end  "
+    echo $LOOKUP_RESULT
+
+    # echo
+    # echo
+    # echo -n "$LOOKUP_RESULT" | xxd -g1 -u
+    # echo
+    # echo
+    # echo -n "\nCorrected word for iy_____ is: it_____" | xxd -g1 -u
+    # echo
+    # echo
+    # echo -n $'\n'"Corrected word for iy_____ is: it_____" | xxd -g1 -u
+    # echo
+    # echo
+
+    # Notes:
+    #
+    #    1. This test depends on the content of
+    #       the Edit Overflow word list.
+    #
+    #    2. Both strings must be quoted
+    #
+    #    3. For a successful lookup, there
+    #       is a leading newline...
+    #
+    mustBeEqual "${LOOKUP_RESULT}" $'\n'"Corrected word for iy is: it_____"  $aBuildStepNumber "The Edit Overflow commandline lookup result was not as expected."
+
+    # "LOOKUP" overrides, so we must reset it for exports to work...
+    unset LOOKUP
+} #testCommandLineInterface()
 
 
 # Marker:  FFFFFFFFFF
@@ -2543,7 +2625,6 @@ rm $COMPILECHECK_OUT
 # Note: The same build number
 wordListExport 30 "compileCheck"  $COMPILECHECK_OUT  40 100
 
-
 # Extra: Generate a native compiled version of Edit Overflow.
 #        The result is also 'EditOverflow3', but deeper in
 #        the folder hierarchy, in folder '/linux-x64/publish'
@@ -2555,56 +2636,19 @@ echo "Absolute path for native Edit Overflow application: ${supposedNativeApplic
 dotnet publish EditOverflow3.csproj
 timeStamp "End creating native Edit Overflow application"
 
-# Sanity check. That it actually exists and that the
-#               exit code when running it is 0.
-#
-# Though the exit code is effectively checked in the
-# "wordListExport" above (if the .NET and native
-# application is based on the same source code).
-#
-checkCommand "$supposedNativeApplicationPath" "Failed in running the native compiled command line application of Edit Overflow"  30
+# Native application
+testCommandLineInterface 30 $supposedNativeApplicationPath "native compiled"
 
-# Clear out for any previous invocations
-unset LOOKUP
-unset WORDLIST_OUTPUTTYPE
+# .NET application
+testCommandLineInterface  30 "${WORKFOLDER}/bin/Debug/netcoreapp3.1/linux-x64/EditOverflow3" ".NET"
 
-export LOOKUP="R2R"
-export LOOKUP_RESULT=$($supposedNativeApplicationPath)
-echo $LOOKUP_RESULT
+# Fails... Probably because adding RID "linux-x64"
+# in the project file changed the location of
+# the the executable.
+#testCommandLineInterface 30 "${WORKFOLDER}/bin/Debug/netcoreapp3.1/EditOverflow3"           ".NET"
 
-export LOOKUP="iy"
-export LOOKUP_RESULT=$($supposedNativeApplicationPath)
-echo $LOOKUP_RESULT
 
-# echo
-# echo
-# echo -n "$LOOKUP_RESULT" | xxd -g1 -u
-# echo
-# echo
-# echo -n "\nCorrected word for iy_____ is: it_____" | xxd -g1 -u
-# echo
-# echo
-# echo -n $'\n'"Corrected word for iy_____ is: it_____" | xxd -g1 -u
-# echo
-# echo
-
-# Notes:
-#
-#    1. This test depends on the content of
-#       the Edit Overflow word list.
-#
-#    2. Both strings must be quoted
-#
-#    3. For a successful lookup, there
-#       is a leading newline...
-#
-#mustBeEqual "${LOOKUP_RESULT}" 'The word "iy" is not in the word list...'  30   "The Edit Overflow commandline lookup result was not as expected."
-#mustBeEqual "${LOOKUP_RESULT}" "\nCorrected word for iy is: it_____"  30   "The Edit Overflow commandline lookup result was not as expected."
-#mustBeEqual "${LOOKUP_RESULT}" $'\n'"Corrected word for iy_____ is: it_____"  30   "The Edit Overflow commandline lookup result was not as expected."
-mustBeEqual "${LOOKUP_RESULT}" $'\n'"Corrected word for iy is: it_____"  30   "The Edit Overflow commandline lookup result was not as expected."
-
-# "LOOKUP" overrides, so we must reset it for exports to work...
-unset LOOKUP
+exit
 
 
 # ###########################################################################
