@@ -2648,9 +2648,6 @@ testCommandLineInterface  30 "${WORKFOLDER}/bin/Debug/netcoreapp3.1/linux-x64/Ed
 #testCommandLineInterface 30 "${WORKFOLDER}/bin/Debug/netcoreapp3.1/EditOverflow3"           ".NET"
 
 
-exit
-
-
 # ###########################################################################
 #
 # Export the Edit Overflow word list as SQL
