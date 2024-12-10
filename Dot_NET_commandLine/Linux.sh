@@ -2984,6 +2984,12 @@ eval ${LFTP_COMMAND}  ; evaluateBuildResult 38 $? "copying the HTML word list to
 #
 #                    Internal IDs: ID 12749,
 #
+#  2024-12-10T172500  "failed (error code 1)"
+#
+#                     Unknown reason. Multiple intermittent failures,
+#                     including a Cloudflare redirect with
+#                     "Connection timed out", error 522.
+#
 if [ ${DISABLE_HTMLVALIDATION} != 1 ]; then
     HTML_validation      EditOverflow.php                   "Edit Overflow lookup"    39
     HTML_validation      Text.php                           "Text stuff"              40
