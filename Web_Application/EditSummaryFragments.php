@@ -361,7 +361,11 @@
                 to the Stack Exchange software.
                 Possible code fencing formatting (note:
                 <a href="https://meta.stackexchange.com/questions/403526/syntax-highlighting-when-using-a-lang-alias-and-some-main-language-codes"
-                >broken in late 2024</a>):
+                >broken in late 2024</a>. See also 
+                <a href="https://meta.stackoverflow.com/questions/432152/syntax-highlighting-is-broken-renders-as-lang-none-despite-a-correct-lang-p"
+                >this meta post</a>
+                (<a href="https://stackoverflow.com/help/whats-meta"
+                >MSO</a>)):
                     ```lang-none,
                     ```lang-html,
                     ```lang-php,
