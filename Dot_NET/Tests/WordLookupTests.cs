@@ -82,7 +82,7 @@ namespace WordLookupTestsTests
             Assert.AreEqual(
               aCorrectWord,
               tt2.getCoreString(),
-              "Trailing charactere misidentified as punctuation: " +
+              "Trailing characters misidentified as punctuation: " +
                 aCorrectWord); // Hopefully enough to identify the caller...
 
         } //unchangedLookup()
@@ -96,6 +96,9 @@ namespace WordLookupTestsTests
         [Test]
         public void preprocessing()
         {
+            // Preprocessing as in stripping some leading 
+            // and trailing characters (or not)
+            
             // Characteristics of members of the alternative word
             // set should not be seen as punctuation... (Or
             // should be encoded internally in a different way.)
@@ -121,6 +124,10 @@ namespace WordLookupTestsTests
                   "");
             }
 
+            // Test that leading and trailing characters
+            // are ***not*** stripped (correct words 
+            // only for these tests).
+            //
             unchangedLookup("Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar)");
             unchangedLookup("&mdash;");
             unchangedLookup("'like button'");
@@ -155,6 +162,34 @@ namespace WordLookupTestsTests
             unchangedLookup("Baháʼí");
             unchangedLookup("Stack Overflow на русском");
             unchangedLookup("Malmö");
+
+            // Indirect check that incorrect word "*" is not stripped
+            // before the actual search: If it is, the lookup will
+            // fail
+            {
+                WordCorrector someWordCorrector = new WordCorrector();
+                lookupResultStructure lookupResult =
+                    someWordCorrector.lookup_Central("*", false);
+
+                Assert.AreEqual(
+                  @"asterisk",
+                  lookupResult.correctedText,
+                  "");
+            }
+
+            // Indirect check that incorrect word '"' (double quote) 
+            // is not stripped before the actual search: If it is, 
+            // the lookup will fail
+            {
+                WordCorrector someWordCorrector = new WordCorrector();
+                lookupResultStructure lookupResult =
+                    someWordCorrector.lookup_Central("\"", false);
+
+                Assert.AreEqual(
+                  @"double quote",
+                  lookupResult.correctedText,
+                  "");
+            }
 
         } //preprocessing()
 

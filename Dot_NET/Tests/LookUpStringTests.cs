@@ -8,7 +8,7 @@
  ****************************************************************************/
 
 
-using NUnit.Framework; //For all versions of NUnit, 
+using NUnit.Framework; //For all versions of NUnit,
                        //file "nunit.framework.dll"
 
 //using NUnit.Engine. No!
@@ -44,7 +44,7 @@ namespace LookUpStringTests
         public void noWhiteSpace()
         {
             {
-                LookUpString tt = new LookUpString("Peter"); 
+                LookUpString tt = new LookUpString("Peter");
                 string cs = tt.getCoreString();
                 Assert.AreEqual("Peter", cs, "");
             }
@@ -134,7 +134,35 @@ namespace LookUpStringTests
                 string trailing = tt2.getTrailing();
                 Assert.AreEqual(", ", trailing, "");
             }
-		
+
+            // Some short words should ***not*** be treated as punctuation
+            {
+                LookUpString tt2 = new LookUpString("\"");
+
+                string cs = tt2.getCoreString();
+                Assert.AreEqual("\"", cs, "");
+
+                string leading = tt2.getLeading();
+                Assert.AreEqual("", leading, "");
+
+                string trailing = tt2.getTrailing();
+                Assert.AreEqual("", trailing, "");
+            }
+
+            // Some short words should ***not*** be treated as punctuation
+            {
+                LookUpString tt2 = new LookUpString("*");
+
+                string cs = tt2.getCoreString();
+                Assert.AreEqual("*", cs, "");
+
+                string leading = tt2.getLeading();
+                Assert.AreEqual("", leading, "");
+
+                string trailing = tt2.getTrailing();
+                Assert.AreEqual("", trailing, "");
+            }
+
 
         } //leadingAndTrailingWhiteSpace
 
@@ -158,7 +186,7 @@ namespace LookUpStringTests
             }
         } //leadingAndTrailingWhiteSpace
 
-        
+
     } //class LookUpStringTests
 
 } //namespace namespaceForPILmassCalcTests

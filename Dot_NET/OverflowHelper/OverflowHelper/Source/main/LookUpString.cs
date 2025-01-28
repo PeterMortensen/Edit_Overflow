@@ -50,15 +50,20 @@ namespace OverflowHelper.core
             //
             int sLen = aRawString.Length;
             int lastIndex = sLen - 1;
-            while (startIndex < sLen &&
-                    (aRawString[startIndex] == ' ' ||
-                     aRawString[startIndex] == '"' ||
-                     aRawString[startIndex] == '*'
-                     )
-                  ) // Relying on short-circuit
-                    // Boolean...
+            if (sLen > 1) // Don't strip a one-character word. Both '"'"
+                          // and "*" are valid lookup words (not Markdown
+                          // formatting in that context)
             {
-                startIndex++;
+                while (startIndex < sLen &&
+                        (aRawString[startIndex] == ' ' ||
+                         aRawString[startIndex] == '"' ||
+                         aRawString[startIndex] == '*'
+                         )
+                      ) // Relying on short-circuit
+                        // Boolean...
+                {
+                    startIndex++;
+                }
             }
 
             //Note: we actually crash below when aRawString is empty -
@@ -86,7 +91,7 @@ namespace OverflowHelper.core
                 (aRawString[endIdx] < 'A' || aRawString[endIdx] > 'Z') &&
                 (aRawString[endIdx] < 'a' || aRawString[endIdx] > 'z') &&
                 (aRawString[endIdx] < '0' || aRawString[endIdx] > '9') &&
-                
+
                 // A number of exceptions
 
                 // For "C#"...
@@ -99,12 +104,12 @@ namespace OverflowHelper.core
                 (aRawString[endIdx] < '+' || aRawString[endIdx] > '+') &&
 
 
-                //  T H I S   I S   G E T T I N G   O U T   O F   H A N D . . . 
+                //  T H I S   I S   G E T T I N G   O U T   O F   H A N D . . .
                 //
-                //Perhaps use a positive list for the punctuation instead? 
+                //Perhaps use a positive list for the punctuation instead?
                 //The number of possible characters should be much smaller.
                 //
-                //Perhaps make exceptions for specific words in the 
+                //Perhaps make exceptions for specific words in the
                 //word set? As the more general exceptions we add,
                 //the more we weaken the general ability to directly
                 //look up words that have leading and trailing space,
@@ -139,11 +144,11 @@ namespace OverflowHelper.core
                 // Sample: "Hello, World!"
                 (aRawString[endIdx] != '!') &&
 
-                // Though it may defeat the purpose for seamlessly 
+                // Though it may defeat the purpose for seamlessly
                 // handling formatted text copied in as Markdown
                 // italics or bold...
                 //
-                // Sample: "Sagittarius A*"                
+                // Sample: "Sagittarius A*"
                 (aRawString[endIdx] != '*') &&
 
                 // Sample: "[sic]"
