@@ -58,9 +58,9 @@ namespace OverflowHelper.core
                         (aRawString[startIndex] == ' ' ||
                          aRawString[startIndex] == '"' ||
                          aRawString[startIndex] == '*'
-                         )
+                        )
                       ) // Relying on short-circuit
-                        // Boolean...
+                         // Boolean...
                 {
                     startIndex++;
                 }
