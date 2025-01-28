@@ -140,7 +140,8 @@ namespace OverflowHelper.core
             string correctedWord;
 
             //Note about the variable name: It is not always
-            //a Wikipedia URL... Some are for Wiktionary, MSDN, etc.
+            //a Wikipedia URL... Some are for Wiktionary, 
+            //MSDN, etc.
             toReturn.WikipediaURL =
                 mTermLookup.lookUp(
                     toReturn.coreString,

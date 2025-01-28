@@ -100,7 +100,7 @@ namespace EditOverflow2
                                        // We presume the naming convention
                                        // with trailing underscores
 
-                } // Through all word sets, until there is a match
+                } // Through all word sets, until there is a match (or not)
 
 
                 //Console.WriteLine("'alo...");

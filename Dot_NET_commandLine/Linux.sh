@@ -57,7 +57,7 @@
 #     e.g. run unit tests and automatically deploy to a web            #
 #     hosting site.                                                    #
 #                                                                      #
-#                                                                      #
+#                                                                      #                                                                  #
 # Installation notes:                                                  #
 #                                                                      #
 #   To enable compilation and running .NET Core code on                #
@@ -78,6 +78,13 @@
 #   that is the case):                                                 #
 #                                                                      #
 #      dotnet add package NUnit                                        #
+#                                                                      #
+# Run notes:                                                           #
+#                                                                      #
+#   Even the local part of the tests currently requires a working      #
+#   Internet connection, as Jest (for JavaScript unit testing)         #
+#   for unknown reasons requires it, even just executing               #
+#   "jest --version" from the command line.                            #                 #
 #                                                                      #
 ########################################################################
 
@@ -2198,10 +2205,12 @@ checkCommand "nvm --version" "${prefix1} nvm ${prefix2}\n# Note: Without 'sudo'!
 # on Ubuntu 18.04, but it was possible to
 # use 'nvm' to overcome it.
 #
-# Note: It will also fail without a working Internet
-#       connection. Why should just "jest --version"
-#       require an Internet connection????
-#       The error code is 127.
+# Note: 
+#
+#     It will also fail without a working Internet
+#     connection. Why should just "jest --version"
+#     require an Internet connection????
+#     The error code is 127.
 #
 # Installation of the prerequisite ***sufficient high*** version
 # of Node.js on Ubuntu 18.04 (using nvm):
