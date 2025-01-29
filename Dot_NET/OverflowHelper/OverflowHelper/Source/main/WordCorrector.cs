@@ -62,8 +62,8 @@ namespace OverflowHelper.core
                              // lookups. The other fields are only
                              // for the last lookup. The mismatch
                              // comes from the refactoring of
-                             // the lookup to separate the 
-                             // lookup from the Windows 
+                             // the lookup to separate the
+                             // lookup from the Windows
                              // interface to enable it
                              // on Linux, etc.
     }; //struct lookupResuls
@@ -140,7 +140,7 @@ namespace OverflowHelper.core
             string correctedWord;
 
             //Note about the variable name: It is not always
-            //a Wikipedia URL... Some are for Wiktionary, 
+            //a Wikipedia URL... Some are for Wiktionary,
             //MSDN, etc.
             toReturn.WikipediaURL =
                 mTermLookup.lookUp(

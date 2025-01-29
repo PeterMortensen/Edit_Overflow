@@ -26,20 +26,27 @@ namespace OverflowHelper.core
         string mLeadingWhiteSpace;
         string mTrailingWhiteSpace;
 
+        //For now: A state. But it should probably be required
+        //         of clients to explicitly provide it
+        bool mStripSomeLeadingAndCharacters;
+
 
         /****************************************************************************
          *    Constructor                                                           *
          ****************************************************************************/
         public LookUpString(string aRawString)
         {
-            update(aRawString);
+            mStripSomeLeadingAndCharacters = true;
+
+            update(aRawString, mStripSomeLeadingAndCharacters);
         } //Constructor.
 
 
         /****************************************************************************
          *    <placeholder for header>                                              *
          ****************************************************************************/
-        private void update(string aRawString)
+        private void update(string aRawString,
+                            bool aStripSomeLeadingAndCharacters)
         {
             mLeadingWhiteSpace = null;
             mTrailingWhiteSpace = null;
@@ -50,9 +57,11 @@ namespace OverflowHelper.core
             //
             int sLen = aRawString.Length;
             int lastIndex = sLen - 1;
-            if (sLen > 1) // Don't strip a one-character word. Both '"'"
+            if (aStripSomeLeadingAndCharacters &&
+                sLen > 1  // Don't strip a one-character word. Both '"'"
                           // and "*" are valid lookup words (not Markdown
                           // formatting in that context)
+               )
             {
                 while (startIndex < sLen &&
                         (aRawString[startIndex] == ' ' ||
@@ -86,6 +95,8 @@ namespace OverflowHelper.core
             //
             //Can we avoid all these lookups (it is also redundant)?
             while (
+                aStripSomeLeadingAndCharacters && // Not really part of
+                                                  // the loop...
                 endIdx > startIndex && // Must be first to avoid exception
                                        // for an empty string...
                 (aRawString[endIdx] < 'A' || aRawString[endIdx] > 'Z') &&
