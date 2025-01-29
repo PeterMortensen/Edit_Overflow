@@ -2688,6 +2688,10 @@ testCommandLineInterface 30 "${WORKFOLDER}/bin/Debug/netcoreapp3.1/linux-x64/Edi
 # the the executable.
 #testCommandLineInterface 30 "${WORKFOLDER}/bin/Debug/netcoreapp3.1/EditOverflow3"           ".NET"
 
+# Was affected by automatic filtering of some leading
+# and trailing characters
+checkCommandLineLookup 30 $supposedNativeApplicationPath "\"Timeless\" Homerow" "timeless home row keyboard modifier keys"
+
 
 # ###########################################################################
 #
