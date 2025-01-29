@@ -60,7 +60,7 @@ namespace OverflowHelper.core
                          aRawString[startIndex] == '*'
                         )
                       ) // Relying on short-circuit
-                         // Boolean...
+                        // Boolean...
                 {
                     startIndex++;
                 }
