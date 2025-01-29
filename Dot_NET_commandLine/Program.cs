@@ -62,7 +62,8 @@ namespace EditOverflow2
                     wordSet++;
 
                     lookupResultStructure lookupResult =
-                        someWordCorrector.lookup_Central(lookupWord, false);
+                        someWordCorrector.lookup_Central(
+                            lookupWord, false, true);
 
                     string correctedText2 = lookupResult.correctedText;
                     int URLcount = lookupResult.URLcount;

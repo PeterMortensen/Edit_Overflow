@@ -19,8 +19,6 @@
  *         And providing call-through/facade functions.                     *
  *                                                                          *
  *                                                                          *
- *                                                                          *
- *                                                                          *
  ****************************************************************************/
 
 /****************************************************************************
@@ -120,8 +118,10 @@ namespace OverflowHelper.core
          *  This function is independent of the (Windows) UI.                       *
          *                                                                          *
          ****************************************************************************/
-        public lookupResultStructure lookup_Central(string aToLookUp,
-                                                    bool aGuessURL_ifFailedLookup)
+        public lookupResultStructure lookup_Central(
+            string aToLookUp,
+            bool aGuessURL_ifFailedLookup,
+            bool aStripSomeLeadingAndCharacters)
         {
             lookupResultStructure toReturn;
 
@@ -131,7 +131,8 @@ namespace OverflowHelper.core
             toReturn.WikipediaURL = string.Empty;
             toReturn.URLcount = -1;
 
-            LookUpString tt2 = new LookUpString(aToLookUp);
+            LookUpString tt2 = 
+                new LookUpString(aToLookUp, aStripSomeLeadingAndCharacters);
             toReturn.coreString = tt2.getCoreString();
 
             string leading = tt2.getLeading();

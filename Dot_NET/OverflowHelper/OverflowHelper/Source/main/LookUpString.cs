@@ -43,6 +43,18 @@ namespace OverflowHelper.core
 
 
         /****************************************************************************
+         *    Another constructor                                                           *
+         ****************************************************************************/
+        public LookUpString(string aRawString, 
+                            bool aStripSomeLeadingAndCharacters)
+        {
+            mStripSomeLeadingAndCharacters = aStripSomeLeadingAndCharacters;
+
+            update(aRawString, mStripSomeLeadingAndCharacters);
+        } //Constructor.
+
+
+        /****************************************************************************
          *    <placeholder for header>                                              *
          ****************************************************************************/
         private void update(string aRawString,

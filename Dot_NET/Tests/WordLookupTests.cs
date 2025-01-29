@@ -43,7 +43,7 @@ namespace WordLookupTestsTests
             {
                 WordCorrector someWordCorrector = new WordCorrector();
                 lookupResultStructure lookupResult =
-                    someWordCorrector.lookup_Central("php", false);
+                    someWordCorrector.lookup_Central("php", false, true);
 
                 Assert.AreEqual(
                   @"PHP",
@@ -59,7 +59,7 @@ namespace WordLookupTestsTests
             {
                 WordCorrector someWordCorrector = new WordCorrector();
                 lookupResultStructure lookupResult =
-                    someWordCorrector.lookup_Central("academia_", false);
+                    someWordCorrector.lookup_Central("academia_", false, true);
 
                 Assert.AreEqual(
                   @"Academia (Stack Exchange site)_",
@@ -116,7 +116,7 @@ namespace WordLookupTestsTests
             {
                 WordCorrector someWordCorrector = new WordCorrector();
                 lookupResultStructure lookupResult =
-                    someWordCorrector.lookup_Central("academia_", false);
+                    someWordCorrector.lookup_Central("academia_", false, true);
 
                 Assert.AreEqual(
                   @"Academia (Stack Exchange site)_",
@@ -169,7 +169,7 @@ namespace WordLookupTestsTests
             {
                 WordCorrector someWordCorrector = new WordCorrector();
                 lookupResultStructure lookupResult =
-                    someWordCorrector.lookup_Central("*", false);
+                    someWordCorrector.lookup_Central("*", false, true);
 
                 Assert.AreEqual(
                   @"asterisk",
@@ -183,7 +183,7 @@ namespace WordLookupTestsTests
             {
                 WordCorrector someWordCorrector = new WordCorrector();
                 lookupResultStructure lookupResult =
-                    someWordCorrector.lookup_Central("\"", false);
+                    someWordCorrector.lookup_Central("\"", false, true);
 
                 Assert.AreEqual(
                   @"double quote",
