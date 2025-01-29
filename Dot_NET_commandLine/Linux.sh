@@ -1711,7 +1711,73 @@ function sourceSpellcheck()
 #
 # Helper function to reduce redundancy.
 #
+# Test of the lookup through the Edit Overflow
+# command-line interface.
+#
+#    $1   Build step number
+#
+#    $2   Application name. Executable name,
+#         e.g., a full path to it.
+#
+#    $3   Input word
+#
+#    $4   Expected lookup result
+#
+function checkCommandLineLookup()
+{
+    # Aliases: More meaningful parameter names
+    export aBuildStepNumber=$1
+    export anApplicationName=$2
+    export anInputWord=$3
+    export anExpectedResult=$4
+
+    # Clear out for any previous invocations
+    unset LOOKUP
+    unset WORDLIST_OUTPUTTYPE
+
+    timeStamp "CLI lookup, start"
+
+    # Can we actually handle input with "*"???
+    export LOOKUP="$anInputWord"
+
+    # Example: </home/mortensen/temp2/2024-12-07/_DotNET_tryout/EditOverflow4/bin/Debug/netcoreapp3.1/linux-x64/publish/EditOverflow3>
+    #
+    export LOOKUP_RESULT=$($anApplicationName)
+    timeStamp "CLI lookup, end  "
+
+    # Example: "Corrected word for iy is: it_____" (with a leading newline)
+    #
+    echo "$LOOKUP_RESULT"
+
+    # Notes:
+    #
+    #    1. This test depends on the content of
+    #       the Edit Overflow word list.
+    #
+    #    2. Both strings must be quoted
+    #
+    #    3. For a successful lookup, there
+    #       is a leading newline...
+    #
+    #mustBeEqual "${LOOKUP_RESULT}" $'\n'"Corrected word for iy isWWW: ${anExpectedResult}"  $aBuildStepNumber "The Edit Overflow commandline lookup result was not as expected."
+    mustBeEqual "${LOOKUP_RESULT}" $'\n'"Corrected word for ${anInputWord} is: ${anExpectedResult}"  $aBuildStepNumber "The Edit Overflow commandline lookup result was not as expected."
+
+    # "LOOKUP" overrides, so we must reset it for exports to work...
+    unset LOOKUP
+
+} #checkCommandLineLookup()
+
+
+# ###########################################################################
+#
+# Helper function to reduce redundancy.
+#
 # Test of the Edit Overflow command-line interface.
+#
+# The primary purpose is to compare the normal
+# .NET application and the .NET native
+# compiled .NET application (they
+# should behave the same).
 #
 #    $1   Build step number
 #
@@ -1721,15 +1787,11 @@ function sourceSpellcheck()
 #    $3   String identifying the build step
 #         (for use in error messages)
 #
-#    $4   XXXXX
-#
-#    $5   XXXXXX
-#
 function testCommandLineInterface()
 {
     #Future: Sanity check for the modification date
     #        of the executable (it should only be
-    #        a minutes old).
+    #        a few minutes old).
 
     # Aliases: More meaningful parameter names
     export aBuildStepNumber=$1
@@ -1745,46 +1807,16 @@ function testCommandLineInterface()
     #
     checkCommand "$anApplicationName" "Failed in running the $aBuildIdentification command line application of Edit Overflow"  $aBuildStepNumber
 
-    # Clear out for any previous invocations
-    unset LOOKUP
-    unset WORDLIST_OUTPUTTYPE
 
-    export LOOKUP="R2R"
-    export LOOKUP_RESULT=$($anApplicationName)
-    echo $LOOKUP_RESULT
+    # Possibly, the 'cold' runtime. Though it
+    # may be dependent on a previous run of
+    # the build script
+    checkCommandLineLookup "$aBuildStepNumber" "$anApplicationName" "R2R" "ReadyToRun"
 
-    timeStamp "CLI lookup, start"
-    export LOOKUP="iy"
-    export LOOKUP_RESULT=$($anApplicationName)
-    timeStamp "CLI lookup, end  "
-    echo $LOOKUP_RESULT
+    # At this point, it should be the 'warm' runtime
+    checkCommandLineLookup "$aBuildStepNumber" "$anApplicationName" "iy"  "it_____"
 
-    # echo
-    # echo
-    # echo -n "$LOOKUP_RESULT" | xxd -g1 -u
-    # echo
-    # echo
-    # echo -n "\nCorrected word for iy_____ is: it_____" | xxd -g1 -u
-    # echo
-    # echo
-    # echo -n $'\n'"Corrected word for iy_____ is: it_____" | xxd -g1 -u
-    # echo
-    # echo
-
-    # Notes:
-    #
-    #    1. This test depends on the content of
-    #       the Edit Overflow word list.
-    #
-    #    2. Both strings must be quoted
-    #
-    #    3. For a successful lookup, there
-    #       is a leading newline...
-    #
-    mustBeEqual "${LOOKUP_RESULT}" $'\n'"Corrected word for iy is: it_____"  $aBuildStepNumber "The Edit Overflow commandline lookup result was not as expected."
-
-    # "LOOKUP" overrides, so we must reset it for exports to work...
-    unset LOOKUP
+    checkCommandLineLookup "$aBuildStepNumber" "$anApplicationName" "php" "PHP"
 } #testCommandLineInterface()
 
 
@@ -2205,7 +2237,7 @@ checkCommand "nvm --version" "${prefix1} nvm ${prefix2}\n# Note: Without 'sudo'!
 # on Ubuntu 18.04, but it was possible to
 # use 'nvm' to overcome it.
 #
-# Note: 
+# Note:
 #
 #     It will also fail without a working Internet
 #     connection. Why should just "jest --version"
@@ -2649,7 +2681,7 @@ timeStamp "End creating native Edit Overflow application"
 testCommandLineInterface 30 $supposedNativeApplicationPath "native compiled"
 
 # .NET application
-testCommandLineInterface  30 "${WORKFOLDER}/bin/Debug/netcoreapp3.1/linux-x64/EditOverflow3" ".NET"
+testCommandLineInterface 30 "${WORKFOLDER}/bin/Debug/netcoreapp3.1/linux-x64/EditOverflow3" ".NET"
 
 # Fails... Probably because adding RID "linux-x64"
 # in the project file changed the location of
@@ -2667,7 +2699,6 @@ testCommandLineInterface  30 "${WORKFOLDER}/bin/Debug/netcoreapp3.1/linux-x64/Ed
 #       CS0162 is "warning : Unreachable code detected"
 #
 startOfBuildStep "31" "Exporting the word list as SQL"
-
 
 
 # Main operation: Export word list to SQL
