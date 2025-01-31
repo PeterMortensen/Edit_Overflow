@@ -121,7 +121,7 @@ namespace OverflowHelper.core
         public lookupResultStructure lookup_Central(
             string aToLookUp,
             bool aGuessURL_ifFailedLookup,
-            bool aStripSomeLeadingAndCharacters)
+            bool aStripSomeLeadingAndTrailingCharacters)
         {
             lookupResultStructure toReturn;
 
@@ -131,8 +131,9 @@ namespace OverflowHelper.core
             toReturn.WikipediaURL = string.Empty;
             toReturn.URLcount = -1;
 
-            LookUpString tt2 = 
-                new LookUpString(aToLookUp, aStripSomeLeadingAndCharacters);
+            LookUpString tt2 =
+                new LookUpString(
+                  aToLookUp, aStripSomeLeadingAndTrailingCharacters);
             toReturn.coreString = tt2.getCoreString();
 
             string leading = tt2.getLeading();
