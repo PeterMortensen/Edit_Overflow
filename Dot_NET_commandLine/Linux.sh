@@ -2694,7 +2694,7 @@ checkCommandLineLookup 30 $supposedNativeApplicationPath "\"Timeless\" Homerow" 
 
 # We expect the lookup to succeed, even with
 # leading and trailing space as input
-checkCommandLineLookup 30 $supposedNativeApplicationPath " OS " " operating system "
+checkCommandLineLookup 30 $supposedNativeApplicationPath  " OS "   " operating system "
 
 
 # ###########################################################################
