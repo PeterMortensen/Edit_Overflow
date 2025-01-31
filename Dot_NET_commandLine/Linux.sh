@@ -83,7 +83,7 @@
 #                                                                      #
 #   Even the local part of the tests currently requires a working      #
 #   Internet connection, as Jest (for JavaScript unit testing)         #
-#   for unknown reasons ***sometimes*** requires it, even just         # 
+#   for unknown reasons ***sometimes*** requires it, even just         #
 #   executing "jest --version" from the command line.                  #
 #                                                                      #
 ########################################################################
@@ -2915,6 +2915,12 @@ cd -
 #
 # It is near the very end, so we don't push anything
 # to production if some test fail.
+#
+# If there isn't a (working) Internet
+# connection, the result is:
+#
+#     open: linux42.simply.com: Name or service not known
+#     mirror: Not connected
 #
 startOfBuildStep "37" "Updating the JavaScript word list file on pmortenen.eu (<https://pmortensen.eu/world/EditOverflowList.js>)"
 
