@@ -72,7 +72,16 @@ namespace OverflowHelper.core
             // Configuration
             //
             // 'false is the old behaviour
-            const bool kFilterSomeCharacters = false;
+            //
+            // 'true': We have reinstated a minimim amount of
+            //         automatic filtering of leading and
+            //         trailing characters, in particular
+            //         space, even if it has otherwise
+            //         been turned off
+            //         (aStripSomeLeadingAndTrailingCharacters
+            //         is false).
+            //
+            const bool kFilterSomeCharacters = true;
 
             bool filterSomeCharacters = kFilterSomeCharacters;
             if (aStripSomeLeadingAndTrailingCharacters)

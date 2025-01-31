@@ -2692,6 +2692,10 @@ testCommandLineInterface 30 "${WORKFOLDER}/bin/Debug/netcoreapp3.1/linux-x64/Edi
 # and trailing characters
 checkCommandLineLookup 30 $supposedNativeApplicationPath "\"Timeless\" Homerow" "timeless home row keyboard modifier keys"
 
+# We expect the lookup to succeed, even with
+# leading and trailing space as input
+checkCommandLineLookup 30 $supposedNativeApplicationPath " OS " " operating system "
+
 
 # ###########################################################################
 #

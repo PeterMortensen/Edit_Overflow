@@ -195,13 +195,13 @@ namespace LookUpStringTests
             {
                 LookUpString tt2 = new LookUpString(" OS ", false);
                 string cs = tt2.getCoreString();
-                Assert.AreEqual(" OS ", cs, "");
+                Assert.AreEqual("OS", cs, "");
 
                 string leading = tt2.getLeading();
-                Assert.AreEqual("", leading, "");
+                Assert.AreEqual(" ", leading, "");
 
                 string trailing = tt2.getTrailing();
-                Assert.AreEqual("", trailing, "");
+                Assert.AreEqual(" ", trailing, "");
             }
 
             // Test of the option to turn automatic
