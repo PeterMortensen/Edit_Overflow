@@ -83,8 +83,8 @@
 #                                                                      #
 #   Even the local part of the tests currently requires a working      #
 #   Internet connection, as Jest (for JavaScript unit testing)         #
-#   for unknown reasons requires it, even just executing               #
-#   "jest --version" from the command line.                            #                 #
+#   for unknown reasons ***sometimes*** requires it, even just         # 
+#   executing "jest --version" from the command line.                  #
 #                                                                      #
 ########################################################################
 
@@ -2239,9 +2239,12 @@ checkCommand "nvm --version" "${prefix1} nvm ${prefix2}\n# Note: Without 'sudo'!
 #
 # Note:
 #
-#     It will also fail without a working Internet
+#     It may (not always) also fail without a working Internet
 #     connection. Why should just "jest --version"
-#     require an Internet connection????
+#     require an Internet connection???? As it does
+#     not always, what are the conditions for the
+#     failure?
+#
 #     The error code is 127.
 #
 # Installation of the prerequisite ***sufficient high*** version
@@ -2898,6 +2901,8 @@ echo
 # But will output something...
 cd -
 
+
+# The first step that requires an Internet connection...
 
 # ###########################################################################
 #

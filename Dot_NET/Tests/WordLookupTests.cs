@@ -163,8 +163,8 @@ namespace WordLookupTestsTests
                                       // for some reason... (without
                                       // needing an exception). Why?
             unchangedLookupTerm("~"); // Only one character. This works
-                                  // for some reason... (without
-                                  // needing an exception). Why?
+                                      // for some reason... (without
+                                      // needing an exception). Why?
             unchangedLookupTerm("<"); // Only one character. This works
                                       // for some reason... (without
                                       // needing an exception). Why?
