@@ -145,7 +145,7 @@ namespace OverflowHelper.core
                     {
                         done = true;
                     }
-                } // Scanning for one or more trailing
+                } // Scanning for one or more leading
                   // characters to filter out
             } // Short input
 
@@ -166,174 +166,190 @@ namespace OverflowHelper.core
             // while (aRawString[endIdx] == ' ' && endIdx > startIndex)
             //
             //Can we avoid all these lookups (they are also redundant)?
-            while (
-                endIdx > startIndex && // Must be first to avoid an exception
-                                       // for an empty string...
-                (
-                  // Bypass for when aStripSomeLeadingAndTrailingCharacters
-                  // is true. It works because space is covered by the
-                  // conditions below.
-                  aStripSomeLeadingAndTrailingCharacters
-                  ||
-                  (
-                    filterSomeCharacters
-                    //(filterSomeCharacters &&
-                    // !aStripSomeLeadingAndTrailingCharacters)
-
-                    &&
-                    (
-                      aRawString[endIdx] == ' ' || // Space
-                      false
-                    )
-                  )
-                ) &&
-                (
-                  // Bypass, so we can still filter some characters,
-                  // even if aStripSomeLeadingAndTrailingCharacters
-                  // is false
-                  //
-                  //(filterSomeCharacters &&
-                  // !aStripSomeLeadingAndTrailingCharacters)
-                  !aStripSomeLeadingAndTrailingCharacters
-
-                  ||
-                  (
-                    //aStripSomeLeadingAndTrailingCharacters &&
-                    (
-
-                      (aRawString[endIdx] < 'A' || aRawString[endIdx] > 'Z') &&
-                      (aRawString[endIdx] < 'a' || aRawString[endIdx] > 'z') &&
-                      (aRawString[endIdx] < '0' || aRawString[endIdx] > '9') &&
-
-                      // For "C#"...
-                      (aRawString[endIdx] != '#') &&
-
-                      // For "C++" "g+", "Google+", "Dev-C++", "Visual C++",
-                      // "ms vc++", etc.
-                      (aRawString[endIdx] != '+') &&
-
-
-                      //  T H I S   I S   G E T T I N G   O U T   O F   H A N D . . .
-                      //
-                      //Perhaps use a positive list for the punctuation instead?
-                      //The number of possible characters should be much smaller.
-                      //
-                      //Perhaps make exceptions for specific words in the
-                      //word set? As the more general exceptions we add,
-                      //the more we weaken the general ability to directly
-                      //look up words that have leading and trailing space,
-                      //punctuation, etc.
-                      //
-                      // Note: Not added, as they appear as one character
-                      //       (as incorrect terms (really expansions))
-                      //       and work for some reason:
-                      //
-                      //          %
-                      //          ~
-
-                      // Double quotes. Sample: "8 "Jessie""
-                      (aRawString[endIdx] != '\"') &&
-
-                      // Single quotes. Sample: "'like button'"
-                      (aRawString[endIdx] != '\'') &&
-
-                      // Real apostrophe. Sample: "I’"
-                      (aRawString[endIdx] != '’') &&
-
-                      // For words in the alternative word set (we use
-                      // the convention of a trailing underscore)
-                      (aRawString[endIdx] != '_') &&
-
-                      // Sample: "Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar)"
-                      (aRawString[endIdx] != ')') &&
-
-                      // Sample: "&mdash;"
-                      (aRawString[endIdx] != ';') &&
-
-                      // Sample: "Hello, World!"
-                      (aRawString[endIdx] != '!') &&
-
-                      // Though it may defeat the purpose for seamlessly
-                      // handling formatted text copied in as Markdown
-                      // italics or bold...
-                      //
-                      // Sample: "Sagittarius A*"
-                      (aRawString[endIdx] != '*') &&
-
-                      // Sample: "[sic]"
-                      (aRawString[endIdx] != ']') &&
-
-                      // Sample: "`man bash`"
-                      (aRawString[endIdx] != '`') &&
-
-                      // Sample: "How Is Babby Formed?"
-                      (aRawString[endIdx] != '?') &&
-
-                      // Sample: "!=="
-                      (aRawString[endIdx] != '=') &&
-
-                      // Sample: "polkadot{.js}"
-                      (aRawString[endIdx] != '}') &&
-
-                      // Sample: "/e/"
-                      (aRawString[endIdx] != '/') &&
-
-                      // Sample: "--"
-                      (aRawString[endIdx] != '-') &&
-
-                      // Sample: "M$"
-                      (aRawString[endIdx] != '$') &&
-
-                      // Sample: "<br>"
-                      (aRawString[endIdx] != '>') &&
-
-                      // Sample: "C♯"
-                      (aRawString[endIdx] != '♯') &&
-
-                      // Sample: "2¢"
-                      (aRawString[endIdx] != '¢') &&
-
-                      // Sample: "voilà"
-                      (aRawString[endIdx] != 'à') &&
-
-                      // Sample: "Bogotá"
-                      (aRawString[endIdx] != 'á') &&
-
-                      // Sample: "Antonio Radić"
-                      (aRawString[endIdx] != 'ć') &&
-
-                      // Sample: "fiancé"
-                      (aRawString[endIdx] != 'é') &&
-
-                      // Sample: "Baháʼí"
-                      (aRawString[endIdx] != 'í') &&
-
-                      // Sample: "Stack Overflow на русском"
-                      (aRawString[endIdx] != 'м') &&
-
-                      // Sample: "Malmö"
-                      (aRawString[endIdx] != 'ö') &&
-
-                      // Sample: "Perú"
-                      (aRawString[endIdx] != 'ú') &&
-
-                      // U+0131 (LATIN SMALL LETTER DOTLESS I). E.g.,
-                      // from Turkish systems.
-                      //
-                      // Sample: "Hı". Though it is hidden in "hı_"
-                      (aRawString[endIdx] != 'ı') &&
-
-                      (aRawString[endIdx] != '€') &&
-
-                      //(aRawString[endIdx] != 'Ω') &&
-                      true
-                    )
-                  )
-                )
-            )
+            bool doneTrailing = false;
+            while (!doneTrailing)
             {
-                endIdx--;
-            }
+                if (endIdx > startIndex)
+                {
+                    if
+                    (
+                      (
+                        // Bypass for when aStripSomeLeadingAndTrailingCharacters
+                        // is true. It works because space is covered by the
+                        // conditions below.
+                        aStripSomeLeadingAndTrailingCharacters
+                        ||
+                        (
+                          filterSomeCharacters
+                          //(filterSomeCharacters &&
+                          // !aStripSomeLeadingAndTrailingCharacters)
+
+                          &&
+                          (
+                            aRawString[endIdx] == ' ' || // Space
+                            false
+                          )
+                        )
+                      ) &&
+                      (
+                        // Bypass, so we can still filter some characters,
+                        // even if aStripSomeLeadingAndTrailingCharacters
+                        // is false
+                        //
+                        //(filterSomeCharacters &&
+                        // !aStripSomeLeadingAndTrailingCharacters)
+                        !aStripSomeLeadingAndTrailingCharacters
+
+                        ||
+                        (
+                          //aStripSomeLeadingAndTrailingCharacters &&
+                          (
+
+                            (aRawString[endIdx] < 'A' || aRawString[endIdx] > 'Z') &&
+                            (aRawString[endIdx] < 'a' || aRawString[endIdx] > 'z') &&
+                            (aRawString[endIdx] < '0' || aRawString[endIdx] > '9') &&
+
+                            // For "C#"...
+                            (aRawString[endIdx] != '#') &&
+
+                            // For "C++" "g+", "Google+", "Dev-C++", "Visual C++",
+                            // "ms vc++", etc.
+                            (aRawString[endIdx] != '+') &&
+
+
+                            //  T H I S   I S   G E T T I N G   O U T   O F   H A N D . . .
+                            //
+                            //Perhaps use a positive list for the punctuation instead?
+                            //The number of possible characters should be much smaller.
+                            //
+                            //Perhaps make exceptions for specific words in the
+                            //word set? As the more general exceptions we add,
+                            //the more we weaken the general ability to directly
+                            //look up words that have leading and trailing space,
+                            //punctuation, etc.
+                            //
+                            // Note: Not added, as they appear as one character
+                            //       (as incorrect terms (really expansions))
+                            //       and work for some reason:
+                            //
+                            //          %
+                            //          ~
+
+                            // Double quotes. Sample: "8 "Jessie""
+                            (aRawString[endIdx] != '\"') &&
+
+                            // Single quotes. Sample: "'like button'"
+                            (aRawString[endIdx] != '\'') &&
+
+                            // Real apostrophe. Sample: "I’"
+                            (aRawString[endIdx] != '’') &&
+
+                            // For words in the alternative word set (we use
+                            // the convention of a trailing underscore)
+                            (aRawString[endIdx] != '_') &&
+
+                            // Sample: "Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar)"
+                            (aRawString[endIdx] != ')') &&
+
+                            // Sample: "&mdash;"
+                            (aRawString[endIdx] != ';') &&
+
+                            // Sample: "Hello, World!"
+                            (aRawString[endIdx] != '!') &&
+
+                            // Though it may defeat the purpose for seamlessly
+                            // handling formatted text copied in as Markdown
+                            // italics or bold...
+                            //
+                            // Sample: "Sagittarius A*"
+                            (aRawString[endIdx] != '*') &&
+
+                            // Sample: "[sic]"
+                            (aRawString[endIdx] != ']') &&
+
+                            // Sample: "`man bash`"
+                            (aRawString[endIdx] != '`') &&
+
+                            // Sample: "How Is Babby Formed?"
+                            (aRawString[endIdx] != '?') &&
+
+                            // Sample: "!=="
+                            (aRawString[endIdx] != '=') &&
+
+                            // Sample: "polkadot{.js}"
+                            (aRawString[endIdx] != '}') &&
+
+                            // Sample: "/e/"
+                            (aRawString[endIdx] != '/') &&
+
+                            // Sample: "--"
+                            (aRawString[endIdx] != '-') &&
+
+                            // Sample: "M$"
+                            (aRawString[endIdx] != '$') &&
+
+                            // Sample: "<br>"
+                            (aRawString[endIdx] != '>') &&
+
+                            // Sample: "C♯"
+                            (aRawString[endIdx] != '♯') &&
+
+                            // Sample: "2¢"
+                            (aRawString[endIdx] != '¢') &&
+
+                            // Sample: "voilà"
+                            (aRawString[endIdx] != 'à') &&
+
+                            // Sample: "Bogotá"
+                            (aRawString[endIdx] != 'á') &&
+
+                            // Sample: "Antonio Radić"
+                            (aRawString[endIdx] != 'ć') &&
+
+                            // Sample: "fiancé"
+                            (aRawString[endIdx] != 'é') &&
+
+                            // Sample: "Baháʼí"
+                            (aRawString[endIdx] != 'í') &&
+
+                            // Sample: "Stack Overflow на русском"
+                            (aRawString[endIdx] != 'м') &&
+
+                            // Sample: "Malmö"
+                            (aRawString[endIdx] != 'ö') &&
+
+                            // Sample: "Perú"
+                            (aRawString[endIdx] != 'ú') &&
+
+                            // U+0131 (LATIN SMALL LETTER DOTLESS I). E.g.,
+                            // from Turkish systems.
+                            //
+                            // Sample: "Hı". Though it is hidden in "hı_"
+                            (aRawString[endIdx] != 'ı') &&
+
+                            (aRawString[endIdx] != '€') &&
+
+                            //(aRawString[endIdx] != 'Ω') &&
+                            true
+                          )
+                        )
+                      )
+
+                    )
+                    {
+                        endIdx--;
+                    }
+                    else
+                    {
+                        doneTrailing = true;
+                    }
+                }
+                else
+                {
+                    doneTrailing = true;
+                }
+            } // Scanning for one or more trailing
+              // characters to filter out
 
             int len = endIdx - startIndex + 1;
             mCenterString = aRawString.Substring(startIndex, len);
