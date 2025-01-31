@@ -2696,6 +2696,13 @@ checkCommandLineLookup 30 $supposedNativeApplicationPath "\"Timeless\" Homerow" 
 # leading and trailing space as input
 checkCommandLineLookup 30 $supposedNativeApplicationPath  " OS "   " operating system "
 
+# Some (trailing) characters, like "#", should not
+# be automatically stripped ("c#" is a perfectly
+# OK word to look up).
+#
+checkCommandLineLookup 30 $supposedNativeApplicationPath  "gtk#"  "Gtk#"
+checkCommandLineLookup 30 $supposedNativeApplicationPath  "c#"    "C#"
+
 
 # ###########################################################################
 #

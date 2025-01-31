@@ -320,7 +320,7 @@ namespace OverflowHelper.core
                       // U+0131 (LATIN SMALL LETTER DOTLESS I). E.g.,
                       // from Turkish systems.
                       //
-                      // Sample: "Hı"
+                      // Sample: "Hı". Though it is hidden in "hı_"
                       (aRawString[endIdx] != 'ı') &&
 
                       (aRawString[endIdx] != '€') &&

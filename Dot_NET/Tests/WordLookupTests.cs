@@ -51,6 +51,22 @@ namespace WordLookupTestsTests
                   "");
             }
 
+            // Check that some valid words to look up do not get
+            // a trailing or a leading character(s) stripped off
+            // before the look up and thus fails the lookup
+            // (false negative).
+            {
+                WordCorrector someWordCorrector = new WordCorrector();
+                lookupResultStructure lookupResult =
+                    someWordCorrector.lookup_Central("Sgr A*", false, true);
+
+                Assert.AreEqual(
+                  @"Sagittarius A*",
+                  lookupResult.correctedText,
+                  "");
+            }
+
+
             // Can we actually correctly look up words
             // in the alternative word set?
             //
@@ -74,8 +90,12 @@ namespace WordLookupTestsTests
          *                                                                          *
          *  Helper for preprocessing()                                              *
          *                                                                          *
+         *  Note: Not the lookup itself, but the automatic filtering of             *
+         *        some leading trailing and trailing characters. So in              *
+         *        a way, it belongs in file 'WordLookupTests.cs'...                 *
+         *                                                                          *
          ****************************************************************************/
-        public void unchangedLookup(string aCorrectWord)
+        public void unchangedLookupTerm(string aCorrectWord)
         {
             LookUpString tt2 = new LookUpString(aCorrectWord);
 
@@ -85,7 +105,7 @@ namespace WordLookupTestsTests
               "Trailing characters misidentified as punctuation: " +
                 aCorrectWord); // Hopefully enough to identify the caller...
 
-        } //unchangedLookup()
+        } //unchangedLookupTerm()
 
 
         /****************************************************************************
@@ -96,9 +116,9 @@ namespace WordLookupTestsTests
         [Test]
         public void preprocessing()
         {
-            // Preprocessing as in stripping some leading 
-            // and trailing characters (or not)
-            
+            // Preprocessing as in stripping some leading
+            // and trailing characters (or not)...
+
             // Characteristics of members of the alternative word
             // set should not be seen as punctuation... (Or
             // should be encoded internally in a different way.)
@@ -125,43 +145,55 @@ namespace WordLookupTestsTests
             }
 
             // Test that leading and trailing characters
-            // are ***not*** stripped (correct words 
-            // only for these tests).
+            // are ***not*** stripped (we can use it on
+            // both incorrect and correct words, as it
+            // has nothing to do with the actual word
+            // lookup/correction).
             //
-            unchangedLookup("Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar)");
-            unchangedLookup("&mdash;");
-            unchangedLookup("'like button'");
-            unchangedLookup("Hello, World!");
-            unchangedLookup("Sagittarius A*");
-            unchangedLookup("[sic]");
-            unchangedLookup("`man bash`");
-            unchangedLookup("How Is Babby Formed?");
-            unchangedLookup("!==");
-            unchangedLookup("polkadot{.js}");
-            unchangedLookup("/e/");
-            unchangedLookup("--");
-            unchangedLookup("%"); // Only one character. This works
+            // Incorrect words
+            unchangedLookupTerm("8 \"Jessie\"");
+            unchangedLookupTerm("8 \"Jessie\"____");
+            unchangedLookupTerm("M$");
+            unchangedLookupTerm("M$__");
+            unchangedLookupTerm("--");
+            unchangedLookupTerm("<br>");
+            unchangedLookupTerm("C♯");
+            unchangedLookupTerm("2¢");
+            unchangedLookupTerm("%"); // Only one character. This works
+                                      // for some reason... (without
+                                      // needing an exception). Why?
+            unchangedLookupTerm("~"); // Only one character. This works
                                   // for some reason... (without
                                   // needing an exception). Why?
-            unchangedLookup("C♯");
-            unchangedLookup("M$");
-            unchangedLookup("8 \"Jessie\"");
-            unchangedLookup("~"); // Only one character. This works
-                                  // for some reason... (without
-                                  // needing an exception). Why?
-            unchangedLookup("2¢");
-            unchangedLookup("<"); // Only one character. This works
-                                  // for some reason... (without
-                                  // needing an exception). Why?
-            unchangedLookup("Stack Overflow на русском");
-
-            unchangedLookup("voilà");
-            unchangedLookup("Bogotá");
-            unchangedLookup("Antonio Radić");
-            unchangedLookup("fiancé");
-            unchangedLookup("Baháʼí");
-            unchangedLookup("Stack Overflow на русском");
-            unchangedLookup("Malmö");
+            unchangedLookupTerm("<"); // Only one character. This works
+                                      // for some reason... (without
+                                      // needing an exception). Why?
+            unchangedLookupTerm("Stack Overflow на русском");
+            //
+            // Correct words
+            unchangedLookupTerm("C#");
+            unchangedLookupTerm("C++");
+            unchangedLookupTerm("'like button'");
+            unchangedLookupTerm("'like button'_");
+            unchangedLookupTerm("I’");
+            unchangedLookupTerm("Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar)");
+            unchangedLookupTerm("&mdash;");
+            unchangedLookupTerm("Hello, World!");
+            unchangedLookupTerm("Sagittarius A*");
+            unchangedLookupTerm("[sic]");
+            unchangedLookupTerm("`man bash`");
+            unchangedLookupTerm("How Is Babby Formed?");
+            unchangedLookupTerm("!==");
+            unchangedLookupTerm("polkadot{.js}");
+            unchangedLookupTerm("/e/");
+            unchangedLookupTerm("voilà");
+            unchangedLookupTerm("Bogotá");
+            unchangedLookupTerm("Antonio Radić");
+            unchangedLookupTerm("fiancé");
+            unchangedLookupTerm("Baháʼí");
+            unchangedLookupTerm("Malmö");
+            unchangedLookupTerm("Perú");
+            unchangedLookupTerm("€");
 
             // Indirect check that incorrect word "*" is not stripped
             // before the actual search: If it is, the lookup will
@@ -177,8 +209,8 @@ namespace WordLookupTestsTests
                   "");
             }
 
-            // Indirect check that incorrect word '"' (double quote) 
-            // is not stripped before the actual search: If it is, 
+            // Indirect check that incorrect word '"' (double quote)
+            // is not stripped before the actual search: If it is,
             // the lookup will fail
             {
                 WordCorrector someWordCorrector = new WordCorrector();
