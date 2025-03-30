@@ -2737,6 +2737,12 @@ startOfBuildStep "31" "Exporting the word list as SQL"
 #         is not automatically created by this
 #         script if it doesn't exist).
 #
+# Note 4: We no longer need it. wordListExport() used to concatenate
+#         to the initial content, but now it overwrites it, and the
+#         header is written out by the C# code.
+#
+#         It should be removed.
+#
 #Now incorporated
 ##Moved to PC2016 another crash Linux system crash 2022-02-26.
 ### Moved to PC2016 after SSD-related Linux system crash 2020-05-31
@@ -2766,6 +2772,24 @@ wordListExport 31 "SQL" $SQL_FILE 11460000 12600000
 # Note: The same build number
 export MATCHING_LINES=`grep -c 'DROP TABLE EditOverflow'  ${SQL_FILE}`
 mustBeEqual ${MATCHING_LINES} 1  31   "The generated SQL file is missing the header. One reason could be a misconfigured build script (this script)."
+
+# Create a version for quick import 
+# (e.g., into the local database)
+#
+# If it didn't require a password (and thus 
+# disrupting the script execution), we could 
+# import it like this in MySQL:
+#     
+#     date ; sudo mysql -u root -p pmortensen_eu_db < ${SQL_FILE_QUICKIMPORT} ; date
+#
+export SQL_FILE_QUICKIMPORT=${WORKFOLDER}/EditOverflow_${EFFECTIVE_DATE}_quickImport.sql
+echo ""                   > ${SQL_FILE_QUICKIMPORT}
+echo "SET autocommit=0;" >> ${SQL_FILE_QUICKIMPORT}
+echo ""                  >> ${SQL_FILE_QUICKIMPORT}
+cat ${SQL_FILE}          >> ${SQL_FILE_QUICKIMPORT}
+echo ""                  >> ${SQL_FILE_QUICKIMPORT}
+echo "COMMIT;"           >> ${SQL_FILE_QUICKIMPORT}
+#ls -lsatr $WORKFOLDER
 
 
 #Delete?
