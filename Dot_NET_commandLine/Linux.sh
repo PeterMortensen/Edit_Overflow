@@ -2767,19 +2767,19 @@ cat '/home/mortensen/UserProf/At_PC2016/_Incorporated_files/Header_EditOverflow_
 #       2022-01-25: 5374604 bytes
 
 # Note: The same build number
-wordListExport 31 "SQL" $SQL_FILE 11460000 12600000
+wordListExport 31 "SQL" $SQL_FILE 11690000 12850000
 
 # Note: The same build number
 export MATCHING_LINES=`grep -c 'DROP TABLE EditOverflow'  ${SQL_FILE}`
 mustBeEqual ${MATCHING_LINES} 1  31   "The generated SQL file is missing the header. One reason could be a misconfigured build script (this script)."
 
-# Create a version for quick import 
+# Create a version for quick import
 # (e.g., into the local database)
 #
-# If it didn't require a password (and thus 
-# disrupting the script execution), we could 
+# If it didn't require a password (and thus
+# disrupting the script execution), we could
 # import it like this in MySQL:
-#     
+#
 #     date ; sudo mysql -u root -p pmortensen_eu_db < ${SQL_FILE_QUICKIMPORT} ; date
 #
 export SQL_FILE_QUICKIMPORT=${WORKFOLDER}/EditOverflow_${EFFECTIVE_DATE}_quickImport.sql
