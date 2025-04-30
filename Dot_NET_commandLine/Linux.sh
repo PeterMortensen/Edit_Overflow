@@ -84,7 +84,8 @@
 #   Even the local part of the tests currently requires a working      #
 #   Internet connection, as Jest (for JavaScript unit testing)         #
 #   for unknown reasons ***sometimes*** requires it, even just         #
-#   executing "jest --version" from the command line.                  #
+#   executing "jest --version" from the command line (see also         #
+#   near "not always" below).                                          #
 #                                                                      #
 ########################################################################
 
