@@ -5,7 +5,7 @@
 #          the Edit Overflow wordlist.                                 #
 #                                                                      #
 #          The running part is of C# code (.NET). The testing          #
-#          is both for C# and JavaScript. And systen regression        #
+#          is both for C# and JavaScript. And system regression        #
 #          tests (currently only for the web interface).               #
 #                                                                      #
 #          We also copy some generated files to the web site,          #
@@ -53,8 +53,8 @@
 #     and PHP). That was at the end of 2019 (September), but           #
 #     the first public commit was not before 2020-02-06.               #
 #                                                                      #
-#     But it has developed into a full-blown build script to           #
-#     e.g. run unit tests and automatically deploy to a web            #
+#     But it has developed into a full-blown build script to,          #
+#     e.g., run unit tests and automatically deploy to a web           #
 #     hosting site.                                                    #
 #                                                                      #
 #                                                                      #                                                                  #
