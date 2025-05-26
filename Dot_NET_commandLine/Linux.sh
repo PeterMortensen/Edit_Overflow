@@ -991,11 +991,16 @@ function HTML_validation()
 #   $5   Match string for standard error output (standard error
 #        MUST contain this string for the test to pass)
 #
-#        Note: Specifying an empty string currently does not work. That is,
-#              it can not be specified that standard error should be empty
-#              (it will fail).
+#        Notes:
 #
-#              Thus the script MUST produce something to standard error...
+#          1. Only a partial match is necessary. Thus the caller
+#             does not have to specific the whole exact string.
+#
+#          2. Specifying an empty string currently does not work. That is,
+#             it can not be specified that standard error should be empty
+#             (it will fail).
+#
+#             Thus the script MUST produce something to standard error...
 #
 function PHP_code_test()
 {
@@ -1558,7 +1563,8 @@ function wordListExport()
     #       of compilation/sanity checking.
     #
     #time dotnet run -p EditOverflow3.csproj 2> ${STDERR_FILE}  | grep -v CS0219 | grep -v CS0162   >> $WORD_EXPORT_FILE  ; evaluateBuildResult $1 $? "word list export in $WORDLIST_OUTPUTTYPE format"
-    time dotnet run -p EditOverflow3.csproj 2> ${STDERR_FILE} > ${STDOUT_FILE} ; evaluateBuildResult $1 $? "word list export in $WORDLIST_OUTPUTTYPE format"
+    #time dotnet run -p EditOverflow3.csproj 2> ${STDERR_FILE} > ${STDOUT_FILE} ; evaluateBuildResult $1 $? "word list export in $WORDLIST_OUTPUTTYPE format"
+    time dotnet run --project EditOverflow3.csproj 2> ${STDERR_FILE} > ${STDOUT_FILE} ; evaluateBuildResult $1 $? "word list export in $WORDLIST_OUTPUTTYPE format"
 
     # Note: Because we immediately check for the exit code (and
     #       exit the entire build script if it is not 0), we
@@ -1843,7 +1849,7 @@ timeStamp "Start time"
 #       "./Linux.sh").
 #
 #       In this case, enter the following manually, as a
-#       separate step. In order words, this line should
+#       separate step. In other words, this line should
 #       be the LAST line if pasting several lines.
 #
 sudo ls > /dev/null
@@ -2058,18 +2064,24 @@ cd $WORKFOLDER
 #   in turn also has prerequisites (or prerequisites for
 #   installation - that is, the installer itself may be
 #   missing)... This is not handled automatically by
-#   package system.
+#   the package system.
+
+prefix_virtual_environment="source ~/.Edit_Overflow_environment/bin/activate\n"
 
 prefix1="\n\nThe prerequisite"
 prefix2="is not installed. Execute these commands:\n\n"
-postfix1="\n\n\n"
+postfix1="\n\n\n\n"
+
+postfix1_Python="\ndeactivate\n\n\n"
+prefix2_Python="${prefix2}${prefix_virtual_environment}"
+
 
 # This is to prevent:
 #
 #    "/usr/bin/python3: No module named pip"
 #
 #checkCommand "pip3" "${prefix1} Pip 3 ${prefix2}ABC\nXYZ\nDEF\npip3 install pylint ${postfix1}"  1
-checkCommand "pip3 --version" "${prefix1} Pip 3 ${prefix2}ABC\nXYZ\nDEF\nsudo apt install python3-pip ${postfix1}"  2
+checkCommand "pip3 --version" "${prefix1} Pip 3 ${prefix2}sudo apt install python3-pip ${postfix1}"  2
 
 
 # Pylint itself
@@ -2080,7 +2092,8 @@ checkCommand "pip3 --version" "${prefix1} Pip 3 ${prefix2}ABC\nXYZ\nDEF\nsudo ap
 #  input... (but 'pip3' has a return code
 #  of 0 for empty input).
 #
-checkCommand "pylint --version" "${prefix1} Pylint ${prefix2}ABC\nXYZ\nDEF\nsudo python3 -m pip install pylint ${postfix1}"  2
+#checkCommand "pylint --version" "${prefix1} Pylint ${prefix2}sudo python3 -m pip install pylint ${postfix1}"  2
+checkCommand "pylint --version" "${prefix1} Pylint ${prefix2_Python}pip install pylint ${postfix1_Python}"  2
 
 
 # Python bindings for Selenium. This is sufficient to make
@@ -2100,7 +2113,8 @@ checkCommand "pylint --version" "${prefix1} Pylint ${prefix2}ABC\nXYZ\nDEF\nsudo
 # Option "-q" is for suppresing output (we are
 # only interested in the return code).
 #
-checkCommand "pip3 -q show selenium" "${prefix1} Selenium ${prefix2}sudo pip3 install selenium ${postfix1}"  2
+#checkCommand "pip3 -q show selenium" "${prefix1} Selenium ${prefix2}sudo pip3 install selenium ${postfix1}"  2
+checkCommand "pip3 -q show selenium" "${prefix1} Selenium ${prefix2_Python}pip install selenium ${postfix1_Python}"  2
 
 
 # LAMP. PHP is used directly by this build
@@ -2143,6 +2157,19 @@ checkCommand "mariadb --version" "${prefix1} MySQL/MariaDB (part of LAMP) ${pref
 
 # .NET (C#)
 #
+# References:
+#
+#   <https://learn.microsoft.com/en-us/dotnet/core/install/linux>
+#
+#   <https://learn.microsoft.com/en-us/dotnet/core/install/linux-debian>
+#     Install the .NET SDK or the .NET Runtime on Debian
+#
+#     Supported: .NET 8 and .NET 9 on Debian 12 (Bookworm)
+#
+#         wget https://packages.microsoft.com/config/debian/12/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+#         sudo dpkg -i packages-microsoft-prod.deb
+#         rm packages-microsoft-prod.deb
+#
 # Notes:
 #
 #   1. The executable 'dotnet' without parameters has
@@ -2161,7 +2188,8 @@ checkCommand "mariadb --version" "${prefix1} MySQL/MariaDB (part of LAMP) ${pref
 #
 #        * NuGet: 5.4.0.2
 #
-checkCommand "dotnet nuget --version" "${prefix1} C# compiler ${prefix2}wget -q https://packages.microsoft.com/config/ubuntu/19.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb\nsudo dpkg -i packages-microsoft-prod.deb\n\nsudo apt-get update\nsudo apt-get install apt-transport-https\nsudo apt-get update\nsudo apt-get install dotnet-sdk-3.1 ${postfix1}"  2
+#checkCommand "dotnet nuget --version" "${prefix1} C# compiler ${prefix2}wget -q https://packages.microsoft.com/config/ubuntu/19.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb\nsudo dpkg -i packages-microsoft-prod.deb\n\nsudo apt-get update\nsudo apt-get install apt-transport-https\nsudo apt-get update\nsudo apt-get install dotnet-sdk-3.1 ${postfix1}"  2
+checkCommand "dotnet nuget --version" "${prefix1} C# compiler ${prefix2}wget https://packages.microsoft.com/config/debian/12/packages-microsoft-prod.deb -O packages-microsoft-prod.deb\nsudo dpkg -i packages-microsoft-prod.deb\nrm packages-microsoft-prod.deb\n\nsudo apt-get update\nsudo apt-get install -y dotnet-sdk-9.0 ${postfix1}"  2
 
 
 # C# unit tests (NUnit)
@@ -2232,7 +2260,7 @@ checkCommand "npm --version" "${prefix1} Nodes.js ${prefix2} sudo apt update\nsu
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
-checkCommand "nvm --version" "${prefix1} nvm ${prefix2}\n# Note: Without 'sudo'!!!curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash\nexport NVM_DIR=\"$HOME/.nvm\"\n[ -s \"$NVM_DIR/nvm.sh\" ] && \. \"$NVM_DIR/nvm.sh\"\nnvm install 12.22.12 ${postfix1}"  2
+checkCommand "nvm --version" "${prefix1} nvm ${prefix2}\n# Note: Without 'sudo'!!!\ncurl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash\nexport NVM_DIR=\"$HOME/.nvm\"\n[ -s \"$NVM_DIR/nvm.sh\" ] && \. \"$NVM_DIR/nvm.sh\"\nnvm install 12.22.12 ${postfix1}"  2
 
 # Installation of Jest failed on 2022-03-03
 # on Ubuntu 18.04, but it was possible to
@@ -2280,7 +2308,17 @@ checkCommand "npm list -g jest-environment-jsdom" "${prefix1} Jest JSDOM module 
 # location could be misconfigured). Though
 # the error message is off.
 #
-checkCommand "ls  ${SELINUM_DRIVERFOLDER} " "${prefix1} Selenium driver folder existence ${prefix2} pip3 install webdriver-manager ${postfix1}"  2
+#checkCommand "ls  ${SELINUM_DRIVERFOLDER} " "${prefix1} Selenium driver folder existence ${prefix2}pip3 install webdriver-manager ${postfix1}"  2
+checkCommand "ls  ${SELINUM_DRIVERFOLDER} " "${prefix1} Selenium driver folder existence ${prefix2}pip install webdriver-manager ${postfix1}"  2
+
+
+# lftp (that we use to copy files to and from production)
+#
+#   <https://en.wikipedia.org/wiki/Lftp>
+#
+checkCommand "lftp --version" "${prefix1} lftp ${prefix2}\nsudo apt install lftp ${postfix1}"  2
+
+
 
 #Future:
 #
@@ -2674,6 +2712,9 @@ wordListExport 30 "compileCheck"  $COMPILECHECK_OUT  40 100
 #        The result is also 'EditOverflow3', but deeper in
 #        the folder hierarchy, in folder '/linux-x64/publish'
 #
+# Note: In a later version of .NET Core, it
+#       is in folder "Release", not "Debug"
+#
 # Example: </home/mortensen/temp2/2023-07-11/_DotNET_tryout/EditOverflow4/bin/Debug/netcoreapp3.1/linux-x64/publish/EditOverflow3>
 export supposedNativeApplicationPath="${WORKFOLDER}/bin/Debug/netcoreapp3.1/linux-x64/publish/EditOverflow3"
 timeStamp "Creating native Edit Overflow application"
@@ -2751,7 +2792,8 @@ startOfBuildStep "31" "Exporting the word list as SQL"
 ###cat /home/mortensen/temp2/2020-05-30/Backup/Backup_2020-05-30_smallFiles/2020-05-30/Header_EditOverflow_forMySQL_UTF8.sql > $SQL_FILE
 ##cat '/home/embo/temp2/2020-06-02/Last Cinnamon backup_2020-05-30/Small files/Header_EditOverflow_forMySQL_UTF8.sql' > $SQL_FILE
 #cat '/home/mortensen/temp2/2022-02-25/Backup/Backup_2022-02-25_smallFiles/2022-02-25/Header_EditOverflow_forMySQL_UTF8.sql' > $SQL_FILE
-cat '/home/mortensen/UserProf/At_PC2016/_Incorporated_files/Header_EditOverflow_forMySQL_UTF8.sql' > $SQL_FILE
+#cat '/home/mortensen/UserProf/At_PC2016/_Incorporated_files/Header_EditOverflow_forMySQL_UTF8.sql' > $SQL_FILE
+cat "$HOME/UserProf/At_PC2016/_Incorporated_files/Header_EditOverflow_forMySQL_UTF8.sql" > $SQL_FILE
 
 
 #export STDERR_FILE3="_stdErr_Export3.txt"
@@ -3332,6 +3374,7 @@ startOfBuildStep "48" "End of build. All build steps succeeded!!"
 timeStamp "End time  "
 
 notify-send "The Edit Overflow build script has finished"
+
 
 
 
