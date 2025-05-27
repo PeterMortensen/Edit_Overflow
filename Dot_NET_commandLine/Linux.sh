@@ -314,9 +314,15 @@ export EFFECTIVE_DATE='2023-07-11'
 export EFFECTIVE_DATE='2024-12-07'
 
 
-export SRCFOLDER_BASE='/home/embo/UserProf/At_XP64/Edit_Overflow'
-export SRCFOLDER_BASE='/home/mortensen/UserProf/At_PC2016/Edit_Overflow'
+#export SRCFOLDER_BASE='/home/embo/UserProf/At_XP64/Edit_Overflow'
+#export SRCFOLDER_BASE='/home/mortensen/UserProf/At_PC2016/Edit_Overflow'
+export SRCFOLDER_BASE="$HOME/UserProf/At_PC2016/Edit_Overflow"
+
 export WEB_SRCFOLDER_BASE="${SRCFOLDER_BASE}/Web_Application"
+
+
+export PHP_WARNING="Undefined variable: dummy2" # Ubuntu 20.04
+#export PHP_WARNING="Undefined variable \$dummy2" # LDME 6
 
 
 export SELINUM_DRIVERSCRIPT_DIR="${WEB_SRCFOLDER_BASE}/__regressTest__"
@@ -360,7 +366,8 @@ export FILE_WITH_MAIN_ENTRY_HIDE=${FILE_WITH_MAIN_ENTRY}ZZZ
 ##export SRCFOLDER_BASE='/home/embo/temp2/2020-06-03/temp1/Edit_Overflow'
 ##export WORKFOLDER1=/home/embo/temp2/${EFFECTIVE_DATE}
 #export WORKFOLDER1=/home/embo/temp2/${EFFECTIVE_DATE}
-export WORKFOLDER1=/home/mortensen/temp2/${EFFECTIVE_DATE}
+#export WORKFOLDER1=/home/mortensen/temp2/${EFFECTIVE_DATE}
+export WORKFOLDER1=${HOME}/temp2/${EFFECTIVE_DATE}
 
 
 export WORKFOLDER2=${WORKFOLDER1}/_DotNET_tryout
@@ -994,7 +1001,7 @@ function HTML_validation()
 #        Notes:
 #
 #          1. Only a partial match is necessary. Thus the caller
-#             does not have to specific the whole exact string.
+#             does not have to specify the whole exact string.
 #
 #          2. Specifying an empty string currently does not work. That is,
 #             it can not be specified that standard error should be empty
@@ -1562,6 +1569,11 @@ function wordListExport()
     #       can be when just invoking it for the purpose
     #       of compilation/sanity checking.
     #
+    # Note: Using later .NET Core versions, for "-p", we got:
+    #
+    #         Warning NETSDK1174: The abbreviation of -p for --project
+    #         is deprecated. Please use --project.
+    #
     #time dotnet run -p EditOverflow3.csproj 2> ${STDERR_FILE}  | grep -v CS0219 | grep -v CS0162   >> $WORD_EXPORT_FILE  ; evaluateBuildResult $1 $? "word list export in $WORDLIST_OUTPUTTYPE format"
     #time dotnet run -p EditOverflow3.csproj 2> ${STDERR_FILE} > ${STDOUT_FILE} ; evaluateBuildResult $1 $? "word list export in $WORDLIST_OUTPUTTYPE format"
     time dotnet run --project EditOverflow3.csproj 2> ${STDERR_FILE} > ${STDOUT_FILE} ; evaluateBuildResult $1 $? "word list export in $WORDLIST_OUTPUTTYPE format"
@@ -1854,6 +1866,8 @@ timeStamp "Start time"
 #
 sudo ls > /dev/null
 
+# LMDE trial, 2025-05-08
+source ~/.Edit_Overflow_environment/bin/activate
 
 
 
@@ -2489,11 +2503,14 @@ PHP_code_test  EditOverflow.php          "main lookup"             11  "Overflow
 #
 #  Note that it will also detect any syntax errors in commonStart.php
 #
-PHP_code_test  Text.php                  "self test, unit tests"                 12  "OverflowStyle=Native&PHP_DoWarnings=On"  "Undefined variable: dummy2"
+#  LMDE: "Undefined variable: $dummy2"
+#
+#    Why is there a difference? Different version of PHP?
+#    Different configuration of PHP?
+#
+PHP_code_test  Text.php                  "self test, unit tests"                 12  "OverflowStyle=Native&PHP_DoWarnings=On"  "$PHP_WARNING"
 
 #exit
-
-
 
 # ###########################################################################
 #
@@ -2502,7 +2519,12 @@ PHP_code_test  Text.php                  "self test, unit tests"                
 #  Note: The undefined variable thing and parameter "&PHP_DoWarnings=On" is
 #        due to a current limitation in PHP_code_test()...
 #
-PHP_code_test  Text.php                  "text transformation - 'Real quotes'"   13  "OverflowStyle=Native&PHP_DoWarnings=On&someText=dasdasd&someAction%5Breal_quotes%5D=Real+quotes"  "Undefined variable: dummy2"
+#  LMDE 6: "Undefined variable: $dummy2" (with "$", but without ":")
+#
+#    Why is there a difference? Different version of PHP?
+#    Different configuration of PHP?
+#
+PHP_code_test  Text.php                  "text transformation - 'Real quotes'"   13  "OverflowStyle=Native&PHP_DoWarnings=On&someText=dasdasd&someAction%5Breal_quotes%5D=Real+quotes"  "$PHP_WARNING"
 
 #exit
 
@@ -2514,7 +2536,7 @@ PHP_code_test  Text.php                  "text transformation - 'Real quotes'"  
 #  Note: The undefined variable thing and parameter "&PHP_DoWarnings=On" is
 #        due to a current limitation in PHP_code_test()...
 #
-PHP_code_test  FixedStrings.php          "fixed strings"                         14  "OverflowStyle=Native&PHP_DoWarnings=On"   "Undefined variable: dummy2"
+PHP_code_test  FixedStrings.php          "fixed strings"                         14  "OverflowStyle=Native&PHP_DoWarnings=On"   "$PHP_WARNING"
 
 
 # ###########################################################################
@@ -2524,7 +2546,7 @@ PHP_code_test  FixedStrings.php          "fixed strings"                        
 #  Note: The undefined variable thing and parameter "&PHP_DoWarnings=On" is
 #        due to a current limitation in PHP_code_test()...
 #
-PHP_code_test  EditSummaryFragments.php  "edit summary fragments"                15   "OverflowStyle=Native&PHP_DoWarnings=On"   "Undefined variable: dummy2"
+PHP_code_test  EditSummaryFragments.php  "edit summary fragments"                15   "OverflowStyle=Native&PHP_DoWarnings=On"   "$PHP_WARNING"
 
 
 # ###########################################################################
@@ -2534,7 +2556,7 @@ PHP_code_test  EditSummaryFragments.php  "edit summary fragments"               
 #  Note: The undefined variable thing and parameter "&PHP_DoWarnings=On" is
 #        due to a current limitation in PHP_code_test()...
 #
-PHP_code_test  CannedComments.php        "canned comments"                       16  "OverflowStyle=Native&PHP_DoWarnings=On"   "Undefined variable: dummy2"
+PHP_code_test  CannedComments.php        "canned comments"                       16  "OverflowStyle=Native&PHP_DoWarnings=On"   "$PHP_WARNING"
 
 
 # ###########################################################################
@@ -2545,7 +2567,7 @@ PHP_code_test  CannedComments.php        "canned comments"                      
 #  Note: The undefined variable thing and parameter "&PHP_DoWarnings=On" is
 #        due to a current limitation in PHP_code_test()...
 #
-PHP_code_test  Link_Builder.php        "link builder"                            17  "OverflowStyle=Native&PHP_DoWarnings=On"   "Undefined variable: dummy2"
+PHP_code_test  Link_Builder.php        "link builder"                            17  "OverflowStyle=Native&PHP_DoWarnings=On"   "$PHP_WARNING"
 
 
 
@@ -3374,6 +3396,7 @@ startOfBuildStep "48" "End of build. All build steps succeeded!!"
 timeStamp "End time  "
 
 notify-send "The Edit Overflow build script has finished"
+
 
 
 
