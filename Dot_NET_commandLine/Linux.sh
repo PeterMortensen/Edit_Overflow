@@ -314,6 +314,26 @@ export EFFECTIVE_DATE='2023-07-11'
 export EFFECTIVE_DATE='2024-12-07'
 
 
+# Moved to PC2016 2022-02-28.
+## Moved to Ubuntu 20.04 MATE 2020-06-09
+### Moved to Ubuntu 20.04 MATE 2020-06-03
+#### Moved to PC2016 after SSD-related Linux system crash 2020-05-31
+####export SRCFOLDER_BASE='/home/mortense2/temp2/Edit_Overflow'
+####export WORKFOLDER1=/home/mortense2/temp2/${EFFECTIVE_DATE}
+###export SRCFOLDER_BASE='/home/mortensen/temp2/Edit_Overflow'
+###export WORKFOLDER1=/home/mortensen/temp2/${EFFECTIVE_DATE}
+##export SRCFOLDER_BASE='/home/embo/temp2/2020-06-03/temp1/Edit_Overflow'
+##export WORKFOLDER1=/home/embo/temp2/${EFFECTIVE_DATE}
+#export WORKFOLDER1=/home/embo/temp2/${EFFECTIVE_DATE}
+#export WORKFOLDER1=/home/mortensen/temp2/${EFFECTIVE_DATE}
+export WORKFOLDER1=${HOME}/temp2/${EFFECTIVE_DATE}
+
+export WORKFOLDER2=${WORKFOLDER1}/_DotNET_tryout
+export WORKFOLDER3=${WORKFOLDER2}/EditOverflow4
+export WORKFOLDER=${WORKFOLDER3}
+
+
+
 #export SRCFOLDER_BASE='/home/embo/UserProf/At_XP64/Edit_Overflow'
 #export SRCFOLDER_BASE='/home/mortensen/UserProf/At_PC2016/Edit_Overflow'
 export SRCFOLDER_BASE="$HOME/UserProf/At_PC2016/Edit_Overflow"
@@ -321,19 +341,33 @@ export SRCFOLDER_BASE="$HOME/UserProf/At_PC2016/Edit_Overflow"
 export WEB_SRCFOLDER_BASE="${SRCFOLDER_BASE}/Web_Application"
 
 
-export PHP_WARNING="Undefined variable: dummy2" # Ubuntu 20.04
+# The exact string from PHP apparently depends on the PHP version...
+export PHP_WARNING="Undefined variable: dummy2"   # Ubuntu 20.04
 #export PHP_WARNING="Undefined variable \$dummy2" # LDME 6
 
 
-export SELINUM_DRIVERSCRIPT_DIR="${WEB_SRCFOLDER_BASE}/__regressTest__"
-export SELINUM_DRIVERSCRIPT_FILENAME="${SELINUM_DRIVERSCRIPT_DIR}/web_regress.py"
+# Presumes particular versions of .NET installed
+#
+export DOT_NET_EDIT_OVERFLOW_PARTIAL_PATH="bin/Debug/netcoreapp3.1/linux-x64/EditOverflow3"                   # Ubuntu 20.04
+export supposedNativeApplicationPath="${WORKFOLDER}/bin/Debug/netcoreapp3.1/linux-x64/publish/EditOverflow3"  # Ubuntu 20.04
+
+#export DOT_NET_EDIT_OVERFLOW_PARTIAL_PATH="bin/Release/netcoreapp9.0/linux-x64/publish/EditOverflow3"   # LDME 6
+#export supposedNativeApplicationPath="${WORKFOLDER}/bin/Release/netcoreapp9.0/linux-x64/EditOverflow3"  # LDME 6
 
 
-# Old: XP64_NEW. New: Ubuntu 18.04.
-#export SELINUM_DRIVERFOLDER="/home/embo/.wdm/drivers/geckodriver/linux64/v0.28.0"
-export SELINUM_DRIVERFOLDER="/home/mortensen/.wdm/drivers/geckodriver/linux64/v0.30.0"
+export PYLINT_DISABLE_WARNINGS_SET="--disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125 --disable=R0913 --disable=C0302"                 # Ubuntu 20.04
+export PYLINT_DISABLE_WARNINGS_SET="--disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125 --disable=R0913 --disable=C0302 --disable=R0914" # LDME 6
+
+
+#export SELINUM_DRIVERFOLDER="/home/embo/.wdm/drivers/geckodriver/linux64/v0.28.0"   # XP64_NEW
+export SELINUM_DRIVERFOLDER="$HOME/.wdm/drivers/geckodriver/linux64/v0.30.0"         # Ubuntu 20.04
+#export SELINUM_DRIVERFOLDER="$HOME/temp2/2025-05-07"                                # LDME 6
+
 
 export PATH=$PATH:${SELINUM_DRIVERFOLDER}
+
+export SELINUM_DRIVERSCRIPT_DIR="${WEB_SRCFOLDER_BASE}/__regressTest__"
+export SELINUM_DRIVERSCRIPT_FILENAME="${SELINUM_DRIVERSCRIPT_DIR}/web_regress.py"
 
 
 # To make the C# unit test run ***itself*** succeed when
@@ -353,26 +387,6 @@ export PATH=$PATH:${SELINUM_DRIVERFOLDER}
 #
 export FILE_WITH_MAIN_ENTRY=Program.cs
 export FILE_WITH_MAIN_ENTRY_HIDE=${FILE_WITH_MAIN_ENTRY}ZZZ
-
-
-# Moved to PC2016 2022-02-28.
-## Moved to Ubuntu 20.04 MATE 2020-06-09
-### Moved to Ubuntu 20.04 MATE 2020-06-03
-#### Moved to PC2016 after SSD-related Linux system crash 2020-05-31
-####export SRCFOLDER_BASE='/home/mortense2/temp2/Edit_Overflow'
-####export WORKFOLDER1=/home/mortense2/temp2/${EFFECTIVE_DATE}
-###export SRCFOLDER_BASE='/home/mortensen/temp2/Edit_Overflow'
-###export WORKFOLDER1=/home/mortensen/temp2/${EFFECTIVE_DATE}
-##export SRCFOLDER_BASE='/home/embo/temp2/2020-06-03/temp1/Edit_Overflow'
-##export WORKFOLDER1=/home/embo/temp2/${EFFECTIVE_DATE}
-#export WORKFOLDER1=/home/embo/temp2/${EFFECTIVE_DATE}
-#export WORKFOLDER1=/home/mortensen/temp2/${EFFECTIVE_DATE}
-export WORKFOLDER1=${HOME}/temp2/${EFFECTIVE_DATE}
-
-
-export WORKFOLDER2=${WORKFOLDER1}/_DotNET_tryout
-export WORKFOLDER3=${WORKFOLDER2}/EditOverflow4
-export WORKFOLDER=${WORKFOLDER3}
 
 
 # That is, mostly for PHP files (mirroring the structure on web hosting)
@@ -2373,9 +2387,10 @@ cd ${SELINUM_DRIVERSCRIPT_DIR}
 #   R0914: For more than 15 local variables... Though it would be
 #          better to configure it for 16 15 local variables.
 #
-#pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125  $SELINUM_DRIVERSCRIPT_FILENAME ; evaluateBuildResult 1 $? "Python linting for the Selenium script"
-#pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125 --disable=R0913 --disable=C0302  $SELINUM_DRIVERSCRIPT_FILENAME ; evaluateBuildResult 1 $? "Python linting for the Selenium script"
-pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125 --disable=R0913 --disable=C0302 --disable=R0914  $SELINUM_DRIVERSCRIPT_FILENAME ; evaluateBuildResult 1 $? "Python linting for the Selenium script"
+#pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125                                                  $SELINUM_DRIVERSCRIPT_FILENAME ; evaluateBuildResult 1 $? "Python linting for the Selenium script"
+#pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125 --disable=R0913 --disable=C0302                  $SELINUM_DRIVERSCRIPT_FILENAME ; evaluateBuildResult 1 $? "Python linting for the Selenium script"
+#pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125 --disable=R0913 --disable=C0302 --disable=R0914  $SELINUM_DRIVERSCRIPT_FILENAME ; evaluateBuildResult 1 $? "Python linting for the Selenium script"
+pylint  $PYLINT_DISABLE_WARNINGS_SET  $SELINUM_DRIVERSCRIPT_FILENAME ; evaluateBuildResult 1 $? "Python linting for the Selenium script"
 
 
 # ###########################################################################
@@ -2738,7 +2753,7 @@ wordListExport 30 "compileCheck"  $COMPILECHECK_OUT  40 100
 #       is in folder "Release", not "Debug"
 #
 # Example: </home/mortensen/temp2/2023-07-11/_DotNET_tryout/EditOverflow4/bin/Debug/netcoreapp3.1/linux-x64/publish/EditOverflow3>
-export supposedNativeApplicationPath="${WORKFOLDER}/bin/Debug/netcoreapp3.1/linux-x64/publish/EditOverflow3"
+
 timeStamp "Creating native Edit Overflow application"
 echo "Absolute path for native Edit Overflow application: ${supposedNativeApplicationPath}" ; echo
 dotnet publish EditOverflow3.csproj
@@ -2748,7 +2763,7 @@ timeStamp "End creating native Edit Overflow application"
 testCommandLineInterface 30 $supposedNativeApplicationPath "native compiled"
 
 # .NET application
-testCommandLineInterface 30 "${WORKFOLDER}/bin/Debug/netcoreapp3.1/linux-x64/EditOverflow3" ".NET"
+testCommandLineInterface 30 "${WORKFOLDER}/${DOT_NET_EDIT_OVERFLOW_PARTIAL_PATH}" ".NET"
 
 # Fails... Probably because adding RID "linux-x64"
 # in the project file changed the location of
