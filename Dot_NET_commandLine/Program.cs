@@ -42,7 +42,7 @@ namespace EditOverflow2
             {
                 WordCorrector someWordCorrector = new WordCorrector();
 
-                const int kWordSets = 6;
+                const int kWordSets = 8;
                 //const int kWordSets = 1; // Test!!!!!!! For the old behaviour.
 
                 bool lookUpDone = false;
