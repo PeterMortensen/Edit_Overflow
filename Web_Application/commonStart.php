@@ -69,7 +69,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.51a417 2025-08-12T133014Z+0";
+        return "Edit Overflow v. 1.1.51a418 2025-08-12T154819Z+0";
     }
 
 
@@ -794,27 +794,44 @@
         # Later: Sanity check of $aExtraQueryParameters (must end
         #        in "&", unless it is an empty string)
 
-
+       
         echo "\n<!--\n";
         echo "    Notes:\n\n";
         echo "      1. We can now use \"OverflowStyle=Native\" to avoid the WordPress\n";
         echo "         overhead (and make the keyboard shortcut hints visible):\n\n";
         echo "           <https://pmortensen.eu/world/$aPageName?$aExtraQueryParameters" .
-             "OverflowStyle=Native>\n\n";
+             "OverflowStyle=Native>\n";
+        echo "\n";
+
+        # Note: It is only strictly true for page 'EditOverflow.php' 
+        #       (the 'LookUpTerm' part will be ignored by other pages)
+        echo "         For running locally, for example:\n\n";
+        echo "           <http://localhost/world/$aPageName?OverflowStyle=Native&LookUpTerm=Y2038>\n\n";
+
 
         # Note: For HTML validation to succeeed, there is a limit of
         #       approximately 1024 bytes before the <meta> tag with
         #       the UTF-8 specification must appear. That is, our
         #       HTML comment must not be too long). Thus, as a
-        #       workaround, we add the extra information, if
-        #       any, after the <meta> tag, with a reference
-        #       to it.
+        #       workaround, we add the extra information (part "3.",
+        #       etc.), if any, after the <meta> tag, with a 
+        #       reference to it.
+        #
+        #       For example, for page EditOverflow.php, part "3."
+        #       (the content of $aExtraTopCommentContent takes up
+        #       about 850 bytes). Part "1." and "2." takes up
+        #       about 600 bytes. 
         #
         #       Though we have less control if WordPress is used and
         #       it is (currently) left out. Is there a way to
         #       include anyway?
         #
-        if (strlen($aExtraTopCommentContent) > 0)
+        if (strlen($aExtraTopCommentContent) > 0) # Note: $aExtraTopCommentContent
+                                                  # has the actual content.
+                                                  # The text output here is 
+                                                  # just a forward reference 
+                                                  # for the reader of HTML 
+                                                  # comments.
         {
             echo "      2. For extra information, specific to this page, see\n";
             echo "         the HTML comment below, just before the \"title\"\n";

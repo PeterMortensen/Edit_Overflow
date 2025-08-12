@@ -49,12 +49,13 @@
                     $extraText;
             } #alternativeLink()
 
-            # For internal timing
+            # Instrumentation: For internal timing
             $startTime_secs = microtime(true);
             $databaseCalls = 0;
 
             function lookup($aPDO, $aLookupTerm)
             {
+                # Instrumentation only
                 global $databaseCalls;
                 $databaseCalls++;
 
@@ -1521,8 +1522,6 @@
         <p>Proudly and unapologetic powered by PHP!</p>
 
         <?php
-            # $databaseCalls = 37; # Stub
-
             $endTime_secs = microtime(true);
             $elapsedTime_secs = $endTime_secs - $startTime_secs; # Seconds, fractional
             printf("<!-- Page rendered in %.3f seconds. End: %.3f seconds (Unix time). Database lookups: %s -->\n",
@@ -1531,3 +1530,4 @@
         ?>
 
 <?php the_EditOverflowEnd() ?>
+
