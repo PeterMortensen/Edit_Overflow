@@ -49,8 +49,15 @@
                     $extraText;
             } #alternativeLink()
 
+            # For internal timing
+            $startTime_secs = microtime(true);
+            $databaseCalls = 0;
+
             function lookup($aPDO, $aLookupTerm)
             {
+                global $databaseCalls;
+                $databaseCalls++;
+
                 # Default: For words that are not in our word list
                 $incorrectTerm = "";
                 $correctTerm   = "";
@@ -71,14 +78,14 @@
 
                     if ($statement->rowCount() > 0)
                     {
-                        # "PDO::FETCH_ASSOC" it to return the result as an associative array.
+                        # "PDO::FETCH_ASSOC" is to return the
+                        # result as an associative array.
                         $row = $statement->fetch(PDO::FETCH_ASSOC);
 
                         # Note: This is for display, so e.g. "<" should be encoded
                         #       as "&lt;". We don't do any text processing on
                         #       the result (e.g., computing the length of a
                         #       string), except enclosing it other text.
-                        #
 
                         # Note: This is not for display, so we can't apply
                         #       htmlentities() - clients depend on it.
@@ -86,7 +93,7 @@
                         #       text processing.
                         #
                         #       It is up to the client to apply
-                        #       htmlentities(). There e.g. "<"
+                        #       htmlentities(). There, e.g., "<"
                         #       should be encoded as "&lt;".
                         #
                         $incorrectTerm = $row['incorrectTerm'];
@@ -101,7 +108,8 @@
                 return [$incorrectTerm, $correctTerm, $URL];
             } #lookup()
 
-            # These two are for proper indentation in the
+
+            # These are for proper indentation in the
             # generated HTML source (by PHP).
             $headerLevelIndent = "        ";
             $baseIndent        = "$headerLevelIndent        ";
@@ -116,7 +124,7 @@
             $lookUpTerm = get_postParameter('LookUpTerm') ?? 'js';
 
             #Now dynamic (shows the term in the title so we can
-            #distinguish e.g. when opening recently closed tabs
+            #distinguish, e.g., when opening recently closed tabs
             #in Firefox), but we may need  to add a special case
             #for ***empty*** input/initial page... (right now
             #it is using some default).
@@ -181,13 +189,13 @@
                 # moderation bots of unspecified IQ have
                 # effectively destroyed all copy editing
                 # on Quora (from about 2020) - which is
-                # against the "Yahoo Answers with
-                # slightly better grammar.". Now it is
-                # just the next Yahoo Answers (already
+                # against the original "Yahoo Answers with
+                # slightly better grammar." slogan. Now it
+                # is just the next Yahoo Answers (already
                 # shut down). When will they ever learn?
                 #
                 # Disabling it fixed our problem with
-                # looking "*nix".
+                # looking up "*nix".
                 #
                 # We keep it for a while.
                 #
@@ -225,8 +233,8 @@
 
             if (array_key_exists('resetState', $_REQUEST))
             {
-                $URLlist_encoded = "";  # Clear out the memory (between pages,
-                                        # for the edit summary)
+                $URLlist_encoded = "";  # Clear out the memory (between
+                                        # pages, for the edit summary)
             }
 
             #echo "<p>Lookup term: $lookUpTerm</p>\n";
@@ -239,13 +247,13 @@
 
             $pdo = connectToDatabase();
 
-            # Some filtering of the lookup term, leading and
-            # trailing characters.
+            # Some filtering of the lookup term: Remove
+            # some leading and trailing characters.
             #
             # For now, only whitespace. But to match the
             # Windows application it should also exclude
             # punctuation from the lookup (but retain
-            # it in the output)
+            # it in the output).
             #
             $lookUpTerm = trim($lookUpTerm);
 
@@ -284,9 +292,15 @@
                 # Note: The past tense "looked" is somewhat
                 #       a misnomer during execution. We both
                 #       have words that have been looked up
-                #       and words haven't (yet).
+                #       and words that haven't (yet).
                 #
                 $lookedUpWords[$lookUpTerm] = $URL;
+
+                # Guard for too many database lookups
+                $lookupTerm2IncorrectTerm = [];  # Is the lookup term the same
+                                                  # as the incorrect term???
+                $lookupTerm2CorrectTerm = [];
+                $lookupTerm2URL = [];
 
                 $linkID = 1002; # Expected by our Selenium regression test
                                 # It is an arbitrary number, but it must
@@ -311,8 +325,9 @@
                         $postFix = "";
 
                         # Note: For the search, we use the base form, without
-                        #       the underscores. We then construct the
-                        #       lookup terms by appending underscores.
+                        #       the underscores. We then construct the lookup
+                        #       terms (for each alternative word set) by
+                        #       appending underscores.
                         #
                         #       Whereas in "$lookedUpWords" we keep the
                         #       actual lookup terms (they need to be
@@ -325,8 +340,41 @@
                         {
                             $someLookUpTerm = $someWord_stripped . $postFix;
 
-                            [$someIncorrectTerm, $someCorrectTerm, $someURL] =
-                                lookup($pdo, $someLookUpTerm);
+                            # Guard for too many database lookups
+                            $someIncorrectTerm;
+                            $someCorrectTerm;
+                            $someURL;
+                            if (array_key_exists($someLookUpTerm,
+                                                  $lookupTerm2CorrectTerm))
+                            {
+                                # We cache the lookups, to avoid more
+                                # database lookups than necessary.
+
+                                $someIncorrectTerm =
+                                    $lookupTerm2IncorrectTerm[$someLookUpTerm];
+
+                                $someCorrectTerm =
+                                    $lookupTerm2CorrectTerm[$someLookUpTerm];
+
+                                $someURL =
+                                    $lookupTerm2URL[$someLookUpTerm];
+                            }
+                            else
+                            {
+                                [$someIncorrectTerm, $someCorrectTerm, $someURL] =
+                                    lookup($pdo, $someLookUpTerm);
+
+                                # Note: We cache both successful and
+                                #       unsuccessful lookups.
+                                $lookupTerm2IncorrectTerm[$someLookUpTerm] =
+                                    $someIncorrectTerm;
+
+                                $lookupTerm2CorrectTerm[$someLookUpTerm] =
+                                    $someCorrectTerm;
+
+                                $lookupTerm2URL[$someLookUpTerm] =
+                                    $someURL;
+                            }
 
                             if ($someCorrectTerm)
                             {
@@ -1471,5 +1519,15 @@
         </p>
 
         <p>Proudly and unapologetic powered by PHP!</p>
+
+        <?php
+            # $databaseCalls = 37; # Stub
+
+            $endTime_secs = microtime(true);
+            $elapsedTime_secs = $endTime_secs - $startTime_secs; # Seconds, fractional
+            printf("<!-- Page rendered in %.3f seconds. End: %.3f seconds (Unix time). Database lookups: %s -->\n",
+                    $elapsedTime_secs, $endTime_secs, $databaseCalls);
+            echo "\n";
+        ?>
 
 <?php the_EditOverflowEnd() ?>
