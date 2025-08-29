@@ -2877,6 +2877,7 @@ echo "COMMIT;"           >> ${SQL_FILE_QUICKIMPORT}
 #pwd
 #echo
 #ls -ls $SQL_FILE
+#exit
 
 
 # ###########################################################################
@@ -2926,7 +2927,7 @@ rm $HTML_FILE
 #       2022-01-25: 3310553 bytes
 
 # Note: The same build number
-wordListExport 33 "HTML"  $HTML_FILE   7890000 8710000
+wordListExport 33 "HTML"  $HTML_FILE   8050000 8880000
 
 
 cp  $HTML_FILE  $HTML_FILE_GENERIC
