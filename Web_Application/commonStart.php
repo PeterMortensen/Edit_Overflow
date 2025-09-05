@@ -69,7 +69,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.51a514 2025-09-04T184019Z+0";
+        return "Edit Overflow v. 1.1.51a516 2025-09-05T135251Z+0";
     }
 
 
@@ -372,12 +372,14 @@
     } #adjustForWordPressMadness()
 
 
+    #We should probably use PHP's htmlspecialchars() (or similar) instead.
+    #WordPress also has some functions, like esc_attr()
+    #
     function get_HTMLattributeEscaped($aRawContent)
     {
         # Later: Probably also single quote.
 
         #echo "<p>Before: xxx" . $aRawContent . "xxx</p>\n";
-
 
         # But why did we have to use "%22" instead of "&quot;"???? Was it
         # due to escaping of double quote by WordPress? Or for W3C
@@ -390,10 +392,8 @@
         #$encodedContent = str_replace('"', '&quot;', $aRawContent);
         $encodedContent = str_replace('"', '%22', $aRawContent);
 
-
         #To be more complete it should also be done for
         #single quotes,e.g. by "&apos;".
-
 
         #echo "<p>After: xxx" . $aRawContent . "xxx</p>\n";
 
