@@ -401,6 +401,46 @@
     } #get_HTMLattributeEscaped()
 
 
+    function HTML_Link($aURL,
+                        $aLinkText,
+                        $anAttributes)
+    {
+        # Future: Do not include the space before ">"
+        #         for an empty $anAttributes
+        
+        return
+            "<a " .
+                "href=\"$aURL\"" .
+                " $anAttributes" .
+            ">" . $aLinkText . "</a>";
+    } #HTML_Link()
+
+    function alternativeLink($anIncorrectTerm,
+                              $aCorrectTerm,   # The link text
+                              $anID,
+                              $aSomeAnnotation)
+    {
+        #$baseURL = "https://pmortensen.eu/world/EditOverflow.php";
+        $baseURL = "/world/EditOverflow.php?OverflowStyle=Native";
+
+        $extraText = "";
+        if ($aSomeAnnotation !== "")
+        {
+            $extraText = " (" . strtolower($aSomeAnnotation) . ")";
+        }
+
+        return
+            "<a " .
+            "href=" .
+            "\"$baseURL&LookUpTerm=" .
+            urlencode($anIncorrectTerm) .
+            "\"" .
+            " id=\"$anID\"" .
+            ">" . stripTrailingUnderscore($aCorrectTerm) . "</a>" .
+            $extraText;
+    } #alternativeLink()
+
+
     # Single place for HTML links
     #
     function get_HTMLlink($aRawLinkText, $aRawURL, $anExtraAttributesText)

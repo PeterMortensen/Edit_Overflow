@@ -24,31 +24,6 @@
                 return rtrim($aString, "_");
             } #stripTrailingUnderscore()
 
-            function alternativeLink($anIncorrectTerm,
-                                      $aCorrectTerm,
-                                      $anID,
-                                      $aSomeAnnotation)
-            {
-                #$baseURL = "https://pmortensen.eu/world/EditOverflow.php";
-                $baseURL = "/world/EditOverflow.php?OverflowStyle=Native";
-
-                $extraText = "";
-                if ($aSomeAnnotation !== "")
-                {
-                    $extraText = " (" . strtolower($aSomeAnnotation) . ")";
-                }
-
-                return
-                    "<a " .
-                    "href=" .
-                    "\"$baseURL&LookUpTerm=" .
-                    urlencode($anIncorrectTerm) .
-                    "\"" .
-                    " id=\"$anID\"" .
-                    ">" . stripTrailingUnderscore($aCorrectTerm) . "</a>" .
-                    $extraText;
-            } #alternativeLink()
-
             # Instrumentation: For internal timing
             $startTime_secs = microtime(true);
             $databaseCalls = 0;
@@ -462,9 +437,16 @@
                                                 $temp2 .
                                                 alternativeLink(
                                                     $someIncorrectTerm,
-                                                    $someCorrectTerm,
+                                                    htmlspecialchars($someCorrectTerm),
                                                     $linkID,
-                                                    extractGrammaticalWordClass($someURL));
+                                                    extractGrammaticalWordClass($someURL)) .
+                                                " (" .
+                                                HTML_Link(
+                                                    $someURL,
+                                                    "ref",
+                                                    "") .
+                                                ")"
+                                                ;
 
                                             $linkID++;
                                         }
@@ -500,7 +482,6 @@
                   # word lists (indeterminate; it depends on the
                   # content of the word list)
             } # Block: Generalised look up in alternative word lists
-
 
             if ($lookUpTerm_inMainWordSet)
             {
