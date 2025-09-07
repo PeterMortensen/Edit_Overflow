@@ -400,6 +400,12 @@
         return $encodedContent;
     } #get_HTMLattributeEscaped()
 
+    # Or trailing underscore??? What was the intent?
+    function stripTrailingUnderscore($aString)
+    {
+        #return substr($aString, 0, strlen($aString) - 1);
+        return rtrim($aString, "_");
+    } #stripTrailingUnderscore()
 
     function HTML_Link($aURL,
                         $aLinkText,
@@ -407,18 +413,25 @@
     {
         # Future: Do not include the space before ">"
         #         for an empty $anAttributes
-        
+
+        $extraText = "";
+        if ($anAttributes !== "")
+        {
+            $extraText = " $anAttributes";
+        }
+
         return
             "<a " .
                 "href=\"$aURL\"" .
-                " $anAttributes" .
+                $extraText . # May be empty 
             ">" . $aLinkText . "</a>";
     } #HTML_Link()
 
     function alternativeLink($anIncorrectTerm,
                               $aCorrectTerm,   # The link text
                               $anID,
-                              $aSomeAnnotation)
+                              $aSomeAnnotation,
+                              $aCrossReferenceURL)
     {
         #$baseURL = "https://pmortensen.eu/world/EditOverflow.php";
         $baseURL = "/world/EditOverflow.php?OverflowStyle=Native";
@@ -429,15 +442,28 @@
             $extraText = " (" . strtolower($aSomeAnnotation) . ")";
         }
 
+        #return
+        #    "<a " .
+        #    "href=" .
+        #    "\"$baseURL&LookUpTerm=" .
+        #    urlencode($anIncorrectTerm) .
+        #    "\"" .
+        #    " id=\"$anID\"" .
+        #    ">" . stripTrailingUnderscore($aCorrectTerm) . "</a>" .
+        #    $extraText;
         return
-            "<a " .
-            "href=" .
-            "\"$baseURL&LookUpTerm=" .
-            urlencode($anIncorrectTerm) .
-            "\"" .
-            " id=\"$anID\"" .
-            ">" . stripTrailingUnderscore($aCorrectTerm) . "</a>" .
-            $extraText;
+            HTML_Link(
+              "$baseURL&LookUpTerm=" . urlencode($anIncorrectTerm),
+              stripTrailingUnderscore($aCorrectTerm),
+              "id=\"$anID\""
+            ) .
+            $extraText . 
+            " (" .
+            HTML_Link(
+                $aCrossReferenceURL,
+                "ref",
+                "") .
+            ")";
     } #alternativeLink()
 
 

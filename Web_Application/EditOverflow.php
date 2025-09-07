@@ -17,13 +17,6 @@
         <?php
             require_once('deploymentSpecific.php');
 
-            # Or trailing underscore??? What was the intent?
-            function stripTrailingUnderscore($aString)
-            {
-                #return substr($aString, 0, strlen($aString) - 1);
-                return rtrim($aString, "_");
-            } #stripTrailingUnderscore()
-
             # Instrumentation: For internal timing
             $startTime_secs = microtime(true);
             $databaseCalls = 0;
@@ -439,14 +432,8 @@
                                                     $someIncorrectTerm,
                                                     htmlspecialchars($someCorrectTerm),
                                                     $linkID,
-                                                    extractGrammaticalWordClass($someURL)) .
-                                                " (" .
-                                                HTML_Link(
-                                                    $someURL,
-                                                    "ref",
-                                                    "") .
-                                                ")"
-                                                ;
+                                                    extractGrammaticalWordClass($someURL),
+                                                    $someURL);
 
                                             $linkID++;
                                         }
@@ -582,6 +569,7 @@
                                     $incorrectTerm2,
                                     $correctTerm2,
                                     1002,
+                                    "", # ????
                                     extractGrammaticalWordClass($URL2));
             }
             if ($correctTerm3 &&
@@ -599,6 +587,7 @@
                                     $incorrectTerm3,
                                     $correctTerm3,
                                     1003,
+                                    "", # ???
                                     extractGrammaticalWordClass($URL3));
             }
 

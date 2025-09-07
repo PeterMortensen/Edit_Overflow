@@ -689,6 +689,36 @@
                 }
             } #test_extractGrammaticalWordClass()
 
+            # Helper function for testing
+            #
+            function test_crossReferenceGeneration(
+                $anID,
+                $anIncorrectTerm, $aLinkText, $anAttributeID, $aSomeAnnotation, $aCrossReferenceURL,
+                $anExpectedOutput)
+            {
+                $HTMLcontent = alternativeLink($anIncorrectTerm,
+                                                $aLinkText,
+                                                $anAttributeID,
+                                                $aSomeAnnotation,
+                                                $aCrossReferenceURL);
+
+                if ($HTMLcontent !== $anExpectedOutput)
+                {
+                    # Note: Currently test failures are detected
+                    #       by the output of this string
+                    #       (without the quotes):
+                    #
+                    #           "Failed test. ID: "
+
+                    echo "<br/><br/>\n";
+                    echo
+                      "Failed test. ID: $anID. Cross-reference generation. " .
+                      "The output, \"$HTMLcontent\" is not as expected " .
+                      "(\"$anExpectedOutput\").\n";
+                    assert(false);
+                }
+            } #test_crossReferenceGeneration()
+
 
             # The main functionality of this page (one of various
             # text transformations, selected by the user
@@ -1202,6 +1232,15 @@
             #
             test_extractGrammaticalWordClass(
               1045, "https://en.wiktionary.org/wiki/PS#Alternative_forms", "");
+
+            test_crossReferenceGeneration(
+              1046,
+                  "is_____",
+                  "is",
+                  1002,
+                  "verb",
+                  "https://en.wiktionary.org/wiki/is#Verb",
+              "<a href=\"/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=is_____\" id=\"1002\">is</a> (verb) (<a href=\"https://en.wiktionary.org/wiki/is#Verb\">ref</a>)");
 
 
             #test_generateWikiMedia_Link(1029, "https://en.wikipedia.org/wiki/Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards", "XXXXX", "[[Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards|Cherry MX]]");
