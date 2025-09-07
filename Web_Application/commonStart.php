@@ -69,7 +69,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.51a518 2025-09-05T233519Z+0";
+        return "Edit Overflow v. 1.1.51a522 2025-09-07T165051Z+0";
     }
 
 
@@ -411,9 +411,7 @@
                         $aLinkText,
                         $anAttributes)
     {
-        # Future: Do not include the space before ">"
-        #         for an empty $anAttributes
-
+        # Avoid including a trailing space for no attributes (empty)
         $extraText = "";
         if ($anAttributes !== "")
         {
@@ -441,16 +439,6 @@
         {
             $extraText = " (" . strtolower($aSomeAnnotation) . ")";
         }
-
-        #return
-        #    "<a " .
-        #    "href=" .
-        #    "\"$baseURL&LookUpTerm=" .
-        #    urlencode($anIncorrectTerm) .
-        #    "\"" .
-        #    " id=\"$anID\"" .
-        #    ">" . stripTrailingUnderscore($aCorrectTerm) . "</a>" .
-        #    $extraText;
         return
             HTML_Link(
               "$baseURL&LookUpTerm=" . urlencode($anIncorrectTerm),
