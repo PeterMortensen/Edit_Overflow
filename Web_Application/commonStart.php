@@ -69,7 +69,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.51a524 2025-09-08T114911Z+0";
+        return "Edit Overflow v. 1.1.51a526 2025-09-09T152930Z+0";
     }
 
 
@@ -421,7 +421,7 @@
         return
             "<a " .
                 "href=\"$aURL\"" .
-                $extraText . # May be empty 
+                $extraText . # May be empty
             ">" . $aLinkText . "</a>";
     } #HTML_Link()
 
@@ -445,7 +445,7 @@
               stripTrailingUnderscore($aCorrectTerm),
               "id=\"$anID\""
             ) .
-            $extraText . 
+            $extraText .
             " (" .
             HTML_Link(
                 $aCrossReferenceURL,
