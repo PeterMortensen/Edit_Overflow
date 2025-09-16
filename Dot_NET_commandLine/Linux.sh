@@ -2785,6 +2785,20 @@ checkCommandLineLookup 30 $supposedNativeApplicationPath  " OS "   " operating s
 checkCommandLineLookup 30 $supposedNativeApplicationPath  "gtk#"  "Gtk#"
 checkCommandLineLookup 30 $supposedNativeApplicationPath  "c#"    "C#"
 
+# Check that the lookup looks in other word sets if
+# the direct lookup did not match
+checkCommandLineLookup 30 $supposedNativeApplicationPath  "group policy"  "Group Policy_"
+checkCommandLineLookup 30 $supposedNativeApplicationPath  "group policy_"  "Group Policy_"
+
+# Boundary test: Look up word in the last alternative word set
+checkCommandLineLookup 30 $supposedNativeApplicationPath  "mike_______"  "Mike_______"
+checkCommandLineLookup 30 $supposedNativeApplicationPath  "mike"         "Mike_______"
+
+# Check that the lookup looks in all word sets if
+# the direct lookup did not match
+checkCommandLineLookup 30 $supposedNativeApplicationPath  "Attiny85_"  "ATtiny85"
+checkCommandLineLookup 30 $supposedNativeApplicationPath  "ni_____"    "New-Item"
+
 
 # ###########################################################################
 #

@@ -88,16 +88,6 @@ namespace OverflowHelper.core
 
         private Dictionary<string, string> mIncorrect2Correct;
 
-        //Delete at any time
-        //private Dictionary<string, string> mCorrectTerm2URL;
-        //
-        //// Only used if sorting by the number of incorrect words
-        //// (as the primary key)
-        //private Dictionary<string, int> mCorrect2Count;
-        //
-        //// Only used if sorting by the number of words
-        //// in the correct term (as the primary key)
-        //private Dictionary<string, int> mCorrect2WordCount;
         private correctTermInfoStruct mCorrectTermInfo;
 
 
@@ -165,10 +155,6 @@ namespace OverflowHelper.core
             // Adaptation, at least for now
             mIncorrect2Correct = wordList.incorrect2Correct;
 
-            //Delete at any time
-            //mCorrectTerm2URL = wordList.URLs;
-            //mCorrect2Count = wordList.incorrectTermCount;
-            //mCorrect2WordCount = wordList.wordCount;
             mCorrectTermInfo = wordList.correctTermInfo;
 
         } //Constructor
@@ -239,10 +225,6 @@ namespace OverflowHelper.core
 
             private List<int> mIndexes; // Into mKeys
 
-
-            //Delete at any time
-            //private Dictionary<string, int> mCorrect2Count;
-            //private Dictionary<string, int> mCorrect2WordCount;
             correctTermInfoStruct mCorrectTermInfo;
 
 
@@ -256,15 +238,8 @@ namespace OverflowHelper.core
             //*                                                                          *
             //****************************************************************************
             public SortByCorrectThenIncorrect_usingIndex(
-
                 Dictionary<string, string> anIncorrect2Correct,
-
-                //Delete at any time
-                //Dictionary<string, int> aCorrect2Count,
-                //Dictionary<string, int> aCorrect2WordCount
-
-                correctTermInfoStruct aCorrectTermInfo
-                )
+                correctTermInfoStruct aCorrectTermInfo)
             {
                 // We need to remember it for when the
                 // compare function is called...
@@ -914,13 +889,7 @@ namespace OverflowHelper.core
             SortByCorrectThenIncorrect_usingIndex sortObject =
                 new SortByCorrectThenIncorrect_usingIndex(
                     anIncorrect2Correct,
-
-                    //Delete at any time
-                    //aCorrect2Count,
-                    //aCorrect2WordCount
-
-                    aCorrectTermInfo
-                    );
+                    aCorrectTermInfo);
 
             // Unsorted at this point. The values are arbitrary (but
             // unique), but they happen to start at 1, followed by
@@ -1167,15 +1136,7 @@ namespace OverflowHelper.core
                            ref longestCorrectTerm,
                            ref longestURL,
                            ref mIncorrect2Correct,
-
-                           //Delete at any time
-                           //ref mCorrectTerm2URL,
-                           //ref mCorrect2Count,
-                           //ref mCorrect2WordCount
-
-                           mCorrectTermInfo
-
-                           );
+                           mCorrectTermInfo);
 
             return SQL_tableRows.ToString();
         } //dumpWordList_asSQL()
@@ -1546,17 +1507,9 @@ namespace OverflowHelper.core
             string aCodeCheck_AllOfExplanations,
             ref Dictionary<string, string> anIncorrect2Correct,
             int aUniqueWords,
-
-            //Delete at any time
-            //ref Dictionary<string, string> aCorrectTerm2URL,
-            //ref Dictionary<string, int> aCorrect2Count,
-            //ref Dictionary<string, int> aCorrect2WordCount,
-
             correctTermInfoStruct aCorrectTermInfo,
-
             string aVersionStr,
-            string aDateStr
-            )
+            string aDateStr)
         {
             // For the pre-allocation: We now use a very simple prediction
             // model - linear with the number of entries.
@@ -1598,18 +1551,10 @@ namespace OverflowHelper.core
                            ref longestCorrectTerm,
                            ref longestURL,
                            ref anIncorrect2Correct,
+                           aCorrectTermInfo);
 
-                           //Delete at any time
-                           //ref aCorrectTerm2URL,
-                           //ref aCorrect2Count,
-                           //ref aCorrect2WordCount
-
-                           aCorrectTermInfo
-
-                           );
             // The main side effect is the changing of
             // the content of ref HTML_tableRows...
-
 
             string lenLongestInCorrectTermStr = longestInCorrectTerm.Length.ToString();
             string lenLongestCorrectTermStr = longestCorrectTerm.Length.ToString();
@@ -1675,13 +1620,7 @@ namespace OverflowHelper.core
                       aCodeCheck_AllOfExplanations,
                       ref mIncorrect2Correct,
                       mCorrectTermInfo.URLs.Count,
-
-                      //Delete at any time
-                      //ref mCorrectTerm2URL,
-                      //ref mCorrect2Count,
-                      //ref mCorrect2WordCount,
                       mCorrectTermInfo,
-
                       aVersionStr,
                       aDateStr);
         } //dumpWordList_asHTML()
@@ -1744,7 +1683,6 @@ namespace OverflowHelper.core
             sb.Append(correctWordEntries);
             sb.Append(" correct words.\n\n");
 
-
             // The main side effect of exportWordlist() is the changing
             // of the content of ref JavaScript_codeSB...
             string longestInCorrectTerm = "";
@@ -1755,17 +1693,8 @@ namespace OverflowHelper.core
                            ref longestInCorrectTerm,
                            ref longestCorrectTerm,
                            ref longestURL,
-
                            ref mIncorrect2Correct,
-
-                           //Delete at any time
-                           //ref mCorrectTerm2URL,
-                           //ref mCorrect2Count,
-                           //ref mCorrect2WordCount
-
-                           mCorrectTermInfo
-
-                           );
+                           mCorrectTermInfo);
 
             // For unit testing under Jest (which runs under Node.js)
             sb.Append("\n\n\n\n");

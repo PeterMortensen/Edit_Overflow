@@ -51,9 +51,17 @@ namespace EditOverflow2
                 int wordSet = 0;
 
                 string originalLookupWord = lookupWord;
+                
+                // Search in all word sets, no matter if the original
+                // word was in an alternative word set
+                //
+                // We presume the naming convention
+                // with trailing underscores
+                //
+                lookupWord = lookupWord.TrimEnd('_');
 
-                // If it isn't in the main word set, try to look up
-                // the word in the alternative word sets.
+                // If it isn't in the current word set, try 
+                // to look up the word in all word sets.
                 //
                 // We presume the trailing underscores convention.
                 //
@@ -131,7 +139,6 @@ namespace EditOverflow2
                 EditorOverflowApplication app = new EditorOverflowApplication_Unix();
 
                 CodeFormattingCheck cfCheck = new CodeFormattingCheck();
-
 
                 // This will result in running the ***first*** level
                 // of integrity testing for the word list data
