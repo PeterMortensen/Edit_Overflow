@@ -2798,6 +2798,7 @@ checkCommandLineLookup 30 $supposedNativeApplicationPath  "mike"         "Mike__
 # the direct lookup did not match
 checkCommandLineLookup 30 $supposedNativeApplicationPath  "Attiny85_"  "ATtiny85"
 checkCommandLineLookup 30 $supposedNativeApplicationPath  "ni_____"    "New-Item"
+checkCommandLineLookup 30 $supposedNativeApplicationPath  "MD_"        "Markdown_"
 
 
 # ###########################################################################

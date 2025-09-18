@@ -48,7 +48,7 @@ namespace EditOverflow2
                 bool lookUpDone = false;
                 bool match = false;
 
-                int wordSet = 0;
+                int wordSetsChecked = 0;
 
                 string originalLookupWord = lookupWord;
                 
@@ -56,19 +56,19 @@ namespace EditOverflow2
                 // word was in an alternative word set
                 //
                 // We presume the naming convention
-                // with trailing underscores
+                // with trailing underscores.
                 //
-                lookupWord = lookupWord.TrimEnd('_');
+                string lookupWord_base = lookupWord.TrimEnd('_');
 
-                // If it isn't in the current word set, try 
-                // to look up the word in all word sets.
-                //
+                // Counting from 0
+                int startWordset = lookupWord.Length - lookupWord_base.Length;
+
+                int wordset = startWordset;
+
                 // We presume the trailing underscores convention.
                 //
                 while (!lookUpDone)
                 {
-                    wordSet++;
-
                     lookupResultStructure lookupResult =
                         someWordCorrector.lookup_Central(
                             lookupWord, false, false);
@@ -94,7 +94,8 @@ namespace EditOverflow2
                         //    "\" is not in the word list...");
                     }
 
-                    if (wordSet >= kWordSets)
+                    wordSetsChecked++; // A count
+                    if (wordSetsChecked >= kWordSets)
                     {
                         lookUpDone = true;
                         if (!match)
@@ -108,6 +109,18 @@ namespace EditOverflow2
                     lookupWord += "_"; // For the next word set.
                                        // We presume the naming convention
                                        // with trailing underscores
+
+                    wordset++; // An absolute word list number (zero-based)
+                    if (wordset >= kWordSets)
+                    {
+                        // Wrap around, so we also search in word sets
+                        // lower than the specified (if the specified
+                        // was in some alternative word set).
+                        
+                        wordset = 0;
+                        lookupWord = lookupWord_base; // That is, without
+                                                      // trailing underscores.  
+                    }
 
                 } // Through all word sets, until there is a match (or not)
 
