@@ -1158,7 +1158,7 @@
 
                     if ($alternative)
                     {
-                        echo "<label for=\"CorrectedTerm\">" . 
+                        echo "<label for=\"CorrectedTerm\">" .
                               "Alternatives ($crossReferences)</label>\n";
                         echo "                " . # Internal indent (don't we have a variable for this???)
                               "<p class=\"entry-line\">$alternative</p>\n" .
