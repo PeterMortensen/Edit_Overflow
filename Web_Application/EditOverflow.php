@@ -275,6 +275,7 @@
                                 # It is an arbitrary number, but it must
                                 # be coordinated with the test.
                 $iterations = 0;
+                $crossReferences = 0;
                 $done = 0;
                 while (!$done)
                 {
@@ -436,6 +437,7 @@
                                                     $someURL);
 
                                             $linkID++;
+                                            $crossReferences++;
                                         }
                                     } # Block
 
@@ -1156,7 +1158,8 @@
 
                     if ($alternative)
                     {
-                        echo "<label for=\"CorrectedTerm\">Alternatives</label>\n";
+                        echo "<label for=\"CorrectedTerm\">" . 
+                              "Alternatives ($crossReferences)</label>\n";
                         echo "                " . # Internal indent (don't we have a variable for this???)
                               "<p class=\"entry-line\">$alternative</p>\n" .
                               "<p></p>";
