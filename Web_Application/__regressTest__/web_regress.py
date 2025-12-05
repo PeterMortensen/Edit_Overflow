@@ -18,19 +18,19 @@
 #           By convention of the Python module "unittest", only functions
 #           starting with "test" are run. Other functions are helper
 #           functions (to reduce the redundancy). Or they are functions
-#           whose names are expected by "unittest" (e.g. for setup).
+#           whose names are expected by "unittest" (e.g., for setup).
 #
 # Historical notes:
 #
 #   'find_element_by_name' was removed in later versions of Selenium.
-#   See e.g. <https://stackoverflow.com/questions/72773206>
+#   See e.g., <https://stackoverflow.com/questions/72773206>
 #
 #
 ########################################################################
 
 import unittest # Home page: <https://docs.python.org/3.8/library/unittest.html>
                 #
-                # Unconditional failure (e.g. in an if-construct
+                # Unconditional failure (e.g., in an if-construct
                 # with some complex conditions),
                 # <https://docs.python.org/3.8/library/unittest.html#unittest.TestCase.fail>:
                 #
@@ -316,13 +316,12 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     #               "PHP (tag wiki)" (a correct word in the
     #               alternative word set).
     #
-    #
     #    aPartialAlternativeURL
     #
     #      It is not a full URL. For now, it assumes query
     #      parameter "OverflowStyle=Native" is always used.
     #
-    #      E.g. only a site relative URL or only part of the
+    #      E.g., only a site relative URL or only part of the
     #      query parameters.
     #
     #      Example:
@@ -398,9 +397,9 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         #      There isn't a non-deprecated way
         #      to avoid the exception(?).
         #
-        #   2) The plural functions, e.g. findElements_by_id(), that
+        #   2) The plural functions, e.g., findElements_by_id(), that
         #      don't throw exceptions have been removed in later
-        #      versions Selenium.
+        #      versions Of Selenium.
 
         lookupReference = ' for lookup word "' + aLookUpTerm + '".'
 
@@ -476,11 +475,11 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         #       a (PHP) program error or a (test)
         #       specification error.
         #
-        isWordlistReferencePresent = self._core_elementExists("1004")
+        isWordlistReferencePresent = self._core_elementExists("1300")
         if isWordlistReferencePresent and (aWordListReferenceURL != ""):
             # One combination
 
-            foundElement_wordListReference = self.browser.find_element(By.ID, "1004")
+            foundElement_wordListReference = self.browser.find_element(By.ID, "1300")
             linkText_wordListReference = foundElement_wordListReference.text
             URL_wordListReference = foundElement_wordListReference.get_attribute("href")
 
@@ -565,7 +564,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     # edit field is used for both input and output (inline text
     # transformation) and various manipulation can take place, e.g.
     # using a macro keyboard (as keyboard shortcuts are defined for
-    # all operations, e.g. Ctrl + Shift for formatting  of YouTube
+    # all operations, e.g., Ctrl + Shift for formatting  of YouTube
     # comments (button "Transform for YouTube comments")
     #
     # Note: currently we have the huge overhead of creating a
@@ -794,7 +793,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                    anExpectedInlineMarkdownLink,
                    anErrorMessage):
 
-        #We could do some sanity checking of aURL (e.g. expected to
+        #We could do some sanity checking of aURL (e.g., expected to
         #contain "Link_Builder.php")
 
         self.browser.get(aURL)
@@ -944,14 +943,42 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             #print("Setting reset checkbox...")
             self._setCheckbox("resetState")
 
+            # _lookUp() parameters:
+            #
+            #     aLookUpTerm,
+            #
+            #     anExpectedEditSummary,
+            #     anExplanation,
+            #     anExpectedLink,
+            #
+            #     anAlternativeLinkText,
+            #     anAlternativeURL,
+            #     aWordListReferenceURL):
+
             # Lookup with a reset, with a known term
             #
             self._lookUp("js",
+
                          singleLookup_editSummary_JavaScript,
                          defaultMsgForEditSummary,
                          "''[[JavaScript|JavaScript]]''",
-                         "JavaScript (tag wiki)",
-                         altURLprefix + "JavaScript_",
+
+                         # For the (first) cross reference:
+
+                             #"JavaScript (tag wiki)",
+                             #"just", # Due to a 2025-12-05 change in the wordlist
+                             "is", # Due to a 2025-12-05 change in the wordlist
+
+                             # The Edit Overflow URL, "". For ***first-level***
+                             # cross references, it is the original search
+                             # word (first parameter to this function), with
+                             # one or more ***underscores appended***.
+                             #
+                             #altURLprefix + "JavaScript_",
+                             #altURLprefix + "js_",
+                             altURLprefix + "js_____",
+
+                         #wordList_URLprefix + "JavaScript")
                          wordList_URLprefix + "JavaScript")
 
         if True: # Do a ***failing lookup*** after a reset - we had a

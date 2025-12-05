@@ -1212,7 +1212,7 @@
                   #         Near  'linkText_wordListReference'
                 ?>
 
-                <label for="URL"><?php echo get_HTMLlink("URL.", $URL, "") ?> <?php echo get_HTMLlink("Words.", $linkWordListWithPageAnchor, ' id="1004"') ?></label>
+                <label for="URL"><?php echo get_HTMLlink("URL.", $URL, "") ?> <?php echo get_HTMLlink("Words.", $linkWordListWithPageAnchor, ' id="1300"') ?></label>
                 <input
                     name="URL"
                     type="text"

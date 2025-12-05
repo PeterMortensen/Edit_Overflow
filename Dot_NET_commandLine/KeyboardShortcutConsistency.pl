@@ -750,7 +750,7 @@ if ($proceedWithMainProcessing)
                                        #
                                        #
                                        #($formLabelText eq '<?php echo get_HTMLlink("URL", $URL, "") ?>') || # Until 2023-01-05.
-                                       ($formLabelText eq '<?php echo get_HTMLlink("URL.", $URL, "") ?> <?php echo get_HTMLlink("Words.", $linkWordListWithPageAnchor, \' id="1004"\') ?>') ||
+                                       ($formLabelText eq '<?php echo get_HTMLlink("URL.", $URL, "") ?> <?php echo get_HTMLlink("Words.", $linkWordListWithPageAnchor, \' id="1300"\') ?>') ||
 
                                        # Presuming it is for the form submit...
                                        #
