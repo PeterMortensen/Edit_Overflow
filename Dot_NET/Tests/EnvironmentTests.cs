@@ -56,7 +56,13 @@ namespace OverflowHelper.Tests
             // Ensure we are actually running the expected version. But what
             // is actually our intent here? Why do we have this test?
 
-            string presumedNewest = "1.1.51a732";
+            // Sample error (for a syntax error here (manual editing typo
+            // mistake (missing ending double quote), '"1.1.51a7323;')):
+            //
+            //   "error CS1010: Newline in constant"
+            //   "error CS1002: ; expected "
+
+            string presumedNewest = "1.1.51a733";
 
             {
                 // For the main application
