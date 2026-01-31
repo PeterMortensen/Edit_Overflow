@@ -98,7 +98,7 @@ namespace OverflowHelper
          ****************************************************************************/
         public static string versionString()
         {
-            string toReturn = "1.1.51a777";
+            string toReturn = "1.1.51a778";
             return toReturn;
         }
 
