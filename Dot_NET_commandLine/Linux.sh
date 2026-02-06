@@ -2772,7 +2772,7 @@ testCommandLineInterface 30 "${WORKFOLDER}/${DOT_NET_EDIT_OVERFLOW_PARTIAL_PATH}
 
 # Was affected by automatic filtering of some leading
 # and trailing characters
-checkCommandLineLookup 30 $supposedNativeApplicationPath "\"Timeless\" Homerow" "timeless home row keyboard modifier keys"
+checkCommandLineLookup 30 $supposedNativeApplicationPath "\"Timeless\" Homerow" "timeless home row keyboard modifier keys_"
 
 # We expect the lookup to succeed, even with
 # leading and trailing space as input
