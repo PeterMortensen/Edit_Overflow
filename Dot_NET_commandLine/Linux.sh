@@ -3087,12 +3087,18 @@ eval ${LFTP_COMMAND}  ; evaluateBuildResult 38 $? "copying the HTML word list to
 # Note: This can fail if something went wrong with the previous
 #       update of the wordlist in production (as we presume
 #       particular word mappings to be present in the
-#       database)
+#       database). For example,
+#
+#         "Error: Element hr not allowed as child of element label in
+#          this context. (Suppressing further errors from this subtree.)"
+#
+#       Though it ought to pass HTML validation also in that
+#       case. It shouldn't be dependent on particular (user)
+#       input.
 #
 # Note: The first thing to try is to submit it manually from
 #       a web browser. The URL for it is output to the
 #       screen
-#
 #
 #
 # It is currently dependent on an external service,
