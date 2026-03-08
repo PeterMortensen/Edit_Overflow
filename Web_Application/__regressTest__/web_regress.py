@@ -887,7 +887,11 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         singleLookup_editSummary_PHP = 'Active reading [<https://en.wikipedia.org/wiki/PHP>].'
         singleLookup_editSummary_JavaScript = 'Active reading [<https://en.wikipedia.org/wiki/JavaScript>].'
 
-        firstRealLookup_editSummary = 'Active reading [<https://en.wikipedia.org/wiki/PHP> <https://en.wikipedia.org/wiki/Python_%28programming_language%29>].'
+        # See also lookup test for "until"
+        #
+        #firstRealLookup_editSummary = 'Active reading [<https://en.wikipedia.org/wiki/PHP> <https://en.wikipedia.org/wiki/Python_%28programming_language%29>].'
+        firstRealLookup_editSummary = 'Active reading [<https://en.wikipedia.org/wiki/PHP> <https://en.wikipedia.org/wiki/Shorthand>].'
+
         defaultMsgForEditSummary = 'Unexpected edit summary '
 
         if True: # Test a normal lookup (implicitly through HTML get). For
@@ -901,14 +905,26 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                                   'Unexpected edit summary after URL GET lookup')
 
             # First direct lookup with a known incorrect term
-            self._lookUp("python",
+            #
+            # Gotcha: The word list on the local web server
+            #         must be sufficiently new...
+            #
+            #self._lookUp("python",
+            #             firstRealLookup_editSummary,
+            #             defaultMsgForEditSummary,
+            #             "''[[Python_%28programming_language%29|Python]]''",
+            #             "Python (tag wiki)",
+            #             #"http://localhost/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=python_")
+            #             altURLprefix + "python_",
+            #             wordList_URLprefix + "Python")
+            self._lookUp("chord",
                          firstRealLookup_editSummary,
                          defaultMsgForEditSummary,
-                         "''[[Python_%28programming_language%29|Python]]''",
-                         "Python (tag wiki)",
+                         "''[[Shorthand|stenography_]]''",
+                         "Plover",
                          #"http://localhost/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=python_")
-                         altURLprefix + "python_",
-                         wordList_URLprefix + "Python")
+                         altURLprefix + "stenography",
+                         wordList_URLprefix + "stenography_")
 
         if True: # Test a failed lookup.
 
@@ -929,7 +945,8 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             # Second direct lookup with a known
             # correct term (identity mapping)
             self._lookUp("until",
-                         'Active reading [<https://en.wikipedia.org/wiki/PHP> <https://en.wikipedia.org/wiki/Python_%28programming_language%29> <https://en.wiktionary.org/wiki/until#Conjunction>].',
+                         #'Active reading [<https://en.wikipedia.org/wiki/PHP> <https://en.wikipedia.org/wiki/Python_%28programming_language%29> <https://en.wiktionary.org/wiki/until#Conjunction>].',
+                         'Active reading [<https://en.wikipedia.org/wiki/PHP> <https://en.wikipedia.org/wiki/Shorthand> <https://en.wiktionary.org/wiki/until#Conjunction>].',
                          defaultMsgForEditSummary + 'for looking up a ***correct*** term',
                          "''[[until#Conjunction|until]]''",
                          "", "",
@@ -1168,7 +1185,6 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         # "php"
         self._mainLookup('http://localhost/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=php')
         #pass
-
 
 
     # Production: Test of the text window functions, e.g., YouTube comment formatting
