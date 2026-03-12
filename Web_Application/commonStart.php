@@ -69,7 +69,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.51a879 2026-03-11T225424Z+0";
+        return "Edit Overflow v. 1.1.51a881 2026-03-12T225432Z+0";
     }
 
 
@@ -429,7 +429,8 @@
                               $aCorrectTerm,   # The link text
                               $anID,
                               $aSomeAnnotation,
-                              $aCrossReferenceURL)
+                              $aCrossReferenceURL,
+                              $aCrossReferenceLevel)
     {
         #$baseURL = "https://pmortensen.eu/world/EditOverflow.php";
         $baseURL = "/world/EditOverflow.php?OverflowStyle=Native";
@@ -439,7 +440,14 @@
         {
             $extraText = " (" . strtolower($aSomeAnnotation) . ")";
         }
-        return
+
+        $crossReferenceLevelText = "CR" . $aCrossReferenceLevel;
+        if ($aCrossReferenceLevel == 1)
+        {
+            $crossReferenceLevelText = "<strong>first</strong>";
+        }
+        return        
+            "\n" . str_repeat(" ", 20) .
             HTML_Link(
               "$baseURL&LookUpTerm=" . urlencode($anIncorrectTerm),
               stripTrailingUnderscore($aCorrectTerm),
@@ -451,7 +459,10 @@
                 $aCrossReferenceURL,
                 "ref",
                 "") .
-            ")";
+            ") (" .
+            $crossReferenceLevelText .
+            ")"
+            ;
     } #alternativeLink()
 
 

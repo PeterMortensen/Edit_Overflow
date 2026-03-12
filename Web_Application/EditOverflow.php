@@ -281,9 +281,31 @@
                 {
                     $oldSize = count($lookedUpWords);
 
+                    # In the screen output, visually separate
+                    # different levels of cross references
+                    if ($iterations > 0)
+                    {
+                        # Note: <hr> completely breaks the output...
+                        $alternative2 .= 
+                            $EOL_andBaseIndent_sub .
+                            "<br><br>";
+                    }
+
+                    # One iteration of finding some more cross-references:
+                    #
+                    #   Looking for matches of previously looked up correct
+                    #   words as incorrect words for other words mappings
+                    #
                     # Note: It could be more efficient (it is potentially
                     #       a Shlemiel the painter’s algorithm). Though
                     #       in most cases there will only be one iteration.
+                    #
+                    #       For example, in the last iteration (that doesn't
+                    #       result in more matches being found), we repeat
+                    #       all previous lookups.
+                    #
+                    #       It would be more efficient to only use
+                    #       the matches from the previous iteration.
                     #
                     #       We repeat lookups (that we don't need to).
                     #
@@ -434,7 +456,8 @@
                                                     htmlspecialchars($someCorrectTerm),
                                                     $linkID,
                                                     extractGrammaticalWordClass($someURL),
-                                                    $someURL);
+                                                    $someURL,
+                                                    $iterations + 1);
 
                                             $linkID++;
                                             $crossReferences++;
@@ -572,7 +595,8 @@
                                     $correctTerm2,
                                     1002,
                                     "", # ????
-                                    extractGrammaticalWordClass($URL2));
+                                    extractGrammaticalWordClass($URL2),
+                                    -1);
             }
             if ($correctTerm3 &&
                 ($correctTerm3 != $correctTerm2))
@@ -590,7 +614,8 @@
                                     $correctTerm3,
                                     1003,
                                     "", # ???
-                                    extractGrammaticalWordClass($URL3));
+                                    extractGrammaticalWordClass($URL3),
+                                    -1);
             }
 
             #$alternative .= "<br><br>TRACE: " . $alternative2; # For now. For debugging.
