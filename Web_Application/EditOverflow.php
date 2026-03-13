@@ -283,6 +283,8 @@
 
                     # In the screen output, visually separate
                     # different levels of cross references
+                    #
+                    # But it would probably be better to use CSS for that.
                     if ($iterations > 0)
                     {
                         # Note: <hr> completely breaks the output...
