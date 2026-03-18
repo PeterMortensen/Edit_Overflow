@@ -113,7 +113,7 @@
                     type="text"
                     id="X17"
                     class="X17"
-                    value="(References to relative positions of answers are not reliable as they depend on the view (votes/oldest/active) and changing of the accepted answer and change over time (for votes, active, and accepted state)). "
+                    value="References to relative positions of answers are not reliable as they depend on the view (votes/oldest/active) and changing of the accepted answer and change over time (for votes, active, accepted, and deleted state). "
                     style="width:1260px;"
                     accesskey="O"
                     title="Shortcut: Shift + Alt + O"
