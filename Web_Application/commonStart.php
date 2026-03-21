@@ -69,7 +69,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.51a898 2026-03-21T020429Z+0";
+        return "Edit Overflow v. 1.1.51a899 2026-03-21T222929Z+0";
     }
 
 
@@ -446,7 +446,7 @@
         {
             $crossReferenceLevelText = "<strong>first</strong>";
         }
-        return        
+        return
             "\n" . str_repeat(" ", 20) . # Internal formatting (HTML source)
             HTML_Link(
               "$baseURL&LookUpTerm=" . urlencode($anIncorrectTerm),
