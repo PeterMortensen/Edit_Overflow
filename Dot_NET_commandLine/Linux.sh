@@ -665,7 +665,7 @@ function evaluateBuildResult()
 
    # The actual check
    #
-   # Result code (e.g., 0 for no error)
+   # Result code (e.g., 0 for no error). What is 7???
    case $2 in
      0|7) echo ; echo "Build step $1 (or part of it) succeeded"                    >&2               ;;
      # *) echo ; echo "${EXTRAINFO}Build step $1 ($3) failed (error code $2)." >&2 ; echo ; exit ;;
