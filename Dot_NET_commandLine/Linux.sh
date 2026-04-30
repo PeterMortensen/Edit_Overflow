@@ -3319,7 +3319,38 @@ retrieveWebHostingErrorLog  "_before_"
 #
 #      The reason is we have interfered by doing GUI stuff while
 #      the test is running... To fix it, rerun this build script.
-
+#
+#   2. Outages
+#
+#      2026-04-29:
+#
+#        selenium.common.exceptions.NoSuchElementException:
+#          Message: Unable to locate element: [name="someText"];
+#          For documentation on this error, please visit:
+#          https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+#
+#        Notes:
+#
+#          * It did not happen for the first six browser windows.
+#
+#          * It did not happen for the first three with WordPress
+#            formatting/styling, only the fourth
+#
+#          * For <https://pmortensen.eu/world/Text.php> (with 
+#            WordPress formatting/styling)
+#
+#        Associated is this displayed when
+#        the browser opens:
+#
+#          "Checking your browser. This automatic security check
+#           will complete in a moment. Reticulating splines..."
+#
+#        It *could* be associated with changes to WordPress.
+#
+#        Or it could be a hosting problem.
+#
+#        Or some kind of Cloudflare protection?
+#
 
 # For now: Not assuming executable 'geckodriver' is in the path
 #export PATH=$PATH:${SELINUM_DRIVERFOLDER}
