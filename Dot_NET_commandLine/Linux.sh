@@ -2942,7 +2942,7 @@ rm $HTML_FILE
 #       2022-01-25: 3310553 bytes
 
 # Note: The same build number
-wordListExport 33 "HTML"  $HTML_FILE   8880000 9800000
+wordListExport 33 "HTML"  $HTML_FILE   9058000 9996000
 
 
 cp  $HTML_FILE  $HTML_FILE_GENERIC
@@ -3336,7 +3336,7 @@ retrieveWebHostingErrorLog  "_before_"
 #          * It did not happen for the first three with WordPress
 #            formatting/styling, only the fourth
 #
-#          * For <https://pmortensen.eu/world/Text.php> (with 
+#          * For <https://pmortensen.eu/world/Text.php> (with
 #            WordPress formatting/styling)
 #
 #        Associated is this displayed when
