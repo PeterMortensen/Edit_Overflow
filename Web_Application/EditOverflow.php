@@ -285,7 +285,7 @@
                     # different levels of cross references
                     #
                     # But it would probably be better to use CSS for that.
-                    if ($iterations > 0)
+                    if ($crossReferences > 0)
                     {
                         # Note: <hr> completely breaks the output...
                         $alternative2 .= 
@@ -483,11 +483,12 @@
                         $done = 1;
                     }
 
+                    $iterations++;
+                    #echo " XXX iteration: $iterations YYY ";
+
                     # Mostly to detect and prevent an infinite
                     # loop. Normally it would exit by other
                     # means
-                    $iterations++;
-                    #echo " XXX iteration: $iterations YYY ";
                     if ($iterations > 20)
                     {
                         $done = 1;
@@ -495,6 +496,7 @@
                 } # Iterating (outer) loop to find alternatives in other
                   # word lists (indeterminate; it depends on the
                   # content of the word list)
+
             } # Block: Generalised look up in alternative word lists
 
             if ($lookUpTerm_inMainWordSet)

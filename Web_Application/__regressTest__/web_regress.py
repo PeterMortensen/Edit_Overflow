@@ -206,8 +206,8 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     #   exist. There doesn't seem to be a system way to just check
     #   if an element exists or not.
     #
-    #   Ref.: <https://stackoverflow.com/a/9587938>. Note that most
-    #         of the other answers seem to be plain wrong.
+    #   Ref.: <https://stackoverflow.com/a/9587938>. Note that
+    #         most of the other answers seem to be plain wrong.
     #
     #   Note that the plural forms, which don't throw
     #   exceptions, have been removed in Selenium.
@@ -233,7 +233,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         #
         try:
 
-            # Notes: By.ID requires an import, otherwise the result is:
+            # Notes: By.ID requires an import. Otherwise, the result is:
             #
             #          "web_regress.py:271:50: E0602: Undefined
             #          variable 'By' (undefined-variable)"
@@ -354,10 +354,9 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                 anAlternativeURL,
                 aWordListReferenceURL):
 
-        # Internal consistency test (check for client specification
-        # error). If there is a cross reference, then
-        # the corresponding (expected) URL must
-        # also be specified.
+        # Internal consistency test (check for client specification error).
+        # If there is a cross-reference, then the corresponding (expected)
+        # URL must also be specified.
         if anAlternativeLinkText == "":
             self.assertTrue(
                 anAlternativeURL == "",
@@ -369,6 +368,35 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                 ' cross reference "' + anAlternativeLinkText + '".' )
 
         self._submitTerm(aLookUpTerm)
+
+        # Detect an empty cross reference (or rather nothing
+        # in front of the first "and")
+        #
+        # Note: This detection is done directly in the raw HTML text
+        #
+        if True:
+            staticHTMLsource = self.browser.page_source
+
+            # The first cross reference is supposed
+            # to come before the first "and"
+            firstCrossReference = staticHTMLsource.find("id=\"1002\"")
+
+            #print(f"firstCrossReference position: {firstCrossReference}")
+
+            if firstCrossReference >= 0: # Only if there is one or
+                                         # more cross references
+
+                brPost = staticHTMLsource.find("<br><br> and")
+
+                #print(f"brPost position: {brPost}")
+
+                if brPost >= 0:
+                    self.assertTrue(
+                        firstCrossReference < brPost,
+                        "Empty field in the cross references detected. " +
+                        "For lookup term \"" + aLookUpTerm + "\".")
+
+            #print("")
 
         # Regression test for the edit summary field. We ought
         # to check the other output fields as well.
@@ -406,9 +434,10 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         linkText = ""
         alternativeURL = ""
 
-        # 1002 and 1003 are IDs for the two possible HTML <a> elements
-        # for cross links to the alternative word set. 0, 1, or 2 may
-        # be present on a particular Edit Overflow lookup result page.
+        # 1002 and 1003 are IDs for the first two possible HTML
+        # <a> elements for cross links to the alternative word
+        # set. 0, 1, 2, or more cross links may be present on
+        # a particular Edit Overflow lookup result page.
         #
         isAlternativeIsPresent1 = self._core_elementExists("1002")
         isAlternativeIsPresent2 = self._core_elementExists("1003")
@@ -435,8 +464,9 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             alternativeURL = foundElement.get_attribute("href")
 
 
-        # For now: Override, if the other exists. Thus we can not
-        #          really handle two alternatives at the moment.
+        # For now: Override, if a second one exists. Thus
+        #          we can not really handle two or more
+        #          alternatives at the moment.
         if isAlternativeIsPresent2:
 
             foundElement = self.browser.find_element(By.ID, "1003")
@@ -463,7 +493,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                                "the alternative word set" +
                                lookupReference + ".")
 
-        # Cross link to the word list page. Introduced 2023-01-06
+        # The cross link to the word list page. Introduced 2023-01-06
         #
         # Note: Of the four combinations of field present/absent and
         #       specified URL non-empty/empty, we only accept two:
@@ -843,7 +873,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     #   1. Currently we implicitly expect it to
     #      be called with "LookUpTerm=php"....
     #
-    #   2. the URL is expected to be one that results in a succesful
+    #   2. The URL is expected to be one that results in a succesful
     #      lookup (the request word exists in the wordlist)
     #
     #   3. Incorrect words "php", "python", and "until" must exist
@@ -894,7 +924,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
 
         defaultMsgForEditSummary = 'Unexpected edit summary '
 
-        if True: # Test a normal lookup (implicitly through HTML get). For
+        if True: # Test a normal lookup (implicitly through HTML GET). For
                  # now, only regression test for the edit summary field.
 
             # For the initial page, we expect a non-empty edit summary
