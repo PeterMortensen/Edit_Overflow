@@ -285,6 +285,32 @@ echo
 # Configuration, start
 
 
+# Configuration differences between
+# Linux distributions and versions:
+#
+#   * Ubuntu 20.04 (Focal Fossa)
+#   * LMDE 6
+#   * LMDE 7
+#
+# 1. Near "export PHP_WARNING"
+#
+# 2. .NET versions:
+#
+#    a. Executable paths. Near:
+#
+#         "export DOT_NET_EDIT_OVERFLOW_PARTIAL_PATH"
+#         "export supposedNativeApplicationPath"
+#
+# 3. To consider:
+#
+#      $PYLINT_DISABLE_WARNINGS_SET
+#
+#    Changes for newer Pylint/Linux versions were
+#    required, and they are probably OK to apply
+#    to older versions.
+#
+
+
 # Selectively disable some tests (e.g., if an external
 # service we depend on is not available)
 #
@@ -312,6 +338,7 @@ export EFFECTIVE_DATE='2021-06-14'
 export EFFECTIVE_DATE='2022-03-01'
 export EFFECTIVE_DATE='2023-07-11'
 export EFFECTIVE_DATE='2024-12-07'
+export EFFECTIVE_DATE='2026-06-04'
 
 
 # Moved to PC2016 2022-02-28.
@@ -341,9 +368,15 @@ export SRCFOLDER_BASE="$HOME/UserProf/At_PC2016/Edit_Overflow"
 export WEB_SRCFOLDER_BASE="${SRCFOLDER_BASE}/Web_Application"
 
 
+
 # The exact string from PHP apparently depends on the PHP version...
-export PHP_WARNING="Undefined variable: dummy2"   # Ubuntu 20.04
-#export PHP_WARNING="Undefined variable \$dummy2" # LDME 6
+#
+# If it doesn't match exactly, we get a stop in build
+# step 12, part 4...
+#
+export PHP_WARNING="Undefined variable: dummy2"                  # Ubuntu 20.04
+#export PHP_WARNING="Undefined variable \$dummy2"                # LDME 6
+#export PHP_WARNING="PHP Warning:  Undefined variable \$dummy2"  # LDME 7 (or rather, probably the associated PHP version)
 
 
 # Presumes particular versions of .NET installed
@@ -351,23 +384,27 @@ export PHP_WARNING="Undefined variable: dummy2"   # Ubuntu 20.04
 export DOT_NET_EDIT_OVERFLOW_PARTIAL_PATH="bin/Debug/netcoreapp3.1/linux-x64/EditOverflow3"                   # Ubuntu 20.04
 export supposedNativeApplicationPath="${WORKFOLDER}/bin/Debug/netcoreapp3.1/linux-x64/publish/EditOverflow3"  # Ubuntu 20.04
 
-#export DOT_NET_EDIT_OVERFLOW_PARTIAL_PATH="bin/Release/netcoreapp9.0/linux-x64/publish/EditOverflow3"   # LDME 6
-#export supposedNativeApplicationPath="${WORKFOLDER}/bin/Release/netcoreapp9.0/linux-x64/EditOverflow3"  # LDME 6
+#export DOT_NET_EDIT_OVERFLOW_PARTIAL_PATH="bin/Release/netcoreapp9.0/linux-x64/publish/EditOverflow3"         # LDME 6
+#export supposedNativeApplicationPath="${WORKFOLDER}/bin/Release/netcoreapp9.0/linux-x64/EditOverflow3"        # LDME 6
+#
+#export DOT_NET_EDIT_OVERFLOW_PARTIAL_PATH="bin/Release/netcoreapp10.0/linux-x64/publish/EditOverflow3"         # LDME 7
+#export supposedNativeApplicationPath="${WORKFOLDER}/bin/Release/netcoreapp10.0/linux-x64/EditOverflow3"        # LDME 7
 
 
-export PYLINT_DISABLE_WARNINGS_SET="--disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125 --disable=R0913 --disable=C0302"                 # Ubuntu 20.04
-export PYLINT_DISABLE_WARNINGS_SET="--disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125 --disable=R0913 --disable=C0302 --disable=R0914" # LDME 6
+export PYLINT_DISABLE_WARNINGS_SET="--disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125 --disable=R0913 --disable=C0302"                                  # Ubuntu 20.04
+export PYLINT_DISABLE_WARNINGS_SET="--disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125 --disable=R0913 --disable=C0302 --disable=R0914"                  # LDME 6
+export PYLINT_DISABLE_WARNINGS_SET="--disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125 --disable=R0913 --disable=C0302 --disable=R0914 --disable=R0917"  # LDME 7
 
 
-#export SELINUM_DRIVERFOLDER="/home/embo/.wdm/drivers/geckodriver/linux64/v0.28.0"   # XP64_NEW
-export SELINUM_DRIVERFOLDER="$HOME/.wdm/drivers/geckodriver/linux64/v0.30.0"         # Ubuntu 20.04
-#export SELINUM_DRIVERFOLDER="$HOME/temp2/2025-05-07"                                # LDME 6
+#export SELENIUM_DRIVERFOLDER="/home/embo/.wdm/drivers/geckodriver/linux64/v0.28.0"   # XP64_NEW
+export SELENIUM_DRIVERFOLDER="$HOME/.wdm/drivers/geckodriver/linux64/v0.30.0"         # Ubuntu 20.04
+#export SELENIUM_DRIVERFOLDER="$HOME/temp2/2025-05-07"                                # LDME 6
 
 
-export PATH=$PATH:${SELINUM_DRIVERFOLDER}
+export PATH=$PATH:${SELENIUM_DRIVERFOLDER}
 
-export SELINUM_DRIVERSCRIPT_DIR="${WEB_SRCFOLDER_BASE}/__regressTest__"
-export SELINUM_DRIVERSCRIPT_FILENAME="${SELINUM_DRIVERSCRIPT_DIR}/web_regress.py"
+export SELENIUM_DRIVERSCRIPT_DIR="${WEB_SRCFOLDER_BASE}/__regressTest__"
+export SELENIUM_DRIVERSCRIPT_FILENAME="${SELENIUM_DRIVERSCRIPT_DIR}/web_regress.py"
 
 
 # To make the C# unit test run ***itself*** succeed when
@@ -741,7 +778,7 @@ function checkCommand()
 {
     echo
     echo "Checking the prerequisite with command line '$1'"
-    #echo   evaluateBuildResult() output an empty line first.
+    #echo   evaluateBuildResult() outputs an empty line first.
 
     #We ought to check if the second or all parameters
     #are missing (though the way it is used here,
@@ -788,14 +825,13 @@ function checkCommand()
 
     ##echo ${STDERR_FILE} | grep -v -q "command not found" ; evaluateBuildResult $2 $? "Pylint is not installed. Execute these commands: ABC\nXYZ\nEFG "
 
-    #Note: 'grep' returns an exit code different
-    #      from 0 for empty input, so even
-    #      though that empty input does
-    #      not contain "command not found"
-    #      we would still report an error...
+    # Note: 'grep' returns an exit code different from 0 for
+    #       empty input, so even though that empty input
+    #       does not contain "command not found", we
+    #       would still report an error...
     #
-    #      Instead we demand nothing to
-    #      standard error whatsoever.
+    #       Instead we demand nothing to
+    #       standard error whatsoever.
     #
     #cat ${STDERR_FILE} | grep -v -q "command not found" ; evaluateBuildResult $3 $? "$2"
 
@@ -1535,6 +1571,8 @@ function wordListExport()
     # the build folder):
     #
     #     bin/Debug/netcoreapp3.1/EditOverflow3
+    #     bin/Release/netcoreapp9.0/linux-x64/publish/EditOverflow3
+    #     bin/Release/netcoreapp10.0/linux-x64/publish/EditOverflow3
     #
     # If the compilation fails, the return code is "1".
     # It is masked by the grep's, but we are saved by
@@ -1884,7 +1922,6 @@ sudo ls > /dev/null
 source ~/.Edit_Overflow_environment/bin/activate
 
 
-
 # ###########################################################################
 #
 # Copy files to the workfolder (mostly where we compile, but also
@@ -1945,7 +1982,7 @@ createFolder $FTPTRANSFER_FOLDER_JAVASCRIPT  1
 #
 # This will also fail without 'sudo'.
 # Disabled for now. We should probably
-# change permissions so sudo is not
+# change permissions, so sudo is not
 # required. This will also remove
 # the requirement to type in the
 # password for sudo...
@@ -1955,10 +1992,12 @@ createFolder $FTPTRANSFER_FOLDER_JAVASCRIPT  1
 
 # Remove any existing
 #
-# Note: If the previous run of this script stopped prematurely,
-#       we may get (as a later step moved ):
+# Note: If the previous run of this script
+#       stopped prematurely, we may get
+#       (as a later step moved):
 #
-#           mv: cannot stat '/home/embo/temp2/2021-02-03/_DotNET_tryout/EditOverflow4/Program.cs': No such file or directory
+#           mv: cannot stat '/home/embo/temp2/2021-02-03/_DotNET_tryout/EditOverflow4/Program.cs':
+#           No such file or directory
 #
 mv $WORKFOLDER/${FILE_WITH_MAIN_ENTRY}          $WORKFOLDER/${FILE_WITH_MAIN_ENTRY_HIDE}
 
@@ -2020,6 +2059,24 @@ cp $SRCFOLDER_WEB/commonEnd.php                         $WORKFOLDER
 
 
 # To the local web server
+
+# At least stop if it does not exist. Otherwise,
+# it will be treated as a file and overwritten
+# many times...
+#
+# Gotcha:
+#
+#   We can't use 0 for the build number... (at
+#   least not on some systems/versions)
+#
+#   If we do, we get the somewhat misleading
+#   error message:
+#
+#     "Internal error in build script (error 3: missing
+#      or invalid first parameter to evaluateBuildResult()"
+#
+checkCommand "test -d ${LOCAL_WEBSERVER_FOLDER}"       "\n\n\nLocal Web server folder '${LOCAL_WEBSERVER_FOLDER}' does not exist...\n\nUse 'sudo mkdir ${LOCAL_WEBSERVER_FOLDER}' to create it...\n\n\n\n"  999
+
 sudo cp $SRCFOLDER_WEB/EditOverflow.php                 $LOCAL_WEBSERVER_FOLDER
 sudo cp $SRCFOLDER_WEB/Text.php                         $LOCAL_WEBSERVER_FOLDER
 sudo cp $SRCFOLDER_WEB/FixedStrings.php                 $LOCAL_WEBSERVER_FOLDER
@@ -2027,9 +2084,9 @@ sudo cp $SRCFOLDER_WEB/EditSummaryFragments.php         $LOCAL_WEBSERVER_FOLDER
 sudo cp $SRCFOLDER_WEB/CannedComments.php               $LOCAL_WEBSERVER_FOLDER
 sudo cp $SRCFOLDER_WEB/Link_Builder.php                 $LOCAL_WEBSERVER_FOLDER
 
-# Only once at the web server location. Though ideally
-# we want to patch it on the fly so we are sure it
-# is actually updated if needed.
+# Only ***once*** at the web server location. Though
+# ideally we want to patch it on the fly, so we are
+# sure it is actually updated if needed.
 #
 #sudo cp $SRCFOLDER_WEB/deploymentSpecific.php           $LOCAL_WEBSERVER_FOLDER
 
@@ -2094,7 +2151,8 @@ cd $WORKFOLDER
 #   missing)... This is not handled automatically by
 #   the package system.
 
-prefix_virtual_environment="source ~/.Edit_Overflow_environment/bin/activate\n"
+VIRTUAL_ENVIRONMENT_BASE="$HOME/.Edit_Overflow_environment"
+prefix_virtual_environment="source ${VIRTUAL_ENVIRONMENT_BASE}/bin/activate\n"
 
 prefix1="\n\nThe prerequisite"
 prefix2="is not installed. Execute these commands:\n\n"
@@ -2104,12 +2162,38 @@ postfix1_Python="\ndeactivate\n\n\n"
 prefix2_Python="${prefix2}${prefix_virtual_environment}"
 
 
+# Check that the virtual Python environment used
+# for this build script has been created/exists.
+#
+# Internal ref: ID 13263
+#
+# If not, we will get:
+#
+#     bash: /home/embo/.Edit_Overflow_environment/bin/activate:
+#     No such file or directory
+#
+# This is a prerequisite for installing the
+# Python-based tools, e.g., Pylint
+#
+# For now, we assume that 'venv' exists (included with
+# later versions of Python? Which one? What corresponding
+# versions of Linux distributions?)
+#
+# An alternative is "(cd ${VIRTUAL_ENVIRONMENT_BASE})",
+# though a side effect is output to standard error(?).
+#
+checkCommand "test -d ${VIRTUAL_ENVIRONMENT_BASE}" "${prefix1} virtual Python environment ${prefix2}python3 -m venv ${VIRTUAL_ENVIRONMENT_BASE} ${postfix1}"  2
+
+#source ~/.Edit_Overflow_environment/bin/activate
+
+
 # This is to prevent:
 #
 #    "/usr/bin/python3: No module named pip"
 #
 #checkCommand "pip3" "${prefix1} Pip 3 ${prefix2}ABC\nXYZ\nDEF\npip3 install pylint ${postfix1}"  1
-checkCommand "pip3 --version" "${prefix1} Pip 3 ${prefix2}sudo apt install python3-pip ${postfix1}"  2
+#checkCommand "pip3 --version" "${prefix1} Pip 3 ${prefix2}sudo apt install python3-pip ${postfix1}"  2
+checkCommand "pip3 --version" "${prefix1} Pip 3 ${prefix2}sudo apt-get install python3-pip ${postfix1}"  2
 
 
 # Pylint itself
@@ -2165,22 +2249,37 @@ checkCommand "pip3 -q show selenium" "${prefix1} Selenium ${prefix2_Python}pip i
 #
 #   * And an up and running Apache webserver
 #
-#   * The existence of ${LOCAL_WEBSERVER_FOLDER}
-#     (test if some of the installation
-#      instructions have been carried out)
+# Note: "sudo mkdir /var/www/html/world" may not be required.
+#       Don't we do the same somewhere else in this script?
 #
-checkCommand "dpkg -s apache2" "${prefix1} Apache (part of LAMP) ${prefix2}sudo apt install apache2\nsudo systemctl status apache2\nsudo mkdir ${LOCAL_WEBSERVER_FOLDER} ${postfix1}"  2
+#checkCommand "dpkg -s apache2" "${prefix1} Apache (part of LAMP) ${prefix2}sudo apt install apache2 # Note: Has a prompt...\nsudo systemctl status apache2\nsudo mkdir ${LOCAL_WEBSERVER_FOLDER} ${postfix1}"  2
+checkCommand "dpkg -s apache2" "${prefix1} Apache (part of LAMP) ${prefix2}sudo apt-get --assume-yes install apache2\nsudo systemctl status apache2 # May block...\nsudo mkdir ${LOCAL_WEBSERVER_FOLDER} ${postfix1}"  2
+
+
+# Our "world" sub folder on the web server and
+# it parent folder: Check if it has actually
+# been created
+#
+checkCommand "test -d ${LOCAL_WEBSERVER_FOLDER}"       "${prefix1} Web server folder ${LOCAL_WEBSERVER_FOLDER} ${prefix2}sudo mkdir ${LOCAL_WEBSERVER_FOLDER}       ${postfix1}"  2
 
 
 # PHP
 #
-checkCommand "php --version" "${prefix1} PHP (part of LAMP) ${prefix2}sudo apt install php libapache2-mod-php php-mysql\nsudo cp $SRCFOLDER_WEB/deploymentSpecific.php  $LOCAL_WEBSERVER_FOLDER ${postfix1}"  2
+# For example, PHP 8.4.21
+#
+checkCommand "php --version" "${prefix1} PHP (part of LAMP) ${prefix2}sudo apt-get --assume-yes install php libapache2-mod-php php-mysql ${postfix1}"  2
+
+
+# Copying of file 'deploymentSpecific.php'
+checkCommand "test -f $LOCAL_WEBSERVER_FOLDER/deploymentSpecific.php" "${prefix1} file 'deploymentSpecific.php' at the expected location ${prefix2}sudo cp $SRCFOLDER_WEB/deploymentSpecific.php  $LOCAL_WEBSERVER_FOLDER ${postfix1}"  2
 
 
 # MySQL (or rather, MariaDB)
 #
-checkCommand "dpkg -s mariadb-server" "${prefix1} MySQL/MariaDB (part of LAMP) ${prefix2}sudo apt install mariadb-server\nsudo mysql_secure_installation\nmariadb --version $LOCAL_WEBSERVER_FOLDER ${postfix1}"  2
-checkCommand "mariadb --version" "${prefix1} MySQL/MariaDB (part of LAMP) ${prefix2}sudo apt install mariadb-server\nsudo mysql_secure_installation\nmariadb --version $LOCAL_WEBSERVER_FOLDER ${postfix1}"  2
+#   Note: 'sudo mysql_secure_installation' failed on LMDE 7...
+#
+checkCommand "dpkg -s mariadb-server" "${prefix1} MySQL/MariaDB (part of LAMP) ${prefix2}sudo apt-get --assume-yes install mariadb-server\nsudo mysql_secure_installation\nmariadb --version $LOCAL_WEBSERVER_FOLDER ${postfix1}"  2
+checkCommand "mariadb --version" "${prefix1} MySQL/MariaDB (part of LAMP) ${prefix2}sudo apt-get --assume-yes install mariadb-server\nsudo mysql_secure_installation\nmariadb --version $LOCAL_WEBSERVER_FOLDER ${postfix1}"  2
 
 
 # .NET (C#)
@@ -2192,9 +2291,13 @@ checkCommand "mariadb --version" "${prefix1} MySQL/MariaDB (part of LAMP) ${pref
 #   <https://learn.microsoft.com/en-us/dotnet/core/install/linux-debian>
 #     Install the .NET SDK or the .NET Runtime on Debian
 #
-#     Supported: .NET 8 and .NET 9 on Debian 12 (Bookworm)
+#     Supported:
 #
-#         wget https://packages.microsoft.com/config/debian/12/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+#         .NET 8, .NET 9, and .NET 10 on Debian 12 (Bookworm)
+#         .NET 8, .NET 9, and .NET 10 on Debian 13 (Trixie)
+#
+#         #wget https://packages.microsoft.com/config/debian/12/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+#         wget https://packages.microsoft.com/config/debian/13/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
 #         sudo dpkg -i packages-microsoft-prod.deb
 #         rm packages-microsoft-prod.deb
 #
@@ -2216,8 +2319,11 @@ checkCommand "mariadb --version" "${prefix1} MySQL/MariaDB (part of LAMP) ${pref
 #
 #        * NuGet: 5.4.0.2
 #
+#   3. For 'dotnet-sdk-10.0': 236 MB download, 628 MB on disk
+#
 #checkCommand "dotnet nuget --version" "${prefix1} C# compiler ${prefix2}wget -q https://packages.microsoft.com/config/ubuntu/19.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb\nsudo dpkg -i packages-microsoft-prod.deb\n\nsudo apt-get update\nsudo apt-get install apt-transport-https\nsudo apt-get update\nsudo apt-get install dotnet-sdk-3.1 ${postfix1}"  2
-checkCommand "dotnet nuget --version" "${prefix1} C# compiler ${prefix2}wget https://packages.microsoft.com/config/debian/12/packages-microsoft-prod.deb -O packages-microsoft-prod.deb\nsudo dpkg -i packages-microsoft-prod.deb\nrm packages-microsoft-prod.deb\n\nsudo apt-get update\nsudo apt-get install -y dotnet-sdk-9.0 ${postfix1}"  2
+#checkCommand "dotnet nuget --version" "${prefix1} C# compiler ${prefix2}wget https://packages.microsoft.com/config/debian/12/packages-microsoft-prod.deb -O packages-microsoft-prod.deb\nsudo dpkg -i packages-microsoft-prod.deb\nrm packages-microsoft-prod.deb\n\nsudo apt-get update\nsudo apt-get install --assume-yes dotnet-sdk-9.0 ${postfix1}"  2
+checkCommand "dotnet nuget --version" "${prefix1} C# compiler ${prefix2}wget https://packages.microsoft.com/config/debian/13/packages-microsoft-prod.deb -O packages-microsoft-prod.deb\nsudo dpkg -i packages-microsoft-prod.deb\nrm packages-microsoft-prod.deb\n\nsudo apt-get update\nsudo apt-get install --assume-yes dotnet-sdk-10.0 ${postfix1}"  2
 
 
 # C# unit tests (NUnit)
@@ -2266,8 +2372,8 @@ checkCommand "dotnet nuget --version" "${prefix1} C# compiler ${prefix2}wget htt
 #      Node.js. 2022 versions of Jest requires
 #      at least Node.js version 16.x...
 #
-checkCommand "nodejs --version" "${prefix1} Nodes.js ${prefix2}sudo apt update\nsudo apt install nodejs npm ${postfix1}"  2
-checkCommand "npm --version" "${prefix1} Nodes.js ${prefix2} sudo apt update\nsudo apt install nodejs npm ${postfix1}"  2
+checkCommand "nodejs --version" "${prefix1} Nodes.js ${prefix2}sudo apt update\nsudo apt-get --assume-yes install nodejs npm ${postfix1}"  2
+checkCommand "npm --version" "${prefix1} Nodes.js ${prefix2} sudo apt update\nsudo apt-get --assume-yes install nodejs npm ${postfix1}"  2
 
 
 # Indirect check of a sufficient high version
@@ -2336,15 +2442,16 @@ checkCommand "npm list -g jest-environment-jsdom" "${prefix1} Jest JSDOM module 
 # location could be misconfigured). Though
 # the error message is off.
 #
-#checkCommand "ls  ${SELINUM_DRIVERFOLDER} " "${prefix1} Selenium driver folder existence ${prefix2}pip3 install webdriver-manager ${postfix1}"  2
-checkCommand "ls  ${SELINUM_DRIVERFOLDER} " "${prefix1} Selenium driver folder existence ${prefix2}pip install webdriver-manager ${postfix1}"  2
+##checkCommand "ls  ${SELENIUM_DRIVERFOLDER} " "${prefix1} Selenium driver folder existence ${prefix2}pip3 install webdriver-manager ${postfix1}"  2
+##checkCommand "ls  ${SELENIUM_DRIVERFOLDER} " "${prefix1} Selenium driver folder existence ${prefix2}pip install webdriver-manager ${postfix1}"  2
+checkCommand "ls  ${SELENIUM_DRIVERFOLDER} " "${prefix1} Selenium driver folder '${SELENIUM_DRIVERFOLDER}' ${prefix2_Python}pip install webdriver-manager ${postfix1_Python}"  2
 
 
 # lftp (that we use to copy files to and from production)
 #
 #   <https://en.wikipedia.org/wiki/Lftp>
 #
-checkCommand "lftp --version" "${prefix1} lftp ${prefix2}\nsudo apt install lftp ${postfix1}"  2
+checkCommand "lftp --version" "${prefix1} lftp ${prefix2}\nsudo apt-get --assume-yes install lftp ${postfix1}"  2
 
 
 
@@ -2371,7 +2478,7 @@ startOfBuildStep "3" "Internal check of the web interface regression tests"
 #
 #geany /home/embo/UserProf/At_XP64/Edit_Overflow/Web_Application/__regressTest__/web_regress.py
 #
-cd ${SELINUM_DRIVERSCRIPT_DIR}
+cd ${SELENIUM_DRIVERSCRIPT_DIR}
 
 # Something to consider:
 #
@@ -2387,10 +2494,10 @@ cd ${SELINUM_DRIVERSCRIPT_DIR}
 #   R0914: For more than 15 local variables... Though it would be
 #          better to configure it for 16 15 local variables.
 #
-#pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125                                                  $SELINUM_DRIVERSCRIPT_FILENAME ; evaluateBuildResult 1 $? "Python linting for the Selenium script"
-#pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125 --disable=R0913 --disable=C0302                  $SELINUM_DRIVERSCRIPT_FILENAME ; evaluateBuildResult 1 $? "Python linting for the Selenium script"
-#pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125 --disable=R0913 --disable=C0302 --disable=R0914  $SELINUM_DRIVERSCRIPT_FILENAME ; evaluateBuildResult 1 $? "Python linting for the Selenium script"
-pylint  $PYLINT_DISABLE_WARNINGS_SET  $SELINUM_DRIVERSCRIPT_FILENAME ; evaluateBuildResult 1 $? "Python linting for the Selenium script"
+#pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125                                                  $SELENIUM_DRIVERSCRIPT_FILENAME ; evaluateBuildResult 1 $? "Python linting for the Selenium script"
+#pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125 --disable=R0913 --disable=C0302                  $SELENIUM_DRIVERSCRIPT_FILENAME ; evaluateBuildResult 1 $? "Python linting for the Selenium script"
+#pylint --disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125 --disable=R0913 --disable=C0302 --disable=R0914  $SELENIUM_DRIVERSCRIPT_FILENAME ; evaluateBuildResult 1 $? "Python linting for the Selenium script"
+pylint  $PYLINT_DISABLE_WARNINGS_SET  $SELENIUM_DRIVERSCRIPT_FILENAME ; evaluateBuildResult 1 $? "Python linting for the Selenium script"
 
 
 # ###########################################################################
@@ -2518,7 +2625,9 @@ PHP_code_test  EditOverflow.php          "main lookup"             11  "Overflow
 #
 #  Note that it will also detect any syntax errors in commonStart.php
 #
-#  LMDE: "Undefined variable: $dummy2"
+#  LMDE: "Undefined variable: $dummy2" (by the
+#          configuration environment variable
+#          "PHP_WARNING")
 #
 #    Why is there a difference? Different version of PHP?
 #    Different configuration of PHP?
@@ -2535,6 +2644,8 @@ PHP_code_test  Text.php                  "self test, unit tests"                
 #        due to a current limitation in PHP_code_test()...
 #
 #  LMDE 6: "Undefined variable: $dummy2" (with "$", but without ":")
+#           (by the  configuration environment
+#            variable "PHP_WARNING")
 #
 #    Why is there a difference? Different version of PHP?
 #    Different configuration of PHP?
@@ -2629,6 +2740,16 @@ PHP_code_test  Link_Builder.php        "link builder"                           
 #       at strange error in the line "$URL = htmlentities($row['URL']);"
 #
 
+
+# PM 2026-06-03. Was temp disabled!!!!!!!!!!!!!!
+#                We need to resolve setting up the
+#                database access (for the word list)
+
+# Note: File 'deploymentSpecific.php' in '/var/www/html/world'
+#       must have been configured correctly. And the database
+#       side as well (with passwords, import of the
+#       Edit Overflow database, etc.)
+#
 # A word lookup that fails (the word does not exist in the database)
 webServer_test  "http://localhost/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=JS"   "localWebserver_Edit_Overflow_lookup"   18
 
@@ -2724,7 +2845,7 @@ startOfBuildStep "30" "C# compilation and sanity check"
 
 # Check that it actually compiles... Running the unit tests in a
 # previous build step indirectly checks for compilation errors (we
-# wouldn't be here it otherwise), but they do not cover all the
+# wouldn't be here otherwise), but they do not cover all the
 # code we use here (for exporting the word list in different
 # formats).
 #
@@ -2739,7 +2860,7 @@ startOfBuildStep "30" "C# compilation and sanity check"
 #
 export LOOKUP="NO_THERE"
 export COMPILECHECK_OUT="_compileCheckOut.txt"
-rm $COMPILECHECK_OUT
+rm $COMPILECHECK_OUT # Note: This will fail if in a fresh build folder
 
 # It is not a real export...
 # Note: The same build number
@@ -2749,7 +2870,7 @@ wordListExport 30 "compileCheck"  $COMPILECHECK_OUT  40 100
 #        The result is also 'EditOverflow3', but deeper in
 #        the folder hierarchy, in folder '/linux-x64/publish'
 #
-# Note: In a later version of .NET Core, it
+# Note: In later versions of .NET Core, it
 #       is in folder "Release", not "Debug"
 #
 # Example: </home/mortensen/temp2/2023-07-11/_DotNET_tryout/EditOverflow4/bin/Debug/netcoreapp3.1/linux-x64/publish/EditOverflow3>
@@ -2767,7 +2888,7 @@ testCommandLineInterface 30 "${WORKFOLDER}/${DOT_NET_EDIT_OVERFLOW_PARTIAL_PATH}
 
 # Fails... Probably because adding RID "linux-x64"
 # in the project file changed the location of
-# the the executable.
+# the executable.
 #testCommandLineInterface 30 "${WORKFOLDER}/bin/Debug/netcoreapp3.1/EditOverflow3"           ".NET"
 
 # Was affected by automatic filtering of some leading
@@ -3060,7 +3181,7 @@ eval ${LFTP_COMMAND}  ; evaluateBuildResult 37 $? "copying the word list in Java
 
 # ###########################################################################
 #
-# Copy the HTML to the public web site.
+# Copy the HTML content to the public web site.
 #
 #   Note: Environment variables FTP_USER and FTP_PASSWORD
 #         must have been be set beforehand.
@@ -3242,8 +3363,8 @@ mustBeEqual ${MATCHING_LINES} 1  46   "HTML anchor is not unique"
 #
 #    startWatchFile ${LOCAL_WEB_ERRORLOG_FILE}
 #
-#    #export PATH=$PATH:${SELINUM_DRIVERFOLDER}
-#    python3 $SELINUM_DRIVERSCRIPT_FILENAME TestMainEditOverflowLookupWeb.test_local_text  ; evaluateBuildResult 37 $? "web interface regression tests"
+#    #export PATH=$PATH:${SELENIUM_DRIVERFOLDER}
+#    python3 $SELENIUM_DRIVERSCRIPT_FILENAME TestMainEditOverflowLookupWeb.test_local_text  ; evaluateBuildResult 37 $? "web interface regression tests"
 #
 #    endWatchFile ${LOCAL_WEB_ERRORLOG_FILE} ; evaluateBuildResult 37 $? "Web server test: $2. Extra information: \"`echo ; cat ${LOCAL_WEB_ERRORLOG_FILE} | tail -n 1`\"  "
 #
@@ -3260,8 +3381,8 @@ mustBeEqual ${MATCHING_LINES} 1  46   "HTML anchor is not unique"
 #
 #    startWatchFile ${LOCAL_WEB_ERRORLOG_FILE}
 #
-#    #export PATH=$PATH:${SELINUM_DRIVERFOLDER}
-#    python3 $SELINUM_DRIVERSCRIPT_FILENAME TestMainEditOverflowLookupWeb.test_mainLookup_form_localWebserver ; evaluateBuildResult 38 $? "web interface, main lookup, using the local web server"
+#    #export PATH=$PATH:${SELENIUM_DRIVERFOLDER}
+#    python3 $SELENIUM_DRIVERSCRIPT_FILENAME TestMainEditOverflowLookupWeb.test_mainLookup_form_localWebserver ; evaluateBuildResult 38 $? "web interface, main lookup, using the local web server"
 #
 #    endWatchFile ${LOCAL_WEB_ERRORLOG_FILE} ; evaluateBuildResult 38 $? "Web server test: $2. Extra information: \"`echo ; cat ${LOCAL_WEB_ERRORLOG_FILE} | tail -n 1`\"  "
 
@@ -3353,15 +3474,15 @@ retrieveWebHostingErrorLog  "_before_"
 #
 
 # For now: Not assuming executable 'geckodriver' is in the path
-#export PATH=$PATH:${SELINUM_DRIVERFOLDER}
+#export PATH=$PATH:${SELENIUM_DRIVERFOLDER}
 
 # For exploring what "discover" is actually useful for...
 #
-#cd ${SELINUM_DRIVERSCRIPT_DIR}
+#cd ${SELENIUM_DRIVERSCRIPT_DIR}
 #ls -lsatr
 ##python3 -m unittest discover  # Nothing is output to the screen from the python3 line...
-##python3 -m unittest discover $SELINUM_DRIVERSCRIPT_FILENAME
-#python3 -m unittest discover $SELINUM_DRIVERSCRIPT_DIR   # No tests are run "Ran 0 tests in 0.000s"
+##python3 -m unittest discover $SELENIUM_DRIVERSCRIPT_FILENAME
+#python3 -m unittest discover $SELENIUM_DRIVERSCRIPT_DIR   # No tests are run "Ran 0 tests in 0.000s"
 #cd -
 
 # For now: directly from the source folder,
@@ -3373,10 +3494,10 @@ retrieveWebHostingErrorLog  "_before_"
 #       This is instead done by modification of
 #       the 'web_regress.py' file.
 #
-#python3 $SELINUM_DRIVERSCRIPT_FILENAME  -k "test_mainLookup_JavaScript"  ; evaluateBuildResult 11 $? "web interface regression tests"
+#python3 $SELENIUM_DRIVERSCRIPT_FILENAME  -k "test_mainLookup_JavaScript"  ; evaluateBuildResult 11 $? "web interface regression tests"
 #
 # Note: The same build number
-python3 $SELINUM_DRIVERSCRIPT_FILENAME  ; evaluateBuildResult 47 $? "web interface regression tests"
+python3 $SELENIUM_DRIVERSCRIPT_FILENAME  ; evaluateBuildResult 47 $? "web interface regression tests"
 
 # Observed 2021-11-05T003000, but only once (it
 # did not happen when repeating the build):
