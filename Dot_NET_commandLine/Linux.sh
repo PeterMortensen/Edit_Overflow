@@ -2163,7 +2163,7 @@ prefix2_Python="${prefix2}${prefix_virtual_environment}"
 
 
 # Check that the virtual Python environment used
-# for this build script has been created/exists.
+# by this build script has been created/exists.
 #
 # Internal ref: ID 13263
 #
@@ -2644,7 +2644,7 @@ PHP_code_test  Text.php                  "self test, unit tests"                
 #        due to a current limitation in PHP_code_test()...
 #
 #  LMDE 6: "Undefined variable: $dummy2" (with "$", but without ":")
-#           (by the  configuration environment
+#           (by the configuration environment
 #            variable "PHP_WARNING")
 #
 #    Why is there a difference? Different version of PHP?
