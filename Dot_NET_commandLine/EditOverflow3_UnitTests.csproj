@@ -1,23 +1,41 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-  </PropertyGroup>
+    <PropertyGroup>
+
+        <OutputType>Exe</OutputType>
 
 
-  <ItemGroup>
+        <!--
+            Linux version                "TargetFramework"
+                                         identifier
+            ==============================================
+            Ubuntu 20.04 (Focal Fossa)   netcoreapp3.1
 
-    <PackageReference Include="NUnit" Version="3.12.0" />
+            LMDE 6                       netcoreapp9.0
+
+            LMDE 7                       netcoreapp10.0
+        -->
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+
+        <!--
+            Meta: Some rules for XML comments:
+            
+              "error MSB4025 ... An XML comment cannot contain
+                '- -' (without the space), and '-' cannot be
+                the last character."
+        -->
+
+    </PropertyGroup>
 
 
-    <PackageReference Include="NUnit3TestAdapter" Version="3.16.1" />
+    <ItemGroup>
 
+        <PackageReference Include="NUnit" Version="3.12.0" />
 
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0"/>
+        <PackageReference Include="NUnit3TestAdapter" Version="3.16.1" />
 
-  </ItemGroup>
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0"/>
 
+    </ItemGroup>
 
 </Project>
-
