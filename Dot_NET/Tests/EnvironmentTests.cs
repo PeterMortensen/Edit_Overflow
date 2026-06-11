@@ -62,7 +62,7 @@ namespace OverflowHelper.Tests
             //   "error CS1010: Newline in constant"
             //   "error CS1002: ; expected "
 
-            string presumedNewest = "1.1.52a069";
+            string presumedNewest = "1.1.52a070";
 
             {
                 // For the main application
