@@ -1067,7 +1067,8 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                          "Active reading [<https://en.wikipedia.org/wiki/Unix-like>].",
                          defaultMsgForEditSummary,
                          "''[[Unix-like|Unix-like]]''",
-                         "", "",
+                         "", 
+                         "",
                          wordList_URLprefix + "Unix-like")
 
         #This test could be a separate test... It doesn't need to be here.
@@ -1079,17 +1080,35 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                  # HTML, but not when used for the cross lookup).
 
             self._setCheckbox("resetState")
-            self._lookUp("SU",
-                         "Active reading [<https://superuser.com/tour>].",
-                         defaultMsgForEditSummary,
-                         "''Does not apply''",
-                         "superuser",
-                         altURLprefix + "Super%26nbsp%3BUser+%28Stack+Exchange+site%29_",
-                           # Requires a weird mapping in the word list...
-                         wordList_URLprefix + "Super_User_(Stack_Exchange_site)")
 
-                                 #"/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=Super%26nbsp%3BUser+%28Stack+Exchange+site%29_"
-                                 #                                                        "Super%26nbsp%3BUser+%28Stack+Exchange+site%29_")
+            #self._lookUp("SU",  # aLookUpTerm,
+            #             "Active reading [<https://superuser.com/tour>].", # anExpectedEditSummary
+            #             defaultMsgForEditSummary, # anExplanation
+            #             "''Does not apply''",     # anExpectedLink
+            #
+            #             "superuser",              # anAlternativeLinkText
+            #             # anAlternativeURL
+            #             altURLprefix + "Super%26nbsp%3BUser+%28Stack+Exchange+site%29_",
+            #
+            #             # aWordListReferenceURL
+            #               # Requires a weird mapping in the word list...
+            #             wordList_URLprefix + "Super_User_(Stack_Exchange_site)")
+            #
+            #                     #"/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=Super%26nbsp%3BUser+%28Stack+Exchange+site%29_"
+            #                     #                                                        "Super%26nbsp%3BUser+%28Stack+Exchange+site%29_")
+
+            self._lookUp("Pass by Reference",  # aLookUpTerm,
+                         "Active reading [<https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_reference>].", # anExpectedEditSummary
+                         defaultMsgForEditSummary, # anExplanation
+                         "''[[Evaluation_strategy#Call_by_reference|pass by reference]]''",     # anExpectedLink
+
+                         "call by reference",              # anAlternativeLinkText
+                         # anAlternativeURL
+                         altURLprefix + "pass+by+reference_",
+
+                         # aWordListReferenceURL
+                           # Requires a weird mapping in the word list...
+                         wordList_URLprefix + "pass_by_reference")
 
         #This test could be a separate test... It doesn't need to be here.
         if True: # Test an expected cross reference (in
