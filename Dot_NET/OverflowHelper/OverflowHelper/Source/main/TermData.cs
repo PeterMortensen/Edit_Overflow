@@ -4193,8 +4193,395 @@ namespace OverflowHelper.core
 
             correctionAdd("re-throw", "rethrow");
 
+            correctionAdd("no-way", "no way");
+
             correctionAdd("throw-away", "throwaway");
             correctionAdd("throw away", "throwaway");
+
+            correctionAdd("learned the hardway", "learned the hard way");
+            correctionAdd("hard way", "learned the hard way");
+            correctionAdd("hardway", "learned the hard way");
+
+            correctionAdd("under-way", "under way");
+
+            // Note: "one", "two", "five", "seven" are in an
+            //       alternative word set (currently the third)
+            //
+            correctionAdd("five", "give");
+            correctionAdd("Five", "give");
+            correctionAdd("Give", "give");
+            correctionAdd("gibe", "give");
+            correctionAdd("gove", "give"); // A true typo
+            correctionAdd("Givi", "give");
+            correctionAdd("givi", "give");
+
+            correctionAdd("geives", "gives");
+            correctionAdd("givers", "gives");
+
+            correctionAdd("givmme", "give me");
+
+            correctionAdd("give-away", "giveaway");
+
+            correctionAdd("By the why", "by the way");
+            correctionAdd("by the why", "by the way");
+            correctionAdd("b.t.w", "by the way"); // Really "b.t.w.", but we can't currently handle that
+            correctionAdd("btw", "by the way");
+            correctionAdd("Btw", "by the way");
+            correctionAdd("BTW", "by the way");
+
+            correctionAdd("runner up", "runner-up");
+            correctionAdd("runnerup", "runner-up");
+
+            correctionAdd("run-down", "rundown");
+            correctionAdd("run down", "rundown");
+
+            correctionAdd("run-away", "runaway");
+
+            correctionAdd("atke", "take");
+            correctionAdd("tage", "take");
+
+            correctionAdd("takeing", "taking");
+            correctionAdd("taing", "taking");
+
+            correctionAdd("tooked", "took");
+            correctionAdd("tooks", "took");
+            correctionAdd("tooke", "took");
+            correctionAdd("taked", "took");
+            correctionAdd("toke", "took");
+            correctionAdd("tok", "took");
+
+            correctionAdd("re-take", "retake");
+
+            correctionAdd("take-over", "takeover");
+            correctionAdd("take over", "takeover");
+
+            // The verb
+            correctionAdd("fadeaway", "fade away");
+
+            // The noun
+            correctionAdd("take away", "takeaway");
+            correctionAdd("take-away", "takeaway");
+
+            correctionAdd("migthy", "mighty");
+
+            correctionAdd("all mighty", "almighty");
+
+            correctionAdd("at nights", "at night");
+            correctionAdd("At nights", "at night");
+
+            correctionAdd("Midnight", "midnight");
+
+            correctionAdd("over night", "overnight");
+            correctionAdd("over-night", "overnight");
+            correctionAdd("Over Night", "overnight");
+
+            correctionAdd("nightsky", "night sky");
+
+            correctionAdd("night mare", "nightmare");
+
+            correctionAdd("night vision goggle", "NVG");
+            correctionAdd("nvgs", "NVG");
+            correctionAdd("nvg", "NVG");
+
+            // Idiomatic
+            correctionAdd("all nighter", "pull an all-nighter");
+            correctionAdd("All nighter", "pull an all-nighter");
+
+            correctionAdd("nighther", "neither");
+            correctionAdd("neigher", "neither");
+            correctionAdd("neigter", "neither");
+            correctionAdd("niether", "neither");
+            correctionAdd("nither", "neither");
+            correctionAdd("neiter", "neither");
+            correctionAdd("nether", "neither");
+            correctionAdd("Nether", "neither");
+
+            correctionAdd("either or", "either-or");
+
+            correctionAdd("Either ways", "either way");
+            correctionAdd("either ways", "either way");
+            correctionAdd("eitherway", "either way");
+            correctionAdd("Eitherway", "either way");
+
+            correctionAdd("on similar way", "in similar way");
+
+            // Note: "any" is in an alternative word set
+            //
+            correctionAdd("anylonger", "any longer");
+
+            correctionAdd("any one", "anyone");
+            correctionAdd("any onw", "anyone");
+            correctionAdd("annyone", "anyone");
+            correctionAdd("anyoune", "anyone");
+            correctionAdd("anyonw", "anyone");
+            correctionAdd("Anyone", "anyone");
+            correctionAdd("anyine", "anyone");
+            correctionAdd("Amyone", "anyone");
+            correctionAdd("amyone", "anyone");
+            correctionAdd("enyone", "anyone");
+            correctionAdd("anyon", "anyone");
+            correctionAdd("any1", "anyone");
+
+            // Idiomatic
+            correctionAdd("anyones", "anyone's guess");
+
+            correctionAdd("in any way or form", "in any way, shape, or form");
+
+            correctionAdd("anyumore", "any more");
+            correctionAdd("anymore", "any more");
+            correctionAdd("animore", "any more");
+            correctionAdd("anymroe", "any more");
+
+            correctionAdd("at anyrate", "at any rate");
+            correctionAdd("At anyrate", "at any rate");
+
+            correctionAdd("any case", "in any case");
+            correctionAdd("anycase", "in any case");
+
+            correctionAdd("any time", "anytime");
+
+            correctionAdd("anyhoo", "anyhow");
+            correctionAdd("Anyhoo", "anyhow");
+            correctionAdd("Anyhow", "anyhow");
+
+            correctionAdd("anyways", "anyway");
+            correctionAdd("any way", "anyway"); // Entirely dependent on context
+            correctionAdd("Any way", "anyway"); // Entirely dependent on context
+            correctionAdd("anywasy", "anyway");
+            correctionAdd("Anyways", "anyway");
+            correctionAdd("anywais", "anyway");
+            correctionAdd("Anyyay", "anyway");
+            correctionAdd("anyyay", "anyway");
+            correctionAdd("Anyway", "anyway");
+            correctionAdd("aniway", "anyway");
+            correctionAdd("Anways", "anyway");
+            correctionAdd("nyways", "anyway");
+            correctionAdd("Aniway", "anyway");
+            correctionAdd("anway", "anyway");
+
+            correctionAdd("on the way", "in the way");
+
+            correctionAdd("awat", "away");
+
+            correctionAdd("right a way", "right away");
+            correctionAdd("rightaway", "right away");
+
+            correctionAdd("one way", "one-way");
+
+            correctionAdd("two way", "two-way");
+            correctionAdd("2 way", "two-way");
+            correctionAdd("2-way", "two-way");
+            correctionAdd("2way", "two-way");
+
+            correctionAdd("halve way", "halfway");
+            correctionAdd("half-way", "halfway");
+            correctionAdd("half way", "halfway");
+
+            correctionAdd("on this way", "in this way");
+            correctionAdd("On this way", "in this way");
+
+            correctionAdd("passage way", "passageway");
+
+            correctionAdd("lee way", "leeway");
+
+            correctionAdd("drive shaft", "driveshaft");
+
+            correctionAdd("drive train", "drivetrain");
+
+            correctionAdd("guard rails", "guardrails");
+
+            correctionAdd("rail gun", "railgun");
+
+            correctionAdd("raleway", "railway");
+
+            correctionAdd("Metro", "metro");
+
+            // Trains. France.
+            correctionAdd("tgv", "TGV");
+
+            // Trains. France.
+            correctionAdd("TER", "transport express régional");
+
+            // Note: "train" is in an alternative word set
+            //
+            correctionAdd("trainwreck", "train wreck");
+
+            correctionAdd("Havoc", "havoc");
+
+            correctionAdd("wreck havic", "wreck havoc");
+            correctionAdd("cause havoc", "wreck havoc");
+
+            correctionAdd("de-railing", "derailing");
+
+            correctionAdd("safe", "save");
+            correctionAdd("Save", "save");
+
+            correctionAdd("savez", "saved");
+
+            correctionAdd("re-save", "resave");
+
+            // Note: "safe" is in an alternative word set...
+            correctionAdd("more safe", "safer");
+
+            correctionAdd("most safe", "safest");
+
+            // Note: "safe" is in an alternative word set...
+            correctionAdd("unsave", "unsafe");
+
+            correctionAdd("safefly", "safely");
+
+            correctionAdd("saftey", "safety");
+            correctionAdd("savety", "safety");
+            correctionAdd("safty", "safety");
+
+            correctionAdd("safety-net", "safety net");
+
+            correctionAdd("SIL", "safety integrity level");
+
+            correctionAdd("safeway", "Safeway");
+
+            correctionAdd("formward", "forward");
+            correctionAdd("foward", "forward");
+
+            correctionAdd("FFWD", "fast forward");
+
+            correctionAdd("going forwards", "going forward");
+
+            correctionAdd("Forward Declaration", "forward declaration");
+
+            correctionAdd("forward declare", "forward-declare");
+
+            correctionAdd("forward declared", "forward-declared");
+
+            correctionAdd("forward declaring", "forward-declaring");
+            correctionAdd("Forward declaring", "forward-declaring");
+
+            correctionAdd("straight-forwards", "straightforward");
+            correctionAdd("straight forwards", "straightforward");
+            correctionAdd("straightforwared", "straightforward");
+            correctionAdd("straight forward", "straightforward");
+            correctionAdd("straight-forward", "straightforward");
+            correctionAdd("straigth forward", "straightforward");
+            correctionAdd("straight foward", "straightforward");
+            correctionAdd("straigh forward", "straightforward");
+            correctionAdd("straigtforward", "straightforward");
+            correctionAdd("Straightfoward", "straightforward"); // Not 100% correct (case)
+            correctionAdd("straightfoward", "straightforward");
+            correctionAdd("strait-forward", "straightforward");
+            correctionAdd("staightforward", "straightforward");
+            correctionAdd("strait forward", "straightforward");
+            correctionAdd("straighforward", "straightforward");
+            correctionAdd("straigh foward", "straightforward");
+            correctionAdd("Strait-forward", "straightforward");
+            correctionAdd("straight ford", "straightforward");
+            correctionAdd("straigforward", "straightforward");
+            correctionAdd("straitforward", "straightforward");
+            correctionAdd("straighfoward", "straightforward");
+            correctionAdd("Straitforward", "straightforward");
+
+            correctionAdd("straitght", "straight");
+            correctionAdd("stragiht", "straight");
+            correctionAdd("satright", "straight");
+            correctionAdd("straigh", "straight");
+            correctionAdd("strait", "straight");
+
+            correctionAdd("straigthen", "straighten");
+
+            correctionAdd("straigtened", "straightened");
+
+            correctionAdd("straigther", "straighter");
+            correctionAdd("straigher", "straighter");
+            correctionAdd("straigter", "straighter");
+
+            correctionAdd("straightaway", "straight away");
+            correctionAdd("staritaway", "straight away");
+
+            correctionAdd("straight up", "straight-up");
+            correctionAdd("satright up", "straight-up");
+            correctionAdd("staright up", "straight-up");
+            correctionAdd("straightup", "straight-up");
+            correctionAdd("straigh up", "straight-up");
+
+            // Idiomatic (US)
+            correctionAdd("straight off the bat", "right off the bat");
+            correctionAdd("off the bat", "right off the bat");
+
+            correctionAdd("shyed", "shied");
+
+            correctionAdd("shyed away", "shied away");
+
+            correctionAdd("allways", "always");
+            correctionAdd("alwasys", "always");
+            correctionAdd("alwayes", "always");
+            correctionAdd("ALLWAYS", "always");
+            correctionAdd("alaways", "always");
+            correctionAdd("alwasy", "always");
+            correctionAdd("alweys", "always");
+            correctionAdd("alwaly", "always");
+            correctionAdd("alwaus", "always");
+            correctionAdd("a,ways", "always");
+            correctionAdd("anways", "always");
+            correctionAdd("allway", "always");
+            correctionAdd("akways", "always");
+            correctionAdd("alwes", "always");
+            correctionAdd("alwys", "always");
+            correctionAdd("Alway", "always");
+            correctionAdd("alway", "always");
+
+            // The noun
+            correctionAdd("takes aways", "takeaways");
+            correctionAdd("take aways", "takeaways");
+
+            correctionAdd("Hot Take", "hot take");
+
+            correctionAdd("take case of", "take care of");
+            correctionAdd("take case", "take care of");
+            correctionAdd("take care", "take care of");
+
+            correctionAdd("taken care off", "taken care of");
+
+            correctionAdd("take time-off", "take time off");
+
+            correctionAdd("taking part on", "taking part in");
+
+            correctionAdd("take into the account", "take into account");
+            correctionAdd("take into accound", "take into account");
+            correctionAdd("get into account", "take into account");
+            correctionAdd("take in count", "take into account");
+
+            correctionAdd("misstake", "mistake");
+            correctionAdd("misteke", "mistake");
+            correctionAdd("mistale", "mistake");
+            correctionAdd("mistike", "mistake");
+
+            correctionAdd("misstakes", "mistakes");
+            correctionAdd("miskates", "mistakes");
+
+            correctionAdd("mistankenly", "mistakenly");
+            correctionAdd("mistakely", "mistakenly");
+
+            correctionAdd("IINM", "if I'm not mistaken");
+
+            correctionAdd("running and up", "up and running");
+
+            correctionAdd("frontrunner", "front runner");
+
+            correctionAdd("run of the mill", "run-of-the-mill");
+
+            correctionAdd("auto-run", "autorun");
+
+            // Idiomatic
+            correctionAdd("in the longer run", "in the long run");
+            correctionAdd("On the long run", "in the long run");
+            correctionAdd("on the long run", "in the long run");
+
+            // Idiomatic
+            correctionAdd("on the short run", "in the short run");
+            correctionAdd("On the short run", "in the short run");
+            correctionAdd("in short runt", "in the short run");
+            correctionAdd("in short run", "in the short run");
+
+            correctionAdd("Load Runner", "LoadRunner");
 
             correctionAdd("thew me for a loop", "threw me for a loop");
 
@@ -4208,6 +4595,42 @@ namespace OverflowHelper.core
             correctionAdd("throwing out the baby with the bathwater", "throw the baby out with the bathwater"); // Not 100% correct
             correctionAdd("throw the baby out with the bath water", "throw the baby out with the bathwater");
             correctionAdd("baby with the bathwater", "throw the baby out with the bathwater");
+
+            correctionAdd("NP hard", "NP-hard");
+            correctionAdd("NP-Hard", "NP-hard");
+
+            correctionAdd("hardhat", "Hardhat");
+
+            correctionAdd("Hard Skill", "hard skill");
+
+            correctionAdd("Hardtail", "hardtail");
+
+            correctionAdd("Skill", "skill");
+
+            correctionAdd("siklls", "skills");
+
+            correctionAdd("skillissue", "skill issue");
+
+            correctionAdd("skillset", "skill set");
+
+            correctionAdd("skill full", "skilful");
+            correctionAdd("skillful", "skilful");
+
+            correctionAdd("skilfully", "skillfully");
+
+            // Note: "killed" and "kill" are in an alternative word set
+            correctionAdd("flatlining", "killing");
+            correctionAdd("windowing", "killing");
+            correctionAdd("windowed", "killing"); // For the cross-reference
+            correctionAdd("killinig", "killing");
+            correctionAdd("K*LLING", "killing");
+            correctionAdd("k*lling", "killing");
+
+            correctionAdd("killed-off", "killed off");
+
+            correctionAdd("k*llers", "killers");
+
+            correctionAdd("over kill", "overkill");
 
             // Note: "queue" is in an alternative word set
             correctionAdd("queing", "queuing");
@@ -7515,6 +7938,8 @@ namespace OverflowHelper.core
             correctionAdd("thow", "how");
             correctionAdd("HJow", "how");
             correctionAdd("hjow", "how");
+            correctionAdd("Hoiw", "how");
+            correctionAdd("hoiw", "how");
             correctionAdd("How", "how");
             correctionAdd("HOw", "how");
             correctionAdd("haw", "how");
@@ -8873,48 +9298,6 @@ namespace OverflowHelper.core
             correctionAdd("off setting", "offsetting");
 
             correctionAdd("offest", "offset");
-
-            correctionAdd("learned the hardway", "learned the hard way");
-            correctionAdd("hard way", "learned the hard way");
-            correctionAdd("hardway", "learned the hard way");
-
-            correctionAdd("under-way", "under way");
-
-            correctionAdd("NP hard", "NP-hard");
-            correctionAdd("NP-Hard", "NP-hard");
-
-            correctionAdd("hardhat", "Hardhat");
-
-            correctionAdd("Hard Skill", "hard skill");
-
-            correctionAdd("Hardtail", "hardtail");
-
-            correctionAdd("Skill", "skill");
-
-            correctionAdd("siklls", "skills");
-
-            correctionAdd("skillissue", "skill issue");
-
-            correctionAdd("skillset", "skill set");
-
-            correctionAdd("skill full", "skilful");
-            correctionAdd("skillful", "skilful");
-
-            correctionAdd("skilfully", "skillfully");
-
-            // Note: "killed" and "kill" are in an alternative word set
-            correctionAdd("flatlining", "killing");
-            correctionAdd("windowing", "killing");
-            correctionAdd("windowed", "killing"); // For the cross-reference
-            correctionAdd("killinig", "killing");
-            correctionAdd("K*LLING", "killing");
-            correctionAdd("k*lling", "killing");
-
-            correctionAdd("killed-off", "killed off");
-
-            correctionAdd("k*llers", "killers");
-
-            correctionAdd("over kill", "overkill");
 
             // The common noun, not the keyboard key
             correctionAdd("space bar", "space"); // Mostly for cross-references
@@ -14575,6 +14958,7 @@ namespace OverflowHelper.core
             correctionAdd("BASH", "Bash (executable `bash`)");
             correctionAdd("bash", "Bash (executable `bash`)");
             correctionAdd("Bash", "Bash (executable `bash`)");
+            correctionAdd("BaSH", "Bash (executable `bash`)");
 
             // Alternative URLs:
             //
@@ -18674,31 +19058,6 @@ namespace OverflowHelper.core
             correctionAdd("nottin", "nothing");
             correctionAdd("nth", "nothing");
 
-            // Note: "one", "two", "five", "seven" are in an
-            //       alternative word set (currently the third)
-            //
-            correctionAdd("five", "give");
-            correctionAdd("Five", "give");
-            correctionAdd("Give", "give");
-            correctionAdd("gibe", "give");
-            correctionAdd("gove", "give"); // A true typo
-            correctionAdd("Givi", "give");
-            correctionAdd("givi", "give");
-
-            correctionAdd("geives", "gives");
-            correctionAdd("givers", "gives");
-
-            correctionAdd("givmme", "give me");
-
-            correctionAdd("give-away", "giveaway");
-
-            correctionAdd("By the why", "by the way");
-            correctionAdd("by the why", "by the way");
-            correctionAdd("b.t.w", "by the way"); // Really "b.t.w.", but we can't currently handle that
-            correctionAdd("btw", "by the way");
-            correctionAdd("Btw", "by the way");
-            correctionAdd("BTW", "by the way");
-
             correctionAdd("Depriving", "depriving");
 
             correctionAdd("Deprival", "deprival");
@@ -20341,35 +20700,6 @@ namespace OverflowHelper.core
             correctionAdd("Ask Jeeves", "Ask.com");
 
             correctionAdd("EAFP", "it is easier to ask forgiveness than it is to get permission");
-
-            correctionAdd("runner up", "runner-up");
-            correctionAdd("runnerup", "runner-up");
-
-            correctionAdd("run-down", "rundown");
-            correctionAdd("run down", "rundown");
-
-            correctionAdd("run-away", "runaway");
-
-            correctionAdd("running and up", "up and running");
-
-            correctionAdd("frontrunner", "front runner");
-
-            correctionAdd("run of the mill", "run-of-the-mill");
-
-            correctionAdd("auto-run", "autorun");
-
-            // Idiomatic
-            correctionAdd("in the longer run", "in the long run");
-            correctionAdd("On the long run", "in the long run");
-            correctionAdd("on the long run", "in the long run");
-
-            // Idiomatic
-            correctionAdd("on the short run", "in the short run");
-            correctionAdd("On the short run", "in the short run");
-            correctionAdd("in short runt", "in the short run");
-            correctionAdd("in short run", "in the short run");
-
-            correctionAdd("Load Runner", "LoadRunner");
 
             // Note: "see" is in an another alternative word set
             correctionAdd("see's", "sees");
@@ -24426,65 +24756,6 @@ namespace OverflowHelper.core
             correctionAdd("file server", "fileserver");
 
             correctionAdd("file servers", "fileservers");
-
-            correctionAdd("atke", "take");
-            correctionAdd("tage", "take");
-
-            correctionAdd("takeing", "taking");
-            correctionAdd("taing", "taking");
-
-            correctionAdd("tooked", "took");
-            correctionAdd("tooks", "took");
-            correctionAdd("tooke", "took");
-            correctionAdd("taked", "took");
-            correctionAdd("toke", "took");
-            correctionAdd("tok", "took");
-
-            correctionAdd("re-take", "retake");
-
-            correctionAdd("take-over", "takeover");
-            correctionAdd("take over", "takeover");
-
-            // The verb
-            correctionAdd("fadeaway", "fade away");
-
-            // The noun
-            correctionAdd("take away", "takeaway");
-            correctionAdd("take-away", "takeaway");
-
-            // The noun
-            correctionAdd("takes aways", "takeaways");
-            correctionAdd("take aways", "takeaways");
-
-            correctionAdd("Hot Take", "hot take");
-
-            correctionAdd("take case of", "take care of");
-            correctionAdd("take case", "take care of");
-            correctionAdd("take care", "take care of");
-
-            correctionAdd("taken care off", "taken care of");
-
-            correctionAdd("take time-off", "take time off");
-
-            correctionAdd("taking part on", "taking part in");
-
-            correctionAdd("take into the account", "take into account");
-            correctionAdd("take into accound", "take into account");
-            correctionAdd("get into account", "take into account");
-            correctionAdd("take in count", "take into account");
-
-            correctionAdd("misstake", "mistake");
-            correctionAdd("misteke", "mistake");
-            correctionAdd("mistale", "mistake");
-            correctionAdd("mistike", "mistake");
-
-            correctionAdd("misstakes", "mistakes");
-            correctionAdd("miskates", "mistakes");
-
-            correctionAdd("mistankenly", "mistakenly");
-            correctionAdd("mistakely", "mistakenly");
-
-            correctionAdd("IINM", "if I'm not mistaken");
 
             correctionAdd("Server", "server");
             correctionAdd("sever", "server");
@@ -31724,49 +31995,6 @@ namespace OverflowHelper.core
             //
             correctionAdd("Baskerville", "Baskerville Old Face");
 
-            correctionAdd("migthy", "mighty");
-
-            correctionAdd("all mighty", "almighty");
-
-            correctionAdd("at nights", "at night");
-            correctionAdd("At nights", "at night");
-
-            correctionAdd("Midnight", "midnight");
-
-            correctionAdd("over night", "overnight");
-            correctionAdd("over-night", "overnight");
-            correctionAdd("Over Night", "overnight");
-
-            correctionAdd("nightsky", "night sky");
-
-            correctionAdd("night mare", "nightmare");
-
-            correctionAdd("night vision goggle", "NVG");
-            correctionAdd("nvgs", "NVG");
-            correctionAdd("nvg", "NVG");
-
-            // Idiomatic
-            correctionAdd("all nighter", "pull an all-nighter");
-            correctionAdd("All nighter", "pull an all-nighter");
-
-            correctionAdd("nighther", "neither");
-            correctionAdd("neigher", "neither");
-            correctionAdd("neigter", "neither");
-            correctionAdd("niether", "neither");
-            correctionAdd("nither", "neither");
-            correctionAdd("neiter", "neither");
-            correctionAdd("nether", "neither");
-            correctionAdd("Nether", "neither");
-
-            correctionAdd("either or", "either-or");
-
-            correctionAdd("Either ways", "either way");
-            correctionAdd("either ways", "either way");
-            correctionAdd("eitherway", "either way");
-            correctionAdd("Eitherway", "either way");
-
-            correctionAdd("on similar way", "in similar way");
-
             correctionAdd("wear out", "wearout");
             correctionAdd("ware out", "wearout");
 
@@ -32413,60 +32641,6 @@ namespace OverflowHelper.core
             correctionAdd("Method of moments", "method of moments");
             correctionAdd("MoM", "method of moments");
 
-            // Note: "any" is in an alternative word set
-            //
-            correctionAdd("anylonger", "any longer");
-
-            correctionAdd("any one", "anyone");
-            correctionAdd("any onw", "anyone");
-            correctionAdd("annyone", "anyone");
-            correctionAdd("anyoune", "anyone");
-            correctionAdd("anyonw", "anyone");
-            correctionAdd("Anyone", "anyone");
-            correctionAdd("anyine", "anyone");
-            correctionAdd("Amyone", "anyone");
-            correctionAdd("amyone", "anyone");
-            correctionAdd("enyone", "anyone");
-            correctionAdd("anyon", "anyone");
-            correctionAdd("any1", "anyone");
-
-            // Idiomatic
-            correctionAdd("anyones", "anyone's guess");
-
-            correctionAdd("in any way or form", "in any way, shape, or form");
-
-            correctionAdd("anyumore", "any more");
-            correctionAdd("anymore", "any more");
-            correctionAdd("animore", "any more");
-            correctionAdd("anymroe", "any more");
-
-            correctionAdd("at anyrate", "at any rate");
-            correctionAdd("At anyrate", "at any rate");
-
-            correctionAdd("any case", "in any case");
-            correctionAdd("anycase", "in any case");
-
-            correctionAdd("any time", "anytime");
-
-            correctionAdd("anyhoo", "anyhow");
-            correctionAdd("Anyhoo", "anyhow");
-            correctionAdd("Anyhow", "anyhow");
-
-            correctionAdd("anyways", "anyway");
-            correctionAdd("any way", "anyway"); // Entirely dependent on context
-            correctionAdd("Any way", "anyway"); // Entirely dependent on context
-            correctionAdd("anywasy", "anyway");
-            correctionAdd("Anyways", "anyway");
-            correctionAdd("anywais", "anyway");
-            correctionAdd("Anyyay", "anyway");
-            correctionAdd("anyyay", "anyway");
-            correctionAdd("Anyway", "anyway");
-            correctionAdd("aniway", "anyway");
-            correctionAdd("Anways", "anyway");
-            correctionAdd("nyways", "anyway");
-            correctionAdd("Aniway", "anyway");
-            correctionAdd("anway", "anyway");
-
             correctionAdd("doubtfull", "doubtful");
 
             correctionAdd("in doubts", "in doubt");
@@ -32478,31 +32652,6 @@ namespace OverflowHelper.core
             correctionAdd("BOTD", "benefit of the doubt");
 
             correctionAdd("Anycasted", "anycasted");
-
-            correctionAdd("on the way", "in the way");
-
-            correctionAdd("awat", "away");
-
-            correctionAdd("right a way", "right away");
-            correctionAdd("rightaway", "right away");
-
-            correctionAdd("allways", "always");
-            correctionAdd("alwasys", "always");
-            correctionAdd("alwayes", "always");
-            correctionAdd("ALLWAYS", "always");
-            correctionAdd("alaways", "always");
-            correctionAdd("alwasy", "always");
-            correctionAdd("alweys", "always");
-            correctionAdd("alwaly", "always");
-            correctionAdd("alwaus", "always");
-            correctionAdd("a,ways", "always");
-            correctionAdd("anways", "always");
-            correctionAdd("allway", "always");
-            correctionAdd("akways", "always");
-            correctionAdd("alwes", "always");
-            correctionAdd("alwys", "always");
-            correctionAdd("Alway", "always");
-            correctionAdd("alway", "always");
 
             correctionAdd("casse", "case");
             correctionAdd("Case", "case");
@@ -32536,53 +32685,6 @@ namespace OverflowHelper.core
             correctionAdd("case to case", "case-by-case");
 
             correctionAdd("best case scenario", "best-case scenario");
-
-            correctionAdd("one way", "one-way");
-
-            correctionAdd("two way", "two-way");
-            correctionAdd("2 way", "two-way");
-            correctionAdd("2-way", "two-way");
-            correctionAdd("2way", "two-way");
-
-            correctionAdd("halve way", "halfway");
-            correctionAdd("half-way", "halfway");
-            correctionAdd("half way", "halfway");
-
-            correctionAdd("on this way", "in this way");
-            correctionAdd("On this way", "in this way");
-
-            correctionAdd("passage way", "passageway");
-
-            correctionAdd("lee way", "leeway");
-
-            correctionAdd("drive shaft", "driveshaft");
-
-            correctionAdd("drive train", "drivetrain");
-
-            correctionAdd("guard rails", "guardrails");
-
-            correctionAdd("rail gun", "railgun");
-
-            correctionAdd("raleway", "railway");
-
-            correctionAdd("Metro", "metro");
-
-            // Trains. France.
-            correctionAdd("tgv", "TGV");
-
-            // Trains. France.
-            correctionAdd("TER", "transport express régional");
-
-            // Note: "train" is in an alternative word set
-            //
-            correctionAdd("trainwreck", "train wreck");
-
-            correctionAdd("Havoc", "havoc");
-
-            correctionAdd("wreck havic", "wreck havoc");
-            correctionAdd("cause havoc", "wreck havoc");
-
-            correctionAdd("de-railing", "derailing");
 
             correctionAdd("trainning", "training");
             correctionAdd("traning", "training");
@@ -45710,33 +45812,6 @@ namespace OverflowHelper.core
             // On-disk key-value store. Related to Snappy.
             correctionAdd("leveldb", "LevelDB");
 
-            correctionAdd("safe", "save");
-            correctionAdd("Save", "save");
-
-            correctionAdd("savez", "saved");
-
-            correctionAdd("re-save", "resave");
-
-            // Note: "safe" is in an alternative word set...
-            correctionAdd("more safe", "safer");
-
-            correctionAdd("most safe", "safest");
-
-            // Note: "safe" is in an alternative word set...
-            correctionAdd("unsave", "unsafe");
-
-            correctionAdd("safefly", "safely");
-
-            correctionAdd("saftey", "safety");
-            correctionAdd("savety", "safety");
-            correctionAdd("safty", "safety");
-
-            correctionAdd("safety-net", "safety net");
-
-            correctionAdd("SIL", "safety integrity level");
-
-            correctionAdd("safeway", "Safeway");
-
             // Note: "language" is in an alternative word set
             correctionAdd("languates", "languages");
             correctionAdd("launagues", "languages");
@@ -57562,72 +57637,6 @@ namespace OverflowHelper.core
 
             correctionAdd("re declared", "redeclared");
 
-            correctionAdd("formward", "forward");
-            correctionAdd("foward", "forward");
-
-            correctionAdd("FFWD", "fast forward");
-
-            correctionAdd("going forwards", "going forward");
-
-            correctionAdd("Forward Declaration", "forward declaration");
-
-            correctionAdd("forward declare", "forward-declare");
-
-            correctionAdd("forward declared", "forward-declared");
-
-            correctionAdd("forward declaring", "forward-declaring");
-            correctionAdd("Forward declaring", "forward-declaring");
-
-            correctionAdd("straight-forwards", "straightforward");
-            correctionAdd("straight forwards", "straightforward");
-            correctionAdd("straightforwared", "straightforward");
-            correctionAdd("straight forward", "straightforward");
-            correctionAdd("straight-forward", "straightforward");
-            correctionAdd("straigth forward", "straightforward");
-            correctionAdd("straight foward", "straightforward");
-            correctionAdd("straigh forward", "straightforward");
-            correctionAdd("straigtforward", "straightforward");
-            correctionAdd("Straightfoward", "straightforward"); // Not 100% correct (case)
-            correctionAdd("straightfoward", "straightforward");
-            correctionAdd("strait-forward", "straightforward");
-            correctionAdd("staightforward", "straightforward");
-            correctionAdd("strait forward", "straightforward");
-            correctionAdd("straighforward", "straightforward");
-            correctionAdd("straigh foward", "straightforward");
-            correctionAdd("Strait-forward", "straightforward");
-            correctionAdd("straight ford", "straightforward");
-            correctionAdd("straigforward", "straightforward");
-            correctionAdd("straitforward", "straightforward");
-            correctionAdd("straighfoward", "straightforward");
-            correctionAdd("Straitforward", "straightforward");
-
-            correctionAdd("straitght", "straight");
-            correctionAdd("stragiht", "straight");
-            correctionAdd("satright", "straight");
-            correctionAdd("straigh", "straight");
-            correctionAdd("strait", "straight");
-
-            correctionAdd("straigthen", "straighten");
-
-            correctionAdd("straigtened", "straightened");
-
-            correctionAdd("straigther", "straighter");
-            correctionAdd("straigher", "straighter");
-            correctionAdd("straigter", "straighter");
-
-            correctionAdd("straightaway", "straight away");
-            correctionAdd("staritaway", "straight away");
-
-            correctionAdd("straight up", "straight-up");
-            correctionAdd("satright up", "straight-up");
-            correctionAdd("staright up", "straight-up");
-            correctionAdd("straightup", "straight-up");
-            correctionAdd("straigh up", "straight-up");
-
-            // Idiomatic (US)
-            correctionAdd("straight off the bat", "right off the bat");
-            correctionAdd("off the bat", "right off the bat");
-
             correctionAdd("scarey", "scary");
 
             correctionAdd("scaryness", "scariness");
@@ -65944,6 +65953,7 @@ namespace OverflowHelper.core
             //
             //     Similar: <https://www.youtube.com/watch?v=Vopjb4WAT4k>
             //
+            correctionAdd("chyrosran22", "Chyrosran22");
             correctionAdd("Thomas Ran", "Chyrosran22");
             correctionAdd("Chyros", "Chyrosran22");
             correctionAdd("Thomas", "Chyrosran22");
@@ -69387,10 +69397,6 @@ namespace OverflowHelper.core
 
             correctionAdd("death throws", "death throes");
 
-            correctionAdd("shyed", "shied");
-
-            correctionAdd("shyed away", "shied away");
-
             correctionAdd("upgrage", "upgrade");
             correctionAdd("Upgrade", "upgrade");
             correctionAdd("upbrade", "upgrade"); // A true typo
@@ -70603,10 +70609,11 @@ namespace OverflowHelper.core
 
             correctionAdd("reccommendation", "recommendation");
             correctionAdd("reccomendation", "recommendation");
+            correctionAdd("Reccomendation", "recommendation");
+            correctionAdd("RECCOMENDATION", "recommendation");
             correctionAdd("reccomondation", "recommendation");
             correctionAdd("recommondation", "recommendation");
             correctionAdd("Recommendation", "recommendation");
-            correctionAdd("Reccomendation", "recommendation");
             correctionAdd("recommandation", "recommendation");
             correctionAdd("recomendation", "recommendation");
             correctionAdd("recomondation", "recommendation");
@@ -79412,8 +79419,9 @@ namespace OverflowHelper.core
             correctionAdd("trad", "traditional");
 
             correctionAdd("primarilly", "primarily");
-            correctionAdd("primarly", "primarily");
             correctionAdd("Primarily", "primarily");
+            correctionAdd("primaryly", "primarily");
+            correctionAdd("primarly", "primarily");
 
             correctionAdd("primative", "primitive");
             correctionAdd("primitve", "primitive");
@@ -79457,6 +79465,7 @@ namespace OverflowHelper.core
             correctionAdd("amazon", "Amazon DOT com"); // The name is actually Amazon.com, but we have reasons not to use something that looks like a URL...
             correctionAdd("Amazon", "Amazon DOT com");
             correctionAdd("AMAZON", "Amazon DOT com");
+            correctionAdd("Amazan", "Amazon DOT com");
             correctionAdd("amzon", "Amazon DOT com");
             correctionAdd("Amaon", "Amazon DOT com");
             correctionAdd("A-zon", "Amazon DOT com");
@@ -147955,6 +147964,8 @@ namespace OverflowHelper.core
 
             URL_Add("StarCraft II", "https://en.wikipedia.org/wiki/StarCraft_II");
 
+            URL_Add("no way", "https://en.wiktionary.org/wiki/no_way#Adverb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -163642,6 +163653,7 @@ namespace OverflowHelper.core
             correctionAdd("SOP_", "standard operating procedure_");
 
             correctionAdd("sections_", "sessions_");
+            correctionAdd("sessins_", "sessions_");
 
             correctionAdd("queues_", "queue_");
             correctionAdd("Queque_", "queue_");
