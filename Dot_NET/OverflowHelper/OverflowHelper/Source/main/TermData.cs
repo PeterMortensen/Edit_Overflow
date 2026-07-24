@@ -7219,6 +7219,1316 @@ namespace OverflowHelper.core
             correctionAdd("inconsequntial", "inconsequential");
             correctionAdd("inconsequental", "inconsequential");
 
+            correctionAdd("bit rate", "bitrate");
+            correctionAdd("bitratre", "bitrate");
+            correctionAdd("bit-rate", "bitrate");
+            correctionAdd("Bitrate", "bitrate");
+
+            correctionAdd("bit rates", "bitrates");
+
+            correctionAdd("baud speed", "baud rate");
+            correctionAdd("Baud rate", "baud rate");
+            correctionAdd("BAUD rate", "baud rate");
+            correctionAdd("bauderate", "baud rate");
+            correctionAdd("baut rate", "baud rate");
+            correctionAdd("baud-rate", "baud rate");
+            correctionAdd("BaudRate", "baud rate");
+            correctionAdd("baudRate", "baud rate");
+            correctionAdd("baudrate", "baud rate");
+            correctionAdd("Baudrate", "baud rate");
+            correctionAdd("bautrate", "baud rate");
+            correctionAdd("BAUD", "baud rate");
+
+            // Primarily for alternative output
+            correctionAdd("0xA0", "&nbsp; NBSP");
+            correctionAdd("a0", "&nbsp; NBSP");
+            correctionAdd("ao", "&nbsp; NBSP");
+
+            correctionAdd("Metric", "metric");
+
+            correctionAdd("the Canadian system", "metric system");
+            correctionAdd("Canadian system", "metric system");
+            correctionAdd("European units", "metric system");
+
+            correctionAdd("unite", "unit");
+            correctionAdd("Uint", "unit");
+            correctionAdd("uint", "unit");
+
+            correctionAdd("unit-less", "unitless");
+            correctionAdd("unit less", "unitless");
+
+            correctionAdd("space before unit", "MOS:UNITS - &nbsp;");
+            correctionAdd("unit space", "MOS:UNITS - &nbsp;");
+            correctionAdd("space unit", "MOS:UNITS - &nbsp;");
+            correctionAdd("MOS:UNITS", "MOS:UNITS - &nbsp;");
+            correctionAdd("units", "MOS:UNITS - &nbsp;");
+
+            // A unit (of length)
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/Gly#Noun_2>
+            //
+            correctionAdd("&nbsp;gigalight-year", "&nbsp;Gly");
+            correctionAdd("gigalightyear", "&nbsp;Gly");
+            correctionAdd("G ly", "&nbsp;Gly");
+            correctionAdd("Gly", "&nbsp;Gly");
+            correctionAdd("gly", "&nbsp;Gly");
+            correctionAdd("gigalight-year", "&nbsp;Gly"); // The official expanded name
+
+            // A unit (of length)
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/Mly#Noun>
+            //
+            correctionAdd("&nbsp;megalight-year", "&nbsp;Mly");
+            correctionAdd("megalightyear", "&nbsp;Mly");
+            correctionAdd("M ly", "&nbsp;Mly");
+            correctionAdd("Mly", "&nbsp;Mly");
+            correctionAdd("mly", "&nbsp;Mly");
+            correctionAdd("megalight-year", "&nbsp;Mly"); // The official expanded name
+
+            // A unit (of length)
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/Kly#Noun>
+            //
+            correctionAdd("&nbsp;kilolight-year", "&nbsp;Kly");
+            correctionAdd("kilolightyear", "&nbsp;Kly");
+            correctionAdd("K ly", "&nbsp;Kly");
+            correctionAdd("Kly", "&nbsp;Kly");
+            correctionAdd("kly", "&nbsp;Kly");
+            correctionAdd("kilolight-year", "&nbsp;Kly"); // The official expanded name
+
+            // A unit (of length)
+            correctionAdd("Parsec", "parsec");
+
+            // A unit (of length)
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/light_year#Noun>
+            //     Though Wiktionary is inconsistent with the
+            //     spelling, including for gigalight-year,
+            //     megalight-year, and kilolight-year.
+            //
+            correctionAdd("&nbsp;light-year", "&nbsp;ly");
+            correctionAdd("Light-year", "&nbsp;ly");
+            correctionAdd("light year", "&nbsp;ly");
+            correctionAdd("lightyear", "&nbsp;ly");
+            correctionAdd("LYA", "&nbsp;ly");
+            correctionAdd("lya", "&nbsp;ly");
+            correctionAdd("LY", "&nbsp;ly");
+            correctionAdd("ly", "&nbsp;ly");
+            correctionAdd("light-year", "&nbsp;ly"); // The official expanded name
+
+            // A unit (of length)
+            //
+            correctionAdd("light years", "&nbsp;light-years");
+            correctionAdd("light-years", "&nbsp;light-years");
+            correctionAdd("lightyears", "&nbsp;light-years");
+
+            // A unit (of length)
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/au#Symbol>
+            //
+            correctionAdd("&nbsp;astronomical unit", "&nbsp;au");
+            correctionAdd("AU", "&nbsp;au");
+            correctionAdd("au", "&nbsp;au");
+            correctionAdd("astronomical unit", "&nbsp;au"); // The official expanded name
+
+            // A unit (of length)
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/km#Symbol>
+            //
+            correctionAdd("&nbsp;kilometre", "&nbsp;km");
+            correctionAdd("kilo meter", "&nbsp;km");
+            correctionAdd("Kilometer", "&nbsp;km");
+            correctionAdd("kilometer", "&nbsp;km");
+            correctionAdd("Km", "&nbsp;km");
+            correctionAdd("KM", "&nbsp;km");
+            correctionAdd("kM", "&nbsp;km");
+            correctionAdd("km", "&nbsp;km");
+            correctionAdd("kilometre", "&nbsp;km"); // The official expanded name
+
+            // A unit (of length)
+            //
+            // Note: "kilometer" is in an alternative word set
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/kms#Noun>
+            //
+            correctionAdd("kilometres", "&nbsp;kilometres");
+            correctionAdd("Kilometers", "&nbsp;kilometres");
+            correctionAdd("kilometers", "&nbsp;kilometres");
+            correctionAdd("Kms", "&nbsp;kilometres");
+            correctionAdd("kms", "&nbsp;kilometres"); // The official shorthand
+
+            // A unit (of length)
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/m#Symbol>
+            //
+            correctionAdd("&nbsp;metre", "&nbsp;m");
+            correctionAdd("Meter", "&nbsp;m");
+            correctionAdd("meter", "&nbsp;m");
+            correctionAdd("M", "&nbsp;m");
+            correctionAdd("m", "&nbsp;m");
+            correctionAdd("metre", "&nbsp;m"); // The official expanded name
+
+            // A unit (of length)
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/cm#Symbol>
+            //
+            correctionAdd("&nbsp;centimetre", "&nbsp;cm");
+            correctionAdd("centimeter", "&nbsp;cm");
+            correctionAdd("cm", "&nbsp;cm");
+            correctionAdd("centimetre", "&nbsp;cm"); // The official expanded name
+
+            // A unit (of length)
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/mm#Symbol>
+            //
+            correctionAdd("&nbsp;millimetre", "&nbsp;mm");
+            correctionAdd("millimeter", "&nbsp;mm");
+            correctionAdd("Millimeter", "&nbsp;mm");
+            correctionAdd("milimiter", "&nbsp;mm");
+            correctionAdd("milimeter", "&nbsp;mm");
+            correctionAdd("mm", "&nbsp;mm");
+            correctionAdd("millimetre", "&nbsp;mm"); // The official expanded name
+
+            // A unit (of length)
+            //
+            // Note: In the correct term, "μ" is U+03BC (μ GREEK SMALL LETTER MU).
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/%CE%BCm#Symbol>
+            //
+            correctionAdd("&nbsp;micrometre", "&nbsp;μm");
+            correctionAdd("micrometer", "&nbsp;μm");
+            correctionAdd("um", "&nbsp;μm");
+            correctionAdd("μm", "&nbsp;μm");
+            correctionAdd("micrometre", "&nbsp;μm"); // The official expanded name
+
+            // A unit (of length)
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/nm#Symbol>
+            //
+            correctionAdd("&nbsp;nanometre", "&nbsp;nm");
+            correctionAdd("nano meter", "&nbsp;nm");
+            correctionAdd("nanometer", "&nbsp;nm");
+            correctionAdd("nm", "&nbsp;nm");
+            correctionAdd("nanometre", "&nbsp;nm"); // The official expanded name
+
+            // A unit (of volume)
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/l#Symbol>
+            //
+            correctionAdd("litters", "&nbsp;l");
+            correctionAdd("litter", "&nbsp;l");
+            correctionAdd("liter", "&nbsp;l");
+            correctionAdd("l", "&nbsp;l");
+            correctionAdd("litre", "&nbsp;l"); // The official expanded name
+
+            // A unit (rate. Speed)
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/kn#Symbol_2>
+            //
+            correctionAdd("knot", "&nbsp;kn");
+            correctionAdd("kts", "&nbsp;kn");
+            correctionAdd("kt", "&nbsp;kn");
+            correctionAdd("kn", "&nbsp;kn");
+
+            // A unit (rate. Speed). = 1.609 km/h
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/mi/h#Noun>
+            //
+            correctionAdd("&nbsp;miles per hour", "&nbsp;mi/h");
+            correctionAdd("mile per hour", "&nbsp;mi/h");
+            correctionAdd("mi/hr", "&nbsp;mi/h");
+            correctionAdd("M.P.H", "&nbsp;mi/h");
+            correctionAdd("mi/h", "&nbsp;mi/h"); // Sort of identity mapping
+            correctionAdd("m/h", "&nbsp;mi/h");
+            correctionAdd("mph", "&nbsp;mi/h");
+            correctionAdd("MPH", "&nbsp;mi/h");
+            correctionAdd("miles per hour", "&nbsp;mi/h"); // The official expanded name
+
+            // A unit (rate. Speed)
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/km/h#Symbol>
+            //   <https://en.wiktionary.org/wiki/kmh#Symbol>
+            //
+            correctionAdd("&nbsp;kilometres per hour", "&nbsp;km/h");
+            correctionAdd("kilometers per hour", "&nbsp;km/h");
+            correctionAdd("kilometre per hour", "&nbsp;km/h");
+            correctionAdd("kilometer per hour", "&nbsp;km/h");
+            correctionAdd("km/hr", "&nbsp;km/h");
+            correctionAdd("kmph", "&nbsp;km/h");
+            correctionAdd("km/h", "&nbsp;km/h"); // Sort of identity mapping
+            correctionAdd("kmh", "&nbsp;km/h");
+            correctionAdd("kilometres per hour", "&nbsp;km/h"); // The official expanded name
+
+            // A unit (of resistance)
+            correctionAdd("&nbsp;tera-ohm", "&nbsp;TΩ");
+            correctionAdd("Tera ohm", "&nbsp;TΩ");
+            correctionAdd("tera ohm", "&nbsp;TΩ");
+            correctionAdd("Tera Ohm", "&nbsp;TΩ");
+            correctionAdd("teraohm", "&nbsp;TΩ");
+            correctionAdd("Teraohm", "&nbsp;TΩ");
+            correctionAdd("TΩ", "&nbsp;TΩ"); // Sort of identity mapping
+            correctionAdd("tera-ohm", "&nbsp;TΩ"); // The official expanded name
+
+            // A unit (of resistance)
+            correctionAdd("&nbsp;giga-ohm", "&nbsp;GΩ");
+            correctionAdd("gigaohm", "&nbsp;GΩ");
+            correctionAdd("GΩ", "&nbsp;GΩ"); // Sort of identity mapping
+            correctionAdd("giga-ohm", "&nbsp;GΩ"); // The official expanded name
+
+            // A unit (of resistance)
+            correctionAdd("&nbsp;megaohm", "&nbsp;MΩ");
+            correctionAdd("mega-ohm", "&nbsp;MΩ");
+            correctionAdd("Megohm", "&nbsp;MΩ");
+            correctionAdd("megohm", "&nbsp;MΩ");
+            correctionAdd("MegOhm", "&nbsp;MΩ");
+            correctionAdd("Mohm", "&nbsp;MΩ");
+            correctionAdd("MOhm", "&nbsp;MΩ");
+            correctionAdd("Meg", "&nbsp;MΩ");
+            correctionAdd("MΩ", "&nbsp;MΩ"); // Sort of identity mapping
+            correctionAdd("megaohm", "&nbsp;MΩ"); // The official expanded name
+
+            // A unit (of resistance)
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Ohm#Definition>
+            //   <https://en.wiktionary.org/wiki/kiloohm#Noun>
+            //
+            correctionAdd("&nbsp;kiloohm", "&nbsp;kΩ");
+            correctionAdd("kilo ohm", "&nbsp;kΩ");
+            correctionAdd("kilo-ohm", "&nbsp;kΩ");
+            correctionAdd("Kilohm", "&nbsp;kΩ");
+            correctionAdd("kilohm", "&nbsp;kΩ");
+            correctionAdd("K ohm", "&nbsp;kΩ");
+            correctionAdd("kohms", "&nbsp;kΩ");
+            correctionAdd("k Ohm", "&nbsp;kΩ");
+            correctionAdd("k ohm", "&nbsp;kΩ");
+            correctionAdd("Kohm", "&nbsp;kΩ");
+            correctionAdd("KOhm", "&nbsp;kΩ");
+            correctionAdd("kohm", "&nbsp;kΩ");
+            correctionAdd("kOhm", "&nbsp;kΩ"); // Partially an expansion. The opposite is kΩ.
+            correctionAdd("kΩ", "&nbsp;kΩ"); // Sort of identity mapping
+            correctionAdd("kiloohm", "&nbsp;kΩ"); // The official expanded name
+
+            // A unit (of resistance)
+            correctionAdd("&nbsp;ohm", "&nbsp;Ω");
+            correctionAdd("Ohms", "&nbsp;Ω");
+            correctionAdd("Ohm", "&nbsp;Ω");
+            correctionAdd("OHM", "&nbsp;Ω");
+            correctionAdd("ihm", "&nbsp;Ω");
+            correctionAdd("ohm", "&nbsp;Ω"); // The official expanded name
+            correctionAdd("Om", "&nbsp;Ω");
+            correctionAdd("Ω", "&nbsp;Ω"); // Sort of identity mapping
+
+            // A unit (of resistance)
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/m%CE%A9#Symbol>
+            //
+            correctionAdd("&nbsp;milliohm", "&nbsp;mΩ");
+            correctionAdd("milliohm", "&nbsp;mΩ"); // The official expanded name
+            correctionAdd("mOhm", "&nbsp;mΩ");
+            correctionAdd("mohm", "&nbsp;mΩ");
+            correctionAdd("mΩ", "&nbsp;mΩ"); // Sort of identity mapping
+
+            // Electronics. A unit (of voltage)
+            correctionAdd("&nbsp;kilovolt", "&nbsp;kV");
+            correctionAdd("KV", "&nbsp;kV");
+            correctionAdd("kV", "&nbsp;kV");
+            correctionAdd("kilovolt", "&nbsp;kV"); // The official expanded name
+
+            // Electronics. A unit (of voltage)
+            correctionAdd("&nbsp;volt", "&nbsp;V");
+            correctionAdd("Volts", "&nbsp;V");
+            correctionAdd("volts", "&nbsp;V");
+            correctionAdd("Volt", "&nbsp;V");
+            correctionAdd("V", "&nbsp;V"); // Not incorrect, but in order to lookup "V".
+            correctionAdd("v", "&nbsp;V");
+            correctionAdd("volt", "&nbsp;V"); // The official expanded name
+
+            // Electronics. A unit (of voltage)
+            correctionAdd("&nbsp;millivolt", "&nbsp;mV");
+            correctionAdd("milliVolt", "&nbsp;mV");
+            correctionAdd("mV", "&nbsp;mV");
+            correctionAdd("millivolt", "&nbsp;mV"); // The official expanded name
+
+            // Electronics. A unit (of current)
+            correctionAdd("&nbsp;ampere", "&nbsp;A");
+            correctionAdd("Ampere", "&nbsp;A");
+            correctionAdd("ampere", "&nbsp;A");
+            correctionAdd("Amps", "&nbsp;A");
+            correctionAdd("amps", "&nbsp;A");
+            correctionAdd("amp", "&nbsp;A");
+            correctionAdd("Amp", "&nbsp;A");
+
+            // Electronics. A unit (of current)
+            //
+            // Note: "ampere" is in an alternative word set
+            //
+            correctionAdd("milliampere", "&nbsp;milliampere");
+            correctionAdd("milliamp", "&nbsp;milliampere");
+            correctionAdd("&nbsp;mA", "&nbsp;milliampere");
+
+            // Electronics. A unit (of current)
+            // Plural
+            correctionAdd("milliamperes", "&nbsp;milliamperes");
+            correctionAdd("milliamps", "&nbsp;milliamperes");
+
+            // Electronics. A unit (of current)
+            //
+            // Note: In the correct term, "µ" is U+00B5 (µ MICRO SIGN (seaer)).
+            //
+            correctionAdd("&nbsp;microampere", "&nbsp;µA");
+            correctionAdd("micro Ampere", "&nbsp;µA");
+            correctionAdd("micro-Ampere", "&nbsp;µA");
+            correctionAdd("microamps", "&nbsp;µA");
+            correctionAdd("microamp", "&nbsp;µA");
+            correctionAdd("uA", "&nbsp;µA");
+            correctionAdd("ua", "&nbsp;µA");
+            correctionAdd("µA", "&nbsp;µA"); // Note: "µ" is U+00B5 (µ MICRO SIGN (seaer)).
+            correctionAdd("μA", "&nbsp;µA"); // Note: "μ" is U+03BC (μ GREEK SMALL LETTER MU).
+            correctionAdd("microampere", "&nbsp;µA"); // The official expanded name
+
+            // Electronics. A unit (of current)
+            correctionAdd("&nbsp;nanoampere", "&nbsp;nA");
+            correctionAdd("na", "&nbsp;nA");
+            correctionAdd("nA", "&nbsp;nA");
+            correctionAdd("nanoampere", "&nbsp;nA"); // The official expanded name
+
+            // Electronics. A unit (of current)
+            correctionAdd("&nbsp;picoampere", "&nbsp;pA");
+            correctionAdd("pa", "&nbsp;pA");
+            correctionAdd("pA", "&nbsp;pA");
+            correctionAdd("picoampere", "&nbsp;pA"); // The official expanded name
+
+            // Electronics. A unit (of current)
+            correctionAdd("&nbsp;femtoampere", "&nbsp;fA");
+            correctionAdd("fa", "&nbsp;fA");
+            correctionAdd("fA", "&nbsp;fA");
+            correctionAdd("femtoampere", "&nbsp;fA"); // The official expanded name
+
+            // Electronics. A unit (of capacitance)
+            correctionAdd("&nbsp;farad", "&nbsp;F");
+            correctionAdd("Farad", "&nbsp;F"); // Wrong case
+            correctionAdd("fared", "&nbsp;F"); // Misspelling
+            correctionAdd("F", "&nbsp;F");
+            correctionAdd("farad", "&nbsp;F"); // The official expanded name
+
+            // Electronics. A unit (of capacitance)
+            correctionAdd("&nbsp;millifarad", "&nbsp;mF");
+            correctionAdd("milliFarad", "&nbsp;mF");
+            correctionAdd("milli farad", "&nbsp;mF");
+            correctionAdd("mF", "&nbsp;mF");
+            correctionAdd("millifarad", "&nbsp;mF"); // The official expanded name
+
+            // Electronics. A unit (of capacitance)
+            //
+            // Note: In the correct term:
+            //
+            //         "µ" is U+00B5 (µ MICRO SIGN (seaer)).
+            //
+            correctionAdd("&nbsp;microfarad", "&nbsp;µF");
+            correctionAdd("micro farad", "&nbsp;µF"); // Also to abbreviate
+            correctionAdd("uf", "&nbsp;µF");
+            correctionAdd("uF", "&nbsp;µF");
+            correctionAdd("µF", "&nbsp;µF"); // Note: "µ" is U+00B5 (µ MICRO SIGN (seaer)).
+            correctionAdd("μF", "&nbsp;µF"); // Note: "μ" is U+03BC (μ GREEK SMALL LETTER MU).
+            correctionAdd("microfarad", "&nbsp;µF"); // The official expanded name
+
+            // Electronics. A unit (of capacitance)
+            //
+            correctionAdd("&nbsp;nanofarad", "&nbsp;nF");
+            correctionAdd("nano farad", "&nbsp;nF");
+            correctionAdd("nano-Farad", "&nbsp;nF");
+            correctionAdd("nF", "&nbsp;nF");
+            correctionAdd("nanofarad", "&nbsp;nF"); // The official expanded name
+
+            // Electronics. A unit (of capacitance)
+            //
+            correctionAdd("&nbsp;picofarad", "&nbsp;pF");
+            correctionAdd("pico fared", "&nbsp;pF"); // Misspelling
+            correctionAdd("pico farad", "&nbsp;pF");
+            correctionAdd("pf", "&nbsp;pF");
+            correctionAdd("pF", "&nbsp;pF");
+            correctionAdd("picofarad", "&nbsp;pF"); // The official expanded name
+
+            // Electronics. A unit (of charge)
+            correctionAdd("Coloumb", "coulomb"); // Misspelling of Coulomb...
+            correctionAdd("Coulomb", "coulomb"); // The physicist's surname
+            correctionAdd("Culomb", "coulomb"); // Misspelling of Coulomb...
+
+            // Electronics. A unit (of charge). E.g., for battery capacity.
+            correctionAdd("&nbsp;ampere-hour", "&nbsp;A·h");
+            correctionAdd("amp-hour", "&nbsp;A·h");
+            correctionAdd("A·h", "&nbsp;A·h");
+            correctionAdd("Ah", "&nbsp;A·h");
+            correctionAdd("ah", "&nbsp;A·h");
+            correctionAdd("ampere-hour", "&nbsp;A·h"); // The official expanded name
+
+            // Electronics. A unit (of charge). E.g., for battery capacity.
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/mAh>
+            //     Note: Without "·"
+            //
+            correctionAdd("&nbsp;milliampere-hour", "&nbsp;mA·h");
+            correctionAdd("mA·h", "&nbsp;mA·h");
+            correctionAdd("mAh", "&nbsp;mA·h");
+            correctionAdd("mah", "&nbsp;mA·h");
+            correctionAdd("Mah", "&nbsp;mA·h");
+            correctionAdd("mAH", "&nbsp;mA·h");
+            correctionAdd("MaH", "&nbsp;mA·h");
+            correctionAdd("milliampere-hour", "&nbsp;mA·h"); // The official expanded name
+
+            // Electronics. A unit (of inductance)
+            //
+            // Note: In the correct term, "µ" is U+00B5 (µ MICRO SIGN (seaer)).
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Henry_(unit)>
+            //
+            correctionAdd("microhenry", "&nbsp;µH"); // The official expanded name
+            correctionAdd("uH", "&nbsp;µH");
+            correctionAdd("µH", "&nbsp;µH"); // Note: "µ" is U+00B5 (µ MICRO SIGN (seaer)).
+            correctionAdd("μH", "&nbsp;µH"); // Note: "μ" is U+03BC (μ GREEK SMALL LETTER MU).
+
+            // Electronics. A unit (of magnetic flux density)
+            // 1 tesla (SI) = 10,000 gauss
+            //
+            correctionAdd("&nbsp;gauss", "&nbsp;G");
+            correctionAdd("gauss", "&nbsp;G");
+            correctionAdd("Gauss", "&nbsp;G");
+            correctionAdd("Gs", "&nbsp;G");
+            correctionAdd("G", "&nbsp;G"); // Sort of identity mapping
+
+            // Electronics. A unit (of magnetic flux density). The SI unit
+            correctionAdd("Tesla", "&nbsp;T");
+            correctionAdd("tesla", "&nbsp;T");
+            correctionAdd("T", "&nbsp;T");
+
+            // Electronics. A unit (rate. Of power (electrical))
+            //
+            correctionAdd("&nbsp;gigawatt", "&nbsp;GW");
+            correctionAdd("giggawatts", "&nbsp;GW");
+            correctionAdd("Giggawatt", "&nbsp;GW");
+            correctionAdd("Jigowatts", "&nbsp;GW");
+            correctionAdd("gigawatts", "&nbsp;GW");
+            correctionAdd("jigawatts", "&nbsp;GW");
+            correctionAdd("jigowatts", "&nbsp;GW");
+            correctionAdd("giggawatt", "&nbsp;GW");
+            correctionAdd("gigga", "&nbsp;GW");
+            correctionAdd("jigga", "&nbsp;GW");
+            correctionAdd("Gw", "&nbsp;GW");
+            correctionAdd("gw", "&nbsp;GW");
+            correctionAdd("GW", "&nbsp;GW");
+            correctionAdd("gigawatt", "&nbsp;GW"); // The official expanded name
+
+            // Electronics. A unit (rate. Of power (electrical))
+            //
+            correctionAdd("&nbsp;megawatt", "&nbsp;MW");
+            correctionAdd("Megawatt", "&nbsp;MW");
+            correctionAdd("mw", "&nbsp;MW"); // Ambiguous: Could also be mW (milliwatt)
+            correctionAdd("Mw", "&nbsp;MW");
+            correctionAdd("MW", "&nbsp;MW");
+            correctionAdd("megawatt", "&nbsp;MW"); // The official expanded name
+
+            // Electronics. A unit (rate. Of power (electrical))
+            correctionAdd("&nbsp;kilowatt", "&nbsp;kW");
+            correctionAdd("KW", "&nbsp;kW");
+            correctionAdd("kw", "&nbsp;kW");
+            correctionAdd("kW", "&nbsp;kW");
+            correctionAdd("Kw", "&nbsp;kW");
+            correctionAdd("kilowatt", "&nbsp;kW"); // The official expanded name
+
+            // Electronics. A unit (rate. Of power (electrical))
+            //
+            // Note: "mW" (milliwatt) is in an alternative word set
+            //
+            correctionAdd("&nbsp;watt", "&nbsp;W");
+            correctionAdd("Watts", "&nbsp;W");
+            correctionAdd("watts", "&nbsp;W");
+            correctionAdd("Watt", "&nbsp;W");
+            correctionAdd("w", "&nbsp;W");
+            correctionAdd("W", "&nbsp;W");
+            correctionAdd("watt", "&nbsp;W"); // The official expanded name
+
+            // Electronics. A unit (of energy (electrical)). 3.6 MJ
+            //
+            // Note: For the dot, it is UTF-8 sequence 0xE2 0x8B 0x85,
+            //       U+22C5 (DOT OPERATOR)
+            //       <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=8896>
+            //
+            // An alternative, used in an incorrect term, is
+            // UTF-8 sequence 0xC2 0xB7, U+00B7 (MIDDLE DOT).
+            // <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=178>
+            //
+            correctionAdd("&nbsp;kilowatt-hour", "&nbsp;kW⋅h");
+            correctionAdd("KwHr", "&nbsp;kW⋅h");
+            correctionAdd("kWHr", "&nbsp;kW⋅h");
+            correctionAdd("kW h", "&nbsp;kW⋅h");
+            correctionAdd("kW·h", "&nbsp;kW⋅h"); // A different "⋅"...
+            correctionAdd("kW⋅h", "&nbsp;kW⋅h");
+            correctionAdd("kWH", "&nbsp;kW⋅h");
+            correctionAdd("kwh", "&nbsp;kW⋅h");
+            correctionAdd("kWh", "&nbsp;kW⋅h");
+            correctionAdd("kilowatt-hour", "&nbsp;kW⋅h"); // The official expanded name
+
+            // Electronics. A unit (of energy (electrical)). 3.6 kJ
+            correctionAdd("&nbsp;watt-hour", "&nbsp;W·h");
+            correctionAdd("Watt-Hours", "&nbsp;W·h");
+            correctionAdd("watt-hours", "&nbsp;W·h");
+            correctionAdd("Watt-Hour", "&nbsp;W·h");
+            correctionAdd("whr", "&nbsp;W·h");
+            correctionAdd("W·h", "&nbsp;W·h");
+            correctionAdd("wh", "&nbsp;W·h");
+            correctionAdd("WH", "&nbsp;W·h");
+            correctionAdd("Wh", "&nbsp;W·h");
+            correctionAdd("watt-hour", "&nbsp;W·h"); // The official expanded name
+
+            // Electronics. A unit (of energy (electrical)). 3.6 J
+            correctionAdd("&nbsp;milliwatt-hour", "&nbsp;mW⋅h");
+            correctionAdd("mwhr", "&nbsp;mW⋅h");
+            correctionAdd("mWh", "&nbsp;mW⋅h");
+            correctionAdd("mwh", "&nbsp;mW⋅h");
+            correctionAdd("mW⋅h", "&nbsp;mW⋅h");
+            correctionAdd("milliwatt-hour", "&nbsp;mW⋅h"); // The official expanded name
+
+            // A unit (of energy (electrical))
+            //
+            correctionAdd("&nbsp;joule", "&nbsp;J");
+            correctionAdd("joules", "&nbsp;J");
+            correctionAdd("Joule", "&nbsp;J");
+            correctionAdd("joule", "&nbsp;J"); // The official expanded name
+            correctionAdd("J", "&nbsp;J");
+            correctionAdd("j", "&nbsp;J");
+
+            // A unit (of energy)
+            //
+            // Particle physics
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/MeV#Noun>
+            //
+            correctionAdd("&nbsp;megaelectronvolt", "&nbsp;MeV");
+            correctionAdd("megaelectron volt", "&nbsp;MeV");
+            correctionAdd("megaelectronvolt", "&nbsp;MeV"); // The official expanded name
+            correctionAdd("Mev", "&nbsp;MeV");
+            correctionAdd("MeV", "&nbsp;MeV");
+
+            // A unit (of energy)
+            //
+            // Particle physics.
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/keV#Noun>
+            //
+            correctionAdd("&nbsp;kiloelectronvolt", "&nbsp;keV");
+            correctionAdd("kiloelectron volt", "&nbsp;keV");
+            correctionAdd("KeV", "&nbsp;keV");
+            correctionAdd("kev", "&nbsp;keV");
+            correctionAdd("keV", "&nbsp;keV");
+            correctionAdd("kiloelectronvolt", "&nbsp;keV"); // The official expanded name
+
+            // A unit (of energy)
+            //
+            // Particle physics.
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/eV#Noun>
+            //   <https://en.wiktionary.org/wiki/electron_volt#Noun>
+            //
+            correctionAdd("electron volts", "&nbsp;eV");
+            correctionAdd("electron-volt", "&nbsp;eV");
+            correctionAdd("electron volt", "&nbsp;eV");
+            correctionAdd("eV", "&nbsp;eV");
+            correctionAdd("ev", "&nbsp;eV");
+            correctionAdd("electronvolt", "&nbsp;eV"); // The official expanded name
+
+            // A unit (of angle)
+            correctionAdd("arc second", "&nbsp;arcsecond");
+            correctionAdd("arcsecond", "&nbsp;arcsecond");
+            correctionAdd("&nbsp;\"", "&nbsp;arcsecond");
+
+            // A unit (of time)
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/Gy#Symbol_2>
+            //   <https://en.wiktionary.org/wiki/Gyr#Noun>
+            //
+            correctionAdd("&nbsp;gigayear", "&nbsp;Gyr");
+            correctionAdd("giga-annum", "&nbsp;Gyr");
+            correctionAdd("Gigayear", "&nbsp;Gyr");
+            correctionAdd("Gyr", "&nbsp;Gyr");
+            correctionAdd("Gy", "&nbsp;Gyr");
+            correctionAdd("Ga", "&nbsp;Gyr");
+            correctionAdd("gigayear", "&nbsp;Gyr"); // The official expanded name
+
+            // A unit (of time)
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/yr#Noun>
+            //
+            correctionAdd("&nbsp;year", "&nbsp;yr");
+            correctionAdd("yeaer", "&nbsp;yr");
+            correctionAdd("Year", "&nbsp;yr");
+            correctionAdd("yer", "&nbsp;yr");
+            correctionAdd("yr", "&nbsp;yr");
+            correctionAdd("y", "&nbsp;yr");
+            correctionAdd("year", "&nbsp;yr"); // The official expanded name
+
+            // A unit (of time)
+            correctionAdd("yearts", "&nbsp;years");
+            correctionAdd("tears", "&nbsp;years");
+            correctionAdd("years", "&nbsp;years"); // Sort of identity mapping
+            correctionAdd("yrs", "&nbsp;years");
+
+            // A unit (of time)
+            correctionAdd("Monthes", "&nbsp;months");
+            correctionAdd("monthes", "&nbsp;months");
+            correctionAdd("months", "&nbsp;months");
+            correctionAdd("mths", "&nbsp;months");
+            correctionAdd("mos", "&nbsp;months");
+
+            // A unit (of time)
+            //
+            // Note: "&nbsp;w" (shorthand of "&nbsp;week")
+            //       is in an alternative word set...
+            //
+            correctionAdd("weeks", "&nbsp;weeks"); // Sort of identity mapping
+            correctionAdd("wks", "&nbsp;weeks");
+
+            // A unit (of time)
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/d#Symbol>
+            //
+            correctionAdd("&nbsp;day", "&nbsp;d");
+            correctionAdd("Day", "&nbsp;d");
+            correctionAdd("d", "&nbsp;d");
+            correctionAdd("day", "&nbsp;d"); // The official expanded name
+
+            // A unit (of time)
+            correctionAdd("daze", "&nbsp;days");
+            correctionAdd("days", "&nbsp;days");
+
+            // A unit (of time)
+            //
+            //Alternative URLs:
+            //
+            //  <https://en.wiktionary.org/wiki/h#Symbol>
+            //
+            correctionAdd("&nbsp;hour", "&nbsp;h");
+            correctionAdd("hpour", "&nbsp;h"); // A true typo
+            correctionAdd("hr", "&nbsp;h");
+            correctionAdd("h", "&nbsp;h");
+            correctionAdd("hour", "&nbsp;h"); // The official expanded name
+
+            // A unit (of time)
+            correctionAdd("&nbsp;hrs", "&nbsp;hours");
+            correctionAdd("hours", "&nbsp;hours");
+            correctionAdd("Hours", "&nbsp;hours");
+            correctionAdd("hrs", "&nbsp;hours");
+
+            // A unit (of time)
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/min#Symbol_2>
+            //
+            correctionAdd("&nbsp;minute", "&nbsp;min");
+            correctionAdd("minite", "&nbsp;min");
+            correctionAdd("Minute", "&nbsp;min");
+            correctionAdd("munite", "&nbsp;min");
+            correctionAdd("min", "&nbsp;min");
+            correctionAdd("minute", "&nbsp;min"); // The official expanded name
+
+            // A unit (of time)
+            correctionAdd("&nbsp;mins", "&nbsp;minutes");
+            correctionAdd("minuates", "&nbsp;minutes");
+            correctionAdd("minutes", "&nbsp;minutes");
+            correctionAdd("mintues", "&nbsp;minutes");
+            correctionAdd("miuntes", "&nbsp;minutes");
+            correctionAdd("Minutes", "&nbsp;minutes");
+            correctionAdd("Minuts", "&nbsp;minutes");
+            correctionAdd("minuts", "&nbsp;minutes");
+            correctionAdd("minut", "&nbsp;minutes");
+            correctionAdd("mints", "&nbsp;minutes");
+            correctionAdd("mind", "&nbsp;minutes");
+            correctionAdd("mins", "&nbsp;minutes");
+            correctionAdd("Mins", "&nbsp;minutes");
+            correctionAdd("mn", "&nbsp;minutes");
+            correctionAdd("'", "&nbsp;minutes");
+
+            // A unit (of time)
+            //
+            // The time unit, not the adjective
+            correctionAdd("&nbsp;second", "&nbsp;s");
+            correctionAdd("seccond", "&nbsp;s");
+            correctionAdd("sencond", "&nbsp;s");
+            correctionAdd("SECOND", "&nbsp;s");
+            correctionAdd("sec", "&nbsp;s");
+            correctionAdd("s", "&nbsp;s");
+            correctionAdd("second", "&nbsp;s"); // The official expanded name
+
+            // A unit (of time)
+            correctionAdd("&nbsp;millisecond", "&nbsp;ms");
+            correctionAdd("milli second", "&nbsp;ms");
+            correctionAdd("mili second", "&nbsp;ms");
+            correctionAdd("millisecodn", "&nbsp;ms");
+            correctionAdd("milisecond", "&nbsp;ms");
+            correctionAdd("millsecond", "&nbsp;ms");
+            correctionAdd("millisec", "&nbsp;ms");
+            correctionAdd("msec", "&nbsp;ms");
+            correctionAdd("mSec", "&nbsp;ms");
+            correctionAdd("mil", "&nbsp;ms");
+            correctionAdd("mS", "&nbsp;ms");
+            correctionAdd("ms", "&nbsp;ms");
+            correctionAdd("millisecond", "&nbsp;ms"); // The official expanded name
+
+            // A unit (of time)
+            //
+            // Plural. The singular form is in another word set
+            correctionAdd("millisecondes", "&nbsp;milliseconds");
+            correctionAdd("milli-seconds", "&nbsp;milliseconds");
+            correctionAdd("millisecodns", "&nbsp;milliseconds");
+            correctionAdd("Milliseconds", "&nbsp;milliseconds");
+            correctionAdd("milliseconds", "&nbsp;milliseconds");
+            correctionAdd("milliseonds", "&nbsp;milliseconds");
+            correctionAdd("miliseconds", "&nbsp;milliseconds");
+            correctionAdd("millisecnds", "&nbsp;milliseconds");
+            correctionAdd("millisonds", "&nbsp;milliseconds");
+            correctionAdd("millisecs", "&nbsp;milliseconds");
+            correctionAdd("millis", "&nbsp;milliseconds");
+            correctionAdd("mills", "&nbsp;milliseconds");
+
+            // A unit (of time)
+            //
+            // In the correct term, we use U+03BC for the 'micro' symbol.
+            //
+            // There are two possibilities:
+            //
+            //   1. U+03BC (search by regular expression
+            //              "\x{03BC}" (without the quotes))
+            //
+            //      UTF-8 byte sequence 0xCE 0xBC:
+            //
+            //        U+03BC (μ GREEK SMALL LETTER MU)
+            //        ("\u03BC" in Visual Studio Code and some others).
+            //
+            //        <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=950>
+            //
+            //   2. U+00B5 (search by regular expression
+            //              "\x{00B5}" (without the quotes))
+            //
+            //      UTF-8 byte sequence 0xC2 0xB5:
+            //        U+00B5 (µ MICRO SIGN (seaer))
+            //        ("\u00B5" in Visual Studio Code and some others).
+            //
+            //        <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=176>
+            //
+            // Note: The regular expression must be
+            //       ***case sensitive*** to not
+            //       match the other possibility...
+            //
+            correctionAdd("&nbsp;microsecond", "&nbsp;μs");
+            correctionAdd("micro second", "&nbsp;μs");
+            correctionAdd("u second", "&nbsp;μs");
+            correctionAdd("microsec", "&nbsp;μs");
+            correctionAdd("usecond", "&nbsp;μs");
+            correctionAdd("u sec", "&nbsp;μs");
+            correctionAdd("μ sec", "&nbsp;μs");
+            correctionAdd("usec", "&nbsp;μs");
+            correctionAdd("μsec", "&nbsp;μs");
+            correctionAdd("uz", "&nbsp;μs"); // A true typo
+            correctionAdd("μs", "&nbsp;μs");
+            correctionAdd("microsecond", "&nbsp;μs"); // The official expanded name
+
+            // A unit (of time)
+            correctionAdd("micro seconds", "&nbsp;microseconds");
+            correctionAdd("micro-seconds", "&nbsp;microseconds");
+            correctionAdd("microsecconds", "&nbsp;microseconds");
+            correctionAdd("microseconds", "&nbsp;microseconds");
+            correctionAdd("uSeconds", "&nbsp;microseconds");
+            correctionAdd("usecs", "&nbsp;microseconds");
+
+            // A unit (of time)
+            correctionAdd("&nbsp;nanosecond", "&nbsp;ns");
+            correctionAdd("Nanosecond", "&nbsp;ns");
+            correctionAdd("nanosec", "&nbsp;ns");
+            correctionAdd("nano", "&nbsp;ns");
+            correctionAdd("ns", "&nbsp;ns");
+            correctionAdd("Ns", "&nbsp;ns");
+            correctionAdd("nanosecond", "&nbsp;ns"); // The official expanded name
+
+            // A unit (of time)
+            //
+            // Note: "picosecond" is in an alternative word set...
+            //
+            correctionAdd("Nanoseconds", "&nbsp;nanoseconds");
+            correctionAdd("nanoseconds", "&nbsp;nanoseconds");
+
+            // A unit (of time)
+            correctionAdd("&nbsp;picosecond", "&nbsp;ps");
+            correctionAdd("ps", "&nbsp;ps");
+            correctionAdd("picosecond", "&nbsp;ps"); // The official expanded name
+
+            // A unit (of time)
+            correctionAdd("picoseconds", "&nbsp;picoseconds");
+
+            // A unit (of frequency)
+            correctionAdd("&nbsp;terahertz", "&nbsp;THz");
+            correctionAdd("Terahertz", "&nbsp;THz");
+            correctionAdd("THZ", "&nbsp;THz");
+            correctionAdd("thz", "&nbsp;THz");
+            correctionAdd("Thz", "&nbsp;THz");
+            correctionAdd("THz", "&nbsp;THz"); // Sort of identity mapping
+            correctionAdd("terahertz", "&nbsp;THz"); // The official expanded name
+
+            // A unit (of frequency)
+            correctionAdd("&nbsp;gigahertz", "&nbsp;GHz");
+            correctionAdd("Gigahurtz", "&nbsp;GHz");
+            correctionAdd("gigahurtz", "&nbsp;GHz");
+            correctionAdd("Gigahertz", "&nbsp;GHz");
+            correctionAdd("gigahert", "&nbsp;GHz");
+            correctionAdd("Mghz", "&nbsp;GHz");
+            correctionAdd("mghz", "&nbsp;GHz");
+            correctionAdd("Ghz", "&nbsp;GHz"); // Spelling.
+            correctionAdd("GHZ", "&nbsp;GHz"); // Spelling.
+            correctionAdd("ghz", "&nbsp;GHz"); // Spelling.
+            correctionAdd("gHz", "&nbsp;GHz"); // Spelling.
+            correctionAdd("Gzh", "&nbsp;GHz");
+            correctionAdd("gzh", "&nbsp;GHz");
+            correctionAdd("GHz", "&nbsp;GHz"); // Sort of identity mapping
+            correctionAdd("Gz", "&nbsp;GHz");
+            correctionAdd("gz", "&nbsp;GHz");
+            correctionAdd("gigahertz", "&nbsp;GHz"); // The official expanded name
+
+            // A unit (of frequency)
+            correctionAdd("&nbsp;megahertz", "&nbsp;MHz");
+            correctionAdd("megahert", "&nbsp;MHz");
+            correctionAdd("megaherz", "&nbsp;MHz");
+            correctionAdd("mega Hz", "&nbsp;MHz");
+            correctionAdd("Mhz", "&nbsp;MHz"); // Spelling.
+            correctionAdd("mhz", "&nbsp;MHz"); // Spelling. Could be millihertz
+            correctionAdd("MHZ", "&nbsp;MHz"); // Spelling.
+            correctionAdd("mHz", "&nbsp;MHz"); // Spelling. Could be millihertz
+            correctionAdd("MHz", "&nbsp;MHz"); // Sort of identity mapping
+            correctionAdd("Mz", "&nbsp;MHz");
+            correctionAdd("MH", "&nbsp;MHz");
+            correctionAdd("megahertz", "&nbsp;MHz"); // The official expanded name
+
+            // A unit (of frequency)
+            correctionAdd("&nbsp;kilohertz", "&nbsp;kHz");
+            correctionAdd("k hertz", "&nbsp;kHz");
+            correctionAdd("k hrtz", "&nbsp;kHz");
+            correctionAdd("khertz", "&nbsp;kHz");
+            correctionAdd("khrtz", "&nbsp;kHz");
+            correctionAdd("K Hz", "&nbsp;kHz");
+            correctionAdd("KHz", "&nbsp;kHz"); // Spelling/case.
+            correctionAdd("Khz", "&nbsp;kHz"); // Spelling/case.
+            correctionAdd("khz", "&nbsp;kHz"); // Spelling/case.
+            correctionAdd("KHZ", "&nbsp;kHz"); // Spelling/case.
+            correctionAdd("kHZ", "&nbsp;kHz"); // Spelling/case.
+            correctionAdd("kHz", "&nbsp;kHz"); // Sort of identity mapping
+            correctionAdd("khZ", "&nbsp;kHz");
+            correctionAdd("K", "&nbsp;kHz");
+            correctionAdd("k", "&nbsp;kHz"); // (Consider mapping to "&nbsp;kbit/s" instead)
+            correctionAdd("kilohertz", "&nbsp;kHz"); // The official expanded name
+
+            // A unit (of frequency)
+            //
+            // Alternative URLs:
+            //
+            //   <https://imgur.com/gallery/VmNAmIl>
+            //     Slap you at high frequency...
+            //
+            correctionAdd("&nbsp;hertz", "&nbsp;Hz");
+            correctionAdd("Hertz", "&nbsp;Hz");
+            correctionAdd("herz", "&nbsp;Hz");
+            correctionAdd("hrtz", "&nbsp;Hz");
+            correctionAdd("hz", "&nbsp;Hz"); // Spelling.
+            correctionAdd("HZ", "&nbsp;Hz");
+            correctionAdd("Hz", "&nbsp;Hz"); // Sort of identity mapping
+            correctionAdd("hertz", "&nbsp;Hz"); // The official expanded name
+
+            // A unit. Sa = Samples
+            correctionAdd("&nbsp;megasamples", "&nbsp;MSa");
+            correctionAdd("megasample", "&nbsp;MSa");
+            correctionAdd("msa", "&nbsp;MSa");
+            correctionAdd("MSa", "&nbsp;MSa");
+            correctionAdd("megasamples", "&nbsp;MSa"); // The official expanded name
+
+            // A unit. Sa = Samples
+            correctionAdd("&nbsp;kilosamples", "&nbsp;kSa");
+            correctionAdd("kilosample", "&nbsp;kSa");
+            correctionAdd("kSa", "&nbsp;kSa");
+            correctionAdd("ksa", "&nbsp;kSa");
+            correctionAdd("kS", "&nbsp;kSa");
+            correctionAdd("KS", "&nbsp;kSa");
+            correctionAdd("kilosamples", "&nbsp;kSa"); // The official expanded name
+
+            // A unit (rate). Sa = Samples
+            correctionAdd("&nbsp;megasamples per second", "&nbsp;MSa/s");
+            correctionAdd("megasample per second", "&nbsp;MSa/s");
+            correctionAdd("MSa/s", "&nbsp;MSa/s");
+            correctionAdd("MSaps", "&nbsp;MSa/s");
+            correctionAdd("msaps", "&nbsp;MSa/s");
+            correctionAdd("MSPS", "&nbsp;MSa/s");
+            correctionAdd("Msps", "&nbsp;MSa/s");
+            correctionAdd("msps", "&nbsp;MSa/s");
+            correctionAdd("megasamples per second", "&nbsp;MSa/s"); // The official expanded name
+
+            // A unit (rate). Sa = Samples
+            correctionAdd("&nbsp;kilosamples per second", "&nbsp;kSa/s");
+            correctionAdd("kilosample per second", "&nbsp;kSa/s");
+            correctionAdd("kSa/s", "&nbsp;kSa/s");
+            correctionAdd("ksps", "&nbsp;kSa/s");
+            correctionAdd("ksaps", "&nbsp;kSa/s");
+            correctionAdd("kilosamples per second", "&nbsp;kSa/s"); // The official expanded name
+
+            // A unit
+            correctionAdd("&nbsp;megabit", "&nbsp;Mb");
+            correctionAdd("Megabit", "&nbsp;Mb");
+            correctionAdd("megabit", "&nbsp;Mb"); // The official expanded name
+            correctionAdd("M-bit", "&nbsp;Mb");
+
+            // A unit
+            correctionAdd("Megabits", "&nbsp;megabits");
+            correctionAdd("megabits", "&nbsp;megabits"); // Sort of identity mapping
+
+            // A unit
+            // Note: "&nbsp;b" (the short singular form of "bit")
+            //       is in an alternative word set...
+            //
+            correctionAdd("btis", "&nbsp;bits");
+            correctionAdd("bits", "&nbsp;bits");
+            correctionAdd("bts", "&nbsp;bits");
+
+            // A unit (rate)
+            correctionAdd("&nbsp;gigabits per second", "&nbsp;Gbit/s");
+            correctionAdd("gigabits per second", "&nbsp;Gbit/s");
+            correctionAdd("gigabit per second", "&nbsp;Gbit/s");
+            correctionAdd("Gigabits/second", "&nbsp;Gbit/s");
+            correctionAdd("Gigabits/s", "&nbsp;Gbit/s");
+            correctionAdd("gigabits/s", "&nbsp;Gbit/s");
+            correctionAdd("gigabit/s", "&nbsp;Gbit/s");
+            correctionAdd("Gbitp/s", "&nbsp;Gbit/s");
+            correctionAdd("Gbit/s", "&nbsp;Gbit/s"); // Sort of identity mapping
+            correctionAdd("gbit/s", "&nbsp;Gbit/s");
+            correctionAdd("GBit/s", "&nbsp;Gbit/s");
+            correctionAdd("Gbitps", "&nbsp;Gbit/s");
+            correctionAdd("Gbp/S", "&nbsp;Gbit/s");
+            correctionAdd("Gbp/s", "&nbsp;Gbit/s");
+            correctionAdd("gbit", "&nbsp;Gbit/s");
+            correctionAdd("Gbit", "&nbsp;Gbit/s");
+            correctionAdd("gb/s", "&nbsp;Gbit/s");
+            correctionAdd("Gb/s", "&nbsp;Gbit/s");
+            correctionAdd("Gpbs", "&nbsp;Gbit/s"); // Real typo
+            correctionAdd("gpbs", "&nbsp;Gbit/s");
+            correctionAdd("gbps", "&nbsp;Gbit/s"); // Different form of the unit.
+            correctionAdd("Gbps", "&nbsp;Gbit/s");
+            correctionAdd("Gbs", "&nbsp;Gbit/s");
+
+            // A unit (rate)
+            //
+            // Note: "&nbsp;kbit/s" is in an alternative word set
+            //
+            correctionAdd("&nbsp;megabits per second", "&nbsp;Mbit/s");
+            correctionAdd("megabits per second", "&nbsp;Mbit/s");
+            correctionAdd("megabit per second", "&nbsp;Mbit/s");
+            correctionAdd("Mbits per second", "&nbsp;Mbit/s");
+            correctionAdd("Mbit per second", "&nbsp;Mbit/s");
+            correctionAdd("Mbits per sec", "&nbsp;Mbit/s");
+            correctionAdd("Mbit per sec", "&nbsp;Mbit/s");
+            correctionAdd("Megabits/s", "&nbsp;Mbit/s");
+            correctionAdd("megabits/s", "&nbsp;Mbit/s");
+            correctionAdd("megabit/s", "&nbsp;Mbit/s");
+            correctionAdd("Megabit/s", "&nbsp;Mbit/s");
+            correctionAdd("Mbit/sec", "&nbsp;Mbit/s"); // Consider changing to this one...
+            correctionAdd("Mbit/s", "&nbsp;Mbit/s"); // Sort of identity mapping
+            correctionAdd("MBit/s", "&nbsp;Mbit/s"); // Case
+            correctionAdd("mbit/s", "&nbsp;Mbit/s");
+            correctionAdd("MBps", "&nbsp;Mbit/s"); // Different form of the unit.
+            correctionAdd("Mbps", "&nbsp;Mbit/s"); // Different form of the unit.
+            correctionAdd("mbps", "&nbsp;Mbit/s"); // Different form of the unit.
+            correctionAdd("Mb/s", "&nbsp;Mbit/s"); // Different form of the unit.
+            correctionAdd("mb/s", "&nbsp;Mbit/s"); // Different form of the unit.
+            correctionAdd("mbit", "&nbsp;Mbit/s"); // Use of the wrong unit (not a rate)
+            correctionAdd("MBit", "&nbsp;Mbit/s"); // Use of the wrong unit (not a rate)
+            correctionAdd("Mbit", "&nbsp;Mbit/s"); // Use of the wrong unit (not a rate)
+            correctionAdd("mbs", "&nbsp;Mbit/s"); // 'per' left out
+            correctionAdd("Mbs", "&nbsp;Mbit/s"); // 'per' left out
+
+            // A unit (rate)
+            correctionAdd("&nbsp;bits per second", "&nbsp;bit/s");
+            correctionAdd("bits per second", "&nbsp;bit/s");
+            correctionAdd("bit per second", "&nbsp;bit/s");
+            correctionAdd("Bits / s", "&nbsp;bit/s");
+            correctionAdd("bits / s", "&nbsp;bit/s");
+            correctionAdd("bits/s", "&nbsp;bit/s");
+            correctionAdd("bit/s", "&nbsp;bit/s"); // Sort of identity mapping
+            correctionAdd("bps", "&nbsp;bit/s"); // Different form of the unit.
+            correctionAdd("b/s", "&nbsp;bit/s");
+
+            correctionAdd("mega baud", "&nbsp;megabaud");
+            correctionAdd("megabaud", "&nbsp;megabaud");
+            correctionAdd("MBaud", "&nbsp;megabaud");
+
+            correctionAdd("kilobaud", "&nbsp;kilobaud"); // Sort of identity mapping
+            correctionAdd("k baud", "&nbsp;kilobaud");
+            correctionAdd("kbaud", "&nbsp;kilobaud");
+
+            correctionAdd("Baud", "&nbsp;baud");
+            correctionAdd("baud", "&nbsp;baud");
+
+            correctionAdd("115,200 baud", "115,200&nbsp;baud"); // Sort of identity mapping
+            correctionAdd("115,200", "115,200&nbsp;baud");
+            correctionAdd("115200", "115,200&nbsp;baud");
+
+            // Not a baud rate...
+            correctionAdd("44,100 Hz", "44,100&nbsp;Hz"); // Sort of identity mapping
+            correctionAdd("44,100", "44,100&nbsp;Hz");
+            correctionAdd("44100", "44,100&nbsp;Hz");
+
+            correctionAdd("19,200 baud", "19,200&nbsp;baud"); // Sort of identity mapping
+            correctionAdd("19,200", "19,200&nbsp;baud");
+            correctionAdd("19200", "19,200&nbsp;baud");
+
+            correctionAdd("14,400 baud", "14,400&nbsp;baud"); // Sort of identity mapping
+            correctionAdd("14,400", "14,400&nbsp;baud");
+            correctionAdd("14400", "14,400&nbsp;baud");
+
+            correctionAdd("9,600 baud", "9,600&nbsp;baud"); // Sort of identity mapping
+            correctionAdd("9,600", "9,600&nbsp;baud");
+            correctionAdd("9600", "9,600&nbsp;baud");
+
+            // A unit
+            correctionAdd("&nbsp;terabyte", "&nbsp;TB");
+            correctionAdd("terra byte", "&nbsp;TB");
+            correctionAdd("terrabyte", "&nbsp;TB");
+            correctionAdd("tera byte", "&nbsp;TB");
+            correctionAdd("Terabyte", "&nbsp;TB");
+            correctionAdd("tb", "&nbsp;TB");
+            correctionAdd("Tb", "&nbsp;TB");
+            correctionAdd("TB", "&nbsp;TB");
+            correctionAdd("terabyte", "&nbsp;TB"); // The official expanded name
+
+            // A unit
+            correctionAdd("&nbsp;gigabyte", "&nbsp;GB");
+            correctionAdd("Giga Byte", "&nbsp;GB");
+            correctionAdd("Giga byte", "&nbsp;GB");
+            correctionAdd("giga byte", "&nbsp;GB");
+            correctionAdd("Gigabytes", "&nbsp;GB");
+            correctionAdd("gigabytes", "&nbsp;GB");
+            correctionAdd("Gigabyte", "&nbsp;GB");
+            correctionAdd("GByte", "&nbsp;GB");
+            correctionAdd("Gbyte", "&nbsp;GB");
+            correctionAdd("gigs", "&nbsp;GB");
+            correctionAdd("gig", "&nbsp;GB");
+            correctionAdd("Gig", "&nbsp;GB");
+            correctionAdd("gbs", "&nbsp;GB");
+            correctionAdd("Gi", "&nbsp;GB");
+            correctionAdd("Gb", "&nbsp;GB");
+            correctionAdd("gb", "&nbsp;GB"); // Assuming bytes, not bits...
+            correctionAdd("GB", "&nbsp;GB"); // For convenience
+            correctionAdd("gigabyte", "&nbsp;GB"); // The official expanded name
+
+            // A unit
+            correctionAdd("&nbsp;megabyte", "&nbsp;MB");
+            correctionAdd("Mega byte", "&nbsp;MB");
+            correctionAdd("mega byte", "&nbsp;MB");
+            correctionAdd("Megabyte", "&nbsp;MB");
+            correctionAdd("Mbyte", "&nbsp;MB");
+            correctionAdd("meg", "&nbsp;MB");
+            correctionAdd("MiB", "&nbsp;MB"); // Not technically correct, but that is what we use
+            correctionAdd("Mb", "&nbsp;MB");
+            correctionAdd("mb", "&nbsp;MB"); // Assuming bytes, not bits...
+            correctionAdd("MB", "&nbsp;MB"); // Assuming bytes, not bits...
+            correctionAdd("megabyte", "&nbsp;MB"); // The official expanded name
+
+            // A unit
+            correctionAdd("Megabytes", "&nbsp;megabytes");
+            correctionAdd("&nbsp;MBs", "&nbsp;megabytes");
+            correctionAdd("megabytes", "&nbsp;megabytes"); // Sort of identity mapping
+            correctionAdd("MBytes", "&nbsp;megabytes");
+            correctionAdd("megs", "&nbsp;megabytes");
+            correctionAdd("MBs", "&nbsp;megabytes"); // Sort of identity mapping
+
+            // A unit
+            correctionAdd("&nbsp;kilobyte", "&nbsp;KB");
+            correctionAdd("Kbyte", "&nbsp;KB");
+            correctionAdd("KByte", "&nbsp;KB");
+            correctionAdd("kByte", "&nbsp;KB");
+            correctionAdd("kbyte", "&nbsp;KB");
+            correctionAdd("kb", "&nbsp;KB"); // Assuming bytes, not bits...
+            correctionAdd("Kb", "&nbsp;KB");
+            correctionAdd("KB", "&nbsp;KB"); // Assuming bytes, not bits...
+            correctionAdd("kB", "&nbsp;KB");
+            correctionAdd("kilobyte", "&nbsp;KB"); // The official expanded name
+
+            // A unit
+            correctionAdd("&nbsp;KBs", "&nbsp;kilobytes");
+            correctionAdd("kilobytes", "&nbsp;kilobytes");
+            correctionAdd("KBytes", "&nbsp;kilobytes");
+            correctionAdd("Kbytes", "&nbsp;kilobytes");
+
+            // A unit
+            correctionAdd("&nbsp;byte", "&nbsp;B");
+            correctionAdd("Byte", "&nbsp;B");
+            correctionAdd("B", "&nbsp;B");
+            correctionAdd("b", "&nbsp;B");
+            correctionAdd("byte", "&nbsp;B"); // The official expanded name
+
+            // A unit
+            correctionAdd("Bytes", "&nbsp;bytes");
+            correctionAdd("bytes", "&nbsp;bytes");
+
+            correctionAdd("triplepoint", "triple point");
+
+            correctionAdd("-28.9 °C", "-28.9&nbsp;°C"); // Sort of identity mapping
+            correctionAdd("-20 F", "-28.9&nbsp;°C");
+
+            correctionAdd("-23.3 °C", "-23.3&nbsp;°C"); // Sort of identity mapping
+            correctionAdd("-10 F", "-23.3&nbsp;°C");
+            correctionAdd("-10 f", "-23.3&nbsp;°C");
+
+            correctionAdd("-17.7 °C", "-17.7&nbsp;°C"); // Sort of identity mapping
+            correctionAdd("0 F", "-17.7&nbsp;°C");
+            correctionAdd("0 f", "-17.7&nbsp;°C");
+
+            correctionAdd("-12.2 °C", "-12.2&nbsp;°C"); // Sort of identity mapping
+            correctionAdd("-12 C", "-12.2&nbsp;°C");
+            correctionAdd("10 F", "-12.2&nbsp;°C");
+            correctionAdd("10 f", "-12.2&nbsp;°C");
+
+            correctionAdd("-6.7 °C", "-6.7&nbsp;°C"); // Sort of identity mapping
+            correctionAdd("20 F", "-6.7&nbsp;°C");
+            correctionAdd("20 f", "-6.7&nbsp;°C");
+            correctionAdd("-7 C", "-6.7&nbsp;°C");
+
+            correctionAdd("-1.1 °C", "-1.1&nbsp;°C"); // Sort of identity mapping
+            correctionAdd("30 F", "-1.1&nbsp;°C");
+            correctionAdd("30 f", "-1.1&nbsp;°C");
+            correctionAdd("-1 C", "-1.1&nbsp;°C");
+
+            correctionAdd("4.4 °C", "4.4&nbsp;°C"); // Sort of identity mapping
+            correctionAdd("40 F", "4.4&nbsp;°C");
+            correctionAdd("40 f", "4.4&nbsp;°C");
+            correctionAdd("4 C", "4.4&nbsp;°C");
+
+            correctionAdd("10.0 °C", "10.0&nbsp;°C"); // Sort of identity mapping
+            correctionAdd("50 F", "10.0&nbsp;°C");
+            correctionAdd("50 f", "10.0&nbsp;°C");
+            correctionAdd("10 C", "10.0&nbsp;°C");
+
+            correctionAdd("15.6 °C", "15.6&nbsp;°C"); // Sort of identity mapping
+            correctionAdd("60 F", "15.6&nbsp;°C");
+            correctionAdd("60 f", "15.6&nbsp;°C");
+            correctionAdd("16 C", "15.6&nbsp;°C");
+
+            correctionAdd("21.1 °C", "21.1&nbsp;°C"); // Sort of identity mapping
+            correctionAdd("70 F", "21.1&nbsp;°C");
+            correctionAdd("70 f", "21.1&nbsp;°C");
+            correctionAdd("21 C", "21.1&nbsp;°C");
+
+            correctionAdd("26.7 °C", "26.7&nbsp;°C"); // Sort of identity mapping
+            correctionAdd("80 F", "26.7&nbsp;°C");
+            correctionAdd("80 f", "26.7&nbsp;°C");
+            correctionAdd("27 C", "26.7&nbsp;°C");
+
+            correctionAdd("32.2 °C", "32.2&nbsp;°C"); // Sort of identity mapping
+            correctionAdd("90 F", "32.2&nbsp;°C");
+            correctionAdd("90 f", "32.2&nbsp;°C");
+            correctionAdd("32 C", "32.2&nbsp;°C");
+
+            correctionAdd("37.8 °C", "37.8&nbsp;°C"); // Sort of identity mapping
+            correctionAdd("100 F", "37.8&nbsp;°C");
+            correctionAdd("100 f", "37.8&nbsp;°C");
+            correctionAdd("38 C", "37.8&nbsp;°C");
+
+            correctionAdd("12000 ft", "3.7&nbsp;km");
+            correctionAdd("3.7 km", "3.7&nbsp;km"); // Sort of identity mapping
+
+            // A unit (of mass)
+            correctionAdd("&nbsp;tons", "&nbsp;t");
+            correctionAdd("tonne", "&nbsp;t");
+            correctionAdd("ton's", "&nbsp;t");
+            correctionAdd("tons", "&nbsp;t");
+            correctionAdd("ton", "&nbsp;t");
+            correctionAdd("t", "&nbsp;t");
+
+            // A unit (of mass)
+            // Metric
+            correctionAdd("kilogram", "&nbsp;kg");
+            correctionAdd("kilo", "&nbsp;kg");
+            correctionAdd("Kg", "&nbsp;kg");
+            correctionAdd("KG", "&nbsp;kg");
+            correctionAdd("kg", "&nbsp;kg");
+            correctionAdd("lg", "&nbsp;kg"); // A true typo
+
+            // A unit (of mass)
+            // Metric
+            correctionAdd("operation force", "&nbsp;g"); // See notes for "gf"
+            correctionAdd("grams-force", "&nbsp;g"); // See notes for "gf"
+            correctionAdd("gram-force", "&nbsp;g"); // See notes for "gf"
+            correctionAdd("&nbsp;gram", "&nbsp;g");
+            correctionAdd("gram", "&nbsp;g");
+            correctionAdd("gf", "&nbsp;g"); // Though it is strictly speaking a force...
+            correctionAdd("g", "&nbsp;g");
+
+            // A unit (of mass)
+            correctionAdd("&nbsp;pound", "&nbsp;lb");
+            correctionAdd("pounds", "&nbsp;lb");
+            correctionAdd("Pound", "&nbsp;lb");
+            correctionAdd("pound", "&nbsp;lb");
+            correctionAdd("lbs", "&nbsp;lb");
+            correctionAdd("pds", "&nbsp;lb");
+            correctionAdd("lb", "&nbsp;lb");
+            correctionAdd("LB", "&nbsp;lb");
+
+            correctionAdd("Pound sign", "pound sign");
+
             correctionAdd("glade", "glad");
 
             correctionAdd("glandly", "gladly");
@@ -37705,8 +39015,6 @@ namespace OverflowHelper.core
             correctionAdd("SourceTree", "Sourcetree");
             correctionAdd("sourceTree", "Sourcetree");
 
-            correctionAdd("cvs", "CVS");
-
             // A version control system
             correctionAdd("sub version", "Subversion");
             correctionAdd("subversion", "Subversion");
@@ -44446,1312 +45754,6 @@ namespace OverflowHelper.core
             correctionAdd("quadcore", "quad-core");
 
             correctionAdd("8 core", "8-core");
-
-            correctionAdd("bit rate", "bitrate");
-            correctionAdd("bitratre", "bitrate");
-            correctionAdd("bit-rate", "bitrate");
-            correctionAdd("Bitrate", "bitrate");
-
-            correctionAdd("bit rates", "bitrates");
-
-            correctionAdd("baud speed", "baud rate");
-            correctionAdd("Baud rate", "baud rate");
-            correctionAdd("BAUD rate", "baud rate");
-            correctionAdd("bauderate", "baud rate");
-            correctionAdd("baut rate", "baud rate");
-            correctionAdd("baud-rate", "baud rate");
-            correctionAdd("BaudRate", "baud rate");
-            correctionAdd("baudRate", "baud rate");
-            correctionAdd("baudrate", "baud rate");
-            correctionAdd("Baudrate", "baud rate");
-            correctionAdd("bautrate", "baud rate");
-            correctionAdd("BAUD", "baud rate");
-
-            // Primarily for alternative output
-            correctionAdd("0xA0", "&nbsp; NBSP");
-            correctionAdd("a0", "&nbsp; NBSP");
-            correctionAdd("ao", "&nbsp; NBSP");
-
-            correctionAdd("Metric", "metric");
-
-            correctionAdd("unite", "unit");
-            correctionAdd("Uint", "unit");
-            correctionAdd("uint", "unit");
-
-            correctionAdd("unit-less", "unitless");
-            correctionAdd("unit less", "unitless");
-
-            correctionAdd("space before unit", "MOS:UNITS - &nbsp;");
-            correctionAdd("unit space", "MOS:UNITS - &nbsp;");
-            correctionAdd("space unit", "MOS:UNITS - &nbsp;");
-            correctionAdd("MOS:UNITS", "MOS:UNITS - &nbsp;");
-            correctionAdd("units", "MOS:UNITS - &nbsp;");
-
-            // A unit (of length)
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/Gly#Noun_2>
-            //
-            correctionAdd("&nbsp;gigalight-year", "&nbsp;Gly");
-            correctionAdd("gigalightyear", "&nbsp;Gly");
-            correctionAdd("G ly", "&nbsp;Gly");
-            correctionAdd("Gly", "&nbsp;Gly");
-            correctionAdd("gly", "&nbsp;Gly");
-            correctionAdd("gigalight-year", "&nbsp;Gly"); // The official expanded name
-
-            // A unit (of length)
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/Mly#Noun>
-            //
-            correctionAdd("&nbsp;megalight-year", "&nbsp;Mly");
-            correctionAdd("megalightyear", "&nbsp;Mly");
-            correctionAdd("M ly", "&nbsp;Mly");
-            correctionAdd("Mly", "&nbsp;Mly");
-            correctionAdd("mly", "&nbsp;Mly");
-            correctionAdd("megalight-year", "&nbsp;Mly"); // The official expanded name
-
-            // A unit (of length)
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/Kly#Noun>
-            //
-            correctionAdd("&nbsp;kilolight-year", "&nbsp;Kly");
-            correctionAdd("kilolightyear", "&nbsp;Kly");
-            correctionAdd("K ly", "&nbsp;Kly");
-            correctionAdd("Kly", "&nbsp;Kly");
-            correctionAdd("kly", "&nbsp;Kly");
-            correctionAdd("kilolight-year", "&nbsp;Kly"); // The official expanded name
-
-            // A unit (of length)
-            correctionAdd("Parsec", "parsec");
-
-            // A unit (of length)
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/light_year#Noun>
-            //     Though Wiktionary is inconsistent with the
-            //     spelling, including for gigalight-year,
-            //     megalight-year, and kilolight-year.
-            //
-            correctionAdd("&nbsp;light-year", "&nbsp;ly");
-            correctionAdd("Light-year", "&nbsp;ly");
-            correctionAdd("light year", "&nbsp;ly");
-            correctionAdd("lightyear", "&nbsp;ly");
-            correctionAdd("LYA", "&nbsp;ly");
-            correctionAdd("lya", "&nbsp;ly");
-            correctionAdd("LY", "&nbsp;ly");
-            correctionAdd("ly", "&nbsp;ly");
-            correctionAdd("light-year", "&nbsp;ly"); // The official expanded name
-
-            // A unit (of length)
-            //
-            correctionAdd("light years", "&nbsp;light-years");
-            correctionAdd("light-years", "&nbsp;light-years");
-            correctionAdd("lightyears", "&nbsp;light-years");
-
-            // A unit (of length)
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/au#Symbol>
-            //
-            correctionAdd("&nbsp;astronomical unit", "&nbsp;au");
-            correctionAdd("AU", "&nbsp;au");
-            correctionAdd("au", "&nbsp;au");
-            correctionAdd("astronomical unit", "&nbsp;au"); // The official expanded name
-
-            // A unit (of length)
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/km#Symbol>
-            //
-            correctionAdd("&nbsp;kilometre", "&nbsp;km");
-            correctionAdd("kilo meter", "&nbsp;km");
-            correctionAdd("Kilometer", "&nbsp;km");
-            correctionAdd("kilometer", "&nbsp;km");
-            correctionAdd("Km", "&nbsp;km");
-            correctionAdd("KM", "&nbsp;km");
-            correctionAdd("kM", "&nbsp;km");
-            correctionAdd("km", "&nbsp;km");
-            correctionAdd("kilometre", "&nbsp;km"); // The official expanded name
-
-            // A unit (of length)
-            //
-            // Note: "kilometer" is in an alternative word set
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/kms#Noun>
-            //
-            correctionAdd("kilometres", "&nbsp;kilometres");
-            correctionAdd("Kilometers", "&nbsp;kilometres");
-            correctionAdd("kilometers", "&nbsp;kilometres");
-            correctionAdd("Kms", "&nbsp;kilometres");
-            correctionAdd("kms", "&nbsp;kilometres"); // The official shorthand
-
-            // A unit (of length)
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/m#Symbol>
-            //
-            correctionAdd("&nbsp;metre", "&nbsp;m");
-            correctionAdd("Meter", "&nbsp;m");
-            correctionAdd("meter", "&nbsp;m");
-            correctionAdd("M", "&nbsp;m");
-            correctionAdd("m", "&nbsp;m");
-            correctionAdd("metre", "&nbsp;m"); // The official expanded name
-
-            // A unit (of length)
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/cm#Symbol>
-            //
-            correctionAdd("&nbsp;centimetre", "&nbsp;cm");
-            correctionAdd("centimeter", "&nbsp;cm");
-            correctionAdd("cm", "&nbsp;cm");
-            correctionAdd("centimetre", "&nbsp;cm"); // The official expanded name
-
-            // A unit (of length)
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/mm#Symbol>
-            //
-            correctionAdd("&nbsp;millimetre", "&nbsp;mm");
-            correctionAdd("millimeter", "&nbsp;mm");
-            correctionAdd("Millimeter", "&nbsp;mm");
-            correctionAdd("milimiter", "&nbsp;mm");
-            correctionAdd("milimeter", "&nbsp;mm");
-            correctionAdd("mm", "&nbsp;mm");
-            correctionAdd("millimetre", "&nbsp;mm"); // The official expanded name
-
-            // A unit (of length)
-            //
-            // Note: In the correct term, "μ" is U+03BC (μ GREEK SMALL LETTER MU).
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/%CE%BCm#Symbol>
-            //
-            correctionAdd("&nbsp;micrometre", "&nbsp;μm");
-            correctionAdd("micrometer", "&nbsp;μm");
-            correctionAdd("um", "&nbsp;μm");
-            correctionAdd("μm", "&nbsp;μm");
-            correctionAdd("micrometre", "&nbsp;μm"); // The official expanded name
-
-            // A unit (of length)
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/nm#Symbol>
-            //
-            correctionAdd("&nbsp;nanometre", "&nbsp;nm");
-            correctionAdd("nano meter", "&nbsp;nm");
-            correctionAdd("nanometer", "&nbsp;nm");
-            correctionAdd("nm", "&nbsp;nm");
-            correctionAdd("nanometre", "&nbsp;nm"); // The official expanded name
-
-            // A unit (of volume)
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/l#Symbol>
-            //
-            correctionAdd("litters", "&nbsp;l");
-            correctionAdd("litter", "&nbsp;l");
-            correctionAdd("liter", "&nbsp;l");
-            correctionAdd("l", "&nbsp;l");
-            correctionAdd("litre", "&nbsp;l"); // The official expanded name
-
-            // A unit (rate. Speed)
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/kn#Symbol_2>
-            //
-            correctionAdd("knot", "&nbsp;kn");
-            correctionAdd("kts", "&nbsp;kn");
-            correctionAdd("kt", "&nbsp;kn");
-            correctionAdd("kn", "&nbsp;kn");
-
-            // A unit (rate. Speed). = 1.609 km/h
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/mi/h#Noun>
-            //
-            correctionAdd("&nbsp;miles per hour", "&nbsp;mi/h");
-            correctionAdd("mile per hour", "&nbsp;mi/h");
-            correctionAdd("mi/hr", "&nbsp;mi/h");
-            correctionAdd("M.P.H", "&nbsp;mi/h");
-            correctionAdd("mi/h", "&nbsp;mi/h"); // Sort of identity mapping
-            correctionAdd("m/h", "&nbsp;mi/h");
-            correctionAdd("mph", "&nbsp;mi/h");
-            correctionAdd("MPH", "&nbsp;mi/h");
-            correctionAdd("miles per hour", "&nbsp;mi/h"); // The official expanded name
-
-            // A unit (rate. Speed)
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/km/h#Symbol>
-            //   <https://en.wiktionary.org/wiki/kmh#Symbol>
-            //
-            correctionAdd("&nbsp;kilometres per hour", "&nbsp;km/h");
-            correctionAdd("kilometers per hour", "&nbsp;km/h");
-            correctionAdd("kilometre per hour", "&nbsp;km/h");
-            correctionAdd("kilometer per hour", "&nbsp;km/h");
-            correctionAdd("km/hr", "&nbsp;km/h");
-            correctionAdd("kmph", "&nbsp;km/h");
-            correctionAdd("km/h", "&nbsp;km/h"); // Sort of identity mapping
-            correctionAdd("kmh", "&nbsp;km/h");
-            correctionAdd("kilometres per hour", "&nbsp;km/h"); // The official expanded name
-
-            // A unit (of resistance)
-            correctionAdd("&nbsp;tera-ohm", "&nbsp;TΩ");
-            correctionAdd("Tera ohm", "&nbsp;TΩ");
-            correctionAdd("tera ohm", "&nbsp;TΩ");
-            correctionAdd("Tera Ohm", "&nbsp;TΩ");
-            correctionAdd("teraohm", "&nbsp;TΩ");
-            correctionAdd("Teraohm", "&nbsp;TΩ");
-            correctionAdd("TΩ", "&nbsp;TΩ"); // Sort of identity mapping
-            correctionAdd("tera-ohm", "&nbsp;TΩ"); // The official expanded name
-
-            // A unit (of resistance)
-            correctionAdd("&nbsp;giga-ohm", "&nbsp;GΩ");
-            correctionAdd("gigaohm", "&nbsp;GΩ");
-            correctionAdd("GΩ", "&nbsp;GΩ"); // Sort of identity mapping
-            correctionAdd("giga-ohm", "&nbsp;GΩ"); // The official expanded name
-
-            // A unit (of resistance)
-            correctionAdd("&nbsp;megaohm", "&nbsp;MΩ");
-            correctionAdd("mega-ohm", "&nbsp;MΩ");
-            correctionAdd("Megohm", "&nbsp;MΩ");
-            correctionAdd("megohm", "&nbsp;MΩ");
-            correctionAdd("MegOhm", "&nbsp;MΩ");
-            correctionAdd("Mohm", "&nbsp;MΩ");
-            correctionAdd("MOhm", "&nbsp;MΩ");
-            correctionAdd("Meg", "&nbsp;MΩ");
-            correctionAdd("MΩ", "&nbsp;MΩ"); // Sort of identity mapping
-            correctionAdd("megaohm", "&nbsp;MΩ"); // The official expanded name
-
-            // A unit (of resistance)
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/Ohm#Definition>
-            //   <https://en.wiktionary.org/wiki/kiloohm#Noun>
-            //
-            correctionAdd("&nbsp;kiloohm", "&nbsp;kΩ");
-            correctionAdd("kilo ohm", "&nbsp;kΩ");
-            correctionAdd("kilo-ohm", "&nbsp;kΩ");
-            correctionAdd("Kilohm", "&nbsp;kΩ");
-            correctionAdd("kilohm", "&nbsp;kΩ");
-            correctionAdd("K ohm", "&nbsp;kΩ");
-            correctionAdd("kohms", "&nbsp;kΩ");
-            correctionAdd("k Ohm", "&nbsp;kΩ");
-            correctionAdd("k ohm", "&nbsp;kΩ");
-            correctionAdd("Kohm", "&nbsp;kΩ");
-            correctionAdd("KOhm", "&nbsp;kΩ");
-            correctionAdd("kohm", "&nbsp;kΩ");
-            correctionAdd("kOhm", "&nbsp;kΩ"); // Partially an expansion. The opposite is kΩ.
-            correctionAdd("kΩ", "&nbsp;kΩ"); // Sort of identity mapping
-            correctionAdd("kiloohm", "&nbsp;kΩ"); // The official expanded name
-
-            // A unit (of resistance)
-            correctionAdd("&nbsp;ohm", "&nbsp;Ω");
-            correctionAdd("Ohms", "&nbsp;Ω");
-            correctionAdd("Ohm", "&nbsp;Ω");
-            correctionAdd("OHM", "&nbsp;Ω");
-            correctionAdd("ihm", "&nbsp;Ω");
-            correctionAdd("ohm", "&nbsp;Ω"); // The official expanded name
-            correctionAdd("Om", "&nbsp;Ω");
-            correctionAdd("Ω", "&nbsp;Ω"); // Sort of identity mapping
-
-            // A unit (of resistance)
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/m%CE%A9#Symbol>
-            //
-            correctionAdd("&nbsp;milliohm", "&nbsp;mΩ");
-            correctionAdd("milliohm", "&nbsp;mΩ"); // The official expanded name
-            correctionAdd("mOhm", "&nbsp;mΩ");
-            correctionAdd("mohm", "&nbsp;mΩ");
-            correctionAdd("mΩ", "&nbsp;mΩ"); // Sort of identity mapping
-
-            // Electronics. A unit (of voltage)
-            correctionAdd("&nbsp;kilovolt", "&nbsp;kV");
-            correctionAdd("KV", "&nbsp;kV");
-            correctionAdd("kV", "&nbsp;kV");
-            correctionAdd("kilovolt", "&nbsp;kV"); // The official expanded name
-
-            // Electronics. A unit (of voltage)
-            correctionAdd("&nbsp;volt", "&nbsp;V");
-            correctionAdd("Volts", "&nbsp;V");
-            correctionAdd("volts", "&nbsp;V");
-            correctionAdd("Volt", "&nbsp;V");
-            correctionAdd("V", "&nbsp;V"); // Not incorrect, but in order to lookup "V".
-            correctionAdd("v", "&nbsp;V");
-            correctionAdd("volt", "&nbsp;V"); // The official expanded name
-
-            // Electronics. A unit (of voltage)
-            correctionAdd("&nbsp;millivolt", "&nbsp;mV");
-            correctionAdd("milliVolt", "&nbsp;mV");
-            correctionAdd("mV", "&nbsp;mV");
-            correctionAdd("millivolt", "&nbsp;mV"); // The official expanded name
-
-            // Electronics. A unit (of current)
-            correctionAdd("&nbsp;ampere", "&nbsp;A");
-            correctionAdd("Ampere", "&nbsp;A");
-            correctionAdd("ampere", "&nbsp;A");
-            correctionAdd("Amps", "&nbsp;A");
-            correctionAdd("amps", "&nbsp;A");
-            correctionAdd("amp", "&nbsp;A");
-            correctionAdd("Amp", "&nbsp;A");
-
-            // Electronics. A unit (of current)
-            //
-            // Note: "ampere" is in an alternative word set
-            //
-            correctionAdd("milliampere", "&nbsp;milliampere");
-            correctionAdd("milliamp", "&nbsp;milliampere");
-            correctionAdd("&nbsp;mA", "&nbsp;milliampere");
-
-            // Electronics. A unit (of current)
-            // Plural
-            correctionAdd("milliamperes", "&nbsp;milliamperes");
-            correctionAdd("milliamps", "&nbsp;milliamperes");
-
-            // Electronics. A unit (of current)
-            //
-            // Note: In the correct term, "µ" is U+00B5 (µ MICRO SIGN (seaer)).
-            //
-            correctionAdd("&nbsp;microampere", "&nbsp;µA");
-            correctionAdd("micro Ampere", "&nbsp;µA");
-            correctionAdd("micro-Ampere", "&nbsp;µA");
-            correctionAdd("microamps", "&nbsp;µA");
-            correctionAdd("microamp", "&nbsp;µA");
-            correctionAdd("uA", "&nbsp;µA");
-            correctionAdd("ua", "&nbsp;µA");
-            correctionAdd("µA", "&nbsp;µA"); // Note: "µ" is U+00B5 (µ MICRO SIGN (seaer)).
-            correctionAdd("μA", "&nbsp;µA"); // Note: "μ" is U+03BC (μ GREEK SMALL LETTER MU).
-            correctionAdd("microampere", "&nbsp;µA"); // The official expanded name
-
-            // Electronics. A unit (of current)
-            correctionAdd("&nbsp;nanoampere", "&nbsp;nA");
-            correctionAdd("na", "&nbsp;nA");
-            correctionAdd("nA", "&nbsp;nA");
-            correctionAdd("nanoampere", "&nbsp;nA"); // The official expanded name
-
-            // Electronics. A unit (of current)
-            correctionAdd("&nbsp;picoampere", "&nbsp;pA");
-            correctionAdd("pa", "&nbsp;pA");
-            correctionAdd("pA", "&nbsp;pA");
-            correctionAdd("picoampere", "&nbsp;pA"); // The official expanded name
-
-            // Electronics. A unit (of current)
-            correctionAdd("&nbsp;femtoampere", "&nbsp;fA");
-            correctionAdd("fa", "&nbsp;fA");
-            correctionAdd("fA", "&nbsp;fA");
-            correctionAdd("femtoampere", "&nbsp;fA"); // The official expanded name
-
-            // Electronics. A unit (of capacitance)
-            correctionAdd("&nbsp;farad", "&nbsp;F");
-            correctionAdd("Farad", "&nbsp;F"); // Wrong case
-            correctionAdd("fared", "&nbsp;F"); // Misspelling
-            correctionAdd("F", "&nbsp;F");
-            correctionAdd("farad", "&nbsp;F"); // The official expanded name
-
-            // Electronics. A unit (of capacitance)
-            correctionAdd("&nbsp;millifarad", "&nbsp;mF");
-            correctionAdd("milliFarad", "&nbsp;mF");
-            correctionAdd("milli farad", "&nbsp;mF");
-            correctionAdd("mF", "&nbsp;mF");
-            correctionAdd("millifarad", "&nbsp;mF"); // The official expanded name
-
-            // Electronics. A unit (of capacitance)
-            //
-            // Note: In the correct term:
-            //
-            //         "µ" is U+00B5 (µ MICRO SIGN (seaer)).
-            //
-            correctionAdd("&nbsp;microfarad", "&nbsp;µF");
-            correctionAdd("micro farad", "&nbsp;µF"); // Also to abbreviate
-            correctionAdd("uf", "&nbsp;µF");
-            correctionAdd("uF", "&nbsp;µF");
-            correctionAdd("µF", "&nbsp;µF"); // Note: "µ" is U+00B5 (µ MICRO SIGN (seaer)).
-            correctionAdd("μF", "&nbsp;µF"); // Note: "μ" is U+03BC (μ GREEK SMALL LETTER MU).
-            correctionAdd("microfarad", "&nbsp;µF"); // The official expanded name
-
-            // Electronics. A unit (of capacitance)
-            //
-            correctionAdd("&nbsp;nanofarad", "&nbsp;nF");
-            correctionAdd("nano farad", "&nbsp;nF");
-            correctionAdd("nano-Farad", "&nbsp;nF");
-            correctionAdd("nF", "&nbsp;nF");
-            correctionAdd("nanofarad", "&nbsp;nF"); // The official expanded name
-
-            // Electronics. A unit (of capacitance)
-            //
-            correctionAdd("&nbsp;picofarad", "&nbsp;pF");
-            correctionAdd("pico fared", "&nbsp;pF"); // Misspelling
-            correctionAdd("pico farad", "&nbsp;pF");
-            correctionAdd("pf", "&nbsp;pF");
-            correctionAdd("pF", "&nbsp;pF");
-            correctionAdd("picofarad", "&nbsp;pF"); // The official expanded name
-
-            // Electronics. A unit (of charge)
-            correctionAdd("Coloumb", "coulomb"); // Misspelling of Coulomb...
-            correctionAdd("Coulomb", "coulomb"); // The physicist's surname
-            correctionAdd("Culomb", "coulomb"); // Misspelling of Coulomb...
-
-            // Electronics. A unit (of charge). E.g., for battery capacity.
-            correctionAdd("&nbsp;ampere-hour", "&nbsp;A·h");
-            correctionAdd("amp-hour", "&nbsp;A·h");
-            correctionAdd("A·h", "&nbsp;A·h");
-            correctionAdd("Ah", "&nbsp;A·h");
-            correctionAdd("ah", "&nbsp;A·h");
-            correctionAdd("ampere-hour", "&nbsp;A·h"); // The official expanded name
-
-            // Electronics. A unit (of charge). E.g., for battery capacity.
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/mAh>
-            //     Note: Without "·"
-            //
-            correctionAdd("&nbsp;milliampere-hour", "&nbsp;mA·h");
-            correctionAdd("mA·h", "&nbsp;mA·h");
-            correctionAdd("mAh", "&nbsp;mA·h");
-            correctionAdd("mah", "&nbsp;mA·h");
-            correctionAdd("Mah", "&nbsp;mA·h");
-            correctionAdd("mAH", "&nbsp;mA·h");
-            correctionAdd("MaH", "&nbsp;mA·h");
-            correctionAdd("milliampere-hour", "&nbsp;mA·h"); // The official expanded name
-
-            // Electronics. A unit (of inductance)
-            //
-            // Note: In the correct term, "µ" is U+00B5 (µ MICRO SIGN (seaer)).
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/Henry_(unit)>
-            //
-            correctionAdd("microhenry", "&nbsp;µH"); // The official expanded name
-            correctionAdd("uH", "&nbsp;µH");
-            correctionAdd("µH", "&nbsp;µH"); // Note: "µ" is U+00B5 (µ MICRO SIGN (seaer)).
-            correctionAdd("μH", "&nbsp;µH"); // Note: "μ" is U+03BC (μ GREEK SMALL LETTER MU).
-
-            // Electronics. A unit (of magnetic flux density)
-            // 1 tesla (SI) = 10,000 gauss
-            //
-            correctionAdd("&nbsp;gauss", "&nbsp;G");
-            correctionAdd("gauss", "&nbsp;G");
-            correctionAdd("Gauss", "&nbsp;G");
-            correctionAdd("Gs", "&nbsp;G");
-            correctionAdd("G", "&nbsp;G"); // Sort of identity mapping
-
-            // Electronics. A unit (of magnetic flux density). The SI unit
-            correctionAdd("Tesla", "&nbsp;T");
-            correctionAdd("tesla", "&nbsp;T");
-            correctionAdd("T", "&nbsp;T");
-
-            // Electronics. A unit (rate. Of power (electrical))
-            //
-            correctionAdd("&nbsp;gigawatt", "&nbsp;GW");
-            correctionAdd("giggawatts", "&nbsp;GW");
-            correctionAdd("Giggawatt", "&nbsp;GW");
-            correctionAdd("Jigowatts", "&nbsp;GW");
-            correctionAdd("gigawatts", "&nbsp;GW");
-            correctionAdd("jigawatts", "&nbsp;GW");
-            correctionAdd("jigowatts", "&nbsp;GW");
-            correctionAdd("giggawatt", "&nbsp;GW");
-            correctionAdd("gigga", "&nbsp;GW");
-            correctionAdd("jigga", "&nbsp;GW");
-            correctionAdd("Gw", "&nbsp;GW");
-            correctionAdd("gw", "&nbsp;GW");
-            correctionAdd("GW", "&nbsp;GW");
-            correctionAdd("gigawatt", "&nbsp;GW"); // The official expanded name
-
-            // Electronics. A unit (rate. Of power (electrical))
-            //
-            correctionAdd("&nbsp;megawatt", "&nbsp;MW");
-            correctionAdd("Megawatt", "&nbsp;MW");
-            correctionAdd("mw", "&nbsp;MW"); // Ambiguous: Could also be mW (milliwatt)
-            correctionAdd("Mw", "&nbsp;MW");
-            correctionAdd("MW", "&nbsp;MW");
-            correctionAdd("megawatt", "&nbsp;MW"); // The official expanded name
-
-            // Electronics. A unit (rate. Of power (electrical))
-            correctionAdd("&nbsp;kilowatt", "&nbsp;kW");
-            correctionAdd("KW", "&nbsp;kW");
-            correctionAdd("kw", "&nbsp;kW");
-            correctionAdd("kW", "&nbsp;kW");
-            correctionAdd("Kw", "&nbsp;kW");
-            correctionAdd("kilowatt", "&nbsp;kW"); // The official expanded name
-
-            // Electronics. A unit (rate. Of power (electrical))
-            //
-            // Note: "mW" (milliwatt) is in an alternative word set
-            //
-            correctionAdd("&nbsp;watt", "&nbsp;W");
-            correctionAdd("Watts", "&nbsp;W");
-            correctionAdd("watts", "&nbsp;W");
-            correctionAdd("Watt", "&nbsp;W");
-            correctionAdd("w", "&nbsp;W");
-            correctionAdd("W", "&nbsp;W");
-            correctionAdd("watt", "&nbsp;W"); // The official expanded name
-
-            // Electronics. A unit (of energy (electrical)). 3.6 MJ
-            //
-            // Note: For the dot, it is UTF-8 sequence 0xE2 0x8B 0x85,
-            //       U+22C5 (DOT OPERATOR)
-            //       <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=8896>
-            //
-            // An alternative, used in an incorrect term, is
-            // UTF-8 sequence 0xC2 0xB7, U+00B7 (MIDDLE DOT).
-            // <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=178>
-            //
-            correctionAdd("&nbsp;kilowatt-hour", "&nbsp;kW⋅h");
-            correctionAdd("KwHr", "&nbsp;kW⋅h");
-            correctionAdd("kWHr", "&nbsp;kW⋅h");
-            correctionAdd("kW h", "&nbsp;kW⋅h");
-            correctionAdd("kW·h", "&nbsp;kW⋅h"); // A different "⋅"...
-            correctionAdd("kW⋅h", "&nbsp;kW⋅h");
-            correctionAdd("kWH", "&nbsp;kW⋅h");
-            correctionAdd("kwh", "&nbsp;kW⋅h");
-            correctionAdd("kWh", "&nbsp;kW⋅h");
-            correctionAdd("kilowatt-hour", "&nbsp;kW⋅h"); // The official expanded name
-
-            // Electronics. A unit (of energy (electrical)). 3.6 kJ
-            correctionAdd("&nbsp;watt-hour", "&nbsp;W·h");
-            correctionAdd("Watt-Hours", "&nbsp;W·h");
-            correctionAdd("watt-hours", "&nbsp;W·h");
-            correctionAdd("Watt-Hour", "&nbsp;W·h");
-            correctionAdd("whr", "&nbsp;W·h");
-            correctionAdd("W·h", "&nbsp;W·h");
-            correctionAdd("wh", "&nbsp;W·h");
-            correctionAdd("WH", "&nbsp;W·h");
-            correctionAdd("Wh", "&nbsp;W·h");
-            correctionAdd("watt-hour", "&nbsp;W·h"); // The official expanded name
-
-            // Electronics. A unit (of energy (electrical)). 3.6 J
-            correctionAdd("&nbsp;milliwatt-hour", "&nbsp;mW⋅h");
-            correctionAdd("mwhr", "&nbsp;mW⋅h");
-            correctionAdd("mWh", "&nbsp;mW⋅h");
-            correctionAdd("mwh", "&nbsp;mW⋅h");
-            correctionAdd("mW⋅h", "&nbsp;mW⋅h");
-            correctionAdd("milliwatt-hour", "&nbsp;mW⋅h"); // The official expanded name
-
-            // A unit (of energy (electrical))
-            //
-            correctionAdd("&nbsp;joule", "&nbsp;J");
-            correctionAdd("joules", "&nbsp;J");
-            correctionAdd("Joule", "&nbsp;J");
-            correctionAdd("joule", "&nbsp;J"); // The official expanded name
-            correctionAdd("J", "&nbsp;J");
-            correctionAdd("j", "&nbsp;J");
-
-            // A unit (of energy)
-            //
-            // Particle physics
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/MeV#Noun>
-            //
-            correctionAdd("&nbsp;megaelectronvolt", "&nbsp;MeV");
-            correctionAdd("megaelectron volt", "&nbsp;MeV");
-            correctionAdd("megaelectronvolt", "&nbsp;MeV"); // The official expanded name
-            correctionAdd("Mev", "&nbsp;MeV");
-            correctionAdd("MeV", "&nbsp;MeV");
-
-            // A unit (of energy)
-            //
-            // Particle physics.
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/keV#Noun>
-            //
-            correctionAdd("&nbsp;kiloelectronvolt", "&nbsp;keV");
-            correctionAdd("kiloelectron volt", "&nbsp;keV");
-            correctionAdd("KeV", "&nbsp;keV");
-            correctionAdd("kev", "&nbsp;keV");
-            correctionAdd("keV", "&nbsp;keV");
-            correctionAdd("kiloelectronvolt", "&nbsp;keV"); // The official expanded name
-
-            // A unit (of energy)
-            //
-            // Particle physics.
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/eV#Noun>
-            //   <https://en.wiktionary.org/wiki/electron_volt#Noun>
-            //
-            correctionAdd("electron volts", "&nbsp;eV");
-            correctionAdd("electron-volt", "&nbsp;eV");
-            correctionAdd("electron volt", "&nbsp;eV");
-            correctionAdd("eV", "&nbsp;eV");
-            correctionAdd("ev", "&nbsp;eV");
-            correctionAdd("electronvolt", "&nbsp;eV"); // The official expanded name
-
-            // A unit (of angle)
-            correctionAdd("arc second", "&nbsp;arcsecond");
-            correctionAdd("arcsecond", "&nbsp;arcsecond");
-            correctionAdd("&nbsp;\"", "&nbsp;arcsecond");
-
-            // A unit (of time)
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/Gy#Symbol_2>
-            //   <https://en.wiktionary.org/wiki/Gyr#Noun>
-            //
-            correctionAdd("&nbsp;gigayear", "&nbsp;Gyr");
-            correctionAdd("giga-annum", "&nbsp;Gyr");
-            correctionAdd("Gigayear", "&nbsp;Gyr");
-            correctionAdd("Gyr", "&nbsp;Gyr");
-            correctionAdd("Gy", "&nbsp;Gyr");
-            correctionAdd("Ga", "&nbsp;Gyr");
-            correctionAdd("gigayear", "&nbsp;Gyr"); // The official expanded name
-
-            // A unit (of time)
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/yr#Noun>
-            //
-            correctionAdd("&nbsp;year", "&nbsp;yr");
-            correctionAdd("yeaer", "&nbsp;yr");
-            correctionAdd("Year", "&nbsp;yr");
-            correctionAdd("yer", "&nbsp;yr");
-            correctionAdd("yr", "&nbsp;yr");
-            correctionAdd("y", "&nbsp;yr");
-            correctionAdd("year", "&nbsp;yr"); // The official expanded name
-
-            // A unit (of time)
-            correctionAdd("yearts", "&nbsp;years");
-            correctionAdd("tears", "&nbsp;years");
-            correctionAdd("years", "&nbsp;years"); // Sort of identity mapping
-            correctionAdd("yrs", "&nbsp;years");
-
-            // A unit (of time)
-            correctionAdd("Monthes", "&nbsp;months");
-            correctionAdd("monthes", "&nbsp;months");
-            correctionAdd("months", "&nbsp;months");
-            correctionAdd("mths", "&nbsp;months");
-            correctionAdd("mos", "&nbsp;months");
-
-            // A unit (of time)
-            //
-            // Note: "&nbsp;w" (shorthand of "&nbsp;week")
-            //       is in an alternative word set...
-            //
-            correctionAdd("weeks", "&nbsp;weeks"); // Sort of identity mapping
-            correctionAdd("wks", "&nbsp;weeks");
-
-            // A unit (of time)
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/d#Symbol>
-            //
-            correctionAdd("&nbsp;day", "&nbsp;d");
-            correctionAdd("Day", "&nbsp;d");
-            correctionAdd("d", "&nbsp;d");
-            correctionAdd("day", "&nbsp;d"); // The official expanded name
-
-            // A unit (of time)
-            correctionAdd("daze", "&nbsp;days");
-            correctionAdd("days", "&nbsp;days");
-
-            // A unit (of time)
-            //
-            //Alternative URLs:
-            //
-            //  <https://en.wiktionary.org/wiki/h#Symbol>
-            //
-            correctionAdd("&nbsp;hour", "&nbsp;h");
-            correctionAdd("hpour", "&nbsp;h"); // A true typo
-            correctionAdd("hr", "&nbsp;h");
-            correctionAdd("h", "&nbsp;h");
-            correctionAdd("hour", "&nbsp;h"); // The official expanded name
-
-            // A unit (of time)
-            correctionAdd("&nbsp;hrs", "&nbsp;hours");
-            correctionAdd("hours", "&nbsp;hours");
-            correctionAdd("Hours", "&nbsp;hours");
-            correctionAdd("hrs", "&nbsp;hours");
-
-            // A unit (of time)
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/min#Symbol_2>
-            //
-            correctionAdd("&nbsp;minute", "&nbsp;min");
-            correctionAdd("minite", "&nbsp;min");
-            correctionAdd("Minute", "&nbsp;min");
-            correctionAdd("munite", "&nbsp;min");
-            correctionAdd("min", "&nbsp;min");
-            correctionAdd("minute", "&nbsp;min"); // The official expanded name
-
-            // A unit (of time)
-            correctionAdd("&nbsp;mins", "&nbsp;minutes");
-            correctionAdd("minuates", "&nbsp;minutes");
-            correctionAdd("minutes", "&nbsp;minutes");
-            correctionAdd("mintues", "&nbsp;minutes");
-            correctionAdd("miuntes", "&nbsp;minutes");
-            correctionAdd("Minutes", "&nbsp;minutes");
-            correctionAdd("Minuts", "&nbsp;minutes");
-            correctionAdd("minuts", "&nbsp;minutes");
-            correctionAdd("minut", "&nbsp;minutes");
-            correctionAdd("mints", "&nbsp;minutes");
-            correctionAdd("mind", "&nbsp;minutes");
-            correctionAdd("mins", "&nbsp;minutes");
-            correctionAdd("Mins", "&nbsp;minutes");
-            correctionAdd("mn", "&nbsp;minutes");
-            correctionAdd("'", "&nbsp;minutes");
-
-            // A unit (of time)
-            //
-            // The time unit, not the adjective
-            correctionAdd("&nbsp;second", "&nbsp;s");
-            correctionAdd("seccond", "&nbsp;s");
-            correctionAdd("sencond", "&nbsp;s");
-            correctionAdd("SECOND", "&nbsp;s");
-            correctionAdd("sec", "&nbsp;s");
-            correctionAdd("s", "&nbsp;s");
-            correctionAdd("second", "&nbsp;s"); // The official expanded name
-
-            // A unit (of time)
-            correctionAdd("&nbsp;millisecond", "&nbsp;ms");
-            correctionAdd("milli second", "&nbsp;ms");
-            correctionAdd("mili second", "&nbsp;ms");
-            correctionAdd("millisecodn", "&nbsp;ms");
-            correctionAdd("milisecond", "&nbsp;ms");
-            correctionAdd("millsecond", "&nbsp;ms");
-            correctionAdd("millisec", "&nbsp;ms");
-            correctionAdd("msec", "&nbsp;ms");
-            correctionAdd("mSec", "&nbsp;ms");
-            correctionAdd("mil", "&nbsp;ms");
-            correctionAdd("mS", "&nbsp;ms");
-            correctionAdd("ms", "&nbsp;ms");
-            correctionAdd("millisecond", "&nbsp;ms"); // The official expanded name
-
-            // A unit (of time)
-            //
-            // Plural. The singular form is in another word set
-            correctionAdd("millisecondes", "&nbsp;milliseconds");
-            correctionAdd("milli-seconds", "&nbsp;milliseconds");
-            correctionAdd("millisecodns", "&nbsp;milliseconds");
-            correctionAdd("Milliseconds", "&nbsp;milliseconds");
-            correctionAdd("milliseconds", "&nbsp;milliseconds");
-            correctionAdd("milliseonds", "&nbsp;milliseconds");
-            correctionAdd("miliseconds", "&nbsp;milliseconds");
-            correctionAdd("millisecnds", "&nbsp;milliseconds");
-            correctionAdd("millisonds", "&nbsp;milliseconds");
-            correctionAdd("millisecs", "&nbsp;milliseconds");
-            correctionAdd("millis", "&nbsp;milliseconds");
-            correctionAdd("mills", "&nbsp;milliseconds");
-
-            // A unit (of time)
-            //
-            // In the correct term, we use U+03BC for the 'micro' symbol.
-            //
-            // There are two possibilities:
-            //
-            //   1. U+03BC (search by regular expression
-            //              "\x{03BC}" (without the quotes))
-            //
-            //      UTF-8 byte sequence 0xCE 0xBC:
-            //
-            //        U+03BC (μ GREEK SMALL LETTER MU)
-            //        ("\u03BC" in Visual Studio Code and some others).
-            //
-            //        <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=950>
-            //
-            //   2. U+00B5 (search by regular expression
-            //              "\x{00B5}" (without the quotes))
-            //
-            //      UTF-8 byte sequence 0xC2 0xB5:
-            //        U+00B5 (µ MICRO SIGN (seaer))
-            //        ("\u00B5" in Visual Studio Code and some others).
-            //
-            //        <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=176>
-            //
-            // Note: The regular expression must be
-            //       ***case sensitive*** to not
-            //       match the other possibility...
-            //
-            correctionAdd("&nbsp;microsecond", "&nbsp;μs");
-            correctionAdd("micro second", "&nbsp;μs");
-            correctionAdd("u second", "&nbsp;μs");
-            correctionAdd("microsec", "&nbsp;μs");
-            correctionAdd("usecond", "&nbsp;μs");
-            correctionAdd("u sec", "&nbsp;μs");
-            correctionAdd("μ sec", "&nbsp;μs");
-            correctionAdd("usec", "&nbsp;μs");
-            correctionAdd("μsec", "&nbsp;μs");
-            correctionAdd("uz", "&nbsp;μs"); // A true typo
-            correctionAdd("μs", "&nbsp;μs");
-            correctionAdd("microsecond", "&nbsp;μs"); // The official expanded name
-
-            // A unit (of time)
-            correctionAdd("micro seconds", "&nbsp;microseconds");
-            correctionAdd("micro-seconds", "&nbsp;microseconds");
-            correctionAdd("microsecconds", "&nbsp;microseconds");
-            correctionAdd("microseconds", "&nbsp;microseconds");
-            correctionAdd("uSeconds", "&nbsp;microseconds");
-            correctionAdd("usecs", "&nbsp;microseconds");
-
-            // A unit (of time)
-            correctionAdd("&nbsp;nanosecond", "&nbsp;ns");
-            correctionAdd("Nanosecond", "&nbsp;ns");
-            correctionAdd("nanosec", "&nbsp;ns");
-            correctionAdd("nano", "&nbsp;ns");
-            correctionAdd("ns", "&nbsp;ns");
-            correctionAdd("Ns", "&nbsp;ns");
-            correctionAdd("nanosecond", "&nbsp;ns"); // The official expanded name
-
-            // A unit (of time)
-            //
-            // Note: "picosecond" is in an alternative word set...
-            //
-            correctionAdd("Nanoseconds", "&nbsp;nanoseconds");
-            correctionAdd("nanoseconds", "&nbsp;nanoseconds");
-
-            // A unit (of time)
-            correctionAdd("&nbsp;picosecond", "&nbsp;ps");
-            correctionAdd("ps", "&nbsp;ps");
-            correctionAdd("picosecond", "&nbsp;ps"); // The official expanded name
-
-            // A unit (of time)
-            correctionAdd("picoseconds", "&nbsp;picoseconds");
-
-            // A unit (of frequency)
-            correctionAdd("&nbsp;terahertz", "&nbsp;THz");
-            correctionAdd("Terahertz", "&nbsp;THz");
-            correctionAdd("THZ", "&nbsp;THz");
-            correctionAdd("thz", "&nbsp;THz");
-            correctionAdd("Thz", "&nbsp;THz");
-            correctionAdd("THz", "&nbsp;THz"); // Sort of identity mapping
-            correctionAdd("terahertz", "&nbsp;THz"); // The official expanded name
-
-            // A unit (of frequency)
-            correctionAdd("&nbsp;gigahertz", "&nbsp;GHz");
-            correctionAdd("Gigahurtz", "&nbsp;GHz");
-            correctionAdd("gigahurtz", "&nbsp;GHz");
-            correctionAdd("Gigahertz", "&nbsp;GHz");
-            correctionAdd("gigahert", "&nbsp;GHz");
-            correctionAdd("Mghz", "&nbsp;GHz");
-            correctionAdd("mghz", "&nbsp;GHz");
-            correctionAdd("Ghz", "&nbsp;GHz"); // Spelling.
-            correctionAdd("GHZ", "&nbsp;GHz"); // Spelling.
-            correctionAdd("ghz", "&nbsp;GHz"); // Spelling.
-            correctionAdd("gHz", "&nbsp;GHz"); // Spelling.
-            correctionAdd("Gzh", "&nbsp;GHz");
-            correctionAdd("gzh", "&nbsp;GHz");
-            correctionAdd("GHz", "&nbsp;GHz"); // Sort of identity mapping
-            correctionAdd("Gz", "&nbsp;GHz");
-            correctionAdd("gz", "&nbsp;GHz");
-            correctionAdd("gigahertz", "&nbsp;GHz"); // The official expanded name
-
-            // A unit (of frequency)
-            correctionAdd("&nbsp;megahertz", "&nbsp;MHz");
-            correctionAdd("megahert", "&nbsp;MHz");
-            correctionAdd("megaherz", "&nbsp;MHz");
-            correctionAdd("mega Hz", "&nbsp;MHz");
-            correctionAdd("Mhz", "&nbsp;MHz"); // Spelling.
-            correctionAdd("mhz", "&nbsp;MHz"); // Spelling. Could be millihertz
-            correctionAdd("MHZ", "&nbsp;MHz"); // Spelling.
-            correctionAdd("mHz", "&nbsp;MHz"); // Spelling. Could be millihertz
-            correctionAdd("MHz", "&nbsp;MHz"); // Sort of identity mapping
-            correctionAdd("Mz", "&nbsp;MHz");
-            correctionAdd("MH", "&nbsp;MHz");
-            correctionAdd("megahertz", "&nbsp;MHz"); // The official expanded name
-
-            // A unit (of frequency)
-            correctionAdd("&nbsp;kilohertz", "&nbsp;kHz");
-            correctionAdd("k hertz", "&nbsp;kHz");
-            correctionAdd("k hrtz", "&nbsp;kHz");
-            correctionAdd("khertz", "&nbsp;kHz");
-            correctionAdd("khrtz", "&nbsp;kHz");
-            correctionAdd("K Hz", "&nbsp;kHz");
-            correctionAdd("KHz", "&nbsp;kHz"); // Spelling/case.
-            correctionAdd("Khz", "&nbsp;kHz"); // Spelling/case.
-            correctionAdd("khz", "&nbsp;kHz"); // Spelling/case.
-            correctionAdd("KHZ", "&nbsp;kHz"); // Spelling/case.
-            correctionAdd("kHZ", "&nbsp;kHz"); // Spelling/case.
-            correctionAdd("kHz", "&nbsp;kHz"); // Sort of identity mapping
-            correctionAdd("khZ", "&nbsp;kHz");
-            correctionAdd("K", "&nbsp;kHz");
-            correctionAdd("k", "&nbsp;kHz"); // (Consider mapping to "&nbsp;kbit/s" instead)
-            correctionAdd("kilohertz", "&nbsp;kHz"); // The official expanded name
-
-            // A unit (of frequency)
-            //
-            // Alternative URLs:
-            //
-            //   <https://imgur.com/gallery/VmNAmIl>
-            //     Slap you at high frequency...
-            //
-            correctionAdd("&nbsp;hertz", "&nbsp;Hz");
-            correctionAdd("Hertz", "&nbsp;Hz");
-            correctionAdd("herz", "&nbsp;Hz");
-            correctionAdd("hrtz", "&nbsp;Hz");
-            correctionAdd("hz", "&nbsp;Hz"); // Spelling.
-            correctionAdd("HZ", "&nbsp;Hz");
-            correctionAdd("Hz", "&nbsp;Hz"); // Sort of identity mapping
-            correctionAdd("hertz", "&nbsp;Hz"); // The official expanded name
-
-            // A unit. Sa = Samples
-            correctionAdd("&nbsp;megasamples", "&nbsp;MSa");
-            correctionAdd("megasample", "&nbsp;MSa");
-            correctionAdd("msa", "&nbsp;MSa");
-            correctionAdd("MSa", "&nbsp;MSa");
-            correctionAdd("megasamples", "&nbsp;MSa"); // The official expanded name
-
-            // A unit. Sa = Samples
-            correctionAdd("&nbsp;kilosamples", "&nbsp;kSa");
-            correctionAdd("kilosample", "&nbsp;kSa");
-            correctionAdd("kSa", "&nbsp;kSa");
-            correctionAdd("ksa", "&nbsp;kSa");
-            correctionAdd("kS", "&nbsp;kSa");
-            correctionAdd("KS", "&nbsp;kSa");
-            correctionAdd("kilosamples", "&nbsp;kSa"); // The official expanded name
-
-            // A unit (rate). Sa = Samples
-            correctionAdd("&nbsp;megasamples per second", "&nbsp;MSa/s");
-            correctionAdd("megasample per second", "&nbsp;MSa/s");
-            correctionAdd("MSa/s", "&nbsp;MSa/s");
-            correctionAdd("MSaps", "&nbsp;MSa/s");
-            correctionAdd("msaps", "&nbsp;MSa/s");
-            correctionAdd("MSPS", "&nbsp;MSa/s");
-            correctionAdd("Msps", "&nbsp;MSa/s");
-            correctionAdd("msps", "&nbsp;MSa/s");
-            correctionAdd("megasamples per second", "&nbsp;MSa/s"); // The official expanded name
-
-            // A unit (rate). Sa = Samples
-            correctionAdd("&nbsp;kilosamples per second", "&nbsp;kSa/s");
-            correctionAdd("kilosample per second", "&nbsp;kSa/s");
-            correctionAdd("kSa/s", "&nbsp;kSa/s");
-            correctionAdd("ksps", "&nbsp;kSa/s");
-            correctionAdd("ksaps", "&nbsp;kSa/s");
-            correctionAdd("kilosamples per second", "&nbsp;kSa/s"); // The official expanded name
-
-            // A unit
-            correctionAdd("&nbsp;megabit", "&nbsp;Mb");
-            correctionAdd("Megabit", "&nbsp;Mb");
-            correctionAdd("megabit", "&nbsp;Mb"); // The official expanded name
-            correctionAdd("M-bit", "&nbsp;Mb");
-
-            // A unit
-            correctionAdd("Megabits", "&nbsp;megabits");
-            correctionAdd("megabits", "&nbsp;megabits"); // Sort of identity mapping
-
-            // A unit
-            // Note: "&nbsp;b" (the short singular form of "bit")
-            //       is in an alternative word set...
-            //
-            correctionAdd("btis", "&nbsp;bits");
-            correctionAdd("bits", "&nbsp;bits");
-            correctionAdd("bts", "&nbsp;bits");
-
-            // A unit (rate)
-            correctionAdd("&nbsp;gigabits per second", "&nbsp;Gbit/s");
-            correctionAdd("gigabits per second", "&nbsp;Gbit/s");
-            correctionAdd("gigabit per second", "&nbsp;Gbit/s");
-            correctionAdd("Gigabits/second", "&nbsp;Gbit/s");
-            correctionAdd("Gigabits/s", "&nbsp;Gbit/s");
-            correctionAdd("gigabits/s", "&nbsp;Gbit/s");
-            correctionAdd("gigabit/s", "&nbsp;Gbit/s");
-            correctionAdd("Gbitp/s", "&nbsp;Gbit/s");
-            correctionAdd("Gbit/s", "&nbsp;Gbit/s"); // Sort of identity mapping
-            correctionAdd("gbit/s", "&nbsp;Gbit/s");
-            correctionAdd("GBit/s", "&nbsp;Gbit/s");
-            correctionAdd("Gbitps", "&nbsp;Gbit/s");
-            correctionAdd("Gbp/S", "&nbsp;Gbit/s");
-            correctionAdd("Gbp/s", "&nbsp;Gbit/s");
-            correctionAdd("gbit", "&nbsp;Gbit/s");
-            correctionAdd("Gbit", "&nbsp;Gbit/s");
-            correctionAdd("gb/s", "&nbsp;Gbit/s");
-            correctionAdd("Gb/s", "&nbsp;Gbit/s");
-            correctionAdd("Gpbs", "&nbsp;Gbit/s"); // Real typo
-            correctionAdd("gpbs", "&nbsp;Gbit/s");
-            correctionAdd("gbps", "&nbsp;Gbit/s"); // Different form of the unit.
-            correctionAdd("Gbps", "&nbsp;Gbit/s");
-            correctionAdd("Gbs", "&nbsp;Gbit/s");
-
-            // A unit (rate)
-            //
-            // Note: "&nbsp;kbit/s" is in an alternative word set
-            //
-            correctionAdd("&nbsp;megabits per second", "&nbsp;Mbit/s");
-            correctionAdd("megabits per second", "&nbsp;Mbit/s");
-            correctionAdd("megabit per second", "&nbsp;Mbit/s");
-            correctionAdd("Mbits per second", "&nbsp;Mbit/s");
-            correctionAdd("Mbit per second", "&nbsp;Mbit/s");
-            correctionAdd("Mbits per sec", "&nbsp;Mbit/s");
-            correctionAdd("Mbit per sec", "&nbsp;Mbit/s");
-            correctionAdd("Megabits/s", "&nbsp;Mbit/s");
-            correctionAdd("megabits/s", "&nbsp;Mbit/s");
-            correctionAdd("megabit/s", "&nbsp;Mbit/s");
-            correctionAdd("Megabit/s", "&nbsp;Mbit/s");
-            correctionAdd("Mbit/sec", "&nbsp;Mbit/s"); // Consider changing to this one...
-            correctionAdd("Mbit/s", "&nbsp;Mbit/s"); // Sort of identity mapping
-            correctionAdd("MBit/s", "&nbsp;Mbit/s"); // Case
-            correctionAdd("mbit/s", "&nbsp;Mbit/s");
-            correctionAdd("MBps", "&nbsp;Mbit/s"); // Different form of the unit.
-            correctionAdd("Mbps", "&nbsp;Mbit/s"); // Different form of the unit.
-            correctionAdd("mbps", "&nbsp;Mbit/s"); // Different form of the unit.
-            correctionAdd("Mb/s", "&nbsp;Mbit/s"); // Different form of the unit.
-            correctionAdd("mb/s", "&nbsp;Mbit/s"); // Different form of the unit.
-            correctionAdd("mbit", "&nbsp;Mbit/s"); // Use of the wrong unit (not a rate)
-            correctionAdd("MBit", "&nbsp;Mbit/s"); // Use of the wrong unit (not a rate)
-            correctionAdd("Mbit", "&nbsp;Mbit/s"); // Use of the wrong unit (not a rate)
-            correctionAdd("mbs", "&nbsp;Mbit/s"); // 'per' left out
-            correctionAdd("Mbs", "&nbsp;Mbit/s"); // 'per' left out
-
-            // A unit (rate)
-            correctionAdd("&nbsp;bits per second", "&nbsp;bit/s");
-            correctionAdd("bits per second", "&nbsp;bit/s");
-            correctionAdd("bit per second", "&nbsp;bit/s");
-            correctionAdd("Bits / s", "&nbsp;bit/s");
-            correctionAdd("bits / s", "&nbsp;bit/s");
-            correctionAdd("bits/s", "&nbsp;bit/s");
-            correctionAdd("bit/s", "&nbsp;bit/s"); // Sort of identity mapping
-            correctionAdd("bps", "&nbsp;bit/s"); // Different form of the unit.
-            correctionAdd("b/s", "&nbsp;bit/s");
-
-            correctionAdd("mega baud", "&nbsp;megabaud");
-            correctionAdd("megabaud", "&nbsp;megabaud");
-            correctionAdd("MBaud", "&nbsp;megabaud");
-
-            correctionAdd("kilobaud", "&nbsp;kilobaud"); // Sort of identity mapping
-            correctionAdd("k baud", "&nbsp;kilobaud");
-            correctionAdd("kbaud", "&nbsp;kilobaud");
-
-            correctionAdd("Baud", "&nbsp;baud");
-            correctionAdd("baud", "&nbsp;baud");
-
-            correctionAdd("115,200 baud", "115,200&nbsp;baud"); // Sort of identity mapping
-            correctionAdd("115,200", "115,200&nbsp;baud");
-            correctionAdd("115200", "115,200&nbsp;baud");
-
-            // Not a baud rate...
-            correctionAdd("44,100 Hz", "44,100&nbsp;Hz"); // Sort of identity mapping
-            correctionAdd("44,100", "44,100&nbsp;Hz");
-            correctionAdd("44100", "44,100&nbsp;Hz");
-
-            correctionAdd("19,200 baud", "19,200&nbsp;baud"); // Sort of identity mapping
-            correctionAdd("19,200", "19,200&nbsp;baud");
-            correctionAdd("19200", "19,200&nbsp;baud");
-
-            correctionAdd("14,400 baud", "14,400&nbsp;baud"); // Sort of identity mapping
-            correctionAdd("14,400", "14,400&nbsp;baud");
-            correctionAdd("14400", "14,400&nbsp;baud");
-
-            correctionAdd("9,600 baud", "9,600&nbsp;baud"); // Sort of identity mapping
-            correctionAdd("9,600", "9,600&nbsp;baud");
-            correctionAdd("9600", "9,600&nbsp;baud");
-
-            // A unit
-            correctionAdd("&nbsp;terabyte", "&nbsp;TB");
-            correctionAdd("terra byte", "&nbsp;TB");
-            correctionAdd("terrabyte", "&nbsp;TB");
-            correctionAdd("tera byte", "&nbsp;TB");
-            correctionAdd("Terabyte", "&nbsp;TB");
-            correctionAdd("tb", "&nbsp;TB");
-            correctionAdd("Tb", "&nbsp;TB");
-            correctionAdd("TB", "&nbsp;TB");
-            correctionAdd("terabyte", "&nbsp;TB"); // The official expanded name
-
-            // A unit
-            correctionAdd("&nbsp;gigabyte", "&nbsp;GB");
-            correctionAdd("Giga Byte", "&nbsp;GB");
-            correctionAdd("Giga byte", "&nbsp;GB");
-            correctionAdd("giga byte", "&nbsp;GB");
-            correctionAdd("Gigabytes", "&nbsp;GB");
-            correctionAdd("gigabytes", "&nbsp;GB");
-            correctionAdd("Gigabyte", "&nbsp;GB");
-            correctionAdd("GByte", "&nbsp;GB");
-            correctionAdd("Gbyte", "&nbsp;GB");
-            correctionAdd("gigs", "&nbsp;GB");
-            correctionAdd("gig", "&nbsp;GB");
-            correctionAdd("Gig", "&nbsp;GB");
-            correctionAdd("gbs", "&nbsp;GB");
-            correctionAdd("Gi", "&nbsp;GB");
-            correctionAdd("Gb", "&nbsp;GB");
-            correctionAdd("gb", "&nbsp;GB"); // Assuming bytes, not bits...
-            correctionAdd("GB", "&nbsp;GB"); // For convenience
-            correctionAdd("gigabyte", "&nbsp;GB"); // The official expanded name
-
-            // A unit
-            correctionAdd("&nbsp;megabyte", "&nbsp;MB");
-            correctionAdd("Mega byte", "&nbsp;MB");
-            correctionAdd("mega byte", "&nbsp;MB");
-            correctionAdd("Megabyte", "&nbsp;MB");
-            correctionAdd("Mbyte", "&nbsp;MB");
-            correctionAdd("meg", "&nbsp;MB");
-            correctionAdd("MiB", "&nbsp;MB"); // Not technically correct, but that is what we use
-            correctionAdd("Mb", "&nbsp;MB");
-            correctionAdd("mb", "&nbsp;MB"); // Assuming bytes, not bits...
-            correctionAdd("MB", "&nbsp;MB"); // Assuming bytes, not bits...
-            correctionAdd("megabyte", "&nbsp;MB"); // The official expanded name
-
-            // A unit
-            correctionAdd("Megabytes", "&nbsp;megabytes");
-            correctionAdd("&nbsp;MBs", "&nbsp;megabytes");
-            correctionAdd("megabytes", "&nbsp;megabytes"); // Sort of identity mapping
-            correctionAdd("MBytes", "&nbsp;megabytes");
-            correctionAdd("megs", "&nbsp;megabytes");
-            correctionAdd("MBs", "&nbsp;megabytes"); // Sort of identity mapping
-
-            // A unit
-            correctionAdd("&nbsp;kilobyte", "&nbsp;KB");
-            correctionAdd("Kbyte", "&nbsp;KB");
-            correctionAdd("KByte", "&nbsp;KB");
-            correctionAdd("kByte", "&nbsp;KB");
-            correctionAdd("kbyte", "&nbsp;KB");
-            correctionAdd("kb", "&nbsp;KB"); // Assuming bytes, not bits...
-            correctionAdd("Kb", "&nbsp;KB");
-            correctionAdd("KB", "&nbsp;KB"); // Assuming bytes, not bits...
-            correctionAdd("kB", "&nbsp;KB");
-            correctionAdd("kilobyte", "&nbsp;KB"); // The official expanded name
-
-            // A unit
-            correctionAdd("&nbsp;KBs", "&nbsp;kilobytes");
-            correctionAdd("kilobytes", "&nbsp;kilobytes");
-            correctionAdd("KBytes", "&nbsp;kilobytes");
-            correctionAdd("Kbytes", "&nbsp;kilobytes");
-
-            // A unit
-            correctionAdd("&nbsp;byte", "&nbsp;B");
-            correctionAdd("Byte", "&nbsp;B");
-            correctionAdd("B", "&nbsp;B");
-            correctionAdd("b", "&nbsp;B");
-            correctionAdd("byte", "&nbsp;B"); // The official expanded name
-
-            // A unit
-            correctionAdd("Bytes", "&nbsp;bytes");
-            correctionAdd("bytes", "&nbsp;bytes");
-
-            correctionAdd("triplepoint", "triple point");
-
-            correctionAdd("-28.9 °C", "-28.9&nbsp;°C"); // Sort of identity mapping
-            correctionAdd("-20 F", "-28.9&nbsp;°C");
-
-            correctionAdd("-23.3 °C", "-23.3&nbsp;°C"); // Sort of identity mapping
-            correctionAdd("-10 F", "-23.3&nbsp;°C");
-            correctionAdd("-10 f", "-23.3&nbsp;°C");
-
-            correctionAdd("-17.7 °C", "-17.7&nbsp;°C"); // Sort of identity mapping
-            correctionAdd("0 F", "-17.7&nbsp;°C");
-            correctionAdd("0 f", "-17.7&nbsp;°C");
-
-            correctionAdd("-12.2 °C", "-12.2&nbsp;°C"); // Sort of identity mapping
-            correctionAdd("-12 C", "-12.2&nbsp;°C");
-            correctionAdd("10 F", "-12.2&nbsp;°C");
-            correctionAdd("10 f", "-12.2&nbsp;°C");
-
-            correctionAdd("-6.7 °C", "-6.7&nbsp;°C"); // Sort of identity mapping
-            correctionAdd("20 F", "-6.7&nbsp;°C");
-            correctionAdd("20 f", "-6.7&nbsp;°C");
-            correctionAdd("-7 C", "-6.7&nbsp;°C");
-
-            correctionAdd("-1.1 °C", "-1.1&nbsp;°C"); // Sort of identity mapping
-            correctionAdd("30 F", "-1.1&nbsp;°C");
-            correctionAdd("30 f", "-1.1&nbsp;°C");
-            correctionAdd("-1 C", "-1.1&nbsp;°C");
-
-            correctionAdd("4.4 °C", "4.4&nbsp;°C"); // Sort of identity mapping
-            correctionAdd("40 F", "4.4&nbsp;°C");
-            correctionAdd("40 f", "4.4&nbsp;°C");
-            correctionAdd("4 C", "4.4&nbsp;°C");
-
-            correctionAdd("10.0 °C", "10.0&nbsp;°C"); // Sort of identity mapping
-            correctionAdd("50 F", "10.0&nbsp;°C");
-            correctionAdd("50 f", "10.0&nbsp;°C");
-            correctionAdd("10 C", "10.0&nbsp;°C");
-
-            correctionAdd("15.6 °C", "15.6&nbsp;°C"); // Sort of identity mapping
-            correctionAdd("60 F", "15.6&nbsp;°C");
-            correctionAdd("60 f", "15.6&nbsp;°C");
-            correctionAdd("16 C", "15.6&nbsp;°C");
-
-            correctionAdd("21.1 °C", "21.1&nbsp;°C"); // Sort of identity mapping
-            correctionAdd("70 F", "21.1&nbsp;°C");
-            correctionAdd("70 f", "21.1&nbsp;°C");
-            correctionAdd("21 C", "21.1&nbsp;°C");
-
-            correctionAdd("26.7 °C", "26.7&nbsp;°C"); // Sort of identity mapping
-            correctionAdd("80 F", "26.7&nbsp;°C");
-            correctionAdd("80 f", "26.7&nbsp;°C");
-            correctionAdd("27 C", "26.7&nbsp;°C");
-
-            correctionAdd("32.2 °C", "32.2&nbsp;°C"); // Sort of identity mapping
-            correctionAdd("90 F", "32.2&nbsp;°C");
-            correctionAdd("90 f", "32.2&nbsp;°C");
-            correctionAdd("32 C", "32.2&nbsp;°C");
-
-            correctionAdd("37.8 °C", "37.8&nbsp;°C"); // Sort of identity mapping
-            correctionAdd("100 F", "37.8&nbsp;°C");
-            correctionAdd("100 f", "37.8&nbsp;°C");
-            correctionAdd("38 C", "37.8&nbsp;°C");
-
-            correctionAdd("12000 ft", "3.7&nbsp;km");
-            correctionAdd("3.7 km", "3.7&nbsp;km"); // Sort of identity mapping
-
-            // A unit (of mass)
-            correctionAdd("&nbsp;tons", "&nbsp;t");
-            correctionAdd("tonne", "&nbsp;t");
-            correctionAdd("ton's", "&nbsp;t");
-            correctionAdd("tons", "&nbsp;t");
-            correctionAdd("ton", "&nbsp;t");
-            correctionAdd("t", "&nbsp;t");
-
-            // A unit (of mass)
-            // Metric
-            correctionAdd("kilogram", "&nbsp;kg");
-            correctionAdd("kilo", "&nbsp;kg");
-            correctionAdd("Kg", "&nbsp;kg");
-            correctionAdd("KG", "&nbsp;kg");
-            correctionAdd("kg", "&nbsp;kg");
-            correctionAdd("lg", "&nbsp;kg"); // A true typo
-
-            // A unit (of mass)
-            // Metric
-            correctionAdd("operation force", "&nbsp;g"); // See notes for "gf"
-            correctionAdd("grams-force", "&nbsp;g"); // See notes for "gf"
-            correctionAdd("gram-force", "&nbsp;g"); // See notes for "gf"
-            correctionAdd("&nbsp;gram", "&nbsp;g");
-            correctionAdd("gram", "&nbsp;g");
-            correctionAdd("gf", "&nbsp;g"); // Though it is strictly speaking a force...
-            correctionAdd("g", "&nbsp;g");
-
-            // A unit (of mass)
-            correctionAdd("&nbsp;pound", "&nbsp;lb");
-            correctionAdd("pounds", "&nbsp;lb");
-            correctionAdd("Pound", "&nbsp;lb");
-            correctionAdd("pound", "&nbsp;lb");
-            correctionAdd("lbs", "&nbsp;lb");
-            correctionAdd("pds", "&nbsp;lb");
-            correctionAdd("lb", "&nbsp;lb");
-            correctionAdd("LB", "&nbsp;lb");
-
-            correctionAdd("Pound sign", "pound sign");
 
             correctionAdd("leafs", "leaves");
 
@@ -64908,6 +64910,7 @@ namespace OverflowHelper.core
             correctionAdd("MX Silent Black", "Cherry MX Silent Black");
 
             // A type of switch for mechanical keyboards
+            //
             correctionAdd("Alps SKBM Black", "Alps SKCM Black"); // Likely a typo. Or does Alps SKBM Black exist??
             correctionAdd("Black Alps", "Alps SKCM Black");
 
@@ -64947,10 +64950,23 @@ namespace OverflowHelper.core
             //
             //     Has lots of pictures. And 142 pages!!!!
             //
+            //   <https://www.youtube.com/watch?v=v-IF5VmDaMg>
+            //     Alps wax modification: Procedure and evaluation!
+            //
+            //   <https://www.youtube.com/watch?v=BFP58RCIaMQ>
+            //     Official unofficial Alps restoration method 2021 -
+            //     no binding, no scratchiness
+            //
+            //     No real audio
+            //
+            //   <https://www.youtube.com/watch?v=QIkDOc9cIqw>
+            //     No real audio
+            //
             correctionAdd("Alps SKCM Cream", "Alps SKCM Cream damped");
             correctionAdd("Alps SKCM", "Alps SKCM Cream damped");
             correctionAdd("Alps", "Alps SKCM Cream damped"); // Not 100% correct; represents the type of switch
             correctionAdd("ALPS", "Alps SKCM Cream damped"); // Not 100% correct; represents the type of switch
+            correctionAdd("alps", "Alps SKCM Cream damped");
             correctionAdd("ALP", "Alps SKCM Cream damped"); // Not 100% correct; represents the type of switch
 
             // A manufacturer of switches for mechanical keyboards
@@ -114986,8 +115002,6 @@ namespace OverflowHelper.core
 
             URL_Add("upper", "https://en.wiktionary.org/wiki/upper#Adjective");
 
-            URL_Add("Friedmann–Lemaître–Robertson–Walker metric", "https://en.wikipedia.org/wiki/Friedmann%E2%80%93Lema%C3%AEtre%E2%80%93Robertson%E2%80%93Walker_metric");
-
             URL_Add("Spaniard", "https://en.wiktionary.org/wiki/Spaniard#Noun");
 
             URL_Add("nonconsecutive", "https://en.wiktionary.org/wiki/nonconsecutive#Adjective");
@@ -115885,8 +115899,6 @@ namespace OverflowHelper.core
             URL_Add("extraterrestrial life", "https://en.wikipedia.org/wiki/Extraterrestrial_life");
 
             URL_Add("finish", "https://en.wiktionary.org/wiki/finish#Verb");
-
-            URL_Add("geometric", "https://en.wiktionary.org/wiki/geometric#Adjective");
 
             URL_Add("methamphetamine", "https://en.wikipedia.org/wiki/Methamphetamine");
 
@@ -120036,8 +120048,6 @@ namespace OverflowHelper.core
 
             URL_Add("discrete-time Fourier transform", "https://en.wikipedia.org/wiki/Discrete-time_Fourier_transform");
 
-            URL_Add("metric", "https://en.wiktionary.org/wiki/metric#Noun");
-
             URL_Add("RTX", "https://en.wikipedia.org/wiki/RTX_(operating_system)");
 
             URL_Add("unit circle", "https://en.wikipedia.org/wiki/Unit_circle");
@@ -121498,8 +121508,6 @@ namespace OverflowHelper.core
 
             URL_Add("turned out", "https://en.wiktionary.org/wiki/turn_out#Verb");
 
-            URL_Add("arithmetico-geometric", "https://en.wiktionary.org/wiki/arithmetico-geometric#Adjective");
-
             URL_Add("censoring", "https://en.wiktionary.org/wiki/censor#Verb");
 
             URL_Add("full-page", "https://en.wiktionary.org/wiki/full-page#Adjective");
@@ -122619,8 +122627,6 @@ namespace OverflowHelper.core
             URL_Add("threads", "https://en.wiktionary.org/wiki/thread#Noun");
 
             URL_Add("birthday", "https://en.wiktionary.org/wiki/birthday#Noun");
-
-            URL_Add("Kerr metric", "https://en.wikipedia.org/wiki/Kerr_metric");
 
             URL_Add("Penrose–Hawking singularity theorems", "https://en.wikipedia.org/wiki/Penrose%E2%80%93Hawking_singularity_theorems");
 
@@ -125250,18 +125256,6 @@ namespace OverflowHelper.core
 
             URL_Add("goofed up", "https://en.wiktionary.org/wiki/goof_up#Verb");
 
-            URL_Add("delimit", "https://en.wiktionary.org/wiki/delimit#Verb");
-
-            URL_Add("delimiting", "https://en.wiktionary.org/wiki/delimit#Verb");
-
-            URL_Add("delimited", "https://en.wiktionary.org/wiki/delimit#Verb");
-
-            URL_Add("delimiter", "https://en.wiktionary.org/wiki/delimiter#Noun");
-
-            URL_Add("tab-separated value", "https://en.wikipedia.org/wiki/Tab-separated_values");
-
-            URL_Add("CSV", "https://en.wikipedia.org/wiki/Comma-separated_values");
-
             URL_Add("Imgur", "https://en.wikipedia.org/wiki/Imgur");
 
             URL_Add("rip-off", "https://en.wiktionary.org/wiki/rip-off#Noun");
@@ -127021,20 +127015,6 @@ namespace OverflowHelper.core
             URL_Add("negligent", "https://en.wiktionary.org/wiki/negligent#Adjective");
 
             URL_Add("inner product", "https://en.wikipedia.org/wiki/Inner_product_space");
-
-            URL_Add("Minkowski space", "https://en.wikipedia.org/wiki/Minkowski_space");
-
-            URL_Add("Minkowski metric", "https://en.wikipedia.org/wiki/Minkowski_space");
-
-            URL_Add("2001: A Space Odyssey", "https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey");
-
-            URL_Add("it's full of stars!", "https://en.wikiquote.org/wiki/2001:_A_Space_Odyssey_(film)#Misattributed");
-
-            URL_Add("Space: 1999", "https://en.wikipedia.org/wiki/Space%3A_1999");
-
-            URL_Add("Kerbal Space Program", "https://en.wikipedia.org/wiki/Kerbal_Space_Program");
-
-            URL_Add("Space Marine", "https://en.wikipedia.org/wiki/Space_Marine_(Warhammer_40,000)");
 
             URL_Add("Collins", "https://en.wikipedia.org/wiki/Collins_Aerospace");
 
@@ -129048,8 +129028,6 @@ namespace OverflowHelper.core
 
             URL_Add("wasting", "https://en.wiktionary.org/wiki/waste#Verb");
 
-            URL_Add("Wasserstein metric", "https://en.wikipedia.org/wiki/Wasserstein_metric");
-
             URL_Add("WASD", "https://en.wikipedia.org/wiki/WASD_keys#WASD_keys");
 
             URL_Add("Against all probability, a sperm whale has suddenly been called into existence", "https://www.youtube.com/watch?v=b7nI7N1ZSQg&t=2m36s");
@@ -129261,8 +129239,6 @@ namespace OverflowHelper.core
             URL_Add("BEAKL keyboard layout", "https://deskthority.net/wiki/BEAKL#BEAKL_15");
 
             URL_Add("return merchandise authorization", "https://en.wikipedia.org/wiki/Return_merchandise_authorization");
-
-            URL_Add("rotational symmetric", "https://en.wikipedia.org/wiki/Rotational_symmetry");
 
             URL_Add("PCAN-View", "https://www.peak-system.com/PCAN-View.242.0.html");
 
@@ -134358,24 +134334,6 @@ namespace OverflowHelper.core
 
             URL_Add("brackets, exponents, division/multiplication, addition/subtraction", "https://en.wikipedia.org/wiki/Order_of_operations#Mnemonics");
 
-            URL_Add("BLAS", "https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms");
-
-            URL_Add("OpenBLAS", "https://en.wikipedia.org/wiki/OpenBLAS");
-
-            URL_Add("CBLAS", "https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms");
-
-            URL_Add("BLIS", "https://en.wikipedia.org/wiki/BLIS_(software)");
-
-            URL_Add("RoHS", "https://en.wikipedia.org/wiki/Restriction_of_Hazardous_Substances_Directive");
-
-            URL_Add("ADSL", "https://en.wikipedia.org/wiki/Asymmetric_Digital_Subscriber_Line");
-
-            URL_Add("D-sub", "https://en.wikipedia.org/wiki/D-subminiature#Communications_ports");
-
-            URL_Add("DB-25", "https://en.wikipedia.org/wiki/D-subminiature#Communications_ports");
-
-            URL_Add("DE-9", "https://en.wikipedia.org/wiki/D-subminiature#Communications_ports");
-
             URL_Add("Arweave", "https://blknoiz06.substack.com/p/quarter-i-2022");
 
             URL_Add("Monte Carlo cross-validation", "https://en.wikipedia.org/wiki/Cross-validation_(statistics)#Repeated_random_sub-sampling_validation");
@@ -135679,8 +135637,6 @@ namespace OverflowHelper.core
             URL_Add("NVG", "https://en.wikipedia.org/wiki/Night_vision#Current_technology");
 
             URL_Add("JUnit Jupiter", "https://junit.org/junit5/docs/current/user-guide/");
-
-            URL_Add("CVS", "https://en.wikipedia.org/wiki/Concurrent_Versions_System");
 
             URL_Add("UriComponentsBuilder", "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/util/UriComponentsBuilder.html");
 
@@ -138138,88 +138094,6 @@ namespace OverflowHelper.core
 
             URL_Add("ivermectin", "https://en.wikipedia.org/wiki/Ivermectin");
 
-            URL_Add("process", "https://en.wiktionary.org/wiki/process#Noun");
-
-            URL_Add("processes", "https://en.wiktionary.org/wiki/process#Noun");
-
-            URL_Add("processed", "https://en.wiktionary.org/wiki/process#Verb");
-
-            URL_Add("in-process", "https://en.wiktionary.org/wiki/in-process#Adjective");
-
-            URL_Add("subprocess", "https://en.wiktionary.org/wiki/subprocess#Noun");
-
-            URL_Add("process substitution", "https://en.wikipedia.org/wiki/Process_substitution");
-
-            URL_Add("thought process", "https://en.wiktionary.org/wiki/thought_process#Noun");
-
-            URL_Add("text processing", "https://en.wikipedia.org/wiki/Text_processing");
-
-            URL_Add("natural language processing", "https://en.wikipedia.org/wiki/Natural_language_processing");
-
-            URL_Add("image processing", "https://en.wikipedia.org/wiki/Image_processing");
-
-            URL_Add("digital signal processing", "https://en.wikipedia.org/wiki/Digital_signal_processing");
-
-            URL_Add("processor", "https://en.wiktionary.org/wiki/processor#Noun");
-
-            URL_Add("payment processor", "https://en.wikipedia.org/wiki/Payment_processor");
-
-            URL_Add("processor affinity", "https://en.wikipedia.org/wiki/Processor_affinity#Specific_operating_systems");
-
-            URL_Add("uniprocessor system", "https://en.wikipedia.org/wiki/Uniprocessor_system");
-
-            URL_Add("inter-processor interrupt", "https://en.wikipedia.org/wiki/Inter-processor_interrupt");
-
-            URL_Add("manycore processor", "https://en.wikipedia.org/wiki/Manycore_processor");
-
-            URL_Add("symmetric multiprocessing", "https://en.wikipedia.org/wiki/Symmetric_multiprocessing");
-
-            URL_Add("inter-process communication", "https://en.wikipedia.org/wiki/Inter-process_communication");
-
-            URL_Add("robotic process automation", "https://en.wikipedia.org/wiki/Robotic_process_automation");
-
-            URL_Add("preprocess", "https://en.wiktionary.org/wiki/preprocess#Verb");
-
-            URL_Add("preprocessed", "https://en.wiktionary.org/wiki/preprocess#Verb");
-
-            URL_Add("preprocessor", "https://en.wikipedia.org/wiki/Preprocessor");
-
-            URL_Add("preprocessors", "https://en.wiktionary.org/wiki/preprocessor#Noun");
-
-            URL_Add("preprocessing", "https://en.wiktionary.org/wiki/preprocess#Verb");
-
-            URL_Add("postprocess", "https://en.wiktionary.org/wiki/postprocess#Verb");
-
-            URL_Add("postprocessing", "https://en.wiktionary.org/wiki/postprocessing#Noun");
-
-            URL_Add("postprocessed", "https://en.wiktionary.org/wiki/postprocess#Verb");
-
-            URL_Add("coprocess", "https://www.gnu.org/software/bash/manual/html_node/Coprocesses.html");
-
-            URL_Add("coprocessor", "https://en.wiktionary.org/wiki/coprocessor#Noun");
-
-            URL_Add("x87 floating-point coprocessor", "https://en.wikipedia.org/wiki/Intel_8087");
-
-            URL_Add("Rational Unified Process", "https://en.wikipedia.org/wiki/Rational_Unified_Process");
-
-            URL_Add("Process&nbsp;Explorer", "https://en.wikipedia.org/wiki/Process_Explorer");
-
-            URL_Add("Process Hacker", "https://processhacker.sourceforge.io/");
-
-            URL_Add("Processing", "https://en.wikipedia.org/wiki/Processing"); // Old: https://en.wikipedia.org/wiki/Processing_%28programming_language%29
-
-            URL_Add("FastCGI Process Manager", "https://en.wikipedia.org/wiki/PHP#Installation_and_configuration");
-
-            URL_Add("Process Monitor", "https://en.wikipedia.org/wiki/Process_Monitor");
-
-            URL_Add("FileMon", "https://en.wikipedia.org/wiki/Process_Monitor#FileMon");
-
-            URL_Add("CPU", "https://en.wikipedia.org/wiki/Central_processing_unit");
-
-            URL_Add("thread affinity", "https://learn.microsoft.com/en-us/windows/win32/procthread/multiple-processors");
-
-            URL_Add("hyper-threading", "https://en.wikipedia.org/wiki/Hyper-threading");
-
             URL_Add("precompiled", "https://en.wiktionary.org/wiki/precompile#Verb");
 
             URL_Add("Sitara", "https://en.wikipedia.org/wiki/Sitara_ARM_Processor");
@@ -138277,26 +138151,6 @@ namespace OverflowHelper.core
             URL_Add("DVD", "https://en.wikipedia.org/wiki/DVD");
 
             URL_Add("CD-ROM", "https://en.wikipedia.org/wiki/CD-ROM");
-
-            URL_Add("symmetric", "https://en.wiktionary.org/wiki/symmetric#Adjective");
-
-            URL_Add("symmetrically", "https://en.wiktionary.org/wiki/symmetrically#Adverb");
-
-            URL_Add("symmetry", "https://en.wiktionary.org/wiki/symmetry#Noun");
-
-            URL_Add("asymmetric", "https://en.wiktionary.org/wiki/asymmetric#Adjective");
-
-            URL_Add("asymmetry", "https://en.wiktionary.org/wiki/asymmetry#Noun");
-
-            URL_Add("asymmetrical", "https://en.wiktionary.org/wiki/asymmetrical#Adjective");
-
-            URL_Add("nonsymmetric", "https://en.wiktionary.org/wiki/nonsymmetric#Adjective");
-
-            URL_Add("antisymmetric", "https://en.wiktionary.org/wiki/antisymmetric#Adjective");
-
-            URL_Add("antisymmetrical", "https://en.wiktionary.org/wiki/antisymmetrical#Adjective");
-
-            URL_Add("antisymmetry", "https://en.wiktionary.org/wiki/antisymmetry#Noun");
 
             URL_Add("Performance Monitor", "https://en.wikipedia.org/wiki/Performance_Monitor");
 
@@ -142374,20 +142228,6 @@ namespace OverflowHelper.core
 
             URL_Add("inequality", "https://en.wikipedia.org/wiki/Inequation");
 
-            URL_Add("collapsar", "https://en.wikipedia.org/wiki/Collapsar");
-
-            URL_Add("Sagittarius A*", "https://en.wikipedia.org/wiki/Sagittarius_A*");
-
-            URL_Add("Schwarzschild metric", "https://en.wikipedia.org/wiki/Schwarzschild_metric");
-
-            URL_Add("Schwarzschild radius", "https://en.wikipedia.org/wiki/Schwarzschild_radius");
-
-            URL_Add("Rohde & Schwarz", "https://en.wikipedia.org/wiki/Rohde_%26_Schwarz");
-
-            URL_Add("Cauchy–Schwarz inequality", "https://en.wikipedia.org/wiki/Cauchy%E2%80%93Schwarz_inequality");
-
-            URL_Add("Bell (CHSH) inequality", "https://en.wikipedia.org/wiki/CHSH_inequality");
-
             URL_Add("linguistics", "https://en.wikipedia.org/wiki/Linguistics");
 
             URL_Add("lingua franca", "https://en.wiktionary.org/wiki/lingua_franca#Noun");
@@ -143961,14 +143801,6 @@ namespace OverflowHelper.core
             URL_Add("word game", "https://en.wiktionary.org/wiki/word_game#Noun");
 
             URL_Add("inverse fast Fourier transform", "https://www.nature.com/articles/s41598-019-50234-9/");
-
-            URL_Add("instrument meteorological conditions", "https://en.wikipedia.org/wiki/Instrument_meteorological_conditions");
-
-            URL_Add("barometric", "https://en.wiktionary.org/wiki/barometric#Adjective");
-
-            URL_Add("minimum safe altitude", "https://en.wikipedia.org/wiki/Lowest_safe_altitude#FAA_definition");
-
-            URL_Add("density altitude", "https://en.wikipedia.org/wiki/Density_altitude");
 
             URL_Add("NTFS", "https://en.wikipedia.org/wiki/NTFS");
 
@@ -147892,34 +147724,6 @@ namespace OverflowHelper.core
 
             URL_Add("Homebrew (executable `brew`)", "https://en.wikipedia.org/wiki/Homebrew_(package_manager)"); // Old: https://en.wikipedia.org/wiki/Homebrew_%28package_management_software%29
 
-            URL_Add("kettle of fish", "https://en.wiktionary.org/wiki/kettle_of_fish#Noun");
-
-            URL_Add("starfish", "https://en.wikipedia.org/wiki/Starfish");
-
-            URL_Add("selfish", "https://en.wiktionary.org/wiki/selfish#Adjective");
-
-            URL_Add("selfishness", "https://en.wiktionary.org/wiki/selfishness#Noun");
-
-            URL_Add("Stockfish", "https://en.wikipedia.org/wiki/Stockfish_%28chess%29");
-
-            URL_Add("GlassFish", "https://en.wikipedia.org/wiki/GlassFish");
-
-            URL_Add("FishEye", "https://en.wikipedia.org/wiki/FishEye_%28software%29");
-
-            URL_Add("Blowfish", "https://en.wikipedia.org/wiki/Blowfish_(cipher)");
-
-            URL_Add("Bluefish", "https://en.wikipedia.org/wiki/Bluefish_(software)");
-
-            URL_Add("Fisher-Price", "https://en.wikipedia.org/wiki/Fisher-Price");
-
-            URL_Add("wheel", "https://en.wikipedia.org/wiki/Wheel_(disambiguation)#Science_and_technology");
-
-            URL_Add("wheel packages", "https://en.wikipedia.org/wiki/Wheel_(disambiguation)#Science_and_technology");
-
-            URL_Add("Wheels Manufacturing", "https://wheelsmfg.com/about-us");
-
-            URL_Add("Wheeler–DeWitt metric", "https://en.wikipedia.org/wiki/Wheeler%E2%80%93DeWitt_equation");
-
             URL_Add("scroll", "https://en.wiktionary.org/wiki/scroll#Verb");
 
             URL_Add("scrollable", "https://en.wiktionary.org/wiki/scrollable#Adjective");
@@ -147965,6 +147769,218 @@ namespace OverflowHelper.core
             URL_Add("StarCraft II", "https://en.wikipedia.org/wiki/StarCraft_II");
 
             URL_Add("no way", "https://en.wiktionary.org/wiki/no_way#Adverb");
+
+            URL_Add("delimit", "https://en.wiktionary.org/wiki/delimit#Verb");
+
+            URL_Add("delimiting", "https://en.wiktionary.org/wiki/delimit#Verb");
+
+            URL_Add("delimited", "https://en.wiktionary.org/wiki/delimit#Verb");
+
+            URL_Add("delimiter", "https://en.wiktionary.org/wiki/delimiter#Noun");
+
+            URL_Add("tab-separated value", "https://en.wikipedia.org/wiki/Tab-separated_values");
+
+            URL_Add("CSV", "https://en.wikipedia.org/wiki/Comma-separated_values");
+
+            URL_Add("metric", "https://en.wiktionary.org/wiki/metric#Noun");
+
+            URL_Add("metric system", "https://en.wikipedia.org/wiki/Metric_system");
+
+            URL_Add("barometric", "https://en.wiktionary.org/wiki/barometric#Adjective");
+
+            URL_Add("Kerr metric", "https://en.wikipedia.org/wiki/Kerr_metric");
+
+            URL_Add("Schwarzschild metric", "https://en.wikipedia.org/wiki/Schwarzschild_metric");
+
+            URL_Add("Schwarzschild radius", "https://en.wikipedia.org/wiki/Schwarzschild_radius");
+
+            URL_Add("Friedmann–Lemaître–Robertson–Walker metric", "https://en.wikipedia.org/wiki/Friedmann%E2%80%93Lema%C3%AEtre%E2%80%93Robertson%E2%80%93Walker_metric");
+
+            URL_Add("Wasserstein metric", "https://en.wikipedia.org/wiki/Wasserstein_metric");
+
+            URL_Add("Wheeler–DeWitt metric", "https://en.wikipedia.org/wiki/Wheeler%E2%80%93DeWitt_equation");
+
+            URL_Add("Minkowski metric", "https://en.wikipedia.org/wiki/Minkowski_space");
+
+            URL_Add("Minkowski space", "https://en.wikipedia.org/wiki/Minkowski_space");
+
+            URL_Add("geometric", "https://en.wiktionary.org/wiki/geometric#Adjective");
+
+            URL_Add("arithmetico-geometric", "https://en.wiktionary.org/wiki/arithmetico-geometric#Adjective");
+
+            URL_Add("symmetric", "https://en.wiktionary.org/wiki/symmetric#Adjective");
+
+            URL_Add("symmetrically", "https://en.wiktionary.org/wiki/symmetrically#Adverb");
+
+            URL_Add("symmetry", "https://en.wiktionary.org/wiki/symmetry#Noun");
+
+            URL_Add("asymmetric", "https://en.wiktionary.org/wiki/asymmetric#Adjective");
+
+            URL_Add("asymmetry", "https://en.wiktionary.org/wiki/asymmetry#Noun");
+
+            URL_Add("asymmetrical", "https://en.wiktionary.org/wiki/asymmetrical#Adjective");
+
+            URL_Add("nonsymmetric", "https://en.wiktionary.org/wiki/nonsymmetric#Adjective");
+
+            URL_Add("antisymmetric", "https://en.wiktionary.org/wiki/antisymmetric#Adjective");
+
+            URL_Add("antisymmetrical", "https://en.wiktionary.org/wiki/antisymmetrical#Adjective");
+
+            URL_Add("antisymmetry", "https://en.wiktionary.org/wiki/antisymmetry#Noun");
+
+            URL_Add("rotational symmetric", "https://en.wikipedia.org/wiki/Rotational_symmetry");
+
+            URL_Add("symmetric multiprocessing", "https://en.wikipedia.org/wiki/Symmetric_multiprocessing");
+
+            URL_Add("2001: A Space Odyssey", "https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey");
+
+            URL_Add("it's full of stars!", "https://en.wikiquote.org/wiki/2001:_A_Space_Odyssey_(film)#Misattributed");
+
+            URL_Add("Space: 1999", "https://en.wikipedia.org/wiki/Space%3A_1999");
+
+            URL_Add("Kerbal Space Program", "https://en.wikipedia.org/wiki/Kerbal_Space_Program");
+
+            URL_Add("Space Marine", "https://en.wikipedia.org/wiki/Space_Marine_(Warhammer_40,000)");
+
+            URL_Add("BLAS", "https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms");
+
+            URL_Add("OpenBLAS", "https://en.wikipedia.org/wiki/OpenBLAS");
+
+            URL_Add("CBLAS", "https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms");
+
+            URL_Add("BLIS", "https://en.wikipedia.org/wiki/BLIS_(software)");
+
+            URL_Add("RoHS", "https://en.wikipedia.org/wiki/Restriction_of_Hazardous_Substances_Directive");
+
+            URL_Add("ADSL", "https://en.wikipedia.org/wiki/Asymmetric_Digital_Subscriber_Line");
+
+            URL_Add("D-sub", "https://en.wikipedia.org/wiki/D-subminiature#Communications_ports");
+
+            URL_Add("DB-25", "https://en.wikipedia.org/wiki/D-subminiature#Communications_ports");
+
+            URL_Add("DE-9", "https://en.wikipedia.org/wiki/D-subminiature#Communications_ports");
+
+            URL_Add("process", "https://en.wiktionary.org/wiki/process#Noun");
+
+            URL_Add("processes", "https://en.wiktionary.org/wiki/process#Noun");
+
+            URL_Add("processed", "https://en.wiktionary.org/wiki/process#Verb");
+
+            URL_Add("in-process", "https://en.wiktionary.org/wiki/in-process#Adjective");
+
+            URL_Add("subprocess", "https://en.wiktionary.org/wiki/subprocess#Noun");
+
+            URL_Add("process substitution", "https://en.wikipedia.org/wiki/Process_substitution");
+
+            URL_Add("thought process", "https://en.wiktionary.org/wiki/thought_process#Noun");
+
+            URL_Add("text processing", "https://en.wikipedia.org/wiki/Text_processing");
+
+            URL_Add("natural language processing", "https://en.wikipedia.org/wiki/Natural_language_processing");
+
+            URL_Add("image processing", "https://en.wikipedia.org/wiki/Image_processing");
+
+            URL_Add("digital signal processing", "https://en.wikipedia.org/wiki/Digital_signal_processing");
+
+            URL_Add("processor", "https://en.wiktionary.org/wiki/processor#Noun");
+
+            URL_Add("payment processor", "https://en.wikipedia.org/wiki/Payment_processor");
+
+            URL_Add("processor affinity", "https://en.wikipedia.org/wiki/Processor_affinity#Specific_operating_systems");
+
+            URL_Add("uniprocessor system", "https://en.wikipedia.org/wiki/Uniprocessor_system");
+
+            URL_Add("inter-processor interrupt", "https://en.wikipedia.org/wiki/Inter-processor_interrupt");
+
+            URL_Add("manycore processor", "https://en.wikipedia.org/wiki/Manycore_processor");
+
+            URL_Add("inter-process communication", "https://en.wikipedia.org/wiki/Inter-process_communication");
+
+            URL_Add("robotic process automation", "https://en.wikipedia.org/wiki/Robotic_process_automation");
+
+            URL_Add("preprocess", "https://en.wiktionary.org/wiki/preprocess#Verb");
+
+            URL_Add("preprocessed", "https://en.wiktionary.org/wiki/preprocess#Verb");
+
+            URL_Add("preprocessor", "https://en.wikipedia.org/wiki/Preprocessor");
+
+            URL_Add("preprocessors", "https://en.wiktionary.org/wiki/preprocessor#Noun");
+
+            URL_Add("preprocessing", "https://en.wiktionary.org/wiki/preprocess#Verb");
+
+            URL_Add("postprocess", "https://en.wiktionary.org/wiki/postprocess#Verb");
+
+            URL_Add("postprocessing", "https://en.wiktionary.org/wiki/postprocessing#Noun");
+
+            URL_Add("postprocessed", "https://en.wiktionary.org/wiki/postprocess#Verb");
+
+            URL_Add("coprocess", "https://www.gnu.org/software/bash/manual/html_node/Coprocesses.html");
+
+            URL_Add("coprocessor", "https://en.wiktionary.org/wiki/coprocessor#Noun");
+
+            URL_Add("x87 floating-point coprocessor", "https://en.wikipedia.org/wiki/Intel_8087");
+
+            URL_Add("Rational Unified Process", "https://en.wikipedia.org/wiki/Rational_Unified_Process");
+
+            URL_Add("Process&nbsp;Explorer", "https://en.wikipedia.org/wiki/Process_Explorer");
+
+            URL_Add("Process Hacker", "https://processhacker.sourceforge.io/");
+
+            URL_Add("Processing", "https://en.wikipedia.org/wiki/Processing"); // Old: https://en.wikipedia.org/wiki/Processing_%28programming_language%29
+
+            URL_Add("FastCGI Process Manager", "https://en.wikipedia.org/wiki/PHP#Installation_and_configuration");
+
+            URL_Add("Process Monitor", "https://en.wikipedia.org/wiki/Process_Monitor");
+
+            URL_Add("FileMon", "https://en.wikipedia.org/wiki/Process_Monitor#FileMon");
+
+            URL_Add("CPU", "https://en.wikipedia.org/wiki/Central_processing_unit");
+
+            URL_Add("thread affinity", "https://learn.microsoft.com/en-us/windows/win32/procthread/multiple-processors");
+
+            URL_Add("hyper-threading", "https://en.wikipedia.org/wiki/Hyper-threading");
+
+            URL_Add("collapsar", "https://en.wikipedia.org/wiki/Collapsar");
+
+            URL_Add("Sagittarius A*", "https://en.wikipedia.org/wiki/Sagittarius_A*");
+
+            URL_Add("Rohde & Schwarz", "https://en.wikipedia.org/wiki/Rohde_%26_Schwarz");
+
+            URL_Add("Cauchy–Schwarz inequality", "https://en.wikipedia.org/wiki/Cauchy%E2%80%93Schwarz_inequality");
+
+            URL_Add("Bell (CHSH) inequality", "https://en.wikipedia.org/wiki/CHSH_inequality");
+
+            URL_Add("instrument meteorological conditions", "https://en.wikipedia.org/wiki/Instrument_meteorological_conditions");
+
+            URL_Add("minimum safe altitude", "https://en.wikipedia.org/wiki/Lowest_safe_altitude#FAA_definition");
+
+            URL_Add("density altitude", "https://en.wikipedia.org/wiki/Density_altitude");
+
+            URL_Add("kettle of fish", "https://en.wiktionary.org/wiki/kettle_of_fish#Noun");
+
+            URL_Add("starfish", "https://en.wikipedia.org/wiki/Starfish");
+
+            URL_Add("selfish", "https://en.wiktionary.org/wiki/selfish#Adjective");
+
+            URL_Add("selfishness", "https://en.wiktionary.org/wiki/selfishness#Noun");
+
+            URL_Add("Stockfish", "https://en.wikipedia.org/wiki/Stockfish_%28chess%29");
+
+            URL_Add("GlassFish", "https://en.wikipedia.org/wiki/GlassFish");
+
+            URL_Add("FishEye", "https://en.wikipedia.org/wiki/FishEye_%28software%29");
+
+            URL_Add("Blowfish", "https://en.wikipedia.org/wiki/Blowfish_(cipher)");
+
+            URL_Add("Bluefish", "https://en.wikipedia.org/wiki/Bluefish_(software)");
+
+            URL_Add("Fisher-Price", "https://en.wikipedia.org/wiki/Fisher-Price");
+
+            URL_Add("wheel", "https://en.wikipedia.org/wiki/Wheel_(disambiguation)#Science_and_technology");
+
+            URL_Add("wheel packages", "https://en.wikipedia.org/wiki/Wheel_(disambiguation)#Science_and_technology");
+
+            URL_Add("Wheels Manufacturing", "https://wheelsmfg.com/about-us");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -178295,6 +178311,10 @@ namespace OverflowHelper.core
             correctionAdd("OC____", "open collector____");
             correctionAdd("oc____", "open collector____");
 
+            correctionAdd("cvs____", "CVS____");
+            correctionAdd("CSV____", "CVS____"); // A true typo
+            correctionAdd("csv____", "CVS____"); // A true typo (of the misspelling "cvs")
+
             // For the cross-reference to the default keymap
             // Note: In Git branch "wireless_playground"
             //
@@ -179865,6 +179885,8 @@ namespace OverflowHelper.core
             URL_Add("firmware for the Keychron Bluetooth/'2.4 GHz' internal module for wireless communication____", "https://www.keychron.com/pages/how-to-flash-the-firmware-for-the-keychron-receiver");
 
             URL_Add("disabled Via by default____", "https://www.reddit.com/r/olkb/comments/1ezxvwt/comment/lkhpen0/");
+
+            URL_Add("CVS____", "https://en.wikipedia.org/wiki/Concurrent_Versions_System");
 
         } //addLookupData_alternativeWordSet4()
 
