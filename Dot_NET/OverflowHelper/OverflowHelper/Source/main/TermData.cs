@@ -6991,6 +6991,10 @@ namespace OverflowHelper.core
             correctionAdd("Binary tree", "binary tree");
             correctionAdd("bin tree", "binary tree");
 
+            // Note: "postscript" is in an alternative word set
+            //
+            correctionAdd("eps", "EPS"); // Encapsulated PostScript
+
             correctionAdd("Pdf", "PDF");
             correctionAdd("pdf", "PDF");
 
@@ -7232,6 +7236,7 @@ namespace OverflowHelper.core
             correctionAdd("bauderate", "baud rate");
             correctionAdd("baut rate", "baud rate");
             correctionAdd("baud-rate", "baud rate");
+            correctionAdd("Baud-rate", "baud rate");
             correctionAdd("BaudRate", "baud rate");
             correctionAdd("baudRate", "baud rate");
             correctionAdd("baudrate", "baud rate");
@@ -15833,6 +15838,7 @@ namespace OverflowHelper.core
             // With ls cat, ls, rm, etc.
             correctionAdd("Core Utilities", "GNU Core Utilities");
             correctionAdd("GNU coreutils", "GNU Core Utilities");
+            correctionAdd("GNU Coreutils", "GNU Core Utilities");
             correctionAdd("coreutils", "GNU Core Utilities");
             correctionAdd("GNU utils", "GNU Core Utilities");
 
@@ -16586,12 +16592,15 @@ namespace OverflowHelper.core
             correctionAdd("Unix timestamp", "Unix time");
             correctionAdd("unix timestamp", "Unix time");
             correctionAdd("UNIX Timestamp", "Unix time");
+            correctionAdd("Unix Timestamp", "Unix time");
             correctionAdd("unix time", "Unix time");
             correctionAdd("UNIX time", "Unix time");
             correctionAdd("Unix Time", "Unix time");
             correctionAdd("unix Time", "Unix time");
+            correctionAdd("UNIX TIME", "Unix time");
             correctionAdd("UnixTime", "Unix time");
             correctionAdd("unixTime", "Unix time");
+            correctionAdd("UNIXTIME", "Unix time");
 
             // Unix time (Linux)
             correctionAdd("the Unix epoch", "Epoch time");
@@ -22133,6 +22142,8 @@ namespace OverflowHelper.core
             correctionAdd("non-important", "nonimportant");
             correctionAdd("non important", "nonimportant");
 
+            correctionAdd("inportantly", "importantly");
+
             correctionAdd("tar pit", "tarpit");
 
             // The adverb
@@ -23292,6 +23303,7 @@ namespace OverflowHelper.core
             correctionAdd("time-stamps", "timestamps");
             correctionAdd("Time stamps", "timestamps");
             correctionAdd("Time-stamps", "timestamps");
+            correctionAdd("timestapms", "timestamps");
 
             correctionAdd("time span", "timespan");
 
@@ -38116,8 +38128,11 @@ namespace OverflowHelper.core
             correctionAdd("Datagrip", "DataGrip");
             correctionAdd("datagrip", "DataGrip");
 
+            correctionAdd("dynamo db", "DynamoDB");
             correctionAdd("DynamoDb", "DynamoDB");
             correctionAdd("Dynamodb", "DynamoDB");
+            correctionAdd("dynamoDB", "DynamoDB");
+            correctionAdd("dynamodb", "DynamoDB");
 
             correctionAdd("bigchaindb", "BigchainDB");
             correctionAdd("Bigchaindb", "BigchainDB");
@@ -59506,6 +59521,9 @@ namespace OverflowHelper.core
             correctionAdd("maintener", "maintainer");
             correctionAdd("mantainer", "maintainer");
 
+            correctionAdd("non-maintained", "unmaintained");
+            correctionAdd("nonmaintained", "unmaintained");
+            correctionAdd("un-maintained", "unmaintained");
             correctionAdd("unmaintaned", "unmaintained");
 
             correctionAdd("unmatainable", "unmaintainable");
@@ -59550,6 +59568,7 @@ namespace OverflowHelper.core
             correctionAdd("defs", "definitions");
 
             correctionAdd("definitiev", "definitive");
+            correctionAdd("definative", "definitive");
             correctionAdd("definitve", "definitive");
 
             correctionAdd("definitviely", "definitively");
@@ -60784,6 +60803,7 @@ namespace OverflowHelper.core
             correctionAdd("the toolbox", "QMK Toolbox");
             correctionAdd("GMK Toolbox", "QMK Toolbox");
             correctionAdd("qmk toolbox", "QMK Toolbox");
+            correctionAdd("QMK-toolbox", "QMK Toolbox");
             correctionAdd("QMKToolbox", "QMK Toolbox");
             correctionAdd("toolbox", "QMK Toolbox");
             correctionAdd("QMX", "QMK Toolbox"); // A SIA...
@@ -62012,6 +62032,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("the exotic option", "Sonix QMK");
             correctionAdd("the exotic route", "Sonix QMK");
+            correctionAdd("The exotic route", "Sonix QMK");
             correctionAdd("an exotic option", "Sonix QMK");
             correctionAdd("an exotic route", "Sonix QMK");
             correctionAdd("The exotic way", "Sonix QMK");
@@ -67596,6 +67617,7 @@ namespace OverflowHelper.core
             correctionAdd("lang-rust", "```lang-rust");
             correctionAdd("'''rust", "```lang-rust");
             correctionAdd("```rust", "```lang-rust");
+            correctionAdd("```Rust", "```lang-rust");
 
             correctionAdd("lang-haskell", "```lang-haskell");
             correctionAdd("```lang-hs", "```lang-haskell");
@@ -67635,9 +67657,12 @@ namespace OverflowHelper.core
             correctionAdd("suppresed", "suppressed");
             correctionAdd("supressed", "suppressed");
 
-            correctionAdd("Encapsulation", "encapsulation");
+            correctionAdd("encapusulating", "encapsulating");
+            correctionAdd("Encapusulating", "encapsulating");
 
             correctionAdd("incapsulated", "encapsulated");
+
+            correctionAdd("Encapsulation", "encapsulation");
 
             correctionAdd("repliing", "replying");
 
@@ -69519,6 +69544,7 @@ namespace OverflowHelper.core
             correctionAdd("run on", "run-on sentence"); // For expansion
             correctionAdd("run-on", "run-on sentence");
             correctionAdd("Run on", "run-on sentence");
+            correctionAdd("Run-on", "run-on sentence");
             correctionAdd("runon", "run-on sentence"); // For expansion
 
             // Alternative URLs:
@@ -77581,6 +77607,7 @@ namespace OverflowHelper.core
             correctionAdd("Custom", "custom");
             correctionAdd("Custum", "custom");
             correctionAdd("cuatom", "custom");
+            correctionAdd("cutsom", "custom");
             correctionAdd("kusto", "custom");
             correctionAdd("Cutom", "custom");
             correctionAdd("cutom", "custom");
@@ -78091,6 +78118,7 @@ namespace OverflowHelper.core
             correctionAdd("traget", "target");
             correctionAdd("Target", "target");
             correctionAdd("taget", "target");
+            correctionAdd("tgt", "target");
 
             correctionAdd("targetted", "targeted");
 
@@ -80466,6 +80494,7 @@ namespace OverflowHelper.core
             //   <https://en.wikipedia.org/wiki/Barcode>
             //
             correctionAdd("bar code", "barcode");
+            correctionAdd("Bar code", "barcode");
 
             correctionAdd("qr code", "QR code");
             correctionAdd("QR-code", "QR code");
@@ -92918,6 +92947,7 @@ namespace OverflowHelper.core
 
             correctionAdd("telle", "tell");
             correctionAdd("tall", "tell");
+            correctionAdd("trll", "tell");
             correctionAdd("tel", "tell");
 
             correctionAdd("tell's", "tells");
@@ -98891,6 +98921,8 @@ namespace OverflowHelper.core
             correctionAdd("gawk", "Gawk");
             correctionAdd("GAWK", "Gawk");
 
+            correctionAdd("NAWK", "nawk");
+
             correctionAdd("tcl", "Tcl");
             correctionAdd("TCL", "Tcl");
 
@@ -99718,8 +99750,6 @@ namespace OverflowHelper.core
             correctionAdd("sparkfun", "SparkFun");
             correctionAdd("Sparkfun", "SparkFun");
             correctionAdd("SPARKFUN", "SparkFun");
-
-            correctionAdd("eps", "EPS"); // Encapsulated PostScript
 
             correctionAdd("myfaces", "MyFaces");
 
@@ -107792,8 +107822,6 @@ namespace OverflowHelper.core
 
             URL_Add("achieve", "https://en.wiktionary.org/wiki/achieve#Verb");
 
-            URL_Add("awkward", "https://en.wiktionary.org/wiki/awkward#Adjective");
-
             URL_Add("beforehand", "https://en.wiktionary.org/wiki/beforehand#Adverb");
 
             URL_Add("behaviour", "https://en.wiktionary.org/wiki/behaviour#Noun");
@@ -112636,8 +112664,6 @@ namespace OverflowHelper.core
 
             URL_Add("Vidit Gujrathi", "https://en.wikipedia.org/wiki/Vidit_Gujrathi");
 
-            URL_Add("Stephen Hawking", "https://en.wikipedia.org/wiki/Stephen_Hawking");
-
             URL_Add("PITA", "https://en.wiktionary.org/wiki/PITA#Noun");
 
             URL_Add("controllable", "https://en.wiktionary.org/wiki/controllable#Adjective");
@@ -115280,8 +115306,6 @@ namespace OverflowHelper.core
 
             URL_Add("Dobsonian telescope", "https://en.wikipedia.org/wiki/Dobsonian_telescope");
 
-            URL_Add("Gawk", "https://en.wikipedia.org/wiki/AWK#Versions_and_implementations");
-
             URL_Add("Google Apps Script", "https://en.wikipedia.org/wiki/Google_Apps_Script");
 
             URL_Add("Poynting's theorem", "https://en.wikipedia.org/wiki/Poynting's_theorem");
@@ -115801,10 +115825,6 @@ namespace OverflowHelper.core
             URL_Add("unofficial", "https://en.wiktionary.org/wiki/unofficial#Adjective");
 
             URL_Add("Cardano", "https://en.wikipedia.org/wiki/Cardano_(blockchain_platform)");
-
-            URL_Add("Centaurus A", "https://en.wikipedia.org/wiki/Centaurus_A");
-
-            URL_Add("Hawking radiation", "https://en.wikipedia.org/wiki/Hawking_radiation");
 
             URL_Add("boys", "https://en.wiktionary.org/wiki/boy#Noun");
 
@@ -118195,8 +118215,6 @@ namespace OverflowHelper.core
             URL_Add("theoretic", "https://en.wiktionary.org/wiki/theoretic#Adjective");
 
             URL_Add("the Stack Overflow blog", "https://stackoverflow.blog/");
-
-            URL_Add("awkwardly", "https://en.wiktionary.org/wiki/awkwardly#Adverb");
 
             URL_Add("dBase", "https://en.wikipedia.org/wiki/DBase");
 
@@ -122627,8 +122645,6 @@ namespace OverflowHelper.core
             URL_Add("threads", "https://en.wiktionary.org/wiki/thread#Noun");
 
             URL_Add("birthday", "https://en.wiktionary.org/wiki/birthday#Noun");
-
-            URL_Add("Penrose–Hawking singularity theorems", "https://en.wikipedia.org/wiki/Penrose%E2%80%93Hawking_singularity_theorems");
 
             URL_Add("unpythonic", "https://en.wiktionary.org/wiki/unpythonic#Adjective");
 
@@ -130206,7 +130222,23 @@ namespace OverflowHelper.core
 
             URL_Add("GBK", "https://en.wikipedia.org/wiki/GBK_(character_encoding)");
 
+            URL_Add("Centaurus A", "https://en.wikipedia.org/wiki/Centaurus_A");
+
+            URL_Add("Stephen Hawking", "https://en.wikipedia.org/wiki/Stephen_Hawking");
+
+            URL_Add("Hawking radiation", "https://en.wikipedia.org/wiki/Hawking_radiation");
+
+            URL_Add("Penrose–Hawking singularity theorems", "https://en.wikipedia.org/wiki/Penrose%E2%80%93Hawking_singularity_theorems");
+
+            URL_Add("awkward", "https://en.wiktionary.org/wiki/awkward#Adjective");
+
+            URL_Add("awkwardly", "https://en.wiktionary.org/wiki/awkwardly#Adverb");
+
             URL_Add("AWK", "https://en.wikipedia.org/wiki/AWK");
+
+            URL_Add("Gawk", "https://en.wikipedia.org/wiki/AWK#Versions_and_implementations");
+
+            URL_Add("nawk", "https://en.wikipedia.org/wiki/AWK#History");
 
             URL_Add("Tcl", "https://en.wikipedia.org/wiki/Tcl");
 
@@ -131891,8 +131923,6 @@ namespace OverflowHelper.core
             URL_Add("PsTools", "https://learn.microsoft.com/en-us/sysinternals/downloads/pstools");
 
             URL_Add("kernel extension", "https://en.wikipedia.org/wiki/Loadable_kernel_module");
-
-            URL_Add("Bazecor", "https://www.reddit.com/r/DygmaLab/comments/15hzxj4/important_download_bazecor_132/");
 
             URL_Add("boot manager", "https://en.wikipedia.org/wiki/Bootloader");
 
@@ -136168,28 +136198,6 @@ namespace OverflowHelper.core
 
             URL_Add("defaultdict", "https://docs.python.org/3/library/collections.html#collections.defaultdict");
 
-            URL_Add("importing", "https://en.wiktionary.org/wiki/import#Verb");
-
-            URL_Add("imported", "https://en.wiktionary.org/wiki/import#Verb");
-
-            URL_Add("reimport", "https://en.wiktionary.org/wiki/reimport#Verb");
-
-            URL_Add("reimporting", "https://en.wiktionary.org/wiki/reimport#Verb");
-
-            URL_Add("important", "https://en.wiktionary.org/wiki/important#Adjective");
-
-            URL_Add("nonimportant", "https://en.wiktionary.org/wiki/nonimportant#Adjective");
-
-            URL_Add("Open Asset Import Library", "https://en.wikipedia.org/wiki/Open_Asset_Import_Library");
-
-            URL_Add("nonexportable", "https://en.wiktionary.org/wiki/nonexportable#Adjective");
-
-            URL_Add("reexport", "https://en.wiktionary.org/wiki/reexport#Verb");
-
-            URL_Add("stylesheet export file", "https://www.saxonica.com/documentation10/#!using-xsl/compiling");
-
-            URL_Add(".NET native exports", "https://github.com/AaronRobinsonMSFT/DNNE");
-
             URL_Add("protection", "https://en.wiktionary.org/wiki/protection#Noun");
 
             URL_Add("antitamper", "https://en.wiktionary.org/wiki/antitamper#Adjective");
@@ -138512,18 +138520,6 @@ namespace OverflowHelper.core
 
             URL_Add("Connect-AzureAD", "https://docs.microsoft.com/en-us/powershell/module/azuread/connect-azuread");
 
-            URL_Add("Import-Clixml", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/Import-Clixml");
-
-            URL_Add("Import-Module", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/import-module");
-
-            URL_Add("Import-Csv", "https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.utility/Import-Csv"); // Old: https://technet.microsoft.com/en-us/library/hh849891.aspx
-
-            URL_Add("Export-Clixml", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/export-clixml");
-
-            URL_Add("Export-ModuleMember", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/export-modulemember");
-
-            URL_Add("Export-Csv", "https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.utility/Export-Csv"); // Old URL: https://technet.microsoft.com/en-us/library/hh849932.aspx
-
             URL_Add("Console.WriteLine", "https://learn.microsoft.com/en-us/dotnet/api/system.console.writeline");
 
             URL_Add("Start-Job", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/start-job");
@@ -138569,6 +138565,18 @@ namespace OverflowHelper.core
             URL_Add("Write-Debug", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/write-debug");
 
             URL_Add("Set-PSDebug", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Core/Set-PSDebug");
+
+            URL_Add("Export-Clixml", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/export-clixml");
+
+            URL_Add("Export-ModuleMember", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/export-modulemember");
+
+            URL_Add("Export-Csv", "https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.utility/Export-Csv"); // Old URL: https://technet.microsoft.com/en-us/library/hh849932.aspx
+
+            URL_Add("Import-Clixml", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/Import-Clixml");
+
+            URL_Add("Import-Module", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/import-module");
+
+            URL_Add("Import-Csv", "https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.utility/Import-Csv"); // Old: https://technet.microsoft.com/en-us/library/hh849891.aspx
 
             URL_Add("PowerShell Core", "https://en.wikipedia.org/wiki/PowerShell#PowerShell_Core_6.0");
 
@@ -147982,6 +147990,34 @@ namespace OverflowHelper.core
 
             URL_Add("Wheels Manufacturing", "https://wheelsmfg.com/about-us");
 
+            URL_Add("encapsulating", "https://en.wiktionary.org/wiki/encapsulate#Verb");
+
+            URL_Add("importantly", "https://en.wiktionary.org/wiki/importantly#Adverb");
+
+            URL_Add("importing", "https://en.wiktionary.org/wiki/import#Verb");
+
+            URL_Add("imported", "https://en.wiktionary.org/wiki/import#Verb");
+
+            URL_Add("reimport", "https://en.wiktionary.org/wiki/reimport#Verb");
+
+            URL_Add("reimporting", "https://en.wiktionary.org/wiki/reimport#Verb");
+
+            URL_Add("important", "https://en.wiktionary.org/wiki/important#Adjective");
+
+            URL_Add("nonimportant", "https://en.wiktionary.org/wiki/nonimportant#Adjective");
+
+            URL_Add("Open Asset Import Library", "https://en.wikipedia.org/wiki/Open_Asset_Import_Library");
+
+            URL_Add("nonexportable", "https://en.wiktionary.org/wiki/nonexportable#Adjective");
+
+            URL_Add("reexport", "https://en.wiktionary.org/wiki/reexport#Verb");
+
+            URL_Add("stylesheet export file", "https://www.saxonica.com/documentation10/#!using-xsl/compiling");
+
+            URL_Add(".NET native exports", "https://github.com/AaronRobinsonMSFT/DNNE");
+
+            URL_Add("Bazecor", "https://www.reddit.com/r/DygmaLab/comments/15hzxj4/important_download_bazecor_132/");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -149311,6 +149347,9 @@ namespace OverflowHelper.core
             //
             correctionAdd("background_", "bg_");
 
+            // Linux / Unix
+            correctionAdd("AT_", "at_");
+
             // The Linux/Unix utility
             //
             // Alternative URLs:
@@ -149413,6 +149452,63 @@ namespace OverflowHelper.core
 
             // Linux (kernel?)
             correctionAdd("symlink_", "symlink()_");
+
+            correctionAdd("Summoning_", "summoning_");
+
+            correctionAdd("timeout_", "time out_");
+
+            // Mostly for the alternative URL
+            correctionAdd("timezone_", "time zone_");
+
+            correctionAdd("daylight saving time_", "summer time in Europe_");
+            correctionAdd("summer time_", "summer time in Europe_");
+            correctionAdd("summertime_", "summer time in Europe_");
+
+            // A time zone
+            correctionAdd("British Standard Time_", "British Summer Time_");
+            correctionAdd("BST_", "British Summer Time_");
+
+            correctionAdd("MSK_", "Moscow time zone_");
+
+            correctionAdd("DATE_", "date_");
+
+            correctionAdd("timestamp_", "ISO&nbsp;8601_");
+            correctionAdd("iso 8601_", "ISO&nbsp;8601_");
+            correctionAdd("ISO 8601_", "ISO&nbsp;8601_");
+            correctionAdd("ISO-8601_", "ISO&nbsp;8601_");
+            correctionAdd("iso-8601_", "ISO&nbsp;8601_");
+            correctionAdd("ISO 8901_", "ISO&nbsp;8601_");
+            correctionAdd("ISO date_", "ISO&nbsp;8601_");
+            correctionAdd("ISO8601_", "ISO&nbsp;8601_");
+            correctionAdd("iso8601_", "ISO&nbsp;8601_");
+            correctionAdd("8601_", "ISO&nbsp;8601_");
+            correctionAdd("8901_", "ISO&nbsp;8601_");
+            correctionAdd("ISO_", "ISO&nbsp;8601_");
+            correctionAdd("Iso_", "ISO&nbsp;8601_");
+
+            correctionAdd("canadates_", "candidates_");
+            correctionAdd("Canadates_", "candidates_");
+
+            correctionAdd("some times_", "some time_");
+            correctionAdd("sometime_", "some time_");
+
+            correctionAdd("one time programmable_", "OTP_");
+            correctionAdd("otp_", "OTP_");
+
+            correctionAdd("onces_", "ones_");
+
+            correctionAdd("one off_", "one-off_");
+
+            correctionAdd("one line_", "one-line_");
+            correctionAdd("1 line_", "one-line_");
+            correctionAdd("1-line_", "one-line_");
+
+            correctionAdd("tenth_", "one-tenth_");
+
+            correctionAdd("runtime_", "run-time_");
+
+            correctionAdd("Overtime_", "overtime_");
+            correctionAdd("OT_", "overtime_");
 
             correctionAdd("CMs_", "Community Manager_"); // Not 100% correct - plural.
             correctionAdd("CM_", "Community Manager_");
@@ -157214,6 +157310,7 @@ namespace OverflowHelper.core
             correctionAdd("harwdware_", "hardware_");
             correctionAdd("hardwares_", "hardware_");
             correctionAdd("hardwarws_", "hardware_");
+            correctionAdd("hardeware_", "hardware_");
             correctionAdd("Hardware_", "hardware_");
             correctionAdd("harwade_", "hardware_");
             correctionAdd("H/W_", "hardware_");
@@ -157951,58 +158048,6 @@ namespace OverflowHelper.core
 
             // Music
             correctionAdd("Choir_", "choir_");
-
-            correctionAdd("Summoning_", "summoning_");
-
-            correctionAdd("timeout_", "time out_");
-
-            // Mostly for the alternative URL
-            correctionAdd("timezone_", "time zone_");
-
-            correctionAdd("daylight saving time_", "summer time in Europe_");
-            correctionAdd("summer time_", "summer time in Europe_");
-            correctionAdd("summertime_", "summer time in Europe_");
-
-            // A time zone
-            correctionAdd("British Standard Time_", "British Summer Time_");
-            correctionAdd("BST_", "British Summer Time_");
-
-            correctionAdd("MSK_", "Moscow time zone_");
-
-            correctionAdd("timestamp_", "ISO&nbsp;8601_");
-            correctionAdd("iso 8601_", "ISO&nbsp;8601_");
-            correctionAdd("ISO 8601_", "ISO&nbsp;8601_");
-            correctionAdd("ISO-8601_", "ISO&nbsp;8601_");
-            correctionAdd("iso-8601_", "ISO&nbsp;8601_");
-            correctionAdd("ISO 8901_", "ISO&nbsp;8601_");
-            correctionAdd("ISO date_", "ISO&nbsp;8601_");
-            correctionAdd("ISO8601_", "ISO&nbsp;8601_");
-            correctionAdd("iso8601_", "ISO&nbsp;8601_");
-            correctionAdd("8601_", "ISO&nbsp;8601_");
-            correctionAdd("8901_", "ISO&nbsp;8601_");
-            correctionAdd("ISO_", "ISO&nbsp;8601_");
-            correctionAdd("Iso_", "ISO&nbsp;8601_");
-
-            correctionAdd("some times_", "some time_");
-            correctionAdd("sometime_", "some time_");
-
-            correctionAdd("one time programmable_", "OTP_");
-            correctionAdd("otp_", "OTP_");
-
-            correctionAdd("onces_", "ones_");
-
-            correctionAdd("one off_", "one-off_");
-
-            correctionAdd("one line_", "one-line_");
-            correctionAdd("1 line_", "one-line_");
-            correctionAdd("1-line_", "one-line_");
-
-            correctionAdd("tenth_", "one-tenth_");
-
-            correctionAdd("runtime_", "run-time_");
-
-            correctionAdd("Overtime_", "overtime_");
-            correctionAdd("OT_", "overtime_");
 
             correctionAdd("AoE_", "ATA over Ethernet_");
 
@@ -158921,22 +158966,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Philosophy_", "Philosophy (Stack Exchange site)_");
 
-            correctionAdd("Cross Validated (Stack Exchange site)_", "Cross&nbsp;Validated (Stack Exchange site)_");
-            correctionAdd("stats.stackexchange.com_", "Cross&nbsp;Validated (Stack Exchange site)_");
-            correctionAdd("Stats Stack Exchange_", "Cross&nbsp;Validated (Stack Exchange site)_");
-            correctionAdd("Cross&nbsp;Validated_", "Cross&nbsp;Validated (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("Stats stackexchange_", "Cross&nbsp;Validated (Stack Exchange site)_");
-            correctionAdd("CrossValidated.SE_", "Cross&nbsp;Validated (Stack Exchange site)_");
-            correctionAdd("cross-validated_", "Cross&nbsp;Validated (Stack Exchange site)_");
-            correctionAdd("Cross validated_", "Cross&nbsp;Validated (Stack Exchange site)_");
-            correctionAdd("Cross Validated_", "Cross&nbsp;Validated (Stack Exchange site)_");
-            correctionAdd("cross validated_", "Cross&nbsp;Validated (Stack Exchange site)_");
-            correctionAdd("CrossValidated_", "Cross&nbsp;Validated (Stack Exchange site)_");
-            correctionAdd("stats.SE_", "Cross&nbsp;Validated (Stack Exchange site)_");
-            correctionAdd("Stats.SE_", "Cross&nbsp;Validated (Stack Exchange site)_");
-            correctionAdd("stats_", "Cross&nbsp;Validated (Stack Exchange site)_");
-            correctionAdd("Stats_", "Cross&nbsp;Validated (Stack Exchange site)_");
-
             correctionAdd("devops.se_", "DevOps (Stack Exchange site)_");
             correctionAdd("devops.SE_", "DevOps (Stack Exchange site)_");
             correctionAdd("DevOps_", "DevOps (Stack Exchange site)_");
@@ -159141,6 +159170,22 @@ namespace OverflowHelper.core
             correctionAdd("sw recs_", "Software&nbsp;Recommendations (Stack Exchange site)_");
             correctionAdd("swrecs_", "Software&nbsp;Recommendations (Stack Exchange site)_");
             correctionAdd("SR_", "Software&nbsp;Recommendations (Stack Exchange site)_");
+
+            correctionAdd("Cross Validated (Stack Exchange site)_", "Cross&nbsp;Validated (Stack Exchange site)_");
+            correctionAdd("stats.stackexchange.com_", "Cross&nbsp;Validated (Stack Exchange site)_");
+            correctionAdd("Stats Stack Exchange_", "Cross&nbsp;Validated (Stack Exchange site)_");
+            correctionAdd("Cross&nbsp;Validated_", "Cross&nbsp;Validated (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("Stats stackexchange_", "Cross&nbsp;Validated (Stack Exchange site)_");
+            correctionAdd("CrossValidated.SE_", "Cross&nbsp;Validated (Stack Exchange site)_");
+            correctionAdd("cross-validated_", "Cross&nbsp;Validated (Stack Exchange site)_");
+            correctionAdd("Cross validated_", "Cross&nbsp;Validated (Stack Exchange site)_");
+            correctionAdd("Cross Validated_", "Cross&nbsp;Validated (Stack Exchange site)_");
+            correctionAdd("cross validated_", "Cross&nbsp;Validated (Stack Exchange site)_");
+            correctionAdd("CrossValidated_", "Cross&nbsp;Validated (Stack Exchange site)_");
+            correctionAdd("stats.SE_", "Cross&nbsp;Validated (Stack Exchange site)_");
+            correctionAdd("Stats.SE_", "Cross&nbsp;Validated (Stack Exchange site)_");
+            correctionAdd("stats_", "Cross&nbsp;Validated (Stack Exchange site)_");
+            correctionAdd("Stats_", "Cross&nbsp;Validated (Stack Exchange site)_");
 
             correctionAdd("SEDE_", "Stack Exchange Data Explorer_");
 
@@ -160468,8 +160513,6 @@ namespace OverflowHelper.core
 
             correctionAdd("TestNg_", "TestNG_");
             correctionAdd("testng_", "TestNG_");
-
-            correctionAdd("AT_", "at_");
 
             correctionAdd("sitted_", "sat_");
 
@@ -162051,9 +162094,6 @@ namespace OverflowHelper.core
             correctionAdd("y-axis_", "label y-axis_");
 
             correctionAdd("arc_", "src_");
-
-            correctionAdd("canadates_", "candidates_");
-            correctionAdd("Canadates_", "candidates_");
 
             correctionAdd("Chat_", "chat_");
 
@@ -164699,8 +164739,6 @@ namespace OverflowHelper.core
 
             URL_Add("src_", "https://en.wiktionary.org/wiki/src#Noun");
 
-            URL_Add("candidates_", "https://en.wiktionary.org/wiki/candidate#Noun");
-
             URL_Add("tactile_", "https://en.wiktionary.org/wiki/tactile#Adjective");
 
             URL_Add("chat_", "https://en.wiktionary.org/wiki/chat#Noun");
@@ -164748,10 +164786,6 @@ namespace OverflowHelper.core
             URL_Add("weary_", "https://en.wiktionary.org/wiki/weary#Adjective");
 
             URL_Add("exercise_", "https://en.wiktionary.org/wiki/exercise#Verb");
-
-            URL_Add("OTP_", "https://en.wikipedia.org/wiki/Programmable_ROM#One_time_programmable_memory");
-
-            URL_Add("over-the-air_", "https://en.wikipedia.org/wiki/Over-the-air_update");
 
             URL_Add("excrete_", "https://en.wiktionary.org/wiki/tweet#Verb");
 
@@ -165776,8 +165810,6 @@ namespace OverflowHelper.core
             URL_Add("staring_", "https://en.wiktionary.org/wiki/stare#Verb");
 
             URL_Add("Thunderbird_", "https://en.wikipedia.org/wiki/Mozilla_Thunderbird");
-
-            URL_Add("LUNA_", "https://www.crowdsupply.com/great-scott-gadgets/luna/updates/packetry-preview");
 
             URL_Add("code review_", "https://en.wiktionary.org/wiki/code_review#Noun");
 
@@ -166951,8 +166983,6 @@ namespace OverflowHelper.core
 
             URL_Add("Oxygen XML Editor_", "https://www.oxygenxml.com/index.html"); // From chemical element 8
 
-            URL_Add("But ***please***, *** *** *** *** *** ***without*** *** *** *** *** *** *\"Edit:\"*, *\"Update:\"*, or similar. The post should be as if it was written right now (future readers have ***zero*** interest in the revision history). (bad practice on Stack Overflow)_", "https://meta.stackexchange.com/questions/131009/what-should-i-keep-out-of-my-posts-and-titles/131011#131011");
-
             URL_Add("Ace_", "https://en.wikipedia.org/wiki/Ace_(editor)");
 
             URL_Add("ex_", "https://en.wikipedia.org/wiki/Ex_%28text_editor%29");
@@ -167093,8 +167123,6 @@ namespace OverflowHelper.core
 
             URL_Add("Philosophy (Stack Exchange site)_", "https://philosophy.stackexchange.com/tour");
 
-            URL_Add("Cross&nbsp;Validated (Stack Exchange site)_", "https://stats.stackexchange.com/tour");
-
             URL_Add("DevOps (Stack Exchange site)_", "https://devops.stackexchange.com/tour");
 
             URL_Add("Computer&nbsp;Science (Stack Exchange site)_", "https://cs.stackexchange.com/tour");
@@ -167154,6 +167182,8 @@ namespace OverflowHelper.core
             URL_Add("Linguistics (Stack Exchange site)_", "https://linguistics.stackexchange.com/tour");
 
             URL_Add("WordPress&nbsp;Development (Stack Exchange site)_", "https://wordpress.stackexchange.com/tour");
+
+            URL_Add("Cross&nbsp;Validated (Stack Exchange site)_", "https://stats.stackexchange.com/tour");
 
             URL_Add("Stack&nbsp;Overflow_", "https://policies.stackoverflow.co/company/trademark-guidance/"); // Old: <https://stackoverflow.com/legal/trademark-guidance> Even older: https://stackoverflow.design/brand/copywriting/naming/. Old: https://stackoverflow.com/tour
 
@@ -168083,8 +168113,6 @@ namespace OverflowHelper.core
 
             URL_Add("bootloader mode_", "https://en.wikipedia.org/wiki/Bootloader#Embedded_and_multi-stage_boot_loaders");
 
-            URL_Add("Keychron Firmware Updater_", "https://www.keychron.com/pages/how-to-flash-the-firmware-for-the-keychron-receiver");
-
             URL_Add("r/olkb_", "https://www.reddit.com/r/olkb/new/");
 
             URL_Add("Cooler Master exited the mechanical keyboards and mice business_", "https://www.reddit.com/r/coolermaster/comments/1c87jl5/coolermaster_is_dropping_the_ball_on_the_mm712_pro/");
@@ -168434,6 +168462,20 @@ namespace OverflowHelper.core
             URL_Add("Z shell (executable `zsh`) is the default shell in macOS v10.15 (Catalina. 2019-10-07)_", "https://en.wikipedia.org/wiki/MacOS_Catalina#Removed_or_changed_components");
 
             URL_Add("wheel_", "https://en.wiktionary.org/wiki/wheel#Noun");
+
+            URL_Add("date_", "https://en.wikipedia.org/wiki/System_time#Operating_systems");
+
+            URL_Add("candidates_", "https://en.wiktionary.org/wiki/candidate#Noun");
+
+            URL_Add("But ***please***, *** *** *** *** *** ***without*** *** *** *** *** *** *\"Edit:\"*, *\"Update:\"*, or similar. The post should be as if it was written right now (future readers have ***zero*** interest in the revision history). (bad practice on Stack Overflow)_", "https://meta.stackexchange.com/questions/131009/what-should-i-keep-out-of-my-posts-and-titles/131011#131011");
+
+            URL_Add("Keychron Firmware Updater_", "https://www.keychron.com/pages/how-to-flash-the-firmware-for-the-keychron-receiver");
+
+            URL_Add("over-the-air_", "https://en.wikipedia.org/wiki/Over-the-air_update");
+
+            URL_Add("OTP_", "https://en.wikipedia.org/wiki/Programmable_ROM#One_time_programmable_memory");
+
+            URL_Add("LUNA_", "https://www.crowdsupply.com/great-scott-gadgets/luna/updates/packetry-preview");
 
         } //addLookupData_alternativeWordSet()
 
@@ -168943,7 +168985,7 @@ namespace OverflowHelper.core
             correctionAdd("ahve__", "have__");
             correctionAdd("hsve__", "have__");
             correctionAdd("hove__", "have__");
-            correctionAdd("gave__", "have__");
+            correctionAdd("gave__", "have__"); // A true typo
             correctionAdd("mave__", "have__");
             correctionAdd("ha e__", "have__"); // A true typo (involving the space bar)
             correctionAdd("ahev__", "have__");
@@ -168991,6 +169033,7 @@ namespace OverflowHelper.core
             correctionAdd("tht__", "that__");
             correctionAdd("hat__", "that__");
 
+            correctionAdd("man find__", "find__");
             correctionAdd("FIND__", "find__");
 
             // A text editor
@@ -172082,6 +172125,7 @@ namespace OverflowHelper.core
             correctionAdd("Where-object__", "Where-Object__");
             correctionAdd("where__", "Where-Object__"); // A (standard) alias (corresponding to Unix)
 
+            correctionAdd("multi media__", "multimedia__");
             correctionAdd("MM__", "multimedia__");
 
             correctionAdd("Credit Card__", "credit card__");
@@ -181490,9 +181534,11 @@ namespace OverflowHelper.core
             // Note: Due to a glitch in a checking Perl script, there should
             //       be an empty line before the first block...
 
+            // The preposition
             correctionAdd("att______", "at______");
             correctionAdd("At______", "at______");
             correctionAdd("st______", "at______");
+            correctionAdd("wt______", "at______"); // A true typo
             correctionAdd("A______", "at______");
             correctionAdd("a______", "at______");
 

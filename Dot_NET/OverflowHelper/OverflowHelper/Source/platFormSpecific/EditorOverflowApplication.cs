@@ -87,7 +87,7 @@ namespace OverflowHelper
         public string versionString_dateOnly()
         {
 
-            string toReturn = "2026-07-24"; // Note: Having the exact length
+            string toReturn = "2026-07-25"; // Note: Having the exact length
                                             //       of 10 will be caught in
                                             //       one of the units tests...
             return toReturn;
@@ -99,7 +99,7 @@ namespace OverflowHelper
          ****************************************************************************/
         public static string versionString()
         {
-            string toReturn = "1.1.52a122";
+            string toReturn = "1.1.52a123";
             return toReturn;
         }
 
