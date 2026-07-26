@@ -85837,15 +85837,18 @@ namespace OverflowHelper.core
             //   0x34B7 is for HPMICRO Semiconductor,
             //   a RISC-V microcontroller vendor.
             //
-            correctionAdd("Keychron&nbsp;J2&nbsp;HE", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K");
-            correctionAdd("keychron j5 he ultra 8k", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K");
-            correctionAdd("keychron j5 he ultra", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K");
-            correctionAdd("Keychron J2 HE 8K", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K"); // Sort of identity mapping
-            correctionAdd("Keychron J2 HE", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K"); // Sort of identity mapping
-            correctionAdd("j5 he ultra 8k", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K");
-            correctionAdd("j5 he ultra", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K");
-            correctionAdd("J2&nbsp;HE", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K");
-            correctionAdd("J2 HE", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K");
+            correctionAdd("Keychron&nbsp;J2&nbsp;HE&nbsp;8K (proprietary keyboard firmware, not open source)", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Keychron J2 HE 8K (80%) (proprietary keyboard firmware, not open source)", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
+            correctionAdd("Keychron&nbsp;J2&nbsp;HE&nbsp;8K", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Keychron&nbsp;J2&nbsp;HE", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("keychron j5 he ultra 8k", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("keychron j5 he ultra", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Keychron J2 HE 8K", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
+            correctionAdd("Keychron J2 HE", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
+            correctionAdd("j5 he ultra 8k", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("j5 he ultra", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("J2&nbsp;HE", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("J2 HE", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
 
             // A 84-key (80%. True TKL) crippled wired-only
             // mechanical keyboard from IBM without a knob.
@@ -144586,7 +144589,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;J2", "https://www.keychron.com/products/keychron-j2-qmk-wireless-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;J2&nbsp;HE&nbsp;8K", "https://www.keychron.com/products/keychron-j2-he-8k-magnetic-switch-keyboard");
+            URL_Add("Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-j2-he-8k-magnetic-switch-keyboard");
 
             URL_Add("Keychron J4", "https://www.keychron.com/products/keychron-j4-qmk-wireless-mechanical-keyboard");
 
@@ -161447,6 +161450,7 @@ namespace OverflowHelper.core
             correctionAdd("csh_", "csh (tag wiki)_");
 
             correctionAdd("[tag:graphql]_", "GraphQL (tag wiki)_");
+            correctionAdd("[tag:GraphQL]_", "GraphQL (tag wiki)_");
             correctionAdd("tag:graphql_", "GraphQL (tag wiki)_");
             correctionAdd("tag:GraphQL_", "GraphQL (tag wiki)_");
             correctionAdd("graphql_", "GraphQL (tag wiki)_");
