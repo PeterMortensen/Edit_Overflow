@@ -85837,7 +85837,13 @@ namespace OverflowHelper.core
             //   0x34B7 is for HPMICRO Semiconductor,
             //   a RISC-V microcontroller vendor.
             //
+            correctionAdd("Keychron&nbsp;J2&nbsp;HE", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K");
+            correctionAdd("keychron j5 he ultra 8k", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K");
+            correctionAdd("keychron j5 he ultra", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K");
+            correctionAdd("Keychron J2 HE 8K", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K"); // Sort of identity mapping
             correctionAdd("Keychron J2 HE", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K"); // Sort of identity mapping
+            correctionAdd("j5 he ultra 8k", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K");
+            correctionAdd("j5 he ultra", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K");
             correctionAdd("J2&nbsp;HE", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K");
             correctionAdd("J2 HE", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K");
 
@@ -160928,6 +160934,7 @@ namespace OverflowHelper.core
             correctionAdd("firebase_", "Firebase (tag wiki)_");
 
             correctionAdd("[tag:kotlin]_", "Kotlin (tag wiki)_");
+            correctionAdd("tag:kotlin_", "Kotlin (tag wiki)_");
             correctionAdd("Kotlin_", "Kotlin (tag wiki)_");
             correctionAdd("kotlin_", "Kotlin (tag wiki)_");
 
@@ -161441,6 +161448,7 @@ namespace OverflowHelper.core
 
             correctionAdd("[tag:graphql]_", "GraphQL (tag wiki)_");
             correctionAdd("tag:graphql_", "GraphQL (tag wiki)_");
+            correctionAdd("tag:GraphQL_", "GraphQL (tag wiki)_");
             correctionAdd("graphql_", "GraphQL (tag wiki)_");
             correctionAdd("GraphQL_", "GraphQL (tag wiki)_");
 
