@@ -1022,6 +1022,162 @@ namespace OverflowHelper.core
             correctionAdd("Windows Nano server", "Microsoft Nano Server");
             correctionAdd("Windows Nano", "Microsoft Nano Server");
 
+            correctionAdd("ild", "old");
+            correctionAdd("unc", "old");
+
+            // A proverb
+            correctionAdd("teach an old dog new tricks", "you can't teach an old dog new tricks");
+
+            correctionAdd("1 year old", "one-year-old");
+
+            correctionAdd("childd", "child");
+            correctionAdd("childe", "child");
+            correctionAdd("Child", "child");
+
+            correctionAdd("childrens", "children");
+            correctionAdd("Children", "children");
+            correctionAdd("childs", "children");
+            correctionAdd("Childs", "children");
+
+            correctionAdd("baby-sitter", "babysitter");
+
+            correctionAdd("kindergarden", "kindergarten");
+            correctionAdd("Kindergarden", "kindergarten");
+
+            correctionAdd("kids in adult bodies", "adult child");
+            correctionAdd("adult baby", "adult child");
+
+            correctionAdd("adult's", "adults");
+
+            correctionAdd("partent", "parent");
+            correctionAdd("parrent", "parent");
+            correctionAdd("Parent", "parent");
+
+            correctionAdd("re-parent", "reparent");
+
+            correctionAdd("Grandfather", "grandfather");
+
+            // Note: "brother" and "sibling" are in an alternative word set...
+            correctionAdd("daugther", "daughter");
+
+            correctionAdd("he's", "his");
+
+            correctionAdd("Dad", "dad");
+            correctionAdd("da", "dad");
+
+            correctionAdd("step dad", "stepdad");
+
+            correctionAdd("step father", "stepfather");
+
+            correctionAdd("ex wife", "ex-wife");
+            correctionAdd("exwife", "ex-wife");
+
+            correctionAdd("teen ager", "teenager");
+
+            correctionAdd("incling", "inkling");
+
+            correctionAdd("neece", "niece");
+            correctionAdd("neese", "niece");
+            correctionAdd("neice", "niece");
+
+            correctionAdd("cousion", "cousin");
+
+            correctionAdd("cousions", "cousins");
+
+            correctionAdd("Bob's your uncle", "Bob’s your uncle"); // Sort of self (but not with "nbsp")
+            correctionAdd("bob's your uncle", "Bob’s your uncle");
+            correctionAdd("Bob's your Uncle", "Bob’s your uncle");
+            correctionAdd("bobs your uncle", "Bob’s your uncle");
+            correctionAdd("Bob's yer uncle", "Bob’s your uncle");
+            correctionAdd("Bobs your uncle", "Bob’s your uncle");
+            correctionAdd("Bob's you uncle", "Bob’s your uncle");
+            correctionAdd("B's ur uncle", "Bob’s your uncle");
+
+            correctionAdd("grand-aunt", "grandaunt");
+
+            correctionAdd("grand parent", "grandparent");
+
+            correctionAdd("hooman", "human");
+            correctionAdd("Hooman", "human");
+            correctionAdd("humain", "human");
+            correctionAdd("hymen", "human");
+            correctionAdd("Human", "human");
+            correctionAdd("humam", "human");
+
+            correctionAdd("hoomans", "humans");
+
+            correctionAdd("Male", "male");
+
+            correctionAdd("Female", "female");
+
+            correctionAdd("femails", "females");
+
+            correctionAdd("femenine", "feminine");
+
+            correctionAdd("wuman", "woman");
+
+            correctionAdd("womans", "women");
+            correctionAdd("wimens", "women");
+            correctionAdd("wamen", "women");
+            correctionAdd("wemen", "women");
+            correctionAdd("wimen", "women");
+
+            correctionAdd("guies", "guys");
+            correctionAdd("Guies", "guys");
+            correctionAdd("guyz", "guys");
+            correctionAdd("gusy", "guys"); // A true typo
+            correctionAdd("gys", "guys");
+
+            // Note: "men" is in an alternative word set...
+            correctionAdd("beta-male", "beta male");
+            correctionAdd("betamale", "beta male");
+
+            correctionAdd("manssplaining", "mansplaining");
+
+            correctionAdd("Toxic Masculinity", "toxic masculinity");
+
+            correctionAdd("Men Going their own Way", "MGTOW");
+            correctionAdd("Men Going their on Way", "MGTOW");
+            correctionAdd("mgtow", "MGTOW");
+            correctionAdd("Mgtow", "MGTOW");
+
+            // A book by psychologist Carl Jung
+            correctionAdd("Man and his symbols", "Man and His Symbols");
+
+            correctionAdd("buoy", "boy");
+            correctionAdd("boi", "boy");
+            correctionAdd("BOI", "boy");
+
+            correctionAdd("boiyos", "boys");
+            correctionAdd("buoys", "boys");
+
+            correctionAdd("boys club", "boys' club");
+
+            correctionAdd("bud", "buddy");
+
+            correctionAdd("Freinds", "friend");
+            correctionAdd("freinds", "friend");
+            correctionAdd("freind", "friend");
+            correctionAdd("fren", "friend");
+
+            correctionAdd("freindly", "friendly");
+
+            correctionAdd("BFF", "best friend forever");
+            correctionAdd("bff", "best friend forever");
+
+            correctionAdd("middle woman", "middlewoman");
+
+            correctionAdd("middle women", "middlewomen");
+
+            correctionAdd("middle man", "middleman");
+
+            correctionAdd("strawman", "straw man");
+
+            correctionAdd("strawmen arguments", "straw men");
+            correctionAdd("strawmen", "straw men");
+
+            correctionAdd("mothership", "mother ship");
+
             // The verb
             correctionAdd("holes", "holds"); // A true typo
 
@@ -1034,6 +1190,8 @@ namespace OverflowHelper.core
 
             correctionAdd("hand holding", "hand-holding");
             correctionAdd("handholding", "hand-holding");
+
+            correctionAdd("lo", "lo and behold");
 
             correctionAdd("foot-hold", "foothold");
 
@@ -1083,8 +1241,6 @@ namespace OverflowHelper.core
             correctionAdd("the beholder", "is in the eye of the beholder");
 
             correctionAdd("place holder", "placeholder");
-
-            correctionAdd("lo", "lo and behold");
 
             correctionAdd("bloc", "block");
 
@@ -2481,11 +2637,6 @@ namespace OverflowHelper.core
             // Internet slang
             correctionAdd("iydk", "if you didn't know");
             correctionAdd("IYDK", "if you didn't know");
-
-            correctionAdd("ild", "old");
-
-            // A proverb
-            correctionAdd("teach an old dog new tricks", "you can't teach an old dog new tricks");
 
             correctionAdd("qlues", "clues");
 
@@ -8957,156 +9108,6 @@ namespace OverflowHelper.core
 
             correctionAdd("re-spawn", "respawn");
 
-            correctionAdd("he's", "his");
-
-            correctionAdd("Dad", "dad");
-            correctionAdd("da", "dad");
-
-            correctionAdd("step dad", "stepdad");
-
-            correctionAdd("step father", "stepfather");
-
-            correctionAdd("ex wife", "ex-wife");
-            correctionAdd("exwife", "ex-wife");
-
-            correctionAdd("adult's", "adults");
-
-            correctionAdd("partent", "parent");
-            correctionAdd("parrent", "parent");
-            correctionAdd("Parent", "parent");
-
-            correctionAdd("re-parent", "reparent");
-
-            correctionAdd("Grandfather", "grandfather");
-
-            correctionAdd("childd", "child");
-            correctionAdd("childe", "child");
-            correctionAdd("Child", "child");
-
-            correctionAdd("childrens", "children");
-            correctionAdd("Children", "children");
-            correctionAdd("childs", "children");
-            correctionAdd("Childs", "children");
-
-            correctionAdd("1 year old", "one-year-old");
-
-            // Note: "brother" and "sibling" are in an alternative word set...
-            correctionAdd("daugther", "daughter");
-
-            correctionAdd("baby-sitter", "babysitter");
-
-            correctionAdd("kindergarden", "kindergarten");
-            correctionAdd("Kindergarden", "kindergarten");
-
-            correctionAdd("kids in adult bodies", "adult child");
-            correctionAdd("adult baby", "adult child");
-
-            correctionAdd("teen ager", "teenager");
-
-            correctionAdd("incling", "inkling");
-
-            correctionAdd("neece", "niece");
-            correctionAdd("neese", "niece");
-            correctionAdd("neice", "niece");
-
-            correctionAdd("cousion", "cousin");
-
-            correctionAdd("cousions", "cousins");
-
-            correctionAdd("Bob's your uncle", "Bob’s your uncle"); // Sort of self (but not with "nbsp")
-            correctionAdd("bob's your uncle", "Bob’s your uncle");
-            correctionAdd("Bob's your Uncle", "Bob’s your uncle");
-            correctionAdd("bobs your uncle", "Bob’s your uncle");
-            correctionAdd("Bob's yer uncle", "Bob’s your uncle");
-            correctionAdd("Bobs your uncle", "Bob’s your uncle");
-            correctionAdd("Bob's you uncle", "Bob’s your uncle");
-            correctionAdd("B's ur uncle", "Bob’s your uncle");
-
-            correctionAdd("grand-aunt", "grandaunt");
-
-            correctionAdd("grand parent", "grandparent");
-
-            correctionAdd("hooman", "human");
-            correctionAdd("Hooman", "human");
-            correctionAdd("humain", "human");
-            correctionAdd("hymen", "human");
-            correctionAdd("Human", "human");
-            correctionAdd("humam", "human");
-
-            correctionAdd("hoomans", "humans");
-
-            correctionAdd("Male", "male");
-
-            correctionAdd("Female", "female");
-
-            correctionAdd("femails", "females");
-
-            correctionAdd("femenine", "feminine");
-
-            correctionAdd("wuman", "woman");
-
-            correctionAdd("womans", "women");
-            correctionAdd("wimens", "women");
-            correctionAdd("wamen", "women");
-            correctionAdd("wemen", "women");
-            correctionAdd("wimen", "women");
-
-            correctionAdd("guies", "guys");
-            correctionAdd("Guies", "guys");
-            correctionAdd("guyz", "guys");
-            correctionAdd("gusy", "guys"); // A true typo
-            correctionAdd("gys", "guys");
-
-            // Note: "men" is in an alternative word set...
-            correctionAdd("beta-male", "beta male");
-            correctionAdd("betamale", "beta male");
-
-            correctionAdd("manssplaining", "mansplaining");
-
-            correctionAdd("Toxic Masculinity", "toxic masculinity");
-
-            correctionAdd("Men Going their own Way", "MGTOW");
-            correctionAdd("Men Going their on Way", "MGTOW");
-            correctionAdd("mgtow", "MGTOW");
-            correctionAdd("Mgtow", "MGTOW");
-
-            // A book by psychologist Carl Jung
-            correctionAdd("Man and his symbols", "Man and His Symbols");
-
-            correctionAdd("buoy", "boy");
-            correctionAdd("boi", "boy");
-            correctionAdd("BOI", "boy");
-
-            correctionAdd("boiyos", "boys");
-            correctionAdd("buoys", "boys");
-
-            correctionAdd("boys club", "boys' club");
-
-            correctionAdd("bud", "buddy");
-
-            correctionAdd("Freinds", "friend");
-            correctionAdd("freinds", "friend");
-            correctionAdd("freind", "friend");
-            correctionAdd("fren", "friend");
-
-            correctionAdd("freindly", "friendly");
-
-            correctionAdd("BFF", "best friend forever");
-            correctionAdd("bff", "best friend forever");
-
-            correctionAdd("middle woman", "middlewoman");
-
-            correctionAdd("middle women", "middlewomen");
-
-            correctionAdd("middle man", "middleman");
-
-            correctionAdd("strawman", "straw man");
-
-            correctionAdd("strawmen arguments", "straw men");
-            correctionAdd("strawmen", "straw men");
-
-            correctionAdd("mothership", "mother ship");
-
             correctionAdd("lones", "line");
             correctionAdd("Line", "line");
             correctionAdd("ilne", "line");
@@ -13957,6 +13958,143 @@ namespace OverflowHelper.core
 
             correctionAdd("protion", "portion");
             correctionAdd("potion", "portion");
+
+            correctionAdd("proprortional", "proportional");
+            correctionAdd("propertional", "proportional");
+
+            correctionAdd("proportionnaly", "proportionally");
+
+            correctionAdd("none proportional", "nonproportional");
+
+            correctionAdd("disproportiate", "disproportionate");
+            correctionAdd("dispropertiate", "disproportionate");
+
+            correctionAdd("purposone", "purpose");
+            correctionAdd("porpouse", "purpose");
+            correctionAdd("pourpose", "purpose");
+            correctionAdd("purpouse", "purpose");
+            correctionAdd("porpuse", "purpose");
+            correctionAdd("purpuse", "purpose");
+            correctionAdd("purpise", "purpose");
+            correctionAdd("putpose", "purpose");
+
+            correctionAdd("pourposed", "purposed");
+
+            correctionAdd("purposfully", "purposefully");
+
+            correctionAdd("re-purpose", "repurpose");
+
+            correctionAdd("Multi purpose", "multi-purpose");
+            correctionAdd("multi purpose", "multi-purpose");
+            correctionAdd("multipurpose", "multi-purpose");
+            correctionAdd("Multipurpose", "multi-purpose");
+
+            correctionAdd("on porpouse", "on purpose");
+            correctionAdd("by purpose", "on purpose");
+            correctionAdd("in purpose", "on purpose");
+
+            correctionAdd("generall purpose", "general-purpose");
+            correctionAdd("general purpose", "general-purpose");
+            correctionAdd("gen purpose", "general-purpose");
+
+            correctionAdd("porporting", "purporting");
+
+            correctionAdd("propper", "proper");
+            correctionAdd("propfer", "proper");
+            correctionAdd("proofer", "proper");
+            correctionAdd("prooer", "proper");
+
+            correctionAdd("propperly", "properly");
+            correctionAdd("proprerly", "properly");
+            correctionAdd("propoerly", "properly");
+            correctionAdd("propertly", "properly");
+            correctionAdd("propeely", "properly"); // A true typo
+            correctionAdd("propelly", "properly");
+            correctionAdd("proparly", "properly");
+
+            correctionAdd("unproper", "improper");
+            correctionAdd("impoper", "improper");
+            correctionAdd("Impoper", "improper");
+
+            correctionAdd("proper-ness", "properness");
+
+            correctionAdd("propertry", "property");
+            correctionAdd("porperty", "property");
+            correctionAdd("Property", "property");
+            correctionAdd("propery", "property");
+            correctionAdd("proprty", "property");
+            correctionAdd("prop", "property");
+
+            correctionAdd("properities", "properties");
+            correctionAdd("proprieties", "properties");
+            correctionAdd("properites", "properties");
+            correctionAdd("propreties", "properties");
+            correctionAdd("proporties", "properties");
+            correctionAdd("properies", "properties");
+            correctionAdd("Propoties", "properties");
+            correctionAdd("propoties", "properties");
+            correctionAdd("proprties", "properties");
+            correctionAdd("propeties", "properties");
+            correctionAdd("props", "properties");
+
+            correctionAdd("propritiatory", "proprietary");
+            correctionAdd("proprietrary", "proprietary");
+            correctionAdd("propitiatory", "proprietary");
+            correctionAdd("propioritary", "proprietary");
+            correctionAdd("propioritory", "proprietary");
+            correctionAdd("propriaetary", "proprietary");
+            correctionAdd("Propriatory", "proprietary");
+            correctionAdd("propriatory", "proprietary");
+            correctionAdd("propriotary", "proprietary");
+            correctionAdd("propriatery", "proprietary");
+            correctionAdd("propriotory", "proprietary");
+            correctionAdd("proprietory", "proprietary");
+            correctionAdd("propiretary", "proprietary");
+            correctionAdd("properitary", "proprietary");
+            correctionAdd("properitory", "proprietary");
+            correctionAdd("proprietery", "proprietary");
+            correctionAdd("properitare", "proprietary");
+            correctionAdd("propertiary", "proprietary");
+            correctionAdd("Proprietary", "proprietary");
+            correctionAdd("pripriotary", "proprietary");
+            correctionAdd("propietary", "proprietary");
+            correctionAdd("proriotary", "proprietary");
+            correctionAdd("propritary", "proprietary");
+            correctionAdd("priprotary", "proprietary");
+            correctionAdd("propritory", "proprietary");
+            correctionAdd("priopetary", "proprietary");
+            correctionAdd("propriety", "proprietary");
+            correctionAdd("proprioty", "proprietary");
+            correctionAdd("propitory", "proprietary");
+            correctionAdd("Propriary", "proprietary");
+            correctionAdd("propriary", "proprietary");
+            correctionAdd("proetary", "proprietary");
+            correctionAdd("Priotary", "proprietary");
+            correctionAdd("priotary", "proprietary");
+            correctionAdd("proprip", "proprietary");
+            correctionAdd("propri", "proprietary");
+            correctionAdd("pripro", "proprietary");
+            correctionAdd("propro", "proprietary");
+            correctionAdd("Pripro", "proprietary");
+
+            correctionAdd("non-proprietary", "nonproprietary");
+
+            correctionAdd("appriopriate", "appropriate");
+            correctionAdd("approtpriate", "appropriate");
+            correctionAdd("approrpiate", "appropriate");
+            correctionAdd("appropirate", "appropriate"); // A true typo
+            correctionAdd("appropiate", "appropriate");
+            correctionAdd("apropriate", "appropriate");
+            correctionAdd("approriate", "appropriate");
+
+            correctionAdd("aproperiately", "appropriately");
+            correctionAdd("approeriately", "appropriately");
+            correctionAdd("approriately", "appropriately");
+            correctionAdd("appriately", "appropriately");
+
+            correctionAdd("inapproriate", "inappropriate");
+
+            correctionAdd("unappropriately", "inappropriately");
 
             correctionAdd("scaned", "scanned");
 
@@ -30921,10 +31059,6 @@ namespace OverflowHelper.core
             correctionAdd("winmerge", "WinMerge");
             correctionAdd("Winmerge", "WinMerge");
 
-            // Windows. Files / folders.
-            correctionAdd("Universal Naming Convention", "UNC");
-            correctionAdd("unc", "UNC");
-
             // Various Windows utilities
             correctionAdd("Sys Internals", "Sysinternals");
             correctionAdd("sys internals", "Sysinternals");
@@ -38850,6 +38984,7 @@ namespace OverflowHelper.core
             correctionAdd("Git Hub", "GitHub");
             correctionAdd("GIT HUB", "GitHub");
             correctionAdd("Git/hub", "GitHub");
+            correctionAdd("guithub", "GitHub"); // A true typo (of the misspelling "github")
             correctionAdd("Github", "GitHub");
             correctionAdd("github", "GitHub");
             correctionAdd("gitHub", "GitHub");
@@ -55045,143 +55180,6 @@ namespace OverflowHelper.core
             correctionAdd("veiwport", "viewport");
 
             correctionAdd("veiwers", "viewers");
-
-            correctionAdd("purposone", "purpose");
-            correctionAdd("porpouse", "purpose");
-            correctionAdd("pourpose", "purpose");
-            correctionAdd("purpouse", "purpose");
-            correctionAdd("porpuse", "purpose");
-            correctionAdd("purpuse", "purpose");
-            correctionAdd("purpise", "purpose");
-            correctionAdd("putpose", "purpose");
-
-            correctionAdd("pourposed", "purposed");
-
-            correctionAdd("purposfully", "purposefully");
-
-            correctionAdd("re-purpose", "repurpose");
-
-            correctionAdd("Multi purpose", "multi-purpose");
-            correctionAdd("multi purpose", "multi-purpose");
-            correctionAdd("multipurpose", "multi-purpose");
-            correctionAdd("Multipurpose", "multi-purpose");
-
-            correctionAdd("on porpouse", "on purpose");
-            correctionAdd("by purpose", "on purpose");
-            correctionAdd("in purpose", "on purpose");
-
-            correctionAdd("generall purpose", "general-purpose");
-            correctionAdd("general purpose", "general-purpose");
-            correctionAdd("gen purpose", "general-purpose");
-
-            correctionAdd("porporting", "purporting");
-
-            correctionAdd("propper", "proper");
-            correctionAdd("propfer", "proper");
-            correctionAdd("proofer", "proper");
-            correctionAdd("prooer", "proper");
-
-            correctionAdd("propperly", "properly");
-            correctionAdd("proprerly", "properly");
-            correctionAdd("propoerly", "properly");
-            correctionAdd("propertly", "properly");
-            correctionAdd("propeely", "properly"); // A true typo
-            correctionAdd("propelly", "properly");
-            correctionAdd("proparly", "properly");
-
-            correctionAdd("unproper", "improper");
-            correctionAdd("impoper", "improper");
-            correctionAdd("Impoper", "improper");
-
-            correctionAdd("proper-ness", "properness");
-
-            correctionAdd("proprortional", "proportional");
-            correctionAdd("propertional", "proportional");
-
-            correctionAdd("proportionnaly", "proportionally");
-
-            correctionAdd("none proportional", "nonproportional");
-
-            correctionAdd("disproportiate", "disproportionate");
-            correctionAdd("dispropertiate", "disproportionate");
-
-            correctionAdd("propertry", "property");
-            correctionAdd("porperty", "property");
-            correctionAdd("Property", "property");
-            correctionAdd("propery", "property");
-            correctionAdd("proprty", "property");
-            correctionAdd("prop", "property");
-
-            correctionAdd("properities", "properties");
-            correctionAdd("proprieties", "properties");
-            correctionAdd("properites", "properties");
-            correctionAdd("propreties", "properties");
-            correctionAdd("proporties", "properties");
-            correctionAdd("properies", "properties");
-            correctionAdd("Propoties", "properties");
-            correctionAdd("propoties", "properties");
-            correctionAdd("proprties", "properties");
-            correctionAdd("propeties", "properties");
-            correctionAdd("props", "properties");
-
-            correctionAdd("propritiatory", "proprietary");
-            correctionAdd("proprietrary", "proprietary");
-            correctionAdd("propitiatory", "proprietary");
-            correctionAdd("propioritary", "proprietary");
-            correctionAdd("propioritory", "proprietary");
-            correctionAdd("propriaetary", "proprietary");
-            correctionAdd("Propriatory", "proprietary");
-            correctionAdd("propriatory", "proprietary");
-            correctionAdd("propriotary", "proprietary");
-            correctionAdd("propriatery", "proprietary");
-            correctionAdd("propriotory", "proprietary");
-            correctionAdd("proprietory", "proprietary");
-            correctionAdd("propiretary", "proprietary");
-            correctionAdd("properitary", "proprietary");
-            correctionAdd("properitory", "proprietary");
-            correctionAdd("proprietery", "proprietary");
-            correctionAdd("properitare", "proprietary");
-            correctionAdd("propertiary", "proprietary");
-            correctionAdd("Proprietary", "proprietary");
-            correctionAdd("pripriotary", "proprietary");
-            correctionAdd("propietary", "proprietary");
-            correctionAdd("proriotary", "proprietary");
-            correctionAdd("propritary", "proprietary");
-            correctionAdd("priprotary", "proprietary");
-            correctionAdd("propritory", "proprietary");
-            correctionAdd("priopetary", "proprietary");
-            correctionAdd("propriety", "proprietary");
-            correctionAdd("proprioty", "proprietary");
-            correctionAdd("propitory", "proprietary");
-            correctionAdd("Propriary", "proprietary");
-            correctionAdd("propriary", "proprietary");
-            correctionAdd("proetary", "proprietary");
-            correctionAdd("Priotary", "proprietary");
-            correctionAdd("priotary", "proprietary");
-            correctionAdd("proprip", "proprietary");
-            correctionAdd("propri", "proprietary");
-            correctionAdd("pripro", "proprietary");
-            correctionAdd("propro", "proprietary");
-            correctionAdd("Pripro", "proprietary");
-
-            correctionAdd("non-proprietary", "nonproprietary");
-
-            correctionAdd("appriopriate", "appropriate");
-            correctionAdd("approtpriate", "appropriate");
-            correctionAdd("approrpiate", "appropriate");
-            correctionAdd("appropirate", "appropriate"); // A true typo
-            correctionAdd("appropiate", "appropriate");
-            correctionAdd("apropriate", "appropriate");
-            correctionAdd("approriate", "appropriate");
-
-            correctionAdd("aproperiately", "appropriately");
-            correctionAdd("approeriately", "appropriately");
-            correctionAdd("approriately", "appropriately");
-            correctionAdd("appriately", "appropriately");
-
-            correctionAdd("inapproriate", "inappropriate");
-
-            correctionAdd("unappropriately", "inappropriately");
 
             correctionAdd("At the least", "at least");
             correctionAdd("at the least", "at least");
@@ -79597,6 +79595,7 @@ namespace OverflowHelper.core
             correctionAdd("amazon EC2", "Amazon EC2");
             correctionAdd("Amazon ec2", "Amazon EC2");
             correctionAdd("AWS Ec2", "Amazon EC2");
+            correctionAdd("aws ec2", "Amazon EC2");
             correctionAdd("ec2", "Amazon EC2");
             correctionAdd("Ec2", "Amazon EC2");
             correctionAdd("EC2", "Amazon EC2");
@@ -80965,6 +80964,10 @@ namespace OverflowHelper.core
             correctionAdd("Graphql", "GraphQL");
             correctionAdd("GraphQl", "GraphQL");
             correctionAdd("GQL", "GraphQL"); // An invalid shorthand for GraphQL...
+
+            // GraphQL
+            correctionAdd("apollo-server", "Apollo Server");
+            correctionAdd("apollo", "Apollo Server");
 
             correctionAdd("graphViz", "Graphviz");
             correctionAdd("graphviz", "Graphviz");
@@ -89993,10 +89996,13 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/Keychron/qmk_firmware/tree/2025q3/keyboards/keychron/c2_pro_8k>
             //
-            correctionAdd("C2&nbsp;Pro&nbsp;8K", "Keychron&nbsp;C2&nbsp;Pro&nbsp;8K");
-            correctionAdd("Keychron C2 Pro 8K", "Keychron&nbsp;C2&nbsp;Pro&nbsp;8K"); // Sort of identity mapping
-            correctionAdd("C2 Pro 8K", "Keychron&nbsp;C2&nbsp;Pro&nbsp;8K");
-            correctionAdd("c2 pro 8k", "Keychron&nbsp;C2&nbsp;Pro&nbsp;8K");
+            correctionAdd("Keychron&nbsp;C2&nbsp;Pro&nbsp;8K", "Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)");
+            correctionAdd("Keychron C2 Pro 8K (100%)", "Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)"); // Sort of identity mapping
+            correctionAdd("C2&nbsp;Pro&nbsp;8K", "Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)");
+            correctionAdd("Keychron C2 Pro 8K", "Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)"); // Sort of identity mapping
+            correctionAdd("C2 Pro 8K", "Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)");
+            correctionAdd("c2 pro 8k", "Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)");
+            correctionAdd("C2 Pro 8k", "Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)");
 
             // A 105-key (100%. Not true TKL) full-size wired-only
             // QMK/Via-capable mechanical keyboard from Keychron.
@@ -106991,8 +106997,6 @@ namespace OverflowHelper.core
 
             URL_Add("Google Calendar", "https://en.wikipedia.org/wiki/Google_Calendar");
 
-            URL_Add("UNC", "https://en.wikipedia.org/wiki/Path_%28computing%29#Uniform_Naming_Convention");
-
             URL_Add("LOB", "https://en.wikipedia.org/wiki/Line_of_business");
 
             URL_Add("Bazaar", "https://en.wikipedia.org/wiki/Bazaar_%28software%29");
@@ -108769,8 +108773,6 @@ namespace OverflowHelper.core
 
             URL_Add("localhost", "https://en.wikipedia.org/wiki/Localhost");
 
-            URL_Add("portion", "https://en.wiktionary.org/wiki/portion#Noun");
-
             URL_Add("segue", "https://en.wiktionary.org/wiki/segue#Verb");
 
             URL_Add("one-on-one", "https://en.wiktionary.org/wiki/one-on-one#Adjective");
@@ -109926,8 +109928,6 @@ namespace OverflowHelper.core
             URL_Add("Xfig", "https://en.wikipedia.org/wiki/Xfig");
 
             URL_Add("picturesque", "https://en.wiktionary.org/wiki/picturesque#Adjective");
-
-            URL_Add("proportionally", "https://en.wiktionary.org/wiki/proportionally#Adverb");
 
             URL_Add("purpose", "https://en.wiktionary.org/wiki/purpose#Noun"); // Old: https://en.wiktionary.org/wiki/purpose#English
 
@@ -115477,8 +115477,6 @@ namespace OverflowHelper.core
 
             URL_Add("gobbledygook", "https://www.youtube.com/c/SabineHossenfelder/videos");
 
-            URL_Add("proportional", "https://en.wiktionary.org/wiki/proportional#Adjective");
-
             URL_Add("trapped", "https://en.wiktionary.org/wiki/trap#Verb");
 
             URL_Add("Leela Chess Zero", "https://en.wikipedia.org/wiki/Leela_Chess_Zero");
@@ -118640,8 +118638,6 @@ namespace OverflowHelper.core
             URL_Add("WGSL", "https://en.wikipedia.org/wiki/WebGPU#Technology");
 
             URL_Add("Butlerian Jihad", "https://en.wikipedia.org/wiki/Dune_(franchise)#The_Butlerian_Jihad");
-
-            URL_Add("disproportionate", "https://en.wiktionary.org/wiki/disproportionate#Adjective");
 
             URL_Add("flagged", "https://en.wiktionary.org/wiki/flag#Verb");
 
@@ -124200,8 +124196,6 @@ namespace OverflowHelper.core
             URL_Add("misapplication", "https://en.wiktionary.org/wiki/misapplication#Noun");
 
             URL_Add("ahead", "https://en.wiktionary.org/wiki/ahead#Adverb");
-
-            URL_Add("nonproportional", "https://en.wiktionary.org/wiki/nonproportional#Adjective");
 
             URL_Add("precondition", "https://en.wiktionary.org/wiki/precondition#Noun");
 
@@ -137663,8 +137657,6 @@ namespace OverflowHelper.core
 
             URL_Add("serial port profile", "https://en.wikipedia.org/wiki/List_of_Bluetooth_protocols#Radio_frequency_communication_(RFCOMM)");
 
-            URL_Add("GraphQL", "https://en.wikipedia.org/wiki/GraphQL");
-
             URL_Add("smithereens", "https://en.wiktionary.org/wiki/smithereens#Noun");
 
             URL_Add("answering", "https://en.wiktionary.org/wiki/answer#Verb");
@@ -144607,7 +144599,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;C2&nbsp;Pro (100%)", "https://www.keychron.com/products/keychron-c2-pro-qmk-via-wired-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;C2&nbsp;Pro&nbsp;8K", "https://www.keychron.uk/collections/keychron-c-pro-series-keyboards/products/keychron-c2-pro-8k-qmk-wired-custom-mechanical-keyboard-iso-layout-collection"); // Old: <https://keychron.ca/products/keychron-c2-pro-8k-qmk-wired-custom-mechanical-keyboard-us-ansi-layout>
+            URL_Add("Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)", "https://www.keychron.uk/collections/keychron-c-pro-series-keyboards/products/keychron-c2-pro-8k-qmk-wired-custom-mechanical-keyboard-iso-layout-collection"); // Old: <https://keychron.ca/products/keychron-c2-pro-8k-qmk-wired-custom-mechanical-keyboard-us-ansi-layout>
 
             URL_Add("Keychron&nbsp;C4&nbsp;HE&nbsp;8K (100%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-c4-he-magnetic-switch-keyboard");
 
@@ -148029,6 +148021,20 @@ namespace OverflowHelper.core
 
             URL_Add("Bazecor", "https://www.reddit.com/r/DygmaLab/comments/15hzxj4/important_download_bazecor_132/");
 
+            URL_Add("GraphQL", "https://en.wikipedia.org/wiki/GraphQL");
+
+            URL_Add("Apollo Server", "https://stackoverflow.com/tags/apollo-server/info");
+
+            URL_Add("portion", "https://en.wiktionary.org/wiki/portion#Noun");
+
+            URL_Add("proportional", "https://en.wiktionary.org/wiki/proportional#Adjective");
+
+            URL_Add("proportionally", "https://en.wiktionary.org/wiki/proportionally#Adverb");
+
+            URL_Add("disproportionate", "https://en.wiktionary.org/wiki/disproportionate#Adjective");
+
+            URL_Add("nonproportional", "https://en.wiktionary.org/wiki/nonproportional#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -149992,102 +149998,6 @@ namespace OverflowHelper.core
             // Web software development
             correctionAdd("Server-Sent Events_", "server-sent events_");
             correctionAdd("SSE_", "server-sent events_");
-
-            // Android. 'Activity' is a class
-            //
-            correctionAdd("Android Activity_", "Activity_");
-            correctionAdd("activity_", "Activity_");
-
-            // Android development (Ionic)
-            correctionAdd("ionic capacitor_", "Ionic Capacitor_");
-            correctionAdd("capacitor_", "Ionic Capacitor_");
-            correctionAdd("Capacitor_", "Ionic Capacitor_");
-
-            // 2012 vintage
-            correctionAdd("Android&nbsp;4.1 (Jelly Bean)_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_");
-            correctionAdd("Android 4.1 (Jelly Bean)_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_"); // Sort of identity mapping
-            correctionAdd("Jellybean 4.2_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
-            correctionAdd("Android 4.2.1_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
-            correctionAdd("API Level 17_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_");
-            correctionAdd("Android 4.2_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
-            correctionAdd("Android 4.1_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_");
-            correctionAdd("Jelly Bean_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
-            correctionAdd("Jelly bean_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_");
-            correctionAdd("JellyBean_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
-            correctionAdd("Jellybean_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
-            correctionAdd("API 16_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_");
-            correctionAdd("API 17_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_");
-            correctionAdd("API 18_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_");
-            correctionAdd("4.2.1_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
-            correctionAdd("4.2_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
-            correctionAdd("JB_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
-
-            // 2022 vintage
-            correctionAdd("Android 12 (2022 vintage)_", "Android&nbsp;12 (2022 vintage)_"); // Sort of identity mapping
-            correctionAdd("Android&nbsp;12_", "Android&nbsp;12 (2022 vintage)_");
-            correctionAdd("android 12_", "Android&nbsp;12 (2022 vintage)_");
-            correctionAdd("Android 12_", "Android&nbsp;12 (2022 vintage)_");
-            correctionAdd("Android S_", "Android&nbsp;12 (2022 vintage)_");
-            correctionAdd("Snow Cone_", "Android&nbsp;12 (2022 vintage)_");
-            correctionAdd("SDK 31_", "Android&nbsp;12 (2022 vintage)_");
-            correctionAdd("12_", "Android&nbsp;12 (2022 vintage)_");
-
-            // It is a type of Android Studio (preview
-            // release), ***not*** a version of it...
-            //
-            correctionAdd("Android studio canary_", "Android Studio Canary_");
-            correctionAdd("Android Studio canary_", "Android Studio Canary_");
-            correctionAdd("canary_", "Android Studio Canary_");
-            correctionAdd("Canary_", "Android Studio Canary_");
-            correctionAdd("Canari_", "Android Studio Canary_");
-            correctionAdd("canari_", "Android Studio Canary_");
-
-            correctionAdd("Android Studio Dolphin_", "Android Studio 15 (Dolphin)_");
-            correctionAdd("Android Studio 15_", "Android Studio 15 (Dolphin)_");
-            correctionAdd("dolphin_", "Android Studio 15 (Dolphin)_");
-            correctionAdd("Dolphin_", "Android Studio 15 (Dolphin)_");
-
-            // Isn't there a real version number, like 15 for
-            // Dolphin, "Android Studio 15 (Dolphin)"?
-            //
-            correctionAdd("Android Studio 2025.1.1 (Narwhal)_", "Android Studio Narwhal (2025.1.1)_");
-            correctionAdd("Android Studio Narwhal 2025.1.2_", "Android Studio Narwhal (2025.1.1)_");
-            correctionAdd("Android Studio Narwhal_", "Android Studio Narwhal (2025.1.1)_");
-            correctionAdd("Narwhal_", "Android Studio Narwhal (2025.1.1)_");
-
-            // A library for Android
-            //
-            // Alternative URL:
-            //
-            //   <https://joebirch.co/android/getting-started-with-apollo-graphql-on-android/>
-            //
-            correctionAdd("Apollo Android_", "Apollo Kotlin_");
-            correctionAdd("Apollo_", "Apollo Kotlin_");
-            correctionAdd("apollo_", "Apollo Kotlin_");
-            correctionAdd("apolo_", "Apollo Kotlin_");
-
-            // Android
-            correctionAdd("dx_", "DX_");
-
-            // An Android smartphone
-            correctionAdd("HD2_", "HTC HD2_");
-
-            // An Android smartphone
-            correctionAdd("Samsung Galaxy S III_", "Samsung Galaxy&nbsp;S&nbsp;III_"); // Sort of identity mapping
-            correctionAdd("samsung galaxy s III_", "Samsung Galaxy&nbsp;S&nbsp;III_");
-            correctionAdd("Samsung Galaxy III_", "Samsung Galaxy&nbsp;S&nbsp;III_");
-            correctionAdd("Samsung Galaxy S3_", "Samsung Galaxy&nbsp;S&nbsp;III_");
-            correctionAdd("Samsung GalaxyIII_", "Samsung Galaxy&nbsp;S&nbsp;III_");
-            correctionAdd("Samsung Galaxy 3_", "Samsung Galaxy&nbsp;S&nbsp;III_");
-            correctionAdd("Galaxy S III_", "Samsung Galaxy&nbsp;S&nbsp;III_");
-            correctionAdd("Samsung S3_", "Samsung Galaxy&nbsp;S&nbsp;III_");
-            correctionAdd("Galaxy III_", "Samsung Galaxy&nbsp;S&nbsp;III_");
-            correctionAdd("Galaxy S3_", "Samsung Galaxy&nbsp;S&nbsp;III_");
-            correctionAdd("Galaxy s3_", "Samsung Galaxy&nbsp;S&nbsp;III_");
-            correctionAdd("galaxy S_", "Samsung Galaxy&nbsp;S&nbsp;III_"); // Really S3?
-            correctionAdd("galaxyS_", "Samsung Galaxy&nbsp;S&nbsp;III_"); // Really S3?
-            correctionAdd("S III_", "Samsung Galaxy&nbsp;S&nbsp;III_");
-            correctionAdd("S3_", "Samsung Galaxy&nbsp;S&nbsp;III_");
 
             correctionAdd("Weblogic_", "WebLogic_");
             correctionAdd("weblogic_", "WebLogic_");
@@ -156666,6 +156576,7 @@ namespace OverflowHelper.core
             correctionAdd("embassy_", "Embassy_");
 
             // Chess
+            correctionAdd("the greatest positional pickpocket of our time_", "Magnus Carlsen_");
             correctionAdd("the wizard of Oslo_", "Magnus Carlsen_");
             correctionAdd("Moustache Magnus_", "Magnus Carlsen_");
             correctionAdd("Mustache Magnus_", "Magnus Carlsen_");
@@ -160802,6 +160713,108 @@ namespace OverflowHelper.core
             correctionAdd("Strawberry_", "Strawberry GraphQL_");
             correctionAdd("strawberry_", "Strawberry GraphQL_");
 
+            // Not to be confused with GraphQL
+            correctionAdd("lang-gql_", "Graph Query Language_");
+            correctionAdd("GQL_", "Graph Query Language_");
+            correctionAdd("gql_", "Graph Query Language_");
+
+            // A library for Android
+            // GraphQL
+            //
+            // Alternative URL:
+            //
+            //   <https://joebirch.co/android/getting-started-with-apollo-graphql-on-android/>
+            //
+            correctionAdd("Apollo Android_", "Apollo Kotlin_");
+            correctionAdd("Apollo_", "Apollo Kotlin_");
+            correctionAdd("apollo_", "Apollo Kotlin_");
+            correctionAdd("apolo_", "Apollo Kotlin_");
+
+            // Android. 'Activity' is a class
+            //
+            correctionAdd("Android Activity_", "Activity_");
+            correctionAdd("activity_", "Activity_");
+
+            // Android development (Ionic)
+            correctionAdd("ionic capacitor_", "Ionic Capacitor_");
+            correctionAdd("capacitor_", "Ionic Capacitor_");
+            correctionAdd("Capacitor_", "Ionic Capacitor_");
+
+            // 2012 vintage
+            correctionAdd("Android&nbsp;4.1 (Jelly Bean)_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_");
+            correctionAdd("Android 4.1 (Jelly Bean)_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_"); // Sort of identity mapping
+            correctionAdd("Jellybean 4.2_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
+            correctionAdd("Android 4.2.1_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
+            correctionAdd("API Level 17_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_");
+            correctionAdd("Android 4.2_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
+            correctionAdd("Android 4.1_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_");
+            correctionAdd("Jelly Bean_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
+            correctionAdd("Jelly bean_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_");
+            correctionAdd("JellyBean_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
+            correctionAdd("Jellybean_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
+            correctionAdd("API 16_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_");
+            correctionAdd("API 17_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_");
+            correctionAdd("API 18_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_");
+            correctionAdd("4.2.1_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
+            correctionAdd("4.2_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
+            correctionAdd("JB_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
+
+            // 2022 vintage
+            correctionAdd("Android 12 (2022 vintage)_", "Android&nbsp;12 (2022 vintage)_"); // Sort of identity mapping
+            correctionAdd("Android&nbsp;12_", "Android&nbsp;12 (2022 vintage)_");
+            correctionAdd("android 12_", "Android&nbsp;12 (2022 vintage)_");
+            correctionAdd("Android 12_", "Android&nbsp;12 (2022 vintage)_");
+            correctionAdd("Android S_", "Android&nbsp;12 (2022 vintage)_");
+            correctionAdd("Snow Cone_", "Android&nbsp;12 (2022 vintage)_");
+            correctionAdd("SDK 31_", "Android&nbsp;12 (2022 vintage)_");
+            correctionAdd("12_", "Android&nbsp;12 (2022 vintage)_");
+
+            // It is a type of Android Studio (preview
+            // release), ***not*** a version of it...
+            //
+            correctionAdd("Android studio canary_", "Android Studio Canary_");
+            correctionAdd("Android Studio canary_", "Android Studio Canary_");
+            correctionAdd("canary_", "Android Studio Canary_");
+            correctionAdd("Canary_", "Android Studio Canary_");
+            correctionAdd("Canari_", "Android Studio Canary_");
+            correctionAdd("canari_", "Android Studio Canary_");
+
+            correctionAdd("Android Studio Dolphin_", "Android Studio 15 (Dolphin)_");
+            correctionAdd("Android Studio 15_", "Android Studio 15 (Dolphin)_");
+            correctionAdd("dolphin_", "Android Studio 15 (Dolphin)_");
+            correctionAdd("Dolphin_", "Android Studio 15 (Dolphin)_");
+
+            // Isn't there a real version number, like 15 for
+            // Dolphin, "Android Studio 15 (Dolphin)"?
+            //
+            correctionAdd("Android Studio 2025.1.1 (Narwhal)_", "Android Studio Narwhal (2025.1.1)_");
+            correctionAdd("Android Studio Narwhal 2025.1.2_", "Android Studio Narwhal (2025.1.1)_");
+            correctionAdd("Android Studio Narwhal_", "Android Studio Narwhal (2025.1.1)_");
+            correctionAdd("Narwhal_", "Android Studio Narwhal (2025.1.1)_");
+
+            // Android
+            correctionAdd("dx_", "DX_");
+
+            // An Android smartphone
+            correctionAdd("HD2_", "HTC HD2_");
+
+            // An Android smartphone
+            correctionAdd("Samsung Galaxy S III_", "Samsung Galaxy&nbsp;S&nbsp;III_"); // Sort of identity mapping
+            correctionAdd("samsung galaxy s III_", "Samsung Galaxy&nbsp;S&nbsp;III_");
+            correctionAdd("Samsung Galaxy III_", "Samsung Galaxy&nbsp;S&nbsp;III_");
+            correctionAdd("Samsung Galaxy S3_", "Samsung Galaxy&nbsp;S&nbsp;III_");
+            correctionAdd("Samsung GalaxyIII_", "Samsung Galaxy&nbsp;S&nbsp;III_");
+            correctionAdd("Samsung Galaxy 3_", "Samsung Galaxy&nbsp;S&nbsp;III_");
+            correctionAdd("Galaxy S III_", "Samsung Galaxy&nbsp;S&nbsp;III_");
+            correctionAdd("Samsung S3_", "Samsung Galaxy&nbsp;S&nbsp;III_");
+            correctionAdd("Galaxy III_", "Samsung Galaxy&nbsp;S&nbsp;III_");
+            correctionAdd("Galaxy S3_", "Samsung Galaxy&nbsp;S&nbsp;III_");
+            correctionAdd("Galaxy s3_", "Samsung Galaxy&nbsp;S&nbsp;III_");
+            correctionAdd("galaxy S_", "Samsung Galaxy&nbsp;S&nbsp;III_"); // Really S3?
+            correctionAdd("galaxyS_", "Samsung Galaxy&nbsp;S&nbsp;III_"); // Really S3?
+            correctionAdd("S III_", "Samsung Galaxy&nbsp;S&nbsp;III_");
+            correctionAdd("S3_", "Samsung Galaxy&nbsp;S&nbsp;III_");
+
             correctionAdd("cse_", "CSE_");
 
             correctionAdd("tumble weed_", "tumbleweed_");
@@ -163848,11 +163861,6 @@ namespace OverflowHelper.core
             correctionAdd("lit_", "lot_");
             correctionAdd("lof_", "lot_");
 
-            // Not to be confused with GraphQL
-            correctionAdd("lang-gql_", "Graph Query Language_");
-            correctionAdd("GQL_", "Graph Query Language_");
-            correctionAdd("gql_", "Graph Query Language_");
-
             // The adjective
             correctionAdd("mailitry_", "military_"); // Probably a typo, but it is slide of four
             correctionAdd("mil_", "military_");
@@ -163971,6 +163979,10 @@ namespace OverflowHelper.core
 
             // A software pattern (games)
             correctionAdd("ECS_", "entity component system_");
+
+            // Windows. Files / folders.
+            correctionAdd("Universal Naming Convention_", "UNC_");
+            correctionAdd("unc_", "UNC_");
 
             // C. A book
             //
@@ -167546,20 +167558,6 @@ namespace OverflowHelper.core
 
             URL_Add("photography_", "https://en.wikipedia.org/wiki/Photography");
 
-            URL_Add("Graph Query Language_", "https://en.wikipedia.org/wiki/Graph_Query_Language");
-
-            URL_Add("Microsoft Graph_", "https://en.wikipedia.org/wiki/Microsoft_Graph");
-
-            URL_Add("Strawberry GraphQL_", "https://pypi.org/project/strawberry-graphql/");
-
-            URL_Add("Graphene-Python_", "https://graphene-python.org/"); // From chemical element 6
-
-            URL_Add("GD Graphics Library_", "https://en.wikipedia.org/wiki/GD_Graphics_Library");
-
-            URL_Add("Open Graph_", "https://en.wikipedia.org/wiki/Facebook_Platform#Open_Graph_protocol");
-
-            URL_Add("Apollo Kotlin_", "https://github.com/apollographql/apollo-kotlin");
-
             URL_Add("certificate authority_", "https://en.wikipedia.org/wiki/Certificate_authority");
 
             URL_Add("Common Name_", "https://en.wikipedia.org/wiki/X.509#Certificate_filename_extensions");
@@ -168599,6 +168597,22 @@ namespace OverflowHelper.core
             URL_Add("OTP_", "https://en.wikipedia.org/wiki/Programmable_ROM#One_time_programmable_memory");
 
             URL_Add("LUNA_", "https://www.crowdsupply.com/great-scott-gadgets/luna/updates/packetry-preview");
+
+            URL_Add("Graph Query Language_", "https://en.wikipedia.org/wiki/Graph_Query_Language");
+
+            URL_Add("Microsoft Graph_", "https://en.wikipedia.org/wiki/Microsoft_Graph");
+
+            URL_Add("Graphene-Python_", "https://graphene-python.org/"); // From chemical element 6
+
+            URL_Add("GD Graphics Library_", "https://en.wikipedia.org/wiki/GD_Graphics_Library");
+
+            URL_Add("Open Graph_", "https://en.wikipedia.org/wiki/Facebook_Platform#Open_Graph_protocol");
+
+            URL_Add("Strawberry GraphQL_", "https://pypi.org/project/strawberry-graphql/");
+
+            URL_Add("Apollo Kotlin_", "https://github.com/apollographql/apollo-kotlin");
+
+            URL_Add("UNC_", "https://en.wikipedia.org/wiki/Path_%28computing%29#Uniform_Naming_Convention");
 
         } //addLookupData_alternativeWordSet()
 
@@ -176178,6 +176192,7 @@ namespace OverflowHelper.core
             correctionAdd("C series___", "Keychron&nbsp;C&nbsp;Pro&nbsp;series___"); // Not 100% correct (there is C series (proprietary firmware, not based on QMK)). Sort of identity mapping.
             correctionAdd("C2 Pro___", "Keychron&nbsp;C&nbsp;Pro&nbsp;series___");
 
+            correctionAdd("Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)___", "Keychron&nbsp;C&nbsp;Pro&nbsp;8K&nbsp;series___");
             correctionAdd("Keychron&nbsp;C2&nbsp;Pro&nbsp;8K___", "Keychron&nbsp;C&nbsp;Pro&nbsp;8K&nbsp;series___");
             correctionAdd("C&nbsp;Pro&nbsp;8K&nbsp;series___", "Keychron&nbsp;C&nbsp;Pro&nbsp;8K&nbsp;series___");
             correctionAdd("Keychron C Pro 8K series___", "Keychron&nbsp;C&nbsp;Pro&nbsp;8K&nbsp;series___"); // Sort of identity mapping
