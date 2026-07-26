@@ -8686,6 +8686,260 @@ namespace OverflowHelper.core
 
             correctionAdd("Pound sign", "pound sign");
 
+            correctionAdd("move around aimlessly", "work out");
+            correctionAdd("workout", "work out");
+
+            correctionAdd("hard-working", "hardworking");
+
+            correctionAdd("hand work", "handwork");
+
+            correctionAdd("leg work", "legwork");
+
+            correctionAdd("gruntwork", "grunt work");
+
+            correctionAdd("ground work", "groundwork");
+
+            correctionAdd("hand worked", "handworked");
+
+            correctionAdd("work-item", "work item");
+
+            correctionAdd("worked to me", "worked for me");
+
+            correctionAdd("work tree", "worktree");
+
+            correctionAdd("Work-order", "work order");
+            correctionAdd("work-order", "work order");
+            correctionAdd("workorder", "work order");
+
+            correctionAdd("work force", "workforce");
+
+            correctionAdd("work flow", "workflow");
+            correctionAdd("work-flow", "workflow");
+            correctionAdd("workfolow", "workflow");
+
+            // Noun
+            correctionAdd("work-alike", "workalike");
+
+            correctionAdd("intern ship", "internship");
+            correctionAdd("intership", "internship");
+
+            correctionAdd("intern ships", "internships");
+
+            correctionAdd("portefolio", "portfolio");
+            correctionAdd("portofolio", "portfolio");
+            correctionAdd("portafolio", "portfolio");
+            correctionAdd("PORTFOLIO", "portfolio");
+
+            correctionAdd("job-offer", "job offer");
+
+            correctionAdd("salaray", "salary");
+            correctionAdd("salery", "salary");
+
+            correctionAdd("brutto", "gross income");
+            correctionAdd("brut", "gross income");
+
+            correctionAdd("Boss", "boss");
+
+            correctionAdd("employement", "employment");
+
+            correctionAdd("at will employment", "at-will employment");
+
+            correctionAdd("carreer", "career");
+            correctionAdd("Carreer", "career");
+            correctionAdd("carrier", "career");
+            correctionAdd("carrear", "career");
+            correctionAdd("CARRER", "career");
+            correctionAdd("carrer", "career");
+            correctionAdd("carear", "career");
+
+            correctionAdd("career limiting move", "career-limiting move");
+
+            correctionAdd("commutter", "commuter");
+            correctionAdd("comutter", "commuter");
+
+            correctionAdd("unemployement", "unemployment");
+
+            correctionAdd("Employees", "employees");
+
+            correctionAdd("collegeaue", "colleague");
+            correctionAdd("collegeage", "colleague");
+            correctionAdd("collegaue", "colleague");
+            correctionAdd("collegues", "colleague");
+            correctionAdd("collegeae", "colleague");
+            correctionAdd("colleugue", "colleague");
+            correctionAdd("Colleague", "colleague");
+            correctionAdd("collegege", "colleague");
+            correctionAdd("collegue", "colleague");
+            correctionAdd("colleage", "colleague");
+            correctionAdd("collesge", "colleague");
+            correctionAdd("Collage", "colleague");
+            correctionAdd("collage", "colleague");
+
+            correctionAdd("busywork", "busy work");
+
+            correctionAdd("work-life balance", "work–life balance");
+            correctionAdd("WLB", "work–life balance");
+
+            correctionAdd("theam", "team");
+            correctionAdd("teem", "team");
+
+            correctionAdd("teamlead", "team lead");
+
+            correctionAdd("team-mate", "teammate");
+            correctionAdd("team mate", "teammate");
+
+            correctionAdd("team mates", "teammates");
+
+            correctionAdd("teammember", "team member");
+
+            correctionAdd("teamplayer", "team player");
+
+            correctionAdd("Silver light", "Silverlight");
+            correctionAdd("silver light", "Silverlight");
+            correctionAdd("silverlight", "Silverlight");
+            correctionAdd("sliverlight", "Silverlight"); // Common misspelling...
+            correctionAdd("Sliverlight", "Silverlight"); // Common misspelling...
+            correctionAdd("solverlight", "Silverlight"); // Misspelling...
+            correctionAdd("SIlverlight", "Silverlight");
+            correctionAdd("SilverLight", "Silverlight");
+            correctionAdd("Silverligt", "Silverlight");
+            correctionAdd("Silvelight", "Silverlight");
+            correctionAdd("siverlight", "Silverlight");
+
+            correctionAdd("lwc", "Lightning Web Components");
+            correctionAdd("LWC", "Lightning Web Components");
+
+            correctionAdd("LightTable", "Light Table");
+
+            correctionAdd("lightbox", "Lightbox");
+
+            correctionAdd("Google Lighthouse", "Lighthouse");
+            correctionAdd("Google lighthouse", "Lighthouse");
+            correctionAdd("google lighthouse", "Lighthouse");
+            correctionAdd("lighthouse", "Lighthouse");
+
+            correctionAdd("in-house", "in house");
+            correctionAdd("inhouse", "in house");
+
+            correctionAdd("clubhouse", "Clubhouse");
+
+            correctionAdd("Teamtreehouse.com", "Treehouse");
+            correctionAdd("teamtreehouse", "Treehouse");
+            correctionAdd("Teamtreehouse", "Treehouse");
+
+            correctionAdd("braintree", "Braintree");
+
+            correctionAdd("PSTREE", "pstree");
+
+            correctionAdd("Team City", "TeamCity");
+            correctionAdd("team-city", "TeamCity");
+            correctionAdd("Teamcity", "TeamCity");
+            correctionAdd("teamcity", "TeamCity");
+            correctionAdd("temacity", "TeamCity");
+
+            correctionAdd("tech lead", "technical lead");
+            correctionAdd("Tech lead", "technical lead");
+
+            correctionAdd("mannage", "manage");
+            correctionAdd("mangage", "manage");
+            correctionAdd("menage", "manage");
+            correctionAdd("mange", "manage");
+
+            correctionAdd("manamgement", "management");
+            correctionAdd("mangagement", "management");
+            correctionAdd("Management", "management");
+            correctionAdd("managament", "management");
+            correctionAdd("maangement", "management"); // A true typo
+            correctionAdd("managment", "management");
+            correctionAdd("mangement", "management");
+            correctionAdd("Manament", "management");
+            correctionAdd("manament", "management");
+            correctionAdd("mngt", "management");
+            correctionAdd("Mgmt", "management");
+            correctionAdd("mgmt", "management");
+
+            correctionAdd("micro-manage", "micromanage");
+
+            correctionAdd("micro management", "micromanagement");
+
+            correctionAdd("micro managing", "micromanaging");
+            correctionAdd("micro-managing", "micromanaging");
+
+            correctionAdd("managebility", "manageability");
+
+            correctionAdd("managable", "manageable");
+            correctionAdd("manageble", "manageable");
+            correctionAdd("maganable", "manageable");
+            correctionAdd("mangeable", "manageable");
+
+            correctionAdd("mananger", "manager");
+            correctionAdd("managaer", "manager");
+            correctionAdd("Manager", "manager");
+            correctionAdd("manger", "manager");
+
+            correctionAdd("line-manager", "line manager");
+            correctionAdd("linemanager", "line manager");
+
+            correctionAdd("supervisior", "supervisor");
+            correctionAdd("supervior", "supervisor");
+
+            correctionAdd("co-supervisor", "cosupervisor");
+
+            correctionAdd("personell", "personnel");
+            correctionAdd("personel", "personnel");
+
+            correctionAdd("free-time", "free time");
+            correctionAdd("freetime", "free time");
+
+            correctionAdd("personal time off", "paid time off");
+            correctionAdd("planned time off", "paid time off");
+            correctionAdd("PTO", "paid time off");
+
+            correctionAdd("payed", "paid");
+            correctionAdd("paied", "paid");
+            correctionAdd("piad", "paid");
+
+            correctionAdd("pay off", "pay-off");
+            correctionAdd("payoff", "pay-off");
+
+            correctionAdd("pay check", "paycheck");
+
+            correctionAdd("pay-scale", "payscale");
+
+            correctionAdd("commericial", "commercial");
+
+            correctionAdd("commercically", "commercially");
+            correctionAdd("commerically", "commercially");
+
+            correctionAdd("non commercial", "noncommercial");
+
+            correctionAdd("off the shelf", "off-the-shelf");
+            correctionAdd("off-the shelf", "off-the-shelf");
+            correctionAdd("offtheshelf", "off-the-shelf");
+            correctionAdd("oftheshelf", "off-the-shelf");
+
+            correctionAdd("commercially available off-the-shelf", "commercial off-the-shelf");
+            correctionAdd("COTS", "commercial off-the-shelf");
+
+            correctionAdd("SITES-AVAILABLE", "sites-available");
+
+            correctionAdd("no awail", "no avail");
+            correctionAdd("awail", "no avail");
+
+            correctionAdd("with no avail", "to no avail");
+
+            correctionAdd("in veil", "in vain"); // Perhaps "to no avail" was meant
+            correctionAdd("no vain", "in vain"); // Perhaps "to no avail" was meant
+
+            // Alternative URLs:
+            //
+            //   <https://english.stackexchange.com/questions/167641>
+            //     "in the same vein as" vs.
+            //     "in a similar vein to" vs.
+            //     "along a similar vein"
+            //
+            correctionAdd("in the same vain", "in the same vein");
+
             correctionAdd("glade", "glad");
 
             correctionAdd("glandly", "gladly");
@@ -14827,6 +15081,307 @@ namespace OverflowHelper.core
 
             // Idiomatic
             correctionAdd("Let sleeping dogs lie", "let sleeping dogs lie");
+
+            correctionAdd("choosen", "chosen");
+            correctionAdd("chozen", "chosen");
+
+            correctionAdd("choses", "chooses");
+
+            correctionAdd("choising", "choosing");
+            correctionAdd("chosing", "choosing");
+
+            correctionAdd("un-chosen", "unchosen");
+
+            correctionAdd("cohoice", "choice");
+            correctionAdd("choise", "choice");
+            correctionAdd("Choise", "choice");
+            correctionAdd("chioce", "choice"); // A true typo
+            correctionAdd("choce", "choice");
+
+            // The noun
+            correctionAdd("choises", "choices");
+
+            correctionAdd("misschoice", "mischoice");
+
+            correctionAdd("of choose", "of choice");
+
+            correctionAdd("Multiple choice", "multiple-choice");
+
+            correctionAdd("MCQ", "multiple-choice question");
+
+            correctionAdd("gpa", "GPA");
+
+            correctionAdd("mark-sheet", "marksheet");
+
+            correctionAdd("University", "university");
+            correctionAdd("univercity", "university");
+            correctionAdd("uneversity", "university");
+            correctionAdd("univeristy", "university");
+            correctionAdd("universty", "university");
+            correctionAdd("univ", "university");
+            correctionAdd("uni", "university");
+            correctionAdd("Uni", "university");
+
+            correctionAdd("Universities", "universities");
+            correctionAdd("unis", "universities");
+            correctionAdd("Unis", "universities");
+
+            correctionAdd("Lecture", "lecture");
+
+            correctionAdd("eton", "Eton");
+
+            // A portmanteau of Oxford and Cambridge (United Kingdom)
+            correctionAdd("oxbridge", "Oxbridge");
+
+            correctionAdd("The Oxford Union Society", "Oxford Union");
+
+            correctionAdd("Cambridge analytic", "Cambridge Analytica");
+
+            correctionAdd("achademia", "academia");
+            correctionAdd("achedemia", "academia");
+            correctionAdd("Academia", "academia");
+
+            correctionAdd("academians", "academicians");
+
+            correctionAdd("accademic", "academic");
+            correctionAdd("acamedic", "academic");
+            correctionAdd("acedemic", "academic");
+
+            correctionAdd("Associate Lecturer", "associate lecturer");
+
+            correctionAdd("Teachers", "teachers");
+
+            correctionAdd("scholorship", "scholarship");
+
+            correctionAdd("ta", "TA");
+
+            correctionAdd("tuter", "tutor");
+
+            correctionAdd("Tutoring", "tutoring");
+
+            correctionAdd("Tuition", "tuition");
+
+            correctionAdd("Student", "student");
+
+            correctionAdd("Undergraduate", "undergraduate");
+            correctionAdd("undergrad", "undergraduate");
+
+            correctionAdd("graduade", "graduate");
+            correctionAdd("Graduate", "graduate");
+            correctionAdd("grad", "graduate");
+
+            correctionAdd("Freshman", "freshman");
+
+            correctionAdd("Diploma", "diploma");
+
+            correctionAdd("Thesis", "thesis");
+
+            correctionAdd("bachelor's", "bachelor's degree");
+            correctionAdd("bachelors", "bachelor's degree");
+
+            correctionAdd("Bachelor of Science", "B.Sc"); // The official expanded name
+            correctionAdd("BSc", "B.Sc");
+            correctionAdd("BSC", "B.Sc");
+            correctionAdd("B.S", "B.Sc");
+            correctionAdd("BS", "B.Sc");
+
+            correctionAdd("Master's degree", "master's degree");
+            correctionAdd("Masters degree", "master's degree");
+            correctionAdd("masters degree", "master's degree");
+            correctionAdd("master degree", "master's degree");
+            correctionAdd("Master's", "master's degree");
+            correctionAdd("master's", "master's degree");
+            correctionAdd("Master’s", "master's degree");
+            correctionAdd("masters", "master's degree");
+            correctionAdd("Masters", "master's degree");
+            correctionAdd("master", "master's degree");
+
+            // Actually "M.Sc.", but we currently don't allow it...
+            correctionAdd("Master of Science", "M.Sc"); // The official expanded name
+            correctionAdd("MSc", "M.Sc");
+            correctionAdd("msc", "M.Sc");
+            correctionAdd("Msc", "M.Sc");
+            correctionAdd("M.S", "M.Sc");
+            correctionAdd("MS", "M.Sc");
+
+            correctionAdd("honors degree", "honours degree");
+            correctionAdd("Hons", "honours degree");
+            correctionAdd("hons", "honours degree");
+
+            correctionAdd("postgrad", "postgraduate degree");
+
+            correctionAdd("Honor", "honor");
+
+            correctionAdd("honoring", "honouring");
+
+            correctionAdd("Honourable", "honourable");
+            correctionAdd("honorable", "honourable");
+
+            correctionAdd("Ph.D", "Ph.D.");
+            correctionAdd("phd", "Ph.D.");
+            correctionAdd("PHD", "Ph.D.");
+            correctionAdd("Phd", "Ph.D.");
+            correctionAdd("PhD", "Ph.D.");
+
+            correctionAdd("post doc", "postdoc");
+            correctionAdd("Post-Doc", "postdoc");
+            correctionAdd("post-doc", "postdoc");
+            correctionAdd("Post-doc", "postdoc");
+            correctionAdd("PostDoc", "postdoc");
+            correctionAdd("Postdoc", "postdoc");
+
+            correctionAdd("Tenure-Track", "tenure-track");
+
+            correctionAdd("PI", "principal investigator");
+
+            correctionAdd("proffessor", "professor");
+            correctionAdd("Professor", "professor");
+            correctionAdd("proffesor", "professor");
+            correctionAdd("perfessor", "professor");
+            correctionAdd("prefessor", "professor");
+            correctionAdd("prof", "professor");
+            correctionAdd("Prof", "professor");
+
+            correctionAdd("adjunc professor", "adjunct professor");
+
+            // Academic publication
+            correctionAdd("arkivx", "arXiv");
+            correctionAdd("arxiv", "arXiv");
+            correctionAdd("ArXiv", "arXiv");
+            correctionAdd("Arxiv", "arXiv");
+            correctionAdd("axiv", "arXiv");
+
+            // Academic publication. List of predatory journals.
+            correctionAdd("Beall's list", "Beall's List");
+            correctionAdd("Bealls list", "Beall's List");
+
+            correctionAdd("Chief Executive Officer", "CEO");
+            correctionAdd("chief executive officer", "CEO");
+            correctionAdd("ceo", "CEO");
+
+            correctionAdd("CTO", "chief technology officer");
+
+            correctionAdd("COO", "chief operating officer");
+
+            correctionAdd("CIO", "chief information officer");
+
+            correctionAdd("orgnanization", "organisation");
+            correctionAdd("organization", "organisation");
+            correctionAdd("Organization", "organisation");
+            correctionAdd("orgnaization", "organisation");
+            correctionAdd("orgnazation", "organisation");
+            correctionAdd("organiation", "organisation");
+            correctionAdd("Org", "organisation");
+            correctionAdd("org", "organisation");
+
+            correctionAdd("organizational", "organisational");
+
+            correctionAdd("OU", "organizational unit");
+
+            correctionAdd("re-organise", "reorganise");
+            correctionAdd("re-organize", "reorganise");
+            correctionAdd("reorganize", "reorganise");
+
+            correctionAdd("re-org", "reorganisation");
+            correctionAdd("reorg", "reorganisation");
+
+            correctionAdd("fyp", "final year project");
+
+            correctionAdd("C.V", "curriculum vitae");
+            correctionAdd("CV", "curriculum vitae");
+            correctionAdd("cv", "curriculum vitae");
+
+            correctionAdd("resume", "résumé");
+            correctionAdd("Resume", "résumé");
+
+            correctionAdd("letter of recommendation", "recommendation letter");
+            correctionAdd("Letter of Recommendation", "recommendation letter");
+            correctionAdd("Recommendation Letter", "recommendation letter");
+            correctionAdd("letter of reference", "recommendation letter");
+            correctionAdd("reference letter", "recommendation letter");
+            correctionAdd("LoR", "recommendation letter"); // A SIA?
+
+            correctionAdd("Statements of Purpose", "statement of purpose");
+            correctionAdd("application essay", "statement of purpose");
+            correctionAdd("SoP", "statement of purpose");
+
+            correctionAdd("SOW", "statement of work");
+
+            correctionAdd("work's", "works");
+            correctionAdd("workes", "works");
+            correctionAdd("werks", "works");
+            correctionAdd("worsk", "works");
+            correctionAdd("woks", "works");
+
+            correctionAdd("workoing", "working");
+            correctionAdd("workikng", "working");
+            correctionAdd("workring", "working");
+            correctionAdd("work'in", "working");
+            correctionAdd("workong", "working");
+            correctionAdd("wroking", "working");
+            correctionAdd("walking", "working"); // An autocorrect "masterpiece"?
+            correctionAdd("Working", "working");
+            correctionAdd("wokring", "working");
+            correctionAdd("woeking", "working"); // A true typo
+            correctionAdd("woking", "working");
+            correctionAdd("woring", "working");
+            correctionAdd("workin", "working");
+            correctionAdd("wrking", "working");
+            correctionAdd("worky", "working");
+
+            correctionAdd("workedd", "worked");
+            correctionAdd("worrked", "worked");
+            correctionAdd("wordked", "worked");
+            correctionAdd("workded", "worked");
+            correctionAdd("woked", "worked");
+            correctionAdd("worke", "worked");
+
+            correctionAdd("re-work", "rework");
+
+            correctionAdd("working in", "working on");
+
+            correctionAdd("Doesn't working", "nonworking");
+            correctionAdd("doesn't working", "nonworking");
+            correctionAdd("none working", "nonworking");
+            correctionAdd("non-working", "nonworking");
+            correctionAdd("Non-working", "nonworking");
+            correctionAdd("not-working", "nonworking");
+            correctionAdd("Nonworking", "nonworking");
+
+            correctionAdd("Move", "move");
+
+            correctionAdd("movees", "moves");
+            correctionAdd("mows", "moves");
+
+            correctionAdd("m0v3d", "moved");
+
+            correctionAdd("mouvement", "movement");
+            correctionAdd("movment", "movement");
+            correctionAdd("movent", "movement");
+
+            correctionAdd("reomove", "remove");
+            correctionAdd("rem9ve", "remove");
+            correctionAdd("romove", "remove");
+            correctionAdd("Romove", "remove");
+            correctionAdd("rmeove", "remove"); // A true typo
+            correctionAdd("REmove", "remove");
+            correctionAdd("Remove", "remove");
+            correctionAdd("reomve", "remove"); // A true typo
+            correctionAdd("remoe", "remove");
+            correctionAdd("remve", "remove");
+
+            correctionAdd("reomves", "removes"); // A true typo
+            correctionAdd("Reomves", "removes");
+
+            correctionAdd("remouving", "removing");
+            correctionAdd("roving", "removing");
+
+            correctionAdd("removeable", "removable");
+
+            correctionAdd("Removal", "removal");
+
+            // Though we need a better reference
+            correctionAdd("auto removal", "autoremoval");
 
             correctionAdd("accussing", "accusing");
             correctionAdd("acussing", "accusing");
@@ -24904,459 +25459,6 @@ namespace OverflowHelper.core
 
             // Not really a game, more like a simulation
             correctionAdd("game of life", "Game of Life");
-
-            correctionAdd("Multiple choice", "multiple-choice");
-
-            correctionAdd("MCQ", "multiple-choice question");
-
-            correctionAdd("gpa", "GPA");
-
-            correctionAdd("mark-sheet", "marksheet");
-
-            correctionAdd("University", "university");
-            correctionAdd("univercity", "university");
-            correctionAdd("uneversity", "university");
-            correctionAdd("univeristy", "university");
-            correctionAdd("universty", "university");
-            correctionAdd("univ", "university");
-            correctionAdd("uni", "university");
-            correctionAdd("Uni", "university");
-
-            correctionAdd("Universities", "universities");
-            correctionAdd("unis", "universities");
-            correctionAdd("Unis", "universities");
-
-            correctionAdd("Lecture", "lecture");
-
-            correctionAdd("eton", "Eton");
-
-            // A portmanteau of Oxford and Cambridge (United Kingdom)
-            correctionAdd("oxbridge", "Oxbridge");
-
-            correctionAdd("The Oxford Union Society", "Oxford Union");
-
-            correctionAdd("Cambridge analytic", "Cambridge Analytica");
-
-            correctionAdd("achademia", "academia");
-            correctionAdd("achedemia", "academia");
-            correctionAdd("Academia", "academia");
-
-            correctionAdd("academians", "academicians");
-
-            correctionAdd("accademic", "academic");
-            correctionAdd("acamedic", "academic");
-            correctionAdd("acedemic", "academic");
-
-            correctionAdd("Associate Lecturer", "associate lecturer");
-
-            correctionAdd("Teachers", "teachers");
-
-            correctionAdd("scholorship", "scholarship");
-
-            correctionAdd("ta", "TA");
-
-            correctionAdd("tuter", "tutor");
-
-            correctionAdd("Tutoring", "tutoring");
-
-            correctionAdd("Tuition", "tuition");
-
-            correctionAdd("Student", "student");
-
-            correctionAdd("Undergraduate", "undergraduate");
-            correctionAdd("undergrad", "undergraduate");
-
-            correctionAdd("graduade", "graduate");
-            correctionAdd("Graduate", "graduate");
-            correctionAdd("grad", "graduate");
-
-            correctionAdd("Freshman", "freshman");
-
-            correctionAdd("Diploma", "diploma");
-
-            correctionAdd("Thesis", "thesis");
-
-            correctionAdd("bachelor's", "bachelor's degree");
-            correctionAdd("bachelors", "bachelor's degree");
-
-            correctionAdd("Bachelor of Science", "B.Sc"); // The official expanded name
-            correctionAdd("BSc", "B.Sc");
-            correctionAdd("BSC", "B.Sc");
-            correctionAdd("B.S", "B.Sc");
-            correctionAdd("BS", "B.Sc");
-
-            correctionAdd("Master's degree", "master's degree");
-            correctionAdd("Masters degree", "master's degree");
-            correctionAdd("masters degree", "master's degree");
-            correctionAdd("master degree", "master's degree");
-            correctionAdd("Master's", "master's degree");
-            correctionAdd("master's", "master's degree");
-            correctionAdd("Master’s", "master's degree");
-            correctionAdd("masters", "master's degree");
-            correctionAdd("Masters", "master's degree");
-            correctionAdd("master", "master's degree");
-
-            // Actually "M.Sc.", but we currently don't allow it...
-            correctionAdd("Master of Science", "M.Sc"); // The official expanded name
-            correctionAdd("MSc", "M.Sc");
-            correctionAdd("msc", "M.Sc");
-            correctionAdd("Msc", "M.Sc");
-            correctionAdd("M.S", "M.Sc");
-            correctionAdd("MS", "M.Sc");
-
-            correctionAdd("honors degree", "honours degree");
-            correctionAdd("Hons", "honours degree");
-            correctionAdd("hons", "honours degree");
-
-            correctionAdd("postgrad", "postgraduate degree");
-
-            correctionAdd("Honor", "honor");
-
-            correctionAdd("honoring", "honouring");
-
-            correctionAdd("Honourable", "honourable");
-            correctionAdd("honorable", "honourable");
-
-            correctionAdd("Ph.D", "Ph.D.");
-            correctionAdd("phd", "Ph.D.");
-            correctionAdd("PHD", "Ph.D.");
-            correctionAdd("Phd", "Ph.D.");
-            correctionAdd("PhD", "Ph.D.");
-
-            correctionAdd("post doc", "postdoc");
-            correctionAdd("Post-Doc", "postdoc");
-            correctionAdd("post-doc", "postdoc");
-            correctionAdd("Post-doc", "postdoc");
-            correctionAdd("PostDoc", "postdoc");
-            correctionAdd("Postdoc", "postdoc");
-
-            correctionAdd("Tenure-Track", "tenure-track");
-
-            correctionAdd("PI", "principal investigator");
-
-            correctionAdd("proffessor", "professor");
-            correctionAdd("Professor", "professor");
-            correctionAdd("proffesor", "professor");
-            correctionAdd("perfessor", "professor");
-            correctionAdd("prefessor", "professor");
-            correctionAdd("prof", "professor");
-            correctionAdd("Prof", "professor");
-
-            correctionAdd("adjunc professor", "adjunct professor");
-
-            // Academic publication
-            correctionAdd("arkivx", "arXiv");
-            correctionAdd("arxiv", "arXiv");
-            correctionAdd("ArXiv", "arXiv");
-            correctionAdd("Arxiv", "arXiv");
-            correctionAdd("axiv", "arXiv");
-
-            // Academic publication. List of predatory journals.
-            correctionAdd("Beall's list", "Beall's List");
-            correctionAdd("Bealls list", "Beall's List");
-
-            correctionAdd("Chief Executive Officer", "CEO");
-            correctionAdd("chief executive officer", "CEO");
-            correctionAdd("ceo", "CEO");
-
-            correctionAdd("CTO", "chief technology officer");
-
-            correctionAdd("COO", "chief operating officer");
-
-            correctionAdd("CIO", "chief information officer");
-
-            correctionAdd("orgnanization", "organisation");
-            correctionAdd("organization", "organisation");
-            correctionAdd("Organization", "organisation");
-            correctionAdd("orgnaization", "organisation");
-            correctionAdd("orgnazation", "organisation");
-            correctionAdd("organiation", "organisation");
-            correctionAdd("Org", "organisation");
-            correctionAdd("org", "organisation");
-
-            correctionAdd("organizational", "organisational");
-
-            correctionAdd("OU", "organizational unit");
-
-            correctionAdd("re-organise", "reorganise");
-            correctionAdd("re-organize", "reorganise");
-            correctionAdd("reorganize", "reorganise");
-
-            correctionAdd("re-org", "reorganisation");
-            correctionAdd("reorg", "reorganisation");
-
-            correctionAdd("fyp", "final year project");
-
-            correctionAdd("C.V", "curriculum vitae");
-            correctionAdd("CV", "curriculum vitae");
-            correctionAdd("cv", "curriculum vitae");
-
-            correctionAdd("resume", "résumé");
-            correctionAdd("Resume", "résumé");
-
-            correctionAdd("letter of recommendation", "recommendation letter");
-            correctionAdd("Letter of Recommendation", "recommendation letter");
-            correctionAdd("Recommendation Letter", "recommendation letter");
-            correctionAdd("letter of reference", "recommendation letter");
-            correctionAdd("reference letter", "recommendation letter");
-            correctionAdd("LoR", "recommendation letter"); // A SIA?
-
-            correctionAdd("Statements of Purpose", "statement of purpose");
-            correctionAdd("application essay", "statement of purpose");
-            correctionAdd("SoP", "statement of purpose");
-
-            correctionAdd("SOW", "statement of work");
-
-            correctionAdd("work's", "works");
-            correctionAdd("workes", "works");
-            correctionAdd("werks", "works");
-            correctionAdd("worsk", "works");
-            correctionAdd("woks", "works");
-
-            correctionAdd("workoing", "working");
-            correctionAdd("workikng", "working");
-            correctionAdd("workring", "working");
-            correctionAdd("work'in", "working");
-            correctionAdd("workong", "working");
-            correctionAdd("wroking", "working");
-            correctionAdd("walking", "working"); // An autocorrect "masterpiece"?
-            correctionAdd("Working", "working");
-            correctionAdd("wokring", "working");
-            correctionAdd("woeking", "working"); // A true typo
-            correctionAdd("woking", "working");
-            correctionAdd("woring", "working");
-            correctionAdd("workin", "working");
-            correctionAdd("wrking", "working");
-            correctionAdd("worky", "working");
-
-            correctionAdd("workedd", "worked");
-            correctionAdd("worrked", "worked");
-            correctionAdd("wordked", "worked");
-            correctionAdd("workded", "worked");
-            correctionAdd("woked", "worked");
-            correctionAdd("worke", "worked");
-
-            correctionAdd("re-work", "rework");
-
-            correctionAdd("working in", "working on");
-
-            correctionAdd("Doesn't working", "nonworking");
-            correctionAdd("doesn't working", "nonworking");
-            correctionAdd("none working", "nonworking");
-            correctionAdd("non-working", "nonworking");
-            correctionAdd("Non-working", "nonworking");
-            correctionAdd("not-working", "nonworking");
-            correctionAdd("Nonworking", "nonworking");
-
-            correctionAdd("Move", "move");
-
-            correctionAdd("movees", "moves");
-            correctionAdd("mows", "moves");
-
-            correctionAdd("m0v3d", "moved");
-
-            correctionAdd("mouvement", "movement");
-            correctionAdd("movment", "movement");
-            correctionAdd("movent", "movement");
-
-            correctionAdd("reomove", "remove");
-            correctionAdd("rem9ve", "remove");
-            correctionAdd("romove", "remove");
-            correctionAdd("Romove", "remove");
-            correctionAdd("rmeove", "remove"); // A true typo
-            correctionAdd("REmove", "remove");
-            correctionAdd("Remove", "remove");
-            correctionAdd("reomve", "remove"); // A true typo
-            correctionAdd("remoe", "remove");
-            correctionAdd("remve", "remove");
-
-            correctionAdd("reomves", "removes"); // A true typo
-            correctionAdd("Reomves", "removes");
-
-            correctionAdd("remouving", "removing");
-            correctionAdd("roving", "removing");
-
-            correctionAdd("removeable", "removable");
-
-            correctionAdd("Removal", "removal");
-
-            // Though we need a better reference
-            correctionAdd("auto removal", "autoremoval");
-
-            correctionAdd("move around aimlessly", "work out");
-            correctionAdd("workout", "work out");
-
-            correctionAdd("hard-working", "hardworking");
-
-            correctionAdd("hand work", "handwork");
-
-            correctionAdd("leg work", "legwork");
-
-            correctionAdd("gruntwork", "grunt work");
-
-            correctionAdd("ground work", "groundwork");
-
-            correctionAdd("hand worked", "handworked");
-
-            correctionAdd("work-item", "work item");
-
-            correctionAdd("worked to me", "worked for me");
-
-            correctionAdd("work tree", "worktree");
-
-            correctionAdd("Work-order", "work order");
-            correctionAdd("work-order", "work order");
-            correctionAdd("workorder", "work order");
-
-            correctionAdd("work force", "workforce");
-
-            correctionAdd("work flow", "workflow");
-            correctionAdd("work-flow", "workflow");
-            correctionAdd("workfolow", "workflow");
-
-            // Noun
-            correctionAdd("work-alike", "workalike");
-
-            correctionAdd("intern ship", "internship");
-            correctionAdd("intership", "internship");
-
-            correctionAdd("intern ships", "internships");
-
-            correctionAdd("portefolio", "portfolio");
-            correctionAdd("portofolio", "portfolio");
-            correctionAdd("portafolio", "portfolio");
-            correctionAdd("PORTFOLIO", "portfolio");
-
-            correctionAdd("job-offer", "job offer");
-
-            correctionAdd("salaray", "salary");
-            correctionAdd("salery", "salary");
-
-            correctionAdd("brutto", "gross income");
-            correctionAdd("brut", "gross income");
-
-            correctionAdd("Boss", "boss");
-
-            correctionAdd("employement", "employment");
-
-            correctionAdd("at will employment", "at-will employment");
-
-            correctionAdd("carreer", "career");
-            correctionAdd("Carreer", "career");
-            correctionAdd("carrier", "career");
-            correctionAdd("carrear", "career");
-            correctionAdd("CARRER", "career");
-            correctionAdd("carrer", "career");
-            correctionAdd("carear", "career");
-
-            correctionAdd("career limiting move", "career-limiting move");
-
-            correctionAdd("commutter", "commuter");
-            correctionAdd("comutter", "commuter");
-
-            correctionAdd("unemployement", "unemployment");
-
-            correctionAdd("Employees", "employees");
-
-            correctionAdd("collegeaue", "colleague");
-            correctionAdd("collegeage", "colleague");
-            correctionAdd("collegaue", "colleague");
-            correctionAdd("collegues", "colleague");
-            correctionAdd("collegeae", "colleague");
-            correctionAdd("colleugue", "colleague");
-            correctionAdd("Colleague", "colleague");
-            correctionAdd("collegege", "colleague");
-            correctionAdd("collegue", "colleague");
-            correctionAdd("colleage", "colleague");
-            correctionAdd("collesge", "colleague");
-            correctionAdd("Collage", "colleague");
-            correctionAdd("collage", "colleague");
-
-            correctionAdd("busywork", "busy work");
-
-            correctionAdd("work-life balance", "work–life balance");
-            correctionAdd("WLB", "work–life balance");
-
-            correctionAdd("theam", "team");
-            correctionAdd("teem", "team");
-
-            correctionAdd("teamlead", "team lead");
-
-            correctionAdd("team-mate", "teammate");
-            correctionAdd("team mate", "teammate");
-
-            correctionAdd("team mates", "teammates");
-
-            correctionAdd("teamplayer", "team player");
-
-            correctionAdd("tech lead", "technical lead");
-            correctionAdd("Tech lead", "technical lead");
-
-            correctionAdd("mannage", "manage");
-            correctionAdd("mangage", "manage");
-            correctionAdd("menage", "manage");
-            correctionAdd("mange", "manage");
-
-            correctionAdd("manamgement", "management");
-            correctionAdd("mangagement", "management");
-            correctionAdd("Management", "management");
-            correctionAdd("managament", "management");
-            correctionAdd("maangement", "management"); // A true typo
-            correctionAdd("managment", "management");
-            correctionAdd("mangement", "management");
-            correctionAdd("Manament", "management");
-            correctionAdd("manament", "management");
-            correctionAdd("mngt", "management");
-            correctionAdd("Mgmt", "management");
-            correctionAdd("mgmt", "management");
-
-            correctionAdd("micro-manage", "micromanage");
-
-            correctionAdd("micro management", "micromanagement");
-
-            correctionAdd("micro managing", "micromanaging");
-            correctionAdd("micro-managing", "micromanaging");
-
-            correctionAdd("managebility", "manageability");
-
-            correctionAdd("managable", "manageable");
-            correctionAdd("manageble", "manageable");
-            correctionAdd("maganable", "manageable");
-            correctionAdd("mangeable", "manageable");
-
-            correctionAdd("mananger", "manager");
-            correctionAdd("managaer", "manager");
-            correctionAdd("Manager", "manager");
-            correctionAdd("manger", "manager");
-
-            correctionAdd("line-manager", "line manager");
-            correctionAdd("linemanager", "line manager");
-
-            correctionAdd("supervisior", "supervisor");
-            correctionAdd("supervior", "supervisor");
-
-            correctionAdd("co-supervisor", "cosupervisor");
-
-            correctionAdd("personell", "personnel");
-            correctionAdd("personel", "personnel");
-
-            correctionAdd("free-time", "free time");
-            correctionAdd("freetime", "free time");
-
-            correctionAdd("personal time off", "paid time off");
-            correctionAdd("planned time off", "paid time off");
-            correctionAdd("PTO", "paid time off");
-
-            correctionAdd("payed", "paid");
-            correctionAdd("paied", "paid");
-            correctionAdd("piad", "paid");
-
-            correctionAdd("pay off", "pay-off");
-            correctionAdd("payoff", "pay-off");
-
-            correctionAdd("pay check", "paycheck");
-
-            correctionAdd("pay-scale", "payscale");
 
             correctionAdd("synopis", "synopsis");
 
@@ -59006,27 +59108,6 @@ namespace OverflowHelper.core
 
             correctionAdd("work shopped", "workshopped");
 
-            correctionAdd("choosen", "chosen");
-            correctionAdd("chozen", "chosen");
-
-            correctionAdd("choses", "chooses");
-
-            correctionAdd("choising", "choosing");
-            correctionAdd("chosing", "choosing");
-
-            correctionAdd("un-chosen", "unchosen");
-
-            correctionAdd("cohoice", "choice");
-            correctionAdd("choise", "choice");
-            correctionAdd("Choise", "choice");
-            correctionAdd("chioce", "choice"); // A true typo
-            correctionAdd("choce", "choice");
-
-            // The noun
-            correctionAdd("choises", "choices");
-
-            correctionAdd("misschoice", "mischoice");
-
             // The noun
             correctionAdd("addresss", "address");
             correctionAdd("ADDRESSS", "address");
@@ -69317,43 +69398,6 @@ namespace OverflowHelper.core
 
             correctionAdd("BSSID", "basic service set identifier");
 
-            correctionAdd("Silver light", "Silverlight");
-            correctionAdd("silver light", "Silverlight");
-            correctionAdd("silverlight", "Silverlight");
-            correctionAdd("sliverlight", "Silverlight"); // Common misspelling...
-            correctionAdd("Sliverlight", "Silverlight"); // Common misspelling...
-            correctionAdd("solverlight", "Silverlight"); // Misspelling...
-            correctionAdd("SIlverlight", "Silverlight");
-            correctionAdd("SilverLight", "Silverlight");
-            correctionAdd("Silverligt", "Silverlight");
-            correctionAdd("Silvelight", "Silverlight");
-            correctionAdd("siverlight", "Silverlight");
-
-            correctionAdd("lwc", "Lightning Web Components");
-            correctionAdd("LWC", "Lightning Web Components");
-
-            correctionAdd("LightTable", "Light Table");
-
-            correctionAdd("lightbox", "Lightbox");
-
-            correctionAdd("Google Lighthouse", "Lighthouse");
-            correctionAdd("Google lighthouse", "Lighthouse");
-            correctionAdd("google lighthouse", "Lighthouse");
-            correctionAdd("lighthouse", "Lighthouse");
-
-            correctionAdd("in-house", "in house");
-            correctionAdd("inhouse", "in house");
-
-            correctionAdd("clubhouse", "Clubhouse");
-
-            correctionAdd("Teamtreehouse.com", "Treehouse");
-            correctionAdd("teamtreehouse", "Treehouse");
-            correctionAdd("Teamtreehouse", "Treehouse");
-
-            correctionAdd("braintree", "Braintree");
-
-            correctionAdd("PSTREE", "pstree");
-
             correctionAdd("domain driven development", "domain-driven design");
             correctionAdd("Domain Driven Design", "domain-driven design");
             correctionAdd("Domain-Driven Design", "domain-driven design");
@@ -79596,6 +79640,7 @@ namespace OverflowHelper.core
             correctionAdd("Amazon ec2", "Amazon EC2");
             correctionAdd("AWS Ec2", "Amazon EC2");
             correctionAdd("aws ec2", "Amazon EC2");
+            correctionAdd("AWS EC2", "Amazon EC2");
             correctionAdd("ec2", "Amazon EC2");
             correctionAdd("Ec2", "Amazon EC2");
             correctionAdd("EC2", "Amazon EC2");
@@ -79643,6 +79688,7 @@ namespace OverflowHelper.core
 
             correctionAdd("SSM agent", "AWS Systems Manager Agent");
             correctionAdd("SSM Agent", "AWS Systems Manager Agent");
+            correctionAdd("SSM", "AWS Systems Manager Agent");
 
             correctionAdd("AWS lambda", "AWS Lambda");
             correctionAdd("aws lambda", "AWS Lambda");
@@ -80438,33 +80484,6 @@ namespace OverflowHelper.core
             correctionAdd("over-generalizing", "overgeneralizing");
 
             correctionAdd("valient", "valiant");
-
-            correctionAdd("off the shelf", "off-the-shelf");
-            correctionAdd("off-the shelf", "off-the-shelf");
-            correctionAdd("offtheshelf", "off-the-shelf");
-            correctionAdd("oftheshelf", "off-the-shelf");
-
-            correctionAdd("commercially available off-the-shelf", "commercial off-the-shelf");
-            correctionAdd("COTS", "commercial off-the-shelf");
-
-            correctionAdd("SITES-AVAILABLE", "sites-available");
-
-            correctionAdd("no awail", "no avail");
-            correctionAdd("awail", "no avail");
-
-            correctionAdd("with no avail", "to no avail");
-
-            correctionAdd("in veil", "in vain"); // Perhaps "to no avail" was meant
-            correctionAdd("no vain", "in vain"); // Perhaps "to no avail" was meant
-
-            // Alternative URLs:
-            //
-            //   <https://english.stackexchange.com/questions/167641>
-            //     "in the same vein as" vs.
-            //     "in a similar vein to" vs.
-            //     "along a similar vein"
-            //
-            correctionAdd("in the same vain", "in the same vein");
 
             // Mac software development
             correctionAdd("x-code", "Xcode");
@@ -100511,12 +100530,6 @@ namespace OverflowHelper.core
             correctionAdd("severaly", "severely");
             correctionAdd("severly", "severely");
 
-            correctionAdd("Team City", "TeamCity");
-            correctionAdd("team-city", "TeamCity");
-            correctionAdd("Teamcity", "TeamCity");
-            correctionAdd("teamcity", "TeamCity");
-            correctionAdd("temacity", "TeamCity");
-
             correctionAdd("appreciatte", "appreciate");
             correctionAdd("appreaciate", "appreciate");
             correctionAdd("appreicate", "appreciate");
@@ -102399,9 +102412,6 @@ namespace OverflowHelper.core
             correctionAdd("which ever", "whichever");
             correctionAdd("Which ever", "whichever");
 
-            correctionAdd("commercically", "commercially");
-            correctionAdd("commerically", "commercially");
-
             correctionAdd("two-in-one", "2-in-1 PC");
             correctionAdd("2-in-1", "2-in-1 PC");
             correctionAdd("2in1", "2-in-1 PC");
@@ -104198,8 +104208,6 @@ namespace OverflowHelper.core
             correctionAdd("p**n", "pornography");
 
             correctionAdd("PornHub", "Pornhub");
-
-            correctionAdd("commericial", "commercial");
 
             correctionAdd("Employer", "employer");
             correctionAdd("emplyer", "employer");
@@ -110549,8 +110557,6 @@ namespace OverflowHelper.core
 
             URL_Add("sacrificing", "https://en.wiktionary.org/wiki/sacrifice#Verb");
 
-            URL_Add("commercially", "https://en.wiktionary.org/wiki/commercially#Adverb");
-
             URL_Add("presence", "https://en.wiktionary.org/wiki/presence#Noun");
 
             URL_Add("nofollow", "https://en.wikipedia.org/wiki/Nofollow");
@@ -113881,8 +113887,6 @@ namespace OverflowHelper.core
 
             URL_Add("branches", "https://en.wiktionary.org/wiki/branch#Noun");
 
-            URL_Add("HSPICE", "https://en.wikipedia.org/wiki/SPICE#Commercial_versions_and_spinoffs");
-
             URL_Add("scikit-learn", "https://en.wikipedia.org/wiki/Scikit-learn");
 
             URL_Add("Pi-hole", "https://en.wikipedia.org/wiki/Pi-hole");
@@ -115708,8 +115712,6 @@ namespace OverflowHelper.core
             URL_Add("backstory", "https://en.wiktionary.org/wiki/backstory#Noun");
 
             URL_Add("combinatorial optimization", "https://en.wikipedia.org/wiki/Combinatorial_optimization");
-
-            URL_Add("commercial", "https://en.wiktionary.org/wiki/commercial#Adjective");
 
             URL_Add("employer", "https://en.wiktionary.org/wiki/employer#Noun");
 
@@ -119014,8 +119016,6 @@ namespace OverflowHelper.core
             URL_Add("meanwhile", "https://en.wiktionary.org/wiki/meanwhile#Adverb");
 
             URL_Add("full width at half maximum", "https://en.wikipedia.org/wiki/Full_width_at_half_maximum");
-
-            URL_Add("commercial off-the-shelf", "https://en.wikipedia.org/wiki/Commercial_off-the-shelf");
 
             URL_Add("Shiny", "https://en.wikipedia.org/wiki/Shiny_(software)");
 
@@ -138111,12 +138111,6 @@ namespace OverflowHelper.core
 
             URL_Add("air molecule", "https://en.wikipedia.org/wiki/Ionized-air_glow#Processes");
 
-            URL_Add("dual-core", "https://en.wikipedia.org/wiki/Multi-core_processor#Terminology");
-
-            URL_Add("8-core", "https://en.wikipedia.org/wiki/Multi-core_processor#Commercial");
-
-            URL_Add("IGPU", "https://en.wikipedia.org/wiki/Graphics_processing_unit#Integrated_graphics_processing_unit");
-
             URL_Add("Atmel SAM", "https://en.wikipedia.org/wiki/Atmel_ARM-based_processors#Microcontrollers");
 
             URL_Add("taskset", "https://en.wikipedia.org/wiki/Processor_affinity#Specific_operating_systems");
@@ -148034,6 +148028,26 @@ namespace OverflowHelper.core
             URL_Add("disproportionate", "https://en.wiktionary.org/wiki/disproportionate#Adjective");
 
             URL_Add("nonproportional", "https://en.wiktionary.org/wiki/nonproportional#Adjective");
+
+            URL_Add("of choice", "https://en.wiktionary.org/wiki/of_choice#Prepositional_phrase");
+
+            URL_Add("team member", "https://www.collinsdictionary.com/dictionary/english/team-member");
+
+            URL_Add("commercial", "https://en.wiktionary.org/wiki/commercial#Adjective");
+
+            URL_Add("noncommercial", "https://en.wiktionary.org/wiki/noncommercial#Adjective");
+
+            URL_Add("commercially", "https://en.wiktionary.org/wiki/commercially#Adverb");
+
+            URL_Add("commercial off-the-shelf", "https://en.wikipedia.org/wiki/Commercial_off-the-shelf");
+
+            URL_Add("dual-core", "https://en.wikipedia.org/wiki/Multi-core_processor#Terminology");
+
+            URL_Add("HSPICE", "https://en.wikipedia.org/wiki/SPICE#Commercial_versions_and_spinoffs");
+
+            URL_Add("8-core", "https://en.wikipedia.org/wiki/Multi-core_processor#Commercial");
+
+            URL_Add("IGPU", "https://en.wikipedia.org/wiki/Graphics_processing_unit#Integrated_graphics_processing_unit");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
