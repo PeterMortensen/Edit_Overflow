@@ -8583,66 +8583,177 @@ namespace OverflowHelper.core
 
             correctionAdd("triplepoint", "triple point");
 
+            correctionAdd("-20&nbsp;°F", "-28.9&nbsp;°C");
             correctionAdd("-28.9 °C", "-28.9&nbsp;°C"); // Sort of identity mapping
             correctionAdd("-20 F", "-28.9&nbsp;°C");
 
+            correctionAdd("-10&nbsp;°F", "-23.3&nbsp;°C");
             correctionAdd("-23.3 °C", "-23.3&nbsp;°C"); // Sort of identity mapping
             correctionAdd("-10 F", "-23.3&nbsp;°C");
             correctionAdd("-10 f", "-23.3&nbsp;°C");
 
+            correctionAdd("0&nbsp;°F", "-17.7&nbsp;°C");
             correctionAdd("-17.7 °C", "-17.7&nbsp;°C"); // Sort of identity mapping
             correctionAdd("0 F", "-17.7&nbsp;°C");
             correctionAdd("0 f", "-17.7&nbsp;°C");
 
+            correctionAdd("10&nbsp;°F", "-12.2&nbsp;°C");
             correctionAdd("-12.2 °C", "-12.2&nbsp;°C"); // Sort of identity mapping
             correctionAdd("-12 C", "-12.2&nbsp;°C");
             correctionAdd("10 F", "-12.2&nbsp;°C");
             correctionAdd("10 f", "-12.2&nbsp;°C");
 
+            correctionAdd("20&nbsp;°F", "-6.7&nbsp;°C");
             correctionAdd("-6.7 °C", "-6.7&nbsp;°C"); // Sort of identity mapping
             correctionAdd("20 F", "-6.7&nbsp;°C");
             correctionAdd("20 f", "-6.7&nbsp;°C");
             correctionAdd("-7 C", "-6.7&nbsp;°C");
 
+            correctionAdd("30&nbsp;°F", "-1.1&nbsp;°C");
             correctionAdd("-1.1 °C", "-1.1&nbsp;°C"); // Sort of identity mapping
             correctionAdd("30 F", "-1.1&nbsp;°C");
             correctionAdd("30 f", "-1.1&nbsp;°C");
             correctionAdd("-1 C", "-1.1&nbsp;°C");
 
+            correctionAdd("40&nbsp;°F", "4.4&nbsp;°C");
             correctionAdd("4.4 °C", "4.4&nbsp;°C"); // Sort of identity mapping
             correctionAdd("40 F", "4.4&nbsp;°C");
             correctionAdd("40 f", "4.4&nbsp;°C");
             correctionAdd("4 C", "4.4&nbsp;°C");
 
+            correctionAdd("50&nbsp;°F", "10.0&nbsp;°C");
             correctionAdd("10.0 °C", "10.0&nbsp;°C"); // Sort of identity mapping
             correctionAdd("50 F", "10.0&nbsp;°C");
             correctionAdd("50 f", "10.0&nbsp;°C");
             correctionAdd("10 C", "10.0&nbsp;°C");
 
+            correctionAdd("60&nbsp;°F", "15.6&nbsp;°C");
             correctionAdd("15.6 °C", "15.6&nbsp;°C"); // Sort of identity mapping
             correctionAdd("60 F", "15.6&nbsp;°C");
             correctionAdd("60 f", "15.6&nbsp;°C");
             correctionAdd("16 C", "15.6&nbsp;°C");
 
+            correctionAdd("70&nbsp;°F", "21.1&nbsp;°C");
             correctionAdd("21.1 °C", "21.1&nbsp;°C"); // Sort of identity mapping
             correctionAdd("70 F", "21.1&nbsp;°C");
             correctionAdd("70 f", "21.1&nbsp;°C");
             correctionAdd("21 C", "21.1&nbsp;°C");
 
+            correctionAdd("80&nbsp;°F", "26.7&nbsp;°C");
             correctionAdd("26.7 °C", "26.7&nbsp;°C"); // Sort of identity mapping
             correctionAdd("80 F", "26.7&nbsp;°C");
             correctionAdd("80 f", "26.7&nbsp;°C");
             correctionAdd("27 C", "26.7&nbsp;°C");
 
+            correctionAdd("90&nbsp;°F", "32.2&nbsp;°C");
             correctionAdd("32.2 °C", "32.2&nbsp;°C"); // Sort of identity mapping
             correctionAdd("90 F", "32.2&nbsp;°C");
             correctionAdd("90 f", "32.2&nbsp;°C");
             correctionAdd("32 C", "32.2&nbsp;°C");
 
+            correctionAdd("100&nbsp;°F", "37.8&nbsp;°C");
             correctionAdd("37.8 °C", "37.8&nbsp;°C"); // Sort of identity mapping
             correctionAdd("100 F", "37.8&nbsp;°C");
             correctionAdd("100 f", "37.8&nbsp;°C");
             correctionAdd("38 C", "37.8&nbsp;°C");
+
+            // Weller Magnastat system: #5 (?)
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1v7fi1q/comment/p01g3nw/>
+            //
+            correctionAdd("500&nbsp;°F", "260&nbsp;°C");
+            correctionAdd("260 °C", "260&nbsp;°C"); // Sort of identity mapping
+            correctionAdd("500 °F", "260&nbsp;°C");
+            correctionAdd("260 C", "260&nbsp;°C");
+            correctionAdd("500 F", "260&nbsp;°C");
+            correctionAdd("500 f", "260&nbsp;°C");
+            correctionAdd("260", "260&nbsp;°C");
+            correctionAdd("500", "260&nbsp;°C");
+            correctionAdd("#5", "260&nbsp;°C"); // We had to add it manually...
+
+            // Weller Magnastat system: #6 (?)
+            //
+            //   But more like 320 °C... (600 °F is 315.6 °C)
+            //
+            //   A typo of 320 carried over many times???
+            //
+            //   Or poor rounding of 315 °C. There is already
+            //   425 °C, so it would seem it should be 315 °C.
+            //
+            correctionAdd("590&nbsp;°F", "310&nbsp;°C");
+            correctionAdd("310 °C", "310&nbsp;°C"); // Sort of identity mapping
+            correctionAdd("590 °F", "310&nbsp;°C");
+            correctionAdd("310 C", "310&nbsp;°C");
+            correctionAdd("590 F", "310&nbsp;°C");
+            correctionAdd("590 f", "310&nbsp;°C");
+            correctionAdd("310", "310&nbsp;°C");
+            correctionAdd("590", "310&nbsp;°C");
+            correctionAdd("#6", "310&nbsp;°C"); // We had to add it manually...
+
+            // Weller Magnastat system: #7 (e.g., PT7-LT)
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.weller-tools.com/eu/gb/industrial-soldering/products/soldering-irons/tcps>
+            //   <https://www.rapidonline.com/weller-t0053210599n-tcp-s-magnastat-soldering-iron-50w-24v-85-4852?sitetype=1>
+            //   <https://www.rapidonline.com/weller-pt-series-soldering-iron-tips-32461>
+            //   <https://www.weller-tools.com/eu/gb/industrial-soldering/products/soldering-tips/pt7-lt>
+            //   <https://www.weller-tools.com/eu/gb/product_datasheet?nid=19396>
+            //     PT7-LT datasheet
+            //
+            //   <https://www.rapidonline.com/weller-4ptf7-1-pt-f7-solder-tip-round-tip-sloped-370-c-1-2mm-85-4611>
+            //   <https://www.weller-tools.com/eu/gb/industrial-soldering/products/soldering-tips/pt-c7>
+            //   <https://www.weller-tools.com/mea/gb/industrial-soldering/products/soldering-tips/pt-c7>
+            //     PT C7
+            //
+            //   <https://cpc.farnell.com/weller/pt-cc7/32mm-round-sloped-soldering-iron-tip-370%C2%B0c/dp/WL00394>
+            //     PT-CC7
+            //
+            correctionAdd("698&nbsp;°F", "370&nbsp;°C");
+            correctionAdd("370 °C", "370&nbsp;°C"); // Sort of identity mapping
+            correctionAdd("698 °F", "370&nbsp;°C");
+            correctionAdd("370 C", "370&nbsp;°C");
+            correctionAdd("698 F", "370&nbsp;°C");
+            correctionAdd("698 f", "370&nbsp;°C");
+            correctionAdd("370", "370&nbsp;°C");
+            correctionAdd("698", "370&nbsp;°C");
+            correctionAdd("#7", "370&nbsp;°C"); // We had to add it manually...
+
+            // Weller Magnastat system: #8
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.rapidonline.com/weller-4ptf8-1-pt-f8-solder-tip-round-tip-sloped-425-c-1-2mm-85-4612>
+            //
+            correctionAdd("797&nbsp;°F", "425&nbsp;°C");
+            correctionAdd("425 °C", "425&nbsp;°C"); // Sort of identity mapping
+            correctionAdd("797 °F", "425&nbsp;°C");
+            correctionAdd("425 C", "425&nbsp;°C");
+            correctionAdd("797 F", "425&nbsp;°C");
+            correctionAdd("797 f", "425&nbsp;°C");
+            correctionAdd("425", "425&nbsp;°C");
+            correctionAdd("797", "425&nbsp;°C");
+            correctionAdd("#8", "425&nbsp;°C"); // We had to add it manually...
+
+            // Weller Magnastat system: #9
+            //
+            // Note: "500&nbsp;°C" is in an alternative word set
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.rapidonline.com/weller-4ptaa9-1-pt-aa9-solder-tip-round-tip-sloped-480-c-1-6mm-85-4618>
+            //
+            correctionAdd("896&nbsp;°F", "480&nbsp;°C");
+            correctionAdd("480 °C", "480&nbsp;°C"); // Sort of identity mapping
+            correctionAdd("896 °F", "480&nbsp;°C");
+            correctionAdd("480 C", "480&nbsp;°C");
+            correctionAdd("896 F", "480&nbsp;°C");
+            correctionAdd("896 f", "480&nbsp;°C");
+            correctionAdd("480", "480&nbsp;°C");
+            correctionAdd("896", "480&nbsp;°C");
+            correctionAdd("#9", "480&nbsp;°C"); // We had to add it manually...
 
             correctionAdd("12000 ft", "3.7&nbsp;km");
             correctionAdd("3.7 km", "3.7&nbsp;km"); // Sort of identity mapping
@@ -30082,6 +30193,7 @@ namespace OverflowHelper.core
 
             correctionAdd("wrirtten", "written");
             correctionAdd("writtemn", "written");
+            correctionAdd("writtern", "written");
             correctionAdd("wfitten", "written");
             correctionAdd("writeen", "written");
             correctionAdd("writen", "written");
@@ -42622,6 +42734,9 @@ namespace OverflowHelper.core
             correctionAdd("bad solder joints", "cold solder joints");
             correctionAdd("bad solder joint", "cold solder joints");
             correctionAdd("cold soldering", "cold solder joints");
+
+            // A soldering iron brand
+            correctionAdd("weller", "Weller");
 
             // Electronics
             correctionAdd("Restriction of Hazardous Substances Directive", "RoHS");
@@ -69427,20 +69542,6 @@ namespace OverflowHelper.core
             //
             correctionAdd("CDD", "complaint-driven development");
 
-            // Alternative URLs:
-            //
-            //   See entry "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)",
-            //   e.g., the Keychron support article and the July 2024
-            //   Keychron acknowledgment.
-            //
-            correctionAdd("Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)", "number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode");
-            correctionAdd("it isn't the switches, damn it!", "number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode"); // For the cross-reference
-            correctionAdd("number 9 on the checklist", "number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode");
-            correctionAdd("Keychron acknowledged", "number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode");
-            correctionAdd("the gasket problem", "number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode");
-            correctionAdd("gasket problem", "number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode");
-            correctionAdd("#9", "number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode");
-
             correctionAdd("feable", "feeble");
 
             correctionAdd("wrong", "row"); // An autocorrect "masterpiece"?
@@ -75180,6 +75281,8 @@ namespace OverflowHelper.core
             correctionAdd("General Purpose OS", "general-purpose operating system");
             correctionAdd("general-purpose OS", "general-purpose operating system");
             correctionAdd("GPOS", "general-purpose operating system");
+
+            correctionAdd("OSTEP", "Operating Systems: Three Easy Pieces");
 
             // A type of operating system
             correctionAdd("real-time operating system", "RTOS"); // The spelling of the expanded term
@@ -93473,6 +93576,7 @@ namespace OverflowHelper.core
             correctionAdd("gelatine", "gelatin");
 
             correctionAdd("frustarting", "frustrating");
+            correctionAdd("fustrating", "frustrating");
 
             correctionAdd("fraustrated", "frustrated");
             correctionAdd("fruustrated", "frustrated");
@@ -110697,8 +110801,6 @@ namespace OverflowHelper.core
 
             URL_Add("flaky", "https://en.wiktionary.org/wiki/flaky#Adjective");
 
-            URL_Add("jewellery", "https://en.wiktionary.org/wiki/jewellery#Noun");
-
             URL_Add("measurement", "https://en.wiktionary.org/wiki/measurement#Noun");
 
             URL_Add("one-shot", "https://en.wiktionary.org/wiki/one-shot#Verb");
@@ -124271,8 +124373,6 @@ namespace OverflowHelper.core
 
             URL_Add("edge cases", "https://en.wiktionary.org/wiki/edge_case#Noun");
 
-            URL_Add("general-purpose operating system", "https://csrc.nist.gov/glossary/term/General_purpose_operating_system");
-
             URL_Add("materials", "https://en.wiktionary.org/wiki/material#Noun");
 
             URL_Add("virtualisation", "https://en.wiktionary.org/wiki/virtualisation#Noun"); // Old URL: <https://en.wiktionary.org/wiki/virtualization#Noun>
@@ -127748,10 +127848,6 @@ namespace OverflowHelper.core
             URL_Add("operational transconductance amplifier", "https://en.wikipedia.org/wiki/Operational_transconductance_amplifier");
 
             URL_Add("operator precedence", "https://en.wikipedia.org/wiki/Order_of_operations#Programming_languages");
-
-            URL_Add("operating system", "https://en.wikipedia.org/wiki/Operating_system");
-
-            URL_Add("operating systems", "https://en.wikipedia.org/wiki/Operating_system");
 
             URL_Add("Operation Barbarossa", "https://en.wikipedia.org/wiki/Operation_Barbarossa");
 
@@ -131901,8 +131997,6 @@ namespace OverflowHelper.core
 
             URL_Add("universal character names", "https://en.wikipedia.org/wiki/Escape_sequences_in_C#Universal_character_names");
 
-            URL_Add("Operating System Command", "https://en.wikipedia.org/wiki/ANSI_escape_code#Operating_System_Command_sequences"); // Old: <https://en.wikipedia.org/wiki/ANSI_escape_code#OSC_(Operating_System_Command)_sequences>
-
             URL_Add("axiom of power set", "https://en.wikipedia.org/wiki/Axiom_of_power_set#Consequences");
 
             URL_Add("TCPView", "https://docs.microsoft.com/en-us/sysinternals/downloads/tcpview");
@@ -135664,8 +135758,6 @@ namespace OverflowHelper.core
             URL_Add("number one", "https://en.wiktionary.org/wiki/number_one#Adjective");
 
             URL_Add("number sequence", "https://en.wikipedia.org/wiki/Integer_sequence");
-
-            URL_Add("number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode", "https://www.reddit.com/r/Keychron/comments/1ip03k0/comment/n52qr9o/");
 
             URL_Add("Numbers", "https://en.wikipedia.org/wiki/Numbers_(spreadsheet)");
 
@@ -144403,34 +144495,6 @@ namespace OverflowHelper.core
 
             URL_Add("Stack Overflow Lobby", "https://meta.stackoverflow.com/questions/434708/what-is-the-stack-overflow-lobby-is-it-different-from-other-rooms-in-chat");
 
-            URL_Add("triple point", "https://en.wikipedia.org/wiki/Triple_point");
-
-            URL_Add("-28.9&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
-
-            URL_Add("-23.3&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
-
-            URL_Add("-17.7&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
-
-            URL_Add("-12.2&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
-
-            URL_Add("-6.7&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
-
-            URL_Add("-1.1&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
-
-            URL_Add("4.4&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
-
-            URL_Add("10.0&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
-
-            URL_Add("15.6&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
-
-            URL_Add("21.1&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
-
-            URL_Add("26.7&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
-
-            URL_Add("32.2&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
-
-            URL_Add("37.8&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
-
             URL_Add("engineer", "https://en.wiktionary.org/wiki/engineer#Noun");
 
             URL_Add("engineered", "https://en.wiktionary.org/wiki/engineer#Verb");
@@ -148048,6 +148112,58 @@ namespace OverflowHelper.core
             URL_Add("8-core", "https://en.wikipedia.org/wiki/Multi-core_processor#Commercial");
 
             URL_Add("IGPU", "https://en.wikipedia.org/wiki/Graphics_processing_unit#Integrated_graphics_processing_unit");
+
+            URL_Add("operating system", "https://en.wikipedia.org/wiki/Operating_system");
+
+            URL_Add("operating systems", "https://en.wikipedia.org/wiki/Operating_system");
+
+            URL_Add("general-purpose operating system", "https://csrc.nist.gov/glossary/term/General_purpose_operating_system");
+
+            URL_Add("Operating Systems: Three Easy Pieces", "https://github.com/gedeonych/csc/blob/master/coursepages/ostep/README.md");
+
+            URL_Add("Operating System Command", "https://en.wikipedia.org/wiki/ANSI_escape_code#Operating_System_Command_sequences"); // Old: <https://en.wikipedia.org/wiki/ANSI_escape_code#OSC_(Operating_System_Command)_sequences>
+
+            URL_Add("jewellery", "https://en.wiktionary.org/wiki/jewellery#Noun");
+
+            URL_Add("triple point", "https://en.wikipedia.org/wiki/Triple_point");
+
+            URL_Add("-28.9&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
+
+            URL_Add("-23.3&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
+
+            URL_Add("-17.7&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
+
+            URL_Add("-12.2&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
+
+            URL_Add("-6.7&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
+
+            URL_Add("-1.1&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
+
+            URL_Add("4.4&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
+
+            URL_Add("10.0&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
+
+            URL_Add("15.6&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
+
+            URL_Add("21.1&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
+
+            URL_Add("26.7&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
+
+            URL_Add("32.2&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
+
+            URL_Add("37.8&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
+
+            URL_Add("Weller", "https://en.wikipedia.org/wiki/Apex_Tool_Group#Power_tool_brands");
+
+            URL_Add("260&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
+
+            URL_Add("310&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
+
+            URL_Add("370&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
+
+            URL_Add("425&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
+
+            URL_Add("480&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -159322,6 +159438,7 @@ namespace OverflowHelper.core
             correctionAdd("Eperience_", "experience_");
             correctionAdd("experence_", "experience_");
             correctionAdd("exprience_", "experience_");
+            correctionAdd("eperience_", "experience_");
             correctionAdd("exp_", "experience_");
 
             correctionAdd("experiances_", "experiences_");
@@ -165780,8 +165897,6 @@ namespace OverflowHelper.core
 
             URL_Add("which_", "https://en.wiktionary.org/wiki/which#Pronoun"); // Old: https://en.wiktionary.org/wiki/which
 
-            URL_Add("real-time operating system_", "https://en.wikipedia.org/wiki/Real-time_operating_system");
-
             URL_Add("badges_", "https://en.wiktionary.org/wiki/badge#Noun");
 
             URL_Add("asynchronously_", "https://en.wiktionary.org/wiki/asynchronously#Adverb"); // Old: https://en.wiktionary.org/wiki/asynchronously
@@ -168627,6 +168742,8 @@ namespace OverflowHelper.core
             URL_Add("Apollo Kotlin_", "https://github.com/apollographql/apollo-kotlin");
 
             URL_Add("UNC_", "https://en.wikipedia.org/wiki/Path_%28computing%29#Uniform_Naming_Convention");
+
+            URL_Add("real-time operating system_", "https://en.wikipedia.org/wiki/Real-time_operating_system");
 
         } //addLookupData_alternativeWordSet()
 
@@ -173514,6 +173631,17 @@ namespace OverflowHelper.core
 
             correctionAdd("alpa__", "alpha__");
 
+            // Is in this word set due to a conflict with 500 °F...
+            //
+            correctionAdd("932&nbsp;°F__", "500&nbsp;°C__");
+            correctionAdd("932 °F__", "500&nbsp;°C__");
+            correctionAdd("500 °C__", "500&nbsp;°C__"); // Sort of identity mapping
+            correctionAdd("500 C__", "500&nbsp;°C__");
+            correctionAdd("932 F__", "500&nbsp;°C__");
+            correctionAdd("932 f__", "500&nbsp;°C__");
+            correctionAdd("932__", "500&nbsp;°C__");
+            correctionAdd("500__", "500&nbsp;°C__");
+
             // A book. For the reverse
             //
             // We need a better reference...
@@ -174509,8 +174637,6 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron M2__", "https://www.keychron.com/products/keychron-m2-wireless-mouse");
 
-            URL_Add("Keychron keyboards' battery state can be displayed in the operating system__", "https://pmortensen.eu/world2/2024/11/04/the-battery-state-of-a-keychron-qmk-based-keyboard-can-be-displayed-in-the-operating-system/");
-
             URL_Add("PII__", "https://en.wikipedia.org/wiki/Personal_data");
 
             URL_Add("Shell()__", "https://learn.microsoft.com/en-us/office/vba/language/reference/user-interface-help/shell-function");
@@ -174742,6 +174868,10 @@ namespace OverflowHelper.core
             URL_Add("product owner__", "https://en.wikipedia.org/wiki/Scrum_(software_development)#Product_owner");
 
             URL_Add("Neon__", "https://en.wikipedia.org/wiki/ARM_architecture_family#Advanced_SIMD_(Neon)");
+
+            URL_Add("Keychron keyboards' battery state can be displayed in the operating system__", "https://pmortensen.eu/world2/2024/11/04/the-battery-state-of-a-keychron-qmk-based-keyboard-can-be-displayed-in-the-operating-system/");
+
+            URL_Add("500&nbsp;°C__", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
 
         } //addLookupData_alternativeWordSet2()
 
@@ -177177,6 +177307,20 @@ namespace OverflowHelper.core
             correctionAdd("Li-ion___", "lithium polymer battery___"); // For the cross reference
             correctionAdd("LiPo___", "lithium polymer battery___");
 
+            // Alternative URLs:
+            //
+            //   See entry "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)",
+            //   e.g., the Keychron support article and the July 2024
+            //   Keychron acknowledgment.
+            //
+            correctionAdd("Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)___", "number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___");
+            correctionAdd("it isn't the switches, damn it!___", "number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___"); // For the cross-reference
+            correctionAdd("number 9 on the checklist___", "number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___");
+            correctionAdd("Keychron acknowledged___", "number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___");
+            correctionAdd("the gasket problem___", "number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___");
+            correctionAdd("gasket problem___", "number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___");
+            correctionAdd("#9___", "number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___");
+
             // Of the "B" programming language (also by Dennis Ritchie)
             //
             // Alternative URLs:
@@ -177460,8 +177604,6 @@ namespace OverflowHelper.core
             URL_Add("meta___", "https://en.wiktionary.org/wiki/meta#Adjective");
 
             URL_Add("Get-Process___", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Management/Get-Process"); // Old URL: http://technet.microsoft.com/en-us/library/hh849832.aspx
-
-            URL_Add("Unity Operating System___", "https://en.wikipedia.org/wiki/Unity_Operating_System");
 
             URL_Add("north___", "https://en.wiktionary.org/wiki/north#Noun");
 
@@ -177766,6 +177908,10 @@ namespace OverflowHelper.core
             URL_Add("lithium polymer battery___", "https://en.wikipedia.org/wiki/Lithium_polymer_battery");
 
             URL_Add("capitalise___", "https://en.wiktionary.org/wiki/capitalise#Verb");
+
+            URL_Add("Unity Operating System___", "https://en.wikipedia.org/wiki/Unity_Operating_System");
+
+            URL_Add("number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___", "https://www.reddit.com/r/Keychron/comments/1ip03k0/comment/n52qr9o/");
 
         } //addLookupData_alternativeWordSet3()
 
@@ -178214,6 +178360,84 @@ namespace OverflowHelper.core
             correctionAdd("°F____", "&nbsp;°F____"); // Sort of identity mapping
             correctionAdd("F____", "&nbsp;°F____");
             correctionAdd("Fahrenheit____", "&nbsp;°F____"); // The official expanded name
+
+            correctionAdd("-28.9&nbsp;°C____", "-20&nbsp;°F____");
+            correctionAdd("-20 °F____", "-20&nbsp;°F____"); // Sort of identity mapping
+            correctionAdd("-29____", "-20&nbsp;°F____"); // Nearest whole Celcius value
+
+            correctionAdd("-23.3&nbsp;°C____", "-10&nbsp;°F____");
+            correctionAdd("-10 °F____", "-10&nbsp;°F____"); // Sort of identity mapping
+            correctionAdd("-23____", "-10&nbsp;°F____"); // Nearest whole Celcius value
+
+            correctionAdd("-17.7&nbsp;°C____", "0&nbsp;°F____");
+            correctionAdd("0 °F____", "0&nbsp;°F____"); // Sort of identity mapping
+            correctionAdd("-18____", "0&nbsp;°F____"); // Nearest whole Celcius value
+
+            correctionAdd("-12.2&nbsp;°C____", "10&nbsp;°F____");
+            correctionAdd("10 °F____", "10&nbsp;°F____"); // Sort of identity mapping
+            correctionAdd("-12____", "10&nbsp;°F____"); // Nearest whole Celcius value
+
+            correctionAdd("-6.7&nbsp;°C____", "20&nbsp;°F____");
+            correctionAdd("20 °F____", "20&nbsp;°F____"); // Sort of identity mapping
+            correctionAdd("-7____", "20&nbsp;°F____"); // Nearest whole Celcius value
+
+            correctionAdd("-1.1&nbsp;°C____", "30&nbsp;°F____");
+            correctionAdd("30 °F____", "30&nbsp;°F____"); // Sort of identity mapping
+            correctionAdd("-1____", "30&nbsp;°F____"); // Nearest whole Celcius value
+
+            // Note: "40&nbsp;°F" is in an alternative word set
+            //
+            correctionAdd("10.0&nbsp;°C____", "50&nbsp;°F____");
+            correctionAdd("50 °F____", "50&nbsp;°F____"); // Sort of identity mapping
+            correctionAdd("10____", "50&nbsp;°F____"); // Nearest whole Celcius value
+
+            correctionAdd("15.6&nbsp;°C____", "60&nbsp;°F____");
+            correctionAdd("60 °F____", "60&nbsp;°F____"); // Sort of identity mapping
+            correctionAdd("16____", "60&nbsp;°F____"); // Nearest whole Celcius value
+
+            correctionAdd("21.1&nbsp;°C____", "70&nbsp;°F____");
+            correctionAdd("70 °F____", "70&nbsp;°F____"); // Sort of identity mapping
+            correctionAdd("21____", "70&nbsp;°F____"); // Nearest whole Celcius value
+
+            correctionAdd("26.7&nbsp;°C____", "80&nbsp;°F____");
+            correctionAdd("80 °F____", "80&nbsp;°F____"); // Sort of identity mapping
+            correctionAdd("27____", "80&nbsp;°F____"); // Nearest whole Celcius value
+
+            correctionAdd("32.2&nbsp;°C____", "90&nbsp;°F____");
+            correctionAdd("90 °F____", "90&nbsp;°F____"); // Sort of identity mapping
+            correctionAdd("32____", "90&nbsp;°F____"); // Nearest whole Celcius value
+
+            correctionAdd("37.8&nbsp;°C____", "100&nbsp;°F____");
+            correctionAdd("100 °F____", "100&nbsp;°F____"); // Sort of identity mapping
+            correctionAdd("38____", "100&nbsp;°F____"); // Nearest whole Celcius value
+
+            // Weller Magnastat system: #5
+            //
+            correctionAdd("260&nbsp;°C____", "500&nbsp;°F____");
+            correctionAdd("500 °F____", "500&nbsp;°F____"); // Sort of identity mapping
+
+            // Weller Magnastat system: #6
+            //
+            correctionAdd("310&nbsp;°C____", "590&nbsp;°F____");
+            correctionAdd("590 °F____", "590&nbsp;°F____"); // Sort of identity mapping
+
+            // Weller Magnastat system: #7 (e.g., PT7-LT)
+            //
+            correctionAdd("370&nbsp;°C____", "698&nbsp;°F____");
+            correctionAdd("698 °F____", "698&nbsp;°F____"); // Sort of identity mapping
+
+            // Weller Magnastat system: #8
+            //
+            correctionAdd("425&nbsp;°C____", "797&nbsp;°F____");
+            correctionAdd("797 °F____", "797&nbsp;°F____"); // Sort of identity mapping
+
+            // Weller Magnastat system: #9
+            //
+            correctionAdd("480&nbsp;°C____", "896&nbsp;°F____");
+            correctionAdd("896 °F____", "896&nbsp;°F____"); // Sort of identity mapping
+
+            correctionAdd("500&nbsp;°C____", "932&nbsp;°F____");
+            correctionAdd("932 °F____", "932&nbsp;°F____"); // Sort of identity mapping
 
             correctionAdd("AI____", "Air India____");
 
@@ -179893,6 +180117,42 @@ namespace OverflowHelper.core
             URL_Add("in____", "https://en.wiktionary.org/wiki/in#Preposition");
 
             URL_Add("&nbsp;°F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
+
+            URL_Add("-20&nbsp;°F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
+
+            URL_Add("-10&nbsp;°F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
+
+            URL_Add("0&nbsp;°F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
+
+            URL_Add("10&nbsp;°F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
+
+            URL_Add("20&nbsp;°F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
+
+            URL_Add("30&nbsp;°F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
+
+            URL_Add("50&nbsp;°F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
+
+            URL_Add("60&nbsp;°F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
+
+            URL_Add("70&nbsp;°F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
+
+            URL_Add("80&nbsp;°F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
+
+            URL_Add("90&nbsp;°F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
+
+            URL_Add("100&nbsp;°F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
+
+            URL_Add("500&nbsp;°F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
+
+            URL_Add("590&nbsp;°F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
+
+            URL_Add("698&nbsp;°F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
+
+            URL_Add("797&nbsp;°F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
+
+            URL_Add("896&nbsp;°F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
+
+            URL_Add("932&nbsp;°F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
 
             URL_Add("Cyber Monday____", "https://en.wikipedia.org/wiki/Cyber_Monday");
 
@@ -181994,6 +182254,14 @@ namespace OverflowHelper.core
             correctionAdd("CPP______", "C preprocessor______");
             correctionAdd("C______", "C preprocessor______");
 
+            // Mostly for the reverse
+            //
+            // Is in this word set due to a conflict with "for"...
+            //
+            correctionAdd("4.4&nbsp;°C______", "40&nbsp;°F______");
+            correctionAdd("40 °F______", "40&nbsp;°F______"); // Sort of identity mapping
+            correctionAdd("4______", "40&nbsp;°F______");
+
             // A programming language. Of Ken Thompson. And
             // also by Dennis Ritchie.
             correctionAdd("Ken Thompson______", "B______");
@@ -182067,6 +182335,8 @@ namespace OverflowHelper.core
             URL_Add("Keychron K10 V2 source code______", "https://github.com/Keychron/qmk_firmware/tree/wls_2025q1/keyboards/keychron/k10_version_2");
 
             URL_Add("Git branch \"2025q3\" in Keychron's fork, Lemokey______", "https://github.com/Keychron/qmk_firmware/tree/2025q3/keyboards/lemokey/");
+
+            URL_Add("40&nbsp;°F______", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
 
         } //addLookupData_alternativeWordSet6()
 
