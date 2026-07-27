@@ -8695,6 +8695,7 @@ namespace OverflowHelper.core
             correctionAdd("590 f", "310&nbsp;°C");
             correctionAdd("310", "310&nbsp;°C");
             correctionAdd("590", "310&nbsp;°C");
+            correctionAdd("600", "310&nbsp;°C"); // Not 100% correct, but for the original 600 °F in the Weller Magnastat system (a 100 Fahrenheit increment scale)
             correctionAdd("#6", "310&nbsp;°C"); // We had to add it manually...
 
             // Weller Magnastat system: #7 (e.g., PT7-LT)
@@ -8727,6 +8728,7 @@ namespace OverflowHelper.core
             correctionAdd("698 f", "370&nbsp;°C");
             correctionAdd("370", "370&nbsp;°C");
             correctionAdd("698", "370&nbsp;°C");
+            correctionAdd("700", "370&nbsp;°C"); // Not 100% correct, but for the original 700 °F in the Weller Magnastat system (a 100 Fahrenheit increment scale)
             correctionAdd("#7", "370&nbsp;°C"); // We had to add it manually...
 
             // Weller Magnastat system: #8
@@ -8746,6 +8748,7 @@ namespace OverflowHelper.core
             correctionAdd("797 f", "425&nbsp;°C");
             correctionAdd("425", "425&nbsp;°C");
             correctionAdd("797", "425&nbsp;°C");
+            correctionAdd("800", "425&nbsp;°C"); // Not 100% correct, but for the original 800 °F in the Weller Magnastat system (a 100 Fahrenheit increment scale)
             correctionAdd("#8", "425&nbsp;°C"); // We had to add it manually...
 
             // Weller Magnastat system: #9
@@ -8767,6 +8770,7 @@ namespace OverflowHelper.core
             correctionAdd("896 f", "480&nbsp;°C");
             correctionAdd("480", "480&nbsp;°C");
             correctionAdd("896", "480&nbsp;°C");
+            correctionAdd("900", "480&nbsp;°C"); // Not 100% correct, but for the original 900 °F in the Weller Magnastat system (a 100 Fahrenheit increment scale)
             correctionAdd("#9", "480&nbsp;°C"); // We had to add it manually...
 
             correctionAdd("12000 ft", "3.7&nbsp;km");
@@ -8810,6 +8814,8 @@ namespace OverflowHelper.core
             correctionAdd("LB", "&nbsp;lb");
 
             correctionAdd("Pound sign", "pound sign");
+
+            correctionAdd("first-mover", "first mover");
 
             correctionAdd("move around aimlessly", "work out");
             correctionAdd("workout", "work out");
@@ -87001,8 +87007,10 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/Keychron/qmk_firmware/tree/2025q3/keyboards/keychron/c3_pro_8k>
             //
-            correctionAdd("C3 Pro 8K", "Keychron C3 Pro 8K");
-            correctionAdd("c3 pro 8k", "Keychron C3 Pro 8K");
+            correctionAdd("Keychron C3 Pro 8K (85%)", "Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)"); // Sort of identity mapping
+            correctionAdd("Keychron C3 Pro 8K", "Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)");
+            correctionAdd("C3 Pro 8K", "Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)");
+            correctionAdd("c3 pro 8k", "Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)");
 
             // A 87-key (85%. True TKL) crippled wired and wireless
             // (both Bluetooth and '2.4 GHz') mechanical keyboard
@@ -127786,6 +127794,8 @@ namespace OverflowHelper.core
 
             URL_Add("workalike", "https://en.wiktionary.org/wiki/workalike#Noun");
 
+            URL_Add("first mover", "https://en.wiktionary.org/wiki/first_mover#Noun");
+
             URL_Add("work out", "https://en.wiktionary.org/wiki/work_out#Verb");
 
             URL_Add("workbook", "https://en.wiktionary.org/wiki/workbook#Noun");
@@ -144686,7 +144696,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron C3 Pro", "https://www.keychron.uk/products/keychron-c3-pro-qmk-via-wired-mechanical-keyboard-iso-layout-collection");
 
-            URL_Add("Keychron C3 Pro 8K", "https://keychron.ca/products/keychron-c3-pro-8k-qmk-wired-custom-mechanical-keyboard-us-ansi-layout");
+            URL_Add("Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)", "https://keychron.ca/products/keychron-c3-pro-8k-qmk-wired-custom-mechanical-keyboard-us-ansi-layout");
 
             URL_Add("Keychron&nbsp;Keyboard&nbsp;81&nbsp;Pro (80%)", "https://www.keychron.com/products/keyboard-81-pro-qmk-via-wireless-custom-mechanical-keyboard");
 
@@ -163864,6 +163874,7 @@ namespace OverflowHelper.core
             correctionAdd("importe_", "import_");
             correctionAdd("inport_", "import_");
             correctionAdd("imort_", "import_");
+            correctionAdd("imprt_", "import_");
 
             correctionAdd("brother_", "sibling_");
             correctionAdd("wibling_", "sibling_");
@@ -170074,6 +170085,8 @@ namespace OverflowHelper.core
             correctionAdd("recommended to reset to factory defaults__", "It is highly recommended to reset to factory defaults right after the flash__");
             correctionAdd("reset to factory defaults after flashing__", "It is highly recommended to reset to factory defaults right after the flash__");
             correctionAdd("crucially reset to factory defaults__", "It is highly recommended to reset to factory defaults right after the flash__");
+            correctionAdd("Weird things are known to happen__", "It is highly recommended to reset to factory defaults right after the flash__");
+            correctionAdd("weird things are known to happen__", "It is highly recommended to reset to factory defaults right after the flash__");
             correctionAdd("right after the flash__", "It is highly recommended to reset to factory defaults right after the flash__");
             correctionAdd("right after flashing__", "It is highly recommended to reset to factory defaults right after the flash__");
             correctionAdd("highly recommended__", "It is highly recommended to reset to factory defaults right after the flash__");
