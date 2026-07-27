@@ -8664,12 +8664,14 @@ namespace OverflowHelper.core
             //   <https://www.reddit.com/r/Keychron/comments/1v7fi1q/comment/p01g3nw/>
             //
             correctionAdd("500&nbsp;°F", "260&nbsp;°C");
+            correctionAdd("Weller #5", "260&nbsp;°C");
+            correctionAdd("Weller 5", "260&nbsp;°C");
             correctionAdd("260 °C", "260&nbsp;°C"); // Sort of identity mapping
             correctionAdd("500 °F", "260&nbsp;°C");
             correctionAdd("260 C", "260&nbsp;°C");
             correctionAdd("500 F", "260&nbsp;°C");
             correctionAdd("500 f", "260&nbsp;°C");
-            correctionAdd("260", "260&nbsp;°C");
+            correctionAdd("260", "260&nbsp;°C"); // That happens to be the exact value in °C (of 500 °F) in the Weller Magnastat system (a 100 Fahrenheit increment scale). Of the five, it is the only one with an exact Celsius value.
             correctionAdd("500", "260&nbsp;°C");
             correctionAdd("#5", "260&nbsp;°C"); // We had to add it manually...
 
@@ -8683,9 +8685,12 @@ namespace OverflowHelper.core
             //   425 °C, so it would seem it should be 315 °C.
             //
             correctionAdd("590&nbsp;°F", "310&nbsp;°C");
+            correctionAdd("Weller #6", "310&nbsp;°C");
+            correctionAdd("Weller 6", "310&nbsp;°C");
             correctionAdd("310 °C", "310&nbsp;°C"); // Sort of identity mapping
             correctionAdd("590 °F", "310&nbsp;°C");
             correctionAdd("310 C", "310&nbsp;°C");
+            correctionAdd("315.6", "310&nbsp;°C"); // The exact value (to the nearest 0.1 °C) in °C (of 600 °F) in the Weller Magnastat system (a 100 Fahrenheit increment scale)
             correctionAdd("590 F", "310&nbsp;°C");
             correctionAdd("590 f", "310&nbsp;°C");
             correctionAdd("310", "310&nbsp;°C");
@@ -8712,8 +8717,11 @@ namespace OverflowHelper.core
             //     PT-CC7
             //
             correctionAdd("698&nbsp;°F", "370&nbsp;°C");
+            correctionAdd("Weller #7", "370&nbsp;°C");
+            correctionAdd("Weller 7", "370&nbsp;°C");
             correctionAdd("370 °C", "370&nbsp;°C"); // Sort of identity mapping
             correctionAdd("698 °F", "370&nbsp;°C");
+            correctionAdd("371.1", "370&nbsp;°C"); // The exact value (to the nearest 0.1 °C) in °C (of 700 °F) in the Weller Magnastat system (a 100 Fahrenheit increment scale)
             correctionAdd("370 C", "370&nbsp;°C");
             correctionAdd("698 F", "370&nbsp;°C");
             correctionAdd("698 f", "370&nbsp;°C");
@@ -8728,9 +8736,12 @@ namespace OverflowHelper.core
             //   <https://www.rapidonline.com/weller-4ptf8-1-pt-f8-solder-tip-round-tip-sloped-425-c-1-2mm-85-4612>
             //
             correctionAdd("797&nbsp;°F", "425&nbsp;°C");
+            correctionAdd("Weller #8", "425&nbsp;°C");
+            correctionAdd("Weller 8", "425&nbsp;°C");
             correctionAdd("425 °C", "425&nbsp;°C"); // Sort of identity mapping
             correctionAdd("797 °F", "425&nbsp;°C");
             correctionAdd("425 C", "425&nbsp;°C");
+            correctionAdd("426.7", "425&nbsp;°C"); // The exact value (to the nearest 0.1 °C) in °C (of 800 °F) in the Weller Magnastat system (a 100 Fahrenheit increment scale)
             correctionAdd("797 F", "425&nbsp;°C");
             correctionAdd("797 f", "425&nbsp;°C");
             correctionAdd("425", "425&nbsp;°C");
@@ -8746,9 +8757,12 @@ namespace OverflowHelper.core
             //   <https://www.rapidonline.com/weller-4ptaa9-1-pt-aa9-solder-tip-round-tip-sloped-480-c-1-6mm-85-4618>
             //
             correctionAdd("896&nbsp;°F", "480&nbsp;°C");
+            correctionAdd("Weller #9", "480&nbsp;°C");
+            correctionAdd("Weller 9", "480&nbsp;°C");
             correctionAdd("480 °C", "480&nbsp;°C"); // Sort of identity mapping
             correctionAdd("896 °F", "480&nbsp;°C");
             correctionAdd("480 C", "480&nbsp;°C");
+            correctionAdd("482.2", "480&nbsp;°C"); // The exact value (to the nearest 0.1 °C) in °C (of 900 °F) in the Weller Magnastat system (a 100 Fahrenheit increment scale)
             correctionAdd("896 F", "480&nbsp;°C");
             correctionAdd("896 f", "480&nbsp;°C");
             correctionAdd("480", "480&nbsp;°C");
@@ -75282,6 +75296,15 @@ namespace OverflowHelper.core
             correctionAdd("general-purpose OS", "general-purpose operating system");
             correctionAdd("GPOS", "general-purpose operating system");
 
+            // <https://stackoverflow.com/questions/79986120/concurrency-on-load-instruction>
+            //
+            // A free online textbook book
+            //
+            // Alternative URLs:
+            //
+            //   <https://pages.cs.wisc.edu/~remzi/OSTEP/toc.pdf>
+            //   <https://pages.cs.wisc.edu/~remzi/OSTEP/>
+            //
             correctionAdd("OSTEP", "Operating Systems: Three Easy Pieces");
 
             // A type of operating system
