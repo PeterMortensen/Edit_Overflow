@@ -670,12 +670,155 @@ namespace OverflowHelper.core
             correctionAdd("OS2", "OS/2"); // IBM
             correctionAdd("os2", "OS/2");
 
+            correctionAdd("equiped", "equipped");
+
+            correctionAdd("ill equipped", "ill-equipped");
+
             // First misspelling observed in the wild 2026-02!
             correctionAdd("equipement", "equipment");
+
+            // Note: "OEM" / "original equipment manufacturer"
+            //       is in an alternative word set
+            //
+            correctionAdd("original design manufacturers", "ODMs");
 
             correctionAdd("DEC", "Digital Equipment Corporation");
 
             correctionAdd("vms", "VMS"); // DEC
+
+            // A computer equipment manufacturer
+            correctionAdd("asus", "Asus");
+            correctionAdd("ASUS", "Asus");
+
+            // A laptop
+            correctionAdd("Asus TUF F15 Gaming", "Asus TUF Gaming F15");
+            correctionAdd("Asus Tuf F15 Gaming", "Asus TUF Gaming F15");
+            correctionAdd("TUF Gaming F15", "Asus TUF Gaming F15");
+            correctionAdd("tuf", "Asus TUF Gaming F15");
+
+            // Asus laptops
+            correctionAdd("Vivobook", "VivoBook");
+
+            correctionAdd("Mediatek", "MediaTek");
+
+            // A brand of laptops and PCs
+            correctionAdd("VAIO", "Sony Vaio");
+            correctionAdd("vaio", "Sony Vaio");
+            correctionAdd("Vaio", "Sony Vaio");
+
+            // Laptop manufacturer
+            correctionAdd("acer", "Acer");
+
+            // A laptop brand
+            correctionAdd("Aser Aspire", "Acer Aspire");
+            correctionAdd("acer aspire", "Acer Aspire");
+            correctionAdd("Aspire", "Acer Aspire");
+            correctionAdd("aspire", "Acer Aspire");
+
+            // A laptop
+            correctionAdd("E14", "Acer Aspire E14");
+
+            // A nettop
+            correctionAdd("Acer Aspire one", "Acer Aspire One");
+
+            // An Asus product brand
+            correctionAdd("ROG", "Republic of Gamers"); // "ROG" is the proper shorthand
+            correctionAdd("rog", "Republic of Gamers");
+            correctionAdd("RoG", "Republic of Gamers");
+            correctionAdd("Rog", "Republic of Gamers");
+
+            // Asus
+            correctionAdd("eeepc", "Eee PC");
+
+            // A reputable reviewer of PC hardware
+            //
+            // Not to be confused with 'tomsguide.com',
+            // which may or may not be deceptive.
+            //
+            correctionAdd("Toms Hardware", "Tom's Hardware");
+
+            correctionAdd("Laptops", "laptop");
+            correctionAdd("lap top", "laptop");
+            correctionAdd("Lap Top", "laptop");
+            correctionAdd("Laptop", "laptop");
+            correctionAdd("LapTop", "laptop");
+            correctionAdd("laptap", "laptop");
+            correctionAdd("Labtop", "laptop");
+            correctionAdd("labtop", "laptop");
+            correctionAdd("lapto", "laptop");
+            correctionAdd("lap", "laptop");
+
+            correctionAdd("lap tops", "laptops");
+
+            correctionAdd("Nettop", "nettop");
+            correctionAdd("net top", "nettop");
+
+            correctionAdd("dockingstation", "docking station");
+
+            correctionAdd("poduced", "produced");
+
+            correctionAdd("producting", "producing");
+
+            correctionAdd("producitve", "productive");
+
+            correctionAdd("by product", "by-product");
+            correctionAdd("byproduct", "by-product");
+            correctionAdd("biproduct", "by-product");
+
+            correctionAdd("counter productive", "counterproductive");
+            correctionAdd("counter-productive", "counterproductive");
+
+            correctionAdd("facorty", "factory");
+
+            // The adjective
+            correctionAdd("manufacturered", "manufactured");
+
+            // Noun
+            correctionAdd("manufacturere", "manufacturer");
+            correctionAdd("manifacturer", "manufacturer");
+            correctionAdd("manufactorer", "manufacturer");
+            correctionAdd("Manufacturer", "manufacturer");
+            correctionAdd("manufactuer", "manufacturer");
+            correctionAdd("manufacture", "manufacturer");
+            correctionAdd("manu", "manufacturer");
+            correctionAdd("Mfgr", "manufacturer");
+            correctionAdd("mfgr", "manufacturer");
+            correctionAdd("mfg", "manufacturer");
+            correctionAdd("mfr", "manufacturer");
+
+            // Noun
+            correctionAdd("manifacturers", "manufacturers");
+            correctionAdd("manufactures", "manufacturers");
+            correctionAdd("manufactors", "manufacturers");
+            correctionAdd("manus", "manufacturers");
+            correctionAdd("mfgs", "manufacturers");
+
+            correctionAdd("RTM", "release to manufacturing");
+
+            correctionAdd("release-management", "release management");
+
+            correctionAdd("shownotes", "show notes");
+
+            correctionAdd("release-notes", "release notes");
+
+            // The noun
+            correctionAdd("realease", "release");
+            correctionAdd("releasse", "release");
+            correctionAdd("Release", "release");
+            correctionAdd("realese", "release");
+            correctionAdd("relaese", "release");
+            correctionAdd("releas", "release");
+            correctionAdd("Relese", "release");
+            correctionAdd("relase", "release");
+
+            correctionAdd("realeased", "released");
+            correctionAdd("releasd", "released");
+            correctionAdd("relased", "released");
+
+            // The noun
+            correctionAdd("realeases", "releases");
+
+            correctionAdd("pre-release", "prerelease");
 
             correctionAdd("WindowsNT", "Windows NT");
             correctionAdd("WinNT", "Windows NT");
@@ -1723,76 +1866,6 @@ namespace OverflowHelper.core
             // The prefix
             //
             correctionAdd("Tera", "tera");
-
-            correctionAdd("poduced", "produced");
-
-            correctionAdd("producting", "producing");
-
-            correctionAdd("producitve", "productive");
-
-            correctionAdd("by product", "by-product");
-            correctionAdd("byproduct", "by-product");
-            correctionAdd("biproduct", "by-product");
-
-            correctionAdd("counter productive", "counterproductive");
-            correctionAdd("counter-productive", "counterproductive");
-
-            correctionAdd("facorty", "factory");
-
-            // The adjective
-            correctionAdd("manufacturered", "manufactured");
-
-            // Note: "OEM" / "original equipment manufacturer"
-            //       is in an alternative word set
-            //
-            correctionAdd("original design manufacturers", "ODMs");
-
-            // Noun
-            correctionAdd("manufacturere", "manufacturer");
-            correctionAdd("manifacturer", "manufacturer");
-            correctionAdd("manufactorer", "manufacturer");
-            correctionAdd("Manufacturer", "manufacturer");
-            correctionAdd("manufactuer", "manufacturer");
-            correctionAdd("manufacture", "manufacturer");
-            correctionAdd("manu", "manufacturer");
-            correctionAdd("Mfgr", "manufacturer");
-            correctionAdd("mfgr", "manufacturer");
-            correctionAdd("mfg", "manufacturer");
-            correctionAdd("mfr", "manufacturer");
-
-            // Noun
-            correctionAdd("manifacturers", "manufacturers");
-            correctionAdd("manufactures", "manufacturers");
-            correctionAdd("manufactors", "manufacturers");
-            correctionAdd("manus", "manufacturers");
-            correctionAdd("mfgs", "manufacturers");
-
-            correctionAdd("RTM", "release to manufacturing");
-
-            correctionAdd("release-management", "release management");
-
-            correctionAdd("shownotes", "show notes");
-
-            correctionAdd("release-notes", "release notes");
-
-            // The noun
-            correctionAdd("realease", "release");
-            correctionAdd("releasse", "release");
-            correctionAdd("Release", "release");
-            correctionAdd("realese", "release");
-            correctionAdd("relaese", "release");
-            correctionAdd("releas", "release");
-            correctionAdd("Relese", "release");
-            correctionAdd("relase", "release");
-
-            correctionAdd("realeased", "released");
-            correctionAdd("releasd", "released");
-            correctionAdd("relased", "released");
-
-            // The noun
-            correctionAdd("realeases", "releases");
-
-            correctionAdd("pre-release", "prerelease");
 
             correctionAdd("mess upp", "mess up");
 
@@ -11525,8 +11598,10 @@ namespace OverflowHelper.core
 
             correctionAdd("eaquation", "equation");
             correctionAdd("equasion", "equation");
+            correctionAdd("Equation", "equation");
             correctionAdd("eqn", "equation");
 
+            correctionAdd("Equations", "equations");
             correctionAdd("eqns", "equations");
 
             correctionAdd("Uniuverse", "universe");
@@ -20796,6 +20871,7 @@ namespace OverflowHelper.core
             correctionAdd("Ransomware", "ransomware");
 
             correctionAdd("spy-ware", "spyware");
+            correctionAdd("spy ware", "spyware");
             correctionAdd("Spyware", "spyware");
 
             correctionAdd("eavsdropping", "eavesdropping");
@@ -27088,6 +27164,7 @@ namespace OverflowHelper.core
             correctionAdd("Google chrome", "Google Chrome");
             correctionAdd("GoogleChrome", "Google Chrome");
             correctionAdd("a spying one", "Google Chrome");
+            correctionAdd("the spy ware", "Google Chrome");
             correctionAdd("Chromsploot", "Google Chrome");
             correctionAdd("Chromsploit", "Google Chrome");
             correctionAdd("the spyware", "Google Chrome");
@@ -31352,6 +31429,7 @@ namespace OverflowHelper.core
             // Windows
             correctionAdd("RegEdit.exe", "RegEdit");
             correctionAdd("regedit", "RegEdit");
+            correctionAdd("Regedit", "RegEdit");
 
             // Windows
             correctionAdd("CHM", "Microsoft Compiled HTML Help");
@@ -67261,6 +67339,8 @@ namespace OverflowHelper.core
 
             correctionAdd("re-apply", "reapply");
 
+            correctionAdd("re-applies", "reapplies");
+
             correctionAdd("re-applying", "reapplying");
 
             correctionAdd("appliciable", "applicable");
@@ -77829,6 +77909,8 @@ namespace OverflowHelper.core
             correctionAdd("customizable", "customisable");
             correctionAdd("customasible", "customisable");
 
+            correctionAdd("customiseablility", "customisability");
+
             correctionAdd("costomer", "customer");
             correctionAdd("costumer", "customer");
             correctionAdd("costumet", "customer");
@@ -86373,6 +86455,7 @@ namespace OverflowHelper.core
             correctionAdd("K3 Ultra (8K)", "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K");
             correctionAdd("K3 Ultra 8K", "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K");
             correctionAdd("K3 Ultra", "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K");
+            correctionAdd("K3 8K", "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K");
 
             // A 85-key (80%. Not true TKL) crippled
             // wired and wireless (only Bluetooth)
@@ -88639,6 +88722,10 @@ namespace OverflowHelper.core
             correctionAdd("Q11", "Keychron Q11");
             correctionAdd("q11", "Keychron Q11");
 
+            // Q11 Ultra 8K source code:
+            //
+            //   It has ***not*** been released as of 2026-07-28!
+            //
             correctionAdd("Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (100%)");
             correctionAdd("Keychron Q11 Ultra 8K (100%)", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (100%)"); // Sort of identity mapping
             correctionAdd("Q11 Ultra 8K", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (100%)");
@@ -91908,6 +91995,24 @@ namespace OverflowHelper.core
             //
             //   <https://www.keychron.com/pages/keychron-v6-ultra-8k-user-manual>
             //
+            // V6 Ultra 8K firmware:
+            //
+            //   List of versions:
+            //
+            //     'ISO':
+            //
+            //       <https://launcher.keychron.com/vapi/v2/firmware/875826273>
+            //
+            //       USB product ID: 0x0C61
+            //
+            //     'ANSI':
+            //
+            //       <https://launcher.keychron.com/vapi/v2/firmware/875826272>
+            //
+            //       USB product ID: 0x0C60
+            //
+            //         <https://github.com/Keychron/zmk/blob/rtl8762g/app/boards/shields/keychron_v6_ultra_ansi/keychron_v6_ultra_ansi.conf#L7>
+            //
             // V6 Ultra 8K default keymap:
             //
             //   <https://github.com/Keychron/zmk/blob/rtl8762g/app/boards/shields/keychron_v6_ultra_ansi/keychron_v6_ultra_ansi.keymap#L238>
@@ -93289,75 +93394,6 @@ namespace OverflowHelper.core
             // For example, in switches for mechanical keyboards
             correctionAdd("defuser", "diffuser");
             correctionAdd("difuser", "diffuser");
-
-            // A reputable reviewer of PC hardware
-            //
-            // Not to be confused with 'tomsguide.com',
-            // which may or may not be deceptive.
-            //
-            correctionAdd("Toms Hardware", "Tom's Hardware");
-
-            correctionAdd("Laptops", "laptop");
-            correctionAdd("lap top", "laptop");
-            correctionAdd("Lap Top", "laptop");
-            correctionAdd("Laptop", "laptop");
-            correctionAdd("LapTop", "laptop");
-            correctionAdd("laptap", "laptop");
-            correctionAdd("Labtop", "laptop");
-            correctionAdd("labtop", "laptop");
-            correctionAdd("lapto", "laptop");
-            correctionAdd("lap", "laptop");
-
-            correctionAdd("lap tops", "laptops");
-
-            correctionAdd("Nettop", "nettop");
-            correctionAdd("net top", "nettop");
-
-            correctionAdd("dockingstation", "docking station");
-
-            // A computer equipment manufacturer
-            correctionAdd("asus", "Asus");
-            correctionAdd("ASUS", "Asus");
-
-            // A laptop
-            correctionAdd("Asus TUF F15 Gaming", "Asus TUF Gaming F15");
-            correctionAdd("Asus Tuf F15 Gaming", "Asus TUF Gaming F15");
-            correctionAdd("TUF Gaming F15", "Asus TUF Gaming F15");
-            correctionAdd("tuf", "Asus TUF Gaming F15");
-
-            // Asus laptops
-            correctionAdd("Vivobook", "VivoBook");
-
-            correctionAdd("Mediatek", "MediaTek");
-
-            // A brand of laptops and PCs
-            correctionAdd("VAIO", "Sony Vaio");
-            correctionAdd("vaio", "Sony Vaio");
-            correctionAdd("Vaio", "Sony Vaio");
-
-            // Laptop manufacturer
-            correctionAdd("acer", "Acer");
-
-            // A laptop brand
-            correctionAdd("Aser Aspire", "Acer Aspire");
-            correctionAdd("acer aspire", "Acer Aspire");
-            correctionAdd("Aspire", "Acer Aspire");
-            correctionAdd("aspire", "Acer Aspire");
-
-            // A laptop
-            correctionAdd("E14", "Acer Aspire E14");
-
-            // A nettop
-            correctionAdd("Acer Aspire one", "Acer Aspire One");
-
-            // An Asus product brand
-            correctionAdd("ROG", "Republic of Gamers"); // "ROG" is the proper shorthand
-            correctionAdd("rog", "Republic of Gamers");
-            correctionAdd("RoG", "Republic of Gamers");
-            correctionAdd("Rog", "Republic of Gamers");
-
-            // Asus
-            correctionAdd("eeepc", "Eee PC");
 
             correctionAdd("yakk shaving", "yak shaving");
             correctionAdd("yack shaving", "yak shaving");
@@ -103303,8 +103339,6 @@ namespace OverflowHelper.core
 
             correctionAdd("dubeous", "dubious");
 
-            correctionAdd("equiped", "equipped");
-
             correctionAdd("parlence", "parlance");
 
             correctionAdd("Monad", "monad");
@@ -104012,8 +104046,6 @@ namespace OverflowHelper.core
             correctionAdd("quarkus", "Quarkus");
 
             correctionAdd("Brocolli", "broccoli");
-
-            correctionAdd("re-applies", "reapplies");
 
             correctionAdd("PICOCOM", "picocom");
 
@@ -108325,8 +108357,6 @@ namespace OverflowHelper.core
 
             URL_Add("troubleshooting", "https://en.wiktionary.org/wiki/troubleshoot#Noun");
 
-            URL_Add("customer", "https://en.wiktionary.org/wiki/customer#Noun");
-
             URL_Add("voilà", "https://en.wiktionary.org/wiki/voil%C3%A0#Interjection");
 
             URL_Add("JetBrains", "https://en.wikipedia.org/wiki/JetBrains");
@@ -109060,8 +109090,6 @@ namespace OverflowHelper.core
             URL_Add("planning", "https://en.wiktionary.org/wiki/plan#Verb");
 
             URL_Add("when", "https://en.wiktionary.org/wiki/when#Adverb");
-
-            URL_Add("custom", "https://en.wiktionary.org/wiki/custom#Adjective");
 
             URL_Add("Norwegian", "https://en.wiktionary.org/wiki/Norwegian#Adjective");
 
@@ -112545,8 +112573,6 @@ namespace OverflowHelper.core
 
             URL_Add("courtesy", "https://en.wiktionary.org/wiki/courtesy#Noun");
 
-            URL_Add("customisation", "https://en.wiktionary.org/wiki/customisation#Noun");
-
             URL_Add("matter", "https://en.wiktionary.org/wiki/matter#Verb");
 
             URL_Add("perspective", "https://en.wiktionary.org/wiki/perspective#Noun");
@@ -112744,8 +112770,6 @@ namespace OverflowHelper.core
             URL_Add("autodetect", "https://en.wiktionary.org/wiki/autodetect#Verb");
 
             URL_Add("autodetected", "https://en.wiktionary.org/wiki/autodetect#Verb");
-
-            URL_Add("equipped", "https://en.wiktionary.org/wiki/equip#Verb");
 
             URL_Add("cargo cult", "https://en.wikipedia.org/wiki/Cargo_cult");
 
@@ -113484,8 +113508,6 @@ namespace OverflowHelper.core
             URL_Add("initial", "https://en.wiktionary.org/wiki/initial#Adjective");
 
             URL_Add("provide", "https://en.wiktionary.org/wiki/provide#Verb");
-
-            URL_Add("reapply", "https://en.wiktionary.org/wiki/reapply#Verb");
 
             URL_Add("speech", "https://en.wiktionary.org/wiki/speech#Noun");
 
@@ -115111,8 +115133,6 @@ namespace OverflowHelper.core
 
             URL_Add("one-hot", "https://en.wikipedia.org/wiki/One-hot");
 
-            URL_Add("reapplies", "https://en.wiktionary.org/wiki/reapply#Verb");
-
             URL_Add("reinforcement learning", "https://en.wikipedia.org/wiki/Reinforcement_learning");
 
             URL_Add("deployed", "https://en.wiktionary.org/wiki/deploy#Verb");
@@ -116156,8 +116176,6 @@ namespace OverflowHelper.core
             URL_Add("rage quitting", "https://en.wiktionary.org/wiki/rage_quit#Verb");
 
             URL_Add("rounding", "https://en.wiktionary.org/wiki/round#Verb");
-
-            URL_Add("customised", "https://en.wiktionary.org/wiki/customised#Adjective");
 
             URL_Add("karaoke", "https://en.wikipedia.org/wiki/Karaoke");
 
@@ -117534,8 +117552,6 @@ namespace OverflowHelper.core
             URL_Add("bat", "https://en.wiktionary.org/wiki/bat#Noun");
 
             URL_Add("buffer", "https://en.wiktionary.org/wiki/buffer#Verb");
-
-            URL_Add("custom-made", "https://en.wiktionary.org/wiki/custom-made#Adjective");
 
             URL_Add("nonequilibrium", "https://en.wiktionary.org/wiki/nonequilibrium#Noun");
 
@@ -119221,8 +119237,6 @@ namespace OverflowHelper.core
 
             URL_Add("numerical", "https://en.wiktionary.org/wiki/numerical#Adjective");
 
-            URL_Add("customisable", "https://en.wiktionary.org/wiki/customisable#Adjective");
-
             URL_Add("Strassen algorithm", "https://en.wikipedia.org/wiki/Strassen_algorithm");
 
             URL_Add("Timsort", "https://en.wikipedia.org/wiki/Timsort");
@@ -120274,6 +120288,10 @@ namespace OverflowHelper.core
             URL_Add("Mesillat Yesharim", "https://en.wikipedia.org/wiki/Mesillat_Yesharim");
 
             URL_Add("Penn Treebank tag set", "https://en.wikipedia.org/wiki/Part-of-speech_tagging#Tag_sets");
+
+            URL_Add("reapply", "https://en.wiktionary.org/wiki/reapply#Verb");
+
+            URL_Add("reapplies", "https://en.wiktionary.org/wiki/reapply#Verb");
 
             URL_Add("reapplying", "https://en.wiktionary.org/wiki/reapply#Verb");
 
@@ -121825,8 +121843,6 @@ namespace OverflowHelper.core
 
             URL_Add("Baofeng", "https://es.wikipedia.org/wiki/Baofeng_Electronics");
 
-            URL_Add("customisations", "https://en.wiktionary.org/wiki/customisation#Noun");
-
             URL_Add("exhaustive", "https://en.wiktionary.org/wiki/exhaustive#Adjective");
 
             URL_Add("mismatching", "https://en.wiktionary.org/wiki/mismatch#Verb");
@@ -123312,8 +123328,6 @@ namespace OverflowHelper.core
             URL_Add("spitting on", "https://en.wiktionary.org/wiki/spit_on#Verb");
 
             URL_Add("thock", "https://kineticlabs.com/blog/what-is-thock");
-
-            URL_Add("customising", "https://en.wiktionary.org/wiki/customise#Verb");
 
             URL_Add("optimisations", "https://en.wiktionary.org/wiki/optimisation#Noun");
 
@@ -127343,8 +127357,6 @@ namespace OverflowHelper.core
 
             URL_Add("exemplary", "https://en.wiktionary.org/wiki/exemplary#Adjective");
 
-            URL_Add("customary", "https://en.wiktionary.org/wiki/customary#Adjective");
-
             URL_Add("on the contrary", "https://en.wiktionary.org/wiki/on_the_contrary#Prepositional_phrase");
 
             URL_Add("out of the ordinary", "https://en.wiktionary.org/wiki/out_of_the_ordinary#Prepositional_phrase");
@@ -127854,8 +127866,6 @@ namespace OverflowHelper.core
             URL_Add("operation", "https://en.wiktionary.org/wiki/operation#Noun");
 
             URL_Add("operations", "https://en.wiktionary.org/wiki/operations#Noun");
-
-            URL_Add("operating costs", "https://en.wikipedia.org/wiki/Operating_cost#Equipment_operating_costs");
 
             URL_Add("operational amplifier", "https://en.wikipedia.org/wiki/Operational_amplifier");
 
@@ -130869,8 +130879,6 @@ namespace OverflowHelper.core
 
             URL_Add("LineageOS", "https://en.wikipedia.org/wiki/LineageOS");
 
-            URL_Add("equipment", "https://en.wiktionary.org/wiki/equipment#Noun");
-
             URL_Add("afterschool", "https://en.wiktionary.org/wiki/afterschool#Adjective");
 
             URL_Add("Asus", "https://en.wikipedia.org/wiki/Asus");
@@ -132718,8 +132726,6 @@ namespace OverflowHelper.core
             URL_Add("corporations", "https://en.wiktionary.org/wiki/corporation#Noun");
 
             URL_Add("Acme Corporation", "https://en.wikipedia.org/wiki/Acme#Arts_and_entertainment");
-
-            URL_Add("Digital Equipment Corporation", "https://en.wikipedia.org/wiki/Digital_Equipment_Corporation");
 
             URL_Add("AT&T", "https://en.wikipedia.org/wiki/AT%26T_Corporation");
 
@@ -139909,8 +139915,6 @@ namespace OverflowHelper.core
             URL_Add("see deleted questions", "https://meta.stackexchange.com/users/deleted-questions/current");
 
             URL_Add("the boat programming question", "https://web.archive.org/web/20100426125115/http://www.mattmcdole.com/boat/");
-
-            URL_Add("the boat programming question of Hardware Recommendations", "https://hardwarerecs.stackexchange.com/questions/10327/equipment-for-programming-while-walking");
 
             URL_Add("hard-deleted boat programming question", "https://meta.stackoverflow.com/questions/408947/who-can-see-deleted-articles#comment852926_408947");
 
@@ -148204,6 +148208,38 @@ namespace OverflowHelper.core
             URL_Add("Dragon Ball Z", "https://en.wikipedia.org/wiki/Dragon_Ball_Z");
 
             URL_Add("Dungeons & Dragons Online", "https://en.wikipedia.org/wiki/Dungeons_%26_Dragons_Online");
+
+            URL_Add("equipped", "https://en.wiktionary.org/wiki/equip#Verb");
+
+            URL_Add("ill-equipped", "https://en.wiktionary.org/wiki/ill-equipped#Adjective");
+
+            URL_Add("equipment", "https://en.wiktionary.org/wiki/equipment#Noun");
+
+            URL_Add("Digital Equipment Corporation", "https://en.wikipedia.org/wiki/Digital_Equipment_Corporation");
+
+            URL_Add("operating costs", "https://en.wikipedia.org/wiki/Operating_cost#Equipment_operating_costs");
+
+            URL_Add("the boat programming question of Hardware Recommendations", "https://hardwarerecs.stackexchange.com/questions/10327/equipment-for-programming-while-walking");
+
+            URL_Add("custom", "https://en.wiktionary.org/wiki/custom#Adjective");
+
+            URL_Add("customising", "https://en.wiktionary.org/wiki/customise#Verb");
+
+            URL_Add("customised", "https://en.wiktionary.org/wiki/customised#Adjective");
+
+            URL_Add("customisable", "https://en.wiktionary.org/wiki/customisable#Adjective");
+
+            URL_Add("customisation", "https://en.wiktionary.org/wiki/customisation#Noun");
+
+            URL_Add("customisations", "https://en.wiktionary.org/wiki/customisation#Noun");
+
+            URL_Add("customisability", "https://en.wiktionary.org/wiki/customisability#Noun");
+
+            URL_Add("custom-made", "https://en.wiktionary.org/wiki/custom-made#Adjective");
+
+            URL_Add("customary", "https://en.wiktionary.org/wiki/customary#Adjective");
+
+            URL_Add("customer", "https://en.wiktionary.org/wiki/customer#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -166037,8 +166073,6 @@ namespace OverflowHelper.core
 
             URL_Add("circles_", "https://en.wiktionary.org/wiki/circle#Noun");
 
-            URL_Add("customise_", "https://en.wiktionary.org/wiki/customise#Verb");
-
             URL_Add("soldering iron_", "https://en.wikipedia.org/wiki/Soldering_iron");
 
             URL_Add("begin_", "https://en.wiktionary.org/wiki/begin#Verb");
@@ -168792,6 +168826,8 @@ namespace OverflowHelper.core
             URL_Add("real-time operating system_", "https://en.wikipedia.org/wiki/Real-time_operating_system");
 
             URL_Add("rivalling_", "https://en.wiktionary.org/wiki/rival#Verb");
+
+            URL_Add("customise_", "https://en.wiktionary.org/wiki/customise#Verb");
 
         } //addLookupData_alternativeWordSet()
 
@@ -174223,8 +174259,6 @@ namespace OverflowHelper.core
 
             URL_Add("the Church of Agile Development__", "https://steve-yegge.blogspot.com/2006/10/egomania-itself.html#1944915870679379245");
 
-            URL_Add("customer support__", "https://en.wikipedia.org/wiki/Customer_service#Customer_support");
-
             URL_Add("Joe Scotto's method for Vial support__", "https://www.youtube.com/watch?v=O8pdUPqPG3k");
 
             URL_Add("TCP/IP port__", "https://en.wikipedia.org/wiki/Transmission_Control_Protocol#TCP_ports");
@@ -174923,6 +174957,8 @@ namespace OverflowHelper.core
 
             URL_Add("500&nbsp;°C__", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
 
+            URL_Add("customer support__", "https://en.wikipedia.org/wiki/Customer_service#Customer_support");
+
         } //addLookupData_alternativeWordSet2()
 
 
@@ -175135,6 +175171,7 @@ namespace OverflowHelper.core
             // The verb
             correctionAdd("mays___", "may___");
             correctionAdd("mat___", "may___");
+            correctionAdd("msy___", "may___");
             correctionAdd("my___", "may___");
 
             // Entirely dependent on context.
@@ -177505,8 +177542,6 @@ namespace OverflowHelper.core
 
             URL_Add("net___", "https://www.youtube.com/watch?v=EL7rb-g5xkQ&t=1m40s");
 
-            URL_Add("customer service___", "https://en.wikipedia.org/wiki/Customer_service");
-
             URL_Add("Cooler Master___", "https://en.wikipedia.org/wiki/Cooler_Master");
 
             URL_Add("walled garden___", "https://en.wikipedia.org/wiki/Closed_platform");
@@ -177962,6 +177997,8 @@ namespace OverflowHelper.core
             URL_Add("Unity Operating System___", "https://en.wikipedia.org/wiki/Unity_Operating_System");
 
             URL_Add("number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___", "https://www.reddit.com/r/Keychron/comments/1ip03k0/comment/n52qr9o/");
+
+            URL_Add("customer service___", "https://en.wikipedia.org/wiki/Customer_service");
 
         } //addLookupData_alternativeWordSet3()
 
@@ -181681,8 +181718,6 @@ namespace OverflowHelper.core
 
             URL_Add("n_____", "https://www.npmjs.com/package/n");
 
-            URL_Add("Customising the ZMK-based Keychron B6 Pro keyboard without the Via clone_____", "https://pmortensen.eu/world2/2025/03/10/customising-the-zmk-based-keychron-b6-pro-keyboard-without-the-via-clone/");
-
             URL_Add("resetting to factory defaults for Cooler Master keyboards_____", "https://www.reddit.com/r/coolermaster/comments/1hugm01/comment/m5p43ml/");
 
             URL_Add("program counter_____", "https://en.wikipedia.org/wiki/Program_counter");
@@ -181716,6 +181751,8 @@ namespace OverflowHelper.core
             URL_Add("fast mode_____", "https://en.wikipedia.org/wiki/I2C#Design");
 
             URL_Add("high-speed mode_____", "https://en.wikipedia.org/wiki/I2C#Design");
+
+            URL_Add("Customising the ZMK-based Keychron B6 Pro keyboard without the Via clone_____", "https://pmortensen.eu/world2/2025/03/10/customising-the-zmk-based-keychron-b6-pro-keyboard-without-the-via-clone/");
 
             URL_Add("&nbsp;K_____", "https://en.wikipedia.org/wiki/Kelvin");
 
