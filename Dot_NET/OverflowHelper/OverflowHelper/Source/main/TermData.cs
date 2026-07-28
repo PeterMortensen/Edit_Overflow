@@ -1022,6 +1022,8 @@ namespace OverflowHelper.core
             correctionAdd("Windows Nano server", "Microsoft Nano Server");
             correctionAdd("Windows Nano", "Microsoft Nano Server");
 
+            correctionAdd("rivaling", "rival");
+
             correctionAdd("ild", "old");
             correctionAdd("unc", "old");
 
@@ -21277,6 +21279,90 @@ namespace OverflowHelper.core
 
             correctionAdd("infered", "inferred");
 
+            // The Unix/Linux command
+            //
+            // Alternative URL:
+            //
+            //   <https://linux.die.net/man/1/head>
+            //
+            correctionAdd("Head", "head");
+
+            correctionAdd("a head", "ahead");
+
+            correctionAdd("look-ahead", "lookahead");
+
+            correctionAdd("over head", "overhead");
+
+            correctionAdd("heads and tails", "heads or tails");
+
+            correctionAdd("heads up", "heads-up");
+
+            correctionAdd("head ache", "headache");
+            correctionAdd("headhache", "headache");
+            correctionAdd("headacke", "headache");
+
+            correctionAdd("headhaches", "headaches");
+
+            correctionAdd("head scratching", "head-scratching");
+
+            correctionAdd("headscratcher", "head-scratcher");
+
+            correctionAdd("head shot", "headshot");
+
+            correctionAdd("huntig", "hunting");
+
+            correctionAdd("which hint", "witch hunt");
+            correctionAdd("witch-hunt", "witch hunt");
+
+            correctionAdd("whichcraft", "witchcraft");
+
+            correctionAdd("head-hunted", "headhunted");
+
+            correctionAdd("head banging", "headbanging");
+
+            correctionAdd("head strong", "headstrong");
+
+            correctionAdd("head-over-heels", "head over heels");
+
+            correctionAdd("head & shoulders", "head and shoulders");
+
+            correctionAdd("head room", "headroom");
+
+            correctionAdd("head line", "headline");
+            correctionAdd("hadeline", "headline");
+            correctionAdd("Headline", "headline");
+
+            correctionAdd("haeding", "heading");
+            correctionAdd("heding", "heading");
+
+            correctionAdd("Header", "header");
+            correctionAdd("heder", "header");
+
+            correctionAdd("headerfile", "header file");
+            correctionAdd("Headerfile", "header file");
+
+            correctionAdd("HoD", "head of department");
+
+            correctionAdd("head first", "Head First");
+
+            // Idiomatic
+            correctionAdd("hit the nail upon the top", "hit the nail on the head");
+            correctionAdd("hit the nail on the end", "hit the nail on the head");
+
+            // Idiomatic
+            correctionAdd("from top of my head", "off the top of my head");
+            correctionAdd("From top of my head", "off the top of my head");
+            correctionAdd("top of my head", "off the top of my head");
+
+            correctionAdd("pointy-haired boss", "Pointy-haired Boss");
+            correctionAdd("point-headed boss", "Pointy-haired Boss");
+            correctionAdd("PHB", "Pointy-haired Boss");
+
+            // Web development
+            correctionAdd("hero page", "hero header");
+
+            correctionAdd("hero-image", "hero image");
+
             correctionAdd("Then", "then");
             correctionAdd("rhen", "then");
             correctionAdd("than", "then"); // A homonym/homophone
@@ -21439,6 +21525,7 @@ namespace OverflowHelper.core
             correctionAdd("wasn't", "wasn’t");
             correctionAdd("wasnt", "wasn’t");
             correctionAdd("wsn't", "wasn’t");
+            correctionAdd("wasna", "wasn’t");
             correctionAdd("wasn", "wasn’t");
 
             // Alternative URLs:
@@ -22726,10 +22813,10 @@ namespace OverflowHelper.core
             correctionAdd("wnted", "wanted");
 
             correctionAdd("wanna", "want to");
-            correctionAdd("wanne", "want to");
-            correctionAdd("wonna", "want to");
-            correctionAdd("wanto", "want to");
             correctionAdd("Wanna", "want to");
+            correctionAdd("wonna", "want to");
+            correctionAdd("wanne", "want to");
+            correctionAdd("wanto", "want to");
             correctionAdd("wana", "want to");
             correctionAdd("wnna", "want to");
 
@@ -35809,83 +35896,6 @@ namespace OverflowHelper.core
             // A microphone
             correctionAdd("Shure sm7b", "Shure SM7B");
 
-            // The Unix/Linux command
-            //
-            // Alternative URL:
-            //
-            //   <https://linux.die.net/man/1/head>
-            //
-            correctionAdd("Head", "head");
-
-            correctionAdd("a head", "ahead");
-
-            correctionAdd("look-ahead", "lookahead");
-
-            correctionAdd("over head", "overhead");
-
-            correctionAdd("heads and tails", "heads or tails");
-
-            correctionAdd("heads up", "heads-up");
-
-            correctionAdd("head ache", "headache");
-            correctionAdd("headhache", "headache");
-            correctionAdd("headacke", "headache");
-
-            correctionAdd("headhaches", "headaches");
-
-            correctionAdd("head scratching", "head-scratching");
-
-            correctionAdd("headscratcher", "head-scratcher");
-
-            correctionAdd("head shot", "headshot");
-
-            correctionAdd("head-hunted", "headhunted");
-
-            correctionAdd("head banging", "headbanging");
-
-            correctionAdd("head strong", "headstrong");
-
-            correctionAdd("head-over-heels", "head over heels");
-
-            correctionAdd("head & shoulders", "head and shoulders");
-
-            correctionAdd("head room", "headroom");
-
-            correctionAdd("head line", "headline");
-            correctionAdd("hadeline", "headline");
-            correctionAdd("Headline", "headline");
-
-            correctionAdd("haeding", "heading");
-            correctionAdd("heding", "heading");
-
-            correctionAdd("Header", "header");
-            correctionAdd("heder", "header");
-
-            correctionAdd("headerfile", "header file");
-            correctionAdd("Headerfile", "header file");
-
-            correctionAdd("HoD", "head of department");
-
-            correctionAdd("head first", "Head First");
-
-            // Idiomatic
-            correctionAdd("hit the nail upon the top", "hit the nail on the head");
-            correctionAdd("hit the nail on the end", "hit the nail on the head");
-
-            // Idiomatic
-            correctionAdd("from top of my head", "off the top of my head");
-            correctionAdd("From top of my head", "off the top of my head");
-            correctionAdd("top of my head", "off the top of my head");
-
-            correctionAdd("pointy-haired boss", "Pointy-haired Boss");
-            correctionAdd("point-headed boss", "Pointy-haired Boss");
-            correctionAdd("PHB", "Pointy-haired Boss");
-
-            // Web development
-            correctionAdd("hero page", "hero header");
-
-            correctionAdd("hero-image", "hero image");
-
             correctionAdd("scratcing", "scratching");
 
             // Software development for smartphones
@@ -46286,8 +46296,8 @@ namespace OverflowHelper.core
             correctionAdd("Eclipse Luna (4.4)", "Eclipse&nbsp;v4.4 (Luna)");
             correctionAdd("Eclipse v4.4 (Luna)", "Eclipse&nbsp;v4.4 (Luna)"); // Sort of identity mapping
             correctionAdd("eclipse 4.4 Luna", "Eclipse&nbsp;v4.4 (Luna)");
-            correctionAdd("Eclipse Luna 4.4", "Eclipse&nbsp;v4.4 (Luna)");
             correctionAdd("Eclipse 4.4 Luna", "Eclipse&nbsp;v4.4 (Luna)");
+            correctionAdd("Eclipse Luna 4.4", "Eclipse&nbsp;v4.4 (Luna)");
             correctionAdd("eclipse luna", "Eclipse&nbsp;v4.4 (Luna)");
             correctionAdd("Eclipse Luna", "Eclipse&nbsp;v4.4 (Luna)");
             correctionAdd("eclipse Luna", "Eclipse&nbsp;v4.4 (Luna)");
@@ -50315,8 +50325,8 @@ namespace OverflowHelper.core
 
             correctionAdd("phpunit", "PHPUnit");
 
-            correctionAdd("kohana", "Kohana"); // Not actually observed.
             correctionAdd("KohanaPHP", "Kohana");
+            correctionAdd("kohana", "Kohana"); // Not actually observed.
 
             correctionAdd("pdo", "PDO"); // Consider alternative URL <http://php.net/manual/en/intro.pdo.php>
 
@@ -79113,6 +79123,7 @@ namespace OverflowHelper.core
 
             correctionAdd("gorgeious", "gorgeous");
             correctionAdd("gorgious", "gorgeous");
+            correctionAdd("gorguous", "gorgeous");
 
             correctionAdd("goagent", "GoAgent");
 
@@ -82643,6 +82654,7 @@ namespace OverflowHelper.core
             correctionAdd("Solfe", "Sofle keyboard");
             correctionAdd("sofle", "Sofle keyboard");
             correctionAdd("Sofle", "Sofle keyboard");
+            correctionAdd("SOFLE", "Sofle keyboard");
             correctionAdd("Sofl", "Sofle keyboard");
 
             // A 58-key (55%) crippled split mechanical keyboard.
@@ -94447,11 +94459,6 @@ namespace OverflowHelper.core
 
             correctionAdd("disincentivizing", "disincentivising");
 
-            correctionAdd("whichcraft", "witchcraft");
-
-            correctionAdd("which hint", "witch hunt");
-            correctionAdd("witch-hunt", "witch hunt");
-
             correctionAdd("erazor", "Erazor");
 
             correctionAdd("page anchors", "page anchor");
@@ -105428,8 +105435,6 @@ namespace OverflowHelper.core
             correctionAdd("Educatedness", "educatedness");
 
             correctionAdd("vigilence", "vigilance");
-
-            correctionAdd("rivaling", "rival");
 
             correctionAdd("trenchcoat", "trench coat");
 
@@ -120674,8 +120679,6 @@ namespace OverflowHelper.core
 
             URL_Add("sensitivity", "https://en.wiktionary.org/wiki/sensitivity#Noun");
 
-            URL_Add("witch hunt", "https://en.wiktionary.org/wiki/witch-hunt#Noun");
-
             URL_Add("MyBatis", "https://en.wikipedia.org/wiki/MyBatis");
 
             URL_Add("recruiter", "https://en.wiktionary.org/wiki/recruiter#Noun");
@@ -122795,26 +122798,6 @@ namespace OverflowHelper.core
             URL_Add("Gunicorn", "https://en.wikipedia.org/wiki/Gunicorn");
 
             URL_Add("infrastructure as a service", "https://en.wikipedia.org/wiki/Infrastructure_as_a_service");
-
-            URL_Add("Grand Theft Auto V", "https://en.wikipedia.org/wiki/Grand_Theft_Auto_V");
-
-            URL_Add("Scotto9", "https://www.youtube.com/watch?v=hjml-K-pV4E");
-
-            URL_Add("Arma 3", "https://en.wikipedia.org/wiki/Arma_3");
-
-            URL_Add("Baldur's Gate 3", "https://en.wikipedia.org/wiki/Baldur%27s_Gate_3");
-
-            URL_Add("Halo: The Master Chief Collection", "https://en.wikipedia.org/wiki/Halo:_The_Master_Chief_Collection");
-
-            URL_Add("Sniper Elite III", "https://en.wikipedia.org/wiki/Sniper_Elite_III");
-
-            URL_Add("Counter-Strike: Global Offensive", "https://en.wikipedia.org/wiki/Counter-Strike:_Global_Offensive");
-
-            URL_Add("Hunt: Showdown", "https://en.wikipedia.org/wiki/Hunt:_Showdown");
-
-            URL_Add("Red Dead Redemption 2", "https://en.wikipedia.org/wiki/Red_Dead_Redemption_2");
-
-            URL_Add("singleplayer", "https://en.wiktionary.org/wiki/singleplayer#Adjective");
 
             URL_Add("esoteric programming languages", "https://en.wikipedia.org/wiki/Esoteric_programming_language");
 
@@ -126697,8 +126680,6 @@ namespace OverflowHelper.core
             URL_Add("setter", "https://en.wiktionary.org/wiki/setter#Noun");
 
             URL_Add("settable", "https://en.wiktionary.org/wiki/settable#Adjective");
-
-            URL_Add("hunt and peck typing", "https://en.wikipedia.org/wiki/Typing#Hunt_and_peck");
 
             URL_Add("promotion", "https://en.wiktionary.org/wiki/promotion#Noun");
 
@@ -137948,34 +137929,6 @@ namespace OverflowHelper.core
 
             URL_Add("fundamentals", "https://en.wiktionary.org/wiki/fundamental#Noun");
 
-            URL_Add("headroom", "https://en.wiktionary.org/wiki/headroom#Noun");
-
-            URL_Add("headshot", "https://en.wiktionary.org/wiki/headshot#Noun");
-
-            URL_Add("headbanging", "https://en.wiktionary.org/wiki/headbanging#Noun");
-
-            URL_Add("head of department", "https://en.wikipedia.org/wiki/Management");
-
-            URL_Add("headhunted", "https://en.wiktionary.org/wiki/headhunt#Verb");
-
-            URL_Add("headache", "https://en.wiktionary.org/wiki/headache#Noun");
-
-            URL_Add("header file", "https://en.wikipedia.org/wiki/Include_directive#Header_files");
-
-            URL_Add("headphones", "https://en.wikipedia.org/wiki/Headphones");
-
-            URL_Add("header", "https://en.wiktionary.org/wiki/header#Noun");
-
-            URL_Add("heading", "https://en.wiktionary.org/wiki/heading#Noun");
-
-            URL_Add("headline", "https://en.wiktionary.org/wiki/headline#Noun");
-
-            URL_Add("head and shoulders", "https://en.wiktionary.org/wiki/head_and_shoulders#Adverb");
-
-            URL_Add("headaches", "https://en.wiktionary.org/wiki/headache#Noun");
-
-            URL_Add("head over heels", "https://en.wiktionary.org/wiki/head_over_heels#Adjective");
-
             URL_Add("scratchy", "https://helveticaforever.com/enhance-scratchy-switches/");
 
             URL_Add("scratching", "https://en.wiktionary.org/wiki/scratch#Verb");
@@ -142609,170 +142562,6 @@ namespace OverflowHelper.core
             URL_Add("JAXB", "https://en.wikipedia.org/wiki/Jakarta_XML_Binding");
 
             URL_Add("if", "https://en.wiktionary.org/wiki/if#Conjunction");
-
-            URL_Add("magic", "https://en.wiktionary.org/wiki/magic#Noun");
-
-            URL_Add("works like magic", "https://www.merriam-webster.com/dictionary/work%20like%20magic");
-
-            URL_Add("magic number", "https://en.wikipedia.org/wiki/Magic_number_(programming)");
-
-            URL_Add("magic numbers", "https://en.wikipedia.org/wiki/Magic_number_(programming)");
-
-            URL_Add("magic smoke", "https://en.wikipedia.org/wiki/Magic_smoke");
-
-            URL_Add("automagically", "https://en.wiktionary.org/wiki/automagically#Adverb");
-
-            URL_Add("boot magic", "https://docs.qmk.fm/features/bootmagic");
-
-            URL_Add("ImageMagick", "https://en.wikipedia.org/wiki/ImageMagick");
-
-            URL_Add("Magic Mouse", "https://en.wikipedia.org/wiki/Magic_Mouse");
-
-            URL_Add("Magic Editor", "https://github.com/SO-Close-Vote-Reviewers/UserScripts?tab=readme-ov-file#magic-editor");
-
-            URL_Add("Flutter Flame", "https://blog.codemagic.io/flutter-flame-game-development/");
-
-            URL_Add("Magick.NET", "https://github.com/dlemstra/Magick.NET");
-
-            URL_Add("Stack Exchange magic links", "https://meta.stackexchange.com/questions/92060/add-data-se-style-magic-links-to-comments/94000#94000");
-
-            URL_Add("Magic: The Gathering", "https://en.wikipedia.org/wiki/Magic:_The_Gathering");
-
-            URL_Add("Magic: The Gathering Arena", "https://en.wikipedia.org/wiki/Magic:_The_Gathering_Arena");
-
-            URL_Add("game", "https://en.wiktionary.org/wiki/game#Noun");
-
-            URL_Add("gamer", "https://en.wiktionary.org/wiki/gamer#Noun");
-
-            URL_Add("game changer", "https://en.wiktionary.org/wiki/game_changer#Noun");
-
-            URL_Add("gameplay", "https://en.wiktionary.org/wiki/gameplay#Noun");
-
-            URL_Add("game console", "https://en.wikipedia.org/wiki/Video_game_console");
-
-            URL_Add("games", "https://en.wiktionary.org/wiki/game#Noun");
-
-            URL_Add("GameStop", "https://en.wikipedia.org/wiki/GameStop_short_squeeze");
-
-            URL_Add("video game", "https://en.wikipedia.org/wiki/Video_game");
-
-            URL_Add("platform game", "https://en.wikipedia.org/wiki/Platform_game");
-
-            URL_Add("match-three game", "https://en.wikipedia.org/wiki/Tile-matching_video_game");
-
-            URL_Add("rhythm game", "https://en.wikipedia.org/wiki/Rhythm_game");
-
-            URL_Add("grand strategy wargame", "https://en.wikipedia.org/wiki/Grand_strategy_wargame");
-
-            URL_Add("fighting game", "https://en.wikipedia.org/wiki/Fighting_game");
-
-            URL_Add("multiplayer", "https://en.wiktionary.org/wiki/multiplayer#Adjective");
-
-            URL_Add("multiplayer online battle arena", "https://en.wikipedia.org/wiki/Multiplayer_online_battle_arena#Artificial_Intelligence_in_MOBAs");
-
-            URL_Add("massively multiplayer online game", "https://en.wikipedia.org/wiki/Massively_multiplayer_online_game");
-
-            URL_Add("massively multiplayer online role-playing game", "https://en.wikipedia.org/wiki/Massively_multiplayer_online_role-playing_game");
-
-            URL_Add("Rockstar Games", "https://en.wikipedia.org/wiki/Rockstar_Games");
-
-            URL_Add("Pygame", "https://en.wikipedia.org/wiki/Pygame");
-
-            URL_Add("The Witcher 3: Wild Hunt", "https://en.wikipedia.org/wiki/The_Witcher_3:_Wild_Hunt");
-
-            URL_Add("GameMaker Studio", "https://en.wikipedia.org/wiki/GameMaker");
-
-            URL_Add("Game Boy", "https://en.wikipedia.org/wiki/Game_Boy");
-
-            URL_Add("Lemmings", "https://en.wikipedia.org/wiki/Lemmings_(video_game)");
-
-            URL_Add("Pingus", "https://en.wikipedia.org/wiki/Pingus");
-
-            URL_Add("Iron Saga VS", "https://steamcommunity.com/app/2463800/discussions/0/597395881634844901/");
-
-            URL_Add("Pokémon Go", "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go");
-
-            URL_Add("Pokémon Red", "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red,_Blue,_and_Yellow");
-
-            URL_Add("Osu", "https://en.wikipedia.org/wiki/Osu!");
-
-            URL_Add("Etterna", "https://etternagame.github.io/wiki/");
-
-            URL_Add("Quaver", "https://github.com/Quaver/Quaver");
-
-            URL_Add("StepMania", "https://en.wikipedia.org/wiki/StepMania");
-
-            URL_Add("Cassette Beasts", "https://en.wikipedia.org/wiki/Cassette_Beasts");
-
-            URL_Add("2XKO", "https://en.wikipedia.org/wiki/2XKO");
-
-            URL_Add("Plants vs. Zombies", "https://en.wikipedia.org/wiki/Plants_vs._Zombies");
-
-            URL_Add("SuperTux", "https://en.wikipedia.org/wiki/SuperTux");
-
-            URL_Add("Sekiro: Shadows Die Twice", "https://en.wikipedia.org/wiki/Sekiro:_Shadows_Die_Twice");
-
-            URL_Add("Dinosaur Game", "https://en.wikipedia.org/wiki/Dinosaur_Game");
-
-            URL_Add("WarGames", "https://en.wikipedia.org/wiki/WarGames");
-
-            URL_Add("Doodle Champion Island Games", "https://en.wikipedia.org/wiki/Doodle_Champion_Island_Games");
-
-            URL_Add("CodinGame", "https://en.wikipedia.org/wiki/CodinGame");
-
-            URL_Add("Game of Life", "https://en.wikipedia.org/wiki/Conway's_Game_of_Life");
-
-            URL_Add("Game of Thrones", "https://en.wikipedia.org/wiki/Game_of_Thrones");
-
-            URL_Add("Antonio Radić", "https://en.wikipedia.org/w/index.php?title=Antonio_Radi%C4%87&oldid=978538274"); // Old: https://en.wikipedia.org/wiki/Antonio_Radi%C4%87
-
-            URL_Add("Four Knights Game", "https://en.wikipedia.org/wiki/Four_Knights_Game");
-
-            URL_Add("Vienna Game", "https://en.wikipedia.org/wiki/Vienna_Game");
-
-            URL_Add("Scotch Game", "https://en.wikipedia.org/wiki/Scotch_Game");
-
-            URL_Add("Italian Game", "https://en.wikipedia.org/wiki/Italian_Game");
-
-            URL_Add("Benoni Defense", "https://en.wikipedia.org/wiki/Benoni_Defense");
-
-            URL_Add("Open Sicilian", "https://en.wikipedia.org/wiki/Sicilian_Defence#Open_Sicilian:_2.Nf3_and_3.d4");
-
-            URL_Add("Queen's Indian Defense", "https://en.wikipedia.org/wiki/Queen%27s_Indian_Defense");
-
-            URL_Add("Réti Opening", "https://en.wikipedia.org/wiki/R%C3%A9ti_Opening");
-
-            URL_Add("Catalan Opening", "https://en.wikipedia.org/wiki/Catalan_Opening");
-
-            URL_Add("Giuoco Piano", "https://en.wikipedia.org/wiki/Giuoco_Piano");
-
-            URL_Add("English Opening", "https://en.wikipedia.org/wiki/English_Opening");
-
-            URL_Add("Dutch Defence", "https://en.wikipedia.org/wiki/Dutch_Defence");
-
-            URL_Add("Saragossa Opening", "https://en.wikipedia.org/wiki/Saragossa_Opening");
-
-            URL_Add("Ware Opening, Crab Variation", "https://en.wikipedia.org/wiki/Ware_Opening#Variations");
-
-            URL_Add("Carl's Bremen system", "https://www.chess.com/openings/English-Opening-Carls-Bremen-System");
-
-            URL_Add("Peter Svidler", "https://en.wikipedia.org/wiki/Peter_Svidler");
-
-            URL_Add("Bong-Cloud opening", "https://chess.stackexchange.com/questions/27227");
-
-            URL_Add("Sicilian Defence, Accelerated Dragon", "https://en.wikipedia.org/wiki/Sicilian_Defence,_Accelerated_Dragon");
-
-            URL_Add("DNF Dragora", "https://en.wikipedia.org/wiki/DNF_(software)#Adoption");
-
-            URL_Add("Dragonfly", "https://en.wikipedia.org/wiki/Opera_Dragonfly");
-
-            URL_Add("Dragon 2", "https://en.wikipedia.org/wiki/SpaceX_Dragon_2"); // Old: https://en.wikipedia.org/wiki/Dragon_2
-
-            URL_Add("SpaceX Dragon", "https://en.wikipedia.org/wiki/SpaceX_Dragon");
-
-            URL_Add("Dragon Ball Z", "https://en.wikipedia.org/wiki/Dragon_Ball_Z");
-
-            URL_Add("Dungeons & Dragons Online", "https://en.wikipedia.org/wiki/Dungeons_%26_Dragons_Online");
 
             URL_Add("mobilised soldiers", "https://en.wiktionary.org/wiki/mobik#Noun");
 
@@ -148198,6 +147987,224 @@ namespace OverflowHelper.core
 
             URL_Add("480&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
 
+            URL_Add("hunting", "https://en.wiktionary.org/wiki/hunt#Verb");
+
+            URL_Add("witch hunt", "https://en.wiktionary.org/wiki/witch-hunt#Noun");
+
+            URL_Add("headhunted", "https://en.wiktionary.org/wiki/headhunt#Verb");
+
+            URL_Add("hunt and peck typing", "https://en.wikipedia.org/wiki/Typing#Hunt_and_peck");
+
+            URL_Add("Hunt: Showdown", "https://en.wikipedia.org/wiki/Hunt:_Showdown");
+
+            URL_Add("The Witcher 3: Wild Hunt", "https://en.wikipedia.org/wiki/The_Witcher_3:_Wild_Hunt");
+
+            URL_Add("Grand Theft Auto V", "https://en.wikipedia.org/wiki/Grand_Theft_Auto_V");
+
+            URL_Add("Scotto9", "https://www.youtube.com/watch?v=hjml-K-pV4E");
+
+            URL_Add("Arma 3", "https://en.wikipedia.org/wiki/Arma_3");
+
+            URL_Add("Baldur's Gate 3", "https://en.wikipedia.org/wiki/Baldur%27s_Gate_3");
+
+            URL_Add("Halo: The Master Chief Collection", "https://en.wikipedia.org/wiki/Halo:_The_Master_Chief_Collection");
+
+            URL_Add("Sniper Elite III", "https://en.wikipedia.org/wiki/Sniper_Elite_III");
+
+            URL_Add("Counter-Strike: Global Offensive", "https://en.wikipedia.org/wiki/Counter-Strike:_Global_Offensive");
+
+            URL_Add("Red Dead Redemption 2", "https://en.wikipedia.org/wiki/Red_Dead_Redemption_2");
+
+            URL_Add("singleplayer", "https://en.wiktionary.org/wiki/singleplayer#Adjective");
+
+            URL_Add("headroom", "https://en.wiktionary.org/wiki/headroom#Noun");
+
+            URL_Add("headshot", "https://en.wiktionary.org/wiki/headshot#Noun");
+
+            URL_Add("headbanging", "https://en.wiktionary.org/wiki/headbanging#Noun");
+
+            URL_Add("head of department", "https://en.wikipedia.org/wiki/Management");
+
+            URL_Add("headache", "https://en.wiktionary.org/wiki/headache#Noun");
+
+            URL_Add("header file", "https://en.wikipedia.org/wiki/Include_directive#Header_files");
+
+            URL_Add("headphones", "https://en.wikipedia.org/wiki/Headphones");
+
+            URL_Add("header", "https://en.wiktionary.org/wiki/header#Noun");
+
+            URL_Add("heading", "https://en.wiktionary.org/wiki/heading#Noun");
+
+            URL_Add("headline", "https://en.wiktionary.org/wiki/headline#Noun");
+
+            URL_Add("head and shoulders", "https://en.wiktionary.org/wiki/head_and_shoulders#Adverb");
+
+            URL_Add("headaches", "https://en.wiktionary.org/wiki/headache#Noun");
+
+            URL_Add("head over heels", "https://en.wiktionary.org/wiki/head_over_heels#Adjective");
+
+            URL_Add("magic", "https://en.wiktionary.org/wiki/magic#Noun");
+
+            URL_Add("works like magic", "https://www.merriam-webster.com/dictionary/work%20like%20magic");
+
+            URL_Add("magic number", "https://en.wikipedia.org/wiki/Magic_number_(programming)");
+
+            URL_Add("magic numbers", "https://en.wikipedia.org/wiki/Magic_number_(programming)");
+
+            URL_Add("magic smoke", "https://en.wikipedia.org/wiki/Magic_smoke");
+
+            URL_Add("automagically", "https://en.wiktionary.org/wiki/automagically#Adverb");
+
+            URL_Add("boot magic", "https://docs.qmk.fm/features/bootmagic");
+
+            URL_Add("ImageMagick", "https://en.wikipedia.org/wiki/ImageMagick");
+
+            URL_Add("Magic Mouse", "https://en.wikipedia.org/wiki/Magic_Mouse");
+
+            URL_Add("Magic Editor", "https://github.com/SO-Close-Vote-Reviewers/UserScripts?tab=readme-ov-file#magic-editor");
+
+            URL_Add("Flutter Flame", "https://blog.codemagic.io/flutter-flame-game-development/");
+
+            URL_Add("Magick.NET", "https://github.com/dlemstra/Magick.NET");
+
+            URL_Add("Stack Exchange magic links", "https://meta.stackexchange.com/questions/92060/add-data-se-style-magic-links-to-comments/94000#94000");
+
+            URL_Add("Magic: The Gathering", "https://en.wikipedia.org/wiki/Magic:_The_Gathering");
+
+            URL_Add("Magic: The Gathering Arena", "https://en.wikipedia.org/wiki/Magic:_The_Gathering_Arena");
+
+            URL_Add("game", "https://en.wiktionary.org/wiki/game#Noun");
+
+            URL_Add("gamer", "https://en.wiktionary.org/wiki/gamer#Noun");
+
+            URL_Add("game changer", "https://en.wiktionary.org/wiki/game_changer#Noun");
+
+            URL_Add("gameplay", "https://en.wiktionary.org/wiki/gameplay#Noun");
+
+            URL_Add("game console", "https://en.wikipedia.org/wiki/Video_game_console");
+
+            URL_Add("games", "https://en.wiktionary.org/wiki/game#Noun");
+
+            URL_Add("GameStop", "https://en.wikipedia.org/wiki/GameStop_short_squeeze");
+
+            URL_Add("video game", "https://en.wikipedia.org/wiki/Video_game");
+
+            URL_Add("platform game", "https://en.wikipedia.org/wiki/Platform_game");
+
+            URL_Add("match-three game", "https://en.wikipedia.org/wiki/Tile-matching_video_game");
+
+            URL_Add("rhythm game", "https://en.wikipedia.org/wiki/Rhythm_game");
+
+            URL_Add("grand strategy wargame", "https://en.wikipedia.org/wiki/Grand_strategy_wargame");
+
+            URL_Add("fighting game", "https://en.wikipedia.org/wiki/Fighting_game");
+
+            URL_Add("multiplayer", "https://en.wiktionary.org/wiki/multiplayer#Adjective");
+
+            URL_Add("multiplayer online battle arena", "https://en.wikipedia.org/wiki/Multiplayer_online_battle_arena#Artificial_Intelligence_in_MOBAs");
+
+            URL_Add("massively multiplayer online game", "https://en.wikipedia.org/wiki/Massively_multiplayer_online_game");
+
+            URL_Add("massively multiplayer online role-playing game", "https://en.wikipedia.org/wiki/Massively_multiplayer_online_role-playing_game");
+
+            URL_Add("Rockstar Games", "https://en.wikipedia.org/wiki/Rockstar_Games");
+
+            URL_Add("Pygame", "https://en.wikipedia.org/wiki/Pygame");
+
+            URL_Add("GameMaker Studio", "https://en.wikipedia.org/wiki/GameMaker");
+
+            URL_Add("Game Boy", "https://en.wikipedia.org/wiki/Game_Boy");
+
+            URL_Add("Lemmings", "https://en.wikipedia.org/wiki/Lemmings_(video_game)");
+
+            URL_Add("Pingus", "https://en.wikipedia.org/wiki/Pingus");
+
+            URL_Add("Iron Saga VS", "https://steamcommunity.com/app/2463800/discussions/0/597395881634844901/");
+
+            URL_Add("Pokémon Go", "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go");
+
+            URL_Add("Pokémon Red", "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red,_Blue,_and_Yellow");
+
+            URL_Add("Osu", "https://en.wikipedia.org/wiki/Osu!");
+
+            URL_Add("Etterna", "https://etternagame.github.io/wiki/");
+
+            URL_Add("Quaver", "https://github.com/Quaver/Quaver");
+
+            URL_Add("StepMania", "https://en.wikipedia.org/wiki/StepMania");
+
+            URL_Add("Cassette Beasts", "https://en.wikipedia.org/wiki/Cassette_Beasts");
+
+            URL_Add("2XKO", "https://en.wikipedia.org/wiki/2XKO");
+
+            URL_Add("Plants vs. Zombies", "https://en.wikipedia.org/wiki/Plants_vs._Zombies");
+
+            URL_Add("SuperTux", "https://en.wikipedia.org/wiki/SuperTux");
+
+            URL_Add("Sekiro: Shadows Die Twice", "https://en.wikipedia.org/wiki/Sekiro:_Shadows_Die_Twice");
+
+            URL_Add("Dinosaur Game", "https://en.wikipedia.org/wiki/Dinosaur_Game");
+
+            URL_Add("WarGames", "https://en.wikipedia.org/wiki/WarGames");
+
+            URL_Add("Doodle Champion Island Games", "https://en.wikipedia.org/wiki/Doodle_Champion_Island_Games");
+
+            URL_Add("CodinGame", "https://en.wikipedia.org/wiki/CodinGame");
+
+            URL_Add("Game of Life", "https://en.wikipedia.org/wiki/Conway's_Game_of_Life");
+
+            URL_Add("Game of Thrones", "https://en.wikipedia.org/wiki/Game_of_Thrones");
+
+            URL_Add("Antonio Radić", "https://en.wikipedia.org/w/index.php?title=Antonio_Radi%C4%87&oldid=978538274"); // Old: https://en.wikipedia.org/wiki/Antonio_Radi%C4%87
+
+            URL_Add("Four Knights Game", "https://en.wikipedia.org/wiki/Four_Knights_Game");
+
+            URL_Add("Vienna Game", "https://en.wikipedia.org/wiki/Vienna_Game");
+
+            URL_Add("Scotch Game", "https://en.wikipedia.org/wiki/Scotch_Game");
+
+            URL_Add("Italian Game", "https://en.wikipedia.org/wiki/Italian_Game");
+
+            URL_Add("Benoni Defense", "https://en.wikipedia.org/wiki/Benoni_Defense");
+
+            URL_Add("Open Sicilian", "https://en.wikipedia.org/wiki/Sicilian_Defence#Open_Sicilian:_2.Nf3_and_3.d4");
+
+            URL_Add("Queen's Indian Defense", "https://en.wikipedia.org/wiki/Queen%27s_Indian_Defense");
+
+            URL_Add("Réti Opening", "https://en.wikipedia.org/wiki/R%C3%A9ti_Opening");
+
+            URL_Add("Catalan Opening", "https://en.wikipedia.org/wiki/Catalan_Opening");
+
+            URL_Add("Giuoco Piano", "https://en.wikipedia.org/wiki/Giuoco_Piano");
+
+            URL_Add("English Opening", "https://en.wikipedia.org/wiki/English_Opening");
+
+            URL_Add("Dutch Defence", "https://en.wikipedia.org/wiki/Dutch_Defence");
+
+            URL_Add("Saragossa Opening", "https://en.wikipedia.org/wiki/Saragossa_Opening");
+
+            URL_Add("Ware Opening, Crab Variation", "https://en.wikipedia.org/wiki/Ware_Opening#Variations");
+
+            URL_Add("Carl's Bremen system", "https://www.chess.com/openings/English-Opening-Carls-Bremen-System");
+
+            URL_Add("Peter Svidler", "https://en.wikipedia.org/wiki/Peter_Svidler");
+
+            URL_Add("Bong-Cloud opening", "https://chess.stackexchange.com/questions/27227");
+
+            URL_Add("Sicilian Defence, Accelerated Dragon", "https://en.wikipedia.org/wiki/Sicilian_Defence,_Accelerated_Dragon");
+
+            URL_Add("DNF Dragora", "https://en.wikipedia.org/wiki/DNF_(software)#Adoption");
+
+            URL_Add("Dragonfly", "https://en.wikipedia.org/wiki/Opera_Dragonfly");
+
+            URL_Add("Dragon 2", "https://en.wikipedia.org/wiki/SpaceX_Dragon_2"); // Old: https://en.wikipedia.org/wiki/Dragon_2
+
+            URL_Add("SpaceX Dragon", "https://en.wikipedia.org/wiki/SpaceX_Dragon");
+
+            URL_Add("Dragon Ball Z", "https://en.wikipedia.org/wiki/Dragon_Ball_Z");
+
+            URL_Add("Dungeons & Dragons Online", "https://en.wikipedia.org/wiki/Dungeons_%26_Dragons_Online");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -152532,6 +152539,7 @@ namespace OverflowHelper.core
             correctionAdd("Brazilian Technical Standards Association_", "ABNT NBR 10346 variant 2 keyboard layout_"); // For the cross-reference
             correctionAdd("ABNT NBR 10346 variant 2_", "ABNT NBR 10346 variant 2 keyboard layout_");
             correctionAdd("Brazilian_", "ABNT NBR 10346 variant 2 keyboard layout_"); // For the cross-reference
+            correctionAdd("ABNT-2_", "ABNT NBR 10346 variant 2 keyboard layout_");
             correctionAdd("ABNT2_", "ABNT NBR 10346 variant 2 keyboard layout_");
             correctionAdd("abnt2_", "ABNT NBR 10346 variant 2 keyboard layout_");
             correctionAdd("ABN2_", "ABNT NBR 10346 variant 2 keyboard layout_");
@@ -156049,6 +156057,7 @@ namespace OverflowHelper.core
             //
             // The URL is to a blog post.
             //
+            correctionAdd("the CK550 V2_", "CK550 V2_");
             correctionAdd("CK550_", "CK550 V2_");
             correctionAdd("ck550_", "CK550 V2_");
 
@@ -158088,6 +158097,8 @@ namespace OverflowHelper.core
             correctionAdd("trilean_", "ternary_");
             correctionAdd("trinary_", "ternary_");
             correctionAdd("3VL_", "ternary_");
+
+            correctionAdd("rivaling_", "rivalling_");
 
             correctionAdd("rode_", "road_");
 
@@ -162324,6 +162335,7 @@ namespace OverflowHelper.core
             correctionAdd("compilate_", "compilation_");
 
             // Noun
+            correctionAdd("complaing_", "complaint_"); // A true typo
             correctionAdd("complain_", "complaint_");
 
             // Verb
@@ -168778,6 +168790,8 @@ namespace OverflowHelper.core
             URL_Add("UNC_", "https://en.wikipedia.org/wiki/Path_%28computing%29#Uniform_Naming_Convention");
 
             URL_Add("real-time operating system_", "https://en.wikipedia.org/wiki/Real-time_operating_system");
+
+            URL_Add("rivalling_", "https://en.wiktionary.org/wiki/rival#Verb");
 
         } //addLookupData_alternativeWordSet()
 
