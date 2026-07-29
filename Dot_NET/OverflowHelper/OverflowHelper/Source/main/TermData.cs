@@ -10855,7 +10855,9 @@ namespace OverflowHelper.core
             correctionAdd("opinion-based questions", "opinion-based content");
             correctionAdd("Opinion Based Content", "opinion-based content");
             correctionAdd("opinion based content", "opinion-based content");
+            correctionAdd("open-ended content", "opinion-based content"); // May not be 100% corroct
             correctionAdd("OBC", "opinion-based content");
+            correctionAdd("OEQ", "opinion-based content"); // May not be 100% corroct
 
             // Famously used to describe the "Facebook-Stack Overflow partnership"
             // Along with "truck loads"
@@ -25857,6 +25859,8 @@ namespace OverflowHelper.core
             correctionAdd("encription", "encryption");
             correctionAdd("enctyption", "encryption");
 
+            correctionAdd("End-To-End encryption", "end-to-end encryption");
+
             correctionAdd("crypto-graphic", "cryptographic");
 
             correctionAdd("Cryptographically", "cryptographically");
@@ -25867,6 +25871,8 @@ namespace OverflowHelper.core
             correctionAdd("Cryptanalysis", "cryptanalysis");
 
             correctionAdd("cryptographic message syntax", "Cryptographic Message Syntax");
+
+            correctionAdd("nonce", "cryptographic nonce");
 
             correctionAdd("ecb", "ECB");
 
@@ -26222,6 +26228,8 @@ namespace OverflowHelper.core
             correctionAdd("decypher", "decipher");
             correctionAdd("decyphre", "decipher");
 
+            correctionAdd("cipher text", "ciphertext");
+
             correctionAdd("rot13", "ROT13"); // A cipher
 
             correctionAdd("cesa encryption", "Caesar cipher");
@@ -26236,9 +26244,9 @@ namespace OverflowHelper.core
             correctionAdd("Vigenere", "Vigenère cipher");
             correctionAdd("vigenere", "Vigenère cipher");
 
+            correctionAdd("true crypt", "TrueCrypt");
             correctionAdd("Truecrypt", "TrueCrypt");
             correctionAdd("truecrypt", "TrueCrypt");
-            correctionAdd("true crypt", "TrueCrypt");
 
             correctionAdd("currecy", "currency");
 
@@ -102974,6 +102982,8 @@ namespace OverflowHelper.core
 
             correctionAdd("outrage", "outage");
 
+            correctionAdd("Outages", "outages");
+
             correctionAdd("Lean", "lean");
             correctionAdd("LEAN", "lean");
 
@@ -111626,6 +111636,8 @@ namespace OverflowHelper.core
 
             URL_Add("outage", "https://en.wiktionary.org/wiki/outage#Noun");
 
+            URL_Add("outages", "https://en.wiktionary.org/wiki/outage#Noun");
+
             URL_Add("lean", "https://en.wikipedia.org/wiki/Lean_thinking");
 
             URL_Add("Kalman filter", "https://en.wikipedia.org/wiki/Kalman_filter");
@@ -116962,8 +116974,6 @@ namespace OverflowHelper.core
 
             URL_Add("upset the applecart", "https://en.wiktionary.org/wiki/upset_the_applecart#Verb");
 
-            URL_Add("Caesar cipher", "https://en.wikipedia.org/wiki/Caesar_cipher");
-
             URL_Add("PEP&nbsp;498", "https://peps.python.org/pep-0498/");
 
             URL_Add("ROT13", "https://en.wikipedia.org/wiki/ROT13");
@@ -117325,10 +117335,6 @@ namespace OverflowHelper.core
             URL_Add("cool", "https://en.wiktionary.org/wiki/cool#Adjective");
 
             URL_Add("The Art of Electronics", "https://en.wikipedia.org/wiki/The_Art_of_Electronics");
-
-            URL_Add("XOR cipher", "https://en.wikipedia.org/wiki/XOR_cipher");
-
-            URL_Add("cipher", "https://en.wikipedia.org/wiki/Cipher");
 
             URL_Add("eccentricity", "https://en.wiktionary.org/wiki/eccentricity#Noun");
 
@@ -120209,8 +120215,6 @@ namespace OverflowHelper.core
             URL_Add("blah", "https://en.wiktionary.org/wiki/blah#Noun");
 
             URL_Add("descendingly", "https://en.wiktionary.org/wiki/descendingly#Adverb");
-
-            URL_Add("Vigenère cipher", "https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher");
 
             URL_Add("bossy", "https://en.wiktionary.org/wiki/bossy#Adjective");
 
@@ -127850,8 +127854,6 @@ namespace OverflowHelper.core
 
             URL_Add("sitewide", "https://en.wiktionary.org/wiki/sitewide#Adjective");
 
-            URL_Add("decipher", "https://en.wiktionary.org/wiki/decipher#Verb");
-
             URL_Add("seeking", "https://en.wiktionary.org/wiki/seek#Verb");
 
             URL_Add("DeepSeek", "https://en.wikipedia.org/wiki/DeepSeek");
@@ -131648,6 +131650,8 @@ namespace OverflowHelper.core
 
             URL_Add("encryption", "https://en.wiktionary.org/wiki/encryption#Noun");
 
+            URL_Add("end-to-end encryption", "https://en.wikipedia.org/wiki/End-to-end_encryption");
+
             URL_Add("Encrypted Client Hello", "https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello");
 
             URL_Add("Let's Encrypt", "https://en.wikipedia.org/wiki/Let's_Encrypt");
@@ -131663,8 +131667,6 @@ namespace OverflowHelper.core
             URL_Add("Certbot", "https://en.wikipedia.org/wiki/Let%27s_Encrypt#Software_implementation");
 
             URL_Add("ElGamal", "https://en.wikipedia.org/wiki/ElGamal_encryption");
-
-            URL_Add("ECB", "https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#Electronic_codebook_(ECB)");
 
             URL_Add("Dislocker", "https://blog.desdelinux.net/en/dislocker-a-tool-to-access-partitions-encrypted-by-bitlocker-from-linux/");
 
@@ -136041,8 +136043,6 @@ namespace OverflowHelper.core
             URL_Add(".gitignore file", "https://git-scm.com/docs/gitignore");
 
             URL_Add("cTrader", "https://en.everybodywiki.com/CTrader");
-
-            URL_Add("CTR", "https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#Counter_(CTR)");
 
             URL_Add("router", "https://en.wikipedia.org/wiki/Router_(computing)");
 
@@ -142292,15 +142292,37 @@ namespace OverflowHelper.core
 
             URL_Add("password reuse", "https://en.wikipedia.org/wiki/Wikipedia:10,000_most_common_passwords#Top_100");
 
+            URL_Add("cipher", "https://en.wikipedia.org/wiki/Cipher");
+
+            URL_Add("decipher", "https://en.wiktionary.org/wiki/decipher#Verb");
+
+            URL_Add("ciphertext", "https://en.wikipedia.org/wiki/Ciphertext");
+
+            URL_Add("Vigenère cipher", "https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher");
+
+            URL_Add("Caesar cipher", "https://en.wikipedia.org/wiki/Caesar_cipher");
+
+            URL_Add("XOR cipher", "https://en.wikipedia.org/wiki/XOR_cipher");
+
+            URL_Add("ECB", "https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#Electronic_codebook_(ECB)");
+
+            URL_Add("CTR", "https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#Counter_(CTR)");
+
+            URL_Add("OFB", "https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#Output_feedback_(OFB)");
+
+            URL_Add("Blowfish", "https://en.wikipedia.org/wiki/Blowfish_(cipher)");
+
+            URL_Add("cryptographic", "https://en.wiktionary.org/wiki/cryptographic#Adjective");
+
             URL_Add("cryptographically", "https://en.wiktionary.org/wiki/cryptographically#Adverb");
 
             URL_Add("cryptographically secure", "https://en.wikipedia.org/wiki/Cryptographically-secure_pseudorandom_number_generator");
 
+            URL_Add("cryptographic nonce", "https://en.wikipedia.org/wiki/Cryptographic_nonce");
+
             URL_Add("cryptocurrency", "https://en.wikipedia.org/wiki/Cryptocurrency");
 
             URL_Add("Cryptographic Message Syntax", "https://en.wikipedia.org/wiki/Cryptographic_Message_Syntax");
-
-            URL_Add("cryptographic", "https://en.wiktionary.org/wiki/cryptographic#Adjective");
 
             URL_Add("fix-up", "https://en.wiktionary.org/wiki/fix-up#Noun");
 
@@ -145288,8 +145310,6 @@ namespace OverflowHelper.core
 
             URL_Add("reinforcement learning from human feedback", "https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback");
 
-            URL_Add("OFB", "https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#Output_feedback_(OFB)");
-
             URL_Add("linear-feedback shift register", "https://en.wikipedia.org/wiki/Linear-feedback_shift_register");
 
             URL_Add("Stack Exchange RSS feeds", "https://meta.stackexchange.com/questions/151519/what-other-hidden-or-inobvious-rss-feeds-are-available-on-stack-exchange-and-its");
@@ -147881,8 +147901,6 @@ namespace OverflowHelper.core
             URL_Add("GlassFish", "https://en.wikipedia.org/wiki/GlassFish");
 
             URL_Add("FishEye", "https://en.wikipedia.org/wiki/FishEye_%28software%29");
-
-            URL_Add("Blowfish", "https://en.wikipedia.org/wiki/Blowfish_(cipher)");
 
             URL_Add("Bluefish", "https://en.wikipedia.org/wiki/Bluefish_(software)");
 
@@ -153304,6 +153322,7 @@ namespace OverflowHelper.core
             // The noun
             correctionAdd("Back up_", "backup_");
             correctionAdd("back up_", "backup_");
+            correctionAdd("buckup_", "backup_");
 
             correctionAdd("BFF_", "back-end for front-end_");
 
@@ -164771,8 +164790,6 @@ namespace OverflowHelper.core
 
             URL_Add("today I learned_", "https://en.wiktionary.org/wiki/TIL#Phrase");
 
-            URL_Add("CBC_", "https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#Cipher_block_chaining_(CBC)");
-
             URL_Add("theirs_", "https://en.wiktionary.org/wiki/theirs#Pronoun");
 
             URL_Add("Google Talk_", "https://en.wikipedia.org/wiki/Google_Talk");
@@ -166833,8 +166850,6 @@ namespace OverflowHelper.core
 
             URL_Add("extent_", "https://en.wiktionary.org/wiki/to_some_extent#Prepositional_phrase");
 
-            URL_Add("DES_", "https://en.wikipedia.org/wiki/Data_Encryption_Standard");
-
             URL_Add("axiom schema of specification_", "https://en.wikipedia.org/wiki/Axiom_schema_of_specification");
 
             URL_Add("Zermelo–Fraenkel axioms_", "https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory");
@@ -168846,6 +168861,10 @@ namespace OverflowHelper.core
             URL_Add("rivalling_", "https://en.wiktionary.org/wiki/rival#Verb");
 
             URL_Add("customise_", "https://en.wiktionary.org/wiki/customise#Verb");
+
+            URL_Add("DES_", "https://en.wikipedia.org/wiki/Data_Encryption_Standard");
+
+            URL_Add("CBC_", "https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#Cipher_block_chaining_(CBC)");
 
         } //addLookupData_alternativeWordSet()
 
