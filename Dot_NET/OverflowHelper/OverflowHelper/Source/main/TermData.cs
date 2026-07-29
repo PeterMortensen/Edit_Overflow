@@ -16397,6 +16397,106 @@ namespace OverflowHelper.core
             //
             correctionAdd("niri", "Niri");
 
+            // Gist: More control with the keyboard (not the mouse)
+            correctionAdd("keyboard-driven desktop interface", "tiling window manager");
+            correctionAdd("TWM", "tiling window manager");
+
+            // A tiling window manager (written in Rust)
+            correctionAdd("leftwm", "LeftWM");
+
+            // An X Window tiling window manager
+            // Remapping.
+            //
+            // Not to be confused with the software
+            // keyboard remapper 'KMonad'
+            //
+            correctionAdd("xmonad", "XMonad");
+            correctionAdd("Xmonad", "XMonad");
+
+            // An X Window tiling window manager, similar to XMonad
+            correctionAdd("stumpwm", "StumpWM");
+
+            // An X Window tiling window manager, similar to XMonad
+            correctionAdd("larswm", "Larswm");
+
+            // A tiling window manager for Windows
+            //
+            // Alternative URLs:
+            //
+            //   <https://github.com/glzr-io/glazewm>
+            //
+            correctionAdd("glazewm", "GlazeWM");
+
+            // Linux. Desktop environment.
+            correctionAdd("sugar on a stick", "Sugar on a Stick");
+            correctionAdd("soas", "Sugar on a Stick");
+            correctionAdd("SOAS", "Sugar on a Stick");
+
+            // Linux. Desktop environment.
+            correctionAdd("river", "River");
+
+            // Linux. Desktop environment.
+            correctionAdd("rofi", "Rofi");
+
+            // Linux. Desktop environment.
+            correctionAdd("SPECTRWM", "spectrwm");
+
+            // Linux. Emacs. Desktop environment.
+            correctionAdd("exwm", "EXWM");
+
+            // Linux. A window manager.
+            correctionAdd("herbstluftwm", "Herbstluftwm");
+            correctionAdd("herbst", "Herbstluftwm");
+
+            // Linux. A window manager.
+            correctionAdd("DWL", "dwl");
+
+            // Linux. A window manager.
+            correctionAdd("Desktop Window Manager", "dwm");
+            correctionAdd("Dwm", "dwm");
+            correctionAdd("DWM", "dwm");
+
+            // Linux. A window manager.
+            correctionAdd("icewm", "IceWM");
+
+            // Linux. A window manager.
+            //
+            // Note: No longer supported by the reference...
+            //       (<find the version that did. Or use
+            //         a different one>.)
+            //
+            // Alternative URLs:
+            //
+            //   <https://github.com/joewing/jwm>
+            //   <https://joewing.net/projects/jwm/>
+            //
+            correctionAdd("Joe's Window Manager", "JWM");
+            correctionAdd("jwm", "JWM");
+
+            // Linux. A window manager.
+            correctionAdd("matchbox", "Matchbox");
+
+            // Linux, GUI. A stand-alone compositing window manager.
+            // Not the physicist...
+            correctionAdd("compton", "Compton");
+
+            // Linux, GUI. A display manager.
+            correctionAdd("lightdm", "LightDM");
+            correctionAdd("Lightdm", "LightDM");
+
+            // Linux. A window manager
+            correctionAdd("fluxbox", "Fluxbox");
+
+            correctionAdd("web-flux", "WebFlux");
+            correctionAdd("Webflux", "WebFlux");
+            correctionAdd("webflux", "WebFlux");
+
+            // Linux: X11 / X Window
+            //
+            // Not to be confused with "Zephyr" (an RTOS)
+            //
+            correctionAdd("xephyr", "Xephyr");
+
             correctionAdd("X-Term", "xterm");
             correctionAdd("X-term", "xterm");
             correctionAdd("XTERM", "xterm");
@@ -16576,103 +16676,6 @@ namespace OverflowHelper.core
 
             // Linux command. Related to systemd.
             correctionAdd("SYSTEMCTL", "systemctl");
-
-            // Gist: More control with the keyboard (not the mouse)
-            correctionAdd("keyboard-driven desktop interface", "tiling window manager");
-            correctionAdd("TWM", "tiling window manager");
-
-            // Linux. Desktop environment.
-            correctionAdd("sugar on a stick", "Sugar on a Stick");
-            correctionAdd("soas", "Sugar on a Stick");
-            correctionAdd("SOAS", "Sugar on a Stick");
-
-            // Linux. Desktop environment.
-            correctionAdd("river", "River");
-
-            // Linux. Desktop environment.
-            correctionAdd("rofi", "Rofi");
-
-            // Linux. Desktop environment.
-            correctionAdd("SPECTRWM", "spectrwm");
-
-            // Linux. Emacs. Desktop environment.
-            correctionAdd("exwm", "EXWM");
-
-            // Linux. A window manager.
-            correctionAdd("herbstluftwm", "Herbstluftwm");
-            correctionAdd("herbst", "Herbstluftwm");
-
-            // Linux. A window manager.
-            correctionAdd("DWL", "dwl");
-
-            // Linux. A window manager.
-            correctionAdd("Desktop Window Manager", "dwm");
-            correctionAdd("Dwm", "dwm");
-            correctionAdd("DWM", "dwm");
-
-            // Linux. A window manager.
-            correctionAdd("icewm", "IceWM");
-
-            // Linux. A window manager.
-            //
-            // Note: No longer supported by the reference...
-            //       (<find the version that did. Or use
-            //         a different one>.)
-            //
-            // Alternative URLs:
-            //
-            //   <https://github.com/joewing/jwm>
-            //   <https://joewing.net/projects/jwm/>
-            //
-            correctionAdd("Joe's Window Manager", "JWM");
-            correctionAdd("jwm", "JWM");
-
-            // Linux. A window manager.
-            correctionAdd("matchbox", "Matchbox");
-
-            // Linux, GUI. A stand-alone compositing window manager.
-            // Not the physicist...
-            correctionAdd("compton", "Compton");
-
-            // Linux, GUI. A display manager.
-            correctionAdd("lightdm", "LightDM");
-            correctionAdd("Lightdm", "LightDM");
-
-            // An X Window tiling window manager
-            // Remapping.
-            //
-            // Not to be confused with the software
-            // keyboard remapper 'KMonad'
-            //
-            correctionAdd("xmonad", "XMonad");
-            correctionAdd("Xmonad", "XMonad");
-
-            // An X Window tiling window manager, similar to XMonad
-            correctionAdd("stumpwm", "StumpWM");
-
-            // An X Window tiling window manager, similar to XMonad
-            correctionAdd("larswm", "Larswm");
-
-            // A tiling window manager for Windows
-            //
-            // Alternative URLs:
-            //
-            //   <https://github.com/glzr-io/glazewm>
-            //
-            correctionAdd("glazewm", "GlazeWM");
-
-            // Linux. A window manager
-            correctionAdd("fluxbox", "Fluxbox");
-
-            correctionAdd("web-flux", "WebFlux");
-            correctionAdd("Webflux", "WebFlux");
-            correctionAdd("webflux", "WebFlux");
-
-            // Linux: X11 / X Window
-            //
-            // Not to be confused with "Zephyr" (an RTOS)
-            //
-            correctionAdd("xephyr", "Xephyr");
 
             // A system monitoring tool on Linux
             correctionAdd("VMSTAT", "vmstat"); // The corresponding 'man' page is <https://linux.die.net/man/8/vmstat>.
@@ -17216,13 +17219,16 @@ namespace OverflowHelper.core
             correctionAdd("/home/.bashrc", "$HOME/.bashrc file");
             correctionAdd("$home/.bashrc", "$HOME/.bashrc file");
             correctionAdd(".bashrc file", "$HOME/.bashrc file");
+            correctionAdd("~/.bashrec", "$HOME/.bashrc file");
             correctionAdd("~/.bashrc", "$HOME/.bashrc file");
             correctionAdd(".bash_rc", "$HOME/.bashrc file");
             correctionAdd(".bashrcs", "$HOME/.bashrc file");
             correctionAdd("/.bashrc", "$HOME/.bashrc file");
+            correctionAdd(".bashrec", "$HOME/.bashrc file");
             correctionAdd(".bashrc", "$HOME/.bashrc file");
             correctionAdd("bash_rc", "$HOME/.bashrc file");
             correctionAdd(".bachrc", "$HOME/.bashrc file");
+            correctionAdd("bashrec", "$HOME/.bashrc file");
             correctionAdd("bashrc", "$HOME/.bashrc file");
 
             // Bash. Linux.
@@ -35860,6 +35866,7 @@ namespace OverflowHelper.core
             correctionAdd("conntected", "connected");
             correctionAdd("connectet", "connected");
             correctionAdd("confected", "connected");
+            correctionAdd("connectes", "connected"); // A true typo
             correctionAdd("conectet", "connected");
             correctionAdd("conected", "connected");
             correctionAdd("conneted", "connected");
@@ -42595,6 +42602,7 @@ namespace OverflowHelper.core
             correctionAdd("Capcitors", "capacitors"); // Not 100% correct - case.
             correctionAdd("capcitors", "capacitors");
             correctionAdd("caps", "capacitors");
+            correctionAdd("Caps", "capacitors");
 
             // Electronics
             correctionAdd("Capacitance", "capacitance");
@@ -84650,6 +84658,8 @@ namespace OverflowHelper.core
             //   * The 70% comes from the five
             //     macro keys on the left...
             //
+            //     Or four macro keys??
+            //
             //   * Not to be confused with Q65...
             //
             //   * Q65 Max isn't a typo of Q6 Max...
@@ -87429,6 +87439,12 @@ namespace OverflowHelper.core
             // between them)):
             //
             //   <https://www.keychron.com/products/keychron-q3-max-qmk-via-wireless-custom-mechanical-keyboard>
+            //
+            // Notes:
+            //
+            //  * It is very different from the Q3 Pro (which has five
+            //    macro keys and a knob on the left)! Or is it due to
+            //    the Special Edition of the Q3 Pro?
             //
             // Q3 Max user manual:
             //
@@ -95481,6 +95497,7 @@ namespace OverflowHelper.core
             correctionAdd("ocasional", "occasional");
 
             correctionAdd("occassionally", "occasionally");
+            correctionAdd("occasionnally", "occasionally");
             correctionAdd("occationally", "occasionally");
             correctionAdd("ocassionally", "occasionally");
             correctionAdd("occisionally", "occasionally");
@@ -104886,8 +104903,6 @@ namespace OverflowHelper.core
 
             correctionAdd("quandry", "quandary");
 
-            correctionAdd("leftwm", "LeftWM");
-
             correctionAdd("aeolian", "Aeolian mode");
             correctionAdd("Aeolian", "Aeolian mode");
 
@@ -105965,6 +105980,8 @@ namespace OverflowHelper.core
 
             correctionAdd("kiosk", "kiosk software");
 
+            correctionAdd("P3DOPHILE", "pedophile");
+            correctionAdd("p3dophile", "pedophile");
             correctionAdd("paedo", "pedophile");
             correctionAdd("Pedo", "pedophile");
             correctionAdd("pedo", "pedophile");
@@ -155003,6 +155020,7 @@ namespace OverflowHelper.core
             //   <https://github.com/qmk/qmk_firmware/blob/master/keyboards/keychron/q65>
             //
             correctionAdd("Q65_", "Keychron Q65_");
+            correctionAdd("q65_", "Keychron Q65_");
 
             // A 77-key (75%. Not true TKL) crippled low-profile
             // wired and wireless (both Bluetooth and '2.4 GHz')
@@ -175171,7 +175189,7 @@ namespace OverflowHelper.core
             // The verb
             correctionAdd("mays___", "may___");
             correctionAdd("mat___", "may___");
-            correctionAdd("msy___", "may___");
+            correctionAdd("msy___", "may___"); // A true typo
             correctionAdd("my___", "may___");
 
             // Entirely dependent on context.
