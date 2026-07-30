@@ -7373,6 +7373,7 @@ namespace OverflowHelper.core
             correctionAdd("Even", "even");
             correctionAdd("evan", "even");
             correctionAdd("evem", "even");
+            correctionAdd("evdn", "even"); // A true typo
 
             // A Mac spreadsheet program
             correctionAdd("numbers", "Numbers");
@@ -10853,11 +10854,22 @@ namespace OverflowHelper.core
             //   <https://meta.stackoverflow.com/tags/open-ended-questions/info>
             //
             correctionAdd("opinion-based questions", "opinion-based content");
+            correctionAdd("opinion based question", "opinion-based content");
+            correctionAdd("opinion-based question", "opinion-based content");
             correctionAdd("Opinion Based Content", "opinion-based content");
             correctionAdd("opinion based content", "opinion-based content");
-            correctionAdd("open-ended content", "opinion-based content"); // May not be 100% corroct
+            correctionAdd("open-ended content", "opinion-based content");
             correctionAdd("OBC", "opinion-based content");
-            correctionAdd("OEQ", "opinion-based content"); // May not be 100% corroct
+
+            // Stack Overflow / Stack Exchange
+            //
+            correctionAdd("Open-Ended Question", "open-ended question");
+            correctionAdd("Open Ended Question", "open-ended question");
+            correctionAdd("open ended question", "open-ended question");
+            correctionAdd("Open Ended Content", "open-ended question");
+            correctionAdd("Open-Ended Content", "open-ended question");
+            correctionAdd("open ended content", "open-ended question");
+            correctionAdd("OEQ", "open-ended question");
 
             // Famously used to describe the "Facebook-Stack Overflow partnership"
             // Along with "truck loads"
@@ -13167,8 +13179,15 @@ namespace OverflowHelper.core
             correctionAdd("Bioinformatics", "bioinformatics");
             correctionAdd("biofornamtics", "bioinformatics");
 
+            // Genomic and epigenomic technique to
+            // capture chromatin conformation
+            correctionAdd("hi-c", "Hi-C");
+
             // Molecular biology. DNA.
             correctionAdd("dna", "DNA");
+
+            // Molecular biology. DNA.
+            correctionAdd("chromsome", "chromosome");
 
             // Molecular biology. DNA.
             correctionAdd("gc content", "GC-content");
@@ -51305,6 +51324,15 @@ namespace OverflowHelper.core
             correctionAdd("Yw", "you’re welcome");
             correctionAdd("yw", "you’re welcome");
 
+            correctionAdd("mutch", "much");
+            correctionAdd("musch", "much");
+            correctionAdd("mush", "much");
+            correctionAdd("mich", "much"); // A true typo
+
+            correctionAdd("sm", "so much");
+
+            correctionAdd("mooshed", "mushed");
+
             correctionAdd("Tank you very much", "thank you very much");
             correctionAdd("tank you very much", "thank you very much");
             correctionAdd("Thank you ery much", "thank you very much");
@@ -52652,9 +52680,11 @@ namespace OverflowHelper.core
             correctionAdd("uservoice", "UserVoice");
 
             correctionAdd("conecern", "concern");
+            correctionAdd("consern", "concern");
             correctionAdd("conern", "concern");
 
             correctionAdd("concernes", "concerns");
+            correctionAdd("conserns", "concerns");
 
             correctionAdd("conserning", "concerning");
 
@@ -68473,14 +68503,6 @@ namespace OverflowHelper.core
 
             correctionAdd("sand bagging", "sandbagging");
 
-            correctionAdd("mutch", "much");
-            correctionAdd("musch", "much");
-            correctionAdd("mush", "much");
-
-            correctionAdd("sm", "so much");
-
-            correctionAdd("mooshed", "mushed");
-
             correctionAdd("roll up the sleeves", "roll up your sleeves");
 
             // Idiomatic
@@ -71305,6 +71327,9 @@ namespace OverflowHelper.core
             correctionAdd("droid4x", "Droid4X"); // Android. An emulator.
             correctionAdd("Droid", "Droid4X");
 
+            // A discontinued operating system for Android mobile phones
+            correctionAdd("miui", "MIUI");
+
             // Android / Python
             correctionAdd("Pydroïd", "Pydroid");
 
@@ -71377,6 +71402,9 @@ namespace OverflowHelper.core
 
             // An Android smartphone
             correctionAdd("google pixel", "Google Pixel");
+
+            // An Android smartphone
+            correctionAdd("Redmi note 3", "Redmi Note 3");
 
             // An Android smartphone
             correctionAdd("redmi note 9 pro", "Redmi Note 9 Pro");
@@ -74209,6 +74237,7 @@ namespace OverflowHelper.core
             correctionAdd("Aussie", "Australia");
             correctionAdd("Ozzy", "Australia");
             correctionAdd("aus", "Australia");
+            correctionAdd("Aus", "Australia");
             correctionAdd("Oz", "Australia");
             correctionAdd("OZ", "Australia");
 
@@ -78060,6 +78089,7 @@ namespace OverflowHelper.core
             correctionAdd("inadverently", "inadvertently");
             correctionAdd("inadvertenly", "inadvertently");
             correctionAdd("inadvetently", "inadvertently");
+            correctionAdd("inadertently", "inadvertently");
             correctionAdd("invertently", "inadvertently");
             correctionAdd("inasdvertly", "inadvertently");
             correctionAdd("inadvertly", "inadvertently");
@@ -79597,7 +79627,10 @@ namespace OverflowHelper.core
             correctionAdd("Emperically", "empirically");
             correctionAdd("Empirically", "empirically");
 
+            correctionAdd("Full-Screen", "full screen");
+            correctionAdd("full-screen", "full screen");
             correctionAdd("fullscreen", "full screen");
+            correctionAdd("FullScreen", "full screen");
 
             correctionAdd("screenfull", "screenful");
 
@@ -80099,6 +80132,8 @@ namespace OverflowHelper.core
             correctionAdd("alternatavely", "alternatively");
             correctionAdd("Aternativelly", "alternatively");
             correctionAdd("aternativelly", "alternatively");
+            correctionAdd("Alternativily", "alternatively");
+            correctionAdd("alternativily", "alternatively");
             correctionAdd("alteratively", "alternatively");
             correctionAdd("Alteratively", "alternatively");
             correctionAdd("alernatively", "alternatively");
@@ -80700,6 +80735,7 @@ namespace OverflowHelper.core
             correctionAdd("insetad", "instead");
             correctionAdd("Instaed", "instead");
             correctionAdd("instand", "instead");
+            correctionAdd("insyead", "instead"); // A true typo
             correctionAdd("Insted", "instead");
             correctionAdd("insted", "instead");
             correctionAdd("intead", "instead");
@@ -81598,6 +81634,7 @@ namespace OverflowHelper.core
             correctionAdd("restful", "RESTful");
             correctionAdd("RESTFUL", "RESTful");
             correctionAdd("RestFul", "RESTful");
+            correctionAdd("RESTFul", "RESTful");
 
             correctionAdd("REST-API", "REST API");
             correctionAdd("rest-api", "REST API");
@@ -94058,6 +94095,7 @@ namespace OverflowHelper.core
             correctionAdd("Tgose", "those");
             correctionAdd("tgose", "those");
             correctionAdd("thoes", "those");
+            correctionAdd("thoe", "those");
 
             correctionAdd("asides from that", "besides that");
             correctionAdd("Asides from that", "besides that");
@@ -108123,6 +108161,8 @@ namespace OverflowHelper.core
             URL_Add("Commodore 64", "https://en.wikipedia.org/wiki/Commodore_64");
 
             URL_Add("DNA", "https://en.wikipedia.org/wiki/DNA");
+
+            URL_Add("chromosome", "https://en.wikipedia.org/wiki/Chromosome");
 
             URL_Add("DevOps", "https://en.wikipedia.org/wiki/DevOps");
 
@@ -137644,8 +137684,6 @@ namespace OverflowHelper.core
 
             URL_Add("Nernst equation", "https://en.wikipedia.org/wiki/Nernst_equation");
 
-            URL_Add("opinion-based content", "https://meta.stackoverflow.com/questions/435293/opinion-based-questions-alpha-experiment-on-stack-overflow");
-
             URL_Add("triflic acid", "https://en.wikipedia.org/wiki/Triflic_acid");
 
             URL_Add("electromagnetism", "https://en.wiktionary.org/wiki/electromagnetism#Noun");
@@ -139788,6 +139826,10 @@ namespace OverflowHelper.core
             URL_Add("Android Studio Ladybug (2024.2.1)", "https://developer.android.com/studio/releases/past-releases/as-ladybug-release-notes");
 
             URL_Add("Android Studio 4.2 (Arctic Fox)", "https://en.wikipedia.org/wiki/Android_Studio#Version_history");
+
+            URL_Add("MIUI", "https://en.wikipedia.org/wiki/MIUI");
+
+            URL_Add("ADB", "https://en.wikipedia.org/wiki/Android_software_development#Android_Debug_Bridge_(ADB)"); // Old: <https://en.wikipedia.org/wiki/Android_Debug_Bridge#Android_Debug_Bridge>
 
             URL_Add("Droid4X", "https://droid4x.en.lo4d.com/windows");
 
@@ -144942,8 +144984,6 @@ namespace OverflowHelper.core
 
             URL_Add("Serial Wire JTAG", "https://en.wikipedia.org/wiki/ARM_architecture_family#Debug_Access_Port");
 
-            URL_Add("ADB", "https://en.wikipedia.org/wiki/Android_software_development#Android_Debug_Bridge_(ADB)"); // Old: <https://en.wikipedia.org/wiki/Android_Debug_Bridge#Android_Debug_Bridge>
-
             URL_Add("Dr. Watson", "https://en.wikipedia.org/wiki/Dr._Watson_(debugger)");
 
             URL_Add("Spy++", "https://docs.microsoft.com/en-us/visualstudio/debugger/introducing-spy-increment?view=vs-2022");
@@ -147222,6 +147262,8 @@ namespace OverflowHelper.core
 
             URL_Add("ReDoS", "https://en.wikipedia.org/wiki/ReDoS");
 
+            URL_Add("Redmi Note 3", "https://en.wikipedia.org/wiki/Redmi_Note_3");
+
             URL_Add("Redmi Note 9 Pro", "https://en.wikipedia.org/wiki/Redmi_Note_9");
 
             URL_Add("Reddit", "https://en.wikipedia.org/wiki/Reddit");
@@ -148275,6 +148317,12 @@ namespace OverflowHelper.core
             URL_Add("customary", "https://en.wiktionary.org/wiki/customary#Adjective");
 
             URL_Add("customer", "https://en.wiktionary.org/wiki/customer#Noun");
+
+            URL_Add("Hi-C", "https://en.wikipedia.org/wiki/Hi-C_(genomic_analysis_technique)");
+
+            URL_Add("opinion-based content", "https://meta.stackoverflow.com/questions/435293/opinion-based-questions-alpha-experiment-on-stack-overflow");
+
+            URL_Add("open-ended question", "https://meta.stackoverflow.com/questions/440243/opinion-based-content-is-migrating-to-the-standard-qa-format");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -163661,6 +163709,7 @@ namespace OverflowHelper.core
             // The verb
             correctionAdd("blonk_", "blink_");
 
+            correctionAdd("refererred_", "referred_");
             correctionAdd("Referrred_", "referred_");
             correctionAdd("referrred_", "referred_");
             correctionAdd("reffered_", "referred_");
@@ -178286,6 +178335,7 @@ namespace OverflowHelper.core
             correctionAdd("do____", "so____");
             correctionAdd("os____", "so____");
             correctionAdd("sp____", "so____");
+            correctionAdd("ao____", "so____"); // A true typo
             correctionAdd("s____", "so____");
             correctionAdd("S____", "so____");
 
