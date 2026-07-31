@@ -5659,12 +5659,6 @@ namespace OverflowHelper.core
             // A CPU. Is Ryzen 7.
             correctionAdd("5800H", "Ryzen 5800H");
 
-            correctionAdd("daughter board", "daughterboard");
-            correctionAdd("Daughter Board", "daughterboard");
-            correctionAdd("daughter PCB", "daughterboard");
-            correctionAdd("daughtercard", "daughterboard");
-            correctionAdd("child-board", "daughterboard");
-
             // Note: "motherboard" is in an alternative word set
             correctionAdd("mobos", "motherboards");
 
@@ -20811,6 +20805,9 @@ namespace OverflowHelper.core
             correctionAdd("conflictas", "conflicts");
             correctionAdd("complicit", "conflicts"); // Likely due to autocorrect
             correctionAdd("confilcts", "conflicts"); // A true typo
+            correctionAdd("Conclicts", "conflicts"); // A true typo
+            correctionAdd("Conflicts", "conflicts");
+            correctionAdd("conclicts", "conflicts"); // A true typo
 
             correctionAdd("confliciting", "conflicting");
 
@@ -22654,6 +22651,7 @@ namespace OverflowHelper.core
             correctionAdd("coul", "could");
             correctionAdd("coud", "could");
             correctionAdd("Coul", "could");
+            correctionAdd("cud", "could");
 
             correctionAdd("coulden't", "couldn’t");
             correctionAdd("coudln't", "couldn’t");
@@ -25419,9 +25417,6 @@ namespace OverflowHelper.core
             // A computer game
             correctionAdd("Quake 3", "Quake III Arena");
             correctionAdd("Quake-3", "Quake III Arena");
-
-            // A computer game
-            correctionAdd("fortnite", "Fortnite");
 
             // A computer game (or rather a series of games)
             //
@@ -32758,6 +32753,8 @@ namespace OverflowHelper.core
             correctionAdd("Ver", "version");
             correctionAdd("ver", "version");
 
+            correctionAdd("versionning", "versioning");
+
             correctionAdd("multi-version", "multiversion");
 
             correctionAdd("Version Control", "version control system");
@@ -33229,6 +33226,9 @@ namespace OverflowHelper.core
             //
             //     <https://github.com/microsoft/vscode/wiki/Submitting-Bugs-and-Suggestions>
             //       A guide for submitting an issue
+            //
+            //   <https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf>
+            //     Visual Studio Code. Keyboard shortcuts for Windows.
             //
             correctionAdd("Visusal Studio Code", "Visual Studio Code");
             correctionAdd("visual studios code", "Visual Studio Code");
@@ -34056,6 +34056,9 @@ namespace OverflowHelper.core
             correctionAdd("pesudocode", "pseudocode");
             correctionAdd("psudocode", "pseudocode");
             correctionAdd("pseudyo", "pseudocode"); // Not exact, no "code" in the input
+
+            // Interprets pseudocode in Spanish, Portuguese, and English
+            correctionAdd("pseint", "PSeInt");
 
             correctionAdd("Freecodecamp.com", "freeCodeCamp");
             correctionAdd("Freecodecamp.org", "freeCodeCamp");
@@ -35973,6 +35976,7 @@ namespace OverflowHelper.core
             correctionAdd("coexistense", "coexistence");
 
             correctionAdd("phonne", "phone");
+            correctionAdd("‘phone", "phone");
             correctionAdd("Phone", "phone");
             correctionAdd("phon", "phone");
 
@@ -42795,8 +42799,15 @@ namespace OverflowHelper.core
             correctionAdd("pci", "PCB"); // An autocorrect "masterpiece"?
             correctionAdd("PCV", "PCB");
             correctionAdd("PBC", "PCB");
+            correctionAdd("PCF", "PCB"); // Likely a true typo
 
             correctionAdd("breakoutboard", "breakout board");
+
+            correctionAdd("daughter board", "daughterboard");
+            correctionAdd("Daughter Board", "daughterboard");
+            correctionAdd("daughter PCB", "daughterboard");
+            correctionAdd("daughtercard", "daughterboard");
+            correctionAdd("child-board", "daughterboard");
 
             // PCB. Electronics
             //
@@ -43099,11 +43110,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Fiber", "fiber");
 
-            correctionAdd("Photonic Crystal fibres", "photonic-crystal fiber");
-            correctionAdd("Photonic Crystal fibre", "photonic-crystal fiber");
-            correctionAdd("photonic crystal fibre", "photonic-crystal fiber");
-            correctionAdd("PCF", "photonic-crystal fiber");
-
             correctionAdd("fiber optic cable", "fiber-optic cable");
 
             // Alternative URLs:
@@ -43237,6 +43243,10 @@ namespace OverflowHelper.core
             // Electronics
             //
             // Sample sensors: SS49E and DRV5056
+            //
+            // Keychron K HE and Q HE series:
+            //
+            //   South pole facing downward (uncommon)
             //
             correctionAdd("Hall Effect Switches", "Hall sensor");
             correctionAdd("Hall effect switches", "Hall sensor");
@@ -46854,9 +46864,6 @@ namespace OverflowHelper.core
             correctionAdd("borlandC++", "C++Builder");
             correctionAdd("Borland C", "C++Builder");
 
-            correctionAdd("Objective-c++", "Objective-C++");
-            correctionAdd("Objective C++", "Objective-C++");
-
             correctionAdd("Digital Mars C/C++ compiler", "Digital Mars C/C++ Compiler");
 
             // For embedded systems
@@ -49609,6 +49616,9 @@ namespace OverflowHelper.core
             correctionAdd("Hoc", "higher-order component");
             correctionAdd("HOC", "higher-order component");
 
+            correctionAdd("User Defined Function", "user-defined function");
+            correctionAdd("user defined function", "user-defined function");
+            correctionAdd("User Defined Funtion", "user-defined function");
             correctionAdd("UDF", "user-defined function");
 
             correctionAdd("function-names", "function names");
@@ -67658,6 +67668,10 @@ namespace OverflowHelper.core
             correctionAdd("objC", "Objective-C");
             correctionAdd("Objc", "Objective-C");
 
+            correctionAdd("Objective-c++", "Objective-C++");
+            correctionAdd("Objective C++", "Objective-C++");
+            correctionAdd("Obj-C++", "Objective-C++");
+
             // A programming language
             correctionAdd("swift", "Swift");
             correctionAdd("SWIFT", "Swift");
@@ -82182,6 +82196,14 @@ namespace OverflowHelper.core
             // A 34-key (30%) wired-only QMK/Via-capable
             // macro pad/game pad without a knob.
             //
+            // Notes:
+            //
+            //   * K HE and Q HE series:
+            //
+            //     south pole facing downward (uncommon)
+            //
+            //     What about the C0 HE series??
+            //
             correctionAdd("Keychron C0 HE 8K (30%) (proprietary keyboard firmware, not open source)", "Keychron&nbsp;C0&nbsp;HE&nbsp;8K (30%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
             correctionAdd("Keychron&nbsp;C0&nbsp;HE&nbsp;8K", "Keychron&nbsp;C0&nbsp;HE&nbsp;8K (30%) (proprietary keyboard firmware, not open source)");
             correctionAdd("C0&nbsp;HE&nbsp;8K", "Keychron&nbsp;C0&nbsp;HE&nbsp;8K (30%) (proprietary keyboard firmware, not open source)");
@@ -82199,6 +82221,14 @@ namespace OverflowHelper.core
             // Thomas' review:
             //
             //   <https://www.youtube.com/watch?v=9CPyrfRHsO0>
+            //
+            // Notes:
+            //
+            //   * K HE and Q HE series:
+            //
+            //     south pole facing downward (uncommon)
+            //
+            //     What about the L0 HE series??
             //
             correctionAdd("Lemokey L0 HE", "Lemokey&nbsp;L0&nbsp;HE"); // Sort of identity mapping
             correctionAdd("L0&nbsp;HE", "Lemokey&nbsp;L0&nbsp;HE");
@@ -83202,6 +83232,12 @@ namespace OverflowHelper.core
             //
             // With Hall sensor (HE) switches (there isn't a Q4 Max).
             //
+            // Notes:
+            //
+            //   * K HE and Q HE series:
+            //
+            //     South pole facing downward (uncommon)
+            //
             correctionAdd("Keychron Q4 HE", "Keychron&nbsp;Q4&nbsp;HE"); // Sort of identity mapping
             correctionAdd("Q4&nbsp;HE", "Keychron&nbsp;Q4&nbsp;HE");
             correctionAdd("Q4 HE", "Keychron&nbsp;Q4&nbsp;HE");
@@ -83218,6 +83254,7 @@ namespace OverflowHelper.core
             //
             //   * It has five layers, one shared by Windows
             //     and Mac (Fn1, layer 4)
+            //
             //   * The layers are not in the usual order seen
             //     on most other Keychron keyboards
             //
@@ -83697,6 +83734,14 @@ namespace OverflowHelper.core
             //
             //   <https://www.lemokey.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard>
             //
+            // Notes:
+            //
+            //   * K HE and Q HE series:
+            //
+            //     South pole facing downward (uncommon)
+            //
+            //     What about the P HE series???
+            //
             correctionAdd("Lemokey P2 HE", "Keychron Lemokey P2 HE");
             correctionAdd("P2 HE", "Keychron Lemokey P2 HE");
             correctionAdd("p2 he", "Keychron Lemokey P2 HE");
@@ -83873,6 +83918,12 @@ namespace OverflowHelper.core
             //
             // With Hall sensor (HE) switches.
             //
+            // Notes:
+            //
+            //   * K HE and Q HE series:
+            //
+            //     South pole facing downward (uncommon)
+            //
             correctionAdd("Keychron&nbsp;Q2&nbsp;HE", "Keychron&nbsp;Q2&nbsp;HE (65%)");
             correctionAdd("Keychron Q2 HE (65%)", "Keychron&nbsp;Q2&nbsp;HE (65%)"); // Sort of identity mapping
             correctionAdd("Keychron Q2 HE", "Keychron&nbsp;Q2&nbsp;HE (65%)"); // Sort of identity mapping
@@ -83883,6 +83934,14 @@ namespace OverflowHelper.core
             // A 67-key (65%. Not true TKL) severely crippled wired-only
             // closed source (but with Via support)
             // mechanical keyboard with a knob from Keychron.
+            //
+            // Notes:
+            //
+            //   * K HE and Q HE series:
+            //
+            //     South pole facing downward (uncommon)
+            //
+            //     What about the Q HE 8K series???
             //
             correctionAdd("Keychron Q2 HE 8K (65%) (proprietary keyboard firmware, not open source)", "Keychron&nbsp;Q2&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
             correctionAdd("Q2 HE 8K", "Keychron&nbsp;Q2&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)");
@@ -84465,6 +84524,10 @@ namespace OverflowHelper.core
             //
             //   2. Hall sensor (HE) switches.
             //
+            //   3 K HE and Q HE series:
+            //
+            //     South pole facing downward (uncommon)
+            //
             // K6 HE default keymap ('ANSI'):
             //
             //   <https://github.com/Keychron/qmk_firmware/blob/hall_effect_playground/keyboards/keychron/k6_he/ansi/keymaps/via/keymap.c#L47>
@@ -84677,6 +84740,14 @@ namespace OverflowHelper.core
             // mechanical keyboard with a knob from
             // Keychron.
             //
+            // Notes:
+            //
+            //   * K HE and Q HE series:
+            //
+            //     South pole facing downward (uncommon)
+            //
+            //     What about the Q HE 8K series???
+            //
             // Q16 HE 8K user manual:
             //
             //   <https://www.keychron.com/pages/keychron-q16-he-8k-user-manual>
@@ -84691,7 +84762,7 @@ namespace OverflowHelper.core
             // A 72-key (70%. Not true TKL) severely crippled wired
             // and wireless (both Bluetooth and '2.4 GHz')
             // QMK/Via-capable mechanical keyboard from
-            // Keychron with five dedicated physical
+            // Keychron with four dedicated physical
             // macro keys and with a knob.
             //
             // RGB (per-key) south-facing (unwanted light bleed) lighting.
@@ -85423,6 +85494,12 @@ namespace OverflowHelper.core
             //
             //   * Wired-only
             //
+            //   * K HE and Q HE series:
+            //
+            //     South pole facing downward (uncommon)
+            //
+            //     What about the Q HE 8K series???
+            //
             // Q1 HE 8K user manual:
             //
             //   <https://www.keychron.com/pages/keychron-q1-he-8k-user-manual>
@@ -85920,6 +85997,12 @@ namespace OverflowHelper.core
             //     Unlike Lemokey P1 and Lemokey P1 Pro,
             //     which have south-facing LEDs.
             //
+            //   * K HE and Q HE series:
+            //
+            //     South pole facing downward (uncommon)
+            //
+            //     What about the P HE series???
+            //
             // List of P1 HE user guides:
             //
             //   <https://www.lemokey.com/pages/lemokey-p1-he-user-guide>
@@ -86002,6 +86085,12 @@ namespace OverflowHelper.core
             //     <https://www.reddit.com/r/Keychron/comments/1ktwmp8/comment/mty36mv/>
             //
             //   * Only the "Cyber" variant provides shine-through keycaps
+            //
+            //   * K HE and Q HE series:
+            //
+            //     South pole facing downward (uncommon)
+            //
+            //     What about the L HE series???
             //
             // Lemokey L5 HE 8K user manual:
             //
@@ -86132,6 +86221,14 @@ namespace OverflowHelper.core
             //
             // RGB (per-key) north-facing (***no*** unwanted light
             // bleed) lighting
+            //
+            // Notes:
+            //
+            //   * K HE and Q HE series:
+            //
+            //     South pole facing downward (uncommon)
+            //
+            //     What about the J HE 8K series???
             //
             // USB identity in flash mode:
             //
@@ -86474,6 +86571,14 @@ namespace OverflowHelper.core
             // Gateron switches.
             //
             // Like K3 V3, but with Hall sensor (HE) switches.
+            //
+            // Notes:
+            //
+            //   * K HE and Q HE series:
+            //
+            //     South pole facing downward (uncommon)
+            //
+            //     What about the P HE series???
             //
             correctionAdd("Keychron K3 HE", "Keychron&nbsp;K3&nbsp;HE"); // Sort of identity mappin
             correctionAdd("K3 HE", "Keychron&nbsp;K3&nbsp;HE");
@@ -87197,6 +87302,14 @@ namespace OverflowHelper.core
             // RGB (per-key) north-facing (***no*** unwanted light
             // bleed) lighting (by virtue of being low-profile).
             //
+            // Notes:
+            //
+            //   * K HE and Q HE series:
+            //
+            //     South pole facing downward (uncommon)
+            //
+            //     What about the L HE series???
+            //
             // L1 HE user manual:
             //
             //   <https://www.keychron.com/pages/keychron-q1-pro-user-manual>
@@ -87593,6 +87706,10 @@ namespace OverflowHelper.core
             //
             //     <https://www.keychron.com/products/keychron-q3-he-8k-magnetic-switch-keyboard>
             //
+            //   * K HE and Q HE series:
+            //
+            //     South pole facing downward (uncommon)
+            //
             // Q3 HE JSON files for Via:
             //
             //   <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-he-series-keyboards>
@@ -87666,6 +87783,14 @@ namespace OverflowHelper.core
             // Like Q3 Max, but with Hall sensor (HE) switches.
             //
             // Note: Closed source (neither QMK nor ZMK)
+            //
+            // Notes:
+            //
+            //   * K HE and Q HE series:
+            //
+            //     South pole facing downward (uncommon)
+            //
+            //     What about the Q HE 8K series???
             //
             correctionAdd("Keychron Q3 HE 8K (105%) (proprietary keyboard firmware, not open source)", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
             correctionAdd("Q3&nbsp;HE&nbsp;8K", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)");
@@ -88125,7 +88250,12 @@ namespace OverflowHelper.core
             //
             //   1. In contrast to the original, it has both Bluetooth
             //      and '2.4 GHz'.
+            //
             //   2. Hall sensor (HE) switches.
+            //
+            //   3. K HE and Q HE series:
+            //
+            //     South pole facing downward (uncommon)
             //
             // A list of K8 HE user guides:
             //
@@ -88205,6 +88335,12 @@ namespace OverflowHelper.core
             // Notes:
             //
             //   1. Hall sensor (HE) "switches"
+            //
+            //   2. K HE and Q HE series:
+            //
+            //      South pole facing downward (uncommon)
+            //
+            //      What about the P HE series???
             //
             correctionAdd("Keychron Lemokey P3 HE", "Keychron&nbsp;Lemokey&nbsp;P3&nbsp;HE"); // Sort of identity mapping
             correctionAdd("P3 HE", "Keychron&nbsp;Lemokey&nbsp;P3&nbsp;HE");
@@ -88389,6 +88525,8 @@ namespace OverflowHelper.core
             // QMK/Via-capable mechanical keyboard with
             // a knob and five dedicated physical
             // macro keys from Keychron.
+            //
+            // The reference is broken now...
             //
             // RGB (per-key) south-facing (unwanted
             // ***light bleed***) lighting.
@@ -88749,6 +88887,11 @@ namespace OverflowHelper.core
             //     (and in the premium Q series, thus the
             //     premium price). But see below.
             //
+            //   * It has five dedicated physical macro
+            //     keys to the left, M1-M5. And a knob.
+            //
+            //     Five macro keys. Left.
+            //
             //   * A Q11 Max is allegedly planned:
             //
             //       <https://www.reddit.com/r/Keychron/comments/1m4dwdx/comment/n4bcpvg/>
@@ -88783,6 +88926,15 @@ namespace OverflowHelper.core
             correctionAdd("Q11", "Keychron Q11");
             correctionAdd("q11", "Keychron Q11");
 
+            // A 90-key (85%. Not true TKL) crippled split wired-only
+            // ZMK-capable mechanical keyboard from Keychron
+            // with ***two knobs***.
+            //
+            //   * It has five dedicated physical macro
+            //     keys to the left, M1-M5. And a knob.
+            //
+            //     Five macro keys. Left.
+            //
             // Q11 Ultra 8K source code:
             //
             //   It has ***not*** been released as of 2026-07-28!
@@ -89645,6 +89797,10 @@ namespace OverflowHelper.core
             //
             //   2. Hall sensor (HE) switches.
             //
+            //   3. K HE and Q HE series:
+            //
+            //      South pole facing downward (uncommon)
+            //
             // K4 HE firmware:
             //
             //   <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-he-series-keyboards>
@@ -89886,6 +90042,10 @@ namespace OverflowHelper.core
             //     Q5 doesn't have a dedicated End key). See also notes
             //     there, near "The later variants".
             //
+            //   * K HE and Q HE series:
+            //
+            //     South pole facing downward (uncommon)
+            //
             // Q5 HE user manual:
             //
             //   <https://www.keychron.com/pages/keychron-q5-he-user-manual>
@@ -89949,6 +90109,7 @@ namespace OverflowHelper.core
             correctionAdd("Keychron Q5 Ultra 8K", "Keychron&nbsp;Q5&nbsp;Ultra&nbsp;8K"); // Sort of identity mapping
             correctionAdd("Q5 Ultra 8K", "Keychron&nbsp;Q5&nbsp;Ultra&nbsp;8K");
             correctionAdd("Q5 Ultra", "Keychron&nbsp;Q5&nbsp;Ultra&nbsp;8K");
+            correctionAdd("q5 ultra", "Keychron&nbsp;Q5&nbsp;Ultra&nbsp;8K");
 
             // A 103-key (100%. Not true TKL) crippled wired and
             // wireless (both Bluetooth and '2.4 GHz')
@@ -89987,6 +90148,12 @@ namespace OverflowHelper.core
             // mechanical keyboard with a knob from Keychron.
             //
             // Like Q12 Max, but with Hall sensor (HE) switches.
+            //
+            // Notes:
+            //
+            //   * K HE and Q HE series:
+            //
+            //     South pole facing downward (uncommon)
             //
             // Q12 HE user manual:
             //
@@ -90329,6 +90496,14 @@ namespace OverflowHelper.core
             //  * Is based on QMK (it is the Q Ultra 8K series, e.g.,
             //    Q6 Ultra 8K that is based on ZMK)  what????
             //
+            //    Probably not.
+            //
+            //   * K HE and Q HE series:
+            //
+            //     South pole facing downward (uncommon)
+            //
+            //     What about the C HE 8K series???
+            //
             // C4 HE 8K user manual:
             //
             //   <https://www.keychron.com/pages/keychron-c2-pro-user-manual>
@@ -90366,6 +90541,12 @@ namespace OverflowHelper.core
             // Notes:
             //
             //   * The SE edition does not have shine-through keycaps
+            //
+            // Notes:
+            //
+            //   * K HE and Q HE series:
+            //
+            //     South pole facing downward (uncommon)
             //
             // K10 HE user manual:
             //
@@ -91474,6 +91655,12 @@ namespace OverflowHelper.core
             //
             // Like Q6 Max, but with Hall sensor (HE) switches.
             //
+            // Notes:
+            //
+            //   * K HE and Q HE series:
+            //
+            //     South pole facing downward (uncommon)
+            //
             // Q6 HE user manual:
             //
             //   <https://www.keychron.com/pages/keychron-q6-he-user-manual>
@@ -91595,6 +91782,12 @@ namespace OverflowHelper.core
             //
             //   * The default USB polling rate is claimed
             //     to be 8 kHz in the manual
+            //
+            //   * K HE and Q HE series:
+            //
+            //     South pole facing downward (uncommon)
+            //
+            //     What about the Q HE 8K series???
             //
             // Q6 HE 8K user manual:
             //
@@ -98180,6 +98373,7 @@ namespace OverflowHelper.core
             correctionAdd("iOS 7", "iOS&nbsp;7");
             correctionAdd("iOS7", "iOS&nbsp;7");
 
+            correctionAdd("iOS 8.0", "iOS&nbsp;8");
             correctionAdd("iOS 8", "iOS&nbsp;8");
             correctionAdd("iOS8", "iOS&nbsp;8");
 
@@ -98202,6 +98396,10 @@ namespace OverflowHelper.core
             correctionAdd("ios 17", "iOS 17");
 
             correctionAdd("WatchOS", "watchOS");
+
+            // An operating system for the Apple TV
+            correctionAdd("Apple TV Software", "TvOS");
+            correctionAdd("tvos", "TvOS");
 
             // An Apple laptop series
             correctionAdd("ibook", "iBook");
@@ -108472,8 +108670,6 @@ namespace OverflowHelper.core
 
             URL_Add("Aptana Studio", "https://en.wikipedia.org/wiki/Aptana#Aptana_Studio");
 
-            URL_Add("Fortnite", "https://en.wikipedia.org/wiki/Fortnite");
-
             URL_Add("LXC", "https://en.wikipedia.org/wiki/LXC");
 
             URL_Add("appreciate", "https://en.wiktionary.org/wiki/appreciate#Verb");
@@ -112387,8 +112583,6 @@ namespace OverflowHelper.core
             URL_Add("recursive", "https://en.wiktionary.org/wiki/recursive#Adjective");
 
             URL_Add("traverse", "https://en.wiktionary.org/wiki/traverse#Verb");
-
-            URL_Add("versatile", "https://en.wiktionary.org/wiki/versatile#Adjective");
 
             URL_Add("Libavg", "https://pypi.org/project/libavg/");
 
@@ -132580,8 +132774,6 @@ namespace OverflowHelper.core
 
             URL_Add("oven-controlled crystal oscillator", "https://en.wikipedia.org/wiki/Crystal_oven");
 
-            URL_Add("photonic-crystal fiber", "https://en.wikipedia.org/wiki/Photonic-crystal_fiber");
-
             URL_Add("real-time clock", "https://en.wikipedia.org/wiki/Real-time_clock");
 
             URL_Add("CrystalDiskMark", "https://en.wikipedia.org/wiki/CrystalDiskMark");
@@ -146400,40 +146592,6 @@ namespace OverflowHelper.core
 
             URL_Add(".NET 3.5", "https://en.wikipedia.org/wiki/.NET_Framework_version_history#.NET_Framework_3.5");
 
-            URL_Add("semantic versioning", "https://semver.org/");
-
-            URL_Add("Versions", "https://www.versionsapp.com/"); // Old: <http://www.versionsapp.com/>
-
-            URL_Add("Ruby Version Manager", "https://en.wikipedia.org/wiki/Ruby_Version_Manager");
-
-            URL_Add("Team Foundation Version Control", "https://en.wikipedia.org/wiki/Azure_DevOps_Server#Team_Foundation_Version_Control");
-
-            URL_Add("Great Version Number Reset of 2024", "https://www.reddit.com/r/Keychron/comments/1gnx05r/comment/lwn1l6n/");
-
-            URL_Add("dependency injection", "https://en.wikipedia.org/wiki/Dependency_injection");
-
-            URL_Add("inversion of control", "https://en.wikipedia.org/wiki/Inversion_of_control");
-
-            URL_Add("dependency inversion principle", "https://en.wikipedia.org/wiki/Dependency_inversion_principle");
-
-            URL_Add("version control system", "https://en.wikipedia.org/wiki/Version_control"); // Old: https://en.wikipedia.org/wiki/Revision_control
-
-            URL_Add("distributed revision control", "https://en.wikipedia.org/wiki/Distributed_version_control");
-
-            URL_Add("Git (version control)", "https://en.wikipedia.org/wiki/Git"); // Old: https://en.wikipedia.org/wiki/Git_%28software%29
-
-            URL_Add("Git&nbsp;2.0", "https://en.wikipedia.org/w/index.php?title=Git&oldid=1188773830#Releases"); // Old: <https://en.wikipedia.org/wiki/Git#Releases[27][28]>
-
-            URL_Add("Git History", "https://github.com/pomber/git-history");
-
-            URL_Add("rewrite Git history", "https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History#_the_nuclear_option_filter_branch");
-
-            URL_Add("Git blame", "https://codingnomads.com/git-blame");
-
-            URL_Add("Git hooks", "https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks");
-
-            URL_Add("Git pre-commit hook", "https://stackoverflow.com/questions/26992576/how-to-make-a-git-pre-commit-code-check");
-
             URL_Add("Doxygen", "https://en.wikipedia.org/wiki/Doxygen");
 
             URL_Add("KDE", "https://en.wikipedia.org/wiki/KDE_Software_Compilation");
@@ -146661,8 +146819,6 @@ namespace OverflowHelper.core
             URL_Add("ODE", "https://en.wikipedia.org/wiki/Ordinary_differential_equation");
 
             URL_Add("PDE", "https://en.wikipedia.org/wiki/Partial_differential_equation");
-
-            URL_Add("version", "https://en.wiktionary.org/wiki/version#Noun");
 
             URL_Add("Mage", "https://learn.microsoft.com/en-us/previous-versions/dotnet/netframework-2.0/acz3y3te(v=vs.80)"); // Old: <http://msdn.microsoft.com/en-us/library/acz3y3te%28v=vs.80%29.aspx>
 
@@ -148323,6 +148479,50 @@ namespace OverflowHelper.core
             URL_Add("opinion-based content", "https://meta.stackoverflow.com/questions/435293/opinion-based-questions-alpha-experiment-on-stack-overflow");
 
             URL_Add("open-ended question", "https://meta.stackoverflow.com/questions/440243/opinion-based-content-is-migrating-to-the-standard-qa-format");
+
+            URL_Add("PSeInt", "https://en.wikipedia.org/wiki/PSeInt");
+
+            URL_Add("TvOS", "https://en.wikipedia.org/wiki/TvOS");
+
+            URL_Add("version", "https://en.wiktionary.org/wiki/version#Noun");
+
+            URL_Add("versioning", "https://en.wiktionary.org/wiki/versioning#Noun");
+
+            URL_Add("version control system", "https://en.wikipedia.org/wiki/Version_control"); // Old: https://en.wikipedia.org/wiki/Revision_control
+
+            URL_Add("semantic versioning", "https://semver.org/");
+
+            URL_Add("Versions", "https://www.versionsapp.com/"); // Old: <http://www.versionsapp.com/>
+
+            URL_Add("versatile", "https://en.wiktionary.org/wiki/versatile#Adjective");
+
+            URL_Add("Ruby Version Manager", "https://en.wikipedia.org/wiki/Ruby_Version_Manager");
+
+            URL_Add("Team Foundation Version Control", "https://en.wikipedia.org/wiki/Azure_DevOps_Server#Team_Foundation_Version_Control");
+
+            URL_Add("Great Version Number Reset of 2024", "https://www.reddit.com/r/Keychron/comments/1gnx05r/comment/lwn1l6n/");
+
+            URL_Add("dependency injection", "https://en.wikipedia.org/wiki/Dependency_injection");
+
+            URL_Add("inversion of control", "https://en.wikipedia.org/wiki/Inversion_of_control");
+
+            URL_Add("dependency inversion principle", "https://en.wikipedia.org/wiki/Dependency_inversion_principle");
+
+            URL_Add("distributed revision control", "https://en.wikipedia.org/wiki/Distributed_version_control");
+
+            URL_Add("Git (version control)", "https://en.wikipedia.org/wiki/Git"); // Old: https://en.wikipedia.org/wiki/Git_%28software%29
+
+            URL_Add("Git&nbsp;2.0", "https://en.wikipedia.org/w/index.php?title=Git&oldid=1188773830#Releases"); // Old: <https://en.wikipedia.org/wiki/Git#Releases[27][28]>
+
+            URL_Add("Git History", "https://github.com/pomber/git-history");
+
+            URL_Add("rewrite Git history", "https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History#_the_nuclear_option_filter_branch");
+
+            URL_Add("Git blame", "https://codingnomads.com/git-blame");
+
+            URL_Add("Git hooks", "https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks");
+
+            URL_Add("Git pre-commit hook", "https://stackoverflow.com/questions/26992576/how-to-make-a-git-pre-commit-code-check");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -154232,6 +154432,12 @@ namespace OverflowHelper.core
             // To both have an alternative word (as it may be used
             // in an abbr., like "HE") and an alternative URL.
             //
+            // Notes:
+            //
+            //   * Keychron K HE and Q HE series:
+            //
+            //       South pole facing downward (uncommon)
+            //
             correctionAdd("Hall sensor_", "Hall effect_");
             correctionAdd("Hall-effect_", "Hall effect_");
 
@@ -155052,7 +155258,7 @@ namespace OverflowHelper.core
 
             // A 76-key (70%. Not true TKL) severely crippled
             // wired-only QMK/Via-capable mechanical keyboard
-            // from Keychron with five dedicated physical
+            // from Keychron with four dedicated physical
             // macro keys and with a knob.
             //
             // Notes:
@@ -155211,13 +155417,19 @@ namespace OverflowHelper.core
             //
             //   <https://www.keychron.com/products/keychron-q1-he-qmk-wireless-custom-keyboard>
             //
-            // Note 1: Allegedly, only the space bar can
-            //         wake it up from sleep...
+            // Notes:
             //
-            // Note 2: Not to be confused with the original Q1
-            //         (now "Q1 V1"), "Q1 V2 SE" (confusingly,
-            //         a "Q1 V1" in disguise), "Q1 V2",
-            //         Q1 Pro, or Q1 Max.
+            //   1. Allegedly, only the space bar can
+            //      wake it up from sleep...
+            //
+            //   2. Not to be confused with the original Q1
+            //      (now "Q1 V1"), "Q1 V2 SE" (confusingly,
+            //      a "Q1 V1" in disguise), "Q1 V2",
+            //      Q1 Pro, or Q1 Max.
+            //
+            //   3. K HE and Q HE series:
+            //
+            //      South pole facing downward (uncommon)
             //
             // A list of Q1 HE user guides:
             //
@@ -155487,6 +155699,10 @@ namespace OverflowHelper.core
             //
             //        <https://www.keychron.com/products/keychron-k2-he-keyboard-and-m3-mouse-wireless-elite-bundle>
             //          Keychron K2 HE keyboard and M3 mouse wireless elite bundle
+            //
+            //   8. K HE and Q HE series:
+            //
+            //      South pole facing downward (uncommon)
             //
             // Alternative URLs:
             //
@@ -157600,16 +157816,17 @@ namespace OverflowHelper.core
             correctionAdd("MAC osx_", "Mac&nbsp;OS&nbsp;X_");
             correctionAdd("Mac OSX_", "Mac&nbsp;OS&nbsp;X_");
             correctionAdd("MaxOSX_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("mac os_", "Mac&nbsp;OS&nbsp;X_"); // Interpreting this as Mac OS X, not MacOS (System 7, etc.)
-            correctionAdd("MAC-OS_", "Mac&nbsp;OS&nbsp;X_");
             correctionAdd("MACOSX_", "Mac&nbsp;OS&nbsp;X_");
             correctionAdd("macosX_", "Mac&nbsp;OS&nbsp;X_");
             correctionAdd("MacOsX_", "Mac&nbsp;OS&nbsp;X_");
             correctionAdd("MacOSx_", "Mac&nbsp;OS&nbsp;X_");
             correctionAdd("macosx_", "Mac&nbsp;OS&nbsp;X_");
             correctionAdd("MacOSX_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("mac ox_", "Mac&nbsp;OS&nbsp;X_");
             correctionAdd("Macsox_", "Mac&nbsp;OS&nbsp;X_");
+            correctionAdd("macOSX_", "Mac&nbsp;OS&nbsp;X_");
+            correctionAdd("MAC-OS_", "Mac&nbsp;OS&nbsp;X_");
+            correctionAdd("mac os_", "Mac&nbsp;OS&nbsp;X_"); // Interpreting this as Mac OS X, not MacOS (System 7, etc.)
+            correctionAdd("mac ox_", "Mac&nbsp;OS&nbsp;X_");
             correctionAdd("MAC X_", "Mac&nbsp;OS&nbsp;X_");
             correctionAdd("macOS_", "Mac&nbsp;OS&nbsp;X_"); // Cross from the new
             correctionAdd("OS/X_", "Mac&nbsp;OS&nbsp;X_");
@@ -161479,11 +161696,6 @@ namespace OverflowHelper.core
             correctionAdd("webrtc_", "WebRTC (tag wiki)_");
             correctionAdd("WebRTC_", "WebRTC (tag wiki)_");
 
-            correctionAdd("[tag:objective-c]_", "Objective-C (tag wiki)_");
-            correctionAdd("tag:objective-c_", "Objective-C (tag wiki)_");
-            correctionAdd("objective-c_", "Objective-C (tag wiki)_");
-            correctionAdd("Objective-C_", "Objective-C (tag wiki)_");
-
             correctionAdd("[tag:amazon-web-services]_", "Amazon Web Services (tag wiki)_");
             correctionAdd("amazon-web-services_", "Amazon Web Services (tag wiki)_");
             correctionAdd("Amazon AWS_", "Amazon Web Services (tag wiki)_");
@@ -161764,6 +161976,11 @@ namespace OverflowHelper.core
             correctionAdd("tag:GraphQL_", "GraphQL (tag wiki)_");
             correctionAdd("graphql_", "GraphQL (tag wiki)_");
             correctionAdd("GraphQL_", "GraphQL (tag wiki)_");
+
+            correctionAdd("[tag:objective-c]_", "Objective-C (tag wiki)_");
+            correctionAdd("tag:objective-c_", "Objective-C (tag wiki)_");
+            correctionAdd("objective-c_", "Objective-C (tag wiki)_");
+            correctionAdd("Objective-C_", "Objective-C (tag wiki)_");
 
             //// Wrong URL... It should be:
             //
@@ -164283,6 +164500,11 @@ namespace OverflowHelper.core
             correctionAdd("Universal Naming Convention_", "UNC_");
             correctionAdd("unc_", "UNC_");
 
+            correctionAdd("Photonic Crystal fibres_", "photonic-crystal fiber_");
+            correctionAdd("Photonic Crystal fibre_", "photonic-crystal fiber_");
+            correctionAdd("photonic crystal fibre_", "photonic-crystal fiber_");
+            correctionAdd("PCF_", "photonic-crystal fiber_");
+
             // C. A book
             //
             // Authors: Brian Kernighan and Dennis Ritchie
@@ -164703,8 +164925,6 @@ namespace OverflowHelper.core
 
             URL_Add("Google Chrome DevTools (tag wiki)_", "https://stackoverflow.com/questions/tagged/google-chrome-devtools");
 
-            URL_Add("Objective-C (tag wiki)_", "https://stackoverflow.com/questions/tagged/objective-c");
-
             URL_Add("Spring Boot (tag wiki)_", "https://stackoverflow.com/questions/tagged/spring-boot");
 
             URL_Add("Amazon S3 (tag wiki)_", "https://stackoverflow.com/questions/tagged/amazon-s3");
@@ -164788,6 +165008,8 @@ namespace OverflowHelper.core
             URL_Add("csh (tag wiki)_", "https://stackoverflow.com/questions/tagged/csh");
 
             URL_Add("GraphQL (tag wiki)_", "https://stackoverflow.com/questions/tagged/graphql");
+
+            URL_Add("Objective-C (tag wiki)_", "https://stackoverflow.com/questions/tagged/objective-c");
 
             //URL_Add("Zephyr RTOS (tag wiki)_", "https://stackoverflow.com/questions/tagged/zephyr-rtos");
             //
@@ -168809,8 +169031,6 @@ namespace OverflowHelper.core
 
             URL_Add("KDE_", "https://en.wikipedia.org/wiki/Kernel_density_estimation");
 
-            URL_Add("versions_", "https://en.wiktionary.org/wiki/version#Noun");
-
             URL_Add("virtual Python environment_", "https://www.w3schools.com/python/python_virtualenv.asp");
 
             URL_Add("The Bluetooth version in the Keychron K Pro series keyboards is 2.0/2.1, not 5.1 as claimed_", "https://github.com/Keychron/qmk_firmware/issues/338#issuecomment-2564070299");
@@ -168914,6 +169134,10 @@ namespace OverflowHelper.core
             URL_Add("DES_", "https://en.wikipedia.org/wiki/Data_Encryption_Standard");
 
             URL_Add("CBC_", "https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#Cipher_block_chaining_(CBC)");
+
+            URL_Add("photonic-crystal fiber_", "https://en.wikipedia.org/wiki/Photonic-crystal_fiber");
+
+            URL_Add("versions_", "https://en.wiktionary.org/wiki/version#Noun");
 
         } //addLookupData_alternativeWordSet()
 
@@ -170311,6 +170535,12 @@ namespace OverflowHelper.core
             //
             // Singular version
             //
+            // Notes:
+            //
+            //   * Keychron K HE and Q HE series:
+            //
+            //     South pole facing downward (uncommon)
+            //
             // Alternative URLs:
             //
             //   <https://wooting.io/post/what-are-hall-effect-keyboard-switches>
@@ -170348,6 +170578,13 @@ namespace OverflowHelper.core
             correctionAdd("olkb__", "Planck OLKB__");
 
             // For the Kickstarter URL (2023/2024)
+            //
+            // Notes:
+            //
+            //   * K HE and Q HE series:
+            //
+            //     South pole facing downward (uncommon)
+            //
             correctionAdd("Keychron&nbsp;Q1&nbsp;HE__", "Keychron Q1 HE__");
             correctionAdd("HE Q1__", "Keychron Q1 HE__");
 
@@ -175545,7 +175782,16 @@ namespace OverflowHelper.core
             correctionAdd("AD___", "Active Directory___"); // Expansion.
 
             // A computer game
+            correctionAdd("fortnite___", "Fortnite___");
+            correctionAdd("FN___", "Fortnite___");
+            correctionAdd("Fn___", "Fortnite___");
+            correctionAdd("fn___", "Fortnite___");
+
+            // A computer game
             correctionAdd("DS___", "Dead Space___");
+
+            // A computer game (or rather series)
+            correctionAdd("AC___", "Assassin's Creed___");
 
             correctionAdd("Cyclic Prefix___", "cyclic prefix___");
             correctionAdd("CP___", "cyclic prefix___");
@@ -176114,6 +176360,12 @@ namespace OverflowHelper.core
             //
             // Plural version
             //
+            // Notes:
+            //
+            //   * Keychron K HE and Q HE series:
+            //
+            //     South pole facing downward (uncommon)
+            //
             // Alternative URLs:
             //
             //   <https://www.hlplanet.com/keyboards-hall-effect-switches/>
@@ -176660,6 +176912,12 @@ namespace OverflowHelper.core
 
             // A direct reference to a variant of the Keychron Q3 HE
             //
+            // Notes:
+            //
+            //   * K HE and Q HE series:
+            //
+            //     South pole facing downward (uncommon)
+            //
             // Alternative URLs:
             //
             //   <https://github.com/Keychron/qmk_firmware/blob/hall_effect_playground/keyboards/keychron/q3_he/ansi_encoder/info.json#L3>
@@ -177201,9 +177459,6 @@ namespace OverflowHelper.core
             // United States politics
             correctionAdd("PC___", "political correctness___");
 
-            // A computer game (or rather series)
-            correctionAdd("AC___", "Assassin's Creed___");
-
             correctionAdd("question___", "question (Indian English)___");
             correctionAdd("doubts___", "question (Indian English)___");
             correctionAdd("doubt___", "question (Indian English)___");
@@ -177632,8 +177887,6 @@ namespace OverflowHelper.core
 
             URL_Add("walled garden___", "https://en.wikipedia.org/wiki/Closed_platform");
 
-            URL_Add("Dead Space___", "https://en.wikipedia.org/wiki/Dead_Space#Main_series");
-
             URL_Add("comma-separated values___", "https://en.wikipedia.org/wiki/Comma-separated_values");
 
             URL_Add("Occam's razor___", "https://en.wikipedia.org/wiki/Occam's_razor");
@@ -177946,8 +178199,6 @@ namespace OverflowHelper.core
 
             URL_Add("where___", "https://www.wikihow.com/Use-Where,-Were-and-We're");
 
-            URL_Add("Assassin's Creed___", "https://en.wikipedia.org/wiki/Dead_Space#Main_series");
-
             URL_Add("differential___", "https://en.wiktionary.org/wiki/differential#Adjective");
 
             URL_Add("fuck___", "https://en.wiktionary.org/wiki/fuck#Verb");
@@ -178085,6 +178336,12 @@ namespace OverflowHelper.core
             URL_Add("number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___", "https://www.reddit.com/r/Keychron/comments/1ip03k0/comment/n52qr9o/");
 
             URL_Add("customer service___", "https://en.wikipedia.org/wiki/Customer_service");
+
+            URL_Add("Fortnite___", "https://en.wikipedia.org/wiki/Fortnite");
+
+            URL_Add("Dead Space___", "https://en.wikipedia.org/wiki/Dead_Space#Main_series");
+
+            URL_Add("Assassin's Creed___", "https://en.wikipedia.org/wiki/Dead_Space#Main_series");
 
         } //addLookupData_alternativeWordSet3()
 
@@ -178954,6 +179211,12 @@ namespace OverflowHelper.core
             // For the cross-reference to the default keymap
             // Note: In Git branch "hall_effect_playground"
             //
+            // Notes:
+            //
+            //   * K HE and Q HE series:
+            //
+            //     South pole facing downward (uncommon)
+            //
             correctionAdd("Keychron&nbsp;Q3&nbsp;HE (85%)____", "Keychron Q3 HE default keymap (ANSI RGB)____");
             correctionAdd("Q3 HE default keymap____", "Keychron Q3 HE default keymap (ANSI RGB)____");
             correctionAdd("Keychron Q3 HE____", "Keychron Q3 HE default keymap (ANSI RGB)____");
@@ -179098,6 +179361,16 @@ namespace OverflowHelper.core
             //     List of shortcuts in Keychron keyboards
             //
             // HE series information:
+            //
+            //   Keychron changed orientation:
+            //
+            //     * K HE and Q HE series:        south pole
+            //
+            //     * Q HE 8K series (wired only): north pole. But closed source code.
+            //
+            //     A reference:
+            //
+            //      <https://www.reddit.com/r/Keychron/comments/1syixet/comment/ojurnl4/>
             //
             //   Recalibration:
             //
