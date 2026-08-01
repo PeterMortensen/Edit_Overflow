@@ -8497,6 +8497,7 @@ namespace OverflowHelper.core
             correctionAdd("gbps", "&nbsp;Gbit/s"); // Different form of the unit.
             correctionAdd("Gbps", "&nbsp;Gbit/s");
             correctionAdd("Gbs", "&nbsp;Gbit/s");
+            correctionAdd("Gib", "&nbsp;Gbit/s");
 
             // A unit (rate)
             //
@@ -20348,6 +20349,360 @@ namespace OverflowHelper.core
             correctionAdd("loopback-4", "LoopBack 4");
             correctionAdd("loopback 4", "LoopBack 4");
 
+            correctionAdd("canncect", "connect");
+            correctionAdd("connnect", "connect");
+            correctionAdd("conncect", "connect");
+            correctionAdd("connecte", "connect");
+            correctionAdd("connecct", "connect");
+            correctionAdd("conenct", "connect");
+            correctionAdd("Connect", "connect");
+            correctionAdd("conncet", "connect"); // A true typo
+            correctionAdd("conect", "connect");
+            correctionAdd("cnnect", "connect");
+            correctionAdd("connet", "connect");
+            correctionAdd("connec", "connect");
+            correctionAdd("conct", "connect");
+
+            correctionAdd("connectec", "connects");
+            correctionAdd("Connnects", "connects");
+            correctionAdd("connnects", "connects");
+            correctionAdd("conects", "connects");
+
+            correctionAdd("conneting", "connecting");
+            correctionAdd("conncting", "connecting");
+            correctionAdd("conecting", "connecting");
+
+            correctionAdd("connecteed", "connected");
+            correctionAdd("cobnnected", "connected");
+            correctionAdd("conntected", "connected");
+            correctionAdd("connectet", "connected");
+            correctionAdd("confected", "connected");
+            correctionAdd("connectes", "connected"); // A true typo
+            correctionAdd("conectet", "connected");
+            correctionAdd("conected", "connected");
+            correctionAdd("conneted", "connected");
+            correctionAdd("CONNECTD", "connected");
+            correctionAdd("connectd", "connected");
+
+            correctionAdd("connnection", "connection");
+            correctionAdd("Conntection", "connection");
+            correctionAdd("Connection", "connection");
+            correctionAdd("connectoin", "connection");
+            correctionAdd("Conneciton", "connection");
+            correctionAdd("conneciton", "connection");
+            correctionAdd("conection", "connection");
+            correctionAdd("connexion", "connection");
+            correctionAdd("connectio", "connection");
+            correctionAdd("connction", "connection");
+
+            correctionAdd("conenctions", "connections");
+            correctionAdd("connexions", "connections");
+
+            correctionAdd("Connectivty", "connectivity");
+            correctionAdd("connectivty", "connectivity");
+            correctionAdd("connectity", "connectivity");
+            correctionAdd("connective", "connectivity");
+
+            correctionAdd("inter connected", "interconnected");
+
+            // The verb
+            correctionAdd("reconnnect", "reconnect");
+            correctionAdd("Reconnect", "reconnect");
+            correctionAdd("recconect", "reconnect");
+            correctionAdd("reconn", "reconnect");
+
+            correctionAdd("re-connections", "reconnections");
+
+            // The verb
+            correctionAdd("de connect", "disconnect");
+            correctionAdd("deconnect", "disconnect");
+            correctionAdd("de conect", "disconnect");
+            correctionAdd("unconnect", "disconnect");
+
+            // The verb
+            correctionAdd("DC's", "disconnects");
+
+            correctionAdd("disconneting", "disconnecting");
+            correctionAdd("disconecting", "disconnecting");
+
+            // The adjective
+            correctionAdd("dissconnected", "disconnected");
+            correctionAdd("disconnnected", "disconnected");
+            correctionAdd("Discon", "disconnected");
+            correctionAdd("discon", "disconnected");
+
+            correctionAdd("reccognize", "recognise");
+            correctionAdd("recoghnize", "recognise");
+            correctionAdd("recongnize", "recognise");
+            correctionAdd("recongnise", "recognise");
+            correctionAdd("recognize", "recognise");
+            correctionAdd("recogzine", "recognise");
+            correctionAdd("recoqnize", "recognise");
+            correctionAdd("regocnize", "recognise");
+            correctionAdd("regconize", "recognise");
+            correctionAdd("recegnise", "recognise");
+            correctionAdd("recegnize", "recognise");
+            correctionAdd("reqognize", "recognise");
+            correctionAdd("recgonise", "recognise"); // A true typo
+            correctionAdd("reconigze", "recognise");
+            correctionAdd("recongize", "recognise");
+            correctionAdd("recogize", "recognise");
+            correctionAdd("regonize", "recognise");
+            correctionAdd("reconize", "recognise");
+            correctionAdd("recgize", "recognise");
+            correctionAdd("recon", "recognise");
+
+            correctionAdd("recogonizing", "recognising");
+            correctionAdd("recognizing", "recognising");
+            correctionAdd("regognizing", "recognising");
+            correctionAdd("reconicing", "recognising");
+            correctionAdd("reconning", "recognising");
+
+            correctionAdd("recognizxed", "recognised"); // A true typo
+            correctionAdd("recognizzed", "recognised");
+            correctionAdd("recosnised", "recognised");
+            correctionAdd("recognized", "recognised");
+            correctionAdd("recognzied", "recognised"); // A true typo
+            correctionAdd("recongised", "recognised"); // A true typo
+            correctionAdd("recongized", "recognised");
+
+            correctionAdd("recognizable", "recognisable");
+
+            correctionAdd("recognizement", "recognition");
+            correctionAdd("regognition", "recognition");
+            correctionAdd("recognision", "recognition");
+
+            correctionAdd("Named Entity Recoginition", "named-entity recognition");
+            correctionAdd("Named Entity Recognition", "named-entity recognition");
+            correctionAdd("Named-Entity Eecognition", "named-entity recognition");
+            correctionAdd("Named Entity Eecognition", "named-entity recognition");
+            correctionAdd("NER", "named-entity recognition");
+
+            correctionAdd("selectes", "selects");
+            correctionAdd("seelcts", "selects");
+
+            correctionAdd("seleting", "selecting");
+
+            correctionAdd("seclected", "selected");
+            correctionAdd("sekected", "selected");
+            correctionAdd("seleted", "selected");
+
+            correctionAdd("selecteable", "selectable");
+
+            correctionAdd("un-select", "unselect");
+
+            correctionAdd("re-selected", "reselected");
+
+            correctionAdd("de-selected", "deselected");
+
+            correctionAdd("pre-select", "preselect");
+
+            correctionAdd("pre selected", "preselected");
+
+            correctionAdd("selecter", "selector");
+
+            correctionAdd("select2", "Select2");
+
+            // Parent URL: <https://en.wikipedia.org/wiki/List_of_cognitive_biases>
+            //
+            correctionAdd("Selection Bias", "selection bias");
+            correctionAdd("Selection bias", "selection bias");
+
+            // Parent URL: <https://en.wikipedia.org/wiki/List_of_cognitive_biases>
+            //
+            correctionAdd("survivership bias", "survivorship bias");
+            correctionAdd("survival bias", "survivorship bias");
+            correctionAdd("survivor bias", "survivorship bias");
+
+            correctionAdd("Confirmation Bias", "confirmation bias");
+            correctionAdd("Confirmation bias", "confirmation bias");
+
+            correctionAdd("re-confirm", "reconfirm");
+
+            correctionAdd("cowered", "coward");
+
+            correctionAdd("covor", "cover");
+
+            correctionAdd("cove", "covered");
+
+            correctionAdd("cover up", "cover-up");
+            correctionAdd("coverup", "cover-up");
+
+            correctionAdd("recovert", "recover");
+
+            correctionAdd("non-recoverable", "nonrecoverable");
+            correctionAdd("non recoverable", "nonrecoverable");
+
+            correctionAdd("unreconverable", "unrecoverable");
+
+            correctionAdd("dicovered", "discovered");
+            correctionAdd("discoverd", "discovered");
+            correctionAdd("disovered", "discovered");
+            correctionAdd("dig", "discovered");
+
+            correctionAdd("re-discover", "rediscover");
+
+            correctionAdd("re-discovered", "rediscovered");
+
+            correctionAdd("ackward", "awkward");
+            correctionAdd("aukward", "awkward");
+            correctionAdd("acward", "awkward");
+            correctionAdd("akward", "awkward");
+
+            correctionAdd("awkaardly", "awkwardly");
+
+            correctionAdd("converte", "convert");
+            correctionAdd("conver", "convert");
+            correctionAdd("covert", "convert");
+            correctionAdd("Covert", "convert");
+
+            correctionAdd("convertering", "converting");
+            correctionAdd("coverting", "converting");
+            correctionAdd("convertig", "converting");
+
+            correctionAdd("convereted", "converted");
+            correctionAdd("convertied", "converted");
+            correctionAdd("convertet", "converted");
+
+            correctionAdd("re-convert", "reconvert");
+
+            correctionAdd("obversely", "conversely");
+            correctionAdd("Obversely", "conversely");
+            correctionAdd("converely", "conversely");
+
+            correctionAdd("conversating", "conversing");
+
+            correctionAdd("coversation", "conversation");
+            correctionAdd("convo", "conversation");
+            correctionAdd("Convo", "conversation");
+
+            correctionAdd("convos", "conversations");
+
+            correctionAdd("conversamt", "conversant");
+
+            correctionAdd("convertion", "conversion");
+            correctionAdd("converion", "conversion");
+
+            correctionAdd("T&Cs", "terms and conditions");
+            correctionAdd("T&C", "terms and conditions");
+
+            correctionAdd("condination", "condition");
+            correctionAdd("condiction", "condition");
+            correctionAdd("coniditon", "condition");
+            correctionAdd("contition", "condition");
+            correctionAdd("consition", "condition");
+            correctionAdd("conditon", "condition");
+            correctionAdd("condtion", "condition");
+            correctionAdd("cndition", "condition");
+            correctionAdd("Codition", "condition");
+            correctionAdd("codition", "condition");
+            correctionAdd("condion", "condition");
+
+            correctionAdd("conditons", "conditions");
+
+            correctionAdd("conditionnal", "conditional");
+            correctionAdd("consitional", "conditional");
+            correctionAdd("condtional", "conditional");
+            correctionAdd("coditional", "conditional");
+
+            correctionAdd("pre-condition", "precondition");
+
+            correctionAdd("post-conditions", "postconditions");
+
+            correctionAdd("unconditionnal", "unconditional");
+            correctionAdd("Unconditionnal", "unconditional");
+
+            correctionAdd("inconditionally", "unconditionally");
+            correctionAdd("Unconditionnaly", "unconditionally");
+            correctionAdd("unconditionnaly", "unconditionally");
+            correctionAdd("uncondionally", "unconditionally");
+            correctionAdd("uncondianally", "unconditionally");
+
+            correctionAdd("Biconditional", "biconditional");
+
+            correctionAdd("racing condition", "race condition");
+            correctionAdd("racecondition", "race condition");
+
+            correctionAdd("discontinuties", "discontinuities");
+
+            correctionAdd("icognito", "incognito");
+
+            correctionAdd("cognative", "cognitive");
+
+            // Note: "configure" is in an alternative word set
+            correctionAdd("Configuring", "configuring");
+
+            correctionAdd("configurated", "configured");
+            correctionAdd("configurered", "configured");
+            correctionAdd("configurared", "configured");
+            correctionAdd("configurred", "configured");
+            correctionAdd("configged", "configured");
+            correctionAdd("cofigured", "configured");
+            correctionAdd("configed", "configured");
+
+            correctionAdd("configureable", "configurable");
+
+            correctionAdd("confirguration", "configuration");
+            correctionAdd("coonfiguration", "configuration");
+            correctionAdd("configuaration", "configuration");
+            correctionAdd("configuratrion", "configuration");
+            correctionAdd("configuratuion", "configuration");
+            correctionAdd("Configuaration", "configuration");
+            correctionAdd("confuguration", "configuration");
+            correctionAdd("congifuration", "configuration");
+            correctionAdd("configuraiton", "configuration");
+            correctionAdd("CONFIGURATION", "configuration");
+            correctionAdd("configutation", "configuration");
+            correctionAdd("COnfiguration", "configuration");
+            correctionAdd("cofiguration", "configuration");
+            correctionAdd("confugration", "configuration");
+            correctionAdd("configuation", "configuration");
+            correctionAdd("configuarion", "configuration");
+            correctionAdd("configration", "configuration");
+            correctionAdd("configuraton", "configuration");
+            correctionAdd("configurtion", "configuration");
+            correctionAdd("Configrtaion", "configuration");
+            correctionAdd("configrtaion", "configuration");
+            correctionAdd("configon", "configuration");
+            correctionAdd("ckonfig", "configuration"); // A true typo
+            correctionAdd("COFING", "configuration");
+            correctionAdd("cinfig", "configuration");
+            correctionAdd("cofing", "configuration");
+            correctionAdd("coifig", "configuration");
+            correctionAdd("confiq", "configuration");
+            correctionAdd("CONFIG", "configuration");
+            correctionAdd("config", "configuration");
+            correctionAdd("Config", "configuration");
+            correctionAdd("Conf", "configuration");
+            correctionAdd("conf", "configuration");
+            correctionAdd("cfg", "configuration");
+
+            correctionAdd("configures", "configurations"); // The noun
+            correctionAdd("configs", "configurations");
+            correctionAdd("Configs", "configurations");
+
+            correctionAdd("configurater", "configurator");
+
+            correctionAdd("mis-configuring", "misconfiguring");
+
+            correctionAdd("mis-configured", "misconfigured");
+
+            correctionAdd("re-configure", "reconfigure");
+            correctionAdd("reconfig", "reconfigure");
+
+            correctionAdd("re-configuring", "reconfiguring");
+
+            correctionAdd("re-configured", "reconfigured");
+
+            correctionAdd("pre-configured", "preconfigured");
+
+            correctionAdd("SCCM", "System Center Configuration Manager");
+
+            correctionAdd("Convention over configuration", "convention over configuration");
+
+            correctionAdd("Configuration Management", "configuration management");
+            correctionAdd("CM", "configuration management");
+
             correctionAdd("no harm no foul", "no harm, no foul");
 
             correctionAdd("hamful", "harmful");
@@ -28062,57 +28417,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Surface Pro 7", "Surface Pro 7+");
 
-            correctionAdd("reccognize", "recognise");
-            correctionAdd("recoghnize", "recognise");
-            correctionAdd("recongnize", "recognise");
-            correctionAdd("recongnise", "recognise");
-            correctionAdd("recognize", "recognise");
-            correctionAdd("recogzine", "recognise");
-            correctionAdd("recoqnize", "recognise");
-            correctionAdd("regocnize", "recognise");
-            correctionAdd("regconize", "recognise");
-            correctionAdd("reconigze", "recognise");
-            correctionAdd("recongize", "recognise");
-            correctionAdd("recegnise", "recognise");
-            correctionAdd("recegnize", "recognise");
-            correctionAdd("reqognize", "recognise");
-            correctionAdd("recgonise", "recognise"); // A true typo
-            correctionAdd("recogize", "recognise");
-            correctionAdd("regonize", "recognise");
-            correctionAdd("reconize", "recognise");
-            correctionAdd("recgize", "recognise");
-            correctionAdd("recon", "recognise");
-
-            correctionAdd("recogonizing", "recognising");
-            correctionAdd("recognizing", "recognising");
-            correctionAdd("regognizing", "recognising");
-            correctionAdd("reconicing", "recognising");
-            correctionAdd("reconning", "recognising");
-
-            correctionAdd("recognizxed", "recognised"); // A true typo
-            correctionAdd("recognizzed", "recognised");
-            correctionAdd("recosnised", "recognised");
-            correctionAdd("recongized", "recognised");
-            correctionAdd("recognized", "recognised");
-            correctionAdd("recognzied", "recognised"); // A true typo
-            correctionAdd("recongised", "recognised"); // A true typo
-
-            correctionAdd("recognizable", "recognisable");
-
-            correctionAdd("recognizement", "recognition");
-            correctionAdd("regognition", "recognition");
-            correctionAdd("recognision", "recognition");
-
-            correctionAdd("Named Entity Recoginition", "named-entity recognition");
-            correctionAdd("Named Entity Recognition", "named-entity recognition");
-            correctionAdd("Named-Entity Eecognition", "named-entity recognition");
-            correctionAdd("Named Entity Eecognition", "named-entity recognition");
-            correctionAdd("NER", "named-entity recognition");
-
-            correctionAdd("icognito", "incognito");
-
-            correctionAdd("cognative", "cognitive");
-
             correctionAdd("falacious", "fallacious");
 
             correctionAdd("falacy", "fallacy");
@@ -33012,80 +33316,6 @@ namespace OverflowHelper.core
 
             correctionAdd("incuring", "incurring");
 
-            // Note: "configure" is in an alternative word set
-            correctionAdd("Configuring", "configuring");
-
-            correctionAdd("configurated", "configured");
-            correctionAdd("configurered", "configured");
-            correctionAdd("configurared", "configured");
-            correctionAdd("configurred", "configured");
-            correctionAdd("configged", "configured");
-            correctionAdd("cofigured", "configured");
-            correctionAdd("configed", "configured");
-
-            correctionAdd("configureable", "configurable");
-
-            correctionAdd("confirguration", "configuration");
-            correctionAdd("coonfiguration", "configuration");
-            correctionAdd("configuaration", "configuration");
-            correctionAdd("configuratrion", "configuration");
-            correctionAdd("configuratuion", "configuration");
-            correctionAdd("Configuaration", "configuration");
-            correctionAdd("confuguration", "configuration");
-            correctionAdd("congifuration", "configuration");
-            correctionAdd("configuraiton", "configuration");
-            correctionAdd("CONFIGURATION", "configuration");
-            correctionAdd("configutation", "configuration");
-            correctionAdd("COnfiguration", "configuration");
-            correctionAdd("cofiguration", "configuration");
-            correctionAdd("confugration", "configuration");
-            correctionAdd("configuation", "configuration");
-            correctionAdd("configuarion", "configuration");
-            correctionAdd("configration", "configuration");
-            correctionAdd("configuraton", "configuration");
-            correctionAdd("configurtion", "configuration");
-            correctionAdd("Configrtaion", "configuration");
-            correctionAdd("configrtaion", "configuration");
-            correctionAdd("configon", "configuration");
-            correctionAdd("ckonfig", "configuration"); // A true typo
-            correctionAdd("COFING", "configuration");
-            correctionAdd("cinfig", "configuration");
-            correctionAdd("cofing", "configuration");
-            correctionAdd("coifig", "configuration");
-            correctionAdd("confiq", "configuration");
-            correctionAdd("CONFIG", "configuration");
-            correctionAdd("config", "configuration");
-            correctionAdd("Config", "configuration");
-            correctionAdd("Conf", "configuration");
-            correctionAdd("conf", "configuration");
-            correctionAdd("cfg", "configuration");
-
-            correctionAdd("configures", "configurations"); // The noun
-            correctionAdd("configs", "configurations");
-            correctionAdd("Configs", "configurations");
-
-            correctionAdd("configurater", "configurator");
-
-            correctionAdd("mis-configuring", "misconfiguring");
-
-            correctionAdd("mis-configured", "misconfigured");
-
-            correctionAdd("re-configure", "reconfigure");
-            correctionAdd("reconfig", "reconfigure");
-
-            correctionAdd("re-configuring", "reconfiguring");
-
-            correctionAdd("re-configured", "reconfigured");
-
-            correctionAdd("SCCM", "System Center Configuration Manager");
-
-            correctionAdd("Convention over configuration", "convention over configuration");
-
-            correctionAdd("Configuration Management", "configuration management");
-            correctionAdd("CM", "configuration management");
-
-            correctionAdd("pre-configured", "preconfigured");
-
             correctionAdd("symetric", "symmetric");
 
             correctionAdd("symetrically", "symmetrically");
@@ -35871,89 +36101,6 @@ namespace OverflowHelper.core
 
             correctionAdd("continuated", "continued");
             correctionAdd("cont'", "continued");
-
-            correctionAdd("canncect", "connect");
-            correctionAdd("connnect", "connect");
-            correctionAdd("conncect", "connect");
-            correctionAdd("connecte", "connect");
-            correctionAdd("connecct", "connect");
-            correctionAdd("conenct", "connect");
-            correctionAdd("Connect", "connect");
-            correctionAdd("conncet", "connect"); // A true typo
-            correctionAdd("conect", "connect");
-            correctionAdd("cnnect", "connect");
-            correctionAdd("connet", "connect");
-            correctionAdd("connec", "connect");
-            correctionAdd("conct", "connect");
-
-            correctionAdd("connectec", "connects");
-            correctionAdd("Connnects", "connects");
-            correctionAdd("connnects", "connects");
-            correctionAdd("conects", "connects");
-
-            correctionAdd("conneting", "connecting");
-            correctionAdd("conncting", "connecting");
-            correctionAdd("conecting", "connecting");
-
-            correctionAdd("connecteed", "connected");
-            correctionAdd("cobnnected", "connected");
-            correctionAdd("conntected", "connected");
-            correctionAdd("connectet", "connected");
-            correctionAdd("confected", "connected");
-            correctionAdd("connectes", "connected"); // A true typo
-            correctionAdd("conectet", "connected");
-            correctionAdd("conected", "connected");
-            correctionAdd("conneted", "connected");
-            correctionAdd("CONNECTD", "connected");
-            correctionAdd("connectd", "connected");
-
-            correctionAdd("connnection", "connection");
-            correctionAdd("Conntection", "connection");
-            correctionAdd("Connection", "connection");
-            correctionAdd("connectoin", "connection");
-            correctionAdd("Conneciton", "connection");
-            correctionAdd("conneciton", "connection");
-            correctionAdd("conection", "connection");
-            correctionAdd("connexion", "connection");
-            correctionAdd("connectio", "connection");
-            correctionAdd("connction", "connection");
-
-            correctionAdd("conenctions", "connections");
-            correctionAdd("connexions", "connections");
-
-            correctionAdd("Connectivty", "connectivity");
-            correctionAdd("connectivty", "connectivity");
-            correctionAdd("connectity", "connectivity");
-            correctionAdd("connective", "connectivity");
-
-            correctionAdd("inter connected", "interconnected");
-
-            // The verb
-            correctionAdd("reconnnect", "reconnect");
-            correctionAdd("Reconnect", "reconnect");
-            correctionAdd("recconect", "reconnect");
-
-            correctionAdd("re-connections", "reconnections");
-
-            // The verb
-            correctionAdd("de connect", "disconnect");
-            correctionAdd("deconnect", "disconnect");
-            correctionAdd("de conect", "disconnect");
-            correctionAdd("unconnect", "disconnect");
-
-            // The verb
-            correctionAdd("DC's", "disconnects");
-
-            correctionAdd("disconneting", "disconnecting");
-            correctionAdd("disconecting", "disconnecting");
-
-            // The adjective
-            correctionAdd("dissconnected", "disconnected");
-            correctionAdd("disconnnected", "disconnected");
-            correctionAdd("Discon", "disconnected");
-            correctionAdd("discon", "disconnected");
-
-            correctionAdd("discontinuties", "discontinuities");
 
             correctionAdd("self induced", "self-induced");
 
@@ -41823,46 +41970,6 @@ namespace OverflowHelper.core
             correctionAdd("bobble", "bubble");
 
             correctionAdd("dotcom", "dot-com");
-
-            correctionAdd("T&Cs", "terms and conditions");
-            correctionAdd("T&C", "terms and conditions");
-
-            correctionAdd("condination", "condition");
-            correctionAdd("condiction", "condition");
-            correctionAdd("coniditon", "condition");
-            correctionAdd("contition", "condition");
-            correctionAdd("consition", "condition");
-            correctionAdd("conditon", "condition");
-            correctionAdd("condtion", "condition");
-            correctionAdd("cndition", "condition");
-            correctionAdd("Codition", "condition");
-            correctionAdd("codition", "condition");
-            correctionAdd("condion", "condition");
-
-            correctionAdd("conditons", "conditions");
-
-            correctionAdd("conditionnal", "conditional");
-            correctionAdd("consitional", "conditional");
-            correctionAdd("condtional", "conditional");
-            correctionAdd("coditional", "conditional");
-
-            correctionAdd("pre-condition", "precondition");
-
-            correctionAdd("post-conditions", "postconditions");
-
-            correctionAdd("unconditionnal", "unconditional");
-            correctionAdd("Unconditionnal", "unconditional");
-
-            correctionAdd("inconditionally", "unconditionally");
-            correctionAdd("Unconditionnaly", "unconditionally");
-            correctionAdd("unconditionnaly", "unconditionally");
-            correctionAdd("uncondionally", "unconditionally");
-            correctionAdd("uncondianally", "unconditionally");
-
-            correctionAdd("Biconditional", "biconditional");
-
-            correctionAdd("racing condition", "race condition");
-            correctionAdd("racecondition", "race condition");
 
             correctionAdd("chronicaly", "chronically");
 
@@ -57399,38 +57506,6 @@ namespace OverflowHelper.core
 
             correctionAdd("typesystem", "type system");
 
-            correctionAdd("converte", "convert");
-            correctionAdd("conver", "convert");
-            correctionAdd("covert", "convert");
-            correctionAdd("Covert", "convert");
-
-            correctionAdd("convertering", "converting");
-            correctionAdd("coverting", "converting");
-            correctionAdd("convertig", "converting");
-
-            correctionAdd("convereted", "converted");
-            correctionAdd("convertied", "converted");
-            correctionAdd("convertet", "converted");
-
-            correctionAdd("re-convert", "reconvert");
-
-            correctionAdd("obversely", "conversely");
-            correctionAdd("Obversely", "conversely");
-            correctionAdd("converely", "conversely");
-
-            correctionAdd("conversating", "conversing");
-
-            correctionAdd("coversation", "conversation");
-            correctionAdd("convo", "conversation");
-            correctionAdd("Convo", "conversation");
-
-            correctionAdd("convos", "conversations");
-
-            correctionAdd("conversamt", "conversant");
-
-            correctionAdd("convertion", "conversion");
-            correctionAdd("converion", "conversion");
-
             correctionAdd("In-till", "until");
             correctionAdd("in-till", "until");
             correctionAdd("un-till", "until");
@@ -57465,38 +57540,6 @@ namespace OverflowHelper.core
 
             correctionAdd("heffers", "heifers");
             correctionAdd("Heifers", "heifers");
-
-            correctionAdd("cowered", "coward");
-
-            correctionAdd("covor", "cover");
-
-            correctionAdd("cove", "covered");
-
-            correctionAdd("cover up", "cover-up");
-            correctionAdd("coverup", "cover-up");
-
-            correctionAdd("recovert", "recover");
-
-            correctionAdd("non-recoverable", "nonrecoverable");
-            correctionAdd("non recoverable", "nonrecoverable");
-
-            correctionAdd("unreconverable", "unrecoverable");
-
-            correctionAdd("dicovered", "discovered");
-            correctionAdd("discoverd", "discovered");
-            correctionAdd("disovered", "discovered");
-            correctionAdd("dig", "discovered");
-
-            correctionAdd("re-discover", "rediscover");
-
-            correctionAdd("re-discovered", "rediscovered");
-
-            correctionAdd("ackward", "awkward");
-            correctionAdd("aukward", "awkward");
-            correctionAdd("acward", "awkward");
-            correctionAdd("akward", "awkward");
-
-            correctionAdd("awkaardly", "awkwardly");
 
             correctionAdd("sysytem", "system");
             correctionAdd("systenm", "system");
@@ -70526,47 +70569,6 @@ namespace OverflowHelper.core
 
             // A kind of glue
             correctionAdd("two component adhesive", "two-component adhesive");
-
-            correctionAdd("selectes", "selects");
-            correctionAdd("seelcts", "selects");
-
-            correctionAdd("seleting", "selecting");
-
-            correctionAdd("seclected", "selected");
-            correctionAdd("sekected", "selected");
-            correctionAdd("seleted", "selected");
-
-            correctionAdd("selecteable", "selectable");
-
-            correctionAdd("un-select", "unselect");
-
-            correctionAdd("re-selected", "reselected");
-
-            correctionAdd("de-selected", "deselected");
-
-            correctionAdd("pre-select", "preselect");
-
-            correctionAdd("pre selected", "preselected");
-
-            correctionAdd("selecter", "selector");
-
-            correctionAdd("select2", "Select2");
-
-            // Parent URL: <https://en.wikipedia.org/wiki/List_of_cognitive_biases>
-            //
-            correctionAdd("Selection Bias", "selection bias");
-            correctionAdd("Selection bias", "selection bias");
-
-            // Parent URL: <https://en.wikipedia.org/wiki/List_of_cognitive_biases>
-            //
-            correctionAdd("survivership bias", "survivorship bias");
-            correctionAdd("survival bias", "survivorship bias");
-            correctionAdd("survivor bias", "survivorship bias");
-
-            correctionAdd("Confirmation Bias", "confirmation bias");
-            correctionAdd("Confirmation bias", "confirmation bias");
-
-            correctionAdd("re-confirm", "reconfirm");
 
             correctionAdd("Trap Representation", "trap representation");
 
@@ -152571,6 +152573,7 @@ namespace OverflowHelper.core
             correctionAdd("liner_", "linear_");
 
             correctionAdd("ortholinear mechanical keyboard_", "split ortholinear mechanical keyboard_"); // For the cross-reference
+            correctionAdd("ergonomic mechanical keyboard_", "split ortholinear mechanical keyboard_"); // For the cross-reference
             correctionAdd("ortho split keyboard_", "split ortholinear mechanical keyboard_");
             correctionAdd("split Ortho linear_", "split ortholinear mechanical keyboard_");
             correctionAdd("split ortho linear_", "split ortholinear mechanical keyboard_");
@@ -159036,6 +159039,7 @@ namespace OverflowHelper.core
             correctionAdd("someth_", "something_");
             correctionAdd("smthg_", "something_");
             correctionAdd("sum’n_", "something_");
+            correctionAdd("smthn_", "something_");
             correctionAdd("Smth_", "something_");
             correctionAdd("smth_", "something_");
             correctionAdd("sthg_", "something_");
@@ -170159,6 +170163,14 @@ namespace OverflowHelper.core
             correctionAdd("resetting__", "reseating__");
             correctionAdd("Reseating__", "reseating__");
 
+            correctionAdd("split ortholinear mechanical keyboard__", "split ergonomic ortholinear mechanical keyboard__");
+            correctionAdd("ortholinear mechanical keyboard__", "split ergonomic ortholinear mechanical keyboard__");
+            correctionAdd("ergonomic mechanical keyboards__", "split ergonomic ortholinear mechanical keyboard__");
+            correctionAdd("ergonomic mechanical keyboard__", "split ergonomic ortholinear mechanical keyboard__");
+            correctionAdd("ergonomic ortholinear__", "split ergonomic ortholinear mechanical keyboard__");
+            correctionAdd("Ergo Ortho__", "split ergonomic ortholinear mechanical keyboard__");
+            correctionAdd("ergo ortho__", "split ergonomic ortholinear mechanical keyboard__");
+
             // A crippled split ergonomic
             // mechanical keyboard.
             //
@@ -171945,6 +171957,7 @@ namespace OverflowHelper.core
 
             // Misplaced formality
             correctionAdd("utilized__", "utilised__");
+            correctionAdd("Utilised__", "utilised__");
             correctionAdd("utility__", "utilised__"); // For the cross-reference (through one or more indirections)
 
             correctionAdd("User Experience__", "user experience__");
@@ -174281,8 +174294,6 @@ namespace OverflowHelper.core
 
             URL_Add("alternative keyboard layouts__", "https://getreuer.info/posts/keyboards/alt-layouts/index.html");
 
-            URL_Add("DataHand__", "https://en.wikipedia.org/wiki/DataHand");
-
             URL_Add("homework__", "https://en.wiktionary.org/wiki/homework#Noun");
 
             URL_Add("idea__", "https://en.wiktionary.org/wiki/idea#Noun");
@@ -175316,6 +175327,10 @@ namespace OverflowHelper.core
             URL_Add("Tribhuvan International Airport__", "https://en.wikipedia.org/wiki/Tribhuvan_International_Airport");
 
             URL_Add("McCarran International Airport__", "https://en.wikipedia.org/wiki/Harry_Reid_International_Airport"); // Old: https://en.wikipedia.org/wiki/McCarran_International_Airport
+
+            URL_Add("split ergonomic ortholinear mechanical keyboard__", "https://en.wikipedia.org/wiki/Ergonomic_keyboard");
+
+            URL_Add("DataHand__", "https://en.wikipedia.org/wiki/DataHand");
 
         } //addLookupData_alternativeWordSet2()
 
