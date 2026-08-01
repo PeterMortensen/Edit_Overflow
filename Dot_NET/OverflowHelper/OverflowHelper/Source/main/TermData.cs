@@ -5115,6 +5115,7 @@ namespace OverflowHelper.core
 
             correctionAdd("advantange", "advantage");
             correctionAdd("advanatge", "advantage");
+            correctionAdd("advange", "advantage");
 
             correctionAdd("advantagoues", "advantageous");
             correctionAdd("adventageous", "advantageous");
@@ -26471,6 +26472,7 @@ namespace OverflowHelper.core
             correctionAdd("Filesystem", "file system");
             correctionAdd("filesytem", "file system");
             correctionAdd("filesysem", "file system");
+            correctionAdd("lesystem", "file system");
             correctionAdd("FS", "file system");
             correctionAdd("fs", "file system"); // It is also the (literal) of a Node.js module.
 
@@ -34116,6 +34118,8 @@ namespace OverflowHelper.core
             correctionAdd("hard-coding", "hard coding");
             correctionAdd("hardcoding", "hard coding");
             correctionAdd("Hardcoding", "hard coding");
+
+            correctionAdd("handcode", "hand-code");
 
             correctionAdd("invastigate", "investigate");
 
@@ -48958,6 +48962,7 @@ namespace OverflowHelper.core
             correctionAdd("Mp3", "MP3");
 
             // An audio file format
+            correctionAdd(".ogg", "Ogg");
             correctionAdd("ogg", "Ogg");
 
             // An audio file format(?). PCM.
@@ -78737,6 +78742,7 @@ namespace OverflowHelper.core
             correctionAdd("aproacehs", "approaches");
             correctionAdd("aproaches", "approaches");
             correctionAdd("Approachs", "approaches");
+            correctionAdd("approches", "approaches");
             correctionAdd("aproachs", "approaches");
 
             correctionAdd("approchable", "approachable");
@@ -89930,10 +89936,12 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/q5_pro>
             //
-            correctionAdd("q5 pro", "Keychron Q5 Pro");
-            correctionAdd("Q5 Pro", "Keychron Q5 Pro");
-            correctionAdd("Q5 pro", "Keychron Q5 Pro");
-            correctionAdd("q5 Pro", "Keychron Q5 Pro");
+            correctionAdd("Keychron Q5 Pro (95%)", "Keychron&nbsp;Q5&nbsp;Pro (95%)"); // Sort of identity mapping
+            correctionAdd("Keychron Q5 Pro", "Keychron&nbsp;Q5&nbsp;Pro (95%)");
+            correctionAdd("q5 pro", "Keychron&nbsp;Q5&nbsp;Pro (95%)");
+            correctionAdd("Q5 Pro", "Keychron&nbsp;Q5&nbsp;Pro (95%)");
+            correctionAdd("Q5 pro", "Keychron&nbsp;Q5&nbsp;Pro (95%)");
+            correctionAdd("q5 Pro", "Keychron&nbsp;Q5&nbsp;Pro (95%)");
 
             // A 102-key (95%. Not true TKL) crippled wired and
             // wireless (both Bluetooth and '2.4 GHz')
@@ -91709,14 +91717,16 @@ namespace OverflowHelper.core
             //   <https://github.com/Keychron/qmk_firmware/tree/hall_effect_playground/keyboards/keychron/q6_he>
             //     Note: In a new Git branch, "hall_effect_playground"
             //
-            correctionAdd("Keychron Q6 HE", "Keychron&nbsp;Q6&nbsp;HE"); // Sort of identity mapping
-            correctionAdd("Q HE series", "Keychron&nbsp;Q6&nbsp;HE"); // For the cross-reference
-            correctionAdd("Q6&nbsp;HE", "Keychron&nbsp;Q6&nbsp;HE");
-            correctionAdd("Q6 HE", "Keychron&nbsp;Q6&nbsp;HE");
-            correctionAdd("q6 he", "Keychron&nbsp;Q6&nbsp;HE");
-            correctionAdd("q6 HE", "Keychron&nbsp;Q6&nbsp;HE");
-            correctionAdd("Q6 He", "Keychron&nbsp;Q6&nbsp;HE");
-            correctionAdd("H6", "Keychron&nbsp;Q6&nbsp;HE");
+            correctionAdd("Keychron&nbsp;Q6&nbsp;HE", "Keychron&nbsp;Q6&nbsp;HE (100%)");
+            correctionAdd("Keychron Q6 HE (100%)", "Keychron&nbsp;Q6&nbsp;HE (100%)"); // Sort of identity mapping
+            correctionAdd("Keychron Q6 HE", "Keychron&nbsp;Q6&nbsp;HE (100%)"); // Sort of identity mapping
+            correctionAdd("Q HE series", "Keychron&nbsp;Q6&nbsp;HE (100%)"); // For the cross-reference
+            correctionAdd("Q6&nbsp;HE", "Keychron&nbsp;Q6&nbsp;HE (100%)");
+            correctionAdd("Q6 HE", "Keychron&nbsp;Q6&nbsp;HE (100%)");
+            correctionAdd("q6 he", "Keychron&nbsp;Q6&nbsp;HE (100%)");
+            correctionAdd("q6 HE", "Keychron&nbsp;Q6&nbsp;HE (100%)");
+            correctionAdd("Q6 He", "Keychron&nbsp;Q6&nbsp;HE (100%)");
+            correctionAdd("H6", "Keychron&nbsp;Q6&nbsp;HE (100%)");
 
             // A 109-key (105%. Not true TKL) full-size wired
             // and wireless (both Bluetooth and '2.4 GHz')
@@ -107124,8 +107134,6 @@ namespace OverflowHelper.core
 
             URL_Add("Scrum", "https://en.wikipedia.org/wiki/Scrum_(software_development)"); // Old: <https://en.wikipedia.org/wiki/Scrum_%28development%29>
 
-            URL_Add("AirPort", "https://en.wikipedia.org/wiki/AirPort");
-
             URL_Add("Erlang", "https://en.wikipedia.org/wiki/Erlang_%28programming_language%29");
 
             URL_Add("Dropbox", "https://en.wikipedia.org/wiki/Dropbox_%28service%29");
@@ -109684,8 +109692,6 @@ namespace OverflowHelper.core
 
             URL_Add("follow-up", "https://en.wiktionary.org/wiki/follow-up#Noun");
 
-            URL_Add("hard code", "https://en.wiktionary.org/wiki/hard_code#Verb");
-
             URL_Add("intended", "https://en.wiktionary.org/wiki/intended#Verb");
 
             URL_Add("more", "https://en.wikipedia.org/wiki/More_(command)");
@@ -110425,8 +110431,6 @@ namespace OverflowHelper.core
             URL_Add("blitz (chess)", "https://en.wikipedia.org/wiki/Fast_chess#Blitz");
 
             URL_Add("footnote", "https://en.wiktionary.org/wiki/footnote#Noun");
-
-            URL_Add("hard coded", "https://en.wiktionary.org/wiki/hard_code#Verb");
 
             URL_Add("instance", "https://en.wiktionary.org/wiki/instance#Noun");
 
@@ -117706,8 +117710,6 @@ namespace OverflowHelper.core
 
             URL_Add("Agner Fog's optimisation manuals", "https://en.wikipedia.org/wiki/Agner_Fog#Optimization");
 
-            URL_Add("hard coding", "https://en.wiktionary.org/wiki/hard_code#Verb");
-
             URL_Add("MQTT", "https://en.wikipedia.org/wiki/MQTT");
 
             URL_Add("Ray", "https://docs.ray.io/en/latest/");
@@ -118988,10 +118990,6 @@ namespace OverflowHelper.core
 
             URL_Add("javac", "https://en.wikipedia.org/wiki/Javac");
 
-            URL_Add("Keflavík", "https://en.wikipedia.org/wiki/Keflav%C3%ADk_International_Airport");
-
-            URL_Add("Reykjavík", "https://en.wikipedia.org/wiki/Reykjav%C3%ADk");
-
             URL_Add("sadly", "https://en.wiktionary.org/wiki/sadly#Adverb");
 
             URL_Add("time limit", "https://en.wiktionary.org/wiki/time_limit#Noun");
@@ -120045,8 +120043,6 @@ namespace OverflowHelper.core
             URL_Add("autocorrelation", "https://en.wikipedia.org/wiki/Autocorrelation");
 
             URL_Add("Barnes & Noble", "https://en.wikipedia.org/wiki/Barnes_%26_Noble");
-
-            URL_Add("Boston Logan International Airport", "https://en.wikipedia.org/wiki/Logan_International_Airport");
 
             URL_Add("considered", "https://en.wiktionary.org/wiki/consider#Verb");
 
@@ -125255,8 +125251,6 @@ namespace OverflowHelper.core
             URL_Add("coroutines", "https://en.wikipedia.org/wiki/Coroutine");
 
             URL_Add("Chart.js", "https://en.wikipedia.org/wiki/Chart.js");
-
-            URL_Add("Charles de Gaulle Airport", "https://en.wikipedia.org/wiki/Charles_de_Gaulle_Airport");
 
             URL_Add("Charles Proxy", "https://en.wikipedia.org/wiki/Charles_Proxy");
 
@@ -132560,18 +132554,6 @@ namespace OverflowHelper.core
 
             URL_Add("Occam", "https://en.wikipedia.org/wiki/Occam_(programming_language)");
 
-            URL_Add("Melbourne", "https://en.wikipedia.org/wiki/Melbourne");
-
-            URL_Add("Adelaide", "https://en.wikipedia.org/wiki/Adelaide");
-
-            URL_Add("Sydney", "https://en.wikipedia.org/wiki/Sydney");
-
-            URL_Add("Sydney Airport", "https://en.wikipedia.org/wiki/Sydney_Airport");
-
-            URL_Add("Los Angeles International Airport", "https://en.wikipedia.org/wiki/Los_Angeles_International_Airport");
-
-            URL_Add("Tom Bradley International Terminal", "https://en.wikipedia.org/wiki/Terminals_of_Los_Angeles_International_Airport#Tom_Bradley_International_Terminal_(Terminal_B)");
-
             URL_Add("add-in", "https://en.wiktionary.org/wiki/add-in#Noun");
 
             URL_Add("add-on", "https://en.wiktionary.org/wiki/add-on#Noun");
@@ -133713,32 +133695,6 @@ namespace OverflowHelper.core
             URL_Add("determining", "https://en.wiktionary.org/wiki/determine#Verb");
 
             URL_Add("JSON-RPC", "https://en.wikipedia.org/wiki/JSON-RPC");
-
-            URL_Add("Qatar", "https://en.wikipedia.org/wiki/Qatar");
-
-            URL_Add("Bahrain", "https://en.wikipedia.org/wiki/Bahrain");
-
-            URL_Add("Dubai", "https://en.wikipedia.org/wiki/Dubai");
-
-            URL_Add("United Arab Emirates", "https://en.wikipedia.org/wiki/United_Arab_Emirates");
-
-            URL_Add("Emirate of Abu Dhabi", "https://en.wikipedia.org/wiki/Emirate_of_Abu_Dhabi");
-
-            URL_Add("Abu Dhabi International Airport", "https://en.wikipedia.org/wiki/Abu_Dhabi_International_Airport");
-
-            URL_Add("Etihad Airways", "https://en.wikipedia.org/wiki/Etihad_Airways");
-
-            URL_Add("Qatar Airways", "https://en.wikipedia.org/wiki/Qatar_Airways");
-
-            URL_Add("Emirates", "https://en.wikipedia.org/wiki/Emirates_(airline)");
-
-            URL_Add("International Air Transport Association", "https://en.wikipedia.org/wiki/International_Air_Transport_Association");
-
-            URL_Add("Mauritius", "https://en.wikipedia.org/wiki/Mauritius");
-
-            URL_Add("TAP Air Portugal", "https://en.wikipedia.org/wiki/TAP_Air_Portugal");
-
-            URL_Add("Virgin Atlantic", "https://en.wikipedia.org/wiki/Virgin_Atlantic");
 
             URL_Add("dot-com", "https://en.wikipedia.org/wiki/Dot-com_bubble");
 
@@ -136846,14 +136802,6 @@ namespace OverflowHelper.core
 
             URL_Add("Hamming weight", "https://en.wikipedia.org/wiki/Hamming_weight");
 
-            URL_Add("H-4 visa", "https://en.wikipedia.org/wiki/H-4_visa");
-
-            URL_Add("John F. Kennedy International Airport", "https://en.wikipedia.org/wiki/John_F._Kennedy_International_Airport");
-
-            URL_Add("Newark Liberty International Airport", "https://en.wikipedia.org/wiki/Newark_Liberty_International_Airport");
-
-            URL_Add("O'Hare International Airport", "https://en.wikipedia.org/wiki/O'Hare_International_Airport");
-
             URL_Add("barrier to entry", "https://en.wiktionary.org/wiki/barrier_to_entry#Noun");
 
             URL_Add("entries", "https://en.wiktionary.org/wiki/entry#Noun");
@@ -139028,34 +138976,6 @@ namespace OverflowHelper.core
             URL_Add("discrepancy", "https://en.wiktionary.org/wiki/discrepancy#Noun");
 
             URL_Add("discrepancies", "https://en.wiktionary.org/wiki/discrepancy#Noun");
-
-            URL_Add("airplane", "https://en.wiktionary.org/wiki/airplane#Noun");
-
-            URL_Add("airplanes", "https://en.wiktionary.org/wiki/airplane#Noun");
-
-            URL_Add("aviation gasoline", "https://en.wikipedia.org/wiki/Avgas");
-
-            URL_Add("Jet A", "https://en.wikipedia.org/wiki/Jet_fuel#Jet_A/A-1");
-
-            URL_Add("airfield", "https://en.wiktionary.org/wiki/airfield#Noun");
-
-            URL_Add("indicated airspeed", "https://en.wikipedia.org/wiki/Indicated_airspeed");
-
-            URL_Add("true airspeed", "https://en.wikipedia.org/wiki/True_airspeed");
-
-            URL_Add("scud running", "https://en.wikipedia.org/wiki/Scud_running");
-
-            URL_Add("scud ran", "https://en.wiktionary.org/wiki/scud_run#Verb");
-
-            URL_Add("runway", "https://en.wiktionary.org/wiki/runway#Noun");
-
-            URL_Add("runway excursion", "https://en.wikipedia.org/wiki/Runway_excursion");
-
-            URL_Add("runway incursion", "https://en.wikipedia.org/wiki/Runway_incursion");
-
-            URL_Add("Tenerife airport disaster", "https://en.wikipedia.org/wiki/Tenerife_airport_disaster");
-
-            URL_Add("Embraer 190", "https://en.wikipedia.org/wiki/Embraer_E-Jet_family#E190_and_E195");
 
             URL_Add("speed", "https://en.wiktionary.org/wiki/speed#Noun");
 
@@ -144550,8 +144470,6 @@ namespace OverflowHelper.core
 
             URL_Add("home theater PC", "https://en.wikipedia.org/wiki/Home_theater_PC");
 
-            URL_Add("Heathrow Airport", "https://en.wikipedia.org/wiki/Heathrow_Airport");
-
             URL_Add("cheat sheet", "https://en.wiktionary.org/wiki/cheat_sheet#Noun");
 
             URL_Add("anti-cheat software", "https://en.wikipedia.org/wiki/Cheating_in_online_games#Anti-cheating_methods_and_limitations");
@@ -144878,7 +144796,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;Q4&nbsp;Pro", "https://www.keychron.com/products/keychron-q4-pro-qmk-via-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron Q5 Pro", "https://www.keychron.com/products/keychron-q5-pro-qmk-via-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron&nbsp;Q5&nbsp;Pro (95%)", "https://www.keychron.com/products/keychron-q5-pro-qmk-via-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron&nbsp;Q6&nbsp;Pro", "https://www.keychron.com/products/keychron-q6-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
@@ -144926,7 +144844,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;Q5&nbsp;HE (95%)", "https://www.keychron.com/products/keychron-q5-he-qmk-wireless-custom-keyboard-iso-layout-collection"); // Old: <https://www.keychron.com/products/keychron-q5-he-qmk-wireless-custom-keyboard>
 
-            URL_Add("Keychron&nbsp;Q6&nbsp;HE", "https://www.keychron.com/products/keychron-q6-he-qmk-wireless-custom-keyboard");
+            URL_Add("Keychron&nbsp;Q6&nbsp;HE (100%)", "https://www.keychron.com/products/keychron-q6-he-qmk-wireless-custom-keyboard");
 
             URL_Add("Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-q1-he-8k-magnetic-switch-keyboard");
 
@@ -145181,280 +145099,6 @@ namespace OverflowHelper.core
             URL_Add("Spy++", "https://docs.microsoft.com/en-us/visualstudio/debugger/introducing-spy-increment?view=vs-2022");
 
             URL_Add("Apport", "https://documentation.ubuntu.com/project/contributors/debugging/apport/");
-
-            URL_Add("time zone", "https://en.wiktionary.org/wiki/time_zone#Noun");
-
-            URL_Add("time zones", "https://en.wiktionary.org/wiki/time_zone#Noun");
-
-            URL_Add("daylight saving time", "https://en.wikipedia.org/wiki/Daylight_saving_time");
-
-            URL_Add("UTC", "https://en.wikipedia.org/wiki/Coordinated_Universal_Time");
-
-            URL_Add("GMT", "https://en.wikipedia.org/wiki/Greenwich_Mean_Time");
-
-            URL_Add("Central European Time", "https://en.wikipedia.org/wiki/Central_European_Time");
-
-            URL_Add("Central European Summer Time", "https://en.wikipedia.org/wiki/Central_European_Summer_Time");
-
-            URL_Add("EDT", "https://en.wikipedia.org/wiki/Eastern_Time_Zone");
-
-            URL_Add("EST", "https://en.wikipedia.org/wiki/Eastern_Time_Zone");
-
-            URL_Add("Central Standard Time", "https://en.wikipedia.org/wiki/Central_Time_Zone");
-
-            URL_Add("Pacific Standard Time", "https://en.wikipedia.org/wiki/Pacific_Time_Zone");
-
-            URL_Add("Indian Standard Time", "https://en.wikipedia.org/wiki/Indian_Standard_Time");
-
-            URL_Add("Europa Clipper", "https://en.wikipedia.org/wiki/Europa_Clipper");
-
-            URL_Add("European", "https://en.wiktionary.org/wiki/European#Adjective");
-
-            URL_Add("Europe", "https://en.wiktionary.org/wiki/Europe#Proper_noun");
-
-            URL_Add("European Union", "https://en.wiktionary.org/wiki/European_Union#Proper_noun");
-
-            URL_Add("European Union Aviation Safety Agency", "https://en.wikipedia.org/wiki/European_Union_Aviation_Safety_Agency");
-
-            URL_Add("European Space Agency", "https://en.wikipedia.org/wiki/European_Space_Agency");
-
-            URL_Add("Continental Europe", "https://en.wikipedia.org/wiki/Continental_Europe");
-
-            URL_Add("northwest", "https://en.wiktionary.org/wiki/northwest#Noun");
-
-            URL_Add("west", "https://docs.zephyrproject.org/latest/develop/west/build-flash-debug.html#building-west-build");
-
-            URL_Add("east", "https://en.wiktionary.org/wiki/east#Noun");
-
-            URL_Add("Southern", "https://en.wiktionary.org/wiki/Southern#Adjective");
-
-            URL_Add("Western", "https://en.wiktionary.org/wiki/Western#Adjective");
-
-            URL_Add("Southern Hemisphere", "https://en.wiktionary.org/wiki/Southern_Hemisphere#Noun");
-
-            URL_Add("Southern California", "https://en.wikipedia.org/wiki/Southern_California");
-
-            URL_Add("Northern Hemisphere", "https://en.wiktionary.org/wiki/Northern_Hemisphere#Noun");
-
-            URL_Add("Northern Ireland", "https://en.wikipedia.org/wiki/Northern_Ireland");
-
-            URL_Add("North Africans", "https://en.wiktionary.org/wiki/North_African#Noun");
-
-            URL_Add("North Korean", "https://en.wiktionary.org/wiki/North_Korean#Adjective");
-
-            URL_Add("northbridge", "https://en.wikipedia.org/wiki/Northbridge_(computing)");
-
-            URL_Add("Northing", "https://en.wiktionary.org/wiki/northing#Noun");
-
-            URL_Add("Northwind database", "https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases");
-
-            URL_Add("north-facing", "https://keyboardsexpert.com/north-facing-vs-south-facing-keyboard-switches/");
-
-            URL_Add("south-facing", "https://keyboardsexpert.com/north-facing-vs-south-facing-keyboard-switches/");
-
-            URL_Add("go south", "https://en.wiktionary.org/wiki/go_south#Verb");
-
-            URL_Add("went south", "https://en.wiktionary.org/wiki/go_south#Verb");
-
-            URL_Add("South Korea", "https://en.wikipedia.org/wiki/South_Korea");
-
-            URL_Add("South Africa", "https://en.wikipedia.org/wiki/South_Africa");
-
-            URL_Add("southbridge", "https://en.wikipedia.org/wiki/Southbridge_%28computing%29");
-
-            URL_Add("South Asian", "https://en.wiktionary.org/wiki/South_Asian#Adjective");
-
-            URL_Add("South African", "https://en.wiktionary.org/wiki/South_African#Adjective");
-
-            URL_Add("South Asia", "https://en.wiktionary.org/wiki/South_Asia#Proper_noun");
-
-            URL_Add("Southeast Asia", "https://en.wiktionary.org/wiki/Southeast_Asia#Proper_noun");
-
-            URL_Add("South Atlantic Anomaly", "https://en.wikipedia.org/wiki/South_Atlantic_Anomaly");
-
-            URL_Add("South America", "https://en.wiktionary.org/wiki/South_America#Proper_noun");
-
-            URL_Add("South American", "https://en.wiktionary.org/wiki/South_American#Adjective");
-
-            URL_Add("southpaw", "https://www.keychron.com/products/keychron-q12-max-qmk-via-wireless-custom-mechanical-keyboard");
-
-            URL_Add("westerner", "https://en.wiktionary.org/wiki/westerner#Noun");
-
-            URL_Add("Western world", "https://en.wikipedia.org/wiki/Western_world"); // Old: https://en.wiktionary.org/wiki/western_world#Proper_noun
-
-            URL_Add("Western European", "https://en.wiktionary.org/wiki/Western_European#Adjective");
-
-            URL_Add("Western Union", "https://en.wikipedia.org/wiki/Western_Union");
-
-            URL_Add("Wild West", "https://en.wiktionary.org/wiki/Wild_West#Proper_noun");
-
-            URL_Add("fastest gun in the west", "https://meta.stackexchange.com/questions/19478/the-many-memes-of-meta/19533#19533");
-
-            URL_Add("Weston", "https://en.wikipedia.org/wiki/Wayland_(protocol)#Weston");
-
-            URL_Add("Westmere (1st generation)", "https://en.wikipedia.org/wiki/Westmere_(microarchitecture)");
-
-            URL_Add("Western Digital Easystore", "https://en.wikipedia.org/wiki/Western_Digital#WD_brand");
-
-            URL_Add("easting", "https://en.wiktionary.org/wiki/easting#Noun");
-
-            URL_Add("nor'easter", "https://en.wikipedia.org/wiki/Nor'easter");
-
-            URL_Add("East Asia", "https://en.wikipedia.org/wiki/East_Asia");
-
-            URL_Add("East Asian", "https://en.wiktionary.org/wiki/East_Asian#Adjective");
-
-            URL_Add("Far East", "https://en.wiktionary.org/wiki/Far_East#Proper_noun");
-
-            URL_Add("Middle East", "https://en.wiktionary.org/wiki/Middle_East#Proper_noun");
-
-            URL_Add("Middle Eastern", "https://en.wiktionary.org/wiki/Middle_Eastern#Adjective");
-
-            URL_Add("Middle East Airlines", "https://en.wikipedia.org/wiki/Middle_East_Airlines");
-
-            URL_Add("Easter", "https://en.wiktionary.org/wiki/Easter#Noun");
-
-            URL_Add("Easter egg", "https://en.wiktionary.org/wiki/Easter_egg#Noun");
-
-            URL_Add("East Coast of the United States", "https://en.wikipedia.org/wiki/East_Coast_of_the_United_States");
-
-            URL_Add("Eastern European", "https://en.wiktionary.org/wiki/Eastern_European#Adjective");
-
-            URL_Add("Eastern Europe", "https://en.wiktionary.org/wiki/Eastern_Europe#Proper_noun");
-
-            URL_Add("Europe, the Middle East and Africa", "https://en.wikipedia.org/wiki/Europe,_the_Middle_East_and_Africa");
-
-            URL_Add("rest of world", "https://en.wiktionary.org/wiki/ROW#Noun");
-
-            URL_Add("world domination", "https://en.wikipedia.org/wiki/World_domination");
-
-            URL_Add("Tel Aviv", "https://en.wikipedia.org/wiki/Tel_Aviv");
-
-            URL_Add("NANOGrav", "https://en.wikipedia.org/wiki/North_American_Nanohertz_Observatory_for_Gravitational_Waves");
-
-            URL_Add("Paris", "https://en.wikipedia.org/wiki/Paris");
-
-            URL_Add("Hong Kong", "https://en.wikipedia.org/wiki/Hong_Kong");
-
-            URL_Add("the Philippines", "https://en.wikipedia.org/wiki/Philippines");
-
-            URL_Add("Slovakia", "https://en.wikipedia.org/wiki/Slovakia");
-
-            URL_Add("Mexico", "https://en.wikipedia.org/wiki/Mexico");
-
-            URL_Add("Gulf of Mexico", "https://en.wikipedia.org/wiki/Gulf_of_Mexico");
-
-            URL_Add("transatlantic", "https://en.wiktionary.org/wiki/transatlantic#Adjective");
-
-            URL_Add("African-American", "https://en.wiktionary.org/wiki/African-American#Noun");
-
-            URL_Add("America", "https://en.wiktionary.org/wiki/America#Proper_noun");
-
-            URL_Add("American", "https://en.wiktionary.org/wiki/American#Adjective");
-
-            URL_Add("American Megatrends International", "https://en.wikipedia.org/wiki/American_Megatrends");
-
-            URL_Add("American English", "https://en.wikipedia.org/wiki/American_English");
-
-            URL_Add("British English", "https://en.wikipedia.org/wiki/British_English");
-
-            URL_Add("Bank of America", "https://en.wikipedia.org/wiki/Bank_of_America");
-
-            URL_Add("North American XB-70 Valkyrie", "https://en.wikipedia.org/wiki/North_American_XB-70_Valkyrie");
-
-            URL_Add("North American English", "https://en.wikipedia.org/wiki/North_American_English");
-
-            URL_Add("North Americans", "https://en.wiktionary.org/wiki/North_American#Noun");
-
-            URL_Add("North American", "https://en.wiktionary.org/wiki/North_American#Adjective");
-
-            URL_Add("two-party system", "https://en.wikipedia.org/wiki/Two-party_system");
-
-            URL_Add("Republican Party", "https://en.wikipedia.org/wiki/Republican_Party_(United_States)");
-
-            URL_Add("Republican", "https://en.wiktionary.org/wiki/Republican#Noun");
-
-            URL_Add("United States Congress", "https://en.wikipedia.org/wiki/United_States_Congress");
-
-            URL_Add("United States Air Force", "https://en.wikipedia.org/wiki/United_States_Air_Force");
-
-            URL_Add("United States Department of Justice", "https://en.wikipedia.org/wiki/United_States_Department_of_Justice");
-
-            URL_Add("United States Department of Agriculture", "https://en.wikipedia.org/wiki/United_States_Department_of_Agriculture");
-
-            URL_Add("United States Department of Defense", "https://en.wikipedia.org/wiki/United_States_Department_of_Defense");
-
-            URL_Add("United States Department of Homeland Security", "https://en.wikipedia.org/wiki/United_States_Department_of_Homeland_Security");
-
-            URL_Add("United States Customs and Border Protection", "https://en.wikipedia.org/wiki/U.S._Customs_and_Border_Protection");
-
-            URL_Add("United States of America Computing Olympiad", "https://en.wikipedia.org/wiki/United_States_of_America_Computing_Olympiad");
-
-            URL_Add("United States keyboard layout", "https://en.wikipedia.org/wiki/British_and_American_keyboards#Windows_keyboards");
-
-            URL_Add("Ohio State University", "https://en.wikipedia.org/wiki/Ohio_State_University");
-
-            URL_Add("Pennsylvania State University", "https://en.wikipedia.org/wiki/Pennsylvania_State_University");
-
-            URL_Add("AP United States History", "https://en.wikipedia.org/wiki/AP_United_States_History");
-
-            URL_Add("Texas Instruments", "https://en.wikipedia.org/wiki/Texas_Instruments");
-
-            URL_Add("Tiva", "https://eu.mouser.com/new/texas-instruments/ti-tiva-mcus/");
-
-            URL_Add("Navy SEAL", "https://en.wikipedia.org/wiki/United_States_Navy_SEALs");
-
-            URL_Add("Washington, D.C.", "https://en.wikipedia.org/wiki/Washington%2C_D.C.");
-
-            URL_Add("Washington metropolitan area", "https://en.wikipedia.org/wiki/Washington_metropolitan_area");
-
-            URL_Add("Washington", "https://en.wikipedia.org/wiki/Washington,_D.C.");
-
-            URL_Add("The Washington Post", "https://en.wikipedia.org/wiki/The_Washington_Post");
-
-            URL_Add("Ronald Reagan Washington National Airport", "https://en.wikipedia.org/wiki/Ronald_Reagan_Washington_National_Airport");
-
-            URL_Add("Alabama, United States", "https://en.wikipedia.org/wiki/Alabama");
-
-            URL_Add("Alaska, United States", "https://en.wikipedia.org/wiki/Alaska");
-
-            URL_Add("Arizona, United States", "https://en.wikipedia.org/wiki/Arizona");
-
-            URL_Add("California, United States", "https://en.wikipedia.org/wiki/California");
-
-            URL_Add("Colorado, United States", "https://en.wikipedia.org/wiki/Colorado");
-
-            URL_Add("Florida, United States", "https://en.wikipedia.org/wiki/Florida");
-
-            URL_Add("Hawaii, United States", "https://en.wikipedia.org/wiki/Hawaii");
-
-            URL_Add("Kentucky, United States", "https://en.wikipedia.org/wiki/Kentucky");
-
-            URL_Add("Michigan, United States", "https://en.wikipedia.org/wiki/Michigan");
-
-            URL_Add("Minnesota, United States", "https://en.wikipedia.org/wiki/Minnesota");
-
-            URL_Add("Mississippi, United States", "https://en.wikipedia.org/wiki/Mississippi");
-
-            URL_Add("New Mexico, United States", "https://en.wikipedia.org/wiki/New_Mexico");
-
-            URL_Add("North Carolina, United States", "https://en.wikipedia.org/wiki/North_Carolina");
-
-            URL_Add("Oklahoma, United States", "https://en.wikipedia.org/wiki/Oklahoma");
-
-            URL_Add("South Carolina, United States", "https://en.wikipedia.org/wiki/South_Carolina");
-
-            URL_Add("Tennessee, United States", "https://en.wikipedia.org/wiki/Tennessee");
-
-            URL_Add("Texas, United States", "https://en.wikipedia.org/wiki/Texas");
-
-            URL_Add("West Virginia, United States", "https://en.wikipedia.org/wiki/West_Virginia");
-
-            URL_Add("Louisiana, United States", "https://en.wikipedia.org/wiki/Louisiana");
-
-            URL_Add("Vermont, United States", "https://en.wikipedia.org/wiki/Vermont");
-
-            URL_Add("Wisconsin, United States", "https://en.wikipedia.org/wiki/Wisconsin");
 
             URL_Add("source map", "https://developer.mozilla.org/en-US/docs/Tools/Debugger/How_to/Use_a_source_map");
 
@@ -148524,6 +148168,374 @@ namespace OverflowHelper.core
 
             URL_Add("Git pre-commit hook", "https://stackoverflow.com/questions/26992576/how-to-make-a-git-pre-commit-code-check");
 
+            URL_Add("hard code", "https://en.wiktionary.org/wiki/hard_code#Verb");
+
+            URL_Add("hard coding", "https://en.wiktionary.org/wiki/hard_code#Verb");
+
+            URL_Add("hard coded", "https://en.wiktionary.org/wiki/hard_code#Verb");
+
+            URL_Add("hand-code", "https://en.wiktionary.org/wiki/hand-code#Verb");
+
+            URL_Add("airplane", "https://en.wiktionary.org/wiki/airplane#Noun");
+
+            URL_Add("airplanes", "https://en.wiktionary.org/wiki/airplane#Noun");
+
+            URL_Add("aviation gasoline", "https://en.wikipedia.org/wiki/Avgas");
+
+            URL_Add("Jet A", "https://en.wikipedia.org/wiki/Jet_fuel#Jet_A/A-1");
+
+            URL_Add("airfield", "https://en.wiktionary.org/wiki/airfield#Noun");
+
+            URL_Add("indicated airspeed", "https://en.wikipedia.org/wiki/Indicated_airspeed");
+
+            URL_Add("true airspeed", "https://en.wikipedia.org/wiki/True_airspeed");
+
+            URL_Add("scud running", "https://en.wikipedia.org/wiki/Scud_running");
+
+            URL_Add("scud ran", "https://en.wiktionary.org/wiki/scud_run#Verb");
+
+            URL_Add("runway", "https://en.wiktionary.org/wiki/runway#Noun");
+
+            URL_Add("runway excursion", "https://en.wikipedia.org/wiki/Runway_excursion");
+
+            URL_Add("runway incursion", "https://en.wikipedia.org/wiki/Runway_incursion");
+
+            URL_Add("Embraer 190", "https://en.wikipedia.org/wiki/Embraer_E-Jet_family#E190_and_E195");
+
+            URL_Add("AirPort", "https://en.wikipedia.org/wiki/AirPort");
+
+            URL_Add("Tenerife airport disaster", "https://en.wikipedia.org/wiki/Tenerife_airport_disaster");
+
+            URL_Add("Keflavík", "https://en.wikipedia.org/wiki/Keflav%C3%ADk_International_Airport");
+
+            URL_Add("Boston Logan International Airport", "https://en.wikipedia.org/wiki/Logan_International_Airport");
+
+            URL_Add("Charles de Gaulle Airport", "https://en.wikipedia.org/wiki/Charles_de_Gaulle_Airport");
+
+            URL_Add("Sydney Airport", "https://en.wikipedia.org/wiki/Sydney_Airport");
+
+            URL_Add("Los Angeles International Airport", "https://en.wikipedia.org/wiki/Los_Angeles_International_Airport");
+
+            URL_Add("Tom Bradley International Terminal", "https://en.wikipedia.org/wiki/Terminals_of_Los_Angeles_International_Airport#Tom_Bradley_International_Terminal_(Terminal_B)");
+
+            URL_Add("Abu Dhabi International Airport", "https://en.wikipedia.org/wiki/Abu_Dhabi_International_Airport");
+
+            URL_Add("John F. Kennedy International Airport", "https://en.wikipedia.org/wiki/John_F._Kennedy_International_Airport");
+
+            URL_Add("Newark Liberty International Airport", "https://en.wikipedia.org/wiki/Newark_Liberty_International_Airport");
+
+            URL_Add("O'Hare International Airport", "https://en.wikipedia.org/wiki/O'Hare_International_Airport");
+
+            URL_Add("Heathrow Airport", "https://en.wikipedia.org/wiki/Heathrow_Airport");
+
+            URL_Add("Ronald Reagan Washington National Airport", "https://en.wikipedia.org/wiki/Ronald_Reagan_Washington_National_Airport");
+
+            URL_Add("Reykjavík", "https://en.wikipedia.org/wiki/Reykjav%C3%ADk");
+
+            URL_Add("Melbourne", "https://en.wikipedia.org/wiki/Melbourne");
+
+            URL_Add("Adelaide", "https://en.wikipedia.org/wiki/Adelaide");
+
+            URL_Add("Sydney", "https://en.wikipedia.org/wiki/Sydney");
+
+            URL_Add("Qatar", "https://en.wikipedia.org/wiki/Qatar");
+
+            URL_Add("Bahrain", "https://en.wikipedia.org/wiki/Bahrain");
+
+            URL_Add("Dubai", "https://en.wikipedia.org/wiki/Dubai");
+
+            URL_Add("United Arab Emirates", "https://en.wikipedia.org/wiki/United_Arab_Emirates");
+
+            URL_Add("Emirate of Abu Dhabi", "https://en.wikipedia.org/wiki/Emirate_of_Abu_Dhabi");
+
+            URL_Add("Etihad Airways", "https://en.wikipedia.org/wiki/Etihad_Airways");
+
+            URL_Add("Qatar Airways", "https://en.wikipedia.org/wiki/Qatar_Airways");
+
+            URL_Add("Emirates", "https://en.wikipedia.org/wiki/Emirates_(airline)");
+
+            URL_Add("International Air Transport Association", "https://en.wikipedia.org/wiki/International_Air_Transport_Association");
+
+            URL_Add("Mauritius", "https://en.wikipedia.org/wiki/Mauritius");
+
+            URL_Add("TAP Air Portugal", "https://en.wikipedia.org/wiki/TAP_Air_Portugal");
+
+            URL_Add("Virgin Atlantic", "https://en.wikipedia.org/wiki/Virgin_Atlantic");
+
+            URL_Add("H-4 visa", "https://en.wikipedia.org/wiki/H-4_visa");
+
+            URL_Add("time zone", "https://en.wiktionary.org/wiki/time_zone#Noun");
+
+            URL_Add("time zones", "https://en.wiktionary.org/wiki/time_zone#Noun");
+
+            URL_Add("daylight saving time", "https://en.wikipedia.org/wiki/Daylight_saving_time");
+
+            URL_Add("UTC", "https://en.wikipedia.org/wiki/Coordinated_Universal_Time");
+
+            URL_Add("GMT", "https://en.wikipedia.org/wiki/Greenwich_Mean_Time");
+
+            URL_Add("Central European Time", "https://en.wikipedia.org/wiki/Central_European_Time");
+
+            URL_Add("Central European Summer Time", "https://en.wikipedia.org/wiki/Central_European_Summer_Time");
+
+            URL_Add("EDT", "https://en.wikipedia.org/wiki/Eastern_Time_Zone");
+
+            URL_Add("EST", "https://en.wikipedia.org/wiki/Eastern_Time_Zone");
+
+            URL_Add("Central Standard Time", "https://en.wikipedia.org/wiki/Central_Time_Zone");
+
+            URL_Add("Pacific Standard Time", "https://en.wikipedia.org/wiki/Pacific_Time_Zone");
+
+            URL_Add("Indian Standard Time", "https://en.wikipedia.org/wiki/Indian_Standard_Time");
+
+            URL_Add("Europa Clipper", "https://en.wikipedia.org/wiki/Europa_Clipper");
+
+            URL_Add("European", "https://en.wiktionary.org/wiki/European#Adjective");
+
+            URL_Add("Europe", "https://en.wiktionary.org/wiki/Europe#Proper_noun");
+
+            URL_Add("European Union", "https://en.wiktionary.org/wiki/European_Union#Proper_noun");
+
+            URL_Add("European Union Aviation Safety Agency", "https://en.wikipedia.org/wiki/European_Union_Aviation_Safety_Agency");
+
+            URL_Add("European Space Agency", "https://en.wikipedia.org/wiki/European_Space_Agency");
+
+            URL_Add("Continental Europe", "https://en.wikipedia.org/wiki/Continental_Europe");
+
+            URL_Add("northwest", "https://en.wiktionary.org/wiki/northwest#Noun");
+
+            URL_Add("west", "https://docs.zephyrproject.org/latest/develop/west/build-flash-debug.html#building-west-build");
+
+            URL_Add("east", "https://en.wiktionary.org/wiki/east#Noun");
+
+            URL_Add("Southern", "https://en.wiktionary.org/wiki/Southern#Adjective");
+
+            URL_Add("Western", "https://en.wiktionary.org/wiki/Western#Adjective");
+
+            URL_Add("Southern Hemisphere", "https://en.wiktionary.org/wiki/Southern_Hemisphere#Noun");
+
+            URL_Add("Southern California", "https://en.wikipedia.org/wiki/Southern_California");
+
+            URL_Add("Northern Hemisphere", "https://en.wiktionary.org/wiki/Northern_Hemisphere#Noun");
+
+            URL_Add("Northern Ireland", "https://en.wikipedia.org/wiki/Northern_Ireland");
+
+            URL_Add("North Africans", "https://en.wiktionary.org/wiki/North_African#Noun");
+
+            URL_Add("North Korean", "https://en.wiktionary.org/wiki/North_Korean#Adjective");
+
+            URL_Add("northbridge", "https://en.wikipedia.org/wiki/Northbridge_(computing)");
+
+            URL_Add("Northing", "https://en.wiktionary.org/wiki/northing#Noun");
+
+            URL_Add("Northwind database", "https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases");
+
+            URL_Add("north-facing", "https://keyboardsexpert.com/north-facing-vs-south-facing-keyboard-switches/");
+
+            URL_Add("south-facing", "https://keyboardsexpert.com/north-facing-vs-south-facing-keyboard-switches/");
+
+            URL_Add("go south", "https://en.wiktionary.org/wiki/go_south#Verb");
+
+            URL_Add("went south", "https://en.wiktionary.org/wiki/go_south#Verb");
+
+            URL_Add("South Korea", "https://en.wikipedia.org/wiki/South_Korea");
+
+            URL_Add("South Africa", "https://en.wikipedia.org/wiki/South_Africa");
+
+            URL_Add("southbridge", "https://en.wikipedia.org/wiki/Southbridge_%28computing%29");
+
+            URL_Add("South Asian", "https://en.wiktionary.org/wiki/South_Asian#Adjective");
+
+            URL_Add("South African", "https://en.wiktionary.org/wiki/South_African#Adjective");
+
+            URL_Add("South Asia", "https://en.wiktionary.org/wiki/South_Asia#Proper_noun");
+
+            URL_Add("Southeast Asia", "https://en.wiktionary.org/wiki/Southeast_Asia#Proper_noun");
+
+            URL_Add("South Atlantic Anomaly", "https://en.wikipedia.org/wiki/South_Atlantic_Anomaly");
+
+            URL_Add("South America", "https://en.wiktionary.org/wiki/South_America#Proper_noun");
+
+            URL_Add("South American", "https://en.wiktionary.org/wiki/South_American#Adjective");
+
+            URL_Add("southpaw", "https://www.keychron.com/products/keychron-q12-max-qmk-via-wireless-custom-mechanical-keyboard");
+
+            URL_Add("westerner", "https://en.wiktionary.org/wiki/westerner#Noun");
+
+            URL_Add("Western world", "https://en.wikipedia.org/wiki/Western_world"); // Old: https://en.wiktionary.org/wiki/western_world#Proper_noun
+
+            URL_Add("Western European", "https://en.wiktionary.org/wiki/Western_European#Adjective");
+
+            URL_Add("Western Union", "https://en.wikipedia.org/wiki/Western_Union");
+
+            URL_Add("Wild West", "https://en.wiktionary.org/wiki/Wild_West#Proper_noun");
+
+            URL_Add("fastest gun in the west", "https://meta.stackexchange.com/questions/19478/the-many-memes-of-meta/19533#19533");
+
+            URL_Add("Weston", "https://en.wikipedia.org/wiki/Wayland_(protocol)#Weston");
+
+            URL_Add("Westmere (1st generation)", "https://en.wikipedia.org/wiki/Westmere_(microarchitecture)");
+
+            URL_Add("Western Digital Easystore", "https://en.wikipedia.org/wiki/Western_Digital#WD_brand");
+
+            URL_Add("easting", "https://en.wiktionary.org/wiki/easting#Noun");
+
+            URL_Add("nor'easter", "https://en.wikipedia.org/wiki/Nor'easter");
+
+            URL_Add("East Asia", "https://en.wikipedia.org/wiki/East_Asia");
+
+            URL_Add("East Asian", "https://en.wiktionary.org/wiki/East_Asian#Adjective");
+
+            URL_Add("Far East", "https://en.wiktionary.org/wiki/Far_East#Proper_noun");
+
+            URL_Add("Middle East", "https://en.wiktionary.org/wiki/Middle_East#Proper_noun");
+
+            URL_Add("Middle Eastern", "https://en.wiktionary.org/wiki/Middle_Eastern#Adjective");
+
+            URL_Add("Middle East Airlines", "https://en.wikipedia.org/wiki/Middle_East_Airlines");
+
+            URL_Add("Easter", "https://en.wiktionary.org/wiki/Easter#Noun");
+
+            URL_Add("Easter egg", "https://en.wiktionary.org/wiki/Easter_egg#Noun");
+
+            URL_Add("East Coast of the United States", "https://en.wikipedia.org/wiki/East_Coast_of_the_United_States");
+
+            URL_Add("Eastern European", "https://en.wiktionary.org/wiki/Eastern_European#Adjective");
+
+            URL_Add("Eastern Europe", "https://en.wiktionary.org/wiki/Eastern_Europe#Proper_noun");
+
+            URL_Add("Europe, the Middle East and Africa", "https://en.wikipedia.org/wiki/Europe,_the_Middle_East_and_Africa");
+
+            URL_Add("rest of world", "https://en.wiktionary.org/wiki/ROW#Noun");
+
+            URL_Add("world domination", "https://en.wikipedia.org/wiki/World_domination");
+
+            URL_Add("Tel Aviv", "https://en.wikipedia.org/wiki/Tel_Aviv");
+
+            URL_Add("NANOGrav", "https://en.wikipedia.org/wiki/North_American_Nanohertz_Observatory_for_Gravitational_Waves");
+
+            URL_Add("Paris", "https://en.wikipedia.org/wiki/Paris");
+
+            URL_Add("Hong Kong", "https://en.wikipedia.org/wiki/Hong_Kong");
+
+            URL_Add("the Philippines", "https://en.wikipedia.org/wiki/Philippines");
+
+            URL_Add("Slovakia", "https://en.wikipedia.org/wiki/Slovakia");
+
+            URL_Add("Mexico", "https://en.wikipedia.org/wiki/Mexico");
+
+            URL_Add("Gulf of Mexico", "https://en.wikipedia.org/wiki/Gulf_of_Mexico");
+
+            URL_Add("transatlantic", "https://en.wiktionary.org/wiki/transatlantic#Adjective");
+
+            URL_Add("African-American", "https://en.wiktionary.org/wiki/African-American#Noun");
+
+            URL_Add("America", "https://en.wiktionary.org/wiki/America#Proper_noun");
+
+            URL_Add("American", "https://en.wiktionary.org/wiki/American#Adjective");
+
+            URL_Add("American Megatrends International", "https://en.wikipedia.org/wiki/American_Megatrends");
+
+            URL_Add("American English", "https://en.wikipedia.org/wiki/American_English");
+
+            URL_Add("British English", "https://en.wikipedia.org/wiki/British_English");
+
+            URL_Add("Bank of America", "https://en.wikipedia.org/wiki/Bank_of_America");
+
+            URL_Add("North American XB-70 Valkyrie", "https://en.wikipedia.org/wiki/North_American_XB-70_Valkyrie");
+
+            URL_Add("North American English", "https://en.wikipedia.org/wiki/North_American_English");
+
+            URL_Add("North Americans", "https://en.wiktionary.org/wiki/North_American#Noun");
+
+            URL_Add("North American", "https://en.wiktionary.org/wiki/North_American#Adjective");
+
+            URL_Add("two-party system", "https://en.wikipedia.org/wiki/Two-party_system");
+
+            URL_Add("Republican Party", "https://en.wikipedia.org/wiki/Republican_Party_(United_States)");
+
+            URL_Add("Republican", "https://en.wiktionary.org/wiki/Republican#Noun");
+
+            URL_Add("United States Congress", "https://en.wikipedia.org/wiki/United_States_Congress");
+
+            URL_Add("United States Air Force", "https://en.wikipedia.org/wiki/United_States_Air_Force");
+
+            URL_Add("United States Department of Justice", "https://en.wikipedia.org/wiki/United_States_Department_of_Justice");
+
+            URL_Add("United States Department of Agriculture", "https://en.wikipedia.org/wiki/United_States_Department_of_Agriculture");
+
+            URL_Add("United States Department of Defense", "https://en.wikipedia.org/wiki/United_States_Department_of_Defense");
+
+            URL_Add("United States Department of Homeland Security", "https://en.wikipedia.org/wiki/United_States_Department_of_Homeland_Security");
+
+            URL_Add("United States Customs and Border Protection", "https://en.wikipedia.org/wiki/U.S._Customs_and_Border_Protection");
+
+            URL_Add("United States of America Computing Olympiad", "https://en.wikipedia.org/wiki/United_States_of_America_Computing_Olympiad");
+
+            URL_Add("United States keyboard layout", "https://en.wikipedia.org/wiki/British_and_American_keyboards#Windows_keyboards");
+
+            URL_Add("Ohio State University", "https://en.wikipedia.org/wiki/Ohio_State_University");
+
+            URL_Add("Pennsylvania State University", "https://en.wikipedia.org/wiki/Pennsylvania_State_University");
+
+            URL_Add("AP United States History", "https://en.wikipedia.org/wiki/AP_United_States_History");
+
+            URL_Add("Texas Instruments", "https://en.wikipedia.org/wiki/Texas_Instruments");
+
+            URL_Add("Tiva", "https://eu.mouser.com/new/texas-instruments/ti-tiva-mcus/");
+
+            URL_Add("Navy SEAL", "https://en.wikipedia.org/wiki/United_States_Navy_SEALs");
+
+            URL_Add("Washington, D.C.", "https://en.wikipedia.org/wiki/Washington%2C_D.C.");
+
+            URL_Add("Washington metropolitan area", "https://en.wikipedia.org/wiki/Washington_metropolitan_area");
+
+            URL_Add("Washington", "https://en.wikipedia.org/wiki/Washington,_D.C.");
+
+            URL_Add("The Washington Post", "https://en.wikipedia.org/wiki/The_Washington_Post");
+
+            URL_Add("Alabama, United States", "https://en.wikipedia.org/wiki/Alabama");
+
+            URL_Add("Alaska, United States", "https://en.wikipedia.org/wiki/Alaska");
+
+            URL_Add("Arizona, United States", "https://en.wikipedia.org/wiki/Arizona");
+
+            URL_Add("California, United States", "https://en.wikipedia.org/wiki/California");
+
+            URL_Add("Colorado, United States", "https://en.wikipedia.org/wiki/Colorado");
+
+            URL_Add("Florida, United States", "https://en.wikipedia.org/wiki/Florida");
+
+            URL_Add("Hawaii, United States", "https://en.wikipedia.org/wiki/Hawaii");
+
+            URL_Add("Kentucky, United States", "https://en.wikipedia.org/wiki/Kentucky");
+
+            URL_Add("Michigan, United States", "https://en.wikipedia.org/wiki/Michigan");
+
+            URL_Add("Minnesota, United States", "https://en.wikipedia.org/wiki/Minnesota");
+
+            URL_Add("Mississippi, United States", "https://en.wikipedia.org/wiki/Mississippi");
+
+            URL_Add("New Mexico, United States", "https://en.wikipedia.org/wiki/New_Mexico");
+
+            URL_Add("North Carolina, United States", "https://en.wikipedia.org/wiki/North_Carolina");
+
+            URL_Add("Oklahoma, United States", "https://en.wikipedia.org/wiki/Oklahoma");
+
+            URL_Add("South Carolina, United States", "https://en.wikipedia.org/wiki/South_Carolina");
+
+            URL_Add("Tennessee, United States", "https://en.wikipedia.org/wiki/Tennessee");
+
+            URL_Add("Texas, United States", "https://en.wikipedia.org/wiki/Texas");
+
+            URL_Add("West Virginia, United States", "https://en.wikipedia.org/wiki/West_Virginia");
+
+            URL_Add("Louisiana, United States", "https://en.wikipedia.org/wiki/Louisiana");
+
+            URL_Add("Vermont, United States", "https://en.wikipedia.org/wiki/Vermont");
+
+            URL_Add("Wisconsin, United States", "https://en.wikipedia.org/wiki/Wisconsin");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -149078,7 +149090,11 @@ namespace OverflowHelper.core
             // Jet engines. Aviation
             correctionAdd("n1_", "N1_");
 
-            correctionAdd("PIC_", "pilot in command_"); // Aviation
+            // Aviation
+            correctionAdd("LOC_", "loss of control_");
+
+            // Aviation
+            correctionAdd("PIC_", "pilot in command_");
 
             // Aviation
             //
@@ -153406,6 +153422,7 @@ namespace OverflowHelper.core
             correctionAdd("Python's standard library_", "Python standard library_");
             correctionAdd("Python’s standard library_", "Python standard library_");
             correctionAdd("Python Standard Library_", "Python standard library_");
+            correctionAdd("Python standard lib_", "Python standard library_");
             correctionAdd("C standard library_", "Python standard library_"); // For the cross-reference
             correctionAdd("stdlib_", "Python standard library_"); // Not strictly necessary (it is covered by cross-references), but for a direct lookup
 
@@ -157378,7 +157395,18 @@ namespace OverflowHelper.core
             //
             // A C / C++ Standard Library function
             //
-            // Alternative URL: <https://www.gnu.org/software/libc/manual/2.37/html_node/Formatted-Output-Functions.html#index-sprintf>
+            // Alternative URL:
+            //
+            //   <https://www.gnu.org/software/libc/manual/2.37/html_node/Formatted-Output-Functions.html#index-sprintf>
+            //     Now effectively broken...
+            //
+            //   <https://sourceware.org/glibc/manual/2.44/html_node/Formatted-Output-Functions.html#index-sprintf>
+            //     But it doesn't contain information about the format
+            //     specifiers. They are, for example, in
+            //
+            //       <https://sourceware.org/glibc/manual/2.44/html_node/Floating_002dPoint-Conversions.html>
+            //         12.12.5 Floating-Point Conversions
+            //
             correctionAdd("sprintf_", "sprintf()_"); // C / C++
 
             // Mostly for the alternative link.
@@ -164811,8 +164839,6 @@ namespace OverflowHelper.core
 
             URL_Add("chrono (tag wiki)_", "https://stackoverflow.com/questions/tagged/chrono");
 
-            URL_Add("propeller_", "https://en.wiktionary.org/wiki/prop#Noun_3");
-
             URL_Add("GAWK (tag wiki)_", "https://stackoverflow.com/questions/tagged/gawk");
 
             URL_Add("AWK (tag wiki)_", "https://stackoverflow.com/questions/tagged/awk");
@@ -165039,8 +165065,6 @@ namespace OverflowHelper.core
 
             URL_Add("most valuable professional_", "https://mvp.microsoft.com/en-US/Overview");
 
-            URL_Add("airport_", "https://en.wikipedia.org/wiki/Airport");
-
             URL_Add("Web 3.0_", "https://en.wikipedia.org/wiki/Web3");
 
             URL_Add("Protein Data Bank_", "https://en.wikipedia.org/wiki/Protein_Data_Bank_(file_format)");
@@ -165138,8 +165162,6 @@ namespace OverflowHelper.core
             URL_Add("EFI system partition_", "https://en.wikipedia.org/wiki/EFI_system_partition");
 
             URL_Add("Parted_", "https://en.wikipedia.org/wiki/GNU_Parted");
-
-            URL_Add("air defence_", "https://en.wikipedia.org/wiki/Anti-aircraft_warfare");
 
             URL_Add("GNU Units_", "https://en.wikipedia.org/wiki/GNU_Units");
 
@@ -165319,10 +165341,6 @@ namespace OverflowHelper.core
 
             URL_Add("DOS_", "https://en.wikipedia.org/wiki/DOS");
 
-            URL_Add("Brussels Airport_", "https://en.wikipedia.org/wiki/Brussels_Airport");
-
-            URL_Add("Indira Gandhi International Airport_", "https://en.wikipedia.org/wiki/Indira_Gandhi_International_Airport");
-
             URL_Add("gave_", "https://en.wiktionary.org/wiki/give#Verb");
 
             URL_Add("perf_", "https://en.wikipedia.org/wiki/Perf_(Linux)");
@@ -165372,8 +165390,6 @@ namespace OverflowHelper.core
             URL_Add("Dynamic Adaptive Streaming over HTTP_", "https://en.wikipedia.org/wiki/Dynamic_Adaptive_Streaming_over_HTTP");
 
             URL_Add("Microsoft Teams_", "https://en.wikipedia.org/wiki/Microsoft_Teams");
-
-            URL_Add("mean sea level_", "https://en.wikipedia.org/wiki/Sea_level");
 
             URL_Add("Apple M2_", "https://en.wikipedia.org/wiki/Apple_M2");
 
@@ -166315,8 +166331,6 @@ namespace OverflowHelper.core
 
             URL_Add("administration_", "https://en.wiktionary.org/wiki/administration#Noun");
 
-            URL_Add("second-in-command_", "https://en.wiktionary.org/wiki/second-in-command#Noun");
-
             URL_Add("single_", "https://en.wiktionary.org/wiki/single#Adjective");
 
             URL_Add("source_", "https://en.wikipedia.org/wiki/Dot_(command)#source"); // Old: <https://en.wikipedia.org/wiki/Dot_(command)#Source>
@@ -166354,8 +166368,6 @@ namespace OverflowHelper.core
             URL_Add("casually_", "https://en.wiktionary.org/wiki/casually#Adverb");
 
             URL_Add("hidden_", "https://en.wiktionary.org/wiki/hidden#Adjective");
-
-            URL_Add("autopilot_", "https://en.wikipedia.org/wiki/Autopilot");
 
             URL_Add("name server_", "https://en.wikipedia.org/wiki/Name_server");
 
@@ -166472,8 +166484,6 @@ namespace OverflowHelper.core
             URL_Add("pin_", "https://en.wiktionary.org/wiki/pin#Noun");
 
             URL_Add("Kickstarter_", "https://en.wikipedia.org/wiki/Kickstarter");
-
-            URL_Add("Pittsburgh International Airport_", "https://en.wikipedia.org/wiki/Pittsburgh_International_Airport");
 
             URL_Add("entity_", "https://en.wiktionary.org/wiki/entity#Noun");
 
@@ -167151,8 +167161,6 @@ namespace OverflowHelper.core
 
             URL_Add("key chatter_", "https://deskthority.net/wiki/Chatter");
 
-            URL_Add("pilot in command_", "https://en.wikipedia.org/wiki/Pilot_in_command");
-
             URL_Add("representative_", "https://en.wiktionary.org/wiki/rep#Noun");
 
             URL_Add("ods_", "https://en.wikipedia.org/wiki/OpenDocument_technical_specification#Document_representation");
@@ -167200,8 +167208,6 @@ namespace OverflowHelper.core
             URL_Add("engine_", "https://en.wiktionary.org/wiki/engine#Noun");
 
             URL_Add("reverse-engineer_", "https://en.wiktionary.org/wiki/reverse-engineer#Verb");
-
-            URL_Add("N1_", "https://en.wikipedia.org/wiki/Airbreathing_jet_engine#Terminology");
 
             URL_Add("SRE_", "https://en.wikipedia.org/wiki/Site_reliability_engineering");
 
@@ -167516,12 +167522,6 @@ namespace OverflowHelper.core
             URL_Add("LG_", "https://en.wikipedia.org/wiki/LG_Electronics");
 
             URL_Add("HTC HD2_", "https://en.wikipedia.org/wiki/HTC_HD2");
-
-            URL_Add("plain_", "https://en.wiktionary.org/wiki/plain#Adjective");
-
-            URL_Add("aeroplane_", "https://en.wiktionary.org/wiki/aeroplane#Noun");
-
-            URL_Add("aircraft_", "https://en.wiktionary.org/wiki/aircraft#Noun");
 
             URL_Add("Python Software Foundation_", "https://en.wikipedia.org/wiki/Python_Software_Foundation");
 
@@ -168091,8 +168091,6 @@ namespace OverflowHelper.core
 
             URL_Add("flair_", "https://www.youtube.com/watch?v=_ChQK8j6so8&t=1s");
 
-            URL_Add("the Bernoulli myth about lift_", "https://www.youtube.com/watch?v=QKCK4lJLQHU&t=15m5s");
-
             URL_Add("teenie-tiny_", "https://www.youtube.com/watch?v=ICkWjdQuK7Q");
 
             URL_Add("a leading theory_", "https://www.youtube.com/watch?v=UuCqeg4zV_o&list=PLSoD2CcPrumFJREVL6RmMnZP5U7sGYYi2&t=51s");
@@ -168136,24 +168134,6 @@ namespace OverflowHelper.core
             URL_Add("MSI Afterburner_", "https://en.wikipedia.org/wiki/RivaTuner");
 
             URL_Add("search engines_", "https://en.wiktionary.org/wiki/search_engine#Noun");
-
-            URL_Add("fight_", "https://en.wiktionary.org/wiki/fight#Verb");
-
-            URL_Add("Papua New Guinea_", "https://en.wikipedia.org/wiki/Papua_New_Guinea");
-
-            URL_Add("macros_", "https://en.wiktionary.org/wiki/macro#Noun_2");
-
-            URL_Add("Mach_", "https://en.wiktionary.org/wiki/Mach#Noun");
-
-            URL_Add("macro pad_", "https://keyboardsexpert.com/macropad-mechanical-keyboard-faqs/");
-
-            URL_Add("Mac_", "https://en.wikipedia.org/wiki/Mac_(computer)"); // Collision with MAC, Media Access Control (computer networking related). Old: <https://en.wikipedia.org/wiki/Macintosh>
-
-            URL_Add("Mac OS_", "https://en.wikipedia.org/wiki/Classic_Mac_OS");
-
-            URL_Add("Mac&nbsp;OS&nbsp;X_", "https://en.wikipedia.org/wiki/Mac_OS_X");
-
-            URL_Add("MacBook Pro M1_", "https://en.wikipedia.org/wiki/MacBook_Pro#14-inch_and_16-inch_(2021%E2%80%93present)"); // Old: https://en.wikipedia.org/wiki/MacBook_Pro#Sixth_generation_(M1)
 
             URL_Add("allow_", "https://en.wiktionary.org/wiki/allow#Verb");
 
@@ -168537,28 +168517,6 @@ namespace OverflowHelper.core
 
             URL_Add("secure_", "https://en.wiktionary.org/wiki/secure#Verb");
 
-            URL_Add("third_", "https://en.wiktionary.org/wiki/third#Adjective");
-
-            URL_Add("third party_", "https://en.wiktionary.org/wiki/third_party#Noun");
-
-            URL_Add("fourth quarter_", "https://en.wikipedia.org/wiki/Calendar_year#Quarter_year");
-
-            URL_Add("second quarter_", "https://en.wikipedia.org/wiki/Calendar_year#Quarter_year");
-
-            URL_Add("third quarter_", "https://en.wikipedia.org/wiki/Calendar_year#Quarter_year");
-
-            URL_Add("headquarters_", "https://en.wiktionary.org/wiki/headquarters#Noun");
-
-            URL_Add("person_", "https://en.wiktionary.org/wiki/person#Noun");
-
-            URL_Add("first officer_", "https://en.wikipedia.org/wiki/First_officer_(aviation)");
-
-            URL_Add("first quarter_", "https://en.wikipedia.org/wiki/Calendar_year#Quarter_year");
-
-            URL_Add("first-person shooter_", "https://en.wikipedia.org/wiki/First-person_shooter");
-
-            URL_Add("PC_", "https://en.wikipedia.org/wiki/Personal_computer");
-
             URL_Add("work around_", "https://en.wiktionary.org/wiki/work_around#Verb");
 
             URL_Add("workplace_", "https://en.wiktionary.org/wiki/workplace#Noun");
@@ -168610,24 +168568,6 @@ namespace OverflowHelper.core
             URL_Add("definition_", "https://en.wiktionary.org/wiki/definition#Noun"); // Old: https://en.wiktionary.org/wiki/definition
 
             URL_Add("Definition of Done_", "https://en.wikipedia.org/wiki/Scrum_(software_development)#Sprint_retrospective");
-
-            URL_Add("appointment_", "https://en.wiktionary.org/wiki/appointment#Noun");
-
-            URL_Add("pointed out_", "https://en.wiktionary.org/wiki/point_out#Verb");
-
-            URL_Add("point of presence_", "https://en.wikipedia.org/wiki/Point_of_presence");
-
-            URL_Add("mouse pointer_", "https://en.wikipedia.org/wiki/Cursor_(user_interface)#Pointer");
-
-            URL_Add("entry point_", "https://en.wiktionary.org/wiki/entry_point#Noun");
-
-            URL_Add("floating point_", "https://en.wiktionary.org/wiki/floating_point#Adjective");
-
-            URL_Add("CSS breakpoint_", "https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/");
-
-            URL_Add("Lagrange point L2_", "https://en.wikipedia.org/wiki/Lagrange_point#L2");
-
-            URL_Add("precession_", "https://en.wiktionary.org/wiki/precession#Noun");
 
             URL_Add("subcontracted_", "https://en.wiktionary.org/wiki/subcontract#Verb");
 
@@ -168913,8 +168853,6 @@ namespace OverflowHelper.core
 
             URL_Add("Laravel Pusher Channels_", "https://pusher.com/laravel");
 
-            URL_Add("POP_", "https://en.wikipedia.org/wiki/Gregorio_Luper%C3%B3n_International_Airport");
-
             URL_Add("hot-swap_", "https://en.wiktionary.org/wiki/hot-swap#Verb");
 
             URL_Add("hotkey_", "https://en.wiktionary.org/wiki/hotkey#Noun");
@@ -169138,6 +169076,98 @@ namespace OverflowHelper.core
             URL_Add("photonic-crystal fiber_", "https://en.wikipedia.org/wiki/Photonic-crystal_fiber");
 
             URL_Add("versions_", "https://en.wiktionary.org/wiki/version#Noun");
+
+            URL_Add("macros_", "https://en.wiktionary.org/wiki/macro#Noun_2");
+
+            URL_Add("macro pad_", "https://keyboardsexpert.com/macropad-mechanical-keyboard-faqs/");
+
+            URL_Add("Mac_", "https://en.wikipedia.org/wiki/Mac_(computer)"); // Collision with MAC, Media Access Control (computer networking related). Old: <https://en.wikipedia.org/wiki/Macintosh>
+
+            URL_Add("Mac OS_", "https://en.wikipedia.org/wiki/Classic_Mac_OS");
+
+            URL_Add("Mac&nbsp;OS&nbsp;X_", "https://en.wikipedia.org/wiki/Mac_OS_X");
+
+            URL_Add("MacBook Pro M1_", "https://en.wikipedia.org/wiki/MacBook_Pro#14-inch_and_16-inch_(2021%E2%80%93present)"); // Old: https://en.wikipedia.org/wiki/MacBook_Pro#Sixth_generation_(M1)
+
+            URL_Add("appointment_", "https://en.wiktionary.org/wiki/appointment#Noun");
+
+            URL_Add("pointed out_", "https://en.wiktionary.org/wiki/point_out#Verb");
+
+            URL_Add("point of presence_", "https://en.wikipedia.org/wiki/Point_of_presence");
+
+            URL_Add("mouse pointer_", "https://en.wikipedia.org/wiki/Cursor_(user_interface)#Pointer");
+
+            URL_Add("entry point_", "https://en.wiktionary.org/wiki/entry_point#Noun");
+
+            URL_Add("floating point_", "https://en.wiktionary.org/wiki/floating_point#Adjective");
+
+            URL_Add("CSS breakpoint_", "https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/");
+
+            URL_Add("Lagrange point L2_", "https://en.wikipedia.org/wiki/Lagrange_point#L2");
+
+            URL_Add("precession_", "https://en.wiktionary.org/wiki/precession#Noun");
+
+            URL_Add("third_", "https://en.wiktionary.org/wiki/third#Adjective");
+
+            URL_Add("third party_", "https://en.wiktionary.org/wiki/third_party#Noun");
+
+            URL_Add("fourth quarter_", "https://en.wikipedia.org/wiki/Calendar_year#Quarter_year");
+
+            URL_Add("second quarter_", "https://en.wikipedia.org/wiki/Calendar_year#Quarter_year");
+
+            URL_Add("third quarter_", "https://en.wikipedia.org/wiki/Calendar_year#Quarter_year");
+
+            URL_Add("headquarters_", "https://en.wiktionary.org/wiki/headquarters#Noun");
+
+            URL_Add("person_", "https://en.wiktionary.org/wiki/person#Noun");
+
+            URL_Add("PC_", "https://en.wikipedia.org/wiki/Personal_computer");
+
+            URL_Add("Papua New Guinea_", "https://en.wikipedia.org/wiki/Papua_New_Guinea");
+
+            URL_Add("fight_", "https://en.wiktionary.org/wiki/fight#Verb");
+
+            URL_Add("plain_", "https://en.wiktionary.org/wiki/plain#Adjective");
+
+            URL_Add("first quarter_", "https://en.wikipedia.org/wiki/Calendar_year#Quarter_year");
+
+            URL_Add("first-person shooter_", "https://en.wikipedia.org/wiki/First-person_shooter");
+
+            URL_Add("aeroplane_", "https://en.wiktionary.org/wiki/aeroplane#Noun");
+
+            URL_Add("aircraft_", "https://en.wiktionary.org/wiki/aircraft#Noun");
+
+            URL_Add("airport_", "https://en.wikipedia.org/wiki/Airport");
+
+            URL_Add("propeller_", "https://en.wiktionary.org/wiki/prop#Noun_3");
+
+            URL_Add("loss of control_", "https://en.wikipedia.org/wiki/Loss_of_control_(aeronautics)");
+
+            URL_Add("pilot in command_", "https://en.wikipedia.org/wiki/Pilot_in_command");
+
+            URL_Add("first officer_", "https://en.wikipedia.org/wiki/First_officer_(aviation)");
+
+            URL_Add("second-in-command_", "https://en.wiktionary.org/wiki/second-in-command#Noun");
+
+            URL_Add("N1_", "https://en.wikipedia.org/wiki/Airbreathing_jet_engine#Terminology");
+
+            URL_Add("mean sea level_", "https://en.wikipedia.org/wiki/Sea_level");
+
+            URL_Add("autopilot_", "https://en.wikipedia.org/wiki/Autopilot");
+
+            URL_Add("Mach_", "https://en.wiktionary.org/wiki/Mach#Noun");
+
+            URL_Add("the Bernoulli myth about lift_", "https://www.youtube.com/watch?v=QKCK4lJLQHU&t=15m5s");
+
+            URL_Add("air defence_", "https://en.wikipedia.org/wiki/Anti-aircraft_warfare");
+
+            URL_Add("Pittsburgh International Airport_", "https://en.wikipedia.org/wiki/Pittsburgh_International_Airport");
+
+            URL_Add("Brussels Airport_", "https://en.wikipedia.org/wiki/Brussels_Airport");
+
+            URL_Add("Indira Gandhi International Airport_", "https://en.wikipedia.org/wiki/Indira_Gandhi_International_Airport");
+
+            URL_Add("POP_", "https://en.wikipedia.org/wiki/Gregorio_Luper%C3%B3n_International_Airport");
 
         } //addLookupData_alternativeWordSet()
 
@@ -170670,6 +170700,10 @@ namespace OverflowHelper.core
             //
             // Alternative URLs:
             //
+            //   <https://www.reddit.com/r/Keychron/comments/1j092s2/comment/oub6e8t/>
+            //     A canonical for treating the symptoms
+            //     by changing the key debounce time
+            //
             //   <https://keychronsupport.zendesk.com/hc/en-us/articles/33474131840663-What-should-I-do-if-my-keyboard-keys-have-a-double-click-issue-require-multiple-presses-or-require-extra-force-to-work>
             //     What should I do if my keyboard keys have a double-click
             //     issue, require multiple presses, or require extra force
@@ -171969,6 +172003,9 @@ namespace OverflowHelper.core
 
             correctionAdd("KTM__", "Tribhuvan International Airport__");
             correctionAdd("TIA__", "Tribhuvan International Airport__");
+
+            // Aviation
+            correctionAdd("LAS__", "McCarran International Airport__");
 
             correctionAdd("mac__", "Mac__"); // The computer. For the Wiktionary entry
 
@@ -173382,6 +173419,7 @@ namespace OverflowHelper.core
             // For the cross-reference to the source code
             // Note: In Git branch "hall_effect_playground"
             //
+            correctionAdd("Keychron&nbsp;Q6&nbsp;HE (100%)__", "Keychron Q6 HE source code__");
             correctionAdd("Keychron&nbsp;Q6&nbsp;HE__", "Keychron Q6 HE source code__");
             correctionAdd("Keychron Q6 HE__", "Keychron Q6 HE source code__");
 
@@ -173564,9 +173602,6 @@ namespace OverflowHelper.core
             correctionAdd("Probability__", "probability__");
             correctionAdd("probablity__", "probability__");
             correctionAdd("prob__", "probability__");
-
-            // Aviation
-            correctionAdd("LAS__", "McCarran International Airport__");
 
             // Tcl
             correctionAdd("expect__", "Expect__");
@@ -174586,10 +174621,6 @@ namespace OverflowHelper.core
 
             URL_Add("TCP/IP port__", "https://en.wikipedia.org/wiki/Transmission_Control_Protocol#TCP_ports");
 
-            URL_Add("Tribhuvan International Airport__", "https://en.wikipedia.org/wiki/Tribhuvan_International_Airport");
-
-            URL_Add("McCarran International Airport__", "https://en.wikipedia.org/wiki/Harry_Reid_International_Airport"); // Old: https://en.wikipedia.org/wiki/McCarran_International_Airport
-
             URL_Add("Crystal Reports__", "https://en.wikipedia.org/wiki/Crystal_Reports");
 
             URL_Add("Jack Ganssle__", "https://www.ganssle.com/bio.htm");
@@ -175281,6 +175312,10 @@ namespace OverflowHelper.core
             URL_Add("500&nbsp;°C__", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
 
             URL_Add("customer support__", "https://en.wikipedia.org/wiki/Customer_service#Customer_support");
+
+            URL_Add("Tribhuvan International Airport__", "https://en.wikipedia.org/wiki/Tribhuvan_International_Airport");
+
+            URL_Add("McCarran International Airport__", "https://en.wikipedia.org/wiki/Harry_Reid_International_Airport"); // Old: https://en.wikipedia.org/wiki/McCarran_International_Airport
 
         } //addLookupData_alternativeWordSet2()
 
@@ -176718,6 +176753,7 @@ namespace OverflowHelper.core
             correctionAdd("k he___", "Keychron&nbsp;K&nbsp;HE&nbsp;series___");
 
             // For a direct text, "Q HE series"
+            correctionAdd("Keychron&nbsp;Q6&nbsp;HE (100%)___", "Keychron&nbsp;Q&nbsp;HE&nbsp;series___");
             correctionAdd("Keychron&nbsp;Q6&nbsp;HE___", "Keychron&nbsp;Q&nbsp;HE&nbsp;series___");
             correctionAdd("Q&nbsp;HE&nbsp;series___", "Keychron&nbsp;Q&nbsp;HE&nbsp;series___");
             correctionAdd("Keychron Q HE series___", "Keychron&nbsp;Q&nbsp;HE&nbsp;series___"); // Sort of identity mapping
