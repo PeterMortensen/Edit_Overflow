@@ -1437,6 +1437,7 @@ namespace OverflowHelper.core
             correctionAdd("non-White", "nonwhite");
 
             correctionAdd("allow-list", "allowlist");
+            correctionAdd("white list", "allowlist");
             correctionAdd("whitelist", "allowlist");
 
             correctionAdd("allow-listing", "allowlisting");
@@ -9853,6 +9854,7 @@ namespace OverflowHelper.core
             correctionAdd("reavel", "reveal");
 
             correctionAdd("reveiled", "revealed");
+            correctionAdd("reviled", "revealed");
 
             correctionAdd("deep coded", "hacked");
 
@@ -10008,6 +10010,7 @@ namespace OverflowHelper.core
 
             // The verb
             correctionAdd("answeared", "answered");
+            correctionAdd("answerred", "answered");
             correctionAdd("anwsered", "answered");
             correctionAdd("aswered", "answered");
             correctionAdd("awsered", "answered");
@@ -12693,6 +12696,9 @@ namespace OverflowHelper.core
             correctionAdd("thermo-dynamical", "thermodynamical");
 
             // Note: "nuclear power plant" is in an alternative word set
+            //
+            //  U+2622: ☢
+            //
             correctionAdd("nucular", "nuclear");
 
             correctionAdd("thermo nuclear", "thermonuclear");
@@ -26340,6 +26346,7 @@ namespace OverflowHelper.core
             correctionAdd("letsencrypt", "Let's Encrypt");
             correctionAdd("LetsEncrypt", "Let's Encrypt");
             correctionAdd("Letsencrypt", "Let's Encrypt");
+            correctionAdd("letsencrpyt", "Let's Encrypt");
 
             correctionAdd("startssl", "StartSSL");
 
@@ -27348,6 +27355,9 @@ namespace OverflowHelper.core
             correctionAdd("Webkit", "WebKit");
             correctionAdd("webKit", "WebKit");
             correctionAdd("wekit", "WebKit");
+
+            // WebKit
+            correctionAdd("javascriptcore", "JavaScriptCore");
 
             // A web browser
             correctionAdd("netscape", "Netscape");
@@ -28676,6 +28686,14 @@ namespace OverflowHelper.core
 
             // JavaScript. DOM
             correctionAdd("JSDOM", "jsdom");
+
+            // JavaScript
+            //
+            // The MDN entry is far less clear...
+            // 
+            //   <https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event>
+            // 
+            correctionAdd("ONCHANGE", "onchange");
 
             // JavaScript
             correctionAdd("Template Literal", "template literal");
@@ -33316,6 +33334,8 @@ namespace OverflowHelper.core
 
             correctionAdd("incuring", "incurring");
 
+            correctionAdd("italicizing", "italicising");
+
             correctionAdd("symetric", "symmetric");
 
             correctionAdd("symetrically", "symmetrically");
@@ -37263,7 +37283,9 @@ namespace OverflowHelper.core
             correctionAdd("infinitely patient tutor", "ChatGPT");
             correctionAdd("global brain statistics", "ChatGPT");
             correctionAdd("stochastic parrot", "ChatGPT");
+            correctionAdd("magical parrots", "ChatGPT");
             correctionAdd("capable parrot", "ChatGPT");
+            correctionAdd("magical parrot", "ChatGPT");
             correctionAdd("open chat GPT", "ChatGPT");
             correctionAdd("OpenChat GPT", "ChatGPT");
             correctionAdd("openchat GPT", "ChatGPT");
@@ -39638,6 +39660,7 @@ namespace OverflowHelper.core
             correctionAdd("Gitbucket", "Bitbucket");
             correctionAdd("bitbuket", "Bitbucket");
 
+            // Similar to GitHub
             correctionAdd("Git-lab", "GitLab");
             correctionAdd("Gitlab", "GitLab");
             correctionAdd("gitlab", "GitLab");
@@ -39647,6 +39670,9 @@ namespace OverflowHelper.core
             // Likely a duplicate of "GitLab CI"
             correctionAdd("Gitlab CI/CD", "GitLab CI/CD");
 
+            // Similar to GitHub
+            correctionAdd("gitorious", "Gitorious");
+
             correctionAdd("gitlab-ci", "GitLab CI");
             correctionAdd("Gitlab ci", "GitLab CI");
             correctionAdd("gitlab-ce", "GitLab CI");
@@ -39655,9 +39681,6 @@ namespace OverflowHelper.core
             correctionAdd("Gitlab Ci", "GitLab CI");
             correctionAdd("gitlab ci", "GitLab CI");
             correctionAdd("Gitlab-ci", "GitLab CI");
-
-            // Similar to GitHub
-            correctionAdd("gitorious", "Gitorious");
 
             // Though the actual name, "Sourcetree" has
             // now been removed from the Wikipedia page...
@@ -49568,6 +49591,10 @@ namespace OverflowHelper.core
             correctionAdd("IaC", "infrastructure as code");
             correctionAdd("iac", "infrastructure as code");
 
+            // Alternative URLs:
+            //
+            //   <https://compart.com/en/unicode>
+            //
             correctionAdd("unicode", "Unicode");
             correctionAdd("UNICODE", "Unicode");
             correctionAdd("UniCode", "Unicode");
@@ -53408,6 +53435,7 @@ namespace OverflowHelper.core
 
             correctionAdd("crasiness", "craziness");
             correctionAdd("crazyness", "craziness");
+            correctionAdd("cracyness", "craziness");
 
             correctionAdd("crase", "craze");
 
@@ -55954,6 +55982,8 @@ namespace OverflowHelper.core
             correctionAdd("communucate", "communicate");
             correctionAdd("comminicate", "communicate");
             correctionAdd("commuicate", "communicate");
+
+            correctionAdd("communites", "communicates");
 
             correctionAdd("comminicating", "communicating");
             correctionAdd("comunicating", "communicating");
@@ -62198,6 +62228,9 @@ namespace OverflowHelper.core
             correctionAdd("CIA", "Via"); // A true typo
             correctionAdd("VIa", "Via");
 
+            // (Note: This is more or less a duplicate of a
+            //        mapping in an alternative word set)
+            //
             // Sort of Via, but from the command line
             //
             // Alternative URLs:
@@ -64111,6 +64144,7 @@ namespace OverflowHelper.core
             //      Documentation? The file extension?
             //      "Keyboard layouts" then?
             //
+            correctionAdd("split ergonomic ortholinear mechanical keyboard", "split ergonomic mechanical keyboard");
             correctionAdd("split ergo mechanical keyboard", "split ergonomic mechanical keyboard");
             correctionAdd("split mechanical keyboard", "split ergonomic mechanical keyboard");
             correctionAdd("split ergonomic keyboard", "split ergonomic mechanical keyboard");
@@ -78201,6 +78235,7 @@ namespace OverflowHelper.core
             correctionAdd("monorepo", "monolithic repository");
 
             correctionAdd("repositiories", "repositories");
+            correctionAdd("respositories", "repositories");
             correctionAdd("repo's", "repositories");
             correctionAdd("Repo's", "repositories");
             correctionAdd("reopos", "repositories");
@@ -98132,8 +98167,6 @@ namespace OverflowHelper.core
             correctionAdd("Lomboc", "Lombok");
             correctionAdd("lomboc", "Lombok");
 
-            correctionAdd("Nativescript", "NativeScript");
-
             correctionAdd("JQUnit", "jqUnit");
             correctionAdd("jQUnit", "jqUnit");
 
@@ -98382,6 +98415,7 @@ namespace OverflowHelper.core
             correctionAdd("iOS 6", "iOS&nbsp;6"); // Sort of identity mapping
             correctionAdd("iOS6", "iOS&nbsp;6");
 
+            correctionAdd("iOS 7.0", "iOS&nbsp;7");
             correctionAdd("iOS 7", "iOS&nbsp;7");
             correctionAdd("iOS7", "iOS&nbsp;7");
 
@@ -98941,11 +98975,13 @@ namespace OverflowHelper.core
             correctionAdd("Sierra 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
             correctionAdd("macOS 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
             correctionAdd("MacOS 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("OS X Sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
             correctionAdd("Mac Sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
             correctionAdd("OS X 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
             correctionAdd("MAC sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
             correctionAdd("mac sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
             correctionAdd("Mac sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("OSX Sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
             correctionAdd("Mac 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
             correctionAdd("Sierra.6", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
             correctionAdd("Sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
@@ -117420,8 +117456,6 @@ namespace OverflowHelper.core
 
             URL_Add("slows", "https://en.wiktionary.org/wiki/slow#Verb");
 
-            URL_Add("NativeScript", "https://en.wikipedia.org/wiki/NativeScript");
-
             URL_Add("Plastic SCM", "https://en.wikipedia.org/wiki/Plastic_SCM");
 
             URL_Add("Test of English as a Foreign Language", "https://en.wikipedia.org/wiki/Test_of_English_as_a_Foreign_Language");
@@ -121101,8 +121135,6 @@ namespace OverflowHelper.core
             URL_Add("outer loop", "https://en.wikipedia.org/wiki/Outer_loop");
 
             URL_Add("Snake", "https://en.wikipedia.org/wiki/Snake_(video_game_genre)");
-
-            URL_Add("communicative", "https://en.wiktionary.org/wiki/communicative#Adjective");
 
             URL_Add("Euler angles", "https://en.wikipedia.org/wiki/Euler_angles");
 
@@ -130158,42 +130190,6 @@ namespace OverflowHelper.core
 
             URL_Add("Visual Micro", "https://www.visualmicro.com/page/User-Guide.aspx?doc=index");
 
-            URL_Add("community", "https://en.wiktionary.org/wiki/community#Noun");
-
-            URL_Add("communities", "https://en.wiktionary.org/wiki/community#Noun");
-
-            URL_Add("community-driven", "https://en.wikipedia.org/wiki/Community-driven_development");
-
-            URL_Add("What a very bad day at work taught me about building Stack Overflow's community", "https://stackoverflow.blog/2019/07/18/building-community-inclusivity-stack-overflow");
-
-            URL_Add("fighting game community", "https://en.wikipedia.org/wiki/Fighting_game_community");
-
-            URL_Add("PyCharm Community Edition", "https://en.wikipedia.org/wiki/JetBrains#IDEs");
-
-            URL_Add("commuter", "https://en.wiktionary.org/wiki/commuter#Noun");
-
-            URL_Add("communist", "https://en.wiktionary.org/wiki/communist#Adjective");
-
-            URL_Add("communicate", "https://en.wiktionary.org/wiki/communicate#Verb");
-
-            URL_Add("communicating", "https://en.wiktionary.org/wiki/communicate#Verb");
-
-            URL_Add("communication", "https://en.wiktionary.org/wiki/communication#Noun");
-
-            URL_Add("wireless communication", "https://en.wikipedia.org/wiki/Wireless");
-
-            URL_Add("telecommunication", "https://en.wikipedia.org/wiki/Telecommunication");
-
-            URL_Add("telecommunications company", "https://en.wikipedia.org/wiki/Telephone_company");
-
-            URL_Add("Verizon", "https://en.wikipedia.org/wiki/Verizon_Communications");
-
-            URL_Add("working from home", "https://en.wikipedia.org/wiki/Remote_work"); // Old: <https://en.wikipedia.org/wiki/Telecommuting>
-
-            URL_Add("Zoom", "https://en.wikipedia.org/wiki/Zoom_Video_Communications#Products_and_services");
-
-            URL_Add("NFC", "https://en.wikipedia.org/wiki/Near-field_communication"); // Old: https://en.wikipedia.org/wiki/Near_field_communication
-
             URL_Add("AppendLine", "https://learn.microsoft.com/en-us/dotnet/api/system.text.stringbuilder.appendline");
 
             URL_Add("without much fuss", "https://textranch.com/c/without-a-fuss-or-without-much-fuss/");
@@ -134124,8 +134120,6 @@ namespace OverflowHelper.core
 
             URL_Add("Web&nbsp;Applications (Stack Exchange site)", "https://webapps.stackexchange.com/tour");
 
-            URL_Add("Community&nbsp;Building (Stack Exchange site)", "https://communitybuilding.stackexchange.com/tour");
-
             URL_Add("Retrocomputing (Stack Exchange site)", "https://retrocomputing.stackexchange.com/tour");
 
             URL_Add("Arts&nbsp;&&nbsp;Crafts (Stack Exchange site)", "https://crafts.stackexchange.com/tour");
@@ -134251,6 +134245,8 @@ namespace OverflowHelper.core
             URL_Add("3D&nbsp;Printing (Stack Exchange site)", "https://3dprinting.stackexchange.com/tour");
 
             URL_Add("Super&nbsp;User (Stack Exchange site)", "https://superuser.com/tour"); // Old: https://en.wikipedia.org/wiki/Stack_Overflow#Super_User
+
+            URL_Add("Community&nbsp;Building (Stack Exchange site)", "https://communitybuilding.stackexchange.com/tour");
 
             URL_Add("Stack&nbsp;Apps", "https://stackapps.com/help"); // Old: http://stackapps.com/about
 
@@ -135783,42 +135779,6 @@ namespace OverflowHelper.core
             URL_Add("Tailwind CSS", "https://tailwindcss.com/");
 
             URL_Add("PostCSS", "https://en.wikipedia.org/wiki/PostCSS");
-
-            URL_Add("Community Wiki", "https://meta.stackexchange.com/questions/11740/what-are-community-wiki-posts");
-
-            URL_Add("Stack Overflow for Teams", "https://stackoverflow.design/brand/copywriting/naming/#specific-plans"); // Old: https://meta.stackoverflow.com/tags/stack-overflow-for-teams/info
-
-            URL_Add("Stack Overflow for Agents", "https://meta.stackoverflow.com/questions/438910/introducing-stack-overflow-for-agents");
-
-            URL_Add("Stack Overflow Discord server", "https://meta.stackoverflow.com/questions/411426/");
-
-            URL_Add("Stack Overflow Careers", "https://meta.stackoverflow.com/tags/jobs/info");
-
-            URL_Add("Stack Overflow Developer Story", "https://meta.stackoverflow.com/questions/415293/sunsetting-jobs-developer-story");
-
-            URL_Add("Stack Overflow Jobs", "https://meta.stackoverflow.com/questions/415293/sunsetting-jobs-developer-story");
-
-            URL_Add("Stack Overflow Trends", "https://insights.stackoverflow.com/trends?tags=");
-
-            URL_Add("Stack Overflow gave up enforcing the license", "https://meta.stackoverflow.com/a/413407");
-
-            URL_Add("Stack Overflow hates fun", "https://stackoverflow.blog/2010/01/04/stack-overflow-where-we-hate-fun/");
-
-            URL_Add("Stack Overflow Labs", "https://stackoverflow.co/labs/");
-
-            URL_Add("Stack Overflow AI Assist", "https://meta.stackexchange.com/questions/415115/ai-assist-is-now-available-on-stack-overflow");
-
-            URL_Add("Stack Overflow is not a forum", "https://meta.stackoverflow.com/questions/36818/would-you-recommend-stackexchange-sites-vs-other-types-of-forum/36828#36828");
-
-            URL_Add("Stack Overflow Employees have panic attacks", "https://meta.stackoverflow.com/questions/387546/we-re-removing-hot-meta-posts-from-stack-overflows-sidebar-for-now-moderator/387633#387633");
-
-            URL_Add("Should 'Hi', 'thanks', taglines, and salutations be removed from posts?", "https://meta.stackexchange.com/questions/2950/");
-
-            URL_Add("Stack Exchange greetings filter", "https://meta.stackexchange.com/questions/2950/should-hi-thanks-taglines-and-salutations-be-removed-from-posts/93989#93989");
-
-            URL_Add("Stack Overflow data dump", "https://meta.stackexchange.com/tags/data-dump/info");
-
-            URL_Add("documentation dump on Stack Overflow", "https://stackoverflow.com/questions/34319000/what-constitutes-a-valid-c-identifier/34319264#34319264");
 
             URL_Add("dumpster fire", "https://en.wiktionary.org/wiki/dumpster_fire#Noun");
 
@@ -148538,6 +148498,88 @@ namespace OverflowHelper.core
 
             URL_Add("Wisconsin, United States", "https://en.wikipedia.org/wiki/Wisconsin");
 
+            URL_Add("italicising", "https://en.wiktionary.org/wiki/italicise#Verb");
+
+            URL_Add("JavaScriptCore", "https://en.wikipedia.org/wiki/WebKit#JavaScriptCore");
+
+            URL_Add("onchange", "https://www.w3schools.com/jsref/event_onchange.asp");
+
+            URL_Add("commuter", "https://en.wiktionary.org/wiki/commuter#Noun");
+
+            URL_Add("communicate", "https://en.wiktionary.org/wiki/communicate#Verb");
+
+            URL_Add("communicates", "https://en.wiktionary.org/wiki/communicate#Verb");
+
+            URL_Add("communicating", "https://en.wiktionary.org/wiki/communicate#Verb");
+
+            URL_Add("communicative", "https://en.wiktionary.org/wiki/communicative#Adjective");
+
+            URL_Add("communication", "https://en.wiktionary.org/wiki/communication#Noun");
+
+            URL_Add("communist", "https://en.wiktionary.org/wiki/communist#Adjective");
+
+            URL_Add("community", "https://en.wiktionary.org/wiki/community#Noun");
+
+            URL_Add("communities", "https://en.wiktionary.org/wiki/community#Noun");
+
+            URL_Add("community-driven", "https://en.wikipedia.org/wiki/Community-driven_development");
+
+            URL_Add("Community Wiki", "https://meta.stackexchange.com/questions/11740/what-are-community-wiki-posts");
+
+            URL_Add("What a very bad day at work taught me about building Stack Overflow's community", "https://stackoverflow.blog/2019/07/18/building-community-inclusivity-stack-overflow");
+
+            URL_Add("fighting game community", "https://en.wikipedia.org/wiki/Fighting_game_community");
+
+            URL_Add("PyCharm Community Edition", "https://en.wikipedia.org/wiki/JetBrains#IDEs");
+
+            URL_Add("wireless communication", "https://en.wikipedia.org/wiki/Wireless");
+
+            URL_Add("telecommunication", "https://en.wikipedia.org/wiki/Telecommunication");
+
+            URL_Add("telecommunications company", "https://en.wikipedia.org/wiki/Telephone_company");
+
+            URL_Add("Verizon", "https://en.wikipedia.org/wiki/Verizon_Communications");
+
+            URL_Add("working from home", "https://en.wikipedia.org/wiki/Remote_work"); // Old: <https://en.wikipedia.org/wiki/Telecommuting>
+
+            URL_Add("Zoom", "https://en.wikipedia.org/wiki/Zoom_Video_Communications#Products_and_services");
+
+            URL_Add("NFC", "https://en.wikipedia.org/wiki/Near-field_communication"); // Old: https://en.wikipedia.org/wiki/Near_field_communication
+
+            URL_Add("Stack Overflow for Teams", "https://stackoverflow.design/brand/copywriting/naming/#specific-plans"); // Old: https://meta.stackoverflow.com/tags/stack-overflow-for-teams/info
+
+            URL_Add("Stack Overflow for Agents", "https://meta.stackoverflow.com/questions/438910/introducing-stack-overflow-for-agents");
+
+            URL_Add("Stack Overflow Discord server", "https://meta.stackoverflow.com/questions/411426/");
+
+            URL_Add("Stack Overflow Careers", "https://meta.stackoverflow.com/tags/jobs/info");
+
+            URL_Add("Stack Overflow Developer Story", "https://meta.stackoverflow.com/questions/415293/sunsetting-jobs-developer-story");
+
+            URL_Add("Stack Overflow Jobs", "https://meta.stackoverflow.com/questions/415293/sunsetting-jobs-developer-story");
+
+            URL_Add("Stack Overflow Trends", "https://insights.stackoverflow.com/trends?tags=");
+
+            URL_Add("Stack Overflow gave up enforcing the license", "https://meta.stackoverflow.com/a/413407");
+
+            URL_Add("Stack Overflow hates fun", "https://stackoverflow.blog/2010/01/04/stack-overflow-where-we-hate-fun/");
+
+            URL_Add("Stack Overflow Labs", "https://stackoverflow.co/labs/");
+
+            URL_Add("Stack Overflow AI Assist", "https://meta.stackexchange.com/questions/415115/ai-assist-is-now-available-on-stack-overflow");
+
+            URL_Add("Stack Overflow is not a forum", "https://meta.stackoverflow.com/questions/36818/would-you-recommend-stackexchange-sites-vs-other-types-of-forum/36828#36828");
+
+            URL_Add("Stack Overflow Employees have panic attacks", "https://meta.stackoverflow.com/questions/387546/we-re-removing-hot-meta-posts-from-stack-overflows-sidebar-for-now-moderator/387633#387633");
+
+            URL_Add("Should 'Hi', 'thanks', taglines, and salutations be removed from posts?", "https://meta.stackexchange.com/questions/2950/");
+
+            URL_Add("Stack Exchange greetings filter", "https://meta.stackexchange.com/questions/2950/should-hi-thanks-taglines-and-salutations-be-removed-from-posts/93989#93989");
+
+            URL_Add("Stack Overflow data dump", "https://meta.stackexchange.com/tags/data-dump/info");
+
+            URL_Add("documentation dump on Stack Overflow", "https://stackoverflow.com/questions/34319000/what-constitutes-a-valid-c-identifier/34319264#34319264");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -149026,6 +149068,26 @@ namespace OverflowHelper.core
             correctionAdd("the Gulag_", "Gulag_");
             correctionAdd("gulag_", "Gulag_");
 
+            // The old product. The new is "Google Chat".
+            correctionAdd("google talk_", "Google Talk_");
+            correctionAdd("Gtalk_", "Google Talk_");
+            correctionAdd("gtalk_", "Google Talk_");
+            correctionAdd("gTalk_", "Google Talk_");
+            correctionAdd("GTalk_", "Google Talk_");
+
+            // Formerly known as Bard
+            correctionAdd("Google Gemini_", "Gemini_");
+            correctionAdd("gemini_", "Gemini_");
+            correctionAdd("Bard_", "Gemini_");
+
+            // 3D modeling software. Google.
+            correctionAdd("Sketchup_", "SketchUp_");
+            correctionAdd("sketchup_", "SketchUp_");
+            correctionAdd("sketch_", "SketchUp_");
+
+            // An algorithm in Google Search (2013)
+            correctionAdd("hummingbird_", "Google Hummingbird_");
+
             // The noun
             correctionAdd("bulid_", "build_");
 
@@ -149301,6 +149363,127 @@ namespace OverflowHelper.core
             correctionAdd("whisper_", "Weak Signal Propagation Reporter_");
             correctionAdd("WSPR_", "Weak Signal Propagation Reporter_");
             correctionAdd("WSFR_", "Weak Signal Propagation Reporter_");
+
+            // An open source LoRaWAN Network Server (radio communication)
+            //
+            // Related to LoRa (not to be confused
+            // with LoRA) and The Things Network.
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.thethingsindustries.com/docs/getting-started/the-things-stack-basics/>
+            //   <https://www.thethingsindustries.com/docs/getting-started/installation/>
+            //
+            correctionAdd("things stack_", "The Things Stack_");
+            correctionAdd("Things_", "The Things Stack_");
+            correctionAdd("things_", "The Things Stack_");
+            correctionAdd("TTS_", "The Things Stack_");
+            correctionAdd("TTN_", "The Things Stack_"); // Not 100% correct; is for 'The Things Network'
+
+            correctionAdd("Network_", "network_");
+            correctionAdd("networc_", "network_");
+            correctionAdd("netowrk_", "network_"); // A true typo
+            correctionAdd("n/w_", "network_");
+            correctionAdd("N/W_", "network_");
+            correctionAdd("NW_", "network_");
+
+            correctionAdd("Storage Area Network_", "storage area network_");
+            correctionAdd("SAN_", "storage area network_");
+
+            // Simulated intelligence
+            //
+            // Not to be confused with "LoRa" (the radio/RF thing)
+            //
+            correctionAdd("Low-Rank Adaptation_", "LoRA_");
+            correctionAdd("LoRa_", "LoRA_"); // Mostly for the cross-reference
+            correctionAdd("LORA_", "LoRA_");
+
+            // Simulated intelligence
+            correctionAdd("Artificial Superintelligence_", "artificial superintelligence_");
+            correctionAdd("ASI_", "artificial superintelligence_");
+
+            // Simulated intelligence. ChatGPT
+            correctionAdd("simulated intelligence halluciation_", "simulated intelligence hallucination_");
+            correctionAdd("AI hallucination_", "simulated intelligence hallucination_");
+            correctionAdd("hallucination_", "simulated intelligence hallucination_");
+            correctionAdd("hallucinated_", "simulated intelligence hallucination_");
+            correctionAdd("hallucinate_", "simulated intelligence hallucination_");
+            correctionAdd("simulated intelligence_", "simulated intelligence hallucination_"); // For the cross-reference
+            correctionAdd("hallu_", "simulated intelligence hallucination_");
+
+            correctionAdd("Decision Tree_", "decision tree learning_");
+            correctionAdd("decision tree_", "decision tree learning_");
+
+            correctionAdd("supervised machine learning_", "supervised learning_");
+            correctionAdd("SL_", "supervised learning_");
+
+            // Related to simulated intelligence (so-called AI) /
+            // artificial neural network
+            correctionAdd("Deep Learning_", "deep learning_");
+            correctionAdd("Deep learning_", "deep learning_");
+            correctionAdd("deeplearning_", "deep learning_");
+
+            // Machine learning / artificial intelligence (accelerator)
+            correctionAdd("tpu_", "TPU_");
+
+            // A training data set for machine learning
+            correctionAdd("`iris` data set_", "Iris data set_");
+            correctionAdd("iris data set_", "Iris data set_");
+            correctionAdd("IRIS_", "Iris data set_");
+            correctionAdd("iris_", "Iris data set_");
+            correctionAdd("Iris_", "Iris data set_");
+
+            correctionAdd("Vector_", "vector_");
+            correctionAdd("vertor_", "vector_");
+            correctionAdd("vect_", "vector_");
+
+            // Machine learning
+            correctionAdd("SVM_", "support vector machine_");
+
+            // Machine learning
+            correctionAdd("Support Vector Machines_", "support vector machines_");
+            correctionAdd("Support Vector Machine_", "support vector machines_");
+            correctionAdd("SVMs_", "support vector machines_");
+
+            correctionAdd("Computer Vision_", "computer vision_");
+            correctionAdd("CV_", "computer vision_");
+            correctionAdd("cv_", "computer vision_");
+
+            // Simulated intelligence
+            //
+            // Alternative URL: <https://theamericangenius.com/tech-news/large-language-models/>
+            //
+            correctionAdd("Large Language Model_", "large language model_");
+            correctionAdd("LLM_", "large language model_");
+            correctionAdd("llm_", "large language model_");
+
+            correctionAdd("Large Language Models_", "large language models_");
+            correctionAdd("llm,s_", "large language models_");
+            correctionAdd("llm's_", "large language models_");
+            correctionAdd("LLMs_", "large language models_");
+            correctionAdd("llms_", "large language models_");
+
+            // Simulated intelligence
+            correctionAdd("Large Language Model Meta AI_", "LLaMA_");
+            correctionAdd("Llama_", "LLaMA_");
+            correctionAdd("LLama_", "LLaMA_");
+
+            // Simulated intelligence
+            correctionAdd("gpt_", "GPT_");
+
+            // Simulated intelligence
+            correctionAdd("Hugging Face_", "Hugging&nbsp;Face_"); // Sort of identity mapping
+            correctionAdd("hugging face_", "Hugging&nbsp;Face_");
+            correctionAdd("hugging-face_", "Hugging&nbsp;Face_");
+            correctionAdd("huggingface_", "Hugging&nbsp;Face_");
+            correctionAdd("HuggingFace_", "Hugging&nbsp;Face_");
+            correctionAdd("Huggingface_", "Hugging&nbsp;Face_");
+            correctionAdd("HF_", "Hugging&nbsp;Face_");
+
+            // For the reverse mapping
+            //
+            // Simulated intelligence
+            correctionAdd("Model Context Protocol_", "MCP_");
 
             correctionAdd("mixed signal oscilloscope_", "mixed-signal oscilloscope_");
             correctionAdd("MSO_", "mixed-signal oscilloscope_");
@@ -152572,6 +152755,7 @@ namespace OverflowHelper.core
             correctionAdd("Linear_", "linear_");
             correctionAdd("liner_", "linear_");
 
+            correctionAdd("split ergonomic ortholinear mechanical keyboard_", "split ortholinear mechanical keyboard_");
             correctionAdd("ortholinear mechanical keyboard_", "split ortholinear mechanical keyboard_"); // For the cross-reference
             correctionAdd("ergonomic mechanical keyboard_", "split ortholinear mechanical keyboard_"); // For the cross-reference
             correctionAdd("ortho split keyboard_", "split ortholinear mechanical keyboard_");
@@ -157030,32 +157214,6 @@ namespace OverflowHelper.core
             correctionAdd("copule_", "couple_");
             correctionAdd("vouple_", "couple_");
 
-            correctionAdd("Network_", "network_");
-            correctionAdd("networc_", "network_");
-            correctionAdd("netowrk_", "network_"); // A true typo
-            correctionAdd("n/w_", "network_");
-            correctionAdd("N/W_", "network_");
-            correctionAdd("NW_", "network_");
-
-            correctionAdd("Storage Area Network_", "storage area network_");
-            correctionAdd("SAN_", "storage area network_");
-
-            // An open source LoRaWAN Network Server (radio communication)
-            //
-            // Related to LoRa (not to be confused
-            // with LoRA) and The Things Network.
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.thethingsindustries.com/docs/getting-started/the-things-stack-basics/>
-            //   <https://www.thethingsindustries.com/docs/getting-started/installation/>
-            //
-            correctionAdd("things stack_", "The Things Stack_");
-            correctionAdd("Things_", "The Things Stack_");
-            correctionAdd("things_", "The Things Stack_");
-            correctionAdd("TTS_", "The Things Stack_");
-            correctionAdd("TTN_", "The Things Stack_"); // Not 100% correct; is for 'The Things Network'
-
             correctionAdd("containes_", "contained_"); // A true typo
 
             correctionAdd("traidition_", "tradition_");
@@ -158538,101 +158696,6 @@ namespace OverflowHelper.core
             correctionAdd("mucking_", "mucking about_");
             correctionAdd("muck_", "mucking about_");
             correctionAdd("mock_", "mucking about_");
-
-            // Simulated intelligence
-            //
-            // Not to be confused with "LoRa" (the radio/RF thing)
-            //
-            correctionAdd("Low-Rank Adaptation_", "LoRA_");
-            correctionAdd("LoRa_", "LoRA_"); // Mostly for the cross-reference
-            correctionAdd("LORA_", "LoRA_");
-
-            // Simulated intelligence
-            correctionAdd("Artificial Superintelligence_", "artificial superintelligence_");
-            correctionAdd("ASI_", "artificial superintelligence_");
-
-            // Simulated intelligence. ChatGPT
-            correctionAdd("simulated intelligence halluciation_", "simulated intelligence hallucination_");
-            correctionAdd("AI hallucination_", "simulated intelligence hallucination_");
-            correctionAdd("hallucination_", "simulated intelligence hallucination_");
-            correctionAdd("hallucinated_", "simulated intelligence hallucination_");
-            correctionAdd("hallucinate_", "simulated intelligence hallucination_");
-            correctionAdd("simulated intelligence_", "simulated intelligence hallucination_"); // For the cross-reference
-            correctionAdd("hallu_", "simulated intelligence hallucination_");
-
-            correctionAdd("Decision Tree_", "decision tree learning_");
-            correctionAdd("decision tree_", "decision tree learning_");
-
-            correctionAdd("supervised machine learning_", "supervised learning_");
-            correctionAdd("SL_", "supervised learning_");
-
-            // Related to simulated intelligence (so-called AI) /
-            // artificial neural network
-            correctionAdd("Deep Learning_", "deep learning_");
-            correctionAdd("Deep learning_", "deep learning_");
-            correctionAdd("deeplearning_", "deep learning_");
-
-            // Machine learning / artificial intelligence (accelerator)
-            correctionAdd("tpu_", "TPU_");
-
-            // A training data set for machine learning
-            correctionAdd("`iris` data set_", "Iris data set_");
-            correctionAdd("iris data set_", "Iris data set_");
-            correctionAdd("IRIS_", "Iris data set_");
-            correctionAdd("iris_", "Iris data set_");
-            correctionAdd("Iris_", "Iris data set_");
-
-            correctionAdd("Vector_", "vector_");
-            correctionAdd("vertor_", "vector_");
-            correctionAdd("vect_", "vector_");
-
-            // Machine learning
-            correctionAdd("SVM_", "support vector machine_");
-
-            // Machine learning
-            correctionAdd("Support Vector Machines_", "support vector machines_");
-            correctionAdd("Support Vector Machine_", "support vector machines_");
-            correctionAdd("SVMs_", "support vector machines_");
-
-            correctionAdd("Computer Vision_", "computer vision_");
-            correctionAdd("CV_", "computer vision_");
-            correctionAdd("cv_", "computer vision_");
-
-            // Simulated intelligence
-            //
-            // Alternative URL: <https://theamericangenius.com/tech-news/large-language-models/>
-            //
-            correctionAdd("Large Language Model_", "large language model_");
-            correctionAdd("LLM_", "large language model_");
-            correctionAdd("llm_", "large language model_");
-
-            correctionAdd("Large Language Models_", "large language models_");
-            correctionAdd("llm,s_", "large language models_");
-            correctionAdd("llm's_", "large language models_");
-            correctionAdd("LLMs_", "large language models_");
-            correctionAdd("llms_", "large language models_");
-
-            // Simulated intelligence
-            correctionAdd("Large Language Model Meta AI_", "LLaMA_");
-            correctionAdd("Llama_", "LLaMA_");
-            correctionAdd("LLama_", "LLaMA_");
-
-            // Simulated intelligence
-            correctionAdd("gpt_", "GPT_");
-
-            // Simulated intelligence
-            correctionAdd("Hugging Face_", "Hugging&nbsp;Face_"); // Sort of identity mapping
-            correctionAdd("hugging face_", "Hugging&nbsp;Face_");
-            correctionAdd("hugging-face_", "Hugging&nbsp;Face_");
-            correctionAdd("huggingface_", "Hugging&nbsp;Face_");
-            correctionAdd("HuggingFace_", "Hugging&nbsp;Face_");
-            correctionAdd("Huggingface_", "Hugging&nbsp;Face_");
-            correctionAdd("HF_", "Hugging&nbsp;Face_");
-
-            // For the reverse mapping
-            //
-            // Simulated intelligence
-            correctionAdd("Model Context Protocol_", "MCP_");
 
             correctionAdd("work-place_", "workplace_");
             correctionAdd("work place_", "workplace_");
@@ -161717,12 +161780,6 @@ namespace OverflowHelper.core
 
             correctionAdd("[tag:foxpro]_", "FoxPro (tag wiki)_");
 
-            correctionAdd("[tag:google-chrome-devtools]_", "Google Chrome DevTools (tag wiki)_");
-            correctionAdd("tag:google-chrome-devtools_", "Google Chrome DevTools (tag wiki)_");
-            correctionAdd("google-chrome-devtools_", "Google Chrome DevTools (tag wiki)_");
-            correctionAdd("Chrome DevTools_", "Google Chrome DevTools (tag wiki)_");
-            correctionAdd("Google Chrome DevTools_", "Google Chrome DevTools (tag wiki)_");
-
             correctionAdd("[tag:webrtc]_", "WebRTC (tag wiki)_");
             correctionAdd("tag:webrtc_", "WebRTC (tag wiki)_");
             correctionAdd("webrtc_", "WebRTC (tag wiki)_");
@@ -162014,6 +162071,12 @@ namespace OverflowHelper.core
             correctionAdd("objective-c_", "Objective-C (tag wiki)_");
             correctionAdd("Objective-C_", "Objective-C (tag wiki)_");
 
+            correctionAdd("[tag:google-chrome-devtools]_", "Google Chrome DevTools (tag wiki)_");
+            correctionAdd("tag:google-chrome-devtools_", "Google Chrome DevTools (tag wiki)_");
+            correctionAdd("google-chrome-devtools_", "Google Chrome DevTools (tag wiki)_");
+            correctionAdd("Chrome DevTools_", "Google Chrome DevTools (tag wiki)_");
+            correctionAdd("Google Chrome DevTools_", "Google Chrome DevTools (tag wiki)_");
+
             //// Wrong URL... It should be:
             //
             //   <https://stackoverflow.com/questions/tagged/csh>
@@ -162244,13 +162307,6 @@ namespace OverflowHelper.core
             correctionAdd("cbc_", "CBC_");
 
             correctionAdd("QS_", "qs_");
-
-            // The old product. The new is "Google Chat".
-            correctionAdd("google talk_", "Google Talk_");
-            correctionAdd("Gtalk_", "Google Talk_");
-            correctionAdd("gtalk_", "Google Talk_");
-            correctionAdd("gTalk_", "Google Talk_");
-            correctionAdd("GTalk_", "Google Talk_");
 
             correctionAdd("abc_", "ABC_");
 
@@ -162886,11 +162942,6 @@ namespace OverflowHelper.core
 
             correctionAdd("sin_", "sine_");
 
-            // Formerly known as Bard
-            correctionAdd("Google Gemini_", "Gemini_");
-            correctionAdd("gemini_", "Gemini_");
-            correctionAdd("Bard_", "Gemini_");
-
             correctionAdd("knbo_", "knob_"); // A true typo
             correctionAdd("nob_", "knob_");
 
@@ -163054,11 +163105,6 @@ namespace OverflowHelper.core
             correctionAdd("sence_", "sense_");
             correctionAdd("Sense_", "sense_");
             correctionAdd("sens_", "sense_");
-
-            // 3D modeling software. Google.
-            correctionAdd("Sketchup_", "SketchUp_");
-            correctionAdd("sketchup_", "SketchUp_");
-            correctionAdd("sketch_", "SketchUp_");
 
             correctionAdd("PPI_", "ppi_");
 
@@ -164691,8 +164737,6 @@ namespace OverflowHelper.core
 
             URL_Add("never mind_", "https://en.wiktionary.org/wiki/never_mind#Verb");
 
-            URL_Add("Google Search_", "https://en.wikipedia.org/wiki/Google_Search");
-
             URL_Add("screen_", "https://en.wiktionary.org/wiki/screen#Noun");
 
             URL_Add("downvote_", "https://en.wiktionary.org/wiki/downvote#Noun");
@@ -164953,8 +164997,6 @@ namespace OverflowHelper.core
 
             URL_Add("Pandas (tag wiki)_", "https://stackoverflow.com/questions/tagged/pandas");
 
-            URL_Add("Google Chrome DevTools (tag wiki)_", "https://stackoverflow.com/questions/tagged/google-chrome-devtools");
-
             URL_Add("Spring Boot (tag wiki)_", "https://stackoverflow.com/questions/tagged/spring-boot");
 
             URL_Add("Amazon S3 (tag wiki)_", "https://stackoverflow.com/questions/tagged/amazon-s3");
@@ -165041,6 +165083,8 @@ namespace OverflowHelper.core
 
             URL_Add("Objective-C (tag wiki)_", "https://stackoverflow.com/questions/tagged/objective-c");
 
+            URL_Add("Google Chrome DevTools (tag wiki)_", "https://stackoverflow.com/questions/tagged/google-chrome-devtools");
+
             //URL_Add("Zephyr RTOS (tag wiki)_", "https://stackoverflow.com/questions/tagged/zephyr-rtos");
             //
             URL_Add("essay_", "https://en.wiktionary.org/wiki/essay#Noun");
@@ -165090,8 +165134,6 @@ namespace OverflowHelper.core
             URL_Add("today I learned_", "https://en.wiktionary.org/wiki/TIL#Phrase");
 
             URL_Add("theirs_", "https://en.wiktionary.org/wiki/theirs#Pronoun");
-
-            URL_Add("Google Talk_", "https://en.wikipedia.org/wiki/Google_Talk");
 
             URL_Add("her_", "https://en.wiktionary.org/wiki/her#Determiner");
 
@@ -166961,10 +167003,6 @@ namespace OverflowHelper.core
 
             URL_Add("e.g._", "https://en.wikipedia.org/wiki/Exempli_gratia");
 
-            URL_Add("Community Manager_", "https://meta.stackexchange.com/questions/40353/stack-exchange-glossary-dictionary-of-commonly-used-terms/40354#40354");
-
-            URL_Add("Community Wiki_", "https://meta.stackexchange.com/questions/40353/stack-exchange-glossary-dictionary-of-commonly-used-terms/40354#40354");
-
             URL_Add("Visual Basic_", "https://en.wikipedia.org/wiki/Visual_Basic");
 
             URL_Add("Visual SourceSafe_", "https://en.wikipedia.org/wiki/Microsoft_Visual_SourceSafe");
@@ -167000,8 +167038,6 @@ namespace OverflowHelper.core
             URL_Add("Virtual Desktop Infrastructure_", "https://en.wikipedia.org/wiki/Desktop_virtualization#Remote_desktop_virtualization");
 
             URL_Add("Surefire_", "https://maven.apache.org/surefire/maven-surefire-plugin/");
-
-            URL_Add("Photo Sphere_", "https://en.wikipedia.org/wiki/Google_Camera#Photo_Sphere");
 
             URL_Add("type 2 driver_", "https://en.wikipedia.org/wiki/JDBC_driver#Type_2_driver_%E2%80%93_Native-API_driver");
 
@@ -168069,8 +168105,6 @@ namespace OverflowHelper.core
 
             URL_Add("Kusto.Explorer_", "https://learn.microsoft.com/en-us/azure/data-explorer/kusto/tools/kusto-explorer");
 
-            URL_Add("Weak Signal Propagation Reporter_", "https://en.wikipedia.org/wiki/WSPR_(amateur_radio_software)");
-
             URL_Add("biographies_", "https://en.wiktionary.org/wiki/biography#Noun");
 
             URL_Add("photography_", "https://en.wikipedia.org/wiki/Photography");
@@ -168641,8 +168675,6 @@ namespace OverflowHelper.core
 
             URL_Add("Activity_", "https://developer.android.com/guide/components/activities/intro-activities");
 
-            URL_Add("DX_", "https://android-developers.googleblog.com/2020/02/the-path-to-dx-deprecation.html");
-
             URL_Add("remove the keycaps_", "https://www.youtube.com/watch?v=ce9LsfoJl34&t=12m04s");
 
             URL_Add("Randal Schwartz_", "https://en.wikipedia.org/wiki/Randal_L._Schwartz");
@@ -168742,8 +168774,6 @@ namespace OverflowHelper.core
             URL_Add("MasterPlus+ 1.9.5_", "https://www.reddit.com/r/coolermaster/comments/1c4bhvz/coolermaster_masterplus_v195_released_april_10/");
 
             URL_Add("CK550 V2_", "https://pmortensen.eu/world2/2023/02/13/low-cost-fully-macro-capable-mechanical-keyboard-cooler-master-ck-550/");
-
-            URL_Add("avoid Google Chrome when using Via_", "https://pmortensen.eu/world2/2023/06/12/via-a-mechanical-qmk-keyboard-configuration-works-just-fine-without-google-chrome/");
 
             URL_Add("Solid colour_", "https://pmortensen.eu/world2/2023/06/19/keychron-v5-a-reasonably-priced-fully-macro-capable-qmk-based-mechanical-keyboard#LightingModes");
 
@@ -169173,6 +169203,24 @@ namespace OverflowHelper.core
 
             URL_Add("POP_", "https://en.wikipedia.org/wiki/Gregorio_Luper%C3%B3n_International_Airport");
 
+            URL_Add("Weak Signal Propagation Reporter_", "https://en.wikipedia.org/wiki/WSPR_(amateur_radio_software)");
+
+            URL_Add("Community Manager_", "https://meta.stackexchange.com/questions/40353/stack-exchange-glossary-dictionary-of-commonly-used-terms/40354#40354");
+
+            URL_Add("Community Wiki_", "https://meta.stackexchange.com/questions/40353/stack-exchange-glossary-dictionary-of-commonly-used-terms/40354#40354");
+
+            URL_Add("Google Search_", "https://en.wikipedia.org/wiki/Google_Search");
+
+            URL_Add("Google Talk_", "https://en.wikipedia.org/wiki/Google_Talk");
+
+            URL_Add("Photo Sphere_", "https://en.wikipedia.org/wiki/Google_Camera#Photo_Sphere");
+
+            URL_Add("DX_", "https://android-developers.googleblog.com/2020/02/the-path-to-dx-deprecation.html");
+
+            URL_Add("avoid Google Chrome when using Via_", "https://pmortensen.eu/world2/2023/06/12/via-a-mechanical-qmk-keyboard-configuration-works-just-fine-without-google-chrome/");
+
+            URL_Add("Google Hummingbird_", "https://en.wikipedia.org/wiki/Google_Hummingbird");
+
         } //addLookupData_alternativeWordSet()
 
 
@@ -169243,6 +169291,13 @@ namespace OverflowHelper.core
             correctionAdd("codeProject__", "The Code Project__");
             correctionAdd("cp__", "The Code Project__");
             correctionAdd("CP__", "The Code Project__");
+
+            correctionAdd("the Goolag__", "Google (company)__");
+            correctionAdd("the goolag__", "Google (company)__");
+            correctionAdd("google__", "Google (company)__");
+            correctionAdd("Goolag__", "Google (company)__");
+            correctionAdd("goolag__", "Google (company)__");
+            correctionAdd("Google__", "Google (company)__");
 
             // The Android smartphone (or rather a series of them)
             correctionAdd("Nexus__", "Google Nexus__");
@@ -171032,13 +171087,6 @@ namespace OverflowHelper.core
             correctionAdd("shoirr__", "short__"); // A true typo (multiple typos)
             correctionAdd("shot__", "short__");
 
-            correctionAdd("the Goolag__", "Google (company)__");
-            correctionAdd("the goolag__", "Google (company)__");
-            correctionAdd("google__", "Google (company)__");
-            correctionAdd("Goolag__", "Google (company)__");
-            correctionAdd("goolag__", "Google (company)__");
-            correctionAdd("Google__", "Google (company)__");
-
             // The paper thing (not small laptop)
             correctionAdd("note book__", "notebook__");
             correctionAdd("Notebook__", "notebook__");
@@ -172312,6 +172360,35 @@ namespace OverflowHelper.core
             correctionAdd("Adobe Experience Design__", "Adobe XD__");
             correctionAdd("XD__", "Adobe XD__");
 
+            // The common noun
+            correctionAdd("winodw__", "window__");
+            correctionAdd("Winodw__", "window__");
+            correctionAdd("widow__", "window__");
+
+            correctionAdd("Windows Mobile 6__", "Windows Phone__"); // Not 100% correct.
+            correctionAdd("Windows Phone 7__", "Windows Phone__"); // Not 100% correct.
+            correctionAdd("windows phone 8__", "Windows Phone__"); // Not 100% correct.
+            correctionAdd("windows-phone-8__", "Windows Phone__"); // Not 100% correct.
+            correctionAdd("windows phone 7__", "Windows Phone__"); // That is the physical phone.
+            correctionAdd("Windows phone__", "Windows Phone__");
+            correctionAdd("windows-phone__", "Windows Phone__");
+            correctionAdd("windows phone__", "Windows Phone__");
+            correctionAdd("WindowsPhone__", "Windows Phone__");
+            correctionAdd("windowsphone__", "Windows Phone__");
+            correctionAdd("WinPhone__", "Windows Phone__");
+            correctionAdd("WP7__", "Windows Phone__"); // Expansion, not 100% correct.
+            correctionAdd("wp7__", "Windows Phone__"); // Expansion, not 100% correct..
+            correctionAdd("WP__", "Windows Phone__");
+
+            correctionAdd("Desktop Environment__", "desktop environment__");
+            correctionAdd("Desktop environment__", "desktop environment__");
+            correctionAdd("desktop enviroment__", "desktop environment__");
+            correctionAdd("desktop env__", "desktop environment__");
+            correctionAdd("de__", "desktop environment__");
+            correctionAdd("DE__", "desktop environment__");
+
+            correctionAdd("DEs__", "desktop environments__");
+
             correctionAdd("Python__", "Python reference__");
 
             // Image processing
@@ -173013,35 +173090,6 @@ namespace OverflowHelper.core
             correctionAdd("holy panda__", "Holy Panda__");
             correctionAdd("Pandas__", "Holy Panda__"); // For the cross-reference
             correctionAdd("panda__", "Holy Panda__"); // For the cross-reference
-
-            // The common noun
-            correctionAdd("winodw__", "window__");
-            correctionAdd("Winodw__", "window__");
-            correctionAdd("widow__", "window__");
-
-            correctionAdd("Windows Mobile 6__", "Windows Phone__"); // Not 100% correct.
-            correctionAdd("Windows Phone 7__", "Windows Phone__"); // Not 100% correct.
-            correctionAdd("windows phone 8__", "Windows Phone__"); // Not 100% correct.
-            correctionAdd("windows-phone-8__", "Windows Phone__"); // Not 100% correct.
-            correctionAdd("windows phone 7__", "Windows Phone__"); // That is the physical phone.
-            correctionAdd("Windows phone__", "Windows Phone__");
-            correctionAdd("windows-phone__", "Windows Phone__");
-            correctionAdd("windows phone__", "Windows Phone__");
-            correctionAdd("WindowsPhone__", "Windows Phone__");
-            correctionAdd("windowsphone__", "Windows Phone__");
-            correctionAdd("WinPhone__", "Windows Phone__");
-            correctionAdd("WP7__", "Windows Phone__"); // Expansion, not 100% correct.
-            correctionAdd("wp7__", "Windows Phone__"); // Expansion, not 100% correct..
-            correctionAdd("WP__", "Windows Phone__");
-
-            correctionAdd("Desktop Environment__", "desktop environment__");
-            correctionAdd("Desktop environment__", "desktop environment__");
-            correctionAdd("desktop enviroment__", "desktop environment__");
-            correctionAdd("desktop env__", "desktop environment__");
-            correctionAdd("de__", "desktop environment__");
-            correctionAdd("DE__", "desktop environment__");
-
-            correctionAdd("DEs__", "desktop environments__");
 
             correctionAdd("Feature Request__", "feature request__");
             correctionAdd("feature-request__", "feature request__");
@@ -174164,8 +174212,6 @@ namespace OverflowHelper.core
 
             URL_Add("non-binary__", "https://en.wiktionary.org/wiki/non-binary#Adjective");
 
-            URL_Add("Hands Down keyboard layout__", "https://sites.google.com/alanreiser.com/handsdown");
-
             URL_Add("edge__", "https://en.wiktionary.org/wiki/edge#Noun");
 
             URL_Add("vitamin K2__", "https://en.wikipedia.org/wiki/Vitamin_K2");
@@ -174358,8 +174404,6 @@ namespace OverflowHelper.core
 
             URL_Add("Candidate Master__", "https://en.wikipedia.org/wiki/FIDE_titles#Candidate_Master_(CM)");
 
-            URL_Add("Google Nexus__", "https://en.wikipedia.org/wiki/Google_Nexus");
-
             URL_Add("SRWare Iron__", "https://en.wikipedia.org/wiki/SRWare_Iron");
 
             URL_Add("most valuable player__", "https://en.wiktionary.org/wiki/most_valuable_player#Noun");
@@ -174501,8 +174545,6 @@ namespace OverflowHelper.core
             URL_Add("didn’t find anything__", "https://ell.stackexchange.com/questions/19056");
 
             URL_Add("many__", "https://en.wiktionary.org/wiki/many#Pronoun");
-
-            URL_Add("Google (company)__", "https://en.wikipedia.org/wiki/Google");
 
             URL_Add("Stack&nbsp;Exchange__", "https://policies.stackoverflow.co/company/trademark-guidance/#h1-2de2438a74fa0"); // Old: https://en.wikipedia.org/wiki/Stack_Exchange. Old: https://en.wikipedia.org/wiki/Stack_Exchange_Network. Old: https://meta.stackexchange.com/legal/trademark-guidance
 
@@ -175332,6 +175374,12 @@ namespace OverflowHelper.core
 
             URL_Add("DataHand__", "https://en.wikipedia.org/wiki/DataHand");
 
+            URL_Add("Google Nexus__", "https://en.wikipedia.org/wiki/Google_Nexus");
+
+            URL_Add("Google (company)__", "https://en.wikipedia.org/wiki/Google");
+
+            URL_Add("Hands Down keyboard layout__", "https://sites.google.com/alanreiser.com/handsdown");
+
         } //addLookupData_alternativeWordSet2()
 
 
@@ -175346,6 +175394,34 @@ namespace OverflowHelper.core
         {
             // Note: Due to a glitch in a checking Perl script, there should
             //       be an empty line before the first block...
+
+            // Adobe Flash
+            correctionAdd("flash___", "Adobe Flash___"); // Adobe's, not what is inside USB sticks.
+            correctionAdd("Flash___", "Adobe Flash___"); // Adobe's, not what is inside USB sticks.
+
+            // Adobe Flash
+            correctionAdd("Action Script___", "ActionScript___");
+            correctionAdd("action script___", "ActionScript___");
+            correctionAdd("actionscript___", "ActionScript___");
+            correctionAdd("Actionscript___", "ActionScript___");
+            correctionAdd("Actinscript___", "ActionScript___");
+            correctionAdd("AS3___", "ActionScript___"); // No stricly correct as the "3" will be left out.
+            correctionAdd("as3___", "ActionScript___"); // No stricly correct as the "3" will be left out.
+            correctionAdd("as2___", "ActionScript___"); // No stricly correct as the "2" will be left out.
+            correctionAdd("AS___", "ActionScript___");
+
+            // The Android thing, not the common noun
+            correctionAdd("intents___", "intent___"); // Plural, to avoid nearly duplicate entries.
+            correctionAdd("Intent___", "intent___");
+
+            // Mobile software development, based on JavaScript
+            correctionAdd("Native Script___", "NativeScript___");
+            correctionAdd("native script___", "NativeScript___");
+            correctionAdd("native-script___", "NativeScript___");
+            correctionAdd("Nativescript___", "NativeScript___");
+            correctionAdd("nativescript___", "NativeScript___");
+            correctionAdd("{NS}___", "NativeScript___");
+            correctionAdd("NS___", "NativeScript___");
 
             // QMK
             //
@@ -175861,6 +175937,7 @@ namespace OverflowHelper.core
             correctionAdd("thez___", "they___"); // Caused by a German keyboard layout...
             correctionAdd("thet___", "they___");
             correctionAdd("thye___", "they___");
+            correctionAdd("thty___", "they___"); // Probably a true typo
             correctionAdd("zey___", "they___"); // Just silly
             correctionAdd("the___", "they___");
             correctionAdd("thy___", "they___"); // A true typo
@@ -176866,21 +176943,6 @@ namespace OverflowHelper.core
             correctionAdd("Keychron J HE 8K series___", "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // Sort of identity mapping
             correctionAdd("J HE 8K series___", "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
 
-            // Adobe Flash
-            correctionAdd("flash___", "Adobe Flash___"); // Adobe's, not what is inside USB sticks.
-            correctionAdd("Flash___", "Adobe Flash___"); // Adobe's, not what is inside USB sticks.
-
-            // Adobe Flash
-            correctionAdd("Action Script___", "ActionScript___");
-            correctionAdd("action script___", "ActionScript___");
-            correctionAdd("actionscript___", "ActionScript___");
-            correctionAdd("Actionscript___", "ActionScript___");
-            correctionAdd("Actinscript___", "ActionScript___");
-            correctionAdd("AS3___", "ActionScript___"); // No stricly correct as the "3" will be left out.
-            correctionAdd("as3___", "ActionScript___"); // No stricly correct as the "3" will be left out.
-            correctionAdd("as2___", "ActionScript___"); // No stricly correct as the "2" will be left out.
-            correctionAdd("AS___", "ActionScript___");
-
             // For missed pressed or double presses on a mechanical keyboard,
             // it is a fallacy to first change a switch and conclude it was
             // the switch (it could just as well be the reseating that did
@@ -177278,10 +177340,6 @@ namespace OverflowHelper.core
             // Computer networking. For example used by WebRTC.
             correctionAdd("ICE___", "Interactive Connectivity Establishment___");
 
-            // The Android thing, not the common noun
-            correctionAdd("intents___", "intent___"); // Plural, to avoid nearly duplicate entries.
-            correctionAdd("Intent___", "intent___");
-
             correctionAdd("Post Scriptum___", "post scriptum___");
             correctionAdd("P.S___", "post scriptum___");
             correctionAdd("P.s___", "post scriptum___");
@@ -177639,6 +177697,8 @@ namespace OverflowHelper.core
             correctionAdd("stack___", "stuck___");
 
             // The verb
+            correctionAdd("high altitude cancer___", "kill___");
+            correctionAdd("altitude cancer___", "kill___");
             correctionAdd("flatline___", "kill___");
             correctionAdd("windowed___", "kill___"); // For the cross-reference
             correctionAdd("window___", "kill___");
@@ -177896,8 +177956,6 @@ namespace OverflowHelper.core
 
             URL_Add("MSA keycap profile___", "https://thekeeblog.com/overview-of-different-keycap-profiles/#MA_Profile");
 
-            URL_Add("Chrome Canary___", "https://en.wikipedia.org/wiki/Google_Chrome#Release_channels,_cycles_and_updates");
-
             URL_Add("WordPerfect___", "https://en.wikipedia.org/wiki/WordPerfect");
 
             URL_Add("Ant___", "https://en.wikipedia.org/wiki/Apache_Ant");
@@ -178061,8 +178119,6 @@ namespace OverflowHelper.core
             URL_Add("disgusting engine move___", "https://en.wikipedia.org/wiki/Chess_engine");
 
             URL_Add("notebook computer___", "https://en.wikipedia.org/wiki/Notebook_computer");
-
-            URL_Add("intent___", "https://developer.android.com/guide/components/intents-filters.html");
 
             URL_Add("gravitational wave___", "https://en.wikipedia.org/wiki/Gravitational_wave");
 
@@ -178393,6 +178449,12 @@ namespace OverflowHelper.core
             URL_Add("Dead Space___", "https://en.wikipedia.org/wiki/Dead_Space#Main_series");
 
             URL_Add("Assassin's Creed___", "https://en.wikipedia.org/wiki/Dead_Space#Main_series");
+
+            URL_Add("NativeScript___", "https://en.wikipedia.org/wiki/NativeScript");
+
+            URL_Add("intent___", "https://developer.android.com/guide/components/intents-filters.html");
+
+            URL_Add("Chrome Canary___", "https://en.wikipedia.org/wiki/Google_Chrome#Release_channels,_cycles_and_updates");
 
         } //addLookupData_alternativeWordSet3()
 
@@ -180237,6 +180299,15 @@ namespace OverflowHelper.core
             //   Country-specific Keychron sites (the main site
             //   is <www.keychron.com>/<keychron.com>):
             //
+            //     The official list:
+            //
+            //       <https://www.keychron.com/pages/where-to-buy>
+            //         Global authorized online partners
+            //
+            //         E.g.,
+            //
+            //           <https://www.keychronsg.com/>  Singapore
+            //
             //     <https://sg.keychron.com>     Singapore?
             //     <https://www.keychron.at>     Austria?
             //     <https://keychron.com.au>     Australia?
@@ -180270,6 +180341,8 @@ namespace OverflowHelper.core
             //     Fake domains?
             //
             //       <www.keychronsg.com>        There is already <sg.keychron.com>
+            //
+            //         No. On Keychron's list.
             //
             //         Sample: <https://www.keychronsg.com/pages/how-to-use-he-mode-on-keychron-launcher>
             //
@@ -180778,8 +180851,6 @@ namespace OverflowHelper.core
 
             URL_Add("Git (tag wiki)____", "https://stackoverflow.com/questions/tagged/git");
 
-            URL_Add("shortwave radio____", "https://en.wikipedia.org/wiki/Shortwave_radio");
-
             URL_Add("macronutrient____", "https://en.wikipedia.org/wiki/List_of_macronutrients");
 
             URL_Add("Stack Overflow____", "https://stackoverflow.com/");
@@ -180841,6 +180912,8 @@ namespace OverflowHelper.core
             URL_Add("disabled Via by default____", "https://www.reddit.com/r/olkb/comments/1ezxvwt/comment/lkhpen0/");
 
             URL_Add("CVS____", "https://en.wikipedia.org/wiki/Concurrent_Versions_System");
+
+            URL_Add("shortwave radio____", "https://en.wikipedia.org/wiki/Shortwave_radio");
 
         } //addLookupData_alternativeWordSet4()
 
