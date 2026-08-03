@@ -1269,6 +1269,8 @@ namespace OverflowHelper.core
 
             correctionAdd("guies", "guys");
             correctionAdd("Guies", "guys");
+            correctionAdd("Guyzz", "guys");
+            correctionAdd("guyzz", "guys");
             correctionAdd("guyz", "guys");
             correctionAdd("gusy", "guys"); // A true typo
             correctionAdd("gys", "guys");
@@ -14623,11 +14625,8 @@ namespace OverflowHelper.core
 
             correctionAdd("correspondance", "correspondence");
 
-            // Mostly for the simple past
-            correctionAdd("readed", "read");
-            correctionAdd("reaad", "read");
-            correctionAdd("raed", "read");
-
+            // Note: "read" is in an alternative word set
+            //
             correctionAdd("reeding", "reading");
             correctionAdd("reasing", "reading");
             correctionAdd("readin", "reading");
@@ -17171,6 +17170,17 @@ namespace OverflowHelper.core
             correctionAdd("Firewalld", "firewalld");
 
             correctionAdd("truncate(1)", "truncate"); // Linux
+
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Hidden_file_and_hidden_directory#Unix_and_Unix-like_environments>
+            //
+            correctionAdd("dot files", "dotfiles");
+            correctionAdd("dot file", "dotfiles");
+            correctionAdd("dotfile", "dotfiles");
+
+            // Linux. Managing configuration files ('dotfiles')
+            correctionAdd("CHEZMOI", "chezmoi");
 
             // The Linux thing
             //
@@ -28690,9 +28700,9 @@ namespace OverflowHelper.core
             // JavaScript
             //
             // The MDN entry is far less clear...
-            // 
+            //
             //   <https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event>
-            // 
+            //
             correctionAdd("ONCHANGE", "onchange");
 
             // JavaScript
@@ -54257,6 +54267,8 @@ namespace OverflowHelper.core
             correctionAdd("Allacrita", "Alacritty");
             correctionAdd("Allacriti", "Alacritty");
             correctionAdd("allacrity", "Alacritty");
+            correctionAdd("Alakretti", "Alacritty");
+            correctionAdd("alakretti", "Alacritty");
             correctionAdd("Alacrita", "Alacritty");
             correctionAdd("alacrity", "Alacritty");
 
@@ -62620,8 +62632,15 @@ namespace OverflowHelper.core
             //     But very few details.
             //     2022-11-22.
             //
+            //   <https://en.wikipedia.org/wiki/CharaChorder>
+            //
+            //     CEO: Riley Keen
+            //
             correctionAdd("charachorder x", "CharaCorder X");
             correctionAdd("Chara Corder X", "CharaCorder X");
+            correctionAdd("Charachorder", "CharaCorder X"); // Not 100% correct
+            correctionAdd("CharaCorder", "CharaCorder X"); // Not 100% correct
+            correctionAdd("CCX", "CharaCorder X");
 
             // Similar to Hasu controller (a hardware device)
             //
@@ -87986,6 +88005,31 @@ namespace OverflowHelper.core
             correctionAdd("k1 max", "Keychron&nbsp;K1&nbsp;Max");
             correctionAdd("K1 max", "Keychron&nbsp;K1&nbsp;Max");
 
+            // A 88-key (85%. True TKL) crippled low-profile wired
+            // and wireless (both Bluetooth and '2.4 GHz')
+            // ZMK/Via-capable mechanical keyboard from
+            // Keychron without a knob.
+            //
+            // Notes:
+            //
+            //   * Based on ZMK, not QMK
+            //
+            //     But how is it flashed????
+            //
+            //   * Microcontroller:  RTL8762G:
+            //
+            //       <https://www.realmcu.com/en/Products/RTL8762G-RTL877xG-Series>
+            //
+            //   * 8 kHz USB polling rate
+            //
+            // K1 Ultra 8K user manual:
+            //
+            //   <https://www.keychron.com/pages/keychron-q1-max-user-manual>
+            //
+            correctionAdd("Keychron K1 Ultra 8K (85%)", "Keychron&nbsp;K1&nbsp;Ultra&nbsp;8K (85%)"); // Sort of identity mapping
+            correctionAdd("K1 Ultra 8K", "Keychron&nbsp;K1&nbsp;Ultra&nbsp;8K (85%)");
+            correctionAdd("K1 Ultra", "Keychron&nbsp;K1&nbsp;Ultra&nbsp;8K (85%)");
+
             // A 88-key (85%. True TKL) crippled
             // wired-only QMK/Via-capable mechanical keyboard
             // from Keychron with a knob.
@@ -88334,6 +88378,27 @@ namespace OverflowHelper.core
             correctionAdd("k8 he", "Keychron&nbsp;K8&nbsp;HE");
             correctionAdd("k8he", "Keychron&nbsp;K8&nbsp;HE");
 
+            // A 88-key (85%. True TKL) crippled wired and wireless
+            // (both Bluetooth and '2.4 GHz') ZMK/Via-capable
+            // mechanical keyboard from Keychron
+            // without a knob.
+            //
+            // Notes:
+            //
+            //   * Based on ZMK, not QMK
+            //
+            //     But how is it flashed????
+            //
+            //   * Microcontroller:  RTL8762G:
+            //
+            //       <https://www.realmcu.com/en/Products/RTL8762G-RTL877xG-Series>
+            //
+            //   * 8 kHz USB polling rate
+            //
+            // K8 Ultra 8K user manual:
+            //
+            //   <https://www.keychron.com/pages/keychron-k8-ultra-8k-user-manual>
+            //
             correctionAdd("Keychron&nbsp;K8&nbsp;Ultra&nbsp;8K", "Keychron&nbsp;K8&nbsp;Ultra&nbsp;8K (85%)");
             correctionAdd("Keychron K8 Ultra 8K (85%)", "Keychron&nbsp;K8&nbsp;Ultra&nbsp;8K (85%)"); // Sort of identity mapping
             correctionAdd("K8&nbsp;Ultra&nbsp;8K", "Keychron&nbsp;K8&nbsp;Ultra&nbsp;8K (85%)");
@@ -142094,8 +142159,6 @@ namespace OverflowHelper.core
 
             URL_Add("libm", "https://en.wikipedia.org/wiki/C_mathematical_functions#Implementations");
 
-            URL_Add("read", "https://en.wiktionary.org/wiki/read#Verb");
-
             URL_Add("reading", "https://en.wiktionary.org/wiki/read#Verb");
 
             URL_Add("readability", "https://en.wiktionary.org/wiki/readability#Noun");
@@ -144718,6 +144781,8 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;K10&nbsp;HE", "https://keychron.ca/products/keychron-k10-he-wireless-magnetic-switch-custom-keyboard-iso-layout-collection");
 
+            URL_Add("Keychron&nbsp;K1&nbsp;Ultra&nbsp;8K (85%)", "https://www.keychron.com/products/keychron-k1-ultra-8k-wireless-custom-mechanical-keyboard");
+
             URL_Add("Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K", "https://www.keychron.com/pages/k3he-k3-ultra-prelaunch-organic");
 
             URL_Add("Keychron&nbsp;K8&nbsp;Ultra&nbsp;8K (85%)", "https://www.keychron.com/products/keychron-k8-ultra-8k-wireless-custom-mechanical-keyboard");
@@ -145754,10 +145819,6 @@ namespace OverflowHelper.core
 
             URL_Add("Celeste", "https://en.wikipedia.org/wiki/Celeste_(video_game)");
 
-            URL_Add("Cherry MX Black", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
-
-            URL_Add("Cherry MX Silent Black", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
-
             URL_Add("Gateron Milky Black switches", "https://digiva.net/gateron-switch-guide/#Gateron_Milky_Switches");
 
             URL_Add("Gateron Ink Black V2 switches", "https://www.gateron.co/blogs/news/what-s-the-best-gateron-linear-switch-for-mechanical-keyboards");
@@ -145843,6 +145904,10 @@ namespace OverflowHelper.core
             URL_Add("Topre", "https://www.youtube.com/watch?v=sAo_URRIAiA&t=6m13s");
 
             URL_Add("scissor-switch", "https://en.wikipedia.org/wiki/Keyboard_technology#Scissor-switch");
+
+            URL_Add("Cherry MX Black", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
+
+            URL_Add("Cherry MX Silent Black", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
 
             URL_Add("Cherry MX Clear", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX");
 
@@ -147431,6 +147496,10 @@ namespace OverflowHelper.core
             URL_Add("breathholding", "https://en.wiktionary.org/wiki/breathholding#Noun");
 
             URL_Add("don't hold your breath", "https://en.wiktionary.org/wiki/don%27t_hold_your_breath#Phrase");
+
+            URL_Add("dotfiles", "https://en.wiktionary.org/wiki/dotfile#Noun");
+
+            URL_Add("chezmoi", "https://github.com/twpayne/chezmoi");
 
             URL_Add("shell", "https://en.wiktionary.org/wiki/shell#Noun");
 
@@ -158593,6 +158662,7 @@ namespace OverflowHelper.core
             correctionAdd("prob lay_", "probably_");
             correctionAdd("Probbaly_", "probably_");
             correctionAdd("probbaly_", "probably_");
+            correctionAdd("peobably_", "probably_"); // A true typo
             correctionAdd("probaly_", "probably_");
             correctionAdd("proably_", "probably_");
             correctionAdd("probabl_", "probably_");
@@ -171412,6 +171482,7 @@ namespace OverflowHelper.core
             correctionAdd("issuse__", "issue__");
             correctionAdd("issure__", "issue__");
             correctionAdd("isisue__", "issue__");
+            correctionAdd("tissue__", "issue__"); // A true typo, involving the last letter of the previous word...
             correctionAdd("Issue__", "issue__");
             correctionAdd("isuse__", "issue__");
             correctionAdd("isuue__", "issue__");
@@ -181407,6 +181478,12 @@ namespace OverflowHelper.core
 
             correctionAdd("signalize_____", "signal_____");
 
+            // Mostly for the simple past
+            correctionAdd("readed_____", "read_____");
+            correctionAdd("reaad_____", "read_____");
+            correctionAdd("raed_____", "read_____");
+            correctionAdd("red_____", "read_____");
+
             // Start of word mappings autogenerated by
             // script 'Edit_Overflow_number_table_generator.pl'
             //
@@ -182237,6 +182314,8 @@ namespace OverflowHelper.core
             URL_Add("high-speed mode_____", "https://en.wikipedia.org/wiki/I2C#Design");
 
             URL_Add("Customising the ZMK-based Keychron B6 Pro keyboard without the Via clone_____", "https://pmortensen.eu/world2/2025/03/10/customising-the-zmk-based-keychron-b6-pro-keyboard-without-the-via-clone/");
+
+            URL_Add("read_____", "https://en.wiktionary.org/wiki/read#Verb");
 
             URL_Add("&nbsp;K_____", "https://en.wikipedia.org/wiki/Kelvin");
 
