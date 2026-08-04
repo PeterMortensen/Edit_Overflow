@@ -5930,6 +5930,10 @@ namespace OverflowHelper.core
             correctionAdd("floppy", "floppy disk");
             correctionAdd("Floppy", "floppy disk");
 
+            // Synonym of "hard disk drive"?
+            correctionAdd("disc drive", "disk drive");
+            correctionAdd("D.D", "disk drive");
+
             correctionAdd("hard disc drive", "hard disk drive");
             correctionAdd("Hard Disk Drive", "hard disk drive");
             correctionAdd("harddisk driver", "hard disk drive");
@@ -5968,9 +5972,6 @@ namespace OverflowHelper.core
             correctionAdd("CrystalDiscInfo", "CrystalDiskInfo");
 
             correctionAdd("crystaldiskmark", "CrystalDiskMark");
-
-            // Synonym of "hard disk drive"?
-            correctionAdd("disc drive", "disk drive");
 
             correctionAdd("disk space", "diskspace");
 
@@ -19757,6 +19758,7 @@ namespace OverflowHelper.core
             correctionAdd("what the f", "WTF");
             correctionAdd("How the F", "WTF"); // Not 100% accurate
             correctionAdd("how the f", "WTF"); // Not 100% accurate
+            correctionAdd("the fuck", "WTF"); // For the cross-reference
             correctionAdd("wtf", "WTF");
             correctionAdd("Wtf", "WTF");
 
@@ -26934,6 +26936,11 @@ namespace OverflowHelper.core
 
             // A distributed file system
             correctionAdd("Tachyon", "Alluxio");
+
+            // A file system. Solaris and Linux.
+            correctionAdd("zfs", "ZFS");
+
+            correctionAdd("openzfs", "OpenZFS");
 
             // Mac / Apple
             correctionAdd("hfs", "HFS");
@@ -40813,12 +40820,12 @@ namespace OverflowHelper.core
             correctionAdd("pypi", "PyPI");
             correctionAdd("Pypi", "PyPI");
             correctionAdd("PYPI", "PyPI");
-            correctionAdd("pipy", "PyPI");
             correctionAdd("PiPi", "PyPI");
-            correctionAdd("PiPy", "PyPI");
             correctionAdd("pipi", "PyPI");
             correctionAdd("PyPO", "PyPI");
             correctionAdd("PiPY", "PyPI");
+            correctionAdd("pipy", "PyPI");
+            correctionAdd("PiPy", "PyPI");
 
             // The Python thing
             correctionAdd("PIP", "pip"); // Not actually observed.
@@ -41056,6 +41063,9 @@ namespace OverflowHelper.core
 
             // A SymPy function (Python library)
             correctionAdd("matrix2numpy", "matrix2numpy()");
+
+            // A Python library
+            correctionAdd("theano", "Theano");
 
             correctionAdd("data-type", "data type");
             correctionAdd("datatype", "data type");
@@ -59645,6 +59655,12 @@ namespace OverflowHelper.core
             correctionAdd("HSM", "hardware security module");
             correctionAdd("Hsm", "hardware security module");
 
+            // Android. Intel
+            //
+            // Alternative URLs:
+            //
+            //   <https://github.com/intel/haxm#intel-hardware-accelerated-execution-manager-haxm>
+            //
             correctionAdd("haxm", "Hardware Accelerated Execution Manager");
             correctionAdd("HAXM", "Hardware Accelerated Execution Manager");
 
@@ -63913,6 +63929,7 @@ namespace OverflowHelper.core
             correctionAdd("US International", "US-International keyboard layout");
             correctionAdd("US internation", "US-International keyboard layout");
             correctionAdd("us internation", "US-International keyboard layout");
+            correctionAdd("us intl", "US-International keyboard layout");
             correctionAdd("US int", "US-International keyboard layout");
             correctionAdd("us int", "US-International keyboard layout");
             correctionAdd("US Int", "US-International keyboard layout");
@@ -71251,6 +71268,7 @@ namespace OverflowHelper.core
             correctionAdd("android 7", "Android 7.0 (Nougat) (2016 vintage)");
             correctionAdd("Nougart", "Android 7.0 (Nougat) (2016 vintage)");
             correctionAdd("Nougat", "Android 7.0 (Nougat) (2016 vintage)");
+            correctionAdd("NOUGAT", "Android 7.0 (Nougat) (2016 vintage)");
 
             // 2017 vintage
             correctionAdd("Android 8.1 (Oreo)", "Android 8.1 (Oreo) (2017 vintage)");
@@ -71262,6 +71280,7 @@ namespace OverflowHelper.core
             correctionAdd("Android 8", "Android 8.1 (Oreo) (2017 vintage)");
             correctionAdd("oreo", "Android 8.1 (Oreo) (2017 vintage)");
             correctionAdd("Oreo", "Android 8.1 (Oreo) (2017 vintage)");
+            correctionAdd("OREO", "Android 8.1 (Oreo) (2017 vintage)");
 
             // 2018 vintage
             correctionAdd("Android 9.0 (Pie)", "Android 9.0 (Pie) (2018 vintage)");
@@ -74115,6 +74134,7 @@ namespace OverflowHelper.core
             correctionAdd("CHINA", "China");
             correctionAdd("CHINY", "China");
             correctionAdd("chiny", "China");
+            correctionAdd("Chin", "China");
             correctionAdd("PRC", "China");
             correctionAdd("prc", "China");
             correctionAdd("CN", "China");
@@ -76458,6 +76478,7 @@ namespace OverflowHelper.core
             correctionAdd(".NETCore", ".NET Core");
             correctionAdd("Net.Core", ".NET Core");
             correctionAdd(".NetCore", ".NET Core");
+            correctionAdd(".netCore", ".NET Core");
             correctionAdd("netcore", ".NET Core");
             correctionAdd("NetCore", ".NET Core");
             correctionAdd("Core", ".NET Core");
@@ -92899,6 +92920,12 @@ namespace OverflowHelper.core
             correctionAdd("k10 max", "Keychron&nbsp;K10&nbsp;Max");
             correctionAdd("K10 Max", "Keychron&nbsp;K10&nbsp;Max");
 
+            correctionAdd("Keychron K10 Ultra 8K (105%)", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)"); // Sort of identity mapping
+            correctionAdd("Keychron K10 Ultra 8K (100%)", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
+            correctionAdd("K10 Ultra 8K", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
+            correctionAdd("K10 Ultra", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
+            correctionAdd("K10 ultra", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
+
             // A 109-key (105%. Not true TKL) full-size wired
             // and wireless (both Bluetooth and '2.4 GHz')
             // QMK/Via-capable mechanical keyboard
@@ -102020,6 +102047,7 @@ namespace OverflowHelper.core
             correctionAdd("underwater overlord", "Stockfish");
             correctionAdd("all-knowing fish", "Stockfish");
             correctionAdd("oceanic oracle", "Stockfish");
+            correctionAdd("the great fish", "Stockfish");
             correctionAdd("cod almighty", "Stockfish");
             correctionAdd("gilled guru", "Stockfish");
             correctionAdd("Stock fish", "Stockfish");
@@ -105028,8 +105056,6 @@ namespace OverflowHelper.core
 
             correctionAdd("burried", "buried");
 
-            correctionAdd("zfs", "ZFS");
-
             correctionAdd("laradock", "Laradock");
 
             correctionAdd("donut", "doughnut");
@@ -107055,8 +107081,6 @@ namespace OverflowHelper.core
 
             URL_Add("Pig Latin", "https://en.wikipedia.org/wiki/Pig_Latin");
 
-            URL_Add("SciPy", "https://en.wikipedia.org/wiki/SciPy");
-
             URL_Add("phpMyAdmin", "https://en.wikipedia.org/wiki/PhpMyAdmin");
 
             URL_Add("LDAP", "https://en.wikipedia.org/wiki/LDAP");
@@ -107100,8 +107124,6 @@ namespace OverflowHelper.core
             URL_Add("cURL", "https://en.wikipedia.org/wiki/CURL");
 
             URL_Add("PHP-Nuke", "https://en.wikipedia.org/wiki/PHP-Nuke");
-
-            URL_Add("SymPy", "https://en.wikipedia.org/wiki/SymPy");
 
             URL_Add("PIL", "https://en.wikipedia.org/wiki/Python_Imaging_Library");
 
@@ -126813,8 +126835,6 @@ namespace OverflowHelper.core
 
             URL_Add("simplify()", "https://docs.sympy.org/dev/modules/simplify/simplify.html");
 
-            URL_Add("matrix2numpy()", "https://docs.sympy.org/latest/modules/matrices/matrices.html#sympy.matrices.dense.matrix2numpy");
-
             URL_Add("thermal paste", "https://en.wikipedia.org/wiki/Thermal_paste");
 
             URL_Add("cheap", "https://en.wiktionary.org/wiki/cheap#Adjective");
@@ -137649,30 +137669,6 @@ namespace OverflowHelper.core
 
             URL_Add("pig", "https://chessskill.blogspot.com/2016/12/pigs.html");
 
-            URL_Add("NumPy", "https://en.wikipedia.org/wiki/NumPy");
-
-            URL_Add("numpy.ndarray", "https://en.wikipedia.org/wiki/NumPy#The_ndarray_data_structure");
-
-            URL_Add("astype()", "https://numpy.org/doc/stable/reference/generated/numpy.astype.html");
-
-            URL_Add("np.linspace()", "https://numpy.org/doc/stable/reference/generated/numpy.linspace.html");
-
-            URL_Add("numpy.meshgrid()", "https://numpy.org/doc/stable/reference/generated/numpy.meshgrid.html");
-
-            URL_Add("numpy.mgrid()", "https://numpy.org/doc/stable/reference/generated/numpy.mgrid.html");
-
-            URL_Add("numpy.ogrid()", "https://numpy.org/doc/stable/reference/generated/numpy.ogrid.html");
-
-            URL_Add("numpy.transpose()", "https://numpy.org/doc/stable/reference/generated/numpy.transpose.html");
-
-            URL_Add("numpy.clip()", "https://numpy.org/doc/stable/reference/generated/numpy.clip.html");
-
-            URL_Add("ndenumerate()", "https://numpy.org/doc/stable/reference/generated/numpy.ndenumerate.html");
-
-            URL_Add("np.sum()", "https://numpy.org/doc/stable/reference/generated/numpy.sum.html");
-
-            URL_Add("data type object", "https://numpy.org/doc/stable/reference/arrays.dtypes.html");
-
             URL_Add("data types", "https://en.wiktionary.org/wiki/data_type#Noun");
 
             URL_Add("tackled", "https://en.wiktionary.org/wiki/tackle#Verb");
@@ -143947,6 +143943,8 @@ namespace OverflowHelper.core
 
             URL_Add("ZFS", "https://en.wikipedia.org/wiki/ZFS");
 
+            URL_Add("OpenZFS", "https://en.wikipedia.org/wiki/OpenZFS");
+
             URL_Add("HFS", "https://en.wikipedia.org/wiki/Hierarchical_File_System");
 
             URL_Add("HFS Plus", "https://en.wikipedia.org/wiki/HFS_Plus");
@@ -144787,6 +144785,8 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;K8&nbsp;Ultra&nbsp;8K (85%)", "https://www.keychron.com/products/keychron-k8-ultra-8k-wireless-custom-mechanical-keyboard");
 
+            URL_Add("Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)", "https://www.keychron.com/products/keychron-k10-ultra-8k-wireless-custom-mechanical-keyboard");
+
             URL_Add("Keychron&nbsp;R6", "https://www.keychron.com/collections/vintage-keyboards/products/keychron-r6-qmk-wireless-mechanical-keyboard");
 
             URL_Add("Keychron Q12 HE", "https://www.keychron.com/products/keychron-q12-he-qmk-wireless-custom-keyboard");
@@ -145489,7 +145489,7 @@ namespace OverflowHelper.core
 
             URL_Add("Logitech Flow", "https://www.logitech.com/en-us/software/features/flow.html");
 
-            URL_Add("Logitech MX Keys", "https://en.wikipedia.org/wiki/List_of_Logitech_products#Full-sized_keyboards");
+            URL_Add("Logitech MX Keys", "https://en.wikipedia.org/wiki/List_of_Logitech_products#Full-sized_keyboards_(office_keyboard)");
 
             URL_Add("Logitech MX Keys Mini", "https://www.tomsguide.com/computing/peripherals/logitech-mx-keys-mini-review");
 
@@ -148648,6 +148648,38 @@ namespace OverflowHelper.core
             URL_Add("Stack Overflow data dump", "https://meta.stackexchange.com/tags/data-dump/info");
 
             URL_Add("documentation dump on Stack Overflow", "https://stackoverflow.com/questions/34319000/what-constitutes-a-valid-c-identifier/34319264#34319264");
+
+            URL_Add("SciPy", "https://en.wikipedia.org/wiki/SciPy");
+
+            URL_Add("SymPy", "https://en.wikipedia.org/wiki/SymPy");
+
+            URL_Add("NumPy", "https://en.wikipedia.org/wiki/NumPy");
+
+            URL_Add("matrix2numpy()", "https://docs.sympy.org/latest/modules/matrices/matrices.html#sympy.matrices.dense.matrix2numpy");
+
+            URL_Add("numpy.ndarray", "https://en.wikipedia.org/wiki/NumPy#The_ndarray_data_structure");
+
+            URL_Add("astype()", "https://numpy.org/doc/stable/reference/generated/numpy.astype.html");
+
+            URL_Add("np.linspace()", "https://numpy.org/doc/stable/reference/generated/numpy.linspace.html");
+
+            URL_Add("numpy.meshgrid()", "https://numpy.org/doc/stable/reference/generated/numpy.meshgrid.html");
+
+            URL_Add("numpy.mgrid()", "https://numpy.org/doc/stable/reference/generated/numpy.mgrid.html");
+
+            URL_Add("numpy.ogrid()", "https://numpy.org/doc/stable/reference/generated/numpy.ogrid.html");
+
+            URL_Add("numpy.transpose()", "https://numpy.org/doc/stable/reference/generated/numpy.transpose.html");
+
+            URL_Add("numpy.clip()", "https://numpy.org/doc/stable/reference/generated/numpy.clip.html");
+
+            URL_Add("ndenumerate()", "https://numpy.org/doc/stable/reference/generated/numpy.ndenumerate.html");
+
+            URL_Add("np.sum()", "https://numpy.org/doc/stable/reference/generated/numpy.sum.html");
+
+            URL_Add("data type object", "https://numpy.org/doc/stable/reference/arrays.dtypes.html");
+
+            URL_Add("Theano", "https://en.wikipedia.org/wiki/Theano_(software)");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -154335,6 +154367,11 @@ namespace OverflowHelper.core
             correctionAdd("PE_", "Portable Executable (PE)_");
 
             // A JSON processor
+            //
+            // Alternative URLs:
+            //
+            //   <https://jqlang.github.io/jq/>
+            //
             correctionAdd("Jq_", "jq_");
             correctionAdd("JQ_", "jq_");
 
@@ -159308,6 +159345,7 @@ namespace OverflowHelper.core
             correctionAdd("da fuq_", "the fuck_");
             correctionAdd("Tf_", "the fuck_");
             correctionAdd("tf_", "the fuck_");
+            correctionAdd("TF_", "the fuck_");
 
             // For the expansion
             correctionAdd("WTF_", "what the fuck_");
@@ -161260,13 +161298,6 @@ namespace OverflowHelper.core
             correctionAdd("ci/cd_", "CI/CD_"); // Not strictly necessary (it is covered by cross-references), but for a direct lookup
 
             correctionAdd("server_", "serves_");
-
-            correctionAdd("team foundation server_", "Team Foundation Server_");
-            correctionAdd("Azure DevOps Server_", "Team Foundation Server_");
-            correctionAdd("TFS_", "Team Foundation Server_"); // Expansion.
-            correctionAdd("tfs_", "Team Foundation Server_"); // Not actually observed.
-            correctionAdd("Tfs_", "Team Foundation Server_");
-            correctionAdd("TF_", "Team Foundation Server_");
 
             correctionAdd("acreen_", "screen_");
             correctionAdd("Screen_", "screen_"); // Mainly to connect it better to the main word set.
@@ -164801,8 +164832,6 @@ namespace OverflowHelper.core
 
             URL_Add("enter_", "https://en.wiktionary.org/wiki/enter#Verb");
 
-            URL_Add("Team Foundation Server_", "https://en.wikipedia.org/wiki/Azure_DevOps_Server"); // Old: https://en.wikipedia.org/wiki/Team_Foundation_Server
-
             URL_Add("code_", "https://en.wiktionary.org/wiki/code#Noun");
 
             URL_Add("never mind_", "https://en.wiktionary.org/wiki/never_mind#Verb");
@@ -165135,8 +165164,6 @@ namespace OverflowHelper.core
 
             URL_Add("CPython (tag wiki)_", "https://stackoverflow.com/questions/tagged/cpython");
 
-            URL_Add("NumPy (tag wiki)_", "https://stackoverflow.com/questions/tagged/numpy");
-
             URL_Add("Matplotlib (tag wiki)_", "https://stackoverflow.com/questions/tagged/matplotlib");
 
             URL_Add("ASP.NET (tag wiki)_", "https://stackoverflow.com/questions/tagged/asp.net");
@@ -165154,6 +165181,8 @@ namespace OverflowHelper.core
             URL_Add("Objective-C (tag wiki)_", "https://stackoverflow.com/questions/tagged/objective-c");
 
             URL_Add("Google Chrome DevTools (tag wiki)_", "https://stackoverflow.com/questions/tagged/google-chrome-devtools");
+
+            URL_Add("NumPy (tag wiki)_", "https://stackoverflow.com/questions/tagged/numpy");
 
             //URL_Add("Zephyr RTOS (tag wiki)_", "https://stackoverflow.com/questions/tagged/zephyr-rtos");
             //
@@ -167363,8 +167392,6 @@ namespace OverflowHelper.core
 
             URL_Add("Pawn_", "https://github.com/compuphase/pawn");
 
-            URL_Add("Bottleneck_", "https://github.com/kwgoodman/bottleneck");
-
             URL_Add("The Things Stack_", "https://github.com/TheThingsNetwork/lorawan-stack");
 
             URL_Add("Commitlint_", "https://github.com/conventional-changelog/commitlint");
@@ -167700,8 +167727,6 @@ namespace OverflowHelper.core
             URL_Add("Eclipse RCP_", "https://en.wikipedia.org/wiki/Eclipse_%28software%29#Rich_client_platform");
 
             URL_Add("copy-paste_", "https://en.wiktionary.org/wiki/copy-paste#Verb");
-
-            URL_Add("numpy.array()_", "https://numpy.org/doc/stable/reference/generated/numpy.array.html");
 
             URL_Add("tradition_", "https://en.wiktionary.org/wiki/tradition#Noun");
 
@@ -169290,6 +169315,10 @@ namespace OverflowHelper.core
             URL_Add("avoid Google Chrome when using Via_", "https://pmortensen.eu/world2/2023/06/12/via-a-mechanical-qmk-keyboard-configuration-works-just-fine-without-google-chrome/");
 
             URL_Add("Google Hummingbird_", "https://en.wikipedia.org/wiki/Google_Hummingbird");
+
+            URL_Add("Bottleneck_", "https://github.com/kwgoodman/bottleneck");
+
+            URL_Add("numpy.array()_", "https://numpy.org/doc/stable/reference/generated/numpy.array.html");
 
         } //addLookupData_alternativeWordSet()
 
@@ -174218,6 +174247,13 @@ namespace OverflowHelper.core
             correctionAdd("932__", "500&nbsp;°C__");
             correctionAdd("500__", "500&nbsp;°C__");
 
+            correctionAdd("team foundation server__", "Team Foundation Server__");
+            correctionAdd("Azure DevOps Server__", "Team Foundation Server__");
+            correctionAdd("TFS__", "Team Foundation Server__"); // Expansion.
+            correctionAdd("tfs__", "Team Foundation Server__"); // Not actually observed.
+            correctionAdd("Tfs__", "Team Foundation Server__");
+            correctionAdd("TF__", "Team Foundation Server__");
+
             // A book. For the reverse
             //
             // We need a better reference...
@@ -175009,8 +175045,6 @@ namespace OverflowHelper.core
 
             URL_Add("Signal__", "https://en.wikipedia.org/wiki/Signal_(software)");
 
-            URL_Add("numpy.copy()__", "https://numpy.org/doc/stable/reference/generated/numpy.copy.html");
-
             URL_Add("input method editor__", "https://en.wikipedia.org/wiki/Input_method");
 
             URL_Add("fall__", "https://en.wiktionary.org/wiki/fall#Noun");
@@ -175450,6 +175484,10 @@ namespace OverflowHelper.core
             URL_Add("Google (company)__", "https://en.wikipedia.org/wiki/Google");
 
             URL_Add("Hands Down keyboard layout__", "https://sites.google.com/alanreiser.com/handsdown");
+
+            URL_Add("Team Foundation Server__", "https://en.wikipedia.org/wiki/Azure_DevOps_Server"); // Old: https://en.wikipedia.org/wiki/Team_Foundation_Server
+
+            URL_Add("numpy.copy()__", "https://numpy.org/doc/stable/reference/generated/numpy.copy.html");
 
         } //addLookupData_alternativeWordSet2()
 
