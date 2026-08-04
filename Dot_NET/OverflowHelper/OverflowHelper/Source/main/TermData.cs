@@ -19824,6 +19824,8 @@ namespace OverflowHelper.core
             correctionAdd("sXXtstorm", "shitstorm");
 
             correctionAdd("shitppsting", "shitposting");
+            correctionAdd("SH!TPOSTING", "shitposting");
+            correctionAdd("sh!tposting", "shitposting");
 
             correctionAdd("shit-post", "shitpost");
 
@@ -26850,6 +26852,8 @@ namespace OverflowHelper.core
             correctionAdd("FS", "file system");
             correctionAdd("fs", "file system"); // It is also the (literal) of a Node.js module.
 
+            correctionAdd("filesystems", "file systems");
+
             correctionAdd("temporary file system", "tmpfs");
 
             // Sort of a Linux file system
@@ -33786,6 +33790,9 @@ namespace OverflowHelper.core
 
             // In 'The Hitchhiker's Guide to the Galaxy'.
             // Improbability drive.
+            //
+            // The reference is broken now...
+            //
             correctionAdd("restore normality", "restoring normality");
             correctionAdd("normality", "restoring normality");
 
@@ -35332,6 +35339,81 @@ namespace OverflowHelper.core
             correctionAdd("get gud", "get good");
 
             correctionAdd("get use to", "get used to");
+
+            correctionAdd("N O I C E", "nice");
+            correctionAdd("Noicce", "nice");
+            correctionAdd("noicce", "nice");
+            correctionAdd("Noyce", "nice");
+            correctionAdd("noyce", "nice");
+            correctionAdd("naise", "nice");
+            correctionAdd("NOICE", "nice");
+            correctionAdd("Noice", "nice");
+            correctionAdd("noice", "nice");
+
+            correctionAdd("nicier", "nicer");
+
+            correctionAdd("nice looking", "nice-looking");
+
+            // A noun
+            correctionAdd("nice to haves", "nice-to-haves");
+
+            correctionAdd("LGTM", "looks good to me");
+
+            correctionAdd("LBYL", "look before you leap");
+
+            // The verb
+            correctionAdd("loot", "look");
+            correctionAdd("Loot", "look");
+            correctionAdd("lokk", "look");
+            correctionAdd("Lok", "look");
+            correctionAdd("lok", "look");
+
+            // The verb
+            correctionAdd("look's", "looks");
+            correctionAdd("loks", "looks");
+            correctionAdd("loos", "looks");
+            correctionAdd("Lols", "looks");
+            correctionAdd("lols", "looks");
+
+            correctionAdd("loocking", "looking");
+            correctionAdd("locking", "looking");
+            correctionAdd("lookimg", "looking");
+            correctionAdd("loking", "looking");
+            correctionAdd("Lookg", "looking");
+            correctionAdd("lookg", "looking");
+
+            correctionAdd("loked", "looked");
+            correctionAdd("looke", "looked");
+
+            correctionAdd("over look", "overlook");
+
+            correctionAdd("over-looking", "overlooking");
+
+            correctionAdd("over looked", "overlooked");
+
+            correctionAdd("re-look", "relook");
+
+            correctionAdd("look to", "look at");
+
+            correctionAdd("look-ups", "lookups");
+
+            correctionAdd("lookup", "look up");
+            correctionAdd("Lookup", "look up");
+
+            // The verb
+            correctionAdd("lookuout", "look out");
+            correctionAdd("lookout", "look out");
+
+            correctionAdd("being on the look out", "being on the lookout");
+
+            correctionAdd("look around", "lookaround");
+
+            correctionAdd("looking in to", "looking into");
+
+            correctionAdd("look-a-like", "lookalike");
+            correctionAdd("look a like", "lookalike");
+
+            correctionAdd("on-looker", "onlooker");
 
             correctionAdd("sttring", "string");
             correctionAdd("String", "string");
@@ -39089,27 +39171,6 @@ namespace OverflowHelper.core
             correctionAdd("accute", "acute");
 
             correctionAdd("accutely", "acutely");
-
-            correctionAdd("N O I C E", "nice");
-            correctionAdd("Noicce", "nice");
-            correctionAdd("noicce", "nice");
-            correctionAdd("Noyce", "nice");
-            correctionAdd("noyce", "nice");
-            correctionAdd("naise", "nice");
-            correctionAdd("NOICE", "nice");
-            correctionAdd("Noice", "nice");
-            correctionAdd("noice", "nice");
-
-            correctionAdd("nicier", "nicer");
-
-            correctionAdd("nice looking", "nice-looking");
-
-            // A noun
-            correctionAdd("nice to haves", "nice-to-haves");
-
-            correctionAdd("LGTM", "looks good to me");
-
-            correctionAdd("LBYL", "look before you leap");
 
             // Note: "weather" (the stuff with rain, snow,
             //       etc.) is in an alternative word set
@@ -51354,59 +51415,6 @@ namespace OverflowHelper.core
 
             correctionAdd("prevale", "prevail");
 
-            // The verb
-            correctionAdd("loot", "look");
-            correctionAdd("Loot", "look");
-            correctionAdd("lokk", "look");
-            correctionAdd("Lok", "look");
-            correctionAdd("lok", "look");
-
-            // The verb
-            correctionAdd("look's", "looks");
-            correctionAdd("loks", "looks");
-            correctionAdd("loos", "looks");
-            correctionAdd("Lols", "looks");
-            correctionAdd("lols", "looks");
-
-            correctionAdd("loocking", "looking");
-            correctionAdd("locking", "looking");
-            correctionAdd("loking", "looking");
-            correctionAdd("Lookg", "looking");
-            correctionAdd("lookg", "looking");
-
-            correctionAdd("loked", "looked");
-            correctionAdd("looke", "looked");
-
-            correctionAdd("over look", "overlook");
-
-            correctionAdd("over-looking", "overlooking");
-
-            correctionAdd("over looked", "overlooked");
-
-            correctionAdd("re-look", "relook");
-
-            correctionAdd("look to", "look at");
-
-            correctionAdd("look-ups", "lookups");
-
-            correctionAdd("lookup", "look up");
-            correctionAdd("Lookup", "look up");
-
-            // The verb
-            correctionAdd("lookuout", "look out");
-            correctionAdd("lookout", "look out");
-
-            correctionAdd("being on the look out", "being on the lookout");
-
-            correctionAdd("look around", "lookaround");
-
-            correctionAdd("looking in to", "looking into");
-
-            correctionAdd("look-a-like", "lookalike");
-            correctionAdd("look a like", "lookalike");
-
-            correctionAdd("on-looker", "onlooker");
-
             correctionAdd("allmost", "almost");
             correctionAdd("alsmost", "almost");
             correctionAdd("alsomst", "almost");
@@ -57940,6 +57948,7 @@ namespace OverflowHelper.core
             correctionAdd("turned ot", "turned out");
 
             correctionAdd("turnoff", "turn off");
+            correctionAdd("turn of", "turn off");
 
             correctionAdd("turns-off", "turns off");
 
@@ -68257,6 +68266,8 @@ namespace OverflowHelper.core
             correctionAdd("sub title", "subtitle");
             correctionAdd("Sub title", "subtitle");
             correctionAdd("Subtitle", "subtitle");
+
+            correctionAdd("sub titles", "subtitles");
 
             correctionAdd("title casing", "titlecasing");
 
@@ -92920,6 +92931,27 @@ namespace OverflowHelper.core
             correctionAdd("k10 max", "Keychron&nbsp;K10&nbsp;Max");
             correctionAdd("K10 Max", "Keychron&nbsp;K10&nbsp;Max");
 
+            // A 109-key (105%. Not true TKL) full-size wired
+            // and wireless (both Bluetooth and '2.4 GHz')
+            // ZMK/Via-capable mechanical keyboard
+            // from Keychron without a knob.
+            //
+            // Notes:
+            //
+            //   * Based on ZMK, not QMK
+            //
+            //     But how is it flashed????
+            //
+            //   * Microcontroller:  RTL8762G:
+            //
+            //       <https://www.realmcu.com/en/Products/RTL8762G-RTL877xG-Series>
+            //
+            //   * 8 kHz USB polling rate
+            //
+            // K10 Ultra 8K user manual:
+            //
+            //   <https://www.keychron.com/pages/keychron-q1-max-user-manual>
+            //
             correctionAdd("Keychron K10 Ultra 8K (105%)", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)"); // Sort of identity mapping
             correctionAdd("Keychron K10 Ultra 8K (100%)", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
             correctionAdd("K10 Ultra 8K", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
@@ -93436,6 +93468,12 @@ namespace OverflowHelper.core
             correctionAdd("C 2024", "C23");
             correctionAdd("c23", "C23");
             correctionAdd("C24", "C23");
+
+            // A C programming language standard
+            correctionAdd("c29", "C29");
+
+            // Computer architecture. Programming languages
+            correctionAdd("lp64", "LP64");
 
             // C / C++
             correctionAdd("C runtime", "crt0"); // For the cross-reference
@@ -94811,6 +94849,7 @@ namespace OverflowHelper.core
             correctionAdd("70s", "1970s");
 
             correctionAdd("80's", "1980s");
+            correctionAdd("'80s", "1980s");
             correctionAdd("80s", "1980s");
 
             // Note: "2010s" is in an alternative word set
@@ -126465,10 +126504,6 @@ namespace OverflowHelper.core
 
             URL_Add("RP2350", "https://en.wikipedia.org/wiki/RP2350");
 
-            URL_Add("file system", "https://en.wikipedia.org/wiki/File_system");
-
-            URL_Add("journaling file system", "https://en.wikipedia.org/wiki/Journaling_file_system");
-
             URL_Add("volcanic", "https://en.wiktionary.org/wiki/volcanic#Adjective");
 
             URL_Add("Yarn", "https://yarnpkg.com/");
@@ -127246,8 +127281,6 @@ namespace OverflowHelper.core
             URL_Add("Intel 8080", "https://en.wikipedia.org/wiki/Intel_8080");
 
             URL_Add("Intel 8086", "https://en.wikipedia.org/wiki/Intel_8086");
-
-            URL_Add("Andrew File System", "https://en.wikipedia.org/wiki/Andrew_File_System");
 
             URL_Add("Smart Fortwo", "https://en.wikipedia.org/wiki/Smart_Fortwo");
 
@@ -131972,8 +132005,6 @@ namespace OverflowHelper.core
             URL_Add("AES-128", "https://en.wikipedia.org/wiki/Advanced_Encryption_Standard");
 
             URL_Add("AES-256", "https://en.wikipedia.org/wiki/Advanced_Encryption_Standard");
-
-            URL_Add("Encrypting File System", "https://en.wikipedia.org/wiki/Encrypting_File_System");
 
             URL_Add("Certbot", "https://en.wikipedia.org/wiki/Let%27s_Encrypt#Software_implementation");
 
@@ -139826,6 +139857,10 @@ namespace OverflowHelper.core
 
             URL_Add("C23", "https://en.wikipedia.org/wiki/C23_(C_standard_revision)");
 
+            URL_Add("C29", "https://en.wikipedia.org/wiki/C29_(C_standard_revision)");
+
+            URL_Add("LP64", "https://en.wikipedia.org/wiki/64-bit_computing#64-bit_data_models");
+
             URL_Add("C&nbsp;string", "https://en.wikipedia.org/wiki/C_string"); // Old: https://en.wikipedia.org/wiki/C_string_handling#Overview_of_functions
 
             URL_Add("C&nbsp;strings", "https://en.wikipedia.org/wiki/C_string"); // Old: https://en.wikipedia.org/wiki/C_string_handling#Overview_of_functions
@@ -142934,6 +142969,8 @@ namespace OverflowHelper.core
             URL_Add("suboptimal", "https://en.wiktionary.org/wiki/suboptimal#Adjective");
 
             URL_Add("subtitle", "https://en.wiktionary.org/wiki/subtitle#Noun");
+
+            URL_Add("subtitles", "https://en.wiktionary.org/wiki/subtitle#Noun");
 
             URL_Add("Indian subcontinent", "https://en.wikipedia.org/wiki/Indian_subcontinent");
 
@@ -148681,6 +148718,16 @@ namespace OverflowHelper.core
 
             URL_Add("Theano", "https://en.wikipedia.org/wiki/Theano_(software)");
 
+            URL_Add("file system", "https://en.wikipedia.org/wiki/File_system");
+
+            URL_Add("file systems", "https://en.wiktionary.org/wiki/file_system#Noun");
+
+            URL_Add("journaling file system", "https://en.wikipedia.org/wiki/Journaling_file_system");
+
+            URL_Add("Andrew File System", "https://en.wikipedia.org/wiki/Andrew_File_System");
+
+            URL_Add("Encrypting File System", "https://en.wikipedia.org/wiki/Encrypting_File_System");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -148800,6 +148847,7 @@ namespace OverflowHelper.core
             correctionAdd("panda_", "panda bear_");
 
             correctionAdd("comparing apples and oranges_", "apples and oranges_");
+            correctionAdd("comparing apples to oranges_", "apples and oranges_");
             correctionAdd("apples to oranges_", "apples and oranges_");
             correctionAdd("apples-to-oranges_", "apples and oranges_");
             correctionAdd("pears with apples_", "apples and oranges_");
@@ -151497,6 +151545,7 @@ namespace OverflowHelper.core
             correctionAdd("floating-point_", "floating point_");
             correctionAdd("foating point_", "floating point_");
             correctionAdd("floating-pint_", "floating point_");
+            correctionAdd("floating pt_", "floating point_");
             correctionAdd("fp_", "floating point_");
             correctionAdd("FP_", "floating point_");
 
@@ -168792,14 +168841,6 @@ namespace OverflowHelper.core
 
             URL_Add("Bluetooth_", "https://en.wikipedia.org/wiki/Bluetooth2");
 
-            URL_Add("Amazon Redshift_", "https://en.wikipedia.org/wiki/Amazon_Redshift");
-
-            URL_Add("Amazon Elastic File System_", "https://en.wikipedia.org/wiki/Amazon_Elastic_File_System");
-
-            URL_Add("Amazon Lightsail_", "https://en.wikipedia.org/wiki/Timeline_of_Amazon_Web_Services#AWS_Prelude");
-
-            URL_Add("Amazon Lex_", "https://en.wikipedia.org/wiki/Amazon_Lex");
-
             URL_Add("flash_", "https://en.wiktionary.org/wiki/flash#Verb");
 
             URL_Add("NAND flash_", "https://en.wikipedia.org/wiki/Flash_memory");
@@ -169319,6 +169360,14 @@ namespace OverflowHelper.core
             URL_Add("Bottleneck_", "https://github.com/kwgoodman/bottleneck");
 
             URL_Add("numpy.array()_", "https://numpy.org/doc/stable/reference/generated/numpy.array.html");
+
+            URL_Add("Amazon Elastic File System_", "https://en.wikipedia.org/wiki/Amazon_Elastic_File_System");
+
+            URL_Add("Amazon Redshift_", "https://en.wikipedia.org/wiki/Amazon_Redshift");
+
+            URL_Add("Amazon Lightsail_", "https://en.wikipedia.org/wiki/Timeline_of_Amazon_Web_Services#AWS_Prelude");
+
+            URL_Add("Amazon Lex_", "https://en.wikipedia.org/wiki/Amazon_Lex");
 
         } //addLookupData_alternativeWordSet()
 
@@ -170649,6 +170698,7 @@ namespace OverflowHelper.core
             correctionAdd("after the flash__", "It is highly recommended to reset to factory defaults right after the flash__");
             correctionAdd("after flashing__", "It is highly recommended to reset to factory defaults right after the flash__");
             correctionAdd("hard flashing__", "It is highly recommended to reset to factory defaults right after the flash__");
+            correctionAdd("weird things__", "It is highly recommended to reset to factory defaults right after the flash__");
             correctionAdd("recommended__", "It is highly recommended to reset to factory defaults right after the flash__");
             correctionAdd("recommend__", "It is highly recommended to reset to factory defaults right after the flash__");
             correctionAdd("flashing__", "It is highly recommended to reset to factory defaults right after the flash__");
