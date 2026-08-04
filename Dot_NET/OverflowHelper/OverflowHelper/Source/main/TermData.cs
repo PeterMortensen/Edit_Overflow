@@ -65610,6 +65610,7 @@ namespace OverflowHelper.core
             correctionAdd("gatheron", "Gateron switches");
             correctionAdd("Gatetron", "Gateron switches");
             correctionAdd("Gaterson", "Gateron switches");
+            correctionAdd("gaterona", "Gateron switches");
             correctionAdd("gateron", "Gateron switches");
             correctionAdd("GateRon", "Gateron switches");
             correctionAdd("galeron", "Gateron switches");
@@ -152834,6 +152835,7 @@ namespace OverflowHelper.core
             correctionAdd("kiyboard_", "keyboard_");
             correctionAdd("jeyboard_", "keyboard_");
             correctionAdd("meyblard_", "keyboard_"); // A true typo (double typo)
+            correctionAdd("key oard_", "keyboard_");
             correctionAdd("keybord_", "keyboard_");
             correctionAdd("Keybord_", "keyboard_");
             correctionAdd("keyboad_", "keyboard_");
@@ -157806,6 +157808,7 @@ namespace OverflowHelper.core
             correctionAdd("KS_", "Kickstarter_");
 
             correctionAdd("hight_", "high_");
+            correctionAdd("hogh_", "high_");
 
             // The common noun (not the
             // typo squatted Python library)...
@@ -169892,6 +169895,7 @@ namespace OverflowHelper.core
             correctionAdd("haft__", "have__");
             correctionAdd("heve__", "have__");
             correctionAdd("havw__", "have__"); // A true typo
+            correctionAdd("kave__", "have__");
             correctionAdd("hae__", "have__");
             correctionAdd("hav__", "have__");
             correctionAdd("hva__", "have__");
