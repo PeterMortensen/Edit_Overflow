@@ -12200,7 +12200,10 @@ namespace OverflowHelper.core
             // Physics. Radiation.
             correctionAdd("Bremsstrahlung", "bremsstrahlung");
 
+            correctionAdd("Geiger–Müller counter", "Geiger counter");
             correctionAdd("geiger counter", "Geiger counter");
+            correctionAdd("G-M counter", "Geiger counter");
+            correctionAdd("GM counter", "Geiger counter");
 
             correctionAdd("blurried", "blurred");
             correctionAdd("blured", "blurred");
@@ -17901,6 +17904,9 @@ namespace OverflowHelper.core
             correctionAdd("dragora", "DNF Dragora");
             correctionAdd("DNF", "DNF Dragora"); // For the cross-reference
 
+            // Fedora
+            correctionAdd("FSADM", "fsadm");
+
             // A Linux distribution
             correctionAdd("selinux", "SELinux");
             correctionAdd("SELINUX", "SELinux");
@@ -19080,6 +19086,8 @@ namespace OverflowHelper.core
             correctionAdd("cent", "CentOS");
 
             correctionAdd("CentOS 7", "CentOS version 7");
+            correctionAdd("Centos 7", "CentOS version 7");
+            correctionAdd("CentOS7", "CentOS version 7");
 
             correctionAdd("CentOS 8", "CentOS version 8");
             correctionAdd("CentOS-8", "CentOS version 8");
@@ -21116,6 +21124,7 @@ namespace OverflowHelper.core
             correctionAdd("ater", "after");
             correctionAdd("afte", "after");
 
+            correctionAdd("afterworlds", "afterwards");
             correctionAdd("afterwords", "afterwards");
             correctionAdd("Afterward", "afterwards");
             correctionAdd("afterward", "afterwards");
@@ -26853,6 +26862,9 @@ namespace OverflowHelper.core
             correctionAdd("fs", "file system"); // It is also the (literal) of a Node.js module.
 
             correctionAdd("filesystems", "file systems");
+
+            correctionAdd("super-block", "superblock");
+            correctionAdd("super block", "superblock");
 
             correctionAdd("temporary file system", "tmpfs");
 
@@ -65222,6 +65234,12 @@ namespace OverflowHelper.core
             //
             correctionAdd("kn ocky", "thocky");
 
+            // Related to mechanical keyboards (sound)
+            //
+            // A kind of sound
+            //
+            correctionAdd("thuda", "thud");
+
             correctionAdd("clicky-ness", "clickiness");
             correctionAdd("clickyness", "clickiness");
             correctionAdd("clicky-nes", "clickiness");
@@ -66809,6 +66827,8 @@ namespace OverflowHelper.core
             correctionAdd("keycloak", "Keycloak");
             correctionAdd("keyloak", "Keycloak");
 
+            // Mac
+            correctionAdd("Quick Keys", "QuicKeys");
             correctionAdd("Quickeys", "QuicKeys");
 
             // A manufacturer of mechanical keyboards, etc.
@@ -86709,7 +86729,9 @@ namespace OverflowHelper.core
             correctionAdd("Keychron K3 Ultra 8K", "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K"); // Sort of identity mapping
             correctionAdd("K3 Ultra (8K)", "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K");
             correctionAdd("K3 Ultra 8K", "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K");
+            correctionAdd("K3 ultra 8k", "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K");
             correctionAdd("K3 Ultra", "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K");
+            correctionAdd("k3 ultra", "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K");
             correctionAdd("K3 8K", "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K");
 
             // A 85-key (80%. Not true TKL) crippled
@@ -123741,6 +123763,12 @@ namespace OverflowHelper.core
 
             URL_Add("thock", "https://kineticlabs.com/blog/what-is-thock");
 
+            URL_Add("thocking", "https://en.wiktionary.org/wiki/thock#Verb");
+
+            URL_Add("thocky", "https://scottypass.com/5-best-creamy-keyboards/");
+
+            URL_Add("thud", "https://en.wiktionary.org/wiki/thud#Noun");
+
             URL_Add("optimisations", "https://en.wiktionary.org/wiki/optimisation#Noun");
 
             URL_Add("respective", "https://en.wiktionary.org/wiki/respective#Adjective");
@@ -124384,8 +124412,6 @@ namespace OverflowHelper.core
             URL_Add("à la carte", "https://en.wiktionary.org/wiki/%C3%A0_la_carte#Adverb");
 
             URL_Add("quieter", "https://en.wiktionary.org/wiki/quiet#Adjective");
-
-            URL_Add("thocking", "https://en.wiktionary.org/wiki/thock#Verb");
 
             URL_Add("heavy", "https://en.wiktionary.org/wiki/heavy#Adjective");
 
@@ -125510,8 +125536,6 @@ namespace OverflowHelper.core
             URL_Add("Rishi Sunak", "https://en.wikipedia.org/wiki/Rishi_Sunak");
 
             URL_Add("thwart", "https://en.wiktionary.org/wiki/thwart#Verb");
-
-            URL_Add("thocky", "https://scottypass.com/5-best-creamy-keyboards/");
 
             URL_Add("Mark Pilgrim", "https://en.wikipedia.org/wiki/Mark_Pilgrim");
 
@@ -137745,6 +137769,8 @@ namespace OverflowHelper.core
 
             URL_Add("Fedora&nbsp;41", "https://fedoraproject.org/spins/cinnamon/download/");
 
+            URL_Add("fsadm", "https://www.man7.org/linux/man-pages/man8/fsadm.8.html");
+
             URL_Add("Sticky Keys", "https://en.wikipedia.org/wiki/Sticky_keys");
 
             URL_Add("bring your own keyboard", "https://www.kickstarter.com/projects/byok/byok-the-ultimate-distraction-free-writing-tool");
@@ -148723,6 +148749,8 @@ namespace OverflowHelper.core
 
             URL_Add("file systems", "https://en.wiktionary.org/wiki/file_system#Noun");
 
+            URL_Add("superblock", "https://en.wikipedia.org/wiki/Superblock_(file_system)");
+
             URL_Add("journaling file system", "https://en.wikipedia.org/wiki/Journaling_file_system");
 
             URL_Add("Andrew File System", "https://en.wikipedia.org/wiki/Andrew_File_System");
@@ -158527,6 +158555,7 @@ namespace OverflowHelper.core
             // A Linux distribution
             // For the abbr.
             correctionAdd("Red Hat Enterprise Linux_", "RHEL_");
+            correctionAdd("rhel_", "RHEL_");
             correctionAdd("RHE_", "RHEL_");
 
             // Related to Pop!_OS (Linux) and GNOME
