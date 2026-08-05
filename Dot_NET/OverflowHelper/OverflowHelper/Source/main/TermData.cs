@@ -32664,6 +32664,8 @@ namespace OverflowHelper.core
 
             correctionAdd("failurle", "failure");
 
+            correctionAdd("non-failure", "nonfailure");
+
             correctionAdd("fail back", "failback");
 
             correctionAdd("fail over", "failover");
@@ -35758,6 +35760,7 @@ namespace OverflowHelper.core
             correctionAdd("prefrebly", "preferably");
             correctionAdd("prefably", "preferably");
             correctionAdd("prerably", "preferably");
+            correctionAdd("prebably", "preferably");
 
             correctionAdd("preferance", "preference");
             correctionAdd("Preferance", "preference");
@@ -41122,6 +41125,7 @@ namespace OverflowHelper.core
 
             // A software library from Intel. Related to NumPy.
             correctionAdd("Math Kernel Library", "MKL");
+            correctionAdd("mkl", "MKL");
 
             correctionAdd("scipy", "SciPy");
             correctionAdd("Scipy", "SciPy");
@@ -44566,6 +44570,7 @@ namespace OverflowHelper.core
             correctionAdd("trigging", "triggering");
 
             correctionAdd("triggerred", "triggered");
+            correctionAdd("triiggered", "triggered");
             correctionAdd("trigerred", "triggered");
             correctionAdd("triggerd", "triggered");
             correctionAdd("tiggered", "triggered");
@@ -113924,6 +113929,8 @@ namespace OverflowHelper.core
 
             URL_Add("failure", "https://en.wiktionary.org/wiki/failure#Noun");
 
+            URL_Add("nonfailure", "https://en.wiktionary.org/wiki/nonfailure#Noun");
+
             URL_Add("in any case", "https://en.wiktionary.org/wiki/in_any_case#Adverb");
 
             URL_Add("incompatible", "https://en.wiktionary.org/wiki/incompatible#Adjective");
@@ -171679,6 +171686,7 @@ namespace OverflowHelper.core
 
             correctionAdd("develope__", "develop__");
             correctionAdd("Develop__", "develop__");
+            correctionAdd("develep__", "develop__");
             correctionAdd("dev__", "develop__");
 
             // A Scrum term
