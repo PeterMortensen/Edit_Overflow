@@ -955,6 +955,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Windows 8.1", "Windows&nbsp;8.1");
             correctionAdd("windows 8.1", "Windows&nbsp;8.1");
+            correctionAdd("windows8.1", "Windows&nbsp;8.1");
             correctionAdd("Win 8.1", "Windows&nbsp;8.1");
             correctionAdd("win 8.1", "Windows&nbsp;8.1");
             correctionAdd("win8.1", "Windows&nbsp;8.1");
@@ -33562,6 +33563,7 @@ namespace OverflowHelper.core
             correctionAdd("Vscode", "Visual Studio Code");
             correctionAdd("VScode", "Visual Studio Code");
             correctionAdd("VSCODE", "Visual Studio Code");
+            correctionAdd("vScode", "Visual Studio Code");
             correctionAdd("VSCod", "Visual Studio Code");
             correctionAdd("MSVSC", "Visual Studio Code");
             correctionAdd("CODE", "Visual Studio Code");
@@ -34924,6 +34926,8 @@ namespace OverflowHelper.core
             correctionAdd("artic", "Arctic");
 
             correctionAdd("sea ices", "sea ice");
+
+            correctionAdd("hatered", "hatred");
 
             correctionAdd("Tip of the Iceberg", "tip of the iceberg");
             correctionAdd("tip of a tree", "tip of the iceberg");
@@ -41116,6 +41120,9 @@ namespace OverflowHelper.core
             // NumPy
             correctionAdd("dtype", "data type object");
 
+            // A software library from Intel. Related to NumPy.
+            correctionAdd("Math Kernel Library", "MKL");
+
             correctionAdd("scipy", "SciPy");
             correctionAdd("Scipy", "SciPy");
             correctionAdd("SciPY", "SciPy");
@@ -41403,7 +41410,9 @@ namespace OverflowHelper.core
             correctionAdd("Annaconda", "Anaconda");
             correctionAdd("Ananconda", "Anaconda");
             correctionAdd("anacconda", "Anaconda");
+            correctionAdd("andaconda", "Anaconda");
             correctionAdd("anaconda", "Anaconda");
+            correctionAdd("Anaconde", "Anaconda");
             correctionAdd("Anacond", "Anaconda");
 
             // A bootstrap version of Anaconda. Python
@@ -41483,6 +41492,7 @@ namespace OverflowHelper.core
             correctionAdd("Enthought", "Enthought Canopy");
             correctionAdd("canopy", "Enthought Canopy");
             correctionAdd("Canopy", "Enthought Canopy");
+            correctionAdd("EPD", "Enthought Canopy"); // The former name
 
             correctionAdd("pyside", "PySide");
 
@@ -41773,6 +41783,7 @@ namespace OverflowHelper.core
             correctionAdd("sklearn", "scikit-learn");
 
             correctionAdd("Scikit-image", "scikit-image");
+            correctionAdd("skimage", "scikit-image");
 
             correctionAdd("pybossa", "Pybossa");
 
@@ -59842,6 +59853,9 @@ namespace OverflowHelper.core
             correctionAdd("BLE", "Bluetooth LE");
             correctionAdd("ble", "Bluetooth LE");
 
+            // A microcontroller with Bluetooth capability
+            correctionAdd("cc2540", "CC2540");
+
             // Bluetooth
             correctionAdd("Piconet", "piconet");
 
@@ -76763,6 +76777,7 @@ namespace OverflowHelper.core
             correctionAdd("EF", "ADO.NET Entity Framework");
 
             correctionAdd("Entity Framework core", "Entity Framework Core");
+            correctionAdd("entity framework core", "Entity Framework Core");
             correctionAdd("EntityFramework Core", "Entity Framework Core");
             correctionAdd("EF Core", "Entity Framework Core");
             correctionAdd("EF core", "Entity Framework Core");
@@ -82313,6 +82328,8 @@ namespace OverflowHelper.core
             //
             // Notes:
             //
+            //   * Proprietary keyboard firmware, not open source
+            //
             //   * K HE and Q HE series:
             //
             //     south pole facing downward (uncommon)
@@ -84052,6 +84069,8 @@ namespace OverflowHelper.core
             //
             // Notes:
             //
+            //   * Proprietary keyboard firmware, not open source
+            //
             //   * K HE and Q HE series:
             //
             //     South pole facing downward (uncommon)
@@ -84857,6 +84876,8 @@ namespace OverflowHelper.core
             //
             // Notes:
             //
+            //   * Proprietary keyboard firmware, not open source
+            //
             //   * K HE and Q HE series:
             //
             //     South pole facing downward (uncommon)
@@ -85602,7 +85623,9 @@ namespace OverflowHelper.core
             //
             // Notes:
             //
-            //   * No mention of QMK (so it may never be open sourced)
+            //   * Proprietary keyboard firmware, not open source
+            //
+            //     No mention of QMK (so it may never be open sourced)
             //     See the notes for Q6 HE 8K.
             //
             //   * With a 8 kHz USB polling rate
@@ -86338,6 +86361,8 @@ namespace OverflowHelper.core
             // bleed) lighting
             //
             // Notes:
+            //
+            //   * Proprietary keyboard firmware, not open source
             //
             //   * K HE and Q HE series:
             //
@@ -87903,16 +87928,18 @@ namespace OverflowHelper.core
             //
             // Notes:
             //
+            //   * Proprietary keyboard firmware, not open source
+            //
             //   * K HE and Q HE series:
             //
             //     South pole facing downward (uncommon)
             //
             //     What about the Q HE 8K series???
             //
-            correctionAdd("Keychron Q3 HE 8K (105%) (proprietary keyboard firmware, not open source)", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
-            correctionAdd("Q3&nbsp;HE&nbsp;8K", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Q3 HE 8K", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Q3 HE 8k", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
+            correctionAdd("Q3&nbsp;HE&nbsp;8K", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q3 HE 8K", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q3 HE 8k", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)");
 
             // A 88-key (85%. True TKL) crippled low-profile wired and
             // wireless (only Bluetooth) QMK/Via-capable
@@ -89102,12 +89129,12 @@ namespace OverflowHelper.core
             //
             //   It has ***not*** been released as of 2026-07-28!
             //
-            correctionAdd("Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (100%)");
-            correctionAdd("Keychron Q11 Ultra 8K (100%)", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (100%)"); // Sort of identity mapping
-            correctionAdd("Q11 Ultra 8K", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (100%)");
-            correctionAdd("Keychron Q11 Ultra 8K", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (100%)");
-            correctionAdd("Q11 Ultra", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (100%)");
-            correctionAdd("Q11 ultra", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (100%)");
+            correctionAdd("Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)");
+            correctionAdd("Keychron Q11 Ultra 8K (85%)", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)"); // Sort of identity mapping
+            correctionAdd("Keychron Q11 Ultra 8K", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)");
+            correctionAdd("Q11 Ultra 8K", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)");
+            correctionAdd("Q11 Ultra", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)");
+            correctionAdd("Q11 ultra", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)");
 
             // A 91-key (85%. Not true TKL) crippled low-profile
             // wired and wireless (only Bluetooth) QMK/Via-capable
@@ -90649,8 +90676,9 @@ namespace OverflowHelper.core
             correctionAdd("c2 pro 8k", "Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)");
             correctionAdd("C2 Pro 8k", "Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)");
 
-            // A 105-key (100%. Not true TKL) full-size wired-only
-            // QMK/Via-capable mechanical keyboard from Keychron.
+            // A 105-key (100%. Not true TKL) full-size non-crippled
+            // wired-only closed source (but with Via support)
+            // mechanical keyboard from Keychron without a knob.
             //
             // Like C2 Pro and C3 Pro 8K, but with Hall sensor (HE) switches.
             //
@@ -90658,10 +90686,12 @@ namespace OverflowHelper.core
             //
             // Notes:
             //
-            //  * Is based on QMK (it is the Q Ultra 8K series, e.g.,
-            //    Q6 Ultra 8K that is based on ZMK)  what????
+            //   * Proprietary keyboard firmware, not open source
             //
-            //    Probably not.
+            //     Is based on QMK (it is the Q Ultra 8K series, e.g.,
+            //     Q6 Ultra 8K that is based on ZMK)  what????
+            //
+            //     Probably not.
             //
             //   * K HE and Q HE series:
             //
@@ -90678,6 +90708,7 @@ namespace OverflowHelper.core
             correctionAdd("C4&nbsp;HE&nbsp;8K", "Keychron&nbsp;C4&nbsp;HE&nbsp;8K (100%) (proprietary keyboard firmware, not open source)");
             correctionAdd("Keychron C4 HE 8K", "Keychron&nbsp;C4&nbsp;HE&nbsp;8K (100%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
             correctionAdd("C4 HE 8K", "Keychron&nbsp;C4&nbsp;HE&nbsp;8K (100%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("C4 HE", "Keychron&nbsp;C4&nbsp;HE&nbsp;8K (100%) (proprietary keyboard firmware, not open source)");
 
             // A 105-key (100%. Not true TKL) full-size wired and wireless
             // (both Bluetooth and '2.4 GHz') QMK/Via-capable
@@ -91874,16 +91905,16 @@ namespace OverflowHelper.core
             //   <https://github.com/Keychron/qmk_firmware/tree/hall_effect_playground/keyboards/keychron/q6_he>
             //     Note: In a new Git branch, "hall_effect_playground"
             //
-            correctionAdd("Keychron&nbsp;Q6&nbsp;HE", "Keychron&nbsp;Q6&nbsp;HE (100%)");
-            correctionAdd("Keychron Q6 HE (100%)", "Keychron&nbsp;Q6&nbsp;HE (100%)"); // Sort of identity mapping
-            correctionAdd("Keychron Q6 HE", "Keychron&nbsp;Q6&nbsp;HE (100%)"); // Sort of identity mapping
-            correctionAdd("Q HE series", "Keychron&nbsp;Q6&nbsp;HE (100%)"); // For the cross-reference
-            correctionAdd("Q6&nbsp;HE", "Keychron&nbsp;Q6&nbsp;HE (100%)");
-            correctionAdd("Q6 HE", "Keychron&nbsp;Q6&nbsp;HE (100%)");
-            correctionAdd("q6 he", "Keychron&nbsp;Q6&nbsp;HE (100%)");
-            correctionAdd("q6 HE", "Keychron&nbsp;Q6&nbsp;HE (100%)");
-            correctionAdd("Q6 He", "Keychron&nbsp;Q6&nbsp;HE (100%)");
-            correctionAdd("H6", "Keychron&nbsp;Q6&nbsp;HE (100%)");
+            correctionAdd("Keychron&nbsp;Q6&nbsp;HE", "Keychron&nbsp;Q6&nbsp;HE (105%)");
+            correctionAdd("Keychron Q6 HE (105%)", "Keychron&nbsp;Q6&nbsp;HE (105%)"); // Sort of identity mapping
+            correctionAdd("Keychron Q6 HE", "Keychron&nbsp;Q6&nbsp;HE (105%)"); // Sort of identity mapping
+            correctionAdd("Q HE series", "Keychron&nbsp;Q6&nbsp;HE (105%)"); // For the cross-reference
+            correctionAdd("Q6&nbsp;HE", "Keychron&nbsp;Q6&nbsp;HE (105%)");
+            correctionAdd("Q6 HE", "Keychron&nbsp;Q6&nbsp;HE (105%)");
+            correctionAdd("q6 he", "Keychron&nbsp;Q6&nbsp;HE (105%)");
+            correctionAdd("q6 HE", "Keychron&nbsp;Q6&nbsp;HE (105%)");
+            correctionAdd("Q6 He", "Keychron&nbsp;Q6&nbsp;HE (105%)");
+            correctionAdd("H6", "Keychron&nbsp;Q6&nbsp;HE (105%)");
 
             // A 109-key (105%. Not true TKL) full-size wired
             // and wireless (both Bluetooth and '2.4 GHz')
@@ -91938,6 +91969,8 @@ namespace OverflowHelper.core
             // In the Q HE 8K series.
             //
             // Notes:
+            //
+            //   * Proprietary keyboard firmware, not open source
             //
             //   * Closed source. Allegedly uses the
             //     RISC-V processor HPM5321ICB1:
@@ -103171,6 +103204,8 @@ namespace OverflowHelper.core
 
             correctionAdd("quater", "quarter");
 
+            correctionAdd("quaters", "quarters");
+
             correctionAdd("Kung-Foo", "kung fu");
             correctionAdd("Kung Fu", "kung fu");
 
@@ -108363,12 +108398,6 @@ namespace OverflowHelper.core
 
             URL_Add("Fritzing", "https://en.wikipedia.org/wiki/Fritzing");
 
-            URL_Add("Altera", "https://en.wikipedia.org/wiki/Altera");
-
-            URL_Add("Xilinx", "https://en.wikipedia.org/wiki/Xilinx");
-
-            URL_Add("Quartus", "https://en.wikipedia.org/wiki/Altera_Quartus");
-
             URL_Add("Japanese", "https://en.wiktionary.org/wiki/Japanese#Adjective");
 
             URL_Add("embarrassed", "https://en.wiktionary.org/wiki/embarrassed#Adjective");
@@ -111544,8 +111573,6 @@ namespace OverflowHelper.core
             URL_Add("Turing test", "https://en.wikipedia.org/wiki/Turing_test");
 
             URL_Add("practice", "https://en.wiktionary.org/wiki/practise#Noun");
-
-            URL_Add("quarter", "https://en.wiktionary.org/wiki/quarter#Noun");
 
             URL_Add("unemployment", "https://en.wiktionary.org/wiki/unemployment#Noun");
 
@@ -120092,8 +120119,6 @@ namespace OverflowHelper.core
             URL_Add("Benjamin C. Pierce", "https://en.wikipedia.org/wiki/Benjamin_C._Pierce");
 
             URL_Add("Harvard University", "https://en.wikipedia.org/wiki/Harvard_University");
-
-            URL_Add("Quartz Composer", "https://en.wikipedia.org/wiki/Quartz_Composer");
 
             URL_Add("Tufts University", "https://en.wikipedia.org/wiki/Tufts_University");
 
@@ -132873,34 +132898,6 @@ namespace OverflowHelper.core
 
             URL_Add("neo-Nazi", "https://en.wiktionary.org/wiki/neo-Nazi#Noun");
 
-            URL_Add("oscillate", "https://en.wiktionary.org/wiki/oscillate#Verb");
-
-            URL_Add("oscillating", "https://en.wiktionary.org/wiki/oscillating#Adjective");
-
-            URL_Add("oscillation", "https://en.wiktionary.org/wiki/oscillation#Noun");
-
-            URL_Add("oscillator", "https://en.wiktionary.org/wiki/oscillator#Noun");
-
-            URL_Add("oscillators", "https://en.wiktionary.org/wiki/oscillator#Noun");
-
-            URL_Add("oscilloscope", "https://en.wikipedia.org/wiki/Oscilloscope");
-
-            URL_Add("Murata", "https://en.wikipedia.org/wiki/Murata_Manufacturing");
-
-            URL_Add("TCXO", "https://en.wikipedia.org/wiki/Crystal_oscillator#Crystal_oscillator_circuits");
-
-            URL_Add("crystalline", "https://en.wiktionary.org/wiki/crystalline#Adjective");
-
-            URL_Add("quartz crystal", "https://en.wikipedia.org/wiki/Crystal_oscillator");
-
-            URL_Add("oven-controlled crystal oscillator", "https://en.wikipedia.org/wiki/Crystal_oven");
-
-            URL_Add("real-time clock", "https://en.wikipedia.org/wiki/Real-time_clock");
-
-            URL_Add("CrystalDiskMark", "https://en.wikipedia.org/wiki/CrystalDiskMark");
-
-            URL_Add("CrystalDiskInfo", "https://en.wikipedia.org/wiki/CrystalDiskMark#CrystalDiskInfo");
-
             URL_Add("DisplayPort", "https://en.wikipedia.org/wiki/DisplayPort");
 
             URL_Add("LCD", "https://en.wikipedia.org/wiki/Liquid-crystal_display"); // Old: <https://en.wikipedia.org/wiki/Liquid_crystal_display>
@@ -137278,32 +137275,6 @@ namespace OverflowHelper.core
             URL_Add("north pole", "https://en.wiktionary.org/wiki/north_pole#Noun");
 
             URL_Add("missing articles (primarily Indians, Poles and Russians)", "https://www.youtube.com/watch?v=1Dax90QyXgI&t=17m54s");
-
-            URL_Add("monopole", "https://en.wikipedia.org/wiki/Monopole");
-
-            URL_Add("quarter-wave monopole antenna", "https://en.wikipedia.org/wiki/Monopole_antenna");
-
-            URL_Add("dipole", "https://en.wiktionary.org/wiki/dipole#Noun");
-
-            URL_Add("quadrupole", "https://en.wiktionary.org/wiki/quadrupole#Noun");
-
-            URL_Add("antenna", "https://en.wiktionary.org/wiki/antenna#Noun");
-
-            URL_Add("Yagi antenna", "https://en.wikipedia.org/wiki/Yagi%E2%80%93Uda_antenna");
-
-            URL_Add("charge density wave", "https://en.wikipedia.org/wiki/Charge_density_wave");
-
-            URL_Add("microwave", "https://en.wikipedia.org/wiki/Microwave");
-
-            URL_Add("sine wave", "https://en.wikipedia.org/wiki/Sine_wave");
-
-            URL_Add("triangle wave", "https://en.wikipedia.org/wiki/Triangle_wave");
-
-            URL_Add("sawtooth wave", "https://en.wikipedia.org/wiki/Sawtooth_wave");
-
-            URL_Add("square wave", "https://en.wiktionary.org/wiki/square_wave#Noun"); // Old: https://en.wiktionary.org/wiki/square_wave
-
-            URL_Add("arbitrary waveform generator", "https://en.wikipedia.org/wiki/Arbitrary_waveform_generator");
 
             URL_Add("Napoleonic", "https://en.wiktionary.org/wiki/Napoleonic#Adjective");
 
@@ -143545,8 +143516,6 @@ namespace OverflowHelper.core
 
             URL_Add("principal minor", "https://mathematica.stackexchange.com/questions/154018/principal-submatrix-and-principal-minor-of-a-matrix");
 
-            URL_Add("hat tip", "https://en.wiktionary.org/wiki/hat_tip#Noun");
-
             URL_Add("message", "https://en.wiktionary.org/wiki/message#Noun");
 
             URL_Add("messages", "https://en.wiktionary.org/wiki/message#Noun");
@@ -144935,13 +144904,13 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;Q5&nbsp;HE (95%)", "https://www.keychron.com/products/keychron-q5-he-qmk-wireless-custom-keyboard-iso-layout-collection"); // Old: <https://www.keychron.com/products/keychron-q5-he-qmk-wireless-custom-keyboard>
 
-            URL_Add("Keychron&nbsp;Q6&nbsp;HE (100%)", "https://www.keychron.com/products/keychron-q6-he-qmk-wireless-custom-keyboard");
+            URL_Add("Keychron&nbsp;Q6&nbsp;HE (105%)", "https://www.keychron.com/products/keychron-q6-he-qmk-wireless-custom-keyboard");
 
             URL_Add("Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-q1-he-8k-magnetic-switch-keyboard");
 
             URL_Add("Keychron&nbsp;Q2&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-q2-he-8k-magnetic-switch-keyboard");
 
-            URL_Add("Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-q3-he-8k-magnetic-switch-keyboard");
+            URL_Add("Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-q3-he-8k-magnetic-switch-keyboard");
 
             URL_Add("Keychron&nbsp;Q6&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-q6-he-8k-magnetic-switch-keyboard");
 
@@ -144953,7 +144922,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K", "https://www.keychron.com/products/keychron-q6-ultra-8k-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (100%)", "https://www.keychron.com/products/keychron-q11-ultra-8k-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)", "https://www.keychron.com/products/keychron-q11-ultra-8k-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron&nbsp;Q13&nbsp;Ultra&nbsp;8K (100%)", "https://www.keychron.com/products/keychron-q13-ultra-8k-wireless-custom-mechanical-keyboard");
 
@@ -146973,6 +146942,8 @@ namespace OverflowHelper.core
 
             URL_Add("Bluetooth LE", "https://en.wikipedia.org/wiki/Bluetooth_Low_Energy");
 
+            URL_Add("CC2540", "https://www.ti.com/product/CC2540");
+
             URL_Add("Bluetooth 5.2", "https://en.wikipedia.org/wiki/Bluetooth#Bluetooth_5.2");
 
             URL_Add("Bluetooth 5.3", "https://en.wikipedia.org/wiki/Bluetooth#Bluetooth_5.3");
@@ -148719,6 +148690,8 @@ namespace OverflowHelper.core
 
             URL_Add("NumPy", "https://en.wikipedia.org/wiki/NumPy");
 
+            URL_Add("MKL", "https://en.wikipedia.org/wiki/Math_Kernel_Library");
+
             URL_Add("matrix2numpy()", "https://docs.sympy.org/latest/modules/matrices/matrices.html#sympy.matrices.dense.matrix2numpy");
 
             URL_Add("numpy.ndarray", "https://en.wikipedia.org/wiki/NumPy#The_ndarray_data_structure");
@@ -148756,6 +148729,76 @@ namespace OverflowHelper.core
             URL_Add("Andrew File System", "https://en.wikipedia.org/wiki/Andrew_File_System");
 
             URL_Add("Encrypting File System", "https://en.wikipedia.org/wiki/Encrypting_File_System");
+
+            URL_Add("quarter", "https://en.wiktionary.org/wiki/quarter#Noun");
+
+            URL_Add("quarters", "https://en.wiktionary.org/wiki/quarter#Noun");
+
+            URL_Add("quarter-wave monopole antenna", "https://en.wikipedia.org/wiki/Monopole_antenna");
+
+            URL_Add("Quartz Composer", "https://en.wikipedia.org/wiki/Quartz_Composer");
+
+            URL_Add("quartz crystal", "https://en.wikipedia.org/wiki/Crystal_oscillator");
+
+            URL_Add("oven-controlled crystal oscillator", "https://en.wikipedia.org/wiki/Crystal_oven");
+
+            URL_Add("Quartus", "https://en.wikipedia.org/wiki/Altera_Quartus");
+
+            URL_Add("Altera", "https://en.wikipedia.org/wiki/Altera");
+
+            URL_Add("Xilinx", "https://en.wikipedia.org/wiki/Xilinx");
+
+            URL_Add("oscillate", "https://en.wiktionary.org/wiki/oscillate#Verb");
+
+            URL_Add("oscillating", "https://en.wiktionary.org/wiki/oscillating#Adjective");
+
+            URL_Add("oscillation", "https://en.wiktionary.org/wiki/oscillation#Noun");
+
+            URL_Add("oscillator", "https://en.wiktionary.org/wiki/oscillator#Noun");
+
+            URL_Add("oscillators", "https://en.wiktionary.org/wiki/oscillator#Noun");
+
+            URL_Add("oscilloscope", "https://en.wikipedia.org/wiki/Oscilloscope");
+
+            URL_Add("Murata", "https://en.wikipedia.org/wiki/Murata_Manufacturing");
+
+            URL_Add("TCXO", "https://en.wikipedia.org/wiki/Crystal_oscillator#Crystal_oscillator_circuits");
+
+            URL_Add("crystalline", "https://en.wiktionary.org/wiki/crystalline#Adjective");
+
+            URL_Add("real-time clock", "https://en.wikipedia.org/wiki/Real-time_clock");
+
+            URL_Add("CrystalDiskMark", "https://en.wikipedia.org/wiki/CrystalDiskMark");
+
+            URL_Add("CrystalDiskInfo", "https://en.wikipedia.org/wiki/CrystalDiskMark#CrystalDiskInfo");
+
+            URL_Add("monopole", "https://en.wikipedia.org/wiki/Monopole");
+
+            URL_Add("dipole", "https://en.wiktionary.org/wiki/dipole#Noun");
+
+            URL_Add("quadrupole", "https://en.wiktionary.org/wiki/quadrupole#Noun");
+
+            URL_Add("antenna", "https://en.wiktionary.org/wiki/antenna#Noun");
+
+            URL_Add("Yagi antenna", "https://en.wikipedia.org/wiki/Yagi%E2%80%93Uda_antenna");
+
+            URL_Add("charge density wave", "https://en.wikipedia.org/wiki/Charge_density_wave");
+
+            URL_Add("microwave", "https://en.wikipedia.org/wiki/Microwave");
+
+            URL_Add("sine wave", "https://en.wikipedia.org/wiki/Sine_wave");
+
+            URL_Add("triangle wave", "https://en.wikipedia.org/wiki/Triangle_wave");
+
+            URL_Add("sawtooth wave", "https://en.wikipedia.org/wiki/Sawtooth_wave");
+
+            URL_Add("square wave", "https://en.wiktionary.org/wiki/square_wave#Noun"); // Old: https://en.wiktionary.org/wiki/square_wave
+
+            URL_Add("arbitrary waveform generator", "https://en.wikipedia.org/wiki/Arbitrary_waveform_generator");
+
+            URL_Add("hat tip", "https://en.wiktionary.org/wiki/hat_tip#Noun");
+
+            URL_Add("hatred", "https://en.wiktionary.org/wiki/hatred#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -158555,8 +158598,8 @@ namespace OverflowHelper.core
             // A Linux distribution
             // For the abbr.
             correctionAdd("Red Hat Enterprise Linux_", "RHEL_");
-            correctionAdd("rhel_", "RHEL_");
-            correctionAdd("RHE_", "RHEL_");
+            correctionAdd("rhel_", "RHEL_"); // Not strictly necessary (as there is the cross-reference), but it is for a direct lookup.
+            correctionAdd("RHE_", "RHEL_"); // Not strictly necessary (as there is the cross-reference), but it is for a direct lookup.
 
             // Related to Pop!_OS (Linux) and GNOME
             //
@@ -169687,6 +169730,7 @@ namespace OverflowHelper.core
             correctionAdd("cal__", "can__"); // A true typo
             correctionAdd("xan__", "can__"); // A true typo
             correctionAdd("oan__", "can__"); // Likely a typo coming from the previous word containing "o"
+            correctionAdd("kan__", "can__");
             correctionAdd("cn__", "can__");
             correctionAdd("an__", "can__");
             correctionAdd("ca__", "can__");
@@ -173663,7 +173707,7 @@ namespace OverflowHelper.core
             // For the cross-reference to the source code
             // Note: In Git branch "hall_effect_playground"
             //
-            correctionAdd("Keychron&nbsp;Q6&nbsp;HE (100%)__", "Keychron Q6 HE source code__");
+            correctionAdd("Keychron&nbsp;Q6&nbsp;HE (105%)__", "Keychron Q6 HE source code__");
             correctionAdd("Keychron&nbsp;Q6&nbsp;HE__", "Keychron Q6 HE source code__");
             correctionAdd("Keychron Q6 HE__", "Keychron Q6 HE source code__");
 
@@ -177037,7 +177081,7 @@ namespace OverflowHelper.core
             correctionAdd("k he___", "Keychron&nbsp;K&nbsp;HE&nbsp;series___");
 
             // For a direct text, "Q HE series"
-            correctionAdd("Keychron&nbsp;Q6&nbsp;HE (100%)___", "Keychron&nbsp;Q&nbsp;HE&nbsp;series___");
+            correctionAdd("Keychron&nbsp;Q6&nbsp;HE (105%)___", "Keychron&nbsp;Q&nbsp;HE&nbsp;series___");
             correctionAdd("Keychron&nbsp;Q6&nbsp;HE___", "Keychron&nbsp;Q&nbsp;HE&nbsp;series___");
             correctionAdd("Q&nbsp;HE&nbsp;series___", "Keychron&nbsp;Q&nbsp;HE&nbsp;series___");
             correctionAdd("Keychron Q HE series___", "Keychron&nbsp;Q&nbsp;HE&nbsp;series___"); // Sort of identity mapping
@@ -177051,9 +177095,9 @@ namespace OverflowHelper.core
             correctionAdd("QHE___", "Keychron&nbsp;Q&nbsp;HE&nbsp;series___");
             correctionAdd("HE___", "Keychron&nbsp;Q&nbsp;HE&nbsp;series___");
 
+            correctionAdd("Keychron&nbsp;Q6&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // For the cross-reference
             correctionAdd("Keychron Q HE 8K series (proprietary keyboard firmware, not open source)___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // Sort of identity mapping
             correctionAdd("Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
-            correctionAdd("Keychron&nbsp;Q6&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // For the cross-reference
             correctionAdd("Keychron&nbsp;Q6&nbsp;HE&nbsp;8K___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // For the cross-reference
             correctionAdd("Keychron Q HE 8K series___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // Sort of identity mapping
             correctionAdd("Keychron Q6 HE 8K___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // For the cross-reference
