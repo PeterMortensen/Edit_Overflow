@@ -1166,6 +1166,74 @@ namespace OverflowHelper.core
             correctionAdd("Windows Nano server", "Microsoft Nano Server");
             correctionAdd("Windows Nano", "Microsoft Nano Server");
 
+            correctionAdd("deep coding", "hacking");
+            correctionAdd("heking", "hacking");
+
+            correctionAdd("deep coded", "hacked");
+
+            // The adjective
+            correctionAdd("h4x0r", "hacker");
+
+            correctionAdd("Hacky", "hacky");
+
+            correctionAdd("hack arounds", "hackarounds");
+
+            // A book
+            //
+            // For example, bit twiddling
+            correctionAdd("hacker's delight", "Hacker's Delight");
+
+            correctionAdd("whacko", "wacko");
+
+            correctionAdd("wack", "whack");
+
+            correctionAdd("whack a mole", "whack-a-mole");
+
+            // A web site
+            correctionAdd("hackaday", "Hackaday");
+            correctionAdd("HackADay", "Hackaday");
+
+            // A podcast network
+            //
+            // Alternative URLs:
+            //
+            //   <https://hackerpublicradio.org/eps/hpr4627/index.html>
+            //     Constructed URL for an episode (4627 in this example)
+            //
+            //   <https://hackerpublicradio.org/eps/index.html>
+            //     List of shows, sorted by episode number
+            //
+            //   <https://hackerpublicradio.org/series/index.html>
+            //     List of shows, sorted alphabetically by tag
+            //     (they call it "series" as if they were a
+            //     planned coherent series, but it is just
+            //     by tags)
+            //
+            correctionAdd("hackerpublicradio", "Hacker Public Radio");
+            correctionAdd("HPR", "Hacker Public Radio");
+            correctionAdd("hpr", "Hacker Public Radio");
+
+            correctionAdd("Hacker News", "Hacker&nbsp;News"); // Sort of identity mapping
+            correctionAdd("hacker news", "Hacker&nbsp;News");
+            correctionAdd("Hacker news", "Hacker&nbsp;News");
+            correctionAdd("HN", "Hacker&nbsp;News");
+
+            correctionAdd("hacker rank", "HackerRank");
+            correctionAdd("hackerrank", "HackerRank");
+            correctionAdd("Hackerrank", "HackerRank");
+            correctionAdd("H4x0rRnk", "HackerRank");
+
+            correctionAdd("geekie", "geeky");
+            correctionAdd("Geekie", "geeky");
+
+            correctionAdd("geeks for geeks", "GeeksforGeeks");
+            correctionAdd("Geek for Geeks", "GeeksforGeeks");
+            correctionAdd("geeksforgeeks", "GeeksforGeeks");
+            correctionAdd("GeekforGeeks", "GeeksforGeeks");
+            correctionAdd("gfg", "GeeksforGeeks");
+            correctionAdd("GFG", "GeeksforGeeks");
+            correctionAdd("GfG", "GeeksforGeeks");
+
             correctionAdd("rivaling", "rival");
 
             correctionAdd("ild", "old");
@@ -9339,6 +9407,7 @@ namespace OverflowHelper.core
             correctionAdd("lets sat", "let’s say");
 
             // Note: "package" is in an alternative word set
+            correctionAdd("pack1ages", "packages"); // A true typo
             correctionAdd("pacakges", "packages"); // A true typo
             correctionAdd("pkgs", "packages");
             correctionAdd("pks", "packages");
@@ -9859,58 +9928,6 @@ namespace OverflowHelper.core
 
             correctionAdd("reveiled", "revealed");
             correctionAdd("reviled", "revealed");
-
-            correctionAdd("deep coded", "hacked");
-
-            correctionAdd("heking", "hacking");
-            correctionAdd("deep coding", "hacking");
-
-            correctionAdd("Hacky", "hacky");
-
-            // A web site
-            correctionAdd("hackaday", "Hackaday");
-            correctionAdd("HackADay", "Hackaday");
-
-            // A podcast network
-            //
-            // Alternative URLs:
-            //
-            //   <https://hackerpublicradio.org/eps/hpr4627/index.html>
-            //     Constructed URL for an episode (4627 in this example)
-            //
-            //   <https://hackerpublicradio.org/eps/index.html>
-            //     List of shows, sorted by episode number
-            //
-            //   <https://hackerpublicradio.org/series/index.html>
-            //     List of shows, sorted alphabetically by tag
-            //     (they call it "series" as if they were a
-            //     planned coherent series, but it is just
-            //     by tags)
-            //
-            correctionAdd("hackerpublicradio", "Hacker Public Radio");
-            correctionAdd("HPR", "Hacker Public Radio");
-            correctionAdd("hpr", "Hacker Public Radio");
-
-            correctionAdd("Hacker News", "Hacker&nbsp;News"); // Sort of identity mapping
-            correctionAdd("hacker news", "Hacker&nbsp;News");
-            correctionAdd("Hacker news", "Hacker&nbsp;News");
-            correctionAdd("HN", "Hacker&nbsp;News");
-
-            correctionAdd("hacker rank", "HackerRank");
-            correctionAdd("hackerrank", "HackerRank");
-            correctionAdd("Hackerrank", "HackerRank");
-            correctionAdd("H4x0rRnk", "HackerRank");
-
-            correctionAdd("geekie", "geeky");
-            correctionAdd("Geekie", "geeky");
-
-            correctionAdd("geeks for geeks", "GeeksforGeeks");
-            correctionAdd("Geek for Geeks", "GeeksforGeeks");
-            correctionAdd("geeksforgeeks", "GeeksforGeeks");
-            correctionAdd("GeekforGeeks", "GeeksforGeeks");
-            correctionAdd("gfg", "GeeksforGeeks");
-            correctionAdd("GFG", "GeeksforGeeks");
-            correctionAdd("GfG", "GeeksforGeeks");
 
             // The noun
             correctionAdd("quesition", "question");
@@ -21429,6 +21446,7 @@ namespace OverflowHelper.core
             correctionAdd("yourselves", "yourself");
             correctionAdd("your self", "yourself");
             correctionAdd("yout self", "yourself");
+            correctionAdd("yourshelf", "yourself");
             correctionAdd("yourselv", "yourself");
             correctionAdd("youself", "yourself");
             correctionAdd("yerself", "yourself");
@@ -22308,6 +22326,16 @@ namespace OverflowHelper.core
 
             correctionAdd("adherred", "adhered");
 
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=ugKm0iTbF4Q&t=1m23s>
+            //
+            correctionAdd("Attention Deficit Hyperactivity Disorder", "ADHD");
+            correctionAdd("attention deficit hyperactivity disorder", "ADHD");
+            correctionAdd("Hyperkinetic Reaction of Childhood", "ADHD");
+            correctionAdd("hyperkinetic reaction of childhood", "ADHD");
+            correctionAdd("Morbid Defect of Moral Control", "ADHD");
+            correctionAdd("morbid defect of moral control", "ADHD");
             correctionAdd("adhd", "ADHD");
 
             correctionAdd("autictic", "autistic");
@@ -28734,6 +28762,9 @@ namespace OverflowHelper.core
 
             // A JavaScript specification
             correctionAdd("amd module", "AMD module");
+
+            // JavaScript. Numbers
+            correctionAdd("bigint", "BigInt");
 
             // JavaScript-like (lightweight)
             correctionAdd("jerryscript", "JerryScript");
@@ -37202,6 +37233,13 @@ namespace OverflowHelper.core
             //
             correctionAdd("pascal format", "PASCAL VOC Dataset");
             correctionAdd("voc data set", "PASCAL VOC Dataset");
+
+            // A training data set for machine learning. Image data.
+            correctionAdd("Lenna image", "Lenna");
+            correctionAdd("Lena image", "Lenna");
+            correctionAdd("lena image", "Lenna");
+            correctionAdd("Lena", "Lenna");
+            correctionAdd("lena", "Lenna");
 
             // A collection of data for simulated intelligence
             // (so-called AI) training
@@ -47656,11 +47694,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Carry-less Multiplication", "CLMUL");
 
-            // A book
-            //
-            // For example, bit twiddling
-            correctionAdd("hacker's delight", "Hacker's Delight");
-
             // A compiler. C, C++, etc.
             //
             // To easily find the documentation for a given
@@ -49319,7 +49352,11 @@ namespace OverflowHelper.core
             //     S: percentage (%)   (0-100)
             //     V: percentage (%)   (0-100)
             //
+            //   <https://www.rapidtables.com/convert/color/rgb-to-hsv.html>
+            //     RGB to HSV color conversion
+            //
             correctionAdd("hue, saturation, lightness", "HSV");
+            correctionAdd("H, S, V", "HSV");
             correctionAdd("hsv", "HSV");
             correctionAdd("HSB", "HSV"); // A true typo
             correctionAdd("hsb", "HSV"); // A true typo
@@ -54102,7 +54139,6 @@ namespace OverflowHelper.core
 
             correctionAdd("cheak", "check");
             correctionAdd("Cheak", "check");
-            correctionAdd("chack", "check");
             correctionAdd("chect", "check");
             correctionAdd("ckeck", "check");
             correctionAdd("Chech", "check");
@@ -54111,6 +54147,7 @@ namespace OverflowHelper.core
             correctionAdd("cheek", "check");
             correctionAdd("chick", "check");
             correctionAdd("Chick", "check");
+            correctionAdd("chack", "check");
             correctionAdd("chec", "check");
             correctionAdd("ceck", "check");
             correctionAdd("chek", "check");
@@ -54173,9 +54210,9 @@ namespace OverflowHelper.core
 
             correctionAdd("checkup", "check up");
 
-            correctionAdd("chack out", "check out");
             correctionAdd("Check out", "check out");
             correctionAdd("check-out", "check out");
+            correctionAdd("chack out", "check out");
             correctionAdd("checkout", "check out");
             correctionAdd("Checkout", "check out");
             correctionAdd("checout", "check out");
@@ -54626,9 +54663,6 @@ namespace OverflowHelper.core
             correctionAdd("fronwed upon", "frowned upon");
 
             correctionAdd("call-upon", "call upon");
-
-            // The adjective
-            correctionAdd("h4x0r", "hacker");
 
             correctionAdd("elegent", "elegant");
             correctionAdd("elgent", "elegant");
@@ -80332,6 +80366,8 @@ namespace OverflowHelper.core
             correctionAdd("precission", "precision");
             correctionAdd("prescision", "precision");
             correctionAdd("precession", "precision");
+            correctionAdd("percion", "precision");
+            correctionAdd("precion", "precision");
 
             correctionAdd("Imprecise", "imprecise");
 
@@ -81351,6 +81387,7 @@ namespace OverflowHelper.core
             correctionAdd("embarressing", "embarrassing");
             correctionAdd("embarassing", "embarrassing");
             correctionAdd("embarrising", "embarrassing");
+            correctionAdd("embaressing", "embarrassing");
 
             correctionAdd("embarressed", "embarrassed");
             correctionAdd("embaraased", "embarrassed");
@@ -84889,6 +84926,8 @@ namespace OverflowHelper.core
             //
             //     What about the Q HE 8K series???
             //
+            //   * There isn't a Q16, Q16 Pro, Q16 Max, or Q16 Ultra 8K
+            //
             // Q16 HE 8K user manual:
             //
             //   <https://www.keychron.com/pages/keychron-q16-he-8k-user-manual>
@@ -84899,6 +84938,10 @@ namespace OverflowHelper.core
             correctionAdd("Keychron Q16 HE 8K", "Keychron&nbsp;Q16&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
             correctionAdd("Q16 HE 8K", "Keychron&nbsp;Q16&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)");
             correctionAdd("Q16 HE", "Keychron&nbsp;Q16&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("q16 he", "Keychron&nbsp;Q16&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("q16he", "Keychron&nbsp;Q16&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q16", "Keychron&nbsp;Q16&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("q16", "Keychron&nbsp;Q16&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)");
 
             // A 72-key (70%. Not true TKL) severely crippled wired
             // and wireless (both Bluetooth and '2.4 GHz')
@@ -92014,6 +92057,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("Keychron Q6 HE 8K (105%) (proprietary keyboard firmware, not open source)", "Keychron&nbsp;Q6&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
             correctionAdd("Keychron&nbsp;Q6&nbsp;HE&nbsp;8K", "Keychron&nbsp;Q6&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q6&nbsp;HE&nbsp;8K", "Keychron&nbsp;Q6&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)");
             correctionAdd("Keychron Q6 HE 8K", "Keychron&nbsp;Q6&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)");
             correctionAdd("Q6 HE 8K", "Keychron&nbsp;Q6&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)");
             correctionAdd("q6 he 8k", "Keychron&nbsp;Q6&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)");
@@ -93781,12 +93825,6 @@ namespace OverflowHelper.core
             correctionAdd("empaphy", "empathy");
             correctionAdd("emphaty", "empathy");
 
-            correctionAdd("whacko", "wacko");
-
-            correctionAdd("wack", "whack");
-
-            correctionAdd("whack a mole", "whack-a-mole");
-
             correctionAdd("exponenential", "exponential");
             correctionAdd("expnonential", "exponential");
             correctionAdd("exponental", "exponential");
@@ -94184,6 +94222,7 @@ namespace OverflowHelper.core
             correctionAdd("pre-formatted", "preformatted");
             correctionAdd("pre-formated", "preformatted");
 
+            correctionAdd("un-formatted", "unformatted");
             correctionAdd("unformated", "unformatted");
 
             correctionAdd("unfomattable", "unformattable");
@@ -97839,9 +97878,6 @@ namespace OverflowHelper.core
             correctionAdd("ASE", "Astronomy (Stack Exchange site)");
             correctionAdd("AstronomySE", "Astronomy (Stack Exchange site)");
 
-            correctionAdd("Lifehacks", "Lifehacks (Stack Exchange site)");
-            correctionAdd("lifehacks", "Lifehacks (Stack Exchange site)");
-
             correctionAdd("drupal answers", "Drupal&nbsp;Answers (Stack Exchange site)");
             correctionAdd("Drupal Answers", "Drupal&nbsp;Answers (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("Drupal Answers (Stack Exchange site)", "Drupal&nbsp;Answers (Stack Exchange site)");
@@ -97988,6 +98024,9 @@ namespace OverflowHelper.core
             correctionAdd("3D&nbsp;Printing", "3D&nbsp;Printing (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("3dprinting.SE", "3D&nbsp;Printing (Stack Exchange site)");
             correctionAdd("3D Printing", "3D&nbsp;Printing (Stack Exchange site)");
+
+            correctionAdd("Lifehacks", "Lifehacks (Stack Exchange site)");
+            correctionAdd("lifehacks", "Lifehacks (Stack Exchange site)");
 
             // A chatroom on the Stack Exchange site "Code Golf"
             // (<https://codegolf.stackexchange.com>)
@@ -105071,6 +105110,9 @@ namespace OverflowHelper.core
 
             correctionAdd("Amiga OS", "AmigaOS");
 
+            correctionAdd("binary coded decimals", "binary-coded decimal");
+            correctionAdd("BCD", "binary-coded decimal");
+
             correctionAdd("ebcdic", "EBCDIC");
 
             correctionAdd("ucs", "UCS");
@@ -108056,8 +108098,6 @@ namespace OverflowHelper.core
             URL_Add("PyPy", "https://en.wikipedia.org/wiki/PyPy");
 
             URL_Add("Socket.IO", "https://en.wikipedia.org/wiki/Socket.IO");
-
-            URL_Add("Hacker&nbsp;News", "https://en.wikipedia.org/wiki/Hacker_News");
 
             URL_Add("a lot", "https://en.wiktionary.org/wiki/a_lot#Adverb"); // Old: https://en.wiktionary.org/wiki/alot#Adverb
 
@@ -111192,8 +111232,6 @@ namespace OverflowHelper.core
             URL_Add("EditPlus", "https://en.wikipedia.org/wiki/EditPlus");
 
             URL_Add("FreeCommander", "https://freecommander.com/en/summary/");
-
-            URL_Add("HackerRank", "https://en.wikipedia.org/wiki/HackerRank");
 
             URL_Add("JMS", "https://en.wikipedia.org/wiki/Java_Message_Service");
 
@@ -119181,8 +119219,6 @@ namespace OverflowHelper.core
 
             URL_Add("awful", "https://en.wiktionary.org/wiki/awful#Adjective");
 
-            URL_Add("Hackaday", "https://en.wikipedia.org/wiki/Hackaday");
-
             URL_Add("marathon", "https://en.wiktionary.org/wiki/marathon#Noun");
 
             URL_Add("prevalent", "https://en.wiktionary.org/wiki/prevalent#Adjective");
@@ -120740,8 +120776,6 @@ namespace OverflowHelper.core
             URL_Add("attempts", "https://en.wiktionary.org/wiki/attempt#Verb");
 
             URL_Add("B-1 visa", "https://en.wikipedia.org/wiki/B_visa#Acceptable_uses_of_a_B-1_visa");
-
-            URL_Add("hacking", "https://en.wiktionary.org/wiki/hacking#Adjective");
 
             URL_Add("ImageNet", "https://en.wikipedia.org/wiki/ImageNet");
 
@@ -122809,8 +122843,6 @@ namespace OverflowHelper.core
 
             URL_Add("Grand Theft Auto: San Andreas", "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_San_Andreas");
 
-            URL_Add("hacky", "https://en.wiktionary.org/wiki/hacky#Adjective");
-
             URL_Add("strongly typed", "https://en.wikipedia.org/wiki/Strong_and_weak_typing");
 
             URL_Add("whistle-blower", "https://en.wiktionary.org/wiki/whistle-blower#Noun");
@@ -123603,8 +123635,6 @@ namespace OverflowHelper.core
 
             URL_Add("Johannes Brahms", "https://en.wikipedia.org/wiki/Johannes_Brahms");
 
-            URL_Add("hacked", "https://en.wiktionary.org/wiki/hack#Verb");
-
             URL_Add("exotic", "https://en.wiktionary.org/wiki/exotic#Adjective");
 
             URL_Add("incremental encoder", "https://en.wikipedia.org/wiki/Incremental_encoder#Quadrature_outputs");
@@ -124350,8 +124380,6 @@ namespace OverflowHelper.core
             URL_Add("tokens", "https://en.wiktionary.org/wiki/token#Noun");
 
             URL_Add("tribonacci", "https://en.wikipedia.org/wiki/Generalizations_of_Fibonacci_numbers#Tribonacci_numbers");
-
-            URL_Add("Hackintosh", "https://en.wikipedia.org/wiki/Hackintosh");
 
             URL_Add("out of curiosity", "https://en.wiktionary.org/wiki/OOC#Adverb");
 
@@ -127441,8 +127469,6 @@ namespace OverflowHelper.core
 
             URL_Add("Hyundai Eon", "https://en.wikipedia.org/wiki/Hyundai_Eon");
 
-            URL_Add("hacker", "https://en.wiktionary.org/wiki/hacking#Adjective");
-
             URL_Add("nominally", "https://en.wiktionary.org/wiki/nominally#Adverb");
 
             URL_Add("Toyota", "https://en.wikipedia.org/wiki/Toyota");
@@ -130006,8 +130032,6 @@ namespace OverflowHelper.core
             URL_Add("Pyperclip", "https://github.com/asweigart/pyperclip");
 
             URL_Add("Yup", "https://github.com/jquense/yup");
-
-            URL_Add("Hack Nerd Font", "https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack#linux");
 
             URL_Add("pyenv", "https://github.com/pyenv/pyenv");
 
@@ -134051,8 +134075,6 @@ namespace OverflowHelper.core
 
             URL_Add("CockroachDB", "https://en.wikipedia.org/wiki/CockroachDB");
 
-            URL_Add("HackRF", "https://en.wikipedia.org/wiki/HackRF_One");
-
             URL_Add("Chakra UI", "https://github.com/chakra-ui/chakra-ui");
 
             URL_Add("propagate", "https://en.wiktionary.org/wiki/propagate#Verb");
@@ -137994,8 +138016,6 @@ namespace OverflowHelper.core
             URL_Add("software-defined radio", "https://en.wikipedia.org/wiki/Software-defined_radio");
 
             URL_Add("Multi-Use Radio Service", "https://en.wikipedia.org/wiki/Multi-Use_Radio_Service");
-
-            URL_Add("Hacker Public Radio", "https://hackerpublicradio.org/about.html#about");
 
             URL_Add("radio button", "https://en.wikipedia.org/wiki/Radio_button");
 
@@ -143569,8 +143589,6 @@ namespace OverflowHelper.core
 
             URL_Add("ICX", "https://www.intel.com/content/www/us/en/developer/articles/guide/porting-guide-for-icc-users-to-dpcpp-or-icx.html");
 
-            URL_Add("Hacker's Delight", "https://en.wikipedia.org/wiki/Hacker%27s_Delight");
-
             URL_Add("LabStack", "https://labstack.com/");
 
             URL_Add("nonexecutable", "https://en.wiktionary.org/wiki/nonexecutable#Adjective");
@@ -144078,6 +144096,8 @@ namespace OverflowHelper.core
             URL_Add("Auto MPG data set", "https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research#Systems");
 
             URL_Add("PASCAL VOC Dataset", "https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research#Object_detection_and_recognition");
+
+            URL_Add("Lenna", "https://en.wikipedia.org/wiki/Lenna");
 
             URL_Add("finite-state automaton", "https://en.wikipedia.org/wiki/Finite-state_automaton");
 
@@ -148806,6 +148826,36 @@ namespace OverflowHelper.core
             URL_Add("hat tip", "https://en.wiktionary.org/wiki/hat_tip#Noun");
 
             URL_Add("hatred", "https://en.wiktionary.org/wiki/hatred#Noun");
+
+            URL_Add("BigInt", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt");
+
+            URL_Add("binary-coded decimal", "https://en.wikipedia.org/wiki/Binary-coded_decimal");
+
+            URL_Add("hacking", "https://en.wiktionary.org/wiki/hacking#Adjective");
+
+            URL_Add("hacked", "https://en.wiktionary.org/wiki/hack#Verb");
+
+            URL_Add("hacky", "https://en.wiktionary.org/wiki/hacky#Adjective");
+
+            URL_Add("hacker", "https://en.wiktionary.org/wiki/hacking#Adjective");
+
+            URL_Add("hackarounds", "https://en.wiktionary.org/wiki/hackaround#Noun");
+
+            URL_Add("Hacker's Delight", "https://en.wikipedia.org/wiki/Hacker%27s_Delight");
+
+            URL_Add("Hackaday", "https://en.wikipedia.org/wiki/Hackaday");
+
+            URL_Add("Hacker&nbsp;News", "https://en.wikipedia.org/wiki/Hacker_News");
+
+            URL_Add("HackerRank", "https://en.wikipedia.org/wiki/HackerRank");
+
+            URL_Add("HackRF", "https://en.wikipedia.org/wiki/HackRF_One");
+
+            URL_Add("Hacker Public Radio", "https://hackerpublicradio.org/about.html#about");
+
+            URL_Add("Hack Nerd Font", "https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack#linux");
+
+            URL_Add("Hackintosh", "https://en.wikipedia.org/wiki/Hackintosh");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -154599,6 +154649,13 @@ namespace OverflowHelper.core
             correctionAdd("dip_", "DIP_");
             correctionAdd("Dip_", "DIP_");
 
+            correctionAdd("IQ_", "image quality_");
+
+            // System updates as one single image instead of
+            // updating individual files
+            correctionAdd("atomic system_", "atomic Linux system_");
+            correctionAdd("atomic_", "atomic Linux system_");
+
             correctionAdd("ami_", "Amazon Machine Image_");
             correctionAdd("AMI_", "Amazon Machine Image_");
 
@@ -157365,8 +157422,6 @@ namespace OverflowHelper.core
             correctionAdd("Quality Assurance_", "QA_");
             correctionAdd("qa_", "QA_");
 
-            correctionAdd("IQ_", "image quality_");
-
             correctionAdd("prime number_", "prime numbers_");
 
             correctionAdd("nos_", "numbers_");
@@ -158719,11 +158774,6 @@ namespace OverflowHelper.core
             correctionAdd("activestate_", "ActiveState_");
             correctionAdd("Activestate_", "ActiveState_");
             correctionAdd("AS_", "ActiveState_");
-
-            // System updates as one single image instead of
-            // updating individual files
-            correctionAdd("atomic system_", "atomic Linux system_");
-            correctionAdd("atomic_", "atomic Linux system_");
 
             // A Linux window manager
             correctionAdd("enlightenment_", "Enlightenment_");
@@ -167089,8 +167139,6 @@ namespace OverflowHelper.core
 
             URL_Add("prototype_", "https://en.wiktionary.org/wiki/prototype#Noun");
 
-            URL_Add("hacker_", "https://en.wiktionary.org/wiki/hacker#Noun");
-
             URL_Add("pyramid_", "https://en.wiktionary.org/wiki/pyramid#Noun");
 
             URL_Add("Moment.js_", "https://momentjs.com/");
@@ -169450,6 +169498,8 @@ namespace OverflowHelper.core
             URL_Add("Amazon Lightsail_", "https://en.wikipedia.org/wiki/Timeline_of_Amazon_Web_Services#AWS_Prelude");
 
             URL_Add("Amazon Lex_", "https://en.wikipedia.org/wiki/Amazon_Lex");
+
+            URL_Add("hacker_", "https://en.wiktionary.org/wiki/hacker#Noun");
 
         } //addLookupData_alternativeWordSet()
 
