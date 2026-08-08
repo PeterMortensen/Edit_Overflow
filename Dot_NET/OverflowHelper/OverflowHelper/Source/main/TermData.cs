@@ -677,6 +677,8 @@ namespace OverflowHelper.core
             // First misspelling observed in the wild 2026-02!
             correctionAdd("equipement", "equipment");
 
+            correctionAdd("original design manufacturer", "ODM");
+
             // Note: "OEM" / "original equipment manufacturer"
             //       is in an alternative word set
             //
@@ -4503,6 +4505,8 @@ namespace OverflowHelper.core
             correctionAdd("hardway", "learned the hard way");
 
             correctionAdd("under-way", "under way");
+
+            correctionAdd("underneeth", "underneath");
 
             // Note: "one", "two", "five", "seven" are in an
             //       alternative word set (currently the third)
@@ -10511,14 +10515,18 @@ namespace OverflowHelper.core
             correctionAdd("StackOverflow Teams", "Stack Overflow for Teams");
             correctionAdd("stackoverflow teams", "Stack Overflow for Teams");
             correctionAdd("StackOverflow Team", "Stack Overflow for Teams");
+            correctionAdd("Stack Internal", "Stack Overflow for Teams"); // The new name
+            correctionAdd("stack internal", "Stack Overflow for Teams"); // A misspelling of the new name
             correctionAdd("SO for Teams", "Stack Overflow for Teams");
             correctionAdd("SO for teams", "Stack Overflow for Teams");
             correctionAdd("SO Teams", "Stack Overflow for Teams");
+            correctionAdd("Internal", "Stack Overflow for Teams"); // Shorthand of the new name
             correctionAdd("teams", "Stack Overflow for Teams");
             correctionAdd("Teams", "Stack Overflow for Teams");
             correctionAdd("SOfT", "Stack Overflow for Teams");
             correctionAdd("SOFT", "Stack Overflow for Teams");
             correctionAdd("SoFT", "Stack Overflow for Teams");
+            correctionAdd("SI", "Stack Overflow for Teams");
 
             // Alternative URLs:
             //
@@ -10786,6 +10794,7 @@ namespace OverflowHelper.core
             correctionAdd("regex question", "RegEx match open tags except XHTML self-contained tags");
 
             // Related to Stack Overflow
+            correctionAdd("Primarily Opinion-Based", "primarily opinion-based");
             correctionAdd("POB", "primarily opinion-based");
 
             // Stack Overflow
@@ -26296,6 +26305,8 @@ namespace OverflowHelper.core
             correctionAdd("encription", "encryption");
             correctionAdd("enctyption", "encryption");
 
+            correctionAdd("encryptor", "encrypter");
+
             correctionAdd("End-To-End encryption", "end-to-end encryption");
 
             correctionAdd("crypto-graphic", "cryptographic");
@@ -29278,6 +29289,21 @@ namespace OverflowHelper.core
 
             correctionAdd("vuex", "Vuex");
             correctionAdd("VUEX", "Vuex");
+
+            // A JavaScript library for vector graphics
+            // mostly using SVG
+            correctionAdd("Raphael JS", "Raphaël");
+            correctionAdd("Raphael.js", "Raphaël");
+            correctionAdd("Raphael js", "Raphaël");
+            correctionAdd("Raphael.JS", "Raphaël");
+            correctionAdd("raphael js", "Raphaël");
+            correctionAdd("raphael.js", "Raphaël");
+            correctionAdd("raphaeljs", "Raphaël");
+            correctionAdd("RaphaelJS", "Raphaël");
+            correctionAdd("Raphaeljs", "Raphaël");
+            correctionAdd("rapaeljs", "Raphaël");
+            correctionAdd("Raphael", "Raphaël");
+            correctionAdd("raphael", "Raphaël");
 
             // A JavaScript library related to Three.js
             correctionAdd("drei", "Drei");
@@ -41852,6 +41878,12 @@ namespace OverflowHelper.core
 
             correctionAdd("Pekka Pykko", "Pekka Pyykkö");
 
+            // Related to Telegram Messenger
+            correctionAdd("mtproto", "MTProto");
+
+            // Related to Telegram Messenger
+            correctionAdd("TdLib", "TDLib");
+
             // Python. Web.
             correctionAdd("django", "Django");
             correctionAdd("Djanog", "Django"); // Misspelling.
@@ -42431,11 +42463,6 @@ namespace OverflowHelper.core
 
             correctionAdd("lircd", "LIRC");
 
-            correctionAdd("tellygram", "Telegram Messenger");
-            correctionAdd("Telegram", "Telegram Messenger");
-            correctionAdd("telegram", "Telegram Messenger");
-            correctionAdd("Tg", "Telegram Messenger");
-
             correctionAdd("Whats app", "WhatsApp");
             correctionAdd("whats app", "WhatsApp");
             correctionAdd("What'sApp", "WhatsApp");
@@ -42712,6 +42739,7 @@ namespace OverflowHelper.core
             correctionAdd("techical", "technical");
 
             correctionAdd("non-technical", "nontechnical");
+            correctionAdd("non technical", "nontechnical");
             correctionAdd("non tech", "nontechnical");
 
             correctionAdd("tecnhically", "technically");
@@ -49208,6 +49236,8 @@ namespace OverflowHelper.core
 
             correctionAdd("INI", "INI file");
 
+            correctionAdd("Vector Markup Language", "VML");
+
             correctionAdd("Scalable Vector Graphics", "SVG");
             correctionAdd("svg", "SVG");
             correctionAdd("Svg", "SVG");
@@ -51379,6 +51409,33 @@ namespace OverflowHelper.core
 
             correctionAdd("drop in", "drop-in");
 
+            // The verb
+            correctionAdd("dorp", "drop");
+
+            correctionAdd("droped", "dropped");
+            correctionAdd("dropt", "dropped");
+
+            correctionAdd("dropable", "droppable");
+
+            correctionAdd("dropoff", "drop-off");
+
+            correctionAdd("the quarter drop", "the penny drop");
+
+            // A proverb
+            correctionAdd("In for a penny, in for a pound", "in for a penny, in for a pound");
+
+            correctionAdd("drag'n'drop", "drag and drop");
+            correctionAdd("drag n drop", "drag and drop");
+            correctionAdd("DnD", "drag and drop");
+            correctionAdd("dnd", "drag and drop");
+
+            correctionAdd("Dragg", "drag");
+            correctionAdd("dragg", "drag");
+            correctionAdd("Drag", "drag");
+            correctionAdd("draq", "drag");
+
+            correctionAdd("dragable", "draggable");
+
             // Note: "issue" is in an alternative word set
             //
             correctionAdd("issuers", "issues");
@@ -52571,6 +52628,7 @@ namespace OverflowHelper.core
             correctionAdd("USB-to-go", "USB On-The-Go");
             correctionAdd("USB OTG", "USB On-The-Go");
             correctionAdd("OTG", "USB On-The-Go");
+            correctionAdd("otg", "USB On-The-Go");
 
             correctionAdd("localy", "locally");
 
@@ -57739,31 +57797,6 @@ namespace OverflowHelper.core
             correctionAdd("optionnaly", "optionally");
             correctionAdd("optionaly", "optionally");
             correctionAdd("Optionaly", "optionally");
-
-            // The verb
-            correctionAdd("dorp", "drop");
-
-            correctionAdd("droped", "dropped");
-            correctionAdd("dropt", "dropped");
-
-            correctionAdd("dropoff", "drop-off");
-
-            correctionAdd("the quarter drop", "the penny drop");
-
-            // A proverb
-            correctionAdd("In for a penny, in for a pound", "in for a penny, in for a pound");
-
-            correctionAdd("drag'n'drop", "drag and drop");
-            correctionAdd("drag n drop", "drag and drop");
-            correctionAdd("DnD", "drag and drop");
-            correctionAdd("dnd", "drag and drop");
-
-            correctionAdd("Dragg", "drag");
-            correctionAdd("dragg", "drag");
-            correctionAdd("Drag", "drag");
-            correctionAdd("draq", "drag");
-
-            correctionAdd("dragable", "draggable");
 
             correctionAdd("incidicate", "indicate");
             correctionAdd("andicate", "indicate");
@@ -70878,6 +70911,7 @@ namespace OverflowHelper.core
 
             correctionAdd("over reacted", "overreacted");
 
+            // Related to Windows
             correctionAdd("reactos", "ReactOS");
 
             correctionAdd("rection", "reaction");
@@ -100736,8 +100770,9 @@ namespace OverflowHelper.core
             correctionAdd("decentralized finance", "DeFi");
             correctionAdd("defi", "DeFi");
 
-            correctionAdd("d3js", "D3.js");
             correctionAdd("d3.js", "D3.js");
+            correctionAdd("d3js", "D3.js");
+            correctionAdd("D3js", "D3.js");
             correctionAdd("D3", "D3.js");
             correctionAdd("d3", "D3.js");
 
@@ -107429,8 +107464,6 @@ namespace OverflowHelper.core
 
             URL_Add("Erlang", "https://en.wikipedia.org/wiki/Erlang_%28programming_language%29");
 
-            URL_Add("Dropbox", "https://en.wikipedia.org/wiki/Dropbox_%28service%29");
-
             URL_Add("ActiveX", "https://en.wikipedia.org/wiki/ActiveX");
 
             URL_Add("SUSE&nbsp;Linux", "https://en.wikipedia.org/wiki/SUSE_Linux"); // Old: https://en.wikipedia.org/wiki/SUSE_Linux_distributions
@@ -108077,8 +108110,6 @@ namespace OverflowHelper.core
 
             URL_Add("SlickEdit", "https://en.wikipedia.org/wiki/SlickEdit");
 
-            URL_Add("D3.js", "https://en.wikipedia.org/wiki/D3.js");
-
             URL_Add("EPROM", "https://en.wikipedia.org/wiki/EPROM");
 
             URL_Add("Google I/O", "https://en.wikipedia.org/wiki/Google_I/O");
@@ -108556,8 +108587,6 @@ namespace OverflowHelper.core
             URL_Add("Mockito", "https://en.wikipedia.org/wiki/Mockito");
 
             URL_Add("up-to-date", "https://en.wiktionary.org/wiki/up-to-date#Adjective");
-
-            URL_Add("React Native", "https://en.wikipedia.org/wiki/React_(JavaScript_library)#React_Native");
 
             URL_Add("Ionic", "https://en.wikipedia.org/wiki/Ionic_(mobile_app_framework)");
 
@@ -109535,13 +109564,7 @@ namespace OverflowHelper.core
 
             URL_Add("Gerrit", "https://en.wikipedia.org/wiki/Gerrit_(software)");
 
-            URL_Add("MUI React", "https://www.muicss.com/docs/v1/react/introduction");
-
-            URL_Add("MUI", "https://material-ui.com/");
-
             URL_Add("beautiful", "https://en.wiktionary.org/wiki/beautiful#Adjective");
-
-            URL_Add("Telegram Messenger", "https://en.wikipedia.org/wiki/Telegram_(software)");
 
             URL_Add("HyperTerminal", "https://en.wikipedia.org/wiki/HyperACCESS");
 
@@ -110242,8 +110265,6 @@ namespace OverflowHelper.core
             URL_Add(".NET CLI", "https://en.wikipedia.org/wiki/Common_Language_Infrastructure");
 
             URL_Add("Bill Gates", "https://en.wikipedia.org/wiki/Bill_Gates");
-
-            URL_Add("JSX", "https://en.wikipedia.org/wiki/React_(web_framework)#JSX");
 
             URL_Add("NestJS", "https://nestjs.com/");
 
@@ -113021,8 +113042,6 @@ namespace OverflowHelper.core
 
             URL_Add("farewell", "https://en.wiktionary.org/wiki/farewell#Noun");
 
-            URL_Add("React hooks", "https://en.wikipedia.org/wiki/React_(web_framework)#React_hooks");
-
             URL_Add("cloud computing", "https://en.wikipedia.org/wiki/Cloud_computing");
 
             URL_Add("dinosaur", "https://en.wiktionary.org/wiki/dinosaur#Noun");
@@ -113060,8 +113079,6 @@ namespace OverflowHelper.core
             URL_Add("NeXTSTEP", "https://en.wikipedia.org/wiki/NeXTSTEP");
 
             URL_Add("Racket", "https://en.wikipedia.org/wiki/Racket_(programming_language)");
-
-            URL_Add("ReactOS", "https://en.wikipedia.org/wiki/ReactOS");
 
             URL_Add("fianchettoing", "https://en.wiktionary.org/wiki/fianchetto#Verb");
 
@@ -113844,8 +113861,6 @@ namespace OverflowHelper.core
             URL_Add("AppArmor", "https://en.wikipedia.org/wiki/AppArmor");
 
             URL_Add("Pale Moon", "https://en.wikipedia.org/wiki/Pale_Moon_(web_browser)");
-
-            URL_Add("React Router", "https://reactrouter.com/");
 
             URL_Add("antiX", "https://en.wikipedia.org/wiki/AntiX");
 
@@ -115012,8 +115027,6 @@ namespace OverflowHelper.core
             URL_Add("impedance", "https://en.wiktionary.org/wiki/impedance#Noun");
 
             URL_Add("predetermined", "https://en.wiktionary.org/wiki/predetermined#Adjective");
-
-            URL_Add("dropped", "https://en.wiktionary.org/wiki/drop#Verb");
 
             URL_Add("off-road", "https://en.wiktionary.org/wiki/off-road#Adjective");
 
@@ -117471,8 +117484,6 @@ namespace OverflowHelper.core
 
             URL_Add("Shakhriyar Mamedyarov", "https://en.wikipedia.org/wiki/Shakhriyar_Mamedyarov");
 
-            URL_Add("Vuex", "https://vuex.vuejs.org/");
-
             URL_Add("data rate", "https://en.wiktionary.org/wiki/data_rate#Noun");
 
             URL_Add("deserialising", "https://en.wiktionary.org/wiki/deserialise#Verb");
@@ -119590,8 +119601,6 @@ namespace OverflowHelper.core
             URL_Add("Jaxen", "https://github.com/jaxen-xpath/jaxen");
 
             URL_Add("JTidy", "https://jtidy.sourceforge.net/");
-
-            URL_Add("drop-down menu", "https://en.wikipedia.org/wiki/Drop-down_list#HTML"); // Old: <https://en.wiktionary.org/wiki/dropdown#Noun>
 
             URL_Add("KHTML", "https://en.wikipedia.org/wiki/KHTML");
 
@@ -123087,8 +123096,6 @@ namespace OverflowHelper.core
 
             URL_Add("Nouveau", "https://wiki.archlinux.org/title/Nouveau");
 
-            URL_Add("drop-off", "https://en.wiktionary.org/wiki/drop-off#Noun");
-
             URL_Add("migrate", "https://en.wiktionary.org/wiki/migrate#Verb");
 
             URL_Add("thanking", "https://en.wiktionary.org/wiki/thank#Verb");
@@ -124270,8 +124277,6 @@ namespace OverflowHelper.core
             URL_Add("dreadfully", "https://en.wiktionary.org/wiki/dreadfully#Adverb");
 
             URL_Add("connectivity", "https://en.wiktionary.org/wiki/connectivity#Noun");
-
-            URL_Add("drop", "https://en.wiktionary.org/wiki/drop#Verb");
 
             URL_Add("recompiling", "https://en.wiktionary.org/wiki/recompile#Verb");
 
@@ -126121,8 +126126,6 @@ namespace OverflowHelper.core
 
             URL_Add("ASCII", "https://en.wikipedia.org/wiki/ASCII#Printable_character_table"); // Old: <https://en.wikipedia.org/wiki/ASCII#Printable_characters>. Even older: <https://en.wikipedia.org/wiki/ASCII>
 
-            URL_Add("React", "https://en.wikipedia.org/wiki/React_(JavaScript_library)"); // Old: https://en.wikipedia.org/wiki/React_(web_framework). Even older: https://en.wikipedia.org/wiki/React_%28JavaScript_library%29
-
             URL_Add("Colaboratory", "https://en.wikipedia.org/wiki/Project_Jupyter#History"); // Old: <https://en.wikipedia.org/wiki/Project_Jupyter#Google_Colaboratory>. Even older: https://en.wikipedia.org/wiki/Project_Jupyter#Colaboratory // Old: https://en.wikipedia.org/wiki/Project_Jupyter#Industry_adoption
 
             URL_Add("Sicilian Defence, Scheveningen Variation", "https://en.wikipedia.org/wiki/Sicilian_Defence,_Scheveningen_Variation");
@@ -127321,8 +127324,6 @@ namespace OverflowHelper.core
 
             URL_Add("turned off", "https://en.wiktionary.org/wiki/turn_off#Verb");
 
-            URL_Add("dropouts", "https://en.wiktionary.org/wiki/dropout#Noun");
-
             URL_Add("proxies", "https://en.wiktionary.org/wiki/proxy#Noun");
 
             URL_Add("sliding", "https://en.wiktionary.org/wiki/sliding#Adjective");
@@ -127374,8 +127375,6 @@ namespace OverflowHelper.core
             URL_Add("cringey", "https://en.wiktionary.org/wiki/cringey#Adjective");
 
             URL_Add("premature", "https://en.wiktionary.org/wiki/premature#Adjective");
-
-            URL_Add("drop-in", "https://en.wiktionary.org/wiki/drop-in#Adjective");
 
             URL_Add("Nissan Leaf", "https://en.wikipedia.org/wiki/Nissan_Leaf");
 
@@ -127835,8 +127834,6 @@ namespace OverflowHelper.core
 
             URL_Add("GNU Scientific Library", "https://en.wikipedia.org/wiki/GNU_Scientific_Library");
 
-            URL_Add("React Testing Library", "https://testing-library.com/docs/react-testing-library/intro/");
-
             URL_Add("Enterprise Library", "https://en.wikipedia.org/wiki/Microsoft_Enterprise_Library");
 
             URL_Add("OpenGL Utility Library", "https://en.wikipedia.org/wiki/OpenGL_Utility_Library");
@@ -128167,8 +128164,6 @@ namespace OverflowHelper.core
 
             URL_Add("net/http package", "https://pkg.go.dev/net/http");
 
-            URL_Add("React Icons", "https://www.npmjs.com/package/react-icons");
-
             URL_Add("Dio", "https://pub.dev/packages/dio#dio-api");
 
             URL_Add("MSP", "https://docs.microsoft.com/en-us/windows/win32/msi/patch-packages");
@@ -128338,8 +128333,6 @@ namespace OverflowHelper.core
             URL_Add("hybrid", "https://en.wiktionary.org/wiki/hybrid#Adjective");
 
             URL_Add("mobile app development", "https://en.wikipedia.org/wiki/Mobile_app_development");
-
-            URL_Add("React DOM", "https://en.wikipedia.org/wiki/React_(software)#Components");
 
             URL_Add("single-page application", "https://en.wikipedia.org/wiki/Single-page_application");
 
@@ -129959,8 +129952,6 @@ namespace OverflowHelper.core
 
             URL_Add("dwl", "https://github.com/djpohly/dwl");
 
-            URL_Add("RxJS", "https://github.com/Reactive-Extensions/RxJS");
-
             URL_Add("ILSpy", "https://github.com/icsharpcode/ILSpy#ilspy-------");
 
             URL_Add("Hanami", "https://github.com/davydovanton/lotus");
@@ -129991,13 +129982,7 @@ namespace OverflowHelper.core
 
             URL_Add("YEdit", "https://github.com/oyse/yedit");
 
-            URL_Add("Drei", "https://github.com/pmndrs/drei");
-
             URL_Add("tox", "https://github.com/tox-dev/tox");
-
-            URL_Add("Vuetify", "https://github.com/vuetifyjs/vuetify");
-
-            URL_Add("VUnit", "https://github.com/VUnit/vunit");
 
             URL_Add("Polly", "https://github.com/App-vNext/Polly");
 
@@ -130228,8 +130213,6 @@ namespace OverflowHelper.core
             URL_Add("Pycom", "https://github.com/pycom/pycom-documentation");
 
             URL_Add("TensorFlow.NET", "https://github.com/SciSharp/TensorFlow.NET");
-
-            URL_Add("React Native CLI", "https://github.com/react-native-community/cli");
 
             URL_Add("Pipenv", "https://github.com/pypa/pipenv");
 
@@ -132002,6 +131985,8 @@ namespace OverflowHelper.core
             URL_Add("encrypted", "https://en.wiktionary.org/wiki/encrypted#Adjective");
 
             URL_Add("encryption", "https://en.wiktionary.org/wiki/encryption#Noun");
+
+            URL_Add("encrypter", "https://en.wiktionary.org/wiki/encrypter#Noun");
 
             URL_Add("end-to-end encryption", "https://en.wikipedia.org/wiki/End-to-end_encryption");
 
@@ -134402,10 +134387,6 @@ namespace OverflowHelper.core
             URL_Add("Digital Mars C/C++ Compiler", "https://en.wikipedia.org/wiki/Digital_Mars");
 
             URL_Add("Digital Combat Simulator", "https://en.wikipedia.org/wiki/Digital_Combat_Simulator");
-
-            URL_Add("DigitalOcean", "https://en.wikipedia.org/wiki/DigitalOcean");
-
-            URL_Add("droplet", "https://en.wikipedia.org/wiki/DigitalOcean#Products_and_business_model");
 
             URL_Add("common", "https://en.wiktionary.org/wiki/common#Adjective");
 
@@ -137367,8 +137348,6 @@ namespace OverflowHelper.core
 
             URL_Add("chiclet", "https://en.wikipedia.org/wiki/Chiclet_keyboard");
 
-            URL_Add("Drop ALT", "https://www.rtings.com/keyboard/reviews/drop/alt");
-
             URL_Add("Kaleidoscope", "https://kaleidoscope.keyboard.io/");
 
             URL_Add("RGB", "https://en.wikipedia.org/wiki/RGB_color_model");
@@ -139991,8 +139970,6 @@ namespace OverflowHelper.core
             URL_Add("literature", "https://en.wiktionary.org/wiki/literature#Noun");
 
             URL_Add("cross-origin resource policy", "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cross-Origin_Resource_Policy_(CORP)");
-
-            URL_Add("spread syntax", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax");
 
             URL_Add("review", "https://en.wiktionary.org/wiki/review#Verb");
 
@@ -145235,8 +145212,6 @@ namespace OverflowHelper.core
 
             URL_Add("sshd", "https://en.wikipedia.org/wiki/Secure_Shell#Use");
 
-            URL_Add("React2Shell", "https://react2shell.com/");
-
             URL_Add("Shellsort", "https://en.wikipedia.org/wiki/Shellsort");
 
             URL_Add("BeanShell", "https://en.wikipedia.org/wiki/BeanShell");
@@ -148887,6 +148862,80 @@ namespace OverflowHelper.core
 
             URL_Add("weakening", "https://en.wiktionary.org/wiki/weaken#Verb");
 
+            URL_Add("ODM", "https://en.wikipedia.org/wiki/Original_design_manufacturer");
+
+            URL_Add("underneath", "https://en.wiktionary.org/wiki/underneath#Adverb");
+
+            URL_Add("spread syntax", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax");
+
+            URL_Add("Vuex", "https://vuex.vuejs.org/");
+
+            URL_Add("Vuetify", "https://github.com/vuetifyjs/vuetify");
+
+            URL_Add("VUnit", "https://github.com/VUnit/vunit");
+
+            URL_Add("React", "https://en.wikipedia.org/wiki/React_(JavaScript_library)"); // Old: https://en.wikipedia.org/wiki/React_(web_framework). Even older: https://en.wikipedia.org/wiki/React_%28JavaScript_library%29
+
+            URL_Add("React Native", "https://en.wikipedia.org/wiki/React_(JavaScript_library)#React_Native");
+
+            URL_Add("React hooks", "https://en.wikipedia.org/wiki/React_(web_framework)#React_hooks");
+
+            URL_Add("ReactOS", "https://en.wikipedia.org/wiki/ReactOS");
+
+            URL_Add("React Router", "https://reactrouter.com/");
+
+            URL_Add("React Testing Library", "https://testing-library.com/docs/react-testing-library/intro/");
+
+            URL_Add("React Icons", "https://www.npmjs.com/package/react-icons");
+
+            URL_Add("React DOM", "https://en.wikipedia.org/wiki/React_(software)#Components");
+
+            URL_Add("React Native CLI", "https://github.com/react-native-community/cli");
+
+            URL_Add("React2Shell", "https://react2shell.com/");
+
+            URL_Add("JSX", "https://en.wikipedia.org/wiki/React_(web_framework)#JSX");
+
+            URL_Add("RxJS", "https://github.com/Reactive-Extensions/RxJS");
+
+            URL_Add("MUI React", "https://www.muicss.com/docs/v1/react/introduction");
+
+            URL_Add("MUI", "https://material-ui.com/");
+
+            URL_Add("drop", "https://en.wiktionary.org/wiki/drop#Verb");
+
+            URL_Add("dropped", "https://en.wiktionary.org/wiki/drop#Verb");
+
+            URL_Add("droppable", "https://en.wiktionary.org/wiki/droppable#Adjective");
+
+            URL_Add("dropouts", "https://en.wiktionary.org/wiki/dropout#Noun");
+
+            URL_Add("drop-in", "https://en.wiktionary.org/wiki/drop-in#Adjective");
+
+            URL_Add("drop-off", "https://en.wiktionary.org/wiki/drop-off#Noun");
+
+            URL_Add("drop-down menu", "https://en.wikipedia.org/wiki/Drop-down_list#HTML"); // Old: <https://en.wiktionary.org/wiki/dropdown#Noun>
+
+            URL_Add("Dropbox", "https://en.wikipedia.org/wiki/Dropbox_%28service%29");
+
+            URL_Add("Drop ALT", "https://www.rtings.com/keyboard/reviews/drop/alt");
+
+            URL_Add("droplet", "https://en.wikipedia.org/wiki/DigitalOcean#Products_and_business_model");
+
+            URL_Add("DigitalOcean", "https://en.wikipedia.org/wiki/DigitalOcean");
+
+            URL_Add("VML", "https://en.wikipedia.org/wiki/Vector_Markup_Language");
+
+            URL_Add("MTProto", "https://en.wikipedia.org/wiki/Telegram_(software)#Development");
+
+            URL_Add("TDLib", "https://github.com/tdlib/td");
+
+            URL_Add("Raphaël", "https://en.wikipedia.org/wiki/Rapha%C3%ABl_(JavaScript_library)");
+
+            URL_Add("D3.js", "https://en.wikipedia.org/wiki/D3.js");
+
+            URL_Add("Drei", "https://github.com/pmndrs/drei");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -149085,6 +149134,8 @@ namespace OverflowHelper.core
             correctionAdd("TIL_", "today I learned_");
 
             // In 'The Hitchhiker's Guide to the Galaxy' (Vogon poetry)
+            //
+            // The reference is broken now...
             //
             // 'unlucky' (and 'lucky'): At 07 min 30 secs
             //
@@ -149406,34 +149457,6 @@ namespace OverflowHelper.core
             correctionAdd("biulded_", "built_");
             correctionAdd("bulit_", "built_"); // A true typo
             correctionAdd("buit_", "built_");
-
-            // Yes, I need to properly attribute/reference the "spacefaring" entry.
-            correctionAdd("spacefaring carbuilding lunatic billionaire-sized venture capital being burnt_", "Twitter_"); // Courtesy Marcus Müller, <https://meta.stackoverflow.com/questions/421831/temporary-policy-chatgpt-is-banned#comment936888_421842>
-            correctionAdd("the deadbird site_", "Twitter_");
-            correctionAdd("the Death Star_", "Twitter_");
-            correctionAdd("the bird site_", "Twitter_");
-            correctionAdd("Elon Musk's X_", "Twitter_");
-            correctionAdd("the birdsite_", "Twitter_");
-            correctionAdd("Death Star_", "Twitter_");
-            correctionAdd("Bird-site_", "Twitter_");
-            correctionAdd("bird site_", "Twitter_");
-            correctionAdd("bird-site_", "Twitter_");
-            correctionAdd("twittter_", "Twitter_");
-            correctionAdd("Birdsite_", "Twitter_");
-            correctionAdd("birdsite_", "Twitter_");
-            correctionAdd("Xuuitter_", "Twitter_");
-            correctionAdd("twitter_", "Twitter_");
-            correctionAdd("tritter_", "Twitter_");
-            correctionAdd("Tweeter_", "Twitter_");
-            correctionAdd("twiiter_", "Twitter_");
-            correctionAdd("Twatter_", "Twitter_");
-            correctionAdd("TwAtter_", "Twitter_");
-            correctionAdd("twatter_", "Twitter_");
-            correctionAdd("Twotter_", "Twitter_");
-            correctionAdd("twitte_", "Twitter_");
-            correctionAdd("twiter_", "Twitter_");
-            correctionAdd("EMX_", "Twitter_");
-            correctionAdd("X_", "Twitter_");
 
             correctionAdd("figth_", "fight_");
 
@@ -159750,6 +159773,7 @@ namespace OverflowHelper.core
             correctionAdd("Seasoned Advice (Stack Exchange site)_", "Seasoned&nbsp;Advice (Stack Exchange site)_");
             correctionAdd("Seasoned&nbsp;Advice_", "Seasoned&nbsp;Advice (Stack Exchange site)_"); // Sort of identity mapping
             correctionAdd("Seasoned Advice_", "Seasoned&nbsp;Advice (Stack Exchange site)_"); // Sort of identity mapping"
+            correctionAdd("Cooking_", "Seasoned&nbsp;Advice (Stack Exchange site)_");
             correctionAdd("SA_", "Seasoned&nbsp;Advice (Stack Exchange site)_");
 
             correctionAdd("academia SE_", "Academia (Stack Exchange site)_");
@@ -159813,6 +159837,7 @@ namespace OverflowHelper.core
             correctionAdd("Ethereum_", "Ethereum (Stack Exchange site)_");
 
             correctionAdd("CS50_", "CS50 (Stack Exchange site)_");
+            correctionAdd("cs50_", "CS50 (Stack Exchange site)_");
 
             correctionAdd("Philosophy_", "Philosophy (Stack Exchange site)_");
 
@@ -161369,12 +161394,12 @@ namespace OverflowHelper.core
 
             correctionAdd("DA_", "dielectric absorption_");
 
+            correctionAdd("drop-down_", "drop down_");
+
             correctionAdd("drop-down list box_", "drop-down list_");
             correctionAdd("drop down list_", "drop-down list_");
             correctionAdd("DDLB_", "drop-down list_");
             correctionAdd("DDL_", "drop-down list_");
-
-            correctionAdd("drop-down_", "drop down_");
 
             correctionAdd("handy_", "mobile phone_");
 
@@ -162017,12 +162042,6 @@ namespace OverflowHelper.core
             correctionAdd("scheme_", "Scheme (tag wiki)_");
             correctionAdd("Scheme_", "Scheme (tag wiki)_");
 
-            correctionAdd("[tag:react]_", "React (tag wiki)_");
-            correctionAdd("tag:react_", "React (tag wiki)_");
-            correctionAdd("reactjs_", "React (tag wiki)_");
-            correctionAdd("react_", "React (tag wiki)_");
-            correctionAdd("React_", "React (tag wiki)_");
-
             correctionAdd("[tag:rust]_", "Rust (tag wiki)_");
             correctionAdd("tag:rust_", "Rust (tag wiki)_");
             correctionAdd("rust_", "Rust (tag wiki)_");
@@ -162174,11 +162193,6 @@ namespace OverflowHelper.core
             correctionAdd("tag:jquery_", "jQuery (tag wiki)_");
             correctionAdd("jquery_", "jQuery (tag wiki)_");
             correctionAdd("jQuery_", "jQuery (tag wiki)_");
-
-            correctionAdd("[tag:react-native]_", "React Native (tag wiki)_");
-            correctionAdd("tag:react-native_", "React Native (tag wiki)_");
-            correctionAdd("react-native_", "React Native (tag wiki)_");
-            correctionAdd("React Native_", "React Native (tag wiki)_");
 
             correctionAdd("[tag:javascript]_", "JavaScript (tag wiki)_");
             correctionAdd("[tag:JavaScript]_", "JavaScript (tag wiki)_");
@@ -162389,6 +162403,17 @@ namespace OverflowHelper.core
             correctionAdd("google-chrome-devtools_", "Google Chrome DevTools (tag wiki)_");
             correctionAdd("Chrome DevTools_", "Google Chrome DevTools (tag wiki)_");
             correctionAdd("Google Chrome DevTools_", "Google Chrome DevTools (tag wiki)_");
+
+            correctionAdd("[tag:react]_", "React (tag wiki)_");
+            correctionAdd("tag:react_", "React (tag wiki)_");
+            correctionAdd("reactjs_", "React (tag wiki)_");
+            correctionAdd("react_", "React (tag wiki)_");
+            correctionAdd("React_", "React (tag wiki)_");
+
+            correctionAdd("[tag:react-native]_", "React Native (tag wiki)_");
+            correctionAdd("tag:react-native_", "React Native (tag wiki)_");
+            correctionAdd("react-native_", "React Native (tag wiki)_");
+            correctionAdd("React Native_", "React Native (tag wiki)_");
 
             //// Wrong URL... It should be:
             //
@@ -162935,7 +162960,7 @@ namespace OverflowHelper.core
             correctionAdd("nu_", "by_"); // A true typo! (observed in the wild)
             correctionAdd("bu_", "by_");
             correctionAdd("be_", "by_");
-            correctionAdd("my_", "by_");
+            correctionAdd("my_", "by_"); // A true typo
 
             correctionAdd("babyy_", "baby_");
 
@@ -164896,6 +164921,42 @@ namespace OverflowHelper.core
             correctionAdd("photonic crystal fibre_", "photonic-crystal fiber_");
             correctionAdd("PCF_", "photonic-crystal fiber_");
 
+            correctionAdd("tellygram_", "Telegram Messenger_");
+            correctionAdd("Telegram_", "Telegram Messenger_");
+            correctionAdd("telegram_", "Telegram Messenger_");
+            correctionAdd("Tg_", "Telegram Messenger_");
+            correctionAdd("TG_", "Telegram Messenger_");
+
+            // Yes, I need to properly attribute/reference the "spacefaring" entry.
+            correctionAdd("spacefaring carbuilding lunatic billionaire-sized venture capital being burnt_", "Twitter_"); // Courtesy Marcus Müller, <https://meta.stackoverflow.com/questions/421831/temporary-policy-chatgpt-is-banned#comment936888_421842>
+            correctionAdd("The site formerly known as Twitter_", "Twitter_");
+            correctionAdd("the deadbird site_", "Twitter_");
+            correctionAdd("the Death Star_", "Twitter_");
+            correctionAdd("the bird site_", "Twitter_");
+            correctionAdd("Elon Musk's X_", "Twitter_");
+            correctionAdd("the birdsite_", "Twitter_");
+            correctionAdd("Death Star_", "Twitter_");
+            correctionAdd("Bird-site_", "Twitter_");
+            correctionAdd("bird site_", "Twitter_");
+            correctionAdd("bird-site_", "Twitter_");
+            correctionAdd("ExTwitter_", "Twitter_");
+            correctionAdd("twittter_", "Twitter_");
+            correctionAdd("Birdsite_", "Twitter_");
+            correctionAdd("birdsite_", "Twitter_");
+            correctionAdd("Xuuitter_", "Twitter_");
+            correctionAdd("twitter_", "Twitter_");
+            correctionAdd("tritter_", "Twitter_");
+            correctionAdd("Tweeter_", "Twitter_");
+            correctionAdd("twiiter_", "Twitter_");
+            correctionAdd("Twatter_", "Twitter_");
+            correctionAdd("TwAtter_", "Twitter_");
+            correctionAdd("twatter_", "Twitter_");
+            correctionAdd("Twotter_", "Twitter_");
+            correctionAdd("twitte_", "Twitter_");
+            correctionAdd("twiter_", "Twitter_");
+            correctionAdd("EMX_", "Twitter_");
+            correctionAdd("X_", "Twitter_");
+
             // C. A book
             //
             // Authors: Brian Kernighan and Dennis Ritchie
@@ -165228,8 +165289,6 @@ namespace OverflowHelper.core
 
             URL_Add("Laravel (tag wiki)_", "https://stackoverflow.com/questions/tagged/laravel");
 
-            URL_Add("React (tag wiki)_", "https://stackoverflow.com/questions/tagged/react");
-
             URL_Add("Gradle (tag wiki)_", "https://stackoverflow.com/questions/tagged/gradle");
 
             URL_Add("Vala (tag wiki)_", "https://stackoverflow.com/questions/tagged/vala");
@@ -165245,8 +165304,6 @@ namespace OverflowHelper.core
             URL_Add("Docker (tag wiki)_", "https://stackoverflow.com/questions/tagged/docker");
 
             URL_Add("FFmpeg (tag wiki)_", "https://stackoverflow.com/questions/tagged/ffmpeg");
-
-            URL_Add("React Native (tag wiki)_", "https://stackoverflow.com/questions/tagged/react-native");
 
             URL_Add("C++11 (tag wiki)_", "https://stackoverflow.com/questions/tagged/c++11");
 
@@ -165396,6 +165453,10 @@ namespace OverflowHelper.core
 
             URL_Add("NumPy (tag wiki)_", "https://stackoverflow.com/questions/tagged/numpy");
 
+            URL_Add("React (tag wiki)_", "https://stackoverflow.com/questions/tagged/react");
+
+            URL_Add("React Native (tag wiki)_", "https://stackoverflow.com/questions/tagged/react-native");
+
             //URL_Add("Zephyr RTOS (tag wiki)_", "https://stackoverflow.com/questions/tagged/zephyr-rtos");
             //
             URL_Add("essay_", "https://en.wiktionary.org/wiki/essay#Noun");
@@ -165447,8 +165508,6 @@ namespace OverflowHelper.core
             URL_Add("theirs_", "https://en.wiktionary.org/wiki/theirs#Pronoun");
 
             URL_Add("her_", "https://en.wiktionary.org/wiki/her#Determiner");
-
-            URL_Add("drop-down list_", "https://en.wikipedia.org/wiki/Drop-down_list");
 
             URL_Add("forum_", "https://en.wiktionary.org/wiki/forum#Noun");
 
@@ -165724,8 +165783,6 @@ namespace OverflowHelper.core
 
             URL_Add("Apache Calcite_", "https://en.wikipedia.org/wiki/Apache_Calcite");
 
-            URL_Add("ReactiveX_", "https://en.wikipedia.org/wiki/ReactiveX");
-
             URL_Add("long-term relationship_", "https://en.wiktionary.org/wiki/LTR#Noun");
 
             URL_Add("clubhouse_", "https://en.wiktionary.org/wiki/clubhouse#Noun");
@@ -165835,8 +165892,6 @@ namespace OverflowHelper.core
             URL_Add("hue_", "https://en.wikipedia.org/wiki/Hue");
 
             URL_Add("saturation_", "https://en.wikipedia.org/wiki/Colorfulness#Saturation");
-
-            URL_Add("drop down_", "https://en.wiktionary.org/wiki/drop_down#Verb");
 
             URL_Add("the Roomba_", "https://meta.stackexchange.com/questions/40353/stack-exchange-glossary-dictionary-of-commonly-used-terms/256420#256420");
 
@@ -169532,6 +169587,14 @@ namespace OverflowHelper.core
 
             URL_Add("hacker_", "https://en.wiktionary.org/wiki/hacker#Noun");
 
+            URL_Add("Telegram Messenger_", "https://en.wikipedia.org/wiki/Telegram_(software)");
+
+            URL_Add("ReactiveX_", "https://en.wikipedia.org/wiki/ReactiveX");
+
+            URL_Add("drop down_", "https://en.wiktionary.org/wiki/drop_down#Verb");
+
+            URL_Add("drop-down list_", "https://en.wikipedia.org/wiki/Drop-down_list");
+
         } //addLookupData_alternativeWordSet()
 
 
@@ -172188,6 +172251,10 @@ namespace OverflowHelper.core
             //       * Percent answered
             //       * Questions per day
             //
+            correctionAdd("The site formerly known as Stack Exchange__", "Stack&nbsp;Exchange__");
+            correctionAdd("Stack Overflow’s Public Platforms__", "Stack&nbsp;Exchange__");
+            correctionAdd("Stack Overflow Public Platforms__", "Stack&nbsp;Exchange__");
+            correctionAdd("Stack Overflow Entire Network__", "Stack&nbsp;Exchange__");
             correctionAdd("StackExchange.com__", "Stack&nbsp;Exchange__");
             correctionAdd("Stack Exchcange__", "Stack&nbsp;Exchange__"); // Misspelling.
             correctionAdd("Stack-exchanged__", "Stack&nbsp;Exchange__");
@@ -172265,10 +172332,12 @@ namespace OverflowHelper.core
             correctionAdd("se.com__", "Stack&nbsp;Exchange__");
             correctionAdd("stack__", "Stack&nbsp;Exchange__"); // Could also be Stack Overflow.
             correctionAdd("Stack__", "Stack&nbsp;Exchange__");
+            correctionAdd("SOPP__", "Stack&nbsp;Exchange__");
             correctionAdd("S/E__", "Stack&nbsp;Exchange__");
             correctionAdd("S.E__", "Stack&nbsp;Exchange__");
             correctionAdd("SX__", "Stack&nbsp;Exchange__");
             correctionAdd("SE__", "Stack&nbsp;Exchange__");
+            correctionAdd("se__", "Stack&nbsp;Exchange__");
 
             correctionAdd("Stack Exchange network__", "Stack Exchange Network__");
             correctionAdd("SEN__", "Stack Exchange Network__");
@@ -172605,6 +172674,7 @@ namespace OverflowHelper.core
             correctionAdd("macOS v13__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
             correctionAdd("macOS 13__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
             correctionAdd("MacOS 13__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
+            correctionAdd("macOs 13__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
             correctionAdd("Ventura__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
             correctionAdd("OS 13.0__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
             correctionAdd("ventura__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
@@ -172612,6 +172682,7 @@ namespace OverflowHelper.core
             correctionAdd("Ventua__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
             correctionAdd("OS 13__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
             correctionAdd("13__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
+            correctionAdd("macOs Ventura__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
 
             // 2023 vintage
             correctionAdd("macOS v14 (Sonoma) (2023 vintage)__", "macOS&nbsp;v14 (Sonoma) (2023 vintage)__"); // Sort of identity mapping
@@ -174699,8 +174770,6 @@ namespace OverflowHelper.core
 
             URL_Add("for all intents and purposes__", "https://en.wiktionary.org/wiki/for_all_intents_and_purposes#Prepositional_phrase");
 
-            URL_Add("Stack Exchange Network__", "https://stackexchange.com/about");
-
             URL_Add("MA keycap profile__", "https://thekeeblog.com/overview-of-different-keycap-profiles/#MA_Profile");
 
             URL_Add("buy__", "https://en.wiktionary.org/wiki/buy#Verb");
@@ -174799,8 +174868,6 @@ namespace OverflowHelper.core
 
             URL_Add("human resources__", "https://en.wikipedia.org/wiki/Human_resources");
 
-            URL_Add("reactive programming__", "https://en.wikipedia.org/wiki/Reactive_programming");
-
             URL_Add("letter__", "https://en.wiktionary.org/wiki/letter#Noun");
 
             URL_Add("say__", "https://en.wiktionary.org/wiki/say#Verb");
@@ -174824,8 +174891,6 @@ namespace OverflowHelper.core
             URL_Add("Brian Kernighan__", "https://en.wikipedia.org/wiki/Brian_Kernighan");
 
             URL_Add("\"Explanation is vital for a good answer.\"__", "https://meta.stackexchange.com/questions/258474/deal-with-famous-profiles-and-the-possibility-of-fakes/258475#258475");
-
-            URL_Add("Create React App__", "https://create-react-app.dev/docs/getting-started/");
 
             URL_Add("the Stack Overflow ban on simulated intelligence-generated content__", "https://meta.stackoverflow.com/questions/421831/temporary-policy-chatgpt-is-banned");
 
@@ -174868,8 +174933,6 @@ namespace OverflowHelper.core
             URL_Add("didn’t find anything__", "https://ell.stackexchange.com/questions/19056");
 
             URL_Add("many__", "https://en.wiktionary.org/wiki/many#Pronoun");
-
-            URL_Add("Stack&nbsp;Exchange__", "https://policies.stackoverflow.co/company/trademark-guidance/#h1-2de2438a74fa0"); // Old: https://en.wikipedia.org/wiki/Stack_Exchange. Old: https://en.wikipedia.org/wiki/Stack_Exchange_Network. Old: https://meta.stackexchange.com/legal/trademark-guidance
 
             URL_Add("BTW__", "https://en.wiktionary.org/wiki/BTW#Phrase");
 
@@ -175704,6 +175767,14 @@ namespace OverflowHelper.core
             URL_Add("Team Foundation Server__", "https://en.wikipedia.org/wiki/Azure_DevOps_Server"); // Old: https://en.wikipedia.org/wiki/Team_Foundation_Server
 
             URL_Add("numpy.copy()__", "https://numpy.org/doc/stable/reference/generated/numpy.copy.html");
+
+            URL_Add("reactive programming__", "https://en.wikipedia.org/wiki/Reactive_programming");
+
+            URL_Add("Create React App__", "https://create-react-app.dev/docs/getting-started/");
+
+            URL_Add("Stack Exchange Network__", "https://stackexchange.com/about");
+
+            URL_Add("Stack&nbsp;Exchange__", "https://policies.stackoverflow.co/company/trademark-guidance/#h1-2de2438a74fa0"); // Old: https://en.wikipedia.org/wiki/Stack_Exchange. Old: https://en.wikipedia.org/wiki/Stack_Exchange_Network. Old: https://meta.stackexchange.com/legal/trademark-guidance
 
         } //addLookupData_alternativeWordSet2()
 
