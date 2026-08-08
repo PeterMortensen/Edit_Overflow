@@ -21677,6 +21677,7 @@ namespace OverflowHelper.core
             correctionAdd("everythin", "everything");
             correctionAdd("verything", "everything");
             correctionAdd("eerything", "everything");
+            correctionAdd("everythig", "everything");
             correctionAdd("everythg", "everything");
             correctionAdd("everthin", "everything");
             correctionAdd("Evrythg", "everything");
@@ -30599,6 +30600,7 @@ namespace OverflowHelper.core
             correctionAdd("helpt", "helped");
 
             correctionAdd("hepler", "helper");
+            correctionAdd("halper", "helper");
 
             correctionAdd("help full", "helpful");
             correctionAdd("helpfull", "helpful");
@@ -45389,6 +45391,7 @@ namespace OverflowHelper.core
 
             // Embedded systems
             correctionAdd("Board Support Package", "board support package");
+            correctionAdd("board-support package", "board support package");
             correctionAdd("BSP", "board support package");
             correctionAdd("Bsp", "board support package");
             correctionAdd("bsp", "board support package");
@@ -66258,6 +66261,7 @@ namespace OverflowHelper.core
             //   <https://github.com/georgeke/typeractive/blob/master/README.md>
             //
             correctionAdd("Typeractive", "Typeractive.xyz");
+            correctionAdd("typeractive", "Typeractive.xyz");
 
             // A manufacturer of mechanical keyboards (and some mice)
             //
@@ -69144,6 +69148,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Projects", "projects");
             correctionAdd("projets", "projects");
+            correctionAdd("prjects", "projects");
 
             correctionAdd("sub project", "subproject");
             correctionAdd("sub-project", "subproject");
@@ -93607,6 +93612,9 @@ namespace OverflowHelper.core
             correctionAdd("the standard lib", "C standard library");
             correctionAdd("stdlib", "C standard library");
             correctionAdd("libc", "C standard library"); // Or only the GCC implementation?
+
+            // C. For embedded systems, etc.
+            correctionAdd("μClibc", "uClibc");
 
             // The function in the C/C++ Standard Library
             correctionAdd("man 3 printf", "printf");
@@ -139789,6 +139797,8 @@ namespace OverflowHelper.core
             URL_Add("P99", "https://github.com/jweyrich/p99/blob/master/index-forward.html#L21");
 
             URL_Add("C standard library", "https://en.wikipedia.org/wiki/C_standard_library");
+
+            URL_Add("uClibc", "https://en.wikipedia.org/wiki/UClibc");
 
             URL_Add("C++", "https://en.wikipedia.org/wiki/C%2B%2B");
 
