@@ -15800,6 +15800,7 @@ namespace OverflowHelper.core
             correctionAdd("signatures", "signature");
 
             correctionAdd("significatively", "significantly");
+            correctionAdd("signigicantly", "significantly");
             correctionAdd("signficantly", "significantly");
             correctionAdd("sigficantly", "significantly");
 
@@ -43993,6 +43994,8 @@ namespace OverflowHelper.core
 
             correctionAdd("ohmeter", "ohmmeter");
 
+            // Note: "multimeter" is in an alternative word set
+            //
             correctionAdd("digital multimeters", "digital multimeter");
             correctionAdd("digital multimedia", "digital multimeter");
             correctionAdd("multimeter", "digital multimeter");
@@ -44001,6 +44004,10 @@ namespace OverflowHelper.core
             correctionAdd("dmms", "digital multimeter");
             correctionAdd("dmm", "digital multimeter");
             correctionAdd("DMM", "digital multimeter");
+
+            // Related to measurement of current (e.g.,
+            // by a digital multimeter)
+            correctionAdd("Burden voltage", "burden voltage");
 
             // A multimeter mode
             //
@@ -80470,6 +80477,8 @@ namespace OverflowHelper.core
 
             correctionAdd("adventerous", "adventurous");
 
+            correctionAdd("soverein", "sovereign");
+
             correctionAdd("sovereign citizen", "sovereign citizen movement");
 
             correctionAdd("conspitorial", "conspiratorial");
@@ -89760,6 +89769,10 @@ namespace OverflowHelper.core
             //
             //   <https://www.amazon.com/Keychron-Mechanical-Swappable-Bluetooth-Compatible/dp/B0G492TB2J>
             //
+            // R5 source code, released on 2026-08-07:
+            //
+            //   <https://github.com/Keychron/qmk_firmware/tree/2025q3/keyboards/keychron/r5>
+            //
             correctionAdd("Keychron Retro R5", "Keychron&nbsp;R5");
             correctionAdd("Keychron R5", "Keychron&nbsp;R5"); // Sort of identity mapping
             correctionAdd("R5", "Keychron&nbsp;R5");
@@ -90850,6 +90863,10 @@ namespace OverflowHelper.core
             // a standard full-size keyboard.
             //
             // "R" is probably for 'retro'.
+            //
+            // R6 source code, released on 2026-08-07:
+            //
+            //   <https://github.com/Keychron/qmk_firmware/tree/2025q3/keyboards/keychron/r6>
             //
             correctionAdd("Keychron R6", "Keychron&nbsp;R6"); // Sort of identity mapping
             correctionAdd("R6", "Keychron&nbsp;R6");
@@ -114081,8 +114098,6 @@ namespace OverflowHelper.core
 
             URL_Add("speech", "https://en.wiktionary.org/wiki/speech#Noun");
 
-            URL_Add("ammeter", "https://en.wikipedia.org/wiki/Ammeter");
-
             URL_Add("automatic", "https://en.wiktionary.org/wiki/automatic#Adjective");
 
             URL_Add("draconian", "https://en.wiktionary.org/wiki/draconian#Adjective");
@@ -129385,8 +129400,6 @@ namespace OverflowHelper.core
 
             URL_Add("continuous variable transmission", "https://en.wikipedia.org/wiki/Continuously_variable_transmission");
 
-            URL_Add("continuity mode", "https://en.wikipedia.org/wiki/Continuity_test");
-
             URL_Add("continuation-passing style", "https://en.wikipedia.org/wiki/Continuation-passing_style");
 
             URL_Add("ICBM", "https://en.wikipedia.org/wiki/Intercontinental_ballistic_missile");
@@ -134391,7 +134404,19 @@ namespace OverflowHelper.core
 
             URL_Add("WB32 DFU updater", "https://github.com/WestberryTech/wb32-dfu-updater/issues/15");
 
+            URL_Add("voltmeter", "https://en.wikipedia.org/wiki/Voltmeter");
+
+            URL_Add("digital multimeter", "https://en.wikipedia.org/wiki/Multimeter");
+
+            URL_Add("ammeter", "https://en.wikipedia.org/wiki/Ammeter");
+
+            URL_Add("ohmmeter", "https://en.wikipedia.org/wiki/Ohmmeter");
+
+            URL_Add("burden voltage", "https://en.wikipedia.org/wiki/Multimeter#Features");
+
             URL_Add("diode test mode", "https://www.fluke.com/en-us/learn/blog/digital-multimeters/how-to-test-diodes");
+
+            URL_Add("continuity mode", "https://en.wikipedia.org/wiki/Continuity_test");
 
             URL_Add("ADC", "https://en.wikipedia.org/wiki/Analog-to-digital_converter");
 
@@ -137276,8 +137301,6 @@ namespace OverflowHelper.core
             URL_Add("resistance", "https://en.wikipedia.org/wiki/Electrical_resistance_and_conductance");
 
             URL_Add("ohmic", "https://en.wiktionary.org/wiki/ohmic#Adjective");
-
-            URL_Add("ohmmeter", "https://en.wikipedia.org/wiki/Ohmmeter");
 
             URL_Add("Ohm's law", "https://en.wikipedia.org/wiki/Ohm's_law");
 
@@ -140859,8 +140882,6 @@ namespace OverflowHelper.core
 
             URL_Add("digital easter egg", "https://en.wikipedia.org/wiki/Easter_egg_(media)#In_computing");
 
-            URL_Add("digital multimeter", "https://en.wikipedia.org/wiki/Multimeter");
-
             URL_Add("8051", "https://en.wikipedia.org/wiki/Intel_8051");
 
             URL_Add("Intel Atom", "https://en.wikipedia.org/wiki/Intel_Atom");
@@ -141448,6 +141469,8 @@ namespace OverflowHelper.core
             URL_Add("citizen", "https://en.wiktionary.org/wiki/citizen#Noun");
 
             URL_Add("citizen science", "https://en.wikipedia.org/wiki/Citizen_science");
+
+            URL_Add("sovereign", "https://en.wiktionary.org/wiki/sovereign#Adjective");
 
             URL_Add("sovereign citizen movement", "https://en.wikipedia.org/wiki/Sovereign_citizen_movement");
 
@@ -145764,8 +145787,6 @@ namespace OverflowHelper.core
             URL_Add("voltage divider", "https://en.wikipedia.org/wiki/Voltage_divider");
 
             URL_Add("voltage standing wave ratio", "https://en.wikipedia.org/wiki/Standing_wave_ratio");
-
-            URL_Add("voltmeter", "https://en.wikipedia.org/wiki/Voltmeter");
 
             URL_Add("voltage regulator", "https://en.wikipedia.org/wiki/Voltage_regulator");
 
@@ -168936,8 +168957,6 @@ namespace OverflowHelper.core
 
             URL_Add("multiplex_", "https://en.wiktionary.org/wiki/multiplex#Verb");
 
-            URL_Add("multimeter_", "https://en.wikipedia.org/wiki/Multimeter");
-
             URL_Add("multitasking_", "https://en.wiktionary.org/wiki/multitasking#Noun");
 
             URL_Add("thread_", "https://en.wiktionary.org/wiki/thread#Noun");
@@ -169629,6 +169648,8 @@ namespace OverflowHelper.core
             URL_Add("drop down_", "https://en.wiktionary.org/wiki/drop_down#Verb");
 
             URL_Add("drop-down list_", "https://en.wikipedia.org/wiki/Drop-down_list");
+
+            URL_Add("multimeter_", "https://en.wikipedia.org/wiki/Multimeter");
 
         } //addLookupData_alternativeWordSet()
 
