@@ -1546,6 +1546,13 @@ namespace OverflowHelper.core
 
             correctionAdd("bull-dozing", "bulldozing");
 
+            correctionAdd("more short", "shorter");
+
+            correctionAdd("short", "shorten");
+
+            correctionAdd("shortned", "shortened");
+            correctionAdd("Shortned", "shortened");
+
             correctionAdd("Long-form", "longform");
             correctionAdd("long form", "longform");
             correctionAdd("long-form", "longform");
@@ -1565,11 +1572,6 @@ namespace OverflowHelper.core
             correctionAdd("short-comings", "shortcomings");
             correctionAdd("short coming", "shortcomings");
             correctionAdd("shortcoming", "shortcomings");
-
-            correctionAdd("short", "shorten");
-
-            correctionAdd("shortned", "shortened");
-            correctionAdd("Shortned", "shortened");
 
             correctionAdd("URL-shortening", "URL shortening");
 
@@ -10927,6 +10929,8 @@ namespace OverflowHelper.core
 
             // Jeff Atwood's blog
             //
+            // Related: The book "Code Complete"
+            //
             // Note: The URLs with the "www" prefix are
             //       now broken (use "blog." instead):
             //
@@ -14211,6 +14215,8 @@ namespace OverflowHelper.core
 
             correctionAdd("non-polar", "nonpolar");
             correctionAdd("non polar", "nonpolar");
+
+            correctionAdd("Hygienic", "hygienic");
 
             correctionAdd("Hygroscopic", "hygroscopic");
             correctionAdd("hydrospopic", "hygroscopic");
@@ -22538,6 +22544,7 @@ namespace OverflowHelper.core
 
             correctionAdd("click-able", "clickable");
             correctionAdd("Click-able", "clickable");
+            correctionAdd("clikable", "clickable");
 
             correctionAdd("left click", "left-click");
             correctionAdd("Left click", "left-click");
@@ -34784,6 +34791,9 @@ namespace OverflowHelper.core
 
             // A software engineering book
             correctionAdd("Code complete", "Code Complete");
+
+            // A software engineering book
+            correctionAdd("Pragmatic Programmers", "The Pragmatic Programmer");
 
             correctionAdd("on a platter", "on a silver platter");
 
@@ -69734,6 +69744,8 @@ namespace OverflowHelper.core
             correctionAdd("shortsighted", "short-sighted");
             correctionAdd("short sited", "short-sighted");
 
+            correctionAdd("shortsightedness", "short-sightedness");
+
             correctionAdd("oversite", "oversight");
             correctionAdd("Oversite", "oversight");
 
@@ -79138,8 +79150,6 @@ namespace OverflowHelper.core
             correctionAdd("dtap", "doubletap");
 
             correctionAdd("Doubletapping", "doubletapping");
-
-            correctionAdd("shortsightedness", "short-sightedness");
 
             // The noun
             correctionAdd("ioen", "join");
@@ -93860,6 +93870,9 @@ namespace OverflowHelper.core
             correctionAdd("ZXspectrum", "ZX Spectrum");
             correctionAdd("ZXSpectrum", "ZX Spectrum");
 
+            // ZX Spectrum
+            correctionAdd("Hisoft C", "HiSoft C");
+
             // A 1980s home computer
             //
             correctionAdd("bbc micro", "BBC Micro");
@@ -97209,6 +97222,11 @@ namespace OverflowHelper.core
             // Alternative URL: <https://github.com/rails/execjs>
             correctionAdd("execjs", "ExecJS");
 
+            correctionAdd("Motorolla", "Motorola");
+
+            // A microcontroller by Motorola
+            correctionAdd("Dragonball", "DragonBall");
+
             // A file format. E.g., for flashing microcontrollers.
             correctionAdd("Motorola S-record", "S19");
             correctionAdd("Motorola s19", "S19");
@@ -98434,6 +98452,7 @@ namespace OverflowHelper.core
             // An extension of an LR parser algorithm
             correctionAdd("glr", "GLR");
 
+            // A debugger
             correctionAdd("GNU DeBugger", "GDB");
             correctionAdd("GNU Debugger", "GDB");
             correctionAdd("gdb", "GDB");
@@ -98455,6 +98474,12 @@ namespace OverflowHelper.core
             correctionAdd("kgdb", "KGDB");
 
             correctionAdd("GDB debugging", "GDB debugging protocol");
+
+            // A debugger
+            correctionAdd("totalview", "TotalView");
+
+            // A source code coverage tool
+            correctionAdd("gcov", "Gcov");
 
             correctionAdd("Segger JLink", "J-Link");
             correctionAdd("J Link", "J-Link");
@@ -107759,6 +107784,8 @@ namespace OverflowHelper.core
 
             URL_Add("ZX Spectrum", "https://en.wikipedia.org/wiki/ZX_Spectrum");
 
+            URL_Add("HiSoft C", "https://en.wikipedia.org/wiki/HiSoft_Systems#Products");
+
             URL_Add("BBEdit", "https://en.wikipedia.org/wiki/BBEdit");
 
             URL_Add("OPML", "https://en.wikipedia.org/wiki/OPML");
@@ -110401,8 +110428,6 @@ namespace OverflowHelper.core
 
             URL_Add("Uber", "https://en.wikipedia.org/wiki/Uber");
 
-            URL_Add("shortcut", "https://en.wiktionary.org/wiki/shortcut#Noun");
-
             URL_Add("Afghan", "https://en.wiktionary.org/wiki/Afghan#Adjective");
 
             URL_Add("Babun", "https://babun.en.softonic.com/");
@@ -112967,8 +112992,6 @@ namespace OverflowHelper.core
 
             URL_Add("self-evident", "https://en.wiktionary.org/wiki/self-evident#Adjective");
 
-            URL_Add("short story", "https://en.wikipedia.org/wiki/Short_story");
-
             URL_Add("4G", "https://en.wikipedia.org/wiki/4G");
 
             URL_Add("F-22 Raptor", "https://en.wikipedia.org/wiki/F-22_Raptor");
@@ -115369,8 +115392,6 @@ namespace OverflowHelper.core
 
             URL_Add("landlord", "https://en.wiktionary.org/wiki/landlord#Noun");
 
-            URL_Add("shortcuts", "https://en.wiktionary.org/wiki/shortcut#Noun");
-
             URL_Add("simulator", "https://en.wiktionary.org/wiki/simulator#Noun");
 
             URL_Add("P4Merge", "https://en.wikipedia.org/wiki/Comparison_of_file_comparison_tools#General");
@@ -116841,16 +116862,6 @@ namespace OverflowHelper.core
 
             URL_Add("prioritise", "https://en.wiktionary.org/wiki/prioritise#Verb");
 
-            URL_Add("short circuit", "https://en.wiktionary.org/wiki/short_circuit#Noun");
-
-            URL_Add("short circuiting", "https://en.wiktionary.org/wiki/short_circuit#Verb");
-
-            URL_Add("short circuited", "https://en.wiktionary.org/wiki/short_circuit#Verb");
-
-            URL_Add("short circuits", "https://en.wiktionary.org/wiki/short_circuit#Verb");
-
-            URL_Add("short-circuit evaluation", "https://en.wikipedia.org/wiki/Short-circuit_evaluation");
-
             URL_Add("wound up", "https://en.wiktionary.org/wiki/wind_up#Verb");
 
             URL_Add("Dice", "https://en.wikipedia.org/wiki/Dice.com");
@@ -117150,8 +117161,6 @@ namespace OverflowHelper.core
             URL_Add("gzip", "https://en.wikipedia.org/wiki/Gzip");
 
             URL_Add("obligatory", "https://en.wiktionary.org/wiki/obligatory#Adjective");
-
-            URL_Add("shorten", "https://en.wiktionary.org/wiki/shorten#Verb");
 
             URL_Add("ETH", "https://en.wikipedia.org/wiki/Ethereum");
 
@@ -117776,8 +117785,6 @@ namespace OverflowHelper.core
             URL_Add("contents", "https://en.wiktionary.org/wiki/contents#Noun_2");
 
             URL_Add("distinct", "https://en.wiktionary.org/wiki/distinct#Adjective");
-
-            URL_Add("short-sighted", "https://en.wiktionary.org/wiki/short-sighted#Adjective");
 
             URL_Add("slower", "https://en.wiktionary.org/wiki/slower#Adjective");
 
@@ -119673,8 +119680,6 @@ namespace OverflowHelper.core
 
             URL_Add("rifle", "https://en.wiktionary.org/wiki/rifle#Noun");
 
-            URL_Add("Short, Magazine, Lee–Enfield", "https://en.wikipedia.org/wiki/Lee%E2%80%93Enfield");
-
             URL_Add("refilling", "https://en.wiktionary.org/wiki/refill#Verb");
 
             URL_Add("Vancouver", "https://en.wikipedia.org/wiki/Vancouver");
@@ -120421,12 +120426,6 @@ namespace OverflowHelper.core
 
             URL_Add("recorded", "https://en.wiktionary.org/wiki/record#Verb");
 
-            URL_Add("Bellman–Ford algorithm", "https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm");
-
-            URL_Add("Dijkstra's algorithm", "https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm");
-
-            URL_Add("Shortest Path Faster Algorithm", "https://en.wikipedia.org/wiki/Shortest_path_faster_algorithm");
-
             URL_Add("Tabnine", "https://blogs.cisco.com/developer/tabninepairprogramming01");
 
             URL_Add("slave", "https://en.wiktionary.org/wiki/slave#Noun");
@@ -120677,8 +120676,6 @@ namespace OverflowHelper.core
 
             URL_Add("rolled back", "https://en.wiktionary.org/wiki/roll_back#Verb");
 
-            URL_Add("short-lived", "https://en.wiktionary.org/wiki/short-lived#Adjective");
-
             URL_Add("Herb Sutter", "https://en.wikipedia.org/wiki/Herb_Sutter");
 
             URL_Add("plea bargain", "https://en.wiktionary.org/wiki/plea_bargain#Noun");
@@ -120834,8 +120831,6 @@ namespace OverflowHelper.core
             URL_Add("reapplies", "https://en.wiktionary.org/wiki/reapply#Verb");
 
             URL_Add("reapplying", "https://en.wiktionary.org/wiki/reapply#Verb");
-
-            URL_Add("short out", "https://en.wiktionary.org/wiki/short_out#Verb");
 
             URL_Add("Tanya", "https://en.wikipedia.org/wiki/Tanya_(Judaism)");
 
@@ -121112,8 +121107,6 @@ namespace OverflowHelper.core
             URL_Add("nonreproducible", "https://en.wiktionary.org/wiki/nonreproducible#Adjective");
 
             URL_Add("switches", "https://en.wiktionary.org/wiki/switch#Noun");
-
-            URL_Add("shortened", "https://en.wiktionary.org/wiki/shorten#Verb");
 
             URL_Add("Connect Four", "https://en.wikipedia.org/wiki/Connect_Four");
 
@@ -122146,8 +122139,6 @@ namespace OverflowHelper.core
             URL_Add("Smack", "https://www.igniterealtime.org/projects/smack/index.jsp"); // Old: <http://www.igniterealtime.org/projects/smack/index.jsp>
 
             URL_Add("FIDO2", "https://en.wikipedia.org/wiki/FIDO_Alliance#FIDO2");
-
-            URL_Add("short-sightedness", "https://en.wiktionary.org/wiki/short-sightedness#Noun");
 
             URL_Add("facing", "https://en.wiktionary.org/wiki/face#Verb");
 
@@ -127481,8 +127472,6 @@ namespace OverflowHelper.core
 
             URL_Add("unwelcoming", "https://en.wiktionary.org/wiki/unwelcoming#Adjective"); // Old: https://en.wiktionary.org/wiki/unwelcoming
 
-            URL_Add("shortcomings", "https://en.wiktionary.org/wiki/shortcoming#Noun");
-
             URL_Add("Hyundai Eon", "https://en.wikipedia.org/wiki/Hyundai_Eon");
 
             URL_Add("nominally", "https://en.wiktionary.org/wiki/nominally#Adverb");
@@ -128340,8 +128329,6 @@ namespace OverflowHelper.core
             URL_Add("civilisations", "https://en.wiktionary.org/wiki/civilisation#Noun");
 
             URL_Add("theory", "https://en.wiktionary.org/wiki/theory#Noun");
-
-            URL_Add("short delay", "https://www.youtube.com/watch?v=r6gN1uO8w6Y&t=3m42s");
 
             URL_Add("Rock One", "https://www.youtube.com/watch?v=PQjgMF_20dE&t=2m10s");
 
@@ -132151,10 +132138,6 @@ namespace OverflowHelper.core
 
             URL_Add("JavaScript Templates", "http://blog.markturansky.com/BetterJavascriptTemplates.html");
 
-            URL_Add("short form", "https://en.wiktionary.org/wiki/short_form#Noun");
-
-            URL_Add("shorthand", "https://en.wiktionary.org/wiki/shorthand#Noun");
-
             URL_Add("systematically", "https://en.wiktionary.org/wiki/systematically#Adverb");
 
             URL_Add("Zend Studio", "https://en.wikipedia.org/wiki/Zend_Studio");
@@ -135955,6 +135938,8 @@ namespace OverflowHelper.core
 
             URL_Add("Code Complete", "https://en.wikipedia.org/wiki/Code_Complete");
 
+            URL_Add("The Pragmatic Programmer", "https://en.wikipedia.org/wiki/The_Pragmatic_Programmer");
+
             URL_Add("PyRFC", "https://sap.github.io/PyRFC/");
 
             URL_Add("as little as possible", "https://ell.stackexchange.com/questions/40932/as-little-as-possible-vs-as-least-as-possible/40934#40934");
@@ -139072,8 +139057,6 @@ namespace OverflowHelper.core
 
             URL_Add("floating inputs", "https://www.mouser.com/blog/dont-leave-your-pins-floating");
 
-            URL_Add("Shortcat", "https://www.macworld.com/article/221335/mac-gems-promising-prospect-shortcat-replaces-mouse-clicks-with-keyboard-presses.html");
-
             URL_Add("macaw", "https://en.wikipedia.org/wiki/Macaw");
 
             URL_Add("Macau", "https://en.wikipedia.org/wiki/Macau");
@@ -140351,8 +140334,6 @@ namespace OverflowHelper.core
             URL_Add("if I remember correctly", "https://en.wiktionary.org/wiki/IIRC#Phrase"); // Old: https://en.wiktionary.org/wiki/IIRC
 
             URL_Add("if I understand correctly", "https://en.wiktionary.org/wiki/IIUC#Phrase");
-
-            URL_Add("short self-contained correct example", "https://en.wikipedia.org/wiki/Minimal_reproducible_example"); // Old: https://en.wikipedia.org/wiki/Minimal_working_example
 
             URL_Add("power-factor correction", "https://en.wikipedia.org/wiki/Power_factor");
 
@@ -143796,8 +143777,6 @@ namespace OverflowHelper.core
             URL_Add("struggling", "https://en.wiktionary.org/wiki/struggle#Verb");
 
             URL_Add("struggled", "https://en.wiktionary.org/wiki/struggle#Verb");
-
-            URL_Add("shortfalls", "https://en.wiktionary.org/wiki/shortfall#Noun");
 
             URL_Add("aggregate", "https://en.wiktionary.org/wiki/aggregate#Verb");
 
@@ -149025,6 +149004,68 @@ namespace OverflowHelper.core
 
             URL_Add("rigid body", "https://en.wiktionary.org/wiki/rigid_body#Noun");
 
+            URL_Add("DragonBall", "https://en.wikipedia.org/wiki/DragonBall_(microcontroller)");
+
+            URL_Add("Gcov", "https://en.wikipedia.org/wiki/Gcov");
+
+            URL_Add("hygienic", "https://en.wiktionary.org/wiki/hygienic#Adjective");
+
+            URL_Add("Motorola", "https://en.wikipedia.org/wiki/Motorola");
+
+            URL_Add("TotalView", "https://en.wikipedia.org/wiki/Rogue_Wave_Software#History");
+
+            URL_Add("shorter", "https://en.wiktionary.org/wiki/short#Adjective");
+
+            URL_Add("shorten", "https://en.wiktionary.org/wiki/shorten#Verb");
+
+            URL_Add("shortened", "https://en.wiktionary.org/wiki/shorten#Verb");
+
+            URL_Add("short-lived", "https://en.wiktionary.org/wiki/short-lived#Adjective");
+
+            URL_Add("shortcut", "https://en.wiktionary.org/wiki/shortcut#Noun");
+
+            URL_Add("shortfalls", "https://en.wiktionary.org/wiki/shortfall#Noun");
+
+            URL_Add("shortcomings", "https://en.wiktionary.org/wiki/shortcoming#Noun");
+
+            URL_Add("shortcuts", "https://en.wiktionary.org/wiki/shortcut#Noun");
+
+            URL_Add("short form", "https://en.wiktionary.org/wiki/short_form#Noun");
+
+            URL_Add("shorthand", "https://en.wiktionary.org/wiki/shorthand#Noun");
+
+            URL_Add("short story", "https://en.wikipedia.org/wiki/Short_story");
+
+            URL_Add("short out", "https://en.wiktionary.org/wiki/short_out#Verb");
+
+            URL_Add("short-sighted", "https://en.wiktionary.org/wiki/short-sighted#Adjective");
+
+            URL_Add("short-sightedness", "https://en.wiktionary.org/wiki/short-sightedness#Noun");
+
+            URL_Add("short delay", "https://www.youtube.com/watch?v=r6gN1uO8w6Y&t=3m42s");
+
+            URL_Add("short self-contained correct example", "https://en.wikipedia.org/wiki/Minimal_reproducible_example"); // Old: https://en.wikipedia.org/wiki/Minimal_working_example
+
+            URL_Add("short circuit", "https://en.wiktionary.org/wiki/short_circuit#Noun");
+
+            URL_Add("short circuiting", "https://en.wiktionary.org/wiki/short_circuit#Verb");
+
+            URL_Add("short circuited", "https://en.wiktionary.org/wiki/short_circuit#Verb");
+
+            URL_Add("short circuits", "https://en.wiktionary.org/wiki/short_circuit#Verb");
+
+            URL_Add("short-circuit evaluation", "https://en.wikipedia.org/wiki/Short-circuit_evaluation");
+
+            URL_Add("Shortcat", "https://www.macworld.com/article/221335/mac-gems-promising-prospect-shortcat-replaces-mouse-clicks-with-keyboard-presses.html");
+
+            URL_Add("Short, Magazine, Lee–Enfield", "https://en.wikipedia.org/wiki/Lee%E2%80%93Enfield");
+
+            URL_Add("Shortest Path Faster Algorithm", "https://en.wikipedia.org/wiki/Shortest_path_faster_algorithm");
+
+            URL_Add("Bellman–Ford algorithm", "https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm");
+
+            URL_Add("Dijkstra's algorithm", "https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -149292,6 +149333,9 @@ namespace OverflowHelper.core
             correctionAdd("long story shot_", "long story short_");
             correctionAdd("Long story shot_", "long story short_");
             correctionAdd("LSS_", "long story short_");
+
+            correctionAdd("Short Scale_", "short scale_");
+            correctionAdd("scale_", "short scale_");
 
             correctionAdd("librabries_", "libraries_");
             correctionAdd("linbraries_", "libraries_");
@@ -151258,6 +151302,41 @@ namespace OverflowHelper.core
 
             // The adverb (not the keyboard layout)
             correctionAdd("hands-down_", "hands down_");
+
+            correctionAdd("short term_", "short-term_");
+
+            // The verb
+            correctionAdd("short-circuit_", "short circuit_");
+            correctionAdd("Short circuit_", "short circuit_");
+            correctionAdd("shortcircuit_", "short circuit_");
+            correctionAdd("shorts_", "short circuit_");
+            correctionAdd("short_", "short circuit_");
+
+            correctionAdd("Short / Small String Optimization_", "short string optimisation_");
+            correctionAdd("short / small string optimization_", "short string optimisation_");
+            correctionAdd("small string optimization_", "short string optimisation_");
+            correctionAdd("Short String Optimization_", "short string optimisation_");
+            correctionAdd("Small String Optimization_", "short string optimisation_");
+            correctionAdd("short string optimization_", "short string optimisation_");
+            correctionAdd("small string optimisation_", "short string optimisation_");
+            correctionAdd("SSO_", "short string optimisation_");
+
+            // It is in this alternative word set, because it
+            // is a synonym for "C string".
+            //
+            // Alternative URL:
+            //   <https://en.wiktionary.org/wiki/null-terminated#Adjective>
+            //
+            correctionAdd("zero-terminated string_", "null-terminated string_");
+            correctionAdd("null-terminating_", "null-terminated string_");
+            correctionAdd("null-terminated_", "null-terminated string_");
+            correctionAdd("nul terminating_", "null-terminated string_");
+            correctionAdd("nul-terminating_", "null-terminated string_");
+            correctionAdd("NULL terminated_", "null-terminated string_");
+            correctionAdd("null terminated_", "null-terminated string_");
+            correctionAdd("C string_", "null-terminated string_");
+            correctionAdd("ASCIIZ_", "null-terminated string_");
+            correctionAdd("asciiz_", "null-terminated string_");
 
             correctionAdd("Gaming_", "gaming_");
             correctionAdd("Gsming_", "gaming_");
@@ -154188,6 +154267,7 @@ namespace OverflowHelper.core
             correctionAdd("folloq_", "follow_");
             correctionAdd("fallow_", "follow_");
             correctionAdd("folow_", "follow_");
+            correctionAdd("follo_", "follow_");
 
             correctionAdd("fallback_", "fall back_");
 
@@ -154268,31 +154348,21 @@ namespace OverflowHelper.core
             correctionAdd("tiniest_", "teenie-tiny_");
             correctionAdd("small_", "teenie-tiny_");
 
-            // It is in this alternative word set, because it
-            // is a synonym for "C string".
-            //
-            // Alternative URL:
-            //   <https://en.wiktionary.org/wiki/null-terminated#Adjective>
-            //
-            correctionAdd("zero-terminated string_", "null-terminated string_");
-            correctionAdd("null-terminating_", "null-terminated string_");
-            correctionAdd("null-terminated_", "null-terminated string_");
-            correctionAdd("nul terminating_", "null-terminated string_");
-            correctionAdd("nul-terminating_", "null-terminated string_");
-            correctionAdd("NULL terminated_", "null-terminated string_");
-            correctionAdd("null terminated_", "null-terminated string_");
-            correctionAdd("C string_", "null-terminated string_");
-            correctionAdd("ASCIIZ_", "null-terminated string_");
-            correctionAdd("asciiz_", "null-terminated string_");
+            correctionAdd("hard ware_", "hardware_");
+            correctionAdd("harwdware_", "hardware_");
+            correctionAdd("hardwares_", "hardware_");
+            correctionAdd("hardwarws_", "hardware_");
+            correctionAdd("hardeware_", "hardware_");
+            correctionAdd("Hardware_", "hardware_");
+            correctionAdd("harwade_", "hardware_");
+            correctionAdd("H/W_", "hardware_");
+            correctionAdd("h/w_", "hardware_");
+            correctionAdd("HS_", "hardware_"); // A typo of abbr. "HW"
+            correctionAdd("hw_", "hardware_");
+            correctionAdd("HW_", "hardware_");
 
-            correctionAdd("Short / Small String Optimization_", "short string optimisation_");
-            correctionAdd("short / small string optimization_", "short string optimisation_");
-            correctionAdd("small string optimization_", "short string optimisation_");
-            correctionAdd("Short String Optimization_", "short string optimisation_");
-            correctionAdd("Small String Optimization_", "short string optimisation_");
-            correctionAdd("short string optimization_", "short string optimisation_");
-            correctionAdd("small string optimisation_", "short string optimisation_");
-            correctionAdd("SSO_", "short string optimisation_");
+            correctionAdd("cicles_", "circles_");
+            correctionAdd("cycles_", "circles_");
 
             correctionAdd("Postgres Enterprise Manager_", "PEM_");
 
@@ -158362,21 +158432,6 @@ namespace OverflowHelper.core
             correctionAdd("utuber_", "YouTuber_");
 
             correctionAdd("youtubes_", "YouTube channels_");
-
-            correctionAdd("hard ware_", "hardware_");
-            correctionAdd("harwdware_", "hardware_");
-            correctionAdd("hardwares_", "hardware_");
-            correctionAdd("hardwarws_", "hardware_");
-            correctionAdd("hardeware_", "hardware_");
-            correctionAdd("Hardware_", "hardware_");
-            correctionAdd("harwade_", "hardware_");
-            correctionAdd("H/W_", "hardware_");
-            correctionAdd("h/w_", "hardware_");
-            correctionAdd("HS_", "hardware_"); // A typo of abbr. "HW"
-            correctionAdd("hw_", "hardware_");
-            correctionAdd("HW_", "hardware_");
-
-            correctionAdd("short term_", "short-term_");
 
             // Alternative URL:
             //
@@ -162859,16 +162914,6 @@ namespace OverflowHelper.core
             correctionAdd("GNU units_", "GNU Units_");
             correctionAdd("units_", "GNU Units_");
 
-            correctionAdd("cicles_", "circles_");
-            correctionAdd("cycles_", "circles_");
-
-            // The verb
-            correctionAdd("short-circuit_", "short circuit_");
-            correctionAdd("Short circuit_", "short circuit_");
-            correctionAdd("shortcircuit_", "short circuit_");
-            correctionAdd("shorts_", "short circuit_");
-            correctionAdd("short_", "short circuit_");
-
             // Alternative URLs:
             //
             //   <https://www.youtube.com/watch?v=Vgq6zHTigIg>
@@ -164036,9 +164081,6 @@ namespace OverflowHelper.core
             correctionAdd("int_", "into_");
 
             correctionAdd("Lemon_", "lemon_");
-
-            correctionAdd("Short Scale_", "short scale_");
-            correctionAdd("scale_", "short scale_");
 
             correctionAdd("This_", "thus_");
             correctionAdd("this_", "thus_");
@@ -165904,8 +165946,6 @@ namespace OverflowHelper.core
 
             URL_Add("Hugging&nbsp;Face_", "https://en.wikipedia.org/wiki/Hugging_Face");
 
-            URL_Add("short-term_", "https://en.wiktionary.org/wiki/short-term#Adjective");
-
             URL_Add("simplest_", "https://en.wiktionary.org/wiki/simplest#Adjective");
 
             URL_Add("node_", "https://en.wiktionary.org/wiki/node#Noun");
@@ -166588,8 +166628,6 @@ namespace OverflowHelper.core
 
             URL_Add("lemon_", "https://en.wiktionary.org/wiki/lemon#Noun");
 
-            URL_Add("short scale_", "https://en.wikipedia.org/wiki/Long_and_short_scales");
-
             URL_Add("GC_", "https://en.wikipedia.org/wiki/Garbage_collection_%28computer_science%29");
 
             URL_Add("thus_", "https://en.wiktionary.org/wiki/thus#Adverb");
@@ -167240,8 +167278,6 @@ namespace OverflowHelper.core
 
             URL_Add("propellers_", "https://en.wiktionary.org/wiki/prop#Noun_3");
 
-            URL_Add("long story short_", "https://en.wiktionary.org/wiki/long_story_short#Adverb");
-
             URL_Add("Ubuntu Budgie_", "https://en.wikipedia.org/wiki/Ubuntu_Budgie");
 
             URL_Add("vanilla_", "https://en.wiktionary.org/wiki/vanilla#Adjective");
@@ -167519,8 +167555,6 @@ namespace OverflowHelper.core
             URL_Add("Microsoft Access_", "https://en.wikipedia.org/wiki/Microsoft_Access");
 
             URL_Add("context menu_", "https://en.wiktionary.org/wiki/context_menu#Noun");
-
-            URL_Add("short string optimisation_", "https://stackoverflow.com/questions/10315041/meaning-of-acronym-sso-in-the-context-of-stdstring/10319672#10319672");
 
             URL_Add("account_", "https://en.wiktionary.org/wiki/account#Noun");
 
@@ -167895,8 +167929,6 @@ namespace OverflowHelper.core
             URL_Add("you only live once_", "https://en.wiktionary.org/wiki/YOLO#Phrase");
 
             URL_Add("your mileage may vary_", "https://en.wiktionary.org/wiki/your_mileage_may_vary#Phrase"); // Old: https://en.wiktionary.org/wiki/YMMV#Phrase. Old: https://en.wiktionary.org/wiki/YMMV
-
-            URL_Add("short circuit_", "https://en.wiktionary.org/wiki/short_circuit#Verb");
 
             URL_Add("Unity_", "https://en.wikipedia.org/wiki/Unity_(user_interface)");
 
@@ -169074,8 +169106,6 @@ namespace OverflowHelper.core
 
             URL_Add("cryptography_", "https://en.wikipedia.org/wiki/Cryptography");
 
-            URL_Add("stenography_", "https://en.wikipedia.org/wiki/Shorthand");
-
             URL_Add("nRF_", "https://en.wikipedia.org/wiki/Nordic_Semiconductor#nRF54_Series_SoC");
 
             URL_Add("STM32 HAL_", "https://stm32world.com/wiki/STM32_HAL");
@@ -169101,8 +169131,6 @@ namespace OverflowHelper.core
             URL_Add("Instagram_", "https://en.wikipedia.org/wiki/Instagram");
 
             URL_Add("classes_", "https://en.wiktionary.org/wiki/class#Noun");
-
-            URL_Add("key combinations_", "https://en.wikipedia.org/wiki/Keyboard_shortcut");
 
             URL_Add("fiction_", "https://en.wiktionary.org/wiki/fiction#Noun");
 
@@ -169688,6 +169716,20 @@ namespace OverflowHelper.core
 
             URL_Add("multimeter_", "https://en.wikipedia.org/wiki/Multimeter");
 
+            URL_Add("short-term_", "https://en.wiktionary.org/wiki/short-term#Adjective");
+
+            URL_Add("short scale_", "https://en.wikipedia.org/wiki/Long_and_short_scales");
+
+            URL_Add("short circuit_", "https://en.wiktionary.org/wiki/short_circuit#Verb");
+
+            URL_Add("short string optimisation_", "https://stackoverflow.com/questions/10315041/meaning-of-acronym-sso-in-the-context-of-stdstring/10319672#10319672");
+
+            URL_Add("long story short_", "https://en.wiktionary.org/wiki/long_story_short#Adverb");
+
+            URL_Add("stenography_", "https://en.wikipedia.org/wiki/Shorthand");
+
+            URL_Add("key combinations_", "https://en.wikipedia.org/wiki/Keyboard_shortcut");
+
         } //addLookupData_alternativeWordSet()
 
 
@@ -169702,6 +169744,9 @@ namespace OverflowHelper.core
         {
             // Note: Due to a glitch in a checking Perl script, there should
             //       be an empty line before the first block...
+
+            correctionAdd("shoirr__", "short__"); // A true typo (multiple typos)
+            correctionAdd("shot__", "short__");
 
             correctionAdd("Programming Language__", "programming language__");
             correctionAdd("Programming language__", "programming language__");
@@ -171596,9 +171641,6 @@ namespace OverflowHelper.core
 
             // Related to Cloudflare
             correctionAdd("warp__", "WARP__");
-
-            correctionAdd("shoirr__", "short__"); // A true typo (multiple typos)
-            correctionAdd("shot__", "short__");
 
             // The paper thing (not small laptop)
             correctionAdd("note book__", "notebook__");
@@ -175812,8 +175854,6 @@ namespace OverflowHelper.core
 
             URL_Add("long__", "https://en.wiktionary.org/wiki/long#Adjective");
 
-            URL_Add("short__", "https://en.wiktionary.org/wiki/short#Verb");
-
             URL_Add("USB 1.x__", "https://en.wikipedia.org/wiki/USB#USB_1.x");
 
             URL_Add("USB&nbsp;2.0__", "https://en.wikipedia.org/wiki/USB#USB_2.0");
@@ -175879,6 +175919,8 @@ namespace OverflowHelper.core
             URL_Add("Processing.js__", "https://en.wikipedia.org/wiki/Processing#Processing.js");
 
             URL_Add("fall__", "https://en.wiktionary.org/wiki/fall#Noun");
+
+            URL_Add("short__", "https://en.wiktionary.org/wiki/short#Verb");
 
         } //addLookupData_alternativeWordSet2()
 
@@ -178566,8 +178608,6 @@ namespace OverflowHelper.core
 
             URL_Add("bot___", "https://en.wiktionary.org/wiki/bot#Noun_2");
 
-            URL_Add("short___", "https://en.wiktionary.org/wiki/short#Adjective");
-
             URL_Add("no___", "https://en.wiktionary.org/wiki/no#Determiner");
 
             URL_Add("direct message___", "https://en.wikipedia.org/wiki/Private_message");
@@ -178955,6 +178995,8 @@ namespace OverflowHelper.core
             URL_Add("intent___", "https://developer.android.com/guide/components/intents-filters.html");
 
             URL_Add("Chrome Canary___", "https://en.wikipedia.org/wiki/Google_Chrome#Release_channels,_cycles_and_updates");
+
+            URL_Add("short___", "https://en.wiktionary.org/wiki/short#Adjective");
 
         } //addLookupData_alternativeWordSet3()
 
