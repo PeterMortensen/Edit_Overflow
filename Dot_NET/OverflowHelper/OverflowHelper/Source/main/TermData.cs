@@ -4664,6 +4664,7 @@ namespace OverflowHelper.core
             correctionAdd("nyways", "anyway");
             correctionAdd("Aniway", "anyway");
             correctionAdd("anway", "anyway");
+            correctionAdd("anyw", "anyway");
 
             correctionAdd("on the way", "in the way");
 
@@ -8971,6 +8972,273 @@ namespace OverflowHelper.core
 
             correctionAdd("first-mover", "first mover");
 
+            correctionAdd("choosen", "chosen");
+            correctionAdd("chozen", "chosen");
+
+            correctionAdd("choses", "chooses");
+
+            correctionAdd("choising", "choosing");
+            correctionAdd("chosing", "choosing");
+
+            correctionAdd("un-chosen", "unchosen");
+
+            correctionAdd("cohoice", "choice");
+            correctionAdd("choise", "choice");
+            correctionAdd("Choise", "choice");
+            correctionAdd("chioce", "choice"); // A true typo
+            correctionAdd("choce", "choice");
+
+            // The noun
+            correctionAdd("choises", "choices");
+
+            correctionAdd("misschoice", "mischoice");
+
+            correctionAdd("of choose", "of choice");
+
+            correctionAdd("Multiple choice", "multiple-choice");
+
+            correctionAdd("MCQ", "multiple-choice question");
+
+            correctionAdd("gpa", "GPA");
+
+            correctionAdd("mark-sheet", "marksheet");
+
+            correctionAdd("University", "university");
+            correctionAdd("univercity", "university");
+            correctionAdd("uneversity", "university");
+            correctionAdd("univeristy", "university");
+            correctionAdd("universty", "university");
+            correctionAdd("univ", "university");
+            correctionAdd("uni", "university");
+            correctionAdd("Uni", "university");
+
+            correctionAdd("Universities", "universities");
+            correctionAdd("unis", "universities");
+            correctionAdd("Unis", "universities");
+
+            correctionAdd("Lecture", "lecture");
+
+            correctionAdd("eton", "Eton");
+
+            // A portmanteau of Oxford and Cambridge (United Kingdom)
+            correctionAdd("oxbridge", "Oxbridge");
+
+            correctionAdd("The Oxford Union Society", "Oxford Union");
+
+            correctionAdd("Cambridge analytic", "Cambridge Analytica");
+
+            correctionAdd("achademia", "academia");
+            correctionAdd("achedemia", "academia");
+            correctionAdd("Academia", "academia");
+
+            correctionAdd("academians", "academicians");
+
+            correctionAdd("accademic", "academic");
+            correctionAdd("acamedic", "academic");
+            correctionAdd("acedemic", "academic");
+
+            correctionAdd("Associate Lecturer", "associate lecturer");
+
+            correctionAdd("Teachers", "teachers");
+
+            correctionAdd("scholorship", "scholarship");
+
+            correctionAdd("ta", "TA");
+
+            correctionAdd("tuter", "tutor");
+
+            correctionAdd("Tutoring", "tutoring");
+
+            correctionAdd("Tuition", "tuition");
+
+            correctionAdd("Student", "student");
+
+            correctionAdd("Undergraduate", "undergraduate");
+            correctionAdd("undergrad", "undergraduate");
+
+            correctionAdd("graduade", "graduate");
+            correctionAdd("Graduate", "graduate");
+            correctionAdd("grad", "graduate");
+
+            correctionAdd("Freshman", "freshman");
+
+            correctionAdd("Diploma", "diploma");
+
+            correctionAdd("Thesis", "thesis");
+
+            correctionAdd("bachelor's", "bachelor's degree");
+            correctionAdd("bachelors", "bachelor's degree");
+
+            correctionAdd("Bachelor of Science", "B.Sc"); // The official expanded name
+            correctionAdd("BSc", "B.Sc");
+            correctionAdd("BSC", "B.Sc");
+            correctionAdd("B.S", "B.Sc");
+            correctionAdd("BS", "B.Sc");
+
+            correctionAdd("Master's degree", "master's degree");
+            correctionAdd("Masters degree", "master's degree");
+            correctionAdd("masters degree", "master's degree");
+            correctionAdd("master degree", "master's degree");
+            correctionAdd("Master's", "master's degree");
+            correctionAdd("master's", "master's degree");
+            correctionAdd("Master’s", "master's degree");
+            correctionAdd("masters", "master's degree");
+            correctionAdd("Masters", "master's degree");
+            correctionAdd("master", "master's degree");
+
+            // Actually "M.Sc.", but we currently don't allow it...
+            correctionAdd("Master of Science", "M.Sc"); // The official expanded name
+            correctionAdd("MSc", "M.Sc");
+            correctionAdd("msc", "M.Sc");
+            correctionAdd("Msc", "M.Sc");
+            correctionAdd("M.S", "M.Sc");
+            correctionAdd("MS", "M.Sc");
+
+            correctionAdd("honors degree", "honours degree");
+            correctionAdd("Hons", "honours degree");
+            correctionAdd("hons", "honours degree");
+
+            correctionAdd("postgrad", "postgraduate degree");
+
+            correctionAdd("Honor", "honor");
+
+            correctionAdd("honoring", "honouring");
+
+            correctionAdd("Honourable", "honourable");
+            correctionAdd("honorable", "honourable");
+
+            correctionAdd("Ph.D", "Ph.D.");
+            correctionAdd("phd", "Ph.D.");
+            correctionAdd("PHD", "Ph.D.");
+            correctionAdd("Phd", "Ph.D.");
+            correctionAdd("PhD", "Ph.D.");
+
+            correctionAdd("post doc", "postdoc");
+            correctionAdd("Post-Doc", "postdoc");
+            correctionAdd("post-doc", "postdoc");
+            correctionAdd("Post-doc", "postdoc");
+            correctionAdd("PostDoc", "postdoc");
+            correctionAdd("Postdoc", "postdoc");
+
+            correctionAdd("Tenure-Track", "tenure-track");
+
+            correctionAdd("PI", "principal investigator");
+
+            correctionAdd("proffessor", "professor");
+            correctionAdd("Professor", "professor");
+            correctionAdd("proffesor", "professor");
+            correctionAdd("perfessor", "professor");
+            correctionAdd("prefessor", "professor");
+            correctionAdd("prof", "professor");
+            correctionAdd("Prof", "professor");
+
+            correctionAdd("adjunc professor", "adjunct professor");
+
+            // Academic publication
+            correctionAdd("arkivx", "arXiv");
+            correctionAdd("arxiv", "arXiv");
+            correctionAdd("ArXiv", "arXiv");
+            correctionAdd("Arxiv", "arXiv");
+            correctionAdd("axiv", "arXiv");
+
+            // Academic publication. List of predatory journals.
+            correctionAdd("Beall's list", "Beall's List");
+            correctionAdd("Bealls list", "Beall's List");
+
+            correctionAdd("Chief Executive Officer", "CEO");
+            correctionAdd("chief executive officer", "CEO");
+            correctionAdd("ceo", "CEO");
+
+            correctionAdd("CTO", "chief technology officer");
+
+            correctionAdd("COO", "chief operating officer");
+
+            correctionAdd("CIO", "chief information officer");
+
+            correctionAdd("orgnanization", "organisation");
+            correctionAdd("organization", "organisation");
+            correctionAdd("Organization", "organisation");
+            correctionAdd("orgnaization", "organisation");
+            correctionAdd("orgnazation", "organisation");
+            correctionAdd("organiation", "organisation");
+            correctionAdd("Org", "organisation");
+            correctionAdd("org", "organisation");
+
+            correctionAdd("organizational", "organisational");
+
+            correctionAdd("OU", "organizational unit");
+
+            correctionAdd("re-organise", "reorganise");
+            correctionAdd("re-organize", "reorganise");
+            correctionAdd("reorganize", "reorganise");
+
+            correctionAdd("re-org", "reorganisation");
+            correctionAdd("reorg", "reorganisation");
+
+            correctionAdd("fyp", "final year project");
+
+            correctionAdd("C.V", "curriculum vitae");
+            correctionAdd("CV", "curriculum vitae");
+            correctionAdd("cv", "curriculum vitae");
+
+            correctionAdd("resume", "résumé");
+            correctionAdd("Resume", "résumé");
+
+            correctionAdd("letter of recommendation", "recommendation letter");
+            correctionAdd("Letter of Recommendation", "recommendation letter");
+            correctionAdd("Recommendation Letter", "recommendation letter");
+            correctionAdd("letter of reference", "recommendation letter");
+            correctionAdd("reference letter", "recommendation letter");
+            correctionAdd("LoR", "recommendation letter"); // A SIA?
+
+            correctionAdd("Statements of Purpose", "statement of purpose");
+            correctionAdd("application essay", "statement of purpose");
+            correctionAdd("SoP", "statement of purpose");
+
+            correctionAdd("SOW", "statement of work");
+
+            correctionAdd("work's", "works");
+            correctionAdd("workes", "works");
+            correctionAdd("werks", "works");
+            correctionAdd("worsk", "works");
+            correctionAdd("woks", "works");
+
+            correctionAdd("workoing", "working");
+            correctionAdd("workikng", "working");
+            correctionAdd("workring", "working");
+            correctionAdd("work'in", "working");
+            correctionAdd("workong", "working");
+            correctionAdd("wroking", "working");
+            correctionAdd("walking", "working"); // An autocorrect "masterpiece"?
+            correctionAdd("Working", "working");
+            correctionAdd("wokring", "working");
+            correctionAdd("woeking", "working"); // A true typo
+            correctionAdd("workign", "working"); // A true typo
+            correctionAdd("woking", "working");
+            correctionAdd("woring", "working");
+            correctionAdd("workin", "working");
+            correctionAdd("wrking", "working");
+            correctionAdd("worky", "working");
+
+            correctionAdd("workedd", "worked");
+            correctionAdd("worrked", "worked");
+            correctionAdd("wordked", "worked");
+            correctionAdd("workded", "worked");
+            correctionAdd("woked", "worked");
+            correctionAdd("worke", "worked");
+
+            correctionAdd("re-work", "rework");
+
+            correctionAdd("working in", "working on");
+
+            correctionAdd("Doesn't working", "nonworking");
+            correctionAdd("doesn't working", "nonworking");
+            correctionAdd("none working", "nonworking");
+            correctionAdd("non-working", "nonworking");
+            correctionAdd("Non-working", "nonworking");
+            correctionAdd("not-working", "nonworking");
+            correctionAdd("Nonworking", "nonworking");
+
             correctionAdd("move around aimlessly", "work out");
             correctionAdd("workout", "work out");
 
@@ -11130,8 +11398,9 @@ namespace OverflowHelper.core
             correctionAdd("spcaes", "space");
             correctionAdd("spase", "space");
             correctionAdd("Space", "space");
-            correctionAdd("sapce", "space"); // A true typo
             correctionAdd("spcae", "space");
+            correctionAdd("sapce", "space"); // A true typo
+            correctionAdd("Sapce", "space");
             correctionAdd("0x20", "space");
 
             correctionAdd("freespace", "free space");
@@ -12007,6 +12276,54 @@ namespace OverflowHelper.core
             correctionAdd("Maxwell's Demon", "Maxwell's demon");
 
             correctionAdd("demon", "daemon");
+
+            correctionAdd("reccord", "record");
+            correctionAdd("rcord", "record");
+
+            correctionAdd("recoreded", "recorded");
+            correctionAdd("recored", "recorded");
+            correctionAdd("Recored", "recorded");
+
+            correctionAdd("recoding", "recording");
+
+            correctionAdd("For the records", "for the record");
+
+            correctionAdd("taoe", "tape");
+
+            correctionAdd("ducttape", "duct tape");
+
+            correctionAdd("ducttaped", "duct taped");
+
+            correctionAdd("gaffa tape", "gaffer tape");
+
+            correctionAdd("DEC tape", "DECtape");
+
+            correctionAdd("tapestry", "Tapestry");
+
+            correctionAdd("Magnetism", "magnetism");
+
+            correctionAdd("Magnetic", "magnetic");
+            correctionAdd("megnetic", "magnetic");
+            correctionAdd("mag", "magnetic");
+
+            correctionAdd("non-magnetic", "nonmagnetic");
+
+            correctionAdd("Magnetic field", "magnetic field");
+
+            correctionAdd("MRI", "magnetic resonance imaging");
+
+            correctionAdd("nuclear magnetic resonance", "NMR");
+
+            correctionAdd("magtape", "magnetic tape");
+
+            correctionAdd("perpendicular magnetic recording", "CMR");
+            correctionAdd("conventional magnetic recording", "CMR");
+
+            correctionAdd("shingled magnetic recording", "SMR");
+
+            correctionAdd("ct scan", "CT scan");
+
+            correctionAdd("Maglev", "maglev");
 
             correctionAdd("Electro-Magnetic", "electromagnetic");
             correctionAdd("electromagnatic", "electromagnetic");
@@ -15354,272 +15671,6 @@ namespace OverflowHelper.core
             // Idiomatic
             correctionAdd("Let sleeping dogs lie", "let sleeping dogs lie");
 
-            correctionAdd("choosen", "chosen");
-            correctionAdd("chozen", "chosen");
-
-            correctionAdd("choses", "chooses");
-
-            correctionAdd("choising", "choosing");
-            correctionAdd("chosing", "choosing");
-
-            correctionAdd("un-chosen", "unchosen");
-
-            correctionAdd("cohoice", "choice");
-            correctionAdd("choise", "choice");
-            correctionAdd("Choise", "choice");
-            correctionAdd("chioce", "choice"); // A true typo
-            correctionAdd("choce", "choice");
-
-            // The noun
-            correctionAdd("choises", "choices");
-
-            correctionAdd("misschoice", "mischoice");
-
-            correctionAdd("of choose", "of choice");
-
-            correctionAdd("Multiple choice", "multiple-choice");
-
-            correctionAdd("MCQ", "multiple-choice question");
-
-            correctionAdd("gpa", "GPA");
-
-            correctionAdd("mark-sheet", "marksheet");
-
-            correctionAdd("University", "university");
-            correctionAdd("univercity", "university");
-            correctionAdd("uneversity", "university");
-            correctionAdd("univeristy", "university");
-            correctionAdd("universty", "university");
-            correctionAdd("univ", "university");
-            correctionAdd("uni", "university");
-            correctionAdd("Uni", "university");
-
-            correctionAdd("Universities", "universities");
-            correctionAdd("unis", "universities");
-            correctionAdd("Unis", "universities");
-
-            correctionAdd("Lecture", "lecture");
-
-            correctionAdd("eton", "Eton");
-
-            // A portmanteau of Oxford and Cambridge (United Kingdom)
-            correctionAdd("oxbridge", "Oxbridge");
-
-            correctionAdd("The Oxford Union Society", "Oxford Union");
-
-            correctionAdd("Cambridge analytic", "Cambridge Analytica");
-
-            correctionAdd("achademia", "academia");
-            correctionAdd("achedemia", "academia");
-            correctionAdd("Academia", "academia");
-
-            correctionAdd("academians", "academicians");
-
-            correctionAdd("accademic", "academic");
-            correctionAdd("acamedic", "academic");
-            correctionAdd("acedemic", "academic");
-
-            correctionAdd("Associate Lecturer", "associate lecturer");
-
-            correctionAdd("Teachers", "teachers");
-
-            correctionAdd("scholorship", "scholarship");
-
-            correctionAdd("ta", "TA");
-
-            correctionAdd("tuter", "tutor");
-
-            correctionAdd("Tutoring", "tutoring");
-
-            correctionAdd("Tuition", "tuition");
-
-            correctionAdd("Student", "student");
-
-            correctionAdd("Undergraduate", "undergraduate");
-            correctionAdd("undergrad", "undergraduate");
-
-            correctionAdd("graduade", "graduate");
-            correctionAdd("Graduate", "graduate");
-            correctionAdd("grad", "graduate");
-
-            correctionAdd("Freshman", "freshman");
-
-            correctionAdd("Diploma", "diploma");
-
-            correctionAdd("Thesis", "thesis");
-
-            correctionAdd("bachelor's", "bachelor's degree");
-            correctionAdd("bachelors", "bachelor's degree");
-
-            correctionAdd("Bachelor of Science", "B.Sc"); // The official expanded name
-            correctionAdd("BSc", "B.Sc");
-            correctionAdd("BSC", "B.Sc");
-            correctionAdd("B.S", "B.Sc");
-            correctionAdd("BS", "B.Sc");
-
-            correctionAdd("Master's degree", "master's degree");
-            correctionAdd("Masters degree", "master's degree");
-            correctionAdd("masters degree", "master's degree");
-            correctionAdd("master degree", "master's degree");
-            correctionAdd("Master's", "master's degree");
-            correctionAdd("master's", "master's degree");
-            correctionAdd("Master’s", "master's degree");
-            correctionAdd("masters", "master's degree");
-            correctionAdd("Masters", "master's degree");
-            correctionAdd("master", "master's degree");
-
-            // Actually "M.Sc.", but we currently don't allow it...
-            correctionAdd("Master of Science", "M.Sc"); // The official expanded name
-            correctionAdd("MSc", "M.Sc");
-            correctionAdd("msc", "M.Sc");
-            correctionAdd("Msc", "M.Sc");
-            correctionAdd("M.S", "M.Sc");
-            correctionAdd("MS", "M.Sc");
-
-            correctionAdd("honors degree", "honours degree");
-            correctionAdd("Hons", "honours degree");
-            correctionAdd("hons", "honours degree");
-
-            correctionAdd("postgrad", "postgraduate degree");
-
-            correctionAdd("Honor", "honor");
-
-            correctionAdd("honoring", "honouring");
-
-            correctionAdd("Honourable", "honourable");
-            correctionAdd("honorable", "honourable");
-
-            correctionAdd("Ph.D", "Ph.D.");
-            correctionAdd("phd", "Ph.D.");
-            correctionAdd("PHD", "Ph.D.");
-            correctionAdd("Phd", "Ph.D.");
-            correctionAdd("PhD", "Ph.D.");
-
-            correctionAdd("post doc", "postdoc");
-            correctionAdd("Post-Doc", "postdoc");
-            correctionAdd("post-doc", "postdoc");
-            correctionAdd("Post-doc", "postdoc");
-            correctionAdd("PostDoc", "postdoc");
-            correctionAdd("Postdoc", "postdoc");
-
-            correctionAdd("Tenure-Track", "tenure-track");
-
-            correctionAdd("PI", "principal investigator");
-
-            correctionAdd("proffessor", "professor");
-            correctionAdd("Professor", "professor");
-            correctionAdd("proffesor", "professor");
-            correctionAdd("perfessor", "professor");
-            correctionAdd("prefessor", "professor");
-            correctionAdd("prof", "professor");
-            correctionAdd("Prof", "professor");
-
-            correctionAdd("adjunc professor", "adjunct professor");
-
-            // Academic publication
-            correctionAdd("arkivx", "arXiv");
-            correctionAdd("arxiv", "arXiv");
-            correctionAdd("ArXiv", "arXiv");
-            correctionAdd("Arxiv", "arXiv");
-            correctionAdd("axiv", "arXiv");
-
-            // Academic publication. List of predatory journals.
-            correctionAdd("Beall's list", "Beall's List");
-            correctionAdd("Bealls list", "Beall's List");
-
-            correctionAdd("Chief Executive Officer", "CEO");
-            correctionAdd("chief executive officer", "CEO");
-            correctionAdd("ceo", "CEO");
-
-            correctionAdd("CTO", "chief technology officer");
-
-            correctionAdd("COO", "chief operating officer");
-
-            correctionAdd("CIO", "chief information officer");
-
-            correctionAdd("orgnanization", "organisation");
-            correctionAdd("organization", "organisation");
-            correctionAdd("Organization", "organisation");
-            correctionAdd("orgnaization", "organisation");
-            correctionAdd("orgnazation", "organisation");
-            correctionAdd("organiation", "organisation");
-            correctionAdd("Org", "organisation");
-            correctionAdd("org", "organisation");
-
-            correctionAdd("organizational", "organisational");
-
-            correctionAdd("OU", "organizational unit");
-
-            correctionAdd("re-organise", "reorganise");
-            correctionAdd("re-organize", "reorganise");
-            correctionAdd("reorganize", "reorganise");
-
-            correctionAdd("re-org", "reorganisation");
-            correctionAdd("reorg", "reorganisation");
-
-            correctionAdd("fyp", "final year project");
-
-            correctionAdd("C.V", "curriculum vitae");
-            correctionAdd("CV", "curriculum vitae");
-            correctionAdd("cv", "curriculum vitae");
-
-            correctionAdd("resume", "résumé");
-            correctionAdd("Resume", "résumé");
-
-            correctionAdd("letter of recommendation", "recommendation letter");
-            correctionAdd("Letter of Recommendation", "recommendation letter");
-            correctionAdd("Recommendation Letter", "recommendation letter");
-            correctionAdd("letter of reference", "recommendation letter");
-            correctionAdd("reference letter", "recommendation letter");
-            correctionAdd("LoR", "recommendation letter"); // A SIA?
-
-            correctionAdd("Statements of Purpose", "statement of purpose");
-            correctionAdd("application essay", "statement of purpose");
-            correctionAdd("SoP", "statement of purpose");
-
-            correctionAdd("SOW", "statement of work");
-
-            correctionAdd("work's", "works");
-            correctionAdd("workes", "works");
-            correctionAdd("werks", "works");
-            correctionAdd("worsk", "works");
-            correctionAdd("woks", "works");
-
-            correctionAdd("workoing", "working");
-            correctionAdd("workikng", "working");
-            correctionAdd("workring", "working");
-            correctionAdd("work'in", "working");
-            correctionAdd("workong", "working");
-            correctionAdd("wroking", "working");
-            correctionAdd("walking", "working"); // An autocorrect "masterpiece"?
-            correctionAdd("Working", "working");
-            correctionAdd("wokring", "working");
-            correctionAdd("woeking", "working"); // A true typo
-            correctionAdd("woking", "working");
-            correctionAdd("woring", "working");
-            correctionAdd("workin", "working");
-            correctionAdd("wrking", "working");
-            correctionAdd("worky", "working");
-
-            correctionAdd("workedd", "worked");
-            correctionAdd("worrked", "worked");
-            correctionAdd("wordked", "worked");
-            correctionAdd("workded", "worked");
-            correctionAdd("woked", "worked");
-            correctionAdd("worke", "worked");
-
-            correctionAdd("re-work", "rework");
-
-            correctionAdd("working in", "working on");
-
-            correctionAdd("Doesn't working", "nonworking");
-            correctionAdd("doesn't working", "nonworking");
-            correctionAdd("none working", "nonworking");
-            correctionAdd("non-working", "nonworking");
-            correctionAdd("Non-working", "nonworking");
-            correctionAdd("not-working", "nonworking");
-            correctionAdd("Nonworking", "nonworking");
-
             correctionAdd("Move", "move");
 
             correctionAdd("movees", "moves");
@@ -15693,52 +15744,6 @@ namespace OverflowHelper.core
             correctionAdd("inessential", "nonessential");
 
             correctionAdd("quenstinel", "quintessential");
-
-            correctionAdd("reccord", "record");
-            correctionAdd("rcord", "record");
-
-            correctionAdd("recoreded", "recorded");
-            correctionAdd("recored", "recorded");
-            correctionAdd("Recored", "recorded");
-
-            correctionAdd("recoding", "recording");
-
-            correctionAdd("For the records", "for the record");
-
-            correctionAdd("taoe", "tape");
-
-            correctionAdd("ducttape", "duct tape");
-
-            correctionAdd("ducttaped", "duct taped");
-
-            correctionAdd("gaffa tape", "gaffer tape");
-
-            correctionAdd("DEC tape", "DECtape");
-
-            correctionAdd("tapestry", "Tapestry");
-
-            correctionAdd("Magnetism", "magnetism");
-
-            correctionAdd("Magnetic", "magnetic");
-            correctionAdd("megnetic", "magnetic");
-            correctionAdd("mag", "magnetic");
-
-            correctionAdd("Magnetic field", "magnetic field");
-
-            correctionAdd("MRI", "magnetic resonance imaging");
-
-            correctionAdd("nuclear magnetic resonance", "NMR");
-
-            correctionAdd("magtape", "magnetic tape");
-
-            correctionAdd("perpendicular magnetic recording", "CMR");
-            correctionAdd("conventional magnetic recording", "CMR");
-
-            correctionAdd("shingled magnetic recording", "SMR");
-
-            correctionAdd("ct scan", "CT scan");
-
-            correctionAdd("Maglev", "maglev");
 
             correctionAdd("based 10", "base 10");
 
@@ -26885,6 +26890,72 @@ namespace OverflowHelper.core
 
             correctionAdd("ome", "home");
 
+            correctionAdd("stanadard", "standard");
+            correctionAdd("standart", "standard");
+            correctionAdd("standerd", "standard");
+            correctionAdd("standrad", "standard"); // A true typo
+            correctionAdd("Stardard", "standard");
+            correctionAdd("stardard", "standard");
+            correctionAdd("standar", "standard");
+            correctionAdd("stander", "standard");
+            correctionAdd("stanrd", "standard");
+            correctionAdd("std", "standard");
+
+            correctionAdd("standarda", "standards");
+
+            correctionAdd("standardized", "standardised");
+
+            correctionAdd("Standartization", "standardisation");
+            correctionAdd("standartization", "standardisation");
+            correctionAdd("standardization", "standardisation");
+            correctionAdd("standarization", "standardisation");
+
+            correctionAdd("non-standard", "nonstandard");
+            correctionAdd("non standard", "nonstandard");
+            correctionAdd("Non standard", "nonstandard");
+            correctionAdd("not standard", "nonstandard");
+            correctionAdd("Nonstandard", "nonstandard");
+
+            correctionAdd("standard faire", "standard fare");
+
+            correctionAdd("bog standard", "bog-standard");
+            correctionAdd("bogstandard", "bog-standard");
+
+            correctionAdd("standard in put", "standard input");
+            correctionAdd("standard in", "standard input");
+            correctionAdd("std input", "standard input");
+            correctionAdd("Stdin", "standard input");
+            correctionAdd("stdin", "standard input");
+            correctionAdd("STDIN", "standard input");
+
+            correctionAdd("Standard output", "standard output");
+            correctionAdd("standard out", "standard output");
+            correctionAdd("std output", "standard output");
+            correctionAdd("StdOut", "standard output");
+            correctionAdd("stdout", "standard output");
+            correctionAdd("STDOUT", "standard output");
+            correctionAdd("Stdout", "standard output");
+            correctionAdd("stdOut", "standard output");
+
+            correctionAdd("Standard-Error", "standard error");
+            correctionAdd("Standard Error", "standard error");
+            correctionAdd("standard-error", "standard error");
+            correctionAdd("standard err", "standard error");
+            correctionAdd("stderror", "standard error");
+            correctionAdd("std-err", "standard error");
+            correctionAdd("std err", "standard error");
+            correctionAdd("StdErr", "standard error");
+            correctionAdd("stderr", "standard error");
+            correctionAdd("STDERR", "standard error");
+
+            correctionAdd("standard dev", "standard deviation");
+            correctionAdd("std. dev", "standard deviation");
+            correctionAdd("std dev", "standard deviation");
+            correctionAdd("std-dev", "standard deviation");
+            correctionAdd("stddev", "standard deviation");
+            correctionAdd("s.d", "standard deviation");
+            correctionAdd("sd", "standard deviation");
+
             correctionAdd("flate", "flat");
 
             correctionAdd("filie", "file");
@@ -29782,71 +29853,6 @@ namespace OverflowHelper.core
 
             correctionAdd("off putting", "off-putting");
             correctionAdd("offputting", "off-putting");
-
-            correctionAdd("stanadard", "standard");
-            correctionAdd("standart", "standard");
-            correctionAdd("standerd", "standard");
-            correctionAdd("standrad", "standard"); // A true typo
-            correctionAdd("Stardard", "standard");
-            correctionAdd("stardard", "standard");
-            correctionAdd("standar", "standard");
-            correctionAdd("stander", "standard");
-            correctionAdd("std", "standard");
-
-            correctionAdd("standarda", "standards");
-
-            correctionAdd("standardized", "standardised");
-
-            correctionAdd("Standartization", "standardisation");
-            correctionAdd("standartization", "standardisation");
-            correctionAdd("standardization", "standardisation");
-            correctionAdd("standarization", "standardisation");
-
-            correctionAdd("non-standard", "nonstandard");
-            correctionAdd("non standard", "nonstandard");
-            correctionAdd("Non standard", "nonstandard");
-            correctionAdd("not standard", "nonstandard");
-            correctionAdd("Nonstandard", "nonstandard");
-
-            correctionAdd("standard faire", "standard fare");
-
-            correctionAdd("bog standard", "bog-standard");
-            correctionAdd("bogstandard", "bog-standard");
-
-            correctionAdd("standard in put", "standard input");
-            correctionAdd("standard in", "standard input");
-            correctionAdd("std input", "standard input");
-            correctionAdd("Stdin", "standard input");
-            correctionAdd("stdin", "standard input");
-            correctionAdd("STDIN", "standard input");
-
-            correctionAdd("Standard output", "standard output");
-            correctionAdd("standard out", "standard output");
-            correctionAdd("std output", "standard output");
-            correctionAdd("StdOut", "standard output");
-            correctionAdd("stdout", "standard output");
-            correctionAdd("STDOUT", "standard output");
-            correctionAdd("Stdout", "standard output");
-            correctionAdd("stdOut", "standard output");
-
-            correctionAdd("Standard-Error", "standard error");
-            correctionAdd("Standard Error", "standard error");
-            correctionAdd("standard-error", "standard error");
-            correctionAdd("standard err", "standard error");
-            correctionAdd("stderror", "standard error");
-            correctionAdd("std-err", "standard error");
-            correctionAdd("std err", "standard error");
-            correctionAdd("StdErr", "standard error");
-            correctionAdd("stderr", "standard error");
-            correctionAdd("STDERR", "standard error");
-
-            correctionAdd("standard dev", "standard deviation");
-            correctionAdd("std. dev", "standard deviation");
-            correctionAdd("std dev", "standard deviation");
-            correctionAdd("std-dev", "standard deviation");
-            correctionAdd("stddev", "standard deviation");
-            correctionAdd("s.d", "standard deviation");
-            correctionAdd("sd", "standard deviation");
 
             correctionAdd("opus morandi", "modus operandi");
 
@@ -35420,6 +35426,8 @@ namespace OverflowHelper.core
 
             correctionAdd("feel good", "feel-good");
 
+            // Note: "fell" is in an alternative word set
+            //
             correctionAdd("feell", "feel");
             correctionAdd("teal", "feel"); // A true typo + dyslexia
             correctionAdd("teel", "feel");
@@ -36759,6 +36767,8 @@ namespace OverflowHelper.core
             correctionAdd("surrend", "surrender");
 
             correctionAdd("ROP", "render output unit");
+
+            correctionAdd("SSG", "static site generator");
 
             correctionAdd("Server side rendering", "server-side rendering");
             correctionAdd("server side rendering", "server-side rendering");
@@ -43620,6 +43630,16 @@ namespace OverflowHelper.core
             correctionAdd("magentostatic", "magnetostatic");
 
             // E.g., used in the Keychron Lemokey L5 HE 8K
+            //
+            // Alternative URLs:
+            //
+            //   <https://mechanicalkeyboards.com/blogs/mk-101/tmr-vs-hall-effect-magnetic-switches-what-you-need-to-know>
+            //     Hall sensor vs. TMR
+            //
+            //     Is it generated by simulated intelligence? A lot of
+            //     the arguments do not appear to make any sense. For
+            //     example, measuring a voltage does not inherently
+            //     consume more power (on the contrary).
             //
             correctionAdd("TMR", "tunnel magnetoresistance");
             correctionAdd("tmr", "tunnel magnetoresistance");
@@ -70913,6 +70933,7 @@ namespace OverflowHelper.core
             correctionAdd("intereaction", "interaction");
             correctionAdd("interection", "interaction");
             correctionAdd("iteraction", "interaction");
+            correctionAdd("intraction", "interaction");
 
             correctionAdd("over-ride", "override");
             correctionAdd("overide", "override");
@@ -76194,10 +76215,10 @@ namespace OverflowHelper.core
             correctionAdd("escapce", "escape");
             correctionAdd("espaced", "escape");
             correctionAdd("Escape", "escape");
-            correctionAdd("esapce", "escape");
             correctionAdd("Esacpe", "escape");
             correctionAdd("esacpe", "escape");
             correctionAdd("excape", "escape");
+            correctionAdd("esapce", "escape");
 
             correctionAdd("escapeing", "escaping");
             correctionAdd("scaping", "escaping");
@@ -88558,8 +88579,8 @@ namespace OverflowHelper.core
             //
             // Notes:
             //
-            //   1. In contrast to the original, it has both Bluetooth
-            //      and '2.4 GHz'.
+            //   1. In contrast to the original, it has
+            //      both Bluetooth and '2.4 GHz'.
             //
             //   2. Hall sensor (HE) switches.
             //
@@ -89777,8 +89798,9 @@ namespace OverflowHelper.core
             correctionAdd("Keychron R5", "Keychron&nbsp;R5"); // Sort of identity mapping
             correctionAdd("R5", "Keychron&nbsp;R5");
 
-            // A 100-key (95%. Not true TKL) wired and wireless (both
-            // Bluetooth and '2.4 GHz') mechanical keyboard from NuPhy.
+            // A 100-key (95%. Not true TKL) wired and wireless
+            // (both Bluetooth and '2.4 GHz')
+            // mechanical keyboard from NuPhy.
             //
             // Despite what is claimed, it isn't a standard keyboard:
             // the Ins, Scroll Lock, and Pause keys are missing.
@@ -89819,8 +89841,9 @@ namespace OverflowHelper.core
             correctionAdd("Air96", "NuPhy Air96 V2");
             correctionAdd("air96", "NuPhy Air96 V2");
 
-            // A 100-key (95%. Not true TKL) wired and wireless (both
-            // Bluetooth and '2.4 GHz') mechanical keyboard from NuPhy.
+            // A 100-key (95%. Not true TKL) wired and wireless
+            // (both Bluetooth and '2.4 GHz') mechanical
+            // keyboard from NuPhy.
             //
             // Source code:
             //
@@ -90074,9 +90097,10 @@ namespace OverflowHelper.core
             correctionAdd("k4 pro", "Keychron&nbsp;K4&nbsp;Pro");
             correctionAdd("K4pro", "Keychron&nbsp;K4&nbsp;Pro");
 
-            // A 101-key (95%. Not true TKL) crippled (wrt. missing PgUp
-            // and PgDn, etc.) wired and wireless (both Bluetooth and
-            // '2.4 GHz') QMK/Via-capable mechanical keyboard
+            // A 101-key (95%. Not true TKL) crippled (wrt.
+            // missing PgUp and PgDn, etc.) wired and
+            // wireless (both Bluetooth and '2.4 GHz')
+            // QMK/Via-capable mechanical keyboard
             // from Keychron without a knob.
             //
             // RGB (per-key) south-facing (unwanted
@@ -90112,10 +90136,11 @@ namespace OverflowHelper.core
             correctionAdd("K4&nbsp;Max", "Keychron&nbsp;K4&nbsp;Max");
             correctionAdd("K4 Max", "Keychron&nbsp;K4&nbsp;Max");
 
-            // A 101-key (95%. Not true TKL) crippled (wrt. missing
-            // clusters, e.g., PrtSc) wired and wireless (both
-            // Bluetooth and '2.4 GHz') QMK/Via-capable mechanical
-            // keyboard from Keychron without a knob.
+            // A 101-key (95%. Not true TKL) crippled (wrt.
+            // missing clusters, e.g., PrtSc) wired and
+            // wireless (both Bluetooth and '2.4 GHz')
+            // QMK/Via-capable mechanical keyboard
+            // from Keychron without a knob.
             //
             // Crammed key layout
             //
@@ -90362,9 +90387,10 @@ namespace OverflowHelper.core
             correctionAdd("q5 max", "Keychron&nbsp;Q5&nbsp;Max");
             correctionAdd("Q5max", "Keychron&nbsp;Q5&nbsp;Max");
 
-            // A 102-key (95%. Not true TKL) crippled wired and wireless
-            // (both Bluetooth and '2.4 GHz') QMK/Via-capable
-            // hot-swappable mechanical keyboard from Keychron.
+            // A 102-key (95%. Not true TKL) crippled wired and
+            // wireless (both Bluetooth and '2.4 GHz')
+            // QMK/Via-capable hot-swappable mechanical
+            // keyboard from Keychron.
             //
             // Like Q5 Max, but with Hall sensor (HE) switches.
             //
@@ -90480,9 +90506,10 @@ namespace OverflowHelper.core
             correctionAdd("Q12 Max", "Keychron&nbsp;Q12&nbsp;Max");
             correctionAdd("Q12 MAX", "Keychron&nbsp;Q12&nbsp;Max");
 
-            // A 103-key (100%. Not true TKL) full-size wired and wireless
-            // (both Bluetooth and '2.4 GHz') QMK/Via-capable
-            // mechanical keyboard with a knob from Keychron.
+            // A 103-key (100%. Not true TKL) full-size wired
+            // and wireless (both Bluetooth and '2.4 GHz')
+            // QMK/Via-capable mechanical keyboard
+            // with a knob from Keychron.
             //
             // Like Q12 Max, but with Hall sensor (HE) switches.
             //
@@ -90855,9 +90882,10 @@ namespace OverflowHelper.core
             correctionAdd("C4 HE 8K", "Keychron&nbsp;C4&nbsp;HE&nbsp;8K (100%) (proprietary keyboard firmware, not open source)");
             correctionAdd("C4 HE", "Keychron&nbsp;C4&nbsp;HE&nbsp;8K (100%) (proprietary keyboard firmware, not open source)");
 
-            // A 105-key (100%. Not true TKL) full-size wired and wireless
-            // (both Bluetooth and '2.4 GHz') QMK/Via-capable
-            // mechanical keyboard without a knob from Keychron.
+            // A 105-key (100%. Not true TKL) full-size wired and
+            // wireless (both Bluetooth and '2.4 GHz')
+            // QMK/Via-capable mechanical keyboard
+            // without a knob from Keychron.
             //
             // 'Not true TKL' does not apply... It is
             // a standard full-size keyboard.
@@ -90871,9 +90899,10 @@ namespace OverflowHelper.core
             correctionAdd("Keychron R6", "Keychron&nbsp;R6"); // Sort of identity mapping
             correctionAdd("R6", "Keychron&nbsp;R6");
 
-            // A 105-key (100%. Not true TKL) full-size wired and wireless
-            // (both Bluetooth and '2.4 GHz') QMK/Via-capable
-            // mechanical keyboard without a knob from Keychron.
+            // A 105-key (100%. Not true TKL) full-size wired and
+            // wireless (both Bluetooth and '2.4 GHz')
+            // QMK/Via-capable mechanical keyboard
+            // without a knob from Keychron.
             //
             // Like K10 V2, but with Hall sensor (HE) switches.
             //
@@ -109948,8 +109977,6 @@ namespace OverflowHelper.core
 
             URL_Add("De Morgan's laws", "https://en.wikipedia.org/wiki/De_Morgan%27s_laws");
 
-            URL_Add("EMI", "https://en.wikipedia.org/wiki/Electromagnetic_interference");
-
             URL_Add("Esc key", "https://en.wikipedia.org/wiki/Esc_key");
 
             URL_Add("GPM", "https://en.wikipedia.org/wiki/GPM_(software)");
@@ -109977,8 +110004,6 @@ namespace OverflowHelper.core
             URL_Add("euphemism", "https://en.wiktionary.org/wiki/euphemism#Noun");
 
             URL_Add("euphemisms", "https://en.wiktionary.org/wiki/euphemism#Noun");
-
-            URL_Add("ferrite", "https://en.wikipedia.org/wiki/Ferrite_%28magnet%29");
 
             URL_Add("grateful", "https://en.wiktionary.org/wiki/grateful#Adjective");
 
@@ -114288,8 +114313,6 @@ namespace OverflowHelper.core
 
             URL_Add("bodge", "https://en.wiktionary.org/wiki/bodge#Noun");
 
-            URL_Add("electromagnetic", "https://en.wiktionary.org/wiki/electromagnetic#Adjective");
-
             URL_Add("establish", "https://en.wiktionary.org/wiki/establish#Verb");
 
             URL_Add("infringement", "https://en.wiktionary.org/wiki/infringement#Noun");
@@ -115165,8 +115188,6 @@ namespace OverflowHelper.core
             URL_Add("baffled", "https://en.wiktionary.org/wiki/baffled#Adjective");
 
             URL_Add("conundrum", "https://en.wiktionary.org/wiki/conundrum#Noun");
-
-            URL_Add("electromagnetic field", "https://en.wikipedia.org/wiki/Electromagnetic_field");
 
             URL_Add("British Columbia, Canada", "https://en.wikipedia.org/wiki/British_Columbia");
 
@@ -116263,10 +116284,6 @@ namespace OverflowHelper.core
             URL_Add("reprogramming", "https://en.wiktionary.org/wiki/reprogram#Verb");
 
             URL_Add("Alzheimer's disease", "https://en.wikipedia.org/wiki/Alzheimer's_disease");
-
-            URL_Add("CMR", "https://en.wikipedia.org/wiki/Perpendicular_recording");
-
-            URL_Add("SMR", "https://en.wikipedia.org/wiki/Shingled_magnetic_recording");
 
             URL_Add("cool down", "https://en.wiktionary.org/wiki/cool_down#Verb");
 
@@ -117449,8 +117466,6 @@ namespace OverflowHelper.core
             URL_Add("Stone Age", "https://en.wiktionary.org/wiki/Stone_Age#Proper_noun");
 
             URL_Add("VT100", "https://en.wikipedia.org/wiki/VT100");
-
-            URL_Add("electromagnetic compatibility", "https://en.wikipedia.org/wiki/Electromagnetic_compatibility");
 
             URL_Add("face recognition", "https://en.wikipedia.org/wiki/Facial_recognition_system");
 
@@ -124194,8 +124209,6 @@ namespace OverflowHelper.core
 
             URL_Add("far from", "https://en.wiktionary.org/wiki/far_from#Adverb");
 
-            URL_Add("Rectangle", "https://www.reddit.com/r/mac/comments/fjmlgo/try_rectangle_before_buying_magnet/");
-
             URL_Add("bang for the buck", "https://en.wiktionary.org/wiki/bang_for_the_buck#Noun");
 
             URL_Add("buck", "https://en.wiktionary.org/wiki/buck#Noun");
@@ -126653,8 +126666,6 @@ namespace OverflowHelper.core
             URL_Add("approximations", "https://en.wiktionary.org/wiki/approximation#Noun");
 
             URL_Add("humidity", "https://en.wiktionary.org/wiki/humidity#Noun");
-
-            URL_Add("tunnel magnetoresistance", "https://en.wikipedia.org/wiki/Tunnel_magnetoresistance");
 
             URL_Add("TinyUSB", "https://docs.tinyusb.org/en/stable/index.html");
 
@@ -132952,8 +132963,6 @@ namespace OverflowHelper.core
 
             URL_Add("shock wave", "https://en.wiktionary.org/wiki/shock_wave#Noun");
 
-            URL_Add("electromagnetic wave", "https://en.wikipedia.org/wiki/Electromagnetic_radiation");
-
             URL_Add("cosmic microwave background", "https://en.wikipedia.org/wiki/Cosmic_microwave_background");
 
             URL_Add("cosmic microwave background radiation", "https://en.wikipedia.org/wiki/Cosmic_microwave_background");
@@ -133155,6 +133164,8 @@ namespace OverflowHelper.core
             URL_Add("Amazon Elastic Container Registry", "https://docs.aws.amazon.com/AmazonECR/latest/userguide/what-is-ecr.html");
 
             URL_Add("surrender", "https://en.wiktionary.org/wiki/surrender#Verb");
+
+            URL_Add("static site generator", "https://en.wikipedia.org/wiki/Static_site_generator");
 
             URL_Add("rendering", "https://en.wiktionary.org/wiki/render#Verb");
 
@@ -136710,29 +136721,29 @@ namespace OverflowHelper.core
 
             URL_Add("facetious", "https://en.wiktionary.org/wiki/facetious#Adjective");
 
+            URL_Add("sunk cost fallacy", "https://en.wikipedia.org/wiki/Sunk_cost#The_fallacy_effect");
+
             URL_Add("fallacy", "https://en.wiktionary.org/wiki/fallacy#Noun");
 
             URL_Add("fallacious", "https://en.wiktionary.org/wiki/fallacious#Adjective");
 
-            URL_Add("sunk cost fallacy", "https://en.wikipedia.org/wiki/Sunk_cost#The_fallacy_effect");
-
             URL_Add("falling", "https://en.wiktionary.org/wiki/fall#Verb");
-
-            URL_Add("pitfall", "https://en.wiktionary.org/wiki/pitfall#Noun");
 
             URL_Add("fallback", "https://en.wiktionary.org/wiki/fallback#Noun");
 
             URL_Add("fallbacks", "https://en.wiktionary.org/wiki/fallback#Noun");
 
-            URL_Add("free fall", "https://en.wikipedia.org/wiki/Free_fall");
-
             URL_Add("fall-through", "https://en.wiktionary.org/wiki/fall-through#Noun");
+
+            URL_Add("fell in love", "https://en.wiktionary.org/wiki/fall_in_love#Verb");
 
             URL_Add("fall through the cracks", "https://en.wiktionary.org/wiki/fall_through_the_cracks#Verb");
 
             URL_Add("falling into this pitfall", "https://www.ldoceonline.com/dictionary/fall-into-a-trap-pitfall");
 
-            URL_Add("fell in love", "https://en.wiktionary.org/wiki/fall_in_love#Verb");
+            URL_Add("pitfall", "https://en.wiktionary.org/wiki/pitfall#Noun");
+
+            URL_Add("free fall", "https://en.wikipedia.org/wiki/Free_fall");
 
             URL_Add("Niagara Falls", "https://en.wikipedia.org/wiki/Niagara_Falls");
 
@@ -137853,10 +137864,6 @@ namespace OverflowHelper.core
             URL_Add("Nernst equation", "https://en.wikipedia.org/wiki/Nernst_equation");
 
             URL_Add("triflic acid", "https://en.wikipedia.org/wiki/Triflic_acid");
-
-            URL_Add("electromagnetism", "https://en.wiktionary.org/wiki/electromagnetism#Noun");
-
-            URL_Add("permeability", "https://en.wikipedia.org/wiki/Permeability_(electromagnetism)");
 
             URL_Add("nonspace", "https://en.wiktionary.org/wiki/nonspace#Noun");
 
@@ -141158,8 +141165,6 @@ namespace OverflowHelper.core
 
             URL_Add("EZIS", "https://www.ezis.cloud/features");
 
-            URL_Add("Magnet", "https://www.howtogeek.com/892556/the-magnet-app-brings-my-favorite-windows-feature-to-mac/");
-
             URL_Add("If This Then That", "https://en.wikipedia.org/wiki/IFTTT#Features");
 
             URL_Add("Nerd Fonts", "https://www.nerdfonts.com/#features");
@@ -142550,8 +142555,6 @@ namespace OverflowHelper.core
 
             URL_Add("transit", "https://en.wiktionary.org/wiki/transit#Noun");
 
-            URL_Add("transverse electromagnetic", "https://en.wikipedia.org/wiki/Transverse_mode#Waveguides_2");
-
             URL_Add("transform", "https://en.wiktionary.org/wiki/transform#Noun");
 
             URL_Add("transforms", "https://en.wiktionary.org/wiki/transform#Verb");
@@ -142671,30 +142674,6 @@ namespace OverflowHelper.core
             URL_Add("missile", "https://en.wiktionary.org/wiki/missile#Noun");
 
             URL_Add("woman", "https://en.wiktionary.org/wiki/woman#Noun");
-
-            URL_Add("magnetic tape", "https://en.wikipedia.org/wiki/Magnetic-tape_data_storage");
-
-            URL_Add("magnetism", "https://en.wikipedia.org/wiki/Magnetism");
-
-            URL_Add("magnetic", "https://en.wiktionary.org/wiki/magnetic#Adjective");
-
-            URL_Add("magnetic field", "https://en.wikipedia.org/wiki/Magnetic_field");
-
-            URL_Add("magnetic resonance imaging", "https://en.wikipedia.org/wiki/Magnetic_resonance_imaging");
-
-            URL_Add("NMR", "https://en.wikipedia.org/wiki/Nuclear_magnetic_resonance#Medicine");
-
-            URL_Add("magnetometer", "https://en.wikipedia.org/wiki/Magnetometer");
-
-            URL_Add("magnetostatic", "https://en.wiktionary.org/wiki/magnetostatic#Adjective");
-
-            URL_Add("electric", "https://en.wiktionary.org/wiki/electric#Adjective");
-
-            URL_Add("electrostatic", "https://en.wikipedia.org/wiki/Electrostatics");
-
-            URL_Add("coulomb", "https://en.wikipedia.org/wiki/Coulomb");
-
-            URL_Add("Coulomb's law", "https://en.wikipedia.org/wiki/Coulomb%27s_law");
 
             URL_Add("leak", "https://en.wiktionary.org/wiki/leak#Verb");
 
@@ -145519,10 +145498,6 @@ namespace OverflowHelper.core
             URL_Add("Black Pill", "https://stm32-base.org/boards/STM32F103C8T6-Black-Pill");
 
             URL_Add("Blue Pill", "https://stm32-base.org/boards/STM32F103C8T6-Blue-Pill.html");
-
-            URL_Add("rigid body", "https://en.wiktionary.org/wiki/rigid_body#Noun");
-
-            URL_Add("electromagnetic radiation", "https://en.wikipedia.org/wiki/Electromagnetic_radiation");
 
             URL_Add("DOIO KB16", "https://wiki.keebmonkey.com/en/guides/kb16update");
 
@@ -148991,6 +148966,64 @@ namespace OverflowHelper.core
             URL_Add("potatoh potahto", "https://www.youtube.com/watch?v=qRrw2hDjnl4&t=25s");
 
             URL_Add("meat and potatoes", "https://en.wiktionary.org/wiki/meat_and_potatoes#Noun");
+
+            URL_Add("magnetic", "https://en.wiktionary.org/wiki/magnetic#Adjective");
+
+            URL_Add("nonmagnetic", "https://en.wiktionary.org/wiki/nonmagnetic#Adjective");
+
+            URL_Add("magnetism", "https://en.wikipedia.org/wiki/Magnetism");
+
+            URL_Add("magnetic field", "https://en.wikipedia.org/wiki/Magnetic_field");
+
+            URL_Add("magnetic resonance imaging", "https://en.wikipedia.org/wiki/Magnetic_resonance_imaging");
+
+            URL_Add("magnetometer", "https://en.wikipedia.org/wiki/Magnetometer");
+
+            URL_Add("magnetostatic", "https://en.wiktionary.org/wiki/magnetostatic#Adjective");
+
+            URL_Add("tunnel magnetoresistance", "https://en.wikipedia.org/wiki/Tunnel_magnetoresistance");
+
+            URL_Add("permeability", "https://en.wikipedia.org/wiki/Permeability_(electromagnetism)");
+
+            URL_Add("transverse electromagnetic", "https://en.wikipedia.org/wiki/Transverse_mode#Waveguides_2");
+
+            URL_Add("magnetic tape", "https://en.wikipedia.org/wiki/Magnetic-tape_data_storage");
+
+            URL_Add("electromagnetic compatibility", "https://en.wikipedia.org/wiki/Electromagnetic_compatibility");
+
+            URL_Add("ferrite", "https://en.wikipedia.org/wiki/Ferrite_%28magnet%29");
+
+            URL_Add("EMI", "https://en.wikipedia.org/wiki/Electromagnetic_interference");
+
+            URL_Add("NMR", "https://en.wikipedia.org/wiki/Nuclear_magnetic_resonance#Medicine");
+
+            URL_Add("electromagnetism", "https://en.wiktionary.org/wiki/electromagnetism#Noun");
+
+            URL_Add("electromagnetic", "https://en.wiktionary.org/wiki/electromagnetic#Adjective");
+
+            URL_Add("electromagnetic wave", "https://en.wikipedia.org/wiki/Electromagnetic_radiation");
+
+            URL_Add("electromagnetic field", "https://en.wikipedia.org/wiki/Electromagnetic_field");
+
+            URL_Add("electromagnetic radiation", "https://en.wikipedia.org/wiki/Electromagnetic_radiation");
+
+            URL_Add("CMR", "https://en.wikipedia.org/wiki/Perpendicular_recording");
+
+            URL_Add("SMR", "https://en.wikipedia.org/wiki/Shingled_magnetic_recording");
+
+            URL_Add("Rectangle", "https://www.reddit.com/r/mac/comments/fjmlgo/try_rectangle_before_buying_magnet/");
+
+            URL_Add("Magnet", "https://www.howtogeek.com/892556/the-magnet-app-brings-my-favorite-windows-feature-to-mac/");
+
+            URL_Add("electric", "https://en.wiktionary.org/wiki/electric#Adjective");
+
+            URL_Add("electrostatic", "https://en.wikipedia.org/wiki/Electrostatics");
+
+            URL_Add("coulomb", "https://en.wikipedia.org/wiki/Coulomb");
+
+            URL_Add("Coulomb's law", "https://en.wikipedia.org/wiki/Coulomb%27s_law");
+
+            URL_Add("rigid body", "https://en.wiktionary.org/wiki/rigid_body#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -154133,6 +154166,8 @@ namespace OverflowHelper.core
 
             correctionAdd("fair_", "far_");
             correctionAdd("fall_", "far_"); // An autocorrect "masterpiece"?
+
+            correctionAdd("falled_", "fell_");
 
             // An Indianism (possibly a direct translation of a word
             // from the native language). Though also observed by
@@ -167553,8 +167588,6 @@ namespace OverflowHelper.core
 
             URL_Add("MongoDB Atlas_", "https://en.wikipedia.org/wiki/MongoDB#MongoDB_Atlas");
 
-            URL_Add("far_", "https://en.wiktionary.org/wiki/far#Adverb");
-
             URL_Add("complaint_", "https://en.wiktionary.org/wiki/complaint#Noun");
 
             URL_Add("complains_", "https://en.wiktionary.org/wiki/complain#Verb");
@@ -168103,11 +168136,15 @@ namespace OverflowHelper.core
 
             URL_Add("follow up_", "https://en.wiktionary.org/wiki/follow_up#Verb");
 
+            URL_Add("far_", "https://en.wiktionary.org/wiki/far#Adverb");
+
+            URL_Add("fell_", "https://en.wiktionary.org/wiki/fall#Noun");
+
             URL_Add("fall back_", "https://en.wiktionary.org/wiki/fall_back#Verb");
 
-            URL_Add("downfall_", "https://en.wiktionary.org/wiki/downfall#Noun");
-
             URL_Add("falling into a trap_", "https://en.wiktionary.org/wiki/fall_into_a_trap#Verb");
+
+            URL_Add("downfall_", "https://en.wiktionary.org/wiki/downfall#Noun");
 
             URL_Add("Warren Buffett_", "https://en.wikipedia.org/wiki/Warren_Buffett");
 
@@ -175391,8 +175428,6 @@ namespace OverflowHelper.core
 
             URL_Add("input method editor__", "https://en.wikipedia.org/wiki/Input_method");
 
-            URL_Add("fall__", "https://en.wiktionary.org/wiki/fall#Noun");
-
             URL_Add("keyboard modifier key__", "https://en.wikipedia.org/wiki/Modifier_key");
 
             URL_Add("keyboard modifier keys__", "https://en.wikipedia.org/wiki/Modifier_key");
@@ -175842,6 +175877,8 @@ namespace OverflowHelper.core
             URL_Add("Stack&nbsp;Exchange__", "https://policies.stackoverflow.co/company/trademark-guidance/#h1-2de2438a74fa0"); // Old: https://en.wikipedia.org/wiki/Stack_Exchange. Old: https://en.wikipedia.org/wiki/Stack_Exchange_Network. Old: https://meta.stackexchange.com/legal/trademark-guidance
 
             URL_Add("Processing.js__", "https://en.wikipedia.org/wiki/Processing#Processing.js");
+
+            URL_Add("fall__", "https://en.wiktionary.org/wiki/fall#Noun");
 
         } //addLookupData_alternativeWordSet2()
 
@@ -181546,7 +181583,8 @@ namespace OverflowHelper.core
             correctionAdd("gis_____", "is_____"); // Typo with exchange with space for a preceeding word
             correctionAdd("ish_____", "is_____");
             correctionAdd("ise_____", "is_____");
-            correctionAdd("ist_____", "is_____");
+            correctionAdd("ist_____", "is_____"); // Probably German (e.g., by autocorrect)
+            correctionAdd("Ist_____", "is_____"); // Probably German (e.g., by autocorrect)
             correctionAdd("uis_____", "is_____");
             correctionAdd("iss_____", "is_____");
             correctionAdd("si_____", "is_____"); // A true typo
