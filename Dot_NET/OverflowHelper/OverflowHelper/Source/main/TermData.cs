@@ -1789,6 +1789,8 @@ namespace OverflowHelper.core
             correctionAdd("prostituted", "prosecuted");
             correctionAdd("procecuted", "prosecuted");
 
+            correctionAdd("datatable", "data table");
+
             correctionAdd("excecute", "execute");
             correctionAdd("exectute", "execute");
             correctionAdd("execture", "execute");
@@ -6087,6 +6089,7 @@ namespace OverflowHelper.core
             correctionAdd("thumb", "USB flash drive");
 
             // USB flash drive manufacturer
+            correctionAdd("San Disk", "SanDisk");
             correctionAdd("Sandisk", "SanDisk");
             correctionAdd("sandisk", "SanDisk");
 
@@ -10526,7 +10529,7 @@ namespace OverflowHelper.core
             correctionAdd("SOfT", "Stack Overflow for Teams");
             correctionAdd("SOFT", "Stack Overflow for Teams");
             correctionAdd("SoFT", "Stack Overflow for Teams");
-            correctionAdd("SI", "Stack Overflow for Teams");
+            correctionAdd("SI", "Stack Overflow for Teams"); // The abbr. for Stack Internal
 
             // Alternative URLs:
             //
@@ -22776,10 +22779,10 @@ namespace OverflowHelper.core
             correctionAdd("ip camera", "IP&nbsp;camera");
             correctionAdd("ipcamera", "IP&nbsp;camera");
 
+            correctionAdd("ipsect", "IPsec");
             correctionAdd("ipsec", "IPsec");
             correctionAdd("IPSEC", "IPsec");
             correctionAdd("IPSec", "IPsec");
-            correctionAdd("ipsect", "IPsec");
 
             // A network protocol
             correctionAdd("Point-to-Point Protocol", "PPP");
@@ -27528,6 +27531,9 @@ namespace OverflowHelper.core
 
             correctionAdd("opera mini", "Opera Mini");
 
+            // A file (for the 'ftp' command-line program?)
+            correctionAdd("netrc", ".netrc");
+
             // A web browser
             //
             // Note: "Internet" is in an alternative word set
@@ -29290,6 +29296,16 @@ namespace OverflowHelper.core
             correctionAdd("vuex", "Vuex");
             correctionAdd("VUEX", "Vuex");
 
+            // JavaScript
+            correctionAdd("lazy.js", "Lazy.js");
+
+            // JavaScript
+            correctionAdd("d3.js", "D3.js");
+            correctionAdd("d3js", "D3.js");
+            correctionAdd("D3js", "D3.js");
+            correctionAdd("D3", "D3.js");
+            correctionAdd("d3", "D3.js");
+
             // A JavaScript library for vector graphics
             // mostly using SVG
             correctionAdd("Raphael JS", "Raphaël");
@@ -29304,6 +29320,7 @@ namespace OverflowHelper.core
             correctionAdd("rapaeljs", "Raphaël");
             correctionAdd("Raphael", "Raphaël");
             correctionAdd("raphael", "Raphaël");
+            correctionAdd("Rapahel", "Raphaël"); // A true typo (of misspelling 'Raphael')
 
             // A JavaScript library related to Three.js
             correctionAdd("drei", "Drei");
@@ -41882,6 +41899,11 @@ namespace OverflowHelper.core
             correctionAdd("mtproto", "MTProto");
 
             // Related to Telegram Messenger
+            //
+            // Alternative URLs:
+            //
+            //   <https://core.telegram.org/tdlib>
+            //
             correctionAdd("TdLib", "TDLib");
 
             // Python. Web.
@@ -50059,6 +50081,8 @@ namespace OverflowHelper.core
             correctionAdd("all your base are belong to us", "broken English");
             correctionAdd("are belong to us", "broken English");
             correctionAdd("belong to us", "broken English");
+
+            correctionAdd("meat & potatoes", "meat and potatoes");
 
             // Alternative URLs:
             //
@@ -71230,6 +71254,7 @@ namespace OverflowHelper.core
             // An electronics manufacturer, e.g. of smartphones
             correctionAdd("samsung", "Samsung");
             correctionAdd("Sumsung", "Samsung");
+            correctionAdd("smasung", "Samsung");
 
             correctionAdd("andrioid", "Android"); // Misspelling.
             correctionAdd("shitroid", "Android");
@@ -74258,6 +74283,8 @@ namespace OverflowHelper.core
             correctionAdd("Fatalism", "fatalism");
 
             correctionAdd("Sri lanka", "Sri Lanka");
+            correctionAdd("sri Lanka", "Sri Lanka");
+            correctionAdd("sri lanka", "Sri Lanka");
             correctionAdd("Srilanka", "Sri Lanka");
 
             correctionAdd("bangladesh", "Bangladesh");
@@ -78989,6 +79016,9 @@ namespace OverflowHelper.core
 
             // The noun
             correctionAdd("tranformation", "transformation");
+
+            correctionAdd("transfomations", "transformations");
+            correctionAdd("Transfomations", "transformations");
 
             correctionAdd("ridled", "riddled");
 
@@ -100770,12 +100800,6 @@ namespace OverflowHelper.core
             correctionAdd("decentralized finance", "DeFi");
             correctionAdd("defi", "DeFi");
 
-            correctionAdd("d3.js", "D3.js");
-            correctionAdd("d3js", "D3.js");
-            correctionAdd("D3js", "D3.js");
-            correctionAdd("D3", "D3.js");
-            correctionAdd("d3", "D3.js");
-
             correctionAdd("guarantieed", "guarantee"); // XXX, to avoid nearly duplicate entries.
             correctionAdd("guaranties", "guarantee"); // Plural, to avoid nearly duplicate entries.
             correctionAdd("guarenteed", "guarantee"); // Not 100% correct, tense.
@@ -103491,9 +103515,9 @@ namespace OverflowHelper.core
 
             correctionAdd("chauvanism", "chauvinism");
 
-            correctionAdd("complez", "complex");
             correctionAdd("complexe", "complex");
             correctionAdd("complext", "complex");
+            correctionAdd("complez", "complex");
 
             correctionAdd("mocha", "Mocha");
 
@@ -103549,11 +103573,11 @@ namespace OverflowHelper.core
             correctionAdd("chai", "Chai");
 
             correctionAdd("ECMAScript Module", "ECMAScript module");
+            correctionAdd("EcmaScript module", "ECMAScript module");
+            correctionAdd("ES Module", "ECMAScript module");
+            correctionAdd("ESModule", "ECMAScript module");
             correctionAdd("ESM", "ECMAScript module");
             correctionAdd("esm", "ECMAScript module");
-            correctionAdd("ES Module", "ECMAScript module");
-            correctionAdd("EcmaScript module", "ECMAScript module");
-            correctionAdd("ESModule", "ECMAScript module");
 
             correctionAdd("node-webkit", "NW.js");
 
@@ -103612,8 +103636,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Dlang", "D");
 
-            correctionAdd("Nesting", "nesting");
             correctionAdd("Neseting", "nesting");
+            correctionAdd("Nesting", "nesting");
 
             correctionAdd("microweber", "Microweber");
 
@@ -103694,10 +103718,10 @@ namespace OverflowHelper.core
 
             correctionAdd("fugittive", "fugitive");
 
-            correctionAdd("jouce", "juice");
-            correctionAdd("Juice", "juice");
             correctionAdd("Jouice", "juice");
             correctionAdd("jouice", "juice");
+            correctionAdd("jouce", "juice");
+            correctionAdd("Juice", "juice");
 
             correctionAdd("proxmox", "Proxmox");
             correctionAdd("promox", "Proxmox");
@@ -103748,23 +103772,23 @@ namespace OverflowHelper.core
 
             correctionAdd("grocerie store", "grocery store");
 
-            correctionAdd("memrise", "memorise");
             correctionAdd("memorize", "memorise");
             correctionAdd("momorize", "memorise");
+            correctionAdd("memrise", "memorise");
 
             correctionAdd("memoriam", "in memoriam");
 
             correctionAdd("spureous", "spurious");
-            correctionAdd("spurius", "spurious");
             correctionAdd("spuroius", "spurious");
+            correctionAdd("spurius", "spurious");
 
             correctionAdd("exim", "Exim");
 
             correctionAdd("GTK 3", "GTK&nbsp;3");
-            correctionAdd("gtk3", "GTK&nbsp;3");
             correctionAdd("gtk 3", "GTK&nbsp;3");
             correctionAdd("GTK-3", "GTK&nbsp;3");
             correctionAdd("gtk-3", "GTK&nbsp;3");
+            correctionAdd("gtk3", "GTK&nbsp;3");
 
             correctionAdd("EdXPosed", "EdXposed");
             correctionAdd("Edxposed", "EdXposed");
@@ -104015,10 +104039,10 @@ namespace OverflowHelper.core
             //
             //   <https://www.youtube.com/watch?v=z_BEJmY911s&t=16s>
             //
+            correctionAdd("dangeriuos", "dangerous");
             correctionAdd("dangarous", "dangerous");
             correctionAdd("dengerous", "dangerous");
             correctionAdd("dangrous", "dangerous");
-            correctionAdd("dangeriuos", "dangerous");
 
             correctionAdd("xsub", "XSUB");
 
@@ -104033,13 +104057,14 @@ namespace OverflowHelper.core
 
             correctionAdd("Quasi", "quasi");
 
-            correctionAdd("cess pool", "cesspool");
             correctionAdd("session pool", "cesspool");
+            correctionAdd("cess pool", "cesspool");
 
+            correctionAdd("durring", "during");
+            correctionAdd("Durring", "during");
             correctionAdd("durign", "during");
             correctionAdd("druing", "during");
             correctionAdd("durng", "during");
-            correctionAdd("durring", "during");
 
             correctionAdd("wizzard", "wizard");
 
@@ -104048,9 +104073,9 @@ namespace OverflowHelper.core
             correctionAdd("cp/m", "CP/M");
 
             correctionAdd("sinicism", "cynicism");
+            correctionAdd("cynisism", "cynicism");
             correctionAdd("cinism", "cynicism");
             correctionAdd("cynism", "cynicism");
-            correctionAdd("cynisism", "cynicism");
 
             correctionAdd("cynikal", "cynical");
 
@@ -123137,8 +123162,6 @@ namespace OverflowHelper.core
             URL_Add("Barbara Liskov", "https://en.wikipedia.org/wiki/Barbara_Liskov#Recognition_and_awards");
 
             URL_Add("self-regulating", "https://en.wiktionary.org/wiki/self-regulating#Adjective");
-
-            URL_Add("potatoh potahto", "https://www.youtube.com/watch?v=qRrw2hDjnl4&t=25s");
 
             URL_Add("float", "https://en.wiktionary.org/wiki/float#Noun");
 
@@ -142516,6 +142539,8 @@ namespace OverflowHelper.core
 
             URL_Add("transformation", "https://en.wiktionary.org/wiki/transformation#Noun");
 
+            URL_Add("transformations", "https://en.wiktionary.org/wiki/transformation#Noun");
+
             URL_Add("transformer", "https://en.wikipedia.org/wiki/Transformer");
 
             URL_Add("transfer", "https://en.wiktionary.org/wiki/transfer#Noun");
@@ -148935,6 +148960,16 @@ namespace OverflowHelper.core
             URL_Add("D3.js", "https://en.wikipedia.org/wiki/D3.js");
 
             URL_Add("Drei", "https://github.com/pmndrs/drei");
+
+            URL_Add(".netrc", "https://www.gnu.org/software/inetutils/manual/html_node/The-_002enetrc-file.html");
+
+            URL_Add("data table", "https://en.wiktionary.org/wiki/data_table#Noun");
+
+            URL_Add("Lazy.js", "https://danieltao.com/lazy.js/");
+
+            URL_Add("potatoh potahto", "https://www.youtube.com/watch?v=qRrw2hDjnl4&t=25s");
+
+            URL_Add("meat and potatoes", "https://en.wiktionary.org/wiki/meat_and_potatoes#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -170488,6 +170523,49 @@ namespace OverflowHelper.core
             // The edition of elementary OS (Linux)
             correctionAdd("juno__", "Juno__");
 
+            // JavaScript
+            correctionAdd("map__", "map()__");
+
+            // JavaScript allow/deny filtering
+            correctionAdd("JavaScript from__", "NoScript__");
+            correctionAdd("no script__", "NoScript__");
+            correctionAdd("noscript__", "NoScript__");
+            correctionAdd("Noscript__", "NoScript__");
+            correctionAdd("NS__", "NoScript__");
+
+            // JavaScript. A web library
+            correctionAdd("LIT__", "Lit__");
+            correctionAdd("lit__", "Lit__");
+
+            // JavaScript
+            correctionAdd("Twitter Bootstrap__", "Bootstrap__");
+            correctionAdd("twiiter bootstrap__", "Bootstrap__");
+            correctionAdd("bootstrap.css__", "Bootstrap__");
+            correctionAdd("bootstraps__", "Bootstrap__");
+            correctionAdd("bootstrap__", "Bootstrap__");
+            correctionAdd("BootStrap__", "Bootstrap__");
+            correctionAdd("BOOTSTRAP__", "Bootstrap__");
+            correctionAdd("bootstrep__", "Bootstrap__");
+            correctionAdd("Boostrap__", "Bootstrap__");
+            correctionAdd("boostrap__", "Bootstrap__");
+            correctionAdd("Bootsrap__", "Bootstrap__");
+            correctionAdd("BOOSTRAP__", "Bootstrap__");
+            correctionAdd("bootsrap__", "Bootstrap__");
+            correctionAdd("BootStap__", "Bootstrap__");
+            correctionAdd("BS__", "Bootstrap__");
+
+            // JavaScript
+            correctionAdd("narwhal__", "Narwhal__");
+
+            // A variant of Processing (for JavaScript)
+            //
+            // Alternative URLs:
+            //
+            //   <https://johnresig.com/blog/processingjs/>
+            //
+            correctionAdd("Process JS__", "Processing.js__");
+            correctionAdd("Processing__", "Processing.js__");
+
             // Originally a CJK-only feature.
             //
             // Alternative URLs:
@@ -172134,37 +172212,6 @@ namespace OverflowHelper.core
 
             // The verb
             correctionAdd("boose__", "boost__");
-
-            // JavaScript
-            correctionAdd("map__", "map()__");
-
-            // JavaScript allow/deny filtering
-            correctionAdd("JavaScript from__", "NoScript__");
-            correctionAdd("no script__", "NoScript__");
-            correctionAdd("noscript__", "NoScript__");
-            correctionAdd("Noscript__", "NoScript__");
-            correctionAdd("NS__", "NoScript__");
-
-            // JavaScript. A web library
-            correctionAdd("LIT__", "Lit__");
-            correctionAdd("lit__", "Lit__");
-
-            // JavaScript
-            correctionAdd("Twitter Bootstrap__", "Bootstrap__");
-            correctionAdd("twiiter bootstrap__", "Bootstrap__");
-            correctionAdd("bootstrap.css__", "Bootstrap__");
-            correctionAdd("bootstraps__", "Bootstrap__");
-            correctionAdd("bootstrap__", "Bootstrap__");
-            correctionAdd("BootStrap__", "Bootstrap__");
-            correctionAdd("BOOTSTRAP__", "Bootstrap__");
-            correctionAdd("bootstrep__", "Bootstrap__");
-            correctionAdd("Boostrap__", "Bootstrap__");
-            correctionAdd("boostrap__", "Bootstrap__");
-            correctionAdd("Bootsrap__", "Bootstrap__");
-            correctionAdd("BOOSTRAP__", "Bootstrap__");
-            correctionAdd("bootsrap__", "Bootstrap__");
-            correctionAdd("BootStap__", "Bootstrap__");
-            correctionAdd("BS__", "Bootstrap__");
 
             // The verb
             correctionAdd("workd__", "work__");
@@ -174257,9 +174304,6 @@ namespace OverflowHelper.core
             // For the reverse, to the abbr.
             correctionAdd("model–view–controller__", "MVC__");
 
-            // JavaScript
-            correctionAdd("narwhal__", "Narwhal__");
-
             // Not to be confused with MacBook Pro...
             correctionAdd("MacPro__", "Mac Pro__");
 
@@ -175775,6 +175819,8 @@ namespace OverflowHelper.core
             URL_Add("Stack Exchange Network__", "https://stackexchange.com/about");
 
             URL_Add("Stack&nbsp;Exchange__", "https://policies.stackoverflow.co/company/trademark-guidance/#h1-2de2438a74fa0"); // Old: https://en.wikipedia.org/wiki/Stack_Exchange. Old: https://en.wikipedia.org/wiki/Stack_Exchange_Network. Old: https://meta.stackexchange.com/legal/trademark-guidance
+
+            URL_Add("Processing.js__", "https://en.wikipedia.org/wiki/Processing#Processing.js");
 
         } //addLookupData_alternativeWordSet2()
 
