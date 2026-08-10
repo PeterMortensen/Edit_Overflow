@@ -7534,6 +7534,7 @@ namespace OverflowHelper.core
             correctionAdd("bitratre", "bitrate");
             correctionAdd("bit-rate", "bitrate");
             correctionAdd("Bitrate", "bitrate");
+            correctionAdd("butrate", "bitrate"); // A true typo
 
             correctionAdd("bit rates", "bitrates");
 
@@ -16603,6 +16604,7 @@ namespace OverflowHelper.core
             correctionAdd("liunx", "Linux");
             correctionAdd("Limux", "Linux");
             correctionAdd("limux", "Linux");
+            correctionAdd("Linx", "Linux");
             correctionAdd("Lnx", "Linux");
             correctionAdd("lin", "Linux");
             correctionAdd("Lin", "Linux");
@@ -23096,6 +23098,7 @@ namespace OverflowHelper.core
             correctionAdd("cpuld", "could"); // A true typo
             correctionAdd("Cpuld", "could"); // A true typo
             correctionAdd("coukd", "could"); // A true typo
+            correctionAdd("colud", "could"); // A true typo
             correctionAdd("coul", "could");
             correctionAdd("coud", "could");
             correctionAdd("Coul", "could");
@@ -27149,6 +27152,7 @@ namespace OverflowHelper.core
             //   <https://en.wikipedia.org/wiki/Path_(computing)>
             //
             correctionAdd("file path", "filepath");
+            correctionAdd("file-path", "filepath");
 
             correctionAdd("file paths", "filepaths");
 
@@ -50605,6 +50609,14 @@ namespace OverflowHelper.core
             correctionAdd("Image Processing", "image processing");
             correctionAdd("image-processing", "image processing");
 
+            // Related to image processing
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Homography>
+            //
+            correctionAdd("Homography", "homography");
+
             // A Python library
             // Note: "OpenCV" is in an alternative word set
             correctionAdd("OpenCV 2", "OpenCV&nbsp;2"); // Sort of identity mapping
@@ -70679,6 +70691,7 @@ namespace OverflowHelper.core
 
             correctionAdd("prepop", "prepopulate");
 
+            correctionAdd("prepouplated", "prepopulated"); // A true typo
             correctionAdd("prepoluated", "prepopulated");
             correctionAdd("prepoulated", "prepopulated");
 
@@ -106651,6 +106664,7 @@ namespace OverflowHelper.core
 
             correctionAdd("doh", "d'oh");
 
+            correctionAdd("Tadaa", "ta-da");
             correctionAdd("tadaa", "ta-da");
 
             // Some tracing thing. It is very unclear what
@@ -149066,6 +149080,8 @@ namespace OverflowHelper.core
 
             URL_Add("Dijkstra's algorithm", "https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm");
 
+            URL_Add("homography", "https://en.wiktionary.org/wiki/homography#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -158309,6 +158325,9 @@ namespace OverflowHelper.core
             // C, C++ and others.
             //
             // Alternative URLs:
+            //
+            //   <https://www.quora.com/What-are-some-bitter-truths-about-engineering-in-India/answer/Adhokshaj-Mishra>
+            //     "... the 'Let us C' by Yashvant Kanetkar. Total crap!!"
             //
             //   <https://www.quora.com/Why-should-I-use-GCC-and-Clang-over-Turbo-C/answer/Greg-Kemnitz>
             //     Why should I use GCC and Clang over Turbo C?
@@ -174431,6 +174450,7 @@ namespace OverflowHelper.core
 
             correctionAdd("home row__", "homerow__");
 
+            correctionAdd("O.G__", "Original Gangsta__"); // Should really be "O.G."
             correctionAdd("OG__", "Original Gangsta__");
 
             correctionAdd("moderationg__", "moderation__");
