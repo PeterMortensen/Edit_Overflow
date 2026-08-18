@@ -14800,6 +14800,10 @@ namespace OverflowHelper.core
 
             correctionAdd("non-portable", "nonportable");
 
+            // Windows
+            correctionAdd("portableapps.com", "PortableApps.com");
+            correctionAdd("portableapps", "PortableApps.com");
+
             correctionAdd("postrait", "portrait");
             correctionAdd("portrai", "portrait");
 
@@ -23089,6 +23093,7 @@ namespace OverflowHelper.core
             correctionAdd("Cannot", "cannot");
             correctionAdd("canot", "cannot");
             correctionAdd("annot", "cannot");
+            correctionAdd("cnnot", "cannot");
 
             correctionAdd("coulld", "could");
             correctionAdd("caould", "could");
@@ -29942,6 +29947,7 @@ namespace OverflowHelper.core
             correctionAdd("doublequote", "double quote");
             correctionAdd("doubleqoute", "double quote");
             correctionAdd("speech mark", "double quote");
+            correctionAdd("doube quote", "double quote");
             correctionAdd("\"", "double quote");
 
             correctionAdd("double-quotes", "double quotes");
@@ -40204,6 +40210,7 @@ namespace OverflowHelper.core
 
             correctionAdd("self contained", "self-contained");
             correctionAdd("Self Contained", "self-contained");
+            correctionAdd("Self contained", "self-contained");
 
             correctionAdd("cointainer", "container");
             correctionAdd("conatiner", "container");
@@ -49553,6 +49560,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Violet", "violet");
 
+            // Not a simple mix: RGB 255, 192, 203
+            //
             correctionAdd("Pink", "pink");
 
             // Additive: Red + green (blue out). Green + red (see
@@ -53031,6 +53040,7 @@ namespace OverflowHelper.core
             correctionAdd("emprisoned", "imprisoned");
 
             // Related to Stack Overflow / Stack Exchange
+            correctionAdd("the prisoner's dilemma", "prisoner's dilemma");
             correctionAdd("Prisoner's Dilemma", "prisoner's dilemma");
 
             // Related to Stack Overflow / Stack Exchange
@@ -63079,6 +63089,7 @@ namespace OverflowHelper.core
             correctionAdd("shine-trough", "shine-through keycaps");
             correctionAdd("shine trough", "shine-through keycaps");
             correctionAdd("shine-though", "shine-through keycaps");
+            correctionAdd("sine through", "shine-through keycaps");
             correctionAdd("see through", "shine-through keycaps");
             correctionAdd("See through", "shine-through keycaps");
             correctionAdd("transparent", "shine-through keycaps");
@@ -70425,6 +70436,8 @@ namespace OverflowHelper.core
             correctionAdd("Rationale", "rationale");
             correctionAdd("rational", "rationale");
 
+            correctionAdd("inop", "inoperable");
+
             correctionAdd("in-operational", "inoperational");
             correctionAdd("unoperational", "inoperational");
 
@@ -75893,6 +75906,8 @@ namespace OverflowHelper.core
 
             correctionAdd("promptforcredential", "PromptForCredential");
 
+            correctionAdd("Command Interpreter", "command interpreter");
+
             correctionAdd("commanad line", "command line");
             correctionAdd("commande line", "command line");
             correctionAdd("command-line", "command line");
@@ -76189,6 +76204,8 @@ namespace OverflowHelper.core
             correctionAdd("Carple Tunnel", "carpal tunnel syndrome");
             correctionAdd("carpal tunbel", "carpal tunnel syndrome");
             correctionAdd("karpal tunels", "carpal tunnel syndrome");
+            correctionAdd("carpa tunnel", "carpal tunnel syndrome");
+            correctionAdd("carpatunnel", "carpal tunnel syndrome");
             correctionAdd("cts", "carpal tunnel syndrome");
             correctionAdd("CTS", "carpal tunnel syndrome");
             correctionAdd("CT", "carpal tunnel syndrome");
@@ -89678,6 +89695,17 @@ namespace OverflowHelper.core
             correctionAdd("Keychron V5 Ultra 8K", "Keychron&nbsp;V5&nbsp;Ultra&nbsp;8K"); // Sort of identity mapping
             correctionAdd("V5 Ultra 8K", "Keychron&nbsp;V5&nbsp;Ultra&nbsp;8K");
 
+            // A 98-key (95%. Not true TKL) crippled (wrt. missing
+            // PgUp and PgDn, etc.) wired-only QMK/Via-capable
+            // mechanical keyboard from Keychron with a knob.
+            //
+            // Not to be confused with V5 Ultra 8K...
+            //
+            correctionAdd("Keychron&nbsp;V5&nbsp;8K", "Keychron&nbsp;V5&nbsp;8K (95%)");
+            correctionAdd("Keychron V5 8K (95%)", "Keychron&nbsp;V5&nbsp;8K (95%)"); // Sort of identity mapping
+            correctionAdd("Keychron V5 8K", "Keychron&nbsp;V5&nbsp;8K (95%)");
+            correctionAdd("V5 8K", "Keychron&nbsp;V5&nbsp;8K (95%)");
+
             // A 99-key (95%. Not true TKL) crippled wired-only
             // QMK/Via-capable mechanical keyboard from Keychron
             // without a knob.
@@ -90494,6 +90522,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("Keychron Q5 Ultra 8K", "Keychron&nbsp;Q5&nbsp;Ultra&nbsp;8K"); // Sort of identity mapping
             correctionAdd("Q5 Ultra 8K", "Keychron&nbsp;Q5&nbsp;Ultra&nbsp;8K");
+            correctionAdd("q5 ultra 8k", "Keychron&nbsp;Q5&nbsp;Ultra&nbsp;8K");
             correctionAdd("Q5 Ultra", "Keychron&nbsp;Q5&nbsp;Ultra&nbsp;8K");
             correctionAdd("q5 ultra", "Keychron&nbsp;Q5&nbsp;Ultra&nbsp;8K");
 
@@ -92711,6 +92740,15 @@ namespace OverflowHelper.core
             correctionAdd("Ultras", "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K");
             correctionAdd("Ultra", "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K");
             correctionAdd("ultra", "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K");
+
+            // A 109-key (105%. Not true TKL) full-size wired-only
+            // QMK/Via-capable mechanical keyboard from Keychron
+            // with a knob.
+            //
+            correctionAdd("Keychron&nbsp;V6&nbsp;8K", "Keychron&nbsp;V6&nbsp;8K (105%)");
+            correctionAdd("Keychron V6 8K (105%)", "Keychron&nbsp;V6&nbsp;8K (105%)"); // Sort of identity mapping
+            correctionAdd("Keychron V6 8K", "Keychron&nbsp;V6&nbsp;8K (105%)");
+            correctionAdd("V6 8K", "Keychron&nbsp;V6&nbsp;8K (105%)");
 
             // A 109-key (105%. Not true TKL) full-size low-profile
             // wired and wireless (only Bluetooth) QMK/Via-capable
@@ -96818,6 +96856,14 @@ namespace OverflowHelper.core
 
             correctionAdd("JMF", "Java Media Framework");
             correctionAdd("jmf", "Java Media Framework");
+
+            // Java
+            //
+            // Alternative URLs:
+            //
+            //   <https://docs.oracle.com/en/java/javase/24/docs/api/java.desktop/javax/swing/JFrame.html>
+            //
+            correctionAdd("jframe", "JFrame");
 
             // A Java library
             correctionAdd("okio", "Okio");
@@ -101315,6 +101361,7 @@ namespace OverflowHelper.core
             correctionAdd("constistent", "consistent");
             correctionAdd("consistant", "consistent");
 
+            correctionAdd("consistencty", "consistency");
             correctionAdd("consistancy", "consistency");
             correctionAdd("considtency", "consistency"); // A true typo
 
@@ -127978,7 +128025,7 @@ namespace OverflowHelper.core
 
             URL_Add("openpyxl", "https://openpyxl.readthedocs.io/en/stable/");
 
-            URL_Add("open drain", "https://en.wikipedia.org/wiki/Open_collector");
+            URL_Add("open drain", "https://en.wikipedia.org/wiki/Open_collector#Open_drain");
 
             URL_Add("open-source intelligence", "https://en.wikipedia.org/wiki/Open-source_intelligence");
 
@@ -139289,50 +139336,6 @@ namespace OverflowHelper.core
 
             URL_Add("extreme ultraviolet radiation", "https://en.wikipedia.org/wiki/Extreme_ultraviolet");
 
-            URL_Add("pinky", "https://en.wiktionary.org/wiki/pinky#Noun_2");
-
-            URL_Add("yellow fever", "https://en.wikipedia.org/wiki/Yellow_fever");
-
-            URL_Add("Quinoline Yellow SS", "https://en.wikipedia.org/wiki/Quinoline_Yellow_SS");
-
-            URL_Add("Gray code", "https://en.wikipedia.org/wiki/Gray_code");
-
-            URL_Add("grayed out", "https://en.wiktionary.org/wiki/grayed_out#Adjective");
-
-            URL_Add("graybeard", "https://en.wiktionary.org/wiki/graybeard#Noun");
-
-            URL_Add("grayscale", "https://en.wiktionary.org/wiki/grayscale#Noun");
-
-            URL_Add("scaling", "https://en.wiktionary.org/wiki/scaling#Verb");
-
-            URL_Add("scalable", "https://en.wiktionary.org/wiki/scalable#Adjective");
-
-            URL_Add("rescale", "https://en.wiktionary.org/wiki/rescale#Verb");
-
-            URL_Add("autoscaling", "https://en.wiktionary.org/wiki/autoscaling#Noun");
-
-            URL_Add("small-scale", "https://en.wiktionary.org/wiki/small-scale#Adjective");
-
-            URL_Add("large-scale", "https://en.wiktionary.org/wiki/large-scale#Adjective");
-
-            URL_Add("time scale", "https://en.wiktionary.org/wiki/time_scale#Noun");
-
-            URL_Add("long scale", "https://en.wikipedia.org/wiki/Long_and_short_scales");
-
-            URL_Add("prescaler", "https://en.wiktionary.org/wiki/prescaler#Noun");
-
-            URL_Add("prescalers", "https://en.wiktionary.org/wiki/prescaler#Noun");
-
-            URL_Add("payscale", "https://en.wiktionary.org/wiki/payscale#Noun");
-
-            URL_Add("Richter scale", "https://en.wikipedia.org/wiki/Richter_magnitude_scale");
-
-            URL_Add("scaled agile framework", "https://en.wikipedia.org/wiki/Scaled_agile_framework");
-
-            URL_Add("Freescale", "https://en.wikipedia.org/wiki/Freescale_Semiconductor");
-
-            URL_Add("Tailscale", "https://wiki.archlinux.org/title/Tailscale");
-
             URL_Add("escalate", "https://en.wiktionary.org/wiki/escalate#Verb");
 
             URL_Add("escalation", "https://en.wiktionary.org/wiki/escalation#Noun");
@@ -144596,6 +144599,10 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;V1&nbsp;8K", "https://www.keychron.com/products/keychron-v1-8k-qmk-wired-custom-mechanical-keyboard");
 
+            URL_Add("Keychron&nbsp;V5&nbsp;8K (95%)", "https://www.keychron.com/products/keychron-v5-8k-qmk-wired-custom-mechanical-keyboard");
+
+            URL_Add("Keychron&nbsp;V6&nbsp;8K (105%)", "https://www.keychron.com/products/keychron-v6-8k-qmk-wired-custom-mechanical-keyboard");
+
             URL_Add("Keychron&nbsp;R5", "https://www.keychron.com/pages/keychron-r5-user-manual");
 
             URL_Add("Cooler Master support", "https://www.reddit.com/r/coolermaster/comments/132twvn/warranty_check/");
@@ -145590,6 +145597,8 @@ namespace OverflowHelper.core
 
             URL_Add("Kailh", "https://en.wikipedia.org/wiki/List_of_keyboard_switches");
 
+            URL_Add("Gateron Pink switches", "https://dailyclack.com/products/gateron-pink");
+
             URL_Add("Gateron Baby Kangaroo switches", "https://www.reddit.com/r/Keychron/comments/131jyf5/keychron_k_pro_brown_vs_banana_vs_gateron_baby/");
 
             URL_Add("Gateron Blue Cap switches", "https://www.gateron.co/blogs/news/a-detailed-review-of-the-gateron-cap-blue-and-cap-brown-switches");
@@ -145617,8 +145626,6 @@ namespace OverflowHelper.core
             URL_Add("Gateron Oil King switches", "https://digiva.net/gateron-switch-guide#Gateron_New_Switches");
 
             URL_Add("Gateron Red switches", "https://en.wikipedia.org/wiki/List_of_keyboard_switches");
-
-            URL_Add("Gateron Pink switches", "https://dailyclack.com/products/gateron-pink");
 
             URL_Add("Gateron G Pro Yellow switches", "https://www.gateron.co/products/gateron-switch-set?variant=40017397514329");
 
@@ -146622,7 +146629,11 @@ namespace OverflowHelper.core
 
             URL_Add("pink", "https://en.wikipedia.org/wiki/Pink");
 
+            URL_Add("pinky", "https://en.wiktionary.org/wiki/pinky#Noun_2");
+
             URL_Add("yellow", "https://en.wiktionary.org/wiki/yellow#Adjective");
+
+            URL_Add("yellow fever", "https://en.wikipedia.org/wiki/Yellow_fever");
 
             URL_Add("coral", "https://en.wikipedia.org/wiki/Coral_(color)");
 
@@ -146665,6 +146676,46 @@ namespace OverflowHelper.core
             URL_Add("Redmine", "https://en.wikipedia.org/wiki/Redmine");
 
             URL_Add("Redgate Software", "https://en.wikipedia.org/wiki/Redgate"); // Old: https://en.wikipedia.org/wiki/Red_Gate_Software
+
+            URL_Add("Quinoline Yellow SS", "https://en.wikipedia.org/wiki/Quinoline_Yellow_SS");
+
+            URL_Add("Gray code", "https://en.wikipedia.org/wiki/Gray_code");
+
+            URL_Add("grayed out", "https://en.wiktionary.org/wiki/grayed_out#Adjective");
+
+            URL_Add("graybeard", "https://en.wiktionary.org/wiki/graybeard#Noun");
+
+            URL_Add("grayscale", "https://en.wiktionary.org/wiki/grayscale#Noun");
+
+            URL_Add("scaling", "https://en.wiktionary.org/wiki/scaling#Verb");
+
+            URL_Add("scalable", "https://en.wiktionary.org/wiki/scalable#Adjective");
+
+            URL_Add("rescale", "https://en.wiktionary.org/wiki/rescale#Verb");
+
+            URL_Add("autoscaling", "https://en.wiktionary.org/wiki/autoscaling#Noun");
+
+            URL_Add("small-scale", "https://en.wiktionary.org/wiki/small-scale#Adjective");
+
+            URL_Add("large-scale", "https://en.wiktionary.org/wiki/large-scale#Adjective");
+
+            URL_Add("time scale", "https://en.wiktionary.org/wiki/time_scale#Noun");
+
+            URL_Add("long scale", "https://en.wikipedia.org/wiki/Long_and_short_scales");
+
+            URL_Add("prescaler", "https://en.wiktionary.org/wiki/prescaler#Noun");
+
+            URL_Add("prescalers", "https://en.wiktionary.org/wiki/prescaler#Noun");
+
+            URL_Add("payscale", "https://en.wiktionary.org/wiki/payscale#Noun");
+
+            URL_Add("Richter scale", "https://en.wikipedia.org/wiki/Richter_magnitude_scale");
+
+            URL_Add("scaled agile framework", "https://en.wikipedia.org/wiki/Scaled_agile_framework");
+
+            URL_Add("Freescale", "https://en.wikipedia.org/wiki/Freescale_Semiconductor");
+
+            URL_Add("Tailscale", "https://wiki.archlinux.org/title/Tailscale");
 
             URL_Add("redesign", "https://en.wiktionary.org/wiki/redesign#Verb");
 
@@ -149082,6 +149133,14 @@ namespace OverflowHelper.core
 
             URL_Add("homography", "https://en.wiktionary.org/wiki/homography#Noun");
 
+            URL_Add("command interpreter", "https://en.wikipedia.org/wiki/Command-line_interface#Command-line_interpreter");
+
+            URL_Add("inoperable", "https://en.wiktionary.org/wiki/inoperable#Adjective");
+
+            URL_Add("JFrame", "https://docs.oracle.com/en/java/javase/24/docs/api/java.desktop/javax/swing/JFrame.html");
+
+            URL_Add("PortableApps.com", "https://en.wikipedia.org/wiki/PortableApps.com");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -150440,6 +150499,7 @@ namespace OverflowHelper.core
             //     Or is it really Vim??
             //
             correctionAdd("EX_", "ex_");
+            correctionAdd("Ex_", "ex_");
 
             // gedit in disguise (on Ubuntu)
             correctionAdd("text editor_", "Text Editor_");
@@ -154443,6 +154503,7 @@ namespace OverflowHelper.core
             correctionAdd("thanks ahead of time_", "thanks in advance_");
             correctionAdd("thanks for your help_", "thanks in advance_");
             correctionAdd("Thank you in advance_", "thanks in advance_");
+            correctionAdd("thank you in advance_", "thanks in advance_");
             correctionAdd("Thank u in adavnce_", "thanks in advance_");
             correctionAdd("thanks in adavnce_", "thanks in advance_");
             correctionAdd("Thanks beforehand_", "thanks in advance_");
@@ -154457,6 +154518,7 @@ namespace OverflowHelper.core
             correctionAdd("Thanks in advice_", "thanks in advance_");
             correctionAdd("thanks in advice_", "thanks in advance_");
             correctionAdd("Thx in advance_", "thanks in advance_");
+            correctionAdd("ty in advance_", "thanks in advance_");
             correctionAdd("T.I.A_", "thanks in advance_");
             correctionAdd("TYIA_", "thanks in advance_");
             correctionAdd("Tyia_", "thanks in advance_");
@@ -155775,6 +155837,8 @@ namespace OverflowHelper.core
             correctionAdd("voyager_", "ZSA Voyager_");
             correctionAdd("Vogayer_", "ZSA Voyager_");
             correctionAdd("Voyage_", "ZSA Voyager_");
+            correctionAdd("V'GER_", "ZSA Voyager_");
+            correctionAdd("v'ger_", "ZSA Voyager_");
 
             // A 65-key (60%. Not true TKL) crippled split ergonomic
             // mechanical keyboard from Dygma Lab.
@@ -155974,6 +156038,7 @@ namespace OverflowHelper.core
             correctionAdd("Erogodox EZ_", "ErgoDox EZ_"); // Several typos
             correctionAdd("ergodox ez_", "ErgoDox EZ_");
             correctionAdd("Ergodox EZ_", "ErgoDox EZ_");
+            correctionAdd("ergodox-ez_", "ErgoDox EZ_");
             correctionAdd("ErgodoxEZ_", "ErgoDox EZ_");
             correctionAdd("Ergo Dox_", "ErgoDox EZ_");
             correctionAdd("Erogodox_", "ErgoDox EZ_"); // Several typos
@@ -163370,6 +163435,7 @@ namespace OverflowHelper.core
 
             correctionAdd("implemente_", "implement_");
             correctionAdd("implemennt_", "implement_");
+            correctionAdd("imaplement_", "implement_");
             correctionAdd("impliment_", "implement_");
             correctionAdd("Impliment_", "implement_");
             correctionAdd("implament_", "implement_");
@@ -174705,6 +174771,10 @@ namespace OverflowHelper.core
             correctionAdd("Tfs__", "Team Foundation Server__");
             correctionAdd("TF__", "Team Foundation Server__");
 
+            // The unit for frame rate
+            correctionAdd("frames per second__", "FPS__");
+            correctionAdd("fps__", "FPS__");
+
             // A book. For the reverse
             //
             // We need a better reference...
@@ -175941,6 +176011,8 @@ namespace OverflowHelper.core
             URL_Add("fall__", "https://en.wiktionary.org/wiki/fall#Noun");
 
             URL_Add("short__", "https://en.wiktionary.org/wiki/short#Verb");
+
+            URL_Add("FPS__", "https://en.wiktionary.org/wiki/FPS#Noun");
 
         } //addLookupData_alternativeWordSet2()
 
@@ -177983,6 +178055,8 @@ namespace OverflowHelper.core
             correctionAdd("Micorsof___", "Microsoft___");
             correctionAdd("M-Soft___", "Microsoft___");
             correctionAdd("msoft___", "Microsoft___");
+            correctionAdd("μSoft___", "Microsoft___");
+            correctionAdd("μsoft___", "Microsoft___");
             correctionAdd("MSFT___", "Microsoft___");
             correctionAdd("m$___", "Microsoft___");
             correctionAdd("M$___", "Microsoft___");
