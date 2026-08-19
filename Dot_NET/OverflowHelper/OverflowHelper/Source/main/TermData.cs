@@ -1632,6 +1632,7 @@ namespace OverflowHelper.core
             correctionAdd("dependcy", "dependency");
             correctionAdd("dep", "dependency");
 
+            correctionAdd("dependendencies", "dependencies");
             correctionAdd("dependancies", "dependencies"); // Common misspelling... Not 100% correct. Plural...
             correctionAdd("Dependancies", "dependencies");
             correctionAdd("dependency's", "dependencies");
@@ -1809,6 +1810,7 @@ namespace OverflowHelper.core
             correctionAdd("excute", "execute");
             correctionAdd("Excute", "execute");
             correctionAdd("execte", "execute");
+            correctionAdd("exec", "execute");
 
             correctionAdd("exectures", "executes");
             correctionAdd("exectutes", "executes");
@@ -2817,9 +2819,11 @@ namespace OverflowHelper.core
 
             correctionAdd("Type Erasure", "type erasure");
 
+            // The noun
             correctionAdd("meassure", "measure");
             correctionAdd("measuer", "measure");
             correctionAdd("mesure", "measure");
+            correctionAdd("Mesure", "measure");
 
             correctionAdd("measurea", "measures");
             correctionAdd("meassurs", "measures");
@@ -8248,6 +8252,7 @@ namespace OverflowHelper.core
             //       is in an alternative word set...
             //
             correctionAdd("weeks", "&nbsp;weeks"); // Sort of identity mapping
+            correctionAdd("weaks", "&nbsp;weeks");
             correctionAdd("wks", "&nbsp;weeks");
 
             // A unit (of time)
@@ -16342,6 +16347,7 @@ namespace OverflowHelper.core
             // Linux
             correctionAdd("chroot jail", "chroot");
             correctionAdd("ch root", "chroot");
+            correctionAdd("Chroot", "chroot");
 
             // Linux / Unix / Bash
             //
@@ -17501,6 +17507,9 @@ namespace OverflowHelper.core
 
             // Linux / Unix
             correctionAdd("unlink", "unlink()");
+
+            // Linux / Unix
+            correctionAdd("Klist", "klist");
 
             correctionAdd("OpenBox", "Openbox");
             correctionAdd("openbox", "Openbox");
@@ -30224,6 +30233,8 @@ namespace OverflowHelper.core
 
             correctionAdd("OBJDUMP", "objdump");
 
+            correctionAdd("disgard", "discard");
+
             correctionAdd("dumpsterfire", "dumpster fire");
 
             correctionAdd("dumpfires", "dumpster fires");
@@ -31531,10 +31542,6 @@ namespace OverflowHelper.core
             correctionAdd("get-credential", "Get-Credential");
 
             // Of PowerShell...
-            correctionAdd("Measure-command", "Measure-Command");
-            correctionAdd("measure-command", "Measure-Command");
-
-            // Of PowerShell...
             correctionAdd("get-command", "Get-Command");
 
             // Of PowerShell...
@@ -31913,6 +31920,10 @@ namespace OverflowHelper.core
 
             // Windows / PowerShell
             correctionAdd("SCOM", "Microsoft System Center Operations Manager");
+
+            // Of PowerShell...
+            correctionAdd("Measure-command", "Measure-Command");
+            correctionAdd("measure-command", "Measure-Command");
 
             // .NET (e.g., used in PowerShell)
             correctionAdd("directoryinfo", "DirectoryInfo");
@@ -33299,6 +33310,7 @@ namespace OverflowHelper.core
             correctionAdd("corrctly", "correctly");
             correctionAdd("corretly", "correctly");
             correctionAdd("correcly", "correctly");
+            correctionAdd("corectly", "correctly");
 
             correctionAdd("correctnes", "correctness");
 
@@ -33716,6 +33728,7 @@ namespace OverflowHelper.core
             correctionAdd("command palette", "Command Palette");
             correctionAdd("Command Pallete", "Command Palette");
             correctionAdd("command Pallete", "Command Palette");
+            correctionAdd("Command pallete", "Command Palette");
             correctionAdd("command pallet", "Command Palette");
             correctionAdd("Command pallet", "Command Palette");
             correctionAdd("command palett", "Command Palette");
@@ -44427,8 +44440,10 @@ namespace OverflowHelper.core
             correctionAdd("OFDMA", "orthogonal frequency-division multiple access");
 
             correctionAdd("Chassis", "chassis");
+            correctionAdd("chasiss", "chassis");
             correctionAdd("chassi", "chassis");
             correctionAdd("chasse", "chassis");
+            correctionAdd("chasis", "chassis");
 
             correctionAdd("backblape", "backplane");
 
@@ -54095,6 +54110,7 @@ namespace OverflowHelper.core
             correctionAdd("evidense", "evidence");
 
             correctionAdd("anecdata", "anecdotal evidence");
+            correctionAdd("Anecdata", "anecdotal evidence");
 
             correctionAdd("effeciency", "efficiency");
             correctionAdd("efficency", "efficiency");
@@ -56907,8 +56923,6 @@ namespace OverflowHelper.core
             correctionAdd("Play list", "playlist");
             correctionAdd("play list", "playlist");
             correctionAdd("Playlist", "playlist");
-
-            correctionAdd("Klist", "klist");
 
             // The painting
             correctionAdd("mona lisa", "Mona Lisa");
@@ -66147,11 +66161,13 @@ namespace OverflowHelper.core
             //
             correctionAdd("Touch Typing", "touch typing");
             correctionAdd("Touch typing", "touch typing");
+            correctionAdd("blind typing", "touch typing");
 
             // The verb
             correctionAdd("touch type", "touch-type");
 
             correctionAdd("touch typist", "touch-typist");
+            correctionAdd("touch typer", "touch-typist");
             correctionAdd("typiest", "touch-typist");
             correctionAdd("typist", "touch-typist");
 
@@ -72451,6 +72467,7 @@ namespace OverflowHelper.core
 
             correctionAdd("abscence", "absence");
             correctionAdd("abscense", "absence");
+            correctionAdd("absennse", "absence");
             correctionAdd("Abcense", "absence");
             correctionAdd("abcense", "absence");
             correctionAdd("absense", "absence");
@@ -105218,8 +105235,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Cot Editor", "CotEditor");
 
-            correctionAdd("EXEC", "exec");
-
             correctionAdd("flame bait", "flamebait");
 
             correctionAdd("apro pos", "apropos");
@@ -110051,8 +110066,6 @@ namespace OverflowHelper.core
 
             URL_Add("case insensitive", "https://en.wiktionary.org/wiki/case_insensitive#Adjective");
 
-            URL_Add("then", "https://en.wiktionary.org/wiki/then#Adverb");
-
             URL_Add("trigger", "https://en.wiktionary.org/wiki/trigger#Verb");
 
             URL_Add("18th century", "https://en.wikipedia.org/wiki/18th_century");
@@ -111367,8 +111380,6 @@ namespace OverflowHelper.core
 
             URL_Add("critically", "https://en.wiktionary.org/wiki/critically#Adverb");
 
-            URL_Add("measure", "https://en.wiktionary.org/wiki/measure#Noun");
-
             URL_Add("misguiding", "https://en.wiktionary.org/wiki/misguide#Verb");
 
             URL_Add("virtuous", "https://en.wiktionary.org/wiki/virtuous#Adjective");
@@ -111572,8 +111583,6 @@ namespace OverflowHelper.core
             URL_Add("factory pattern", "https://en.wikipedia.org/wiki/Factory_method_pattern");
 
             URL_Add("flaky", "https://en.wiktionary.org/wiki/flaky#Adjective");
-
-            URL_Add("measurement", "https://en.wiktionary.org/wiki/measurement#Noun");
 
             URL_Add("one-shot", "https://en.wiktionary.org/wiki/one-shot#Verb");
 
@@ -120693,8 +120702,6 @@ namespace OverflowHelper.core
 
             URL_Add("indicates", "https://en.wiktionary.org/wiki/indicate#Verb");
 
-            URL_Add("measured", "https://en.wiktionary.org/wiki/measure#Verb");
-
             URL_Add("nonusage", "https://en.wiktionary.org/wiki/nonusage#Noun");
 
             URL_Add("office work", "https://en.wiktionary.org/wiki/office_work#Noun");
@@ -124602,8 +124609,6 @@ namespace OverflowHelper.core
             URL_Add("Any (Via)", "https://www.reddit.com/r/Keychron/comments/1f5fc8p/comment/lkupycu/");
 
             URL_Add("identifying", "https://en.wiktionary.org/wiki/identify#Verb");
-
-            URL_Add("measures", "https://en.wiktionary.org/wiki/measure#Noun");
 
             URL_Add("sluggish", "https://en.wiktionary.org/wiki/sluggish#Adjective");
 
@@ -131825,10 +131830,6 @@ namespace OverflowHelper.core
 
             URL_Add("apostrophes", "https://en.wiktionary.org/wiki/apostrophe#Noun");
 
-            URL_Add("job", "https://en.wiktionary.org/wiki/job#Noun");
-
-            URL_Add("job posting", "https://www.wikihow.com/Share-a-Job-Posting-on-LinkedIn");
-
             URL_Add("EPS", "https://en.wikipedia.org/wiki/Encapsulated_PostScript");
 
             URL_Add("NewsFlash", "https://jangernert.gitlab.io/blog/posts/news-flash/");
@@ -131974,8 +131975,6 @@ namespace OverflowHelper.core
             URL_Add("Boolean", "https://en.wiktionary.org/wiki/Boolean#Noun");
 
             URL_Add("Booleans", "https://en.wiktionary.org/wiki/Boolean#Noun");
-
-            URL_Add("affected", "https://www.wikihow.com/Use-Affect-and-Effect-Properly");
 
             URL_Add("nonlinear σ model", "https://en.wikipedia.org/wiki/Non-linear_sigma_model");
 
@@ -135953,6 +135952,8 @@ namespace OverflowHelper.core
 
             URL_Add("PostCSS", "https://en.wikipedia.org/wiki/PostCSS");
 
+            URL_Add("discard", "https://en.wiktionary.org/wiki/discard#Verb");
+
             URL_Add("dumpster fire", "https://en.wiktionary.org/wiki/dumpster_fire#Noun");
 
             URL_Add("dumpster fires", "https://en.wiktionary.org/wiki/dumpster_fire#Noun");
@@ -138843,8 +138844,6 @@ namespace OverflowHelper.core
 
             URL_Add("Compare-Object", "https://msdn.microsoft.com/en-us/powershell/reference/5.1/microsoft.powershell.utility/compare-object");
 
-            URL_Add("Measure-Command", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/Measure-Command");
-
             URL_Add("Get-Command", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Core/Get-Command");
 
             URL_Add("Add-Content", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/add-content"); // Old: http://technet.microsoft.com/en-us/library/hh849859.aspx
@@ -138934,6 +138933,8 @@ namespace OverflowHelper.core
             URL_Add("PowerShell Core", "https://en.wikipedia.org/wiki/PowerShell#PowerShell_Core_6.0");
 
             URL_Add("Group Policy Object", "https://en.wikipedia.org/wiki/Group_Policy#Operation"); // Alternative URL: http://searchwindowsserver.techtarget.com/definition/Group-Policy-Object (end of comment)
+
+            URL_Add("Measure-Command", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/Measure-Command");
 
             URL_Add("cmdlet", "https://en.wikipedia.org/wiki/PowerShell#Cmdlets"); // https://en.wikipedia.org/wiki/Windows_PowerShell#Cmdlets
 
@@ -139538,8 +139539,6 @@ namespace OverflowHelper.core
 
             URL_Add("xsel", "https://linux.die.net/man/1/xsel");
 
-            URL_Add("exec", "https://linux.die.net/man/1/exec");
-
             URL_Add("ssh-keygen", "https://linux.die.net/man/1/ssh-keygen");
 
             URL_Add("klist", "https://linux.die.net/man/1/klist");
@@ -139663,42 +139662,6 @@ namespace OverflowHelper.core
             URL_Add("according", "https://en.wiktionary.org/wiki/according#Adverb");
 
             URL_Add("accordingly", "https://en.wiktionary.org/wiki/accordingly#Adverb");
-
-            URL_Add("whose", "https://en.wiktionary.org/wiki/whose#Determiner"); // Old: https://en.wiktionary.org/wiki/who%27s#Contraction
-
-            URL_Add("your", "https://en.wiktionary.org/wiki/your#Determiner"); // Old: https://en.wiktionary.org/wiki/your
-
-            URL_Add("yours", "https://en.wiktionary.org/wiki/yours#Pronoun");
-
-            URL_Add("yourself", "https://en.wiktionary.org/wiki/yourself#Pronoun");
-
-            URL_Add("you’ll", "https://en.wiktionary.org/wiki/you%27ll#Contraction");
-
-            URL_Add("you’ve", "https://en.wiktionary.org/wiki/you%27ve#Contraction");
-
-            URL_Add("you’d", "https://en.wiktionary.org/wiki/you'd#Contraction");
-
-            URL_Add("you know", "https://en.wiktionary.org/wiki/you_know#Interjection");
-
-            URL_Add("you’re welcome", "https://en.wiktionary.org/wiki/you%27re_welcome#Phrase");
-
-            URL_Add("you betcha", "https://en.wiktionary.org/wiki/betcha#Contraction");
-
-            URL_Add("your wish is my command", "https://en.wiktionary.org/wiki/your_wish_is_my_command#Phrase");
-
-            URL_Add("YouTube", "https://en.wikipedia.org/wiki/YouTube");
-
-            URL_Add("YouTubers", "https://en.wiktionary.org/wiki/YouTuber#Noun");
-
-            URL_Add("youtube-dl", "https://en.wikipedia.org/wiki/Youtube-dl");
-
-            URL_Add("YouTube advertisements buster", "https://www.reddit.com/r/Keychron/comments/1ddj7l6/comment/l869942/");
-
-            URL_Add("Your Computer", "https://en.wikipedia.org/wiki/Your_Computer_(British_magazine)");
-
-            URL_Add("Young's modulus", "https://en.wikipedia.org/wiki/Young%27s_modulus");
-
-            URL_Add("YouTrack", "https://en.wikipedia.org/wiki/YouTrack");
 
             URL_Add("LQP", "https://meta.stackexchange.com/questions/40353/stack-exchange-glossary-dictionary-of-commonly-used-terms/40354#40354");
 
@@ -149140,6 +149103,58 @@ namespace OverflowHelper.core
             URL_Add("JFrame", "https://docs.oracle.com/en/java/javase/24/docs/api/java.desktop/javax/swing/JFrame.html");
 
             URL_Add("PortableApps.com", "https://en.wikipedia.org/wiki/PortableApps.com");
+
+            URL_Add("measure", "https://en.wiktionary.org/wiki/measure#Noun");
+
+            URL_Add("measured", "https://en.wiktionary.org/wiki/measure#Verb");
+
+            URL_Add("measures", "https://en.wiktionary.org/wiki/measure#Noun");
+
+            URL_Add("measurement", "https://en.wiktionary.org/wiki/measurement#Noun");
+
+            URL_Add("job", "https://en.wiktionary.org/wiki/job#Noun");
+
+            URL_Add("job posting", "https://www.wikihow.com/Share-a-Job-Posting-on-LinkedIn");
+
+            URL_Add("affected", "https://www.wikihow.com/Use-Affect-and-Effect-Properly");
+
+            URL_Add("whose", "https://en.wiktionary.org/wiki/whose#Determiner"); // Old: https://en.wiktionary.org/wiki/who%27s#Contraction
+
+            URL_Add("you’ll", "https://en.wiktionary.org/wiki/you%27ll#Contraction");
+
+            URL_Add("you’ve", "https://en.wiktionary.org/wiki/you%27ve#Contraction");
+
+            URL_Add("you’d", "https://en.wiktionary.org/wiki/you'd#Contraction");
+
+            URL_Add("you know", "https://en.wiktionary.org/wiki/you_know#Interjection");
+
+            URL_Add("you’re welcome", "https://en.wiktionary.org/wiki/you%27re_welcome#Phrase");
+
+            URL_Add("you betcha", "https://en.wiktionary.org/wiki/betcha#Contraction");
+
+            URL_Add("your wish is my command", "https://en.wiktionary.org/wiki/your_wish_is_my_command#Phrase");
+
+            URL_Add("YouTube", "https://en.wikipedia.org/wiki/YouTube");
+
+            URL_Add("YouTubers", "https://en.wiktionary.org/wiki/YouTuber#Noun");
+
+            URL_Add("youtube-dl", "https://en.wikipedia.org/wiki/Youtube-dl");
+
+            URL_Add("YouTube advertisements buster", "https://www.reddit.com/r/Keychron/comments/1ddj7l6/comment/l869942/");
+
+            URL_Add("Your Computer", "https://en.wikipedia.org/wiki/Your_Computer_(British_magazine)");
+
+            URL_Add("Young's modulus", "https://en.wikipedia.org/wiki/Young%27s_modulus");
+
+            URL_Add("YouTrack", "https://en.wikipedia.org/wiki/YouTrack");
+
+            URL_Add("your", "https://en.wiktionary.org/wiki/your#Determiner"); // Old: https://en.wiktionary.org/wiki/your
+
+            URL_Add("yours", "https://en.wiktionary.org/wiki/yours#Pronoun");
+
+            URL_Add("yourself", "https://en.wiktionary.org/wiki/yourself#Pronoun");
+
+            URL_Add("then", "https://en.wiktionary.org/wiki/then#Adverb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -159176,6 +159191,7 @@ namespace OverflowHelper.core
             correctionAdd("proly_", "probably_");
             correctionAdd("prob_", "probably_");
             correctionAdd("porb_", "probably_");
+            correctionAdd("prly_", "probably_");
             correctionAdd("pro_", "probably_");
             correctionAdd("prb_", "probably_");
 
@@ -159339,10 +159355,6 @@ namespace OverflowHelper.core
             correctionAdd("ISE_", "PowerShell ISE_");
 
             // Of PowerShell...
-            correctionAdd("measure-object_", "Measure-Object_");
-            correctionAdd("measure_", "Measure-Object_"); // A (standard) alias (corresponding to Unix)
-
-            // Of PowerShell...
             correctionAdd("group-object_", "Group-Object_");
             correctionAdd("group_", "Group-Object_"); // A (standard) alias (corresponding to Unix)
 
@@ -159365,6 +159377,10 @@ namespace OverflowHelper.core
             // Of PowerShell...
             correctionAdd("invoke-item_", "Invoke-Item_");
             correctionAdd("ii_", "Invoke-Item_"); // A (standard) alias (corresponding to Unix)
+
+            // Of PowerShell...
+            correctionAdd("measure-object_", "Measure-Object_");
+            correctionAdd("measure_", "Measure-Object_"); // A (standard) alias (corresponding to Unix)
 
             correctionAdd("amplif_", "amplifier_");
             correctionAdd("amp_", "amplifier_");
@@ -163355,6 +163371,7 @@ namespace OverflowHelper.core
 
             correctionAdd("responds_", "responses_");
 
+            correctionAdd("most simplest_", "simplest_");
             correctionAdd("most simple_", "simplest_");
             correctionAdd("Most simple_", "simplest_");
             correctionAdd("simpliest_", "simplest_");
@@ -165688,8 +165705,6 @@ namespace OverflowHelper.core
             URL_Add("large language model_", "https://en.wikipedia.org/wiki/Large_language_model");
 
             URL_Add("ice cream_", "https://en.wiktionary.org/wiki/ice_cream#Noun");
-
-            URL_Add("than_", "https://en.wiktionary.org/wiki/than#Conjunction");
 
             URL_Add("suite_", "https://en.wiktionary.org/wiki/suite#Noun");
 
@@ -168177,11 +168192,11 @@ namespace OverflowHelper.core
 
             URL_Add("Group-Object_", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/Group-Object"); // Old: http://technet.microsoft.com/en-us/library/hh849907.aspx
 
-            URL_Add("Measure-Object_", "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/measure-object"); // Old: <http://technet.microsoft.com/en-us/library/hh849965.aspx>
-
             URL_Add("Remove-Item_", "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/remove-item"); // Old: http://technet.microsoft.com/en-us/library/hh849765.aspx
 
             URL_Add("Invoke-Item_", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Management/Invoke-Item");
+
+            URL_Add("Measure-Object_", "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/measure-object"); // Old: <http://technet.microsoft.com/en-us/library/hh849965.aspx>
 
             URL_Add("PowerShell ISE_", "https://docs.microsoft.com/en-us/powershell/scripting/windows-powershell/ise/introducing-the-windows-powershell-ise"); // Old: https://technet.microsoft.com/en-us/library/dd315244.aspx
 
@@ -168512,8 +168527,6 @@ namespace OverflowHelper.core
             URL_Add("showed_", "https://en.wiktionary.org/wiki/show#Verb");
 
             URL_Add("SmokeDetector_", "https://stackoverflow.blog/2020/06/25/how-does-spam-protection-work-on-stack-exchange/");
-
-            URL_Add("a lot_", "https://www.wikihow.com/Tell-the-Difference-Between-Alot,-Allot-and-A-Lot");
 
             URL_Add("capable_", "https://en.wiktionary.org/wiki/capable#Adjective");
 
@@ -169815,6 +169828,10 @@ namespace OverflowHelper.core
 
             URL_Add("key combinations_", "https://en.wikipedia.org/wiki/Keyboard_shortcut");
 
+            URL_Add("a lot_", "https://www.wikihow.com/Tell-the-Difference-Between-Alot,-Allot-and-A-Lot");
+
+            URL_Add("than_", "https://en.wiktionary.org/wiki/than#Conjunction");
+
         } //addLookupData_alternativeWordSet()
 
 
@@ -170375,8 +170392,8 @@ namespace OverflowHelper.core
             correctionAdd("thet__", "that__");
             correctionAdd("thta__", "that__");
             correctionAdd("thai__", "that__");
-            correctionAdd("than__", "that__");
             correctionAdd("thay__", "that__");
+            correctionAdd("than__", "that__");
             correctionAdd("tat__", "that__");
             correctionAdd("zat__", "that__"); // Just silly
             correctionAdd("ðat__", "that__"); // Just silly
@@ -170511,24 +170528,8 @@ namespace OverflowHelper.core
             // Linux / Unix
             correctionAdd("DD__", "dd__"); // Not actual observed
 
-            // Linux / Ubuntu
-            //
-            // GNOME / GTK. Related: Zenity, 'dialog', and 'xmessage'
-            //
-            // We need a better reference (it requires both JavaScript
-            // and manually entering "notify-send")
-            //
-            // Alternative URLs:
-            //
-            //   <https://manned.org/notify-send>
-            //
-            correctionAdd("alert__", "notify-send__");
-
-            correctionAdd("dialog__", "dialogue__");
-
-            correctionAdd("enby__", "non-binary__");
-            correctionAdd("nb__", "non-binary__");
-            correctionAdd("NB__", "non-binary__");
+            // Linux / Unix
+            correctionAdd("EXEC__", "exec__");
 
             // E.g., binary (2), octal (8), decimal (10), and hexadecimal (16)
             correctionAdd("radix__", "base__");
@@ -170627,7 +170628,26 @@ namespace OverflowHelper.core
             // A C / C++ Standard Library function
             correctionAdd("exit__", "exit()__");
 
+            // Linux / Ubuntu
+            //
+            // GNOME / GTK. Related: Zenity, 'dialog', and 'xmessage'
+            //
+            // We need a better reference (it requires both JavaScript
+            // and manually entering "notify-send")
+            //
+            // Alternative URLs:
+            //
+            //   <https://manned.org/notify-send>
+            //
+            correctionAdd("alert__", "notify-send__");
+
             correctionAdd("main__", "main()__");
+
+            correctionAdd("dialog__", "dialogue__");
+
+            correctionAdd("enby__", "non-binary__");
+            correctionAdd("nb__", "non-binary__");
+            correctionAdd("NB__", "non-binary__");
 
             correctionAdd("iso image__", "ISO image__");
             correctionAdd("ISO-image__", "ISO image__");
@@ -174775,6 +174795,8 @@ namespace OverflowHelper.core
             correctionAdd("frames per second__", "FPS__");
             correctionAdd("fps__", "FPS__");
 
+            correctionAdd("Measure__", "measure__");
+
             // A book. For the reverse
             //
             // We need a better reference...
@@ -174825,8 +174847,6 @@ namespace OverflowHelper.core
             URL_Add("CIA__", "https://en.wikipedia.org/wiki/Central_Intelligence_Agency");
 
             URL_Add("Adobe XD__", "https://en.wikipedia.org/wiki/Adobe_XD");
-
-            URL_Add("them__", "https://en.wiktionary.org/wiki/them#Pronoun");
 
             URL_Add("OpenCV__", "https://en.wikipedia.org/wiki/OpenCV");
 
@@ -175307,18 +175327,6 @@ namespace OverflowHelper.core
             URL_Add("as__", "https://en.wiktionary.org/wiki/as#Conjunction");
 
             URL_Add("meta__", "https://en.wikipedia.org/wiki/Meta_element");
-
-            URL_Add("do__", "https://en.wiktionary.org/wiki/do#Verb");
-
-            URL_Add("have__", "https://en.wiktionary.org/wiki/have#Verb");
-
-            URL_Add("we’re__", "https://en.wiktionary.org/wiki/we're#Contraction");
-
-            URL_Add("they’re__", "https://en.wiktionary.org/wiki/they've#Contraction");
-
-            URL_Add("there__", "https://en.wiktionary.org/wiki/there#Pronoun");
-
-            URL_Add("you’re__", "https://www.wikihow.com/Use-You%27re-and-Your");
 
             URL_Add("Unity Application Block__", "https://en.wikipedia.org/wiki/Microsoft_Enterprise_Library#Version_5.0_Silverlight_Integration_Pack"); // Associated with chemical element 47. Old: http://unity.codeplex.com/
 
@@ -176013,6 +176021,24 @@ namespace OverflowHelper.core
             URL_Add("short__", "https://en.wiktionary.org/wiki/short#Verb");
 
             URL_Add("FPS__", "https://en.wiktionary.org/wiki/FPS#Noun");
+
+            URL_Add("exec__", "https://linux.die.net/man/1/exec");
+
+            URL_Add("them__", "https://en.wiktionary.org/wiki/them#Pronoun");
+
+            URL_Add("measure__", "https://en.wiktionary.org/wiki/measure#Verb");
+
+            URL_Add("do__", "https://en.wiktionary.org/wiki/do#Verb");
+
+            URL_Add("have__", "https://en.wiktionary.org/wiki/have#Verb");
+
+            URL_Add("we’re__", "https://en.wiktionary.org/wiki/we're#Contraction");
+
+            URL_Add("they’re__", "https://en.wiktionary.org/wiki/they've#Contraction");
+
+            URL_Add("there__", "https://en.wiktionary.org/wiki/there#Pronoun");
+
+            URL_Add("you’re__", "https://www.wikihow.com/Use-You%27re-and-Your");
 
         } //addLookupData_alternativeWordSet2()
 
@@ -178734,8 +178760,6 @@ namespace OverflowHelper.core
 
             URL_Add("post scriptum___", "https://en.wiktionary.org/wiki/PS#Alternative_forms");
 
-            URL_Add("effect___", "https://www.wikihow.com/Use-Affect-and-Effect-Properly");
-
             URL_Add("input___", "https://en.wiktionary.org/wiki/input#Verb");
 
             URL_Add("hallway usability testing___", "https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/");
@@ -178928,18 +178952,6 @@ namespace OverflowHelper.core
 
             URL_Add("may be___", "https://en.wiktionary.org/wiki/may_be#Adverb");
 
-            URL_Add("I___", "https://en.wikipedia.org/wiki/Capitalization#Pronouns");
-
-            URL_Add("am___", "https://en.wiktionary.org/wiki/am#Verb");
-
-            URL_Add("are___", "https://en.wiktionary.org/wiki/are#Verb");
-
-            URL_Add("their___", "https://www.wikihow.com/Use-There,-Their-and-They%27re");
-
-            URL_Add("then___", "https://www.wikihow.com/Use-Than-and-Then");
-
-            URL_Add("where___", "https://www.wikihow.com/Use-Where,-Were-and-We're");
-
             URL_Add("differential___", "https://en.wiktionary.org/wiki/differential#Adjective");
 
             URL_Add("fuck___", "https://en.wiktionary.org/wiki/fuck#Verb");
@@ -179091,6 +179103,20 @@ namespace OverflowHelper.core
             URL_Add("Chrome Canary___", "https://en.wikipedia.org/wiki/Google_Chrome#Release_channels,_cycles_and_updates");
 
             URL_Add("short___", "https://en.wiktionary.org/wiki/short#Adjective");
+
+            URL_Add("I___", "https://en.wikipedia.org/wiki/Capitalization#Pronouns");
+
+            URL_Add("am___", "https://en.wiktionary.org/wiki/am#Verb");
+
+            URL_Add("are___", "https://en.wiktionary.org/wiki/are#Verb");
+
+            URL_Add("where___", "https://www.wikihow.com/Use-Where,-Were-and-We're");
+
+            URL_Add("effect___", "https://www.wikihow.com/Use-Affect-and-Effect-Properly");
+
+            URL_Add("their___", "https://www.wikihow.com/Use-There,-Their-and-They%27re");
+
+            URL_Add("then___", "https://www.wikihow.com/Use-Than-and-Then");
 
         } //addLookupData_alternativeWordSet3()
 
@@ -181281,8 +181307,6 @@ namespace OverflowHelper.core
 
             // URL mappings
             //
-            URL_Add("than____", "https://www.wikihow.com/Use-Than-and-Then");
-
             URL_Add("NOT____", "https://en.wikipedia.org/wiki/Negation");
 
             URL_Add("Clean Code____", "https://en.wikipedia.org/wiki/Robert_C._Martin#Publications");
@@ -181405,8 +181429,6 @@ namespace OverflowHelper.core
 
             URL_Add("be____", "https://en.wiktionary.org/wiki/be#Verb");
 
-            URL_Add("there____", "https://www.wikihow.com/Use-There,-Their-and-They%27re");
-
             URL_Add("space bar____", "https://en.wikipedia.org/wiki/Space_bar");
 
             URL_Add("backlash____", "https://en.wiktionary.org/wiki/backlash#Noun");
@@ -181414,8 +181436,6 @@ namespace OverflowHelper.core
             URL_Add("special forces____", "https://en.wikipedia.org/wiki/Special_forces");
 
             URL_Add("IPA____", "https://en.wikipedia.org/wiki/.ipa");
-
-            URL_Add("affects____", "https://www.wikihow.com/Use-Affect-and-Effect-Properly");
 
             URL_Add("Why should I not upload images of code/data/errors?____", "https://meta.stackoverflow.com/questions/285551/");
 
@@ -181434,8 +181454,6 @@ namespace OverflowHelper.core
             URL_Add("integrated development environment____", "https://en.wikipedia.org/wiki/Integrated_development_environment");
 
             URL_Add("weakest precondition____", "https://en.wikipedia.org/wiki/Predicate_transformer_semantics#Definition");
-
-            URL_Add("your____", "https://www.wikihow.com/Use-You%27re-and-Your");
 
             URL_Add("24 days 20 hours 31 minutes 23.647 seconds as milliseconds____", "https://docs.arduino.cc/language-reference/en/functions/time/millis/");
 
@@ -181550,6 +181568,14 @@ namespace OverflowHelper.core
             URL_Add("CVS____", "https://en.wikipedia.org/wiki/Concurrent_Versions_System");
 
             URL_Add("shortwave radio____", "https://en.wikipedia.org/wiki/Shortwave_radio");
+
+            URL_Add("than____", "https://www.wikihow.com/Use-Than-and-Then");
+
+            URL_Add("there____", "https://www.wikihow.com/Use-There,-Their-and-They%27re");
+
+            URL_Add("your____", "https://www.wikihow.com/Use-You%27re-and-Your");
+
+            URL_Add("affects____", "https://www.wikihow.com/Use-Affect-and-Effect-Properly");
 
         } //addLookupData_alternativeWordSet4()
 
@@ -182049,6 +182075,9 @@ namespace OverflowHelper.core
             correctionAdd("reaad_____", "read_____");
             correctionAdd("raed_____", "read_____");
             correctionAdd("red_____", "read_____");
+
+            // For the reference
+            correctionAdd("then_____", "than_____");
 
             // Start of word mappings autogenerated by
             // script 'Edit_Overflow_number_table_generator.pl'
@@ -182801,10 +182830,6 @@ namespace OverflowHelper.core
 
             URL_Add("via_____", "https://en.wikipedia.org/wiki/Via_(electronics)");
 
-            URL_Add("&amp;_____", "https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#Standard_public_entity_sets_for_characters");
-
-            URL_Add("greater than_____", "https://en.wiktionary.org/wiki/greater_than#Noun");
-
             URL_Add("Micro_____", "https://en.wikipedia.org/wiki/Small_form_factor_PC#Micro"); // Old: <https://en.wikipedia.org/wiki/Small_form_factor_(desktop_and_motherboard)#Micro>
 
             URL_Add("what the hell_____", "https://en.wiktionary.org/wiki/WTH#Interjection");
@@ -182863,8 +182888,6 @@ namespace OverflowHelper.core
 
             URL_Add("OpenShift CLI_____", "https://docs.redhat.com/en/documentation/openshift_container_platform/4.21/html/cli_tools/openshift-cli-oc");
 
-            URL_Add("were_____", "https://www.wikihow.com/Use-Where,-Were-and-We're");
-
             URL_Add("red blink of death_____", "https://www.reddit.com/r/Keychron/comments/1rsc5qp/comment/oa91ndl/");
 
             URL_Add("Best Buy_____", "https://en.wikipedia.org/wiki/Best_Buy");
@@ -182882,6 +182905,14 @@ namespace OverflowHelper.core
             URL_Add("Customising the ZMK-based Keychron B6 Pro keyboard without the Via clone_____", "https://pmortensen.eu/world2/2025/03/10/customising-the-zmk-based-keychron-b6-pro-keyboard-without-the-via-clone/");
 
             URL_Add("read_____", "https://en.wiktionary.org/wiki/read#Verb");
+
+            URL_Add("&amp;_____", "https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#Standard_public_entity_sets_for_characters");
+
+            URL_Add("greater than_____", "https://en.wiktionary.org/wiki/greater_than#Noun");
+
+            URL_Add("were_____", "https://www.wikihow.com/Use-Where,-Were-and-We're");
+
+            URL_Add("than_____", "https://www.wikihow.com/Use-Than-and-Then");
 
             URL_Add("&nbsp;K_____", "https://en.wikipedia.org/wiki/Kelvin");
 
