@@ -10263,6 +10263,8 @@ namespace OverflowHelper.core
 
             correctionAdd("sub-question", "subquestion");
 
+            correctionAdd("sub-questions", "subquestions");
+
             // The verb
             correctionAdd("questionning", "questioning");
 
@@ -51753,6 +51755,8 @@ namespace OverflowHelper.core
             correctionAdd("tank you very much", "thank you very much");
             correctionAdd("Thank you ery much", "thank you very much");
             correctionAdd("thank you ery much", "thank you very much");
+            correctionAdd("Ty vm", "thank you very much");
+            correctionAdd("ty vm", "thank you very much");
             correctionAdd("tyvm", "thank you very much");
             correctionAdd("Tyvm", "thank you very much");
 
@@ -56384,6 +56388,8 @@ namespace OverflowHelper.core
             correctionAdd("802.11", "IEEE 802.11");
             correctionAdd("80211", "IEEE 802.11");
 
+            correctionAdd("802.11 v", "802.11v");
+
             correctionAdd("ieeetrans", "IEEEtran");
             correctionAdd("iEEEtran", "IEEEtran");
 
@@ -58735,6 +58741,7 @@ namespace OverflowHelper.core
             correctionAdd("type c", "USB type-C plug");
             correctionAdd("type C", "USB type-C plug");
             correctionAdd("Type C", "USB type-C plug");
+            correctionAdd("Type c", "USB type-C plug");
             correctionAdd("Type-C", "USB type-C plug");
             correctionAdd("type-c", "USB type-C plug");
             correctionAdd("type-C", "USB type-C plug");
@@ -58763,6 +58770,7 @@ namespace OverflowHelper.core
             correctionAdd("C-C", "USB type-C plug");
 
             correctionAdd("mini usb", "Mini-USB");
+            correctionAdd("usb mini", "Mini-USB");
 
             correctionAdd("MicroB USB", "Micro-USB");
             correctionAdd("micro-USB", "Micro-USB");
@@ -88166,6 +88174,7 @@ namespace OverflowHelper.core
             //     What about the Q HE 8K series???
             //
             correctionAdd("Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
+            correctionAdd("Keychron&nbsp;Q3&nbsp;HE&nbsp;8K", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)");
             correctionAdd("Q3&nbsp;HE&nbsp;8K", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)");
             correctionAdd("Q3 HE 8K", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)");
             correctionAdd("Q3 HE 8k", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)");
@@ -96300,6 +96309,7 @@ namespace OverflowHelper.core
 
             correctionAdd("multi part", "multipart");
             correctionAdd("Multi part", "multipart");
+            correctionAdd("multi-part", "multipart");
             correctionAdd("Multipart", "multipart");
 
             // Windows?
@@ -98225,6 +98235,7 @@ namespace OverflowHelper.core
             correctionAdd("CG.SE", "Code&nbsp;Golf (Stack Exchange site)");
             correctionAdd("CGSE", "Code&nbsp;Golf (Stack Exchange site)");
             correctionAdd("CGCC", "Code&nbsp;Golf (Stack Exchange site)");
+            correctionAdd("PPCG", "Code&nbsp;Golf (Stack Exchange site)"); // For the old name, 'Programming Puzzles & Code Golf'
 
             correctionAdd("Pro Webmasters", "Webmasters (Stack Exchange site)");
             correctionAdd("Webmasters", "Webmasters (Stack Exchange site)");
@@ -98330,7 +98341,8 @@ namespace OverflowHelper.core
             correctionAdd("MaterialIcon", "Material Icons");
 
             // Not to be confused with eMMC
-            correctionAdd("NVM Express", "NVMe");
+            correctionAdd("NVM Express", "NVMe"); // The official expanded name
+            correctionAdd("NVM express", "NVMe");
             correctionAdd("M.2 NVMe", "NVMe");
             correctionAdd("M2 NVMe", "NVMe");
             correctionAdd("nvme", "NVMe");
@@ -111198,9 +111210,15 @@ namespace OverflowHelper.core
 
             URL_Add("webcam", "https://en.wikipedia.org/wiki/Webcam");
 
+            URL_Add("802.11ac", "https://en.wikipedia.org/wiki/IEEE_802.11ac-2013");
+
+            URL_Add("802.11ax", "https://en.wikipedia.org/wiki/Wi-Fi_6");
+
             URL_Add("802.11b", "https://en.wikipedia.org/wiki/IEEE_802.11b-1999");
 
             URL_Add("802.11g", "https://en.wikipedia.org/wiki/IEEE_802.11g-2003");
+
+            URL_Add("802.11v", "https://en.wikipedia.org/wiki/IEEE_802.11v-2011");
 
             URL_Add("dictionaries", "https://en.wiktionary.org/wiki/dictionary#Noun");
 
@@ -115259,10 +115277,6 @@ namespace OverflowHelper.core
             URL_Add("British Columbia, Canada", "https://en.wikipedia.org/wiki/British_Columbia");
 
             URL_Add("every once in a while", "https://en.wiktionary.org/wiki/every_once_in_a_while#Adverb");
-
-            URL_Add("802.11ac", "https://en.wikipedia.org/wiki/IEEE_802.11ac-2013");
-
-            URL_Add("802.11ax", "https://en.wikipedia.org/wiki/Wi-Fi_6");
 
             URL_Add("PHP CLI", "http://php-cli.com/");
 
@@ -140084,6 +140098,8 @@ namespace OverflowHelper.core
             URL_Add("question", "https://en.wiktionary.org/wiki/question#Noun");
 
             URL_Add("subquestion", "https://en.wiktionary.org/wiki/subquestion#Noun");
+
+            URL_Add("subquestions", "https://en.wiktionary.org/wiki/subquestion#Noun");
 
             URL_Add("questioning", "https://en.wiktionary.org/wiki/question#Verb");
 
@@ -169987,6 +170003,8 @@ namespace OverflowHelper.core
             correctionAdd("Match__", "match__");
             correctionAdd("much__", "match__");
 
+            correctionAdd("vm__", "very much__");
+
             // Misplaced formality (the incorrect words)
             //
             // Mostly for the Wikipedia reference
@@ -175042,8 +175060,6 @@ namespace OverflowHelper.core
 
             URL_Add("tray__", "https://en.wiktionary.org/wiki/tray#Noun");
 
-            URL_Add("match__", "https://en.wiktionary.org/wiki/match#Verb");
-
             URL_Add("Coursier__", "https://docs.scala-lang.org/getting-started/index.html");
 
             URL_Add("sum__", "https://en.wiktionary.org/wiki/sum#Verb");
@@ -175199,10 +175215,6 @@ namespace OverflowHelper.core
             URL_Add("work__", "https://en.wiktionary.org/wiki/work#Verb");
 
             URL_Add("I see__", "https://en.wiktionary.org/wiki/I_see#Phrase");
-
-            URL_Add("Derek Taylor__", "https://odysee.com/@DistroTube:2/write-everything-in-emacs-org-mode-you:0");
-
-            URL_Add("Odysee__", "https://en.wikipedia.org/wiki/Odysee");
 
             URL_Add("MVC__", "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller");
 
@@ -175638,8 +175650,6 @@ namespace OverflowHelper.core
 
             URL_Add("CON__", "https://en.wikipedia.org/wiki/Device_file#PC_DOS,_TOS,_OS/2,_and_Windows");
 
-            URL_Add("continuous delivery__", "https://en.wikipedia.org/wiki/Continuous_delivery");
-
             URL_Add("core__", "https://linux.die.net/man/5/core");
 
             URL_Add("IP core__", "https://en.wikipedia.org/wiki/Semiconductor_intellectual_property_core#Types_of_IP_cores");
@@ -176065,6 +176075,16 @@ namespace OverflowHelper.core
             URL_Add("Carl Friedrich Gauss__", "https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss");
 
             URL_Add("Tesla__", "https://en.wikipedia.org/wiki/Tesla,_Inc.");
+
+            URL_Add("match__", "https://en.wiktionary.org/wiki/match#Verb");
+
+            URL_Add("very much__", "https://en.wiktionary.org/wiki/very_much#Adverb");
+
+            URL_Add("continuous delivery__", "https://en.wikipedia.org/wiki/Continuous_delivery");
+
+            URL_Add("Derek Taylor__", "https://odysee.com/@DistroTube:2/write-everything-in-emacs-org-mode-you:0");
+
+            URL_Add("Odysee__", "https://en.wikipedia.org/wiki/Odysee");
 
         } //addLookupData_alternativeWordSet2()
 
