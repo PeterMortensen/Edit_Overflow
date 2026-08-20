@@ -4590,6 +4590,7 @@ namespace OverflowHelper.core
             correctionAdd("nightsky", "night sky");
 
             correctionAdd("night mare", "nightmare");
+            correctionAdd("nightmware", "nightmare"); // A true typo
 
             correctionAdd("night vision goggle", "NVG");
             correctionAdd("nvgs", "NVG");
@@ -16982,6 +16983,15 @@ namespace OverflowHelper.core
             // Linux
             correctionAdd("dlsym", "dlsym()");
 
+            // Linux
+            //
+            // Alternative URLs:
+            //
+            //   <https://man.archlinux.org/man/shmget.2.en#EINVAL%7E2>
+            //
+            correctionAdd("shmget(1)", "shmget(2)");
+            correctionAdd("shmget", "shmget(2)");
+
             // Alternative URLs:
             //
             //   <https://linux.die.net/man/1/crontab>
@@ -17376,10 +17386,16 @@ namespace OverflowHelper.core
             correctionAdd("z shell", "Z shell (executable `zsh`)");
             correctionAdd("Z shell", "Z shell (executable `zsh`)");
             correctionAdd("ZShell", "Z shell (executable `zsh`)");
+            correctionAdd("Zshell", "Z shell (executable `zsh`)");
+            correctionAdd("zshell", "Z shell (executable `zsh`)");
             correctionAdd("Zsh", "Z shell (executable `zsh`)");
             correctionAdd("zsh", "Z shell (executable `zsh`)");
             correctionAdd("ZSH", "Z shell (executable `zsh`)");
 
+            correctionAdd("Oh My Z shell", "Oh My Zsh");
+            correctionAdd("oh my Z shell", "Oh My Zsh");
+            correctionAdd("Oh My zshell", "Oh My Zsh");
+            correctionAdd("oh my zshell", "Oh My Zsh");
             correctionAdd("oh-my-zsh", "Oh My Zsh");
 
             // Bash. Linux.
@@ -43921,7 +43937,13 @@ namespace OverflowHelper.core
             // FPGA. Embedded processor architecture. Altera
             correctionAdd("NIOS II", "Nios II");
 
+            correctionAdd("I/O bounded", "I/O bound");
+            correctionAdd("I/O-bounded", "I/O bound");
+            correctionAdd("IO bounded", "I/O bound");
+            correctionAdd("IO-bounded", "I/O bound");
+            correctionAdd("I/O-bound", "I/O bound");
             correctionAdd("IO bound", "I/O bound");
+            correctionAdd("IO-bound", "I/O bound");
 
             correctionAdd("I/O completion port", "input/output completion port");
             correctionAdd("completion port", "input/output completion port");
@@ -56946,9 +56968,12 @@ namespace OverflowHelper.core
             correctionAdd("compaign", "campaign");
             correctionAdd("capmgain", "campaign");
             correctionAdd("campaing", "campaign");
+            correctionAdd("Campaign", "campaign");
             correctionAdd("campain", "campaign");
 
             correctionAdd("compaigns", "campaigns");
+
+            correctionAdd("KS Campaign", "Kickstarter campaign");
 
             correctionAdd("over complicate", "overcomplicate");
 
@@ -58018,6 +58043,7 @@ namespace OverflowHelper.core
             correctionAdd("cirtainty", "certainty");
             correctionAdd("curtainty", "certainty");
 
+            correctionAdd("høpe", "hope");
             correctionAdd("hopw", "hope");
 
             correctionAdd("hopefull", "hopeful");
@@ -92648,6 +92674,7 @@ namespace OverflowHelper.core
             correctionAdd("Keychain V6 Max", "Keychron&nbsp;V6&nbsp;Max");
             correctionAdd("keychron v6 max", "Keychron&nbsp;V6&nbsp;Max");
             correctionAdd("keychron V6 Max", "Keychron&nbsp;V6&nbsp;Max");
+            correctionAdd("KEYCHRON V6 MAX", "Keychron&nbsp;V6&nbsp;Max");
             correctionAdd("V Max series", "Keychron&nbsp;V6&nbsp;Max"); // For the cross-reference
             correctionAdd("V6&nbsp;Max", "Keychron&nbsp;V6&nbsp;Max");
             correctionAdd("V 6 max", "Keychron&nbsp;V6&nbsp;Max");
@@ -100409,6 +100436,7 @@ namespace OverflowHelper.core
             correctionAdd("packages.json", "package.json");
             correctionAdd("pacakge.json", "package.json");
             correctionAdd("Package.json", "package.json");
+            correctionAdd("json.package", "package.json");
 
             // Node.js/npm
             //
@@ -105991,6 +106019,8 @@ namespace OverflowHelper.core
             correctionAdd("FCONV", "fconv");
 
             correctionAdd("non-redundant", "nonredundant");
+
+            correctionAdd("sneaked", "snuck");
 
             correctionAdd("sneaker net", "sneakernet");
 
@@ -118926,6 +118956,8 @@ namespace OverflowHelper.core
 
             URL_Add("sneakernet", "https://en.wikipedia.org/wiki/Sneakernet");
 
+            URL_Add("snuck", "https://en.wiktionary.org/wiki/sneak#Verb");
+
             URL_Add("anonymously", "https://en.wiktionary.org/wiki/anonymously#Adverb");
 
             URL_Add("asinine", "https://en.wiktionary.org/wiki/asinine#Adjective");
@@ -127532,6 +127564,8 @@ namespace OverflowHelper.core
 
             URL_Add("dlsym()", "https://en.wikipedia.org/wiki/Shared_library#Dynamic_linking");
 
+            URL_Add("shmget(2)", "https://linux.die.net/man/2/shmget");
+
             URL_Add("leverage", "https://en.wiktionary.org/wiki/leverage#Verb");
 
             URL_Add("RPython", "https://en.wikipedia.org/wiki/PyPy#RPython");
@@ -131551,6 +131585,8 @@ namespace OverflowHelper.core
             URL_Add("campaign", "https://en.wiktionary.org/wiki/campaign#Noun");
 
             URL_Add("campaigns", "https://en.wiktionary.org/wiki/campaign#Noun");
+
+            URL_Add("Kickstarter campaign", "https://en.wikipedia.org/wiki/Kickstarter#Notable_projects_and_creators");
 
             URL_Add("Prototype", "https://en.wikipedia.org/wiki/Prototype_JavaScript_Framework");
 
@@ -172550,6 +172586,7 @@ namespace OverflowHelper.core
             correctionAdd("Stack Overflow’s Public Platforms__", "Stack&nbsp;Exchange__");
             correctionAdd("Stack Overflow Public Platforms__", "Stack&nbsp;Exchange__");
             correctionAdd("Stack Overflow Entire Network__", "Stack&nbsp;Exchange__");
+            correctionAdd("Stack Overflow PP__", "Stack&nbsp;Exchange__"); // Obfuscated form of 'Stack Overflow Public Platforms'
             correctionAdd("StackExchange.com__", "Stack&nbsp;Exchange__");
             correctionAdd("Stack Exchcange__", "Stack&nbsp;Exchange__"); // Misspelling.
             correctionAdd("Stack-exchanged__", "Stack&nbsp;Exchange__");
@@ -172627,6 +172664,7 @@ namespace OverflowHelper.core
             correctionAdd("se.com__", "Stack&nbsp;Exchange__");
             correctionAdd("stack__", "Stack&nbsp;Exchange__"); // Could also be Stack Overflow.
             correctionAdd("Stack__", "Stack&nbsp;Exchange__");
+            correctionAdd("StOPP__", "Stack&nbsp;Exchange__"); // For 'Stack Overflow Public Platforms'
             correctionAdd("SOPP__", "Stack&nbsp;Exchange__");
             correctionAdd("S/E__", "Stack&nbsp;Exchange__");
             correctionAdd("S.E__", "Stack&nbsp;Exchange__");
