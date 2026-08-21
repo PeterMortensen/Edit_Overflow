@@ -14973,6 +14973,8 @@ namespace OverflowHelper.core
 
             correctionAdd("re-scanned", "rescanned");
 
+            correctionAdd("canner", "scanner");
+
             correctionAdd("portscanner", "port scanner");
 
             correctionAdd("portect", "protect");
@@ -48973,6 +48975,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Graphics", "graphics");
             correctionAdd("graphcis", "graphics"); // A true typo
+            correctionAdd("graphich", "graphics");
             correctionAdd("Grapics", "graphics");
             correctionAdd("grapics", "graphics");
             correctionAdd("GFX", "graphics");
@@ -55283,6 +55286,7 @@ namespace OverflowHelper.core
 
             // Aviation
             correctionAdd("pito tubes", "pitot tubes");
+            correctionAdd("Pito tubes", "pitot tubes");
             correctionAdd("pitot", "pitot tubes");
 
             // Aviation
@@ -65671,6 +65675,9 @@ namespace OverflowHelper.core
             correctionAdd("cherrymx clear", "Cherry MX Clear");
             correctionAdd("mx clear", "Cherry MX Clear");
 
+            correctionAdd("CHERRY MX SILENT RED", "Cherry MX Silent Red");
+            correctionAdd("cherry mx silent red", "Cherry MX Silent Red");
+
             correctionAdd("MX Silent Black", "Cherry MX Silent Black");
 
             // A type of switch for mechanical keyboards
@@ -71341,6 +71348,7 @@ namespace OverflowHelper.core
             correctionAdd("Rec", "recommendation");
             correctionAdd("rec", "recommendation");
 
+            correctionAdd("reecommendations", "recommendations");
             correctionAdd("Reccomendations", "recommendations");
             correctionAdd("reccomendations", "recommendations");
             correctionAdd("recommandations", "recommendations");
@@ -74690,6 +74698,8 @@ namespace OverflowHelper.core
             correctionAdd("Brazilian Real", "Brazilian real");
             correctionAdd("BRL", "Brazilian real");
             correctionAdd("R$", "Brazilian real");
+
+            correctionAdd("Sao Paulo", "São Paulo");
 
             correctionAdd("mexico", "Mexico");
 
@@ -82433,6 +82443,14 @@ namespace OverflowHelper.core
             // from Keychron.
             //
             // Note: Is based on ZMK, not QMK
+            //
+            // V0 Ultra 8K source code:
+            //
+            //   <https://github.com/Keychron/zmk/tree/rtl8762g/app/boards/shields/keychron_v0_ultra_ansi>
+            //
+            //     Core implementation:
+            //
+            //       <https://github.com/Keychron/zmk/blob/rtl8762g/app/src/dfu/my_app_version.h#L33>
             //
             correctionAdd("V0&nbsp;Ultra&nbsp;8K", "Keychron&nbsp;V0&nbsp;Ultra&nbsp;8K");
             correctionAdd("Keychron V0 Ultra 8K", "Keychron&nbsp;V0&nbsp;Ultra&nbsp;8K"); // Sort of identity mapping
@@ -92774,6 +92792,10 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/Keychron/zmk/blob/rtl8762g/app/boards/shields/keychron_v6_ultra_ansi>
             //
+            //     Core implementation:
+            //
+            //       <https://github.com/Keychron/zmk/blob/rtl8762g/app/src/dfu/my_app_version.h#L33>
+            //
             //   Released on 2026-05-22. RSS feed: <https://github.com/Keychron/zmk/commits/rtl8762g.atom>
             //
             //   ANSI only, as the ISO variant probably don't exist yet(?)
@@ -101870,6 +101892,7 @@ namespace OverflowHelper.core
             correctionAdd("diffculty", "difficulty");
 
             correctionAdd("difficukties", "difficulties");
+            correctionAdd("diffeculties", "difficulties");
             correctionAdd("difficultes", "difficulties");
             correctionAdd("difficults", "difficulties");
             correctionAdd("dificults", "difficulties");
@@ -109070,14 +109093,6 @@ namespace OverflowHelper.core
 
             URL_Add("annoying", "https://en.wiktionary.org/wiki/annoying#Verb");
 
-            URL_Add("port 137", "https://www.grc.com/port_137.htm");
-
-            URL_Add("port 138", "https://www.grc.com/port_138.htm");
-
-            URL_Add("port 139", "https://www.grc.com/port_139.htm");
-
-            URL_Add("port 445", "https://www.grc.com/port_445.htm");
-
             URL_Add("Fibonacci", "https://en.wikipedia.org/wiki/Fibonacci_number");
 
             URL_Add("MSYS", "https://en.wikipedia.org/wiki/MinGW#History");
@@ -110853,16 +110868,6 @@ namespace OverflowHelper.core
             URL_Add("EGCS", "https://en.wikipedia.org/wiki/GNU_Compiler_Collection#History");
 
             URL_Add("Flip", "https://hackaday.com/2011/03/28/hiduino-the-only-limit-is-yourself/");
-
-            URL_Add("lexical parser", "https://en.wikipedia.org/wiki/Lexical_analysis#Lexical_token_and_lexical_tokenization");
-
-            URL_Add("GNU Bison", "https://en.wikipedia.org/wiki/GNU_Bison");
-
-            URL_Add("Lex", "https://en.wikipedia.org/wiki/Lex_(software)");
-
-            URL_Add("Web Forms", "https://docs.microsoft.com/en-us/aspnet/web-forms/what-is-web-forms");
-
-            URL_Add("Yacc", "https://en.wikipedia.org/wiki/Yacc");
 
             URL_Add("fatigue", "https://en.wiktionary.org/wiki/fatigue#Noun");
 
@@ -122896,13 +122901,9 @@ namespace OverflowHelper.core
 
             URL_Add("pcap", "https://en.wikipedia.org/wiki/Pcap");
 
-            URL_Add("port scanner", "https://en.wikipedia.org/wiki/Port_scanner");
-
             URL_Add("obstacles", "https://en.wiktionary.org/wiki/obstacle#Noun");
 
             URL_Add("limits", "https://en.wiktionary.org/wiki/limit#Verb");
-
-            URL_Add("port forwarding", "https://en.wikipedia.org/wiki/Port_forwarding");
 
             URL_Add("Copyscape", "https://en.wikipedia.org/wiki/Copyscape");
 
@@ -123623,8 +123624,6 @@ namespace OverflowHelper.core
             URL_Add("instances", "https://en.wiktionary.org/wiki/instance#Noun");
 
             URL_Add("tiering", "https://en.wiktionary.org/wiki/tier#Verb");
-
-            URL_Add("Brazilian", "https://en.wiktionary.org/wiki/Brazilian#Noun");
 
             URL_Add("l-value", "https://en.wikipedia.org/wiki/Value_(computer_science)#Assignment:_l-values_and_r-values");
 
@@ -127296,8 +127295,6 @@ namespace OverflowHelper.core
 
             URL_Add("scramble", "https://en.wiktionary.org/wiki/scramble#Verb");
 
-            URL_Add("port number", "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers");
-
             URL_Add("Karachi", "https://en.wikipedia.org/wiki/Karachi");
 
             URL_Add("variations", "https://en.wiktionary.org/wiki/variation#Noun");
@@ -129291,8 +129288,6 @@ namespace OverflowHelper.core
             URL_Add("observability", "https://en.wiktionary.org/wiki/observability#Noun");
 
             URL_Add("observer pattern", "https://en.wikipedia.org/wiki/Observer_pattern");
-
-            URL_Add("Brazilian real", "https://en.wikipedia.org/wiki/Brazilian_real");
 
             URL_Add("patient", "https://en.wiktionary.org/wiki/patient#Adjective");
 
@@ -132574,10 +132569,6 @@ namespace OverflowHelper.core
 
             URL_Add("reparse", "https://en.wiktionary.org/wiki/reparse#Verb");
 
-            URL_Add("Spirit Parser Framework", "https://en.wikipedia.org/wiki/Spirit_Parser_Framework");
-
-            URL_Add("Beautiful Soup", "https://en.wikipedia.org/wiki/Beautiful_Soup_(HTML_parser)"); // Old: https://en.wikipedia.org/wiki/Beautiful_Soup
-
             URL_Add("cooked", "https://en.wiktionary.org/wiki/cook#Verb");
 
             URL_Add("cookies", "https://en.wikipedia.org/wiki/HTTP_cookie");
@@ -132585,8 +132576,6 @@ namespace OverflowHelper.core
             URL_Add("cookie-cutter", "https://en.wiktionary.org/wiki/cookie-cutter#Adjective");
 
             URL_Add("http-only cookies", "https://en.wikipedia.org/wiki/HTTP_cookie#Http-only_cookie");
-
-            URL_Add("Brazilian Technical Standards Association", "https://en.wikipedia.org/wiki/Brazilian_Technical_Standards_Association");
 
             URL_Add("advertisement", "https://en.wikipedia.org/wiki/Advertisements");
 
@@ -133878,13 +133867,9 @@ namespace OverflowHelper.core
 
             URL_Add("realistically", "https://en.wiktionary.org/wiki/realistically#Adverb");
 
-            URL_Add("GLR", "https://en.wikipedia.org/wiki/GLR_parser");
-
             URL_Add("Chomsky normal form", "https://en.wikipedia.org/wiki/Chomsky_normal_form");
 
             URL_Add("postconditions", "https://en.wiktionary.org/wiki/postcondition#Noun");
-
-            URL_Add("recursive descent parser", "https://en.wikipedia.org/wiki/Recursive_descent_parser");
 
             URL_Add("top-down", "https://en.wiktionary.org/wiki/top-down#Adjective");
 
@@ -135459,86 +135444,6 @@ namespace OverflowHelper.core
             URL_Add("at the end of", "https://ell.stackexchange.com/questions/16854/should-i-use-at-the-end-of-or-in-the-end-of-in-this-sentence");
 
             URL_Add("ThereminGoat", "https://github.com/ThereminGoat");
-
-            URL_Add("HTTP", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol");
-
-            URL_Add("HTTP/1.1", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#History");
-
-            URL_Add("HTTP/2", "https://en.wikipedia.org/wiki/HTTP/2");
-
-            URL_Add("HTTP basic access authentication", "https://en.wikipedia.org/wiki/Basic_access_authentication");
-
-            URL_Add("POST", "https://en.wikipedia.org/wiki/POST_%28HTTP%29");
-
-            URL_Add("GET", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods");
-
-            URL_Add("PUT", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods");
-
-            URL_Add("HTTP.sys", "https://docs.microsoft.com/en-us/iis/get-started/introduction-to-iis/introduction-to-iis-architecture#hypertext-transfer-protocol-stack-httpsys");
-
-            URL_Add("HTTP/1.0", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#HTTP/1.0");
-
-            URL_Add("HTTPS", "https://en.wikipedia.org/wiki/HTTPS"); // Old: https://en.wikipedia.org/wiki/HTTP_Secure
-
-            URL_Add("HTTP/3", "https://en.wikipedia.org/wiki/HTTP/3");
-
-            URL_Add("HTTP 404", "https://en.wikipedia.org/wiki/HTTP_404");
-
-            URL_Add("HTTPie", "https://www.redhat.com/sysadmin/curl-hack-httpie");
-
-            URL_Add("HTTP Live Streaming", "https://en.wikipedia.org/wiki/HTTP_Live_Streaming");
-
-            URL_Add("HTTPX", "https://www.python-httpx.org/");
-
-            URL_Add("HTTPd", "https://en.wikipedia.org/wiki/Httpd");
-
-            URL_Add("Content-Length", "https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Standard_request_fields");
-
-            URL_Add("HTTP request smuggling", "https://en.wikipedia.org/wiki/HTTP_request_smuggling");
-
-            URL_Add("HTTPS Everywhere", "https://en.wikipedia.org/wiki/HTTPS_Everywhere");
-
-            URL_Add("FireFTP", "https://en.wikipedia.org/wiki/FireFTP");
-
-            URL_Add("FTPS", "https://en.wikipedia.org/wiki/FTPS");
-
-            URL_Add("SFTP", "https://en.wikipedia.org/wiki/SFTP");
-
-            URL_Add("UDP", "https://en.wikipedia.org/wiki/User_Datagram_Protocol");
-
-            URL_Add("FTP", "https://en.wikipedia.org/wiki/File_Transfer_Protocol");
-
-            URL_Add("Trivial File Transfer Protocol", "https://en.wikipedia.org/wiki/Trivial_File_Transfer_Protocol");
-
-            URL_Add("NNTP", "https://en.wikipedia.org/wiki/Network_News_Transfer_Protocol");
-
-            URL_Add("SMTP", "https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol");
-
-            URL_Add("port 443", "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports");
-
-            URL_Add("MTP", "https://en.wikipedia.org/wiki/Media_Transfer_Protocol");
-
-            URL_Add("MTA", "https://en.wikipedia.org/wiki/Message_transfer_agent");
-
-            URL_Add("DHCP", "https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol");
-
-            URL_Add("WAP", "https://en.wikipedia.org/wiki/Wireless_Application_Protocol");
-
-            URL_Add("RTMP", "https://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol");
-
-            URL_Add("Jabber", "https://en.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol");
-
-            URL_Add("RDP", "https://en.wikipedia.org/wiki/Remote_Desktop_Protocol");
-
-            URL_Add("POP3", "https://en.wikipedia.org/wiki/Post_Office_Protocol");
-
-            URL_Add("IPOPT", "https://en.wikipedia.org/wiki/IPOPT");
-
-            URL_Add("RTSP", "https://en.wikipedia.org/wiki/Real_Time_Streaming_Protocol");
-
-            URL_Add("ICMP", "https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol");
-
-            URL_Add("DCL", "https://en.wikipedia.org/wiki/DIGITAL_Command_Language");
 
             URL_Add("requested", "https://en.wiktionary.org/wiki/request#Verb");
 
@@ -145602,13 +145507,15 @@ namespace OverflowHelper.core
 
             URL_Add("scissor-switch", "https://en.wikipedia.org/wiki/Keyboard_technology#Scissor-switch");
 
+            URL_Add("Cherry MX", "https://en.wikipedia.org/wiki/Cherry_AG#Cherry_MX"); // Old: https://en.wikipedia.org/wiki/Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards. Even older: https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards
+
+            URL_Add("Cherry MX Silent Red", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
+
             URL_Add("Cherry MX Black", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
 
             URL_Add("Cherry MX Silent Black", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
 
             URL_Add("Cherry MX Clear", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX");
-
-            URL_Add("Cherry MX", "https://en.wikipedia.org/wiki/Cherry_AG#Cherry_MX"); // Old: https://en.wikipedia.org/wiki/Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards. Even older: https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards
 
             URL_Add("Cherry MX Tactile Grey", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
 
@@ -149231,6 +149138,128 @@ namespace OverflowHelper.core
             URL_Add("CiviCRM", "https://en.wikipedia.org/wiki/CiviCRM");
 
             URL_Add("Microsoft Dynamics CRM", "https://en.wikipedia.org/wiki/Microsoft_Dynamics_CRM");
+
+            URL_Add("Web Forms", "https://docs.microsoft.com/en-us/aspnet/web-forms/what-is-web-forms");
+
+            URL_Add("recursive descent parser", "https://en.wikipedia.org/wiki/Recursive_descent_parser");
+
+            URL_Add("lexical parser", "https://en.wikipedia.org/wiki/Lexical_analysis#Lexical_token_and_lexical_tokenization");
+
+            URL_Add("Lex", "https://en.wikipedia.org/wiki/Lex_(software)");
+
+            URL_Add("GNU Bison", "https://en.wikipedia.org/wiki/GNU_Bison");
+
+            URL_Add("Yacc", "https://en.wikipedia.org/wiki/Yacc");
+
+            URL_Add("Spirit Parser Framework", "https://en.wikipedia.org/wiki/Spirit_Parser_Framework");
+
+            URL_Add("Beautiful Soup", "https://en.wikipedia.org/wiki/Beautiful_Soup_(HTML_parser)"); // Old: https://en.wikipedia.org/wiki/Beautiful_Soup
+
+            URL_Add("GLR", "https://en.wikipedia.org/wiki/GLR_parser");
+
+            URL_Add("scanner", "https://en.wiktionary.org/wiki/scanner#Noun");
+
+            URL_Add("port scanner", "https://en.wikipedia.org/wiki/Port_scanner");
+
+            URL_Add("port forwarding", "https://en.wikipedia.org/wiki/Port_forwarding");
+
+            URL_Add("port number", "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers");
+
+            URL_Add("port 137", "https://www.grc.com/port_137.htm");
+
+            URL_Add("port 138", "https://www.grc.com/port_138.htm");
+
+            URL_Add("port 139", "https://www.grc.com/port_139.htm");
+
+            URL_Add("port 443", "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports");
+
+            URL_Add("port 445", "https://www.grc.com/port_445.htm");
+
+            URL_Add("HTTP", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol");
+
+            URL_Add("HTTP/1.1", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#History");
+
+            URL_Add("HTTP/2", "https://en.wikipedia.org/wiki/HTTP/2");
+
+            URL_Add("HTTP basic access authentication", "https://en.wikipedia.org/wiki/Basic_access_authentication");
+
+            URL_Add("POST", "https://en.wikipedia.org/wiki/POST_%28HTTP%29");
+
+            URL_Add("GET", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods");
+
+            URL_Add("PUT", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods");
+
+            URL_Add("HTTP.sys", "https://docs.microsoft.com/en-us/iis/get-started/introduction-to-iis/introduction-to-iis-architecture#hypertext-transfer-protocol-stack-httpsys");
+
+            URL_Add("HTTP/1.0", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#HTTP/1.0");
+
+            URL_Add("HTTPS", "https://en.wikipedia.org/wiki/HTTPS"); // Old: https://en.wikipedia.org/wiki/HTTP_Secure
+
+            URL_Add("HTTP/3", "https://en.wikipedia.org/wiki/HTTP/3");
+
+            URL_Add("HTTP 404", "https://en.wikipedia.org/wiki/HTTP_404");
+
+            URL_Add("HTTPie", "https://www.redhat.com/sysadmin/curl-hack-httpie");
+
+            URL_Add("HTTP Live Streaming", "https://en.wikipedia.org/wiki/HTTP_Live_Streaming");
+
+            URL_Add("HTTPX", "https://www.python-httpx.org/");
+
+            URL_Add("HTTPd", "https://en.wikipedia.org/wiki/Httpd");
+
+            URL_Add("Content-Length", "https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Standard_request_fields");
+
+            URL_Add("HTTP request smuggling", "https://en.wikipedia.org/wiki/HTTP_request_smuggling");
+
+            URL_Add("HTTPS Everywhere", "https://en.wikipedia.org/wiki/HTTPS_Everywhere");
+
+            URL_Add("FireFTP", "https://en.wikipedia.org/wiki/FireFTP");
+
+            URL_Add("FTPS", "https://en.wikipedia.org/wiki/FTPS");
+
+            URL_Add("SFTP", "https://en.wikipedia.org/wiki/SFTP");
+
+            URL_Add("UDP", "https://en.wikipedia.org/wiki/User_Datagram_Protocol");
+
+            URL_Add("FTP", "https://en.wikipedia.org/wiki/File_Transfer_Protocol");
+
+            URL_Add("Trivial File Transfer Protocol", "https://en.wikipedia.org/wiki/Trivial_File_Transfer_Protocol");
+
+            URL_Add("NNTP", "https://en.wikipedia.org/wiki/Network_News_Transfer_Protocol");
+
+            URL_Add("SMTP", "https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol");
+
+            URL_Add("MTP", "https://en.wikipedia.org/wiki/Media_Transfer_Protocol");
+
+            URL_Add("MTA", "https://en.wikipedia.org/wiki/Message_transfer_agent");
+
+            URL_Add("DHCP", "https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol");
+
+            URL_Add("WAP", "https://en.wikipedia.org/wiki/Wireless_Application_Protocol");
+
+            URL_Add("RTMP", "https://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol");
+
+            URL_Add("Jabber", "https://en.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol");
+
+            URL_Add("RDP", "https://en.wikipedia.org/wiki/Remote_Desktop_Protocol");
+
+            URL_Add("POP3", "https://en.wikipedia.org/wiki/Post_Office_Protocol");
+
+            URL_Add("IPOPT", "https://en.wikipedia.org/wiki/IPOPT");
+
+            URL_Add("RTSP", "https://en.wikipedia.org/wiki/Real_Time_Streaming_Protocol");
+
+            URL_Add("ICMP", "https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol");
+
+            URL_Add("DCL", "https://en.wikipedia.org/wiki/DIGITAL_Command_Language");
+
+            URL_Add("Brazilian", "https://en.wiktionary.org/wiki/Brazilian#Noun");
+
+            URL_Add("Brazilian real", "https://en.wikipedia.org/wiki/Brazilian_real");
+
+            URL_Add("São Paulo", "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo");
+
+            URL_Add("Brazilian Technical Standards Association", "https://en.wikipedia.org/wiki/Brazilian_Technical_Standards_Association");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -158397,7 +158426,9 @@ namespace OverflowHelper.core
             correctionAdd("mass storage device class_", "USB MSC_");
             correctionAdd("mass storaage device_", "USB MSC_");
             correctionAdd("mass storage device_", "USB MSC_");
-            correctionAdd("USBMSC_", "USB MSC_");
+            correctionAdd("USB Mass Storage_", "USB MSC_");
+            correctionAdd("USB mass storage_", "USB MSC_");
+            correctionAdd("USBMSC_", "USB MSC_"); // Note: USBMSD is something else (a library?)
             correctionAdd("MSC_", "USB MSC_");
             correctionAdd("MSD_", "USB MSC_");
             correctionAdd("UMS_", "USB MSC_");
@@ -167823,8 +167854,6 @@ namespace OverflowHelper.core
 
             URL_Add("text-based user interface_", "https://en.wikipedia.org/wiki/Text-based_user_interface");
 
-            URL_Add("Brazilian variant_", "https://en.wikipedia.org/wiki/Lineage_P.1");
-
             URL_Add("prettier_", "https://en.wiktionary.org/wiki/prettier#Adjective");
 
             URL_Add("epically_", "https://en.wiktionary.org/wiki/epically#Adverb");
@@ -169421,14 +169450,6 @@ namespace OverflowHelper.core
 
             URL_Add("Solid colour_", "https://pmortensen.eu/world2/2023/06/19/keychron-v5-a-reasonably-priced-fully-macro-capable-qmk-based-mechanical-keyboard#LightingModes");
 
-            URL_Add("French keyboard layout_", "https://en.wikipedia.org/wiki/AZERTY");
-
-            URL_Add("ABNT NBR 10346 variant 2 keyboard layout_", "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#Brazil");
-
-            URL_Add("APT keyboard layout_", "https://github.com/Apsu/APT#aptv3-layout");
-
-            URL_Add("Gallium keyboard layout_", "https://www.keyboard-design.com/letterlayout.html?layout=gallium2.en.ansi"); // Associated with chemical element 31
-
             URL_Add("Enlightenment_", "https://en.wikipedia.org/wiki/Enlightenment_(software)");
 
             URL_Add("encoder_", "https://en.wiktionary.org/wiki/encoder#Noun");
@@ -169908,6 +169929,16 @@ namespace OverflowHelper.core
             URL_Add("than_", "https://en.wiktionary.org/wiki/than#Conjunction");
 
             URL_Add("Charles-Augustin de Coulomb_", "https://en.wikipedia.org/wiki/Charles-Augustin_de_Coulomb");
+
+            URL_Add("Brazilian variant_", "https://en.wikipedia.org/wiki/Lineage_P.1");
+
+            URL_Add("ABNT NBR 10346 variant 2 keyboard layout_", "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#Brazil");
+
+            URL_Add("French keyboard layout_", "https://en.wikipedia.org/wiki/AZERTY");
+
+            URL_Add("APT keyboard layout_", "https://github.com/Apsu/APT#aptv3-layout");
+
+            URL_Add("Gallium keyboard layout_", "https://www.keyboard-design.com/letterlayout.html?layout=gallium2.en.ansi"); // Associated with chemical element 31
 
         } //addLookupData_alternativeWordSet()
 
@@ -178822,8 +178853,6 @@ namespace OverflowHelper.core
 
             URL_Add("Carbon___", "https://carbon.nesbot.com/docs/"); // Associated with chemical element 6
 
-            URL_Add("Brazil___", "https://en.wikipedia.org/wiki/Brazil");
-
             URL_Add("Drop___", "https://en.wikipedia.org/wiki/Drop_(company)");
 
             URL_Add("menu___", "https://en.wikipedia.org/wiki/Menu_%28computing%29");
@@ -178831,8 +178860,6 @@ namespace OverflowHelper.core
             URL_Add("they___", "https://en.wiktionary.org/wiki/they#Pronoun");
 
             URL_Add("pipe___", "https://en.wikipedia.org/wiki/Vertical_bar");
-
-            URL_Add("Prince Edward Island___", "https://en.wikipedia.org/wiki/Prince_Edward_Island");
 
             URL_Add("room owner (RO - chat)___", "https://en.wikipedia.org/wiki/Online_chat");
 
@@ -179201,6 +179228,10 @@ namespace OverflowHelper.core
             URL_Add("Tesla coil___", "https://en.wikipedia.org/wiki/Tesla_coil");
 
             URL_Add("physiotherapist___", "https://en.wikipedia.org/wiki/Physical_therapy");
+
+            URL_Add("Brazil___", "https://en.wikipedia.org/wiki/Brazil");
+
+            URL_Add("Prince Edward Island___", "https://en.wikipedia.org/wiki/Prince_Edward_Island");
 
         } //addLookupData_alternativeWordSet3()
 
