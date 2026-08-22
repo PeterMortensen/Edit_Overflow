@@ -4309,6 +4309,9 @@ namespace OverflowHelper.core
             correctionAdd("werehouse", "warehouse");
             correctionAdd("warehoue", "warehouse");
 
+            correctionAdd("after-market", "aftermarket");
+            correctionAdd("after market", "aftermarket");
+
             correctionAdd("Stock market", "stock market");
 
             correctionAdd("stock broker", "stockbroker");
@@ -24899,6 +24902,7 @@ namespace OverflowHelper.core
             correctionAdd("fromr", "from");
             correctionAdd("fdrom", "from");
             correctionAdd("frome", "from");
+            correctionAdd("frron", "from");
             correctionAdd("form", "from");
             correctionAdd("Form", "from");
             correctionAdd("från", "from");
@@ -33359,6 +33363,8 @@ namespace OverflowHelper.core
             correctionAdd("still", "style"); // An autocorrect "masterpiece"?
             correctionAdd("syle", "style");
 
+            correctionAdd("re-style", "restyle");
+
             correctionAdd("Style sheet", "style sheet");
             correctionAdd("stylesheet", "style sheet");
 
@@ -35973,6 +35979,7 @@ namespace OverflowHelper.core
             correctionAdd("differing", "different");
             correctionAdd("diffezent", "different");
             correctionAdd("diiferent", "different");
+            correctionAdd("diffrenet", "different");
             correctionAdd("diffrent", "different");
             correctionAdd("diferent", "different");
             correctionAdd("differnt", "different");
@@ -42216,6 +42223,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Assiciated", "associated");
             correctionAdd("assiciated", "associated");
+            correctionAdd("assosiated", "associated");
             correctionAdd("asociated", "associated");
 
             correctionAdd("assocciation", "association");
@@ -42812,10 +42820,14 @@ namespace OverflowHelper.core
 
             correctionAdd("tech writing", "technical writing");
 
+            correctionAdd("technologiy", "technology");
+            correctionAdd("techonology", "technology");
             correctionAdd("tecnhology", "technology");
             correctionAdd("tecnologie", "technology");
             correctionAdd("Technology", "technology");
             correctionAdd("technlogie", "technology");
+            correctionAdd("technoogiy", "technology");
+            correctionAdd("techonogiy", "technology");
             correctionAdd("technlogy", "technology");
             correctionAdd("techology", "technology");
             correctionAdd("tecnology", "technology");
@@ -45937,6 +45949,7 @@ namespace OverflowHelper.core
             correctionAdd("nucleo", "ST Nucleo");
             correctionAdd("NUCLEO", "ST Nucleo");
             correctionAdd("Nucleo", "ST Nucleo");
+            correctionAdd("nulceo", "ST Nucleo");
 
             // Note: "Discovery Kit" is in an alternative word set
             //
@@ -46202,6 +46215,7 @@ namespace OverflowHelper.core
             // Arduino-like
             correctionAdd("Platform IO", "PlatformIO");
             correctionAdd("platformio", "PlatformIO");
+            correctionAdd("Platformio", "PlatformIO");
 
             correctionAdd("Arduino-cli", "Arduino CLI");
 
@@ -48771,6 +48785,7 @@ namespace OverflowHelper.core
             correctionAdd("avalable", "available");
             correctionAdd("avialale", "available");
             correctionAdd("avalible", "available");
+            correctionAdd("alliable", "available");
             correctionAdd("avaible", "available");
             correctionAdd("aviable", "available");
             correctionAdd("avail", "available");
@@ -56252,6 +56267,7 @@ namespace OverflowHelper.core
             correctionAdd("non numeric", "nonnumeric");
 
             correctionAdd("alpha numeric", "alphanumeric");
+            correctionAdd("alpha-numeric", "alphanumeric");
             correctionAdd("Alphanumeric", "alphanumeric");
             correctionAdd("AlphaNumeric", "alphanumeric");
 
@@ -57801,14 +57817,18 @@ namespace OverflowHelper.core
             correctionAdd("hirarachy", "hierarchy");
             correctionAdd("Hierarchy", "hierarchy");
             correctionAdd("hiareachy", "hierarchy");
+            correctionAdd("hirararcy", "hierarchy");
+            correctionAdd("hirerarcy", "hierarchy");
             correctionAdd("hiarachy", "hierarchy");
             correctionAdd("hirarchy", "hierarchy");
             correctionAdd("Hiaerchy", "hierarchy");
             correctionAdd("hiaerchy", "hierarchy");
             correctionAdd("hierachy", "hierarchy");
             correctionAdd("hireachy", "hierarchy");
+            correctionAdd("hierarcy", "hierarchy");
             correctionAdd("hiarchy", "hierarchy");
             correctionAdd("hierchy", "hierarchy");
+            correctionAdd("hirarcy", "hierarchy");
 
             correctionAdd("hierarcheis", "hierarchies");
             correctionAdd("hiaerchies", "hierarchies");
@@ -59964,6 +59984,9 @@ namespace OverflowHelper.core
             correctionAdd("nfc", "NFC");
             correctionAdd("nrf", "NFC");
             correctionAdd("NRF", "NFC");
+
+            // Related to nRF52840, not NFC...
+            correctionAdd("nrf Connect", "nRF Connect");
 
             // Note: "wireless" is in an alternative word set
             correctionAdd("Wireless Communication", "wireless communication");
@@ -96421,6 +96444,7 @@ namespace OverflowHelper.core
             correctionAdd("Taylor-expansion", "Taylor expansion");
 
             correctionAdd("Time Series", "time series");
+            correctionAdd("time-series", "time series");
             correctionAdd("timeseries", "time series");
 
             correctionAdd("Divergent Series", "divergent series");
@@ -98012,9 +98036,12 @@ namespace OverflowHelper.core
             correctionAdd("Unix&Linux", "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)");
             correctionAdd("unix/linux", "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)");
             correctionAdd("Unix/Linux", "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)");
+            correctionAdd("Unix site", "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)");
             correctionAdd("unix.SO", "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)");
             correctionAdd("unix.SE", "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)");
             correctionAdd("unix.se", "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)");
+            correctionAdd("Unix SE", "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)");
+            correctionAdd("Unix.SE", "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)");
             correctionAdd("U&L SE", "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)");
             correctionAdd("U&L_SE", "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)");
             correctionAdd("UL&U", "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)");
@@ -110234,6 +110261,8 @@ namespace OverflowHelper.core
             URL_Add("source control management", "https://en.wikipedia.org/wiki/Version_control");
 
             URL_Add("style", "https://en.wiktionary.org/wiki/style#Noun");
+
+            URL_Add("restyle", "https://en.wiktionary.org/wiki/restyle#Verb");
 
             URL_Add("value", "https://en.wiktionary.org/wiki/value#Noun");
 
@@ -129159,6 +129188,8 @@ namespace OverflowHelper.core
 
             URL_Add("marketplace", "https://en.wiktionary.org/wiki/marketplace#Noun");
 
+            URL_Add("aftermarket", "https://en.wiktionary.org/wiki/aftermarket#Noun");
+
             URL_Add("stock market", "https://en.wikipedia.org/wiki/Stock_market");
 
             URL_Add("supermarket", "https://en.wiktionary.org/wiki/supermarket#Noun");
@@ -144695,6 +144726,10 @@ namespace OverflowHelper.core
 
             URL_Add("ESP32-C3", "https://github.com/e-tinkers/e-tinkers-esp32-c3-board");
 
+            URL_Add("WS281X", "https://www.espboards.dev/blog/addressable-led-strips-esp32/");
+
+            URL_Add("nRF Connect", "https://www.nordicsemi.com/Products/Development-tools/nrf-connect-for-desktop/download");
+
             URL_Add("Hail Mary", "https://en.wiktionary.org/wiki/Hail_Mary#Noun");
 
             URL_Add("rgb_matrix_indicators_kb()", "https://docs.qmk.fm/features/rgb_matrix#api-rgb-matrix-indicators-kb");
@@ -147006,8 +147041,6 @@ namespace OverflowHelper.core
             URL_Add("per-key RGB light in QMK", "https://pmortensen.eu/world2/2023/10/02/setting-rgb-colour-for-individual-keys-in-qmk/");
 
             URL_Add("Silverlight", "https://en.wikipedia.org/wiki/Microsoft_Silverlight"); // Associated with chemical element 47
-
-            URL_Add("WS281X", "https://www.espboards.dev/blog/addressable-led-strips-esp32/");
 
             URL_Add("slight", "https://en.wiktionary.org/wiki/slight#Adjective");
 
@@ -178564,6 +178597,7 @@ namespace OverflowHelper.core
             //       <https://github.com/Keychron/zmk/blob/keychron_bpro/app/boards/arm/keychron/Kconfig.board#L6>
             //
             correctionAdd("NRF52840___", "nRF52840___");
+            correctionAdd("nrf52840___", "nRF52840___");
             correctionAdd("nRF___", "nRF52840___");
 
             // A CMS, supposedly a successor to WordPress.
