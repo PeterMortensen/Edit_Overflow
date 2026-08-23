@@ -1644,6 +1644,7 @@ namespace OverflowHelper.core
             correctionAdd("dependencys", "dependencies");
             correctionAdd("depedencies", "dependencies");
             correctionAdd("dependencie", "dependencies");
+            correctionAdd("dependencis", "dependencies");
             correctionAdd("dependcies", "dependencies");
             correctionAdd("depencies", "dependencies");
             correctionAdd("dependies", "dependencies");
@@ -7121,6 +7122,8 @@ namespace OverflowHelper.core
             correctionAdd("poertop", "PowerTOP");
 
             correctionAdd("Tickets", "tickets");
+
+            correctionAdd("Translucency", "translucency");
 
             // The adjective
             correctionAdd("llight", "light");
@@ -19957,6 +19960,8 @@ namespace OverflowHelper.core
             correctionAdd("Rest In Peace", "rest in peace");
             correctionAdd("RIP", "rest in peace");
 
+            correctionAdd("pessism", "pessimism");
+
             correctionAdd("expresibility", "expressibility");
 
             correctionAdd("expresssion", "expression");
@@ -21977,6 +21982,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("I yam", "I’m");
             correctionAdd("i mam", "I’m");
+            correctionAdd("i 'am", "I’m");
             correctionAdd("I am", "I’m");
             correctionAdd("i am", "I’m");
             correctionAdd("I 'm", "I’m");
@@ -28537,6 +28543,7 @@ namespace OverflowHelper.core
             // Note: "usual" is in an alternative word set
             correctionAdd("usuallally", "usually");
             correctionAdd("usuallly", "usually");
+            correctionAdd("usuially", "usually");
             correctionAdd("Usaully", "usually");
             correctionAdd("Usually", "usually");
             correctionAdd("usaully", "usually");
@@ -68140,6 +68147,18 @@ namespace OverflowHelper.core
             correctionAdd("Ror", "Ruby on Rails");
             correctionAdd("RoR", "Ruby on Rails");
 
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/1vv1qmb/comment/p55tn9a/>
+            //
+            //     <https://world.hey.com/dhh/as-i-remember-london-e7d38e64>
+            //     <https://world.hey.com/dhh/wolves-sheep-and-gypsies-ba44af6a>
+            //     <https://world.hey.com/dhh/i-m-sorry-dave-380ec27d>
+            //
+            //   <https://www.youtube.com/playlist?list=PL3m89j0mV0peRhnSw1Gyi9mkMDEpZNsrn>
+            //
+            //     <https://world.hey.com/dhh/youtube-has-earned-its-crown-48f12ccc>
+            //
             correctionAdd("DHH", "David Heinemeier Hansson");
 
             // A web server. Ruby on Rails
@@ -82624,6 +82643,13 @@ namespace OverflowHelper.core
             // A 34-key (30%) wired-only QMK/Via-capable
             // macro pad/game pad without a knob.
             //
+            // Related:
+            //
+            //   C100
+            //
+            //     <https://www.keychron.com/products/keychron-c100-8k-giant-custom-macro-pad>
+            //     <https://www.techpowerup.com/351570/keychron-launches-comically-large-c100-8k-100-key-mechanical-macro-pad>
+            //
             // Notes:
             //
             //   * Proprietary keyboard firmware, not open source
@@ -83174,6 +83200,7 @@ namespace OverflowHelper.core
             //   <https://squalius-cephalus.github.io/silakka54/>
             //
             correctionAdd("silakka54", "Silakka54");
+            correctionAdd("silaaka54", "Silakka54");
             correctionAdd("silakka", "Silakka54");
 
             // A 56-key (55%. Not true TKL) crippled split ergonomic
@@ -92743,6 +92770,7 @@ namespace OverflowHelper.core
             // ISO product page:
             //
             //   <https://www.keychron.mx/products/keychron-v6-ultra-8k-wireless-custom-mechanical-keyboard-iso-layout-collection>
+            //     Note: Mexico...
             //
             // Notes:
             //
@@ -146958,6 +146986,8 @@ namespace OverflowHelper.core
 
             URL_Add("backscatter", "https://en.wikipedia.org/wiki/Backscatter");
 
+            URL_Add("translucency", "https://en.wiktionary.org/wiki/translucency#Noun");
+
             URL_Add("light", "https://en.wiktionary.org/wiki/light#Adjective");
 
             URL_Add("lightly", "https://en.wiktionary.org/wiki/lightly#Adverb");
@@ -149293,6 +149323,8 @@ namespace OverflowHelper.core
             URL_Add("São Paulo", "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo");
 
             URL_Add("Brazilian Technical Standards Association", "https://en.wikipedia.org/wiki/Brazilian_Technical_Standards_Association");
+
+            URL_Add("pessimism", "https://en.wiktionary.org/wiki/pessimism#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -163127,6 +163159,7 @@ namespace OverflowHelper.core
             correctionAdd("extend_", "extent_");
 
             correctionAdd("quide_", "guide_");
+            correctionAdd("guild_", "guide_");
             correctionAdd("guid_", "guide_");
             correctionAdd("guie_", "guide_");
 
@@ -164942,6 +164975,7 @@ namespace OverflowHelper.core
             // Mechanical keyboards
             correctionAdd("wrist wrest_", "wrist rest_");
             correctionAdd("wrist-wrest_", "wrist rest_");
+            correctionAdd("Wrist wrest_", "wrist rest_");
             correctionAdd("Wrist Rest_", "wrist rest_");
             correctionAdd("wrist-rest_", "wrist rest_");
             correctionAdd("wristwrest_", "wrist rest_");
