@@ -4356,6 +4356,22 @@ namespace OverflowHelper.core
             correctionAdd("whole-sale", "wholesale");
             correctionAdd("whole sale", "wholesale");
 
+            correctionAdd("speack", "speak");
+            correctionAdd("speek", "speak");
+            correctionAdd("soeak", "speak");
+            correctionAdd("peak", "speak");
+
+            correctionAdd("peaks", "speaks");
+
+            correctionAdd("speacking", "speaking");
+            correctionAdd("speakig", "speaking");
+
+            correctionAdd("miss spoke", "misspoke");
+
+            correctionAdd("so-to-speak", "so to speak");
+
+            correctionAdd("espeak", "ESpeak");
+
             correctionAdd("pricess", "princess");
 
             correctionAdd("prize", "price");
@@ -12088,6 +12104,9 @@ namespace OverflowHelper.core
 
             correctionAdd("sun setted", "sunsetted");
             correctionAdd("sunset", "sunsetted");
+
+            // Arduino
+            correctionAdd("Shields", "shields");
 
             correctionAdd("sheilded", "shielded");
             correctionAdd("Sheilded", "shielded");
@@ -34388,19 +34407,6 @@ namespace OverflowHelper.core
             //
             correctionAdd("peaked my interest", "piqued my interest");
 
-            correctionAdd("speack", "speak");
-            correctionAdd("speek", "speak");
-            correctionAdd("soeak", "speak");
-
-            correctionAdd("speacking", "speaking");
-            correctionAdd("speakig", "speaking");
-
-            correctionAdd("miss spoke", "misspoke");
-
-            correctionAdd("so-to-speak", "so to speak");
-
-            correctionAdd("espeak", "ESpeak");
-
             correctionAdd("Load Balancing", "load balancing");
             correctionAdd("load-balancing", "load balancing");
             correctionAdd("load balance", "load balancing");
@@ -43081,6 +43087,7 @@ namespace OverflowHelper.core
             correctionAdd("tantalum", "tantalum capacitor");
             correctionAdd("Tant", "tantalum capacitor");
 
+            correctionAdd("ceramical", "ceramic");
             correctionAdd("Ceramic", "ceramic");
 
             correctionAdd("Electrolytic", "electrolytic");
@@ -45590,12 +45597,15 @@ namespace OverflowHelper.core
             correctionAdd("EmbOS", "embOS");
 
             correctionAdd("Mikroelektronika", "MikroElektronika");
+            correctionAdd("Mikro Elektronika", "MikroElektronika");
             correctionAdd("MIKROE", "MikroElektronika");
+            correctionAdd("Mikroe", "MikroElektronika");
 
             correctionAdd("mikrotik", "MikroTik");
 
             // A C compiler from MikroElektronika for embedded systems
             // Note: "k" in mikro
+            correctionAdd("Mikroe C", "mikroC");
             correctionAdd("MicroC", "mikroC");
 
             // An IDE for embedded systems
@@ -46305,6 +46315,7 @@ namespace OverflowHelper.core
             correctionAdd("Lilypad", "LilyPad");
 
             correctionAdd("netduiono", "Netduino");
+            correctionAdd("netduino", "Netduino");
 
             // An Arduino development board clone
             //
@@ -47235,6 +47246,7 @@ namespace OverflowHelper.core
 
             // Apple's
             correctionAdd("object pascal", "Object Pascal");
+            correctionAdd("object Pascal", "Object Pascal");
 
             // Borland. Pascal. Uses a dialect of Object Pascal.
             correctionAdd("DELPHI", "Delphi");
@@ -53473,6 +53485,8 @@ namespace OverflowHelper.core
 
             correctionAdd("baseclass", "base class");
 
+            correctionAdd("object orientedness", "object-orientedness");
+
             correctionAdd("object orientated", "object-oriented (OO)");
             correctionAdd("Object orientated", "object-oriented (OO)");
             correctionAdd("Object Orientated", "object-oriented (OO)");
@@ -56799,9 +56813,6 @@ namespace OverflowHelper.core
 
             // CAN bus. Software, for Windows. By PEAK.
             correctionAdd("PCAN-view", "PCAN-View");
-
-            // A vendor of hardware and software for CAN bus
-            correctionAdd("peak", "PEAK");
 
             // CAN bus. Software
             correctionAdd("CANOe", "CANoe");
@@ -69930,6 +69941,8 @@ namespace OverflowHelper.core
 
             correctionAdd("pay walled", "paywalled");
             correctionAdd("paywaled", "paywalled");
+
+            correctionAdd("GoogleTV", "Google TV");
 
             correctionAdd("Android Pay", "Google Wallet");
             correctionAdd("Wallet", "Google Wallet");
@@ -88887,6 +88900,7 @@ namespace OverflowHelper.core
             //      What about the P HE series???
             //
             correctionAdd("Keychron Lemokey P3 HE", "Keychron&nbsp;Lemokey&nbsp;P3&nbsp;HE"); // Sort of identity mapping
+            correctionAdd("P3&nbsp;HE", "Keychron&nbsp;Lemokey&nbsp;P3&nbsp;HE");
             correctionAdd("P3 HE", "Keychron&nbsp;Lemokey&nbsp;P3&nbsp;HE");
 
             // A 88-key (85%. True TKL) crippled wired-only
@@ -121474,6 +121488,8 @@ namespace OverflowHelper.core
 
             URL_Add("Google Wallet", "https://en.wikipedia.org/wiki/Google_Wallet");
 
+            URL_Add("Google TV", "https://en.wikipedia.org/wiki/Google_TV_(service)");
+
             URL_Add("high fives", "https://en.wiktionary.org/wiki/high_five#Noun");
 
             URL_Add("Java&nbsp;19", "https://en.wikipedia.org/wiki/Java_version_history#Java_19");
@@ -130828,11 +130844,11 @@ namespace OverflowHelper.core
 
             URL_Add("piqued my interest", "https://dictionary.cambridge.org/us/dictionary/english/pique-curiosity-interest-etc");
 
-            URL_Add("PEAK", "https://www.peak-system.com/Contact.54.0.html");
-
             URL_Add("peak-to-peak", "https://en.wikipedia.org/wiki/Amplitude#Peak-to-peak_amplitude");
 
             URL_Add("speak", "https://en.wiktionary.org/wiki/speak#Verb");
+
+            URL_Add("speaks", "https://en.wiktionary.org/wiki/speak#Verb");
 
             URL_Add("speaking", "https://en.wiktionary.org/wiki/speak#Verb");
 
@@ -133182,6 +133198,8 @@ namespace OverflowHelper.core
 
             URL_Add("shield", "https://www.arduino.cc/en/Main/ArduinoShields"); // Old: <http://www.arduino.cc/en/Main/ArduinoShields>
 
+            URL_Add("shields", "https://www.arduino.cc/en/Main/ArduinoShields");
+
             URL_Add("shielded", "https://en.wiktionary.org/wiki/shielded#Adjective");
 
             URL_Add("1930s", "https://en.wikipedia.org/wiki/1930s");
@@ -133457,6 +133475,8 @@ namespace OverflowHelper.core
             URL_Add("object-oriented programming", "https://en.wikipedia.org/wiki/Object-oriented_programming");
 
             URL_Add("object-oriented (OO)", "https://en.wikipedia.org/wiki/Object-orientation");
+
+            URL_Add("object-orientedness", "https://iue.tuwien.ac.at/phd/fasching/node30.html");
 
             URL_Add("inheritance", "https://en.wiktionary.org/wiki/inheritance#Noun");
 
@@ -151059,6 +151079,8 @@ namespace OverflowHelper.core
             correctionAdd("Overtime_", "overtime_");
             correctionAdd("OT_", "overtime_");
 
+            correctionAdd("Stack_", "stack_");
+
             correctionAdd("CMs_", "Community Manager_"); // Not 100% correct - plural.
             correctionAdd("CM_", "Community Manager_");
 
@@ -151223,6 +151245,8 @@ namespace OverflowHelper.core
             correctionAdd("snippets_", "Stack Snippets_");
             correctionAdd("snipets_", "Stack Snippets_");
             correctionAdd("snippet_", "Stack Snippets_");
+
+            correctionAdd("glossary_", "Stack Exchange glossary_");
 
             correctionAdd("suze_", "size_");
             correctionAdd("Size_", "size_");
@@ -154445,8 +154469,6 @@ namespace OverflowHelper.core
 
             correctionAdd("entreprise_", "enterprise_");
             correctionAdd("Enterprise_", "enterprise_");
-
-            correctionAdd("Stack_", "stack_");
 
             correctionAdd("reight_", "right_");
             correctionAdd("rigth_", "right_");
@@ -157949,6 +157971,7 @@ namespace OverflowHelper.core
             correctionAdd("must'v e_", "must have_");
             correctionAdd("must've_", "must have_");
 
+            correctionAdd("mostest_", "most_");
             correctionAdd("moist_", "most_");
             correctionAdd("musr_", "most_");
             correctionAdd("must_", "most_");
@@ -165405,6 +165428,11 @@ namespace OverflowHelper.core
             correctionAdd("EMX_", "Twitter_");
             correctionAdd("X_", "Twitter_");
 
+            // A vendor of hardware and software for CAN bus
+            correctionAdd("peak_", "PEAK_");
+
+            correctionAdd("repro_", "reproduction_");
+
             // C. A book
             //
             // Authors: Brian Kernighan and Dennis Ritchie
@@ -168187,8 +168215,6 @@ namespace OverflowHelper.core
 
             URL_Add("cross-reference_", "https://en.wiktionary.org/wiki/cross-reference#Noun");
 
-            URL_Add("shield_", "https://en.wiktionary.org/wiki/shield#Noun");
-
             URL_Add("type library file_", "https://learn.microsoft.com/en-us/windows/win32/midl/com-dcom-and-type-libraries");
 
             URL_Add("mhchem (MathJax)_", "https://docs.mathjax.org/en/latest/input/tex/extensions/mhchem.html");
@@ -170049,6 +170075,14 @@ namespace OverflowHelper.core
 
             URL_Add("Multi-Threaded Apartment_", "https://en.wikipedia.org/wiki/Component_Object_Model#Threading");
 
+            URL_Add("PEAK_", "https://www.peak-system.com/Contact.54.0.html");
+
+            URL_Add("shield_", "https://en.wiktionary.org/wiki/shield#Noun");
+
+            URL_Add("reproduction_", "https://en.wiktionary.org/wiki/reproduction#Noun");
+
+            URL_Add("Stack Exchange glossary_", "https://meta.stackexchange.com/questions/40353/stack-exchange-glossary-dictionary-of-commonly-used-terms");
+
         } //addLookupData_alternativeWordSet()
 
 
@@ -170347,6 +170381,7 @@ namespace OverflowHelper.core
 
             // The adverb
             correctionAdd("lesss__", "less__");
+            correctionAdd("les__", "less__");
 
             // Noun. As in brand. E.g., as in
             // "What make of car do you drive?"
