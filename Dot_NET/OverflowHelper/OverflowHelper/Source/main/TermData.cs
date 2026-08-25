@@ -3043,6 +3043,12 @@ namespace OverflowHelper.core
 
             correctionAdd("roothlessly", "ruthlessly");
 
+            // '1. Expression of disgust or nausea.'
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/eew#Interjection>
+            //
             correctionAdd("eew", "ew");
 
             correctionAdd("discusting", "disgusting");
@@ -4154,6 +4160,7 @@ namespace OverflowHelper.core
             // Note: "have" is in an alternative word set...
             correctionAdd("I'ive", "I’ve");
             correctionAdd("I 've", "I’ve");
+            correctionAdd("i 've", "I’ve");
             correctionAdd("Iv'e", "I’ve");
             correctionAdd("I've", "I’ve");
             correctionAdd("I´ve", "I’ve");
@@ -37615,7 +37622,6 @@ namespace OverflowHelper.core
             correctionAdd("chat.gpt", "ChatGPT");
             correctionAdd("Chat-gpt", "ChatGPT");
             correctionAdd("chat-gpt", "ChatGPT");
-            correctionAdd("chat gtp", "ChatGPT");
             correctionAdd("chat gbt", "ChatGPT");
             correctionAdd("chat got", "ChatGPT");
             correctionAdd("chat GPT", "ChatGPT");
@@ -37626,6 +37632,9 @@ namespace OverflowHelper.core
             correctionAdd("chat Gpt", "ChatGPT");
             correctionAdd("Chat_GPT", "ChatGPT");
             correctionAdd("GPT chat", "ChatGPT");
+            correctionAdd("chat gtp", "ChatGPT");
+            correctionAdd("Chat GTP", "ChatGPT");
+            correctionAdd("chat GTP", "ChatGPT");
             correctionAdd("chatGPT", "ChatGPT");
             correctionAdd("chatgpt", "ChatGPT");
             correctionAdd("GPTChat", "ChatGPT");
@@ -37636,7 +37645,6 @@ namespace OverflowHelper.core
             correctionAdd("ChatGpt", "ChatGPT");
             correctionAdd("chatGpt", "ChatGPT");
             correctionAdd("CHATGPT", "ChatGPT");
-            correctionAdd("ChatGTP", "ChatGPT");
             correctionAdd("CHATgpt", "ChatGPT");
             correctionAdd("Chatgpt", "ChatGPT");
             correctionAdd("SpamGPT", "ChatGPT");
@@ -37647,6 +37655,8 @@ namespace OverflowHelper.core
             correctionAdd("ChatGpT", "ChatGPT");
             correctionAdd("ChatCPT", "ChatGPT");
             correctionAdd("CharGPT", "ChatGPT");
+            correctionAdd("ChatGTP", "ChatGPT");
+            correctionAdd("chatGTP", "ChatGPT");
             correctionAdd("C-GPT", "ChatGPT");
             correctionAdd("puppy", "ChatGPT");
             correctionAdd("CGPT", "ChatGPT");
@@ -37682,6 +37692,10 @@ namespace OverflowHelper.core
             //
             correctionAdd("vibe code", "vibecode");
 
+            // Simulated intelligence
+            //
+            // Related: Claude Code, Codex, Cursor, and Gemini CLI
+            //
             correctionAdd("opencode", "OpenCode");
 
             // Simulated intelligence
@@ -92832,7 +92846,11 @@ namespace OverflowHelper.core
             //
             //     The V6 8K (V6 QMK?) product is available as of 2026-02-20:
             //
+            //       <https://keychron.ca/products/keychron-v6-8k-qmk-wired-custom-mechanical-keyboard-iso-layout-collection>
+            //         'ISO'
+            //
             //       <https://www.keychron.com/products/keychron-v6-8k-qmk-wired-custom-mechanical-keyboard>
+            //         'ANSI'
             //
             //       The source code *may* have been released:
             //
@@ -123001,8 +123019,6 @@ namespace OverflowHelper.core
 
             URL_Add("KiTTY", "https://en.wikipedia.org/wiki/Kitty_(terminal_emulator)");
 
-            URL_Add("OSXDaily", "https://osxdaily.com/about/");
-
             URL_Add("Xming", "https://en.wikipedia.org/wiki/Xming");
 
             URL_Add("gq", "https://vimdoc.sourceforge.net/htmldoc/change.html#gq");
@@ -149383,6 +149399,8 @@ namespace OverflowHelper.core
 
             URL_Add("blessing in disguise", "https://en.wiktionary.org/wiki/blessing_in_disguise#Noun");
 
+            URL_Add("OSXDaily", "https://osxdaily.com/about/");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -150268,6 +150286,7 @@ namespace OverflowHelper.core
             // Simulated intelligence
             //
             // Probably an Anthropic term
+            //
             correctionAdd("skill_", "agent skill_");
 
             // Simulated intelligence
@@ -161993,6 +162012,7 @@ namespace OverflowHelper.core
             correctionAdd("finde_", "fine_");
             correctionAdd("fien_", "fine_");
             correctionAdd("fins_", "fine_");
+            correctionAdd("fide_", "fine_"); // Probably a true typo, e.g., involving the space bar and the next word
             correctionAdd("fin_", "fine_");
 
             correctionAdd("karnaugh map_", "Karnaugh map_");
@@ -170226,13 +170246,6 @@ namespace OverflowHelper.core
             // Mathematica. Rule-based integration
             correctionAdd("rubi__", "Rubi__");
 
-            correctionAdd("smath__", "match__");
-            correctionAdd("macth__", "match__");
-            correctionAdd("Match__", "match__");
-            correctionAdd("much__", "match__");
-
-            correctionAdd("vm__", "very much__");
-
             // Misplaced formality (the incorrect words)
             //
             // Mostly for the Wikipedia reference
@@ -172979,7 +172992,24 @@ namespace OverflowHelper.core
             // Aviation
             correctionAdd("LAS__", "McCarran International Airport__");
 
+            correctionAdd("vm__", "very much__");
+
+            correctionAdd("smath__", "match__");
+            correctionAdd("Match__", "match__");
+            correctionAdd("macth__", "match__");
+            correctionAdd("much__", "match__");
+
             correctionAdd("mac__", "Mac__"); // The computer. For the Wiktionary entry
+
+            // Mostly for the URL
+            correctionAdd("Mac&nbsp;OS&nbsp;X__", "OS&nbsp;X__");
+            correctionAdd("Mac OS X__", "OS&nbsp;X__");
+            correctionAdd("macOS__", "OS&nbsp;X__");
+            correctionAdd("OS X__", "OS&nbsp;X__"); // Sort of identity mapping
+            correctionAdd("OSX__", "OS&nbsp;X__");
+
+            // Not to be confused with MacBook Pro...
+            correctionAdd("MacPro__", "Mac Pro__");
 
             correctionAdd("MacBook Pro M3 Max__", "M3 Max MacBook Pro__");
             correctionAdd("MacBook Pro M3__", "M3 Max MacBook Pro__");
@@ -173007,6 +173037,17 @@ namespace OverflowHelper.core
             correctionAdd("parallels__", "GNU parallel__");
             correctionAdd("Parallel__", "GNU parallel__");
             correctionAdd("parallel__", "GNU parallel__");
+
+            // Mac-only software for vector graphics editor
+            //
+            // Not to be confused with Google's SketchUp.
+            //
+            correctionAdd("sketch__", "Sketch__");
+
+            // Software for vector designs for web and
+            // mobile applications,
+            correctionAdd("Adobe Experience Design__", "Adobe XD__");
+            correctionAdd("XD__", "Adobe XD__");
 
             // 2002 vintage
             correctionAdd("Mac OS X v10.2 (Jaguar) (2002 vintage)__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar) (2002 vintage)__"); // Sort of identity mapping
@@ -173261,17 +173302,6 @@ namespace OverflowHelper.core
             correctionAdd("sequa__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
             correctionAdd("OS15__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
             correctionAdd("15__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
-
-            // Mac-only software for vector graphics editor
-            //
-            // Not to be confused with Google's SketchUp.
-            //
-            correctionAdd("sketch__", "Sketch__");
-
-            // Software for vector designs for web and
-            // mobile applications,
-            correctionAdd("Adobe Experience Design__", "Adobe XD__");
-            correctionAdd("XD__", "Adobe XD__");
 
             // The common noun
             correctionAdd("winodw__", "window__");
@@ -174783,9 +174813,6 @@ namespace OverflowHelper.core
             // For the reverse, to the abbr.
             correctionAdd("model–view–controller__", "MVC__");
 
-            // Not to be confused with MacBook Pro...
-            correctionAdd("MacPro__", "Mac Pro__");
-
             correctionAdd("med__", "medication__");
 
             correctionAdd("by the way__", "BTW__");
@@ -175127,8 +175154,6 @@ namespace OverflowHelper.core
 
             URL_Add("CIA__", "https://en.wikipedia.org/wiki/Central_Intelligence_Agency");
 
-            URL_Add("Adobe XD__", "https://en.wikipedia.org/wiki/Adobe_XD");
-
             URL_Add("OpenCV__", "https://en.wikipedia.org/wiki/OpenCV");
 
             URL_Add("obvious__", "https://en.wiktionary.org/wiki/obvious#Adjective");
@@ -175287,8 +175312,6 @@ namespace OverflowHelper.core
 
             URL_Add("Firefly PC Remote__", "https://en.wikipedia.org/wiki/SnapStream#Firefly_PC_Remote");
 
-            URL_Add("GNU parallel__", "https://en.wikipedia.org/wiki/GNU_parallel");
-
             URL_Add("Street Fighter__", "https://en.wikipedia.org/wiki/Street_Fighter");
 
             URL_Add("Take Command Console__", "https://en.wikipedia.org/wiki/Take_Command_Console");
@@ -175353,8 +175376,6 @@ namespace OverflowHelper.core
 
             URL_Add("WAN__", "https://en.wikipedia.org/wiki/Wide_area_network");
 
-            URL_Add("M3 Max MacBook Pro__", "https://en.wikipedia.org/wiki/MacBook_Pro#14-inch_and_16-inch_(2021%E2%80%93present)");
-
             URL_Add("AZERTY__", "https://en.wikipedia.org/wiki/AZERTY");
 
             URL_Add("Razer__", "https://en.wikipedia.org/wiki/Razer_Inc.");
@@ -175394,10 +175415,6 @@ namespace OverflowHelper.core
             URL_Add("base__", "https://en.wikipedia.org/wiki/Radix");
 
             URL_Add("precedent__", "https://en.wiktionary.org/wiki/precedent#Noun");
-
-            URL_Add("Boot Camp__", "https://en.wikipedia.org/wiki/Boot_Camp_%28software%29");
-
-            URL_Add("Swift Playgrounds__", "https://en.wikipedia.org/wiki/Swift_Playgrounds");
 
             URL_Add("human resources__", "https://en.wikipedia.org/wiki/Human_resources");
 
@@ -175933,26 +175950,6 @@ namespace OverflowHelper.core
 
             URL_Add("Ctrl + U__", "https://stackoverflow.com/questions/9679776/how-do-i-clear-delete-the-current-line-in-terminal/16687377#16687377");
 
-            URL_Add("Mac__", "https://en.wiktionary.org/wiki/Mac#Noun_2");
-
-            URL_Add("Mac Pro__", "https://en.wikipedia.org/wiki/Mac_Pro");
-
-            URL_Add("Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar) (2002 vintage)__", "https://en.wikipedia.org/wiki/Mac_OS_X_v10.2");
-
-            URL_Add("Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__", "https://en.wikipedia.org/wiki/OS_X_Lion"); // Old: https://en.wikipedia.org/wiki/Mac_OS_X_Lion
-
-            URL_Add("Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__", "https://en.wikipedia.org/wiki/OS_X_Yosemite");
-
-            URL_Add("macOS&nbsp;v11 (Big Sur) (2020 vintage)__", "https://en.wikipedia.org/wiki/MacOS_Big_Sur");
-
-            URL_Add("macOS&nbsp;v12 (Monterey) (2021 vintage)__", "https://en.wikipedia.org/wiki/MacOS_Monterey");
-
-            URL_Add("macOS&nbsp;v13 (Ventura) (2022 vintage)__", "https://en.wikipedia.org/wiki/MacOS_Ventura");
-
-            URL_Add("macOS&nbsp;v14 (Sonoma) (2023 vintage)__", "https://en.wikipedia.org/wiki/MacOS_Sonoma");
-
-            URL_Add("macOS&nbsp;v15 (Sequoia) (2024 vintage)__", "https://en.wikipedia.org/wiki/MacOS_Sequoia");
-
             URL_Add("KSA keycap profile__", "https://thekeeblog.com/overview-of-different-keycap-profiles/#KSA_Profile");
 
             URL_Add("SA keycap profile__", "https://www.youtube.com/watch?v=xLT2VcrQHrQ&t=3m13s");
@@ -176039,8 +176036,6 @@ namespace OverflowHelper.core
 
             URL_Add("Kali Linux__", "https://en.wikipedia.org/wiki/Kali_Linux");
 
-            URL_Add("Sketch__", "https://en.wikipedia.org/wiki/Sketch_(software)");
-
             URL_Add("ESP32__", "https://en.wikipedia.org/wiki/ESP32");
 
             URL_Add("ps__", "https://en.wikipedia.org/wiki/Ps_(Unix)");
@@ -176048,8 +176043,6 @@ namespace OverflowHelper.core
             URL_Add("heard__", "https://en.wiktionary.org/wiki/hear#Verb");
 
             URL_Add("stack overflow__", "https://en.wikipedia.org/wiki/Stack_overflow");
-
-            URL_Add("Time Machine__", "https://en.wikipedia.org/wiki/Time_Machine_(macOS)");
 
             URL_Add("pkg__", "https://en.wikipedia.org/wiki/Image_Packaging_System");
 
@@ -176324,6 +176317,42 @@ namespace OverflowHelper.core
             URL_Add("Odysee__", "https://en.wikipedia.org/wiki/Odysee");
 
             URL_Add("PCI Express Mini Card__", "https://en.wikipedia.org/wiki/PCI_Express#PCI_Express_Mini_Card");
+
+            URL_Add("Mac__", "https://en.wiktionary.org/wiki/Mac#Noun_2");
+
+            URL_Add("OS&nbsp;X__", "https://en.wikipedia.org/wiki/OS_X");
+
+            URL_Add("Mac Pro__", "https://en.wikipedia.org/wiki/Mac_Pro");
+
+            URL_Add("M3 Max MacBook Pro__", "https://en.wikipedia.org/wiki/MacBook_Pro#14-inch_and_16-inch_(2021%E2%80%93present)");
+
+            URL_Add("Time Machine__", "https://en.wikipedia.org/wiki/Time_Machine_(macOS)");
+
+            URL_Add("Boot Camp__", "https://en.wikipedia.org/wiki/Boot_Camp_%28software%29");
+
+            URL_Add("Swift Playgrounds__", "https://en.wikipedia.org/wiki/Swift_Playgrounds");
+
+            URL_Add("GNU parallel__", "https://en.wikipedia.org/wiki/GNU_parallel");
+
+            URL_Add("Sketch__", "https://en.wikipedia.org/wiki/Sketch_(software)");
+
+            URL_Add("Adobe XD__", "https://en.wikipedia.org/wiki/Adobe_XD");
+
+            URL_Add("Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar) (2002 vintage)__", "https://en.wikipedia.org/wiki/Mac_OS_X_v10.2");
+
+            URL_Add("Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__", "https://en.wikipedia.org/wiki/OS_X_Lion"); // Old: https://en.wikipedia.org/wiki/Mac_OS_X_Lion
+
+            URL_Add("Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__", "https://en.wikipedia.org/wiki/OS_X_Yosemite");
+
+            URL_Add("macOS&nbsp;v11 (Big Sur) (2020 vintage)__", "https://en.wikipedia.org/wiki/MacOS_Big_Sur");
+
+            URL_Add("macOS&nbsp;v12 (Monterey) (2021 vintage)__", "https://en.wikipedia.org/wiki/MacOS_Monterey");
+
+            URL_Add("macOS&nbsp;v13 (Ventura) (2022 vintage)__", "https://en.wikipedia.org/wiki/MacOS_Ventura");
+
+            URL_Add("macOS&nbsp;v14 (Sonoma) (2023 vintage)__", "https://en.wikipedia.org/wiki/MacOS_Sonoma");
+
+            URL_Add("macOS&nbsp;v15 (Sequoia) (2024 vintage)__", "https://en.wikipedia.org/wiki/MacOS_Sequoia");
 
         } //addLookupData_alternativeWordSet2()
 
@@ -178932,8 +178961,6 @@ namespace OverflowHelper.core
 
             URL_Add("footswitch___", "https://en.wiktionary.org/wiki/footswitch#Noun");
 
-            URL_Add("C macro___", "https://en.wikipedia.org/wiki/C_preprocessor#Macro_string_replacement");
-
             URL_Add("comment___", "https://en.wiktionary.org/wiki/comment#Verb");
 
             URL_Add("glide path___", "https://en.wiktionary.org/wiki/glide_path#Noun");
@@ -179172,8 +179199,6 @@ namespace OverflowHelper.core
 
             URL_Add("constant voltage___", "https://en.wikipedia.org/wiki/Voltage_source");
 
-            URL_Add("Apple silicon___", "https://en.wikipedia.org/wiki/Apple_silicon");
-
             URL_Add("he___", "https://en.wiktionary.org/wiki/he#Pronoun");
 
             URL_Add("map___", "https://en.wiktionary.org/wiki/map#Verb");
@@ -179406,11 +179431,15 @@ namespace OverflowHelper.core
 
             URL_Add("Prince Edward Island___", "https://en.wikipedia.org/wiki/Prince_Edward_Island");
 
+            URL_Add("C macro___", "https://en.wikipedia.org/wiki/C_preprocessor#Macro_string_replacement");
+
             URL_Add("Via blues___", "https://www.reddit.com/r/Keychron/comments/1g76o1e/comment/lsp51pj/");
+
+            URL_Add("disgusting engine move___", "https://en.wikipedia.org/wiki/Chess_engine");
 
             URL_Add("executable 'gcc' on macOS is the Clang compiler, not GCC___", "https://stackoverflow.com/questions/38840601/how-can-i-ignore-an-error-when-using-gcc-compile-option-werror#comment130977909_38840601");
 
-            URL_Add("disgusting engine move___", "https://en.wikipedia.org/wiki/Chess_engine");
+            URL_Add("Apple silicon___", "https://en.wikipedia.org/wiki/Apple_silicon");
 
         } //addLookupData_alternativeWordSet3()
 
@@ -183113,8 +183142,6 @@ namespace OverflowHelper.core
 
             URL_Add("network list_____", "https://en.wikipedia.org/wiki/Netlist");
 
-            URL_Add("Launchpad_____", "https://en.wikipedia.org/wiki/List_of_built-in_macOS_apps#Launchpad");
-
             URL_Add("normally closed_____", "https://en.wikipedia.org/wiki/Electrical_contact#Relay_contacts");
 
             URL_Add("normally open_____", "https://en.wikipedia.org/wiki/Electrical_contact#Relay_contacts");
@@ -183128,18 +183155,6 @@ namespace OverflowHelper.core
             URL_Add("Micro_____", "https://en.wikipedia.org/wiki/Small_form_factor_PC#Micro"); // Old: <https://en.wikipedia.org/wiki/Small_form_factor_(desktop_and_motherboard)#Micro>
 
             URL_Add("what the hell_____", "https://en.wiktionary.org/wiki/WTH#Interjection");
-
-            URL_Add("QMK macros_____", "https://getreuer.info/posts/keyboards/macros/index.html");
-
-            URL_Add("the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____", "https://www.reddit.com/r/Keychron/comments/1j092s2/comment/ml0wljn/");
-
-            URL_Add("the official QMK Git repository, Keychron keyboards_____", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/keychron");
-
-            URL_Add("non-US backslash key_____", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md#basic-keycodes-basic-keycodes");
-
-            URL_Add("Keychron 2024 Hall effect (HE) keyboard quality issues with self-repeating keys (1xx instances and counting)_____", "https://www.reddit.com/r/Keychron/comments/1geok1p/defective_key_on_k2_he/");
-
-            URL_Add("Git branch \"bluetooth_playground\" in Keychron's fork_____", "https://github.com/Keychron/qmk_firmware/tree/bluetooth_playground/keyboards/keychron/k10_pro");
 
             URL_Add("see_____", "https://en.wiktionary.org/wiki/see#Verb");
 
@@ -183160,8 +183175,6 @@ namespace OverflowHelper.core
             URL_Add("PS_____", "https://en.wiktionary.org/wiki/PS#Noun");
 
             URL_Add("completely bogus answers on Stack Overflow_____", "https://stackoverflow.com/questions/45347431/get-all-table-elements-in-python-using-selenium/45347883#45347883");
-
-            URL_Add("flux capacitor_____", "https://en.wikipedia.org/wiki/DeLorean_time_machine#Flux_capacitor"); // Old: https://en.wikipedia.org/wiki/DeLorean_time_machine
 
             URL_Add("n_____", "https://www.npmjs.com/package/n");
 
@@ -183208,6 +183221,22 @@ namespace OverflowHelper.core
             URL_Add("were_____", "https://www.wikihow.com/Use-Where,-Were-and-We're");
 
             URL_Add("than_____", "https://www.wikihow.com/Use-Than-and-Then");
+
+            URL_Add("flux capacitor_____", "https://en.wikipedia.org/wiki/DeLorean_time_machine#Flux_capacitor"); // Old: https://en.wikipedia.org/wiki/DeLorean_time_machine
+
+            URL_Add("QMK macros_____", "https://getreuer.info/posts/keyboards/macros/index.html");
+
+            URL_Add("the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____", "https://www.reddit.com/r/Keychron/comments/1j092s2/comment/ml0wljn/");
+
+            URL_Add("the official QMK Git repository, Keychron keyboards_____", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/keychron");
+
+            URL_Add("non-US backslash key_____", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md#basic-keycodes-basic-keycodes");
+
+            URL_Add("Keychron 2024 Hall effect (HE) keyboard quality issues with self-repeating keys (1xx instances and counting)_____", "https://www.reddit.com/r/Keychron/comments/1geok1p/defective_key_on_k2_he/");
+
+            URL_Add("Git branch \"bluetooth_playground\" in Keychron's fork_____", "https://github.com/Keychron/qmk_firmware/tree/bluetooth_playground/keyboards/keychron/k10_pro");
+
+            URL_Add("Launchpad_____", "https://en.wikipedia.org/wiki/List_of_built-in_macOS_apps#Launchpad");
 
             URL_Add("&nbsp;K_____", "https://en.wikipedia.org/wiki/Kelvin");
 
@@ -183816,8 +183845,6 @@ namespace OverflowHelper.core
             //
             URL_Add("at______", "https://en.wiktionary.org/wiki/at#Preposition");
 
-            URL_Add("increase the number of macros and increase the space for Via macros______", "https://www.reddit.com/r/macro_pads/comments/1ge7cbi/comment/lu9jlcy/");
-
             URL_Add("CyanogenMod______", "https://en.wikipedia.org/wiki/CyanogenMod");
 
             URL_Add("on______", "https://en.wiktionary.org/wiki/on#Preposition");
@@ -183860,8 +183887,6 @@ namespace OverflowHelper.core
 
             URL_Add("windowing______", "https://en.wikipedia.org/wiki/Suspicious_Russia-related_deaths_since_2022");
 
-            URL_Add("macro______", "https://en.wiktionary.org/wiki/macro#Noun_2");
-
             URL_Add("par for the course steps for HE (Hall effect switch) keyboards______", "https://www.reddit.com/r/Keychron/comments/1pisxi9/comment/nt8mmi3/");
 
             URL_Add("\\______", "https://en.wikipedia.org/wiki/Backslash");
@@ -183879,6 +183904,10 @@ namespace OverflowHelper.core
             URL_Add("Git branch \"2025q3\" in Keychron's fork, Lemokey______", "https://github.com/Keychron/qmk_firmware/tree/2025q3/keyboards/lemokey/");
 
             URL_Add("40&nbsp;°F______", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
+
+            URL_Add("increase the number of macros and increase the space for Via macros______", "https://www.reddit.com/r/macro_pads/comments/1ge7cbi/comment/lu9jlcy/");
+
+            URL_Add("macro______", "https://en.wiktionary.org/wiki/macro#Noun_2");
 
         } //addLookupData_alternativeWordSet6()
 
