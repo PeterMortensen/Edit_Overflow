@@ -4008,7 +4008,6 @@ namespace OverflowHelper.core
             correctionAdd("donw", "don’t");
             correctionAdd("dond", "don’t");
             correctionAdd("DONT", "don’t");
-            correctionAdd("on't", "don’t");
             correctionAdd("do t", "don’t");
             correctionAdd("dotn", "don’t");
             correctionAdd("dokt", "don’t");
@@ -4016,6 +4015,8 @@ namespace OverflowHelper.core
             correctionAdd("domt", "don’t");
             correctionAdd("d'on", "don’t");
             correctionAdd("dn't", "don’t");
+            correctionAdd("cont", "don’t");
+            correctionAdd("on't", "don’t");
             correctionAdd("ont", "don’t");
             correctionAdd("dun", "don’t");
             correctionAdd("don", "don’t");
@@ -22350,6 +22351,7 @@ namespace OverflowHelper.core
 
             correctionAdd("heath", "health");
 
+            correctionAdd("healthful", "healthy");
             correctionAdd("healty", "healthy");
 
             correctionAdd("unhealty", "unhealthy");
@@ -36399,25 +36401,14 @@ namespace OverflowHelper.core
             correctionAdd("encounted", "encountered");
             correctionAdd("encouterd", "encountered");
 
+            correctionAdd("continuous", "continues");
+
+            // Note: "continuous" is in an alternative word set
+            //
             correctionAdd("continiously", "continuously");
             correctionAdd("contunuously", "continuously");
             correctionAdd("continously", "continuously");
             correctionAdd("continuosly", "continuously");
-
-            correctionAdd("continiuous", "continuous");
-            correctionAdd("continuious", "continuous");
-            correctionAdd("continiouos", "continuous");
-            correctionAdd("continious", "continuous");
-            correctionAdd("condinuoes", "continuous");
-            correctionAdd("continiuos", "continuous");
-            correctionAdd("continuoes", "continuous");
-            correctionAdd("continous", "continuous");
-            correctionAdd("Continous", "continuous");
-            correctionAdd("continios", "continuous");
-            correctionAdd("continuos", "continuous");
-            correctionAdd("continues", "continuous");
-            correctionAdd("Continuos", "continuous");
-            correctionAdd("cont", "continuous");
 
             correctionAdd("continuate", "continue");
             correctionAdd("countinue", "continue");
@@ -108035,8 +108026,6 @@ namespace OverflowHelper.core
 
             URL_Add("phishing", "https://en.wikipedia.org/wiki/Phishing");
 
-            URL_Add("content management system (CMS)", "https://en.wikipedia.org/wiki/Content_management_system");
-
             URL_Add("HootSuite", "https://en.wikipedia.org/wiki/HootSuite");
 
             URL_Add("because", "https://en.wiktionary.org/wiki/because#Conjunction"); // Old: https://en.wiktionary.org/wiki/because
@@ -108923,10 +108912,6 @@ namespace OverflowHelper.core
 
             URL_Add("disappointed", "https://en.wiktionary.org/wiki/disappointed#Adjective");
 
-            URL_Add("contiguous", "https://en.wiktionary.org/wiki/contiguous#Adjective");
-
-            URL_Add("consecutive", "https://en.wiktionary.org/wiki/consecutive#Adjective");
-
             URL_Add("believe", "https://en.wiktionary.org/wiki/believe#Verb");
 
             URL_Add("pronunciation", "https://en.wiktionary.org/wiki/pronunciation#Noun"); // Old: https://en.wiktionary.org/wiki/pronounciation
@@ -109733,8 +109718,6 @@ namespace OverflowHelper.core
 
             URL_Add("coercive", "https://en.wiktionary.org/wiki/coercive#Adjective");
 
-            URL_Add("contrived", "https://en.wiktionary.org/wiki/contrived#Adjective");
-
             URL_Add("crash", "https://en.wiktionary.org/wiki/crash#Verb");
 
             URL_Add("day-to-day", "https://en.wiktionary.org/wiki/day-to-day#Adjective");
@@ -109964,8 +109947,6 @@ namespace OverflowHelper.core
             URL_Add("SoundCloud", "https://en.wikipedia.org/wiki/SoundCloud");
 
             URL_Add("connection", "https://en.wiktionary.org/wiki/connection#Noun");
-
-            URL_Add("containing", "https://en.wiktionary.org/wiki/contain#Verb");
 
             URL_Add("IMDb", "https://en.wikipedia.org/wiki/IMDb");
 
@@ -110737,8 +110718,6 @@ namespace OverflowHelper.core
 
             URL_Add("commodity", "https://en.wiktionary.org/wiki/commodity#Noun");
 
-            URL_Add("container", "https://en.wiktionary.org/wiki/container#Noun");
-
             URL_Add("installed", "https://en.wiktionary.org/wiki/install#Verb");
 
             URL_Add("trying", "https://en.wiktionary.org/wiki/trying#Verb");
@@ -111190,8 +111169,6 @@ namespace OverflowHelper.core
             URL_Add("guarantee", "https://en.wiktionary.org/wiki/guarantee#Noun");
 
             URL_Add("WebHost Manager", "https://en.wikipedia.org/wiki/CPanel#WHM");
-
-            URL_Add("contact", "https://en.wiktionary.org/wiki/contact#Verb");
 
             URL_Add("herd immunity", "https://en.wikipedia.org/wiki/Herd_immunity");
 
@@ -111843,8 +111820,6 @@ namespace OverflowHelper.core
 
             URL_Add("infinitely", "https://en.wiktionary.org/wiki/infinitely#Adverb");
 
-            URL_Add("Content Security Policy", "https://en.wikipedia.org/wiki/Content_Security_Policy");
-
             URL_Add("PARI/GP", "https://en.wikipedia.org/wiki/PARI/GP");
 
             URL_Add("SageMath", "https://en.wikipedia.org/wiki/SageMath");
@@ -112400,8 +112375,6 @@ namespace OverflowHelper.core
             URL_Add("Terraform", "https://en.wikipedia.org/wiki/Terraform_(software)");
 
             URL_Add("coffee", "https://en.wiktionary.org/wiki/coffee#Noun");
-
-            URL_Add("contentious", "https://en.wiktionary.org/wiki/contentious#Adjective");
 
             URL_Add("disappointing", "https://en.wiktionary.org/wiki/disappointing#Adjective");
 
@@ -113701,8 +113674,6 @@ namespace OverflowHelper.core
 
             URL_Add("PITA", "https://en.wiktionary.org/wiki/PITA#Noun");
 
-            URL_Add("controllable", "https://en.wiktionary.org/wiki/controllable#Adjective");
-
             URL_Add("deserialisation", "https://en.wiktionary.org/wiki/deserialisation#Noun");
 
             URL_Add("extendable", "https://en.wiktionary.org/wiki/extendable#Adjective");
@@ -113831,8 +113802,6 @@ namespace OverflowHelper.core
 
             URL_Add("British Medical Association", "https://en.wikipedia.org/wiki/British_Medical_Association");
 
-            URL_Add("contagion", "https://en.wiktionary.org/wiki/contagion#Noun");
-
             URL_Add("Loch Ness Monster", "https://en.wikipedia.org/wiki/Loch_Ness_Monster");
 
             URL_Add("circle", "https://en.wiktionary.org/wiki/circle#Noun");
@@ -113926,8 +113895,6 @@ namespace OverflowHelper.core
             URL_Add("PCLinuxOS", "https://en.wikipedia.org/wiki/PCLinuxOS");
 
             URL_Add("Robomongo", "https://robomongo.org/");
-
-            URL_Add("contains", "https://en.wiktionary.org/wiki/contain#Verb");
 
             URL_Add("left-hand side", "https://en.wiktionary.org/wiki/LHS#Noun");
 
@@ -114224,10 +114191,6 @@ namespace OverflowHelper.core
             URL_Add("utopic", "https://en.wiktionary.org/wiki/utopic#Adjective");
 
             URL_Add("ZMODEM", "https://en.wikipedia.org/wiki/ZMODEM");
-
-            URL_Add("controversial", "https://en.wiktionary.org/wiki/controversial#Adjective");
-
-            URL_Add("controversy", "https://en.wiktionary.org/wiki/controversy#Noun");
 
             URL_Add("reassign", "https://en.wiktionary.org/wiki/reassign#Verb");
 
@@ -114728,8 +114691,6 @@ namespace OverflowHelper.core
             URL_Add("tab character", "https://en.wikipedia.org/wiki/Tab_key#Tab_characters");
 
             URL_Add("Snell's law", "https://en.wikipedia.org/wiki/Snell's_law");
-
-            URL_Add("contacts", "https://en.wiktionary.org/wiki/contact#Noun");
 
             URL_Add("discreetly", "https://en.wiktionary.org/wiki/discreetly#Adverb");
 
@@ -115290,10 +115251,6 @@ namespace OverflowHelper.core
             URL_Add("deterrence", "https://en.wiktionary.org/wiki/deterrence#Noun");
 
             URL_Add("labour-intensive", "https://en.wiktionary.org/wiki/labour-intensive#Adjective");
-
-            URL_Add("Content-Type", "https://en.wikipedia.org/wiki/MIME#Content-Type");
-
-            URL_Add("MIME type", "https://en.wikipedia.org/wiki/MIME#MIME_header_fields");
 
             URL_Add("interfered", "https://en.wiktionary.org/wiki/interfere#Verb");
 
@@ -116343,8 +116300,6 @@ namespace OverflowHelper.core
 
             URL_Add("OnePlus A5000", "https://en.wikipedia.org/wiki/OnePlus_5");
 
-            URL_Add("contributes", "https://en.wiktionary.org/wiki/contribute#Verb");
-
             URL_Add("dual-boot", "https://en.wiktionary.org/wiki/dual-boot#Adjective");
 
             URL_Add("resetting", "https://en.wiktionary.org/wiki/reset#Verb");
@@ -116709,8 +116664,6 @@ namespace OverflowHelper.core
 
             URL_Add("PlanetMath", "https://en.wikipedia.org/wiki/PlanetMath");
 
-            URL_Add("contain", "https://en.wiktionary.org/wiki/contain#Verb");
-
             URL_Add("deprecated", "https://en.wiktionary.org/wiki/deprecate#Verb");
 
             URL_Add("described", "https://en.wiktionary.org/wiki/described#Verb");
@@ -116952,8 +116905,6 @@ namespace OverflowHelper.core
             URL_Add("Netty", "https://en.wikipedia.org/wiki/Netty_(software)");
 
             URL_Add("carburetor", "https://en.wikipedia.org/wiki/Carburetor");
-
-            URL_Add("controlled", "https://en.wiktionary.org/wiki/control#Verb");
 
             URL_Add("curmudgeon", "https://en.wiktionary.org/wiki/curmudgeon#Noun");
 
@@ -117966,8 +117917,6 @@ namespace OverflowHelper.core
             URL_Add("OVHcloud", "https://en.wikipedia.org/wiki/OVHcloud");
 
             URL_Add("WinUSB", "https://en.wikipedia.org/wiki/WinUSB");
-
-            URL_Add("contents", "https://en.wiktionary.org/wiki/contents#Noun_2");
 
             URL_Add("distinct", "https://en.wiktionary.org/wiki/distinct#Adjective");
 
@@ -119112,8 +119061,6 @@ namespace OverflowHelper.core
             URL_Add("clown", "https://en.wiktionary.org/wiki/clown#Noun");
 
             URL_Add("inappropriately", "https://en.wiktionary.org/wiki/inappropriately#Adverb");
-
-            URL_Add("contribution", "https://en.wiktionary.org/wiki/contribution#Noun");
 
             URL_Add("determine", "https://en.wiktionary.org/wiki/determine#Verb");
 
@@ -120713,8 +120660,6 @@ namespace OverflowHelper.core
 
             URL_Add("resurface", "https://en.wiktionary.org/wiki/resurface#Verb");
 
-            URL_Add("contact cleaner", "https://en.wikipedia.org/wiki/Contact_cleaner");
-
             URL_Add("dealing", "https://en.wiktionary.org/wiki/deal#Verb");
 
             URL_Add("influential", "https://en.wiktionary.org/wiki/influential#Adjective");
@@ -121295,8 +121240,6 @@ namespace OverflowHelper.core
 
             URL_Add("Bruce Schneier", "https://en.wikipedia.org/wiki/Bruce_Schneier");
 
-            URL_Add("content farm", "https://en.wikipedia.org/wiki/Content_farm");
-
             URL_Add("Lagrangian", "https://en.wiktionary.org/wiki/Lagrangian#Adjective");
 
             URL_Add("NUI", "https://docs.fivem.net/docs/scripting-manual/nui-development/");
@@ -121492,8 +121435,6 @@ namespace OverflowHelper.core
             URL_Add("predates", "https://en.wiktionary.org/wiki/predate#Verb");
 
             URL_Add("car industry", "https://en.wikipedia.org/wiki/Automotive_industry");
-
-            URL_Add("containerise", "https://en.wiktionary.org/wiki/containerise#Verb");
 
             URL_Add("OverflowAI", "https://stackoverflow.blog/2023/07/27/announcing-overflowai/");
 
@@ -122128,8 +122069,6 @@ namespace OverflowHelper.core
             URL_Add("patent", "https://en.wiktionary.org/wiki/patent#Noun");
 
             URL_Add("any longer", "https://en.wiktionary.org/wiki/any_longer#Adverb");
-
-            URL_Add("containers", "https://en.wiktionary.org/wiki/container#Noun");
 
             URL_Add("extensions", "https://en.wiktionary.org/wiki/extension#Noun");
 
@@ -124305,8 +124244,6 @@ namespace OverflowHelper.core
 
             URL_Add("fighters", "https://en.wiktionary.org/wiki/fighter#Noun");
 
-            URL_Add("controllers", "https://en.wiktionary.org/wiki/controller#Noun");
-
             URL_Add("ridiculously", "https://en.wiktionary.org/wiki/ridiculously#Adverb");
 
             URL_Add("domino effect", "https://en.wiktionary.org/wiki/domino_effect#Noun");
@@ -124646,8 +124583,6 @@ namespace OverflowHelper.core
             URL_Add("harmony", "https://en.wiktionary.org/wiki/harmony#Noun");
 
             URL_Add("Fedora Rawhide", "https://en.wikipedia.org/wiki/Fedora_Linux#Rawhide");
-
-            URL_Add("contacted", "https://en.wiktionary.org/wiki/contact#Verb");
 
             URL_Add("Task View", "https://en.wikipedia.org/wiki/Task_View");
 
@@ -125042,8 +124977,6 @@ namespace OverflowHelper.core
             URL_Add("filtering", "https://en.wiktionary.org/wiki/filter#Verb");
 
             URL_Add("Juan Browne", "https://www.youtube.com/@blancolirio/videos");
-
-            URL_Add("controls", "https://en.wiktionary.org/wiki/control#Noun");
 
             URL_Add("interconnected", "https://en.wiktionary.org/wiki/interconnected#Adjective");
 
@@ -126775,8 +126708,6 @@ namespace OverflowHelper.core
 
             URL_Add("Cufflinks", "https://plotly.com/python/cufflinks/");
 
-            URL_Add("Contiki", "https://en.wikipedia.org/wiki/Contiki");
-
             URL_Add("nonreentrant", "https://en.wiktionary.org/wiki/nonreentrant#Adjective");
 
             URL_Add("-fexceptions", "https://gcc.gnu.org/onlinedocs/gcc/Code-Gen-Options.html#index-fexceptions");
@@ -127877,8 +127808,6 @@ namespace OverflowHelper.core
 
             URL_Add("voluntary", "https://en.wiktionary.org/wiki/voluntary#Adjective");
 
-            URL_Add("contemporary", "https://en.wiktionary.org/wiki/contemporary#Adjective");
-
             URL_Add("salary", "https://en.wiktionary.org/wiki/salary#Noun");
 
             URL_Add("summary", "https://en.wiktionary.org/wiki/summary#Noun");
@@ -128497,8 +128426,6 @@ namespace OverflowHelper.core
 
             URL_Add("David Parnas", "https://en.wikipedia.org/wiki/David_Parnas");
 
-            URL_Add("control flow", "https://en.wiktionary.org/wiki/control_flow#Noun");
-
             URL_Add("Base Class Library", "https://en.wikipedia.org/wiki/Standard_Libraries_(CLI)#Base_Class_Library");
 
             URL_Add("c'est la vie", "https://en.wiktionary.org/wiki/c%27est_la_vie#Phrase");
@@ -128780,8 +128707,6 @@ namespace OverflowHelper.core
             URL_Add("Conda", "https://en.wikipedia.org/wiki/Conda_(package_manager)");
 
             URL_Add("Miniconda", "https://en.wikipedia.org/wiki/Anaconda_(Python_distribution)");
-
-            URL_Add("contortion", "https://en.wiktionary.org/wiki/contortion#Noun");
 
             URL_Add("undersigned", "https://en.wiktionary.org/wiki/undersigned#Noun");
 
@@ -129446,24 +129371,6 @@ namespace OverflowHelper.core
             URL_Add("stems from", "https://dictionary.cambridge.org/dictionary/english/stem-from");
 
             URL_Add("meteorological", "https://en.wiktionary.org/wiki/meteorological#Adjective");
-
-            URL_Add("continue", "https://en.wiktionary.org/wiki/continue#Verb");
-
-            URL_Add("continuing", "https://en.wiktionary.org/wiki/continue#Verb");
-
-            URL_Add("continued", "https://en.wiktionary.org/wiki/continue#Verb");
-
-            URL_Add("continuously", "https://en.wiktionary.org/wiki/continuously#Adverb");
-
-            URL_Add("continuous", "https://en.wiktionary.org/wiki/continuous#Adjective");
-
-            URL_Add("discontinuities", "https://en.wiktionary.org/wiki/discontinuity#Noun");
-
-            URL_Add("spacetime continuum", "https://en.wikipedia.org/wiki/Spacetime");
-
-            URL_Add("continuous variable transmission", "https://en.wikipedia.org/wiki/Continuously_variable_transmission");
-
-            URL_Add("continuation-passing style", "https://en.wikipedia.org/wiki/Continuation-passing_style");
 
             URL_Add("ICBM", "https://en.wikipedia.org/wiki/Intercontinental_ballistic_missile");
 
@@ -134246,8 +134153,6 @@ namespace OverflowHelper.core
             URL_Add("SignalR", "https://en.wikipedia.org/wiki/SignalR"); // Old: http://signalr.net/
 
             URL_Add("PicoScope", "https://www.picotech.com/products/oscilloscope");
-
-            URL_Add("SIG_RTMIN", "https://en.wikipedia.org/wiki/Signal_(IPC)#POSIX_signals");
 
             URL_Add("Drupal&nbsp;Answers (Stack Exchange site)", "https://drupal.stackexchange.com/tour");
 
@@ -144691,8 +144596,6 @@ namespace OverflowHelper.core
 
             URL_Add("MasterCTRL", "https://www.coolermaster.com/en-global/masterctrl/");
 
-            URL_Add("ControlPad", "https://www.coolermaster.com/catalog/peripheral/keyboards/controlpad/");
-
             URL_Add("Devastator 3", "https://www.coolermaster.com/en-global/products/devastator3/");
 
             URL_Add("Devastator II", "https://www.coolermaster.com/catalog/peripheral/keyboards/devastator-ii/");
@@ -146192,8 +146095,6 @@ namespace OverflowHelper.core
             URL_Add("difficulty", "https://en.wiktionary.org/wiki/difficulty#Noun");
 
             URL_Add("difficulties", "https://en.wiktionary.org/wiki/difficulty#Noun");
-
-            URL_Add("ControlNet", "https://en.wikipedia.org/wiki/Stable_Diffusion#ControlNet");
 
             URL_Add("Inertial Reference System", "https://aviationinfo.net/inertial-navigation-system-ins-and-inertial-reference-system-irs-differences-and-functions/");
 
@@ -149323,8 +149224,6 @@ namespace OverflowHelper.core
 
             URL_Add("HTTPd", "https://en.wikipedia.org/wiki/Httpd");
 
-            URL_Add("Content-Length", "https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Standard_request_fields");
-
             URL_Add("HTTP request smuggling", "https://en.wikipedia.org/wiki/HTTP_request_smuggling");
 
             URL_Add("HTTPS Everywhere", "https://en.wikipedia.org/wiki/HTTPS_Everywhere");
@@ -149400,6 +149299,98 @@ namespace OverflowHelper.core
             URL_Add("blessing in disguise", "https://en.wiktionary.org/wiki/blessing_in_disguise#Noun");
 
             URL_Add("OSXDaily", "https://osxdaily.com/about/");
+
+            URL_Add("contain", "https://en.wiktionary.org/wiki/contain#Verb");
+
+            URL_Add("contains", "https://en.wiktionary.org/wiki/contain#Verb");
+
+            URL_Add("containing", "https://en.wiktionary.org/wiki/contain#Verb");
+
+            URL_Add("container", "https://en.wiktionary.org/wiki/container#Noun");
+
+            URL_Add("contrived", "https://en.wiktionary.org/wiki/contrived#Adjective");
+
+            URL_Add("contiguous", "https://en.wiktionary.org/wiki/contiguous#Adjective");
+
+            URL_Add("consecutive", "https://en.wiktionary.org/wiki/consecutive#Adjective");
+
+            URL_Add("contact", "https://en.wiktionary.org/wiki/contact#Verb");
+
+            URL_Add("controversial", "https://en.wiktionary.org/wiki/controversial#Adjective");
+
+            URL_Add("controversy", "https://en.wiktionary.org/wiki/controversy#Noun");
+
+            URL_Add("controllable", "https://en.wiktionary.org/wiki/controllable#Adjective");
+
+            URL_Add("controlled", "https://en.wiktionary.org/wiki/control#Verb");
+
+            URL_Add("controls", "https://en.wiktionary.org/wiki/control#Noun");
+
+            URL_Add("controllers", "https://en.wiktionary.org/wiki/controller#Noun");
+
+            URL_Add("control flow", "https://en.wiktionary.org/wiki/control_flow#Noun");
+
+            URL_Add("ControlPad", "https://www.coolermaster.com/catalog/peripheral/keyboards/controlpad/");
+
+            URL_Add("ControlNet", "https://en.wikipedia.org/wiki/Stable_Diffusion#ControlNet");
+
+            URL_Add("contacts", "https://en.wiktionary.org/wiki/contact#Noun");
+
+            URL_Add("contributes", "https://en.wiktionary.org/wiki/contribute#Verb");
+
+            URL_Add("contribution", "https://en.wiktionary.org/wiki/contribution#Noun");
+
+            URL_Add("containerise", "https://en.wiktionary.org/wiki/containerise#Verb");
+
+            URL_Add("containers", "https://en.wiktionary.org/wiki/container#Noun");
+
+            URL_Add("contacted", "https://en.wiktionary.org/wiki/contact#Verb");
+
+            URL_Add("Contiki", "https://en.wikipedia.org/wiki/Contiki");
+
+            URL_Add("continue", "https://en.wiktionary.org/wiki/continue#Verb");
+
+            URL_Add("continuing", "https://en.wiktionary.org/wiki/continue#Verb");
+
+            URL_Add("continued", "https://en.wiktionary.org/wiki/continue#Verb");
+
+            URL_Add("continues", "https://en.wiktionary.org/wiki/continue#Verb");
+
+            URL_Add("continuously", "https://en.wiktionary.org/wiki/continuously#Adverb");
+
+            URL_Add("discontinuities", "https://en.wiktionary.org/wiki/discontinuity#Noun");
+
+            URL_Add("spacetime continuum", "https://en.wikipedia.org/wiki/Spacetime");
+
+            URL_Add("continuous variable transmission", "https://en.wikipedia.org/wiki/Continuously_variable_transmission");
+
+            URL_Add("continuation-passing style", "https://en.wikipedia.org/wiki/Continuation-passing_style");
+
+            URL_Add("contortion", "https://en.wiktionary.org/wiki/contortion#Noun");
+
+            URL_Add("contagion", "https://en.wiktionary.org/wiki/contagion#Noun");
+
+            URL_Add("contemporary", "https://en.wiktionary.org/wiki/contemporary#Adjective");
+
+            URL_Add("contact cleaner", "https://en.wikipedia.org/wiki/Contact_cleaner");
+
+            URL_Add("contentious", "https://en.wiktionary.org/wiki/contentious#Adjective");
+
+            URL_Add("contents", "https://en.wiktionary.org/wiki/contents#Noun_2");
+
+            URL_Add("content management system (CMS)", "https://en.wikipedia.org/wiki/Content_management_system");
+
+            URL_Add("content farm", "https://en.wikipedia.org/wiki/Content_farm");
+
+            URL_Add("Content Security Policy", "https://en.wikipedia.org/wiki/Content_Security_Policy");
+
+            URL_Add("Content-Type", "https://en.wikipedia.org/wiki/MIME#Content-Type");
+
+            URL_Add("Content-Length", "https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Standard_request_fields");
+
+            URL_Add("MIME type", "https://en.wikipedia.org/wiki/MIME#MIME_header_fields");
+
+            URL_Add("SIG_RTMIN", "https://en.wikipedia.org/wiki/Signal_(IPC)#POSIX_signals");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -149701,6 +149692,50 @@ namespace OverflowHelper.core
             correctionAdd("starring_", "staring_");
 
             correctionAdd("starred_", "stared_");
+
+            correctionAdd("cd_", "CD_");
+
+            correctionAdd("continiuous_", "continuous_");
+            correctionAdd("continuious_", "continuous_");
+            correctionAdd("continiouos_", "continuous_");
+            correctionAdd("continious_", "continuous_");
+            correctionAdd("condinuoes_", "continuous_");
+            correctionAdd("continiuos_", "continuous_");
+            correctionAdd("continuoes_", "continuous_");
+            correctionAdd("continous_", "continuous_");
+            correctionAdd("Continous_", "continuous_");
+            correctionAdd("continios_", "continuous_");
+            correctionAdd("continuos_", "continuous_");
+            correctionAdd("continues_", "continuous_");
+            correctionAdd("Continuos_", "continuous_");
+            correctionAdd("cont_", "continuous_");
+
+            correctionAdd("Discontinued_", "discontinued_");
+            correctionAdd("discon_", "discontinued_");
+
+            // The reverse
+            correctionAdd("continuous integration/continuous delivery_", "CI/CD_");
+            correctionAdd("ci/cd_", "CI/CD_"); // Not strictly necessary (it is covered by cross-references), but for a direct lookup
+
+            correctionAdd("containes_", "contained_"); // A true typo
+
+            correctionAdd("con taint_", "content_");
+            correctionAdd("containt_", "content_");
+            correctionAdd("contant_", "content_");
+
+            correctionAdd("controll_", "control_");
+            correctionAdd("cotnrol_", "control_");
+            correctionAdd("contol_", "control_");
+
+            correctionAdd("server_", "serves_");
+
+            correctionAdd("contirbutors_", "contributors_");
+            correctionAdd("contributers_", "contributors_");
+            correctionAdd("contributes_", "contributors_");
+
+            correctionAdd("independent contributor_", "individual contributor_");
+            correctionAdd("Individual Contributor_", "individual contributor_");
+            correctionAdd("IC_", "individual contributor_");
 
             // The abbr. is "MSI"
             correctionAdd("MSI_", "Micro-Star International_");
@@ -150403,6 +150438,8 @@ namespace OverflowHelper.core
             correctionAdd("k*lled_", "killed_");
             correctionAdd("K*lled_", "killed_");
 
+            // Linux / Unix
+            //
             // Note: "SIGKILL" is in an alternative word set
             //
             // Hangup
@@ -150581,6 +150618,8 @@ namespace OverflowHelper.core
             correctionAdd("-9_", "SIGKILL_");
             correctionAdd("9_", "SIGKILL_");
 
+            // Linux / Unix
+            //
             // Signal number: 11
             //
             // Invalid memory reference
@@ -150709,23 +150748,8 @@ namespace OverflowHelper.core
             correctionAdd("STOP_", "SIGSTOP_");
             correctionAdd("stop_", "SIGSTOP_");
 
-            // Signal number: ??
+            // Linux / Unix
             //
-            // Continue executing, if stopped (after SIGSTOP)
-            //
-            correctionAdd("signal SIGCONT_", "SIGCONT_");
-            correctionAdd("signal sigcont_", "SIGCONT_");
-            correctionAdd("kill -SIGCONT_", "SIGCONT_");
-            correctionAdd("signal CONT_", "SIGCONT_");
-            correctionAdd("signal cont_", "SIGCONT_");
-            correctionAdd("CONT signal_", "SIGCONT_");
-            correctionAdd("cont signal_", "SIGCONT_");
-            correctionAdd("signal SIG_", "SIGCONT_");
-            correctionAdd("kill -CONT_", "SIGCONT_");
-            correctionAdd("sigcont_", "SIGCONT_");
-            correctionAdd("CONT_", "SIGCONT_");
-            correctionAdd("cont_", "SIGCONT_");
-
             // Signal number: ??
             //
             // Access to an undefined portion of memory
@@ -150742,6 +150766,8 @@ namespace OverflowHelper.core
             correctionAdd("BUS_", "SIGBUS_");
             correctionAdd("bus_", "SIGBUS_");
 
+            // Linux / Unix
+            //
             // Signal number: ??
             //
             // Bad system call
@@ -150758,6 +150784,8 @@ namespace OverflowHelper.core
             correctionAdd("SYS_", "SIGSYS_");
             correctionAdd("sys_", "SIGSYS_");
 
+            // Linux / Unix
+            //
             // Signal number: ??
             //
             // When an event occur on a watched file descriptor
@@ -150774,6 +150802,8 @@ namespace OverflowHelper.core
             correctionAdd("POLL_", "SIGPOLL_");
             correctionAdd("poll_", "SIGPOLL_");
 
+            // Linux / Unix
+            //
             // Signal number: ??
             //
             // Child process terminated, stopped, or continued
@@ -158169,8 +158199,6 @@ namespace OverflowHelper.core
             correctionAdd("copule_", "couple_");
             correctionAdd("vouple_", "couple_");
 
-            correctionAdd("containes_", "contained_"); // A true typo
-
             correctionAdd("traidition_", "tradition_");
 
             correctionAdd("Tradingview_", "TradingView_");
@@ -160916,16 +160944,6 @@ namespace OverflowHelper.core
 
             correctionAdd("tex_", "text_");
 
-            correctionAdd("cd_", "CD_");
-
-            correctionAdd("contirbutors_", "contributors_");
-            correctionAdd("contributers_", "contributors_");
-            correctionAdd("contributes_", "contributors_");
-
-            correctionAdd("independent contributor_", "individual contributor_");
-            correctionAdd("Individual Contributor_", "individual contributor_");
-            correctionAdd("IC_", "individual contributor_");
-
             correctionAdd("cloudflare.com_", "Cloudflare_");
             correctionAdd("cloud flare_", "Cloudflare_");
             correctionAdd("Cloud Flare_", "Cloudflare_");
@@ -162062,17 +162080,6 @@ namespace OverflowHelper.core
             correctionAdd("chaging_", "changing_");
             correctionAdd("changig_", "changing_");
             correctionAdd("chaing_", "changing_");
-
-            correctionAdd("continuous_", "continues_");
-
-            correctionAdd("Discontinued_", "discontinued_");
-            correctionAdd("discon_", "discontinued_");
-
-            // The reverse
-            correctionAdd("continuous integration/continuous delivery_", "CI/CD_");
-            correctionAdd("ci/cd_", "CI/CD_"); // Not strictly necessary (it is covered by cross-references), but for a direct lookup
-
-            correctionAdd("server_", "serves_");
 
             correctionAdd("acreen_", "screen_");
             correctionAdd("Screen_", "screen_"); // Mainly to connect it better to the main word set.
@@ -165006,10 +165013,6 @@ namespace OverflowHelper.core
             correctionAdd("lil’_", "little_");
             correctionAdd("lil_", "little_");
 
-            correctionAdd("con taint_", "content_");
-            correctionAdd("containt_", "content_");
-            correctionAdd("contant_", "content_");
-
             correctionAdd("Nato_", "NATO_");
             correctionAdd("nato_", "NATO_");
 
@@ -165142,10 +165145,6 @@ namespace OverflowHelper.core
             correctionAdd("navtive_", "native_");
             correctionAdd("natiive_", "native_");
             correctionAdd("Native_", "native_");
-
-            correctionAdd("controll_", "control_");
-            correctionAdd("cotnrol_", "control_");
-            correctionAdd("contol_", "control_");
 
             correctionAdd("objetive_", "objective_");
             correctionAdd("Objetive_", "objective_");
@@ -167831,22 +167830,6 @@ namespace OverflowHelper.core
 
             URL_Add("Leo Laporte_", "https://en.wikipedia.org/wiki/Leo_Laporte");
 
-            URL_Add("continues_", "https://en.wiktionary.org/wiki/continue#Verb");
-
-            URL_Add("discontinued_", "https://en.wiktionary.org/wiki/discontinued#Adjective");
-
-            URL_Add("individual contributor_", "https://www.indeed.com/career-advice/finding-a-job/what-is-an-individual-contributor");
-
-            URL_Add("CI/CD_", "https://en.wikipedia.org/wiki/Continuous_integration#Deploy_an_artefact_from_CI");
-
-            URL_Add("controller_", "https://en.wiktionary.org/wiki/controller#Noun");
-
-            URL_Add("viewcontroller_", "https://stackoverflow.com/tags/viewcontroller/info");
-
-            URL_Add("content_", "https://en.wiktionary.org/wiki/content#Noun");
-
-            URL_Add("contributors_", "https://en.wiktionary.org/wiki/contributor#Noun");
-
             URL_Add("CDC_", "https://en.wikipedia.org/wiki/Centers_for_Disease_Control_and_Prevention");
 
             URL_Add("MCU_", "https://en.wikipedia.org/wiki/Microcontroller");
@@ -167925,8 +167908,6 @@ namespace OverflowHelper.core
 
             URL_Add("Microsoft Access_", "https://en.wikipedia.org/wiki/Microsoft_Access");
 
-            URL_Add("context menu_", "https://en.wiktionary.org/wiki/context_menu#Noun");
-
             URL_Add("account_", "https://en.wiktionary.org/wiki/account#Noun");
 
             URL_Add("Qt_", "https://en.wikipedia.org/wiki/Qt_%28software%29"); // The URL changed. Old: <https://en.wikipedia.org/wiki/Qt_%28toolkit%29>.
@@ -167954,10 +167935,6 @@ namespace OverflowHelper.core
             URL_Add("screenshot_", "https://en.wiktionary.org/wiki/screenshot#Noun");
 
             URL_Add("knob_", "https://en.wiktionary.org/wiki/knob#Noun");
-
-            URL_Add("control_", "https://en.wiktionary.org/wiki/control#Verb");
-
-            URL_Add("contained_", "https://en.wiktionary.org/wiki/contain#Verb");
 
             URL_Add("objective_", "https://en.wiktionary.org/wiki/objective#Noun");
 
@@ -168580,8 +168557,6 @@ namespace OverflowHelper.core
             URL_Add("SIGTERM_", "https://en.wikipedia.org/wiki/Signal_(IPC)#POSIX_signals");
 
             URL_Add("SIGSTOP_", "https://en.wikipedia.org/wiki/Job_control_(Unix)#Signals");
-
-            URL_Add("SIGCONT_", "https://en.wikipedia.org/wiki/Signal_(IPC)#POSIX_signals");
 
             URL_Add("SIGBUS_", "https://en.wikipedia.org/wiki/Signal_(IPC)#POSIX_signals");
 
@@ -170120,6 +170095,28 @@ namespace OverflowHelper.core
             URL_Add("agent skill_", "https://www.reddit.com/r/qmk/comments/1v09ul7/comment/oz2ib4v/");
 
             URL_Add("LoRA_", "https://huggingface.co/docs/diffusers/main/en/training/lora");
+
+            URL_Add("continuous_", "https://en.wiktionary.org/wiki/continuous#Adjective");
+
+            URL_Add("discontinued_", "https://en.wiktionary.org/wiki/discontinued#Adjective");
+
+            URL_Add("context menu_", "https://en.wiktionary.org/wiki/context_menu#Noun");
+
+            URL_Add("control_", "https://en.wiktionary.org/wiki/control#Verb");
+
+            URL_Add("controller_", "https://en.wiktionary.org/wiki/controller#Noun");
+
+            URL_Add("contained_", "https://en.wiktionary.org/wiki/contain#Verb");
+
+            URL_Add("contributors_", "https://en.wiktionary.org/wiki/contributor#Noun");
+
+            URL_Add("individual contributor_", "https://www.indeed.com/career-advice/finding-a-job/what-is-an-individual-contributor");
+
+            URL_Add("viewcontroller_", "https://stackoverflow.com/tags/viewcontroller/info");
+
+            URL_Add("content_", "https://en.wiktionary.org/wiki/content#Noun");
+
+            URL_Add("CI/CD_", "https://en.wikipedia.org/wiki/Continuous_integration#Deploy_an_artefact_from_CI");
 
         } //addLookupData_alternativeWordSet()
 
@@ -174822,6 +174819,9 @@ namespace OverflowHelper.core
             correctionAdd("Continuation__", "continuation__");
             correctionAdd("continues__", "continuation__");
 
+            correctionAdd("Continuous Delivery__", "continuous delivery__");
+            correctionAdd("CD__", "continuous delivery__");
+
             // Near "Install Scala on your computer"
             correctionAdd("coursier__", "Coursier__");
             correctionAdd("cs__", "Coursier__");
@@ -175002,9 +175002,6 @@ namespace OverflowHelper.core
             correctionAdd("package manager__", "Package Manager Console__");
             correctionAdd("PM>__", "Package Manager Console__"); // The command prompt
             correctionAdd("PM__", "Package Manager Console__");
-
-            correctionAdd("Continuous Delivery__", "continuous delivery__");
-            correctionAdd("CD__", "continuous delivery__");
 
             // The Linux command
             //
@@ -175481,8 +175478,6 @@ namespace OverflowHelper.core
             URL_Add("many__", "https://en.wiktionary.org/wiki/many#Pronoun");
 
             URL_Add("BTW__", "https://en.wiktionary.org/wiki/BTW#Phrase");
-
-            URL_Add("continuation__", "https://en.wiktionary.org/wiki/continuation#Noun");
 
             URL_Add("mix__", "https://en.wiktionary.org/wiki/mix#Verb");
 
@@ -176310,8 +176305,6 @@ namespace OverflowHelper.core
 
             URL_Add("very much__", "https://en.wiktionary.org/wiki/very_much#Adverb");
 
-            URL_Add("continuous delivery__", "https://en.wikipedia.org/wiki/Continuous_delivery");
-
             URL_Add("Derek Taylor__", "https://odysee.com/@DistroTube:2/write-everything-in-emacs-org-mode-you:0");
 
             URL_Add("Odysee__", "https://en.wikipedia.org/wiki/Odysee");
@@ -176353,6 +176346,10 @@ namespace OverflowHelper.core
             URL_Add("macOS&nbsp;v14 (Sonoma) (2023 vintage)__", "https://en.wikipedia.org/wiki/MacOS_Sonoma");
 
             URL_Add("macOS&nbsp;v15 (Sequoia) (2024 vintage)__", "https://en.wikipedia.org/wiki/MacOS_Sequoia");
+
+            URL_Add("continuation__", "https://en.wiktionary.org/wiki/continuation#Noun");
+
+            URL_Add("continuous delivery__", "https://en.wikipedia.org/wiki/Continuous_delivery");
 
         } //addLookupData_alternativeWordSet2()
 
@@ -178154,6 +178151,25 @@ namespace OverflowHelper.core
             correctionAdd("sigbreak___", "SIGBREAK___");
             correctionAdd("SIGABRT___", "SIGBREAK___"); // Not correct... For the cross-reference from the Linux one
 
+            // Linux / Unix
+            //
+            // Signal number: ??
+            //
+            // Continue executing, if stopped (after SIGSTOP)
+            //
+            correctionAdd("signal SIGCONT___", "SIGCONT___");
+            correctionAdd("signal sigcont___", "SIGCONT___");
+            correctionAdd("kill -SIGCONT___", "SIGCONT___");
+            correctionAdd("signal CONT___", "SIGCONT___");
+            correctionAdd("signal cont___", "SIGCONT___");
+            correctionAdd("CONT signal___", "SIGCONT___");
+            correctionAdd("cont signal___", "SIGCONT___");
+            correctionAdd("signal SIG___", "SIGCONT___");
+            correctionAdd("kill -CONT___", "SIGCONT___");
+            correctionAdd("sigcont___", "SIGCONT___");
+            correctionAdd("CONT___", "SIGCONT___");
+            correctionAdd("cont___", "SIGCONT___");
+
             // Bash (on the command line). Linux
             //
             // Alternative URLs:
@@ -179441,6 +179457,8 @@ namespace OverflowHelper.core
 
             URL_Add("Apple silicon___", "https://en.wikipedia.org/wiki/Apple_silicon");
 
+            URL_Add("SIGCONT___", "https://en.wikipedia.org/wiki/Signal_(IPC)#POSIX_signals");
+
         } //addLookupData_alternativeWordSet3()
 
 
@@ -179531,8 +179549,6 @@ namespace OverflowHelper.core
             correctionAdd("programmers____", "Software&nbsp;Engineering (Stack Exchange site)____");
             correctionAdd("SE____", "Software&nbsp;Engineering (Stack Exchange site)____");
             correctionAdd("P.SE____", "Software&nbsp;Engineering (Stack Exchange site)____"); // "P" from the name before the renaming from "Programmers"
-
-            correctionAdd("cp____", "control panel____");
 
             correctionAdd("U+00BB____", "RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK____");
             correctionAdd("00BB____", "RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK____");
@@ -180263,6 +180279,8 @@ namespace OverflowHelper.core
             correctionAdd("cvs____", "CVS____");
             correctionAdd("CSV____", "CVS____"); // A true typo
             correctionAdd("csv____", "CVS____"); // A true typo (of the misspelling "cvs")
+
+            correctionAdd("cp____", "control panel____");
 
             // For the cross-reference to the default keymap
             // Note: In Git branch "wireless_playground"
@@ -181637,8 +181655,6 @@ namespace OverflowHelper.core
 
             URL_Add("launcher____", "https://en.wiktionary.org/wiki/launcher#Noun");
 
-            URL_Add("control panel____", "https://en.wikipedia.org/wiki/Control_panel_(software)");
-
             URL_Add("canary____", "https://en.wiktionary.org/wiki/canary#Noun");
 
             URL_Add("room owner____", "https://meta.stackexchange.com/questions/271267/a-guide-to-moderating-chat/271269#271269");
@@ -181900,6 +181916,8 @@ namespace OverflowHelper.core
             URL_Add("your____", "https://www.wikihow.com/Use-You%27re-and-Your");
 
             URL_Add("affects____", "https://www.wikihow.com/Use-Affect-and-Effect-Properly");
+
+            URL_Add("control panel____", "https://en.wikipedia.org/wiki/Control_panel_(software)");
 
         } //addLookupData_alternativeWordSet4()
 
