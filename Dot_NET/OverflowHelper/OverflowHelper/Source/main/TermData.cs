@@ -3043,6 +3043,14 @@ namespace OverflowHelper.core
 
             correctionAdd("roothlessly", "ruthlessly");
 
+            correctionAdd("eew", "ew");
+
+            correctionAdd("discusting", "disgusting");
+            correctionAdd("Discusting", "disgusting");
+
+            correctionAdd("disguested", "disgusted");
+            correctionAdd("disugsted", "disgusted");
+
             correctionAdd("Disguise", "disguise");
             correctionAdd("disguide", "disguise");
             correctionAdd("disgiuse", "disguise");
@@ -3052,6 +3060,8 @@ namespace OverflowHelper.core
             correctionAdd("disguishing", "disguising");
 
             correctionAdd("Blessing in Disguise", "blessing in disguise");
+
+            correctionAdd("disgraful", "disgraceful");
 
             correctionAdd("further more", "furthermore");
             correctionAdd("Further more", "furthermore");
@@ -37671,6 +37681,8 @@ namespace OverflowHelper.core
             //   <https://en.wikipedia.org/wiki/Vibe_coding>
             //
             correctionAdd("vibe code", "vibecode");
+
+            correctionAdd("opencode", "OpenCode");
 
             // Simulated intelligence
             correctionAdd("claude.ai", "Claude");
@@ -77478,14 +77490,6 @@ namespace OverflowHelper.core
 
             correctionAdd("red-herring", "red herring");
 
-            correctionAdd("discusting", "disgusting");
-            correctionAdd("Discusting", "disgusting");
-
-            correctionAdd("disguested", "disgusted");
-            correctionAdd("disugsted", "disgusted");
-
-            correctionAdd("disgraful", "disgraceful");
-
             correctionAdd("secret source", "secret sauce");
 
             correctionAdd("cathegory", "category");
@@ -99420,6 +99424,7 @@ namespace OverflowHelper.core
             correctionAdd("OSX 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
             correctionAdd("Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
             correctionAdd("leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
+            correctionAdd("OX 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
             correctionAdd("10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
 
             // 2009 vintage
@@ -110730,8 +110735,6 @@ namespace OverflowHelper.core
 
             URL_Add("Y Combinator", "https://en.wikipedia.org/wiki/Y_Combinator");
 
-            URL_Add("blessing in disguise", "https://en.wiktionary.org/wiki/blessing_in_disguise#Noun");
-
             URL_Add("fortune favours the brave", "https://en.wiktionary.org/wiki/fortune_favours_the_brave#Proverb"); // Old: https://en.wiktionary.org/wiki/fortune_favours_the_brave#English
 
             URL_Add("ruble", "https://en.wiktionary.org/wiki/ruble#Noun");
@@ -110767,8 +110770,6 @@ namespace OverflowHelper.core
             URL_Add("Pune", "https://en.wikipedia.org/wiki/Pune");
 
             URL_Add("Thursday", "https://en.wiktionary.org/wiki/Thursday#Noun");
-
-            URL_Add("disgusting", "https://en.wiktionary.org/wiki/disgusting#Adjective");
 
             URL_Add("pandemic", "https://en.wiktionary.org/wiki/pandemic#Adjective");
 
@@ -113979,8 +113980,6 @@ namespace OverflowHelper.core
             URL_Add("underpaid", "https://en.wiktionary.org/wiki/underpaid#Adjective");
 
             URL_Add("values", "https://en.wiktionary.org/wiki/value#Noun");
-
-            URL_Add("disgusted", "https://en.wiktionary.org/wiki/disgusted#Adjective");
 
             URL_Add("figuratively", "https://en.wiktionary.org/wiki/figuratively#Adverb");
 
@@ -118714,8 +118713,6 @@ namespace OverflowHelper.core
 
             URL_Add("WebAIM", "https://en.wikipedia.org/wiki/WebAIM");
 
-            URL_Add("disguising", "https://en.wiktionary.org/wiki/disguise#Verb");
-
             URL_Add("round trip", "https://en.wiktionary.org/wiki/round_trip#Noun");
 
             URL_Add("CoRecursive", "https://corecursive.com/about");
@@ -120617,8 +120614,6 @@ namespace OverflowHelper.core
             URL_Add("standards", "https://en.wiktionary.org/wiki/standard#Noun");
 
             URL_Add("tens", "https://en.wiktionary.org/wiki/tens#Noun");
-
-            URL_Add("disguise", "https://en.wiktionary.org/wiki/disguise#Noun");
 
             URL_Add("dodgy", "https://en.wiktionary.org/wiki/dodgy#Adjective");
 
@@ -135032,6 +135027,8 @@ namespace OverflowHelper.core
 
             URL_Add("Eclipse&nbsp;v4.7 (Oxygen)", "https://en.wikipedia.org/wiki/Eclipse_%28software%29#Releases");
 
+            URL_Add("OpenCode", "https://en.wikipedia.org/wiki/OpenCode");
+
             URL_Add("Claude", "https://en.wikipedia.org/wiki/Claude_(language_model)");
 
             URL_Add("Claude Sonnet", "https://en.wikipedia.org/wiki/Claude_(language_model)#Claude_4.5"); // Old: <https://en.wikipedia.org/wiki/Claude_(language_model)#Claude_Sonnet_4.5>
@@ -149374,6 +149371,18 @@ namespace OverflowHelper.core
 
             URL_Add("PCIe", "https://en.wikipedia.org/wiki/PCI_Express");
 
+            URL_Add("ew", "https://en.wiktionary.org/wiki/ew#Interjection");
+
+            URL_Add("disgusting", "https://en.wiktionary.org/wiki/disgusting#Adjective");
+
+            URL_Add("disgusted", "https://en.wiktionary.org/wiki/disgusted#Adjective");
+
+            URL_Add("disguise", "https://en.wiktionary.org/wiki/disguise#Noun");
+
+            URL_Add("disguising", "https://en.wiktionary.org/wiki/disguise#Verb");
+
+            URL_Add("blessing in disguise", "https://en.wiktionary.org/wiki/blessing_in_disguise#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -150250,6 +150259,16 @@ namespace OverflowHelper.core
 
             correctionAdd("Storage Area Network_", "storage area network_");
             correctionAdd("SAN_", "storage area network_");
+
+            // Simulated intelligence. A company
+            correctionAdd("anthropic_", "Anthropic_");
+            correctionAdd("antropic_", "Anthropic_");
+            correctionAdd("tropic_", "Anthropic_");
+
+            // Simulated intelligence
+            //
+            // Probably an Anthropic term
+            correctionAdd("skill_", "agent skill_");
 
             // Simulated intelligence
             //
@@ -151517,6 +151536,7 @@ namespace OverflowHelper.core
             correctionAdd("develepment_", "development_");
             correctionAdd("Development_", "development_");
             correctionAdd("developemnt_", "development_");
+            correctionAdd("devleopemnt_", "development_"); // A true typo
             correctionAdd("devolpment_", "development_");
             correctionAdd("Devlopment_", "development_");
             correctionAdd("devlopment_", "development_");
@@ -158874,6 +158894,7 @@ namespace OverflowHelper.core
             correctionAdd("osX_", "Mac&nbsp;OS&nbsp;X_");
             correctionAdd("Osx_", "Mac&nbsp;OS&nbsp;X_");
             correctionAdd("OSX_", "Mac&nbsp;OS&nbsp;X_");
+            correctionAdd("OX_", "Mac&nbsp;OS&nbsp;X_");
 
             correctionAdd("Z shell is the default shell in macOS v10.15 (Catalina. 2019-10-07)_", "Z shell (executable `zsh`) is the default shell in macOS v10.15 (Catalina. 2019-10-07)_");
             correctionAdd("Z shell (executable `zsh`)_", "Z shell (executable `zsh`) is the default shell in macOS v10.15 (Catalina. 2019-10-07)_");
@@ -165220,11 +165241,6 @@ namespace OverflowHelper.core
             correctionAdd("LG Electronics_", "LG_");
             correctionAdd("lg_", "LG_");
 
-            // Simulated intelligence. A company
-            correctionAdd("anthropic_", "Anthropic_");
-            correctionAdd("antropic_", "Anthropic_");
-            correctionAdd("tropic_", "Anthropic_");
-
             correctionAdd("warren buffet_", "Warren Buffett_");
             correctionAdd("WB_", "Warren Buffett_");
 
@@ -167115,8 +167131,6 @@ namespace OverflowHelper.core
 
             URL_Add("few_", "https://en.wiktionary.org/wiki/few#Determiner");
 
-            URL_Add("Electron_", "https://en.wikipedia.org/wiki/Electron_(software_framework)");
-
             URL_Add("administrator_", "https://en.wiktionary.org/wiki/administrator#Noun");
 
             URL_Add("gaming_", "https://en.wikipedia.org/wiki/Video_game");
@@ -168439,8 +168453,6 @@ namespace OverflowHelper.core
 
             URL_Add("copy_", "https://ss64.com/nt/copy.html");
 
-            URL_Add("Anthropic_", "https://en.wikipedia.org/wiki/Anthropic");
-
             URL_Add("Unified Diagnostic Services_", "https://en.wikipedia.org/wiki/Unified_Diagnostic_Services");
 
             URL_Add("Eclipse RCP_", "https://en.wikipedia.org/wiki/Eclipse_%28software%29#Rich_client_platform");
@@ -168459,33 +168471,7 @@ namespace OverflowHelper.core
 
             URL_Add("keychain_", "https://en.wiktionary.org/wiki/keychain#Noun");
 
-            URL_Add("test data set_", "https://en.wikipedia.org/wiki/Training,_validation,_and_test_data_sets");
-
-            URL_Add("GPT_", "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer");
-
-            URL_Add("LoRA_", "https://huggingface.co/docs/diffusers/main/en/training/lora");
-
             URL_Add("DELETE_", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods");
-
-            URL_Add("edited to add_", "https://en.wiktionary.org/wiki/ETA#Verb");
-
-            URL_Add("edition_", "https://en.wiktionary.org/wiki/edition#Noun");
-
-            URL_Add("editor in chief_", "https://blog.superuser.com/2011/04/27/peter-mortensen-editor-in-chief/");
-
-            URL_Add("re-edit_", "https://en.wiktionary.org/wiki/re-edit#Verb");
-
-            URL_Add("Edit&nbsp;Overflow_", "https://github.com/PeterMortensen/Edit_Overflow");
-
-            URL_Add("UltraEdit_", "https://en.wikipedia.org/wiki/UltraEdit");
-
-            URL_Add("Text Editor_", "https://help.ubuntu.com/community/gedit");
-
-            URL_Add("E Text Editor_", "https://en.wikipedia.org/wiki/E_Text_Editor");
-
-            URL_Add("Oxygen XML Editor_", "https://www.oxygenxml.com/index.html"); // From chemical element 8
-
-            URL_Add("Ace_", "https://en.wikipedia.org/wiki/Ace_(editor)");
 
             URL_Add("ex_", "https://en.wikipedia.org/wiki/Ex_%28text_editor%29");
 
@@ -170082,6 +170068,38 @@ namespace OverflowHelper.core
             URL_Add("reproduction_", "https://en.wiktionary.org/wiki/reproduction#Noun");
 
             URL_Add("Stack Exchange glossary_", "https://meta.stackexchange.com/questions/40353/stack-exchange-glossary-dictionary-of-commonly-used-terms");
+
+            URL_Add("Text Editor_", "https://help.ubuntu.com/community/gedit");
+
+            URL_Add("Electron_", "https://en.wikipedia.org/wiki/Electron_(software_framework)");
+
+            URL_Add("edited to add_", "https://en.wiktionary.org/wiki/ETA#Verb");
+
+            URL_Add("edition_", "https://en.wiktionary.org/wiki/edition#Noun");
+
+            URL_Add("editor in chief_", "https://blog.superuser.com/2011/04/27/peter-mortensen-editor-in-chief/");
+
+            URL_Add("re-edit_", "https://en.wiktionary.org/wiki/re-edit#Verb");
+
+            URL_Add("Edit&nbsp;Overflow_", "https://github.com/PeterMortensen/Edit_Overflow");
+
+            URL_Add("UltraEdit_", "https://en.wikipedia.org/wiki/UltraEdit");
+
+            URL_Add("E Text Editor_", "https://en.wikipedia.org/wiki/E_Text_Editor");
+
+            URL_Add("Oxygen XML Editor_", "https://www.oxygenxml.com/index.html"); // From chemical element 8
+
+            URL_Add("Ace_", "https://en.wikipedia.org/wiki/Ace_(editor)");
+
+            URL_Add("test data set_", "https://en.wikipedia.org/wiki/Training,_validation,_and_test_data_sets");
+
+            URL_Add("GPT_", "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer");
+
+            URL_Add("Anthropic_", "https://en.wikipedia.org/wiki/Anthropic");
+
+            URL_Add("agent skill_", "https://www.reddit.com/r/qmk/comments/1v09ul7/comment/oz2ib4v/");
+
+            URL_Add("LoRA_", "https://huggingface.co/docs/diffusers/main/en/training/lora");
 
         } //addLookupData_alternativeWordSet()
 
@@ -179044,8 +179062,6 @@ namespace OverflowHelper.core
 
             URL_Add("Snowflake Time Travel___", "https://docs.snowflake.com/en/user-guide/data-time-travel");
 
-            URL_Add("disgusting engine move___", "https://en.wikipedia.org/wiki/Chess_engine");
-
             URL_Add("notebook computer___", "https://en.wikipedia.org/wiki/Notebook_computer");
 
             URL_Add("gravitational wave___", "https://en.wikipedia.org/wiki/Gravitational_wave");
@@ -179099,8 +179115,6 @@ namespace OverflowHelper.core
             URL_Add("training data set___", "https://en.wikipedia.org/wiki/Training,_validation,_and_test_data_sets");
 
             URL_Add("dash___", "https://en.wikipedia.org/wiki/Dash");
-
-            URL_Add("executable 'gcc' on macOS is the Clang compiler, not GCC___", "https://stackoverflow.com/questions/38840601/how-can-i-ignore-an-error-when-using-gcc-compile-option-werror#comment130977909_38840601");
 
             URL_Add("stuck___", "https://en.wiktionary.org/wiki/stick#Verb_2");
 
@@ -179268,8 +179282,6 @@ namespace OverflowHelper.core
 
             URL_Add("SRGBmods (Vial)___", "https://github.com/SRGBmods/QMK-Binaries/tree/main/QMK%2BVIA%2BVial-Firmware/10_12_25");
 
-            URL_Add("Via blues___", "https://www.reddit.com/r/Keychron/comments/1g76o1e/comment/lsp51pj/");
-
             URL_Add("weird behaviour in QMK-based keyboard if not resetting to factory defaults___", "https://www.reddit.com/r/Keychron/comments/1dwocvh/comment/lioza8e/");
 
             URL_Add("extra information may be required to recover from bricking the main firmware of a Keychron keyboard___", "https://www.reddit.com/r/Keychron/comments/1dwocvh/comment/lby5g3e/");
@@ -179393,6 +179405,12 @@ namespace OverflowHelper.core
             URL_Add("Brazil___", "https://en.wikipedia.org/wiki/Brazil");
 
             URL_Add("Prince Edward Island___", "https://en.wikipedia.org/wiki/Prince_Edward_Island");
+
+            URL_Add("Via blues___", "https://www.reddit.com/r/Keychron/comments/1g76o1e/comment/lsp51pj/");
+
+            URL_Add("executable 'gcc' on macOS is the Clang compiler, not GCC___", "https://stackoverflow.com/questions/38840601/how-can-i-ignore-an-error-when-using-gcc-compile-option-werror#comment130977909_38840601");
+
+            URL_Add("disgusting engine move___", "https://en.wikipedia.org/wiki/Chess_engine");
 
         } //addLookupData_alternativeWordSet3()
 
