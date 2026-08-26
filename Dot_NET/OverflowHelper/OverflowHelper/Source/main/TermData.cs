@@ -20773,6 +20773,8 @@ namespace OverflowHelper.core
             correctionAdd("unconditionnal", "unconditional");
             correctionAdd("Unconditionnal", "unconditional");
 
+            correctionAdd("Unconditioonally", "unconditionally");
+            correctionAdd("unconditioonally", "unconditionally");
             correctionAdd("inconditionally", "unconditionally");
             correctionAdd("Unconditionnaly", "unconditionally");
             correctionAdd("unconditionnaly", "unconditionally");
@@ -60234,6 +60236,8 @@ namespace OverflowHelper.core
 
             correctionAdd("fazing out", "phasing out");
 
+            correctionAdd("hazzard", "hazard");
+
             correctionAdd("haphasard", "haphazard");
 
             correctionAdd("hapharsodly", "haphazardly");
@@ -69986,6 +69990,7 @@ namespace OverflowHelper.core
             correctionAdd("Rememebr", "remember");
             correctionAdd("Remebber", "remember");
             correctionAdd("remebber", "remember");
+            correctionAdd("rememver", "remember"); // A true typo
             correctionAdd("rememer", "remember");
             correctionAdd("remeber", "remember");
             correctionAdd("remembr", "remember");
@@ -82893,6 +82898,16 @@ namespace OverflowHelper.core
             //
             correctionAdd("ximi", "Ximi");
 
+            // A 36-key (35%) crippled split mechanical keyboard.
+            // DYI / open hardware. 2 x 18 = 36 keys.
+            //
+            correctionAdd("cornifi", "Cornifi");
+
+            // A 36-key (35%) crippled split mechanical keyboard.
+            // DYI / open hardware. 2 x 18 = 36 keys.
+            //
+            correctionAdd("fifi", "Fifi");
+
             // A 38-key (35%) crippled open source low-profile split ergonomic
             // mechanical keyboard. 2 x 19 = 38 keys.
             //
@@ -83036,6 +83051,18 @@ namespace OverflowHelper.core
             // Is column-staggered.
             //
             // Alternative URLs:
+            //
+            //   <https://kbd.news/GHOST-message-from-GEIST-1799.html>
+            //
+            //     Explains the origin of the different variant
+            //     (with a different number of keys):
+            //
+            //       Polydactyly
+            //       Konrad
+            //       Yubitsume
+            //       Saegewerk
+            //
+            //     Is morbid!!!!
             //
             //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/vs8acc/klor_3642_keys_rp2040_support_haptic_feedback/>
             //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/wh6ux0/a_wild_klor_has_appeared/>
@@ -83550,6 +83577,26 @@ namespace OverflowHelper.core
             //   <https://www.reddit.com/r/olkb/comments/1i8xbpg/introducing_hpd_v2_a_modular_curved_mechanical/>
             //
             correctionAdd("HPD", "High Plains Drifter");
+
+            // A 60-key (55%) crippled split mechanical keyboard.
+            // DYI / open hardware. 2 x 30 = 60 keys.
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=6cNv0JnCVQU>
+            //
+            //   <https://www.moergo.com/pages/go60>
+            //
+            //   <https://www.youtube.com/watch?v=UzOZDgZASAA>
+            //
+            //   <https://www.youtube.com/watch?v=8IiQPnIUnZU>
+            //   <https://www.youtube.com/watch?v=seYUlsphFbM>
+            //   <https://www.youtube.com/watch?v=83jOaAAVwfQ>
+            //   <https://www.youtube.com/watch?v=RApoSEEeUL4>
+            //   <https://www.youtube.com/watch?v=mYT5AyVAzE8>
+            //
+            correctionAdd("Go60", "MoErgo Go60");
+            correctionAdd("go60", "MoErgo Go60");
 
             // A 61-key (60%) severely crippled mechanical keyboard.
             //
@@ -93450,9 +93497,13 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/james-donkey/qmk_firmware/tree/wireless_playground/keyboards/jamesdonkey/j5>
             //
-            correctionAdd("Keychron J5", "Keychron&nbsp;J5"); // Sort of identity mapping
-            correctionAdd("KJ5", "Keychron&nbsp;J5");
-            correctionAdd("J5", "Keychron&nbsp;J5");
+            correctionAdd("Keychron J5 (105%)", "Keychron&nbsp;J5 (105%)"); // Sort of identity mapping
+            correctionAdd("Keychron&nbsp;J5", "Keychron&nbsp;J5 (105%)");
+            correctionAdd("Keychron J5", "Keychron&nbsp;J5 (105%)"); // Sort of identity mapping
+            correctionAdd("Keychron j5", "Keychron&nbsp;J5 (105%)");
+            correctionAdd("keychron j5", "Keychron&nbsp;J5 (105%)");
+            correctionAdd("KJ5", "Keychron&nbsp;J5 (105%)");
+            correctionAdd("J5", "Keychron&nbsp;J5 (105%)");
 
             // A 109-key (105%. Not true TKL) full-size
             // wired and wireless (both Bluetooth and '2.4 GHz')
@@ -121868,8 +121919,6 @@ namespace OverflowHelper.core
 
             URL_Add("glitchy", "https://en.wiktionary.org/wiki/glitchy#Adjective");
 
-            URL_Add("haphazard", "https://en.wiktionary.org/wiki/haphazard#Adjective");
-
             URL_Add("occultations", "https://en.wiktionary.org/wiki/occultation#Noun");
 
             URL_Add("occulted", "https://en.wiktionary.org/wiki/occult#Verb");
@@ -124449,8 +124498,6 @@ namespace OverflowHelper.core
             URL_Add("minimum order quantity", "https://en.wiktionary.org/wiki/MOQ#Noun");
 
             URL_Add("payware", "https://en.wiktionary.org/wiki/payware#Noun");
-
-            URL_Add("haphazardly", "https://en.wiktionary.org/wiki/haphazardly#Adverb");
 
             URL_Add("thank you so much", "https://en.wiktionary.org/w/index.php?title=thank_you_so_much&redirect=no#Interjection");
 
@@ -144302,7 +144349,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron J4", "https://www.keychron.com/products/keychron-j4-qmk-wireless-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;J5", "https://www.keychron.com/products/keychron-j5-qmk-wireless-mechanical-keyboard");
+            URL_Add("Keychron&nbsp;J5 (105%)", "https://www.keychron.com/products/keychron-j5-qmk-wireless-mechanical-keyboard");
 
             URL_Add("Keychron S1", "https://www.keychron.com/products/keychron-s1-qmk-custom-mechanical-keyboard");
 
@@ -144695,6 +144742,12 @@ namespace OverflowHelper.core
             URL_Add("Chocofi", "https://kriscables.com/product/chocofi-split-keyboard-kit/");
 
             URL_Add("Corne keyboard", "https://github.com/foostan/crkbd");
+
+            URL_Add("Cornifi", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/cornifi/readme.md#L5");
+
+            URL_Add("Fifi", "https://github.com/raychengy/fifi_split_keeb");
+
+            URL_Add("MoErgo Go60", "https://www.youtube.com/watch?v=Ap8JD-ELR38");
 
             URL_Add("Cornix", "https://kbd.news/Cornix-review-2715.html");
 
@@ -149392,6 +149445,12 @@ namespace OverflowHelper.core
 
             URL_Add("SIG_RTMIN", "https://en.wikipedia.org/wiki/Signal_(IPC)#POSIX_signals");
 
+            URL_Add("hazard", "https://en.wiktionary.org/wiki/hazard#Noun");
+
+            URL_Add("haphazard", "https://en.wiktionary.org/wiki/haphazard#Adjective");
+
+            URL_Add("haphazardly", "https://en.wiktionary.org/wiki/haphazardly#Adverb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -152754,6 +152813,7 @@ namespace OverflowHelper.core
             correctionAdd("5 ms_", "The QMK default key debounce time is 5 ms_");
 
             correctionAdd("masking a mechanical problem_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
+            correctionAdd("treating some symptoms_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
             correctionAdd("treating the symptoms_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
             correctionAdd("treated the symptoms_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
             correctionAdd("treats the symptoms_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
