@@ -42967,10 +42967,6 @@ namespace OverflowHelper.core
             // Electronics
             correctionAdd("chua diode", "Chua's diode");
 
-            // Electronics. A kind of diode
-            correctionAdd("diac", "DIAC");
-            correctionAdd("Diac", "DIAC");
-
             correctionAdd("SOD", "Small Outline Diode");
 
             correctionAdd("SOD 123", "SOD-123");
@@ -43671,13 +43667,23 @@ namespace OverflowHelper.core
             // Electronics. BJT.
             correctionAdd("Common Emitter", "common emitter");
 
+            // Electronics. A kind of diode
+            correctionAdd("diacs", "DIAC");
+            correctionAdd("diac", "DIAC");
+            correctionAdd("Diac", "DIAC");
+
             // Electronics
+            correctionAdd("silicon-controlled rectifier", "thyristor");
             correctionAdd("Thyristor", "thyristor");
+            correctionAdd("SCR", "thyristor");
 
             // Electronics
             //
             // For 'triode for alternating current'
+            correctionAdd("traics", "TRIAC");
+            correctionAdd("triacs", "TRIAC");
             correctionAdd("triac", "TRIAC");
+            correctionAdd("traic", "TRIAC");
 
             // Electronics
             correctionAdd("igbt", "IGBT");
@@ -83269,6 +83275,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("silakka54", "Silakka54");
             correctionAdd("silaaka54", "Silakka54");
+            correctionAdd("silakk54", "Silakka54");
             correctionAdd("silakka", "Silakka54");
 
             // A 56-key (55%. Not true TKL) crippled split ergonomic
@@ -109241,8 +109248,6 @@ namespace OverflowHelper.core
 
             URL_Add("separatist", "https://en.wiktionary.org/wiki/separatist#Noun");
 
-            URL_Add("DIAC", "https://en.wikipedia.org/wiki/DIAC");
-
             URL_Add("annoying", "https://en.wiktionary.org/wiki/annoying#Verb");
 
             URL_Add("Fibonacci", "https://en.wikipedia.org/wiki/Fibonacci_number");
@@ -109968,10 +109973,6 @@ namespace OverflowHelper.core
             URL_Add("measurable", "https://en.wiktionary.org/wiki/measurable#Adjective");
 
             URL_Add("pick up", "https://en.wiktionary.org/wiki/pick_up#Verb");
-
-            URL_Add("thyristor", "https://en.wikipedia.org/wiki/Thyristor");
-
-            URL_Add("TRIAC", "https://en.wikipedia.org/wiki/TRIAC");
 
             URL_Add("RSA", "https://en.wikipedia.org/wiki/RSA_(cryptosystem)");
 
@@ -149450,6 +149451,12 @@ namespace OverflowHelper.core
             URL_Add("haphazard", "https://en.wiktionary.org/wiki/haphazard#Adjective");
 
             URL_Add("haphazardly", "https://en.wiktionary.org/wiki/haphazardly#Adverb");
+
+            URL_Add("DIAC", "https://en.wikipedia.org/wiki/DIAC");
+
+            URL_Add("thyristor", "https://en.wikipedia.org/wiki/Thyristor");
+
+            URL_Add("TRIAC", "https://en.wikipedia.org/wiki/TRIAC");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
