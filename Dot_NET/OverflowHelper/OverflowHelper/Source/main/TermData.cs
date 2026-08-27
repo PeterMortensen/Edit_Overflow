@@ -18421,6 +18421,7 @@ namespace OverflowHelper.core
             correctionAdd("ubantu", "Ubuntu");
             correctionAdd("uBuntu", "Ubuntu");
             correctionAdd("ubutnu", "Ubuntu");
+            correctionAdd("Ubutnu", "Ubuntu");
             correctionAdd("unutbu", "Ubuntu");
             correctionAdd("UBUBTU", "Ubuntu");
             correctionAdd("Ububtu", "Ubuntu");
@@ -19930,9 +19931,14 @@ namespace OverflowHelper.core
 
             correctionAdd("Enshittification", "enshittification");
             correctionAdd("ens#!ttification", "enshittification");
+            correctionAdd("enSH*Ttification", "enshittification");
+            correctionAdd("enSH*ttification", "enshittification");
+            correctionAdd("ensh*ttification", "enshittification");
             correctionAdd("enshitification", "enshittification");
             correctionAdd("Enshitification", "enshittification");
             correctionAdd("ensittification", "enshittification");
+            correctionAdd("enSH*Tification", "enshittification");
+            correctionAdd("ensh*tification", "enshittification");
 
             // Note: "shit" is in an alternative word set
             correctionAdd("shaatty", "shitty");
@@ -43359,15 +43365,10 @@ namespace OverflowHelper.core
             correctionAdd("twiser", "tweezers"); // Not 100% correct - singular.
 
             // Electronics
+            correctionAdd("through-hole construction", "through-hole technology");
             correctionAdd("through hole", "through-hole technology");
             correctionAdd("THT", "through-hole technology");
             correctionAdd("tht", "through-hole technology");
-
-            // Electronics
-            correctionAdd("through-hole", "through-hole construction");
-            correctionAdd("throughhole", "through-hole construction");
-            correctionAdd("thru-hole", "through-hole construction");
-            correctionAdd("pass-thru", "through-hole construction"); // Really?
 
             // Electronics
             correctionAdd("smd", "SMD");
@@ -73488,6 +73489,7 @@ namespace OverflowHelper.core
             correctionAdd("Amurrikan", "American");
             correctionAdd("american", "American");
             correctionAdd("Amercian", "American");
+            correctionAdd("'Merican", "American");
 
             correctionAdd("america", "America");
 
@@ -79549,6 +79551,9 @@ namespace OverflowHelper.core
 
             // Music
             correctionAdd("Abba", "ABBA");
+
+            // Music
+            correctionAdd("fur elize", "Für Elise");
 
             correctionAdd("parish", "perish");
 
@@ -104297,6 +104302,7 @@ namespace OverflowHelper.core
             correctionAdd("provate", "private"); // A true typo
             correctionAdd("pivate", "private");
             correctionAdd("privat", "private");
+            correctionAdd("privet", "private");
 
             correctionAdd("not private", "nonprivate");
             correctionAdd("non-private", "nonprivate");
@@ -107004,6 +107010,8 @@ namespace OverflowHelper.core
 
             // A code playground?
             correctionAdd("labstack", "LabStack");
+
+            correctionAdd("shear", "sheer");
 
             // Start of the coronavirus part...
             correctionAdd("immune compromised", "immunocompromised");
@@ -124966,8 +124974,6 @@ namespace OverflowHelper.core
 
             URL_Add("reinventing the wheel", "https://en.wiktionary.org/wiki/reinventing_the_wheel#Verb");
 
-            URL_Add("ABBA", "https://en.wikipedia.org/wiki/ABBA");
-
             URL_Add("GCompris", "https://en.wikipedia.org/wiki/GCompris");
 
             URL_Add("Luanti", "https://en.wikipedia.org/wiki/Luanti");
@@ -129817,10 +129823,6 @@ namespace OverflowHelper.core
             URL_Add("shuts down", "https://en.wiktionary.org/wiki/shut_down#Verb");
 
             URL_Add("shutting down", "https://en.wiktionary.org/wiki/shut_down#Verb");
-
-            URL_Add("\"Jesus bleibet meine Freude\" BWV 147, 10", "https://www.youtube.com/watch?v=Lm2kAvIQxHE");
-
-            URL_Add("Johann Sebastian Bach", "https://en.wikipedia.org/wiki/Johann_Sebastian_Bach");
 
             URL_Add("mother ship", "https://en.wiktionary.org/wiki/mother_ship#Noun");
 
@@ -136187,8 +136189,6 @@ namespace OverflowHelper.core
             URL_Add("through another lens", "https://ludwig.guru/s/through+the+lens+of");
 
             URL_Add("through-hole technology", "https://en.wikipedia.org/wiki/Through-hole_technology");
-
-            URL_Add("through-hole construction", "https://en.wikipedia.org/wiki/Through-hole_technology");
 
             URL_Add("shine-through keycaps", "https://switchandclick.com/ultimate-guide-to-picking-a-keycap-set-for-your-mechanical-keyboard/");
 
@@ -149468,6 +149468,16 @@ namespace OverflowHelper.core
 
             URL_Add("TRIAC", "https://en.wikipedia.org/wiki/TRIAC");
 
+            URL_Add("sheer", "https://en.wiktionary.org/wiki/sheer#Adjective");
+
+            URL_Add("ABBA", "https://en.wikipedia.org/wiki/ABBA");
+
+            URL_Add("\"Jesus bleibet meine Freude\" BWV 147, 10", "https://www.youtube.com/watch?v=Lm2kAvIQxHE");
+
+            URL_Add("Johann Sebastian Bach", "https://en.wikipedia.org/wiki/Johann_Sebastian_Bach");
+
+            URL_Add("Für Elise", "https://en.wikipedia.org/wiki/F%C3%BCr_Elise");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -161116,6 +161126,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Original Equipment Manufacturer_", "original equipment manufacturer_");
             correctionAdd("OEM_", "original equipment manufacturer_");
+            correctionAdd("oem_", "original equipment manufacturer_");
 
             // General for the QMK keycodes:
             //
@@ -165541,6 +165552,7 @@ namespace OverflowHelper.core
             correctionAdd("Twotter_", "Twitter_");
             correctionAdd("twitte_", "Twitter_");
             correctionAdd("twiter_", "Twitter_");
+            correctionAdd("x.com_", "Twitter_");
             correctionAdd("EMX_", "Twitter_");
             correctionAdd("X_", "Twitter_");
 
@@ -177805,6 +177817,7 @@ namespace OverflowHelper.core
             correctionAdd("Q-series___", "Keychron&nbsp;Q&nbsp;series___");
             correctionAdd("Q series___", "Keychron&nbsp;Q&nbsp;series___"); // Sort of identity mapping
             correctionAdd("q series___", "Keychron&nbsp;Q&nbsp;series___");
+            correctionAdd("q-series___", "Keychron&nbsp;Q&nbsp;series___");
             correctionAdd("Q serie___", "Keychron&nbsp;Q&nbsp;series___");
             correctionAdd("Q___", "Keychron&nbsp;Q&nbsp;series___");
             correctionAdd("q___", "Keychron&nbsp;Q&nbsp;series___");
@@ -178944,6 +178957,13 @@ namespace OverflowHelper.core
             correctionAdd("gasket problem___", "number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___");
             correctionAdd("#9___", "number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___");
 
+            // Electronics
+            correctionAdd("through-hole___", "through-hole construction___");
+            correctionAdd("throughhole___", "through-hole construction___");
+            correctionAdd("thru-hole___", "through-hole construction___");
+            correctionAdd("pass-thru___", "through-hole construction___"); // Really?
+            correctionAdd("TH___", "through-hole construction___");
+
             // Of the "B" programming language (also by Dennis Ritchie)
             //
             // Alternative URLs:
@@ -179541,6 +179561,8 @@ namespace OverflowHelper.core
             URL_Add("Apple silicon___", "https://en.wikipedia.org/wiki/Apple_silicon");
 
             URL_Add("SIGCONT___", "https://en.wikipedia.org/wiki/Signal_(IPC)#POSIX_signals");
+
+            URL_Add("through-hole construction___", "https://en.wikipedia.org/wiki/Through-hole_technology");
 
         } //addLookupData_alternativeWordSet3()
 
