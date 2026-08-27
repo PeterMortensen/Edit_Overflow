@@ -23588,6 +23588,8 @@ namespace OverflowHelper.core
 
             correctionAdd("unforseen", "unforeseen");
 
+            correctionAdd("allseeing", "all-seeing");
+
             correctionAdd("Laye", "late");
             correctionAdd("laye", "late"); // A true typo
 
@@ -53983,6 +53985,7 @@ namespace OverflowHelper.core
             correctionAdd("bit-banging", "bit banging");
             correctionAdd("big banging", "bit banging"); // An autocorrect "masterpiece"?
             correctionAdd("big-banging", "bit banging"); // An autocorrect "masterpiece"?
+            correctionAdd("Bit banging", "bit banging");
 
             // Electronics / embedded system (ARM microcontrollers)
             //
@@ -60730,6 +60733,7 @@ namespace OverflowHelper.core
             correctionAdd("keybaords", "keyboards");
             correctionAdd("keyboars", "keyboards");
             correctionAdd("keybords", "keyboards");
+            correctionAdd("keyboads", "keyboards");
             correctionAdd("boards", "keyboards");
             correctionAdd("Boards", "keyboards");
             correctionAdd("planks", "keyboards"); // Derogatory. Could maybe refer to the keyboard ZSA Planck EZ
@@ -101521,7 +101525,9 @@ namespace OverflowHelper.core
             correctionAdd("rediculous", "ridiculous");
             correctionAdd("redoculous", "ridiculous");
             correctionAdd("redicolous", "ridiculous");
+            correctionAdd("redicuolus", "ridiculous");
             correctionAdd("redicuous", "ridiculous");
+            correctionAdd("redicolus", "ridiculous");
             correctionAdd("ridicous", "ridiculous");
 
             correctionAdd("rediculously", "ridiculously");
@@ -102654,9 +102660,11 @@ namespace OverflowHelper.core
             correctionAdd("alphazero", "AlphaZero");
 
             // Chess. A chess engine
+            correctionAdd("all-seeing aquatic authority", "Stockfish");
             correctionAdd("in the great fish we trust", "Stockfish");
             correctionAdd("obnoxious oceanic oracle", "Stockfish");
             correctionAdd("almighty marine machine", "Stockfish");
+            correctionAdd("great oceanic oracle", "Stockfish");
             correctionAdd("most precocious cod", "Stockfish"); // <https://www.youtube.com/watch?v=6udTFdSgGNQ&t=11m30s>
             correctionAdd("underwater overlord", "Stockfish");
             correctionAdd("all-knowing fish", "Stockfish");
@@ -132508,6 +132516,8 @@ namespace OverflowHelper.core
 
             URL_Add("unforeseen", "https://en.wiktionary.org/wiki/unforeseen#Adjective");
 
+            URL_Add("all-seeing", "https://en.wiktionary.org/wiki/all-seeing#Adjective");
+
             URL_Add("Ingres", "https://en.wikipedia.org/wiki/Ingres_(database)");
 
             URL_Add("classify", "https://en.wiktionary.org/wiki/classify#Verb");
@@ -149776,6 +149786,8 @@ namespace OverflowHelper.core
             correctionAdd("Continuos_", "continuous_");
             correctionAdd("cont_", "continuous_");
 
+            correctionAdd("continuety_", "continuity_");
+
             correctionAdd("Discontinued_", "discontinued_");
             correctionAdd("discon_", "discontinued_");
 
@@ -158322,6 +158334,8 @@ namespace OverflowHelper.core
             correctionAdd("Magnus Carlson_", "Magnus Carlsen_");
             correctionAdd("Cagnus Marlson_", "Magnus Carlsen_");
             correctionAdd("wizard of Oslo_", "Magnus Carlsen_");
+            correctionAdd("the chess GOAT_", "Magnus Carlsen_");
+            correctionAdd("the chess goat_", "Magnus Carlsen_");
             correctionAdd("mighty Magnus_", "Magnus Carlsen_");
             correctionAdd("Moustache_", "Magnus Carlsen_");
             correctionAdd("moustache_", "Magnus Carlsen_");
@@ -170164,6 +170178,8 @@ namespace OverflowHelper.core
             URL_Add("LoRA_", "https://huggingface.co/docs/diffusers/main/en/training/lora");
 
             URL_Add("continuous_", "https://en.wiktionary.org/wiki/continuous#Adjective");
+
+            URL_Add("continuity_", "https://en.wiktionary.org/wiki/continuity#Noun");
 
             URL_Add("discontinued_", "https://en.wiktionary.org/wiki/discontinued#Adjective");
 
