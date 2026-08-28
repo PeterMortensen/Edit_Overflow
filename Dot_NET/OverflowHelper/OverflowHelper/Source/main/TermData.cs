@@ -6602,10 +6602,10 @@ namespace OverflowHelper.core
             correctionAdd("EG", "for example");
             correctionAdd("eg", "for example");
             correctionAdd("fe", "for example");
-            correctionAdd("fx", "for example");
             correctionAdd("EX", "for example");
             correctionAdd("Ex", "for example");
             correctionAdd("ex", "for example");
+            correctionAdd("fx", "for example");
 
             correctionAdd("proccess", "process");
             correctionAdd("proceoss", "process");
@@ -7278,10 +7278,10 @@ namespace OverflowHelper.core
 
             correctionAdd("syntaxis", "syntax");
             correctionAdd("sintaxis", "syntax");
-            correctionAdd("synthax", "syntax");
             correctionAdd("syantax", "syntax");
             correctionAdd("syntaxe", "syntax");
             correctionAdd("Syntaxe", "syntax");
+            correctionAdd("synthax", "syntax");
             correctionAdd("sintax", "syntax");
             correctionAdd("synatx", "syntax");
             correctionAdd("snytax", "syntax");
@@ -9668,10 +9668,14 @@ namespace OverflowHelper.core
             correctionAdd("synthesizes", "synthesises");
             correctionAdd("syntheizes", "synthesises");
 
+            // Music
             correctionAdd("synth", "synthesizer");
             correctionAdd("Synth", "synthesizer");
 
             correctionAdd("synths", "synthesisers");
+
+            // A music instrument manufacturer
+            correctionAdd("yamaha", "Yamaha");
 
             correctionAdd("DDS", "direct digital synthesis");
 
@@ -24281,6 +24285,7 @@ namespace OverflowHelper.core
             correctionAdd("Today", "today");
             correctionAdd("todan", "today");
             correctionAdd("tody", "today");
+            correctionAdd("tdy", "today");
 
             correctionAdd("Today's", "today's");
             correctionAdd("todays", "today's");
@@ -70731,11 +70736,6 @@ namespace OverflowHelper.core
             correctionAdd("reaper", "REAPER");
             correctionAdd("Reaper", "REAPER");
 
-            // Software for audio (DAW)
-            //
-            correctionAdd("FruityLoops", "FL Studio");
-            correctionAdd("fl studio", "FL Studio");
-
             correctionAdd("statuon", "station");
             correctionAdd("Statuon", "station");
 
@@ -108046,44 +108046,6 @@ namespace OverflowHelper.core
 
             URL_Add("don’t", "https://en.wiktionary.org/wiki/don%27t#Verb"); // Old: https://en.wiktionary.org/wiki/don%27t
 
-            URL_Add("Lisp", "https://en.wikipedia.org/wiki/Lisp_%28programming_language%29");
-
-            URL_Add("FASL", "https://www.lispworks.com/documentation/lw60/LW/html/lw-95.htm");
-
-            URL_Add("Common Lisp", "https://en.wikipedia.org/wiki/Common_Lisp");
-
-            URL_Add("Emacs&nbsp;Lisp", "https://en.wikipedia.org/wiki/Emacs_Lisp");
-
-            URL_Add("Emacs Lisp Package Archive", "https://en.wikipedia.org/wiki/GNU_Emacs#Release_history");
-
-            URL_Add("MELPA", "https://www.emacswiki.org/emacs/MELPA");
-
-            URL_Add("SBCL", "https://en.wikipedia.org/wiki/Steel_Bank_Common_Lisp");
-
-            URL_Add("CLOS", "https://en.wikipedia.org/wiki/Common_Lisp_Object_System");
-
-            URL_Add("we hacked most of it together in Perl", "https://www.explainxkcd.com/wiki/index.php/224:_Lisp");
-
-            URL_Add("OCaml", "https://en.wikipedia.org/wiki/OCaml"); // Old: https://en.wikipedia.org/wiki/Objective_Caml
-
-            URL_Add("Prolog", "https://en.wikipedia.org/wiki/Prolog");
-
-            URL_Add("Smalltalk", "https://en.wikipedia.org/wiki/Smalltalk");
-
-            URL_Add("Scala", "https://en.wikipedia.org/wiki/Scala_%28programming_language%29");
-
-            URL_Add("Objective-C", "https://en.wikipedia.org/wiki/Objective-C");
-
-            URL_Add("Objective-C++", "https://en.wikipedia.org/wiki/Objective-C#Objective-C++");
-
-            URL_Add("Objective-J", "https://en.wikipedia.org/wiki/Objective-J");
-
-            URL_Add("ObjectScript", "https://en.wikipedia.org/wiki/Cach%C3%A9_ObjectScript");
-
-            URL_Add("JRuby", "https://en.wikipedia.org/wiki/JRuby");
-
-            URL_Add("IPython", "https://en.wikipedia.org/wiki/IPython");
-
             URL_Add("Symbian", "https://en.wikipedia.org/wiki/Symbian");
 
             URL_Add("password", "https://en.wikipedia.org/wiki/Password");
@@ -109813,8 +109775,6 @@ namespace OverflowHelper.core
             URL_Add("return", "https://en.wiktionary.org/wiki/return#Verb");
 
             URL_Add("stream", "https://en.wiktionary.org/wiki/stream#Noun");
-
-            URL_Add("synthetise", "https://en.wiktionary.org/wiki/synthetise#Verb"); // Old: https://en.wiktionary.org/wiki/synthetise
 
             URL_Add("PHP Composer", "https://en.wikipedia.org/wiki/Composer_(software)");
 
@@ -127362,8 +127322,6 @@ namespace OverflowHelper.core
 
             URL_Add("overpromising", "https://en.wiktionary.org/wiki/overpromise#Verb");
 
-            URL_Add("FL Studio", "https://en.wikipedia.org/wiki/FL_Studio");
-
             URL_Add("tickets", "https://en.wikipedia.org/wiki/Issue_tracking_system");
 
             URL_Add("nonmatched", "https://en.wiktionary.org/wiki/nonmatched#Adjective");
@@ -129240,8 +129198,6 @@ namespace OverflowHelper.core
 
             URL_Add("Inspiron 620s", "https://en.wikipedia.org/wiki/Dell_Inspiron_desktop_computers#Inspiron_620_and_Inspiron_620s");
 
-            URL_Add("OmniPoint", "https://www.mechanical-keyboard.org/new-keyboards-and-omnipoint-switches-from-steelseries/");
-
             URL_Add("NaI(Tl)", "https://en.wikipedia.org/wiki/Gamma_spectroscopy#Scintillation_detectors"); // Contains chemical element 81, chemical element 11, and chemical element 53
 
             URL_Add("Blender Market", "https://en.wikipedia.org/wiki/Blender_(software)#Blender_Market");
@@ -130259,8 +130215,6 @@ namespace OverflowHelper.core
             URL_Add("Octicons", "https://github.com/primer/octicons");
 
             URL_Add("RailsCasts", "https://github.com/railscasts");
-
-            URL_Add("Programmer's Notepad", "https://github.com/simonsteele/pn");
 
             URL_Add("Syntastic", "https://github.com/vim-syntastic/syntastic/blob/master/README.markdown");
 
@@ -132443,20 +132397,6 @@ namespace OverflowHelper.core
             URL_Add("winner, winner, chicken dinner", "https://en.wiktionary.org/wiki/winner,_winner,_chicken_dinner#Phrase");
 
             URL_Add("chicken coop", "https://en.wikipedia.org/wiki/Poultry_farming#Chicken_coop");
-
-            URL_Add("synthesises", "https://en.wiktionary.org/wiki/synthesise#Verb");
-
-            URL_Add("synthesisers", "https://en.wiktionary.org/wiki/synthesiser#Noun");
-
-            URL_Add("direct digital synthesis", "https://en.wikipedia.org/wiki/Direct_digital_synthesis");
-
-            URL_Add("Big Bang", "https://en.wikipedia.org/wiki/Big_Bang");
-
-            URL_Add("Big Bang nucleosynthesis", "https://en.wikipedia.org/wiki/Big_Bang_nucleosynthesis");
-
-            URL_Add("nucleosynthesis", "https://en.wikipedia.org/wiki/Nucleosynthesis");
-
-            URL_Add("The Big Bang Theory", "https://en.wikipedia.org/wiki/The_Big_Bang_Theory");
 
             URL_Add("Stuart Bloom (comic book store owner)", "https://en.wikipedia.org/wiki/Stuart_Bloom#Stuart");
 
@@ -135169,8 +135109,6 @@ namespace OverflowHelper.core
             URL_Add("kernel size", "https://en.wikipedia.org/wiki/Convolutional_neural_network#Kernel_size");
 
             URL_Add("IntPtr.Size", "https://docs.microsoft.com/en-us/dotnet/api/system.intptr.size");
-
-            URL_Add("synthesizer", "https://en.wikipedia.org/wiki/Synthesizer");
 
             URL_Add("tenkeyless (80%)", "https://en.wikipedia.org/wiki/Computer_keyboard#Types_and_standards");
 
@@ -148622,328 +148560,6 @@ namespace OverflowHelper.core
 
             URL_Add("Tauri", "https://blog.logrocket.com/tauri-electron-comparison-migration-guide/"); // Old: <https://tauri.studio/v1/about/intro/>
 
-            URL_Add("spin–orbit coupling", "https://en.wikipedia.org/wiki/Spin%E2%80%93orbit_interaction");
-
-            URL_Add("orbital", "https://en.wiktionary.org/wiki/orbital#Adjective");
-
-            URL_Add("sp2", "https://en.wikipedia.org/wiki/Orbital_hybridisation#sp2");
-
-            URL_Add("p orbital", "https://en.wikipedia.org/wiki/Atomic_orbital");
-
-            URL_Add("s orbital", "https://en.wikipedia.org/wiki/Atomic_orbital");
-
-            URL_Add("atomically", "https://en.wiktionary.org/wiki/atomically#Adverb");
-
-            URL_Add("atomic level", "https://dictionary.cambridge.org/example/english/atomic-level");
-
-            URL_Add("nonatomic", "https://en.wiktionary.org/wiki/nonatomic#Adjective");
-
-            URL_Add("atomic weight", "https://en.wikipedia.org/wiki/Relative_atomic_mass");
-
-            URL_Add("Feynman diagram", "https://en.wikipedia.org/wiki/Feynman_diagram");
-
-            URL_Add("Standard Model", "https://en.wikipedia.org/wiki/Standard_Model");
-
-            URL_Add("thermonuclear", "https://en.wiktionary.org/wiki/thermonuclear#Adjective");
-
-            URL_Add("International Atomic Energy Agency", "https://en.wikipedia.org/wiki/International_Atomic_Energy_Agency");
-
-            URL_Add("fusion", "https://en.wikipedia.org/wiki/Nuclear_fusion");
-
-            URL_Add("neutron star", "https://en.wikipedia.org/wiki/Neutron_star");
-
-            URL_Add("natural gas", "https://en.wiktionary.org/wiki/natural_gas#Noun");
-
-            URL_Add("element", "https://en.wiktionary.org/wiki/element#Noun");
-
-            URL_Add("elements", "https://en.wiktionary.org/wiki/element#Noun");
-
-            URL_Add("hydrogen", "https://en.wikipedia.org/wiki/Hydrogen"); // Chemical element 1
-
-            URL_Add("deuterium", "https://en.wikipedia.org/wiki/Deuterium");
-
-            URL_Add("tritium", "https://en.wikipedia.org/wiki/Tritium");
-
-            URL_Add("water", "https://en.wikipedia.org/wiki/Water");
-
-            URL_Add("hydrogen peroxide", "https://en.wikipedia.org/wiki/Hydrogen_peroxide");
-
-            URL_Add("helium", "https://en.wikipedia.org/wiki/Helium"); // Chemical element 2
-
-            URL_Add("helium-3", "https://en.wikipedia.org/wiki/Helium-3"); // Related to chemical element 2
-
-            URL_Add("Helium-4", "https://en.wikipedia.org/wiki/Helium-4"); // Related to chemical element 2
-
-            URL_Add("lithium", "https://en.wikipedia.org/wiki/Lithium"); // Chemical element 3
-
-            URL_Add("Li-ion", "https://en.wikipedia.org/wiki/Lithium-ion_battery"); // Related to chemical element 4
-
-            URL_Add("lithium iron phosphate", "https://en.wikipedia.org/wiki/Lithium_iron_phosphate"); // Related to chemical element 4
-
-            URL_Add("lithium-ion batteries", "https://en.wikipedia.org/wiki/Lithium-ion_battery"); // Related to chemical element 4
-
-            URL_Add("lithium-ion battery swelling", "https://en.wikipedia.org/wiki/Lithium-ion_battery#Lifespan"); // Related to chemical element 4
-
-            URL_Add("LiPo", "https://en.wikipedia.org/wiki/Lithium_polymer_battery"); // Related to chemical element 4
-
-            URL_Add("two parallel", "https://www.instructables.com/Make-Your-Own-4S-Lithium-Battery-Pack/");
-
-            URL_Add("three-series, two parallel", "https://www.instructables.com/Make-Your-Own-4S-Lithium-Battery-Pack/");
-
-            URL_Add("four-series", "https://www.instructables.com/Make-Your-Own-4S-Lithium-Battery-Pack/");
-
-            URL_Add("four-series, two parallel", "https://www.instructables.com/Make-Your-Own-4S-Lithium-Battery-Pack/");
-
-            URL_Add("18650 battery", "https://en.wikipedia.org/wiki/18650_battery");
-
-            URL_Add("Panasonic", "https://en.wikipedia.org/wiki/Panasonic");
-
-            URL_Add("beryllium", "https://en.wikipedia.org/wiki/Beryllium"); // Chemical element 4
-
-            URL_Add("boron", "https://en.wikipedia.org/wiki/Boron"); // Chemical element 5
-
-            URL_Add("carbon-13", "https://en.wikipedia.org/wiki/Carbon-13"); // Related to chemical element 6
-
-            URL_Add("carbon-14", "https://en.wikipedia.org/wiki/Carbon-14"); // Related to chemical element 6
-
-            URL_Add("diamond", "https://en.wiktionary.org/wiki/diamond#Noun"); // Related to chemical element 6
-
-            URL_Add("graphene", "https://en.wikipedia.org/wiki/Graphene"); // Related to chemical element 6
-
-            URL_Add("carbon dioxide", "https://en.wikipedia.org/wiki/Carbon_dioxide"); // Related to chemical element 6
-
-            URL_Add("carbon monoxide", "https://en.wikipedia.org/wiki/Carbon_monoxide"); // Related to chemical element 6
-
-            URL_Add("IPCC", "https://en.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change");
-
-            URL_Add("Greta Thunberg", "https://en.wikipedia.org/wiki/Greta_Thunberg");
-
-            URL_Add("nitrogen", "https://en.wikipedia.org/wiki/Nitrogen"); // Chemical element 7
-
-            URL_Add("ammonium nitrate", "https://en.wikipedia.org/wiki/Ammonium_nitrate"); // Related to chemical element 6
-
-            URL_Add("oxygen-17", "https://en.wikipedia.org/wiki/Oxygen-17"); // Related to chemical element 8
-
-            URL_Add("fluorine", "https://en.wikipedia.org/wiki/Fluorine"); // Chemical element 9
-
-            URL_Add("neon", "https://en.wikipedia.org/wiki/Neon"); // Chemical element 10
-
-            URL_Add("sodium", "https://en.wikipedia.org/wiki/Sodium");
-
-            URL_Add("sodium chloride", "https://en.wikipedia.org/wiki/Sodium_chloride"); // Related to chemical element 11
-
-            URL_Add("sodium bicarbonate", "https://en.wikipedia.org/wiki/Sodium_bicarbonate"); // Related to chemical element 11
-
-            URL_Add("magnesium", "https://en.wikipedia.org/wiki/Magnesium"); // Chemical element 12
-
-            URL_Add("aluminium", "https://en.wiktionary.org/wiki/aluminium#Noun"); // Chemical element 13
-
-            URL_Add("aluminium foil", "https://en.wikipedia.org/wiki/Aluminium_foil");
-
-            URL_Add("aluminium sulfate", "https://en.wikipedia.org/wiki/Aluminium_sulfate");
-
-            URL_Add("silicon", "https://en.wikipedia.org/wiki/Silicon"); // Chemical element 14
-
-            URL_Add("phosphorus", "https://en.wikipedia.org/wiki/Phosphorus"); // Chemical element 15
-
-            URL_Add("sulphuric acid", "https://en.wikipedia.org/wiki/Sulfuric_acid"); // Related to chemical element 16
-
-            URL_Add("chlorine", "https://en.wikipedia.org/wiki/Chlorine"); // Chemical element 17
-
-            URL_Add("hydrochloric acid", "https://en.wikipedia.org/wiki/Hydrochloric_acid"); // Related to chemical element 17
-
-            URL_Add("chlorinated", "https://en.wiktionary.org/wiki/chlorinated#Adjective"); // Related to chemical element 17
-
-            URL_Add("dichloromethane", "https://en.wikipedia.org/wiki/Dichloromethane"); // Related to chemical element 17
-
-            URL_Add("argon", "https://en.wikipedia.org/wiki/Argon"); // Chemical element 18
-
-            URL_Add("potassium", "https://en.wikipedia.org/wiki/Potassium"); // Chemical element 19
-
-            URL_Add("potassium-40", "https://en.wikipedia.org/wiki/Potassium-40"); // Related to chemical element 19
-
-            URL_Add("potassium aluminium sulfate", "https://en.wikipedia.org/wiki/Potassium_alum"); // Related to chemical element 19
-
-            URL_Add("potassium metabisulfite", "https://en.wikipedia.org/wiki/Potassium_metabisulfite"); // Related to chemical element 19
-
-            URL_Add("potassium sorbate", "https://en.wikipedia.org/wiki/Potassium_sorbate"); // Related to chemical element 19
-
-            URL_Add("potassium carbonate", "https://en.wikipedia.org/wiki/Potassium_carbonate"); // Related to chemical element 19
-
-            URL_Add("potassium hydroxide", "https://en.wikipedia.org/wiki/Potassium_hydroxide"); // Related to chemical element 19
-
-            URL_Add("potassium chloride", "https://en.wikipedia.org/wiki/Potassium_chloride"); // Related to chemical element 19
-
-            URL_Add("calcium", "https://en.wikipedia.org/wiki/Calcium"); // Chemical element 20
-
-            URL_Add("calcium-41", "https://en.wikipedia.org/wiki/Isotopes_of_calcium");
-
-            URL_Add("calcite", "https://en.wikipedia.org/wiki/Calcite"); // Related to chemical element 20
-
-            URL_Add("calcium phosphate", "https://en.wikipedia.org/wiki/Calcium_phosphate"); // Related to chemical element 20
-
-            URL_Add("titanium", "https://en.wikipedia.org/wiki/Titanium"); // Chemical element 22
-
-            URL_Add("iron", "https://en.wikipedia.org/wiki/Iron"); // Chemical element 26
-
-            URL_Add("ferric chloride", "https://en.wikipedia.org/wiki/Iron(III)_chloride"); // Related to chemical element 26
-
-            URL_Add("steel plate", "https://en.wikipedia.org/wiki/Steel_plate_shear_wall"); // Related to chemical element 26
-
-            URL_Add("high-speed steel", "https://en.wikipedia.org/wiki/High-speed_steel"); // Related to chemical element 26
-
-            URL_Add("stainless steel", "https://en.wikipedia.org/wiki/Stainless_steel");
-
-            URL_Add("steel mills", "https://en.wiktionary.org/wiki/steel_mill#Noun"); // Related to chemical element 26
-
-            URL_Add("cobalt", "https://en.wikipedia.org/wiki/Cobalt"); // Chemical element 27
-
-            URL_Add("nickel", "https://en.wikipedia.org/wiki/Nickel"); // Chemical element 28
-
-            URL_Add("nickel–metal hydride", "https://en.wikipedia.org/wiki/Nickel%E2%80%93metal_hydride_battery"); // Related to chemical element 28
-
-            URL_Add("NiCad", "https://en.wikipedia.org/wiki/Nickel%E2%80%93cadmium_battery"); // Contains chemical element 28 and chemical element 48
-
-            URL_Add("copper", "https://en.wikipedia.org/wiki/Copper"); // Chemical element 29
-
-            URL_Add("bronze", "https://en.wikipedia.org/wiki/Bronze"); // Related to chemical element 29
-
-            URL_Add("copper-clad aluminium", "https://en.wikipedia.org/wiki/Copper-clad_aluminium_wire"); // Related to chemical element 29
-
-            URL_Add("zinc", "https://en.wikipedia.org/wiki/Zinc"); // Chemical element 30
-
-            URL_Add("gallium", "https://en.wikipedia.org/wiki/Gallium"); // Chemical element 31
-
-            URL_Add("gallium nitride", "https://en.wikipedia.org/wiki/Gallium_nitride"); // Related to chemical element 31
-
-            URL_Add("germanium", "https://en.wikipedia.org/wiki/Germanium"); // Chemical element 32
-
-            URL_Add("arsenic", "https://en.wikipedia.org/wiki/Arsenic"); // Chemical element 33
-
-            URL_Add("rubidium", "https://en.wikipedia.org/wiki/Rubidium"); // Chemical element 37
-
-            URL_Add("strontium", "https://en.wikipedia.org/wiki/Strontium"); // Chemical element 38
-
-            URL_Add("strontium-94", "https://en.wikipedia.org/wiki/Isotopes_of_strontium"); // Related to chemical element 38
-
-            URL_Add("zirconium", "https://en.wikipedia.org/wiki/Zirconium"); // Chemical element 40
-
-            URL_Add("cubic zirconia", "https://en.wikipedia.org/wiki/Cubic_zirconia"); // Related to chemical element 40
-
-            URL_Add("niobium", "https://en.wikipedia.org/wiki/Niobium"); // Chemical element 41
-
-            URL_Add("palladium", "https://en.wikipedia.org/wiki/Palladium"); // Chemical element 46
-
-            URL_Add("palladised", "https://en.wikipedia.org/wiki/Palladium"); // Related to chemical element 46
-
-            URL_Add("silver", "https://en.wikipedia.org/wiki/Silver"); // Chemical element 47
-
-            URL_Add("silver sulfide", "https://en.wikipedia.org/wiki/Silver_sulfide");
-
-            URL_Add("cadmium", "https://en.wikipedia.org/wiki/Cadmium"); // Chemical element 48
-
-            URL_Add("tin", "https://en.wikipedia.org/wiki/Tin"); // Chemical element 50
-
-            URL_Add("tin foil hat", "https://en.wikipedia.org/wiki/Tin_foil_hat"); // Related to chemical element 50
-
-            URL_Add("antimony", "https://en.wikipedia.org/wiki/Antimony"); // Chemical element 51
-
-            URL_Add("tellurium", "https://en.wikipedia.org/wiki/Tellurium"); // Chemical element 52
-
-            URL_Add("xenon", "https://en.wikipedia.org/wiki/Xenon"); // Chemical element 54
-
-            URL_Add("xenon-133", "https://en.wikipedia.org/wiki/Isotopes_of_xenon"); // Related to chemical element 54
-
-            URL_Add("xenon-140", "https://en.wikipedia.org/wiki/Isotopes_of_xenon"); // Related to chemical element 54
-
-            URL_Add("barium", "https://en.wikipedia.org/wiki/Barium"); // Chemical element 55
-
-            URL_Add("barium-137", "https://en.wikipedia.org/wiki/Isotopes_of_barium"); // Related to chemical element 55
-
-            URL_Add("barium Ka line (X-ray 32 keV)", "https://en.wikipedia.org/wiki/Isotopes_of_barium"); // Related to chemical element 55
-
-            URL_Add("caesium", "https://en.wikipedia.org/wiki/Caesium"); // Chemical element 56
-
-            URL_Add("caesium-137", "https://en.wikipedia.org/wiki/Caesium-137"); // Related to chemical element 56
-
-            URL_Add("ytterbium", "https://en.wikipedia.org/wiki/Ytterbium"); // Chemical element 70
-
-            URL_Add("tantalum capacitor", "https://en.wikipedia.org/wiki/Tantalum_capacitor"); // Contains element 73
-
-            URL_Add("tungsten", "https://en.wikipedia.org/wiki/Tungsten"); // Chemical element 74
-
-            URL_Add("rhenium", "https://en.wikipedia.org/wiki/Rhenium"); // Chemical element 75
-
-            URL_Add("osmium", "https://en.wikipedia.org/wiki/Osmium"); // Chemical element 76
-
-            URL_Add("iridium", "https://en.wikipedia.org/wiki/Iridium"); // Chemical element 77
-
-            URL_Add("platinum", "https://en.wikipedia.org/wiki/Platinum"); // Chemical element 78
-
-            URL_Add("gold", "https://en.wikipedia.org/wiki/Gold"); // Chemical element 79
-
-            URL_Add("mercury", "https://en.wikipedia.org/wiki/Mercury_%28element%29"); // Chemical element 80
-
-            URL_Add("thallium", "https://en.wikipedia.org/wiki/Thallium"); // Chemical element 81
-
-            URL_Add("lead", "https://en.wikipedia.org/wiki/Lead"); // Chemical element 82
-
-            URL_Add("lead-208", "https://en.wikipedia.org/wiki/Isotopes_of_lead#Lead-204,_-207,_and_-208"); // Related to chemical element 82
-
-            URL_Add("lead-210", "https://en.wikipedia.org/wiki/Isotopes_of_lead#List_of_isotopes"); // Related to chemical element 82
-
-            URL_Add("bismuth", "https://en.wikipedia.org/wiki/Bismuth"); // Chemical element 83
-
-            URL_Add("bismuth-209", "https://en.wikipedia.org/wiki/Bismuth-209"); // Related to chemical element 83
-
-            URL_Add("polonium", "https://en.wikipedia.org/wiki/Polonium");
-
-            URL_Add("francium", "https://en.wikipedia.org/wiki/Francium");
-
-            URL_Add("radium", "https://en.wikipedia.org/wiki/Radium"); // Chemical element 88
-
-            URL_Add("thorium", "https://en.wikipedia.org/wiki/Thorium"); // Chemical element 90
-
-            URL_Add("thorium-233", "https://en.wikipedia.org/wiki/Thorium-232"); // Related to chemical element 90
-
-            URL_Add("uranium-235", "https://en.wikipedia.org/wiki/Uranium-235"); // Related to chemical element 92
-
-            URL_Add("uranium-238", "https://en.wikipedia.org/wiki/Uranium-238"); // Related to chemical element 92
-
-            URL_Add("plutonium", "https://en.wikipedia.org/wiki/Plutonium"); // Chemical element 94
-
-            URL_Add("plutonium-239", "https://en.wikipedia.org/wiki/Plutonium-239"); // Related to chemical element 94
-
-            URL_Add("plutonium-240", "https://en.wikipedia.org/wiki/Plutonium-240"); // Related to chemical element 94
-
-            URL_Add("americium-241", "https://en.wikipedia.org/wiki/Americium-241"); // Related to chemical element 95
-
-            URL_Add("rutherfordium", "https://en.wikipedia.org/wiki/Rutherfordium"); // Chemical element 104
-
-            URL_Add("dubnium", "https://en.wikipedia.org/wiki/Dubnium"); // Chemical element 104
-
-            URL_Add("seaborgium", "https://en.wikipedia.org/wiki/Seaborgium"); // Chemical element 106
-
-            URL_Add("bohrium", "https://en.wikipedia.org/wiki/Bohrium"); // Chemical element 107
-
-            URL_Add("copernicium", "https://en.wikipedia.org/wiki/Copernicium"); // Chemical element 112
-
-            URL_Add("oganesson", "https://en.wikipedia.org/wiki/Oganesson"); // Chemical element 118
-
-            URL_Add("unbinilium", "https://en.wikipedia.org/wiki/Unbinilium"); // Chemical element 120
-
-            URL_Add("unbihexium", "https://en.wikipedia.org/wiki/Unbihexium"); // Chemical element 126
-
-            URL_Add("turpentine", "https://en.wikipedia.org/wiki/Turpentine");
-
-            URL_Add("superheavy", "https://en.wiktionary.org/wiki/superheavy#Adjective");
-
-            URL_Add("Cesium Ion", "https://cesium.com/learn/3d-tiling/ion-tile-imagery/"); // Unrelated to the chemical element caesium (chemical element 56)
-
-            URL_Add("polycarbonate", "https://www.prosettings.com/keycaps-guide/");
-
-            URL_Add("POM", "https://www.prosettings.com/keycaps-guide/");
-
             URL_Add("weaknesses", "https://en.wiktionary.org/wiki/weakness#Noun");
 
             URL_Add("weakening", "https://en.wiktionary.org/wiki/weaken#Verb");
@@ -149477,6 +149093,390 @@ namespace OverflowHelper.core
             URL_Add("Johann Sebastian Bach", "https://en.wikipedia.org/wiki/Johann_Sebastian_Bach");
 
             URL_Add("Für Elise", "https://en.wikipedia.org/wiki/F%C3%BCr_Elise");
+
+            URL_Add("Lisp", "https://en.wikipedia.org/wiki/Lisp_%28programming_language%29");
+
+            URL_Add("FASL", "https://www.lispworks.com/documentation/lw60/LW/html/lw-95.htm");
+
+            URL_Add("Common Lisp", "https://en.wikipedia.org/wiki/Common_Lisp");
+
+            URL_Add("Emacs&nbsp;Lisp", "https://en.wikipedia.org/wiki/Emacs_Lisp");
+
+            URL_Add("Emacs Lisp Package Archive", "https://en.wikipedia.org/wiki/GNU_Emacs#Release_history");
+
+            URL_Add("MELPA", "https://www.emacswiki.org/emacs/MELPA");
+
+            URL_Add("SBCL", "https://en.wikipedia.org/wiki/Steel_Bank_Common_Lisp");
+
+            URL_Add("CLOS", "https://en.wikipedia.org/wiki/Common_Lisp_Object_System");
+
+            URL_Add("we hacked most of it together in Perl", "https://www.explainxkcd.com/wiki/index.php/224:_Lisp");
+
+            URL_Add("OCaml", "https://en.wikipedia.org/wiki/OCaml"); // Old: https://en.wikipedia.org/wiki/Objective_Caml
+
+            URL_Add("Prolog", "https://en.wikipedia.org/wiki/Prolog");
+
+            URL_Add("Smalltalk", "https://en.wikipedia.org/wiki/Smalltalk");
+
+            URL_Add("Scala", "https://en.wikipedia.org/wiki/Scala_%28programming_language%29");
+
+            URL_Add("Objective-C", "https://en.wikipedia.org/wiki/Objective-C");
+
+            URL_Add("Objective-C++", "https://en.wikipedia.org/wiki/Objective-C#Objective-C++");
+
+            URL_Add("Objective-J", "https://en.wikipedia.org/wiki/Objective-J");
+
+            URL_Add("ObjectScript", "https://en.wikipedia.org/wiki/Cach%C3%A9_ObjectScript");
+
+            URL_Add("JRuby", "https://en.wikipedia.org/wiki/JRuby");
+
+            URL_Add("IPython", "https://en.wikipedia.org/wiki/IPython");
+
+            URL_Add("spin–orbit coupling", "https://en.wikipedia.org/wiki/Spin%E2%80%93orbit_interaction");
+
+            URL_Add("orbital", "https://en.wiktionary.org/wiki/orbital#Adjective");
+
+            URL_Add("sp2", "https://en.wikipedia.org/wiki/Orbital_hybridisation#sp2");
+
+            URL_Add("p orbital", "https://en.wikipedia.org/wiki/Atomic_orbital");
+
+            URL_Add("s orbital", "https://en.wikipedia.org/wiki/Atomic_orbital");
+
+            URL_Add("atomically", "https://en.wiktionary.org/wiki/atomically#Adverb");
+
+            URL_Add("atomic level", "https://dictionary.cambridge.org/example/english/atomic-level");
+
+            URL_Add("nonatomic", "https://en.wiktionary.org/wiki/nonatomic#Adjective");
+
+            URL_Add("atomic weight", "https://en.wikipedia.org/wiki/Relative_atomic_mass");
+
+            URL_Add("Feynman diagram", "https://en.wikipedia.org/wiki/Feynman_diagram");
+
+            URL_Add("Standard Model", "https://en.wikipedia.org/wiki/Standard_Model");
+
+            URL_Add("thermonuclear", "https://en.wiktionary.org/wiki/thermonuclear#Adjective");
+
+            URL_Add("International Atomic Energy Agency", "https://en.wikipedia.org/wiki/International_Atomic_Energy_Agency");
+
+            URL_Add("fusion", "https://en.wikipedia.org/wiki/Nuclear_fusion");
+
+            URL_Add("neutron star", "https://en.wikipedia.org/wiki/Neutron_star");
+
+            URL_Add("natural gas", "https://en.wiktionary.org/wiki/natural_gas#Noun");
+
+            URL_Add("element", "https://en.wiktionary.org/wiki/element#Noun");
+
+            URL_Add("elements", "https://en.wiktionary.org/wiki/element#Noun");
+
+            URL_Add("hydrogen", "https://en.wikipedia.org/wiki/Hydrogen"); // Chemical element 1
+
+            URL_Add("deuterium", "https://en.wikipedia.org/wiki/Deuterium");
+
+            URL_Add("tritium", "https://en.wikipedia.org/wiki/Tritium");
+
+            URL_Add("water", "https://en.wikipedia.org/wiki/Water");
+
+            URL_Add("hydrogen peroxide", "https://en.wikipedia.org/wiki/Hydrogen_peroxide");
+
+            URL_Add("helium", "https://en.wikipedia.org/wiki/Helium"); // Chemical element 2
+
+            URL_Add("helium-3", "https://en.wikipedia.org/wiki/Helium-3"); // Related to chemical element 2
+
+            URL_Add("Helium-4", "https://en.wikipedia.org/wiki/Helium-4"); // Related to chemical element 2
+
+            URL_Add("lithium", "https://en.wikipedia.org/wiki/Lithium"); // Chemical element 3
+
+            URL_Add("Li-ion", "https://en.wikipedia.org/wiki/Lithium-ion_battery"); // Related to chemical element 4
+
+            URL_Add("lithium iron phosphate", "https://en.wikipedia.org/wiki/Lithium_iron_phosphate"); // Related to chemical element 4
+
+            URL_Add("lithium-ion batteries", "https://en.wikipedia.org/wiki/Lithium-ion_battery"); // Related to chemical element 4
+
+            URL_Add("lithium-ion battery swelling", "https://en.wikipedia.org/wiki/Lithium-ion_battery#Lifespan"); // Related to chemical element 4
+
+            URL_Add("LiPo", "https://en.wikipedia.org/wiki/Lithium_polymer_battery"); // Related to chemical element 4
+
+            URL_Add("two parallel", "https://www.instructables.com/Make-Your-Own-4S-Lithium-Battery-Pack/");
+
+            URL_Add("three-series, two parallel", "https://www.instructables.com/Make-Your-Own-4S-Lithium-Battery-Pack/");
+
+            URL_Add("four-series", "https://www.instructables.com/Make-Your-Own-4S-Lithium-Battery-Pack/");
+
+            URL_Add("four-series, two parallel", "https://www.instructables.com/Make-Your-Own-4S-Lithium-Battery-Pack/");
+
+            URL_Add("18650 battery", "https://en.wikipedia.org/wiki/18650_battery");
+
+            URL_Add("Panasonic", "https://en.wikipedia.org/wiki/Panasonic");
+
+            URL_Add("beryllium", "https://en.wikipedia.org/wiki/Beryllium"); // Chemical element 4
+
+            URL_Add("boron", "https://en.wikipedia.org/wiki/Boron"); // Chemical element 5
+
+            URL_Add("carbon-13", "https://en.wikipedia.org/wiki/Carbon-13"); // Related to chemical element 6
+
+            URL_Add("carbon-14", "https://en.wikipedia.org/wiki/Carbon-14"); // Related to chemical element 6
+
+            URL_Add("diamond", "https://en.wiktionary.org/wiki/diamond#Noun"); // Related to chemical element 6
+
+            URL_Add("graphene", "https://en.wikipedia.org/wiki/Graphene"); // Related to chemical element 6
+
+            URL_Add("carbon dioxide", "https://en.wikipedia.org/wiki/Carbon_dioxide"); // Related to chemical element 6
+
+            URL_Add("carbon monoxide", "https://en.wikipedia.org/wiki/Carbon_monoxide"); // Related to chemical element 6
+
+            URL_Add("IPCC", "https://en.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change");
+
+            URL_Add("Greta Thunberg", "https://en.wikipedia.org/wiki/Greta_Thunberg");
+
+            URL_Add("nitrogen", "https://en.wikipedia.org/wiki/Nitrogen"); // Chemical element 7
+
+            URL_Add("ammonium nitrate", "https://en.wikipedia.org/wiki/Ammonium_nitrate"); // Related to chemical element 6
+
+            URL_Add("oxygen-17", "https://en.wikipedia.org/wiki/Oxygen-17"); // Related to chemical element 8
+
+            URL_Add("fluorine", "https://en.wikipedia.org/wiki/Fluorine"); // Chemical element 9
+
+            URL_Add("neon", "https://en.wikipedia.org/wiki/Neon"); // Chemical element 10
+
+            URL_Add("sodium", "https://en.wikipedia.org/wiki/Sodium");
+
+            URL_Add("sodium chloride", "https://en.wikipedia.org/wiki/Sodium_chloride"); // Related to chemical element 11
+
+            URL_Add("sodium bicarbonate", "https://en.wikipedia.org/wiki/Sodium_bicarbonate"); // Related to chemical element 11
+
+            URL_Add("magnesium", "https://en.wikipedia.org/wiki/Magnesium"); // Chemical element 12
+
+            URL_Add("aluminium", "https://en.wiktionary.org/wiki/aluminium#Noun"); // Chemical element 13
+
+            URL_Add("aluminium foil", "https://en.wikipedia.org/wiki/Aluminium_foil");
+
+            URL_Add("aluminium sulfate", "https://en.wikipedia.org/wiki/Aluminium_sulfate");
+
+            URL_Add("silicon", "https://en.wikipedia.org/wiki/Silicon"); // Chemical element 14
+
+            URL_Add("phosphorus", "https://en.wikipedia.org/wiki/Phosphorus"); // Chemical element 15
+
+            URL_Add("sulphuric acid", "https://en.wikipedia.org/wiki/Sulfuric_acid"); // Related to chemical element 16
+
+            URL_Add("chlorine", "https://en.wikipedia.org/wiki/Chlorine"); // Chemical element 17
+
+            URL_Add("hydrochloric acid", "https://en.wikipedia.org/wiki/Hydrochloric_acid"); // Related to chemical element 17
+
+            URL_Add("chlorinated", "https://en.wiktionary.org/wiki/chlorinated#Adjective"); // Related to chemical element 17
+
+            URL_Add("dichloromethane", "https://en.wikipedia.org/wiki/Dichloromethane"); // Related to chemical element 17
+
+            URL_Add("argon", "https://en.wikipedia.org/wiki/Argon"); // Chemical element 18
+
+            URL_Add("potassium", "https://en.wikipedia.org/wiki/Potassium"); // Chemical element 19
+
+            URL_Add("potassium-40", "https://en.wikipedia.org/wiki/Potassium-40"); // Related to chemical element 19
+
+            URL_Add("potassium aluminium sulfate", "https://en.wikipedia.org/wiki/Potassium_alum"); // Related to chemical element 19
+
+            URL_Add("potassium metabisulfite", "https://en.wikipedia.org/wiki/Potassium_metabisulfite"); // Related to chemical element 19
+
+            URL_Add("potassium sorbate", "https://en.wikipedia.org/wiki/Potassium_sorbate"); // Related to chemical element 19
+
+            URL_Add("potassium carbonate", "https://en.wikipedia.org/wiki/Potassium_carbonate"); // Related to chemical element 19
+
+            URL_Add("potassium hydroxide", "https://en.wikipedia.org/wiki/Potassium_hydroxide"); // Related to chemical element 19
+
+            URL_Add("potassium chloride", "https://en.wikipedia.org/wiki/Potassium_chloride"); // Related to chemical element 19
+
+            URL_Add("calcium", "https://en.wikipedia.org/wiki/Calcium"); // Chemical element 20
+
+            URL_Add("calcium-41", "https://en.wikipedia.org/wiki/Isotopes_of_calcium");
+
+            URL_Add("calcite", "https://en.wikipedia.org/wiki/Calcite"); // Related to chemical element 20
+
+            URL_Add("calcium phosphate", "https://en.wikipedia.org/wiki/Calcium_phosphate"); // Related to chemical element 20
+
+            URL_Add("titanium", "https://en.wikipedia.org/wiki/Titanium"); // Chemical element 22
+
+            URL_Add("iron", "https://en.wikipedia.org/wiki/Iron"); // Chemical element 26
+
+            URL_Add("ferric chloride", "https://en.wikipedia.org/wiki/Iron(III)_chloride"); // Related to chemical element 26
+
+            URL_Add("steel plate", "https://en.wikipedia.org/wiki/Steel_plate_shear_wall"); // Related to chemical element 26
+
+            URL_Add("high-speed steel", "https://en.wikipedia.org/wiki/High-speed_steel"); // Related to chemical element 26
+
+            URL_Add("stainless steel", "https://en.wikipedia.org/wiki/Stainless_steel");
+
+            URL_Add("steel mills", "https://en.wiktionary.org/wiki/steel_mill#Noun"); // Related to chemical element 26
+
+            URL_Add("cobalt", "https://en.wikipedia.org/wiki/Cobalt"); // Chemical element 27
+
+            URL_Add("nickel", "https://en.wikipedia.org/wiki/Nickel"); // Chemical element 28
+
+            URL_Add("nickel–metal hydride", "https://en.wikipedia.org/wiki/Nickel%E2%80%93metal_hydride_battery"); // Related to chemical element 28
+
+            URL_Add("NiCad", "https://en.wikipedia.org/wiki/Nickel%E2%80%93cadmium_battery"); // Contains chemical element 28 and chemical element 48
+
+            URL_Add("copper", "https://en.wikipedia.org/wiki/Copper"); // Chemical element 29
+
+            URL_Add("bronze", "https://en.wikipedia.org/wiki/Bronze"); // Related to chemical element 29
+
+            URL_Add("copper-clad aluminium", "https://en.wikipedia.org/wiki/Copper-clad_aluminium_wire"); // Related to chemical element 29
+
+            URL_Add("zinc", "https://en.wikipedia.org/wiki/Zinc"); // Chemical element 30
+
+            URL_Add("gallium", "https://en.wikipedia.org/wiki/Gallium"); // Chemical element 31
+
+            URL_Add("gallium nitride", "https://en.wikipedia.org/wiki/Gallium_nitride"); // Related to chemical element 31
+
+            URL_Add("germanium", "https://en.wikipedia.org/wiki/Germanium"); // Chemical element 32
+
+            URL_Add("arsenic", "https://en.wikipedia.org/wiki/Arsenic"); // Chemical element 33
+
+            URL_Add("rubidium", "https://en.wikipedia.org/wiki/Rubidium"); // Chemical element 37
+
+            URL_Add("strontium", "https://en.wikipedia.org/wiki/Strontium"); // Chemical element 38
+
+            URL_Add("strontium-94", "https://en.wikipedia.org/wiki/Isotopes_of_strontium"); // Related to chemical element 38
+
+            URL_Add("zirconium", "https://en.wikipedia.org/wiki/Zirconium"); // Chemical element 40
+
+            URL_Add("cubic zirconia", "https://en.wikipedia.org/wiki/Cubic_zirconia"); // Related to chemical element 40
+
+            URL_Add("niobium", "https://en.wikipedia.org/wiki/Niobium"); // Chemical element 41
+
+            URL_Add("palladium", "https://en.wikipedia.org/wiki/Palladium"); // Chemical element 46
+
+            URL_Add("palladised", "https://en.wikipedia.org/wiki/Palladium"); // Related to chemical element 46
+
+            URL_Add("silver", "https://en.wikipedia.org/wiki/Silver"); // Chemical element 47
+
+            URL_Add("silver sulfide", "https://en.wikipedia.org/wiki/Silver_sulfide");
+
+            URL_Add("cadmium", "https://en.wikipedia.org/wiki/Cadmium"); // Chemical element 48
+
+            URL_Add("tin", "https://en.wikipedia.org/wiki/Tin"); // Chemical element 50
+
+            URL_Add("tin foil hat", "https://en.wikipedia.org/wiki/Tin_foil_hat"); // Related to chemical element 50
+
+            URL_Add("antimony", "https://en.wikipedia.org/wiki/Antimony"); // Chemical element 51
+
+            URL_Add("tellurium", "https://en.wikipedia.org/wiki/Tellurium"); // Chemical element 52
+
+            URL_Add("xenon", "https://en.wikipedia.org/wiki/Xenon"); // Chemical element 54
+
+            URL_Add("xenon-133", "https://en.wikipedia.org/wiki/Isotopes_of_xenon"); // Related to chemical element 54
+
+            URL_Add("xenon-140", "https://en.wikipedia.org/wiki/Isotopes_of_xenon"); // Related to chemical element 54
+
+            URL_Add("barium", "https://en.wikipedia.org/wiki/Barium"); // Chemical element 55
+
+            URL_Add("barium-137", "https://en.wikipedia.org/wiki/Isotopes_of_barium"); // Related to chemical element 55
+
+            URL_Add("barium Ka line (X-ray 32 keV)", "https://en.wikipedia.org/wiki/Isotopes_of_barium"); // Related to chemical element 55
+
+            URL_Add("caesium", "https://en.wikipedia.org/wiki/Caesium"); // Chemical element 56
+
+            URL_Add("caesium-137", "https://en.wikipedia.org/wiki/Caesium-137"); // Related to chemical element 56
+
+            URL_Add("ytterbium", "https://en.wikipedia.org/wiki/Ytterbium"); // Chemical element 70
+
+            URL_Add("tantalum capacitor", "https://en.wikipedia.org/wiki/Tantalum_capacitor"); // Contains element 73
+
+            URL_Add("tungsten", "https://en.wikipedia.org/wiki/Tungsten"); // Chemical element 74
+
+            URL_Add("rhenium", "https://en.wikipedia.org/wiki/Rhenium"); // Chemical element 75
+
+            URL_Add("osmium", "https://en.wikipedia.org/wiki/Osmium"); // Chemical element 76
+
+            URL_Add("iridium", "https://en.wikipedia.org/wiki/Iridium"); // Chemical element 77
+
+            URL_Add("platinum", "https://en.wikipedia.org/wiki/Platinum"); // Chemical element 78
+
+            URL_Add("gold", "https://en.wikipedia.org/wiki/Gold"); // Chemical element 79
+
+            URL_Add("mercury", "https://en.wikipedia.org/wiki/Mercury_%28element%29"); // Chemical element 80
+
+            URL_Add("thallium", "https://en.wikipedia.org/wiki/Thallium"); // Chemical element 81
+
+            URL_Add("lead", "https://en.wikipedia.org/wiki/Lead"); // Chemical element 82
+
+            URL_Add("lead-208", "https://en.wikipedia.org/wiki/Isotopes_of_lead#Lead-204,_-207,_and_-208"); // Related to chemical element 82
+
+            URL_Add("lead-210", "https://en.wikipedia.org/wiki/Isotopes_of_lead#List_of_isotopes"); // Related to chemical element 82
+
+            URL_Add("bismuth", "https://en.wikipedia.org/wiki/Bismuth"); // Chemical element 83
+
+            URL_Add("bismuth-209", "https://en.wikipedia.org/wiki/Bismuth-209"); // Related to chemical element 83
+
+            URL_Add("polonium", "https://en.wikipedia.org/wiki/Polonium");
+
+            URL_Add("francium", "https://en.wikipedia.org/wiki/Francium");
+
+            URL_Add("radium", "https://en.wikipedia.org/wiki/Radium"); // Chemical element 88
+
+            URL_Add("thorium", "https://en.wikipedia.org/wiki/Thorium"); // Chemical element 90
+
+            URL_Add("thorium-233", "https://en.wikipedia.org/wiki/Thorium-232"); // Related to chemical element 90
+
+            URL_Add("uranium-235", "https://en.wikipedia.org/wiki/Uranium-235"); // Related to chemical element 92
+
+            URL_Add("uranium-238", "https://en.wikipedia.org/wiki/Uranium-238"); // Related to chemical element 92
+
+            URL_Add("plutonium", "https://en.wikipedia.org/wiki/Plutonium"); // Chemical element 94
+
+            URL_Add("plutonium-239", "https://en.wikipedia.org/wiki/Plutonium-239"); // Related to chemical element 94
+
+            URL_Add("plutonium-240", "https://en.wikipedia.org/wiki/Plutonium-240"); // Related to chemical element 94
+
+            URL_Add("americium-241", "https://en.wikipedia.org/wiki/Americium-241"); // Related to chemical element 95
+
+            URL_Add("rutherfordium", "https://en.wikipedia.org/wiki/Rutherfordium"); // Chemical element 104
+
+            URL_Add("dubnium", "https://en.wikipedia.org/wiki/Dubnium"); // Chemical element 104
+
+            URL_Add("seaborgium", "https://en.wikipedia.org/wiki/Seaborgium"); // Chemical element 106
+
+            URL_Add("bohrium", "https://en.wikipedia.org/wiki/Bohrium"); // Chemical element 107
+
+            URL_Add("copernicium", "https://en.wikipedia.org/wiki/Copernicium"); // Chemical element 112
+
+            URL_Add("oganesson", "https://en.wikipedia.org/wiki/Oganesson"); // Chemical element 118
+
+            URL_Add("unbinilium", "https://en.wikipedia.org/wiki/Unbinilium"); // Chemical element 120
+
+            URL_Add("unbihexium", "https://en.wikipedia.org/wiki/Unbihexium"); // Chemical element 126
+
+            URL_Add("turpentine", "https://en.wikipedia.org/wiki/Turpentine");
+
+            URL_Add("superheavy", "https://en.wiktionary.org/wiki/superheavy#Adjective");
+
+            URL_Add("Cesium Ion", "https://cesium.com/learn/3d-tiling/ion-tile-imagery/"); // Unrelated to the chemical element caesium (chemical element 56)
+
+            URL_Add("polycarbonate", "https://www.prosettings.com/keycaps-guide/");
+
+            URL_Add("POM", "https://www.prosettings.com/keycaps-guide/");
+
+            URL_Add("OmniPoint", "https://www.mechanical-keyboard.org/new-keyboards-and-omnipoint-switches-from-steelseries/");
+
+            URL_Add("Programmer's Notepad", "https://github.com/simonsteele/pn");
+
+            URL_Add("synthetise", "https://en.wiktionary.org/wiki/synthetise#Verb"); // Old: https://en.wiktionary.org/wiki/synthetise
+
+            URL_Add("synthesises", "https://en.wiktionary.org/wiki/synthesise#Verb");
+
+            URL_Add("synthesizer", "https://en.wikipedia.org/wiki/Synthesizer");
+
+            URL_Add("synthesisers", "https://en.wiktionary.org/wiki/synthesiser#Noun");
+
+            URL_Add("Yamaha", "https://en.wikipedia.org/wiki/Yamaha_Corporation");
+
+            URL_Add("direct digital synthesis", "https://en.wikipedia.org/wiki/Direct_digital_synthesis");
+
+            URL_Add("Big Bang", "https://en.wikipedia.org/wiki/Big_Bang");
+
+            URL_Add("Big Bang nucleosynthesis", "https://en.wikipedia.org/wiki/Big_Bang_nucleosynthesis");
+
+            URL_Add("nucleosynthesis", "https://en.wikipedia.org/wiki/Nucleosynthesis");
+
+            URL_Add("The Big Bang Theory", "https://en.wikipedia.org/wiki/The_Big_Bang_Theory");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -151591,6 +151591,51 @@ namespace OverflowHelper.core
             correctionAdd("K-12_", "K–12_");
             correctionAdd("K12_", "K–12_");
 
+            // United States
+            // The institution, not the software license
+            correctionAdd("mit_", "MIT_");
+
+            // United States. Voluntary consumer protection (sort of), etc.
+            correctionAdd("BBB_", "Better Business Bureau_");
+
+            // United States
+            correctionAdd("BLM_", "Bureau of Land Management_");
+
+            // A United States time zone
+            correctionAdd("US Pacific DST_", "Pacific Daylight Time_");
+            correctionAdd("PDT_", "Pacific Daylight Time_");
+
+            correctionAdd("United Parcel Service_", "UPS_");
+            correctionAdd("ups_", "UPS_");
+
+            // United States military
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/TDY>
+            //
+            correctionAdd("Temporary Additional Duty_", "temporary duty assignment_");
+            correctionAdd("Temporary Duty Assignment_", "temporary duty assignment_");
+            correctionAdd("temporary additional duty_", "temporary duty assignment_");
+            correctionAdd("Temporary duty travel_", "temporary duty assignment_");
+            correctionAdd("Temporary Duty_", "temporary duty assignment_");
+            correctionAdd("temporary duty_", "temporary duty assignment_");
+            correctionAdd("TAD_", "temporary duty assignment_");
+            correctionAdd("tad_", "temporary duty assignment_");
+            correctionAdd("TDY_", "temporary duty assignment_"); // The official abbr.
+            correctionAdd("tdy_", "temporary duty assignment_");
+
+            // United States politics
+            correctionAdd("white house_", "White House_");
+            correctionAdd("Whitehouse_", "White House_");
+            correctionAdd("WhiteHouse_", "White House_");
+            correctionAdd("WHouse_", "White House_");
+            correctionAdd("WH_", "White House_");
+
+            // United States politics
+            correctionAdd("REPS_", "Republicans_");
+            correctionAdd("reps_", "Republicans_");
+
             // A United States state
             correctionAdd("Nevada_", "Nevada, United States_");
             correctionAdd("nevada_", "Nevada, United States_");
@@ -151625,31 +151670,6 @@ namespace OverflowHelper.core
             correctionAdd("losangeles_", "Los Angeles_");
             correctionAdd("angles_", "Los Angeles_"); // Mostly for the cross-reference
             correctionAdd("LA_", "Los Angeles_");
-
-            // United States
-            // The institution, not the software license
-            correctionAdd("mit_", "MIT_");
-
-            // United States
-            correctionAdd("BLM_", "Bureau of Land Management_");
-
-            // A United States time zone
-            correctionAdd("US Pacific DST_", "Pacific Daylight Time_");
-            correctionAdd("PDT_", "Pacific Daylight Time_");
-
-            correctionAdd("United Parcel Service_", "UPS_");
-            correctionAdd("ups_", "UPS_");
-
-            // United States politics
-            correctionAdd("white house_", "White House_");
-            correctionAdd("Whitehouse_", "White House_");
-            correctionAdd("WhiteHouse_", "White House_");
-            correctionAdd("WHouse_", "White House_");
-            correctionAdd("WH_", "White House_");
-
-            // United States politics
-            correctionAdd("REPS_", "Republicans_");
-            correctionAdd("reps_", "Republicans_");
 
             correctionAdd("Gargbage collection_", "GC_");
             correctionAdd("garbagge collection_", "GC_");
@@ -154575,9 +154595,6 @@ namespace OverflowHelper.core
             correctionAdd("beter_", "better_");
             correctionAdd("btter_", "better_");
 
-            // United States. Voluntary consumer protection (sort of), etc.
-            correctionAdd("BBB_", "Better Business Bureau_");
-
             correctionAdd("sanskrit_", "Sanskrit_"); // It is also in the main word set. It is to have an alternative URL.
 
             // Stuff with rain, snow, etc.
@@ -156338,10 +156355,10 @@ namespace OverflowHelper.core
             correctionAdd("Dygma Raise 2_", "Dygma Raise_"); // Not 100% correct
             correctionAdd("dygma raise_", "Dygma Raise_");
             correctionAdd("Dygma raise_", "Dygma Raise_");
-            correctionAdd("Raise1_", "Dygma Raise_");
-            correctionAdd("raise1_", "Dygma Raise_");
             correctionAdd("Raise 2_", "Dygma Raise_"); // Not 100% correct
             correctionAdd("raise 2_", "Dygma Raise_"); // Not 100% correct
+            correctionAdd("Raise1_", "Dygma Raise_");
+            correctionAdd("raise1_", "Dygma Raise_");
             correctionAdd("raise2_", "Dygma Raise_"); // Not 100% correct
             correctionAdd("raise_", "Dygma Raise_");
             correctionAdd("RAISE_", "Dygma Raise_");
@@ -159673,6 +159690,14 @@ namespace OverflowHelper.core
             // Music
             correctionAdd("Choir_", "choir_");
 
+            // Music
+            //
+            // Software for audio (DAW)
+            //
+            correctionAdd("FruityLoops_", "FL Studio_");
+            correctionAdd("fl studio_", "FL Studio_");
+            correctionAdd("FL_", "FL Studio_");
+
             correctionAdd("AoE_", "ATA over Ethernet_");
 
             correctionAdd("uber_", "über_");
@@ -160439,14 +160464,6 @@ namespace OverflowHelper.core
             correctionAdd("Academia_", "Academia (Stack Exchange site)_");
             correctionAdd("academia_", "Academia (Stack Exchange site)_");
 
-            correctionAdd("Music: Practice & Theory (Stack Exchange site)_", "Music:&nbsp;Practice&nbsp;&&nbsp;Theory (Stack Exchange site)_");
-            correctionAdd("Music:&nbsp;Practice&nbsp;&&nbsp;Theory_", "Music:&nbsp;Practice&nbsp;&&nbsp;Theory (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("music Stack Exchange site_", "Music:&nbsp;Practice&nbsp;&&nbsp;Theory (Stack Exchange site)_");
-            correctionAdd("Music: Practice & Theory_", "Music:&nbsp;Practice&nbsp;&&nbsp;Theory (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("music Stack Exchange_", "Music:&nbsp;Practice&nbsp;&&nbsp;Theory (Stack Exchange site)_");
-            correctionAdd("Music.SE_", "Music:&nbsp;Practice&nbsp;&&nbsp;Theory (Stack Exchange site)_");
-            correctionAdd("Music_", "Music:&nbsp;Practice&nbsp;&&nbsp;Theory (Stack Exchange site)_");
-
             correctionAdd("Psychology & Neuroscience (Stack Exchange site)_", "Psychology&nbsp;&&nbsp;Neuroscience (Stack Exchange site)_");
             correctionAdd("Psychology&nbsp;&&nbsp;Neuroscience_", "Psychology&nbsp;&&nbsp;Neuroscience (Stack Exchange site)_"); // Sort of identity mapping
             correctionAdd("Psycology and Neurocience_", "Psychology&nbsp;&&nbsp;Neuroscience (Stack Exchange site)_");
@@ -160719,6 +160736,14 @@ namespace OverflowHelper.core
             correctionAdd("Stats.SE_", "Cross&nbsp;Validated (Stack Exchange site)_");
             correctionAdd("stats_", "Cross&nbsp;Validated (Stack Exchange site)_");
             correctionAdd("Stats_", "Cross&nbsp;Validated (Stack Exchange site)_");
+
+            correctionAdd("Music: Practice & Theory (Stack Exchange site)_", "Music:&nbsp;Practice&nbsp;&&nbsp;Theory (Stack Exchange site)_");
+            correctionAdd("Music:&nbsp;Practice&nbsp;&&nbsp;Theory_", "Music:&nbsp;Practice&nbsp;&&nbsp;Theory (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("music Stack Exchange site_", "Music:&nbsp;Practice&nbsp;&&nbsp;Theory (Stack Exchange site)_");
+            correctionAdd("Music: Practice & Theory_", "Music:&nbsp;Practice&nbsp;&&nbsp;Theory (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("music Stack Exchange_", "Music:&nbsp;Practice&nbsp;&&nbsp;Theory (Stack Exchange site)_");
+            correctionAdd("Music.SE_", "Music:&nbsp;Practice&nbsp;&&nbsp;Theory (Stack Exchange site)_");
+            correctionAdd("Music_", "Music:&nbsp;Practice&nbsp;&&nbsp;Theory (Stack Exchange site)_");
 
             correctionAdd("SEDE_", "Stack Exchange Data Explorer_");
 
@@ -166165,8 +166190,6 @@ namespace OverflowHelper.core
 
             URL_Add("Stack Exchange Data Explorer_", "https://data.stackexchange.com/users/10901/peter-mortensen-resurrected");
 
-            URL_Add("synthetic_", "https://en.wiktionary.org/wiki/synth#Adjective");
-
             URL_Add("guide_", "https://en.wiktionary.org/wiki/guide#Noun");
 
             URL_Add("probability density function_", "https://en.wikipedia.org/wiki/Probability_density_function");
@@ -170213,6 +170236,12 @@ namespace OverflowHelper.core
 
             URL_Add("CI/CD_", "https://en.wikipedia.org/wiki/Continuous_integration#Deploy_an_artefact_from_CI");
 
+            URL_Add("temporary duty assignment_", "https://en.wikipedia.org/wiki/Temporary_duty_assignment");
+
+            URL_Add("FL Studio_", "https://en.wikipedia.org/wiki/FL_Studio");
+
+            URL_Add("synthetic_", "https://en.wiktionary.org/wiki/synth#Adjective");
+
         } //addLookupData_alternativeWordSet()
 
 
@@ -172250,6 +172279,9 @@ namespace OverflowHelper.core
             correctionAdd("power amp__", "audio power amplifier__");
             correctionAdd("pa__", "audio power amplifier__");
             correctionAdd("PA__", "audio power amplifier__");
+
+            // Related to home theater PCs: Audio, etc.
+            correctionAdd("Firefly__", "Firefly PC Remote__");
 
             correctionAdd("port__", "TCP/IP port__");
 
@@ -174663,9 +174695,6 @@ namespace OverflowHelper.core
             correctionAdd("captain__", "Captain Haddock__");
             correctionAdd("hadook__", "Captain Haddock__");
 
-            // Related to home theater PCs: Audio, etc.
-            correctionAdd("Firefly__", "Firefly PC Remote__");
-
             // Idiomatic?
             correctionAdd("for the intents and purposes__", "for all intents and purposes__");
             correctionAdd("for all intents an purposes__", "for all intents and purposes__");
@@ -175197,6 +175226,8 @@ namespace OverflowHelper.core
             correctionAdd("mPCIe__", "PCI Express Mini Card__");
             correctionAdd("PEM__", "PCI Express Mini Card__");
 
+            correctionAdd("steel__", "steep__"); // A true typos
+
             // A book. For the reverse
             //
             // We need a better reference...
@@ -175477,8 +175508,6 @@ namespace OverflowHelper.core
             URL_Add("best regards__", "https://en.wiktionary.org/wiki/best_regards#Noun");
 
             URL_Add("player character__", "https://en.wikipedia.org/wiki/Player_character");
-
-            URL_Add("audio power amplifier__", "https://en.wikipedia.org/wiki/Audio_power_amplifier");
 
             URL_Add("flight attendant__", "https://en.wikipedia.org/wiki/Flight_attendant");
 
@@ -176445,6 +176474,10 @@ namespace OverflowHelper.core
             URL_Add("continuation__", "https://en.wiktionary.org/wiki/continuation#Noun");
 
             URL_Add("continuous delivery__", "https://en.wikipedia.org/wiki/Continuous_delivery");
+
+            URL_Add("steep__", "https://en.wiktionary.org/wiki/steep#Adjective");
+
+            URL_Add("audio power amplifier__", "https://en.wikipedia.org/wiki/Audio_power_amplifier");
 
         } //addLookupData_alternativeWordSet2()
 
@@ -177930,7 +177963,9 @@ namespace OverflowHelper.core
             correctionAdd("Keychron Q HE 8K series (proprietary keyboard firmware, not open source)___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // Sort of identity mapping
             correctionAdd("Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
             correctionAdd("Keychron&nbsp;Q6&nbsp;HE&nbsp;8K___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // For the cross-reference
+            correctionAdd("Q&nbsp;HE&nbsp;8K series___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
             correctionAdd("Keychron Q HE 8K series___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // Sort of identity mapping
+            correctionAdd("Q&nbsp;HE&nbsp;8K___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
             correctionAdd("Keychron Q6 HE 8K___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // For the cross-reference
             correctionAdd("Q HE 8K series___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
             correctionAdd("Q6 HE 8K___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // For the cross-reference
@@ -178015,6 +178050,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Keychron J HE 8K series (proprietary keyboard firmware, not open source)___", "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // Sort of identity mapping
             correctionAdd("Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series___", "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
+            correctionAdd("J&nbsp;HE&nbsp;8K&nbsp;series___", "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
+            correctionAdd("J&nbsp;HE&nbsp;8K series___", "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
             correctionAdd("Keychron J HE 8K series___", "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // Sort of identity mapping
             correctionAdd("J HE 8K series___", "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
 
@@ -178964,6 +179001,8 @@ namespace OverflowHelper.core
             correctionAdd("pass-thru___", "through-hole construction___"); // Really?
             correctionAdd("TH___", "through-hole construction___");
 
+            correctionAdd("FX___", "audio/MIDI effects___");
+
             // Of the "B" programming language (also by Dennis Ritchie)
             //
             // Alternative URLs:
@@ -179563,6 +179602,8 @@ namespace OverflowHelper.core
             URL_Add("SIGCONT___", "https://en.wikipedia.org/wiki/Signal_(IPC)#POSIX_signals");
 
             URL_Add("through-hole construction___", "https://en.wikipedia.org/wiki/Through-hole_technology");
+
+            URL_Add("audio/MIDI effects___", "https://en.wikipedia.org/wiki/General_MIDI#Synth_Effects");
 
         } //addLookupData_alternativeWordSet3()
 
@@ -182083,18 +182124,6 @@ namespace OverflowHelper.core
             correctionAdd("K_____", "&nbsp;K_____");
             correctionAdd("kelvin_____", "&nbsp;K_____"); // The official expanded name
 
-            // A unit (of time)
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/week#Noun>
-            //
-            correctionAdd("&nbsp;week_____", "&nbsp;w_____");
-            correctionAdd("week_____", "&nbsp;w_____"); // Sort of identity mapping
-            correctionAdd("weak_____", "&nbsp;w_____");
-            correctionAdd("wk_____", "&nbsp;w_____");
-            correctionAdd("w_____", "&nbsp;w_____");
-
             // A unit (of length)
             //
             // Note: Is in this high alternative word set because of
@@ -182106,6 +182135,7 @@ namespace OverflowHelper.core
             correctionAdd("foot_____", "&nbsp;ft_____");
             correctionAdd("fit_____", "&nbsp;ft_____");
             correctionAdd("ft_____", "&nbsp;ft_____");
+            correctionAdd("Ft_____", "&nbsp;ft_____");
             correctionAdd("'_____", "&nbsp;ft_____");
             correctionAdd("′_____", "&nbsp;ft_____");
             correctionAdd("feet_____", "&nbsp;ft_____"); // The official expanded name
@@ -182227,14 +182257,15 @@ namespace OverflowHelper.core
             correctionAdd("muy_____", "my_____");
             correctionAdd("mmy_____", "my_____"); // A true typo (involving the space bar)
             correctionAdd("may_____", "my_____");
-            correctionAdd("My_____", "my_____");
-            correctionAdd("mu_____", "my_____");
             correctionAdd("by_____", "my_____");
             correctionAdd("ma_____", "my_____");
+            correctionAdd("Mi_____", "my_____");
+            correctionAdd("mi_____", "my_____");
+            correctionAdd("mt_____", "my_____"); // A true typo
+            correctionAdd("mu_____", "my_____");
+            correctionAdd("My_____", "my_____");
             correctionAdd("ny_____", "my_____");
             correctionAdd("mz_____", "my_____"); // A German typo (sort of)
-            correctionAdd("mt_____", "my_____"); // A true typo
-            correctionAdd("mi_____", "my_____");
             correctionAdd("m_____", "my_____");
 
             correctionAdd("seee_____", "see_____");
@@ -182448,8 +182479,9 @@ namespace OverflowHelper.core
 
             // The English word (an 'article')
             correctionAdd("wa_____", "a_____");
-            correctionAdd("s_____", "a_____");
+            correctionAdd("s_____", "a_____"); // A true typo
             correctionAdd("q_____", "a_____"); // A true typo
+            correctionAdd("w_____", "a_____"); // A true typo
 
             correctionAdd("switzerland_____", "Switzerland_____");
             correctionAdd("SW_____", "Switzerland_____");
@@ -183363,8 +183395,6 @@ namespace OverflowHelper.core
 
             URL_Add("&nbsp;K_____", "https://en.wikipedia.org/wiki/Kelvin");
 
-            URL_Add("&nbsp;w_____", "https://en.wikipedia.org/wiki/Week");
-
             URL_Add("&nbsp;ft_____", "https://en.wikipedia.org/wiki/Foot_(unit)");
 
             URL_Add("&nbsp;\"_____", "https://en.wikipedia.org/wiki/Inch");
@@ -183798,6 +183828,18 @@ namespace OverflowHelper.core
             correctionAdd("Maco______", "macro______");
             correctionAdd("maro______", "macro______");
 
+            // A unit (of time)
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/week#Noun>
+            //
+            correctionAdd("&nbsp;week______", "&nbsp;w______");
+            correctionAdd("week______", "&nbsp;w______"); // Sort of identity mapping
+            correctionAdd("weak______", "&nbsp;w______");
+            correctionAdd("wk______", "&nbsp;w______");
+            correctionAdd("w______", "&nbsp;w______");
+
             // A unit (of length). For the expansion
             //
             // Note: It is in this high alternative word set
@@ -183975,6 +184017,8 @@ namespace OverflowHelper.core
             URL_Add("but______", "https://en.wiktionary.org/wiki/but#Conjunction");
 
             URL_Add("to______", "https://en.wiktionary.org/wiki/to#Particle");
+
+            URL_Add("&nbsp;w______", "https://en.wikipedia.org/wiki/Week");
 
             URL_Add("&nbsp;inch______", "https://en.wiktionary.org/wiki/inch#Noun");
 
