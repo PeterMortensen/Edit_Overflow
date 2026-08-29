@@ -4232,8 +4232,9 @@ namespace OverflowHelper.core
             correctionAdd("havnt", "haven’t");
 
             correctionAdd("boughten", "bought");
-            correctionAdd("bougjt", "bought");
             correctionAdd("baught", "bought");
+            correctionAdd("bougjt", "bought"); // A true typo
+            correctionAdd("boyght", "bought"); // A true typo
             correctionAdd("bougth", "bought"); // A true typo
             correctionAdd("nought", "bought"); // A true typo
             correctionAdd("Nought", "bought"); // A true typo
@@ -22033,6 +22034,41 @@ namespace OverflowHelper.core
             correctionAdd("hero page", "hero header");
 
             correctionAdd("hero-image", "hero image");
+
+            correctionAdd("analyzing", "analysing");
+            correctionAdd("alyzing", "analysing");
+
+            correctionAdd("re-analysed", "reanalysed");
+            correctionAdd("re-analyzed", "reanalysed");
+            correctionAdd("reanalyzed", "reanalysed");
+
+            correctionAdd("analysation", "analysis");
+            correctionAdd("analyzation", "analysis");
+            correctionAdd("anaylisis", "analysis");
+            correctionAdd("alnaysis", "analysis");
+            correctionAdd("analisis", "analysis");
+            correctionAdd("analisys", "analysis");
+            correctionAdd("Alalysis", "analysis");
+            correctionAdd("alalysis", "analysis");
+            correctionAdd("alaysis", "analysis");
+            correctionAdd("analsys", "analysis");
+            correctionAdd("analyze", "analysis");
+
+            // The noun
+            correctionAdd("analysises", "analyses");
+
+            correctionAdd("ananlyser", "analyzer");
+            correctionAdd("analizer", "analyzer");
+
+            correctionAdd("annalist", "analyst");
+            correctionAdd("analist", "analyst");
+
+            correctionAdd("analitics", "analytics");
+            correctionAdd("analitycs", "analytics");
+            correctionAdd("analytycs", "analytics");
+            correctionAdd("analyics", "analytics");
+
+            correctionAdd("Real Analysis", "real analysis");
 
             correctionAdd("Then", "then");
             correctionAdd("rhen", "then");
@@ -50414,39 +50450,6 @@ namespace OverflowHelper.core
             correctionAdd("hint-hint", "hint, hint");
             correctionAdd("hint hint", "hint, hint");
 
-            correctionAdd("analyzing", "analysing");
-            correctionAdd("alyzing", "analysing");
-
-            correctionAdd("re-analysed", "reanalysed");
-            correctionAdd("re-analyzed", "reanalysed");
-            correctionAdd("reanalyzed", "reanalysed");
-
-            correctionAdd("analysation", "analysis");
-            correctionAdd("analyzation", "analysis");
-            correctionAdd("anaylisis", "analysis");
-            correctionAdd("alnaysis", "analysis");
-            correctionAdd("analisis", "analysis");
-            correctionAdd("analisys", "analysis");
-            correctionAdd("alaysis", "analysis");
-            correctionAdd("analsys", "analysis");
-            correctionAdd("analyze", "analysis");
-
-            // The noun
-            correctionAdd("analysises", "analyses");
-
-            correctionAdd("ananlyser", "analyzer");
-            correctionAdd("analizer", "analyzer");
-
-            correctionAdd("annalist", "analyst");
-            correctionAdd("analist", "analyst");
-
-            correctionAdd("analitics", "analytics");
-            correctionAdd("analitycs", "analytics");
-            correctionAdd("analytycs", "analytics");
-            correctionAdd("analyics", "analytics");
-
-            correctionAdd("Real Analysis", "real analysis");
-
             correctionAdd("newley", "newly");
             correctionAdd("newely", "newly");
 
@@ -64719,9 +64722,15 @@ namespace OverflowHelper.core
             correctionAdd("COLEMAK", "Colemak keyboard layout");
             correctionAdd("Cooemak", "Colemak keyboard layout");
             correctionAdd("Colemak", "Colemak keyboard layout");
+            correctionAdd("colemac", "Colemak keyboard layout");
+            correctionAdd("ColMack", "Colemak keyboard layout");
+            correctionAdd("Colmack", "Colemak keyboard layout");
             correctionAdd("COLMAK", "Colemak keyboard layout");
             correctionAdd("Colmak", "Colemak keyboard layout");
             correctionAdd("colmak", "Colemak keyboard layout");
+            correctionAdd("ColMac", "Colemak keyboard layout");
+            correctionAdd("Colmac", "Colemak keyboard layout");
+            correctionAdd("colmac", "Colemak keyboard layout");
 
             // A keyboard layout
             //
@@ -79385,6 +79394,10 @@ namespace OverflowHelper.core
             correctionAdd("non-instrumented", "noninstrumented");
             correctionAdd("non instrumented", "noninstrumented");
 
+            correctionAdd("sight reading", "sight-reading");
+
+            correctionAdd("sheetmusic", "sheet music");
+
             correctionAdd("mintority", "minority");
 
             correctionAdd("mayority", "majority");
@@ -79414,18 +79427,45 @@ namespace OverflowHelper.core
             // A computer game. Music
             correctionAdd("guitar pro", "Guitar Pro");
 
-            // Music (classical)
-            correctionAdd("Moonight Sonata", "Moonlight Sonata");
-
-            correctionAdd("romantic music", "Romantic music");
-
-            correctionAdd("baroque", "Baroque music");
-
-            correctionAdd("Classical music", "classical music");
+            // Music. A composer
+            correctionAdd("Amadeus", "Wolfgang Amadeus Mozart");
+            correctionAdd("AMADEUS", "Wolfgang Amadeus Mozart");
+            correctionAdd("MOZART", "Wolfgang Amadeus Mozart");
+            correctionAdd("Mozart", "Wolfgang Amadeus Mozart");
 
             // Music
-            correctionAdd("boogie woogie", "boogie-woogie");
-            correctionAdd("Boogie Woogie", "boogie-woogie");
+            correctionAdd("Brahms", "Johannes Brahms");
+            correctionAdd("br4hms", "Johannes Brahms");
+            correctionAdd("brahms", "Johannes Brahms");
+
+            // Music. A composer
+            correctionAdd("Beethoven", "Ludwig van Beethoven");
+
+            // Music (classical)
+            // By Ludwig van Beethoven
+            correctionAdd("Moonight Sonata", "Moonlight Sonata");
+
+            // Music. Incl. opera
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=cZCRIkt_o28>
+            //
+            correctionAdd("George Frideric Handel", "G. F. Händel");
+            correctionAdd("George Frideric Händel", "G. F. Händel");
+            correctionAdd("Georg Friedrich Händel", "G. F. Händel");
+            correctionAdd("Lascia ch'io pianga", "G. F. Händel"); // From Händel's opera Rinaldo
+            correctionAdd("LASCIA CH'IO PIANGA", "G. F. Händel");
+            correctionAdd("Haendel", "G. F. Händel");
+            correctionAdd("HAENDEL", "G. F. Händel");
+            correctionAdd("Haëndel", "G. F. Händel");
+            correctionAdd("Handel", "G. F. Händel");
+            correctionAdd("Händel", "G. F. Händel");
+            correctionAdd("Hëndel", "G. F. Händel");
+            correctionAdd("HANDEL", "G. F. Händel");
+            correctionAdd("Hendel", "G. F. Händel");
+            correctionAdd("handel", "G. F. Händel");
+            correctionAdd("hendel", "G. F. Händel");
 
             // Music composer
             correctionAdd("J. S. Bach", "Johann Sebastian Bach");
@@ -79469,35 +79509,30 @@ namespace OverflowHelper.core
             correctionAdd("147", "\"Jesus bleibet meine Freude\" BWV 147, 10");
             correctionAdd("tat", "\"Jesus bleibet meine Freude\" BWV 147, 10");
 
+            correctionAdd("romantic music", "Romantic music");
+
+            correctionAdd("baroque", "Baroque music");
+
+            correctionAdd("Classical music", "classical music");
+
+            // Music
+            correctionAdd("boogie woogie", "boogie-woogie");
+            correctionAdd("Boogie Woogie", "boogie-woogie");
+
             // Music
             correctionAdd("Chopin's Op. 20, Nocturne", "Nocturne No. 20 in C♯ minor");
 
-            // Music. Incl. opera
+            // Music
             //
             // Alternative URLs:
             //
-            //   <https://www.youtube.com/watch?v=cZCRIkt_o28>
+            //   <https://www.youtube.com/watch?v=OKlR4nrCowM&t=1m3s>
+            //   <https://www.youtube.com/watch?v=2AZOknKotVc>
+            //   <https://www.youtube.com/watch?v=gi1GmyOFrzo&t=9m0s>
+            //   <https://www.youtube.com/watch?v=YE0G2ke1oOw>
+            //     Single instrument: Cello
             //
-            correctionAdd("George Frideric Handel", "G. F. Händel");
-            correctionAdd("George Frideric Händel", "G. F. Händel");
-            correctionAdd("Georg Friedrich Händel", "G. F. Händel");
-            correctionAdd("Lascia ch'io pianga", "G. F. Händel"); // From Händel's opera Rinaldo
-            correctionAdd("LASCIA CH'IO PIANGA", "G. F. Händel");
-            correctionAdd("Haendel", "G. F. Händel");
-            correctionAdd("HAENDEL", "G. F. Händel");
-            correctionAdd("Haëndel", "G. F. Händel");
-            correctionAdd("Handel", "G. F. Händel");
-            correctionAdd("Händel", "G. F. Händel");
-            correctionAdd("Hëndel", "G. F. Händel");
-            correctionAdd("HANDEL", "G. F. Händel");
-            correctionAdd("Hendel", "G. F. Händel");
-            correctionAdd("handel", "G. F. Händel");
-            correctionAdd("hendel", "G. F. Händel");
-
-            // Music
-            correctionAdd("Brahms", "Johannes Brahms");
-            correctionAdd("br4hms", "Johannes Brahms");
-            correctionAdd("brahms", "Johannes Brahms");
+            correctionAdd("cow music", "String quintet in E Major, Op.11 No.5. Minuet - Luigi Boccherini");
 
             correctionAdd("musicXML", "MusicXML");
 
@@ -79534,18 +79569,6 @@ namespace OverflowHelper.core
             correctionAdd("VIVA LA VIDA", "Viva la Vida");
             correctionAdd("Viva la vida", "Viva la Vida");
 
-            // Music
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.youtube.com/watch?v=OKlR4nrCowM&t=1m3s>
-            //   <https://www.youtube.com/watch?v=2AZOknKotVc>
-            //   <https://www.youtube.com/watch?v=gi1GmyOFrzo&t=9m0s>
-            //   <https://www.youtube.com/watch?v=YE0G2ke1oOw>
-            //     Single instrument: Cello
-            //
-            correctionAdd("cow music", "String quintet in E Major, Op.11 No.5. Minuet - Luigi Boccherini");
-
             // Music. Brian Hyland
             //
             // Alternative URLs:
@@ -79569,6 +79592,23 @@ namespace OverflowHelper.core
 
             // Music
             correctionAdd("fur elize", "Für Elise");
+
+            // Music. Piano. Learning
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/pianolearning/>
+            //
+            //   <https://www.youtube.com/watch?v=947FPpPWjZE&list=RD947FPpPWjZE&start_radio=1>
+            //     Simply Piano | Ode To Joy | Essentials II | Piano Tutorial
+            //
+            //   <https://www.youtube.com/watch?v=947FPpPWjZE&list=RD947FPpPWjZE&start_radio=1>
+            //     Hallelujah | Essentials II | Piano Tutorial
+            //
+            //   <https://www.youtube.com/watch?v=tqZpKl-9YIc&list=PLMVXf_o2729EwF2wqVfcYw242OFEKhzcR>
+            //     Simply piano / Piano Basics
+            //
+            correctionAdd("Simply piano", "Simply Piano");
 
             correctionAdd("parish", "perish");
 
@@ -113145,8 +113185,6 @@ namespace OverflowHelper.core
 
             URL_Add("prominence", "https://en.wiktionary.org/wiki/prominence#Noun");
 
-            URL_Add("Emmy Award", "https://en.wikipedia.org/wiki/Emmy_Award");
-
             URL_Add("TOC", "https://en.wiktionary.org/wiki/table_of_contents#Noun");
 
             URL_Add("Unix time", "https://en.wikipedia.org/wiki/Unix_time");
@@ -114288,8 +114326,6 @@ namespace OverflowHelper.core
             URL_Add("incompatible", "https://en.wiktionary.org/wiki/incompatible#Adjective");
 
             URL_Add("Daily Mail", "https://en.wikipedia.org/wiki/Daily_Mail");
-
-            URL_Add("MusicXML", "https://en.wikipedia.org/wiki/MusicXML");
 
             URL_Add("Pandora's box", "https://en.wikipedia.org/wiki/Pandora's_box");
 
@@ -116421,8 +116457,6 @@ namespace OverflowHelper.core
 
             URL_Add("GraphML", "https://en.wikipedia.org/wiki/GraphML");
 
-            URL_Add("Guitar Pro", "https://en.wikipedia.org/wiki/Guitar_Pro");
-
             URL_Add("LoopBack", "https://loopback.io/");
 
             URL_Add("LoopBack 4", "https://loopback.io/");
@@ -116601,11 +116635,7 @@ namespace OverflowHelper.core
 
             URL_Add("zir", "https://en.wiktionary.org/wiki/zir#Pronoun");
 
-            URL_Add("Baroque music", "https://en.wikipedia.org/wiki/Baroque_music");
-
             URL_Add("ESET Smart Security", "https://en.wikipedia.org/wiki/ESET#Recognition");
-
-            URL_Add("classical music", "https://en.wikipedia.org/wiki/Classical_music");
 
             URL_Add("constraint programming", "https://en.wikipedia.org/wiki/Constraint_programming");
 
@@ -117159,8 +117189,6 @@ namespace OverflowHelper.core
 
             URL_Add("in short order", "https://en.wiktionary.org/wiki/in_short_order#Adverb");
 
-            URL_Add("music", "https://en.wiktionary.org/wiki/music#Noun");
-
             URL_Add("underlying", "https://en.wiktionary.org/wiki/underlying#Adjective");
 
             URL_Add("Amiga", "https://en.wikipedia.org/wiki/Amiga");
@@ -117204,8 +117232,6 @@ namespace OverflowHelper.core
             URL_Add("as far as I'm concerned", "https://en.wiktionary.org/wiki/as_far_as_I%27m_concerned#Adverb");
 
             URL_Add("basket", "https://en.wiktionary.org/wiki/basket#Noun");
-
-            URL_Add("bass guitar", "https://en.wikipedia.org/wiki/Bass_guitar");
 
             URL_Add("discussable", "https://en.wiktionary.org/wiki/discussable#Adjective");
 
@@ -118771,8 +118797,6 @@ namespace OverflowHelper.core
 
             URL_Add("reverse proxy", "https://en.wikipedia.org/wiki/Reverse_proxy");
 
-            URL_Add("G. F. Händel", "https://en.wikipedia.org/wiki/Lascia_ch%27io_pianga");
-
             URL_Add("Hans Niemann", "https://en.wikipedia.org/wiki/Hans_Niemann");
 
             URL_Add("Garuda Linux", "https://en.wikipedia.org/wiki/Garuda_Linux");
@@ -120267,8 +120291,6 @@ namespace OverflowHelper.core
 
             URL_Add("decides", "https://en.wiktionary.org/wiki/decide#Verb");
 
-            URL_Add("LilyPond", "https://en.wikipedia.org/wiki/LilyPond");
-
             URL_Add("Loki", "https://en.wikipedia.org/wiki/Elementary_OS#0.4_Loki");
 
             URL_Add("condolences", "https://en.wiktionary.org/wiki/condolence#Noun");
@@ -120802,8 +120824,6 @@ namespace OverflowHelper.core
             URL_Add("narcissism", "https://en.wiktionary.org/wiki/narcissism#Noun");
 
             URL_Add("prefers", "https://en.wiktionary.org/wiki/prefer#Verb");
-
-            URL_Add("boogie-woogie", "https://en.wikipedia.org/wiki/Boogie-woogie");
 
             URL_Add("QuiteRSS", "https://en.wikipedia.org/wiki/QuiteRSS");
 
@@ -123651,12 +123671,6 @@ namespace OverflowHelper.core
 
             URL_Add("builds", "https://en.wiktionary.org/wiki/build#Verb");
 
-            URL_Add("C-sharp minor", "https://en.wikipedia.org/wiki/C-sharp_minor");
-
-            URL_Add("Nocturne No. 20 in C♯ minor", "https://en.wikipedia.org/wiki/Nocturne_in_C-sharp_minor,_Op._posth._(Chopin)");
-
-            URL_Add("tuplet", "https://en.wikipedia.org/wiki/Tuplet");
-
             URL_Add("Zalando", "https://en.wikipedia.org/wiki/Zalando");
 
             URL_Add("dual-use", "https://en.wiktionary.org/wiki/dual-use#Adjective");
@@ -123682,8 +123696,6 @@ namespace OverflowHelper.core
             URL_Add("drudgery", "https://en.wiktionary.org/wiki/drudgery#Noun");
 
             URL_Add("heuristics", "https://en.wiktionary.org/wiki/heuristics#Noun_2");
-
-            URL_Add("Johannes Brahms", "https://en.wikipedia.org/wiki/Johannes_Brahms");
 
             URL_Add("exotic", "https://en.wiktionary.org/wiki/exotic#Adjective");
 
@@ -124000,8 +124012,6 @@ namespace OverflowHelper.core
             URL_Add("Raycast", "https://en.wikipedia.org/wiki/Raycast_(software)");
 
             URL_Add("recognisable", "https://en.wiktionary.org/wiki/recognisable#Adjective");
-
-            URL_Add("guitar", "https://en.wikipedia.org/wiki/Guitar");
 
             URL_Add("misbehaviour", "https://en.wiktionary.org/wiki/misbehaviour#Noun");
 
@@ -124391,8 +124401,6 @@ namespace OverflowHelper.core
 
             URL_Add("linker", "https://en.wikipedia.org/wiki/Linker_(computing)");
 
-            URL_Add("Viva la Vida", "https://en.wikipedia.org/wiki/Viva_la_Vida");
-
             URL_Add("copy-pasting", "https://en.wiktionary.org/wiki/copy-paste#Verb");
 
             URL_Add("Dell Latitude E6420", "https://en.wikipedia.org/wiki/Dell_Latitude#Exx20_Models_(2011/2012)");
@@ -124456,10 +124464,6 @@ namespace OverflowHelper.core
             URL_Add("Mini-ITX", "https://en.wikipedia.org/wiki/Mini-ITX");
 
             URL_Add("dissipated", "https://en.wiktionary.org/wiki/dissipate#Verb");
-
-            URL_Add("E major", "https://en.wikipedia.org/wiki/E_major");
-
-            URL_Add("String quintet in E Major, Op.11 No.5. Minuet - Luigi Boccherini", "https://www.youtube.com/watch?v=5fLPBIBOE5U");
 
             URL_Add("chaotic", "https://en.wiktionary.org/wiki/chaotic#Adjective");
 
@@ -138167,8 +138171,6 @@ namespace OverflowHelper.core
 
             URL_Add("Lightning Web Components", "https://developer.salesforce.com/docs/component-library/documentation/en/lwc");
 
-            URL_Add("Romantic music", "https://en.wikipedia.org/wiki/Romantic_music");
-
             URL_Add("Monnify", "https://monnify.com/");
 
             URL_Add("delightful", "https://en.wiktionary.org/wiki/delightful#Adjective");
@@ -138880,8 +138882,6 @@ namespace OverflowHelper.core
             URL_Add("Born rule", "https://en.wikipedia.org/wiki/Born_rule");
 
             URL_Add("Brian Greene", "https://en.wikipedia.org/wiki/Brian_Greene");
-
-            URL_Add("Brian May", "https://en.wikipedia.org/wiki/Brian_May");
 
             URL_Add("Albert Einstein", "https://en.wikipedia.org/wiki/Albert_Einstein");
 
@@ -142445,8 +142445,6 @@ namespace OverflowHelper.core
 
             URL_Add("lingua franca", "https://en.wiktionary.org/wiki/lingua_franca#Noun");
 
-            URL_Add("Itsy bitsy teenie weenie yellow polka dot bikini", "https://www.youtube.com/watch?v=ICkWjdQuK7Q");
-
             URL_Add("new contributor indicator", "https://meta.stackexchange.com/questions/314287/come-take-a-look-at-our-new-contributor-indicator");
 
             URL_Add("painstaking", "https://en.wiktionary.org/wiki/painstaking#Adjective");
@@ -145843,6 +145841,10 @@ namespace OverflowHelper.core
 
             URL_Add("Scratch", "https://en.wikipedia.org/wiki/Scratch_%28programming_language%29");
 
+            URL_Add("Wolfgang Amadeus Mozart", "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart");
+
+            URL_Add("Ludwig van Beethoven", "https://en.wikipedia.org/wiki/Ludwig_van_Beethoven");
+
             URL_Add("Moonlight Sonata", "https://en.wikipedia.org/wiki/Piano_Sonata_No._14_(Beethoven)");
 
             URL_Add("Moonlight", "https://en.wikipedia.org/wiki/Moonlight_%28runtime%29");
@@ -148919,14 +148921,6 @@ namespace OverflowHelper.core
 
             URL_Add("sheer", "https://en.wiktionary.org/wiki/sheer#Adjective");
 
-            URL_Add("ABBA", "https://en.wikipedia.org/wiki/ABBA");
-
-            URL_Add("\"Jesus bleibet meine Freude\" BWV 147, 10", "https://www.youtube.com/watch?v=Lm2kAvIQxHE");
-
-            URL_Add("Johann Sebastian Bach", "https://en.wikipedia.org/wiki/Johann_Sebastian_Bach");
-
-            URL_Add("Für Elise", "https://en.wikipedia.org/wiki/F%C3%BCr_Elise");
-
             URL_Add("Lisp", "https://en.wikipedia.org/wiki/Lisp_%28programming_language%29");
 
             URL_Add("FASL", "https://www.lispworks.com/documentation/lw60/LW/html/lw-95.htm");
@@ -149490,6 +149484,62 @@ namespace OverflowHelper.core
             URL_Add("Physical Address Extension", "https://en.wikipedia.org/wiki/Physical_Address_Extension");
 
             URL_Add("large object heap", "https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/large-object-heap");
+
+            URL_Add("music", "https://en.wiktionary.org/wiki/music#Noun");
+
+            URL_Add("sight-reading", "https://en.wikipedia.org/wiki/Sight-reading#Sight-reading");
+
+            URL_Add("sheet music", "https://en.wikipedia.org/wiki/Sheet_music");
+
+            URL_Add("tuplet", "https://en.wikipedia.org/wiki/Tuplet");
+
+            URL_Add("E major", "https://en.wikipedia.org/wiki/E_major");
+
+            URL_Add("C-sharp minor", "https://en.wikipedia.org/wiki/C-sharp_minor");
+
+            URL_Add("Baroque music", "https://en.wikipedia.org/wiki/Baroque_music");
+
+            URL_Add("classical music", "https://en.wikipedia.org/wiki/Classical_music");
+
+            URL_Add("Romantic music", "https://en.wikipedia.org/wiki/Romantic_music");
+
+            URL_Add("\"Jesus bleibet meine Freude\" BWV 147, 10", "https://www.youtube.com/watch?v=Lm2kAvIQxHE");
+
+            URL_Add("Johann Sebastian Bach", "https://en.wikipedia.org/wiki/Johann_Sebastian_Bach");
+
+            URL_Add("Johannes Brahms", "https://en.wikipedia.org/wiki/Johannes_Brahms");
+
+            URL_Add("G. F. Händel", "https://en.wikipedia.org/wiki/Lascia_ch%27io_pianga");
+
+            URL_Add("Brian May", "https://en.wikipedia.org/wiki/Brian_May");
+
+            URL_Add("Für Elise", "https://en.wikipedia.org/wiki/F%C3%BCr_Elise");
+
+            URL_Add("Nocturne No. 20 in C♯ minor", "https://en.wikipedia.org/wiki/Nocturne_in_C-sharp_minor,_Op._posth._(Chopin)");
+
+            URL_Add("String quintet in E Major, Op.11 No.5. Minuet - Luigi Boccherini", "https://www.youtube.com/watch?v=5fLPBIBOE5U");
+
+            URL_Add("Emmy Award", "https://en.wikipedia.org/wiki/Emmy_Award");
+
+            URL_Add("guitar", "https://en.wikipedia.org/wiki/Guitar");
+
+            URL_Add("bass guitar", "https://en.wikipedia.org/wiki/Bass_guitar");
+
+            URL_Add("boogie-woogie", "https://en.wikipedia.org/wiki/Boogie-woogie");
+
+            URL_Add("ABBA", "https://en.wikipedia.org/wiki/ABBA");
+
+            URL_Add("Viva la Vida", "https://en.wikipedia.org/wiki/Viva_la_Vida");
+
+            URL_Add("Itsy bitsy teenie weenie yellow polka dot bikini", "https://www.youtube.com/watch?v=ICkWjdQuK7Q");
+
+            URL_Add("MusicXML", "https://en.wikipedia.org/wiki/MusicXML");
+
+            URL_Add("Guitar Pro", "https://en.wikipedia.org/wiki/Guitar_Pro");
+
+            URL_Add("Simply Piano", "https://en.wikipedia.org/wiki/Simply_(Software_Company)#Simply_Piano");
+
+            URL_Add("LilyPond", "https://en.wikipedia.org/wiki/LilyPond");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -172187,6 +172237,9 @@ namespace OverflowHelper.core
             //   <https://www.youtube.com/watch?v=cxLbmnvMWM0>
             //     Flash mob
             //   <http://cantorion.org/pieces/147/Symphony-No.-9>
+            //
+            //   <https://www.youtube.com/watch?v=947FPpPWjZE&list=RD947FPpPWjZE&start_radio=1>
+            //     In 'Simply Piano'
             //
             correctionAdd("Symphony No. 9 in D minor, Op. 125 Movement: Fourth__", "Ode an die Freude__");
             correctionAdd("the last movement of Beethoven's ninth symphony__", "Ode an die Freude__");
