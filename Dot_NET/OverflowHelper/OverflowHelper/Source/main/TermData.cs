@@ -5303,8 +5303,8 @@ namespace OverflowHelper.core
             correctionAdd("Memory", "memory");
             correctionAdd("Menory", "memory");
             correctionAdd("menory", "memory");
-            correctionAdd("memery", "memory");
             correctionAdd("memoty", "memory"); // A true typo
+            correctionAdd("memery", "memory");
             correctionAdd("mem", "memory");
 
             correctionAdd("memory-less", "memoryless");
@@ -7158,6 +7158,32 @@ namespace OverflowHelper.core
             correctionAdd("Tickets", "tickets");
 
             correctionAdd("Translucency", "translucency");
+
+            correctionAdd("decission", "decision");
+            correctionAdd("descision", "decision");
+            correctionAdd("desicion", "decision");
+            correctionAdd("desigion", "decision");
+            correctionAdd("decisson", "decision");
+            correctionAdd("deicison", "decision");
+            correctionAdd("dicesion", "decision");
+            correctionAdd("dicision", "decision");
+            correctionAdd("Decision", "decision");
+            correctionAdd("decicion", "decision");
+            correctionAdd("desision", "decision");
+            correctionAdd("diecison", "decision");
+            correctionAdd("Decesion", "decision");
+            correctionAdd("decesion", "decision");
+            correctionAdd("decison", "decision");
+
+            correctionAdd("desisions", "decisions");
+            correctionAdd("decicions", "decisions");
+            correctionAdd("desicions", "decisions");
+
+            correctionAdd("Decisive", "decisive");
+
+            correctionAdd("DMN", "Decision Model and Notation");
+
+            correctionAdd("decision-making", "decision making");
 
             // The adjective
             correctionAdd("llight", "light");
@@ -11683,6 +11709,18 @@ namespace OverflowHelper.core
             correctionAdd("input field separators", "internal field separator");
             correctionAdd("input field separator", "internal field separator"); // A synonym
             correctionAdd("IFS", "internal field separator");
+
+            correctionAdd("jaming", "jamming");
+
+            correctionAdd("Jamstack", "JAMstack");
+            correctionAdd("jamstack", "JAMstack");
+            correctionAdd("jamstak", "JAMstack");
+
+            correctionAdd("JAMS scheduler", "JAMS Scheduler");
+
+            correctionAdd("JamJS", "Jam.js");
+            correctionAdd("Jamjs", "Jam.js");
+            correctionAdd("Jam", "Jam.js");
 
             correctionAdd("stratosfere", "stratosphere");
 
@@ -21253,6 +21291,7 @@ namespace OverflowHelper.core
             correctionAdd("Befor", "before");
             correctionAdd("bevor", "before");
             correctionAdd("b4", "before");
+            correctionAdd("B4", "before");
 
             correctionAdd("affter", "after");
             correctionAdd("aftaer", "after");
@@ -77952,30 +77991,6 @@ namespace OverflowHelper.core
             // COM (Microsoft's Component Object Model)
             correctionAdd("STA", "Single-Threaded Apartment");
 
-            correctionAdd("decission", "decision");
-            correctionAdd("descision", "decision");
-            correctionAdd("desicion", "decision");
-            correctionAdd("desigion", "decision");
-            correctionAdd("decisson", "decision");
-            correctionAdd("deicison", "decision");
-            correctionAdd("dicesion", "decision");
-            correctionAdd("dicision", "decision");
-            correctionAdd("Decision", "decision");
-            correctionAdd("decicion", "decision");
-            correctionAdd("desision", "decision");
-            correctionAdd("diecison", "decision");
-            correctionAdd("Decesion", "decision");
-            correctionAdd("decesion", "decision");
-            correctionAdd("decison", "decision");
-
-            correctionAdd("desisions", "decisions");
-            correctionAdd("decicions", "decisions");
-            correctionAdd("desicions", "decisions");
-
-            correctionAdd("DMN", "Decision Model and Notation");
-
-            correctionAdd("decision-making", "decision making");
-
             correctionAdd("matrasses", "mattresses");
 
             correctionAdd("Uglify", "uglify");
@@ -81535,6 +81550,8 @@ namespace OverflowHelper.core
             correctionAdd("Mealy Machine", "Mealy machine");
 
             correctionAdd("Moore Machine", "Moore machine");
+
+            correctionAdd("schtick", "shtick");
 
             correctionAdd("Meme", "meme");
 
@@ -103370,10 +103387,6 @@ namespace OverflowHelper.core
 
             correctionAdd("coq", "Coq");
 
-            correctionAdd("Jamstack", "JAMstack");
-            correctionAdd("jamstack", "JAMstack");
-            correctionAdd("jamstak", "JAMstack");
-
             correctionAdd("tco", "TCO");
 
             // Scrum / agile
@@ -104319,10 +104332,6 @@ namespace OverflowHelper.core
             correctionAdd("excl", "excluding");
 
             correctionAdd("racket", "Racket");
-
-            correctionAdd("JamJS", "Jam.js");
-            correctionAdd("Jamjs", "Jam.js");
-            correctionAdd("Jam", "Jam.js");
 
             correctionAdd("doodle", "Doodle");
 
@@ -106918,8 +106927,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Optiplex", "OptiPlex");
 
-            correctionAdd("JAMS scheduler", "JAMS Scheduler");
-
             correctionAdd("jhipster", "JHipster");
             correctionAdd("Jhipster", "JHipster");
             correctionAdd("Jhispter", "JHipster");
@@ -108638,8 +108645,6 @@ namespace OverflowHelper.core
 
             URL_Add("Gprof", "https://en.wikipedia.org/wiki/Gprof");
 
-            URL_Add("memoization", "https://en.wikipedia.org/wiki/Memoization");
-
             URL_Add("F-15", "https://en.wikipedia.org/wiki/McDonnell_Douglas_F-15_Eagle");
 
             URL_Add("F-16", "https://en.wikipedia.org/wiki/General_Dynamics_F-16_Fighting_Falcon");
@@ -108999,8 +109004,6 @@ namespace OverflowHelper.core
             URL_Add("crontab", "https://en.wikipedia.org/wiki/Cron#Overview");
 
             URL_Add("de facto", "https://en.wiktionary.org/wiki/de_facto#Adjective");
-
-            URL_Add("decision", "https://en.wiktionary.org/wiki/decision#Noun");
 
             URL_Add("paragraph", "https://en.wiktionary.org/wiki/paragraph#Noun");
 
@@ -112960,8 +112963,6 @@ namespace OverflowHelper.core
 
             URL_Add("guesstimate", "https://en.wiktionary.org/wiki/guesstimate#Noun");
 
-            URL_Add("memorise", "https://en.wiktionary.org/wiki/memorise#Verb");
-
             URL_Add("p-value", "https://en.wikipedia.org/wiki/P-value");
 
             URL_Add("reimplement", "https://en.wiktionary.org/wiki/reimplement#Verb");
@@ -113335,8 +113336,6 @@ namespace OverflowHelper.core
             URL_Add("aligned", "https://en.wiktionary.org/wiki/align#Verb");
 
             URL_Add("bucket sort", "https://en.wikipedia.org/wiki/Bucket_sort");
-
-            URL_Add("member", "https://en.wiktionary.org/wiki/member#Noun");
 
             URL_Add("merge sort", "https://en.wikipedia.org/wiki/Merge_sort");
 
@@ -115026,8 +115025,6 @@ namespace OverflowHelper.core
 
             URL_Add("edited", "https://en.wiktionary.org/wiki/edit#Verb");
 
-            URL_Add("get the memo", "https://www.youtube.com/watch?v=g0L-ry0jn6I");
-
             URL_Add("regional", "https://en.wiktionary.org/wiki/regional#Adjective");
 
             URL_Add("Enthought Canopy", "https://en.wikipedia.org/wiki/Enthought");
@@ -115309,8 +115306,6 @@ namespace OverflowHelper.core
             URL_Add("predetermined", "https://en.wiktionary.org/wiki/predetermined#Adjective");
 
             URL_Add("off-road", "https://en.wiktionary.org/wiki/off-road#Adjective");
-
-            URL_Add("Decision Model and Notation", "https://en.wikipedia.org/wiki/Decision_Model_and_Notation");
 
             URL_Add("ad infinitum", "https://en.wiktionary.org/wiki/ad_infinitum#Adverb");
 
@@ -115693,8 +115688,6 @@ namespace OverflowHelper.core
             URL_Add("Info-ZIP", "https://en.wikipedia.org/wiki/Info-ZIP");
 
             URL_Add("comments", "https://en.wiktionary.org/wiki/comment#Noun");
-
-            URL_Add("memoizing", "https://en.wiktionary.org/wiki/memoize#Verb");
 
             URL_Add("row", "https://en.wiktionary.org/wiki/row#Noun");
 
@@ -119026,8 +119019,6 @@ namespace OverflowHelper.core
 
             URL_Add("so far", "https://en.wiktionary.org/wiki/so_far#Adverb");
 
-            URL_Add("decision making", "https://en.wiktionary.org/wiki/decision_making#Noun");
-
             URL_Add("malware", "https://en.wikipedia.org/wiki/Malware");
 
             URL_Add("bypassed", "https://en.wiktionary.org/wiki/bypass#Verb");
@@ -119525,8 +119516,6 @@ namespace OverflowHelper.core
             URL_Add("PyCrypto", "https://www.pycrypto.org/");
 
             URL_Add("cactus", "https://en.wikipedia.org/wiki/Cactus");
-
-            URL_Add("meme", "https://en.wiktionary.org/wiki/meme#Noun");
 
             URL_Add("natural law", "https://en.wikipedia.org/wiki/Natural_law");
 
@@ -121092,8 +121081,6 @@ namespace OverflowHelper.core
 
             URL_Add("imbalance", "https://en.wiktionary.org/wiki/imbalance#Noun");
 
-            URL_Add("members", "https://en.wiktionary.org/wiki/member#Noun");
-
             URL_Add("MIG welding", "https://en.wikipedia.org/wiki/Gas_metal_arc_welding");
 
             URL_Add("re-examine", "https://en.wiktionary.org/wiki/re-examine#Verb");
@@ -121281,8 +121268,6 @@ namespace OverflowHelper.core
             URL_Add("BSON", "https://en.wikipedia.org/wiki/BSON");
 
             URL_Add("clients", "https://en.wiktionary.org/wiki/client#Noun");
-
-            URL_Add("decision tree", "https://en.wikipedia.org/wiki/Decision_tree");
 
             URL_Add("plagiarisers", "https://en.wiktionary.org/wiki/plagiariser#Noun");
 
@@ -121646,8 +121631,6 @@ namespace OverflowHelper.core
 
             URL_Add("cruise", "https://en.wiktionary.org/wiki/cruise#Noun");
 
-            URL_Add("decisions", "https://en.wiktionary.org/wiki/decision#Noun");
-
             URL_Add("linkage", "https://en.wiktionary.org/wiki/linkage#Noun");
 
             URL_Add("figured", "https://en.wiktionary.org/wiki/figure#Verb");
@@ -121851,8 +121834,6 @@ namespace OverflowHelper.core
             URL_Add("dig into", "https://en.wiktionary.org/wiki/dig_into#Verb");
 
             URL_Add("mechanical", "https://en.wiktionary.org/wiki/mechanical#Adjective");
-
-            URL_Add("MEmu Play", "https://wikitia.com/wiki/MEmu_Play");
 
             URL_Add("misframed", "https://en.wiktionary.org/wiki/misframe#Verb");
 
@@ -122205,8 +122186,6 @@ namespace OverflowHelper.core
             URL_Add("cosmic rays", "https://en.wikipedia.org/wiki/Cosmic_ray");
 
             URL_Add("International Astronomical Union", "https://en.wikipedia.org/wiki/International_Astronomical_Union");
-
-            URL_Add("memoize", "https://en.wiktionary.org/wiki/memoize#Verb");
 
             URL_Add("Smack", "https://www.igniterealtime.org/projects/smack/index.jsp"); // Old: <http://www.igniterealtime.org/projects/smack/index.jsp>
 
@@ -122996,8 +122975,6 @@ namespace OverflowHelper.core
 
             URL_Add("Dance Dance Authentication", "https://www.youtube.com/watch?v=VgC4b9K-gYU");
 
-            URL_Add("in memoriam", "https://en.wiktionary.org/wiki/in_memoriam#Noun");
-
             URL_Add("mean absolute error", "https://en.wikipedia.org/wiki/Mean_absolute_error");
 
             URL_Add("keylogging", "https://en.wikipedia.org/wiki/Keystroke_logging");
@@ -123743,8 +123720,6 @@ namespace OverflowHelper.core
             URL_Add("Destiny 2", "https://en.wikipedia.org/wiki/Destiny_2");
 
             URL_Add("absorbing", "https://en.wiktionary.org/wiki/absorbing#Adjective");
-
-            URL_Add("memes", "https://en.wikipedia.org/wiki/Meme");
 
             URL_Add("panacea", "https://en.wiktionary.org/wiki/panacea#Noun");
 
@@ -125107,8 +125082,6 @@ namespace OverflowHelper.core
             URL_Add("lackluster", "https://en.wiktionary.org/wiki/lackluster#Adjective");
 
             URL_Add("diplomatic", "https://en.wiktionary.org/wiki/diplomatic#Adjective");
-
-            URL_Add("memorandum of understanding", "https://en.wikipedia.org/wiki/Memorandum_of_understanding");
 
             URL_Add("brand", "https://en.wiktionary.org/wiki/brand#Noun");
 
@@ -127016,12 +126989,6 @@ namespace OverflowHelper.core
 
             URL_Add("Namecheap", "https://en.wikipedia.org/wiki/Namecheap");
 
-            URL_Add("malloc()", "https://en.wikipedia.org/wiki/C_dynamic_memory_allocation");
-
-            URL_Add("realloc()", "https://en.wikipedia.org/wiki/C_dynamic_memory_allocation");
-
-            URL_Add("free()", "https://en.wikipedia.org/wiki/C_dynamic_memory_allocation");
-
             URL_Add("memcpy()", "https://en.wikipedia.org/wiki/C_string_handling#Functions");
 
             URL_Add("strcmp()", "https://en.wikipedia.org/wiki/C_string_handling#Functions");
@@ -127037,6 +127004,12 @@ namespace OverflowHelper.core
             URL_Add("popen()", "https://en.wikipedia.org/wiki/C_file_input/output#Functions");
 
             URL_Add("terminate()", "https://en.cppreference.com/w/cpp/error/terminate.html");
+
+            URL_Add("malloc()", "https://en.wikipedia.org/wiki/C_dynamic_memory_allocation");
+
+            URL_Add("realloc()", "https://en.wikipedia.org/wiki/C_dynamic_memory_allocation");
+
+            URL_Add("free()", "https://en.wikipedia.org/wiki/C_dynamic_memory_allocation");
 
             URL_Add("deprival", "https://en.wiktionary.org/wiki/deprival#Noun");
 
@@ -129925,8 +129898,6 @@ namespace OverflowHelper.core
             URL_Add("EdXposed", "https://github.com/ElderDrivers/EdXposed");
 
             URL_Add("Jam.js", "https://github.com/caolan/jam");
-
-            URL_Add("Memored", "https://github.com/PaquitoSoft/memored");
 
             URL_Add("Rank 1 Constraint System", "https://github.com/scipr-lab/libsnark");
 
@@ -141060,22 +141031,6 @@ namespace OverflowHelper.core
 
             URL_Add("year-round", "https://en.wiktionary.org/wiki/year-round#Adjective");
 
-            URL_Add("Valgrind", "https://en.wikipedia.org/wiki/Valgrind");
-
-            URL_Add("DRD", "https://en.wikipedia.org/wiki/Valgrind#Other_tools");
-
-            URL_Add("CacheFly", "https://en.wikipedia.org/wiki/CacheFly");
-
-            URL_Add("KCacheGrind", "https://en.wikipedia.org/wiki/Valgrind#Other_tools");
-
-            URL_Add("Callgrind", "https://en.wikipedia.org/wiki/Valgrind#Other_tools");
-
-            URL_Add("WinCacheGrind", "https://sourceforge.net/projects/wincachegrind/");
-
-            URL_Add("Memcheck", "https://en.wikipedia.org/wiki/Valgrind#Memcheck");
-
-            URL_Add("Dr. Memory", "https://en.wikipedia.org/wiki/DynamoRIO#Dr._Memory");
-
             URL_Add("feasible", "https://en.wiktionary.org/wiki/feasible#Adjective");
 
             URL_Add("feasibility", "https://en.wiktionary.org/wiki/feasibility#Noun");
@@ -143588,8 +143543,6 @@ namespace OverflowHelper.core
 
             URL_Add("reflashable", "https://en.wiktionary.org/wiki/reflashable#Adjective");
 
-            URL_Add("MTD", "https://en.wikipedia.org/wiki/Memory_Technology_Device");
-
             URL_Add("UBI", "https://en.wikipedia.org/wiki/UBIFS#UBI");
 
             URL_Add("UBIFS", "https://en.wikipedia.org/wiki/UBIFS");
@@ -143864,46 +143817,6 @@ namespace OverflowHelper.core
 
             URL_Add("scraping the bottom of the barrel", "https://en.wiktionary.org/wiki/scraping_the_bottom_of_the_barrel#Verb");
 
-            URL_Add("allocation", "https://en.wiktionary.org/wiki/allocation#Noun");
-
-            URL_Add("allocator", "https://en.wiktionary.org/wiki/allocator#Noun");
-
-            URL_Add("allocate", "https://en.wiktionary.org/wiki/allocate#Verb");
-
-            URL_Add("allocated", "https://en.wiktionary.org/wiki/allocate#Verb");
-
-            URL_Add("deallocation", "https://en.wiktionary.org/wiki/deallocation#Noun");
-
-            URL_Add("deallocate", "https://en.wiktionary.org/wiki/deallocate#Verb");
-
-            URL_Add("deallocated", "https://en.wiktionary.org/wiki/deallocate#Verb");
-
-            URL_Add("reallocate", "https://en.wiktionary.org/wiki/reallocate#Verb");
-
-            URL_Add("reallocated", "https://en.wiktionary.org/wiki/reallocate#Verb");
-
-            URL_Add("reallocation", "https://en.wiktionary.org/wiki/reallocation#Noun");
-
-            URL_Add("reallocations", "https://en.wiktionary.org/wiki/reallocation#Noun");
-
-            URL_Add("preallocate", "https://en.wiktionary.org/wiki/preallocate#Verb");
-
-            URL_Add("preallocates", "https://en.wiktionary.org/wiki/preallocate#Verb");
-
-            URL_Add("preallocating", "https://en.wiktionary.org/wiki/preallocate#Verb");
-
-            URL_Add("preallocated", "https://en.wiktionary.org/wiki/preallocate#Verb");
-
-            URL_Add("preallocation", "https://en.wiktionary.org/wiki/preallocation#Noun"); // Old: https://en.wiktionary.org/wiki/preallocation
-
-            URL_Add("unallocated", "https://en.wiktionary.org/wiki/unallocated#Adjective");
-
-            URL_Add("stack-allocated", "https://en.wikipedia.org/wiki/Stack-based_memory_allocation");
-
-            URL_Add("heap", "https://en.wikipedia.org/wiki/C_dynamic_memory_allocation#Rationale");
-
-            URL_Add("alloca()", "https://en.wikipedia.org/wiki/Stack-based_memory_allocation#System_interface");
-
             URL_Add("FAT", "https://en.wikipedia.org/wiki/File_Allocation_Table");
 
             URL_Add("FAT16", "https://en.wikipedia.org/wiki/File_Allocation_Table#Final_FAT16");
@@ -143917,80 +143830,6 @@ namespace OverflowHelper.core
             URL_Add("prepopulate", "https://en.wiktionary.org/wiki/prepopulate#Verb");
 
             URL_Add("preseed", "https://en.wiktionary.org/wiki/preseed#Verb");
-
-            URL_Add("memory", "https://en.wiktionary.org/wiki/memory#Noun");
-
-            URL_Add("long short-term memory", "https://en.wikipedia.org/wiki/Long_short-term_memory");
-
-            URL_Add("muscle memory", "https://en.wikipedia.org/wiki/Muscle_memory#Fine_motor_memory");
-
-            URL_Add("memory effect", "https://en.wikipedia.org/wiki/Memory_effect");
-
-            URL_Add("memory model", "https://en.wikipedia.org/wiki/Memory_address#Memory_models");
-
-            URL_Add("memory address", "https://en.wikipedia.org/wiki/Memory_address");
-
-            URL_Add("memory map", "https://en.wikipedia.org/wiki/Memory_map");
-
-            URL_Add("data local memory", "https://www.andestech.com/en/products-solutions/andestar-architecture/");
-
-            URL_Add("instruction local memory", "https://www.andestech.com/en/products-solutions/andestar-architecture/");
-
-            URL_Add("memory management unit", "https://en.wikipedia.org/wiki/Memory_management_unit");
-
-            URL_Add("memory-mapped file", "https://en.wikipedia.org/wiki/Memory-mapped_file");
-
-            URL_Add("memory-mapped I/O", "https://en.wikipedia.org/wiki/Memory-mapped_I/O_and_port-mapped_I/O");
-
-            URL_Add("in-memory", "https://en.wiktionary.org/wiki/in-memory#Adjective");
-
-            URL_Add("memory allocation", "https://en.wikipedia.org/wiki/Memory_management");
-
-            URL_Add("memory leak", "https://en.wikipedia.org/wiki/Memory_leak");
-
-            URL_Add("non-volatile memory", "https://en.wikipedia.org/wiki/Non-volatile_memory");
-
-            URL_Add("non-volatile storage", "https://en.wikipedia.org/wiki/Non-volatile_memory");
-
-            URL_Add("flash memory", "https://en.wikipedia.org/wiki/Flash_memory");
-
-            URL_Add("NOR flash", "https://en.wikipedia.org/wiki/Flash_memory#NOR_flash");
-
-            URL_Add("UniFlash", "https://www.ti.com/tool/UNIFLASH");
-
-            URL_Add("video memory", "https://en.wikipedia.org/wiki/Dynamic_video_memory_technology");
-
-            URL_Add("application note 2606: Introduction to system memory boot mode on STM32 MCUs", "https://www.st.com/resource/en/application_note/cd00167594-stm32-microcontroller-system-memory-boot-mode-stmicroelectronics.pdf");
-
-            URL_Add("Extreme Memory Profile", "https://en.wikipedia.org/wiki/Serial_presence_detect#Intel_Extreme_Memory_Profile_(XMP)");
-
-            URL_Add("RAM", "https://en.wikipedia.org/wiki/Random-access_memory");
-
-            URL_Add("SRAM", "https://en.wikipedia.org/wiki/Static_random-access_memory");
-
-            URL_Add("VRAM", "https://en.wikipedia.org/wiki/Video_random-access_memory");
-
-            URL_Add("NVRAM", "https://en.wikipedia.org/wiki/Non-volatile_random-access_memory");
-
-            URL_Add("DMA", "https://en.wikipedia.org/wiki/Direct_memory_access");
-
-            URL_Add("MPU", "https://en.wikipedia.org/wiki/Memory_protection_unit");
-
-            URL_Add("IOMMU", "https://en.wikipedia.org/wiki/Input%E2%80%93output_memory_management_unit");
-
-            URL_Add("OOM", "https://en.wikipedia.org/wiki/Out_of_memory");
-
-            URL_Add("MTRR", "https://en.wikipedia.org/wiki/Memory_type_range_register");
-
-            URL_Add("address space", "https://en.wikipedia.org/wiki/Address_space");
-
-            URL_Add("address space layout randomization", "https://en.wikipedia.org/wiki/Address_space_layout_randomization");
-
-            URL_Add("Physical Address Extension", "https://en.wikipedia.org/wiki/Physical_Address_Extension");
-
-            URL_Add("large object heap", "https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/large-object-heap");
-
-            URL_Add("Rust borrow checker", "https://en.wikipedia.org/wiki/Rust_(programming_language)#Memory_safety");
 
             URL_Add("web storage", "https://en.wikipedia.org/wiki/Web_storage");
 
@@ -144141,10 +143980,6 @@ namespace OverflowHelper.core
             URL_Add("differential geometry", "https://en.wikipedia.org/wiki/Differential_geometry");
 
             URL_Add("Wikitia", "https://www.quora.com/What-is-Wikitia-and-how-is-it-different-from-Wikipedia/answer/Simran-Chaudhary-163");
-
-            URL_Add("decisional Diffie–Hellman", "https://en.wikipedia.org/wiki/Decisional_Diffie%E2%80%93Hellman_assumption");
-
-            URL_Add("Diffie–Hellman key exchange", "https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange");
 
             URL_Add("Spotless", "https://github.com/diffplug/spotless/tree/main/plugin-gradle");
 
@@ -145785,8 +145620,6 @@ namespace OverflowHelper.core
             URL_Add("PLC", "https://en.wikipedia.org/wiki/Programmable_logic_controller");
 
             URL_Add("IC", "https://en.wikipedia.org/wiki/Integrated_circuit");
-
-            URL_Add("memoryless", "https://en.wiktionary.org/wiki/memoryless#Adjective");
 
             URL_Add("fabless", "https://en.wikipedia.org/wiki/Fabless_manufacturing");
 
@@ -149477,6 +149310,186 @@ namespace OverflowHelper.core
             URL_Add("nucleosynthesis", "https://en.wikipedia.org/wiki/Nucleosynthesis");
 
             URL_Add("The Big Bang Theory", "https://en.wikipedia.org/wiki/The_Big_Bang_Theory");
+
+            URL_Add("jamming", "https://en.wiktionary.org/wiki/jamming#Noun");
+
+            URL_Add("decision", "https://en.wiktionary.org/wiki/decision#Noun");
+
+            URL_Add("decisions", "https://en.wiktionary.org/wiki/decision#Noun");
+
+            URL_Add("decision making", "https://en.wiktionary.org/wiki/decision_making#Noun");
+
+            URL_Add("decisive", "https://en.wiktionary.org/wiki/decisive#Adjective");
+
+            URL_Add("decision tree", "https://en.wikipedia.org/wiki/Decision_tree");
+
+            URL_Add("Decision Model and Notation", "https://en.wikipedia.org/wiki/Decision_Model_and_Notation");
+
+            URL_Add("decisional Diffie–Hellman", "https://en.wikipedia.org/wiki/Decisional_Diffie%E2%80%93Hellman_assumption");
+
+            URL_Add("Diffie–Hellman key exchange", "https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange");
+
+            URL_Add("shtick", "https://en.wiktionary.org/wiki/shtick#Noun");
+
+            URL_Add("meme", "https://en.wiktionary.org/wiki/meme#Noun");
+
+            URL_Add("memes", "https://en.wikipedia.org/wiki/Meme");
+
+            URL_Add("memoize", "https://en.wiktionary.org/wiki/memoize#Verb");
+
+            URL_Add("memoizing", "https://en.wiktionary.org/wiki/memoize#Verb");
+
+            URL_Add("memoization", "https://en.wikipedia.org/wiki/Memoization");
+
+            URL_Add("memorise", "https://en.wiktionary.org/wiki/memorise#Verb");
+
+            URL_Add("memory", "https://en.wiktionary.org/wiki/memory#Noun");
+
+            URL_Add("memoryless", "https://en.wiktionary.org/wiki/memoryless#Adjective");
+
+            URL_Add("long short-term memory", "https://en.wikipedia.org/wiki/Long_short-term_memory");
+
+            URL_Add("muscle memory", "https://en.wikipedia.org/wiki/Muscle_memory#Fine_motor_memory");
+
+            URL_Add("memory effect", "https://en.wikipedia.org/wiki/Memory_effect");
+
+            URL_Add("memory model", "https://en.wikipedia.org/wiki/Memory_address#Memory_models");
+
+            URL_Add("memory address", "https://en.wikipedia.org/wiki/Memory_address");
+
+            URL_Add("memory map", "https://en.wikipedia.org/wiki/Memory_map");
+
+            URL_Add("data local memory", "https://www.andestech.com/en/products-solutions/andestar-architecture/");
+
+            URL_Add("instruction local memory", "https://www.andestech.com/en/products-solutions/andestar-architecture/");
+
+            URL_Add("memory management unit", "https://en.wikipedia.org/wiki/Memory_management_unit");
+
+            URL_Add("memory-mapped file", "https://en.wikipedia.org/wiki/Memory-mapped_file");
+
+            URL_Add("memory-mapped I/O", "https://en.wikipedia.org/wiki/Memory-mapped_I/O_and_port-mapped_I/O");
+
+            URL_Add("in-memory", "https://en.wiktionary.org/wiki/in-memory#Adjective");
+
+            URL_Add("memory allocation", "https://en.wikipedia.org/wiki/Memory_management");
+
+            URL_Add("memory leak", "https://en.wikipedia.org/wiki/Memory_leak");
+
+            URL_Add("non-volatile memory", "https://en.wikipedia.org/wiki/Non-volatile_memory");
+
+            URL_Add("non-volatile storage", "https://en.wikipedia.org/wiki/Non-volatile_memory");
+
+            URL_Add("flash memory", "https://en.wikipedia.org/wiki/Flash_memory");
+
+            URL_Add("member", "https://en.wiktionary.org/wiki/member#Noun");
+
+            URL_Add("members", "https://en.wiktionary.org/wiki/member#Noun");
+
+            URL_Add("MEmu Play", "https://wikitia.com/wiki/MEmu_Play");
+
+            URL_Add("memorandum of understanding", "https://en.wikipedia.org/wiki/Memorandum_of_understanding");
+
+            URL_Add("get the memo", "https://www.youtube.com/watch?v=g0L-ry0jn6I");
+
+            URL_Add("in memoriam", "https://en.wiktionary.org/wiki/in_memoriam#Noun");
+
+            URL_Add("Memored", "https://github.com/PaquitoSoft/memored");
+
+            URL_Add("Dr. Memory", "https://en.wikipedia.org/wiki/DynamoRIO#Dr._Memory");
+
+            URL_Add("Valgrind", "https://en.wikipedia.org/wiki/Valgrind");
+
+            URL_Add("DRD", "https://en.wikipedia.org/wiki/Valgrind#Other_tools");
+
+            URL_Add("CacheFly", "https://en.wikipedia.org/wiki/CacheFly");
+
+            URL_Add("KCacheGrind", "https://en.wikipedia.org/wiki/Valgrind#Other_tools");
+
+            URL_Add("Callgrind", "https://en.wikipedia.org/wiki/Valgrind#Other_tools");
+
+            URL_Add("WinCacheGrind", "https://sourceforge.net/projects/wincachegrind/");
+
+            URL_Add("Memcheck", "https://en.wikipedia.org/wiki/Valgrind#Memcheck");
+
+            URL_Add("OOM", "https://en.wikipedia.org/wiki/Out_of_memory");
+
+            URL_Add("MTRR", "https://en.wikipedia.org/wiki/Memory_type_range_register");
+
+            URL_Add("Rust borrow checker", "https://en.wikipedia.org/wiki/Rust_(programming_language)#Memory_safety");
+
+            URL_Add("allocation", "https://en.wiktionary.org/wiki/allocation#Noun");
+
+            URL_Add("allocator", "https://en.wiktionary.org/wiki/allocator#Noun");
+
+            URL_Add("allocate", "https://en.wiktionary.org/wiki/allocate#Verb");
+
+            URL_Add("allocated", "https://en.wiktionary.org/wiki/allocate#Verb");
+
+            URL_Add("deallocation", "https://en.wiktionary.org/wiki/deallocation#Noun");
+
+            URL_Add("deallocate", "https://en.wiktionary.org/wiki/deallocate#Verb");
+
+            URL_Add("deallocated", "https://en.wiktionary.org/wiki/deallocate#Verb");
+
+            URL_Add("reallocate", "https://en.wiktionary.org/wiki/reallocate#Verb");
+
+            URL_Add("reallocated", "https://en.wiktionary.org/wiki/reallocate#Verb");
+
+            URL_Add("reallocation", "https://en.wiktionary.org/wiki/reallocation#Noun");
+
+            URL_Add("reallocations", "https://en.wiktionary.org/wiki/reallocation#Noun");
+
+            URL_Add("preallocate", "https://en.wiktionary.org/wiki/preallocate#Verb");
+
+            URL_Add("preallocates", "https://en.wiktionary.org/wiki/preallocate#Verb");
+
+            URL_Add("preallocating", "https://en.wiktionary.org/wiki/preallocate#Verb");
+
+            URL_Add("preallocated", "https://en.wiktionary.org/wiki/preallocate#Verb");
+
+            URL_Add("preallocation", "https://en.wiktionary.org/wiki/preallocation#Noun"); // Old: https://en.wiktionary.org/wiki/preallocation
+
+            URL_Add("unallocated", "https://en.wiktionary.org/wiki/unallocated#Adjective");
+
+            URL_Add("MTD", "https://en.wikipedia.org/wiki/Memory_Technology_Device");
+
+            URL_Add("stack-allocated", "https://en.wikipedia.org/wiki/Stack-based_memory_allocation");
+
+            URL_Add("heap", "https://en.wikipedia.org/wiki/C_dynamic_memory_allocation#Rationale");
+
+            URL_Add("alloca()", "https://en.wikipedia.org/wiki/Stack-based_memory_allocation#System_interface");
+
+            URL_Add("NOR flash", "https://en.wikipedia.org/wiki/Flash_memory#NOR_flash");
+
+            URL_Add("UniFlash", "https://www.ti.com/tool/UNIFLASH");
+
+            URL_Add("video memory", "https://en.wikipedia.org/wiki/Dynamic_video_memory_technology");
+
+            URL_Add("application note 2606: Introduction to system memory boot mode on STM32 MCUs", "https://www.st.com/resource/en/application_note/cd00167594-stm32-microcontroller-system-memory-boot-mode-stmicroelectronics.pdf");
+
+            URL_Add("Extreme Memory Profile", "https://en.wikipedia.org/wiki/Serial_presence_detect#Intel_Extreme_Memory_Profile_(XMP)");
+
+            URL_Add("RAM", "https://en.wikipedia.org/wiki/Random-access_memory");
+
+            URL_Add("SRAM", "https://en.wikipedia.org/wiki/Static_random-access_memory");
+
+            URL_Add("VRAM", "https://en.wikipedia.org/wiki/Video_random-access_memory");
+
+            URL_Add("NVRAM", "https://en.wikipedia.org/wiki/Non-volatile_random-access_memory");
+
+            URL_Add("DMA", "https://en.wikipedia.org/wiki/Direct_memory_access");
+
+            URL_Add("MPU", "https://en.wikipedia.org/wiki/Memory_protection_unit");
+
+            URL_Add("IOMMU", "https://en.wikipedia.org/wiki/Input%E2%80%93output_memory_management_unit");
+
+            URL_Add("address space", "https://en.wikipedia.org/wiki/Address_space");
+
+            URL_Add("address space layout randomization", "https://en.wikipedia.org/wiki/Address_space_layout_randomization");
+
+            URL_Add("Physical Address Extension", "https://en.wikipedia.org/wiki/Physical_Address_Extension");
+
+            URL_Add("large object heap", "https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/large-object-heap");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -159345,7 +159358,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("Dandified YUM_", "DNF_");
             correctionAdd("dnf_", "DNF_");
-            correctionAdd("dfn_", "DNF_"); // A true typos
+            correctionAdd("dfn_", "DNF_"); // A true typo
 
             correctionAdd("pub_", "pub (package manager)_");
 
@@ -167030,8 +167043,6 @@ namespace OverflowHelper.core
 
             URL_Add("guides_", "https://en.wiktionary.org/wiki/guide#Noun");
 
-            URL_Add("Member of Parliament_", "https://en.wiktionary.org/wiki/MP#Noun");
-
             URL_Add("POM_", "https://en.wikipedia.org/wiki/Apache_Maven#Project_Object_Model");
 
             URL_Add("Queen's Bohemian Rhapsody_", "https://en.wikipedia.org/wiki/Bohemian_Rhapsody");
@@ -167365,8 +167376,6 @@ namespace OverflowHelper.core
             URL_Add("sourced_", "https://en.wikipedia.org/wiki/Dot_(command)#source"); // Old: <https://en.wikipedia.org/wiki/Dot_(command)#Source>
 
             URL_Add("result_", "https://en.wiktionary.org/wiki/result#Noun");
-
-            URL_Add("ROM_", "https://en.wikipedia.org/wiki/Read-only_memory");
 
             URL_Add("xkcd_", "https://www.explainxkcd.com/wiki/index.php/Main_Page");
 
@@ -168534,8 +168543,6 @@ namespace OverflowHelper.core
 
             URL_Add("size_", "https://en.wiktionary.org/wiki/size#Noun");
 
-            URL_Add("RSS memory_", "https://en.wikipedia.org/wiki/Resident_set_size");
-
             URL_Add("Ruff_", "https://github.com/astral-sh/ruff");
 
             URL_Add("Services_", "https://en.wikipedia.org/wiki/Windows_service#Services_snap-in");
@@ -169090,12 +169097,6 @@ namespace OverflowHelper.core
 
             URL_Add("ThinkPad X1_", "https://en.wikipedia.org/wiki/ThinkPad_X1_series");
 
-            URL_Add("decision tree learning_", "https://en.wikipedia.org/wiki/Decision_tree_learning");
-
-            URL_Add("supervised learning_", "https://en.wikipedia.org/wiki/Supervised_learning");
-
-            URL_Add("deep learning_", "https://en.wikipedia.org/wiki/Deep_learning");
-
             URL_Add("in-ear monitors_", "https://en.wikipedia.org/wiki/In-ear_monitor");
 
             URL_Add("Karnaugh map_", "https://en.wikipedia.org/wiki/Karnaugh_map");
@@ -169590,16 +169591,6 @@ namespace OverflowHelper.core
 
             URL_Add("Bluetooth_", "https://en.wikipedia.org/wiki/Bluetooth2");
 
-            URL_Add("flash_", "https://en.wiktionary.org/wiki/flash#Verb");
-
-            URL_Add("NAND flash_", "https://en.wikipedia.org/wiki/Flash_memory");
-
-            URL_Add("NOR flash_", "https://en.wikipedia.org/wiki/Flash_memory");
-
-            URL_Add("hard flashing_", "https://www.keychron.com/pages/how-to-flash-k8-pro-with-entire-chip-erase");
-
-            URL_Add("wear leveling for EEPROM memory emulation in QMK_", "https://docs.qmk.fm/drivers/eeprom#eeprom-driver-configuration");
-
             URL_Add("qmk clean_", "https://www.reddit.com/r/Keychron/comments/1h6lsza/comment/nbnvbyq/");
 
             URL_Add("qmk flash_", "https://docs.qmk.fm/newbs_flashing#flash-your-keyboard-from-the-command-line");
@@ -169950,8 +169941,6 @@ namespace OverflowHelper.core
 
             URL_Add("over-the-air_", "https://en.wikipedia.org/wiki/Over-the-air_update");
 
-            URL_Add("OTP_", "https://en.wikipedia.org/wiki/Programmable_ROM#One_time_programmable_memory");
-
             URL_Add("LUNA_", "https://www.crowdsupply.com/great-scott-gadgets/luna/updates/packetry-preview");
 
             URL_Add("Graph Query Language_", "https://en.wikipedia.org/wiki/Graph_Query_Language");
@@ -170241,6 +170230,30 @@ namespace OverflowHelper.core
             URL_Add("FL Studio_", "https://en.wikipedia.org/wiki/FL_Studio");
 
             URL_Add("synthetic_", "https://en.wiktionary.org/wiki/synth#Adjective");
+
+            URL_Add("decision tree learning_", "https://en.wikipedia.org/wiki/Decision_tree_learning");
+
+            URL_Add("supervised learning_", "https://en.wikipedia.org/wiki/Supervised_learning");
+
+            URL_Add("deep learning_", "https://en.wikipedia.org/wiki/Deep_learning");
+
+            URL_Add("Member of Parliament_", "https://en.wiktionary.org/wiki/MP#Noun");
+
+            URL_Add("RSS memory_", "https://en.wikipedia.org/wiki/Resident_set_size");
+
+            URL_Add("flash_", "https://en.wiktionary.org/wiki/flash#Verb");
+
+            URL_Add("OTP_", "https://en.wikipedia.org/wiki/Programmable_ROM#One_time_programmable_memory");
+
+            URL_Add("ROM_", "https://en.wikipedia.org/wiki/Read-only_memory");
+
+            URL_Add("NAND flash_", "https://en.wikipedia.org/wiki/Flash_memory");
+
+            URL_Add("NOR flash_", "https://en.wikipedia.org/wiki/Flash_memory");
+
+            URL_Add("hard flashing_", "https://www.keychron.com/pages/how-to-flash-k8-pro-with-entire-chip-erase");
+
+            URL_Add("wear leveling for EEPROM memory emulation in QMK_", "https://docs.qmk.fm/drivers/eeprom#eeprom-driver-configuration");
 
         } //addLookupData_alternativeWordSet()
 
@@ -171086,16 +171099,10 @@ namespace OverflowHelper.core
             //
             //     Release notes:
             //
-            //       <https://www.linuxmint.com/rel_gigi.php?pubDate=20250918>
+            //       <https://www.linuxmint.com/rel_faye.php>
+            //         LMDE 6
             //
             //       <https://www.debian.org/releases/trixie/release-notes/>
-            //
-            //       <https://linuxmint.com/rel_gigi.php>
-            //         LMDE 7
-            //
-            //   <https://ubuntuhandbook.org/index.php/2025/10/linux-mint-officially-released-lmde-7-based-on-debian-13/>
-            //
-            //     Has command-lines for upgrade from LMDE 6 to LMDE 7.
             //
             correctionAdd("Linux Mint Debian Edition__", "LMDE&nbsp;6 (Faye)__"); // For the cross-reference
             correctionAdd("LMDE 6 (Faye)__", "LMDE&nbsp;6 (Faye)__"); // Sort of identity mapping
@@ -175226,7 +175233,7 @@ namespace OverflowHelper.core
             correctionAdd("mPCIe__", "PCI Express Mini Card__");
             correctionAdd("PEM__", "PCI Express Mini Card__");
 
-            correctionAdd("steel__", "steep__"); // A true typos
+            correctionAdd("steel__", "steep__"); // A true typo
 
             // A book. For the reverse
             //
@@ -175458,8 +175465,6 @@ namespace OverflowHelper.core
             URL_Add("SoCs__", "https://en.wikipedia.org/wiki/System_on_a_chip");
 
             URL_Add("garbage collection__", "https://en.wikipedia.org/wiki/Garbage_collection_%28computer_science%29");
-
-            URL_Add("Memcached__", "https://en.wikipedia.org/wiki/Memcached");
 
             URL_Add("probability__", "https://en.wiktionary.org/wiki/probability#Noun");
 
@@ -176478,6 +176483,8 @@ namespace OverflowHelper.core
             URL_Add("steep__", "https://en.wiktionary.org/wiki/steep#Adjective");
 
             URL_Add("audio power amplifier__", "https://en.wikipedia.org/wiki/Audio_power_amplifier");
+
+            URL_Add("Memcached__", "https://en.wikipedia.org/wiki/Memcached");
 
         } //addLookupData_alternativeWordSet2()
 
@@ -177963,6 +177970,7 @@ namespace OverflowHelper.core
             correctionAdd("Keychron Q HE 8K series (proprietary keyboard firmware, not open source)___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // Sort of identity mapping
             correctionAdd("Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
             correctionAdd("Keychron&nbsp;Q6&nbsp;HE&nbsp;8K___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // For the cross-reference
+            correctionAdd("Q&nbsp;HE&nbsp;8K&nbsp;series___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
             correctionAdd("Q&nbsp;HE&nbsp;8K series___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
             correctionAdd("Keychron Q HE 8K series___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // Sort of identity mapping
             correctionAdd("Q&nbsp;HE&nbsp;8K___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
@@ -178053,7 +178061,9 @@ namespace OverflowHelper.core
             correctionAdd("J&nbsp;HE&nbsp;8K&nbsp;series___", "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
             correctionAdd("J&nbsp;HE&nbsp;8K series___", "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
             correctionAdd("Keychron J HE 8K series___", "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // Sort of identity mapping
+            correctionAdd("J&nbsp;HE&nbsp;8K___", "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
             correctionAdd("J HE 8K series___", "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
+            correctionAdd("J HE 8K___", "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
 
             // For missed pressed or double presses on a mechanical keyboard,
             // it is a fallacy to first change a switch and conclude it was
@@ -178345,6 +178355,12 @@ namespace OverflowHelper.core
             //
             //   <https://linuxmint.com/rel_gigi.php>
             //     Incl. locked root account
+            //
+            //     Release notes
+            //
+            //   <https://ubuntuhandbook.org/index.php/2025/10/linux-mint-officially-released-lmde-7-based-on-debian-13/>
+            //
+            //     Has command-lines for upgrade from LMDE 6 to LMDE 7.
             //
             correctionAdd("Linux Mint Debian Edition___", "LMDE&nbsp;7 (Gigi)___"); // For the cross-reference
             correctionAdd("Debian&nbsp;13 (Trixie)___", "LMDE&nbsp;7 (Gigi)___"); // For the cross-reference
