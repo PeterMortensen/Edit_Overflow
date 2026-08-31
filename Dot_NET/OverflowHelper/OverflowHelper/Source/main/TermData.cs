@@ -6450,6 +6450,8 @@ namespace OverflowHelper.core
             correctionAdd("supportet", "supported");
             correctionAdd("suported", "supported");
             correctionAdd("supprted", "supported");
+            correctionAdd("Supportd", "supported");
+            correctionAdd("supportd", "supported");
 
             correctionAdd("non supported", "unsupported");
             correctionAdd("un-supported", "unsupported");
@@ -115557,8 +115559,6 @@ namespace OverflowHelper.core
 
             URL_Add("Schrödinger's cat", "https://en.wikipedia.org/wiki/Schr%C3%B6dinger's_cat");
 
-            URL_Add("Top Gun", "https://en.wikipedia.org/wiki/Top_Gun");
-
             URL_Add("overdone", "https://en.wiktionary.org/wiki/overdo#Verb");
 
             URL_Add("responsiveness", "https://en.wiktionary.org/wiki/responsiveness#Noun");
@@ -116690,8 +116690,6 @@ namespace OverflowHelper.core
             URL_Add("assault", "https://en.wiktionary.org/wiki/assault#Noun");
 
             URL_Add("disaster", "https://en.wiktionary.org/wiki/disaster#Noun");
-
-            URL_Add("railgun", "https://en.wikipedia.org/wiki/Railgun");
 
             URL_Add("steps", "https://en.wiktionary.org/wiki/steps#Noun");
 
@@ -120781,8 +120779,6 @@ namespace OverflowHelper.core
 
             URL_Add("freshman", "https://en.wikipedia.org/wiki/Freshman");
 
-            URL_Add("Gunning fog index", "https://en.wikipedia.org/wiki/Gunning_fog_index");
-
             URL_Add("indicates", "https://en.wiktionary.org/wiki/indicate#Verb");
 
             URL_Add("nonusage", "https://en.wiktionary.org/wiki/nonusage#Noun");
@@ -121024,8 +121020,6 @@ namespace OverflowHelper.core
             URL_Add("Auth0", "https://en.wikipedia.org/wiki/Okta,_Inc.#History");
 
             URL_Add("reconfirm", "https://en.wiktionary.org/wiki/reconfirm#Verb");
-
-            URL_Add("footgun", "https://en.wiktionary.org/wiki/footgun#Noun");
 
             URL_Add("get rid of", "https://en.wiktionary.org/wiki/get_rid_of#Verb");
 
@@ -123399,8 +123393,6 @@ namespace OverflowHelper.core
 
             URL_Add("Caddy", "https://en.wikipedia.org/wiki/Caddy_(web_server)");
 
-            URL_Add("Gunicorn", "https://en.wikipedia.org/wiki/Gunicorn");
-
             URL_Add("infrastructure as a service", "https://en.wikipedia.org/wiki/Infrastructure_as_a_service");
 
             URL_Add("esoteric programming languages", "https://en.wikipedia.org/wiki/Esoteric_programming_language");
@@ -125693,8 +125685,6 @@ namespace OverflowHelper.core
 
             URL_Add("begins", "https://en.wiktionary.org/wiki/begin#Verb");
 
-            URL_Add("begun", "https://en.wiktionary.org/wiki/begin#Verb");
-
             URL_Add("abundantly", "https://en.wiktionary.org/wiki/abundantly#Adverb");
 
             URL_Add("iTunes Connect", "https://en.wikipedia.org/wiki/ITunes_Connect");
@@ -127656,8 +127646,6 @@ namespace OverflowHelper.core
             URL_Add("all of", "https://en.wiktionary.org/wiki/all_of#Adverb");
 
             URL_Add("glimpse", "https://en.wiktionary.org/wiki/glimpse#Noun");
-
-            URL_Add("GUN", "https://en.wikipedia.org/wiki/GUN_(graph_database)");
 
             URL_Add("rigour", "https://en.wiktionary.org/wiki/rigour#Noun");
 
@@ -131346,10 +131334,6 @@ namespace OverflowHelper.core
             URL_Add("IP55", "https://en.wikipedia.org/wiki/IP_Code#United_States_(NEMA_rating)");
 
             URL_Add("Series I bonds", "https://en.wikipedia.org/wiki/United_States_Savings_Bonds#Series_I");
-
-            URL_Add("firearm", "https://en.wiktionary.org/wiki/firearm#Noun");
-
-            URL_Add("firearms enthusiast", "https://en.wikipedia.org/wiki/Gun_culture_in_the_United_States#Terms_applied_to_opponents");
 
             URL_Add("Baltic states", "https://en.wikipedia.org/wiki/Baltic_states");
 
@@ -147857,8 +147841,6 @@ namespace OverflowHelper.core
 
             URL_Add("Wild West", "https://en.wiktionary.org/wiki/Wild_West#Proper_noun");
 
-            URL_Add("fastest gun in the west", "https://meta.stackexchange.com/questions/19478/the-many-memes-of-meta/19533#19533");
-
             URL_Add("Weston", "https://en.wikipedia.org/wiki/Wayland_(protocol)#Weston");
 
             URL_Add("Westmere (1st generation)", "https://en.wikipedia.org/wiki/Westmere_(microarchitecture)");
@@ -149584,6 +149566,26 @@ namespace OverflowHelper.core
             URL_Add("ggplot2", "https://en.wikipedia.org/wiki/Ggplot2");
 
             URL_Add("Matplotlib", "https://en.wikipedia.org/wiki/Matplotlib");
+
+            URL_Add("begun", "https://en.wiktionary.org/wiki/begin#Verb");
+
+            URL_Add("firearm", "https://en.wiktionary.org/wiki/firearm#Noun");
+
+            URL_Add("firearms enthusiast", "https://en.wikipedia.org/wiki/Gun_culture_in_the_United_States#Terms_applied_to_opponents");
+
+            URL_Add("footgun", "https://en.wiktionary.org/wiki/footgun#Noun");
+
+            URL_Add("railgun", "https://en.wikipedia.org/wiki/Railgun");
+
+            URL_Add("fastest gun in the west", "https://meta.stackexchange.com/questions/19478/the-many-memes-of-meta/19533#19533");
+
+            URL_Add("Top Gun", "https://en.wikipedia.org/wiki/Top_Gun");
+
+            URL_Add("Gunning fog index", "https://en.wikipedia.org/wiki/Gunning_fog_index");
+
+            URL_Add("Gunicorn", "https://en.wikipedia.org/wiki/Gunicorn");
+
+            URL_Add("GUN", "https://en.wikipedia.org/wiki/GUN_(graph_database)");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -164864,9 +164866,29 @@ namespace OverflowHelper.core
 
             correctionAdd("egine_", "engine_");
 
+            // United Kingdom
+            correctionAdd("Johnson_", "Boris Johnson_");
+            correctionAdd("Borris_", "Boris Johnson_");
+            correctionAdd("Boris_", "Boris Johnson_");
+            correctionAdd("boris_", "Boris Johnson_");
+            correctionAdd("BoJo_", "Boris Johnson_");
+            correctionAdd("bojo_", "Boris Johnson_");
+            correctionAdd("B.J_", "Boris Johnson_");
+            correctionAdd("BJ_", "Boris Johnson_");
+
+            correctionAdd("Papua New Gunnea_", "Papua New Guinea_");
+            correctionAdd("New Gunea_", "Papua New Guinea_");
+            correctionAdd("PNG_", "Papua New Guinea_");
+
             // A Top Gun reference
             correctionAdd("I was inverted_", "is inaccurate_");
             correctionAdd("inaccurate_", "is inaccurate_");
+
+            correctionAdd("G*ns_", "guns_");
+            correctionAdd("Gn*s_", "guns_");
+            correctionAdd("gn*s_", "guns_");
+            correctionAdd("gnus_", "guns_");
+            correctionAdd("g*ns_", "guns_");
 
             correctionAdd("ali-express_", "AliExpress_");
             correctionAdd("ali express_", "AliExpress_");
@@ -165582,20 +165604,6 @@ namespace OverflowHelper.core
 
             // Linux / Unix
             correctionAdd("WATCH_", "watch_");
-
-            // United Kingdom
-            correctionAdd("Johnson_", "Boris Johnson_");
-            correctionAdd("Borris_", "Boris Johnson_");
-            correctionAdd("Boris_", "Boris Johnson_");
-            correctionAdd("boris_", "Boris Johnson_");
-            correctionAdd("BoJo_", "Boris Johnson_");
-            correctionAdd("bojo_", "Boris Johnson_");
-            correctionAdd("B.J_", "Boris Johnson_");
-            correctionAdd("BJ_", "Boris Johnson_");
-
-            correctionAdd("Papua New Gunnea_", "Papua New Guinea_");
-            correctionAdd("New Gunea_", "Papua New Guinea_");
-            correctionAdd("PNG_", "Papua New Guinea_");
 
             correctionAdd("Blood Pressure_", "blood pressure_");
             correctionAdd("BP_", "blood pressure_");
@@ -170364,6 +170372,8 @@ namespace OverflowHelper.core
             URL_Add("Jai_", "https://github.com/Ivo-Balbaert/The_Way_to_Jai");
 
             URL_Add("piano_", "https://en.wikipedia.org/wiki/Piano");
+
+            URL_Add("guns_", "https://en.wiktionary.org/wiki/gun#Noun");
 
         } //addLookupData_alternativeWordSet()
 
@@ -182688,6 +182698,7 @@ namespace OverflowHelper.core
             // For the reference
             correctionAdd("then_____", "than_____");
 
+            // The verb
             correctionAdd("wsitch_____", "switch_____");
 
             // Start of word mappings autogenerated by
