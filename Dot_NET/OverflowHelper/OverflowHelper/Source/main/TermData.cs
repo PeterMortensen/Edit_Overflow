@@ -737,6 +737,8 @@ namespace OverflowHelper.core
             // Not to be confused with 'tomsguide.com',
             // which may or may not be deceptive.
             //
+            // Note: "hardware" is in an alternative word set...
+            //
             correctionAdd("Toms Hardware", "Tom's Hardware");
 
             correctionAdd("Laptops", "laptop");
@@ -22832,10 +22834,42 @@ namespace OverflowHelper.core
             correctionAdd("firewire", "FireWire");
             correctionAdd("Firewire", "FireWire");
 
+            correctionAdd("burrying", "burying");
+
+            correctionAdd("burried", "buried");
+
             // The noun
             correctionAdd("burne", "burns");
 
             correctionAdd("burnd", "burned");
+
+            correctionAdd("burdons", "burdens");
+
+            correctionAdd("beuroucracy", "bureaucracy");
+            correctionAdd("beruoucracy", "bureaucracy");
+            correctionAdd("bueroucracy", "bureaucracy");
+            correctionAdd("beurocracy", "bureaucracy");
+            correctionAdd("beroucracy", "bureaucracy");
+            correctionAdd("buerocracy", "bureaucracy");
+            correctionAdd("buroucracy", "bureaucracy");
+            correctionAdd("buracracy", "bureaucracy");
+            correctionAdd("buracrocy", "bureaucracy");
+            correctionAdd("buracrazy", "bureaucracy");
+            correctionAdd("burecracy", "bureaucracy");
+            correctionAdd("burocracy", "bureaucracy");
+
+            correctionAdd("buesuresucrat", "bureaucrat");
+            correctionAdd("buereaucrat", "bureaucrat");
+            correctionAdd("beurocrats", "bureaucrat");
+            correctionAdd("burocrat", "bureaucrat");
+
+            correctionAdd("beareaucratic", "bureaucratic");
+            correctionAdd("bouroucratic", "bureaucratic");
+            correctionAdd("bourocratic", "bureaucratic");
+            correctionAdd("buroucratic", "bureaucratic");
+            correctionAdd("buerocratic", "bureaucratic");
+            correctionAdd("Burocratic", "bureaucratic");
+            correctionAdd("burocratic", "bureaucratic");
 
             correctionAdd("backburner", "back burner");
 
@@ -28646,32 +28680,6 @@ namespace OverflowHelper.core
             correctionAdd("Typography", "typography");
 
             correctionAdd("rigamarole", "rigmarole");
-
-            correctionAdd("beuroucracy", "bureaucracy");
-            correctionAdd("beruoucracy", "bureaucracy");
-            correctionAdd("bueroucracy", "bureaucracy");
-            correctionAdd("beurocracy", "bureaucracy");
-            correctionAdd("beroucracy", "bureaucracy");
-            correctionAdd("buerocracy", "bureaucracy");
-            correctionAdd("buroucracy", "bureaucracy");
-            correctionAdd("buracracy", "bureaucracy");
-            correctionAdd("buracrocy", "bureaucracy");
-            correctionAdd("buracrazy", "bureaucracy");
-            correctionAdd("burecracy", "bureaucracy");
-            correctionAdd("burocracy", "bureaucracy");
-
-            correctionAdd("buesuresucrat", "bureaucrat");
-            correctionAdd("buereaucrat", "bureaucrat");
-            correctionAdd("beurocrats", "bureaucrat");
-            correctionAdd("burocrat", "bureaucrat");
-
-            correctionAdd("beareaucratic", "bureaucratic");
-            correctionAdd("bouroucratic", "bureaucratic");
-            correctionAdd("bourocratic", "bureaucratic");
-            correctionAdd("buroucratic", "bureaucratic");
-            correctionAdd("buerocratic", "bureaucratic");
-            correctionAdd("Burocratic", "bureaucratic");
-            correctionAdd("burocratic", "bureaucratic");
 
             // Note: "usual" is in an alternative word set
             correctionAdd("unusuall", "unusual");
@@ -36144,6 +36152,7 @@ namespace OverflowHelper.core
             correctionAdd("vive la difference", "vive la différence");
             correctionAdd("Vive la difference", "vive la différence");
 
+            correctionAdd("differrentiate", "differentiate");
             correctionAdd("differenciate", "differentiate");
             correctionAdd("diffrentiate", "differentiate");
             correctionAdd("diferenciate", "differentiate");
@@ -43837,6 +43846,8 @@ namespace OverflowHelper.core
             correctionAdd("Hall efect", "Hall sensor");
             correctionAdd("Hall", "Hall sensor");
             correctionAdd("hall", "Hall sensor");
+            correctionAdd("HAL", "Hall sensor");
+            correctionAdd("Hal", "Hall sensor");
             correctionAdd("HE", "Hall sensor");
             correctionAdd("he", "Hall sensor");
 
@@ -45383,13 +45394,6 @@ namespace OverflowHelper.core
 
             correctionAdd("tiny 88", "ATtiny88");
 
-            correctionAdd("atmega", "ATmega");
-            correctionAdd("ATMega", "ATmega");
-            correctionAdd("ATMEGA", "ATmega");
-            correctionAdd("Atmega", "ATmega");
-            correctionAdd("AtMega", "ATmega");
-            correctionAdd("Mega", "ATmega");
-
             // Alternative URL (but it redirects):
             //
             //   <https://www.microchip.com/wwwproducts/en/ATmega8>
@@ -46578,6 +46582,16 @@ namespace OverflowHelper.core
             //   <https://qmk.fm/proton-c-pinout.jpg>
             //
             correctionAdd("Proton-C", "Proton C");
+
+            // A microcontroller development board, e.g., used
+            // in QMK mechanical keyboards and macro pads.
+            //
+            // Is Pro Micro pin-compatible. Based on ATmega32U4. The
+            // main difference is the USB connector.
+            //
+            correctionAdd("Elite C", "Elite-C");
+            correctionAdd("elite c", "Elite-C");
+            correctionAdd("elite_c", "Elite-C");
 
             // A RISC-V-based microcontroller
             //
@@ -50325,12 +50339,15 @@ namespace OverflowHelper.core
 
             correctionAdd("Engelsk", "engelsk");
 
+            // The adjective
             correctionAdd("Englisch", "English");
             correctionAdd("englisch", "English");
             correctionAdd("english", "English");
             correctionAdd("emglish", "English");
             correctionAdd("engliah", "English");
             correctionAdd("ENglish", "English");
+            correctionAdd("Englisl", "English");
+            correctionAdd("englisl", "English");
             correctionAdd("Englis", "English");
             correctionAdd("Eng", "English"); // A shorthand (for expansion)
 
@@ -60039,12 +60056,6 @@ namespace OverflowHelper.core
             correctionAdd("compromized", "compromised");
             correctionAdd("comprimised", "compromised");
 
-            // Note: "hardware" is in an alternative word set...
-            correctionAdd("hardware abstraction layer", "HAL");
-            correctionAdd("Hardware Abstraction Layer", "HAL");
-            correctionAdd("hal", "HAL");
-            correctionAdd("Hal", "HAL");
-
             correctionAdd("open hardware monitor", "Open Hardware Monitor");
 
             correctionAdd("hw-probe", "Hardware Probe Tool");
@@ -61335,6 +61346,11 @@ namespace OverflowHelper.core
             //         QMK XAP Client
             //
             //         But the last commit was in mid 2024.
+            //
+            //       <https://github.com/qmk/qmk_firmware/issues/692>
+            //         Brainstorming for USB endpoint for host commands #692
+            //
+            //         HID. MIDI. Serial port. QMK.
             //
             //   <https://jayliu50.github.io/qmk-cheatsheet/>
             //     A QMK cheat sheet
@@ -79555,6 +79571,8 @@ namespace OverflowHelper.core
             correctionAdd("musicXML", "MusicXML");
 
             // Software for music. And a file format
+            correctionAdd("GNU Lilypond", "LilyPond");
+            correctionAdd("GNU LilyPond", "LilyPond");
             correctionAdd("lilypond", "LilyPond");
             correctionAdd("Lilypond", "LilyPond");
 
@@ -83370,10 +83388,12 @@ namespace OverflowHelper.core
             //   <https://kbd.news/Silakka54-2468.html>
             //   <https://squalius-cephalus.github.io/silakka54/>
             //
+            correctionAdd("Silaakka54", "Silakka54");
             correctionAdd("silakka54", "Silakka54");
             correctionAdd("silaaka54", "Silakka54");
             correctionAdd("silakk54", "Silakka54");
             correctionAdd("silakka", "Silakka54");
+            correctionAdd("Silakka", "Silakka54");
 
             // A 56-key (55%. Not true TKL) crippled split ergonomic
             // mechanical keyboard.
@@ -98380,41 +98400,41 @@ namespace OverflowHelper.core
 
             correctionAdd("History", "History (Stack Exchange site)");
 
-            correctionAdd("ELL", "English&nbsp;Language&nbsp;Learners (Stack Exchange site)");
-            correctionAdd("English Language Learners", "English&nbsp;Language&nbsp;Learners (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("ELL.SE", "English&nbsp;Language&nbsp;Learners (Stack Exchange site)");
-            correctionAdd("English Learners", "English&nbsp;Language&nbsp;Learners (Stack Exchange site)");
             correctionAdd("English Language Learners (Stack Exchange site)", "English&nbsp;Language&nbsp;Learners (Stack Exchange site)");
             correctionAdd("English&nbsp;Language&nbsp;Learners", "English&nbsp;Language&nbsp;Learners (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("English Language Learners", "English&nbsp;Language&nbsp;Learners (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("English Learners Language", "English&nbsp;Language&nbsp;Learners (Stack Exchange site)");
+            correctionAdd("English Learners", "English&nbsp;Language&nbsp;Learners (Stack Exchange site)");
+            correctionAdd("ELL.SE", "English&nbsp;Language&nbsp;Learners (Stack Exchange site)");
+            correctionAdd("ELL", "English&nbsp;Language&nbsp;Learners (Stack Exchange site)");
 
-            correctionAdd("Puzzling", "Puzzling (Stack Exchange site)");
             correctionAdd("Puzzling.SE", "Puzzling (Stack Exchange site)");
-            correctionAdd("puzzling", "Puzzling (Stack Exchange site)");
             correctionAdd("puzzling.se", "Puzzling (Stack Exchange site)");
+            correctionAdd("Puzzling", "Puzzling (Stack Exchange site)");
+            correctionAdd("puzzling", "Puzzling (Stack Exchange site)");
             correctionAdd("PSE", "Puzzling (Stack Exchange site)");
 
             correctionAdd("photography", "Photography (Stack Exchange site)");
             correctionAdd("Photography", "Photography (Stack Exchange site)");
 
+            correctionAdd("political Stack Exchange", "Politics (Stack Exchange site)");
+            correctionAdd("political stackexchange", "Politics (Stack Exchange site)");
             correctionAdd("Politics", "Politics (Stack Exchange site)");
             correctionAdd("politics", "Politics (Stack Exchange site)");
-            correctionAdd("political stackexchange", "Politics (Stack Exchange site)");
-            correctionAdd("political Stack Exchange", "Politics (Stack Exchange site)");
 
-            correctionAdd("Parenting", "Parenting (Stack Exchange site)");
             correctionAdd("parenting.SE", "Parenting (Stack Exchange site)");
             correctionAdd("Parenting.SE", "Parenting (Stack Exchange site)");
+            correctionAdd("Parenting", "Parenting (Stack Exchange site)");
 
-            correctionAdd("M&TV", "Movies&nbsp;&&nbsp;TV (Stack Exchange site)");
             correctionAdd("Movies & TV", "Movies&nbsp;&&nbsp;TV (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("Movies & TV (Stack Exchange site)", "Movies&nbsp;&&nbsp;TV (Stack Exchange site)");
             correctionAdd("Movies&nbsp;&&nbsp;TV", "Movies&nbsp;&&nbsp;TV (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("Movies", "Movies&nbsp;&&nbsp;TV (Stack Exchange site)");
+            correctionAdd("M&TV", "Movies&nbsp;&&nbsp;TV (Stack Exchange site)");
 
-            correctionAdd("Theoretical Computer Science", "Theoretical&nbsp;Computer&nbsp;Science (Stack Exchange site)");
             correctionAdd("Theoretical Computer Science (Stack Exchange site)", "Theoretical&nbsp;Computer&nbsp;Science (Stack Exchange site)");
             correctionAdd("Theoretical&nbsp;Computer&nbsp;Science", "Theoretical&nbsp;Computer&nbsp;Science (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("Theoretical Computer Science", "Theoretical&nbsp;Computer&nbsp;Science (Stack Exchange site)");
 
             correctionAdd("Matter Modeling (Stack Exchange site)", "Matter&nbsp;Modeling (Stack Exchange site)");
             correctionAdd("Matter&nbsp;Modeling", "Matter&nbsp;Modeling (Stack Exchange site)"); // Sort of identity mapping
@@ -98437,28 +98457,28 @@ namespace OverflowHelper.core
             correctionAdd("RPG", "Role-playing&nbsp;Games (Stack Exchange site)");
             correctionAdd("rpg", "Role-playing&nbsp;Games (Stack Exchange site)");
 
+            correctionAdd("AstronomySE", "Astronomy (Stack Exchange site)");
             correctionAdd("Astronomy", "Astronomy (Stack Exchange site)");
             correctionAdd("ASE", "Astronomy (Stack Exchange site)");
-            correctionAdd("AstronomySE", "Astronomy (Stack Exchange site)");
 
-            correctionAdd("drupal answers", "Drupal&nbsp;Answers (Stack Exchange site)");
-            correctionAdd("Drupal Answers", "Drupal&nbsp;Answers (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("Drupal Answers (Stack Exchange site)", "Drupal&nbsp;Answers (Stack Exchange site)");
             correctionAdd("Drupal&nbsp;Answers", "Drupal&nbsp;Answers (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("drupal answers", "Drupal&nbsp;Answers (Stack Exchange site)");
+            correctionAdd("Drupal Answers", "Drupal&nbsp;Answers (Stack Exchange site)"); // Sort of identity mapping
 
-            correctionAdd("hardware recommendations", "Hardware&nbsp;Recommendations (Stack Exchange site)");
-            correctionAdd("hardware recs", "Hardware&nbsp;Recommendations (Stack Exchange site)");
-            correctionAdd("Hardware Recommendations", "Hardware&nbsp;Recommendations (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("HW recs", "Hardware&nbsp;Recommendations (Stack Exchange site)");
             correctionAdd("Hardware Recommendations (Stack Exchange site)", "Hardware&nbsp;Recommendations (Stack Exchange site)");
             correctionAdd("Hardware&nbsp;Recommendations", "Hardware&nbsp;Recommendations (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("hardware recommendations", "Hardware&nbsp;Recommendations (Stack Exchange site)");
+            correctionAdd("Hardware Recommendations", "Hardware&nbsp;Recommendations (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("hardware recs", "Hardware&nbsp;Recommendations (Stack Exchange site)");
             correctionAdd("hardwarerecs", "Hardware&nbsp;Recommendations (Stack Exchange site)");
+            correctionAdd("HW recs", "Hardware&nbsp;Recommendations (Stack Exchange site)");
             correctionAdd("hw recs", "Hardware&nbsp;Recommendations (Stack Exchange site)");
 
-            correctionAdd("network engineering", "Network&nbsp;Engineering (Stack Exchange site)");
-            correctionAdd("Network Engineering", "Network&nbsp;Engineering (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("Network Engineering (Stack Exchange site)", "Network&nbsp;Engineering (Stack Exchange site)");
             correctionAdd("Network&nbsp;Engineering", "Network&nbsp;Engineering (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("network engineering", "Network&nbsp;Engineering (Stack Exchange site)");
+            correctionAdd("Network Engineering", "Network&nbsp;Engineering (Stack Exchange site)"); // Sort of identity mapping
 
             correctionAdd("Monero", "Monero (Stack Exchange site)");
 
@@ -98478,12 +98498,12 @@ namespace OverflowHelper.core
             correctionAdd("Bicycles", "Bicycles (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("bicycles", "Bicycles (Stack Exchange site)");
 
+            correctionAdd("MathOverflow.SE", "MathOverflow (Stack Exchange site)");
             correctionAdd("mathoverflow", "MathOverflow (Stack Exchange site)");
+            correctionAdd("MathOverflow", "MathOverflow (Stack Exchange site)");
+            correctionAdd("Mathoverflow", "MathOverflow (Stack Exchange site)");
             correctionAdd("MathOverlow", "MathOverflow (Stack Exchange site)");
             correctionAdd("MO", "MathOverflow (Stack Exchange site)");
-            correctionAdd("MathOverflow", "MathOverflow (Stack Exchange site)");
-            correctionAdd("MathOverflow.SE", "MathOverflow (Stack Exchange site)");
-            correctionAdd("Mathoverflow", "MathOverflow (Stack Exchange site)");
 
             correctionAdd("Pets.SE", "Pets (Stack Exchange site)");
             correctionAdd("pets", "Pets (Stack Exchange site)");
@@ -100383,6 +100403,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ommitted", "omitted");
             correctionAdd("ommited", "omitted");
+            correctionAdd("onitted", "omitted");
             correctionAdd("omited", "omitted");
 
             correctionAdd("ommission", "omission");
@@ -105771,8 +105792,6 @@ namespace OverflowHelper.core
             correctionAdd("Münchhausen", "Münchhausen trilemma");
             correctionAdd("bootstrap", "Münchhausen trilemma");
 
-            correctionAdd("burried", "buried");
-
             correctionAdd("laradock", "Laradock");
 
             correctionAdd("donut", "doughnut");
@@ -106479,8 +106498,6 @@ namespace OverflowHelper.core
             correctionAdd("saddly", "sadly");
 
             correctionAdd("FURL", "furl");
-
-            correctionAdd("burdons", "burdens");
 
             correctionAdd("Lua JIT", "LuaJIT");
 
@@ -108539,8 +108556,6 @@ namespace OverflowHelper.core
 
             URL_Add("libusb", "https://en.wikipedia.org/wiki/Libusb");
 
-            URL_Add("Burn", "https://en.wikipedia.org/wiki/WiX#Tools"); // Old: https://en.wikipedia.org/wiki/WiX#Burn
-
             URL_Add("Bing", "https://en.wikipedia.org/wiki/Microsoft_Bing"); // Old: https://en.wikipedia.org/wiki/Bing
 
             URL_Add("domain-specific language", "https://en.wikipedia.org/wiki/Domain-specific_language");
@@ -109296,10 +109311,6 @@ namespace OverflowHelper.core
             URL_Add("solution", "https://en.wiktionary.org/wiki/solution#Noun");
 
             URL_Add("bandwidth", "https://en.wiktionary.org/wiki/bandwidth#Noun");
-
-            URL_Add("bureaucracy", "https://en.wiktionary.org/wiki/bureaucracy#Noun");
-
-            URL_Add("bureaucrat", "https://en.wiktionary.org/wiki/bureaucrat#Noun");
 
             URL_Add("gibberish", "https://en.wiktionary.org/wiki/gibberish#Noun");
 
@@ -112821,10 +112832,6 @@ namespace OverflowHelper.core
 
             URL_Add("unformatted", "https://en.wiktionary.org/wiki/unformatted#Adjective"); // Old: https://en.wiktionary.org/wiki/unformatted
 
-            URL_Add("Wix.com", "https://en.wikipedia.org/wiki/Wix.com");
-
-            URL_Add("burned", "https://en.wiktionary.org/wiki/burn#Verb");
-
             URL_Add("carcass", "https://en.wiktionary.org/wiki/carcass#Noun");
 
             URL_Add("corpse", "https://en.wiktionary.org/wiki/corpse#Noun");
@@ -113328,8 +113335,6 @@ namespace OverflowHelper.core
             URL_Add("approval", "https://en.wiktionary.org/wiki/approval#Noun");
 
             URL_Add("approve", "https://en.wiktionary.org/wiki/approve#Verb");
-
-            URL_Add("bureaucratic", "https://en.wiktionary.org/wiki/bureaucratic#Adjective");
 
             URL_Add("easier", "https://en.wiktionary.org/wiki/easier#Adjective");
 
@@ -115899,8 +115904,6 @@ namespace OverflowHelper.core
 
             URL_Add("Ferrari", "https://en.wikipedia.org/wiki/Ferrari#Road_cars");
 
-            URL_Add("HAL", "https://en.wikipedia.org/wiki/HAL_%28software%29");
-
             URL_Add("nonblocking", "https://en.wiktionary.org/wiki/nonblocking#Adjective"); // Old: https://en.wiktionary.org/wiki/nonblocking
 
             URL_Add("Allah", "https://en.wiktionary.org/wiki/Allah#Proper_noun");
@@ -117418,8 +117421,6 @@ namespace OverflowHelper.core
             URL_Add("Web3.js", "https://www.mycryptopedia.com/what-is-web3-js-a-detailed-guide/");
 
             URL_Add("Münchhausen trilemma", "https://en.wikipedia.org/wiki/M%C3%BCnchhausen_trilemma");
-
-            URL_Add("buried", "https://en.wiktionary.org/wiki/bury#Verb");
 
             URL_Add("irreproducible", "https://en.wiktionary.org/wiki/irreproducible#Adjective");
 
@@ -119482,8 +119483,6 @@ namespace OverflowHelper.core
             URL_Add("1990s", "https://en.wiktionary.org/wiki/1990s#Noun");
 
             URL_Add("Pointy-haired Boss", "https://en.wikipedia.org/wiki/List_of_Dilbert_characters#Pointy-haired_Boss");
-
-            URL_Add("burdens", "https://en.wiktionary.org/wiki/burden#Verb");
 
             URL_Add("LuaJIT", "https://en.wikipedia.org/wiki/LuaJIT");
 
@@ -124049,8 +124048,6 @@ namespace OverflowHelper.core
 
             URL_Add("spin-offs", "https://en.wiktionary.org/wiki/spin-off#Noun");
 
-            URL_Add("burns", "https://en.wiktionary.org/wiki/burn#Noun");
-
             URL_Add("ergonomics", "https://en.wikipedia.org/wiki/Ergonomics#Physical_ergonomics");
 
             URL_Add("smoke and mirrors", "https://en.wiktionary.org/wiki/smoke_and_mirrors#Noun");
@@ -124628,8 +124625,6 @@ namespace OverflowHelper.core
             URL_Add("dispatch", "https://en.wiktionary.org/wiki/dispatch#Noun");
 
             URL_Add("dispatched", "https://en.wiktionary.org/wiki/dispatch#Verb");
-
-            URL_Add("burnt components", "https://www.reddit.com/r/Keychron/comments/1fkciu4/comment/lnvme6g/");
 
             URL_Add("muddy the waters", "https://en.wiktionary.org/wiki/muddy_the_waters#Verb");
 
@@ -134271,8 +134266,6 @@ namespace OverflowHelper.core
 
             URL_Add("ohmmeter", "https://en.wikipedia.org/wiki/Ohmmeter");
 
-            URL_Add("burden voltage", "https://en.wikipedia.org/wiki/Multimeter#Features");
-
             URL_Add("diode test mode", "https://www.fluke.com/en-us/learn/blog/digital-multimeters/how-to-test-diodes");
 
             URL_Add("continuity mode", "https://en.wikipedia.org/wiki/Continuity_test");
@@ -137643,8 +137636,6 @@ namespace OverflowHelper.core
 
             URL_Add("RLua", "https://github.com/whitequark/rlua");
 
-            URL_Add("Burp Suite", "https://en.wikipedia.org/wiki/White_hat_(computer_security)#Tactics");
-
             URL_Add("penetration test", "https://en.wikipedia.org/wiki/Penetration_test");
 
             URL_Add("none", "https://en.wiktionary.org/wiki/none#Adverb");
@@ -140119,8 +140110,6 @@ namespace OverflowHelper.core
             URL_Add("AVR130: Setup and use of AVR timers", "https://ww1.microchip.com/downloads/en/Appnotes/Atmel-2505-Setup-and-Use-of-AVR-Timers_ApplicationNote_AVR130.pdf");
 
             URL_Add("XMEGA", "https://en.wikipedia.org/wiki/AVR_microcontrollers#Basic_families");
-
-            URL_Add("ATmega", "https://en.wikipedia.org/wiki/AVR_microcontrollers#Basic_families");
 
             URL_Add("ATmega8", "https://www.microchip.com/en-us/product/ATmega8");
 
@@ -149587,6 +149576,34 @@ namespace OverflowHelper.core
 
             URL_Add("GUN", "https://en.wikipedia.org/wiki/GUN_(graph_database)");
 
+            URL_Add("Elite-C", "https://blog.keeb.io/case-of-the-wayward-elite-c/");
+
+            URL_Add("burns", "https://en.wiktionary.org/wiki/burn#Noun");
+
+            URL_Add("burned", "https://en.wiktionary.org/wiki/burn#Verb");
+
+            URL_Add("burnt components", "https://www.reddit.com/r/Keychron/comments/1fkciu4/comment/lnvme6g/");
+
+            URL_Add("Burn", "https://en.wikipedia.org/wiki/WiX#Tools"); // Old: https://en.wikipedia.org/wiki/WiX#Burn
+
+            URL_Add("Wix.com", "https://en.wikipedia.org/wiki/Wix.com");
+
+            URL_Add("burying", "https://en.wiktionary.org/wiki/bury#Verb");
+
+            URL_Add("buried", "https://en.wiktionary.org/wiki/bury#Verb");
+
+            URL_Add("bureaucracy", "https://en.wiktionary.org/wiki/bureaucracy#Noun");
+
+            URL_Add("bureaucrat", "https://en.wiktionary.org/wiki/bureaucrat#Noun");
+
+            URL_Add("bureaucratic", "https://en.wiktionary.org/wiki/bureaucratic#Adjective");
+
+            URL_Add("burdens", "https://en.wiktionary.org/wiki/burden#Verb");
+
+            URL_Add("burden voltage", "https://en.wikipedia.org/wiki/Multimeter#Features");
+
+            URL_Add("Burp Suite", "https://en.wikipedia.org/wiki/White_hat_(computer_security)#Tactics");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -149939,6 +149956,275 @@ namespace OverflowHelper.core
             correctionAdd("msi_", "Micro-Star International_");
             correctionAdd("MSi_", "Micro-Star International_");
 
+            // An STM32 microcontroller register for a type of ARM Cortex-M exception
+            //
+            // Allegedly in:
+            //
+            //   ARM Cortex-M3 Technical Reference Manual (ARM DDI 0337E, section 8.2.2, page 180).
+            //
+            // Alternative URLs:
+            //
+            //   <https://developer.arm.com/documentation/dui0552/a/cortex-m3-peripherals/system-control-block/hardfault-status-register>
+            //   <https://developer.arm.com/documentation/101928/0101/Cortex-M85-Processor-level-components-and-system-registers---Reference-Material/System-Control-and-Implementation-Control-Block/HardFault-Status-Register>
+            //
+            //   <https://github.com/ferenc-nemeth/arm-hard-fault-handler>
+            //     But very poor writing.
+            //
+            //   <https://documentation-service.arm.com/static/61084e4a3d73a34b640e31eb>
+            //     HFSR is misspelled as HSFR... In official ARM documentation!
+            //
+            correctionAdd("HardFault Status Register_", "HFSR_");
+            correctionAdd("HardFault_", "HFSR_"); // For the cross-reference
+            correctionAdd("HSFR_", "HFSR_");
+
+            // Electronics
+            correctionAdd("ST Microelectronics_", "STMicroelectronics_");
+            correctionAdd("ST-Micron_", "STMicroelectronics_");
+            correctionAdd("ST Micro_", "STMicroelectronics_");
+            correctionAdd("ST-Micro_", "STMicroelectronics_");
+            correctionAdd("STMicro_", "STMicroelectronics_");
+            correctionAdd("ST_", "STMicroelectronics_");
+            correctionAdd("st_", "STMicroelectronics_");
+
+            // ST / STM32
+            correctionAdd("discovery board_", "Discovery Kit_");
+            correctionAdd("discovery_", "Discovery Kit_");
+            correctionAdd("Discovery_", "Discovery Kit_");
+            correctionAdd("Disocvery_", "Discovery Kit_");
+            correctionAdd("DISCO_", "Discovery Kit_");
+            correctionAdd("Disco_", "Discovery Kit_");
+            correctionAdd("disco_", "Discovery Kit_");
+
+            correctionAdd("emebed_", "embed_");
+            correctionAdd("embedd_", "embed_");
+
+            // ST (STMicroelectronics) / STM / ARM / STM32 (embedded systems)
+            correctionAdd("L**ow**L**evel_", "low-layer_");
+            correctionAdd("low-level_", "low-layer_");
+            correctionAdd("low layer_", "low-layer_");
+            correctionAdd("Low Level_", "low-layer_");
+            correctionAdd("Low-Level_", "low-layer_");
+            correctionAdd("LL_", "low-layer_");
+
+            // ARM. STM32. Embedded systems
+            correctionAdd("thumb-2_", "Thumb-2_");
+            correctionAdd("thumb2_", "Thumb-2_");
+            correctionAdd("Thumb_", "Thumb-2_");
+            correctionAdd("thumb_", "Thumb-2_");
+            correctionAdd("THUMB_", "Thumb-2_");
+
+            // Embedded systems
+            correctionAdd("OTA_", "over-the-air_");
+            correctionAdd("ota_", "over-the-air_");
+
+            // Both embedded systems and general-purpose operating system
+            correctionAdd("hardware abstraction layer_", "HAL_");
+            correctionAdd("Hardware Abstraction Layer_", "HAL_");
+            correctionAdd("hal_", "HAL_");
+            correctionAdd("Hal_", "HAL_");
+
+            correctionAdd("Raspberry pie_", "Raspberry Pi_");
+            correctionAdd("Raspberry Pie_", "Raspberry Pi_");
+            correctionAdd("Raspberry PI_", "Raspberry Pi_");
+            correctionAdd("Raspberry pi_", "Raspberry Pi_");
+            correctionAdd("raspberry Pi_", "Raspberry Pi_");
+            correctionAdd("raspberry pi_", "Raspberry Pi_");
+            correctionAdd("raspberri pi_", "Raspberry Pi_");
+            correctionAdd("raspberry PI_", "Raspberry Pi_");
+            correctionAdd("raspberry-pi_", "Raspberry Pi_");
+            correctionAdd("rasbperry pi_", "Raspberry Pi_");
+            correctionAdd("Raspbeery Pi_", "Raspberry Pi_");
+            correctionAdd("Raspberry-pi_", "Raspberry Pi_");
+            correctionAdd("RaspBerry Pi_", "Raspberry Pi_");
+            correctionAdd("Rasbperry Pi_", "Raspberry Pi_");
+            correctionAdd("Raspberry-Pi_", "Raspberry Pi_");
+            correctionAdd("rasspbery pi_", "Raspberry Pi_");
+            correctionAdd("Rapsberry Pi_", "Raspberry Pi_");
+            correctionAdd("raspberrypi_", "Raspberry Pi_");
+            correctionAdd("Rasberry Pi_", "Raspberry Pi_");
+            correctionAdd("rasberry pi_", "Raspberry Pi_");
+            correctionAdd("RaspberryPi_", "Raspberry Pi_");
+            correctionAdd("RaspberryPI_", "Raspberry Pi_");
+            correctionAdd("raspbery pi_", "Raspberry Pi_"); // Misspelling.
+            correctionAdd("raspberryPi_", "Raspberry Pi_");
+            correctionAdd("rasperry pi_", "Raspberry Pi_");
+            correctionAdd("Rasberry PI_", "Raspberry Pi_");
+            correctionAdd("Rasberry-Pi_", "Raspberry Pi_");
+            correctionAdd("Rasberry Py_", "Raspberry Pi_");
+            correctionAdd("rasperri pi_", "Raspberry Pi_");
+            correctionAdd("Rasperry Pi_", "Raspberry Pi_");
+            correctionAdd("RaspBerryPi_", "Raspberry Pi_");
+            correctionAdd("rasperry PI_", "Raspberry Pi_");
+            correctionAdd("RASPBERRYPI_", "Raspberry Pi_");
+            correctionAdd("rasberri pi_", "Raspberry Pi_");
+            correctionAdd("Rapberry pi_", "Raspberry Pi_");
+            correctionAdd("Rapserry pi_", "Raspberry Pi_");
+            correctionAdd("Razberrypi_", "Raspberry Pi_");
+            correctionAdd("razberrypi_", "Raspberry Pi_");
+            correctionAdd("RasperryPi_", "Raspberry Pi_");
+            correctionAdd("rasbery pi_", "Raspberry Pi_");
+            correctionAdd("raspberry_", "Raspberry Pi_");
+            correctionAdd("Raspberry_", "Raspberry Pi_");
+            correctionAdd("rasbperry_", "Raspberry Pi_");
+            correctionAdd("rasspbery_", "Raspberry Pi_");
+            correctionAdd("Rasperry_", "Raspberry Pi_");
+            correctionAdd("Rasberry_", "Raspberry Pi_");
+            correctionAdd("Raspberr_", "Raspberry Pi_");
+            correctionAdd("rasberry_", "Raspberry Pi_");
+            correctionAdd("rasberri_", "Raspberry Pi_");
+            correctionAdd("Raspi Pi_", "Raspberry Pi_");
+            correctionAdd("Rasp pi_", "Raspberry Pi_");
+            correctionAdd("rasp pi_", "Raspberry Pi_");
+            correctionAdd("Rasp Pi_", "Raspberry Pi_");
+            correctionAdd("Ras-Pi_", "Raspberry Pi_");
+            correctionAdd("RaspPi_", "Raspberry Pi_");
+            correctionAdd("rasppi_", "Raspberry Pi_");
+            correctionAdd("raSPI_", "Raspberry Pi_");
+            correctionAdd("RASPI_", "Raspberry Pi_");
+            correctionAdd("rasPi_", "Raspberry Pi_");
+            correctionAdd("raspi_", "Raspberry Pi_");
+            correctionAdd("RasPi_", "Raspberry Pi_");
+            correctionAdd("Raspi_", "Raspberry Pi_");
+            correctionAdd("r-pi_", "Raspberry Pi_");
+            correctionAdd("R-Pi_", "Raspberry Pi_");
+            correctionAdd("rasp_", "Raspberry Pi_");
+            correctionAdd("r pi_", "Raspberry Pi_");
+            correctionAdd("Rasp_", "Raspberry Pi_");
+            correctionAdd("RaPi_", "Raspberry Pi_");
+            correctionAdd("Rpi_", "Raspberry Pi_");
+            correctionAdd("RPi_", "Raspberry Pi_");
+            correctionAdd("rpi_", "Raspberry Pi_");
+            correctionAdd("RPI_", "Raspberry Pi_");
+            correctionAdd("R{i_", "Raspberry Pi_");
+            correctionAdd("rPi_", "Raspberry Pi_");
+            correctionAdd("pie_", "Raspberry Pi_");
+            correctionAdd("PI_", "Raspberry Pi_");
+            correctionAdd("pi_", "Raspberry Pi_");
+            correctionAdd("Pi_", "Raspberry Pi_");
+            correctionAdd("RP_", "Raspberry Pi_");
+
+            // Raspberry Pi (like "shield" for Arduino)
+            //
+            // Alternative URLs:
+            //
+            //   <https://raspberrytips.com/best-raspberry-pi-hats/>
+            //   <https://thepihut.com/collections/raspberry-pi-hats>
+            //   <https://www.tomshardware.com/best-picks/raspberry-pi-microsd-cards>
+            //
+            correctionAdd("hat_", "hardware attached on top_");
+
+            // The Texas Instruments hardware platform,
+            // Also at <https://www.ti.com/ww/en/launchpad/about.html>.
+            //
+            // The links are effectively broken by now. Does it
+            // exist?
+            //
+            correctionAdd("Texas Instruments LaunchPad_", "LaunchPad_");
+            correctionAdd("Texas Instruments launchpad_", "LaunchPad_");
+            correctionAdd("TI LaunchPad_", "LaunchPad_");
+            correctionAdd("TI launchpad_", "LaunchPad_");
+            correctionAdd("ti launchpad_", "LaunchPad_");
+            correctionAdd("launchpad_", "LaunchPad_");
+            correctionAdd("Launchpad_", "LaunchPad_");
+
+            // Electronics (as in embedded software?)?
+            correctionAdd("Binary Runtime Environment for Wireless_", "BREW_");
+            correctionAdd("Qualcomm BREW_", "BREW_");
+            correctionAdd("Brew MP_", "BREW_");
+            correctionAdd("Brew_", "BREW_");
+            correctionAdd("brew_", "BREW_");
+
+            // The verb
+            correctionAdd("flsah_", "flash_");
+            correctionAdd("flush_", "flash_");
+            correctionAdd("fash_", "flash_");
+            correctionAdd("flag_", "flash_"); // An autocorrect "masterpiece"?
+
+            correctionAdd("nand flash_", "NAND flash_");
+            correctionAdd("NAND-flash_", "NAND flash_");
+            correctionAdd("nand-flash_", "NAND flash_");
+            correctionAdd("NAND Flash_", "NAND flash_");
+            correctionAdd("flash nand_", "NAND flash_");
+            correctionAdd("flashnand_", "NAND flash_");
+            correctionAdd("NAND_", "NAND flash_");
+
+            correctionAdd("nor flash_", "NOR flash_");
+            correctionAdd("Flash NOR_", "NOR flash_");
+            correctionAdd("flash NOR_", "NOR flash_");
+
+            // Embedded systems, incl. QMK mechanical keyboards
+            //
+            // For the alternative URL (Keychron's instructions)
+            // Microcontrollers
+            //
+            // E.g., related to flashing firmware for Keychron keyboards
+            correctionAdd("Hard flashing_", "hard flashing_");
+
+            // Embedded systems, incl. QMK mechanical keyboards
+            //
+            // Alternative URLs:
+            //
+            //   <https://keychronsupport.zendesk.com/hc/en-us/articles/8914576001943-How-to-Factory-Reset-or-Flash-Firmware-for-Your-Keychron-Q3-keyboard>
+            //     The spacebar method for flashing Keychron keyboards
+            //
+            correctionAdd("bootloader loader mode_", "bootloader mode_");
+            correctionAdd("boot loader mode_", "bootloader mode_");
+            correctionAdd("flash memory_", "bootloader mode_"); // For the cross-reference
+            correctionAdd("bootloader_", "bootloader mode_");
+            correctionAdd("flash mode_", "bootloader mode_");
+            correctionAdd("Flash mode_", "bootloader mode_");
+            correctionAdd("DFU mode_", "bootloader mode_");
+
+            correctionAdd("OSC_", "Open Sound Control_");
+
+            correctionAdd("hard ware_", "hardware_");
+            correctionAdd("harwdware_", "hardware_");
+            correctionAdd("hardwares_", "hardware_");
+            correctionAdd("hardwarws_", "hardware_");
+            correctionAdd("hardeware_", "hardware_");
+            correctionAdd("Hardware_", "hardware_");
+            correctionAdd("harwade_", "hardware_");
+            correctionAdd("H/W_", "hardware_");
+            correctionAdd("h/w_", "hardware_");
+            correctionAdd("HS_", "hardware_"); // A typo of abbr. "HW"
+            correctionAdd("hw_", "hardware_");
+            correctionAdd("HW_", "hardware_");
+
+            // PC hardware
+            correctionAdd("Industry Standard Architecture_", "ISA bus_");
+            correctionAdd("ISA_", "ISA bus_");
+
+            // PC hardware. Hard disk drives. SSDs. Disks. Partioning.
+            //
+            // Alternative URL:
+            //
+            //   <https://www.gnu.org/software/parted/>
+            //   <https://www.gnu.org/software/parted/manual/parted.html>
+            //
+            correctionAdd("parted_", "Parted_");
+
+            correctionAdd("archetecture_", "architecture_");
+            correctionAdd("Architechure_", "architecture_");
+            correctionAdd("architechure_", "architecture_");
+            correctionAdd("archirecture_", "architecture_");
+            correctionAdd("Architecture_", "architecture_");
+            correctionAdd("Archteicture_", "architecture_");
+            correctionAdd("archteicture_", "architecture_");
+            correctionAdd("archtecture_", "architecture_");
+            correctionAdd("architecure_", "architecture_");
+            correctionAdd("arhitecture_", "architecture_");
+            correctionAdd("achitecture_", "architecture_");
+            correctionAdd("archicture_", "architecture_");
+            correctionAdd("arch_", "architecture_"); // Expansion. For a computer hardware context.
+
+            // A YouTube channel with, for example, PC hardware reviews
+            correctionAdd("Linux Tech Tipps_", "Linus Tech Tips_");
+            correctionAdd("linus tech tips_", "Linus Tech Tips_");
+            correctionAdd("Linux Tech Tips_", "Linus Tech Tips_");
+            correctionAdd("Linus_", "Linus Tech Tips_");
+            correctionAdd("LTT_", "Linus Tech Tips_");
+            correctionAdd("ltt_", "Linus Tech Tips_");
+
             // A computer hardware retailer in the UK
             //
             // Alternative URLs:
@@ -149949,6 +150235,51 @@ namespace OverflowHelper.core
             correctionAdd("scan.co.uk_", "Scan_");
             correctionAdd("scan_", "Scan_");
             correctionAdd("SCAN_", "Scan_");
+
+            // The verb
+            correctionAdd("BURS_", "burns_");
+            correctionAdd("burs_", "burns_");
+
+            // Software for overclocking and hardware monitoring
+            correctionAdd("Afterburner_", "MSI Afterburner_");
+            correctionAdd("afterburner_", "MSI Afterburner_");
+
+            // Yes, I need to properly attribute/reference the "spacefaring" entry.
+            correctionAdd("spacefaring carbuilding lunatic billionaire-sized venture capital being burnt_", "Twitter_"); // Courtesy Marcus Müller, <https://meta.stackoverflow.com/questions/421831/temporary-policy-chatgpt-is-banned#comment936888_421842>
+            correctionAdd("The site formerly known as Twitter_", "Twitter_");
+            correctionAdd("the deadbird site_", "Twitter_");
+            correctionAdd("the Death Star_", "Twitter_");
+            correctionAdd("the bird site_", "Twitter_");
+            correctionAdd("Elon Musk's X_", "Twitter_");
+            correctionAdd("the birdsite_", "Twitter_");
+            correctionAdd("Death Star_", "Twitter_");
+            correctionAdd("Bird-site_", "Twitter_");
+            correctionAdd("bird site_", "Twitter_");
+            correctionAdd("bird-site_", "Twitter_");
+            correctionAdd("ExTwitter_", "Twitter_");
+            correctionAdd("twittter_", "Twitter_");
+            correctionAdd("Birdsite_", "Twitter_");
+            correctionAdd("birdsite_", "Twitter_");
+            correctionAdd("Xuuitter_", "Twitter_");
+            correctionAdd("twitter_", "Twitter_");
+            correctionAdd("tritter_", "Twitter_");
+            correctionAdd("Tweeter_", "Twitter_");
+            correctionAdd("twiiter_", "Twitter_");
+            correctionAdd("Twatter_", "Twitter_");
+            correctionAdd("TwAtter_", "Twitter_");
+            correctionAdd("twatter_", "Twitter_");
+            correctionAdd("Twotter_", "Twitter_");
+            correctionAdd("twitte_", "Twitter_");
+            correctionAdd("twiter_", "Twitter_");
+            correctionAdd("x.com_", "Twitter_");
+            correctionAdd("EMX_", "Twitter_");
+            correctionAdd("X_", "Twitter_");
+
+            correctionAdd("tellygram_", "Telegram Messenger_");
+            correctionAdd("Telegram_", "Telegram Messenger_");
+            correctionAdd("telegram_", "Telegram Messenger_");
+            correctionAdd("Tg_", "Telegram Messenger_");
+            correctionAdd("TG_", "Telegram Messenger_");
 
             correctionAdd("librabries_", "libraries_");
             correctionAdd("linbraries_", "libraries_");
@@ -150059,76 +150390,6 @@ namespace OverflowHelper.core
 
             correctionAdd("decmial_", "decimal_");
             correctionAdd("dec_", "decimal_");
-
-            // An STM32 microcontroller register for a type of ARM Cortex-M exception
-            //
-            // Allegedly in:
-            //
-            //   ARM Cortex-M3 Technical Reference Manual (ARM DDI 0337E, section 8.2.2, page 180).
-            //
-            // Alternative URLs:
-            //
-            //   <https://developer.arm.com/documentation/dui0552/a/cortex-m3-peripherals/system-control-block/hardfault-status-register>
-            //   <https://developer.arm.com/documentation/101928/0101/Cortex-M85-Processor-level-components-and-system-registers---Reference-Material/System-Control-and-Implementation-Control-Block/HardFault-Status-Register>
-            //
-            //   <https://github.com/ferenc-nemeth/arm-hard-fault-handler>
-            //     But very poor writing.
-            //
-            //   <https://documentation-service.arm.com/static/61084e4a3d73a34b640e31eb>
-            //     HFSR is misspelled as HSFR... In official ARM documentation!
-            //
-            correctionAdd("HardFault Status Register_", "HFSR_");
-            correctionAdd("HardFault_", "HFSR_"); // For the cross-reference
-            correctionAdd("HSFR_", "HFSR_");
-
-            // Electronics
-            correctionAdd("ST Microelectronics_", "STMicroelectronics_");
-            correctionAdd("ST-Micron_", "STMicroelectronics_");
-            correctionAdd("ST Micro_", "STMicroelectronics_");
-            correctionAdd("ST-Micro_", "STMicroelectronics_");
-            correctionAdd("STMicro_", "STMicroelectronics_");
-            correctionAdd("ST_", "STMicroelectronics_");
-            correctionAdd("st_", "STMicroelectronics_");
-
-            correctionAdd("HAL_", "STM32 HAL_");
-
-            // ST / STM32
-            correctionAdd("discovery board_", "Discovery Kit_");
-            correctionAdd("discovery_", "Discovery Kit_");
-            correctionAdd("Discovery_", "Discovery Kit_");
-            correctionAdd("Disocvery_", "Discovery Kit_");
-            correctionAdd("DISCO_", "Discovery Kit_");
-            correctionAdd("Disco_", "Discovery Kit_");
-            correctionAdd("disco_", "Discovery Kit_");
-
-            correctionAdd("emebed_", "embed_");
-            correctionAdd("embedd_", "embed_");
-
-            // ST (STMicroelectronics) / STM / ARM / STM32 (embedded systems)
-            correctionAdd("L**ow**L**evel_", "low-layer_");
-            correctionAdd("low-level_", "low-layer_");
-            correctionAdd("low layer_", "low-layer_");
-            correctionAdd("Low Level_", "low-layer_");
-            correctionAdd("Low-Level_", "low-layer_");
-            correctionAdd("LL_", "low-layer_");
-
-            // ARM. STM32. Embedded systems
-            correctionAdd("thumb-2_", "Thumb-2_");
-            correctionAdd("thumb2_", "Thumb-2_");
-            correctionAdd("Thumb_", "Thumb-2_");
-            correctionAdd("thumb_", "Thumb-2_");
-            correctionAdd("THUMB_", "Thumb-2_");
-
-            // Embedded systems
-            correctionAdd("OTA_", "over-the-air_");
-            correctionAdd("ota_", "over-the-air_");
-
-            // Electronics (as in embedded software?)?
-            correctionAdd("Binary Runtime Environment for Wireless_", "BREW_");
-            correctionAdd("Qualcomm BREW_", "BREW_");
-            correctionAdd("Brew MP_", "BREW_");
-            correctionAdd("Brew_", "BREW_");
-            correctionAdd("brew_", "BREW_");
 
             // Diodes (electronics)
             correctionAdd("reverse_", "reverse bias_");
@@ -151513,51 +151774,6 @@ namespace OverflowHelper.core
             // Related to Stack Overflow and Stack Exchange
             correctionAdd("burned_", "burninated_");
 
-            // The verb
-            correctionAdd("BURS_", "burns_");
-            correctionAdd("burs_", "burns_");
-
-            // Software for overclocking and hardware monitoring
-            correctionAdd("Afterburner_", "MSI Afterburner_");
-            correctionAdd("afterburner_", "MSI Afterburner_");
-
-            // Yes, I need to properly attribute/reference the "spacefaring" entry.
-            correctionAdd("spacefaring carbuilding lunatic billionaire-sized venture capital being burnt_", "Twitter_"); // Courtesy Marcus Müller, <https://meta.stackoverflow.com/questions/421831/temporary-policy-chatgpt-is-banned#comment936888_421842>
-            correctionAdd("The site formerly known as Twitter_", "Twitter_");
-            correctionAdd("the deadbird site_", "Twitter_");
-            correctionAdd("the Death Star_", "Twitter_");
-            correctionAdd("the bird site_", "Twitter_");
-            correctionAdd("Elon Musk's X_", "Twitter_");
-            correctionAdd("the birdsite_", "Twitter_");
-            correctionAdd("Death Star_", "Twitter_");
-            correctionAdd("Bird-site_", "Twitter_");
-            correctionAdd("bird site_", "Twitter_");
-            correctionAdd("bird-site_", "Twitter_");
-            correctionAdd("ExTwitter_", "Twitter_");
-            correctionAdd("twittter_", "Twitter_");
-            correctionAdd("Birdsite_", "Twitter_");
-            correctionAdd("birdsite_", "Twitter_");
-            correctionAdd("Xuuitter_", "Twitter_");
-            correctionAdd("twitter_", "Twitter_");
-            correctionAdd("tritter_", "Twitter_");
-            correctionAdd("Tweeter_", "Twitter_");
-            correctionAdd("twiiter_", "Twitter_");
-            correctionAdd("Twatter_", "Twitter_");
-            correctionAdd("TwAtter_", "Twitter_");
-            correctionAdd("twatter_", "Twitter_");
-            correctionAdd("Twotter_", "Twitter_");
-            correctionAdd("twitte_", "Twitter_");
-            correctionAdd("twiter_", "Twitter_");
-            correctionAdd("x.com_", "Twitter_");
-            correctionAdd("EMX_", "Twitter_");
-            correctionAdd("X_", "Twitter_");
-
-            correctionAdd("tellygram_", "Telegram Messenger_");
-            correctionAdd("Telegram_", "Telegram Messenger_");
-            correctionAdd("telegram_", "Telegram Messenger_");
-            correctionAdd("Tg_", "Telegram Messenger_");
-            correctionAdd("TG_", "Telegram Messenger_");
-
             correctionAdd("suze_", "size_");
             correctionAdd("Size_", "size_");
             correctionAdd("sice_", "size_");
@@ -152885,47 +153101,6 @@ namespace OverflowHelper.core
             correctionAdd("0x2014_", "EM DASH (U+2014)_");
             correctionAdd("2014_", "EM DASH (U+2014)_");
             correctionAdd("dash_", "EM DASH (U+2014)_"); // For the cross-reference
-
-            // The verb
-            correctionAdd("flsah_", "flash_");
-            correctionAdd("flush_", "flash_");
-            correctionAdd("fash_", "flash_");
-            correctionAdd("flag_", "flash_"); // An autocorrect "masterpiece"?
-
-            correctionAdd("nand flash_", "NAND flash_");
-            correctionAdd("NAND-flash_", "NAND flash_");
-            correctionAdd("nand-flash_", "NAND flash_");
-            correctionAdd("NAND Flash_", "NAND flash_");
-            correctionAdd("flash nand_", "NAND flash_");
-            correctionAdd("flashnand_", "NAND flash_");
-            correctionAdd("NAND_", "NAND flash_");
-
-            correctionAdd("nor flash_", "NOR flash_");
-            correctionAdd("Flash NOR_", "NOR flash_");
-            correctionAdd("flash NOR_", "NOR flash_");
-
-            // Embedded systems, incl. QMK mechanical keyboards
-            //
-            // For the alternative URL (Keychron's instructions)
-            // Microcontrollers
-            //
-            // E.g., related to flashing firmware for Keychron keyboards
-            correctionAdd("Hard flashing_", "hard flashing_");
-
-            // Embedded systems, incl. QMK mechanical keyboards
-            //
-            // Alternative URLs:
-            //
-            //   <https://keychronsupport.zendesk.com/hc/en-us/articles/8914576001943-How-to-Factory-Reset-or-Flash-Firmware-for-Your-Keychron-Q3-keyboard>
-            //     The spacebar method for flashing Keychron keyboards
-            //
-            correctionAdd("bootloader loader mode_", "bootloader mode_");
-            correctionAdd("boot loader mode_", "bootloader mode_");
-            correctionAdd("flash memory_", "bootloader mode_"); // For the cross-reference
-            correctionAdd("bootloader_", "bootloader mode_");
-            correctionAdd("flash mode_", "bootloader mode_");
-            correctionAdd("Flash mode_", "bootloader mode_");
-            correctionAdd("DFU mode_", "bootloader mode_");
 
             // For the reference to QMK's GitHub repository
             correctionAdd("the main QMK project_", "QMK_");
@@ -155078,19 +155253,6 @@ namespace OverflowHelper.core
             correctionAdd("teeny tiny_", "teenie-tiny_");
             correctionAdd("tiniest_", "teenie-tiny_");
             correctionAdd("small_", "teenie-tiny_");
-
-            correctionAdd("hard ware_", "hardware_");
-            correctionAdd("harwdware_", "hardware_");
-            correctionAdd("hardwares_", "hardware_");
-            correctionAdd("hardwarws_", "hardware_");
-            correctionAdd("hardeware_", "hardware_");
-            correctionAdd("Hardware_", "hardware_");
-            correctionAdd("harwade_", "hardware_");
-            correctionAdd("H/W_", "hardware_");
-            correctionAdd("h/w_", "hardware_");
-            correctionAdd("HS_", "hardware_"); // A typo of abbr. "HW"
-            correctionAdd("hw_", "hardware_");
-            correctionAdd("HW_", "hardware_");
 
             correctionAdd("cicles_", "circles_");
             correctionAdd("cycles_", "circles_");
@@ -159713,12 +159875,6 @@ namespace OverflowHelper.core
             correctionAdd("PoS_", "part of speech_");
             correctionAdd("pos_", "part of speech_");
 
-            correctionAdd("OSC_", "Open Sound Control_");
-
-            // PC hardware
-            correctionAdd("Industry Standard Architecture_", "ISA bus_");
-            correctionAdd("ISA_", "ISA bus_");
-
             // CAN bus, CANopen
             //
             // Alternative URLs:
@@ -159741,6 +159897,9 @@ namespace OverflowHelper.core
 
             // CAN bus / OBD-II
             correctionAdd("UDS_", "Unified Diagnostic Services_");
+
+            // A vendor of hardware and software for CAN bus
+            correctionAdd("peak_", "PEAK_");
 
             // OBD-II. A smartphone app
             //
@@ -162414,6 +162573,7 @@ namespace OverflowHelper.core
             correctionAdd("Opt_", "option_");
             correctionAdd("opt_", "option_");
 
+            // The proper noun
             correctionAdd("english_", "English_");
 
             correctionAdd("blitz++_", "Blitz++_");
@@ -163510,20 +163670,6 @@ namespace OverflowHelper.core
             correctionAdd("est_", "estimated_");
             correctionAdd("Est_", "estimated_");
 
-            // The Texas Instruments hardware platform,
-            // Also at <https://www.ti.com/ww/en/launchpad/about.html>.
-            //
-            // The links are effectively broken by now. Does it
-            // exist?
-            //
-            correctionAdd("Texas Instruments LaunchPad_", "LaunchPad_");
-            correctionAdd("Texas Instruments launchpad_", "LaunchPad_");
-            correctionAdd("TI LaunchPad_", "LaunchPad_");
-            correctionAdd("TI launchpad_", "LaunchPad_");
-            correctionAdd("ti launchpad_", "LaunchPad_");
-            correctionAdd("launchpad_", "LaunchPad_");
-            correctionAdd("Launchpad_", "LaunchPad_");
-
             correctionAdd("chameleon_", "chameleon question_");
             correctionAdd("chamilion_", "chameleon question_");
 
@@ -163574,15 +163720,6 @@ namespace OverflowHelper.core
             correctionAdd("oracle_", "Oracle_");
 
             correctionAdd("PR_", "public relations_");
-
-            // PC hardware. Hard disk drives. SSDs. Disks. Partioning.
-            //
-            // Alternative URL:
-            //
-            //   <https://www.gnu.org/software/parted/>
-            //   <https://www.gnu.org/software/parted/manual/parted.html>
-            //
-            correctionAdd("parted_", "Parted_");
 
             // A spacecraft
             correctionAdd("rosetta_", "Rosetta_");
@@ -164182,20 +164319,6 @@ namespace OverflowHelper.core
 
             correctionAdd("DB_", "Deutsche Bahn_");
 
-            correctionAdd("archetecture_", "architecture_");
-            correctionAdd("Architechure_", "architecture_");
-            correctionAdd("architechure_", "architecture_");
-            correctionAdd("archirecture_", "architecture_");
-            correctionAdd("Architecture_", "architecture_");
-            correctionAdd("Archteicture_", "architecture_");
-            correctionAdd("archteicture_", "architecture_");
-            correctionAdd("archtecture_", "architecture_");
-            correctionAdd("architecure_", "architecture_");
-            correctionAdd("arhitecture_", "architecture_");
-            correctionAdd("achitecture_", "architecture_");
-            correctionAdd("archicture_", "architecture_");
-            correctionAdd("arch_", "architecture_"); // Expansion. For a computer hardware context.
-
             correctionAdd("sttaing_", "stating_"); // A true typo
 
             correctionAdd("Static electricity_", "static electricity_");
@@ -164413,96 +164536,6 @@ namespace OverflowHelper.core
             correctionAdd("specifiy_", "specify_");
             correctionAdd("specific_", "specify_"); // Likely an autocorrect "masterpiece"
             correctionAdd("speficy_", "specify_");
-
-            correctionAdd("Raspberry pie_", "Raspberry Pi_");
-            correctionAdd("Raspberry Pie_", "Raspberry Pi_");
-            correctionAdd("Raspberry PI_", "Raspberry Pi_");
-            correctionAdd("Raspberry pi_", "Raspberry Pi_");
-            correctionAdd("raspberry Pi_", "Raspberry Pi_");
-            correctionAdd("raspberry pi_", "Raspberry Pi_");
-            correctionAdd("raspberri pi_", "Raspberry Pi_");
-            correctionAdd("raspberry PI_", "Raspberry Pi_");
-            correctionAdd("raspberry-pi_", "Raspberry Pi_");
-            correctionAdd("rasbperry pi_", "Raspberry Pi_");
-            correctionAdd("Raspbeery Pi_", "Raspberry Pi_");
-            correctionAdd("Raspberry-pi_", "Raspberry Pi_");
-            correctionAdd("RaspBerry Pi_", "Raspberry Pi_");
-            correctionAdd("Rasbperry Pi_", "Raspberry Pi_");
-            correctionAdd("Raspberry-Pi_", "Raspberry Pi_");
-            correctionAdd("rasspbery pi_", "Raspberry Pi_");
-            correctionAdd("Rapsberry Pi_", "Raspberry Pi_");
-            correctionAdd("raspberrypi_", "Raspberry Pi_");
-            correctionAdd("Rasberry Pi_", "Raspberry Pi_");
-            correctionAdd("rasberry pi_", "Raspberry Pi_");
-            correctionAdd("RaspberryPi_", "Raspberry Pi_");
-            correctionAdd("RaspberryPI_", "Raspberry Pi_");
-            correctionAdd("raspbery pi_", "Raspberry Pi_"); // Misspelling.
-            correctionAdd("raspberryPi_", "Raspberry Pi_");
-            correctionAdd("rasperry pi_", "Raspberry Pi_");
-            correctionAdd("Rasberry PI_", "Raspberry Pi_");
-            correctionAdd("Rasberry-Pi_", "Raspberry Pi_");
-            correctionAdd("Rasberry Py_", "Raspberry Pi_");
-            correctionAdd("rasperri pi_", "Raspberry Pi_");
-            correctionAdd("Rasperry Pi_", "Raspberry Pi_");
-            correctionAdd("RaspBerryPi_", "Raspberry Pi_");
-            correctionAdd("rasperry PI_", "Raspberry Pi_");
-            correctionAdd("RASPBERRYPI_", "Raspberry Pi_");
-            correctionAdd("rasberri pi_", "Raspberry Pi_");
-            correctionAdd("Rapberry pi_", "Raspberry Pi_");
-            correctionAdd("Rapserry pi_", "Raspberry Pi_");
-            correctionAdd("Razberrypi_", "Raspberry Pi_");
-            correctionAdd("razberrypi_", "Raspberry Pi_");
-            correctionAdd("RasperryPi_", "Raspberry Pi_");
-            correctionAdd("rasbery pi_", "Raspberry Pi_");
-            correctionAdd("raspberry_", "Raspberry Pi_");
-            correctionAdd("Raspberry_", "Raspberry Pi_");
-            correctionAdd("rasbperry_", "Raspberry Pi_");
-            correctionAdd("rasspbery_", "Raspberry Pi_");
-            correctionAdd("Rasperry_", "Raspberry Pi_");
-            correctionAdd("Rasberry_", "Raspberry Pi_");
-            correctionAdd("Raspberr_", "Raspberry Pi_");
-            correctionAdd("rasberry_", "Raspberry Pi_");
-            correctionAdd("rasberri_", "Raspberry Pi_");
-            correctionAdd("Raspi Pi_", "Raspberry Pi_");
-            correctionAdd("Rasp pi_", "Raspberry Pi_");
-            correctionAdd("rasp pi_", "Raspberry Pi_");
-            correctionAdd("Rasp Pi_", "Raspberry Pi_");
-            correctionAdd("Ras-Pi_", "Raspberry Pi_");
-            correctionAdd("RaspPi_", "Raspberry Pi_");
-            correctionAdd("rasppi_", "Raspberry Pi_");
-            correctionAdd("raSPI_", "Raspberry Pi_");
-            correctionAdd("RASPI_", "Raspberry Pi_");
-            correctionAdd("rasPi_", "Raspberry Pi_");
-            correctionAdd("raspi_", "Raspberry Pi_");
-            correctionAdd("RasPi_", "Raspberry Pi_");
-            correctionAdd("Raspi_", "Raspberry Pi_");
-            correctionAdd("r-pi_", "Raspberry Pi_");
-            correctionAdd("R-Pi_", "Raspberry Pi_");
-            correctionAdd("rasp_", "Raspberry Pi_");
-            correctionAdd("r pi_", "Raspberry Pi_");
-            correctionAdd("Rasp_", "Raspberry Pi_");
-            correctionAdd("RaPi_", "Raspberry Pi_");
-            correctionAdd("Rpi_", "Raspberry Pi_");
-            correctionAdd("RPi_", "Raspberry Pi_");
-            correctionAdd("rpi_", "Raspberry Pi_");
-            correctionAdd("RPI_", "Raspberry Pi_");
-            correctionAdd("R{i_", "Raspberry Pi_");
-            correctionAdd("rPi_", "Raspberry Pi_");
-            correctionAdd("pie_", "Raspberry Pi_");
-            correctionAdd("PI_", "Raspberry Pi_");
-            correctionAdd("pi_", "Raspberry Pi_");
-            correctionAdd("Pi_", "Raspberry Pi_");
-            correctionAdd("RP_", "Raspberry Pi_");
-
-            // Raspberry Pi (like "shield" for Arduino)
-            //
-            // Alternative URLs:
-            //
-            //   <https://raspberrytips.com/best-raspberry-pi-hats/>
-            //   <https://thepihut.com/collections/raspberry-pi-hats>
-            //   <https://www.tomshardware.com/best-picks/raspberry-pi-microsd-cards>
-            //
-            correctionAdd("hat_", "hardware attached on top_");
 
             correctionAdd("identificators_", "identification_");
             correctionAdd("Identification_", "identification_");
@@ -165036,14 +165069,6 @@ namespace OverflowHelper.core
             correctionAdd("reduce_", "reduced_");
 
             correctionAdd("Staff_", "staff_");
-
-            // A YouTube channel with, for example, PC hardware reviews
-            correctionAdd("Linux Tech Tipps_", "Linus Tech Tips_");
-            correctionAdd("linus tech tips_", "Linus Tech Tips_");
-            correctionAdd("Linux Tech Tips_", "Linus Tech Tips_");
-            correctionAdd("Linus_", "Linus Tech Tips_");
-            correctionAdd("LTT_", "Linus Tech Tips_");
-            correctionAdd("ltt_", "Linus Tech Tips_");
 
             correctionAdd("resultat_", "result_");
             correctionAdd("resault_", "result_");
@@ -165706,9 +165731,6 @@ namespace OverflowHelper.core
             correctionAdd("photonic crystal fibre_", "photonic-crystal fiber_");
             correctionAdd("PCF_", "photonic-crystal fiber_");
 
-            // A vendor of hardware and software for CAN bus
-            correctionAdd("peak_", "PEAK_");
-
             correctionAdd("repro_", "reproduction_");
 
             // C. A book
@@ -165794,8 +165816,6 @@ namespace OverflowHelper.core
             URL_Add("every_", "https://en.wiktionary.org/wiki/every#Determiner");
 
             URL_Add("con_", "https://en.wiktionary.org/wiki/con#Noun");
-
-            URL_Add("Bureau of Land Management_", "https://en.wikipedia.org/wiki/Bureau_of_Land_Management");
 
             URL_Add("Homestead_", "https://en.wikipedia.org/wiki/Homestead_Technologies");
 
@@ -166338,8 +166358,6 @@ namespace OverflowHelper.core
             URL_Add("lay out_", "https://en.wiktionary.org/wiki/lay_out#Verb");
 
             URL_Add("scope_", "https://en.wiktionary.org/wiki/scope#Noun");
-
-            URL_Add("burninated_", "https://meta.stackoverflow.com/tags/burninate-request/info");
 
             URL_Add("startup_", "https://en.wiktionary.org/wiki/startup#Noun");
 
@@ -169303,8 +169321,6 @@ namespace OverflowHelper.core
 
             URL_Add("nRF_", "https://en.wikipedia.org/wiki/Nordic_Semiconductor#nRF54_Series_SoC");
 
-            URL_Add("STM32 HAL_", "https://stm32world.com/wiki/STM32_HAL");
-
             URL_Add("PDO_", "https://en.wikipedia.org/wiki/CANopen#Process_Data_Object_(PDO)_protocol");
 
             URL_Add("EMCY_", "https://en.wikipedia.org/wiki/CANopen#Emergency_Object_(EMCY)_protocol");
@@ -170141,8 +170157,6 @@ namespace OverflowHelper.core
 
             URL_Add("wear leveling for EEPROM memory emulation in QMK_", "https://docs.qmk.fm/drivers/eeprom#eeprom-driver-configuration");
 
-            URL_Add("burns_", "https://en.wiktionary.org/wiki/burn#Verb");
-
             URL_Add("tweak_", "https://en.wiktionary.org/wiki/tweak#Noun");
 
             URL_Add("Bottleneck_", "https://github.com/kwgoodman/bottleneck");
@@ -170374,6 +170388,14 @@ namespace OverflowHelper.core
             URL_Add("piano_", "https://en.wikipedia.org/wiki/Piano");
 
             URL_Add("guns_", "https://en.wiktionary.org/wiki/gun#Noun");
+
+            URL_Add("HAL_", "https://en.wikipedia.org/wiki/HAL_%28software%29");
+
+            URL_Add("burns_", "https://en.wiktionary.org/wiki/burn#Verb");
+
+            URL_Add("burninated_", "https://meta.stackoverflow.com/tags/burninate-request/info");
+
+            URL_Add("Bureau of Land Management_", "https://en.wikipedia.org/wiki/Bureau_of_Land_Management");
 
         } //addLookupData_alternativeWordSet()
 
@@ -172764,12 +172786,16 @@ namespace OverflowHelper.core
             correctionAdd("forking__", "fucking__");
             correctionAdd("F***ING__", "fucking__");
             correctionAdd("f***ing__", "fucking__");
+            correctionAdd("F*****G__", "fucking__");
+            correctionAdd("f*****g__", "fucking__");
             correctionAdd("F*KiNG__", "fucking__");
             correctionAdd("f*king__", "fucking__");
             correctionAdd("effing__", "fucking__");
             correctionAdd("fuckin__", "fucking__");
             correctionAdd("fuking__", "fucking__");
             correctionAdd("fucken__", "fucking__");
+            correctionAdd("F****g__", "fucking__");
+            correctionAdd("f****g__", "fucking__");
             correctionAdd("F*ing__", "fucking__");
             correctionAdd("f*ing__", "fucking__");
             correctionAdd("fking__", "fucking__");
@@ -175359,6 +175385,15 @@ namespace OverflowHelper.core
 
             correctionAdd("steel__", "steep__"); // A true typo
 
+            // AVR microcontrollers
+            correctionAdd("atmega__", "ATmega__");
+            correctionAdd("ATMega__", "ATmega__");
+            correctionAdd("ATMEGA__", "ATmega__");
+            correctionAdd("Atmega__", "ATmega__");
+            correctionAdd("AtMega__", "ATmega__");
+            correctionAdd("Mega__", "ATmega__");
+            correctionAdd("ATM__", "ATmega__");
+
             // A book. For the reverse
             //
             // We need a better reference...
@@ -176609,6 +176644,8 @@ namespace OverflowHelper.core
             URL_Add("audio power amplifier__", "https://en.wikipedia.org/wiki/Audio_power_amplifier");
 
             URL_Add("Memcached__", "https://en.wikipedia.org/wiki/Memcached");
+
+            URL_Add("ATmega__", "https://en.wikipedia.org/wiki/AVR_microcontrollers#Basic_families");
 
         } //addLookupData_alternativeWordSet2()
 
@@ -179143,6 +179180,9 @@ namespace OverflowHelper.core
 
             correctionAdd("FX___", "audio/MIDI effects___");
 
+            // Embedded systems
+            correctionAdd("HAL___", "STM32 HAL___");
+
             // Of the "B" programming language (also by Dennis Ritchie)
             //
             // Alternative URLs:
@@ -179744,6 +179784,8 @@ namespace OverflowHelper.core
             URL_Add("through-hole construction___", "https://en.wikipedia.org/wiki/Through-hole_technology");
 
             URL_Add("audio/MIDI effects___", "https://en.wikipedia.org/wiki/General_MIDI#Synth_Effects");
+
+            URL_Add("STM32 HAL___", "https://stm32world.com/wiki/STM32_HAL");
 
         } //addLookupData_alternativeWordSet3()
 
