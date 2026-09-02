@@ -26909,6 +26909,7 @@ namespace OverflowHelper.core
             correctionAdd("Cypher", "cipher");
             correctionAdd("cypher", "cipher");
 
+            correctionAdd("dechiffre", "decipher");
             correctionAdd("Decipher", "decipher");
             correctionAdd("decypher", "decipher");
             correctionAdd("decyphre", "decipher");
@@ -35491,6 +35492,8 @@ namespace OverflowHelper.core
             correctionAdd("hacked in Perl", "we hacked most of it together in Perl");
 
             correctionAdd("[citation needed]", "Wikipedian protester");
+            correctionAdd("Citatition needed", "Wikipedian protester");
+            correctionAdd("citatition needed", "Wikipedian protester");
             correctionAdd("citation needed", "Wikipedian protester");
             correctionAdd("Citation needed", "Wikipedian protester");
             correctionAdd("protester", "Wikipedian protester");
@@ -46586,8 +46589,14 @@ namespace OverflowHelper.core
             // A microcontroller development board, e.g., used
             // in QMK mechanical keyboards and macro pads.
             //
-            // Is Pro Micro pin-compatible. Based on ATmega32U4. The
-            // main difference is the USB connector.
+            // Is Pro Micro pin-compatible. Based on ATmega32U4.
+            // The main difference is the USB-C connector.
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/MechanicalKeyboards/comments/dc7hqs/comment/f26etod/>
+            //   <https://1upkeyboards.com/shop/controllers/elite-c-v4-controller/>
+            //   <https://www.diykeyboards.com/parts/product/elite-c>
             //
             correctionAdd("Elite C", "Elite-C");
             correctionAdd("elite c", "Elite-C");
@@ -61352,6 +61361,11 @@ namespace OverflowHelper.core
             //
             //         HID. MIDI. Serial port. QMK.
             //
+            //   <https://docs.qmk.fm/ChangeLog/20260830#extrakey-gamepad>
+            //     "...prevents issues ... misidentify ... as a gamepad."
+            //
+            //     Gamepad. QMK.
+            //
             //   <https://jayliu50.github.io/qmk-cheatsheet/>
             //     A QMK cheat sheet
             //
@@ -66676,11 +66690,12 @@ namespace OverflowHelper.core
             correctionAdd("hidListen", "HID Listen");
             correctionAdd("hdlisten", "HID Listen");
 
-            // USB. For example, related to QMK.
+            // USB. For example, related to QMK: Bidirectional
+            //      communication between QMK and the computer.
             //
             // Alternative URLs:
             //
-            //    <https://docs.qmk.fm/features/rawhid>
+            //    <https://docs.qmk.fm/features/rawhid#raw-hid>
             //
             //    <https://github.com/TeensyUser/doc/wiki/Raw-HID>
             //
@@ -66692,6 +66707,8 @@ namespace OverflowHelper.core
             //       packets of data to and from the host ...
             //       configuration of RGB lighting from
             //       software on the host"
+            //
+            //    <https://www.reddit.com/r/olkb/comments/y0dy3m/comment/irs6mp2/>
             //
             correctionAdd("raw hid", "raw HID");
             correctionAdd("RAW HID", "raw HID");
@@ -79430,6 +79447,7 @@ namespace OverflowHelper.core
 
             correctionAdd("sight reading", "sight-reading");
 
+            correctionAdd("Sheet Music", "sheet music");
             correctionAdd("sheetmusic", "sheet music");
 
             correctionAdd("mintority", "minority");
@@ -99941,6 +99959,7 @@ namespace OverflowHelper.core
 
             // Mac OS X
             correctionAdd("raycast", "Raycast");
+            correctionAdd("RayCast", "Raycast");
 
             // An Apple thing
             correctionAdd("touch ID", "Touch ID");
@@ -100403,7 +100422,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ommitted", "omitted");
             correctionAdd("ommited", "omitted");
-            correctionAdd("onitted", "omitted");
+            correctionAdd("onitted", "omitted"); // A true typo
             correctionAdd("omited", "omitted");
 
             correctionAdd("ommission", "omission");
@@ -154109,6 +154128,7 @@ namespace OverflowHelper.core
             correctionAdd("board_", "keyboard_"); // A shorthand
             correctionAdd("baord_", "keyboard_"); // A true typo (of the shorthand)
             correctionAdd("plank_", "keyboard_"); // Derogatory. Could maybe refer to the keyboard ZSA Planck EZ
+            correctionAdd("kibot_", "keyboard_");
             correctionAdd("keeb_", "keyboard_"); // A shorthand
             correctionAdd("Keeb_", "keyboard_");
             correctionAdd("KEEB_", "keyboard_");
@@ -172340,6 +172360,7 @@ namespace OverflowHelper.core
             correctionAdd("ode an die freude__", "Ode an die Freude__");
             correctionAdd("Anthem of Europe__", "Ode an die Freude__");
             correctionAdd("Ode to Joy__", "Ode an die Freude__");
+            correctionAdd("ode to joy__", "Ode an die Freude__");
             correctionAdd("Europe__", "Ode an die Freude__");
             correctionAdd("freude__", "Ode an die Freude__");
 
