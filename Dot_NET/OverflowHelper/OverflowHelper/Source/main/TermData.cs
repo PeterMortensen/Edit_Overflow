@@ -9528,6 +9528,8 @@ namespace OverflowHelper.core
             correctionAdd("planned time off", "paid time off");
             correctionAdd("PTO", "paid time off");
 
+            correctionAdd("ay", "pay");
+
             correctionAdd("payed", "paid");
             correctionAdd("paied", "paid");
             correctionAdd("piad", "paid");
@@ -15017,6 +15019,7 @@ namespace OverflowHelper.core
             correctionAdd("propertiary", "proprietary");
             correctionAdd("Proprietary", "proprietary");
             correctionAdd("pripriotary", "proprietary");
+            correctionAdd("propriatary", "proprietary");
             correctionAdd("propietary", "proprietary");
             correctionAdd("proriotary", "proprietary");
             correctionAdd("propritary", "proprietary");
@@ -23427,6 +23430,7 @@ namespace OverflowHelper.core
             correctionAdd("goest", "goes");
             correctionAdd("goes'", "goes");
             correctionAdd("gose", "goes");
+            correctionAdd("goea", "goes"); // A true typo
 
             correctionAdd("goning", "going");
             correctionAdd("goung", "going");
@@ -34178,6 +34182,8 @@ namespace OverflowHelper.core
             // Note: "actual" is in an alternative word set...
             correctionAdd("ackchyually", "actually");
             correctionAdd("Ackchyually", "actually");
+            correctionAdd("AKCHUALLYYY", "actually");
+            correctionAdd("akchuallyyy", "actually");
             correctionAdd("ackshually", "actually");
             correctionAdd("actuaslly", "actually");
             correctionAdd("akshually", "actually");
@@ -35535,6 +35541,8 @@ namespace OverflowHelper.core
             correctionAdd("Did you find a solution", "DenverCoder9");
             correctionAdd("ego deletion on Reddit", "DenverCoder9");
             correctionAdd("has left the building", "DenverCoder9");
+            correctionAdd("Thanks for the report", "DenverCoder9");
+            correctionAdd("thanks for the report", "DenverCoder9");
             correctionAdd("the end of the story", "DenverCoder9");
             correctionAdd("never get a response", "DenverCoder9");
             correctionAdd("isn't any resolution", "DenverCoder9");
@@ -55907,7 +55915,9 @@ namespace OverflowHelper.core
             correctionAdd("206 Turbo", "Cessna 206");
 
             // An aircraft
+            correctionAdd("Cessna Citation", "Cessna Citation II");
             correctionAdd("citation", "Cessna Citation II");
+            correctionAdd("Citation", "Cessna Citation II");
 
             // An aircraft
             //
@@ -62212,6 +62222,7 @@ namespace OverflowHelper.core
             correctionAdd("Home Row Modifiers", "home row keyboard modifier keys");
             correctionAdd("home row modifier", "home row keyboard modifier keys");
             correctionAdd("homerow modifiers", "home row keyboard modifier keys");
+            correctionAdd("home row mod-taps", "home row keyboard modifier keys"); // A somewhat more correct name (but it is still jargon)
             correctionAdd("homerow modifier", "home row keyboard modifier keys");
             correctionAdd("home row mods", "home row keyboard modifier keys");
             correctionAdd("Home Row Mods", "home row keyboard modifier keys");
@@ -70365,6 +70376,7 @@ namespace OverflowHelper.core
             correctionAdd("upgrage", "upgrade");
             correctionAdd("Upgrade", "upgrade");
             correctionAdd("upbrade", "upgrade"); // A true typo
+            correctionAdd("ugprade", "upgrade"); // A true typo
             correctionAdd("ugrade", "upgrade");
             correctionAdd("upgade", "upgrade");
             correctionAdd("uprade", "upgrade");
@@ -88655,9 +88667,12 @@ namespace OverflowHelper.core
             // A 88-key (85%. True TKL) crippled low-profile wired
             // and wireless (both Bluetooth and '2.4 GHz')
             // ZMK/Via-capable mechanical keyboard from
-            // Keychron without a knob.
+            // Keychron with a knob.
             //
             // Notes:
+            //
+            //   * Unlike the low-profile K5 Pro and K5 Max, this
+            //     low-profile keyboard ***does*** have a knob
             //
             //   * Based on ZMK, not QMK
             //
@@ -93234,17 +93249,19 @@ namespace OverflowHelper.core
             //   <https://www.keychron.com/blogs/archived/how-to-disassemble-the-k5-pro>
             //     How to disassemble the K5 Pro
             //
-            correctionAdd("Keychron&nbsp;K5&nbsp;Pro", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO");
-            correctionAdd("Keychron K5 Pro ISO", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO"); // Sort of identity mapping
-            correctionAdd("Keychron K5 Pro", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO");
-            correctionAdd("K5&nbsp;Pro", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO");
-            correctionAdd("K5 Pro", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO");
-            correctionAdd("k5 pro", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO");
-            correctionAdd("K5 pro", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO");
-            correctionAdd("K5 Pro", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others). For example, as a result of conversion of &nbsp; at Reddit.
-            correctionAdd("5pro", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO");
-            correctionAdd("K5", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO");
-            correctionAdd("k5", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO");
+            correctionAdd("Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)");
+            correctionAdd("Keychron K5 Pro ISO (105%)", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)"); // Sort of identity mapping
+            correctionAdd("Keychron&nbsp;K5&nbsp;Pro", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)");
+            correctionAdd("Keychron K5 Pro ISO", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)"); // Sort of identity mapping
+            correctionAdd("Keychron K5 Pro", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)");
+            correctionAdd("K5&nbsp;Pro", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)");
+            correctionAdd("K5 Pro", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)");
+            correctionAdd("k5 pro", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)");
+            correctionAdd("K5 pro", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)");
+            correctionAdd("K5 Pro", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others). For example, as a result of conversion of &nbsp; at Reddit.
+            correctionAdd("5pro", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)");
+            correctionAdd("K5", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)");
+            correctionAdd("k5", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)");
 
             // A 109-key (105%. Not true TKL) full-size low-profile
             // wired and wireless (both Bluetooth and '2.4 GHz')
@@ -93328,6 +93345,9 @@ namespace OverflowHelper.core
             correctionAdd("K5 max", "Keychron&nbsp;K5&nbsp;Max");
             correctionAdd("K5 Max", "Keychron&nbsp;K5&nbsp;Max");
             correctionAdd("k5 Max", "Keychron&nbsp;K5&nbsp;Max");
+
+            correctionAdd("Keychron K5 Ultra 8K (105%)", "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)"); // Sort of identity mapping
+            correctionAdd("K5 Ultra 8K", "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)");
 
             // A 109-key (105%. Not true TKL) full-size wired
             // and wireless (only Bluetooth) QMK/Via-capable
@@ -96880,6 +96900,7 @@ namespace OverflowHelper.core
 
             correctionAdd("absoulte", "absolute");
             correctionAdd("absolut", "absolute");
+            correctionAdd("sbolute", "absolute"); // Multiple typos...
 
             correctionAdd("absoluteley", "absolutely");
             correctionAdd("absolutley", "absolutely");
@@ -96889,6 +96910,7 @@ namespace OverflowHelper.core
             correctionAdd("absoluely", "absolutely");
             correctionAdd("abolutely", "absolutely");
             correctionAdd("absolutel", "absolutely");
+            correctionAdd("sbilutely", "absolutely"); // Multiple typos...
 
             correctionAdd("codingame", "CodinGame");
 
@@ -111538,8 +111560,6 @@ namespace OverflowHelper.core
             URL_Add("low-code development platform", "https://en.wikipedia.org/wiki/Low-code_development_platform");
 
             URL_Add("no-code development platform", "https://en.wikipedia.org/wiki/No-code_development_platform");
-
-            URL_Add("paid", "https://en.wiktionary.org/wiki/pay#Verb"); // Old: https://en.wiktionary.org/wiki/pay#English
 
             URL_Add("Cypress", "https://www.cypress.io/");
 
@@ -144125,7 +144145,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;K4&nbsp;Pro", "https://www.keychron.com/products/keychron-k4-pro-qmk-via-wireless-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO", "https://www.keychron.com/products/keychron-k5-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)", "https://www.keychron.com/products/keychron-k5-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
             URL_Add("Keychron&nbsp;K6&nbsp;Pro", "https://www.keychron.com/products/keychron-k6-pro-qmk-via-wireless-custom-mechanical-keyboard");
 
@@ -144182,6 +144202,8 @@ namespace OverflowHelper.core
             URL_Add("Keychron&nbsp;K1&nbsp;Ultra&nbsp;8K (85%)", "https://www.keychron.com/products/keychron-k1-ultra-8k-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K", "https://www.keychron.com/pages/k3he-k3-ultra-prelaunch-organic");
+
+            URL_Add("Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)", "https://www.keychron.com/products/keychron-k5-ultra-8k-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron&nbsp;K8&nbsp;Ultra&nbsp;8K (85%)", "https://www.keychron.com/products/keychron-k8-ultra-8k-wireless-custom-mechanical-keyboard");
 
@@ -149623,6 +149645,10 @@ namespace OverflowHelper.core
 
             URL_Add("Burp Suite", "https://en.wikipedia.org/wiki/White_hat_(computer_security)#Tactics");
 
+            URL_Add("pay", "https://en.wiktionary.org/wiki/pay#Verb");
+
+            URL_Add("paid", "https://en.wiktionary.org/wiki/pay#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -153473,6 +153499,13 @@ namespace OverflowHelper.core
             correctionAdd("OSL_", "one-shot layer keys_");
             correctionAdd("osl_", "one-shot layer keys_");
 
+            // Essential turning keyboard modifier keys (Shift, Ctrl, Alt,
+            // AltGr, and Win) into dual-role keys:
+            //
+            //   Tap the key:  Some other function
+            //
+            //   Hold the key: Original function
+            //
             // QMK. A feature? Or part of the tap dance feature?
             //
             // Alternative URLs:
@@ -159277,6 +159310,8 @@ namespace OverflowHelper.core
             correctionAdd("spanis_", "Spanish_");
             correctionAdd("ES_", "Spanish_");
 
+            correctionAdd("Portuguessee_", "Portuguese_");
+            correctionAdd("portuguessee_", "Portuguese_");
             correctionAdd("portuguese_", "Portuguese_");
             correctionAdd("Purtiguise_", "Portuguese_");
             correctionAdd("Portuguise_", "Portuguese_");
@@ -163497,6 +163532,13 @@ namespace OverflowHelper.core
 
             correctionAdd("T4_", "type 4 driver_");
 
+            // Compartment at the front of a train for the driver
+            correctionAdd("cab_", "driver's compartment_");
+
+            // Electronics
+            correctionAdd("coaxial cable_", "coax_");
+            correctionAdd("co-ax_", "coax_");
+
             correctionAdd("esay_", "essay_");
 
             correctionAdd("sight_", "site_");
@@ -165297,10 +165339,6 @@ namespace OverflowHelper.core
             correctionAdd("Focus_", "focus_");
 
             correctionAdd("Stem_", "stem_");
-
-            // Electronics
-            correctionAdd("coaxial cable_", "coax_");
-            correctionAdd("co-ax_", "coax_");
 
             correctionAdd("executation_", "execution_");
             correctionAdd("EXECUTATION_", "execution_");
@@ -170417,6 +170455,8 @@ namespace OverflowHelper.core
 
             URL_Add("Bureau of Land Management_", "https://en.wikipedia.org/wiki/Bureau_of_Land_Management");
 
+            URL_Add("driver's compartment_", "https://en.wiktionary.org/wiki/driver%27s_compartment#Noun");
+
         } //addLookupData_alternativeWordSet()
 
 
@@ -174695,6 +174735,7 @@ namespace OverflowHelper.core
             // For the cross-reference to the source code
             // Note: In Git branch "wireless_playground"
             //
+            correctionAdd("Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)__", "Keychron K5 Pro source code__");
             correctionAdd("Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO__", "Keychron K5 Pro source code__");
             correctionAdd("Keychron K5 Pro ISO__", "Keychron K5 Pro source code__");
 
@@ -175414,6 +175455,8 @@ namespace OverflowHelper.core
             correctionAdd("AtMega__", "ATmega__");
             correctionAdd("Mega__", "ATmega__");
             correctionAdd("ATM__", "ATmega__");
+
+            correctionAdd("staring__", "starring__");
 
             // A book. For the reverse
             //
@@ -176667,6 +176710,8 @@ namespace OverflowHelper.core
             URL_Add("Memcached__", "https://en.wikipedia.org/wiki/Memcached");
 
             URL_Add("ATmega__", "https://en.wikipedia.org/wiki/AVR_microcontrollers#Basic_families");
+
+            URL_Add("starring__", "https://en.wiktionary.org/wiki/star#Verb");
 
         } //addLookupData_alternativeWordSet2()
 
@@ -178321,6 +178366,7 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/k5_pro/iso/rgb/info.json#L3>
             //
+            correctionAdd("Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)___", "Keychron K5 Pro, ISO RGB backlight variant (USB 0x3434/0x0251)___");
             correctionAdd("Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO___", "Keychron K5 Pro, ISO RGB backlight variant (USB 0x3434/0x0251)___");
             correctionAdd("Keychron K5 Pro ISO___", "Keychron K5 Pro, ISO RGB backlight variant (USB 0x3434/0x0251)___"); // Note: We can only cross-reference one of the variants...
             correctionAdd("K5P-H3-BO___", "Keychron K5 Pro, ISO RGB backlight variant (USB 0x3434/0x0251)___");
@@ -180658,6 +180704,7 @@ namespace OverflowHelper.core
             // For the cross-reference to the default keymap
             // Note: In Git branch "wireless_playground"
             //
+            correctionAdd("Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)____", "Keychron K5 Pro default keymap (ISO RGB)____");
             correctionAdd("Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO____", "Keychron K5 Pro default keymap (ISO RGB)____");
             correctionAdd("K5 Pro default keymap____", "Keychron K5 Pro default keymap (ISO RGB)____");
             correctionAdd("Keychron K5 Pro ISO____", "Keychron K5 Pro default keymap (ISO RGB)____");
