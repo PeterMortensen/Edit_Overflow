@@ -1326,11 +1326,15 @@ namespace OverflowHelper.core
 
             correctionAdd("Male", "male");
 
+            correctionAdd("femenine", "feminine");
+
             correctionAdd("Female", "female");
 
             correctionAdd("femails", "females");
 
-            correctionAdd("femenine", "feminine");
+            correctionAdd("Girls", "girls");
+            correctionAdd("Girlz", "girls");
+            correctionAdd("girlz", "girls");
 
             correctionAdd("wuman", "woman");
 
@@ -51277,6 +51281,7 @@ namespace OverflowHelper.core
             correctionAdd("garbadge", "garbage");
             correctionAdd("gabarge", "garbage");
             correctionAdd("garbik", "garbage");
+            correctionAdd("garbo", "garbage");
 
             correctionAdd("GIGO", "garbage in, garbage out");
 
@@ -74058,6 +74063,7 @@ namespace OverflowHelper.core
             correctionAdd("communest", "communist");
             correctionAdd("comunest", "communist");
             correctionAdd("comunist", "communist");
+            correctionAdd("Comunist", "communist");
 
             // Marxism
             correctionAdd("karl marx", "Karl Marx");
@@ -85301,6 +85307,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("q65 max", "Keychron Q65 Max");
             correctionAdd("Q65 Max", "Keychron Q65 Max");
+            correctionAdd("Q65 MAX", "Keychron Q65 Max");
             correctionAdd("Q65", "Keychron Q65 Max"); // For the cross-reference
 
             // Q1 Max source code (only released 2024-01-11. 74B084.
@@ -85975,6 +85982,7 @@ namespace OverflowHelper.core
             correctionAdd("Keychron Q1 Ultra 8K", "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K"); // Sort of identity mapping
             correctionAdd("Q1 Ultra 8K", "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K");
             correctionAdd("Q1 Ultra 8k", "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K");
+            correctionAdd("Q1 Ulta 8k", "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K");
             correctionAdd("Q1 Ultra", "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K");
             correctionAdd("Q1 ultra", "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K");
 
@@ -110026,10 +110034,6 @@ namespace OverflowHelper.core
 
             URL_Add("amend", "https://en.wiktionary.org/wiki/amend#Verb");
 
-            URL_Add("females", "https://en.wiktionary.org/wiki/female#Noun");
-
-            URL_Add("women", "https://en.wiktionary.org/wiki/woman#Noun");
-
             URL_Add("JMeter", "https://en.wikipedia.org/wiki/Apache_JMeter");
 
             URL_Add("New York", "https://en.wikipedia.org/wiki/New_York_City");
@@ -111535,6 +111539,14 @@ namespace OverflowHelper.core
             URL_Add("double", "https://en.wiktionary.org/wiki/double#Adjective");
 
             URL_Add("feminine", "https://en.wiktionary.org/wiki/feminine#Adjective");
+
+            URL_Add("girls", "https://en.wiktionary.org/wiki/girl#Noun");
+
+            URL_Add("females", "https://en.wiktionary.org/wiki/female#Noun");
+
+            URL_Add("woman", "https://en.wiktionary.org/wiki/woman#Noun");
+
+            URL_Add("women", "https://en.wiktionary.org/wiki/woman#Noun");
 
             URL_Add("forensics", "https://en.wiktionary.org/wiki/forensics#Noun");
 
@@ -142592,8 +142604,6 @@ namespace OverflowHelper.core
 
             URL_Add("missile", "https://en.wiktionary.org/wiki/missile#Noun");
 
-            URL_Add("woman", "https://en.wiktionary.org/wiki/woman#Noun");
-
             URL_Add("leak", "https://en.wiktionary.org/wiki/leak#Verb");
 
             URL_Add("leakage current", "https://en.wiktionary.org/wiki/leakage_current#Noun");
@@ -172937,6 +172947,7 @@ namespace OverflowHelper.core
             correctionAdd("fekin__", "fucking__");
             correctionAdd("effin__", "fucking__");
             correctionAdd("F'ing__", "fucking__");
+            correctionAdd("fckin__", "fucking__");
             correctionAdd("Fkin__", "fucking__");
             correctionAdd("fkin__", "fucking__");
             correctionAdd("fckn__", "fucking__");
