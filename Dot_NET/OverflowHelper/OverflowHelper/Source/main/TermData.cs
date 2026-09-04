@@ -2420,6 +2420,9 @@ namespace OverflowHelper.core
 
             correctionAdd("type-less", "typeless");
 
+            correctionAdd("worth less", "worthless");
+            correctionAdd("Worth Less", "worthless");
+
             // Web development, e.g. CSS.: Web broser
             // compatibility and supported features
             correctionAdd("caniuse.com", "Can I use");
@@ -64852,6 +64855,41 @@ namespace OverflowHelper.core
             correctionAdd("tarmak", "Tarmak keyboard layout");
             correctionAdd("Tarmak", "Tarmak keyboard layout");
 
+            // Similar to the Colemak keyboard layout. Also
+            // suitable to German, Dutch, Spanish, and French
+            //
+            // Alternative URLs:
+            //
+            //   <https://kbd.news/Anymak-the-compatible-ergonomic-keyboard-layout-2574.html>
+            //     Anymak - the compatible ergonomic keyboard layout
+            //
+            //     Part 2 of 3.
+            //
+            //   <https://kbd.news/END-my-final-keyboard-layout-2609.html>
+            //     END - my final keyboard layout
+            //
+            //     Part 3 of 3.
+            //
+            //   <https://github.com/rpnfan/Anymak>
+            //
+            //   <https://github.com/rpnfan/Spacemak>
+            //     Spacemak: A light version of Anymak
+            //
+            //   <https://rpnfan.github.io/keyboard-heaven/after-party/keyboard-journey/>
+            //     My Keyboard Journey — From QWERTZ to anymak:END
+            //
+            //   <https://rpnfan.github.io/keyboard-heaven/how-to/>
+            //     Tips how to realize your custom keyboard layout and more.
+            //
+            //   <https://rpnfan.github.io/keyboard-heaven/>
+            //
+            //   <https://rpnfan.github.io/keyboard-heaven/deep-dive/>
+            //
+            correctionAdd("spacemak", "Anymak keyboard layout");
+            correctionAdd("Spacemak", "Anymak keyboard layout");
+            correctionAdd("Anymak", "Anymak keyboard layout");
+            correctionAdd("anymak", "Anymak keyboard layout");
+
             // A keyboard layout
             correctionAdd("Dvorak layout", "Dvorak keyboard layout");
             correctionAdd("Dvevorak", "Dvorak keyboard layout");
@@ -85737,6 +85775,7 @@ namespace OverflowHelper.core
             correctionAdd("moonlander", "ZSA Moonlander Mark I");
             correctionAdd("Mainlander", "ZSA Moonlander Mark I");
             correctionAdd("Monnlander", "ZSA Moonlander Mark I");
+            correctionAdd("molander", "ZSA Moonlander Mark I");
 
             // A 80-key (75%. Not true TKL) crippled
             // split ergonomic mechanical keyboard.
@@ -91910,6 +91949,7 @@ namespace OverflowHelper.core
             correctionAdd("steel series", "SteelSeries Apex Pro");
             correctionAdd("SteelSeries", "SteelSeries Apex Pro"); // Not 100% correct, but a representative of the vendor
             correctionAdd("Steelseries", "SteelSeries Apex Pro"); // Not 100% correct
+            correctionAdd("SteelSeires", "SteelSeries Apex Pro"); // A true typo
             correctionAdd("apex pro", "SteelSeries Apex Pro");
             correctionAdd("apex7", "SteelSeries Apex Pro"); // Not 100% correct, but a representative of the SteelSeries keyboard series. Is "SteelSeries Apex 7". <https://www.tomshardware.com/reviews/steelseries-apex_7-keyboard,6291.html>
 
@@ -133171,8 +133211,6 @@ namespace OverflowHelper.core
 
             URL_Add("tarball", "https://en.wikipedia.org/wiki/Tar_(computing)");
 
-            URL_Add("Tarmak keyboard layout", "https://forum.colemak.com/topic/1858-learn-colemak-in-steps-with-the-tarmak-layouts/");
-
             URL_Add("bogeyman", "https://en.wiktionary.org/wiki/bogeyman#Noun");
 
             URL_Add("FileUpload", "https://commons.apache.org/proper/commons-fileupload/");
@@ -142279,6 +142317,8 @@ namespace OverflowHelper.core
 
             URL_Add("typeless", "https://en.wiktionary.org/wiki/typeless#Adjective");
 
+            URL_Add("worthless", "https://en.wiktionary.org/wiki/worthless#Adjective");
+
             URL_Add("passwordless", "https://en.wiktionary.org/wiki/passwordless#Adjective");
 
             URL_Add("branchless", "https://en.wiktionary.org/wiki/branchless#Adjective");
@@ -145466,6 +145506,10 @@ namespace OverflowHelper.core
             URL_Add("Colemak keyboard layout", "https://en.wikipedia.org/wiki/Colemak");
 
             URL_Add("Colemak Mod-DH keyboard layout", "https://colemakmods.github.io/mod-dh/");
+
+            URL_Add("Tarmak keyboard layout", "https://forum.colemak.com/topic/1858-learn-colemak-in-steps-with-the-tarmak-layouts/");
+
+            URL_Add("Anymak keyboard layout", "https://kbd.news/A-r-evolutionary-approach-to-improve-on-the-standard-keyboard-layout-2559.html");
 
             URL_Add("Dvorak keyboard layout", "https://en.wikipedia.org/wiki/Dvorak_keyboard_layout");
 
@@ -150935,6 +150979,7 @@ namespace OverflowHelper.core
             correctionAdd("trow_", "throw_");
 
             correctionAdd("flatlined_", "killed_");
+            correctionAdd("cancelled_", "killed_");
             correctionAdd("windowed_", "killed_");
             correctionAdd("Killed_", "killed_");
             correctionAdd("K*LLED_", "killed_");
@@ -161507,6 +161552,7 @@ namespace OverflowHelper.core
 
             correctionAdd("tot_", "toddler_");
 
+            correctionAdd("manufactororing_", "manufacturing_");
             correctionAdd("manufactoring_", "manufacturing_");
             correctionAdd("Manufactoring_", "manufacturing_");
             correctionAdd("manufaturing_", "manufacturing_");
@@ -162362,6 +162408,8 @@ namespace OverflowHelper.core
 
             correctionAdd("sereies_", "series_");
             correctionAdd("seriesc_", "series_"); // A true typo (involving the space bar before the next word)
+            correctionAdd("Seires_", "series_"); // A true typo
+            correctionAdd("seires_", "series_"); // A true typo
             correctionAdd("serie_", "series_");
 
             // The noun
@@ -175456,6 +175504,7 @@ namespace OverflowHelper.core
             correctionAdd("Mega__", "ATmega__");
             correctionAdd("ATM__", "ATmega__");
 
+            // E.g., in a film
             correctionAdd("staring__", "starring__");
 
             // A book. For the reverse
