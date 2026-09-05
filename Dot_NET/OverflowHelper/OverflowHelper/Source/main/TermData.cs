@@ -20594,6 +20594,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Unconditioonally", "unconditionally");
             correctionAdd("unconditioonally", "unconditionally");
+            correctionAdd("Uncondiotionally", "unconditionally");
+            correctionAdd("uncondiotionally", "unconditionally");
             correctionAdd("inconditionally", "unconditionally");
             correctionAdd("Unconditionnaly", "unconditionally");
             correctionAdd("unconditionnaly", "unconditionally");
@@ -72681,6 +72683,7 @@ namespace OverflowHelper.core
             correctionAdd("Transmac", "TransMac");
 
             correctionAdd("facilites", "facilities");
+            correctionAdd("faculties", "facilities"); // Multiple typos... Possibly also autocorrect
 
             correctionAdd("genieuine", "genuine");
             correctionAdd("genuene", "genuine");
@@ -74806,6 +74809,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Ba'hai", "Baháʼí");
 
+            // Note: "god" is in an alternative word set
             correctionAdd("god-like", "godlike");
 
             correctionAdd("unGodly", "ungodly");
@@ -89520,6 +89524,7 @@ namespace OverflowHelper.core
             correctionAdd("Q11 Ultra 8K", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)");
             correctionAdd("Q11 Ultra", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)");
             correctionAdd("Q11 ultra", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)");
+            correctionAdd("q11 Ultra", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)");
 
             // A 91-key (85%. Not true TKL) crippled low-profile
             // wired and wireless (only Bluetooth) QMK/Via-capable
@@ -106957,6 +106962,9 @@ namespace OverflowHelper.core
             // The (common) verb, not simulated intelligence
             correctionAdd("Watermarking", "watermarking");
 
+            // Self-curing (24 hours) adhesive silicone rubber
+            correctionAdd("sugru", "Sugru");
+
             correctionAdd("pissig", "pissing");
 
             correctionAdd("p***ed", "pissed");
@@ -108077,8 +108085,6 @@ namespace OverflowHelper.core
             URL_Add("jqGrid", "http://www.trirand.com/jqgridwiki/doku.php?id=start");
 
             URL_Add("hard disk drive", "https://en.wikipedia.org/wiki/Hard_disk_drive");
-
-            URL_Add("GoDaddy", "https://en.wikipedia.org/wiki/GoDaddy");
 
             URL_Add("MD5", "https://en.wikipedia.org/wiki/MD5");
 
@@ -121014,10 +121020,6 @@ namespace OverflowHelper.core
 
             URL_Add("encoded", "https://en.wiktionary.org/wiki/encode#Verb");
 
-            URL_Add("As-salamu alaykum", "https://en.wikipedia.org/wiki/As-salamu_alaykum");
-
-            URL_Add("godlike", "https://en.wiktionary.org/wiki/godlike#Adjective");
-
             URL_Add("overformatted", "https://en.wiktionary.org/wiki/overformat#Verb");
 
             URL_Add("left-hand", "https://en.wiktionary.org/wiki/left-hand#Adjective");
@@ -126021,16 +126023,6 @@ namespace OverflowHelper.core
             URL_Add("home schooled", "https://en.wiktionary.org/wiki/home_school#Verb");
 
             URL_Add("OLED", "https://en.wikipedia.org/wiki/OLED");
-
-            URL_Add("damn", "https://en.wiktionary.org/wiki/damn#Adjective");
-
-            URL_Add("damned", "https://en.wiktionary.org/wiki/damned#Adjective");
-
-            URL_Add("damn it", "https://en.wiktionary.org/wiki/damn_it#Interjection");
-
-            URL_Add("goddamn", "https://en.wiktionary.org/wiki/goddamn#Adjective");
-
-            URL_Add("give a damn", "https://en.wiktionary.org/wiki/give_a_damn#Verb");
 
             URL_Add("incident", "https://en.wiktionary.org/wiki/incident#Noun");
 
@@ -131534,20 +131526,6 @@ namespace OverflowHelper.core
 
             URL_Add("hypocritical", "https://en.wiktionary.org/wiki/hypocritical#Adjective");
 
-            URL_Add("God knows", "https://en.wiktionary.org/wiki/God_knows#Phrase");
-
-            URL_Add("God only knows", "https://en.wiktionary.org/wiki/God_only_knows#Phrase");
-
-            URL_Add("honest-to-God", "https://en.wiktionary.org/wiki/honest-to-God#Adjective");
-
-            URL_Add("for the love of God", "https://en.wiktionary.org/wiki/for_the_love_of_God#Prepositional_phrase");
-
-            URL_Add("I swear to God", "https://en.wiktionary.org/wiki/swear_to_God#Verb");
-
-            URL_Add("god object", "https://en.wikipedia.org/wiki/God_object");
-
-            URL_Add("Godwin's law", "https://en.wikipedia.org/wiki/Godwin's_law");
-
             URL_Add("axes", "https://en.wiktionary.org/wiki/axis#Noun");
 
             URL_Add("x-axis", "https://en.wiktionary.org/wiki/x-axis#Noun");
@@ -132479,8 +132457,6 @@ namespace OverflowHelper.core
             URL_Add("Unity", "https://en.wikipedia.org/wiki/Unity_(game_engine)");
 
             URL_Add("Unity Hub", "https://en.wikipedia.org/wiki/Unity_(game_engine)#Unity_(2017%E2%80%93present)");
-
-            URL_Add("Godot", "https://en.wikipedia.org/wiki/Godot_(game_engine)");
 
             URL_Add("GDScript", "https://en.wikipedia.org/wiki/Godot_(game_engine)#GDScript");
 
@@ -141238,10 +141214,6 @@ namespace OverflowHelper.core
 
             URL_Add("Bronze Age", "https://en.wikipedia.org/wiki/Bronze_Age");
 
-            URL_Add("space-related", "https://en.wikipedia.org/wiki/List_of_spaceflight-related_accidents_and_incidents");
-
-            URL_Add("Goddard Space Flight Center", "https://en.wikipedia.org/wiki/Goddard_Space_Flight_Center");
-
             URL_Add("honouring", "https://en.wiktionary.org/wiki/honour#Verb");
 
             URL_Add("honourable", "https://en.wiktionary.org/wiki/honourable#Adjective");
@@ -149716,6 +149688,44 @@ namespace OverflowHelper.core
 
             URL_Add("Manjaro", "https://en.wikipedia.org/wiki/Manjaro");
 
+            URL_Add("As-salamu alaykum", "https://en.wikipedia.org/wiki/As-salamu_alaykum");
+
+            URL_Add("godlike", "https://en.wiktionary.org/wiki/godlike#Adjective");
+
+            URL_Add("God knows", "https://en.wiktionary.org/wiki/God_knows#Phrase");
+
+            URL_Add("God only knows", "https://en.wiktionary.org/wiki/God_only_knows#Phrase");
+
+            URL_Add("honest-to-God", "https://en.wiktionary.org/wiki/honest-to-God#Adjective");
+
+            URL_Add("for the love of God", "https://en.wiktionary.org/wiki/for_the_love_of_God#Prepositional_phrase");
+
+            URL_Add("god object", "https://en.wikipedia.org/wiki/God_object");
+
+            URL_Add("I swear to God", "https://en.wiktionary.org/wiki/swear_to_God#Verb");
+
+            URL_Add("goddamn", "https://en.wiktionary.org/wiki/goddamn#Adjective");
+
+            URL_Add("damn", "https://en.wiktionary.org/wiki/damn#Adjective");
+
+            URL_Add("damned", "https://en.wiktionary.org/wiki/damned#Adjective");
+
+            URL_Add("damn it", "https://en.wiktionary.org/wiki/damn_it#Interjection");
+
+            URL_Add("give a damn", "https://en.wiktionary.org/wiki/give_a_damn#Verb");
+
+            URL_Add("space-related", "https://en.wikipedia.org/wiki/List_of_spaceflight-related_accidents_and_incidents");
+
+            URL_Add("GoDaddy", "https://en.wikipedia.org/wiki/GoDaddy");
+
+            URL_Add("Godot", "https://en.wikipedia.org/wiki/Godot_(game_engine)");
+
+            URL_Add("Goddard Space Flight Center", "https://en.wikipedia.org/wiki/Goddard_Space_Flight_Center");
+
+            URL_Add("Godwin's law", "https://en.wikipedia.org/wiki/Godwin's_law");
+
+            URL_Add("Sugru", "https://en.wikipedia.org/wiki/Sugru");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -150392,6 +150402,9 @@ namespace OverflowHelper.core
             correctionAdd("telegram_", "Telegram Messenger_");
             correctionAdd("Tg_", "Telegram Messenger_");
             correctionAdd("TG_", "Telegram Messenger_");
+
+            correctionAdd("God_", "god_");
+            correctionAdd("GOG_", "god_");
 
             correctionAdd("librabries_", "libraries_");
             correctionAdd("linbraries_", "libraries_");
@@ -154929,6 +154942,7 @@ namespace OverflowHelper.core
             correctionAdd("ScrLK_", "Scroll Lock key_");
             correctionAdd("scrLk_", "Scroll Lock key_");
             correctionAdd("ScrLk_", "Scroll Lock key_"); // The official short version
+            correctionAdd("sclk_", "Scroll Lock key_");
 
             // A key on a keyboard. AKA as the Break key
             //
@@ -157523,34 +157537,35 @@ namespace OverflowHelper.core
             //   <https://www.youtube.com/shorts/k2JREZE6QX4>
             //     Apparently, the "B" key is blinking in red at low battery
             //
-            correctionAdd("K2 HE Special Edition_", "Keychron&nbsp;K2&nbsp;HE_");
-            correctionAdd("K2 HE Special Ed_", "Keychron&nbsp;K2&nbsp;HE_");
-            correctionAdd("Keychrone K2 HE_", "Keychron&nbsp;K2&nbsp;HE_");
-            correctionAdd("keychron k2 he_", "Keychron&nbsp;K2&nbsp;HE_");
-            correctionAdd("keychron k2 HE_", "Keychron&nbsp;K2&nbsp;HE_");
-            correctionAdd("Keychron k2 He_", "Keychron&nbsp;K2&nbsp;HE_");
-            correctionAdd("Keychron K2 HE_", "Keychron&nbsp;K2&nbsp;HE_"); // Sort of identity mapping
-            correctionAdd("Keychain K2 HE_", "Keychron&nbsp;K2&nbsp;HE_");
-            correctionAdd("Keychron K2HE_", "Keychron&nbsp;K2&nbsp;HE_");
-            correctionAdd("Keychain H2_", "Keychron&nbsp;K2&nbsp;HE_");
-            correctionAdd("K HE series_", "Keychron&nbsp;K2&nbsp;HE_"); // For the cross-reference
-            correctionAdd("K2&nbsp;HE_", "Keychron&nbsp;K2&nbsp;HE_");
-            correctionAdd("KC K2 HE_", "Keychron&nbsp;K2&nbsp;HE_");
-            correctionAdd("K2 he se_", "Keychron&nbsp;K2&nbsp;HE_");
-            correctionAdd("K2 HE SE_", "Keychron&nbsp;K2&nbsp;HE_");
-            correctionAdd("K2HE SE_", "Keychron&nbsp;K2&nbsp;HE_");
-            correctionAdd("HE K2_", "Keychron&nbsp;K2&nbsp;HE_");
-            correctionAdd("H2 HE_", "Keychron&nbsp;K2&nbsp;HE_");
-            correctionAdd("H2 he_", "Keychron&nbsp;K2&nbsp;HE_");
-            correctionAdd("k2 he_", "Keychron&nbsp;K2&nbsp;HE_");
-            correctionAdd("K2 he_", "Keychron&nbsp;K2&nbsp;HE_");
-            correctionAdd("k2 He_", "Keychron&nbsp;K2&nbsp;HE_");
-            correctionAdd("K2 He_", "Keychron&nbsp;K2&nbsp;HE_");
-            correctionAdd("k2 HE_", "Keychron&nbsp;K2&nbsp;HE_");
-            correctionAdd("K2 HE_", "Keychron&nbsp;K2&nbsp;HE_");
-            correctionAdd("k2he_", "Keychron&nbsp;K2&nbsp;HE_");
-            correctionAdd("K2HE_", "Keychron&nbsp;K2&nbsp;HE_");
-            correctionAdd("H2_", "Keychron&nbsp;K2&nbsp;HE_");
+            correctionAdd("Keychron&nbsp;K2&nbsp;HE_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
+            correctionAdd("K2 HE Special Edition_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
+            correctionAdd("K2 HE Special Ed_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
+            correctionAdd("Keychrone K2 HE_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
+            correctionAdd("keychron k2 he_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
+            correctionAdd("keychron k2 HE_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
+            correctionAdd("Keychron k2 He_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
+            correctionAdd("Keychron K2 HE_", "Keychron&nbsp;K2&nbsp;HE (80%)_"); // Sort of identity mapping
+            correctionAdd("Keychain K2 HE_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
+            correctionAdd("Keychron K2HE_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
+            correctionAdd("Keychain H2_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
+            correctionAdd("K HE series_", "Keychron&nbsp;K2&nbsp;HE (80%)_"); // For the cross-reference
+            correctionAdd("K2&nbsp;HE_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
+            correctionAdd("KC K2 HE_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
+            correctionAdd("K2 he se_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
+            correctionAdd("K2 HE SE_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
+            correctionAdd("K2HE SE_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
+            correctionAdd("HE K2_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
+            correctionAdd("H2 HE_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
+            correctionAdd("H2 he_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
+            correctionAdd("k2 he_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
+            correctionAdd("K2 he_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
+            correctionAdd("k2 He_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
+            correctionAdd("K2 He_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
+            correctionAdd("k2 HE_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
+            correctionAdd("K2 HE_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
+            correctionAdd("k2he_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
+            correctionAdd("K2HE_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
+            correctionAdd("H2_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
 
             // A 85-key (80%. Not true TKL) crippled low-profile wired
             // and wireless (only Bluetooth) mechanical keyboard
@@ -163196,11 +163211,6 @@ namespace OverflowHelper.core
             correctionAdd("docker_", "Docker (tag wiki)_");
             correctionAdd("Docker_", "Docker (tag wiki)_");
 
-            correctionAdd("[tag:mongodb]_", "MongoDB (tag wiki)_");
-            correctionAdd("tag:mongodb_", "MongoDB (tag wiki)_");
-            correctionAdd("mongodb_", "MongoDB (tag wiki)_");
-            correctionAdd("MongoDB_", "MongoDB (tag wiki)_");
-
             correctionAdd("[tag:ffmpeg]_", "FFmpeg (tag wiki)_");
             correctionAdd("tag:ffmpeg_", "FFmpeg (tag wiki)_");
             correctionAdd("ffmpeg_", "FFmpeg (tag wiki)_");
@@ -163524,6 +163534,11 @@ namespace OverflowHelper.core
             correctionAdd("tag:react-native_", "React Native (tag wiki)_");
             correctionAdd("react-native_", "React Native (tag wiki)_");
             correctionAdd("React Native_", "React Native (tag wiki)_");
+
+            correctionAdd("[tag:mongodb]_", "MongoDB (tag wiki)_");
+            correctionAdd("tag:mongodb_", "MongoDB (tag wiki)_");
+            correctionAdd("mongodb_", "MongoDB (tag wiki)_");
+            correctionAdd("MongoDB_", "MongoDB (tag wiki)_");
 
             //// Wrong URL... It should be:
             //
@@ -165814,6 +165829,7 @@ namespace OverflowHelper.core
             correctionAdd("lingustic_", "linguistic_");
 
             // The verb
+            correctionAdd("3-d print_", "3D print_");
             correctionAdd("3d print_", "3D print_");
 
             correctionAdd("transparant_", "transparent_");
@@ -166298,8 +166314,6 @@ namespace OverflowHelper.core
 
             URL_Add("dBase (tag wiki)_", "https://stackoverflow.com/questions/tagged/dbase");
 
-            URL_Add("MongoDB (tag wiki)_", "https://stackoverflow.com/questions/tagged/mongodb");
-
             URL_Add("FoxPro (tag wiki)_", "https://stackoverflow.com/questions/tagged/foxpro");
 
             URL_Add("SQL (tag wiki)_", "https://stackoverflow.com/questions/tagged/sql");
@@ -166381,6 +166395,10 @@ namespace OverflowHelper.core
             URL_Add("React (tag wiki)_", "https://stackoverflow.com/questions/tagged/react");
 
             URL_Add("React Native (tag wiki)_", "https://stackoverflow.com/questions/tagged/react-native");
+
+            URL_Add("MongoDB (tag wiki)_", "https://stackoverflow.com/questions/tagged/mongodb");
+
+            URL_Add("MongoDB Atlas_", "https://en.wikipedia.org/wiki/MongoDB#MongoDB_Atlas");
 
             //URL_Add("Zephyr RTOS (tag wiki)_", "https://stackoverflow.com/questions/tagged/zephyr-rtos");
             //
@@ -167048,6 +167066,10 @@ namespace OverflowHelper.core
 
             URL_Add("descending_", "https://en.wiktionary.org/wiki/descend#Verb");
 
+            URL_Add("god_", "https://en.wiktionary.org/wiki/god#Noun");
+
+            URL_Add("Godbolt_", "https://github.com/mattgodbolt/compiler-explorer");
+
             URL_Add("ErgoDox EZ_", "https://ergodox-ez.com/");
 
             URL_Add("no key action keycode (KC_NO. QMK. 0 (decimal). 00 (hexadecimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
@@ -167463,8 +167485,6 @@ namespace OverflowHelper.core
             URL_Add("sine_", "https://en.wiktionary.org/wiki/sine#Noun");
 
             URL_Add("reverse bias_", "https://en.wikipedia.org/wiki/Diode#Reverse_bias");
-
-            URL_Add("silicone_", "https://en.wikipedia.org/wiki/Silicone");
 
             URL_Add("CIL_", "https://en.wikipedia.org/wiki/Common_Intermediate_Language");
 
@@ -168345,8 +168365,6 @@ namespace OverflowHelper.core
             URL_Add("men_", "https://en.wiktionary.org/wiki/men#Noun");
 
             URL_Add("mention_", "https://en.wiktionary.org/wiki/mention#Noun");
-
-            URL_Add("MongoDB Atlas_", "https://en.wikipedia.org/wiki/MongoDB#MongoDB_Atlas");
 
             URL_Add("complaint_", "https://en.wiktionary.org/wiki/complaint#Noun");
 
@@ -169560,7 +169578,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;K17&nbsp;Max_", "https://www.keychron.com/products/keychron-k17-max-qmk-via-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;K2&nbsp;HE_", "https://www.keychron.com/pages/keychron-k2-he-landing-page");
+            URL_Add("Keychron&nbsp;K2&nbsp;HE (80%)_", "https://www.keychron.com/products/keychron-k2-he-wireless-magnetic-switch-keyboard"); // Old: <https://www.keychron.com/pages/keychron-k2-he-landing-page>
 
             URL_Add("Keychron Q8_", "https://www.keychron.com/products/keychron-q8-alice-layout-qmk-custom-mechanical-keyboard");
 
@@ -169767,8 +169785,6 @@ namespace OverflowHelper.core
             URL_Add("USB power delivery_", "https://en.wikipedia.org/wiki/USB_hardware#USB_Power_Delivery");
 
             URL_Add("SOF_", "https://en.wikipedia.org/wiki/USB_communications#SOF:_Start-of-frame");
-
-            URL_Add("Godbolt_", "https://github.com/mattgodbolt/compiler-explorer");
 
             URL_Add("senior_", "https://en.wiktionary.org/wiki/senior#Adjective");
 
@@ -170534,6 +170550,8 @@ namespace OverflowHelper.core
 
             URL_Add("chemical element_", "https://en.wikipedia.org/wiki/Chemical_element");
 
+            URL_Add("silicone_", "https://en.wikipedia.org/wiki/Silicone");
+
             URL_Add("chromium_", "https://en.wikipedia.org/wiki/Chromium"); // Chemical element 24
 
             URL_Add("lithium-ion battery_", "https://en.wikipedia.org/wiki/Lithium-ion_battery"); // Contains chemical element 3
@@ -170856,10 +170874,10 @@ namespace OverflowHelper.core
             //
             correctionAdd("Make__", "make__");
 
-            correctionAdd("god__", "got__");
             correctionAdd("vot__", "got__");
             correctionAdd("gor__", "got__");
             correctionAdd("gat__", "got__");
+            correctionAdd("god__", "got__");
 
             correctionAdd("Top__", "top__"); // The adjective
 
@@ -170939,6 +170957,7 @@ namespace OverflowHelper.core
             correctionAdd("halve__", "half__");
             correctionAdd("hald__", "half__");
 
+            correctionAdd("varuy__", "vary__");
             correctionAdd("wary__", "vary__");
 
             correctionAdd("should__", "shoot__");
@@ -174838,6 +174857,7 @@ namespace OverflowHelper.core
             // For the cross-reference to the source code
             // Note: In Git branch "hall_effect_playground"
             //
+            correctionAdd("Keychron&nbsp;K2&nbsp;HE (80%)__", "Keychron K2 HE source code__");
             correctionAdd("Keychron&nbsp;K2&nbsp;HE__", "Keychron K2 HE source code__");
             correctionAdd("Keychron K2 HE__", "Keychron K2 HE source code__");
 
@@ -176410,8 +176430,6 @@ namespace OverflowHelper.core
 
             URL_Add("programmer__", "https://en.wikipedia.org/wiki/Programmer_(hardware)");
 
-            URL_Add("got__", "https://en.wiktionary.org/wiki/get#Verb");
-
             URL_Add("feature request__", "https://blog.trello.com/3-ways-to-manage-feature-requests");
 
             URL_Add("Kali Linux__", "https://en.wikipedia.org/wiki/Kali_Linux");
@@ -176811,6 +176829,8 @@ namespace OverflowHelper.core
             URL_Add("alternative keyboard layouts__", "https://getreuer.info/posts/keyboards/alt-layouts/index.html");
 
             URL_Add("Hands Down keyboard layout__", "https://sites.google.com/alanreiser.com/handsdown");
+
+            URL_Add("got__", "https://en.wiktionary.org/wiki/get#Verb");
 
         } //addLookupData_alternativeWordSet2()
 
@@ -178265,6 +178285,7 @@ namespace OverflowHelper.core
             correctionAdd("k max___", "Keychron&nbsp;K&nbsp;Max&nbsp;series___");
 
             // For a direct text, "K HE series"
+            correctionAdd("Keychron&nbsp;K2&nbsp;HE (80%)___", "Keychron&nbsp;K&nbsp;HE&nbsp;series___");
             correctionAdd("Keychron&nbsp;K2&nbsp;HE___", "Keychron&nbsp;K&nbsp;HE&nbsp;series___");
             correctionAdd("K&nbsp;HE&nbsp;series___", "Keychron&nbsp;K&nbsp;HE&nbsp;series___");
             correctionAdd("Keychron K HE series___", "Keychron&nbsp;K&nbsp;HE&nbsp;series___"); // Sort of identity mappin
