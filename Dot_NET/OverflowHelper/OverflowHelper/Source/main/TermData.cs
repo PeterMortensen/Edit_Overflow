@@ -7854,6 +7854,7 @@ namespace OverflowHelper.core
             correctionAdd("kmph", "&nbsp;km/h");
             correctionAdd("km/h", "&nbsp;km/h"); // Sort of identity mapping
             correctionAdd("kmh", "&nbsp;km/h");
+            correctionAdd("kph", "&nbsp;km/h");
             correctionAdd("kilometres per hour", "&nbsp;km/h"); // The official expanded name
 
             // A unit (of resistance)
@@ -42196,6 +42197,7 @@ namespace OverflowHelper.core
             correctionAdd("bobble", "bubble");
 
             correctionAdd("dotcom", "dot-com");
+            correctionAdd("DotCom", "dot-com");
 
             correctionAdd("chronicaly", "chronically");
 
@@ -64665,6 +64667,8 @@ namespace OverflowHelper.core
             //
             correctionAdd("Portuguese (Nativo) keyboard layout", "Nativo (Portuguese) keyboard layout");
             correctionAdd("Portuguese (Nativo)", "Nativo (Portuguese) keyboard layout");
+            correctionAdd("Portuguese", "Nativo (Portuguese) keyboard layout");
+            correctionAdd("BR-Nativo", "Nativo (Portuguese) keyboard layout");
             correctionAdd("nativo", "Nativo (Portuguese) keyboard layout");
             correctionAdd("Nativo", "Nativo (Portuguese) keyboard layout");
 
@@ -73804,6 +73808,14 @@ namespace OverflowHelper.core
             correctionAdd("rumantsch", "Romansch");
             correctionAdd("Rumantsch", "Romansch");
 
+            correctionAdd("swiss army knife", "Swiss Army knife");
+            correctionAdd("swiss-army", "Swiss Army knife");
+            correctionAdd("swiss army", "Swiss Army knife");
+            correctionAdd("Swiss army", "Swiss Army knife");
+
+            // Swiss watch manufacturer
+            correctionAdd("blancpain", "Blancpain");
+
             correctionAdd("swiss cheese", "Swiss cheese");
 
             correctionAdd("cheese cake", "cheesecake");
@@ -73817,14 +73829,6 @@ namespace OverflowHelper.core
 
             // A weapon
             correctionAdd("nun-chucks", "nunchucks");
-
-            correctionAdd("swiss army knife", "Swiss Army knife");
-            correctionAdd("swiss-army", "Swiss Army knife");
-            correctionAdd("swiss army", "Swiss Army knife");
-            correctionAdd("Swiss army", "Swiss Army knife");
-
-            // Swiss watch manufacturer
-            correctionAdd("blancpain", "Blancpain");
 
             correctionAdd("france", "France");
 
@@ -74696,6 +74700,7 @@ namespace OverflowHelper.core
             correctionAdd("Buenos aires", "Buenos Aires");
 
             // Note: "Brazil" is in an alternative word set
+            correctionAdd("Braziallian", "Brazilian");
             correctionAdd("Brazillian", "Brazilian");
             correctionAdd("Brazzilian", "Brazilian");
             correctionAdd("brazilian", "Brazilian");
@@ -93148,6 +93153,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Keychron K5 Ultra 8K (105%)", "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)"); // Sort of identity mapping
             correctionAdd("K5 Ultra 8K", "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)");
+            correctionAdd("k5 ultra 8k", "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)");
 
             // A 109-key (105%. Not true TKL) full-size wired
             // and wireless (only Bluetooth) QMK/Via-capable
@@ -110748,8 +110754,6 @@ namespace OverflowHelper.core
 
             URL_Add("Neo Tree", "https://www.emacswiki.org/emacs/NeoTree");
 
-            URL_Add("Zürich", "https://en.wikipedia.org/wiki/Z%C3%BCrich");
-
             URL_Add("essence", "https://en.wiktionary.org/wiki/essence#Noun");
 
             URL_Add("obfuscation", "https://en.wiktionary.org/wiki/obfuscation#Noun");
@@ -110938,10 +110942,6 @@ namespace OverflowHelper.core
 
             URL_Add("Tampermonkey", "https://en.wikipedia.org/wiki/Tampermonkey");
 
-            URL_Add("Swiss", "https://en.wiktionary.org/wiki/Swiss#Adjective");
-
-            URL_Add("Swiss franc", "https://en.wikipedia.org/wiki/Swiss_franc");
-
             URL_Add("Y Combinator", "https://en.wikipedia.org/wiki/Y_Combinator");
 
             URL_Add("fortune favours the brave", "https://en.wiktionary.org/wiki/fortune_favours_the_brave#Proverb"); // Old: https://en.wiktionary.org/wiki/fortune_favours_the_brave#English
@@ -111093,8 +111093,6 @@ namespace OverflowHelper.core
             URL_Add("pyjamas", "https://en.wiktionary.org/wiki/pyjamas#Noun");
 
             URL_Add("Munin", "https://en.wikipedia.org/wiki/Munin_(software)");
-
-            URL_Add("Swiss Army knife", "https://en.wiktionary.org/wiki/Swiss_Army_knife#Noun");
 
             URL_Add("FANG", "https://en.wiktionary.org/wiki/FANG#Noun");
 
@@ -114749,8 +114747,6 @@ namespace OverflowHelper.core
             URL_Add("overhead", "https://en.wiktionary.org/wiki/overhead#Noun");
 
             URL_Add("Dask", "https://en.wikipedia.org/wiki/Dask_(software)");
-
-            URL_Add("ETH Zürich", "https://en.wikipedia.org/wiki/ETH_Zurich");
 
             URL_Add("carriage return", "https://en.wiktionary.org/wiki/carriage_return#Noun");
 
@@ -123638,8 +123634,6 @@ namespace OverflowHelper.core
 
             URL_Add("MonsGeek", "https://monsgeek.eu/pages/about-monsgeek");
 
-            URL_Add("DT Swiss", "https://de.wikipedia.org/wiki/DT_Swiss");
-
             URL_Add("sealant", "https://en.wiktionary.org/wiki/sealant#Noun");
 
             URL_Add("qualitative", "https://en.wiktionary.org/wiki/qualitative#Adjective");
@@ -127356,8 +127350,6 @@ namespace OverflowHelper.core
 
             URL_Add("Škoda", "https://en.wikipedia.org/wiki/List_of_%C5%A0koda_vehicles");
 
-            URL_Add("T-34 keyboard layout", "https://www.jonashietala.se/blog/2021/06/03/the-t-34-keyboard-layout/");
-
             URL_Add("an arm and a leg", "https://en.wiktionary.org/wiki/an_arm_and_a_leg#Noun");
 
             URL_Add("overpromising", "https://en.wiktionary.org/wiki/overpromise#Verb");
@@ -129844,10 +129836,6 @@ namespace OverflowHelper.core
 
             URL_Add("buddy", "https://en.wiktionary.org/wiki/buddy#Noun");
 
-            URL_Add("Alice keyboard layout", "https://deskthority.net/wiki/Alice_layout");
-
-            URL_Add("BEAKL keyboard layout", "https://deskthority.net/wiki/BEAKL#BEAKL_15");
-
             URL_Add("return merchandise authorization", "https://en.wikipedia.org/wiki/Return_merchandise_authorization");
 
             URL_Add("PCAN-View", "https://www.peak-system.com/PCAN-View.242.0.html");
@@ -131147,12 +131135,6 @@ namespace OverflowHelper.core
             URL_Add("generative adversarial network", "https://en.wikipedia.org/wiki/Generative_adversarial_network");
 
             URL_Add("modus operandi", "https://en.wiktionary.org/wiki/modus_operandi#Noun");
-
-            URL_Add("cheesecake", "https://en.wiktionary.org/wiki/cheesecake#Noun");
-
-            URL_Add("Swiss cheese", "https://en.wiktionary.org/wiki/Swiss_cheese#Noun");
-
-            URL_Add("Cheese", "https://en.wikipedia.org/wiki/Cheese_(software)");
 
             URL_Add("bopomofo", "https://en.wiktionary.org/wiki/bopomofo#Proper_noun");
 
@@ -141200,8 +141182,6 @@ namespace OverflowHelper.core
 
             URL_Add("necessitating", "https://en.wiktionary.org/wiki/necessitate#Verb");
 
-            URL_Add("minimal keyboard layout", "https://www.gadgetwisdom.com/2025/01/15/exploring-unique-keyboard-layouts-minila-hhkb-and-beyond/");
-
             URL_Add("whole", "https://en.wiktionary.org/wiki/whole#Noun");
 
             URL_Add("nonwhole", "https://en.wiktionary.org/wiki/nonwhole#Adjective");
@@ -145158,72 +145138,6 @@ namespace OverflowHelper.core
 
             URL_Add("BMI2", "https://en.wikipedia.org/wiki/X86_Bit_manipulation_instruction_set#BMI2_(Bit_Manipulation_Instruction_Set_2)");
 
-            URL_Add("man-made", "https://en.wiktionary.org/wiki/man-made#Adjective");
-
-            URL_Add("man-in-the-middle attack", "https://en.wikipedia.org/wiki/Man-in-the-middle_attack");
-
-            URL_Add("man-in-the-middle attacks", "https://en.wikipedia.org/wiki/Man-in-the-middle_attack");
-
-            URL_Add("mansplaining", "https://en.wiktionary.org/wiki/mansplaining#Noun");
-
-            URL_Add("manual", "https://en.wiktionary.org/wiki/manual#Noun");
-
-            URL_Add("manually", "https://en.wiktionary.org/wiki/manually#Adverb");
-
-            URL_Add("manufactured", "https://en.wiktionary.org/wiki/manufactured#Adjective");
-
-            URL_Add("manufacturer", "https://en.wiktionary.org/wiki/manufacturer#Noun");
-
-            URL_Add("manufacturers", "https://en.wiktionary.org/wiki/manufacturer#Noun");
-
-            URL_Add("manage", "https://en.wiktionary.org/wiki/manage#Verb");
-
-            URL_Add("managing", "https://en.wiktionary.org/wiki/managing#Verb"); // Old: https://en.wiktionary.org/wiki/managing#English
-
-            URL_Add("manageable", "https://en.wiktionary.org/wiki/manageable#Adjective");
-
-            URL_Add("manageability", "https://en.wiktionary.org/wiki/manageability#Noun");
-
-            URL_Add("manager", "https://en.wiktionary.org/wiki/manager#Noun");
-
-            URL_Add("management", "https://en.wiktionary.org/wiki/management#Noun");
-
-            URL_Add("Managed Extensibility Framework", "https://en.wikipedia.org/wiki/Managed_Extensibility_Framework");
-
-            URL_Add("Managed C++", "https://en.wikipedia.org/wiki/Managed_Extensions_for_C%2B%2B");
-
-            URL_Add("manner", "https://en.wiktionary.org/wiki/manner#Noun");
-
-            URL_Add("manic", "https://en.wiktionary.org/wiki/manic#Adjective");
-
-            URL_Add("manically", "https://en.wiktionary.org/wiki/manically#Adverb");
-
-            URL_Add("manifestation", "https://en.wiktionary.org/wiki/manifestation#Noun");
-
-            URL_Add("manoeuvre", "https://en.wiktionary.org/wiki/manoeuvre#Noun");
-
-            URL_Add("maneuvering", "https://en.wiktionary.org/wiki/maneuver#Verb");
-
-            URL_Add("manoeuvrability", "https://en.wiktionary.org/wiki/manoeuvrability#Noun");
-
-            URL_Add("MCAS", "https://en.wikipedia.org/wiki/Maneuvering_Characteristics_Augmentation_System");
-
-            URL_Add("mangoes", "https://en.wikipedia.org/wiki/Mango");
-
-            URL_Add("manifest", "https://en.wiktionary.org/wiki/manifest#Noun");
-
-            URL_Add("mantissa", "https://en.wiktionary.org/wiki/mantissa#Noun");
-
-            URL_Add("Man and His Symbols", "https://en.wikipedia.org/wiki/Man_and_His_Symbols");
-
-            URL_Add("Manchester encoding", "https://en.wikipedia.org/wiki/Manchester_code");
-
-            URL_Add("Manjaro", "https://en.wikipedia.org/wiki/Manjaro");
-
-            URL_Add("Mandarin", "https://en.wiktionary.org/wiki/Mandarin#Noun");
-
-            URL_Add("Romansch", "https://en.wiktionary.org/wiki/Romansch#Proper_noun");
-
             URL_Add("incur", "https://en.wiktionary.org/wiki/incur#Verb");
 
             URL_Add("incurs", "https://en.wiktionary.org/wiki/incur#Verb");
@@ -145470,13 +145384,13 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron LSA keycap profile", "https://keeb-finder.com/blogs/low-profile-keycaps");
 
+            URL_Add("Microsoft Keyboard Layout Creator", "https://en.wikipedia.org/wiki/Dvorak_keyboard_layout#Microsoft_Windows");
+
             URL_Add("keyboard layout", "https://en.wiktionary.org/wiki/keyboard_layout#Noun");
 
-            URL_Add("Hands Down Gold keyboard layout", "https://sites.google.com/alanreiser.com/handsdown/home/hands-down-neu#h.8i2msuo3butx");
+            URL_Add("minimal keyboard layout", "https://www.gadgetwisdom.com/2025/01/15/exploring-unique-keyboard-layouts-minila-hhkb-and-beyond/");
 
-            URL_Add("Hands Down Neu keyboard layout", "https://sites.google.com/alanreiser.com/handsdown/home/hands-down-neu#h.ze4kq734zl5w");
-
-            URL_Add("Keyboard Layout Language", "https://github.com/kiibohd/kll-spec");
+            URL_Add("Alice keyboard layout", "https://deskthority.net/wiki/Alice_layout");
 
             URL_Add("ISO keyboard layout", "https://en.wikipedia.org/wiki/Keyboard_layout#Physical_layouts");
 
@@ -145484,15 +145398,33 @@ namespace OverflowHelper.core
 
             URL_Add("QWERTY keyboard layout", "https://en.wikipedia.org/wiki/QWERTY");
 
-            URL_Add("EurKEY keyboard layout", "https://en.wikipedia.org/wiki/EurKEY");
-
             URL_Add("Danish keyboard layout", "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#Danish");
 
             URL_Add("Italian keyboard layout", "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#Italian");
 
+            URL_Add("UK keyboard layout", "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#United_Kingdom");
+
+            URL_Add("Nativo (Portuguese) keyboard layout", "https://pt.wikipedia.org/wiki/BR-Nativo");
+
+            URL_Add("EurKEY keyboard layout", "https://en.wikipedia.org/wiki/EurKEY");
+
+            URL_Add("United States keyboard layout", "https://en.wikipedia.org/wiki/British_and_American_keyboards#Windows_keyboards");
+
+            URL_Add("US-International keyboard layout", "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#US-International");
+
             URL_Add("Spanish keyboard layout", "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#Spanish");
 
             URL_Add("Spanish flu", "https://en.wikipedia.org/wiki/Spanish_flu");
+
+            URL_Add("Hands Down Gold keyboard layout", "https://sites.google.com/alanreiser.com/handsdown/home/hands-down-neu#h.8i2msuo3butx");
+
+            URL_Add("Hands Down Neu keyboard layout", "https://sites.google.com/alanreiser.com/handsdown/home/hands-down-neu#h.ze4kq734zl5w");
+
+            URL_Add("Keyboard Layout Language", "https://github.com/kiibohd/kll-spec");
+
+            URL_Add("T-34 keyboard layout", "https://www.jonashietala.se/blog/2021/06/03/the-t-34-keyboard-layout/");
+
+            URL_Add("BEAKL keyboard layout", "https://deskthority.net/wiki/BEAKL#BEAKL_15");
 
             URL_Add("Asset keyboard layout", "https://millikeys.sourceforge.net/asset/");
 
@@ -145513,8 +145445,6 @@ namespace OverflowHelper.core
             URL_Add("Dvorak keyboard layout", "https://en.wikipedia.org/wiki/Dvorak_keyboard_layout");
 
             URL_Add("Minimak keyboard layout", "http://www.minimak.org/");
-
-            URL_Add("Nativo (Portuguese) keyboard layout", "https://pt.wikipedia.org/wiki/BR-Nativo");
 
             URL_Add("Engram keyboard layout", "https://sunaku.github.io/engram-keyboard-layout.html");
 
@@ -145543,10 +145473,6 @@ namespace OverflowHelper.core
             URL_Add("Sturdy keyboard layout", "https://oxey.dev/sturdy/index.html");
 
             URL_Add("Workman keyboard layout", "https://en.wikipedia.org/wiki/Keyboard_layout#Workman");
-
-            URL_Add("UK keyboard layout", "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#United_Kingdom");
-
-            URL_Add("US-International keyboard layout", "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#US-International");
 
             URL_Add("death", "https://en.wiktionary.org/wiki/death#Noun");
 
@@ -146259,8 +146185,6 @@ namespace OverflowHelper.core
             URL_Add("named pipe", "https://en.wikipedia.org/wiki/Named_pipe#In_Windows");
 
             URL_Add("DEP", "https://en.wikipedia.org/wiki/Executable_space_protection#Windows");
-
-            URL_Add("Microsoft Keyboard Layout Creator", "https://en.wikipedia.org/wiki/Dvorak_keyboard_layout#Microsoft_Windows");
 
             URL_Add("CScript", "https://en.wikipedia.org/wiki/Windows_Script_Host#Available_scripting_engines");
 
@@ -148014,8 +147938,6 @@ namespace OverflowHelper.core
 
             URL_Add("United States of America Computing Olympiad", "https://en.wikipedia.org/wiki/United_States_of_America_Computing_Olympiad");
 
-            URL_Add("United States keyboard layout", "https://en.wikipedia.org/wiki/British_and_American_keyboards#Windows_keyboards");
-
             URL_Add("Ohio State University", "https://en.wikipedia.org/wiki/Ohio_State_University");
 
             URL_Add("Pennsylvania State University", "https://en.wikipedia.org/wiki/Pennsylvania_State_University");
@@ -149709,6 +149631,90 @@ namespace OverflowHelper.core
             URL_Add("polycarbonate", "https://www.prosettings.com/keycaps-guide/");
 
             URL_Add("POM", "https://www.prosettings.com/keycaps-guide/");
+
+            URL_Add("Swiss", "https://en.wiktionary.org/wiki/Swiss#Adjective");
+
+            URL_Add("Swiss franc", "https://en.wikipedia.org/wiki/Swiss_franc");
+
+            URL_Add("Zürich", "https://en.wikipedia.org/wiki/Z%C3%BCrich");
+
+            URL_Add("ETH Zürich", "https://en.wikipedia.org/wiki/ETH_Zurich");
+
+            URL_Add("Swiss Army knife", "https://en.wiktionary.org/wiki/Swiss_Army_knife#Noun");
+
+            URL_Add("DT Swiss", "https://de.wikipedia.org/wiki/DT_Swiss");
+
+            URL_Add("Romansch", "https://en.wiktionary.org/wiki/Romansch#Proper_noun");
+
+            URL_Add("Swiss cheese", "https://en.wiktionary.org/wiki/Swiss_cheese#Noun");
+
+            URL_Add("Cheese", "https://en.wikipedia.org/wiki/Cheese_(software)");
+
+            URL_Add("cheesecake", "https://en.wiktionary.org/wiki/cheesecake#Noun");
+
+            URL_Add("Mandarin", "https://en.wiktionary.org/wiki/Mandarin#Noun");
+
+            URL_Add("man-made", "https://en.wiktionary.org/wiki/man-made#Adjective");
+
+            URL_Add("man-in-the-middle attack", "https://en.wikipedia.org/wiki/Man-in-the-middle_attack");
+
+            URL_Add("man-in-the-middle attacks", "https://en.wikipedia.org/wiki/Man-in-the-middle_attack");
+
+            URL_Add("mansplaining", "https://en.wiktionary.org/wiki/mansplaining#Noun");
+
+            URL_Add("manual", "https://en.wiktionary.org/wiki/manual#Noun");
+
+            URL_Add("manually", "https://en.wiktionary.org/wiki/manually#Adverb");
+
+            URL_Add("manufactured", "https://en.wiktionary.org/wiki/manufactured#Adjective");
+
+            URL_Add("manufacturer", "https://en.wiktionary.org/wiki/manufacturer#Noun");
+
+            URL_Add("manufacturers", "https://en.wiktionary.org/wiki/manufacturer#Noun");
+
+            URL_Add("manage", "https://en.wiktionary.org/wiki/manage#Verb");
+
+            URL_Add("managing", "https://en.wiktionary.org/wiki/managing#Verb"); // Old: https://en.wiktionary.org/wiki/managing#English
+
+            URL_Add("manageable", "https://en.wiktionary.org/wiki/manageable#Adjective");
+
+            URL_Add("manageability", "https://en.wiktionary.org/wiki/manageability#Noun");
+
+            URL_Add("manager", "https://en.wiktionary.org/wiki/manager#Noun");
+
+            URL_Add("management", "https://en.wiktionary.org/wiki/management#Noun");
+
+            URL_Add("Managed Extensibility Framework", "https://en.wikipedia.org/wiki/Managed_Extensibility_Framework");
+
+            URL_Add("Managed C++", "https://en.wikipedia.org/wiki/Managed_Extensions_for_C%2B%2B");
+
+            URL_Add("manner", "https://en.wiktionary.org/wiki/manner#Noun");
+
+            URL_Add("manic", "https://en.wiktionary.org/wiki/manic#Adjective");
+
+            URL_Add("manically", "https://en.wiktionary.org/wiki/manically#Adverb");
+
+            URL_Add("manifestation", "https://en.wiktionary.org/wiki/manifestation#Noun");
+
+            URL_Add("manoeuvre", "https://en.wiktionary.org/wiki/manoeuvre#Noun");
+
+            URL_Add("maneuvering", "https://en.wiktionary.org/wiki/maneuver#Verb");
+
+            URL_Add("manoeuvrability", "https://en.wiktionary.org/wiki/manoeuvrability#Noun");
+
+            URL_Add("MCAS", "https://en.wikipedia.org/wiki/Maneuvering_Characteristics_Augmentation_System");
+
+            URL_Add("mangoes", "https://en.wikipedia.org/wiki/Mango");
+
+            URL_Add("manifest", "https://en.wiktionary.org/wiki/manifest#Noun");
+
+            URL_Add("mantissa", "https://en.wiktionary.org/wiki/mantissa#Noun");
+
+            URL_Add("Man and His Symbols", "https://en.wikipedia.org/wiki/Man_and_His_Symbols");
+
+            URL_Add("Manchester encoding", "https://en.wikipedia.org/wiki/Manchester_code");
+
+            URL_Add("Manjaro", "https://en.wikipedia.org/wiki/Manjaro");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -154578,6 +154584,8 @@ namespace OverflowHelper.core
             correctionAdd("azerty_", "French keyboard layout_");
             correctionAdd("French_", "French keyboard layout_"); // For the cross-reference
 
+            correctionAdd("Swiss_", "Swiss keyboard layout_"); // For the cross-reference
+
             // A keyboard layout (Brazil/Portuguese)
             //
             // Note: The physical key layout is different from 'ISO'.
@@ -154587,6 +154595,7 @@ namespace OverflowHelper.core
             //       "Brazilian" in the main word set...
             //
             correctionAdd("Brazilian Technical Standards Association_", "ABNT NBR 10346 variant 2 keyboard layout_"); // For the cross-reference
+            correctionAdd("Brazilian keyboard layout_", "ABNT NBR 10346 variant 2 keyboard layout_");
             correctionAdd("ABNT NBR 10346 variant 2_", "ABNT NBR 10346 variant 2 keyboard layout_");
             correctionAdd("Brazilian_", "ABNT NBR 10346 variant 2 keyboard layout_"); // For the cross-reference
             correctionAdd("ABNT-2_", "ABNT NBR 10346 variant 2 keyboard layout_");
@@ -167731,10 +167740,6 @@ namespace OverflowHelper.core
 
             URL_Add("amplifier_", "https://en.wikipedia.org/wiki/");
 
-            URL_Add("Spanish_", "https://en.wiktionary.org/wiki/Spanish#Adjective"); // Old: https://en.wiktionary.org/wiki/Spanish
-
-            URL_Add("Portuguese_", "https://en.wiktionary.org/wiki/Portuguese#Proper_noun");
-
             URL_Add("ISA bus_", "https://en.wikipedia.org/wiki/Industry_Standard_Architecture");
 
             URL_Add("perseverance_", "https://en.wiktionary.org/wiki/perseverance#Noun");
@@ -169313,34 +169318,6 @@ namespace OverflowHelper.core
 
             URL_Add("DIP_", "https://en.wikipedia.org/wiki/Dual_in-line_package");
 
-            URL_Add("Radium_", "https://www.npmjs.com/package/radium#how-does-radium-work"); // From chemical element 88
-
-            URL_Add("chemical element_", "https://en.wikipedia.org/wiki/Chemical_element");
-
-            URL_Add("lithium-ion battery_", "https://en.wikipedia.org/wiki/Lithium-ion_battery"); // Contains chemical element 3
-
-            URL_Add("chromium_", "https://en.wikipedia.org/wiki/Chromium"); // Chemical element 24
-
-            URL_Add("NiMH_", "https://en.wikipedia.org/wiki/Nickel%E2%80%93metal_hydride_battery"); // Contains chemical element 28
-
-            URL_Add("nickel–cadmium_", "https://en.wikipedia.org/wiki/Nickel%E2%80%93cadmium_battery"); // Contains chemical element 28 and chemical element 48
-
-            URL_Add("German_", "https://en.wiktionary.org/wiki/German#Adjective"); // Associated with chemical element 32
-
-            URL_Add("selenium_", "https://en.wikipedia.org/wiki/Selenium"); // Chemical element 34
-
-            URL_Add("indium_", "https://en.wikipedia.org/wiki/Indium"); // Chemical element 49
-
-            URL_Add("tantalum_", "https://en.wikipedia.org/wiki/Tantalum"); // Chemical element 73
-
-            URL_Add("TIG welding_", "https://en.wikipedia.org/wiki/Gas_tungsten_arc_welding"); // Associated with chemical element 74
-
-            URL_Add("Quicksilver_", "https://en.wikipedia.org/wiki/Quicksilver_(software)"); // From chemical element 80
-
-            URL_Add("Thorium_", "https://news.slashdot.org/story/24/03/31/2250209/thorium-the-fastest-open-source-chromium-based-browser"); // From chemical element 90
-
-            URL_Add("ångström_", "https://en.wikipedia.org/wiki/Angstrom");
-
             URL_Add("calibration_", "https://en.wiktionary.org/wiki/calibration#Noun");
 
             URL_Add("destination_", "https://en.wiktionary.org/wiki/destination#Noun");
@@ -170113,16 +170090,6 @@ namespace OverflowHelper.core
 
             URL_Add("Charles-Augustin de Coulomb_", "https://en.wikipedia.org/wiki/Charles-Augustin_de_Coulomb");
 
-            URL_Add("Brazilian variant_", "https://en.wikipedia.org/wiki/Lineage_P.1");
-
-            URL_Add("ABNT NBR 10346 variant 2 keyboard layout_", "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#Brazil");
-
-            URL_Add("French keyboard layout_", "https://en.wikipedia.org/wiki/AZERTY");
-
-            URL_Add("APT keyboard layout_", "https://github.com/Apsu/APT#aptv3-layout");
-
-            URL_Add("Gallium keyboard layout_", "https://www.keyboard-design.com/letterlayout.html?layout=gallium2.en.ansi"); // Associated with chemical element 31
-
             URL_Add("PCI_", "https://en.wikipedia.org/wiki/Peripheral_Component_Interconnect"); // Old: <https://en.wikipedia.org/wiki/Conventional_PCI>
 
             URL_Add("multi_", "https://en.wiktionary.org/wiki/multi-#Prefix");
@@ -170546,6 +170513,50 @@ namespace OverflowHelper.core
             URL_Add("Intel C++ Compiler_", "https://en.wikipedia.org/wiki/Intel_C%2B%2B_Compiler");
 
             URL_Add("intellectual property_", "https://en.wikipedia.org/wiki/Intellectual_property");
+
+            URL_Add("Spanish_", "https://en.wiktionary.org/wiki/Spanish#Adjective"); // Old: https://en.wiktionary.org/wiki/Spanish
+
+            URL_Add("Portuguese_", "https://en.wiktionary.org/wiki/Portuguese#Proper_noun");
+
+            URL_Add("ABNT NBR 10346 variant 2 keyboard layout_", "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#Brazil");
+
+            URL_Add("French keyboard layout_", "https://en.wikipedia.org/wiki/AZERTY");
+
+            URL_Add("Swiss keyboard layout_", "https://en.wikipedia.org/wiki/QWERTZ#Swiss_(German,_French,_Italian,_Romansh),_Liechtenstein,_Luxembourg");
+
+            URL_Add("APT keyboard layout_", "https://github.com/Apsu/APT#aptv3-layout");
+
+            URL_Add("Gallium keyboard layout_", "https://www.keyboard-design.com/letterlayout.html?layout=gallium2.en.ansi"); // Associated with chemical element 31
+
+            URL_Add("Brazilian variant_", "https://en.wikipedia.org/wiki/Lineage_P.1");
+
+            URL_Add("German_", "https://en.wiktionary.org/wiki/German#Adjective"); // Associated with chemical element 32
+
+            URL_Add("chemical element_", "https://en.wikipedia.org/wiki/Chemical_element");
+
+            URL_Add("chromium_", "https://en.wikipedia.org/wiki/Chromium"); // Chemical element 24
+
+            URL_Add("lithium-ion battery_", "https://en.wikipedia.org/wiki/Lithium-ion_battery"); // Contains chemical element 3
+
+            URL_Add("NiMH_", "https://en.wikipedia.org/wiki/Nickel%E2%80%93metal_hydride_battery"); // Contains chemical element 28
+
+            URL_Add("nickel–cadmium_", "https://en.wikipedia.org/wiki/Nickel%E2%80%93cadmium_battery"); // Contains chemical element 28 and chemical element 48
+
+            URL_Add("selenium_", "https://en.wikipedia.org/wiki/Selenium"); // Chemical element 34
+
+            URL_Add("indium_", "https://en.wikipedia.org/wiki/Indium"); // Chemical element 49
+
+            URL_Add("tantalum_", "https://en.wikipedia.org/wiki/Tantalum"); // Chemical element 73
+
+            URL_Add("Radium_", "https://www.npmjs.com/package/radium#how-does-radium-work"); // From chemical element 88
+
+            URL_Add("TIG welding_", "https://en.wikipedia.org/wiki/Gas_tungsten_arc_welding"); // Associated with chemical element 74
+
+            URL_Add("Quicksilver_", "https://en.wikipedia.org/wiki/Quicksilver_(software)"); // From chemical element 80
+
+            URL_Add("Thorium_", "https://news.slashdot.org/story/24/03/31/2250209/thorium-the-fastest-open-source-chromium-based-browser"); // From chemical element 90
+
+            URL_Add("ångström_", "https://en.wikipedia.org/wiki/Angstrom");
 
         } //addLookupData_alternativeWordSet()
 
@@ -171713,6 +171724,27 @@ namespace OverflowHelper.core
             correctionAdd("F row__", "function keys row (F1 - F12)__");
             correctionAdd("FRow__", "function keys row (F1 - F12)__");
             correctionAdd("Frow__", "function keys row (F1 - F12)__");
+
+            // A keyboard layout. German.
+            correctionAdd("German keyboard layout__", "QWERTZ keyboard layout__");
+            correctionAdd("German keyboard__", "QWERTZ keyboard layout__");
+            correctionAdd("German layout__", "QWERTZ keyboard layout__");
+            correctionAdd("german layout__", "QWERTZ keyboard layout__");
+            correctionAdd("kezboard__", "QWERTZ keyboard layout__");
+            correctionAdd("a German__", "QWERTZ keyboard layout__");
+            correctionAdd("qwertz__", "QWERTZ keyboard layout__");
+            correctionAdd("QWERTZ__", "QWERTZ keyboard layout__");
+            correctionAdd("QUERTZ__", "QWERTZ keyboard layout__");
+            correctionAdd("quertz__", "QWERTZ keyboard layout__");
+            correctionAdd("German__", "QWERTZ keyboard layout__");
+
+            // For the short notation
+            correctionAdd("French keyboard layout__", "AZERTY__");
+            correctionAdd("azerty__", "AZERTY__");
+
+            // Not to be confused with the ABNT-2
+            // keyboard layout (Brazilian)
+            correctionAdd("Portuguese__", "Portuguese keyboard layout__");
 
             // Alternative URLs:
             //
@@ -175066,23 +175098,6 @@ namespace OverflowHelper.core
             correctionAdd("first gen__", "first-generation__");
             correctionAdd("1st gen__", "first-generation__");
 
-            // A keyboard layout. German.
-            correctionAdd("German keyboard layout__", "QWERTZ keyboard layout__");
-            correctionAdd("German keyboard__", "QWERTZ keyboard layout__");
-            correctionAdd("German layout__", "QWERTZ keyboard layout__");
-            correctionAdd("german layout__", "QWERTZ keyboard layout__");
-            correctionAdd("kezboard__", "QWERTZ keyboard layout__");
-            correctionAdd("a German__", "QWERTZ keyboard layout__");
-            correctionAdd("qwertz__", "QWERTZ keyboard layout__");
-            correctionAdd("QWERTZ__", "QWERTZ keyboard layout__");
-            correctionAdd("QUERTZ__", "QWERTZ keyboard layout__");
-            correctionAdd("quertz__", "QWERTZ keyboard layout__");
-            correctionAdd("German__", "QWERTZ keyboard layout__");
-
-            // For the short notation
-            correctionAdd("French keyboard layout__", "AZERTY__");
-            correctionAdd("azerty__", "AZERTY__");
-
             // Written representation for the sounds of speech.
             //
             // Not to be confused with the ICAO phonetic alphabet (aviation)
@@ -175721,8 +175736,6 @@ namespace OverflowHelper.core
 
             URL_Add("integer increment__", "https://en.wikipedia.org/wiki/Increment_and_decrement_operators");
 
-            URL_Add("alternative keyboard layouts__", "https://getreuer.info/posts/keyboards/alt-layouts/index.html");
-
             URL_Add("homework__", "https://en.wiktionary.org/wiki/homework#Noun");
 
             URL_Add("idea__", "https://en.wiktionary.org/wiki/idea#Noun");
@@ -175876,8 +175889,6 @@ namespace OverflowHelper.core
             URL_Add("palm__", "https://en.wiktionary.org/wiki/palm#Noun_2");
 
             URL_Add("Arduino (Stack Exchange site)__", "https://arduino.stackexchange.com/tour");
-
-            URL_Add("QWERTZ keyboard layout__", "https://en.wikipedia.org/wiki/QWERTZ");
 
             URL_Add("2.4&nbsp;GHz__", "https://en.wikipedia.org/wiki/Wi-Fi#History");
 
@@ -176629,8 +176640,6 @@ namespace OverflowHelper.core
 
             URL_Add("Google (company)__", "https://en.wikipedia.org/wiki/Google");
 
-            URL_Add("Hands Down keyboard layout__", "https://sites.google.com/alanreiser.com/handsdown");
-
             URL_Add("Team Foundation Server__", "https://en.wikipedia.org/wiki/Azure_DevOps_Server"); // Old: https://en.wikipedia.org/wiki/Team_Foundation_Server
 
             URL_Add("numpy.copy()__", "https://numpy.org/doc/stable/reference/generated/numpy.copy.html");
@@ -176794,6 +176803,14 @@ namespace OverflowHelper.core
             URL_Add("od__", "https://en.wikipedia.org/wiki/Od_(Unix)");
 
             URL_Add("split__", "https://en.wikipedia.org/wiki/Split_(Unix)");
+
+            URL_Add("QWERTZ keyboard layout__", "https://en.wikipedia.org/wiki/QWERTZ");
+
+            URL_Add("Portuguese keyboard layout__", "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#Portugal");
+
+            URL_Add("alternative keyboard layouts__", "https://getreuer.info/posts/keyboards/alt-layouts/index.html");
+
+            URL_Add("Hands Down keyboard layout__", "https://sites.google.com/alanreiser.com/handsdown");
 
         } //addLookupData_alternativeWordSet2()
 
@@ -178933,6 +178950,7 @@ namespace OverflowHelper.core
             correctionAdd("bullsh!t___", "bovine fecal matter___");
             correctionAdd("bulls&!t___", "bovine fecal matter___");
             correctionAdd("bullshit___", "bovine fecal matter___");
+            correctionAdd("B.S___", "bovine fecal matter___");
             correctionAdd("BS___", "bovine fecal matter___");
 
             // Online training of typing speed
