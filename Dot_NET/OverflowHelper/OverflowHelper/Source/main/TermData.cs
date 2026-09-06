@@ -9811,7 +9811,9 @@ namespace OverflowHelper.core
 
             // A Linux package manager
             // Related to "GNU Guix System" (a Linux distribution)
+            // and Nix
             correctionAdd("Guix", "GNU Guix");
+            correctionAdd("guix", "GNU Guix");
 
             correctionAdd("synaptic package manager", "Synaptic");
             correctionAdd("Synaptic Package Manager", "Synaptic");
@@ -15326,6 +15328,114 @@ namespace OverflowHelper.core
 
             correctionAdd("restaining order", "restraining order");
 
+            correctionAdd("touchted", "touched");
+
+            correctionAdd("touch-screen", "touchscreen");
+            correctionAdd("touch screen", "touchscreen");
+
+            correctionAdd("touch up", "touch-up");
+            correctionAdd("touchup", "touch-up");
+
+            correctionAdd("Touchpad", "touchpad");
+            correctionAdd("TouchPad", "touchpad");
+
+            correctionAdd("multi touch", "multi-touch");
+
+            correctionAdd("touch-proof", "touchproof");
+
+            correctionAdd("Mono Touch", "MonoTouch");
+            correctionAdd("Monotouch", "MonoTouch");
+            correctionAdd("monotouch", "MonoTouch");
+
+            correctionAdd("idoim", "idiom");
+            correctionAdd("idion", "idiom");
+            correctionAdd("ideom", "idiom");
+            correctionAdd("Idem", "idiom");
+            correctionAdd("idem", "idiom");
+
+            correctionAdd("Iidiomatic", "idiomatic");
+            correctionAdd("iidiomatic", "idiomatic");
+            correctionAdd("ideomatic", "idiomatic");
+            correctionAdd("Idiomatic", "idiomatic");
+            correctionAdd("idomatic", "idiomatic");
+            correctionAdd("idimatic", "idiomatic");
+            correctionAdd("idiomic", "idiomatic");
+
+            correctionAdd("idiosyncracies", "idiosyncrasies");
+
+            correctionAdd("idiott", "idiot");
+            correctionAdd("idoit", "idiot");
+            correctionAdd("Idiot", "idiot");
+            correctionAdd("id10t", "idiot");
+            correctionAdd("idot", "idiot");
+
+            correctionAdd("ideocy", "idiocy");
+
+            correctionAdd("idiot proof", "idiot-proof");
+
+            correctionAdd("prove", "proof");
+
+            correctionAdd("error-proof", "errorproof");
+
+            correctionAdd("fool proof", "foolproof");
+            correctionAdd("fool-proof", "foolproof");
+            correctionAdd("Fool proof", "foolproof");
+            correctionAdd("fullproof", "foolproof");
+
+            correctionAdd("future proof", "future-proof");
+
+            correctionAdd("fail-proof", "failproof");
+
+            correctionAdd("bullet-proof", "bulletproof");
+            correctionAdd("bullet proof", "bulletproof");
+
+            correctionAdd("tamper proof", "tamperproof");
+            correctionAdd("tamper-proof", "tamperproof");
+
+            correctionAdd("tamper resistant", "tamper-resistant");
+
+            correctionAdd("anti-tamper", "antitamper");
+
+            correctionAdd("fools errand", "fool's errand");
+
+            correctionAdd("proof-of-concept", "proof of concept");
+            correctionAdd("Proof-of-concept", "proof of concept");
+            correctionAdd("Proof of Concept", "proof of concept");
+            correctionAdd("prove of concept", "proof of concept");
+            correctionAdd("POC", "proof of concept");
+            correctionAdd("poc", "proof of concept");
+            correctionAdd("PoC", "proof of concept");
+
+            correctionAdd("proven", "proved");
+
+            correctionAdd("aproved", "approved");
+
+            correctionAdd("aproval", "approval");
+
+            correctionAdd("aprove", "approve");
+
+            correctionAdd("pre-approval", "preapproval");
+
+            correctionAdd("disaproval", "disapproval");
+            correctionAdd("disproval", "disapproval");
+
+            correctionAdd("improove", "improve");
+            correctionAdd("improvve", "improve");
+            correctionAdd("imporve", "improve");
+            correctionAdd("imrove", "improve");
+
+            correctionAdd("improveded", "improved");
+
+            correctionAdd("improvation", "improvement");
+            correctionAdd("improvemnet", "improvement");
+            correctionAdd("improvmeent", "improvement");
+            correctionAdd("improvmenet", "improvement");
+            correctionAdd("imporvement", "improvement");
+            correctionAdd("improvment", "improvement");
+            correctionAdd("improment", "improvement");
+
+            correctionAdd("disproven", "disproved");
+
             correctionAdd("additive", "addictive");
 
             correctionAdd("stabble", "stable");
@@ -17492,6 +17602,17 @@ namespace OverflowHelper.core
             //
             // A toolkit for building a GUI desktop
             // shell, based on Qt Quick.
+            //
+            // Linux
+            //
+            // Alternative URLs:
+            //
+            //   <https://git.outfoxxed.me/quickshell/quickshell>
+            //   <https://quickshell.outfoxxed.me/>
+            //   <https://github.com/topics/quickshell>
+            //   <https://github.com/quickshell-mirror/quickshell/blob/master/README.md>
+            //   <https://deepwiki.com/quickshell-mirror/quickshell>
+            //
             correctionAdd("quickshell", "Quickshell");
 
             // Linux
@@ -18275,6 +18396,7 @@ namespace OverflowHelper.core
             // For managing multiple versions of Python (and others).
             // Included by default in Omarchy
             correctionAdd("mise-en-place", "Mise En Place");
+            correctionAdd("Mise en place", "Mise En Place");
             correctionAdd("meeze", "Mise En Place");
             correctionAdd("meese", "Mise En Place");
             correctionAdd("mise", "Mise En Place");
@@ -18282,6 +18404,7 @@ namespace OverflowHelper.core
             correctionAdd("MIZE", "Mise En Place");
             correctionAdd("mize", "Mise En Place");
             correctionAdd("mizf", "Mise En Place");
+            correctionAdd("meez", "Mise En Place");
 
             // Linux. Ubuntu. The predecessor to Omarchy
             //
@@ -36333,6 +36456,7 @@ namespace OverflowHelper.core
             correctionAdd("contiune", "continue");
             correctionAdd("contiue", "continue");
             correctionAdd("continu", "continue");
+            correctionAdd("contnue", "continue");
 
             correctionAdd("continueing", "continuing");
             correctionAdd("Continueing", "continuing");
@@ -37014,7 +37138,7 @@ namespace OverflowHelper.core
             correctionAdd("Instal", "install");
             correctionAdd("instl", "install");
 
-            correctionAdd("isntalles", "installs");
+            correctionAdd("isntalles", "installs"); // Multiple typos...
 
             correctionAdd("Installating", "installing");
             correctionAdd("installating", "installing");
@@ -49061,97 +49185,6 @@ namespace OverflowHelper.core
             correctionAdd("noone", "no one");
             correctionAdd("Noone", "no one");
 
-            correctionAdd("idoim", "idiom");
-            correctionAdd("idion", "idiom");
-            correctionAdd("ideom", "idiom");
-            correctionAdd("Idem", "idiom");
-            correctionAdd("idem", "idiom");
-
-            correctionAdd("Iidiomatic", "idiomatic");
-            correctionAdd("iidiomatic", "idiomatic");
-            correctionAdd("ideomatic", "idiomatic");
-            correctionAdd("Idiomatic", "idiomatic");
-            correctionAdd("idomatic", "idiomatic");
-            correctionAdd("idimatic", "idiomatic");
-            correctionAdd("idiomic", "idiomatic");
-
-            correctionAdd("idiosyncracies", "idiosyncrasies");
-
-            correctionAdd("idiott", "idiot");
-            correctionAdd("idoit", "idiot");
-            correctionAdd("Idiot", "idiot");
-            correctionAdd("id10t", "idiot");
-            correctionAdd("idot", "idiot");
-
-            correctionAdd("ideocy", "idiocy");
-
-            correctionAdd("idiot proof", "idiot-proof");
-
-            correctionAdd("prove", "proof");
-
-            correctionAdd("error-proof", "errorproof");
-
-            correctionAdd("fool proof", "foolproof");
-            correctionAdd("fool-proof", "foolproof");
-            correctionAdd("Fool proof", "foolproof");
-            correctionAdd("fullproof", "foolproof");
-
-            correctionAdd("future proof", "future-proof");
-
-            correctionAdd("fail-proof", "failproof");
-
-            correctionAdd("touch-proof", "touchproof");
-
-            correctionAdd("bullet-proof", "bulletproof");
-            correctionAdd("bullet proof", "bulletproof");
-
-            correctionAdd("tamper proof", "tamperproof");
-            correctionAdd("tamper-proof", "tamperproof");
-
-            correctionAdd("tamper resistant", "tamper-resistant");
-
-            correctionAdd("anti-tamper", "antitamper");
-
-            correctionAdd("fools errand", "fool's errand");
-
-            correctionAdd("proof-of-concept", "proof of concept");
-            correctionAdd("Proof-of-concept", "proof of concept");
-            correctionAdd("Proof of Concept", "proof of concept");
-            correctionAdd("prove of concept", "proof of concept");
-            correctionAdd("POC", "proof of concept");
-            correctionAdd("poc", "proof of concept");
-            correctionAdd("PoC", "proof of concept");
-
-            correctionAdd("proven", "proved");
-
-            correctionAdd("aproved", "approved");
-
-            correctionAdd("aproval", "approval");
-
-            correctionAdd("aprove", "approve");
-
-            correctionAdd("pre-approval", "preapproval");
-
-            correctionAdd("disaproval", "disapproval");
-            correctionAdd("disproval", "disapproval");
-
-            correctionAdd("improove", "improve");
-            correctionAdd("improvve", "improve");
-            correctionAdd("imporve", "improve");
-            correctionAdd("imrove", "improve");
-
-            correctionAdd("improveded", "improved");
-
-            correctionAdd("improvation", "improvement");
-            correctionAdd("improvemnet", "improvement");
-            correctionAdd("improvmeent", "improvement");
-            correctionAdd("improvmenet", "improvement");
-            correctionAdd("imporvement", "improvement");
-            correctionAdd("improvment", "improvement");
-            correctionAdd("improment", "improvement");
-
-            correctionAdd("disproven", "disproved");
-
             // Note: "expect" is in an alternative word set
             correctionAdd("expexcting", "expecting");
             correctionAdd("excpecting", "expecting");
@@ -56932,8 +56965,8 @@ namespace OverflowHelper.core
 
             correctionAdd("compaign", "campaign");
             correctionAdd("capmgain", "campaign");
-            correctionAdd("campaing", "campaign");
             correctionAdd("Campaign", "campaign");
+            correctionAdd("campaing", "campaign");
             correctionAdd("campain", "campaign");
 
             correctionAdd("compaigns", "campaigns");
@@ -64058,6 +64091,7 @@ namespace OverflowHelper.core
             //
             //   <https://eurkey.steffen.bruentjen.eu/faq.html#collapse4>
             //
+            correctionAdd("EurKEY layout", "EurKEY keyboard layout");
             correctionAdd("eur-keys", "EurKEY keyboard layout");
             correctionAdd("euro-key", "EurKEY keyboard layout");
             correctionAdd("eur keys", "EurKEY keyboard layout");
@@ -66262,12 +66296,6 @@ namespace OverflowHelper.core
             correctionAdd("jkl", "JKL;");
             correctionAdd("JKL", "JKL;");
 
-            correctionAdd("touch up", "touch-up");
-            correctionAdd("touchup", "touch-up");
-
-            correctionAdd("Touchpad", "touchpad");
-            correctionAdd("TouchPad", "touchpad");
-
             correctionAdd("wpm", "words per minute"); // The official shorthand
             correctionAdd("WPM", "words per minute");
             correctionAdd("Wpm", "words per minute");
@@ -66352,11 +66380,11 @@ namespace OverflowHelper.core
             //   <https://www.youtube.com/@TypingClub_edclub/videos>
             //   <https://www.youtube.com/watch?v=y6J1Ju2NGH4>
             //
-            correctionAdd("Typing Club", "TypingClub");
-            correctionAdd("typingclub", "TypingClub");
-            correctionAdd("Typing club", "TypingClub");
             correctionAdd("typingclub.com", "TypingClub");
             correctionAdd("Typingclub.com", "TypingClub");
+            correctionAdd("Typing Club", "TypingClub");
+            correctionAdd("Typing club", "TypingClub");
+            correctionAdd("typingclub", "TypingClub");
             correctionAdd("Typingclub", "TypingClub");
 
             // Online training of typing speed
@@ -66366,8 +66394,8 @@ namespace OverflowHelper.core
             //   <https://www.lifewire.com/free-typing-lessons-1356656>
             //   <https://www.typingstudy.com/>
             //
-            correctionAdd("typingstudy", "Touch Typing Study");
             correctionAdd("typingstudy.com", "Touch Typing Study");
+            correctionAdd("typingstudy", "Touch Typing Study");
 
             // Online training of typing speed
             //
@@ -66405,9 +66433,9 @@ namespace OverflowHelper.core
             //   <https://gnusenpai.net/colemakclub/>
             //     The actual training site
             //
+            correctionAdd("colemak club", "Colemak Club");
             correctionAdd("ColemakClub", "Colemak Club");
             correctionAdd("colemakclub", "Colemak Club");
-            correctionAdd("colemak club", "Colemak Club");
 
             // Online training of typing speed
             //
@@ -68495,6 +68523,7 @@ namespace OverflowHelper.core
             correctionAdd("repply", "reply");
 
             // The noun
+            correctionAdd("replied", "replies");
             correctionAdd("replys", "replies");
 
             correctionAdd("thesktop", "desktop");
@@ -72308,9 +72337,6 @@ namespace OverflowHelper.core
 
             correctionAdd("admob", "AdMob");
             correctionAdd("Admob", "AdMob");
-
-            correctionAdd("touch-screen", "touchscreen");
-            correctionAdd("touch screen", "touchscreen");
 
             correctionAdd("shiro", "Apache Shiro");
 
@@ -80685,8 +80711,6 @@ namespace OverflowHelper.core
 
             // LAN. Time. For real-time control systems using Ethernet.
             correctionAdd("PTP", "Precision Time Protocol");
-
-            correctionAdd("multi touch", "multi-touch");
 
             correctionAdd("adventerous", "adventurous");
 
@@ -99021,10 +99045,6 @@ namespace OverflowHelper.core
             correctionAdd("hekintosh", "Hackintosh");
 
             correctionAdd("contorsion", "contortion");
-
-            correctionAdd("Mono Touch", "MonoTouch");
-            correctionAdd("Monotouch", "MonoTouch");
-            correctionAdd("monotouch", "MonoTouch");
 
             correctionAdd("Apple 2", "Apple II");
 
@@ -142018,8 +142038,6 @@ namespace OverflowHelper.core
 
             URL_Add("Simplify3D", "https://www.simplify3d.com/");
 
-            URL_Add("multi-touch", "https://en.wiktionary.org/wiki/multi-touch#Adjective");
-
             URL_Add("multidimensional", "https://en.wiktionary.org/wiki/multidimensional#Adjective");
 
             URL_Add("multiposition", "https://en.wiktionary.org/wiki/multiposition#Adjective");
@@ -149785,6 +149803,10 @@ namespace OverflowHelper.core
             URL_Add("installs", "https://en.wiktionary.org/wiki/install#Verb");
 
             URL_Add("negotiated", "https://en.wiktionary.org/wiki/negotiate#Verb");
+
+            URL_Add("touched", "https://en.wiktionary.org/wiki/touch#Verb");
+
+            URL_Add("multi-touch", "https://en.wiktionary.org/wiki/multi-touch#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -159087,8 +159109,6 @@ namespace OverflowHelper.core
             //
             correctionAdd("join_", "join()_"); // JavaScript
 
-            correctionAdd("replace_", "replace()_"); // JavaScript
-
             correctionAdd("match_", "match()_"); // JavaScript
 
             correctionAdd("escape_", "escape()_"); // JavaScript
@@ -159096,6 +159116,8 @@ namespace OverflowHelper.core
             correctionAdd("unescape_", "unescape()_"); // JavaScript
 
             correctionAdd("splice_", "splice()_"); // JavaScript
+
+            correctionAdd("replace_", "replace()_"); // JavaScript
 
             // Start of C / C++ function section
             //
@@ -164817,6 +164839,8 @@ namespace OverflowHelper.core
 
             correctionAdd("HMR_", "Hot Module Replacement_");
 
+            correctionAdd("replies_", "replied_"); // A true typo
+
             correctionAdd("smh_", "shaking my head_");
             correctionAdd("SMH_", "shaking my head_");
 
@@ -169134,8 +169158,6 @@ namespace OverflowHelper.core
 
             URL_Add("join()_", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join");
 
-            URL_Add("replace()_", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace");
-
             URL_Add("match()_", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match");
 
             URL_Add("escape()_", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/escape");
@@ -169143,6 +169165,8 @@ namespace OverflowHelper.core
             URL_Add("unescape()_", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/unescape");
 
             URL_Add("splice()_", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice");
+
+            URL_Add("replace()_", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace");
 
             URL_Add("queue_", "https://en.wiktionary.org/wiki/queue#Noun");
 
@@ -169699,16 +169723,6 @@ namespace OverflowHelper.core
             URL_Add("Laravel Livewire_", "https://laravel-livewire.com/docs/2.x/laravel-echo");
 
             URL_Add("Laravel Pusher Channels_", "https://pusher.com/laravel");
-
-            URL_Add("hot-swap_", "https://en.wiktionary.org/wiki/hot-swap#Verb");
-
-            URL_Add("hotkey_", "https://en.wiktionary.org/wiki/hotkey#Noun");
-
-            URL_Add("Hot Module Replacement_", "https://webpack.js.org/guides/hot-module-replacement/");
-
-            URL_Add("swappable_", "https://en.wiktionary.org/wiki/swap#Verb");
-
-            URL_Add("compare-and-swap_", "https://en.wikipedia.org/wiki/Compare-and-swap");
 
             URL_Add("bind_", "https://linux.die.net/man/1/bind");
 
@@ -170645,6 +170659,18 @@ namespace OverflowHelper.core
             URL_Add("ångström_", "https://en.wikipedia.org/wiki/Angstrom");
 
             URL_Add("COSMIC_", "https://en.wikipedia.org/wiki/COSMIC_desktop"); // Old: <https://en.wikipedia.org/wiki/Pop!_OS#Features>, <https://en.wikipedia.org/wiki/COSMIC_(desktop_environment)>
+
+            URL_Add("replied_", "https://en.wiktionary.org/wiki/reply#Noun");
+
+            URL_Add("hot-swap_", "https://en.wiktionary.org/wiki/hot-swap#Verb");
+
+            URL_Add("hotkey_", "https://en.wiktionary.org/wiki/hotkey#Noun");
+
+            URL_Add("Hot Module Replacement_", "https://webpack.js.org/guides/hot-module-replacement/");
+
+            URL_Add("swappable_", "https://en.wiktionary.org/wiki/swap#Verb");
+
+            URL_Add("compare-and-swap_", "https://en.wikipedia.org/wiki/Compare-and-swap");
 
         } //addLookupData_alternativeWordSet()
 
