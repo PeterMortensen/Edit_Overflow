@@ -39443,13 +39443,13 @@ namespace OverflowHelper.core
             //       etc.) is in an alternative word set
             //
             correctionAdd("whhethher", "whether");
-            correctionAdd("wheather", "whether"); // Stuff with rain, snow, etc. is "weather".
+            correctionAdd("wheather", "whether");
             correctionAdd("wheteher", "whether");
             correctionAdd("Whether", "whether");
             correctionAdd("whehter", "whether"); // A true typo
             correctionAdd("wethere", "whether");
             correctionAdd("whethee", "whether");
-            correctionAdd("weather", "whether");
+            correctionAdd("weather", "whether"); // Stuff with rain, snow, etc. is "weather".
             correctionAdd("wheter", "whether");
             correctionAdd("wither", "whether");
             correctionAdd("whethe", "whether");
@@ -39463,6 +39463,12 @@ namespace OverflowHelper.core
             // Note: "weather" is in an alternative word set
             //
             correctionAdd("weathervane", "weather vane");
+
+            // United States
+            correctionAdd("NWS", "National Weather Service");
+
+            // Of course, this service is also shut down...
+            correctionAdd("Google news cards", "Google News & Weather");
 
             correctionAdd("precip", "precipitation");
 
@@ -43142,6 +43148,10 @@ namespace OverflowHelper.core
             correctionAdd("cappacitive", "capacitive");
             correctionAdd("capacitative", "capacitive");
 
+            // Electronics
+            correctionAdd("electrolytics", "electrolytic capacitor");
+
+            // Electronics
             correctionAdd("Tantalum capacitor", "tantalum capacitor");
             correctionAdd("Tantelum", "tantalum capacitor");
             correctionAdd("tantelum", "tantalum capacitor");
@@ -75636,9 +75646,6 @@ namespace OverflowHelper.core
             correctionAdd("state of the union", "State of the Union Address");
             correctionAdd("SOTU", "State of the Union Address");
 
-            // United States
-            correctionAdd("NWS", "National Weather Service");
-
             // A United States pension scheme
             correctionAdd("401k", "401(k)");
             correctionAdd("41k", "401(k)");
@@ -83644,6 +83651,7 @@ namespace OverflowHelper.core
             //   <https://www.youtube.com/watch?v=RApoSEEeUL4>
             //   <https://www.youtube.com/watch?v=mYT5AyVAzE8>
             //
+            correctionAdd("Glo60", "MoErgo Go60"); // A true typo
             correctionAdd("Go60", "MoErgo Go60");
             correctionAdd("go60", "MoErgo Go60");
 
@@ -95293,9 +95301,6 @@ namespace OverflowHelper.core
             correctionAdd("playstore", "Google Play");
 
             correctionAdd("Google reader", "Google Reader");
-
-            // Of course also shut down...
-            correctionAdd("Google news cards", "Google News & Weather");
 
             correctionAdd("google storage", "Google Storage");
             correctionAdd("Google storage", "Google Storage");
@@ -118667,8 +118672,6 @@ namespace OverflowHelper.core
 
             URL_Add("HCL Notes", "https://en.wikipedia.org/wiki/HCL_Domino");
 
-            URL_Add("NP0 capacitor", "https://en.wikipedia.org/wiki/Ceramic_capacitor#Class_1_ceramic_capacitors");
-
             URL_Add("ageing", "https://en.wiktionary.org/wiki/ageing#Noun");
 
             URL_Add("dom0", "https://en.wikipedia.org/wiki/Xen#Software_architecture");
@@ -136505,6 +136508,8 @@ namespace OverflowHelper.core
 
             URL_Add("capacitors", "https://en.wikipedia.org/wiki/Capacitor");
 
+            URL_Add("NP0 capacitor", "https://en.wikipedia.org/wiki/Ceramic_capacitor#Class_1_ceramic_capacitors");
+
             URL_Add("&nbsp;F", "https://en.wikipedia.org/wiki/Farad");
 
             URL_Add("&nbsp;mF", "https://en.wikipedia.org/wiki/Farad#Definition");
@@ -148647,6 +148652,8 @@ namespace OverflowHelper.core
 
             URL_Add("ytterbium", "https://en.wikipedia.org/wiki/Ytterbium"); // Chemical element 70
 
+            URL_Add("electrolytic capacitor", "https://en.wikipedia.org/wiki/Electrolytic_capacitor");
+
             URL_Add("tantalum capacitor", "https://en.wikipedia.org/wiki/Tantalum_capacitor"); // Contains element 73
 
             URL_Add("tungsten", "https://en.wikipedia.org/wiki/Tungsten"); // Chemical element 74
@@ -160640,6 +160647,7 @@ namespace OverflowHelper.core
 
             correctionAdd("configurate_", "configure_");
             correctionAdd("configerate_", "configure_");
+            correctionAdd("confiqure_", "configure_");
             correctionAdd("configur_", "configure_");
             correctionAdd("configer_", "configure_");
             correctionAdd("config_", "configure_");
@@ -173150,6 +173158,7 @@ namespace OverflowHelper.core
             correctionAdd("Year old__", "-year-old__");
             correctionAdd("year-old__", "-year-old__");
             correctionAdd("yr old__", "-year-old__");
+            correctionAdd("yr Old__", "-year-old__");
             correctionAdd("y old__", "-year-old__");
             correctionAdd("y.o__", "-year-old__");
             correctionAdd("y/o__", "-year-old__");
@@ -183885,8 +183894,6 @@ namespace OverflowHelper.core
 
             URL_Add("than_____", "https://www.wikihow.com/Use-Than-and-Then");
 
-            URL_Add("flux capacitor_____", "https://en.wikipedia.org/wiki/DeLorean_time_machine#Flux_capacitor"); // Old: https://en.wikipedia.org/wiki/DeLorean_time_machine
-
             URL_Add("QMK macros_____", "https://getreuer.info/posts/keyboards/macros/index.html");
 
             URL_Add("the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____", "https://www.reddit.com/r/Keychron/comments/1j092s2/comment/ml0wljn/");
@@ -183906,6 +183913,8 @@ namespace OverflowHelper.core
             URL_Add("program counter_____", "https://en.wikipedia.org/wiki/Program_counter");
 
             URL_Add("genetic algorithm_____", "https://en.wikipedia.org/wiki/Genetic_algorithm");
+
+            URL_Add("flux capacitor_____", "https://en.wikipedia.org/wiki/DeLorean_time_machine#Flux_capacitor"); // Old: https://en.wikipedia.org/wiki/DeLorean_time_machine
 
             URL_Add("&nbsp;K_____", "https://en.wikipedia.org/wiki/Kelvin");
 
