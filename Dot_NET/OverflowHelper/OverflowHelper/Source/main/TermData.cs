@@ -9649,6 +9649,7 @@ namespace OverflowHelper.core
             correctionAdd("sice", "since");
             correctionAdd("sinc", "since");
             correctionAdd("sine", "since");
+            correctionAdd("sins", "since");
 
             // Note: "size" is in an alternative word set
             correctionAdd("re-size", "resize");
@@ -17487,6 +17488,17 @@ namespace OverflowHelper.core
             correctionAdd("nu", "Nushell");
             correctionAdd("Nu", "Nushell");
 
+            // Linux
+            //
+            // A toolkit for building a GUI desktop
+            // shell, based on Qt Quick.
+            correctionAdd("quickshell", "Quickshell");
+
+            // Linux
+            //
+            // A framework for building GUIs. Uses QML.
+            correctionAdd("QtQuick", "Qt Quick");
+
             // A debugger for Bash. Plugin for Eclipse.
             // Only works with ShellEd.
             correctionAdd("basheclipse", "BashEclipse");
@@ -17767,10 +17779,6 @@ namespace OverflowHelper.core
             correctionAdd("Lunduke", "Bryan Lunduke");
 
             // Linux.
-            correctionAdd("Distrowatch", "DistroWatch");
-            correctionAdd("distrowatch", "DistroWatch");
-
-            // Linux.
             correctionAdd("App Image", "AppImage");
             correctionAdd("app image", "AppImage");
             correctionAdd("appimage", "AppImage");
@@ -17893,6 +17901,13 @@ namespace OverflowHelper.core
             correctionAdd("Distros", "Linux distributions");
             correctionAdd("distos", "Linux distributions"); // Misspelling. Expansion.
             correctionAdd("dists", "Linux distributions");
+
+            // Linux.
+            correctionAdd("Distrowatch", "DistroWatch");
+            correctionAdd("distrowatch", "DistroWatch");
+
+            correctionAdd("distrohopping", "distro-hopping");
+            correctionAdd("distrohoppin'", "distro-hopping");
 
             // An installer for Linux distributions
             correctionAdd("calamares", "Calamares");
@@ -18199,6 +18214,10 @@ namespace OverflowHelper.core
             //     "Omarchy 3.3 has been released!"
             //     <https://iso.omarchy.org/omarchy-3.3.2.iso>
             //
+            //   <https://www.youtube.com/watch?v=F7fe9pa8OeE>
+            //     Omarchy 4. 2026-08-14.
+            //     <https://iso.omarchy.org/omarchy-4.0.1.iso>
+            //
             //   <https://www.youtube.com/watch?v=L3EafsSCv80>
             //     Omarchy 3. 2025-11-06.
             //
@@ -18246,13 +18265,23 @@ namespace OverflowHelper.core
             //
             //     REWORK (37signals' podcast): <https://www.rework.fm/>
             //
+            correctionAdd("Obloatchy", "Omarchy");
+            correctionAdd("Omarchy 4", "Omarchy"); // Is not 100% correct (is Omarchy 4)
+            correctionAdd("omarchy 4", "Omarchy"); // Is not 100% correct (is Omarchy 4)
+            correctionAdd("Quattro", "Omarchy"); // Is not 100% correct (is Omarchy 4)
+            correctionAdd("quattro", "Omarchy"); // Is not 100% correct (is Omarchy 4)
             correctionAdd("omarchy", "Omarchy");
 
-            // For managing multiple versions of Python. Included
-            // by default in Omarchy
+            // For managing multiple versions of Python (and others).
+            // Included by default in Omarchy
             correctionAdd("mise-en-place", "Mise En Place");
+            correctionAdd("meeze", "Mise En Place");
+            correctionAdd("meese", "Mise En Place");
             correctionAdd("mise", "Mise En Place");
             correctionAdd("Mise", "Mise En Place");
+            correctionAdd("MIZE", "Mise En Place");
+            correctionAdd("mize", "Mise En Place");
+            correctionAdd("mizf", "Mise En Place");
 
             // Linux. Ubuntu. The predecessor to Omarchy
             //
@@ -26950,6 +26979,9 @@ namespace OverflowHelper.core
 
             correctionAdd("flate", "flat");
 
+            // Linux
+            correctionAdd("Network Manager", "NetworkManager");
+
             correctionAdd("filie", "file");
             correctionAdd("fiel", "file"); // A true typo
             correctionAdd("fiie", "file");
@@ -30008,6 +30040,7 @@ namespace OverflowHelper.core
             correctionAdd("stsrted", "started");
             correctionAdd("startet", "started");
             correctionAdd("strated", "started");
+            correctionAdd("startec", "started"); // A true typo
             correctionAdd("stared", "started"); // Probably a true typo (missing input)
             correctionAdd("stard", "started");
 
@@ -31566,9 +31599,6 @@ namespace OverflowHelper.core
             correctionAdd("send-mailmessage", "Send-MailMessage");
 
             // Of PowerShell...
-            correctionAdd("install-package", "Install-Package");
-
-            // Of PowerShell...
             correctionAdd("test-connection", "Test-Connection");
 
             // Of PowerShell...
@@ -31879,6 +31909,9 @@ namespace OverflowHelper.core
 
             // .NET (e.g., used in PowerShell)
             correctionAdd("fileinfo", "FileInfo");
+
+            // Of PowerShell...
+            correctionAdd("install-package", "Install-Package");
 
             // Windows
             correctionAdd("RegEdit.exe", "RegEdit");
@@ -34439,6 +34472,7 @@ namespace OverflowHelper.core
             correctionAdd("leetspeak", "leet");
             correctionAdd("eleet", "leet");
             correctionAdd("1337", "leet");
+            correctionAdd("l337", "leet");
 
             correctionAdd("Leet code website", "LeetCode");
             correctionAdd("leet code website", "LeetCode");
@@ -36979,6 +37013,8 @@ namespace OverflowHelper.core
             correctionAdd("insall", "install");
             correctionAdd("Instal", "install");
             correctionAdd("instl", "install");
+
+            correctionAdd("isntalles", "installs");
 
             correctionAdd("Installating", "installing");
             correctionAdd("installating", "installing");
@@ -66172,6 +66208,7 @@ namespace OverflowHelper.core
             //     A tag, not an article.
             //
             correctionAdd("Omnipoint", "OmniPoint");
+            correctionAdd("omnipoint", "OmniPoint");
 
             correctionAdd("tpye", "type");
             correctionAdd("tipe", "type");
@@ -66602,6 +66639,10 @@ namespace OverflowHelper.core
             // Generator = input parameters for the keyboard and
             // files for 3D printing will be generated.
             //
+            // Not to be confused with Ubuntu 18.10 (Cosmic Cuttlefish),
+            // Cosmic C compiler (embedded systems), Azure Cosmos DB,
+            // or COSMIC (a Linux desktop environment).
+            //
             // Alternative URLs:
             //
             //   <https://ryanis.cool/cosmos/>
@@ -66609,6 +66650,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("Cosmos configurator", "Cosmos Keyboards");
             correctionAdd("Cosmos", "Cosmos Keyboards");
+            correctionAdd("cosmos", "Cosmos Keyboards");
 
             // Software for mechanical keyboards.
             // A keyboard layout editor
@@ -68126,6 +68168,7 @@ namespace OverflowHelper.core
             //     <https://world.hey.com/dhh/i-m-sorry-dave-380ec27d>
             //
             //   <https://www.youtube.com/playlist?list=PL3m89j0mV0peRhnSw1Gyi9mkMDEpZNsrn>
+            //   <https://www.youtube.com/@dhh37>
             //
             //     <https://world.hey.com/dhh/youtube-has-earned-its-crown-48f12ccc>
             //
@@ -82717,6 +82760,8 @@ namespace OverflowHelper.core
             //    <https://github.com/juhakaup/keyboards/tree/main/Cygnus%20v1.0>
             //
             //    <https://www.youtube.com/watch?v=h_ex-oMVOrI>
+            //
+            //    <https://kbd.news/Cygnus-1.0-2307.html>
             //
             correctionAdd("cygnus", "Cygnus");
 
@@ -101682,6 +101727,8 @@ namespace OverflowHelper.core
             correctionAdd("negociate", "negotiate");
             correctionAdd("negoiate", "negotiate");
 
+            correctionAdd("negociated", "negotiated");
+
             correctionAdd("negociation", "negotiation");
             correctionAdd("Negociation", "negotiation");
             correctionAdd("negotation", "negotiation");
@@ -104120,6 +104167,7 @@ namespace OverflowHelper.core
 
             correctionAdd("sddm", "SDDM");
 
+            correctionAdd("omagod", "OMG");
             correctionAdd("omg", "OMG");
             correctionAdd("Omg", "OMG");
 
@@ -111224,6 +111272,8 @@ namespace OverflowHelper.core
 
             URL_Add("attempting", "https://en.wiktionary.org/wiki/attempt#Verb");
 
+            URL_Add("NetworkManager", "https://en.wikipedia.org/wiki/NetworkManager");
+
             URL_Add("file", "https://en.wiktionary.org/wiki/file#Noun");
 
             URL_Add("impromptu", "https://en.wiktionary.org/wiki/impromptu#Adjective");
@@ -115456,8 +115506,6 @@ namespace OverflowHelper.core
 
             URL_Add("bioinformatics", "https://en.wikipedia.org/wiki/Bioinformatics");
 
-            URL_Add("cosmetology", "https://en.wikipedia.org/wiki/Cosmetology");
-
             URL_Add("cutting-edge", "https://en.wiktionary.org/wiki/cutting-edge#Adjective"); // Old: https://en.wiktionary.org/wiki/cutting-edge
 
             URL_Add("dispel", "https://en.wiktionary.org/wiki/dispel#Verb");
@@ -116779,10 +116827,6 @@ namespace OverflowHelper.core
             URL_Add("AVG AntiVirus", "https://en.wikipedia.org/wiki/AVG_AntiVirus");
 
             URL_Add("AppImage", "https://en.wikipedia.org/wiki/AppImage");
-
-            URL_Add("Bryan Lunduke", "https://www.youtube.com/user/BryanLunduke/videos");
-
-            URL_Add("DistroWatch", "https://en.wikipedia.org/wiki/DistroWatch");
 
             URL_Add("NIST", "https://en.wikipedia.org/wiki/National_Institute_of_Standards_and_Technology");
 
@@ -122300,8 +122344,6 @@ namespace OverflowHelper.core
 
             URL_Add("zram", "https://en.wikipedia.org/wiki/Zram");
 
-            URL_Add("cosmic rays", "https://en.wikipedia.org/wiki/Cosmic_ray");
-
             URL_Add("International Astronomical Union", "https://en.wikipedia.org/wiki/International_Astronomical_Union");
 
             URL_Add("Smack", "https://www.igniterealtime.org/projects/smack/index.jsp"); // Old: <http://www.igniterealtime.org/projects/smack/index.jsp>
@@ -126245,8 +126287,6 @@ namespace OverflowHelper.core
             URL_Add("Pollo AI", "https://pollo.ai/about-us");
 
             URL_Add("Patch Tuesday", "https://en.wikipedia.org/wiki/Patch_Tuesday");
-
-            URL_Add("Cosmic C compiler", "https://cosmic-software.com/compiler.php");
 
             URL_Add("Glide&nbsp;API", "https://en.wikipedia.org/wiki/Glide_API");
 
@@ -130208,8 +130248,6 @@ namespace OverflowHelper.core
 
             URL_Add("Pyright", "https://github.com/microsoft/pyright");
 
-            URL_Add("Cosmos Keyboards", "https://github.com/rianadon/Cosmos-Keyboards");
-
             URL_Add("LeetHub", "https://github.com/QasimWani/LeetHub");
 
             URL_Add("Octicons", "https://github.com/primer/octicons");
@@ -131034,7 +131072,7 @@ namespace OverflowHelper.core
 
             URL_Add("Forefront TMG", "https://en.wikipedia.org/wiki/Microsoft_Forefront_Threat_Management_Gateway");
 
-            URL_Add("Cygnus", "https://www.reddit.com/r/ErgoMechKeyboards/comments/1bsbdeq/cygnus_10_release_3x5_3x6_wireless_versions/");
+            URL_Add("Cygnus", "https://www.reddit.com/r/ErgoMechKeyboards/comments/1bsbdeq/comment/kxee7ho/"); // Old: <https://www.reddit.com/r/ErgoMechKeyboards/comments/1bsbdeq/cygnus_10_release_3x5_3x6_wireless_versions/>
 
             URL_Add("SiCK-68", "https://www.thingiverse.com/thing:3478494");
 
@@ -132833,32 +132871,6 @@ namespace OverflowHelper.core
             URL_Add("Arch Linux", "https://en.wikipedia.org/wiki/Arch_Linux");
 
             URL_Add("Pacman", "https://en.wikipedia.org/wiki/Arch_Linux#Pacman"); // Old: https://en.wikipedia.org/wiki/Pacman_%28package_manager%29
-
-            URL_Add("wavelength", "https://en.wikipedia.org/wiki/Wavelength");
-
-            URL_Add("de Broglie wavelength", "https://en.wikipedia.org/wiki/Matter_wave");
-
-            URL_Add("wavelike", "https://en.wiktionary.org/wiki/wavelike#Adjective");
-
-            URL_Add("wave packet", "https://en.wikipedia.org/wiki/Wave_packet");
-
-            URL_Add("wave function", "https://en.wikipedia.org/wiki/Wave_function");
-
-            URL_Add("wave equation", "https://en.wikipedia.org/wiki/Wave_equation");
-
-            URL_Add("waveform", "https://en.wikipedia.org/wiki/Waveform");
-
-            URL_Add("waveguide", "https://en.wikipedia.org/wiki/Waveguide");
-
-            URL_Add("sound wave", "https://en.wiktionary.org/wiki/sound_wave#Noun");
-
-            URL_Add("shock wave", "https://en.wiktionary.org/wiki/shock_wave#Noun");
-
-            URL_Add("cosmic microwave background", "https://en.wikipedia.org/wiki/Cosmic_microwave_background");
-
-            URL_Add("cosmic microwave background radiation", "https://en.wikipedia.org/wiki/Cosmic_microwave_background");
-
-            URL_Add("Shockwave", "https://en.wikipedia.org/wiki/Adobe_Shockwave");
 
             URL_Add("monopoly", "https://en.wiktionary.org/wiki/monopoly#Noun");
 
@@ -136177,114 +136189,6 @@ namespace OverflowHelper.core
             URL_Add("Laravel Mix", "https://laravel-mix.com/");
 
             URL_Add("Laravel Breeze", "https://github.com/laravel/breeze");
-
-            URL_Add("LTS", "https://ubuntu.com/about/release-cycle");
-
-            URL_Add("Ubuntu", "https://en.wikipedia.org/wiki/Ubuntu_%28operating_system%29");
-
-            URL_Add("Launchpad", "https://wiki.ubuntu.com/Launchpad");
-
-            URL_Add("Ubuntu One", "https://en.wikipedia.org/wiki/Ubuntu_One#Features");
-
-            URL_Add("Ubuntu Pro", "https://en.wikipedia.org/wiki/Ubuntu");
-
-            URL_Add("Ubuntu Kylin", "https://en.wikipedia.org/wiki/Ubuntu_Kylin");
-
-            URL_Add("Ubuntu Studio", "https://en.wikipedia.org/wiki/Ubuntu_Studio");
-
-            URL_Add("Ubuntu Hardware Enablement", "https://ubuntu.com/kernel/lifecycle");
-
-            URL_Add("Kubuntu", "https://en.wikipedia.org/wiki/Kubuntu");
-
-            URL_Add("Xubuntu", "https://en.wikipedia.org/wiki/Xubuntu");
-
-            URL_Add("Lubuntu", "https://en.wikipedia.org/wiki/Lubuntu");
-
-            URL_Add("Ubuntu&nbsp;MATE", "https://en.wikipedia.org/wiki/Ubuntu_MATE");
-
-            URL_Add("ChrUbuntu", "https://www.howtogeek.com/162120/how-to-install-ubuntu-linux-on-your-chromebook-with-crouton/");
-
-            URL_Add("Wubuntu", "https://ubuntuhandbook.org/index.php/2024/02/wubuntu-like-windows-10-11/");
-
-            URL_Add("Edubuntu", "https://en.wikipedia.org/wiki/Edubuntu");
-
-            URL_Add("Ubuntu&nbsp;4.10 (Warty Warthog)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_4.10_(Warty_Warthog)");
-
-            URL_Add("Ubuntu&nbsp;7.10 (Gutsy Gibbon)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_7.10_(Gutsy_Gibbon)");
-
-            URL_Add("Ubuntu&nbsp;8.04 (Hardy Heron)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_8.04_LTS_(Hardy_Heron)"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_8.04_LTS_.28Hardy_Heron.29>
-
-            URL_Add("Ubuntu&nbsp;8.10 (Intrepid Ibex)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_8.10_(Intrepid_Ibex)");
-
-            URL_Add("Ubuntu&nbsp;9.04 (Jaunty Jackalope)", "https://en.wikipedia.org/wiki/Jaunty#Ubuntu_9.04_(Jaunty_Jackalope)");
-
-            URL_Add("Ubuntu&nbsp;9.10 (Karmic Koala)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_9.10_.28Karmic_Koala.29");
-
-            URL_Add("Ubuntu&nbsp;10.04 (Lucid Lynx)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_10.04_LTS_.28Lucid_Lynx.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_10.04_LTS_.28Lucid_Lynx.29>
-
-            URL_Add("Ubuntu&nbsp;10.10 (Maverick Meerkat)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_10.10_.28Maverick_Meerkat.29");
-
-            URL_Add("Ubuntu&nbsp;11.04 (Natty Narwhal)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_11.04_.28Natty_Narwhal.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_11.04_.28Natty_Narwhal.29>
-
-            URL_Add("Ubuntu&nbsp;11.10 (Oneiric Ocelot)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_11.10_.28Oneiric_Ocelot.29");
-
-            URL_Add("Ubuntu&nbsp;12.04 (Precise Pangolin)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_12.04_LTS_.28Precise_Pangolin.29");
-
-            URL_Add("Ubuntu&nbsp;12.10 (Quantal Quetzal)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_12.10_.28Quantal_Quetzal.29");
-
-            URL_Add("Ubuntu&nbsp;13.04 (Raring Ringtail)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_13.04_.28Raring_Ringtail.29");
-
-            URL_Add("Ubuntu&nbsp;13.10 (Saucy Salamander)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_13.10_.28Saucy_Salamander.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_13.10_.28Saucy_Salamander.29>
-
-            URL_Add("Ubuntu&nbsp;14.04 (Trusty Tahr)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_14.04_LTS_.28Trusty_Tahr.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_14.04_LTS_.28Trusty_Tahr.29>
-
-            URL_Add("Ubuntu&nbsp;14.10 (Utopic Unicorn)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_14.10_.28Utopic_Unicorn.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_14.10_.28Utopic_Unicorn.29>
-
-            URL_Add("Ubuntu&nbsp;15.04 (Vivid Vervet)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_15.04_.28Vivid_Vervet.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_15.04_.28Vivid_Vervet.29>
-
-            URL_Add("Ubuntu&nbsp;15.10 (Wily Werewolf)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_15.10_.28Wily_Werewolf.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_15.10_.28Wily_Werewolf.29>
-
-            URL_Add("Ubuntu&nbsp;16.04 (Xenial Xerus)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_16.04_LTS_.28Xenial_Xerus.29");
-
-            URL_Add("Kubuntu&nbsp;16.04 (Xenial Xerus)", "https://en.wikipedia.org/wiki/Kubuntu#Releases");
-
-            URL_Add("Ubuntu&nbsp;16.10 (Yakkety Yak)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_16.10_.28Yakkety_Yak.29");
-
-            URL_Add("Ubuntu&nbsp;17.04 (Zesty Zapus)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_17.04_.28Zesty_Zapus.29");
-
-            URL_Add("Ubuntu&nbsp;17.10 (Artful Aardvark)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_17.10_.28Artful_Aardvark.29");
-
-            URL_Add("Ubuntu&nbsp;18.04 (Bionic Beaver)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_18.04_LTS_.28Bionic_Beaver.29");
-
-            URL_Add("Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_18.10_(Cosmic_Cuttlefish)");
-
-            URL_Add("Ubuntu&nbsp;19.10 (Eoan Ermine)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_19.10_(Eoan_Ermine)");
-
-            URL_Add("Ubuntu&nbsp;20.04 (Focal Fossa)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_20.04_LTS_(Focal_Fossa)");
-
-            URL_Add("Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)", "https://en.wikipedia.org/wiki/Ubuntu_MATE#Releases");
-
-            URL_Add("Kubuntu&nbsp;20.04 (Focal Fossa)", "https://en.wikipedia.org/wiki/Kubuntu#History");
-
-            URL_Add("Ubuntu&nbsp;20.10 (Groovy Gorilla)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_20.10_(Groovy_Gorilla)");
-
-            URL_Add("Ubuntu&nbsp;21.04 (Hirsute Hippo)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_21.04_(Hirsute_Hippo)");
-
-            URL_Add("Ubuntu&nbsp;21.10 (Impish Indri)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_21.10_(Impish_Indri)");
-
-            URL_Add("Ubuntu&nbsp;22.04 (Jammy Jellyfish)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_22.04_LTS_(Jammy_Jellyfish)");
-
-            URL_Add("Ubuntu&nbsp;22.10 (Kinetic Kudu)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_22.10_(Kinetic_Kudu)");
-
-            URL_Add("Ubuntu&nbsp;23.04 (Lunar Lobster)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_23.04_(Lunar_Lobster)");
-
-            URL_Add("Ubuntu&nbsp;23.10 (Mantic Minotaur)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_23.10_(Mantic_Minotaur)");
-
-            URL_Add("Ubuntu&nbsp;24.04 (Noble Numbat)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_24.04_LTS_(Noble_Numbat)");
-
-            URL_Add("Kubuntu&nbsp;24.04 (Noble Numbat)", "https://en.wikipedia.org/wiki/Kubuntu#Releases");
-
-            URL_Add("Ubuntu&nbsp;26.04 (Resolute Raccoon)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_26.04_LTS_(Resolute_Raccoon)");
 
             URL_Add("IRC", "https://en.wikipedia.org/wiki/Internet_Relay_Chat");
 
@@ -140880,38 +140784,6 @@ namespace OverflowHelper.core
 
             URL_Add("BPEL", "https://en.wikipedia.org/wiki/Business_Process_Execution_Language");
 
-            URL_Add("Active Directory forest", "https://en.wikipedia.org/wiki/Active_Directory#Forests,_trees,_and_domains");
-
-            URL_Add("Azure Active Directory B2C", "https://en.wikipedia.org/wiki/Microsoft_Azure#Identity");
-
-            URL_Add("Microsoft Azure", "https://en.wikipedia.org/wiki/Microsoft_Azure"); // Was https://en.wikipedia.org/wiki/Azure_Services_Platform
-
-            URL_Add("Azure AD", "https://en.wikipedia.org/wiki/Microsoft_Azure_Active_Directory");
-
-            URL_Add("ADSI", "https://en.wikipedia.org/wiki/Active_Directory#Logical_structure");
-
-            URL_Add("Azure Cosmos DB", "https://en.wikipedia.org/wiki/Cosmos_DB");
-
-            URL_Add("Azure DevOps", "https://en.wikipedia.org/wiki/Azure_DevOps_Server");
-
-            URL_Add("Azure Synapse", "https://learn.microsoft.com/en-us/azure/synapse-analytics/overview-what-is");
-
-            URL_Add("Azure Pipelines", "https://learn.microsoft.com/en-us/azure/devops/pipelines/get-started/what-is-azure-pipelines?view=azure-devops");
-
-            URL_Add("Azure Data Studio", "https://docs.microsoft.com/en-us/sql/azure-data-studio/what-is-azure-data-studio");
-
-            URL_Add("Azure SDK", "https://learn.microsoft.com/en-us/dotnet/azure/sdk/azure-sdk-for-dotnet");
-
-            URL_Add("Azure Blob Storage", "https://azure.microsoft.com/en-us/services/storage/blobs/");
-
-            URL_Add("Azure Data Factory", "https://en.wikipedia.org/wiki/Microsoft_Azure#Data_management");
-
-            URL_Add("Azure Repos", "https://azure.microsoft.com/en-us/services/devops/repos/");
-
-            URL_Add("Azure IoT Hub", "https://stackoverflow.com/tags/azure-iot-hub/info");
-
-            URL_Add("Azure Event Hubs", "https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-about");
-
             URL_Add("Swift", "https://en.wikipedia.org/wiki/Swift_(programming_language)");
 
             URL_Add("Go", "https://en.wikipedia.org/wiki/Go_%28programming_language%29");
@@ -145006,6 +144878,10 @@ namespace OverflowHelper.core
 
             URL_Add("Nushell", "https://www.nushell.sh/book/");
 
+            URL_Add("Quickshell", "https://quickshell.org/about/");
+
+            URL_Add("Qt Quick", "https://en.wikipedia.org/wiki/Qt_Quick");
+
             URL_Add("ShellCheck", "https://www.shellcheck.net/");
 
             URL_Add("Shellshock", "https://en.wikipedia.org/wiki/Shellshock_%28software_bug%29");
@@ -145695,6 +145571,12 @@ namespace OverflowHelper.core
             URL_Add("Linux distribution", "https://en.wikipedia.org/wiki/Linux_distribution");
 
             URL_Add("Linux distributions", "https://en.wikipedia.org/wiki/Linux_distribution");
+
+            URL_Add("DistroWatch", "https://en.wikipedia.org/wiki/DistroWatch");
+
+            URL_Add("distro-hopping", "https://en.wiktionary.org/wiki/distro-hopping#Noun");
+
+            URL_Add("Bryan Lunduke", "https://www.youtube.com/user/BryanLunduke/videos");
 
             URL_Add("Linux Journal", "https://en.wikipedia.org/wiki/Linux_Journal");
 
@@ -149725,6 +149607,184 @@ namespace OverflowHelper.core
             URL_Add("Godwin's law", "https://en.wikipedia.org/wiki/Godwin's_law");
 
             URL_Add("Sugru", "https://en.wikipedia.org/wiki/Sugru");
+
+            URL_Add("Cosmos Keyboards", "https://github.com/rianadon/Cosmos-Keyboards");
+
+            URL_Add("cosmetology", "https://en.wikipedia.org/wiki/Cosmetology");
+
+            URL_Add("Cosmic C compiler", "https://cosmic-software.com/compiler.php");
+
+            URL_Add("cosmic rays", "https://en.wikipedia.org/wiki/Cosmic_ray");
+
+            URL_Add("cosmic microwave background", "https://en.wikipedia.org/wiki/Cosmic_microwave_background");
+
+            URL_Add("cosmic microwave background radiation", "https://en.wikipedia.org/wiki/Cosmic_microwave_background");
+
+            URL_Add("wavelength", "https://en.wikipedia.org/wiki/Wavelength");
+
+            URL_Add("de Broglie wavelength", "https://en.wikipedia.org/wiki/Matter_wave");
+
+            URL_Add("wavelike", "https://en.wiktionary.org/wiki/wavelike#Adjective");
+
+            URL_Add("wave packet", "https://en.wikipedia.org/wiki/Wave_packet");
+
+            URL_Add("wave function", "https://en.wikipedia.org/wiki/Wave_function");
+
+            URL_Add("wave equation", "https://en.wikipedia.org/wiki/Wave_equation");
+
+            URL_Add("waveform", "https://en.wikipedia.org/wiki/Waveform");
+
+            URL_Add("waveguide", "https://en.wikipedia.org/wiki/Waveguide");
+
+            URL_Add("sound wave", "https://en.wiktionary.org/wiki/sound_wave#Noun");
+
+            URL_Add("shock wave", "https://en.wiktionary.org/wiki/shock_wave#Noun");
+
+            URL_Add("Shockwave", "https://en.wikipedia.org/wiki/Adobe_Shockwave");
+
+            URL_Add("LTS", "https://ubuntu.com/about/release-cycle");
+
+            URL_Add("Ubuntu", "https://en.wikipedia.org/wiki/Ubuntu_%28operating_system%29");
+
+            URL_Add("Launchpad", "https://wiki.ubuntu.com/Launchpad");
+
+            URL_Add("Ubuntu One", "https://en.wikipedia.org/wiki/Ubuntu_One#Features");
+
+            URL_Add("Ubuntu Pro", "https://en.wikipedia.org/wiki/Ubuntu");
+
+            URL_Add("Ubuntu Kylin", "https://en.wikipedia.org/wiki/Ubuntu_Kylin");
+
+            URL_Add("Ubuntu Studio", "https://en.wikipedia.org/wiki/Ubuntu_Studio");
+
+            URL_Add("Ubuntu Hardware Enablement", "https://ubuntu.com/kernel/lifecycle");
+
+            URL_Add("Kubuntu", "https://en.wikipedia.org/wiki/Kubuntu");
+
+            URL_Add("Xubuntu", "https://en.wikipedia.org/wiki/Xubuntu");
+
+            URL_Add("Lubuntu", "https://en.wikipedia.org/wiki/Lubuntu");
+
+            URL_Add("Ubuntu&nbsp;MATE", "https://en.wikipedia.org/wiki/Ubuntu_MATE");
+
+            URL_Add("ChrUbuntu", "https://www.howtogeek.com/162120/how-to-install-ubuntu-linux-on-your-chromebook-with-crouton/");
+
+            URL_Add("Wubuntu", "https://ubuntuhandbook.org/index.php/2024/02/wubuntu-like-windows-10-11/");
+
+            URL_Add("Edubuntu", "https://en.wikipedia.org/wiki/Edubuntu");
+
+            URL_Add("Ubuntu&nbsp;4.10 (Warty Warthog)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_4.10_(Warty_Warthog)");
+
+            URL_Add("Ubuntu&nbsp;7.10 (Gutsy Gibbon)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_7.10_(Gutsy_Gibbon)");
+
+            URL_Add("Ubuntu&nbsp;8.04 (Hardy Heron)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_8.04_LTS_(Hardy_Heron)"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_8.04_LTS_.28Hardy_Heron.29>
+
+            URL_Add("Ubuntu&nbsp;8.10 (Intrepid Ibex)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_8.10_(Intrepid_Ibex)");
+
+            URL_Add("Ubuntu&nbsp;9.04 (Jaunty Jackalope)", "https://en.wikipedia.org/wiki/Jaunty#Ubuntu_9.04_(Jaunty_Jackalope)");
+
+            URL_Add("Ubuntu&nbsp;9.10 (Karmic Koala)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_9.10_.28Karmic_Koala.29");
+
+            URL_Add("Ubuntu&nbsp;10.04 (Lucid Lynx)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_10.04_LTS_.28Lucid_Lynx.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_10.04_LTS_.28Lucid_Lynx.29>
+
+            URL_Add("Ubuntu&nbsp;10.10 (Maverick Meerkat)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_10.10_.28Maverick_Meerkat.29");
+
+            URL_Add("Ubuntu&nbsp;11.04 (Natty Narwhal)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_11.04_.28Natty_Narwhal.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_11.04_.28Natty_Narwhal.29>
+
+            URL_Add("Ubuntu&nbsp;11.10 (Oneiric Ocelot)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_11.10_.28Oneiric_Ocelot.29");
+
+            URL_Add("Ubuntu&nbsp;12.04 (Precise Pangolin)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_12.04_LTS_.28Precise_Pangolin.29");
+
+            URL_Add("Ubuntu&nbsp;12.10 (Quantal Quetzal)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_12.10_.28Quantal_Quetzal.29");
+
+            URL_Add("Ubuntu&nbsp;13.04 (Raring Ringtail)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_13.04_.28Raring_Ringtail.29");
+
+            URL_Add("Ubuntu&nbsp;13.10 (Saucy Salamander)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_13.10_.28Saucy_Salamander.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_13.10_.28Saucy_Salamander.29>
+
+            URL_Add("Ubuntu&nbsp;14.04 (Trusty Tahr)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_14.04_LTS_.28Trusty_Tahr.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_14.04_LTS_.28Trusty_Tahr.29>
+
+            URL_Add("Ubuntu&nbsp;14.10 (Utopic Unicorn)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_14.10_.28Utopic_Unicorn.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_14.10_.28Utopic_Unicorn.29>
+
+            URL_Add("Ubuntu&nbsp;15.04 (Vivid Vervet)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_15.04_.28Vivid_Vervet.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_15.04_.28Vivid_Vervet.29>
+
+            URL_Add("Ubuntu&nbsp;15.10 (Wily Werewolf)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_15.10_.28Wily_Werewolf.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_15.10_.28Wily_Werewolf.29>
+
+            URL_Add("Ubuntu&nbsp;16.04 (Xenial Xerus)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_16.04_LTS_.28Xenial_Xerus.29");
+
+            URL_Add("Kubuntu&nbsp;16.04 (Xenial Xerus)", "https://en.wikipedia.org/wiki/Kubuntu#Releases");
+
+            URL_Add("Ubuntu&nbsp;16.10 (Yakkety Yak)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_16.10_.28Yakkety_Yak.29");
+
+            URL_Add("Ubuntu&nbsp;17.04 (Zesty Zapus)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_17.04_.28Zesty_Zapus.29");
+
+            URL_Add("Ubuntu&nbsp;17.10 (Artful Aardvark)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_17.10_.28Artful_Aardvark.29");
+
+            URL_Add("Ubuntu&nbsp;18.04 (Bionic Beaver)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_18.04_LTS_.28Bionic_Beaver.29");
+
+            URL_Add("Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_18.10_(Cosmic_Cuttlefish)");
+
+            URL_Add("Ubuntu&nbsp;19.10 (Eoan Ermine)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_19.10_(Eoan_Ermine)");
+
+            URL_Add("Ubuntu&nbsp;20.04 (Focal Fossa)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_20.04_LTS_(Focal_Fossa)");
+
+            URL_Add("Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)", "https://en.wikipedia.org/wiki/Ubuntu_MATE#Releases");
+
+            URL_Add("Kubuntu&nbsp;20.04 (Focal Fossa)", "https://en.wikipedia.org/wiki/Kubuntu#History");
+
+            URL_Add("Ubuntu&nbsp;20.10 (Groovy Gorilla)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_20.10_(Groovy_Gorilla)");
+
+            URL_Add("Ubuntu&nbsp;21.04 (Hirsute Hippo)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_21.04_(Hirsute_Hippo)");
+
+            URL_Add("Ubuntu&nbsp;21.10 (Impish Indri)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_21.10_(Impish_Indri)");
+
+            URL_Add("Ubuntu&nbsp;22.04 (Jammy Jellyfish)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_22.04_LTS_(Jammy_Jellyfish)");
+
+            URL_Add("Ubuntu&nbsp;22.10 (Kinetic Kudu)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_22.10_(Kinetic_Kudu)");
+
+            URL_Add("Ubuntu&nbsp;23.04 (Lunar Lobster)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_23.04_(Lunar_Lobster)");
+
+            URL_Add("Ubuntu&nbsp;23.10 (Mantic Minotaur)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_23.10_(Mantic_Minotaur)");
+
+            URL_Add("Ubuntu&nbsp;24.04 (Noble Numbat)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_24.04_LTS_(Noble_Numbat)");
+
+            URL_Add("Kubuntu&nbsp;24.04 (Noble Numbat)", "https://en.wikipedia.org/wiki/Kubuntu#Releases");
+
+            URL_Add("Ubuntu&nbsp;26.04 (Resolute Raccoon)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_26.04_LTS_(Resolute_Raccoon)");
+
+            URL_Add("Active Directory forest", "https://en.wikipedia.org/wiki/Active_Directory#Forests,_trees,_and_domains");
+
+            URL_Add("Azure Active Directory B2C", "https://en.wikipedia.org/wiki/Microsoft_Azure#Identity");
+
+            URL_Add("Microsoft Azure", "https://en.wikipedia.org/wiki/Microsoft_Azure"); // Was https://en.wikipedia.org/wiki/Azure_Services_Platform
+
+            URL_Add("Azure AD", "https://en.wikipedia.org/wiki/Microsoft_Azure_Active_Directory");
+
+            URL_Add("ADSI", "https://en.wikipedia.org/wiki/Active_Directory#Logical_structure");
+
+            URL_Add("Azure Cosmos DB", "https://en.wikipedia.org/wiki/Cosmos_DB");
+
+            URL_Add("Azure DevOps", "https://en.wikipedia.org/wiki/Azure_DevOps_Server");
+
+            URL_Add("Azure Synapse", "https://learn.microsoft.com/en-us/azure/synapse-analytics/overview-what-is");
+
+            URL_Add("Azure Pipelines", "https://learn.microsoft.com/en-us/azure/devops/pipelines/get-started/what-is-azure-pipelines?view=azure-devops");
+
+            URL_Add("Azure Data Studio", "https://docs.microsoft.com/en-us/sql/azure-data-studio/what-is-azure-data-studio");
+
+            URL_Add("Azure SDK", "https://learn.microsoft.com/en-us/dotnet/azure/sdk/azure-sdk-for-dotnet");
+
+            URL_Add("Azure Blob Storage", "https://azure.microsoft.com/en-us/services/storage/blobs/");
+
+            URL_Add("Azure Data Factory", "https://en.wikipedia.org/wiki/Microsoft_Azure#Data_management");
+
+            URL_Add("Azure Repos", "https://azure.microsoft.com/en-us/services/devops/repos/");
+
+            URL_Add("Azure IoT Hub", "https://stackoverflow.com/tags/azure-iot-hub/info");
+
+            URL_Add("Azure Event Hubs", "https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-about");
+
+            URL_Add("installs", "https://en.wiktionary.org/wiki/install#Verb");
+
+            URL_Add("negotiated", "https://en.wiktionary.org/wiki/negotiate#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -154802,6 +154862,7 @@ namespace OverflowHelper.core
             correctionAdd("windows key_", "Windows key_");
             correctionAdd("Window key_", "Windows key_");
             correctionAdd("windowskey_", "Windows key_");
+            correctionAdd("tiling key_", "Windows key_");
             correctionAdd("Windowkey_", "Windows key_");
             correctionAdd("WIN-keys_", "Windows key_");
             correctionAdd("win key_", "Windows key_");
@@ -159852,6 +159913,10 @@ namespace OverflowHelper.core
 
             // Related to Pop!_OS (Linux) and GNOME
             //
+            // Not to be confused with Ubuntu 18.10 (Cosmic Cuttlefish),
+            // Cosmic C compiler (embedded systems), or Cosmos Keyboards
+            // (a configurator for split mechanical keyboards).
+            //
             // Alternative URLs:
             //
             //   <https://en.wikipedia.org/wiki/Pop!_OS#Features>
@@ -163759,6 +163824,7 @@ namespace OverflowHelper.core
             correctionAdd("expcet_", "expect_");
             correctionAdd("except_", "expect_");
             correctionAdd("expept_", "expect_");
+            correctionAdd("spect_", "expect_");
 
             correctionAdd("hem_", "Hem_");
 
@@ -164846,6 +164912,10 @@ namespace OverflowHelper.core
 
             correctionAdd("prace_", "peace_");
 
+            // Linux
+            // Used by Qt Quick
+            correctionAdd("Qt Meta-object Language_", "QML_");
+            correctionAdd("Qt meta-object language_", "QML_");
             correctionAdd("qml_", "QML_");
             correctionAdd("Qml_", "QML_");
 
@@ -166911,8 +166981,6 @@ namespace OverflowHelper.core
             URL_Add("Deutsche Bahn_", "https://en.wikipedia.org/wiki/Deutsche_Bahn");
 
             URL_Add("static electricity_", "https://en.wikipedia.org/wiki/Static_electricity#Electronic_components");
-
-            URL_Add("COSMIC_", "https://en.wikipedia.org/wiki/COSMIC_(desktop_environment)"); // Old: <https://en.wikipedia.org/wiki/Pop!_OS#Features>
 
             URL_Add("Magnus Carlsen_", "https://en.wikipedia.org/wiki/Magnus_Carlsen");
 
@@ -170575,6 +170643,8 @@ namespace OverflowHelper.core
             URL_Add("Thorium_", "https://news.slashdot.org/story/24/03/31/2250209/thorium-the-fastest-open-source-chromium-based-browser"); // From chemical element 90
 
             URL_Add("ångström_", "https://en.wikipedia.org/wiki/Angstrom");
+
+            URL_Add("COSMIC_", "https://en.wikipedia.org/wiki/COSMIC_desktop"); // Old: <https://en.wikipedia.org/wiki/Pop!_OS#Features>, <https://en.wikipedia.org/wiki/COSMIC_(desktop_environment)>
 
         } //addLookupData_alternativeWordSet()
 
@@ -179215,6 +179285,7 @@ namespace OverflowHelper.core
             correctionAdd("Silicon MAC___", "Apple silicon___");
             correctionAdd("Silicon Mac___", "Apple silicon___");
             correctionAdd("Mac Silicon___", "Apple silicon___");
+            correctionAdd("Mac silicon___", "Apple silicon___");
             correctionAdd("apple chip___", "Apple silicon___");
             correctionAdd("Silicon___", "Apple silicon___");
             correctionAdd("silicon___", "Apple silicon___");
