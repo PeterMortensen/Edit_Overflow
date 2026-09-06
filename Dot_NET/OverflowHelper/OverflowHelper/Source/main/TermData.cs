@@ -18386,6 +18386,7 @@ namespace OverflowHelper.core
             //
             //     REWORK (37signals' podcast): <https://www.rework.fm/>
             //
+            correctionAdd("Omarchy Quattro", "Omarchy"); // Is not 100% correct (is Omarchy 4)
             correctionAdd("Obloatchy", "Omarchy");
             correctionAdd("Omarchy 4", "Omarchy"); // Is not 100% correct (is Omarchy 4)
             correctionAdd("omarchy 4", "Omarchy"); // Is not 100% correct (is Omarchy 4)
@@ -63457,14 +63458,32 @@ namespace OverflowHelper.core
             //   <https://www.gloriousgaming.com/blogs/guides-resources/pom-plastic-s-use-in-mechanical-keyboards-explained>
             //   <https://en.wikipedia.org/wiki/Polyoxymethylene#Usage>
             //
+            //   <https://www.theremingoat.com/blog/wuque-ws-pom-switch-review>
+            //     Published 2024-08-18.
+            //     "POM has been the default stem material in
+            //      all modern MX-style switches since the
+            //      MX footprint was first invented"
+            //
+            //     "“self lubricating” nature ... POM thermoplastic
+            //      material, on its own, does not self lubricate ...
+            //      can be made to be self lubricating, though,
+            //      via the use of processing modifiers."
+            //
+            //      'Break In' (of switches)
+            //
             correctionAdd("Polyoxymethyleneor", "POM");
             correctionAdd("polyoxymethyleneor", "POM");
             correctionAdd("polyoxymethylene", "POM");
             correctionAdd("Polyoxymethylene", "POM");
             correctionAdd("polyformaldehyde", "POM");
+            correctionAdd("Polyformaldehyde", "POM");
             correctionAdd("polyacetal", "POM");
+            correctionAdd("Polyacetal", "POM");
+            correctionAdd("Ultraform", "POM");
             correctionAdd("acetal", "POM");
             correctionAdd("Delrin", "POM");
+            correctionAdd("Acetal", "POM");
+            correctionAdd("Celcon", "POM");
             correctionAdd("pom", "POM");
 
             correctionAdd("acrilyc", "acrylic");
@@ -156829,6 +156848,7 @@ namespace OverflowHelper.core
             correctionAdd("KC launcher_", "Keychron Launcher_");
             correctionAdd("Weblauncher_", "Keychron Launcher_");
             correctionAdd("The website_", "Keychron Launcher_");
+            correctionAdd("Web Lancher_", "Keychron Launcher_");
             correctionAdd("Via clone_", "Keychron Launcher_");
             correctionAdd("via clone_", "Keychron Launcher_");
             correctionAdd("its clone_", "Keychron Launcher_");
@@ -156848,6 +156868,7 @@ namespace OverflowHelper.core
             correctionAdd("laucher_", "Keychron Launcher_"); // A typo
             correctionAdd("Luncher_", "Keychron Launcher_"); // A typo
             correctionAdd("luncher_", "Keychron Launcher_"); // A typo
+            correctionAdd("Lancher_", "Keychron Launcher_");
             correctionAdd("LWC_", "Keychron Launcher_");
             correctionAdd("KL_", "Keychron Launcher_");
 
@@ -177013,6 +177034,8 @@ namespace OverflowHelper.core
             correctionAdd("Rd___", "Redragon___"); // A SIA
             correctionAdd("RD___", "Redragon___"); // A SIA
 
+            correctionAdd("lube___", "lubrication___");
+
             correctionAdd("overlubrication___", "K10 V2 with overlubricated switches___");
             correctionAdd("overlubricated___", "K10 V2 with overlubricated switches___");
             correctionAdd("overlubricate___", "K10 V2 with overlubricated switches___");
@@ -179915,6 +179938,8 @@ namespace OverflowHelper.core
             URL_Add("nRF5340___", "https://en.wikipedia.org/wiki/Nordic_Semiconductor#nRF53_Series_SoC");
 
             URL_Add("nRF52840___", "https://en.wikipedia.org/wiki/Nordic_Semiconductor#nRF52_Series_SoCs");
+
+            URL_Add("lubrication___", "https://en.wiktionary.org/wiki/lubrication#Noun");
 
             URL_Add("K10 V2 with overlubricated switches___", "https://www.reddit.com/r/Keychron/comments/1n9l1m0/comment/ncptj9i/");
 
