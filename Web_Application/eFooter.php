@@ -74,9 +74,18 @@
     #
     function get_EditOverflowFooter($aParentPage, $aLinkText, $aURL)
     {
-        #What about encoding of the URL??? (e.g. if it contains "&")???
+        #What about encoding of the URL??? (e.g., if it contains "&")???
         #
-        $linkBuilerPartialURL = "Link_Builder.php?LinkText=$aLinkText&URL=$aURL";
+        #$linkBuilerPartialURL = "Link_Builder.php?LinkText=$aLinkText&URL=$aURL";
+
+        # Only for "#" (but there must be a standard way...)
+        $URL_encoded = preg_replace('/\#/', '%23', $aURL);
+        
+        $linkBuilerPartialURL =
+          "Link_Builder.php?" . 
+          #"OverflowStyle=Native&" .   For local testing
+          "LinkText=" . rawurlencode($aLinkText) .
+          "&URL=" . $URL_encoded;
 
 
         # Note: Any keyboard shortcuts used in the footer can conflict
