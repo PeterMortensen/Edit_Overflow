@@ -1240,6 +1240,8 @@ namespace OverflowHelper.core
 
             correctionAdd("rivaling", "rival");
 
+            correctionAdd("ove", "over");
+
             correctionAdd("ild", "old");
             correctionAdd("unc", "old");
 
@@ -110593,10 +110595,6 @@ namespace OverflowHelper.core
 
             URL_Add("kindergarten", "https://en.wiktionary.org/wiki/kindergarten#Noun");
 
-            URL_Add("overridable", "https://en.wiktionary.org/wiki/overridable#Adjective");
-
-            URL_Add("overthink", "https://en.wiktionary.org/wiki/overthink#Verb_2");
-
             URL_Add("sincerely", "https://en.wiktionary.org/wiki/sincerely#Adverb");
 
             URL_Add("specific", "https://en.wiktionary.org/wiki/specific#Adjective");
@@ -111813,8 +111811,6 @@ namespace OverflowHelper.core
 
             URL_Add("biggest", "https://en.wiktionary.org/wiki/biggest#Adjective");
 
-            URL_Add("overall", "https://en.wiktionary.org/wiki/overall#Adjective");
-
             URL_Add("popular", "https://en.wiktionary.org/wiki/popular#Adjective");
 
             URL_Add("what", "https://en.wiktionary.org/wiki/what#Pronoun");
@@ -112093,8 +112089,6 @@ namespace OverflowHelper.core
 
             URL_Add("graphics", "https://en.wiktionary.org/wiki/graphics#Noun");
 
-            URL_Add("override", "https://en.wiktionary.org/wiki/override#Verb");
-
             URL_Add("stupidest", "https://en.wiktionary.org/wiki/stupid#Adjective");
 
             URL_Add("superscript", "https://en.wiktionary.org/wiki/superscript#Noun");
@@ -112346,8 +112340,6 @@ namespace OverflowHelper.core
             URL_Add("Pug", "https://pugjs.org/api/getting-started.html");
 
             URL_Add("carpal tunnel syndrome", "https://en.wikipedia.org/wiki/Carpal_tunnel_syndrome");
-
-            URL_Add("overcome", "https://en.wiktionary.org/wiki/overcome#Verb");
 
             URL_Add("satire", "https://en.wiktionary.org/wiki/satire#Noun");
 
@@ -112745,8 +112737,6 @@ namespace OverflowHelper.core
 
             URL_Add("misdirection", "https://en.wiktionary.org/wiki/misdirection#Noun");
 
-            URL_Add("overridden", "https://en.wiktionary.org/wiki/override#Verb");
-
             URL_Add("Twilio", "https://en.wikipedia.org/wiki/Twilio");
 
             URL_Add("narcissist", "https://en.wiktionary.org/wiki/narcissist#Noun");
@@ -112800,8 +112790,6 @@ namespace OverflowHelper.core
             URL_Add("Nim", "https://en.wikipedia.org/wiki/Nim_(programming_language)");
 
             URL_Add("disservice", "https://en.wiktionary.org/wiki/disservice#Noun");
-
-            URL_Add("oversimplify", "https://en.wiktionary.org/wiki/oversimplify#Verb");
 
             URL_Add("reeducation", "https://en.wiktionary.org/wiki/reeducation#Noun");
 
@@ -112876,8 +112864,6 @@ namespace OverflowHelper.core
             URL_Add("committee", "https://en.wiktionary.org/wiki/committee#Noun");
 
             URL_Add("mould", "https://en.wiktionary.org/wiki/mould#Verb");
-
-            URL_Add("overuse", "https://en.wiktionary.org/wiki/overuse#Verb");
 
             URL_Add("zealotry", "https://en.wiktionary.org/wiki/zealotry#Noun");
 
@@ -114257,8 +114243,6 @@ namespace OverflowHelper.core
 
             URL_Add("figuratively", "https://en.wiktionary.org/wiki/figuratively#Adverb");
 
-            URL_Add("overwhelming", "https://en.wiktionary.org/wiki/overwhelming#Adjective");
-
             URL_Add("seldomly", "https://en.wiktionary.org/wiki/seldomly#Adverb");
 
             URL_Add("sent", "https://en.wiktionary.org/wiki/send#Verb");
@@ -114839,8 +114823,6 @@ namespace OverflowHelper.core
 
             URL_Add("ability", "https://en.wiktionary.org/wiki/ability#Noun");
 
-            URL_Add("overhead", "https://en.wiktionary.org/wiki/overhead#Noun");
-
             URL_Add("Dask", "https://en.wikipedia.org/wiki/Dask_(software)");
 
             URL_Add("carriage return", "https://en.wiktionary.org/wiki/carriage_return#Noun");
@@ -114850,8 +114832,6 @@ namespace OverflowHelper.core
             URL_Add("gate array", "https://en.wikipedia.org/wiki/Gate_array");
 
             URL_Add("home page", "https://en.wiktionary.org/wiki/home_page#Noun");
-
-            URL_Add("overriding", "https://en.wiktionary.org/wiki/override#Verb");
 
             URL_Add("practitioners", "https://en.wiktionary.org/wiki/practitioner#Noun");
 
@@ -114958,8 +114938,6 @@ namespace OverflowHelper.core
             URL_Add("outdated", "https://en.wiktionary.org/wiki/outdated#Adjective");
 
             URL_Add("JIT compiler", "https://en.wikipedia.org/wiki/Just-in-time_compilation");
-
-            URL_Add("overreact", "https://en.wiktionary.org/wiki/overreact#Verb");
 
             URL_Add("sanitation", "https://en.wiktionary.org/wiki/sanitation#Noun");
 
@@ -115124,8 +115102,6 @@ namespace OverflowHelper.core
             URL_Add("professionality", "https://en.wiktionary.org/wiki/professionality#Noun");
 
             URL_Add("ip addr", "https://en.wikipedia.org/wiki/Iproute2");
-
-            URL_Add("overcomplicated", "https://en.wiktionary.org/wiki/overcomplicated#Adjective");
 
             URL_Add("pick", "https://en.wiktionary.org/wiki/pick#Verb");
 
@@ -115749,8 +115725,6 @@ namespace OverflowHelper.core
 
             URL_Add("Schrödinger's cat", "https://en.wikipedia.org/wiki/Schr%C3%B6dinger's_cat");
 
-            URL_Add("overdone", "https://en.wiktionary.org/wiki/overdo#Verb");
-
             URL_Add("responsiveness", "https://en.wiktionary.org/wiki/responsiveness#Noun");
 
             URL_Add("Fortran 90", "https://en.wikipedia.org/wiki/Fortran#Fortran_90");
@@ -116078,8 +116052,6 @@ namespace OverflowHelper.core
             URL_Add("high-performance computing", "https://en.wikipedia.org/wiki/Supercomputer#High-performance_computing_clouds");
 
             URL_Add("list comprehension", "https://en.wikipedia.org/wiki/List_comprehension#Python"); // Old: https://en.wikipedia.org/wiki/List_comprehension
-
-            URL_Add("overcomplicate", "https://en.wiktionary.org/wiki/overcomplicate#Verb");
 
             URL_Add("precedence", "https://en.wiktionary.org/wiki/precedence#Noun");
 
@@ -117371,8 +117343,6 @@ namespace OverflowHelper.core
 
             URL_Add("notetaking", "https://en.wiktionary.org/wiki/notetaking#Noun");
 
-            URL_Add("overcomplex", "https://en.wiktionary.org/wiki/overcomplex#Adjective");
-
             URL_Add("downgraded", "https://en.wiktionary.org/wiki/downgrade#Verb");
 
             URL_Add("evolve", "https://en.wiktionary.org/wiki/evolve#Verb");
@@ -117448,8 +117418,6 @@ namespace OverflowHelper.core
             URL_Add("metaheuristic", "https://en.wikipedia.org/wiki/Metaheuristic");
 
             URL_Add("omitted", "https://en.wiktionary.org/wiki/omit#Verb");
-
-            URL_Add("overused", "https://en.wiktionary.org/wiki/overuse#Verb");
 
             URL_Add("square", "https://en.wiktionary.org/wiki/square#Noun");
 
@@ -117637,8 +117605,6 @@ namespace OverflowHelper.core
 
             URL_Add("enabling", "https://en.wiktionary.org/wiki/enable#Verb");
 
-            URL_Add("overemphasising", "https://en.wiktionary.org/wiki/overemphasise#Verb");
-
             URL_Add("recover", "https://en.wiktionary.org/wiki/recover#Verb");
 
             URL_Add("reprogram", "https://en.wiktionary.org/wiki/reprogram#Verb");
@@ -117715,13 +117681,9 @@ namespace OverflowHelper.core
 
             URL_Add("Microcks", "https://microcks.io/blog/");
 
-            URL_Add("overreported", "https://en.wiktionary.org/wiki/overreport#Verb");
-
             URL_Add("suppressed", "https://en.wiktionary.org/wiki/suppress#Verb");
 
             URL_Add("elaborate", "https://en.wiktionary.org/wiki/elaborate#Verb");
-
-            URL_Add("overzealous", "https://en.wiktionary.org/wiki/overzealous#Adjective");
 
             URL_Add("Eloquence", "https://eloquence.marxmeier.com/sales/info.html");
 
@@ -117730,8 +117692,6 @@ namespace OverflowHelper.core
             URL_Add("evergrowing", "https://en.wiktionary.org/wiki/evergrowing#Adjective");
 
             URL_Add("momentum", "https://en.wiktionary.org/wiki/momentum#Noun");
-
-            URL_Add("overcomplicating", "https://en.wiktionary.org/wiki/overcomplicate#Verb");
 
             URL_Add("rescuing", "https://en.wiktionary.org/wiki/rescue#Verb");
 
@@ -118196,8 +118156,6 @@ namespace OverflowHelper.core
             URL_Add("invisible", "https://en.wiktionary.org/wiki/invisible#Adjective");
 
             URL_Add("obsessive-compulsive", "https://en.wiktionary.org/wiki/obsessive-compulsive#Adjective");
-
-            URL_Add("overexplaining", "https://en.wiktionary.org/wiki/overexplain#Verb");
 
             URL_Add("Butterworth filter", "https://en.wikipedia.org/wiki/Butterworth_filter");
 
@@ -118738,8 +118696,6 @@ namespace OverflowHelper.core
             URL_Add("system on a chip", "https://en.wikipedia.org/wiki/System_on_a_chip");
 
             URL_Add("Java&nbsp;11", "https://en.wikipedia.org/wiki/Java_version_history#Java_11");
-
-            URL_Add("overformatting", "https://en.wiktionary.org/wiki/overformat#Verb");
 
             URL_Add("urgent", "https://en.wiktionary.org/wiki/urgent#Adjective");
 
@@ -119603,8 +119559,6 @@ namespace OverflowHelper.core
 
             URL_Add("Java Modeling Language", "https://en.wikipedia.org/wiki/Java_Modeling_Language");
 
-            URL_Add("overthinking", "https://en.wiktionary.org/wiki/overthink#Verb_2");
-
             URL_Add("quantifiably", "https://en.wiktionary.org/wiki/quantifiably#Adverb");
 
             URL_Add("Seam", "https://en.wikipedia.org/wiki/JBoss_Seam");
@@ -119816,8 +119770,6 @@ namespace OverflowHelper.core
             URL_Add("fantastic", "https://en.wiktionary.org/wiki/fantastic#Adjective");
 
             URL_Add("jump to conclusions", "https://en.wiktionary.org/wiki/jump_to_conclusions#Verb");
-
-            URL_Add("overpopulating", "https://en.wiktionary.org/wiki/overpopulate#Verb");
 
             URL_Add("sentient", "https://en.wiktionary.org/wiki/sentient#Adjective");
 
@@ -120665,8 +120617,6 @@ namespace OverflowHelper.core
 
             URL_Add("metacharacter", "https://en.wiktionary.org/wiki/metacharacter#Noun");
 
-            URL_Add("overgeneralizing", "https://en.wiktionary.org/wiki/overgeneralize#Verb");
-
             URL_Add("self-contradictory", "https://en.wiktionary.org/wiki/self-contradictory#Adjective");
 
             URL_Add("Darwin", "https://en.wikipedia.org/wiki/Darwin_(operating_system)");
@@ -120939,8 +120889,6 @@ namespace OverflowHelper.core
 
             URL_Add("disincentivising", "https://en.wiktionary.org/wiki/disincentivise#Verb");
 
-            URL_Add("overindulgence", "https://en.wiktionary.org/wiki/overindulgence#Noun");
-
             URL_Add("booby trap", "https://en.wiktionary.org/wiki/booby_trap#Noun");
 
             URL_Add("career-limiting move", "https://en.wiktionary.org/wiki/career-limiting_move#Noun");
@@ -120974,8 +120922,6 @@ namespace OverflowHelper.core
             URL_Add("dissenting", "https://en.wiktionary.org/wiki/dissenting#Adjective");
 
             URL_Add("nonvisible", "https://en.wiktionary.org/wiki/nonvisible#Adjective");
-
-            URL_Add("overambitious", "https://en.wiktionary.org/wiki/overambitious#Adjective");
 
             URL_Add("Peru", "https://en.wikipedia.org/wiki/Peru");
 
@@ -121102,8 +121048,6 @@ namespace OverflowHelper.core
             URL_Add("curiously recurring template pattern", "https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern");
 
             URL_Add("encoded", "https://en.wiktionary.org/wiki/encode#Verb");
-
-            URL_Add("overformatted", "https://en.wiktionary.org/wiki/overformat#Verb");
 
             URL_Add("left-hand", "https://en.wiktionary.org/wiki/left-hand#Adjective");
 
@@ -121377,8 +121321,6 @@ namespace OverflowHelper.core
 
             URL_Add("cooperate", "https://en.wiktionary.org/wiki/cooperate#Verb");
 
-            URL_Add("overview", "https://en.wiktionary.org/wiki/overview#Noun");
-
             URL_Add("adjunct professor", "https://en.wikipedia.org/wiki/Adjunct_professor");
 
             URL_Add("Casimir effect", "https://en.wikipedia.org/wiki/Casimir_effect");
@@ -121440,8 +121382,6 @@ namespace OverflowHelper.core
             URL_Add("data-driven", "https://en.wiktionary.org/wiki/data-driven#Adjective");
 
             URL_Add("listed", "https://en.wiktionary.org/wiki/list#Verb");
-
-            URL_Add("overreacted", "https://en.wiktionary.org/wiki/overreact#Verb");
 
             URL_Add("SonarCloud", "https://en.wikipedia.org/wiki/SonarSource#Products");
 
@@ -121649,8 +121589,6 @@ namespace OverflowHelper.core
 
             URL_Add("car industry", "https://en.wikipedia.org/wiki/Automotive_industry");
 
-            URL_Add("OverflowAI", "https://stackoverflow.blog/2023/07/27/announcing-overflowai/");
-
             URL_Add("Apple&nbsp;Pay", "https://en.wikipedia.org/wiki/Apple_Pay");
 
             URL_Add("Google Wallet", "https://en.wikipedia.org/wiki/Google_Wallet");
@@ -121776,10 +121714,6 @@ namespace OverflowHelper.core
             URL_Add("KSM", "https://en.wikipedia.org/wiki/Kernel_same-page_merging");
 
             URL_Add("libvirt", "https://en.wikipedia.org/wiki/Libvirt");
-
-            URL_Add("overcommit", "https://en.wiktionary.org/wiki/overcommit#Verb");
-
-            URL_Add("overcommitting", "https://en.wiktionary.org/wiki/overcommit#Verb");
 
             URL_Add("places", "https://en.wiktionary.org/wiki/place#Verb");
 
@@ -121944,10 +121878,6 @@ namespace OverflowHelper.core
             URL_Add("obfuscator", "https://en.wiktionary.org/wiki/obfuscator#Noun");
 
             URL_Add("be-all and end-all", "https://en.wiktionary.org/wiki/be-all_and_end-all#Noun");
-
-            URL_Add("over and over", "https://en.wiktionary.org/wiki/over_and_over#Adverb");
-
-            URL_Add("overestimate", "https://en.wiktionary.org/wiki/overestimate#Noun");
 
             URL_Add("practicality", "https://en.wiktionary.org/wiki/practicality#Noun");
 
@@ -122235,8 +122165,6 @@ namespace OverflowHelper.core
 
             URL_Add("revalidation", "https://en.wiktionary.org/wiki/revalidation#Noun");
 
-            URL_Add("over the top", "https://en.wiktionary.org/wiki/over_the_top#Adjective");
-
             URL_Add("IEEE 1284", "https://en.wikipedia.org/wiki/IEEE_1284");
 
             URL_Add("biasing", "https://en.wiktionary.org/wiki/bias#Verb");
@@ -122338,8 +122266,6 @@ namespace OverflowHelper.core
             URL_Add("vacuum", "https://en.wiktionary.org/wiki/vacuum#Noun");
 
             URL_Add("wrongdoer", "https://en.wiktionary.org/wiki/wrongdoer#Noun");
-
-            URL_Add("overflowed", "https://en.wiktionary.org/wiki/overflow#Verb");
 
             URL_Add("top tier", "https://en.wiktionary.org/wiki/top_tier#Adjective");
 
@@ -122739,8 +122665,6 @@ namespace OverflowHelper.core
 
             URL_Add("at a later date", "https://www.merriam-webster.com/dictionary/at%20a%20later/future%20date");
 
-            URL_Add("overeager", "https://en.wiktionary.org/wiki/overeager#Adjective");
-
             URL_Add("snake oil", "https://en.wiktionary.org/wiki/snake_oil#Noun");
 
             URL_Add("VMess", "https://guide.v2fly.org/en_US/");
@@ -122754,8 +122678,6 @@ namespace OverflowHelper.core
             URL_Add("Nitro Type", "https://nitro.fandom.com/wiki/Nitro_Type");
 
             URL_Add("indentations", "https://en.wiktionary.org/wiki/indentation#Noun");
-
-            URL_Add("overaged", "https://en.wiktionary.org/wiki/overaged#Adjective");
 
             URL_Add("downvotes", "https://en.wiktionary.org/wiki/downvote#Verb");
 
@@ -123187,8 +123109,6 @@ namespace OverflowHelper.core
 
             URL_Add("FileVault", "https://en.wikipedia.org/wiki/FileVault");
 
-            URL_Add("overemphasis", "https://en.wiktionary.org/wiki/overemphasis#Noun");
-
             URL_Add("qBittorrent", "https://en.wikipedia.org/wiki/QBittorrent");
 
             URL_Add("static", "https://en.wiktionary.org/wiki/static#Adjective");
@@ -123248,8 +123168,6 @@ namespace OverflowHelper.core
             URL_Add("right arrow key", "https://en.wikipedia.org/wiki/Arrow_keys");
 
             URL_Add("nonchalant", "https://en.wiktionary.org/wiki/nonchalant#Adjective");
-
-            URL_Add("Overwatch", "https://en.wikipedia.org/wiki/Overwatch");
 
             URL_Add("eSIM", "https://en.wikipedia.org/wiki/ESIM");
 
@@ -123616,8 +123534,6 @@ namespace OverflowHelper.core
             URL_Add("Darth Vader", "https://en.wikipedia.org/wiki/Darth_Vader");
 
             URL_Add("nonobtrusive", "https://en.wiktionary.org/wiki/nonobtrusive#Adjective");
-
-            URL_Add("overhyped", "https://en.wiktionary.org/wiki/overhyped#Adjective");
 
             URL_Add("PATCH", "https://en.wikipedia.org/wiki/PATCH_(HTTP)");
 
@@ -124775,8 +124691,6 @@ namespace OverflowHelper.core
 
             URL_Add("suggestions", "https://en.wiktionary.org/wiki/suggestion#Noun");
 
-            URL_Add("overseas", "https://en.wiktionary.org/wiki/overseas#Adjective");
-
             URL_Add("pet", "https://en.wiktionary.org/wiki/pet#Noun");
 
             URL_Add("elaboration", "https://en.wiktionary.org/wiki/elaboration#Noun");
@@ -125427,8 +125341,6 @@ namespace OverflowHelper.core
 
             URL_Add("in my experience", "https://en.wiktionary.org/wiki/IME#Prepositional_phrase");
 
-            URL_Add("over time", "https://en.wiktionary.org/wiki/over_time#Prepositional_phrase");
-
             URL_Add("as per", "https://en.wiktionary.org/wiki/as_per#Preposition");
 
             URL_Add("on principle", "https://en.wiktionary.org/wiki/on_principle#Prepositional_phrase");
@@ -125716,8 +125628,6 @@ namespace OverflowHelper.core
             URL_Add("inferred", "https://en.wiktionary.org/wiki/infer#Verb");
 
             URL_Add("UTM", "https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system");
-
-            URL_Add("overrode", "https://en.wiktionary.org/wiki/override#Verb");
 
             URL_Add("NuPhy Halo96", "https://nuphy.com/products/halo96");
 
@@ -127423,8 +127333,6 @@ namespace OverflowHelper.core
 
             URL_Add("an arm and a leg", "https://en.wiktionary.org/wiki/an_arm_and_a_leg#Noun");
 
-            URL_Add("overpromising", "https://en.wiktionary.org/wiki/overpromise#Verb");
-
             URL_Add("tickets", "https://en.wikipedia.org/wiki/Issue_tracking_system");
 
             URL_Add("nonmatched", "https://en.wiktionary.org/wiki/nonmatched#Adjective");
@@ -127864,40 +127772,6 @@ namespace OverflowHelper.core
             URL_Add("disciplines", "https://en.wiktionary.org/wiki/discipline#Noun");
 
             URL_Add("GIL", "https://en.wikipedia.org/wiki/Global_interpreter_lock");
-
-            URL_Add("interpret", "https://en.wiktionary.org/wiki/interpret#Verb");
-
-            URL_Add("interpreted", "https://en.wiktionary.org/wiki/interpret#Verb");
-
-            URL_Add("interpreter", "https://en.wiktionary.org/wiki/interpreter#Noun");
-
-            URL_Add("interpretation", "https://en.wiktionary.org/wiki/interpretation#Noun");
-
-            URL_Add("interpretations", "https://en.wiktionary.org/wiki/interpretation#Noun");
-
-            URL_Add("interpretable", "https://en.wiktionary.org/wiki/interpretable#Adjective");
-
-            URL_Add("interpreting", "https://en.wiktionary.org/wiki/interpret#Verb");
-
-            URL_Add("misinterpreting", "https://en.wiktionary.org/wiki/misinterpret#Verb");
-
-            URL_Add("misinterpret", "https://en.wiktionary.org/wiki/misinterpret#Verb");
-
-            URL_Add("misinterpreted", "https://en.wiktionary.org/wiki/misinterpret#Verb");
-
-            URL_Add("misinterpretation", "https://en.wiktionary.org/wiki/misinterpretation#Noun");
-
-            URL_Add("overinterpret", "https://en.wiktionary.org/wiki/overinterpret#Verb");
-
-            URL_Add("overinterpreted", "https://en.wiktionary.org/wiki/overinterpret#Verb");
-
-            URL_Add("overinterpretation", "https://en.wiktionary.org/wiki/overinterpretation#Noun"); // Old: https://en.wiktionary.org/wiki/overinterpretation
-
-            URL_Add("reinterpret", "https://en.wiktionary.org/wiki/reinterpret#Verb");
-
-            URL_Add("threaded-interpreted language", "https://wiki.c2.com/?ThreadedInterpretiveLanguage"); // Old: <http://wiki.c2.com/?ThreadedInterpretiveLanguage>
-
-            URL_Add("Structure and Interpretation of Computer Programs", "https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs");
 
             URL_Add("dramatic reading", "https://en.wikipedia.org/wiki/Oral_interpretation");
 
@@ -128895,11 +128769,7 @@ namespace OverflowHelper.core
 
             URL_Add("knight", "https://en.wikipedia.org/wiki/Knight_(chess)");
 
-            URL_Add("overnight", "https://en.wiktionary.org/wiki/overnight#Adverb");
-
             URL_Add("airtight", "https://en.wiktionary.org/wiki/airtight#Adjective");
-
-            URL_Add("oversight", "https://en.wiktionary.org/wiki/oversight#Noun");
 
             URL_Add("insight", "https://en.wiktionary.org/wiki/insight#Noun");
 
@@ -129349,13 +129219,9 @@ namespace OverflowHelper.core
 
             URL_Add("onboard", "https://en.wiktionary.org/wiki/onboard#Adjective");
 
-            URL_Add("overboard", "https://en.wiktionary.org/wiki/overboard#Adverb");
-
             URL_Add("onboarding", "https://en.wiktionary.org/wiki/onboarding#Noun");
 
             URL_Add("chessboard", "https://en.wiktionary.org/wiki/chessboard#Noun");
-
-            URL_Add("over-the-board chess", "https://en.wikipedia.org/wiki/Glossary_of_chess#over_the_board");
 
             URL_Add("cardboard", "https://en.wiktionary.org/wiki/cardboard#Noun");
 
@@ -129850,10 +129716,6 @@ namespace OverflowHelper.core
             URL_Add("AMD module", "https://en.wikipedia.org/wiki/Asynchronous_module_definition");
 
             URL_Add("asynchronous I/O", "https://en.wikipedia.org/wiki/Asynchronous_I/O");
-
-            URL_Add("Stack&nbsp;Exchange API", "https://api.stackexchange.com/docs");
-
-            URL_Add("OverflowAPI", "https://stackoverflow.co/api-solutions/");
 
             URL_Add("reconnect", "https://en.wiktionary.org/wiki/reconnect#Verb");
 
@@ -130482,52 +130344,6 @@ namespace OverflowHelper.core
             URL_Add("Ask.com", "https://en.wikipedia.org/wiki/Ask.com");
 
             URL_Add("inquired", "https://en.wiktionary.org/wiki/inquire#Verb");
-
-            URL_Add("count", "https://en.wiktionary.org/wiki/count#Noun");
-
-            URL_Add("uncountable", "https://en.wiktionary.org/wiki/uncountable#Adjective");
-
-            URL_Add("miscounted", "https://en.wiktionary.org/wiki/miscount#Verb");
-
-            URL_Add("undercounted", "https://en.wiktionary.org/wiki/undercount#Verb");
-
-            URL_Add("overcounting", "https://en.wiktionary.org/wiki/overcount#Verb");
-
-            URL_Add("prime-counting function", "https://en.wikipedia.org/wiki/Prime-counting_function");
-
-            URL_Add("Geiger counter", "https://en.wikipedia.org/wiki/Geiger_counter");
-
-            URL_Add("counterproductive", "https://en.wiktionary.org/wiki/counterproductive#Adjective");
-
-            URL_Add("counterintuitive", "https://en.wiktionary.org/wiki/counterintuitive#Adjective");
-
-            URL_Add("counterargued", "https://en.wiktionary.org/wiki/counterargue#Verb");
-
-            URL_Add("counterargument", "https://en.wiktionary.org/wiki/counterargument#Noun");
-
-            URL_Add("counterexample", "https://en.wiktionary.org/wiki/counterexample#Noun");
-
-            URL_Add("counterpart", "https://en.wiktionary.org/wiki/counterpart#Noun");
-
-            URL_Add("counteract", "https://en.wiktionary.org/wiki/counteract#Verb");
-
-            URL_Add("countries", "https://en.wiktionary.org/wiki/country#Noun");
-
-            URL_Add("encounter", "https://en.wiktionary.org/wiki/encounter#Verb");
-
-            URL_Add("encounters", "https://en.wiktionary.org/wiki/encounter#Verb");
-
-            URL_Add("encountering", "https://en.wiktionary.org/wiki/encounter#Verb");
-
-            URL_Add("encountered", "https://en.wiktionary.org/wiki/encounter#Verb");
-
-            URL_Add("accounting", "https://en.wiktionary.org/wiki/accounting#Noun");
-
-            URL_Add("accounting system", "https://en.wikipedia.org/wiki/Accounting_information_system");
-
-            URL_Add("unaccountable", "https://en.wiktionary.org/wiki/unaccountable#Adjective");
-
-            URL_Add("permanent account number", "https://en.wikipedia.org/wiki/Permanent_account_number");
 
             URL_Add("Omacom", "https://learn.omacom.io/3/omacom/81/doctrine");
 
@@ -132006,10 +131822,6 @@ namespace OverflowHelper.core
             URL_Add("perceived", "https://en.wiktionary.org/wiki/perceive#Verb");
 
             URL_Add("misperceives", "https://en.wiktionary.org/wiki/misperceive#Verb");
-
-            URL_Add("simplified", "https://en.wiktionary.org/wiki/simplified#Adjective");
-
-            URL_Add("oversimplified", "https://en.wiktionary.org/wiki/oversimplify#Verb");
 
             URL_Add("SMILES", "https://en.wikipedia.org/wiki/Simplified_molecular-input_line-entry_system");
 
@@ -134525,8 +134337,6 @@ namespace OverflowHelper.core
 
             URL_Add("enshittification", "https://en.wiktionary.org/wiki/enshittification#Noun");
 
-            URL_Add("oversimplification", "https://en.wiktionary.org/wiki/oversimplification#Noun");
-
             URL_Add("misclassification", "https://en.wiktionary.org/wiki/misclassification#Noun");
 
             URL_Add("classification", "https://en.wiktionary.org/wiki/classification#Noun");
@@ -136099,14 +135909,6 @@ namespace OverflowHelper.core
 
             URL_Add("trained", "https://en.wiktionary.org/wiki/train#Verb");
 
-            URL_Add("overfit", "https://en.wiktionary.org/wiki/overfit#Verb");
-
-            URL_Add("overfitting", "https://en.wikipedia.org/wiki/Overfitting");
-
-            URL_Add("overfitted", "https://en.wiktionary.org/wiki/overfit#Verb");
-
-            URL_Add("underfitting", "https://en.wiktionary.org/wiki/underfit#Verb");
-
             URL_Add("database administrators", "https://en.wikipedia.org/wiki/Database_administrator");
 
             URL_Add("kiosk software", "https://en.wikipedia.org/wiki/Kiosk_software");
@@ -136617,12 +136419,6 @@ namespace OverflowHelper.core
 
             URL_Add("nonweighted", "https://en.wiktionary.org/wiki/nonweighted#Adjective");
 
-            URL_Add("overweight", "https://en.wiktionary.org/wiki/overweight#Adjective");
-
-            URL_Add("weighted moving average", "https://en.wikipedia.org/wiki/Moving_average#Weighted_moving_average");
-
-            URL_Add("Hamming weight", "https://en.wikipedia.org/wiki/Hamming_weight");
-
             URL_Add("barrier to entry", "https://en.wiktionary.org/wiki/barrier_to_entry#Noun");
 
             URL_Add("entries", "https://en.wiktionary.org/wiki/entry#Noun");
@@ -136986,8 +136782,6 @@ namespace OverflowHelper.core
             URL_Add("pricier", "https://en.wiktionary.org/wiki/pricier#Adjective");
 
             URL_Add("priciest", "https://en.wiktionary.org/wiki/priciest#Adjective");
-
-            URL_Add("overpriced", "https://en.wiktionary.org/wiki/overpriced#Adjective");
 
             URL_Add("price point", "https://en.wiktionary.org/wiki/price_point#Noun");
 
@@ -137356,38 +137150,6 @@ namespace OverflowHelper.core
             URL_Add("false positives", "https://en.wiktionary.org/wiki/false_positive#Noun");
 
             URL_Add("false positive rate", "https://en.wikipedia.org/wiki/False_positive_rate");
-
-            URL_Add("kill", "https://en.wikipedia.org/wiki/Kill_(command)");
-
-            URL_Add("killing", "https://en.wiktionary.org/wiki/kill#Verb");
-
-            URL_Add("killers", "https://en.wiktionary.org/wiki/killer#Noun");
-
-            URL_Add("killed off", "https://en.wiktionary.org/wiki/kill_off#Verb");
-
-            URL_Add("overkill", "https://en.wiktionary.org/wiki/overkill#Verb");
-
-            URL_Add("painkiller", "https://en.wiktionary.org/wiki/painkiller#Noun");
-
-            URL_Add("painkillers", "https://en.wiktionary.org/wiki/painkiller#Noun");
-
-            URL_Add("pkill", "https://linux.die.net/man/1/pkill");
-
-            URL_Add("PsKill", "https://learn.microsoft.com/en-us/sysinternals/downloads/pskill");
-
-            URL_Add("PsList", "https://learn.microsoft.com/en-us/sysinternals/downloads/pslist");
-
-            URL_Add("skill", "https://en.wiktionary.org/wiki/skill#Noun");
-
-            URL_Add("skills", "https://en.wiktionary.org/wiki/skill#Noun");
-
-            URL_Add("skillfully", "https://en.wiktionary.org/wiki/skillfully#Adverb");
-
-            URL_Add("skill set", "https://en.wiktionary.org/wiki/skill_set#Noun");
-
-            URL_Add("hard skill", "https://en.wiktionary.org/wiki/hard_skill#Noun");
-
-            URL_Add("T-shaped developer", "https://en.wikipedia.org/wiki/T-shaped_skills");
 
             URL_Add("pig", "https://chessskill.blogspot.com/2016/12/pigs.html");
 
@@ -139158,8 +138920,6 @@ namespace OverflowHelper.core
 
             URL_Add("Chrome DevTools", "https://developer.chrome.com/docs/devtools/"); // Old: https://developers.google.com/web/tools/chrome-devtools/
 
-            URL_Add("Overpass API", "https://wiki.openstreetmap.org/wiki/Overpass_API"); // Old: <http://wiki.openstreetmap.org/wiki/Overpass_API>
-
             URL_Add("ORM", "https://en.wikipedia.org/wiki/Object-relational_mapping");
 
             URL_Add("Ximi", "https://github.com/JeffDess/qmk-config/blob/main/keyboards/fingerpunch/ximi/v2/keymaps/jeffdess/readme.md");
@@ -139647,8 +139407,6 @@ namespace OverflowHelper.core
             URL_Add("devfs", "https://en.wikipedia.org/wiki/Device_file#devfs");
 
             URL_Add("input capture", "https://ww1.microchip.com/downloads/en/DeviceDoc/60001122G.pdf");
-
-            URL_Add("overvoltage protection", "https://en.wikipedia.org/wiki/Overvoltage#Overvoltage_protection_devices");
 
             URL_Add("iPhone 3GS", "https://en.wikipedia.org/wiki/IPhone_3GS");
 
@@ -140365,56 +140123,6 @@ namespace OverflowHelper.core
 
             URL_Add("Firefox ESR", "https://en.wikipedia.org/wiki/Firefox#Channels_and_release_schedule"); // Old: https://en.wikipedia.org/wiki/Firefox#Experimental_builds_and_ESR
 
-            URL_Add("write", "https://en.wiktionary.org/wiki/write#Verb");
-
-            URL_Add("writing", "https://en.wiktionary.org/wiki/writing#Verb");
-
-            URL_Add("wrote", "https://en.wiktionary.org/wiki/write#Verb");
-
-            URL_Add("writers", "https://en.wiktionary.org/wiki/writer#Noun");
-
-            URL_Add("rewriting", "https://en.wiktionary.org/wiki/rewriting#Verb");
-
-            URL_Add("rewrote", "https://en.wiktionary.org/wiki/rewrite#Verb");
-
-            URL_Add("rewrite", "https://en.wiktionary.org/wiki/rewrite#Verb");
-
-            URL_Add("miswriting", "https://en.wiktionary.org/wiki/miswrite#Verb");
-
-            URL_Add("self-written", "https://en.wikipedia.org/wiki/Autobiography");
-
-            URL_Add("overwrite", "https://en.wiktionary.org/wiki/overwrite#Verb");
-
-            URL_Add("overwriting", "https://en.wiktionary.org/wiki/overwrite#Verb");
-
-            URL_Add("overwritten", "https://en.wiktionary.org/wiki/overwritten#Verb");
-
-            URL_Add("write off", "https://en.wiktionary.org/wiki/write_off#Verb");
-
-            URL_Add("write-up", "https://en.wiktionary.org/wiki/write-up#Noun");
-
-            URL_Add("write-ups", "https://en.wiktionary.org/wiki/write-up#Noun");
-
-            URL_Add("writing on the wall", "https://en.wiktionary.org/wiki/writing_on_the_wall#Noun");
-
-            URL_Add("handwrite", "https://en.wiktionary.org/wiki/handwrite#Verb");
-
-            URL_Add("typewriter", "https://en.wikipedia.org/wiki/Typewriter");
-
-            URL_Add("handwriting", "https://en.wiktionary.org/wiki/handwriting#Noun");
-
-            URL_Add("technical writing", "https://en.wikipedia.org/wiki/Technical_writing");
-
-            URL_Add("LibreOffice Writer", "https://en.wikipedia.org/wiki/LibreOffice_Writer");
-
-            URL_Add("KWrite", "https://en.wikipedia.org/wiki/KWrite");
-
-            URL_Add("RewriteCond", "https://httpd.apache.org/docs/2.4/mod/mod_rewrite.html#rewritecond");
-
-            URL_Add("COW", "https://en.wikipedia.org/wiki/Copy-on-write");
-
-            URL_Add("left-to-right", "https://en.wikipedia.org/wiki/Writing_system#Directionality_and_orientation"); // Old: <https://en.wikipedia.org/wiki/Writing_system#Directionality>
-
             URL_Add("Pascal's triangle", "https://en.wikipedia.org/wiki/Pascal's_triangle");
 
             URL_Add("Pascal", "https://en.wikipedia.org/wiki/Pascal_%28programming_language%29");
@@ -140576,68 +140284,6 @@ namespace OverflowHelper.core
             URL_Add("reload", "https://en.wiktionary.org/wiki/reload#Verb");
 
             URL_Add("relook", "https://en.wiktionary.org/wiki/relook#Noun");
-
-            URL_Add("relubricating", "https://en.wiktionary.org/wiki/relubricate#Verb");
-
-            URL_Add("relubricate", "https://en.wiktionary.org/wiki/relubricate#Verb");
-
-            URL_Add("overload", "https://en.wiktionary.org/wiki/overload#Verb");
-
-            URL_Add("overloading", "https://en.wiktionary.org/wiki/overloading#Noun");
-
-            URL_Add("overlook", "https://en.wiktionary.org/wiki/overlook#Verb");
-
-            URL_Add("overlooking", "https://en.wiktionary.org/wiki/overlook#Verb");
-
-            URL_Add("overlooked", "https://en.wiktionary.org/wiki/overlook#Verb");
-
-            URL_Add("overlapping", "https://en.wiktionary.org/wiki/overlap#Verb");
-
-            URL_Add("Overleaf", "https://en.wikipedia.org/wiki/Overleaf");
-
-            URL_Add("lubricant", "https://en.wiktionary.org/wiki/lubricant#Noun");
-
-            URL_Add("overlubricate", "https://en.wiktionary.org/wiki/overlubricate#Verb");
-
-            URL_Add("overlubricating", "https://en.wiktionary.org/wiki/overlubricate#Verb");
-
-            URL_Add("overlubricated", "https://en.wiktionary.org/wiki/overlubricate#Verb");
-
-            URL_Add("lubridate", "https://lubridate.tidyverse.org/");
-
-            URL_Add("lubricating", "https://en.wiktionary.org/wiki/lubricate#Verb");
-
-            URL_Add("lubricated", "https://en.wiktionary.org/wiki/lubricated#Adjective");
-
-            URL_Add("prelubricated", "https://en.wiktionary.org/wiki/prelubricated#Adjective");
-
-            URL_Add("nonlubricated", "https://en.wiktionary.org/wiki/nonlubricated#Adjective");
-
-            URL_Add("mushiness", "https://en.wiktionary.org/wiki/mushiness#Noun");
-
-            URL_Add("load", "https://en.wiktionary.org/wiki/load#Verb");
-
-            URL_Add("loading", "https://en.wiktionary.org/wiki/load#Verb");
-
-            URL_Add("loaded", "https://en.wiktionary.org/wiki/load#Verb");
-
-            URL_Add("loader", "https://en.wiktionary.org/wiki/loader#Noun");
-
-            URL_Add("offload", "https://en.wiktionary.org/wiki/offload#Verb");
-
-            URL_Add("offloading", "https://en.wiktionary.org/wiki/offload#Verb");
-
-            URL_Add("preloaded", "https://en.wiktionary.org/wiki/preloaded#Adjective");
-
-            URL_Add("spring-loaded", "https://en.wiktionary.org/wiki/spring-loaded#Adjective");
-
-            URL_Add("workload", "https://en.wiktionary.org/wiki/workload#Noun");
-
-            URL_Add("payload", "https://en.wiktionary.org/wiki/payload#Noun");
-
-            URL_Add("boatload", "https://en.wiktionary.org/wiki/boatload#Noun");
-
-            URL_Add("boatloads", "https://en.wiktionary.org/wiki/boatload#Noun");
 
             URL_Add("under way", "https://en.wiktionary.org/wiki/under_way#Prepositional_phrase");
 
@@ -142653,130 +142299,6 @@ namespace OverflowHelper.core
 
             URL_Add("direct", "https://en.wiktionary.org/wiki/direct#Adjective");
 
-            URL_Add("subscribed", "https://en.wiktionary.org/wiki/subscribe#Verb");
-
-            URL_Add("oversubscribed", "https://en.wiktionary.org/wiki/oversubscribed#Adjective");
-
-            URL_Add("subscriber", "https://en.wiktionary.org/wiki/subscriber#Noun");
-
-            URL_Add("subscribers", "https://en.wiktionary.org/wiki/subscriber#Noun");
-
-            URL_Add("subscription", "https://en.wiktionary.org/wiki/subscription#Noun");
-
-            URL_Add("subscriptions", "https://en.wiktionary.org/wiki/subscription#Noun");
-
-            URL_Add("publish–subscribe pattern", "https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern");
-
-            URL_Add("substr()", "https://perldoc.perl.org/perlfunc#substr-EXPR%2COFFSET%2CLENGTH%2CREPLACEMENT");
-
-            URL_Add("subject", "https://en.wiktionary.org/wiki/subject#Noun");
-
-            URL_Add("subjects", "https://en.wiktionary.org/wiki/subject#Noun");
-
-            URL_Add("subject-matter expert", "https://en.wikipedia.org/wiki/Subject-matter_expert");
-
-            URL_Add("subjective", "https://en.wiktionary.org/wiki/subjective#Adjective");
-
-            URL_Add("subjectiveness", "https://en.wiktionary.org/wiki/subjectiveness#Noun");
-
-            URL_Add("subsecond", "https://en.wiktionary.org/wiki/subsecond#Adjective");
-
-            URL_Add("suboptimal", "https://en.wiktionary.org/wiki/suboptimal#Adjective");
-
-            URL_Add("subtitle", "https://en.wiktionary.org/wiki/subtitle#Noun");
-
-            URL_Add("subtitles", "https://en.wiktionary.org/wiki/subtitle#Noun");
-
-            URL_Add("Indian subcontinent", "https://en.wikipedia.org/wiki/Indian_subcontinent");
-
-            URL_Add("sub-system", "https://en.wiktionary.org/wiki/sub-system#Noun");
-
-            URL_Add("substructure", "https://en.wiktionary.org/wiki/substructure#Noun");
-
-            URL_Add("substring", "https://en.wiktionary.org/wiki/substring#Noun");
-
-            URL_Add("substrings", "https://en.wiktionary.org/wiki/substring#Noun");
-
-            URL_Add("subpage", "https://en.wiktionary.org/wiki/subpage#Noun");
-
-            URL_Add("subset", "https://en.wiktionary.org/wiki/subset#Noun");
-
-            URL_Add("subattribute", "https://en.wiktionary.org/wiki/subattribute#Noun");
-
-            URL_Add("subpackages", "https://en.wiktionary.org/wiki/subpackage#Noun");
-
-            URL_Add("subpattern", "https://en.wiktionary.org/wiki/subpattern#Noun");
-
-            URL_Add("subproject", "https://en.wiktionary.org/wiki/subproject#Noun");
-
-            URL_Add("subprojects", "https://en.wiktionary.org/wiki/subproject#Noun");
-
-            URL_Add("subordinated", "https://en.wiktionary.org/wiki/subordinate#Verb");
-
-            URL_Add("subnetting", "https://en.wiktionary.org/wiki/subnet#Verb");
-
-            URL_Add("subcarrier", "https://en.wiktionary.org/wiki/subcarrier#Noun");
-
-            URL_Add("subdomain", "https://en.wiktionary.org/wiki/subdomain#Noun");
-
-            URL_Add("subvariant", "https://en.wiktionary.org/wiki/subvariant#Noun");
-
-            URL_Add("subfield", "https://en.wiktionary.org/wiki/subfield#Noun");
-
-            URL_Add("subarray", "https://en.wiktionary.org/wiki/subarray#Noun");
-
-            URL_Add("subidea", "https://en.wiktionary.org/wiki/subidea#Noun");
-
-            URL_Add("subquery", "https://en.wiktionary.org/wiki/subquery#Noun");
-
-            URL_Add("subclass", "https://en.wiktionary.org/wiki/subclass#Verb");
-
-            URL_Add("subclassing", "https://en.wiktionary.org/wiki/subclass#Verb");
-
-            URL_Add("subclasses", "https://en.wiktionary.org/wiki/subclass#Noun");
-
-            URL_Add("subvolumes", "https://en.wiktionary.org/wiki/subvolume#Noun");
-
-            URL_Add("subqueries", "https://en.wiktionary.org/wiki/subquery#Noun");
-
-            URL_Add("subring", "https://en.wikipedia.org/wiki/Subring");
-
-            URL_Add("subwoofer", "https://en.wikipedia.org/wiki/Subwoofer");
-
-            URL_Add("subpar", "https://en.wiktionary.org/wiki/subpar#Adjective");
-
-            URL_Add("sublists", "https://en.wiktionary.org/wiki/sublist#Noun");
-
-            URL_Add("submenu", "https://en.wiktionary.org/wiki/submenu#Noun");
-
-            URL_Add("sub-equation", "https://en.wiktionary.org/wiki/subequation#Noun");
-
-            URL_Add("subexpression", "https://en.wiktionary.org/wiki/subexpression#Noun");
-
-            URL_Add("subexpressions", "https://en.wiktionary.org/wiki/subexpression#Noun");
-
-            URL_Add("subnetwork", "https://en.wikipedia.org/wiki/Subnetwork");
-
-            URL_Add("networkwide", "https://en.wiktionary.org/wiki/networkwide#Adjective");
-
-            URL_Add("Git submodules", "https://git-scm.com/book/en/v2/Git-Tools-Submodules");
-
-            URL_Add("Subversion", "https://en.wikipedia.org/wiki/Apache_Subversion");
-
-            URL_Add("Subclipse", "https://github.com/subclipse/subclipse");
-
-            URL_Add("Substack", "https://en.wikipedia.org/wiki/Substack#Content");
-
-            URL_Add("Subresource Integrity", "https://en.wikipedia.org/wiki/Subresource_Integrity");
-
-            URL_Add("Sublime Merge", "https://en.wikipedia.org/wiki/Sublime_Text#Sublime_Merge");
-
-            URL_Add("Subject Alternative Name", "https://en.wikipedia.org/wiki/Public_key_certificate#TLS/SSL_server_certificate");
-
-            URL_Add("subtree", "https://en.wiktionary.org/wiki/subtree#Noun");
-
-            URL_Add("subtrees", "https://en.wiktionary.org/wiki/subtree#Noun");
-
             URL_Add("DirectoryInfo", "https://learn.microsoft.com/en-us/dotnet/api/System.IO.DirectoryInfo");
 
             URL_Add("FileInfo", "https://learn.microsoft.com/en-us/dotnet/api/system.io.fileinfo");
@@ -142790,44 +142312,6 @@ namespace OverflowHelper.core
             URL_Add("many years", "https://www.lexico.com/definition/long_years");
 
             URL_Add("Silicon Valley", "https://en.wikipedia.org/wiki/Silicon_Valley");
-
-            URL_Add("battery", "https://en.wikipedia.org/wiki/Electric_battery");
-
-            URL_Add("batteries", "https://en.wiktionary.org/wiki/battery#Noun");
-
-            URL_Add("battery life", "https://en.wiktionary.org/wiki/battery_life#Noun");
-
-            URL_Add("TP4056", "https://www.best-microcontroller-projects.com/tp4056.html");
-
-            URL_Add("battery management system", "https://en.wikipedia.org/wiki/Battery_management_system");
-
-            URL_Add("battery management controller", "https://thepowerfacts.com/what-is-a-battery-management-controller/");
-
-            URL_Add("discharge", "https://en.wikipedia.org/wiki/Electric_battery#Performance,_capacity_and_discharge");
-
-            URL_Add("AA batteries", "https://en.wikipedia.org/wiki/AA_battery");
-
-            URL_Add("alkaline battery", "https://en.wikipedia.org/wiki/Alkaline_battery");
-
-            URL_Add("charging", "https://en.wiktionary.org/wiki/charge#Verb");
-
-            URL_Add("charged", "https://en.wiktionary.org/wiki/charge#Verb");
-
-            URL_Add("rechargeable", "https://en.wiktionary.org/wiki/rechargeable#Adjective");
-
-            URL_Add("overcharging", "https://en.wiktionary.org/wiki/overcharging#Noun");
-
-            URL_Add("overcharge", "https://en.wiktionary.org/wiki/overcharge#Verb");
-
-            URL_Add("self-discharge", "https://en.wikipedia.org/wiki/Self-discharge");
-
-            URL_Add("corona discharge", "https://en.wikipedia.org/wiki/Corona_discharge");
-
-            URL_Add("charge carrier", "https://en.wiktionary.org/wiki/charge_carrier#Noun");
-
-            URL_Add("charge pump", "https://en.wikipedia.org/wiki/Charge_pump");
-
-            URL_Add("chargeable", "https://en.wiktionary.org/wiki/chargeable#Adjective");
 
             URL_Add("ThePrimeTime", "https://www.youtube.com/@ThePrimeTimeagen/videos");
 
@@ -143799,38 +143283,6 @@ namespace OverflowHelper.core
 
             URL_Add("Optiboot bootloader", "https://github.com/Optiboot/optiboot");
 
-            URL_Add("overheats", "https://en.wiktionary.org/wiki/overheat#Verb");
-
-            URL_Add("heat sink", "https://en.wiktionary.org/wiki/heat_sink#Noun"); // Old: https://en.wiktionary.org/wiki/heat_sink#English
-
-            URL_Add("heat sinks", "https://en.wiktionary.org/wiki/heat_sink#Noun");
-
-            URL_Add("Hess's law of constant heat summation", "https://en.wikipedia.org/wiki/Hess%27s_law");
-
-            URL_Add("heat death of the universe", "https://en.wikipedia.org/wiki/Heat_death_of_the_universe");
-
-            URL_Add("HVAC", "https://en.wikipedia.org/wiki/Heating,_ventilation,_and_air_conditioning");
-
-            URL_Add("separate the wheat from the chaff", "https://en.wiktionary.org/wiki/separate_the_wheat_from_the_chaff#Verb");
-
-            URL_Add("Wheatstone bridge", "https://en.wikipedia.org/wiki/Wheatstone_bridge");
-
-            URL_Add("theater", "https://en.wiktionary.org/wiki/theater#Noun");
-
-            URL_Add("home theater PC", "https://en.wikipedia.org/wiki/Home_theater_PC");
-
-            URL_Add("cheat sheet", "https://en.wiktionary.org/wiki/cheat_sheet#Noun");
-
-            URL_Add("anti-cheat software", "https://en.wikipedia.org/wiki/Cheating_in_online_games#Anti-cheating_methods_and_limitations");
-
-            URL_Add("FACEIT Anti-cheat", "https://www.gamingonlinux.com/2023/07/faceit-anti-cheat-to-support-linux-steam-deck-with-battlebit-remastered/");
-
-            URL_Add("Valve Anti-Cheat", "https://en.wikipedia.org/wiki/Valve_Anti-Cheat");
-
-            URL_Add("Easy Anti-Cheat", "https://www.pcgamer.com/games/battle-royale/easy-anti-cheat-washes-its-hands-of-the-apex-legends-hacking-disaster-that-saw-streamer-accounts-hijacked-live-there-is-no-rce-vulnerability-within-eac/");
-
-            URL_Add("aimbot", "https://en.wikipedia.org/wiki/Cheating_in_online_games#Aimbots_and_triggerbots");
-
             URL_Add("different", "https://en.wiktionary.org/wiki/different#Adjective");
 
             URL_Add("differently", "https://en.wiktionary.org/wiki/differently#Adverb");
@@ -143854,74 +143306,6 @@ namespace OverflowHelper.core
             URL_Add("Spotless", "https://github.com/diffplug/spotless/tree/main/plugin-gradle");
 
             URL_Add("Stack Overflow Lobby", "https://meta.stackoverflow.com/questions/434708/what-is-the-stack-overflow-lobby-is-it-different-from-other-rooms-in-chat");
-
-            URL_Add("engineer", "https://en.wiktionary.org/wiki/engineer#Noun");
-
-            URL_Add("engineered", "https://en.wiktionary.org/wiki/engineer#Verb");
-
-            URL_Add("engineering", "https://en.wikipedia.org/wiki/Engineering");
-
-            URL_Add("reengineering", "https://en.wiktionary.org/wiki/reengineering#Noun");
-
-            URL_Add("overengineer", "https://en.wiktionary.org/wiki/overengineer#Verb");
-
-            URL_Add("overengineered", "https://en.wiktionary.org/wiki/overengineered#Adjective");
-
-            URL_Add("non-recurring engineering", "https://en.wikipedia.org/wiki/Non-recurring_engineering");
-
-            URL_Add("reverse-engineered", "https://en.wiktionary.org/wiki/reverse-engineer#Verb");
-
-            URL_Add("reverse engineering", "https://en.wikipedia.org/wiki/Reverse_engineering");
-
-            URL_Add("electrical engineering", "https://en.wikipedia.org/wiki/Electrical_engineering");
-
-            URL_Add("chemical engineering", "https://en.wikipedia.org/wiki/Chemical_engineering");
-
-            URL_Add("mechanical engineering", "https://en.wikipedia.org/wiki/Mechanical_engineering");
-
-            URL_Add("Society of Automotive Engineers", "https://en.wikipedia.org/wiki/SAE_International");
-
-            URL_Add("aeronautical engineering", "https://en.wikipedia.org/wiki/Aerospace_engineering");
-
-            URL_Add("civil engineering", "https://en.wikipedia.org/wiki/Civil_engineering");
-
-            URL_Add("quality engineering", "https://en.wikipedia.org/wiki/Quality_engineering");
-
-            URL_Add("computer engineering", "https://en.wikipedia.org/wiki/Computer_engineering");
-
-            URL_Add("data engineering", "https://en.wikipedia.org/wiki/Information_engineering");
-
-            URL_Add("social engineering", "https://en.wikipedia.org/wiki/Social_engineering_(security)");
-
-            URL_Add("prompt engineering", "https://en.wikipedia.org/wiki/Prompt_engineering");
-
-            URL_Add("systems engineers", "https://en.wikipedia.org/wiki/Systems_engineering#History");
-
-            URL_Add("keycap profile", "https://thekeeblog.com/overview-of-different-keycap-profiles/");
-
-            URL_Add("junior", "https://en.wiktionary.org/wiki/junior#Adjective");
-
-            URL_Add("senior engineer", "https://study.com/articles/difference_between_senior_principle_engineer.html");
-
-            URL_Add("senior software developer", "https://en.wikipedia.org/wiki/Lead_programmer");
-
-            URL_Add("civil engineer", "https://en.wikipedia.org/wiki/Civil_engineer");
-
-            URL_Add("data engineer", "https://en.wikipedia.org/wiki/Information_engineering");
-
-            URL_Add("data scientist", "https://en.wikipedia.org/wiki/Data_science#Careers_in_data_science");
-
-            URL_Add("software", "https://en.wiktionary.org/wiki/software#Noun"); // Old: https://en.wiktionary.org/wiki/software
-
-            URL_Add("software engineering", "https://en.wiktionary.org/wiki/software_engineering#Noun");
-
-            URL_Add("Programmer Lives Matter", "https://www.youtube.com/watch?v=ouKgUdqZMds");
-
-            URL_Add("programmer", "https://en.wiktionary.org/wiki/programmer#Noun");
-
-            URL_Add("programmers", "https://en.wiktionary.org/wiki/programmer#Noun");
-
-            URL_Add("Martin Fowler", "https://en.wikipedia.org/wiki/Martin_Fowler_(software_engineer)");
 
             URL_Add("PLA", "https://en.wikipedia.org/wiki/Polylactic_acid");
 
@@ -145364,158 +144748,6 @@ namespace OverflowHelper.core
             URL_Add("death throes", "https://en.wiktionary.org/wiki/death_throe#Noun");
 
             URL_Add("Death Valley", "https://en.wikipedia.org/wiki/Death_Valley");
-
-            URL_Add("current density", "https://en.wikipedia.org/wiki/Current_density");
-
-            URL_Add("currently", "https://en.wiktionary.org/wiki/currently#Adverb");
-
-            URL_Add("noncurrent", "https://en.wiktionary.org/wiki/noncurrent#Adjective");
-
-            URL_Add("most current", "https://en.wiktionary.org/wiki/current#Adjective");
-
-            URL_Add("overcurrent", "https://en.wiktionary.org/wiki/overcurrent#Noun");
-
-            URL_Add("overvoltage", "https://en.wikipedia.org/wiki/Overvoltage");
-
-            URL_Add("high voltage", "https://en.wiktionary.org/wiki/high_voltage#Noun");
-
-            URL_Add("ultra-low-voltage", "https://en.wikipedia.org/wiki/Ultra-low-voltage_processor");
-
-            URL_Add("voltage", "https://en.wikipedia.org/wiki/Voltage");
-
-            URL_Add("voltage divider", "https://en.wikipedia.org/wiki/Voltage_divider");
-
-            URL_Add("voltage standing wave ratio", "https://en.wikipedia.org/wiki/Standing_wave_ratio");
-
-            URL_Add("voltage regulator", "https://en.wikipedia.org/wiki/Voltage_regulator");
-
-            URL_Add("Transient voltage suppressor", "https://en.wikipedia.org/wiki/Transient_voltage_suppressor");
-
-            URL_Add("photovoltaics", "https://en.wikipedia.org/wiki/Photovoltaics");
-
-            URL_Add("transistor", "https://en.wikipedia.org/wiki/Transistor");
-
-            URL_Add("bipolar junction transistor", "https://en.wikipedia.org/wiki/Bipolar_junction_transistor");
-
-            URL_Add("Early effect", "https://en.wikipedia.org/wiki/Early_effect");
-
-            URL_Add("Ebers–Moll model", "https://en.wikipedia.org/wiki/Bipolar_junction_transistor#Ebers%E2%80%93Moll_model");
-
-            URL_Add("collector", "https://en.wikipedia.org/wiki/Bipolar_junction_transistor#Structure");
-
-            URL_Add("quiescent point", "https://en.wikipedia.org/wiki/Bipolar_transistor_biasing");
-
-            URL_Add("DC current gain", "https://en.wikipedia.org/wiki/Bipolar_junction_transistor#Common-emitter_current_gain"); // Old: https://en.wikipedia.org/wiki/Bipolar_junction_transistor#Active-mode_transistors_in_circuits
-
-            URL_Add("NPN", "https://en.wikipedia.org/wiki/Bipolar_junction_transistor#Regions_of_operation");
-
-            URL_Add("Darlington transistor", "https://en.wikipedia.org/wiki/Darlington_transistor");
-
-            URL_Add("phototransistor", "https://en.wikipedia.org/wiki/Photodiode#Related_devices");
-
-            URL_Add("IGBT", "https://en.wikipedia.org/wiki/Insulated-gate_bipolar_transistor");
-
-            URL_Add("FET", "https://en.wikipedia.org/wiki/Field-effect_transistor");
-
-            URL_Add("MOSFET", "https://en.wikipedia.org/wiki/MOSFET");
-
-            URL_Add("n-channel MOSFET", "https://en.wikipedia.org/wiki/Field-effect_transistor#n-channel_FET");
-
-            URL_Add("p-channel MOSFET", "https://en.wikipedia.org/wiki/MOSFET#PMOS_and_NMOS_logic");
-
-            URL_Add("2N7000 (MOSFET)", "https://en.wikipedia.org/wiki/2N7000");
-
-            URL_Add("transimpedance amplifier", "https://en.wikipedia.org/wiki/Transimpedance_amplifier");
-
-            URL_Add("TTL", "https://en.wikipedia.org/wiki/Transistor%E2%80%93transistor_logic");
-
-            URL_Add("NMOS", "https://en.wikipedia.org/wiki/NMOS_logic");
-
-            URL_Add("68HC11", "https://en.wikipedia.org/wiki/Motorola_68HC11");
-
-            URL_Add("electricity", "https://en.wiktionary.org/wiki/electricity#Noun");
-
-            URL_Add("biconditional", "https://en.wikipedia.org/wiki/Logical_biconditional");
-
-            URL_Add("programmable logic device", "https://en.wikipedia.org/wiki/Programmable_logic_device");
-
-            URL_Add("CPLD", "https://en.wikipedia.org/wiki/Complex_programmable_logic_device");
-
-            URL_Add("PLC", "https://en.wikipedia.org/wiki/Programmable_logic_controller");
-
-            URL_Add("IC", "https://en.wikipedia.org/wiki/Integrated_circuit");
-
-            URL_Add("fabless", "https://en.wikipedia.org/wiki/Fabless_manufacturing");
-
-            URL_Add("AM335x", "https://en.wikipedia.org/wiki/Sitara_ARM_Processor#The_Sitara_family");
-
-            URL_Add("ARM", "https://en.wikipedia.org/wiki/ARM_architecture");
-
-            URL_Add("SVE", "https://en.wikipedia.org/wiki/AArch64#Scalable_Vector_Extension_(SVE)");
-
-            URL_Add("ARM7", "https://en.wikipedia.org/wiki/ARM7");
-
-            URL_Add("ARMv7", "https://en.wikipedia.org/wiki/ARM_architecture_family#Floating-point_(VFP)");
-
-            URL_Add("ARMv8", "https://en.wikipedia.org/wiki/Comparison_of_ARMv8-A_processors");
-
-            URL_Add("ARM Cortex-A7", "https://en.wikipedia.org/wiki/ARM_Cortex-A7");
-
-            URL_Add("ARM Cortex-A8", "https://en.wikipedia.org/wiki/ARM_Cortex-A8");
-
-            URL_Add("ARM Cortex-A9", "https://en.wikipedia.org/wiki/ARM_Cortex-A9");
-
-            URL_Add("ARM Cortex-A15", "https://en.wikipedia.org/wiki/ARM_Cortex-A15");
-
-            URL_Add("ARM Cortex-M", "https://en.wikipedia.org/wiki/ARM_Cortex-M");
-
-            URL_Add("ARM Cortex-M0", "https://en.wikipedia.org/wiki/ARM_Cortex-M#Cortex-M0");
-
-            URL_Add("ARM Cortex-M0+", "https://en.wikipedia.org/wiki/ARM_Cortex-M#Cortex-M0+");
-
-            URL_Add("ARM Cortex-M7", "https://en.wikipedia.org/wiki/ARM_Cortex-M#Cortex-M7");
-
-            URL_Add("STM8", "https://en.wikipedia.org/wiki/STM8");
-
-            URL_Add("STM32", "https://en.wikipedia.org/wiki/STM32");
-
-            URL_Add("STM32 F4", "https://en.wikipedia.org/wiki/STM32#STM32_F4");
-
-            URL_Add("STM32H753", "https://www.st.com/resource/en/datasheet/stm32h753vi.pdf");
-
-            URL_Add("STM32F103", "https://stm32world.com/wiki/STM32F103#Fakes_and_Clones");
-
-            URL_Add("STM32L432", "https://www.st.com/resource/en/datasheet/stm32l432kc.pdf");
-
-            URL_Add("STM32CubeProgrammer", "https://wiki.st.com/stm32mpu/wiki/STM32CubeProgrammer");
-
-            URL_Add("STM32CubeMX", "https://en.wikipedia.org/wiki/STM32#Cortex-M");
-
-            URL_Add("STM32CubeIDE", "https://en.wikipedia.org/wiki/STM32#STM32");
-
-            URL_Add("STM32duino", "https://community.st.com/t5/stm32-mcus/stm32-arduino-stm32duino-tutorial/ta-p/49649");
-
-            URL_Add("SWDIO", "https://electronics.stackexchange.com/questions/549311/program-stm32-mcu-with-swd-by-default-as-alternate-function");
-
-            URL_Add("Westberry", "https://github.com/emolitor/WestberryTech-WB32/blob/main/docs/chip-overview.md");
-
-            URL_Add("ST Nucleo", "https://en.wikipedia.org/wiki/STM32#ST_Nucleo"); // Old: <https://en.wikipedia.org/wiki/STM32#Nucleo_boards>
-
-            URL_Add("WS2812B", "https://stm32world.com/wiki/STM32_WS2812_(NeoPixel_RGB_LED)");
-
-            URL_Add("M3U8", "https://en.wikipedia.org/wiki/M3U#M3U8");
-
-            URL_Add("RM0008 Reference manual: STM32F101xx, STM32F102xx, STM32F103xx, STM32F105xx and STM32F107xx advanced ARM-based 32-bit microcontrollers", "https://www.st.com/resource/en/reference_manual/cd00171190-stm32f101xx-stm32f102xx-stm32f103xx-stm32f105xx-and-stm32f107xx-advanced-arm-based-32-bit-mcus-stmicroelectronics.pdf");
-
-            URL_Add("Tensor cores", "https://en.wikipedia.org/wiki/Volta_(microarchitecture)#Details");
-
-            URL_Add("ELM327", "https://en.wikipedia.org/wiki/ELM327");
-
-            URL_Add("perfboard", "https://en.wikipedia.org/wiki/Perfboard");
-
-            URL_Add("breadboard", "https://en.wikipedia.org/wiki/Breadboard");
-
-            URL_Add("single-board computer", "https://en.wikipedia.org/wiki/Single-board_computer");
 
             URL_Add("Pillow", "https://en.wikipedia.org/wiki/Python_Imaging_Library");
 
@@ -149827,6 +149059,778 @@ namespace OverflowHelper.core
 
             URL_Add("multi-touch", "https://en.wiktionary.org/wiki/multi-touch#Adjective");
 
+            URL_Add("over", "https://en.wiktionary.org/wiki/over#Adverb");
+
+            URL_Add("over and over", "https://en.wiktionary.org/wiki/over_and_over#Adverb");
+
+            URL_Add("over the top", "https://en.wiktionary.org/wiki/over_the_top#Adjective");
+
+            URL_Add("over time", "https://en.wiktionary.org/wiki/over_time#Prepositional_phrase");
+
+            URL_Add("over-the-board chess", "https://en.wikipedia.org/wiki/Glossary_of_chess#over_the_board");
+
+            URL_Add("overambitious", "https://en.wiktionary.org/wiki/overambitious#Adjective");
+
+            URL_Add("overaged", "https://en.wiktionary.org/wiki/overaged#Adjective");
+
+            URL_Add("overall", "https://en.wiktionary.org/wiki/overall#Adjective");
+
+            URL_Add("overboard", "https://en.wiktionary.org/wiki/overboard#Adverb");
+
+            URL_Add("overcome", "https://en.wiktionary.org/wiki/overcome#Verb");
+
+            URL_Add("overcomplicate", "https://en.wiktionary.org/wiki/overcomplicate#Verb");
+
+            URL_Add("overcomplicating", "https://en.wiktionary.org/wiki/overcomplicate#Verb");
+
+            URL_Add("overcomplicated", "https://en.wiktionary.org/wiki/overcomplicated#Adjective");
+
+            URL_Add("overcomplex", "https://en.wiktionary.org/wiki/overcomplex#Adjective");
+
+            URL_Add("overcommit", "https://en.wiktionary.org/wiki/overcommit#Verb");
+
+            URL_Add("overcommitting", "https://en.wiktionary.org/wiki/overcommit#Verb");
+
+            URL_Add("overcounting", "https://en.wiktionary.org/wiki/overcount#Verb");
+
+            URL_Add("overvoltage", "https://en.wikipedia.org/wiki/Overvoltage");
+
+            URL_Add("overvoltage protection", "https://en.wikipedia.org/wiki/Overvoltage#Overvoltage_protection_devices");
+
+            URL_Add("overcharge", "https://en.wiktionary.org/wiki/overcharge#Verb");
+
+            URL_Add("overcharging", "https://en.wiktionary.org/wiki/overcharging#Noun");
+
+            URL_Add("overcurrent", "https://en.wiktionary.org/wiki/overcurrent#Noun");
+
+            URL_Add("overdone", "https://en.wiktionary.org/wiki/overdo#Verb");
+
+            URL_Add("overeager", "https://en.wiktionary.org/wiki/overeager#Adjective");
+
+            URL_Add("overexplaining", "https://en.wiktionary.org/wiki/overexplain#Verb");
+
+            URL_Add("overemphasis", "https://en.wiktionary.org/wiki/overemphasis#Noun");
+
+            URL_Add("overemphasising", "https://en.wiktionary.org/wiki/overemphasise#Verb");
+
+            URL_Add("overestimate", "https://en.wiktionary.org/wiki/overestimate#Noun");
+
+            URL_Add("overengineered", "https://en.wiktionary.org/wiki/overengineered#Adjective");
+
+            URL_Add("overengineer", "https://en.wiktionary.org/wiki/overengineer#Verb");
+
+            URL_Add("overfit", "https://en.wiktionary.org/wiki/overfit#Verb");
+
+            URL_Add("overfitting", "https://en.wikipedia.org/wiki/Overfitting");
+
+            URL_Add("overfitted", "https://en.wiktionary.org/wiki/overfit#Verb");
+
+            URL_Add("underfitting", "https://en.wiktionary.org/wiki/underfit#Verb");
+
+            URL_Add("overformatting", "https://en.wiktionary.org/wiki/overformat#Verb");
+
+            URL_Add("overformatted", "https://en.wiktionary.org/wiki/overformat#Verb");
+
+            URL_Add("overflowed", "https://en.wiktionary.org/wiki/overflow#Verb");
+
+            URL_Add("overgeneralizing", "https://en.wiktionary.org/wiki/overgeneralize#Verb");
+
+            URL_Add("overindulgence", "https://en.wiktionary.org/wiki/overindulgence#Noun");
+
+            URL_Add("overinterpret", "https://en.wiktionary.org/wiki/overinterpret#Verb");
+
+            URL_Add("overinterpreted", "https://en.wiktionary.org/wiki/overinterpret#Verb");
+
+            URL_Add("overinterpretation", "https://en.wiktionary.org/wiki/overinterpretation#Noun"); // Old: https://en.wiktionary.org/wiki/overinterpretation
+
+            URL_Add("overhead", "https://en.wiktionary.org/wiki/overhead#Noun");
+
+            URL_Add("overhyped", "https://en.wiktionary.org/wiki/overhyped#Adjective");
+
+            URL_Add("overheats", "https://en.wiktionary.org/wiki/overheat#Verb");
+
+            URL_Add("overkill", "https://en.wiktionary.org/wiki/overkill#Verb");
+
+            URL_Add("overload", "https://en.wiktionary.org/wiki/overload#Verb");
+
+            URL_Add("overloading", "https://en.wiktionary.org/wiki/overloading#Noun");
+
+            URL_Add("overlook", "https://en.wiktionary.org/wiki/overlook#Verb");
+
+            URL_Add("overlooking", "https://en.wiktionary.org/wiki/overlook#Verb");
+
+            URL_Add("overlooked", "https://en.wiktionary.org/wiki/overlook#Verb");
+
+            URL_Add("overlapping", "https://en.wiktionary.org/wiki/overlap#Verb");
+
+            URL_Add("overlubricate", "https://en.wiktionary.org/wiki/overlubricate#Verb");
+
+            URL_Add("overlubricating", "https://en.wiktionary.org/wiki/overlubricate#Verb");
+
+            URL_Add("overlubricated", "https://en.wiktionary.org/wiki/overlubricate#Verb");
+
+            URL_Add("overnight", "https://en.wiktionary.org/wiki/overnight#Adverb");
+
+            URL_Add("overpriced", "https://en.wiktionary.org/wiki/overpriced#Adjective");
+
+            URL_Add("overpopulating", "https://en.wiktionary.org/wiki/overpopulate#Verb");
+
+            URL_Add("overpromising", "https://en.wiktionary.org/wiki/overpromise#Verb");
+
+            URL_Add("overreported", "https://en.wiktionary.org/wiki/overreport#Verb");
+
+            URL_Add("overreact", "https://en.wiktionary.org/wiki/overreact#Verb");
+
+            URL_Add("overreacted", "https://en.wiktionary.org/wiki/overreact#Verb");
+
+            URL_Add("override", "https://en.wiktionary.org/wiki/override#Verb");
+
+            URL_Add("overriding", "https://en.wiktionary.org/wiki/override#Verb");
+
+            URL_Add("overridden", "https://en.wiktionary.org/wiki/override#Verb");
+
+            URL_Add("overrode", "https://en.wiktionary.org/wiki/override#Verb");
+
+            URL_Add("overridable", "https://en.wiktionary.org/wiki/overridable#Adjective");
+
+            URL_Add("oversight", "https://en.wiktionary.org/wiki/oversight#Noun");
+
+            URL_Add("oversimplify", "https://en.wiktionary.org/wiki/oversimplify#Verb");
+
+            URL_Add("oversimplified", "https://en.wiktionary.org/wiki/oversimplify#Verb");
+
+            URL_Add("oversimplification", "https://en.wiktionary.org/wiki/oversimplification#Noun");
+
+            URL_Add("overseas", "https://en.wiktionary.org/wiki/overseas#Adjective");
+
+            URL_Add("oversubscribed", "https://en.wiktionary.org/wiki/oversubscribed#Adjective");
+
+            URL_Add("overthink", "https://en.wiktionary.org/wiki/overthink#Verb_2");
+
+            URL_Add("overthinking", "https://en.wiktionary.org/wiki/overthink#Verb_2");
+
+            URL_Add("overuse", "https://en.wiktionary.org/wiki/overuse#Verb");
+
+            URL_Add("overused", "https://en.wiktionary.org/wiki/overuse#Verb");
+
+            URL_Add("overview", "https://en.wiktionary.org/wiki/overview#Noun");
+
+            URL_Add("overwrite", "https://en.wiktionary.org/wiki/overwrite#Verb");
+
+            URL_Add("overwriting", "https://en.wiktionary.org/wiki/overwrite#Verb");
+
+            URL_Add("overwritten", "https://en.wiktionary.org/wiki/overwritten#Verb");
+
+            URL_Add("overweight", "https://en.wiktionary.org/wiki/overweight#Adjective");
+
+            URL_Add("overwhelming", "https://en.wiktionary.org/wiki/overwhelming#Adjective");
+
+            URL_Add("overzealous", "https://en.wiktionary.org/wiki/overzealous#Adjective");
+
+            URL_Add("Overwatch", "https://en.wikipedia.org/wiki/Overwatch");
+
+            URL_Add("Overleaf", "https://en.wikipedia.org/wiki/Overleaf");
+
+            URL_Add("OverflowAI", "https://stackoverflow.blog/2023/07/27/announcing-overflowai/");
+
+            URL_Add("OverflowAPI", "https://stackoverflow.co/api-solutions/");
+
+            URL_Add("Overpass API", "https://wiki.openstreetmap.org/wiki/Overpass_API"); // Old: <http://wiki.openstreetmap.org/wiki/Overpass_API>
+
+            URL_Add("count", "https://en.wiktionary.org/wiki/count#Noun");
+
+            URL_Add("uncountable", "https://en.wiktionary.org/wiki/uncountable#Adjective");
+
+            URL_Add("miscounted", "https://en.wiktionary.org/wiki/miscount#Verb");
+
+            URL_Add("undercounted", "https://en.wiktionary.org/wiki/undercount#Verb");
+
+            URL_Add("prime-counting function", "https://en.wikipedia.org/wiki/Prime-counting_function");
+
+            URL_Add("Geiger counter", "https://en.wikipedia.org/wiki/Geiger_counter");
+
+            URL_Add("counterproductive", "https://en.wiktionary.org/wiki/counterproductive#Adjective");
+
+            URL_Add("counterintuitive", "https://en.wiktionary.org/wiki/counterintuitive#Adjective");
+
+            URL_Add("counterargued", "https://en.wiktionary.org/wiki/counterargue#Verb");
+
+            URL_Add("counterargument", "https://en.wiktionary.org/wiki/counterargument#Noun");
+
+            URL_Add("counterexample", "https://en.wiktionary.org/wiki/counterexample#Noun");
+
+            URL_Add("counterpart", "https://en.wiktionary.org/wiki/counterpart#Noun");
+
+            URL_Add("counteract", "https://en.wiktionary.org/wiki/counteract#Verb");
+
+            URL_Add("countries", "https://en.wiktionary.org/wiki/country#Noun");
+
+            URL_Add("encounter", "https://en.wiktionary.org/wiki/encounter#Verb");
+
+            URL_Add("encounters", "https://en.wiktionary.org/wiki/encounter#Verb");
+
+            URL_Add("encountering", "https://en.wiktionary.org/wiki/encounter#Verb");
+
+            URL_Add("encountered", "https://en.wiktionary.org/wiki/encounter#Verb");
+
+            URL_Add("accounting", "https://en.wiktionary.org/wiki/accounting#Noun");
+
+            URL_Add("accounting system", "https://en.wikipedia.org/wiki/Accounting_information_system");
+
+            URL_Add("unaccountable", "https://en.wiktionary.org/wiki/unaccountable#Adjective");
+
+            URL_Add("permanent account number", "https://en.wikipedia.org/wiki/Permanent_account_number");
+
+            URL_Add("battery", "https://en.wikipedia.org/wiki/Electric_battery");
+
+            URL_Add("batteries", "https://en.wiktionary.org/wiki/battery#Noun");
+
+            URL_Add("battery life", "https://en.wiktionary.org/wiki/battery_life#Noun");
+
+            URL_Add("TP4056", "https://www.best-microcontroller-projects.com/tp4056.html");
+
+            URL_Add("battery management system", "https://en.wikipedia.org/wiki/Battery_management_system");
+
+            URL_Add("battery management controller", "https://thepowerfacts.com/what-is-a-battery-management-controller/");
+
+            URL_Add("discharge", "https://en.wikipedia.org/wiki/Electric_battery#Performance,_capacity_and_discharge");
+
+            URL_Add("AA batteries", "https://en.wikipedia.org/wiki/AA_battery");
+
+            URL_Add("alkaline battery", "https://en.wikipedia.org/wiki/Alkaline_battery");
+
+            URL_Add("charging", "https://en.wiktionary.org/wiki/charge#Verb");
+
+            URL_Add("charged", "https://en.wiktionary.org/wiki/charge#Verb");
+
+            URL_Add("rechargeable", "https://en.wiktionary.org/wiki/rechargeable#Adjective");
+
+            URL_Add("self-discharge", "https://en.wikipedia.org/wiki/Self-discharge");
+
+            URL_Add("corona discharge", "https://en.wikipedia.org/wiki/Corona_discharge");
+
+            URL_Add("charge carrier", "https://en.wiktionary.org/wiki/charge_carrier#Noun");
+
+            URL_Add("charge pump", "https://en.wikipedia.org/wiki/Charge_pump");
+
+            URL_Add("chargeable", "https://en.wiktionary.org/wiki/chargeable#Adjective");
+
+            URL_Add("current density", "https://en.wikipedia.org/wiki/Current_density");
+
+            URL_Add("currently", "https://en.wiktionary.org/wiki/currently#Adverb");
+
+            URL_Add("noncurrent", "https://en.wiktionary.org/wiki/noncurrent#Adjective");
+
+            URL_Add("most current", "https://en.wiktionary.org/wiki/current#Adjective");
+
+            URL_Add("high voltage", "https://en.wiktionary.org/wiki/high_voltage#Noun");
+
+            URL_Add("ultra-low-voltage", "https://en.wikipedia.org/wiki/Ultra-low-voltage_processor");
+
+            URL_Add("voltage", "https://en.wikipedia.org/wiki/Voltage");
+
+            URL_Add("voltage divider", "https://en.wikipedia.org/wiki/Voltage_divider");
+
+            URL_Add("voltage standing wave ratio", "https://en.wikipedia.org/wiki/Standing_wave_ratio");
+
+            URL_Add("voltage regulator", "https://en.wikipedia.org/wiki/Voltage_regulator");
+
+            URL_Add("Transient voltage suppressor", "https://en.wikipedia.org/wiki/Transient_voltage_suppressor");
+
+            URL_Add("photovoltaics", "https://en.wikipedia.org/wiki/Photovoltaics");
+
+            URL_Add("transistor", "https://en.wikipedia.org/wiki/Transistor");
+
+            URL_Add("bipolar junction transistor", "https://en.wikipedia.org/wiki/Bipolar_junction_transistor");
+
+            URL_Add("Early effect", "https://en.wikipedia.org/wiki/Early_effect");
+
+            URL_Add("Ebers–Moll model", "https://en.wikipedia.org/wiki/Bipolar_junction_transistor#Ebers%E2%80%93Moll_model");
+
+            URL_Add("collector", "https://en.wikipedia.org/wiki/Bipolar_junction_transistor#Structure");
+
+            URL_Add("quiescent point", "https://en.wikipedia.org/wiki/Bipolar_transistor_biasing");
+
+            URL_Add("DC current gain", "https://en.wikipedia.org/wiki/Bipolar_junction_transistor#Common-emitter_current_gain"); // Old: https://en.wikipedia.org/wiki/Bipolar_junction_transistor#Active-mode_transistors_in_circuits
+
+            URL_Add("NPN", "https://en.wikipedia.org/wiki/Bipolar_junction_transistor#Regions_of_operation");
+
+            URL_Add("Darlington transistor", "https://en.wikipedia.org/wiki/Darlington_transistor");
+
+            URL_Add("phototransistor", "https://en.wikipedia.org/wiki/Photodiode#Related_devices");
+
+            URL_Add("IGBT", "https://en.wikipedia.org/wiki/Insulated-gate_bipolar_transistor");
+
+            URL_Add("FET", "https://en.wikipedia.org/wiki/Field-effect_transistor");
+
+            URL_Add("MOSFET", "https://en.wikipedia.org/wiki/MOSFET");
+
+            URL_Add("n-channel MOSFET", "https://en.wikipedia.org/wiki/Field-effect_transistor#n-channel_FET");
+
+            URL_Add("p-channel MOSFET", "https://en.wikipedia.org/wiki/MOSFET#PMOS_and_NMOS_logic");
+
+            URL_Add("2N7000 (MOSFET)", "https://en.wikipedia.org/wiki/2N7000");
+
+            URL_Add("transimpedance amplifier", "https://en.wikipedia.org/wiki/Transimpedance_amplifier");
+
+            URL_Add("TTL", "https://en.wikipedia.org/wiki/Transistor%E2%80%93transistor_logic");
+
+            URL_Add("NMOS", "https://en.wikipedia.org/wiki/NMOS_logic");
+
+            URL_Add("68HC11", "https://en.wikipedia.org/wiki/Motorola_68HC11");
+
+            URL_Add("electricity", "https://en.wiktionary.org/wiki/electricity#Noun");
+
+            URL_Add("biconditional", "https://en.wikipedia.org/wiki/Logical_biconditional");
+
+            URL_Add("programmable logic device", "https://en.wikipedia.org/wiki/Programmable_logic_device");
+
+            URL_Add("CPLD", "https://en.wikipedia.org/wiki/Complex_programmable_logic_device");
+
+            URL_Add("PLC", "https://en.wikipedia.org/wiki/Programmable_logic_controller");
+
+            URL_Add("IC", "https://en.wikipedia.org/wiki/Integrated_circuit");
+
+            URL_Add("fabless", "https://en.wikipedia.org/wiki/Fabless_manufacturing");
+
+            URL_Add("AM335x", "https://en.wikipedia.org/wiki/Sitara_ARM_Processor#The_Sitara_family");
+
+            URL_Add("ARM", "https://en.wikipedia.org/wiki/ARM_architecture");
+
+            URL_Add("SVE", "https://en.wikipedia.org/wiki/AArch64#Scalable_Vector_Extension_(SVE)");
+
+            URL_Add("ARM7", "https://en.wikipedia.org/wiki/ARM7");
+
+            URL_Add("ARMv7", "https://en.wikipedia.org/wiki/ARM_architecture_family#Floating-point_(VFP)");
+
+            URL_Add("ARMv8", "https://en.wikipedia.org/wiki/Comparison_of_ARMv8-A_processors");
+
+            URL_Add("ARM Cortex-A7", "https://en.wikipedia.org/wiki/ARM_Cortex-A7");
+
+            URL_Add("ARM Cortex-A8", "https://en.wikipedia.org/wiki/ARM_Cortex-A8");
+
+            URL_Add("ARM Cortex-A9", "https://en.wikipedia.org/wiki/ARM_Cortex-A9");
+
+            URL_Add("ARM Cortex-A15", "https://en.wikipedia.org/wiki/ARM_Cortex-A15");
+
+            URL_Add("ARM Cortex-M", "https://en.wikipedia.org/wiki/ARM_Cortex-M");
+
+            URL_Add("ARM Cortex-M0", "https://en.wikipedia.org/wiki/ARM_Cortex-M#Cortex-M0");
+
+            URL_Add("ARM Cortex-M0+", "https://en.wikipedia.org/wiki/ARM_Cortex-M#Cortex-M0+");
+
+            URL_Add("ARM Cortex-M7", "https://en.wikipedia.org/wiki/ARM_Cortex-M#Cortex-M7");
+
+            URL_Add("STM8", "https://en.wikipedia.org/wiki/STM8");
+
+            URL_Add("STM32", "https://en.wikipedia.org/wiki/STM32");
+
+            URL_Add("STM32 F4", "https://en.wikipedia.org/wiki/STM32#STM32_F4");
+
+            URL_Add("STM32H753", "https://www.st.com/resource/en/datasheet/stm32h753vi.pdf");
+
+            URL_Add("STM32F103", "https://stm32world.com/wiki/STM32F103#Fakes_and_Clones");
+
+            URL_Add("STM32L432", "https://www.st.com/resource/en/datasheet/stm32l432kc.pdf");
+
+            URL_Add("STM32CubeProgrammer", "https://wiki.st.com/stm32mpu/wiki/STM32CubeProgrammer");
+
+            URL_Add("STM32CubeMX", "https://en.wikipedia.org/wiki/STM32#Cortex-M");
+
+            URL_Add("STM32CubeIDE", "https://en.wikipedia.org/wiki/STM32#STM32");
+
+            URL_Add("STM32duino", "https://community.st.com/t5/stm32-mcus/stm32-arduino-stm32duino-tutorial/ta-p/49649");
+
+            URL_Add("SWDIO", "https://electronics.stackexchange.com/questions/549311/program-stm32-mcu-with-swd-by-default-as-alternate-function");
+
+            URL_Add("Westberry", "https://github.com/emolitor/WestberryTech-WB32/blob/main/docs/chip-overview.md");
+
+            URL_Add("ST Nucleo", "https://en.wikipedia.org/wiki/STM32#ST_Nucleo"); // Old: <https://en.wikipedia.org/wiki/STM32#Nucleo_boards>
+
+            URL_Add("WS2812B", "https://stm32world.com/wiki/STM32_WS2812_(NeoPixel_RGB_LED)");
+
+            URL_Add("M3U8", "https://en.wikipedia.org/wiki/M3U#M3U8");
+
+            URL_Add("RM0008 Reference manual: STM32F101xx, STM32F102xx, STM32F103xx, STM32F105xx and STM32F107xx advanced ARM-based 32-bit microcontrollers", "https://www.st.com/resource/en/reference_manual/cd00171190-stm32f101xx-stm32f102xx-stm32f103xx-stm32f105xx-and-stm32f107xx-advanced-arm-based-32-bit-mcus-stmicroelectronics.pdf");
+
+            URL_Add("Tensor cores", "https://en.wikipedia.org/wiki/Volta_(microarchitecture)#Details");
+
+            URL_Add("ELM327", "https://en.wikipedia.org/wiki/ELM327");
+
+            URL_Add("perfboard", "https://en.wikipedia.org/wiki/Perfboard");
+
+            URL_Add("breadboard", "https://en.wikipedia.org/wiki/Breadboard");
+
+            URL_Add("single-board computer", "https://en.wikipedia.org/wiki/Single-board_computer");
+
+            URL_Add("Stack&nbsp;Exchange API", "https://api.stackexchange.com/docs");
+
+            URL_Add("engineer", "https://en.wiktionary.org/wiki/engineer#Noun");
+
+            URL_Add("engineered", "https://en.wiktionary.org/wiki/engineer#Verb");
+
+            URL_Add("engineering", "https://en.wikipedia.org/wiki/Engineering");
+
+            URL_Add("reengineering", "https://en.wiktionary.org/wiki/reengineering#Noun");
+
+            URL_Add("non-recurring engineering", "https://en.wikipedia.org/wiki/Non-recurring_engineering");
+
+            URL_Add("reverse-engineered", "https://en.wiktionary.org/wiki/reverse-engineer#Verb");
+
+            URL_Add("reverse engineering", "https://en.wikipedia.org/wiki/Reverse_engineering");
+
+            URL_Add("electrical engineering", "https://en.wikipedia.org/wiki/Electrical_engineering");
+
+            URL_Add("chemical engineering", "https://en.wikipedia.org/wiki/Chemical_engineering");
+
+            URL_Add("mechanical engineering", "https://en.wikipedia.org/wiki/Mechanical_engineering");
+
+            URL_Add("Society of Automotive Engineers", "https://en.wikipedia.org/wiki/SAE_International");
+
+            URL_Add("aeronautical engineering", "https://en.wikipedia.org/wiki/Aerospace_engineering");
+
+            URL_Add("civil engineering", "https://en.wikipedia.org/wiki/Civil_engineering");
+
+            URL_Add("quality engineering", "https://en.wikipedia.org/wiki/Quality_engineering");
+
+            URL_Add("computer engineering", "https://en.wikipedia.org/wiki/Computer_engineering");
+
+            URL_Add("data engineering", "https://en.wikipedia.org/wiki/Information_engineering");
+
+            URL_Add("social engineering", "https://en.wikipedia.org/wiki/Social_engineering_(security)");
+
+            URL_Add("prompt engineering", "https://en.wikipedia.org/wiki/Prompt_engineering");
+
+            URL_Add("systems engineers", "https://en.wikipedia.org/wiki/Systems_engineering#History");
+
+            URL_Add("keycap profile", "https://thekeeblog.com/overview-of-different-keycap-profiles/");
+
+            URL_Add("junior", "https://en.wiktionary.org/wiki/junior#Adjective");
+
+            URL_Add("senior engineer", "https://study.com/articles/difference_between_senior_principle_engineer.html");
+
+            URL_Add("senior software developer", "https://en.wikipedia.org/wiki/Lead_programmer");
+
+            URL_Add("civil engineer", "https://en.wikipedia.org/wiki/Civil_engineer");
+
+            URL_Add("data engineer", "https://en.wikipedia.org/wiki/Information_engineering");
+
+            URL_Add("data scientist", "https://en.wikipedia.org/wiki/Data_science#Careers_in_data_science");
+
+            URL_Add("software", "https://en.wiktionary.org/wiki/software#Noun"); // Old: https://en.wiktionary.org/wiki/software
+
+            URL_Add("software engineering", "https://en.wiktionary.org/wiki/software_engineering#Noun");
+
+            URL_Add("Programmer Lives Matter", "https://www.youtube.com/watch?v=ouKgUdqZMds");
+
+            URL_Add("programmer", "https://en.wiktionary.org/wiki/programmer#Noun");
+
+            URL_Add("programmers", "https://en.wiktionary.org/wiki/programmer#Noun");
+
+            URL_Add("Martin Fowler", "https://en.wikipedia.org/wiki/Martin_Fowler_(software_engineer)");
+
+            URL_Add("interpret", "https://en.wiktionary.org/wiki/interpret#Verb");
+
+            URL_Add("interpreted", "https://en.wiktionary.org/wiki/interpret#Verb");
+
+            URL_Add("interpreter", "https://en.wiktionary.org/wiki/interpreter#Noun");
+
+            URL_Add("interpretation", "https://en.wiktionary.org/wiki/interpretation#Noun");
+
+            URL_Add("interpretations", "https://en.wiktionary.org/wiki/interpretation#Noun");
+
+            URL_Add("interpretable", "https://en.wiktionary.org/wiki/interpretable#Adjective");
+
+            URL_Add("interpreting", "https://en.wiktionary.org/wiki/interpret#Verb");
+
+            URL_Add("misinterpreting", "https://en.wiktionary.org/wiki/misinterpret#Verb");
+
+            URL_Add("misinterpret", "https://en.wiktionary.org/wiki/misinterpret#Verb");
+
+            URL_Add("misinterpreted", "https://en.wiktionary.org/wiki/misinterpret#Verb");
+
+            URL_Add("misinterpretation", "https://en.wiktionary.org/wiki/misinterpretation#Noun");
+
+            URL_Add("reinterpret", "https://en.wiktionary.org/wiki/reinterpret#Verb");
+
+            URL_Add("threaded-interpreted language", "https://wiki.c2.com/?ThreadedInterpretiveLanguage"); // Old: <http://wiki.c2.com/?ThreadedInterpretiveLanguage>
+
+            URL_Add("Structure and Interpretation of Computer Programs", "https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs");
+
+            URL_Add("simplified", "https://en.wiktionary.org/wiki/simplified#Adjective");
+
+            URL_Add("weighted moving average", "https://en.wikipedia.org/wiki/Moving_average#Weighted_moving_average");
+
+            URL_Add("Hamming weight", "https://en.wikipedia.org/wiki/Hamming_weight");
+
+            URL_Add("subscribed", "https://en.wiktionary.org/wiki/subscribe#Verb");
+
+            URL_Add("subscriber", "https://en.wiktionary.org/wiki/subscriber#Noun");
+
+            URL_Add("subscribers", "https://en.wiktionary.org/wiki/subscriber#Noun");
+
+            URL_Add("subscription", "https://en.wiktionary.org/wiki/subscription#Noun");
+
+            URL_Add("subscriptions", "https://en.wiktionary.org/wiki/subscription#Noun");
+
+            URL_Add("publish–subscribe pattern", "https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern");
+
+            URL_Add("substr()", "https://perldoc.perl.org/perlfunc#substr-EXPR%2COFFSET%2CLENGTH%2CREPLACEMENT");
+
+            URL_Add("subject", "https://en.wiktionary.org/wiki/subject#Noun");
+
+            URL_Add("subjects", "https://en.wiktionary.org/wiki/subject#Noun");
+
+            URL_Add("subject-matter expert", "https://en.wikipedia.org/wiki/Subject-matter_expert");
+
+            URL_Add("subjective", "https://en.wiktionary.org/wiki/subjective#Adjective");
+
+            URL_Add("subjectiveness", "https://en.wiktionary.org/wiki/subjectiveness#Noun");
+
+            URL_Add("subsecond", "https://en.wiktionary.org/wiki/subsecond#Adjective");
+
+            URL_Add("suboptimal", "https://en.wiktionary.org/wiki/suboptimal#Adjective");
+
+            URL_Add("subtitle", "https://en.wiktionary.org/wiki/subtitle#Noun");
+
+            URL_Add("subtitles", "https://en.wiktionary.org/wiki/subtitle#Noun");
+
+            URL_Add("Indian subcontinent", "https://en.wikipedia.org/wiki/Indian_subcontinent");
+
+            URL_Add("sub-system", "https://en.wiktionary.org/wiki/sub-system#Noun");
+
+            URL_Add("substructure", "https://en.wiktionary.org/wiki/substructure#Noun");
+
+            URL_Add("substring", "https://en.wiktionary.org/wiki/substring#Noun");
+
+            URL_Add("substrings", "https://en.wiktionary.org/wiki/substring#Noun");
+
+            URL_Add("subpage", "https://en.wiktionary.org/wiki/subpage#Noun");
+
+            URL_Add("subset", "https://en.wiktionary.org/wiki/subset#Noun");
+
+            URL_Add("subattribute", "https://en.wiktionary.org/wiki/subattribute#Noun");
+
+            URL_Add("subpackages", "https://en.wiktionary.org/wiki/subpackage#Noun");
+
+            URL_Add("subpattern", "https://en.wiktionary.org/wiki/subpattern#Noun");
+
+            URL_Add("subproject", "https://en.wiktionary.org/wiki/subproject#Noun");
+
+            URL_Add("subprojects", "https://en.wiktionary.org/wiki/subproject#Noun");
+
+            URL_Add("subordinated", "https://en.wiktionary.org/wiki/subordinate#Verb");
+
+            URL_Add("subnetting", "https://en.wiktionary.org/wiki/subnet#Verb");
+
+            URL_Add("subcarrier", "https://en.wiktionary.org/wiki/subcarrier#Noun");
+
+            URL_Add("subdomain", "https://en.wiktionary.org/wiki/subdomain#Noun");
+
+            URL_Add("subvariant", "https://en.wiktionary.org/wiki/subvariant#Noun");
+
+            URL_Add("subfield", "https://en.wiktionary.org/wiki/subfield#Noun");
+
+            URL_Add("subarray", "https://en.wiktionary.org/wiki/subarray#Noun");
+
+            URL_Add("subidea", "https://en.wiktionary.org/wiki/subidea#Noun");
+
+            URL_Add("subquery", "https://en.wiktionary.org/wiki/subquery#Noun");
+
+            URL_Add("subclass", "https://en.wiktionary.org/wiki/subclass#Verb");
+
+            URL_Add("subclassing", "https://en.wiktionary.org/wiki/subclass#Verb");
+
+            URL_Add("subclasses", "https://en.wiktionary.org/wiki/subclass#Noun");
+
+            URL_Add("subvolumes", "https://en.wiktionary.org/wiki/subvolume#Noun");
+
+            URL_Add("subqueries", "https://en.wiktionary.org/wiki/subquery#Noun");
+
+            URL_Add("subring", "https://en.wikipedia.org/wiki/Subring");
+
+            URL_Add("subwoofer", "https://en.wikipedia.org/wiki/Subwoofer");
+
+            URL_Add("subpar", "https://en.wiktionary.org/wiki/subpar#Adjective");
+
+            URL_Add("sublists", "https://en.wiktionary.org/wiki/sublist#Noun");
+
+            URL_Add("submenu", "https://en.wiktionary.org/wiki/submenu#Noun");
+
+            URL_Add("sub-equation", "https://en.wiktionary.org/wiki/subequation#Noun");
+
+            URL_Add("subexpression", "https://en.wiktionary.org/wiki/subexpression#Noun");
+
+            URL_Add("subexpressions", "https://en.wiktionary.org/wiki/subexpression#Noun");
+
+            URL_Add("subnetwork", "https://en.wikipedia.org/wiki/Subnetwork");
+
+            URL_Add("networkwide", "https://en.wiktionary.org/wiki/networkwide#Adjective");
+
+            URL_Add("Git submodules", "https://git-scm.com/book/en/v2/Git-Tools-Submodules");
+
+            URL_Add("Subversion", "https://en.wikipedia.org/wiki/Apache_Subversion");
+
+            URL_Add("Subclipse", "https://github.com/subclipse/subclipse");
+
+            URL_Add("Substack", "https://en.wikipedia.org/wiki/Substack#Content");
+
+            URL_Add("Subresource Integrity", "https://en.wikipedia.org/wiki/Subresource_Integrity");
+
+            URL_Add("Sublime Merge", "https://en.wikipedia.org/wiki/Sublime_Text#Sublime_Merge");
+
+            URL_Add("Subject Alternative Name", "https://en.wikipedia.org/wiki/Public_key_certificate#TLS/SSL_server_certificate");
+
+            URL_Add("subtree", "https://en.wiktionary.org/wiki/subtree#Noun");
+
+            URL_Add("subtrees", "https://en.wiktionary.org/wiki/subtree#Noun");
+
+            URL_Add("kill", "https://en.wikipedia.org/wiki/Kill_(command)");
+
+            URL_Add("killing", "https://en.wiktionary.org/wiki/kill#Verb");
+
+            URL_Add("killers", "https://en.wiktionary.org/wiki/killer#Noun");
+
+            URL_Add("killed off", "https://en.wiktionary.org/wiki/kill_off#Verb");
+
+            URL_Add("painkiller", "https://en.wiktionary.org/wiki/painkiller#Noun");
+
+            URL_Add("painkillers", "https://en.wiktionary.org/wiki/painkiller#Noun");
+
+            URL_Add("pkill", "https://linux.die.net/man/1/pkill");
+
+            URL_Add("PsKill", "https://learn.microsoft.com/en-us/sysinternals/downloads/pskill");
+
+            URL_Add("PsList", "https://learn.microsoft.com/en-us/sysinternals/downloads/pslist");
+
+            URL_Add("skill", "https://en.wiktionary.org/wiki/skill#Noun");
+
+            URL_Add("skills", "https://en.wiktionary.org/wiki/skill#Noun");
+
+            URL_Add("skillfully", "https://en.wiktionary.org/wiki/skillfully#Adverb");
+
+            URL_Add("skill set", "https://en.wiktionary.org/wiki/skill_set#Noun");
+
+            URL_Add("hard skill", "https://en.wiktionary.org/wiki/hard_skill#Noun");
+
+            URL_Add("T-shaped developer", "https://en.wikipedia.org/wiki/T-shaped_skills");
+
+            URL_Add("write", "https://en.wiktionary.org/wiki/write#Verb");
+
+            URL_Add("writing", "https://en.wiktionary.org/wiki/writing#Verb");
+
+            URL_Add("wrote", "https://en.wiktionary.org/wiki/write#Verb");
+
+            URL_Add("writers", "https://en.wiktionary.org/wiki/writer#Noun");
+
+            URL_Add("rewriting", "https://en.wiktionary.org/wiki/rewriting#Verb");
+
+            URL_Add("rewrote", "https://en.wiktionary.org/wiki/rewrite#Verb");
+
+            URL_Add("rewrite", "https://en.wiktionary.org/wiki/rewrite#Verb");
+
+            URL_Add("miswriting", "https://en.wiktionary.org/wiki/miswrite#Verb");
+
+            URL_Add("self-written", "https://en.wikipedia.org/wiki/Autobiography");
+
+            URL_Add("write off", "https://en.wiktionary.org/wiki/write_off#Verb");
+
+            URL_Add("write-up", "https://en.wiktionary.org/wiki/write-up#Noun");
+
+            URL_Add("write-ups", "https://en.wiktionary.org/wiki/write-up#Noun");
+
+            URL_Add("writing on the wall", "https://en.wiktionary.org/wiki/writing_on_the_wall#Noun");
+
+            URL_Add("handwrite", "https://en.wiktionary.org/wiki/handwrite#Verb");
+
+            URL_Add("typewriter", "https://en.wikipedia.org/wiki/Typewriter");
+
+            URL_Add("handwriting", "https://en.wiktionary.org/wiki/handwriting#Noun");
+
+            URL_Add("technical writing", "https://en.wikipedia.org/wiki/Technical_writing");
+
+            URL_Add("LibreOffice Writer", "https://en.wikipedia.org/wiki/LibreOffice_Writer");
+
+            URL_Add("KWrite", "https://en.wikipedia.org/wiki/KWrite");
+
+            URL_Add("RewriteCond", "https://httpd.apache.org/docs/2.4/mod/mod_rewrite.html#rewritecond");
+
+            URL_Add("COW", "https://en.wikipedia.org/wiki/Copy-on-write");
+
+            URL_Add("left-to-right", "https://en.wikipedia.org/wiki/Writing_system#Directionality_and_orientation"); // Old: <https://en.wikipedia.org/wiki/Writing_system#Directionality>
+
+            URL_Add("relubricating", "https://en.wiktionary.org/wiki/relubricate#Verb");
+
+            URL_Add("relubricate", "https://en.wiktionary.org/wiki/relubricate#Verb");
+
+            URL_Add("lubricant", "https://en.wiktionary.org/wiki/lubricant#Noun");
+
+            URL_Add("lubridate", "https://lubridate.tidyverse.org/");
+
+            URL_Add("lubricating", "https://en.wiktionary.org/wiki/lubricate#Verb");
+
+            URL_Add("lubricated", "https://en.wiktionary.org/wiki/lubricated#Adjective");
+
+            URL_Add("prelubricated", "https://en.wiktionary.org/wiki/prelubricated#Adjective");
+
+            URL_Add("nonlubricated", "https://en.wiktionary.org/wiki/nonlubricated#Adjective");
+
+            URL_Add("mushiness", "https://en.wiktionary.org/wiki/mushiness#Noun");
+
+            URL_Add("load", "https://en.wiktionary.org/wiki/load#Verb");
+
+            URL_Add("loading", "https://en.wiktionary.org/wiki/load#Verb");
+
+            URL_Add("loaded", "https://en.wiktionary.org/wiki/load#Verb");
+
+            URL_Add("loader", "https://en.wiktionary.org/wiki/loader#Noun");
+
+            URL_Add("offload", "https://en.wiktionary.org/wiki/offload#Verb");
+
+            URL_Add("offloading", "https://en.wiktionary.org/wiki/offload#Verb");
+
+            URL_Add("preloaded", "https://en.wiktionary.org/wiki/preloaded#Adjective");
+
+            URL_Add("spring-loaded", "https://en.wiktionary.org/wiki/spring-loaded#Adjective");
+
+            URL_Add("workload", "https://en.wiktionary.org/wiki/workload#Noun");
+
+            URL_Add("payload", "https://en.wiktionary.org/wiki/payload#Noun");
+
+            URL_Add("boatload", "https://en.wiktionary.org/wiki/boatload#Noun");
+
+            URL_Add("boatloads", "https://en.wiktionary.org/wiki/boatload#Noun");
+
+            URL_Add("heat sink", "https://en.wiktionary.org/wiki/heat_sink#Noun"); // Old: https://en.wiktionary.org/wiki/heat_sink#English
+
+            URL_Add("heat sinks", "https://en.wiktionary.org/wiki/heat_sink#Noun");
+
+            URL_Add("Hess's law of constant heat summation", "https://en.wikipedia.org/wiki/Hess%27s_law");
+
+            URL_Add("heat death of the universe", "https://en.wikipedia.org/wiki/Heat_death_of_the_universe");
+
+            URL_Add("HVAC", "https://en.wikipedia.org/wiki/Heating,_ventilation,_and_air_conditioning");
+
+            URL_Add("separate the wheat from the chaff", "https://en.wiktionary.org/wiki/separate_the_wheat_from_the_chaff#Verb");
+
+            URL_Add("Wheatstone bridge", "https://en.wikipedia.org/wiki/Wheatstone_bridge");
+
+            URL_Add("theater", "https://en.wiktionary.org/wiki/theater#Noun");
+
+            URL_Add("home theater PC", "https://en.wikipedia.org/wiki/Home_theater_PC");
+
+            URL_Add("cheat sheet", "https://en.wiktionary.org/wiki/cheat_sheet#Noun");
+
+            URL_Add("anti-cheat software", "https://en.wikipedia.org/wiki/Cheating_in_online_games#Anti-cheating_methods_and_limitations");
+
+            URL_Add("FACEIT Anti-cheat", "https://www.gamingonlinux.com/2023/07/faceit-anti-cheat-to-support-linux-steam-deck-with-battlebit-remastered/");
+
+            URL_Add("Valve Anti-Cheat", "https://en.wikipedia.org/wiki/Valve_Anti-Cheat");
+
+            URL_Add("Easy Anti-Cheat", "https://www.pcgamer.com/games/battle-royale/easy-anti-cheat-washes-its-hands-of-the-apex-legends-hacking-disaster-that-saw-streamer-accounts-hijacked-live-there-is-no-rce-vulnerability-within-eac/");
+
+            URL_Add("aimbot", "https://en.wikipedia.org/wiki/Cheating_in_online_games#Aimbots_and_triggerbots");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -150173,258 +150177,6 @@ namespace OverflowHelper.core
             correctionAdd("independent contributor_", "individual contributor_");
             correctionAdd("Individual Contributor_", "individual contributor_");
             correctionAdd("IC_", "individual contributor_");
-
-            // The abbr. is "MSI"
-            correctionAdd("MSI_", "Micro-Star International_");
-            correctionAdd("msi_", "Micro-Star International_");
-            correctionAdd("MSi_", "Micro-Star International_");
-
-            // An STM32 microcontroller register for a type of ARM Cortex-M exception
-            //
-            // Allegedly in:
-            //
-            //   ARM Cortex-M3 Technical Reference Manual (ARM DDI 0337E, section 8.2.2, page 180).
-            //
-            // Alternative URLs:
-            //
-            //   <https://developer.arm.com/documentation/dui0552/a/cortex-m3-peripherals/system-control-block/hardfault-status-register>
-            //   <https://developer.arm.com/documentation/101928/0101/Cortex-M85-Processor-level-components-and-system-registers---Reference-Material/System-Control-and-Implementation-Control-Block/HardFault-Status-Register>
-            //
-            //   <https://github.com/ferenc-nemeth/arm-hard-fault-handler>
-            //     But very poor writing.
-            //
-            //   <https://documentation-service.arm.com/static/61084e4a3d73a34b640e31eb>
-            //     HFSR is misspelled as HSFR... In official ARM documentation!
-            //
-            correctionAdd("HardFault Status Register_", "HFSR_");
-            correctionAdd("HardFault_", "HFSR_"); // For the cross-reference
-            correctionAdd("HSFR_", "HFSR_");
-
-            // Electronics
-            correctionAdd("ST Microelectronics_", "STMicroelectronics_");
-            correctionAdd("ST-Micron_", "STMicroelectronics_");
-            correctionAdd("ST Micro_", "STMicroelectronics_");
-            correctionAdd("ST-Micro_", "STMicroelectronics_");
-            correctionAdd("STMicro_", "STMicroelectronics_");
-            correctionAdd("ST_", "STMicroelectronics_");
-            correctionAdd("st_", "STMicroelectronics_");
-
-            // ST / STM32
-            correctionAdd("discovery board_", "Discovery Kit_");
-            correctionAdd("discovery_", "Discovery Kit_");
-            correctionAdd("Discovery_", "Discovery Kit_");
-            correctionAdd("Disocvery_", "Discovery Kit_");
-            correctionAdd("DISCO_", "Discovery Kit_");
-            correctionAdd("Disco_", "Discovery Kit_");
-            correctionAdd("disco_", "Discovery Kit_");
-
-            correctionAdd("emebed_", "embed_");
-            correctionAdd("embedd_", "embed_");
-
-            // ST (STMicroelectronics) / STM / ARM / STM32 (embedded systems)
-            correctionAdd("L**ow**L**evel_", "low-layer_");
-            correctionAdd("low-level_", "low-layer_");
-            correctionAdd("low layer_", "low-layer_");
-            correctionAdd("Low Level_", "low-layer_");
-            correctionAdd("Low-Level_", "low-layer_");
-            correctionAdd("LL_", "low-layer_");
-
-            // ARM. STM32. Embedded systems
-            correctionAdd("thumb-2_", "Thumb-2_");
-            correctionAdd("thumb2_", "Thumb-2_");
-            correctionAdd("Thumb_", "Thumb-2_");
-            correctionAdd("thumb_", "Thumb-2_");
-            correctionAdd("THUMB_", "Thumb-2_");
-
-            // Embedded systems
-            correctionAdd("OTA_", "over-the-air_");
-            correctionAdd("ota_", "over-the-air_");
-
-            // Both embedded systems and general-purpose operating system
-            correctionAdd("hardware abstraction layer_", "HAL_");
-            correctionAdd("Hardware Abstraction Layer_", "HAL_");
-            correctionAdd("hal_", "HAL_");
-            correctionAdd("Hal_", "HAL_");
-
-            correctionAdd("Raspberry pie_", "Raspberry Pi_");
-            correctionAdd("Raspberry Pie_", "Raspberry Pi_");
-            correctionAdd("Raspberry PI_", "Raspberry Pi_");
-            correctionAdd("Raspberry pi_", "Raspberry Pi_");
-            correctionAdd("raspberry Pi_", "Raspberry Pi_");
-            correctionAdd("raspberry pi_", "Raspberry Pi_");
-            correctionAdd("raspberri pi_", "Raspberry Pi_");
-            correctionAdd("raspberry PI_", "Raspberry Pi_");
-            correctionAdd("raspberry-pi_", "Raspberry Pi_");
-            correctionAdd("rasbperry pi_", "Raspberry Pi_");
-            correctionAdd("Raspbeery Pi_", "Raspberry Pi_");
-            correctionAdd("Raspberry-pi_", "Raspberry Pi_");
-            correctionAdd("RaspBerry Pi_", "Raspberry Pi_");
-            correctionAdd("Rasbperry Pi_", "Raspberry Pi_");
-            correctionAdd("Raspberry-Pi_", "Raspberry Pi_");
-            correctionAdd("rasspbery pi_", "Raspberry Pi_");
-            correctionAdd("Rapsberry Pi_", "Raspberry Pi_");
-            correctionAdd("raspberrypi_", "Raspberry Pi_");
-            correctionAdd("Rasberry Pi_", "Raspberry Pi_");
-            correctionAdd("rasberry pi_", "Raspberry Pi_");
-            correctionAdd("RaspberryPi_", "Raspberry Pi_");
-            correctionAdd("RaspberryPI_", "Raspberry Pi_");
-            correctionAdd("raspbery pi_", "Raspberry Pi_"); // Misspelling.
-            correctionAdd("raspberryPi_", "Raspberry Pi_");
-            correctionAdd("rasperry pi_", "Raspberry Pi_");
-            correctionAdd("Rasberry PI_", "Raspberry Pi_");
-            correctionAdd("Rasberry-Pi_", "Raspberry Pi_");
-            correctionAdd("Rasberry Py_", "Raspberry Pi_");
-            correctionAdd("rasperri pi_", "Raspberry Pi_");
-            correctionAdd("Rasperry Pi_", "Raspberry Pi_");
-            correctionAdd("RaspBerryPi_", "Raspberry Pi_");
-            correctionAdd("rasperry PI_", "Raspberry Pi_");
-            correctionAdd("RASPBERRYPI_", "Raspberry Pi_");
-            correctionAdd("rasberri pi_", "Raspberry Pi_");
-            correctionAdd("Rapberry pi_", "Raspberry Pi_");
-            correctionAdd("Rapserry pi_", "Raspberry Pi_");
-            correctionAdd("Razberrypi_", "Raspberry Pi_");
-            correctionAdd("razberrypi_", "Raspberry Pi_");
-            correctionAdd("RasperryPi_", "Raspberry Pi_");
-            correctionAdd("rasbery pi_", "Raspberry Pi_");
-            correctionAdd("raspberry_", "Raspberry Pi_");
-            correctionAdd("Raspberry_", "Raspberry Pi_");
-            correctionAdd("rasbperry_", "Raspberry Pi_");
-            correctionAdd("rasspbery_", "Raspberry Pi_");
-            correctionAdd("Rasperry_", "Raspberry Pi_");
-            correctionAdd("Rasberry_", "Raspberry Pi_");
-            correctionAdd("Raspberr_", "Raspberry Pi_");
-            correctionAdd("rasberry_", "Raspberry Pi_");
-            correctionAdd("rasberri_", "Raspberry Pi_");
-            correctionAdd("Raspi Pi_", "Raspberry Pi_");
-            correctionAdd("Rasp pi_", "Raspberry Pi_");
-            correctionAdd("rasp pi_", "Raspberry Pi_");
-            correctionAdd("Rasp Pi_", "Raspberry Pi_");
-            correctionAdd("Ras-Pi_", "Raspberry Pi_");
-            correctionAdd("RaspPi_", "Raspberry Pi_");
-            correctionAdd("rasppi_", "Raspberry Pi_");
-            correctionAdd("raSPI_", "Raspberry Pi_");
-            correctionAdd("RASPI_", "Raspberry Pi_");
-            correctionAdd("rasPi_", "Raspberry Pi_");
-            correctionAdd("raspi_", "Raspberry Pi_");
-            correctionAdd("RasPi_", "Raspberry Pi_");
-            correctionAdd("Raspi_", "Raspberry Pi_");
-            correctionAdd("r-pi_", "Raspberry Pi_");
-            correctionAdd("R-Pi_", "Raspberry Pi_");
-            correctionAdd("rasp_", "Raspberry Pi_");
-            correctionAdd("r pi_", "Raspberry Pi_");
-            correctionAdd("Rasp_", "Raspberry Pi_");
-            correctionAdd("RaPi_", "Raspberry Pi_");
-            correctionAdd("Rpi_", "Raspberry Pi_");
-            correctionAdd("RPi_", "Raspberry Pi_");
-            correctionAdd("rpi_", "Raspberry Pi_");
-            correctionAdd("RPI_", "Raspberry Pi_");
-            correctionAdd("R{i_", "Raspberry Pi_");
-            correctionAdd("rPi_", "Raspberry Pi_");
-            correctionAdd("pie_", "Raspberry Pi_");
-            correctionAdd("PI_", "Raspberry Pi_");
-            correctionAdd("pi_", "Raspberry Pi_");
-            correctionAdd("Pi_", "Raspberry Pi_");
-            correctionAdd("RP_", "Raspberry Pi_");
-
-            // Raspberry Pi (like "shield" for Arduino)
-            //
-            // Alternative URLs:
-            //
-            //   <https://raspberrytips.com/best-raspberry-pi-hats/>
-            //   <https://thepihut.com/collections/raspberry-pi-hats>
-            //   <https://www.tomshardware.com/best-picks/raspberry-pi-microsd-cards>
-            //
-            correctionAdd("hat_", "hardware attached on top_");
-
-            // The Texas Instruments hardware platform,
-            // Also at <https://www.ti.com/ww/en/launchpad/about.html>.
-            //
-            // The links are effectively broken by now. Does it
-            // exist?
-            //
-            correctionAdd("Texas Instruments LaunchPad_", "LaunchPad_");
-            correctionAdd("Texas Instruments launchpad_", "LaunchPad_");
-            correctionAdd("TI LaunchPad_", "LaunchPad_");
-            correctionAdd("TI launchpad_", "LaunchPad_");
-            correctionAdd("ti launchpad_", "LaunchPad_");
-            correctionAdd("launchpad_", "LaunchPad_");
-            correctionAdd("Launchpad_", "LaunchPad_");
-
-            // Electronics (as in embedded software?)?
-            correctionAdd("Binary Runtime Environment for Wireless_", "BREW_");
-            correctionAdd("Qualcomm BREW_", "BREW_");
-            correctionAdd("Brew MP_", "BREW_");
-            correctionAdd("Brew_", "BREW_");
-            correctionAdd("brew_", "BREW_");
-
-            // The verb
-            correctionAdd("flsah_", "flash_");
-            correctionAdd("flush_", "flash_");
-            correctionAdd("fash_", "flash_");
-            correctionAdd("flag_", "flash_"); // An autocorrect "masterpiece"?
-
-            correctionAdd("nand flash_", "NAND flash_");
-            correctionAdd("NAND-flash_", "NAND flash_");
-            correctionAdd("nand-flash_", "NAND flash_");
-            correctionAdd("NAND Flash_", "NAND flash_");
-            correctionAdd("flash nand_", "NAND flash_");
-            correctionAdd("flashnand_", "NAND flash_");
-            correctionAdd("NAND_", "NAND flash_");
-
-            correctionAdd("nor flash_", "NOR flash_");
-            correctionAdd("Flash NOR_", "NOR flash_");
-            correctionAdd("flash NOR_", "NOR flash_");
-
-            // Embedded systems, incl. QMK mechanical keyboards
-            //
-            // For the alternative URL (Keychron's instructions)
-            // Microcontrollers
-            //
-            // E.g., related to flashing firmware for Keychron keyboards
-            correctionAdd("Hard flashing_", "hard flashing_");
-
-            // Embedded systems, incl. QMK mechanical keyboards
-            //
-            // Alternative URLs:
-            //
-            //   <https://keychronsupport.zendesk.com/hc/en-us/articles/8914576001943-How-to-Factory-Reset-or-Flash-Firmware-for-Your-Keychron-Q3-keyboard>
-            //     The spacebar method for flashing Keychron keyboards
-            //
-            correctionAdd("bootloader loader mode_", "bootloader mode_");
-            correctionAdd("boot loader mode_", "bootloader mode_");
-            correctionAdd("flash memory_", "bootloader mode_"); // For the cross-reference
-            correctionAdd("bootloader_", "bootloader mode_");
-            correctionAdd("flash mode_", "bootloader mode_");
-            correctionAdd("Flash mode_", "bootloader mode_");
-            correctionAdd("DFU mode_", "bootloader mode_");
-
-            correctionAdd("OSC_", "Open Sound Control_");
-
-            correctionAdd("hard ware_", "hardware_");
-            correctionAdd("harwdware_", "hardware_");
-            correctionAdd("hardwares_", "hardware_");
-            correctionAdd("hardwarws_", "hardware_");
-            correctionAdd("hardeware_", "hardware_");
-            correctionAdd("Hardware_", "hardware_");
-            correctionAdd("harwade_", "hardware_");
-            correctionAdd("H/W_", "hardware_");
-            correctionAdd("h/w_", "hardware_");
-            correctionAdd("HS_", "hardware_"); // A typo of abbr. "HW"
-            correctionAdd("hw_", "hardware_");
-            correctionAdd("HW_", "hardware_");
-
-            // PC hardware
-            correctionAdd("Industry Standard Architecture_", "ISA bus_");
-            correctionAdd("ISA_", "ISA bus_");
-
-            // PC hardware. Hard disk drives. SSDs. Disks. Partioning.
-            //
-            // Alternative URL:
-            //
-            //   <https://www.gnu.org/software/parted/>
-            //   <https://www.gnu.org/software/parted/manual/parted.html>
-            //
-            correctionAdd("parted_", "Parted_");
 
             correctionAdd("archetecture_", "architecture_");
             correctionAdd("Architechure_", "architecture_");
@@ -151826,11 +151578,6 @@ namespace OverflowHelper.core
             correctionAdd("1-line_", "one-line_");
 
             correctionAdd("tenth_", "one-tenth_");
-
-            correctionAdd("runtime_", "run-time_");
-
-            correctionAdd("Overtime_", "overtime_");
-            correctionAdd("OT_", "overtime_");
 
             correctionAdd("Stack_", "stack_");
 
@@ -153328,6 +153075,275 @@ namespace OverflowHelper.core
             correctionAdd("0x2014_", "EM DASH (U+2014)_");
             correctionAdd("2014_", "EM DASH (U+2014)_");
             correctionAdd("dash_", "EM DASH (U+2014)_"); // For the cross-reference
+
+            // The abbr. is "MSI"
+            correctionAdd("MSI_", "Micro-Star International_");
+            correctionAdd("msi_", "Micro-Star International_");
+            correctionAdd("MSi_", "Micro-Star International_");
+
+            // An STM32 microcontroller register for a type of ARM Cortex-M exception
+            //
+            // Allegedly in:
+            //
+            //   ARM Cortex-M3 Technical Reference Manual (ARM DDI 0337E, section 8.2.2, page 180).
+            //
+            // Alternative URLs:
+            //
+            //   <https://developer.arm.com/documentation/dui0552/a/cortex-m3-peripherals/system-control-block/hardfault-status-register>
+            //   <https://developer.arm.com/documentation/101928/0101/Cortex-M85-Processor-level-components-and-system-registers---Reference-Material/System-Control-and-Implementation-Control-Block/HardFault-Status-Register>
+            //
+            //   <https://github.com/ferenc-nemeth/arm-hard-fault-handler>
+            //     But very poor writing.
+            //
+            //   <https://documentation-service.arm.com/static/61084e4a3d73a34b640e31eb>
+            //     HFSR is misspelled as HSFR... In official ARM documentation!
+            //
+            correctionAdd("HardFault Status Register_", "HFSR_");
+            correctionAdd("HardFault_", "HFSR_"); // For the cross-reference
+            correctionAdd("HSFR_", "HFSR_");
+
+            // Electronics
+            correctionAdd("ST Microelectronics_", "STMicroelectronics_");
+            correctionAdd("ST-Micron_", "STMicroelectronics_");
+            correctionAdd("ST Micro_", "STMicroelectronics_");
+            correctionAdd("ST-Micro_", "STMicroelectronics_");
+            correctionAdd("STMicro_", "STMicroelectronics_");
+            correctionAdd("ST_", "STMicroelectronics_");
+            correctionAdd("st_", "STMicroelectronics_");
+
+            // ST / STM32
+            correctionAdd("discovery board_", "Discovery Kit_");
+            correctionAdd("discovery_", "Discovery Kit_");
+            correctionAdd("Discovery_", "Discovery Kit_");
+            correctionAdd("Disocvery_", "Discovery Kit_");
+            correctionAdd("DISCO_", "Discovery Kit_");
+            correctionAdd("Disco_", "Discovery Kit_");
+            correctionAdd("disco_", "Discovery Kit_");
+
+            correctionAdd("emebed_", "embed_");
+            correctionAdd("embedd_", "embed_");
+
+            // ST (STMicroelectronics) / STM / ARM / STM32 (embedded systems)
+            correctionAdd("L**ow**L**evel_", "low-layer_");
+            correctionAdd("low-level_", "low-layer_");
+            correctionAdd("low layer_", "low-layer_");
+            correctionAdd("Low Level_", "low-layer_");
+            correctionAdd("Low-Level_", "low-layer_");
+            correctionAdd("LL_", "low-layer_");
+
+            // ARM. STM32. Embedded systems
+            correctionAdd("thumb-2_", "Thumb-2_");
+            correctionAdd("thumb2_", "Thumb-2_");
+            correctionAdd("Thumb_", "Thumb-2_");
+            correctionAdd("thumb_", "Thumb-2_");
+            correctionAdd("THUMB_", "Thumb-2_");
+
+            // Embedded systems
+            correctionAdd("OTA_", "over-the-air_");
+            correctionAdd("ota_", "over-the-air_");
+
+            correctionAdd("runtime_", "run-time_");
+
+            correctionAdd("Overtime_", "overtime_");
+            correctionAdd("OT_", "overtime_");
+
+            correctionAdd("uber_", "über_");
+
+            correctionAdd("ovweflow_", "overflow_"); // A true typo (double; slide of "ER" to "WE" (on QWERTY))
+
+            correctionAdd("overley_", "overlay_");
+            correctionAdd("overly_", "overlay_");
+
+            correctionAdd("od_", "overdose_");
+            correctionAdd("OD_", "overdose_");
+
+            correctionAdd("Underscore_", "underscore_");
+
+            // Both embedded systems and general-purpose operating system
+            correctionAdd("hardware abstraction layer_", "HAL_");
+            correctionAdd("Hardware Abstraction Layer_", "HAL_");
+            correctionAdd("hal_", "HAL_");
+            correctionAdd("Hal_", "HAL_");
+
+            correctionAdd("Raspberry pie_", "Raspberry Pi_");
+            correctionAdd("Raspberry Pie_", "Raspberry Pi_");
+            correctionAdd("Raspberry PI_", "Raspberry Pi_");
+            correctionAdd("Raspberry pi_", "Raspberry Pi_");
+            correctionAdd("raspberry Pi_", "Raspberry Pi_");
+            correctionAdd("raspberry pi_", "Raspberry Pi_");
+            correctionAdd("raspberri pi_", "Raspberry Pi_");
+            correctionAdd("raspberry PI_", "Raspberry Pi_");
+            correctionAdd("raspberry-pi_", "Raspberry Pi_");
+            correctionAdd("rasbperry pi_", "Raspberry Pi_");
+            correctionAdd("Raspbeery Pi_", "Raspberry Pi_");
+            correctionAdd("Raspberry-pi_", "Raspberry Pi_");
+            correctionAdd("RaspBerry Pi_", "Raspberry Pi_");
+            correctionAdd("Rasbperry Pi_", "Raspberry Pi_");
+            correctionAdd("Raspberry-Pi_", "Raspberry Pi_");
+            correctionAdd("rasspbery pi_", "Raspberry Pi_");
+            correctionAdd("Rapsberry Pi_", "Raspberry Pi_");
+            correctionAdd("raspberrypi_", "Raspberry Pi_");
+            correctionAdd("Rasberry Pi_", "Raspberry Pi_");
+            correctionAdd("rasberry pi_", "Raspberry Pi_");
+            correctionAdd("RaspberryPi_", "Raspberry Pi_");
+            correctionAdd("RaspberryPI_", "Raspberry Pi_");
+            correctionAdd("raspbery pi_", "Raspberry Pi_"); // Misspelling.
+            correctionAdd("raspberryPi_", "Raspberry Pi_");
+            correctionAdd("rasperry pi_", "Raspberry Pi_");
+            correctionAdd("Rasberry PI_", "Raspberry Pi_");
+            correctionAdd("Rasberry-Pi_", "Raspberry Pi_");
+            correctionAdd("Rasberry Py_", "Raspberry Pi_");
+            correctionAdd("rasperri pi_", "Raspberry Pi_");
+            correctionAdd("Rasperry Pi_", "Raspberry Pi_");
+            correctionAdd("RaspBerryPi_", "Raspberry Pi_");
+            correctionAdd("rasperry PI_", "Raspberry Pi_");
+            correctionAdd("RASPBERRYPI_", "Raspberry Pi_");
+            correctionAdd("rasberri pi_", "Raspberry Pi_");
+            correctionAdd("Rapberry pi_", "Raspberry Pi_");
+            correctionAdd("Rapserry pi_", "Raspberry Pi_");
+            correctionAdd("Razberrypi_", "Raspberry Pi_");
+            correctionAdd("razberrypi_", "Raspberry Pi_");
+            correctionAdd("RasperryPi_", "Raspberry Pi_");
+            correctionAdd("rasbery pi_", "Raspberry Pi_");
+            correctionAdd("raspberry_", "Raspberry Pi_");
+            correctionAdd("Raspberry_", "Raspberry Pi_");
+            correctionAdd("rasbperry_", "Raspberry Pi_");
+            correctionAdd("rasspbery_", "Raspberry Pi_");
+            correctionAdd("Rasperry_", "Raspberry Pi_");
+            correctionAdd("Rasberry_", "Raspberry Pi_");
+            correctionAdd("Raspberr_", "Raspberry Pi_");
+            correctionAdd("rasberry_", "Raspberry Pi_");
+            correctionAdd("rasberri_", "Raspberry Pi_");
+            correctionAdd("Raspi Pi_", "Raspberry Pi_");
+            correctionAdd("Rasp pi_", "Raspberry Pi_");
+            correctionAdd("rasp pi_", "Raspberry Pi_");
+            correctionAdd("Rasp Pi_", "Raspberry Pi_");
+            correctionAdd("Ras-Pi_", "Raspberry Pi_");
+            correctionAdd("RaspPi_", "Raspberry Pi_");
+            correctionAdd("rasppi_", "Raspberry Pi_");
+            correctionAdd("raSPI_", "Raspberry Pi_");
+            correctionAdd("RASPI_", "Raspberry Pi_");
+            correctionAdd("rasPi_", "Raspberry Pi_");
+            correctionAdd("raspi_", "Raspberry Pi_");
+            correctionAdd("RasPi_", "Raspberry Pi_");
+            correctionAdd("Raspi_", "Raspberry Pi_");
+            correctionAdd("r-pi_", "Raspberry Pi_");
+            correctionAdd("R-Pi_", "Raspberry Pi_");
+            correctionAdd("rasp_", "Raspberry Pi_");
+            correctionAdd("r pi_", "Raspberry Pi_");
+            correctionAdd("Rasp_", "Raspberry Pi_");
+            correctionAdd("RaPi_", "Raspberry Pi_");
+            correctionAdd("Rpi_", "Raspberry Pi_");
+            correctionAdd("RPi_", "Raspberry Pi_");
+            correctionAdd("rpi_", "Raspberry Pi_");
+            correctionAdd("RPI_", "Raspberry Pi_");
+            correctionAdd("R{i_", "Raspberry Pi_");
+            correctionAdd("rPi_", "Raspberry Pi_");
+            correctionAdd("pie_", "Raspberry Pi_");
+            correctionAdd("PI_", "Raspberry Pi_");
+            correctionAdd("pi_", "Raspberry Pi_");
+            correctionAdd("Pi_", "Raspberry Pi_");
+            correctionAdd("RP_", "Raspberry Pi_");
+
+            // Raspberry Pi (like "shield" for Arduino)
+            //
+            // Alternative URLs:
+            //
+            //   <https://raspberrytips.com/best-raspberry-pi-hats/>
+            //   <https://thepihut.com/collections/raspberry-pi-hats>
+            //   <https://www.tomshardware.com/best-picks/raspberry-pi-microsd-cards>
+            //
+            correctionAdd("hat_", "hardware attached on top_");
+
+            // The Texas Instruments hardware platform,
+            // Also at <https://www.ti.com/ww/en/launchpad/about.html>.
+            //
+            // The links are effectively broken by now. Does it
+            // exist?
+            //
+            correctionAdd("Texas Instruments LaunchPad_", "LaunchPad_");
+            correctionAdd("Texas Instruments launchpad_", "LaunchPad_");
+            correctionAdd("TI LaunchPad_", "LaunchPad_");
+            correctionAdd("TI launchpad_", "LaunchPad_");
+            correctionAdd("ti launchpad_", "LaunchPad_");
+            correctionAdd("launchpad_", "LaunchPad_");
+            correctionAdd("Launchpad_", "LaunchPad_");
+
+            // Electronics (as in embedded software?)?
+            correctionAdd("Binary Runtime Environment for Wireless_", "BREW_");
+            correctionAdd("Qualcomm BREW_", "BREW_");
+            correctionAdd("Brew MP_", "BREW_");
+            correctionAdd("Brew_", "BREW_");
+            correctionAdd("brew_", "BREW_");
+
+            // The verb
+            correctionAdd("flsah_", "flash_");
+            correctionAdd("flush_", "flash_");
+            correctionAdd("fash_", "flash_");
+            correctionAdd("flag_", "flash_"); // An autocorrect "masterpiece"?
+
+            correctionAdd("nand flash_", "NAND flash_");
+            correctionAdd("NAND-flash_", "NAND flash_");
+            correctionAdd("nand-flash_", "NAND flash_");
+            correctionAdd("NAND Flash_", "NAND flash_");
+            correctionAdd("flash nand_", "NAND flash_");
+            correctionAdd("flashnand_", "NAND flash_");
+            correctionAdd("NAND_", "NAND flash_");
+
+            correctionAdd("nor flash_", "NOR flash_");
+            correctionAdd("Flash NOR_", "NOR flash_");
+            correctionAdd("flash NOR_", "NOR flash_");
+
+            // Embedded systems, incl. QMK mechanical keyboards
+            //
+            // For the alternative URL (Keychron's instructions)
+            // Microcontrollers
+            //
+            // E.g., related to flashing firmware for Keychron keyboards
+            correctionAdd("Hard flashing_", "hard flashing_");
+
+            // Embedded systems, incl. QMK mechanical keyboards
+            //
+            // Alternative URLs:
+            //
+            //   <https://keychronsupport.zendesk.com/hc/en-us/articles/8914576001943-How-to-Factory-Reset-or-Flash-Firmware-for-Your-Keychron-Q3-keyboard>
+            //     The spacebar method for flashing Keychron keyboards
+            //
+            correctionAdd("bootloader loader mode_", "bootloader mode_");
+            correctionAdd("boot loader mode_", "bootloader mode_");
+            correctionAdd("flash memory_", "bootloader mode_"); // For the cross-reference
+            correctionAdd("bootloader_", "bootloader mode_");
+            correctionAdd("flash mode_", "bootloader mode_");
+            correctionAdd("Flash mode_", "bootloader mode_");
+            correctionAdd("DFU mode_", "bootloader mode_");
+
+            correctionAdd("OSC_", "Open Sound Control_");
+
+            correctionAdd("hard ware_", "hardware_");
+            correctionAdd("harwdware_", "hardware_");
+            correctionAdd("hardwares_", "hardware_");
+            correctionAdd("hardwarws_", "hardware_");
+            correctionAdd("hardeware_", "hardware_");
+            correctionAdd("Hardware_", "hardware_");
+            correctionAdd("harwade_", "hardware_");
+            correctionAdd("H/W_", "hardware_");
+            correctionAdd("h/w_", "hardware_");
+            correctionAdd("HS_", "hardware_"); // A typo of abbr. "HW"
+            correctionAdd("hw_", "hardware_");
+            correctionAdd("HW_", "hardware_");
+
+            // PC hardware
+            correctionAdd("Industry Standard Architecture_", "ISA bus_");
+            correctionAdd("ISA_", "ISA bus_");
+
+            // PC hardware. Hard disk drives. SSDs. Disks. Partioning.
+            //
+            // Alternative URL:
+            //
+            //   <https://www.gnu.org/software/parted/>
+            //   <https://www.gnu.org/software/parted/manual/parted.html>
+            //
+            correctionAdd("parted_", "Parted_");
 
             // For the reference to QMK's GitHub repository
             correctionAdd("the main QMK project_", "QMK_");
@@ -160267,18 +160283,6 @@ namespace OverflowHelper.core
 
             correctionAdd("AoE_", "ATA over Ethernet_");
 
-            correctionAdd("uber_", "über_");
-
-            correctionAdd("ovweflow_", "overflow_"); // A true typo (double; slide of "ER" to "WE" (on QWERTY))
-
-            correctionAdd("overley_", "overlay_");
-            correctionAdd("overly_", "overlay_");
-
-            correctionAdd("od_", "overdose_");
-            correctionAdd("OD_", "overdose_");
-
-            correctionAdd("Underscore_", "underscore_");
-
             // E.g., in hyper space
             //
             // Alternative URLs:
@@ -165562,6 +165566,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Clocl_", "clock_");
             correctionAdd("clocl_", "clock_");
+            correctionAdd("cloak_", "clock_");
 
             correctionAdd("Longitude_", "longitude_");
             correctionAdd("long_", "longitude_"); // Expansion.
@@ -166555,8 +166560,6 @@ namespace OverflowHelper.core
 
             URL_Add("roll_", "https://en.wiktionary.org/wiki/roll#Noun");
 
-            URL_Add("overtime_", "https://en.wiktionary.org/wiki/overtime#Noun");
-
             URL_Add("today I learned_", "https://en.wiktionary.org/wiki/TIL#Phrase");
 
             URL_Add("theirs_", "https://en.wiktionary.org/wiki/theirs#Pronoun");
@@ -167109,8 +167112,6 @@ namespace OverflowHelper.core
 
             URL_Add("basic_", "https://en.wiktionary.org/wiki/basic#Adjective");
 
-            URL_Add("overflow_", "https://en.wiktionary.org/wiki/overflow#Verb");
-
             URL_Add("open-plan office_", "https://en.wiktionary.org/wiki/open-plan#Adjective");
 
             URL_Add("for real_", "https://en.wiktionary.org/wiki/for_real#Adverb");
@@ -167516,8 +167517,6 @@ namespace OverflowHelper.core
             URL_Add("troubleshoot_", "https://en.wiktionary.org/wiki/troubleshoot#Verb");
 
             URL_Add("respectively_", "https://en.wiktionary.org/wiki/respectively#Adverb");
-
-            URL_Add("overdose_", "https://en.wiktionary.org/wiki/OD#Noun");
 
             URL_Add("changed_", "https://en.wiktionary.org/wiki/change#Verb");
 
@@ -168171,8 +168170,6 @@ namespace OverflowHelper.core
 
             URL_Add("precious_", "https://en.wiktionary.org/wiki/precious#Adjective");
 
-            URL_Add("overlay_", "https://en.wiktionary.org/wiki/overlay#Noun");
-
             URL_Add("clock_", "https://en.wiktionary.org/wiki/clock#Noun");
 
             URL_Add("Curious badge_", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/67399#67399");
@@ -168692,10 +168689,6 @@ namespace OverflowHelper.core
             URL_Add("MathJax basic tutorial and quick reference_", "https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference");
 
             URL_Add("Meta_", "https://en.wikipedia.org/wiki/Meta_Platforms");
-
-            URL_Add("lubricate_", "https://en.wiktionary.org/wiki/lubricate#Verb");
-
-            URL_Add("overlubrication_", "https://en.wiktionary.org/wiki/overlubrication#Noun");
 
             URL_Add("-Wall (in options index)_", "https://gcc.gnu.org/onlinedocs/gcc/Option-Index.html");
 
@@ -169917,8 +169910,6 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Firmware Updater_", "https://www.keychron.com/pages/how-to-flash-the-firmware-for-the-keychron-receiver");
 
-            URL_Add("over-the-air_", "https://en.wikipedia.org/wiki/Over-the-air_update");
-
             URL_Add("LUNA_", "https://www.crowdsupply.com/great-scott-gadgets/luna/updates/packetry-preview");
 
             URL_Add("Graph Query Language_", "https://en.wikipedia.org/wiki/Graph_Query_Language");
@@ -170692,6 +170683,20 @@ namespace OverflowHelper.core
             URL_Add("swappable_", "https://en.wiktionary.org/wiki/swap#Verb");
 
             URL_Add("compare-and-swap_", "https://en.wikipedia.org/wiki/Compare-and-swap");
+
+            URL_Add("lubricate_", "https://en.wiktionary.org/wiki/lubricate#Verb");
+
+            URL_Add("overlubrication_", "https://en.wiktionary.org/wiki/overlubrication#Noun");
+
+            URL_Add("overflow_", "https://en.wiktionary.org/wiki/overflow#Verb");
+
+            URL_Add("overtime_", "https://en.wiktionary.org/wiki/overtime#Noun");
+
+            URL_Add("overdose_", "https://en.wiktionary.org/wiki/OD#Noun");
+
+            URL_Add("overlay_", "https://en.wiktionary.org/wiki/overlay#Noun");
+
+            URL_Add("over-the-air_", "https://en.wikipedia.org/wiki/Over-the-air_update");
 
         } //addLookupData_alternativeWordSet()
 
@@ -179517,8 +179522,6 @@ namespace OverflowHelper.core
 
             URL_Add("PATA___", "https://en.wikipedia.org/wiki/Parallel_ATA");
 
-            URL_Add("overclocking___", "https://en.wikipedia.org/wiki/Overclocking");
-
             URL_Add("immunoprecipitation___", "https://en.wikipedia.org/wiki/Immunoprecipitation");
 
             URL_Add("101___", "https://en.wiktionary.org/wiki/101#Adjective");
@@ -179728,8 +179731,6 @@ namespace OverflowHelper.core
             URL_Add("period___", "https://en.wiktionary.org/wiki/period#Noun");
 
             URL_Add("worth___", "https://en.wiktionary.org/wiki/worth#Adjective");
-
-            URL_Add("overwrite the bootloader on the AVR ATmega32U4___", "https://www.youtube.com/watch?v=sGB0vLcEVCY&t=2m26s");
 
             URL_Add("Ctrl + K___", "https://stackoverflow.com/questions/9679776/how-do-i-clear-delete-the-current-line-in-terminal/16687377#16687377");
 
@@ -180096,6 +180097,10 @@ namespace OverflowHelper.core
             URL_Add("STM32 HAL___", "https://stm32world.com/wiki/STM32_HAL");
 
             URL_Add("political correctness___", "https://en.wiktionary.org/wiki/political_correctness#Noun");
+
+            URL_Add("overclocking___", "https://en.wikipedia.org/wiki/Overclocking");
+
+            URL_Add("overwrite the bootloader on the AVR ATmega32U4___", "https://www.youtube.com/watch?v=sGB0vLcEVCY&t=2m26s");
 
         } //addLookupData_alternativeWordSet3()
 
