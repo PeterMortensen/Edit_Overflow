@@ -78,11 +78,11 @@
         #
         #$linkBuilerPartialURL = "Link_Builder.php?LinkText=$aLinkText&URL=$aURL";
 
-        # Only for "#" (but there must be a standard way...)
+        # Only for "#" (but isn't there a standard way?)
         $URL_encoded = preg_replace('/\#/', '%23', $aURL);
-        
+
         $linkBuilerPartialURL =
-          "Link_Builder.php?" . 
+          "Link_Builder.php?" .
           #"OverflowStyle=Native&" .   For local testing
           "LinkText=" . rawurlencode($aLinkText) .
           "&URL=" . $URL_encoded;
