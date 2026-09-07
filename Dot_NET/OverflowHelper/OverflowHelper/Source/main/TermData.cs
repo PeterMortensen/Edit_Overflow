@@ -18395,6 +18395,7 @@ namespace OverflowHelper.core
             correctionAdd("Quattro", "Omarchy"); // Is not 100% correct (is Omarchy 4)
             correctionAdd("quattro", "Omarchy"); // Is not 100% correct (is Omarchy 4)
             correctionAdd("omarchy", "Omarchy");
+            correctionAdd("homachi", "Omarchy");
 
             // For managing multiple versions of Python (and others).
             // Included by default in Omarchy
@@ -33418,6 +33419,7 @@ namespace OverflowHelper.core
 
             correctionAdd("correcltly", "correctly");
             correctionAdd("correctlty", "correctly");
+            correctionAdd("correctley", "correctly");
             correctionAdd("correclty", "correctly");
             correctionAdd("corrdctly", "correctly");
             correctionAdd("correcty", "correctly");
@@ -60675,6 +60677,7 @@ namespace OverflowHelper.core
             correctionAdd("boards", "keyboards");
             correctionAdd("Boards", "keyboards");
             correctionAdd("planks", "keyboards"); // Derogatory. Could maybe refer to the keyboard ZSA Planck EZ
+            correctionAdd("keewbs", "keyboards");
             correctionAdd("keebs", "keyboards");
             correctionAdd("Keebs", "keyboards");
             correctionAdd("keeba", "keyboards"); // A true typo of the ***ridiculous*** shorthand "keebs"
@@ -64754,6 +64757,15 @@ namespace OverflowHelper.core
             correctionAdd("DVORAK", "Dvorak keyboard layout");
             correctionAdd("dvorak", "Dvorak keyboard layout");
             correctionAdd("Dvorak", "Dvorak keyboard layout");
+
+            // Dvorak Simplified Keyboard, French
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/b%C3%A9po#Noun>
+            //
+            correctionAdd("bépo", "BÉPO");
+            correctionAdd("Bépo", "BÉPO");
 
             // A keyboard layout (transition to Dvorak)
             // Note: The URL does not work as HTTPS...
@@ -74123,6 +74135,8 @@ namespace OverflowHelper.core
             correctionAdd("Ukr", "Ukraine");
 
             correctionAdd("ukrainian", "Ukrainian");
+            correctionAdd("Ukranian", "Ukrainian");
+            correctionAdd("ukranian", "Ukrainian");
 
             // Ukraine
             correctionAdd("victor yonokovich", "Viktor Yanukovych");
@@ -144718,6 +144732,8 @@ namespace OverflowHelper.core
 
             URL_Add("Dvorak keyboard layout", "https://en.wikipedia.org/wiki/Dvorak_keyboard_layout");
 
+            URL_Add("BÉPO", "https://en.wikipedia.org/wiki/B%C3%89PO");
+
             URL_Add("Minimak keyboard layout", "http://www.minimak.org/");
 
             URL_Add("Engram keyboard layout", "https://sunaku.github.io/engram-keyboard-layout.html");
@@ -160627,6 +160643,7 @@ namespace OverflowHelper.core
             correctionAdd("MOBO_", "motherboard_");
             correctionAdd("MoBo_", "motherboard_");
             correctionAdd("mobo_", "motherboard_");
+            correctionAdd("MoBO_", "motherboard_");
             correctionAdd("MOB_", "motherboard_");
             correctionAdd("MBO_", "motherboard_");
             correctionAdd("m/b_", "motherboard_");
@@ -180509,6 +180526,7 @@ namespace OverflowHelper.core
             correctionAdd("PCB____", "network____"); // For the cross-reference
 
             correctionAdd("Adobe Photoshop____", "Photoshop____"); // Shorten...
+            correctionAdd("photos shop____", "Photoshop____");
             correctionAdd("photoshop____", "Photoshop____");
             correctionAdd("Ps____", "Photoshop____");
             correctionAdd("PS____", "Photoshop____");
