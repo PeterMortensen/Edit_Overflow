@@ -3608,6 +3608,7 @@ namespace OverflowHelper.core
 
             correctionAdd("gazziolion", "gazillion");
             correctionAdd("gazzilion", "gazillion");
+            correctionAdd("gazillian", "gazillion");
 
             correctionAdd("gazzilions", "gazillions");
             correctionAdd("gazilions", "gazillions");
@@ -16546,6 +16547,19 @@ namespace OverflowHelper.core
             //
             // All executed commands are printed to the terminal.
             correctionAdd("SET -X", "set -x");
+
+            correctionAdd("System C", "SystemC");
+
+            // Linux
+            correctionAdd("shitstainD", "systemd");
+            correctionAdd("ShitstainD", "systemd");
+            correctionAdd("System D", "systemd");
+            correctionAdd("systemD", "systemd");
+            correctionAdd("SystemD", "systemd");
+            correctionAdd("Systemd", "systemd");
+
+            // Linux. Similar to 'systemd'?
+            correctionAdd("openrc", "OpenRC");
 
             // Linux / Unix. A system service to process core dumps
             correctionAdd("systemd-coredump", "systemd-coredump(8)");
@@ -36315,6 +36329,7 @@ namespace OverflowHelper.core
             correctionAdd("unecessary", "unnecessary");
             correctionAdd("unnecessy", "unnecessary");
             correctionAdd("Unnessary", "unnecessary");
+            correctionAdd("unnessary", "unnecessary");
             correctionAdd("unessary", "unnecessary");
             correctionAdd("unnec", "unnecessary"); // A shorthand (for expansion)
             correctionAdd("unnes", "unnecessary"); // A shorthand (for expansion)
@@ -62554,6 +62569,13 @@ namespace OverflowHelper.core
             //     Shows how to construct a JSON file for Via,
             //     with input from Keyboard Layout Editor (KLE).
             //
+            // Source code:
+            //
+            //   <https://github.com/the-via/app>
+            //
+            //     But for what exactly? The so-called standalone
+            //     version of the Via client?
+            //
             correctionAdd("a great guide for Via", "Via");
             correctionAdd("caniusevia.com", "Via"); // Part of the URL for the official web application
             correctionAdd("via.evove.top", "Via");
@@ -82780,6 +82802,8 @@ namespace OverflowHelper.core
             //
             //     <https://www.keychron.com/products/keychron-c100-8k-giant-custom-macro-pad>
             //     <https://www.techpowerup.com/351570/keychron-launches-comically-large-c100-8k-100-key-mechanical-macro-pad>
+            //     <https://www.youtube.com/watch?v=Ol_WPviUldE>
+            //       Thomas' unboxing
             //
             // Notes:
             //
@@ -94843,15 +94867,6 @@ namespace OverflowHelper.core
             //
             correctionAdd("syscalls", "system call"); // Not 100% correct - plural.
             correctionAdd("syscall", "system call");
-
-            correctionAdd("System C", "SystemC");
-
-            correctionAdd("shitstainD", "systemd");
-            correctionAdd("ShitstainD", "systemd");
-            correctionAdd("System D", "systemd");
-            correctionAdd("systemD", "systemd");
-            correctionAdd("SystemD", "systemd");
-            correctionAdd("Systemd", "systemd");
 
             correctionAdd("Electric Field", "electric field");
             correctionAdd("Electric field", "electric field");
@@ -110931,8 +110946,6 @@ namespace OverflowHelper.core
             URL_Add("pretentious", "https://en.wiktionary.org/wiki/pretentious#Adjective");
 
             URL_Add("spare time", "https://en.wiktionary.org/wiki/spare_time#Noun");
-
-            URL_Add("systemd", "https://en.wikipedia.org/wiki/Systemd");
 
             URL_Add("TikTok", "https://en.wikipedia.org/wiki/TikTok");
 
@@ -132524,9 +132537,13 @@ namespace OverflowHelper.core
 
             URL_Add("set -x", "https://stackoverflow.com/questions/36273665/what-does-set-x-do");
 
+            URL_Add("systemd", "https://en.wikipedia.org/wiki/Systemd");
+
             URL_Add("systemd-coredump(8)", "https://www.man7.org/linux/man-pages/man8/systemd-coredump.8.html");
 
             URL_Add("coredumpctl", "https://manpages.debian.org/stretch/systemd-coredump/coredumpctl.1.en.html");
+
+            URL_Add("OpenRC", "https://en.wikipedia.org/wiki/OpenRC");
 
             URL_Add("Buildroot", "https://en.wikipedia.org/wiki/Buildroot");
 
@@ -153916,6 +153933,7 @@ namespace OverflowHelper.core
             correctionAdd("the standalone version_", "avoid Google Chrome when using Via_");
             correctionAdd("standalone application_", "avoid Google Chrome when using Via_");
             correctionAdd("the stand-alone client_", "avoid Google Chrome when using Via_");
+            correctionAdd("stand-alone Via client_", "avoid Google Chrome when using Via_");
             correctionAdd("the standalone client_", "avoid Google Chrome when using Via_");
             correctionAdd("avoid Google Chrome_", "avoid Google Chrome when using Via_");
             correctionAdd("stand-alone version_", "avoid Google Chrome when using Via_");
