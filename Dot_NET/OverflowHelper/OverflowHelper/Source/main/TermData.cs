@@ -4467,6 +4467,176 @@ namespace OverflowHelper.core
             correctionAdd("bank slate", "blank slate");
             correctionAdd("Bank slate", "blank slate");
 
+            correctionAdd("sequentialy", "sequentially");
+
+            correctionAdd("non-sequential", "nonsequential");
+
+            correctionAdd("subsequente", "subsequent");
+            correctionAdd("subsequence", "subsequent");
+
+            correctionAdd("subsequencly", "subsequently");
+
+            correctionAdd("seqeuence", "sequence");
+            correctionAdd("sequencue", "sequence");
+            correctionAdd("sequenct", "sequence");
+            correctionAdd("Seqeunce", "sequence");
+            correctionAdd("seqeunce", "sequence");
+            correctionAdd("seqence", "sequence");
+            correctionAdd("seq", "sequence");
+
+            correctionAdd("secvensed", "sequenced");
+            correctionAdd("sekvensed", "sequenced");
+
+            correctionAdd("seqences", "sequences");
+
+            correctionAdd("un-sequenced", "unsequenced");
+
+            correctionAdd("escape code sequence", "escape sequence");
+            correctionAdd("escape-code sequence", "escape sequence");
+            correctionAdd("escape code", "escape sequence");
+            correctionAdd("escape-code", "escape sequence");
+
+            correctionAdd("magick", "magic");
+
+            correctionAdd("works as a magic", "works like magic");
+
+            correctionAdd("Magic numbers", "magic number");
+            correctionAdd("Magic Number", "magic number");
+            correctionAdd("Magic number", "magic number");
+
+            correctionAdd("Magic Numbers", "magic numbers");
+
+            correctionAdd("sequence of numbers", "number sequence");
+            correctionAdd("Zahlenreihe", "number sequence");
+
+            correctionAdd("Prime Number", "prime number");
+            correctionAdd("primenumber", "prime number");
+            correctionAdd("primes", "prime number");
+            correctionAdd("prime", "prime number"); // A shorthand
+
+            correctionAdd("Non-primes", "nonprimes");
+            correctionAdd("non-primes", "nonprimes");
+            correctionAdd("Nonprimes", "nonprimes");
+
+            correctionAdd("primefactor", "prime factor");
+
+            correctionAdd("Sieve of Eratosthenes", "sieve of Eratosthenes");
+
+            correctionAdd("Reynold's number", "Reynolds number");
+            correctionAdd("reynolds number", "Reynolds number");
+
+            // Solely for the expansion
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/a_number_of#Phrase>
+            //
+            correctionAdd("#", "number of");
+
+            correctionAdd("N1", "number one");
+
+            correctionAdd("One by One", "one by one");
+            correctionAdd("1 by 1", "one by one");
+
+            correctionAdd("at odd", "at odds");
+
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Parity_(mathematics)>
+            //
+            correctionAdd("uneven", "odd");
+            correctionAdd("Odd", "odd");
+            correctionAdd("od", "odd");
+
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Parity_(mathematics)>
+            //
+            correctionAdd("event", "even"); // An autocorrect "masterpiece"?
+            correctionAdd("evenn", "even");
+            correctionAdd("aven", "even");
+            correctionAdd("eben", "even"); // Probably a true typo
+            correctionAdd("Even", "even");
+            correctionAdd("evan", "even");
+            correctionAdd("evem", "even");
+            correctionAdd("evdn", "even"); // A true typo
+
+            // A Mac spreadsheet program
+            correctionAdd("numbers", "Numbers");
+
+            correctionAdd("eventully", "eventually");
+            correctionAdd("Eentually", "eventually");
+            correctionAdd("eentually", "eventually");
+            correctionAdd("edvantuly", "eventually");
+
+            correctionAdd("Even Parity", "even parity");
+
+            correctionAdd("parody", "parity");
+            correctionAdd("prity", "parity");
+
+            correctionAdd("8-None-1", "eight data bits, no parity bit, and one stop bit");
+            correctionAdd("8-N-1", "eight data bits, no parity bit, and one stop bit");
+            correctionAdd("8N1", "eight data bits, no parity bit, and one stop bit");
+
+            correctionAdd("pluperfect digital invariant", "narcissistic number");
+            correctionAdd("plus perfect number", "narcissistic number");
+            correctionAdd("Armstrong number", "narcissistic number");
+            correctionAdd("armstrong number", "narcissistic number");
+            correctionAdd("PPDI", "narcissistic number");
+
+            correctionAdd("Complex number", "complex number");
+
+            correctionAdd("pseudo random number generation", "pseudorandom number generator");
+            correctionAdd("Pseudo Random Number Generator", "pseudorandom number generator");
+            correctionAdd("pseudo random number generator", "pseudorandom number generator");
+            correctionAdd("pseudorandom number", "pseudorandom number generator");
+            correctionAdd("PRNG", "pseudorandom number generator");
+            correctionAdd("RNG", "pseudorandom number generator");
+
+            correctionAdd("non-deterministic random bit generator", "true random number generator");
+            correctionAdd("hardware random number generator", "true random number generator");
+            correctionAdd("physical random number generator", "true random number generator");
+            correctionAdd("TRNG", "true random number generator");
+            correctionAdd("HRNG", "true random number generator");
+            correctionAdd("NRBG", "true random number generator");
+
+            // Related to random number generators
+            correctionAdd("LFSR", "linear-feedback shift register");
+
+            correctionAdd("AS number", "autonomous system number");
+            correctionAdd("ASN", "autonomous system number");
+
+            correctionAdd("F-number", "f-number");
+            correctionAdd("F-stop", "f-number");
+            correctionAdd("F-Stop", "f-number");
+            correctionAdd("f-stop", "f-number");
+
+            correctionAdd("Social Security Numnber", "Social Security number");
+            correctionAdd("Social Security numnber", "Social Security number");
+            correctionAdd("social security number", "Social Security number");
+            correctionAdd("Social Security Number", "Social Security number");
+            correctionAdd("social security", "Social Security number");
+            correctionAdd("SSN", "Social Security number");
+            correctionAdd("ss#", "Social Security number");
+
+            correctionAdd("PAN", "permanent account number");
+
+            correctionAdd("consecuence", "consequence");
+            correctionAdd("consequense", "consequence");
+            correctionAdd("consequnce", "consequence");
+            correctionAdd("consequece", "consequence");
+
+            correctionAdd("consecuences", "consequences");
+            correctionAdd("consequenses", "consequences");
+
+            correctionAdd("conseqeuent", "consequent");
+
+            correctionAdd("inconsequantial", "inconsequential");
+            correctionAdd("inconsequentail", "inconsequential");
+            correctionAdd("Inconsequential", "inconsequential");
+            correctionAdd("inconsequntial", "inconsequential");
+            correctionAdd("inconsequental", "inconsequential");
+
             correctionAdd("bran", "brand");
 
             correctionAdd("Brand name", "brand name");
@@ -7415,175 +7585,6 @@ namespace OverflowHelper.core
             correctionAdd("Acrobat", "Adobe Acrobat");
 
             correctionAdd("pdfminer", "PDFMiner");
-
-            correctionAdd("sequentialy", "sequentially");
-
-            correctionAdd("non-sequential", "nonsequential");
-
-            correctionAdd("subsequente", "subsequent");
-            correctionAdd("subsequence", "subsequent");
-
-            correctionAdd("subsequencly", "subsequently");
-
-            correctionAdd("seqeuence", "sequence");
-            correctionAdd("sequencue", "sequence");
-            correctionAdd("sequenct", "sequence");
-            correctionAdd("Seqeunce", "sequence");
-            correctionAdd("seqeunce", "sequence");
-            correctionAdd("seqence", "sequence");
-            correctionAdd("seq", "sequence");
-
-            correctionAdd("secvensed", "sequenced");
-            correctionAdd("sekvensed", "sequenced");
-
-            correctionAdd("seqences", "sequences");
-
-            correctionAdd("un-sequenced", "unsequenced");
-
-            correctionAdd("escape code sequence", "escape sequence");
-            correctionAdd("escape-code sequence", "escape sequence");
-            correctionAdd("escape code", "escape sequence");
-            correctionAdd("escape-code", "escape sequence");
-
-            correctionAdd("magick", "magic");
-
-            correctionAdd("works as a magic", "works like magic");
-
-            correctionAdd("Magic numbers", "magic number");
-            correctionAdd("Magic Number", "magic number");
-            correctionAdd("Magic number", "magic number");
-
-            correctionAdd("Magic Numbers", "magic numbers");
-
-            correctionAdd("sequence of numbers", "number sequence");
-            correctionAdd("Zahlenreihe", "number sequence");
-
-            correctionAdd("Prime Number", "prime number");
-            correctionAdd("primenumber", "prime number");
-            correctionAdd("primes", "prime number");
-            correctionAdd("prime", "prime number"); // A shorthand
-
-            correctionAdd("Non-primes", "nonprimes");
-            correctionAdd("non-primes", "nonprimes");
-            correctionAdd("Nonprimes", "nonprimes");
-
-            correctionAdd("primefactor", "prime factor");
-
-            correctionAdd("Sieve of Eratosthenes", "sieve of Eratosthenes");
-
-            correctionAdd("Reynold's number", "Reynolds number");
-            correctionAdd("reynolds number", "Reynolds number");
-
-            // Solely for the expansion
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/a_number_of#Phrase>
-            //
-            correctionAdd("#", "number of");
-
-            correctionAdd("N1", "number one");
-
-            correctionAdd("One by One", "one by one");
-            correctionAdd("1 by 1", "one by one");
-
-            correctionAdd("at odd", "at odds");
-
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/Parity_(mathematics)>
-            //
-            correctionAdd("uneven", "odd");
-            correctionAdd("Odd", "odd");
-            correctionAdd("od", "odd");
-
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/Parity_(mathematics)>
-            //
-            correctionAdd("event", "even"); // An autocorrect "masterpiece"?
-            correctionAdd("aven", "even");
-            correctionAdd("eben", "even"); // Probably a true typo
-            correctionAdd("Even", "even");
-            correctionAdd("evan", "even");
-            correctionAdd("evem", "even");
-            correctionAdd("evdn", "even"); // A true typo
-
-            // A Mac spreadsheet program
-            correctionAdd("numbers", "Numbers");
-
-            correctionAdd("eventully", "eventually");
-            correctionAdd("Eentually", "eventually");
-            correctionAdd("eentually", "eventually");
-            correctionAdd("edvantuly", "eventually");
-
-            correctionAdd("Even Parity", "even parity");
-
-            correctionAdd("parody", "parity");
-            correctionAdd("prity", "parity");
-
-            correctionAdd("8-None-1", "eight data bits, no parity bit, and one stop bit");
-            correctionAdd("8-N-1", "eight data bits, no parity bit, and one stop bit");
-            correctionAdd("8N1", "eight data bits, no parity bit, and one stop bit");
-
-            correctionAdd("pluperfect digital invariant", "narcissistic number");
-            correctionAdd("plus perfect number", "narcissistic number");
-            correctionAdd("Armstrong number", "narcissistic number");
-            correctionAdd("armstrong number", "narcissistic number");
-            correctionAdd("PPDI", "narcissistic number");
-
-            correctionAdd("Complex number", "complex number");
-
-            correctionAdd("pseudo random number generation", "pseudorandom number generator");
-            correctionAdd("Pseudo Random Number Generator", "pseudorandom number generator");
-            correctionAdd("pseudo random number generator", "pseudorandom number generator");
-            correctionAdd("pseudorandom number", "pseudorandom number generator");
-            correctionAdd("PRNG", "pseudorandom number generator");
-            correctionAdd("RNG", "pseudorandom number generator");
-
-            correctionAdd("non-deterministic random bit generator", "true random number generator");
-            correctionAdd("hardware random number generator", "true random number generator");
-            correctionAdd("physical random number generator", "true random number generator");
-            correctionAdd("TRNG", "true random number generator");
-            correctionAdd("HRNG", "true random number generator");
-            correctionAdd("NRBG", "true random number generator");
-
-            // Related to random number generators
-            correctionAdd("LFSR", "linear-feedback shift register");
-
-            correctionAdd("AS number", "autonomous system number");
-            correctionAdd("ASN", "autonomous system number");
-
-            correctionAdd("F-number", "f-number");
-            correctionAdd("F-stop", "f-number");
-            correctionAdd("F-Stop", "f-number");
-            correctionAdd("f-stop", "f-number");
-
-            correctionAdd("Social Security Numnber", "Social Security number");
-            correctionAdd("Social Security numnber", "Social Security number");
-            correctionAdd("social security number", "Social Security number");
-            correctionAdd("Social Security Number", "Social Security number");
-            correctionAdd("social security", "Social Security number");
-            correctionAdd("SSN", "Social Security number");
-            correctionAdd("ss#", "Social Security number");
-
-            correctionAdd("PAN", "permanent account number");
-
-            correctionAdd("consecuence", "consequence");
-            correctionAdd("consequense", "consequence");
-            correctionAdd("consequnce", "consequence");
-            correctionAdd("consequece", "consequence");
-
-            correctionAdd("consecuences", "consequences");
-            correctionAdd("consequenses", "consequences");
-
-            correctionAdd("conseqeuent", "consequent");
-
-            correctionAdd("inconsequantial", "inconsequential");
-            correctionAdd("inconsequentail", "inconsequential");
-            correctionAdd("Inconsequential", "inconsequential");
-            correctionAdd("inconsequntial", "inconsequential");
-            correctionAdd("inconsequental", "inconsequential");
 
             correctionAdd("bit rate", "bitrate");
             correctionAdd("bitratre", "bitrate");
@@ -12177,6 +12178,8 @@ namespace OverflowHelper.core
             correctionAdd("venus", "Venus"); // The planet
             correctionAdd("Venis", "Venus");
 
+            // The reference still works...
+            //
             // Alternative URLs:
             //
             //   <https://www.youtube.com/watch?v=rAh1JxNGkAM&list=PLSoD2CcPrumFJREVL6RmMnZP5U7sGYYi2&index=26&t=4s>
@@ -18402,14 +18405,21 @@ namespace OverflowHelper.core
             //
             //     REWORK (37signals' podcast): <https://www.rework.fm/>
             //
+            correctionAdd("The vibe coded Arch rice", "Omarchy");
             correctionAdd("Omarchy Quattro", "Omarchy"); // Is not 100% correct (is Omarchy 4)
+            correctionAdd("slopmarchy", "Omarchy");
+            correctionAdd("Slopmarchy", "Omarchy");
             correctionAdd("Obloatchy", "Omarchy");
             correctionAdd("Omarchy 4", "Omarchy"); // Is not 100% correct (is Omarchy 4)
             correctionAdd("omarchy 4", "Omarchy"); // Is not 100% correct (is Omarchy 4)
+            correctionAdd("AI-Marchy", "Omarchy");
+            correctionAdd("sloparchy", "Omarchy");
             correctionAdd("Quattro", "Omarchy"); // Is not 100% correct (is Omarchy 4)
             correctionAdd("quattro", "Omarchy"); // Is not 100% correct (is Omarchy 4)
             correctionAdd("omarchy", "Omarchy");
             correctionAdd("homachi", "Omarchy");
+            correctionAdd("Omachy", "Omarchy");
+            correctionAdd("omachy", "Omarchy");
 
             // For managing multiple versions of Python (and others).
             // Included by default in Omarchy
@@ -21084,6 +21094,129 @@ namespace OverflowHelper.core
             correctionAdd("a/b testing", "A/B testing");
             correctionAdd("AB testing", "A/B testing");
             correctionAdd("A/B", "A/B testing");
+
+            correctionAdd("cheak", "check");
+            correctionAdd("Cheak", "check");
+            correctionAdd("chect", "check");
+            correctionAdd("ckeck", "check");
+            correctionAdd("Chech", "check");
+            correctionAdd("Check", "check");
+            correctionAdd("chwck", "check");
+            correctionAdd("cheek", "check");
+            correctionAdd("chick", "check");
+            correctionAdd("Chick", "check");
+            correctionAdd("chack", "check");
+            correctionAdd("chec", "check");
+            correctionAdd("ceck", "check");
+            correctionAdd("chek", "check");
+
+            // The verb
+            correctionAdd("checkings", "checks");
+            correctionAdd("checkes", "checks");
+
+            correctionAdd("chcecked", "checked");
+            correctionAdd("cheched", "checked");
+            correctionAdd("chexked", "checked");
+            correctionAdd("cheked", "checked");
+            correctionAdd("Cheked", "checked");
+            correctionAdd("checkt", "checked");
+
+            correctionAdd("chacker", "checker");
+
+            correctionAdd("un-check", "uncheck");
+            correctionAdd("Un-check", "uncheck");
+
+            correctionAdd("un-checking", "unchecking");
+
+            correctionAdd("un-checked", "unchecked");
+
+            correctionAdd("double-check", "double check");
+            correctionAdd("Double check", "double check");
+            correctionAdd("doublecheck", "double check");
+
+            correctionAdd("double-checking", "double checking");
+
+            correctionAdd("double-checked", "double checked");
+
+            correctionAdd("re-check", "recheck");
+            correctionAdd("Re-check", "recheck");
+            correctionAdd("re check", "recheck");
+
+            correctionAdd("re-checking", "rechecking");
+
+            correctionAdd("re-checked", "rechecked");
+            correctionAdd("recheckrd", "rechecked"); // A true typo
+
+            correctionAdd("triplecheck", "triple check");
+
+            correctionAdd("tripple checked", "triple checked");
+
+            correctionAdd("self check", "self-check");
+            correctionAdd("selfcheck", "self-check");
+
+            // The verb
+            correctionAdd("cross check", "cross-check");
+            correctionAdd("crosscheck", "cross-check");
+
+            correctionAdd("crosschecked", "cross-checked");
+
+            correctionAdd("counter check", "countercheck");
+            correctionAdd("Counter check", "countercheck");
+
+            correctionAdd("counter-checked", "counterchecked");
+
+            correctionAdd("crossed check", "cross checked");
+
+            correctionAdd("checkup", "check up");
+
+            correctionAdd("Check out", "check out");
+            correctionAdd("check-out", "check out");
+            correctionAdd("chack out", "check out");
+            correctionAdd("checkout", "check out");
+            correctionAdd("Checkout", "check out");
+            correctionAdd("checout", "check out");
+
+            correctionAdd("check-in", "check in");
+            correctionAdd("checkin", "check in");
+
+            correctionAdd("checkmark", "check mark");
+
+            correctionAdd("check list", "checklist");
+            correctionAdd("Check list", "checklist");
+            correctionAdd("chcecklist", "checklist");
+            correctionAdd("Checklist", "checklist");
+            correctionAdd("checlist", "checklist");
+
+            correctionAdd("check lists", "checklists");
+            correctionAdd("check-lists", "checklists");
+
+            correctionAdd("check point", "checkpoint");
+
+            correctionAdd("spot-check", "spot check");
+            correctionAdd("spotcheck", "spot check");
+
+            correctionAdd("apot", "spot");
+
+            correctionAdd("spottet", "spotted");
+
+            correctionAdd("blindspot", "blind spot");
+
+            correctionAdd("sweat spot", "sweet spot"); // !!!!!
+            correctionAdd("sweatspot", "sweet spot"); // !!!!!
+            correctionAdd("sweetspot", "sweet spot");
+
+            correctionAdd("hot spot", "hotspot");
+
+            correctionAdd("Hotspot", "HotSpot");
+
+            correctionAdd("hot corners", "Hot Corners");
+
+            correctionAdd("Hubspot", "HubSpot");
+
+            correctionAdd("blogspot", "BlogSpot");
+
+            // The noun
+            correctionAdd("spot light", "spotlight");
 
             correctionAdd("factuallity", "factuality");
 
@@ -25992,6 +26125,7 @@ namespace OverflowHelper.core
             correctionAdd("Mine craft", "Minecraft");
             correctionAdd("minecraft", "Minecraft");
             correctionAdd("Minceraft", "Minecraft");
+            correctionAdd("Minecrat", "Minecraft");
 
             // A computer game. Similar to Minecraft
             correctionAdd("Garry's Mod", "Garry’s Mod");
@@ -54367,128 +54501,6 @@ namespace OverflowHelper.core
 
             correctionAdd("glitsy", "glitchy");
 
-            correctionAdd("cheak", "check");
-            correctionAdd("Cheak", "check");
-            correctionAdd("chect", "check");
-            correctionAdd("ckeck", "check");
-            correctionAdd("Chech", "check");
-            correctionAdd("Check", "check");
-            correctionAdd("chwck", "check");
-            correctionAdd("cheek", "check");
-            correctionAdd("chick", "check");
-            correctionAdd("Chick", "check");
-            correctionAdd("chack", "check");
-            correctionAdd("chec", "check");
-            correctionAdd("ceck", "check");
-            correctionAdd("chek", "check");
-
-            // The verb
-            correctionAdd("checkings", "checks");
-            correctionAdd("checkes", "checks");
-
-            correctionAdd("chcecked", "checked");
-            correctionAdd("cheched", "checked");
-            correctionAdd("cheked", "checked");
-            correctionAdd("Cheked", "checked");
-            correctionAdd("checkt", "checked");
-
-            correctionAdd("chacker", "checker");
-
-            correctionAdd("un-check", "uncheck");
-            correctionAdd("Un-check", "uncheck");
-
-            correctionAdd("un-checking", "unchecking");
-
-            correctionAdd("un-checked", "unchecked");
-
-            correctionAdd("double-check", "double check");
-            correctionAdd("Double check", "double check");
-            correctionAdd("doublecheck", "double check");
-
-            correctionAdd("double-checking", "double checking");
-
-            correctionAdd("double-checked", "double checked");
-
-            correctionAdd("re-check", "recheck");
-            correctionAdd("Re-check", "recheck");
-            correctionAdd("re check", "recheck");
-
-            correctionAdd("re-checking", "rechecking");
-
-            correctionAdd("re-checked", "rechecked");
-            correctionAdd("recheckrd", "rechecked"); // A true typo
-
-            correctionAdd("triplecheck", "triple check");
-
-            correctionAdd("tripple checked", "triple checked");
-
-            correctionAdd("self check", "self-check");
-            correctionAdd("selfcheck", "self-check");
-
-            // The verb
-            correctionAdd("cross check", "cross-check");
-            correctionAdd("crosscheck", "cross-check");
-
-            correctionAdd("crosschecked", "cross-checked");
-
-            correctionAdd("counter check", "countercheck");
-            correctionAdd("Counter check", "countercheck");
-
-            correctionAdd("counter-checked", "counterchecked");
-
-            correctionAdd("crossed check", "cross checked");
-
-            correctionAdd("checkup", "check up");
-
-            correctionAdd("Check out", "check out");
-            correctionAdd("check-out", "check out");
-            correctionAdd("chack out", "check out");
-            correctionAdd("checkout", "check out");
-            correctionAdd("Checkout", "check out");
-            correctionAdd("checout", "check out");
-
-            correctionAdd("check-in", "check in");
-            correctionAdd("checkin", "check in");
-
-            correctionAdd("checkmark", "check mark");
-
-            correctionAdd("check list", "checklist");
-            correctionAdd("Check list", "checklist");
-            correctionAdd("chcecklist", "checklist");
-            correctionAdd("Checklist", "checklist");
-            correctionAdd("checlist", "checklist");
-
-            correctionAdd("check lists", "checklists");
-            correctionAdd("check-lists", "checklists");
-
-            correctionAdd("check point", "checkpoint");
-
-            correctionAdd("spot-check", "spot check");
-            correctionAdd("spotcheck", "spot check");
-
-            correctionAdd("apot", "spot");
-
-            correctionAdd("spottet", "spotted");
-
-            correctionAdd("blindspot", "blind spot");
-
-            correctionAdd("sweat spot", "sweet spot"); // !!!!!
-            correctionAdd("sweatspot", "sweet spot"); // !!!!!
-            correctionAdd("sweetspot", "sweet spot");
-
-            correctionAdd("hot spot", "hotspot");
-
-            correctionAdd("Hotspot", "HotSpot");
-
-            correctionAdd("hot corners", "Hot Corners");
-
-            correctionAdd("Hubspot", "HubSpot");
-
-            correctionAdd("blogspot", "BlogSpot");
-
-            // The noun
-            correctionAdd("spot light", "spotlight");
-
             correctionAdd("misnoner", "misnomer");
 
             correctionAdd("termonology", "terminology");
@@ -68839,6 +68851,7 @@ namespace OverflowHelper.core
 
             correctionAdd("pass word", "password");
             correctionAdd("passsword", "password");
+            correctionAdd("passworld", "password");
             correctionAdd("passwork", "password");
             correctionAdd("Password", "password");
             correctionAdd("passowrd", "password");
@@ -107143,8 +107156,8 @@ namespace OverflowHelper.core
 
             // Note: "fuck" is in an another alternative word set
             correctionAdd("f*cked", "fucked");
-            correctionAdd("f**ked", "fucked");
             correctionAdd("F*CKED", "fucked");
+            correctionAdd("f**ked", "fucked");
             correctionAdd("F***ed", "fucked");
             correctionAdd("f***ed", "fucked");
             correctionAdd("F***ED", "fucked");
@@ -107156,6 +107169,7 @@ namespace OverflowHelper.core
             correctionAdd("fked", "fucked");
             correctionAdd("fuct", "fucked");
             correctionAdd("f-ed", "fucked");
+            correctionAdd("fkd", "fucked");
 
             correctionAdd("effs up", "fucks up");
 
@@ -152967,9 +152981,6 @@ namespace OverflowHelper.core
             // The verb
             correctionAdd("red shift_", "redshift_");
 
-            correctionAdd("uv_", "ultraviolet_");
-            correctionAdd("UV_", "ultraviolet_");
-
             // The asteroid
             correctionAdd("juno_", "Juno_");
 
@@ -159288,14 +159299,19 @@ namespace OverflowHelper.core
             // Perl
             correctionAdd("parrot_", "Parrot_");
 
-            // Perl
+            // Perl. A typedef. For "integer value"
             //
             // Alternative URLs:
             //
             //   <https://web.mit.edu/perl5/www/man/perlguts.html>
             //     Though it may only be a copy
             //
+            //   <https://perldoc.perl.org/perlguts#What-is-an-%22IV%22?>
+            //
             correctionAdd("iv_", "IV_");
+
+            // Perl. A typedef. For "unsigned integer value"
+            correctionAdd("uv_", "UV_");
 
             // A Perl function.
             // Perl. Uppercase. Function.
@@ -166095,6 +166111,8 @@ namespace OverflowHelper.core
             correctionAdd("watermarking_", "simulated intelligence watermarking_");
             correctionAdd("watermark_", "simulated intelligence watermarking_");
 
+            correctionAdd("sae_", "saw_"); // A true typo
+
             // C. A book
             //
             // Authors: Brian Kernighan and Dennis Ritchie
@@ -169201,7 +169219,9 @@ namespace OverflowHelper.core
 
             URL_Add("push()_", "https://perldoc.perl.org/perlfunc#push-ARRAY%2CLIST");
 
-            URL_Add("IV_", "https://perldoc.perl.org/perlguts#What-is-an-%22IV%22?");
+            URL_Add("IV_", "https://perldoc.perl.org/perlguts#Working-with-SVs");
+
+            URL_Add("UV_", "https://perldoc.perl.org/perlguts#Working-with-SVs");
 
             URL_Add("split()_", "https://perldoc.perl.org/perlfunc#split-%2FPATTERN%2F%2CEXPR%2CLIMIT");
 
@@ -169366,8 +169386,6 @@ namespace OverflowHelper.core
             URL_Add("17 ms between each key action is recommended_", "https://pmortensen.eu/world2/2022/06/27/blues-typing-out-fixed-texts-on-both-qmk-and-arduino-leonardo-based-macro-keyboards/");
 
             URL_Add("IR_", "https://en.wikipedia.org/wiki/Intermediate_representation");
-
-            URL_Add("ultraviolet_", "https://en.wikipedia.org/wiki/Ultraviolet");
 
             URL_Add("Cherry MX Blue_", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
 
@@ -170768,6 +170786,8 @@ namespace OverflowHelper.core
             URL_Add("overlay_", "https://en.wiktionary.org/wiki/overlay#Noun");
 
             URL_Add("over-the-air_", "https://en.wikipedia.org/wiki/Over-the-air_update");
+
+            URL_Add("saw_", "https://en.wiktionary.org/wiki/see#Verb");
 
         } //addLookupData_alternativeWordSet()
 
@@ -176640,8 +176660,6 @@ namespace OverflowHelper.core
 
             URL_Add("Package Manager Console__", "https://stackoverflow.com/questions/6876732/how-do-i-get-nuget-to-install-update-all-the-packages-in-the-packages-config/8403190#8403190");
 
-            URL_Add("uv__", "https://github.com/astral-sh/uv");
-
             URL_Add("weird couplings to Bluetooth in Keychron keyboards__", "https://www.reddit.com/r/Keychron/comments/1ihh33r/comment/maxll5p/");
 
             URL_Add("brown__", "https://en.wiktionary.org/wiki/brown#Noun");
@@ -177025,6 +177043,8 @@ namespace OverflowHelper.core
             URL_Add("Hands Down keyboard layout__", "https://sites.google.com/alanreiser.com/handsdown");
 
             URL_Add("got__", "https://en.wiktionary.org/wiki/get#Verb");
+
+            URL_Add("uv__", "https://github.com/astral-sh/uv");
 
         } //addLookupData_alternativeWordSet2()
 
@@ -179920,10 +179940,6 @@ namespace OverflowHelper.core
 
             URL_Add("he___", "https://en.wiktionary.org/wiki/he#Pronoun");
 
-            URL_Add("map___", "https://en.wiktionary.org/wiki/map#Verb");
-
-            URL_Add("UV mapping___", "https://en.wikipedia.org/wiki/UV_mapping");
-
             URL_Add("Cherry MX Green___", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
 
             URL_Add("Redragon___", "https://switchandclick.com/is-redragon-good-budget-meets-performance/");
@@ -180173,6 +180189,10 @@ namespace OverflowHelper.core
             URL_Add("overclocking___", "https://en.wikipedia.org/wiki/Overclocking");
 
             URL_Add("overwrite the bootloader on the AVR ATmega32U4___", "https://www.youtube.com/watch?v=sGB0vLcEVCY&t=2m26s");
+
+            URL_Add("map___", "https://en.wiktionary.org/wiki/map#Verb");
+
+            URL_Add("UV mapping___", "https://en.wikipedia.org/wiki/UV_mapping");
 
         } //addLookupData_alternativeWordSet3()
 
@@ -181006,6 +181026,9 @@ namespace OverflowHelper.core
             correctionAdd("Ergo Ortho____", "split ergonomic ortholinear mechanical keyboard____");
             correctionAdd("ergo ortho____", "split ergonomic ortholinear mechanical keyboard____");
             correctionAdd("split____", "split ergonomic ortholinear mechanical keyboard____");
+
+            correctionAdd("uv____", "ultraviolet____");
+            correctionAdd("UV____", "ultraviolet____");
 
             // For the cross-reference to the default keymap
             // Note: In Git branch "wireless_playground"
@@ -182646,6 +182669,8 @@ namespace OverflowHelper.core
             URL_Add("PC____", "https://en.wikipedia.org/wiki/Polycarbonate");
 
             URL_Add("split ergonomic ortholinear mechanical keyboard____", "https://en.wikipedia.org/wiki/Ergonomic_keyboard");
+
+            URL_Add("ultraviolet____", "https://en.wikipedia.org/wiki/Ultraviolet");
 
         } //addLookupData_alternativeWordSet4()
 
