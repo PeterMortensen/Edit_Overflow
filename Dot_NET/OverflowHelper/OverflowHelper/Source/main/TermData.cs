@@ -1442,6 +1442,267 @@ namespace OverflowHelper.core
 
             correctionAdd("housing around", "horsing around");
 
+            correctionAdd("arround", "around");
+            correctionAdd("aroubf", "around"); // A true typo (double; two slides (but in opposite directions))
+            correctionAdd("aruond", "around");
+            correctionAdd("round", "around");
+            correctionAdd("aroun", "around");
+            correctionAdd("aroud", "around");
+            correctionAdd("ard", "around");
+
+            correctionAdd("all round", "all-around");
+            correctionAdd("al around", "all-around");
+
+            correctionAdd("fooled", "fooled around");
+
+            correctionAdd("came round", "came around");
+
+            correctionAdd("came back round", "came back around");
+
+            // The noun
+            correctionAdd("work arround", "workaround");
+            correctionAdd("walk around", "workaround"); // !!!!!
+            correctionAdd("work around", "workaround");
+            correctionAdd("work-around", "workaround");
+            correctionAdd("workauround", "workaround");
+            correctionAdd("Work around", "workaround");
+            correctionAdd("Workarround", "workaround");
+            correctionAdd("workarround", "workaround");
+            correctionAdd("workoaround", "workaround");
+            correctionAdd("Work Around", "workaround");
+            correctionAdd("way around", "workaround");
+            correctionAdd("workagound", "workaround");
+            correctionAdd("workground", "workaround");
+            correctionAdd("workgound", "workaround");
+            correctionAdd("workround", "workaround");
+            correctionAdd("w/a", "workaround");
+
+            correctionAdd("the other way round", "the other way around");
+
+            correctionAdd("work a rounds", "workarounds");
+            correctionAdd("work arounds", "workarounds");
+            correctionAdd("work-arounds", "workarounds");
+
+            correctionAdd("look around", "lookaround");
+
+            correctionAdd("turn-around", "turnaround");
+
+            correctionAdd("allround", "all-round");
+
+            correctionAdd("all arounder", "all-rounder");
+            correctionAdd("all rounder", "all-rounder");
+            correctionAdd("allrounder", "all-rounder");
+
+            correctionAdd("outher", "other");
+            correctionAdd("outter", "other");
+            correctionAdd("otehr", "other");
+            correctionAdd("ather", "other");
+            correctionAdd("toher", "other"); // A true typo
+            correctionAdd("Other", "other");
+            correctionAdd("oder", "other");
+            correctionAdd("othe", "other");
+
+            correctionAdd("a/o", "and other");
+
+            correctionAdd("Other wise", "otherwise");
+            correctionAdd("other wise", "otherwise");
+            correctionAdd("Otherewise", "otherwise");
+            correctionAdd("otherewise", "otherwise");
+            correctionAdd("ohterwise", "otherwise");
+            correctionAdd("otherwisw", "otherwise"); // A true typo
+            correctionAdd("Elsewise", "otherwise");
+            correctionAdd("elsewise", "otherwise");
+            correctionAdd("Othewise", "otherwise");
+            correctionAdd("othewise", "otherwise");
+            correctionAdd("o/w", "otherwise");
+            correctionAdd("O/W", "otherwise");
+
+            correctionAdd("eachother", "each other");
+            correctionAdd("each-other", "each other");
+
+            correctionAdd("eachothers", "each other's");
+
+            correctionAdd("anyother", "another");
+            correctionAdd("an other", "another");
+            correctionAdd("An other", "another");
+            correctionAdd("anpother", "another");
+            correctionAdd("annother", "another");
+            correctionAdd("enother", "another");
+            correctionAdd("Anotehr", "another");
+            correctionAdd("anotehr", "another");
+            correctionAdd("anthoer", "another");
+            correctionAdd("antoher", "another");
+            correctionAdd("‘nuther", "another");
+            correctionAdd("anather", "another");
+            correctionAdd("Anohter", "another");
+            correctionAdd("anohter", "another");
+            correctionAdd("Another", "another");
+            correctionAdd("anther", "another");
+            correctionAdd("anothe", "another");
+            correctionAdd("anoher", "another");
+            correctionAdd("Anther", "another");
+            correctionAdd("nuther", "another");
+            correctionAdd("anotha", "another");
+
+            // Idiomatic
+            correctionAdd("In the other word", "in other words");
+            correctionAdd("in the other word", "in other words");
+            correctionAdd("With other words", "in other words");
+            correctionAdd("with other words", "in other words");
+            correctionAdd("In others words", "in other words");
+            correctionAdd("in others words", "in other words");
+            correctionAdd("in another word", "in other words");
+            correctionAdd("In another word", "in other words");
+            correctionAdd("In other words", "in other words");
+            correctionAdd("in order words", "in other words");
+            correctionAdd("in other terms", "in other words");
+            correctionAdd("In other terms", "in other words");
+            correctionAdd("another words", "in other words");
+            correctionAdd("In other word", "in other words");
+            correctionAdd("in other word", "in other words");
+            correctionAdd("IOW", "in other words");
+
+            // Note: "world" is in an alternative word set
+            //
+            correctionAdd("other-worldly", "otherworldly");
+            correctionAdd("other-wordly", "otherworldly");
+            correctionAdd("otherwordly", "otherworldly");
+
+            correctionAdd("N O I C E", "nice");
+            correctionAdd("Noicce", "nice");
+            correctionAdd("noicce", "nice");
+            correctionAdd("Noyce", "nice");
+            correctionAdd("noyce", "nice");
+            correctionAdd("naise", "nice");
+            correctionAdd("NOICE", "nice");
+            correctionAdd("Noice", "nice");
+            correctionAdd("noice", "nice");
+
+            correctionAdd("nicier", "nicer");
+
+            correctionAdd("nice looking", "nice-looking");
+
+            // A noun
+            correctionAdd("nice to haves", "nice-to-haves");
+
+            correctionAdd("LGTM", "looks good to me");
+
+            correctionAdd("LBYL", "look before you leap");
+
+            // The verb
+            correctionAdd("loot", "look");
+            correctionAdd("Loot", "look");
+            correctionAdd("lokk", "look");
+            correctionAdd("Lok", "look");
+            correctionAdd("lok", "look");
+
+            // The verb
+            correctionAdd("look's", "looks");
+            correctionAdd("loks", "looks");
+            correctionAdd("loos", "looks");
+            correctionAdd("Lols", "looks");
+            correctionAdd("lols", "looks");
+
+            correctionAdd("loocking", "looking");
+            correctionAdd("locking", "looking");
+            correctionAdd("lookimg", "looking");
+            correctionAdd("loking", "looking");
+            correctionAdd("Lookg", "looking");
+            correctionAdd("lookg", "looking");
+
+            correctionAdd("loked", "looked");
+            correctionAdd("looke", "looked");
+
+            correctionAdd("over look", "overlook");
+
+            correctionAdd("over-looking", "overlooking");
+
+            correctionAdd("over looked", "overlooked");
+
+            correctionAdd("re-look", "relook");
+
+            correctionAdd("look to", "look at");
+
+            correctionAdd("look-ups", "lookups");
+
+            correctionAdd("lookup", "look up");
+            correctionAdd("Lookup", "look up");
+
+            // The verb
+            correctionAdd("lookuout", "look out");
+            correctionAdd("lookout", "look out");
+
+            correctionAdd("being on the look out", "being on the lookout");
+
+            correctionAdd("looking in to", "looking into");
+
+            correctionAdd("look-a-like", "lookalike");
+            correctionAdd("look a like", "lookalike");
+
+            correctionAdd("on-looker", "onlooker");
+
+            correctionAdd("tunning", "tuning");
+            correctionAdd("Tunning", "tuning");
+
+            correctionAdd("fine tune", "fine-tune");
+            correctionAdd("fine-tine", "fine-tune");
+            correctionAdd("finetune", "fine-tune");
+
+            correctionAdd("fine tuned", "fine-tuned");
+
+            correctionAdd("fine tuning", "fine-tuning");
+            correctionAdd("Fine Tuning", "fine-tuning");
+            correctionAdd("Fine-tuning", "fine-tuning");
+            correctionAdd("finetuning", "fine-tuning");
+
+            correctionAdd("fortune 500", "Fortune 500");
+            correctionAdd("Fortune 50", "Fortune 500");
+
+            correctionAdd("Riva Tuner", "RivaTuner");
+
+            // The verb
+            //
+            // Note: "turn" is in an alternative word set
+            //
+            correctionAdd("turnes", "turns");
+            correctionAdd("tuns", "turns");
+
+            correctionAdd("turníng", "turning");
+            correctionAdd("Turning", "turning");
+
+            correctionAdd("Turend", "turned");
+            correctionAdd("Turned", "turned");
+            correctionAdd("turend", "turned");
+            correctionAdd("thrned", "turned");
+            correctionAdd("truned", "turned");
+            correctionAdd("tuned", "turned");
+
+            // Idiomatic
+            correctionAdd("Points out", "turns out");
+            correctionAdd("points out", "turns out");
+
+            correctionAdd("truned out", "turned out");
+            correctionAdd("turned ot", "turned out");
+
+            correctionAdd("turnoff", "turn off");
+            correctionAdd("turn of", "turn off");
+
+            correctionAdd("turns-off", "turns off");
+
+            correctionAdd("turned of", "turned off");
+
+            correctionAdd("turn over", "turnover");
+
+            correctionAdd("in turns", "in turn");
+            correctionAdd("in-turn", "in turn");
+            correctionAdd("in term", "in turn");
+            correctionAdd("inturn", "in turn");
+
+            correctionAdd("turn-key", "turnkey");
+
+            correctionAdd("u turn", "U-turn");
+            correctionAdd("u-turn", "U-turn");
+
             correctionAdd("thresh-hold", "threshold");
             correctionAdd("threeshold", "threshold");
             correctionAdd("threshhold", "threshold");
@@ -4872,7 +5133,1693 @@ namespace OverflowHelper.core
             correctionAdd("any case", "in any case");
             correctionAdd("anycase", "in any case");
 
+            correctionAdd("timre", "time");
+            correctionAdd("thime", "time");
+            correctionAdd("tike", "time");
+            correctionAdd("Time", "time");
+            correctionAdd("lime", "time");
+
+            correctionAdd("tea-time", "teatime");
+            correctionAdd("tee-time", "teatime");
+
+            correctionAdd("time-wise", "timewise");
+
+            correctionAdd("time-window", "time window");
+
+            correctionAdd("timibg", "timing");
+
+            correctionAdd("running time", "run time");
+            correctionAdd("run-time", "run time");
+            correctionAdd("Run time", "run time");
+            correctionAdd("RUn TIme", "run time");
+            correctionAdd("runtime", "run time");
+            correctionAdd("rutime", "run time");
+
+            correctionAdd("runtimes", "run times");
+
+            correctionAdd("cup-of-tea", "cup of tea");
+
+            // The noun
+            correctionAdd("compile-time", "compile time");
+            correctionAdd("compiletime", "compile time");
+
+            correctionAdd("prtime", "PRTime");
+
+            correctionAdd("zoneddatetime", "ZonedDateTime");
+
+            correctionAdd("Daylight Savings Time", "daylight saving time");
+            correctionAdd("daylight savings time", "daylight saving time");
+            correctionAdd("Daylight savings time", "daylight saving time");
+            correctionAdd("daylight saving", "daylight saving time");
+            correctionAdd("DST", "daylight saving time");
+
+            correctionAdd("CEST", "Central European Summer Time");
+            correctionAdd("cest", "Central European Summer Time");
+
+            // A United States time zone
+            correctionAdd("Eastern Daylight Time", "EDT");
+            correctionAdd("US Eastern DST", "EDT");
+            correctionAdd("Eastern DST", "EDT");
+            correctionAdd("edt", "EDT");
+
+            // A United States time zone
+            correctionAdd("Eastern Time Zone", "EST");
+            correctionAdd("est", "EST");
+
+            // A United States time zone
+            correctionAdd("CST", "Central Standard Time");
+
+            // A United States time zone
+            correctionAdd("Pacific Time Zone", "Pacific Standard Time");
+            correctionAdd("PST", "Pacific Standard Time");
+            correctionAdd("PT", "Pacific Standard Time");
+
+            // An Indian time zone
+            correctionAdd("IST", "Indian Standard Time");
+
+            correctionAdd("CET", "Central European Time");
+            correctionAdd("cet", "Central European Time");
+
+            // The noun
+            correctionAdd("prime-time", "prime time");
+            correctionAdd("primetime", "prime time");
+
+            correctionAdd("real time", "real-time");
+            correctionAdd("reel time", "real-time");
+            correctionAdd("realtime", "real-time");
+            correctionAdd("Realtime", "real-time");
+            correctionAdd("RT", "real-time");
+
+            correctionAdd("long-time", "longtime");
+            correctionAdd("long time", "longtime");
+
+            correctionAdd("in the same time", "at the same time");
+            correctionAdd("In the same time", "at the same time");
+
+            correctionAdd("spear time", "spare time");
+            correctionAdd("sparetime", "spare time");
+
+            // Alternative URLs:
+            //
+            //   <https://stackoverflow.com/questions/72982976/what-does-the-phrase-created-at-runtime-mean>
+            //
+            correctionAdd("in the runtime", "at runtime");
+            correctionAdd("at run time", "at runtime");
+            correctionAdd("on run time", "at runtime");
+            correctionAdd("in runtime", "at runtime");
+            correctionAdd("on runtime", "at runtime");
+
+            correctionAdd("Once upon a time", "once upon a time");
+            correctionAdd("One upon a time", "once upon a time"); // Probably a true typo (missing input)
+            correctionAdd("one upon a time", "once upon a time");
+
+            correctionAdd("part time", "part-time");
+            correctionAdd("parttime", "part-time");
+
+            // A YouTube channel/YouTube. Primarily reaction videos
+            // for tech stuff, mostly software development.
+            //
+            // Has admitted to trolling on Stack Overflow (it is
+            // ***very*** disappointing that he was so immature
+            // in his early 20s):
+            //
+            //   <https://www.youtube.com/watch?v=Gy0fp4Pab0g&t=3m6s>
+            //     At 03 min 06 secs
+            //
+            //     <https://stackoverflow.com/questions/17659303/>
+            //       What is more Pythonic for 'not'?
+            //
+            //       <https://stackoverflow.com/users/499419/theprimeagen>
+            //       <twitch.tv/theprimeagen>
+            //
+            //     2026-01-09.
+            //
+            // AKA ThePrimeagen (from the URL)
+            //
+            // Alternative URLs:
+            //
+            //   <https://youtube.fandom.com/wiki/ThePrimeagen>
+            //
+            //   <https://www.youtube.com/@ThePrimeagen/videos>
+            //     The other channel (without "Time",
+            //     instead of "ThePrimeTimeagen"). For stream snippets?
+            //
+            correctionAdd("Michael B. Paulson", "ThePrimeTime");
+            correctionAdd("The Prime Time", "ThePrimeTime");
+            correctionAdd("theprimeagen", "ThePrimeTime");
+            correctionAdd("ThePrimeagen", "ThePrimeTime");
+            correctionAdd("Prime Time", "ThePrimeTime");
+            correctionAdd("primeagen", "ThePrimeTime");
+            correctionAdd("Primeagen", "ThePrimeTime");
+            correctionAdd("primagen", "ThePrimeTime");
+            correctionAdd("Primagen", "ThePrimeTime");
+            correctionAdd("Prime", "ThePrimeTime");
+
+            correctionAdd("vest", "vast");
+            correctionAdd("wast", "vast");
+
+            correctionAdd("wastly", "vastly");
+
+            correctionAdd("waiste", "waste");
+            correctionAdd("waist", "waste");
+
+            correctionAdd("waisting", "wasting");
+            correctionAdd("waising", "wasting");
+
+            correctionAdd("e-waste", "electronic waste");
+
+            correctionAdd("time waster", "time-waster");
+            correctionAdd("timewaster", "time-waster");
+
             correctionAdd("any time", "anytime");
+
+            correctionAdd("all the times", "all the time");
+
+            correctionAdd("all time", "all-time");
+
+            correctionAdd("Good morning", "good morning");
+            correctionAdd("Good morinig", "good morning");
+            correctionAdd("good morinig", "good morning");
+            correctionAdd("Goodmorning", "good morning");
+
+            correctionAdd("every timme", "every time");
+            correctionAdd("Every-time", "every time");
+            correctionAdd("every-time", "every time");
+            correctionAdd("everythime", "every time");
+            correctionAdd("Every time", "every time");
+            correctionAdd("everytime", "every time");
+            correctionAdd("Everytime", "every time");
+            correctionAdd("eveytime", "every time");
+            correctionAdd("every", "every time"); // What is this????
+
+            correctionAdd("first time", "first-time");
+
+            correctionAdd("full time", "full-time");
+            correctionAdd("fulltime", "full-time");
+
+            correctionAdd("fulliest", "fullest");
+
+            correctionAdd("full on", "full-on");
+
+            correctionAdd("full blown", "full-blown");
+            correctionAdd("fullblown", "full-blown");
+
+            correctionAdd("full fledged", "full-fledged");
+
+            correctionAdd("fullcircle", "full circle");
+
+            correctionAdd("free-time", "free time");
+            correctionAdd("freetime", "free time");
+
+            correctionAdd("personal time off", "paid time off");
+            correctionAdd("planned time off", "paid time off");
+            correctionAdd("PTO", "paid time off");
+
+            correctionAdd("ay", "pay");
+
+            correctionAdd("payed", "paid");
+            correctionAdd("paied", "paid");
+            correctionAdd("piad", "paid");
+
+            correctionAdd("pay off", "pay-off");
+            correctionAdd("payoff", "pay-off");
+
+            correctionAdd("pay check", "paycheck");
+
+            correctionAdd("pay-scale", "payscale");
+
+            // Note: "show" is in an alternative word set
+            //
+            correctionAdd("shoring", "showing");
+            correctionAdd("shwoing", "showing"); // A true typo
+            correctionAdd("showig", "showing");
+
+            correctionAdd("showed", "shown");
+            correctionAdd("hown", "shown");
+
+            correctionAdd("showup", "show up");
+
+            correctionAdd("shoes up", "shows up"); // A true typo
+
+            correctionAdd("show stopper", "showstopper");
+            correctionAdd("show-stopper", "showstopper");
+
+            correctionAdd("show stoppers", "showstoppers");
+
+            correctionAdd("show time", "showtime");
+
+            // The verb
+            correctionAdd("show-case", "showcase");
+
+            correctionAdd("over-time", "over time");
+            correctionAdd("overtime", "over time");
+
+            correctionAdd("one time", "one-time");
+            correctionAdd("1 time", "one-time");
+            correctionAdd("1-time", "one-time");
+
+            correctionAdd("turn around time", "turnaround time");
+
+            correctionAdd("long-run", "long run");
+
+            correctionAdd("complexicity", "complexity");
+            correctionAdd("complexitiy", "complexity");
+            correctionAdd("complexcity", "complexity");
+            correctionAdd("Complexity", "complexity");
+            correctionAdd("complicity", "complexity");
+            correctionAdd("complixity", "complexity");
+            correctionAdd("complexty", "complexity");
+            correctionAdd("comlexity", "complexity");
+
+            correctionAdd("McCabe complexity test", "cyclomatic complexity");
+            correctionAdd("cyclomatic", "cyclomatic complexity");
+            correctionAdd("McCabe", "cyclomatic complexity");
+
+            correctionAdd("time Complexity", "time complexity");
+            correctionAdd("Time Complexity", "time complexity");
+            correctionAdd("time comlexity", "time complexity");
+
+            correctionAdd("passtime", "pastime");
+            correctionAdd("pasttime", "pastime");
+
+            correctionAdd("2x", "two times");
+
+            correctionAdd("Some times", "sometimes");
+            correctionAdd("some times", "sometimes");
+            correctionAdd("sometime's", "sometimes");
+            correctionAdd("some-times", "sometimes");
+            correctionAdd("somethimes", "sometimes");
+            correctionAdd("some time", "sometimes");
+            correctionAdd("Sometimes", "sometimes");
+            correctionAdd("Some time", "sometimes");
+            correctionAdd("tometimes", "sometimes");
+            correctionAdd("sowetimes", "sometimes");
+            correctionAdd("somoetime", "sometimes");
+            correctionAdd("sometime", "sometimes");
+            correctionAdd("someties", "sometimes");
+            correctionAdd("Somtimes", "sometimes");
+            correctionAdd("somtimes", "sometimes");
+            correctionAdd("Sometime", "sometimes");
+
+            correctionAdd("often times", "oftentimes");
+            correctionAdd("Often times", "oftentimes");
+            correctionAdd("Often time", "oftentimes");
+            correctionAdd("often time", "oftentimes");
+            correctionAdd("Oftentimes", "oftentimes");
+            correctionAdd("oftentime", "oftentimes");
+
+            correctionAdd("in the old time", "in the old times");
+            correctionAdd("In the old time", "in the old times");
+            correctionAdd("old time", "in the old times");
+
+            correctionAdd("other-times", "other times");
+            correctionAdd("othertimes", "other times");
+
+            correctionAdd("old timer", "oldtimer");
+            correctionAdd("old-timer", "oldtimer");
+
+            correctionAdd("first timer", "first-timer");
+            correctionAdd("firsttimer", "first-timer");
+
+            // Idiomatic
+            correctionAdd("only time will tell", "time will tell");
+            correctionAdd("only time can tell", "time will tell");
+            correctionAdd("only time", "time will tell");
+
+            correctionAdd("time consuming", "time-consuming");
+            correctionAdd("lime consuming", "time-consuming");
+            correctionAdd("timeconsuming", "time-consuming");
+
+            correctionAdd("timescale", "time scale");
+
+            correctionAdd("time-out", "timeout");
+            correctionAdd("time out", "timeout");
+            correctionAdd("Time Out", "timeout");
+            correctionAdd("Time out", "timeout");
+            correctionAdd("Timeout", "timeout");
+            correctionAdd("TimeOut", "timeout");
+            correctionAdd("timout", "timeout");
+
+            correctionAdd("timeframe", "time frame");
+            correctionAdd("Timeframe", "time frame");
+
+            correctionAdd("time line", "timeline");
+
+            correctionAdd("time-keeping", "timekeeping");
+
+            correctionAdd("time stamp", "timestamp");
+            correctionAdd("time-stamp", "timestamp");
+            correctionAdd("Time stamp", "timestamp");
+            correctionAdd("TimeStamp", "timestamp");
+            correctionAdd("Timestamp", "timestamp");
+            correctionAdd("timstamp", "timestamp");
+
+            correctionAdd("time stamps", "timestamps");
+            correctionAdd("time-stamps", "timestamps");
+            correctionAdd("Time stamps", "timestamps");
+            correctionAdd("Time-stamps", "timestamps");
+            correctionAdd("timestapms", "timestamps"); // A true typo
+
+            correctionAdd("time span", "timespan");
+
+            correctionAdd("Tiimer", "timer");
+            correctionAdd("tiimer", "timer");
+
+            correctionAdd("timerrs", "timers");
+
+            correctionAdd("time-lapse", "timelapse");
+
+            correctionAdd("eleapsed", "elapsed");
+
+            correctionAdd("time-limit", "time limit");
+            correctionAdd("timelimit", "time limit");
+
+            correctionAdd("Time Limit Exceeded", "time limit exceeded");
+            correctionAdd("TLE", "time limit exceeded");
+
+            correctionAdd("from times to times", "from time to time");
+
+            correctionAdd("time-to-time", "time to time");
+
+            correctionAdd("mean time", "meantime");
+            correctionAdd("meantine", "meantime");
+            correctionAdd("meanfile", "meantime");
+            correctionAdd("meanfime", "meantime");
+            correctionAdd("meantile", "meantime");
+
+            correctionAdd("in the mean time", "in the meantime");
+            correctionAdd("at the meantime", "in the meantime");
+            correctionAdd("At the meantime", "in the meantime");
+
+            correctionAdd("beginning of time", "dawn of time");
+
+            // The verb
+            correctionAdd("shoot down", "shut down"); // !!!!!
+            correctionAdd("shut-down", "shut down");
+            correctionAdd("Shut down", "shut down");
+            correctionAdd("shootdown", "shut down"); // !!!!!
+            correctionAdd("shot down", "shut down"); // !!!!!
+            correctionAdd("shutdown", "shut down");
+            correctionAdd("Shutdown", "shut down");
+            correctionAdd("shotdown", "shut down"); // !!!!!
+
+            correctionAdd("shutsdown", "shuts down");
+
+            correctionAdd("shutting-down", "shutting down");
+
+            correctionAdd("tair", "tear");
+
+            // The noun
+            correctionAdd("tear-down", "teardown");
+            correctionAdd("tear down", "teardown");
+
+            correctionAdd("downto", "down to");
+
+            correctionAdd("down time", "downtime");
+
+            correctionAdd("parried", "paired");
+            correctionAdd("paird", "paired");
+
+            correctionAdd("paired down", "pared down");
+
+            // Idiomatic
+            correctionAdd("knuckle-down", "knuckle down");
+
+            correctionAdd("stripped down", "stripped-down");
+            correctionAdd("Stripped down", "stripped-down");
+
+            correctionAdd("stripe", "Stripe");
+            correctionAdd("sripe", "Stripe");
+
+            correctionAdd("lock down", "lockdown");
+            correctionAdd("lock-down", "lockdown");
+            correctionAdd("li keown", "lockdown");
+            correctionAdd("lo keown", "lockdown");
+            correctionAdd("lo kdown", "lockdown");
+            correctionAdd("lokdown", "lockdown");
+
+            correctionAdd("down-side", "downside");
+            correctionAdd("down side", "downside");
+            correctionAdd("downsite", "downside");
+
+            correctionAdd("down sample", "downsample");
+
+            correctionAdd("Downgraded", "downgraded");
+            correctionAdd("Dowgraded", "downgraded");
+
+            correctionAdd("debbie downer", "Debbie Downer");
+
+            correctionAdd("Life", "life");
+            correctionAdd("LYFE", "life");
+            correctionAdd("lyfe", "life");
+            correctionAdd("live", "life");
+            correctionAdd("LIfe", "life");
+
+            correctionAdd("life style", "lifestyle");
+            correctionAdd("life-style", "lifestyle");
+
+            correctionAdd("life-long", "lifelong");
+            correctionAdd("life long", "lifelong");
+
+            correctionAdd("life span", "lifespan");
+
+            correctionAdd("life-time", "lifetime");
+            correctionAdd("life time", "lifetime");
+
+            correctionAdd("once in a lifetime", "once-in-a-lifetime");
+
+            correctionAdd("shelf-life", "shelf life");
+
+            correctionAdd("liferaft", "life raft");
+
+            correctionAdd("life hack", "lifehack");
+
+            correctionAdd("life-cycle", "life cycle");
+            correctionAdd("lifecycle", "life cycle");
+
+            correctionAdd("4 lyfe", "for life");
+
+            correctionAdd("QoL", "quality of life");
+
+            correctionAdd("Life Pro Tip", "life pro tip");
+            correctionAdd("lpt", "life pro tip");
+            correctionAdd("LPT", "life pro tip");
+
+            correctionAdd("life of me", "for the life of me");
+
+            correctionAdd("life saver", "lifesaver");
+            correctionAdd("life Saver", "lifesaver");
+
+            correctionAdd("lifesaving", "life-saving");
+
+            correctionAdd("life threatening", "life-threatening");
+            correctionAdd("Life threatening", "life-threatening");
+
+            correctionAdd("lengeht", "length");
+            correctionAdd("lenght", "length");
+            correctionAdd("Lenght", "length");
+            correctionAdd("lenthg", "length");
+            correctionAdd("lengh", "length");
+            correctionAdd("lenth", "length");
+            correctionAdd("lengt", "length");
+            correctionAdd("lng", "length");
+
+            correctionAdd("lenghten", "lengthen");
+
+            correctionAdd("lengthly", "lengthy");
+            correctionAdd("Lenghty", "lengthy");
+            correctionAdd("lenghty", "lengthy");
+
+            correctionAdd("fixed length", "fixed-length");
+
+            correctionAdd("Focal Length", "focal length");
+
+            correctionAdd("in great length", "at great length");
+
+            // Slang
+            correctionAdd("wood nibbler", "greatest of all time");
+            correctionAdd("goat", "greatest of all time");
+            correctionAdd("GOAT", "greatest of all time");
+            correctionAdd("Goat", "greatest of all time");
+
+            correctionAdd("Greate", "great");
+            correctionAdd("greate", "great");
+            correctionAdd("grate", "great");
+            correctionAdd("Great", "great");
+            correctionAdd("gread", "great");
+            correctionAdd("Gret", "great");
+            correctionAdd("grt", "great");
+            correctionAdd("gr8", "great");
+            correctionAdd("Gr8", "great");
+
+            correctionAdd("greather", "greater");
+            correctionAdd("greeter", "greater");
+
+            correctionAdd("gratefull", "grateful");
+            correctionAdd("Great ful", "grateful");
+            correctionAdd("great ful", "grateful");
+            correctionAdd("greatful", "grateful");
+
+            correctionAdd("greately", "greatly");
+            correctionAdd("gretaly", "greatly");
+            correctionAdd("grealy", "greatly");
+            correctionAdd("greaty", "greatly");
+
+            // Idiomatic
+            correctionAdd("went to great length", "went to great lengths");
+            correctionAdd("great lengths", "went to great lengths");
+            correctionAdd("great length", "went to great lengths");
+
+            correctionAdd("crosss", "cross");
+
+            correctionAdd("krossed", "crossed");
+
+            correctionAdd("complilate", "compile");
+            correctionAdd("complicate", "compile"); // An autocorrect "masterpiece"?
+            correctionAdd("compilate", "compile");
+            correctionAdd("complile", "compile");
+            correctionAdd("coompile", "compile");
+            correctionAdd("complie", "compile");
+            correctionAdd("Complie", "compile");
+            correctionAdd("Compile", "compile");
+            correctionAdd("comiple", "compile");
+            correctionAdd("comlipe", "compile");
+            correctionAdd("comple", "compile");
+            correctionAdd("comile", "compile");
+
+            correctionAdd("complies", "compiles");
+            correctionAdd("comiles", "compiles");
+            correctionAdd("copiles", "compiles");
+
+            correctionAdd("compilating", "compiling");
+            correctionAdd("compileing", "compiling");
+            correctionAdd("compilingh", "compiling");
+            correctionAdd("compling", "compiling");
+            correctionAdd("comiling", "compiling");
+
+            correctionAdd("complited", "compiled");
+            correctionAdd("compilled", "compiled");
+            correctionAdd("complied", "compiled");
+            correctionAdd("compled", "compiled");
+            correctionAdd("copiled", "compiled");
+
+            correctionAdd("cross compile", "cross-compile");
+
+            correctionAdd("cross compiles", "cross-compiles");
+
+            correctionAdd("cross compiling", "cross-compiling");
+            correctionAdd("x-compiling", "cross-compiling");
+
+            correctionAdd("cross compiled", "cross-compiled");
+
+            correctionAdd("cross-compilation", "cross compilation");
+
+            correctionAdd("Cross Compiler", "cross compiler");
+            correctionAdd("Cross-Compiler", "cross compiler");
+
+            // Eclipse based-IDE for cross-compiling
+            // to ARM, etc., based on GCC
+            //
+            // Note: The company was "CodeSourcery" (now Mentor Graphics)
+            //
+            // Alternative URLs:
+            //
+            //   <https://kb.segger.com/Mentor_Sourcery_CodeBench>
+            //   <https://resources.sw.siemens.com/en-US/fact-sheet-sourcery-codebench-datasheet/>
+            //
+            correctionAdd("Sourcery codebench", "Sourcery CodeBench");
+            correctionAdd("Sourcery Codebench", "Sourcery CodeBench");
+            correctionAdd("codebench", "Sourcery CodeBench");
+            correctionAdd("CodeBench", "Sourcery CodeBench");
+            correctionAdd("Codebench", "Sourcery CodeBench");
+            correctionAdd("Sourcery", "Sourcery CodeBench");
+            correctionAdd("sourcery", "Sourcery CodeBench");
+            correctionAdd("sorcery", "Sourcery CodeBench");
+
+            correctionAdd("compilator", "compiler");
+            correctionAdd("compliler", "compiler");
+            correctionAdd("compoiler", "compiler");
+            correctionAdd("compilier", "compiler");
+            correctionAdd("complier", "compiler");
+            correctionAdd("Compiler", "compiler");
+            correctionAdd("compier", "compiler");
+            correctionAdd("comiler", "compiler");
+
+            correctionAdd("compliers", "compilers");
+            correctionAdd("complers", "compilers");
+
+            correctionAdd("compile-able", "compilable");
+            correctionAdd("compileable", "compilable");
+
+            correctionAdd("non-compilable", "noncompilable");
+
+            correctionAdd("Compiler-Explorer", "Compiler Explorer");
+            correctionAdd("compiler explorer", "Compiler Explorer");
+            correctionAdd("godbolt.org", "Compiler Explorer");
+            correctionAdd("GobBolt", "Compiler Explorer");
+            correctionAdd("godbolt", "Compiler Explorer");
+            correctionAdd("Godbolt", "Compiler Explorer");
+            correctionAdd("GodBolt", "Compiler Explorer");
+
+            correctionAdd("re-compile", "recompile");
+            correctionAdd("re compile", "recompile");
+
+            correctionAdd("re-compiling", "recompiling");
+            correctionAdd("recompiliing", "recompiling");
+
+            correctionAdd("re-compiled", "recompiled");
+
+            correctionAdd("re-compilation", "recompilation");
+
+            correctionAdd("non-compiling", "noncompiling");
+
+            correctionAdd("pre-compiles", "precompiles");
+
+            correctionAdd("pre-compilled", "precompiled");
+            correctionAdd("pre-compiled", "precompiled");
+
+            correctionAdd("pre-compile", "precompile");
+
+            correctionAdd("perifery", "periphery");
+
+            correctionAdd("Peripherial", "peripheral");
+            correctionAdd("periopheral", "peripheral");
+            correctionAdd("peripherial", "peripheral");
+            correctionAdd("Peripheral", "peripheral");
+            correctionAdd("pheripheal", "peripheral");
+            correctionAdd("pheriphral", "peripheral");
+            correctionAdd("Perpherial", "peripheral");
+            correctionAdd("perpherial", "peripheral");
+            correctionAdd("peripheal", "peripheral");
+            correctionAdd("periphral", "peripheral");
+            correctionAdd("pheriphal", "peripheral");
+            correctionAdd("periperal", "peripheral");
+            correctionAdd("periphal", "peripheral");
+            correctionAdd("periph", "peripheral");
+            correctionAdd("Periph", "peripheral");
+
+            correctionAdd("periopherals", "peripherals");
+            correctionAdd("preripherals", "peripherals");
+            correctionAdd("peripherlas", "peripherals");
+            correctionAdd("periphs", "peripherals");
+
+            correctionAdd("Periodicity", "periodicity");
+
+            correctionAdd("peridically", "periodically");
+            correctionAdd("periodicly", "periodically");
+
+            correctionAdd("non-periodic", "nonperiodic");
+
+            correctionAdd("time perioud", "time period");
+            correctionAdd("timeperiod", "time period");
+
+            // The verb
+            correctionAdd("warrent", "warrant");
+
+            correctionAdd("time-zone", "time zone");
+            correctionAdd("Time zone", "time zone");
+            correctionAdd("Time Zone", "time zone");
+            correctionAdd("timezone", "time zone");
+            correctionAdd("timzeone", "time zone");
+            correctionAdd("TimeZone", "time zone");
+            correctionAdd("Timezone", "time zone");
+
+            correctionAdd("timezones", "time zones");
+
+            correctionAdd("utc", "UTC");
+
+            correctionAdd("gmt", "GMT");
+
+            correctionAdd("spair", "spare");
+
+            correctionAdd("timelock", "time lock");
+
+            correctionAdd("runnning", "running");
+            correctionAdd("runninig", "running");
+            correctionAdd("Running", "running");
+            correctionAdd("runnign", "running");
+            correctionAdd("runnnig", "running");
+            correctionAdd("ruining", "running"); // Likely an autocorrect "masterpiece", caused by a typo, "i" after "u"
+            correctionAdd("runnig", "running");
+            correctionAdd("Runnin", "running");
+            correctionAdd("runing", "running");
+            correctionAdd("Runing", "running");
+            correctionAdd("runnin", "running");
+
+            correctionAdd("long running", "long-running");
+            correctionAdd("Long running", "long-running");
+            correctionAdd("longrunning", "long-running");
+
+            correctionAdd("free running", "free-running");
+
+            correctionAdd("re-reun", "rerun"); // Partly a true typo and a partly a misspelling
+            correctionAdd("re-run", "rerun");
+            correctionAdd("re run", "rerun");
+            correctionAdd("Re-run", "rerun");
+
+            // The noun
+            correctionAdd("re-runs", "reruns");
+
+            correctionAdd("re-runnning", "rerunning");
+            correctionAdd("re-running", "rerunning");
+            correctionAdd("Re-running", "rerunning");
+
+            correctionAdd("re-ran", "reran");
+
+            correctionAdd("rund", "run");
+            correctionAdd("tun", "run"); // A true typo
+            correctionAdd("rum", "run");
+            correctionAdd("Run", "run");
+            correctionAdd("rin", "run");
+            correctionAdd("rub", "run");
+
+            // The verb
+            correctionAdd("run's", "runs");
+
+            correctionAdd("runned", "ran");
+            correctionAdd("rang", "ran");
+
+            correctionAdd("ruuner", "runner");
+            correctionAdd("runer", "runner");
+
+            correctionAdd("runneable", "runnable");
+            correctionAdd("Runnable", "runnable");
+            correctionAdd("runable", "runnable");
+
+            correctionAdd("Now-a- days", "nowadays");
+            correctionAdd("now-a-days", "nowadays");
+            correctionAdd("now a days", "nowadays");
+            correctionAdd("Now a days", "nowadays");
+            correctionAdd("Now-a-days", "nowadays");
+            correctionAdd("Now a day", "nowadays"); // Not 100% correct - case.
+            correctionAdd("now a day", "nowadays");
+            correctionAdd("now-a-day", "nowadays");
+            correctionAdd("nowerdays", "nowadays");
+            correctionAdd("knowadays", "nowadays");
+            correctionAdd("now days", "nowadays");
+            correctionAdd("Now days", "nowadays");
+            correctionAdd("now-days", "nowadays");
+            correctionAdd("Nowadays", "nowadays");
+            correctionAdd("Nowdays", "nowadays"); // Not 100% correct - case.
+            correctionAdd("nowdays", "nowadays");
+            correctionAdd("Nowadys", "nowadays"); // Not 100% correct - case.
+            correctionAdd("nowadys", "nowadays");
+            correctionAdd("nowaday", "nowadays");
+            correctionAdd("now day", "nowadays");
+
+            correctionAdd("borthday", "birthday");
+            correctionAdd("bday", "birthday");
+            correctionAdd("Bday", "birthday");
+
+            correctionAdd("Date of Birth", "date of birth");
+            correctionAdd("dob", "date of birth");
+            correctionAdd("DOB", "date of birth");
+
+            correctionAdd("date stamp", "datestamp");
+            correctionAdd("Date stamp", "datestamp");
+
+            correctionAdd("dateformat", "date format");
+
+            correctionAdd("out-dated", "outdated");
+            correctionAdd("Out dated", "outdated");
+            correctionAdd("out dated", "outdated");
+            correctionAdd("Outdated", "outdated");
+            correctionAdd("outdata", "outdated");
+
+            correctionAdd("apon", "upon");
+
+            correctionAdd("fronwed upon", "frowned upon");
+
+            correctionAdd("call-upon", "call upon");
+
+            correctionAdd("particuliar", "particular");
+            correctionAdd("partiqulaer", "particular");
+            correctionAdd("pertiqulaer", "particular");
+            correctionAdd("perticular", "particular");
+            correctionAdd("particuler", "particular");
+            correctionAdd("partiqular", "particular");
+            correctionAdd("particual", "particular");
+            correctionAdd("particula", "particular");
+            correctionAdd("partic", "particular");
+
+            correctionAdd("particularily", "particularly");
+            correctionAdd("particuclarly", "particularly");
+            correctionAdd("particuarly", "particularly");
+            correctionAdd("particulary", "particularly");
+            correctionAdd("Particulary", "particularly");
+            correctionAdd("particlarly", "particularly");
+            correctionAdd("particulaly", "particularly");
+            correctionAdd("particulry", "particularly");
+            correctionAdd("particurly", "particularly");
+            correctionAdd("Particurly", "particularly");
+
+            correctionAdd("partecipate", "participate");
+            correctionAdd("partipate", "participate");
+
+            correctionAdd("partecipated", "participated");
+
+            correctionAdd("particopation", "participation");
+            correctionAdd("particpation", "participation");
+
+            // We need a better reference...
+            correctionAdd("participate to", "participate in");
+
+            correctionAdd("parcially", "partially");
+
+            correctionAdd("the fruit company", "Apple");
+            correctionAdd("fruit company", "Apple");
+            correctionAdd("Crapple", "Apple");
+            correctionAdd("crapple", "Apple");
+            correctionAdd("appple", "Apple");
+            correctionAdd("apple", "Apple");
+            correctionAdd("APPLE", "Apple");
+            correctionAdd("aplle", "Apple");
+            correctionAdd("Aplle", "Apple");
+
+            // Apple
+            correctionAdd("Jobs", "Steve Jobs");
+            correctionAdd("SJ", "Steve Jobs");
+
+            // Apple Inc.
+            correctionAdd("reality-distortion field", "reality distortion field");
+
+            correctionAdd("hackintosh", "Hackintosh");
+            correctionAdd("hekintosh", "Hackintosh");
+
+            correctionAdd("contorsion", "contortion");
+
+            correctionAdd("Apple 2", "Apple II");
+
+            correctionAdd("Apple IIE", "Apple IIe");
+
+            correctionAdd("Apple store", "App&nbsp;Store"); // Not 100% correct
+            correctionAdd("apple store", "App&nbsp;Store");
+            correctionAdd("apple Store", "App&nbsp;Store");
+            correctionAdd("appleStore", "App&nbsp;Store");
+            correctionAdd("App Store", "App&nbsp;Store");
+            correctionAdd("app store", "App&nbsp;Store");
+            correctionAdd("app-store", "App&nbsp;Store");
+            correctionAdd("AppStore", "App&nbsp;Store");
+            correctionAdd("appstore", "App&nbsp;Store");
+            correctionAdd("Appstore", "App&nbsp;Store");
+
+            correctionAdd("WWDC", "Apple Worldwide Developers Conference");
+            correctionAdd("wwdc", "Apple Worldwide Developers Conference");
+
+            correctionAdd("ipod", "iPod");
+            correctionAdd("Ipod", "iPod");
+
+            correctionAdd("iPod touch", "iPod Touch");
+            correctionAdd("ipod touch", "iPod Touch");
+
+            correctionAdd("itunes", "iTunes");
+            correctionAdd("Itunes", "iTunes");
+            correctionAdd("ITunes", "iTunes");
+            correctionAdd("itune", "iTunes");
+
+            correctionAdd("iTunes connect", "iTunes Connect");
+            correctionAdd("iTunesConnect", "iTunes Connect");
+            correctionAdd("itunesConnect", "iTunes Connect");
+            correctionAdd("itunesconnect", "iTunes Connect");
+            correctionAdd("iTC", "iTunes Connect");
+
+            correctionAdd("I pad", "iPad");
+            correctionAdd("iIpad", "iPad");
+            correctionAdd("Ipad", "iPad");
+            correctionAdd("ipad", "iPad");
+            correctionAdd("iPAD", "iPad");
+            correctionAdd("IPad", "iPad");
+            correctionAdd("IPAD", "iPad");
+
+            correctionAdd("mini iPad", "iPad Mini");
+            correctionAdd("mini-iPad", "iPad Mini");
+            correctionAdd("iPad mini", "iPad Mini");
+
+            correctionAdd("iPad air", "iPad Air");
+
+            correctionAdd("iPad pro", "iPad Pro");
+
+            correctionAdd("Ipados", "iPadOS");
+            correctionAdd("IpadOS", "iPadOS");
+
+            correctionAdd("idevice", "iDevice");
+
+            correctionAdd("i-phone", "iPhone");
+            correctionAdd("I-phone", "iPhone");
+            correctionAdd("i phone", "iPhone");
+            correctionAdd("iphone", "iPhone");
+            correctionAdd("Iphone", "iPhone");
+            correctionAdd("IPHONE", "iPhone");
+            correctionAdd("iPHONE", "iPhone");
+            correctionAdd("IPhone", "iPhone");
+            correctionAdd("iphoñe", "iPhone");
+            correctionAdd("ifone", "iPhone"); // Misspelling.
+
+            correctionAdd("iPhone xs", "iPhone XS");
+
+            correctionAdd("iPhone xr", "iPhone XR");
+
+            correctionAdd("IPhone SE", "iPhone SE");
+
+            correctionAdd("iphone 3gs", "iPhone 3GS");
+
+            correctionAdd("Iphone7", "iPhone 7");
+
+            correctionAdd("iphone 13", "iPhone 13");
+
+            correctionAdd("iphone 14", "iPhone 14");
+
+            correctionAdd("iphone X", "iPhone X");
+
+            // Apple / iPhone
+            correctionAdd("Find My Device", "Find My");
+            correctionAdd("find my device", "Find My");
+            correctionAdd("find my", "Find My");
+
+            // A test tool for Apple smartphones
+            //
+            // Not to be confused with "Playwright"
+            //
+            correctionAdd("test flight", "TestFlight");
+            correctionAdd("Testflight", "TestFlight");
+            correctionAdd("testflight", "TestFlight");
+
+            correctionAdd("iO.S", "iOS");
+            correctionAdd("ios", "iOS");
+            correctionAdd("IOS", "iOS");
+            correctionAdd("iOs", "iOS");
+            correctionAdd("Ios", "iOS");
+            correctionAdd("IOs", "iOS");
+            correctionAdd("IoS", "iOS");
+            correctionAdd("ioS", "iOS");
+
+            correctionAdd("iOS 6", "iOS&nbsp;6"); // Sort of identity mapping
+            correctionAdd("iOS6", "iOS&nbsp;6");
+
+            correctionAdd("iOS 7.0", "iOS&nbsp;7");
+            correctionAdd("iOS 7", "iOS&nbsp;7");
+            correctionAdd("iOS7", "iOS&nbsp;7");
+
+            correctionAdd("iOS 8.0", "iOS&nbsp;8");
+            correctionAdd("iOS 8", "iOS&nbsp;8");
+            correctionAdd("iOS8", "iOS&nbsp;8");
+
+            correctionAdd("iOS 9", "iOS&nbsp;9");
+            correctionAdd("iOS9", "iOS&nbsp;9");
+
+            correctionAdd("iOS-10", "iOS&nbsp;10");
+            correctionAdd("iOS 10", "iOS&nbsp;10"); // Sort of identity mapping
+            correctionAdd("iOS10", "iOS&nbsp;10");
+
+            correctionAdd("version 11", "iOS&nbsp;11");
+            correctionAdd("iOS-11", "iOS&nbsp;11");
+            correctionAdd("iOS 11", "iOS&nbsp;11"); // Sort of identity mapping
+            correctionAdd("iOS11", "iOS&nbsp;11");
+
+            correctionAdd("ios 13", "iOS 13");
+
+            correctionAdd("ios 16", "iOS 16");
+
+            correctionAdd("ios 17", "iOS 17");
+
+            correctionAdd("WatchOS", "watchOS");
+
+            // An operating system for the Apple TV
+            correctionAdd("Apple TV Software", "TvOS");
+            correctionAdd("tvos", "TvOS");
+
+            // An Apple laptop series
+            correctionAdd("ibook", "iBook");
+
+            // Note: "Mac" is in an alternative word set
+            correctionAdd("macs", "Macs");
+
+            // An Apple laptop series
+            correctionAdd("mac book pro", "MacBook Pro");
+            correctionAdd("Mac Book Pro", "MacBook Pro");
+            correctionAdd("MAC BOOK PRO", "MacBook Pro");
+            correctionAdd("MAC_BOOK_PRO", "MacBook Pro");
+            correctionAdd("Macbook Pro", "MacBook Pro");
+            correctionAdd("macbook pro", "MacBook Pro");
+            correctionAdd("macBook Pro", "MacBook Pro");
+            correctionAdd("MacBook pro", "MacBook Pro");
+            correctionAdd("Macbook pro", "MacBook Pro");
+            correctionAdd("MacBookPro", "MacBook Pro");
+            correctionAdd("macbookpro", "MacBook Pro");
+            correctionAdd("MacbookPro", "MacBook Pro");
+            correctionAdd("Mac Book", "MacBook Pro"); // Not exactly...
+            correctionAdd("MAC book", "MacBook Pro");
+            correctionAdd("Mac book", "MacBook Pro");
+            correctionAdd("MacBook", "MacBook Pro"); // Not exactly...
+            correctionAdd("macbook", "MacBook Pro"); // Not exactly...
+            correctionAdd("Macbook", "MacBook Pro"); // Not exactly...
+            correctionAdd("MACBOOK", "MacBook Pro");
+            correctionAdd("MakBook", "MacBook Pro");
+            correctionAdd("Makbook", "MacBook Pro");
+            correctionAdd("MACbook", "MacBook Pro");
+            correctionAdd("mac pro", "MacBook Pro"); // May be inaccurate and refer to 'Mac Pro' (desktop)
+            correctionAdd("macpro", "MacBook Pro");
+            correctionAdd("MaBook", "MacBook Pro");
+            correctionAdd("MB Pro", "MacBook Pro");
+            correctionAdd("MBPro", "MacBook Pro");
+            correctionAdd("MBP", "MacBook Pro");
+            correctionAdd("mbp", "MacBook Pro");
+
+            correctionAdd("macbook air pro", "MacBook Air");
+            correctionAdd("MacBook air", "MacBook Air");
+            correctionAdd("macbook air", "MacBook Air");
+            correctionAdd("Macbook Air", "MacBook Air");
+            correctionAdd("mac airbook", "MacBook Air");
+            correctionAdd("Mac AirBook", "MacBook Air");
+            correctionAdd("mac air", "MacBook Air");
+            correctionAdd("Mac Air", "MacBook Air");
+            correctionAdd("airbook", "MacBook Air");
+            correctionAdd("Airbook", "MacBook Air");
+            correctionAdd("MBA", "MacBook Air");
+
+            correctionAdd("MacBook M1 Chip", "MacBook Air (M1)");
+            correctionAdd("Macbook M1 air", "MacBook Air (M1)");
+            correctionAdd("macbook air m1", "MacBook Air (M1)");
+            correctionAdd("MacBook Air M1", "MacBook Air (M1)");
+            correctionAdd("Macbook air M1", "MacBook Air (M1)");
+            correctionAdd("macbook air M1", "MacBook Air (M1)");
+            correctionAdd("Macbook Air M1", "MacBook Air (M1)");
+            correctionAdd("mac os air m1", "MacBook Air (M1)");
+            correctionAdd("Mac air M1", "MacBook Air (M1)");
+            correctionAdd("M1 Macbook", "MacBook Air (M1)");
+            correctionAdd("m1 macbook", "MacBook Air (M1)");
+            correctionAdd("M1 mac", "MacBook Air (M1)");
+            correctionAdd("Mac M1", "MacBook Air (M1)");
+            correctionAdd("mac m1", "MacBook Air (M1)");
+            correctionAdd("Mac m1", "MacBook Air (M1)");
+            correctionAdd("mac M1", "MacBook Air (M1)");
+
+            correctionAdd("MacBook Air M2", "MacBook Air (M2)");
+            correctionAdd("MacBook Air m2", "MacBook Air (M2)");
+            correctionAdd("Macbook M2 air", "MacBook Air (M2)");
+
+            correctionAdd("macbook m3 air", "MacBook Air (M3)");
+            correctionAdd("MacBook Air M3", "MacBook Air (M3)");
+
+            correctionAdd("M4 MacBook Air", "MacBook Air (M4)");
+
+            correctionAdd("MacBook pro m2", "MacBook Pro M2");
+            correctionAdd("Macbook Pro M2", "MacBook Pro M2");
+            correctionAdd("M2 Macbook Pro", "MacBook Pro M2");
+            correctionAdd("M2 MBP", "MacBook Pro M2");
+            correctionAdd("mbp m2", "MacBook Pro M2");
+            correctionAdd("Mac M2", "MacBook Pro M2");
+            correctionAdd("M2 Mac", "MacBook Pro M2");
+
+            correctionAdd("Macbook M1 Max", "M1 Max MacBook Pro");
+            correctionAdd("Makbook M1 Max", "M1 Max MacBook Pro");
+            correctionAdd("M1 Max", "M1 Max MacBook Pro");
+            correctionAdd("M1 max", "M1 Max MacBook Pro");
+
+            // A Mac keyboard (or rather a series of keyboards)
+            correctionAdd("Apple aluminum keyboard", "Apple A1243 aluminium Keyboard");
+            correctionAdd("Apple keyboard", "Apple A1243 aluminium Keyboard");
+
+            // A chip
+            correctionAdd("Apple chip", "Apple M1");
+            correctionAdd("M1 chip", "Apple M1");
+            correctionAdd("M1 Mac", "Apple M1");
+            correctionAdd("M1 MAC", "Apple M1");
+            correctionAdd("M1", "Apple M1");
+            correctionAdd("m1", "Apple M1");
+
+            // A chip
+            correctionAdd("Apple M1 max", "Apple M1 Max");
+
+            // A chip
+            correctionAdd("Apple M3 max", "Apple M3 Max");
+
+            // Note: "Apple silicon" is in an alternative word set
+            // A chip
+            correctionAdd("Apple Silicon M1 Pro", "Apple M1 Pro");
+            correctionAdd("Apple M1 pro", "Apple M1 Pro");
+            correctionAdd("M1 Pro", "Apple M1 Pro");
+            correctionAdd("m1 pro", "Apple M1 Pro");
+
+            // A desktop computer from Apple
+            correctionAdd("apple mini", "Mac Mini");
+            correctionAdd("Apple Mini", "Mac Mini");
+            correctionAdd("Mac mini", "Mac Mini");
+            correctionAdd("mac mini", "Mac Mini");
+            correctionAdd("macmini", "Mac Mini");
+
+            correctionAdd("mac mini M1", "Mac Mini (M1)");
+            correctionAdd("Mac Mini M1", "Mac Mini (M1)");
+            correctionAdd("Mac mini M1", "Mac Mini (M1)");
+            correctionAdd("M1 Macmini", "Mac Mini (M1)");
+            correctionAdd("Macmini", "Mac Mini (M1)");
+
+            correctionAdd("imac", "iMac");
+            correctionAdd("iMAC", "iMac");
+
+            correctionAdd("iMac pro", "iMac Pro");
+            correctionAdd("imac pro", "iMac Pro");
+
+            // A 2022 vintage desktop computer from Apple
+            correctionAdd("mac studio", "Mac Studio");
+
+            correctionAdd("OS-9", "Mac OS 9");
+
+            correctionAdd("Mac Os", "macOS");
+            correctionAdd("Mac-Os", "macOS");
+            correctionAdd("Mac os", "macOS");
+            correctionAdd("Mac OS", "macOS");
+            correctionAdd("MAC os", "macOS");
+            correctionAdd("MAC OS", "macOS");
+            correctionAdd("mac OS", "macOS");
+            correctionAdd("MacOs", "macOS");
+            correctionAdd("Macos", "macOS");
+            correctionAdd("MacOS", "macOS");
+            correctionAdd("macOs", "macOS");
+            correctionAdd("macos", "macOS");
+            correctionAdd("MACOS", "macOS");
+            correctionAdd("MACos", "macOS");
+            correctionAdd("MAcOS", "macOS");
+            correctionAdd("MacOX", "macOS");
+            correctionAdd("Mac&nbsp;OS&nbsp;X", "macOS"); // Cross from the old
+
+            // macOS
+            correctionAdd("kext", "kernel extension");
+
+            // Mac. macOS. Mac OS X. (now by another name)
+            correctionAdd("system preferences", "System Preferences");
+            correctionAdd("System Prefs", "System Preferences");
+            correctionAdd("sys prefs", "System Preferences");
+
+            // A Mac application. File manager
+            correctionAdd("finder", "Finder");
+
+            // Mac. macOS. Mac OS X
+            correctionAdd("liquid glass", "Liquid Glass");
+
+            // An office suite. A set of applications
+            correctionAdd("Appleworks", "AppleWorks");
+
+            // A Mac application. A text editor
+            correctionAdd("Simpletext", "SimpleText");
+
+            // Mac. macOS. Mac OS X.
+            correctionAdd("mission control", "Mission Control");
+            correctionAdd("MISSION CONTROL", "Mission Control");
+
+            // Mac. macOS. Mac OS X. A system monitor
+            correctionAdd("activity monitor", "Activity Monitor");
+            correctionAdd("monitor tool", "Activity Monitor");
+
+            // Not to be confused with "GNU parallel"
+            // Mac. macOS. Mac OS X.
+            correctionAdd("Parallels Desktop", "Parallels Desktop for Mac");
+            correctionAdd("Desktop for Mac", "Parallels Desktop for Mac");
+            correctionAdd("parallels", "Parallels Desktop for Mac");
+            correctionAdd("Parallels", "Parallels Desktop for Mac");
+
+            // Mac
+            correctionAdd("IText", "iText");
+            correctionAdd("Itext", "iText");
+            correctionAdd("itext", "iText");
+
+            // Mac
+            correctionAdd("IPhoto", "iPhoto");
+
+            // Mac
+            correctionAdd("ical", "Calendar"); // iCal is now known as the (unfortunate generic term) "Calendar".
+            correctionAdd("ICal", "Calendar");
+            correctionAdd("Ical", "Calendar");
+            correctionAdd("iCal", "Calendar");
+
+            // Mac
+            correctionAdd("IMessage", "iMessage");
+
+            // Mac
+            correctionAdd("insomniax", "InsomniaX");
+
+            // Mac
+            correctionAdd("power nap", "Power Nap");
+
+            // Mac
+            correctionAdd("screen time", "Screen Time");
+
+            correctionAdd("quicktime", "QuickTime");
+            correctionAdd("Quicktime", "QuickTime");
+
+            // Mac
+            correctionAdd("iTerm 2", "iTerm2");
+            correctionAdd("iTerms2", "iTerm2");
+            correctionAdd("Iterm2", "iTerm2");
+            correctionAdd("iterm2", "iTerm2");
+            correctionAdd("ITerm2", "iTerm2");
+            correctionAdd("iterm", "iTerm2");
+            correctionAdd("iTerm", "iTerm2");
+
+            // macOS
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/MacOS/comments/yytn0e/free_or_native_options_to_the_app_magnet/>
+            //
+            correctionAdd("magnet", "Magnet");
+
+            // macOS software. Instant messaging (IM)
+            correctionAdd("adium", "Adium");
+
+            // macOS software
+            correctionAdd("alfred", "Alfred");
+
+            // macOS software. Related to "Boot Camp"
+            correctionAdd("brigadier", "Brigadier");
+
+            // macOS software. Keyboard-related (like Karabiner Elements?)
+            //
+            // Alternative URLs:
+            //
+            //   <https://kevingessner.com/software/functionflip/>
+            //
+            correctionAdd("Function Flip", "FunctionFlip");
+
+            // macOS. Software. Mouse
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.howtogeek.com/this-free-app-will-turn-you-into-a-mac-keyboard-maestro/>
+            //   <https://shortcat.app/>
+            //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/1f0qmh6/comment/llaz1m6/>
+            //
+            correctionAdd("shortcat", "Shortcat");
+
+            // macOS
+            //
+            // Alternative URLs:
+            //
+            //   <https://rectangleapp.com/>
+            //
+            correctionAdd("rectangle", "Rectangle");
+
+            // macOS software. A package manager
+            correctionAdd("mac ports", "MacPorts");
+            correctionAdd("Mac Ports", "MacPorts");
+            correctionAdd("macports", "MacPorts");
+            correctionAdd("Macports", "MacPorts");
+            correctionAdd("Mac Port", "MacPorts");
+            correctionAdd("MacPort", "MacPorts");
+            correctionAdd("macport", "MacPorts");
+            correctionAdd("Macport", "MacPorts");
+            correctionAdd("ports", "MacPorts");
+
+            // Mac. A package manager
+            correctionAdd("home brew", "Homebrew (executable `brew`)");
+            correctionAdd("home-brew", "Homebrew (executable `brew`)");
+            correctionAdd("homebrew", "Homebrew (executable `brew`)");
+            correctionAdd("HomeBrew", "Homebrew (executable `brew`)");
+            correctionAdd("Homebrew", "Homebrew (executable `brew`)");
+            correctionAdd("brew", "Homebrew (executable `brew`)");
+            correctionAdd("Brew", "Homebrew (executable `brew`)");
+
+            // Mac. Sort of a package manager
+            correctionAdd("cocoa pods", "CocoaPods");
+            correctionAdd("Cocoapods", "CocoaPods");
+            correctionAdd("cocoapods", "CocoaPods");
+            correctionAdd("cocaopods", "CocoaPods");
+            correctionAdd("cocoa pod", "CocoaPods");
+            correctionAdd("cocoapod", "CocoaPods");
+            correctionAdd("CocoaPod", "CocoaPods");
+            correctionAdd("Cocoapod", "CocoaPods");
+            correctionAdd("Pods", "CocoaPods");
+            correctionAdd("Pod", "CocoaPods");
+
+            correctionAdd(".dmg", "Apple Disk Image");
+            correctionAdd("dmg", "Apple Disk Image");
+
+            correctionAdd("Apple developer", "Apple Developer");
+            correctionAdd("apple developer", "Apple Developer");
+
+            // A hardware connector (mostly Apple)
+            correctionAdd("thunderbolt", "Thunderbolt");
+
+            // 2005 vintage. Note: v10.2 (Jaguar) from 2002 is in
+            //                     an alternative word set
+            //
+            correctionAdd("Mac OS X v10.4 (Tiger) (2005 vintage)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)"); // Sort of identity mapping
+            correctionAdd("Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)");
+            correctionAdd("Mac&nbsp;OS&nbsp;X&nbsp;v10.4", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)");
+            correctionAdd("Mac OS X v10.4 (Tiger)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)"); // Sort of identity mapping
+            correctionAdd("Mac OS (10.4)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)");
+            correctionAdd("macOS (10.4)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)");
+            correctionAdd("MacOS 10.4", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)");
+            correctionAdd("macOS 10.4", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)");
+            correctionAdd("Mac 10.4", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)");
+            correctionAdd("Tiger", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)");
+            correctionAdd("10.4", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)");
+
+            // 2007 vintage
+            correctionAdd("Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
+            correctionAdd("Mac OS X v10.5 (Leopard) (2007 vintage)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)"); // Sort of identity mapping
+            correctionAdd("Mac&nbsp;OS&nbsp;X&nbsp;v10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
+            correctionAdd("Mac OS X v10.5 (Leopard)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)"); // Sort of identity mapping
+            correctionAdd("Mac OS X Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
+            correctionAdd("Mac OS X 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("Mac OS X 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
+            correctionAdd("MacOS X 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
+            correctionAdd("OS X 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
+            correctionAdd("OS-X 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
+            correctionAdd("OSX 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
+            correctionAdd("Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
+            correctionAdd("leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
+            correctionAdd("OX 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
+            correctionAdd("10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
+
+            // 2009 vintage
+            correctionAdd("Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("Mac OS X v10.6 (Snow Leopard) (2009 vintage)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)"); // Sort of identity mapping
+            correctionAdd("Mac OS X (10.6 \"Snow Leopard\")", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("Mac OS X v10.6 (Snow Leopard)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)"); // Sort of identity mapping
+            correctionAdd("Mac&nbsp;OS&nbsp;X&nbsp;v10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("Mac OS X (10.6 Snow Leopard)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("Mac&nbsp;OS&nbsp;X 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("Mac OS X Snow Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("OS&nbsp;X&nbsp;v10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("Mac OSX Snow Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("mac osx snow leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("Mac OS Snow Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("MacOS Snow Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("Mac OS&nbsp;X 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("Snow&nbsp;Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("10.6 Snow Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("OSX Snow Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("Mac OS X v10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("Mac OS X 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("Mac OS X 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("snow leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("Snow leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("snow-leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("Snow Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("Mac OSX 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("MacOS X 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("SnowLeopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("Mac OS 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("OS X 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("OSX 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("OSX-10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("OSx 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("v10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("SL", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+
+            // 2012 vintage. Note: 10.7 (Lion) from 2011 is in
+            //                     an alternative word set
+            //
+            correctionAdd("Mac OS X v10.8 (Mountain Lion) (2012 vintage)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)"); // Sort of identity mapping
+            correctionAdd("Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("Mac OS X v10.8 (Mountain Lion)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)"); // Sort of identity mapping
+            correctionAdd("Mac&nbsp;OS&nbsp;X&nbsp;v10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("Mac&nbsp;OS&nbsp;X 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("Mac OS X Mountain Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("Mac OSX Mountain Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("OS&nbsp;X&nbsp;v10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("OSX Mountain Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("OS X version 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("Mac OS X v10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("Mac OS X v10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("Mountinan Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("Mountain Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("mountain lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("Mac OS X 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("Mountain lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("MAC OS X 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("mac os x 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("Mac os x 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("Mac OSX 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("mac osx 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("mac os 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)"); // Missing "X"...
+            correctionAdd("MacOS 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("OS X 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("OSX 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("v10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
+
+            // 2013 vintage
+            //
+            // Note: the identity is not working. Is it because of the
+            // trailing ")"??
+            //
+            // Close in name (Ubuntu): "Ubuntu&nbsp;10.10 (Maverick Meerkat)"
+            //     (2013 vintage)
+            correctionAdd("Mac OS X v10.9 (Mavericks) (2013 vintage)", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)"); // Sort of identity mapping
+            correctionAdd("Mac&nbsp;OS&nbsp;X v10.9 (Mavericks)", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("Mac OS X v10.9 (Mavericks)", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)"); // Sort of identity mapping
+            correctionAdd("Mac&nbsp;OS&nbsp;X 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("mac OS X mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("Mac OS X Mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("Mac OS (Mavericks)", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("macOS (Mavericks)", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("OS&nbsp;X v10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("OS X Mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("Mac OS X v10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("OS&nbsp;X 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("OSX mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("OSX Mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("Mac OS X 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("osx mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("MAC Mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("Mac Mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("mac os x 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("Max OS X 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("MAC Maverick", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("Mac Maverick", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("mac OSx 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("mac osx 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("Max OSX 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("Mac OS 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("mac ox 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("MacOSX 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("OS X v10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("Mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("OS X 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("makericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("OSX 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("maverick", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("Maveriks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("Maverick", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("Mac 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("Maverics", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+
+            // 2015 vintage. Note: 10.10 (Yosemite) from 2014 is in
+            //                     an alternative word set
+            //
+            correctionAdd("Mac OS X v10.11 (El Capitan) (2015 vintage)", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)"); // Sort of identity mapping
+            correctionAdd("Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("Mac OS X v10.11 (El Capitan)", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)"); // Sort of identity mapping
+            correctionAdd("Mac OS X El Capitan 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("10.11 Mac OSX El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("OS&nbsp;X&nbsp;v10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("OS X El Capitan 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("osx 10.11 El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("Mac OS X El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("mac OS X El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("Mac version 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("mac version 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("mac os el capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("mac OS El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("OS&nbsp;X v10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("El Capitan 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("macOS El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("os x el capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("OS&nbsp;X 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("OS X El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("Mac OS X v10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("OS X EL Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("OSX El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("Mac OS X 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("MAC OS X 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("10.11 Mac OS X", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("10.11 Mac OSX", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("OS El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("OS X Captain", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("El Capitain", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("el capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("OS X 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("EI Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("El capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("El Captain", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("EL Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("EL CAPITAN", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("OSX 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("osx 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("Mac 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("Captain", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+
+            // 2016 vintage
+            correctionAdd("macOS v10.12 (Sierra) (2016 vintage)", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)"); // Sort of identity mapping
+            correctionAdd("macOS&nbsp;v10.12 (Sierra)", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("Mac OS X v10.12 (Sierra)", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("Mac&nbsp;OS&nbsp;X 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("macOS v10.12 (Sierra)", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)"); // Sort of identity mapping
+            correctionAdd("Mac OS Sierra 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("macOS Sierra 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("MacOS Sierra 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("Mac OS X Sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("Mac OS X 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("MAC OS X 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("mac os sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("macOS v10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("macOS Sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("MacOS Sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("Mac OS 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("MacOSX 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("macOS sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("Sierra 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("macOS 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("MacOS 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("OS X Sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("Mac Sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("OS X 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("MAC sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("mac sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("Mac sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("OSX Sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("Mac 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("Sierra.6", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("Sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("Seirra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("v10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("Siera", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+
+            // 2017 vintage
+            correctionAdd("macOS v10.13 (High Sierra) (2017 vintage)", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)"); // Sort of identity mapping
+            correctionAdd("macOS&nbsp;v10.13 (High Sierra)", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("macOS v10.13 (High Sierra)", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)"); // Sort of identity mapping
+            correctionAdd("Mac OS X High Sierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("Mac OS High Sierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("macOS High Sierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("MacOS High Sierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("MacOs High Sierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("high sierra 10.13", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("macOS&nbsp;v10.13", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("MacOs HighSierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("macOS HighSierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("Mac High Sierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("Mac OS X 10.13", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("macOS v10.13", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("High Sierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("macos 10.13", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("high sierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("High sierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("macOS 10.13", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("HighSierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("Highsierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("OS X 10.13", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("Mac 10.13", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("10.13", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
+
+            // 2018 vintage
+            correctionAdd("macOS v10.14 (Mojave) (2018 vintage)", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)"); // Sort of identity mapping
+            correctionAdd("macOS&nbsp;v10.14 (Mojave)", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("macOS v10.14 (Mojave)", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)"); // Sort of identity mapping
+            correctionAdd("MacOS Mojave 10.14", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("macOS 10.14 Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("macOS Mojave 10.14", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("OS&nbsp;X Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("Mac OS Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("macOS v10.14", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("macOS Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("macOS v10.14", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("MacOs Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("MacOS Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("Mojave 10.14", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("MacOS 10.14", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("macOS 10.14", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("OS X Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("MacOS10.14", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("OSX Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("mac Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("Osx Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("OS 10.14", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("10.14", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
+
+            // 2019 vintage
+            correctionAdd("macOS v10.15 (Catalina) (2019 vintage)", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)"); // Sort of identity mapping
+            correctionAdd("macOS&nbsp;v10.15 (Catalina)", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("macOS v10.15 (Catalina)", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)"); // Sort of identity mapping
+            correctionAdd("MAC OS 10.15 Catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("macOS 10.15 Catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("MacOS Catalina 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("MacOS catalina 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("macOS Catalina 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("macOS catalina 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("Mac OS Catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("Macos Catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("MacOS Catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("Mac OS X 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("macOS Catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("MacOs Catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("Mac (Catalina)", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("MacOS catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("macOS catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("Mac OSX 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("macOS v10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("MAC Catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("Mac Catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("MAC OS 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("Mac OS 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("macOS 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("MacOS 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("mac 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("Mac 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("Catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("Cataline", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("cataline", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("OS 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("v10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+
+            // 2024 vintage
+            //
+            // Note: These are in an alternative word set:
+            //
+            //            2020: v11 (Big Sur)
+            //
+            //            2021: v12 (Monterey)
+            //
+            //            2022: v13 (Ventura)
+            //
+            //            2023: v14 (Sonoma)
+            //
+            //            2024: v15 (Sequoia)
+            //
+            correctionAdd("macOS v26 (Tahoe) (2026 vintage)", "macOS&nbsp;v26 (Tahoe) (2026 vintage)"); // Sort of identity mapping
+            correctionAdd("MacOS Tahoe 26", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
+            correctionAdd("macos tahoe 26", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
+            correctionAdd("Mac OS Tahoe", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
+            correctionAdd("MacOS Tahoe", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
+            correctionAdd("macos tahoe", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
+            correctionAdd("Mac Tahoe", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
+            correctionAdd("Tahoe 26", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
+            correctionAdd("tahoe 26", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
+            correctionAdd("tahoe", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
+            correctionAdd("Tahoe", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
+
+            // Mac OS X
+            correctionAdd("darwin", "Darwin");
+
+            // Mac OS X
+            correctionAdd("OSX Daily", "OSXDaily");
+
+            // Mac OS X
+            correctionAdd("raycast", "Raycast");
+            correctionAdd("RayCast", "Raycast");
+
+            // An Apple thing
+            correctionAdd("touch ID", "Touch ID");
+
+            correctionAdd("cocoa-touch", "Cocoa Touch");
+            correctionAdd("Cocoa-Touch", "Cocoa Touch");
+            correctionAdd("CocoaTouch", "Cocoa Touch");
+
+            // Mac OS X
+            correctionAdd("PMSET", "pmset");
+
+            // Apple M2 / Mac OS X
+            correctionAdd("System Management Controller", "SMC");
+            correctionAdd("smc", "SMC");
+
+            // Wikipedia can not handle having an entry, instead it is tugged into
+            // the article about LinkedIn!!!
+            //correctionAdd("voldemort", "Voldemort"); // Not actually observed. For the link.
+            //////////////////////////////////////////////////////////////////////////////////
+            correctionAdd("Hbase", "HBase"); // Not actually observed. For the link.
 
             correctionAdd("anyhoo", "anyhow");
             correctionAdd("Anyhoo", "anyhow");
@@ -5402,41 +7349,6 @@ namespace OverflowHelper.core
             correctionAdd("disavantage", "disadvantage");
             correctionAdd("disadvange", "disadvantage");
             correctionAdd("disvantage", "disadvantage");
-
-            correctionAdd("all the times", "all the time");
-
-            correctionAdd("all time", "all-time");
-
-            correctionAdd("Good morning", "good morning");
-            correctionAdd("Good morinig", "good morning");
-            correctionAdd("good morinig", "good morning");
-            correctionAdd("Goodmorning", "good morning");
-
-            correctionAdd("every timme", "every time");
-            correctionAdd("Every-time", "every time");
-            correctionAdd("every-time", "every time");
-            correctionAdd("everythime", "every time");
-            correctionAdd("Every time", "every time");
-            correctionAdd("everytime", "every time");
-            correctionAdd("Everytime", "every time");
-            correctionAdd("eveytime", "every time");
-            correctionAdd("every", "every time"); // What is this????
-
-            correctionAdd("first time", "first-time");
-
-            correctionAdd("full time", "full-time");
-            correctionAdd("fulltime", "full-time");
-
-            correctionAdd("fulliest", "fullest");
-
-            correctionAdd("full on", "full-on");
-
-            correctionAdd("full blown", "full-blown");
-            correctionAdd("fullblown", "full-blown");
-
-            correctionAdd("full fledged", "full-fledged");
-
-            correctionAdd("fullcircle", "full circle");
 
             correctionAdd("virtious", "virtuous");
 
@@ -9502,26 +11414,6 @@ namespace OverflowHelper.core
             correctionAdd("personell", "personnel");
             correctionAdd("personel", "personnel");
 
-            correctionAdd("free-time", "free time");
-            correctionAdd("freetime", "free time");
-
-            correctionAdd("personal time off", "paid time off");
-            correctionAdd("planned time off", "paid time off");
-            correctionAdd("PTO", "paid time off");
-
-            correctionAdd("ay", "pay");
-
-            correctionAdd("payed", "paid");
-            correctionAdd("paied", "paid");
-            correctionAdd("piad", "paid");
-
-            correctionAdd("pay off", "pay-off");
-            correctionAdd("payoff", "pay-off");
-
-            correctionAdd("pay check", "paycheck");
-
-            correctionAdd("pay-scale", "payscale");
-
             correctionAdd("commericial", "commercial");
 
             correctionAdd("commercically", "commercially");
@@ -10236,40 +12128,6 @@ namespace OverflowHelper.core
             correctionAdd("Stopp", "stop");
             correctionAdd("stopp", "stop");
             correctionAdd("sop", "stop");
-
-            // Note: "show" is in an alternative word set
-            //
-            correctionAdd("shoring", "showing");
-            correctionAdd("shwoing", "showing"); // A true typo
-            correctionAdd("showig", "showing");
-
-            correctionAdd("showed", "shown");
-            correctionAdd("hown", "shown");
-
-            correctionAdd("showup", "show up");
-
-            correctionAdd("shoes up", "shows up"); // A true typo
-
-            correctionAdd("show stopper", "showstopper");
-            correctionAdd("show-stopper", "showstopper");
-
-            correctionAdd("show stoppers", "showstoppers");
-
-            correctionAdd("show time", "showtime");
-
-            // The verb
-            correctionAdd("show-case", "showcase");
-
-            correctionAdd("over-time", "over time");
-            correctionAdd("overtime", "over time");
-
-            correctionAdd("one time", "one-time");
-            correctionAdd("1 time", "one-time");
-            correctionAdd("1-time", "one-time");
-
-            correctionAdd("turn around time", "turnaround time");
-
-            correctionAdd("long-run", "long run");
 
             correctionAdd("nurd", "nerd");
 
@@ -11714,6 +13572,10 @@ namespace OverflowHelper.core
             correctionAdd("JamJS", "Jam.js");
             correctionAdd("Jamjs", "Jam.js");
             correctionAdd("Jam", "Jam.js");
+
+            correctionAdd("scann", "scan");
+
+            correctionAdd("scanns", "scans");
 
             correctionAdd("stratosfere", "stratosphere");
 
@@ -18405,6 +20267,9 @@ namespace OverflowHelper.core
             //
             //     REWORK (37signals' podcast): <https://www.rework.fm/>
             //
+            //   <https://www.youtube.com/watch?v=5JPYJfN7HY0>
+            //     Explains the reason for using Quickshell
+            //
             correctionAdd("The vibe coded Arch rice", "Omarchy");
             correctionAdd("Omarchy Quattro", "Omarchy"); // Is not 100% correct (is Omarchy 4)
             correctionAdd("slopmarchy", "Omarchy");
@@ -24106,50 +25971,6 @@ namespace OverflowHelper.core
 
             correctionAdd("re-downloaded", "redownloaded");
 
-            correctionAdd("arround", "around");
-            correctionAdd("aroubf", "around"); // A true typo (double; two slides (but in opposite directions))
-            correctionAdd("aruond", "around");
-            correctionAdd("round", "around");
-            correctionAdd("aroun", "around");
-            correctionAdd("ard", "around");
-
-            correctionAdd("allround", "all-round");
-
-            correctionAdd("all round", "all-around");
-            correctionAdd("al around", "all-around");
-
-            correctionAdd("all arounder", "all-rounder");
-            correctionAdd("all rounder", "all-rounder");
-            correctionAdd("allrounder", "all-rounder");
-
-            correctionAdd("fooled", "fooled around");
-
-            correctionAdd("came round", "came around");
-
-            correctionAdd("came back round", "came back around");
-
-            // The noun
-            correctionAdd("work arround", "workaround");
-            correctionAdd("walk around", "workaround"); // !!!!!
-            correctionAdd("work around", "workaround");
-            correctionAdd("work-around", "workaround");
-            correctionAdd("workauround", "workaround");
-            correctionAdd("Work around", "workaround");
-            correctionAdd("Workarround", "workaround");
-            correctionAdd("workarround", "workaround");
-            correctionAdd("workoaround", "workaround");
-            correctionAdd("Work Around", "workaround");
-            correctionAdd("way around", "workaround");
-            correctionAdd("workagound", "workaround");
-            correctionAdd("workground", "workaround");
-            correctionAdd("workgound", "workaround");
-            correctionAdd("workround", "workaround");
-            correctionAdd("w/a", "workaround");
-
-            correctionAdd("work a rounds", "workarounds");
-            correctionAdd("work arounds", "workarounds");
-            correctionAdd("work-arounds", "workarounds");
-
             // Idiomatic
             correctionAdd("Don't hold your breath", "don't hold your breath");
             correctionAdd("hold your breath", "don't hold your breath");
@@ -24173,6 +25994,8 @@ namespace OverflowHelper.core
 
             correctionAdd("priorty", "priority");
             correctionAdd("prio", "priority");
+
+            correctionAdd("poriorities", "priorities");
 
             correctionAdd("prioritization", "prioritisation");
 
@@ -24346,26 +26169,6 @@ namespace OverflowHelper.core
             correctionAdd("rtc", "real-time clock");
 
             correctionAdd("alarm-clock", "alarm clock");
-
-            correctionAdd("complexicity", "complexity");
-            correctionAdd("complexitiy", "complexity");
-            correctionAdd("complexcity", "complexity");
-            correctionAdd("Complexity", "complexity");
-            correctionAdd("complicity", "complexity");
-            correctionAdd("complixity", "complexity");
-            correctionAdd("complexty", "complexity");
-            correctionAdd("comlexity", "complexity");
-
-            correctionAdd("McCabe complexity test", "cyclomatic complexity");
-            correctionAdd("cyclomatic", "cyclomatic complexity");
-            correctionAdd("McCabe", "cyclomatic complexity");
-
-            correctionAdd("time Complexity", "time complexity");
-            correctionAdd("Time Complexity", "time complexity");
-            correctionAdd("time comlexity", "time complexity");
-
-            correctionAdd("passtime", "pastime");
-            correctionAdd("pasttime", "pastime");
 
             correctionAdd("splitted", "split");
             correctionAdd("splited", "split");
@@ -24975,116 +26778,6 @@ namespace OverflowHelper.core
             correctionAdd("trojan horse", "Trojan horse");
             correctionAdd("Trojan Horse", "Trojan horse");
 
-            correctionAdd("2x", "two times");
-
-            correctionAdd("Some times", "sometimes");
-            correctionAdd("some times", "sometimes");
-            correctionAdd("sometime's", "sometimes");
-            correctionAdd("some-times", "sometimes");
-            correctionAdd("somethimes", "sometimes");
-            correctionAdd("some time", "sometimes");
-            correctionAdd("Sometimes", "sometimes");
-            correctionAdd("Some time", "sometimes");
-            correctionAdd("tometimes", "sometimes");
-            correctionAdd("sowetimes", "sometimes");
-            correctionAdd("somoetime", "sometimes");
-            correctionAdd("sometime", "sometimes");
-            correctionAdd("someties", "sometimes");
-            correctionAdd("Somtimes", "sometimes");
-            correctionAdd("somtimes", "sometimes");
-            correctionAdd("Sometime", "sometimes");
-
-            correctionAdd("often times", "oftentimes");
-            correctionAdd("Often times", "oftentimes");
-            correctionAdd("Often time", "oftentimes");
-            correctionAdd("often time", "oftentimes");
-            correctionAdd("Oftentimes", "oftentimes");
-            correctionAdd("oftentime", "oftentimes");
-
-            correctionAdd("in the old time", "in the old times");
-            correctionAdd("In the old time", "in the old times");
-            correctionAdd("old time", "in the old times");
-
-            correctionAdd("other-times", "other times");
-            correctionAdd("othertimes", "other times");
-
-            correctionAdd("old timer", "oldtimer");
-            correctionAdd("old-timer", "oldtimer");
-
-            correctionAdd("first timer", "first-timer");
-            correctionAdd("firsttimer", "first-timer");
-
-            // Idiomatic
-            correctionAdd("only time will tell", "time will tell");
-            correctionAdd("only time can tell", "time will tell");
-            correctionAdd("only time", "time will tell");
-
-            correctionAdd("timeconsuming", "time-consuming");
-            correctionAdd("time consuming", "time-consuming");
-
-            correctionAdd("timescale", "time scale");
-
-            correctionAdd("time-out", "timeout");
-            correctionAdd("time out", "timeout");
-            correctionAdd("Time Out", "timeout");
-            correctionAdd("Time out", "timeout");
-            correctionAdd("Timeout", "timeout");
-            correctionAdd("TimeOut", "timeout");
-            correctionAdd("timout", "timeout");
-
-            correctionAdd("timeframe", "time frame");
-            correctionAdd("Timeframe", "time frame");
-
-            correctionAdd("time line", "timeline");
-
-            correctionAdd("time-keeping", "timekeeping");
-
-            correctionAdd("time stamp", "timestamp");
-            correctionAdd("time-stamp", "timestamp");
-            correctionAdd("Time stamp", "timestamp");
-            correctionAdd("TimeStamp", "timestamp");
-            correctionAdd("Timestamp", "timestamp");
-            correctionAdd("timstamp", "timestamp");
-
-            correctionAdd("time stamps", "timestamps");
-            correctionAdd("time-stamps", "timestamps");
-            correctionAdd("Time stamps", "timestamps");
-            correctionAdd("Time-stamps", "timestamps");
-            correctionAdd("timestapms", "timestamps"); // A true typo
-
-            correctionAdd("time span", "timespan");
-
-            correctionAdd("Tiimer", "timer");
-            correctionAdd("tiimer", "timer");
-
-            correctionAdd("timerrs", "timers");
-
-            correctionAdd("time-lapse", "timelapse");
-
-            correctionAdd("eleapsed", "elapsed");
-
-            correctionAdd("time-limit", "time limit");
-            correctionAdd("timelimit", "time limit");
-
-            correctionAdd("Time Limit Exceeded", "time limit exceeded");
-            correctionAdd("TLE", "time limit exceeded");
-
-            correctionAdd("from times to times", "from time to time");
-
-            correctionAdd("time-to-time", "time to time");
-
-            correctionAdd("mean time", "meantime");
-            correctionAdd("meantine", "meantime");
-            correctionAdd("meanfile", "meantime");
-            correctionAdd("meanfime", "meantime");
-            correctionAdd("meantile", "meantime");
-
-            correctionAdd("in the mean time", "in the meantime");
-            correctionAdd("at the meantime", "in the meantime");
-            correctionAdd("At the meantime", "in the meantime");
-
-            correctionAdd("beginning of time", "dawn of time");
-
             // Idiomatic
             correctionAdd("The plot thickens", "the plot thickens");
 
@@ -25184,83 +26877,6 @@ namespace OverflowHelper.core
 
             // Internet slang (for the abbr.)
             correctionAdd("AFAICS", "as far as I can see");
-
-            correctionAdd("outher", "other");
-            correctionAdd("outter", "other");
-            correctionAdd("otehr", "other");
-            correctionAdd("ather", "other");
-            correctionAdd("toher", "other"); // A true typo
-            correctionAdd("Other", "other");
-            correctionAdd("oder", "other");
-            correctionAdd("othe", "other");
-
-            correctionAdd("a/o", "and other");
-
-            correctionAdd("Other wise", "otherwise");
-            correctionAdd("other wise", "otherwise");
-            correctionAdd("Otherewise", "otherwise");
-            correctionAdd("otherewise", "otherwise");
-            correctionAdd("ohterwise", "otherwise");
-            correctionAdd("otherwisw", "otherwise"); // A true typo
-            correctionAdd("Elsewise", "otherwise");
-            correctionAdd("elsewise", "otherwise");
-            correctionAdd("Othewise", "otherwise");
-            correctionAdd("othewise", "otherwise");
-            correctionAdd("o/w", "otherwise");
-            correctionAdd("O/W", "otherwise");
-
-            correctionAdd("eachother", "each other");
-            correctionAdd("each-other", "each other");
-
-            correctionAdd("eachothers", "each other's");
-
-            correctionAdd("anyother", "another");
-            correctionAdd("an other", "another");
-            correctionAdd("An other", "another");
-            correctionAdd("anpother", "another");
-            correctionAdd("annother", "another");
-            correctionAdd("enother", "another");
-            correctionAdd("Anotehr", "another");
-            correctionAdd("anotehr", "another");
-            correctionAdd("anthoer", "another");
-            correctionAdd("antoher", "another");
-            correctionAdd("‘nuther", "another");
-            correctionAdd("anather", "another");
-            correctionAdd("Anohter", "another");
-            correctionAdd("anohter", "another");
-            correctionAdd("Another", "another");
-            correctionAdd("anther", "another");
-            correctionAdd("anothe", "another");
-            correctionAdd("anoher", "another");
-            correctionAdd("Anther", "another");
-            correctionAdd("nuther", "another");
-            correctionAdd("anotha", "another");
-
-            // Idiomatic
-            correctionAdd("In the other word", "in other words");
-            correctionAdd("in the other word", "in other words");
-            correctionAdd("With other words", "in other words");
-            correctionAdd("with other words", "in other words");
-            correctionAdd("In others words", "in other words");
-            correctionAdd("in others words", "in other words");
-            correctionAdd("in another word", "in other words");
-            correctionAdd("In another word", "in other words");
-            correctionAdd("In other words", "in other words");
-            correctionAdd("in order words", "in other words");
-            correctionAdd("in other terms", "in other words");
-            correctionAdd("In other terms", "in other words");
-            correctionAdd("another words", "in other words");
-            correctionAdd("In other word", "in other words");
-            correctionAdd("in other word", "in other words");
-            correctionAdd("IOW", "in other words");
-
-            correctionAdd("the other way round", "the other way around");
-
-            // Note: "world" is in an alternative word set
-            //
-            correctionAdd("other-worldly", "otherworldly");
-            correctionAdd("other-wordly", "otherworldly");
-            correctionAdd("otherwordly", "otherworldly");
 
             correctionAdd("On my side", "on my side");
             correctionAdd("At my side", "on my side");
@@ -28761,6 +30377,7 @@ namespace OverflowHelper.core
             correctionAdd("usuallally", "usually");
             correctionAdd("usuallly", "usually");
             correctionAdd("usuially", "usually");
+            correctionAdd("ussually", "usually");
             correctionAdd("Usaully", "usually");
             correctionAdd("Usually", "usually");
             correctionAdd("usaully", "usually");
@@ -30577,62 +32194,6 @@ namespace OverflowHelper.core
             correctionAdd("abt", "about");
             correctionAdd("bot", "about");
             correctionAdd("ab", "about");
-
-            // The verb
-            correctionAdd("shoot down", "shut down"); // !!!!!
-            correctionAdd("shut-down", "shut down");
-            correctionAdd("Shut down", "shut down");
-            correctionAdd("shootdown", "shut down"); // !!!!!
-            correctionAdd("shot down", "shut down"); // !!!!!
-            correctionAdd("shutdown", "shut down");
-            correctionAdd("Shutdown", "shut down");
-            correctionAdd("shotdown", "shut down"); // !!!!!
-
-            correctionAdd("shutsdown", "shuts down");
-
-            correctionAdd("shutting-down", "shutting down");
-
-            correctionAdd("tair", "tear");
-
-            // The noun
-            correctionAdd("tear-down", "teardown");
-            correctionAdd("tear down", "teardown");
-
-            correctionAdd("downto", "down to");
-
-            correctionAdd("down time", "downtime");
-
-            correctionAdd("parried", "paired");
-            correctionAdd("paird", "paired");
-
-            correctionAdd("paired down", "pared down");
-
-            // Idiomatic
-            correctionAdd("knuckle-down", "knuckle down");
-
-            correctionAdd("stripped down", "stripped-down");
-            correctionAdd("Stripped down", "stripped-down");
-
-            correctionAdd("stripe", "Stripe");
-            correctionAdd("sripe", "Stripe");
-
-            correctionAdd("lock down", "lockdown");
-            correctionAdd("lock-down", "lockdown");
-            correctionAdd("li keown", "lockdown");
-            correctionAdd("lo keown", "lockdown");
-            correctionAdd("lo kdown", "lockdown");
-            correctionAdd("lokdown", "lockdown");
-
-            correctionAdd("down-side", "downside");
-            correctionAdd("down side", "downside");
-            correctionAdd("downsite", "downside");
-
-            correctionAdd("down sample", "downsample");
-
-            correctionAdd("Downgraded", "downgraded");
-            correctionAdd("Dowgraded", "downgraded");
-
-            correctionAdd("debbie downer", "Debbie Downer");
 
             // This is really a different word, but it is
             // a (wrong) association.
@@ -33613,52 +35174,6 @@ namespace OverflowHelper.core
 
             correctionAdd("CheckStyle", "Checkstyle");
 
-            correctionAdd("Life", "life");
-            correctionAdd("LYFE", "life");
-            correctionAdd("lyfe", "life");
-            correctionAdd("live", "life");
-            correctionAdd("LIfe", "life");
-
-            correctionAdd("life style", "lifestyle");
-            correctionAdd("life-style", "lifestyle");
-
-            correctionAdd("life-long", "lifelong");
-            correctionAdd("life long", "lifelong");
-
-            correctionAdd("life span", "lifespan");
-
-            correctionAdd("life-time", "lifetime");
-            correctionAdd("life time", "lifetime");
-
-            correctionAdd("once in a lifetime", "once-in-a-lifetime");
-
-            correctionAdd("shelf-life", "shelf life");
-
-            correctionAdd("liferaft", "life raft");
-
-            correctionAdd("life hack", "lifehack");
-
-            correctionAdd("life-cycle", "life cycle");
-            correctionAdd("lifecycle", "life cycle");
-
-            correctionAdd("4 lyfe", "for life");
-
-            correctionAdd("QoL", "quality of life");
-
-            correctionAdd("Life Pro Tip", "life pro tip");
-            correctionAdd("lpt", "life pro tip");
-            correctionAdd("LPT", "life pro tip");
-
-            correctionAdd("life of me", "for the life of me");
-
-            correctionAdd("life saver", "lifesaver");
-            correctionAdd("life Saver", "lifesaver");
-
-            correctionAdd("lifesaving", "life-saving");
-
-            correctionAdd("life threatening", "life-threatening");
-            correctionAdd("Life threatening", "life-threatening");
-
             correctionAdd("ignrore", "ignore");
             correctionAdd("ingore", "ignore");
 
@@ -35744,81 +37259,6 @@ namespace OverflowHelper.core
 
             correctionAdd("get use to", "get used to");
 
-            correctionAdd("N O I C E", "nice");
-            correctionAdd("Noicce", "nice");
-            correctionAdd("noicce", "nice");
-            correctionAdd("Noyce", "nice");
-            correctionAdd("noyce", "nice");
-            correctionAdd("naise", "nice");
-            correctionAdd("NOICE", "nice");
-            correctionAdd("Noice", "nice");
-            correctionAdd("noice", "nice");
-
-            correctionAdd("nicier", "nicer");
-
-            correctionAdd("nice looking", "nice-looking");
-
-            // A noun
-            correctionAdd("nice to haves", "nice-to-haves");
-
-            correctionAdd("LGTM", "looks good to me");
-
-            correctionAdd("LBYL", "look before you leap");
-
-            // The verb
-            correctionAdd("loot", "look");
-            correctionAdd("Loot", "look");
-            correctionAdd("lokk", "look");
-            correctionAdd("Lok", "look");
-            correctionAdd("lok", "look");
-
-            // The verb
-            correctionAdd("look's", "looks");
-            correctionAdd("loks", "looks");
-            correctionAdd("loos", "looks");
-            correctionAdd("Lols", "looks");
-            correctionAdd("lols", "looks");
-
-            correctionAdd("loocking", "looking");
-            correctionAdd("locking", "looking");
-            correctionAdd("lookimg", "looking");
-            correctionAdd("loking", "looking");
-            correctionAdd("Lookg", "looking");
-            correctionAdd("lookg", "looking");
-
-            correctionAdd("loked", "looked");
-            correctionAdd("looke", "looked");
-
-            correctionAdd("over look", "overlook");
-
-            correctionAdd("over-looking", "overlooking");
-
-            correctionAdd("over looked", "overlooked");
-
-            correctionAdd("re-look", "relook");
-
-            correctionAdd("look to", "look at");
-
-            correctionAdd("look-ups", "lookups");
-
-            correctionAdd("lookup", "look up");
-            correctionAdd("Lookup", "look up");
-
-            // The verb
-            correctionAdd("lookuout", "look out");
-            correctionAdd("lookout", "look out");
-
-            correctionAdd("being on the look out", "being on the lookout");
-
-            correctionAdd("look around", "lookaround");
-
-            correctionAdd("looking in to", "looking into");
-
-            correctionAdd("look-a-like", "lookalike");
-            correctionAdd("look a like", "lookalike");
-
-            correctionAdd("on-looker", "onlooker");
-
             correctionAdd("sttring", "string");
             correctionAdd("String", "string");
             correctionAdd("Srting", "string");
@@ -36491,61 +37931,6 @@ namespace OverflowHelper.core
             correctionAdd("necassitating", "necessitating");
 
             correctionAdd("necssity", "necessity");
-
-            correctionAdd("lengeht", "length");
-            correctionAdd("lenght", "length");
-            correctionAdd("Lenght", "length");
-            correctionAdd("lenthg", "length");
-            correctionAdd("lengh", "length");
-            correctionAdd("lenth", "length");
-            correctionAdd("lengt", "length");
-            correctionAdd("lng", "length");
-
-            correctionAdd("lenghten", "lengthen");
-
-            correctionAdd("lengthly", "lengthy");
-            correctionAdd("Lenghty", "lengthy");
-            correctionAdd("lenghty", "lengthy");
-
-            correctionAdd("fixed length", "fixed-length");
-
-            correctionAdd("Focal Length", "focal length");
-
-            correctionAdd("in great length", "at great length");
-
-            // Slang
-            correctionAdd("wood nibbler", "greatest of all time");
-            correctionAdd("goat", "greatest of all time");
-            correctionAdd("GOAT", "greatest of all time");
-            correctionAdd("Goat", "greatest of all time");
-
-            correctionAdd("Greate", "great");
-            correctionAdd("greate", "great");
-            correctionAdd("grate", "great");
-            correctionAdd("Great", "great");
-            correctionAdd("gread", "great");
-            correctionAdd("Gret", "great");
-            correctionAdd("grt", "great");
-            correctionAdd("gr8", "great");
-            correctionAdd("Gr8", "great");
-
-            correctionAdd("greather", "greater");
-            correctionAdd("greeter", "greater");
-
-            correctionAdd("gratefull", "grateful");
-            correctionAdd("Great ful", "grateful");
-            correctionAdd("great ful", "grateful");
-            correctionAdd("greatful", "grateful");
-
-            correctionAdd("greately", "greatly");
-            correctionAdd("gretaly", "greatly");
-            correctionAdd("grealy", "greatly");
-            correctionAdd("greaty", "greatly");
-
-            // Idiomatic
-            correctionAdd("went to great length", "went to great lengths");
-            correctionAdd("great lengths", "went to great lengths");
-            correctionAdd("great length", "went to great lengths");
 
             // First misspelling observed in the wild 2026-02!
             correctionAdd("modell", "model");
@@ -48454,8 +49839,6 @@ namespace OverflowHelper.core
 
             correctionAdd("--Wno-unused-value", "-Wno-unused-value"); // For GCC
 
-            correctionAdd("--funit-at-a-time", "-funit-at-a-time"); // For GCC
-
             correctionAdd("--Wdisabled-optimization", "-Wdisabled-optimization"); // For GCC
 
             correctionAdd("--Wmissing-declarations", "-Wmissing-declarations"); // For GCC
@@ -48844,6 +50227,8 @@ namespace OverflowHelper.core
             correctionAdd("--fno-unroll-loops", "-fno-unroll-loops");
 
             correctionAdd("--Waggregate-return", "-Waggregate-return"); // For GCC
+
+            correctionAdd("--funit-at-a-time", "-funit-at-a-time"); // For GCC
 
             // C++
             correctionAdd("cpp reference", "cppreference.com");
@@ -51398,12 +52783,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ob_clean", "ob_clean()"); // A PHP function
 
-            correctionAdd("getdate", "getdate()"); // A PHP function
-
-            correctionAdd("datetime", "DateTime"); // A PHP class
-
-            correctionAdd("dateinterval", "DateInterval"); // A PHP class
-
             correctionAdd("mknod", "mknod()"); // A PHP function(?)
 
             correctionAdd("stripslashes", "stripslashes()"); // A PHP function
@@ -51419,6 +52798,12 @@ namespace OverflowHelper.core
             correctionAdd("array_chunk", "array_chunk()"); // A PHP function
 
             correctionAdd("mb_encode_mimeheader", "mb_encode_mimeheader()"); // A PHP function
+
+            correctionAdd("getdate", "getdate()"); // A PHP function
+
+            correctionAdd("dateinterval", "DateInterval"); // A PHP class
+
+            correctionAdd("datetime", "DateTime"); // A PHP class
 
             correctionAdd("ghosttown", "ghost town");
 
@@ -53714,120 +55099,6 @@ namespace OverflowHelper.core
             correctionAdd("mumbo-jumpo", "mumbo jumbo");
             correctionAdd("mumbojumbo", "mumbo jumbo");
 
-            correctionAdd("crosss", "cross");
-
-            correctionAdd("krossed", "crossed");
-
-            correctionAdd("complilate", "compile");
-            correctionAdd("complicate", "compile"); // An autocorrect "masterpiece"?
-            correctionAdd("compilate", "compile");
-            correctionAdd("complile", "compile");
-            correctionAdd("coompile", "compile");
-            correctionAdd("complie", "compile");
-            correctionAdd("Complie", "compile");
-            correctionAdd("Compile", "compile");
-            correctionAdd("comiple", "compile");
-            correctionAdd("comlipe", "compile");
-            correctionAdd("comple", "compile");
-            correctionAdd("comile", "compile");
-
-            correctionAdd("complies", "compiles");
-            correctionAdd("comiles", "compiles");
-            correctionAdd("copiles", "compiles");
-
-            correctionAdd("compilating", "compiling");
-            correctionAdd("compileing", "compiling");
-            correctionAdd("compilingh", "compiling");
-            correctionAdd("compling", "compiling");
-            correctionAdd("comiling", "compiling");
-
-            correctionAdd("complited", "compiled");
-            correctionAdd("compilled", "compiled");
-            correctionAdd("complied", "compiled");
-            correctionAdd("compled", "compiled");
-            correctionAdd("copiled", "compiled");
-
-            correctionAdd("cross compile", "cross-compile");
-
-            correctionAdd("cross compiles", "cross-compiles");
-
-            correctionAdd("cross compiling", "cross-compiling");
-            correctionAdd("x-compiling", "cross-compiling");
-
-            correctionAdd("cross compiled", "cross-compiled");
-
-            correctionAdd("cross-compilation", "cross compilation");
-
-            correctionAdd("Cross Compiler", "cross compiler");
-            correctionAdd("Cross-Compiler", "cross compiler");
-
-            // Eclipse based-IDE for cross-compiling
-            // to ARM, etc., based on GCC
-            //
-            // Note: The company was "CodeSourcery" (now Mentor Graphics)
-            //
-            // Alternative URLs:
-            //
-            //   <https://kb.segger.com/Mentor_Sourcery_CodeBench>
-            //   <https://resources.sw.siemens.com/en-US/fact-sheet-sourcery-codebench-datasheet/>
-            //
-            correctionAdd("Sourcery codebench", "Sourcery CodeBench");
-            correctionAdd("Sourcery Codebench", "Sourcery CodeBench");
-            correctionAdd("codebench", "Sourcery CodeBench");
-            correctionAdd("CodeBench", "Sourcery CodeBench");
-            correctionAdd("Codebench", "Sourcery CodeBench");
-            correctionAdd("Sourcery", "Sourcery CodeBench");
-            correctionAdd("sourcery", "Sourcery CodeBench");
-            correctionAdd("sorcery", "Sourcery CodeBench");
-
-            correctionAdd("compilator", "compiler");
-            correctionAdd("compliler", "compiler");
-            correctionAdd("compoiler", "compiler");
-            correctionAdd("compilier", "compiler");
-            correctionAdd("complier", "compiler");
-            correctionAdd("Compiler", "compiler");
-            correctionAdd("compier", "compiler");
-            correctionAdd("comiler", "compiler");
-
-            correctionAdd("compliers", "compilers");
-            correctionAdd("complers", "compilers");
-
-            correctionAdd("compile-able", "compilable");
-            correctionAdd("compileable", "compilable");
-
-            correctionAdd("non-compilable", "noncompilable");
-
-            correctionAdd("Compiler-Explorer", "Compiler Explorer");
-            correctionAdd("compiler explorer", "Compiler Explorer");
-            correctionAdd("godbolt.org", "Compiler Explorer");
-            correctionAdd("GobBolt", "Compiler Explorer");
-            correctionAdd("godbolt", "Compiler Explorer");
-            correctionAdd("Godbolt", "Compiler Explorer");
-            correctionAdd("GodBolt", "Compiler Explorer");
-
-            correctionAdd("re-compile", "recompile");
-            correctionAdd("re compile", "recompile");
-
-            correctionAdd("re-compiling", "recompiling");
-            correctionAdd("recompiliing", "recompiling");
-
-            correctionAdd("re-compiled", "recompiled");
-
-            correctionAdd("re-compilation", "recompilation");
-
-            correctionAdd("non-compiling", "noncompiling");
-
-            // The noun
-            correctionAdd("compile-time", "compile time");
-            correctionAdd("compiletime", "compile time");
-
-            correctionAdd("pre-compiles", "precompiles");
-
-            correctionAdd("pre-compilled", "precompiled");
-            correctionAdd("pre-compiled", "precompiled");
-
-            correctionAdd("pre-compile", "precompile");
-
             correctionAdd("greater than", "plus");
             correctionAdd("larger than", "plus");
             correctionAdd("more than", "plus");
@@ -54674,237 +55945,6 @@ namespace OverflowHelper.core
             //
             // In the family 'termio', 'termcap', 'terminfo', and 'ncurses'.
             correctionAdd("TERMINFO", "terminfo");
-
-            correctionAdd("perifery", "periphery");
-
-            correctionAdd("Peripherial", "peripheral");
-            correctionAdd("periopheral", "peripheral");
-            correctionAdd("peripherial", "peripheral");
-            correctionAdd("Peripheral", "peripheral");
-            correctionAdd("pheripheal", "peripheral");
-            correctionAdd("pheriphral", "peripheral");
-            correctionAdd("Perpherial", "peripheral");
-            correctionAdd("perpherial", "peripheral");
-            correctionAdd("peripheal", "peripheral");
-            correctionAdd("periphral", "peripheral");
-            correctionAdd("pheriphal", "peripheral");
-            correctionAdd("periperal", "peripheral");
-            correctionAdd("periphal", "peripheral");
-            correctionAdd("periph", "peripheral");
-            correctionAdd("Periph", "peripheral");
-
-            correctionAdd("periopherals", "peripherals");
-            correctionAdd("preripherals", "peripherals");
-            correctionAdd("peripherlas", "peripherals");
-            correctionAdd("periphs", "peripherals");
-
-            correctionAdd("Periodicity", "periodicity");
-
-            correctionAdd("peridically", "periodically");
-            correctionAdd("periodicly", "periodically");
-
-            correctionAdd("non-periodic", "nonperiodic");
-
-            correctionAdd("time perioud", "time period");
-            correctionAdd("timeperiod", "time period");
-
-            // The verb
-            correctionAdd("warrent", "warrant");
-
-            correctionAdd("time-zone", "time zone");
-            correctionAdd("Time zone", "time zone");
-            correctionAdd("Time Zone", "time zone");
-            correctionAdd("timezone", "time zone");
-            correctionAdd("timzeone", "time zone");
-            correctionAdd("TimeZone", "time zone");
-            correctionAdd("Timezone", "time zone");
-
-            correctionAdd("timezones", "time zones");
-
-            correctionAdd("utc", "UTC");
-
-            correctionAdd("gmt", "GMT");
-
-            correctionAdd("prtime", "PRTime");
-
-            correctionAdd("zoneddatetime", "ZonedDateTime");
-
-            correctionAdd("Daylight Savings Time", "daylight saving time");
-            correctionAdd("daylight savings time", "daylight saving time");
-            correctionAdd("Daylight savings time", "daylight saving time");
-            correctionAdd("daylight saving", "daylight saving time");
-            correctionAdd("DST", "daylight saving time");
-
-            correctionAdd("CEST", "Central European Summer Time");
-            correctionAdd("cest", "Central European Summer Time");
-
-            // A United States time zone
-            correctionAdd("Eastern Daylight Time", "EDT");
-            correctionAdd("US Eastern DST", "EDT");
-            correctionAdd("Eastern DST", "EDT");
-            correctionAdd("edt", "EDT");
-
-            // A United States time zone
-            correctionAdd("Eastern Time Zone", "EST");
-            correctionAdd("est", "EST");
-
-            // A United States time zone
-            correctionAdd("CST", "Central Standard Time");
-
-            // A United States time zone
-            correctionAdd("Pacific Time Zone", "Pacific Standard Time");
-            correctionAdd("PST", "Pacific Standard Time");
-            correctionAdd("PT", "Pacific Standard Time");
-
-            // An Indian time zone
-            correctionAdd("IST", "Indian Standard Time");
-
-            correctionAdd("CET", "Central European Time");
-            correctionAdd("cet", "Central European Time");
-
-            // The noun
-            correctionAdd("prime-time", "prime time");
-            correctionAdd("primetime", "prime time");
-
-            correctionAdd("real time", "real-time");
-            correctionAdd("reel time", "real-time");
-            correctionAdd("realtime", "real-time");
-            correctionAdd("Realtime", "real-time");
-            correctionAdd("RT", "real-time");
-
-            correctionAdd("long-time", "longtime");
-            correctionAdd("long time", "longtime");
-
-            correctionAdd("in the same time", "at the same time");
-            correctionAdd("In the same time", "at the same time");
-
-            correctionAdd("spear time", "spare time");
-            correctionAdd("sparetime", "spare time");
-
-            correctionAdd("spair", "spare");
-
-            correctionAdd("timelock", "time lock");
-
-            correctionAdd("running time", "run time");
-            correctionAdd("run-time", "run time");
-            correctionAdd("Run time", "run time");
-            correctionAdd("RUn TIme", "run time");
-            correctionAdd("runtime", "run time");
-            correctionAdd("rutime", "run time");
-
-            correctionAdd("runtimes", "run times");
-
-            // Alternative URLs:
-            //
-            //   <https://stackoverflow.com/questions/72982976/what-does-the-phrase-created-at-runtime-mean>
-            //
-            correctionAdd("in the runtime", "at runtime");
-            correctionAdd("at run time", "at runtime");
-            correctionAdd("on run time", "at runtime");
-            correctionAdd("in runtime", "at runtime");
-            correctionAdd("on runtime", "at runtime");
-
-            correctionAdd("runnning", "running");
-            correctionAdd("runninig", "running");
-            correctionAdd("Running", "running");
-            correctionAdd("runnign", "running");
-            correctionAdd("runnnig", "running");
-            correctionAdd("ruining", "running"); // Likely an autocorrect "masterpiece", caused by a typo, "i" after "u"
-            correctionAdd("runnig", "running");
-            correctionAdd("Runnin", "running");
-            correctionAdd("runing", "running");
-            correctionAdd("Runing", "running");
-            correctionAdd("runnin", "running");
-
-            correctionAdd("long running", "long-running");
-            correctionAdd("Long running", "long-running");
-            correctionAdd("longrunning", "long-running");
-
-            correctionAdd("free running", "free-running");
-
-            correctionAdd("re-reun", "rerun"); // Partly a true typo and a partly a misspelling
-            correctionAdd("re-run", "rerun");
-            correctionAdd("re run", "rerun");
-            correctionAdd("Re-run", "rerun");
-
-            // The noun
-            correctionAdd("re-runs", "reruns");
-
-            correctionAdd("re-runnning", "rerunning");
-            correctionAdd("re-running", "rerunning");
-            correctionAdd("Re-running", "rerunning");
-
-            correctionAdd("re-ran", "reran");
-
-            correctionAdd("rund", "run");
-            correctionAdd("tun", "run"); // A true typo
-            correctionAdd("rum", "run");
-            correctionAdd("Run", "run");
-            correctionAdd("rin", "run");
-            correctionAdd("rub", "run");
-
-            // The verb
-            correctionAdd("run's", "runs");
-
-            correctionAdd("runned", "ran");
-            correctionAdd("rang", "ran");
-
-            correctionAdd("ruuner", "runner");
-            correctionAdd("runer", "runner");
-
-            correctionAdd("runneable", "runnable");
-            correctionAdd("Runnable", "runnable");
-            correctionAdd("runable", "runnable");
-
-            correctionAdd("Now-a- days", "nowadays");
-            correctionAdd("now-a-days", "nowadays");
-            correctionAdd("now a days", "nowadays");
-            correctionAdd("Now a days", "nowadays");
-            correctionAdd("Now-a-days", "nowadays");
-            correctionAdd("Now a day", "nowadays"); // Not 100% correct - case.
-            correctionAdd("now a day", "nowadays");
-            correctionAdd("now-a-day", "nowadays");
-            correctionAdd("nowerdays", "nowadays");
-            correctionAdd("knowadays", "nowadays");
-            correctionAdd("now days", "nowadays");
-            correctionAdd("Now days", "nowadays");
-            correctionAdd("now-days", "nowadays");
-            correctionAdd("Nowadays", "nowadays");
-            correctionAdd("Nowdays", "nowadays"); // Not 100% correct - case.
-            correctionAdd("nowdays", "nowadays");
-            correctionAdd("Nowadys", "nowadays"); // Not 100% correct - case.
-            correctionAdd("nowadys", "nowadays");
-            correctionAdd("nowaday", "nowadays");
-            correctionAdd("now day", "nowadays");
-
-            correctionAdd("borthday", "birthday");
-            correctionAdd("bday", "birthday");
-            correctionAdd("Bday", "birthday");
-
-            correctionAdd("Date of Birth", "date of birth");
-            correctionAdd("dob", "date of birth");
-            correctionAdd("DOB", "date of birth");
-
-            correctionAdd("date stamp", "datestamp");
-            correctionAdd("Date stamp", "datestamp");
-
-            correctionAdd("dateformat", "date format");
-
-            correctionAdd("out-dated", "outdated");
-            correctionAdd("Out dated", "outdated");
-            correctionAdd("out dated", "outdated");
-            correctionAdd("Outdated", "outdated");
-            correctionAdd("outdata", "outdated");
-
-            correctionAdd("Once upon a time", "once upon a time");
-            correctionAdd("One upon a time", "once upon a time"); // Probably a true typo (missing input)
-            correctionAdd("one upon a time", "once upon a time");
-
-            correctionAdd("apon", "upon");
-
-            correctionAdd("fronwed upon", "frowned upon");
-
-            correctionAdd("call-upon", "call upon");
 
             correctionAdd("elegent", "elegant");
             correctionAdd("elgent", "elegant");
@@ -56219,38 +57259,6 @@ namespace OverflowHelper.core
             correctionAdd("short-cuts", "shortcuts");
             correctionAdd("shourtcuts", "shortcuts");
             correctionAdd("shorcuts", "shortcuts");
-
-            correctionAdd("vest", "vast");
-            correctionAdd("wast", "vast");
-
-            correctionAdd("wastly", "vastly");
-
-            correctionAdd("waiste", "waste");
-            correctionAdd("waist", "waste");
-
-            correctionAdd("waisting", "wasting");
-            correctionAdd("waising", "wasting");
-
-            correctionAdd("e-waste", "electronic waste");
-
-            correctionAdd("time waster", "time-waster");
-            correctionAdd("timewaster", "time-waster");
-
-            correctionAdd("timre", "time");
-            correctionAdd("thime", "time");
-            correctionAdd("tike", "time");
-            correctionAdd("Time", "time");
-
-            correctionAdd("time-wise", "timewise");
-
-            correctionAdd("time-window", "time window");
-
-            correctionAdd("timibg", "timing");
-
-            correctionAdd("tea-time", "teatime");
-            correctionAdd("tee-time", "teatime");
-
-            correctionAdd("cup-of-tea", "cup of tea");
 
             correctionAdd("univeral", "universal");
 
@@ -58215,70 +59223,6 @@ namespace OverflowHelper.core
             correctionAdd("As at", "as of");
             correctionAdd("as at", "as of");
 
-            correctionAdd("tunning", "tuning");
-            correctionAdd("Tunning", "tuning");
-
-            correctionAdd("fine tune", "fine-tune");
-            correctionAdd("fine-tine", "fine-tune");
-            correctionAdd("finetune", "fine-tune");
-
-            correctionAdd("fine tuned", "fine-tuned");
-
-            correctionAdd("fine tuning", "fine-tuning");
-            correctionAdd("Fine Tuning", "fine-tuning");
-            correctionAdd("Fine-tuning", "fine-tuning");
-            correctionAdd("finetuning", "fine-tuning");
-
-            correctionAdd("fortune 500", "Fortune 500");
-            correctionAdd("Fortune 50", "Fortune 500");
-
-            correctionAdd("Riva Tuner", "RivaTuner");
-
-            // The verb
-            //
-            // Note: "turn" is in an alternative word set
-            //
-            correctionAdd("turnes", "turns");
-            correctionAdd("tuns", "turns");
-
-            correctionAdd("turníng", "turning");
-            correctionAdd("Turning", "turning");
-
-            correctionAdd("Turend", "turned");
-            correctionAdd("Turned", "turned");
-            correctionAdd("turend", "turned");
-            correctionAdd("thrned", "turned");
-            correctionAdd("truned", "turned");
-            correctionAdd("tuned", "turned");
-
-            // Idiomatic
-            correctionAdd("Points out", "turns out");
-            correctionAdd("points out", "turns out");
-
-            correctionAdd("truned out", "turned out");
-            correctionAdd("turned ot", "turned out");
-
-            correctionAdd("turnoff", "turn off");
-            correctionAdd("turn of", "turn off");
-
-            correctionAdd("turns-off", "turns off");
-
-            correctionAdd("turned of", "turned off");
-
-            correctionAdd("turn over", "turnover");
-
-            correctionAdd("in turns", "in turn");
-            correctionAdd("in-turn", "in turn");
-            correctionAdd("in term", "in turn");
-            correctionAdd("inturn", "in turn");
-
-            correctionAdd("turn-key", "turnkey");
-
-            correctionAdd("turn-around", "turnaround");
-
-            correctionAdd("u turn", "U-turn");
-            correctionAdd("u-turn", "U-turn");
-
             // The common noun (not the HTML tag)
             correctionAdd("tabel", "table");
             correctionAdd("tbl", "table");
@@ -59082,43 +60026,6 @@ namespace OverflowHelper.core
 
             correctionAdd("abbreviatons", "abbreviations");
             correctionAdd("abbrs", "abbreviations");
-
-            correctionAdd("part time", "part-time");
-            correctionAdd("parttime", "part-time");
-
-            correctionAdd("particuliar", "particular");
-            correctionAdd("partiqulaer", "particular");
-            correctionAdd("pertiqulaer", "particular");
-            correctionAdd("perticular", "particular");
-            correctionAdd("particuler", "particular");
-            correctionAdd("partiqular", "particular");
-            correctionAdd("particual", "particular");
-            correctionAdd("particula", "particular");
-            correctionAdd("partic", "particular");
-
-            correctionAdd("particularily", "particularly");
-            correctionAdd("particuclarly", "particularly");
-            correctionAdd("particuarly", "particularly");
-            correctionAdd("particulary", "particularly");
-            correctionAdd("Particulary", "particularly");
-            correctionAdd("particlarly", "particularly");
-            correctionAdd("particulaly", "particularly");
-            correctionAdd("particulry", "particularly");
-            correctionAdd("particurly", "particularly");
-            correctionAdd("Particurly", "particularly");
-
-            correctionAdd("partecipate", "participate");
-            correctionAdd("partipate", "participate");
-
-            correctionAdd("partecipated", "participated");
-
-            correctionAdd("particopation", "participation");
-            correctionAdd("particpation", "participation");
-
-            // We need a better reference...
-            correctionAdd("participate to", "participate in");
-
-            correctionAdd("parcially", "partially");
 
             correctionAdd("demanstrate", "demonstrate");
             correctionAdd("demostrate", "demonstrate");
@@ -63883,6 +64790,10 @@ namespace OverflowHelper.core
             correctionAdd("Swapple", "hot-swappable");
             correctionAdd("HS", "hot-swappable");
 
+            // The verb
+            correctionAdd("hot swapped", "hot-swapped");
+            correctionAdd("hot swopped", "hot-swapped");
+
             // Alternative URLs:
             //
             //   <https://docs.google.com/spreadsheets/d/1ylYmEZ1jNiPuHWl6rjiI3xzooOwUTS33BZfYSW-n7Ok/htmlview>
@@ -66845,45 +67756,6 @@ namespace OverflowHelper.core
             // Is based on a single useless meme.
             //
             correctionAdd("glarses", "Glarses");
-
-            // A YouTube channel/YouTube. Primarily reaction videos
-            // for tech stuff, mostly software development.
-            //
-            // Has admitted to trolling on Stack Overflow (it is
-            // ***very*** disappointing that he was so immature
-            // in his early 20s):
-            //
-            //   <https://www.youtube.com/watch?v=Gy0fp4Pab0g&t=3m6s>
-            //     At 03 min 06 secs
-            //
-            //     <https://stackoverflow.com/questions/17659303/>
-            //       What is more Pythonic for 'not'?
-            //
-            //       <https://stackoverflow.com/users/499419/theprimeagen>
-            //       <twitch.tv/theprimeagen>
-            //
-            //     2026-01-09.
-            //
-            // AKA ThePrimeagen (from the URL)
-            //
-            // Alternative URLs:
-            //
-            //   <https://youtube.fandom.com/wiki/ThePrimeagen>
-            //
-            //   <https://www.youtube.com/@ThePrimeagen/videos>
-            //     The other channel (without "Time",
-            //     instead of "ThePrimeTimeagen"). For stream snippets?
-            //
-            correctionAdd("Michael B. Paulson", "ThePrimeTime");
-            correctionAdd("The Prime Time", "ThePrimeTime");
-            correctionAdd("theprimeagen", "ThePrimeTime");
-            correctionAdd("ThePrimeagen", "ThePrimeTime");
-            correctionAdd("Prime Time", "ThePrimeTime");
-            correctionAdd("primeagen", "ThePrimeTime");
-            correctionAdd("Primeagen", "ThePrimeTime");
-            correctionAdd("primagen", "ThePrimeTime");
-            correctionAdd("Primagen", "ThePrimeTime");
-            correctionAdd("Prime", "ThePrimeTime");
 
             // A YouTube channel with PC hardware reviews, with,
             // presumably an emphasis on hardware for gaming
@@ -93328,6 +94200,7 @@ namespace OverflowHelper.core
             correctionAdd("K5 max", "Keychron&nbsp;K5&nbsp;Max");
             correctionAdd("K5 Max", "Keychron&nbsp;K5&nbsp;Max");
             correctionAdd("k5 Max", "Keychron&nbsp;K5&nbsp;Max");
+            correctionAdd("K5-Max", "Keychron&nbsp;K5&nbsp;Max");
 
             correctionAdd("Keychron K5 Ultra 8K (105%)", "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)"); // Sort of identity mapping
             correctionAdd("K5 Ultra 8K", "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)");
@@ -99115,861 +99988,6 @@ namespace OverflowHelper.core
 
             // A cross-platform application launcher
             correctionAdd("launchy", "Launchy");
-
-            correctionAdd("the fruit company", "Apple");
-            correctionAdd("fruit company", "Apple");
-            correctionAdd("Crapple", "Apple");
-            correctionAdd("crapple", "Apple");
-            correctionAdd("appple", "Apple");
-            correctionAdd("apple", "Apple");
-            correctionAdd("APPLE", "Apple");
-            correctionAdd("aplle", "Apple");
-            correctionAdd("Aplle", "Apple");
-
-            // Apple
-            correctionAdd("Jobs", "Steve Jobs");
-            correctionAdd("SJ", "Steve Jobs");
-
-            // Apple Inc.
-            correctionAdd("reality-distortion field", "reality distortion field");
-
-            correctionAdd("hackintosh", "Hackintosh");
-            correctionAdd("hekintosh", "Hackintosh");
-
-            correctionAdd("contorsion", "contortion");
-
-            correctionAdd("Apple 2", "Apple II");
-
-            correctionAdd("Apple IIE", "Apple IIe");
-
-            correctionAdd("Apple store", "App&nbsp;Store"); // Not 100% correct
-            correctionAdd("apple store", "App&nbsp;Store");
-            correctionAdd("apple Store", "App&nbsp;Store");
-            correctionAdd("appleStore", "App&nbsp;Store");
-            correctionAdd("App Store", "App&nbsp;Store");
-            correctionAdd("app store", "App&nbsp;Store");
-            correctionAdd("app-store", "App&nbsp;Store");
-            correctionAdd("AppStore", "App&nbsp;Store");
-            correctionAdd("appstore", "App&nbsp;Store");
-            correctionAdd("Appstore", "App&nbsp;Store");
-
-            correctionAdd("WWDC", "Apple Worldwide Developers Conference");
-            correctionAdd("wwdc", "Apple Worldwide Developers Conference");
-
-            correctionAdd("ipod", "iPod");
-            correctionAdd("Ipod", "iPod");
-
-            correctionAdd("iPod touch", "iPod Touch");
-            correctionAdd("ipod touch", "iPod Touch");
-
-            correctionAdd("itunes", "iTunes");
-            correctionAdd("Itunes", "iTunes");
-            correctionAdd("ITunes", "iTunes");
-            correctionAdd("itune", "iTunes");
-
-            correctionAdd("iTunes connect", "iTunes Connect");
-            correctionAdd("iTunesConnect", "iTunes Connect");
-            correctionAdd("itunesConnect", "iTunes Connect");
-            correctionAdd("itunesconnect", "iTunes Connect");
-            correctionAdd("iTC", "iTunes Connect");
-
-            correctionAdd("I pad", "iPad");
-            correctionAdd("iIpad", "iPad");
-            correctionAdd("Ipad", "iPad");
-            correctionAdd("ipad", "iPad");
-            correctionAdd("iPAD", "iPad");
-            correctionAdd("IPad", "iPad");
-            correctionAdd("IPAD", "iPad");
-
-            correctionAdd("mini iPad", "iPad Mini");
-            correctionAdd("mini-iPad", "iPad Mini");
-            correctionAdd("iPad mini", "iPad Mini");
-
-            correctionAdd("iPad air", "iPad Air");
-
-            correctionAdd("iPad pro", "iPad Pro");
-
-            correctionAdd("Ipados", "iPadOS");
-            correctionAdd("IpadOS", "iPadOS");
-
-            correctionAdd("idevice", "iDevice");
-
-            correctionAdd("i-phone", "iPhone");
-            correctionAdd("I-phone", "iPhone");
-            correctionAdd("i phone", "iPhone");
-            correctionAdd("iphone", "iPhone");
-            correctionAdd("Iphone", "iPhone");
-            correctionAdd("IPHONE", "iPhone");
-            correctionAdd("iPHONE", "iPhone");
-            correctionAdd("IPhone", "iPhone");
-            correctionAdd("iphoñe", "iPhone");
-            correctionAdd("ifone", "iPhone"); // Misspelling.
-
-            correctionAdd("iPhone xs", "iPhone XS");
-
-            correctionAdd("iPhone xr", "iPhone XR");
-
-            correctionAdd("IPhone SE", "iPhone SE");
-
-            correctionAdd("iphone 3gs", "iPhone 3GS");
-
-            correctionAdd("Iphone7", "iPhone 7");
-
-            correctionAdd("iphone 13", "iPhone 13");
-
-            correctionAdd("iphone 14", "iPhone 14");
-
-            correctionAdd("iphone X", "iPhone X");
-
-            // Apple / iPhone
-            correctionAdd("Find My Device", "Find My");
-            correctionAdd("find my device", "Find My");
-            correctionAdd("find my", "Find My");
-
-            // A test tool for Apple smartphones
-            //
-            // Not to be confused with "Playwright"
-            //
-            correctionAdd("test flight", "TestFlight");
-            correctionAdd("Testflight", "TestFlight");
-            correctionAdd("testflight", "TestFlight");
-
-            correctionAdd("iO.S", "iOS");
-            correctionAdd("ios", "iOS");
-            correctionAdd("IOS", "iOS");
-            correctionAdd("iOs", "iOS");
-            correctionAdd("Ios", "iOS");
-            correctionAdd("IOs", "iOS");
-            correctionAdd("IoS", "iOS");
-            correctionAdd("ioS", "iOS");
-
-            correctionAdd("iOS 6", "iOS&nbsp;6"); // Sort of identity mapping
-            correctionAdd("iOS6", "iOS&nbsp;6");
-
-            correctionAdd("iOS 7.0", "iOS&nbsp;7");
-            correctionAdd("iOS 7", "iOS&nbsp;7");
-            correctionAdd("iOS7", "iOS&nbsp;7");
-
-            correctionAdd("iOS 8.0", "iOS&nbsp;8");
-            correctionAdd("iOS 8", "iOS&nbsp;8");
-            correctionAdd("iOS8", "iOS&nbsp;8");
-
-            correctionAdd("iOS 9", "iOS&nbsp;9");
-            correctionAdd("iOS9", "iOS&nbsp;9");
-
-            correctionAdd("iOS-10", "iOS&nbsp;10");
-            correctionAdd("iOS 10", "iOS&nbsp;10"); // Sort of identity mapping
-            correctionAdd("iOS10", "iOS&nbsp;10");
-
-            correctionAdd("version 11", "iOS&nbsp;11");
-            correctionAdd("iOS-11", "iOS&nbsp;11");
-            correctionAdd("iOS 11", "iOS&nbsp;11"); // Sort of identity mapping
-            correctionAdd("iOS11", "iOS&nbsp;11");
-
-            correctionAdd("ios 13", "iOS 13");
-
-            correctionAdd("ios 16", "iOS 16");
-
-            correctionAdd("ios 17", "iOS 17");
-
-            correctionAdd("WatchOS", "watchOS");
-
-            // An operating system for the Apple TV
-            correctionAdd("Apple TV Software", "TvOS");
-            correctionAdd("tvos", "TvOS");
-
-            // An Apple laptop series
-            correctionAdd("ibook", "iBook");
-
-            // Note: "Mac" is in an alternative word set
-            correctionAdd("macs", "Macs");
-
-            // An Apple laptop series
-            correctionAdd("mac book pro", "MacBook Pro");
-            correctionAdd("Mac Book Pro", "MacBook Pro");
-            correctionAdd("MAC BOOK PRO", "MacBook Pro");
-            correctionAdd("MAC_BOOK_PRO", "MacBook Pro");
-            correctionAdd("Macbook Pro", "MacBook Pro");
-            correctionAdd("macbook pro", "MacBook Pro");
-            correctionAdd("macBook Pro", "MacBook Pro");
-            correctionAdd("MacBook pro", "MacBook Pro");
-            correctionAdd("Macbook pro", "MacBook Pro");
-            correctionAdd("MacBookPro", "MacBook Pro");
-            correctionAdd("macbookpro", "MacBook Pro");
-            correctionAdd("MacbookPro", "MacBook Pro");
-            correctionAdd("Mac Book", "MacBook Pro"); // Not exactly...
-            correctionAdd("MAC book", "MacBook Pro");
-            correctionAdd("Mac book", "MacBook Pro");
-            correctionAdd("MacBook", "MacBook Pro"); // Not exactly...
-            correctionAdd("macbook", "MacBook Pro"); // Not exactly...
-            correctionAdd("Macbook", "MacBook Pro"); // Not exactly...
-            correctionAdd("MACBOOK", "MacBook Pro");
-            correctionAdd("MakBook", "MacBook Pro");
-            correctionAdd("Makbook", "MacBook Pro");
-            correctionAdd("MACbook", "MacBook Pro");
-            correctionAdd("mac pro", "MacBook Pro"); // May be inaccurate and refer to 'Mac Pro' (desktop)
-            correctionAdd("macpro", "MacBook Pro");
-            correctionAdd("MaBook", "MacBook Pro");
-            correctionAdd("MB Pro", "MacBook Pro");
-            correctionAdd("MBPro", "MacBook Pro");
-            correctionAdd("MBP", "MacBook Pro");
-            correctionAdd("mbp", "MacBook Pro");
-
-            correctionAdd("macbook air pro", "MacBook Air");
-            correctionAdd("MacBook air", "MacBook Air");
-            correctionAdd("macbook air", "MacBook Air");
-            correctionAdd("Macbook Air", "MacBook Air");
-            correctionAdd("mac airbook", "MacBook Air");
-            correctionAdd("Mac AirBook", "MacBook Air");
-            correctionAdd("mac air", "MacBook Air");
-            correctionAdd("Mac Air", "MacBook Air");
-            correctionAdd("airbook", "MacBook Air");
-            correctionAdd("Airbook", "MacBook Air");
-            correctionAdd("MBA", "MacBook Air");
-
-            correctionAdd("MacBook M1 Chip", "MacBook Air (M1)");
-            correctionAdd("Macbook M1 air", "MacBook Air (M1)");
-            correctionAdd("macbook air m1", "MacBook Air (M1)");
-            correctionAdd("MacBook Air M1", "MacBook Air (M1)");
-            correctionAdd("Macbook air M1", "MacBook Air (M1)");
-            correctionAdd("macbook air M1", "MacBook Air (M1)");
-            correctionAdd("Macbook Air M1", "MacBook Air (M1)");
-            correctionAdd("mac os air m1", "MacBook Air (M1)");
-            correctionAdd("Mac air M1", "MacBook Air (M1)");
-            correctionAdd("M1 Macbook", "MacBook Air (M1)");
-            correctionAdd("m1 macbook", "MacBook Air (M1)");
-            correctionAdd("M1 mac", "MacBook Air (M1)");
-            correctionAdd("Mac M1", "MacBook Air (M1)");
-            correctionAdd("mac m1", "MacBook Air (M1)");
-            correctionAdd("Mac m1", "MacBook Air (M1)");
-            correctionAdd("mac M1", "MacBook Air (M1)");
-
-            correctionAdd("MacBook Air M2", "MacBook Air (M2)");
-            correctionAdd("MacBook Air m2", "MacBook Air (M2)");
-            correctionAdd("Macbook M2 air", "MacBook Air (M2)");
-
-            correctionAdd("macbook m3 air", "MacBook Air (M3)");
-            correctionAdd("MacBook Air M3", "MacBook Air (M3)");
-
-            correctionAdd("M4 MacBook Air", "MacBook Air (M4)");
-
-            correctionAdd("MacBook pro m2", "MacBook Pro M2");
-            correctionAdd("Macbook Pro M2", "MacBook Pro M2");
-            correctionAdd("M2 Macbook Pro", "MacBook Pro M2");
-            correctionAdd("M2 MBP", "MacBook Pro M2");
-            correctionAdd("mbp m2", "MacBook Pro M2");
-            correctionAdd("Mac M2", "MacBook Pro M2");
-            correctionAdd("M2 Mac", "MacBook Pro M2");
-
-            correctionAdd("Macbook M1 Max", "M1 Max MacBook Pro");
-            correctionAdd("Makbook M1 Max", "M1 Max MacBook Pro");
-            correctionAdd("M1 Max", "M1 Max MacBook Pro");
-            correctionAdd("M1 max", "M1 Max MacBook Pro");
-
-            // A Mac keyboard (or rather a series of keyboards)
-            correctionAdd("Apple aluminum keyboard", "Apple A1243 aluminium Keyboard");
-            correctionAdd("Apple keyboard", "Apple A1243 aluminium Keyboard");
-
-            // A chip
-            correctionAdd("Apple chip", "Apple M1");
-            correctionAdd("M1 chip", "Apple M1");
-            correctionAdd("M1 Mac", "Apple M1");
-            correctionAdd("M1 MAC", "Apple M1");
-            correctionAdd("M1", "Apple M1");
-            correctionAdd("m1", "Apple M1");
-
-            // A chip
-            correctionAdd("Apple M1 max", "Apple M1 Max");
-
-            // A chip
-            correctionAdd("Apple M3 max", "Apple M3 Max");
-
-            // Note: "Apple silicon" is in an alternative word set
-            // A chip
-            correctionAdd("Apple Silicon M1 Pro", "Apple M1 Pro");
-            correctionAdd("Apple M1 pro", "Apple M1 Pro");
-            correctionAdd("M1 Pro", "Apple M1 Pro");
-            correctionAdd("m1 pro", "Apple M1 Pro");
-
-            // A desktop computer from Apple
-            correctionAdd("apple mini", "Mac Mini");
-            correctionAdd("Apple Mini", "Mac Mini");
-            correctionAdd("Mac mini", "Mac Mini");
-            correctionAdd("mac mini", "Mac Mini");
-            correctionAdd("macmini", "Mac Mini");
-
-            correctionAdd("mac mini M1", "Mac Mini (M1)");
-            correctionAdd("Mac Mini M1", "Mac Mini (M1)");
-            correctionAdd("Mac mini M1", "Mac Mini (M1)");
-            correctionAdd("M1 Macmini", "Mac Mini (M1)");
-            correctionAdd("Macmini", "Mac Mini (M1)");
-
-            correctionAdd("imac", "iMac");
-            correctionAdd("iMAC", "iMac");
-
-            correctionAdd("iMac pro", "iMac Pro");
-            correctionAdd("imac pro", "iMac Pro");
-
-            // A 2022 vintage desktop computer from Apple
-            correctionAdd("mac studio", "Mac Studio");
-
-            correctionAdd("OS-9", "Mac OS 9");
-
-            correctionAdd("Mac Os", "macOS");
-            correctionAdd("Mac-Os", "macOS");
-            correctionAdd("Mac os", "macOS");
-            correctionAdd("Mac OS", "macOS");
-            correctionAdd("MAC os", "macOS");
-            correctionAdd("MAC OS", "macOS");
-            correctionAdd("mac OS", "macOS");
-            correctionAdd("MacOs", "macOS");
-            correctionAdd("Macos", "macOS");
-            correctionAdd("MacOS", "macOS");
-            correctionAdd("macOs", "macOS");
-            correctionAdd("macos", "macOS");
-            correctionAdd("MACOS", "macOS");
-            correctionAdd("MACos", "macOS");
-            correctionAdd("MAcOS", "macOS");
-            correctionAdd("MacOX", "macOS");
-            correctionAdd("Mac&nbsp;OS&nbsp;X", "macOS"); // Cross from the old
-
-            // macOS
-            correctionAdd("kext", "kernel extension");
-
-            // Mac. macOS. Mac OS X. (now by another name)
-            correctionAdd("system preferences", "System Preferences");
-            correctionAdd("System Prefs", "System Preferences");
-            correctionAdd("sys prefs", "System Preferences");
-
-            // A Mac application. File manager
-            correctionAdd("finder", "Finder");
-
-            // Mac. macOS. Mac OS X
-            correctionAdd("liquid glass", "Liquid Glass");
-
-            // An office suite. A set of applications
-            correctionAdd("Appleworks", "AppleWorks");
-
-            // A Mac application. A text editor
-            correctionAdd("Simpletext", "SimpleText");
-
-            // Mac. macOS. Mac OS X.
-            correctionAdd("mission control", "Mission Control");
-            correctionAdd("MISSION CONTROL", "Mission Control");
-
-            // Mac. macOS. Mac OS X. A system monitor
-            correctionAdd("activity monitor", "Activity Monitor");
-            correctionAdd("monitor tool", "Activity Monitor");
-
-            // Not to be confused with "GNU parallel"
-            // Mac. macOS. Mac OS X.
-            correctionAdd("Parallels Desktop", "Parallels Desktop for Mac");
-            correctionAdd("Desktop for Mac", "Parallels Desktop for Mac");
-            correctionAdd("parallels", "Parallels Desktop for Mac");
-            correctionAdd("Parallels", "Parallels Desktop for Mac");
-
-            // Mac
-            correctionAdd("IText", "iText");
-            correctionAdd("Itext", "iText");
-            correctionAdd("itext", "iText");
-
-            // Mac
-            correctionAdd("IPhoto", "iPhoto");
-
-            // Mac
-            correctionAdd("ical", "Calendar"); // iCal is now known as the (unfortunate generic term) "Calendar".
-            correctionAdd("ICal", "Calendar");
-            correctionAdd("Ical", "Calendar");
-            correctionAdd("iCal", "Calendar");
-
-            // Mac
-            correctionAdd("IMessage", "iMessage");
-
-            // Mac
-            correctionAdd("insomniax", "InsomniaX");
-
-            // Mac
-            correctionAdd("power nap", "Power Nap");
-
-            // Mac
-            correctionAdd("screen time", "Screen Time");
-
-            // Mac
-            correctionAdd("iTerm 2", "iTerm2");
-            correctionAdd("iTerms2", "iTerm2");
-            correctionAdd("Iterm2", "iTerm2");
-            correctionAdd("iterm2", "iTerm2");
-            correctionAdd("ITerm2", "iTerm2");
-            correctionAdd("iterm", "iTerm2");
-            correctionAdd("iTerm", "iTerm2");
-
-            // macOS
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.reddit.com/r/MacOS/comments/yytn0e/free_or_native_options_to_the_app_magnet/>
-            //
-            correctionAdd("magnet", "Magnet");
-
-            // macOS software. Instant messaging (IM)
-            correctionAdd("adium", "Adium");
-
-            // macOS software
-            correctionAdd("alfred", "Alfred");
-
-            // macOS software. Related to "Boot Camp"
-            correctionAdd("brigadier", "Brigadier");
-
-            // macOS software. Keyboard-related (like Karabiner Elements?)
-            //
-            // Alternative URLs:
-            //
-            //   <https://kevingessner.com/software/functionflip/>
-            //
-            correctionAdd("Function Flip", "FunctionFlip");
-
-            // macOS. Software. Mouse
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.howtogeek.com/this-free-app-will-turn-you-into-a-mac-keyboard-maestro/>
-            //   <https://shortcat.app/>
-            //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/1f0qmh6/comment/llaz1m6/>
-            //
-            correctionAdd("shortcat", "Shortcat");
-
-            // macOS
-            //
-            // Alternative URLs:
-            //
-            //   <https://rectangleapp.com/>
-            //
-            correctionAdd("rectangle", "Rectangle");
-
-            // macOS software. A package manager
-            correctionAdd("mac ports", "MacPorts");
-            correctionAdd("Mac Ports", "MacPorts");
-            correctionAdd("macports", "MacPorts");
-            correctionAdd("Macports", "MacPorts");
-            correctionAdd("Mac Port", "MacPorts");
-            correctionAdd("MacPort", "MacPorts");
-            correctionAdd("macport", "MacPorts");
-            correctionAdd("Macport", "MacPorts");
-            correctionAdd("ports", "MacPorts");
-
-            // Mac. A package manager
-            correctionAdd("home brew", "Homebrew (executable `brew`)");
-            correctionAdd("home-brew", "Homebrew (executable `brew`)");
-            correctionAdd("homebrew", "Homebrew (executable `brew`)");
-            correctionAdd("HomeBrew", "Homebrew (executable `brew`)");
-            correctionAdd("Homebrew", "Homebrew (executable `brew`)");
-            correctionAdd("brew", "Homebrew (executable `brew`)");
-            correctionAdd("Brew", "Homebrew (executable `brew`)");
-
-            // Mac. Sort of a package manager
-            correctionAdd("cocoa pods", "CocoaPods");
-            correctionAdd("Cocoapods", "CocoaPods");
-            correctionAdd("cocoapods", "CocoaPods");
-            correctionAdd("cocaopods", "CocoaPods");
-            correctionAdd("cocoa pod", "CocoaPods");
-            correctionAdd("cocoapod", "CocoaPods");
-            correctionAdd("CocoaPod", "CocoaPods");
-            correctionAdd("Cocoapod", "CocoaPods");
-            correctionAdd("Pods", "CocoaPods");
-            correctionAdd("Pod", "CocoaPods");
-
-            correctionAdd(".dmg", "Apple Disk Image");
-            correctionAdd("dmg", "Apple Disk Image");
-
-            correctionAdd("Apple developer", "Apple Developer");
-            correctionAdd("apple developer", "Apple Developer");
-
-            correctionAdd("quicktime", "QuickTime");
-            correctionAdd("Quicktime", "QuickTime");
-
-            // A hardware connector (mostly Apple)
-            correctionAdd("thunderbolt", "Thunderbolt");
-
-            // 2005 vintage. Note: v10.2 (Jaguar) from 2002 is in
-            //                     an alternative word set
-            //
-            correctionAdd("Mac OS X v10.4 (Tiger) (2005 vintage)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)"); // Sort of identity mapping
-            correctionAdd("Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)");
-            correctionAdd("Mac&nbsp;OS&nbsp;X&nbsp;v10.4", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)");
-            correctionAdd("Mac OS X v10.4 (Tiger)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)"); // Sort of identity mapping
-            correctionAdd("Mac OS (10.4)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)");
-            correctionAdd("macOS (10.4)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)");
-            correctionAdd("MacOS 10.4", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)");
-            correctionAdd("macOS 10.4", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)");
-            correctionAdd("Mac 10.4", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)");
-            correctionAdd("Tiger", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)");
-            correctionAdd("10.4", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)");
-
-            // 2007 vintage
-            correctionAdd("Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
-            correctionAdd("Mac OS X v10.5 (Leopard) (2007 vintage)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)"); // Sort of identity mapping
-            correctionAdd("Mac&nbsp;OS&nbsp;X&nbsp;v10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
-            correctionAdd("Mac OS X v10.5 (Leopard)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)"); // Sort of identity mapping
-            correctionAdd("Mac OS X Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
-            correctionAdd("Mac OS X 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
-            correctionAdd("Mac OS X 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
-            correctionAdd("MacOS X 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
-            correctionAdd("OS X 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
-            correctionAdd("OS-X 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
-            correctionAdd("OSX 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
-            correctionAdd("Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
-            correctionAdd("leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
-            correctionAdd("OX 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
-            correctionAdd("10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
-
-            // 2009 vintage
-            correctionAdd("Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("Mac OS X v10.6 (Snow Leopard) (2009 vintage)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)"); // Sort of identity mapping
-            correctionAdd("Mac OS X (10.6 \"Snow Leopard\")", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("Mac OS X v10.6 (Snow Leopard)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)"); // Sort of identity mapping
-            correctionAdd("Mac&nbsp;OS&nbsp;X&nbsp;v10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("Mac OS X (10.6 Snow Leopard)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("Mac&nbsp;OS&nbsp;X 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("Mac OS X Snow Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("OS&nbsp;X&nbsp;v10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("Mac OSX Snow Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("mac osx snow leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("Mac OS Snow Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("MacOS Snow Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("Mac OS&nbsp;X 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("Snow&nbsp;Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("10.6 Snow Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("OSX Snow Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("Mac OS X v10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("Mac OS X 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
-            correctionAdd("Mac OS X 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("snow leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("Snow leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("snow-leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("Snow Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("Mac OSX 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("MacOS X 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("SnowLeopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("Mac OS 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("OS X 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("OSX 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("OSX-10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("OSx 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("v10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("SL", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-
-            // 2012 vintage. Note: 10.7 (Lion) from 2011 is in
-            //                     an alternative word set
-            //
-            correctionAdd("Mac OS X v10.8 (Mountain Lion) (2012 vintage)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)"); // Sort of identity mapping
-            correctionAdd("Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("Mac OS X v10.8 (Mountain Lion)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)"); // Sort of identity mapping
-            correctionAdd("Mac&nbsp;OS&nbsp;X&nbsp;v10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("Mac&nbsp;OS&nbsp;X 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("Mac OS X Mountain Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("Mac OSX Mountain Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("OS&nbsp;X&nbsp;v10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("OSX Mountain Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("OS X version 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("Mac OS X v10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
-            correctionAdd("Mac OS X v10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("Mountinan Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("Mountain Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("mountain lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("Mac OS X 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("Mountain lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("MAC OS X 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("mac os x 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("Mac os x 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("Mac OSX 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("mac osx 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("mac os 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)"); // Missing "X"...
-            correctionAdd("MacOS 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("OS X 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("OSX 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("v10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-
-            // 2013 vintage
-            //
-            // Note: the identity is not working. Is it because of the
-            // trailing ")"??
-            //
-            // Close in name (Ubuntu): "Ubuntu&nbsp;10.10 (Maverick Meerkat)"
-            //     (2013 vintage)
-            correctionAdd("Mac OS X v10.9 (Mavericks) (2013 vintage)", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)"); // Sort of identity mapping
-            correctionAdd("Mac&nbsp;OS&nbsp;X v10.9 (Mavericks)", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Mac OS X v10.9 (Mavericks)", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)"); // Sort of identity mapping
-            correctionAdd("Mac&nbsp;OS&nbsp;X 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("mac OS X mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Mac OS X Mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Mac OS (Mavericks)", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("macOS (Mavericks)", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("OS&nbsp;X v10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("OS X Mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Mac OS X v10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("OS&nbsp;X 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("OSX mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("OSX Mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Mac OS X 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("osx mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("MAC Mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Mac Mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("mac os x 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Max OS X 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("MAC Maverick", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Mac Maverick", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("mac OSx 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("mac osx 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Max OSX 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Mac OS 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("mac ox 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("MacOSX 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("OS X v10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("OS X 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("makericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("OSX 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("maverick", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Maveriks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Maverick", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Mac 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Maverics", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-
-            // 2015 vintage. Note: 10.10 (Yosemite) from 2014 is in
-            //                     an alternative word set
-            //
-            correctionAdd("Mac OS X v10.11 (El Capitan) (2015 vintage)", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)"); // Sort of identity mapping
-            correctionAdd("Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("Mac OS X v10.11 (El Capitan)", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)"); // Sort of identity mapping
-            correctionAdd("Mac OS X El Capitan 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("10.11 Mac OSX El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("OS&nbsp;X&nbsp;v10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("OS X El Capitan 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("osx 10.11 El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("Mac OS X El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("mac OS X El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("Mac version 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("mac version 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("mac os el capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("mac OS El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("OS&nbsp;X v10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("El Capitan 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("macOS El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("os x el capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("OS&nbsp;X 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("OS X El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("Mac OS X v10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("OS X EL Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("OSX El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("Mac OS X 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("MAC OS X 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("10.11 Mac OS X", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("10.11 Mac OSX", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("OS El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("OS X Captain", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("El Capitain", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("el capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("OS X 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("EI Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("El capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("El Captain", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("EL Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("EL CAPITAN", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("OSX 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("osx 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("Mac 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("Captain", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-
-            // 2016 vintage
-            correctionAdd("macOS v10.12 (Sierra) (2016 vintage)", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)"); // Sort of identity mapping
-            correctionAdd("macOS&nbsp;v10.12 (Sierra)", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("Mac OS X v10.12 (Sierra)", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("Mac&nbsp;OS&nbsp;X 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("macOS v10.12 (Sierra)", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)"); // Sort of identity mapping
-            correctionAdd("Mac OS Sierra 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("macOS Sierra 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("MacOS Sierra 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("Mac OS X Sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("Mac OS X 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("MAC OS X 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("mac os sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("macOS v10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("macOS Sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("MacOS Sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("Mac OS 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("MacOSX 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("macOS sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("Sierra 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("macOS 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("MacOS 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("OS X Sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("Mac Sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("OS X 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("MAC sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("mac sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("Mac sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("OSX Sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("Mac 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("Sierra.6", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("Sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("Seirra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("v10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("Siera", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-
-            // 2017 vintage
-            correctionAdd("macOS v10.13 (High Sierra) (2017 vintage)", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)"); // Sort of identity mapping
-            correctionAdd("macOS&nbsp;v10.13 (High Sierra)", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("macOS v10.13 (High Sierra)", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)"); // Sort of identity mapping
-            correctionAdd("Mac OS X High Sierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("Mac OS High Sierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("macOS High Sierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("MacOS High Sierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("MacOs High Sierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("high sierra 10.13", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("macOS&nbsp;v10.13", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("MacOs HighSierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("macOS HighSierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("Mac High Sierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("Mac OS X 10.13", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("macOS v10.13", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("High Sierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("macos 10.13", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("high sierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("High sierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("macOS 10.13", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("HighSierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("Highsierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("OS X 10.13", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("Mac 10.13", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("10.13", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-
-            // 2018 vintage
-            correctionAdd("macOS v10.14 (Mojave) (2018 vintage)", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)"); // Sort of identity mapping
-            correctionAdd("macOS&nbsp;v10.14 (Mojave)", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("macOS v10.14 (Mojave)", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)"); // Sort of identity mapping
-            correctionAdd("MacOS Mojave 10.14", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("macOS 10.14 Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("macOS Mojave 10.14", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("OS&nbsp;X Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("Mac OS Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("macOS v10.14", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
-            correctionAdd("macOS Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("macOS v10.14", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("MacOs Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("MacOS Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("Mojave 10.14", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("MacOS 10.14", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("macOS 10.14", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("OS X Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("MacOS10.14", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("OSX Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("mac Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("Osx Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("OS 10.14", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("10.14", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-
-            // 2019 vintage
-            correctionAdd("macOS v10.15 (Catalina) (2019 vintage)", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)"); // Sort of identity mapping
-            correctionAdd("macOS&nbsp;v10.15 (Catalina)", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("macOS v10.15 (Catalina)", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)"); // Sort of identity mapping
-            correctionAdd("MAC OS 10.15 Catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("macOS 10.15 Catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("MacOS Catalina 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("MacOS catalina 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("macOS Catalina 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("macOS catalina 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("Mac OS Catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("Macos Catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("MacOS Catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("Mac OS X 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("macOS Catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("MacOs Catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("Mac (Catalina)", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("MacOS catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("macOS catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("Mac OSX 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("macOS v10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("MAC Catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("Mac Catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("MAC OS 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("Mac OS 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("macOS 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("MacOS 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("mac 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("Mac 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("Catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("Cataline", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("cataline", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("OS 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("v10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-
-            // 2024 vintage
-            //
-            // Note: These are in an alternative word set:
-            //
-            //            2020: v11 (Big Sur)
-            //
-            //            2021: v12 (Monterey)
-            //
-            //            2022: v13 (Ventura)
-            //
-            //            2023: v14 (Sonoma)
-            //
-            //            2024: v15 (Sequoia)
-            //
-            correctionAdd("macOS v26 (Tahoe) (2026 vintage)", "macOS&nbsp;v26 (Tahoe) (2026 vintage)"); // Sort of identity mapping
-            correctionAdd("MacOS Tahoe 26", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
-            correctionAdd("macos tahoe 26", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
-            correctionAdd("Mac OS Tahoe", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
-            correctionAdd("MacOS Tahoe", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
-            correctionAdd("macos tahoe", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
-            correctionAdd("Mac Tahoe", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
-            correctionAdd("Tahoe 26", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
-            correctionAdd("tahoe 26", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
-            correctionAdd("tahoe", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
-            correctionAdd("Tahoe", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
-
-            // Mac OS X
-            correctionAdd("darwin", "Darwin");
-
-            // Mac OS X
-            correctionAdd("OSX Daily", "OSXDaily");
-
-            // Mac OS X
-            correctionAdd("raycast", "Raycast");
-            correctionAdd("RayCast", "Raycast");
-
-            // An Apple thing
-            correctionAdd("touch ID", "Touch ID");
-
-            correctionAdd("cocoa-touch", "Cocoa Touch");
-            correctionAdd("Cocoa-Touch", "Cocoa Touch");
-            correctionAdd("CocoaTouch", "Cocoa Touch");
-
-            // Mac OS X
-            correctionAdd("PMSET", "pmset");
-
-            // Apple M2 / Mac OS X
-            correctionAdd("System Management Controller", "SMC");
-            correctionAdd("smc", "SMC");
-
-            // Wikipedia can not handle having an entry, instead it is tugged into
-            // the article about LinkedIn!!!
-            //correctionAdd("voldemort", "Voldemort"); // Not actually observed. For the link.
-            //////////////////////////////////////////////////////////////////////////////////
-            correctionAdd("Hbase", "HBase"); // Not actually observed. For the link.
 
             correctionAdd("dpi", "DPI");
             correctionAdd("Dpi", "DPI");
@@ -109795,8 +109813,6 @@ namespace OverflowHelper.core
 
             URL_Add("mindset", "https://en.wiktionary.org/wiki/mindset#Noun");
 
-            URL_Add("priority", "https://en.wiktionary.org/wiki/priority#Noun");
-
             URL_Add("project", "https://en.wiktionary.org/wiki/project#Noun");
 
             URL_Add("simultaneously", "https://en.wiktionary.org/wiki/simultaneously#Adverb");
@@ -117305,8 +117321,6 @@ namespace OverflowHelper.core
 
             URL_Add("lazy evaluation", "https://en.wikipedia.org/wiki/Lazy_evaluation");
 
-            URL_Add("prioritise", "https://en.wiktionary.org/wiki/prioritise#Verb");
-
             URL_Add("wound up", "https://en.wiktionary.org/wiki/wind_up#Verb");
 
             URL_Add("Dice", "https://en.wikipedia.org/wiki/Dice.com");
@@ -121473,8 +121487,6 @@ namespace OverflowHelper.core
 
             URL_Add("Drogon", "https://en.wikipedia.org/wiki/Drogon_(software)");
 
-            URL_Add("Google PhotoScan", "https://en.wikipedia.org/wiki/Google_Photos#History");
-
             URL_Add("Lucas–Kanade method", "https://en.wikipedia.org/wiki/Lucas%E2%80%93Kanade_method");
 
             URL_Add("paisa", "https://en.wikipedia.org/wiki/Paisa");
@@ -121852,8 +121864,6 @@ namespace OverflowHelper.core
             URL_Add("conspiratorily", "https://en.wiktionary.org/wiki/conspiratorily#Adverb");
 
             URL_Add("Imperva", "https://en.wikipedia.org/wiki/Imperva");
-
-            URL_Add("CT scan", "https://en.wikipedia.org/wiki/CT_scan");
 
             URL_Add("time to time", "https://en.wiktionary.org/wiki/time_to_time#Adverb");
 
@@ -123181,8 +123191,6 @@ namespace OverflowHelper.core
 
             URL_Add("plug-ins", "https://en.wiktionary.org/wiki/plug-in#Noun");
 
-            URL_Add("priority inheritance", "https://en.wikipedia.org/wiki/Priority_inheritance");
-
             URL_Add("Soot", "https://en.wikipedia.org/wiki/Soot_(software)");
 
             URL_Add("licensing", "https://en.wiktionary.org/wiki/license#Verb");
@@ -124321,8 +124329,6 @@ namespace OverflowHelper.core
 
             URL_Add("finger", "https://en.wiktionary.org/wiki/finger#Noun");
 
-            URL_Add("rescanned", "https://en.wiktionary.org/wiki/rescan#Verb");
-
             URL_Add("full", "https://en.wiktionary.org/wiki/full#Adjective");
 
             URL_Add("microcontroller", "https://en.wikipedia.org/wiki/Microcontroller");
@@ -124357,7 +124363,51 @@ namespace OverflowHelper.core
 
             URL_Add("all good", "https://en.wiktionary.org/wiki/all_good#Phrase");
 
+            URL_Add("prioritise", "https://en.wiktionary.org/wiki/prioritise#Verb");
+
+            URL_Add("priority", "https://en.wiktionary.org/wiki/priority#Noun");
+
+            URL_Add("priorities", "https://en.wiktionary.org/wiki/priority#Noun");
+
             URL_Add("prioritisation", "https://en.wiktionary.org/wiki/prioritisation#Noun");
+
+            URL_Add("priority inheritance", "https://en.wikipedia.org/wiki/Priority_inheritance");
+
+            URL_Add("priority ceiling protocol", "https://en.wikipedia.org/wiki/Priority_ceiling_protocol");
+
+            URL_Add("Prototype", "https://en.wikipedia.org/wiki/Prototype_JavaScript_Framework");
+
+            URL_Add("prototypal", "https://en.wikipedia.org/wiki/Prototype-based_programming");
+
+            URL_Add("ProtonMail", "https://en.wikipedia.org/wiki/ProtonMail");
+
+            URL_Add("prototyping", "https://en.wiktionary.org/wiki/prototyping#Noun");
+
+            URL_Add("prototype-based programming", "https://en.wikipedia.org/wiki/Prototype-based_programming");
+
+            URL_Add("Proton", "https://en.wikipedia.org/wiki/Proton_(software)");
+
+            URL_Add("ProtonDB", "https://en.wikipedia.org/wiki/Proton_(software)#ProtonDB");
+
+            URL_Add("prototype-based inheritance", "https://en.wikipedia.org/wiki/Prototype-based_programming#Criticism");
+
+            URL_Add("Protoize", "https://gcc.gnu.org/onlinedocs/gcc-4.4.7/gcc/Running-Protoize.html");
+
+            URL_Add("protocol", "https://en.wiktionary.org/wiki/protocol#Noun");
+
+            URL_Add("protocols", "https://en.wiktionary.org/wiki/protocol#Noun");
+
+            URL_Add("Protocol Buffers", "https://en.wikipedia.org/wiki/Protocol_Buffers");
+
+            URL_Add("Test Anything Protocol", "https://en.wikipedia.org/wiki/Test_Anything_Protocol");
+
+            URL_Add("Language Server Protocol", "https://en.wikipedia.org/wiki/Language_Server_Protocol");
+
+            URL_Add("Enhanced Interior Gateway Routing Protocol", "https://en.wikipedia.org/wiki/Enhanced_Interior_Gateway_Routing_Protocol");
+
+            URL_Add("Layer 2 Tunneling Protocol", "https://en.wikipedia.org/wiki/L2TP");
+
+            URL_Add("Precision Time Protocol", "https://en.wikipedia.org/wiki/Precision_Time_Protocol");
 
             URL_Add("adjustments", "https://en.wiktionary.org/wiki/adjustment#Noun");
 
@@ -131473,42 +131523,6 @@ namespace OverflowHelper.core
 
             URL_Add("Kickstarter campaign", "https://en.wikipedia.org/wiki/Kickstarter#Notable_projects_and_creators");
 
-            URL_Add("Prototype", "https://en.wikipedia.org/wiki/Prototype_JavaScript_Framework");
-
-            URL_Add("prototypal", "https://en.wikipedia.org/wiki/Prototype-based_programming");
-
-            URL_Add("ProtonMail", "https://en.wikipedia.org/wiki/ProtonMail");
-
-            URL_Add("prototyping", "https://en.wiktionary.org/wiki/prototyping#Noun");
-
-            URL_Add("prototype-based programming", "https://en.wikipedia.org/wiki/Prototype-based_programming");
-
-            URL_Add("Proton", "https://en.wikipedia.org/wiki/Proton_(software)");
-
-            URL_Add("ProtonDB", "https://en.wikipedia.org/wiki/Proton_(software)#ProtonDB");
-
-            URL_Add("prototype-based inheritance", "https://en.wikipedia.org/wiki/Prototype-based_programming#Criticism");
-
-            URL_Add("Protoize", "https://gcc.gnu.org/onlinedocs/gcc-4.4.7/gcc/Running-Protoize.html");
-
-            URL_Add("protocol", "https://en.wiktionary.org/wiki/protocol#Noun");
-
-            URL_Add("protocols", "https://en.wiktionary.org/wiki/protocol#Noun");
-
-            URL_Add("Protocol Buffers", "https://en.wikipedia.org/wiki/Protocol_Buffers");
-
-            URL_Add("Test Anything Protocol", "https://en.wikipedia.org/wiki/Test_Anything_Protocol");
-
-            URL_Add("Language Server Protocol", "https://en.wikipedia.org/wiki/Language_Server_Protocol");
-
-            URL_Add("Enhanced Interior Gateway Routing Protocol", "https://en.wikipedia.org/wiki/Enhanced_Interior_Gateway_Routing_Protocol");
-
-            URL_Add("Layer 2 Tunneling Protocol", "https://en.wikipedia.org/wiki/L2TP");
-
-            URL_Add("Precision Time Protocol", "https://en.wikipedia.org/wiki/Precision_Time_Protocol");
-
-            URL_Add("priority ceiling protocol", "https://en.wikipedia.org/wiki/Priority_ceiling_protocol");
-
             URL_Add("application protocol data unit", "https://en.wikipedia.org/wiki/Smart_card_application_protocol_data_unit");
 
             URL_Add("Application-Layer Protocol Negotiation", "https://en.wikipedia.org/wiki/Application-Layer_Protocol_Negotiation");
@@ -132610,6 +132624,36 @@ namespace OverflowHelper.core
             URL_Add("swapped", "https://en.wiktionary.org/wiki/swap#Verb");
 
             URL_Add("swappiness", "https://www.howtogeek.com/449691/what-is-swapiness-on-linux-and-how-to-change-it/");
+
+            URL_Add("hot-swappable", "https://en.wiktionary.org/wiki/hot-swappable#Adjective");
+
+            URL_Add("hot-swapped", "https://en.wiktionary.org/wiki/hot-swap#Verb");
+
+            URL_Add("swap out", "https://en.wiktionary.org/wiki/swap_out#Verb");
+
+            URL_Add("XOR swap algorithm", "https://en.wikipedia.org/wiki/XOR_swap_algorithm");
+
+            URL_Add("SIM swap scam", "https://en.wikipedia.org/wiki/SIM_swap_scam");
+
+            URL_Add("hotspot", "https://en.wikipedia.org/wiki/Hotspot_%28Wi-Fi%29");
+
+            URL_Add("hotplug", "https://en.wiktionary.org/wiki/hotplug#Verb");
+
+            URL_Add("hotkeys", "https://en.wiktionary.org/wiki/hotkey#Noun");
+
+            URL_Add("hot take", "https://en.wiktionary.org/wiki/hot_take#Noun");
+
+            URL_Add("hot Jupiter", "https://en.wikipedia.org/wiki/Hot_Jupiter");
+
+            URL_Add("Hot Network Questions", "https://meta.stackexchange.com/questions/40353/stack-exchange-glossary-dictionary-of-commonly-used-terms/40354#40354");
+
+            URL_Add("Hotmail", "https://en.wikipedia.org/wiki/Hotmail");
+
+            URL_Add("Hotel California", "https://en.wikipedia.org/wiki/Hotel_California#Themes_and_interpretations");
+
+            URL_Add("Hot Corners", "https://citymacsite.wordpress.com/2018/07/07/hot-corners-in-macos-what-they-are-and-how-to-use-them/");
+
+            URL_Add("HotSpot", "https://en.wikipedia.org/wiki/HotSpot_(virtual_machine)");
 
             URL_Add("on my mind", "https://en.wiktionary.org/wiki/what%27s_on_your_mind#Phrase");
 
@@ -136344,24 +136388,6 @@ namespace OverflowHelper.core
             URL_Add("moved", "https://en.wiktionary.org/wiki/move#Verb");
 
             URL_Add("movement", "https://en.wiktionary.org/wiki/movement#Noun");
-
-            URL_Add("scanned", "https://en.wiktionary.org/wiki/scan#Verb");
-
-            URL_Add("scannability", "https://en.wiktionary.org/wiki/scannability#Noun");
-
-            URL_Add("scannable", "https://en.wiktionary.org/wiki/scannable#Adjective");
-
-            URL_Add("scandal", "https://en.wiktionary.org/wiki/scandal#Noun");
-
-            URL_Add("scandalous", "https://en.wiktionary.org/wiki/scandalous#Adjective");
-
-            URL_Add("scancode", "https://en.wiktionary.org/wiki/scancode#Noun");
-
-            URL_Add("Scandinavian", "https://en.wiktionary.org/wiki/Scandinavian#Adjective");
-
-            URL_Add("Scandinavian Defense", "https://en.wikipedia.org/wiki/Scandinavian_Defense");
-
-            URL_Add("London System", "https://en.wikipedia.org/wiki/London_System");
 
             URL_Add("keycode", "https://en.wiktionary.org/wiki/keycode#Noun");
 
@@ -142609,8 +142635,6 @@ namespace OverflowHelper.core
 
             URL_Add("leakage current", "https://en.wiktionary.org/wiki/leakage_current#Noun");
 
-            URL_Add("the OGL scandal", "https://en.wikipedia.org/wiki/Open_Game_License#Leaked_OGL1.1_draft");
-
             URL_Add("Open Game License", "https://en.wikipedia.org/wiki/Open_Game_License");
 
             URL_Add("mistag", "https://en.wiktionary.org/wiki/mistag#Verb");
@@ -142887,6 +142911,18 @@ namespace OverflowHelper.core
 
             URL_Add("plain text", "https://en.wiktionary.org/wiki/plain_text#Noun");
 
+            URL_Add("London System", "https://en.wikipedia.org/wiki/London_System");
+
+            URL_Add("Scandinavian Defense", "https://en.wikipedia.org/wiki/Scandinavian_Defense");
+
+            URL_Add("Scandinavian", "https://en.wiktionary.org/wiki/Scandinavian#Adjective");
+
+            URL_Add("scandal", "https://en.wiktionary.org/wiki/scandal#Noun");
+
+            URL_Add("scandalous", "https://en.wiktionary.org/wiki/scandalous#Adjective");
+
+            URL_Add("the OGL scandal", "https://en.wikipedia.org/wiki/Open_Game_License#Leaked_OGL1.1_draft");
+
             URL_Add("matrix", "https://en.wiktionary.org/wiki/matrix#Noun");
 
             URL_Add("Eisenhower matrix", "https://en.wikipedia.org/wiki/Time_management#The_Eisenhower_Method");
@@ -142895,15 +142931,127 @@ namespace OverflowHelper.core
 
             URL_Add("Hessian matrix", "https://en.wikipedia.org/wiki/Hessian_matrix");
 
+            URL_Add("uMatrix", "https://addons.mozilla.org/en-US/firefox/addon/umatrix/");
+
             URL_Add("Jacobian", "https://en.wiktionary.org/wiki/Jacobian#Adjective");
 
             URL_Add("Jacobian matrix", "https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant");
 
-            URL_Add("keyboard matrix scan rate", "https://michael.stapelberg.ch/posts/2021-05-08-keyboard-input-latency-qmk-kinesis/");
-
             URL_Add("Japanese duplex matrix", "https://kbd.news/The-Japanese-duplex-matrix-1391.html");
 
-            URL_Add("uMatrix", "https://addons.mozilla.org/en-US/firefox/addon/umatrix/");
+            URL_Add("keyboard matrix scan rate", "https://michael.stapelberg.ch/posts/2021-05-08-keyboard-input-latency-qmk-kinesis/");
+
+            URL_Add("scan", "https://en.wiktionary.org/wiki/scan#Verb");
+
+            URL_Add("scans", "https://en.wiktionary.org/wiki/scan#Verb");
+
+            URL_Add("scanner", "https://en.wiktionary.org/wiki/scanner#Noun");
+
+            URL_Add("scanned", "https://en.wiktionary.org/wiki/scan#Verb");
+
+            URL_Add("rescanned", "https://en.wiktionary.org/wiki/rescan#Verb");
+
+            URL_Add("scannability", "https://en.wiktionary.org/wiki/scannability#Noun");
+
+            URL_Add("scannable", "https://en.wiktionary.org/wiki/scannable#Adjective");
+
+            URL_Add("scancode", "https://en.wiktionary.org/wiki/scancode#Noun");
+
+            URL_Add("Google PhotoScan", "https://en.wikipedia.org/wiki/Google_Photos#History");
+
+            URL_Add("CT scan", "https://en.wikipedia.org/wiki/CT_scan");
+
+            URL_Add("port scanner", "https://en.wikipedia.org/wiki/Port_scanner");
+
+            URL_Add("port forwarding", "https://en.wikipedia.org/wiki/Port_forwarding");
+
+            URL_Add("port number", "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers");
+
+            URL_Add("port 137", "https://www.grc.com/port_137.htm");
+
+            URL_Add("port 138", "https://www.grc.com/port_138.htm");
+
+            URL_Add("port 139", "https://www.grc.com/port_139.htm");
+
+            URL_Add("port 443", "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports");
+
+            URL_Add("port 445", "https://www.grc.com/port_445.htm");
+
+            URL_Add("HTTP", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol");
+
+            URL_Add("HTTP/1.1", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#History");
+
+            URL_Add("HTTP/2", "https://en.wikipedia.org/wiki/HTTP/2");
+
+            URL_Add("HTTP basic access authentication", "https://en.wikipedia.org/wiki/Basic_access_authentication");
+
+            URL_Add("POST", "https://en.wikipedia.org/wiki/POST_%28HTTP%29");
+
+            URL_Add("GET", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods");
+
+            URL_Add("PUT", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods");
+
+            URL_Add("HTTP.sys", "https://docs.microsoft.com/en-us/iis/get-started/introduction-to-iis/introduction-to-iis-architecture#hypertext-transfer-protocol-stack-httpsys");
+
+            URL_Add("HTTP/1.0", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#HTTP/1.0");
+
+            URL_Add("HTTPS", "https://en.wikipedia.org/wiki/HTTPS"); // Old: https://en.wikipedia.org/wiki/HTTP_Secure
+
+            URL_Add("HTTP/3", "https://en.wikipedia.org/wiki/HTTP/3");
+
+            URL_Add("HTTP 404", "https://en.wikipedia.org/wiki/HTTP_404");
+
+            URL_Add("HTTPie", "https://www.redhat.com/sysadmin/curl-hack-httpie");
+
+            URL_Add("HTTP Live Streaming", "https://en.wikipedia.org/wiki/HTTP_Live_Streaming");
+
+            URL_Add("HTTPX", "https://www.python-httpx.org/");
+
+            URL_Add("HTTPd", "https://en.wikipedia.org/wiki/Httpd");
+
+            URL_Add("HTTP request smuggling", "https://en.wikipedia.org/wiki/HTTP_request_smuggling");
+
+            URL_Add("HTTPS Everywhere", "https://en.wikipedia.org/wiki/HTTPS_Everywhere");
+
+            URL_Add("FireFTP", "https://en.wikipedia.org/wiki/FireFTP");
+
+            URL_Add("FTPS", "https://en.wikipedia.org/wiki/FTPS");
+
+            URL_Add("SFTP", "https://en.wikipedia.org/wiki/SFTP");
+
+            URL_Add("UDP", "https://en.wikipedia.org/wiki/User_Datagram_Protocol");
+
+            URL_Add("FTP", "https://en.wikipedia.org/wiki/File_Transfer_Protocol");
+
+            URL_Add("Trivial File Transfer Protocol", "https://en.wikipedia.org/wiki/Trivial_File_Transfer_Protocol");
+
+            URL_Add("NNTP", "https://en.wikipedia.org/wiki/Network_News_Transfer_Protocol");
+
+            URL_Add("SMTP", "https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol");
+
+            URL_Add("MTP", "https://en.wikipedia.org/wiki/Media_Transfer_Protocol");
+
+            URL_Add("MTA", "https://en.wikipedia.org/wiki/Message_transfer_agent");
+
+            URL_Add("DHCP", "https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol");
+
+            URL_Add("WAP", "https://en.wikipedia.org/wiki/Wireless_Application_Protocol");
+
+            URL_Add("RTMP", "https://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol");
+
+            URL_Add("Jabber", "https://en.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol");
+
+            URL_Add("RDP", "https://en.wikipedia.org/wiki/Remote_Desktop_Protocol");
+
+            URL_Add("POP3", "https://en.wikipedia.org/wiki/Post_Office_Protocol");
+
+            URL_Add("IPOPT", "https://en.wikipedia.org/wiki/IPOPT");
+
+            URL_Add("RTSP", "https://en.wikipedia.org/wiki/Real_Time_Streaming_Protocol");
+
+            URL_Add("ICMP", "https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol");
+
+            URL_Add("DCL", "https://en.wikipedia.org/wiki/DIGITAL_Command_Language");
 
             URL_Add("principal minor", "https://mathematica.stackexchange.com/questions/154018/principal-submatrix-and-principal-minor-of-a-matrix");
 
@@ -143698,34 +143846,6 @@ namespace OverflowHelper.core
             URL_Add("NAS", "https://en.wikipedia.org/wiki/Network-attached_storage");
 
             URL_Add("Aria", "https://en.wikipedia.org/wiki/Aria_(storage_engine)");
-
-            URL_Add("hotspot", "https://en.wikipedia.org/wiki/Hotspot_%28Wi-Fi%29");
-
-            URL_Add("hotplug", "https://en.wiktionary.org/wiki/hotplug#Verb");
-
-            URL_Add("hotkeys", "https://en.wiktionary.org/wiki/hotkey#Noun");
-
-            URL_Add("hot take", "https://en.wiktionary.org/wiki/hot_take#Noun");
-
-            URL_Add("hot-swappable", "https://en.wiktionary.org/wiki/hot-swappable#Adjective");
-
-            URL_Add("hot Jupiter", "https://en.wikipedia.org/wiki/Hot_Jupiter");
-
-            URL_Add("Hot Network Questions", "https://meta.stackexchange.com/questions/40353/stack-exchange-glossary-dictionary-of-commonly-used-terms/40354#40354");
-
-            URL_Add("Hotmail", "https://en.wikipedia.org/wiki/Hotmail");
-
-            URL_Add("Hotel California", "https://en.wikipedia.org/wiki/Hotel_California#Themes_and_interpretations");
-
-            URL_Add("Hot Corners", "https://citymacsite.wordpress.com/2018/07/07/hot-corners-in-macos-what-they-are-and-how-to-use-them/");
-
-            URL_Add("HotSpot", "https://en.wikipedia.org/wiki/HotSpot_(virtual_machine)");
-
-            URL_Add("swap out", "https://en.wiktionary.org/wiki/swap_out#Verb");
-
-            URL_Add("XOR swap algorithm", "https://en.wikipedia.org/wiki/XOR_swap_algorithm");
-
-            URL_Add("SIM swap scam", "https://en.wikipedia.org/wiki/SIM_swap_scam");
 
             URL_Add("load test", "https://en.wikipedia.org/wiki/Software_load_testing");
 
@@ -147827,100 +147947,6 @@ namespace OverflowHelper.core
 
             URL_Add("GLR", "https://en.wikipedia.org/wiki/GLR_parser");
 
-            URL_Add("scanner", "https://en.wiktionary.org/wiki/scanner#Noun");
-
-            URL_Add("port scanner", "https://en.wikipedia.org/wiki/Port_scanner");
-
-            URL_Add("port forwarding", "https://en.wikipedia.org/wiki/Port_forwarding");
-
-            URL_Add("port number", "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers");
-
-            URL_Add("port 137", "https://www.grc.com/port_137.htm");
-
-            URL_Add("port 138", "https://www.grc.com/port_138.htm");
-
-            URL_Add("port 139", "https://www.grc.com/port_139.htm");
-
-            URL_Add("port 443", "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports");
-
-            URL_Add("port 445", "https://www.grc.com/port_445.htm");
-
-            URL_Add("HTTP", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol");
-
-            URL_Add("HTTP/1.1", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#History");
-
-            URL_Add("HTTP/2", "https://en.wikipedia.org/wiki/HTTP/2");
-
-            URL_Add("HTTP basic access authentication", "https://en.wikipedia.org/wiki/Basic_access_authentication");
-
-            URL_Add("POST", "https://en.wikipedia.org/wiki/POST_%28HTTP%29");
-
-            URL_Add("GET", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods");
-
-            URL_Add("PUT", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods");
-
-            URL_Add("HTTP.sys", "https://docs.microsoft.com/en-us/iis/get-started/introduction-to-iis/introduction-to-iis-architecture#hypertext-transfer-protocol-stack-httpsys");
-
-            URL_Add("HTTP/1.0", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#HTTP/1.0");
-
-            URL_Add("HTTPS", "https://en.wikipedia.org/wiki/HTTPS"); // Old: https://en.wikipedia.org/wiki/HTTP_Secure
-
-            URL_Add("HTTP/3", "https://en.wikipedia.org/wiki/HTTP/3");
-
-            URL_Add("HTTP 404", "https://en.wikipedia.org/wiki/HTTP_404");
-
-            URL_Add("HTTPie", "https://www.redhat.com/sysadmin/curl-hack-httpie");
-
-            URL_Add("HTTP Live Streaming", "https://en.wikipedia.org/wiki/HTTP_Live_Streaming");
-
-            URL_Add("HTTPX", "https://www.python-httpx.org/");
-
-            URL_Add("HTTPd", "https://en.wikipedia.org/wiki/Httpd");
-
-            URL_Add("HTTP request smuggling", "https://en.wikipedia.org/wiki/HTTP_request_smuggling");
-
-            URL_Add("HTTPS Everywhere", "https://en.wikipedia.org/wiki/HTTPS_Everywhere");
-
-            URL_Add("FireFTP", "https://en.wikipedia.org/wiki/FireFTP");
-
-            URL_Add("FTPS", "https://en.wikipedia.org/wiki/FTPS");
-
-            URL_Add("SFTP", "https://en.wikipedia.org/wiki/SFTP");
-
-            URL_Add("UDP", "https://en.wikipedia.org/wiki/User_Datagram_Protocol");
-
-            URL_Add("FTP", "https://en.wikipedia.org/wiki/File_Transfer_Protocol");
-
-            URL_Add("Trivial File Transfer Protocol", "https://en.wikipedia.org/wiki/Trivial_File_Transfer_Protocol");
-
-            URL_Add("NNTP", "https://en.wikipedia.org/wiki/Network_News_Transfer_Protocol");
-
-            URL_Add("SMTP", "https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol");
-
-            URL_Add("MTP", "https://en.wikipedia.org/wiki/Media_Transfer_Protocol");
-
-            URL_Add("MTA", "https://en.wikipedia.org/wiki/Message_transfer_agent");
-
-            URL_Add("DHCP", "https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol");
-
-            URL_Add("WAP", "https://en.wikipedia.org/wiki/Wireless_Application_Protocol");
-
-            URL_Add("RTMP", "https://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol");
-
-            URL_Add("Jabber", "https://en.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol");
-
-            URL_Add("RDP", "https://en.wikipedia.org/wiki/Remote_Desktop_Protocol");
-
-            URL_Add("POP3", "https://en.wikipedia.org/wiki/Post_Office_Protocol");
-
-            URL_Add("IPOPT", "https://en.wikipedia.org/wiki/IPOPT");
-
-            URL_Add("RTSP", "https://en.wikipedia.org/wiki/Real_Time_Streaming_Protocol");
-
-            URL_Add("ICMP", "https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol");
-
-            URL_Add("DCL", "https://en.wikipedia.org/wiki/DIGITAL_Command_Language");
-
             URL_Add("Brazilian", "https://en.wiktionary.org/wiki/Brazilian#Noun");
 
             URL_Add("Brazilian real", "https://en.wikipedia.org/wiki/Brazilian_real");
@@ -150673,6 +150699,10 @@ namespace OverflowHelper.core
 
             // Aviation
             correctionAdd("PIT_", "Pittsburgh International Airport_");
+
+            // Aviation
+            correctionAdd("KMIA_", "Miami International Airport_");
+            correctionAdd("MIA_", "Miami International Airport_");
 
             // An airliner. Aviation
             correctionAdd("PIA_", "Pakistan International Airlines_");
@@ -154587,7 +154617,7 @@ namespace OverflowHelper.core
             correctionAdd("csps_", "keycaps_"); // A true typo (of the shorthand "caps")
             correctionAdd("caps_", "keycaps_");
 
-            // Intended to be the adjective
+            // The verb, but it was intended to be the adjective
             //
             // For example, mechanical keyboards
             //
@@ -170201,8 +170231,6 @@ namespace OverflowHelper.core
 
             URL_Add("aircraft_", "https://en.wiktionary.org/wiki/aircraft#Noun");
 
-            URL_Add("airport_", "https://en.wikipedia.org/wiki/Airport");
-
             URL_Add("propeller_", "https://en.wiktionary.org/wiki/prop#Noun_3");
 
             URL_Add("loss of control_", "https://en.wikipedia.org/wiki/Loss_of_control_(aeronautics)");
@@ -170225,9 +170253,13 @@ namespace OverflowHelper.core
 
             URL_Add("air defence_", "https://en.wikipedia.org/wiki/Anti-aircraft_warfare");
 
-            URL_Add("Pittsburgh International Airport_", "https://en.wikipedia.org/wiki/Pittsburgh_International_Airport");
+            URL_Add("airport_", "https://en.wikipedia.org/wiki/Airport");
 
             URL_Add("Brussels Airport_", "https://en.wikipedia.org/wiki/Brussels_Airport");
+
+            URL_Add("Pittsburgh International Airport_", "https://en.wikipedia.org/wiki/Pittsburgh_International_Airport");
+
+            URL_Add("Miami International Airport_", "https://en.wikipedia.org/wiki/Miami_International_Airport");
 
             URL_Add("Indira Gandhi International Airport_", "https://en.wikipedia.org/wiki/Indira_Gandhi_International_Airport");
 
@@ -172811,6 +172843,11 @@ namespace OverflowHelper.core
             correctionAdd("GA__", "go-around__");
 
             // An aircraft
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=2wcD3OLoQi8>
+            //
             correctionAdd("P-38 Lightning__", "Lockheed P-38 Lightning__");
             correctionAdd("P 38 lightning__", "Lockheed P-38 Lightning__");
             correctionAdd("Lightning__", "Lockheed P-38 Lightning__");
