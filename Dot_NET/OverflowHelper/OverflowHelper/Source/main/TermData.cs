@@ -14754,6 +14754,10 @@ namespace OverflowHelper.core
             correctionAdd("Schrödinger", "Schrödinger equation");
             correctionAdd("Schrodinger", "Schrödinger equation");
             correctionAdd("Shroedinger", "Schrödinger equation");
+            correctionAdd("SHROEDINGER", "Schrödinger equation");
+            correctionAdd("SCHRODINGER", "Schrödinger equation");
+            correctionAdd("schrodinger", "Schrödinger equation");
+            correctionAdd("SHRODINGER", "Schrödinger equation");
 
             correctionAdd("schrödinger's cat", "Schrödinger's cat");
             correctionAdd("Schrodinger's cat", "Schrödinger's cat");
@@ -68951,6 +68955,8 @@ namespace OverflowHelper.core
             correctionAdd("NEOVIM", "Neovim");
             correctionAdd("nvim", "Neovim");
 
+            correctionAdd("lazyvim", "LazyVim");
+
             correctionAdd("macvim", "MacVim");
 
             correctionAdd("vimgolf", "VimGolf");
@@ -83678,8 +83684,8 @@ namespace OverflowHelper.core
             correctionAdd("X0", "Keychron Lemokey X0");
             correctionAdd("x0", "Keychron Lemokey X0");
 
-            // A 34-key (30%) wired-only QMK/Via-capable
-            // macro pad/game pad without a knob.
+            // A 34-key (30%) wired-only closed source (but with
+            // Via support) macro pad/game pad without a knob.
             //
             // Related:
             //
@@ -85488,6 +85494,11 @@ namespace OverflowHelper.core
             //
             //   * Proprietary keyboard firmware, not open source
             //
+            //   * Like the J HE 8K series, the Q HE 8K series
+            //     is wired-only (note that '2.4 GHz' for the
+            //     comparison with the Q HE and Q Max series
+            //     causes confusion...)
+            //
             //   * K HE and Q HE series:
             //
             //     South pole facing downward (uncommon)
@@ -86285,15 +86296,20 @@ namespace OverflowHelper.core
             //
             correctionAdd("rejesk", "reJESK");
 
-            // A 70-key (65%. Not true TKL) severely crippled wired
-            // and wireless (both Bluetooth and '2.4 GHz')
-            // proprietary firmware (likely ripped off QMK)
+            // A 70-key (65%. Not true TKL) severely crippled wired-only
+            // closed source (but with Via support) proprietary firmware
+            // (likely ripped off QMK)
             // mechanical keyboard with a knob from
             // Keychron.
             //
             // Notes:
             //
             //   * Proprietary keyboard firmware, not open source
+            //
+            //   * Like the J HE 8K series, the Q HE 8K series
+            //     is wired-only (note that '2.4 GHz' for the
+            //     comparison with the Q HE and Q Max series
+            //     causes confusion...)
             //
             //   * K HE and Q HE series:
             //
@@ -87040,9 +87056,9 @@ namespace OverflowHelper.core
             correctionAdd("Q1 Ultra", "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K");
             correctionAdd("Q1 ultra", "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K");
 
-            // A 82-key (80%. Not true TKL) crippled wired and wireless
-            // (both Bluetooth and '2.4 GHz') QMK/Via-capable
-            // mechanical keyboard with a knob from Keychron.
+            // A 82-key (80%. Not true TKL) crippled wired-only
+            // closed source (but with Via support) mechanical
+            // keyboard with a knob from Keychron.
             //
             // Has Hall sensor (HE) switches.
             // 82 keys in the ISO variant.
@@ -87056,6 +87072,11 @@ namespace OverflowHelper.core
             //
             //     No mention of QMK (so it may never be open sourced)
             //     See the notes for Q6 HE 8K.
+            //
+            //   * Like the J HE 8K series, the Q HE 8K series
+            //     is wired-only (note that '2.4 GHz' for the
+            //     comparison with the Q HE and Q Max series
+            //     causes confusion...)
             //
             //   * With a 8 kHz USB polling rate
             //
@@ -87778,8 +87799,8 @@ namespace OverflowHelper.core
             correctionAdd("j2", "Keychron&nbsp;J2");
             correctionAdd("J2", "Keychron&nbsp;J2");
 
-            // A 83-key (80%. Not true TKL) crippled wired and wireless
-            // (both Bluetooth and '2.4 GHz') QMK/Via-capable
+            // A 83-key (80%. Not true TKL) crippled wired-only
+            // closed source (but with Via support)
             // mechanical keyboard with a knob from Keychron.
             //
             // Like Keychron J2, but with Hall sensor (HE) switches.
@@ -87792,6 +87813,9 @@ namespace OverflowHelper.core
             // Notes:
             //
             //   * Proprietary keyboard firmware, not open source
+            //
+            //   * Like the Q HE 8K series, the J HE 8K series
+            //     is wired-only
             //
             //   * K HE and Q HE series:
             //
@@ -89358,6 +89382,11 @@ namespace OverflowHelper.core
             // Notes:
             //
             //   * Proprietary keyboard firmware, not open source
+            //
+            //   * Like the J HE 8K series, the Q HE 8K series
+            //     is wired-only (note that '2.4 GHz' for the
+            //     comparison with the Q HE and Q Max series
+            //     causes confusion...)
             //
             //   * K HE and Q HE series:
             //
@@ -93427,8 +93456,8 @@ namespace OverflowHelper.core
             correctionAdd("Q6 ULTRA", "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K");
 
             // A 109-key (105%. Not true TKL) full-size wired-only
-            // closed source (but with Via support)
-            // mechanical keyboard with a knob from Keychron.
+            // closed source (but with Via support) mechanical
+            // keyboard with a knob from Keychron.
             //
             // In the Q HE 8K series.
             //
@@ -93441,6 +93470,11 @@ namespace OverflowHelper.core
             //
             //       <https://www.reddit.com/r/Keychron/comments/1tesozl/comment/om4rt3s/>
             //         All the HE 8K boards.
+            //
+            //   * Like the J HE 8K series, the Q HE 8K series
+            //     is wired-only (note that '2.4 GHz' for the
+            //     comparison with the Q HE and Q Max series
+            //     causes confusion...)
             //
             //   * ISO variants have not been released as of 2026-02-07
             //
@@ -96729,6 +96763,7 @@ namespace OverflowHelper.core
             correctionAdd("though experiment", "thought experiment");
 
             correctionAdd("double slit experiment", "double-slit experiment");
+            correctionAdd("Double slit experiment", "double-slit experiment");
 
             correctionAdd("Michelson-Morley experiment", "Michelson–Morley experiment");
 
@@ -103359,6 +103394,8 @@ namespace OverflowHelper.core
             correctionAdd("Norbidek", "Nodirbek Abdusattorov");
 
             // Chess
+            correctionAdd("The Proven One", "Javokhir Sindarov");
+            correctionAdd("the proven one", "Javokhir Sindarov");
             correctionAdd("Sindarov", "Javokhir Sindarov");
 
             // Chess
@@ -143245,6 +143282,8 @@ namespace OverflowHelper.core
 
             URL_Add("Neovim", "https://en.wikipedia.org/wiki/Vim_(text_editor)#Neovim");
 
+            URL_Add("LazyVim", "https://github.com/LazyVim/LazyVim/blob/main/README.md");
+
             URL_Add("$HOME/.vimrc", "https://en.wikipedia.org/wiki/Vim_(text_editor)#Vim_script");
 
             URL_Add("IdeaVim", "https://github.com/JetBrains/ideavim");
@@ -144201,6 +144240,8 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;Q6&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-q6-he-8k-magnetic-switch-keyboard");
 
+            URL_Add("Keychron&nbsp;Q16&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-q16-he-8k-magnetic-switch-keyboard");
+
             URL_Add("Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K", "https://www.keychron.com/products/keychron-q1-ultra-8k-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron&nbsp;Q3&nbsp;Ultra&nbsp;8K", "https://www.keychron.com/products/keychron-q3-ultra-8k-wireless-custom-mechanical-keyboard");
@@ -144212,8 +144253,6 @@ namespace OverflowHelper.core
             URL_Add("Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)", "https://www.keychron.com/products/keychron-q11-ultra-8k-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron&nbsp;Q13&nbsp;Ultra&nbsp;8K (100%)", "https://www.keychron.com/products/keychron-q13-ultra-8k-wireless-custom-mechanical-keyboard");
-
-            URL_Add("Keychron&nbsp;Q16&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-q16-he-8k-magnetic-switch-keyboard");
 
             URL_Add("Keychron V1 ISO", "https://www.keychron.com/products/keychron-v1-qmk-custom-mechanical-keyboard-iso-layout-collection");
 
