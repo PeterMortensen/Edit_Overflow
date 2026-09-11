@@ -13577,6 +13577,12 @@ namespace OverflowHelper.core
 
             correctionAdd("scanns", "scans");
 
+            correctionAdd("Theory", "theory");
+            correctionAdd("pheory", "theory");
+            correctionAdd("thero", "theory");
+
+            correctionAdd("Theory of Computation", "theory of computation");
+
             correctionAdd("stratosfere", "stratosphere");
 
             correctionAdd("telesope", "telescope");
@@ -14794,6 +14800,25 @@ namespace OverflowHelper.core
             // A quantum field theory
             correctionAdd("CFT", "conformal field theory");
 
+            correctionAdd("de Broglie", "Louis de Broglie");
+            correctionAdd("De Broglie", "Louis de Broglie");
+            correctionAdd("Broglie", "Louis de Broglie");
+
+            correctionAdd("de Broglie-Bohm theory", "de Broglie–Bohm theory");
+            correctionAdd("Bohm's interpretation", "de Broglie–Bohm theory");
+            correctionAdd("Bohm interpretation", "de Broglie–Bohm theory");
+            correctionAdd("De broglie formula", "de Broglie–Bohm theory");
+            correctionAdd("pilot wave theory", "de Broglie–Bohm theory");
+            correctionAdd("Bohmian mechanics", "de Broglie–Bohm theory");
+            correctionAdd("Pilot wave", "de Broglie–Bohm theory");
+            correctionAdd("pilot wave", "de Broglie–Bohm theory");
+
+            correctionAdd("de-Broglie wavelength", "de Broglie wavelength");
+
+            correctionAdd("String Theory", "string theory");
+            correctionAdd("String theory", "string theory");
+            correctionAdd("stringtheory", "string theory");
+
             correctionAdd("Quantum Chromodynamics", "quantum chromodynamics");
             correctionAdd("QCD", "quantum chromodynamics");
 
@@ -14860,19 +14885,6 @@ namespace OverflowHelper.core
 
             correctionAdd("super-positions", "superpositions");
 
-            correctionAdd("de Broglie", "Louis de Broglie");
-            correctionAdd("De Broglie", "Louis de Broglie");
-            correctionAdd("Broglie", "Louis de Broglie");
-
-            correctionAdd("de Broglie-Bohm theory", "de Broglie–Bohm theory");
-            correctionAdd("Bohm's interpretation", "de Broglie–Bohm theory");
-            correctionAdd("Bohm interpretation", "de Broglie–Bohm theory");
-            correctionAdd("De broglie formula", "de Broglie–Bohm theory");
-            correctionAdd("pilot wave theory", "de Broglie–Bohm theory");
-            correctionAdd("Bohmian mechanics", "de Broglie–Bohm theory");
-
-            correctionAdd("de-Broglie wavelength", "de Broglie wavelength");
-
             correctionAdd("Born", "Max Born");
 
             correctionAdd("Born Rule", "Born rule");
@@ -14902,10 +14914,6 @@ namespace OverflowHelper.core
             // A simulation method, e.g. used in fluid dynamics
             correctionAdd("smoothed particle hydrodynamics", "smoothed-particle hydrodynamics");
             correctionAdd("SPH", "smoothed-particle hydrodynamics");
-
-            correctionAdd("String Theory", "string theory");
-            correctionAdd("String theory", "string theory");
-            correctionAdd("stringtheory", "string theory");
 
             // Not to be confused with PhysicsOverflow,
             // <https://en.wikipedia.org/wiki/PhysicsOverflow>
@@ -55777,11 +55785,6 @@ namespace OverflowHelper.core
             correctionAdd("non-matching", "nonmatching");
 
             correctionAdd("non matched", "nonmatched");
-
-            correctionAdd("Theory", "theory");
-            correctionAdd("thero", "theory");
-
-            correctionAdd("Theory of Computation", "theory of computation");
 
             correctionAdd("glitsy", "glitchy");
 
