@@ -15035,6 +15035,7 @@ namespace OverflowHelper.core
             correctionAdd("physist", "physicist");
 
             // A physicist
+            correctionAdd("Neils Bohr", "Niels Bohr");
             correctionAdd("Bohr", "Niels Bohr");
 
             // A physicist. Particle physics
@@ -15655,6 +15656,11 @@ namespace OverflowHelper.core
             correctionAdd("Diamond", "diamond");
 
             correctionAdd("Graphene", "graphene");
+
+            // C60
+            correctionAdd("Buckminsterfullerene", "buckminsterfullerene");
+            correctionAdd("buckyballs", "buckminsterfullerene");
+            correctionAdd("buckyball", "buckminsterfullerene");
 
             correctionAdd("Carbon Dioxide", "carbon dioxide");
             correctionAdd("carbondioxide", "carbon dioxide");
@@ -25473,6 +25479,7 @@ namespace OverflowHelper.core
             correctionAdd("should'nt", "shouldn’t");
             correctionAdd("shouldn´t", "shouldn’t");
             correctionAdd("Shouldn´t", "shouldn’t");
+            correctionAdd("Shouldn’t", "shouldn’t");
             correctionAdd("shouldnt", "shouldn’t");
             correctionAdd("Shoudn't", "shouldn’t");
             correctionAdd("shoudn't", "shouldn’t");
@@ -25484,6 +25491,8 @@ namespace OverflowHelper.core
             correctionAdd("Should'n", "shouldn’t");
             correctionAdd("should'n", "shouldn’t");
             correctionAdd("shouldn'", "shouldn’t");
+            correctionAdd("Shouln't", "shouldn’t");
+            correctionAdd("shouln't", "shouldn’t");
             correctionAdd("shoudnt", "shouldn’t");
             correctionAdd("shuldnt", "shouldn’t");
             correctionAdd("shoulnt", "shouldn’t");
@@ -65212,6 +65221,8 @@ namespace OverflowHelper.core
             // An Italian keyboard layout
             correctionAdd("142", "IBM 142");
 
+            correctionAdd("Turkish keyboard", "Turkish keyboard layout");
+
             correctionAdd("US-International layout", "US-International keyboard layout");
             correctionAdd("US international layout", "US-International keyboard layout");
             correctionAdd("QWERTY international", "US-International keyboard layout");
@@ -67956,6 +67967,7 @@ namespace OverflowHelper.core
             correctionAdd("alt gr", "AltGr key");
             correctionAdd("ALT GR", "AltGr key");
             correctionAdd("Alt GR", "AltGr key");
+            correctionAdd("Alt gr", "AltGr key");
             correctionAdd("altgr", "AltGr key");
             correctionAdd("AltGr", "AltGr key");
             correctionAdd("AltGR", "AltGr key");
@@ -72000,6 +72012,9 @@ namespace OverflowHelper.core
 
             // A kind of glue
             correctionAdd("two component adhesive", "two-component adhesive");
+
+            // Self-curing (24 hours) adhesive silicone rubber
+            correctionAdd("sugru", "Sugru");
 
             correctionAdd("Trap Representation", "trap representation");
 
@@ -94533,11 +94548,15 @@ namespace OverflowHelper.core
             //
             //   <https://www.keychron.com/pages/keychron-q1-max-user-manual>
             //
+            correctionAdd("K10 ultra", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
+            correctionAdd("Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
             correctionAdd("Keychron K10 Ultra 8K (105%)", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)"); // Sort of identity mapping
             correctionAdd("Keychron K10 Ultra 8K (100%)", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
+            correctionAdd("Keychron K10 Ultra 8K", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
+            correctionAdd("keychron k10 ultra", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
             correctionAdd("K10 Ultra 8K", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
             correctionAdd("K10 Ultra", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
-            correctionAdd("K10 ultra", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
+            correctionAdd("k10 ultra", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
 
             // A 109-key (105%. Not true TKL) full-size wired
             // and wireless (both Bluetooth and '2.4 GHz')
@@ -102451,6 +102470,8 @@ namespace OverflowHelper.core
             correctionAdd("Avatar", "avatar");
             correctionAdd("ava", "avatar");
 
+            correctionAdd("admist", "admit");
+
             correctionAdd("admidtedly", "admittedly");
             correctionAdd("Admittdely", "admittedly");
             correctionAdd("admittdely", "admittedly");
@@ -107177,8 +107198,7 @@ namespace OverflowHelper.core
             // The (common) verb, not simulated intelligence
             correctionAdd("Watermarking", "watermarking");
 
-            // Self-curing (24 hours) adhesive silicone rubber
-            correctionAdd("sugru", "Sugru");
+            correctionAdd("restle", "wrestle");
 
             correctionAdd("pissig", "pissing");
 
@@ -109060,10 +109080,6 @@ namespace OverflowHelper.core
 
             URL_Add("Gprof", "https://en.wikipedia.org/wiki/Gprof");
 
-            URL_Add("F-15", "https://en.wikipedia.org/wiki/McDonnell_Douglas_F-15_Eagle");
-
-            URL_Add("F-16", "https://en.wikipedia.org/wiki/General_Dynamics_F-16_Fighting_Falcon");
-
             URL_Add("please", "https://en.wiktionary.org/wiki/please#Adverb");
 
             URL_Add("one-liner", "https://en.wikipedia.org/wiki/One-liner_program");
@@ -110568,6 +110584,8 @@ namespace OverflowHelper.core
 
             URL_Add("Gravatar", "https://en.wikipedia.org/wiki/Gravatar");
 
+            URL_Add("admit", "https://en.wiktionary.org/wiki/admit#Verb");
+
             URL_Add("admittedly", "https://en.wiktionary.org/wiki/admittedly#Adverb");
 
             URL_Add("backwards", "https://en.wiktionary.org/wiki/backwards#Adverb");
@@ -110623,8 +110641,6 @@ namespace OverflowHelper.core
             URL_Add("backstab", "https://en.wiktionary.org/wiki/backstab#Verb");
 
             URL_Add("backstabbing", "https://en.wiktionary.org/wiki/backstab#Verb");
-
-            URL_Add("fought", "https://en.wiktionary.org/wiki/fight#Verb");
 
             URL_Add("satellite", "https://en.wiktionary.org/wiki/satellite#Noun");
 
@@ -118402,8 +118418,6 @@ namespace OverflowHelper.core
 
             URL_Add("DeFi", "https://en.wikipedia.org/wiki/Decentralized_finance");
 
-            URL_Add("infantry fighting vehicle", "https://en.wikipedia.org/wiki/Infantry_fighting_vehicle");
-
             URL_Add("New Guinea", "https://en.wikipedia.org/wiki/New_Guinea");
 
             URL_Add("Stacks", "https://stackoverflow.design/");
@@ -124466,7 +124480,75 @@ namespace OverflowHelper.core
 
             URL_Add("copiable", "https://en.wiktionary.org/wiki/copiable#Adjective");
 
+            URL_Add("wrestle", "https://en.wiktionary.org/wiki/wrestle#Verb");
+
+            URL_Add("fought", "https://en.wiktionary.org/wiki/fight#Verb");
+
             URL_Add("fighters", "https://en.wiktionary.org/wiki/fighter#Noun");
+
+            URL_Add("infantry fighting vehicle", "https://en.wikipedia.org/wiki/Infantry_fighting_vehicle");
+
+            URL_Add("firefight", "https://en.wiktionary.org/wiki/firefight#Noun"); // Old: https://en.wiktionary.org/wiki/firefight
+
+            URL_Add("firefighting", "https://en.wiktionary.org/wiki/firefighting#Noun");
+
+            URL_Add("Eurofighter Typhoon", "https://en.wikipedia.org/wiki/Eurofighter_Typhoon");
+
+            URL_Add("F-15", "https://en.wikipedia.org/wiki/McDonnell_Douglas_F-15_Eagle");
+
+            URL_Add("F-16", "https://en.wikipedia.org/wiki/General_Dynamics_F-16_Fighting_Falcon");
+
+            URL_Add("refire", "https://en.wiktionary.org/wiki/refire#Verb");
+
+            URL_Add("fire risk", "https://www.collinsdictionary.com/dictionary/english/fire-risk");
+
+            URL_Add("wildfire", "https://en.wiktionary.org/wiki/wildfire#Noun");
+
+            URL_Add("backfire", "https://en.wiktionary.org/wiki/backfire#Verb");
+
+            URL_Add("sure-fire", "https://en.wiktionary.org/wiki/sure-fire#Adjective");
+
+            URL_Add("misfires", "https://en.wiktionary.org/wiki/misfire#Noun");
+
+            URL_Add("misfiring", "https://en.wiktionary.org/wiki/misfire#Verb");
+
+            URL_Add("St. Elmo's fire", "https://en.wikipedia.org/wiki/St._Elmo%27s_fire");
+
+            URL_Add("firewood", "https://en.wiktionary.org/wiki/firewood#Noun");
+
+            URL_Add("ceasefire", "https://en.wiktionary.org/wiki/ceasefire#Noun");
+
+            URL_Add("FIRE", "https://en.wikipedia.org/wiki/FIRE_movement");
+
+            URL_Add("firewall", "https://en.wikipedia.org/wiki/Firewall_(computing)");
+
+            URL_Add("web application firewall", "https://en.wikipedia.org/wiki/Web_application_firewall");
+
+            URL_Add("firewalld", "https://en.wikipedia.org/wiki/Firewalld");
+
+            URL_Add("UFW", "https://en.wikipedia.org/wiki/Uncomplicated_Firewall");
+
+            URL_Add("Firefly", "https://en.wikipedia.org/wiki/Firefly_(TV_series)");
+
+            URL_Add("Firesheep", "https://en.wikipedia.org/wiki/Firesheep");
+
+            URL_Add("FireWire", "https://en.wikipedia.org/wiki/IEEE_1394");
+
+            URL_Add("FireMonkey", "https://en.wikipedia.org/wiki/FireMonkey");
+
+            URL_Add("Firebase", "https://en.wikipedia.org/wiki/Firebase");
+
+            URL_Add("Firebase Realtime Database", "https://firebase.google.com/docs/database/");
+
+            URL_Add("Euro Truck Simulator 2", "https://en.wikipedia.org/wiki/Euro_Truck_Simulator_2");
+
+            URL_Add("Eurowings", "https://en.wikipedia.org/wiki/Eurowings");
+
+            URL_Add("EuroLinux", "https://en.wikipedia.org/wiki/EuroLinux");
+
+            URL_Add("euro", "https://en.wiktionary.org/wiki/euro#Noun");
+
+            URL_Add("Eurocent", "https://en.wiktionary.org/wiki/Eurocent#Noun");
 
             URL_Add("ridiculously", "https://en.wiktionary.org/wiki/ridiculously#Adverb");
 
@@ -126144,17 +126226,23 @@ namespace OverflowHelper.core
 
             URL_Add("unhiding", "https://en.wiktionary.org/wiki/unhide#Verb");
 
-            URL_Add("Euro Truck Simulator 2", "https://en.wikipedia.org/wiki/Euro_Truck_Simulator_2");
+            URL_Add("V-USB", "https://github.com/obdev/v-usb");
 
-            URL_Add("Eurofighter Typhoon", "https://en.wikipedia.org/wiki/Eurofighter_Typhoon");
+            URL_Add("FirebaseUI", "https://github.com/firebase/FirebaseUI-Android");
 
-            URL_Add("Eurowings", "https://en.wikipedia.org/wiki/Eurowings");
+            URL_Add("Firebase CLI", "https://firebase.google.com/docs/cli/");
 
-            URL_Add("EuroLinux", "https://en.wikipedia.org/wiki/EuroLinux");
+            URL_Add("Firestore", "https://en.wikipedia.org/wiki/Firebase#Firebase_Cloud_Firestore");
 
-            URL_Add("euro", "https://en.wiktionary.org/wiki/euro#Noun");
+            URL_Add("FlutterFire", "https://firebase.flutter.dev/docs/overview/");
 
-            URL_Add("Eurocent", "https://en.wiktionary.org/wiki/Eurocent#Noun");
+            URL_Add("Firebase Cloud Messaging", "https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging");
+
+            URL_Add("Wayfire", "https://wiki.gentoo.org/wiki/Wayfire");
+
+            URL_Add("Firebird", "https://en.wikipedia.org/wiki/Firebird_(database_server)");
+
+            URL_Add("FirePath", "https://stackoverflow.com/questions/41992056/why-doesnt-firepath-work-anymore-since-firefox-51-0-1");
 
             URL_Add("equator", "https://en.wiktionary.org/wiki/equator#Noun");
 
@@ -135166,71 +135254,7 @@ namespace OverflowHelper.core
 
             URL_Add("someone else", "https://en.wiktionary.org/wiki/someone_else#Pronoun");
 
-            URL_Add("refire", "https://en.wiktionary.org/wiki/refire#Verb");
-
-            URL_Add("fire risk", "https://www.collinsdictionary.com/dictionary/english/fire-risk");
-
-            URL_Add("firefight", "https://en.wiktionary.org/wiki/firefight#Noun"); // Old: https://en.wiktionary.org/wiki/firefight
-
-            URL_Add("firefighting", "https://en.wiktionary.org/wiki/firefighting#Noun");
-
-            URL_Add("wildfire", "https://en.wiktionary.org/wiki/wildfire#Noun");
-
-            URL_Add("backfire", "https://en.wiktionary.org/wiki/backfire#Verb");
-
-            URL_Add("sure-fire", "https://en.wiktionary.org/wiki/sure-fire#Adjective");
-
-            URL_Add("misfires", "https://en.wiktionary.org/wiki/misfire#Noun");
-
-            URL_Add("misfiring", "https://en.wiktionary.org/wiki/misfire#Verb");
-
-            URL_Add("St. Elmo's fire", "https://en.wikipedia.org/wiki/St._Elmo%27s_fire");
-
-            URL_Add("firewood", "https://en.wiktionary.org/wiki/firewood#Noun");
-
-            URL_Add("ceasefire", "https://en.wiktionary.org/wiki/ceasefire#Noun");
-
-            URL_Add("FIRE", "https://en.wikipedia.org/wiki/FIRE_movement");
-
-            URL_Add("firewall", "https://en.wikipedia.org/wiki/Firewall_(computing)");
-
-            URL_Add("web application firewall", "https://en.wikipedia.org/wiki/Web_application_firewall");
-
-            URL_Add("firewalld", "https://en.wikipedia.org/wiki/Firewalld");
-
-            URL_Add("UFW", "https://en.wikipedia.org/wiki/Uncomplicated_Firewall");
-
-            URL_Add("Firefly", "https://en.wikipedia.org/wiki/Firefly_(TV_series)");
-
-            URL_Add("Firesheep", "https://en.wikipedia.org/wiki/Firesheep");
-
-            URL_Add("FireWire", "https://en.wikipedia.org/wiki/IEEE_1394");
-
-            URL_Add("FireMonkey", "https://en.wikipedia.org/wiki/FireMonkey");
-
-            URL_Add("Firebase", "https://en.wikipedia.org/wiki/Firebase");
-
-            URL_Add("Firebase Realtime Database", "https://firebase.google.com/docs/database/");
-
-            URL_Add("V-USB", "https://github.com/obdev/v-usb");
-
-            URL_Add("FirebaseUI", "https://github.com/firebase/FirebaseUI-Android");
-
-            URL_Add("Firebase CLI", "https://firebase.google.com/docs/cli/");
-
-            URL_Add("Firestore", "https://en.wikipedia.org/wiki/Firebase#Firebase_Cloud_Firestore");
-
-            URL_Add("FlutterFire", "https://firebase.flutter.dev/docs/overview/");
-
-            URL_Add("Firebase Cloud Messaging", "https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging");
-
-            URL_Add("Wayfire", "https://wiki.gentoo.org/wiki/Wayfire");
-
-            URL_Add("Firebird", "https://en.wikipedia.org/wiki/Firebird_(database_server)");
-
             URL_Add("torrc", "https://tor.stackexchange.com/questions/13037/how-to-config-the-torrc-file");
-
-            URL_Add("FirePath", "https://stackoverflow.com/questions/41992056/why-doesnt-firepath-work-anymore-since-firefox-51-0-1");
 
             URL_Add("questionnaire", "https://en.wiktionary.org/wiki/questionnaire#Noun");
 
@@ -145324,6 +145348,8 @@ namespace OverflowHelper.core
 
             URL_Add("Italian keyboard layout", "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#Italian");
 
+            URL_Add("Turkish keyboard layout", "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#Turkish");
+
             URL_Add("UK keyboard layout", "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#United_Kingdom");
 
             URL_Add("Nativo (Portuguese) keyboard layout", "https://pt.wikipedia.org/wiki/BR-Nativo");
@@ -147168,6 +147194,8 @@ namespace OverflowHelper.core
 
             URL_Add("fighting game", "https://en.wikipedia.org/wiki/Fighting_game");
 
+            URL_Add("fighting game community", "https://en.wikipedia.org/wiki/Fighting_game_community");
+
             URL_Add("multiplayer", "https://en.wiktionary.org/wiki/multiplayer#Adjective");
 
             URL_Add("multiplayer online battle arena", "https://en.wikipedia.org/wiki/Multiplayer_online_battle_arena#Artificial_Intelligence_in_MOBAs");
@@ -147391,8 +147419,6 @@ namespace OverflowHelper.core
             URL_Add("Community Wiki", "https://meta.stackexchange.com/questions/11740/what-are-community-wiki-posts");
 
             URL_Add("What a very bad day at work taught me about building Stack Overflow's community", "https://stackoverflow.blog/2019/07/18/building-community-inclusivity-stack-overflow");
-
-            URL_Add("fighting game community", "https://en.wikipedia.org/wiki/Fighting_game_community");
 
             URL_Add("PyCharm Community Edition", "https://en.wikipedia.org/wiki/JetBrains#IDEs");
 
@@ -148633,6 +148659,8 @@ namespace OverflowHelper.core
             URL_Add("diamond", "https://en.wiktionary.org/wiki/diamond#Noun"); // Related to chemical element 6
 
             URL_Add("graphene", "https://en.wikipedia.org/wiki/Graphene"); // Related to chemical element 6
+
+            URL_Add("buckminsterfullerene", "https://en.wikipedia.org/wiki/Buckminsterfullerene");
 
             URL_Add("carbon dioxide", "https://en.wikipedia.org/wiki/Carbon_dioxide"); // Related to chemical element 6
 
