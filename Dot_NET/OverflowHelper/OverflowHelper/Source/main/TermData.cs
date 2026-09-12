@@ -87387,10 +87387,14 @@ namespace OverflowHelper.core
             //
             correctionAdd("V1&nbsp;Ultra&nbsp;8K", "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K");
             correctionAdd("Keychron V1 Ultra 8K", "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K"); // Sort of identity mapping
+            correctionAdd("KEYCHRON VI ULTRA 8k", "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K");
             correctionAdd("Keychron V1 Ultra", "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K");
             correctionAdd("V1 Ultra 8K", "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K");
             correctionAdd("V1 Ultra 8k", "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K");
             correctionAdd("v1 Ultra 8k", "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K");
+            correctionAdd("V1 ULTRA 8K", "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K");
+            correctionAdd("V1 ULTRA 8k", "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K");
+            correctionAdd("VI ULTRA 8k", "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K");
             correctionAdd("v1 ultra", "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K");
             correctionAdd("V1 Ultra", "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K");
 
@@ -90190,6 +90194,13 @@ namespace OverflowHelper.core
             // The split is quite asymmetric.
             //
             correctionAdd("Matias Ergo", "Matias Ergo Pro");
+
+            // A 88-key (85%. True TKL) crippled mechanical
+            // keyboard from Razer.
+            //
+            // At least the V3 Pro TKL.
+            //
+            correctionAdd("razer Huntsman", "Razer Huntsman");
 
             // A 89-key (85%. Not true TKL) crippled wired-only
             // Alice layout (a la Microsoft Natural Keyboard)
@@ -93469,6 +93480,7 @@ namespace OverflowHelper.core
             correctionAdd("Q6 Ultra 8K", "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K");
             correctionAdd("Q6 Ultra 8k", "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K");
             correctionAdd("Q6 Ultra AK", "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K"); // Simulated intelligence transcription error (YouTube)
+            correctionAdd("Q6 ultra 8k", "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K");
             correctionAdd("Q6 Ultra", "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K");
             correctionAdd("Q6 ultra", "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K");
             correctionAdd("Q6 ULTRA", "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K");
@@ -97610,6 +97622,8 @@ namespace OverflowHelper.core
             correctionAdd("Fourier Transform", "Fourier transform");
 
             correctionAdd("fourier series", "Fourier series");
+            correctionAdd("Fourrier", "Fourier series");
+            correctionAdd("Fourier", "Fourier series");
 
             correctionAdd("Fast Fourier Transforms", "FFT");
             correctionAdd("fast fourier transform", "FFT");
@@ -98310,12 +98324,14 @@ namespace OverflowHelper.core
             correctionAdd("InDesign", "Adobe InDesign");
             correctionAdd("Indesign", "Adobe InDesign");
 
-            correctionAdd("Flex Builder", "Adobe Flash Builder");
             correctionAdd("Adobe Flex Builder", "Adobe Flash Builder");
+            correctionAdd("Flex Builder", "Adobe Flash Builder");
 
             // Note: "Photoshop" is in an alternative word set
             //
             correctionAdd("photoshoping", "photoshopping");
+
+            correctionAdd("photo shopped", "photoshopped");
 
             // Adobe Flex. Conflict with the lexical analyser Flex (https://en.wikipedia.org/wiki/Flex_lexical_analyser).
             correctionAdd("Adobe Flex", "Flex");
@@ -111375,10 +111391,6 @@ namespace OverflowHelper.core
 
             URL_Add("Euclidean distance", "https://en.wiktionary.org/wiki/Euclidean_distance#Noun");
 
-            URL_Add("FFT", "https://en.wikipedia.org/wiki/Fast_Fourier_transform");
-
-            URL_Add("Fourier transform", "https://en.wikipedia.org/wiki/Fourier_transform");
-
             URL_Add("considering", "https://en.wiktionary.org/wiki/consider#Verb");
 
             URL_Add("debye", "https://en.wikipedia.org/wiki/Debye");
@@ -112794,8 +112806,6 @@ namespace OverflowHelper.core
             URL_Add("watches", "https://en.wiktionary.org/wiki/watch#Verb");
 
             URL_Add("chess", "https://en.wikipedia.org/wiki/Chess");
-
-            URL_Add("discrete Fourier transform", "https://en.wikipedia.org/wiki/Discrete_Fourier_transform");
 
             URL_Add("iPad Mini", "https://en.wikipedia.org/wiki/IPad_Mini");
 
@@ -117113,8 +117123,6 @@ namespace OverflowHelper.core
 
             URL_Add("DKIM", "https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail");
 
-            URL_Add("Fourier series", "https://en.wikipedia.org/wiki/Fourier_series");
-
             URL_Add("Psiphon", "https://en.wikipedia.org/wiki/Psiphon");
 
             URL_Add("TXT record", "https://en.wikipedia.org/wiki/TXT_record");
@@ -121146,8 +121154,6 @@ namespace OverflowHelper.core
             URL_Add("supernova", "https://en.wiktionary.org/wiki/supernova#Noun");
 
             URL_Add("cloned", "https://en.wiktionary.org/wiki/clone#Verb");
-
-            URL_Add("discrete-time Fourier transform", "https://en.wikipedia.org/wiki/Discrete-time_Fourier_transform");
 
             URL_Add("RTX", "https://en.wikipedia.org/wiki/RTX_(operating_system)");
 
@@ -130705,8 +130711,6 @@ namespace OverflowHelper.core
 
             URL_Add("Jupyter Notebook extensions", "https://github.com/ipython-contrib/jupyter_contrib_nbextensions");
 
-            URL_Add("photoshopping", "https://en.wiktionary.org/wiki/photoshop#Verb");
-
             URL_Add("Detexify", "https://detexify.kirelabs.org/classify.html");
 
             URL_Add("at this point", "https://en.wiktionary.org/wiki/at_this_point#Prepositional_phrase");
@@ -139892,32 +139896,6 @@ namespace OverflowHelper.core
 
             URL_Add("baud rate", "https://en.wikipedia.org/wiki/Symbol_rate");
 
-            URL_Add("correct", "https://en.wiktionary.org/wiki/correct#Adjective");
-
-            URL_Add("correctly", "https://en.wiktionary.org/wiki/correctly#Adverb");
-
-            URL_Add("correction", "https://en.wiktionary.org/wiki/correction#Noun");
-
-            URL_Add("correctness", "https://en.wiktionary.org/wiki/correctness#Noun");
-
-            URL_Add("incorrect", "https://en.wiktionary.org/wiki/incorrect#Adjective");
-
-            URL_Add("incorrectly", "https://en.wiktionary.org/wiki/correctly#Adverb");
-
-            URL_Add("autocorrect", "https://en.wiktionary.org/wiki/autocorrect#Verb");
-
-            URL_Add("autocorrecting", "https://en.wiktionary.org/wiki/autocorrect#Verb");
-
-            URL_Add("correct me if I'm wrong", "https://en.wiktionary.org/wiki/CMIIW#Phrase");
-
-            URL_Add("if I remember correctly", "https://en.wiktionary.org/wiki/IIRC#Phrase"); // Old: https://en.wiktionary.org/wiki/IIRC
-
-            URL_Add("if I understand correctly", "https://en.wiktionary.org/wiki/IIUC#Phrase");
-
-            URL_Add("power-factor correction", "https://en.wikipedia.org/wiki/Power_factor");
-
-            URL_Add("quantum error correcting code", "https://en.wikipedia.org/wiki/Quantum_error_correction");
-
             URL_Add("the Indian space", "https://english.stackexchange.com/questions/4645/is-it-ever-correct-to-have-a-space-before-a-question-or-exclamation-mark#comment206109_4645");
 
             URL_Add("at the time of writing", "https://english.stackexchange.com/questions/199381/is-at-the-time-of-writing-correct");
@@ -140015,69 +139993,9 @@ namespace OverflowHelper.core
 
             URL_Add("UPS", "https://en.wikipedia.org/wiki/Uninterruptible_power_supply");
 
-            URL_Add("eigenvalue", "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors");
-
-            URL_Add("eigenvalues", "https://en.wiktionary.org/wiki/eigenvalue#Noun");
-
-            URL_Add("eigenvectors", "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors");
-
-            URL_Add("eigenfunction", "https://en.wikipedia.org/wiki/Eigenfunction");
-
-            URL_Add("eigenstate", "https://en.wikipedia.org/wiki/Quantum_state#Pure_states");
-
-            URL_Add("quantum", "https://en.wiktionary.org/wiki/quantum#Noun");
-
-            URL_Add("quantum mechanics", "https://en.wikipedia.org/wiki/Quantum_mechanics");
-
-            URL_Add("quantum mechanical", "https://en.wiktionary.org/wiki/quantum_mechanical#Adjective");
-
-            URL_Add("Quantum ESPRESSO", "https://en.wikipedia.org/wiki/Quantum_ESPRESSO");
-
             URL_Add("GROMACS", "https://en.wikipedia.org/wiki/GROMACS");
 
             URL_Add("FHI-aims", "https://en.wikipedia.org/wiki/FHI-aims");
-
-            URL_Add("nonlocality", "https://en.wikipedia.org/wiki/Quantum_nonlocality");
-
-            URL_Add("entanglement", "https://en.wikipedia.org/wiki/Quantum_entanglement");
-
-            URL_Add("teleportation", "https://en.wikipedia.org/wiki/Teleportation");
-
-            URL_Add("Bell test", "https://en.wikipedia.org/wiki/Bell_test");
-
-            URL_Add("quantum electrodynamics", "https://en.wikipedia.org/wiki/Quantum_electrodynamics");
-
-            URL_Add("quantum field", "https://en.wikipedia.org/wiki/Quantum_field_theory");
-
-            URL_Add("quantum field theory", "https://en.wikipedia.org/wiki/Quantum_field_theory");
-
-            URL_Add("quantum chromodynamics", "https://en.wikipedia.org/wiki/Quantum_chromodynamics");
-
-            URL_Add("principal quantum number", "https://en.wikipedia.org/wiki/Principal_quantum_number");
-
-            URL_Add("quantum gravity", "https://en.wikipedia.org/wiki/Quantum_gravity");
-
-            URL_Add("quantum computer", "https://en.wikipedia.org/wiki/Quantum_computing");
-
-            URL_Add("dwarfs", "https://en.wiktionary.org/wiki/dwarf#Noun"); // (Both the correct word and URL were completely bogus!)
-
-            URL_Add("gravity", "https://en.wikipedia.org/wiki/Gravity");
-
-            URL_Add("Gravity Probe B", "https://en.wikipedia.org/wiki/Gravity_Probe_B");
-
-            URL_Add("microgravity", "https://en.wikipedia.org/wiki/Micro-g_environment");
-
-            URL_Add("center of gravity", "https://en.wikipedia.org/wiki/Center_of_mass#Center_of_gravity");
-
-            URL_Add("paragravity", "https://en.wiktionary.org/wiki/paragravity#Noun");
-
-            URL_Add("Firefox", "https://en.wikipedia.org/wiki/Firefox"); // Old: <https://en.wikipedia.org/wiki/Mozilla_Firefox>
-
-            URL_Add("Firefox Quantum", "https://en.wikipedia.org/wiki/Firefox#Firefox_Quantum");
-
-            URL_Add("Stim", "https://github.com/quantumlib/stim");
-
-            URL_Add("Firefox ESR", "https://en.wikipedia.org/wiki/Firefox#Channels_and_release_schedule"); // Old: https://en.wikipedia.org/wiki/Firefox#Experimental_builds_and_ESR
 
             URL_Add("Pascal's triangle", "https://en.wikipedia.org/wiki/Pascal's_triangle");
 
@@ -143573,8 +143491,6 @@ namespace OverflowHelper.core
 
             URL_Add("word game", "https://en.wiktionary.org/wiki/word_game#Noun");
 
-            URL_Add("inverse fast Fourier transform", "https://www.nature.com/articles/s41598-019-50234-9/");
-
             URL_Add("NTFS", "https://en.wikipedia.org/wiki/NTFS");
 
             URL_Add("ZFS", "https://en.wikipedia.org/wiki/ZFS");
@@ -144436,6 +144352,8 @@ namespace OverflowHelper.core
             URL_Add("Microsoft Natural Keyboard", "https://en.wikipedia.org/wiki/Microsoft_Natural_keyboard#Natural_Keyboard");
 
             URL_Add("Microsoft Sculpt Ergonomic", "https://en.wikipedia.org/wiki/Microsoft_ergonomic_keyboards#Sculpt_ergonomic_keyboard");
+
+            URL_Add("Razer Huntsman", "https://www.razer.com/pc/gaming-keyboards/huntsman-line");
 
             URL_Add("Royal Kludge", "https://www.rtings.com/keyboard/reviews/royal-kludge/rk61");
 
@@ -150008,6 +149926,108 @@ namespace OverflowHelper.core
             URL_Add("Easy Anti-Cheat", "https://www.pcgamer.com/games/battle-royale/easy-anti-cheat-washes-its-hands-of-the-apex-legends-hacking-disaster-that-saw-streamer-accounts-hijacked-live-there-is-no-rce-vulnerability-within-eac/");
 
             URL_Add("aimbot", "https://en.wikipedia.org/wiki/Cheating_in_online_games#Aimbots_and_triggerbots");
+
+            URL_Add("Fourier series", "https://en.wikipedia.org/wiki/Fourier_series");
+
+            URL_Add("Fourier transform", "https://en.wikipedia.org/wiki/Fourier_transform");
+
+            URL_Add("discrete Fourier transform", "https://en.wikipedia.org/wiki/Discrete_Fourier_transform");
+
+            URL_Add("discrete-time Fourier transform", "https://en.wikipedia.org/wiki/Discrete-time_Fourier_transform");
+
+            URL_Add("FFT", "https://en.wikipedia.org/wiki/Fast_Fourier_transform");
+
+            URL_Add("inverse fast Fourier transform", "https://www.nature.com/articles/s41598-019-50234-9/");
+
+            URL_Add("correct", "https://en.wiktionary.org/wiki/correct#Adjective");
+
+            URL_Add("correctly", "https://en.wiktionary.org/wiki/correctly#Adverb");
+
+            URL_Add("correction", "https://en.wiktionary.org/wiki/correction#Noun");
+
+            URL_Add("correctness", "https://en.wiktionary.org/wiki/correctness#Noun");
+
+            URL_Add("incorrect", "https://en.wiktionary.org/wiki/incorrect#Adjective");
+
+            URL_Add("incorrectly", "https://en.wiktionary.org/wiki/correctly#Adverb");
+
+            URL_Add("autocorrect", "https://en.wiktionary.org/wiki/autocorrect#Verb");
+
+            URL_Add("autocorrecting", "https://en.wiktionary.org/wiki/autocorrect#Verb");
+
+            URL_Add("correct me if I'm wrong", "https://en.wiktionary.org/wiki/CMIIW#Phrase");
+
+            URL_Add("if I remember correctly", "https://en.wiktionary.org/wiki/IIRC#Phrase"); // Old: https://en.wiktionary.org/wiki/IIRC
+
+            URL_Add("if I understand correctly", "https://en.wiktionary.org/wiki/IIUC#Phrase");
+
+            URL_Add("quantum", "https://en.wiktionary.org/wiki/quantum#Noun");
+
+            URL_Add("quantum mechanics", "https://en.wikipedia.org/wiki/Quantum_mechanics");
+
+            URL_Add("quantum mechanical", "https://en.wiktionary.org/wiki/quantum_mechanical#Adjective");
+
+            URL_Add("quantum electrodynamics", "https://en.wikipedia.org/wiki/Quantum_electrodynamics");
+
+            URL_Add("quantum field", "https://en.wikipedia.org/wiki/Quantum_field_theory");
+
+            URL_Add("quantum field theory", "https://en.wikipedia.org/wiki/Quantum_field_theory");
+
+            URL_Add("quantum chromodynamics", "https://en.wikipedia.org/wiki/Quantum_chromodynamics");
+
+            URL_Add("principal quantum number", "https://en.wikipedia.org/wiki/Principal_quantum_number");
+
+            URL_Add("quantum gravity", "https://en.wikipedia.org/wiki/Quantum_gravity");
+
+            URL_Add("quantum computer", "https://en.wikipedia.org/wiki/Quantum_computing");
+
+            URL_Add("quantum error correcting code", "https://en.wikipedia.org/wiki/Quantum_error_correction");
+
+            URL_Add("eigenstate", "https://en.wikipedia.org/wiki/Quantum_state#Pure_states");
+
+            URL_Add("nonlocality", "https://en.wikipedia.org/wiki/Quantum_nonlocality");
+
+            URL_Add("entanglement", "https://en.wikipedia.org/wiki/Quantum_entanglement");
+
+            URL_Add("teleportation", "https://en.wikipedia.org/wiki/Teleportation");
+
+            URL_Add("Bell test", "https://en.wikipedia.org/wiki/Bell_test");
+
+            URL_Add("Quantum ESPRESSO", "https://en.wikipedia.org/wiki/Quantum_ESPRESSO");
+
+            URL_Add("Stim", "https://github.com/quantumlib/stim");
+
+            URL_Add("power-factor correction", "https://en.wikipedia.org/wiki/Power_factor");
+
+            URL_Add("eigenvalue", "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors");
+
+            URL_Add("eigenvalues", "https://en.wiktionary.org/wiki/eigenvalue#Noun");
+
+            URL_Add("eigenvectors", "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors");
+
+            URL_Add("eigenfunction", "https://en.wikipedia.org/wiki/Eigenfunction");
+
+            URL_Add("Firefox", "https://en.wikipedia.org/wiki/Firefox"); // Old: <https://en.wikipedia.org/wiki/Mozilla_Firefox>
+
+            URL_Add("Firefox Quantum", "https://en.wikipedia.org/wiki/Firefox#Firefox_Quantum");
+
+            URL_Add("Firefox ESR", "https://en.wikipedia.org/wiki/Firefox#Channels_and_release_schedule"); // Old: https://en.wikipedia.org/wiki/Firefox#Experimental_builds_and_ESR
+
+            URL_Add("dwarfs", "https://en.wiktionary.org/wiki/dwarf#Noun"); // (Both the correct word and URL were completely bogus!)
+
+            URL_Add("gravity", "https://en.wikipedia.org/wiki/Gravity");
+
+            URL_Add("Gravity Probe B", "https://en.wikipedia.org/wiki/Gravity_Probe_B");
+
+            URL_Add("microgravity", "https://en.wikipedia.org/wiki/Micro-g_environment");
+
+            URL_Add("center of gravity", "https://en.wikipedia.org/wiki/Center_of_mass#Center_of_gravity");
+
+            URL_Add("paragravity", "https://en.wiktionary.org/wiki/paragravity#Noun");
+
+            URL_Add("photoshopping", "https://en.wiktionary.org/wiki/photoshop#Verb");
+
+            URL_Add("photoshopped", "https://en.wiktionary.org/wiki/photoshop#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -168993,8 +169013,6 @@ namespace OverflowHelper.core
 
             URL_Add("isn’t anything_", "https://ell.stackexchange.com/questions/19056");
 
-            URL_Add("quantum Fourier transform_", "https://en.wikipedia.org/wiki/Quantum_Fourier_transform");
-
             URL_Add("southwest_", "https://en.wiktionary.org/wiki/southwest#Noun");
 
             URL_Add("North Korea_", "https://en.wikipedia.org/wiki/North_Korea");
@@ -170890,6 +170908,8 @@ namespace OverflowHelper.core
             URL_Add("over-the-air_", "https://en.wikipedia.org/wiki/Over-the-air_update");
 
             URL_Add("saw_", "https://en.wiktionary.org/wiki/see#Verb");
+
+            URL_Add("quantum Fourier transform_", "https://en.wikipedia.org/wiki/Quantum_Fourier_transform");
 
         } //addLookupData_alternativeWordSet()
 
@@ -182637,10 +182657,6 @@ namespace OverflowHelper.core
 
             URL_Add("billion____", "https://en.wiktionary.org/wiki/billion#Noun");
 
-            URL_Add("Photoshop____", "https://en.wikipedia.org/wiki/Adobe_Photoshop");
-
-            URL_Add("Photoshop PSD format____", "https://en.wikipedia.org/wiki/Adobe_Photoshop#File_format");
-
             URL_Add("Software&nbsp;Engineering (Stack Exchange site)____", "https://softwareengineering.stackexchange.com/tour");
 
             URL_Add("number____", "https://en.wiktionary.org/wiki/number#Noun");
@@ -182778,6 +182794,10 @@ namespace OverflowHelper.core
             URL_Add("split ergonomic ortholinear mechanical keyboard____", "https://en.wikipedia.org/wiki/Ergonomic_keyboard");
 
             URL_Add("ultraviolet____", "https://en.wikipedia.org/wiki/Ultraviolet");
+
+            URL_Add("Photoshop____", "https://en.wikipedia.org/wiki/Adobe_Photoshop");
+
+            URL_Add("Photoshop PSD format____", "https://en.wikipedia.org/wiki/Adobe_Photoshop#File_format");
 
         } //addLookupData_alternativeWordSet4()
 
