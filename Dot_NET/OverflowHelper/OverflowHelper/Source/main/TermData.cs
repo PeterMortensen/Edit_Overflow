@@ -3936,6 +3936,37 @@ namespace OverflowHelper.core
             correctionAdd("second thought", "second thoughts");
             correctionAdd("second though", "second thoughts");
 
+            correctionAdd("‘though", "though");
+            correctionAdd("thought", "though");
+            correctionAdd("thouigh", "though");
+            correctionAdd("Through", "though");
+            correctionAdd("through", "though");
+            correctionAdd("thouhg", "though");
+            correctionAdd("thpugh", "though");
+            correctionAdd("Though", "though");
+            correctionAdd("thgouh", "though");
+            correctionAdd("thoguh", "though");
+            correctionAdd("thoigh", "though");
+            correctionAdd("Thouhg", "though");
+            correctionAdd("thiugh", "though");
+            correctionAdd("thogh", "though");
+            correctionAdd("thoug", "though");
+            correctionAdd("tough", "though");
+            correctionAdd("Thoug", "though");
+            correctionAdd("thou", "though");
+            correctionAdd("tho", "though");
+            correctionAdd("Tho", "though"); // Expansion, not 100% correct. Add a plural feature?
+
+            correctionAdd("event though", "even though");
+            correctionAdd("even thought", "even though");
+            correctionAdd("Even though", "even though");
+            correctionAdd("eventhough", "even though");
+            correctionAdd("Eventhough", "even though");
+            correctionAdd("Even tough", "even though");
+            correctionAdd("even tough", "even though");
+            correctionAdd("Eventough", "even though");
+            correctionAdd("eventhoug", "even though");
+
             correctionAdd("all thought", "although");
             correctionAdd("all though", "although");
             correctionAdd("Althought", "although"); // An autocorrect "masterpiece"?
@@ -3975,34 +4006,9 @@ namespace OverflowHelper.core
             correctionAdd("roughy", "roughly");
             correctionAdd("rougly", "roughly");
 
-            correctionAdd("‘though", "though");
-            correctionAdd("thought", "though");
-            correctionAdd("thouigh", "though");
-            correctionAdd("thouhg", "though");
-            correctionAdd("thpugh", "though");
-            correctionAdd("Though", "though");
-            correctionAdd("thgouh", "though");
-            correctionAdd("thoguh", "though");
-            correctionAdd("thoigh", "though");
-            correctionAdd("Thouhg", "though");
-            correctionAdd("thiugh", "though");
-            correctionAdd("thogh", "though");
-            correctionAdd("thoug", "though");
-            correctionAdd("tough", "though");
-            correctionAdd("Thoug", "though");
-            correctionAdd("thou", "though");
-            correctionAdd("tho", "though");
-            correctionAdd("Tho", "though"); // Expansion, not 100% correct. Add a plural feature?
-
-            correctionAdd("event though", "even though");
-            correctionAdd("even thought", "even though");
-            correctionAdd("Even though", "even though");
-            correctionAdd("eventhough", "even though");
-            correctionAdd("Eventhough", "even though");
-            correctionAdd("Even tough", "even though");
-            correctionAdd("even tough", "even though");
-            correctionAdd("Eventough", "even though");
-            correctionAdd("eventhoug", "even though");
+            correctionAdd("through out", "throughout");
+            correctionAdd("through-out", "throughout");
+            correctionAdd("thoughout", "throughout");
 
             // Note: "through" is in the third alternative word set...
             correctionAdd("click throughs", "click-throughs");
@@ -4075,18 +4081,6 @@ namespace OverflowHelper.core
             correctionAdd("through hoops", "jump through hoops");
 
             correctionAdd("from another lens", "through another lens");
-
-            correctionAdd("Throughrough", "thorough");
-            correctionAdd("throughrough", "thorough");
-            correctionAdd("thoughrough", "thorough");
-            correctionAdd("throurough", "thorough");
-            correctionAdd("Throurough", "thorough");
-            correctionAdd("thougrough", "thorough");
-            correctionAdd("throughout", "thorough"); // An autocorrect "masterpiece"?
-            correctionAdd("throrough", "thorough");
-            correctionAdd("Thourough", "thorough");
-            correctionAdd("thourough", "thorough");
-            correctionAdd("through", "thorough");
 
             correctionAdd("throroughouly", "thoroughly");
             correctionAdd("throuroughly", "thoroughly");
@@ -11043,6 +11037,8 @@ namespace OverflowHelper.core
             correctionAdd("bachelors", "bachelor's degree");
 
             correctionAdd("Bachelor of Science", "B.Sc"); // The official expanded name
+            correctionAdd("Bscit", "B.Sc");
+            correctionAdd("Bsci", "B.Sc");
             correctionAdd("BSc", "B.Sc");
             correctionAdd("BSC", "B.Sc");
             correctionAdd("B.S", "B.Sc");
@@ -11447,6 +11443,20 @@ namespace OverflowHelper.core
             //     "along a similar vein"
             //
             correctionAdd("in the same vain", "in the same vein");
+
+            correctionAdd("fromer", "former");
+            correctionAdd("formet", "former");
+            correctionAdd("Fmr", "former");
+            correctionAdd("fmr", "former");
+
+            correctionAdd("formally", "formerly");
+            correctionAdd("formely", "formerly");
+
+            correctionAdd("the prior", "the former");
+
+            correctionAdd("fromal", "formal");
+
+            correctionAdd("semi-formal", "semiformal");
 
             correctionAdd("glade", "glad");
 
@@ -13583,6 +13593,21 @@ namespace OverflowHelper.core
 
             correctionAdd("Theory of Computation", "theory of computation");
 
+            correctionAdd("brigt", "bright");
+
+            correctionAdd("more bright", "brighter");
+
+            correctionAdd("brightnest", "brightness");
+            correctionAdd("brughtness", "brightness"); // A true typo
+            correctionAdd("brigthness", "brightness");
+            correctionAdd("brihgtness", "brightness");
+            correctionAdd("brightnes", "brightness");
+            correctionAdd("brighness", "brightness");
+            correctionAdd("Brighness", "brightness");
+            correctionAdd("brigtness", "brightness");
+            correctionAdd("britgness", "brightness");
+            correctionAdd("Brigtness", "brightness");
+
             correctionAdd("stratosfere", "stratosphere");
 
             correctionAdd("telesope", "telescope");
@@ -14909,8 +14934,6 @@ namespace OverflowHelper.core
             correctionAdd("NSEA", "National Standard Examination in Astronomy");
             correctionAdd("nsea", "National Standard Examination in Astronomy");
 
-            correctionAdd("Navier Stokes equation", "Navier–Stokes equations");
-
             // A simulation method, e.g. used in fluid dynamics
             correctionAdd("smoothed particle hydrodynamics", "smoothed-particle hydrodynamics");
             correctionAdd("SPH", "smoothed-particle hydrodynamics");
@@ -15409,6 +15432,9 @@ namespace OverflowHelper.core
 
             correctionAdd("Gravity", "gravity");
             correctionAdd("grav", "gravity");
+
+            // Not to be confused with Google Antigravity... (simulated intelligence)
+            correctionAdd("antigravity", "anti-gravity");
 
             correctionAdd("Microgravity", "microgravity");
 
@@ -17205,12 +17231,6 @@ namespace OverflowHelper.core
 
             correctionAdd("repeatitively", "repetitively");
             correctionAdd("repetitavely", "repetitively");
-
-            correctionAdd("repetitive-strain injuries", "RSI");
-            correctionAdd("repeated stress injuries", "RSI"); // No...
-            correctionAdd("Repetitive strain injury", "RSI");
-            correctionAdd("repetitive-strain injury", "RSI");
-            correctionAdd("rsi", "RSI");
 
             correctionAdd("restaining order", "restraining order");
 
@@ -22268,14 +22288,15 @@ namespace OverflowHelper.core
             correctionAdd("counter-intuitive", "counterintuitive");
 
             correctionAdd("un-intuitive", "unintuitive");
+            correctionAdd("non-intuiive", "unintuitive");
+            correctionAdd("nonintuitive", "unintuitive");
             correctionAdd("uninituive", "unintuitive");
             correctionAdd("unintuive", "unintuitive");
 
             correctionAdd("un-intuitively", "unintuitively");
 
-            correctionAdd("non-intuitive", "nonintuitive");
-
             correctionAdd("inuitive", "intuitive");
+            correctionAdd("intuiive", "intuitive");
             correctionAdd("intuive", "intuitive");
 
             correctionAdd("infitisimal", "infinitesimal");
@@ -29153,9 +29174,9 @@ namespace OverflowHelper.core
             correctionAdd("comatiable", "compatible");
             correctionAdd("comatibale", "compatible"); // Multiple typos
             correctionAdd("compaible", "compatible");
-            correctionAdd("capatiple", "compatible");
             correctionAdd("compatibl", "compatible");
             correctionAdd("comatible", "compatible");
+            correctionAdd("capatiple", "compatible");
 
             correctionAdd("compatibiltity", "compatibility");
             correctionAdd("comaptibility", "compatibility");
@@ -29169,9 +29190,9 @@ namespace OverflowHelper.core
             correctionAdd("Compatabilty", "compatibility");
             correctionAdd("compatabilty", "compatibility");
             correctionAdd("Compatiblity", "compatibility");
-            correctionAdd("capatibility", "compatibility");
             correctionAdd("comptability", "compatibility");
             correctionAdd("compabalilty", "compatibility");
+            correctionAdd("capatibility", "compatibility");
             correctionAdd("Compatabily", "compatibility");
             correctionAdd("compatabily", "compatibility");
             correctionAdd("compatility", "compatibility");
@@ -31366,6 +31387,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("react2shell", "React2Shell");
 
+            correctionAdd("react natiive", "React Native");
             correctionAdd("react navtive", "React Native");
             correctionAdd("react native", "React Native");
             correctionAdd("react-native", "React Native");
@@ -39198,8 +39220,8 @@ namespace OverflowHelper.core
             correctionAdd("global brain statistics", "ChatGPT");
             correctionAdd("stochastic parrot", "ChatGPT");
             correctionAdd("magical parrots", "ChatGPT");
-            correctionAdd("capable parrot", "ChatGPT");
             correctionAdd("magical parrot", "ChatGPT");
+            correctionAdd("capable parrot", "ChatGPT");
             correctionAdd("open chat GPT", "ChatGPT");
             correctionAdd("OpenChat GPT", "ChatGPT");
             correctionAdd("openchat GPT", "ChatGPT");
@@ -43847,11 +43869,6 @@ namespace OverflowHelper.core
             correctionAdd("Sound-Cloud", "SoundCloud");
             correctionAdd("Soundcloud", "SoundCloud");
 
-            correctionAdd("Naiver Stokes equations", "Navier-Stokes equations");
-            correctionAdd("Navier-Stokes equation", "Navier-Stokes equations");
-            correctionAdd("Navier-Stokes Equation", "Navier-Stokes equations");
-            correctionAdd("Naiver Stokes equation", "Navier-Stokes equations");
-
             correctionAdd("Klein Gordon equation", "Klein–Gordon equation");
             correctionAdd("Klein-Gordon equation", "Klein–Gordon equation");
             correctionAdd("Klein Gordon", "Klein–Gordon equation");
@@ -44682,6 +44699,7 @@ namespace OverflowHelper.core
             correctionAdd("Reactance", "reactance");
 
             // Electronics
+            correctionAdd("capacitior", "capacitor");
             correctionAdd("capasitor", "capacitor");
             correctionAdd("Capacitor", "capacitor");
             correctionAdd("capactior", "capacitor");
@@ -44702,8 +44720,8 @@ namespace OverflowHelper.core
             correctionAdd("Capacitance", "capacitance");
 
             // Electronics
-            correctionAdd("cappacitive", "capacitive");
             correctionAdd("capacitative", "capacitive");
+            correctionAdd("cappacitive", "capacitive");
 
             // Electronics
             correctionAdd("electrolytics", "electrolytic capacitor");
@@ -45978,18 +45996,6 @@ namespace OverflowHelper.core
             //   <https://en.wikipedia.org/wiki/Computer_fan#Case_fan>
             //
             correctionAdd("casefan", "case fan");
-
-            correctionAdd("fromer", "former");
-            correctionAdd("formet", "former");
-            correctionAdd("Fmr", "former");
-            correctionAdd("fmr", "former");
-
-            correctionAdd("formally", "formerly");
-            correctionAdd("formely", "formerly");
-
-            correctionAdd("fromal", "formal");
-
-            correctionAdd("semi-formal", "semiformal");
 
             correctionAdd("oscilate", "oscillate");
 
@@ -49107,6 +49113,8 @@ namespace OverflowHelper.core
             correctionAdd("Visaul Studio", "Visual&nbsp;Studio");
             correctionAdd("V*sual Studio", "Visual&nbsp;Studio");
             correctionAdd("visual sutido", "Visual&nbsp;Studio");
+            correctionAdd("Visual StudiI", "Visual&nbsp;Studio");
+            correctionAdd("Visual Studii", "Visual&nbsp;Studio");
             correctionAdd("VisualStudio", "Visual&nbsp;Studio");
             correctionAdd("viual studio", "Visual&nbsp;Studio"); // Misspelling.
             correctionAdd("visulastudio", "Visual&nbsp;Studio");
@@ -70845,6 +70853,9 @@ namespace OverflowHelper.core
             // A car
             correctionAdd("TOYOTA INNOVA", "Toyota Innova");
 
+            // A car
+            correctionAdd("SEAT Ibiza Mk-4", "SEAT Ibiza");
+
             correctionAdd("sellng", "selling");
 
             correctionAdd("data-point", "data point");
@@ -72492,6 +72503,7 @@ namespace OverflowHelper.core
             correctionAdd("Androi", "Android");
             correctionAdd("andoid", "Android");
             correctionAdd("andrid", "Android");
+            correctionAdd("adroid", "Android");
 
             correctionAdd("Android Wear", "Wear OS");
             correctionAdd("wear os", "Wear OS");
@@ -73855,9 +73867,9 @@ namespace OverflowHelper.core
             //
             correctionAdd("capitalsed", "capitalised");
 
-            correctionAdd("capatalisation", "capitalisation");
             correctionAdd("cApitAliasTIon", "capitalisation");
             correctionAdd("capitaliastion", "capitalisation");
+            correctionAdd("capatalisation", "capitalisation");
             correctionAdd("capitaliation", "capitalisation");
             correctionAdd("capitalision", "capitalisation");
 
@@ -74507,6 +74519,8 @@ namespace OverflowHelper.core
 
             correctionAdd("International", "international");
             correctionAdd("internation", "international");
+
+            correctionAdd("internationaly", "internationally");
 
             correctionAdd("ambassy", "embassy");
 
@@ -75462,8 +75476,15 @@ namespace OverflowHelper.core
             //
             correctionAdd("LPU", "Lovely Professional University");
 
-            correctionAdd("fressher", "fresher");
-            correctionAdd("Fresher", "fresher");
+            // Two different meanings:
+            //
+            //  UK:              A first-year student at a university.
+            //
+            //  Indian English:  A fresh graduate looking for his/her first job.
+            //  
+            correctionAdd("fressher", "new graduate");
+            correctionAdd("Fresher", "new graduate");
+            correctionAdd("fresher", "new graduate");
 
             // English. India. Indian space.
             correctionAdd("wren and Martin", "High School English Grammar and Composition by Wren and Martin");
@@ -78840,6 +78861,11 @@ namespace OverflowHelper.core
             correctionAdd("benchmkark", "benchmark"); // A true typo
             correctionAdd("BenchMark", "benchmark");
             correctionAdd("Benchmark", "benchmark");
+            correctionAdd("becnhmark", "benchmark");
+            correctionAdd("bechmakr", "benchmark");
+
+            correctionAdd("becnhmarks", "benchmarks");
+            correctionAdd("bechmakrs", "benchmarks");
 
             correctionAdd("bench marked", "benchmarked");
 
@@ -80736,19 +80762,6 @@ namespace OverflowHelper.core
             // Not to be confused with "TestFlight"
             //
             correctionAdd("playwright", "Playwright");
-
-            correctionAdd("brigt", "bright");
-
-            correctionAdd("brightnest", "brightness");
-            correctionAdd("brughtness", "brightness"); // A true typo
-            correctionAdd("brigthness", "brightness");
-            correctionAdd("brihgtness", "brightness");
-            correctionAdd("brightnes", "brightness");
-            correctionAdd("brighness", "brightness");
-            correctionAdd("Brighness", "brightness");
-            correctionAdd("brigtness", "brightness");
-            correctionAdd("britgness", "brightness");
-            correctionAdd("Brigtness", "brightness");
 
             correctionAdd("confrontaction", "confrontation");
 
@@ -83170,6 +83183,7 @@ namespace OverflowHelper.core
             correctionAdd("openAPI", "OpenAPI Specification");
             correctionAdd("OpenAPI", "OpenAPI Specification");
             correctionAdd("openapi", "OpenAPI Specification");
+            correctionAdd("Openapi", "OpenAPI Specification");
 
             correctionAdd("regurarly", "regularly");
             correctionAdd("regulary", "regularly");
@@ -97676,6 +97690,7 @@ namespace OverflowHelper.core
             correctionAdd("entierly", "entirely");
             correctionAdd("intirely", "entirely");
             correctionAdd("enterely", "entirely");
+            correctionAdd("ntierly", "entirely"); // Multple typos
 
             correctionAdd("entirity", "entirety");
             correctionAdd("entierty", "entirety");
@@ -105836,6 +105851,9 @@ namespace OverflowHelper.core
             correctionAdd("SKB", "socket buffer");
             correctionAdd("skb", "socket buffer");
 
+            correctionAdd("turists", "tourists");
+            correctionAdd("Turists", "tourists");
+
             correctionAdd("turistic", "touristic");
 
             correctionAdd("!=", "!==");
@@ -110349,8 +110367,6 @@ namespace OverflowHelper.core
 
             URL_Add("Sendmail", "https://en.wikipedia.org/wiki/Sendmail");
 
-            URL_Add("localhost", "https://en.wikipedia.org/wiki/Localhost");
-
             URL_Add("segue", "https://en.wiktionary.org/wiki/segue#Verb");
 
             URL_Add("one-on-one", "https://en.wiktionary.org/wiki/one-on-one#Adjective");
@@ -110544,8 +110560,6 @@ namespace OverflowHelper.core
             URL_Add("specifically", "https://en.wiktionary.org/wiki/specifically#Adverb");
 
             URL_Add("summer", "https://en.wiktionary.org/wiki/summer#Noun");
-
-            URL_Add("RSI", "https://en.wikipedia.org/wiki/Repetitive_strain_injury");
 
             URL_Add("precision", "https://en.wiktionary.org/wiki/precision#Noun");
 
@@ -111396,8 +111410,6 @@ namespace OverflowHelper.core
             URL_Add("debye", "https://en.wikipedia.org/wiki/Debye");
 
             URL_Add("later", "https://en.wiktionary.org/wiki/later#Adverb");
-
-            URL_Add("Navier–Stokes equations", "https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations");
 
             URL_Add("Yaourt", "https://itsfoss.com/best-aur-helpers/");
 
@@ -112511,8 +112523,6 @@ namespace OverflowHelper.core
 
             URL_Add("give", "https://en.wiktionary.org/wiki/give#Verb");
 
-            URL_Add("locale", "https://en.wiktionary.org/wiki/locale#Noun");
-
             URL_Add("psychiatrist", "https://en.wiktionary.org/wiki/psychiatrist#Noun");
 
             URL_Add("HSTS", "https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security");
@@ -113141,8 +113151,6 @@ namespace OverflowHelper.core
 
             URL_Add("frequently", "https://en.wiktionary.org/wiki/frequently#Adverb");
 
-            URL_Add("iMac", "https://en.wikipedia.org/wiki/IMac");
-
             URL_Add("poverty", "https://en.wiktionary.org/wiki/poverty#Noun");
 
             URL_Add("preparing", "https://en.wiktionary.org/wiki/prepare#Verb");
@@ -113526,8 +113534,6 @@ namespace OverflowHelper.core
             URL_Add("BBC", "https://en.wikipedia.org/wiki/BBC");
 
             URL_Add("Eton", "https://en.wikipedia.org/wiki/Eton_College");
-
-            URL_Add("Navier-Stokes equations", "https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations");
 
             URL_Add("Oxbridge", "https://en.wikipedia.org/wiki/Oxbridge");
 
@@ -114939,8 +114945,6 @@ namespace OverflowHelper.core
 
             URL_Add("infringement", "https://en.wiktionary.org/wiki/infringement#Noun");
 
-            URL_Add("local oscillator (LO)", "https://en.wikipedia.org/wiki/Local_oscillator");
-
             URL_Add("return value optimization", "https://en.wikipedia.org/wiki/Copy_elision#Return_value_optimization");
 
             URL_Add("strongly", "https://en.wiktionary.org/wiki/strongly#Adverb");
@@ -116123,9 +116127,7 @@ namespace OverflowHelper.core
 
             URL_Add("RealVNC", "https://www.realvnc.com/en/");
 
-            URL_Add("fresher", "https://en.wiktionary.org/wiki/fresher#Noun");
-
-            URL_Add("iMac Pro", "https://en.wikipedia.org/wiki/IMac_Pro");
+            URL_Add("new graduate", "https://en.wiktionary.org/wiki/fresher#Noun");
 
             URL_Add("Brussels sprout", "https://en.wikipedia.org/wiki/Brussels_sprout");
 
@@ -117483,8 +117485,6 @@ namespace OverflowHelper.core
 
             URL_Add("cooperation", "https://en.wiktionary.org/wiki/cooperation#Noun");
 
-            URL_Add("internationalised domain name", "https://en.wikipedia.org/wiki/Internationalized_domain_name");
-
             URL_Add("notetaking", "https://en.wiktionary.org/wiki/notetaking#Noun");
 
             URL_Add("downgraded", "https://en.wiktionary.org/wiki/downgrade#Verb");
@@ -117571,6 +117571,8 @@ namespace OverflowHelper.core
 
             URL_Add("socket buffer", "http://vger.kernel.org/~davem/skb.html");
 
+            URL_Add("tourists", "https://en.wiktionary.org/wiki/tourist#Noun");
+
             URL_Add("touristic", "https://en.wiktionary.org/wiki/touristic#Adjective");
 
             URL_Add("Carl Jung", "https://en.wikipedia.org/wiki/Carl_Jung");
@@ -117624,6 +117626,256 @@ namespace OverflowHelper.core
             URL_Add("YaST", "https://en.wikipedia.org/wiki/YaST");
 
             URL_Add("international", "https://en.wiktionary.org/wiki/international#Adjective");
+
+            URL_Add("internationally", "https://en.wiktionary.org/wiki/internationally#Adverb");
+
+            URL_Add("internationalised domain name", "https://en.wikipedia.org/wiki/Internationalized_domain_name");
+
+            URL_Add("internationalisation and localisation", "https://en.wikipedia.org/wiki/Internationalization_and_localization");
+
+            URL_Add("locale", "https://en.wiktionary.org/wiki/locale#Noun");
+
+            URL_Add("delocalise", "https://en.wiktionary.org/wiki/delocalise#Verb");
+
+            URL_Add("nonlocal", "https://en.wiktionary.org/wiki/nonlocal#Adjective");
+
+            URL_Add("locally", "https://en.wiktionary.org/wiki/locally#Adverb");
+
+            URL_Add("nonlocality", "https://en.wikipedia.org/wiki/Quantum_nonlocality");
+
+            URL_Add("localisation", "https://en.wikipedia.org/wiki/Internationalization_and_localization");
+
+            URL_Add("language localisation", "https://en.wikipedia.org/wiki/Language_localisation");
+
+            URL_Add("localhost", "https://en.wikipedia.org/wiki/Localhost");
+
+            URL_Add("LocalStack", "https://github.com/localstack/localstack/blob/main/docs/localstack-concepts/README.md");
+
+            URL_Add("quantum", "https://en.wiktionary.org/wiki/quantum#Noun");
+
+            URL_Add("quantum mechanics", "https://en.wikipedia.org/wiki/Quantum_mechanics");
+
+            URL_Add("quantum mechanical", "https://en.wiktionary.org/wiki/quantum_mechanical#Adjective");
+
+            URL_Add("quantum electrodynamics", "https://en.wikipedia.org/wiki/Quantum_electrodynamics");
+
+            URL_Add("quantum field", "https://en.wikipedia.org/wiki/Quantum_field_theory");
+
+            URL_Add("quantum field theory", "https://en.wikipedia.org/wiki/Quantum_field_theory");
+
+            URL_Add("quantum chromodynamics", "https://en.wikipedia.org/wiki/Quantum_chromodynamics");
+
+            URL_Add("principal quantum number", "https://en.wikipedia.org/wiki/Principal_quantum_number");
+
+            URL_Add("quantum gravity", "https://en.wikipedia.org/wiki/Quantum_gravity");
+
+            URL_Add("quantum computer", "https://en.wikipedia.org/wiki/Quantum_computing");
+
+            URL_Add("quantum error correcting code", "https://en.wikipedia.org/wiki/Quantum_error_correction");
+
+            URL_Add("eigenstate", "https://en.wikipedia.org/wiki/Quantum_state#Pure_states");
+
+            URL_Add("entanglement", "https://en.wikipedia.org/wiki/Quantum_entanglement");
+
+            URL_Add("teleportation", "https://en.wikipedia.org/wiki/Teleportation");
+
+            URL_Add("Bell test", "https://en.wikipedia.org/wiki/Bell_test");
+
+            URL_Add("Quantum ESPRESSO", "https://en.wikipedia.org/wiki/Quantum_ESPRESSO");
+
+            URL_Add("Stim", "https://github.com/quantumlib/stim");
+
+            URL_Add("power-factor correction", "https://en.wikipedia.org/wiki/Power_factor");
+
+            URL_Add("eigenvalue", "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors");
+
+            URL_Add("eigenvalues", "https://en.wiktionary.org/wiki/eigenvalue#Noun");
+
+            URL_Add("eigenvectors", "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors");
+
+            URL_Add("eigenfunction", "https://en.wikipedia.org/wiki/Eigenfunction");
+
+            URL_Add("Firefox", "https://en.wikipedia.org/wiki/Firefox"); // Old: <https://en.wikipedia.org/wiki/Mozilla_Firefox>
+
+            URL_Add("Firefox Quantum", "https://en.wikipedia.org/wiki/Firefox#Firefox_Quantum");
+
+            URL_Add("Firefox ESR", "https://en.wikipedia.org/wiki/Firefox#Channels_and_release_schedule"); // Old: https://en.wikipedia.org/wiki/Firefox#Experimental_builds_and_ESR
+
+            URL_Add("dwarfs", "https://en.wiktionary.org/wiki/dwarf#Noun"); // (Both the correct word and URL were completely bogus!)
+
+            URL_Add("gravity", "https://en.wikipedia.org/wiki/Gravity");
+
+            URL_Add("anti-gravity", "https://en.wikipedia.org/wiki/Anti-gravity");
+
+            URL_Add("Gravity Probe B", "https://en.wikipedia.org/wiki/Gravity_Probe_B");
+
+            URL_Add("microgravity", "https://en.wikipedia.org/wiki/Micro-g_environment");
+
+            URL_Add("center of gravity", "https://en.wikipedia.org/wiki/Center_of_mass#Center_of_gravity");
+
+            URL_Add("paragravity", "https://en.wiktionary.org/wiki/paragravity#Noun");
+
+            URL_Add("local oscillator (LO)", "https://en.wikipedia.org/wiki/Local_oscillator");
+
+            URL_Add("instruction local memory", "https://www.andestech.com/en/products-solutions/andestar-architecture/");
+
+            URL_Add("data local memory", "https://www.andestech.com/en/products-solutions/andestar-architecture/");
+
+            URL_Add("meme", "https://en.wiktionary.org/wiki/meme#Noun");
+
+            URL_Add("memes", "https://en.wikipedia.org/wiki/Meme");
+
+            URL_Add("memoize", "https://en.wiktionary.org/wiki/memoize#Verb");
+
+            URL_Add("memoizing", "https://en.wiktionary.org/wiki/memoize#Verb");
+
+            URL_Add("memoization", "https://en.wikipedia.org/wiki/Memoization");
+
+            URL_Add("memorise", "https://en.wiktionary.org/wiki/memorise#Verb");
+
+            URL_Add("memory", "https://en.wiktionary.org/wiki/memory#Noun");
+
+            URL_Add("memoryless", "https://en.wiktionary.org/wiki/memoryless#Adjective");
+
+            URL_Add("long short-term memory", "https://en.wikipedia.org/wiki/Long_short-term_memory");
+
+            URL_Add("muscle memory", "https://en.wikipedia.org/wiki/Muscle_memory#Fine_motor_memory");
+
+            URL_Add("memory effect", "https://en.wikipedia.org/wiki/Memory_effect");
+
+            URL_Add("memory model", "https://en.wikipedia.org/wiki/Memory_address#Memory_models");
+
+            URL_Add("memory address", "https://en.wikipedia.org/wiki/Memory_address");
+
+            URL_Add("memory map", "https://en.wikipedia.org/wiki/Memory_map");
+
+            URL_Add("memory management unit", "https://en.wikipedia.org/wiki/Memory_management_unit");
+
+            URL_Add("memory-mapped file", "https://en.wikipedia.org/wiki/Memory-mapped_file");
+
+            URL_Add("memory-mapped I/O", "https://en.wikipedia.org/wiki/Memory-mapped_I/O_and_port-mapped_I/O");
+
+            URL_Add("in-memory", "https://en.wiktionary.org/wiki/in-memory#Adjective");
+
+            URL_Add("memory allocation", "https://en.wikipedia.org/wiki/Memory_management");
+
+            URL_Add("memory leak", "https://en.wikipedia.org/wiki/Memory_leak");
+
+            URL_Add("non-volatile memory", "https://en.wikipedia.org/wiki/Non-volatile_memory");
+
+            URL_Add("non-volatile storage", "https://en.wikipedia.org/wiki/Non-volatile_memory");
+
+            URL_Add("flash memory", "https://en.wikipedia.org/wiki/Flash_memory");
+
+            URL_Add("member", "https://en.wiktionary.org/wiki/member#Noun");
+
+            URL_Add("members", "https://en.wiktionary.org/wiki/member#Noun");
+
+            URL_Add("MEmu Play", "https://wikitia.com/wiki/MEmu_Play");
+
+            URL_Add("memorandum of understanding", "https://en.wikipedia.org/wiki/Memorandum_of_understanding");
+
+            URL_Add("get the memo", "https://www.youtube.com/watch?v=g0L-ry0jn6I");
+
+            URL_Add("in memoriam", "https://en.wiktionary.org/wiki/in_memoriam#Noun");
+
+            URL_Add("Memored", "https://github.com/PaquitoSoft/memored");
+
+            URL_Add("Dr. Memory", "https://en.wikipedia.org/wiki/DynamoRIO#Dr._Memory");
+
+            URL_Add("Valgrind", "https://en.wikipedia.org/wiki/Valgrind");
+
+            URL_Add("DRD", "https://en.wikipedia.org/wiki/Valgrind#Other_tools");
+
+            URL_Add("CacheFly", "https://en.wikipedia.org/wiki/CacheFly");
+
+            URL_Add("KCacheGrind", "https://en.wikipedia.org/wiki/Valgrind#Other_tools");
+
+            URL_Add("Callgrind", "https://en.wikipedia.org/wiki/Valgrind#Other_tools");
+
+            URL_Add("WinCacheGrind", "https://sourceforge.net/projects/wincachegrind/");
+
+            URL_Add("Memcheck", "https://en.wikipedia.org/wiki/Valgrind#Memcheck");
+
+            URL_Add("OOM", "https://en.wikipedia.org/wiki/Out_of_memory");
+
+            URL_Add("MTRR", "https://en.wikipedia.org/wiki/Memory_type_range_register");
+
+            URL_Add("Rust borrow checker", "https://en.wikipedia.org/wiki/Rust_(programming_language)#Memory_safety");
+
+            URL_Add("allocation", "https://en.wiktionary.org/wiki/allocation#Noun");
+
+            URL_Add("allocator", "https://en.wiktionary.org/wiki/allocator#Noun");
+
+            URL_Add("allocate", "https://en.wiktionary.org/wiki/allocate#Verb");
+
+            URL_Add("allocated", "https://en.wiktionary.org/wiki/allocate#Verb");
+
+            URL_Add("deallocation", "https://en.wiktionary.org/wiki/deallocation#Noun");
+
+            URL_Add("deallocate", "https://en.wiktionary.org/wiki/deallocate#Verb");
+
+            URL_Add("deallocated", "https://en.wiktionary.org/wiki/deallocate#Verb");
+
+            URL_Add("reallocate", "https://en.wiktionary.org/wiki/reallocate#Verb");
+
+            URL_Add("reallocated", "https://en.wiktionary.org/wiki/reallocate#Verb");
+
+            URL_Add("reallocation", "https://en.wiktionary.org/wiki/reallocation#Noun");
+
+            URL_Add("reallocations", "https://en.wiktionary.org/wiki/reallocation#Noun");
+
+            URL_Add("preallocate", "https://en.wiktionary.org/wiki/preallocate#Verb");
+
+            URL_Add("preallocates", "https://en.wiktionary.org/wiki/preallocate#Verb");
+
+            URL_Add("preallocating", "https://en.wiktionary.org/wiki/preallocate#Verb");
+
+            URL_Add("preallocated", "https://en.wiktionary.org/wiki/preallocate#Verb");
+
+            URL_Add("preallocation", "https://en.wiktionary.org/wiki/preallocation#Noun"); // Old: https://en.wiktionary.org/wiki/preallocation
+
+            URL_Add("unallocated", "https://en.wiktionary.org/wiki/unallocated#Adjective");
+
+            URL_Add("MTD", "https://en.wikipedia.org/wiki/Memory_Technology_Device");
+
+            URL_Add("stack-allocated", "https://en.wikipedia.org/wiki/Stack-based_memory_allocation");
+
+            URL_Add("heap", "https://en.wikipedia.org/wiki/C_dynamic_memory_allocation#Rationale");
+
+            URL_Add("alloca()", "https://en.wikipedia.org/wiki/Stack-based_memory_allocation#System_interface");
+
+            URL_Add("NOR flash", "https://en.wikipedia.org/wiki/Flash_memory#NOR_flash");
+
+            URL_Add("UniFlash", "https://www.ti.com/tool/UNIFLASH");
+
+            URL_Add("video memory", "https://en.wikipedia.org/wiki/Dynamic_video_memory_technology");
+
+            URL_Add("application note 2606: Introduction to system memory boot mode on STM32 MCUs", "https://www.st.com/resource/en/application_note/cd00167594-stm32-microcontroller-system-memory-boot-mode-stmicroelectronics.pdf");
+
+            URL_Add("Extreme Memory Profile", "https://en.wikipedia.org/wiki/Serial_presence_detect#Intel_Extreme_Memory_Profile_(XMP)");
+
+            URL_Add("RAM", "https://en.wikipedia.org/wiki/Random-access_memory");
+
+            URL_Add("SRAM", "https://en.wikipedia.org/wiki/Static_random-access_memory");
+
+            URL_Add("VRAM", "https://en.wikipedia.org/wiki/Video_random-access_memory");
+
+            URL_Add("NVRAM", "https://en.wikipedia.org/wiki/Non-volatile_random-access_memory");
+
+            URL_Add("DMA", "https://en.wikipedia.org/wiki/Direct_memory_access");
+
+            URL_Add("MPU", "https://en.wikipedia.org/wiki/Memory_protection_unit");
+
+            URL_Add("IOMMU", "https://en.wikipedia.org/wiki/Input%E2%80%93output_memory_management_unit");
+
+            URL_Add("address space", "https://en.wikipedia.org/wiki/Address_space");
+
+            URL_Add("address space layout randomization", "https://en.wikipedia.org/wiki/Address_space_layout_randomization");
+
+            URL_Add("Physical Address Extension", "https://en.wikipedia.org/wiki/Physical_Address_Extension");
+
+            URL_Add("large object heap", "https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/large-object-heap");
 
             URL_Add("high availability", "https://en.wikipedia.org/wiki/High_availability");
 
@@ -119009,8 +119261,6 @@ namespace OverflowHelper.core
 
             URL_Add("instrument", "https://en.wiktionary.org/wiki/instrument#Verb");
 
-            URL_Add("unintuitive", "https://en.wiktionary.org/wiki/unintuitive#Adjective");
-
             URL_Add("vicious circle", "https://en.wikipedia.org/wiki/Vicious_circle");
 
             URL_Add("flogging a dead horse", "https://en.wiktionary.org/wiki/flog_a_dead_horse#Verb");
@@ -119320,8 +119570,6 @@ namespace OverflowHelper.core
             URL_Add("Roman Catholic", "https://en.wiktionary.org/wiki/Roman_Catholic#Adjective");
 
             URL_Add("Sinti", "https://en.wikipedia.org/wiki/Sinti");
-
-            URL_Add("intuitive", "https://en.wiktionary.org/wiki/intuitive#Adjective");
 
             URL_Add("lots", "https://en.wiktionary.org/wiki/lots#Noun_2");
 
@@ -120071,8 +120319,6 @@ namespace OverflowHelper.core
 
             URL_Add("PDP-10", "https://en.wikipedia.org/wiki/PDP-10");
 
-            URL_Add("brightness", "https://en.wiktionary.org/wiki/brightness#Noun");
-
             URL_Add("unplug", "https://en.wiktionary.org/wiki/unplug#Verb");
 
             URL_Add("advisable", "https://en.wiktionary.org/wiki/advisable#Adjective");
@@ -120819,8 +121065,6 @@ namespace OverflowHelper.core
 
             URL_Add("nonexistence", "https://en.wiktionary.org/wiki/nonexistence#Noun");
 
-            URL_Add("nonlocal", "https://en.wiktionary.org/wiki/nonlocal#Adjective");
-
             URL_Add("outsiders", "https://en.wiktionary.org/wiki/outsider#Noun");
 
             URL_Add("placebo effect", "https://en.wikipedia.org/wiki/Placebo");
@@ -121148,10 +121392,6 @@ namespace OverflowHelper.core
             URL_Add("re-encoding", "https://en.wiktionary.org/wiki/re-encode#Verb");
 
             URL_Add("The single source of truth for the site list", "https://meta.stackexchange.com/a/359796");
-
-            URL_Add("brightest of all time", "https://en.wikipedia.org/wiki/GRB_221009A");
-
-            URL_Add("supernova", "https://en.wiktionary.org/wiki/supernova#Noun");
 
             URL_Add("cloned", "https://en.wiktionary.org/wiki/clone#Verb");
 
@@ -125285,8 +125525,6 @@ namespace OverflowHelper.core
 
             URL_Add("atmospheric", "https://en.wiktionary.org/wiki/atmospheric#Adjective");
 
-            URL_Add("nonintuitive", "https://en.wiktionary.org/wiki/nonintuitive#Adjective");
-
             URL_Add("Iberian Peninsula", "https://en.wikipedia.org/wiki/Iberian_Peninsula");
 
             URL_Add("think tank", "https://en.wiktionary.org/wiki/think_tank#Noun");
@@ -125768,14 +126006,6 @@ namespace OverflowHelper.core
             URL_Add("informed", "https://en.wiktionary.org/wiki/inform#Verb");
 
             URL_Add("QCOW2", "https://en.wikipedia.org/wiki/Qcow#qcow2");
-
-            URL_Add("internationalisation and localisation", "https://en.wikipedia.org/wiki/Internationalization_and_localization");
-
-            URL_Add("language localisation", "https://en.wikipedia.org/wiki/Language_localisation");
-
-            URL_Add("localisation", "https://en.wikipedia.org/wiki/Internationalization_and_localization");
-
-            URL_Add("delocalise", "https://en.wiktionary.org/wiki/delocalise#Verb");
 
             URL_Add("Matchbox", "https://en.wikipedia.org/wiki/Matchbox_(window_manager)");
 
@@ -127707,17 +127937,17 @@ namespace OverflowHelper.core
 
             URL_Add("unwelcoming", "https://en.wiktionary.org/wiki/unwelcoming#Adjective"); // Old: https://en.wiktionary.org/wiki/unwelcoming
 
-            URL_Add("Hyundai Eon", "https://en.wikipedia.org/wiki/Hyundai_Eon");
-
             URL_Add("nominally", "https://en.wiktionary.org/wiki/nominally#Adverb");
+
+            URL_Add("Hungarian notation", "https://www.joelonsoftware.com/2005/05/11/making-wrong-code-look-wrong/");
+
+            URL_Add("Hyundai Eon", "https://en.wikipedia.org/wiki/Hyundai_Eon");
 
             URL_Add("Toyota", "https://en.wikipedia.org/wiki/Toyota");
 
             URL_Add("Toyota Innova", "https://en.wikipedia.org/wiki/Toyota_Innova");
 
-            URL_Add("Hungarian notation", "https://www.joelonsoftware.com/2005/05/11/making-wrong-code-look-wrong/");
-
-            URL_Add("Pharo", "https://en.wikipedia.org/wiki/Pharo");
+            URL_Add("SEAT Ibiza", "https://en.wikipedia.org/wiki/SEAT_Ibiza");
 
             URL_Add("OBD-II", "https://en.wikipedia.org/wiki/On-board_diagnostics#OBD-II");
 
@@ -127966,8 +128196,6 @@ namespace OverflowHelper.core
             URL_Add("AMX Mod", "https://en.wikipedia.org/wiki/AMX#Other_uses");
 
             URL_Add("headstrong", "https://en.wiktionary.org/wiki/headstrong#Adjective");
-
-            URL_Add("unintuitively", "https://en.wiktionary.org/wiki/unintuitively#Adverb");
 
             URL_Add("disciplines", "https://en.wiktionary.org/wiki/discipline#Noun");
 
@@ -128348,8 +128576,6 @@ namespace OverflowHelper.core
             URL_Add("Safeway", "https://en.wikipedia.org/wiki/Safeway_Inc.");
 
             URL_Add("UL", "https://en.wikipedia.org/wiki/UL_(safety_organization)");
-
-            URL_Add("locally", "https://en.wiktionary.org/wiki/locally#Adverb");
 
             URL_Add("stringified", "https://en.wiktionary.org/wiki/stringify#Verb");
 
@@ -128981,8 +129207,6 @@ namespace OverflowHelper.core
 
             URL_Add("midnight", "https://en.wiktionary.org/wiki/midnight#Noun");
 
-            URL_Add("bright", "https://en.wiktionary.org/wiki/bright#Adjective");
-
             URL_Add("straighter", "https://en.wiktionary.org/wiki/straighter#Adjective");
 
             URL_Add("straightened", "https://en.wiktionary.org/wiki/straighten#Verb");
@@ -129384,6 +129608,8 @@ namespace OverflowHelper.core
             URL_Add("affiliate marketing", "https://en.wikipedia.org/wiki/Affiliate_marketing");
 
             URL_Add("benchmark", "https://en.wiktionary.org/wiki/benchmark#Noun");
+
+            URL_Add("benchmarks", "https://en.wiktionary.org/wiki/benchmark#Noun");
 
             URL_Add("benchmarked", "https://en.wiktionary.org/wiki/benchmark#Verb");
 
@@ -130300,8 +130526,6 @@ namespace OverflowHelper.core
             URL_Add("KMonad", "https://github.com/kmonad/kmonad/tree/master");
 
             URL_Add("AlgoBuilder", "https://github.com/STMicroelectronics/STMems-AlgoBuilder");
-
-            URL_Add("LocalStack", "https://github.com/localstack/localstack/blob/main/docs/localstack-concepts/README.md");
 
             URL_Add("Jasminerice", "https://github.com/bradphelan/jasminerice");
 
@@ -132803,6 +133027,8 @@ namespace OverflowHelper.core
 
             URL_Add("formerly", "https://en.wiktionary.org/wiki/formerly#Adverb");
 
+            URL_Add("the former", "https://en.wiktionary.org/wiki/former#Noun");
+
             URL_Add("form over function", "https://www.boardandvellum.com/blog/form-over-function-or-function-over-form/");
 
             URL_Add("formal", "https://en.wiktionary.org/wiki/formal#Adjective");
@@ -132810,6 +133036,22 @@ namespace OverflowHelper.core
             URL_Add("formaldehyde", "https://en.wikipedia.org/wiki/Formaldehyde");
 
             URL_Add("Formidable", "https://www.npmjs.com/package/express-formidable");
+
+            URL_Add("formula", "https://en.wiktionary.org/wiki/formula#Noun");
+
+            URL_Add("formulas", "https://en.wiktionary.org/wiki/formula#Noun");
+
+            URL_Add("formulate", "https://en.wiktionary.org/wiki/formulate#Verb");
+
+            URL_Add("formulation", "https://en.wiktionary.org/wiki/formulation#Noun");
+
+            URL_Add("quadratic formula", "https://en.wikipedia.org/wiki/Quadratic_formula");
+
+            URL_Add("Miller–Tucker–Zemlin formulation", "https://en.wikipedia.org/wiki/Travelling_salesman_problem#Integer_linear_programming_formulations");
+
+            URL_Add("Formula One", "https://en.wikipedia.org/wiki/Formula_One");
+
+            URL_Add("haversine distance", "https://en.wikipedia.org/wiki/Haversine_formula");
 
             URL_Add("OAuth", "https://en.wikipedia.org/wiki/OAuth");
 
@@ -132910,22 +133152,6 @@ namespace OverflowHelper.core
             URL_Add("CW", "https://en.wikipedia.org/wiki/Continuous_wave");
 
             URL_Add("RP2040-Zero", "https://www.waveshare.com/wiki/RP2040-Zero");
-
-            URL_Add("formula", "https://en.wiktionary.org/wiki/formula#Noun");
-
-            URL_Add("formulas", "https://en.wiktionary.org/wiki/formula#Noun");
-
-            URL_Add("formulate", "https://en.wiktionary.org/wiki/formulate#Verb");
-
-            URL_Add("formulation", "https://en.wiktionary.org/wiki/formulation#Noun");
-
-            URL_Add("quadratic formula", "https://en.wikipedia.org/wiki/Quadratic_formula");
-
-            URL_Add("Miller–Tucker–Zemlin formulation", "https://en.wikipedia.org/wiki/Travelling_salesman_problem#Integer_linear_programming_formulations");
-
-            URL_Add("Formula One", "https://en.wikipedia.org/wiki/Formula_One");
-
-            URL_Add("haversine distance", "https://en.wikipedia.org/wiki/Haversine_formula");
 
             URL_Add("Code Runner", "https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner");
 
@@ -133647,8 +133873,6 @@ namespace OverflowHelper.core
 
             URL_Add("getDay()", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDay");
 
-            URL_Add("localeCompare()", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare");
-
             URL_Add("alert()", "https://developer.mozilla.org/en-US/docs/Web/API/Window/alert");
 
             URL_Add("reverse()", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reverse");
@@ -133672,6 +133896,8 @@ namespace OverflowHelper.core
             URL_Add("MutationObserver", "https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver");
 
             URL_Add("WebHID", "https://developer.mozilla.org/en-US/docs/Web/API/WebHID_API");
+
+            URL_Add("localeCompare()", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare");
 
             URL_Add("MathML", "https://en.wikipedia.org/wiki/MathML");
 
@@ -135115,14 +135341,6 @@ namespace OverflowHelper.core
 
             URL_Add("International Collegiate Programming Contest", "https://en.wikipedia.org/wiki/International_Collegiate_Programming_Contest");
 
-            URL_Add("illegible", "https://en.wiktionary.org/wiki/illegible#Adjective");
-
-            URL_Add("legitimacy", "https://en.wiktionary.org/wiki/legitimacy#Noun");
-
-            URL_Add("legitimate", "https://en.wiktionary.org/wiki/legitimate#Adjective"); // Old: https://en.wiktionary.org/wiki/legit
-
-            URL_Add("nonlegitimate", "https://en.wiktionary.org/wiki/nonlegitimate#Adjective");
-
             URL_Add("allege", "https://en.wiktionary.org/wiki/allege#Verb");
 
             URL_Add("allegedly", "https://en.wiktionary.org/wiki/allegedly#Adverb");
@@ -136038,8 +136256,6 @@ namespace OverflowHelper.core
             URL_Add("thoroughly", "https://en.wiktionary.org/wiki/thoroughly#Adverb");
 
             URL_Add("brought", "https://en.wiktionary.org/wiki/brought#Verb");
-
-            URL_Add("thorough", "https://en.wiktionary.org/wiki/thorough#Adjective");
 
             URL_Add("David Attenborough", "https://en.wikipedia.org/wiki/David_Attenborough");
 
@@ -138239,16 +138455,6 @@ namespace OverflowHelper.core
 
             URL_Add("Get-FormatData", "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-formatdata");
 
-            URL_Add("Format-List", "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/format-list"); // Old: <http://technet.microsoft.com/en-us/library/hh849957.aspx>
-
-            URL_Add("Format-Table", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/Format-Table"); // Old: http://technet.microsoft.com/en-us/library/hh849892.aspx
-
-            URL_Add("Format-Hex", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/format-hex");
-
-            URL_Add("Format-Custom", "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/format-custom");
-
-            URL_Add("Format-Wide", "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/format-wide");
-
             URL_Add("Set-ADUser", "https://docs.microsoft.com/en-us/powershell/module/activedirectory/set-aduser");
 
             URL_Add("Connect-AzureAD", "https://docs.microsoft.com/en-us/powershell/module/azuread/connect-azuread");
@@ -138316,6 +138522,16 @@ namespace OverflowHelper.core
             URL_Add("Group Policy Object", "https://en.wikipedia.org/wiki/Group_Policy#Operation"); // Alternative URL: http://searchwindowsserver.techtarget.com/definition/Group-Policy-Object (end of comment)
 
             URL_Add("Measure-Command", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/Measure-Command");
+
+            URL_Add("Format-List", "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/format-list"); // Old: <http://technet.microsoft.com/en-us/library/hh849957.aspx>
+
+            URL_Add("Format-Table", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/Format-Table"); // Old: http://technet.microsoft.com/en-us/library/hh849892.aspx
+
+            URL_Add("Format-Hex", "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/format-hex");
+
+            URL_Add("Format-Custom", "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/format-custom");
+
+            URL_Add("Format-Wide", "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/format-wide");
 
             URL_Add("cmdlet", "https://en.wikipedia.org/wiki/PowerShell#Cmdlets"); // https://en.wikipedia.org/wiki/Windows_PowerShell#Cmdlets
 
@@ -138725,66 +138941,6 @@ namespace OverflowHelper.core
             URL_Add("iBook", "https://en.wikipedia.org/wiki/IBook");
 
             URL_Add("floating inputs", "https://www.mouser.com/blog/dont-leave-your-pins-floating");
-
-            URL_Add("macaw", "https://en.wikipedia.org/wiki/Macaw");
-
-            URL_Add("Macau", "https://en.wikipedia.org/wiki/Macau");
-
-            URL_Add("Macintosh end of line", "https://en.wikipedia.org/wiki/Newline#Representation");
-
-            URL_Add("MAC address", "https://en.wikipedia.org/wiki/MAC_address");
-
-            URL_Add("MacVim", "https://macvim-dev.github.io/macvim/");
-
-            URL_Add("MacPorts", "https://en.wikipedia.org/wiki/MacPorts");
-
-            URL_Add("Mac Studio", "https://en.wikipedia.org/wiki/Mac_Studio");
-
-            URL_Add("macOS", "https://en.wikipedia.org/wiki/MacOS");
-
-            URL_Add("Mac OS 9", "https://en.wikipedia.org/wiki/Mac_OS_9");
-
-            URL_Add("Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)", "https://en.wikipedia.org/wiki/Mac_OS_X_Tiger");
-
-            URL_Add("Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)", "https://en.wikipedia.org/wiki/Mac_OS_X_Leopard");
-
-            URL_Add("Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)", "https://en.wikipedia.org/wiki/Mac_OS_X_Snow_Leopard");
-
-            URL_Add("Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)", "https://en.wikipedia.org/wiki/OS_X_Mountain_Lion");
-
-            URL_Add("Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)", "https://en.wikipedia.org/wiki/OS_X_Mavericks");
-
-            URL_Add("Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)", "https://en.wikipedia.org/wiki/OS_X_El_Capitan");
-
-            URL_Add("macOS&nbsp;v10.12 (Sierra) (2016 vintage)", "https://en.wikipedia.org/wiki/MacOS_Sierra");
-
-            URL_Add("macOS&nbsp;v10.13 (High Sierra) (2017 vintage)", "https://en.wikipedia.org/wiki/MacOS_High_Sierra");
-
-            URL_Add("macOS&nbsp;v10.14 (Mojave) (2018 vintage)", "https://en.wikipedia.org/wiki/MacOS_Mojave");
-
-            URL_Add("macOS&nbsp;v10.15 (Catalina) (2019 vintage)", "https://en.wikipedia.org/wiki/MacOS_Catalina");
-
-            URL_Add("macOS&nbsp;v26 (Tahoe) (2026 vintage)", "https://en.wikipedia.org/wiki/MacOS_Tahoe");
-
-            URL_Add("Mac Mini", "https://en.wikipedia.org/wiki/Mac_Mini");
-
-            URL_Add("MacBook Pro", "https://en.wikipedia.org/wiki/MacBook_Pro");
-
-            URL_Add("MacBook Pro M2", "https://en.wikipedia.org/wiki/MacBook_Pro#14-inch_and_16-inch_(2021%E2%80%93present)");
-
-            URL_Add("M1 Max MacBook Pro", "https://en.wikipedia.org/wiki/MacBook_Pro#5th_generation_(M1_Pro_and_M1_Max)");
-
-            URL_Add("Mac Mini (M1)", "https://en.wikipedia.org/wiki/Mac_Mini#Fifth_generation_(Apple_silicon)");
-
-            URL_Add("MacBook Air", "https://en.wikipedia.org/wiki/MacBook_Air");
-
-            URL_Add("MacBook Air (M1)", "https://en.wikipedia.org/wiki/MacBook_Air_(Apple_silicon)#Third_generation_(Retina_with_Apple_silicon)"); // Old: <https://en.wikipedia.org/wiki/MacBook_Air_(M1)>
-
-            URL_Add("MacBook Air (M2)", "https://en.wikipedia.org/wiki/MacBook_Air_(Apple_silicon)");
-
-            URL_Add("MacBook Air (M3)", "https://en.wikipedia.org/wiki/MacBook_Air_(Apple_silicon)#M3_(2024%E2%80%93present)");
-
-            URL_Add("MacBook Air (M4)", "https://en.wikipedia.org/wiki/MacBook_Air_(Apple_silicon)#M4_models");
 
             URL_Add("JVM", "https://en.wikipedia.org/wiki/Java_virtual_machine");
 
@@ -141795,38 +141951,6 @@ namespace OverflowHelper.core
 
             URL_Add("-Wnested-externs", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnested-externs");
 
-            URL_Add("-Wno-deprecated-declarations", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-deprecated-declarations");
-
-            URL_Add("-Wno-deprecated", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-deprecated");
-
-            URL_Add("-Wno-error=", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-error_003d");
-
-            URL_Add("-Wno-error", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-error"); // Old: <https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Werror>
-
-            URL_Add("-Wno-implicit-function-declaration", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-implicit-function-declaration");
-
-            URL_Add("-Wno-missing-braces", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-missing-braces");
-
-            URL_Add("-Wno-missing-field-initializers", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-missing-field-initializers"); // Old: <https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers>
-
-            URL_Add("-Wno-pragmas", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-pragmas");
-
-            URL_Add("-Wno-return-local-addr", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-return-local-addr");
-
-            URL_Add("-Wno-shadow", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-shadow");
-
-            URL_Add("-Wno-unused", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-unused");
-
-            URL_Add("-Wno-unused-local-typedefs", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-unused-local-typedefs");
-
-            URL_Add("-Wno-unused-parameter", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-unused-parameter");
-
-            URL_Add("-Wno-unused-result", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-unused-result");
-
-            URL_Add("-Wno-unused-value", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-unused-value");
-
-            URL_Add("-Wno-unused-variable", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-unused-variable");
-
             URL_Add("-Wnull-dereference", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnull-dereference");
 
             URL_Add("-Wpacked", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpacked");
@@ -141836,8 +141960,6 @@ namespace OverflowHelper.core
             URL_Add("-Wpointer-arith", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpointer-arith");
 
             URL_Add("-Wredundant-decls", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-decls");
-
-            URL_Add("-Wreturn-local-addr", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-local-addr");
 
             URL_Add("-Wreturn-type", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type"); // Old: <https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-return-type>
 
@@ -141941,14 +142063,6 @@ namespace OverflowHelper.core
 
             URL_Add("-mmcu", "https://gcc.gnu.org/onlinedocs/gcc/AVR-Options.html#index-mmcu");
 
-            URL_Add("-fno-strict-overflow", "https://gcc.gnu.org/onlinedocs/gcc/Code-Gen-Options.html#index-fstrict-overflow"); // The anchor is correct. "-fno-strict-overflow" isn't explicitly on the page, only "-fstrict-overflow".
-
-            URL_Add("-fno-exceptions", "https://gcc.gnu.org/onlinedocs/gcc/Code-Gen-Options.html#index-fexceptions"); // The anchor is correct. "-fno-exceptions" isn't explicitly on the page, only "-fexceptions".
-
-            URL_Add("-Wold-style-definition", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wold-style-definition");
-
-            URL_Add("-fno-unroll-loops", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-funroll-loops");
-
             URL_Add("-g", "https://gcc.gnu.org/onlinedocs/gcc/Debugging-Options.html#index-g");
 
             URL_Add("-g3", "https://gcc.gnu.org/onlinedocs/gcc/Debugging-Options.html#index-gvms");
@@ -141958,6 +142072,48 @@ namespace OverflowHelper.core
             URL_Add("-ggdblevel", "https://gcc.gnu.org/onlinedocs/gcc/Debugging-Options.html#index-gvms");
 
             URL_Add("-df", "https://gcc.gnu.org/onlinedocs/gcc-4.3.6/gcc/Debugging-Options.html#index-df-499");
+
+            URL_Add("-fno-strict-overflow", "https://gcc.gnu.org/onlinedocs/gcc/Code-Gen-Options.html#index-fstrict-overflow"); // The anchor is correct. "-fno-strict-overflow" isn't explicitly on the page, only "-fstrict-overflow".
+
+            URL_Add("-fno-exceptions", "https://gcc.gnu.org/onlinedocs/gcc/Code-Gen-Options.html#index-fexceptions"); // The anchor is correct. "-fno-exceptions" isn't explicitly on the page, only "-fexceptions".
+
+            URL_Add("-Wold-style-definition", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wold-style-definition");
+
+            URL_Add("-fno-unroll-loops", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-funroll-loops");
+
+            URL_Add("-Wno-deprecated-declarations", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-deprecated-declarations");
+
+            URL_Add("-Wno-deprecated", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-deprecated");
+
+            URL_Add("-Wno-error=", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-error_003d");
+
+            URL_Add("-Wno-error", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-error"); // Old: <https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Werror>
+
+            URL_Add("-Wno-implicit-function-declaration", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-implicit-function-declaration");
+
+            URL_Add("-Wno-missing-braces", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-missing-braces");
+
+            URL_Add("-Wno-missing-field-initializers", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-missing-field-initializers"); // Old: <https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers>
+
+            URL_Add("-Wno-pragmas", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-pragmas");
+
+            URL_Add("-Wno-shadow", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-shadow");
+
+            URL_Add("-Wno-unused", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-unused");
+
+            URL_Add("-Wno-unused-parameter", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-unused-parameter");
+
+            URL_Add("-Wno-unused-result", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-unused-result");
+
+            URL_Add("-Wno-unused-value", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-unused-value");
+
+            URL_Add("-Wno-unused-variable", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-unused-variable");
+
+            URL_Add("-Wno-return-local-addr", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-return-local-addr");
+
+            URL_Add("-Wno-unused-local-typedefs", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-unused-local-typedefs");
+
+            URL_Add("-Wreturn-local-addr", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-local-addr");
 
             URL_Add("collect2: error: ld returned 1 exit status", "https://stackoverflow.com/questions/16437383/linker-error-gcc");
 
@@ -145919,8 +146075,6 @@ namespace OverflowHelper.core
 
             URL_Add("NET STOP", "https://ss64.com/nt/net-service.html");
 
-            URL_Add("SETLOCAL", "https://ss64.com/nt/setlocal.html");
-
             URL_Add("SETX", "https://ss64.com/nt/setx.html");
 
             URL_Add("GPUPDATE.exe", "https://ss64.com/nt/gpupdate.html");
@@ -145928,8 +146082,6 @@ namespace OverflowHelper.core
             URL_Add("TASKLIST", "https://ss64.com/nt/tasklist.html");
 
             URL_Add("xcopy", "https://ss64.com/nt/xcopy.html");
-
-            URL_Add("ENDLOCAL", "https://ss64.com/nt/endlocal.html");
 
             URL_Add("CHCP", "https://ss64.com/nt/chcp.html");
 
@@ -145946,6 +146098,10 @@ namespace OverflowHelper.core
             URL_Add("pbcopy", "https://ss64.com/mac/pbcopy.html");
 
             URL_Add("pbpaste", "https://ss64.com/mac/pbpaste.html");
+
+            URL_Add("ENDLOCAL", "https://ss64.com/nt/endlocal.html");
+
+            URL_Add("SETLOCAL", "https://ss64.com/nt/setlocal.html");
 
             URL_Add("KeyboardTest", "https://www.passmark.com/products/keytest/");
 
@@ -148095,6 +148251,8 @@ namespace OverflowHelper.core
 
             URL_Add("Smalltalk", "https://en.wikipedia.org/wiki/Smalltalk");
 
+            URL_Add("Pharo", "https://en.wikipedia.org/wiki/Pharo");
+
             URL_Add("Scala", "https://en.wikipedia.org/wiki/Scala_%28programming_language%29");
 
             URL_Add("Objective-C", "https://en.wikipedia.org/wiki/Objective-C");
@@ -148152,166 +148310,6 @@ namespace OverflowHelper.core
             URL_Add("Diffie–Hellman key exchange", "https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange");
 
             URL_Add("shtick", "https://en.wiktionary.org/wiki/shtick#Noun");
-
-            URL_Add("meme", "https://en.wiktionary.org/wiki/meme#Noun");
-
-            URL_Add("memes", "https://en.wikipedia.org/wiki/Meme");
-
-            URL_Add("memoize", "https://en.wiktionary.org/wiki/memoize#Verb");
-
-            URL_Add("memoizing", "https://en.wiktionary.org/wiki/memoize#Verb");
-
-            URL_Add("memoization", "https://en.wikipedia.org/wiki/Memoization");
-
-            URL_Add("memorise", "https://en.wiktionary.org/wiki/memorise#Verb");
-
-            URL_Add("memory", "https://en.wiktionary.org/wiki/memory#Noun");
-
-            URL_Add("memoryless", "https://en.wiktionary.org/wiki/memoryless#Adjective");
-
-            URL_Add("long short-term memory", "https://en.wikipedia.org/wiki/Long_short-term_memory");
-
-            URL_Add("muscle memory", "https://en.wikipedia.org/wiki/Muscle_memory#Fine_motor_memory");
-
-            URL_Add("memory effect", "https://en.wikipedia.org/wiki/Memory_effect");
-
-            URL_Add("memory model", "https://en.wikipedia.org/wiki/Memory_address#Memory_models");
-
-            URL_Add("memory address", "https://en.wikipedia.org/wiki/Memory_address");
-
-            URL_Add("memory map", "https://en.wikipedia.org/wiki/Memory_map");
-
-            URL_Add("data local memory", "https://www.andestech.com/en/products-solutions/andestar-architecture/");
-
-            URL_Add("instruction local memory", "https://www.andestech.com/en/products-solutions/andestar-architecture/");
-
-            URL_Add("memory management unit", "https://en.wikipedia.org/wiki/Memory_management_unit");
-
-            URL_Add("memory-mapped file", "https://en.wikipedia.org/wiki/Memory-mapped_file");
-
-            URL_Add("memory-mapped I/O", "https://en.wikipedia.org/wiki/Memory-mapped_I/O_and_port-mapped_I/O");
-
-            URL_Add("in-memory", "https://en.wiktionary.org/wiki/in-memory#Adjective");
-
-            URL_Add("memory allocation", "https://en.wikipedia.org/wiki/Memory_management");
-
-            URL_Add("memory leak", "https://en.wikipedia.org/wiki/Memory_leak");
-
-            URL_Add("non-volatile memory", "https://en.wikipedia.org/wiki/Non-volatile_memory");
-
-            URL_Add("non-volatile storage", "https://en.wikipedia.org/wiki/Non-volatile_memory");
-
-            URL_Add("flash memory", "https://en.wikipedia.org/wiki/Flash_memory");
-
-            URL_Add("member", "https://en.wiktionary.org/wiki/member#Noun");
-
-            URL_Add("members", "https://en.wiktionary.org/wiki/member#Noun");
-
-            URL_Add("MEmu Play", "https://wikitia.com/wiki/MEmu_Play");
-
-            URL_Add("memorandum of understanding", "https://en.wikipedia.org/wiki/Memorandum_of_understanding");
-
-            URL_Add("get the memo", "https://www.youtube.com/watch?v=g0L-ry0jn6I");
-
-            URL_Add("in memoriam", "https://en.wiktionary.org/wiki/in_memoriam#Noun");
-
-            URL_Add("Memored", "https://github.com/PaquitoSoft/memored");
-
-            URL_Add("Dr. Memory", "https://en.wikipedia.org/wiki/DynamoRIO#Dr._Memory");
-
-            URL_Add("Valgrind", "https://en.wikipedia.org/wiki/Valgrind");
-
-            URL_Add("DRD", "https://en.wikipedia.org/wiki/Valgrind#Other_tools");
-
-            URL_Add("CacheFly", "https://en.wikipedia.org/wiki/CacheFly");
-
-            URL_Add("KCacheGrind", "https://en.wikipedia.org/wiki/Valgrind#Other_tools");
-
-            URL_Add("Callgrind", "https://en.wikipedia.org/wiki/Valgrind#Other_tools");
-
-            URL_Add("WinCacheGrind", "https://sourceforge.net/projects/wincachegrind/");
-
-            URL_Add("Memcheck", "https://en.wikipedia.org/wiki/Valgrind#Memcheck");
-
-            URL_Add("OOM", "https://en.wikipedia.org/wiki/Out_of_memory");
-
-            URL_Add("MTRR", "https://en.wikipedia.org/wiki/Memory_type_range_register");
-
-            URL_Add("Rust borrow checker", "https://en.wikipedia.org/wiki/Rust_(programming_language)#Memory_safety");
-
-            URL_Add("allocation", "https://en.wiktionary.org/wiki/allocation#Noun");
-
-            URL_Add("allocator", "https://en.wiktionary.org/wiki/allocator#Noun");
-
-            URL_Add("allocate", "https://en.wiktionary.org/wiki/allocate#Verb");
-
-            URL_Add("allocated", "https://en.wiktionary.org/wiki/allocate#Verb");
-
-            URL_Add("deallocation", "https://en.wiktionary.org/wiki/deallocation#Noun");
-
-            URL_Add("deallocate", "https://en.wiktionary.org/wiki/deallocate#Verb");
-
-            URL_Add("deallocated", "https://en.wiktionary.org/wiki/deallocate#Verb");
-
-            URL_Add("reallocate", "https://en.wiktionary.org/wiki/reallocate#Verb");
-
-            URL_Add("reallocated", "https://en.wiktionary.org/wiki/reallocate#Verb");
-
-            URL_Add("reallocation", "https://en.wiktionary.org/wiki/reallocation#Noun");
-
-            URL_Add("reallocations", "https://en.wiktionary.org/wiki/reallocation#Noun");
-
-            URL_Add("preallocate", "https://en.wiktionary.org/wiki/preallocate#Verb");
-
-            URL_Add("preallocates", "https://en.wiktionary.org/wiki/preallocate#Verb");
-
-            URL_Add("preallocating", "https://en.wiktionary.org/wiki/preallocate#Verb");
-
-            URL_Add("preallocated", "https://en.wiktionary.org/wiki/preallocate#Verb");
-
-            URL_Add("preallocation", "https://en.wiktionary.org/wiki/preallocation#Noun"); // Old: https://en.wiktionary.org/wiki/preallocation
-
-            URL_Add("unallocated", "https://en.wiktionary.org/wiki/unallocated#Adjective");
-
-            URL_Add("MTD", "https://en.wikipedia.org/wiki/Memory_Technology_Device");
-
-            URL_Add("stack-allocated", "https://en.wikipedia.org/wiki/Stack-based_memory_allocation");
-
-            URL_Add("heap", "https://en.wikipedia.org/wiki/C_dynamic_memory_allocation#Rationale");
-
-            URL_Add("alloca()", "https://en.wikipedia.org/wiki/Stack-based_memory_allocation#System_interface");
-
-            URL_Add("NOR flash", "https://en.wikipedia.org/wiki/Flash_memory#NOR_flash");
-
-            URL_Add("UniFlash", "https://www.ti.com/tool/UNIFLASH");
-
-            URL_Add("video memory", "https://en.wikipedia.org/wiki/Dynamic_video_memory_technology");
-
-            URL_Add("application note 2606: Introduction to system memory boot mode on STM32 MCUs", "https://www.st.com/resource/en/application_note/cd00167594-stm32-microcontroller-system-memory-boot-mode-stmicroelectronics.pdf");
-
-            URL_Add("Extreme Memory Profile", "https://en.wikipedia.org/wiki/Serial_presence_detect#Intel_Extreme_Memory_Profile_(XMP)");
-
-            URL_Add("RAM", "https://en.wikipedia.org/wiki/Random-access_memory");
-
-            URL_Add("SRAM", "https://en.wikipedia.org/wiki/Static_random-access_memory");
-
-            URL_Add("VRAM", "https://en.wikipedia.org/wiki/Video_random-access_memory");
-
-            URL_Add("NVRAM", "https://en.wikipedia.org/wiki/Non-volatile_random-access_memory");
-
-            URL_Add("DMA", "https://en.wikipedia.org/wiki/Direct_memory_access");
-
-            URL_Add("MPU", "https://en.wikipedia.org/wiki/Memory_protection_unit");
-
-            URL_Add("IOMMU", "https://en.wikipedia.org/wiki/Input%E2%80%93output_memory_management_unit");
-
-            URL_Add("address space", "https://en.wikipedia.org/wiki/Address_space");
-
-            URL_Add("address space layout randomization", "https://en.wikipedia.org/wiki/Address_space_layout_randomization");
-
-            URL_Add("Physical Address Extension", "https://en.wikipedia.org/wiki/Physical_Address_Extension");
-
-            URL_Add("large object heap", "https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/large-object-heap");
 
             URL_Add("music", "https://en.wiktionary.org/wiki/music#Noun");
 
@@ -149345,6 +149343,12 @@ namespace OverflowHelper.core
 
             URL_Add("Geiger counter", "https://en.wikipedia.org/wiki/Geiger_counter");
 
+            URL_Add("intuitive", "https://en.wiktionary.org/wiki/intuitive#Adjective");
+
+            URL_Add("unintuitive", "https://en.wiktionary.org/wiki/unintuitive#Adjective");
+
+            URL_Add("unintuitively", "https://en.wiktionary.org/wiki/unintuitively#Adverb");
+
             URL_Add("counterproductive", "https://en.wiktionary.org/wiki/counterproductive#Adjective");
 
             URL_Add("counterintuitive", "https://en.wiktionary.org/wiki/counterintuitive#Adjective");
@@ -149961,73 +149965,93 @@ namespace OverflowHelper.core
 
             URL_Add("if I understand correctly", "https://en.wiktionary.org/wiki/IIUC#Phrase");
 
-            URL_Add("quantum", "https://en.wiktionary.org/wiki/quantum#Noun");
-
-            URL_Add("quantum mechanics", "https://en.wikipedia.org/wiki/Quantum_mechanics");
-
-            URL_Add("quantum mechanical", "https://en.wiktionary.org/wiki/quantum_mechanical#Adjective");
-
-            URL_Add("quantum electrodynamics", "https://en.wikipedia.org/wiki/Quantum_electrodynamics");
-
-            URL_Add("quantum field", "https://en.wikipedia.org/wiki/Quantum_field_theory");
-
-            URL_Add("quantum field theory", "https://en.wikipedia.org/wiki/Quantum_field_theory");
-
-            URL_Add("quantum chromodynamics", "https://en.wikipedia.org/wiki/Quantum_chromodynamics");
-
-            URL_Add("principal quantum number", "https://en.wikipedia.org/wiki/Principal_quantum_number");
-
-            URL_Add("quantum gravity", "https://en.wikipedia.org/wiki/Quantum_gravity");
-
-            URL_Add("quantum computer", "https://en.wikipedia.org/wiki/Quantum_computing");
-
-            URL_Add("quantum error correcting code", "https://en.wikipedia.org/wiki/Quantum_error_correction");
-
-            URL_Add("eigenstate", "https://en.wikipedia.org/wiki/Quantum_state#Pure_states");
-
-            URL_Add("nonlocality", "https://en.wikipedia.org/wiki/Quantum_nonlocality");
-
-            URL_Add("entanglement", "https://en.wikipedia.org/wiki/Quantum_entanglement");
-
-            URL_Add("teleportation", "https://en.wikipedia.org/wiki/Teleportation");
-
-            URL_Add("Bell test", "https://en.wikipedia.org/wiki/Bell_test");
-
-            URL_Add("Quantum ESPRESSO", "https://en.wikipedia.org/wiki/Quantum_ESPRESSO");
-
-            URL_Add("Stim", "https://github.com/quantumlib/stim");
-
-            URL_Add("power-factor correction", "https://en.wikipedia.org/wiki/Power_factor");
-
-            URL_Add("eigenvalue", "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors");
-
-            URL_Add("eigenvalues", "https://en.wiktionary.org/wiki/eigenvalue#Noun");
-
-            URL_Add("eigenvectors", "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors");
-
-            URL_Add("eigenfunction", "https://en.wikipedia.org/wiki/Eigenfunction");
-
-            URL_Add("Firefox", "https://en.wikipedia.org/wiki/Firefox"); // Old: <https://en.wikipedia.org/wiki/Mozilla_Firefox>
-
-            URL_Add("Firefox Quantum", "https://en.wikipedia.org/wiki/Firefox#Firefox_Quantum");
-
-            URL_Add("Firefox ESR", "https://en.wikipedia.org/wiki/Firefox#Channels_and_release_schedule"); // Old: https://en.wikipedia.org/wiki/Firefox#Experimental_builds_and_ESR
-
-            URL_Add("dwarfs", "https://en.wiktionary.org/wiki/dwarf#Noun"); // (Both the correct word and URL were completely bogus!)
-
-            URL_Add("gravity", "https://en.wikipedia.org/wiki/Gravity");
-
-            URL_Add("Gravity Probe B", "https://en.wikipedia.org/wiki/Gravity_Probe_B");
-
-            URL_Add("microgravity", "https://en.wikipedia.org/wiki/Micro-g_environment");
-
-            URL_Add("center of gravity", "https://en.wikipedia.org/wiki/Center_of_mass#Center_of_gravity");
-
-            URL_Add("paragravity", "https://en.wiktionary.org/wiki/paragravity#Noun");
-
             URL_Add("photoshopping", "https://en.wiktionary.org/wiki/photoshop#Verb");
 
             URL_Add("photoshopped", "https://en.wiktionary.org/wiki/photoshop#Verb");
+
+            URL_Add("bright", "https://en.wiktionary.org/wiki/bright#Adjective");
+
+            URL_Add("brighter", "https://en.wiktionary.org/wiki/brighter#Adjective");
+
+            URL_Add("brightness", "https://en.wiktionary.org/wiki/brightness#Noun");
+
+            URL_Add("brightest of all time", "https://en.wikipedia.org/wiki/GRB_221009A");
+
+            URL_Add("supernova", "https://en.wiktionary.org/wiki/supernova#Noun");
+
+            URL_Add("illegible", "https://en.wiktionary.org/wiki/illegible#Adjective");
+
+            URL_Add("legitimacy", "https://en.wiktionary.org/wiki/legitimacy#Noun");
+
+            URL_Add("legitimate", "https://en.wiktionary.org/wiki/legitimate#Adjective"); // Old: https://en.wiktionary.org/wiki/legit
+
+            URL_Add("nonlegitimate", "https://en.wiktionary.org/wiki/nonlegitimate#Adjective");
+
+            URL_Add("macaw", "https://en.wikipedia.org/wiki/Macaw");
+
+            URL_Add("Macau", "https://en.wikipedia.org/wiki/Macau");
+
+            URL_Add("MAC address", "https://en.wikipedia.org/wiki/MAC_address");
+
+            URL_Add("Macintosh end of line", "https://en.wikipedia.org/wiki/Newline#Representation");
+
+            URL_Add("iMac", "https://en.wikipedia.org/wiki/IMac");
+
+            URL_Add("iMac Pro", "https://en.wikipedia.org/wiki/IMac_Pro");
+
+            URL_Add("MacVim", "https://macvim-dev.github.io/macvim/");
+
+            URL_Add("MacPorts", "https://en.wikipedia.org/wiki/MacPorts");
+
+            URL_Add("Mac Studio", "https://en.wikipedia.org/wiki/Mac_Studio");
+
+            URL_Add("Mac Mini", "https://en.wikipedia.org/wiki/Mac_Mini");
+
+            URL_Add("MacBook Pro", "https://en.wikipedia.org/wiki/MacBook_Pro");
+
+            URL_Add("MacBook Pro M2", "https://en.wikipedia.org/wiki/MacBook_Pro#14-inch_and_16-inch_(2021%E2%80%93present)");
+
+            URL_Add("M1 Max MacBook Pro", "https://en.wikipedia.org/wiki/MacBook_Pro#5th_generation_(M1_Pro_and_M1_Max)");
+
+            URL_Add("Mac Mini (M1)", "https://en.wikipedia.org/wiki/Mac_Mini#Fifth_generation_(Apple_silicon)");
+
+            URL_Add("MacBook Air", "https://en.wikipedia.org/wiki/MacBook_Air");
+
+            URL_Add("MacBook Air (M1)", "https://en.wikipedia.org/wiki/MacBook_Air_(Apple_silicon)#Third_generation_(Retina_with_Apple_silicon)"); // Old: <https://en.wikipedia.org/wiki/MacBook_Air_(M1)>
+
+            URL_Add("MacBook Air (M2)", "https://en.wikipedia.org/wiki/MacBook_Air_(Apple_silicon)");
+
+            URL_Add("MacBook Air (M3)", "https://en.wikipedia.org/wiki/MacBook_Air_(Apple_silicon)#M3_(2024%E2%80%93present)");
+
+            URL_Add("MacBook Air (M4)", "https://en.wikipedia.org/wiki/MacBook_Air_(Apple_silicon)#M4_models");
+
+            URL_Add("macOS", "https://en.wikipedia.org/wiki/MacOS");
+
+            URL_Add("Mac OS 9", "https://en.wikipedia.org/wiki/Mac_OS_9");
+
+            URL_Add("Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)", "https://en.wikipedia.org/wiki/Mac_OS_X_Tiger");
+
+            URL_Add("Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)", "https://en.wikipedia.org/wiki/Mac_OS_X_Leopard");
+
+            URL_Add("Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)", "https://en.wikipedia.org/wiki/Mac_OS_X_Snow_Leopard");
+
+            URL_Add("Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)", "https://en.wikipedia.org/wiki/OS_X_Mountain_Lion");
+
+            URL_Add("Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)", "https://en.wikipedia.org/wiki/OS_X_Mavericks");
+
+            URL_Add("Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)", "https://en.wikipedia.org/wiki/OS_X_El_Capitan");
+
+            URL_Add("macOS&nbsp;v10.12 (Sierra) (2016 vintage)", "https://en.wikipedia.org/wiki/MacOS_Sierra");
+
+            URL_Add("macOS&nbsp;v10.13 (High Sierra) (2017 vintage)", "https://en.wikipedia.org/wiki/MacOS_High_Sierra");
+
+            URL_Add("macOS&nbsp;v10.14 (Mojave) (2018 vintage)", "https://en.wikipedia.org/wiki/MacOS_Mojave");
+
+            URL_Add("macOS&nbsp;v10.15 (Catalina) (2019 vintage)", "https://en.wikipedia.org/wiki/MacOS_Catalina");
+
+            URL_Add("macOS&nbsp;v26 (Tahoe) (2026 vintage)", "https://en.wikipedia.org/wiki/MacOS_Tahoe");
+
+            URL_Add("throughout", "https://en.wiktionary.org/wiki/throughout#Adverb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -151057,17 +151081,20 @@ namespace OverflowHelper.core
             // Simulated intelligence
             correctionAdd("Model Context Protocol_", "MCP_");
 
+            // An simulated intelligence software development platform
+            //
+            // Alternative URLs:
+            //
+            //   <https://antigravity.google/>
+            //
+            correctionAdd("anti-gravity_", "Google Antigravity_");
+            correctionAdd("Antigravity_", "Google Antigravity_");
+            correctionAdd("antigravity_", "Google Antigravity_");
+
             correctionAdd("mixed signal oscilloscope_", "mixed-signal oscilloscope_");
             correctionAdd("MSO_", "mixed-signal oscilloscope_");
 
             correctionAdd("reflections_", "reflections in signal wires_");
-
-            correctionAdd("through out_", "throughout_");
-            correctionAdd("through-out_", "throughout_");
-            correctionAdd("thoughout_", "throughout_");
-
-            correctionAdd("through_", "throw_");
-            correctionAdd("trow_", "throw_");
 
             correctionAdd("flatlined_", "killed_");
             correctionAdd("cancelled_", "killed_");
@@ -153086,6 +153113,7 @@ namespace OverflowHelper.core
             correctionAdd("ElectronJS_", "Electron_");
             correctionAdd("Electronjs_", "Electron_");
             correctionAdd("ElecronJS_", "Electron_");
+            correctionAdd("Elecctron_", "Electron_");
             correctionAdd("electron_", "Electron_");
             correctionAdd("electorn_", "Electron_");
             correctionAdd("ELECTRON_", "Electron_");
@@ -163127,6 +163155,8 @@ namespace OverflowHelper.core
 
             // Android development (Ionic)
             correctionAdd("ionic capacitor_", "Ionic Capacitor_");
+            correctionAdd("Capacitior_", "Ionic Capacitor_");
+            correctionAdd("capacitior_", "Ionic Capacitor_");
             correctionAdd("capacitor_", "Ionic Capacitor_");
             correctionAdd("Capacitor_", "Ionic Capacitor_");
 
@@ -166232,6 +166262,21 @@ namespace OverflowHelper.core
             correctionAdd("watermark_", "simulated intelligence watermarking_");
 
             correctionAdd("sae_", "saw_"); // A true typo
+
+            correctionAdd("non-intuitive_", "nonintuitive_");
+            correctionAdd("non-intuiive_", "nonintuitive_");
+
+            correctionAdd("Throughrough_", "thorough_");
+            correctionAdd("throughrough_", "thorough_");
+            correctionAdd("thoughrough_", "thorough_");
+            correctionAdd("throurough_", "thorough_");
+            correctionAdd("Throurough_", "thorough_");
+            correctionAdd("thougrough_", "thorough_");
+            correctionAdd("throughout_", "thorough_"); // An autocorrect "masterpiece"?
+            correctionAdd("throrough_", "thorough_");
+            correctionAdd("Thourough_", "thorough_");
+            correctionAdd("thourough_", "thorough_");
+            correctionAdd("through_", "thorough_");
 
             // C. A book
             //
@@ -169659,10 +169704,6 @@ namespace OverflowHelper.core
 
             URL_Add("workplace_", "https://en.wiktionary.org/wiki/workplace#Noun");
 
-            URL_Add("throw_", "https://en.wiktionary.org/wiki/throw#Verb");
-
-            URL_Add("throughout_", "https://en.wiktionary.org/wiki/throughout#Adverb");
-
             URL_Add("shine through_", "https://en.wiktionary.org/wiki/shine_through#Verb");
 
             URL_Add("modification_", "https://en.wiktionary.org/wiki/modification#Noun");
@@ -170191,8 +170232,6 @@ namespace OverflowHelper.core
 
             URL_Add("unittest_", "https://docs.python.org/3.8/library/unittest.html");
 
-            URL_Add("format()_", "https://docs.python.org/3.8/library/functions.html#format");
-
             URL_Add("sort()_", "https://docs.python.org/3.8/library/stdtypes.html#list.sort");
 
             URL_Add("map()_", "https://docs.python.org/3.8/library/functions.html#map");
@@ -170202,6 +170241,8 @@ namespace OverflowHelper.core
             URL_Add("csv (the (literal) name of a Python module)_", "https://docs.python.org/3.8/library/csv.html");
 
             URL_Add("literal_eval()_", "https://docs.python.org/3/library/ast.html#ast.literal_eval");
+
+            URL_Add("format()_", "https://docs.python.org/3.8/library/functions.html#format");
 
             URL_Add("subprocess module_", "https://docs.python.org/3/library/subprocess.html");
 
@@ -170262,18 +170303,6 @@ namespace OverflowHelper.core
             URL_Add("photonic-crystal fiber_", "https://en.wikipedia.org/wiki/Photonic-crystal_fiber");
 
             URL_Add("versions_", "https://en.wiktionary.org/wiki/version#Noun");
-
-            URL_Add("macros_", "https://en.wiktionary.org/wiki/macro#Noun_2");
-
-            URL_Add("macro pad_", "https://keyboardsexpert.com/macropad-mechanical-keyboard-faqs/");
-
-            URL_Add("Mac_", "https://en.wikipedia.org/wiki/Mac_(computer)"); // Collision with MAC, Media Access Control (computer networking related). Old: <https://en.wikipedia.org/wiki/Macintosh>
-
-            URL_Add("Mac OS_", "https://en.wikipedia.org/wiki/Classic_Mac_OS");
-
-            URL_Add("Mac&nbsp;OS&nbsp;X_", "https://en.wikipedia.org/wiki/Mac_OS_X");
-
-            URL_Add("MacBook Pro M1_", "https://en.wikipedia.org/wiki/MacBook_Pro#14-inch_and_16-inch_(2021%E2%80%93present)"); // Old: https://en.wikipedia.org/wiki/MacBook_Pro#Sixth_generation_(M1)
 
             URL_Add("appointment_", "https://en.wiktionary.org/wiki/appointment#Noun");
 
@@ -170811,6 +170840,8 @@ namespace OverflowHelper.core
 
             URL_Add("MCP_", "https://en.wikipedia.org/wiki/Model_Context_Protocol");
 
+            URL_Add("Google Antigravity_", "https://en.wikipedia.org/wiki/Google_Antigravity");
+
             URL_Add("LoRA_", "https://huggingface.co/docs/diffusers/main/en/training/lora");
 
             URL_Add("LLaMA_", "https://en.wikipedia.org/wiki/Llama_(language_model)"); // Old: <https://en.wikipedia.org/wiki/LLaMA>
@@ -170910,6 +170941,22 @@ namespace OverflowHelper.core
             URL_Add("saw_", "https://en.wiktionary.org/wiki/see#Verb");
 
             URL_Add("quantum Fourier transform_", "https://en.wikipedia.org/wiki/Quantum_Fourier_transform");
+
+            URL_Add("nonintuitive_", "https://en.wiktionary.org/wiki/nonintuitive#Adjective");
+
+            URL_Add("macros_", "https://en.wiktionary.org/wiki/macro#Noun_2");
+
+            URL_Add("macro pad_", "https://keyboardsexpert.com/macropad-mechanical-keyboard-faqs/");
+
+            URL_Add("Mac_", "https://en.wikipedia.org/wiki/Mac_(computer)"); // Collision with MAC, Media Access Control (computer networking related). Old: <https://en.wikipedia.org/wiki/Macintosh>
+
+            URL_Add("Mac OS_", "https://en.wikipedia.org/wiki/Classic_Mac_OS");
+
+            URL_Add("Mac&nbsp;OS&nbsp;X_", "https://en.wikipedia.org/wiki/Mac_OS_X");
+
+            URL_Add("MacBook Pro M1_", "https://en.wikipedia.org/wiki/MacBook_Pro#14-inch_and_16-inch_(2021%E2%80%93present)"); // Old: https://en.wikipedia.org/wiki/MacBook_Pro#Sixth_generation_(M1)
+
+            URL_Add("thorough_", "https://en.wiktionary.org/wiki/thorough#Adjective");
 
         } //addLookupData_alternativeWordSet()
 
@@ -172905,16 +172952,6 @@ namespace OverflowHelper.core
             correctionAdd("unlike__", "almost, but not quite entirely, unlike tea__");
             correctionAdd("tea__", "almost, but not quite entirely, unlike tea__");
 
-            // In 'The Hitchhiker's Guide to the Galaxy'.
-            correctionAdd("rock throwing business__", "circling poets throw rocks at them__");
-            correctionAdd("business__", "circling poets throw rocks at them__");
-            correctionAdd("throwing__", "circling poets throw rocks at them__");
-            correctionAdd("throws__", "circling poets throw rocks at them__");
-            correctionAdd("thrown__", "circling poets throw rocks at them__");
-            correctionAdd("throw__", "circling poets throw rocks at them__");
-            correctionAdd("threw__", "circling poets throw rocks at them__");
-            correctionAdd("rock__", "circling poets throw rocks at them__");
-
             // Aviation. Not to be confused with "fA" (femtoampere)
             correctionAdd("flight attendants__", "flight attendant__");
             correctionAdd("cabin crew__", "flight attendant__");
@@ -174816,6 +174853,16 @@ namespace OverflowHelper.core
             correctionAdd("key actuation__", "actuation distance__");
             correctionAdd("AP__", "actuation distance__"); // For "actuation point"
 
+            // For example, related to mice and keyboards
+            //
+            correctionAdd("repetitive-strain injuries__", "RSI__");
+            correctionAdd("repeated stress injuries__", "RSI__"); // No...
+            correctionAdd("Repetitive strain injury__", "RSI__");
+            correctionAdd("repetitive-strain injury__", "RSI__");
+            correctionAdd("rsi__", "RSI__");
+            correctionAdd("isr__", "RSI__");
+            correctionAdd("ISR__", "RSI__");
+
             // Related to mechanical keyboards
             //
             // Alternative URLs (but we need better references):
@@ -175918,6 +175965,9 @@ namespace OverflowHelper.core
             // E.g., in a film
             correctionAdd("staring__", "starring__");
 
+            correctionAdd("through__", "throw__");
+            correctionAdd("trow__", "throw__");
+
             // A book. For the reverse
             //
             // We need a better reference...
@@ -176031,8 +176081,6 @@ namespace OverflowHelper.core
 
             URL_Add("solved__", "https://en.wiktionary.org/wiki/solve#Verb");
 
-            URL_Add("down__", "https://en.wiktionary.org/wiki/down#Preposition");
-
             URL_Add("data center__", "https://en.wikipedia.org/wiki/Data_center");
 
             URL_Add("merchandise__", "https://en.wiktionary.org/wiki/merchandise#Noun");
@@ -176126,8 +176174,6 @@ namespace OverflowHelper.core
             URL_Add("Coursier__", "https://docs.scala-lang.org/getting-started/index.html");
 
             URL_Add("sum__", "https://en.wiktionary.org/wiki/sum#Verb");
-
-            URL_Add("for all intents and purposes__", "https://en.wiktionary.org/wiki/for_all_intents_and_purposes#Prepositional_phrase");
 
             URL_Add("MA keycap profile__", "https://thekeeblog.com/overview-of-different-keycap-profiles/#MA_Profile");
 
@@ -176315,8 +176361,6 @@ namespace OverflowHelper.core
 
             URL_Add("batch__", "https://en.wiktionary.org/wiki/batch#Noun");
 
-            URL_Add("to some extent__", "https://en.wiktionary.org/wiki/to_some_extent#Prepositional_phrase");
-
             URL_Add("notebook__", "https://en.wikipedia.org/wiki/Notebook");
 
             URL_Add("K&R__", "https://stackoverflow.com/questions/17206568/what-is-the-difference-between-c-c99-ansi-c-and-gnu-c/17209532#17209532");
@@ -176394,8 +176438,6 @@ namespace OverflowHelper.core
             URL_Add("Joe Scotto's method for Vial support__", "https://www.youtube.com/watch?v=O8pdUPqPG3k");
 
             URL_Add("TCP/IP port__", "https://en.wikipedia.org/wiki/Transmission_Control_Protocol#TCP_ports");
-
-            URL_Add("Crystal Reports__", "https://en.wikipedia.org/wiki/Crystal_Reports");
 
             URL_Add("Jack Ganssle__", "https://www.ganssle.com/bio.htm");
 
@@ -176799,8 +176841,6 @@ namespace OverflowHelper.core
 
             URL_Add("first-generation__", "https://en.wiktionary.org/wiki/first-generation#Adjective");
 
-            URL_Add("circling poets throw rocks at them__", "https://www.youtube.com/watch?v=vaVYEYeWbGs&list=PLSoD2CcPrumFJREVL6RmMnZP5U7sGYYi2&index=25&t=1m6s");
-
             URL_Add("never meeting yourself because of the embarrassment this usually causes__", "https://www.youtube.com/watch?v=7ReHfcTgw8Y&list=PLSoD2CcPrumFJREVL6RmMnZP5U7sGYYi2&index=16&t=3m23s");
 
             URL_Add("almost, but not quite entirely, unlike tea__", "https://www.youtube.com/watch?v=5wAuDhoRmzg&t=8m4s");
@@ -176933,10 +176973,6 @@ namespace OverflowHelper.core
 
             URL_Add("pod__", "https://en.wikipedia.org/wiki/Kubernetes#Pods");
 
-            URL_Add("hot__", "https://en.wiktionary.org/wiki/hot#Adjective");
-
-            URL_Add("hot-swap sockets__", "https://switchandclick.com/how-to-remove-replace-switches-on-a-hot-swappable-keyboard/");
-
             URL_Add("alpha__", "https://en.wiktionary.org/wiki/alpha#Adjective");
 
             URL_Add("fucking__", "https://en.wiktionary.org/wiki/fucking#Adjective");
@@ -177044,18 +177080,6 @@ namespace OverflowHelper.core
             URL_Add("Odysee__", "https://en.wikipedia.org/wiki/Odysee");
 
             URL_Add("PCI Express Mini Card__", "https://en.wikipedia.org/wiki/PCI_Express#PCI_Express_Mini_Card");
-
-            URL_Add("Mac__", "https://en.wiktionary.org/wiki/Mac#Noun_2");
-
-            URL_Add("OS&nbsp;X__", "https://en.wikipedia.org/wiki/OS_X");
-
-            URL_Add("Mac Pro__", "https://en.wikipedia.org/wiki/Mac_Pro");
-
-            URL_Add("M3 Max MacBook Pro__", "https://en.wikipedia.org/wiki/MacBook_Pro#14-inch_and_16-inch_(2021%E2%80%93present)");
-
-            URL_Add("Time Machine__", "https://en.wikipedia.org/wiki/Time_Machine_(macOS)");
-
-            URL_Add("Boot Camp__", "https://en.wikipedia.org/wiki/Boot_Camp_%28software%29");
 
             URL_Add("Swift Playgrounds__", "https://en.wikipedia.org/wiki/Swift_Playgrounds");
 
@@ -177172,6 +177196,34 @@ namespace OverflowHelper.core
             URL_Add("got__", "https://en.wiktionary.org/wiki/get#Verb");
 
             URL_Add("uv__", "https://github.com/astral-sh/uv");
+
+            URL_Add("RSI__", "https://en.wikipedia.org/wiki/Repetitive_strain_injury");
+
+            URL_Add("Crystal Reports__", "https://en.wikipedia.org/wiki/Crystal_Reports");
+
+            URL_Add("down__", "https://en.wiktionary.org/wiki/down#Preposition");
+
+            URL_Add("to some extent__", "https://en.wiktionary.org/wiki/to_some_extent#Prepositional_phrase");
+
+            URL_Add("for all intents and purposes__", "https://en.wiktionary.org/wiki/for_all_intents_and_purposes#Prepositional_phrase");
+
+            URL_Add("hot__", "https://en.wiktionary.org/wiki/hot#Adjective");
+
+            URL_Add("hot-swap sockets__", "https://switchandclick.com/how-to-remove-replace-switches-on-a-hot-swappable-keyboard/");
+
+            URL_Add("Mac__", "https://en.wiktionary.org/wiki/Mac#Noun_2");
+
+            URL_Add("OS&nbsp;X__", "https://en.wikipedia.org/wiki/OS_X");
+
+            URL_Add("Mac Pro__", "https://en.wikipedia.org/wiki/Mac_Pro");
+
+            URL_Add("M3 Max MacBook Pro__", "https://en.wikipedia.org/wiki/MacBook_Pro#14-inch_and_16-inch_(2021%E2%80%93present)");
+
+            URL_Add("Time Machine__", "https://en.wikipedia.org/wiki/Time_Machine_(macOS)");
+
+            URL_Add("Boot Camp__", "https://en.wikipedia.org/wiki/Boot_Camp_%28software%29");
+
+            URL_Add("throw__", "https://en.wiktionary.org/wiki/throw#Verb");
 
         } //addLookupData_alternativeWordSet2()
 
@@ -177824,6 +177876,7 @@ namespace OverflowHelper.core
             correctionAdd("throught___", "through___");
             correctionAdd("trhought___", "through___");
             correctionAdd("throuogh___", "through___");
+            correctionAdd("thorught___", "through___");
             correctionAdd("througt___", "through___");
             correctionAdd("thorugh___", "through___");
             correctionAdd("throuth___", "through___");
@@ -179314,6 +179367,8 @@ namespace OverflowHelper.core
             correctionAdd("bullsh!t___", "bovine fecal matter___");
             correctionAdd("bulls&!t___", "bovine fecal matter___");
             correctionAdd("bullshit___", "bovine fecal matter___");
+            correctionAdd("BULLSH___", "bovine fecal matter___");
+            correctionAdd("bullsh___", "bovine fecal matter___");
             correctionAdd("B.S___", "bovine fecal matter___");
             correctionAdd("BS___", "bovine fecal matter___");
 
@@ -180934,6 +180989,16 @@ namespace OverflowHelper.core
             correctionAdd("em dash____", "MDASH____"); // For the cross-reference
             correctionAdd("EmDash____", "MDASH____"); // For the cross-reference
 
+            // In 'The Hitchhiker's Guide to the Galaxy'.
+            correctionAdd("rock throwing business____", "circling poets throw rocks at them____");
+            correctionAdd("business____", "circling poets throw rocks at them____");
+            correctionAdd("throwing____", "circling poets throw rocks at them____");
+            correctionAdd("throws____", "circling poets throw rocks at them____");
+            correctionAdd("thrown____", "circling poets throw rocks at them____");
+            correctionAdd("throw____", "circling poets throw rocks at them____");
+            correctionAdd("threw____", "circling poets throw rocks at them____");
+            correctionAdd("rock____", "circling poets throw rocks at them____");
+
             // The food thing... (not keyboard macros...)
             correctionAdd("macronutrients____", "macronutrient____");
             correctionAdd("Macronutrient____", "macronutrient____");
@@ -181156,6 +181221,16 @@ namespace OverflowHelper.core
 
             correctionAdd("uv____", "ultraviolet____");
             correctionAdd("UV____", "ultraviolet____");
+
+            correctionAdd("Naiver Stokes equations____", "Navier–Stokes equations____");
+            correctionAdd("Navier-Stokes equations____", "Navier–Stokes equations____");
+            correctionAdd("Navier-Stokes equation____", "Navier–Stokes equations____");
+            correctionAdd("Navier-Stokes Equation____", "Navier–Stokes equations____");
+            correctionAdd("Naiver Stokes equation____", "Navier–Stokes equations____");
+            correctionAdd("Navier Stokes equation____", "Navier–Stokes equations____");
+            correctionAdd("Navier–Stokes equation____", "Navier–Stokes equations____");
+            correctionAdd("NSE____", "Navier–Stokes equations____");
+            correctionAdd("NS____", "Navier–Stokes equations____");
 
             // For the cross-reference to the default keymap
             // Note: In Git branch "wireless_playground"
@@ -182629,19 +182704,11 @@ namespace OverflowHelper.core
 
             URL_Add("ID____", "https://en.wiktionary.org/wiki/ID#Noun");
 
-            URL_Add("for____", "https://en.wiktionary.org/wiki/for#Preposition");
-
             URL_Add("u____", "https://www.youtube.com/watch?v=xLT2VcrQHrQ&t=5m5s");
-
-            URL_Add("so____", "https://en.wiktionary.org/wiki/so#Conjunction");
 
             URL_Add("Internet Protocol____", "https://en.wikipedia.org/wiki/Internet_Protocol");
 
-            URL_Add("and____", "https://en.wiktionary.org/wiki/and#Conjunction");
-
             URL_Add("Counter-Strike____", "https://en.wikipedia.org/wiki/Counter-Strike");
-
-            URL_Add("be____", "https://en.wiktionary.org/wiki/be#Verb");
 
             URL_Add("space bar____", "https://en.wikipedia.org/wiki/Space_bar");
 
@@ -182798,6 +182865,18 @@ namespace OverflowHelper.core
             URL_Add("Photoshop____", "https://en.wikipedia.org/wiki/Adobe_Photoshop");
 
             URL_Add("Photoshop PSD format____", "https://en.wikipedia.org/wiki/Adobe_Photoshop#File_format");
+
+            URL_Add("for____", "https://en.wiktionary.org/wiki/for#Preposition");
+
+            URL_Add("so____", "https://en.wiktionary.org/wiki/so#Conjunction");
+
+            URL_Add("and____", "https://en.wiktionary.org/wiki/and#Conjunction");
+
+            URL_Add("be____", "https://en.wiktionary.org/wiki/be#Verb");
+
+            URL_Add("Navier–Stokes equations____", "https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations");
+
+            URL_Add("circling poets throw rocks at them____", "https://www.youtube.com/watch?v=vaVYEYeWbGs&list=PLSoD2CcPrumFJREVL6RmMnZP5U7sGYYi2&index=25&t=1m6s");
 
         } //addLookupData_alternativeWordSet4()
 
