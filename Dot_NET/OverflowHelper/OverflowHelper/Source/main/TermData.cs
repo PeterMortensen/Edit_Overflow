@@ -1703,6 +1703,8 @@ namespace OverflowHelper.core
             correctionAdd("u turn", "U-turn");
             correctionAdd("u-turn", "U-turn");
 
+            correctionAdd("rectangly", "rectangular");
+
             correctionAdd("thresh-hold", "threshold");
             correctionAdd("threeshold", "threshold");
             correctionAdd("threshhold", "threshold");
@@ -8892,6 +8894,7 @@ namespace OverflowHelper.core
             correctionAdd("bqgtery", "battery"); // A true typo (double; a row slide)
             correctionAdd("bartery", "battery");
             correctionAdd("bettery", "battery");
+            correctionAdd("batteru", "battery"); // A true typo
             correctionAdd("battey", "battery");
             correctionAdd("batery", "battery");
             correctionAdd("batter", "battery");
@@ -51266,6 +51269,9 @@ namespace OverflowHelper.core
 
             correctionAdd("forgrt", "forget");
 
+            correctionAdd("forgoting", "forgetting");
+            correctionAdd("Forgoting", "forgetting");
+
             correctionAdd("forgetted", "forgot");
             correctionAdd("forgeted", "forgot");
             correctionAdd("forgor", "forgot");
@@ -60854,6 +60860,8 @@ namespace OverflowHelper.core
 
             correctionAdd("mispercieves", "misperceives");
 
+            correctionAdd("Amaizing", "amazing");
+            correctionAdd("amaizing", "amazing");
             correctionAdd("amezing", "amazing");
             correctionAdd("Amezing", "amazing");
             correctionAdd("amazinf", "amazing");
@@ -71185,6 +71193,7 @@ namespace OverflowHelper.core
 
             // E.g., for the Keychron 2024 design and production quality issues with keychattering and missed keystrokes
             //
+            correctionAdd("the gasket-mounted V6 Max", "Testing a V6 Max from April 2024");
             correctionAdd("the Keychron keyboard", "Testing a V6 Max from April 2024");
             correctionAdd("a modified V6 Max", "Testing a V6 Max from April 2024");
             correctionAdd("a newer model", "Testing a V6 Max from April 2024");
@@ -83164,6 +83173,8 @@ namespace OverflowHelper.core
             correctionAdd("RestFul", "RESTful");
             correctionAdd("RESTFul", "RESTful");
 
+            correctionAdd("REST APIs", "REST API"); // Not 100% correct - plural/singular.
+            correctionAdd("REST apis", "REST API"); // Not 100% correct - plural/singular.
             correctionAdd("REST-API", "REST API");
             correctionAdd("rest-api", "REST API");
             correctionAdd("Rest API", "REST API");
@@ -87081,6 +87092,7 @@ namespace OverflowHelper.core
             // RGB (per-key) south-facing (unwanted
             // ***light bleed***) lighting.
             //
+            correctionAdd("Q1&nbsp;Ultra&nbsp;8K", "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K");
             correctionAdd("Keychron Q1 Ultra 8K", "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K"); // Sort of identity mapping
             correctionAdd("Q1 Ultra 8K", "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K");
             correctionAdd("Q1 Ultra 8k", "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K");
@@ -87785,6 +87797,36 @@ namespace OverflowHelper.core
             correctionAdd("Keychron Q81 Pro", "Keychron&nbsp;Keyboard&nbsp;81&nbsp;Pro (80%)");
             correctionAdd("Keyboard 81 Pro", "Keychron&nbsp;Keyboard&nbsp;81&nbsp;Pro (80%)");
             correctionAdd("81 Pro", "Keychron&nbsp;Keyboard&nbsp;81&nbsp;Pro (80%)");
+
+            // A 82-key (80%. Not true TKL) crippled wired-only
+            // closed source (but with Via support)
+            // mechanical keyboard with a knob
+            // from Keychron.
+            //
+            // It is likely based on a RISC-V microcontroller
+            //
+            // RGB (per-key) north-facing (***no*** unwanted light
+            // bleed) lighting
+            //
+            // Notes:
+            //
+            //   * Proprietary keyboard firmware, not open source
+            //
+            //   * K HE and Q HE series:
+            //
+            //     South pole facing downward (uncommon)
+            //
+            //     What about the J HE 8K series???
+            //
+            // USB identity in flash mode:
+            //
+            //   0x34B7. 0x0005.
+            //
+            //   0x34B7 is for HPMICRO Semiconductor,
+            //   a RISC-V microcontroller vendor.
+            //
+            correctionAdd("Keychron J8 HE 8K (80%) (proprietary keyboard firmware, not open source)", "Keychron&nbsp;J8&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
+            correctionAdd("J8 HE 8K", "Keychron&nbsp;J8&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
 
             // A 83-key (80%. Not true TKL) crippled low-profile
             // wired and wireless (both Bluetooth and '2.4 GHz')
@@ -90815,6 +90857,10 @@ namespace OverflowHelper.core
             // RGB (per-key) south-facing (unwanted
             // ***light bleed***) lighting.
             //
+            // ANSI product page:
+            //   
+            //   <https://www.keychron.com/products/keychron-v5-qmk-custom-mechanical-keyboard>
+            //
             // Notes:
             //
             //  * The Q5 spoils the pattern of Q series and V series
@@ -91220,6 +91266,30 @@ namespace OverflowHelper.core
             correctionAdd("the halo", "NuPhy Halo96");
             correctionAdd("Halo 96", "NuPhy Halo96");
             correctionAdd("halo 96", "NuPhy Halo96");
+
+            // A 100-key (95%) wired-only QMK/Via-capable
+            // macro pad without a knob.
+            //
+            // C100 8K source code:
+            //
+            //   <https://github.com/Keychron/qmk_firmware/tree/2025q3/keyboards/keychron/c100_8k>
+            //
+            //     Note: In Keychron's fork and, in that
+            //           fork, in branch "2025q3"
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.keychron.com/products/keychron-c100-8k-giant-custom-macro-pad>
+            //   <https://www.techpowerup.com/351570/keychron-launches-comically-large-c100-8k-100-key-mechanical-macro-pad>
+            //   <https://www.youtube.com/watch?v=Ol_WPviUldE>
+            //     Thomas' unboxing
+            //
+            correctionAdd("Keychron C100 8K (95%)", "Keychron&nbsp;C100&nbsp;8K (95%)"); // Sort of identity mapping
+            correctionAdd("Keychron&nbsp;C100", "Keychron&nbsp;C100&nbsp;8K (95%)");
+            correctionAdd("Keychron C100 8K", "Keychron&nbsp;C100&nbsp;8K (95%)");
+            correctionAdd("Keychron C100", "Keychron&nbsp;C100&nbsp;8K (95%)");
+            correctionAdd("C100", "Keychron&nbsp;C100&nbsp;8K (95%)");
+            correctionAdd("c100", "Keychron&nbsp;C100&nbsp;8K (95%)");
 
             // A 101-key (95%. Not true TKL) crippled (wrt. missing
             // clusters, e.g., PrtSc) wired and wireless (only
@@ -113521,6 +113591,12 @@ namespace OverflowHelper.core
 
             URL_Add("forget", "https://en.wiktionary.org/wiki/forget#Verb");
 
+            URL_Add("forgetting", "https://en.wiktionary.org/wiki/forget#Verb");
+
+            URL_Add("forgot", "https://en.wiktionary.org/wiki/forget#Verb");
+
+            URL_Add("forgotten", "https://en.wiktionary.org/wiki/forget#Verb");
+
             URL_Add("resonate", "https://en.wiktionary.org/wiki/resonate#Verb");
 
             URL_Add("lethality", "https://en.wiktionary.org/wiki/lethality#Noun");
@@ -114172,8 +114248,6 @@ namespace OverflowHelper.core
             URL_Add("busy work", "https://en.wiktionary.org/wiki/busy_work#Noun");
 
             URL_Add("causes", "https://en.wiktionary.org/wiki/cause#Verb");
-
-            URL_Add("forgotten", "https://en.wiktionary.org/wiki/forget#Verb");
 
             URL_Add("rescheduling", "https://en.wiktionary.org/wiki/reschedule#Verb");
 
@@ -118246,8 +118320,6 @@ namespace OverflowHelper.core
             URL_Add("tetragonal", "https://en.wiktionary.org/wiki/tetragonal#Adjective");
 
             URL_Add("Shadowsocks", "https://en.wikipedia.org/wiki/Shadowsocks");
-
-            URL_Add("forgot", "https://en.wiktionary.org/wiki/forget#Verb");
 
             URL_Add("100BASE-TX", "https://en.wikipedia.org/wiki/Fast_Ethernet");
 
@@ -144135,31 +144207,35 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;J2", "https://www.keychron.com/products/keychron-j2-qmk-wireless-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-j2-he-8k-magnetic-switch-keyboard");
-
             URL_Add("Keychron J4", "https://www.keychron.com/products/keychron-j4-qmk-wireless-mechanical-keyboard");
 
             URL_Add("Keychron&nbsp;J5 (105%)", "https://www.keychron.com/products/keychron-j5-qmk-wireless-mechanical-keyboard");
 
-            URL_Add("Keychron S1", "https://www.keychron.com/products/keychron-s1-qmk-custom-mechanical-keyboard");
+            URL_Add("Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-j2-he-8k-magnetic-switch-keyboard");
 
-            URL_Add("Keychron&nbsp;C0&nbsp;HE&nbsp;8K (30%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-c0-he-one-handed-magnetic-switch-gaming-keyboard");
+            URL_Add("Keychron&nbsp;J8&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-j8-he-8k-magnetic-switch-keyboard");
+
+            URL_Add("Keychron S1", "https://www.keychron.com/products/keychron-s1-qmk-custom-mechanical-keyboard");
 
             URL_Add("Keychron C1", "https://www.keychron.com/products/keychron-c1-wired-mechanical-keyboard");
 
             URL_Add("Keychron&nbsp;C1&nbsp;Pro", "https://www.keychron.com/products/keychron-c1-pro-qmk-via-wired-mechanical-keyboard");
 
+            URL_Add("Keychron&nbsp;C2&nbsp;Pro (100%)", "https://www.keychron.com/products/keychron-c2-pro-qmk-via-wired-mechanical-keyboard");
+
+            URL_Add("Keychron C3 Pro", "https://www.keychron.uk/products/keychron-c3-pro-qmk-via-wired-mechanical-keyboard-iso-layout-collection");
+
             URL_Add("Keychron&nbsp;C1&nbsp;Pro&nbsp;8K", "https://keychron.ca/products/keychron-c1-pro-8k-qmk-wired-custom-mechanical-keyboard-us-ansi-layout");
 
-            URL_Add("Keychron&nbsp;C2&nbsp;Pro (100%)", "https://www.keychron.com/products/keychron-c2-pro-qmk-via-wired-mechanical-keyboard");
+            URL_Add("Keychron&nbsp;C0&nbsp;HE&nbsp;8K (30%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-c0-he-one-handed-magnetic-switch-gaming-keyboard");
+
+            URL_Add("Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)", "https://keychron.ca/products/keychron-c3-pro-8k-qmk-wired-custom-mechanical-keyboard-us-ansi-layout");
+
+            URL_Add("Keychron&nbsp;C100&nbsp;8K (95%)", "https://www.keychron.com/products/keychron-c100-8k-giant-custom-macro-pad");
 
             URL_Add("Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)", "https://www.keychron.uk/collections/keychron-c-pro-series-keyboards/products/keychron-c2-pro-8k-qmk-wired-custom-mechanical-keyboard-iso-layout-collection"); // Old: <https://keychron.ca/products/keychron-c2-pro-8k-qmk-wired-custom-mechanical-keyboard-us-ansi-layout>
 
             URL_Add("Keychron&nbsp;C4&nbsp;HE&nbsp;8K (100%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-c4-he-magnetic-switch-keyboard");
-
-            URL_Add("Keychron C3 Pro", "https://www.keychron.uk/products/keychron-c3-pro-qmk-via-wired-mechanical-keyboard-iso-layout-collection");
-
-            URL_Add("Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)", "https://keychron.ca/products/keychron-c3-pro-8k-qmk-wired-custom-mechanical-keyboard-us-ansi-layout");
 
             URL_Add("Keychron&nbsp;Keyboard&nbsp;81&nbsp;Pro (80%)", "https://www.keychron.com/products/keyboard-81-pro-qmk-via-wireless-custom-mechanical-keyboard");
 
@@ -147926,6 +148002,8 @@ namespace OverflowHelper.core
             URL_Add("CMR", "https://en.wikipedia.org/wiki/Perpendicular_recording");
 
             URL_Add("SMR", "https://en.wikipedia.org/wiki/Shingled_magnetic_recording");
+
+            URL_Add("rectangular", "https://en.wiktionary.org/wiki/rectangular#Adjective");
 
             URL_Add("Rectangle", "https://www.reddit.com/r/mac/comments/fjmlgo/try_rectangle_before_buying_magnet/");
 
@@ -157113,6 +157191,7 @@ namespace OverflowHelper.core
             correctionAdd("Luncher_", "Keychron Launcher_"); // A typo
             correctionAdd("luncher_", "Keychron Launcher_"); // A typo
             correctionAdd("Lancher_", "Keychron Launcher_");
+            correctionAdd("launcer_", "Keychron Launcher_");
             correctionAdd("LWC_", "Keychron Launcher_");
             correctionAdd("KL_", "Keychron Launcher_");
 
@@ -157588,6 +157667,7 @@ namespace OverflowHelper.core
             correctionAdd("Keychron Q1 he_", "Keychron&nbsp;Q1&nbsp;HE_");
             correctionAdd("keychron q1 he_", "Keychron&nbsp;Q1&nbsp;HE_");
             correctionAdd("Keychron Q1 HE_", "Keychron&nbsp;Q1&nbsp;HE_");
+            correctionAdd("KEYCHRON Q1 HE_", "Keychron&nbsp;Q1&nbsp;HE_");
             correctionAdd("Q1&nbsp;HE_", "Keychron&nbsp;Q1&nbsp;HE_");
             correctionAdd("Q1 HE_", "Keychron&nbsp;Q1&nbsp;HE_");
             correctionAdd("Q1 He_", "Keychron&nbsp;Q1&nbsp;HE_");
@@ -158334,6 +158414,7 @@ namespace OverflowHelper.core
             correctionAdd("Lemokey L3_", "Keychron&nbsp;Lemokey&nbsp;L3_");
             correctionAdd("lemokey L3_", "Keychron&nbsp;Lemokey&nbsp;L3_");
             correctionAdd("Lemokey l3_", "Keychron&nbsp;Lemokey&nbsp;L3_");
+            correctionAdd("lemokey l3_", "Keychron&nbsp;Lemokey&nbsp;L3_");
             correctionAdd("L3_", "Keychron&nbsp;Lemokey&nbsp;L3_");
 
             // A 98-key (95%. Not true TKL) crippled (wrt. missing
@@ -160493,6 +160574,7 @@ namespace OverflowHelper.core
 
             // Music
             correctionAdd("Piano_", "piano_");
+            correctionAdd("piono_", "piano_");
 
             // Music
             correctionAdd("Samba_", "samba_");
@@ -162577,6 +162659,9 @@ namespace OverflowHelper.core
             // documentation only has the cryptic "Toggles
             // the status of the GUI keys"...
             //
+            // Note: "GUI_TOG" is used by Keychron, e.g., for
+            //       Lemokey L3: <https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/lemokey/l3/iso/keymaps/via/keymap.c#L40>
+            //
             // The Keychron 'blog' post is:
             //
             //   <https://www.keychron.com/blogs/news/how-to-lock-the-windows-key-on-a-keychron-qmk-via-keyboard>
@@ -162587,8 +162672,9 @@ namespace OverflowHelper.core
             //     The old one, <https://www.keychron.com/blogs/archived/how-to-lock-the-windows-key-on-a-keychron-qmk-via-keyboard>,
             //     was removed... (observed 2025-11-26)
             //
-            correctionAdd("GU_TOGG_", "toggle Windows key lock keycode (QK_MAGIC_TOGGLE_GUI. QMK. 28683 (decimal). 700B (hexadecimal))_");
             correctionAdd("QK_MAGIC_TOGGLE_GUI_", "toggle Windows key lock keycode (QK_MAGIC_TOGGLE_GUI. QMK. 28683 (decimal). 700B (hexadecimal))_");
+            correctionAdd("GU_TOGG_", "toggle Windows key lock keycode (QK_MAGIC_TOGGLE_GUI. QMK. 28683 (decimal). 700B (hexadecimal))_");
+            correctionAdd("GUI_TOG_", "toggle Windows key lock keycode (QK_MAGIC_TOGGLE_GUI. QMK. 28683 (decimal). 700B (hexadecimal))_");
             correctionAdd("28683_", "toggle Windows key lock keycode (QK_MAGIC_TOGGLE_GUI. QMK. 28683 (decimal). 700B (hexadecimal))_");
             correctionAdd("0x700B_", "toggle Windows key lock keycode (QK_MAGIC_TOGGLE_GUI. QMK. 28683 (decimal). 700B (hexadecimal))_");
             correctionAdd("0x700b_", "toggle Windows key lock keycode (QK_MAGIC_TOGGLE_GUI. QMK. 28683 (decimal). 700B (hexadecimal))_");
@@ -172765,6 +172851,8 @@ namespace OverflowHelper.core
             correctionAdd("2.4Gh__", "2.4&nbsp;GHz__");
             correctionAdd("2 GHz__", "2.4&nbsp;GHz__");
             correctionAdd("2 ghz__", "2.4&nbsp;GHz__");
+            correctionAdd("Radio__", "2.4&nbsp;GHz__");
+            correctionAdd("radio__", "2.4&nbsp;GHz__");
             correctionAdd("2GHz__", "2.4&nbsp;GHz__");
             correctionAdd("2ghz__", "2.4&nbsp;GHz__");
             correctionAdd("2.4g__", "2.4&nbsp;GHz__");
