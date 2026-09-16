@@ -8055,6 +8055,8 @@ namespace OverflowHelper.core
             //
             correctionAdd("deej", "Deej");
 
+            correctionAdd("kvm switch", "KVM switch");
+            correctionAdd("km switch", "KVM switch");
             correctionAdd("switcher", "KVM switch");
             correctionAdd("KVMs", "KVM switch");
             correctionAdd("K/M", "KVM switch");
@@ -13610,6 +13612,7 @@ namespace OverflowHelper.core
             correctionAdd("brigtness", "brightness");
             correctionAdd("britgness", "brightness");
             correctionAdd("Brigtness", "brightness");
+            correctionAdd("brigthnes", "brightness");
 
             correctionAdd("stratosfere", "stratosphere");
 
@@ -55427,6 +55430,7 @@ namespace OverflowHelper.core
 
             // Adjective
             correctionAdd("32 bit", "32-bit");
+            correctionAdd("32-Bit", "32-bit");
             correctionAdd("32bit", "32-bit");
 
             // Adjective
@@ -56729,22 +56733,26 @@ namespace OverflowHelper.core
             correctionAdd("AIRBUS", "Airbus");
 
             // An aircraft
+            correctionAdd("A-220", "Airbus A220");
             correctionAdd("A220", "Airbus A220");
 
             // An aircraft
-            correctionAdd("A321", "Airbus A321neo");
             correctionAdd("a321 NEO", "Airbus A321neo");
+            correctionAdd("A-321", "Airbus A321neo");
+            correctionAdd("A321", "Airbus A321neo");
 
             // An aircraft
             correctionAdd("a310-300", "A310-300");
 
             // An aircraft
             correctionAdd("Airbus 319", "Airbus A319");
+            correctionAdd("A-319", "Airbus A319");
             correctionAdd("A319", "Airbus A319");
 
             // An aircraft
             correctionAdd("Airbus a320", "Airbus A320");
             correctionAdd("Airbus 320", "Airbus A320");
+            correctionAdd("A-320", "Airbus A320");
             correctionAdd("A320", "Airbus A320");
             correctionAdd("a320", "Airbus A320");
 
@@ -56753,13 +56761,16 @@ namespace OverflowHelper.core
 
             // An aircraft
             correctionAdd("Airbus 330", "Airbus A330");
+            correctionAdd("A-330", "Airbus A330");
             correctionAdd("A330", "Airbus A330");
 
             // An aircraft
             correctionAdd("Airbus 350", "Airbus A350");
+            correctionAdd("A-350", "Airbus A350");
             correctionAdd("A350", "Airbus A350");
 
             // Aviation
+            correctionAdd("A-380", "Airbus A380");
             correctionAdd("A380", "Airbus A380");
             correctionAdd("a380", "Airbus A380");
 
@@ -56783,8 +56794,8 @@ namespace OverflowHelper.core
             correctionAdd("mcas", "MCAS");
 
             // An aircraft
-            correctionAdd("747", "Boeing 747");
             correctionAdd("B747", "Boeing 747");
+            correctionAdd("747", "Boeing 747");
 
             correctionAdd("747-8I", "Boeing 747-8I");
             correctionAdd("747-8i", "Boeing 747-8I");
@@ -75495,7 +75506,7 @@ namespace OverflowHelper.core
             //  UK:              A first-year student at a university.
             //
             //  Indian English:  A fresh graduate looking for his/her first job.
-            //  
+            //
             correctionAdd("fressher", "new graduate");
             correctionAdd("Fresher", "new graduate");
             correctionAdd("fresher", "new graduate");
@@ -90868,7 +90879,7 @@ namespace OverflowHelper.core
             // ***light bleed***) lighting.
             //
             // ANSI product page:
-            //   
+            //
             //   <https://www.keychron.com/products/keychron-v5-qmk-custom-mechanical-keyboard>
             //
             // Notes:
@@ -94363,6 +94374,9 @@ namespace OverflowHelper.core
             correctionAdd("Keychron K5 Ultra 8K (105%)", "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)"); // Sort of identity mapping
             correctionAdd("K5 Ultra 8K", "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)");
             correctionAdd("k5 ultra 8k", "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)");
+            correctionAdd("K5 8K Ultra", "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)");
+            correctionAdd("K5 8k Ultra", "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)");
+            correctionAdd("K5 Ultra 8k", "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)");
 
             // A 109-key (105%. Not true TKL) full-size wired
             // and wireless (only Bluetooth) QMK/Via-capable
@@ -155700,6 +155714,7 @@ namespace OverflowHelper.core
             correctionAdd("allot_", "a lot_");
 
             correctionAdd("alllow_", "allow_");
+            correctionAdd("aloow_", "allow_"); // A true typo
             correctionAdd("Alow_", "allow_");
             correctionAdd("alow_", "allow_");
 
@@ -181244,6 +181259,7 @@ namespace OverflowHelper.core
             correctionAdd("a controlled experiment____", "it isn't the switches, damn it!____");
             correctionAdd("reseating the switch____", "it isn't the switches, damn it!____");
             correctionAdd("isolate the problem____", "it isn't the switches, damn it!____"); // For the cross-reference
+            correctionAdd("reseat the switches____", "it isn't the switches, damn it!____");
             correctionAdd("isn't the switches____", "it isn't the switches, damn it!____");
             correctionAdd("not the switches____", "it isn't the switches, damn it!____");
             correctionAdd("isn't the switch____", "it isn't the switches, damn it!____");
