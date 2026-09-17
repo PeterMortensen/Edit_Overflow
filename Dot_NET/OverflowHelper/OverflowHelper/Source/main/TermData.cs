@@ -749,6 +749,7 @@ namespace OverflowHelper.core
             correctionAdd("laptap", "laptop");
             correctionAdd("Labtop", "laptop");
             correctionAdd("labtop", "laptop");
+            correctionAdd("lapton", "laptop");
             correctionAdd("lapto", "laptop");
             correctionAdd("lap", "laptop");
 
@@ -13454,6 +13455,8 @@ namespace OverflowHelper.core
             correctionAdd("fields medal", "Fields Medal");
 
             correctionAdd("Applied Math", "applied mathematics");
+
+            correctionAdd("millennium problems", "Millennium Prize Problems");
 
             correctionAdd("collatz conjecture", "Collatz conjecture");
 
@@ -32554,6 +32557,59 @@ namespace OverflowHelper.core
             correctionAdd("helful", "helpful");
             correctionAdd("helpfu", "helpful");
 
+            // The common noun
+            correctionAdd("formate", "format");
+            correctionAdd("foramat", "format");
+            correctionAdd("foramt", "format"); // A true typo
+            correctionAdd("dormat", "format"); // A true typo
+            correctionAdd("fromat", "format"); // A true typo
+
+            // The verb
+            correctionAdd("formatts", "formats");
+
+            correctionAdd("formmating", "formatting");
+            correctionAdd("fornatting", "formatting");
+            correctionAdd("Formatting", "formatting");
+            correctionAdd("formating", "formatting");
+
+            correctionAdd("formmatted", "formatted");
+            correctionAdd("Formatted", "formatted");
+            correctionAdd("formmated", "formatted");
+            correctionAdd("formated", "formatted");
+            correctionAdd("Formated", "formatted");
+
+            correctionAdd("missformatted", "misformatted");
+
+            correctionAdd("re-format", "reformat");
+            correctionAdd("reformate", "reformat");
+
+            correctionAdd("formater", "formatter");
+            correctionAdd("Formater", "formatter");
+
+            correctionAdd("formaters", "formatters");
+
+            correctionAdd("pre-formatted", "preformatted");
+            correctionAdd("pre-formated", "preformatted");
+
+            correctionAdd("un-formatted", "unformatted");
+            correctionAdd("unformated", "unformatted");
+
+            correctionAdd("unfomattable", "unformattable");
+
+            correctionAdd("Overformatted", "overformatted");
+
+            correctionAdd("over-formatting", "overformatting");
+
+            // The verb
+            correctionAdd("auto format", "autoformat");
+            correctionAdd("auto-format", "autoformat");
+
+            // The verb
+            correctionAdd("auto-formatting", "autoformatting");
+
+            correctionAdd("fasta", "FASTA format");
+            correctionAdd("FASTA", "FASTA format");
+
             correctionAdd("hassle free", "hasslefree");
             correctionAdd("hassle-free", "hasslefree");
 
@@ -33375,10 +33431,6 @@ namespace OverflowHelper.core
             correctionAdd("rv", "Remove-Variable");
 
             // Of PowerShell...
-            correctionAdd("format-table", "Format-Table");
-            correctionAdd("ft", "Format-Table"); // A (standard) alias (corresponding to Unix)
-
-            // Of PowerShell...
             correctionAdd("get-winevent", "Get-WinEvent");
 
             // Of PowerShell...
@@ -33490,10 +33542,6 @@ namespace OverflowHelper.core
             // Of PowerShell...
             correctionAdd("test-netconnection", "Test-NetConnection");
 
-            // Of PowerShell...
-            correctionAdd("format-hex", "Format-Hex");
-            correctionAdd("fhx", "Format-Hex"); // A (standard) alias (corresponding to Unix)
-
             // Perhaps repurpose for PowerShell 2.0 instead of PowerShell 4.0:
             //
             //  PowerShell 2.0:  http://technet.microsoft.com/en-us/library/dd347685.aspx
@@ -33545,10 +33593,6 @@ namespace OverflowHelper.core
             correctionAdd("get-date", "Get-Date");
             correctionAdd("get-Date", "Get-Date");
             correctionAdd("Get-date", "Get-Date");
-
-            // Of PowerShell...
-            correctionAdd("format-list", "Format-List");
-            correctionAdd("fl", "Format-List"); // A (standard) alias (corresponding to Unix)
 
             // Of PowerShell...
             correctionAdd("out-file", "Out-File");
@@ -33669,12 +33713,6 @@ namespace OverflowHelper.core
             // Of PowerShell...
             correctionAdd("wait-job", "Wait-Job");
             correctionAdd("wjb", "Wait-Job"); // A (standard) alias (corresponding to Unix)
-
-            // Of PowerShell...
-            correctionAdd("format-custom", "Format-Custom");
-
-            // Of PowerShell...
-            correctionAdd("format-wide", "Format-Wide");
 
             // Of PowerShell...
             correctionAdd("get-formatdata", "Get-FormatData");
@@ -33798,6 +33836,24 @@ namespace OverflowHelper.core
 
             // Of PowerShell...
             correctionAdd("install-package", "Install-Package");
+
+            // Of PowerShell...
+            correctionAdd("format-table", "Format-Table");
+            correctionAdd("ft", "Format-Table"); // A (standard) alias (corresponding to Unix)
+
+            // Of PowerShell...
+            correctionAdd("format-list", "Format-List");
+            correctionAdd("fl", "Format-List"); // A (standard) alias (corresponding to Unix)
+
+            // Of PowerShell...
+            correctionAdd("format-hex", "Format-Hex");
+            correctionAdd("fhx", "Format-Hex"); // A (standard) alias (corresponding to Unix)
+
+            // Of PowerShell...
+            correctionAdd("format-custom", "Format-Custom");
+
+            // Of PowerShell...
+            correctionAdd("format-wide", "Format-Wide");
 
             // Windows
             correctionAdd("RegEdit.exe", "RegEdit");
@@ -50471,6 +50527,7 @@ namespace OverflowHelper.core
             correctionAdd("alliable", "available");
             correctionAdd("avaible", "available");
             correctionAdd("aviable", "available");
+            correctionAdd("Avaible", "available");
             correctionAdd("avail", "available");
 
             correctionAdd("availibility", "availability");
@@ -95827,49 +95884,6 @@ namespace OverflowHelper.core
 
             correctionAdd("frustation", "frustration");
 
-            correctionAdd("formating", "formatting");
-            correctionAdd("formmating", "formatting");
-            correctionAdd("fornatting", "formatting");
-            correctionAdd("Formatting", "formatting");
-
-            correctionAdd("formmatted", "formatted");
-            correctionAdd("Formatted", "formatted");
-            correctionAdd("formmated", "formatted");
-            correctionAdd("formated", "formatted");
-            correctionAdd("Formated", "formatted");
-
-            correctionAdd("missformatted", "misformatted");
-
-            correctionAdd("re-format", "reformat");
-            correctionAdd("reformate", "reformat");
-
-            correctionAdd("formater", "formatter");
-            correctionAdd("Formater", "formatter");
-
-            correctionAdd("formaters", "formatters");
-
-            correctionAdd("pre-formatted", "preformatted");
-            correctionAdd("pre-formated", "preformatted");
-
-            correctionAdd("un-formatted", "unformatted");
-            correctionAdd("unformated", "unformatted");
-
-            correctionAdd("unfomattable", "unformattable");
-
-            correctionAdd("Overformatted", "overformatted");
-
-            correctionAdd("over-formatting", "overformatting");
-
-            // The verb
-            correctionAdd("auto format", "autoformat");
-            correctionAdd("auto-format", "autoformat");
-
-            // The verb
-            correctionAdd("auto-formatting", "autoformatting");
-
-            correctionAdd("fasta", "FASTA format");
-            correctionAdd("FASTA", "FASTA format");
-
             // A file format for playlists
             correctionAdd("m3u8", "M3U8");
 
@@ -99918,13 +99932,6 @@ namespace OverflowHelper.core
             correctionAdd("ocupation", "occupation");
 
             correctionAdd("un-occupied", "unoccupied");
-
-            // The common noun
-            correctionAdd("formate", "format");
-            correctionAdd("foramat", "format");
-            correctionAdd("foramt", "format"); // A true typo
-            correctionAdd("dormat", "format"); // A true typo
-            correctionAdd("fromat", "format"); // A true typo
 
             correctionAdd("gsl", "GNU Scientific Library");
             correctionAdd("GSL", "GNU Scientific Library");
@@ -132969,6 +132976,8 @@ namespace OverflowHelper.core
 
             URL_Add("on my mind", "https://en.wiktionary.org/wiki/what%27s_on_your_mind#Phrase");
 
+            URL_Add("formats", "https://en.wiktionary.org/wiki/format#Verb");
+
             URL_Add("format", "https://en.wiktionary.org/wiki/format#Noun");
 
             URL_Add("formatting", "https://en.wiktionary.org/wiki/formatting#Noun");
@@ -133414,6 +133423,8 @@ namespace OverflowHelper.core
             URL_Add("mathematically", "https://en.wiktionary.org/wiki/mathematically#Adverb");
 
             URL_Add("applied mathematics", "https://en.wikipedia.org/wiki/Applied_mathematics");
+
+            URL_Add("Millennium Prize Problems", "https://en.wikipedia.org/wiki/Millennium_Prize_Problems");
 
             URL_Add("mathematician", "https://en.wiktionary.org/wiki/mathematician#Noun");
 
@@ -172593,57 +172604,6 @@ namespace OverflowHelper.core
             correctionAdd("Keychron&nbsp;Q1&nbsp;HE__", "Keychron Q1 HE__");
             correctionAdd("HE Q1__", "Keychron Q1 HE__");
 
-            // Alternative URLs:
-            //
-            //   <https://www.reddit.com/r/Keychron/comments/1ivtroj/comment/n71dk9w/>
-            //
-            //   <https://github.com/Keychron/qmk_firmware/issues/386#issuecomment-2956304666>
-            //
-            //     Non-mainstream microcontroller
-            //
-            //     'wb32-dfu-updater_cli' (equivalent to 'dfu-util'):
-            //
-            //       <https://github.com/WestberryTech/wb32-dfu-updater>
-            //       <https://github.com/WestberryTech/wb32-dfu-updater/issues/15>
-            //
-            //     Set up of the Keychron K10 V2, including gotchas.
-            //
-            //     'dfu-util' does not work; 'wb32-dfu-updater_cli' does:
-            //
-            //       <https://github.com/WestberryTech/wb32-dfu-updater>
-            //
-            //     Flash mode USB identity: 0x342D/0xDFA0
-            //
-            //     <https://www.reddit.com/r/Keychron/comments/1tp5utv/comment/oo7ktue/>
-            //       Sample USB identities:
-            //
-            //         0x0483/0xDF11: Most Keychron keyboards
-            //
-            //         0x342D/0xDFA0:
-            //
-            //           Westberry (WB32) keyboards, e.g., K QMK series
-            //           (e.g., K10 V2), V6 version 2, and some Lemokey
-            //           keyboards (but dfu-util does not work;
-            //           'wb32-dfu-updater_cli' does:
-            //
-            //             <https://github.com/WestberryTech/wb32-dfu-updater>
-            //           )
-            //
-            //         0x239A/0x0029: B Pro series (they mount in the operating system, and flashing is by simply copying the .uf2 file)
-            //
-            correctionAdd("flashing Keycron K QMK keyboards__", "flashing Keychron K QMK keyboards__");
-            correctionAdd("Keychron&nbsp;K10 (100%)__", "flashing Keychron K QMK keyboards__");
-            correctionAdd("K&nbsp;QMK&nbsp;series__", "flashing Keychron K QMK keyboards__"); // For the cross-reference
-            correctionAdd("wb32-dfu-updater_cli__", "flashing Keychron K QMK keyboards__");
-            correctionAdd("wb32-dfu-updater__", "flashing Keychron K QMK keyboards__");
-            correctionAdd("WB32 DFU updater__", "flashing Keychron K QMK keyboards__"); // For the cross-reference
-            correctionAdd("WB32F3G71RCT6__", "flashing Keychron K QMK keyboards__");
-            correctionAdd("Keychron K10__", "flashing Keychron K QMK keyboards__"); // For the cross-reference
-            correctionAdd("WB32F3G71__", "flashing Keychron K QMK keyboards__");
-            correctionAdd("K10 V2__", "flashing Keychron K QMK keyboards__"); // For the cross-reference
-            correctionAdd("WB32__", "flashing Keychron K QMK keyboards__");
-            correctionAdd("wb32__", "flashing Keychron K QMK keyboards__");
-
             // For the Reddit comment reference
             correctionAdd("Keychron's Via clone__", "Keychron Launcher__");
             correctionAdd("Keychron's clone__", "Keychron Launcher__");
@@ -177068,8 +177028,6 @@ namespace OverflowHelper.core
             URL_Add("azure__", "https://en.wikipedia.org/wiki/Azure_(color)");
 
             URL_Add("flash mode AKA&nbsp;firmware&nbsp;update&nbsp;mode AKA&nbsp;bootloader&nbsp;mode AKA&nbsp;DFU&nbsp;mode AKA&nbsp;burn&nbsp;mode__", "https://en.wikipedia.org/wiki/Bootloader#Embedded_and_multi-stage_boot_loaders");
-
-            URL_Add("flashing Keychron K QMK keyboards__", "https://github.com/Keychron/qmk_firmware/issues/386#issuecomment-2956304666");
 
             URL_Add("It is highly recommended to reset to factory defaults right after the flash__", "https://www.reddit.com/r/Keychron/comments/1dwocvh/comment/lioza8e/");
 
@@ -184687,6 +184645,10 @@ namespace OverflowHelper.core
             correctionAdd("Keychron B6 Pro______", "severe NKRO problems for the Keychron B Pro series______"); // For the cross-reference
             correctionAdd("NKRO______", "severe NKRO problems for the Keychron B Pro series______");
 
+            correctionAdd("Keychron 2024 Hall effect (HE) keyboard quality issues with self-repeating keys (1xx instances and counting)______", "par for the course steps for HE (Hall effect switch) keyboards______"); // For the cross-reference
+            correctionAdd("Hall sensor______", "par for the course steps for HE (Hall effect switch) keyboards______");
+            correctionAdd("HE______", "par for the course steps for HE (Hall effect switch) keyboards______");
+
             correctionAdd("opn______", "on______");
             correctionAdd("one______", "on______"); // An autocorrect "masterpiece"?
             correctionAdd("onn______", "on______");
@@ -184881,10 +184843,6 @@ namespace OverflowHelper.core
             correctionAdd("killing______", "windowing______");
             correctionAdd("kill______", "windowing______"); // For the cross-reference
 
-            correctionAdd("Keychron 2024 Hall effect (HE) keyboard quality issues with self-repeating keys (1xx instances and counting)______", "par for the course steps for HE (Hall effect switch) keyboards______"); // For the cross-reference
-            correctionAdd("Hall sensor______", "par for the course steps for HE (Hall effect switch) keyboards______");
-            correctionAdd("HE______", "par for the course steps for HE (Hall effect switch) keyboards______");
-
             // For the character. And for the reverse.
             // And for the alternative URL
             //
@@ -184993,11 +184951,7 @@ namespace OverflowHelper.core
 
             URL_Add("Idaho, United States______", "https://en.wikipedia.org/wiki/Idaho");
 
-            URL_Add("severe NKRO problems for the Keychron B Pro series______", "https://www.reddit.com/r/Keychron/comments/1j77m44/comment/mgv3t8j/");
-
             URL_Add("windowing______", "https://en.wikipedia.org/wiki/Suspicious_Russia-related_deaths_since_2022");
-
-            URL_Add("par for the course steps for HE (Hall effect switch) keyboards______", "https://www.reddit.com/r/Keychron/comments/1pisxi9/comment/nt8mmi3/");
 
             URL_Add("\\______", "https://en.wikipedia.org/wiki/Backslash");
 
@@ -185007,11 +184961,15 @@ namespace OverflowHelper.core
 
             URL_Add("QMK versions______", "https://docs.qmk.fm/breaking_changes_history");
 
-            URL_Add("compiling from source (branch \"wireless_playground\")______", "https://www.reddit.com/r/Keychron/comments/1ldmxo3/comment/myadkic/");
-
             URL_Add("Keychron K10 V2 source code______", "https://github.com/Keychron/qmk_firmware/tree/wls_2025q1/keyboards/keychron/k10_version_2");
 
+            URL_Add("severe NKRO problems for the Keychron B Pro series______", "https://www.reddit.com/r/Keychron/comments/1j77m44/comment/mgv3t8j/");
+
             URL_Add("Git branch \"2025q3\" in Keychron's fork, Lemokey______", "https://github.com/Keychron/qmk_firmware/tree/2025q3/keyboards/lemokey/");
+
+            URL_Add("compiling from source (branch \"wireless_playground\")______", "https://www.reddit.com/r/Keychron/comments/1ldmxo3/comment/myadkic/");
+
+            URL_Add("par for the course steps for HE (Hall effect switch) keyboards______", "https://www.reddit.com/r/Keychron/comments/1pisxi9/comment/nt8mmi3/");
 
             URL_Add("40&nbsp;°F______", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
 
@@ -185318,6 +185276,58 @@ namespace OverflowHelper.core
 
             correctionAdd("key bindings_______", "key binding_______");
             correctionAdd("keybinding_______", "key binding_______");
+
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1ivtroj/comment/n71dk9w/>
+            //
+            //   <https://github.com/Keychron/qmk_firmware/issues/386#issuecomment-2956304666>
+            //
+            //     Non-mainstream microcontroller
+            //
+            //     'wb32-dfu-updater_cli' (equivalent to 'dfu-util'):
+            //
+            //       <https://github.com/WestberryTech/wb32-dfu-updater>
+            //       <https://github.com/WestberryTech/wb32-dfu-updater/issues/15>
+            //
+            //     Set up of the Keychron K10 V2, including gotchas.
+            //
+            //     'dfu-util' does not work; 'wb32-dfu-updater_cli' does:
+            //
+            //       <https://github.com/WestberryTech/wb32-dfu-updater>
+            //
+            //     Flash mode USB identity: 0x342D/0xDFA0
+            //
+            //     <https://www.reddit.com/r/Keychron/comments/1tp5utv/comment/oo7ktue/>
+            //       Sample USB identities:
+            //
+            //         0x0483/0xDF11: Most Keychron keyboards
+            //
+            //         0x342D/0xDFA0:
+            //
+            //           Westberry (WB32) keyboards, e.g., K QMK series
+            //           (e.g., K10 V2), V6 version 2, and some Lemokey
+            //           keyboards (but dfu-util does not work;
+            //           'wb32-dfu-updater_cli' does:
+            //
+            //             <https://github.com/WestberryTech/wb32-dfu-updater>
+            //           )
+            //
+            //         0x239A/0x0029: B Pro series (they mount in the operating system, and flashing is by simply copying the .uf2 file)
+            //
+            correctionAdd("flashing Keycron K QMK keyboards_______", "flashing Keychron K QMK keyboards_______");
+            correctionAdd("Keychron&nbsp;K10 (100%)_______", "flashing Keychron K QMK keyboards_______");
+            correctionAdd("K&nbsp;QMK&nbsp;series_______", "flashing Keychron K QMK keyboards_______"); // For the cross-reference
+            correctionAdd("wb32-dfu-updater_cli_______", "flashing Keychron K QMK keyboards_______");
+            correctionAdd("wb32-dfu-updater_______", "flashing Keychron K QMK keyboards_______");
+            correctionAdd("WB32 DFU updater_______", "flashing Keychron K QMK keyboards_______"); // For the cross-reference
+            correctionAdd("WB32F3G71RCT6_______", "flashing Keychron K QMK keyboards_______");
+            correctionAdd("Keychron K10_______", "flashing Keychron K QMK keyboards_______"); // For the cross-reference
+            correctionAdd("WB32F3G71_______", "flashing Keychron K QMK keyboards_______");
+            correctionAdd("flashing_______", "flashing Keychron K QMK keyboards_______");
+            correctionAdd("K10 V2_______", "flashing Keychron K QMK keyboards_______"); // For the cross-reference
+            correctionAdd("WB32_______", "flashing Keychron K QMK keyboards_______");
+            correctionAdd("wb32_______", "flashing Keychron K QMK keyboards_______");
 
             // Start of word mappings autogenerated
             // by script 'Edit_Overflow_number_table_generator.pl'
@@ -185723,13 +185733,15 @@ namespace OverflowHelper.core
 
             URL_Add("Git branch \"2025q3\" in Keychron's fork_______", "https://github.com/Keychron/qmk_firmware/tree/2025q3/keyboards/keychron/");
 
+            URL_Add("QMK install blues on later versions of Debian, LMDE, and Ubuntu_______", "https://www.reddit.com/r/Keychron/comments/1cxnqtu/comment/m80aes2/");
+
+            URL_Add("flashing Keychron K QMK keyboards_______", "https://github.com/Keychron/qmk_firmware/issues/386#issuecomment-2956304666");
+
             URL_Add("Pico_______", "https://en.wikipedia.org/wiki/Pico_(text_editor)");
 
             URL_Add("press_______", "https://en.wiktionary.org/wiki/press#Verb");
 
             URL_Add("key binding_______", "https://en.wiktionary.org/wiki/key_binding#Noun");
-
-            URL_Add("QMK install blues on later versions of Debian, LMDE, and Ubuntu_______", "https://www.reddit.com/r/Keychron/comments/1cxnqtu/comment/m80aes2/");
 
             URL_Add("Alfa_______", "https://en.wikipedia.org/wiki/NATO_phonetic_alphabet");
 
