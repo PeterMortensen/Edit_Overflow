@@ -3303,15 +3303,16 @@ eval ${LFTP_COMMAND}  ; evaluateBuildResult 38 $? "copying the HTML word list to
 #                     including a Cloudflare redirect with
 #                     "Connection timed out", error 522.
 #
-#  2026-09-16T164734  Failure for step 39. Cloudflare 
-#                     verification, by opening
+#  2026-09-16T164734  Failure for step 39 (and all other HTML validation).
+#                     Cloudflare verification, by opening
 #
 #                       <https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fpmortensen.eu%2Fworld%2FEditOverflow.php%3FOverflowStyle=Native>
 #
-#                     in the browser and enabling JavaScript for 
+#                     in the browser and enabling JavaScript for
 #                     Cloudflare wasn't sufficient.
 #
-#
+#                     It was working again on 2026-09-21, but
+#                     apparently with rate limits.
 #
 if [ ${DISABLE_HTMLVALIDATION} != 1 ]; then
     HTML_validation      EditOverflow.php                   "Edit Overflow lookup"    39
@@ -3335,6 +3336,9 @@ if [ ${DISABLE_HTMLVALIDATION} != 1 ]; then
     # worked again...
     #
     HTML_validation_base ${HTML_FILE_GENERIC_FILENAMEONLY}  "Word list (HTML)"        45  '%2FEditOverflow%2F_Wordlist'
+
+    # Dummy statement (or at least it should be)
+    sudo ls > /dev/null
 fi
 
 

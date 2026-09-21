@@ -13,7 +13,7 @@ let correct2URL = {};
 
 
 
-// The list... 75676 incorrect words and 24694 correct words.
+// The list... 75698 incorrect words and 24698 correct words.
 
 incorrect2correct["-__"] = "- (ASCII. 45 (decimal). 2D (hexadecimal). 55 (octal))__";
 incorrect2correct["- (ASCII. 45 (decimal). 2D (hexadecimal). 55 (octal))__"] = "- (ASCII. 45 (decimal). 2D (hexadecimal). 55 (octal))__";
@@ -10198,6 +10198,11 @@ incorrect2correct["aggregation"] = "aggregation";
 correct2URL["aggregation"] = "https://en.wiktionary.org/wiki/aggregation#Noun";
 
 
+incorrect2correct["aggregater"] = "aggregator";
+incorrect2correct["aggregator"] = "aggregator";
+correct2URL["aggregator"] = "https://en.wiktionary.org/wiki/aggregator#Noun";
+
+
 incorrect2correct["aggresive"] = "aggressive";
 incorrect2correct["aggressive"] = "aggressive";
 correct2URL["aggressive"] = "https://en.wiktionary.org/wiki/aggressive#Adjective";
@@ -18775,6 +18780,7 @@ incorrect2correct["avaiable"] = "available";
 incorrect2correct["avaialable"] = "available";
 incorrect2correct["avaialble"] = "available";
 incorrect2correct["avaible"] = "available";
+incorrect2correct["Avaible"] = "available";
 incorrect2correct["avail"] = "available";
 incorrect2correct["availabe"] = "available";
 incorrect2correct["availabel"] = "available";
@@ -37380,11 +37386,12 @@ incorrect2correct["cs2"] = "Counter-Strike 2";
 incorrect2correct["Cs2"] = "Counter-Strike 2";
 incorrect2correct["CS2"] = "Counter-Strike 2";
 incorrect2correct["sc2"] = "Counter-Strike 2";
-incorrect2correct["Counter Strike____"] = "Counter-Strike____";
+incorrect2correct["counter strike____"] = "Counter-Strike____";
 incorrect2correct["Counter-Strike____"] = "Counter-Strike____";
 correct2URL["Counter-Strike____"] = "https://en.wikipedia.org/wiki/Counter-Strike";
 
 
+incorrect2correct["Counter Strike____"] = "Counter-Strike____";
 incorrect2correct["counter-strike____"] = "Counter-Strike____";
 incorrect2correct["cs____"] = "Counter-Strike____";
 incorrect2correct["CS____"] = "Counter-Strike____";
@@ -43369,6 +43376,7 @@ incorrect2correct["developping"] = "developing";
 incorrect2correct["develpoing"] = "developing";
 incorrect2correct["Develpoing"] = "developing";
 incorrect2correct["deving"] = "developing";
+incorrect2correct["devoloping"] = "developing";
 incorrect2correct["dev-board"] = "development board";
 incorrect2correct["development board"] = "development board";
 correct2URL["development board"] = "https://en.wikipedia.org/wiki/Microprocessor_development_board";
@@ -50803,12 +50811,12 @@ correct2URL["encourage"] = "https://en.wiktionary.org/wiki/encourage#Verb";
 incorrect2correct["encorage"] = "encourage";
 incorrect2correct["encorouge"] = "encourage";
 incorrect2correct["incourage"] = "encourage";
-incorrect2correct["enco­urax"] = "encouraged";
+incorrect2correct["encourax"] = "encouraged";
 incorrect2correct["encouraged"] = "encouraged";
 correct2URL["encouraged"] = "https://en.wiktionary.org/wiki/encourage#Verb";
 
 
-incorrect2correct["encourax"] = "encouraged";
+incorrect2correct["enco­urax"] = "encouraged";
 incorrect2correct["encoraging"] = "encouraging";
 incorrect2correct["encouraging"] = "encouraging";
 correct2URL["encouraging"] = "https://en.wiktionary.org/wiki/encourage#Verb";
@@ -57642,22 +57650,23 @@ incorrect2correct["Flasheing"] = "flashing";
 incorrect2correct["flasing"] = "flashing";
 incorrect2correct["Flasing"] = "flashing";
 incorrect2correct["flasshing"] = "flashing";
-incorrect2correct["flashing Keycron K QMK keyboards__"] = "flashing Keychron K QMK keyboards__";
-incorrect2correct["flashing Keychron K QMK keyboards__"] = "flashing Keychron K QMK keyboards__";
-correct2URL["flashing Keychron K QMK keyboards__"] = "https://github.com/Keychron/qmk_firmware/issues/386#issuecomment-2956304666";
+incorrect2correct["flashing Keycron K QMK keyboards_______"] = "flashing Keychron K QMK keyboards_______";
+incorrect2correct["flashing Keychron K QMK keyboards_______"] = "flashing Keychron K QMK keyboards_______";
+correct2URL["flashing Keychron K QMK keyboards_______"] = "https://github.com/Keychron/qmk_firmware/issues/386#issuecomment-2956304666";
 
 
-incorrect2correct["K&nbsp;QMK&nbsp;series__"] = "flashing Keychron K QMK keyboards__";
-incorrect2correct["K10 V2__"] = "flashing Keychron K QMK keyboards__";
-incorrect2correct["Keychron K10__"] = "flashing Keychron K QMK keyboards__";
-incorrect2correct["Keychron&nbsp;K10 (100%)__"] = "flashing Keychron K QMK keyboards__";
-incorrect2correct["WB32 DFU updater__"] = "flashing Keychron K QMK keyboards__";
-incorrect2correct["wb32__"] = "flashing Keychron K QMK keyboards__";
-incorrect2correct["WB32__"] = "flashing Keychron K QMK keyboards__";
-incorrect2correct["wb32-dfu-updater__"] = "flashing Keychron K QMK keyboards__";
-incorrect2correct["wb32-dfu-updater_cli__"] = "flashing Keychron K QMK keyboards__";
-incorrect2correct["WB32F3G71__"] = "flashing Keychron K QMK keyboards__";
-incorrect2correct["WB32F3G71RCT6__"] = "flashing Keychron K QMK keyboards__";
+incorrect2correct["flashing_______"] = "flashing Keychron K QMK keyboards_______";
+incorrect2correct["K&nbsp;QMK&nbsp;series_______"] = "flashing Keychron K QMK keyboards_______";
+incorrect2correct["K10 V2_______"] = "flashing Keychron K QMK keyboards_______";
+incorrect2correct["Keychron K10_______"] = "flashing Keychron K QMK keyboards_______";
+incorrect2correct["Keychron&nbsp;K10 (100%)_______"] = "flashing Keychron K QMK keyboards_______";
+incorrect2correct["WB32 DFU updater_______"] = "flashing Keychron K QMK keyboards_______";
+incorrect2correct["wb32_______"] = "flashing Keychron K QMK keyboards_______";
+incorrect2correct["WB32_______"] = "flashing Keychron K QMK keyboards_______";
+incorrect2correct["wb32-dfu-updater_______"] = "flashing Keychron K QMK keyboards_______";
+incorrect2correct["wb32-dfu-updater_cli_______"] = "flashing Keychron K QMK keyboards_______";
+incorrect2correct["WB32F3G71_______"] = "flashing Keychron K QMK keyboards_______";
+incorrect2correct["WB32F3G71RCT6_______"] = "flashing Keychron K QMK keyboards_______";
 incorrect2correct["flash light"] = "flashlight";
 incorrect2correct["flashlight"] = "flashlight";
 correct2URL["flashlight"] = "https://en.wiktionary.org/wiki/flashlight#Noun";
@@ -58949,6 +58958,11 @@ incorrect2correct["format()_"] = "format()_";
 correct2URL["format()_"] = "https://docs.python.org/3.8/library/functions.html#format";
 
 
+incorrect2correct["formatts"] = "formats";
+incorrect2correct["formats"] = "formats";
+correct2URL["formats"] = "https://en.wiktionary.org/wiki/format#Verb";
+
+
 incorrect2correct["formated"] = "formatted";
 incorrect2correct["formatted"] = "formatted";
 correct2URL["formatted"] = "https://en.wiktionary.org/wiki/formatted#Adjective";
@@ -60144,6 +60158,7 @@ incorrect2correct["fuck you_"] = "fuck you_";
 correct2URL["fuck you_"] = "https://en.wiktionary.org/wiki/fuck_you#Phrase";
 
 
+incorrect2correct["F-You_"] = "fuck you_";
 incorrect2correct["f*ck you_"] = "fuck you_";
 incorrect2correct["fork u_"] = "fuck you_";
 incorrect2correct["FORK U_"] = "fuck you_";
@@ -67053,11 +67068,12 @@ incorrect2correct["Halloween"] = "Halloween";
 correct2URL["Halloween"] = "https://en.wikipedia.org/wiki/Halloween";
 
 
-incorrect2correct["halucinating"] = "hallucinating";
+incorrect2correct["hallucitnating"] = "hallucinating";
 incorrect2correct["hallucinating"] = "hallucinating";
 correct2URL["hallucinating"] = "https://en.wiktionary.org/wiki/hallucinate#Verb";
 
 
+incorrect2correct["halucinating"] = "hallucinating";
 incorrect2correct["halluciation"] = "hallucination";
 incorrect2correct["hallucination"] = "hallucination";
 correct2URL["hallucination"] = "https://en.wiktionary.org/wiki/hallucination#Noun";
@@ -69544,11 +69560,12 @@ incorrect2correct["hijacked"] = "hijacked";
 correct2URL["hijacked"] = "https://en.wiktionary.org/wiki/hijack#Verb";
 
 
-incorrect2correct["highjacking"] = "hijacking";
+incorrect2correct["high jacking"] = "hijacking";
 incorrect2correct["hijacking"] = "hijacking";
 correct2URL["hijacking"] = "https://en.wiktionary.org/wiki/hijack#Verb";
 
 
+incorrect2correct["highjacking"] = "hijacking";
 incorrect2correct["highjacks"] = "hijacks";
 incorrect2correct["hijacks"] = "hijacks";
 correct2URL["hijacks"] = "https://en.wiktionary.org/wiki/hijack#Verb";
@@ -81292,15 +81309,19 @@ incorrect2correct["K02"] = "K02";
 correct2URL["K02"] = "https://github.com/anothermimich/K02";
 
 
-incorrect2correct["a K10 V2___"] = "K10 V2 with overlubricated switches___";
-incorrect2correct["K10 V2 with overlubricated switches___"] = "K10 V2 with overlubricated switches___";
-correct2URL["K10 V2 with overlubricated switches___"] = "https://www.reddit.com/r/Keychron/comments/1n9l1m0/comment/ncptj9i/";
+incorrect2correct["a K10 V2_____"] = "K10 V2 with overlubricated switches_____";
+incorrect2correct["K10 V2 with overlubricated switches_____"] = "K10 V2 with overlubricated switches_____";
+correct2URL["K10 V2 with overlubricated switches_____"] = "https://www.reddit.com/r/Keychron/comments/1n9l1m0/comment/ncptj9i/";
 
 
-incorrect2correct["K10 V2___"] = "K10 V2 with overlubricated switches___";
-incorrect2correct["overlubricate___"] = "K10 V2 with overlubricated switches___";
-incorrect2correct["overlubricated___"] = "K10 V2 with overlubricated switches___";
-incorrect2correct["overlubrication___"] = "K10 V2 with overlubricated switches___";
+incorrect2correct["K10 V2_____"] = "K10 V2 with overlubricated switches_____";
+incorrect2correct["Keychron K10_____"] = "K10 V2 with overlubricated switches_____";
+incorrect2correct["Keychron&nbsp;K&nbsp;QMK&nbsp;series_____"] = "K10 V2 with overlubricated switches_____";
+incorrect2correct["Keychron&nbsp;K10 (100%)_____"] = "K10 V2 with overlubricated switches_____";
+incorrect2correct["Keychron&nbsp;K10_____"] = "K10 V2 with overlubricated switches_____";
+incorrect2correct["overlubricate_____"] = "K10 V2 with overlubricated switches_____";
+incorrect2correct["overlubricated_____"] = "K10 V2 with overlubricated switches_____";
+incorrect2correct["overlubrication_____"] = "K10 V2 with overlubricated switches_____";
 incorrect2correct["7th gen"] = "Kaby Lake";
 incorrect2correct["Kaby Lake"] = "Kaby Lake";
 correct2URL["Kaby Lake"] = "https://en.wikipedia.org/wiki/Kaby_Lake";
@@ -83934,6 +83955,7 @@ incorrect2correct["K10 qmk version 2_"] = "Keychron&nbsp;K10 (100%)_";
 incorrect2correct["K10 QMK_"] = "Keychron&nbsp;K10 (100%)_";
 incorrect2correct["K10 QMK_"] = "Keychron&nbsp;K10 (100%)_";
 incorrect2correct["K10 V1_"] = "Keychron&nbsp;K10 (100%)_";
+incorrect2correct["k10 v2_"] = "Keychron&nbsp;K10 (100%)_";
 incorrect2correct["K10 v2_"] = "Keychron&nbsp;K10 (100%)_";
 incorrect2correct["K10 V2_"] = "Keychron&nbsp;K10 (100%)_";
 incorrect2correct["k10_"] = "Keychron&nbsp;K10 (100%)_";
@@ -84608,11 +84630,12 @@ incorrect2correct["Q1 Pro"] = "Keychron&nbsp;Q1&nbsp;Pro";
 incorrect2correct["Q1 PRO"] = "Keychron&nbsp;Q1&nbsp;Pro";
 incorrect2correct["Q1&nbsp;Pro"] = "Keychron&nbsp;Q1&nbsp;Pro";
 incorrect2correct["Q1pro"] = "Keychron&nbsp;Q1&nbsp;Pro";
-incorrect2correct["Keychron Q1 Ultra 8K"] = "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K";
+incorrect2correct["keychron Q1 Ultra"] = "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K";
 incorrect2correct["Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K"] = "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K";
 correct2URL["Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K"] = "https://www.keychron.com/products/keychron-q1-ultra-8k-wireless-custom-mechanical-keyboard";
 
 
+incorrect2correct["Keychron Q1 Ultra 8K"] = "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K";
 incorrect2correct["Q1 Ulta 8k"] = "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K";
 incorrect2correct["Q1 ultra"] = "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K";
 incorrect2correct["Q1 Ultra"] = "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K";
@@ -86632,6 +86655,7 @@ incorrect2correct["lap top"] = "laptop";
 incorrect2correct["Lap Top"] = "laptop";
 incorrect2correct["laptap"] = "laptop";
 incorrect2correct["lapto"] = "laptop";
+incorrect2correct["lapton"] = "laptop";
 incorrect2correct["Laptop"] = "laptop";
 incorrect2correct["LapTop"] = "laptop";
 incorrect2correct["Laptops"] = "laptop";
@@ -87458,6 +87482,7 @@ incorrect2correct["League_"] = "League of Legends (LoL)_";
 incorrect2correct["lol_"] = "League of Legends (LoL)_";
 incorrect2correct["Lol_"] = "League of Legends (LoL)_";
 incorrect2correct["LoL_"] = "League of Legends (LoL)_";
+incorrect2correct["LOL_"] = "League of Legends (LoL)_";
 incorrect2correct["leek"] = "leak";
 incorrect2correct["leak"] = "leak";
 correct2URL["leak"] = "https://en.wiktionary.org/wiki/leak#Verb";
@@ -90324,12 +90349,12 @@ incorrect2correct["lodash"] = "Lodash";
 incorrect2correct["loDash"] = "Lodash";
 incorrect2correct["lodash.js"] = "Lodash";
 incorrect2correct["Lodash.js"] = "Lodash";
-incorrect2correct["LOL_"] = "LOFL_";
-incorrect2correct["LOFL_"] = "LOFL_";
-correct2URL["LOFL_"] = "https://en.wiktionary.org/wiki/ROFL#Phrase";
+incorrect2correct["LOL__"] = "LOFL__";
+incorrect2correct["LOFL__"] = "LOFL__";
+correct2URL["LOFL__"] = "https://en.wiktionary.org/wiki/ROFL#Phrase";
 
 
-incorrect2correct["ROFL_"] = "LOFL_";
+incorrect2correct["ROFL__"] = "LOFL__";
 incorrect2correct["locin"] = "log in";
 incorrect2correct["log in"] = "log in";
 correct2URL["log in"] = "https://en.wiktionary.org/wiki/log_in#Verb";
@@ -97626,6 +97651,11 @@ incorrect2correct["millenials"] = "millennials";
 incorrect2correct["Millenials"] = "millennials";
 incorrect2correct["Millennials"] = "millennials";
 incorrect2correct["millinials"] = "millennials";
+incorrect2correct["millennium problems"] = "Millennium Prize Problems";
+incorrect2correct["Millennium Prize Problems"] = "Millennium Prize Problems";
+correct2URL["Millennium Prize Problems"] = "https://en.wikipedia.org/wiki/Millennium_Prize_Problems";
+
+
 incorrect2correct["MTZ"] = "Miller–Tucker–Zemlin formulation";
 incorrect2correct["Miller–Tucker–Zemlin formulation"] = "Miller–Tucker–Zemlin formulation";
 correct2URL["Miller–Tucker–Zemlin formulation"] = "https://en.wikipedia.org/wiki/Travelling_salesman_problem#Integer_linear_programming_formulations";
@@ -134817,6 +134847,7 @@ incorrect2correct["GNU screen"] = "Screen";
 incorrect2correct["GNU Screen"] = "Screen";
 incorrect2correct["gnu-screen"] = "Screen";
 incorrect2correct["GNU/screen"] = "Screen";
+incorrect2correct["gnusceen"] = "Screen";
 incorrect2correct["GnuScreen"] = "Screen";
 incorrect2correct["screen"] = "Screen";
 incorrect2correct["SCREEN"] = "Screen";
@@ -156554,6 +156585,12 @@ incorrect2correct["tracking"] = "tracking";
 correct2URL["tracking"] = "https://en.wiktionary.org/wiki/tracking#Noun";
 
 
+incorrect2correct["track pad"] = "trackpad";
+incorrect2correct["trackpad"] = "trackpad";
+correct2URL["trackpad"] = "https://en.wikipedia.org/wiki/Touchpad";
+
+
+incorrect2correct["trackpade"] = "trackpad";
 incorrect2correct["Trackyl Manuform"] = "Tractyl ManuForm";
 incorrect2correct["Tractyl ManuForm"] = "Tractyl ManuForm";
 correct2URL["Tractyl ManuForm"] = "https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/tractyl_manuform";
@@ -161047,11 +161084,12 @@ correct2URL["United States Department of Homeland Security"] = "https://en.wikip
 
 
 incorrect2correct["Department Of Homelander Security"] = "United States Department of Homeland Security";
-incorrect2correct["DOJ"] = "United States Department of Justice";
+incorrect2correct["DoJ"] = "United States Department of Justice";
 incorrect2correct["United States Department of Justice"] = "United States Department of Justice";
 correct2URL["United States Department of Justice"] = "https://en.wikipedia.org/wiki/United_States_Department_of_Justice";
 
 
+incorrect2correct["DOJ"] = "United States Department of Justice";
 incorrect2correct["american keyboard"] = "United States keyboard layout";
 incorrect2correct["United States keyboard layout"] = "United States keyboard layout";
 correct2URL["United States keyboard layout"] = "https://en.wikipedia.org/wiki/British_and_American_keyboards#Windows_keyboards";
