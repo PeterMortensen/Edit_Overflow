@@ -17262,6 +17262,9 @@ namespace OverflowHelper.core
             correctionAdd("Monotouch", "MonoTouch");
             correctionAdd("monotouch", "MonoTouch");
 
+            correctionAdd("track pad", "trackpad");
+            correctionAdd("trackpade", "trackpad");
+
             correctionAdd("idoim", "idiom");
             correctionAdd("idion", "idiom");
             correctionAdd("ideom", "idiom");
@@ -18909,6 +18912,7 @@ namespace OverflowHelper.core
             correctionAdd("Gnu Screen", "Screen");
             correctionAdd("gnu Screen", "Screen");
             correctionAdd("GnuScreen", "Screen");
+            correctionAdd("gnusceen", "Screen");
             correctionAdd("SCREEN", "Screen");
             correctionAdd("screen", "Screen");
 
@@ -24566,6 +24570,7 @@ namespace OverflowHelper.core
             correctionAdd("halluciation", "hallucination");
             correctionAdd("haluciation", "hallucination");
 
+            correctionAdd("hallucitnating", "hallucinating");
             correctionAdd("halucinating", "hallucinating");
 
             correctionAdd("ptsd", "post-traumatic stress disorder");
@@ -50320,9 +50325,9 @@ namespace OverflowHelper.core
             //
             correctionAdd("--fno-unroll-loops", "-fno-unroll-loops");
 
-            correctionAdd("--Waggregate-return", "-Waggregate-return"); // For GCC
-
             correctionAdd("--funit-at-a-time", "-funit-at-a-time"); // For GCC
+
+            correctionAdd("--Waggregate-return", "-Waggregate-return"); // For GCC
 
             // C++
             correctionAdd("cpp reference", "cppreference.com");
@@ -50498,6 +50503,7 @@ namespace OverflowHelper.core
 
             correctionAdd("highjacks", "hijacks");
 
+            correctionAdd("high jacking", "hijacking");
             correctionAdd("highjacking", "hijacking");
 
             correctionAdd("highjacked", "hijacked");
@@ -55285,6 +55291,8 @@ namespace OverflowHelper.core
             correctionAdd("aggregetion", "aggregation");
 
             correctionAdd("sub-aggregate", "subaggregate");
+
+            correctionAdd("aggregater", "aggregator");
 
             correctionAdd("agressor", "aggressor");
 
@@ -71095,6 +71103,7 @@ namespace OverflowHelper.core
             correctionAdd("Iirc", "if I remember correctly");
             correctionAdd("IIRC", "if I remember correctly");
 
+            // Internet slang
             correctionAdd("Lol", "LOL");
             correctionAdd("lol", "LOL");
             correctionAdd("LUL", "LOL");
@@ -76623,6 +76632,7 @@ namespace OverflowHelper.core
             correctionAdd("forbes", "Forbes");
 
             correctionAdd("DOJ", "United States Department of Justice");
+            correctionAdd("DoJ", "United States Department of Justice");
 
             correctionAdd("USDA", "United States Department of Agriculture");
 
@@ -87172,6 +87182,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("Q1&nbsp;Ultra&nbsp;8K", "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K");
             correctionAdd("Keychron Q1 Ultra 8K", "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K"); // Sort of identity mapping
+            correctionAdd("keychron Q1 Ultra", "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K");
             correctionAdd("Q1 Ultra 8K", "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K");
             correctionAdd("Q1 Ultra 8k", "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K");
             correctionAdd("Q1 Ulta 8k", "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K");
@@ -102478,6 +102489,7 @@ namespace OverflowHelper.core
             correctionAdd("Develpoing", "developing");
             correctionAdd("develpoing", "developing");
             correctionAdd("developnig", "developing");
+            correctionAdd("devoloping", "developing");
             correctionAdd("deving", "developing");
 
             correctionAdd("babel.JS", "Babel");
@@ -113596,6 +113608,8 @@ namespace OverflowHelper.core
 
             URL_Add("touchpad", "https://en.wikipedia.org/wiki/Touchpad");
 
+            URL_Add("trackpad", "https://en.wikipedia.org/wiki/Touchpad");
+
             URL_Add("web browser", "https://en.wikipedia.org/wiki/Web_browser");
 
             URL_Add("datasheet", "https://en.wiktionary.org/wiki/datasheet#Noun");
@@ -116105,8 +116119,6 @@ namespace OverflowHelper.core
             URL_Add("candidate", "https://en.wiktionary.org/wiki/candidate#Noun");
 
             URL_Add("canonical", "https://en.wiktionary.org/wiki/canonical#Adjective");
-
-            URL_Add("Canto", "https://en.wikipedia.org/wiki/Canto_(news_aggregator)");
 
             URL_Add("canola oil", "https://en.wikipedia.org/wiki/Canola_oil");
 
@@ -141846,8 +141858,6 @@ namespace OverflowHelper.core
 
             URL_Add("-Wsequence-point", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsequence-point");
 
-            URL_Add("-Waggregate-return", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waggregate-return");
-
             URL_Add("-Wall", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wall");
 
             URL_Add("-Warith-conversion", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Warith-conversion");
@@ -142079,6 +142089,8 @@ namespace OverflowHelper.core
             URL_Add("-Wno-unused-local-typedefs", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wno-unused-local-typedefs");
 
             URL_Add("-Wreturn-local-addr", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-local-addr");
+
+            URL_Add("-Waggregate-return", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waggregate-return");
 
             URL_Add("collect2: error: ld returned 1 exit status", "https://stackoverflow.com/questions/16437383/linker-error-gcc");
 
@@ -143814,6 +143826,40 @@ namespace OverflowHelper.core
 
             URL_Add("subaggregate", "https://en.wiktionary.org/wiki/subaggregate#Noun");
 
+            URL_Add("aggregator", "https://en.wiktionary.org/wiki/aggregator#Noun");
+
+            URL_Add("Canto", "https://en.wikipedia.org/wiki/Canto_(news_aggregator)");
+
+            URL_Add("fed", "https://en.wiktionary.org/wiki/feed#Verb");
+
+            URL_Add("feed reader", "https://en.wikipedia.org/wiki/News_aggregator");
+
+            URL_Add("spoon-feeding", "https://en.wiktionary.org/wiki/spoon-feed#Verb");
+
+            URL_Add("spoon-feed", "https://en.wiktionary.org/wiki/spoon-feed#Verb");
+
+            URL_Add("force feed", "https://en.wiktionary.org/wiki/force_feed#Verb");
+
+            URL_Add("force feeding", "https://en.wiktionary.org/wiki/force_feed#Verb");
+
+            URL_Add("foie gras", "https://en.wikipedia.org/wiki/Foie_gras");
+
+            URL_Add("line feed", "https://en.wiktionary.org/wiki/line_feed#Noun");
+
+            URL_Add("feedback", "https://en.wiktionary.org/wiki/feedback#Noun");
+
+            URL_Add("reinforcement learning from human feedback", "https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback");
+
+            URL_Add("linear-feedback shift register", "https://en.wikipedia.org/wiki/Linear-feedback_shift_register");
+
+            URL_Add("Stack Exchange RSS feeds", "https://meta.stackexchange.com/questions/151519/what-other-hidden-or-inobvious-rss-feeds-are-available-on-stack-exchange-and-its");
+
+            URL_Add("Elfeed", "https://www.emacswiki.org/emacs/Elfeed");
+
+            URL_Add("BuzzFeed", "https://en.wikipedia.org/wiki/BuzzFeed");
+
+            URL_Add("We don't need stinking badges", "https://stackoverflow.blog/2008/07/12/stack-overflow-badge-feedbac/");
+
             URL_Add("excitement", "https://en.wiktionary.org/wiki/excitement#Noun");
 
             URL_Add("exist", "https://en.wiktionary.org/wiki/exist#Verb");
@@ -144635,36 +144681,6 @@ namespace OverflowHelper.core
             URL_Add("Helix QAC", "https://en.wikipedia.org/wiki/Helix_QAC");
 
             URL_Add("Zhihu", "https://en.wikipedia.org/wiki/Zhihu");
-
-            URL_Add("fed", "https://en.wiktionary.org/wiki/feed#Verb");
-
-            URL_Add("feed reader", "https://en.wikipedia.org/wiki/News_aggregator");
-
-            URL_Add("spoon-feeding", "https://en.wiktionary.org/wiki/spoon-feed#Verb");
-
-            URL_Add("spoon-feed", "https://en.wiktionary.org/wiki/spoon-feed#Verb");
-
-            URL_Add("force feed", "https://en.wiktionary.org/wiki/force_feed#Verb");
-
-            URL_Add("force feeding", "https://en.wiktionary.org/wiki/force_feed#Verb");
-
-            URL_Add("foie gras", "https://en.wikipedia.org/wiki/Foie_gras");
-
-            URL_Add("line feed", "https://en.wiktionary.org/wiki/line_feed#Noun");
-
-            URL_Add("feedback", "https://en.wiktionary.org/wiki/feedback#Noun");
-
-            URL_Add("reinforcement learning from human feedback", "https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback");
-
-            URL_Add("linear-feedback shift register", "https://en.wikipedia.org/wiki/Linear-feedback_shift_register");
-
-            URL_Add("Stack Exchange RSS feeds", "https://meta.stackexchange.com/questions/151519/what-other-hidden-or-inobvious-rss-feeds-are-available-on-stack-exchange-and-its");
-
-            URL_Add("Elfeed", "https://www.emacswiki.org/emacs/Elfeed");
-
-            URL_Add("BuzzFeed", "https://en.wikipedia.org/wiki/BuzzFeed");
-
-            URL_Add("We don't need stinking badges", "https://stackoverflow.blog/2008/07/12/stack-overflow-badge-feedbac/");
 
             URL_Add("bitness", "https://en.wiktionary.org/wiki/bitness#Noun");
 
@@ -152715,6 +152731,7 @@ namespace OverflowHelper.core
             correctionAdd("Lol_", "League of Legends (LoL)_");
             correctionAdd("LoL_", "League of Legends (LoL)_"); // The official shorthand
             correctionAdd("lol_", "League of Legends (LoL)_");
+            correctionAdd("LOL_", "League of Legends (LoL)_");
 
             // A computer game
             correctionAdd("apex_", "Apex Legends_");
@@ -161179,10 +161196,6 @@ namespace OverflowHelper.core
             correctionAdd("NBD_", "no big deal_");
             correctionAdd("nbd_", "no big deal_");
 
-            // Internet slang
-            correctionAdd("ROFL_", "LOFL_");
-            correctionAdd("LOL_", "LOFL_"); // For the cross-reference
-
             correctionAdd("fuxks_", "fucks_");
             correctionAdd("effs_", "fucks_");
 
@@ -161209,6 +161222,7 @@ namespace OverflowHelper.core
             correctionAdd("FORK U_", "fuck you_");
             correctionAdd("fork u_", "fuck you_");
             correctionAdd("F you_", "fuck you_");
+            correctionAdd("F-You_", "fuck you_");
             correctionAdd("FU_", "fuck you_");
 
             correctionAdd("fw_", "fuck with_");
@@ -163453,9 +163467,6 @@ namespace OverflowHelper.core
             correctionAdd("html5_", "HTML5 (tag wiki)_");
             correctionAdd("HTML5_", "HTML5 (tag wiki)_");
 
-            correctionAdd("[tag:loopbackjs]_", "LoopBack (tag wiki)_");
-            correctionAdd("LoopBack_", "LoopBack (tag wiki)_");
-
             correctionAdd("[tag:codeplex]_", "CodePlex (tag wiki)_");
             correctionAdd("tag:codeplex_", "CodePlex (tag wiki)_");
             correctionAdd("codeplex_", "CodePlex (tag wiki)_");
@@ -164014,6 +164025,9 @@ namespace OverflowHelper.core
             correctionAdd("mongodb_", "MongoDB (tag wiki)_");
             correctionAdd("MongoDB_", "MongoDB (tag wiki)_");
 
+            correctionAdd("[tag:loopbackjs]_", "LoopBack (tag wiki)_");
+            correctionAdd("LoopBack_", "LoopBack (tag wiki)_");
+
             //// Wrong URL... It should be:
             //
             //   <https://stackoverflow.com/questions/tagged/csh>
@@ -164283,10 +164297,6 @@ namespace OverflowHelper.core
 
             // A Flutter class
             correctionAdd("positioned_", "Positioned_");
-
-            correctionAdd("look up_", "lookup_");
-            correctionAdd("look of_", "lookup_");
-            correctionAdd("lokup_", "lookup_");
 
             correctionAdd("Resistance_", "resistance_");
 
@@ -165494,13 +165504,6 @@ namespace OverflowHelper.core
             correctionAdd("reverse engineer_", "reverse-engineer_");
             correctionAdd("RE_", "reverse-engineer_");
 
-            correctionAdd("inbalance_", "unbalance_");
-
-            correctionAdd("Load Balancer_", "load balancer_");
-            correctionAdd("load-balancer_", "load balancer_");
-            correctionAdd("lb_", "load balancer_");
-            correctionAdd("LB_", "load balancer_");
-
             correctionAdd("DART_", "DART (satellite)_");
 
             correctionAdd("des_", "DES_");
@@ -165577,9 +165580,6 @@ namespace OverflowHelper.core
             correctionAdd("alix_", "AliExpress_");
             correctionAdd("AE_", "AliExpress_");
 
-            correctionAdd("lotus notes_", "Lotus Notes_");
-            correctionAdd("Lotus_", "Lotus Notes_");
-
             correctionAdd("Alternatitive_", "alternative_");
             correctionAdd("alternatitive_", "alternative_");
             correctionAdd("alternartive_", "alternative_");
@@ -165640,8 +165640,6 @@ namespace OverflowHelper.core
             correctionAdd("warrsnty_", "warranty_");
             correctionAdd("warrant_", "warranty_");
             correctionAdd("waranty_", "warranty_");
-
-            correctionAdd("lose_", "loss_"); // A true typo
 
             // Chemistry
             correctionAdd("ph_", "pH_");
@@ -165929,12 +165927,6 @@ namespace OverflowHelper.core
             correctionAdd("Clocl_", "clock_");
             correctionAdd("clocl_", "clock_");
             correctionAdd("cloak_", "clock_");
-
-            correctionAdd("Longitude_", "longitude_");
-            correctionAdd("long_", "longitude_"); // Expansion.
-            correctionAdd("Long_", "longitude_"); // Expansion.
-            correctionAdd("lng_", "longitude_"); // Expansion.
-            correctionAdd("lon_", "longitude_");
 
             correctionAdd("Gain-bandwidth product_", "gain–bandwidth product_");
             correctionAdd("gain bandwidth product_", "gain–bandwidth product_");
@@ -166246,12 +166238,6 @@ namespace OverflowHelper.core
             correctionAdd("que_", "queue_");
             correctionAdd("cue_", "queue_");
 
-            correctionAdd("lont_", "lot_"); // Multiple typos, including 'n' instead of space for the next word
-            correctionAdd("lith_", "lot_");
-            correctionAdd("lott_", "lot_");
-            correctionAdd("lit_", "lot_");
-            correctionAdd("lof_", "lot_");
-
             // The adjective
             correctionAdd("mailitry_", "military_"); // Probably a typo, but it is slide of four
             correctionAdd("mil_", "military_");
@@ -166402,6 +166388,34 @@ namespace OverflowHelper.core
             correctionAdd("Thourough_", "thorough_");
             correctionAdd("thourough_", "thorough_");
             correctionAdd("through_", "thorough_");
+
+            correctionAdd("look up_", "lookup_");
+            correctionAdd("look of_", "lookup_");
+            correctionAdd("lokup_", "lookup_");
+
+            correctionAdd("Longitude_", "longitude_");
+            correctionAdd("long_", "longitude_"); // Expansion.
+            correctionAdd("Long_", "longitude_"); // Expansion.
+            correctionAdd("lng_", "longitude_"); // Expansion.
+            correctionAdd("lon_", "longitude_");
+
+            correctionAdd("lose_", "loss_"); // A true typo
+
+            correctionAdd("lont_", "lot_"); // Multiple typos, including 'n' instead of space for the next word
+            correctionAdd("lith_", "lot_");
+            correctionAdd("lott_", "lot_");
+            correctionAdd("lit_", "lot_");
+            correctionAdd("lof_", "lot_");
+
+            correctionAdd("Load Balancer_", "load balancer_");
+            correctionAdd("load-balancer_", "load balancer_");
+            correctionAdd("lb_", "load balancer_");
+            correctionAdd("LB_", "load balancer_");
+
+            correctionAdd("inbalance_", "unbalance_");
+
+            correctionAdd("lotus notes_", "Lotus Notes_");
+            correctionAdd("Lotus_", "Lotus Notes_");
 
             // C. A book
             //
@@ -168544,8 +168558,6 @@ namespace OverflowHelper.core
             URL_Add("Ubuntu Budgie_", "https://en.wikipedia.org/wiki/Ubuntu_Budgie");
 
             URL_Add("vanilla_", "https://en.wiktionary.org/wiki/vanilla#Adjective");
-
-            URL_Add("LOFL_", "https://en.wiktionary.org/wiki/ROFL#Phrase");
 
             URL_Add("precious_", "https://en.wiktionary.org/wiki/precious#Adjective");
 
@@ -171426,8 +171438,6 @@ namespace OverflowHelper.core
             correctionAdd("noth__", "both__");
             correctionAdd("bot__", "both__");
 
-            correctionAdd("law__", "low__");
-
             correctionAdd("Our__", "our__");
             correctionAdd("ouu__", "our__");
             correctionAdd("out__", "our__");
@@ -173057,6 +173067,16 @@ namespace OverflowHelper.core
             correctionAdd("lightning__", "Lockheed P-38 Lightning__");
             correctionAdd("P-38__", "Lockheed P-38 Lightning__");
             correctionAdd("P 38__", "Lockheed P-38 Lightning__");
+
+            correctionAdd("ling__", "long__"); // A true typo
+            correctionAdd("ong__", "long__");
+            correctionAdd("log__", "long__");
+
+            correctionAdd("law__", "low__");
+
+            // Internet slang
+            correctionAdd("ROFL__", "LOFL__");
+            correctionAdd("LOL__", "LOFL__"); // For the cross-reference
 
             // Electronics. Integrated circuit (ICs)
             //
@@ -175598,10 +175618,6 @@ namespace OverflowHelper.core
             correctionAdd("Br__", "best regards__");
             correctionAdd("BR__", "best regards__");
 
-            correctionAdd("ling__", "long__"); // A true typo
-            correctionAdd("ong__", "long__");
-            correctionAdd("log__", "long__");
-
             correctionAdd("VI__", "Vodafone Idea__");
             correctionAdd("vi__", "Vodafone Idea__");
             correctionAdd("Vi__", "Vodafone Idea__");
@@ -177298,6 +177314,8 @@ namespace OverflowHelper.core
             URL_Add("Boot Camp__", "https://en.wikipedia.org/wiki/Boot_Camp_%28software%29");
 
             URL_Add("throw__", "https://en.wiktionary.org/wiki/throw#Verb");
+
+            URL_Add("LOFL__", "https://en.wiktionary.org/wiki/ROFL#Phrase");
 
         } //addLookupData_alternativeWordSet2()
 
@@ -180989,6 +181007,7 @@ namespace OverflowHelper.core
             // A computer game
             correctionAdd("Counter Strike____", "Counter-Strike____");
             correctionAdd("counter-strike____", "Counter-Strike____");
+            correctionAdd("counter strike____", "Counter-Strike____");
             correctionAdd("CS____", "Counter-Strike____");
             correctionAdd("cs____", "Counter-Strike____");
 
