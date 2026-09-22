@@ -4380,9 +4380,10 @@ namespace OverflowHelper.core
             correctionAdd("didin't", "didn’t");
             correctionAdd("dit not", "didn’t");
             correctionAdd("did not", "didn’t");
-            correctionAdd("didn\"t", "didn’t");
             correctionAdd("diedn#t", "didn’t");
             correctionAdd("diedn't", "didn’t");
+            correctionAdd("didn\"t", "didn’t");
+            correctionAdd("DIDN\"T", "didn’t");
             correctionAdd("didn`t", "didn’t");
             correctionAdd("didn't", "didn’t");
             correctionAdd("did`nt", "didn’t");
@@ -18915,6 +18916,7 @@ namespace OverflowHelper.core
             correctionAdd("gnusceen", "Screen");
             correctionAdd("SCREEN", "Screen");
             correctionAdd("screen", "Screen");
+            correctionAdd("sceen", "Screen");
 
             // Linux
             correctionAdd("busy box", "BusyBox");
@@ -27760,9 +27762,14 @@ namespace OverflowHelper.core
             correctionAdd("black jack", "blackjack");
 
             // Both a physical game and a computer game
+            correctionAdd("warhammer", "Warhammer");
+
+            correctionAdd("minis", "miniature models");
+
+            // Both a physical game and a computer game
             // Related: Necromunda
-            correctionAdd("40K", "Warhammer 40,000");
             correctionAdd("Warhammer 40k", "Warhammer 40,000");
+            correctionAdd("40K", "Warhammer 40,000");
 
             // Warhammer 40,000
             correctionAdd("space marine", "Space Marine");
@@ -34772,6 +34779,7 @@ namespace OverflowHelper.core
             correctionAdd("Beer-Lambert Law", "Beer–Lambert law");
 
             correctionAdd("Snell's Law", "Snell's law");
+            correctionAdd("Snells law", "Snell's law");
 
             correctionAdd("Stefan-Boltzmann law", "Stefan–Boltzmann law");
             correctionAdd("Stefan-Boltzmann Law", "Stefan–Boltzmann law");
@@ -35171,6 +35179,8 @@ namespace OverflowHelper.core
 
             correctionAdd("multi-version", "multiversion");
 
+            correctionAdd("Version Control Software", "version control system");
+            correctionAdd("version control software", "version control system");
             correctionAdd("Version Control", "version control system");
             correctionAdd("version-control system", "version control system");
             correctionAdd("vcs", "version control system");
@@ -38158,6 +38168,11 @@ namespace OverflowHelper.core
             correctionAdd("heapdhones", "headphones"); // A true typo
             correctionAdd("headfones", "headphones");
             correctionAdd("heaphones", "headphones");
+
+            correctionAdd("in-ear monitors", "earphones"); // For the cross-reference
+            correctionAdd("earphone", "earphones");
+            correctionAdd("earbuds", "earphones");
+            correctionAdd("earpone", "earphones");
 
             correctionAdd("microhpone", "microphone");
             correctionAdd(",icrophone", "microphone");
@@ -97803,6 +97818,7 @@ namespace OverflowHelper.core
             correctionAdd("citeria", "criteria");
             correctionAdd("critera", "criteria");
 
+            correctionAdd("entiere", "entire");
             correctionAdd("entier", "entire");
 
             correctionAdd("eniterely", "entirely");
@@ -99065,6 +99081,9 @@ namespace OverflowHelper.core
             correctionAdd("john resig", "John Resig");
 
             // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=8Gv0H-vPoDc&t=1m20s>
+            //   <https://www.wikihow.com/Use-Its-and-It%27s>
             //
             //   <https://en.wiktionary.org/wiki/%27tis#Contraction>
             //     'tis
@@ -123330,7 +123349,13 @@ namespace OverflowHelper.core
 
             URL_Add("vendetta", "https://en.wiktionary.org/wiki/vendetta#Noun");
 
+            URL_Add("Warhammer", "https://en.wikipedia.org/wiki/Warhammer_(game)");
+
+            URL_Add("miniature models", "https://en.wikipedia.org/wiki/Miniature_model_(gaming)");
+
             URL_Add("Warhammer 40,000", "https://en.wikipedia.org/wiki/Warhammer_40,000");
+
+            URL_Add("Space Marine", "https://en.wikipedia.org/wiki/Space_Marine_(Warhammer_40,000)");
 
             URL_Add("accommodating", "https://en.wiktionary.org/wiki/accommodating#Adjective");
 
@@ -146896,8 +146921,6 @@ namespace OverflowHelper.core
 
             URL_Add("Kerbal Space Program", "https://en.wikipedia.org/wiki/Kerbal_Space_Program");
 
-            URL_Add("Space Marine", "https://en.wikipedia.org/wiki/Space_Marine_(Warhammer_40,000)");
-
             URL_Add("BLAS", "https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms");
 
             URL_Add("OpenBLAS", "https://en.wikipedia.org/wiki/OpenBLAS");
@@ -147187,6 +147210,8 @@ namespace OverflowHelper.core
             URL_Add("header file", "https://en.wikipedia.org/wiki/Include_directive#Header_files");
 
             URL_Add("headphones", "https://en.wikipedia.org/wiki/Headphones");
+
+            URL_Add("earphones", "https://en.wikipedia.org/wiki/Headphones#Earphones");
 
             URL_Add("header", "https://en.wiktionary.org/wiki/header#Noun");
 
@@ -154680,6 +154705,7 @@ namespace OverflowHelper.core
             correctionAdd("keyboared_", "keyboard_");
             correctionAdd("keyboardx_", "keyboard_"); // A true typo (involving the space bar)
             correctionAdd("keybooard_", "keyboard_");
+            correctionAdd("kleyboard_", "keyboard_");
             correctionAdd("KeyBoard_", "keyboard_");
             correctionAdd("Keyboard_", "keyboard_");
             correctionAdd("Keybpard_", "keyboard_");
@@ -157595,6 +157621,8 @@ namespace OverflowHelper.core
             correctionAdd("b1 pro_", "Keychron&nbsp;B1&nbsp;Pro_");
             correctionAdd("B1 pro_", "Keychron&nbsp;B1&nbsp;Pro_");
             correctionAdd("B1 PRO_", "Keychron&nbsp;B1&nbsp;Pro_");
+            correctionAdd("B1Pro_", "Keychron&nbsp;B1&nbsp;Pro_");
+            correctionAdd("B1pro_", "Keychron&nbsp;B1&nbsp;Pro_");
             correctionAdd("B1_", "Keychron&nbsp;B1&nbsp;Pro_");
 
             // A 80-key (75%. Not true TKL) crippled
@@ -161198,6 +161226,7 @@ namespace OverflowHelper.core
 
             correctionAdd("fuxks_", "fucks_");
             correctionAdd("effs_", "fucks_");
+            correctionAdd("fcks_", "fucks_");
 
             correctionAdd("the bleep_", "the fuck_");
             correctionAdd("da fuq_", "the fuck_");
@@ -178026,6 +178055,7 @@ namespace OverflowHelper.core
             correctionAdd("fuq___", "fuck___");
             correctionAdd("fux___", "fuck___");
             correctionAdd("f@!___", "fuck___");
+            correctionAdd("fck___", "fuck___");
             correctionAdd("Fk___", "fuck___");
             correctionAdd("fk___", "fuck___");
             correctionAdd("FK___", "fuck___");
