@@ -5126,6 +5126,11 @@ namespace OverflowHelper.core
             // An American retail company
             correctionAdd("kroger", "Kroger");
 
+            // A large Chinese retailer, for example, mechanical keyboards
+            correctionAdd("JD.com", "Jingdong Group");
+            correctionAdd("360buy", "Jingdong Group"); // The former name
+            correctionAdd("JD", "Jingdong Group");
+
             correctionAdd("E*BAY", "eBay");
             correctionAdd("ebay", "eBay");
             correctionAdd("Ebay", "eBay");
@@ -29781,7 +29786,6 @@ namespace OverflowHelper.core
             correctionAdd("moorhuhn", "Moorhuhn");
 
             // A game mode in computer games
-            //
             correctionAdd("rabbit", "rabbit (computer game type)");
 
             correctionAdd("captuyre", "capture");
@@ -29816,6 +29820,9 @@ namespace OverflowHelper.core
             correctionAdd("MOBAs", "multiplayer online battle arena");
             correctionAdd("MOBA", "multiplayer online battle arena");
             correctionAdd("moba", "multiplayer online battle arena");
+
+            // Computer games, in real-time strategy and fighting games
+            correctionAdd("APM", "actions per minute");
 
             // Games. Not the battery type...
             correctionAdd("AAA Games", "AAA");
@@ -30499,6 +30506,7 @@ namespace OverflowHelper.core
 
             // A computer game. Or rather a series.
             correctionAdd("Dota 2", "Dota");
+            correctionAdd("dota 2", "Dota");
             correctionAdd("dota", "Dota");
 
             // A computer game
@@ -64260,22 +64268,6 @@ namespace OverflowHelper.core
             correctionAdd("KBs", "keyboards");
             correctionAdd("Kbs", "keyboards");
 
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/Scancode>
-            //
-            //   <https://deskthority.net/wiki/Scancode>
-            //
-            //     The 'deskthority.net' reference is now broken (blank page).
-            //     Candidate site for the wiki: <https://wiki.themk.org>
-            //
-            //   <https://www.win.tue.nl/~aeb/linux/kbd/scancodes.html>
-            //   <https://www.win.tue.nl/~aeb/linux/kbd/scancodes-14.html>
-            //   <https://www.reddit.com/r/qmk/comments/1fo73ro/comment/lostrku/>
-            //
-            correctionAdd("scan code", "scancode");
-            correctionAdd("Scancode", "scancode");
-
             // Some cross-references:
             //
             //   "Keyboard Layout Editor"
@@ -64373,6 +64365,26 @@ namespace OverflowHelper.core
             // E.g., description of a particular kind of sound
             //       from a mechanical keyboard (when operated)
             correctionAdd("cremiest", "creamiest");
+
+            correctionAdd("daily", "daily driver");
+
+            correctionAdd("dailies", "daily drivers");
+
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Scancode>
+            //
+            //   <https://deskthority.net/wiki/Scancode>
+            //
+            //     The 'deskthority.net' reference is now broken (blank page).
+            //     Candidate site for the wiki: <https://wiki.themk.org>
+            //
+            //   <https://www.win.tue.nl/~aeb/linux/kbd/scancodes.html>
+            //   <https://www.win.tue.nl/~aeb/linux/kbd/scancodes-14.html>
+            //   <https://www.reddit.com/r/qmk/comments/1fo73ro/comment/lostrku/>
+            //
+            correctionAdd("scan code", "scancode");
+            correctionAdd("Scancode", "scancode");
 
             correctionAdd("key code", "keycode");
             correctionAdd("ket code", "keycode");
@@ -85686,6 +85698,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("Keychron Q2 HE 8K (65%) (proprietary keyboard firmware, not open source)", "Keychron&nbsp;Q2&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
             correctionAdd("Q2 HE 8K", "Keychron&nbsp;Q2&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("q2 he 8k", "Keychron&nbsp;Q2&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)");
 
             // A 67-key (65%. Not true TKL) severely crippled
             // wired-only QMK/Via-capable mechanical keyboard
@@ -112516,10 +112529,6 @@ namespace OverflowHelper.core
 
             URL_Add("watch", "https://en.wiktionary.org/wiki/watch#Noun");
 
-            URL_Add("ATI", "https://en.wikipedia.org/wiki/ATI_Technologies");
-
-            URL_Add("Xeon", "https://en.wikipedia.org/wiki/Xeon");
-
             URL_Add("perturbation", "https://en.wiktionary.org/wiki/perturbation#Noun");
 
             URL_Add("Poincaré recurrence theorem", "https://en.wikipedia.org/wiki/Poincar%C3%A9_recurrence_theorem");
@@ -120788,8 +120797,6 @@ namespace OverflowHelper.core
 
             URL_Add("WSO2", "https://en.wikipedia.org/wiki/WSO2");
 
-            URL_Add("ATS", "https://en.wikipedia.org/wiki/ATS_%28programming_language%29");
-
             URL_Add("FortiGate", "https://en.wikipedia.org/wiki/Fortinet#Products");
 
             URL_Add("instruction set", "https://en.wikipedia.org/wiki/Instruction_set_architecture#Overview");
@@ -121391,8 +121398,6 @@ namespace OverflowHelper.core
             URL_Add("generalized Pareto distribution", "https://en.wikipedia.org/wiki/Generalized_Pareto_distribution");
 
             URL_Add("HTML&nbsp;3.2", "https://en.wikipedia.org/wiki/HTML#HTML_3");
-
-            URL_Add("AT command", "https://en.wikipedia.org/wiki/Hayes_AT_command_set#GSM");
 
             URL_Add("Java Management Extensions", "https://en.wikipedia.org/wiki/Java_Management_Extensions");
 
@@ -122819,8 +122824,6 @@ namespace OverflowHelper.core
             URL_Add("paddings", "https://en.wiktionary.org/wiki/padding#Noun");
 
             URL_Add("producing", "https://en.wiktionary.org/wiki/produce#Verb");
-
-            URL_Add("Micro Center", "https://en.wikipedia.org/wiki/Micro_Center");
 
             URL_Add("Harvardian", "https://en.wiktionary.org/wiki/Harvardian#Noun");
 
@@ -124540,8 +124543,6 @@ namespace OverflowHelper.core
 
             URL_Add("Kakoune", "https://en.wikipedia.org/wiki/Kakoune");
 
-            URL_Add("keycodes", "https://en.wiktionary.org/wiki/keycode#Noun");
-
             URL_Add(".NET", "https://en.wikipedia.org/wiki/.NET_Framework");
 
             URL_Add("one-step", "https://www.merriam-webster.com/dictionary/one-step");
@@ -125145,8 +125146,6 @@ namespace OverflowHelper.core
             URL_Add("learned", "https://en.wiktionary.org/wiki/learn#Verb");
 
             URL_Add("nonessential", "https://en.wiktionary.org/wiki/nonessential#Adjective");
-
-            URL_Add("Walmart", "https://en.wikipedia.org/wiki/Walmart");
 
             URL_Add("minimum order quantity", "https://en.wiktionary.org/wiki/MOQ#Noun");
 
@@ -126054,8 +126053,6 @@ namespace OverflowHelper.core
 
             URL_Add("mvn", "https://en.wikipedia.org/wiki/Apache_Maven#Syntax");
 
-            URL_Add("Sam’s Club", "https://en.wikipedia.org/wiki/Sam%27s_Club");
-
             URL_Add("Narsarsuaq", "https://en.wikipedia.org/wiki/Narsarsuaq");
 
             URL_Add("touchdown", "https://en.wiktionary.org/wiki/touchdown#Noun");
@@ -126225,8 +126222,6 @@ namespace OverflowHelper.core
             URL_Add("hero image", "https://en.wikipedia.org/wiki/Web_banner#Other_types");
 
             URL_Add("squiggles", "https://en.wikipedia.org/wiki/Tilde#Other_uses_2");
-
-            URL_Add("Onn", "https://en.wikipedia.org/wiki/List_of_Walmart_brands#Others");
 
             URL_Add("bothering", "https://en.wiktionary.org/wiki/bother#Verb");
 
@@ -126830,8 +126825,6 @@ namespace OverflowHelper.core
 
             URL_Add("ASP.NET Core 3.0", "https://en.wikipedia.org/wiki/ASP.NET_Core#Release_history");
 
-            URL_Add("7-Eleven", "https://en.wikipedia.org/wiki/7-Eleven");
-
             URL_Add(".NET Core", "https://en.wikipedia.org/wiki/.NET#History"); // Even older: https://en.wikipedia.org/wiki/.NET_Framework#.NET_Core. Old: <https://en.wikipedia.org/wiki/.NET_Core>
 
             URL_Add(".NET Core 3.0", "https://en.wikipedia.org/wiki/.NET#History");
@@ -127164,8 +127157,6 @@ namespace OverflowHelper.core
 
             URL_Add("PDM", "https://en.wikipedia.org/wiki/Pulse-density_modulation");
 
-            URL_Add("ATmega88", "https://www.microchip.com/en-us/product/ATmega88");
-
             URL_Add("kick start", "https://en.wiktionary.org/wiki/kick_start#Verb");
 
             URL_Add("Google Chrome", "https://en.wikipedia.org/wiki/Google_Chrome");
@@ -127273,10 +127264,6 @@ namespace OverflowHelper.core
             URL_Add("KeyTweak", "https://www.wikihow.tech/Use-Keytweak");
 
             URL_Add("Sony Vaio", "https://en.wikipedia.org/wiki/Vaio#Notebooks");
-
-            URL_Add("VK_OEM_102", "https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes");
-
-            URL_Add("ATmega2560", "https://www.microchip.com/en-us/product/ATmega2560");
 
             URL_Add("Modbus", "https://en.wikipedia.org/wiki/Modbus");
 
@@ -130954,16 +130941,6 @@ namespace OverflowHelper.core
 
             URL_Add("PSK", "https://en.wikipedia.org/wiki/Pre-shared_key");
 
-            URL_Add("LAPACK", "https://en.wikipedia.org/wiki/LAPACK");
-
-            URL_Add("LINPACK", "https://en.wikipedia.org/wiki/LINPACK");
-
-            URL_Add("ATLAS", "https://en.wikipedia.org/wiki/Automatically_Tuned_Linear_Algebra_Software");
-
-            URL_Add("ATLAS.ti", "https://en.wikipedia.org/wiki/ATLAS.ti"); // Old: https://en.wikipedia.org/wiki/Atlas.ti
-
-            URL_Add("Atlas V", "https://en.wikipedia.org/wiki/Atlas_V");
-
             URL_Add("Bamboo", "https://www.atlassian.com/software/bamboo");
 
             URL_Add("Maven Central", "https://shibboleth.atlassian.net/wiki/spaces/DEV/pages/1123844333/Use+of+Maven+Central");
@@ -133048,14 +133025,6 @@ namespace OverflowHelper.core
 
             URL_Add("hardware security module", "https://en.wikipedia.org/wiki/Hardware_security_module");
 
-            URL_Add("corporation", "https://en.wiktionary.org/wiki/corporation#Noun");
-
-            URL_Add("corporations", "https://en.wiktionary.org/wiki/corporation#Noun");
-
-            URL_Add("Acme Corporation", "https://en.wikipedia.org/wiki/Acme#Arts_and_entertainment");
-
-            URL_Add("AT&T", "https://en.wikipedia.org/wiki/AT%26T_Corporation");
-
             URL_Add("Fluke", "https://en.wikipedia.org/wiki/Fluke_Corporation");
 
             URL_Add("PORON", "https://en.wikipedia.org/wiki/Rogers_Corporation#Products_and_technology");
@@ -133966,7 +133935,19 @@ namespace OverflowHelper.core
 
             URL_Add("MikroTik", "https://en.wikipedia.org/wiki/MikroTik");
 
+            URL_Add("Micro Center", "https://en.wikipedia.org/wiki/Micro_Center");
+
+            URL_Add("Walmart", "https://en.wikipedia.org/wiki/Walmart");
+
+            URL_Add("Onn", "https://en.wikipedia.org/wiki/List_of_Walmart_brands#Others");
+
+            URL_Add("Sam’s Club", "https://en.wikipedia.org/wiki/Sam%27s_Club");
+
+            URL_Add("7-Eleven", "https://en.wikipedia.org/wiki/7-Eleven");
+
             URL_Add("Kroger", "https://en.wikipedia.org/wiki/Kroger");
+
+            URL_Add("Jingdong Group", "https://en.wikipedia.org/wiki/JD.com");
 
             URL_Add("Dunning–Kruger effect", "https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect");
 
@@ -136402,8 +136383,6 @@ namespace OverflowHelper.core
 
             URL_Add("movement", "https://en.wiktionary.org/wiki/movement#Noun");
 
-            URL_Add("keycode", "https://en.wiktionary.org/wiki/keycode#Noun");
-
             URL_Add("principle of least astonishment", "https://en.wikipedia.org/wiki/Principle_of_least_astonishment");
 
             URL_Add("astonishingly", "https://en.wiktionary.org/wiki/astonishingly#Adverb");
@@ -136938,21 +136917,101 @@ namespace OverflowHelper.core
 
             URL_Add("mechanical keyboards", "https://en.wikipedia.org/wiki/Keyboard_technology#Metal_contact"); // Old: <https://en.wikipedia.org/wiki/Keyboard_technology#Mechanical-switch_keyboard>
 
-            URL_Add("chiclet", "https://en.wikipedia.org/wiki/Chiclet_keyboard");
+            URL_Add("daily driver", "https://en.wiktionary.org/wiki/daily_driver#Noun");
 
-            URL_Add("Kaleidoscope", "https://kaleidoscope.keyboard.io/");
+            URL_Add("daily drivers", "https://en.wiktionary.org/wiki/daily_driver#Noun");
 
-            URL_Add("RGB", "https://en.wikipedia.org/wiki/RGB_color_model");
+            URL_Add("Japanese duplex matrix", "https://kbd.news/The-Japanese-duplex-matrix-1391.html");
 
-            URL_Add("RGBA", "https://en.wikipedia.org/wiki/RGBA_color_model");
+            URL_Add("keyboard matrix scan rate", "https://michael.stapelberg.ch/posts/2021-05-08-keyboard-input-latency-qmk-kinesis/");
 
-            URL_Add("HSV", "https://en.wikipedia.org/wiki/HSL_and_HSV");
+            URL_Add("scan", "https://en.wiktionary.org/wiki/scan#Verb");
 
-            URL_Add("sRGB", "https://en.wikipedia.org/wiki/SRGB");
+            URL_Add("scans", "https://en.wiktionary.org/wiki/scan#Verb");
 
-            URL_Add("ARGB", "https://en.wikipedia.org/wiki/RGBA_color_model#ARGB32"); // Older: <https://en.wikipedia.org/wiki/RGBA_color_space#ARGB_(word-order)>
+            URL_Add("scanner", "https://en.wiktionary.org/wiki/scanner#Noun");
 
-            URL_Add("OpenRGB", "https://www.youtube.com/watch?v=2MHtLEiXaXg");
+            URL_Add("scanned", "https://en.wiktionary.org/wiki/scan#Verb");
+
+            URL_Add("rescanned", "https://en.wiktionary.org/wiki/rescan#Verb");
+
+            URL_Add("scannability", "https://en.wiktionary.org/wiki/scannability#Noun");
+
+            URL_Add("scannable", "https://en.wiktionary.org/wiki/scannable#Adjective");
+
+            URL_Add("scancode", "https://en.wiktionary.org/wiki/scancode#Noun");
+
+            URL_Add("keycode", "https://en.wiktionary.org/wiki/keycode#Noun");
+
+            URL_Add("keycodes", "https://en.wiktionary.org/wiki/keycode#Noun");
+
+            URL_Add("VK_OEM_102", "https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes");
+
+            URL_Add("source map", "https://developer.mozilla.org/en-US/docs/Tools/Debugger/How_to/Use_a_source_map");
+
+            URL_Add("heat map", "https://en.wiktionary.org/wiki/heat_map#Noun");
+
+            URL_Add("heat maps", "https://en.wiktionary.org/wiki/heat_map#Noun");
+
+            URL_Add("hash map", "https://en.wikipedia.org/wiki/Hash_table");
+
+            URL_Add("keymap", "https://en.wiktionary.org/wiki/keymap#Noun");
+
+            URL_Add("keymaps", "https://en.wiktionary.org/wiki/keymap#Noun");
+
+            URL_Add("keymapping", "https://en.wiktionary.org/wiki/keymapping#Noun");
+
+            URL_Add("keymappings", "https://en.wiktionary.org/wiki/keymapping#Noun");
+
+            URL_Add("minimap", "https://en.wiktionary.org/wiki/minimap#Noun");
+
+            URL_Add("mmap", "https://en.wikipedia.org/wiki/Mmap");
+
+            URL_Add("OpenStreetMap", "https://en.wikipedia.org/wiki/OpenStreetMap");
+
+            URL_Add("MAPI", "https://en.wikipedia.org/wiki/MAPI");
+
+            URL_Add("IMAP", "https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol");
+
+            URL_Add("JMAP", "https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol");
+
+            URL_Add("MapReduce", "https://en.wikipedia.org/wiki/MapReduce");
+
+            URL_Add("Character Map", "https://en.wikipedia.org/wiki/Character_Map_(Windows)");
+
+            URL_Add("Keymapp", "https://www.zsa.io/flash");
+
+            URL_Add("Keymapper", "https://github.com/houmain/keymapper");
+
+            URL_Add("xmodmap", "https://wiki.archlinux.org/title/Xmodmap");
+
+            URL_Add("setxkbmap", "https://linux.die.net/man/1/setxkbmap");
+
+            URL_Add("StructureMap", "http://structuremap.net/structuremap/");
+
+            URL_Add("Nmap", "https://en.wikipedia.org/wiki/Nmap");
+
+            URL_Add("Bing Maps", "https://en.wikipedia.org/wiki/Bing_Maps");
+
+            URL_Add("Google Maps", "https://en.wikipedia.org/wiki/Google_Maps");
+
+            URL_Add("Google Places", "https://en.wikipedia.org/wiki/Google_Maps#Google_Maps_API");
+
+            URL_Add("Google Places API", "https://developers.google.com/maps/documentation/places/web-service");
+
+            URL_Add("Petal Maps", "https://en.wikipedia.org/wiki/Petal_Maps");
+
+            URL_Add("MIP maps", "https://en.wikipedia.org/wiki/Mipmap");
+
+            URL_Add("Mapnik", "https://en.wikipedia.org/wiki/Mapnik");
+
+            URL_Add("Mapbox GL JS", "https://docs.mapbox.com/mapbox-gl-js/guides/");
+
+            URL_Add("Bootmapper Client", "https://meckeyalpha.com/pages/guide-on-bootmapper-client");
+
+            URL_Add("HID Remapper", "https://www.remapper.org/");
+
+            URL_Add("MapQuest", "https://en.wikipedia.org/wiki/MapQuest");
 
             URL_Add("key overrides", "https://docs.qmk.fm/features/key_overrides?id=modifiers-as-layer-keys");
 
@@ -137097,6 +137156,22 @@ namespace OverflowHelper.core
             URL_Add("Edit&nbsp;Overflow", "https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=Edit%20Overflow");
 
             URL_Add("Rapoo", "https://pmortensen.eu/world2/2021/12/24/rapoo-mechanical-keyboards-gotchas-and-setup/");
+
+            URL_Add("chiclet", "https://en.wikipedia.org/wiki/Chiclet_keyboard");
+
+            URL_Add("Kaleidoscope", "https://kaleidoscope.keyboard.io/");
+
+            URL_Add("RGB", "https://en.wikipedia.org/wiki/RGB_color_model");
+
+            URL_Add("RGBA", "https://en.wikipedia.org/wiki/RGBA_color_model");
+
+            URL_Add("HSV", "https://en.wikipedia.org/wiki/HSL_and_HSV");
+
+            URL_Add("sRGB", "https://en.wikipedia.org/wiki/SRGB");
+
+            URL_Add("ARGB", "https://en.wikipedia.org/wiki/RGBA_color_model#ARGB32"); // Older: <https://en.wikipedia.org/wiki/RGBA_color_space#ARGB_(word-order)>
+
+            URL_Add("OpenRGB", "https://www.youtube.com/watch?v=2MHtLEiXaXg");
 
             URL_Add("Skia", "https://en.wikipedia.org/wiki/Skia_Graphics_Engine");
 
@@ -139677,11 +139752,15 @@ namespace OverflowHelper.core
 
             URL_Add("ATmega64", "https://www.microchip.com/en-us/product/ATmega64");
 
+            URL_Add("ATmega88", "https://www.microchip.com/en-us/product/ATmega88");
+
             URL_Add("ATmega128", "https://www.microchip.com/wwwproducts/en/ATmega128");
 
             URL_Add("ATmega328", "https://en.wikipedia.org/wiki/ATmega328");
 
             URL_Add("ATmega328P", "https://en.wikipedia.org/wiki/ATmega328#Family");
+
+            URL_Add("ATmega2560", "https://www.microchip.com/en-us/product/ATmega2560");
 
             URL_Add("ATtiny", "https://en.wikipedia.org/wiki/AVR_microcontrollers#Basic_families");
 
@@ -140051,12 +140130,6 @@ namespace OverflowHelper.core
             URL_Add("mapmaking", "https://en.wiktionary.org/wiki/mapmaking#Noun");
 
             URL_Add("road map", "https://en.wiktionary.org/wiki/road_map#Noun");
-
-            URL_Add("keymaps", "https://en.wiktionary.org/wiki/keymap#Noun");
-
-            URL_Add("keymapping", "https://en.wiktionary.org/wiki/keymapping#Noun");
-
-            URL_Add("keymappings", "https://en.wiktionary.org/wiki/keymapping#Noun");
 
             URL_Add("mind map", "https://en.wikipedia.org/wiki/Mind_map");
 
@@ -142750,26 +142823,6 @@ namespace OverflowHelper.core
 
             URL_Add("Jacobian matrix", "https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant");
 
-            URL_Add("Japanese duplex matrix", "https://kbd.news/The-Japanese-duplex-matrix-1391.html");
-
-            URL_Add("keyboard matrix scan rate", "https://michael.stapelberg.ch/posts/2021-05-08-keyboard-input-latency-qmk-kinesis/");
-
-            URL_Add("scan", "https://en.wiktionary.org/wiki/scan#Verb");
-
-            URL_Add("scans", "https://en.wiktionary.org/wiki/scan#Verb");
-
-            URL_Add("scanner", "https://en.wiktionary.org/wiki/scanner#Noun");
-
-            URL_Add("scanned", "https://en.wiktionary.org/wiki/scan#Verb");
-
-            URL_Add("rescanned", "https://en.wiktionary.org/wiki/rescan#Verb");
-
-            URL_Add("scannability", "https://en.wiktionary.org/wiki/scannability#Noun");
-
-            URL_Add("scannable", "https://en.wiktionary.org/wiki/scannable#Adjective");
-
-            URL_Add("scancode", "https://en.wiktionary.org/wiki/scancode#Noun");
-
             URL_Add("Google PhotoScan", "https://en.wikipedia.org/wiki/Google_Photos#History");
 
             URL_Add("CT scan", "https://en.wikipedia.org/wiki/CT_scan");
@@ -144295,66 +144348,6 @@ namespace OverflowHelper.core
             URL_Add("Spy++", "https://docs.microsoft.com/en-us/visualstudio/debugger/introducing-spy-increment?view=vs-2022");
 
             URL_Add("Apport", "https://documentation.ubuntu.com/project/contributors/debugging/apport/");
-
-            URL_Add("source map", "https://developer.mozilla.org/en-US/docs/Tools/Debugger/How_to/Use_a_source_map");
-
-            URL_Add("heat map", "https://en.wiktionary.org/wiki/heat_map#Noun");
-
-            URL_Add("heat maps", "https://en.wiktionary.org/wiki/heat_map#Noun");
-
-            URL_Add("hash map", "https://en.wikipedia.org/wiki/Hash_table");
-
-            URL_Add("keymap", "https://en.wiktionary.org/wiki/keymap#Noun");
-
-            URL_Add("minimap", "https://en.wiktionary.org/wiki/minimap#Noun");
-
-            URL_Add("mmap", "https://en.wikipedia.org/wiki/Mmap");
-
-            URL_Add("OpenStreetMap", "https://en.wikipedia.org/wiki/OpenStreetMap");
-
-            URL_Add("MAPI", "https://en.wikipedia.org/wiki/MAPI");
-
-            URL_Add("IMAP", "https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol");
-
-            URL_Add("JMAP", "https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol");
-
-            URL_Add("MapReduce", "https://en.wikipedia.org/wiki/MapReduce");
-
-            URL_Add("Character Map", "https://en.wikipedia.org/wiki/Character_Map_(Windows)");
-
-            URL_Add("Keymapp", "https://www.zsa.io/flash");
-
-            URL_Add("Keymapper", "https://github.com/houmain/keymapper");
-
-            URL_Add("xmodmap", "https://wiki.archlinux.org/title/Xmodmap");
-
-            URL_Add("setxkbmap", "https://linux.die.net/man/1/setxkbmap");
-
-            URL_Add("StructureMap", "http://structuremap.net/structuremap/");
-
-            URL_Add("Nmap", "https://en.wikipedia.org/wiki/Nmap");
-
-            URL_Add("Bing Maps", "https://en.wikipedia.org/wiki/Bing_Maps");
-
-            URL_Add("Google Maps", "https://en.wikipedia.org/wiki/Google_Maps");
-
-            URL_Add("Google Places", "https://en.wikipedia.org/wiki/Google_Maps#Google_Maps_API");
-
-            URL_Add("Google Places API", "https://developers.google.com/maps/documentation/places/web-service");
-
-            URL_Add("Petal Maps", "https://en.wikipedia.org/wiki/Petal_Maps");
-
-            URL_Add("MIP maps", "https://en.wikipedia.org/wiki/Mipmap");
-
-            URL_Add("Mapnik", "https://en.wikipedia.org/wiki/Mapnik");
-
-            URL_Add("Mapbox GL JS", "https://docs.mapbox.com/mapbox-gl-js/guides/");
-
-            URL_Add("Bootmapper Client", "https://meckeyalpha.com/pages/guide-on-bootmapper-client");
-
-            URL_Add("HID Remapper", "https://www.remapper.org/");
-
-            URL_Add("MapQuest", "https://en.wikipedia.org/wiki/MapQuest");
 
             URL_Add("belt and suspenders", "https://en.wiktionary.org/wiki/belt_and_suspenders#Noun");
 
@@ -146855,6 +146848,8 @@ namespace OverflowHelper.core
             URL_Add("multiplayer", "https://en.wiktionary.org/wiki/multiplayer#Adjective");
 
             URL_Add("multiplayer online battle arena", "https://en.wikipedia.org/wiki/Multiplayer_online_battle_arena#Artificial_Intelligence_in_MOBAs");
+
+            URL_Add("actions per minute", "https://en.wikipedia.org/wiki/Actions_per_minute");
 
             URL_Add("massively multiplayer online game", "https://en.wikipedia.org/wiki/Massively_multiplayer_online_game");
 
@@ -150241,6 +150236,32 @@ namespace OverflowHelper.core
             URL_Add("Open Firmware", "https://en.wikipedia.org/wiki/Open_Firmware");
 
             URL_Add("NX Open", "https://docs.plm.automation.siemens.com/tdoc/nx/10/nx_api/#uid:index");
+
+            URL_Add("AT command", "https://en.wikipedia.org/wiki/Hayes_AT_command_set#GSM");
+
+            URL_Add("AT&T", "https://en.wikipedia.org/wiki/AT%26T_Corporation");
+
+            URL_Add("ATS", "https://en.wikipedia.org/wiki/ATS_%28programming_language%29");
+
+            URL_Add("ATI", "https://en.wikipedia.org/wiki/ATI_Technologies");
+
+            URL_Add("ATLAS", "https://en.wikipedia.org/wiki/Automatically_Tuned_Linear_Algebra_Software");
+
+            URL_Add("ATLAS.ti", "https://en.wikipedia.org/wiki/ATLAS.ti"); // Old: https://en.wikipedia.org/wiki/Atlas.ti
+
+            URL_Add("Atlas V", "https://en.wikipedia.org/wiki/Atlas_V");
+
+            URL_Add("Xeon", "https://en.wikipedia.org/wiki/Xeon");
+
+            URL_Add("LAPACK", "https://en.wikipedia.org/wiki/LAPACK");
+
+            URL_Add("LINPACK", "https://en.wikipedia.org/wiki/LINPACK");
+
+            URL_Add("corporation", "https://en.wiktionary.org/wiki/corporation#Noun");
+
+            URL_Add("corporations", "https://en.wiktionary.org/wiki/corporation#Noun");
+
+            URL_Add("Acme Corporation", "https://en.wikipedia.org/wiki/Acme#Arts_and_entertainment");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -167528,8 +167549,6 @@ namespace OverflowHelper.core
 
             URL_Add("ppi_", "https://en.wikipedia.org/wiki/Pixel_density");
 
-            URL_Add("ATA over Ethernet_", "https://en.wikipedia.org/wiki/ATA_over_Ethernet");
-
             URL_Add("long term_", "https://en.wiktionary.org/wiki/long-term#Adverb");
 
             URL_Add("no big deal_", "https://en.wiktionary.org/wiki/NBD#Noun");
@@ -170898,28 +170917,6 @@ namespace OverflowHelper.core
 
             URL_Add("Google Antigravity_", "https://en.wikipedia.org/wiki/Google_Antigravity");
 
-            URL_Add("LoRA_", "https://huggingface.co/docs/diffusers/main/en/training/lora");
-
-            URL_Add("LLaMA_", "https://en.wikipedia.org/wiki/Llama_(language_model)"); // Old: <https://en.wikipedia.org/wiki/LLaMA>
-
-            URL_Add("KVM_", "https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine");
-
-            URL_Add("TPU_", "https://en.wikipedia.org/wiki/Tensor_Processing_Unit");
-
-            URL_Add("ATM_", "https://en.wikipedia.org/wiki/Automated_teller_machine");
-
-            URL_Add("machine language instruction_", "https://en.wikipedia.org/wiki/Machine_code");
-
-            URL_Add("instructions_", "https://en.wiktionary.org/wiki/instruction#Noun");
-
-            URL_Add("MIPS_", "https://en.wikipedia.org/wiki/Instructions_per_second");
-
-            URL_Add("Intel HEX_", "https://en.wikipedia.org/wiki/Intel_HEX");
-
-            URL_Add("Intel C++ Compiler_", "https://en.wikipedia.org/wiki/Intel_C%2B%2B_Compiler");
-
-            URL_Add("intellectual property_", "https://en.wikipedia.org/wiki/Intellectual_property");
-
             URL_Add("Spanish_", "https://en.wiktionary.org/wiki/Spanish#Adjective"); // Old: https://en.wiktionary.org/wiki/Spanish
 
             URL_Add("Portuguese_", "https://en.wiktionary.org/wiki/Portuguese#Proper_noun");
@@ -171163,6 +171160,30 @@ namespace OverflowHelper.core
             URL_Add("Keychron V6 ISO_", "https://github.com/qmk/qmk_firmware/blob/master/keyboards/keychron/v6/iso_encoder/keymaps/default/keymap.c");
 
             URL_Add("Keychron&nbsp;P6&nbsp;Ultra&nbsp;8K_", "https://www.keychron.com/products/keychron-p6-ultra-8k-wireless-custom-mechanical-keyboard");
+
+            URL_Add("LoRA_", "https://huggingface.co/docs/diffusers/main/en/training/lora");
+
+            URL_Add("LLaMA_", "https://en.wikipedia.org/wiki/Llama_(language_model)"); // Old: <https://en.wikipedia.org/wiki/LLaMA>
+
+            URL_Add("KVM_", "https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine");
+
+            URL_Add("TPU_", "https://en.wikipedia.org/wiki/Tensor_Processing_Unit");
+
+            URL_Add("machine language instruction_", "https://en.wikipedia.org/wiki/Machine_code");
+
+            URL_Add("instructions_", "https://en.wiktionary.org/wiki/instruction#Noun");
+
+            URL_Add("MIPS_", "https://en.wikipedia.org/wiki/Instructions_per_second");
+
+            URL_Add("Intel HEX_", "https://en.wikipedia.org/wiki/Intel_HEX");
+
+            URL_Add("Intel C++ Compiler_", "https://en.wikipedia.org/wiki/Intel_C%2B%2B_Compiler");
+
+            URL_Add("intellectual property_", "https://en.wikipedia.org/wiki/Intellectual_property");
+
+            URL_Add("ATA over Ethernet_", "https://en.wikipedia.org/wiki/ATA_over_Ethernet");
+
+            URL_Add("ATM_", "https://en.wikipedia.org/wiki/Automated_teller_machine");
 
         } //addLookupData_alternativeWordSet()
 
@@ -171585,6 +171606,7 @@ namespace OverflowHelper.core
             correctionAdd("mayve__", "maybe__");
             correctionAdd("meybe__", "maybe__");
             correctionAdd("mabie__", "maybe__");
+            correctionAdd("myabe__", "maybe__"); // A true typo
             correctionAdd("maby__", "maybe__");
             correctionAdd("mybe__", "maybe__");
             correctionAdd("mabe__", "maybe__");
@@ -177275,8 +177297,6 @@ namespace OverflowHelper.core
 
             URL_Add("Memcached__", "https://en.wikipedia.org/wiki/Memcached");
 
-            URL_Add("ATmega__", "https://en.wikipedia.org/wiki/AVR_microcontrollers#Basic_families");
-
             URL_Add("starring__", "https://en.wiktionary.org/wiki/star#Verb");
 
             URL_Add("player character__", "https://en.wikipedia.org/wiki/Player_character");
@@ -177390,6 +177410,8 @@ namespace OverflowHelper.core
             URL_Add("free__", "https://en.wiktionary.org/wiki/free#Adjective");
 
             URL_Add("The Odin Project__", "https://www.freecodecamp.org/learn/the-odin-project/");
+
+            URL_Add("ATmega__", "https://en.wikipedia.org/wiki/AVR_microcontrollers#Basic_families");
 
         } //addLookupData_alternativeWordSet2()
 
