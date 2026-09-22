@@ -13724,6 +13724,152 @@ namespace OverflowHelper.core
 
             correctionAdd("IPP", "Integrated Performance Primitives");
 
+            correctionAdd("all off", "all of");
+
+            // Idiomatic
+            correctionAdd("allgood", "all good");
+
+            correctionAdd("all of a suddent", "all of a sudden");
+            correctionAdd("all-of-a-sudden", "all of a sudden");
+
+            correctionAdd("all those said", "all that said");
+
+            correctionAdd("all is said and done", "when all is said and done");
+
+            // Idiomatic
+            correctionAdd("all over the places", "all over the place");
+
+            // Idiomatic. Chiefly Southern US
+            correctionAdd("y'all", "all of you");
+            correctionAdd("ya'll", "all of you");
+            correctionAdd("yall", "all of you");
+
+            correctionAdd("H3ll", "hell");
+
+            correctionAdd("cold day in hell", "when Hell freezes over");
+
+            correctionAdd("hell of", "a hell of");
+            correctionAdd("hella", "a hell of");
+            correctionAdd("Hella", "a hell of");
+
+            correctionAdd("helluva", "a hell of a");
+
+            correctionAdd("hell lot of", "a hell of a lot of");
+
+            correctionAdd("hell bent", "hell-bent");
+
+            // Idiomatic
+            correctionAdd("All Hell Breaks Loose", "all hell breaks loose");
+
+            // Idiomatic
+            correctionAdd("all hell breaking lose", "all hell breaking loose");
+
+            // Idiomatic
+            correctionAdd("all hell broke lose", "all hell broke loose");
+
+            // Sort of Australian slang. Originally a Harold Holt quote.
+            //
+            // Place, etc.: Washington, 1966-06-30. LBJ = US president Lyndon Baines Johnson.
+            //
+            // Alternative URLs:
+            //
+            //  <https://insidestory.org.au/harold-holt-and-the-art-of-personal-diplomacy/>
+            //  <https://en.wikipedia.org/wiki/Harold_Holt>
+            //  <https://www.youtube.com/watch?v=F2gX-R1k7MM&t=8m26s>
+            //    A sample
+            //
+            correctionAdd("All the way with LBJ", "all the way with LBJ");
+
+            correctionAdd("holyer", "holier");
+
+            // Idiomatic. Dated.
+            //
+            // Alternative URL:
+            //
+            //   <https://www.phrases.org.uk/meanings/holy-moly>
+            //
+            correctionAdd("holy moly", "holy moley");
+            correctionAdd("Holy moly", "holy moley");
+
+            correctionAdd("on Earth", "on earth");
+
+            // Australian slang?
+            correctionAdd("fair suck of the sauce bottle", "fair suck of the sav");
+            correctionAdd("Suck of the zap", "fair suck of the sav");
+
+            // Idiomatic
+            // Australian slang?
+            correctionAdd("that is all she wrote", "that's all she wrote");
+
+            // Australian slang?
+            correctionAdd("bobby dazzler", "bobby-dazzler");
+            correctionAdd("Bobby Dazzler", "bobby-dazzler");
+            correctionAdd("bobby desla", "bobby-dazzler");
+
+            // Australian slang?
+            correctionAdd("No worries", "no worries");
+
+            // Australian(?)
+            correctionAdd("Winner, winner, chicken dinner", "winner, winner, chicken dinner");
+            correctionAdd("Winner winner chicken dinner", "winner, winner, chicken dinner");
+            correctionAdd("winner winner chicken dinner", "winner, winner, chicken dinner");
+            correctionAdd("Winner winner", "winner, winner, chicken dinner");
+            correctionAdd("winner winner", "winner, winner, chicken dinner");
+
+            correctionAdd("chicken coup", "chicken coop");
+
+            // Note: "couple" is in an alternative word set
+            //
+            correctionAdd("Coupled", "coupled");
+            correctionAdd("cobbled", "coupled");
+
+            correctionAdd("coumpling", "coupling");
+            correctionAdd("Coupling", "coupling"); // Software engineering
+
+            correctionAdd("de-coupling", "decoupling");
+
+            correctionAdd("a copuple of", "a couple of");
+            correctionAdd("A couple of", "a couple of");
+            correctionAdd("couples of", "a couple of");
+            correctionAdd("a copuple", "a couple of");
+            correctionAdd("couple of", "a couple of");
+            correctionAdd("a couple", "a couple of");
+            correctionAdd("coupe of", "a couple of");
+            correctionAdd("a coupla", "a couple of");
+            correctionAdd("coupla", "a couple of");
+            correctionAdd("couple", "a couple of");
+
+            correctionAdd("a couple of thousands", "a couple of thousand");
+            correctionAdd("couple of thousands", "a couple of thousand");
+            correctionAdd("couple thousands", "a couple of thousand");
+            correctionAdd("couple thousand", "a couple of thousand");
+
+            correctionAdd("tight-coupling", "tight coupling");
+
+            correctionAdd("tightly-coupled", "tightly coupled");
+
+            correctionAdd("looser coupling", "loose coupling");
+
+            correctionAdd("Cohesion", "cohesion"); // Software engineering
+
+            // Software engineering
+            correctionAdd("lower cohesion", "high cohesion");
+            correctionAdd("low cohesion", "high cohesion");
+
+            correctionAdd("Loosened up", "loosened up");
+
+            correctionAdd("lose end", "loose end");
+
+            correctionAdd("losely", "loosely");
+            correctionAdd("loosly", "loosely");
+
+            correctionAdd("loosely goosy", "loosey-goosey");
+            correctionAdd("loosey goosey", "loosey-goosey");
+            correctionAdd("loosi goosy", "loosey-goosey");
+            correctionAdd("loosy-goosy", "loosey-goosey");
+
+            correctionAdd("loosely-coupled", "loosely coupled");
+
             correctionAdd("mith", "myth");
 
             correctionAdd("mythycal", "mythical");
@@ -13733,19 +13879,6 @@ namespace OverflowHelper.core
             correctionAdd("mythical man month", "The Mythical Man-Month");
             correctionAdd("mythical manmonth", "The Mythical Man-Month");
             correctionAdd("Mythical", "The Mythical Man-Month");
-
-            correctionAdd("Cohesion", "cohesion"); // Software engineering
-
-            correctionAdd("coumpling", "coupling");
-            correctionAdd("Coupling", "coupling"); // Software engineering
-
-            correctionAdd("tight-coupling", "tight coupling");
-
-            correctionAdd("tightly-coupled", "tightly coupled");
-
-            // Software engineering
-            correctionAdd("lower cohesion", "high cohesion");
-            correctionAdd("low cohesion", "high cohesion");
 
             correctionAdd("Server Application Programming Interface", "SAPI");
 
@@ -13855,6 +13988,2411 @@ namespace OverflowHelper.core
 
             correctionAdd("plm", "Programmer Lives Matter"); // From a single TechLead video
             correctionAdd("PLM", "Programmer Lives Matter");
+
+            correctionAdd("Transverse", "transverse");
+
+            correctionAdd("TEM", "transverse electromagnetic");
+
+            correctionAdd("Transverse Mercator Projection", "transverse Mercator projection");
+
+            correctionAdd("Mercator Projection", "Mercator projection");
+
+            correctionAdd("north-west", "northwest");
+            correctionAdd("nw", "northwest");
+            correctionAdd("NW", "northwest");
+
+            correctionAdd("Sothern", "Southern");
+            correctionAdd("Souther", "Southern");
+            correctionAdd("souther", "Southern");
+
+            correctionAdd("East", "east");
+            correctionAdd("e", "east");
+            correctionAdd("E", "east");
+
+            correctionAdd("hemissphere", "hemisphere");
+            correctionAdd("Hemisphere", "hemisphere");
+
+            correctionAdd("southern hemisphere", "Southern Hemisphere");
+            correctionAdd("Southern hemisphere", "Southern Hemisphere");
+
+            correctionAdd("northern hemisphere", "Northern Hemisphere");
+            correctionAdd("Northern hemisphere", "Northern Hemisphere");
+            correctionAdd("Northern Hemiphere", "Northern Hemisphere");
+            correctionAdd("nortern hemisphere", "Northern Hemisphere");
+
+            correctionAdd("Equator", "equator");
+
+            correctionAdd("Equatorial", "equatorial");
+
+            correctionAdd("Sea", "sea");
+
+            correctionAdd("word domination", "world domination");
+
+            correctionAdd("ROW", "rest of world");
+            correctionAdd("RoW", "rest of world");
+
+            correctionAdd("first world", "First World");
+            correctionAdd("1st world", "First World");
+
+            correctionAdd("third world", "Third World");
+            correctionAdd("3rd World", "Third World");
+            correctionAdd("3rd world", "Third World");
+
+            correctionAdd("Western World", "Western world");
+            correctionAdd("western world", "Western world");
+
+            correctionAdd("Occidentalist", "occidentalist");
+
+            correctionAdd("Europa (moon)", "Europe"); // For the cross-reference. Is correct for Jupiter's moon Europa...
+            correctionAdd("europe", "Europe");
+            correctionAdd("europ", "Europe");
+
+            correctionAdd("european", "European");
+            correctionAdd("europen", "European");
+            correctionAdd("Europan", "European"); // For the cross-reference. Is correct for Jupiter's moon Europa...
+
+            correctionAdd("the continent", "Continental Europe");
+
+            correctionAdd("eu", "EU");
+            correctionAdd("Eu", "EU");
+
+            // A duplicate of "EU"
+            correctionAdd("european union", "European Union");
+
+            correctionAdd("Euro", "euro");
+            correctionAdd("EURO", "euro");
+            correctionAdd("Euror", "euro");
+
+            correctionAdd("eur", "EUR");
+            correctionAdd("€", "EUR");
+
+            correctionAdd("euro cent", "Eurocent");
+            correctionAdd("eurocent", "Eurocent");
+
+            correctionAdd("wto", "WTO");
+
+            correctionAdd("Norrdic", "Nordic");
+            correctionAdd("nordic", "Nordic");
+
+            correctionAdd("viking", "Viking");
+
+            correctionAdd("valhalla", "Valhalla");
+            correctionAdd("Walhalla", "Valhalla");
+            correctionAdd("walhalla", "Valhalla");
+
+            correctionAdd("Scandinavianb", "Scandinavian");
+            correctionAdd("scandinavian", "Scandinavian");
+            correctionAdd("Scandanavian", "Scandinavian");
+            correctionAdd("scandanavian", "Scandinavian");
+            correctionAdd("Scandinvian", "Scandinavian");
+            correctionAdd("scandic", "Scandinavian");
+
+            correctionAdd("western union", "Western Union");
+
+            correctionAdd("western", "Western");
+            correctionAdd("Weatern", "Western"); // A true typo
+
+            correctionAdd("Westerner", "westerner");
+
+            correctionAdd("western european", "Western European");
+            correctionAdd("western European", "Western European");
+
+            correctionAdd("Easystore", "Western Digital Easystore");
+
+            correctionAdd("Estern Europe", "Eastern Europe");
+            correctionAdd("East Europe", "Eastern Europe");
+
+            correctionAdd("eastern european", "Eastern European");
+
+            correctionAdd("Easting", "easting");
+
+            correctionAdd("eurasia", "Eurasia");
+
+            correctionAdd("EMEA", "Europe, the Middle East and Africa");
+
+            correctionAdd("APAC", "Asia-Pacific");
+
+            correctionAdd("asia", "Asia");
+
+            correctionAdd("asian", "Asian");
+            correctionAdd("asain", "Asian");
+
+            correctionAdd("indian subcontinent", "Indian subcontinent");
+
+            correctionAdd("south-asia", "South Asia");
+
+            correctionAdd("south Asian", "South Asian");
+
+            correctionAdd("South East Asia", "Southeast Asia");
+            correctionAdd("South-East Asia", "Southeast Asia");
+            correctionAdd("SE Asia", "Southeast Asia");
+            correctionAdd("SEA", "Southeast Asia");
+
+            correctionAdd("east-asia", "East Asia");
+
+            correctionAdd("east-asian", "East Asian");
+
+            correctionAdd("far east", "Far East");
+
+            correctionAdd("middle east", "Middle East");
+
+            correctionAdd("middle eastern", "Middle Eastern");
+
+            correctionAdd("Afeica", "Africa");
+
+            correctionAdd("african", "African");
+
+            correctionAdd("north Africans", "North Africans");
+
+            correctionAdd("Dinar", "dinar");
+
+            correctionAdd("egyptian", "Egyptian");
+
+            correctionAdd("el Alamein", "El Alamein");
+
+            correctionAdd("tunisian", "Tunisian");
+            correctionAdd("tunesian", "Tunisian");
+            correctionAdd("Tunesian", "Tunisian");
+
+            correctionAdd("Lybyan", "Libyan");
+            correctionAdd("Libian", "Libyan");
+            correctionAdd("Lybian", "Libyan");
+
+            correctionAdd("Gaddafi", "Muammar Gaddafi");
+
+            correctionAdd("morocco", "Morocco");
+
+            correctionAdd("Timbuctoo", "Timbuktu");
+
+            correctionAdd("Ethiopic", "Ethiopian");
+
+            correctionAdd("amharic", "Amharic");
+
+            correctionAdd("Nigerinar", "Nigeria"); // A true typo
+
+            correctionAdd("nigerian", "Nigerian");
+
+            correctionAdd("cameroon", "Cameroon");
+
+            correctionAdd("Cabo Verde", "Cape Verde");
+
+            correctionAdd("kenya", "Kenya");
+            correctionAdd("Kennya", "Kenya");
+
+            correctionAdd("zimbabwee", "Zimbabwe");
+
+            correctionAdd("zimbabwean dollar", "Zimbabwean dollar");
+
+            // A telecom company in Kenya
+            correctionAdd("safaricom", "Safaricom");
+
+            correctionAdd("mpesa", "M-Pesa");
+
+            correctionAdd("tanzania", "Tanzania");
+
+            correctionAdd("botswana", "Botswana");
+
+            correctionAdd("south africa", "South Africa");
+            correctionAdd("south Africa", "South Africa");
+            correctionAdd("S A", "South Africa");
+            correctionAdd("SA", "South Africa");
+
+            correctionAdd("south-african", "South African");
+
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/South_America>
+            //
+            correctionAdd("south america", "South America");
+            correctionAdd("south America", "South America");
+            correctionAdd("S.A", "South America");
+
+            correctionAdd("south american", "South American");
+
+            correctionAdd("Amurrikan", "American");
+            correctionAdd("american", "American");
+            correctionAdd("Amercian", "American");
+            correctionAdd("'Merican", "American");
+
+            correctionAdd("america", "America");
+
+            correctionAdd("North-Americans", "North Americans");
+
+            // The adjective
+            correctionAdd("north American", "North American");
+
+            correctionAdd("African American", "African-American");
+            correctionAdd("african american", "African-American");
+
+            correctionAdd("Brics", "BRICS");
+
+            correctionAdd("civilization", "civilisation");
+            correctionAdd("civ", "civilisation");
+
+            correctionAdd("civilasations", "civilisations");
+
+            correctionAdd("country's", "countries");
+            correctionAdd("con tries", "countries");
+            correctionAdd("contries", "countries");
+            correctionAdd("countrys", "countries");
+            correctionAdd("coutries", "countries");
+
+            correctionAdd("nation state", "nation-state");
+
+            correctionAdd("Nationalism", "nationalism");
+
+            correctionAdd("notional", "national");
+
+            correctionAdd("nation state actor", "nation-state actor");
+            correctionAdd("state actor", "nation-state actor");
+
+            correctionAdd("state sponsored", "state-sponsored");
+
+            correctionAdd("multi-national", "multinational");
+
+            correctionAdd("micronationalisim", "micronationalism");
+
+            correctionAdd("International", "international");
+            correctionAdd("internation", "international");
+
+            correctionAdd("internationaly", "internationally");
+
+            correctionAdd("ambassy", "embassy");
+
+            correctionAdd("dyplomatic", "diplomatic");
+
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/memorandum_of_understanding#Noun>
+            //   <https://en.wiktionary.org/wiki/MoU#Noun>
+            //
+            correctionAdd("Memorandum of Understanding", "memorandum of understanding");
+            correctionAdd("M.O.U", "memorandum of understanding"); // Should really be "M.O.U."
+            correctionAdd("MOU", "memorandum of understanding");
+            correctionAdd("MoU", "memorandum of understanding"); // The official abbr.
+
+            correctionAdd("vasal", "vassal");
+
+            correctionAdd("King", "king");
+
+            correctionAdd("Queen", "queen");
+
+            correctionAdd("Royal", "royal");
+
+            correctionAdd("governement", "government");
+            correctionAdd("gouverment", "government");
+            correctionAdd("Government", "government");
+            correctionAdd("Givernment", "government");
+            correctionAdd("Gouverment", "government");
+            correctionAdd("goverment", "government");
+            correctionAdd("governent", "government");
+            correctionAdd("govement", "government");
+            correctionAdd("gov’t", "government");
+            correctionAdd("gov't", "government");
+            correctionAdd("Gov’t", "government");
+            correctionAdd("govt", "government");
+            correctionAdd("Govt", "government");
+            correctionAdd("gov", "government");
+            correctionAdd("Gov", "government");
+
+            correctionAdd("governkng", "governing");
+
+            correctionAdd("parleament", "parliament");
+            correctionAdd("parlement", "parliament");
+            correctionAdd("Parlement", "parliament"); // Not 100% correct - case.
+            correctionAdd("parlament", "parliament");
+            correctionAdd("parlemant", "parliament");
+            correctionAdd("parlimant", "parliament");
+            correctionAdd("parliment", "parliament");
+
+            correctionAdd("parlamentary", "parliamentary");
+
+            correctionAdd("two party system", "two-party system");
+
+            correctionAdd("prime Minister", "prime minister");
+            correctionAdd("Prime Minister", "prime minister");
+            correctionAdd("prime mister", "prime minister");
+
+            correctionAdd("poicy", "policy");
+
+            correctionAdd("politicans", "politicians");
+
+            correctionAdd("lobbyisits", "lobbyists");
+
+            correctionAdd("test balloon", "trial balloon");
+
+            correctionAdd("Police", "police");
+
+            correctionAdd("Denamark", "Denmark");
+            correctionAdd("denmark", "Denmark");
+            correctionAdd("DK", "Denmark");
+
+            correctionAdd("danes", "Danes");
+
+            correctionAdd("danish", "Danish");
+
+            correctionAdd("Dansk", "dansk");
+
+            correctionAdd("margrethe", "Margrethe II");
+            correctionAdd("Margrethe", "Margrethe II");
+            correctionAdd("magrethe", "Margrethe II");
+
+            correctionAdd("gråsten", "Gråsten");
+
+            correctionAdd("Kopenhagen", "Copenhagen");
+
+            correctionAdd("særskrivning", "særskrivninger"); // Danish
+
+            correctionAdd("nutids-R", "nutids-Rer"); // Danish
+
+            correctionAdd("folketingsvalg", "Folketingsvalget 2022");
+
+            correctionAdd("GreenLand", "Greenland");
+            correctionAdd("greenland", "Greenland");
+            correctionAdd("Greeland", "Greenland");
+
+            correctionAdd("Narsasuac", "Narsarsuaq");
+
+            correctionAdd("Faroe islands", "Faroe Islands");
+
+            correctionAdd("iceland", "Iceland");
+
+            correctionAdd("Reykjavik", "Reykjavík"); // Iceland
+
+            correctionAdd("Keflavik", "Keflavík");
+
+            correctionAdd("norway", "Norway");
+
+            correctionAdd("norwegian", "Norwegian");
+
+            // Not to be confused with Svalboard... (a keyboard)
+            correctionAdd("Svarlbard", "Svalbard");
+
+            correctionAdd("Sweeden", "Sweden");
+            correctionAdd("sweeden", "Sweden");
+            correctionAdd("sweden", "Sweden");
+            correctionAdd("SWEDEN", "Sweden");
+
+            correctionAdd("swede", "Swede");
+            correctionAdd("Sweede", "Swede");
+
+            correctionAdd("suites", "Swedes");
+            correctionAdd("sweets", "Swedes");
+
+            correctionAdd("swedish", "Swedish");
+
+            // A Scandinavian language, spoken by 3,000 people in Sweden
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/%C3%96vdalian>
+            //
+            correctionAdd("elfdalian", "Elfdalian");
+
+            correctionAdd("Stockholm's syndrome", "Stockholm syndrome");
+            correctionAdd("stockholm syndrome", "Stockholm syndrome");
+
+            correctionAdd("Malmo", "Malmö");
+
+            correctionAdd("ikea", "IKEA");
+
+            correctionAdd("finnland", "Finland");
+            correctionAdd("Findland", "Finland");
+            correctionAdd("finland", "Finland");
+
+            correctionAdd("finnish", "Finnish");
+
+            correctionAdd("Baltic countries", "Baltic states");
+            correctionAdd("Baltic republics", "Baltic states");
+            correctionAdd("Baltic nations", "Baltic states");
+            correctionAdd("Baltic lands", "Baltic states");
+            correctionAdd("Baltics", "Baltic states");
+
+            correctionAdd("Lith", "Lithuania");
+
+            correctionAdd("netherlands", "the Netherlands");
+            correctionAdd("Netherlands", "the Netherlands");
+            correctionAdd("Holland", "the Netherlands");
+
+            correctionAdd("dutch", "Dutch");
+
+            // Alternative URLs:
+            //
+            //   <https://hitchhikers.fandom.com/wiki/Belgium>
+            //     The Hitchhiker's Guide to the Galaxy
+            //
+            correctionAdd("Beligum", "Belgium");
+            correctionAdd("beligum", "Belgium");
+            correctionAdd("belgium", "Belgium");
+
+            correctionAdd("belgian", "Belgian");
+
+            correctionAdd("brussels", "Brussels");
+
+            correctionAdd("brussels sprouts", "Brussels sprout");
+
+            correctionAdd("germany", "Germany");
+
+            correctionAdd("gearman", "German");
+            correctionAdd("deutsch", "German");
+            correctionAdd("german", "German");
+            correctionAdd("deutch", "German");
+            correctionAdd("DE", "German");
+
+            correctionAdd("germanic", "Germanic");
+
+            correctionAdd("berlin", "Berlin");
+
+            correctionAdd("Frankfurt", "Frankfurt, Germany");
+
+            correctionAdd("München", "Munich");
+
+            correctionAdd("Christian Democratic Union of Germany", "CDU");
+            correctionAdd("cdu", "CDU");
+
+            correctionAdd("Christian Social Union in Bavaria", "CSU");
+            correctionAdd("csu", "CSU");
+
+            correctionAdd("weimar", "Weimar");
+
+            correctionAdd("Weimar Rebublics", "Weimar Republic");
+
+            correctionAdd("aggitating", "agitating");
+
+            correctionAdd("fasicm", "fascism");
+            correctionAdd("Facism", "fascism");
+            correctionAdd("facism", "fascism");
+
+            correctionAdd("authoritan", "authoritarian");
+
+            correctionAdd("Nazi", "Nazis");
+            correctionAdd("nazi", "Nazis");
+
+            correctionAdd("nazism", "Nazism");
+
+            correctionAdd("neo-nazi", "neo-Nazi");
+
+            correctionAdd("Hitler", "Adolf Hitler");
+            correctionAdd("Htler", "Adolf Hitler");
+
+            correctionAdd("Fuhrer", "Führer");
+
+            correctionAdd("Goering", "Göring");
+
+            correctionAdd("Barbarossa", "Operation Barbarossa");
+
+            correctionAdd("waffen SS", "Waffen-SS");
+            correctionAdd("Waffen SS", "Waffen-SS");
+            correctionAdd("waffen ss", "Waffen-SS");
+
+            correctionAdd("war fair", "warfare");
+
+            correctionAdd("actrocities", "atrocities");
+
+            correctionAdd("seised", "ceased");
+            correctionAdd("seized", "ceased");
+            correctionAdd("sised", "ceased");
+
+            // Note: "military" is in an alternative word set.
+            correctionAdd("Ceasfire", "ceasefire");
+            correctionAdd("ceasfire", "ceasefire");
+
+            correctionAdd("ordinance", "ordnance");
+            correctionAdd("ordenance", "ordnance");
+
+            correctionAdd("psychological warfare", "psychological operations");
+            correctionAdd("PsyOp", "psychological operations");
+
+            correctionAdd("wargame", "war game");
+
+            correctionAdd("in all fronts", "on all fronts");
+
+            correctionAdd("battallion", "battalion");
+            correctionAdd("batallion", "battalion");
+
+            correctionAdd("BDE", "brigade");
+
+            correctionAdd("brigrades", "brigades");
+
+            correctionAdd("navy seal", "Navy SEAL");
+
+            correctionAdd("mercs", "mercenary");
+            correctionAdd("Mercs", "mercenary");
+            correctionAdd("MERCs", "mercenary");
+            correctionAdd("Merc", "mercenary");
+            correctionAdd("merc", "mercenary");
+
+            correctionAdd("mechanized infantry combat vehicle", "infantry fighting vehicle");
+            correctionAdd("MICV", "infantry fighting vehicle");
+            correctionAdd("IFV", "infantry fighting vehicle");
+
+            correctionAdd("armor", "armour");
+
+            correctionAdd("Tank", "tank");
+
+            correctionAdd("bombardement", "bombardment");
+
+            correctionAdd("artilerry", "artillery");
+            correctionAdd("artilery", "artillery");
+
+            correctionAdd("self-propelled", "self-propelled artillery");
+
+            correctionAdd("Heavy Bomber", "heavy bomber");
+
+            correctionAdd("ammuntion", "ammunition");
+            correctionAdd("Ammo", "ammunition");
+            correctionAdd("ammo", "ammunition");
+
+            correctionAdd("booby-trap", "booby trap");
+
+            correctionAdd("Thirty Years' war", "Thirty Years' War");
+
+            correctionAdd("Six Day War", "Six-Day War");
+
+            correctionAdd("first worldwar", "World War I");
+            correctionAdd("world war 1", "World War I");
+            correctionAdd("WW I", "World War I");
+            correctionAdd("ww1", "World War I");
+            correctionAdd("WW1", "World War I");
+            correctionAdd("WWI", "World War I");
+
+            correctionAdd("appeace", "appease");
+
+            correctionAdd("World war (II)", "World War II");
+            correctionAdd("World War Two", "World War II");
+            correctionAdd("world war II", "World War II");
+            correctionAdd("World war II", "World War II");
+            correctionAdd("world war 2", "World War II");
+            correctionAdd("World War 2", "World War II");
+            correctionAdd("World war 2", "World War II");
+            correctionAdd("WW II", "World War II");
+            correctionAdd("WWII", "World War II");
+            correctionAdd("WW2", "World War II");
+            correctionAdd("ww2", "World War II");
+
+            correctionAdd("Eisenhower", "Dwight D. Eisenhower");
+
+            correctionAdd("battelle", "battle");
+            correctionAdd("Battelle", "battle");
+            correctionAdd("battel", "battle");
+
+            correctionAdd("battlefied", "battlefield");
+
+            correctionAdd("Battleship", "battleship");
+
+            correctionAdd("midway", "Battle of Midway");
+
+            correctionAdd("cold war", "Cold War");
+
+            correctionAdd("Yom Kippur war", "Yom Kippur War");
+
+            correctionAdd("world War 3", "World War III");
+            correctionAdd("World War 3", "World War III");
+            correctionAdd("WW III", "World War III");
+            correctionAdd("WWIII", "World War III");
+            correctionAdd("WW 3", "World War III");
+            correctionAdd("WW3", "World War III");
+
+            correctionAdd("Yugoeslavia", "Yugoslavia");
+
+            correctionAdd("croatia", "Croatia");
+
+            // AKA Czech Republic. Not to be confused
+            // with Chechnya (North Caucasus)
+            correctionAdd("Tcheck republic", "Czechia");
+            correctionAdd("Czech Republic", "Czechia");
+            correctionAdd("Czech republic", "Czechia");
+            correctionAdd("Check republic", "Czechia");
+            correctionAdd("check republic", "Czechia");
+            correctionAdd("czechia", "Czechia");
+            correctionAdd("Checkia", "Czechia");
+
+            // The adjective
+            correctionAdd("czech", "Czech");
+            correctionAdd("Czeck", "Czech");
+            correctionAdd("chech", "Czech");
+
+            correctionAdd("slovakia", "Slovakia");
+
+            // Note: "Austria" and "Switzerland" are in an alternative word set
+            correctionAdd("swiss", "Swiss");
+
+            correctionAdd("Swiss Franc", "Swiss franc");
+
+            correctionAdd("Zurich", "Zürich");
+
+            correctionAdd("ETH Zurich", "ETH Zürich");
+
+            // Switzerland. Graubünden/Grisons canton.
+            correctionAdd("rumantsch", "Romansch");
+            correctionAdd("Rumantsch", "Romansch");
+
+            correctionAdd("swiss army knife", "Swiss Army knife");
+            correctionAdd("swiss-army", "Swiss Army knife");
+            correctionAdd("swiss army", "Swiss Army knife");
+            correctionAdd("Swiss army", "Swiss Army knife");
+
+            // Swiss watch manufacturer
+            correctionAdd("blancpain", "Blancpain");
+
+            correctionAdd("swiss cheese", "Swiss cheese");
+
+            correctionAdd("cheese cake", "cheesecake");
+
+            correctionAdd("Humble Pie", "humble pie");
+
+            correctionAdd("wappon", "weapon");
+            correctionAdd("wapon", "weapon");
+
+            correctionAdd("bio-weapon", "bioweapon");
+
+            // A weapon
+            correctionAdd("nun-chucks", "nunchucks");
+
+            correctionAdd("france", "France");
+
+            correctionAdd("pardon my french", "pardon my French");
+
+            correctionAdd("french", "French");
+            correctionAdd("FRENCH", "French");
+            correctionAdd("Fresh", "French");
+            correctionAdd("FR", "French");
+
+            correctionAdd("French man", "Frenchman");
+
+            correctionAdd("Frainglaich", "Franglais");
+            correctionAdd("franglais", "Franglais");
+
+            correctionAdd("normandy", "Normandy");
+
+            correctionAdd("paris", "Paris");
+
+            correctionAdd("grenoble", "Grenoble");
+
+            correctionAdd("napoleonic", "Napoleonic");
+
+            correctionAdd("french drain", "French drain");
+
+            correctionAdd("French fries", "french fries");
+
+            // Elite schools
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Grande_%C3%A9cole>
+            //
+            correctionAdd("Grande écoles", "grande écoles");
+
+            // Alternative URLs:
+            //
+            //   <https://www.britannica.com/topic/coup-detat>
+            //
+            correctionAdd("coup d'etat", "coup d’état");
+            correctionAdd("Coup d’état", "coup d’état");
+            correctionAdd("coup d'état", "coup d’état");
+            correctionAdd("coup", "coup d’état");
+
+            correctionAdd("coup de grace", "coup de grâce");
+
+            correctionAdd("raison d'etre", "raison d'être");
+            correctionAdd("raison d’etre", "raison d'être");
+            correctionAdd("raison detre", "raison d'être");
+
+            correctionAdd("germaine", "germane");
+
+            correctionAdd("slavic", "Slavic");
+
+            correctionAdd("mediteranian", "Mediterranean");
+
+            correctionAdd("greece", "Greece");
+
+            correctionAdd("greek", "Greek");
+
+            correctionAdd("Cypres", "Cyprus");
+
+            correctionAdd("sanskritt", "Sanskrit");
+            correctionAdd("sanskrit", "Sanskrit");
+
+            // ISO 3166 code: IT
+            correctionAdd("italy", "Italy");
+
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/IT#Symbol>
+            //
+            correctionAdd("italian", "Italian");
+            correctionAdd("Italien", "Italian");
+            correctionAdd("IT", "Italian");
+
+            correctionAdd("berlusconi", "Silvio Berlusconi");
+
+            correctionAdd("rome", "Rome");
+
+            // Idiomatic
+            correctionAdd("multiple ways to Rome", "all roads lead to Rome");
+
+            correctionAdd("venice", "Venice");
+
+            correctionAdd("United Kingdom", "UK");
+            correctionAdd("united kingdom", "UK");
+            correctionAdd("U K", "UK");
+            correctionAdd("uk", "UK");
+            correctionAdd("Uk", "UK");
+
+            correctionAdd("britain", "Britain");
+            correctionAdd("Britian", "Britain");
+
+            correctionAdd("english man", "Englishman");
+
+            correctionAdd("england", "England");
+
+            correctionAdd("london", "London");
+            correctionAdd("Londen", "London");
+
+            // Alternative URL:
+            //
+            //   <https://en.wikipedia.org/wiki/Cockney>
+            //
+            correctionAdd("Cogney", "Cockney");
+
+            correctionAdd("Reading", "Reading, Berkshire");
+
+            correctionAdd("raf", "RAF");
+
+            // Note: "Boris Johnson" is in an alternative word set.
+            correctionAdd("tory", "Tory");
+
+            correctionAdd("Rishi", "Rishi Sunak");
+
+            // United Kingdom
+            correctionAdd("Cameron", "David Cameron");
+
+            correctionAdd("Commonwealth", "the Commonwealth");
+
+            correctionAdd("Churchill", "Winston Churchill");
+
+            correctionAdd("Church-Turing thesis", "Church–Turing thesis");
+            correctionAdd("Chuch-Turing thesis", "Church–Turing thesis");
+
+            correctionAdd("lizzy", "Elizabeth II");
+
+            correctionAdd("ireland", "Ireland");
+
+            correctionAdd("irish", "Irish");
+
+            correctionAdd("norther ireland", "Northern Ireland");
+            correctionAdd("NI", "Northern Ireland");
+
+            correctionAdd("titanic", "Titanic");
+            correctionAdd("taitanic", "Titanic");
+
+            correctionAdd("scotland", "Scotland");
+            correctionAdd("Scottland", "Scotland");
+
+            correctionAdd("scottish", "Scottish");
+            correctionAdd("scotish", "Scottish");
+            correctionAdd("Scotish", "Scottish");
+
+            correctionAdd("loch ness", "Loch Ness Monster");
+            correctionAdd("Loch Ness", "Loch Ness Monster");
+
+            correctionAdd("wales", "Wales");
+
+            correctionAdd("british", "British");
+            correctionAdd("btish", "British");
+
+            correctionAdd("Iberian peninsula", "Iberian Peninsula");
+
+            correctionAdd("spain", "Spain");
+            correctionAdd("Spian", "Spain");
+
+            // Note: "Spanish" the language is in an alternative word
+            //       set (because a mapping conflicts with "ES" in
+            //       the main word set)
+            correctionAdd("spaniard", "Spaniard");
+
+            correctionAdd("gibraltar", "Gibraltar");
+
+            correctionAdd("mosquitos in Valencia", "mosquitos in Valencia (Hans Christian Andersen)");
+            correctionAdd("mosquitos", "mosquitos in Valencia (Hans Christian Andersen)");
+            correctionAdd("Valencia", "mosquitos in Valencia (Hans Christian Andersen)");
+
+            correctionAdd("the azores", "the Azores");
+            correctionAdd("azores", "the Azores");
+
+            // Note: "Portuguese" is in an alternative word set
+            correctionAdd("portugal", "Portugal");
+
+            correctionAdd("poland", "Poland");
+            correctionAdd("PL", "Poland");
+
+            correctionAdd("polish", "Polish");
+
+            correctionAdd("Chornobyl", "Chernobyl");
+
+            correctionAdd("Ucraine", "Ukraine");
+            correctionAdd("ukraine", "Ukraine");
+            correctionAdd("Ukrain", "Ukraine");
+            correctionAdd("Ukraie", "Ukraine");
+            correctionAdd("Ukrine", "Ukraine");
+            correctionAdd("ukrain", "Ukraine");
+            correctionAdd("Ukr", "Ukraine");
+
+            correctionAdd("ukrainian", "Ukrainian");
+            correctionAdd("Ukranian", "Ukrainian");
+            correctionAdd("ukranian", "Ukrainian");
+
+            // Ukraine
+            correctionAdd("victor yonokovich", "Viktor Yanukovych");
+
+            // Ukraine
+            correctionAdd("Bach, moot", "Bakhmut"); // A YouTube caption "masterpiece"
+
+            // Ukraine
+            correctionAdd("Hassan", "Kherson"); // A YouTube caption "masterpiece"
+
+            correctionAdd("Kief", "Kiev");
+
+            // A city
+            correctionAdd("Vuledar", "Vuhledar");
+
+            correctionAdd("Zelensky", "Volodymyr Zelenskyy");
+
+            correctionAdd("White Russia", "Belarus");
+            correctionAdd("Belorus", "Belarus");
+            correctionAdd("Bylorus", "Belarus");
+            correctionAdd("belarus", "Belarus");
+
+            correctionAdd("Lukashenko", "Alexander Lukashenko");
+
+            correctionAdd("Russian Federation", "Russia");
+            correctionAdd("toilet paper tiger", "Russia");
+            correctionAdd("russia", "Russia");
+            correctionAdd("ruzzia", "Russia");
+            correctionAdd("Ruzzia", "Russia");
+            correctionAdd("RuzZia", "Russia");
+            correctionAdd("ruzZia", "Russia");
+            correctionAdd("ruZZia", "Russia");
+
+            correctionAdd("russian", "Russian");
+            correctionAdd("Ruzzian", "Russian");
+            correctionAdd("RUSZYN", "Russian");
+            correctionAdd("ruszyn", "Russian");
+
+            correctionAdd("Ruble", "ruble");
+
+            correctionAdd("moscow", "Moscow");
+
+            correctionAdd("Communist", "communist");
+            correctionAdd("coomunist", "communist");
+            correctionAdd("communest", "communist");
+            correctionAdd("comunest", "communist");
+            correctionAdd("comunist", "communist");
+            correctionAdd("Comunist", "communist");
+
+            // Marxism
+            correctionAdd("karl marx", "Karl Marx");
+
+            correctionAdd("marxism", "Marxism");
+
+            correctionAdd("marxist", "Marxist");
+
+            correctionAdd("Socialism", "socialism");
+
+            correctionAdd("captial", "capital");
+
+            correctionAdd("Capitalism", "capitalism");
+
+            correctionAdd("Capitalist", "capitalist");
+
+            correctionAdd("Laissez-Faire Capitalism", "laissez-faire capitalism");
+
+            correctionAdd("Soviet", "soviet");
+
+            correctionAdd("soviet union", "Soviet Union");
+            correctionAdd("USSR", "Soviet Union");
+            correctionAdd("ussr", "Soviet Union");
+
+            correctionAdd("Joe Stalin", "Joseph Stalin");
+            correctionAdd("Uncle Joe", "Joseph Stalin");
+            correctionAdd("uncle Joe", "Joseph Stalin");
+            correctionAdd("Stalin", "Joseph Stalin");
+
+            correctionAdd("destalinization", "de-Stalinization");
+
+            correctionAdd("Gorbatjev", "Mikhail Gorbachev");
+            correctionAdd("Gorby", "Mikhail Gorbachev");
+
+            correctionAdd("iron curtain", "Iron Curtain");
+
+            correctionAdd("iron-fist", "iron fist");
+
+            correctionAdd("iron-clad", "ironclad");
+
+            // A book
+            correctionAdd("LOTR", "The Lord of the Rings");
+
+            correctionAdd("Tolkien", "J. R. R. Tolkien");
+
+            correctionAdd("gollum", "Gollum");
+
+            correctionAdd("Vladolf Putler", "Vladimir Putin");
+            correctionAdd("Bunker Grandpa", "Vladimir Putin");
+            correctionAdd("bunker grandpa", "Vladimir Putin");
+            correctionAdd("little Poopoo", "Vladimir Putin");
+            correctionAdd("bunker bitch", "Vladimir Putin");
+            correctionAdd("Herr putler", "Vladimir Putin");
+            correctionAdd("Pukedin", "Vladimir Putin");
+            correctionAdd("Vladolf", "Vladimir Putin");
+            correctionAdd("pootin", "Vladimir Putin");
+            correctionAdd("Pootin", "Vladimir Putin");
+            correctionAdd("Puddin", "Vladimir Putin");
+            correctionAdd("puddin", "Vladimir Putin");
+            correctionAdd("Puntin", "Vladimir Putin");
+            correctionAdd("Putler", "Vladimir Putin");
+            correctionAdd("Putin", "Vladimir Putin");
+
+            correctionAdd("dicktator", "dictator");
+
+            correctionAdd("mobiks", "mobilised soldiers");
+
+            correctionAdd("Colonialism", "colonialism");
+
+            correctionAdd("Colonialist", "colonialist");
+            correctionAdd("colnialist", "colonialist");
+            correctionAdd("Colnialist", "colonialist");
+
+            correctionAdd("colnies", "colonies");
+
+            correctionAdd("Empire", "empire");
+
+            correctionAdd("cyrillic", "Cyrillic");
+            correctionAdd("ciryllic", "Cyrillic");
+            correctionAdd("cyrilic", "Cyrillic");
+
+            correctionAdd("bulgaria", "Bulgaria");
+
+            correctionAdd("bulgarian", "Bulgarian");
+
+            correctionAdd("Rumania", "Romania");
+
+            correctionAdd("frankensteining", "Frankensteining");
+
+            correctionAdd("frankensteined", "Frankensteined");
+
+            correctionAdd("frankensteinish", "Frankensteinish");
+            correctionAdd("Franken", "Frankensteinish");
+
+            correctionAdd("hungarian", "Hungarian");
+
+            correctionAdd("trans-Atlantic", "transatlantic");
+            correctionAdd("trans-atlantic", "transatlantic");
+
+            correctionAdd("South Atlantic Anomnaly", "South Atlantic Anomaly");
+            correctionAdd("south atlantic anomaly", "South Atlantic Anomaly");
+            correctionAdd("SAA", "South Atlantic Anomaly");
+
+            correctionAdd("Atlantic Seaboard", "East Coast of the United States");
+            correctionAdd("Eastern Seaboard", "East Coast of the United States");
+            correctionAdd("Atlantic Coast", "East Coast of the United States");
+            correctionAdd("east coast", "East Coast of the United States");
+            correctionAdd("East Coast", "East Coast of the United States");
+
+            correctionAdd("turkish", "Turkish");
+
+            correctionAdd("turkey", "Turkey");
+
+            // In North Caucasus. Not to be confused with
+            // Czechia AKA Czech Republic (Central Europe)
+            correctionAdd("Chechnia", "Chechnya");
+            correctionAdd("Cechya", "Chechnya");
+
+            correctionAdd("caucasian", "Caucasian");
+
+            correctionAdd("Israle", "Israel");
+            correctionAdd("Isreal", "Israel"); // Misspelled in the "WarGames" movie (though not the only place)...
+
+            correctionAdd("Israeli's", "Israelis");
+
+            correctionAdd("hebrew", "Hebrew");
+
+            correctionAdd("Jurasalem", "Jerusalem");
+
+            correctionAdd("tel aviv", "Tel Aviv");
+            correctionAdd("Tel aviv", "Tel Aviv");
+
+            correctionAdd("Palistinian", "Palestinian"); // Misspelled in the "WarGames" movie...
+
+            correctionAdd("gaza", "Gaza Strip");
+
+            correctionAdd("bethlehem", "Bethlehem");
+
+            correctionAdd("dead see", "Dead Sea");
+            correctionAdd("dead sea", "Dead Sea");
+
+            correctionAdd("two state solution", "two-state solution");
+            correctionAdd("2-state solution", "two-state solution");
+
+            correctionAdd("arabic", "Arabic");
+
+            correctionAdd("arabian", "Arabian");
+
+            correctionAdd("Labanon", "Lebanon");
+            correctionAdd("lebanon", "Lebanon");
+
+            correctionAdd("Assad", "Bashar al-Assad");
+
+            correctionAdd("saudi arabia", "Saudi Arabia");
+
+            correctionAdd("saudi", "Saudi");
+
+            correctionAdd("bin laden", "Osama bin Laden");
+            correctionAdd("Bin Laden", "Osama bin Laden");
+
+            correctionAdd("UAE", "United Arab Emirates");
+
+            correctionAdd("dubai", "Dubai");
+
+            correctionAdd("qatar", "Qatar");
+
+            correctionAdd("Abu Dhabi", "Emirate of Abu Dhabi");
+
+            correctionAdd("bahrain", "Bahrain");
+
+            correctionAdd("Irak", "Iraq");
+            correctionAdd("iraq", "Iraq");
+
+            correctionAdd("Hussein", "Saddam Hussein");
+
+            correctionAdd("iran", "Iran");
+
+            // AKA Persian
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Persian_language>
+            //
+            correctionAdd("farsi", "Farsi");
+
+            correctionAdd("Persian Language", "Persian language");
+
+            correctionAdd("persian", "Persian");
+
+            correctionAdd("Straits of Hormuz", "Strait of Hormuz");
+
+            correctionAdd("dari", "Dari");
+
+            correctionAdd("Afghanisthan", "Afghanistan");
+            correctionAdd("afghanistan", "Afghanistan");
+
+            correctionAdd("Afgan", "Afghan");
+
+            // The country...
+            correctionAdd("kazakhstan", "Kazakhstan");
+            correctionAdd("Kasakstan", "Kazakhstan");
+            correctionAdd("Kazakstan", "Kazakhstan");
+
+            correctionAdd("Kazak", "Kazakh");
+
+            correctionAdd("kyrgyzstan", "Kyrgyzstan");
+
+            correctionAdd("tajikistan", "Tajikistan");
+
+            correctionAdd("turkmenistan", "Turkmenistan");
+
+            correctionAdd("uzbekistan", "Uzbekistan");
+            correctionAdd("Uzbetistan", "Uzbekistan");
+
+            correctionAdd("mount everest", "Mount Everest");
+
+            correctionAdd("pakistan", "Pakistan");
+            correctionAdd("Pak", "Pakistan");
+
+            correctionAdd("karachi", "Karachi");
+
+            correctionAdd("imran khan", "Imran Khan");
+
+            correctionAdd("sheikh hasina", "Sheikh Hasina");
+
+            // "What everyone in tech deals with, with Indians having
+            //  no skills, all their credentials just fraud"
+            //
+            correctionAdd("india", "India");
+            correctionAdd("INDIA", "India");
+            correctionAdd("indea", "India");
+            correctionAdd("Endia", "India");
+            correctionAdd("Inida", "India"); // A true typo
+
+            correctionAdd("indian", "Indian");
+            //  correctionAdd("", "Indian");   missing one
+            //     from <https://www.quora.com/Is-it-true-that-Indian-software-engineers-are-considered-very-bad-hires-in-the-USA>...
+            correctionAdd("INDIAN", "Indian");
+            correctionAdd("Idian", "Indian");
+
+            // India
+            correctionAdd("rupees", "Rs");
+            correctionAdd("Rupees", "Rs");
+            correctionAdd("rupee", "Rs"); // The expanded form (singular)
+            correctionAdd("INR", "Rs");
+            correctionAdd("rs", "Rs");
+
+            correctionAdd("hindi", "Hindi");
+
+            // The adjective
+            correctionAdd("Hindoo", "Hindu");
+            correctionAdd("Hidu", "Hindu");
+
+            // The noun
+            correctionAdd("Hindoos", "Hindus");
+
+            correctionAdd("sikh", "Sikh");
+
+            // India
+            correctionAdd("kerala", "Kerala");
+
+            // India
+            correctionAdd("kolkata", "Kolkata");
+
+            // India
+            correctionAdd("chennai", "Chennai");
+
+            // India
+            correctionAdd("bangalore", "Bangalore");
+            correctionAdd("Banglore", "Bangalore");
+            correctionAdd("banglore", "Bangalore");
+
+            // India
+            correctionAdd("new delhi", "New Delhi");
+            correctionAdd("delhi", "New Delhi");
+            correctionAdd("Delhi", "New Delhi");
+
+            // India
+            correctionAdd("hyderabad", "Hyderabad");
+
+            // India
+            correctionAdd("mumbai", "Mumbai");
+
+            // India
+            correctionAdd("pune", "Pune");
+
+            // India. A state
+            correctionAdd("karnataka", "Karnataka");
+
+            // India. In Punjab. Disruption at Stack Overflow
+            //
+            // Alternative URL:
+            //
+            //   <https://meta.stackoverflow.com/questions/427302>
+            //     Recent flood of very low quality questions and
+            //     non-questions with the Python tag today -
+            //     what is going on?
+            //
+            //     <https://stackoverflow.com/questions/77594144/how-to-dynamically-resize-the-background-video-to-accommodate-the-content/77594217#comment136796904_77594217>:
+            //
+            //       "I did that because I was in a rush and I
+            //        had to show proof that I did something
+            //        on Stack Overflow for an assignment"
+            //
+            // Richard Feynman in Brazil:
+            //
+            //   <https://v.cx/2010/04/feynman-brazil-education>
+            //
+            //   "the students had memorized everything, but they didn’t
+            //    know what anything meant. ... I couldn’t see how
+            //    anyone could be educated by this self-propagating
+            //    system in which people pass exams, and teach
+            //    others to pass exams, but nobody knows anything"
+            //
+            //   "Triboluminescence"
+            //
+            //     <https://www.youtube.com/watch?v=8nilP--GFLY>
+            //       The Unsolved Mystery of Impact Flashes -
+            //       Smarter Every Day 307
+            //
+            correctionAdd("LPU", "Lovely Professional University");
+
+            // Two different meanings:
+            //
+            //  UK:              A first-year student at a university.
+            //
+            //  Indian English:  A fresh graduate looking for his/her first job.
+            //
+            correctionAdd("fressher", "new graduate");
+            correctionAdd("Fresher", "new graduate");
+            correctionAdd("fresher", "new graduate");
+
+            // English. India. Indian space.
+            correctionAdd("wren and Martin", "High School English Grammar and Composition by Wren and Martin");
+            correctionAdd("Wren and Martin", "High School English Grammar and Composition by Wren and Martin");
+            correctionAdd("wren and martin", "High School English Grammar and Composition by Wren and Martin");
+            correctionAdd("Wren & Martin", "High School English Grammar and Composition by Wren and Martin");
+
+            correctionAdd("Indian space", "the Indian space");
+            correctionAdd("indian space", "the Indian space");
+            correctionAdd("To India", "the Indian space");
+
+            correctionAdd("missing articles", "missing articles (primarily Indians, Poles and Russians)");
+
+            // India
+            //
+            // Other references:
+            //
+            // <https://ell.stackexchange.com/questions/17621/>
+            //   "Do the needful" -- Why is it used instead
+            //   of asking a question?
+            //
+            // <https://www.quora.com/What-is-a-replacement-for-do-the-needful-when-used-in-email>
+            //   What is a replacement for "do the needful"
+            //   when used in email?
+            //
+            // <https://english.stackexchange.com/questions/43597/>
+            //   What is wrong in "Please don't pluck the flowers" and
+            //   other phrases used in the Indian subcontinent?
+            //
+            // <https://www.grammarly.com/blog/do-the-needful/>
+            //   Is “do the needful” correct?
+            //
+            // https://en.wiktionary.org/wiki/do_the_needful#Verb
+            //   Wiktionary entry
+            //
+            correctionAdd("do the helpful", "do the needful");
+
+            // E.g. India
+            correctionAdd("Fatalism", "fatalism");
+
+            correctionAdd("Sri lanka", "Sri Lanka");
+            correctionAdd("sri Lanka", "Sri Lanka");
+            correctionAdd("sri lanka", "Sri Lanka");
+            correctionAdd("Srilanka", "Sri Lanka");
+
+            correctionAdd("bangladesh", "Bangladesh");
+
+            correctionAdd("mauritius", "Mauritius");
+
+            correctionAdd("Burma", "Myanmar");
+
+            correctionAdd("Chy-nah", "China");
+            correctionAdd("CHY-NA", "China");
+            correctionAdd("chy-na", "China");
+            correctionAdd("china", "China");
+            correctionAdd("CHINA", "China");
+            correctionAdd("CHINY", "China");
+            correctionAdd("chiny", "China");
+            correctionAdd("Chin", "China");
+            correctionAdd("PRC", "China");
+            correctionAdd("prc", "China");
+            correctionAdd("CN", "China");
+
+            correctionAdd("Mainland China", "mainland China");
+            correctionAdd("China mainland", "mainland China");
+
+            correctionAdd("chineese", "Chinese");
+            correctionAdd("Chineese", "Chinese");
+            correctionAdd("chinease", "Chinese");
+            correctionAdd("Chinease", "Chinese");
+            correctionAdd("chinese", "Chinese");
+            correctionAdd("Chiense", "Chinese"); // A true typo
+            correctionAdd("chinise", "Chinese");
+            correctionAdd("chiense", "Chinese"); // Partly a true typo
+            correctionAdd("chinees", "Chinese"); // Multiple: A misspelling and a true typo
+            correctionAdd("Chines", "Chinese");
+
+            correctionAdd("Shanghi", "Shanghai");
+
+            correctionAdd("mandarin", "Mandarin");
+
+            correctionAdd("Kanji", "kanji");
+
+            correctionAdd("Communist Party of China", "Chinese Communist Party");
+            correctionAdd("Ccp", "Chinese Communist Party");
+            correctionAdd("ccp", "Chinese Communist Party");
+            correctionAdd("CCP", "Chinese Communist Party");
+
+            correctionAdd("Great Firewall of China", "Great Firewall");
+            correctionAdd("great firewall", "Great Firewall");
+            correctionAdd("GFW", "Great Firewall");
+
+            correctionAdd("BeiJing", "Beijing");
+
+            correctionAdd("Chinese room", "Chinese room argument");
+
+            correctionAdd("Tzu", "Sun Tzu");
+
+            correctionAdd("hong Kong", "Hong Kong");
+            correctionAdd("Hongkong", "Hong Kong");
+            correctionAdd("HK", "Hong Kong");
+
+            correctionAdd("HKD", "Hong Kong dollar");
+            correctionAdd("HK$", "Hong Kong dollar");
+
+            correctionAdd("Macao", "Macau");
+            correctionAdd("macao", "Macau");
+
+            correctionAdd("falun gong", "Falun Gong");
+
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Chinese_New_Year%27s_Eve>
+            //   <https://www.reddit.com/r/Keychron/comments/1i8tbng/comment/m8werr7/>
+            //   <https://en.wikipedia.org/wiki/Snake_(zodiac)>
+            //     Year of the Snake
+            //   <https://www.mooninfo.org/moon-phases/new-moon-2025.html>
+            //     2025-01-29T123700Z+0
+            //   <https://www.timeanddate.com/moon/phases/>
+            //   <https://www.reddit.com/r/Keychron/comments/1id3lbl/comment/m9vxvik/>
+            //
+            correctionAdd("Chinese lunar new year", "Chinese New Year");
+            correctionAdd("Chinese new year", "Chinese New Year");
+            correctionAdd("Spring Festival", "Chinese New Year");
+            correctionAdd("Spring festival", "Chinese New Year");
+            correctionAdd("spring festival", "Chinese New Year");
+            correctionAdd("Lunar New Year", "Chinese New Year");
+            correctionAdd("lunar new year", "Chinese New Year");
+            correctionAdd("CNY", "Chinese New Year");
+
+            correctionAdd("taiwan", "Taiwan");
+            correctionAdd("tawan", "Taiwan");
+            correctionAdd("TAWAN", "Taiwan");
+
+            correctionAdd("taiwanese", "Taiwanese");
+
+            // Taiwan
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1t0wsza/comment/ojdhmxf/>
+            //   <https://en.wikipedia.org/wiki/Public_holidays_in_China#Labor_Day_(since_2020)>
+            //
+            correctionAdd("literacy day", "Literary Day");
+            correctionAdd("Literacy Day", "Literary Day");
+
+            correctionAdd("korea", "Korea");
+
+            correctionAdd("South-Korea", "South Korea");
+            correctionAdd("south korea", "South Korea");
+            correctionAdd("ROK", "South Korea");
+            correctionAdd("ROC", "South Korea"); // Misspelling of the TLA
+            correctionAdd("KR", "South Korea");
+            correctionAdd("kr", "South Korea");
+
+            // Note: "North Korea" is in an alternative word set
+            correctionAdd("North-Korean", "North Korean");
+
+            correctionAdd("japan", "Japan");
+
+            correctionAdd("japanese", "Japanese");
+
+            // Japanese
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/katakana>
+            //
+            correctionAdd("Katakana", "katakana");
+
+            correctionAdd("Yen", "yen");
+
+            correctionAdd("Emporer", "Emperor");
+
+            correctionAdd("kyoto", "Kyoto");
+
+            correctionAdd("Japanese-Language Proficiency Test", "JLPT");
+
+            correctionAdd("Chinese Japanese Korean", "CJK");
+            correctionAdd("East Asian languages", "CJK");
+            correctionAdd("east-asian-languages", "CJK");
+            correctionAdd("cjk", "CJK");
+
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Bopomofo>
+            //
+            //   <https://en.wiktionary.org/wiki/Zhuyin_fuhao#Proper_noun>
+            //
+            //     "A phonetic alphabet used to transcribe Mandarin for
+            //      students of that language and for inputting Chinese,
+            //      now used primarily only in Taiwan."
+            //
+            correctionAdd("Bopomofo", "bopomofo");
+
+            correctionAdd("thailand", "Thailand");
+
+            // For example, the language
+            correctionAdd("thai", "Thai");
+
+            correctionAdd("Pattaya", "Pattaya, Thailand");
+
+            correctionAdd("malaysia", "Malaysia");
+
+            correctionAdd("malaysian", "Malaysian");
+            correctionAdd("Maylasian", "Malaysian"); // Misspelled in the "WarGames" movie...
+
+            correctionAdd("malay", "Malay");
+
+            correctionAdd("Singapure", "Singapore");
+            correctionAdd("singapore", "Singapore");
+            correctionAdd("Singapur", "Singapore");
+
+            correctionAdd("singaporean", "Singaporean");
+
+            correctionAdd("vietnam", "Vietnam");
+            correctionAdd("VietNam", "Vietnam");
+
+            correctionAdd("VietNamese", "Vietnamese");
+
+            correctionAdd("The Philippines", "the Philippines");
+            correctionAdd("Phillipines", "the Philippines");
+            correctionAdd("phillipines", "the Philippines");
+            correctionAdd("Philippinas", "the Philippines");
+            correctionAdd("Philippines", "the Philippines");
+            correctionAdd("Philipinas", "the Philippines");
+            correctionAdd("Philipines", "the Philippines");
+            correctionAdd("Pilippinas", "the Philippines");
+            correctionAdd("Pilippines", "the Philippines");
+            correctionAdd("Pilipinas", "the Philippines"); // Multiple typos and multiple misspellings
+            correctionAdd("Pilipines", "the Philippines");
+            correctionAdd("PH", "the Philippines");
+
+            correctionAdd("indonesia", "Indonesia");
+            correctionAdd("indunesia", "Indonesia");
+            correctionAdd("Indunesia", "Indonesia");
+            correctionAdd("Indonisia", "Indonesia");
+
+            correctionAdd("Indonisian", "Indonesian");
+            correctionAdd("indonesian", "Indonesian");
+            correctionAdd("Indonisean", "Indonesian");
+
+            correctionAdd("tagalog", "Tagalog");
+
+            // Note: "Papua New Guinea" is in an alternative word set
+            correctionAdd("New Ginea", "New Guinea");
+            correctionAdd("New Gunia", "New Guinea");
+
+            correctionAdd("Aussie land", "Australia");
+            correctionAdd("austrailia", "Australia");
+            correctionAdd("Australlia", "Australia");
+            correctionAdd("australia", "Australia");
+            correctionAdd("Aussie", "Australia");
+            correctionAdd("Ozzy", "Australia");
+            correctionAdd("aus", "Australia");
+            correctionAdd("Aus", "Australia");
+            correctionAdd("Oz", "Australia");
+            correctionAdd("OZ", "Australia");
+
+            correctionAdd("australian", "Australian");
+
+            correctionAdd("AUD", "Australian dollar");
+
+            // Australia
+            correctionAdd("melbourne", "Melbourne");
+
+            // Australia
+            correctionAdd("sydney", "Sydney");
+
+            // Australia
+            correctionAdd("adelaide", "Adelaide");
+
+            correctionAdd("the sheeps", "New Zealand");
+            correctionAdd("NZ", "New Zealand");
+            correctionAdd("nz", "New Zealand");
+
+            correctionAdd("Auckland, NZ", "Auckland, New Zealand");
+            correctionAdd("Auckland", "Auckland, New Zealand");
+
+            // New Zealand
+            correctionAdd("Stalinda", "Jacinda Ardern");
+
+            correctionAdd("air new zealand", "Air New Zealand");
+
+            correctionAdd("venezuela", "Venezuela");
+
+            correctionAdd("Maduro", "Nicolás Maduro");
+
+            // The South American country
+            correctionAdd("columbia", "Colombia");
+
+            correctionAdd("Bogota", "Bogotá");
+
+            correctionAdd("Perú", "Peru");
+
+            correctionAdd("ecuador", "Ecuador");
+
+            correctionAdd("Chili", "Chile");
+
+            correctionAdd("chilean", "Chilean");
+
+            correctionAdd("argentina", "Argentina");
+            correctionAdd("angentina", "Argentina");
+            correctionAdd("Argentine", "Argentina");
+
+            correctionAdd("Buenos aires", "Buenos Aires");
+
+            // Note: "Brazil" is in an alternative word set
+            correctionAdd("Braziallian", "Brazilian");
+            correctionAdd("Brazillian", "Brazilian");
+            correctionAdd("Brazzilian", "Brazilian");
+            correctionAdd("brazilian", "Brazilian");
+
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/ISO_4217#List_of_ISO_4217_currency_codes>
+            //
+            correctionAdd("Brazillian Real", "Brazilian real");
+            correctionAdd("brazillian real", "Brazilian real");
+            correctionAdd("Brazilian Real", "Brazilian real");
+            correctionAdd("BRL", "Brazilian real");
+            correctionAdd("R$", "Brazilian real");
+
+            correctionAdd("Sao Paulo", "São Paulo");
+
+            correctionAdd("mexico", "Mexico");
+
+            correctionAdd("mexican", "Mexican");
+
+            correctionAdd("mexicans", "Mexicans");
+
+            correctionAdd("GOM", "Gulf of Mexico");
+
+            correctionAdd("Peurto Rico", "Puerto Rico");
+            correctionAdd("Purto Rico", "Puerto Rico");
+
+            correctionAdd("Carabian", "The Caribbean");
+
+            correctionAdd("jamaican", "Jamaican");
+
+            correctionAdd("Bahamas", "The Bahamas");
+
+            // An island
+            correctionAdd("aruba", "Aruba");
+
+            correctionAdd("bonaire", "Bonaire");
+
+            // An island
+            correctionAdd("Curacao", "Curaçao");
+
+            // An island
+            correctionAdd("saba", "Saba");
+
+            // An island
+            correctionAdd("St. Eustatius", "Sint Eustatius");
+
+            // An island
+            correctionAdd("St. Maarten", "Sint Maarten");
+
+            // Cuba
+            correctionAdd("havana", "Havana");
+
+            correctionAdd("Canuckistan", "Canada");
+            correctionAdd("canada", "Canada");
+
+            correctionAdd("canadian", "Canadian");
+
+            correctionAdd("BC Canada", "British Columbia, Canada");
+
+            // A Canadian city
+            correctionAdd("quebec", "Quebec");
+
+            // A Canadian city
+            correctionAdd("montreal", "Montreal");
+
+            // Canadian city, relatively close to Seattle.
+            correctionAdd("vancouver", "Vancouver");
+
+            // A Canadian city
+            correctionAdd("toronto", "Toronto");
+
+            correctionAdd("Niagara", "Niagara Falls");
+
+            correctionAdd("pacific ocean", "Pacific Ocean");
+
+            correctionAdd("pacific", "Pacific");
+
+            correctionAdd("pacific islands", "Pacific Islands");
+
+            // A Pacific island
+            correctionAdd("tahiti", "Tahiti");
+
+            // In the Pacific Ocean
+            correctionAdd("Marianas trench", "Mariana Trench");
+
+            // Note: The mappings are not 100% correct; they
+            //       are only for general lookup (to capture
+            //       the various misspellings)
+            //
+            correctionAdd("Free-Masons", "Freemasonry");
+            correctionAdd("free masons", "Freemasonry");
+            correctionAdd("Freemasons", "Freemasonry");
+            correctionAdd("Masons", "Freemasonry");
+
+            correctionAdd("illuminati", "Illuminati");
+
+            correctionAdd("worshiping", "worshipping");
+
+            correctionAdd("athiest", "atheist");
+
+            correctionAdd("fait", "faith");
+
+            correctionAdd("Ba'hai", "Baháʼí");
+
+            // Note: "god" is in an alternative word set
+            correctionAdd("god-like", "godlike");
+
+            correctionAdd("unGodly", "ungodly");
+
+            correctionAdd("Goodness knows", "God knows");
+            correctionAdd("goodness knows", "God knows");
+
+            correctionAdd("god only knows", "God only knows");
+
+            correctionAdd("Religion", "religion");
+            correctionAdd("region", "religion");
+
+            correctionAdd("religous", "religious");
+
+            correctionAdd("Intelligent Design", "intelligent design");
+
+            correctionAdd("bible", "Bible");
+
+            correctionAdd("Biblical", "biblical");
+
+            correctionAdd("christianity", "Christianity");
+
+            correctionAdd("christian", "Christian");
+
+            // Related to Christianity (not millennials!)
+            correctionAdd("pre-millenialist", "premillennialist");
+
+            correctionAdd("jesus christ", "Jesus");
+            correctionAdd("Geezus", "Jesus");
+            correctionAdd("geezus", "Jesus");
+            correctionAdd("jesus", "Jesus");
+            correctionAdd("Jezus", "Jesus");
+            correctionAdd("jezus", "Jesus");
+
+            correctionAdd("geeze", "geez");
+            correctionAdd("jeez", "geez");
+            correctionAdd("geze", "geez");
+            correctionAdd("gez", "geez");
+            correctionAdd("jez", "geez");
+
+            correctionAdd("in Jesus' name", "in the name of Jesus");
+            correctionAdd("ITNOJ", "in the name of Jesus");
+
+            correctionAdd("Pontius Pilatus", "Pontius Pilate");
+
+            correctionAdd("good samaritan", "Good Samaritan");
+            correctionAdd("good Samaritan", "Good Samaritan");
+
+            correctionAdd("holy spirit", "Holy Spirit");
+            correctionAdd("Holy Ghost", "Holy Spirit");
+
+            correctionAdd("2nd commandment", "second commandment");
+
+            correctionAdd("sodom and gomorra", "Sodom and Gomorrah");
+            correctionAdd("Gomorrah", "Sodom and Gomorrah");
+            correctionAdd("gomorrah", "Sodom and Gomorrah");
+            correctionAdd("Gomorra", "Sodom and Gomorrah");
+            correctionAdd("gomorra", "Sodom and Gomorrah");
+            correctionAdd("Sodom", "Sodom and Gomorrah");
+            correctionAdd("sodom", "Sodom and Gomorrah");
+
+            correctionAdd("christmas", "Christmas");
+            correctionAdd("x-mas", "Christmas");
+            correctionAdd("X-mas", "Christmas");
+            correctionAdd("xmas", "Christmas");
+            correctionAdd("Xmas", "Christmas");
+
+            correctionAdd("santa clause", "Santa Claus");
+
+            correctionAdd("anti-christ", "Antichrist");
+
+            correctionAdd("Saint Peter", "St. Peter");
+            correctionAdd("St Peter", "St. Peter");
+
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/mediaeval#Adjective>
+            //
+            correctionAdd("Mediaeval", "medieval");
+            correctionAdd("mediaeval", "medieval");
+            correctionAdd("Midevil", "medieval");
+            correctionAdd("medieva", "medieval");
+            correctionAdd("medival", "medieval");
+
+            correctionAdd("detaikl", "detail");
+            correctionAdd("deatil", "detail");
+
+            correctionAdd("deatils", "details");
+            correctionAdd("Details", "details");
+            correctionAdd("Deatils", "details");
+            correctionAdd("detials", "details");
+            correctionAdd("datails", "details");
+            correctionAdd("Deails", "details");
+            correctionAdd("deails", "details");
+            correctionAdd("deets", "details");
+
+            correctionAdd("detailled", "detailed");
+            correctionAdd("detialed", "detailed");
+
+            correctionAdd("The devil is in the details", "the devil is in the details");
+
+            correctionAdd("devils advocate", "devil's advocate");
+
+            correctionAdd("Eaater", "Easter");
+            correctionAdd("easter", "Easter");
+
+            correctionAdd("Easter Egg", "Easter egg");
+            correctionAdd("easter egg", "Easter egg");
+
+            correctionAdd("Digital Easter Egg", "digital easter egg");
+
+            correctionAdd("protestant", "Protestant");
+
+            correctionAdd("protestantism", "Protestantism");
+
+            correctionAdd("lutheran", "Lutheran");
+
+            correctionAdd("catholicism", "Catholicism");
+
+            correctionAdd("catholic", "Catholic");
+
+            correctionAdd("catholic church", "Catholic Church");
+
+            correctionAdd("buddhism", "Buddhism");
+
+            correctionAdd("buddhist", "Buddhist");
+
+            correctionAdd("buddha", "the Buddha");
+
+            correctionAdd("Zen Buddist", "Zen Buddhist");
+
+            // As in Zen Buddhism
+            correctionAdd("zenlike", "Zenlike");
+
+            correctionAdd("zen cart", "Zen Cart");
+            correctionAdd("ZenCart", "Zen Cart");
+            correctionAdd("zenCart", "Zen Cart");
+
+            correctionAdd("Laminas Project", "Zend Framework");
+            correctionAdd("zend framework", "Zend Framework");
+            correctionAdd("zend", "Zend Framework");
+            correctionAdd("Zend", "Zend Framework");
+            correctionAdd("ZEND", "Zend Framework");
+            correctionAdd("zf", "Zend Framework");
+            correctionAdd("ZF", "Zend Framework");
+
+            correctionAdd("zend studio", "Zend Studio");
+            correctionAdd("ZendStudio", "Zend Studio");
+            correctionAdd("ZendSudio", "Zend Studio");
+            correctionAdd("Zend IDE", "Zend Studio");
+            correctionAdd("ZS", "Zend Studio");
+
+            correctionAdd("jew", "Jew");
+
+            correctionAdd("anti-semitic", "anti-Semitic");
+
+            correctionAdd("anti-semitism", "anti-Semitism");
+            correctionAdd("antisemtisim", "anti-Semitism");
+
+            correctionAdd("anti-semite", "anti-Semite");
+
+            // Hidden anti-Semitism
+            correctionAdd("gloebbelist", "globalist");
+
+            correctionAdd("Judiadism", "Judaism");
+
+            correctionAdd("torah", "Torah");
+
+            correctionAdd("sefer torah", "Sefer Torah");
+
+            // Judaism
+            correctionAdd("mesillat yesharim", "Mesillat Yesharim");
+            correctionAdd("Mesillas Yeshorim", "Mesillat Yesharim");
+            correctionAdd("messilas yeshorim", "Mesillat Yesharim");
+
+            // Judaism
+            correctionAdd("tanya", "Tanya");
+
+            // Judaism
+            correctionAdd("shacharit", "Shacharit");
+
+            // Judaism
+            correctionAdd("Mikveh", "mikveh");
+
+            // Judaism
+            correctionAdd("Yom kippur", "Yom Kippur");
+
+            // Not to be confused with Gomorrah
+            correctionAdd("gemarah", "Gemara");
+            correctionAdd("Gemarah", "Gemara");
+            correctionAdd("Gemore", "Gemara");
+
+            // Judaism
+            correctionAdd("ariya hidayat", "Ariya Hidayat");
+
+            correctionAdd("sephardic", "Sephardic");
+
+            correctionAdd("juveliery", "jewellery");
+            correctionAdd("jewelry", "jewellery");
+
+            correctionAdd("aryan", "Aryan");
+
+            correctionAdd("quran", "Qur'an");
+            correctionAdd("Quran", "Qur'an");
+
+            correctionAdd("islam", "Islam");
+
+            correctionAdd("muslim", "Muslim");
+
+            correctionAdd("islamophobic", "Islamophobic");
+
+            correctionAdd("shia", "Shia");
+
+            correctionAdd("sunni", "Sunni");
+
+            correctionAdd("ITNOA", "in the name of Allah");
+            correctionAdd("In The Name Of Allah", "in the name of Allah");
+            correctionAdd("In the Name of Allah", "in the name of Allah");
+
+            correctionAdd("As-salāmu ʿalaykum", "As-salamu alaykum");
+            correctionAdd("As-Salamu Alaykum", "As-salamu alaykum");
+            correctionAdd("Assalamu ‘Alaykum", "As-salamu alaykum");
+            correctionAdd("alaykum as salaam", "As-salamu alaykum");
+            correctionAdd("as-salaam alaykum", "As-salamu alaykum");
+            correctionAdd("assalaamu alaykum", "As-salamu alaykum");
+            correctionAdd("As-salamu alaikum", "As-salamu alaykum");
+            correctionAdd("Assalamu alaykum", "As-salamu alaykum");
+            correctionAdd("Assalamu Alaikum", "As-salamu alaykum");
+            correctionAdd("Assalamu Alaykum", "As-salamu alaykum");
+            correctionAdd("assalamu alaykum", "As-salamu alaykum");
+            correctionAdd("salamun alaykum", "As-salamu alaykum");
+            correctionAdd("salam alaykum", "As-salamu alaykum");
+            correctionAdd("salem alaykùm", "As-salamu alaykum");
+            correctionAdd("salam 3lekom", "As-salamu alaykum");
+            correctionAdd("alaykum", "As-salamu alaykum");
+            correctionAdd("salam", "As-salamu alaykum");
+
+            correctionAdd("allah", "Allah");
+
+            correctionAdd("sufism", "Sufism");
+
+            correctionAdd("Al quaeda", "Al-Qaeda");
+            correctionAdd("Al Quaeda", "Al-Qaeda");
+            correctionAdd("Al Quada", "Al-Qaeda");
+            correctionAdd("Al queda", "Al-Qaeda");
+            correctionAdd("Al Queda", "Al-Qaeda");
+            correctionAdd("Alquaeda", "Al-Qaeda");
+
+            correctionAdd("Scientilogy", "Scientology");
+
+            correctionAdd("roman catholic", "Roman Catholic");
+
+            correctionAdd("roman", "Roman");
+
+            correctionAdd("roman empire", "Roman Empire");
+
+            correctionAdd("roman numerals", "Roman numerals");
+
+            correctionAdd("Romani people", "Roma");
+
+            correctionAdd("Szinti", "Sinti");
+
+            // A media
+            correctionAdd("Maily Dale", "Daily Mail");
+
+            // A media
+            correctionAdd("financial times", "Financial Times");
+
+            // A media
+            correctionAdd("christian chronicle", "Christian Chronicle");
+
+            // A media
+            correctionAdd("christianity today", "Christianity Today");
+
+            correctionAdd("democrasy", "democracy");
+            correctionAdd("democrazy", "democracy");
+            correctionAdd("democacy", "democracy");
+
+            correctionAdd("democraticly", "democratically");
+
+            correctionAdd("Democratic", "democratic");
+
+            correctionAdd("Liberal democracy", "liberal democracy");
+
+            correctionAdd("parti", "party");
+
+            correctionAdd("partizan", "partisan");
+
+            correctionAdd("bi-partisan", "bipartisan");
+            correctionAdd("bi partisan", "bipartisan");
+
+            correctionAdd("conservartive", "conservative");
+            correctionAdd("Conservertive", "conservative");
+            correctionAdd("conservertive", "conservative");
+
+            // Music
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/File:2_Star_Spangled_Banner.png>
+            //
+            correctionAdd("banner", "The Star-Spangled Banner");
+
+            correctionAdd("Federal", "federal");
+
+            correctionAdd("Federally", "federally");
+
+            correctionAdd("Fed's", "feds");
+
+            // United States currency
+            correctionAdd("US Dollars", "US dollar");
+            correctionAdd("US Dollar", "US dollar");
+            correctionAdd("USD", "US dollar");
+
+            // The passport-related thing
+            correctionAdd("Visa", "visa");
+            correctionAdd("VISA", "visa");
+
+            correctionAdd("ESTA", "Electronic System for Travel Authorization");
+
+            correctionAdd("VWP", "Visa Waiver Program");
+
+            // A type of visa in the United States.
+            correctionAdd("H1(b)", "H-1B visa");
+            correctionAdd("H1-B", "H-1B visa");
+            correctionAdd("H-1B", "H-1B visa");
+            correctionAdd("H1B", "H-1B visa");
+            correctionAdd("h1b", "H-1B visa");
+            correctionAdd("H1b", "H-1B visa");
+
+            // A type of visa in the United States.
+            correctionAdd("H-2B", "H-2B visa");
+            correctionAdd("H2B", "H-2B visa");
+
+            // A type of visa in the United States.
+            correctionAdd("B-1", "B-1 visa");
+            correctionAdd("B1", "B-1 visa");
+
+            // A type of visa in the United States.
+            correctionAdd("B2 visa", "B-2 visa");
+            correctionAdd("B-2", "B-2 visa");
+            correctionAdd("B2", "B-2 visa");
+
+            // A type of visa in the United States.
+            correctionAdd("F1 visa", "F-1 visa");
+
+            // A type of visa in the United States.
+            correctionAdd("F2 visa", "F-2 visa");
+
+            // A type of visa in the United States.
+            correctionAdd("J1 visa", "J-1 visa");
+
+            // A type of visa in the United States.
+            correctionAdd("H-4", "H-4 visa");
+            correctionAdd("H4", "H-4 visa");
+
+            // A United States college-level course and examination
+            correctionAdd("Advanced Placement United States History", "AP United States History");
+            correctionAdd("APUSH", "AP United States History");
+
+            // United States
+            correctionAdd("ofac", "OFAC");
+
+            // United States
+            correctionAdd("TAA", "Trade Agreements Act of 1979");
+
+            correctionAdd("noreaster", "nor'easter");
+
+            // A United States state
+            correctionAdd("alaska", "Alaska, United States");
+            correctionAdd("Alaska", "Alaska, United States");
+            correctionAdd("AK", "Alaska, United States");
+
+            // A United States state
+            correctionAdd("Minnesota", "Minnesota, United States");
+            correctionAdd("MN", "Minnesota, United States");
+
+            // A United States state
+            correctionAdd("michigan", "Michigan, United States");
+            correctionAdd("Michigan", "Michigan, United States");
+
+            // Note: "Kansas" is in an alternative word set
+            correctionAdd("aren't in kansas anymore", "aren't in Kansas anymore");
+
+            // A United States state
+            correctionAdd("Colerado", "Colorado, United States");
+            correctionAdd("Colorado", "Colorado, United States");
+
+            // A United States state
+            correctionAdd("Arizona", "Arizona, United States");
+            correctionAdd("AZ", "Arizona, United States");
+
+            correctionAdd("grand canyon", "Grand Canyon");
+            correctionAdd("grandcanyon", "Grand Canyon");
+            correctionAdd("the Canyon", "Grand Canyon");
+
+            // A United States state
+            correctionAdd("New Mexico", "New Mexico, United States");
+            correctionAdd("NM", "New Mexico, United States");
+
+            // In Nevada
+            //
+            // Note: "Nevada, United States" is in an alternative word set
+            correctionAdd("Las Vegas", "Las Vegas, Nevada, United States");
+            correctionAdd("Vegas", "Las Vegas, Nevada, United States");
+
+            // A United States state
+            correctionAdd("California", "California, United States");
+            correctionAdd("Cali", "California, United States");
+
+            correctionAdd("death valley", "Death Valley");
+            correctionAdd("Daeth Valley", "Death Valley"); // A true typo
+
+            correctionAdd("SoCal", "Southern California");
+            correctionAdd("socal", "Southern California");
+
+            correctionAdd("silicone valley", "Silicon Valley");
+            correctionAdd("Silicone valley", "Silicon Valley");
+            correctionAdd("Silicone Valley", "Silicon Valley");
+            correctionAdd("Silican Valley", "Silicon Valley");
+            correctionAdd("silicon valley", "Silicon Valley");
+            correctionAdd("Silicon valley", "Silicon Valley");
+            correctionAdd("Silicon Vallay", "Silicon Valley");
+            correctionAdd("The Valley", "Silicon Valley");
+
+            correctionAdd("bay area", "Bay Area");
+            correctionAdd("Bay area", "Bay Area");
+
+            correctionAdd("The San Andreas Fault", "San Andreas Fault");
+            correctionAdd("San Andreas fault", "San Andreas Fault");
+
+            correctionAdd("Caltechc", "California Institute of Technology");
+            correctionAdd("Caltech", "California Institute of Technology");
+            correctionAdd("caltech", "California Institute of Technology");
+
+            correctionAdd("UC Berkeley", "University of California, Berkeley");
+            correctionAdd("Berekeley", "University of California, Berkeley");
+            correctionAdd("Berkeley", "University of California, Berkeley");
+            correctionAdd("Cal", "University of California, Berkeley");
+
+            // A song, with many interpretations.
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=09839DpTctU>
+            //
+            correctionAdd("hotel california", "Hotel California");
+
+            // A United States state
+            correctionAdd("Hawaii", "Hawaii, United States");
+            correctionAdd("Hawai", "Hawaii, United States");
+
+            // A United States state
+            correctionAdd("Texas", "Texas, United States");
+            correctionAdd("texas", "Texas, United States");
+
+            // Texas
+            correctionAdd("Abbott", "Greg Abbott");
+            correctionAdd("Greg", "Greg Abbott");
+
+            // A United States state
+            correctionAdd("alabama", "Alabama, United States");
+            correctionAdd("Alabama", "Alabama, United States");
+
+            // A United States state
+            correctionAdd("wisconsin", "Wisconsin, United States");
+            correctionAdd("Wisconsin", "Wisconsin, United States");
+            correctionAdd("WI", "Wisconsin, United States");
+
+            // A United States state
+            correctionAdd("kentucky", "Kentucky, United States");
+            correctionAdd("Kentucky", "Kentucky, United States");
+            correctionAdd("KY", "Kentucky, United States");
+
+            // In Kentucky...
+            correctionAdd("mammoth cave", "Mammoth Cave");
+
+            // A United States state
+            correctionAdd("louisiana", "Louisiana, United States");
+            correctionAdd("Louisiana", "Louisiana, United States");
+
+            // A United States state
+            correctionAdd("oklahoma", "Oklahoma, United States");
+            correctionAdd("Oklahoma", "Oklahoma, United States");
+
+            // A United States state
+            correctionAdd("south carolina", "South Carolina, United States");
+            correctionAdd("South Carolina", "South Carolina, United States");
+
+            // A United States state
+            correctionAdd("North Carolina", "North Carolina, United States");
+            correctionAdd("NC", "North Carolina, United States");
+
+            // A United States state
+            correctionAdd("West Vergenia", "West Virginia, United States");
+            correctionAdd("West Verginia", "West Virginia, United States");
+            correctionAdd("West Virginia", "West Virginia, United States");
+            correctionAdd("WV", "West Virginia, United States");
+
+            // A United States state
+            correctionAdd("Tennessee", "Tennessee, United States");
+            correctionAdd("TN", "Tennessee, United States");
+
+            // A United States city
+            correctionAdd("nashville", "Nashville");
+
+            // A United States state
+            correctionAdd("vermont", "Vermont, United States");
+            correctionAdd("Vermont", "Vermont, United States");
+
+            // A United States state
+            correctionAdd("florida", "Florida, United States");
+            correctionAdd("Florida", "Florida, United States");
+            correctionAdd("Fla", "Florida, United States");
+
+            // A United States state
+            correctionAdd("Mississippi", "Mississippi, United States");
+            correctionAdd("Missisippi", "Mississippi, United States");
+            correctionAdd("missisippi", "Mississippi, United States");
+
+            // A United States city
+            correctionAdd("New York City", "New York");
+            correctionAdd("New York city", "New York");
+            correctionAdd("NEW YORK", "New York");
+            correctionAdd("new york", "New York");
+            correctionAdd("NewYork", "New York");
+            correctionAdd("NYC", "New York");
+
+            correctionAdd("9/11", "September 11 attacks");
+            correctionAdd("9/11 attacks", "September 11 attacks");
+
+            // Stock market related
+            correctionAdd("wall street", "Wall Street");
+
+            // Stock market related
+            correctionAdd("NYSE", "New York Stock Exchange");
+
+            correctionAdd("goldman sachs", "Goldman Sachs");
+
+            correctionAdd("BofA", "Bank of America");
+            correctionAdd("BoA", "Bank of America");
+            correctionAdd("BAC", "Bank of America");
+
+            // An actual (physical) lake... United States / Canada
+            correctionAdd("lake Erie", "Lake Erie");
+
+            // United States / Canada
+            correctionAdd("Great lakes", "Great Lakes");
+
+            // United States city
+            correctionAdd("detroit", "Detroit");
+
+            // United States city, relatively close to Vancouver.
+            correctionAdd("seattle", "Seattle");
+
+            // United States city
+            correctionAdd("san diego", "San Diego");
+
+            // United States city
+            correctionAdd("washington", "Washington");
+
+            // United States city
+            correctionAdd("District of Columbia", "Washington, D.C.");
+            correctionAdd("Washington D.C", "Washington, D.C.");
+            correctionAdd("Wash DC", "Washington, D.C.");
+            correctionAdd("Wash", "Washington, D.C.");
+            correctionAdd("D.C", "Washington, D.C.");
+
+            // United States city. A synonym of "Washington, D.C."?
+            // Or a superset?
+            correctionAdd("National Capital Region", "Washington metropolitan area");
+            correctionAdd("DMV", "Washington metropolitan area"); // District Maryland Virginia.
+
+            // United States city
+            correctionAdd("Philly", "Philadelphia");
+
+            // United States city
+            correctionAdd("boston", "Boston");
+
+            // United States city
+            correctionAdd("NOLA", "New Orleans");
+
+            // United States city
+            correctionAdd("houston", "Houston");
+
+            // United States
+            correctionAdd("Gitmo", "Guantanamo Bay Naval Base");
+            correctionAdd("GTMO", "Guantanamo Bay Naval Base");
+
+            // United States
+            correctionAdd("Ohio State", "Ohio State University");
+
+            // United States
+            correctionAdd("Penn State", "Pennsylvania State University");
+            correctionAdd("UPenn", "Pennsylvania State University");
+            correctionAdd("Penn", "Pennsylvania State University");
+
+            // United States
+            correctionAdd("Carnegie Mellon", "Carnegie Mellon University");
+            correctionAdd("CMU", "Carnegie Mellon University");
+
+            correctionAdd("ivy league", "Ivy League");
+            correctionAdd("Ivey", "Ivy League");
+
+            correctionAdd("princeton", "Princeton");
+
+            // United States
+            correctionAdd("Harvard", "Harvard University");
+
+            correctionAdd("harvardian", "Harvardian");
+
+            // United States
+            correctionAdd("Tufts", "Tufts University");
+
+            // United States
+            correctionAdd("Yale", "Yale University");
+
+            // United States
+            correctionAdd("University of Illinois", "University of Illinois Urbana-Champaign");
+            correctionAdd("U Illinois", "University of Illinois Urbana-Champaign");
+
+            // United States
+            correctionAdd("Cornell university", "Cornell University");
+            correctionAdd("Cornell", "Cornell University");
+            correctionAdd("cornell", "Cornell University");
+
+            // United States newspaper
+            correctionAdd("washington post", "The Washington Post");
+            correctionAdd("the Post", "The Washington Post");
+            correctionAdd("WaPo", "The Washington Post");
+
+            // United States newspaper
+            correctionAdd("New York Times", "The New York Times");
+            correctionAdd("NY Times", "The New York Times");
+            correctionAdd("NYTimes", "The New York Times");
+            correctionAdd("NYtimes", "The New York Times");
+            correctionAdd("NYT-", "The New York Times");
+            correctionAdd("NYT", "The New York Times");
+
+            correctionAdd("forbes", "Forbes");
+
+            correctionAdd("DOJ", "United States Department of Justice");
+            correctionAdd("DoJ", "United States Department of Justice");
+
+            correctionAdd("USDA", "United States Department of Agriculture");
+
+            correctionAdd("United States Department of Defence", "United States Department of Defense");
+            correctionAdd("departement of defence", "United States Department of Defense");
+            correctionAdd("DOD", "United States Department of Defense");
+            correctionAdd("DoD", "United States Department of Defense");
+
+            correctionAdd("Department Of Homelander Security", "United States Department of Homeland Security");
+            correctionAdd("Department of Homeland Security", "United States Department of Homeland Security");
+
+            // United States
+            correctionAdd("NSA", "National Security Agency");
+            correctionAdd("nsa", "National Security Agency");
+
+            correctionAdd("fbi", "FBI");
+
+            correctionAdd("chairforce", "United States Air Force");
+            correctionAdd("Air Force", "United States Air Force");
+
+            correctionAdd("the Congress", "United States Congress");
+
+            correctionAdd("CBP", "United States Customs and Border Protection");
+
+            correctionAdd("AG", "attorney general");
+
+            correctionAdd("ammendment", "amendment");
+
+            // United States
+            correctionAdd("first amendment", "First Amendment");
+
+            // United States
+            correctionAdd("fifth amendment", "Fifth Amendment");
+
+            // United States
+            correctionAdd("sixth amendment", "Sixth Amendment");
+
+            // United States
+            correctionAdd("fourth amendment", "Fourth Amendment");
+
+            // United States
+            correctionAdd("third amendment", "Third Amendment");
+
+            // United States politics
+            correctionAdd("balance and checks", "checks and balances");
+
+            // United States politics
+            correctionAdd("Biden", "Joe Biden");
+            correctionAdd("biden", "Joe Biden");
+
+            // United States politics
+            correctionAdd("DEMS", "Democrats");
+            correctionAdd("dems", "Democrats");
+
+            // United States politics
+            correctionAdd("republican", "Republican");
+
+            correctionAdd("the elephant party", "Republican Party");
+            correctionAdd("republican party", "Republican Party");
+            correctionAdd("GOP", "Republican Party");
+
+            // United States politics
+            correctionAdd("Bush", "George W. Bush");
+
+            // United States politics
+            //
+            // Alternative URL: <https://politics.stackexchange.com/questions/77801/what-do-woke-and-cancel-groups-call-themselves>
+            correctionAdd("Social Justice Warrior", "SJW");
+            correctionAdd("social justice warrior", "SJW");
+            correctionAdd("sjw", "SJW");
+            correctionAdd("swj", "SJW");
+
+            // United States politics
+            //
+            // Alternative URL: <https://politics.stackexchange.com/questions/77801/what-do-woke-and-cancel-groups-call-themselves>
+            correctionAdd("bible thumper", "Bible thumper");
+
+            // United States politics
+            //
+            // Alternative URL: <https://politics.stackexchange.com/questions/77801/what-do-woke-and-cancel-groups-call-themselves>
+            correctionAdd("gun nut", "firearms enthusiast");
+
+            // United States politics
+            //
+            // Alternative URL: <https://politics.stackexchange.com/questions/77801/what-do-woke-and-cancel-groups-call-themselves>
+            correctionAdd("Welfare queen", "welfare queen");
+
+            // United States politics
+            correctionAdd("maga", "Make America Great Again");
+            correctionAdd("MAGA", "Make America Great Again");
+
+            // United States politics
+            correctionAdd("state of the union", "State of the Union Address");
+            correctionAdd("SOTU", "State of the Union Address");
+
+            // A United States pension scheme
+            correctionAdd("401k", "401(k)");
+            correctionAdd("41k", "401(k)");
+
+            correctionAdd("Url Fetch Service", "URL Fetch Service");
+
+            // United States politics
+            correctionAdd("Lincoln", "Abraham Lincoln");
+            correctionAdd("Abe", "Abraham Lincoln");
+
+            correctionAdd("Ben Franklin", "Benjamin Franklin");
+            correctionAdd("Franklin", "Benjamin Franklin");
+
+            correctionAdd("muders", "murders");
+
+            correctionAdd("george floyd", "George Floyd");
+
+            correctionAdd("karen", "Karen");
+
+            correctionAdd("Q-Anon", "QAnon");
+            correctionAdd("qanon", "QAnon");
 
             correctionAdd("cyrstalline", "crystalline");
 
@@ -26526,100 +29064,6 @@ namespace OverflowHelper.core
             correctionAdd("Y2038", "year 2038 problem");
             correctionAdd("Y2K38", "year 2038 problem");
 
-            correctionAdd("all off", "all of");
-
-            // Idiomatic
-            correctionAdd("allgood", "all good");
-
-            correctionAdd("all of a suddent", "all of a sudden");
-            correctionAdd("all-of-a-sudden", "all of a sudden");
-
-            correctionAdd("all those said", "all that said");
-
-            correctionAdd("all is said and done", "when all is said and done");
-
-            // Idiomatic
-            correctionAdd("all over the places", "all over the place");
-
-            // Idiomatic. Chiefly Southern US
-            correctionAdd("y'all", "all of you");
-            correctionAdd("ya'll", "all of you");
-            correctionAdd("yall", "all of you");
-
-            correctionAdd("H3ll", "hell");
-
-            correctionAdd("cold day in hell", "when Hell freezes over");
-
-            correctionAdd("hell of", "a hell of");
-            correctionAdd("hella", "a hell of");
-            correctionAdd("Hella", "a hell of");
-
-            correctionAdd("helluva", "a hell of a");
-
-            correctionAdd("hell lot of", "a hell of a lot of");
-
-            correctionAdd("hell bent", "hell-bent");
-
-            // Idiomatic
-            correctionAdd("All Hell Breaks Loose", "all hell breaks loose");
-
-            // Idiomatic
-            correctionAdd("all hell breaking lose", "all hell breaking loose");
-
-            // Idiomatic
-            correctionAdd("all hell broke lose", "all hell broke loose");
-
-            // Sort of Australian slang. Originally a Harold Holt quote.
-            //
-            // Place, etc.: Washington, 1966-06-30. LBJ = US president Lyndon Baines Johnson.
-            //
-            // Alternative URLs:
-            //
-            //  <https://insidestory.org.au/harold-holt-and-the-art-of-personal-diplomacy/>
-            //  <https://en.wikipedia.org/wiki/Harold_Holt>
-            //  <https://www.youtube.com/watch?v=F2gX-R1k7MM&t=8m26s>
-            //    A sample
-            //
-            correctionAdd("All the way with LBJ", "all the way with LBJ");
-
-            correctionAdd("holyer", "holier");
-
-            // Idiomatic. Dated.
-            //
-            // Alternative URL:
-            //
-            //   <https://www.phrases.org.uk/meanings/holy-moly>
-            //
-            correctionAdd("holy moly", "holy moley");
-            correctionAdd("Holy moly", "holy moley");
-
-            correctionAdd("on Earth", "on earth");
-
-            correctionAdd("chicken coup", "chicken coop");
-
-            // Australian(?)
-            correctionAdd("Winner, winner, chicken dinner", "winner, winner, chicken dinner");
-            correctionAdd("Winner winner chicken dinner", "winner, winner, chicken dinner");
-            correctionAdd("winner winner chicken dinner", "winner, winner, chicken dinner");
-            correctionAdd("Winner winner", "winner, winner, chicken dinner");
-            correctionAdd("winner winner", "winner, winner, chicken dinner");
-
-            // Australian slang?
-            correctionAdd("fair suck of the sauce bottle", "fair suck of the sav");
-            correctionAdd("Suck of the zap", "fair suck of the sav");
-
-            // Idiomatic
-            // Australian slang?
-            correctionAdd("that is all she wrote", "that's all she wrote");
-
-            // Australian slang?
-            correctionAdd("bobby dazzler", "bobby-dazzler");
-            correctionAdd("Bobby Dazzler", "bobby-dazzler");
-            correctionAdd("bobby desla", "bobby-dazzler");
-
-            // Australian slang?
-            correctionAdd("No worries", "no worries");
-
             correctionAdd("challending", "challenging");
             correctionAdd("challanging", "challenging");
             correctionAdd("Challending", "challenging");
@@ -37887,26 +40331,6 @@ namespace OverflowHelper.core
             correctionAdd("un-optimal", "nonoptimal");
             correctionAdd("unoptimal", "nonoptimal");
 
-            // Note: "couple" is in an alternative word set
-            //
-            correctionAdd("Coupled", "coupled");
-
-            correctionAdd("a copuple of", "a couple of");
-            correctionAdd("A couple of", "a couple of");
-            correctionAdd("couples of", "a couple of");
-            correctionAdd("a copuple", "a couple of");
-            correctionAdd("couple of", "a couple of");
-            correctionAdd("a couple", "a couple of");
-            correctionAdd("coupe of", "a couple of");
-            correctionAdd("a coupla", "a couple of");
-            correctionAdd("coupla", "a couple of");
-            correctionAdd("couple", "a couple of");
-
-            correctionAdd("a couple of thousands", "a couple of thousand");
-            correctionAdd("couple of thousands", "a couple of thousand");
-            correctionAdd("couple thousands", "a couple of thousand");
-            correctionAdd("couple thousand", "a couple of thousand");
-
             correctionAdd("r*pe", "rape");
             correctionAdd("R*PE", "rape");
 
@@ -38222,6 +40646,7 @@ namespace OverflowHelper.core
             correctionAdd("ISM", "ISM radio band");
 
             correctionAdd("Mobile", "mobile");
+            correctionAdd("m0bile", "mobile");
             correctionAdd("moby", "mobile");
 
             correctionAdd("cell phone", "mobile phone");
@@ -48051,6 +50476,15 @@ namespace OverflowHelper.core
             //     A list of RP2040-based keyboard controller boards
             //
             //     Includes the section "RP2040 Pro Micro-shaped boards"
+            //
+            //   <https://github.com/qmk/qmk_firmware/blob/master/docs/compatible_microcontrollers.md#atmel-avr>
+            //     Pro Micro implies ATmega32U4
+            //
+            //     For the JSON file:
+            //
+            //       <https://docs.qmk.fm/reference_info_json#hardware-configuration>
+            //         Identifier 'promicro' used in QMK.
+            //         Near "development_board"
             //
             correctionAdd("Arduino Pro Micro", "Pro Micro");
             correctionAdd("Arduino pro micro", "Pro Micro");
@@ -70728,24 +73162,6 @@ namespace OverflowHelper.core
 
             correctionAdd("data-loss", "data loss");
 
-            correctionAdd("Loosened up", "loosened up");
-
-            correctionAdd("lose end", "loose end");
-
-            correctionAdd("losely", "loosely");
-            correctionAdd("loosly", "loosely");
-
-            correctionAdd("loosely goosy", "loosey-goosey");
-            correctionAdd("loosey goosey", "loosey-goosey");
-            correctionAdd("loosi goosy", "loosey-goosey");
-            correctionAdd("loosy-goosy", "loosey-goosey");
-
-            correctionAdd("looser coupling", "loose coupling");
-
-            correctionAdd("loosely-coupled", "loosely coupled");
-
-            correctionAdd("de-coupling", "decoupling");
-
             correctionAdd("Advanced System Care", "Advanced SystemCare");
 
             // Alternative URL: <https://wiki.archlinux.org/title/Vim/YouCompleteMe>
@@ -74364,2411 +76780,6 @@ namespace OverflowHelper.core
 
             correctionAdd("plc", "PLC");
 
-            correctionAdd("Transverse", "transverse");
-
-            correctionAdd("TEM", "transverse electromagnetic");
-
-            correctionAdd("Transverse Mercator Projection", "transverse Mercator projection");
-
-            correctionAdd("Mercator Projection", "Mercator projection");
-
-            correctionAdd("north-west", "northwest");
-            correctionAdd("nw", "northwest");
-            correctionAdd("NW", "northwest");
-
-            correctionAdd("Sothern", "Southern");
-            correctionAdd("Souther", "Southern");
-            correctionAdd("souther", "Southern");
-
-            correctionAdd("East", "east");
-            correctionAdd("e", "east");
-            correctionAdd("E", "east");
-
-            correctionAdd("hemissphere", "hemisphere");
-            correctionAdd("Hemisphere", "hemisphere");
-
-            correctionAdd("southern hemisphere", "Southern Hemisphere");
-            correctionAdd("Southern hemisphere", "Southern Hemisphere");
-
-            correctionAdd("northern hemisphere", "Northern Hemisphere");
-            correctionAdd("Northern hemisphere", "Northern Hemisphere");
-            correctionAdd("Northern Hemiphere", "Northern Hemisphere");
-            correctionAdd("nortern hemisphere", "Northern Hemisphere");
-
-            correctionAdd("Equator", "equator");
-
-            correctionAdd("Equatorial", "equatorial");
-
-            correctionAdd("Sea", "sea");
-
-            correctionAdd("word domination", "world domination");
-
-            correctionAdd("ROW", "rest of world");
-            correctionAdd("RoW", "rest of world");
-
-            correctionAdd("first world", "First World");
-            correctionAdd("1st world", "First World");
-
-            correctionAdd("third world", "Third World");
-            correctionAdd("3rd World", "Third World");
-            correctionAdd("3rd world", "Third World");
-
-            correctionAdd("Western World", "Western world");
-            correctionAdd("western world", "Western world");
-
-            correctionAdd("Occidentalist", "occidentalist");
-
-            correctionAdd("Europa (moon)", "Europe"); // For the cross-reference. Is correct for Jupiter's moon Europa...
-            correctionAdd("europe", "Europe");
-            correctionAdd("europ", "Europe");
-
-            correctionAdd("european", "European");
-            correctionAdd("europen", "European");
-            correctionAdd("Europan", "European"); // For the cross-reference. Is correct for Jupiter's moon Europa...
-
-            correctionAdd("the continent", "Continental Europe");
-
-            correctionAdd("eu", "EU");
-            correctionAdd("Eu", "EU");
-
-            // A duplicate of "EU"
-            correctionAdd("european union", "European Union");
-
-            correctionAdd("Euro", "euro");
-            correctionAdd("EURO", "euro");
-            correctionAdd("Euror", "euro");
-
-            correctionAdd("eur", "EUR");
-            correctionAdd("€", "EUR");
-
-            correctionAdd("euro cent", "Eurocent");
-            correctionAdd("eurocent", "Eurocent");
-
-            correctionAdd("wto", "WTO");
-
-            correctionAdd("Norrdic", "Nordic");
-            correctionAdd("nordic", "Nordic");
-
-            correctionAdd("viking", "Viking");
-
-            correctionAdd("valhalla", "Valhalla");
-            correctionAdd("Walhalla", "Valhalla");
-            correctionAdd("walhalla", "Valhalla");
-
-            correctionAdd("Scandinavianb", "Scandinavian");
-            correctionAdd("scandinavian", "Scandinavian");
-            correctionAdd("Scandanavian", "Scandinavian");
-            correctionAdd("scandanavian", "Scandinavian");
-            correctionAdd("Scandinvian", "Scandinavian");
-            correctionAdd("scandic", "Scandinavian");
-
-            correctionAdd("western union", "Western Union");
-
-            correctionAdd("western", "Western");
-            correctionAdd("Weatern", "Western"); // A true typo
-
-            correctionAdd("Westerner", "westerner");
-
-            correctionAdd("western european", "Western European");
-            correctionAdd("western European", "Western European");
-
-            correctionAdd("Easystore", "Western Digital Easystore");
-
-            correctionAdd("Estern Europe", "Eastern Europe");
-            correctionAdd("East Europe", "Eastern Europe");
-
-            correctionAdd("eastern european", "Eastern European");
-
-            correctionAdd("Easting", "easting");
-
-            correctionAdd("eurasia", "Eurasia");
-
-            correctionAdd("EMEA", "Europe, the Middle East and Africa");
-
-            correctionAdd("APAC", "Asia-Pacific");
-
-            correctionAdd("asia", "Asia");
-
-            correctionAdd("asian", "Asian");
-            correctionAdd("asain", "Asian");
-
-            correctionAdd("indian subcontinent", "Indian subcontinent");
-
-            correctionAdd("south-asia", "South Asia");
-
-            correctionAdd("south Asian", "South Asian");
-
-            correctionAdd("South East Asia", "Southeast Asia");
-            correctionAdd("South-East Asia", "Southeast Asia");
-            correctionAdd("SE Asia", "Southeast Asia");
-            correctionAdd("SEA", "Southeast Asia");
-
-            correctionAdd("east-asia", "East Asia");
-
-            correctionAdd("east-asian", "East Asian");
-
-            correctionAdd("far east", "Far East");
-
-            correctionAdd("middle east", "Middle East");
-
-            correctionAdd("middle eastern", "Middle Eastern");
-
-            correctionAdd("Afeica", "Africa");
-
-            correctionAdd("african", "African");
-
-            correctionAdd("north Africans", "North Africans");
-
-            correctionAdd("Dinar", "dinar");
-
-            correctionAdd("egyptian", "Egyptian");
-
-            correctionAdd("el Alamein", "El Alamein");
-
-            correctionAdd("tunisian", "Tunisian");
-            correctionAdd("tunesian", "Tunisian");
-            correctionAdd("Tunesian", "Tunisian");
-
-            correctionAdd("Lybyan", "Libyan");
-            correctionAdd("Libian", "Libyan");
-            correctionAdd("Lybian", "Libyan");
-
-            correctionAdd("Gaddafi", "Muammar Gaddafi");
-
-            correctionAdd("morocco", "Morocco");
-
-            correctionAdd("Timbuctoo", "Timbuktu");
-
-            correctionAdd("Ethiopic", "Ethiopian");
-
-            correctionAdd("amharic", "Amharic");
-
-            correctionAdd("Nigerinar", "Nigeria"); // A true typo
-
-            correctionAdd("nigerian", "Nigerian");
-
-            correctionAdd("cameroon", "Cameroon");
-
-            correctionAdd("Cabo Verde", "Cape Verde");
-
-            correctionAdd("kenya", "Kenya");
-            correctionAdd("Kennya", "Kenya");
-
-            correctionAdd("zimbabwee", "Zimbabwe");
-
-            correctionAdd("zimbabwean dollar", "Zimbabwean dollar");
-
-            // A telecom company in Kenya
-            correctionAdd("safaricom", "Safaricom");
-
-            correctionAdd("mpesa", "M-Pesa");
-
-            correctionAdd("tanzania", "Tanzania");
-
-            correctionAdd("botswana", "Botswana");
-
-            correctionAdd("south africa", "South Africa");
-            correctionAdd("south Africa", "South Africa");
-            correctionAdd("S A", "South Africa");
-            correctionAdd("SA", "South Africa");
-
-            correctionAdd("south-african", "South African");
-
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/South_America>
-            //
-            correctionAdd("south america", "South America");
-            correctionAdd("south America", "South America");
-            correctionAdd("S.A", "South America");
-
-            correctionAdd("south american", "South American");
-
-            correctionAdd("Amurrikan", "American");
-            correctionAdd("american", "American");
-            correctionAdd("Amercian", "American");
-            correctionAdd("'Merican", "American");
-
-            correctionAdd("america", "America");
-
-            correctionAdd("North-Americans", "North Americans");
-
-            // The adjective
-            correctionAdd("north American", "North American");
-
-            correctionAdd("African American", "African-American");
-            correctionAdd("african american", "African-American");
-
-            correctionAdd("Brics", "BRICS");
-
-            correctionAdd("civilization", "civilisation");
-            correctionAdd("civ", "civilisation");
-
-            correctionAdd("civilasations", "civilisations");
-
-            correctionAdd("country's", "countries");
-            correctionAdd("con tries", "countries");
-            correctionAdd("contries", "countries");
-            correctionAdd("countrys", "countries");
-            correctionAdd("coutries", "countries");
-
-            correctionAdd("nation state", "nation-state");
-
-            correctionAdd("Nationalism", "nationalism");
-
-            correctionAdd("notional", "national");
-
-            correctionAdd("nation state actor", "nation-state actor");
-            correctionAdd("state actor", "nation-state actor");
-
-            correctionAdd("state sponsored", "state-sponsored");
-
-            correctionAdd("multi-national", "multinational");
-
-            correctionAdd("micronationalisim", "micronationalism");
-
-            correctionAdd("International", "international");
-            correctionAdd("internation", "international");
-
-            correctionAdd("internationaly", "internationally");
-
-            correctionAdd("ambassy", "embassy");
-
-            correctionAdd("dyplomatic", "diplomatic");
-
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/memorandum_of_understanding#Noun>
-            //   <https://en.wiktionary.org/wiki/MoU#Noun>
-            //
-            correctionAdd("Memorandum of Understanding", "memorandum of understanding");
-            correctionAdd("M.O.U", "memorandum of understanding"); // Should really be "M.O.U."
-            correctionAdd("MOU", "memorandum of understanding");
-            correctionAdd("MoU", "memorandum of understanding"); // The official abbr.
-
-            correctionAdd("vasal", "vassal");
-
-            correctionAdd("King", "king");
-
-            correctionAdd("Queen", "queen");
-
-            correctionAdd("Royal", "royal");
-
-            correctionAdd("governement", "government");
-            correctionAdd("gouverment", "government");
-            correctionAdd("Government", "government");
-            correctionAdd("Givernment", "government");
-            correctionAdd("Gouverment", "government");
-            correctionAdd("goverment", "government");
-            correctionAdd("governent", "government");
-            correctionAdd("govement", "government");
-            correctionAdd("gov’t", "government");
-            correctionAdd("gov't", "government");
-            correctionAdd("Gov’t", "government");
-            correctionAdd("govt", "government");
-            correctionAdd("Govt", "government");
-            correctionAdd("gov", "government");
-            correctionAdd("Gov", "government");
-
-            correctionAdd("governkng", "governing");
-
-            correctionAdd("parleament", "parliament");
-            correctionAdd("parlement", "parliament");
-            correctionAdd("Parlement", "parliament"); // Not 100% correct - case.
-            correctionAdd("parlament", "parliament");
-            correctionAdd("parlemant", "parliament");
-            correctionAdd("parlimant", "parliament");
-            correctionAdd("parliment", "parliament");
-
-            correctionAdd("parlamentary", "parliamentary");
-
-            correctionAdd("two party system", "two-party system");
-
-            correctionAdd("prime Minister", "prime minister");
-            correctionAdd("Prime Minister", "prime minister");
-            correctionAdd("prime mister", "prime minister");
-
-            correctionAdd("poicy", "policy");
-
-            correctionAdd("politicans", "politicians");
-
-            correctionAdd("lobbyisits", "lobbyists");
-
-            correctionAdd("test balloon", "trial balloon");
-
-            correctionAdd("Police", "police");
-
-            correctionAdd("Denamark", "Denmark");
-            correctionAdd("denmark", "Denmark");
-            correctionAdd("DK", "Denmark");
-
-            correctionAdd("danes", "Danes");
-
-            correctionAdd("danish", "Danish");
-
-            correctionAdd("Dansk", "dansk");
-
-            correctionAdd("margrethe", "Margrethe II");
-            correctionAdd("Margrethe", "Margrethe II");
-            correctionAdd("magrethe", "Margrethe II");
-
-            correctionAdd("gråsten", "Gråsten");
-
-            correctionAdd("Kopenhagen", "Copenhagen");
-
-            correctionAdd("særskrivning", "særskrivninger"); // Danish
-
-            correctionAdd("nutids-R", "nutids-Rer"); // Danish
-
-            correctionAdd("folketingsvalg", "Folketingsvalget 2022");
-
-            correctionAdd("GreenLand", "Greenland");
-            correctionAdd("greenland", "Greenland");
-            correctionAdd("Greeland", "Greenland");
-
-            correctionAdd("Narsasuac", "Narsarsuaq");
-
-            correctionAdd("Faroe islands", "Faroe Islands");
-
-            correctionAdd("iceland", "Iceland");
-
-            correctionAdd("Reykjavik", "Reykjavík"); // Iceland
-
-            correctionAdd("Keflavik", "Keflavík");
-
-            correctionAdd("norway", "Norway");
-
-            correctionAdd("norwegian", "Norwegian");
-
-            // Not to be confused with Svalboard... (a keyboard)
-            correctionAdd("Svarlbard", "Svalbard");
-
-            correctionAdd("Sweeden", "Sweden");
-            correctionAdd("sweeden", "Sweden");
-            correctionAdd("sweden", "Sweden");
-            correctionAdd("SWEDEN", "Sweden");
-
-            correctionAdd("swede", "Swede");
-            correctionAdd("Sweede", "Swede");
-
-            correctionAdd("suites", "Swedes");
-            correctionAdd("sweets", "Swedes");
-
-            correctionAdd("swedish", "Swedish");
-
-            // A Scandinavian language, spoken by 3,000 people in Sweden
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/%C3%96vdalian>
-            //
-            correctionAdd("elfdalian", "Elfdalian");
-
-            correctionAdd("Stockholm's syndrome", "Stockholm syndrome");
-            correctionAdd("stockholm syndrome", "Stockholm syndrome");
-
-            correctionAdd("Malmo", "Malmö");
-
-            correctionAdd("ikea", "IKEA");
-
-            correctionAdd("finnland", "Finland");
-            correctionAdd("Findland", "Finland");
-            correctionAdd("finland", "Finland");
-
-            correctionAdd("finnish", "Finnish");
-
-            correctionAdd("Baltic countries", "Baltic states");
-            correctionAdd("Baltic republics", "Baltic states");
-            correctionAdd("Baltic nations", "Baltic states");
-            correctionAdd("Baltic lands", "Baltic states");
-            correctionAdd("Baltics", "Baltic states");
-
-            correctionAdd("Lith", "Lithuania");
-
-            correctionAdd("netherlands", "the Netherlands");
-            correctionAdd("Netherlands", "the Netherlands");
-            correctionAdd("Holland", "the Netherlands");
-
-            correctionAdd("dutch", "Dutch");
-
-            // Alternative URLs:
-            //
-            //   <https://hitchhikers.fandom.com/wiki/Belgium>
-            //     The Hitchhiker's Guide to the Galaxy
-            //
-            correctionAdd("Beligum", "Belgium");
-            correctionAdd("beligum", "Belgium");
-            correctionAdd("belgium", "Belgium");
-
-            correctionAdd("belgian", "Belgian");
-
-            correctionAdd("brussels", "Brussels");
-
-            correctionAdd("brussels sprouts", "Brussels sprout");
-
-            correctionAdd("germany", "Germany");
-
-            correctionAdd("gearman", "German");
-            correctionAdd("deutsch", "German");
-            correctionAdd("german", "German");
-            correctionAdd("deutch", "German");
-            correctionAdd("DE", "German");
-
-            correctionAdd("germanic", "Germanic");
-
-            correctionAdd("berlin", "Berlin");
-
-            correctionAdd("Frankfurt", "Frankfurt, Germany");
-
-            correctionAdd("München", "Munich");
-
-            correctionAdd("Christian Democratic Union of Germany", "CDU");
-            correctionAdd("cdu", "CDU");
-
-            correctionAdd("Christian Social Union in Bavaria", "CSU");
-            correctionAdd("csu", "CSU");
-
-            correctionAdd("weimar", "Weimar");
-
-            correctionAdd("Weimar Rebublics", "Weimar Republic");
-
-            correctionAdd("aggitating", "agitating");
-
-            correctionAdd("fasicm", "fascism");
-            correctionAdd("Facism", "fascism");
-            correctionAdd("facism", "fascism");
-
-            correctionAdd("authoritan", "authoritarian");
-
-            correctionAdd("Nazi", "Nazis");
-            correctionAdd("nazi", "Nazis");
-
-            correctionAdd("nazism", "Nazism");
-
-            correctionAdd("neo-nazi", "neo-Nazi");
-
-            correctionAdd("Hitler", "Adolf Hitler");
-            correctionAdd("Htler", "Adolf Hitler");
-
-            correctionAdd("Fuhrer", "Führer");
-
-            correctionAdd("Goering", "Göring");
-
-            correctionAdd("Barbarossa", "Operation Barbarossa");
-
-            correctionAdd("waffen SS", "Waffen-SS");
-            correctionAdd("Waffen SS", "Waffen-SS");
-            correctionAdd("waffen ss", "Waffen-SS");
-
-            correctionAdd("war fair", "warfare");
-
-            correctionAdd("actrocities", "atrocities");
-
-            correctionAdd("seised", "ceased");
-            correctionAdd("seized", "ceased");
-            correctionAdd("sised", "ceased");
-
-            // Note: "military" is in an alternative word set.
-            correctionAdd("Ceasfire", "ceasefire");
-            correctionAdd("ceasfire", "ceasefire");
-
-            correctionAdd("ordinance", "ordnance");
-            correctionAdd("ordenance", "ordnance");
-
-            correctionAdd("psychological warfare", "psychological operations");
-            correctionAdd("PsyOp", "psychological operations");
-
-            correctionAdd("wargame", "war game");
-
-            correctionAdd("in all fronts", "on all fronts");
-
-            correctionAdd("battallion", "battalion");
-            correctionAdd("batallion", "battalion");
-
-            correctionAdd("BDE", "brigade");
-
-            correctionAdd("brigrades", "brigades");
-
-            correctionAdd("navy seal", "Navy SEAL");
-
-            correctionAdd("mercs", "mercenary");
-            correctionAdd("Mercs", "mercenary");
-            correctionAdd("MERCs", "mercenary");
-            correctionAdd("Merc", "mercenary");
-            correctionAdd("merc", "mercenary");
-
-            correctionAdd("mechanized infantry combat vehicle", "infantry fighting vehicle");
-            correctionAdd("MICV", "infantry fighting vehicle");
-            correctionAdd("IFV", "infantry fighting vehicle");
-
-            correctionAdd("armor", "armour");
-
-            correctionAdd("Tank", "tank");
-
-            correctionAdd("bombardement", "bombardment");
-
-            correctionAdd("artilerry", "artillery");
-            correctionAdd("artilery", "artillery");
-
-            correctionAdd("self-propelled", "self-propelled artillery");
-
-            correctionAdd("Heavy Bomber", "heavy bomber");
-
-            correctionAdd("ammuntion", "ammunition");
-            correctionAdd("Ammo", "ammunition");
-            correctionAdd("ammo", "ammunition");
-
-            correctionAdd("booby-trap", "booby trap");
-
-            correctionAdd("Thirty Years' war", "Thirty Years' War");
-
-            correctionAdd("Six Day War", "Six-Day War");
-
-            correctionAdd("first worldwar", "World War I");
-            correctionAdd("world war 1", "World War I");
-            correctionAdd("WW I", "World War I");
-            correctionAdd("ww1", "World War I");
-            correctionAdd("WW1", "World War I");
-            correctionAdd("WWI", "World War I");
-
-            correctionAdd("appeace", "appease");
-
-            correctionAdd("World war (II)", "World War II");
-            correctionAdd("World War Two", "World War II");
-            correctionAdd("world war II", "World War II");
-            correctionAdd("World war II", "World War II");
-            correctionAdd("world war 2", "World War II");
-            correctionAdd("World War 2", "World War II");
-            correctionAdd("World war 2", "World War II");
-            correctionAdd("WW II", "World War II");
-            correctionAdd("WWII", "World War II");
-            correctionAdd("WW2", "World War II");
-            correctionAdd("ww2", "World War II");
-
-            correctionAdd("Eisenhower", "Dwight D. Eisenhower");
-
-            correctionAdd("battelle", "battle");
-            correctionAdd("Battelle", "battle");
-            correctionAdd("battel", "battle");
-
-            correctionAdd("battlefied", "battlefield");
-
-            correctionAdd("Battleship", "battleship");
-
-            correctionAdd("midway", "Battle of Midway");
-
-            correctionAdd("cold war", "Cold War");
-
-            correctionAdd("Yom Kippur war", "Yom Kippur War");
-
-            correctionAdd("world War 3", "World War III");
-            correctionAdd("World War 3", "World War III");
-            correctionAdd("WW III", "World War III");
-            correctionAdd("WWIII", "World War III");
-            correctionAdd("WW 3", "World War III");
-            correctionAdd("WW3", "World War III");
-
-            correctionAdd("Yugoeslavia", "Yugoslavia");
-
-            correctionAdd("croatia", "Croatia");
-
-            // AKA Czech Republic. Not to be confused
-            // with Chechnya (North Caucasus)
-            correctionAdd("Tcheck republic", "Czechia");
-            correctionAdd("Czech Republic", "Czechia");
-            correctionAdd("Czech republic", "Czechia");
-            correctionAdd("Check republic", "Czechia");
-            correctionAdd("check republic", "Czechia");
-            correctionAdd("czechia", "Czechia");
-            correctionAdd("Checkia", "Czechia");
-
-            // The adjective
-            correctionAdd("czech", "Czech");
-            correctionAdd("Czeck", "Czech");
-            correctionAdd("chech", "Czech");
-
-            correctionAdd("slovakia", "Slovakia");
-
-            // Note: "Austria" and "Switzerland" are in an alternative word set
-            correctionAdd("swiss", "Swiss");
-
-            correctionAdd("Swiss Franc", "Swiss franc");
-
-            correctionAdd("Zurich", "Zürich");
-
-            correctionAdd("ETH Zurich", "ETH Zürich");
-
-            // Switzerland. Graubünden/Grisons canton.
-            correctionAdd("rumantsch", "Romansch");
-            correctionAdd("Rumantsch", "Romansch");
-
-            correctionAdd("swiss army knife", "Swiss Army knife");
-            correctionAdd("swiss-army", "Swiss Army knife");
-            correctionAdd("swiss army", "Swiss Army knife");
-            correctionAdd("Swiss army", "Swiss Army knife");
-
-            // Swiss watch manufacturer
-            correctionAdd("blancpain", "Blancpain");
-
-            correctionAdd("swiss cheese", "Swiss cheese");
-
-            correctionAdd("cheese cake", "cheesecake");
-
-            correctionAdd("Humble Pie", "humble pie");
-
-            correctionAdd("wappon", "weapon");
-            correctionAdd("wapon", "weapon");
-
-            correctionAdd("bio-weapon", "bioweapon");
-
-            // A weapon
-            correctionAdd("nun-chucks", "nunchucks");
-
-            correctionAdd("france", "France");
-
-            correctionAdd("pardon my french", "pardon my French");
-
-            correctionAdd("french", "French");
-            correctionAdd("FRENCH", "French");
-            correctionAdd("Fresh", "French");
-            correctionAdd("FR", "French");
-
-            correctionAdd("French man", "Frenchman");
-
-            correctionAdd("Frainglaich", "Franglais");
-            correctionAdd("franglais", "Franglais");
-
-            correctionAdd("normandy", "Normandy");
-
-            correctionAdd("paris", "Paris");
-
-            correctionAdd("grenoble", "Grenoble");
-
-            correctionAdd("napoleonic", "Napoleonic");
-
-            correctionAdd("french drain", "French drain");
-
-            correctionAdd("French fries", "french fries");
-
-            // Elite schools
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/Grande_%C3%A9cole>
-            //
-            correctionAdd("Grande écoles", "grande écoles");
-
-            // Alternative URLs:
-            //
-            //   <https://www.britannica.com/topic/coup-detat>
-            //
-            correctionAdd("coup d'etat", "coup d’état");
-            correctionAdd("Coup d’état", "coup d’état");
-            correctionAdd("coup d'état", "coup d’état");
-            correctionAdd("coup", "coup d’état");
-
-            correctionAdd("coup de grace", "coup de grâce");
-
-            correctionAdd("raison d'etre", "raison d'être");
-            correctionAdd("raison d’etre", "raison d'être");
-            correctionAdd("raison detre", "raison d'être");
-
-            correctionAdd("germaine", "germane");
-
-            correctionAdd("slavic", "Slavic");
-
-            correctionAdd("mediteranian", "Mediterranean");
-
-            correctionAdd("greece", "Greece");
-
-            correctionAdd("greek", "Greek");
-
-            correctionAdd("Cypres", "Cyprus");
-
-            correctionAdd("sanskritt", "Sanskrit");
-            correctionAdd("sanskrit", "Sanskrit");
-
-            // ISO 3166 code: IT
-            correctionAdd("italy", "Italy");
-
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/IT#Symbol>
-            //
-            correctionAdd("italian", "Italian");
-            correctionAdd("Italien", "Italian");
-            correctionAdd("IT", "Italian");
-
-            correctionAdd("berlusconi", "Silvio Berlusconi");
-
-            correctionAdd("rome", "Rome");
-
-            // Idiomatic
-            correctionAdd("multiple ways to Rome", "all roads lead to Rome");
-
-            correctionAdd("venice", "Venice");
-
-            correctionAdd("United Kingdom", "UK");
-            correctionAdd("united kingdom", "UK");
-            correctionAdd("U K", "UK");
-            correctionAdd("uk", "UK");
-            correctionAdd("Uk", "UK");
-
-            correctionAdd("britain", "Britain");
-            correctionAdd("Britian", "Britain");
-
-            correctionAdd("english man", "Englishman");
-
-            correctionAdd("england", "England");
-
-            correctionAdd("london", "London");
-            correctionAdd("Londen", "London");
-
-            // Alternative URL:
-            //
-            //   <https://en.wikipedia.org/wiki/Cockney>
-            //
-            correctionAdd("Cogney", "Cockney");
-
-            correctionAdd("Reading", "Reading, Berkshire");
-
-            correctionAdd("raf", "RAF");
-
-            // Note: "Boris Johnson" is in an alternative word set.
-            correctionAdd("tory", "Tory");
-
-            correctionAdd("Rishi", "Rishi Sunak");
-
-            // United Kingdom
-            correctionAdd("Cameron", "David Cameron");
-
-            correctionAdd("Commonwealth", "the Commonwealth");
-
-            correctionAdd("Churchill", "Winston Churchill");
-
-            correctionAdd("Church-Turing thesis", "Church–Turing thesis");
-            correctionAdd("Chuch-Turing thesis", "Church–Turing thesis");
-
-            correctionAdd("lizzy", "Elizabeth II");
-
-            correctionAdd("ireland", "Ireland");
-
-            correctionAdd("irish", "Irish");
-
-            correctionAdd("norther ireland", "Northern Ireland");
-            correctionAdd("NI", "Northern Ireland");
-
-            correctionAdd("titanic", "Titanic");
-            correctionAdd("taitanic", "Titanic");
-
-            correctionAdd("scotland", "Scotland");
-            correctionAdd("Scottland", "Scotland");
-
-            correctionAdd("scottish", "Scottish");
-            correctionAdd("scotish", "Scottish");
-            correctionAdd("Scotish", "Scottish");
-
-            correctionAdd("loch ness", "Loch Ness Monster");
-            correctionAdd("Loch Ness", "Loch Ness Monster");
-
-            correctionAdd("wales", "Wales");
-
-            correctionAdd("british", "British");
-            correctionAdd("btish", "British");
-
-            correctionAdd("Iberian peninsula", "Iberian Peninsula");
-
-            correctionAdd("spain", "Spain");
-            correctionAdd("Spian", "Spain");
-
-            // Note: "Spanish" the language is in an alternative word
-            //       set (because a mapping conflicts with "ES" in
-            //       the main word set)
-            correctionAdd("spaniard", "Spaniard");
-
-            correctionAdd("gibraltar", "Gibraltar");
-
-            correctionAdd("mosquitos in Valencia", "mosquitos in Valencia (Hans Christian Andersen)");
-            correctionAdd("mosquitos", "mosquitos in Valencia (Hans Christian Andersen)");
-            correctionAdd("Valencia", "mosquitos in Valencia (Hans Christian Andersen)");
-
-            correctionAdd("the azores", "the Azores");
-            correctionAdd("azores", "the Azores");
-
-            // Note: "Portuguese" is in an alternative word set
-            correctionAdd("portugal", "Portugal");
-
-            correctionAdd("poland", "Poland");
-            correctionAdd("PL", "Poland");
-
-            correctionAdd("polish", "Polish");
-
-            correctionAdd("Chornobyl", "Chernobyl");
-
-            correctionAdd("Ucraine", "Ukraine");
-            correctionAdd("ukraine", "Ukraine");
-            correctionAdd("Ukrain", "Ukraine");
-            correctionAdd("Ukraie", "Ukraine");
-            correctionAdd("Ukrine", "Ukraine");
-            correctionAdd("ukrain", "Ukraine");
-            correctionAdd("Ukr", "Ukraine");
-
-            correctionAdd("ukrainian", "Ukrainian");
-            correctionAdd("Ukranian", "Ukrainian");
-            correctionAdd("ukranian", "Ukrainian");
-
-            // Ukraine
-            correctionAdd("victor yonokovich", "Viktor Yanukovych");
-
-            // Ukraine
-            correctionAdd("Bach, moot", "Bakhmut"); // A YouTube caption "masterpiece"
-
-            // Ukraine
-            correctionAdd("Hassan", "Kherson"); // A YouTube caption "masterpiece"
-
-            correctionAdd("Kief", "Kiev");
-
-            // A city
-            correctionAdd("Vuledar", "Vuhledar");
-
-            correctionAdd("Zelensky", "Volodymyr Zelenskyy");
-
-            correctionAdd("White Russia", "Belarus");
-            correctionAdd("Belorus", "Belarus");
-            correctionAdd("Bylorus", "Belarus");
-            correctionAdd("belarus", "Belarus");
-
-            correctionAdd("Lukashenko", "Alexander Lukashenko");
-
-            correctionAdd("Russian Federation", "Russia");
-            correctionAdd("toilet paper tiger", "Russia");
-            correctionAdd("russia", "Russia");
-            correctionAdd("ruzzia", "Russia");
-            correctionAdd("Ruzzia", "Russia");
-            correctionAdd("RuzZia", "Russia");
-            correctionAdd("ruzZia", "Russia");
-            correctionAdd("ruZZia", "Russia");
-
-            correctionAdd("russian", "Russian");
-            correctionAdd("Ruzzian", "Russian");
-            correctionAdd("RUSZYN", "Russian");
-            correctionAdd("ruszyn", "Russian");
-
-            correctionAdd("Ruble", "ruble");
-
-            correctionAdd("moscow", "Moscow");
-
-            correctionAdd("Communist", "communist");
-            correctionAdd("coomunist", "communist");
-            correctionAdd("communest", "communist");
-            correctionAdd("comunest", "communist");
-            correctionAdd("comunist", "communist");
-            correctionAdd("Comunist", "communist");
-
-            // Marxism
-            correctionAdd("karl marx", "Karl Marx");
-
-            correctionAdd("marxism", "Marxism");
-
-            correctionAdd("marxist", "Marxist");
-
-            correctionAdd("Socialism", "socialism");
-
-            correctionAdd("captial", "capital");
-
-            correctionAdd("Capitalism", "capitalism");
-
-            correctionAdd("Capitalist", "capitalist");
-
-            correctionAdd("Laissez-Faire Capitalism", "laissez-faire capitalism");
-
-            correctionAdd("Soviet", "soviet");
-
-            correctionAdd("soviet union", "Soviet Union");
-            correctionAdd("USSR", "Soviet Union");
-            correctionAdd("ussr", "Soviet Union");
-
-            correctionAdd("Joe Stalin", "Joseph Stalin");
-            correctionAdd("Uncle Joe", "Joseph Stalin");
-            correctionAdd("uncle Joe", "Joseph Stalin");
-            correctionAdd("Stalin", "Joseph Stalin");
-
-            correctionAdd("destalinization", "de-Stalinization");
-
-            correctionAdd("Gorbatjev", "Mikhail Gorbachev");
-            correctionAdd("Gorby", "Mikhail Gorbachev");
-
-            correctionAdd("iron curtain", "Iron Curtain");
-
-            correctionAdd("iron-fist", "iron fist");
-
-            correctionAdd("iron-clad", "ironclad");
-
-            // A book
-            correctionAdd("LOTR", "The Lord of the Rings");
-
-            correctionAdd("Tolkien", "J. R. R. Tolkien");
-
-            correctionAdd("gollum", "Gollum");
-
-            correctionAdd("Vladolf Putler", "Vladimir Putin");
-            correctionAdd("Bunker Grandpa", "Vladimir Putin");
-            correctionAdd("bunker grandpa", "Vladimir Putin");
-            correctionAdd("little Poopoo", "Vladimir Putin");
-            correctionAdd("bunker bitch", "Vladimir Putin");
-            correctionAdd("Herr putler", "Vladimir Putin");
-            correctionAdd("Pukedin", "Vladimir Putin");
-            correctionAdd("Vladolf", "Vladimir Putin");
-            correctionAdd("pootin", "Vladimir Putin");
-            correctionAdd("Pootin", "Vladimir Putin");
-            correctionAdd("Puddin", "Vladimir Putin");
-            correctionAdd("puddin", "Vladimir Putin");
-            correctionAdd("Puntin", "Vladimir Putin");
-            correctionAdd("Putler", "Vladimir Putin");
-            correctionAdd("Putin", "Vladimir Putin");
-
-            correctionAdd("dicktator", "dictator");
-
-            correctionAdd("mobiks", "mobilised soldiers");
-
-            correctionAdd("Colonialism", "colonialism");
-
-            correctionAdd("Colonialist", "colonialist");
-            correctionAdd("colnialist", "colonialist");
-            correctionAdd("Colnialist", "colonialist");
-
-            correctionAdd("colnies", "colonies");
-
-            correctionAdd("Empire", "empire");
-
-            correctionAdd("cyrillic", "Cyrillic");
-            correctionAdd("ciryllic", "Cyrillic");
-            correctionAdd("cyrilic", "Cyrillic");
-
-            correctionAdd("bulgaria", "Bulgaria");
-
-            correctionAdd("bulgarian", "Bulgarian");
-
-            correctionAdd("Rumania", "Romania");
-
-            correctionAdd("frankensteining", "Frankensteining");
-
-            correctionAdd("frankensteined", "Frankensteined");
-
-            correctionAdd("frankensteinish", "Frankensteinish");
-            correctionAdd("Franken", "Frankensteinish");
-
-            correctionAdd("hungarian", "Hungarian");
-
-            correctionAdd("trans-Atlantic", "transatlantic");
-            correctionAdd("trans-atlantic", "transatlantic");
-
-            correctionAdd("South Atlantic Anomnaly", "South Atlantic Anomaly");
-            correctionAdd("south atlantic anomaly", "South Atlantic Anomaly");
-            correctionAdd("SAA", "South Atlantic Anomaly");
-
-            correctionAdd("Atlantic Seaboard", "East Coast of the United States");
-            correctionAdd("Eastern Seaboard", "East Coast of the United States");
-            correctionAdd("Atlantic Coast", "East Coast of the United States");
-            correctionAdd("east coast", "East Coast of the United States");
-            correctionAdd("East Coast", "East Coast of the United States");
-
-            correctionAdd("turkish", "Turkish");
-
-            correctionAdd("turkey", "Turkey");
-
-            // In North Caucasus. Not to be confused with
-            // Czechia AKA Czech Republic (Central Europe)
-            correctionAdd("Chechnia", "Chechnya");
-            correctionAdd("Cechya", "Chechnya");
-
-            correctionAdd("caucasian", "Caucasian");
-
-            correctionAdd("Israle", "Israel");
-            correctionAdd("Isreal", "Israel"); // Misspelled in the "WarGames" movie (though not the only place)...
-
-            correctionAdd("Israeli's", "Israelis");
-
-            correctionAdd("hebrew", "Hebrew");
-
-            correctionAdd("Jurasalem", "Jerusalem");
-
-            correctionAdd("tel aviv", "Tel Aviv");
-            correctionAdd("Tel aviv", "Tel Aviv");
-
-            correctionAdd("Palistinian", "Palestinian"); // Misspelled in the "WarGames" movie...
-
-            correctionAdd("gaza", "Gaza Strip");
-
-            correctionAdd("bethlehem", "Bethlehem");
-
-            correctionAdd("dead see", "Dead Sea");
-            correctionAdd("dead sea", "Dead Sea");
-
-            correctionAdd("two state solution", "two-state solution");
-            correctionAdd("2-state solution", "two-state solution");
-
-            correctionAdd("arabic", "Arabic");
-
-            correctionAdd("arabian", "Arabian");
-
-            correctionAdd("Labanon", "Lebanon");
-            correctionAdd("lebanon", "Lebanon");
-
-            correctionAdd("Assad", "Bashar al-Assad");
-
-            correctionAdd("saudi arabia", "Saudi Arabia");
-
-            correctionAdd("saudi", "Saudi");
-
-            correctionAdd("bin laden", "Osama bin Laden");
-            correctionAdd("Bin Laden", "Osama bin Laden");
-
-            correctionAdd("UAE", "United Arab Emirates");
-
-            correctionAdd("dubai", "Dubai");
-
-            correctionAdd("qatar", "Qatar");
-
-            correctionAdd("Abu Dhabi", "Emirate of Abu Dhabi");
-
-            correctionAdd("bahrain", "Bahrain");
-
-            correctionAdd("Irak", "Iraq");
-            correctionAdd("iraq", "Iraq");
-
-            correctionAdd("Hussein", "Saddam Hussein");
-
-            correctionAdd("iran", "Iran");
-
-            // AKA Persian
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/Persian_language>
-            //
-            correctionAdd("farsi", "Farsi");
-
-            correctionAdd("Persian Language", "Persian language");
-
-            correctionAdd("persian", "Persian");
-
-            correctionAdd("Straits of Hormuz", "Strait of Hormuz");
-
-            correctionAdd("dari", "Dari");
-
-            correctionAdd("Afghanisthan", "Afghanistan");
-            correctionAdd("afghanistan", "Afghanistan");
-
-            correctionAdd("Afgan", "Afghan");
-
-            // The country...
-            correctionAdd("kazakhstan", "Kazakhstan");
-            correctionAdd("Kasakstan", "Kazakhstan");
-            correctionAdd("Kazakstan", "Kazakhstan");
-
-            correctionAdd("Kazak", "Kazakh");
-
-            correctionAdd("kyrgyzstan", "Kyrgyzstan");
-
-            correctionAdd("tajikistan", "Tajikistan");
-
-            correctionAdd("turkmenistan", "Turkmenistan");
-
-            correctionAdd("uzbekistan", "Uzbekistan");
-            correctionAdd("Uzbetistan", "Uzbekistan");
-
-            correctionAdd("mount everest", "Mount Everest");
-
-            correctionAdd("pakistan", "Pakistan");
-            correctionAdd("Pak", "Pakistan");
-
-            correctionAdd("karachi", "Karachi");
-
-            correctionAdd("imran khan", "Imran Khan");
-
-            correctionAdd("sheikh hasina", "Sheikh Hasina");
-
-            // "What everyone in tech deals with, with Indians having
-            //  no skills, all their credentials just fraud"
-            //
-            correctionAdd("india", "India");
-            correctionAdd("INDIA", "India");
-            correctionAdd("indea", "India");
-            correctionAdd("Endia", "India");
-            correctionAdd("Inida", "India"); // A true typo
-
-            correctionAdd("indian", "Indian");
-            //  correctionAdd("", "Indian");   missing one
-            //     from <https://www.quora.com/Is-it-true-that-Indian-software-engineers-are-considered-very-bad-hires-in-the-USA>...
-            correctionAdd("INDIAN", "Indian");
-            correctionAdd("Idian", "Indian");
-
-            // India
-            correctionAdd("rupees", "Rs");
-            correctionAdd("Rupees", "Rs");
-            correctionAdd("rupee", "Rs"); // The expanded form (singular)
-            correctionAdd("INR", "Rs");
-            correctionAdd("rs", "Rs");
-
-            correctionAdd("hindi", "Hindi");
-
-            // The adjective
-            correctionAdd("Hindoo", "Hindu");
-            correctionAdd("Hidu", "Hindu");
-
-            // The noun
-            correctionAdd("Hindoos", "Hindus");
-
-            correctionAdd("sikh", "Sikh");
-
-            // India
-            correctionAdd("kerala", "Kerala");
-
-            // India
-            correctionAdd("kolkata", "Kolkata");
-
-            // India
-            correctionAdd("chennai", "Chennai");
-
-            // India
-            correctionAdd("bangalore", "Bangalore");
-            correctionAdd("Banglore", "Bangalore");
-            correctionAdd("banglore", "Bangalore");
-
-            // India
-            correctionAdd("new delhi", "New Delhi");
-            correctionAdd("delhi", "New Delhi");
-            correctionAdd("Delhi", "New Delhi");
-
-            // India
-            correctionAdd("hyderabad", "Hyderabad");
-
-            // India
-            correctionAdd("mumbai", "Mumbai");
-
-            // India
-            correctionAdd("pune", "Pune");
-
-            // India. A state
-            correctionAdd("karnataka", "Karnataka");
-
-            // India. In Punjab. Disruption at Stack Overflow
-            //
-            // Alternative URL:
-            //
-            //   <https://meta.stackoverflow.com/questions/427302>
-            //     Recent flood of very low quality questions and
-            //     non-questions with the Python tag today -
-            //     what is going on?
-            //
-            //     <https://stackoverflow.com/questions/77594144/how-to-dynamically-resize-the-background-video-to-accommodate-the-content/77594217#comment136796904_77594217>:
-            //
-            //       "I did that because I was in a rush and I
-            //        had to show proof that I did something
-            //        on Stack Overflow for an assignment"
-            //
-            // Richard Feynman in Brazil:
-            //
-            //   <https://v.cx/2010/04/feynman-brazil-education>
-            //
-            //   "the students had memorized everything, but they didn’t
-            //    know what anything meant. ... I couldn’t see how
-            //    anyone could be educated by this self-propagating
-            //    system in which people pass exams, and teach
-            //    others to pass exams, but nobody knows anything"
-            //
-            //   "Triboluminescence"
-            //
-            //     <https://www.youtube.com/watch?v=8nilP--GFLY>
-            //       The Unsolved Mystery of Impact Flashes -
-            //       Smarter Every Day 307
-            //
-            correctionAdd("LPU", "Lovely Professional University");
-
-            // Two different meanings:
-            //
-            //  UK:              A first-year student at a university.
-            //
-            //  Indian English:  A fresh graduate looking for his/her first job.
-            //
-            correctionAdd("fressher", "new graduate");
-            correctionAdd("Fresher", "new graduate");
-            correctionAdd("fresher", "new graduate");
-
-            // English. India. Indian space.
-            correctionAdd("wren and Martin", "High School English Grammar and Composition by Wren and Martin");
-            correctionAdd("Wren and Martin", "High School English Grammar and Composition by Wren and Martin");
-            correctionAdd("wren and martin", "High School English Grammar and Composition by Wren and Martin");
-            correctionAdd("Wren & Martin", "High School English Grammar and Composition by Wren and Martin");
-
-            correctionAdd("Indian space", "the Indian space");
-            correctionAdd("indian space", "the Indian space");
-            correctionAdd("To India", "the Indian space");
-
-            correctionAdd("missing articles", "missing articles (primarily Indians, Poles and Russians)");
-
-            // India
-            //
-            // Other references:
-            //
-            // <https://ell.stackexchange.com/questions/17621/>
-            //   "Do the needful" -- Why is it used instead
-            //   of asking a question?
-            //
-            // <https://www.quora.com/What-is-a-replacement-for-do-the-needful-when-used-in-email>
-            //   What is a replacement for "do the needful"
-            //   when used in email?
-            //
-            // <https://english.stackexchange.com/questions/43597/>
-            //   What is wrong in "Please don't pluck the flowers" and
-            //   other phrases used in the Indian subcontinent?
-            //
-            // <https://www.grammarly.com/blog/do-the-needful/>
-            //   Is “do the needful” correct?
-            //
-            // https://en.wiktionary.org/wiki/do_the_needful#Verb
-            //   Wiktionary entry
-            //
-            correctionAdd("do the helpful", "do the needful");
-
-            // E.g. India
-            correctionAdd("Fatalism", "fatalism");
-
-            correctionAdd("Sri lanka", "Sri Lanka");
-            correctionAdd("sri Lanka", "Sri Lanka");
-            correctionAdd("sri lanka", "Sri Lanka");
-            correctionAdd("Srilanka", "Sri Lanka");
-
-            correctionAdd("bangladesh", "Bangladesh");
-
-            correctionAdd("mauritius", "Mauritius");
-
-            correctionAdd("Burma", "Myanmar");
-
-            correctionAdd("Chy-nah", "China");
-            correctionAdd("CHY-NA", "China");
-            correctionAdd("chy-na", "China");
-            correctionAdd("china", "China");
-            correctionAdd("CHINA", "China");
-            correctionAdd("CHINY", "China");
-            correctionAdd("chiny", "China");
-            correctionAdd("Chin", "China");
-            correctionAdd("PRC", "China");
-            correctionAdd("prc", "China");
-            correctionAdd("CN", "China");
-
-            correctionAdd("Mainland China", "mainland China");
-            correctionAdd("China mainland", "mainland China");
-
-            correctionAdd("chineese", "Chinese");
-            correctionAdd("Chineese", "Chinese");
-            correctionAdd("chinease", "Chinese");
-            correctionAdd("Chinease", "Chinese");
-            correctionAdd("chinese", "Chinese");
-            correctionAdd("Chiense", "Chinese"); // A true typo
-            correctionAdd("chinise", "Chinese");
-            correctionAdd("chiense", "Chinese"); // Partly a true typo
-            correctionAdd("chinees", "Chinese"); // Multiple: A misspelling and a true typo
-            correctionAdd("Chines", "Chinese");
-
-            correctionAdd("Shanghi", "Shanghai");
-
-            correctionAdd("mandarin", "Mandarin");
-
-            correctionAdd("Kanji", "kanji");
-
-            correctionAdd("Communist Party of China", "Chinese Communist Party");
-            correctionAdd("Ccp", "Chinese Communist Party");
-            correctionAdd("ccp", "Chinese Communist Party");
-            correctionAdd("CCP", "Chinese Communist Party");
-
-            correctionAdd("Great Firewall of China", "Great Firewall");
-            correctionAdd("great firewall", "Great Firewall");
-            correctionAdd("GFW", "Great Firewall");
-
-            correctionAdd("BeiJing", "Beijing");
-
-            correctionAdd("Chinese room", "Chinese room argument");
-
-            correctionAdd("Tzu", "Sun Tzu");
-
-            correctionAdd("hong Kong", "Hong Kong");
-            correctionAdd("Hongkong", "Hong Kong");
-            correctionAdd("HK", "Hong Kong");
-
-            correctionAdd("HKD", "Hong Kong dollar");
-            correctionAdd("HK$", "Hong Kong dollar");
-
-            correctionAdd("Macao", "Macau");
-            correctionAdd("macao", "Macau");
-
-            correctionAdd("falun gong", "Falun Gong");
-
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/Chinese_New_Year%27s_Eve>
-            //   <https://www.reddit.com/r/Keychron/comments/1i8tbng/comment/m8werr7/>
-            //   <https://en.wikipedia.org/wiki/Snake_(zodiac)>
-            //     Year of the Snake
-            //   <https://www.mooninfo.org/moon-phases/new-moon-2025.html>
-            //     2025-01-29T123700Z+0
-            //   <https://www.timeanddate.com/moon/phases/>
-            //   <https://www.reddit.com/r/Keychron/comments/1id3lbl/comment/m9vxvik/>
-            //
-            correctionAdd("Chinese lunar new year", "Chinese New Year");
-            correctionAdd("Chinese new year", "Chinese New Year");
-            correctionAdd("Spring Festival", "Chinese New Year");
-            correctionAdd("Spring festival", "Chinese New Year");
-            correctionAdd("spring festival", "Chinese New Year");
-            correctionAdd("Lunar New Year", "Chinese New Year");
-            correctionAdd("lunar new year", "Chinese New Year");
-            correctionAdd("CNY", "Chinese New Year");
-
-            correctionAdd("taiwan", "Taiwan");
-            correctionAdd("tawan", "Taiwan");
-            correctionAdd("TAWAN", "Taiwan");
-
-            correctionAdd("taiwanese", "Taiwanese");
-
-            // Taiwan
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.reddit.com/r/Keychron/comments/1t0wsza/comment/ojdhmxf/>
-            //   <https://en.wikipedia.org/wiki/Public_holidays_in_China#Labor_Day_(since_2020)>
-            //
-            correctionAdd("literacy day", "Literary Day");
-            correctionAdd("Literacy Day", "Literary Day");
-
-            correctionAdd("korea", "Korea");
-
-            correctionAdd("South-Korea", "South Korea");
-            correctionAdd("south korea", "South Korea");
-            correctionAdd("ROK", "South Korea");
-            correctionAdd("ROC", "South Korea"); // Misspelling of the TLA
-            correctionAdd("KR", "South Korea");
-            correctionAdd("kr", "South Korea");
-
-            // Note: "North Korea" is in an alternative word set
-            correctionAdd("North-Korean", "North Korean");
-
-            correctionAdd("japan", "Japan");
-
-            correctionAdd("japanese", "Japanese");
-
-            // Japanese
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/katakana>
-            //
-            correctionAdd("Katakana", "katakana");
-
-            correctionAdd("Yen", "yen");
-
-            correctionAdd("Emporer", "Emperor");
-
-            correctionAdd("kyoto", "Kyoto");
-
-            correctionAdd("Japanese-Language Proficiency Test", "JLPT");
-
-            correctionAdd("Chinese Japanese Korean", "CJK");
-            correctionAdd("East Asian languages", "CJK");
-            correctionAdd("east-asian-languages", "CJK");
-            correctionAdd("cjk", "CJK");
-
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/Bopomofo>
-            //
-            //   <https://en.wiktionary.org/wiki/Zhuyin_fuhao#Proper_noun>
-            //
-            //     "A phonetic alphabet used to transcribe Mandarin for
-            //      students of that language and for inputting Chinese,
-            //      now used primarily only in Taiwan."
-            //
-            correctionAdd("Bopomofo", "bopomofo");
-
-            correctionAdd("thailand", "Thailand");
-
-            // For example, the language
-            correctionAdd("thai", "Thai");
-
-            correctionAdd("Pattaya", "Pattaya, Thailand");
-
-            correctionAdd("malaysia", "Malaysia");
-
-            correctionAdd("malaysian", "Malaysian");
-            correctionAdd("Maylasian", "Malaysian"); // Misspelled in the "WarGames" movie...
-
-            correctionAdd("malay", "Malay");
-
-            correctionAdd("Singapure", "Singapore");
-            correctionAdd("singapore", "Singapore");
-            correctionAdd("Singapur", "Singapore");
-
-            correctionAdd("singaporean", "Singaporean");
-
-            correctionAdd("vietnam", "Vietnam");
-            correctionAdd("VietNam", "Vietnam");
-
-            correctionAdd("VietNamese", "Vietnamese");
-
-            correctionAdd("The Philippines", "the Philippines");
-            correctionAdd("Phillipines", "the Philippines");
-            correctionAdd("phillipines", "the Philippines");
-            correctionAdd("Philippinas", "the Philippines");
-            correctionAdd("Philippines", "the Philippines");
-            correctionAdd("Philipinas", "the Philippines");
-            correctionAdd("Philipines", "the Philippines");
-            correctionAdd("Pilippinas", "the Philippines");
-            correctionAdd("Pilippines", "the Philippines");
-            correctionAdd("Pilipinas", "the Philippines"); // Multiple typos and multiple misspellings
-            correctionAdd("Pilipines", "the Philippines");
-            correctionAdd("PH", "the Philippines");
-
-            correctionAdd("indonesia", "Indonesia");
-            correctionAdd("indunesia", "Indonesia");
-            correctionAdd("Indunesia", "Indonesia");
-            correctionAdd("Indonisia", "Indonesia");
-
-            correctionAdd("Indonisian", "Indonesian");
-            correctionAdd("indonesian", "Indonesian");
-            correctionAdd("Indonisean", "Indonesian");
-
-            correctionAdd("tagalog", "Tagalog");
-
-            // Note: "Papua New Guinea" is in an alternative word set
-            correctionAdd("New Ginea", "New Guinea");
-            correctionAdd("New Gunia", "New Guinea");
-
-            correctionAdd("Aussie land", "Australia");
-            correctionAdd("austrailia", "Australia");
-            correctionAdd("Australlia", "Australia");
-            correctionAdd("australia", "Australia");
-            correctionAdd("Aussie", "Australia");
-            correctionAdd("Ozzy", "Australia");
-            correctionAdd("aus", "Australia");
-            correctionAdd("Aus", "Australia");
-            correctionAdd("Oz", "Australia");
-            correctionAdd("OZ", "Australia");
-
-            correctionAdd("australian", "Australian");
-
-            correctionAdd("AUD", "Australian dollar");
-
-            // Australia
-            correctionAdd("melbourne", "Melbourne");
-
-            // Australia
-            correctionAdd("sydney", "Sydney");
-
-            // Australia
-            correctionAdd("adelaide", "Adelaide");
-
-            correctionAdd("the sheeps", "New Zealand");
-            correctionAdd("NZ", "New Zealand");
-            correctionAdd("nz", "New Zealand");
-
-            correctionAdd("Auckland, NZ", "Auckland, New Zealand");
-            correctionAdd("Auckland", "Auckland, New Zealand");
-
-            // New Zealand
-            correctionAdd("Stalinda", "Jacinda Ardern");
-
-            correctionAdd("air new zealand", "Air New Zealand");
-
-            correctionAdd("venezuela", "Venezuela");
-
-            correctionAdd("Maduro", "Nicolás Maduro");
-
-            // The South American country
-            correctionAdd("columbia", "Colombia");
-
-            correctionAdd("Bogota", "Bogotá");
-
-            correctionAdd("Perú", "Peru");
-
-            correctionAdd("ecuador", "Ecuador");
-
-            correctionAdd("Chili", "Chile");
-
-            correctionAdd("chilean", "Chilean");
-
-            correctionAdd("argentina", "Argentina");
-            correctionAdd("angentina", "Argentina");
-            correctionAdd("Argentine", "Argentina");
-
-            correctionAdd("Buenos aires", "Buenos Aires");
-
-            // Note: "Brazil" is in an alternative word set
-            correctionAdd("Braziallian", "Brazilian");
-            correctionAdd("Brazillian", "Brazilian");
-            correctionAdd("Brazzilian", "Brazilian");
-            correctionAdd("brazilian", "Brazilian");
-
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/ISO_4217#List_of_ISO_4217_currency_codes>
-            //
-            correctionAdd("Brazillian Real", "Brazilian real");
-            correctionAdd("brazillian real", "Brazilian real");
-            correctionAdd("Brazilian Real", "Brazilian real");
-            correctionAdd("BRL", "Brazilian real");
-            correctionAdd("R$", "Brazilian real");
-
-            correctionAdd("Sao Paulo", "São Paulo");
-
-            correctionAdd("mexico", "Mexico");
-
-            correctionAdd("mexican", "Mexican");
-
-            correctionAdd("mexicans", "Mexicans");
-
-            correctionAdd("GOM", "Gulf of Mexico");
-
-            correctionAdd("Peurto Rico", "Puerto Rico");
-            correctionAdd("Purto Rico", "Puerto Rico");
-
-            correctionAdd("Carabian", "The Caribbean");
-
-            correctionAdd("jamaican", "Jamaican");
-
-            correctionAdd("Bahamas", "The Bahamas");
-
-            // An island
-            correctionAdd("aruba", "Aruba");
-
-            correctionAdd("bonaire", "Bonaire");
-
-            // An island
-            correctionAdd("Curacao", "Curaçao");
-
-            // An island
-            correctionAdd("saba", "Saba");
-
-            // An island
-            correctionAdd("St. Eustatius", "Sint Eustatius");
-
-            // An island
-            correctionAdd("St. Maarten", "Sint Maarten");
-
-            // Cuba
-            correctionAdd("havana", "Havana");
-
-            correctionAdd("Canuckistan", "Canada");
-            correctionAdd("canada", "Canada");
-
-            correctionAdd("canadian", "Canadian");
-
-            correctionAdd("BC Canada", "British Columbia, Canada");
-
-            // A Canadian city
-            correctionAdd("quebec", "Quebec");
-
-            // A Canadian city
-            correctionAdd("montreal", "Montreal");
-
-            // Canadian city, relatively close to Seattle.
-            correctionAdd("vancouver", "Vancouver");
-
-            // A Canadian city
-            correctionAdd("toronto", "Toronto");
-
-            correctionAdd("Niagara", "Niagara Falls");
-
-            correctionAdd("pacific ocean", "Pacific Ocean");
-
-            correctionAdd("pacific", "Pacific");
-
-            correctionAdd("pacific islands", "Pacific Islands");
-
-            // A Pacific island
-            correctionAdd("tahiti", "Tahiti");
-
-            // In the Pacific Ocean
-            correctionAdd("Marianas trench", "Mariana Trench");
-
-            // Note: The mappings are not 100% correct; they
-            //       are only for general lookup (to capture
-            //       the various misspellings)
-            //
-            correctionAdd("Free-Masons", "Freemasonry");
-            correctionAdd("free masons", "Freemasonry");
-            correctionAdd("Freemasons", "Freemasonry");
-            correctionAdd("Masons", "Freemasonry");
-
-            correctionAdd("illuminati", "Illuminati");
-
-            correctionAdd("worshiping", "worshipping");
-
-            correctionAdd("athiest", "atheist");
-
-            correctionAdd("fait", "faith");
-
-            correctionAdd("Ba'hai", "Baháʼí");
-
-            // Note: "god" is in an alternative word set
-            correctionAdd("god-like", "godlike");
-
-            correctionAdd("unGodly", "ungodly");
-
-            correctionAdd("Goodness knows", "God knows");
-            correctionAdd("goodness knows", "God knows");
-
-            correctionAdd("god only knows", "God only knows");
-
-            correctionAdd("Religion", "religion");
-            correctionAdd("region", "religion");
-
-            correctionAdd("religous", "religious");
-
-            correctionAdd("Intelligent Design", "intelligent design");
-
-            correctionAdd("bible", "Bible");
-
-            correctionAdd("Biblical", "biblical");
-
-            correctionAdd("christianity", "Christianity");
-
-            correctionAdd("christian", "Christian");
-
-            // Related to Christianity (not millennials!)
-            correctionAdd("pre-millenialist", "premillennialist");
-
-            correctionAdd("jesus christ", "Jesus");
-            correctionAdd("Geezus", "Jesus");
-            correctionAdd("geezus", "Jesus");
-            correctionAdd("jesus", "Jesus");
-            correctionAdd("Jezus", "Jesus");
-            correctionAdd("jezus", "Jesus");
-
-            correctionAdd("geeze", "geez");
-            correctionAdd("jeez", "geez");
-            correctionAdd("geze", "geez");
-            correctionAdd("gez", "geez");
-            correctionAdd("jez", "geez");
-
-            correctionAdd("in Jesus' name", "in the name of Jesus");
-            correctionAdd("ITNOJ", "in the name of Jesus");
-
-            correctionAdd("Pontius Pilatus", "Pontius Pilate");
-
-            correctionAdd("good samaritan", "Good Samaritan");
-            correctionAdd("good Samaritan", "Good Samaritan");
-
-            correctionAdd("holy spirit", "Holy Spirit");
-            correctionAdd("Holy Ghost", "Holy Spirit");
-
-            correctionAdd("2nd commandment", "second commandment");
-
-            correctionAdd("sodom and gomorra", "Sodom and Gomorrah");
-            correctionAdd("Gomorrah", "Sodom and Gomorrah");
-            correctionAdd("gomorrah", "Sodom and Gomorrah");
-            correctionAdd("Gomorra", "Sodom and Gomorrah");
-            correctionAdd("gomorra", "Sodom and Gomorrah");
-            correctionAdd("Sodom", "Sodom and Gomorrah");
-            correctionAdd("sodom", "Sodom and Gomorrah");
-
-            correctionAdd("christmas", "Christmas");
-            correctionAdd("x-mas", "Christmas");
-            correctionAdd("X-mas", "Christmas");
-            correctionAdd("xmas", "Christmas");
-            correctionAdd("Xmas", "Christmas");
-
-            correctionAdd("santa clause", "Santa Claus");
-
-            correctionAdd("anti-christ", "Antichrist");
-
-            correctionAdd("Saint Peter", "St. Peter");
-            correctionAdd("St Peter", "St. Peter");
-
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/mediaeval#Adjective>
-            //
-            correctionAdd("Mediaeval", "medieval");
-            correctionAdd("mediaeval", "medieval");
-            correctionAdd("Midevil", "medieval");
-            correctionAdd("medieva", "medieval");
-            correctionAdd("medival", "medieval");
-
-            correctionAdd("detaikl", "detail");
-            correctionAdd("deatil", "detail");
-
-            correctionAdd("deatils", "details");
-            correctionAdd("Details", "details");
-            correctionAdd("Deatils", "details");
-            correctionAdd("detials", "details");
-            correctionAdd("datails", "details");
-            correctionAdd("Deails", "details");
-            correctionAdd("deails", "details");
-            correctionAdd("deets", "details");
-
-            correctionAdd("detailled", "detailed");
-            correctionAdd("detialed", "detailed");
-
-            correctionAdd("The devil is in the details", "the devil is in the details");
-
-            correctionAdd("devils advocate", "devil's advocate");
-
-            correctionAdd("Eaater", "Easter");
-            correctionAdd("easter", "Easter");
-
-            correctionAdd("Easter Egg", "Easter egg");
-            correctionAdd("easter egg", "Easter egg");
-
-            correctionAdd("Digital Easter Egg", "digital easter egg");
-
-            correctionAdd("protestant", "Protestant");
-
-            correctionAdd("protestantism", "Protestantism");
-
-            correctionAdd("lutheran", "Lutheran");
-
-            correctionAdd("catholicism", "Catholicism");
-
-            correctionAdd("catholic", "Catholic");
-
-            correctionAdd("catholic church", "Catholic Church");
-
-            correctionAdd("buddhism", "Buddhism");
-
-            correctionAdd("buddhist", "Buddhist");
-
-            correctionAdd("buddha", "the Buddha");
-
-            correctionAdd("Zen Buddist", "Zen Buddhist");
-
-            // As in Zen Buddhism
-            correctionAdd("zenlike", "Zenlike");
-
-            correctionAdd("zen cart", "Zen Cart");
-            correctionAdd("ZenCart", "Zen Cart");
-            correctionAdd("zenCart", "Zen Cart");
-
-            correctionAdd("Laminas Project", "Zend Framework");
-            correctionAdd("zend framework", "Zend Framework");
-            correctionAdd("zend", "Zend Framework");
-            correctionAdd("Zend", "Zend Framework");
-            correctionAdd("ZEND", "Zend Framework");
-            correctionAdd("zf", "Zend Framework");
-            correctionAdd("ZF", "Zend Framework");
-
-            correctionAdd("zend studio", "Zend Studio");
-            correctionAdd("ZendStudio", "Zend Studio");
-            correctionAdd("ZendSudio", "Zend Studio");
-            correctionAdd("Zend IDE", "Zend Studio");
-            correctionAdd("ZS", "Zend Studio");
-
-            correctionAdd("jew", "Jew");
-
-            correctionAdd("anti-semitic", "anti-Semitic");
-
-            correctionAdd("anti-semitism", "anti-Semitism");
-            correctionAdd("antisemtisim", "anti-Semitism");
-
-            correctionAdd("anti-semite", "anti-Semite");
-
-            // Hidden anti-Semitism
-            correctionAdd("gloebbelist", "globalist");
-
-            correctionAdd("Judiadism", "Judaism");
-
-            correctionAdd("torah", "Torah");
-
-            correctionAdd("sefer torah", "Sefer Torah");
-
-            // Judaism
-            correctionAdd("mesillat yesharim", "Mesillat Yesharim");
-            correctionAdd("Mesillas Yeshorim", "Mesillat Yesharim");
-            correctionAdd("messilas yeshorim", "Mesillat Yesharim");
-
-            // Judaism
-            correctionAdd("tanya", "Tanya");
-
-            // Judaism
-            correctionAdd("shacharit", "Shacharit");
-
-            // Judaism
-            correctionAdd("Mikveh", "mikveh");
-
-            // Judaism
-            correctionAdd("Yom kippur", "Yom Kippur");
-
-            // Not to be confused with Gomorrah
-            correctionAdd("gemarah", "Gemara");
-            correctionAdd("Gemarah", "Gemara");
-            correctionAdd("Gemore", "Gemara");
-
-            // Judaism
-            correctionAdd("ariya hidayat", "Ariya Hidayat");
-
-            correctionAdd("sephardic", "Sephardic");
-
-            correctionAdd("juveliery", "jewellery");
-            correctionAdd("jewelry", "jewellery");
-
-            correctionAdd("aryan", "Aryan");
-
-            correctionAdd("quran", "Qur'an");
-            correctionAdd("Quran", "Qur'an");
-
-            correctionAdd("islam", "Islam");
-
-            correctionAdd("muslim", "Muslim");
-
-            correctionAdd("islamophobic", "Islamophobic");
-
-            correctionAdd("shia", "Shia");
-
-            correctionAdd("sunni", "Sunni");
-
-            correctionAdd("ITNOA", "in the name of Allah");
-            correctionAdd("In The Name Of Allah", "in the name of Allah");
-            correctionAdd("In the Name of Allah", "in the name of Allah");
-
-            correctionAdd("As-salāmu ʿalaykum", "As-salamu alaykum");
-            correctionAdd("As-Salamu Alaykum", "As-salamu alaykum");
-            correctionAdd("Assalamu ‘Alaykum", "As-salamu alaykum");
-            correctionAdd("alaykum as salaam", "As-salamu alaykum");
-            correctionAdd("as-salaam alaykum", "As-salamu alaykum");
-            correctionAdd("assalaamu alaykum", "As-salamu alaykum");
-            correctionAdd("As-salamu alaikum", "As-salamu alaykum");
-            correctionAdd("Assalamu alaykum", "As-salamu alaykum");
-            correctionAdd("Assalamu Alaikum", "As-salamu alaykum");
-            correctionAdd("Assalamu Alaykum", "As-salamu alaykum");
-            correctionAdd("assalamu alaykum", "As-salamu alaykum");
-            correctionAdd("salamun alaykum", "As-salamu alaykum");
-            correctionAdd("salam alaykum", "As-salamu alaykum");
-            correctionAdd("salem alaykùm", "As-salamu alaykum");
-            correctionAdd("salam 3lekom", "As-salamu alaykum");
-            correctionAdd("alaykum", "As-salamu alaykum");
-            correctionAdd("salam", "As-salamu alaykum");
-
-            correctionAdd("allah", "Allah");
-
-            correctionAdd("sufism", "Sufism");
-
-            correctionAdd("Al quaeda", "Al-Qaeda");
-            correctionAdd("Al Quaeda", "Al-Qaeda");
-            correctionAdd("Al Quada", "Al-Qaeda");
-            correctionAdd("Al queda", "Al-Qaeda");
-            correctionAdd("Al Queda", "Al-Qaeda");
-            correctionAdd("Alquaeda", "Al-Qaeda");
-
-            correctionAdd("Scientilogy", "Scientology");
-
-            correctionAdd("roman catholic", "Roman Catholic");
-
-            correctionAdd("roman", "Roman");
-
-            correctionAdd("roman empire", "Roman Empire");
-
-            correctionAdd("roman numerals", "Roman numerals");
-
-            correctionAdd("Romani people", "Roma");
-
-            correctionAdd("Szinti", "Sinti");
-
-            // A media
-            correctionAdd("Maily Dale", "Daily Mail");
-
-            // A media
-            correctionAdd("financial times", "Financial Times");
-
-            // A media
-            correctionAdd("christian chronicle", "Christian Chronicle");
-
-            // A media
-            correctionAdd("christianity today", "Christianity Today");
-
-            correctionAdd("democrasy", "democracy");
-            correctionAdd("democrazy", "democracy");
-            correctionAdd("democacy", "democracy");
-
-            correctionAdd("democraticly", "democratically");
-
-            correctionAdd("Democratic", "democratic");
-
-            correctionAdd("Liberal democracy", "liberal democracy");
-
-            correctionAdd("parti", "party");
-
-            correctionAdd("partizan", "partisan");
-
-            correctionAdd("bi-partisan", "bipartisan");
-            correctionAdd("bi partisan", "bipartisan");
-
-            correctionAdd("conservartive", "conservative");
-            correctionAdd("Conservertive", "conservative");
-            correctionAdd("conservertive", "conservative");
-
-            // Music
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/File:2_Star_Spangled_Banner.png>
-            //
-            correctionAdd("banner", "The Star-Spangled Banner");
-
-            correctionAdd("Federal", "federal");
-
-            correctionAdd("Federally", "federally");
-
-            correctionAdd("Fed's", "feds");
-
-            // United States currency
-            correctionAdd("US Dollars", "US dollar");
-            correctionAdd("US Dollar", "US dollar");
-            correctionAdd("USD", "US dollar");
-
-            // The passport-related thing
-            correctionAdd("Visa", "visa");
-            correctionAdd("VISA", "visa");
-
-            correctionAdd("ESTA", "Electronic System for Travel Authorization");
-
-            correctionAdd("VWP", "Visa Waiver Program");
-
-            // A type of visa in the United States.
-            correctionAdd("H1(b)", "H-1B visa");
-            correctionAdd("H1-B", "H-1B visa");
-            correctionAdd("H-1B", "H-1B visa");
-            correctionAdd("H1B", "H-1B visa");
-            correctionAdd("h1b", "H-1B visa");
-            correctionAdd("H1b", "H-1B visa");
-
-            // A type of visa in the United States.
-            correctionAdd("H-2B", "H-2B visa");
-            correctionAdd("H2B", "H-2B visa");
-
-            // A type of visa in the United States.
-            correctionAdd("B-1", "B-1 visa");
-            correctionAdd("B1", "B-1 visa");
-
-            // A type of visa in the United States.
-            correctionAdd("B2 visa", "B-2 visa");
-            correctionAdd("B-2", "B-2 visa");
-            correctionAdd("B2", "B-2 visa");
-
-            // A type of visa in the United States.
-            correctionAdd("F1 visa", "F-1 visa");
-
-            // A type of visa in the United States.
-            correctionAdd("F2 visa", "F-2 visa");
-
-            // A type of visa in the United States.
-            correctionAdd("J1 visa", "J-1 visa");
-
-            // A type of visa in the United States.
-            correctionAdd("H-4", "H-4 visa");
-            correctionAdd("H4", "H-4 visa");
-
-            // A United States college-level course and examination
-            correctionAdd("Advanced Placement United States History", "AP United States History");
-            correctionAdd("APUSH", "AP United States History");
-
-            // United States
-            correctionAdd("ofac", "OFAC");
-
-            // United States
-            correctionAdd("TAA", "Trade Agreements Act of 1979");
-
-            correctionAdd("noreaster", "nor'easter");
-
-            // A United States state
-            correctionAdd("alaska", "Alaska, United States");
-            correctionAdd("Alaska", "Alaska, United States");
-            correctionAdd("AK", "Alaska, United States");
-
-            // A United States state
-            correctionAdd("Minnesota", "Minnesota, United States");
-            correctionAdd("MN", "Minnesota, United States");
-
-            // A United States state
-            correctionAdd("michigan", "Michigan, United States");
-            correctionAdd("Michigan", "Michigan, United States");
-
-            // Note: "Kansas" is in an alternative word set
-            correctionAdd("aren't in kansas anymore", "aren't in Kansas anymore");
-
-            // A United States state
-            correctionAdd("Colerado", "Colorado, United States");
-            correctionAdd("Colorado", "Colorado, United States");
-
-            // A United States state
-            correctionAdd("Arizona", "Arizona, United States");
-            correctionAdd("AZ", "Arizona, United States");
-
-            correctionAdd("grand canyon", "Grand Canyon");
-            correctionAdd("grandcanyon", "Grand Canyon");
-            correctionAdd("the Canyon", "Grand Canyon");
-
-            // A United States state
-            correctionAdd("New Mexico", "New Mexico, United States");
-            correctionAdd("NM", "New Mexico, United States");
-
-            // In Nevada
-            //
-            // Note: "Nevada, United States" is in an alternative word set
-            correctionAdd("Las Vegas", "Las Vegas, Nevada, United States");
-            correctionAdd("Vegas", "Las Vegas, Nevada, United States");
-
-            // A United States state
-            correctionAdd("California", "California, United States");
-            correctionAdd("Cali", "California, United States");
-
-            correctionAdd("death valley", "Death Valley");
-            correctionAdd("Daeth Valley", "Death Valley"); // A true typo
-
-            correctionAdd("SoCal", "Southern California");
-            correctionAdd("socal", "Southern California");
-
-            correctionAdd("silicone valley", "Silicon Valley");
-            correctionAdd("Silicone valley", "Silicon Valley");
-            correctionAdd("Silicone Valley", "Silicon Valley");
-            correctionAdd("Silican Valley", "Silicon Valley");
-            correctionAdd("silicon valley", "Silicon Valley");
-            correctionAdd("Silicon valley", "Silicon Valley");
-            correctionAdd("Silicon Vallay", "Silicon Valley");
-            correctionAdd("The Valley", "Silicon Valley");
-
-            correctionAdd("bay area", "Bay Area");
-            correctionAdd("Bay area", "Bay Area");
-
-            correctionAdd("The San Andreas Fault", "San Andreas Fault");
-            correctionAdd("San Andreas fault", "San Andreas Fault");
-
-            correctionAdd("Caltechc", "California Institute of Technology");
-            correctionAdd("Caltech", "California Institute of Technology");
-            correctionAdd("caltech", "California Institute of Technology");
-
-            correctionAdd("UC Berkeley", "University of California, Berkeley");
-            correctionAdd("Berekeley", "University of California, Berkeley");
-            correctionAdd("Berkeley", "University of California, Berkeley");
-            correctionAdd("Cal", "University of California, Berkeley");
-
-            // A song, with many interpretations.
-            // Alternative URLs:
-            //
-            //   <https://www.youtube.com/watch?v=09839DpTctU>
-            //
-            correctionAdd("hotel california", "Hotel California");
-
-            // A United States state
-            correctionAdd("Hawaii", "Hawaii, United States");
-            correctionAdd("Hawai", "Hawaii, United States");
-
-            // A United States state
-            correctionAdd("Texas", "Texas, United States");
-            correctionAdd("texas", "Texas, United States");
-
-            // Texas
-            correctionAdd("Abbott", "Greg Abbott");
-            correctionAdd("Greg", "Greg Abbott");
-
-            // A United States state
-            correctionAdd("alabama", "Alabama, United States");
-            correctionAdd("Alabama", "Alabama, United States");
-
-            // A United States state
-            correctionAdd("wisconsin", "Wisconsin, United States");
-            correctionAdd("Wisconsin", "Wisconsin, United States");
-            correctionAdd("WI", "Wisconsin, United States");
-
-            // A United States state
-            correctionAdd("kentucky", "Kentucky, United States");
-            correctionAdd("Kentucky", "Kentucky, United States");
-            correctionAdd("KY", "Kentucky, United States");
-
-            // In Kentucky...
-            correctionAdd("mammoth cave", "Mammoth Cave");
-
-            // A United States state
-            correctionAdd("louisiana", "Louisiana, United States");
-            correctionAdd("Louisiana", "Louisiana, United States");
-
-            // A United States state
-            correctionAdd("oklahoma", "Oklahoma, United States");
-            correctionAdd("Oklahoma", "Oklahoma, United States");
-
-            // A United States state
-            correctionAdd("south carolina", "South Carolina, United States");
-            correctionAdd("South Carolina", "South Carolina, United States");
-
-            // A United States state
-            correctionAdd("North Carolina", "North Carolina, United States");
-            correctionAdd("NC", "North Carolina, United States");
-
-            // A United States state
-            correctionAdd("West Vergenia", "West Virginia, United States");
-            correctionAdd("West Verginia", "West Virginia, United States");
-            correctionAdd("West Virginia", "West Virginia, United States");
-            correctionAdd("WV", "West Virginia, United States");
-
-            // A United States state
-            correctionAdd("Tennessee", "Tennessee, United States");
-            correctionAdd("TN", "Tennessee, United States");
-
-            // A United States city
-            correctionAdd("nashville", "Nashville");
-
-            // A United States state
-            correctionAdd("vermont", "Vermont, United States");
-            correctionAdd("Vermont", "Vermont, United States");
-
-            // A United States state
-            correctionAdd("florida", "Florida, United States");
-            correctionAdd("Florida", "Florida, United States");
-            correctionAdd("Fla", "Florida, United States");
-
-            // A United States state
-            correctionAdd("Mississippi", "Mississippi, United States");
-            correctionAdd("Missisippi", "Mississippi, United States");
-            correctionAdd("missisippi", "Mississippi, United States");
-
-            // A United States city
-            correctionAdd("New York City", "New York");
-            correctionAdd("New York city", "New York");
-            correctionAdd("NEW YORK", "New York");
-            correctionAdd("new york", "New York");
-            correctionAdd("NewYork", "New York");
-            correctionAdd("NYC", "New York");
-
-            correctionAdd("9/11", "September 11 attacks");
-            correctionAdd("9/11 attacks", "September 11 attacks");
-
-            // Stock market related
-            correctionAdd("wall street", "Wall Street");
-
-            // Stock market related
-            correctionAdd("NYSE", "New York Stock Exchange");
-
-            correctionAdd("goldman sachs", "Goldman Sachs");
-
-            correctionAdd("BofA", "Bank of America");
-            correctionAdd("BoA", "Bank of America");
-            correctionAdd("BAC", "Bank of America");
-
-            // An actual (physical) lake... United States / Canada
-            correctionAdd("lake Erie", "Lake Erie");
-
-            // United States / Canada
-            correctionAdd("Great lakes", "Great Lakes");
-
-            // United States city
-            correctionAdd("detroit", "Detroit");
-
-            // United States city, relatively close to Vancouver.
-            correctionAdd("seattle", "Seattle");
-
-            // United States city
-            correctionAdd("san diego", "San Diego");
-
-            // United States city
-            correctionAdd("washington", "Washington");
-
-            // United States city
-            correctionAdd("District of Columbia", "Washington, D.C.");
-            correctionAdd("Washington D.C", "Washington, D.C.");
-            correctionAdd("Wash DC", "Washington, D.C.");
-            correctionAdd("Wash", "Washington, D.C.");
-            correctionAdd("D.C", "Washington, D.C.");
-
-            // United States city. A synonym of "Washington, D.C."?
-            // Or a superset?
-            correctionAdd("National Capital Region", "Washington metropolitan area");
-            correctionAdd("DMV", "Washington metropolitan area"); // District Maryland Virginia.
-
-            // United States city
-            correctionAdd("Philly", "Philadelphia");
-
-            // United States city
-            correctionAdd("boston", "Boston");
-
-            // United States city
-            correctionAdd("NOLA", "New Orleans");
-
-            // United States city
-            correctionAdd("houston", "Houston");
-
-            // United States
-            correctionAdd("Gitmo", "Guantanamo Bay Naval Base");
-            correctionAdd("GTMO", "Guantanamo Bay Naval Base");
-
-            // United States
-            correctionAdd("Ohio State", "Ohio State University");
-
-            // United States
-            correctionAdd("Penn State", "Pennsylvania State University");
-            correctionAdd("UPenn", "Pennsylvania State University");
-            correctionAdd("Penn", "Pennsylvania State University");
-
-            // United States
-            correctionAdd("Carnegie Mellon", "Carnegie Mellon University");
-            correctionAdd("CMU", "Carnegie Mellon University");
-
-            correctionAdd("ivy league", "Ivy League");
-            correctionAdd("Ivey", "Ivy League");
-
-            correctionAdd("princeton", "Princeton");
-
-            // United States
-            correctionAdd("Harvard", "Harvard University");
-
-            correctionAdd("harvardian", "Harvardian");
-
-            // United States
-            correctionAdd("Tufts", "Tufts University");
-
-            // United States
-            correctionAdd("Yale", "Yale University");
-
-            // United States
-            correctionAdd("University of Illinois", "University of Illinois Urbana-Champaign");
-            correctionAdd("U Illinois", "University of Illinois Urbana-Champaign");
-
-            // United States
-            correctionAdd("Cornell university", "Cornell University");
-            correctionAdd("Cornell", "Cornell University");
-            correctionAdd("cornell", "Cornell University");
-
-            // United States newspaper
-            correctionAdd("washington post", "The Washington Post");
-            correctionAdd("the Post", "The Washington Post");
-            correctionAdd("WaPo", "The Washington Post");
-
-            // United States newspaper
-            correctionAdd("New York Times", "The New York Times");
-            correctionAdd("NY Times", "The New York Times");
-            correctionAdd("NYTimes", "The New York Times");
-            correctionAdd("NYtimes", "The New York Times");
-            correctionAdd("NYT-", "The New York Times");
-            correctionAdd("NYT", "The New York Times");
-
-            correctionAdd("forbes", "Forbes");
-
-            correctionAdd("DOJ", "United States Department of Justice");
-            correctionAdd("DoJ", "United States Department of Justice");
-
-            correctionAdd("USDA", "United States Department of Agriculture");
-
-            correctionAdd("United States Department of Defence", "United States Department of Defense");
-            correctionAdd("departement of defence", "United States Department of Defense");
-            correctionAdd("DOD", "United States Department of Defense");
-            correctionAdd("DoD", "United States Department of Defense");
-
-            correctionAdd("Department Of Homelander Security", "United States Department of Homeland Security");
-            correctionAdd("Department of Homeland Security", "United States Department of Homeland Security");
-
-            // United States
-            correctionAdd("NSA", "National Security Agency");
-            correctionAdd("nsa", "National Security Agency");
-
-            correctionAdd("fbi", "FBI");
-
-            correctionAdd("chairforce", "United States Air Force");
-            correctionAdd("Air Force", "United States Air Force");
-
-            correctionAdd("the Congress", "United States Congress");
-
-            correctionAdd("CBP", "United States Customs and Border Protection");
-
-            correctionAdd("AG", "attorney general");
-
-            correctionAdd("ammendment", "amendment");
-
-            // United States
-            correctionAdd("first amendment", "First Amendment");
-
-            // United States
-            correctionAdd("fifth amendment", "Fifth Amendment");
-
-            // United States
-            correctionAdd("sixth amendment", "Sixth Amendment");
-
-            // United States
-            correctionAdd("fourth amendment", "Fourth Amendment");
-
-            // United States
-            correctionAdd("third amendment", "Third Amendment");
-
-            // United States politics
-            correctionAdd("balance and checks", "checks and balances");
-
-            // United States politics
-            correctionAdd("Biden", "Joe Biden");
-            correctionAdd("biden", "Joe Biden");
-
-            // United States politics
-            correctionAdd("DEMS", "Democrats");
-            correctionAdd("dems", "Democrats");
-
-            // United States politics
-            correctionAdd("republican", "Republican");
-
-            correctionAdd("the elephant party", "Republican Party");
-            correctionAdd("republican party", "Republican Party");
-            correctionAdd("GOP", "Republican Party");
-
-            // United States politics
-            correctionAdd("Bush", "George W. Bush");
-
-            // United States politics
-            //
-            // Alternative URL: <https://politics.stackexchange.com/questions/77801/what-do-woke-and-cancel-groups-call-themselves>
-            correctionAdd("Social Justice Warrior", "SJW");
-            correctionAdd("social justice warrior", "SJW");
-            correctionAdd("sjw", "SJW");
-            correctionAdd("swj", "SJW");
-
-            // United States politics
-            //
-            // Alternative URL: <https://politics.stackexchange.com/questions/77801/what-do-woke-and-cancel-groups-call-themselves>
-            correctionAdd("bible thumper", "Bible thumper");
-
-            // United States politics
-            //
-            // Alternative URL: <https://politics.stackexchange.com/questions/77801/what-do-woke-and-cancel-groups-call-themselves>
-            correctionAdd("gun nut", "firearms enthusiast");
-
-            // United States politics
-            //
-            // Alternative URL: <https://politics.stackexchange.com/questions/77801/what-do-woke-and-cancel-groups-call-themselves>
-            correctionAdd("Welfare queen", "welfare queen");
-
-            // United States politics
-            correctionAdd("maga", "Make America Great Again");
-            correctionAdd("MAGA", "Make America Great Again");
-
-            // United States politics
-            correctionAdd("state of the union", "State of the Union Address");
-            correctionAdd("SOTU", "State of the Union Address");
-
-            // A United States pension scheme
-            correctionAdd("401k", "401(k)");
-            correctionAdd("41k", "401(k)");
-
-            correctionAdd("Url Fetch Service", "URL Fetch Service");
-
-            // United States politics
-            correctionAdd("Lincoln", "Abraham Lincoln");
-            correctionAdd("Abe", "Abraham Lincoln");
-
-            correctionAdd("Ben Franklin", "Benjamin Franklin");
-            correctionAdd("Franklin", "Benjamin Franklin");
-
-            correctionAdd("muders", "murders");
-
-            correctionAdd("george floyd", "George Floyd");
-
-            correctionAdd("karen", "Karen");
-
-            correctionAdd("Q-Anon", "QAnon");
-            correctionAdd("qanon", "QAnon");
-
             correctionAdd("sort-of", "sort of");
             correctionAdd("sorta", "sort of");
 
@@ -80111,6 +80122,7 @@ namespace OverflowHelper.core
 
             correctionAdd("commmit", "commit");
             correctionAdd("Commmit", "commit");
+            correctionAdd("coommit", "commit");
             correctionAdd("Commit", "commit");
 
             correctionAdd("commited", "committed");
@@ -84468,6 +84480,9 @@ namespace OverflowHelper.core
             //
             // Alternative URLs:
             //
+            //   <https://josef-adamcik.cz/electronics/let-me-introduce-you-sofle-keyboard-split-keyboard-based-on-lily58.html>
+            //     Claims "SofleKeyboard"
+            //
             //   <https://www.etsy.com/market/sofle_keyboard>
             //   <https://customkbd.com/products/sofle-keyboard-kit-v2-1-rgb>
             //     V2.1. "Pro Micros or Sea Micro"
@@ -84491,16 +84506,17 @@ namespace OverflowHelper.core
             //
             //     Build: qmk compile -kb sofle -km via -e CONVERT_TO=promicro_rp2040
             //
-            correctionAdd("SofleKeyboard", "Sofle keyboard");
-            correctionAdd("Sofle v2", "Sofle keyboard");
-            correctionAdd("sofle v2", "Sofle keyboard");
-            correctionAdd("souffle", "Sofle keyboard");
-            correctionAdd("Sofles", "Sofle keyboard");
-            correctionAdd("Solfe", "Sofle keyboard");
-            correctionAdd("sofle", "Sofle keyboard");
-            correctionAdd("Sofle", "Sofle keyboard");
-            correctionAdd("SOFLE", "Sofle keyboard");
-            correctionAdd("Sofl", "Sofle keyboard");
+            correctionAdd("Sofle keyboard", "Sofle Keyboard");
+            correctionAdd("SofleKeyboard", "Sofle Keyboard");
+            correctionAdd("Sofle v2", "Sofle Keyboard");
+            correctionAdd("sofle v2", "Sofle Keyboard");
+            correctionAdd("souffle", "Sofle Keyboard");
+            correctionAdd("Sofles", "Sofle Keyboard");
+            correctionAdd("Solfe", "Sofle Keyboard");
+            correctionAdd("sofle", "Sofle Keyboard");
+            correctionAdd("Sofle", "Sofle Keyboard");
+            correctionAdd("SOFLE", "Sofle Keyboard");
+            correctionAdd("Sofl", "Sofle Keyboard");
 
             // A 58-key (55%) crippled split mechanical keyboard.
             //
@@ -90792,6 +90808,7 @@ namespace OverflowHelper.core
             correctionAdd("Q11 Ultra", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)");
             correctionAdd("Q11 ultra", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)");
             correctionAdd("q11 Ultra", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)");
+            correctionAdd("q11 ultra", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)");
 
             // A 91-key (85%. Not true TKL) crippled low-profile
             // wired and wireless (only Bluetooth) QMK/Via-capable
@@ -131352,7 +131369,7 @@ namespace OverflowHelper.core
 
             URL_Add("Piantor", "https://shop.beekeeb.com/product/pre-soldered-piantor-split-keyboard/");
 
-            URL_Add("Sofle keyboard", "https://josefadamcik.github.io/SofleKeyboard/");
+            URL_Add("Sofle Keyboard", "https://josefadamcik.github.io/SofleKeyboard/");
 
             URL_Add("NuPhy Air60 V2", "https://github.com/nuphy-src/qmk_firmware/tree/nuphy-keyboards/keyboards/nuphy/air60_v2/ansi");
 
@@ -132450,8 +132467,6 @@ namespace OverflowHelper.core
 
             URL_Add("Remez function algorithm", "https://en.wikipedia.org/wiki/Remez_algorithm");
 
-            URL_Add("raison d'être", "https://en.wiktionary.org/wiki/raison_d%27%C3%AAtre#Noun");
-
             URL_Add("hell", "https://en.wiktionary.org/wiki/hell#Proper_noun");
 
             URL_Add("when Hell freezes over", "https://en.wiktionary.org/wiki/when_Hell_freezes_over#Adverb");
@@ -132482,11 +132497,7 @@ namespace OverflowHelper.core
 
             URL_Add("loosey-goosey", "https://en.wiktionary.org/wiki/loosey-goosey#Adjective");
 
-            URL_Add("loose coupling", "https://en.wikipedia.org/wiki/Loose_coupling");
-
-            URL_Add("loosely coupled", "https://en.wikipedia.org/wiki/Loose_coupling");
-
-            URL_Add("DLL&nbsp;Hell", "https://en.wikipedia.org/wiki/DLL_Hell");
+            URL_Add("raison d'être", "https://en.wiktionary.org/wiki/raison_d%27%C3%AAtre#Noun");
 
             URL_Add("coup d’état", "https://en.wiktionary.org/wiki/coup_d%27%C3%A9tat#Noun");
 
@@ -132494,15 +132505,27 @@ namespace OverflowHelper.core
 
             URL_Add("coupon code", "https://en.wikipedia.org/wiki/Coupon#Electronic");
 
-            URL_Add("a couple of", "https://www.merriam-webster.com/dictionary/a%20couple%20of");
+            URL_Add("loose coupling", "https://en.wikipedia.org/wiki/Loose_coupling");
 
-            URL_Add("coupling", "https://en.wikipedia.org/wiki/Coupling_(computer_programming)");
+            URL_Add("DLL&nbsp;Hell", "https://en.wikipedia.org/wiki/DLL_Hell");
 
             URL_Add("cohesion", "https://en.wikipedia.org/wiki/Cohesion_(computer_science)");
 
+            URL_Add("loosely coupled", "https://en.wikipedia.org/wiki/Loose_coupling");
+
             URL_Add("coupled", "https://en.wiktionary.org/wiki/couple#Verb");
 
+            URL_Add("coupling", "https://en.wikipedia.org/wiki/Coupling_(computer_programming)");
+
             URL_Add("decoupling", "https://en.wikipedia.org/wiki/Decoupling_(electronics)");
+
+            URL_Add("a couple of", "https://www.merriam-webster.com/dictionary/a%20couple%20of");
+
+            URL_Add("a couple of thousand", "https://jakubmarian.com/several-thousands-of-vs-several-thousand-in-english/");
+
+            URL_Add("thousand", "https://en.wiktionary.org/wiki/thousand#Numeral");
+
+            URL_Add("thousands", "https://en.wiktionary.org/wiki/thousand#Numeral");
 
             URL_Add("optocoupler", "https://en.wikipedia.org/wiki/Opto-isolator");
 
@@ -134649,12 +134672,6 @@ namespace OverflowHelper.core
             URL_Add("resilience", "https://en.wiktionary.org/wiki/resilience#Noun");
 
             URL_Add("compact", "https://en.wiktionary.org/wiki/compact#Noun");
-
-            URL_Add("thousand", "https://en.wiktionary.org/wiki/thousand#Numeral");
-
-            URL_Add("a couple of thousand", "https://jakubmarian.com/several-thousands-of-vs-several-thousand-in-english/");
-
-            URL_Add("thousands", "https://en.wiktionary.org/wiki/thousand#Numeral");
 
             URL_Add("dashes", "https://en.wiktionary.org/wiki/dash#Noun");
 
@@ -150474,6 +150491,7 @@ namespace OverflowHelper.core
             correctionAdd("handy_", "mobile phone_");
 
             correctionAdd("Mobile App_", "mobile app_");
+            correctionAdd("m0bile app_", "mobile app_");
 
             correctionAdd("Mobile Apps_", "mobile apps_");
 
@@ -159291,6 +159309,7 @@ namespace OverflowHelper.core
 
             correctionAdd("2-step_", "two-step_");
 
+            // The noun
             correctionAdd("copule_", "couple_");
             correctionAdd("vouple_", "couple_");
 
