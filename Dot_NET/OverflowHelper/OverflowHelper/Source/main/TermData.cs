@@ -3728,6 +3728,193 @@ namespace OverflowHelper.core
             correctionAdd("firth", "fifth");
             correctionAdd("5th", "fifth");
 
+            // Note: "free" (the adjective) is in an alternative word set
+            correctionAdd("for fee", "for free");
+
+            correctionAdd("free form", "free-form");
+
+            correctionAdd("non-free", "nonfree");
+
+            correctionAdd("un-free", "unfree");
+
+            // Alternative URL:
+            //
+            //   <https://en.wikipedia.org/wiki/There_ain%27t_no_such_thing_as_a_free_lunch>
+            //
+            correctionAdd("TANSTAAFL", "there ain't no such thing as a free lunch");
+
+            correctionAdd("hurst", "hurts");
+
+            correctionAdd("painfull", "painful");
+
+            correctionAdd("pain free", "pain-free");
+            correctionAdd("Pain free", "pain-free");
+
+            correctionAdd("pain-point", "pain point");
+            correctionAdd("painpoint", "pain point");
+
+            correctionAdd("painpoints", "pain points");
+
+            correctionAdd("pain-staking", "painstaking");
+
+            correctionAdd("painstainkingly", "painstakingly");
+            correctionAdd("painstakingling", "painstakingly");
+            correctionAdd("painstaikingly", "painstakingly");
+            correctionAdd("painstangly", "painstakingly");
+
+            correctionAdd("PAIN IN THE A**", "PITA");
+            correctionAdd("pain in the a**", "PITA");
+            correctionAdd("PAIN IN THE A", "PITA");
+            correctionAdd("pain in the a", "PITA");
+            correctionAdd("p.i.t.a", "PITA");
+            correctionAdd("pita", "PITA");
+            correctionAdd("pia", "PITA");
+            correctionAdd("PIA", "PITA");
+
+            correctionAdd("riscs", "risks");
+
+            correctionAdd("riskfree", "risk-free");
+
+            correctionAdd("high risk", "high-risk");
+
+            // Whereas it is, e.g., "adverse effects"
+            //
+            correctionAdd("risk adverse", "risk-averse");
+            correctionAdd("Risk-averse", "risk-averse");
+            correctionAdd("risk averse", "risk-averse");
+
+            correctionAdd("on my own risk", "at my own risk");
+
+            correctionAdd("on your own risk", "at your own risk");
+
+            correctionAdd("asteriscs", "asterisk");
+            correctionAdd("asterics", "asterisk");
+            correctionAdd("asteriks", "asterisk");
+            correctionAdd("Asterik", "asterisk");
+            correctionAdd("asterik", "asterisk");
+            correctionAdd("asterix", "asterisk");
+            correctionAdd("astrix", "asterisk");
+            correctionAdd("*", "asterisk");
+
+            correctionAdd("asteriskes", "asterisks");
+
+            correctionAdd("hassle free", "hasslefree");
+            correctionAdd("hassle-free", "hasslefree");
+
+            correctionAdd("hassel", "hassle");
+            correctionAdd("hustle", "hassle"); // An autocorrect "masterpiece"?
+            correctionAdd("hazzle", "hassle");
+            correctionAdd("hastle", "hassle");
+
+            correctionAdd("hazzles", "hassles");
+
+            correctionAdd("tenenat", "tenant");
+
+            correctionAdd("rent free", "rent-free");
+
+            correctionAdd("CoL", "cost of living");
+
+            correctionAdd("COLA", "cost of living adjustment");
+
+            // Internet slang
+            correctionAdd("TAFN", "that's all for now");
+            correctionAdd("tafn", "that's all for now");
+
+            // Internet slang
+            correctionAdd("afaiu", "as far as I understand");
+            correctionAdd("AFAIU", "as far as I understand");
+
+            // Internet slang (for the abbr.)
+            correctionAdd("AIUI", "as I understand it");
+
+            correctionAdd("IIUC", "if I understand correctly");
+
+            correctionAdd("stud", "stood");
+
+            correctionAdd("long standing", "long-standing");
+            correctionAdd("longstanding", "long-standing");
+
+            correctionAdd("freestanding", "free-standing");
+
+            // The noun
+            correctionAdd("stand in", "stand-in");
+            correctionAdd("standin", "stand-in");
+
+            correctionAdd("stand-point", "standpoint");
+
+            correctionAdd("refreesh", "refresh");
+            correctionAdd("Refrish", "refresh");
+            correctionAdd("refrish", "refresh");
+
+            correctionAdd("Refershing", "refreshing");
+            correctionAdd("refershing", "refreshing");
+
+            correctionAdd("value add", "value-add");
+
+            correctionAdd("value-added tax", "VAT");
+
+            correctionAdd("taxfree", "tax-free");
+
+            correctionAdd("GST", "Goods and Services Tax");
+
+            correctionAdd("excile", "exile");
+
+            correctionAdd("exgress", "egress");
+
+            correctionAdd("aggredious", "egregious");
+            correctionAdd("aggridious", "egregious");
+            correctionAdd("agredious", "egregious");
+            correctionAdd("agridious", "egregious");
+            correctionAdd("egredious", "egregious");
+
+            correctionAdd("egree", "degree");
+
+            correctionAdd("degress", "degrees");
+            correctionAdd("digrees", "degrees");
+            correctionAdd("Degrees", "degrees");
+            correctionAdd("degres", "degrees");
+
+            correctionAdd("digrees of freedom", "degrees of freedom");
+            correctionAdd("DoF", "degrees of freedom");
+            correctionAdd("DOF", "degrees of freedom");
+
+            correctionAdd("reign in", "rein in");
+
+            // Mostly for:
+            //
+            //   "2. (figurative) The absence of constraints;
+            //       freedom to make decisions."
+            //
+            correctionAdd("free reign", "free rein");
+
+            correctionAdd("free spirited", "free-spirited");
+
+            correctionAdd("re-instate", "reinstate");
+
+            correctionAdd("mein", "mean");
+            correctionAdd("msan", "mean");
+            correctionAdd("meen", "mean");
+
+            correctionAdd("menas", "means");
+            correctionAdd("men's", "means");
+            correctionAdd("mans", "means"); // Probably a true typo
+            correctionAdd("mens", "means");
+
+            correctionAdd("meaned", "meant");
+            correctionAdd("meand", "meant");
+            correctionAdd("ment", "meant");
+            correctionAdd("eant", "meant"); // Probably a true typo (involving the space bar).
+
+            correctionAdd("meaining", "meaning");
+
+            correctionAdd("meaningfull", "meaningful");
+
+            correctionAdd("meaning less", "meaningless");
+
+            correctionAdd("well meaning", "well-meaning");
+
+            correctionAdd("mean spirited", "mean-spirited");
+
             correctionAdd("free lance", "freelance");
 
             correctionAdd("Freelancer", "freelancer");
@@ -13672,8 +13859,6 @@ namespace OverflowHelper.core
             correctionAdd("bare-metal", "bare metal");
             correctionAdd("baremetal", "bare metal");
 
-            correctionAdd("free form", "free-form");
-
             correctionAdd("performe", "perform");
             correctionAdd("perfrom", "perform");
             correctionAdd("preform", "perform");
@@ -21468,6 +21653,8 @@ namespace OverflowHelper.core
             // A software tool
             //
             // Both Linux and Windows
+            //
+            // Note: "DOS" is in an alternative word set
             correctionAdd("DOS2UNIX", "dos2unix");
             correctionAdd("Dos2unix", "dos2unix");
 
@@ -24260,65 +24447,6 @@ namespace OverflowHelper.core
             correctionAdd("checkbok", "checkbox");
 
             correctionAdd("check-boxes", "checkboxes");
-
-            correctionAdd("non-free", "nonfree");
-
-            correctionAdd("un-free", "unfree");
-
-            correctionAdd("hurst", "hurts");
-
-            correctionAdd("painfull", "painful");
-
-            correctionAdd("pain free", "pain-free");
-            correctionAdd("Pain free", "pain-free");
-
-            correctionAdd("pain-point", "pain point");
-            correctionAdd("painpoint", "pain point");
-
-            correctionAdd("painpoints", "pain points");
-
-            correctionAdd("pain-staking", "painstaking");
-
-            correctionAdd("painstainkingly", "painstakingly");
-            correctionAdd("painstakingling", "painstakingly");
-            correctionAdd("painstaikingly", "painstakingly");
-            correctionAdd("painstangly", "painstakingly");
-
-            correctionAdd("PAIN IN THE A**", "PITA");
-            correctionAdd("pain in the a**", "PITA");
-            correctionAdd("PAIN IN THE A", "PITA");
-            correctionAdd("pain in the a", "PITA");
-            correctionAdd("p.i.t.a", "PITA");
-            correctionAdd("pita", "PITA");
-            correctionAdd("pia", "PITA");
-            correctionAdd("PIA", "PITA");
-
-            correctionAdd("riscs", "risks");
-
-            correctionAdd("riskfree", "risk-free");
-
-            correctionAdd("high risk", "high-risk");
-
-            // Whereas it is, e.g., "adverse effects"
-            //
-            correctionAdd("risk adverse", "risk-averse");
-            correctionAdd("Risk-averse", "risk-averse");
-            correctionAdd("risk averse", "risk-averse");
-
-            correctionAdd("on my own risk", "at my own risk");
-
-            correctionAdd("on your own risk", "at your own risk");
-
-            correctionAdd("asteriscs", "asterisk");
-            correctionAdd("asterics", "asterisk");
-            correctionAdd("asteriks", "asterisk");
-            correctionAdd("Asterik", "asterisk");
-            correctionAdd("asterik", "asterisk");
-            correctionAdd("asterix", "asterisk");
-            correctionAdd("astrix", "asterisk");
-            correctionAdd("*", "asterisk");
-
-            correctionAdd("asteriskes", "asterisks");
 
             correctionAdd("postet", "posted");
             correctionAdd("psoted", "posted");
@@ -35066,24 +35194,6 @@ namespace OverflowHelper.core
             correctionAdd("fasta", "FASTA format");
             correctionAdd("FASTA", "FASTA format");
 
-            correctionAdd("hassle free", "hasslefree");
-            correctionAdd("hassle-free", "hasslefree");
-
-            correctionAdd("hassel", "hassle");
-            correctionAdd("hustle", "hassle"); // An autocorrect "masterpiece"?
-            correctionAdd("hazzle", "hassle");
-            correctionAdd("hastle", "hassle");
-
-            correctionAdd("hazzles", "hassles");
-
-            correctionAdd("tenenat", "tenant");
-
-            correctionAdd("rent free", "rent-free");
-
-            correctionAdd("CoL", "cost of living");
-
-            correctionAdd("COLA", "cost of living adjustment");
-
             correctionAdd("indentitation", "indentation");
             correctionAdd("indendation", "indentation");
             correctionAdd("Indentation", "indentation");
@@ -35608,6 +35718,17 @@ namespace OverflowHelper.core
             correctionAdd("console app", "console application");
             correctionAdd("Console-app", "console application");
             correctionAdd("Console app", "console application");
+
+            // Note: "DOS" is in an alternative word set
+            correctionAdd("FreeDos", "FreeDOS");
+
+            correctionAdd("ReDOS", "ReDoS");
+
+            correctionAdd("qdos", "QDOS");
+
+            correctionAdd("DOS-Box", "DOSBox");
+            correctionAdd("DOSbox", "DOSBox");
+            correctionAdd("dosbox", "DOSBox");
 
             // DOS / Windows
             correctionAdd("Batch file", "batch file");
@@ -36540,10 +36661,6 @@ namespace OverflowHelper.core
             correctionAdd("IFCONFIG", "ip addr");
             correctionAdd("ifconfig", "ip addr"); // On Linux. Not incorrect, just the replacement on Linux...
             correctionAdd("ip a", "ip addr"); // On Linux. Not incorrect, just the replacement on Linux...
-
-            correctionAdd("DOS-Box", "DOSBox");
-            correctionAdd("DOSbox", "DOSBox");
-            correctionAdd("dosbox", "DOSBox");
 
             // Windows
             // Should we expand to "Blue Screen of Death"? Or "blue screen of death"?
@@ -40705,32 +40822,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Brillouin Zone", "Brillouin zone");
 
-            // Internet slang
-            correctionAdd("TAFN", "that's all for now");
-            correctionAdd("tafn", "that's all for now");
-
-            // Internet slang
-            correctionAdd("afaiu", "as far as I understand");
-            correctionAdd("AFAIU", "as far as I understand");
-
-            // Internet slang (for the abbr.)
-            correctionAdd("AIUI", "as I understand it");
-
-            correctionAdd("IIUC", "if I understand correctly");
-
-            correctionAdd("stud", "stood");
-
-            correctionAdd("long standing", "long-standing");
-            correctionAdd("longstanding", "long-standing");
-
-            correctionAdd("freestanding", "free-standing");
-
-            // The noun
-            correctionAdd("stand in", "stand-in");
-            correctionAdd("standin", "stand-in");
-
-            correctionAdd("stand-point", "standpoint");
-
             correctionAdd("inderline", "underline");
 
             correctionAdd("underly", "underlie");
@@ -42275,13 +42366,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Yikes", "yikes");
             correctionAdd("yekes", "yikes");
-
-            correctionAdd("refreesh", "refresh");
-            correctionAdd("Refrish", "refresh");
-            correctionAdd("refrish", "refresh");
-
-            correctionAdd("Refershing", "refreshing");
-            correctionAdd("refershing", "refreshing");
 
             correctionAdd("screen space", "screenspace");
 
@@ -52521,8 +52605,6 @@ namespace OverflowHelper.core
 
             correctionAdd("--funroll-loops", "-funroll-loops"); // For GCC
 
-            correctionAdd("--ffreestanding", "-ffreestanding"); // For GCC
-
             correctionAdd("--Wno-unused-result", "-Wno-unused-result"); // For GCC
 
             correctionAdd("--O1", "-O1"); // For GCC
@@ -52778,6 +52860,8 @@ namespace OverflowHelper.core
             correctionAdd("--funit-at-a-time", "-funit-at-a-time"); // For GCC
 
             correctionAdd("--Waggregate-return", "-Waggregate-return"); // For GCC
+
+            correctionAdd("--ffreestanding", "-ffreestanding"); // For GCC
 
             // C++
             correctionAdd("cpp reference", "cppreference.com");
@@ -53050,6 +53134,7 @@ namespace OverflowHelper.core
 
             correctionAdd("denial of service", "denial-of-service attack");
 
+            // Note: "DOS" is in an alternative word set
             correctionAdd("D-DOS", "DDoS");
             correctionAdd("DDOS", "DDoS");
             correctionAdd("ddos", "DDoS");
@@ -55616,16 +55701,6 @@ namespace OverflowHelper.core
             correctionAdd("channe", "channel");
             correctionAdd("chan", "channel");
 
-            correctionAdd("value add", "value-add");
-
-            correctionAdd("value-added tax", "VAT");
-
-            correctionAdd("taxfree", "tax-free");
-
-            correctionAdd("GST", "Goods and Services Tax");
-
-            correctionAdd("excile", "exile");
-
             correctionAdd("detacheable", "detachable");
 
             correctionAdd("based from", "based on");
@@ -57757,25 +57832,6 @@ namespace OverflowHelper.core
             correctionAdd("passive aggressiveness", "passive-aggressiveness");
 
             correctionAdd("non aggressively", "nonaggressively");
-
-            correctionAdd("exgress", "egress");
-
-            correctionAdd("aggredious", "egregious");
-            correctionAdd("aggridious", "egregious");
-            correctionAdd("agredious", "egregious");
-            correctionAdd("agridious", "egregious");
-            correctionAdd("egredious", "egregious");
-
-            correctionAdd("egree", "degree");
-
-            correctionAdd("degress", "degrees");
-            correctionAdd("digrees", "degrees");
-            correctionAdd("Degrees", "degrees");
-            correctionAdd("degres", "degrees");
-
-            correctionAdd("digrees of freedom", "degrees of freedom");
-            correctionAdd("DoF", "degrees of freedom");
-            correctionAdd("DOF", "degrees of freedom");
 
             correctionAdd("Firewall", "firewall");
 
@@ -62180,12 +62236,6 @@ namespace OverflowHelper.core
             correctionAdd("go South", "go south");
 
             correctionAdd("went South", "went south");
-
-            // Alternative URL:
-            //
-            //   <https://en.wikipedia.org/wiki/There_ain%27t_no_such_thing_as_a_free_lunch>
-            //
-            correctionAdd("TANSTAAFL", "there ain't no such thing as a free lunch");
 
             correctionAdd("die to", "due to"); // A true typo
             correctionAdd("do to", "due to");
@@ -76154,17 +76204,6 @@ namespace OverflowHelper.core
             correctionAdd("in absence", "in the absence of");
             correctionAdd("in absense", "in the absence of");
 
-            correctionAdd("reign in", "rein in");
-
-            // Mostly for:
-            //
-            //   "2. (figurative) The absence of constraints;
-            //       freedom to make decisions."
-            //
-            correctionAdd("free reign", "free rein");
-
-            correctionAdd("re-instate", "reinstate");
-
             correctionAdd("essense", "essence");
 
             correctionAdd("nusiance", "nuisance");
@@ -82814,32 +82853,6 @@ namespace OverflowHelper.core
 
             correctionAdd("it'd", "it’d");
             correctionAdd("itd", "it’d");
-
-            correctionAdd("mein", "mean");
-            correctionAdd("msan", "mean");
-            correctionAdd("meen", "mean");
-
-            correctionAdd("menas", "means");
-            correctionAdd("men's", "means");
-            correctionAdd("mans", "means"); // Probably a true typo
-            correctionAdd("mens", "means");
-
-            correctionAdd("meaned", "meant");
-            correctionAdd("meand", "meant");
-            correctionAdd("ment", "meant");
-            correctionAdd("eant", "meant"); // Probably a true typo (involving the space bar).
-
-            correctionAdd("meaining", "meaning");
-
-            correctionAdd("meaningfull", "meaningful");
-
-            correctionAdd("meaning less", "meaningless");
-
-            correctionAdd("well meaning", "well-meaning");
-
-            correctionAdd("mean spirited", "mean-spirited");
-
-            correctionAdd("free spirited", "free-spirited");
 
             correctionAdd("developped", "developed");
             correctionAdd("Developped", "developed");
@@ -99862,12 +99875,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Nichrome", "nichrome");
 
-            correctionAdd("FreeDos", "FreeDOS");
-
-            correctionAdd("ReDOS", "ReDoS");
-
-            correctionAdd("qdos", "QDOS");
-
             // Perl
             correctionAdd("CMP", "cmp()");
             correctionAdd("cmp", "cmp()");
@@ -108961,8 +108968,6 @@ namespace OverflowHelper.core
 
             URL_Add("AutoHotkey", "https://en.wikipedia.org/wiki/AutoHotkey");
 
-            URL_Add("FreeMat", "https://en.wikipedia.org/wiki/FreeMat");
-
             URL_Add("QR code", "https://en.wikipedia.org/wiki/QR_code");
 
             URL_Add("Yii", "https://en.wikipedia.org/wiki/Yii");
@@ -109357,8 +109362,6 @@ namespace OverflowHelper.core
 
             URL_Add("Airbnb", "https://en.wikipedia.org/wiki/Airbnb");
 
-            URL_Add("FreeBSD", "https://en.wikipedia.org/wiki/FreeBSD");
-
             URL_Add("Nautilus", "https://en.wikipedia.org/wiki/GNOME_Files");
 
             URL_Add("WinSCP", "https://en.wikipedia.org/wiki/WinSCP");
@@ -109488,8 +109491,6 @@ namespace OverflowHelper.core
             URL_Add("retrieve", "https://en.wiktionary.org/wiki/retrieve#Verb"); // Old: https://en.wiktionary.org/wiki/retrieve
 
             URL_Add("resource", "https://en.wiktionary.org/wiki/resource#Noun");
-
-            URL_Add("FreeRTOS", "https://en.wikipedia.org/wiki/FreeRTOS");
 
             URL_Add("Vue.js", "https://en.wikipedia.org/wiki/Vue.js");
 
@@ -110812,8 +110813,6 @@ namespace OverflowHelper.core
             URL_Add("xperf", "https://docs.microsoft.com/en-us/windows-hardware/test/wpt/");
 
             URL_Add("Christmas", "https://en.wiktionary.org/wiki/Christmas#Proper_noun");
-
-            URL_Add("Freenode", "https://en.wikipedia.org/wiki/Freenode");
 
             URL_Add("palette", "https://en.wiktionary.org/wiki/palette#Noun");
 
@@ -112192,8 +112191,6 @@ namespace OverflowHelper.core
             URL_Add("Delicious", "https://en.wikipedia.org/wiki/Delicious_(website)");
 
             URL_Add("EditPlus", "https://en.wikipedia.org/wiki/EditPlus");
-
-            URL_Add("FreeCommander", "https://freecommander.com/en/summary/");
 
             URL_Add("JMS", "https://en.wikipedia.org/wiki/Java_Message_Service");
 
@@ -118585,8 +118582,6 @@ namespace OverflowHelper.core
 
             URL_Add("licenced", "https://en.wiktionary.org/wiki/licence#Verb");
 
-            URL_Add("rent-free", "https://en.wiktionary.org/wiki/rent-free#Adjective");
-
             URL_Add("technically", "https://en.wiktionary.org/wiki/technically#Adverb");
 
             URL_Add("prefill", "https://en.wiktionary.org/wiki/prefill#Verb");
@@ -119276,8 +119271,6 @@ namespace OverflowHelper.core
             URL_Add("SLF4J", "https://en.wikipedia.org/wiki/SLF4J");
 
             URL_Add("triple", "https://en.wiktionary.org/wiki/triple#Adjective");
-
-            URL_Add("GNU FreeFont", "https://en.wikipedia.org/wiki/GNU_FreeFont");
 
             URL_Add("Islamophobic", "https://en.wiktionary.org/wiki/Islamophobic#Adjective");
 
@@ -120844,8 +120837,6 @@ namespace OverflowHelper.core
             URL_Add("graphics card", "https://en.wikipedia.org/wiki/Graphics_card");
 
             URL_Add("unaccessible", "https://en.wiktionary.org/wiki/unaccessible#Adjective");
-
-            URL_Add("blatant plagiarism on Quora", "https://www.quora.com/What-is-the-best-free-comment-plugin-for-WordPress/answer/Keshav-Infotech-2");
 
             URL_Add("changes", "https://en.wiktionary.org/wiki/change#Noun");
 
@@ -123743,8 +123734,6 @@ namespace OverflowHelper.core
 
             URL_Add("Option key", "https://en.wikipedia.org/wiki/Option_key");
 
-            URL_Add("FreeCAD", "https://en.wikipedia.org/wiki/FreeCAD");
-
             URL_Add("inertia", "https://en.wiktionary.org/wiki/inertia#Noun");
 
             URL_Add("internships", "https://en.wiktionary.org/wiki/internship#Noun");
@@ -126497,20 +126486,6 @@ namespace OverflowHelper.core
 
             URL_Add("time window", "https://en.wiktionary.org/wiki/time_window#Noun");
 
-            URL_Add("asterisk", "https://en.wiktionary.org/wiki/asterisk#Noun");
-
-            URL_Add("asterisks", "https://en.wiktionary.org/wiki/asterisk#Noun");
-
-            URL_Add("risks", "https://en.wiktionary.org/wiki/risk#Noun");
-
-            URL_Add("high-risk", "https://en.wiktionary.org/wiki/high-risk#Adjective");
-
-            URL_Add("risk-free", "https://en.wiktionary.org/wiki/risk-free#Adjective");
-
-            URL_Add("at my own risk", "https://en.wiktionary.org/wiki/at_one%27s_own_risk#Prepositional_phrase");
-
-            URL_Add("at your own risk", "https://en.wiktionary.org/wiki/at_one%27s_own_risk#Prepositional_phrase");
-
             URL_Add("CARA", "https://en.wikipedia.org/wiki/Risk_aversion#Absolute_risk_aversion");
 
             URL_Add("risk-averse", "https://en.wiktionary.org/wiki/risk-averse#Adjective");
@@ -127145,10 +127120,6 @@ namespace OverflowHelper.core
 
             URL_Add("A2DP", "https://en.wikipedia.org/wiki/List_of_Bluetooth_profiles#Advanced_Audio_Distribution_Profile_(A2DP)");
 
-            URL_Add("HFP", "https://en.wikipedia.org/wiki/List_of_Bluetooth_profiles#Hands-Free_Profile_(HFP)");
-
-            URL_Add("HSP", "https://en.wikipedia.org/wiki/List_of_Bluetooth_profiles#Headset_Profile_(HSP)");
-
             URL_Add("investigate", "https://en.wiktionary.org/wiki/investigate#Verb");
 
             URL_Add("investigated", "https://en.wiktionary.org/wiki/investigate#Verb");
@@ -127258,8 +127229,6 @@ namespace OverflowHelper.core
             URL_Add("rollover", "https://en.wiktionary.org/wiki/rollover#Noun");
 
             URL_Add("Aerospike", "https://en.wikipedia.org/wiki/Aerospike_(database)");
-
-            URL_Add("pain-free", "https://en.wiktionary.org/wiki/pain-free#Adjective");
 
             URL_Add("RP2040", "https://en.wikipedia.org/wiki/RP2040");
 
@@ -127624,28 +127593,6 @@ namespace OverflowHelper.core
             URL_Add("binary max heap", "https://en.wikipedia.org/wiki/Binary_heap");
 
             URL_Add("Namecheap", "https://en.wikipedia.org/wiki/Namecheap");
-
-            URL_Add("memcpy()", "https://en.wikipedia.org/wiki/C_string_handling#Functions");
-
-            URL_Add("strcmp()", "https://en.wikipedia.org/wiki/C_string_handling#Functions");
-
-            URL_Add("strncpy()", "https://en.wikipedia.org/wiki/C_string_handling#Functions");
-
-            URL_Add("memset()", "https://en.wikipedia.org/wiki/C_string_handling#Functions");
-
-            URL_Add("abort()", "https://en.cppreference.com/w/c/program/abort");
-
-            URL_Add("fgets()", "https://en.wikipedia.org/wiki/C_file_input/output#Functions");
-
-            URL_Add("popen()", "https://en.wikipedia.org/wiki/C_file_input/output#Functions");
-
-            URL_Add("terminate()", "https://en.cppreference.com/w/cpp/error/terminate.html");
-
-            URL_Add("malloc()", "https://en.wikipedia.org/wiki/C_dynamic_memory_allocation");
-
-            URL_Add("realloc()", "https://en.wikipedia.org/wiki/C_dynamic_memory_allocation");
-
-            URL_Add("free()", "https://en.wikipedia.org/wiki/C_dynamic_memory_allocation");
 
             URL_Add("deprival", "https://en.wiktionary.org/wiki/deprival#Noun");
 
@@ -128077,8 +128024,6 @@ namespace OverflowHelper.core
 
             URL_Add("spam", "https://en.wikipedia.org/wiki/Spamming");
 
-            URL_Add("Freeciv", "https://en.wikipedia.org/wiki/Freeciv");
-
             URL_Add("spammed", "https://en.wiktionary.org/wiki/spam#Verb");
 
             URL_Add("rumoured", "https://en.wiktionary.org/wiki/rumour#Verb");
@@ -128132,8 +128077,6 @@ namespace OverflowHelper.core
             URL_Add("miserably", "https://en.wiktionary.org/wiki/miserably#Adverb");
 
             URL_Add("checksumming", "https://en.wiktionary.org/wiki/checksum#Verb");
-
-            URL_Add("nonfree", "https://en.wiktionary.org/wiki/nonfree#Adjective");
 
             URL_Add("Hindus", "https://en.wiktionary.org/wiki/Hindu#Noun");
 
@@ -128867,8 +128810,6 @@ namespace OverflowHelper.core
 
             URL_Add("LMZA", "https://en.wikipedia.org/wiki/LZMA");
 
-            URL_Add("unfree", "https://en.wiktionary.org/wiki/unfree#Adjective");
-
             URL_Add("summarises", "https://en.wiktionary.org/wiki/summarise#Verb");
 
             URL_Add("clickiness", "https://en.wiktionary.org/wiki/clickiness#Noun");
@@ -129160,8 +129101,6 @@ namespace OverflowHelper.core
             URL_Add("Chinese New Year", "https://en.wikipedia.org/wiki/Chinese_New_Year");
 
             URL_Add("years of experience", "https://en.wiktionary.org/wiki/YOE#Noun");
-
-            URL_Add("final year project", "https://acronyms.thefreedictionary.com/FYP");
 
             URL_Add("day one", "https://en.wiktionary.org/wiki/day_one#Adverb");
 
@@ -129839,28 +129778,6 @@ namespace OverflowHelper.core
 
             URL_Add("Invidious", "https://invidious.io/");
 
-            URL_Add("in the right direction", "https://idioms.thefreedictionary.com/go+in+the+right+direction");
-
-            URL_Add("all day and every day", "https://idioms.thefreedictionary.com/all+day+and+every+day");
-
-            URL_Add("on a silver platter", "https://idioms.thefreedictionary.com/on+a+silver+platter");
-
-            URL_Add("pluses and minuses", "https://www.classicthesaurus.com/pluses_and_minuses/synonyms/idiom");
-
-            URL_Add("worked for me", "https://idioms.thefreedictionary.com/works+for+me");
-
-            URL_Add("to our faces", "https://idioms.thefreedictionary.com/to+our+faces");
-
-            URL_Add("not one iota", "https://idioms.thefreedictionary.com/not+one+iota");
-
-            URL_Add("hint, hint", "https://www.idioms.online/hint-hint/");
-
-            URL_Add("in my eye", "https://idioms.thefreedictionary.com/in+my+eye");
-
-            URL_Add("focus on", "https://idioms.thefreedictionary.com/focus+on");
-
-            URL_Add("focusing on", "https://idioms.thefreedictionary.com/focus+on");
-
             URL_Add("friendly", "https://en.wiktionary.org/wiki/friendly#Adjective");
 
             URL_Add("trailing", "https://en.wiktionary.org/wiki/trailing#Adjective");
@@ -130223,24 +130140,6 @@ namespace OverflowHelper.core
 
             URL_Add("dereferences", "https://en.wiktionary.org/wiki/dereference#Noun");
 
-            URL_Add("bug", "https://en.wiktionary.org/wiki/bug#Noun");
-
-            URL_Add("bugs", "https://en.wiktionary.org/wiki/bug#Noun");
-
-            URL_Add("buggy", "https://en.wiktionary.org/wiki/buggy#Adjective");
-
-            URL_Add("bugginess", "https://en.wiktionary.org/wiki/bugginess#Noun");
-
-            URL_Add("bugfree", "https://en.wiktionary.org/wiki/bugfree#Adjective");
-
-            URL_Add("bugfix", "https://en.wiktionary.org/wiki/bugfix#Noun");
-
-            URL_Add("bug tracker", "https://en.wikipedia.org/wiki/Bug_tracking_system");
-
-            URL_Add("Bugzilla", "https://en.wikipedia.org/wiki/Bugzilla");
-
-            URL_Add("Bugs Bunny", "https://en.wikipedia.org/wiki/Bugs_Bunny");
-
             URL_Add("buying", "https://en.wiktionary.org/wiki/buy#Verb");
 
             URL_Add("buy-in", "https://en.wiktionary.org/wiki/buy-in#Noun");
@@ -130342,10 +130241,6 @@ namespace OverflowHelper.core
             URL_Add("Yay", "https://github.com/Jguer/yay");
 
             URL_Add("Picocli", "https://github.com/remkop/picocli");
-
-            URL_Add("AndOTP", "https://github.com/andOTP/andOTP");
-
-            URL_Add("FreeOTP", "https://en.wikipedia.org/wiki/FreeOTP");
 
             URL_Add("Vercel", "https://github.com/vercel/vercel");
 
@@ -130630,8 +130525,6 @@ namespace OverflowHelper.core
             URL_Add("Svalbard", "https://en.wikipedia.org/wiki/Svalbard");
 
             URL_Add("Svalboard", "https://www.reddit.com/r/ErgoMechKeyboards/comments/13kct7j/welcome_to_svalboard_a_production/");
-
-            URL_Add("cx_Freeze", "https://anthony-tuininga.github.io/cx_Freeze/");
 
             URL_Add("pytype", "https://google.github.io/pytype/");
 
@@ -132055,12 +131948,6 @@ namespace OverflowHelper.core
 
             URL_Add("triple-clicking", "https://en.wiktionary.org/wiki/triple-click#Verb");
 
-            URL_Add("Freemasonry", "https://en.wikipedia.org/wiki/Freemasonry");
-
-            URL_Add("Illuminati", "https://en.wikipedia.org/wiki/Illuminati");
-
-            URL_Add("illuminated", "https://en.wiktionary.org/wiki/illuminated#Adjective");
-
             URL_Add("integrate", "https://en.wiktionary.org/wiki/integrate#Verb");
 
             URL_Add("integrating", "https://en.wiktionary.org/wiki/integrate#Verb");
@@ -132154,34 +132041,6 @@ namespace OverflowHelper.core
             URL_Add("Cygwin", "https://en.wikipedia.org/wiki/Cygwin");
 
             URL_Add("SourceForge", "https://en.wikipedia.org/wiki/SourceForge");
-
-            URL_Add("erroring", "https://en.wiktionary.org/wiki/error#Verb");
-
-            URL_Add("errored", "https://en.wiktionary.org/wiki/error#Verb");
-
-            URL_Add("error", "https://en.wiktionary.org/wiki/error#Noun");
-
-            URL_Add("errors", "https://en.wiktionary.org/wiki/error#Noun");
-
-            URL_Add("see the error of their ways", "https://en.wiktionary.org/wiki/see_the_error_of_one%27s_ways#Verb");
-
-            URL_Add("errored out", "https://en.wiktionary.org/wiki/error_out#Verb");
-
-            URL_Add("error-prone", "https://en.wiktionary.org/wiki/error-prone#Adjective");
-
-            URL_Add("errorproof", "https://en.wiktionary.org/wiki/errorproof#Adjective");
-
-            URL_Add("errorfree", "https://en.wiktionary.org/wiki/errorfree#Adjective");
-
-            URL_Add("error message", "https://en.wiktionary.org/wiki/error_message#Noun"); // Old: https://en.wiktionary.org/wiki/error_message
-
-            URL_Add("error messages", "https://en.wiktionary.org/wiki/error_message#Noun");
-
-            URL_Add("error code", "https://en.wiktionary.org/wiki/error_code#Noun");
-
-            URL_Add("error handling", "https://en.wikipedia.org/wiki/Exception_handling#Exception_handling_in_UI_hierarchies");
-
-            URL_Add("off-by-one errors", "https://en.wiktionary.org/wiki/off-by-one_error#Noun");
 
             URL_Add("Frankensteined", "https://en.wiktionary.org/wiki/Frankenstein#Verb");
 
@@ -132466,70 +132325,6 @@ namespace OverflowHelper.core
             URL_Add("perverts", "https://en.wiktionary.org/wiki/pervert#Noun");
 
             URL_Add("Remez function algorithm", "https://en.wikipedia.org/wiki/Remez_algorithm");
-
-            URL_Add("hell", "https://en.wiktionary.org/wiki/hell#Proper_noun");
-
-            URL_Add("when Hell freezes over", "https://en.wiktionary.org/wiki/when_Hell_freezes_over#Adverb");
-
-            URL_Add("hell-bent", "https://en.wiktionary.org/wiki/hell-bent#Adjective");
-
-            URL_Add("a hell of", "https://en.wiktionary.org/wiki/hell_of_a#Adjective");
-
-            URL_Add("a hell of a", "https://en.wiktionary.org/wiki/helluva#Adjective");
-
-            URL_Add("a hell of a lot of", "https://idioms.thefreedictionary.com/a+hell+of+a+lot+of");
-
-            URL_Add("all hell breaks loose", "https://en.wiktionary.org/wiki/all_hell_breaks_loose#Phrase");
-
-            URL_Add("all hell breaking loose", "https://en.wiktionary.org/wiki/all_hell_breaks_loose#Phrase");
-
-            URL_Add("all hell broke loose", "https://en.wiktionary.org/wiki/all_hell_breaks_loose#Phrase");
-
-            URL_Add("loosened", "https://en.wiktionary.org/wiki/loosen#Verb");
-
-            URL_Add("loosely", "https://en.wiktionary.org/wiki/loosely#Adverb");
-
-            URL_Add("loosened up", "https://en.wiktionary.org/wiki/loosen_up#Verb");
-
-            URL_Add("loose end", "https://en.wiktionary.org/wiki/loose_end#Noun");
-
-            URL_Add("cut loose", "https://en.wiktionary.org/wiki/cut_loose#Verb");
-
-            URL_Add("loosey-goosey", "https://en.wiktionary.org/wiki/loosey-goosey#Adjective");
-
-            URL_Add("raison d'être", "https://en.wiktionary.org/wiki/raison_d%27%C3%AAtre#Noun");
-
-            URL_Add("coup d’état", "https://en.wiktionary.org/wiki/coup_d%27%C3%A9tat#Noun");
-
-            URL_Add("coup de grâce", "https://en.wiktionary.org/wiki/coup_de_gr%C3%A2ce#Noun");
-
-            URL_Add("coupon code", "https://en.wikipedia.org/wiki/Coupon#Electronic");
-
-            URL_Add("loose coupling", "https://en.wikipedia.org/wiki/Loose_coupling");
-
-            URL_Add("DLL&nbsp;Hell", "https://en.wikipedia.org/wiki/DLL_Hell");
-
-            URL_Add("cohesion", "https://en.wikipedia.org/wiki/Cohesion_(computer_science)");
-
-            URL_Add("loosely coupled", "https://en.wikipedia.org/wiki/Loose_coupling");
-
-            URL_Add("coupled", "https://en.wiktionary.org/wiki/couple#Verb");
-
-            URL_Add("coupling", "https://en.wikipedia.org/wiki/Coupling_(computer_programming)");
-
-            URL_Add("decoupling", "https://en.wikipedia.org/wiki/Decoupling_(electronics)");
-
-            URL_Add("a couple of", "https://www.merriam-webster.com/dictionary/a%20couple%20of");
-
-            URL_Add("a couple of thousand", "https://jakubmarian.com/several-thousands-of-vs-several-thousand-in-english/");
-
-            URL_Add("thousand", "https://en.wiktionary.org/wiki/thousand#Numeral");
-
-            URL_Add("thousands", "https://en.wiktionary.org/wiki/thousand#Numeral");
-
-            URL_Add("optocoupler", "https://en.wikipedia.org/wiki/Opto-isolator");
-
-            URL_Add("thermocouple", "https://en.wikipedia.org/wiki/Thermocouple");
 
             URL_Add("institutional", "https://en.wiktionary.org/wiki/institutional#Adjective");
 
@@ -132926,22 +132721,6 @@ namespace OverflowHelper.core
             URL_Add("PFX", "https://en.wikipedia.org/wiki/X.509#Certificate_filename_extensions");
 
             URL_Add("Corsair CX450", "https://www.corsair.com/us/en/p/psu/cp-9020120-na/cx-series-cx450-450-watt-80-plus-bronze-certified-atx-psus-cp-9020120-na");
-
-            URL_Add("rooted in", "https://idioms.thefreedictionary.com/root+in");
-
-            URL_Add("unrooted", "https://en.wiktionary.org/wiki/unrooted#Adjective");
-
-            URL_Add("root cause", "https://en.wiktionary.org/wiki/root_cause#Noun");
-
-            URL_Add("square root", "https://en.wiktionary.org/wiki/square_root#Noun");
-
-            URL_Add("root mean square", "https://en.wikipedia.org/wiki/Root_mean_square");
-
-            URL_Add("root user", "https://en.wikipedia.org/wiki/Superuser#Unix_and_Unix-like");
-
-            URL_Add("root certificate authority", "https://en.wikipedia.org/wiki/Root_certificate");
-
-            URL_Add("root certificates", "https://en.wikipedia.org/wiki/Root_certificate");
 
             URL_Add("DigiCert", "https://en.wikipedia.org/wiki/DigiCert");
 
@@ -133673,8 +133452,6 @@ namespace OverflowHelper.core
 
             URL_Add("JOOQ", "https://en.wikipedia.org/wiki/JOOQ_Object_Oriented_Querying");
 
-            URL_Add("DuckDB", "https://en.wikipedia.org/wiki/List_of_column-oriented_DBMSes#Free_and_open-source_software_(FOSS)");
-
             URL_Add("aspect", "https://en.wiktionary.org/wiki/aspect#Noun");
 
             URL_Add("aspect ratio", "https://en.wiktionary.org/wiki/aspect_ratio#Noun");
@@ -134048,12 +133825,6 @@ namespace OverflowHelper.core
             URL_Add("Codédex", "https://en.wikipedia.org/wiki/Draft:Cod%C3%A9dex");
 
             URL_Add("standard-conforming", "https://en.wikipedia.org/wiki/Fortran#FORTRAN_77");
-
-            URL_Add("Fiverr", "https://en.wikipedia.org/wiki/Fiverr");
-
-            URL_Add("TopCoder", "https://en.wikipedia.org/wiki/Topcoder");
-
-            URL_Add("Freelancer.com", "https://en.wikipedia.org/wiki/Freelancer.com");
 
             URL_Add("ambiguous", "https://en.wiktionary.org/wiki/ambiguous#Adjective");
 
@@ -135607,8 +135378,6 @@ namespace OverflowHelper.core
 
             URL_Add("here’re", "https://en.wiktionary.org/wiki/here%27re#Contraction");
 
-            URL_Add("there ain't no such thing as a free lunch", "https://en.wiktionary.org/wiki/TANSTAAFL#Phrase");
-
             URL_Add("at the end of", "https://ell.stackexchange.com/questions/16854/should-i-use-at-the-end-of-or-in-the-end-of-in-this-sentence");
 
             URL_Add("ThereminGoat", "https://github.com/ThereminGoat");
@@ -135828,38 +135597,6 @@ namespace OverflowHelper.core
             URL_Add("PTUUID", "https://unix.stackexchange.com/questions/375548/what-is-uuid-partuuid-and-ptuuid");
 
             URL_Add("bpftrace", "https://github.com/iovisor/bpftrace#tools");
-
-            URL_Add("freehand", "https://en.wiktionary.org/wiki/freehand#Adjective");
-
-            URL_Add("free rein", "https://en.wiktionary.org/wiki/free_rein#Noun");
-
-            URL_Add("free time", "https://en.wiktionary.org/wiki/free_time#Noun");
-
-            URL_Add("free-running", "https://en.wiktionary.org/wiki/free-running#Adjective");
-
-            URL_Add("free space", "https://en.wiktionary.org/wiki/free_space#Noun");
-
-            URL_Add("free-form", "https://en.wiktionary.org/wiki/free-form#Adjective");
-
-            URL_Add("free-standing", "https://en.wiktionary.org/wiki/free-standing#Adjective");
-
-            URL_Add("free-to-play", "https://en.wikipedia.org/wiki/Free-to-play");
-
-            URL_Add("free-spirited", "https://en.wiktionary.org/wiki/free-spirited#Adjective");
-
-            URL_Add("free body diagram", "https://en.wikipedia.org/wiki/Free_body_diagram");
-
-            URL_Add("freelance", "https://en.wiktionary.org/wiki/freelance#Adjective");
-
-            URL_Add("freelancer", "https://en.wiktionary.org/wiki/freelancer#Noun");
-
-            URL_Add("freelancing", "https://en.wiktionary.org/wiki/freelance#Verb");
-
-            URL_Add("freehand circles", "https://meta.stackexchange.com/questions/19478/the-many-memes-of-meta/19775#19775");
-
-            URL_Add("freedesktop.org", "https://en.wikipedia.org/wiki/Freedesktop.org");
-
-            URL_Add("freeCodeCamp", "https://en.wikipedia.org/wiki/FreeCodeCamp");
 
             URL_Add("choice", "https://en.wiktionary.org/wiki/choice#Noun");
 
@@ -136586,40 +136323,6 @@ namespace OverflowHelper.core
             URL_Add("rude or abusive", "https://meta.stackexchange.com/questions/58032/what-are-the-spam-and-rude-or-abusive-offensive-flags-and-how-do-they-wor");
 
             URL_Add("link-only", "https://meta.stackoverflow.com/questions/251006/flagging-link-only-answers");
-
-            URL_Add("facetious", "https://en.wiktionary.org/wiki/facetious#Adjective");
-
-            URL_Add("sunk cost fallacy", "https://en.wikipedia.org/wiki/Sunk_cost#The_fallacy_effect");
-
-            URL_Add("fallacy", "https://en.wiktionary.org/wiki/fallacy#Noun");
-
-            URL_Add("fallacious", "https://en.wiktionary.org/wiki/fallacious#Adjective");
-
-            URL_Add("falling", "https://en.wiktionary.org/wiki/fall#Verb");
-
-            URL_Add("fallback", "https://en.wiktionary.org/wiki/fallback#Noun");
-
-            URL_Add("fallbacks", "https://en.wiktionary.org/wiki/fallback#Noun");
-
-            URL_Add("fall-through", "https://en.wiktionary.org/wiki/fall-through#Noun");
-
-            URL_Add("fell in love", "https://en.wiktionary.org/wiki/fall_in_love#Verb");
-
-            URL_Add("fall through the cracks", "https://en.wiktionary.org/wiki/fall_through_the_cracks#Verb");
-
-            URL_Add("falling into this pitfall", "https://www.ldoceonline.com/dictionary/fall-into-a-trap-pitfall");
-
-            URL_Add("pitfall", "https://en.wiktionary.org/wiki/pitfall#Noun");
-
-            URL_Add("free fall", "https://en.wikipedia.org/wiki/Free_fall");
-
-            URL_Add("Niagara Falls", "https://en.wikipedia.org/wiki/Niagara_Falls");
-
-            URL_Add("Downfall", "https://en.wikipedia.org/wiki/Downfall_(security_vulnerability)");
-
-            URL_Add("Fallout", "https://en.wikipedia.org/wiki/Fallout_(video_game)");
-
-            URL_Add("Fallout 4", "https://en.wikipedia.org/wiki/Fallout_4");
 
             URL_Add("George Floyd", "https://en.wikipedia.org/wiki/Murder_of_George_Floyd"); // Old: https://en.wikipedia.org/wiki/Killing_of_George_Floyd
 
@@ -137431,8 +137134,6 @@ namespace OverflowHelper.core
 
             URL_Add("LAMP", "https://en.wikipedia.org/wiki/LAMP_%28software_bundle%29");
 
-            URL_Add("Husky", "https://www.freecodecamp.org/news/how-to-add-commit-hooks-to-git-with-husky-to-automate-code-tasks/#what-is-husky");
-
             URL_Add("LEMP", "https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu-22-04");
 
             URL_Add("PERN", "https://en.wikipedia.org/wiki/Solution_stack#Examples");
@@ -137512,8 +137213,6 @@ namespace OverflowHelper.core
             URL_Add("fsadm", "https://www.man7.org/linux/man-pages/man8/fsadm.8.html");
 
             URL_Add("Sticky Keys", "https://en.wikipedia.org/wiki/Sticky_keys");
-
-            URL_Add("bring your own keyboard", "https://www.kickstarter.com/projects/byok/byok-the-ultimate-distraction-free-writing-tool");
 
             URL_Add("figure caption", "https://erinwrightwriting.com/how-to-write-figure-captions/");
 
@@ -137922,24 +137621,6 @@ namespace OverflowHelper.core
             URL_Add("IMF", "https://en.wikipedia.org/wiki/International_Monetary_Fund");
 
             URL_Add("ETF", "https://en.wikipedia.org/wiki/Exchange-traded_fund");
-
-            URL_Add("cofounder", "https://en.wiktionary.org/wiki/cofounder#Noun");
-
-            URL_Add("The Foundry Visionmongers", "https://en.wikipedia.org/wiki/The_Foundry_Visionmongers");
-
-            URL_Add("Wikimedia Foundation", "https://en.wikipedia.org/wiki/Wikimedia_Foundation");
-
-            URL_Add("Free Software Foundation", "https://en.wikipedia.org/wiki/Free_Software_Foundation");
-
-            URL_Add("National Science Foundation", "https://en.wikipedia.org/wiki/National_Science_Foundation");
-
-            URL_Add("Foundation", "https://en.wikipedia.org/wiki/Foundation_(framework)");
-
-            URL_Add("fundamental", "https://en.wiktionary.org/wiki/fundamental#Noun");
-
-            URL_Add("fundamentally", "https://en.wiktionary.org/wiki/fundamentally#Adverb");
-
-            URL_Add("fundamentals", "https://en.wiktionary.org/wiki/fundamental#Noun");
 
             URL_Add("scratchy", "https://helveticaforever.com/enhance-scratchy-switches/");
 
@@ -139070,12 +138751,6 @@ namespace OverflowHelper.core
 
             URL_Add("Place Autocomplete", "https://developers.google.com/maps/documentation/places/web-service/autocomplete");
 
-            URL_Add("hassle", "https://en.wiktionary.org/wiki/hassle#Noun");
-
-            URL_Add("hassles", "https://en.wiktionary.org/wiki/hassle#Noun");
-
-            URL_Add("hasslefree", "https://en.wiktionary.org/wiki/hasslefree#Adjective");
-
             URL_Add("hash", "https://en.wiktionary.org/wiki/hash#Noun");
 
             URL_Add("hashes", "https://en.wiktionary.org/wiki/hash#Noun");
@@ -139151,8 +138826,6 @@ namespace OverflowHelper.core
             URL_Add("bricked", "https://en.wikipedia.org/wiki/Brick_(electronics)");
 
             URL_Add("Databricks", "https://en.wikipedia.org/wiki/Databricks#Products");
-
-            URL_Add("tax-free", "https://en.wiktionary.org/wiki/tax-free#Adjective");
 
             URL_Add("hitchhike", "https://en.wiktionary.org/wiki/hitchhike#Verb");
 
@@ -140187,10 +139860,6 @@ namespace OverflowHelper.core
 
             URL_Add("Lazarus", "https://en.wikipedia.org/wiki/Lazarus_%28IDE%29");
 
-            URL_Add("Free Pascal", "https://en.wikipedia.org/wiki/Free_Pascal");
-
-            URL_Add("Object Pascal", "https://en.wikipedia.org/wiki/Object_Pascal");
-
             URL_Add("Viola–Jones object detection framework", "https://en.wikipedia.org/wiki/Viola%E2%80%93Jones_object_detection_framework");
 
             URL_Add("YOLO", "https://en.wikipedia.org/wiki/Object_detection#Methods");
@@ -140350,8 +140019,6 @@ namespace OverflowHelper.core
             URL_Add("in the way", "https://en.wiktionary.org/wiki/in_the_way#Prepositional_phrase");
 
             URL_Add("in this way", "https://www.wordhippo.com/what-is/sentences-with-the-word/in_this_way.html");
-
-            URL_Add("in similar way", "https://www.thefreedictionary.com/in+a+similar+way");
 
             URL_Add("learned the hard way", "https://en.wiktionary.org/wiki/learn_the_hard_way#Verb");
 
@@ -141459,18 +141126,6 @@ namespace OverflowHelper.core
 
             URL_Add("honourable", "https://en.wiktionary.org/wiki/honourable#Adjective");
 
-            URL_Add("degree", "https://en.wiktionary.org/wiki/degree#Noun");
-
-            URL_Add("degrees", "https://en.wiktionary.org/wiki/degree#Noun");
-
-            URL_Add("degrees of freedom", "https://en.wikipedia.org/wiki/Degrees_of_freedom#Physics_and_chemistry");
-
-            URL_Add("bachelor's degree", "https://en.wiktionary.org/wiki/bachelor%27s_degree#Noun");
-
-            URL_Add("master's degree", "https://en.wiktionary.org/wiki/master%27s_degree#Noun");
-
-            URL_Add("honours degree", "https://en.wiktionary.org/wiki/honours_degree#Noun");
-
             URL_Add("awake", "https://en.wiktionary.org/wiki/awake#Adjective");
 
             URL_Add("digging", "https://en.wiktionary.org/wiki/dig#Verb");
@@ -141788,8 +141443,6 @@ namespace OverflowHelper.core
             URL_Add("-fdiagnostics-color", "https://gcc.gnu.org/onlinedocs/gcc/Diagnostic-Message-Formatting-Options.html#index-fdiagnostics-color");
 
             URL_Add("-ffloat-store", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-ffloat-store");
-
-            URL_Add("-ffreestanding", "https://gcc.gnu.org/onlinedocs/gcc/C-Dialect-Options.html#index-ffreestanding-1");
 
             URL_Add("-ffunction-sections", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-ffunction-sections");
 
@@ -142141,6 +141794,8 @@ namespace OverflowHelper.core
 
             URL_Add("-Waggregate-return", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waggregate-return");
 
+            URL_Add("-ffreestanding", "https://gcc.gnu.org/onlinedocs/gcc/C-Dialect-Options.html#index-ffreestanding-1");
+
             URL_Add("collect2: error: ld returned 1 exit status", "https://stackoverflow.com/questions/16437383/linker-error-gcc");
 
             URL_Add("GCC 2.95 (1999-07-31)", "https://gcc.gnu.org/gcc-2.95/");
@@ -142320,12 +141975,6 @@ namespace OverflowHelper.core
             URL_Add("backslash", "https://en.wiktionary.org/wiki/backslash#Noun");
 
             URL_Add("participate in", "https://dictionary.cambridge.org/dictionary/english/participate");
-
-            URL_Add("fleshed out", "https://en.wiktionary.org/wiki/flesh_out#Verb");
-
-            URL_Add("meatspace", "https://en.wiktionary.org/wiki/meatspace#Noun");
-
-            URL_Add("the meat of the matter", "https://idioms.thefreedictionary.com/meat+of+the+matter");
 
             URL_Add("nonprimes", "https://en.wiktionary.org/wiki/nonprime#Noun");
 
@@ -143787,22 +143436,6 @@ namespace OverflowHelper.core
 
             URL_Add("associated", "https://en.wiktionary.org/wiki/associated#Adjective");
 
-            URL_Add("brain", "https://en.wiktionary.org/wiki/brain#Noun");
-
-            URL_Add("brain freeze", "https://en.wiktionary.org/wiki/brain_freeze#Noun");
-
-            URL_Add("brain-dead", "https://en.wiktionary.org/wiki/brain-dead#Adjective");
-
-            URL_Add("brainchild", "https://en.wiktionary.org/wiki/brainchild#Noun");
-
-            URL_Add("brainstorming", "https://en.wiktionary.org/wiki/brainstorming#Noun");
-
-            URL_Add("Braintree", "https://en.wikipedia.org/wiki/Braintree_%28company%29");
-
-            URL_Add("Brain.js", "https://www.freecodecamp.org/news/want-to-learn-neural-networks-heres-a-free-brain-js-course-merry-christmas-ea801f378041/");
-
-            URL_Add("Brainfuck", "https://en.wikipedia.org/wiki/Brainfuck");
-
             URL_Add("shitty", "https://en.wiktionary.org/wiki/shitty#Adjective");
 
             URL_Add("shittiest", "https://en.wiktionary.org/wiki/shitty#Adjective");
@@ -144018,8 +143651,6 @@ namespace OverflowHelper.core
             URL_Add("FAT32", "https://en.wikipedia.org/wiki/File_Allocation_Table#FAT32");
 
             URL_Add("VFAT", "https://en.wikipedia.org/wiki/File_Allocation_Table#Historical");
-
-            URL_Add("FreeDOS", "https://en.wikipedia.org/wiki/FreeDOS");
 
             URL_Add("prepopulate", "https://en.wiktionary.org/wiki/prepopulate#Verb");
 
@@ -145615,86 +145246,6 @@ namespace OverflowHelper.core
 
             URL_Add("Queued Serial Peripheral Interface", "https://en.wikipedia.org/wiki/Serial_Peripheral_Interface#High_reliability_modifications");
 
-            URL_Add("MINIX", "https://en.wikipedia.org/wiki/MINIX");
-
-            URL_Add("Linux", "https://en.wikipedia.org/wiki/Linux");
-
-            URL_Add("Linux kernel", "https://en.wikipedia.org/wiki/Linux_kernel");
-
-            URL_Add("system call table", "https://linux-kernel-labs.github.io/refs/heads/master/lectures/syscalls.html#system-call-table");
-
-            URL_Add("Linux framebuffer", "https://en.wikipedia.org/wiki/Linux_framebuffer");
-
-            URL_Add("framebuffer", "https://en.wikipedia.org/wiki/Framebuffer");
-
-            URL_Add("Linuxen", "https://en.wiktionary.org/wiki/Linuxen#Noun");
-
-            URL_Add("Linux distribution", "https://en.wikipedia.org/wiki/Linux_distribution");
-
-            URL_Add("Linux distributions", "https://en.wikipedia.org/wiki/Linux_distribution");
-
-            URL_Add("DistroWatch", "https://en.wikipedia.org/wiki/DistroWatch");
-
-            URL_Add("distro-hopping", "https://en.wiktionary.org/wiki/distro-hopping#Noun");
-
-            URL_Add("Bryan Lunduke", "https://www.youtube.com/user/BryanLunduke/videos");
-
-            URL_Add("Linux Journal", "https://en.wikipedia.org/wiki/Linux_Journal");
-
-            URL_Add("Linux Foundation", "https://en.wikipedia.org/wiki/Linux_Foundation");
-
-            URL_Add("Linux Mint Debian Edition", "https://en.wikipedia.org/wiki/Linux_Mint#LMDE"); // Old: <https://en.wikipedia.org/wiki/Linux_Mint#Linux_Mint_Debian_Edition>
-
-            URL_Add("Linux Mint 13 (Maya)", "https://en.wikipedia.org/wiki/Linux_Mint#Releases");
-
-            URL_Add("Debian&nbsp;14 (Forky)", "https://en.wikipedia.org/wiki/Debian_release_version_history#Debian_14_(Forky)");
-
-            URL_Add("Linux Mint 18.1 (Serena)", "https://en.wikipedia.org/wiki/Linux_Mint#Release_history");
-
-            URL_Add("Linux Mint 18.2 (Sonya)", "https://en.wikipedia.org/wiki/Linux_Mint#Releases");
-
-            URL_Add("Debian", "https://en.wikipedia.org/wiki/Debian");
-
-            URL_Add("Debian Stable", "https://en.wikipedia.org/wiki/Debian#Forks_and_derivatives");
-
-            URL_Add("Debian Unstable", "https://en.wikipedia.org/wiki/Debian_version_history#Naming_convention");
-
-            URL_Add("Debian Free Software Guidelines", "https://en.wikipedia.org/wiki/Debian_Free_Software_Guidelines");
-
-            URL_Add("Debian&nbsp;4.0 (Etch)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_4.0_(Etch)");
-
-            URL_Add("Debian&nbsp;5.0 (Lenny)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_5.0_(Lenny)");
-
-            URL_Add("Debian&nbsp;6.0 (Squeeze)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_6.0_(Squeeze)");
-
-            URL_Add("Debian&nbsp;7 (Wheezy)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_7_(Wheezy)");
-
-            URL_Add("Debian&nbsp;9 (Stretch)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_9_(Stretch)");
-
-            URL_Add("Debian&nbsp;10 (Buster)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_10_(Buster)");
-
-            URL_Add("Raspbian&nbsp;10 (Buster)", "https://en.wikipedia.org/wiki/Raspberry_Pi_OS#Release_history"); // Old: https://en.wikipedia.org/wiki/Raspbian#Version_history
-
-            URL_Add("Debian&nbsp;11 (Bullseye)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_11_(Bullseye)");
-
-            URL_Add("Debian&nbsp;12 (Bookworm)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_12_(Bookworm)");
-
-            URL_Add("Raspbian", "https://en.wikipedia.org/wiki/Raspberry_Pi#Software"); // Was https://en.wikipedia.org/wiki/Raspbian
-
-            URL_Add("Raspbmc", "https://en.wikipedia.org/wiki/List_of_software_based_on_XBMC#Raspbmc");
-
-            URL_Add("BunsenLabs (Debian Linux-based)", "https://en.wikipedia.org/wiki/CrunchBang_Linux#BunsenLabs");
-
-            URL_Add("Linux Lite", "https://en.wikipedia.org/wiki/Linux_Lite");
-
-            URL_Add("Linuxfx", "https://pt.wikipedia.org/wiki/LinuxFX");
-
-            URL_Add("Linux From Scratch", "https://en.wikipedia.org/wiki/Linux_From_Scratch");
-
-            URL_Add("Void Linux", "https://en.wikipedia.org/wiki/Void_Linux");
-
-            URL_Add("$HOME/.zshrc file", "https://wiki.debian.org/Zsh#Configuration");
-
             URL_Add("Scratch", "https://en.wikipedia.org/wiki/Scratch_%28programming_language%29");
 
             URL_Add("Wolfgang Amadeus Mozart", "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart");
@@ -146356,12 +145907,6 @@ namespace OverflowHelper.core
             URL_Add("payscale", "https://en.wiktionary.org/wiki/payscale#Noun");
 
             URL_Add("Richter scale", "https://en.wikipedia.org/wiki/Richter_magnitude_scale");
-
-            URL_Add("scaled agile framework", "https://en.wikipedia.org/wiki/Scaled_agile_framework");
-
-            URL_Add("Freescale", "https://en.wikipedia.org/wiki/Freescale_Semiconductor");
-
-            URL_Add("Tailscale", "https://wiki.archlinux.org/title/Tailscale");
 
             URL_Add("redesign", "https://en.wiktionary.org/wiki/redesign#Verb");
 
@@ -150089,6 +149634,464 @@ namespace OverflowHelper.core
 
             URL_Add("throughout", "https://en.wiktionary.org/wiki/throughout#Adverb");
 
+            URL_Add("for free", "https://en.wiktionary.org/wiki/for_free#Prepositional_phrase");
+
+            URL_Add("nonfree", "https://en.wiktionary.org/wiki/nonfree#Adjective");
+
+            URL_Add("unfree", "https://en.wiktionary.org/wiki/unfree#Adjective");
+
+            URL_Add("there ain't no such thing as a free lunch", "https://en.wiktionary.org/wiki/TANSTAAFL#Phrase");
+
+            URL_Add("freehand", "https://en.wiktionary.org/wiki/freehand#Adjective");
+
+            URL_Add("free rein", "https://en.wiktionary.org/wiki/free_rein#Noun");
+
+            URL_Add("free time", "https://en.wiktionary.org/wiki/free_time#Noun");
+
+            URL_Add("free-running", "https://en.wiktionary.org/wiki/free-running#Adjective");
+
+            URL_Add("free space", "https://en.wiktionary.org/wiki/free_space#Noun");
+
+            URL_Add("free-form", "https://en.wiktionary.org/wiki/free-form#Adjective");
+
+            URL_Add("free-standing", "https://en.wiktionary.org/wiki/free-standing#Adjective");
+
+            URL_Add("rent-free", "https://en.wiktionary.org/wiki/rent-free#Adjective");
+
+            URL_Add("free-to-play", "https://en.wikipedia.org/wiki/Free-to-play");
+
+            URL_Add("free-spirited", "https://en.wiktionary.org/wiki/free-spirited#Adjective");
+
+            URL_Add("free body diagram", "https://en.wikipedia.org/wiki/Free_body_diagram");
+
+            URL_Add("freelance", "https://en.wiktionary.org/wiki/freelance#Adjective");
+
+            URL_Add("freelancer", "https://en.wiktionary.org/wiki/freelancer#Noun");
+
+            URL_Add("freelancing", "https://en.wiktionary.org/wiki/freelance#Verb");
+
+            URL_Add("freehand circles", "https://meta.stackexchange.com/questions/19478/the-many-memes-of-meta/19775#19775");
+
+            URL_Add("freedesktop.org", "https://en.wikipedia.org/wiki/Freedesktop.org");
+
+            URL_Add("freeCodeCamp", "https://en.wikipedia.org/wiki/FreeCodeCamp");
+
+            URL_Add("Freeciv", "https://en.wikipedia.org/wiki/Freeciv");
+
+            URL_Add("final year project", "https://acronyms.thefreedictionary.com/FYP");
+
+            URL_Add("Fiverr", "https://en.wikipedia.org/wiki/Fiverr");
+
+            URL_Add("TopCoder", "https://en.wikipedia.org/wiki/Topcoder");
+
+            URL_Add("DuckDB", "https://en.wikipedia.org/wiki/List_of_column-oriented_DBMSes#Free_and_open-source_software_(FOSS)");
+
+            URL_Add("Freelancer.com", "https://en.wikipedia.org/wiki/Freelancer.com");
+
+            URL_Add("FreeMat", "https://en.wikipedia.org/wiki/FreeMat");
+
+            URL_Add("FreeBSD", "https://en.wikipedia.org/wiki/FreeBSD");
+
+            URL_Add("FreeRTOS", "https://en.wikipedia.org/wiki/FreeRTOS");
+
+            URL_Add("Freenode", "https://en.wikipedia.org/wiki/Freenode");
+
+            URL_Add("FreeCommander", "https://freecommander.com/en/summary/");
+
+            URL_Add("GNU FreeFont", "https://en.wikipedia.org/wiki/GNU_FreeFont");
+
+            URL_Add("blatant plagiarism on Quora", "https://www.quora.com/What-is-the-best-free-comment-plugin-for-WordPress/answer/Keshav-Infotech-2");
+
+            URL_Add("bug", "https://en.wiktionary.org/wiki/bug#Noun");
+
+            URL_Add("bugs", "https://en.wiktionary.org/wiki/bug#Noun");
+
+            URL_Add("buggy", "https://en.wiktionary.org/wiki/buggy#Adjective");
+
+            URL_Add("bugginess", "https://en.wiktionary.org/wiki/bugginess#Noun");
+
+            URL_Add("bugfree", "https://en.wiktionary.org/wiki/bugfree#Adjective");
+
+            URL_Add("bugfix", "https://en.wiktionary.org/wiki/bugfix#Noun");
+
+            URL_Add("bug tracker", "https://en.wikipedia.org/wiki/Bug_tracking_system");
+
+            URL_Add("Bugzilla", "https://en.wikipedia.org/wiki/Bugzilla");
+
+            URL_Add("Bugs Bunny", "https://en.wikipedia.org/wiki/Bugs_Bunny");
+
+            URL_Add("FreeOTP", "https://en.wikipedia.org/wiki/FreeOTP");
+
+            URL_Add("AndOTP", "https://github.com/andOTP/andOTP");
+
+            URL_Add("cx_Freeze", "https://anthony-tuininga.github.io/cx_Freeze/");
+
+            URL_Add("Freemasonry", "https://en.wikipedia.org/wiki/Freemasonry");
+
+            URL_Add("Illuminati", "https://en.wikipedia.org/wiki/Illuminati");
+
+            URL_Add("illuminated", "https://en.wiktionary.org/wiki/illuminated#Adjective");
+
+            URL_Add("erroring", "https://en.wiktionary.org/wiki/error#Verb");
+
+            URL_Add("errored", "https://en.wiktionary.org/wiki/error#Verb");
+
+            URL_Add("error", "https://en.wiktionary.org/wiki/error#Noun");
+
+            URL_Add("errors", "https://en.wiktionary.org/wiki/error#Noun");
+
+            URL_Add("see the error of their ways", "https://en.wiktionary.org/wiki/see_the_error_of_one%27s_ways#Verb");
+
+            URL_Add("errored out", "https://en.wiktionary.org/wiki/error_out#Verb");
+
+            URL_Add("error-prone", "https://en.wiktionary.org/wiki/error-prone#Adjective");
+
+            URL_Add("errorproof", "https://en.wiktionary.org/wiki/errorproof#Adjective");
+
+            URL_Add("errorfree", "https://en.wiktionary.org/wiki/errorfree#Adjective");
+
+            URL_Add("error message", "https://en.wiktionary.org/wiki/error_message#Noun"); // Old: https://en.wiktionary.org/wiki/error_message
+
+            URL_Add("error messages", "https://en.wiktionary.org/wiki/error_message#Noun");
+
+            URL_Add("error code", "https://en.wiktionary.org/wiki/error_code#Noun");
+
+            URL_Add("error handling", "https://en.wikipedia.org/wiki/Exception_handling#Exception_handling_in_UI_hierarchies");
+
+            URL_Add("off-by-one errors", "https://en.wiktionary.org/wiki/off-by-one_error#Noun");
+
+            URL_Add("tax-free", "https://en.wiktionary.org/wiki/tax-free#Adjective");
+
+            URL_Add("Free Pascal", "https://en.wikipedia.org/wiki/Free_Pascal");
+
+            URL_Add("Object Pascal", "https://en.wikipedia.org/wiki/Object_Pascal");
+
+            URL_Add("in similar way", "https://www.thefreedictionary.com/in+a+similar+way");
+
+            URL_Add("degree", "https://en.wiktionary.org/wiki/degree#Noun");
+
+            URL_Add("degrees", "https://en.wiktionary.org/wiki/degree#Noun");
+
+            URL_Add("degrees of freedom", "https://en.wikipedia.org/wiki/Degrees_of_freedom#Physics_and_chemistry");
+
+            URL_Add("FreeCAD", "https://en.wikipedia.org/wiki/FreeCAD");
+
+            URL_Add("risk-free", "https://en.wiktionary.org/wiki/risk-free#Adjective");
+
+            URL_Add("bachelor's degree", "https://en.wiktionary.org/wiki/bachelor%27s_degree#Noun");
+
+            URL_Add("master's degree", "https://en.wiktionary.org/wiki/master%27s_degree#Noun");
+
+            URL_Add("honours degree", "https://en.wiktionary.org/wiki/honours_degree#Noun");
+
+            URL_Add("asterisk", "https://en.wiktionary.org/wiki/asterisk#Noun");
+
+            URL_Add("asterisks", "https://en.wiktionary.org/wiki/asterisk#Noun");
+
+            URL_Add("risks", "https://en.wiktionary.org/wiki/risk#Noun");
+
+            URL_Add("high-risk", "https://en.wiktionary.org/wiki/high-risk#Adjective");
+
+            URL_Add("at my own risk", "https://en.wiktionary.org/wiki/at_one%27s_own_risk#Prepositional_phrase");
+
+            URL_Add("at your own risk", "https://en.wiktionary.org/wiki/at_one%27s_own_risk#Prepositional_phrase");
+
+            URL_Add("HFP", "https://en.wikipedia.org/wiki/List_of_Bluetooth_profiles#Hands-Free_Profile_(HFP)");
+
+            URL_Add("HSP", "https://en.wikipedia.org/wiki/List_of_Bluetooth_profiles#Headset_Profile_(HSP)");
+
+            URL_Add("pain-free", "https://en.wiktionary.org/wiki/pain-free#Adjective");
+
+            URL_Add("memcpy()", "https://en.wikipedia.org/wiki/C_string_handling#Functions");
+
+            URL_Add("strcmp()", "https://en.wikipedia.org/wiki/C_string_handling#Functions");
+
+            URL_Add("strncpy()", "https://en.wikipedia.org/wiki/C_string_handling#Functions");
+
+            URL_Add("memset()", "https://en.wikipedia.org/wiki/C_string_handling#Functions");
+
+            URL_Add("abort()", "https://en.cppreference.com/w/c/program/abort");
+
+            URL_Add("fgets()", "https://en.wikipedia.org/wiki/C_file_input/output#Functions");
+
+            URL_Add("popen()", "https://en.wikipedia.org/wiki/C_file_input/output#Functions");
+
+            URL_Add("terminate()", "https://en.cppreference.com/w/cpp/error/terminate.html");
+
+            URL_Add("malloc()", "https://en.wikipedia.org/wiki/C_dynamic_memory_allocation");
+
+            URL_Add("realloc()", "https://en.wikipedia.org/wiki/C_dynamic_memory_allocation");
+
+            URL_Add("free()", "https://en.wikipedia.org/wiki/C_dynamic_memory_allocation");
+
+            URL_Add("in the right direction", "https://idioms.thefreedictionary.com/go+in+the+right+direction");
+
+            URL_Add("all day and every day", "https://idioms.thefreedictionary.com/all+day+and+every+day");
+
+            URL_Add("on a silver platter", "https://idioms.thefreedictionary.com/on+a+silver+platter");
+
+            URL_Add("pluses and minuses", "https://www.classicthesaurus.com/pluses_and_minuses/synonyms/idiom");
+
+            URL_Add("worked for me", "https://idioms.thefreedictionary.com/works+for+me");
+
+            URL_Add("to our faces", "https://idioms.thefreedictionary.com/to+our+faces");
+
+            URL_Add("not one iota", "https://idioms.thefreedictionary.com/not+one+iota");
+
+            URL_Add("hint, hint", "https://www.idioms.online/hint-hint/");
+
+            URL_Add("in my eye", "https://idioms.thefreedictionary.com/in+my+eye");
+
+            URL_Add("focus on", "https://idioms.thefreedictionary.com/focus+on");
+
+            URL_Add("focusing on", "https://idioms.thefreedictionary.com/focus+on");
+
+            URL_Add("hell", "https://en.wiktionary.org/wiki/hell#Proper_noun");
+
+            URL_Add("when Hell freezes over", "https://en.wiktionary.org/wiki/when_Hell_freezes_over#Adverb");
+
+            URL_Add("hell-bent", "https://en.wiktionary.org/wiki/hell-bent#Adjective");
+
+            URL_Add("a hell of", "https://en.wiktionary.org/wiki/hell_of_a#Adjective");
+
+            URL_Add("a hell of a", "https://en.wiktionary.org/wiki/helluva#Adjective");
+
+            URL_Add("a hell of a lot of", "https://idioms.thefreedictionary.com/a+hell+of+a+lot+of");
+
+            URL_Add("all hell breaks loose", "https://en.wiktionary.org/wiki/all_hell_breaks_loose#Phrase");
+
+            URL_Add("all hell breaking loose", "https://en.wiktionary.org/wiki/all_hell_breaks_loose#Phrase");
+
+            URL_Add("all hell broke loose", "https://en.wiktionary.org/wiki/all_hell_breaks_loose#Phrase");
+
+            URL_Add("loosened", "https://en.wiktionary.org/wiki/loosen#Verb");
+
+            URL_Add("loosely", "https://en.wiktionary.org/wiki/loosely#Adverb");
+
+            URL_Add("loosened up", "https://en.wiktionary.org/wiki/loosen_up#Verb");
+
+            URL_Add("loose end", "https://en.wiktionary.org/wiki/loose_end#Noun");
+
+            URL_Add("cut loose", "https://en.wiktionary.org/wiki/cut_loose#Verb");
+
+            URL_Add("loosey-goosey", "https://en.wiktionary.org/wiki/loosey-goosey#Adjective");
+
+            URL_Add("raison d'être", "https://en.wiktionary.org/wiki/raison_d%27%C3%AAtre#Noun");
+
+            URL_Add("coup d’état", "https://en.wiktionary.org/wiki/coup_d%27%C3%A9tat#Noun");
+
+            URL_Add("coup de grâce", "https://en.wiktionary.org/wiki/coup_de_gr%C3%A2ce#Noun");
+
+            URL_Add("coupon code", "https://en.wikipedia.org/wiki/Coupon#Electronic");
+
+            URL_Add("loose coupling", "https://en.wikipedia.org/wiki/Loose_coupling");
+
+            URL_Add("DLL&nbsp;Hell", "https://en.wikipedia.org/wiki/DLL_Hell");
+
+            URL_Add("cohesion", "https://en.wikipedia.org/wiki/Cohesion_(computer_science)");
+
+            URL_Add("loosely coupled", "https://en.wikipedia.org/wiki/Loose_coupling");
+
+            URL_Add("coupled", "https://en.wiktionary.org/wiki/couple#Verb");
+
+            URL_Add("coupling", "https://en.wikipedia.org/wiki/Coupling_(computer_programming)");
+
+            URL_Add("decoupling", "https://en.wikipedia.org/wiki/Decoupling_(electronics)");
+
+            URL_Add("a couple of", "https://www.merriam-webster.com/dictionary/a%20couple%20of");
+
+            URL_Add("a couple of thousand", "https://jakubmarian.com/several-thousands-of-vs-several-thousand-in-english/");
+
+            URL_Add("thousand", "https://en.wiktionary.org/wiki/thousand#Numeral");
+
+            URL_Add("thousands", "https://en.wiktionary.org/wiki/thousand#Numeral");
+
+            URL_Add("optocoupler", "https://en.wikipedia.org/wiki/Opto-isolator");
+
+            URL_Add("thermocouple", "https://en.wikipedia.org/wiki/Thermocouple");
+
+            URL_Add("rooted in", "https://idioms.thefreedictionary.com/root+in");
+
+            URL_Add("unrooted", "https://en.wiktionary.org/wiki/unrooted#Adjective");
+
+            URL_Add("root cause", "https://en.wiktionary.org/wiki/root_cause#Noun");
+
+            URL_Add("square root", "https://en.wiktionary.org/wiki/square_root#Noun");
+
+            URL_Add("root mean square", "https://en.wikipedia.org/wiki/Root_mean_square");
+
+            URL_Add("root user", "https://en.wikipedia.org/wiki/Superuser#Unix_and_Unix-like");
+
+            URL_Add("root certificate authority", "https://en.wikipedia.org/wiki/Root_certificate");
+
+            URL_Add("root certificates", "https://en.wikipedia.org/wiki/Root_certificate");
+
+            URL_Add("facetious", "https://en.wiktionary.org/wiki/facetious#Adjective");
+
+            URL_Add("sunk cost fallacy", "https://en.wikipedia.org/wiki/Sunk_cost#The_fallacy_effect");
+
+            URL_Add("fallacy", "https://en.wiktionary.org/wiki/fallacy#Noun");
+
+            URL_Add("fallacious", "https://en.wiktionary.org/wiki/fallacious#Adjective");
+
+            URL_Add("falling", "https://en.wiktionary.org/wiki/fall#Verb");
+
+            URL_Add("fallback", "https://en.wiktionary.org/wiki/fallback#Noun");
+
+            URL_Add("fallbacks", "https://en.wiktionary.org/wiki/fallback#Noun");
+
+            URL_Add("fall-through", "https://en.wiktionary.org/wiki/fall-through#Noun");
+
+            URL_Add("fell in love", "https://en.wiktionary.org/wiki/fall_in_love#Verb");
+
+            URL_Add("fall through the cracks", "https://en.wiktionary.org/wiki/fall_through_the_cracks#Verb");
+
+            URL_Add("falling into this pitfall", "https://www.ldoceonline.com/dictionary/fall-into-a-trap-pitfall");
+
+            URL_Add("pitfall", "https://en.wiktionary.org/wiki/pitfall#Noun");
+
+            URL_Add("free fall", "https://en.wikipedia.org/wiki/Free_fall");
+
+            URL_Add("Niagara Falls", "https://en.wikipedia.org/wiki/Niagara_Falls");
+
+            URL_Add("Downfall", "https://en.wikipedia.org/wiki/Downfall_(security_vulnerability)");
+
+            URL_Add("Fallout", "https://en.wikipedia.org/wiki/Fallout_(video_game)");
+
+            URL_Add("Fallout 4", "https://en.wikipedia.org/wiki/Fallout_4");
+
+            URL_Add("cofounder", "https://en.wiktionary.org/wiki/cofounder#Noun");
+
+            URL_Add("The Foundry Visionmongers", "https://en.wikipedia.org/wiki/The_Foundry_Visionmongers");
+
+            URL_Add("Wikimedia Foundation", "https://en.wikipedia.org/wiki/Wikimedia_Foundation");
+
+            URL_Add("Husky", "https://www.freecodecamp.org/news/how-to-add-commit-hooks-to-git-with-husky-to-automate-code-tasks/#what-is-husky");
+
+            URL_Add("bring your own keyboard", "https://www.kickstarter.com/projects/byok/byok-the-ultimate-distraction-free-writing-tool");
+
+            URL_Add("Free Software Foundation", "https://en.wikipedia.org/wiki/Free_Software_Foundation");
+
+            URL_Add("National Science Foundation", "https://en.wikipedia.org/wiki/National_Science_Foundation");
+
+            URL_Add("Foundation", "https://en.wikipedia.org/wiki/Foundation_(framework)");
+
+            URL_Add("fundamental", "https://en.wiktionary.org/wiki/fundamental#Noun");
+
+            URL_Add("fundamentally", "https://en.wiktionary.org/wiki/fundamentally#Adverb");
+
+            URL_Add("fundamentals", "https://en.wiktionary.org/wiki/fundamental#Noun");
+
+            URL_Add("hassle", "https://en.wiktionary.org/wiki/hassle#Noun");
+
+            URL_Add("hassles", "https://en.wiktionary.org/wiki/hassle#Noun");
+
+            URL_Add("hasslefree", "https://en.wiktionary.org/wiki/hasslefree#Adjective");
+
+            URL_Add("fleshed out", "https://en.wiktionary.org/wiki/flesh_out#Verb");
+
+            URL_Add("meatspace", "https://en.wiktionary.org/wiki/meatspace#Noun");
+
+            URL_Add("the meat of the matter", "https://idioms.thefreedictionary.com/meat+of+the+matter");
+
+            URL_Add("brain", "https://en.wiktionary.org/wiki/brain#Noun");
+
+            URL_Add("brain freeze", "https://en.wiktionary.org/wiki/brain_freeze#Noun");
+
+            URL_Add("brain-dead", "https://en.wiktionary.org/wiki/brain-dead#Adjective");
+
+            URL_Add("brainchild", "https://en.wiktionary.org/wiki/brainchild#Noun");
+
+            URL_Add("brainstorming", "https://en.wiktionary.org/wiki/brainstorming#Noun");
+
+            URL_Add("Braintree", "https://en.wikipedia.org/wiki/Braintree_%28company%29");
+
+            URL_Add("Brain.js", "https://www.freecodecamp.org/news/want-to-learn-neural-networks-heres-a-free-brain-js-course-merry-christmas-ea801f378041/");
+
+            URL_Add("Brainfuck", "https://en.wikipedia.org/wiki/Brainfuck");
+
+            URL_Add("FreeDOS", "https://en.wikipedia.org/wiki/FreeDOS");
+
+            URL_Add("MINIX", "https://en.wikipedia.org/wiki/MINIX");
+
+            URL_Add("Linux", "https://en.wikipedia.org/wiki/Linux");
+
+            URL_Add("Linux kernel", "https://en.wikipedia.org/wiki/Linux_kernel");
+
+            URL_Add("system call table", "https://linux-kernel-labs.github.io/refs/heads/master/lectures/syscalls.html#system-call-table");
+
+            URL_Add("Linux framebuffer", "https://en.wikipedia.org/wiki/Linux_framebuffer");
+
+            URL_Add("framebuffer", "https://en.wikipedia.org/wiki/Framebuffer");
+
+            URL_Add("Linuxen", "https://en.wiktionary.org/wiki/Linuxen#Noun");
+
+            URL_Add("Linux distribution", "https://en.wikipedia.org/wiki/Linux_distribution");
+
+            URL_Add("Linux distributions", "https://en.wikipedia.org/wiki/Linux_distribution");
+
+            URL_Add("DistroWatch", "https://en.wikipedia.org/wiki/DistroWatch");
+
+            URL_Add("distro-hopping", "https://en.wiktionary.org/wiki/distro-hopping#Noun");
+
+            URL_Add("Bryan Lunduke", "https://www.youtube.com/user/BryanLunduke/videos");
+
+            URL_Add("Linux Journal", "https://en.wikipedia.org/wiki/Linux_Journal");
+
+            URL_Add("Linux Foundation", "https://en.wikipedia.org/wiki/Linux_Foundation");
+
+            URL_Add("Linux Mint Debian Edition", "https://en.wikipedia.org/wiki/Linux_Mint#LMDE"); // Old: <https://en.wikipedia.org/wiki/Linux_Mint#Linux_Mint_Debian_Edition>
+
+            URL_Add("Linux Mint 13 (Maya)", "https://en.wikipedia.org/wiki/Linux_Mint#Releases");
+
+            URL_Add("Debian&nbsp;14 (Forky)", "https://en.wikipedia.org/wiki/Debian_release_version_history#Debian_14_(Forky)");
+
+            URL_Add("Linux Mint 18.1 (Serena)", "https://en.wikipedia.org/wiki/Linux_Mint#Release_history");
+
+            URL_Add("Linux Mint 18.2 (Sonya)", "https://en.wikipedia.org/wiki/Linux_Mint#Releases");
+
+            URL_Add("Debian", "https://en.wikipedia.org/wiki/Debian");
+
+            URL_Add("Debian Stable", "https://en.wikipedia.org/wiki/Debian#Forks_and_derivatives");
+
+            URL_Add("Debian Unstable", "https://en.wikipedia.org/wiki/Debian_version_history#Naming_convention");
+
+            URL_Add("Debian Free Software Guidelines", "https://en.wikipedia.org/wiki/Debian_Free_Software_Guidelines");
+
+            URL_Add("Debian&nbsp;4.0 (Etch)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_4.0_(Etch)");
+
+            URL_Add("Debian&nbsp;5.0 (Lenny)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_5.0_(Lenny)");
+
+            URL_Add("Debian&nbsp;6.0 (Squeeze)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_6.0_(Squeeze)");
+
+            URL_Add("Debian&nbsp;7 (Wheezy)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_7_(Wheezy)");
+
+            URL_Add("Debian&nbsp;9 (Stretch)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_9_(Stretch)");
+
+            URL_Add("Debian&nbsp;10 (Buster)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_10_(Buster)");
+
+            URL_Add("Raspbian&nbsp;10 (Buster)", "https://en.wikipedia.org/wiki/Raspberry_Pi_OS#Release_history"); // Old: https://en.wikipedia.org/wiki/Raspbian#Version_history
+
+            URL_Add("Debian&nbsp;11 (Bullseye)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_11_(Bullseye)");
+
+            URL_Add("Debian&nbsp;12 (Bookworm)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_12_(Bookworm)");
+
+            URL_Add("Raspbian", "https://en.wikipedia.org/wiki/Raspberry_Pi#Software"); // Was https://en.wikipedia.org/wiki/Raspbian
+
+            URL_Add("Raspbmc", "https://en.wikipedia.org/wiki/List_of_software_based_on_XBMC#Raspbmc");
+
+            URL_Add("BunsenLabs (Debian Linux-based)", "https://en.wikipedia.org/wiki/CrunchBang_Linux#BunsenLabs");
+
+            URL_Add("Linux Lite", "https://en.wikipedia.org/wiki/Linux_Lite");
+
+            URL_Add("Linuxfx", "https://pt.wikipedia.org/wiki/LinuxFX");
+
+            URL_Add("Linux From Scratch", "https://en.wikipedia.org/wiki/Linux_From_Scratch");
+
+            URL_Add("Void Linux", "https://en.wikipedia.org/wiki/Void_Linux");
+
+            URL_Add("$HOME/.zshrc file", "https://wiki.debian.org/Zsh#Configuration");
+
             URL_Add("collide", "https://en.wiktionary.org/wiki/collide#Verb");
 
             URL_Add("collides", "https://en.wiktionary.org/wiki/collide#Verb");
@@ -150099,11 +150102,17 @@ namespace OverflowHelper.core
 
             URL_Add("collidable", "https://english.stackexchange.com/questions/11646/adjectival-form-of-collide-collideable-or-collidable");
 
+            URL_Add("scaled agile framework", "https://en.wikipedia.org/wiki/Scaled_agile_framework");
+
+            URL_Add("Freescale", "https://en.wikipedia.org/wiki/Freescale_Semiconductor");
+
+            URL_Add("Tailscale", "https://wiki.archlinux.org/title/Tailscale");
+
+            URL_Add("The Free Dictionary", "https://en.wikipedia.org/wiki/The_Free_Dictionary");
+
             URL_Add("Collins", "https://en.wikipedia.org/wiki/Collins_Aerospace");
 
             URL_Add("Collins English Dictionary", "https://en.wikipedia.org/wiki/Collins_English_Dictionary");
-
-            URL_Add("The Free Dictionary", "https://en.wikipedia.org/wiki/The_Free_Dictionary");
 
             URL_Add("Cambridge Dictionary", "https://en.wikipedia.org/wiki/Cambridge_Advanced_Learner's_Dictionary");
 
@@ -173422,6 +173431,9 @@ namespace OverflowHelper.core
             //
             correctionAdd("agile__", "the Church of Agile Development__");
 
+            // The adjective
+            correctionAdd("fee__", "free__");
+
             // A free course in web development
             //
             // Alternative URLs:
@@ -176145,8 +176157,6 @@ namespace OverflowHelper.core
 
             URL_Add("top__", "https://en.wiktionary.org/wiki/top#Adjective");
 
-            URL_Add("The Odin Project__", "https://www.freecodecamp.org/learn/the-odin-project/");
-
             URL_Add("-year-old__", "https://en.wiktionary.org/wiki/-year-old#Adjective"); // Note: No longer exists at Wiktionary... Old: https://en.wiktionary.org/wiki/-year-old#Suffix
 
             URL_Add("thank you__", "https://en.wiktionary.org/wiki/thank_you#Interjection");
@@ -177376,6 +177386,10 @@ namespace OverflowHelper.core
             URL_Add("throw__", "https://en.wiktionary.org/wiki/throw#Verb");
 
             URL_Add("LOFL__", "https://en.wiktionary.org/wiki/ROFL#Phrase");
+
+            URL_Add("free__", "https://en.wiktionary.org/wiki/free#Adjective");
+
+            URL_Add("The Odin Project__", "https://www.freecodecamp.org/learn/the-odin-project/");
 
         } //addLookupData_alternativeWordSet2()
 
