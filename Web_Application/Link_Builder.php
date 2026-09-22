@@ -237,7 +237,7 @@
                     style="width:200px;"
                     accesskey="K"
                     title="Shortcut: Shift + Alt + K"
-                />
+                >
 
                 <p></p>
 
@@ -251,7 +251,7 @@
                     style="width:650px;"
                     accesskey="U"
                     title="Shortcut: Shift + Alt + U"
-                /><?php
+                ><?php
 
                 # Perhaps later: Add links / form fields for opening the provided URL.
                 #if (!$correctTerm)
@@ -307,7 +307,7 @@
                     style="width:200px;"
                     accesskey="T"
                     title="Shortcut: Shift + Alt + T"
-                />
+                >
 
                 <p></p>
 
@@ -321,7 +321,7 @@
                     style="width:650px;"
                     accesskey="F"
                     title="Shortcut: Shift + Alt + F"
-                />
+                >
 
                 <p></p>
 
@@ -335,7 +335,7 @@
                     style="width:650px;"
                     accesskey="M"
                     title="Shortcut: Shift + Alt + M"
-                />
+                >
 
                 <p></p>
 
@@ -354,7 +354,7 @@
                     style="width:650px;"
                     accesskey="H"
                     title="Shortcut: Shift + Alt + H"
-                />
+                >
 
                 <p></p>
 
@@ -368,7 +368,7 @@
                     style="width:650px;"
                     accesskey="E"
                     title="Shortcut: Shift + Alt + E"
-                />
+                >
 
                 <p></p>
 
@@ -404,7 +404,7 @@
                     class="XYZ24"
                     accesskey="R"
                     title="Shortcut: Shift + Alt + R"
-                />
+                >
                 <label for="resetState"><u>R</u>eset lookup state</label>  <!-- The order matters! -->
 
                 <p></p>
@@ -422,7 +422,7 @@
                     style="width:100px;"
                     accesskey="G"
                     title="Shortcut: Shift + Alt + G"
-                />
+                >
 
             </div>
 
