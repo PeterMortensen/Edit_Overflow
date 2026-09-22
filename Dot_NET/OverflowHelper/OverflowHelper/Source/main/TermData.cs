@@ -32903,6 +32903,7 @@ namespace OverflowHelper.core
             correctionAdd("Hands on", "hands-on");
             correctionAdd("handson", "hands-on");
 
+            // The adjective
             correctionAdd("first-hand", "firsthand");
             correctionAdd("first hand", "firsthand");
             correctionAdd("Firsthand", "firsthand");
@@ -61562,6 +61563,9 @@ namespace OverflowHelper.core
             correctionAdd("enjoyy", "enjoy");
             correctionAdd("nJoy", "enjoy");
 
+            correctionAdd("an,joying", "enjoying");
+            correctionAdd("anjoying", "enjoying");
+
             correctionAdd("Logiprick", "Logitech");
             correctionAdd("Logitecht", "Logitech");
             correctionAdd("logitecht", "Logitech");
@@ -78419,7 +78423,7 @@ namespace OverflowHelper.core
             correctionAdd("cshtml", "Razor");
             correctionAdd("CSHTML", "Razor");
             correctionAdd("razor", "Razor");
-            correctionAdd("Razer", "Razor");
+            correctionAdd("Razer", "Razor"); // E.g., the keyboard brand
 
             correctionAdd("Razor pages", "Razor Pages");
 
@@ -91342,6 +91346,7 @@ namespace OverflowHelper.core
             correctionAdd("air96 v2", "NuPhy Air96 V2");
             correctionAdd("Air96 V2", "NuPhy Air96 V2");
             correctionAdd("Air96 v2", "NuPhy Air96 V2");
+            correctionAdd("Air 96v2", "NuPhy Air96 V2");
             correctionAdd("air96v2", "NuPhy Air96 V2");
             correctionAdd("Air96v2", "NuPhy Air96 V2");
             correctionAdd("Air96", "NuPhy Air96 V2");
@@ -118454,6 +118459,8 @@ namespace OverflowHelper.core
             URL_Add("FLV", "https://en.wikipedia.org/wiki/Flash_Video");
 
             URL_Add("enjoy", "https://en.wiktionary.org/wiki/enjoy#Verb");
+
+            URL_Add("enjoying", "https://en.wiktionary.org/wiki/enjoy#Verb");
 
             URL_Add("file management", "https://en.wikipedia.org/wiki/File_manager#File_picker");
 
@@ -150451,6 +150458,2750 @@ namespace OverflowHelper.core
             correctionAdd("milimeter_", "multimeter_");
             correctionAdd("mm_", "multimeter_");
 
+            correctionAdd("hadndle_", "handle_");
+            correctionAdd("handel_", "handle_");
+            correctionAdd("hangle_", "handle_");
+
+            // The adverb (not the keyboard layout)
+            correctionAdd("hands-down_", "hands down_");
+
+            correctionAdd("right hand_", "right-hand_");
+            correctionAdd("RH_", "right-hand_");
+
+            // The adverb
+            correctionAdd("first hand_", "firsthand_");
+
+            correctionAdd("handy_", "mobile phone_");
+
+            correctionAdd("Mobile App_", "mobile app_");
+
+            correctionAdd("Mobile Apps_", "mobile apps_");
+
+            // The noun
+            correctionAdd("thank you_", "thank-you_");
+            correctionAdd("Than kyou_", "thank-you_");
+            correctionAdd("than kyou_", "thank-you_");
+            correctionAdd("thankyou_", "thank-you_");
+
+            // Alternative URLs:
+            //
+            //   <https://meta.stackoverflow.com/questions/288160/no-thanks-damn-it>
+            //   <https://meta.stackexchange.com/questions/2950/should-hi-thanks-taglines-and-salutations-be-removed-from-posts>
+            //
+            correctionAdd("thanks to everyone that can help_", "thanks in advance_");
+            correctionAdd("Thank you all ahead of time_", "thanks in advance_");
+            correctionAdd("thank you all ahead of time_", "thanks in advance_");
+            correctionAdd("Thank you ahead of time_", "thanks in advance_");
+            correctionAdd("thank you ahead of time_", "thanks in advance_");
+            correctionAdd("Thank you in advanced_", "thanks in advance_");
+            correctionAdd("Thank you beforehand_", "thanks in advance_");
+            correctionAdd("thank you beforehand_", "thanks in advance_");
+            correctionAdd("Thank You in Advance_", "thanks in advance_");
+            correctionAdd("Thank You in advance_", "thanks in advance_");
+            correctionAdd("Thanks ahead of time_", "thanks in advance_");
+            correctionAdd("thanks ahead of time_", "thanks in advance_");
+            correctionAdd("thanks for your help_", "thanks in advance_");
+            correctionAdd("Thank you in advance_", "thanks in advance_");
+            correctionAdd("thank you in advance_", "thanks in advance_");
+            correctionAdd("Thank u in adavnce_", "thanks in advance_");
+            correctionAdd("thanks in adavnce_", "thanks in advance_");
+            correctionAdd("Thanks beforehand_", "thanks in advance_");
+            correctionAdd("Thanks in advance_", "thanks in advance_");
+            correctionAdd("thanks beforehand_", "thanks in advance_");
+            correctionAdd("THanks in advance_", "thanks in advance_");
+            correctionAdd("THANKS in advance_", "thanks in advance_");
+            correctionAdd("Thanks by advance_", "thanks in advance_");
+            correctionAdd("thanks by advance_", "thanks in advance_");
+            correctionAdd("Thanks un avance_", "thanks in advance_");
+            correctionAdd("Thaks in advance_", "thanks in advance_");
+            correctionAdd("Thanks in advice_", "thanks in advance_");
+            correctionAdd("thanks in advice_", "thanks in advance_");
+            correctionAdd("Thx in advance_", "thanks in advance_");
+            correctionAdd("ty in advance_", "thanks in advance_");
+            correctionAdd("T.I.A_", "thanks in advance_");
+            correctionAdd("TYIA_", "thanks in advance_");
+            correctionAdd("Tyia_", "thanks in advance_");
+            correctionAdd("tyia_", "thanks in advance_");
+            correctionAdd("TAI_", "thanks in advance_");
+            correctionAdd("tia_", "thanks in advance_");
+            correctionAdd("TIA_", "thanks in advance_");
+
+            correctionAdd("LY_", "love you_");
+            correctionAdd("ly_", "love you_");
+
+            // Configuration software for Cooler Master keyboards.
+            //
+            // For the Reddit page (URL) with
+            // ***the version list***.
+            //
+            correctionAdd("MasterPlus_", "MasterPlus+_");
+            correctionAdd("1.9.4_", "MasterPlus+_");
+
+            correctionAdd("1.9.5_", "MasterPlus+ 1.9.5_");
+            correctionAdd("1.95_", "MasterPlus+ 1.9.5_");
+
+            // Cooler Master
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/coolermaster/comments/1egyehh/comment/lfye7b8/>
+            //
+            correctionAdd("Cooler Master quit the keyboard business_", "Cooler Master exited the mechanical keyboards and mice business_");
+            correctionAdd("production has allegedly ceased_", "Cooler Master exited the mechanical keyboards and mice business_");
+            correctionAdd("the whole team has been fired_", "Cooler Master exited the mechanical keyboards and mice business_");
+            correctionAdd("production has ceased_", "Cooler Master exited the mechanical keyboards and mice business_");
+            correctionAdd("Cooler Master quit_", "Cooler Master exited the mechanical keyboards and mice business_");
+            correctionAdd("Cooler Master_", "Cooler Master exited the mechanical keyboards and mice business_"); // For the cross-reference
+            correctionAdd("fired_", "Cooler Master exited the mechanical keyboards and mice business_");
+
+            correctionAdd("profilke_", "profile_");
+            correctionAdd("Profile_", "profile_");
+            correctionAdd("profil_", "profile_");
+            correctionAdd("profie_", "profile_");
+
+            correctionAdd("low profile_", "low-profile_");
+            correctionAdd("low-pro_", "low-profile_");
+            correctionAdd("lo-pro_", "low-profile_");
+            correctionAdd("lowpro_", "low-profile_");
+            correctionAdd("lopro_", "low-profile_");
+
+            // Mechanical keyboards
+            //
+            // Chording.
+            // Chord.
+            // Chords.
+            //
+            // Alternative URLs:
+            //
+            //  <https://www.youtube.com/watch?v=VsG5fT5LDqU>
+            //    A brief history of chorded text entry
+            //
+            //  <https://github.com/openstenoproject/plover#installation>
+            //    Plover. An open source desktop application
+            //
+            //    Is *not* keyboard firmware.
+            //
+            //  <https://www.youtube.com/watch?v=nRp_1S7cj6A>
+            //    200+wpm with this? | Stenography & Plover
+            //
+            //  <https://www.youtube.com/watch?v=JsRTTD9k2ME>
+            //    "Typing" at 150+ WPM | Plover and steno explained
+            //
+            //  <https://www.openstenoproject.org/learn-plover/home.html>
+            //    Now <https://opensteno.org/>
+            //
+            //  <https://www.openstenoproject.org/>
+            //
+            //  <https://www.artofchording.com/>
+            //    Art of chording
+            //    "The main motions are powered by arm movement
+            //       instead of finger movement"
+            //
+            //  <https://joshuagrams.github.io/steno-jig/>
+            //    Steno Jig
+            //
+            //  <https://en.wikipedia.org/wiki/Chorded_keyboard>
+            //    Chorded keyboard
+            //
+            //  <https://www.reddit.com/r/ErgoMechKeyboards/comments/1r38kvu/northern_chorder_opensource_chord_keyboard/>
+            //  <https://github.com/GlassOnTin/nchorder>
+            //    Northern Chorder
+            //
+            correctionAdd("Stenography_", "stenography_");
+            correctionAdd("Srenography_", "stenography_");
+            correctionAdd("srenography_", "stenography_");
+            correctionAdd("shorthand_", "stenography_");
+            correctionAdd("chording_", "stenography_");
+            correctionAdd("chordal_", "stenography_");
+            correctionAdd("chorded_", "stenography_");
+            correctionAdd("chorder_", "stenography_");
+            correctionAdd("stenno_", "stenography_");
+            correctionAdd("Steno_", "stenography_");
+            correctionAdd("steno_", "stenography_");
+            correctionAdd("chord_", "stenography_");
+
+            // Note: "layer" is in an another alternative word set
+            correctionAdd("laters_", "layers_"); // A true typo
+            correctionAdd("leyers_", "layers_");
+            correctionAdd("layes_", "layers_");
+
+            correctionAdd("ckicky_", "clicky_");
+
+            // A type of switch for mechanical keyboards
+            // Tactile and clicky.
+            //
+            correctionAdd("Cherry MX blue_", "Cherry MX Blue_");
+            correctionAdd("cherry mx blue_", "Cherry MX Blue_");
+            correctionAdd("Cherry Blue_", "Cherry MX Blue_");
+            correctionAdd("MX Blues_", "Cherry MX Blue_");
+            correctionAdd("Mx blue_", "Cherry MX Blue_");
+            correctionAdd("mx blue_", "Cherry MX Blue_");
+            correctionAdd("MX Blue_", "Cherry MX Blue_");
+            correctionAdd("MX blue_", "Cherry MX Blue_");
+            correctionAdd("blue_", "Cherry MX Blue_");
+
+            // A type of switch for mechanical keyboards
+            // Tactile, but not clicky. 45 g / 55 g. 2.0 mm actuation (standard)
+            //
+            // Alternative URLs
+            //
+            //   <https://www.cherrymx.de/_Resources/Persistent/9/3/e/d/93edbcdda68adb82c5ebe0fb662430d093f01a80/Data_sheet_MX2A_Brown.pdf>
+            //   <https://www.cherrymx.de/en/cherry-mx/mx-original/mx-brown.html#techSpecs>
+            //
+            correctionAdd("cherry max brown_", "Cherry MX Brown_");
+            correctionAdd("Cherry MX browns_", "Cherry MX Brown_");
+            correctionAdd("cherry Mx browns_", "Cherry MX Brown_");
+            correctionAdd("cherry Mx brown_", "Cherry MX Brown_");
+            correctionAdd("cherry mx brown_", "Cherry MX Brown_");
+            correctionAdd("brown stwitchs_", "Cherry MX Brown_");
+            correctionAdd("Cherry MX Sand_", "Cherry MX Brown_");
+            correctionAdd("Cherry MX Shit_", "Cherry MX Brown_");
+            correctionAdd("cherry browns_", "Cherry MX Brown_");
+            correctionAdd("Cherry Brown_", "Cherry MX Brown_");
+            correctionAdd("Cherry brown_", "Cherry MX Brown_");
+            correctionAdd("cherry brown_", "Cherry MX Brown_");
+            correctionAdd("MX Brown_", "Cherry MX Brown_");
+            correctionAdd("mx brown_", "Cherry MX Brown_");
+            correctionAdd("Mx Brown_", "Cherry MX Brown_");
+            correctionAdd("MX brown_", "Cherry MX Brown_");
+            correctionAdd("browns_", "Cherry MX Brown_");
+            correctionAdd("brown_", "Cherry MX Brown_");
+            correctionAdd("brows_", "Cherry MX Brown_");
+
+            // A type of switch for mechanical keyboards
+            // Linear
+            correctionAdd("Cherry MX Red's_", "Cherry MX Red_");
+            correctionAdd("cherry mx red's_", "Cherry MX Red_");
+            correctionAdd("Chrerry MX Red_", "Cherry MX Red_");
+            correctionAdd("Cherry MX re d_", "Cherry MX Red_");
+            correctionAdd("Cherry MX Reds_", "Cherry MX Red_");
+            correctionAdd("cherry mx reds_", "Cherry MX Red_");
+            correctionAdd("cherry mx red_", "Cherry MX Red_");
+            correctionAdd("CHERRY MX RED_", "Cherry MX Red_");
+            correctionAdd("CHERRY MX Red_", "Cherry MX Red_");
+            correctionAdd("Cherry Red_", "Cherry MX Red_");
+            correctionAdd("MX red_", "Cherry MX Red_");
+            correctionAdd("MX Red_", "Cherry MX Red_");
+            correctionAdd("mx red_", "Cherry MX Red_");
+            correctionAdd("Mx Red_", "Cherry MX Red_");
+            correctionAdd("red_", "Cherry MX Red_");
+
+            // A type of switch for mechanical keyboards
+            // Linear. 45 g. 1.2 mm actuation (short).
+            //
+            correctionAdd("Cherry MX SPEED Silver_", "Cherry MX Speed Silver_");
+            correctionAdd("Cherry MX Speed silver_", "Cherry MX Speed Silver_");
+            correctionAdd("CHERRY MX Speed Silver_", "Cherry MX Speed Silver_");
+            correctionAdd("Cherry MX Silver_", "Cherry MX Speed Silver_");
+            correctionAdd("MX SPEED Silver_", "Cherry MX Speed Silver_");
+            correctionAdd("MX Speed Silver_", "Cherry MX Speed Silver_");
+            correctionAdd("speed-silvers_", "Cherry MX Speed Silver_");
+            correctionAdd("Cherry Silver_", "Cherry MX Speed Silver_");
+            correctionAdd("speed silvers_", "Cherry MX Speed Silver_");
+            correctionAdd("Speed Silver_", "Cherry MX Speed Silver_");
+            correctionAdd("speed silver_", "Cherry MX Speed Silver_");
+            correctionAdd("speed-silver_", "Cherry MX Speed Silver_");
+            correctionAdd("silver_", "Cherry MX Speed Silver_");
+            correctionAdd("Silver_", "Cherry MX Speed Silver_");
+
+            correctionAdd("Re3cent_", "recent_");
+            correctionAdd("re3cent_", "recent_");
+            correctionAdd("Recent_", "recent_");
+            correctionAdd("resent_", "recent_");
+
+            // To both have an alternative word (as it may be used
+            // in an abbr., like "HE") and an alternative URL.
+            //
+            // Notes:
+            //
+            //   * Keychron K HE and Q HE series:
+            //
+            //       South pole facing downward (uncommon)
+            //
+            correctionAdd("Hall sensor_", "Hall effect_");
+            correctionAdd("Hall-effect_", "Hall effect_");
+
+            // Related to mechanical keyboards with Hall effect
+            // switches, e.g., from Keychron.
+            //
+            // Is DKS a SIA?
+            correctionAdd("Dynamic Keystroke_", "dynamic keystroke_");
+            correctionAdd("DKS_", "dynamic keystroke_");
+
+            // "magnetic switches operate based on magnet polarity
+            //   and PCB design, meaning not all keyboards will
+            //   support them."
+            //
+            // Keychron changed orientation:
+            //
+            //   * K HE and Q HE series:        south pole
+            //
+            //   * Q HE 8K series (wired only): north pole. But closed source code.
+            //
+            //   A reference:
+            //
+            //    <https://www.reddit.com/r/Keychron/comments/1syixet/comment/ojurnl4/>
+            //
+            // Note: Not to be confused with Gateron 'North Pole'
+            //       regular ***mechanical*** switches
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1qpeo77/comment/o29bicr/>
+            //
+            correctionAdd("Hall effect switches with N-pole magnets facing downward_", "Hall effect switches with north-pole magnets facing downward_");
+            correctionAdd("south pole-down_", "Hall effect switches with north-pole magnets facing downward_");
+            correctionAdd("south-pole-down_", "Hall effect switches with north-pole magnets facing downward_");
+            correctionAdd("North Switch_", "Hall effect switches with north-pole magnets facing downward_");
+            correctionAdd("north switch_", "Hall effect switches with north-pole magnets facing downward_");
+            correctionAdd("north pole_", "Hall effect switches with north-pole magnets facing downward_");
+            correctionAdd("south pole_", "Hall effect switches with north-pole magnets facing downward_"); // For the cross-reference
+            correctionAdd("N_", "Hall effect switches with north-pole magnets facing downward_");
+
+            // Mechanical keyboards
+            //
+            // <https://deskthority.net> ("desk authority")
+            //
+            //   The 'deskthority.net' reference is now broken (blank page).
+            //
+            //   Candidate sites for a new location for the wiki:
+            //
+            //     <https://wiki.themk.org>
+            //     <https://deskauthority.saberkeebs.com/wiki.themk.org/index.php/Geekhack.html>
+            //       A mirror of <https://wiki.themk.org>
+            //
+            //   Similar wiki:
+            //
+            //     <https://wiki.geekhack.org/index.php?title=GeekHackWiki>
+            //       GeekHack (GH)
+            //
+            //         But it also appears on its way out (2026-02-25):
+            //
+            //           <https://geekhack.org/index.php?PHPSESSID=56m525muila8v1sqg0ibbtovqoa53u1g&topic=126408.msg3214150#new>
+            //
+            //         <https://deskauthority.saberkeebs.com/wiki.themk.org/index.php/Geekhack.html>
+            //
+            //         <https://geekhack.fandom.com/wiki/GeekHack_Wikia>
+            //
+            //       Forum:
+            //
+            //         <https://geekhack.org/>
+            //
+            correctionAdd("desk authority_", "Deskthority_");
+            correctionAdd("Desk authority_", "Deskthority_");
+            correctionAdd("Deskauthority_", "Deskthority_");
+            correctionAdd("deskauthority_", "Deskthority_");
+            correctionAdd("Deskathority_", "Deskthority_");
+            correctionAdd("deskathority_", "Deskthority_");
+            correctionAdd("deskthority_", "Deskthority_");
+            correctionAdd("DT_", "Deskthority_"); // A SIA
+
+            // Windows. Keyboards. Accessibility
+            //
+            // Similar to Sticky Keys and ToggleKeys
+            //
+            correctionAdd("Filter Keys_", "FilterKeys_");
+            correctionAdd("Filter keys_", "FilterKeys_");
+            correctionAdd("filter keys_", "FilterKeys_");
+            correctionAdd("Filterkeys_", "FilterKeys_");
+            correctionAdd("filter_", "FilterKeys_");
+            correctionAdd("Filter_", "FilterKeys_");
+
+            // Windows. Keyboards. Accessibility.
+            //
+            // Similar to Sticky Keys and FilterKeys
+            //
+            correctionAdd("toggle keys_", "ToggleKeys_");
+            correctionAdd("toggle_", "ToggleKeys_");
+            correctionAdd("Toggle_", "ToggleKeys_");
+
+            // Mac
+            //
+            // Alternative URLs:
+            //
+            //   <https://help.macally.com/help/keyboard-setup-assistant>
+            //
+            //     Includes screenshots of the actual user interface.
+            //     And how to start Keyboard Setup Assistant manually
+            //
+            //     Published 2021.
+            //
+            //   <https://www.reddit.com/r/applehelp/comments/u4bb9w/keyboard_setup_assistant_pops_up_every_time_i/>
+            //     Keyboard setup assistant pops up every time I plug my keyboard in
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1tb84s9/keychron_k6_he_freezing_macbook_pro_intel_mouse/>
+            //     Keychron K6 HE freezing MacBook Pro (Intel) - Mouse
+            //     stops working and Keyboard Setup Assistant loop
+            //
+            correctionAdd("keyboard set up assistant_", "Keyboard Setup Assistant_");
+            correctionAdd("keyboard setup assistant_", "Keyboard Setup Assistant_");
+            correctionAdd("keyboard assistant_", "Keyboard Setup Assistant_");
+            correctionAdd("Keychron Assist_", "Keyboard Setup Assistant_"); // For the cross-reference
+
+            // The common noun
+            correctionAdd("weel_", "wheel_");
+
+            correctionAdd("mouse cursor_", "mouse pointer_");
+            correctionAdd("mouse_", "mouse pointer_");
+
+            correctionAdd("Left Mouse Button_", "left mouse button_");
+            correctionAdd("LMB_", "left mouse button_");
+            correctionAdd("lmb_", "left mouse button_");
+
+            correctionAdd("Right Mouse Button_", "right mouse button_");
+            correctionAdd("RMB_", "right mouse button_");
+            correctionAdd("rmb_", "right mouse button_");
+
+            correctionAdd("mouse-less_", "mouseless_");
+
+            correctionAdd("midification_", "modification_");
+            correctionAdd("mofification_", "modification_");
+            correctionAdd("moficiation_", "modification_");
+            correctionAdd("mofifiation_", "modification_");
+            correctionAdd("modiciation_", "modification_");
+            correctionAdd("modifiation_", "modification_");
+            correctionAdd("modication_", "modification_");
+            correctionAdd("modding_", "modification_");
+            correctionAdd("modif_", "modification_");
+            correctionAdd("mod_", "modification_");
+            correctionAdd("Mod_", "modification_");
+
+            correctionAdd("Modifications_", "modifications_");
+            correctionAdd("mods_", "modifications_");
+            correctionAdd("Mods_", "modifications_");
+            correctionAdd("MODS_", "modifications_");
+
+            correctionAdd("miniature snap-action switch_", "micro switch_");
+
+            // QMK / Via: Keychron's clone of Via (with some extra
+            // features, like updating of the firmware, apparently
+            // also Bluetooth firmware).
+            //
+            // Related:
+            //
+            //    <https://www.keychron.com/blogs/news/how-to-download-and-install-keychron-assist>
+            //      How to download and install Keychron Assist
+            //
+            // Bugs:
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1kdovl0/keychron_v3_ansi_knob_launcher_not_fetching/>
+            //     V3 (ANSI knob) does not work with the Via clone,
+            //     whereas it works fine with Via.
+            //
+            //     2025-05-03.
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1buwibx/comment/lafqz99/>
+            //     Bricking the Bluetooth module (by Keychron's Via clone)
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.keychron.com/blogs/news/how-to-set-per-key-rgb-on-launcher>
+            //     How to set per-key RGB on [sic] Launcher
+            //
+            //     Note: Some of the images requires allowing
+            //           some JavaScript from various domains
+            //
+            //   <https://www.keychron.com/blogs/news/how-to-set-lkp-on-keychron-launcher>
+            //     How to set LKP (last keystroke prioritization) on [sic] Keychron Launcher
+            //
+            //     Published 2025-02-08 (though there isn't
+            //     any date information on the page itself).
+            //
+            //   <https://www.keychron.com/blogs/news/how-to-set-keyboard-bounce-time-on-launcher>
+            //     How to set keyboard bounce time on [sic] Launcher
+            //
+            //     The screenshot (<https://cdn.shopify.com/s/files/1/0059/0630/1017/files/How-to-set-Keyboard-Bounce-Time-on-launcher-1.jpg?v=1743230825>)
+            //     includes:
+            //
+            //       Auto sleep mode starting time (default: 2 hours)
+            //
+            //       Auto backlight off starting time (default: 10 minutes (600 seconds))
+            //
+            //         "Auto Backlight"
+            //
+            //     But the screenshot not appear to be in the blog post.
+            //     Was it later changed? Yes, probably because
+            //
+            //     And later this was allegedly added (not in the "blog" post):
+            //
+            //       "Keyboard matrix scanning idle time"
+            //
+            //     Published 2025-03-31 (though there isn't
+            //     any date information on the page itself).
+            //
+            //   <https://www.keychron.com/blogs/news/how-to-create-a-macro-on-launcher>
+            //     How to create a macro on Launcher
+            //
+            //   <https://www.keychron.com/blogs/news/how-to-use-launcher-to-program-your-keyboard>
+            //     How to use Launcher to program your keyboard
+            //
+            //     It even covers macros. But it doesn't actually show
+            //     a screenshot for the "Basic" tab (the first tab).
+            //
+            //     Official documentation for Keychron Launcher.
+            //     The documentation is for ***flashing*** is
+            //     on a separate page:
+            //
+            //       <https://www.keychron.com/pages/how-to-factory-reset-or-use-the-launcher-web-app-to-flash-firmware-for-your-keyboard>
+            //         How to factory reset or use the Launcher web application to flash firmware for your keyboard
+            //
+            //     With some screenshots. It even covers macros.
+            //
+            //     But ***not*** the Hall effect switches-specific
+            //     functions (for example, "one key multiple commands").
+            //     The left panel has (for example,
+            //     <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/Launcher-11.png>):
+            //
+            //         Keymap
+            //         Lighting
+            //         Macro
+            //         Firmware Update
+            //         Key Test
+            //         Bug Report
+            //
+            //       Macros:
+            //
+            //         <https://cdn.shopify.com/videos/c/o/v/9a26063e7d59414eaf57dbfc469a510e.mov>
+            //
+            //           "Disable Delay" (8th tab)
+            //
+            //   <https://www.keychron.com/blogs/news/how-to-set-mix-rgb-on-launcher>
+            //     How to set mix RGB on Launcher
+            //
+            //   <https://keychron.com.au/blogs/news/how-to-manage-your-he-profile>
+            //     How to manage your HE profile on [sic] Launcher
+            //
+            //     That is, the set of HE-specific profiles,
+            //     not howchange any configuration.
+            //
+            //     "HE profile allows you to set every key's actuation distance
+            //      and rapid trigger so that different keys can be set with
+            //      different trigger distance and rapid trigger sensitivities"
+            //
+            //     "..."Fn" + "P" + "Z / X / C" to switch to Profile 1 / 2 / 3."
+            //
+            //   <https://www.keychron.com/pages/how-to-use-he-mode-on-keychron-launcher>
+            //   <https://www.keychron.com/blogs/news/how-to-use-he-mode-on-keychron-launcher>
+            //     How to use HE mode on [sic] Keychron Launcher
+            //
+            //     It does ***not*** cover calibration of HE keyboards.
+            //     Though it is in many of screenshots, e.g.:
+            //
+            //       <https://www.keychron.com/cdn/shop/articles/image_55.png?v=1766546090&width=800>
+            //       <https://www.keychron.com/cdn/shop/articles/image_55.png>
+            //
+            //     But the first reference only covers (an abandoned page?
+            //     The drop down (hidden) text requires some JavaScript
+            //     to be allowed):
+            //
+            //       Set actuation distance
+            //
+            //       Rapid Trigger
+            //
+            //   <https://www.keychron.com/blogs/news/how-to-manage-your-he-profile-on-launcher>
+            //     How to manage your HE profile on Launcher
+            //
+            //     It covers calibration of HE keyboards.
+            //     E.g., near 'Click "Calibration"'. A screenshot:
+            //
+            //       <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/image_13_27ec67f4-4e80-475a-96ec-f8328c67a386.png>
+            //
+            //   <https://i.imgur.com/pd9qhwF.png>
+            //     Change/enable/disable the Num Lock and Caps Lock
+            //     indicators and choose a different colour for them.
+            //
+            //   <https://www.youtube.com/watch?v=_7ZVJMuag7s&t=8s>
+            //     Keychron K4 HE – How to create and assign macros
+            //
+            //     But it is too short.
+            //
+            //     ***Without*** extremely irritating
+            //     background music (way too loud).
+            //
+            //   <https://i.imgur.com/ClzX5uk.png>
+            //     A screenshot of a macro
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1ojsc0e/a_useful_tool_for_understanding_keychron_launcher/>
+            //     Demo Mode. Introduced on 2025-10-30.
+            //
+            //   <https://www.keychron.com/blogs/news/how-to-set-keymap-language-on-launcher>
+            //     How to set keymap language on [sic] Launcher
+            //
+            //     It now supports different keyboard layout
+            //     interpretations, e.g.,:
+            //
+            //       * Nordic
+            //       * Japanese
+            //       * German
+            //       * Swiss German
+            //       * French
+            //       * UK English
+            //       * US English
+            //
+            //     Published 2025-03-31 (though there isn't
+            //     any date information on the page itself).
+            //
+            //     And Portuguese ("Português"):
+            //
+            //       <https://i.imgur.com/eUenAzT.png>
+            //
+            //         Note: Requires JavaScript to be allowed from
+            //               'cloudfront.net' to not be surrounded
+            //               by Imgur goo.
+            //
+            //         Also includes "Reset Layout. Export. Import."
+            //
+            //   <https://www.youtube.com/watch?v=fZCRySY2ZRI&t=12m44s>
+            //     A demo (using the Q6 Max)
+            //     Incl. macros, from 14 min 55 secs:
+            //
+            //       <https://www.youtube.com/watch?v=fZCRySY2ZRI&t=14m55s>
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1buwibx/comment/lafqz99/>
+            //     The 2024-06 scandal, a bug leading users to update the
+            //     Bluetooth firmware with completely wrong firmware and
+            //     consequently bricking the Bluetooth module, requiring
+            //     replacement of the PCB.
+            //
+            //   <https://www.keychron.com/pages/backlight-setting>
+            //     Backlight setting tutorials:
+            //
+            //       Per-key RGB
+            //       Mix RGB      (AKA "mixed RGB")
+            //
+            //     Similar:
+            //
+            //       <https://www.keychron.com/pages/advanced-mode>
+            //         Advanced mode tutorials:
+            //
+            //           Debounce mode
+            //
+            //           Auto sleep mode and backlight off
+            //
+            //   <https://i.imgur.com/cMYhoyh.jpeg>
+            //     Screenshot of keymapping options "Basic",
+            //     "Special", and "Custom" (but not of
+            //     tab "Lighting")
+            //
+            //     The "Any" key is in tab "Custom" (sixth tab),
+            //     last item. It is also in:
+            //
+            //       <https://i.imgur.com/dYeVkwI.png>
+            //         Incl. Caps Lock key layer shift (using 'LT')
+            //
+            //         Related: <https://www.reddit.com/r/Keychron/comments/1plipyq/comment/ntsx1ib/>
+            //
+            //     Note: Requires JavaScript to be allowed from
+            //           'cloudfront.net' to not be surrounded
+            //           by Imgur goo.
+            //
+            //   <https://www.youtube.com/watch?v=dfMJrJI6hYk&t=8m4s>
+            //     A screenshot from the Via clone for Q15 Max.
+            //
+            //     Including:
+            //
+            //       "Layout language"
+            //
+            //       "Reset Layout"
+            //
+            //       "Export"
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1kc4wum/bug_launcher_knob_turns_disappear_from_ui_after/>
+            //     [Bug: Launcher] Knob turns disappear from UI
+            //     after mapping 'Any' key
+            //
+            //     Demo: <https://www.youtube.com/watch?v=46Xgp0lCvME>
+            //
+            //     Related: Screenshot of 'Any' in the Via clone:
+            //
+            //       <https://i.imgur.com/zuhLCD6.png>
+            //
+            //         Note: Requires JavaScript to be allowed from
+            //               'cloudfront.net' to not be surrounded
+            //               by Imgur goo.
+            //
+            //   <https://keychronsupport.zendesk.com/hc/en-us/articles/22776472488855-My-keyboard-is-not-recognized-by-Keychron-Launcher-what-should-I-do>
+            //     My keyboard is not recognized by Keychron Launcher.
+            //     What should I do?
+            //
+            //     <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/Launcher-4.png>
+            //       Layers start at 0, like in Via
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1cgqt1n/why_did_we_release_the_keychron_and_lemokey/>
+            //     Why did we release the Keychron and
+            //     Lemokey Launcher configurator?
+            //
+            //     The announcement by Keychron
+            //
+            //   <https://www.lemokey.com/blogs/news/how-to-use-launcher-to-program-your-keyboard>
+            //     Separate "Lemokey Launcher". Or is it actually the
+            //     same as Keychron Launcher?
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1buwibx/comment/kxx3kt0/>
+            //     My elaboration, incl. noting the macro part
+            //     is broken.
+            //
+            //   <https://www.keychron.com/pages/how-to-factory-reset-or-use-the-launcher-web-app-to-flash-firmware-for-your-keyboard>
+            //     How to factory reset or use the Launcher web application
+            //     to flash firmware for your keyboard
+            //
+            //     It includes screenshots. The factory reset method
+            //     is Fn + J + Z, and the into-bootloader-mode
+            //     method is the Esc key method.
+            //
+            //   <https://keychronsupport.zendesk.com/hc/en-us/articles/8914576001943-How-to-Factory-Reset-or-Flash-Firmware-for-Your-Keychron-Q3-keyboard>
+            //     The spacebar method for flashing Keychron keyboards
+            //
+            //   <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/Program-the-K14-Pro-keyboard-with-Launcher.jpg>
+            //     Screenshot of K14 Pro ANSI RGB in Keychron Launcher
+            //
+            //   Some screenshots for HE keyboards (from
+            //   <https://www.reddit.com/r/Keychron/comments/1hj7grv/comment/m35lza2/>):
+            //
+            //     <https://i.imgur.com/EPQ5cXj.png>
+            //       The only one from the Via clone. And without a
+            //       "profile" for per-key activation distances.
+            //
+            //     <https://i.imgur.com/1U8NzJb.png>
+            //     <https://i.imgur.com/ATjLe4F.png>
+            //     <https://i.imgur.com/V9hyEma.png>
+            //     <https://i.imgur.com/wUwirEL.png>
+            //     <https://i.imgur.com/uyEFKmK.png>
+            //     <https://i.imgur.com/XH17r7H.png>
+            //
+            //       Note: Sometimes redirects to the non-.png
+            //             version, possibly depending on how
+            //             much JavaScript is allowed.
+            //
+            //     Note: Requires JavaScript to be allowed from
+            //           'cloudfront.net' to not be surrounded
+            //           by Imgur goo.
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1i6imc0/launcherkeychroncom_ssl_error/>
+            //     The 2025-01-21 outage
+            //
+            //   <https://www.keychron.com/blogs/news/how-to-set-snap-click-on-launcher>
+            //     How to set Snap Click on Launcher
+            //
+            //   <https://www.keychron.com/blogs/news/how-to-set-one-key-multiple-commands-on-launcher>
+            //     How to set one key multiple commands on [sic] Launcher
+            //
+            //     "...configure a single key to output multiple different
+            //      output results based on its actuation travel distance."
+            //
+            //     For the HE keyboards
+            //
+            //   <https://www.youtube.com/watch?v=itGzZxsunzY>
+            //     Demo of manipulating the saved JSON
+            //     file, e.g., with key mappings
+            //
+            //     To swap layers in this example. In the demo,
+            //     an online JSON editor is used. The Via clone
+            //     used an MD5 checksum for some, but not all,
+            //     content.
+            //
+            //   <https://www.keychron.com/blogs/news/how-to-set-keymap-language-on-launcher>
+            //     How to set keymap language on Launcher
+            //
+            correctionAdd("launcher.keychron.com/#/keymap_", "Keychron Launcher_");
+            correctionAdd("www.launcher.keychron.com_", "Keychron Launcher_");
+            correctionAdd("the Keychron clone of Via_", "Keychron Launcher_");
+            correctionAdd("Launcher Web Configurator_", "Keychron Launcher_");
+            correctionAdd("Launcher web configurator_", "Keychron Launcher_");
+            correctionAdd("launcher web configurator_", "Keychron Launcher_");
+            correctionAdd("Keychron's own web editor_", "Keychron Launcher_");
+            correctionAdd("Keychron's own web-editor_", "Keychron Launcher_");
+            correctionAdd("keychrons own web-editor_", "Keychron Launcher_");
+            correctionAdd("the keyboard application_", "Keychron Launcher_");
+            correctionAdd("Keychron's clone of Via_", "Keychron Launcher_");
+            correctionAdd("launcher.keychrome.com_", "Keychron Launcher_");
+            correctionAdd("Keychron clone of Via_", "Keychron Launcher_");
+            correctionAdd("Keychron Configurator_", "Keychron Launcher_");
+            correctionAdd("launcher.keychron.com_", "Keychron Launcher_");
+            correctionAdd("Keychron Web Launcher_", "Keychron Launcher_");
+            correctionAdd("Keychron's Via clone_", "Keychron Launcher_");
+            correctionAdd("keyboard application_", "Keychron Launcher_");
+            correctionAdd("Keychron's launcher_", "Keychron Launcher_");
+            correctionAdd("Keychron Via clone_", "Keychron Launcher_");
+            correctionAdd("Keychrone Launcher_", "Keychron Launcher_");
+            correctionAdd("keychrone launcher_", "Keychron Launcher_");
+            correctionAdd("Keychrone launcher_", "Keychron Launcher_");
+            correctionAdd("keychrone launched_", "Keychron Launcher_");
+            correctionAdd("KeyChron launcher_", "Keychron Launcher_");
+            correctionAdd("KeyChron Launcher_", "Keychron Launcher_");
+            correctionAdd("Keychain launcher_", "Keychron Launcher_");
+            correctionAdd("keychron launcher_", "Keychron Launcher_");
+            correctionAdd("launcher.keychron_", "Keychron Launcher_");
+            correctionAdd("Keychron launcher_", "Keychron Launcher_");
+            correctionAdd("keychron Launcher_", "Keychron Launcher_");
+            correctionAdd("keyboard launcher_", "Keychron Launcher_");
+            correctionAdd("Keyboard Launcher_", "Keychron Launcher_");
+            correctionAdd("keychain launcher_", "Keychron Launcher_");
+            correctionAdd("Keychain Launcher_", "Keychron Launcher_");
+            correctionAdd("Keychron lanucher_", "Keychron Launcher_");
+            correctionAdd("keychrone connect_", "Keychron Launcher_");
+            correctionAdd("kaychron launcher_", "Keychron Launcher_");
+            correctionAdd("keychron's clone_", "Keychron Launcher_");
+            correctionAdd("Keychron's clone_", "Keychron Launcher_");
+            correctionAdd("Keychon Launcher_", "Keychron Launcher_");
+            correctionAdd("Keychron laucher_", "Keychron Launcher_");
+            correctionAdd("the \"launcher\"_", "Keychron Launcher_");
+            correctionAdd("Keychron Laucher_", "Keychron Launcher_");
+            correctionAdd("keychron Laucher_", "Keychron Launcher_");
+            correctionAdd("the keyboard app_", "Keychron Launcher_");
+            correctionAdd("Lemokey Launcher_", "Keychron Launcher_"); // For the cross-reference
+            correctionAdd("Keychron luncher_", "Keychron Launcher_");
+            correctionAdd("Keychron Luncher_", "Keychron Launcher_");
+            correctionAdd("Keychron connect_", "Keychron Launcher_");
+            correctionAdd("the web launcher_", "Keychron Launcher_");
+            correctionAdd("Keykron Launcher_", "Keychron Launcher_");
+            correctionAdd("Keykron launcher_", "Keychron Launcher_");
+            correctionAdd("keychron laucher_", "Keychron Launcher_");
+            correctionAdd("keychrons clone_", "Keychron Launcher_");
+            correctionAdd("their Via clone_", "Keychron Launcher_");
+            correctionAdd("Weblauncher app_", "Keychron Launcher_");
+            correctionAdd("launch.keychron_", "Keychron Launcher_");
+            correctionAdd("Keykron laucher_", "Keychron Launcher_");
+            correctionAdd("Keychron clone_", "Keychron Launcher_");
+            correctionAdd("the 'launcher'_", "Keychron Launcher_");
+            correctionAdd("the Via clone_", "Keychron Launcher_");
+            correctionAdd("The Via clone_", "Keychron Launcher_");
+            correctionAdd("Keychron apps_", "Keychron Launcher_");
+            correctionAdd("keychron apps_", "Keychron Launcher_");
+            correctionAdd("the launcher_", "Keychron Launcher_");
+            correctionAdd("web launcher_", "Keychron Launcher_");
+            correctionAdd("qmk launcher_", "Keychron Launcher_"); // Though something else could have been meant, like 'Via' or 'QMK Toolbox'.
+            correctionAdd("Keychron app_", "Keychron Launcher_");
+            correctionAdd("keychron app_", "Keychron Launcher_");
+            correctionAdd("keyboard app_", "Keychron Launcher_");
+            correctionAdd("Web Launcher_", "Keychron Launcher_");
+            correctionAdd("clone of Via_", "Keychron Launcher_");
+            correctionAdd("KC Launcher_", "Keychron Launcher_");
+            correctionAdd("KC launcher_", "Keychron Launcher_");
+            correctionAdd("Weblauncher_", "Keychron Launcher_");
+            correctionAdd("The website_", "Keychron Launcher_");
+            correctionAdd("Web Lancher_", "Keychron Launcher_");
+            correctionAdd("Via clone_", "Keychron Launcher_");
+            correctionAdd("via clone_", "Keychron Launcher_");
+            correctionAdd("its clone_", "Keychron Launcher_");
+            correctionAdd("the clone_", "Keychron Launcher_");
+            correctionAdd("Laincher_", "Keychron Launcher_"); // A typo
+            correctionAdd("laincher_", "Keychron Launcher_"); // A typo
+            correctionAdd("Lanucher_", "Keychron Launcher_");
+            correctionAdd("lanucher_", "Keychron Launcher_");
+            correctionAdd("Laucnher_", "Keychron Launcher_");
+            correctionAdd("laucnher_", "Keychron Launcher_");
+            correctionAdd("Launcher_", "Keychron Launcher_");
+            correctionAdd("launcher_", "Keychron Launcher_");
+            correctionAdd("Launcehr_", "Keychron Launcher_"); // Misspelt (true typo) by Keychron support!!
+            correctionAdd("launched_", "Keychron Launcher_");
+            correctionAdd("Keychron_", "Keychron Launcher_"); // For the cross-reference
+            correctionAdd("Laucher_", "Keychron Launcher_"); // A typo
+            correctionAdd("laucher_", "Keychron Launcher_"); // A typo
+            correctionAdd("Luncher_", "Keychron Launcher_"); // A typo
+            correctionAdd("luncher_", "Keychron Launcher_"); // A typo
+            correctionAdd("Lancher_", "Keychron Launcher_");
+            correctionAdd("launcer_", "Keychron Launcher_");
+            correctionAdd("LWC_", "Keychron Launcher_");
+            correctionAdd("KL_", "Keychron Launcher_");
+
+            // The verb
+            correctionAdd("flsah_", "flash_");
+            correctionAdd("flush_", "flash_");
+            correctionAdd("fash_", "flash_");
+            correctionAdd("flag_", "flash_"); // An autocorrect "masterpiece"?
+
+            correctionAdd("nand flash_", "NAND flash_");
+            correctionAdd("NAND-flash_", "NAND flash_");
+            correctionAdd("nand-flash_", "NAND flash_");
+            correctionAdd("NAND Flash_", "NAND flash_");
+            correctionAdd("flash nand_", "NAND flash_");
+            correctionAdd("flashnand_", "NAND flash_");
+            correctionAdd("NAND_", "NAND flash_");
+
+            correctionAdd("nor flash_", "NOR flash_");
+            correctionAdd("Flash NOR_", "NOR flash_");
+            correctionAdd("flash NOR_", "NOR flash_");
+
+            // Embedded systems, incl. QMK mechanical keyboards
+            //
+            // For the alternative URL (Keychron's instructions)
+            // Microcontrollers
+            //
+            // E.g., related to flashing firmware for Keychron keyboards
+            correctionAdd("Hard flashing_", "hard flashing_");
+
+            // Embedded systems, incl. QMK mechanical keyboards
+            //
+            // Alternative URLs:
+            //
+            //   <https://keychronsupport.zendesk.com/hc/en-us/articles/8914576001943-How-to-Factory-Reset-or-Flash-Firmware-for-Your-Keychron-Q3-keyboard>
+            //     The spacebar method for flashing Keychron keyboards
+            //
+            correctionAdd("bootloader loader mode_", "bootloader mode_");
+            correctionAdd("boot loader mode_", "bootloader mode_");
+            correctionAdd("flash memory_", "bootloader mode_"); // For the cross-reference
+            correctionAdd("bootloader_", "bootloader mode_");
+            correctionAdd("flash mode_", "bootloader mode_");
+            correctionAdd("Flash mode_", "bootloader mode_");
+            correctionAdd("DFU mode_", "bootloader mode_");
+
+            correctionAdd("OSC_", "Open Sound Control_");
+
+            correctionAdd("hard ware_", "hardware_");
+            correctionAdd("harwdware_", "hardware_");
+            correctionAdd("hardwares_", "hardware_");
+            correctionAdd("hardwarws_", "hardware_");
+            correctionAdd("hardeware_", "hardware_");
+            correctionAdd("Hardware_", "hardware_");
+            correctionAdd("harwade_", "hardware_");
+            correctionAdd("H/W_", "hardware_");
+            correctionAdd("h/w_", "hardware_");
+            correctionAdd("HS_", "hardware_"); // A typo of abbr. "HW"
+            correctionAdd("hw_", "hardware_");
+            correctionAdd("HW_", "hardware_");
+
+            // PC hardware
+            correctionAdd("Industry Standard Architecture_", "ISA bus_");
+            correctionAdd("ISA_", "ISA bus_");
+
+            // PC hardware. Hard disk drives. SSDs. Disks. Partioning.
+            //
+            // Alternative URL:
+            //
+            //   <https://www.gnu.org/software/parted/>
+            //   <https://www.gnu.org/software/parted/manual/parted.html>
+            //
+            correctionAdd("parted_", "Parted_");
+
+            // For the reference to QMK's GitHub repository
+            correctionAdd("the main QMK project_", "QMK_");
+            correctionAdd("official QMK project_", "QMK_");
+            correctionAdd("main QMK project_", "QMK_");
+            correctionAdd("Main QMK project_", "QMK_");
+            correctionAdd("QMK project_", "QMK_");
+            correctionAdd("qmk_", "QMK_");
+
+            // Output of 'qmk clean --help':
+            //
+            //   usage: qmk clean [-h] [-a]
+            //
+            //   optional arguments:
+            //     -h, --help  show this help message and exit
+            //     -a, --all   Remove *.hex and *.bin files in the QMK root as well.
+            //
+            // Alternative URLs:
+            //
+            //   <https://docs.qmk.fm/cli_commands#qmk-clean>
+            //
+            correctionAdd("the official QMK Git repository, Keychron keyboards_", "qmk clean_"); // For the cross-reference, indirectly from "QMK"
+            correctionAdd("QMK CLEAN_", "qmk clean_");
+
+            // QMK
+            //
+            // There isn't a 'man page', but this is
+            // the output of 'qmk flash --help':
+            //
+            //  Usage: qmk flash [-h] [-c] [-e ENV] [-j PARALLEL] [-n] [-km KEYMAP] [-kb KEYBOARD] [-m MCU] [-bl BOOTLOADER] [-b] [filename]
+            //
+            //  Positional arguments:
+            //
+            //    filename           A configurator export JSON file to be
+            //                       compiled and flashed or a pre-compiled
+            //                       binary firmware file (.bin/.hex) to
+            //                       be flashed.
+            //
+            //  Optional arguments:
+            //
+            //    -h, --help         Show this help message and exit
+            //
+            //    -c, --clean        Remove object files before compiling.
+            //
+            //    -e ENV, --env ENV  Set a variable to be passed to 'make'.
+            //                       May be passed multiple times.
+            //
+            //    -j PARALLEL, --parallel PARALLEL
+            //                       Set the number of parallel 'make'
+            //                       jobs; 0 means unlimited.
+            //
+            //    -n, --dry-run      Don't actually build; just show
+            //                       the 'make' command to be run.
+            //
+            //    -km KEYMAP, --keymap KEYMAP
+            //                       The keymap to build a firmware file
+            //                       for. It is ignored when a configurator
+            //                       export file is supplied.
+            //
+            //    -kb KEYBOARD, --keyboard KEYBOARD
+            //                       The keyboard to build a firmware file for.
+            //                       It is ignored when a configurator export
+            //                       file is supplied.
+            //
+            //    -m MCU, --mcu MCU  The microcontroller name. Required for HalfKay,
+            //                       HID, USBAspLoader and ISP flashing.
+            //
+            //    -bl BOOTLOADER, --bootloader BOOTLOADER
+            //                       The flash command, corresponding to
+            //                       QMK's 'make' options of bootloaders.
+            //
+            //    -b, --bootloaders  List the available bootloaders.
+            //
+            // For the cross-reference
+            correctionAdd("qmk setup_", "qmk flash_");
+
+            // Mostly for the alternative URL
+            //
+            // Both debounce in general and mechanical keyboards.
+            //
+            correctionAdd("key debounce time_", "key debounce_");
+            correctionAdd("debounce time_", "key debounce_");
+            correctionAdd("Jack Ganssle_", "key debounce_");
+            correctionAdd("debounce_", "key debounce_");
+
+            correctionAdd("QMK debounce methods/algorithms_", "The QMK default key debounce time is 5 ms_"); // For the cross-reference
+            correctionAdd("default 5 ms_", "The QMK default key debounce time is 5 ms_");
+            correctionAdd("5 ms_", "The QMK default key debounce time is 5 ms_");
+
+            correctionAdd("masking a mechanical problem_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
+            correctionAdd("treating some symptoms_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
+            correctionAdd("treating the symptoms_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
+            correctionAdd("treated the symptoms_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
+            correctionAdd("treats the symptoms_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
+            correctionAdd("treat the symptoms_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
+            correctionAdd("masking a problem_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
+            correctionAdd("treating symptoms_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
+            correctionAdd("mask the problem_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
+            correctionAdd("treat symptoms_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
+            correctionAdd("has set it to_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
+            correctionAdd("to masking_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
+            correctionAdd("symptoms_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
+            correctionAdd("symptom_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
+            correctionAdd("masking_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
+
+            // QMK
+            correctionAdd("wear leveling for EEPROM emulation in QMK_", "wear leveling for EEPROM memory emulation in QMK_");
+            correctionAdd("wear leaving_", "wear leveling for EEPROM memory emulation in QMK_");
+
+            // A QMK function. For the QMK documentation reference
+            correctionAdd("process_decord_user_", "process_record_user()_");
+            correctionAdd("process record_", "process_record_user()_");
+            correctionAdd("process_key_", "process_record_user()_");
+            correctionAdd("process key_", "process_record_user()_");
+
+            // A QMK function (C)
+            //
+            // Note: Does ***not*** write to (emulated) EEPROM
+            //
+            correctionAdd("rgb_matrix_disable_noeeprom_", "rgb_matrix_disable_noeeprom()_"); // For the cross-reference
+            correctionAdd("rgb_matrix_disable()_", "rgb_matrix_disable_noeeprom()_");
+
+            // A QMK function (C)
+            //
+            // Note: Does ***not*** write to (emulated) EEPROM
+            //
+            correctionAdd("rgb_matrix_enable_noeeprom_", "rgb_matrix_enable_noeeprom()_"); // For the cross-reference
+            correctionAdd("rgb_matrix_enable()_", "rgb_matrix_enable_noeeprom()_");
+
+            // A QMK function (C)
+            //
+            // Note: Does ***not*** write to (emulated) EEPROM
+            //
+            correctionAdd("rgb_matrix_toggle_noeeprom_", "rgb_matrix_toggle_noeeprom()_"); // For the cross-reference
+            correctionAdd("rgb_matrix_toggle()_", "rgb_matrix_toggle_noeeprom()_");
+
+            // QMK
+            //
+            // Alternative URLs:
+            //
+            //   <https://github.com/qmk/qmk_firmware/blob/master/docs/features/rgb_matrix.md#colors-colors>
+            //
+            correctionAdd("HSV_WHITE (0x0000FF)_", "RGB_WHITE (0xFFFFFF)_");
+            correctionAdd("0xFF, 0xFF, 0xFF_", "RGB_WHITE (0xFFFFFF)_");
+            correctionAdd("0xFF,0xFF,0xFF_", "RGB_WHITE (0xFFFFFF)_");
+            correctionAdd("255, 255, 255_", "RGB_WHITE (0xFFFFFF)_");
+            correctionAdd("255,255,255_", "RGB_WHITE (0xFFFFFF)_");
+            correctionAdd("RGB_WHITE_", "RGB_WHITE (0xFFFFFF)_");
+            correctionAdd("0xFFFFFF_", "RGB_WHITE (0xFFFFFF)_");
+            correctionAdd("FFFFFF_", "RGB_WHITE (0xFFFFFF)_");
+            correctionAdd("white_", "RGB_WHITE (0xFFFFFF)_");
+
+            // QMK
+            //
+            // Alternative URLs:
+            //
+            //   <https://github.com/qmk/qmk_firmware/blob/master/docs/features/rgb_matrix.md#colors-colors>
+            //
+            correctionAdd("HSV_TURQUOISE (0x7B5A70)_", "RGB_TURQUOISE (0x476E6A)_");
+            correctionAdd("0x47, 0x6E, 0x6A_", "RGB_TURQUOISE (0x476E6A)_");
+            correctionAdd("0x47,0x6E,0x6A_", "RGB_TURQUOISE (0x476E6A)_");
+            correctionAdd("RGB_TURQUOISE_", "RGB_TURQUOISE (0x476E6A)_");
+            correctionAdd("71, 110, 106_", "RGB_TURQUOISE (0x476E6A)_");
+            correctionAdd("71,110,106_", "RGB_TURQUOISE (0x476E6A)_");
+            correctionAdd("turquoise_", "RGB_TURQUOISE (0x476E6A)_");
+            correctionAdd("0x476E6A_", "RGB_TURQUOISE (0x476E6A)_");
+            correctionAdd("476E6A_", "RGB_TURQUOISE (0x476E6A)_");
+
+            // QMK (as a noun)
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=qZgZwZE4s_A>
+            //   <https://docs.qmk.fm/features/tap_dance>
+            //
+            correctionAdd("key overloading_", "tap dance_");
+            correctionAdd("tap dances_", "tap dance_");
+            correctionAdd("Tap Dance_", "tap dance_");
+            correctionAdd("tapdance_", "tap dance_");
+            correctionAdd("TD_", "tap dance_");
+
+            // A QMK feature
+            //
+            // AKA chords (pressing down two or more keys at the same time)
+            //
+            // Related QMK feature:
+            //
+            //   "key overrides"
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=YwsutNf1WRA&t=9m12s>
+            //
+            correctionAdd("Combo keys_", "combo keys_");
+            correctionAdd("QMK combos_", "combo keys_");
+            correctionAdd("key combos_", "combo keys_");
+            correctionAdd("combo key_", "combo keys_");
+            correctionAdd("combokeys_", "combo keys_");
+            correctionAdd("key combo_", "combo keys_");
+            correctionAdd("Combos_", "combo keys_");
+            correctionAdd("combos_", "combo keys_");
+            correctionAdd("combo_", "combo keys_");
+
+            // QMK. Colour. RGB aninimation mode. Related
+            // to QMK feature "RGB matrix"
+            correctionAdd("static mode_", "Solid colour_");
+            correctionAdd("RGB_", "Solid colour_");
+
+            // A QMK feature ('per-key RGB light').
+            //
+            // Alternative URLs:
+            //
+            //   <https://github.com/qmk/qmk_firmware/blob/master/docs/features/rgb_matrix.md>
+            //   <https://docs.qmk.fm/features/led_matrix#indicators>
+            //
+            //   <https://github.com/qmk/qmk_firmware/blob/master/docs/ChangeLog/20241124.md#rgb-keycode-overhaul-23679-24484-24490>
+            //     The keycodes were renamed on 2024-11-24 (or rather
+            //     their removal announced; the old keycodes will be
+            //     removed completely in a later version of QMK).
+            //
+            correctionAdd("RGB Matrix Lighting_", "RGB matrix_");
+            correctionAdd("RGB Matrix lighting_", "RGB matrix_");
+            correctionAdd("RGB Maxtrix_", "RGB matrix_");
+            correctionAdd("RGB Matrix_", "RGB matrix_");
+            correctionAdd("rgb_matrix_", "RGB matrix_");
+            correctionAdd("rgb matrix_", "RGB matrix_");
+            correctionAdd("rgbmatrix_", "RGB matrix_");
+            correctionAdd("RM_", "RGB matrix_");
+
+            // A QMK feature
+            //
+            // Not to be confused with RGB matrix ('per-key RGB light'),
+            // RGB lighting
+            //
+            correctionAdd("LED Matrix_", "LED matrix_");
+
+            // A QMK feature
+            //
+            correctionAdd("backlight_", "Backlight_");
+
+            // A QMK feature. Not to be confused with the completely
+            // different QMK feature "RGB matrix"
+            //
+            // Alternative URLs:
+            //
+            //   <https://github.com/qmk/qmk_firmware/blob/master/docs/features/rgblight.md>
+            //     Note: Including ".md" on GitHub. Thus the link (with ".md") will
+            //           be broken internally on GitHub, e.g., "RGB Underglow" on
+            //           <https://github.com/qmk/qmk_firmware/blob/master/docs/feature_layers.md>,
+            //           but not on <https://docs.qmk.fm>...
+            //
+            correctionAdd("RGB Underglow_", "RGB lighting_");
+            correctionAdd("RGB underglow_", "RGB lighting_");
+            correctionAdd("RGB Lighting_", "RGB lighting_");
+            correctionAdd("underglow_", "RGB lighting_");
+            correctionAdd("RGB light_", "RGB lighting_");
+            correctionAdd("RGB Light_", "RGB lighting_");
+            correctionAdd("rgb light_", "RGB lighting_");
+            correctionAdd("rgblight_", "RGB lighting_");
+
+            // A QMK feature. Not to be confused with the
+            // completely different QMK feature "RGB matrix"
+            //
+            // Alternative URLs:
+            //
+            //   <https://github.com/qmk/qmk_firmware/blob/master/docs/features/led_indicators.md>
+            //   <https://docs.qmk.fm/features/led_indicators#configuration-options>
+            //     LED_CAPS_LOCK_PIN
+            //   <https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/k10_pro/config.h#L28>
+            //     Example of Keychron using the QMK feature
+            //     LED indicators (symbol LED_CAPS_LOCK_PIN)
+            //
+            correctionAdd("led indicators_", "LED indicators_");
+
+            // QMK. See also "chordal hold"
+            correctionAdd("CHORDIAL_HOLD_", "CHORDAL_HOLD_");
+
+            // Alternative URLs:
+            //
+            //   <https://docs.qmk.fm/keycodes>
+            //   <https://docs.qmk.fm/keycodes_basic>
+            //
+            correctionAdd("the QMK keycodes_", "QMK keycode_");
+            correctionAdd("QMK key codes_", "QMK keycode_");
+            correctionAdd("QMK keycodes_", "QMK keycode_");
+            correctionAdd("qmk keycodes_", "QMK keycode_");
+            correctionAdd("the keycodes_", "QMK keycode_");
+            correctionAdd("qmk keycode_", "QMK keycode_");
+            correctionAdd("key codes_", "QMK keycode_");
+            correctionAdd("keycodes_", "QMK keycode_");
+            correctionAdd("qmk code_", "QMK keycode_");
+            correctionAdd("keycode_", "QMK keycode_");
+
+            // QMK. A shorthand (a C macro) for use of modifier keys
+            // Left Shift + Windows + some key. The interpretation
+            // on Mac is Left Shift + Cmd + some key.
+            //
+            correctionAdd("Left Shift + Windows_", "LSG_");
+            correctionAdd("Left Shift + Win_", "LSG_");
+            correctionAdd("Shift + Win_", "LSG_");
+            correctionAdd("lsg_", "LSG_");
+
+            // QMK / Via
+            correctionAdd("hardware changes_", "use of FRAM in an ATmega32U4-based QMK keyboard to get unlimited space for Via/Vial macros_");
+            correctionAdd("ATmega32U4_", "use of FRAM in an ATmega32U4-based QMK keyboard to get unlimited space for Via/Vial macros_"); // For a cross-reference
+            correctionAdd("FRAM_", "use of FRAM in an ATmega32U4-based QMK keyboard to get unlimited space for Via/Vial macros_"); // For a cross-reference
+
+            // QMK. A feature? Or part of the tap dance feature?
+            //
+            // Alternative URLs:
+            //
+            //   <https://thomasbaart.nl/2018/12/09/qmk-basics-tap-and-hold-actions/#layer-keys>
+            //     QMK Basics: Tap and hold actions: Tap into your modifiers
+            //
+            //   <https://jayliu50.github.io/qmk-cheatsheet/>
+            //     A QMK cheat sheet
+            //
+            //   <https://www.reddit.com/r/olkb/comments/oflwv6/how_do_i_change_qmk_layer_tap_behavior/>
+            //     How do I change QMK Layer Tap behavior?
+            //
+            //   <https://i.imgur.com/dYeVkwI.png>
+            //
+            //     Note: Requires JavaScript to be allowed from
+            //           'cloudfront.net' to not be surrounded
+            //           by Imgur goo.
+            //
+            correctionAdd("layer-tap_", "layer tap_");
+            correctionAdd("Layer Tap_", "layer tap_");
+            correctionAdd("LT_", "layer tap_");
+
+            // A QMK feature
+            // And ergonomic mechanical keyboards.
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/KeyboardLayouts/comments/1f4bdv1/leader_key_vs_one_shot_layer/>
+            //     Leader key vs one-shot layer?
+            //
+            //   <https://www.youtube.com/watch?v=qZgZwZE4s_A&t=19s>
+            //
+            correctionAdd("one shot modifiers_", "one-shot keys_"); // Not 100% correct
+            correctionAdd("One Shot Layer_", "one-shot keys_");
+            correctionAdd("one shot layer_", "one-shot keys_");
+            correctionAdd("one-shot layer_", "one-shot keys_");
+            correctionAdd("one shot keys_", "one-shot keys_");
+            correctionAdd("One Shot Keys_", "one-shot keys_");
+            correctionAdd("one shot mods_", "one-shot keys_"); // Not 100% correct
+            correctionAdd("OSKs_", "one-shot keys_");
+            correctionAdd("OSK_", "one-shot keys_");
+
+            correctionAdd("OSL_", "one-shot layer keys_");
+            correctionAdd("osl_", "one-shot layer keys_");
+
+            // Essential turning keyboard modifier keys (Shift, Ctrl, Alt,
+            // AltGr, and Win) into dual-role keys:
+            //
+            //   Tap the key:  Some other function
+            //
+            //   Hold the key: Original function
+            //
+            // QMK. A feature? Or part of the tap dance feature?
+            //
+            // Alternative URLs:
+            //
+            //   <https://getreuer.info/posts/keyboards/faqs/index.html#mt-doesnt-work-with-this-keycode-qmk>
+            //     MT doesn’t work with this keycode (QMK)
+            //
+            //   <https://www.reddit.com/r/olkb/comments/1jg2o01/comment/mj1enhe/>
+            //     Limitations: MT does not take either custom keycodes
+            //     (incl. macros) or modifiers
+            //
+            //   <https://github.com/qmk/qmk_firmware/blob/master/docs/mod_tap.md>
+            //
+            correctionAdd("tap-hold modifier keys_", "tap-hold keyboard modifier keys_");
+            correctionAdd("tap-hold modifiers_", "tap-hold keyboard modifier keys_");
+            correctionAdd("tap-hold mods_", "tap-hold keyboard modifier keys_");
+            correctionAdd("Mod-taps_", "tap-hold keyboard modifier keys_");
+            correctionAdd("mod tap_", "tap-hold keyboard modifier keys_");
+            correctionAdd("Mod-Tap_", "tap-hold keyboard modifier keys_");
+            correctionAdd("mod-tap_", "tap-hold keyboard modifier keys_");
+            correctionAdd("Mod-tap_", "tap-hold keyboard modifier keys_");
+            correctionAdd("Mod Tap_", "tap-hold keyboard modifier keys_");
+            correctionAdd("MT_", "tap-hold keyboard modifier keys_");
+
+            // Mechanical keyboards, e.g., QMK and Dygma
+            //
+            // Alternative URLs:
+            //
+            //   <https://docs.qmk.fm/one_shot_keys>
+            //   <https://support.dygma.com/hc/en-us/articles/360007166377-What-are-One-Shot-Modifiers-and-One-Shot-Layers>
+            //   <https://getreuer.info/posts/keyboards/macros/index.html>
+            //
+            correctionAdd("one-shot modifier keys_", "one-shot keyboard modifier keys_");
+            correctionAdd("one shot shift combo_", "one-shot keyboard modifier keys_");
+            correctionAdd("One Shot Modifiers_", "one-shot keyboard modifier keys_");
+            correctionAdd("One-Shot-Modifiers_", "one-shot keyboard modifier keys_");
+            correctionAdd("One-shot modifiers_", "one-shot keyboard modifier keys_");
+            correctionAdd("One-Shot modifiers_", "one-shot keyboard modifier keys_");
+            correctionAdd("one-shot modifiers_", "one-shot keyboard modifier keys_");
+            correctionAdd("One-Shot modifier_", "one-shot keyboard modifier keys_");
+            correctionAdd("one-shot-mods_", "one-shot keyboard modifier keys_");
+            correctionAdd("OSMs_", "one-shot keyboard modifier keys_");
+            correctionAdd("osm_", "one-shot keyboard modifier keys_");
+            correctionAdd("OSM_", "one-shot keyboard modifier keys_");
+
+            // QMK
+            //
+            // Alternative URLs:
+            //
+            //   <https://keychron.com.au/blogs/archived/how-to-factory-reset-or-flash-firmware-for-your-keychron-v6-keyboard>
+            //     The space bar method for V6.
+            //
+            //   <https://keychronsupport.zendesk.com/hc/en-us/articles/8914576001943-How-to-Factory-Reset-or-Flash-Firmware-for-Your-Keychron-Q3-keyboard>
+            //     The spacebar method for flashing Keychron keyboards
+            //
+            //   <https://www.keychron.uk/pages/how-to-factory-reset-or-flash-firmware-for-your-keychron-q1-max-keyboard>
+            //   <https://www.keychron.uk/pages/how-to-factory-reset-or-flash-firmware-for-your-keychron-q3-max-keyboard>
+            //   <https://keychron.com.au/blogs/archived/how-to-factory-reset-or-flash-firmware-for-your-keychron-v1-keyboard>
+            //   <https://keychron.ca/pages/how-to-factory-reset-or-flash-firmware-for-your-keychron-v5-keyboard>
+            //   <https://keychron.ca/pages/how-to-factory-reset-or-flash-firmware-for-your-keychron-q2-keyboard>
+            //   <https://keychron.de/pages/how-to-factory-reset-and-flash-firmware-for-your-k17-pro-keyboard>
+            //   <https://keychron.ca/pages/how-to-factory-reset-or-flash-firmware-for-your-keychron-q6-max-keyboard>
+            //
+            correctionAdd("the space bar method_", "space bar method to enter bootloader mode on QMK keyboards_");
+            correctionAdd("the Space bar method_", "space bar method to enter bootloader mode on QMK keyboards_");
+            correctionAdd("space bar method_", "space bar method to enter bootloader mode on QMK keyboards_");
+            correctionAdd("Space key method_", "space bar method to enter bootloader mode on QMK keyboards_");
+            correctionAdd("space key method_", "space bar method to enter bootloader mode on QMK keyboards_");
+            correctionAdd("Space bar method_", "space bar method to enter bootloader mode on QMK keyboards_");
+            correctionAdd("spacebar method_", "space bar method to enter bootloader mode on QMK keyboards_");
+            correctionAdd("space bar_", "space bar method to enter bootloader mode on QMK keyboards_");
+
+            // QMK, especially Keychron keyboards (as the
+            // Fn + J + Z method may not work, e.g.,
+            // with self-compiled firmware)
+            //
+            // Behind the scenes, it is the QMK "magic key"
+            // feature for the very first key in the
+            // keymap (usually the Esc key).
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=fuBJbdCFF0Q&t=7m7s>
+            //     But it has irritating background music (way too loud).
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1fi6z0o/comment/lnfddp3/>
+            //     Three different methods to reset to factory defaults
+            //     on QMK-based Keychron keyboards.
+            //
+            correctionAdd("putting the keyboard into bootloader mode_", "Esc key method to reset to factory defaults on QMK keyboards_");
+            correctionAdd("Resetting to factory defaults_", "Esc key method to reset to factory defaults on QMK keyboards_");
+            correctionAdd("resetting to factory defaults_", "Esc key method to reset to factory defaults on QMK keyboards_");
+            correctionAdd("Reset to factory defaults_", "Esc key method to reset to factory defaults on QMK keyboards_");
+            correctionAdd("reset to factory defaults_", "Esc key method to reset to factory defaults on QMK keyboards_");
+            correctionAdd("into bootloader mode_", "Esc key method to reset to factory defaults on QMK keyboards_");
+            correctionAdd("the Esc key method_", "Esc key method to reset to factory defaults on QMK keyboards_");
+            correctionAdd("Esc key method_", "Esc key method to reset to factory defaults on QMK keyboards_");
+            correctionAdd("esc key method_", "Esc key method to reset to factory defaults on QMK keyboards_");
+            correctionAdd("the Esc method_", "Esc key method to reset to factory defaults on QMK keyboards_");
+            correctionAdd("The Esc method_", "Esc key method to reset to factory defaults on QMK keyboards_");
+            correctionAdd("in flash mode_", "Esc key method to reset to factory defaults on QMK keyboards_");
+            correctionAdd("Esc method_", "Esc key method to reset to factory defaults on QMK keyboards_");
+            correctionAdd("esc method_", "Esc key method to reset to factory defaults on QMK keyboards_");
+            correctionAdd("esc key_", "Esc key method to reset to factory defaults on QMK keyboards_");
+            correctionAdd("Esc key_", "Esc key method to reset to factory defaults on QMK keyboards_");
+            correctionAdd("reset_", "Esc key method to reset to factory defaults on QMK keyboards_");
+
+            // QMK. JSON.
+            //
+            // Schemas: 'data/schemas', e.g. "logical_size" in
+            //          file 'keyboard.jsonschema' for space
+            //          for Via macros, e.g.:
+            //
+            //  <https://github.com/Keychron/qmk_firmware/blob/wireless_playground/data/schemas/keyboard.jsonschema#L296>
+            //
+            correctionAdd("data driven configuration_", "data-driven configuration_");
+            correctionAdd("Data Driven Configuration_", "data-driven configuration_");
+            correctionAdd("data-driven config_", "data-driven configuration_");
+            correctionAdd("data-driven conf_", "data-driven configuration_");
+            correctionAdd("DD-configuration_", "data-driven configuration_");
+            correctionAdd("the new system_", "data-driven configuration_");
+            correctionAdd("info.json_", "data-driven configuration_");
+            correctionAdd("DD-config_", "data-driven configuration_");
+            correctionAdd("DD config_", "data-driven configuration_");
+            correctionAdd("dd-config_", "data-driven configuration_");
+            correctionAdd("dd config_", "data-driven configuration_");
+            correctionAdd("ddconfig_", "data-driven configuration_");
+            correctionAdd("DD-conf_", "data-driven configuration_");
+            correctionAdd("dd conf_", "data-driven configuration_");
+            correctionAdd("DDC_", "data-driven configuration_");
+            correctionAdd("ddc_", "data-driven configuration_");
+            correctionAdd("DD_", "data-driven configuration_");
+            correctionAdd("dd_", "data-driven configuration_");
+
+            // Mechanical keyboards. QMK
+            correctionAdd("the so-called stand-alone version_", "avoid Google Chrome when using Via_");
+            correctionAdd("the so-called standalone version_", "avoid Google Chrome when using Via_");
+            correctionAdd("The stand-alone Via application_", "avoid Google Chrome when using Via_");
+            correctionAdd("stand-alone Via web application_", "avoid Google Chrome when using Via_");
+            correctionAdd("the stand-alone via application_", "avoid Google Chrome when using Via_");
+            correctionAdd("the stand-alone Via application_", "avoid Google Chrome when using Via_");
+            correctionAdd("The standalone Via application_", "avoid Google Chrome when using Via_");
+            correctionAdd("the standalone via application_", "avoid Google Chrome when using Via_");
+            correctionAdd("standalone Via web application_", "avoid Google Chrome when using Via_");
+            correctionAdd("the standalone Via application_", "avoid Google Chrome when using Via_");
+            correctionAdd("so-called stand-alone version_", "avoid Google Chrome when using Via_");
+            correctionAdd("so-called standalone version_", "avoid Google Chrome when using Via_");
+            correctionAdd("a stand-alone version of Via_", "avoid Google Chrome when using Via_");
+            correctionAdd("stand-alone Via application_", "avoid Google Chrome when using Via_");
+            correctionAdd("the stand-alone application_", "avoid Google Chrome when using Via_");
+            correctionAdd("a standalone version of Via_", "avoid Google Chrome when using Via_");
+            correctionAdd("the standalone application_", "avoid Google Chrome when using Via_");
+            correctionAdd("standalone Via application_", "avoid Google Chrome when using Via_");
+            correctionAdd("standalone version of Via_", "avoid Google Chrome when using Via_");
+            correctionAdd("so-called stand-alone Via_", "avoid Google Chrome when using Via_");
+            correctionAdd("so-called standalone Via_", "avoid Google Chrome when using Via_");
+            correctionAdd("stand-alone application_", "avoid Google Chrome when using Via_");
+            correctionAdd("the stand-alone version_", "avoid Google Chrome when using Via_");
+            correctionAdd("the standalone version_", "avoid Google Chrome when using Via_");
+            correctionAdd("standalone application_", "avoid Google Chrome when using Via_");
+            correctionAdd("the stand-alone client_", "avoid Google Chrome when using Via_");
+            correctionAdd("stand-alone Via client_", "avoid Google Chrome when using Via_");
+            correctionAdd("the standalone client_", "avoid Google Chrome when using Via_");
+            correctionAdd("avoid Google Chrome_", "avoid Google Chrome when using Via_");
+            correctionAdd("stand-alone version_", "avoid Google Chrome when using Via_");
+            correctionAdd("standalone version_", "avoid Google Chrome when using Via_");
+            correctionAdd("stand-alone Via_", "avoid Google Chrome when using Via_");
+            correctionAdd("stand-alone via_", "avoid Google Chrome when using Via_");
+            correctionAdd("standalone Via_", "avoid Google Chrome when using Via_");
+            correctionAdd("standalone via_", "avoid Google Chrome when using Via_");
+            correctionAdd("avoided Chrome_", "avoid Google Chrome when using Via_");
+            correctionAdd("Google Chrome_", "avoid Google Chrome when using Via_");
+            correctionAdd("avoid Chrome_", "avoid Google Chrome when using Via_");
+            correctionAdd("Chrome_", "avoid Google Chrome when using Via_"); // For the cross-reference
+            correctionAdd("chrome_", "avoid Google Chrome when using Via_");
+            correctionAdd("via_", "avoid Google Chrome when using Via_");
+            correctionAdd("Via_", "avoid Google Chrome when using Via_");
+
+            // Mostly for the source repository link
+            correctionAdd("VIAL_", "Vial_");
+
+            // ZMK
+            //
+            // A GUI keyboard configuration tool, similar
+            // to Via, with dynamic keymapping, etc.
+            //
+            correctionAdd("zmk studio_", "ZMK Studio_");
+            correctionAdd("ZMK studio_", "ZMK Studio_");
+            correctionAdd("Zmk Studio_", "ZMK Studio_");
+            correctionAdd("Zmk studio_", "ZMK Studio_");
+            correctionAdd("Studio_", "ZMK Studio_");
+            correctionAdd("ZMK_", "ZMK Studio_");
+
+            // A ZMK feature, the equivalent to QMK's 'key overrides'
+            correctionAdd("key overrides_", "mod-morph_"); // For the cross-reference
+            correctionAdd("mod morph_", "mod-morph_");
+
+            // Originally for ZMK (later on for QMK). And ergonomic
+            // mechanical keyboards.
+            //
+            // Note: Despite the name, it does ***not***
+            //       eliminate timing aspect completely
+            //
+            // 'Urob': AKA Robert U, <https://github.com/urob>
+            //
+            //         Probable user on Stack Overflow (Bob for Robert):
+            //
+            //           <https://stackoverflow.com/users/6114651/bob>
+            //
+            //             <https://en.wikipedia.org/wiki/Hypocorism>
+            //               Hypocorism
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/11gejh3/lpt_try_urobs_zmk_timeless_homerow_mods_combos/>
+            //
+            //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/1q1jo3c/urobs_zmk_timeless_home_row_mods_ported_to_native/>
+            //     urob's ZMK Timeless Home Row Mods, ported to native QMK –
+            //     a configuration guide
+            //
+            //     QMK. Features. Latest.
+            //
+            correctionAdd("urob's timeless home row keyboard modifier keys_", "timeless home row keyboard modifier keys_");
+            correctionAdd("urob's ZMK home row keyboard modifier keys_", "timeless home row keyboard modifier keys_");
+            correctionAdd("urob's ZMK Timeless Home Row Modifier Keys_", "timeless home row keyboard modifier keys_");
+            correctionAdd("urob's ZMK timeless home row modifier keys_", "timeless home row keyboard modifier keys_");
+            correctionAdd("urob's Timeless Homerow Modifications_", "timeless home row keyboard modifier keys_");
+            correctionAdd("urob's timeless homerow modifications_", "timeless home row keyboard modifier keys_");
+            correctionAdd("urob’s Timeless Homerow Modifications_", "timeless home row keyboard modifier keys_");
+            correctionAdd("urob’s timeless homerow modifications_", "timeless home row keyboard modifier keys_");
+            correctionAdd("timeless home row keyboard modifiers_", "timeless home row keyboard modifier keys_");
+            correctionAdd("urob's ZMK Timeless Home Row Mods_", "timeless home row keyboard modifier keys_");
+            correctionAdd("urob's ZMK timeless home row mods_", "timeless home row keyboard modifier keys_");
+            correctionAdd("urob's homerow mod configuration_", "timeless home row keyboard modifier keys_");
+            correctionAdd("timeless home row modifier keys_", "timeless home row keyboard modifier keys_");
+            correctionAdd("home row keyboard modifier keys_", "timeless home row keyboard modifier keys_"); // For the cross-reference
+            correctionAdd("urob's Timeless Homerow Mods_", "timeless home row keyboard modifier keys_");
+            correctionAdd("urob's timeless homerow mods_", "timeless home row keyboard modifier keys_");
+            correctionAdd("urob’s Timeless Homerow Mods_", "timeless home row keyboard modifier keys_");
+            correctionAdd("urob’s timeless homerow mods_", "timeless home row keyboard modifier keys_");
+            correctionAdd("Urob's timeless homerow mods_", "timeless home row keyboard modifier keys_");
+            correctionAdd("timeless home row modifiers_", "timeless home row keyboard modifier keys_");
+            correctionAdd("Urob's \"Timeless\" Homerow_", "timeless home row keyboard modifier keys_");
+            correctionAdd("Timerless homerow mods_", "timeless home row keyboard modifier keys_");
+            correctionAdd("timeless home row mods_", "timeless home row keyboard modifier keys_");
+            correctionAdd("Timeless homerow mods_", "timeless home row keyboard modifier keys_");
+            correctionAdd("timeless homerow mods_", "timeless home row keyboard modifier keys_");
+            correctionAdd("Timeless Homerow Mods_", "timeless home row keyboard modifier keys_");
+            correctionAdd("\"Timeless\" Homerow_", "timeless home row keyboard modifier keys_");
+            correctionAdd("timeless homerow mod_", "timeless home row keyboard modifier keys_");
+            correctionAdd("urob's configuration_", "timeless home row keyboard modifier keys_");
+            correctionAdd("urob's timeless HRMs_", "timeless home row keyboard modifier keys_");
+            correctionAdd("Urob's homerow mods_", "timeless home row keyboard modifier keys_");
+            correctionAdd("urob's homerow mod_", "timeless home row keyboard modifier keys_");
+            correctionAdd("urob modification_", "timeless home row keyboard modifier keys_");
+            correctionAdd("Timeless home row_", "timeless home row keyboard modifier keys_");
+            correctionAdd("timeless home row_", "timeless home row keyboard modifier keys_");
+            correctionAdd("urob's ZMK config_", "timeless home row keyboard modifier keys_");
+            correctionAdd("urob's zmk config_", "timeless home row keyboard modifier keys_");
+            correctionAdd("urob's homerow_", "timeless home row keyboard modifier keys_");
+            correctionAdd("urob's config_", "timeless home row keyboard modifier keys_");
+            correctionAdd("uRob's setup_", "timeless home row keyboard modifier keys_");
+            correctionAdd("urob's setup_", "timeless home row keyboard modifier keys_");
+            correctionAdd("urob mod_", "timeless home row keyboard modifier keys_");
+            correctionAdd("timeless_", "timeless home row keyboard modifier keys_");
+            correctionAdd("urob's_", "timeless home row keyboard modifier keys_");
+            correctionAdd("uRob's_", "timeless home row keyboard modifier keys_");
+            correctionAdd("Urob's_", "timeless home row keyboard modifier keys_");
+            correctionAdd("urup_", "timeless home row keyboard modifier keys_");
+            correctionAdd("urob_", "timeless home row keyboard modifier keys_");
+            correctionAdd("Urob_", "timeless home row keyboard modifier keys_");
+            correctionAdd("Urub_", "timeless home row keyboard modifier keys_");
+            correctionAdd("urub_", "timeless home row keyboard modifier keys_");
+
+            // Not to be confused with taping (tempest tape
+            // modification for mechanical keyboards)
+            correctionAdd("taping_", "tapping_");
+            correctionAdd("Taping_", "tapping_");
+
+            // Mechanical keyboards
+            //
+            // The 'deskthority.net' reference is now broken (blank page).
+            // Candidate site for the wiki: <https://wiki.themk.org>
+            //
+            //    <https://deskauthority.saberkeebs.com/wiki.themk.org/index.php/Chatter.html>
+            //
+            // Alternative URLs:
+            //
+            //   <https://digiva.net/fix-key-chattering/>
+            //     But it wanted an enourmous amount of domains
+            //     to download JavaScript code from.
+            //     Has it been generated by ChatGPT? Is
+            //     it malicious?
+            //
+            //     Note: <https://digiva.net> now results in
+            //           "Potential Security Risk Ahead"
+            //           Due to "SSL_ERROR_BAD_CERT_DOMAIN"
+            //
+            //   <https://digiva.net/common-problems-of-mechanical-keyboards/>
+            //     Common problems of mechanical keyboards [Ultimate Guide]
+            //
+            //     Comprehensive! Though not for this problem.
+            //
+            //     But it wanted an enourmous amount of domains
+            //     to download JavaScript code from.
+            //     Has it been generated by ChatGPT? Is
+            //     it malicious?
+            //
+            //     Note: <https://digiva.net> now results in
+            //           "Potential Security Risk Ahead"
+            //           Due to "SSL_ERROR_BAD_CERT_DOMAIN"
+            //
+            //   <https://helveticaforever.com/enhance-scratchy-switches/>
+            //     How to enhance scratchy switches
+            //
+            //   <https://forgeary.com/key-chatter/>
+            //
+            //   <https://www.mechkeybs.com/learn/tutorials/fix-key-chatter-repeating-keys/>
+            //
+            correctionAdd("stuck key syndrome_", "key chatter_");
+            correctionAdd("Double keystrokes_", "key chatter_");
+            correctionAdd("double keystrokes_", "key chatter_");
+            correctionAdd("double clicking_", "key chatter_"); // Is sometimes used when double keystrokes (as output from the keyboard) is meant
+            correctionAdd("double-clicking_", "key chatter_"); // Is sometimes used when double keystrokes (as output from the keyboard) is meant
+            correctionAdd("key chattering_", "key chatter_"); // Not 100% correct
+            correctionAdd("Keychattering_", "key chatter_"); // Not 100% correct
+            correctionAdd("keychattering_", "key chatter_"); // Not 100% correct
+            correctionAdd("key bounce_", "key chatter_");
+            correctionAdd("keychatter_", "key chatter_");
+            correctionAdd("chatter_", "key chatter_");
+
+            // Some new feature for mechanical keyboards with
+            // analogue (Hall sensor) switches. Or is it for
+            // all switches?? E.g., for Razer and Wooting 60HE.
+            //
+            // "Cleaning" refer to SOCD resolution.
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1eh4qog/comment/lfyu7zf/>
+            //     A canonical for context
+            //
+            //   <https://github.com/Keychron/qmk_firmware/issues/287>
+            //     A more detailed explanation
+            //   <https://www.reddit.com/r/olkb/comments/1e8q6fl/implementing_razer_snap_tap_in_qmk/>
+            //     Implementing Razer snap tap in QMK
+            //   <https://github.com/qmk/qmk_firmware/pull/24000>
+            //     The proposed QMK implementation
+            //   <https://www.reddit.com/r/Keychron/comments/1eb3ywo/snap_tapsocd/>
+            //   <https://www.techspot.com/news/103945-does-razer-new-keyboard-feature-give-gamers-unfair.html>
+            //     2024-07-24.
+            //   <https://www.razer.com/pc/gaming-keyboards/huntsman-line>
+            //     "Prioritize the latest input between two selected keys
+            //      without having to release the previous one...
+            //      more responsive inputs for near-instant
+            //      directional changes."
+            //   <https://beta.wootility.io/>
+            //     The corresponding in for Wooting 60HE (using the
+            //     WebHID thing(?); it does not work in Firefox)
+            //   <https://www.profightstick.com/what-is-socd-simultaneous-opposite-cardinal-directions/>
+            //     SOCD explained
+            //   <https://glossary.infil.net/?t=SOCD>
+            //     Note: Requires JavaScript from several domains to display.
+            //   <https://www.hitboxarcade.com/blogs/support/what-is-socd>
+            //   <https://www.geeky-gadgets.com/socd-cleaning/>
+            //   <https://www.reddit.com/r/Fighters/comments/e0ts6h/why_does_socd_inputs_exist_in_fighting_games/>
+            //
+            //   <https://www.youtube.com/watch?v=Feny5bs2JCg&t=29s>
+            //     From 00 min 29 secs: Good detailed description
+            //     of what SOCD is (also in the context
+            //     of Razer's release).
+            //     It uses Razer's term, "snap tap".
+            //
+            //   <https://github.com/valignatev/socd>
+            //     A host-side solution for Windows
+            //
+            //   <https://github.com/brentaro/QMK_HID_Gamepad_with_SOCD>
+            //     QMK HID gamepad with SOCD
+            //
+            // We need a better primary URL...
+            //
+            correctionAdd("Simultaneous Opposite Cardinal Directions_", "SOCD_");
+            correctionAdd("simultaneous opposite cardinal directions_", "SOCD_");
+            correctionAdd("Last Keystroke Prioritization_", "SOCD_");
+            correctionAdd("last keystroke prioritization_", "SOCD_");
+            correctionAdd("last keystroke prioritisation_", "SOCD_");
+            correctionAdd("Keystroke Prioritization_", "SOCD_");
+            correctionAdd("keystroke prioritization_", "SOCD_");
+            correctionAdd("null cancelling movement_", "SOCD_");
+            correctionAdd("keystroke prioritisation_", "SOCD_");
+            correctionAdd("Last Input Priority_", "SOCD_");
+            correctionAdd("last input priority_", "SOCD_");
+            correctionAdd("strafing lock out_", "SOCD_");
+            correctionAdd("last key priority_", "SOCD_");
+            correctionAdd("Last Key Priority_", "SOCD_");
+            correctionAdd("Key Cancellation_", "SOCD_");
+            correctionAdd("key cancellation_", "SOCD_"); // The proposed name in QMK
+            correctionAdd("Last Key Stroke_", "SOCD_");
+            correctionAdd("last key stroke_", "SOCD_");
+            correctionAdd("last keystroke_", "SOCD_");
+            correctionAdd("null movement_", "SOCD_");
+            correctionAdd("null binding_", "SOCD_");
+            correctionAdd("Snappy Tappy_", "SOCD_");
+            correctionAdd("snappy tappy_", "SOCD_");
+            correctionAdd("Rappy snappy_", "SOCD_"); // Wooting's term. Though it doesn't work identically
+            correctionAdd("rappy snappy_", "SOCD_");
+            correctionAdd("Rappy Snappy_", "SOCD_");
+            correctionAdd("Snap Action_", "SOCD_");
+            correctionAdd("snap action_", "SOCD_");
+            correctionAdd("null binds_", "SOCD_");
+            correctionAdd("null input_", "SOCD_");
+            correctionAdd("Null Binds_", "SOCD_");
+            correctionAdd("null bind_", "SOCD_");
+            correctionAdd("Snap Tap_", "SOCD_");
+            correctionAdd("Snap tap_", "SOCD_");
+            correctionAdd("snap tap_", "SOCD_");
+            correctionAdd("socd_", "SOCD_");
+            correctionAdd("Snap_", "SOCD_");
+            correctionAdd("snap_", "SOCD_");
+            correctionAdd("LKP_", "SOCD_");
+            correctionAdd("LIP_", "SOCD_");
+
+            // Yet another meaningless unspecific name for a Keychron
+            // product. It is definitely only for something wireless.
+            //
+            // Note: It is for both Bluetooth keyboard modules and
+            //       '2.4 GHz' dongles, but only for some keyboard
+            //       models.
+            //
+            //       Bluetooth for some other keyboard models is
+            //       coverered by another program, with a
+            //       similar name,
+            //       "Keychron Bluetooth Firmware Updater"
+            //
+            // The firmware, both Bluetooth/'2.4 GHz' (the
+            // internal module for wireless communication)
+            // and the '2.4 GHz' dongle is at:
+            //
+            //   <https://www.keychron.com/pages/how-to-flash-the-firmware-for-the-keychron-receiver>
+            //
+            correctionAdd("Keychron '2.4 GHz' Firmware Updater_", "Keychron Firmware Updater_");
+            correctionAdd("Keychron 2.4 GHz Firmware Updater_", "Keychron Firmware Updater_");
+            correctionAdd("Keychron Firmware Upgrade_", "Keychron Firmware Updater_");
+            correctionAdd("Keychron firmware updater_", "Keychron Firmware Updater_");
+            correctionAdd("'2.4 GHz' firmware_", "Keychron Firmware Updater_");
+            correctionAdd("2.4 GHz firmware_", "Keychron Firmware Updater_");
+            correctionAdd("2.4&nbsp;GHz_", "Keychron Firmware Updater_"); // For the cross-reference
+            correctionAdd("Firmware_", "Keychron Firmware Updater_"); // For the cross-reference
+            correctionAdd("firmware_", "Keychron Firmware Updater_"); // For the cross-reference
+            correctionAdd("dongle_", "Keychron Firmware Updater_"); // For the cross-reference
+
+            // Mechanical keyboards, in particular Keychron's
+            //
+            correctionAdd("NKRO busts the keyboard in wireless mode_", "full NKRO busts the Keychron keyboards in wireless mode_");
+            correctionAdd("complete busting of the keyboard_", "full NKRO busts the Keychron keyboards in wireless mode_");
+            correctionAdd("busting the keyboard_", "full NKRO busts the Keychron keyboards in wireless mode_");
+            correctionAdd("The busted keyboard_", "full NKRO busts the Keychron keyboards in wireless mode_");
+            correctionAdd("the busted keyboard_", "full NKRO busts the Keychron keyboards in wireless mode_");
+            correctionAdd("busts the keyboard_", "full NKRO busts the Keychron keyboards in wireless mode_");
+            correctionAdd("bust the keyboard_", "full NKRO busts the Keychron keyboards in wireless mode_");
+            correctionAdd("completely busted_", "full NKRO busts the Keychron keyboards in wireless mode_");
+            correctionAdd("(full) NKRO mode_", "full NKRO busts the Keychron keyboards in wireless mode_");
+            correctionAdd("complete busting_", "full NKRO busts the Keychron keyboards in wireless mode_");
+            correctionAdd("completely busts_", "full NKRO busts the Keychron keyboards in wireless mode_");
+            correctionAdd("busted keyboard_", "full NKRO busts the Keychron keyboards in wireless mode_");
+            correctionAdd("n-key rollover_", "full NKRO busts the Keychron keyboards in wireless mode_");
+            correctionAdd("bust keyboards_", "full NKRO busts the Keychron keyboards in wireless mode_");
+            correctionAdd("NKRO problems_", "full NKRO busts the Keychron keyboards in wireless mode_");
+            correctionAdd("bust keyboard_", "full NKRO busts the Keychron keyboards in wireless mode_");
+            correctionAdd("NKRO mode_", "full NKRO busts the Keychron keyboards in wireless mode_");
+            correctionAdd("busted in_", "full NKRO busts the Keychron keyboards in wireless mode_");
+            correctionAdd("busting_", "full NKRO busts the Keychron keyboards in wireless mode_");
+            correctionAdd("busted_", "full NKRO busts the Keychron keyboards in wireless mode_");
+            correctionAdd("busts_", "full NKRO busts the Keychron keyboards in wireless mode_");
+
+            // Sonix QMK
+            correctionAdd("the list of compatible keyboards_", "list of Sonix QMK-compatible keyboards_");
+            correctionAdd("list of compatible keyboards_", "list of Sonix QMK-compatible keyboards_");
+            correctionAdd("list of supported keyboards_", "list of Sonix QMK-compatible keyboards_");
+            correctionAdd("compatible keyboards_", "list of Sonix QMK-compatible keyboards_");
+            correctionAdd("supported keyboards_", "list of Sonix QMK-compatible keyboards_");
+            correctionAdd("Sonix QMK_", "list of Sonix QMK-compatible keyboards_"); // For the cross-reference
+            correctionAdd("Sonix_", "list of Sonix QMK-compatible keyboards_"); // For the cross-reference
+
+            // Reddit. A subreddit for detailed questions about
+            // mechanical keyboards, incl. QMK (the exact
+            // opposite of the now content-free and
+            // superficial subreddit 'r/MechanicalKeyboards'
+            // (<https://www.reddit.com/r/MechanicalKeyboards>))
+            correctionAdd("olkb_", "r/olkb_");
+            correctionAdd("OLKB_", "r/olkb_");
+
+            // Mechanical keyboards. A manufacturer of key switches.
+            correctionAdd("Wuque studio_", "Wuque Studio_");
+            correctionAdd("wuque_", "Wuque Studio_");
+            correctionAdd("Wuque_", "Wuque Studio_");
+            correctionAdd("WS_", "Wuque Studio_");
+
+            // Per-key RGB and RGB animations (but requires
+            // software host side(?)). It is a protocol and
+            // it has been implemented into QMK here.
+            //
+            // Not to be confused with OpenRGB, Signal, or SignalR...
+            //
+            // Notes:
+            //
+            //   * Allegedly, it is installed by Razer's Chroma software.
+            //
+            // But does it also refer to a Windows client
+            // (subscribtion-based software)?
+            //
+            // "QMK firmware that is supported by SignalRGB (includes
+            //    protocol information for direct ARGB mode)"
+            //
+            // Actual source code:
+            //
+            //   <https://github.com/SRGBmods/KeychronQMK>
+            //
+            //   Note: For newer Keychron models, in Git branch
+            //   "wireless_playground", e.g. K10 Pro.
+            //
+            //   Building instructions:
+            //
+            //     <https://docs.signalrgb.com/qmk/building-firmware-from-source>
+            //
+            // Precompiled binaries:
+            //
+            //   <https://github.com/SRGBmods/QMK-Binaries/tree/main/QMK%2BVIA-Firmware/0.14.29-keychron/wireless_playground>
+            //     Old: <https://github.com/SRGBmods/QMK-Binaries/tree/main/QMK%2BVIA-Firmware/0.14.29-keychron>
+            //
+            //   E.g., K10 Pro:
+            //
+            //     <https://github.com/SRGBmods/QMK-Binaries/blob/main/QMK%2BVIA-Firmware/0.14.29-keychron/wireless_playground/keychron_k10_pro_iso_rgb_via.bin>
+            //     Old: <https://github.com/SRGBmods/QMK-Binaries/blob/main/QMK%2BVIA-Firmware/0.14.29-keychron/keychron_k10_pro_ansi_rgb_via.bin>
+            //
+            // Alternative URLs:
+            //
+            //   <https://docs.signalrgb.com/qmk/srgbmods-qmk-firmware>
+            //
+            //   <https://github.com/SRGBmods/QMK-Binaries/tree/main/GPL/qmk_firmware>
+            //     For handpatching SignalRGB support?
+            //
+            //   <https://www.youtube.com/watch?v=jU-rYhMrn68>
+            //     How to sync Keychron with SignalRGB
+            //     Has guidance on navigating 'SRGBmods/QMK-Binaries'
+            //
+            //   <https://docs.signalrgb.com/qmk>
+            //     "Currently, QMK keyboards are only supported in wired mode."
+            //
+            //   <https://www.reddit.com/r/SignalRGB/comments/1gg4s1z/qmk_support_madness_partnerships_were_willing_to/>
+            //     QMK support / madness + partnerships (we're willing
+            //     to help manufacturers)
+            //     2024-10-31.
+            //
+            //   <https://signalrgb.com/devices/>
+            //
+            correctionAdd("Signal RGB_", "SignalRGB_");
+            correctionAdd("signal RGB_", "SignalRGB_");
+            correctionAdd("Signal Rgb_", "SignalRGB_");
+            correctionAdd("Signal rgb_", "SignalRGB_");
+            correctionAdd("signal rbg_", "SignalRGB_");
+            correctionAdd("signal rgb_", "SignalRGB_");
+            correctionAdd("signal RBG_", "SignalRGB_");
+            correctionAdd("singal rgb_", "SignalRGB_");
+            correctionAdd("signalrgb_", "SignalRGB_");
+            correctionAdd("SIgnalRGB_", "SignalRGB_");
+            correctionAdd("SignalRgb_", "SignalRGB_");
+            correctionAdd("signalRGB_", "SignalRGB_");
+            correctionAdd("SIGNALRGB_", "SignalRGB_");
+            correctionAdd("SignalRBG_", "SignalRGB_");
+            correctionAdd("SignalRGD_", "SignalRGB_");
+            correctionAdd("signa rgb_", "SignalRGB_");
+            correctionAdd("SignalEGB_", "SignalRGB_");
+            correctionAdd("signaltgb_", "SignalRGB_");
+            correctionAdd("SignRGB_", "SignalRGB_");
+            correctionAdd("signrgb_", "SignalRGB_");
+            correctionAdd("Sig RGB_", "SignalRGB_");
+            correctionAdd("Ssignal_", "SignalRGB_");
+            correctionAdd("Signal_", "SignalRGB_");
+            correctionAdd("SigRGB_", "SignalRGB_");
+            correctionAdd("signal_", "SignalRGB_");
+            correctionAdd("srgb_", "SignalRGB_");
+            correctionAdd("SRGB_", "SignalRGB_");
+
+            // Similar to OpenRGB and SignalRGB(?)
+            // Cross platform
+            //
+            // Alternative URLs:
+            //
+            //   <https://wiki.artemis-rgb.com/faq>
+            //
+            correctionAdd("Artemis_", "Artemis RGB_");
+
+            // Alternative URLs:
+            //
+            //  <https://www.keebtalk.com/t/what-did-you-learn-today/5835/160>
+            //  <https://www.keebtalk.com/uploads/db8059/original/3X/4/e/4e7409631b5d69a9dc64a2976cc6242d19dc683f.jpeg>
+            //
+            correctionAdd("regular boring rectangle_", "keyboard_");
+            correctionAdd("keystroking machine_", "keyboard_");
+            correctionAdd("boring rectangle_", "keyboard_");
+            correctionAdd("typing rectangle_", "keyboard_");
+            correctionAdd("pain rectangle_", "keyboard_");
+            correctionAdd("normie board_", "keyboard_");
+            correctionAdd("key board_", "keyboard_");
+            correctionAdd("Key Board_", "keyboard_");
+            correctionAdd("keyborard_", "keyboard_");
+            correctionAdd("keyworard_", "keyboard_");
+            correctionAdd("keyboaerd_", "keyboard_");
+            correctionAdd("keybaoprd_", "keyboard_");
+            correctionAdd("keyboasrd_", "keyboard_");
+            correctionAdd("keyboarad_", "keyboard_");
+            correctionAdd("keayboard_", "keyboard_");
+            correctionAdd("keyboaord_", "keyboard_");
+            correctionAdd("keyboared_", "keyboard_");
+            correctionAdd("keyboardx_", "keyboard_"); // A true typo (involving the space bar)
+            correctionAdd("keybooard_", "keyboard_");
+            correctionAdd("kleyboard_", "keyboard_");
+            correctionAdd("KeyBoard_", "keyboard_");
+            correctionAdd("Keyboard_", "keyboard_");
+            correctionAdd("Keybpard_", "keyboard_");
+            correctionAdd("keybpard_", "keyboard_");
+            correctionAdd("keybaord_", "keyboard_"); // A true typo
+            correctionAdd("keyboatd_", "keyboard_");
+            correctionAdd("keyborad_", "keyboard_");
+            correctionAdd("Keybaord_", "keyboard_");
+            correctionAdd("keyobard_", "keyboard_");
+            correctionAdd("keyborde_", "keyboard_");
+            correctionAdd("keyboadd_", "keyboard_"); // A true typo
+            correctionAdd("keybroad_", "keyboard_");
+            correctionAdd("keybiard_", "keyboard_");
+            correctionAdd("key word_", "keyboard_");
+            correctionAdd("key card_", "keyboard_");
+            correctionAdd("kayboard_", "keyboard_");
+            correctionAdd("keaboard_", "keyboard_");
+            correctionAdd("kerboard_", "keyboard_");
+            correctionAdd("kerbaord_", "keyboard_");
+            correctionAdd("ketboard_", "keyboard_");
+            correctionAdd("Keuboard_", "keyboard_");
+            correctionAdd("keuboard_", "keyboard_");
+            correctionAdd("kiyboard_", "keyboard_");
+            correctionAdd("jeyboard_", "keyboard_");
+            correctionAdd("meyblard_", "keyboard_"); // A true typo (double typo)
+            correctionAdd("key oard_", "keyboard_");
+            correctionAdd("keybord_", "keyboard_");
+            correctionAdd("Keybord_", "keyboard_");
+            correctionAdd("keyboad_", "keyboard_");
+            correctionAdd("keybard_", "keyboard_");
+            correctionAdd("keabord_", "keyboard_");
+            correctionAdd("keyoard_", "keyboard_");
+            correctionAdd("keyboar_", "keyboard_");
+            correctionAdd("keyword_", "keyboard_");
+            correctionAdd("keboard_", "keyboard_");
+            correctionAdd("keybrd_", "keyboard_");
+            correctionAdd("board_", "keyboard_"); // A shorthand
+            correctionAdd("baord_", "keyboard_"); // A true typo (of the shorthand)
+            correctionAdd("plank_", "keyboard_"); // Derogatory. Could maybe refer to the keyboard ZSA Planck EZ
+            correctionAdd("kibot_", "keyboard_");
+            correctionAdd("keeb_", "keyboard_"); // A shorthand
+            correctionAdd("Keeb_", "keyboard_");
+            correctionAdd("KEEB_", "keyboard_");
+            correctionAdd("kewb_", "keyboard_"); // A true typo of "keeb"... (itself obfuscated)
+            correctionAdd("kerb_", "keyboard_"); // A true typo of "keeb"... (itself obfuscated)
+            correctionAdd("keen_", "keyboard_"); // A true typo of "keeb"... (itself obfuscated)
+            correctionAdd("keev_", "keyboard_"); // A true typo of "keeb"... (itself obfuscated)
+            correctionAdd("keed_", "keyboard_");
+            correctionAdd("keyb_", "keyboard_");
+            correctionAdd("Keyb_", "keyboard_");
+            correctionAdd("Boar_", "keyboard_");
+            correctionAdd("boar_", "keyboard_");
+            correctionAdd("bard_", "keyboard_"); // A true typo of "board"...
+            correctionAdd("boad_", "keyboard_"); // A true typo of "board"...
+            correctionAdd("kpd_", "keyboard_");
+            correctionAdd("Keb_", "keyboard_");
+            correctionAdd("keb_", "keyboard_");
+            correctionAdd("kib_", "keyboard_");
+            correctionAdd("KBD_", "keyboard_");
+            correctionAdd("kbd_", "keyboard_"); // A shorthand
+            correctionAdd("KB_", "keyboard_");
+            correctionAdd("Kb_", "keyboard_");
+            correctionAdd("kb_", "keyboard_"); // A shorthand
+
+            // Mechanical keyboards
+            //
+            // We need a better reference: Not very descriptive
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.pcbheaven.com/wikipages/How_Key_Matrices_Works/>
+            //
+            //     Better at the definition. Answers "What are the key matrices?"
+            //
+            //   <https://www.dribin.org/dave/keyboard/one_html/>
+            //
+            //     Describes the conflicts with missing NKRO diodes,
+            //     but not much about the keyboard matrix itself
+            //     (definition)
+            //
+            //   <https://www.youtube.com/watch?v=BcXycScePHM&t=3m20s>
+            //     A diagram
+            //
+            //     More microcontroller-oriented. It doesn't define
+            //     what a keyboard matrix is.
+            //
+            correctionAdd("keyboard matrices_", "keyboard matrix_");
+            correctionAdd("Keyboard matrix_", "keyboard matrix_");
+            correctionAdd("keyb matrix_", "keyboard matrix_");
+            correctionAdd("key matrix_", "keyboard matrix_");
+            correctionAdd("column/row_", "keyboard matrix_");
+            correctionAdd("matrix_", "keyboard matrix_");
+
+            correctionAdd("lineair_", "linear_");
+            correctionAdd("lienar_", "linear_");
+            correctionAdd("Linear_", "linear_");
+            correctionAdd("liner_", "linear_");
+
+            correctionAdd("split ergonomic ortholinear mechanical keyboard_", "split ortholinear mechanical keyboard_");
+            correctionAdd("ortholinear mechanical keyboard_", "split ortholinear mechanical keyboard_"); // For the cross-reference
+            correctionAdd("ergonomic mechanical keyboard_", "split ortholinear mechanical keyboard_"); // For the cross-reference
+            correctionAdd("ortho split keyboard_", "split ortholinear mechanical keyboard_");
+            correctionAdd("split Ortho linear_", "split ortholinear mechanical keyboard_");
+            correctionAdd("split ortho linear_", "split ortholinear mechanical keyboard_");
+            correctionAdd("split Ortholinear_", "split ortholinear mechanical keyboard_");
+            correctionAdd("split ortholinear_", "split ortholinear mechanical keyboard_");
+            correctionAdd("Split orthos_", "split ortholinear mechanical keyboard_");
+            correctionAdd("split orthog_", "split ortholinear mechanical keyboard_");
+            correctionAdd("split orthos_", "split ortholinear mechanical keyboard_");
+            correctionAdd("Ortho/split_", "split ortholinear mechanical keyboard_");
+            correctionAdd("ortho/split_", "split ortholinear mechanical keyboard_");
+            correctionAdd("split ortho_", "split ortholinear mechanical keyboard_");
+
+            // A type of switch for keyboards (not vendor-specific)
+            //
+            // Alternative URLs:
+            //
+            //   <https://keyboardsexpert.com/what-are-rubber-dome-keyboards/>
+            //   <https://www.keychron.com/blogs/news/why-is-the-low-profile-mechanical-keyboard-the-best-slim-keyboard>
+            //
+            correctionAdd("rubberdome_", "rubber dome_");
+            correctionAdd("dome_", "rubber dome_");
+
+            // Sort of a type of mechanical keyboards
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=XMWgqQznh4o>
+            //
+            //   <https://github.com/mikhailvs/macropad>
+            //   <https://www.reddit.com/r/macro_pads/comments/1r247ar/i_bought_a_32_macro_pad_and_wrote_a_script_to/>
+            //     Example of reverse engineering the protocol of a
+            //     proprietary macro pad, allowing bypassing their
+            //     configuration tool.
+            //
+            correctionAdd("macro mechanical keypad_", "macro pad_");
+            correctionAdd("programmable keypad_", "macro pad_");
+            correctionAdd("mechanical keypad_", "macro pad_");
+            correctionAdd("macro keypad_", "macro pad_");
+            correctionAdd("Macro keypad_", "macro pad_");
+            correctionAdd("Macro Pad_", "macro pad_");
+            correctionAdd("macro-pad_", "macro pad_");
+            correctionAdd("Macro pad_", "macro pad_");
+            correctionAdd("marco-pad_", "macro pad_");
+            correctionAdd("micro pad_", "macro pad_");
+            correctionAdd("Micro pad_", "macro pad_");
+            correctionAdd("Macro-Pad_", "macro pad_");
+            correctionAdd("MacroPad_", "macro pad_");
+            correctionAdd("Macropad_", "macro pad_");
+            correctionAdd("macropad_", "macro pad_");
+            correctionAdd("macropod_", "macro pad_");
+            correctionAdd("Maco Pad_", "macro pad_");
+            correctionAdd("MACROPAD_", "macro pad_");
+            correctionAdd("macroped_", "macro pad_");
+            correctionAdd("micropad_", "macro pad_");
+            correctionAdd("Macropod_", "macro pad_");
+            correctionAdd("micropqd_", "macro pad_");
+            correctionAdd("MacoPad_", "macro pad_");
+            correctionAdd("Pad_", "macro pad_");
+            correctionAdd("pad_", "macro pad_");
+
+            // Mechanical keyboards
+            correctionAdd("keypcap_", "keycap_");
+            correctionAdd("key cap_", "keycap_");
+            correctionAdd("Keycap_", "keycap_");
+            correctionAdd("KeyCap_", "keycap_");
+            correctionAdd("cap_", "keycap_");
+
+            // Alternative URLs:
+            //
+            //   <https://spkeyboards.com/products/sp-dsa-2-space-pos-2-mounts>
+            //
+            //   <https://wiki.keyboard.gay/KEYCAPS.html#on-kitting-or-how-to-read-a-kitting-diagram>
+            //     Incl. how to read a kitting diagram
+            //
+            correctionAdd("Key caps_", "keycaps_");
+            correctionAdd("key caps_", "keycaps_");
+            correctionAdd("key-caps_", "keycaps_");
+            correctionAdd("Key-caps_", "keycaps_");
+            correctionAdd("KeyCaps_", "keycaps_");
+            correctionAdd("Keycaps_", "keycaps_");
+            correctionAdd("keycpas_", "keycaps_");
+            correctionAdd("keycapa_", "keycaps_"); // A true typo
+            correctionAdd("capps_", "keycaps_");
+            correctionAdd("csps_", "keycaps_"); // A true typo (of the shorthand "caps")
+            correctionAdd("caps_", "keycaps_");
+
+            // The verb, but it was intended to be the adjective
+            //
+            // For example, mechanical keyboards
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Hot_swapping#Keyboards>
+            //
+            correctionAdd("hot swap_", "hot-swap_");
+
+            // Mechanical keyboards
+            //
+            correctionAdd("remove the keycap_", "remove the keycaps_");
+            correctionAdd("hot-swappable_", "remove the keycaps_"); // For the cross-reference
+
+            // Related to mechanical keyboards (keycaps).
+            //
+            // The verb
+            //
+            correctionAdd("shine-through_", "shine through_");
+            correctionAdd("shine trought_", "shine through_");
+            correctionAdd("shinethrough_", "shine through_");
+            correctionAdd("Shinethrough_", "shine through_");
+            correctionAdd("see through_", "shine through_");
+            correctionAdd("See through_", "shine through_");
+            correctionAdd("shine thru_", "shine through_");
+            correctionAdd("Shine Thru_", "shine through_");
+            correctionAdd("seethrough_", "shine through_");
+
+            correctionAdd("reduced selection of keycap profiles_", "slightly reduced selection of keycaps_");
+            correctionAdd("reduced selection of keycaps_", "slightly reduced selection of keycaps_");
+            correctionAdd("north-facing_", "slightly reduced selection of keycaps_");
+
+            // No, not "macronutrients"... E.g., mechanical keyboards / QMK.
+            //
+            // Alternative URLs:
+            //
+            //   <https://github.com/kiibohd/kll-spec/blob/0.5/README.md>
+            //     KLL specification - Keyboard Layout Language
+            //
+            //     Rendered (PDF): <https://github.com/kiibohd/kll-spec/releases/download/v0.5.7.1/kll-spec-v0.5.7.1.pdf>
+            //
+            //     Includes:
+            //
+            //       * macros, including cancelling them.
+            //       * RGB light animations
+            //       * Even analogue keyboard switches!
+            //
+            correctionAdd("macrosses_", "macros_");
+            correctionAdd("masroses_", "macros_");
+            correctionAdd("marcos_", "macros_");
+            correctionAdd("Macros_", "macros_");
+            correctionAdd("Makros_", "macros_");
+            correctionAdd("makros_", "macros_");
+            correctionAdd("micros_", "macros_");
+            correctionAdd("mikros_", "macros_");
+
+            // E.g., in keyboard macros
+            //
+            // Why do we have this second one?? To be able
+            // to use "17" in the lookup? We could instead
+            // move the conflicting "17" in the main word
+            // set.
+            //
+            correctionAdd("17_", "17 ms between each key action is recommended_");
+
+            correctionAdd("typying_", "typing_");
+            correctionAdd("typeing_", "typing_");
+            correctionAdd("typinig_", "typing_");
+            correctionAdd("tipping_", "typing_");
+            correctionAdd("Typing_", "typing_");
+            correctionAdd("typign_", "typing_");
+            correctionAdd("Tying_", "typing_");
+            correctionAdd("tying_", "typing_");
+
+            // Keyboard remapping software for Mac OS X,
+            // similar to AutoHotkey.
+            //
+            // Now broken: <https://wiki.nikiv.dev/macOS/apps/karabiner/>
+            //
+            // Alternative URLs:
+            //
+            //   <https://github.com/pqrs-org/Karabiner-Elements>
+            //   <https://karabiner-elements.pqrs.org/>
+            //     The official website(?)
+            //   <https://dev.to/swyx/notes-on-karabiner-elements-from-john-lindquist-4cmo>
+            //
+            //   <https://github.com/pqrs-org/Karabiner-archived>
+            //     <https://github.com/tekezo/Karabiner>
+            //
+            //     The predecessor, just "Karabiner"
+            //     Before 2016. "Karabiner is obsoleted on
+            //     macOS v10.12 (Sierra) (2016) or later.
+            //     Please use Karabiner-Elements. .
+            //
+            //   <https://github.com/mxstbr/karabiner>
+            //   <https://github.com/kiinoda/goku>
+            //
+            correctionAdd("Karabiner-Elements_", "Karabiner Elements_");
+            correctionAdd("Karabiner elements_", "Karabiner Elements_");
+            correctionAdd("Karabiner-elements_", "Karabiner Elements_");
+            correctionAdd("karabiner elements_", "Karabiner Elements_");
+            correctionAdd("Carabiner Elements_", "Karabiner Elements_");
+            correctionAdd("KeyRemap4MacBook_", "Karabiner Elements_"); // Allegedly, the original name
+            correctionAdd("Karabeener_", "Karabiner Elements_");
+            correctionAdd("karabiner_", "Karabiner Elements_");
+            correctionAdd("Karabiner_", "Karabiner Elements_");
+            correctionAdd("carabiner_", "Karabiner Elements_");
+            correctionAdd("Elements_", "Karabiner Elements_");
+            correctionAdd("KE_", "Karabiner Elements_");
+
+            correctionAdd("Context Menu_", "context menu_");
+            correctionAdd("context-menu_", "context menu_");
+            correctionAdd("contextmenu_", "context menu_");
+
+            // Mechanical keyboards
+            // Rotate, as in mechanical keyboards, especially
+            // split ergonomic mechanical keyboards. Includes
+            // finger splay, non-parallel vertical key lines.
+            //
+            // Not a typo of "display"...
+            //
+            // Alternative URLs:
+            //
+            //  <https://kinesis-ergo.com/solutions/keyboard-risk-factors/>
+            //  <https://www.reddit.com/r/ErgoMechKeyboards/comments/svrdu1/buzzard_a_40_keys_split_keyboard_with_splay_and/>
+            //
+            correctionAdd("display_", "splay_");
+            correctionAdd("splayed_", "splay_"); // Not 100% correct
+
+            correctionAdd("switches_", "switched_");
+            correctionAdd("switche_", "switched_");
+            correctionAdd("swiched_", "switched_");
+
+            correctionAdd("mecha switch_", "mechanical switch_");
+            correctionAdd("mech switch_", "mechanical switch_");
+            correctionAdd("mech_", "mechanical switch_");
+
+            //Duplicate of "mechanical switch"?
+            correctionAdd("switch_", "switch for a mechanical keyboard_");
+
+            correctionAdd("mechanical keyboard switches_", "mechanical switches_");
+            correctionAdd("Mech switches_", "mechanical switches_");
+            correctionAdd("mech switches_", "mechanical switches_");
+            correctionAdd("mechanicals_", "mechanical switches_");
+            correctionAdd("mechs_", "mechanical switches_");
+
+            correctionAdd("lube_", "lubricate_");
+            correctionAdd("lub_", "lubricate_");
+
+            correctionAdd("over-lubrication_", "overlubrication_");
+            correctionAdd("Overlubrication_", "overlubrication_");
+            correctionAdd("Overlibri_", "overlubrication_");
+            correctionAdd("Overlubri_", "overlubrication_");
+            correctionAdd("overlubri_", "overlubrication_");
+            correctionAdd("overlube_", "overlubrication_");
+
+            correctionAdd("optical_", "optical switch_");
+
+            correctionAdd("Optical switches_", "optical switches_");
+            correctionAdd("opticals_", "optical switches_");
+
+            // Mechanical keyboards
+            //
+            //We ought to find a better reference.
+            //
+            correctionAdd("tactical_", "tactile_");
+            correctionAdd("tactic_", "tactile_");
+
+            correctionAdd("Reseat_", "reseat_");
+            correctionAdd("resear_", "reseat_");
+
+            correctionAdd("re-seated_", "reseated_");
+
+            // Note: It is here because of a conflict in the main
+            //       word set (incorrect word "resetting")
+            //
+            // E.g., mechanical keyboards
+            correctionAdd("Reseating_", "reseating_");
+
+            correctionAdd("ergonomical_", "ergonomic_");
+            correctionAdd("Erogonomic_", "ergonomic_");
+            correctionAdd("erogonomic_", "ergonomic_");
+            correctionAdd("Ergonomic_", "ergonomic_");
+            correctionAdd("erganimic_", "ergonomic_");
+            correctionAdd("erganomoc_", "ergonomic_");
+            correctionAdd("erganomic_", "ergonomic_");
+            correctionAdd("ergo_", "ergonomic_");
+            correctionAdd("erfo_", "ergonomic_");
+            correctionAdd("ego_", "ergonomic_");
+
+            // Ergonomic mechanical keyboards
+            correctionAdd("renting_", "tenting_"); // A true typo
+            correctionAdd("tinting_", "tenting_");
+
+            // For the reverse, to the abbr.
+            correctionAdd("United States keyboard layout_", "ANSI_");
+
+            // A keyboard layout
+            correctionAdd("French keyboard_", "French keyboard layout_");
+            correctionAdd("French layout_", "French keyboard layout_");
+            correctionAdd("a French_", "French keyboard layout_");
+            correctionAdd("AZERTY_", "French keyboard layout_");
+            correctionAdd("Azerty_", "French keyboard layout_");
+            correctionAdd("azerty_", "French keyboard layout_");
+            correctionAdd("French_", "French keyboard layout_"); // For the cross-reference
+
+            correctionAdd("Swiss_", "Swiss keyboard layout_"); // For the cross-reference
+
+            // A keyboard layout (Brazil/Portuguese)
+            //
+            // Note: The physical key layout is different from 'ISO'.
+            //       There is an extra key between "M" and "right Shift".
+            //
+            // Note: It is here because of the conflict with
+            //       "Brazilian" in the main word set...
+            //
+            correctionAdd("Brazilian Technical Standards Association_", "ABNT NBR 10346 variant 2 keyboard layout_"); // For the cross-reference
+            correctionAdd("Brazilian keyboard layout_", "ABNT NBR 10346 variant 2 keyboard layout_");
+            correctionAdd("ABNT NBR 10346 variant 2_", "ABNT NBR 10346 variant 2 keyboard layout_");
+            correctionAdd("Brazilian_", "ABNT NBR 10346 variant 2 keyboard layout_"); // For the cross-reference
+            correctionAdd("ABNT-2_", "ABNT NBR 10346 variant 2 keyboard layout_");
+            correctionAdd("ABNT2_", "ABNT NBR 10346 variant 2 keyboard layout_");
+            correctionAdd("abnt2_", "ABNT NBR 10346 variant 2 keyboard layout_");
+            correctionAdd("ABN2_", "ABNT NBR 10346 variant 2 keyboard layout_");
+            correctionAdd("ABNT_", "ABNT NBR 10346 variant 2 keyboard layout_");
+            correctionAdd("abnt_", "ABNT NBR 10346 variant 2 keyboard layout_");
+
+            // A keyboard layout
+            //
+            // Alternative URLs:
+            //
+            //   <https://github.com/GalileoBlues/Gallium>
+            //   <https://www.reddit.com/r/KeyboardLayouts/comments/196ow4k/gallium_v2/>
+            //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/1b4ify4/comment/ksz5ikn/>
+            //
+            correctionAdd("gallium_", "Gallium keyboard layout_");
+            correctionAdd("Gallium_", "Gallium keyboard layout_");
+
+            // A keyboard layout
+            //
+            correctionAdd("APT v3_", "APT keyboard layout_");
+            correctionAdd("APTv3_", "APT keyboard layout_");
+            correctionAdd("apt_", "APT keyboard layout_");
+            correctionAdd("APT_", "APT keyboard layout_");
+
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/ball_bearing#Noun>
+            //   <https://en.wiktionary.org/wiki/BB#Noun>
+            //     Claims "BB" is a valid initialism
+            //
+            correctionAdd("bb_", "ball bearing_");
+            correctionAdd("BB_", "ball bearing_");
+
+            // Mechanical keyboards
+            //
+            // The blinding light for Keychron keyboards (and
+            // other keyboards with south-facing RGB LEDs)
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1bok23g/comment/kwtpr35/>
+            //     Mitigation for the blinding light
+            //
+            correctionAdd("the Mortensen modification_", "south-facing blinding light_");
+            correctionAdd("Mortensen modification_", "south-facing blinding light_");
+            correctionAdd("blinding light problem_", "south-facing blinding light_");
+            correctionAdd("must be north-facing_", "south-facing blinding light_");
+            correctionAdd("tedious modification_", "south-facing blinding light_");
+            correctionAdd("the blinding light_", "south-facing blinding light_");
+            correctionAdd("QMK lighting modes_", "south-facing blinding light_"); // For the cross-reference
+            correctionAdd("the Mortensen mod_", "south-facing blinding light_");
+            correctionAdd("the modification_", "south-facing blinding light_");
+            correctionAdd("the light bleed_", "south-facing blinding light_");
+            correctionAdd("blinding light_", "south-facing blinding light_");
+            correctionAdd("Blinding light_", "south-facing blinding light_");
+            correctionAdd("The mitigation_", "south-facing blinding light_"); // For the cross-reference
+            correctionAdd("the southness_", "south-facing blinding light_");
+            correctionAdd("south-facing_", "south-facing blinding light_");
+            correctionAdd("be unusable_", "south-facing blinding light_");
+            correctionAdd("light bleed_", "south-facing blinding light_");
+            correctionAdd("light-bleed_", "south-facing blinding light_");
+            correctionAdd("pain points_", "south-facing blinding light_");
+            correctionAdd("south-side_", "south-facing blinding light_");
+            correctionAdd("the glare_", "south-facing blinding light_");
+            correctionAdd("southness_", "south-facing blinding light_");
+            correctionAdd("blinding_", "south-facing blinding light_");
+            correctionAdd("the mod_", "south-facing blinding light_");
+            correctionAdd("glare_", "south-facing blinding light_");
+
+            // Alternative URLs:
+            //
+            //   <https://pmortensen.eu/world2/2024/11/04/the-battery-state-of-a-keychron-qmk-based-keyboard-can-be-displayed-in-the-operating-system/>
+            //     Showing the battery state in the operating system
+            //     (but it is not possible for 2.0/2.1 (is not BLE))
+            //   <https://www.reddit.com/r/Keychron/comments/1i6fhhc/comment/m8cs8h6/>
+            //   <https://www.keychron.com/products/keychron-k5-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection>
+            //     The Bluetooth version 5.1 claim
+            //
+            correctionAdd("2.0_", "The Bluetooth version in the Keychron K Pro series keyboards is 2.0/2.1, not 5.1 as claimed_");
+            correctionAdd("2.1_", "The Bluetooth version in the Keychron K Pro series keyboards is 2.0/2.1, not 5.1 as claimed_");
+            correctionAdd("2.2_", "The Bluetooth version in the Keychron K Pro series keyboards is 2.0/2.1, not 5.1 as claimed_");
+
+            // 2023-02-07. 18203 bytes. MD5 94B9F58863E817E5060C58AA9A0B7A35.
+            //
+            // Parent page:
+            //
+            //   <https://www.keychron.com/pages/keychron-k-pro-series-bluetooth-firmware>
+            //
+            // Note: It is the exact same for the Q Pro series.
+            //
+            // Alternative (unofficial) versions:
+            //
+            //   1.32.1   18204    keychron_ckbt51_01.32-1.kfw  2CE36F3B25C2D9ACD4BBDE03C587D969  <https://keychronsupport.zendesk.com/attachments/token/kzBE17zKHIS1Ci51iOvYlB6hu/?name=keychron_ckbt51_01.32-1.kfw>
+            //   1.32.2   18204    keychron_ckbt51_01.32-2.kfw  1B620D9837226B69A4B1990D94D86B4A  <https://keychronsupport.zendesk.com/attachments/token/L8q5Y6u3IBvulxQirjf7KIDBZ/?name=keychron_ckbt51_01.32-2.kfw>
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1as61bs/comment/kqvmae2/>
+            //
+            correctionAdd("Bluetooth firmware version 1.32.2 for Keychron K Pro and Q Pro series keyboards_", "download URL for Bluetooth firmware version 1.32_");
+            correctionAdd("Keychron&nbsp;K10&nbsp;Pro_", "download URL for Bluetooth firmware version 1.32_");
+            correctionAdd("Keychron&nbsp;Q6&nbsp;Pro_", "download URL for Bluetooth firmware version 1.32_");
+            correctionAdd("Keychron K10 Pro_", "download URL for Bluetooth firmware version 1.32_");
+            correctionAdd("Keychron Q6 Pro_", "download URL for Bluetooth firmware version 1.32_");
+
+            // For the cross-reference
+            // 2023-12-04. 89997 bytes. MD5 4CF5140500CE4BBA8C5A3BB2F8EA8F80.
+            correctionAdd("Bluetooth firmware version 0.1.12 for Keychron Q Max, K Max, and V Max series keyboards_", "download URL for Bluetooth firmware version 0.1.12_");
+
+            // For the cross-reference
+            // 2024-01-08. 90621 bytes. MD5 24F664EEF2D0F3CF839257B44DEAB9DF.
+            correctionAdd("Bluetooth firmware version 0.1.13 for Keychron Q Max, K Max, and V Max series keyboards_", "download URL for Bluetooth firmware version 0.1.13_");
+
+            // For the cross-reference
+            // 2024-01-18. 90701 bytes. MD5 8B5050F993930B0966BAC8BD2435DE3F.
+            correctionAdd("Bluetooth firmware version 0.1.14 for Keychron Q Max, K Max, and V Max series keyboards_", "download URL for Bluetooth firmware version 0.1.14_");
+
+            // For the cross-reference
+            // 2024-03-29. 91053 bytes. MD5 F1445CBFAC0F914E7489D6BEABC0BDD6.
+            correctionAdd("Bluetooth firmware version 0.1.15 for Keychron Q Max, K Max, and V Max series keyboards_", "download URL for Bluetooth firmware version 0.1.15_");
+
+            // For the cross-reference
+            // 2024-07-09. 92444 bytes. MD5 E546C5B48D4D39498364A8040F0468F8.
+            correctionAdd("Bluetooth firmware version 0.2.0 for Keychron Q Max, K Max, and V Max series keyboards_", "download URL for Bluetooth firmware version 0.2.0_");
+
+            // For the cross-reference
+            // 2024-11-19. 92444 bytes. MD5 55E3EE7BBDDAF72AB370ACECDF5EC9E.
+            correctionAdd("Bluetooth firmware version 0.2.1 for Keychron Q Max, K Max, and V Max series keyboards_", "download URL for Bluetooth firmware version 0.2.1_");
+            correctionAdd("Keychron&nbsp;K10&nbsp;Max_", "download URL for Bluetooth firmware version 0.2.1_"); // For the cross-reference
+            correctionAdd("Keychron&nbsp;V6&nbsp;Max_", "download URL for Bluetooth firmware version 0.2.1_"); // For the cross-reference
+            correctionAdd("Keychron&nbsp;Q6&nbsp;Max_", "download URL for Bluetooth firmware version 0.2.1_"); // For the cross-reference
+            correctionAdd("Keychron K10 Max_", "download URL for Bluetooth firmware version 0.2.1_");
+            correctionAdd("Keychron Q6 Max_", "download URL for Bluetooth firmware version 0.2.1_"); // For the cross-reference
+            correctionAdd("Keychron V6 Max_", "download URL for Bluetooth firmware version 0.2.1_"); // For the cross-reference
+
+            correctionAdd("the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_"); // For the cross-reference
+            correctionAdd("a checklist for Keychron mechanical keyboards_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_");
+            correctionAdd("isn't in (full) NKRO mode_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_");
+            correctionAdd("the usual isolation steps_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_");
+            correctionAdd("isolate the problem_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_"); // For the cross-reference
+            correctionAdd("the troubleshooting_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_");
+            correctionAdd("problem isolation_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_");
+            correctionAdd("troubleshooting_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_"); // For the cross-reference
+            correctionAdd("isolation steps_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_");
+            correctionAdd("The first step_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_");
+            correctionAdd("the first step_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_");
+            correctionAdd("the checklist_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_");
+            correctionAdd("a check list_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_");
+            correctionAdd("a checklist_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_");
+            correctionAdd("checklist_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_");
+            correctionAdd("2024_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_"); // For the cross-reference
+
+            correctionAdd("GBs_", "group buys_");
+
+            // Keyboards and mice. E.g., used by
+            // the Apple Extended Keyboard II
+            correctionAdd("Apple Desktop Bus_", "ADB_");
+            correctionAdd("adb_", "ADB_");
+
+            correctionAdd("Apple M_", "Apple M2_");
+            correctionAdd("M2_", "Apple M2_");
+            correctionAdd("m2_", "Apple M2_");
+
+            correctionAdd("M3_", "Apple M3_");
+
+            // A Mac keyboard (or rather a series of keyboards)
+            correctionAdd("Apple Magic Keyboard_", "Magic Keyboard_");
+            correctionAdd("Apple magic keyboard_", "Magic Keyboard_");
+            correctionAdd("apple Magic Keyboard_", "Magic Keyboard_");
+            correctionAdd("magic keyboard_", "Magic Keyboard_");
+            correctionAdd("Magic keyboard_", "Magic Keyboard_");
+            correctionAdd("Apple Magic_", "Magic Keyboard_");
+            correctionAdd("Apple MK_", "Magic Keyboard_");
+            correctionAdd("MK_", "Magic Keyboard_");
+
+            // A key on a keyboard. Modifier and stand-alone
+            correctionAdd("hotkey windows logo_", "Windows key_");
+            correctionAdd("Windows Logo Key_", "Windows key_");
+            correctionAdd("key windows logo_", "Windows key_");
+            correctionAdd("Windows button_", "Windows key_");
+            correctionAdd("Windows menu_", "Windows key_");
+            correctionAdd("windows logo_", "Windows key_");
+            correctionAdd("Windows Key_", "Windows key_");
+            correctionAdd("\"win\" key_", "Windows key_");
+            correctionAdd("Windows-Key_", "Windows key_");
+            correctionAdd("Windows-key_", "Windows key_");
+            correctionAdd("windows-key_", "Windows key_");
+            correctionAdd("windows key_", "Windows key_");
+            correctionAdd("Window key_", "Windows key_");
+            correctionAdd("windowskey_", "Windows key_");
+            correctionAdd("tiling key_", "Windows key_");
+            correctionAdd("Windowkey_", "Windows key_");
+            correctionAdd("WIN-keys_", "Windows key_");
+            correctionAdd("win key_", "Windows key_");
+            correctionAdd("Win key_", "Windows key_");
+            correctionAdd("Win Key_", "Windows key_");
+            correctionAdd("WIN-key_", "Windows key_");
+            correctionAdd("Win-key_", "Windows key_");
+            correctionAdd("win-key_", "Windows key_");
+            correctionAdd("Windows_", "Windows key_");
+            correctionAdd("WinKey_", "Windows key_");
+            correctionAdd("winkey_", "Windows key_");
+            correctionAdd("Winkey_", "Windows key_");
+            correctionAdd("WINKEY_", "Windows key_");
+            correctionAdd("win_", "Windows key_");
+            correctionAdd("Win_", "Windows key_");
+            correctionAdd("WK_", "Windows key_");
+
+            // A key on a keyboard
+            correctionAdd("Function key_", "Fn key_"); // Not to be confused with function keys, F1-F12
+            correctionAdd("function key_", "Fn key_"); // Not to be confused with function keys, F1-F12
+            correctionAdd("Globe key_", "Fn key_"); // Mac
+            correctionAdd("globe key_", "Fn key_"); // Mac
+            correctionAdd("FN Key_", "Fn key_");
+            correctionAdd("FN key_", "Fn key_");
+            correctionAdd("fn key_", "Fn key_");
+            correctionAdd("fnc_", "Fn key_");
+            correctionAdd("FN_", "Fn key_");
+            correctionAdd("Fn_", "Fn key_");
+            correctionAdd("fn_", "Fn key_");
+            correctionAdd("RN_", "Fn key_"); // A true typo
+            correctionAdd("Rn_", "Fn key_"); // A true typo
+
+            // A key on a keyboard
+            correctionAdd("home_", "Home key_");
+            correctionAdd("Home_", "Home key_");
+            correctionAdd("hom_", "Home key_");
+
+            // A kind of keys on a keyboard (F1 - F12)
+            correctionAdd("Function keys_", "function keys_");
+            correctionAdd("F keys_", "function keys_");
+            correctionAdd("f keys_", "function keys_");
+            correctionAdd("F-keys_", "function keys_");
+            correctionAdd("F-Keys_", "function keys_");
+            correctionAdd("F key_", "function keys_");
+            correctionAdd("F-key_", "function keys_");
+            correctionAdd("Fkeys_", "function keys_");
+            correctionAdd("Fun_", "function keys_");
+            correctionAdd("fun_", "function keys_");
+
+            correctionAdd("Compose Key_", "compose key_");
+            correctionAdd("compose_", "compose key_");
+
+            // A key on a keyboard. Modifier.
+            correctionAdd("Return_", "Return key_");
+            correctionAdd("return_", "Return key_");
+
+            // The verb, not the key...
+            correctionAdd("ented_", "enter_");
+            correctionAdd("Dnter_", "enter_");
+            correctionAdd("dnter_", "enter_");
+            correctionAdd("Ener_", "enter_");
+
+            correctionAdd("TAB_", "Tab key_");
+            correctionAdd("Tab_", "Tab key_");
+
+            // A key on a keyboard
+            //
+            // QMK/Via keycode: KC_PSCR (an alias of KC_PRINT_SCREEN)
+            //
+            //                  Numeric code: 70.
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1ea2kp2/comment/lejd4cd/>
+            //   <https://pmortensen.eu/world2/2023/09/18/raw-qmk-keycodes-not-symbolic/>
+            //
+            correctionAdd("print screen key_", "Print Screen key_");
+            correctionAdd("Print Screen_", "Print Screen key_");
+            correctionAdd("print screen_", "Print Screen key_");
+            correctionAdd("PRINT SCREEN_", "Print Screen key_");
+            correctionAdd("PrintScreen_", "Print Screen key_");
+            correctionAdd("Prt Sc key_", "Print Screen key_");
+            correctionAdd("prntscrn_", "Print Screen key_");
+            correctionAdd("PrntScrn_", "Print Screen key_");
+            correctionAdd("Prt Scrn_", "Print Screen key_");
+            correctionAdd("PrtScrn_", "Print Screen key_");
+            correctionAdd("PRT SCR_", "Print Screen key_");
+            correctionAdd("Prt Sc_", "Print Screen key_");
+            correctionAdd("PRT SC_", "Print Screen key_");
+            correctionAdd("prt sc_", "Print Screen key_");
+            correctionAdd("PRTSCR_", "Print Screen key_");
+            correctionAdd("prtscr_", "Print Screen key_");
+            correctionAdd("PrtScr_", "Print Screen key_");
+            correctionAdd("PrtSct_", "Print Screen key_");
+            correctionAdd("PrtSc_", "Print Screen key_"); // The official short version
+            correctionAdd("PrScr_", "Print Screen key_");
+            correctionAdd("Prscr_", "Print Screen key_");
+            correctionAdd("prtsc_", "Print Screen key_");
+
+            // A key on a keyboard
+            //
+            // QMK/Via keycode: KC_SLCK (an alias of KC_SCROLL_LOCK).
+            //                  Note: The official alias in QMK is
+            //                  different, KC_SCRL (it isn't clear
+            //                  why there is a discrepancy (e.g.,
+            //                  was it renamed in QMK?)).
+            //
+            //                  Other alias: KC_BRMD
+            //
+            //                  Numeric code: 71.
+            //
+            // Note: on macOS, the same keycode is
+            //       interpreted as brightness down.
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1ea2kp2/comment/lejd4cd/>
+            //   <https://pmortensen.eu/world2/2023/09/18/raw-qmk-keycodes-not-symbolic/>
+            //
+            correctionAdd("scroll lock_", "Scroll Lock key_");
+            correctionAdd("SCROLL-LOCK_", "Scroll Lock key_");
+            correctionAdd("Scroll lock_", "Scroll Lock key_");
+            correctionAdd("Scroll Lock_", "Scroll Lock key_");
+            correctionAdd("Scroll Lk_", "Scroll Lock key_");
+            correctionAdd("Scrl Lock_", "Scroll Lock key_");
+            correctionAdd("scrl lock_", "Scroll Lock key_");
+            correctionAdd("scr lock_", "Scroll Lock key_");
+            correctionAdd("Scr Lock_", "Scroll Lock key_");
+            correctionAdd("scrlock_", "Scroll Lock key_");
+            correctionAdd("ScrLock_", "Scroll Lock key_");
+            correctionAdd("scr lk_", "Scroll Lock key_");
+            correctionAdd("SCR LK_", "Scroll Lock key_");
+            correctionAdd("Scr lk_", "Scroll Lock key_");
+            correctionAdd("Scr Lk_", "Scroll Lock key_");
+            correctionAdd("SCRLK_", "Scroll Lock key_");
+            correctionAdd("Scrlk_", "Scroll Lock key_");
+            correctionAdd("scrlk_", "Scroll Lock key_");
+            correctionAdd("ScrLK_", "Scroll Lock key_");
+            correctionAdd("scrLk_", "Scroll Lock key_");
+            correctionAdd("ScrLk_", "Scroll Lock key_"); // The official short version
+            correctionAdd("sclk_", "Scroll Lock key_");
+
+            // A key on a keyboard. AKA as the Break key
+            //
+            // QMK/Via keycode: KC_PAUS (an alias of KC_PAUSE). Other
+            //                  aliases: KC_BRK and KC_BRMU.
+            //                  Numeric code: 72.
+            //
+            // Note: on macOS, the same keycode is
+            //       interpreted as brightness up.
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1ea2kp2/comment/lejd4cd/>
+            //   <https://pmortensen.eu/world2/2023/09/18/raw-qmk-keycodes-not-symbolic/>
+            //
+            correctionAdd("Pause/Break_", "Pause key_");
+            correctionAdd("Pause Break_", "Pause key_");
+            correctionAdd("pause break_", "Pause key_");
+            correctionAdd("pause/break_", "Pause key_");
+            correctionAdd("Break/Pause_", "Pause key_");
+            correctionAdd("break key_", "Pause key_");
+            correctionAdd("PAUISE_", "Pause key_");
+            correctionAdd("pauise_", "Pause key_");
+            correctionAdd("pause_", "Pause key_");
+            correctionAdd("BREAK_", "Pause key_");
+            correctionAdd("Break_", "Pause key_");
+            correctionAdd("Pause_", "Pause key_");
+            correctionAdd("break_", "Pause key_");
+            correctionAdd("PAUSE_", "Pause key_");
+
+            // A key on a keyboard. (Caps Lock is in the
+            //                       other word set.)
+            //
+            // For the options in the Via clone, see entry
+            // "the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed"
+            //
+            correctionAdd("the numpad key_", "Num Lock key_");
+            correctionAdd("numeric lock_", "Num Lock key_");
+            correctionAdd("Numeric Lock_", "Num Lock key_");
+            correctionAdd("number lock_", "Num Lock key_");
+            correctionAdd("Number mode_", "Num Lock key_");
+            correctionAdd("number mode_", "Num Lock key_");
+            correctionAdd("numpad key_", "Num Lock key_");
+            correctionAdd("num button_", "Num Lock key_");
+            correctionAdd("numb lock_", "Num Lock key_");
+            correctionAdd("Num clear_", "Num Lock key_");
+            correctionAdd("Num Clear_", "Num Lock key_");
+            correctionAdd("num block_", "Num Lock key_");
+            correctionAdd("num luck_", "Num Lock key_");
+            correctionAdd("Num Luck_", "Num Lock key_");
+            correctionAdd("num lock_", "Num Lock key_");
+            correctionAdd("Num lock_", "Num Lock key_");
+            correctionAdd("nub lock_", "Num Lock key_");
+            correctionAdd("NUM LOCK_", "Num Lock key_");
+            correctionAdd("Num Lock_", "Num Lock key_");
+            correctionAdd("numblock_", "Num Lock key_");
+            correctionAdd("Num key_", "Num Lock key_");
+            correctionAdd("num key_", "Num Lock key_");
+            correctionAdd("Numlock_", "Num Lock key_");
+            correctionAdd("numlock_", "Num Lock key_");
+            correctionAdd("NumLock_", "Num Lock key_");
+            correctionAdd("NUMLOCK_", "Num Lock key_");
+            correctionAdd("numLock_", "Num Lock key_");
+            correctionAdd("N Lock_", "Num Lock key_");
+            correctionAdd("N. Lck_", "Num Lock key_");
+            correctionAdd("Num Lk_", "Num Lock key_");
+            correctionAdd("Num lk_", "Num Lock key_");
+            correctionAdd("num lk_", "Num Lock key_");
+            correctionAdd("N Lck_", "Num Lock key_");
+            correctionAdd("NumLk_", "Num Lock key_");
+            correctionAdd("Numlk_", "Num Lock key_");
+            correctionAdd("Num_", "Num Lock key_");
+            correctionAdd("num_", "Num Lock key_");
+
+            // A key on a keyboard (depending on the keyboard
+            // layout in the operating system)
+            //
+            // '½/§/¾/¶'
+            //
+            // Alternative URL:
+            //
+            //   <https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#Danish>
+            //
+            correctionAdd("section symbol_", "§ key_");
+            correctionAdd("paragraph key_", "§ key_"); // A literal translation...
+            correctionAdd("section sign_", "§ key_");
+            correctionAdd("paragraph_", "§ key_");
+            correctionAdd("§_", "§ key_");
+            correctionAdd("½_", "§ key_");
+
+            // A key on a keyboard
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1itv1h0/comment/mdsoixt/>
+            //
+            correctionAdd("weird flower symbol_", "Apple key AKA Command key_"); // When rotated 45 degrees to avoid copyright issues
+            correctionAdd("flower symbol_", "Apple key AKA Command key_"); // When rotated 45 degrees to avoid copyright issues
+            correctionAdd("Apple/Command_", "Apple key AKA Command key_");
+            correctionAdd("Command key_", "Apple key AKA Command key_");
+            correctionAdd("command key_", "Apple key AKA Command key_");
+            correctionAdd("apple key_", "Apple key AKA Command key_");
+            correctionAdd("Apple key_", "Apple key AKA Command key_");
+            correctionAdd("Cmd key_", "Apple key AKA Command key_");
+            correctionAdd("Command_", "Apple key AKA Command key_");
+            correctionAdd("command_", "Apple key AKA Command key_");
+            correctionAdd("cmnd_", "Apple key AKA Command key_");
+            correctionAdd("Cmd_", "Apple key AKA Command key_"); // The official short name
+            correctionAdd("⌘_", "Apple key AKA Command key_");
+
             // For the shorthand (often used).
             //
             // Not to be confused with Linux' "Maui" (the only difference
@@ -152603,13 +155354,6 @@ namespace OverflowHelper.core
             // The HTML attribute
             correctionAdd("CLASS_", "class_");
 
-            correctionAdd("hadndle_", "handle_");
-            correctionAdd("handel_", "handle_");
-            correctionAdd("hangle_", "handle_");
-
-            // The adverb (not the keyboard layout)
-            correctionAdd("hands-down_", "hands down_");
-
             correctionAdd("short term_", "short-term_");
 
             // The verb
@@ -153660,1903 +156404,6 @@ namespace OverflowHelper.core
             correctionAdd("Brew_", "BREW_");
             correctionAdd("brew_", "BREW_");
 
-            // The verb
-            correctionAdd("flsah_", "flash_");
-            correctionAdd("flush_", "flash_");
-            correctionAdd("fash_", "flash_");
-            correctionAdd("flag_", "flash_"); // An autocorrect "masterpiece"?
-
-            correctionAdd("nand flash_", "NAND flash_");
-            correctionAdd("NAND-flash_", "NAND flash_");
-            correctionAdd("nand-flash_", "NAND flash_");
-            correctionAdd("NAND Flash_", "NAND flash_");
-            correctionAdd("flash nand_", "NAND flash_");
-            correctionAdd("flashnand_", "NAND flash_");
-            correctionAdd("NAND_", "NAND flash_");
-
-            correctionAdd("nor flash_", "NOR flash_");
-            correctionAdd("Flash NOR_", "NOR flash_");
-            correctionAdd("flash NOR_", "NOR flash_");
-
-            // Embedded systems, incl. QMK mechanical keyboards
-            //
-            // For the alternative URL (Keychron's instructions)
-            // Microcontrollers
-            //
-            // E.g., related to flashing firmware for Keychron keyboards
-            correctionAdd("Hard flashing_", "hard flashing_");
-
-            // Embedded systems, incl. QMK mechanical keyboards
-            //
-            // Alternative URLs:
-            //
-            //   <https://keychronsupport.zendesk.com/hc/en-us/articles/8914576001943-How-to-Factory-Reset-or-Flash-Firmware-for-Your-Keychron-Q3-keyboard>
-            //     The spacebar method for flashing Keychron keyboards
-            //
-            correctionAdd("bootloader loader mode_", "bootloader mode_");
-            correctionAdd("boot loader mode_", "bootloader mode_");
-            correctionAdd("flash memory_", "bootloader mode_"); // For the cross-reference
-            correctionAdd("bootloader_", "bootloader mode_");
-            correctionAdd("flash mode_", "bootloader mode_");
-            correctionAdd("Flash mode_", "bootloader mode_");
-            correctionAdd("DFU mode_", "bootloader mode_");
-
-            correctionAdd("OSC_", "Open Sound Control_");
-
-            correctionAdd("hard ware_", "hardware_");
-            correctionAdd("harwdware_", "hardware_");
-            correctionAdd("hardwares_", "hardware_");
-            correctionAdd("hardwarws_", "hardware_");
-            correctionAdd("hardeware_", "hardware_");
-            correctionAdd("Hardware_", "hardware_");
-            correctionAdd("harwade_", "hardware_");
-            correctionAdd("H/W_", "hardware_");
-            correctionAdd("h/w_", "hardware_");
-            correctionAdd("HS_", "hardware_"); // A typo of abbr. "HW"
-            correctionAdd("hw_", "hardware_");
-            correctionAdd("HW_", "hardware_");
-
-            // PC hardware
-            correctionAdd("Industry Standard Architecture_", "ISA bus_");
-            correctionAdd("ISA_", "ISA bus_");
-
-            // PC hardware. Hard disk drives. SSDs. Disks. Partioning.
-            //
-            // Alternative URL:
-            //
-            //   <https://www.gnu.org/software/parted/>
-            //   <https://www.gnu.org/software/parted/manual/parted.html>
-            //
-            correctionAdd("parted_", "Parted_");
-
-            // For the reference to QMK's GitHub repository
-            correctionAdd("the main QMK project_", "QMK_");
-            correctionAdd("official QMK project_", "QMK_");
-            correctionAdd("main QMK project_", "QMK_");
-            correctionAdd("Main QMK project_", "QMK_");
-            correctionAdd("QMK project_", "QMK_");
-            correctionAdd("qmk_", "QMK_");
-
-            // Output of 'qmk clean --help':
-            //
-            //   usage: qmk clean [-h] [-a]
-            //
-            //   optional arguments:
-            //     -h, --help  show this help message and exit
-            //     -a, --all   Remove *.hex and *.bin files in the QMK root as well.
-            //
-            // Alternative URLs:
-            //
-            //   <https://docs.qmk.fm/cli_commands#qmk-clean>
-            //
-            correctionAdd("the official QMK Git repository, Keychron keyboards_", "qmk clean_"); // For the cross-reference, indirectly from "QMK"
-            correctionAdd("QMK CLEAN_", "qmk clean_");
-
-            // QMK
-            //
-            // There isn't a 'man page', but this is
-            // the output of 'qmk flash --help':
-            //
-            //  Usage: qmk flash [-h] [-c] [-e ENV] [-j PARALLEL] [-n] [-km KEYMAP] [-kb KEYBOARD] [-m MCU] [-bl BOOTLOADER] [-b] [filename]
-            //
-            //  Positional arguments:
-            //
-            //    filename           A configurator export JSON file to be
-            //                       compiled and flashed or a pre-compiled
-            //                       binary firmware file (.bin/.hex) to
-            //                       be flashed.
-            //
-            //  Optional arguments:
-            //
-            //    -h, --help         Show this help message and exit
-            //
-            //    -c, --clean        Remove object files before compiling.
-            //
-            //    -e ENV, --env ENV  Set a variable to be passed to 'make'.
-            //                       May be passed multiple times.
-            //
-            //    -j PARALLEL, --parallel PARALLEL
-            //                       Set the number of parallel 'make'
-            //                       jobs; 0 means unlimited.
-            //
-            //    -n, --dry-run      Don't actually build; just show
-            //                       the 'make' command to be run.
-            //
-            //    -km KEYMAP, --keymap KEYMAP
-            //                       The keymap to build a firmware file
-            //                       for. It is ignored when a configurator
-            //                       export file is supplied.
-            //
-            //    -kb KEYBOARD, --keyboard KEYBOARD
-            //                       The keyboard to build a firmware file for.
-            //                       It is ignored when a configurator export
-            //                       file is supplied.
-            //
-            //    -m MCU, --mcu MCU  The microcontroller name. Required for HalfKay,
-            //                       HID, USBAspLoader and ISP flashing.
-            //
-            //    -bl BOOTLOADER, --bootloader BOOTLOADER
-            //                       The flash command, corresponding to
-            //                       QMK's 'make' options of bootloaders.
-            //
-            //    -b, --bootloaders  List the available bootloaders.
-            //
-            // For the cross-reference
-            correctionAdd("qmk setup_", "qmk flash_");
-
-            // Mostly for the alternative URL
-            //
-            // Both debounce in general and mechanical keyboards.
-            //
-            correctionAdd("key debounce time_", "key debounce_");
-            correctionAdd("debounce time_", "key debounce_");
-            correctionAdd("Jack Ganssle_", "key debounce_");
-            correctionAdd("debounce_", "key debounce_");
-
-            correctionAdd("QMK debounce methods/algorithms_", "The QMK default key debounce time is 5 ms_"); // For the cross-reference
-            correctionAdd("default 5 ms_", "The QMK default key debounce time is 5 ms_");
-            correctionAdd("5 ms_", "The QMK default key debounce time is 5 ms_");
-
-            correctionAdd("masking a mechanical problem_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
-            correctionAdd("treating some symptoms_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
-            correctionAdd("treating the symptoms_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
-            correctionAdd("treated the symptoms_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
-            correctionAdd("treats the symptoms_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
-            correctionAdd("treat the symptoms_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
-            correctionAdd("masking a problem_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
-            correctionAdd("treating symptoms_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
-            correctionAdd("mask the problem_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
-            correctionAdd("treat symptoms_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
-            correctionAdd("has set it to_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
-            correctionAdd("to masking_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
-            correctionAdd("symptoms_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
-            correctionAdd("symptom_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
-            correctionAdd("masking_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
-
-            // QMK
-            correctionAdd("wear leveling for EEPROM emulation in QMK_", "wear leveling for EEPROM memory emulation in QMK_");
-            correctionAdd("wear leaving_", "wear leveling for EEPROM memory emulation in QMK_");
-
-            // A QMK function. For the QMK documentation reference
-            correctionAdd("process_decord_user_", "process_record_user()_");
-            correctionAdd("process record_", "process_record_user()_");
-            correctionAdd("process_key_", "process_record_user()_");
-            correctionAdd("process key_", "process_record_user()_");
-
-            // A QMK function (C)
-            //
-            // Note: Does ***not*** write to (emulated) EEPROM
-            //
-            correctionAdd("rgb_matrix_disable_noeeprom_", "rgb_matrix_disable_noeeprom()_"); // For the cross-reference
-            correctionAdd("rgb_matrix_disable()_", "rgb_matrix_disable_noeeprom()_");
-
-            // A QMK function (C)
-            //
-            // Note: Does ***not*** write to (emulated) EEPROM
-            //
-            correctionAdd("rgb_matrix_enable_noeeprom_", "rgb_matrix_enable_noeeprom()_"); // For the cross-reference
-            correctionAdd("rgb_matrix_enable()_", "rgb_matrix_enable_noeeprom()_");
-
-            // A QMK function (C)
-            //
-            // Note: Does ***not*** write to (emulated) EEPROM
-            //
-            correctionAdd("rgb_matrix_toggle_noeeprom_", "rgb_matrix_toggle_noeeprom()_"); // For the cross-reference
-            correctionAdd("rgb_matrix_toggle()_", "rgb_matrix_toggle_noeeprom()_");
-
-            // QMK
-            //
-            // Alternative URLs:
-            //
-            //   <https://github.com/qmk/qmk_firmware/blob/master/docs/features/rgb_matrix.md#colors-colors>
-            //
-            correctionAdd("HSV_WHITE (0x0000FF)_", "RGB_WHITE (0xFFFFFF)_");
-            correctionAdd("0xFF, 0xFF, 0xFF_", "RGB_WHITE (0xFFFFFF)_");
-            correctionAdd("0xFF,0xFF,0xFF_", "RGB_WHITE (0xFFFFFF)_");
-            correctionAdd("255, 255, 255_", "RGB_WHITE (0xFFFFFF)_");
-            correctionAdd("255,255,255_", "RGB_WHITE (0xFFFFFF)_");
-            correctionAdd("RGB_WHITE_", "RGB_WHITE (0xFFFFFF)_");
-            correctionAdd("0xFFFFFF_", "RGB_WHITE (0xFFFFFF)_");
-            correctionAdd("FFFFFF_", "RGB_WHITE (0xFFFFFF)_");
-            correctionAdd("white_", "RGB_WHITE (0xFFFFFF)_");
-
-            // QMK
-            //
-            // Alternative URLs:
-            //
-            //   <https://github.com/qmk/qmk_firmware/blob/master/docs/features/rgb_matrix.md#colors-colors>
-            //
-            correctionAdd("HSV_TURQUOISE (0x7B5A70)_", "RGB_TURQUOISE (0x476E6A)_");
-            correctionAdd("0x47, 0x6E, 0x6A_", "RGB_TURQUOISE (0x476E6A)_");
-            correctionAdd("0x47,0x6E,0x6A_", "RGB_TURQUOISE (0x476E6A)_");
-            correctionAdd("RGB_TURQUOISE_", "RGB_TURQUOISE (0x476E6A)_");
-            correctionAdd("71, 110, 106_", "RGB_TURQUOISE (0x476E6A)_");
-            correctionAdd("71,110,106_", "RGB_TURQUOISE (0x476E6A)_");
-            correctionAdd("turquoise_", "RGB_TURQUOISE (0x476E6A)_");
-            correctionAdd("0x476E6A_", "RGB_TURQUOISE (0x476E6A)_");
-            correctionAdd("476E6A_", "RGB_TURQUOISE (0x476E6A)_");
-
-            // QMK (as a noun)
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.youtube.com/watch?v=qZgZwZE4s_A>
-            //   <https://docs.qmk.fm/features/tap_dance>
-            //
-            correctionAdd("key overloading_", "tap dance_");
-            correctionAdd("tap dances_", "tap dance_");
-            correctionAdd("Tap Dance_", "tap dance_");
-            correctionAdd("tapdance_", "tap dance_");
-            correctionAdd("TD_", "tap dance_");
-
-            // A QMK feature
-            //
-            // AKA chords (pressing down two or more keys at the same time)
-            //
-            // Related QMK feature:
-            //
-            //   "key overrides"
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.youtube.com/watch?v=YwsutNf1WRA&t=9m12s>
-            //
-            correctionAdd("Combo keys_", "combo keys_");
-            correctionAdd("QMK combos_", "combo keys_");
-            correctionAdd("key combos_", "combo keys_");
-            correctionAdd("combo key_", "combo keys_");
-            correctionAdd("combokeys_", "combo keys_");
-            correctionAdd("key combo_", "combo keys_");
-            correctionAdd("Combos_", "combo keys_");
-            correctionAdd("combos_", "combo keys_");
-            correctionAdd("combo_", "combo keys_");
-
-            // QMK. Colour. RGB aninimation mode. Related
-            // to QMK feature "RGB matrix"
-            correctionAdd("static mode_", "Solid colour_");
-            correctionAdd("RGB_", "Solid colour_");
-
-            // A QMK feature ('per-key RGB light').
-            //
-            // Alternative URLs:
-            //
-            //   <https://github.com/qmk/qmk_firmware/blob/master/docs/features/rgb_matrix.md>
-            //   <https://docs.qmk.fm/features/led_matrix#indicators>
-            //
-            //   <https://github.com/qmk/qmk_firmware/blob/master/docs/ChangeLog/20241124.md#rgb-keycode-overhaul-23679-24484-24490>
-            //     The keycodes were renamed on 2024-11-24 (or rather
-            //     their removal announced; the old keycodes will be
-            //     removed completely in a later version of QMK).
-            //
-            correctionAdd("RGB Matrix Lighting_", "RGB matrix_");
-            correctionAdd("RGB Matrix lighting_", "RGB matrix_");
-            correctionAdd("RGB Maxtrix_", "RGB matrix_");
-            correctionAdd("RGB Matrix_", "RGB matrix_");
-            correctionAdd("rgb_matrix_", "RGB matrix_");
-            correctionAdd("rgb matrix_", "RGB matrix_");
-            correctionAdd("rgbmatrix_", "RGB matrix_");
-            correctionAdd("RM_", "RGB matrix_");
-
-            // A QMK feature
-            //
-            // Not to be confused with RGB matrix ('per-key RGB light'),
-            // RGB lighting
-            //
-            correctionAdd("LED Matrix_", "LED matrix_");
-
-            // A QMK feature
-            //
-            correctionAdd("backlight_", "Backlight_");
-
-            // A QMK feature. Not to be confused with the completely
-            // different QMK feature "RGB matrix"
-            //
-            // Alternative URLs:
-            //
-            //   <https://github.com/qmk/qmk_firmware/blob/master/docs/features/rgblight.md>
-            //     Note: Including ".md" on GitHub. Thus the link (with ".md") will
-            //           be broken internally on GitHub, e.g., "RGB Underglow" on
-            //           <https://github.com/qmk/qmk_firmware/blob/master/docs/feature_layers.md>,
-            //           but not on <https://docs.qmk.fm>...
-            //
-            correctionAdd("RGB Underglow_", "RGB lighting_");
-            correctionAdd("RGB underglow_", "RGB lighting_");
-            correctionAdd("RGB Lighting_", "RGB lighting_");
-            correctionAdd("underglow_", "RGB lighting_");
-            correctionAdd("RGB light_", "RGB lighting_");
-            correctionAdd("RGB Light_", "RGB lighting_");
-            correctionAdd("rgb light_", "RGB lighting_");
-            correctionAdd("rgblight_", "RGB lighting_");
-
-            // A QMK feature. Not to be confused with the
-            // completely different QMK feature "RGB matrix"
-            //
-            // Alternative URLs:
-            //
-            //   <https://github.com/qmk/qmk_firmware/blob/master/docs/features/led_indicators.md>
-            //   <https://docs.qmk.fm/features/led_indicators#configuration-options>
-            //     LED_CAPS_LOCK_PIN
-            //   <https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/k10_pro/config.h#L28>
-            //     Example of Keychron using the QMK feature
-            //     LED indicators (symbol LED_CAPS_LOCK_PIN)
-            //
-            correctionAdd("led indicators_", "LED indicators_");
-
-            // QMK. See also "chordal hold"
-            correctionAdd("CHORDIAL_HOLD_", "CHORDAL_HOLD_");
-
-            // Alternative URLs:
-            //
-            //   <https://docs.qmk.fm/keycodes>
-            //   <https://docs.qmk.fm/keycodes_basic>
-            //
-            correctionAdd("the QMK keycodes_", "QMK keycode_");
-            correctionAdd("QMK key codes_", "QMK keycode_");
-            correctionAdd("QMK keycodes_", "QMK keycode_");
-            correctionAdd("qmk keycodes_", "QMK keycode_");
-            correctionAdd("the keycodes_", "QMK keycode_");
-            correctionAdd("qmk keycode_", "QMK keycode_");
-            correctionAdd("key codes_", "QMK keycode_");
-            correctionAdd("keycodes_", "QMK keycode_");
-            correctionAdd("qmk code_", "QMK keycode_");
-            correctionAdd("keycode_", "QMK keycode_");
-
-            // QMK. A shorthand (a C macro) for use of modifier keys
-            // Left Shift + Windows + some key. The interpretation
-            // on Mac is Left Shift + Cmd + some key.
-            //
-            correctionAdd("Left Shift + Windows_", "LSG_");
-            correctionAdd("Left Shift + Win_", "LSG_");
-            correctionAdd("Shift + Win_", "LSG_");
-            correctionAdd("lsg_", "LSG_");
-
-            // QMK / Via
-            correctionAdd("hardware changes_", "use of FRAM in an ATmega32U4-based QMK keyboard to get unlimited space for Via/Vial macros_");
-            correctionAdd("ATmega32U4_", "use of FRAM in an ATmega32U4-based QMK keyboard to get unlimited space for Via/Vial macros_"); // For a cross-reference
-            correctionAdd("FRAM_", "use of FRAM in an ATmega32U4-based QMK keyboard to get unlimited space for Via/Vial macros_"); // For a cross-reference
-
-            // QMK. A feature? Or part of the tap dance feature?
-            //
-            // Alternative URLs:
-            //
-            //   <https://thomasbaart.nl/2018/12/09/qmk-basics-tap-and-hold-actions/#layer-keys>
-            //     QMK Basics: Tap and hold actions: Tap into your modifiers
-            //
-            //   <https://jayliu50.github.io/qmk-cheatsheet/>
-            //     A QMK cheat sheet
-            //
-            //   <https://www.reddit.com/r/olkb/comments/oflwv6/how_do_i_change_qmk_layer_tap_behavior/>
-            //     How do I change QMK Layer Tap behavior?
-            //
-            //   <https://i.imgur.com/dYeVkwI.png>
-            //
-            //     Note: Requires JavaScript to be allowed from
-            //           'cloudfront.net' to not be surrounded
-            //           by Imgur goo.
-            //
-            correctionAdd("layer-tap_", "layer tap_");
-            correctionAdd("Layer Tap_", "layer tap_");
-            correctionAdd("LT_", "layer tap_");
-
-            // A QMK feature
-            // And ergonomic mechanical keyboards.
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.reddit.com/r/KeyboardLayouts/comments/1f4bdv1/leader_key_vs_one_shot_layer/>
-            //     Leader key vs one-shot layer?
-            //
-            //   <https://www.youtube.com/watch?v=qZgZwZE4s_A&t=19s>
-            //
-            correctionAdd("one shot modifiers_", "one-shot keys_"); // Not 100% correct
-            correctionAdd("One Shot Layer_", "one-shot keys_");
-            correctionAdd("one shot layer_", "one-shot keys_");
-            correctionAdd("one-shot layer_", "one-shot keys_");
-            correctionAdd("one shot keys_", "one-shot keys_");
-            correctionAdd("One Shot Keys_", "one-shot keys_");
-            correctionAdd("one shot mods_", "one-shot keys_"); // Not 100% correct
-            correctionAdd("OSKs_", "one-shot keys_");
-            correctionAdd("OSK_", "one-shot keys_");
-
-            correctionAdd("OSL_", "one-shot layer keys_");
-            correctionAdd("osl_", "one-shot layer keys_");
-
-            // Essential turning keyboard modifier keys (Shift, Ctrl, Alt,
-            // AltGr, and Win) into dual-role keys:
-            //
-            //   Tap the key:  Some other function
-            //
-            //   Hold the key: Original function
-            //
-            // QMK. A feature? Or part of the tap dance feature?
-            //
-            // Alternative URLs:
-            //
-            //   <https://getreuer.info/posts/keyboards/faqs/index.html#mt-doesnt-work-with-this-keycode-qmk>
-            //     MT doesn’t work with this keycode (QMK)
-            //
-            //   <https://www.reddit.com/r/olkb/comments/1jg2o01/comment/mj1enhe/>
-            //     Limitations: MT does not take either custom keycodes
-            //     (incl. macros) or modifiers
-            //
-            //   <https://github.com/qmk/qmk_firmware/blob/master/docs/mod_tap.md>
-            //
-            correctionAdd("tap-hold modifier keys_", "tap-hold keyboard modifier keys_");
-            correctionAdd("tap-hold modifiers_", "tap-hold keyboard modifier keys_");
-            correctionAdd("tap-hold mods_", "tap-hold keyboard modifier keys_");
-            correctionAdd("Mod-taps_", "tap-hold keyboard modifier keys_");
-            correctionAdd("mod tap_", "tap-hold keyboard modifier keys_");
-            correctionAdd("Mod-Tap_", "tap-hold keyboard modifier keys_");
-            correctionAdd("mod-tap_", "tap-hold keyboard modifier keys_");
-            correctionAdd("Mod-tap_", "tap-hold keyboard modifier keys_");
-            correctionAdd("Mod Tap_", "tap-hold keyboard modifier keys_");
-            correctionAdd("MT_", "tap-hold keyboard modifier keys_");
-
-            // Mechanical keyboards, e.g., QMK and Dygma
-            //
-            // Alternative URLs:
-            //
-            //   <https://docs.qmk.fm/one_shot_keys>
-            //   <https://support.dygma.com/hc/en-us/articles/360007166377-What-are-One-Shot-Modifiers-and-One-Shot-Layers>
-            //   <https://getreuer.info/posts/keyboards/macros/index.html>
-            //
-            correctionAdd("one-shot modifier keys_", "one-shot keyboard modifier keys_");
-            correctionAdd("one shot shift combo_", "one-shot keyboard modifier keys_");
-            correctionAdd("One Shot Modifiers_", "one-shot keyboard modifier keys_");
-            correctionAdd("One-Shot-Modifiers_", "one-shot keyboard modifier keys_");
-            correctionAdd("One-shot modifiers_", "one-shot keyboard modifier keys_");
-            correctionAdd("One-Shot modifiers_", "one-shot keyboard modifier keys_");
-            correctionAdd("one-shot modifiers_", "one-shot keyboard modifier keys_");
-            correctionAdd("One-Shot modifier_", "one-shot keyboard modifier keys_");
-            correctionAdd("one-shot-mods_", "one-shot keyboard modifier keys_");
-            correctionAdd("OSMs_", "one-shot keyboard modifier keys_");
-            correctionAdd("osm_", "one-shot keyboard modifier keys_");
-            correctionAdd("OSM_", "one-shot keyboard modifier keys_");
-
-            // QMK
-            //
-            // Alternative URLs:
-            //
-            //   <https://keychron.com.au/blogs/archived/how-to-factory-reset-or-flash-firmware-for-your-keychron-v6-keyboard>
-            //     The space bar method for V6.
-            //
-            //   <https://keychronsupport.zendesk.com/hc/en-us/articles/8914576001943-How-to-Factory-Reset-or-Flash-Firmware-for-Your-Keychron-Q3-keyboard>
-            //     The spacebar method for flashing Keychron keyboards
-            //
-            //   <https://www.keychron.uk/pages/how-to-factory-reset-or-flash-firmware-for-your-keychron-q1-max-keyboard>
-            //   <https://www.keychron.uk/pages/how-to-factory-reset-or-flash-firmware-for-your-keychron-q3-max-keyboard>
-            //   <https://keychron.com.au/blogs/archived/how-to-factory-reset-or-flash-firmware-for-your-keychron-v1-keyboard>
-            //   <https://keychron.ca/pages/how-to-factory-reset-or-flash-firmware-for-your-keychron-v5-keyboard>
-            //   <https://keychron.ca/pages/how-to-factory-reset-or-flash-firmware-for-your-keychron-q2-keyboard>
-            //   <https://keychron.de/pages/how-to-factory-reset-and-flash-firmware-for-your-k17-pro-keyboard>
-            //   <https://keychron.ca/pages/how-to-factory-reset-or-flash-firmware-for-your-keychron-q6-max-keyboard>
-            //
-            correctionAdd("the space bar method_", "space bar method to enter bootloader mode on QMK keyboards_");
-            correctionAdd("the Space bar method_", "space bar method to enter bootloader mode on QMK keyboards_");
-            correctionAdd("space bar method_", "space bar method to enter bootloader mode on QMK keyboards_");
-            correctionAdd("Space key method_", "space bar method to enter bootloader mode on QMK keyboards_");
-            correctionAdd("space key method_", "space bar method to enter bootloader mode on QMK keyboards_");
-            correctionAdd("Space bar method_", "space bar method to enter bootloader mode on QMK keyboards_");
-            correctionAdd("spacebar method_", "space bar method to enter bootloader mode on QMK keyboards_");
-            correctionAdd("space bar_", "space bar method to enter bootloader mode on QMK keyboards_");
-
-            // QMK, especially Keychron keyboards (as the
-            // Fn + J + Z method may not work, e.g.,
-            // with self-compiled firmware)
-            //
-            // Behind the scenes, it is the QMK "magic key"
-            // feature for the very first key in the
-            // keymap (usually the Esc key).
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.youtube.com/watch?v=fuBJbdCFF0Q&t=7m7s>
-            //     But it has irritating background music (way too loud).
-            //
-            //   <https://www.reddit.com/r/Keychron/comments/1fi6z0o/comment/lnfddp3/>
-            //     Three different methods to reset to factory defaults
-            //     on QMK-based Keychron keyboards.
-            //
-            correctionAdd("putting the keyboard into bootloader mode_", "Esc key method to reset to factory defaults on QMK keyboards_");
-            correctionAdd("Resetting to factory defaults_", "Esc key method to reset to factory defaults on QMK keyboards_");
-            correctionAdd("resetting to factory defaults_", "Esc key method to reset to factory defaults on QMK keyboards_");
-            correctionAdd("Reset to factory defaults_", "Esc key method to reset to factory defaults on QMK keyboards_");
-            correctionAdd("reset to factory defaults_", "Esc key method to reset to factory defaults on QMK keyboards_");
-            correctionAdd("into bootloader mode_", "Esc key method to reset to factory defaults on QMK keyboards_");
-            correctionAdd("the Esc key method_", "Esc key method to reset to factory defaults on QMK keyboards_");
-            correctionAdd("Esc key method_", "Esc key method to reset to factory defaults on QMK keyboards_");
-            correctionAdd("esc key method_", "Esc key method to reset to factory defaults on QMK keyboards_");
-            correctionAdd("the Esc method_", "Esc key method to reset to factory defaults on QMK keyboards_");
-            correctionAdd("The Esc method_", "Esc key method to reset to factory defaults on QMK keyboards_");
-            correctionAdd("in flash mode_", "Esc key method to reset to factory defaults on QMK keyboards_");
-            correctionAdd("Esc method_", "Esc key method to reset to factory defaults on QMK keyboards_");
-            correctionAdd("esc method_", "Esc key method to reset to factory defaults on QMK keyboards_");
-            correctionAdd("esc key_", "Esc key method to reset to factory defaults on QMK keyboards_");
-            correctionAdd("Esc key_", "Esc key method to reset to factory defaults on QMK keyboards_");
-            correctionAdd("reset_", "Esc key method to reset to factory defaults on QMK keyboards_");
-
-            // QMK. JSON.
-            //
-            // Schemas: 'data/schemas', e.g. "logical_size" in
-            //          file 'keyboard.jsonschema' for space
-            //          for Via macros, e.g.:
-            //
-            //  <https://github.com/Keychron/qmk_firmware/blob/wireless_playground/data/schemas/keyboard.jsonschema#L296>
-            //
-            correctionAdd("data driven configuration_", "data-driven configuration_");
-            correctionAdd("Data Driven Configuration_", "data-driven configuration_");
-            correctionAdd("data-driven config_", "data-driven configuration_");
-            correctionAdd("data-driven conf_", "data-driven configuration_");
-            correctionAdd("DD-configuration_", "data-driven configuration_");
-            correctionAdd("the new system_", "data-driven configuration_");
-            correctionAdd("info.json_", "data-driven configuration_");
-            correctionAdd("DD-config_", "data-driven configuration_");
-            correctionAdd("DD config_", "data-driven configuration_");
-            correctionAdd("dd-config_", "data-driven configuration_");
-            correctionAdd("dd config_", "data-driven configuration_");
-            correctionAdd("ddconfig_", "data-driven configuration_");
-            correctionAdd("DD-conf_", "data-driven configuration_");
-            correctionAdd("dd conf_", "data-driven configuration_");
-            correctionAdd("DDC_", "data-driven configuration_");
-            correctionAdd("ddc_", "data-driven configuration_");
-            correctionAdd("DD_", "data-driven configuration_");
-            correctionAdd("dd_", "data-driven configuration_");
-
-            // Mechanical keyboards. QMK
-            correctionAdd("the so-called stand-alone version_", "avoid Google Chrome when using Via_");
-            correctionAdd("the so-called standalone version_", "avoid Google Chrome when using Via_");
-            correctionAdd("The stand-alone Via application_", "avoid Google Chrome when using Via_");
-            correctionAdd("stand-alone Via web application_", "avoid Google Chrome when using Via_");
-            correctionAdd("the stand-alone via application_", "avoid Google Chrome when using Via_");
-            correctionAdd("the stand-alone Via application_", "avoid Google Chrome when using Via_");
-            correctionAdd("The standalone Via application_", "avoid Google Chrome when using Via_");
-            correctionAdd("the standalone via application_", "avoid Google Chrome when using Via_");
-            correctionAdd("standalone Via web application_", "avoid Google Chrome when using Via_");
-            correctionAdd("the standalone Via application_", "avoid Google Chrome when using Via_");
-            correctionAdd("so-called stand-alone version_", "avoid Google Chrome when using Via_");
-            correctionAdd("so-called standalone version_", "avoid Google Chrome when using Via_");
-            correctionAdd("a stand-alone version of Via_", "avoid Google Chrome when using Via_");
-            correctionAdd("stand-alone Via application_", "avoid Google Chrome when using Via_");
-            correctionAdd("the stand-alone application_", "avoid Google Chrome when using Via_");
-            correctionAdd("a standalone version of Via_", "avoid Google Chrome when using Via_");
-            correctionAdd("the standalone application_", "avoid Google Chrome when using Via_");
-            correctionAdd("standalone Via application_", "avoid Google Chrome when using Via_");
-            correctionAdd("standalone version of Via_", "avoid Google Chrome when using Via_");
-            correctionAdd("so-called stand-alone Via_", "avoid Google Chrome when using Via_");
-            correctionAdd("so-called standalone Via_", "avoid Google Chrome when using Via_");
-            correctionAdd("stand-alone application_", "avoid Google Chrome when using Via_");
-            correctionAdd("the stand-alone version_", "avoid Google Chrome when using Via_");
-            correctionAdd("the standalone version_", "avoid Google Chrome when using Via_");
-            correctionAdd("standalone application_", "avoid Google Chrome when using Via_");
-            correctionAdd("the stand-alone client_", "avoid Google Chrome when using Via_");
-            correctionAdd("stand-alone Via client_", "avoid Google Chrome when using Via_");
-            correctionAdd("the standalone client_", "avoid Google Chrome when using Via_");
-            correctionAdd("avoid Google Chrome_", "avoid Google Chrome when using Via_");
-            correctionAdd("stand-alone version_", "avoid Google Chrome when using Via_");
-            correctionAdd("standalone version_", "avoid Google Chrome when using Via_");
-            correctionAdd("stand-alone Via_", "avoid Google Chrome when using Via_");
-            correctionAdd("stand-alone via_", "avoid Google Chrome when using Via_");
-            correctionAdd("standalone Via_", "avoid Google Chrome when using Via_");
-            correctionAdd("standalone via_", "avoid Google Chrome when using Via_");
-            correctionAdd("avoided Chrome_", "avoid Google Chrome when using Via_");
-            correctionAdd("Google Chrome_", "avoid Google Chrome when using Via_");
-            correctionAdd("avoid Chrome_", "avoid Google Chrome when using Via_");
-            correctionAdd("Chrome_", "avoid Google Chrome when using Via_"); // For the cross-reference
-            correctionAdd("chrome_", "avoid Google Chrome when using Via_");
-            correctionAdd("via_", "avoid Google Chrome when using Via_");
-            correctionAdd("Via_", "avoid Google Chrome when using Via_");
-
-            // Mostly for the source repository link
-            correctionAdd("VIAL_", "Vial_");
-
-            // ZMK
-            //
-            // A GUI keyboard configuration tool, similar
-            // to Via, with dynamic keymapping, etc.
-            //
-            correctionAdd("zmk studio_", "ZMK Studio_");
-            correctionAdd("ZMK studio_", "ZMK Studio_");
-            correctionAdd("Zmk Studio_", "ZMK Studio_");
-            correctionAdd("Zmk studio_", "ZMK Studio_");
-            correctionAdd("Studio_", "ZMK Studio_");
-            correctionAdd("ZMK_", "ZMK Studio_");
-
-            // A ZMK feature, the equivalent to QMK's 'key overrides'
-            correctionAdd("key overrides_", "mod-morph_"); // For the cross-reference
-            correctionAdd("mod morph_", "mod-morph_");
-
-            // Originally for ZMK (later on for QMK). And ergonomic
-            // mechanical keyboards.
-            //
-            // Note: Despite the name, it does ***not***
-            //       eliminate timing aspect completely
-            //
-            // 'Urob': AKA Robert U, <https://github.com/urob>
-            //
-            //         Probable user on Stack Overflow (Bob for Robert):
-            //
-            //           <https://stackoverflow.com/users/6114651/bob>
-            //
-            //             <https://en.wikipedia.org/wiki/Hypocorism>
-            //               Hypocorism
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/11gejh3/lpt_try_urobs_zmk_timeless_homerow_mods_combos/>
-            //
-            //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/1q1jo3c/urobs_zmk_timeless_home_row_mods_ported_to_native/>
-            //     urob's ZMK Timeless Home Row Mods, ported to native QMK –
-            //     a configuration guide
-            //
-            //     QMK. Features. Latest.
-            //
-            correctionAdd("urob's timeless home row keyboard modifier keys_", "timeless home row keyboard modifier keys_");
-            correctionAdd("urob's ZMK home row keyboard modifier keys_", "timeless home row keyboard modifier keys_");
-            correctionAdd("urob's ZMK Timeless Home Row Modifier Keys_", "timeless home row keyboard modifier keys_");
-            correctionAdd("urob's ZMK timeless home row modifier keys_", "timeless home row keyboard modifier keys_");
-            correctionAdd("urob's Timeless Homerow Modifications_", "timeless home row keyboard modifier keys_");
-            correctionAdd("urob's timeless homerow modifications_", "timeless home row keyboard modifier keys_");
-            correctionAdd("urob’s Timeless Homerow Modifications_", "timeless home row keyboard modifier keys_");
-            correctionAdd("urob’s timeless homerow modifications_", "timeless home row keyboard modifier keys_");
-            correctionAdd("timeless home row keyboard modifiers_", "timeless home row keyboard modifier keys_");
-            correctionAdd("urob's ZMK Timeless Home Row Mods_", "timeless home row keyboard modifier keys_");
-            correctionAdd("urob's ZMK timeless home row mods_", "timeless home row keyboard modifier keys_");
-            correctionAdd("urob's homerow mod configuration_", "timeless home row keyboard modifier keys_");
-            correctionAdd("timeless home row modifier keys_", "timeless home row keyboard modifier keys_");
-            correctionAdd("home row keyboard modifier keys_", "timeless home row keyboard modifier keys_"); // For the cross-reference
-            correctionAdd("urob's Timeless Homerow Mods_", "timeless home row keyboard modifier keys_");
-            correctionAdd("urob's timeless homerow mods_", "timeless home row keyboard modifier keys_");
-            correctionAdd("urob’s Timeless Homerow Mods_", "timeless home row keyboard modifier keys_");
-            correctionAdd("urob’s timeless homerow mods_", "timeless home row keyboard modifier keys_");
-            correctionAdd("Urob's timeless homerow mods_", "timeless home row keyboard modifier keys_");
-            correctionAdd("timeless home row modifiers_", "timeless home row keyboard modifier keys_");
-            correctionAdd("Urob's \"Timeless\" Homerow_", "timeless home row keyboard modifier keys_");
-            correctionAdd("Timerless homerow mods_", "timeless home row keyboard modifier keys_");
-            correctionAdd("timeless home row mods_", "timeless home row keyboard modifier keys_");
-            correctionAdd("Timeless homerow mods_", "timeless home row keyboard modifier keys_");
-            correctionAdd("timeless homerow mods_", "timeless home row keyboard modifier keys_");
-            correctionAdd("Timeless Homerow Mods_", "timeless home row keyboard modifier keys_");
-            correctionAdd("\"Timeless\" Homerow_", "timeless home row keyboard modifier keys_");
-            correctionAdd("timeless homerow mod_", "timeless home row keyboard modifier keys_");
-            correctionAdd("urob's configuration_", "timeless home row keyboard modifier keys_");
-            correctionAdd("urob's timeless HRMs_", "timeless home row keyboard modifier keys_");
-            correctionAdd("Urob's homerow mods_", "timeless home row keyboard modifier keys_");
-            correctionAdd("urob's homerow mod_", "timeless home row keyboard modifier keys_");
-            correctionAdd("urob modification_", "timeless home row keyboard modifier keys_");
-            correctionAdd("Timeless home row_", "timeless home row keyboard modifier keys_");
-            correctionAdd("timeless home row_", "timeless home row keyboard modifier keys_");
-            correctionAdd("urob's ZMK config_", "timeless home row keyboard modifier keys_");
-            correctionAdd("urob's zmk config_", "timeless home row keyboard modifier keys_");
-            correctionAdd("urob's homerow_", "timeless home row keyboard modifier keys_");
-            correctionAdd("urob's config_", "timeless home row keyboard modifier keys_");
-            correctionAdd("uRob's setup_", "timeless home row keyboard modifier keys_");
-            correctionAdd("urob's setup_", "timeless home row keyboard modifier keys_");
-            correctionAdd("urob mod_", "timeless home row keyboard modifier keys_");
-            correctionAdd("timeless_", "timeless home row keyboard modifier keys_");
-            correctionAdd("urob's_", "timeless home row keyboard modifier keys_");
-            correctionAdd("uRob's_", "timeless home row keyboard modifier keys_");
-            correctionAdd("Urob's_", "timeless home row keyboard modifier keys_");
-            correctionAdd("urup_", "timeless home row keyboard modifier keys_");
-            correctionAdd("urob_", "timeless home row keyboard modifier keys_");
-            correctionAdd("Urob_", "timeless home row keyboard modifier keys_");
-            correctionAdd("Urub_", "timeless home row keyboard modifier keys_");
-            correctionAdd("urub_", "timeless home row keyboard modifier keys_");
-
-            // Not to be confused with taping (tempest tape
-            // modification for mechanical keyboards)
-            correctionAdd("taping_", "tapping_");
-            correctionAdd("Taping_", "tapping_");
-
-            // Mechanical keyboards
-            //
-            // The 'deskthority.net' reference is now broken (blank page).
-            // Candidate site for the wiki: <https://wiki.themk.org>
-            //
-            //    <https://deskauthority.saberkeebs.com/wiki.themk.org/index.php/Chatter.html>
-            //
-            // Alternative URLs:
-            //
-            //   <https://digiva.net/fix-key-chattering/>
-            //     But it wanted an enourmous amount of domains
-            //     to download JavaScript code from.
-            //     Has it been generated by ChatGPT? Is
-            //     it malicious?
-            //
-            //     Note: <https://digiva.net> now results in
-            //           "Potential Security Risk Ahead"
-            //           Due to "SSL_ERROR_BAD_CERT_DOMAIN"
-            //
-            //   <https://digiva.net/common-problems-of-mechanical-keyboards/>
-            //     Common problems of mechanical keyboards [Ultimate Guide]
-            //
-            //     Comprehensive! Though not for this problem.
-            //
-            //     But it wanted an enourmous amount of domains
-            //     to download JavaScript code from.
-            //     Has it been generated by ChatGPT? Is
-            //     it malicious?
-            //
-            //     Note: <https://digiva.net> now results in
-            //           "Potential Security Risk Ahead"
-            //           Due to "SSL_ERROR_BAD_CERT_DOMAIN"
-            //
-            //   <https://helveticaforever.com/enhance-scratchy-switches/>
-            //     How to enhance scratchy switches
-            //
-            //   <https://forgeary.com/key-chatter/>
-            //
-            //   <https://www.mechkeybs.com/learn/tutorials/fix-key-chatter-repeating-keys/>
-            //
-            correctionAdd("stuck key syndrome_", "key chatter_");
-            correctionAdd("Double keystrokes_", "key chatter_");
-            correctionAdd("double keystrokes_", "key chatter_");
-            correctionAdd("double clicking_", "key chatter_"); // Is sometimes used when double keystrokes (as output from the keyboard) is meant
-            correctionAdd("double-clicking_", "key chatter_"); // Is sometimes used when double keystrokes (as output from the keyboard) is meant
-            correctionAdd("key chattering_", "key chatter_"); // Not 100% correct
-            correctionAdd("Keychattering_", "key chatter_"); // Not 100% correct
-            correctionAdd("keychattering_", "key chatter_"); // Not 100% correct
-            correctionAdd("key bounce_", "key chatter_");
-            correctionAdd("keychatter_", "key chatter_");
-            correctionAdd("chatter_", "key chatter_");
-
-            // Some new feature for mechanical keyboards with
-            // analogue (Hall sensor) switches. Or is it for
-            // all switches?? E.g., for Razer and Wooting 60HE.
-            //
-            // "Cleaning" refer to SOCD resolution.
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.reddit.com/r/Keychron/comments/1eh4qog/comment/lfyu7zf/>
-            //     A canonical for context
-            //
-            //   <https://github.com/Keychron/qmk_firmware/issues/287>
-            //     A more detailed explanation
-            //   <https://www.reddit.com/r/olkb/comments/1e8q6fl/implementing_razer_snap_tap_in_qmk/>
-            //     Implementing Razer snap tap in QMK
-            //   <https://github.com/qmk/qmk_firmware/pull/24000>
-            //     The proposed QMK implementation
-            //   <https://www.reddit.com/r/Keychron/comments/1eb3ywo/snap_tapsocd/>
-            //   <https://www.techspot.com/news/103945-does-razer-new-keyboard-feature-give-gamers-unfair.html>
-            //     2024-07-24.
-            //   <https://www.razer.com/pc/gaming-keyboards/huntsman-line>
-            //     "Prioritize the latest input between two selected keys
-            //      without having to release the previous one...
-            //      more responsive inputs for near-instant
-            //      directional changes."
-            //   <https://beta.wootility.io/>
-            //     The corresponding in for Wooting 60HE (using the
-            //     WebHID thing(?); it does not work in Firefox)
-            //   <https://www.profightstick.com/what-is-socd-simultaneous-opposite-cardinal-directions/>
-            //     SOCD explained
-            //   <https://glossary.infil.net/?t=SOCD>
-            //     Note: Requires JavaScript from several domains to display.
-            //   <https://www.hitboxarcade.com/blogs/support/what-is-socd>
-            //   <https://www.geeky-gadgets.com/socd-cleaning/>
-            //   <https://www.reddit.com/r/Fighters/comments/e0ts6h/why_does_socd_inputs_exist_in_fighting_games/>
-            //
-            //   <https://www.youtube.com/watch?v=Feny5bs2JCg&t=29s>
-            //     From 00 min 29 secs: Good detailed description
-            //     of what SOCD is (also in the context
-            //     of Razer's release).
-            //     It uses Razer's term, "snap tap".
-            //
-            //   <https://github.com/valignatev/socd>
-            //     A host-side solution for Windows
-            //
-            //   <https://github.com/brentaro/QMK_HID_Gamepad_with_SOCD>
-            //     QMK HID gamepad with SOCD
-            //
-            // We need a better primary URL...
-            //
-            correctionAdd("Simultaneous Opposite Cardinal Directions_", "SOCD_");
-            correctionAdd("simultaneous opposite cardinal directions_", "SOCD_");
-            correctionAdd("Last Keystroke Prioritization_", "SOCD_");
-            correctionAdd("last keystroke prioritization_", "SOCD_");
-            correctionAdd("last keystroke prioritisation_", "SOCD_");
-            correctionAdd("Keystroke Prioritization_", "SOCD_");
-            correctionAdd("keystroke prioritization_", "SOCD_");
-            correctionAdd("null cancelling movement_", "SOCD_");
-            correctionAdd("keystroke prioritisation_", "SOCD_");
-            correctionAdd("Last Input Priority_", "SOCD_");
-            correctionAdd("last input priority_", "SOCD_");
-            correctionAdd("strafing lock out_", "SOCD_");
-            correctionAdd("last key priority_", "SOCD_");
-            correctionAdd("Last Key Priority_", "SOCD_");
-            correctionAdd("Key Cancellation_", "SOCD_");
-            correctionAdd("key cancellation_", "SOCD_"); // The proposed name in QMK
-            correctionAdd("Last Key Stroke_", "SOCD_");
-            correctionAdd("last key stroke_", "SOCD_");
-            correctionAdd("last keystroke_", "SOCD_");
-            correctionAdd("null movement_", "SOCD_");
-            correctionAdd("null binding_", "SOCD_");
-            correctionAdd("Snappy Tappy_", "SOCD_");
-            correctionAdd("snappy tappy_", "SOCD_");
-            correctionAdd("Rappy snappy_", "SOCD_"); // Wooting's term. Though it doesn't work identically
-            correctionAdd("rappy snappy_", "SOCD_");
-            correctionAdd("Rappy Snappy_", "SOCD_");
-            correctionAdd("Snap Action_", "SOCD_");
-            correctionAdd("snap action_", "SOCD_");
-            correctionAdd("null binds_", "SOCD_");
-            correctionAdd("null input_", "SOCD_");
-            correctionAdd("Null Binds_", "SOCD_");
-            correctionAdd("null bind_", "SOCD_");
-            correctionAdd("Snap Tap_", "SOCD_");
-            correctionAdd("Snap tap_", "SOCD_");
-            correctionAdd("snap tap_", "SOCD_");
-            correctionAdd("socd_", "SOCD_");
-            correctionAdd("Snap_", "SOCD_");
-            correctionAdd("snap_", "SOCD_");
-            correctionAdd("LKP_", "SOCD_");
-            correctionAdd("LIP_", "SOCD_");
-
-            // Yet another meaningless unspecific name for a Keychron
-            // product. It is definitely only for something wireless.
-            //
-            // Note: It is for both Bluetooth keyboard modules and
-            //       '2.4 GHz' dongles, but only for some keyboard
-            //       models.
-            //
-            //       Bluetooth for some other keyboard models is
-            //       coverered by another program, with a
-            //       similar name,
-            //       "Keychron Bluetooth Firmware Updater"
-            //
-            // The firmware, both Bluetooth/'2.4 GHz' (the
-            // internal module for wireless communication)
-            // and the '2.4 GHz' dongle is at:
-            //
-            //   <https://www.keychron.com/pages/how-to-flash-the-firmware-for-the-keychron-receiver>
-            //
-            correctionAdd("Keychron '2.4 GHz' Firmware Updater_", "Keychron Firmware Updater_");
-            correctionAdd("Keychron 2.4 GHz Firmware Updater_", "Keychron Firmware Updater_");
-            correctionAdd("Keychron Firmware Upgrade_", "Keychron Firmware Updater_");
-            correctionAdd("Keychron firmware updater_", "Keychron Firmware Updater_");
-            correctionAdd("'2.4 GHz' firmware_", "Keychron Firmware Updater_");
-            correctionAdd("2.4 GHz firmware_", "Keychron Firmware Updater_");
-            correctionAdd("2.4&nbsp;GHz_", "Keychron Firmware Updater_"); // For the cross-reference
-            correctionAdd("Firmware_", "Keychron Firmware Updater_"); // For the cross-reference
-            correctionAdd("firmware_", "Keychron Firmware Updater_"); // For the cross-reference
-            correctionAdd("dongle_", "Keychron Firmware Updater_"); // For the cross-reference
-
-            // Mechanical keyboards, in particular Keychron's
-            //
-            correctionAdd("NKRO busts the keyboard in wireless mode_", "full NKRO busts the Keychron keyboards in wireless mode_");
-            correctionAdd("complete busting of the keyboard_", "full NKRO busts the Keychron keyboards in wireless mode_");
-            correctionAdd("busting the keyboard_", "full NKRO busts the Keychron keyboards in wireless mode_");
-            correctionAdd("The busted keyboard_", "full NKRO busts the Keychron keyboards in wireless mode_");
-            correctionAdd("the busted keyboard_", "full NKRO busts the Keychron keyboards in wireless mode_");
-            correctionAdd("busts the keyboard_", "full NKRO busts the Keychron keyboards in wireless mode_");
-            correctionAdd("bust the keyboard_", "full NKRO busts the Keychron keyboards in wireless mode_");
-            correctionAdd("completely busted_", "full NKRO busts the Keychron keyboards in wireless mode_");
-            correctionAdd("(full) NKRO mode_", "full NKRO busts the Keychron keyboards in wireless mode_");
-            correctionAdd("complete busting_", "full NKRO busts the Keychron keyboards in wireless mode_");
-            correctionAdd("completely busts_", "full NKRO busts the Keychron keyboards in wireless mode_");
-            correctionAdd("busted keyboard_", "full NKRO busts the Keychron keyboards in wireless mode_");
-            correctionAdd("n-key rollover_", "full NKRO busts the Keychron keyboards in wireless mode_");
-            correctionAdd("bust keyboards_", "full NKRO busts the Keychron keyboards in wireless mode_");
-            correctionAdd("NKRO problems_", "full NKRO busts the Keychron keyboards in wireless mode_");
-            correctionAdd("bust keyboard_", "full NKRO busts the Keychron keyboards in wireless mode_");
-            correctionAdd("NKRO mode_", "full NKRO busts the Keychron keyboards in wireless mode_");
-            correctionAdd("busted in_", "full NKRO busts the Keychron keyboards in wireless mode_");
-            correctionAdd("busting_", "full NKRO busts the Keychron keyboards in wireless mode_");
-            correctionAdd("busted_", "full NKRO busts the Keychron keyboards in wireless mode_");
-            correctionAdd("busts_", "full NKRO busts the Keychron keyboards in wireless mode_");
-
-            // Sonix QMK
-            correctionAdd("the list of compatible keyboards_", "list of Sonix QMK-compatible keyboards_");
-            correctionAdd("list of compatible keyboards_", "list of Sonix QMK-compatible keyboards_");
-            correctionAdd("list of supported keyboards_", "list of Sonix QMK-compatible keyboards_");
-            correctionAdd("compatible keyboards_", "list of Sonix QMK-compatible keyboards_");
-            correctionAdd("supported keyboards_", "list of Sonix QMK-compatible keyboards_");
-            correctionAdd("Sonix QMK_", "list of Sonix QMK-compatible keyboards_"); // For the cross-reference
-            correctionAdd("Sonix_", "list of Sonix QMK-compatible keyboards_"); // For the cross-reference
-
-            // Reddit. A subreddit for detailed questions about
-            // mechanical keyboards, incl. QMK (the exact
-            // opposite of the now content-free and
-            // superficial subreddit 'r/MechanicalKeyboards'
-            // (<https://www.reddit.com/r/MechanicalKeyboards>))
-            correctionAdd("olkb_", "r/olkb_");
-            correctionAdd("OLKB_", "r/olkb_");
-
-            // Mechanical keyboards. A manufacturer of key switches.
-            correctionAdd("Wuque studio_", "Wuque Studio_");
-            correctionAdd("wuque_", "Wuque Studio_");
-            correctionAdd("Wuque_", "Wuque Studio_");
-            correctionAdd("WS_", "Wuque Studio_");
-
-            // Per-key RGB and RGB animations (but requires
-            // software host side(?)). It is a protocol and
-            // it has been implemented into QMK here.
-            //
-            // Not to be confused with OpenRGB, Signal, or SignalR...
-            //
-            // Notes:
-            //
-            //   * Allegedly, it is installed by Razer's Chroma software.
-            //
-            // But does it also refer to a Windows client
-            // (subscribtion-based software)?
-            //
-            // "QMK firmware that is supported by SignalRGB (includes
-            //    protocol information for direct ARGB mode)"
-            //
-            // Actual source code:
-            //
-            //   <https://github.com/SRGBmods/KeychronQMK>
-            //
-            //   Note: For newer Keychron models, in Git branch
-            //   "wireless_playground", e.g. K10 Pro.
-            //
-            //   Building instructions:
-            //
-            //     <https://docs.signalrgb.com/qmk/building-firmware-from-source>
-            //
-            // Precompiled binaries:
-            //
-            //   <https://github.com/SRGBmods/QMK-Binaries/tree/main/QMK%2BVIA-Firmware/0.14.29-keychron/wireless_playground>
-            //     Old: <https://github.com/SRGBmods/QMK-Binaries/tree/main/QMK%2BVIA-Firmware/0.14.29-keychron>
-            //
-            //   E.g., K10 Pro:
-            //
-            //     <https://github.com/SRGBmods/QMK-Binaries/blob/main/QMK%2BVIA-Firmware/0.14.29-keychron/wireless_playground/keychron_k10_pro_iso_rgb_via.bin>
-            //     Old: <https://github.com/SRGBmods/QMK-Binaries/blob/main/QMK%2BVIA-Firmware/0.14.29-keychron/keychron_k10_pro_ansi_rgb_via.bin>
-            //
-            // Alternative URLs:
-            //
-            //   <https://docs.signalrgb.com/qmk/srgbmods-qmk-firmware>
-            //
-            //   <https://github.com/SRGBmods/QMK-Binaries/tree/main/GPL/qmk_firmware>
-            //     For handpatching SignalRGB support?
-            //
-            //   <https://www.youtube.com/watch?v=jU-rYhMrn68>
-            //     How to sync Keychron with SignalRGB
-            //     Has guidance on navigating 'SRGBmods/QMK-Binaries'
-            //
-            //   <https://docs.signalrgb.com/qmk>
-            //     "Currently, QMK keyboards are only supported in wired mode."
-            //
-            //   <https://www.reddit.com/r/SignalRGB/comments/1gg4s1z/qmk_support_madness_partnerships_were_willing_to/>
-            //     QMK support / madness + partnerships (we're willing
-            //     to help manufacturers)
-            //     2024-10-31.
-            //
-            //   <https://signalrgb.com/devices/>
-            //
-            correctionAdd("Signal RGB_", "SignalRGB_");
-            correctionAdd("signal RGB_", "SignalRGB_");
-            correctionAdd("Signal Rgb_", "SignalRGB_");
-            correctionAdd("Signal rgb_", "SignalRGB_");
-            correctionAdd("signal rbg_", "SignalRGB_");
-            correctionAdd("signal rgb_", "SignalRGB_");
-            correctionAdd("signal RBG_", "SignalRGB_");
-            correctionAdd("singal rgb_", "SignalRGB_");
-            correctionAdd("signalrgb_", "SignalRGB_");
-            correctionAdd("SIgnalRGB_", "SignalRGB_");
-            correctionAdd("SignalRgb_", "SignalRGB_");
-            correctionAdd("signalRGB_", "SignalRGB_");
-            correctionAdd("SIGNALRGB_", "SignalRGB_");
-            correctionAdd("SignalRBG_", "SignalRGB_");
-            correctionAdd("SignalRGD_", "SignalRGB_");
-            correctionAdd("signa rgb_", "SignalRGB_");
-            correctionAdd("SignalEGB_", "SignalRGB_");
-            correctionAdd("signaltgb_", "SignalRGB_");
-            correctionAdd("SignRGB_", "SignalRGB_");
-            correctionAdd("signrgb_", "SignalRGB_");
-            correctionAdd("Sig RGB_", "SignalRGB_");
-            correctionAdd("Ssignal_", "SignalRGB_");
-            correctionAdd("Signal_", "SignalRGB_");
-            correctionAdd("SigRGB_", "SignalRGB_");
-            correctionAdd("signal_", "SignalRGB_");
-            correctionAdd("srgb_", "SignalRGB_");
-            correctionAdd("SRGB_", "SignalRGB_");
-
-            // Similar to OpenRGB and SignalRGB(?)
-            // Cross platform
-            //
-            // Alternative URLs:
-            //
-            //   <https://wiki.artemis-rgb.com/faq>
-            //
-            correctionAdd("Artemis_", "Artemis RGB_");
-
-            // Alternative URLs:
-            //
-            //  <https://www.keebtalk.com/t/what-did-you-learn-today/5835/160>
-            //  <https://www.keebtalk.com/uploads/db8059/original/3X/4/e/4e7409631b5d69a9dc64a2976cc6242d19dc683f.jpeg>
-            //
-            correctionAdd("regular boring rectangle_", "keyboard_");
-            correctionAdd("keystroking machine_", "keyboard_");
-            correctionAdd("boring rectangle_", "keyboard_");
-            correctionAdd("typing rectangle_", "keyboard_");
-            correctionAdd("pain rectangle_", "keyboard_");
-            correctionAdd("normie board_", "keyboard_");
-            correctionAdd("key board_", "keyboard_");
-            correctionAdd("Key Board_", "keyboard_");
-            correctionAdd("keyborard_", "keyboard_");
-            correctionAdd("keyworard_", "keyboard_");
-            correctionAdd("keyboaerd_", "keyboard_");
-            correctionAdd("keybaoprd_", "keyboard_");
-            correctionAdd("keyboasrd_", "keyboard_");
-            correctionAdd("keyboarad_", "keyboard_");
-            correctionAdd("keayboard_", "keyboard_");
-            correctionAdd("keyboaord_", "keyboard_");
-            correctionAdd("keyboared_", "keyboard_");
-            correctionAdd("keyboardx_", "keyboard_"); // A true typo (involving the space bar)
-            correctionAdd("keybooard_", "keyboard_");
-            correctionAdd("kleyboard_", "keyboard_");
-            correctionAdd("KeyBoard_", "keyboard_");
-            correctionAdd("Keyboard_", "keyboard_");
-            correctionAdd("Keybpard_", "keyboard_");
-            correctionAdd("keybpard_", "keyboard_");
-            correctionAdd("keybaord_", "keyboard_"); // A true typo
-            correctionAdd("keyboatd_", "keyboard_");
-            correctionAdd("keyborad_", "keyboard_");
-            correctionAdd("Keybaord_", "keyboard_");
-            correctionAdd("keyobard_", "keyboard_");
-            correctionAdd("keyborde_", "keyboard_");
-            correctionAdd("keyboadd_", "keyboard_"); // A true typo
-            correctionAdd("keybroad_", "keyboard_");
-            correctionAdd("keybiard_", "keyboard_");
-            correctionAdd("key word_", "keyboard_");
-            correctionAdd("key card_", "keyboard_");
-            correctionAdd("kayboard_", "keyboard_");
-            correctionAdd("keaboard_", "keyboard_");
-            correctionAdd("kerboard_", "keyboard_");
-            correctionAdd("kerbaord_", "keyboard_");
-            correctionAdd("ketboard_", "keyboard_");
-            correctionAdd("Keuboard_", "keyboard_");
-            correctionAdd("keuboard_", "keyboard_");
-            correctionAdd("kiyboard_", "keyboard_");
-            correctionAdd("jeyboard_", "keyboard_");
-            correctionAdd("meyblard_", "keyboard_"); // A true typo (double typo)
-            correctionAdd("key oard_", "keyboard_");
-            correctionAdd("keybord_", "keyboard_");
-            correctionAdd("Keybord_", "keyboard_");
-            correctionAdd("keyboad_", "keyboard_");
-            correctionAdd("keybard_", "keyboard_");
-            correctionAdd("keabord_", "keyboard_");
-            correctionAdd("keyoard_", "keyboard_");
-            correctionAdd("keyboar_", "keyboard_");
-            correctionAdd("keyword_", "keyboard_");
-            correctionAdd("keboard_", "keyboard_");
-            correctionAdd("keybrd_", "keyboard_");
-            correctionAdd("board_", "keyboard_"); // A shorthand
-            correctionAdd("baord_", "keyboard_"); // A true typo (of the shorthand)
-            correctionAdd("plank_", "keyboard_"); // Derogatory. Could maybe refer to the keyboard ZSA Planck EZ
-            correctionAdd("kibot_", "keyboard_");
-            correctionAdd("keeb_", "keyboard_"); // A shorthand
-            correctionAdd("Keeb_", "keyboard_");
-            correctionAdd("KEEB_", "keyboard_");
-            correctionAdd("kewb_", "keyboard_"); // A true typo of "keeb"... (itself obfuscated)
-            correctionAdd("kerb_", "keyboard_"); // A true typo of "keeb"... (itself obfuscated)
-            correctionAdd("keen_", "keyboard_"); // A true typo of "keeb"... (itself obfuscated)
-            correctionAdd("keev_", "keyboard_"); // A true typo of "keeb"... (itself obfuscated)
-            correctionAdd("keed_", "keyboard_");
-            correctionAdd("keyb_", "keyboard_");
-            correctionAdd("Keyb_", "keyboard_");
-            correctionAdd("Boar_", "keyboard_");
-            correctionAdd("boar_", "keyboard_");
-            correctionAdd("bard_", "keyboard_"); // A true typo of "board"...
-            correctionAdd("boad_", "keyboard_"); // A true typo of "board"...
-            correctionAdd("kpd_", "keyboard_");
-            correctionAdd("Keb_", "keyboard_");
-            correctionAdd("keb_", "keyboard_");
-            correctionAdd("kib_", "keyboard_");
-            correctionAdd("KBD_", "keyboard_");
-            correctionAdd("kbd_", "keyboard_"); // A shorthand
-            correctionAdd("KB_", "keyboard_");
-            correctionAdd("Kb_", "keyboard_");
-            correctionAdd("kb_", "keyboard_"); // A shorthand
-
-            // Mechanical keyboards
-            //
-            // We need a better reference: Not very descriptive
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.pcbheaven.com/wikipages/How_Key_Matrices_Works/>
-            //
-            //     Better at the definition. Answers "What are the key matrices?"
-            //
-            //   <https://www.dribin.org/dave/keyboard/one_html/>
-            //
-            //     Describes the conflicts with missing NKRO diodes,
-            //     but not much about the keyboard matrix itself
-            //     (definition)
-            //
-            //   <https://www.youtube.com/watch?v=BcXycScePHM&t=3m20s>
-            //     A diagram
-            //
-            //     More microcontroller-oriented. It doesn't define
-            //     what a keyboard matrix is.
-            //
-            correctionAdd("keyboard matrices_", "keyboard matrix_");
-            correctionAdd("Keyboard matrix_", "keyboard matrix_");
-            correctionAdd("keyb matrix_", "keyboard matrix_");
-            correctionAdd("key matrix_", "keyboard matrix_");
-            correctionAdd("column/row_", "keyboard matrix_");
-            correctionAdd("matrix_", "keyboard matrix_");
-
-            correctionAdd("lineair_", "linear_");
-            correctionAdd("lienar_", "linear_");
-            correctionAdd("Linear_", "linear_");
-            correctionAdd("liner_", "linear_");
-
-            correctionAdd("split ergonomic ortholinear mechanical keyboard_", "split ortholinear mechanical keyboard_");
-            correctionAdd("ortholinear mechanical keyboard_", "split ortholinear mechanical keyboard_"); // For the cross-reference
-            correctionAdd("ergonomic mechanical keyboard_", "split ortholinear mechanical keyboard_"); // For the cross-reference
-            correctionAdd("ortho split keyboard_", "split ortholinear mechanical keyboard_");
-            correctionAdd("split Ortho linear_", "split ortholinear mechanical keyboard_");
-            correctionAdd("split ortho linear_", "split ortholinear mechanical keyboard_");
-            correctionAdd("split Ortholinear_", "split ortholinear mechanical keyboard_");
-            correctionAdd("split ortholinear_", "split ortholinear mechanical keyboard_");
-            correctionAdd("Split orthos_", "split ortholinear mechanical keyboard_");
-            correctionAdd("split orthog_", "split ortholinear mechanical keyboard_");
-            correctionAdd("split orthos_", "split ortholinear mechanical keyboard_");
-            correctionAdd("Ortho/split_", "split ortholinear mechanical keyboard_");
-            correctionAdd("ortho/split_", "split ortholinear mechanical keyboard_");
-            correctionAdd("split ortho_", "split ortholinear mechanical keyboard_");
-
-            // A type of switch for keyboards (not vendor-specific)
-            //
-            // Alternative URLs:
-            //
-            //   <https://keyboardsexpert.com/what-are-rubber-dome-keyboards/>
-            //   <https://www.keychron.com/blogs/news/why-is-the-low-profile-mechanical-keyboard-the-best-slim-keyboard>
-            //
-            correctionAdd("rubberdome_", "rubber dome_");
-            correctionAdd("dome_", "rubber dome_");
-
-            // Sort of a type of mechanical keyboards
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.youtube.com/watch?v=XMWgqQznh4o>
-            //
-            //   <https://github.com/mikhailvs/macropad>
-            //   <https://www.reddit.com/r/macro_pads/comments/1r247ar/i_bought_a_32_macro_pad_and_wrote_a_script_to/>
-            //     Example of reverse engineering the protocol of a
-            //     proprietary macro pad, allowing bypassing their
-            //     configuration tool.
-            //
-            correctionAdd("macro mechanical keypad_", "macro pad_");
-            correctionAdd("programmable keypad_", "macro pad_");
-            correctionAdd("mechanical keypad_", "macro pad_");
-            correctionAdd("macro keypad_", "macro pad_");
-            correctionAdd("Macro keypad_", "macro pad_");
-            correctionAdd("Macro Pad_", "macro pad_");
-            correctionAdd("macro-pad_", "macro pad_");
-            correctionAdd("Macro pad_", "macro pad_");
-            correctionAdd("marco-pad_", "macro pad_");
-            correctionAdd("micro pad_", "macro pad_");
-            correctionAdd("Micro pad_", "macro pad_");
-            correctionAdd("Macro-Pad_", "macro pad_");
-            correctionAdd("MacroPad_", "macro pad_");
-            correctionAdd("Macropad_", "macro pad_");
-            correctionAdd("macropad_", "macro pad_");
-            correctionAdd("macropod_", "macro pad_");
-            correctionAdd("Maco Pad_", "macro pad_");
-            correctionAdd("MACROPAD_", "macro pad_");
-            correctionAdd("macroped_", "macro pad_");
-            correctionAdd("micropad_", "macro pad_");
-            correctionAdd("Macropod_", "macro pad_");
-            correctionAdd("micropqd_", "macro pad_");
-            correctionAdd("MacoPad_", "macro pad_");
-            correctionAdd("Pad_", "macro pad_");
-            correctionAdd("pad_", "macro pad_");
-
-            // Mechanical keyboards
-            correctionAdd("keypcap_", "keycap_");
-            correctionAdd("key cap_", "keycap_");
-            correctionAdd("Keycap_", "keycap_");
-            correctionAdd("KeyCap_", "keycap_");
-            correctionAdd("cap_", "keycap_");
-
-            // Alternative URLs:
-            //
-            //   <https://spkeyboards.com/products/sp-dsa-2-space-pos-2-mounts>
-            //
-            //   <https://wiki.keyboard.gay/KEYCAPS.html#on-kitting-or-how-to-read-a-kitting-diagram>
-            //     Incl. how to read a kitting diagram
-            //
-            correctionAdd("Key caps_", "keycaps_");
-            correctionAdd("key caps_", "keycaps_");
-            correctionAdd("key-caps_", "keycaps_");
-            correctionAdd("Key-caps_", "keycaps_");
-            correctionAdd("KeyCaps_", "keycaps_");
-            correctionAdd("Keycaps_", "keycaps_");
-            correctionAdd("keycpas_", "keycaps_");
-            correctionAdd("keycapa_", "keycaps_"); // A true typo
-            correctionAdd("capps_", "keycaps_");
-            correctionAdd("csps_", "keycaps_"); // A true typo (of the shorthand "caps")
-            correctionAdd("caps_", "keycaps_");
-
-            // The verb, but it was intended to be the adjective
-            //
-            // For example, mechanical keyboards
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/Hot_swapping#Keyboards>
-            //
-            correctionAdd("hot swap_", "hot-swap_");
-
-            // Mechanical keyboards
-            //
-            correctionAdd("remove the keycap_", "remove the keycaps_");
-            correctionAdd("hot-swappable_", "remove the keycaps_"); // For the cross-reference
-
-            // Related to mechanical keyboards (keycaps).
-            //
-            // The verb
-            //
-            correctionAdd("shine-through_", "shine through_");
-            correctionAdd("shine trought_", "shine through_");
-            correctionAdd("shinethrough_", "shine through_");
-            correctionAdd("Shinethrough_", "shine through_");
-            correctionAdd("see through_", "shine through_");
-            correctionAdd("See through_", "shine through_");
-            correctionAdd("shine thru_", "shine through_");
-            correctionAdd("Shine Thru_", "shine through_");
-            correctionAdd("seethrough_", "shine through_");
-
-            correctionAdd("reduced selection of keycap profiles_", "slightly reduced selection of keycaps_");
-            correctionAdd("reduced selection of keycaps_", "slightly reduced selection of keycaps_");
-            correctionAdd("north-facing_", "slightly reduced selection of keycaps_");
-
-            // No, not "macronutrients"... E.g., mechanical keyboards / QMK.
-            //
-            // Alternative URLs:
-            //
-            //   <https://github.com/kiibohd/kll-spec/blob/0.5/README.md>
-            //     KLL specification - Keyboard Layout Language
-            //
-            //     Rendered (PDF): <https://github.com/kiibohd/kll-spec/releases/download/v0.5.7.1/kll-spec-v0.5.7.1.pdf>
-            //
-            //     Includes:
-            //
-            //       * macros, including cancelling them.
-            //       * RGB light animations
-            //       * Even analogue keyboard switches!
-            //
-            correctionAdd("macrosses_", "macros_");
-            correctionAdd("masroses_", "macros_");
-            correctionAdd("marcos_", "macros_");
-            correctionAdd("Macros_", "macros_");
-            correctionAdd("Makros_", "macros_");
-            correctionAdd("makros_", "macros_");
-            correctionAdd("micros_", "macros_");
-            correctionAdd("mikros_", "macros_");
-
-            // E.g., in keyboard macros
-            //
-            // Why do we have this second one?? To be able
-            // to use "17" in the lookup? We could instead
-            // move the conflicting "17" in the main word
-            // set.
-            //
-            correctionAdd("17_", "17 ms between each key action is recommended_");
-
-            correctionAdd("typying_", "typing_");
-            correctionAdd("typeing_", "typing_");
-            correctionAdd("typinig_", "typing_");
-            correctionAdd("tipping_", "typing_");
-            correctionAdd("Typing_", "typing_");
-            correctionAdd("typign_", "typing_");
-            correctionAdd("Tying_", "typing_");
-            correctionAdd("tying_", "typing_");
-
-            // Keyboard remapping software for Mac OS X,
-            // similar to AutoHotkey.
-            //
-            // Now broken: <https://wiki.nikiv.dev/macOS/apps/karabiner/>
-            //
-            // Alternative URLs:
-            //
-            //   <https://github.com/pqrs-org/Karabiner-Elements>
-            //   <https://karabiner-elements.pqrs.org/>
-            //     The official website(?)
-            //   <https://dev.to/swyx/notes-on-karabiner-elements-from-john-lindquist-4cmo>
-            //
-            //   <https://github.com/pqrs-org/Karabiner-archived>
-            //     <https://github.com/tekezo/Karabiner>
-            //
-            //     The predecessor, just "Karabiner"
-            //     Before 2016. "Karabiner is obsoleted on
-            //     macOS v10.12 (Sierra) (2016) or later.
-            //     Please use Karabiner-Elements. .
-            //
-            //   <https://github.com/mxstbr/karabiner>
-            //   <https://github.com/kiinoda/goku>
-            //
-            correctionAdd("Karabiner-Elements_", "Karabiner Elements_");
-            correctionAdd("Karabiner elements_", "Karabiner Elements_");
-            correctionAdd("Karabiner-elements_", "Karabiner Elements_");
-            correctionAdd("karabiner elements_", "Karabiner Elements_");
-            correctionAdd("Carabiner Elements_", "Karabiner Elements_");
-            correctionAdd("KeyRemap4MacBook_", "Karabiner Elements_"); // Allegedly, the original name
-            correctionAdd("Karabeener_", "Karabiner Elements_");
-            correctionAdd("karabiner_", "Karabiner Elements_");
-            correctionAdd("Karabiner_", "Karabiner Elements_");
-            correctionAdd("carabiner_", "Karabiner Elements_");
-            correctionAdd("Elements_", "Karabiner Elements_");
-            correctionAdd("KE_", "Karabiner Elements_");
-
-            correctionAdd("Context Menu_", "context menu_");
-            correctionAdd("context-menu_", "context menu_");
-            correctionAdd("contextmenu_", "context menu_");
-
-            // Mechanical keyboards
-            // Rotate, as in mechanical keyboards, especially
-            // split ergonomic mechanical keyboards. Includes
-            // finger splay, non-parallel vertical key lines.
-            //
-            // Not a typo of "display"...
-            //
-            // Alternative URLs:
-            //
-            //  <https://kinesis-ergo.com/solutions/keyboard-risk-factors/>
-            //  <https://www.reddit.com/r/ErgoMechKeyboards/comments/svrdu1/buzzard_a_40_keys_split_keyboard_with_splay_and/>
-            //
-            correctionAdd("display_", "splay_");
-            correctionAdd("splayed_", "splay_"); // Not 100% correct
-
-            correctionAdd("switches_", "switched_");
-            correctionAdd("switche_", "switched_");
-            correctionAdd("swiched_", "switched_");
-
-            correctionAdd("mecha switch_", "mechanical switch_");
-            correctionAdd("mech switch_", "mechanical switch_");
-            correctionAdd("mech_", "mechanical switch_");
-
-            //Duplicate of "mechanical switch"?
-            correctionAdd("switch_", "switch for a mechanical keyboard_");
-
-            correctionAdd("mechanical keyboard switches_", "mechanical switches_");
-            correctionAdd("Mech switches_", "mechanical switches_");
-            correctionAdd("mech switches_", "mechanical switches_");
-            correctionAdd("mechanicals_", "mechanical switches_");
-            correctionAdd("mechs_", "mechanical switches_");
-
-            correctionAdd("lube_", "lubricate_");
-            correctionAdd("lub_", "lubricate_");
-
-            correctionAdd("over-lubrication_", "overlubrication_");
-            correctionAdd("Overlubrication_", "overlubrication_");
-            correctionAdd("Overlibri_", "overlubrication_");
-            correctionAdd("Overlubri_", "overlubrication_");
-            correctionAdd("overlubri_", "overlubrication_");
-            correctionAdd("overlube_", "overlubrication_");
-
-            correctionAdd("optical_", "optical switch_");
-
-            correctionAdd("Optical switches_", "optical switches_");
-            correctionAdd("opticals_", "optical switches_");
-
-            // Mechanical keyboards
-            //
-            //We ought to find a better reference.
-            //
-            correctionAdd("tactical_", "tactile_");
-            correctionAdd("tactic_", "tactile_");
-
-            correctionAdd("Reseat_", "reseat_");
-            correctionAdd("resear_", "reseat_");
-
-            correctionAdd("re-seated_", "reseated_");
-
-            // Note: It is here because of a conflict in the main
-            //       word set (incorrect word "resetting")
-            //
-            // E.g., mechanical keyboards
-            correctionAdd("Reseating_", "reseating_");
-
-            correctionAdd("ergonomical_", "ergonomic_");
-            correctionAdd("Erogonomic_", "ergonomic_");
-            correctionAdd("erogonomic_", "ergonomic_");
-            correctionAdd("Ergonomic_", "ergonomic_");
-            correctionAdd("erganimic_", "ergonomic_");
-            correctionAdd("erganomoc_", "ergonomic_");
-            correctionAdd("erganomic_", "ergonomic_");
-            correctionAdd("ergo_", "ergonomic_");
-            correctionAdd("erfo_", "ergonomic_");
-            correctionAdd("ego_", "ergonomic_");
-
-            // Ergonomic mechanical keyboards
-            correctionAdd("renting_", "tenting_"); // A true typo
-            correctionAdd("tinting_", "tenting_");
-
-            // For the reverse, to the abbr.
-            correctionAdd("United States keyboard layout_", "ANSI_");
-
-            // A keyboard layout
-            correctionAdd("French keyboard_", "French keyboard layout_");
-            correctionAdd("French layout_", "French keyboard layout_");
-            correctionAdd("a French_", "French keyboard layout_");
-            correctionAdd("AZERTY_", "French keyboard layout_");
-            correctionAdd("Azerty_", "French keyboard layout_");
-            correctionAdd("azerty_", "French keyboard layout_");
-            correctionAdd("French_", "French keyboard layout_"); // For the cross-reference
-
-            correctionAdd("Swiss_", "Swiss keyboard layout_"); // For the cross-reference
-
-            // A keyboard layout (Brazil/Portuguese)
-            //
-            // Note: The physical key layout is different from 'ISO'.
-            //       There is an extra key between "M" and "right Shift".
-            //
-            // Note: It is here because of the conflict with
-            //       "Brazilian" in the main word set...
-            //
-            correctionAdd("Brazilian Technical Standards Association_", "ABNT NBR 10346 variant 2 keyboard layout_"); // For the cross-reference
-            correctionAdd("Brazilian keyboard layout_", "ABNT NBR 10346 variant 2 keyboard layout_");
-            correctionAdd("ABNT NBR 10346 variant 2_", "ABNT NBR 10346 variant 2 keyboard layout_");
-            correctionAdd("Brazilian_", "ABNT NBR 10346 variant 2 keyboard layout_"); // For the cross-reference
-            correctionAdd("ABNT-2_", "ABNT NBR 10346 variant 2 keyboard layout_");
-            correctionAdd("ABNT2_", "ABNT NBR 10346 variant 2 keyboard layout_");
-            correctionAdd("abnt2_", "ABNT NBR 10346 variant 2 keyboard layout_");
-            correctionAdd("ABN2_", "ABNT NBR 10346 variant 2 keyboard layout_");
-            correctionAdd("ABNT_", "ABNT NBR 10346 variant 2 keyboard layout_");
-            correctionAdd("abnt_", "ABNT NBR 10346 variant 2 keyboard layout_");
-
-            // A keyboard layout
-            //
-            // Alternative URLs:
-            //
-            //   <https://github.com/GalileoBlues/Gallium>
-            //   <https://www.reddit.com/r/KeyboardLayouts/comments/196ow4k/gallium_v2/>
-            //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/1b4ify4/comment/ksz5ikn/>
-            //
-            correctionAdd("gallium_", "Gallium keyboard layout_");
-            correctionAdd("Gallium_", "Gallium keyboard layout_");
-
-            // A keyboard layout
-            //
-            correctionAdd("APT v3_", "APT keyboard layout_");
-            correctionAdd("APTv3_", "APT keyboard layout_");
-            correctionAdd("apt_", "APT keyboard layout_");
-            correctionAdd("APT_", "APT keyboard layout_");
-
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/ball_bearing#Noun>
-            //   <https://en.wiktionary.org/wiki/BB#Noun>
-            //     Claims "BB" is a valid initialism
-            //
-            correctionAdd("bb_", "ball bearing_");
-            correctionAdd("BB_", "ball bearing_");
-
-            // Mechanical keyboards
-            //
-            // The blinding light for Keychron keyboards (and
-            // other keyboards with south-facing RGB LEDs)
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.reddit.com/r/Keychron/comments/1bok23g/comment/kwtpr35/>
-            //     Mitigation for the blinding light
-            //
-            correctionAdd("the Mortensen modification_", "south-facing blinding light_");
-            correctionAdd("Mortensen modification_", "south-facing blinding light_");
-            correctionAdd("blinding light problem_", "south-facing blinding light_");
-            correctionAdd("must be north-facing_", "south-facing blinding light_");
-            correctionAdd("tedious modification_", "south-facing blinding light_");
-            correctionAdd("the blinding light_", "south-facing blinding light_");
-            correctionAdd("QMK lighting modes_", "south-facing blinding light_"); // For the cross-reference
-            correctionAdd("the Mortensen mod_", "south-facing blinding light_");
-            correctionAdd("the modification_", "south-facing blinding light_");
-            correctionAdd("the light bleed_", "south-facing blinding light_");
-            correctionAdd("blinding light_", "south-facing blinding light_");
-            correctionAdd("Blinding light_", "south-facing blinding light_");
-            correctionAdd("The mitigation_", "south-facing blinding light_"); // For the cross-reference
-            correctionAdd("the southness_", "south-facing blinding light_");
-            correctionAdd("south-facing_", "south-facing blinding light_");
-            correctionAdd("be unusable_", "south-facing blinding light_");
-            correctionAdd("light bleed_", "south-facing blinding light_");
-            correctionAdd("light-bleed_", "south-facing blinding light_");
-            correctionAdd("pain points_", "south-facing blinding light_");
-            correctionAdd("south-side_", "south-facing blinding light_");
-            correctionAdd("the glare_", "south-facing blinding light_");
-            correctionAdd("southness_", "south-facing blinding light_");
-            correctionAdd("blinding_", "south-facing blinding light_");
-            correctionAdd("the mod_", "south-facing blinding light_");
-            correctionAdd("glare_", "south-facing blinding light_");
-
-            // Alternative URLs:
-            //
-            //   <https://pmortensen.eu/world2/2024/11/04/the-battery-state-of-a-keychron-qmk-based-keyboard-can-be-displayed-in-the-operating-system/>
-            //     Showing the battery state in the operating system
-            //     (but it is not possible for 2.0/2.1 (is not BLE))
-            //   <https://www.reddit.com/r/Keychron/comments/1i6fhhc/comment/m8cs8h6/>
-            //   <https://www.keychron.com/products/keychron-k5-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection>
-            //     The Bluetooth version 5.1 claim
-            //
-            correctionAdd("2.0_", "The Bluetooth version in the Keychron K Pro series keyboards is 2.0/2.1, not 5.1 as claimed_");
-            correctionAdd("2.1_", "The Bluetooth version in the Keychron K Pro series keyboards is 2.0/2.1, not 5.1 as claimed_");
-            correctionAdd("2.2_", "The Bluetooth version in the Keychron K Pro series keyboards is 2.0/2.1, not 5.1 as claimed_");
-
-            // 2023-02-07. 18203 bytes. MD5 94B9F58863E817E5060C58AA9A0B7A35.
-            //
-            // Parent page:
-            //
-            //   <https://www.keychron.com/pages/keychron-k-pro-series-bluetooth-firmware>
-            //
-            // Note: It is the exact same for the Q Pro series.
-            //
-            // Alternative (unofficial) versions:
-            //
-            //   1.32.1   18204    keychron_ckbt51_01.32-1.kfw  2CE36F3B25C2D9ACD4BBDE03C587D969  <https://keychronsupport.zendesk.com/attachments/token/kzBE17zKHIS1Ci51iOvYlB6hu/?name=keychron_ckbt51_01.32-1.kfw>
-            //   1.32.2   18204    keychron_ckbt51_01.32-2.kfw  1B620D9837226B69A4B1990D94D86B4A  <https://keychronsupport.zendesk.com/attachments/token/L8q5Y6u3IBvulxQirjf7KIDBZ/?name=keychron_ckbt51_01.32-2.kfw>
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.reddit.com/r/Keychron/comments/1as61bs/comment/kqvmae2/>
-            //
-            correctionAdd("Bluetooth firmware version 1.32.2 for Keychron K Pro and Q Pro series keyboards_", "download URL for Bluetooth firmware version 1.32_");
-            correctionAdd("Keychron&nbsp;K10&nbsp;Pro_", "download URL for Bluetooth firmware version 1.32_");
-            correctionAdd("Keychron&nbsp;Q6&nbsp;Pro_", "download URL for Bluetooth firmware version 1.32_");
-            correctionAdd("Keychron K10 Pro_", "download URL for Bluetooth firmware version 1.32_");
-            correctionAdd("Keychron Q6 Pro_", "download URL for Bluetooth firmware version 1.32_");
-
-            // For the cross-reference
-            // 2023-12-04. 89997 bytes. MD5 4CF5140500CE4BBA8C5A3BB2F8EA8F80.
-            correctionAdd("Bluetooth firmware version 0.1.12 for Keychron Q Max, K Max, and V Max series keyboards_", "download URL for Bluetooth firmware version 0.1.12_");
-
-            // For the cross-reference
-            // 2024-01-08. 90621 bytes. MD5 24F664EEF2D0F3CF839257B44DEAB9DF.
-            correctionAdd("Bluetooth firmware version 0.1.13 for Keychron Q Max, K Max, and V Max series keyboards_", "download URL for Bluetooth firmware version 0.1.13_");
-
-            // For the cross-reference
-            // 2024-01-18. 90701 bytes. MD5 8B5050F993930B0966BAC8BD2435DE3F.
-            correctionAdd("Bluetooth firmware version 0.1.14 for Keychron Q Max, K Max, and V Max series keyboards_", "download URL for Bluetooth firmware version 0.1.14_");
-
-            // For the cross-reference
-            // 2024-03-29. 91053 bytes. MD5 F1445CBFAC0F914E7489D6BEABC0BDD6.
-            correctionAdd("Bluetooth firmware version 0.1.15 for Keychron Q Max, K Max, and V Max series keyboards_", "download URL for Bluetooth firmware version 0.1.15_");
-
-            // For the cross-reference
-            // 2024-07-09. 92444 bytes. MD5 E546C5B48D4D39498364A8040F0468F8.
-            correctionAdd("Bluetooth firmware version 0.2.0 for Keychron Q Max, K Max, and V Max series keyboards_", "download URL for Bluetooth firmware version 0.2.0_");
-
-            // For the cross-reference
-            // 2024-11-19. 92444 bytes. MD5 55E3EE7BBDDAF72AB370ACECDF5EC9E.
-            correctionAdd("Bluetooth firmware version 0.2.1 for Keychron Q Max, K Max, and V Max series keyboards_", "download URL for Bluetooth firmware version 0.2.1_");
-            correctionAdd("Keychron&nbsp;K10&nbsp;Max_", "download URL for Bluetooth firmware version 0.2.1_"); // For the cross-reference
-            correctionAdd("Keychron&nbsp;V6&nbsp;Max_", "download URL for Bluetooth firmware version 0.2.1_"); // For the cross-reference
-            correctionAdd("Keychron&nbsp;Q6&nbsp;Max_", "download URL for Bluetooth firmware version 0.2.1_"); // For the cross-reference
-            correctionAdd("Keychron K10 Max_", "download URL for Bluetooth firmware version 0.2.1_");
-            correctionAdd("Keychron Q6 Max_", "download URL for Bluetooth firmware version 0.2.1_"); // For the cross-reference
-            correctionAdd("Keychron V6 Max_", "download URL for Bluetooth firmware version 0.2.1_"); // For the cross-reference
-
-            correctionAdd("the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_"); // For the cross-reference
-            correctionAdd("a checklist for Keychron mechanical keyboards_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_");
-            correctionAdd("isn't in (full) NKRO mode_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_");
-            correctionAdd("the usual isolation steps_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_");
-            correctionAdd("isolate the problem_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_"); // For the cross-reference
-            correctionAdd("the troubleshooting_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_");
-            correctionAdd("problem isolation_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_");
-            correctionAdd("troubleshooting_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_"); // For the cross-reference
-            correctionAdd("isolation steps_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_");
-            correctionAdd("The first step_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_");
-            correctionAdd("the first step_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_");
-            correctionAdd("the checklist_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_");
-            correctionAdd("a check list_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_");
-            correctionAdd("a checklist_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_");
-            correctionAdd("checklist_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_");
-            correctionAdd("2024_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_"); // For the cross-reference
-
-            correctionAdd("GBs_", "group buys_");
-
-            // Keyboards and mice. E.g., used by
-            // the Apple Extended Keyboard II
-            correctionAdd("Apple Desktop Bus_", "ADB_");
-            correctionAdd("adb_", "ADB_");
-
-            correctionAdd("Apple M_", "Apple M2_");
-            correctionAdd("M2_", "Apple M2_");
-            correctionAdd("m2_", "Apple M2_");
-
-            correctionAdd("M3_", "Apple M3_");
-
-            // A Mac keyboard (or rather a series of keyboards)
-            correctionAdd("Apple Magic Keyboard_", "Magic Keyboard_");
-            correctionAdd("Apple magic keyboard_", "Magic Keyboard_");
-            correctionAdd("apple Magic Keyboard_", "Magic Keyboard_");
-            correctionAdd("magic keyboard_", "Magic Keyboard_");
-            correctionAdd("Magic keyboard_", "Magic Keyboard_");
-            correctionAdd("Apple Magic_", "Magic Keyboard_");
-            correctionAdd("Apple MK_", "Magic Keyboard_");
-            correctionAdd("MK_", "Magic Keyboard_");
-
-            // A key on a keyboard. Modifier and stand-alone
-            correctionAdd("hotkey windows logo_", "Windows key_");
-            correctionAdd("Windows Logo Key_", "Windows key_");
-            correctionAdd("key windows logo_", "Windows key_");
-            correctionAdd("Windows button_", "Windows key_");
-            correctionAdd("Windows menu_", "Windows key_");
-            correctionAdd("windows logo_", "Windows key_");
-            correctionAdd("Windows Key_", "Windows key_");
-            correctionAdd("\"win\" key_", "Windows key_");
-            correctionAdd("Windows-Key_", "Windows key_");
-            correctionAdd("Windows-key_", "Windows key_");
-            correctionAdd("windows-key_", "Windows key_");
-            correctionAdd("windows key_", "Windows key_");
-            correctionAdd("Window key_", "Windows key_");
-            correctionAdd("windowskey_", "Windows key_");
-            correctionAdd("tiling key_", "Windows key_");
-            correctionAdd("Windowkey_", "Windows key_");
-            correctionAdd("WIN-keys_", "Windows key_");
-            correctionAdd("win key_", "Windows key_");
-            correctionAdd("Win key_", "Windows key_");
-            correctionAdd("Win Key_", "Windows key_");
-            correctionAdd("WIN-key_", "Windows key_");
-            correctionAdd("Win-key_", "Windows key_");
-            correctionAdd("win-key_", "Windows key_");
-            correctionAdd("Windows_", "Windows key_");
-            correctionAdd("WinKey_", "Windows key_");
-            correctionAdd("winkey_", "Windows key_");
-            correctionAdd("Winkey_", "Windows key_");
-            correctionAdd("WINKEY_", "Windows key_");
-            correctionAdd("win_", "Windows key_");
-            correctionAdd("Win_", "Windows key_");
-            correctionAdd("WK_", "Windows key_");
-
-            // A key on a keyboard
-            correctionAdd("Function key_", "Fn key_"); // Not to be confused with function keys, F1-F12
-            correctionAdd("function key_", "Fn key_"); // Not to be confused with function keys, F1-F12
-            correctionAdd("Globe key_", "Fn key_"); // Mac
-            correctionAdd("globe key_", "Fn key_"); // Mac
-            correctionAdd("FN Key_", "Fn key_");
-            correctionAdd("FN key_", "Fn key_");
-            correctionAdd("fn key_", "Fn key_");
-            correctionAdd("fnc_", "Fn key_");
-            correctionAdd("FN_", "Fn key_");
-            correctionAdd("Fn_", "Fn key_");
-            correctionAdd("fn_", "Fn key_");
-            correctionAdd("RN_", "Fn key_"); // A true typo
-            correctionAdd("Rn_", "Fn key_"); // A true typo
-
-            // A key on a keyboard
-            correctionAdd("home_", "Home key_");
-            correctionAdd("Home_", "Home key_");
-            correctionAdd("hom_", "Home key_");
-
-            // A kind of keys on a keyboard (F1 - F12)
-            correctionAdd("Function keys_", "function keys_");
-            correctionAdd("F keys_", "function keys_");
-            correctionAdd("f keys_", "function keys_");
-            correctionAdd("F-keys_", "function keys_");
-            correctionAdd("F-Keys_", "function keys_");
-            correctionAdd("F key_", "function keys_");
-            correctionAdd("F-key_", "function keys_");
-            correctionAdd("Fkeys_", "function keys_");
-            correctionAdd("Fun_", "function keys_");
-            correctionAdd("fun_", "function keys_");
-
-            correctionAdd("Compose Key_", "compose key_");
-            correctionAdd("compose_", "compose key_");
-
-            // A key on a keyboard. Modifier.
-            correctionAdd("Return_", "Return key_");
-            correctionAdd("return_", "Return key_");
-
-            // The verb, not the key...
-            correctionAdd("ented_", "enter_");
-            correctionAdd("Dnter_", "enter_");
-            correctionAdd("dnter_", "enter_");
-            correctionAdd("Ener_", "enter_");
-
-            correctionAdd("TAB_", "Tab key_");
-            correctionAdd("Tab_", "Tab key_");
-
-            // A key on a keyboard
-            //
-            // QMK/Via keycode: KC_PSCR (an alias of KC_PRINT_SCREEN)
-            //
-            //                  Numeric code: 70.
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.reddit.com/r/Keychron/comments/1ea2kp2/comment/lejd4cd/>
-            //   <https://pmortensen.eu/world2/2023/09/18/raw-qmk-keycodes-not-symbolic/>
-            //
-            correctionAdd("print screen key_", "Print Screen key_");
-            correctionAdd("Print Screen_", "Print Screen key_");
-            correctionAdd("print screen_", "Print Screen key_");
-            correctionAdd("PRINT SCREEN_", "Print Screen key_");
-            correctionAdd("PrintScreen_", "Print Screen key_");
-            correctionAdd("Prt Sc key_", "Print Screen key_");
-            correctionAdd("prntscrn_", "Print Screen key_");
-            correctionAdd("PrntScrn_", "Print Screen key_");
-            correctionAdd("Prt Scrn_", "Print Screen key_");
-            correctionAdd("PrtScrn_", "Print Screen key_");
-            correctionAdd("PRT SCR_", "Print Screen key_");
-            correctionAdd("Prt Sc_", "Print Screen key_");
-            correctionAdd("PRT SC_", "Print Screen key_");
-            correctionAdd("prt sc_", "Print Screen key_");
-            correctionAdd("PRTSCR_", "Print Screen key_");
-            correctionAdd("prtscr_", "Print Screen key_");
-            correctionAdd("PrtScr_", "Print Screen key_");
-            correctionAdd("PrtSct_", "Print Screen key_");
-            correctionAdd("PrtSc_", "Print Screen key_"); // The official short version
-            correctionAdd("PrScr_", "Print Screen key_");
-            correctionAdd("Prscr_", "Print Screen key_");
-            correctionAdd("prtsc_", "Print Screen key_");
-
-            // A key on a keyboard
-            //
-            // QMK/Via keycode: KC_SLCK (an alias of KC_SCROLL_LOCK).
-            //                  Note: The official alias in QMK is
-            //                  different, KC_SCRL (it isn't clear
-            //                  why there is a discrepancy (e.g.,
-            //                  was it renamed in QMK?)).
-            //
-            //                  Other alias: KC_BRMD
-            //
-            //                  Numeric code: 71.
-            //
-            // Note: on macOS, the same keycode is
-            //       interpreted as brightness down.
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.reddit.com/r/Keychron/comments/1ea2kp2/comment/lejd4cd/>
-            //   <https://pmortensen.eu/world2/2023/09/18/raw-qmk-keycodes-not-symbolic/>
-            //
-            correctionAdd("scroll lock_", "Scroll Lock key_");
-            correctionAdd("SCROLL-LOCK_", "Scroll Lock key_");
-            correctionAdd("Scroll lock_", "Scroll Lock key_");
-            correctionAdd("Scroll Lock_", "Scroll Lock key_");
-            correctionAdd("Scroll Lk_", "Scroll Lock key_");
-            correctionAdd("Scrl Lock_", "Scroll Lock key_");
-            correctionAdd("scrl lock_", "Scroll Lock key_");
-            correctionAdd("scr lock_", "Scroll Lock key_");
-            correctionAdd("Scr Lock_", "Scroll Lock key_");
-            correctionAdd("scrlock_", "Scroll Lock key_");
-            correctionAdd("ScrLock_", "Scroll Lock key_");
-            correctionAdd("scr lk_", "Scroll Lock key_");
-            correctionAdd("SCR LK_", "Scroll Lock key_");
-            correctionAdd("Scr lk_", "Scroll Lock key_");
-            correctionAdd("Scr Lk_", "Scroll Lock key_");
-            correctionAdd("SCRLK_", "Scroll Lock key_");
-            correctionAdd("Scrlk_", "Scroll Lock key_");
-            correctionAdd("scrlk_", "Scroll Lock key_");
-            correctionAdd("ScrLK_", "Scroll Lock key_");
-            correctionAdd("scrLk_", "Scroll Lock key_");
-            correctionAdd("ScrLk_", "Scroll Lock key_"); // The official short version
-            correctionAdd("sclk_", "Scroll Lock key_");
-
-            // A key on a keyboard. AKA as the Break key
-            //
-            // QMK/Via keycode: KC_PAUS (an alias of KC_PAUSE). Other
-            //                  aliases: KC_BRK and KC_BRMU.
-            //                  Numeric code: 72.
-            //
-            // Note: on macOS, the same keycode is
-            //       interpreted as brightness up.
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.reddit.com/r/Keychron/comments/1ea2kp2/comment/lejd4cd/>
-            //   <https://pmortensen.eu/world2/2023/09/18/raw-qmk-keycodes-not-symbolic/>
-            //
-            correctionAdd("Pause/Break_", "Pause key_");
-            correctionAdd("Pause Break_", "Pause key_");
-            correctionAdd("pause break_", "Pause key_");
-            correctionAdd("pause/break_", "Pause key_");
-            correctionAdd("Break/Pause_", "Pause key_");
-            correctionAdd("break key_", "Pause key_");
-            correctionAdd("PAUISE_", "Pause key_");
-            correctionAdd("pauise_", "Pause key_");
-            correctionAdd("pause_", "Pause key_");
-            correctionAdd("BREAK_", "Pause key_");
-            correctionAdd("Break_", "Pause key_");
-            correctionAdd("Pause_", "Pause key_");
-            correctionAdd("break_", "Pause key_");
-            correctionAdd("PAUSE_", "Pause key_");
-
-            // A key on a keyboard. (Caps Lock is in the
-            //                       other word set.)
-            //
-            // For the options in the Via clone, see entry
-            // "the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed"
-            //
-            correctionAdd("the numpad key_", "Num Lock key_");
-            correctionAdd("numeric lock_", "Num Lock key_");
-            correctionAdd("Numeric Lock_", "Num Lock key_");
-            correctionAdd("number lock_", "Num Lock key_");
-            correctionAdd("Number mode_", "Num Lock key_");
-            correctionAdd("number mode_", "Num Lock key_");
-            correctionAdd("numpad key_", "Num Lock key_");
-            correctionAdd("num button_", "Num Lock key_");
-            correctionAdd("numb lock_", "Num Lock key_");
-            correctionAdd("Num clear_", "Num Lock key_");
-            correctionAdd("Num Clear_", "Num Lock key_");
-            correctionAdd("num block_", "Num Lock key_");
-            correctionAdd("num luck_", "Num Lock key_");
-            correctionAdd("Num Luck_", "Num Lock key_");
-            correctionAdd("num lock_", "Num Lock key_");
-            correctionAdd("Num lock_", "Num Lock key_");
-            correctionAdd("nub lock_", "Num Lock key_");
-            correctionAdd("NUM LOCK_", "Num Lock key_");
-            correctionAdd("Num Lock_", "Num Lock key_");
-            correctionAdd("numblock_", "Num Lock key_");
-            correctionAdd("Num key_", "Num Lock key_");
-            correctionAdd("num key_", "Num Lock key_");
-            correctionAdd("Numlock_", "Num Lock key_");
-            correctionAdd("numlock_", "Num Lock key_");
-            correctionAdd("NumLock_", "Num Lock key_");
-            correctionAdd("NUMLOCK_", "Num Lock key_");
-            correctionAdd("numLock_", "Num Lock key_");
-            correctionAdd("N Lock_", "Num Lock key_");
-            correctionAdd("N. Lck_", "Num Lock key_");
-            correctionAdd("Num Lk_", "Num Lock key_");
-            correctionAdd("Num lk_", "Num Lock key_");
-            correctionAdd("num lk_", "Num Lock key_");
-            correctionAdd("N Lck_", "Num Lock key_");
-            correctionAdd("NumLk_", "Num Lock key_");
-            correctionAdd("Numlk_", "Num Lock key_");
-            correctionAdd("Num_", "Num Lock key_");
-            correctionAdd("num_", "Num Lock key_");
-
-            // A key on a keyboard (depending on the keyboard
-            // layout in the operating system)
-            //
-            // '½/§/¾/¶'
-            //
-            // Alternative URL:
-            //
-            //   <https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#Danish>
-            //
-            correctionAdd("section symbol_", "§ key_");
-            correctionAdd("paragraph key_", "§ key_"); // A literal translation...
-            correctionAdd("section sign_", "§ key_");
-            correctionAdd("paragraph_", "§ key_");
-            correctionAdd("§_", "§ key_");
-            correctionAdd("½_", "§ key_");
-
-            // A key on a keyboard
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.reddit.com/r/Keychron/comments/1itv1h0/comment/mdsoixt/>
-            //
-            correctionAdd("weird flower symbol_", "Apple key AKA Command key_"); // When rotated 45 degrees to avoid copyright issues
-            correctionAdd("flower symbol_", "Apple key AKA Command key_"); // When rotated 45 degrees to avoid copyright issues
-            correctionAdd("Apple/Command_", "Apple key AKA Command key_");
-            correctionAdd("Command key_", "Apple key AKA Command key_");
-            correctionAdd("command key_", "Apple key AKA Command key_");
-            correctionAdd("apple key_", "Apple key AKA Command key_");
-            correctionAdd("Apple key_", "Apple key AKA Command key_");
-            correctionAdd("Cmd key_", "Apple key AKA Command key_");
-            correctionAdd("Command_", "Apple key AKA Command key_");
-            correctionAdd("command_", "Apple key AKA Command key_");
-            correctionAdd("cmnd_", "Apple key AKA Command key_");
-            correctionAdd("Cmd_", "Apple key AKA Command key_"); // The official short name
-            correctionAdd("⌘_", "Apple key AKA Command key_");
-
             correctionAdd("houshold_", "household_");
 
             correctionAdd("more bettere_", "better_");
@@ -155934,58 +156781,6 @@ namespace OverflowHelper.core
             correctionAdd("club house_", "clubhouse_");
 
             correctionAdd("CSR_", "corporate social responsibility_");
-
-            correctionAdd("LY_", "love you_");
-            correctionAdd("ly_", "love you_");
-
-            // The noun
-            correctionAdd("thankyou_", "thank-you_");
-            correctionAdd("thank you_", "thank-you_");
-            correctionAdd("Than kyou_", "thank-you_");
-            correctionAdd("than kyou_", "thank-you_");
-
-            // Alternative URLs:
-            //
-            //   <https://meta.stackoverflow.com/questions/288160/no-thanks-damn-it>
-            //   <https://meta.stackexchange.com/questions/2950/should-hi-thanks-taglines-and-salutations-be-removed-from-posts>
-            //
-            correctionAdd("thanks to everyone that can help_", "thanks in advance_");
-            correctionAdd("Thank you all ahead of time_", "thanks in advance_");
-            correctionAdd("thank you all ahead of time_", "thanks in advance_");
-            correctionAdd("Thank you ahead of time_", "thanks in advance_");
-            correctionAdd("thank you ahead of time_", "thanks in advance_");
-            correctionAdd("Thank you in advanced_", "thanks in advance_");
-            correctionAdd("Thank you beforehand_", "thanks in advance_");
-            correctionAdd("thank you beforehand_", "thanks in advance_");
-            correctionAdd("Thank You in Advance_", "thanks in advance_");
-            correctionAdd("Thank You in advance_", "thanks in advance_");
-            correctionAdd("Thanks ahead of time_", "thanks in advance_");
-            correctionAdd("thanks ahead of time_", "thanks in advance_");
-            correctionAdd("thanks for your help_", "thanks in advance_");
-            correctionAdd("Thank you in advance_", "thanks in advance_");
-            correctionAdd("thank you in advance_", "thanks in advance_");
-            correctionAdd("Thank u in adavnce_", "thanks in advance_");
-            correctionAdd("thanks in adavnce_", "thanks in advance_");
-            correctionAdd("Thanks beforehand_", "thanks in advance_");
-            correctionAdd("Thanks in advance_", "thanks in advance_");
-            correctionAdd("thanks beforehand_", "thanks in advance_");
-            correctionAdd("THanks in advance_", "thanks in advance_");
-            correctionAdd("THANKS in advance_", "thanks in advance_");
-            correctionAdd("Thanks by advance_", "thanks in advance_");
-            correctionAdd("thanks by advance_", "thanks in advance_");
-            correctionAdd("Thanks un avance_", "thanks in advance_");
-            correctionAdd("Thaks in advance_", "thanks in advance_");
-            correctionAdd("Thanks in advice_", "thanks in advance_");
-            correctionAdd("thanks in advice_", "thanks in advance_");
-            correctionAdd("Thx in advance_", "thanks in advance_");
-            correctionAdd("ty in advance_", "thanks in advance_");
-            correctionAdd("T.I.A_", "thanks in advance_");
-            correctionAdd("TYIA_", "thanks in advance_");
-            correctionAdd("Tyia_", "thanks in advance_");
-            correctionAdd("tyia_", "thanks in advance_");
-            correctionAdd("TAI_", "thanks in advance_");
-            correctionAdd("tia_", "thanks in advance_");
-            correctionAdd("TIA_", "thanks in advance_");
 
             // Alternative URLs:
             //
@@ -156499,782 +157294,6 @@ namespace OverflowHelper.core
 
             // HSV. Colour.
             correctionAdd("Saturation_", "saturation_");
-
-            // Configuration software for Cooler Master keyboards.
-            //
-            // For the Reddit page (URL) with
-            // ***the version list***.
-            //
-            correctionAdd("MasterPlus_", "MasterPlus+_");
-            correctionAdd("1.9.4_", "MasterPlus+_");
-
-            correctionAdd("1.9.5_", "MasterPlus+ 1.9.5_");
-            correctionAdd("1.95_", "MasterPlus+ 1.9.5_");
-
-            // Cooler Master
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.reddit.com/r/coolermaster/comments/1egyehh/comment/lfye7b8/>
-            //
-            correctionAdd("Cooler Master quit the keyboard business_", "Cooler Master exited the mechanical keyboards and mice business_");
-            correctionAdd("production has allegedly ceased_", "Cooler Master exited the mechanical keyboards and mice business_");
-            correctionAdd("the whole team has been fired_", "Cooler Master exited the mechanical keyboards and mice business_");
-            correctionAdd("production has ceased_", "Cooler Master exited the mechanical keyboards and mice business_");
-            correctionAdd("Cooler Master quit_", "Cooler Master exited the mechanical keyboards and mice business_");
-            correctionAdd("Cooler Master_", "Cooler Master exited the mechanical keyboards and mice business_"); // For the cross-reference
-            correctionAdd("fired_", "Cooler Master exited the mechanical keyboards and mice business_");
-
-            correctionAdd("profilke_", "profile_");
-            correctionAdd("Profile_", "profile_");
-            correctionAdd("profil_", "profile_");
-            correctionAdd("profie_", "profile_");
-
-            correctionAdd("low profile_", "low-profile_");
-            correctionAdd("low-pro_", "low-profile_");
-            correctionAdd("lo-pro_", "low-profile_");
-            correctionAdd("lowpro_", "low-profile_");
-            correctionAdd("lopro_", "low-profile_");
-
-            // Mechanical keyboards
-            //
-            // Chording.
-            // Chord.
-            // Chords.
-            //
-            // Alternative URLs:
-            //
-            //  <https://www.youtube.com/watch?v=VsG5fT5LDqU>
-            //    A brief history of chorded text entry
-            //
-            //  <https://github.com/openstenoproject/plover#installation>
-            //    Plover. An open source desktop application
-            //
-            //    Is *not* keyboard firmware.
-            //
-            //  <https://www.youtube.com/watch?v=nRp_1S7cj6A>
-            //    200+wpm with this? | Stenography & Plover
-            //
-            //  <https://www.youtube.com/watch?v=JsRTTD9k2ME>
-            //    "Typing" at 150+ WPM | Plover and steno explained
-            //
-            //  <https://www.openstenoproject.org/learn-plover/home.html>
-            //    Now <https://opensteno.org/>
-            //
-            //  <https://www.openstenoproject.org/>
-            //
-            //  <https://www.artofchording.com/>
-            //    Art of chording
-            //    "The main motions are powered by arm movement
-            //       instead of finger movement"
-            //
-            //  <https://joshuagrams.github.io/steno-jig/>
-            //    Steno Jig
-            //
-            //  <https://en.wikipedia.org/wiki/Chorded_keyboard>
-            //    Chorded keyboard
-            //
-            //  <https://www.reddit.com/r/ErgoMechKeyboards/comments/1r38kvu/northern_chorder_opensource_chord_keyboard/>
-            //  <https://github.com/GlassOnTin/nchorder>
-            //    Northern Chorder
-            //
-            correctionAdd("Stenography_", "stenography_");
-            correctionAdd("Srenography_", "stenography_");
-            correctionAdd("srenography_", "stenography_");
-            correctionAdd("shorthand_", "stenography_");
-            correctionAdd("chording_", "stenography_");
-            correctionAdd("chordal_", "stenography_");
-            correctionAdd("chorded_", "stenography_");
-            correctionAdd("chorder_", "stenography_");
-            correctionAdd("stenno_", "stenography_");
-            correctionAdd("Steno_", "stenography_");
-            correctionAdd("steno_", "stenography_");
-            correctionAdd("chord_", "stenography_");
-
-            // Note: "layer" is in an another alternative word set
-            correctionAdd("laters_", "layers_"); // A true typo
-            correctionAdd("leyers_", "layers_");
-            correctionAdd("layes_", "layers_");
-
-            correctionAdd("ckicky_", "clicky_");
-
-            // A type of switch for mechanical keyboards
-            // Tactile and clicky.
-            //
-            correctionAdd("Cherry MX blue_", "Cherry MX Blue_");
-            correctionAdd("cherry mx blue_", "Cherry MX Blue_");
-            correctionAdd("Cherry Blue_", "Cherry MX Blue_");
-            correctionAdd("MX Blues_", "Cherry MX Blue_");
-            correctionAdd("Mx blue_", "Cherry MX Blue_");
-            correctionAdd("mx blue_", "Cherry MX Blue_");
-            correctionAdd("MX Blue_", "Cherry MX Blue_");
-            correctionAdd("MX blue_", "Cherry MX Blue_");
-            correctionAdd("blue_", "Cherry MX Blue_");
-
-            // A type of switch for mechanical keyboards
-            // Tactile, but not clicky. 45 g / 55 g. 2.0 mm actuation (standard)
-            //
-            // Alternative URLs
-            //
-            //   <https://www.cherrymx.de/_Resources/Persistent/9/3/e/d/93edbcdda68adb82c5ebe0fb662430d093f01a80/Data_sheet_MX2A_Brown.pdf>
-            //   <https://www.cherrymx.de/en/cherry-mx/mx-original/mx-brown.html#techSpecs>
-            //
-            correctionAdd("cherry max brown_", "Cherry MX Brown_");
-            correctionAdd("Cherry MX browns_", "Cherry MX Brown_");
-            correctionAdd("cherry Mx browns_", "Cherry MX Brown_");
-            correctionAdd("cherry Mx brown_", "Cherry MX Brown_");
-            correctionAdd("cherry mx brown_", "Cherry MX Brown_");
-            correctionAdd("brown stwitchs_", "Cherry MX Brown_");
-            correctionAdd("Cherry MX Sand_", "Cherry MX Brown_");
-            correctionAdd("Cherry MX Shit_", "Cherry MX Brown_");
-            correctionAdd("cherry browns_", "Cherry MX Brown_");
-            correctionAdd("Cherry Brown_", "Cherry MX Brown_");
-            correctionAdd("Cherry brown_", "Cherry MX Brown_");
-            correctionAdd("cherry brown_", "Cherry MX Brown_");
-            correctionAdd("MX Brown_", "Cherry MX Brown_");
-            correctionAdd("mx brown_", "Cherry MX Brown_");
-            correctionAdd("Mx Brown_", "Cherry MX Brown_");
-            correctionAdd("MX brown_", "Cherry MX Brown_");
-            correctionAdd("browns_", "Cherry MX Brown_");
-            correctionAdd("brown_", "Cherry MX Brown_");
-            correctionAdd("brows_", "Cherry MX Brown_");
-
-            // A type of switch for mechanical keyboards
-            // Linear
-            correctionAdd("Cherry MX Red's_", "Cherry MX Red_");
-            correctionAdd("cherry mx red's_", "Cherry MX Red_");
-            correctionAdd("Chrerry MX Red_", "Cherry MX Red_");
-            correctionAdd("Cherry MX re d_", "Cherry MX Red_");
-            correctionAdd("Cherry MX Reds_", "Cherry MX Red_");
-            correctionAdd("cherry mx reds_", "Cherry MX Red_");
-            correctionAdd("cherry mx red_", "Cherry MX Red_");
-            correctionAdd("CHERRY MX RED_", "Cherry MX Red_");
-            correctionAdd("CHERRY MX Red_", "Cherry MX Red_");
-            correctionAdd("Cherry Red_", "Cherry MX Red_");
-            correctionAdd("MX red_", "Cherry MX Red_");
-            correctionAdd("MX Red_", "Cherry MX Red_");
-            correctionAdd("mx red_", "Cherry MX Red_");
-            correctionAdd("Mx Red_", "Cherry MX Red_");
-            correctionAdd("red_", "Cherry MX Red_");
-
-            // A type of switch for mechanical keyboards
-            // Linear. 45 g. 1.2 mm actuation (short).
-            //
-            correctionAdd("Cherry MX SPEED Silver_", "Cherry MX Speed Silver_");
-            correctionAdd("Cherry MX Speed silver_", "Cherry MX Speed Silver_");
-            correctionAdd("CHERRY MX Speed Silver_", "Cherry MX Speed Silver_");
-            correctionAdd("Cherry MX Silver_", "Cherry MX Speed Silver_");
-            correctionAdd("MX SPEED Silver_", "Cherry MX Speed Silver_");
-            correctionAdd("MX Speed Silver_", "Cherry MX Speed Silver_");
-            correctionAdd("speed-silvers_", "Cherry MX Speed Silver_");
-            correctionAdd("Cherry Silver_", "Cherry MX Speed Silver_");
-            correctionAdd("speed silvers_", "Cherry MX Speed Silver_");
-            correctionAdd("Speed Silver_", "Cherry MX Speed Silver_");
-            correctionAdd("speed silver_", "Cherry MX Speed Silver_");
-            correctionAdd("speed-silver_", "Cherry MX Speed Silver_");
-            correctionAdd("silver_", "Cherry MX Speed Silver_");
-            correctionAdd("Silver_", "Cherry MX Speed Silver_");
-
-            correctionAdd("Re3cent_", "recent_");
-            correctionAdd("re3cent_", "recent_");
-            correctionAdd("Recent_", "recent_");
-            correctionAdd("resent_", "recent_");
-
-            // To both have an alternative word (as it may be used
-            // in an abbr., like "HE") and an alternative URL.
-            //
-            // Notes:
-            //
-            //   * Keychron K HE and Q HE series:
-            //
-            //       South pole facing downward (uncommon)
-            //
-            correctionAdd("Hall sensor_", "Hall effect_");
-            correctionAdd("Hall-effect_", "Hall effect_");
-
-            // Related to mechanical keyboards with Hall effect
-            // switches, e.g., from Keychron.
-            //
-            // Is DKS a SIA?
-            correctionAdd("Dynamic Keystroke_", "dynamic keystroke_");
-            correctionAdd("DKS_", "dynamic keystroke_");
-
-            // "magnetic switches operate based on magnet polarity
-            //   and PCB design, meaning not all keyboards will
-            //   support them."
-            //
-            // Keychron changed orientation:
-            //
-            //   * K HE and Q HE series:        south pole
-            //
-            //   * Q HE 8K series (wired only): north pole. But closed source code.
-            //
-            //   A reference:
-            //
-            //    <https://www.reddit.com/r/Keychron/comments/1syixet/comment/ojurnl4/>
-            //
-            // Note: Not to be confused with Gateron 'North Pole'
-            //       regular ***mechanical*** switches
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.reddit.com/r/Keychron/comments/1qpeo77/comment/o29bicr/>
-            //
-            correctionAdd("Hall effect switches with N-pole magnets facing downward_", "Hall effect switches with north-pole magnets facing downward_");
-            correctionAdd("south pole-down_", "Hall effect switches with north-pole magnets facing downward_");
-            correctionAdd("south-pole-down_", "Hall effect switches with north-pole magnets facing downward_");
-            correctionAdd("North Switch_", "Hall effect switches with north-pole magnets facing downward_");
-            correctionAdd("north switch_", "Hall effect switches with north-pole magnets facing downward_");
-            correctionAdd("north pole_", "Hall effect switches with north-pole magnets facing downward_");
-            correctionAdd("south pole_", "Hall effect switches with north-pole magnets facing downward_"); // For the cross-reference
-            correctionAdd("N_", "Hall effect switches with north-pole magnets facing downward_");
-
-            // Mechanical keyboards
-            //
-            // <https://deskthority.net> ("desk authority")
-            //
-            //   The 'deskthority.net' reference is now broken (blank page).
-            //
-            //   Candidate sites for a new location for the wiki:
-            //
-            //     <https://wiki.themk.org>
-            //     <https://deskauthority.saberkeebs.com/wiki.themk.org/index.php/Geekhack.html>
-            //       A mirror of <https://wiki.themk.org>
-            //
-            //   Similar wiki:
-            //
-            //     <https://wiki.geekhack.org/index.php?title=GeekHackWiki>
-            //       GeekHack (GH)
-            //
-            //         But it also appears on its way out (2026-02-25):
-            //
-            //           <https://geekhack.org/index.php?PHPSESSID=56m525muila8v1sqg0ibbtovqoa53u1g&topic=126408.msg3214150#new>
-            //
-            //         <https://deskauthority.saberkeebs.com/wiki.themk.org/index.php/Geekhack.html>
-            //
-            //         <https://geekhack.fandom.com/wiki/GeekHack_Wikia>
-            //
-            //       Forum:
-            //
-            //         <https://geekhack.org/>
-            //
-            correctionAdd("desk authority_", "Deskthority_");
-            correctionAdd("Desk authority_", "Deskthority_");
-            correctionAdd("Deskauthority_", "Deskthority_");
-            correctionAdd("deskauthority_", "Deskthority_");
-            correctionAdd("Deskathority_", "Deskthority_");
-            correctionAdd("deskathority_", "Deskthority_");
-            correctionAdd("deskthority_", "Deskthority_");
-            correctionAdd("DT_", "Deskthority_"); // A SIA
-
-            // Windows. Keyboards. Accessibility
-            //
-            // Similar to Sticky Keys and ToggleKeys
-            //
-            correctionAdd("Filter Keys_", "FilterKeys_");
-            correctionAdd("Filter keys_", "FilterKeys_");
-            correctionAdd("filter keys_", "FilterKeys_");
-            correctionAdd("Filterkeys_", "FilterKeys_");
-            correctionAdd("filter_", "FilterKeys_");
-            correctionAdd("Filter_", "FilterKeys_");
-
-            // Windows. Keyboards. Accessibility.
-            //
-            // Similar to Sticky Keys and FilterKeys
-            //
-            correctionAdd("toggle keys_", "ToggleKeys_");
-            correctionAdd("toggle_", "ToggleKeys_");
-            correctionAdd("Toggle_", "ToggleKeys_");
-
-            // Mac
-            //
-            // Alternative URLs:
-            //
-            //   <https://help.macally.com/help/keyboard-setup-assistant>
-            //
-            //     Includes screenshots of the actual user interface.
-            //     And how to start Keyboard Setup Assistant manually
-            //
-            //     Published 2021.
-            //
-            //   <https://www.reddit.com/r/applehelp/comments/u4bb9w/keyboard_setup_assistant_pops_up_every_time_i/>
-            //     Keyboard setup assistant pops up every time I plug my keyboard in
-            //
-            //   <https://www.reddit.com/r/Keychron/comments/1tb84s9/keychron_k6_he_freezing_macbook_pro_intel_mouse/>
-            //     Keychron K6 HE freezing MacBook Pro (Intel) - Mouse
-            //     stops working and Keyboard Setup Assistant loop
-            //
-            correctionAdd("keyboard set up assistant_", "Keyboard Setup Assistant_");
-            correctionAdd("keyboard setup assistant_", "Keyboard Setup Assistant_");
-            correctionAdd("keyboard assistant_", "Keyboard Setup Assistant_");
-            correctionAdd("Keychron Assist_", "Keyboard Setup Assistant_"); // For the cross-reference
-
-            // The common noun
-            correctionAdd("weel_", "wheel_");
-
-            correctionAdd("mouse cursor_", "mouse pointer_");
-            correctionAdd("mouse_", "mouse pointer_");
-
-            correctionAdd("Left Mouse Button_", "left mouse button_");
-            correctionAdd("LMB_", "left mouse button_");
-            correctionAdd("lmb_", "left mouse button_");
-
-            correctionAdd("Right Mouse Button_", "right mouse button_");
-            correctionAdd("RMB_", "right mouse button_");
-            correctionAdd("rmb_", "right mouse button_");
-
-            correctionAdd("mouse-less_", "mouseless_");
-
-            correctionAdd("midification_", "modification_");
-            correctionAdd("mofification_", "modification_");
-            correctionAdd("moficiation_", "modification_");
-            correctionAdd("mofifiation_", "modification_");
-            correctionAdd("modiciation_", "modification_");
-            correctionAdd("modifiation_", "modification_");
-            correctionAdd("modication_", "modification_");
-            correctionAdd("modding_", "modification_");
-            correctionAdd("modif_", "modification_");
-            correctionAdd("mod_", "modification_");
-            correctionAdd("Mod_", "modification_");
-
-            correctionAdd("Modifications_", "modifications_");
-            correctionAdd("mods_", "modifications_");
-            correctionAdd("Mods_", "modifications_");
-            correctionAdd("MODS_", "modifications_");
-
-            correctionAdd("miniature snap-action switch_", "micro switch_");
-
-            // QMK / Via: Keychron's clone of Via (with some extra
-            // features, like updating of the firmware, apparently
-            // also Bluetooth firmware).
-            //
-            // Related:
-            //
-            //    <https://www.keychron.com/blogs/news/how-to-download-and-install-keychron-assist>
-            //      How to download and install Keychron Assist
-            //
-            // Bugs:
-            //
-            //   <https://www.reddit.com/r/Keychron/comments/1kdovl0/keychron_v3_ansi_knob_launcher_not_fetching/>
-            //     V3 (ANSI knob) does not work with the Via clone,
-            //     whereas it works fine with Via.
-            //
-            //     2025-05-03.
-            //
-            //   <https://www.reddit.com/r/Keychron/comments/1buwibx/comment/lafqz99/>
-            //     Bricking the Bluetooth module (by Keychron's Via clone)
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.keychron.com/blogs/news/how-to-set-per-key-rgb-on-launcher>
-            //     How to set per-key RGB on [sic] Launcher
-            //
-            //     Note: Some of the images requires allowing
-            //           some JavaScript from various domains
-            //
-            //   <https://www.keychron.com/blogs/news/how-to-set-lkp-on-keychron-launcher>
-            //     How to set LKP (last keystroke prioritization) on [sic] Keychron Launcher
-            //
-            //     Published 2025-02-08 (though there isn't
-            //     any date information on the page itself).
-            //
-            //   <https://www.keychron.com/blogs/news/how-to-set-keyboard-bounce-time-on-launcher>
-            //     How to set keyboard bounce time on [sic] Launcher
-            //
-            //     The screenshot (<https://cdn.shopify.com/s/files/1/0059/0630/1017/files/How-to-set-Keyboard-Bounce-Time-on-launcher-1.jpg?v=1743230825>)
-            //     includes:
-            //
-            //       Auto sleep mode starting time (default: 2 hours)
-            //
-            //       Auto backlight off starting time (default: 10 minutes (600 seconds))
-            //
-            //         "Auto Backlight"
-            //
-            //     But the screenshot not appear to be in the blog post.
-            //     Was it later changed? Yes, probably because
-            //
-            //     And later this was allegedly added (not in the "blog" post):
-            //
-            //       "Keyboard matrix scanning idle time"
-            //
-            //     Published 2025-03-31 (though there isn't
-            //     any date information on the page itself).
-            //
-            //   <https://www.keychron.com/blogs/news/how-to-create-a-macro-on-launcher>
-            //     How to create a macro on Launcher
-            //
-            //   <https://www.keychron.com/blogs/news/how-to-use-launcher-to-program-your-keyboard>
-            //     How to use Launcher to program your keyboard
-            //
-            //     It even covers macros. But it doesn't actually show
-            //     a screenshot for the "Basic" tab (the first tab).
-            //
-            //     Official documentation for Keychron Launcher.
-            //     The documentation is for ***flashing*** is
-            //     on a separate page:
-            //
-            //       <https://www.keychron.com/pages/how-to-factory-reset-or-use-the-launcher-web-app-to-flash-firmware-for-your-keyboard>
-            //         How to factory reset or use the Launcher web application to flash firmware for your keyboard
-            //
-            //     With some screenshots. It even covers macros.
-            //
-            //     But ***not*** the Hall effect switches-specific
-            //     functions (for example, "one key multiple commands").
-            //     The left panel has (for example,
-            //     <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/Launcher-11.png>):
-            //
-            //         Keymap
-            //         Lighting
-            //         Macro
-            //         Firmware Update
-            //         Key Test
-            //         Bug Report
-            //
-            //       Macros:
-            //
-            //         <https://cdn.shopify.com/videos/c/o/v/9a26063e7d59414eaf57dbfc469a510e.mov>
-            //
-            //           "Disable Delay" (8th tab)
-            //
-            //   <https://www.keychron.com/blogs/news/how-to-set-mix-rgb-on-launcher>
-            //     How to set mix RGB on Launcher
-            //
-            //   <https://keychron.com.au/blogs/news/how-to-manage-your-he-profile>
-            //     How to manage your HE profile on [sic] Launcher
-            //
-            //     That is, the set of HE-specific profiles,
-            //     not howchange any configuration.
-            //
-            //     "HE profile allows you to set every key's actuation distance
-            //      and rapid trigger so that different keys can be set with
-            //      different trigger distance and rapid trigger sensitivities"
-            //
-            //     "..."Fn" + "P" + "Z / X / C" to switch to Profile 1 / 2 / 3."
-            //
-            //   <https://www.keychron.com/pages/how-to-use-he-mode-on-keychron-launcher>
-            //   <https://www.keychron.com/blogs/news/how-to-use-he-mode-on-keychron-launcher>
-            //     How to use HE mode on [sic] Keychron Launcher
-            //
-            //     It does ***not*** cover calibration of HE keyboards.
-            //     Though it is in many of screenshots, e.g.:
-            //
-            //       <https://www.keychron.com/cdn/shop/articles/image_55.png?v=1766546090&width=800>
-            //       <https://www.keychron.com/cdn/shop/articles/image_55.png>
-            //
-            //     But the first reference only covers (an abandoned page?
-            //     The drop down (hidden) text requires some JavaScript
-            //     to be allowed):
-            //
-            //       Set actuation distance
-            //
-            //       Rapid Trigger
-            //
-            //   <https://www.keychron.com/blogs/news/how-to-manage-your-he-profile-on-launcher>
-            //     How to manage your HE profile on Launcher
-            //
-            //     It covers calibration of HE keyboards.
-            //     E.g., near 'Click "Calibration"'. A screenshot:
-            //
-            //       <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/image_13_27ec67f4-4e80-475a-96ec-f8328c67a386.png>
-            //
-            //   <https://i.imgur.com/pd9qhwF.png>
-            //     Change/enable/disable the Num Lock and Caps Lock
-            //     indicators and choose a different colour for them.
-            //
-            //   <https://www.youtube.com/watch?v=_7ZVJMuag7s&t=8s>
-            //     Keychron K4 HE – How to create and assign macros
-            //
-            //     But it is too short.
-            //
-            //     ***Without*** extremely irritating
-            //     background music (way too loud).
-            //
-            //   <https://i.imgur.com/ClzX5uk.png>
-            //     A screenshot of a macro
-            //
-            //   <https://www.reddit.com/r/Keychron/comments/1ojsc0e/a_useful_tool_for_understanding_keychron_launcher/>
-            //     Demo Mode. Introduced on 2025-10-30.
-            //
-            //   <https://www.keychron.com/blogs/news/how-to-set-keymap-language-on-launcher>
-            //     How to set keymap language on [sic] Launcher
-            //
-            //     It now supports different keyboard layout
-            //     interpretations, e.g.,:
-            //
-            //       * Nordic
-            //       * Japanese
-            //       * German
-            //       * Swiss German
-            //       * French
-            //       * UK English
-            //       * US English
-            //
-            //     Published 2025-03-31 (though there isn't
-            //     any date information on the page itself).
-            //
-            //     And Portuguese ("Português"):
-            //
-            //       <https://i.imgur.com/eUenAzT.png>
-            //
-            //         Note: Requires JavaScript to be allowed from
-            //               'cloudfront.net' to not be surrounded
-            //               by Imgur goo.
-            //
-            //         Also includes "Reset Layout. Export. Import."
-            //
-            //   <https://www.youtube.com/watch?v=fZCRySY2ZRI&t=12m44s>
-            //     A demo (using the Q6 Max)
-            //     Incl. macros, from 14 min 55 secs:
-            //
-            //       <https://www.youtube.com/watch?v=fZCRySY2ZRI&t=14m55s>
-            //
-            //   <https://www.reddit.com/r/Keychron/comments/1buwibx/comment/lafqz99/>
-            //     The 2024-06 scandal, a bug leading users to update the
-            //     Bluetooth firmware with completely wrong firmware and
-            //     consequently bricking the Bluetooth module, requiring
-            //     replacement of the PCB.
-            //
-            //   <https://www.keychron.com/pages/backlight-setting>
-            //     Backlight setting tutorials:
-            //
-            //       Per-key RGB
-            //       Mix RGB      (AKA "mixed RGB")
-            //
-            //     Similar:
-            //
-            //       <https://www.keychron.com/pages/advanced-mode>
-            //         Advanced mode tutorials:
-            //
-            //           Debounce mode
-            //
-            //           Auto sleep mode and backlight off
-            //
-            //   <https://i.imgur.com/cMYhoyh.jpeg>
-            //     Screenshot of keymapping options "Basic",
-            //     "Special", and "Custom" (but not of
-            //     tab "Lighting")
-            //
-            //     The "Any" key is in tab "Custom" (sixth tab),
-            //     last item. It is also in:
-            //
-            //       <https://i.imgur.com/dYeVkwI.png>
-            //         Incl. Caps Lock key layer shift (using 'LT')
-            //
-            //         Related: <https://www.reddit.com/r/Keychron/comments/1plipyq/comment/ntsx1ib/>
-            //
-            //     Note: Requires JavaScript to be allowed from
-            //           'cloudfront.net' to not be surrounded
-            //           by Imgur goo.
-            //
-            //   <https://www.youtube.com/watch?v=dfMJrJI6hYk&t=8m4s>
-            //     A screenshot from the Via clone for Q15 Max.
-            //
-            //     Including:
-            //
-            //       "Layout language"
-            //
-            //       "Reset Layout"
-            //
-            //       "Export"
-            //
-            //   <https://www.reddit.com/r/Keychron/comments/1kc4wum/bug_launcher_knob_turns_disappear_from_ui_after/>
-            //     [Bug: Launcher] Knob turns disappear from UI
-            //     after mapping 'Any' key
-            //
-            //     Demo: <https://www.youtube.com/watch?v=46Xgp0lCvME>
-            //
-            //     Related: Screenshot of 'Any' in the Via clone:
-            //
-            //       <https://i.imgur.com/zuhLCD6.png>
-            //
-            //         Note: Requires JavaScript to be allowed from
-            //               'cloudfront.net' to not be surrounded
-            //               by Imgur goo.
-            //
-            //   <https://keychronsupport.zendesk.com/hc/en-us/articles/22776472488855-My-keyboard-is-not-recognized-by-Keychron-Launcher-what-should-I-do>
-            //     My keyboard is not recognized by Keychron Launcher.
-            //     What should I do?
-            //
-            //     <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/Launcher-4.png>
-            //       Layers start at 0, like in Via
-            //
-            //   <https://www.reddit.com/r/Keychron/comments/1cgqt1n/why_did_we_release_the_keychron_and_lemokey/>
-            //     Why did we release the Keychron and
-            //     Lemokey Launcher configurator?
-            //
-            //     The announcement by Keychron
-            //
-            //   <https://www.lemokey.com/blogs/news/how-to-use-launcher-to-program-your-keyboard>
-            //     Separate "Lemokey Launcher". Or is it actually the
-            //     same as Keychron Launcher?
-            //
-            //   <https://www.reddit.com/r/Keychron/comments/1buwibx/comment/kxx3kt0/>
-            //     My elaboration, incl. noting the macro part
-            //     is broken.
-            //
-            //   <https://www.keychron.com/pages/how-to-factory-reset-or-use-the-launcher-web-app-to-flash-firmware-for-your-keyboard>
-            //     How to factory reset or use the Launcher web application
-            //     to flash firmware for your keyboard
-            //
-            //     It includes screenshots. The factory reset method
-            //     is Fn + J + Z, and the into-bootloader-mode
-            //     method is the Esc key method.
-            //
-            //   <https://keychronsupport.zendesk.com/hc/en-us/articles/8914576001943-How-to-Factory-Reset-or-Flash-Firmware-for-Your-Keychron-Q3-keyboard>
-            //     The spacebar method for flashing Keychron keyboards
-            //
-            //   <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/Program-the-K14-Pro-keyboard-with-Launcher.jpg>
-            //     Screenshot of K14 Pro ANSI RGB in Keychron Launcher
-            //
-            //   Some screenshots for HE keyboards (from
-            //   <https://www.reddit.com/r/Keychron/comments/1hj7grv/comment/m35lza2/>):
-            //
-            //     <https://i.imgur.com/EPQ5cXj.png>
-            //       The only one from the Via clone. And without a
-            //       "profile" for per-key activation distances.
-            //
-            //     <https://i.imgur.com/1U8NzJb.png>
-            //     <https://i.imgur.com/ATjLe4F.png>
-            //     <https://i.imgur.com/V9hyEma.png>
-            //     <https://i.imgur.com/wUwirEL.png>
-            //     <https://i.imgur.com/uyEFKmK.png>
-            //     <https://i.imgur.com/XH17r7H.png>
-            //
-            //       Note: Sometimes redirects to the non-.png
-            //             version, possibly depending on how
-            //             much JavaScript is allowed.
-            //
-            //     Note: Requires JavaScript to be allowed from
-            //           'cloudfront.net' to not be surrounded
-            //           by Imgur goo.
-            //
-            //   <https://www.reddit.com/r/Keychron/comments/1i6imc0/launcherkeychroncom_ssl_error/>
-            //     The 2025-01-21 outage
-            //
-            //   <https://www.keychron.com/blogs/news/how-to-set-snap-click-on-launcher>
-            //     How to set Snap Click on Launcher
-            //
-            //   <https://www.keychron.com/blogs/news/how-to-set-one-key-multiple-commands-on-launcher>
-            //     How to set one key multiple commands on [sic] Launcher
-            //
-            //     "...configure a single key to output multiple different
-            //      output results based on its actuation travel distance."
-            //
-            //     For the HE keyboards
-            //
-            //   <https://www.youtube.com/watch?v=itGzZxsunzY>
-            //     Demo of manipulating the saved JSON
-            //     file, e.g., with key mappings
-            //
-            //     To swap layers in this example. In the demo,
-            //     an online JSON editor is used. The Via clone
-            //     used an MD5 checksum for some, but not all,
-            //     content.
-            //
-            //   <https://www.keychron.com/blogs/news/how-to-set-keymap-language-on-launcher>
-            //     How to set keymap language on Launcher
-            //
-            correctionAdd("launcher.keychron.com/#/keymap_", "Keychron Launcher_");
-            correctionAdd("www.launcher.keychron.com_", "Keychron Launcher_");
-            correctionAdd("the Keychron clone of Via_", "Keychron Launcher_");
-            correctionAdd("Launcher Web Configurator_", "Keychron Launcher_");
-            correctionAdd("Launcher web configurator_", "Keychron Launcher_");
-            correctionAdd("launcher web configurator_", "Keychron Launcher_");
-            correctionAdd("Keychron's own web editor_", "Keychron Launcher_");
-            correctionAdd("Keychron's own web-editor_", "Keychron Launcher_");
-            correctionAdd("keychrons own web-editor_", "Keychron Launcher_");
-            correctionAdd("the keyboard application_", "Keychron Launcher_");
-            correctionAdd("Keychron's clone of Via_", "Keychron Launcher_");
-            correctionAdd("launcher.keychrome.com_", "Keychron Launcher_");
-            correctionAdd("Keychron clone of Via_", "Keychron Launcher_");
-            correctionAdd("Keychron Configurator_", "Keychron Launcher_");
-            correctionAdd("launcher.keychron.com_", "Keychron Launcher_");
-            correctionAdd("Keychron Web Launcher_", "Keychron Launcher_");
-            correctionAdd("Keychron's Via clone_", "Keychron Launcher_");
-            correctionAdd("keyboard application_", "Keychron Launcher_");
-            correctionAdd("Keychron's launcher_", "Keychron Launcher_");
-            correctionAdd("Keychron Via clone_", "Keychron Launcher_");
-            correctionAdd("Keychrone Launcher_", "Keychron Launcher_");
-            correctionAdd("keychrone launcher_", "Keychron Launcher_");
-            correctionAdd("Keychrone launcher_", "Keychron Launcher_");
-            correctionAdd("keychrone launched_", "Keychron Launcher_");
-            correctionAdd("KeyChron launcher_", "Keychron Launcher_");
-            correctionAdd("KeyChron Launcher_", "Keychron Launcher_");
-            correctionAdd("Keychain launcher_", "Keychron Launcher_");
-            correctionAdd("keychron launcher_", "Keychron Launcher_");
-            correctionAdd("launcher.keychron_", "Keychron Launcher_");
-            correctionAdd("Keychron launcher_", "Keychron Launcher_");
-            correctionAdd("keychron Launcher_", "Keychron Launcher_");
-            correctionAdd("keyboard launcher_", "Keychron Launcher_");
-            correctionAdd("Keyboard Launcher_", "Keychron Launcher_");
-            correctionAdd("keychain launcher_", "Keychron Launcher_");
-            correctionAdd("Keychain Launcher_", "Keychron Launcher_");
-            correctionAdd("Keychron lanucher_", "Keychron Launcher_");
-            correctionAdd("keychrone connect_", "Keychron Launcher_");
-            correctionAdd("kaychron launcher_", "Keychron Launcher_");
-            correctionAdd("keychron's clone_", "Keychron Launcher_");
-            correctionAdd("Keychron's clone_", "Keychron Launcher_");
-            correctionAdd("Keychon Launcher_", "Keychron Launcher_");
-            correctionAdd("Keychron laucher_", "Keychron Launcher_");
-            correctionAdd("the \"launcher\"_", "Keychron Launcher_");
-            correctionAdd("Keychron Laucher_", "Keychron Launcher_");
-            correctionAdd("keychron Laucher_", "Keychron Launcher_");
-            correctionAdd("the keyboard app_", "Keychron Launcher_");
-            correctionAdd("Lemokey Launcher_", "Keychron Launcher_"); // For the cross-reference
-            correctionAdd("Keychron luncher_", "Keychron Launcher_");
-            correctionAdd("Keychron Luncher_", "Keychron Launcher_");
-            correctionAdd("Keychron connect_", "Keychron Launcher_");
-            correctionAdd("the web launcher_", "Keychron Launcher_");
-            correctionAdd("Keykron Launcher_", "Keychron Launcher_");
-            correctionAdd("Keykron launcher_", "Keychron Launcher_");
-            correctionAdd("keychron laucher_", "Keychron Launcher_");
-            correctionAdd("keychrons clone_", "Keychron Launcher_");
-            correctionAdd("their Via clone_", "Keychron Launcher_");
-            correctionAdd("Weblauncher app_", "Keychron Launcher_");
-            correctionAdd("launch.keychron_", "Keychron Launcher_");
-            correctionAdd("Keykron laucher_", "Keychron Launcher_");
-            correctionAdd("Keychron clone_", "Keychron Launcher_");
-            correctionAdd("the 'launcher'_", "Keychron Launcher_");
-            correctionAdd("the Via clone_", "Keychron Launcher_");
-            correctionAdd("The Via clone_", "Keychron Launcher_");
-            correctionAdd("Keychron apps_", "Keychron Launcher_");
-            correctionAdd("keychron apps_", "Keychron Launcher_");
-            correctionAdd("the launcher_", "Keychron Launcher_");
-            correctionAdd("web launcher_", "Keychron Launcher_");
-            correctionAdd("qmk launcher_", "Keychron Launcher_"); // Though something else could have been meant, like 'Via' or 'QMK Toolbox'.
-            correctionAdd("Keychron app_", "Keychron Launcher_");
-            correctionAdd("keychron app_", "Keychron Launcher_");
-            correctionAdd("keyboard app_", "Keychron Launcher_");
-            correctionAdd("Web Launcher_", "Keychron Launcher_");
-            correctionAdd("clone of Via_", "Keychron Launcher_");
-            correctionAdd("KC Launcher_", "Keychron Launcher_");
-            correctionAdd("KC launcher_", "Keychron Launcher_");
-            correctionAdd("Weblauncher_", "Keychron Launcher_");
-            correctionAdd("The website_", "Keychron Launcher_");
-            correctionAdd("Web Lancher_", "Keychron Launcher_");
-            correctionAdd("Via clone_", "Keychron Launcher_");
-            correctionAdd("via clone_", "Keychron Launcher_");
-            correctionAdd("its clone_", "Keychron Launcher_");
-            correctionAdd("the clone_", "Keychron Launcher_");
-            correctionAdd("Laincher_", "Keychron Launcher_"); // A typo
-            correctionAdd("laincher_", "Keychron Launcher_"); // A typo
-            correctionAdd("Lanucher_", "Keychron Launcher_");
-            correctionAdd("lanucher_", "Keychron Launcher_");
-            correctionAdd("Laucnher_", "Keychron Launcher_");
-            correctionAdd("laucnher_", "Keychron Launcher_");
-            correctionAdd("Launcher_", "Keychron Launcher_");
-            correctionAdd("launcher_", "Keychron Launcher_");
-            correctionAdd("Launcehr_", "Keychron Launcher_"); // Misspelt (true typo) by Keychron support!!
-            correctionAdd("launched_", "Keychron Launcher_");
-            correctionAdd("Keychron_", "Keychron Launcher_"); // For the cross-reference
-            correctionAdd("Laucher_", "Keychron Launcher_"); // A typo
-            correctionAdd("laucher_", "Keychron Launcher_"); // A typo
-            correctionAdd("Luncher_", "Keychron Launcher_"); // A typo
-            correctionAdd("luncher_", "Keychron Launcher_"); // A typo
-            correctionAdd("Lancher_", "Keychron Launcher_");
-            correctionAdd("launcer_", "Keychron Launcher_");
-            correctionAdd("LWC_", "Keychron Launcher_");
-            correctionAdd("KL_", "Keychron Launcher_");
 
             // A 52-key (50%. Not true TKL) crippled wired-only
             // split ergonomic mechanical keyboard.
@@ -163053,12 +163072,6 @@ namespace OverflowHelper.core
             correctionAdd("DDLB_", "drop-down list_");
             correctionAdd("DDL_", "drop-down list_");
 
-            correctionAdd("handy_", "mobile phone_");
-
-            correctionAdd("Mobile App_", "mobile app_");
-
-            correctionAdd("Mobile Apps_", "mobile apps_");
-
             correctionAdd("clown_", "clone_");
             correctionAdd("clon_", "clone_");
             correctionAdd("clo e_", "clone_"); // A true typo (involving the space bar)
@@ -164907,9 +164920,6 @@ namespace OverflowHelper.core
             correctionAdd("TW_", "trigger warning_");
 
             correctionAdd("alu_", "ALU_");
-
-            correctionAdd("right hand_", "right-hand_");
-            correctionAdd("RH_", "right-hand_");
 
             correctionAdd("solove_", "solve_");
             correctionAdd("slove_", "solve_");
@@ -167392,8 +167402,6 @@ namespace OverflowHelper.core
 
             URL_Add("loopback_", "https://en.wiktionary.org/wiki/loopback#Noun");
 
-            URL_Add("right-hand_", "https://en.wiktionary.org/wiki/right-hand#Adjective");
-
             URL_Add("Tiny Core Linux_", "https://en.wikipedia.org/wiki/Tiny_Core_Linux");
 
             URL_Add("titles_", "https://en.wiktionary.org/wiki/title#Noun");
@@ -167427,8 +167435,6 @@ namespace OverflowHelper.core
             URL_Add("right now_", "https://en.wiktionary.org/wiki/RN#Adverb");
 
             URL_Add("MBA_", "https://en.wikipedia.org/wiki/Master_of_Business_Administration");
-
-            URL_Add("hands down_", "https://en.wiktionary.org/wiki/hands_down#Adverb");
 
             URL_Add("dickhead_", "https://en.wiktionary.org/wiki/dickhead#Noun");
 
@@ -168300,8 +168306,6 @@ namespace OverflowHelper.core
 
             URL_Add("corner_", "https://en.wiktionary.org/wiki/corner#Noun");
 
-            URL_Add("interrupt service routine_", "https://en.wikipedia.org/wiki/Interrupt_handler");
-
             URL_Add("get_", "https://en.wiktionary.org/wiki/get#Verb");
 
             URL_Add("list price_", "https://en.wikipedia.org/wiki/List_price");
@@ -169091,8 +169095,6 @@ namespace OverflowHelper.core
             URL_Add("shard_", "https://en.wikipedia.org/wiki/Shard_(database_architecture)");
 
             URL_Add("attack_", "https://en.wiktionary.org/wiki/attack#Verb");
-
-            URL_Add("handle_", "https://en.wiktionary.org/wiki/handle#Verb");
 
             URL_Add("mTLS_", "https://en.wikipedia.org/wiki/Mutual_authentication#mTLS");
 
@@ -169982,142 +169984,6 @@ namespace OverflowHelper.core
 
             URL_Add("interface segregation principle_", "https://en.wikipedia.org/wiki/Interface_segregation_principle");
 
-            URL_Add("teal_", "https://en.wikipedia.org/wiki/Teal");
-
-            URL_Add("green_", "https://en.wikipedia.org/wiki/Environmentally_friendly");
-
-            URL_Add("redshift_", "https://en.wiktionary.org/wiki/redshift#Verb");
-
-            URL_Add("an utterly insignificant little blue-green planet_", "https://www.youtube.com/watch?v=rAh1JxNGkAM&list=PLSoD2CcPrumFJREVL6RmMnZP5U7sGYYi2&index=26&t=4s");
-
-            URL_Add("apples and oranges_", "https://en.wiktionary.org/wiki/apples_and_oranges#Noun");
-
-            URL_Add("Bluetooth_", "https://en.wikipedia.org/wiki/Bluetooth2");
-
-            URL_Add("qmk clean_", "https://www.reddit.com/r/Keychron/comments/1h6lsza/comment/nbnvbyq/");
-
-            URL_Add("qmk flash_", "https://docs.qmk.fm/newbs_flashing#flash-your-keyboard-from-the-command-line");
-
-            URL_Add("use of FRAM in an ATmega32U4-based QMK keyboard to get unlimited space for Via/Vial macros_", "https://www.reddit.com/r/olkb/comments/18lpxpp/comment/ke5nobu/");
-
-            URL_Add("r/olkb_", "https://www.reddit.com/r/olkb/new/");
-
-            URL_Add("Cooler Master exited the mechanical keyboards and mice business_", "https://www.reddit.com/r/coolermaster/comments/1c87jl5/coolermaster_is_dropping_the_ball_on_the_mm712_pro/");
-
-            URL_Add("GMK87_", "https://www.reddit.com/r/BudgetKeebs/comments/1aguhfh/gmk87_after_3_weeks_my_experience/");
-
-            URL_Add("space bar method to enter bootloader mode on QMK keyboards_", "https://www.reddit.com/r/Keychron/comments/194x73s/comment/khs7y49/");
-
-            URL_Add("south-facing blinding light_", "https://www.reddit.com/r/MechanicalKeyboards/comments/ysn0nh/fix_blinding_light_from_southfacing_leds/");
-
-            URL_Add("Hall effect switches with north-pole magnets facing downward_", "https://www.monsgeek.com/blog/magnetic-switch-compatibility-how-to-know-if-they-work-with-your-keyboard/");
-
-            URL_Add("slightly reduced selection of keycaps_", "https://switchandclick.com/mechanical-keyboard-switch-guide/");
-
-            URL_Add("Vial_", "https://github.com/vial-kb/vial-qmk/tree/vial/keyboards/keychron");
-
-            URL_Add("QMK_", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/keychron");
-
-            URL_Add("key debounce_", "https://www.ganssle.com/debouncing.htm"); // Old: <http://www.ganssle.com/debouncing.htm>
-
-            URL_Add("The QMK default key debounce time is 5 ms_", "https://docs.qmk.fm/feature_debounce_type#debounce-time");
-
-            URL_Add("Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_", "https://www.reddit.com/r/Keychron/comments/1fh6h26/comment/lp044qi/");
-
-            URL_Add("one-shot keys_", "https://github.com/qmk/qmk_firmware/blob/master/docs/one_shot_keys.md");
-
-            URL_Add("one-shot layer keys_", "https://docs.qmk.fm/one_shot_keys#keycodes");
-
-            URL_Add("tap dance_", "https://github.com/qmk/qmk_firmware/blob/master/docs/features/tap_dance.md"); // Old: <https://github.com/qmk/qmk_firmware/blob/master/docs/feature_tap_dance.md>
-
-            URL_Add("Esc key method to reset to factory defaults on QMK keyboards_", "https://www.reddit.com/r/Keychron/comments/194x73s/comment/khs7y49/");
-
-            URL_Add("QMK keycode_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
-
-            URL_Add("full NKRO busts the Keychron keyboards in wireless mode_", "https://www.reddit.com/r/Keychron/comments/198jmqn/comment/l0vwnbr/");
-
-            URL_Add("Git branch \"wireless_playground\" in Keychron's fork_", "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/v6_max");
-
-            URL_Add("the gasket problem_", "https://www.reddit.com/r/Keychron/comments/1fh6h26/comment/mqitys7/");
-
-            URL_Add("wired, Bluetooth, and '2.4 GHz'_", "https://www.durgod.com/blogs/what-is-dual-mode-and-tri-mode-in-mechanical-keyboard/");
-
-            URL_Add("MasterPlus+_", "https://www.reddit.com/r/coolermaster/comments/193b652/coolermaster_masterplus_v194_released_december_27/");
-
-            URL_Add("MasterPlus+ 1.9.5_", "https://www.reddit.com/r/coolermaster/comments/1c4bhvz/coolermaster_masterplus_v195_released_april_10/");
-
-            URL_Add("CK550 V2_", "https://pmortensen.eu/world2/2023/02/13/low-cost-fully-macro-capable-mechanical-keyboard-cooler-master-ck-550/");
-
-            URL_Add("Solid colour_", "https://pmortensen.eu/world2/2023/06/19/keychron-v5-a-reasonably-priced-fully-macro-capable-qmk-based-mechanical-keyboard#LightingModes");
-
-            URL_Add("Enlightenment_", "https://en.wikipedia.org/wiki/Enlightenment_(software)");
-
-            URL_Add("encoder_", "https://en.wiktionary.org/wiki/encoder#Noun");
-
-            URL_Add("encoders_", "https://en.wiktionary.org/wiki/encoder#Noun");
-
-            URL_Add("URL encoded_", "https://en.wikipedia.org/wiki/Percent-encoding");
-
-            URL_Add("URL encoding_", "https://en.wikipedia.org/wiki/Percent-encoding");
-
-            URL_Add("characteristic_", "https://en.wiktionary.org/wiki/characteristic#Noun");
-
-            URL_Add("character_", "https://en.wiktionary.org/wiki/character#Noun"); // Old: https://en.wiktionary.org/wiki/characters
-
-            URL_Add("ASCII_", "https://en.wikipedia.org/wiki/Code_page_437#Character_set");
-
-            URL_Add("ANSI_", "https://en.wikipedia.org/wiki/British_and_American_keyboards#Windows_keyboards");
-
-            URL_Add("ZSA Voyager_", "https://www.youtube.com/watch?v=VYQ0gyhjRXc");
-
-            URL_Add("Kinesis Advantage 2_", "https://en.wikipedia.org/wiki/Kinesis_(keyboard)#Advantage_360");
-
-            URL_Add("Razer BlackWidow_", "https://web.archive.org/web/20230509163448/https://en.wikipedia.org/wiki/List_of_Razer_products#Keyboards"); // Old: <https://en.wikipedia.org/wiki/List_of_Razer_products#Keyboards>. Even older: <https://www.razer.com/gaming-keyboards-keypads/razer-blackwidow>
-
-            URL_Add("Keychron Launcher_", "https://www.launcher.keychron.com/#/keymap");
-
-            URL_Add("Keychron&nbsp;B1&nbsp;Pro_", "https://www.keychron.com/products/keychron-b1-pro-ultra-slim-wireless-keyboard");
-
-            URL_Add("Keychron&nbsp;B4&nbsp;Pro_", "https://www.keychron.com/products/keychron-b4-pro-ultra-slim-wireless-keyboard");
-
-            URL_Add("Keychron C2_", "https://www.keychron.com/products/keychron-c2-wired-mechanical-keyboard");
-
-            URL_Add("Keychron K1_", "https://www.keychron.com/products/keychron-k1-wireless-mechanical-keyboard");
-
-            URL_Add("Keychron K2_", "https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard-uk-iso-layout");
-
-            URL_Add("Keychron K3_", "https://www.keychron.com/collections/k3-iso-keyboards/products/keychron-k3-ultra-slim-wireless-mechanical-keyboard-nordic-iso-layout-version-2");
-
-            URL_Add("Keychron K5_", "https://www.keychron.com/products/keychron-k5-ultra-slim-wireless-mechanical-keyboard");
-
-            URL_Add("Keychron&nbsp;K10 (100%)_", "https://www.keychron.at/collections/keychron-uk-iso-keyboards/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout"); // Old: <https://www.keychron.uk/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout>
-
-            URL_Add("Keychron&nbsp;K7&nbsp;Pro_", "https://www.keychron.com/products/keychron-k7-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
-
-            URL_Add("Keychron&nbsp;K11&nbsp;Max_", "https://www.keychron.com/products/keychron-k11-max-qmk-via-wireless-custom-mechanical-keyboard");
-
-            URL_Add("Keychron&nbsp;K17&nbsp;Max_", "https://www.keychron.com/products/keychron-k17-max-qmk-via-wireless-custom-mechanical-keyboard");
-
-            URL_Add("Keychron&nbsp;K2&nbsp;HE (80%)_", "https://www.keychron.com/products/keychron-k2-he-wireless-magnetic-switch-keyboard"); // Old: <https://www.keychron.com/pages/keychron-k2-he-landing-page>
-
-            URL_Add("Keychron Q8_", "https://www.keychron.com/products/keychron-q8-alice-layout-qmk-custom-mechanical-keyboard");
-
-            URL_Add("Keychron Q12_", "https://www.keychron.com/products/keychron-q12-qmk-custom-mechanical-keyboard");
-
-            URL_Add("Keychron&nbsp;Q1&nbsp;HE_", "https://www.keychron.com/products/keychron-q1-he-qmk-wireless-custom-keyboard-iso-layout-collection");
-
-            URL_Add("Keychron Q65_", "https://www.keychron.com/products/keychron-q65-qmk-custom-mechanical-keyboard");
-
-            URL_Add("Keychron&nbsp;Lemokey&nbsp;L1_", "https://www.keychron.com/products/lemokey-l1-qmk-via-wireless-custom-gaming-keyboard");
-
-            URL_Add("Keychron&nbsp;Lemokey&nbsp;L3_", "https://www.keychron.com/products/lemokey-l3-qmk-via-wireless-custom-mechanical-keyboard");
-
-            URL_Add("Keychron V5 ISO_", "https://www.keychron.com/products/keychron-v5-qmk-custom-mechanical-keyboard-iso-layout-collection");
-
-            URL_Add("Keychron V6 ISO_", "https://github.com/qmk/qmk_firmware/blob/master/keyboards/keychron/v6/iso_encoder/keymaps/default/keymap.c");
-
-            URL_Add("Keychron&nbsp;P6&nbsp;Ultra&nbsp;8K_", "https://www.keychron.com/products/keychron-p6-ultra-8k-wireless-custom-mechanical-keyboard");
-
             URL_Add("kilo_", "https://en.wiktionary.org/wiki/kilo-#Prefix");
 
             URL_Add("mega_", "https://en.wiktionary.org/wiki/mega-#Prefix");
@@ -170593,10 +170459,6 @@ namespace OverflowHelper.core
             URL_Add("short string optimisation_", "https://stackoverflow.com/questions/10315041/meaning-of-acronym-sso-in-the-context-of-stdstring/10319672#10319672");
 
             URL_Add("long story short_", "https://en.wiktionary.org/wiki/long_story_short#Adverb");
-
-            URL_Add("stenography_", "https://en.wikipedia.org/wiki/Shorthand");
-
-            URL_Add("key combinations_", "https://en.wikipedia.org/wiki/Keyboard_shortcut");
 
             URL_Add("a lot_", "https://www.wikihow.com/Tell-the-Difference-Between-Alot,-Allot-and-A-Lot");
 
@@ -171123,6 +170985,156 @@ namespace OverflowHelper.core
             URL_Add("MacBook Pro M1_", "https://en.wikipedia.org/wiki/MacBook_Pro#14-inch_and_16-inch_(2021%E2%80%93present)"); // Old: https://en.wikipedia.org/wiki/MacBook_Pro#Sixth_generation_(M1)
 
             URL_Add("thorough_", "https://en.wiktionary.org/wiki/thorough#Adjective");
+
+            URL_Add("handle_", "https://en.wiktionary.org/wiki/handle#Verb");
+
+            URL_Add("firsthand_", "https://en.wiktionary.org/wiki/firsthand#Adverb");
+
+            URL_Add("right-hand_", "https://en.wiktionary.org/wiki/right-hand#Adjective");
+
+            URL_Add("hands down_", "https://en.wiktionary.org/wiki/hands_down#Adverb");
+
+            URL_Add("interrupt service routine_", "https://en.wikipedia.org/wiki/Interrupt_handler");
+
+            URL_Add("stenography_", "https://en.wikipedia.org/wiki/Shorthand");
+
+            URL_Add("slightly reduced selection of keycaps_", "https://switchandclick.com/mechanical-keyboard-switch-guide/");
+
+            URL_Add("key combinations_", "https://en.wikipedia.org/wiki/Keyboard_shortcut");
+
+            URL_Add("teal_", "https://en.wikipedia.org/wiki/Teal");
+
+            URL_Add("green_", "https://en.wikipedia.org/wiki/Environmentally_friendly");
+
+            URL_Add("redshift_", "https://en.wiktionary.org/wiki/redshift#Verb");
+
+            URL_Add("an utterly insignificant little blue-green planet_", "https://www.youtube.com/watch?v=rAh1JxNGkAM&list=PLSoD2CcPrumFJREVL6RmMnZP5U7sGYYi2&index=26&t=4s");
+
+            URL_Add("apples and oranges_", "https://en.wiktionary.org/wiki/apples_and_oranges#Noun");
+
+            URL_Add("Bluetooth_", "https://en.wikipedia.org/wiki/Bluetooth2");
+
+            URL_Add("qmk clean_", "https://www.reddit.com/r/Keychron/comments/1h6lsza/comment/nbnvbyq/");
+
+            URL_Add("qmk flash_", "https://docs.qmk.fm/newbs_flashing#flash-your-keyboard-from-the-command-line");
+
+            URL_Add("use of FRAM in an ATmega32U4-based QMK keyboard to get unlimited space for Via/Vial macros_", "https://www.reddit.com/r/olkb/comments/18lpxpp/comment/ke5nobu/");
+
+            URL_Add("r/olkb_", "https://www.reddit.com/r/olkb/new/");
+
+            URL_Add("Cooler Master exited the mechanical keyboards and mice business_", "https://www.reddit.com/r/coolermaster/comments/1c87jl5/coolermaster_is_dropping_the_ball_on_the_mm712_pro/");
+
+            URL_Add("GMK87_", "https://www.reddit.com/r/BudgetKeebs/comments/1aguhfh/gmk87_after_3_weeks_my_experience/");
+
+            URL_Add("space bar method to enter bootloader mode on QMK keyboards_", "https://www.reddit.com/r/Keychron/comments/194x73s/comment/khs7y49/");
+
+            URL_Add("south-facing blinding light_", "https://www.reddit.com/r/MechanicalKeyboards/comments/ysn0nh/fix_blinding_light_from_southfacing_leds/");
+
+            URL_Add("Hall effect switches with north-pole magnets facing downward_", "https://www.monsgeek.com/blog/magnetic-switch-compatibility-how-to-know-if-they-work-with-your-keyboard/");
+
+            URL_Add("Vial_", "https://github.com/vial-kb/vial-qmk/tree/vial/keyboards/keychron");
+
+            URL_Add("QMK_", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/keychron");
+
+            URL_Add("key debounce_", "https://www.ganssle.com/debouncing.htm"); // Old: <http://www.ganssle.com/debouncing.htm>
+
+            URL_Add("The QMK default key debounce time is 5 ms_", "https://docs.qmk.fm/feature_debounce_type#debounce-time");
+
+            URL_Add("Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_", "https://www.reddit.com/r/Keychron/comments/1fh6h26/comment/lp044qi/");
+
+            URL_Add("one-shot keys_", "https://github.com/qmk/qmk_firmware/blob/master/docs/one_shot_keys.md");
+
+            URL_Add("one-shot layer keys_", "https://docs.qmk.fm/one_shot_keys#keycodes");
+
+            URL_Add("tap dance_", "https://github.com/qmk/qmk_firmware/blob/master/docs/features/tap_dance.md"); // Old: <https://github.com/qmk/qmk_firmware/blob/master/docs/feature_tap_dance.md>
+
+            URL_Add("Esc key method to reset to factory defaults on QMK keyboards_", "https://www.reddit.com/r/Keychron/comments/194x73s/comment/khs7y49/");
+
+            URL_Add("QMK keycode_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("full NKRO busts the Keychron keyboards in wireless mode_", "https://www.reddit.com/r/Keychron/comments/198jmqn/comment/l0vwnbr/");
+
+            URL_Add("Git branch \"wireless_playground\" in Keychron's fork_", "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/v6_max");
+
+            URL_Add("the gasket problem_", "https://www.reddit.com/r/Keychron/comments/1fh6h26/comment/mqitys7/");
+
+            URL_Add("wired, Bluetooth, and '2.4 GHz'_", "https://www.durgod.com/blogs/what-is-dual-mode-and-tri-mode-in-mechanical-keyboard/");
+
+            URL_Add("MasterPlus+_", "https://www.reddit.com/r/coolermaster/comments/193b652/coolermaster_masterplus_v194_released_december_27/");
+
+            URL_Add("MasterPlus+ 1.9.5_", "https://www.reddit.com/r/coolermaster/comments/1c4bhvz/coolermaster_masterplus_v195_released_april_10/");
+
+            URL_Add("CK550 V2_", "https://pmortensen.eu/world2/2023/02/13/low-cost-fully-macro-capable-mechanical-keyboard-cooler-master-ck-550/");
+
+            URL_Add("Solid colour_", "https://pmortensen.eu/world2/2023/06/19/keychron-v5-a-reasonably-priced-fully-macro-capable-qmk-based-mechanical-keyboard#LightingModes");
+
+            URL_Add("Enlightenment_", "https://en.wikipedia.org/wiki/Enlightenment_(software)");
+
+            URL_Add("encoder_", "https://en.wiktionary.org/wiki/encoder#Noun");
+
+            URL_Add("encoders_", "https://en.wiktionary.org/wiki/encoder#Noun");
+
+            URL_Add("URL encoded_", "https://en.wikipedia.org/wiki/Percent-encoding");
+
+            URL_Add("URL encoding_", "https://en.wikipedia.org/wiki/Percent-encoding");
+
+            URL_Add("characteristic_", "https://en.wiktionary.org/wiki/characteristic#Noun");
+
+            URL_Add("character_", "https://en.wiktionary.org/wiki/character#Noun"); // Old: https://en.wiktionary.org/wiki/characters
+
+            URL_Add("ASCII_", "https://en.wikipedia.org/wiki/Code_page_437#Character_set");
+
+            URL_Add("ANSI_", "https://en.wikipedia.org/wiki/British_and_American_keyboards#Windows_keyboards");
+
+            URL_Add("ZSA Voyager_", "https://www.youtube.com/watch?v=VYQ0gyhjRXc");
+
+            URL_Add("Kinesis Advantage 2_", "https://en.wikipedia.org/wiki/Kinesis_(keyboard)#Advantage_360");
+
+            URL_Add("Razer BlackWidow_", "https://web.archive.org/web/20230509163448/https://en.wikipedia.org/wiki/List_of_Razer_products#Keyboards"); // Old: <https://en.wikipedia.org/wiki/List_of_Razer_products#Keyboards>. Even older: <https://www.razer.com/gaming-keyboards-keypads/razer-blackwidow>
+
+            URL_Add("Keychron Launcher_", "https://www.launcher.keychron.com/#/keymap");
+
+            URL_Add("Keychron&nbsp;B1&nbsp;Pro_", "https://www.keychron.com/products/keychron-b1-pro-ultra-slim-wireless-keyboard");
+
+            URL_Add("Keychron&nbsp;B4&nbsp;Pro_", "https://www.keychron.com/products/keychron-b4-pro-ultra-slim-wireless-keyboard");
+
+            URL_Add("Keychron C2_", "https://www.keychron.com/products/keychron-c2-wired-mechanical-keyboard");
+
+            URL_Add("Keychron K1_", "https://www.keychron.com/products/keychron-k1-wireless-mechanical-keyboard");
+
+            URL_Add("Keychron K2_", "https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard-uk-iso-layout");
+
+            URL_Add("Keychron K3_", "https://www.keychron.com/collections/k3-iso-keyboards/products/keychron-k3-ultra-slim-wireless-mechanical-keyboard-nordic-iso-layout-version-2");
+
+            URL_Add("Keychron K5_", "https://www.keychron.com/products/keychron-k5-ultra-slim-wireless-mechanical-keyboard");
+
+            URL_Add("Keychron&nbsp;K10 (100%)_", "https://www.keychron.at/collections/keychron-uk-iso-keyboards/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout"); // Old: <https://www.keychron.uk/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout>
+
+            URL_Add("Keychron&nbsp;K7&nbsp;Pro_", "https://www.keychron.com/products/keychron-k7-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
+
+            URL_Add("Keychron&nbsp;K11&nbsp;Max_", "https://www.keychron.com/products/keychron-k11-max-qmk-via-wireless-custom-mechanical-keyboard");
+
+            URL_Add("Keychron&nbsp;K17&nbsp;Max_", "https://www.keychron.com/products/keychron-k17-max-qmk-via-wireless-custom-mechanical-keyboard");
+
+            URL_Add("Keychron&nbsp;K2&nbsp;HE (80%)_", "https://www.keychron.com/products/keychron-k2-he-wireless-magnetic-switch-keyboard"); // Old: <https://www.keychron.com/pages/keychron-k2-he-landing-page>
+
+            URL_Add("Keychron Q8_", "https://www.keychron.com/products/keychron-q8-alice-layout-qmk-custom-mechanical-keyboard");
+
+            URL_Add("Keychron Q12_", "https://www.keychron.com/products/keychron-q12-qmk-custom-mechanical-keyboard");
+
+            URL_Add("Keychron&nbsp;Q1&nbsp;HE_", "https://www.keychron.com/products/keychron-q1-he-qmk-wireless-custom-keyboard-iso-layout-collection");
+
+            URL_Add("Keychron Q65_", "https://www.keychron.com/products/keychron-q65-qmk-custom-mechanical-keyboard");
+
+            URL_Add("Keychron&nbsp;Lemokey&nbsp;L1_", "https://www.keychron.com/products/lemokey-l1-qmk-via-wireless-custom-gaming-keyboard");
+
+            URL_Add("Keychron&nbsp;Lemokey&nbsp;L3_", "https://www.keychron.com/products/lemokey-l3-qmk-via-wireless-custom-mechanical-keyboard");
+
+            URL_Add("Keychron V5 ISO_", "https://www.keychron.com/products/keychron-v5-qmk-custom-mechanical-keyboard-iso-layout-collection");
+
+            URL_Add("Keychron V6 ISO_", "https://github.com/qmk/qmk_firmware/blob/master/keyboards/keychron/v6/iso_encoder/keymaps/default/keymap.c");
+
+            URL_Add("Keychron&nbsp;P6&nbsp;Ultra&nbsp;8K_", "https://www.keychron.com/products/keychron-p6-ultra-8k-wireless-custom-mechanical-keyboard");
 
         } //addLookupData_alternativeWordSet()
 
