@@ -3312,7 +3312,10 @@ eval ${LFTP_COMMAND}  ; evaluateBuildResult 38 $? "copying the HTML word list to
 #                     Cloudflare wasn't sufficient.
 #
 #                     It was working again on 2026-09-21, but
-#                     apparently with rate limits.
+#                     apparently with rate limits. Thus, now
+#                     the new normal is intermittent failure,
+#                     especially if running the script more
+#                     once per day...
 #
 if [ ${DISABLE_HTMLVALIDATION} != 1 ]; then
     HTML_validation      EditOverflow.php                   "Edit Overflow lookup"    39

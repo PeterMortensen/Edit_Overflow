@@ -13,7 +13,7 @@ let correct2URL = {};
 
 
 
-// The list... 75698 incorrect words and 24698 correct words.
+// The list... 75719 incorrect words and 24703 correct words.
 
 incorrect2correct["-__"] = "- (ASCII. 45 (decimal). 2D (hexadecimal). 55 (octal))__";
 incorrect2correct["- (ASCII. 45 (decimal). 2D (hexadecimal). 55 (octal))__"] = "- (ASCII. 45 (decimal). 2D (hexadecimal). 55 (octal))__";
@@ -43772,6 +43772,7 @@ incorrect2correct["didn t"] = "didn’t";
 incorrect2correct["didn;t"] = "didn’t";
 incorrect2correct["didn't"] = "didn’t";
 incorrect2correct["didn\"t"] = "didn’t";
+incorrect2correct["DIDN\"T"] = "didn’t";
 incorrect2correct["didn`t"] = "didn’t";
 incorrect2correct["didn´t"] = "didn’t";
 incorrect2correct["Didn´t"] = "didn’t";
@@ -48217,6 +48218,14 @@ incorrect2correct["Early effect"] = "Early effect";
 correct2URL["Early effect"] = "https://en.wikipedia.org/wiki/Early_effect";
 
 
+incorrect2correct["earbuds"] = "earphones";
+incorrect2correct["earphones"] = "earphones";
+correct2URL["earphones"] = "https://en.wikipedia.org/wiki/Headphones#Earphones";
+
+
+incorrect2correct["earphone"] = "earphones";
+incorrect2correct["earpone"] = "earphones";
+incorrect2correct["in-ear monitors"] = "earphones";
 incorrect2correct["a disintegrated pile of rubble"] = "Earth";
 incorrect2correct["Earth"] = "Earth";
 correct2URL["Earth"] = "https://en.wikipedia.org/wiki/Earth";
@@ -51228,6 +51237,12 @@ correct2URL["enjoy"] = "https://en.wiktionary.org/wiki/enjoy#Verb";
 
 
 incorrect2correct["nJoy"] = "enjoy";
+incorrect2correct["an,joying"] = "enjoying";
+incorrect2correct["enjoying"] = "enjoying";
+correct2URL["enjoying"] = "https://en.wiktionary.org/wiki/enjoy#Verb";
+
+
+incorrect2correct["anjoying"] = "enjoying";
 incorrect2correct["enlightn"] = "enlighten";
 incorrect2correct["enlighten"] = "enlighten";
 correct2URL["enlighten"] = "https://en.wiktionary.org/wiki/enlighten#Verb";
@@ -51434,6 +51449,7 @@ incorrect2correct["entire"] = "entire";
 correct2URL["entire"] = "https://en.wiktionary.org/wiki/entire#Adjective";
 
 
+incorrect2correct["entiere"] = "entire";
 incorrect2correct["eniterely"] = "entirely";
 incorrect2correct["entirely"] = "entirely";
 correct2URL["entirely"] = "https://en.wiktionary.org/wiki/entirely#Adverb";
@@ -57382,6 +57398,11 @@ correct2URL["firsthand"] = "https://en.wiktionary.org/wiki/firsthand#Adjective";
 
 incorrect2correct["first-hand"] = "firsthand";
 incorrect2correct["Firsthand"] = "firsthand";
+incorrect2correct["first hand_"] = "firsthand_";
+incorrect2correct["firsthand_"] = "firsthand_";
+correct2URL["firsthand_"] = "https://en.wiktionary.org/wiki/firsthand#Adverb";
+
+
 incorrect2correct["firsly"] = "firstly";
 incorrect2correct["firstly"] = "firstly";
 correct2URL["firstly"] = "https://en.wiktionary.org/wiki/firstly#Adverb";
@@ -60185,6 +60206,7 @@ incorrect2correct["F*CK___"] = "fuck___";
 incorrect2correct["f&%k___"] = "fuck___";
 incorrect2correct["F&%K___"] = "fuck___";
 incorrect2correct["f#ck___"] = "fuck___";
+incorrect2correct["fck___"] = "fuck___";
 incorrect2correct["fk___"] = "fuck___";
 incorrect2correct["Fk___"] = "fuck___";
 incorrect2correct["FK___"] = "fuck___";
@@ -60283,6 +60305,7 @@ incorrect2correct["fucks_"] = "fucks_";
 correct2URL["fucks_"] = "https://en.wiktionary.org/wiki/fuck#Verb";
 
 
+incorrect2correct["fcks_"] = "fucks_";
 incorrect2correct["fuxks_"] = "fucks_";
 incorrect2correct["f-up"] = "fuckup";
 incorrect2correct["fuckup"] = "fuckup";
@@ -82215,6 +82238,7 @@ incorrect2correct["keyword_"] = "keyboard_";
 incorrect2correct["kib_"] = "keyboard_";
 incorrect2correct["kibot_"] = "keyboard_";
 incorrect2correct["kiyboard_"] = "keyboard_";
+incorrect2correct["kleyboard_"] = "keyboard_";
 incorrect2correct["kpd_"] = "keyboard_";
 incorrect2correct["meyblard_"] = "keyboard_";
 incorrect2correct["normie board_"] = "keyboard_";
@@ -83603,6 +83627,8 @@ incorrect2correct["B1 Pro_"] = "Keychron&nbsp;B1&nbsp;Pro_";
 incorrect2correct["B1 PRO_"] = "Keychron&nbsp;B1&nbsp;Pro_";
 incorrect2correct["B1_"] = "Keychron&nbsp;B1&nbsp;Pro_";
 incorrect2correct["B1&nbsp;Pro_"] = "Keychron&nbsp;B1&nbsp;Pro_";
+incorrect2correct["B1pro_"] = "Keychron&nbsp;B1&nbsp;Pro_";
+incorrect2correct["B1Pro_"] = "Keychron&nbsp;B1&nbsp;Pro_";
 incorrect2correct["keychorn b1 pro_"] = "Keychron&nbsp;B1&nbsp;Pro_";
 incorrect2correct["keychron b1 pro_"] = "Keychron&nbsp;B1&nbsp;Pro_";
 incorrect2correct["Keychron B1 Pro_"] = "Keychron&nbsp;B1&nbsp;Pro_";
@@ -97860,6 +97886,11 @@ correct2URL["Mini-USB"] = "https://en.wikipedia.org/wiki/USB_hardware#Mini_conne
 
 
 incorrect2correct["usb mini"] = "Mini-USB";
+incorrect2correct["minis"] = "miniature models";
+incorrect2correct["miniature models"] = "miniature models";
+correct2URL["miniature models"] = "https://en.wikipedia.org/wiki/Miniature_model_(gaming)";
+
+
 incorrect2correct["micro switch"] = "miniature snap-action switch";
 incorrect2correct["miniature snap-action switch"] = "miniature snap-action switch";
 correct2URL["miniature snap-action switch"] = "https://en.wikipedia.org/wiki/Miniature_snap-action_switch";
@@ -106792,6 +106823,7 @@ incorrect2correct["NuPhy Air96 V2"] = "NuPhy Air96 V2";
 correct2URL["NuPhy Air96 V2"] = "https://github.com/nuphy-src/qmk_firmware/tree/nuphy-keyboards/keyboards/nuphy/air96_v2/ansi";
 
 
+incorrect2correct["Air 96v2"] = "NuPhy Air96 V2";
 incorrect2correct["air96"] = "NuPhy Air96 V2";
 incorrect2correct["Air96"] = "NuPhy Air96 V2";
 incorrect2correct["air96 v2"] = "NuPhy Air96 V2";
@@ -134849,6 +134881,7 @@ incorrect2correct["gnu-screen"] = "Screen";
 incorrect2correct["GNU/screen"] = "Screen";
 incorrect2correct["gnusceen"] = "Screen";
 incorrect2correct["GnuScreen"] = "Screen";
+incorrect2correct["sceen"] = "Screen";
 incorrect2correct["screen"] = "Screen";
 incorrect2correct["SCREEN"] = "Screen";
 incorrect2correct["Screen Capture"] = "screen capture";
@@ -140688,6 +140721,7 @@ incorrect2correct["Snell's law"] = "Snell's law";
 correct2URL["Snell's law"] = "https://en.wikipedia.org/wiki/Snell's_law";
 
 
+incorrect2correct["Snells law"] = "Snell's law";
 incorrect2correct["Sniper Elite 3"] = "Sniper Elite III";
 incorrect2correct["Sniper Elite III"] = "Sniper Elite III";
 correct2URL["Sniper Elite III"] = "https://en.wikipedia.org/wiki/Sniper_Elite_III";
@@ -164503,6 +164537,8 @@ correct2URL["version control system"] = "https://en.wikipedia.org/wiki/Version_c
 
 incorrect2correct["VCS"] = "version control system";
 incorrect2correct["Version Control"] = "version control system";
+incorrect2correct["version control software"] = "version control system";
+incorrect2correct["Version Control Software"] = "version control system";
 incorrect2correct["version-control system"] = "version control system";
 incorrect2correct["versionning"] = "versioning";
 incorrect2correct["versioning"] = "versioning";
@@ -167062,6 +167098,11 @@ correct2URL["WarGames"] = "https://en.wikipedia.org/wiki/WarGames";
 incorrect2correct["War Games"] = "WarGames";
 incorrect2correct["wargames"] = "WarGames";
 incorrect2correct["WARGAMES"] = "WarGames";
+incorrect2correct["warhammer"] = "Warhammer";
+incorrect2correct["Warhammer"] = "Warhammer";
+correct2URL["Warhammer"] = "https://en.wikipedia.org/wiki/Warhammer_(game)";
+
+
 incorrect2correct["40K"] = "Warhammer 40,000";
 incorrect2correct["Warhammer 40,000"] = "Warhammer 40,000";
 correct2URL["Warhammer 40,000"] = "https://en.wikipedia.org/wiki/Warhammer_40,000";
