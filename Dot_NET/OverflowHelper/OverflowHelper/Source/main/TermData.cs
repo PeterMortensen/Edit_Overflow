@@ -1599,6 +1599,7 @@ namespace OverflowHelper.core
 
             // The verb
             correctionAdd("look's", "looks");
+            correctionAdd("loocks", "looks");
             correctionAdd("loks", "looks");
             correctionAdd("loos", "looks");
             correctionAdd("Lols", "looks");
@@ -6623,6 +6624,7 @@ namespace OverflowHelper.core
 
             correctionAdd(".dmg", "Apple Disk Image");
             correctionAdd("dmg", "Apple Disk Image");
+            correctionAdd("DMG", "Apple Disk Image");
 
             correctionAdd("Apple developer", "Apple Developer");
             correctionAdd("apple developer", "Apple Developer");
@@ -20083,6 +20085,40 @@ namespace OverflowHelper.core
 
             correctionAdd("disproven", "disproved");
 
+            correctionAdd("cpen", "open");
+            correctionAdd("Cpen", "open");
+            correctionAdd("opne", "open");
+            correctionAdd("oepn", "open");
+            correctionAdd("ope", "open");
+
+            correctionAdd("openning", "opening");
+            correctionAdd("operning", "opening");
+            correctionAdd("opeing", "opening");
+
+            correctionAdd("Openend", "opened");
+            correctionAdd("openend", "opened");
+            correctionAdd("oppened", "opened");
+            correctionAdd("opend", "opened");
+
+            correctionAdd("re-open", "reopen");
+            correctionAdd("Re-open", "reopen");
+            correctionAdd("re open", "reopen");
+            correctionAdd("ReOpen", "reopen");
+            correctionAdd("Reopen", "reopen");
+            correctionAdd("reOpen", "reopen");
+
+            correctionAdd("re-opening", "reopening");
+            correctionAdd("reopenning", "reopening");
+
+            correctionAdd("reopended", "reopened");
+            correctionAdd("re-opened", "reopened");
+
+            correctionAdd("openup", "open up");
+
+            correctionAdd("open ended", "open-ended");
+            correctionAdd("ooen-ended", "open-ended");
+            correctionAdd("openended", "open-ended");
+
             correctionAdd("additive", "addictive");
 
             correctionAdd("stabble", "stable");
@@ -21014,6 +21050,14 @@ namespace OverflowHelper.core
             // Linux
             correctionAdd("xdg open", "xdg-open");
             correctionAdd("Xdg-open", "xdg-open");
+
+            correctionAdd("Nx open", "NX Open");
+            correctionAdd("NXOpen", "NX Open");
+
+            correctionAdd("Getx", "GetX");
+            correctionAdd("getX", "GetX");
+
+            correctionAdd("x/open", "X/Open");
 
             // Linux. GUI.
             correctionAdd("X Desktop Group", "freedesktop.org");
@@ -22334,6 +22378,8 @@ namespace OverflowHelper.core
             // A Linux/Unix shell
             correctionAdd("Fish Shell", "Fish (executable `fish`)");
             correctionAdd("Fish shell", "Fish (executable `fish`)");
+            correctionAdd("fish shell", "Fish (executable `fish`)");
+            correctionAdd("fish-shell", "Fish (executable `fish`)");
             correctionAdd("FISH", "Fish (executable `fish`)");
             correctionAdd("fish", "Fish (executable `fish`)");
             correctionAdd("Fish", "Fish (executable `fish`)");
@@ -27064,9 +27110,6 @@ namespace OverflowHelper.core
             correctionAdd("boarder", "border");
             correctionAdd("BOARDER", "border");
             correctionAdd("Border", "border");
-
-            correctionAdd("Board", "board");
-            correctionAdd("bd", "board");
 
             correctionAdd("problem exists between chair and keyboard", "PEBCAK");
             correctionAdd("Problem exists between keyboard and chair", "PEBCAK");
@@ -31972,15 +32015,15 @@ namespace OverflowHelper.core
             correctionAdd("scrappe", "scrape");
             correctionAdd("scrap", "scrape");
 
-            // Probably idiomatic
-            correctionAdd("Scraping the bottom of the barrel", "scraping the bottom of the barrel");
-
             correctionAdd("scrapping", "scraping");
             correctionAdd("Scrapping", "scraping");
 
             correctionAdd("scrapped", "scraped");
 
             correctionAdd("scaper", "scraper");
+
+            // Probably idiomatic
+            correctionAdd("Scraping the bottom of the barrel", "scraping the bottom of the barrel");
 
             correctionAdd("screen scrape", "screen-scrape");
             correctionAdd("screen scrabe", "screen-scrape");
@@ -40456,19 +40499,6 @@ namespace OverflowHelper.core
             correctionAdd("un-optimal", "nonoptimal");
             correctionAdd("unoptimal", "nonoptimal");
 
-            correctionAdd("r*pe", "rape");
-            correctionAdd("R*PE", "rape");
-
-            correctionAdd("r*ping", "raping");
-            correctionAdd("R*PING", "raping");
-
-            correctionAdd("r*ped", "raped");
-            correctionAdd("R*PED", "raped");
-
-            correctionAdd("traped", "trapped");
-
-            correctionAdd("Sour Grapes", "sour grapes");
-
             correctionAdd("wraped", "wrapped");
 
             correctionAdd("wraping", "wrapping");
@@ -47480,6 +47510,7 @@ namespace OverflowHelper.core
             correctionAdd("fritzing", "Fritzing");
 
             // Electronics
+            correctionAdd("board", "PCB");
             correctionAdd("PCbs", "PCB"); // Not 100% correct - plural.
             correctionAdd("pcb", "PCB");
             correctionAdd("pbc", "PCB");
@@ -53570,6 +53601,12 @@ namespace OverflowHelper.core
 
             correctionAdd("INI", "INI file");
 
+            // A file format for scanned documents
+            correctionAdd("djvu", "DjVu");
+
+            // Open source software to read the DjVu file format
+            correctionAdd("DjvuLibre", "DjVuLibre");
+
             correctionAdd("Vector Markup Language", "VML");
 
             correctionAdd("Scalable Vector Graphics", "SVG");
@@ -54044,13 +54081,6 @@ namespace OverflowHelper.core
             correctionAdd("melked", "milked");
 
             correctionAdd("milp", "MILP");
-
-            correctionAdd("laufing", "laughing");
-
-            correctionAdd("laughbale", "laughable");
-            correctionAdd("laugable", "laughable");
-
-            correctionAdd("slauther", "slaughter");
 
             correctionAdd("z order", "Z-order");
             correctionAdd("Z order", "Z-order");
@@ -59438,6 +59468,7 @@ namespace OverflowHelper.core
             correctionAdd("Joint Strike Fighter", "F-35");
             correctionAdd("joint strike fighter", "F-35");
             correctionAdd("JOINT STRIKE FIGHTER", "F-35");
+            correctionAdd("F 30 five", "F-35");
             correctionAdd("f-35", "F-35");
             correctionAdd("JSF", "F-35");
             correctionAdd("F35", "F-35");
@@ -59759,39 +59790,6 @@ namespace OverflowHelper.core
             correctionAdd("Altrurist", "altruist");
             correctionAdd("Altruist", "altruist");
 
-            correctionAdd("cpen", "open");
-            correctionAdd("Cpen", "open");
-            correctionAdd("opne", "open");
-            correctionAdd("oepn", "open");
-
-            correctionAdd("openning", "opening");
-            correctionAdd("operning", "opening");
-            correctionAdd("opeing", "opening");
-
-            correctionAdd("Openend", "opened");
-            correctionAdd("openend", "opened");
-            correctionAdd("oppened", "opened");
-            correctionAdd("opend", "opened");
-
-            correctionAdd("re-open", "reopen");
-            correctionAdd("Re-open", "reopen");
-            correctionAdd("re open", "reopen");
-            correctionAdd("ReOpen", "reopen");
-            correctionAdd("Reopen", "reopen");
-            correctionAdd("reOpen", "reopen");
-
-            correctionAdd("re-opening", "reopening");
-            correctionAdd("reopenning", "reopening");
-
-            correctionAdd("reopended", "reopened");
-            correctionAdd("re-opened", "reopened");
-
-            correctionAdd("openup", "open up");
-
-            correctionAdd("open ended", "open-ended");
-            correctionAdd("ooen-ended", "open-ended");
-            correctionAdd("openended", "open-ended");
-
             // The adverb
             correctionAdd("nut shell", "nutshell");
             correctionAdd("Nutshell", "nutshell");
@@ -59974,6 +59972,7 @@ namespace OverflowHelper.core
             correctionAdd("communucate", "communicate");
             correctionAdd("comminicate", "communicate");
             correctionAdd("commuicate", "communicate");
+            correctionAdd("comunicate", "communicate");
 
             correctionAdd("communites", "communicates");
 
@@ -67357,8 +67356,19 @@ namespace OverflowHelper.core
             //     2nd gen Kailh hot-swap sockets.
             //     Allegedly, rated for 6,000 insertions.
             //
+            // For the switch itself, "crosspoint":
+            //
+            //   <https://deskthority.net/wiki/Gold_crosspoint>
+            //   <https://www.cherry.de/en-us/product/mx2a-northern-light>
+            //     "Market-leading CHERRY Gold Crosspoint technology"
+            //
+            //     Other variations: "Gold-Crosspoint"
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1wnudso/comment/pbjqqma/>
+            //
             correctionAdd("hot-swappable switches", "hot-swappable"); // Not 100% correct
             correctionAdd("swappable switches", "hot-swappable"); // Not 100% correct
+            correctionAdd("crosspoint contact", "hot-swappable"); // Inside the switch, but this was likely a simulated intelligence hallucination
             correctionAdd("Hot swap sockets", "hot-swappable");
             correctionAdd("hot swap sockets", "hot-swappable");
             correctionAdd("hot-swap sockets", "hot-swappable");
@@ -67401,6 +67411,8 @@ namespace OverflowHelper.core
             correctionAdd("Hotswabble", "hot-swappable");
             correctionAdd("hotswabble", "hot-swappable");
             correctionAdd("hot switch", "hot-swappable");
+            correctionAdd("Crosspoint", "hot-swappable"); // Inside the switch, but this was likely a simulated intelligence hallucination
+            correctionAdd("crosspoint", "hot-swappable"); // Inside the switch, but this was likely a simulated intelligence hallucination
             correctionAdd("hot swamp", "hot-swappable");
             correctionAdd("Swappable", "hot-swappable");
             correctionAdd("swappable", "hot-swappable");
@@ -69292,6 +69304,8 @@ namespace OverflowHelper.core
             // "Exploded" keys (animation): <https://www.corsair.com/us/en/k70-rgb-gaming-keyboard>
             //
             // Alternative URLs:
+            //
+            //   <https://switchandclick.com/cherry-mx-guide/>
             //
             //   <https://www.mechanicalkeyboards.com/switches/index.php?brand=Cherry>
             //
@@ -81957,12 +81971,6 @@ namespace OverflowHelper.core
             correctionAdd("BaU", "business as usual");
             correctionAdd("BAU", "business as usual");
 
-            correctionAdd("lmao", "LMAO");
-            correctionAdd("IMAO", "LMAO");
-            correctionAdd("Imao", "LMAO");
-            correctionAdd("Lmao", "LMAO");
-            correctionAdd("imao", "LMAO");
-
             // Web development
             correctionAdd("flash of unstyled text", "flash of unstyled content");
             correctionAdd("FOUC", "flash of unstyled content");
@@ -85054,6 +85062,7 @@ namespace OverflowHelper.core
             correctionAdd("v4 max", "Keychron V4 Max");
             correctionAdd("V4 max", "Keychron V4 Max");
             correctionAdd("V4 Max", "Keychron V4 Max");
+            correctionAdd("V4 MAX", "Keychron V4 Max");
 
             // A 62-key (60%. Not true TKL) severely crippled
             // low-profile wired and wireless (only Bluetooth)
@@ -105524,9 +105533,6 @@ namespace OverflowHelper.core
             correctionAdd("sub-par", "subpar");
             correctionAdd("sub par", "subpar");
 
-            correctionAdd("Nx open", "NX Open");
-            correctionAdd("NXOpen", "NX Open");
-
             correctionAdd("cries faul", "cries foul");
 
             correctionAdd("win win", "win-win");
@@ -105577,14 +105583,9 @@ namespace OverflowHelper.core
             // Is NOT PowerShell related...
             correctionAdd("commons math", "Commons-Math");
 
-            correctionAdd("Getx", "GetX");
-            correctionAdd("getX", "GetX");
-
             correctionAdd("Criminology", "criminology");
 
             correctionAdd("ganagsters", "gangsters");
-
-            correctionAdd("x/open", "X/Open");
 
             correctionAdd("jinja", "Jinja");
 
@@ -107411,6 +107412,10 @@ namespace OverflowHelper.core
 
             correctionAdd("restle", "wrestle");
 
+            correctionAdd("traped", "trapped");
+
+            correctionAdd("Sour Grapes", "sour grapes");
+
             correctionAdd("pissig", "pissing");
 
             correctionAdd("p***ed", "pissed");
@@ -107548,6 +107553,33 @@ namespace OverflowHelper.core
             correctionAdd("motherfkr", "motherfucker");
             correctionAdd("mofo", "motherfucker");
             correctionAdd("mfer", "motherfucker");
+
+            correctionAdd("laufing", "laughing");
+
+            correctionAdd("laughbale", "laughable");
+            correctionAdd("laugable", "laughable");
+
+            correctionAdd("LMFAO", "laughing my fucking ass off"); // The official abbr.
+            correctionAdd("lmfao", "laughing my fucking ass off");
+
+            correctionAdd("lmaoo", "laughing my ass off");
+            correctionAdd("LMAO", "laughing my ass off"); // The official abbr.
+            correctionAdd("lmao", "laughing my ass off");
+            correctionAdd("IMAO", "laughing my ass off");
+            correctionAdd("Imao", "laughing my ass off");
+            correctionAdd("Lmao", "laughing my ass off");
+            correctionAdd("imao", "laughing my ass off");
+
+            correctionAdd("slauther", "slaughter");
+
+            correctionAdd("r*pe", "rape");
+            correctionAdd("R*PE", "rape");
+
+            correctionAdd("r*ping", "raping");
+            correctionAdd("R*PING", "raping");
+
+            correctionAdd("r*ped", "raped");
+            correctionAdd("R*PED", "raped");
 
             correctionAdd("pen!s", "penis");
             correctionAdd("P*NIS", "penis");
@@ -118745,7 +118777,9 @@ namespace OverflowHelper.core
 
             URL_Add("JKL;", "https://en.wikipedia.org/wiki/Touch_typing");
 
-            URL_Add("LMAO", "https://en.wiktionary.org/wiki/LMAO#Phrase");
+            URL_Add("laughing my ass off", "https://en.wiktionary.org/wiki/LMAO#Phrase");
+
+            URL_Add("laughing my fucking ass off", "https://en.wiktionary.org/wiki/LMFAO#Interjection");
 
             URL_Add("come up", "https://en.wiktionary.org/wiki/come_up#Verb");
 
@@ -129600,8 +129634,6 @@ namespace OverflowHelper.core
             URL_Add("cardboard", "https://en.wiktionary.org/wiki/cardboard#Noun");
 
             URL_Add("clipboard", "https://en.wiktionary.org/wiki/clipboard#Noun");
-
-            URL_Add("board", "https://en.wiktionary.org/wiki/board#Noun");
 
             URL_Add("Radon–Nikodym theorem", "https://en.wikipedia.org/wiki/Radon%E2%80%93Nikodym_theorem");
 
@@ -147435,6 +147467,10 @@ namespace OverflowHelper.core
 
             URL_Add("DigitalOcean", "https://en.wikipedia.org/wiki/DigitalOcean");
 
+            URL_Add("DjVu", "https://en.wikipedia.org/wiki/DjVu");
+
+            URL_Add("DjVuLibre", "https://djvu.sourceforge.net/");
+
             URL_Add("VML", "https://en.wikipedia.org/wiki/Vector_Markup_Language");
 
             URL_Add("MTProto", "https://en.wikipedia.org/wiki/Telegram_(software)#Development");
@@ -153030,6 +153066,8 @@ namespace OverflowHelper.core
             correctionAdd("fn_", "Fn key_");
             correctionAdd("RN_", "Fn key_"); // A true typo
             correctionAdd("Rn_", "Fn key_"); // A true typo
+            correctionAdd("Fb_", "Fn key_"); // A true typo
+            correctionAdd("fb_", "Fn key_"); // A true typo
 
             // A key on a keyboard
             correctionAdd("home_", "Home key_");
@@ -153956,6 +153994,7 @@ namespace OverflowHelper.core
             // Simulated intelligence. ChatGPT
             correctionAdd("simulated intelligence halluciation_", "simulated intelligence hallucination_");
             correctionAdd("AI hallucination_", "simulated intelligence hallucination_");
+            correctionAdd("AI halluciation_", "simulated intelligence hallucination_");
             correctionAdd("hallucination_", "simulated intelligence hallucination_");
             correctionAdd("hallucinated_", "simulated intelligence hallucination_");
             correctionAdd("hallucinate_", "simulated intelligence hallucination_");
@@ -159127,6 +159166,7 @@ namespace OverflowHelper.core
             correctionAdd("Keychron P6 Ultra_", "Keychron&nbsp;P6&nbsp;Ultra&nbsp;8K_");
             correctionAdd("P6 Ultra 8K_", "Keychron&nbsp;P6&nbsp;Ultra&nbsp;8K_");
             correctionAdd("P6 Ultra_", "Keychron&nbsp;P6&nbsp;Ultra&nbsp;8K_");
+            correctionAdd("P6 ultra_", "Keychron&nbsp;P6&nbsp;Ultra&nbsp;8K_");
             correctionAdd("P6_", "Keychron&nbsp;P6&nbsp;Ultra&nbsp;8K_");
 
             // A 109-key (105%. Not true TKL) full-size mechanical
@@ -170315,13 +170355,13 @@ namespace OverflowHelper.core
 
             URL_Add("map()_", "https://docs.python.org/3.8/library/functions.html#map");
 
-            URL_Add("open()_", "https://docs.python.org/3/library/functions.html#open");
-
             URL_Add("csv (the (literal) name of a Python module)_", "https://docs.python.org/3.8/library/csv.html");
 
             URL_Add("literal_eval()_", "https://docs.python.org/3/library/ast.html#ast.literal_eval");
 
             URL_Add("format()_", "https://docs.python.org/3.8/library/functions.html#format");
+
+            URL_Add("open()_", "https://docs.python.org/3/library/functions.html#open");
 
             URL_Add("subprocess module_", "https://docs.python.org/3/library/subprocess.html");
 
@@ -176154,6 +176194,9 @@ namespace OverflowHelper.core
             correctionAdd("through__", "throw__");
             correctionAdd("trow__", "throw__");
 
+            correctionAdd("Board__", "board__");
+            correctionAdd("bd__", "board__");
+
             // A book. For the reverse
             //
             // We need a better reference...
@@ -177412,6 +177455,8 @@ namespace OverflowHelper.core
             URL_Add("The Odin Project__", "https://www.freecodecamp.org/learn/the-odin-project/");
 
             URL_Add("ATmega__", "https://en.wikipedia.org/wiki/AVR_microcontrollers#Basic_families");
+
+            URL_Add("board__", "https://en.wiktionary.org/wiki/board#Noun");
 
         } //addLookupData_alternativeWordSet2()
 
@@ -183565,6 +183610,9 @@ namespace OverflowHelper.core
             correctionAdd("overlubricated_____", "K10 V2 with overlubricated switches_____");
             correctionAdd("overlubricate_____", "K10 V2 with overlubricated switches_____");
             correctionAdd("Keychron K10_____", "K10 V2 with overlubricated switches_____");
+            correctionAdd("the K10 V2_____", "K10 V2 with overlubricated switches_____");
+            correctionAdd("My K10 V2_____", "K10 V2 with overlubricated switches_____");
+            correctionAdd("my K10 V2_____", "K10 V2 with overlubricated switches_____");
             correctionAdd("a K10 V2_____", "K10 V2 with overlubricated switches_____");
             correctionAdd("K10 V2_____", "K10 V2 with overlubricated switches_____");
 
