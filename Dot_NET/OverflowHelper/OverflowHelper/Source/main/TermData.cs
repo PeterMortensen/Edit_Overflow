@@ -37189,6 +37189,7 @@ namespace OverflowHelper.core
 
             correctionAdd("erroruniously", "erroneously");
             correctionAdd("errouniously", "erroneously");
+            correctionAdd("errorniously", "erroneously");
             correctionAdd("erroreously", "erroneously");
             correctionAdd("erraneously", "erroneously");
             correctionAdd("erroniously", "erroneously");
@@ -59468,7 +59469,7 @@ namespace OverflowHelper.core
             correctionAdd("Joint Strike Fighter", "F-35");
             correctionAdd("joint strike fighter", "F-35");
             correctionAdd("JOINT STRIKE FIGHTER", "F-35");
-            correctionAdd("F 30 five", "F-35");
+            correctionAdd("F 30 five", "F-35"); // A simulated intelligence transcription error (YouTube)
             correctionAdd("f-35", "F-35");
             correctionAdd("JSF", "F-35");
             correctionAdd("F35", "F-35");
@@ -82191,6 +82192,7 @@ namespace OverflowHelper.core
             correctionAdd("RP2040 zero", "RP2040-Zero");
             correctionAdd("rp2040-zero", "RP2040-Zero");
             correctionAdd("rp2040zero", "RP2040-Zero");
+            correctionAdd("Rp240 zero", "RP2040-Zero");
 
             // Raspberry Pi
             correctionAdd("Pi-Hole", "Pi-hole");
@@ -97861,6 +97863,8 @@ namespace OverflowHelper.core
             correctionAdd("Time Series", "time series");
             correctionAdd("time-series", "time series");
             correctionAdd("timeseries", "time series");
+
+            correctionAdd("divervent", "divergent"); // A true typo
 
             correctionAdd("Divergent Series", "divergent series");
 
@@ -120615,8 +120619,6 @@ namespace OverflowHelper.core
 
             URL_Add("facet", "https://en.wiktionary.org/wiki/facet#Noun");
 
-            URL_Add("7305 Mill-Max socket", "https://thocstock.com/accessories/7305-mill-max-sockets");
-
             URL_Add("Touch ID", "https://en.wikipedia.org/wiki/Touch_ID");
 
             URL_Add("Bible thumper", "https://en.wiktionary.org/wiki/Bible_thumper#Noun");
@@ -130105,8 +130107,6 @@ namespace OverflowHelper.core
 
             URL_Add("reconnections", "https://en.wiktionary.org/wiki/reconnection#Noun");
 
-            URL_Add("Berkeley sockets", "https://en.wikipedia.org/wiki/Berkeley_sockets");
-
             URL_Add("the bare minimum", "https://www.youtube.com/watch?v=_ChQK8j6so8");
 
             URL_Add("shut down", "https://en.wiktionary.org/wiki/shut_down#Verb");
@@ -130212,8 +130212,6 @@ namespace OverflowHelper.core
             URL_Add("Ruby Racer", "https://github.com/cowboyd/therubyracer");
 
             URL_Add("Underscore.js", "https://en.wikipedia.org/wiki/Underscore.js"); // Old: http://documentcloud.github.com/underscore/
-
-            URL_Add("NOOBS", "https://github.com/raspberrypi/noobs");
 
             URL_Add("Cmder", "https://github.com/cmderdev/cmder");
 
@@ -130842,18 +130840,6 @@ namespace OverflowHelper.core
             URL_Add("summon", "https://en.wiktionary.org/wiki/summon#Verb");
 
             URL_Add("summoned", "https://en.wiktionary.org/wiki/summon#Verb");
-
-            URL_Add("Raspberry Pi Pico W", "https://en.wikipedia.org/wiki/Raspberry_Pi#Raspberry_Pi_Pico");
-
-            URL_Add("Raspberry Pi Zero", "https://en.wikipedia.org/wiki/Raspberry_Pi#Raspberry_Pi_Zero");
-
-            URL_Add("Raspberry Pi 3", "https://en.wikipedia.org/wiki/Raspberry_Pi#Raspberry_Pi");
-
-            URL_Add("Raspberry Pi 4B", "https://en.wikipedia.org/wiki/Raspberry_Pi_4");
-
-            URL_Add("Raspberry Pi Imager", "https://en.wikipedia.org/wiki/Raspberry_Pi_OS#Versions");
-
-            URL_Add("Raspberry Pi Compute Module 4", "https://www.raspberrypi.com/products/compute-module-4/");
 
             URL_Add("catch", "https://en.wiktionary.org/wiki/catch#Verb");
 
@@ -133029,6 +133015,8 @@ namespace OverflowHelper.core
 
             URL_Add("nosedive", "https://en.wiktionary.org/wiki/nosedive#Verb");
 
+            URL_Add("divergent", "https://en.wiktionary.org/wiki/divergent#Adjective");
+
             URL_Add("divergent series", "https://en.wikipedia.org/wiki/Divergent_series");
 
             URL_Add("diversity, equity, and inclusion", "https://en.wikipedia.org/wiki/Diversity,_equity,_and_inclusion");
@@ -134584,14 +134572,6 @@ namespace OverflowHelper.core
             URL_Add("Magnification API", "https://docs.microsoft.com/en-us/previous-versions/windows/desktop/magapi/magapi-intro");
 
             URL_Add("clarification", "https://en.wiktionary.org/wiki/clarification#Noun");
-
-            URL_Add("pins", "https://en.wiktionary.org/wiki/pin#Noun");
-
-            URL_Add("pin-compatible", "https://en.wikipedia.org/wiki/Pin_compatibility");
-
-            URL_Add("GPIO", "http://www.mosaic-industries.com/embedded-systems/microcontroller-projects/raspberry-pi/gpio-pin-electrical-specifications");
-
-            URL_Add("I/O expander", "https://www.reddit.com/r/olkb/comments/1qm3puv/comment/o1j6fuz/");
 
             URL_Add("FIDO", "https://en.wikipedia.org/wiki/FIDO_Alliance#Specifications");
 
@@ -139744,124 +139724,6 @@ namespace OverflowHelper.core
 
             URL_Add("Samsung", "https://en.wikipedia.org/wiki/Samsung");
 
-            URL_Add("Xiaomi", "https://en.wikipedia.org/wiki/Xiaomi");
-
-            URL_Add("Seeed Studio XIAO RP2040", "https://www.hackster.io/seeed/products/seeed-studio-xiao-rp2040"); // Old (now broken): <https://www.hackster.io/seeed/products/seeed-xiao-rp2040>
-
-            URL_Add("Proton C", "https://qmk.fm/proton-c#about-the-proton-c");
-
-            URL_Add("AVR", "https://en.wikipedia.org/wiki/AVR_microcontrollers"); // Old: <https://en.wikipedia.org/wiki/Atmel_AVR>
-
-            URL_Add("Z pointer register", "https://en.wikipedia.org/wiki/Atmel_AVR_instruction_set#Addressing");
-
-            URL_Add("LPM", "https://en.wikipedia.org/wiki/Atmel_AVR_instruction_set#Instruction_timing");
-
-            URL_Add("UPDI", "https://en.wikipedia.org/wiki/AVR_microcontrollers#UPDI");
-
-            URL_Add("AVRDUDE", "https://www.nongnu.org/avrdude/"); // Old: <http://www.nongnu.org/avrdude/>
-
-            URL_Add("AVR Studio", "https://www.atmel.com/microsite/avr_studio_5/default.aspx");
-
-            URL_Add("WinAVR", "https://sourceforge.net/projects/winavr/");
-
-            URL_Add("AVR Freaks", "https://www.avrfreaks.net/");
-
-            URL_Add("AVR130: Setup and use of AVR timers", "https://ww1.microchip.com/downloads/en/Appnotes/Atmel-2505-Setup-and-Use-of-AVR-Timers_ApplicationNote_AVR130.pdf");
-
-            URL_Add("XMEGA", "https://en.wikipedia.org/wiki/AVR_microcontrollers#Basic_families");
-
-            URL_Add("ATmega8", "https://www.microchip.com/en-us/product/ATmega8");
-
-            URL_Add("ATmega16", "https://www.microchip.com/en-us/product/atmega16");
-
-            URL_Add("ATmega16U2", "https://www.microchip.com/wwwproducts/en/ATmega16U2");
-
-            URL_Add("ATmega32", "https://www.microchip.com/wwwproducts/en/ATmega32");
-
-            URL_Add("ATmega32A", "https://www.microchip.com/wwwproducts/en/ATmega32U4");
-
-            URL_Add("ATmega32U4", "https://www.microchip.com/wwwproducts/en/ATmega32U4");
-
-            URL_Add("ATmega64", "https://www.microchip.com/en-us/product/ATmega64");
-
-            URL_Add("ATmega88", "https://www.microchip.com/en-us/product/ATmega88");
-
-            URL_Add("ATmega128", "https://www.microchip.com/wwwproducts/en/ATmega128");
-
-            URL_Add("ATmega328", "https://en.wikipedia.org/wiki/ATmega328");
-
-            URL_Add("ATmega328P", "https://en.wikipedia.org/wiki/ATmega328#Family");
-
-            URL_Add("ATmega2560", "https://www.microchip.com/en-us/product/ATmega2560");
-
-            URL_Add("ATtiny", "https://en.wikipedia.org/wiki/AVR_microcontrollers#Basic_families");
-
-            URL_Add("ATtiny10", "https://www.microchip.com/en-us/product/ATtiny10");
-
-            URL_Add("ATtiny12", "https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/ATtiny%2011_12%20Complete.pdf");
-
-            URL_Add("ATtiny13", "https://www.microchip.com/en-us/product/ATtiny13");
-
-            URL_Add("ATtiny13A", "https://www.microchip.com/en-us/product/ATtiny13");
-
-            URL_Add("ATtiny45", "https://www.microchip.com/en-us/product/ATtiny45");
-
-            URL_Add("ATtiny48", "https://www.microchip.com/en-us/product/ATTINY48");
-
-            URL_Add("ATtiny85", "https://www.microchip.com/en-us/product/ATtiny85"); // Old: http://www.microchip.com/wwwproducts/en/ATtiny85
-
-            URL_Add("ATtiny88", "https://www.microchip.com/en-us/product/ATtiny88");
-
-            URL_Add("AT90CAN32", "https://www.microchip.com/en-us/product/AT90CAN32");
-
-            URL_Add("AT90CAN64", "https://www.microchip.com/en-us/product/AT90CAN64");
-
-            URL_Add("AT90CAN128", "https://www.microchip.com/en-us/product/AT90CAN128");
-
-            URL_Add("Mercurial", "https://en.wikipedia.org/wiki/Mercurial");
-
-            URL_Add("CAN bus", "https://en.wikipedia.org/wiki/CAN_bus");
-
-            URL_Add("CANopen", "https://en.wikipedia.org/wiki/CANopen");
-
-            URL_Add("SDO", "https://en.wikipedia.org/wiki/CANopen#Service_Data_Object_(SDO)_protocol");
-
-            URL_Add("CAN FD", "https://en.wikipedia.org/wiki/CAN_FD");
-
-            URL_Add("SocketCAN", "https://en.wikipedia.org/wiki/SocketCAN");
-
-            URL_Add("PiCAN", "https://www.elektormagazine.com/news/pican-2-can-bus-board-for-raspberry-pi");
-
-            URL_Add("Bus Off", "https://en.wikipedia.org/wiki/CAN_bus#Error_frame");
-
-            URL_Add("CanKing", "https://kvaser.com/canking/");
-
-            URL_Add("MCP25050", "https://www.microchip.com/en-us/product/MCP25050");
-
-            URL_Add("CANlib", "https://kvaser.com/developer/canlib-sdk/");
-
-            URL_Add("Ixxat", "https://en.wikipedia.org/wiki/HMS_Networks#Products");
-
-            URL_Add("FlexCAN", "https://en.wikipedia.org/wiki/FlexCAN");
-
-            URL_Add("EDS", "https://en.wikipedia.org/wiki/CANopen#Object_dictionary");
-
-            URL_Add("NMT", "https://en.wikipedia.org/wiki/CANopen#Network_management_(NMT)_protocols");
-
-            URL_Add("heartbeat", "https://en.wikipedia.org/wiki/CANopen#Network_management_(NMT)_protocols");
-
-            URL_Add("CANopenNode", "https://github.com/CANopenNode/CANopenNode");
-
-            URL_Add("ICAAN", "https://en.wikipedia.org/wiki/ICANN");
-
-            URL_Add("candump", "https://manpages.debian.org/testing/can-utils/candump.1.en.html");
-
-            URL_Add("CANoe", "https://stackoverflow.com/questions/tagged/canoe");
-
-            URL_Add("44,100&nbsp;Hz", "https://en.wikipedia.org/wiki/44%2C100_Hz");
-
-            URL_Add("baud rate", "https://en.wikipedia.org/wiki/Symbol_rate");
-
             URL_Add("the Indian space", "https://english.stackexchange.com/questions/4645/is-it-ever-correct-to-have-a-space-before-a-question-or-exclamation-mark#comment206109_4645");
 
             URL_Add("at the time of writing", "https://english.stackexchange.com/questions/199381/is-at-the-time-of-writing-correct");
@@ -142620,38 +142482,6 @@ namespace OverflowHelper.core
             URL_Add("JAXB", "https://en.wikipedia.org/wiki/Jakarta_XML_Binding");
 
             URL_Add("if", "https://en.wiktionary.org/wiki/if#Conjunction");
-
-            URL_Add("mobilised soldiers", "https://en.wiktionary.org/wiki/mobik#Noun");
-
-            URL_Add("solder", "https://en.wikipedia.org/wiki/Solder");
-
-            URL_Add("desoldering", "https://en.wikipedia.org/wiki/Soldering#Desoldering_and_resoldering");
-
-            URL_Add("soldered", "https://en.wiktionary.org/wiki/solder#Verb");
-
-            URL_Add("soldering", "https://en.wikipedia.org/wiki/Soldering");
-
-            URL_Add("pre-soldered", "https://www.raspberrypi.com/news/zero-wh/");
-
-            URL_Add("resolder", "https://en.wikipedia.org/wiki/Soldering#Desoldering_and_resoldering");
-
-            URL_Add("resoldering", "https://en.wikipedia.org/wiki/Soldering#Desoldering_and_resoldering");
-
-            URL_Add("desolder", "https://en.wikipedia.org/wiki/Soldering#Desoldering_and_resoldering");
-
-            URL_Add("solder joints", "https://en.wikipedia.org/wiki/Soldering#Defects");
-
-            URL_Add("solder paste", "https://en.wikipedia.org/wiki/Solder_paste");
-
-            URL_Add("cold solder joints", "https://en.wikipedia.org/wiki/Soldering#Cold_joints");
-
-            URL_Add("cold-blooded", "https://en.wiktionary.org/wiki/cold-blooded#Adjective");
-
-            URL_Add("common cold", "https://en.wikipedia.org/wiki/Common_cold");
-
-            URL_Add("cold gas thruster", "https://en.wikipedia.org/wiki/Cold_gas_thruster");
-
-            URL_Add("Cold War", "https://en.wikipedia.org/wiki/Cold_War");
 
             URL_Add("Adobe ColdFusion Builder", "https://en.wikipedia.org/wiki/Adobe_ColdFusion_Builder");
 
@@ -150041,88 +149871,6 @@ namespace OverflowHelper.core
 
             URL_Add("Brainfuck", "https://en.wikipedia.org/wiki/Brainfuck");
 
-            URL_Add("FreeDOS", "https://en.wikipedia.org/wiki/FreeDOS");
-
-            URL_Add("MINIX", "https://en.wikipedia.org/wiki/MINIX");
-
-            URL_Add("Linux", "https://en.wikipedia.org/wiki/Linux");
-
-            URL_Add("Linux kernel", "https://en.wikipedia.org/wiki/Linux_kernel");
-
-            URL_Add("system call table", "https://linux-kernel-labs.github.io/refs/heads/master/lectures/syscalls.html#system-call-table");
-
-            URL_Add("Linux framebuffer", "https://en.wikipedia.org/wiki/Linux_framebuffer");
-
-            URL_Add("framebuffer", "https://en.wikipedia.org/wiki/Framebuffer");
-
-            URL_Add("Linuxen", "https://en.wiktionary.org/wiki/Linuxen#Noun");
-
-            URL_Add("Linux distribution", "https://en.wikipedia.org/wiki/Linux_distribution");
-
-            URL_Add("Linux distributions", "https://en.wikipedia.org/wiki/Linux_distribution");
-
-            URL_Add("DistroWatch", "https://en.wikipedia.org/wiki/DistroWatch");
-
-            URL_Add("distro-hopping", "https://en.wiktionary.org/wiki/distro-hopping#Noun");
-
-            URL_Add("Bryan Lunduke", "https://www.youtube.com/user/BryanLunduke/videos");
-
-            URL_Add("Linux Journal", "https://en.wikipedia.org/wiki/Linux_Journal");
-
-            URL_Add("Linux Foundation", "https://en.wikipedia.org/wiki/Linux_Foundation");
-
-            URL_Add("Linux Mint Debian Edition", "https://en.wikipedia.org/wiki/Linux_Mint#LMDE"); // Old: <https://en.wikipedia.org/wiki/Linux_Mint#Linux_Mint_Debian_Edition>
-
-            URL_Add("Linux Mint 13 (Maya)", "https://en.wikipedia.org/wiki/Linux_Mint#Releases");
-
-            URL_Add("Debian&nbsp;14 (Forky)", "https://en.wikipedia.org/wiki/Debian_release_version_history#Debian_14_(Forky)");
-
-            URL_Add("Linux Mint 18.1 (Serena)", "https://en.wikipedia.org/wiki/Linux_Mint#Release_history");
-
-            URL_Add("Linux Mint 18.2 (Sonya)", "https://en.wikipedia.org/wiki/Linux_Mint#Releases");
-
-            URL_Add("Debian", "https://en.wikipedia.org/wiki/Debian");
-
-            URL_Add("Debian Stable", "https://en.wikipedia.org/wiki/Debian#Forks_and_derivatives");
-
-            URL_Add("Debian Unstable", "https://en.wikipedia.org/wiki/Debian_version_history#Naming_convention");
-
-            URL_Add("Debian Free Software Guidelines", "https://en.wikipedia.org/wiki/Debian_Free_Software_Guidelines");
-
-            URL_Add("Debian&nbsp;4.0 (Etch)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_4.0_(Etch)");
-
-            URL_Add("Debian&nbsp;5.0 (Lenny)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_5.0_(Lenny)");
-
-            URL_Add("Debian&nbsp;6.0 (Squeeze)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_6.0_(Squeeze)");
-
-            URL_Add("Debian&nbsp;7 (Wheezy)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_7_(Wheezy)");
-
-            URL_Add("Debian&nbsp;9 (Stretch)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_9_(Stretch)");
-
-            URL_Add("Debian&nbsp;10 (Buster)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_10_(Buster)");
-
-            URL_Add("Raspbian&nbsp;10 (Buster)", "https://en.wikipedia.org/wiki/Raspberry_Pi_OS#Release_history"); // Old: https://en.wikipedia.org/wiki/Raspbian#Version_history
-
-            URL_Add("Debian&nbsp;11 (Bullseye)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_11_(Bullseye)");
-
-            URL_Add("Debian&nbsp;12 (Bookworm)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_12_(Bookworm)");
-
-            URL_Add("Raspbian", "https://en.wikipedia.org/wiki/Raspberry_Pi#Software"); // Was https://en.wikipedia.org/wiki/Raspbian
-
-            URL_Add("Raspbmc", "https://en.wikipedia.org/wiki/List_of_software_based_on_XBMC#Raspbmc");
-
-            URL_Add("BunsenLabs (Debian Linux-based)", "https://en.wikipedia.org/wiki/CrunchBang_Linux#BunsenLabs");
-
-            URL_Add("Linux Lite", "https://en.wikipedia.org/wiki/Linux_Lite");
-
-            URL_Add("Linuxfx", "https://pt.wikipedia.org/wiki/LinuxFX");
-
-            URL_Add("Linux From Scratch", "https://en.wikipedia.org/wiki/Linux_From_Scratch");
-
-            URL_Add("Void Linux", "https://en.wikipedia.org/wiki/Void_Linux");
-
-            URL_Add("$HOME/.zshrc file", "https://wiki.debian.org/Zsh#Configuration");
-
             URL_Add("collide", "https://en.wiktionary.org/wiki/collide#Verb");
 
             URL_Add("collides", "https://en.wiktionary.org/wiki/collide#Verb");
@@ -150298,6 +150046,264 @@ namespace OverflowHelper.core
             URL_Add("corporations", "https://en.wiktionary.org/wiki/corporation#Noun");
 
             URL_Add("Acme Corporation", "https://en.wikipedia.org/wiki/Acme#Arts_and_entertainment");
+
+            URL_Add("Berkeley sockets", "https://en.wikipedia.org/wiki/Berkeley_sockets");
+
+            URL_Add("7305 Mill-Max socket", "https://thocstock.com/accessories/7305-mill-max-sockets");
+
+            URL_Add("Raspberry Pi Pico W", "https://en.wikipedia.org/wiki/Raspberry_Pi#Pico_series"); // Old: <https://en.wikipedia.org/wiki/Raspberry_Pi#Raspberry_Pi_Pico>
+
+            URL_Add("Raspberry Pi Zero", "https://en.wikipedia.org/wiki/Raspberry_Pi#Raspberry_Pi_Zero");
+
+            URL_Add("Raspberry Pi 3", "https://en.wikipedia.org/wiki/Raspberry_Pi#Raspberry_Pi");
+
+            URL_Add("Raspberry Pi 4B", "https://en.wikipedia.org/wiki/Raspberry_Pi_4");
+
+            URL_Add("Raspberry Pi Imager", "https://en.wikipedia.org/wiki/Raspberry_Pi_OS#Versions");
+
+            URL_Add("Raspberry Pi Compute Module 4", "https://www.raspberrypi.com/products/compute-module-4/");
+
+            URL_Add("NOOBS", "https://github.com/raspberrypi/noobs");
+
+            URL_Add("pins", "https://en.wiktionary.org/wiki/pin#Noun");
+
+            URL_Add("pin-compatible", "https://en.wikipedia.org/wiki/Pin_compatibility");
+
+            URL_Add("GPIO", "http://www.mosaic-industries.com/embedded-systems/microcontroller-projects/raspberry-pi/gpio-pin-electrical-specifications");
+
+            URL_Add("I/O expander", "https://www.reddit.com/r/olkb/comments/1qm3puv/comment/o1j6fuz/");
+
+            URL_Add("Xiaomi", "https://en.wikipedia.org/wiki/Xiaomi");
+
+            URL_Add("Seeed Studio XIAO RP2040", "https://www.hackster.io/seeed/products/seeed-studio-xiao-rp2040"); // Old (now broken): <https://www.hackster.io/seeed/products/seeed-xiao-rp2040>
+
+            URL_Add("Proton C", "https://qmk.fm/proton-c#about-the-proton-c");
+
+            URL_Add("AVR", "https://en.wikipedia.org/wiki/AVR_microcontrollers"); // Old: <https://en.wikipedia.org/wiki/Atmel_AVR>
+
+            URL_Add("Z pointer register", "https://en.wikipedia.org/wiki/Atmel_AVR_instruction_set#Addressing");
+
+            URL_Add("LPM", "https://en.wikipedia.org/wiki/Atmel_AVR_instruction_set#Instruction_timing");
+
+            URL_Add("UPDI", "https://en.wikipedia.org/wiki/AVR_microcontrollers#UPDI");
+
+            URL_Add("AVRDUDE", "https://www.nongnu.org/avrdude/"); // Old: <http://www.nongnu.org/avrdude/>
+
+            URL_Add("AVR Studio", "https://www.atmel.com/microsite/avr_studio_5/default.aspx");
+
+            URL_Add("WinAVR", "https://sourceforge.net/projects/winavr/");
+
+            URL_Add("AVR Freaks", "https://www.avrfreaks.net/");
+
+            URL_Add("AVR130: Setup and use of AVR timers", "https://ww1.microchip.com/downloads/en/Appnotes/Atmel-2505-Setup-and-Use-of-AVR-Timers_ApplicationNote_AVR130.pdf");
+
+            URL_Add("XMEGA", "https://en.wikipedia.org/wiki/AVR_microcontrollers#Basic_families");
+
+            URL_Add("ATmega8", "https://www.microchip.com/en-us/product/ATmega8");
+
+            URL_Add("ATmega16", "https://www.microchip.com/en-us/product/atmega16");
+
+            URL_Add("ATmega16U2", "https://www.microchip.com/wwwproducts/en/ATmega16U2");
+
+            URL_Add("ATmega32", "https://www.microchip.com/wwwproducts/en/ATmega32");
+
+            URL_Add("ATmega32A", "https://www.microchip.com/wwwproducts/en/ATmega32U4");
+
+            URL_Add("ATmega32U4", "https://www.microchip.com/wwwproducts/en/ATmega32U4");
+
+            URL_Add("ATmega64", "https://www.microchip.com/en-us/product/ATmega64");
+
+            URL_Add("ATmega88", "https://www.microchip.com/en-us/product/ATmega88");
+
+            URL_Add("ATmega128", "https://www.microchip.com/wwwproducts/en/ATmega128");
+
+            URL_Add("ATmega328", "https://en.wikipedia.org/wiki/ATmega328");
+
+            URL_Add("ATmega328P", "https://en.wikipedia.org/wiki/ATmega328#Family");
+
+            URL_Add("ATmega2560", "https://www.microchip.com/en-us/product/ATmega2560");
+
+            URL_Add("ATtiny", "https://en.wikipedia.org/wiki/AVR_microcontrollers#Basic_families");
+
+            URL_Add("ATtiny10", "https://www.microchip.com/en-us/product/ATtiny10");
+
+            URL_Add("ATtiny12", "https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/ATtiny%2011_12%20Complete.pdf");
+
+            URL_Add("ATtiny13", "https://www.microchip.com/en-us/product/ATtiny13");
+
+            URL_Add("ATtiny13A", "https://www.microchip.com/en-us/product/ATtiny13");
+
+            URL_Add("ATtiny45", "https://www.microchip.com/en-us/product/ATtiny45");
+
+            URL_Add("ATtiny48", "https://www.microchip.com/en-us/product/ATTINY48");
+
+            URL_Add("ATtiny85", "https://www.microchip.com/en-us/product/ATtiny85"); // Old: http://www.microchip.com/wwwproducts/en/ATtiny85
+
+            URL_Add("ATtiny88", "https://www.microchip.com/en-us/product/ATtiny88");
+
+            URL_Add("AT90CAN32", "https://www.microchip.com/en-us/product/AT90CAN32");
+
+            URL_Add("AT90CAN64", "https://www.microchip.com/en-us/product/AT90CAN64");
+
+            URL_Add("AT90CAN128", "https://www.microchip.com/en-us/product/AT90CAN128");
+
+            URL_Add("Mercurial", "https://en.wikipedia.org/wiki/Mercurial");
+
+            URL_Add("CAN bus", "https://en.wikipedia.org/wiki/CAN_bus");
+
+            URL_Add("CANopen", "https://en.wikipedia.org/wiki/CANopen");
+
+            URL_Add("SDO", "https://en.wikipedia.org/wiki/CANopen#Service_Data_Object_(SDO)_protocol");
+
+            URL_Add("CAN FD", "https://en.wikipedia.org/wiki/CAN_FD");
+
+            URL_Add("SocketCAN", "https://en.wikipedia.org/wiki/SocketCAN");
+
+            URL_Add("PiCAN", "https://www.elektormagazine.com/news/pican-2-can-bus-board-for-raspberry-pi");
+
+            URL_Add("Bus Off", "https://en.wikipedia.org/wiki/CAN_bus#Error_frame");
+
+            URL_Add("CanKing", "https://kvaser.com/canking/");
+
+            URL_Add("MCP25050", "https://www.microchip.com/en-us/product/MCP25050");
+
+            URL_Add("CANlib", "https://kvaser.com/developer/canlib-sdk/");
+
+            URL_Add("Ixxat", "https://en.wikipedia.org/wiki/HMS_Networks#Products");
+
+            URL_Add("FlexCAN", "https://en.wikipedia.org/wiki/FlexCAN");
+
+            URL_Add("EDS", "https://en.wikipedia.org/wiki/CANopen#Object_dictionary");
+
+            URL_Add("NMT", "https://en.wikipedia.org/wiki/CANopen#Network_management_(NMT)_protocols");
+
+            URL_Add("heartbeat", "https://en.wikipedia.org/wiki/CANopen#Network_management_(NMT)_protocols");
+
+            URL_Add("CANopenNode", "https://github.com/CANopenNode/CANopenNode");
+
+            URL_Add("ICAAN", "https://en.wikipedia.org/wiki/ICANN");
+
+            URL_Add("candump", "https://manpages.debian.org/testing/can-utils/candump.1.en.html");
+
+            URL_Add("CANoe", "https://stackoverflow.com/questions/tagged/canoe");
+
+            URL_Add("44,100&nbsp;Hz", "https://en.wikipedia.org/wiki/44%2C100_Hz");
+
+            URL_Add("baud rate", "https://en.wikipedia.org/wiki/Symbol_rate");
+
+            URL_Add("mobilised soldiers", "https://en.wiktionary.org/wiki/mobik#Noun");
+
+            URL_Add("solder", "https://en.wikipedia.org/wiki/Solder");
+
+            URL_Add("desoldering", "https://en.wikipedia.org/wiki/Soldering#Desoldering_and_resoldering");
+
+            URL_Add("soldered", "https://en.wiktionary.org/wiki/solder#Verb");
+
+            URL_Add("soldering", "https://en.wikipedia.org/wiki/Soldering");
+
+            URL_Add("pre-soldered", "https://www.raspberrypi.com/news/zero-wh/");
+
+            URL_Add("resolder", "https://en.wikipedia.org/wiki/Soldering#Desoldering_and_resoldering");
+
+            URL_Add("resoldering", "https://en.wikipedia.org/wiki/Soldering#Desoldering_and_resoldering");
+
+            URL_Add("desolder", "https://en.wikipedia.org/wiki/Soldering#Desoldering_and_resoldering");
+
+            URL_Add("solder joints", "https://en.wikipedia.org/wiki/Soldering#Defects");
+
+            URL_Add("solder paste", "https://en.wikipedia.org/wiki/Solder_paste");
+
+            URL_Add("cold solder joints", "https://en.wikipedia.org/wiki/Soldering#Cold_joints");
+
+            URL_Add("cold-blooded", "https://en.wiktionary.org/wiki/cold-blooded#Adjective");
+
+            URL_Add("common cold", "https://en.wikipedia.org/wiki/Common_cold");
+
+            URL_Add("cold gas thruster", "https://en.wikipedia.org/wiki/Cold_gas_thruster");
+
+            URL_Add("Cold War", "https://en.wikipedia.org/wiki/Cold_War");
+
+            URL_Add("FreeDOS", "https://en.wikipedia.org/wiki/FreeDOS");
+
+            URL_Add("MINIX", "https://en.wikipedia.org/wiki/MINIX");
+
+            URL_Add("Linux", "https://en.wikipedia.org/wiki/Linux");
+
+            URL_Add("Linux kernel", "https://en.wikipedia.org/wiki/Linux_kernel");
+
+            URL_Add("system call table", "https://linux-kernel-labs.github.io/refs/heads/master/lectures/syscalls.html#system-call-table");
+
+            URL_Add("Linux framebuffer", "https://en.wikipedia.org/wiki/Linux_framebuffer");
+
+            URL_Add("framebuffer", "https://en.wikipedia.org/wiki/Framebuffer");
+
+            URL_Add("Linuxen", "https://en.wiktionary.org/wiki/Linuxen#Noun");
+
+            URL_Add("Linux distribution", "https://en.wikipedia.org/wiki/Linux_distribution");
+
+            URL_Add("Linux distributions", "https://en.wikipedia.org/wiki/Linux_distribution");
+
+            URL_Add("DistroWatch", "https://en.wikipedia.org/wiki/DistroWatch");
+
+            URL_Add("distro-hopping", "https://en.wiktionary.org/wiki/distro-hopping#Noun");
+
+            URL_Add("Bryan Lunduke", "https://www.youtube.com/user/BryanLunduke/videos");
+
+            URL_Add("Linux Journal", "https://en.wikipedia.org/wiki/Linux_Journal");
+
+            URL_Add("Linux Foundation", "https://en.wikipedia.org/wiki/Linux_Foundation");
+
+            URL_Add("Linux Mint Debian Edition", "https://en.wikipedia.org/wiki/Linux_Mint#LMDE"); // Old: <https://en.wikipedia.org/wiki/Linux_Mint#Linux_Mint_Debian_Edition>
+
+            URL_Add("Linux Mint 13 (Maya)", "https://en.wikipedia.org/wiki/Linux_Mint#Releases");
+
+            URL_Add("Debian&nbsp;14 (Forky)", "https://en.wikipedia.org/wiki/Debian_release_version_history#Debian_14_(Forky)");
+
+            URL_Add("Linux Mint 18.1 (Serena)", "https://en.wikipedia.org/wiki/Linux_Mint#Release_history");
+
+            URL_Add("Linux Mint 18.2 (Sonya)", "https://en.wikipedia.org/wiki/Linux_Mint#Releases");
+
+            URL_Add("Raspbian", "https://en.wikipedia.org/wiki/Raspberry_Pi#Software"); // Was https://en.wikipedia.org/wiki/Raspbian
+
+            URL_Add("Debian", "https://en.wikipedia.org/wiki/Debian");
+
+            URL_Add("Debian Stable", "https://en.wikipedia.org/wiki/Debian#Forks_and_derivatives");
+
+            URL_Add("Debian Unstable", "https://en.wikipedia.org/wiki/Debian_version_history#Naming_convention");
+
+            URL_Add("Debian Free Software Guidelines", "https://en.wikipedia.org/wiki/Debian_Free_Software_Guidelines");
+
+            URL_Add("Debian&nbsp;4.0 (Etch)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_4.0_(Etch)");
+
+            URL_Add("Debian&nbsp;5.0 (Lenny)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_5.0_(Lenny)");
+
+            URL_Add("Debian&nbsp;6.0 (Squeeze)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_6.0_(Squeeze)");
+
+            URL_Add("Debian&nbsp;7 (Wheezy)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_7_(Wheezy)");
+
+            URL_Add("Debian&nbsp;9 (Stretch)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_9_(Stretch)");
+
+            URL_Add("Debian&nbsp;10 (Buster)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_10_(Buster)");
+
+            URL_Add("Raspbian&nbsp;10 (Buster)", "https://en.wikipedia.org/wiki/Raspberry_Pi_OS#Release_history"); // Old: https://en.wikipedia.org/wiki/Raspbian#Version_history
+
+            URL_Add("Debian&nbsp;11 (Bullseye)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_11_(Bullseye)");
+
+            URL_Add("Debian&nbsp;12 (Bookworm)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_12_(Bookworm)");
+
+            URL_Add("Raspbmc", "https://en.wikipedia.org/wiki/List_of_software_based_on_XBMC#Raspbmc");
+
+            URL_Add("BunsenLabs (Debian Linux-based)", "https://en.wikipedia.org/wiki/CrunchBang_Linux#BunsenLabs");
+
+            URL_Add("Linux Lite", "https://en.wikipedia.org/wiki/Linux_Lite");
+
+            URL_Add("Linuxfx", "https://pt.wikipedia.org/wiki/LinuxFX");
+
+            URL_Add("Linux From Scratch", "https://en.wikipedia.org/wiki/Linux_From_Scratch");
+
+            URL_Add("Void Linux", "https://en.wikipedia.org/wiki/Void_Linux");
+
+            URL_Add("$HOME/.zshrc file", "https://wiki.debian.org/Zsh#Configuration");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -167645,8 +167651,6 @@ namespace OverflowHelper.core
 
             URL_Add("specify_", "https://en.wiktionary.org/wiki/specify#Verb");
 
-            URL_Add("Raspberry Pi_", "https://en.wikipedia.org/wiki/Raspberry_Pi");
-
             URL_Add("group buys_", "https://en.wikipedia.org/wiki/Group_buying#Business_model");
 
             URL_Add("combo keys_", "https://docs.qmk.fm/features/combo");
@@ -168690,8 +168694,6 @@ namespace OverflowHelper.core
             URL_Add("entities_", "https://en.wiktionary.org/wiki/entity#Noun");
 
             URL_Add("explain_", "https://en.wiktionary.org/wiki/explain#Verb");
-
-            URL_Add("hardware attached on top_", "https://raspberrytips.com/glossary/hat/");
 
             URL_Add("IPA_", "https://en.wikipedia.org/wiki/Isopropyl_alcohol");
 
@@ -171224,6 +171226,10 @@ namespace OverflowHelper.core
             URL_Add("ATA over Ethernet_", "https://en.wikipedia.org/wiki/ATA_over_Ethernet");
 
             URL_Add("ATM_", "https://en.wikipedia.org/wiki/Automated_teller_machine");
+
+            URL_Add("Raspberry Pi_", "https://en.wikipedia.org/wiki/Raspberry_Pi");
+
+            URL_Add("hardware attached on top_", "https://raspberrytips.com/glossary/hat/");
 
         } //addLookupData_alternativeWordSet()
 
@@ -177126,7 +177132,7 @@ namespace OverflowHelper.core
 
             URL_Add("microprocessor__", "https://en.wikipedia.org/wiki/Microprocessor");
 
-            URL_Add("Raspberry Pi Pico__", "https://en.wikipedia.org/wiki/Raspberry_Pi#Raspberry_Pi_Pico"); // Old: https://en.wikipedia.org/wiki/Raspberry_Pi#Generations
+            URL_Add("Raspberry Pi Pico__", "https://en.wikipedia.org/wiki/Raspberry_Pi#Pico_series"); // Old: <https://en.wikipedia.org/wiki/Raspberry_Pi#Raspberry_Pi_Pico>. Even older: https://en.wikipedia.org/wiki/Raspberry_Pi#Generations
 
             URL_Add("Black Magic Probe__", "https://1bitsquared.com/products/black-magic-probe");
 
@@ -180310,13 +180316,13 @@ namespace OverflowHelper.core
 
             URL_Add("Project&nbsp;Management (Stack Exchange site)___", "https://pm.stackexchange.com/tour");
 
-            URL_Add("Raspberry&nbsp;Pi (Stack Exchange site)___", "https://raspberrypi.stackexchange.com/tour");
-
             URL_Add("Mathematics (Stack Exchange site)___", "https://math.stackexchange.com/tour");
 
             URL_Add("Literature (Stack Exchange site)___", "https://literature.stackexchange.com/tour");
 
             URL_Add("Cryptography (Stack Exchange site)___", "https://crypto.stackexchange.com/tour");
+
+            URL_Add("Raspberry&nbsp;Pi (Stack Exchange site)___", "https://raspberrypi.stackexchange.com/tour");
 
             URL_Add("non___", "https://en.wiktionary.org/wiki/non-#Prefix");
 
