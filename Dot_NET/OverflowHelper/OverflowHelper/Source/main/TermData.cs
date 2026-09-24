@@ -17059,6 +17059,9 @@ namespace OverflowHelper.core
             correctionAdd("Andromeda galaxy", "Andromeda Galaxy");
             correctionAdd("M31", "Andromeda Galaxy");
 
+            // The result of the collision of the Milky Way and Andromeda Galaxy
+            correctionAdd("Milkdromeda", "Milkomeda");
+
             correctionAdd("Galaxies", "galaxies");
 
             // Astronomy
@@ -17805,6 +17808,8 @@ namespace OverflowHelper.core
             correctionAdd("phyics", "physics");
             correctionAdd("fiziks", "physics");
 
+            correctionAdd("Astrophysics", "astrophysics");
+
             correctionAdd("Microwave", "microwave");
 
             correctionAdd("wave form", "waveform");
@@ -18204,6 +18209,10 @@ namespace OverflowHelper.core
             correctionAdd("MLE", "maximum likelihood estimation");
 
             correctionAdd("G-Force", "g-force");
+
+            correctionAdd("EoM", "equation of motion");
+
+            correctionAdd("EOM", "equations of motion");
 
             // The unit
             correctionAdd("Newton", "newton");
@@ -34382,6 +34391,7 @@ namespace OverflowHelper.core
 
             // JavaScript. Written in Zig. A build system?
             correctionAdd("Bun js", "Bun");
+            correctionAdd("bunjs", "Bun");
             correctionAdd("bun", "Bun");
 
             // JavaScript
@@ -74035,6 +74045,10 @@ namespace OverflowHelper.core
             // Grammar
             correctionAdd("noun-phrase", "noun phrase");
 
+            // Grammar
+            correctionAdd("genetive", "genitive");
+            correctionAdd("Genetive", "genitive");
+
             // Alternative URLs:
             //
             //   <https://www.theverge.com/podcast/898715/superhuman-grammarly-expert-review-shishir-mehrotra-interview-ai-impersonation>
@@ -80985,6 +80999,7 @@ namespace OverflowHelper.core
             //
             // Not to be confused with "TestFlight"
             //
+            correctionAdd("playewright", "Playwright");
             correctionAdd("playwright", "Playwright");
 
             correctionAdd("confrontaction", "confrontation");
@@ -82116,6 +82131,7 @@ namespace OverflowHelper.core
             //   with the Raspberry Pi Pico (a microcontroller
             //   board).
             //
+            correctionAdd("raspberry pi zero", "Raspberry Pi Zero");
             correctionAdd("raspberrypi zero", "Raspberry Pi Zero");
             correctionAdd("raspi zero", "Raspberry Pi Zero");
 
@@ -109553,6 +109569,14 @@ namespace OverflowHelper.core
 
             URL_Add("orthography", "https://en.wiktionary.org/wiki/orthography#Noun");
 
+            URL_Add("adjective", "https://en.wiktionary.org/wiki/adjective#Noun");
+
+            URL_Add("noun phrase", "https://en.wiktionary.org/wiki/noun_phrase#Noun");
+
+            URL_Add("genitive", "https://en.wiktionary.org/wiki/genitive#Adjective");
+
+            URL_Add("Grammarly", "https://en.wikipedia.org/wiki/Grammarly");
+
             URL_Add("neighbourhood", "https://en.wiktionary.org/wiki/neighbourhood#Noun"); // Old: https://en.wiktionary.org/wiki/neighbourhood
 
             URL_Add("Google Drive", "https://en.wikipedia.org/wiki/Google_Drive");
@@ -115287,8 +115311,6 @@ namespace OverflowHelper.core
 
             URL_Add("magnitude", "https://en.wiktionary.org/wiki/magnitude#Noun");
 
-            URL_Add("Grammarly", "https://en.wikipedia.org/wiki/Grammarly");
-
             URL_Add("jurisdiction", "https://en.wiktionary.org/wiki/jurisdiction#Noun");
 
             URL_Add("never", "https://en.wiktionary.org/wiki/never#Adverb");
@@ -115726,8 +115748,6 @@ namespace OverflowHelper.core
             URL_Add("mainframe", "https://en.wiktionary.org/wiki/mainframe#Noun");
 
             URL_Add("mind-reading", "https://en.wiktionary.org/wiki/mind-reading#Noun");
-
-            URL_Add("noun phrase", "https://en.wiktionary.org/wiki/noun_phrase#Noun");
 
             URL_Add("provided", "https://en.wiktionary.org/wiki/provide#Verb");
 
@@ -116769,8 +116789,6 @@ namespace OverflowHelper.core
 
             URL_Add("misuse", "https://en.wiktionary.org/wiki/misuse#Verb");
 
-            URL_Add("Andromeda Galaxy", "https://en.wikipedia.org/wiki/Andromeda_Galaxy");
-
             URL_Add("Chromecast", "https://en.wikipedia.org/wiki/Chromecast");
 
             URL_Add("Roku", "https://en.wikipedia.org/wiki/Roku");
@@ -116904,8 +116922,6 @@ namespace OverflowHelper.core
             URL_Add("updated", "https://en.wiktionary.org/wiki/update#Verb");
 
             URL_Add("DaVinci Resolve", "https://en.wikipedia.org/wiki/DaVinci_Resolve");
-
-            URL_Add("Galaxy Xcover", "https://en.wikipedia.org/wiki/Samsung_Galaxy_Xcover");
 
             URL_Add("as far as I understand", "https://en.wiktionary.org/wiki/AFAIU#Phrase");
 
@@ -118385,8 +118401,6 @@ namespace OverflowHelper.core
 
             URL_Add("DataGrip", "https://en.wikipedia.org/wiki/JetBrains#IDEs");
 
-            URL_Add("Galaxy S10", "https://en.wikipedia.org/wiki/Samsung_Galaxy_S10");
-
             URL_Add("Student's t-distribution", "https://en.wikipedia.org/wiki/Student%27s_t-distribution");
 
             URL_Add("alongside", "https://en.wiktionary.org/wiki/alongside#Adverb");
@@ -119052,8 +119066,6 @@ namespace OverflowHelper.core
             URL_Add("Dynamic Probes", "https://en.wikipedia.org/wiki/Dprobes");
 
             URL_Add("deprecate", "https://en.wiktionary.org/wiki/deprecate#Verb");
-
-            URL_Add("galaxies", "https://en.wiktionary.org/wiki/galaxy#Noun");
 
             URL_Add("tooltip", "https://en.wiktionary.org/wiki/tooltip#Noun");
 
@@ -121244,8 +121256,6 @@ namespace OverflowHelper.core
             URL_Add("PEP&nbsp;366", "https://peps.python.org/pep-0366/");
 
             URL_Add("bean counter", "https://en.wiktionary.org/wiki/bean_counter#Noun");
-
-            URL_Add("adjective", "https://en.wiktionary.org/wiki/adjective#Noun");
 
             URL_Add("Baker clamp", "https://en.wikipedia.org/wiki/Baker_clamp");
 
@@ -131439,10 +131449,6 @@ namespace OverflowHelper.core
 
             URL_Add("OpenClaw", "https://en.wikipedia.org/wiki/OpenClaw");
 
-            URL_Add("M4V", "https://en.wikipedia.org/wiki/M4V");
-
-            URL_Add("M57", "https://en.wikipedia.org/wiki/Ring_Nebula");
-
             URL_Add("length", "https://en.wiktionary.org/wiki/length#Noun");
 
             URL_Add("lengthen", "https://en.wiktionary.org/wiki/lengthen#Verb");
@@ -134740,24 +134746,6 @@ namespace OverflowHelper.core
             URL_Add("night sky", "https://en.wiktionary.org/wiki/night_sky#Noun");
 
             URL_Add("nightmare", "https://en.wiktionary.org/wiki/nightmare#Noun");
-
-            URL_Add("Android Runtime", "https://en.wikipedia.org/wiki/Android_Runtime");
-
-            URL_Add("Galaxy S21 Ultra", "https://en.wikipedia.org/wiki/Samsung_Galaxy_S21");
-
-            URL_Add("Samsung Galaxy S series", "https://en.wikipedia.org/wiki/Samsung_Galaxy_S_series");
-
-            URL_Add("Samsung Galaxy S4", "https://en.wikipedia.org/wiki/Samsung_Galaxy_S4");
-
-            URL_Add("Samsung Galaxy S5", "https://en.wikipedia.org/wiki/Samsung_Galaxy_S5");
-
-            URL_Add("Samsung Galaxy S7", "https://en.wikipedia.org/wiki/Samsung_Galaxy_S7");
-
-            URL_Add("Samsung Galaxy S8", "https://en.wikipedia.org/wiki/Samsung_Galaxy_S8");
-
-            URL_Add("Samsung Galaxy S24", "https://en.wikipedia.org/wiki/Samsung_Galaxy_S24");
-
-            URL_Add("Samsung Kies", "https://en.wikipedia.org/wiki/Samsung_Kies");
 
             URL_Add("Bible", "https://en.wiktionary.org/wiki/Bible#Proper_noun");
 
@@ -140067,8 +140055,6 @@ namespace OverflowHelper.core
 
             URL_Add("learned the hard way", "https://en.wiktionary.org/wiki/learn_the_hard_way#Verb");
 
-            URL_Add("Milky Way", "https://en.wikipedia.org/wiki/Milky_Way");
-
             URL_Add("Learn Python the Hard Way", "https://en.wikipedia.org/wiki/Zed_Shaw#Books");
 
             URL_Add("MGTOW", "https://en.wikipedia.org/wiki/Men_Going_Their_Own_Way");
@@ -142254,8 +142240,6 @@ namespace OverflowHelper.core
             URL_Add("nonclustered", "https://en.wiktionary.org/wiki/nonclustered#Adjective");
 
             URL_Add("k-means clustering", "https://en.wikipedia.org/wiki/K-means_clustering");
-
-            URL_Add("Bullet Cluster", "https://en.wikipedia.org/wiki/Bullet_Cluster");
 
             URL_Add("use", "https://en.wiktionary.org/wiki/use#Verb");
 
@@ -147259,24 +147243,6 @@ namespace OverflowHelper.core
 
             URL_Add("quadrupole", "https://en.wiktionary.org/wiki/quadrupole#Noun");
 
-            URL_Add("alphanumeric", "https://en.wiktionary.org/wiki/alphanumeric#Adjective");
-
-            URL_Add("alpha channel", "https://en.wikipedia.org/wiki/Alpha_compositing#Description");
-
-            URL_Add("beta male", "https://en.wikipedia.org/wiki/Alpha_and_beta_male_(slang)");
-
-            URL_Add("Alpha Ursae Majoris", "https://en.wikipedia.org/wiki/Alpha_Ursae_Majoris");
-
-            URL_Add("Alpha Centauri", "https://en.wikipedia.org/wiki/Alpha_Centauri");
-
-            URL_Add("Proxima Centauri", "https://en.wikipedia.org/wiki/Proxima_Centauri");
-
-            URL_Add("Proxima Centauri b", "https://en.wikipedia.org/wiki/Proxima_Centauri_b");
-
-            URL_Add("TRAPPIST-1", "https://en.wikipedia.org/wiki/TRAPPIST-1");
-
-            URL_Add("Tauri", "https://blog.logrocket.com/tauri-electron-comparison-migration-guide/"); // Old: <https://tauri.studio/v1/about/intro/>
-
             URL_Add("weaknesses", "https://en.wiktionary.org/wiki/weakness#Noun");
 
             URL_Add("weakening", "https://en.wiktionary.org/wiki/weaken#Verb");
@@ -150348,6 +150314,66 @@ namespace OverflowHelper.core
             URL_Add("Void Linux", "https://en.wikipedia.org/wiki/Void_Linux");
 
             URL_Add("$HOME/.zshrc file", "https://wiki.debian.org/Zsh#Configuration");
+
+            URL_Add("Andromeda Galaxy", "https://en.wikipedia.org/wiki/Andromeda_Galaxy");
+
+            URL_Add("astrophysics", "https://en.wikipedia.org/wiki/Astrophysics");
+
+            URL_Add("equation of motion", "https://en.wikipedia.org/wiki/Equations_of_motion");
+
+            URL_Add("equations of motion", "https://en.wikipedia.org/wiki/Equations_of_motion");
+
+            URL_Add("Milkomeda", "https://en.wikipedia.org/wiki/Andromeda%E2%80%93Milky_Way_collision#Merger_remnant");
+
+            URL_Add("Milky Way", "https://en.wikipedia.org/wiki/Milky_Way");
+
+            URL_Add("Bullet Cluster", "https://en.wikipedia.org/wiki/Bullet_Cluster");
+
+            URL_Add("M4V", "https://en.wikipedia.org/wiki/M4V");
+
+            URL_Add("M57", "https://en.wikipedia.org/wiki/Ring_Nebula");
+
+            URL_Add("Alpha Ursae Majoris", "https://en.wikipedia.org/wiki/Alpha_Ursae_Majoris");
+
+            URL_Add("Alpha Centauri", "https://en.wikipedia.org/wiki/Alpha_Centauri");
+
+            URL_Add("Proxima Centauri", "https://en.wikipedia.org/wiki/Proxima_Centauri");
+
+            URL_Add("Proxima Centauri b", "https://en.wikipedia.org/wiki/Proxima_Centauri_b");
+
+            URL_Add("TRAPPIST-1", "https://en.wikipedia.org/wiki/TRAPPIST-1");
+
+            URL_Add("galaxies", "https://en.wiktionary.org/wiki/galaxy#Noun");
+
+            URL_Add("Galaxy Xcover", "https://en.wikipedia.org/wiki/Samsung_Galaxy_Xcover");
+
+            URL_Add("Galaxy S10", "https://en.wikipedia.org/wiki/Samsung_Galaxy_S10");
+
+            URL_Add("Galaxy S21 Ultra", "https://en.wikipedia.org/wiki/Samsung_Galaxy_S21");
+
+            URL_Add("Android Runtime", "https://en.wikipedia.org/wiki/Android_Runtime");
+
+            URL_Add("Samsung Galaxy S series", "https://en.wikipedia.org/wiki/Samsung_Galaxy_S_series");
+
+            URL_Add("Samsung Galaxy S4", "https://en.wikipedia.org/wiki/Samsung_Galaxy_S4");
+
+            URL_Add("Samsung Galaxy S5", "https://en.wikipedia.org/wiki/Samsung_Galaxy_S5");
+
+            URL_Add("Samsung Galaxy S7", "https://en.wikipedia.org/wiki/Samsung_Galaxy_S7");
+
+            URL_Add("Samsung Galaxy S8", "https://en.wikipedia.org/wiki/Samsung_Galaxy_S8");
+
+            URL_Add("Samsung Galaxy S24", "https://en.wikipedia.org/wiki/Samsung_Galaxy_S24");
+
+            URL_Add("Samsung Kies", "https://en.wikipedia.org/wiki/Samsung_Kies");
+
+            URL_Add("alphanumeric", "https://en.wiktionary.org/wiki/alphanumeric#Adjective");
+
+            URL_Add("alpha channel", "https://en.wikipedia.org/wiki/Alpha_compositing#Description");
+
+            URL_Add("beta male", "https://en.wikipedia.org/wiki/Alpha_and_beta_male_(slang)");
+
+            URL_Add("Tauri", "https://blog.logrocket.com/tauri-electron-comparison-migration-guide/"); // Old: <https://tauri.studio/v1/about/intro/>
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -171664,6 +171690,7 @@ namespace OverflowHelper.core
             correctionAdd("should__", "shoot__");
 
             correctionAdd("anny__", "any__");
+            correctionAdd("anyy__", "any__");
             correctionAdd("sny__", "any__");
             correctionAdd("eny__", "any__");
             correctionAdd("amy__", "any__");
