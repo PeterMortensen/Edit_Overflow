@@ -2385,6 +2385,7 @@ namespace OverflowHelper.core
             correctionAdd("uing", "using");
             correctionAdd("usig", "using");
             correctionAdd("sing", "using");
+            correctionAdd("usi", "using");
 
             correctionAdd("use to", "used to");
 
@@ -7452,6 +7453,7 @@ namespace OverflowHelper.core
             correctionAdd("pease", "please");
             correctionAdd("Pleas", "please");
             correctionAdd("plase", "please");
+            correctionAdd("plees", "please");
             correctionAdd("plss", "please");
             correctionAdd("plzz", "please");
             correctionAdd("pls", "please");
@@ -13813,6 +13815,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Theory", "theory");
             correctionAdd("pheory", "theory");
+            correctionAdd("theery", "theory");
             correctionAdd("thero", "theory");
 
             correctionAdd("Theory of Computation", "theory of computation");
@@ -16638,7 +16641,9 @@ namespace OverflowHelper.core
             correctionAdd("pop-science", "popular science");
             correctionAdd("popsci", "popular science");
 
-            correctionAdd("scientiests", "scientist");
+            correctionAdd("scientiests", "scientists");
+            correctionAdd("syentists", "scientists");
+
             correctionAdd("scientust", "scientist");
             correctionAdd("Scientist", "scientist");
             correctionAdd("syentist", "scientist");
@@ -18163,6 +18168,14 @@ namespace OverflowHelper.core
 
             correctionAdd("Fermilab", "Fermi National Accelerator Laboratory");
 
+            correctionAdd("tranlational", "translational");
+
+            correctionAdd("frame of reference", "reference frame");
+            correctionAdd("Reference Frame", "reference frame");
+
+            correctionAdd("inertial reference frame", "inertial frame of reference");
+            correctionAdd("IRF", "inertial frame of reference");
+
             // The physics thing (not the JavaScript library)
             correctionAdd("interia", "inertia");
 
@@ -18308,11 +18321,6 @@ namespace OverflowHelper.core
 
             // Gravitational wave observatory
             correctionAdd("Ligo", "LIGO");
-
-            correctionAdd("frame of reference", "reference frame");
-            correctionAdd("Reference Frame", "reference frame");
-
-            correctionAdd("tranlational", "translational");
 
             correctionAdd("Chemistry", "chemistry");
 
@@ -52646,10 +52654,6 @@ namespace OverflowHelper.core
 
             correctionAdd("--ggdb", "-ggdb"); // For GCC
 
-            correctionAdd("--fno-omit-frame-pointer", "-fno-omit-frame-pointer"); // For GCC
-
-            correctionAdd("--fomit-frame-pointer", "-fomit-frame-pointer");
-
             // For GCC
             correctionAdd("--O0", "-O0");
             correctionAdd("O0", "-O0");
@@ -52893,12 +52897,6 @@ namespace OverflowHelper.core
             // For GCC. An ARM-specific option
             correctionAdd("--mno-sched-prolog", "-mno-sched-prolog");
 
-            // For GCC. An ARM-specific option
-            correctionAdd("--mtpcs-frame", "-mtpcs-frame");
-
-            // For GCC. An ARM-specific option
-            correctionAdd("--mtpcs-leaf-frame", "-mtpcs-leaf-frame");
-
             correctionAdd("WARN_UNUSED_RESULT", "warn_unused_result"); // For GCC
 
             correctionAdd("--Wstrict-prototypes", "-Wstrict-prototypes"); // For GCC
@@ -52976,6 +52974,16 @@ namespace OverflowHelper.core
             correctionAdd("--Waggregate-return", "-Waggregate-return"); // For GCC
 
             correctionAdd("--ffreestanding", "-ffreestanding"); // For GCC
+
+            // For GCC. An ARM-specific option
+            correctionAdd("--mtpcs-frame", "-mtpcs-frame");
+
+            // For GCC. An ARM-specific option
+            correctionAdd("--mtpcs-leaf-frame", "-mtpcs-leaf-frame");
+
+            correctionAdd("--fno-omit-frame-pointer", "-fno-omit-frame-pointer"); // For GCC
+
+            correctionAdd("--fomit-frame-pointer", "-fomit-frame-pointer");
 
             // C++
             correctionAdd("cpp reference", "cppreference.com");
@@ -75408,6 +75416,7 @@ namespace OverflowHelper.core
             correctionAdd("JetPack Compose", "Jetpack Compose");
             correctionAdd("compose jetpack", "Jetpack Compose");
             correctionAdd("Jetpack compose", "Jetpack Compose");
+            correctionAdd("jetpack Compose", "Jetpack Compose");
             correctionAdd("Compose", "Jetpack Compose");
             correctionAdd("compose", "Jetpack Compose");
 
@@ -110506,8 +110515,6 @@ namespace OverflowHelper.core
 
             URL_Add("royal", "https://en.wiktionary.org/wiki/royal#Adjective");
 
-            URL_Add("scientific", "https://en.wiktionary.org/wiki/scientific#Adjective");
-
             URL_Add("Bower", "https://bower.io/");
 
             URL_Add("Keil", "https://en.wikipedia.org/wiki/Keil_(company)");
@@ -112800,8 +112807,6 @@ namespace OverflowHelper.core
 
             URL_Add("describe", "https://en.wiktionary.org/wiki/describe#Verb");
 
-            URL_Add("inertial", "https://en.wiktionary.org/wiki/inertial_frame_of_reference#Noun"); // Old: https://en.wiktionary.org/wiki/inertial_frame_of_reference#English
-
             URL_Add("metaprogramming", "https://en.wikipedia.org/wiki/Metaprogramming");
 
             URL_Add("preinstall", "https://en.wiktionary.org/wiki/preinstall#Verb"); // Old: https://en.wiktionary.org/wiki/preinstall
@@ -112878,7 +112883,13 @@ namespace OverflowHelper.core
 
             URL_Add("circuit", "https://en.wiktionary.org/wiki/circuit#Noun");
 
+            URL_Add("scientific", "https://en.wiktionary.org/wiki/scientific#Adjective");
+
             URL_Add("scientist", "https://en.wiktionary.org/wiki/scientist#Noun");
+
+            URL_Add("scientists", "https://en.wiktionary.org/wiki/scientist#Noun");
+
+            URL_Add("Scientology", "https://en.wikipedia.org/wiki/Scientology");
 
             URL_Add("self-explanatory", "https://en.wiktionary.org/wiki/self-explanatory#Adjective");
 
@@ -113849,8 +113860,6 @@ namespace OverflowHelper.core
             URL_Add("4G", "https://en.wikipedia.org/wiki/4G");
 
             URL_Add("F-22 Raptor", "https://en.wikipedia.org/wiki/F-22_Raptor");
-
-            URL_Add("Scientology", "https://en.wikipedia.org/wiki/Scientology");
 
             URL_Add("Guacamole", "https://guacamole.apache.org/");
 
@@ -123790,10 +123799,6 @@ namespace OverflowHelper.core
 
             URL_Add("Option key", "https://en.wikipedia.org/wiki/Option_key");
 
-            URL_Add("inertia", "https://en.wiktionary.org/wiki/inertia#Noun");
-
-            URL_Add("internships", "https://en.wiktionary.org/wiki/internship#Noun");
-
             URL_Add("that's all for now", "https://dictionary.cambridge.org/dictionary/english/tafn");
 
             URL_Add("synchronised", "https://en.wiktionary.org/wiki/synchronise#Verb");
@@ -127141,8 +127146,6 @@ namespace OverflowHelper.core
             URL_Add("in vain", "https://en.wiktionary.org/wiki/in_vain#Adverb");
 
             URL_Add("ethtool", "https://en.wikipedia.org/wiki/Ethtool");
-
-            URL_Add("inertial measurement unit", "https://en.wikipedia.org/wiki/Inertial_measurement_unit");
 
             URL_Add("heliopause", "https://en.wikipedia.org/wiki/Heliosphere#Heliopause");
 
@@ -138831,8 +138834,6 @@ namespace OverflowHelper.core
 
             URL_Add("Amazon Translate", "https://docs.aws.amazon.com/translate/latest/dg/what-is.html");
 
-            URL_Add("reference frame", "https://en.wikipedia.org/wiki/Frame_of_reference");
-
             URL_Add("NAT", "https://en.wikipedia.org/wiki/Network_address_translation");
 
             URL_Add("o/", "https://en.wiktionary.org/wiki/o/#Translingual");
@@ -140370,6 +140371,20 @@ namespace OverflowHelper.core
 
             URL_Add("nonalphabetic", "https://en.wiktionary.org/wiki/nonalphabetic#Adjective");
 
+            URL_Add("internships", "https://en.wiktionary.org/wiki/internship#Noun");
+
+            URL_Add("reference frame", "https://en.wikipedia.org/wiki/Frame_of_reference");
+
+            URL_Add("inertial", "https://en.wiktionary.org/wiki/inertial_frame_of_reference#Noun"); // Old: https://en.wiktionary.org/wiki/inertial_frame_of_reference#English
+
+            URL_Add("inertial measurement unit", "https://en.wikipedia.org/wiki/Inertial_measurement_unit");
+
+            URL_Add("inertial frame of reference", "https://en.wikipedia.org/wiki/Inertial_frame_of_reference");
+
+            URL_Add("inertia", "https://en.wiktionary.org/wiki/inertia#Noun");
+
+            URL_Add("Inertial Reference System", "https://aviationinfo.net/inertial-navigation-system-ins-and-inertial-reference-system-irs-differences-and-functions/");
+
             URL_Add("aviation", "https://en.wiktionary.org/wiki/aviation#Noun");
 
             URL_Add("flying", "https://en.wiktionary.org/wiki/assemble#Verb");
@@ -140411,8 +140426,6 @@ namespace OverflowHelper.core
             URL_Add("airtight", "https://en.wiktionary.org/wiki/airtight#Adjective");
 
             URL_Add("spatial disorientation", "https://en.wikipedia.org/wiki/Spatial_disorientation#Flight_safety,_history,_and_statistics");
-
-            URL_Add("Inertial Reference System", "https://aviationinfo.net/inertial-navigation-system-ins-and-inertial-reference-system-irs-differences-and-functions/");
 
             URL_Add("flight path", "https://en.wiktionary.org/wiki/flight_path#Noun");
 
@@ -168018,8 +168031,6 @@ namespace OverflowHelper.core
 
             URL_Add("ergonomic_", "https://en.wiktionary.org/wiki/ergonomic#Adjective");
 
-            URL_Add("Inertia.js_", "https://inertiajs.com/upgrade-guide");
-
             URL_Add("UPS_", "https://en.wikipedia.org/wiki/United_Parcel_Service");
 
             URL_Add("roguelike_", "https://en.wikipedia.org/wiki/Roguelike");
@@ -171265,6 +171276,8 @@ namespace OverflowHelper.core
             URL_Add("Raspberry Pi_", "https://en.wikipedia.org/wiki/Raspberry_Pi");
 
             URL_Add("hardware attached on top_", "https://raspberrytips.com/glossary/hat/");
+
+            URL_Add("Inertia.js_", "https://inertiajs.com/upgrade-guide");
 
         } //addLookupData_alternativeWordSet()
 
