@@ -3165,7 +3165,7 @@ namespace OverflowHelper.core
             correctionAdd("Impossibru", "impossible");
             correctionAdd("impossibru", "impossible");
             correctionAdd("impossiple", "impossible");
-            correctionAdd("impkssible", "impossible");
+            correctionAdd("impkssible", "impossible"); // A true typo
             correctionAdd("imposible", "impossible");
 
             correctionAdd("imposibility", "impossibility");
@@ -4779,6 +4779,8 @@ namespace OverflowHelper.core
             correctionAdd("conglomomate", "conglomerate");
             correctionAdd("congleremate", "conglomerate");
             correctionAdd("congloremate", "conglomerate");
+
+            correctionAdd("sekter", "sector");
 
             correctionAdd("Private Sector", "private sector");
 
@@ -15335,9 +15337,12 @@ namespace OverflowHelper.core
             correctionAdd("Endia", "India");
             correctionAdd("Inida", "India"); // A true typo
 
+            // Alternative URLs:
+            //
+            //   <https://www.quora.com/Is-it-true-that-Indian-software-engineers-are-considered-very-bad-hires-in-the-USA>...
+            //   <https://www.quora.com/Is-it-true-that-Indian-software-engineers-are-considered-very-bad-hires-in-the-USA-I-plan-to-go-to-the-US-next-year-for-an-MS-in-Computer-Science-will-being-from-India-affect-my-job-prospects-there>...
+            //
             correctionAdd("indian", "Indian");
-            //  correctionAdd("", "Indian");   missing one
-            //     from <https://www.quora.com/Is-it-true-that-Indian-software-engineers-are-considered-very-bad-hires-in-the-USA>...
             correctionAdd("INDIAN", "Indian");
             correctionAdd("Idian", "Indian");
 
@@ -16170,6 +16175,7 @@ namespace OverflowHelper.core
             correctionAdd("VWP", "Visa Waiver Program");
 
             // A type of visa in the United States.
+            correctionAdd("H1b visa", "H-1B visa");
             correctionAdd("H1(b)", "H-1B visa");
             correctionAdd("H1-B", "H-1B visa");
             correctionAdd("H-1B", "H-1B visa");
@@ -16454,6 +16460,8 @@ namespace OverflowHelper.core
 
             // United States
             correctionAdd("Harvard", "Harvard University");
+            correctionAdd("Harverd", "Harvard University");
+            correctionAdd("harverd", "Harvard University");
 
             correctionAdd("harvardian", "Harvardian");
 
@@ -16607,6 +16615,45 @@ namespace OverflowHelper.core
             correctionAdd("qanon", "QAnon");
 
             correctionAdd("cyrstalline", "crystalline");
+
+            correctionAdd("fairy tail", "fairy tale");
+            correctionAdd("fairytale", "fairy tale");
+
+            // The adjective
+            correctionAdd("fare", "fair");
+
+            correctionAdd("farly", "fairly");
+            correctionAdd("fairy", "fairly");
+
+            // The verb
+            correctionAdd("fairs", "fares");
+
+            correctionAdd("engineering fair", "science fair");
+            correctionAdd("science fare", "science fair");
+
+            correctionAdd("Science", "science");
+            correctionAdd("SYENCE", "science");
+            correctionAdd("syence", "science");
+
+            correctionAdd("pop-science", "popular science");
+            correctionAdd("popsci", "popular science");
+
+            correctionAdd("scientiests", "scientist");
+            correctionAdd("scientust", "scientist");
+            correctionAdd("Scientist", "scientist");
+            correctionAdd("syentist", "scientist");
+
+            correctionAdd("scinetific", "scientific");
+            correctionAdd("Scinetific", "scientific");
+            correctionAdd("sientific", "scientific");
+
+            correctionAdd("STEM", "Science, technology, engineering, and mathematics");
+            correctionAdd("stem", "Science, technology, engineering, and mathematics");
+
+            correctionAdd("Data Scientist", "data scientist");
+
+            correctionAdd("Citizen Science", "citizen science");
+            correctionAdd("Citizen science", "citizen science");
 
             correctionAdd("monopily", "monopoly");
 
@@ -38716,6 +38763,8 @@ namespace OverflowHelper.core
             correctionAdd("watever", "whatever");
             correctionAdd("whateer", "whatever");
             correctionAdd("whaever", "whatever");
+            correctionAdd("WUTEVER", "whatever");
+            correctionAdd("wutever", "whatever");
             correctionAdd("w/e", "whatever");
 
             correctionAdd("what-not", "what not");
@@ -39326,6 +39375,10 @@ namespace OverflowHelper.core
             correctionAdd("EE", "electrical engineering");
 
             correctionAdd("Computer Engineering", "computer engineering");
+            correctionAdd("Computer Engg", "computer engineering");
+            correctionAdd("computer engg", "computer engineering");
+            correctionAdd("Computer Eng", "computer engineering");
+            correctionAdd("computer eng", "computer engineering");
 
             correctionAdd("Social engineering", "social engineering");
 
@@ -63309,42 +63362,6 @@ namespace OverflowHelper.core
 
             correctionAdd("well-versed", "well versed");
 
-            correctionAdd("fairy tail", "fairy tale");
-            correctionAdd("fairytale", "fairy tale");
-
-            // The adjective
-            correctionAdd("fare", "fair");
-
-            correctionAdd("farly", "fairly");
-            correctionAdd("fairy", "fairly");
-
-            // The verb
-            correctionAdd("fairs", "fares");
-
-            correctionAdd("engineering fair", "science fair");
-            correctionAdd("science fare", "science fair");
-
-            correctionAdd("Science", "science");
-
-            correctionAdd("pop-science", "popular science");
-            correctionAdd("popsci", "popular science");
-
-            correctionAdd("scientiests", "scientist");
-            correctionAdd("scientust", "scientist");
-            correctionAdd("Scientist", "scientist");
-
-            correctionAdd("scinetific", "scientific");
-            correctionAdd("Scinetific", "scientific");
-            correctionAdd("sientific", "scientific");
-
-            correctionAdd("STEM", "Science, technology, engineering, and mathematics");
-            correctionAdd("stem", "Science, technology, engineering, and mathematics");
-
-            correctionAdd("Data Scientist", "data scientist");
-
-            correctionAdd("Citizen Science", "citizen science");
-            correctionAdd("Citizen science", "citizen science");
-
             correctionAdd("work shopped", "workshopped");
 
             // The noun
@@ -74421,6 +74438,8 @@ namespace OverflowHelper.core
             correctionAdd("againt", "against");
             correctionAdd("agains", "against");
             correctionAdd("agaist", "against");
+            correctionAdd("agenst", "against");
+            correctionAdd("AGENST", "against");
 
             correctionAdd("suppoused", "supposed");
             correctionAdd("suppoosed", "supposed");
@@ -74676,6 +74695,9 @@ namespace OverflowHelper.core
             correctionAdd("School", "school");
             correctionAdd("shcool", "school");
             correctionAdd("shool", "school");
+            correctionAdd("skool", "school");
+
+            correctionAdd("skools", "schools");
 
             // The adjective
             correctionAdd("after school", "afterschool");
@@ -103168,20 +103190,11 @@ namespace OverflowHelper.core
 
             correctionAdd("cambridge", "Queen's Gambit Declined, Cambridge Springs Defense"); // Chess
 
-            correctionAdd("queens indian", "Queen's Indian Defense"); // Chess
-
             correctionAdd("king gamblit", "King's Gambit"); // Chess
             correctionAdd("kings gambit", "King's Gambit"); // Chess
 
             correctionAdd("McDonnell Gambit", "King's Gambit, McDonnell Gambit"); // Chess
             correctionAdd("Mc donald gambit", "King's Gambit, McDonnell Gambit"); // Chess
-
-            correctionAdd("King's Indian", "King's Indian Defence"); // Chess
-            correctionAdd("king's indian", "King's Indian Defence"); // Chess
-            correctionAdd("king's Indian", "King's Indian Defence"); // Chess
-            correctionAdd("kings indian", "King's Indian Defence"); // Chess
-            correctionAdd("kings Indian", "King's Indian Defence"); // Chess
-            correctionAdd("Kings Indian", "King's Indian Defence"); // Chess
 
             correctionAdd("the dutch", "Dutch Defence"); // Chess
             correctionAdd("The Dutch", "Dutch Defence"); // Chess
@@ -103312,9 +103325,6 @@ namespace OverflowHelper.core
             correctionAdd("jobava", "Jobava London");
 
             // Chess
-            correctionAdd("nimso", "Nimzo-Indian Defence");
-
-            // Chess
             correctionAdd("torre attack", "Torre Attack");
 
             // Chess
@@ -103344,6 +103354,18 @@ namespace OverflowHelper.core
 
             // Chess
             correctionAdd("Kan", "Kan (Paulsen) Variation");
+
+            correctionAdd("queens indian", "Queen's Indian Defense"); // Chess
+
+            // Chess
+            correctionAdd("nimso", "Nimzo-Indian Defence");
+
+            correctionAdd("King's Indian", "King's Indian Defence"); // Chess
+            correctionAdd("king's indian", "King's Indian Defence"); // Chess
+            correctionAdd("king's Indian", "King's Indian Defence"); // Chess
+            correctionAdd("kings indian", "King's Indian Defence"); // Chess
+            correctionAdd("kings Indian", "King's Indian Defence"); // Chess
+            correctionAdd("Kings Indian", "King's Indian Defence"); // Chess
 
             // Chess
             //
@@ -110734,6 +110756,8 @@ namespace OverflowHelper.core
 
             URL_Add("school", "https://en.wiktionary.org/wiki/school#Noun_2");
 
+            URL_Add("schools", "https://en.wiktionary.org/wiki/school#Noun_2");
+
             URL_Add(".htaccess", "https://en.wikipedia.org/wiki/.htaccess");
 
             URL_Add("1&1 IONOS", "https://en.wikipedia.org/wiki/1%261_Ionos");
@@ -111458,8 +111482,6 @@ namespace OverflowHelper.core
 
             URL_Add("neighbouring", "https://en.wiktionary.org/wiki/neighbouring#Adjective");
 
-            URL_Add("King's Indian Defence", "https://en.wikipedia.org/wiki/King's_Indian_Defence");
-
             URL_Add("comfortable", "https://en.wiktionary.org/wiki/comfortable#Adjective");
 
             URL_Add("disease", "https://en.wiktionary.org/wiki/disease#Noun");
@@ -111973,10 +111995,6 @@ namespace OverflowHelper.core
             URL_Add("much", "https://en.wiktionary.org/wiki/much#Adverb");
 
             URL_Add("ternary operator", "https://en.wikipedia.org/wiki/Ternary_conditional_operator"); // Old: <https://en.wikipedia.org/wiki/%3F:>
-
-            URL_Add("Nimzo-Indian Defence", "https://en.wikipedia.org/wiki/Nimzo-Indian_Defence");
-
-            URL_Add("Torre Attack", "https://en.wikipedia.org/wiki/Torre_Attack");
 
             URL_Add("double-edged sword", "https://en.wiktionary.org/wiki/double-edged_sword#Noun");
 
@@ -113471,10 +113489,6 @@ namespace OverflowHelper.core
             URL_Add("ArcoLinux", "https://arcolinux.info/");
 
             URL_Add("Fink", "https://en.wikipedia.org/wiki/Fink_(software)");
-
-            URL_Add("Korea", "https://en.wikipedia.org/wiki/Korea");
-
-            URL_Add("Rs", "https://en.wikipedia.org/wiki/Indian_rupee");
 
             URL_Add("biology", "https://en.wikipedia.org/wiki/Biology");
 
@@ -117544,6 +117558,8 @@ namespace OverflowHelper.core
 
             URL_Add("mobiReady", "https://ready.mobi/");
 
+            URL_Add("sector", "https://en.wiktionary.org/wiki/sector#Noun");
+
             URL_Add("private sector", "https://en.wiktionary.org/wiki/private_sector#Noun");
 
             URL_Add("singleline", "https://en.wiktionary.org/wiki/multiline#Adjective");
@@ -119588,8 +119604,6 @@ namespace OverflowHelper.core
 
             URL_Add("Breakout", "https://en.wikipedia.org/wiki/Breakout_(video_game)");
 
-            URL_Add("do the needful", "https://en.wikipedia.org/wiki/Indian_English#Vocabulary");
-
             URL_Add("x- and y-coordinates", "https://www.math.net/coordinates");
 
             URL_Add("x-coordinate", "https://www.merriam-webster.com/dictionary/x-coordinate");
@@ -121231,8 +121245,6 @@ namespace OverflowHelper.core
             URL_Add("Newegg", "https://en.wikipedia.org/wiki/Newegg");
 
             URL_Add("anglicizations", "https://en.wiktionary.org/wiki/anglicization#Noun");
-
-            URL_Add("Indian English", "https://en.wikipedia.org/wiki/Indian_English");
 
             URL_Add("revert", "https://en.wiktionary.org/wiki/revert#Verb");
 
@@ -127185,6 +127197,76 @@ namespace OverflowHelper.core
             URL_Add("King's Gambit", "https://en.wikipedia.org/wiki/King's_Gambit");
 
             URL_Add("King's Gambit, McDonnell Gambit", "https://en.wikipedia.org/wiki/King%27s_Gambit,_McDonnell_Gambit");
+
+            URL_Add("Antonio Radić", "https://en.wikipedia.org/w/index.php?title=Antonio_Radi%C4%87&oldid=978538274"); // Old: https://en.wikipedia.org/wiki/Antonio_Radi%C4%87
+
+            URL_Add("Four Knights Game", "https://en.wikipedia.org/wiki/Four_Knights_Game");
+
+            URL_Add("Vienna Game", "https://en.wikipedia.org/wiki/Vienna_Game");
+
+            URL_Add("Scotch Game", "https://en.wikipedia.org/wiki/Scotch_Game");
+
+            URL_Add("Italian Game", "https://en.wikipedia.org/wiki/Italian_Game");
+
+            URL_Add("Benoni Defense", "https://en.wikipedia.org/wiki/Benoni_Defense");
+
+            URL_Add("Open Sicilian", "https://en.wikipedia.org/wiki/Sicilian_Defence#Open_Sicilian:_2.Nf3_and_3.d4");
+
+            URL_Add("Réti Opening", "https://en.wikipedia.org/wiki/R%C3%A9ti_Opening");
+
+            URL_Add("Catalan Opening", "https://en.wikipedia.org/wiki/Catalan_Opening");
+
+            URL_Add("Giuoco Piano", "https://en.wikipedia.org/wiki/Giuoco_Piano");
+
+            URL_Add("English Opening", "https://en.wikipedia.org/wiki/English_Opening");
+
+            URL_Add("Dutch Defence", "https://en.wikipedia.org/wiki/Dutch_Defence");
+
+            URL_Add("Saragossa Opening", "https://en.wikipedia.org/wiki/Saragossa_Opening");
+
+            URL_Add("Ware Opening, Crab Variation", "https://en.wikipedia.org/wiki/Ware_Opening#Variations");
+
+            URL_Add("Carl's Bremen system", "https://www.chess.com/openings/English-Opening-Carls-Bremen-System");
+
+            URL_Add("Peter Svidler", "https://en.wikipedia.org/wiki/Peter_Svidler");
+
+            URL_Add("Bong-Cloud opening", "https://chess.stackexchange.com/questions/27227");
+
+            URL_Add("Sicilian Defence, Accelerated Dragon", "https://en.wikipedia.org/wiki/Sicilian_Defence,_Accelerated_Dragon");
+
+            URL_Add("Torre Attack", "https://en.wikipedia.org/wiki/Torre_Attack");
+
+            URL_Add("Queen's Indian Defense", "https://en.wikipedia.org/wiki/Queen%27s_Indian_Defense");
+
+            URL_Add("King's Indian Defence", "https://en.wikipedia.org/wiki/King's_Indian_Defence");
+
+            URL_Add("Nimzo-Indian Defence", "https://en.wikipedia.org/wiki/Nimzo-Indian_Defence");
+
+            URL_Add("Indian", "https://en.wiktionary.org/wiki/Indian#Adjective");
+
+            URL_Add("Indian English", "https://en.wikipedia.org/wiki/Indian_English");
+
+            URL_Add("the Indian space", "https://english.stackexchange.com/questions/4645/is-it-ever-correct-to-have-a-space-before-a-question-or-exclamation-mark#comment206109_4645");
+
+            URL_Add("missing articles (primarily Indians, Poles and Russians)", "https://www.youtube.com/watch?v=1Dax90QyXgI&t=17m54s");
+
+            URL_Add("Indian Standard Time", "https://en.wikipedia.org/wiki/Indian_Standard_Time");
+
+            URL_Add("Rs", "https://en.wikipedia.org/wiki/Indian_rupee");
+
+            URL_Add("do the needful", "https://en.wikipedia.org/wiki/Indian_English#Vocabulary");
+
+            URL_Add("Indian subcontinent", "https://en.wikipedia.org/wiki/Indian_subcontinent");
+
+            URL_Add("at the time of writing", "https://english.stackexchange.com/questions/199381/is-at-the-time-of-writing-correct");
+
+            URL_Add("Chinese Communist Party", "https://en.wikipedia.org/wiki/Chinese_Communist_Party");
+
+            URL_Add("Australia", "https://en.wikipedia.org/wiki/Australia");
+
+            URL_Add("Faroe Islands", "https://en.wikipedia.org/wiki/Faroe_Islands");
+
+            URL_Add("H-1B visa", "https://en.wikipedia.org/wiki/H-1B_visa");
 
             URL_Add("migration", "https://en.wiktionary.org/wiki/migration#Noun");
 
@@ -134346,16 +134428,6 @@ namespace OverflowHelper.core
 
             URL_Add("Valentine's Day", "https://en.wikipedia.org/wiki/Valentine%27s_Day#United_States");
 
-            URL_Add("Chinese Communist Party", "https://en.wikipedia.org/wiki/Chinese_Communist_Party");
-
-            URL_Add("Indian", "https://en.wiktionary.org/wiki/Indian#Adjective");
-
-            URL_Add("Australia", "https://en.wikipedia.org/wiki/Australia");
-
-            URL_Add("Faroe Islands", "https://en.wikipedia.org/wiki/Faroe_Islands");
-
-            URL_Add("H-1B visa", "https://en.wikipedia.org/wiki/H-1B_visa");
-
             URL_Add("at least", "https://en.wiktionary.org/wiki/at_least#Prepositional_phrase"); // Old: https://en.wiktionary.org/wiki/at_least
 
             URL_Add("least squares", "https://en.wikipedia.org/wiki/Least_squares");
@@ -136799,8 +136871,6 @@ namespace OverflowHelper.core
             URL_Add("south pole", "https://en.wiktionary.org/wiki/south_pole#Noun");
 
             URL_Add("north pole", "https://en.wiktionary.org/wiki/north_pole#Noun");
-
-            URL_Add("missing articles (primarily Indians, Poles and Russians)", "https://www.youtube.com/watch?v=1Dax90QyXgI&t=17m54s");
 
             URL_Add("Napoleonic", "https://en.wiktionary.org/wiki/Napoleonic#Adjective");
 
@@ -139729,10 +139799,6 @@ namespace OverflowHelper.core
 
             URL_Add("Samsung", "https://en.wikipedia.org/wiki/Samsung");
 
-            URL_Add("the Indian space", "https://english.stackexchange.com/questions/4645/is-it-ever-correct-to-have-a-space-before-a-question-or-exclamation-mark#comment206109_4645");
-
-            URL_Add("at the time of writing", "https://english.stackexchange.com/questions/199381/is-at-the-time-of-writing-correct");
-
             URL_Add("Node.js", "https://en.wikipedia.org/wiki/Node.js"); // Corrected 2012-04-10
 
             // Was https://en.wikipedia.org/wiki/Delphi!!!
@@ -140543,8 +140609,6 @@ namespace OverflowHelper.core
             URL_Add("Central Standard Time", "https://en.wikipedia.org/wiki/Central_Time_Zone");
 
             URL_Add("Pacific Standard Time", "https://en.wikipedia.org/wiki/Pacific_Time_Zone");
-
-            URL_Add("Indian Standard Time", "https://en.wikipedia.org/wiki/Indian_Standard_Time");
 
             URL_Add("Europa Clipper", "https://en.wikipedia.org/wiki/Europa_Clipper");
 
@@ -146770,43 +146834,7 @@ namespace OverflowHelper.core
 
             URL_Add("Game of Thrones", "https://en.wikipedia.org/wiki/Game_of_Thrones");
 
-            URL_Add("Antonio Radić", "https://en.wikipedia.org/w/index.php?title=Antonio_Radi%C4%87&oldid=978538274"); // Old: https://en.wikipedia.org/wiki/Antonio_Radi%C4%87
-
-            URL_Add("Four Knights Game", "https://en.wikipedia.org/wiki/Four_Knights_Game");
-
-            URL_Add("Vienna Game", "https://en.wikipedia.org/wiki/Vienna_Game");
-
-            URL_Add("Scotch Game", "https://en.wikipedia.org/wiki/Scotch_Game");
-
-            URL_Add("Italian Game", "https://en.wikipedia.org/wiki/Italian_Game");
-
-            URL_Add("Benoni Defense", "https://en.wikipedia.org/wiki/Benoni_Defense");
-
-            URL_Add("Open Sicilian", "https://en.wikipedia.org/wiki/Sicilian_Defence#Open_Sicilian:_2.Nf3_and_3.d4");
-
-            URL_Add("Queen's Indian Defense", "https://en.wikipedia.org/wiki/Queen%27s_Indian_Defense");
-
-            URL_Add("Réti Opening", "https://en.wikipedia.org/wiki/R%C3%A9ti_Opening");
-
-            URL_Add("Catalan Opening", "https://en.wikipedia.org/wiki/Catalan_Opening");
-
-            URL_Add("Giuoco Piano", "https://en.wikipedia.org/wiki/Giuoco_Piano");
-
-            URL_Add("English Opening", "https://en.wikipedia.org/wiki/English_Opening");
-
-            URL_Add("Dutch Defence", "https://en.wikipedia.org/wiki/Dutch_Defence");
-
-            URL_Add("Saragossa Opening", "https://en.wikipedia.org/wiki/Saragossa_Opening");
-
-            URL_Add("Ware Opening, Crab Variation", "https://en.wikipedia.org/wiki/Ware_Opening#Variations");
-
-            URL_Add("Carl's Bremen system", "https://www.chess.com/openings/English-Opening-Carls-Bremen-System");
-
-            URL_Add("Peter Svidler", "https://en.wikipedia.org/wiki/Peter_Svidler");
-
-            URL_Add("Bong-Cloud opening", "https://chess.stackexchange.com/questions/27227");
-
-            URL_Add("Sicilian Defence, Accelerated Dragon", "https://en.wikipedia.org/wiki/Sicilian_Defence,_Accelerated_Dragon");
+            URL_Add("Korea", "https://en.wikipedia.org/wiki/Korea");
 
             URL_Add("DNF Dragora", "https://en.wikipedia.org/wiki/DNF_(software)#Adoption");
 
@@ -149141,8 +149169,6 @@ namespace OverflowHelper.core
             URL_Add("subtitle", "https://en.wiktionary.org/wiki/subtitle#Noun");
 
             URL_Add("subtitles", "https://en.wiktionary.org/wiki/subtitle#Noun");
-
-            URL_Add("Indian subcontinent", "https://en.wikipedia.org/wiki/Indian_subcontinent");
 
             URL_Add("sub-system", "https://en.wiktionary.org/wiki/sub-system#Noun");
 
@@ -181475,6 +181501,8 @@ namespace OverflowHelper.core
             correctionAdd("NSE____", "Navier–Stokes equations____");
             correctionAdd("NS____", "Navier–Stokes equations____");
 
+            correctionAdd("hed____", "head____");
+
             // For the cross-reference to the default keymap
             // Note: In Git branch "wireless_playground"
             //
@@ -183120,6 +183148,8 @@ namespace OverflowHelper.core
             URL_Add("Navier–Stokes equations____", "https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations");
 
             URL_Add("circling poets throw rocks at them____", "https://www.youtube.com/watch?v=vaVYEYeWbGs&list=PLSoD2CcPrumFJREVL6RmMnZP5U7sGYYi2&index=25&t=1m6s");
+
+            URL_Add("head____", "https://en.wiktionary.org/wiki/head#Noun");
 
         } //addLookupData_alternativeWordSet4()
 
