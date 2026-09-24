@@ -3165,6 +3165,7 @@ namespace OverflowHelper.core
             correctionAdd("Impossibru", "impossible");
             correctionAdd("impossibru", "impossible");
             correctionAdd("impossiple", "impossible");
+            correctionAdd("impkssible", "impossible");
             correctionAdd("imposible", "impossible");
 
             correctionAdd("imposibility", "impossibility");
@@ -11659,6 +11660,24 @@ namespace OverflowHelper.core
 
             correctionAdd("semi-formal", "semiformal");
 
+            correctionAdd("incidicate", "indicate");
+            correctionAdd("andicate", "indicate");
+
+            correctionAdd("andicates", "indicates");
+            correctionAdd("indictes", "indicates");
+
+            correctionAdd("indeicated", "indicated");
+
+            correctionAdd("indicatator", "indicator");
+            correctionAdd("indicater", "indicator");
+
+            correctionAdd("counter indication", "contraindication");
+            correctionAdd("Counter indication", "contraindication");
+            correctionAdd("counterindication", "contraindication");
+
+            correctionAdd("KPI", "key performance indicator");
+            correctionAdd("kpi", "key performance indicator");
+
             correctionAdd("glade", "glad");
 
             correctionAdd("glandly", "gladly");
@@ -14665,6 +14684,7 @@ namespace OverflowHelper.core
             correctionAdd("neo-nazi", "neo-Nazi");
 
             correctionAdd("Hitler", "Adolf Hitler");
+            correctionAdd("H*tler", "Adolf Hitler");
             correctionAdd("Htler", "Adolf Hitler");
 
             correctionAdd("Fuhrer", "Führer");
@@ -35611,6 +35631,7 @@ namespace OverflowHelper.core
             //   <https://ss64.com/nt/diskpart.html>
             //
             correctionAdd("DISKPART", "diskpart");
+            correctionAdd("DiskPart", "diskpart");
 
             correctionAdd("gid", "GID");
 
@@ -61632,23 +61653,6 @@ namespace OverflowHelper.core
             correctionAdd("optionnaly", "optionally");
             correctionAdd("optionaly", "optionally");
             correctionAdd("Optionaly", "optionally");
-
-            correctionAdd("incidicate", "indicate");
-            correctionAdd("andicate", "indicate");
-
-            correctionAdd("andicates", "indicates");
-            correctionAdd("indictes", "indicates");
-
-            correctionAdd("indeicated", "indicated");
-
-            correctionAdd("indicatator", "indicator");
-
-            correctionAdd("counter indication", "contraindication");
-            correctionAdd("Counter indication", "contraindication");
-            correctionAdd("counterindication", "contraindication");
-
-            correctionAdd("KPI", "key performance indicator");
-            correctionAdd("kpi", "key performance indicator");
 
             correctionAdd("iradicate", "irradicate");
 
@@ -94519,6 +94523,7 @@ namespace OverflowHelper.core
             correctionAdd("K5 8K Ultra", "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)");
             correctionAdd("K5 8k Ultra", "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)");
             correctionAdd("K5 Ultra 8k", "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)");
+            correctionAdd("K5 Ultra", "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)");
 
             // A 109-key (105%. Not true TKL) full-size wired
             // and wireless (only Bluetooth) QMK/Via-capable
@@ -156151,7 +156156,10 @@ namespace OverflowHelper.core
             correctionAdd("LiPo_", "lithium-ion battery_"); // Not 100% correct. For the cross-reference
 
             // Related to lithium-ion (Li-ion) batteries
+            correctionAdd("Bloated battery pack_", "spicy pillow_");
+            correctionAdd("bloated battery pack_", "spicy pillow_");
             correctionAdd("swollen battery_", "spicy pillow_");
+            correctionAdd("bloated battery_", "spicy pillow_");
             correctionAdd("spicy pillows_", "spicy pillow_");
             correctionAdd("spicypillows_", "spicy pillow_");
             correctionAdd("spicypillow_", "spicy pillow_");
@@ -156403,6 +156411,7 @@ namespace OverflowHelper.core
             correctionAdd("Raspberry-Pi_", "Raspberry Pi_");
             correctionAdd("rasspbery pi_", "Raspberry Pi_");
             correctionAdd("Rapsberry Pi_", "Raspberry Pi_");
+            correctionAdd("Raspberri Pi_", "Raspberry Pi_");
             correctionAdd("raspberrypi_", "Raspberry Pi_");
             correctionAdd("Rasberry Pi_", "Raspberry Pi_");
             correctionAdd("rasberry pi_", "Raspberry Pi_");
