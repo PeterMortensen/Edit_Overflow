@@ -12263,6 +12263,10 @@ namespace OverflowHelper.core
             correctionAdd("apt", "APT");
             correctionAdd("Apt", "APT");
 
+            // Linux
+            correctionAdd("PPA", "Personal Package Archive");
+            correctionAdd("ppa", "Personal Package Archive");
+
             // Related to APT (a Linux package manager)
             correctionAdd("Aptitude", "aptitude");
 
@@ -21396,6 +21400,35 @@ namespace OverflowHelper.core
             correctionAdd("CWD", "current working directory");
             correctionAdd("pwd", "current working directory"); // Not a good match
 
+            // Software for ISO images, DVD, USB stics
+            //
+            // Alternative URLs:
+            //
+            //   <https://etcher.balena.io/>
+            //
+            correctionAdd("Balena Etcher", "balenaEtcher");
+            correctionAdd("Balena etcher", "balenaEtcher");
+            correctionAdd("balena etcher", "balenaEtcher");
+            correctionAdd("balenaetcher", "balenaEtcher");
+            correctionAdd("BalenaEtcher", "balenaEtcher");
+            correctionAdd("Blena Etcher", "balenaEtcher");
+            correctionAdd("Etcher", "balenaEtcher");
+            correctionAdd("balena", "balenaEtcher");
+            correctionAdd("Balena", "balenaEtcher");
+            correctionAdd("etcher", "balenaEtcher");
+
+            // A Linux live USB creator for ISO images,
+            // similar to balenaEtcher
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=-7APoZzNPyU>
+            //   <https://www.youtube.com/watch?v=n8vmXvoVjZw&t=7m27s>
+            //   <https://docs.fedoraproject.org/en-US/fedora/latest/getting-started/>
+            //   <https://www.xmodulo.com/boot-iso-image-from-grub.html>
+            //
+            correctionAdd("ventoy", "Ventoy");
+
             // Linux
             correctionAdd("Advanced Linux Sound Architecture", "ALSA");
             correctionAdd("alsa", "ALSA");
@@ -22867,39 +22900,6 @@ namespace OverflowHelper.core
             correctionAdd("OpenBox", "Openbox");
             correctionAdd("openbox", "Openbox");
 
-            // Linux
-            correctionAdd("PPA", "Personal Package Archive");
-            correctionAdd("ppa", "Personal Package Archive");
-
-            // Software for ISO images, DVD, USB stics
-            //
-            // Alternative URLs:
-            //
-            //   <https://etcher.balena.io/>
-            //
-            correctionAdd("Balena Etcher", "balenaEtcher");
-            correctionAdd("Balena etcher", "balenaEtcher");
-            correctionAdd("balena etcher", "balenaEtcher");
-            correctionAdd("balenaetcher", "balenaEtcher");
-            correctionAdd("BalenaEtcher", "balenaEtcher");
-            correctionAdd("Blena Etcher", "balenaEtcher");
-            correctionAdd("Etcher", "balenaEtcher");
-            correctionAdd("balena", "balenaEtcher");
-            correctionAdd("Balena", "balenaEtcher");
-            correctionAdd("etcher", "balenaEtcher");
-
-            // A Linux live USB creator for ISO images,
-            // similar to balenaEtcher
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.youtube.com/watch?v=-7APoZzNPyU>
-            //   <https://www.youtube.com/watch?v=n8vmXvoVjZw&t=7m27s>
-            //   <https://docs.fedoraproject.org/en-US/fedora/latest/getting-started/>
-            //   <https://www.xmodulo.com/boot-iso-image-from-grub.html>
-            //
-            correctionAdd("ventoy", "Ventoy");
-
             correctionAdd("micro-kernel", "microkernel");
 
             correctionAdd("kernels", "CUDA kernels");
@@ -23271,10 +23271,6 @@ namespace OverflowHelper.core
             // Fedora
             correctionAdd("Silver Blue", "Silverblue");
             correctionAdd("silverblue", "Silverblue");
-
-            // Fedora
-            correctionAdd("spin", "Spins");
-            correctionAdd("spins", "Spins");
 
             // An immutable Fedora edition
             // Alternative URL:
@@ -45520,11 +45516,8 @@ namespace OverflowHelper.core
             correctionAdd("pip3", "pip&nbsp;3");
 
             // Python
-            correctionAdd("Wheel", "wheel");
-            correctionAdd("whl", "wheel");
-            correctionAdd("WHL", "wheel");
-
-            // Python
+            //
+            // Note: "wheel" (the Python thing) is in an alternative word set
             correctionAdd("Wheels", "wheel packages");
             correctionAdd("wheels", "wheel packages");
 
@@ -67320,14 +67313,18 @@ namespace OverflowHelper.core
             correctionAdd("volume knob", "rotary knob");
             correctionAdd("Media Dial", "rotary knob");
             correctionAdd("media dial", "rotary knob");
+            correctionAdd("Spin Wheel", "rotary knob");
+            correctionAdd("spin wheel", "rotary knob");
             correctionAdd("enconder", "rotary knob");
             correctionAdd("encoders", "rotary knob");
             correctionAdd("Encoder", "rotary knob");
             correctionAdd("encoder", "rotary knob");
+            correctionAdd("wheel", "rotary knob");
             correctionAdd("nobs", "rotary knob"); // Not 100% correct - plural.
             correctionAdd("knob", "rotary knob");
             correctionAdd("nkob", "rotary knob"); // A true typo
             correctionAdd("Knob", "rotary knob");
+            correctionAdd("spin", "rotary knob");
             correctionAdd("Enc", "rotary knob"); // A variant should be "Enc.", but we can't currently represent that
             correctionAdd("enc", "rotary knob"); // A variant should be "enc.", but we can't currently represent that
             correctionAdd("nob", "rotary knob");
@@ -130003,8 +130000,6 @@ namespace OverflowHelper.core
 
             URL_Add("Remix", "https://en.wikipedia.org/wiki/Remix_(web_framework)");
 
-            URL_Add("Spins", "https://en.wikipedia.org/wiki/Fedora_Linux#Spins_and_Remixes");
-
             URL_Add("nowhere", "https://en.wiktionary.org/wiki/nowhere#Adverb");
 
             URL_Add("wherever", "https://en.wiktionary.org/wiki/wherever#Adverb");
@@ -146523,8 +146518,6 @@ namespace OverflowHelper.core
 
             URL_Add("Fisher-Price", "https://en.wikipedia.org/wiki/Fisher-Price");
 
-            URL_Add("wheel", "https://en.wikipedia.org/wiki/Wheel_(disambiguation)#Science_and_technology");
-
             URL_Add("wheel packages", "https://en.wikipedia.org/wiki/Wheel_(disambiguation)#Science_and_technology");
 
             URL_Add("Wheels Manufacturing", "https://wheelsmfg.com/about-us");
@@ -160482,6 +160475,10 @@ namespace OverflowHelper.core
             // For the full quote (we already have it in the main word set)
             correctionAdd("Hanlon's razor_", "Never attribute to malice that which is adequately explained by stupidity._");
 
+            // Fedora
+            correctionAdd("spins_", "Spins_");
+            correctionAdd("spin_", "Spins_");
+
             correctionAdd("pacakage_", "package_");
             correctionAdd("packpage_", "package_");
             correctionAdd("pacakge_", "package_");
@@ -171328,6 +171325,8 @@ namespace OverflowHelper.core
 
             URL_Add("rheumatoid arthritis_", "https://en.wikipedia.org/wiki/Rheumatoid_arthritis");
 
+            URL_Add("Spins_", "https://en.wikipedia.org/wiki/Fedora_Linux#Spins_and_Remixes");
+
         } //addLookupData_alternativeWordSet()
 
 
@@ -174536,6 +174535,11 @@ namespace OverflowHelper.core
 
             correctionAdd("Python__", "Python reference__");
 
+            // Python
+            correctionAdd("Wheel__", "wheel__");
+            correctionAdd("whl__", "wheel__");
+            correctionAdd("WHL__", "wheel__");
+
             // Image processing
             //
             // In Python, 'cv2' or 'cv'.
@@ -174569,6 +174573,20 @@ namespace OverflowHelper.core
 
             // The Python debugger
             correctionAdd("PDB__", "pdb__");
+
+            // A Python package manager. For example,
+            // used by the QMK build system
+            //
+            // Alternative URLs:
+            //
+            //   <https://docs.astral.sh/uv/>
+            //   <https://pypi.org/project/uv/>
+            //   <https://www.youtube.com/watch?v=AMdG7IjgSPM>
+            //
+            //   <https://www.pavelp.cz/assets/img/python_uv_thumb.avif>
+            //     ...
+            //
+            correctionAdd("UV__", "uv__");
 
             correctionAdd("Backward Elimination__", "backward elimination__");
             correctionAdd("BE__", "backward elimination__");
@@ -175699,20 +175717,6 @@ namespace OverflowHelper.core
             //
             correctionAdd("M2__", "Keychron M2__");
             correctionAdd("m2__", "Keychron M2__");
-
-            // A Python package manager. For example,
-            // used by the QMK build system
-            //
-            // Alternative URLs:
-            //
-            //   <https://docs.astral.sh/uv/>
-            //   <https://pypi.org/project/uv/>
-            //   <https://www.youtube.com/watch?v=AMdG7IjgSPM>
-            //
-            //   <https://www.pavelp.cz/assets/img/python_uv_thumb.avif>
-            //     ...
-            //
-            correctionAdd("UV__", "uv__");
 
             // Statistics (not Linux!)
             correctionAdd("Kernel__", "kernel__");
@@ -177570,6 +177574,8 @@ namespace OverflowHelper.core
             URL_Add("Experts-Exchange__", "https://en.wikipedia.org/wiki/Experts_Exchange"); // Old: https://en.wikipedia.org/wiki/Experts-Exchange - though it loses the hyphen...
 
             URL_Add("weird couplings to Bluetooth in Keychron keyboards__", "https://www.reddit.com/r/Keychron/comments/1ihh33r/comment/maxll5p/");
+
+            URL_Add("wheel__", "https://en.wikipedia.org/wiki/Wheel_(disambiguation)#Science_and_technology");
 
         } //addLookupData_alternativeWordSet2()
 
