@@ -25267,9 +25267,9 @@ namespace OverflowHelper.core
             correctionAdd("connnection", "connection");
             correctionAdd("Conntection", "connection");
             correctionAdd("Connection", "connection");
-            correctionAdd("connectoin", "connection");
             correctionAdd("Conneciton", "connection");
             correctionAdd("conneciton", "connection");
+            correctionAdd("connectoin", "connection");
             correctionAdd("conection", "connection");
             correctionAdd("connexion", "connection");
             correctionAdd("connectio", "connection");
@@ -28844,10 +28844,10 @@ namespace OverflowHelper.core
 
             correctionAdd("prioritize", "prioritise");
             correctionAdd("priortise", "prioritise");
-            correctionAdd("Pritoize", "prioritise");
             correctionAdd("priotize", "prioritise");
-            correctionAdd("pritoize", "prioritise");
             correctionAdd("priotise", "prioritise");
+            correctionAdd("Pritoize", "prioritise");
+            correctionAdd("pritoize", "prioritise");
 
             correctionAdd("priorty", "priority");
             correctionAdd("prio", "priority");
@@ -44018,8 +44018,8 @@ namespace OverflowHelper.core
             correctionAdd("Tortoisegit", "TortoiseGit");
             correctionAdd("TortoiseGIT", "TortoiseGit");
             correctionAdd("tortoiseGit", "TortoiseGit");
-            correctionAdd("tortisegit", "TortoiseGit");
             correctionAdd("tortoisgit", "TortoiseGit");
+            correctionAdd("tortisegit", "TortoiseGit");
 
             // A Git client
             correctionAdd("Smart Git", "SmartGit");
@@ -44374,11 +44374,11 @@ namespace OverflowHelper.core
             correctionAdd("Tortoise SVN", "TortoiseSVN");
             correctionAdd("tortoise SVN", "TortoiseSVN");
             correctionAdd("tortoise svn", "TortoiseSVN");
-            correctionAdd("Tortiose SVN", "TortoiseSVN");
             correctionAdd("Tortoise-SVN", "TortoiseSVN");
-            correctionAdd("torotoisesvn", "TortoiseSVN");
             correctionAdd("TORTOISE SVN", "TortoiseSVN");
+            correctionAdd("torotoisesvn", "TortoiseSVN");
             correctionAdd("svn tortoise", "TortoiseSVN");
+            correctionAdd("Tortiose SVN", "TortoiseSVN");
             correctionAdd("Tortoisesvn", "TortoiseSVN");
             correctionAdd("tortoiseSVN", "TortoiseSVN");
             correctionAdd("tortoisesvn", "TortoiseSVN");
@@ -44386,8 +44386,8 @@ namespace OverflowHelper.core
             correctionAdd("tortoiseSvn", "TortoiseSVN");
             correctionAdd("tortise-SVN", "TortoiseSVN");
             correctionAdd("ToritiseSVN", "TortoiseSVN"); // Misspelling.
-            correctionAdd("tortiseSVN", "TortoiseSVN");
             correctionAdd("tortoisSVN", "TortoiseSVN");
+            correctionAdd("tortiseSVN", "TortoiseSVN");
             correctionAdd("TortiseSVN", "TortoiseSVN");
             correctionAdd("Tortoise", "TortoiseSVN"); // Most common - could also be TortoiseCVS, TortoiseGit, TortoiseBzr and TortoiseHg.
             correctionAdd("tortoise", "TortoiseSVN"); // Most common - could also be TortoiseCVS, TortoiseGit, TortoiseBzr and TortoiseHg.
@@ -55925,9 +55925,9 @@ namespace OverflowHelper.core
             correctionAdd("evaluatable", "evaluable");
 
             correctionAdd("evalutation", "evaluation");
-            correctionAdd("evaluatoin", "evaluation");
             correctionAdd("Evoluation", "evaluation");
             correctionAdd("evoluation", "evaluation");
+            correctionAdd("evaluatoin", "evaluation");
             correctionAdd("evalution", "evaluation");
             correctionAdd("eval", "evaluation");
 
@@ -60741,6 +60741,8 @@ namespace OverflowHelper.core
 
             correctionAdd("listner", "listener");
 
+            correctionAdd("liteners", "listeners");
+
             correctionAdd("lsited", "listed");
 
             correctionAdd("Play list", "playlist");
@@ -61714,8 +61716,8 @@ namespace OverflowHelper.core
 
             correctionAdd("opts", "options");
 
-            correctionAdd("optoional", "optional");
             correctionAdd("optionnal", "optional");
+            correctionAdd("optoional", "optional");
             correctionAdd("optinal", "optional");
             correctionAdd("optiona", "optional");
 
@@ -68758,8 +68760,8 @@ namespace OverflowHelper.core
             correctionAdd("autoIt", "AutoIt");
             correctionAdd("AutoIT", "AutoIt");
             correctionAdd("autoIT", "AutoIt");
-            correctionAdd("AutiIT", "AutoIt"); // A true typo
             correctionAdd("AitoIt", "AutoIt");
+            correctionAdd("AutiIT", "AutoIt"); // A true typo
             correctionAdd("auoti", "AutoIt");
 
             // Windows program to simulate key presses and mouse
@@ -80999,7 +81001,7 @@ namespace OverflowHelper.core
             //
             // Not to be confused with "TestFlight"
             //
-            correctionAdd("playewright", "Playwright");
+            correctionAdd("playewright", "Playwright"); // A true typo
             correctionAdd("playwright", "Playwright");
 
             correctionAdd("confrontaction", "confrontation");
@@ -99180,8 +99182,8 @@ namespace OverflowHelper.core
             correctionAdd("HG", "Mercurial");
 
             // Mercurial
-            correctionAdd("tortoisehg", "TortoiseHg");
             correctionAdd("Tortoise HG", "TortoiseHg");
+            correctionAdd("tortoisehg", "TortoiseHg");
 
             // A version control system (Linux kernel development before Git)
             correctionAdd("bitkeeper", "BitKeeper");
@@ -108895,8 +108897,6 @@ namespace OverflowHelper.core
 
             URL_Add("Lynx", "https://en.wikipedia.org/wiki/Lynx_%28web_browser%29");
 
-            URL_Add("TortoiseSVN", "https://en.wikipedia.org/wiki/TortoiseSVN");
-
             URL_Add("DD-WRT", "https://en.wikipedia.org/wiki/DD-WRT");
 
             URL_Add("Tkinter", "https://en.wikipedia.org/wiki/Tkinter");
@@ -109096,8 +109096,6 @@ namespace OverflowHelper.core
             URL_Add("SHA-2", "https://en.wikipedia.org/wiki/SHA-2");
 
             URL_Add("HDMI", "https://en.wikipedia.org/wiki/HDMI");
-
-            URL_Add("AutoIt", "https://en.wikipedia.org/wiki/AutoIt");
 
             URL_Add("MyFaces", "https://en.wikipedia.org/wiki/Apache_MyFaces");
 
@@ -109656,8 +109654,6 @@ namespace OverflowHelper.core
             URL_Add("domain-driven design", "https://en.wikipedia.org/wiki/Domain-driven_design");
 
             URL_Add("MIPS", "https://en.wikipedia.org/wiki/MIPS_architecture");
-
-            URL_Add("TortoiseHg", "https://en.wikipedia.org/wiki/TortoiseHg");
 
             URL_Add("challenge", "https://en.wiktionary.org/wiki/challenge#Noun");
 
@@ -112287,8 +112283,6 @@ namespace OverflowHelper.core
 
             URL_Add("Agent Ransack", "https://www.mythicsoft.com/agentransack/");
 
-            URL_Add("TortoiseCVS", "https://en.wikipedia.org/wiki/TortoiseCVS");
-
             URL_Add("AdWords", "https://en.wikipedia.org/wiki/Google_Ads");
 
             URL_Add("Delicious", "https://en.wikipedia.org/wiki/Delicious_(website)");
@@ -114053,8 +114047,6 @@ namespace OverflowHelper.core
 
             URL_Add("Racket", "https://en.wikipedia.org/wiki/Racket_(programming_language)");
 
-            URL_Add("fianchettoing", "https://en.wiktionary.org/wiki/fianchetto#Verb");
-
             URL_Add("in place", "https://en.wiktionary.org/wiki/in_place#Adjective");
 
             URL_Add("insertion sort", "https://en.wikipedia.org/wiki/Insertion_sort");
@@ -115727,8 +115719,6 @@ namespace OverflowHelper.core
 
             URL_Add("laughable", "https://en.wiktionary.org/wiki/laughable#Adjective");
 
-            URL_Add("listening", "https://en.wiktionary.org/wiki/listen#Verb");
-
             URL_Add("turn off", "https://en.wiktionary.org/wiki/turn_off#Verb");
 
             URL_Add("2G", "https://en.wikipedia.org/wiki/2G");
@@ -116149,7 +116139,11 @@ namespace OverflowHelper.core
 
             URL_Add("constitutionally", "https://en.wiktionary.org/wiki/constitutionally#Adverb");
 
+            URL_Add("listening", "https://en.wiktionary.org/wiki/listen#Verb");
+
             URL_Add("listener", "https://en.wiktionary.org/wiki/listener#Noun");
+
+            URL_Add("listeners", "https://en.wiktionary.org/wiki/listener#Noun");
 
             URL_Add("science", "https://en.wiktionary.org/wiki/science#Noun");
 
@@ -124322,10 +124316,6 @@ namespace OverflowHelper.core
             URL_Add("averted", "https://en.wiktionary.org/wiki/avert#Verb");
 
             URL_Add("warrant", "https://en.wiktionary.org/wiki/warrant#Verb");
-
-            URL_Add("David Heinemeier Hansson", "https://en.wikipedia.org/wiki/David_Heinemeier_Hansson");
-
-            URL_Add("Stoicism", "https://en.wikipedia.org/wiki/Stoicism");
 
             URL_Add("builds", "https://en.wiktionary.org/wiki/build#Verb");
 
@@ -145337,7 +145327,21 @@ namespace OverflowHelper.core
 
             URL_Add("TortoiseGit", "https://en.wikipedia.org/wiki/TortoiseGit");
 
+            URL_Add("TortoiseSVN", "https://en.wikipedia.org/wiki/TortoiseSVN");
+
+            URL_Add("TortoiseHg", "https://en.wikipedia.org/wiki/TortoiseHg");
+
+            URL_Add("TortoiseCVS", "https://en.wikipedia.org/wiki/TortoiseCVS");
+
             URL_Add("MSysGit", "https://github.com/msysgit/");
+
+            URL_Add("fianchettoing", "https://en.wiktionary.org/wiki/fianchetto#Verb");
+
+            URL_Add("AutoIt", "https://en.wikipedia.org/wiki/AutoIt");
+
+            URL_Add("Stoicism", "https://en.wikipedia.org/wiki/Stoicism");
+
+            URL_Add("David Heinemeier Hansson", "https://en.wikipedia.org/wiki/David_Heinemeier_Hansson");
 
             URL_Add("CorFlags", "https://learn.microsoft.com/en-us/previous-versions/dotnet/netframework-2.0/ms164699(v=vs.80)"); // Old: <http://msdn.microsoft.com/en-us/library/ms164699%28v=vs.80%29.aspx>
 
@@ -164973,7 +164977,8 @@ namespace OverflowHelper.core
             correctionAdd("TOCKEN_", "token_");
             correctionAdd("tocken_", "token_");
             correctionAdd("Token_", "token_");
-            correctionAdd("toke_", "token_");
+            correctionAdd("toke_", "token_"); // Likely a typo associated with the space bar
+            correctionAdd("Toke_", "token_"); // Likely a typo associated with the space bar
 
             correctionAdd("splint_", "Splint_");
 
@@ -169179,8 +169184,6 @@ namespace OverflowHelper.core
 
             URL_Add("fast-forward_", "https://stackoverflow.com/questions/29673869/what-is-git-fast-forwarding");
 
-            URL_Add("rheumatoid arthritis_", "https://en.wikipedia.org/wiki/Rheumatoid_arthritis");
-
             URL_Add("cheese_", "https://en.wiktionary.org/wiki/cheese#Noun");
 
             URL_Add("wicked_", "https://en.wiktionary.org/wiki/wicked#Adjective");
@@ -171305,6 +171308,8 @@ namespace OverflowHelper.core
 
             URL_Add("Inertia.js_", "https://inertiajs.com/upgrade-guide");
 
+            URL_Add("rheumatoid arthritis_", "https://en.wikipedia.org/wiki/Rheumatoid_arthritis");
+
         } //addLookupData_alternativeWordSet()
 
 
@@ -171769,6 +171774,8 @@ namespace OverflowHelper.core
             correctionAdd("we'll__", "well__");
             correctionAdd("Well__", "well__");
             correctionAdd("will__", "well__");
+            correctionAdd("Welp__", "well__");
+            correctionAdd("welp__", "well__");
             correctionAdd("wel__", "well__");
 
             correctionAdd("its'__", "its__");
@@ -174449,6 +174456,7 @@ namespace OverflowHelper.core
             correctionAdd("macOS Sequoia 15__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
             correctionAdd("macos 15 Seqoia__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
             correctionAdd("Mac sequoia 15__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
+            correctionAdd("Mac OS sequoia__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
             correctionAdd("macOS Sequoia__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
             correctionAdd("MacOS Sequoia__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
             correctionAdd("macos sequoia__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
@@ -184915,9 +184923,9 @@ namespace OverflowHelper.core
             correctionAdd("tom______", "to______"); // A true typo (involving the space bar. A swap between space and the beginning of the next word (thus it entirely depends on that next word))
             correctionAdd("too______", "to______");
             correctionAdd("t o______", "to______");
-            correctionAdd("toi______", "to______");
             correctionAdd("tio______", "to______");
             correctionAdd("tot______", "to______"); // A true typo (involving the space bar. A swap between space and the beginning of the next word (thus it entirely depends on that next word))
+            correctionAdd("toi______", "to______"); // A true typo
             correctionAdd("tp______", "to______"); // A true typo
             correctionAdd("fo______", "to______"); // A true typo
             correctionAdd("ti______", "to______");
