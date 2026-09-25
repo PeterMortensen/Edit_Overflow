@@ -1246,8 +1246,592 @@ namespace OverflowHelper.core
             correctionAdd("ild", "old");
             correctionAdd("unc", "old");
 
+            correctionAdd("canine", "dog");
+            correctionAdd("K9", "dog"); // Not 100% correct
+
+            correctionAdd("dogbreed", "dog breed");
+
+            // A dog breed
+            correctionAdd("bull dog", "Bulldog");
+            correctionAdd("bulldog", "Bulldog");
+
+            // A dog breed
+            correctionAdd("Dalmatiner", "Dalmatian");
+            correctionAdd("dalmatiner", "Dalmatian");
+
+            correctionAdd("dog pile", "dogpile");
+
+            correctionAdd("dog fooding", "dogfooding");
+
+            correctionAdd("sick-as-a-dog", "sick as a dog");
+
             // A proverb
             correctionAdd("teach an old dog new tricks", "you can't teach an old dog new tricks");
+
+            // Idiomatic
+            correctionAdd("Let sleeping dogs lie", "let sleeping dogs lie");
+
+            // An Internet meme
+            //
+            // Note: "you’re" / "you're" is in an alternative word set
+            //
+            correctionAdd("On the Internet, nobody knows you're a dog", "On the Internet, nobody knows you’re a dog");
+            correctionAdd("no one knows you're a dog", "On the Internet, nobody knows you’re a dog");
+            correctionAdd("dog on the internet", "On the Internet, nobody knows you’re a dog");
+
+            correctionAdd("dogdy", "dodgy");
+            correctionAdd("didgy", "dodgy");
+            correctionAdd("Dodgy", "dodgy");
+
+            // In 'The Hitchhiker's Guide to the Galaxy'. A small dog
+            correctionAdd("tremedous difficulties with my lifestyle", "a terrible miscalculation of scale");
+            correctionAdd("careless talk costs life", "a terrible miscalculation of scale");
+            correctionAdd("careless talk", "a terrible miscalculation of scale");
+            correctionAdd("wrong scale", "a terrible miscalculation of scale");
+            correctionAdd("small dog", "a terrible miscalculation of scale");
+            correctionAdd("careless", "a terrible miscalculation of scale");
+            correctionAdd("scale", "a terrible miscalculation of scale");
+
+            // E.g., as in "small furry creatures from Alpha Centauri"
+            // (in 'The Hitchhiker's Guide to the Galaxy'):
+            //
+            //   <https://www.youtube.com/watch?v=7NEHGMgeCfQ&t=32s>
+            //
+            correctionAdd("fury", "furry");
+
+            // About the book itself
+            //
+            // In 'The Hitchhiker's Guide to the Galaxy' (Vogon poetry)
+            correctionAdd("unevenly edited", "very unevenly edited");
+
+            // In 'The Hitchhiker's Guide to the Galaxy' (Vogon poetry)
+            correctionAdd("Space&nbsp;Exploration (Stack Exchange site)", "Space, it says, is big, really big."); // Indirect mapping for "space". It is contrived, but we are out of alternative word sets...
+            correctionAdd("space is really big", "Space, it says, is big, really big.");
+            correctionAdd("big", "Space, it says, is big, really big.");
+
+            correctionAdd("coton", "cotton");
+
+            // In 'The Hitchhiker's Guide to the Galaxy'.
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/sought-after#Adjective>
+            //
+            correctionAdd("infinite improbability generator", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
+            correctionAdd("a mob of respectable physisists", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
+            correctionAdd("improbability generator", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
+            correctionAdd("a nice hot cup of tea", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
+            correctionAdd("one foot to the left", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
+            correctionAdd("virtually impossible", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
+            correctionAdd("extreme cleverness", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
+            correctionAdd("long-sought-after", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
+            correctionAdd("out of thin air", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
+            correctionAdd("really hot tea", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
+            correctionAdd("out of the air", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
+            correctionAdd("sought-after", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
+            correctionAdd("to the right", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
+            correctionAdd("to the left", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
+            correctionAdd("hot tea", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
+            correctionAdd("sought", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
+            correctionAdd("to the", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
+            correctionAdd("tea", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
+
+            correctionAdd("hitch-hike", "hitchhike");
+            correctionAdd("hitch hike", "hitchhike");
+
+            correctionAdd("douglas adams", "Douglas Adams");
+
+            // Radio show, books, franchise. Douglas Adams
+            //
+            correctionAdd("The Hitch Hiker's Guide to the Galaxy", "The Hitchhiker's Guide to the Galaxy");
+            correctionAdd("The Hitchhikers Guide to the Galaxy", "The Hitchhiker's Guide to the Galaxy");
+            correctionAdd("HITCH-HIKERS GUIDE TO THE GALAXY", "The Hitchhiker's Guide to the Galaxy");
+            correctionAdd("Hitch-hikers guide to the galaxy", "The Hitchhiker's Guide to the Galaxy");
+            correctionAdd("Hitch Hikers Guide to the Galaxy", "The Hitchhiker's Guide to the Galaxy");
+            correctionAdd("Hitchhikers Guild to the Galaxy", "The Hitchhiker's Guide to the Galaxy");
+            correctionAdd("Hitchhikers guide to the galaxy", "The Hitchhiker's Guide to the Galaxy");
+            correctionAdd("hitchhikers guide to the galaxy", "The Hitchhiker's Guide to the Galaxy");
+            correctionAdd("Hitchhiker to the Galaxy", "The Hitchhiker's Guide to the Galaxy");
+            correctionAdd("Hitchhikers guide", "The Hitchhiker's Guide to the Galaxy");
+            correctionAdd("Hitchhikers", "The Hitchhiker's Guide to the Galaxy");
+            correctionAdd("hitch hiker", "The Hitchhiker's Guide to the Galaxy");
+            correctionAdd("hitchhiker", "The Hitchhiker's Guide to the Galaxy");
+            correctionAdd("Hitchhiker", "The Hitchhiker's Guide to the Galaxy");
+            correctionAdd("HHGTTG", "The Hitchhiker's Guide to the Galaxy");
+            correctionAdd("Hitch", "The Hitchhiker's Guide to the Galaxy");
+            correctionAdd("hitch", "The Hitchhiker's Guide to the Galaxy");
+
+            // In 'The Hitchhiker's Guide to the Galaxy'
+            correctionAdd("zaphod beeblebrox", "Zaphod Beeblebrox");
+            correctionAdd("unusual chap", "Zaphod Beeblebrox");
+
+            // In 'The Hitchhiker's Guide to the Galaxy'.
+            correctionAdd("money", "it doesn't grow on trees");
+
+            // In 'The Hitchhiker's Guide to the Galaxy'
+            correctionAdd("burn down the forests", "a small inflation problem");
+            correctionAdd("inflation proplem", "a small inflation problem");
+
+            // ???
+            correctionAdd("burn down the forest", "see the forest for the trees");
+
+            // In 'The Hitchhiker's Guide to the Galaxy'
+            correctionAdd("protest", "existential protest");
+
+            // In 'The Hitchhiker's Guide to the Galaxy'
+            correctionAdd("Eddie", "Eddie (onboard computer)");
+
+            // In 'The Hitchhiker's Guide to the Galaxy'
+            correctionAdd("rock one", "Rock One");
+
+            correctionAdd("Demolished", "demolished");
+
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=EaPjFHUw4LQ&t=2m5s>
+            //     The Hitchhiker's Guide to the Galaxy
+            //
+            correctionAdd("Demolition", "demolition");
+
+            // In 'The Hitchhiker's Guide to the Galaxy'. Vogon ships.
+            correctionAdd("hovering in the air", "The ships hung in the sky much the same way that bricks don't.");
+            correctionAdd("yellow bricks", "The ships hung in the sky much the same way that bricks don't.");
+
+            // In 'The Hitchhiker's Guide to the Galaxy'. The book's
+            // (extended) entry about the Earth (one word)
+            correctionAdd("harmless", "mostly harmless");
+
+            // In 'The Hitchhiker's Guide to the Galaxy'
+            // Though the timestamp should probably be
+            // changed to something like 05 min 33 secs.
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wikiquote.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy#Chapter_12>
+            //
+            correctionAdd("a short delay", "short delay");
+            correctionAdd("slight delay", "short delay");
+            correctionAdd("very late", "short delay");
+            correctionAdd("the delay", "short delay");
+
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=5q6CjHOHPkU&t=8m48s>
+            //     In 'The Hitchhiker's Guide to the Galaxy'
+            //
+            correctionAdd("on it's last legs", "on its last legs");
+
+            // In 'The Hitchhiker's Guide to the Galaxy' (total perspective vortex)
+            correctionAdd("Frogstart", "Frogstar");
+
+            // In 'The Hitchhiker's Guide to the Galaxy'.
+            // Improbability drive.
+            //
+            // The reference is broken now...
+            //
+            correctionAdd("restore normality", "restoring normality");
+            correctionAdd("normality", "restoring normality");
+
+            // In 'The Hitchhiker's Guide to the Galaxy'.
+            correctionAdd("42", "The answer to life, the universe, and everything");
+
+            // In 'The Hitchhiker's Guide to the Galaxy'.
+            //
+            // But we probably need a better reference.
+            correctionAdd("Don't panic", "don’t panic");
+
+            // In 'The Hitchhiker's Guide to the Galaxy'
+            correctionAdd("Without actually telling anyone", "hiding information");
+            correctionAdd("without actually telling anyone", "hiding information");
+            correctionAdd("actually telling anybody", "hiding information");
+            correctionAdd("actually telling anyone", "hiding information");
+            correctionAdd("Without telling anyone", "hiding information");
+            correctionAdd("without telling anyone", "hiding information");
+            correctionAdd("calling attention to", "hiding information");
+            correctionAdd("not telling anyone", "hiding information");
+            correctionAdd("telling anyone", "hiding information");
+            correctionAdd("on display", "hiding information");
+
+            // The Hitchhiker's Guide to the Galaxy
+            //
+            // Other quotes:
+            //
+            //   "not a natural tenable position for a whale"
+            //   "What is my purpose in life"
+            //   "I wonder if it will be friends with me."
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=QD9Q3zJ8IoU&t=5m28s>
+            //
+            correctionAdd("against all probability", "Against all probability, a sperm whale has suddenly been called into existence");
+            correctionAdd("called into existence", "Against all probability, a sperm whale has suddenly been called into existence");
+
+            correctionAdd("domgatism", "dogmatism");
+
+            correctionAdd("idies", "ideas");
+
+            correctionAdd("sub-idea", "subidea");
+
+            correctionAdd("ideaology", "ideology");
+            correctionAdd("idiology", "ideology");
+
+            correctionAdd("idealogical", "ideological");
+            correctionAdd("Ideological", "ideological");
+            correctionAdd("idilogical", "ideological");
+
+            correctionAdd("Ideally", "ideally");
+            correctionAdd("idealy", "ideally");
+            correctionAdd("Idealy", "ideally");
+
+            correctionAdd("idialised", "idealised");
+
+            correctionAdd("non-idealities", "nonidealities");
+
+            correctionAdd("dail", "dial");
+
+            correctionAdd("dialing", "dealing");
+
+            // The adjective
+            correctionAdd("asleepp", "asleep");
+
+            correctionAdd("Deep Sleep", "deep sleep");
+            correctionAdd("deep-sleep", "deep sleep");
+
+            // Idiomatic
+            correctionAdd("sleep on", "sleep on it");
+            correctionAdd("sleep", "sleep on it");
+
+            correctionAdd("someone's wish is my command", "your wish is my command");
+            correctionAdd("is my wish", "your wish is my command");
+
+            correctionAdd("some one", "someone");
+            correctionAdd("someoone", "someone");
+            correctionAdd("Some one", "someone");
+            correctionAdd("soemone", "someone");
+            correctionAdd("ssomone", "someone");
+            correctionAdd("aomeone", "someone"); // A true typo
+            correctionAdd("somone", "someone");
+            correctionAdd("Soeone", "someone");
+            correctionAdd("soeone", "someone");
+            correctionAdd("some1", "someone");
+            correctionAdd("s.o", "someone");
+            correctionAdd("sm1", "someone");
+
+            correctionAdd("someon’es", "someone’s");
+            correctionAdd("someone's", "someone’s");
+            correctionAdd("someones", "someone’s");
+
+            correctionAdd("Someone else", "someone else");
+            correctionAdd("Someone elese", "someone else");
+            correctionAdd("someone elese", "someone else");
+
+            correctionAdd("someone else's", "someone else’s");
+            correctionAdd("someone elses", "someone else’s");
+            correctionAdd("Someone Elses", "someone else’s");
+
+            correctionAdd("the bane of", "bane of someone's existence");
+            correctionAdd("the bane", "bane of someone's existence");
+
+            // Idiomatic
+            correctionAdd("take the wind out of someone's sails", "take the wind out of someone’s sails");
+            correctionAdd("take the wind out of someone's sail", "take the wind out of someone’s sails");
+            correctionAdd("take the wind out of someones sail", "take the wind out of someone’s sails");
+
+            correctionAdd("eslse", "else");
+            correctionAdd("elce", "else");
+            correctionAdd("elss", "else");
+            correctionAdd("ells", "else");
+
+            correctionAdd("for else", "or else");
+
+            correctionAdd("everyone elese", "everyone else");
+
+            correctionAdd("every one", "everyone");
+            correctionAdd("Enery one", "everyone");
+            correctionAdd("enery one", "everyone");
+            correctionAdd("Eneryone", "everyone");
+            correctionAdd("Everyone", "everyone");
+            correctionAdd("evryone", "everyone");
+            correctionAdd("everone", "everyone");
+            correctionAdd("Every1", "everyone");
+            correctionAdd("every1", "everyone");
+
+            // As the contraction of "everyone is"
+            correctionAdd("everyones", "everyone's");
+            correctionAdd("everones", "everyone's");
+
+            correctionAdd("everyone elese's", "everyone else's");
+
+            correctionAdd("One's", "one’s");
+            correctionAdd("one's", "one’s");
+            correctionAdd("ones", "one’s");
+
+            correctionAdd("sombebody", "somebody");
+            correctionAdd("Some body", "somebody");
+            correctionAdd("some body", "somebody");
+            correctionAdd("Somebody", "somebody");
+            correctionAdd("sombody", "somebody");
+            correctionAdd("smbdy", "somebody");
+            correctionAdd("sbd", "somebody");
+            correctionAdd("sb", "somebody");
+
+            correctionAdd("somebody else's", "somebody else’s");
+            correctionAdd("somebody elses", "somebody else’s");
+
+            correctionAdd("any body", "anybody");
+            correctionAdd("anbody", "anybody");
+
+            correctionAdd("every body", "everybody");
+            correctionAdd("everibody", "everybody");
+
+            correctionAdd("knowbody", "nobody");
+            correctionAdd("no body", "nobody");
+            correctionAdd("pobody", "nobody");
+            correctionAdd("nobady", "nobody");
+            correctionAdd("noboy", "nobody");
+            correctionAdd("nbd", "nobody");
+
+            correctionAdd("nurchering", "nurturing");
+
+            correctionAdd("fastfood", "fast food");
+
+            correctionAdd("macdonalds", "McDonald's");
+            correctionAdd("McDonalds", "McDonald's");
+            correctionAdd("Mc donald", "McDonald's");
+            correctionAdd("Mc Donald", "McDonald's");
+            correctionAdd("McDonald", "McDonald's");
+
+            correctionAdd("FDA", "Food and Drug Administration");
+
+            correctionAdd("drugery", "drudgery");
+
+            correctionAdd("DR*GS", "drugs");
+            correctionAdd("dr*gs", "drugs");
+
+            correctionAdd("combatitive", "combative");
+
+            correctionAdd("food for fought", "food for thought");
+
+            // Note: "fight" is in an alternative word set
+            correctionAdd("fight-ed", "fought");
+            correctionAdd("fighted", "fought");
+
+            // Note: "thought" is in an alternative word set
+            correctionAdd("thoughtfull", "thoughtful");
+
+            correctionAdd("thoughfully", "thoughtfully");
+
+            correctionAdd("thought out", "thought-out");
+
+            correctionAdd("thought-process", "thought process");
+            correctionAdd("thoughtprocess", "thought process");
+
+            correctionAdd("thought provoking", "thought-provoking");
+
+            correctionAdd("second thought", "second thoughts");
+            correctionAdd("second though", "second thoughts");
+
+            correctionAdd("‘though", "though");
+            correctionAdd("thought", "though");
+            correctionAdd("thouigh", "though");
+            correctionAdd("Through", "though");
+            correctionAdd("through", "though");
+            correctionAdd("thouhg", "though");
+            correctionAdd("thpugh", "though");
+            correctionAdd("Though", "though");
+            correctionAdd("thgouh", "though");
+            correctionAdd("thoguh", "though");
+            correctionAdd("thoigh", "though");
+            correctionAdd("Thouhg", "though");
+            correctionAdd("thiugh", "though");
+            correctionAdd("thogh", "though");
+            correctionAdd("thoug", "though");
+            correctionAdd("tough", "though");
+            correctionAdd("Thoug", "though");
+            correctionAdd("thou", "though");
+            correctionAdd("tho", "though");
+            correctionAdd("Tho", "though"); // Expansion, not 100% correct. Add a plural feature?
+
+            correctionAdd("event though", "even though");
+            correctionAdd("even thought", "even though");
+            correctionAdd("Even though", "even though");
+            correctionAdd("eventhough", "even though");
+            correctionAdd("Eventhough", "even though");
+            correctionAdd("Even tough", "even though");
+            correctionAdd("even tough", "even though");
+            correctionAdd("Eventough", "even though");
+            correctionAdd("eventhoug", "even though");
+
+            correctionAdd("all thought", "although");
+            correctionAdd("all though", "although");
+            correctionAdd("Althought", "although"); // An autocorrect "masterpiece"?
+            correctionAdd("althought", "although"); // An autocorrect "masterpiece"?
+            correctionAdd("althougth", "although");
+            correctionAdd("Allthough", "although");
+            correctionAdd("allthough", "although");
+            correctionAdd("al though", "although");
+            correctionAdd("althrough", "although");
+            correctionAdd("Althougt", "although"); // Not 100% correct (case)
+            correctionAdd("althougt", "although"); // An autocorrect "masterpiece"?
+            correctionAdd("altought", "although"); // An autocorrect "masterpiece"?
+            correctionAdd("Althgugh", "although");
+            correctionAdd("althgugh", "although");
+            correctionAdd("althgouh", "although");
+            correctionAdd("Alltough", "although");
+            correctionAdd("alltough", "although");
+            correctionAdd("altough", "although");
+            correctionAdd("athough", "although");
+            correctionAdd("Altough", "although");
+            correctionAdd("Athough", "although");
+            correctionAdd("althgou", "although");
+            correctionAdd("Althoug", "although");
+            correctionAdd("althoug", "although");
+            correctionAdd("althou", "although");
+            correctionAdd("alltho", "although");
+            correctionAdd("altho", "although");
+            correctionAdd("Altho", "although");
+
+            correctionAdd("rougth", "rough");
+            correctionAdd("rought", "rough");
+            correctionAdd("ruff", "rough");
+
+            correctionAdd("roughtly", "roughly");
+            correctionAdd("rougthly", "roughly");
+            correctionAdd("routhly", "roughly");
+            correctionAdd("roughy", "roughly");
+            correctionAdd("rougly", "roughly");
+
+            correctionAdd("through out", "throughout");
+            correctionAdd("through-out", "throughout");
+            correctionAdd("thoughout", "throughout");
+
+            // Note: "through" is in the third alternative word set...
+            correctionAdd("click throughs", "click-throughs");
+            correctionAdd("clickthroughs", "click-throughs");
+
+            correctionAdd("throughoutput", "throughput");
+            correctionAdd("througput", "throughput");
+
+            // Note: "through" is in the third alternative word set...
+            correctionAdd("sift-through", "sift through");
+
+            correctionAdd("walk through", "walkthrough");
+            correctionAdd("walk-through", "walkthrough");
+            correctionAdd("Walkthrough", "walkthrough");
+            correctionAdd("walk though", "walkthrough");
+
+            correctionAdd("bleed through", "bleed-through");
+            correctionAdd("bleedthrough", "bleed-through");
+
+            correctionAdd("strikethrough", "strike through");
+            correctionAdd("striketrough", "strike through");
+
+            correctionAdd("break through", "breakthrough");
+
+            // Note: "fall" (the verb) is in an alternative word set
+            correctionAdd("faliing", "falling");
+
+            correctionAdd("fall back", "fallback");
+            correctionAdd("fall-back", "fallback");
+
+            correctionAdd("fall-backs", "fallbacks");
+
+            correctionAdd("short falls", "shortfalls");
+
+            correctionAdd("freefall", "free fall");
+
+            correctionAdd("waterfall", "waterfall model");
+            correctionAdd("Waterfall", "waterfall model");
+
+            // Note: "through" is in the third alternative word set...
+            correctionAdd("fall through", "fall-through");
+            correctionAdd("fall thought", "fall-through");
+            correctionAdd("Fall through", "fall-through");
+            correctionAdd("fall though", "fall-through");
+            correctionAdd("fallthrough", "fall-through");
+            correctionAdd("fallthough", "fall-through");
+            correctionAdd("fall thru", "fall-through");
+
+            // Idiomatic
+            correctionAdd("fall through the crack", "fall through the cracks");
+
+            // Idiomatic?
+            correctionAdd("falling into this pit", "falling into this pitfall");
+            correctionAdd("falling into a trap", "falling into this pitfall");
+            correctionAdd("falling in this pit", "falling into this pitfall");
+            correctionAdd("falling is this pit", "falling into this pitfall");
+
+            // Proverb. Idiomatic?
+            correctionAdd("Luck fallow braves", "fortune favours the brave");
+            correctionAdd("luck fallow braves", "fortune favours the brave");
+
+            // Idiomatic
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1lqokvn/comment/n14plhm/>
+            //     Keychron support...
+            //
+            correctionAdd("jump through some hoops", "jump through hoops");
+            correctionAdd("through hoops", "jump through hoops");
+
+            correctionAdd("from another lens", "through another lens");
+
+            correctionAdd("throroughouly", "thoroughly");
+            correctionAdd("throuroughly", "thoroughly");
+            correctionAdd("throughoutly", "thoroughly");
+            correctionAdd("throroughly", "thoroughly");
+            correctionAdd("throughouly", "thoroughly");
+            correctionAdd("thouroughly", "thoroughly");
+            correctionAdd("Thoroughly", "thoroughly");
+            correctionAdd("thuroughly", "thoroughly");
+            correctionAdd("thorougly", "thoroughly");
+            correctionAdd("throughly", "thoroughly");
+
+            correctionAdd("skrike", "strike");
+            correctionAdd("Skrike", "strike");
+
+            correctionAdd("strucked", "struck");
+            correctionAdd("striked", "struck");
+
+            correctionAdd("striked-out", "struck out");
+
+            correctionAdd("break down", "breakdown");
+
+            correctionAdd("nonbreaking", "non-breaking");
+            correctionAdd("non-braking", "non-breaking");
+            correctionAdd("nonbraking", "non-breaking");
+
+            correctionAdd("non-breakable", "nonbreakable");
+
+            correctionAdd("brake bread", "break bread");
+
+            correctionAdd("ground breaking", "groundbreaking");
+            correctionAdd("ground-breaking", "groundbreaking");
+
+            correctionAdd("dealbreaker", "deal breaker");
+            correctionAdd("deal braker", "deal breaker");
+            correctionAdd("deal break", "deal breaker");
+            correctionAdd("dealbreak", "deal breaker");
+
+            correctionAdd("tie-break", "tiebreak");
+            correctionAdd("tie break", "tiebreak");
+
+            correctionAdd("circuit-breaker", "circuit breaker");
+
+            correctionAdd("luick", "luck");
+
+            correctionAdd("unlcuky", "unlucky");
+
+            correctionAdd("luckely", "luckily");
+            correctionAdd("Luckely", "luckily");
+            correctionAdd("luckyli", "luckily");
+            correctionAdd("Luckily", "luckily");
+
+            correctionAdd("Though luck", "tough luck");
+            correctionAdd("though luck", "tough luck");
+            correctionAdd("Tough luck", "tough luck");
 
             correctionAdd("1 year old", "one-year-old");
 
@@ -4086,249 +4670,6 @@ namespace OverflowHelper.core
             correctionAdd("gen z", "Generation Z");
             correctionAdd("Gen-Z", "Generation Z");
             correctionAdd("GenZ", "Generation Z");
-
-            correctionAdd("nurchering", "nurturing");
-
-            correctionAdd("dog fooding", "dogfooding");
-
-            correctionAdd("fastfood", "fast food");
-
-            correctionAdd("macdonalds", "McDonald's");
-            correctionAdd("McDonalds", "McDonald's");
-            correctionAdd("Mc donald", "McDonald's");
-            correctionAdd("Mc Donald", "McDonald's");
-            correctionAdd("McDonald", "McDonald's");
-
-            correctionAdd("FDA", "Food and Drug Administration");
-
-            correctionAdd("drugery", "drudgery");
-
-            correctionAdd("DR*GS", "drugs");
-            correctionAdd("dr*gs", "drugs");
-
-            correctionAdd("combatitive", "combative");
-
-            correctionAdd("food for fought", "food for thought");
-
-            // Note: "fight" is in an alternative word set
-            correctionAdd("fight-ed", "fought");
-            correctionAdd("fighted", "fought");
-
-            // Note: "thought" is in an alternative word set
-            correctionAdd("thoughtfull", "thoughtful");
-
-            correctionAdd("thoughfully", "thoughtfully");
-
-            correctionAdd("thought out", "thought-out");
-
-            correctionAdd("thought-process", "thought process");
-            correctionAdd("thoughtprocess", "thought process");
-
-            correctionAdd("thought provoking", "thought-provoking");
-
-            correctionAdd("second thought", "second thoughts");
-            correctionAdd("second though", "second thoughts");
-
-            correctionAdd("‘though", "though");
-            correctionAdd("thought", "though");
-            correctionAdd("thouigh", "though");
-            correctionAdd("Through", "though");
-            correctionAdd("through", "though");
-            correctionAdd("thouhg", "though");
-            correctionAdd("thpugh", "though");
-            correctionAdd("Though", "though");
-            correctionAdd("thgouh", "though");
-            correctionAdd("thoguh", "though");
-            correctionAdd("thoigh", "though");
-            correctionAdd("Thouhg", "though");
-            correctionAdd("thiugh", "though");
-            correctionAdd("thogh", "though");
-            correctionAdd("thoug", "though");
-            correctionAdd("tough", "though");
-            correctionAdd("Thoug", "though");
-            correctionAdd("thou", "though");
-            correctionAdd("tho", "though");
-            correctionAdd("Tho", "though"); // Expansion, not 100% correct. Add a plural feature?
-
-            correctionAdd("event though", "even though");
-            correctionAdd("even thought", "even though");
-            correctionAdd("Even though", "even though");
-            correctionAdd("eventhough", "even though");
-            correctionAdd("Eventhough", "even though");
-            correctionAdd("Even tough", "even though");
-            correctionAdd("even tough", "even though");
-            correctionAdd("Eventough", "even though");
-            correctionAdd("eventhoug", "even though");
-
-            correctionAdd("all thought", "although");
-            correctionAdd("all though", "although");
-            correctionAdd("Althought", "although"); // An autocorrect "masterpiece"?
-            correctionAdd("althought", "although"); // An autocorrect "masterpiece"?
-            correctionAdd("althougth", "although");
-            correctionAdd("Allthough", "although");
-            correctionAdd("allthough", "although");
-            correctionAdd("al though", "although");
-            correctionAdd("althrough", "although");
-            correctionAdd("Althougt", "although"); // Not 100% correct (case)
-            correctionAdd("althougt", "although"); // An autocorrect "masterpiece"?
-            correctionAdd("altought", "although"); // An autocorrect "masterpiece"?
-            correctionAdd("Althgugh", "although");
-            correctionAdd("althgugh", "although");
-            correctionAdd("althgouh", "although");
-            correctionAdd("Alltough", "although");
-            correctionAdd("alltough", "although");
-            correctionAdd("altough", "although");
-            correctionAdd("athough", "although");
-            correctionAdd("Altough", "although");
-            correctionAdd("Athough", "although");
-            correctionAdd("althgou", "although");
-            correctionAdd("Althoug", "although");
-            correctionAdd("althoug", "although");
-            correctionAdd("althou", "although");
-            correctionAdd("alltho", "although");
-            correctionAdd("altho", "although");
-            correctionAdd("Altho", "although");
-
-            correctionAdd("rougth", "rough");
-            correctionAdd("rought", "rough");
-            correctionAdd("ruff", "rough");
-
-            correctionAdd("roughtly", "roughly");
-            correctionAdd("rougthly", "roughly");
-            correctionAdd("routhly", "roughly");
-            correctionAdd("roughy", "roughly");
-            correctionAdd("rougly", "roughly");
-
-            correctionAdd("through out", "throughout");
-            correctionAdd("through-out", "throughout");
-            correctionAdd("thoughout", "throughout");
-
-            // Note: "through" is in the third alternative word set...
-            correctionAdd("click throughs", "click-throughs");
-            correctionAdd("clickthroughs", "click-throughs");
-
-            correctionAdd("throughoutput", "throughput");
-            correctionAdd("througput", "throughput");
-
-            // Note: "through" is in the third alternative word set...
-            correctionAdd("sift-through", "sift through");
-
-            correctionAdd("walk through", "walkthrough");
-            correctionAdd("walk-through", "walkthrough");
-            correctionAdd("Walkthrough", "walkthrough");
-            correctionAdd("walk though", "walkthrough");
-
-            correctionAdd("bleed through", "bleed-through");
-            correctionAdd("bleedthrough", "bleed-through");
-
-            correctionAdd("strikethrough", "strike through");
-            correctionAdd("striketrough", "strike through");
-
-            correctionAdd("break through", "breakthrough");
-
-            // Note: "fall" (the verb) is in an alternative word set
-            correctionAdd("faliing", "falling");
-
-            correctionAdd("fall back", "fallback");
-            correctionAdd("fall-back", "fallback");
-
-            correctionAdd("fall-backs", "fallbacks");
-
-            correctionAdd("short falls", "shortfalls");
-
-            correctionAdd("freefall", "free fall");
-
-            correctionAdd("waterfall", "waterfall model");
-            correctionAdd("Waterfall", "waterfall model");
-
-            // Note: "through" is in the third alternative word set...
-            correctionAdd("fall through", "fall-through");
-            correctionAdd("fall thought", "fall-through");
-            correctionAdd("Fall through", "fall-through");
-            correctionAdd("fall though", "fall-through");
-            correctionAdd("fallthrough", "fall-through");
-            correctionAdd("fallthough", "fall-through");
-            correctionAdd("fall thru", "fall-through");
-
-            // Idiomatic
-            correctionAdd("fall through the crack", "fall through the cracks");
-
-            // Idiomatic?
-            correctionAdd("falling into this pit", "falling into this pitfall");
-            correctionAdd("falling into a trap", "falling into this pitfall");
-            correctionAdd("falling in this pit", "falling into this pitfall");
-            correctionAdd("falling is this pit", "falling into this pitfall");
-
-            // Proverb. Idiomatic?
-            correctionAdd("Luck fallow braves", "fortune favours the brave");
-            correctionAdd("luck fallow braves", "fortune favours the brave");
-
-            // Idiomatic
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.reddit.com/r/Keychron/comments/1lqokvn/comment/n14plhm/>
-            //     Keychron support...
-            //
-            correctionAdd("jump through some hoops", "jump through hoops");
-            correctionAdd("through hoops", "jump through hoops");
-
-            correctionAdd("from another lens", "through another lens");
-
-            correctionAdd("throroughouly", "thoroughly");
-            correctionAdd("throuroughly", "thoroughly");
-            correctionAdd("throughoutly", "thoroughly");
-            correctionAdd("throroughly", "thoroughly");
-            correctionAdd("throughouly", "thoroughly");
-            correctionAdd("thouroughly", "thoroughly");
-            correctionAdd("Thoroughly", "thoroughly");
-            correctionAdd("thuroughly", "thoroughly");
-            correctionAdd("thorougly", "thoroughly");
-            correctionAdd("throughly", "thoroughly");
-
-            correctionAdd("skrike", "strike");
-            correctionAdd("Skrike", "strike");
-
-            correctionAdd("strucked", "struck");
-            correctionAdd("striked", "struck");
-
-            correctionAdd("striked-out", "struck out");
-
-            correctionAdd("break down", "breakdown");
-
-            correctionAdd("nonbreaking", "non-breaking");
-            correctionAdd("non-braking", "non-breaking");
-            correctionAdd("nonbraking", "non-breaking");
-
-            correctionAdd("non-breakable", "nonbreakable");
-
-            correctionAdd("brake bread", "break bread");
-
-            correctionAdd("ground breaking", "groundbreaking");
-            correctionAdd("ground-breaking", "groundbreaking");
-
-            correctionAdd("dealbreaker", "deal breaker");
-            correctionAdd("deal braker", "deal breaker");
-            correctionAdd("deal break", "deal breaker");
-            correctionAdd("dealbreak", "deal breaker");
-
-            correctionAdd("tie-break", "tiebreak");
-            correctionAdd("tie break", "tiebreak");
-
-            correctionAdd("circuit-breaker", "circuit breaker");
-
-            correctionAdd("luick", "luck");
-
-            correctionAdd("unlcuky", "unlucky");
-
-            correctionAdd("luckely", "luckily");
-            correctionAdd("Luckely", "luckily");
-            correctionAdd("luckyli", "luckily");
-            correctionAdd("Luckily", "luckily");
-
-            correctionAdd("Though luck", "tough luck");
-            correctionAdd("though luck", "tough luck");
-            correctionAdd("Tough luck", "tough luck");
 
             // Note: "with" is in an alternative word set
             correctionAdd("witch out", "without");
@@ -20632,19 +20973,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Random Variable", "random variable");
 
-            // The adjective
-            correctionAdd("asleepp", "asleep");
-
-            correctionAdd("Deep Sleep", "deep sleep");
-            correctionAdd("deep-sleep", "deep sleep");
-
-            // Idiomatic
-            correctionAdd("sleep on", "sleep on it");
-            correctionAdd("sleep", "sleep on it");
-
-            // Idiomatic
-            correctionAdd("Let sleeping dogs lie", "let sleeping dogs lie");
-
             correctionAdd("Move", "move");
 
             correctionAdd("movees", "moves");
@@ -22330,8 +22658,8 @@ namespace OverflowHelper.core
             correctionAdd(".profile file", "$HOME/.profile file");
             correctionAdd("bash.profile", "$HOME/.profile file");
             correctionAdd("~/.profile", "$HOME/.profile file");
-            correctionAdd("profile", "$HOME/.profile file");
             correctionAdd(".profile", "$HOME/.profile file");
+            correctionAdd("profile", "$HOME/.profile file");
 
             // Bash. Linux.
             correctionAdd("$HOME/.bash_aliases", "$HOME/.bash_aliases file");
@@ -33308,104 +33636,6 @@ namespace OverflowHelper.core
             correctionAdd("commnds", "commands");
             correctionAdd("coands", "commands");
 
-            correctionAdd("someone's wish is my command", "your wish is my command");
-            correctionAdd("is my wish", "your wish is my command");
-
-            correctionAdd("some one", "someone");
-            correctionAdd("someoone", "someone");
-            correctionAdd("Some one", "someone");
-            correctionAdd("soemone", "someone");
-            correctionAdd("ssomone", "someone");
-            correctionAdd("aomeone", "someone"); // A true typo
-            correctionAdd("somone", "someone");
-            correctionAdd("Soeone", "someone");
-            correctionAdd("soeone", "someone");
-            correctionAdd("some1", "someone");
-            correctionAdd("s.o", "someone");
-            correctionAdd("sm1", "someone");
-
-            correctionAdd("someon’es", "someone’s");
-            correctionAdd("someone's", "someone’s");
-            correctionAdd("someones", "someone’s");
-
-            correctionAdd("Someone else", "someone else");
-            correctionAdd("Someone elese", "someone else");
-            correctionAdd("someone elese", "someone else");
-
-            correctionAdd("someone else's", "someone else’s");
-            correctionAdd("someone elses", "someone else’s");
-            correctionAdd("Someone Elses", "someone else’s");
-
-            correctionAdd("the bane of", "bane of someone's existence");
-            correctionAdd("the bane", "bane of someone's existence");
-
-            // Idiomatic
-            correctionAdd("take the wind out of someone's sails", "take the wind out of someone’s sails");
-            correctionAdd("take the wind out of someone's sail", "take the wind out of someone’s sails");
-            correctionAdd("take the wind out of someones sail", "take the wind out of someone’s sails");
-
-            correctionAdd("eslse", "else");
-            correctionAdd("elce", "else");
-            correctionAdd("elss", "else");
-            correctionAdd("ells", "else");
-
-            correctionAdd("for else", "or else");
-
-            correctionAdd("everyone elese", "everyone else");
-
-            correctionAdd("every one", "everyone");
-            correctionAdd("Enery one", "everyone");
-            correctionAdd("enery one", "everyone");
-            correctionAdd("Eneryone", "everyone");
-            correctionAdd("Everyone", "everyone");
-            correctionAdd("evryone", "everyone");
-            correctionAdd("everone", "everyone");
-            correctionAdd("Every1", "everyone");
-            correctionAdd("every1", "everyone");
-
-            // As the contraction of "everyone is"
-            correctionAdd("everyones", "everyone's");
-            correctionAdd("everones", "everyone's");
-
-            correctionAdd("everyone elese's", "everyone else's");
-
-            correctionAdd("One's", "one’s");
-            correctionAdd("one's", "one’s");
-            correctionAdd("ones", "one’s");
-
-            correctionAdd("sombebody", "somebody");
-            correctionAdd("Some body", "somebody");
-            correctionAdd("some body", "somebody");
-            correctionAdd("Somebody", "somebody");
-            correctionAdd("sombody", "somebody");
-            correctionAdd("smbdy", "somebody");
-            correctionAdd("sbd", "somebody");
-            correctionAdd("sb", "somebody");
-
-            correctionAdd("somebody else's", "somebody else’s");
-            correctionAdd("somebody elses", "somebody else’s");
-
-            correctionAdd("any body", "anybody");
-            correctionAdd("anbody", "anybody");
-
-            correctionAdd("every body", "everybody");
-            correctionAdd("everibody", "everybody");
-
-            correctionAdd("knowbody", "nobody");
-            correctionAdd("no body", "nobody");
-            correctionAdd("pobody", "nobody");
-            correctionAdd("nobady", "nobody");
-            correctionAdd("noboy", "nobody");
-            correctionAdd("nbd", "nobody");
-
-            // An Internet meme
-            //
-            // Note: "you’re" / "you're" is in an alternative word set
-            //
-            correctionAdd("On the Internet, nobody knows you're a dog", "On the Internet, nobody knows you’re a dog");
-            correctionAdd("no one knows you're a dog", "On the Internet, nobody knows you’re a dog");
-            correctionAdd("dog on the internet", "On the Internet, nobody knows you’re a dog");
-
             // A programming language
             //
             // Alternative URLs:
@@ -38388,190 +38618,6 @@ namespace OverflowHelper.core
 
             correctionAdd("half broken", "half-broken");
 
-            // E.g., as in "small furry creatures from Alpha Centauri"
-            // (in 'The Hitchhiker's Guide to the Galaxy'):
-            //
-            //   <https://www.youtube.com/watch?v=7NEHGMgeCfQ&t=32s>
-            //
-            correctionAdd("fury", "furry");
-
-            // About the book itself
-            //
-            // In 'The Hitchhiker's Guide to the Galaxy' (Vogon poetry)
-            correctionAdd("unevenly edited", "very unevenly edited");
-
-            // In 'The Hitchhiker's Guide to the Galaxy' (Vogon poetry)
-            correctionAdd("Space&nbsp;Exploration (Stack Exchange site)", "Space, it says, is big, really big."); // Indirect mapping for "space". It is contrived, but we are out of alternative word sets...
-            correctionAdd("space is really big", "Space, it says, is big, really big.");
-            correctionAdd("big", "Space, it says, is big, really big.");
-
-            correctionAdd("coton", "cotton");
-
-            // In 'The Hitchhiker's Guide to the Galaxy'.
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/sought-after#Adjective>
-            //
-            correctionAdd("infinite improbability generator", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
-            correctionAdd("a mob of respectable physisists", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
-            correctionAdd("improbability generator", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
-            correctionAdd("a nice hot cup of tea", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
-            correctionAdd("one foot to the left", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
-            correctionAdd("virtually impossible", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
-            correctionAdd("extreme cleverness", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
-            correctionAdd("long-sought-after", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
-            correctionAdd("out of thin air", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
-            correctionAdd("really hot tea", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
-            correctionAdd("out of the air", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
-            correctionAdd("sought-after", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
-            correctionAdd("to the right", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
-            correctionAdd("to the left", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
-            correctionAdd("hot tea", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
-            correctionAdd("sought", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
-            correctionAdd("to the", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
-            correctionAdd("tea", "making all the molecules of hostesses' undergarments leap simultaneously one foot to the left");
-
-            correctionAdd("hitch-hike", "hitchhike");
-            correctionAdd("hitch hike", "hitchhike");
-
-            correctionAdd("douglas adams", "Douglas Adams");
-
-            // Radio show, books, franchise. Douglas Adams
-            //
-            correctionAdd("The Hitch Hiker's Guide to the Galaxy", "The Hitchhiker's Guide to the Galaxy");
-            correctionAdd("The Hitchhikers Guide to the Galaxy", "The Hitchhiker's Guide to the Galaxy");
-            correctionAdd("HITCH-HIKERS GUIDE TO THE GALAXY", "The Hitchhiker's Guide to the Galaxy");
-            correctionAdd("Hitch-hikers guide to the galaxy", "The Hitchhiker's Guide to the Galaxy");
-            correctionAdd("Hitch Hikers Guide to the Galaxy", "The Hitchhiker's Guide to the Galaxy");
-            correctionAdd("Hitchhikers Guild to the Galaxy", "The Hitchhiker's Guide to the Galaxy");
-            correctionAdd("Hitchhikers guide to the galaxy", "The Hitchhiker's Guide to the Galaxy");
-            correctionAdd("hitchhikers guide to the galaxy", "The Hitchhiker's Guide to the Galaxy");
-            correctionAdd("Hitchhiker to the Galaxy", "The Hitchhiker's Guide to the Galaxy");
-            correctionAdd("Hitchhikers guide", "The Hitchhiker's Guide to the Galaxy");
-            correctionAdd("Hitchhikers", "The Hitchhiker's Guide to the Galaxy");
-            correctionAdd("hitch hiker", "The Hitchhiker's Guide to the Galaxy");
-            correctionAdd("hitchhiker", "The Hitchhiker's Guide to the Galaxy");
-            correctionAdd("Hitchhiker", "The Hitchhiker's Guide to the Galaxy");
-            correctionAdd("HHGTTG", "The Hitchhiker's Guide to the Galaxy");
-            correctionAdd("Hitch", "The Hitchhiker's Guide to the Galaxy");
-            correctionAdd("hitch", "The Hitchhiker's Guide to the Galaxy");
-
-            // In 'The Hitchhiker's Guide to the Galaxy'
-            correctionAdd("zaphod beeblebrox", "Zaphod Beeblebrox");
-            correctionAdd("unusual chap", "Zaphod Beeblebrox");
-
-            // In 'The Hitchhiker's Guide to the Galaxy'.
-            correctionAdd("money", "it doesn't grow on trees");
-
-            // In 'The Hitchhiker's Guide to the Galaxy'
-            correctionAdd("burn down the forests", "a small inflation problem");
-            correctionAdd("inflation proplem", "a small inflation problem");
-
-            // In 'The Hitchhiker's Guide to the Galaxy'. A small dog
-            correctionAdd("tremedous difficulties with my lifestyle", "a terrible miscalculation of scale");
-            correctionAdd("careless talk costs life", "a terrible miscalculation of scale");
-            correctionAdd("careless talk", "a terrible miscalculation of scale");
-            correctionAdd("wrong scale", "a terrible miscalculation of scale");
-            correctionAdd("small dog", "a terrible miscalculation of scale");
-            correctionAdd("careless", "a terrible miscalculation of scale");
-            correctionAdd("scale", "a terrible miscalculation of scale");
-
-            // ???
-            correctionAdd("burn down the forest", "see the forest for the trees");
-
-            // In 'The Hitchhiker's Guide to the Galaxy'
-            correctionAdd("protest", "existential protest");
-
-            // In 'The Hitchhiker's Guide to the Galaxy'
-            correctionAdd("Eddie", "Eddie (onboard computer)");
-
-            // In 'The Hitchhiker's Guide to the Galaxy'
-            correctionAdd("rock one", "Rock One");
-
-            correctionAdd("Demolished", "demolished");
-
-            // Alternative URLs:
-            //
-            //   <https://www.youtube.com/watch?v=EaPjFHUw4LQ&t=2m5s>
-            //     The Hitchhiker's Guide to the Galaxy
-            //
-            correctionAdd("Demolition", "demolition");
-
-            // In 'The Hitchhiker's Guide to the Galaxy'. Vogon ships.
-            correctionAdd("hovering in the air", "The ships hung in the sky much the same way that bricks don't.");
-            correctionAdd("yellow bricks", "The ships hung in the sky much the same way that bricks don't.");
-
-            // In 'The Hitchhiker's Guide to the Galaxy'. The book's
-            // (extended) entry about the Earth (one word)
-            correctionAdd("harmless", "mostly harmless");
-
-            // In 'The Hitchhiker's Guide to the Galaxy'
-            // Though the timestamp should probably be
-            // changed to something like 05 min 33 secs.
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wikiquote.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy#Chapter_12>
-            //
-            correctionAdd("a short delay", "short delay");
-            correctionAdd("slight delay", "short delay");
-            correctionAdd("very late", "short delay");
-            correctionAdd("the delay", "short delay");
-
-            // Alternative URLs:
-            //
-            //   <https://www.youtube.com/watch?v=5q6CjHOHPkU&t=8m48s>
-            //     In 'The Hitchhiker's Guide to the Galaxy'
-            //
-            correctionAdd("on it's last legs", "on its last legs");
-
-            // In 'The Hitchhiker's Guide to the Galaxy' (total perspective vortex)
-            correctionAdd("Frogstart", "Frogstar");
-
-            // In 'The Hitchhiker's Guide to the Galaxy'.
-            // Improbability drive.
-            //
-            // The reference is broken now...
-            //
-            correctionAdd("restore normality", "restoring normality");
-            correctionAdd("normality", "restoring normality");
-
-            // In 'The Hitchhiker's Guide to the Galaxy'.
-            correctionAdd("42", "The answer to life, the universe, and everything");
-
-            // In 'The Hitchhiker's Guide to the Galaxy'.
-            //
-            // But we probably need a better reference.
-            correctionAdd("Don't panic", "don’t panic");
-
-            // In 'The Hitchhiker's Guide to the Galaxy'
-            correctionAdd("Without actually telling anyone", "hiding information");
-            correctionAdd("without actually telling anyone", "hiding information");
-            correctionAdd("actually telling anybody", "hiding information");
-            correctionAdd("actually telling anyone", "hiding information");
-            correctionAdd("Without telling anyone", "hiding information");
-            correctionAdd("without telling anyone", "hiding information");
-            correctionAdd("calling attention to", "hiding information");
-            correctionAdd("not telling anyone", "hiding information");
-            correctionAdd("telling anyone", "hiding information");
-            correctionAdd("on display", "hiding information");
-
-            // The Hitchhiker's Guide to the Galaxy
-            //
-            // Other quotes:
-            //
-            //   "not a natural tenable position for a whale"
-            //   "What is my purpose in life"
-            //   "I wonder if it will be friends with me."
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.youtube.com/watch?v=QD9Q3zJ8IoU&t=5m28s>
-            //
-            correctionAdd("against all probability", "Against all probability, a sperm whale has suddenly been called into existence");
-            correctionAdd("called into existence", "Against all probability, a sperm whale has suddenly been called into existence");
-
             correctionAdd("bare-word", "bareword");
 
             correctionAdd("bare bones", "bare-bones");
@@ -41127,8 +41173,6 @@ namespace OverflowHelper.core
             correctionAdd("2cts", "two cents");
             correctionAdd("2c", "two cents");
             correctionAdd("2¢", "two cents");
-
-            correctionAdd("sick-as-a-dog", "sick as a dog");
 
             correctionAdd("namae", "name");
             correctionAdd("Name", "name");
@@ -62838,9 +62882,13 @@ namespace OverflowHelper.core
 
             correctionAdd("intervine", "intervene");
 
-            correctionAdd("compenstation", "compensation");
-
+            // Note: "compensate" is in an alternative word set
+            //
             correctionAdd("compenating", "compensating");
+
+            correctionAdd("over-compensating", "overcompensating");
+
+            correctionAdd("compenstation", "compensation");
 
             correctionAdd("TC", "total compensation");
 
@@ -66841,8 +66889,6 @@ namespace OverflowHelper.core
             correctionAdd("Gasket mount", "gasket mount");
             correctionAdd("gasket", "gasket mount");
 
-            correctionAdd("keycap profiles", "keycap profile");
-
             // Mechanical keyboards
             //
             // Alternative URLs:
@@ -70091,6 +70137,7 @@ namespace OverflowHelper.core
             //   <https://www.typingstudy.com/>
             //
             correctionAdd("typingstudy.com", "Touch Typing Study");
+            correctionAdd("typing study", "Touch Typing Study");
             correctionAdd("typingstudy", "Touch Typing Study");
 
             // Online training of typing speed
@@ -82067,31 +82114,6 @@ namespace OverflowHelper.core
 
             correctionAdd("neofetch", "Neofetch");
 
-            correctionAdd("idies", "ideas");
-
-            correctionAdd("sub-idea", "subidea");
-
-            correctionAdd("ideaology", "ideology");
-            correctionAdd("idiology", "ideology");
-
-            correctionAdd("idealogical", "ideological");
-            correctionAdd("Ideological", "ideological");
-            correctionAdd("idilogical", "ideological");
-
-            correctionAdd("domgatism", "dogmatism");
-
-            correctionAdd("Ideally", "ideally");
-            correctionAdd("idealy", "ideally");
-            correctionAdd("Idealy", "ideally");
-
-            correctionAdd("idialised", "idealised");
-
-            correctionAdd("non-idealities", "nonidealities");
-
-            correctionAdd("dail", "dial");
-
-            correctionAdd("dialing", "dealing");
-
             correctionAdd("overal", "overall");
 
             correctionAdd("on-site", "onsite");
@@ -82897,9 +82919,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Garnet OS", "Palm OS");
             correctionAdd("palmOS", "Palm OS");
-
-            correctionAdd("Dalmatiner", "Dalmatian");
-            correctionAdd("dalmatiner", "Dalmatian");
 
             correctionAdd("quams", "qualms");
 
@@ -84162,6 +84181,10 @@ namespace OverflowHelper.core
 
             // A 38-key (35%) crippled open source low-profile split ergonomic
             // mechanical keyboard. 2 x 19 = 38 keys.
+            //
+            // It uses a 5x4 keyboard matrix:
+            //
+            //   <https://github.com/GEIGEIGEIST/TOTEM/blob/main/firmware/QMK/VIAL_source/totem/keyboard.json#L13>
             //
             // Alternative URLs:
             //
@@ -105811,9 +105834,6 @@ namespace OverflowHelper.core
 
             correctionAdd("binhex", "BinHex");
 
-            correctionAdd("bull dog", "Bulldog");
-            correctionAdd("bulldog", "Bulldog");
-
             correctionAdd("JP", "Jurassic Park");
 
             correctionAdd("APA", "APA style");
@@ -106956,8 +106976,6 @@ namespace OverflowHelper.core
             correctionAdd("presumbly", "presumably");
             correctionAdd("Presumbly", "presumably");
 
-            correctionAdd("dog pile", "dogpile");
-
             correctionAdd("Educatedness", "educatedness");
 
             correctionAdd("vigilence", "vigilance");
@@ -107080,10 +107098,6 @@ namespace OverflowHelper.core
             correctionAdd("mdx", "MDX");
 
             correctionAdd("trumbowyg", "Trumbowyg");
-
-            correctionAdd("dogdy", "dodgy");
-            correctionAdd("didgy", "dodgy");
-            correctionAdd("Dodgy", "dodgy");
 
             correctionAdd("applaude", "applaud");
 
@@ -115587,8 +115601,6 @@ namespace OverflowHelper.core
 
             URL_Add("Brillouin zone", "https://en.wikipedia.org/wiki/Brillouin_zone");
 
-            URL_Add("Dalmatian", "https://en.wikipedia.org/wiki/Dalmatian_(dog)");
-
             URL_Add("RISC", "https://en.wikipedia.org/wiki/Reduced_instruction_set_computer");
 
             URL_Add("approaches", "https://en.wiktionary.org/wiki/approach#Noun");
@@ -116391,8 +116403,6 @@ namespace OverflowHelper.core
 
             URL_Add("syntactical", "https://en.wiktionary.org/wiki/syntactical#Adjective");
 
-            URL_Add("Dogecoin", "https://en.wikipedia.org/wiki/Dogecoin");
-
             URL_Add("arithmetic", "https://en.wiktionary.org/wiki/arithmetic#Adjective");
 
             URL_Add("bonus", "https://en.wiktionary.org/wiki/bonus#Noun");
@@ -117104,8 +117114,6 @@ namespace OverflowHelper.core
             URL_Add("WordStar", "https://en.wikipedia.org/wiki/WordStar");
 
             URL_Add("uuencoding", "https://en.wikipedia.org/wiki/Uuencoding");
-
-            URL_Add("Bulldog", "https://en.wikipedia.org/wiki/Bulldog");
 
             URL_Add("Jurassic Park", "https://en.wikipedia.org/wiki/Jurassic_Park");
 
@@ -118961,6 +118969,10 @@ namespace OverflowHelper.core
 
             URL_Add("profile picture", "https://en.wiktionary.org/wiki/pfp#Noun");
 
+            URL_Add("profile pictures", "https://en.wiktionary.org/wiki/pfp#Noun");
+
+            URL_Add("OProfile", "https://oprofile.sourceforge.io/about/"); // Old: <http://oprofile.sourceforge.net/about/>
+
             URL_Add("test bench", "https://en.wiktionary.org/wiki/test_bench#Noun");
 
             URL_Add("consists", "https://en.wiktionary.org/wiki/consist#Verb");
@@ -120353,8 +120365,6 @@ namespace OverflowHelper.core
 
             URL_Add("hiccup", "https://en.wiktionary.org/wiki/hiccup#Noun");
 
-            URL_Add("profile pictures", "https://en.wiktionary.org/wiki/pfp#Noun");
-
             URL_Add("wildcard", "https://en.wiktionary.org/wiki/wildcard#Noun");
 
             URL_Add("de Bruijn index", "https://en.wikipedia.org/wiki/De_Bruijn_index");
@@ -120753,8 +120763,6 @@ namespace OverflowHelper.core
 
             URL_Add("15 puzzle", "https://en.wikipedia.org/wiki/15_puzzle");
 
-            URL_Add("dogpile", "https://en.wiktionary.org/wiki/dogpile#Verb");
-
             URL_Add("educatedness", "https://en.wiktionary.org/wiki/educatedness#Noun");
 
             URL_Add("thought-provoking", "https://en.wiktionary.org/wiki/thought-provoking#Adjective");
@@ -120820,8 +120828,6 @@ namespace OverflowHelper.core
             URL_Add("Larry Page", "https://en.wikipedia.org/wiki/Larry_Page");
 
             URL_Add("DDR SDRAM", "https://en.wikipedia.org/wiki/DDR_SDRAM");
-
-            URL_Add("total compensation", "https://en.wiktionary.org/wiki/TC#Noun");
 
             URL_Add("ActivityPub", "https://en.wikipedia.org/wiki/ActivityPub");
 
@@ -122687,19 +122693,9 @@ namespace OverflowHelper.core
 
             URL_Add("disability", "https://en.wiktionary.org/wiki/disability#Noun");
 
-            URL_Add("asleep", "https://en.wiktionary.org/wiki/asleep#Adjective");
-
-            URL_Add("sleep on it", "https://en.wiktionary.org/wiki/sleep_on#Verb");
-
-            URL_Add("deep sleep", "https://en.wiktionary.org/wiki/deep_sleep#Noun");
-
-            URL_Add("let sleeping dogs lie", "https://en.wiktionary.org/wiki/let_sleeping_dogs_lie#Verb");
-
             URL_Add("BSD", "https://en.wikipedia.org/wiki/Berkeley_Software_Distribution");
 
             URL_Add("meaning", "https://en.wiktionary.org/wiki/meaning#Verb");
-
-            URL_Add("sick as a dog", "https://en.wiktionary.org/wiki/sick_as_a_dog#Adjective");
 
             URL_Add("antineutrino", "https://en.wikipedia.org/wiki/Neutrino#Antineutrinos");
 
@@ -123386,8 +123382,6 @@ namespace OverflowHelper.core
             URL_Add("more expensive", "https://en.wiktionary.org/wiki/expensive#Adjective");
 
             URL_Add("a bit", "https://en.wiktionary.org/wiki/a_bit#Adverb");
-
-            URL_Add("dogmatism", "https://en.wiktionary.org/wiki/dogmatism#Noun");
 
             URL_Add("myth", "https://en.wiktionary.org/wiki/myth#Noun");
 
@@ -125517,8 +125511,6 @@ namespace OverflowHelper.core
 
             URL_Add("pronouns", "https://en.wiktionary.org/wiki/pronoun#Noun");
 
-            URL_Add("OProfile", "https://oprofile.sourceforge.io/about/"); // Old: <http://oprofile.sourceforge.net/about/>
-
             URL_Add("lumberjack", "https://en.wiktionary.org/wiki/lumberjack#Noun");
 
             URL_Add("Vietnamese", "https://en.wiktionary.org/wiki/Vietnamese#Adjective");
@@ -126162,8 +126154,6 @@ namespace OverflowHelper.core
             URL_Add("cartridges", "https://en.wiktionary.org/wiki/cartridge#Noun");
 
             URL_Add("disabled", "https://en.wiktionary.org/wiki/disable#Verb");
-
-            URL_Add("low-profile mechanical switch", "https://switchandclick.com/low-profile-switches-explained/");
 
             URL_Add("Facebook Metaverse", "https://www.pocket-lint.com/apps/news/facebook/157854-what-is-facebook-metaverse-the-potential-future-of-the-internet-explained");
 
@@ -126933,8 +126923,6 @@ namespace OverflowHelper.core
 
             URL_Add("fine and dandy", "https://en.wiktionary.org/wiki/fine_and_dandy#Adjective");
 
-            URL_Add("watchdog timer", "https://en.wikipedia.org/wiki/Watchdog_timer");
-
             URL_Add("MWE", "https://en.wikipedia.org/wiki/Minimal_working_example");
 
             URL_Add("firmware", "https://en.wikipedia.org/wiki/Firmware");
@@ -127164,10 +127152,6 @@ namespace OverflowHelper.core
             URL_Add("precisest", "https://en.wiktionary.org/wiki/precise#Adjective");
 
             URL_Add("pulsewidth", "https://en.wiktionary.org/wiki/pulsewidth#Noun");
-
-            URL_Add("GATT", "https://en.wikipedia.org/wiki/List_of_Bluetooth_profiles#Attribute_Profile_(ATT)");
-
-            URL_Add("A2DP", "https://en.wikipedia.org/wiki/List_of_Bluetooth_profiles#Advanced_Audio_Distribution_Profile_(A2DP)");
 
             URL_Add("investigate", "https://en.wiktionary.org/wiki/investigate#Verb");
 
@@ -128368,8 +128352,6 @@ namespace OverflowHelper.core
             URL_Add("RJ11", "https://en.wikipedia.org/wiki/Registered_jack#RJ11,_RJ14,_RJ25_wiring");
 
             URL_Add("RJ21", "https://en.wikipedia.org/wiki/Registered_jack#RJ11,_RJ14,_RJ25_wiring");
-
-            URL_Add("Don't brick your keyboard's Bluetooth/'2.4 GHz' module", "https://www.reddit.com/r/Keychron/comments/1h33l08/comment/lzozkuo/");
 
             URL_Add("teething troubles", "https://en.wiktionary.org/wiki/teething_troubles#Noun");
 
@@ -133495,8 +133477,6 @@ namespace OverflowHelper.core
 
             URL_Add("Energy Star", "https://en.wikipedia.org/wiki/Energy_Star");
 
-            URL_Add("pairing", "https://en.wikipedia.org/wiki/Bluetooth#Pairing_and_bonding");
-
             URL_Add("armour", "https://en.wiktionary.org/wiki/armour#Noun");
 
             URL_Add("irritate", "https://en.wiktionary.org/wiki/irritate#Verb");
@@ -133536,8 +133516,6 @@ namespace OverflowHelper.core
             URL_Add("AspectJ", "https://en.wikipedia.org/wiki/AspectJ");
 
             URL_Add("AspectJ Development Tools", "https://en.wikipedia.org/wiki/AspectJ#AspectJ_compatibility_and_implementations");
-
-            URL_Add("SCO", "https://en.wikipedia.org/wiki/List_of_Bluetooth_protocols#Synchronous_Connection-Oriented_(SCO)_link");
 
             URL_Add("designator", "https://en.wiktionary.org/wiki/designator#Noun");
 
@@ -134142,8 +134120,6 @@ namespace OverflowHelper.core
             URL_Add("JJ50", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/kprepublic/jj50");
 
             URL_Add("PR 181 (Sigrok)", "https://github.com/sigrokproject/libsigrok/pull/181");
-
-            URL_Add("fake chips in Bluetooth USB adapters", "https://www.reddit.com/r/Keychron/comments/1933nen/comment/kp24153/");
 
             URL_Add("struck", "https://en.wiktionary.org/wiki/strike#Verb");
 
@@ -135488,8 +135464,6 @@ namespace OverflowHelper.core
             URL_Add("itself", "https://en.wiktionary.org/wiki/itself#Pronoun");
 
             URL_Add("himself", "https://en.wiktionary.org/wiki/himself#Pronoun");
-
-            URL_Add("On the Internet, nobody knows you’re a dog", "https://en.wikipedia.org/wiki/On_the_Internet%2C_nobody_knows_you're_a_dog");
 
             URL_Add("that’ll", "https://en.wiktionary.org/wiki/that'll#Contraction");
 
@@ -137535,14 +137509,6 @@ namespace OverflowHelper.core
 
             URL_Add("none", "https://en.wiktionary.org/wiki/none#Adverb");
 
-            URL_Add("fast food", "https://en.wikipedia.org/wiki/Fast_food");
-
-            URL_Add("food for thought", "https://en.wiktionary.org/wiki/food_for_thought#Noun");
-
-            URL_Add("dogfooding", "https://en.wiktionary.org/wiki/dogfood#Verb");
-
-            URL_Add("Food and Drug Administration", "https://en.wikipedia.org/wiki/Food_and_Drug_Administration");
-
             URL_Add("nervous", "https://en.wiktionary.org/wiki/nervous#Adjective");
 
             URL_Add("nerve-racking", "https://en.wiktionary.org/wiki/nerve-racking#Adjective");
@@ -137612,10 +137578,6 @@ namespace OverflowHelper.core
             URL_Add("FRB", "https://en.wikipedia.org/wiki/Fast_radio_burst");
 
             URL_Add("ELT", "https://en.wikipedia.org/wiki/Emergency_position-indicating_radiobeacon#Timeline_of_ELT_development"); // Old: <https://en.wikipedia.org/wiki/Emergency_position-indicating_radiobeacon_station>
-
-            URL_Add("RFCOMM", "https://en.wikipedia.org/wiki/List_of_Bluetooth_protocols#Radio_frequency_communication_(RFCOMM)");
-
-            URL_Add("serial port profile", "https://en.wikipedia.org/wiki/List_of_Bluetooth_protocols#Radio_frequency_communication_(RFCOMM)");
 
             URL_Add("smithereens", "https://en.wiktionary.org/wiki/smithereens#Noun");
 
@@ -145681,8 +145643,6 @@ namespace OverflowHelper.core
 
             URL_Add("NDepend", "https://en.wikipedia.org/wiki/NDepend");
 
-            URL_Add("IWDG", "https://stm32world.com/wiki/STM32_Watchdogs#Independent_Watchdog_.28IWDG.29");
-
             URL_Add("blueprint", "https://en.wiktionary.org/wiki/blueprint#Noun");
 
             URL_Add("bluechip", "https://en.wiktionary.org/wiki/bluechip#Adjective");
@@ -145693,13 +145653,31 @@ namespace OverflowHelper.core
 
             URL_Add("Bluetooth LE", "https://en.wikipedia.org/wiki/Bluetooth_Low_Energy");
 
-            URL_Add("CC2540", "https://www.ti.com/product/CC2540");
-
             URL_Add("Bluetooth 5.2", "https://en.wikipedia.org/wiki/Bluetooth#Bluetooth_5.2");
 
             URL_Add("Bluetooth 5.3", "https://en.wikipedia.org/wiki/Bluetooth#Bluetooth_5.3");
 
             URL_Add("bluetoothctl", "https://wiki.archlinux.org/title/Bluetooth#Console");
+
+            URL_Add("GATT", "https://en.wikipedia.org/wiki/List_of_Bluetooth_profiles#Attribute_Profile_(ATT)");
+
+            URL_Add("A2DP", "https://en.wikipedia.org/wiki/List_of_Bluetooth_profiles#Advanced_Audio_Distribution_Profile_(A2DP)");
+
+            URL_Add("Don't brick your keyboard's Bluetooth/'2.4 GHz' module", "https://www.reddit.com/r/Keychron/comments/1h33l08/comment/lzozkuo/");
+
+            URL_Add("pairing", "https://en.wikipedia.org/wiki/Bluetooth#Pairing_and_bonding");
+
+            URL_Add("HFP", "https://en.wikipedia.org/wiki/List_of_Bluetooth_profiles#Hands-Free_Profile_(HFP)");
+
+            URL_Add("HSP", "https://en.wikipedia.org/wiki/List_of_Bluetooth_profiles#Headset_Profile_(HSP)");
+
+            URL_Add("SCO", "https://en.wikipedia.org/wiki/List_of_Bluetooth_protocols#Synchronous_Connection-Oriented_(SCO)_link");
+
+            URL_Add("RFCOMM", "https://en.wikipedia.org/wiki/List_of_Bluetooth_protocols#Radio_frequency_communication_(RFCOMM)");
+
+            URL_Add("CC2540", "https://www.ti.com/product/CC2540");
+
+            URL_Add("fake chips in Bluetooth USB adapters", "https://www.reddit.com/r/Keychron/comments/1933nen/comment/kp24153/");
 
             URL_Add("piconet", "https://en.wikipedia.org/wiki/Piconet");
 
@@ -145736,6 +145714,8 @@ namespace OverflowHelper.core
             URL_Add("the Keychron Bluetooth flasher tool", "https://www.keychron.com/pages/keychron-k-pro-series-bluetooth-firmware");
 
             URL_Add("btmon", "https://man.archlinux.org/man/extra/bluez-utils/btmon.1.en");
+
+            URL_Add("serial port profile", "https://en.wikipedia.org/wiki/List_of_Bluetooth_protocols#Radio_frequency_communication_(RFCOMM)");
 
             URL_Add("grey", "https://en.wiktionary.org/wiki/grey#Adjective");
 
@@ -146075,6 +146055,10 @@ namespace OverflowHelper.core
 
             URL_Add("compensation", "https://en.wiktionary.org/wiki/compensation#Noun");
 
+            URL_Add("overcompensating", "https://en.wiktionary.org/wiki/overcompensate#Verb");
+
+            URL_Add("total compensation", "https://en.wiktionary.org/wiki/TC#Noun");
+
             URL_Add("competing", "https://en.wiktionary.org/wiki/compete#Verb");
 
             URL_Add("competition", "https://en.wiktionary.org/wiki/competition#Noun");
@@ -146244,8 +146228,6 @@ namespace OverflowHelper.core
             URL_Add("oldtimer", "https://en.wiktionary.org/wiki/oldtimer#Noun");
 
             URL_Add("in the old times", "https://en.wiktionary.org/wiki/in_the_old_times#Prepositional_phrase");
-
-            URL_Add("you can't teach an old dog new tricks", "https://en.wiktionary.org/wiki/you_can%27t_teach_an_old_dog_new_tricks#Proverb");
 
             URL_Add("twofold", "https://en.wiktionary.org/wiki/twofold#Adjective");
 
@@ -149061,8 +149043,6 @@ namespace OverflowHelper.core
 
             URL_Add("systems engineers", "https://en.wikipedia.org/wiki/Systems_engineering#History");
 
-            URL_Add("keycap profile", "https://thekeeblog.com/overview-of-different-keycap-profiles/");
-
             URL_Add("junior", "https://en.wiktionary.org/wiki/junior#Adjective");
 
             URL_Add("senior engineer", "https://study.com/articles/difference_between_senior_principle_engineer.html");
@@ -149670,10 +149650,6 @@ namespace OverflowHelper.core
             URL_Add("at my own risk", "https://en.wiktionary.org/wiki/at_one%27s_own_risk#Prepositional_phrase");
 
             URL_Add("at your own risk", "https://en.wiktionary.org/wiki/at_one%27s_own_risk#Prepositional_phrase");
-
-            URL_Add("HFP", "https://en.wikipedia.org/wiki/List_of_Bluetooth_profiles#Hands-Free_Profile_(HFP)");
-
-            URL_Add("HSP", "https://en.wikipedia.org/wiki/List_of_Bluetooth_profiles#Headset_Profile_(HSP)");
 
             URL_Add("pain-free", "https://en.wiktionary.org/wiki/pain-free#Adjective");
 
@@ -150378,6 +150354,48 @@ namespace OverflowHelper.core
             URL_Add("beta male", "https://en.wikipedia.org/wiki/Alpha_and_beta_male_(slang)");
 
             URL_Add("Tauri", "https://blog.logrocket.com/tauri-electron-comparison-migration-guide/"); // Old: <https://tauri.studio/v1/about/intro/>
+
+            URL_Add("dogmatism", "https://en.wiktionary.org/wiki/dogmatism#Noun");
+
+            URL_Add("dog", "https://en.wiktionary.org/wiki/dog#Noun");
+
+            URL_Add("dog breed", "https://en.wikipedia.org/wiki/Dog_breed");
+
+            URL_Add("Bulldog", "https://en.wikipedia.org/wiki/Bulldog");
+
+            URL_Add("Dalmatian", "https://en.wikipedia.org/wiki/Dalmatian_dog");
+
+            URL_Add("dogpile", "https://en.wiktionary.org/wiki/dogpile#Verb");
+
+            URL_Add("sick as a dog", "https://en.wiktionary.org/wiki/sick_as_a_dog#Adjective");
+
+            URL_Add("let sleeping dogs lie", "https://en.wiktionary.org/wiki/let_sleeping_dogs_lie#Verb");
+
+            URL_Add("you can't teach an old dog new tricks", "https://en.wiktionary.org/wiki/you_can%27t_teach_an_old_dog_new_tricks#Proverb");
+
+            URL_Add("dogfooding", "https://en.wiktionary.org/wiki/dogfood#Verb");
+
+            URL_Add("On the Internet, nobody knows you’re a dog", "https://en.wikipedia.org/wiki/On_the_Internet%2C_nobody_knows_you're_a_dog");
+
+            URL_Add("watchdog timer", "https://en.wikipedia.org/wiki/Watchdog_timer");
+
+            URL_Add("IWDG", "https://stm32world.com/wiki/STM32_Watchdogs#Independent_Watchdog_.28IWDG.29");
+
+            URL_Add("Dogecoin", "https://en.wikipedia.org/wiki/Dogecoin");
+
+            URL_Add("asleep", "https://en.wiktionary.org/wiki/asleep#Adjective");
+
+            URL_Add("sleep on it", "https://en.wiktionary.org/wiki/sleep_on#Verb");
+
+            URL_Add("deep sleep", "https://en.wiktionary.org/wiki/deep_sleep#Noun");
+
+            URL_Add("fast food", "https://en.wikipedia.org/wiki/Fast_food");
+
+            URL_Add("food for thought", "https://en.wiktionary.org/wiki/food_for_thought#Noun");
+
+            URL_Add("Food and Drug Administration", "https://en.wikipedia.org/wiki/Food_and_Drug_Administration");
+
+            URL_Add("low-profile mechanical switch", "https://switchandclick.com/low-profile-switches-explained/");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -170286,24 +170304,6 @@ namespace OverflowHelper.core
 
             URL_Add("KDE_", "https://en.wikipedia.org/wiki/Kernel_density_estimation");
 
-            URL_Add("The Bluetooth version in the Keychron K Pro series keyboards is 2.0/2.1, not 5.1 as claimed_", "https://github.com/Keychron/qmk_firmware/issues/338#issuecomment-2564070299");
-
-            URL_Add("download URL for Bluetooth firmware version 1.32_", "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/keychron_ckbt51_01.32.kfw");
-
-            URL_Add("download URL for Bluetooth firmware version 0.1.12_", "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/lkbt51_v0.1.12.kfw");
-
-            URL_Add("download URL for Bluetooth firmware version 0.1.13_", "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/lkbt51_v0.1.13.kfw");
-
-            URL_Add("download URL for Bluetooth firmware version 0.1.14_", "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/lkbt51_v0.1.14.kfw");
-
-            URL_Add("download URL for Bluetooth firmware version 0.1.15_", "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/lkbt51_v0.1.15.kfw");
-
-            URL_Add("download URL for Bluetooth firmware version 0.2.0_", "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/keychron_spi_tmode_fw0.2.0_2406131215.kfw");
-
-            URL_Add("download URL for Bluetooth firmware version 0.2.1_", "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/keychron_spi_tmode_fw0.2.1_2411091132.kfw");
-
-            URL_Add("headset_", "https://en.wiktionary.org/wiki/headset#Noun");
-
             URL_Add("checks_", "https://en.wiktionary.org/wiki/check#Noun");
 
             URL_Add("legitimacy check_", "https://en.wiktionary.org/wiki/LC#Noun");
@@ -171156,6 +171156,26 @@ namespace OverflowHelper.core
 
             URL_Add("Bluetooth_", "https://en.wikipedia.org/wiki/Bluetooth2");
 
+            URL_Add("The Bluetooth version in the Keychron K Pro series keyboards is 2.0/2.1, not 5.1 as claimed_", "https://github.com/Keychron/qmk_firmware/issues/338#issuecomment-2564070299");
+
+            URL_Add("wired, Bluetooth, and '2.4 GHz'_", "https://www.durgod.com/blogs/what-is-dual-mode-and-tri-mode-in-mechanical-keyboard/");
+
+            URL_Add("download URL for Bluetooth firmware version 1.32_", "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/keychron_ckbt51_01.32.kfw");
+
+            URL_Add("download URL for Bluetooth firmware version 0.1.12_", "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/lkbt51_v0.1.12.kfw");
+
+            URL_Add("download URL for Bluetooth firmware version 0.1.13_", "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/lkbt51_v0.1.13.kfw");
+
+            URL_Add("download URL for Bluetooth firmware version 0.1.14_", "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/lkbt51_v0.1.14.kfw");
+
+            URL_Add("download URL for Bluetooth firmware version 0.1.15_", "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/lkbt51_v0.1.15.kfw");
+
+            URL_Add("download URL for Bluetooth firmware version 0.2.0_", "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/keychron_spi_tmode_fw0.2.0_2406131215.kfw");
+
+            URL_Add("download URL for Bluetooth firmware version 0.2.1_", "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/keychron_spi_tmode_fw0.2.1_2411091132.kfw");
+
+            URL_Add("headset_", "https://en.wiktionary.org/wiki/headset#Noun");
+
             URL_Add("qmk clean_", "https://www.reddit.com/r/Keychron/comments/1h6lsza/comment/nbnvbyq/");
 
             URL_Add("qmk flash_", "https://docs.qmk.fm/newbs_flashing#flash-your-keyboard-from-the-command-line");
@@ -171199,8 +171219,6 @@ namespace OverflowHelper.core
             URL_Add("Git branch \"wireless_playground\" in Keychron's fork_", "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/v6_max");
 
             URL_Add("the gasket problem_", "https://www.reddit.com/r/Keychron/comments/1fh6h26/comment/mqitys7/");
-
-            URL_Add("wired, Bluetooth, and '2.4 GHz'_", "https://www.durgod.com/blogs/what-is-dual-mode-and-tri-mode-in-mechanical-keyboard/");
 
             URL_Add("MasterPlus+_", "https://www.reddit.com/r/coolermaster/comments/193b652/coolermaster_masterplus_v194_released_december_27/");
 
@@ -172278,6 +172296,10 @@ namespace OverflowHelper.core
             correctionAdd("dash caps__", "Dash keycaps__");
             correctionAdd("dash__", "Dash keycaps__");
 
+            correctionAdd("keycap profiles__", "keycap profile__");
+            correctionAdd("profile__", "keycap profile__");
+            correctionAdd("keycap__", "keycap profile__");
+
             // We ought to find a better URL...
             // Mechanical keyboards
             correctionAdd("SA__", "SA keycap profile__");
@@ -172294,6 +172316,13 @@ namespace OverflowHelper.core
             //
             correctionAdd("ma__", "MA keycap profile__");
             correctionAdd("MA__", "MA keycap profile__");
+
+            correctionAdd("the numbering convention__", "odd-numbered Keychron 'K' keyboards are low profile__");
+            correctionAdd("odd-numbered__", "odd-numbered Keychron 'K' keyboards are low profile__");
+            correctionAdd("odd numbered__", "odd-numbered Keychron 'K' keyboards are low profile__"); // Not strictly necessary (as there is the cross-reference), but it is for a direct lookup.
+
+            correctionAdd("even-numbered__", "even-numbered Keychron 'K' keyboards are normal profile__");
+            correctionAdd("even numbered__", "even-numbered Keychron 'K' keyboards are normal profile__"); // Not strictly necessary (as there is the cross-reference), but it is for a direct lookup.
 
             // E.g., repurposed as an indent in keycaps
             // for mechanical keyboards  (DIY)
@@ -176092,13 +176121,6 @@ namespace OverflowHelper.core
             correctionAdd("wholesale copied__", "entirely copied, but properly attributed__");
             correctionAdd("copied__", "entirely copied, but properly attributed__");
 
-            correctionAdd("the numbering convention__", "odd-numbered Keychron 'K' keyboards are low profile__");
-            correctionAdd("odd-numbered__", "odd-numbered Keychron 'K' keyboards are low profile__");
-            correctionAdd("odd numbered__", "odd-numbered Keychron 'K' keyboards are low profile__"); // Not strictly necessary (as there is the cross-reference), but it is for a direct lookup.
-
-            correctionAdd("even-numbered__", "even-numbered Keychron 'K' keyboards are normal profile__");
-            correctionAdd("even numbered__", "even-numbered Keychron 'K' keyboards are normal profile__"); // Not strictly necessary (as there is the cross-reference), but it is for a direct lookup.
-
             // E.g., reverting to before the source code release
             // in Keychron's fork, branch "wireless_playground"
             // that broke compilation for all K Pro and Q Pro
@@ -176490,8 +176512,6 @@ namespace OverflowHelper.core
             URL_Add("Coursier__", "https://docs.scala-lang.org/getting-started/index.html");
 
             URL_Add("sum__", "https://en.wiktionary.org/wiki/sum#Verb");
-
-            URL_Add("MA keycap profile__", "https://thekeeblog.com/overview-of-different-keycap-profiles/#MA_Profile");
 
             URL_Add("buy__", "https://en.wiktionary.org/wiki/buy#Verb");
 
@@ -177049,10 +177069,6 @@ namespace OverflowHelper.core
 
             URL_Add("Ctrl + U__", "https://stackoverflow.com/questions/9679776/how-do-i-clear-delete-the-current-line-in-terminal/16687377#16687377");
 
-            URL_Add("KSA keycap profile__", "https://thekeeblog.com/overview-of-different-keycap-profiles/#KSA_Profile");
-
-            URL_Add("SA keycap profile__", "https://www.youtube.com/watch?v=xLT2VcrQHrQ&t=3m13s");
-
             URL_Add("fare__", "https://en.wiktionary.org/wiki/fare#Verb");
 
             URL_Add("fared__", "https://en.wiktionary.org/wiki/fare#Verb");
@@ -177064,58 +177080,6 @@ namespace OverflowHelper.core
             URL_Add("roll__", "https://www.reddit.com/r/KeyboardLayouts/comments/1acsnmk/what_do_you_mean_by_high_roll_inroll_rolly_layouts/");
 
             URL_Add("rapid trigger__", "https://www.wired.com/review/keychron-q1-he/");
-
-            URL_Add("tri-mode__", "https://www.reddit.com/r/MechanicalKeyboards/comments/qafy00/what_is_dual_mode_and_trimode_in_keyboard/");
-
-            URL_Add("odd-numbered Keychron 'K' keyboards are low profile__", "https://www.youtube.com/watch?v=5oy9WgwUDTw&t=1m26s");
-
-            URL_Add("even-numbered Keychron 'K' keyboards are normal profile__", "https://www.youtube.com/watch?v=5oy9WgwUDTw&t=1m26s");
-
-            URL_Add("The mitigation__", "https://www.reddit.com/r/Keychron/comments/1bok23g/comment/kwtpr35/");
-
-            URL_Add("Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__", "https://www.reddit.com/r/Keychron/comments/1ip03k0/comment/mhlga9b/");
-
-            URL_Add("Keychron Launcher__", "https://www.reddit.com/r/Keychron/comments/1buwibx/comment/kxx3kt0/");
-
-            URL_Add("Keychron Q1 HE__", "https://www.kickstarter.com/projects/keytron/keychron-q1-he-qmk-wireless-custom-magnetic-switch-keyboard");
-
-            URL_Add("NuPhy Air75 V2__", "https://github.com/nuphy-src/qmk_firmware/tree/nuphy-keyboards/keyboards/nuphy/air75_v2/ansi");
-
-            URL_Add("Keychron K1 Max source code__", "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k1_max");
-
-            URL_Add("Keychron K2 Pro source code__", "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k2_pro");
-
-            URL_Add("Keychron K2 HE source code__", "https://github.com/Keychron/qmk_firmware/tree/hall_effect_playground/keyboards/keychron/k2_he");
-
-            URL_Add("Keychron K3 Max source code__", "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k3_max");
-
-            URL_Add("Keychron K5 Pro source code__", "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k5_pro");
-
-            URL_Add("Keychron K5 Max source code__", "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k5_max");
-
-            URL_Add("Keychron K8__", "https://www.keychron.uk/products/keychron-k8-wireless-mechanical-keyboard-uk-iso-layout");
-
-            URL_Add("Keychron K10 Pro source code__", "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k10_pro");
-
-            URL_Add("Keychron K10 HE source code__", "https://github.com/Keychron/qmk_firmware/tree/hall_effect_playground/keyboards/keychron/k10_he");
-
-            URL_Add("Keychron Q3 HE source code__", "https://github.com/Keychron/qmk_firmware/tree/hall_effect_playground/keyboards/keychron/q3_he");
-
-            URL_Add("Keychron Q6 Max source code__", "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/q6_max");
-
-            URL_Add("Keychron Q6 HE source code__", "https://github.com/Keychron/qmk_firmware/tree/hall_effect_playground/keyboards/keychron/q6_he");
-
-            URL_Add("Keychron V6 source code__", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/keychron/v6");
-
-            URL_Add("Keychron V6 Max source code__", "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/v6_max");
-
-            URL_Add("Keychron Lemokey P1 Pro source code__", "https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/lemokey/p1_pro");
-
-            URL_Add("Keychron B6 Pro source code__", "https://github.com/Keychron/zmk/tree/keychron_bpro/app/boards/shields/keychron/b6");
-
-            URL_Add("Keychron V6 Ultra 8K source code__", "https://github.com/Keychron/zmk/blob/rtl8762g/app/src/dfu/my_app_version.h#L33");
-
-            URL_Add("Keychron M2__", "https://www.keychron.com/products/keychron-m2-wireless-mouse");
 
             URL_Add("PII__", "https://en.wikipedia.org/wiki/Personal_data");
 
@@ -177144,8 +177108,6 @@ namespace OverflowHelper.core
             URL_Add("pkg__", "https://en.wikipedia.org/wiki/Image_Packaging_System");
 
             URL_Add("Package Manager Console__", "https://stackoverflow.com/questions/6876732/how-do-i-get-nuget-to-install-update-all-the-packages-in-the-packages-config/8403190#8403190");
-
-            URL_Add("weird couplings to Bluetooth in Keychron keyboards__", "https://www.reddit.com/r/Keychron/comments/1ihh33r/comment/maxll5p/");
 
             URL_Add("brown__", "https://en.wiktionary.org/wiki/brown#Noun");
 
@@ -177441,18 +177403,6 @@ namespace OverflowHelper.core
 
             URL_Add("Stable&nbsp;Diffusion__", "https://en.wikipedia.org/wiki/Stable_Diffusion");
 
-            URL_Add("the Stack Overflow ban on simulated intelligence-generated content__", "https://meta.stackoverflow.com/questions/421831/temporary-policy-chatgpt-is-banned");
-
-            URL_Add("Stack Exchange Network__", "https://stackexchange.com/about");
-
-            URL_Add("Stack&nbsp;Exchange__", "https://policies.stackoverflow.co/company/trademark-guidance/#h1-2de2438a74fa0"); // Old: https://en.wikipedia.org/wiki/Stack_Exchange. Old: https://en.wikipedia.org/wiki/Stack_Exchange_Network. Old: https://meta.stackexchange.com/legal/trademark-guidance
-
-            URL_Add("Late answers review queue__", "https://stackoverflow.com/review");
-
-            URL_Add("\"Explanation is vital for a good answer.\"__", "https://meta.stackexchange.com/questions/258474/deal-with-famous-profiles-and-the-possibility-of-fakes/258475#258475");
-
-            URL_Add("Experts-Exchange__", "https://en.wikipedia.org/wiki/Experts_Exchange"); // Old: https://en.wikipedia.org/wiki/Experts-Exchange - though it loses the hyphen...
-
             URL_Add("queue__", "https://en.wikipedia.org/wiki/Queue_(abstract_data_type)");
 
             URL_Add("CIA__", "https://en.wikipedia.org/wiki/Central_Intelligence_Agency");
@@ -177546,6 +177496,80 @@ namespace OverflowHelper.core
             URL_Add("ATmega__", "https://en.wikipedia.org/wiki/AVR_microcontrollers#Basic_families");
 
             URL_Add("board__", "https://en.wiktionary.org/wiki/board#Noun");
+
+            URL_Add("keycap profile__", "https://thekeeblog.com/overview-of-different-keycap-profiles/");
+
+            URL_Add("MA keycap profile__", "https://thekeeblog.com/overview-of-different-keycap-profiles/#MA_Profile");
+
+            URL_Add("KSA keycap profile__", "https://thekeeblog.com/overview-of-different-keycap-profiles/#KSA_Profile");
+
+            URL_Add("SA keycap profile__", "https://www.youtube.com/watch?v=xLT2VcrQHrQ&t=3m13s");
+
+            URL_Add("odd-numbered Keychron 'K' keyboards are low profile__", "https://www.youtube.com/watch?v=5oy9WgwUDTw&t=1m26s");
+
+            URL_Add("even-numbered Keychron 'K' keyboards are normal profile__", "https://www.youtube.com/watch?v=5oy9WgwUDTw&t=1m26s");
+
+            URL_Add("tri-mode__", "https://www.reddit.com/r/MechanicalKeyboards/comments/qafy00/what_is_dual_mode_and_trimode_in_keyboard/");
+
+            URL_Add("The mitigation__", "https://www.reddit.com/r/Keychron/comments/1bok23g/comment/kwtpr35/");
+
+            URL_Add("Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__", "https://www.reddit.com/r/Keychron/comments/1ip03k0/comment/mhlga9b/");
+
+            URL_Add("Keychron Launcher__", "https://www.reddit.com/r/Keychron/comments/1buwibx/comment/kxx3kt0/");
+
+            URL_Add("Keychron Q1 HE__", "https://www.kickstarter.com/projects/keytron/keychron-q1-he-qmk-wireless-custom-magnetic-switch-keyboard");
+
+            URL_Add("NuPhy Air75 V2__", "https://github.com/nuphy-src/qmk_firmware/tree/nuphy-keyboards/keyboards/nuphy/air75_v2/ansi");
+
+            URL_Add("Keychron K1 Max source code__", "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k1_max");
+
+            URL_Add("Keychron K2 Pro source code__", "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k2_pro");
+
+            URL_Add("Keychron K2 HE source code__", "https://github.com/Keychron/qmk_firmware/tree/hall_effect_playground/keyboards/keychron/k2_he");
+
+            URL_Add("Keychron K3 Max source code__", "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k3_max");
+
+            URL_Add("Keychron K5 Pro source code__", "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k5_pro");
+
+            URL_Add("Keychron K5 Max source code__", "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k5_max");
+
+            URL_Add("Keychron K8__", "https://www.keychron.uk/products/keychron-k8-wireless-mechanical-keyboard-uk-iso-layout");
+
+            URL_Add("Keychron K10 Pro source code__", "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k10_pro");
+
+            URL_Add("Keychron K10 HE source code__", "https://github.com/Keychron/qmk_firmware/tree/hall_effect_playground/keyboards/keychron/k10_he");
+
+            URL_Add("Keychron Q3 HE source code__", "https://github.com/Keychron/qmk_firmware/tree/hall_effect_playground/keyboards/keychron/q3_he");
+
+            URL_Add("Keychron Q6 Max source code__", "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/q6_max");
+
+            URL_Add("Keychron Q6 HE source code__", "https://github.com/Keychron/qmk_firmware/tree/hall_effect_playground/keyboards/keychron/q6_he");
+
+            URL_Add("Keychron V6 source code__", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/keychron/v6");
+
+            URL_Add("Keychron V6 Max source code__", "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/v6_max");
+
+            URL_Add("Keychron Lemokey P1 Pro source code__", "https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/lemokey/p1_pro");
+
+            URL_Add("Keychron B6 Pro source code__", "https://github.com/Keychron/zmk/tree/keychron_bpro/app/boards/shields/keychron/b6");
+
+            URL_Add("Keychron V6 Ultra 8K source code__", "https://github.com/Keychron/zmk/blob/rtl8762g/app/src/dfu/my_app_version.h#L33");
+
+            URL_Add("Keychron M2__", "https://www.keychron.com/products/keychron-m2-wireless-mouse");
+
+            URL_Add("the Stack Overflow ban on simulated intelligence-generated content__", "https://meta.stackoverflow.com/questions/421831/temporary-policy-chatgpt-is-banned");
+
+            URL_Add("Stack Exchange Network__", "https://stackexchange.com/about");
+
+            URL_Add("Stack&nbsp;Exchange__", "https://policies.stackoverflow.co/company/trademark-guidance/#h1-2de2438a74fa0"); // Old: https://en.wikipedia.org/wiki/Stack_Exchange. Old: https://en.wikipedia.org/wiki/Stack_Exchange_Network. Old: https://meta.stackexchange.com/legal/trademark-guidance
+
+            URL_Add("Late answers review queue__", "https://stackoverflow.com/review");
+
+            URL_Add("\"Explanation is vital for a good answer.\"__", "https://meta.stackexchange.com/questions/258474/deal-with-famous-profiles-and-the-possibility-of-fakes/258475#258475");
+
+            URL_Add("Experts-Exchange__", "https://en.wikipedia.org/wiki/Experts_Exchange"); // Old: https://en.wikipedia.org/wiki/Experts-Exchange - though it loses the hyphen...
+
+            URL_Add("weird couplings to Bluetooth in Keychron keyboards__", "https://www.reddit.com/r/Keychron/comments/1ihh33r/comment/maxll5p/");
 
         } //addLookupData_alternativeWordSet2()
 
@@ -179257,14 +179281,14 @@ namespace OverflowHelper.core
             correctionAdd("Cheery___", "Cherry keycap profile___");
             correctionAdd("cheery___", "Cherry keycap profile___");
 
+            correctionAdd("mSA___", "MSA keycap profile___");
+            correctionAdd("MSA___", "MSA keycap profile___");
+            correctionAdd("msa___", "MSA keycap profile___");
+
             // A type of switch for mechanical keyboards
             // Tactile and clicky.
             correctionAdd("CHERRY MX GREEN___", "Cherry MX Green___");
             correctionAdd("green___", "Cherry MX Green___");
-
-            correctionAdd("mSA___", "MSA keycap profile___");
-            correctionAdd("MSA___", "MSA keycap profile___");
-            correctionAdd("msa___", "MSA keycap profile___");
 
             correctionAdd("chrome canary___", "Chrome Canary___");
             correctionAdd("canary___", "Chrome Canary___");
@@ -180177,10 +180201,6 @@ namespace OverflowHelper.core
 
             URL_Add("sort___", "https://en.wiktionary.org/wiki/sort#Verb");
 
-            URL_Add("Cherry keycap profile___", "https://switchandclick.com/sa-vs-dsa-vs-oem-vs-cherry-vs-xda-keycap-profiles/");
-
-            URL_Add("MSA keycap profile___", "https://thekeeblog.com/overview-of-different-keycap-profiles/#MA_Profile");
-
             URL_Add("WordPerfect___", "https://en.wikipedia.org/wiki/WordPerfect");
 
             URL_Add("Ant___", "https://en.wikipedia.org/wiki/Apache_Ant");
@@ -180509,96 +180529,6 @@ namespace OverflowHelper.core
 
             URL_Add("USB High Speed___", "https://en.wikipedia.org/wiki/USB#USB_2.0");
 
-            URL_Add("ActionScript___", "https://en.wikipedia.org/wiki/ActionScript");
-
-            URL_Add("Adobe Flash___", "https://en.wikipedia.org/wiki/Adobe_Flash");
-
-            URL_Add("hard___", "https://en.wiktionary.org/wiki/hard#Adjective");
-
-            URL_Add("hard flashing___", "https://www.reddit.com/r/Keychron/comments/1dwocvh/comment/lby5g3e/");
-
-            URL_Add("BIND___", "https://en.wikipedia.org/wiki/BIND");
-
-            URL_Add("key combinations___", "https://en.wikipedia.org/wiki/Keyboard_shortcut");
-
-            URL_Add("NKRO_ENABLE___", "https://docs.qmk.fm/config_options#usb-endpoint-limitations");
-
-            URL_Add("nRF5340___", "https://en.wikipedia.org/wiki/Nordic_Semiconductor#nRF53_Series_SoC");
-
-            URL_Add("nRF52840___", "https://en.wikipedia.org/wiki/Nordic_Semiconductor#nRF52_Series_SoCs");
-
-            URL_Add("lubrication___", "https://en.wiktionary.org/wiki/lubrication#Noun");
-
-            URL_Add("Keychron '2.4 GHz' dongle firmware___", "https://www.keychron.com/pages/how-to-flash-the-firmware-for-the-keychron-receiver");
-
-            URL_Add("Keychron Via clone (AKA Keychron Launcher) bug bricking the Bluetooth module by flashing completely wrong firmware___", "https://www.reddit.com/r/Keychron/comments/1buwibx/comment/lafqz99/");
-
-            URL_Add("Monkeytype___", "https://github.com/monkeytypegame/monkeytype");
-
-            URL_Add("Git branch \"wls_2025q1\" in Keychron's fork___", "https://github.com/Keychron/qmk_firmware/tree/wls_2025q1/keyboards/keychron/k10_version_2");
-
-            URL_Add("SRGBmods (Vial)___", "https://github.com/SRGBmods/QMK-Binaries/tree/main/QMK%2BVIA%2BVial-Firmware/10_12_25");
-
-            URL_Add("weird behaviour in QMK-based keyboard if not resetting to factory defaults___", "https://www.reddit.com/r/Keychron/comments/1dwocvh/comment/lioza8e/");
-
-            URL_Add("extra information may be required to recover from bricking the main firmware of a Keychron keyboard___", "https://www.reddit.com/r/Keychron/comments/1dwocvh/comment/lby5g3e/");
-
-            URL_Add("the first step in troubleshooting a mechanical keyboard is reseating (and only reseating)___", "https://www.reddit.com/r/Keychron/comments/1i5flhz/comment/mhl8w41/");
-
-            URL_Add("QMK debounce methods/algorithms___", "https://docs.qmk.fm/feature_debounce_type#debounce-method");
-
-            URL_Add("Hall effect switches___", "https://www.tomshardware.com/news/how-hall-effect-switches-work,33105.html");
-
-            URL_Add("Keychron K1 Max, ISO RGB variant (USB 0x3434/0x0A11)___", "https://www.keychron.com/products/keychron-k1-max-qmk-wireless-custom-mechanical-keyboard-iso-layout-collection?variant=41595269939289");
-
-            URL_Add("Keychron K5 Pro, ISO RGB backlight variant (USB 0x3434/0x0251)___", "https://www.keychron.com/products/keychron-k5-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection?variant=40516482334809");
-
-            URL_Add("Keychron Q3 HE, ANSI knob carbon black variant (USB 0x3434/0x0B30)___", "https://www.keychron.com/products/keychron-q3-he-qmk-wireless-custom-keyboard?variant=41844681867353");
-
-            URL_Add("Keychron&nbsp;K&nbsp;series___", "https://www.keychron.at/collections/keychron-uk-iso-keyboards/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout"); // Old: <https://www.keychron.uk/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout>
-
-            URL_Add("Keychron&nbsp;K&nbsp;Pro&nbsp;series___", "https://keychron.de/collections/k-pro-series-iso-keyboard/products/keychron-k10-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection"); // Old: <https://www.keychron.uk/products/keychron-k10-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection>
-
-            URL_Add("Keychron&nbsp;Q&nbsp;Pro&nbsp;series___", "https://www.keychron.com/products/keychron-q6-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
-
-            URL_Add("Keychron&nbsp;V&nbsp;Max&nbsp;series___", "https://www.keychron.com/products/keychron-v6-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
-
-            URL_Add("Keychron&nbsp;Q&nbsp;Max&nbsp;series___", "https://www.keychron.com/products/keychron-q6-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
-
-            URL_Add("Keychron&nbsp;K&nbsp;HE&nbsp;series___", "https://keychron.ca/products/keychron-k10-he-wireless-magnetic-switch-custom-keyboard-iso-layout-collection");
-
-            URL_Add("Keychron&nbsp;Q&nbsp;HE&nbsp;series___", "https://www.keychron.com/products/keychron-q6-he-qmk-wireless-custom-keyboard");
-
-            URL_Add("Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___", "https://www.keychron.com/products/keychron-q6-he-8k-magnetic-switch-keyboard");
-
-            URL_Add("Keychron&nbsp;V&nbsp;series___", "https://www.keychron.com/products/keychron-v6-qmk-custom-mechanical-keyboard-iso-layout-collection");
-
-            URL_Add("Keychron&nbsp;Q&nbsp;series___", "https://www.keychron.com/products/keychron-q6-qmk-custom-mechanical-keyboard-iso-layout-collection");
-
-            URL_Add("Keychron&nbsp;K&nbsp;Max&nbsp;series___", "https://www.keychron.com/products/keychron-k10-max-qmk-wireless-mechanical-keyboard-iso-layout-collection");
-
-            URL_Add("Keychron&nbsp;C&nbsp;Pro&nbsp;series___", "https://www.keychron.com/products/keychron-c2-pro-qmk-via-wired-mechanical-keyboard");
-
-            URL_Add("Keychron&nbsp;C&nbsp;Pro&nbsp;8K&nbsp;series___", "https://www.keychron.uk/collections/keychron-c-pro-series-keyboards/products/keychron-c2-pro-8k-qmk-wired-custom-mechanical-keyboard-iso-layout-collection");
-
-            URL_Add("Keychron&nbsp;S&nbsp;series___", "https://www.keychron.com/products/keychron-s1-qmk-custom-mechanical-keyboard");
-
-            URL_Add("Keychron&nbsp;B&nbsp;Pro&nbsp;series___", "https://www.keychron.com/products/keychron-b6-pro-ultra-slim-wireless-keyboard");
-
-            URL_Add("Keychron&nbsp;Q&nbsp;Ultra&nbsp;8K&nbsp;series___", "https://www.keychron.com/products/keychron-q6-ultra-8k-wireless-custom-mechanical-keyboard");
-
-            URL_Add("Keychron&nbsp;V&nbsp;Ultra&nbsp;8K&nbsp;series___", "https://www.keychron.com/products/keychron-v6-ultra-8k-wireless-custom-mechanical-keyboard");
-
-            URL_Add("Keychron&nbsp;K&nbsp;Ultra&nbsp;8K&nbsp;series___", "https://www.kickstarter.com/projects/keytron/keychron-k3-he-and-k3-ultra-slim-wireless-custom-keyboards");
-
-            URL_Add("Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___", "https://www.keychron.com/products/keychron-j8-he-8k-magnetic-switch-keyboard");
-
-            URL_Add("Lemokey&nbsp;P&nbsp;Pro&nbsp;series___", "https://www.keychron.com/products/lemokey-p1-qmk-via-custom-gaming-keyboard");
-
-            URL_Add("Lemokey&nbsp;X&nbsp;series___", "https://www.keychron.com/products/lemokey-x3-qmk-via-wired-mechanical-keyboard");
-
-            URL_Add("Keychron keyboards' two-hour deep sleep___", "https://github.com/Keychron/qmk_firmware/issues/380#issuecomment-4886867229");
-
             URL_Add("p___", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p");
 
             URL_Add("hr___", "https://en.wikipedia.org/wiki/HTML_element#Other_block_elements");
@@ -180690,6 +180620,100 @@ namespace OverflowHelper.core
             URL_Add("map___", "https://en.wiktionary.org/wiki/map#Verb");
 
             URL_Add("UV mapping___", "https://en.wikipedia.org/wiki/UV_mapping");
+
+            URL_Add("Cherry keycap profile___", "https://switchandclick.com/sa-vs-dsa-vs-oem-vs-cherry-vs-xda-keycap-profiles/");
+
+            URL_Add("MSA keycap profile___", "https://thekeeblog.com/overview-of-different-keycap-profiles/#MA_Profile");
+
+            URL_Add("ActionScript___", "https://en.wikipedia.org/wiki/ActionScript");
+
+            URL_Add("Adobe Flash___", "https://en.wikipedia.org/wiki/Adobe_Flash");
+
+            URL_Add("hard___", "https://en.wiktionary.org/wiki/hard#Adjective");
+
+            URL_Add("hard flashing___", "https://www.reddit.com/r/Keychron/comments/1dwocvh/comment/lby5g3e/");
+
+            URL_Add("BIND___", "https://en.wikipedia.org/wiki/BIND");
+
+            URL_Add("key combinations___", "https://en.wikipedia.org/wiki/Keyboard_shortcut");
+
+            URL_Add("NKRO_ENABLE___", "https://docs.qmk.fm/config_options#usb-endpoint-limitations");
+
+            URL_Add("nRF5340___", "https://en.wikipedia.org/wiki/Nordic_Semiconductor#nRF53_Series_SoC");
+
+            URL_Add("nRF52840___", "https://en.wikipedia.org/wiki/Nordic_Semiconductor#nRF52_Series_SoCs");
+
+            URL_Add("lubrication___", "https://en.wiktionary.org/wiki/lubrication#Noun");
+
+            URL_Add("Keychron '2.4 GHz' dongle firmware___", "https://www.keychron.com/pages/how-to-flash-the-firmware-for-the-keychron-receiver");
+
+            URL_Add("Keychron Via clone (AKA Keychron Launcher) bug bricking the Bluetooth module by flashing completely wrong firmware___", "https://www.reddit.com/r/Keychron/comments/1buwibx/comment/lafqz99/");
+
+            URL_Add("Monkeytype___", "https://github.com/monkeytypegame/monkeytype");
+
+            URL_Add("Git branch \"wls_2025q1\" in Keychron's fork___", "https://github.com/Keychron/qmk_firmware/tree/wls_2025q1/keyboards/keychron/k10_version_2");
+
+            URL_Add("SRGBmods (Vial)___", "https://github.com/SRGBmods/QMK-Binaries/tree/main/QMK%2BVIA%2BVial-Firmware/10_12_25");
+
+            URL_Add("weird behaviour in QMK-based keyboard if not resetting to factory defaults___", "https://www.reddit.com/r/Keychron/comments/1dwocvh/comment/lioza8e/");
+
+            URL_Add("extra information may be required to recover from bricking the main firmware of a Keychron keyboard___", "https://www.reddit.com/r/Keychron/comments/1dwocvh/comment/lby5g3e/");
+
+            URL_Add("the first step in troubleshooting a mechanical keyboard is reseating (and only reseating)___", "https://www.reddit.com/r/Keychron/comments/1i5flhz/comment/mhl8w41/");
+
+            URL_Add("QMK debounce methods/algorithms___", "https://docs.qmk.fm/feature_debounce_type#debounce-method");
+
+            URL_Add("Hall effect switches___", "https://www.tomshardware.com/news/how-hall-effect-switches-work,33105.html");
+
+            URL_Add("Keychron K1 Max, ISO RGB variant (USB 0x3434/0x0A11)___", "https://www.keychron.com/products/keychron-k1-max-qmk-wireless-custom-mechanical-keyboard-iso-layout-collection?variant=41595269939289");
+
+            URL_Add("Keychron K5 Pro, ISO RGB backlight variant (USB 0x3434/0x0251)___", "https://www.keychron.com/products/keychron-k5-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection?variant=40516482334809");
+
+            URL_Add("Keychron Q3 HE, ANSI knob carbon black variant (USB 0x3434/0x0B30)___", "https://www.keychron.com/products/keychron-q3-he-qmk-wireless-custom-keyboard?variant=41844681867353");
+
+            URL_Add("Keychron&nbsp;K&nbsp;series___", "https://www.keychron.at/collections/keychron-uk-iso-keyboards/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout"); // Old: <https://www.keychron.uk/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout>
+
+            URL_Add("Keychron&nbsp;K&nbsp;Pro&nbsp;series___", "https://keychron.de/collections/k-pro-series-iso-keyboard/products/keychron-k10-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection"); // Old: <https://www.keychron.uk/products/keychron-k10-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection>
+
+            URL_Add("Keychron&nbsp;Q&nbsp;Pro&nbsp;series___", "https://www.keychron.com/products/keychron-q6-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
+
+            URL_Add("Keychron&nbsp;V&nbsp;Max&nbsp;series___", "https://www.keychron.com/products/keychron-v6-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
+
+            URL_Add("Keychron&nbsp;Q&nbsp;Max&nbsp;series___", "https://www.keychron.com/products/keychron-q6-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
+
+            URL_Add("Keychron&nbsp;K&nbsp;HE&nbsp;series___", "https://keychron.ca/products/keychron-k10-he-wireless-magnetic-switch-custom-keyboard-iso-layout-collection");
+
+            URL_Add("Keychron&nbsp;Q&nbsp;HE&nbsp;series___", "https://www.keychron.com/products/keychron-q6-he-qmk-wireless-custom-keyboard");
+
+            URL_Add("Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___", "https://www.keychron.com/products/keychron-q6-he-8k-magnetic-switch-keyboard");
+
+            URL_Add("Keychron&nbsp;V&nbsp;series___", "https://www.keychron.com/products/keychron-v6-qmk-custom-mechanical-keyboard-iso-layout-collection");
+
+            URL_Add("Keychron&nbsp;Q&nbsp;series___", "https://www.keychron.com/products/keychron-q6-qmk-custom-mechanical-keyboard-iso-layout-collection");
+
+            URL_Add("Keychron&nbsp;K&nbsp;Max&nbsp;series___", "https://www.keychron.com/products/keychron-k10-max-qmk-wireless-mechanical-keyboard-iso-layout-collection");
+
+            URL_Add("Keychron&nbsp;C&nbsp;Pro&nbsp;series___", "https://www.keychron.com/products/keychron-c2-pro-qmk-via-wired-mechanical-keyboard");
+
+            URL_Add("Keychron&nbsp;C&nbsp;Pro&nbsp;8K&nbsp;series___", "https://www.keychron.uk/collections/keychron-c-pro-series-keyboards/products/keychron-c2-pro-8k-qmk-wired-custom-mechanical-keyboard-iso-layout-collection");
+
+            URL_Add("Keychron&nbsp;S&nbsp;series___", "https://www.keychron.com/products/keychron-s1-qmk-custom-mechanical-keyboard");
+
+            URL_Add("Keychron&nbsp;B&nbsp;Pro&nbsp;series___", "https://www.keychron.com/products/keychron-b6-pro-ultra-slim-wireless-keyboard");
+
+            URL_Add("Keychron&nbsp;Q&nbsp;Ultra&nbsp;8K&nbsp;series___", "https://www.keychron.com/products/keychron-q6-ultra-8k-wireless-custom-mechanical-keyboard");
+
+            URL_Add("Keychron&nbsp;V&nbsp;Ultra&nbsp;8K&nbsp;series___", "https://www.keychron.com/products/keychron-v6-ultra-8k-wireless-custom-mechanical-keyboard");
+
+            URL_Add("Keychron&nbsp;K&nbsp;Ultra&nbsp;8K&nbsp;series___", "https://www.kickstarter.com/projects/keytron/keychron-k3-he-and-k3-ultra-slim-wireless-custom-keyboards");
+
+            URL_Add("Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___", "https://www.keychron.com/products/keychron-j8-he-8k-magnetic-switch-keyboard");
+
+            URL_Add("Lemokey&nbsp;P&nbsp;Pro&nbsp;series___", "https://www.keychron.com/products/lemokey-p1-qmk-via-custom-gaming-keyboard");
+
+            URL_Add("Lemokey&nbsp;X&nbsp;series___", "https://www.keychron.com/products/lemokey-x3-qmk-via-wired-mechanical-keyboard");
+
+            URL_Add("Keychron keyboards' two-hour deep sleep___", "https://github.com/Keychron/qmk_firmware/issues/380#issuecomment-4886867229");
 
         } //addLookupData_alternativeWordSet3()
 
@@ -183129,38 +183153,6 @@ namespace OverflowHelper.core
 
             URL_Add("MDASH____", "https://www.microsoft.com/en-us/security/blog/2026/05/12/defense-at-ai-speed-microsofts-new-multi-model-agentic-security-system-tops-leading-industry-benchmark/");
 
-            URL_Add("Keychron____", "https://deskthority.net/wiki/Keychron");
-
-            URL_Add("Lemokey Launcher____", "https://www.reddit.com/r/Keychron/comments/1buwibx/comment/kxx3kt0/");
-
-            URL_Add("Keychron K10 Pro, white backlight variant (USB 0x3434/0x02A3)____", "https://www.keychron.com/products/keychron-k10-pro-qmk-via-wireless-mechanical-keyboard?variant=40618605674585");
-
-            URL_Add("Keychron&nbsp;K&nbsp;QMK&nbsp;series____", "https://www.keychron.com/products/keychron-k10-qmk-wireless-mechanical-keyboard-iso-layout-version-2");
-
-            URL_Add("Keychron K1 Max default keymap (ISO RGB)____", "https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/k1_max/iso/rgb/keymaps/via/keymap.c#L44");
-
-            URL_Add("Keychron K2 Pro default keymap (ISO RGB)____", "https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/k2_pro/iso/rgb/keymaps/via/keymap.c#L44");
-
-            URL_Add("Keychron K3 Max default keymap (ISO RGB)____", "https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/k3_max/iso/rgb/keymaps/via/keymap.c#L44");
-
-            URL_Add("Keychron K5 Pro default keymap (ISO RGB)____", "https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/k5_pro/iso/rgb/keymaps/via/keymap.c#L44");
-
-            URL_Add("Keychron K5 Max default keymap (ISO RGB)____", "https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/k5_max/iso/rgb/keymaps/via/keymap.c#L45");
-
-            URL_Add("Keychron Q3 HE default keymap (ANSI RGB)____", "https://github.com/Keychron/qmk_firmware/blob/hall_effect_playground/keyboards/keychron/q3_he/ansi_encoder/keymaps/via/keymap.c#L45");
-
-            URL_Add("Keychron Q6 Max default keymap (ISO RGB)____", "https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/q6_max/iso_encoder/keymaps/via/keymap.c#L44");
-
-            URL_Add("Keychron V6 default keymap (ISO RGB)____", "https://github.com/qmk/qmk_firmware/blob/master/keyboards/keychron/v6/iso_encoder/keymaps/default/keymap.c#L46");
-
-            URL_Add("Keychron V6 Max default keymap (ISO RGB)____", "https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/v6_max/iso_encoder/keymaps/via/keymap.c#L42");
-
-            URL_Add("par for the course is resetting to factory defaults and reflashing the keyboard firmware____", "https://www.reddit.com/r/Keychron/comments/1h33l08/comment/lzozkuo/");
-
-            URL_Add("firmware for the Keychron Bluetooth/'2.4 GHz' internal module for wireless communication____", "https://www.keychron.com/pages/how-to-flash-the-firmware-for-the-keychron-receiver");
-
-            URL_Add("disabled Via by default____", "https://www.reddit.com/r/olkb/comments/1ezxvwt/comment/lkhpen0/");
-
             URL_Add("CVS____", "https://en.wikipedia.org/wiki/Concurrent_Versions_System");
 
             URL_Add("shortwave radio____", "https://en.wikipedia.org/wiki/Shortwave_radio");
@@ -183198,6 +183190,38 @@ namespace OverflowHelper.core
             URL_Add("circling poets throw rocks at them____", "https://www.youtube.com/watch?v=vaVYEYeWbGs&list=PLSoD2CcPrumFJREVL6RmMnZP5U7sGYYi2&index=25&t=1m6s");
 
             URL_Add("head____", "https://en.wiktionary.org/wiki/head#Noun");
+
+            URL_Add("firmware for the Keychron Bluetooth/'2.4 GHz' internal module for wireless communication____", "https://www.keychron.com/pages/how-to-flash-the-firmware-for-the-keychron-receiver");
+
+            URL_Add("Keychron____", "https://deskthority.net/wiki/Keychron");
+
+            URL_Add("Lemokey Launcher____", "https://www.reddit.com/r/Keychron/comments/1buwibx/comment/kxx3kt0/");
+
+            URL_Add("Keychron K10 Pro, white backlight variant (USB 0x3434/0x02A3)____", "https://www.keychron.com/products/keychron-k10-pro-qmk-via-wireless-mechanical-keyboard?variant=40618605674585");
+
+            URL_Add("Keychron&nbsp;K&nbsp;QMK&nbsp;series____", "https://www.keychron.com/products/keychron-k10-qmk-wireless-mechanical-keyboard-iso-layout-version-2");
+
+            URL_Add("Keychron K1 Max default keymap (ISO RGB)____", "https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/k1_max/iso/rgb/keymaps/via/keymap.c#L44");
+
+            URL_Add("Keychron K2 Pro default keymap (ISO RGB)____", "https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/k2_pro/iso/rgb/keymaps/via/keymap.c#L44");
+
+            URL_Add("Keychron K3 Max default keymap (ISO RGB)____", "https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/k3_max/iso/rgb/keymaps/via/keymap.c#L44");
+
+            URL_Add("Keychron K5 Pro default keymap (ISO RGB)____", "https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/k5_pro/iso/rgb/keymaps/via/keymap.c#L44");
+
+            URL_Add("Keychron K5 Max default keymap (ISO RGB)____", "https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/k5_max/iso/rgb/keymaps/via/keymap.c#L45");
+
+            URL_Add("Keychron Q3 HE default keymap (ANSI RGB)____", "https://github.com/Keychron/qmk_firmware/blob/hall_effect_playground/keyboards/keychron/q3_he/ansi_encoder/keymaps/via/keymap.c#L45");
+
+            URL_Add("Keychron Q6 Max default keymap (ISO RGB)____", "https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/q6_max/iso_encoder/keymaps/via/keymap.c#L44");
+
+            URL_Add("Keychron V6 default keymap (ISO RGB)____", "https://github.com/qmk/qmk_firmware/blob/master/keyboards/keychron/v6/iso_encoder/keymaps/default/keymap.c#L46");
+
+            URL_Add("Keychron V6 Max default keymap (ISO RGB)____", "https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/v6_max/iso_encoder/keymaps/via/keymap.c#L42");
+
+            URL_Add("par for the course is resetting to factory defaults and reflashing the keyboard firmware____", "https://www.reddit.com/r/Keychron/comments/1h33l08/comment/lzozkuo/");
+
+            URL_Add("disabled Via by default____", "https://www.reddit.com/r/olkb/comments/1ezxvwt/comment/lkhpen0/");
 
         } //addLookupData_alternativeWordSet4()
 
@@ -184524,18 +184548,6 @@ namespace OverflowHelper.core
 
             URL_Add("than_____", "https://www.wikihow.com/Use-Than-and-Then");
 
-            URL_Add("QMK macros_____", "https://getreuer.info/posts/keyboards/macros/index.html");
-
-            URL_Add("the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____", "https://www.reddit.com/r/Keychron/comments/1j092s2/comment/ml0wljn/");
-
-            URL_Add("the official QMK Git repository, Keychron keyboards_____", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/keychron");
-
-            URL_Add("non-US backslash key_____", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md#basic-keycodes-basic-keycodes");
-
-            URL_Add("Keychron 2024 Hall effect (HE) keyboard quality issues with self-repeating keys (1xx instances and counting)_____", "https://www.reddit.com/r/Keychron/comments/1geok1p/defective_key_on_k2_he/");
-
-            URL_Add("Git branch \"bluetooth_playground\" in Keychron's fork_____", "https://github.com/Keychron/qmk_firmware/tree/bluetooth_playground/keyboards/keychron/k10_pro");
-
             URL_Add("Launchpad_____", "https://en.wikipedia.org/wiki/List_of_built-in_macOS_apps#Launchpad");
 
             URL_Add("switch_____", "https://en.wiktionary.org/wiki/switch#Verb");
@@ -184547,6 +184559,18 @@ namespace OverflowHelper.core
             URL_Add("flux capacitor_____", "https://en.wikipedia.org/wiki/DeLorean_time_machine#Flux_capacitor"); // Old: https://en.wikipedia.org/wiki/DeLorean_time_machine
 
             URL_Add("K10 V2 with overlubricated switches_____", "https://www.reddit.com/r/Keychron/comments/1n9l1m0/comment/ncptj9i/");
+
+            URL_Add("QMK macros_____", "https://getreuer.info/posts/keyboards/macros/index.html");
+
+            URL_Add("the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____", "https://www.reddit.com/r/Keychron/comments/1j092s2/comment/ml0wljn/");
+
+            URL_Add("the official QMK Git repository, Keychron keyboards_____", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/keychron");
+
+            URL_Add("non-US backslash key_____", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md#basic-keycodes-basic-keycodes");
+
+            URL_Add("Keychron 2024 Hall effect (HE) keyboard quality issues with self-repeating keys (1xx instances and counting)_____", "https://www.reddit.com/r/Keychron/comments/1geok1p/defective_key_on_k2_he/");
+
+            URL_Add("Git branch \"bluetooth_playground\" in Keychron's fork_____", "https://github.com/Keychron/qmk_firmware/tree/bluetooth_playground/keyboards/keychron/k10_pro");
 
             URL_Add("&nbsp;K_____", "https://en.wikipedia.org/wiki/Kelvin");
 
