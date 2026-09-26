@@ -2291,6 +2291,3889 @@ namespace OverflowHelper.core
 
             correctionAdd("rectangly", "rectangular");
 
+            correctionAdd("she'e", "she've");
+
+            correctionAdd("shelf-life", "shelf life");
+
+            correctionAdd("Life", "life");
+            correctionAdd("LYFE", "life");
+            correctionAdd("lyfe", "life");
+            correctionAdd("live", "life");
+            correctionAdd("LIfe", "life");
+
+            correctionAdd("life style", "lifestyle");
+            correctionAdd("life-style", "lifestyle");
+
+            correctionAdd("life-long", "lifelong");
+            correctionAdd("life long", "lifelong");
+
+            correctionAdd("life span", "lifespan");
+
+            correctionAdd("life-time", "lifetime");
+            correctionAdd("life time", "lifetime");
+
+            correctionAdd("once in a lifetime", "once-in-a-lifetime");
+
+            correctionAdd("liferaft", "life raft");
+
+            correctionAdd("life hack", "lifehack");
+
+            correctionAdd("life-cycle", "life cycle");
+            correctionAdd("lifecycle", "life cycle");
+
+            correctionAdd("4 lyfe", "for life");
+
+            correctionAdd("QoL", "quality of life");
+
+            correctionAdd("Life Pro Tip", "life pro tip");
+            correctionAdd("lpt", "life pro tip");
+            correctionAdd("LPT", "life pro tip");
+
+            correctionAdd("life of me", "for the life of me");
+
+            correctionAdd("life saver", "lifesaver");
+            correctionAdd("life Saver", "lifesaver");
+
+            correctionAdd("lifesaving", "life-saving");
+
+            correctionAdd("life threatening", "life-threatening");
+            correctionAdd("Life threatening", "life-threatening");
+
+            correctionAdd("shear", "sheer");
+
+            correctionAdd("shananigans", "shenanigan");
+            correctionAdd("shenanigans", "shenanigan");
+            correctionAdd("Shenanigan", "shenanigan");
+
+            // Arduino
+            correctionAdd("Shields", "shields");
+
+            correctionAdd("sheilded", "shielded");
+            correctionAdd("Sheilded", "shielded");
+
+            correctionAdd("sun shield", "sunshield");
+
+            correctionAdd("sheap", "cheap");
+
+            correctionAdd("cheeper", "cheaper");
+
+            correctionAdd("cheapes", "cheapest");
+
+            correctionAdd("cheap put", "cheap out");
+
+            correctionAdd("cheapped out", "cheaped out");
+
+            correctionAdd("El Cheapo", "el cheapo");
+            correctionAdd("el-Cheapo", "el cheapo");
+            correctionAdd("cheapo", "el cheapo");
+
+            correctionAdd("gettting", "getting");
+            correctionAdd("gettinog", "getting");
+            correctionAdd("gettinig", "getting");
+            correctionAdd("gettitng", "getting");
+            correctionAdd("gettuing", "getting");
+            correctionAdd("gettingg", "getting");
+            correctionAdd("shedding", "getting");
+            correctionAdd("gettign", "getting");
+            correctionAdd("gedding", "getting");
+            correctionAdd("ketting", "getting");
+            correctionAdd("gatting", "getting");
+            correctionAdd("geeting", "getting");
+            correctionAdd("Geeting", "getting");
+            correctionAdd("gettin", "getting");
+            correctionAdd("gettig", "getting");
+            correctionAdd("geting", "getting");
+            correctionAdd("gating", "getting");
+
+            correctionAdd("get's", "gets");
+
+            correctionAdd("get ride of", "get rid of");
+            correctionAdd("get rid off", "get rid of");
+            correctionAdd("rid off", "get rid of");
+
+            correctionAdd("get go", "get-go");
+            correctionAdd("getgo", "get-go");
+
+            correctionAdd("got ride of", "got rid of");
+
+            correctionAdd("shedding rid of", "getting rid of");
+
+            // Alternative URLs:
+            //
+            //   <https://stackoverflow.com/questions/872565/remove-sensitive-files-and-their-commits-from-git-history/46265228#46265228>
+            //
+            correctionAdd("did not get that memo", "get the memo");
+            correctionAdd("Get the memo", "get the memo");
+            correctionAdd("those memos", "get the memo");
+            correctionAdd("the memo", "get the memo");
+            correctionAdd("memos", "get the memo");
+
+            correctionAdd("ride", "rid");
+            correctionAdd("rd", "rid");
+
+            correctionAdd("sharted", "shared");
+            correctionAdd("Shares", "shared");
+            correctionAdd("shares", "shared");
+            correctionAdd("shard", "shared");
+
+            correctionAdd("share-able", "shareable");
+            correctionAdd("sharable", "shareable");
+
+            correctionAdd("non-sharable", "nonsharable");
+            correctionAdd("non sharable", "nonsharable");
+
+            correctionAdd("lions share", "lion's share");
+
+            correctionAdd("sharethis", "ShareThis");
+
+            correctionAdd("apriori", "a priori");
+
+            correctionAdd("prioritize", "prioritise");
+            correctionAdd("priortise", "prioritise");
+            correctionAdd("priotize", "prioritise");
+            correctionAdd("priotise", "prioritise");
+            correctionAdd("Pritoize", "prioritise");
+            correctionAdd("pritoize", "prioritise");
+
+            correctionAdd("priorty", "priority");
+            correctionAdd("prio", "priority");
+
+            correctionAdd("poriorities", "priorities");
+
+            correctionAdd("prioritization", "prioritisation");
+
+            correctionAdd("scheddule", "schedule");
+            correctionAdd("Scheddule", "schedule");
+            correctionAdd("Shedule", "schedule");
+            correctionAdd("shedule", "schedule");
+
+            correctionAdd("sheduling", "scheduling");
+
+            correctionAdd("re-scheduling", "rescheduling");
+
+            // Multitasking
+            correctionAdd("Priority Ceiling Protocol", "priority ceiling protocol");
+
+            // Multitasking
+            correctionAdd("Priority Inheritance", "priority inheritance");
+
+            // Multitasking
+            correctionAdd("Least Laxity First", "least slack time");
+            correctionAdd("least laxity first", "least slack time");
+            correctionAdd("LST", "least slack time");
+
+            // Multitasking
+            correctionAdd("Earliest Deadline First", "earliest deadline first");
+            correctionAdd("EDF", "earliest deadline first");
+
+            correctionAdd("consooomer", "consumer");
+            correctionAdd("Consooomer", "consumer");
+
+            correctionAdd("Producer/Consumer problem", "producer-consumer problem");
+
+            correctionAdd("trheads", "threads");
+            correctionAdd("threds", "threads");
+            correctionAdd("Threds", "threads");
+
+            correctionAdd("thread safe", "threadsafe");
+            correctionAdd("thread-safe", "threadsafe");
+            correctionAdd("Thread safe", "threadsafe");
+            correctionAdd("Thread-Safe", "threadsafe");
+            correctionAdd("Thread Safe", "threadsafe");
+
+            correctionAdd("thread-safety", "thread safety");
+
+            correctionAdd("single threaded", "singlethreaded");
+            correctionAdd("single-threaded", "singlethreaded");
+            correctionAdd("Single threaded", "singlethreaded");
+
+            correctionAdd("multi-thread", "multithread");
+
+            correctionAdd("multi threaded", "multithreaded");
+            correctionAdd("multi-threaded", "multithreaded");
+            correctionAdd("mutli-threaded", "multithreaded");
+            correctionAdd("mutithreaded", "multithreaded");
+            correctionAdd("multi thread", "multithreaded");
+
+            correctionAdd("Multi-threading", "multithreading");
+            correctionAdd("multi threading", "multithreading");
+            correctionAdd("multi-threading", "multithreading");
+            correctionAdd("Multithreading", "multithreading");
+            correctionAdd("MT", "multithreading");
+
+            correctionAdd("therad pool", "thread pool");
+
+            correctionAdd("Semaphore", "semaphore");
+
+            correctionAdd("schedular", "scheduler");
+
+            correctionAdd("Processor", "processor");
+            correctionAdd("proc", "processor");
+
+            correctionAdd("UP", "uniprocessor system");
+
+            correctionAdd("shared-memory multiprocessing", "symmetric multiprocessing");
+            correctionAdd("SMP", "symmetric multiprocessing");
+
+            // As in Arduino... But the URL is now (effectively)
+            // broken... (redirects to a generic page
+            //
+            // Note: "Arduino" is in an alternative word set
+            //
+            correctionAdd("schield", "shield");
+            correctionAdd("Shield", "shield");
+            correctionAdd("SHEILD", "shield");
+            correctionAdd("sheild", "shield");
+            correctionAdd("Shiled", "shield");
+            correctionAdd("shiled", "shield");
+
+            // An Arduino PCB extensions board
+            correctionAdd("skectch", "sketch");
+            correctionAdd("schetch", "sketch");
+            correctionAdd("Sketch", "sketch");
+            correctionAdd("skecth", "sketch");
+            correctionAdd("skecht", "sketch");
+            correctionAdd("scetch", "sketch");
+
+            correctionAdd("Arduino ide", "Arduino IDE");
+            correctionAdd("arduino ide", "Arduino IDE");
+            correctionAdd("arduino IDE", "Arduino IDE");
+            correctionAdd("Arduino-IDE", "Arduino IDE");
+            correctionAdd("arduinoIDE", "Arduino IDE");
+            correctionAdd("ArduinoIDE", "Arduino IDE");
+
+            // Arduino / AVR / ATmega
+            //
+            // We need a better reference... for example, the
+            // current one does not explain what it is.
+            //
+            // Alternative URLs:
+            //
+            //   <https://github.com/jknofe/caterina>
+            //
+            //   <https://steven.casagrande.io/posts/2014/compiling-arduino-caterina-with-new-vidpid/>
+            //     Compiling Arduino Caterina with a new VID/PID
+            //
+            //     But it doesn't contain any references
+            //
+            //   <https://github.com/adafruit/Caterina-Bootloader>
+            //
+            //   <https://github.com/a guy/Katiana>
+            //     Also PDF documernt:
+            //       <https://github.com/aweatherguy/Katiana/blob/master/Katiana-Bootloader.pdf>
+            //       <https://github.com/aweatherguy/Katiana/blob/0f8155511ec84b536bb8523aa1765d35b66e67c9/Katiana-Bootloader.pdf>
+            //
+            //   <https://github.com/PaxInstruments/ATmega32U4-bootloader/blob/master/avr/bootloaders/caterina/Readme.md>
+            //     Modified Caterina bootloader
+            //
+            correctionAdd("Arduino Leonardo Caterina bootloader", "Caterina bootloader");
+            correctionAdd("leonardo caterina bootloader", "Caterina bootloader");
+            correctionAdd("caterina bootloader", "Caterina bootloader");
+            correctionAdd("Caterina Bootloader", "Caterina bootloader");
+            correctionAdd("Caterina", "Caterina bootloader");
+            correctionAdd("caterina", "Caterina bootloader");
+
+            // Arduino / AVR / ATmega
+            //
+            // Alternative URLs:
+            //
+            //   <https://github.com/Optiboot/optiboot/wiki>
+            //
+            correctionAdd("OptiBoot", "Optiboot bootloader");
+            correctionAdd("optiboot", "Optiboot bootloader");
+            correctionAdd("Optiboot", "Optiboot bootloader");
+
+            // The Arduino-related thing
+            correctionAdd("proccessing", "Processing");
+            correctionAdd("PROCESSING", "Processing");
+            correctionAdd("processing", "Processing");
+
+            // 'Processing'. JavaScript.
+            //
+            // Alternative URLs:
+            //
+            //   <https://github.com/processing/p5.js/wiki/p5.js-overview>
+            //   <https://p5js.org/about/>
+            //   <https://p5js.org/>
+            //
+            correctionAdd("P5js", "p5.js");
+            correctionAdd("p5", "p5.js");
+
+            // Arduino
+            correctionAdd("progmem", "PROGMEM");
+
+            // Arduino-like
+            correctionAdd("Platform IO", "PlatformIO");
+            correctionAdd("platformio", "PlatformIO");
+            correctionAdd("Platformio", "PlatformIO");
+
+            correctionAdd("Arduino-cli", "Arduino CLI");
+
+            // An Arduino development board clone
+            //
+            // Note: "Arduino" is in an alternative word set
+            //
+            // Alternative URL:
+            //
+            //   <https://docs.arduino.cc/hardware/uno-rev3>
+            //
+            correctionAdd("Arduino Uno R3", "Arduino Uno");
+            correctionAdd("Arduino UNO R3", "Arduino Uno");
+            correctionAdd("arduino Uno", "Arduino Uno");
+            correctionAdd("arduino uno", "Arduino Uno");
+            correctionAdd("Arduino UNO", "Arduino Uno");
+            correctionAdd("arduino UNO", "Arduino Uno");
+            correctionAdd("Arduino uno", "Arduino Uno");
+            correctionAdd("Ardunio Uno", "Arduino Uno"); // A true misspelling.
+            correctionAdd("ARDUINO UNO", "Arduino Uno");
+            correctionAdd("Arudino Uno", "Arduino Uno"); // A true typo
+            correctionAdd("arudino uno", "Arduino Uno");
+            correctionAdd("arudino-uno", "Arduino Uno");
+            correctionAdd("Arduino-UNO", "Arduino Uno");
+            correctionAdd("aruino uno", "Arduino Uno");
+            correctionAdd("UNO", "Arduino Uno");
+            correctionAdd("Uno", "Arduino Uno");
+            correctionAdd("uno", "Arduino Uno");
+
+            // An Arduino development board
+            //
+            // Based on ATmega32U4 (like Leanardo)
+            correctionAdd("arduino leonardo", "Arduino Leonardo");
+            correctionAdd("Leonardo", "Arduino Leonardo");
+            correctionAdd("leonardo", "Arduino Leonardo");
+            correctionAdd("Leanardo", "Arduino Leonardo");
+            correctionAdd("Leo", "Arduino Leonardo");
+
+            // An Arduino development board
+            correctionAdd("arduino mega 2560", "Arduino Mega 2560");
+            correctionAdd("arduino MEGA 2560", "Arduino Mega 2560");
+            correctionAdd("arduino mega 256", "Arduino Mega 2560");
+            correctionAdd("arduino mega", "Arduino Mega 2560");
+            correctionAdd("Arduino MEGA", "Arduino Mega 2560");
+            correctionAdd("Arduino mega", "Arduino Mega 2560");
+            correctionAdd("arduino Mega", "Arduino Mega 2560");
+            correctionAdd("Arduino Mega", "Arduino Mega 2560");
+            correctionAdd("arduino MEGA", "Arduino Mega 2560");
+
+            // An Arduino development board
+            correctionAdd("Arduino Yun", "Arduino Yún");
+            correctionAdd("Yún", "Arduino Yún");
+            correctionAdd("Yun", "Arduino Yún");
+
+            // An Arduino development board
+            correctionAdd("Pro Mini", "Arduino Pro Mini");
+            correctionAdd("pro mini", "Arduino Pro Mini");
+            correctionAdd("ProMini", "Arduino Pro Mini");
+
+            // An Arduino development board
+            correctionAdd("Diecimila", "Arduino Diecimila");
+            correctionAdd("Decimila", "Arduino Diecimila");
+
+            // An Arduino development board
+            correctionAdd("duemilanove", "Duemilanove");
+
+            // An Arduino development board
+            correctionAdd("Due", "Arduino Due");
+
+            // An Arduino development board
+            //
+            // Alternative URLs:
+            //
+            //   <https://docs.arduino.cc/retired/getting-started-guides/ArduinoPrimo>
+            //
+            correctionAdd("Primo", "Arduino Primo");
+
+            // An Arduino development board
+            correctionAdd("Lilypad", "LilyPad");
+
+            correctionAdd("netduiono", "Netduino");
+            correctionAdd("netduino", "Netduino");
+
+            // An Arduino development board clone
+            //
+            // Note: It is not a real Arduino, just "Pro Micro", not
+            // to be confused with "Arduino Micro" (which has more
+            // available I/O pins despite not having "Pro" in its
+            // name...). So "Pro" is kind of a misnomer.
+            // Only software compatibility.
+            //
+            // Alternative URLs:
+            //
+            //   <https://github.com/bgkendall/keyboard_mcu_list>
+            //     A list of RP2040-based keyboard controller boards
+            //
+            //     Includes the section "RP2040 Pro Micro-shaped boards"
+            //
+            //   <https://github.com/qmk/qmk_firmware/blob/master/docs/compatible_microcontrollers.md#atmel-avr>
+            //     Pro Micro implies ATmega32U4
+            //
+            //     For the JSON file:
+            //
+            //       <https://docs.qmk.fm/reference_info_json#hardware-configuration>
+            //         Identifier 'promicro' used in QMK.
+            //         Near "development_board"
+            //
+            correctionAdd("Arduino Pro Micro", "Pro Micro");
+            correctionAdd("Arduino pro micro", "Pro Micro");
+            correctionAdd("arduino pro micro", "Pro Micro");
+            correctionAdd("Atmega pro-micro", "Pro Micro");
+            correctionAdd("ATmega Pro Micro", "Pro Micro"); // This would be the official extended version, without the usual misspellings of "ATmega".
+            correctionAdd("Atmega Pro Micro", "Pro Micro");
+            correctionAdd("ATmega ProMicro", "Pro Micro");
+            correctionAdd("Atmega ProMicro", "Pro Micro");
+            correctionAdd("pro micro", "Pro Micro");
+            correctionAdd("Pro-Micro", "Pro Micro");
+            correctionAdd("Pro micro", "Pro Micro");
+            correctionAdd("pro-micro", "Pro Micro");
+            correctionAdd("ProMicro", "Pro Micro");
+            correctionAdd("promicro", "Pro Micro");
+            correctionAdd("Promicro", "Pro Micro");
+            correctionAdd("proMicro", "Pro Micro");
+            correctionAdd("PMs", "Pro Micro");
+            correctionAdd("PM", "Pro Micro");
+
+            // Arduino Pro Micro drop-in replacement board for
+            // making wireless mechanical keyboards
+            //
+            // ESD problems:
+            //
+            //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/1fy5wgc/comment/lqsyr68/>
+            //     "It’s got ESD weaknesses though."
+            //
+            // Alernative URL:
+            //
+            //   <https://nicekeyboards.com/nice-nano/>
+            //   <https://www.reddit.com/r/MechanicalKeyboards/comments/iivz1i/nicenano_the_wireless_pro_micro_replacement_board/>
+            //   <https://www.boardsource.xyz/products/nice!nano_v2>
+            //   <https://keebd.com/products/nice-nano>
+            //   <https://circuitpython.org/board/nice_nano/>
+            //   <https://customkbd.com/products/nice-nano>
+            //
+            correctionAdd("nice nano v2", "Nice!Nano");
+            correctionAdd("nice nanov2s", "Nice!Nano");
+            correctionAdd("nice nanov2", "Nice!Nano");
+            correctionAdd("Nice! Nanos", "Nice!Nano");
+            correctionAdd("Nice Nanos", "Nice!Nano");
+            correctionAdd("nice nanos", "Nice!Nano");
+            correctionAdd("Nice! Nano", "Nice!Nano");
+            correctionAdd("nice! Nano", "Nice!Nano");
+            correctionAdd("nice! nano", "Nice!Nano");
+            correctionAdd("Nice!Nanos", "Nice!Nano");
+            correctionAdd("nice!nano", "Nice!Nano");
+            correctionAdd("nice nano", "Nice!Nano");
+            correctionAdd("Nice!nano", "Nice!Nano");
+            correctionAdd("Nice nano", "Nice!Nano");
+            correctionAdd("Nice Nano", "Nice!Nano");
+            correctionAdd("Nice!Nane", "Nice!Nano");
+            correctionAdd("niceNano", "Nice!Nano");
+            correctionAdd("nicenano", "Nice!Nano");
+            correctionAdd("nanos", "Nice!Nano");
+            correctionAdd("Nanos", "Nice!Nano");
+            correctionAdd("nice!", "Nice!Nano");
+            correctionAdd("Nano", "Nice!Nano");
+            correctionAdd("n!n", "Nice!Nano");
+            correctionAdd("N!N", "Nice!Nano");
+            correctionAdd("Nn", "Nice!Nano");
+
+            // A low-power OLED display
+            //
+            // For making wireless mechanical keyboards
+            //
+            correctionAdd("Nice!Views", "Nice!View");
+            correctionAdd("nice!view", "Nice!View");
+            correctionAdd("Nice!view", "Nice!View");
+            correctionAdd("n!v", "Nice!View");
+            correctionAdd("N!V", "Nice!View");
+
+            // Similar to Pro Micro: equally crippled wrt. number
+            // of I/O pins (e.g., for in mechanical keyboards)
+            //
+            // The reference broke, but we found
+            // a similar one on the same site.
+            //
+            // No, "Seeed" is not a typo...
+            //
+            // Used in the TOTEM split ergonomic mechanical keyboard.
+            //
+            // Other possibilities: nRF52840:
+            //
+            //   <https://www.seeedstudio.com/Seeed-Studio-XIAO-nRF52840-Plus-p-6359.html>
+            //     Seeed Studio XIAO nRF52840 Plus
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.hackster.io/carmen-zheng/seeed-xiao-mechanical-keyboard-and-development-board-00988a>
+            //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/yzad7j/totem_a_tiny_split_keyboard_using_seeed_xiaos/>
+            //   <https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html>
+            //
+            correctionAdd("Seeed Studio XIAO", "Seeed Studio XIAO RP2040");
+            correctionAdd("Seeed XIAO RP2040", "Seeed Studio XIAO RP2040");
+            correctionAdd("Seeed Studio", "Seeed Studio XIAO RP2040");
+            correctionAdd("xiao rp2040", "Seeed Studio XIAO RP2040");
+            correctionAdd("XIAO RP2040", "Seeed Studio XIAO RP2040");
+            correctionAdd("XIAO-RP2040", "Seeed Studio XIAO RP2040");
+            correctionAdd("seeed xiao", "Seeed Studio XIAO RP2040"); // Not strictly correct as it could also designate a range of microcontroller boards
+            correctionAdd("SEEED XIAO", "Seeed Studio XIAO RP2040");
+            correctionAdd("Xiao seeed", "Seeed Studio XIAO RP2040");
+            correctionAdd("seeed", "Seeed Studio XIAO RP2040"); // Not strictly correct as it could also designate the company (Seeed Studio)
+            correctionAdd("SEEED", "Seeed Studio XIAO RP2040");
+            correctionAdd("Seeed", "Seeed Studio XIAO RP2040");
+            correctionAdd("xiao", "Seeed Studio XIAO RP2040"); // Not strictly correct as it could also designate a range of microcontroller boards
+            correctionAdd("XIAO", "Seeed Studio XIAO RP2040");
+
+            // A microcontroller development board, e.g., used
+            // in QMK and ZMK-based mechanical keyboards and
+            // macro pads. For example, Planck rev6 and
+            // Clueboard(?).
+            //
+            // Is Pro Micro pin-compatible. Based on ARM STM32F303xC.
+            //
+            // Alternative URLs:
+            //
+            //   <https://github.com/zmkfirmware/zmk/blob/main/app/boards/shields/clueboard_california/README.md>
+            //
+            //   <https://qmk.fm/proton-c-pinout.jpg>
+            //
+            correctionAdd("Proton-C", "Proton C");
+
+            // A microcontroller development board, e.g., used
+            // in QMK mechanical keyboards and macro pads.
+            //
+            // Is Pro Micro pin-compatible. Based on ATmega32U4.
+            // The main difference is the USB-C connector.
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/MechanicalKeyboards/comments/dc7hqs/comment/f26etod/>
+            //   <https://1upkeyboards.com/shop/controllers/elite-c-v4-controller/>
+            //   <https://www.diykeyboards.com/parts/product/elite-c>
+            //
+            correctionAdd("Elite C", "Elite-C");
+            correctionAdd("elite c", "Elite-C");
+            correctionAdd("elite_c", "Elite-C");
+
+            // A RISC-V-based microcontroller
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.espressif.com/en/products/socs/esp32-c3>
+            //
+            correctionAdd("esp32-c3", "ESP32-C3");
+
+            correctionAdd("shintel", "Intel");
+            correctionAdd("Shintel", "Intel");
+            correctionAdd("shitlel", "Intel");
+            correctionAdd("INTEL", "Intel");
+            correctionAdd("intel", "Intel");
+
+            correctionAdd("Data Architect", "data architect");
+            correctionAdd("Data architect", "data architect");
+
+            correctionAdd("Computer Architecture", "computer architecture");
+            correctionAdd("Computer architecture", "computer architecture");
+
+            correctionAdd("cpu", "CPU");
+            correctionAdd("Cpu", "CPU");
+
+            // CPU
+            correctionAdd("Pipelined", "pipelined");
+            correctionAdd("piplined", "pipelined");
+
+            // A feature of Intel CPUs.
+            correctionAdd("Hyper-Threading Technology", "hyper-threading");
+            correctionAdd("Hyper Threading", "hyper-threading");
+            correctionAdd("Hyper threading", "hyper-threading");
+            correctionAdd("hyper threading", "hyper-threading");
+            correctionAdd("hyperthreading", "hyper-threading");
+            correctionAdd("HT Technology", "hyper-threading");
+            correctionAdd("hyper threads", "hyper-threading");
+            correctionAdd("hyper thread", "hyper-threading");
+            correctionAdd("HTT", "hyper-threading");
+            correctionAdd("HT", "hyper-threading");
+
+            correctionAdd("cache affinity", "processor affinity");
+            correctionAdd("CPU pinning", "processor affinity");
+            correctionAdd("affinity", "processor affinity");
+
+            // Alternative URLs:
+            //
+            //   <https://eli.thegreenplace.net/2016/c11-threads-affinity-and-hyperthreading/>
+            //
+            correctionAdd("Thread affinity", "thread affinity");
+            correctionAdd("Thread Affinity", "thread affinity");
+
+            correctionAdd("Branch Prediction", "branch prediction");
+
+            // A CPU feature
+            //
+            // Only relevant to old PC hardware, e.g., 2012 or
+            // earlier (or rather, it is supported in all new)
+            //
+            correctionAdd("physical address extension", "Physical Address Extension");
+            correctionAdd("Page Address Extension", "Physical Address Extension");
+            correctionAdd("PAE", "Physical Address Extension");
+
+            // Related to memory and CPU
+            correctionAdd("CXL", "Compute Express Link");
+
+            // The noun
+            correctionAdd("chache", "cache");
+            correctionAdd("Cache", "cache");
+            correctionAdd("cach", "cache");
+            correctionAdd("cash", "cache");
+
+            // The noun
+            correctionAdd("chaches", "caches");
+            correctionAdd("cahes", "caches");
+            correctionAdd("Cahes", "caches");
+
+            correctionAdd("cacheing", "caching");
+            correctionAdd("catching", "caching");
+
+            correctionAdd("cahced", "cached");
+
+            correctionAdd("cache able", "cacheable");
+            correctionAdd("cachable", "cacheable");
+
+            // A verb
+            correctionAdd("pre-cache", "precache");
+
+            correctionAdd("ehcache", "Ehcache");
+
+            correctionAdd("Ccache", "ccache");
+
+            correctionAdd("cachefly", "CacheFly");
+
+            correctionAdd("L1", "L1 cache");
+            correctionAdd("l1", "L1 cache");
+
+            correctionAdd("L2", "L2 cache");
+            correctionAdd("l2", "L2 cache");
+
+            correctionAdd("L3", "L3 cache");
+            correctionAdd("l3", "L3 cache");
+
+            correctionAdd("gpu", "GPU");
+            correctionAdd("Gpu", "GPU");
+
+            correctionAdd("gpgpu", "GPGPU");
+
+            correctionAdd("integrated graphics processing unit", "IGPU");
+            correctionAdd("iGPU", "IGPU");
+            correctionAdd("igpu", "IGPU");
+            correctionAdd("Igpu", "IGPU");
+
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Video_random-access_memory>
+            //
+            correctionAdd("Video Memory", "video memory");
+
+            // GPU
+            correctionAdd("video random-access memory", "VRAM");
+            correctionAdd("vram", "VRAM");
+
+            // Computer screens. GPUs
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.tomsguide.com/features/what-is-vsync-and-should-you-turn-it-on-or-off>
+            //     Though 'tomsguide.com' may be deceptive (too
+            //     close to 'www.tomshardware.com')
+            //
+            correctionAdd("VSync", "Adaptive Vsync");
+            correctionAdd("Vsync", "Adaptive Vsync");
+
+            // GPUs. AMD. Graphics cards. A brand of GPU /
+            // graphics cards with the "RX" (and "RTX"?)
+            // prefix. Now AMD.
+            correctionAdd("radeon", "Radeon");
+
+            // A driver-level feature. Similar to NIS.
+            //
+            // Related to DLSS and FSR.
+            //
+            // Alternative URL:
+            //
+            //   <https://www.reddit.com/r/LegionGo/comments/17nufwt/radeon_super_resolution_hows_it_work/>
+            //   <https://www.youtube.com/watch?v=-SoDKV-txPs&t=1m10s>
+            //
+            correctionAdd("Radeon Super Resolution", "Radeon super resolution");
+            correctionAdd("RSR", "Radeon super resolution");
+
+            correctionAdd("rx 7800xt", "Radeon RX 7800 XT");
+
+            // Alternative URL:
+            //
+            //   <https://www.amd.com/en/products/graphics/amd-radeon-rx-7900-gre>
+            //
+            correctionAdd("RX 7900 GRE", "Radeon RX 7900 GRE");
+            correctionAdd("7900 gre", "Radeon RX 7900 GRE");
+            correctionAdd("7900GRE", "Radeon RX 7900 GRE");
+            correctionAdd("7900", "Radeon RX 7900 GRE");
+
+            // An Nvidia brand name for graphics cards (GPUs)
+            correctionAdd("Geforce", "GeForce");
+            correctionAdd("geforce", "GeForce");
+
+            // A graphics card (GPU)
+            correctionAdd("GeForce GT 740M", "Nvidia GeForce GT 740M");
+            correctionAdd("Geforce 740m", "Nvidia GeForce GT 740M");
+
+            // A graphics card (GPU)
+            correctionAdd("GeForce GTX 950M", "Nvidia GeForce GTX 950M");
+            correctionAdd("GTX 950M", "Nvidia GeForce GTX 950M");
+
+            // A graphics card (GPU)
+            correctionAdd("Nvidia GTX 1070", "Nvidia GeForce GTX 1070");
+            correctionAdd("GTX 1070", "Nvidia GeForce GTX 1070");
+            correctionAdd("GTX1070", "Nvidia GeForce GTX 1070");
+            correctionAdd("gtx1070", "Nvidia GeForce GTX 1070");
+
+            // A graphics card (GPU)
+            correctionAdd("GeForce GTX 1660", "Nvidia GeForce GTX 1660");
+            correctionAdd("GTX 1660", "Nvidia GeForce GTX 1660");
+
+            // A graphics card (GPU)
+            correctionAdd("GeForce RTX 2070", "Nvidia GeForce RTX 2070");
+            correctionAdd("Geforce 2070", "Nvidia GeForce RTX 2070");
+
+            // A graphics card (GPU)
+            correctionAdd("GeForce RTX 2080 Ti", "Nvidia GeForce RTX 2080 Ti");
+            correctionAdd("RTX 2080", "Nvidia GeForce RTX 2080 Ti");
+            correctionAdd("rtx 2080", "Nvidia GeForce RTX 2080 Ti");
+            correctionAdd("2080 Ti", "Nvidia GeForce RTX 2080 Ti");
+            correctionAdd("2080Ti", "Nvidia GeForce RTX 2080 Ti");
+
+            // A graphics card (GPU)
+            correctionAdd("GeForce RTX 3050", "Nvidia GeForce RTX 3050");
+            correctionAdd("Nvidia RTX 3050", "Nvidia GeForce RTX 3050");
+            correctionAdd("RTX3050", "Nvidia GeForce RTX 3050");
+
+            // A graphics card (GPU)
+            correctionAdd("GeForce RTX 3070", "Nvidia GeForce RTX 3070");
+            correctionAdd("RTX3070", "Nvidia GeForce RTX 3070");
+            correctionAdd("3070ti", "Nvidia GeForce RTX 3070"); // May not be 100% correct
+
+            // A graphics card (GPU)
+            correctionAdd("GeForce RTX 3080", "Nvidia GeForce RTX 3080");
+            correctionAdd("RTX 3080", "Nvidia GeForce RTX 3080");
+            correctionAdd("3080", "Nvidia GeForce RTX 3080");
+
+            // A graphics card (GPU)
+            correctionAdd("GeForce RTX 3090", "Nvidia GeForce RTX 3090");
+            correctionAdd("RTX 3090", "Nvidia GeForce RTX 3090");
+            correctionAdd("RTX3090", "Nvidia GeForce RTX 3090");
+
+            // A graphics card (GPU)
+            correctionAdd("GeForce RTX 4070", "Nvidia GeForce RTX 4070");
+            correctionAdd("4070 ti", "Nvidia GeForce RTX 4070");
+            correctionAdd("4070", "Nvidia GeForce RTX 4070");
+
+            // A graphics card (GPU)
+            correctionAdd("GeForce RTX 4090", "Nvidia GeForce RTX 4090");
+            correctionAdd("4090", "Nvidia GeForce RTX 4090");
+
+            // A graphics card (GPU)
+            correctionAdd("GeForce RTX 5090", "Nvidia GeForce RTX 5090");
+            correctionAdd("5090", "Nvidia GeForce RTX 5090");
+
+            // Related to graphics cards (GPU)
+            correctionAdd("AFMF", "AMD fluid motion frames");
+
+            // GPUs. Graphics cards.
+            correctionAdd("Gsync", "G-Sync");
+
+            // GPUs. AMD. Graphics cards. Requires a
+            // game-specific implementation, unlike
+            // FSR(?).
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.tomshardware.com/reference/amd-fsr-fidelityfx-super-resolution-explained>
+            //
+            correctionAdd("fsr", "FidelityFX Super Resolution");
+            correctionAdd("FSR", "FidelityFX Super Resolution");
+            correctionAdd("far", "FidelityFX Super Resolution"); // A true typo of the degenerated "fsr" (of "FSR")
+            correctionAdd("FAR", "FidelityFX Super Resolution"); // A true typo of "FSR"
+
+            correctionAdd("FMA", "fused multiply–add");
+
+            // CPU
+            correctionAdd("microarch", "microarchitecture");
+            correctionAdd("µarch", "microarchitecture"); // Note: "µ" is U+00B5 (µ MICRO SIGN (seaer)).
+            correctionAdd("uarch", "microarchitecture");
+
+            // CPU
+            correctionAdd("uarches", "microarchitectures");
+
+            correctionAdd("John Von Neumann", "John von Neumann");
+
+            // E.g., same address spaces for RAM, program memory, and EEPROM
+            // E.g., as opposed to a Harvard architecture
+            correctionAdd("von Neumann architecture", "von Neumann machine");
+            correctionAdd("Von Neumann machine", "von Neumann machine");
+            correctionAdd("Von Neuman machine", "von Neumann machine");
+            correctionAdd("von Neuman machine", "von Neumann machine");
+            correctionAdd("von Neumann", "von Neumann machine");
+            correctionAdd("van neumann", "von Neumann machine");
+            correctionAdd("Von Neumann", "von Neumann machine");
+
+            // E.g., as opposed to a von Neumann machine
+            correctionAdd("harvard architecture", "Harvard architecture");
+            correctionAdd("Harvard arch", "Harvard architecture");
+
+            // CPU
+            correctionAdd("many-core", "manycore processor");
+            correctionAdd("Many-core", "manycore processor");
+
+            // CPU
+            correctionAdd("multi-core", "multicore");
+            correctionAdd("multi core", "multicore");
+            correctionAdd("muticore", "multicore");
+
+            // CPU
+            correctionAdd("single core", "single-core");
+
+            correctionAdd("dual core", "dual-core");
+
+            // CPU
+            correctionAdd("Quad-Core", "quad-core");
+            correctionAdd("Quad Core", "quad-core");
+            correctionAdd("quad core", "quad-core");
+            correctionAdd("quadcore", "quad-core");
+
+            correctionAdd("8 core", "8-core");
+
+            correctionAdd("sort-of", "sort of");
+            correctionAdd("sorta", "sort of");
+
+            correctionAdd("sording", "sorting");
+
+            // A sorting algorithm
+            correctionAdd("quick sort", "quicksort");
+            correctionAdd("Quick-sort", "quicksort");
+            correctionAdd("Quick sort", "quicksort");
+            correctionAdd("Quick Sort", "quicksort");
+            correctionAdd("quick-sort", "quicksort");
+            correctionAdd("Quicksort", "quicksort");
+            correctionAdd("QuickSort", "quicksort");
+
+            // A sorting algorithm
+            correctionAdd("shell sort", "Shellsort");
+            correctionAdd("Shell Sort", "Shellsort");
+            correctionAdd("shellsort", "Shellsort");
+
+            // A sorting algorithm
+            correctionAdd("Introsort", "introsort");
+
+            // A sorting algorithm
+            correctionAdd("Heap Sort", "heapsort");
+            correctionAdd("Heapsort", "heapsort");
+
+            // A sorting algorithm
+            correctionAdd("radiks sort", "radix sort");
+            correctionAdd("Radix Sort", "radix sort");
+
+            // A sorting algorithm
+            correctionAdd("Bubble Sort", "bubble sort");
+            correctionAdd("Bubble sort", "bubble sort");
+            correctionAdd("bubblesort", "bubble sort");
+            correctionAdd("BubbleSort", "bubble sort");
+
+            // A sorting algorithm
+            correctionAdd("Bucket Sort", "bucket sort");
+
+            // A sorting algorithm
+            correctionAdd("Merge Sort", "merge sort");
+            correctionAdd("mergesort", "merge sort");
+
+            // A sorting algorithm
+            correctionAdd("Insertion Sort", "insertion sort");
+            correctionAdd("Insertion sort", "insertion sort");
+            correctionAdd("InsertionSort", "insertion sort");
+            correctionAdd("insert sort", "insertion sort");
+
+            // A sorting algorithm
+            correctionAdd("Selection sort", "selection sort");
+            correctionAdd("selection Sort", "selection sort");
+            correctionAdd("selectionSort", "selection sort");
+
+            // A sorting algorithm
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Tim_Peters_(software_engineer)>
+            //   <https://zahlman.github.io/posts/2024/12/20/todo-finish-todo-list/>
+            //   <https://tim-one.github.io/psf/>
+            //
+            correctionAdd("timsort", "Timsort");
+            correctionAdd("TimSort", "Timsort");
+
+            correctionAdd("Exchange Sort", "exchange sort");
+
+            correctionAdd("Grover's Algorithm", "Grover's algorithm");
+
+            correctionAdd("Baum-Welch Algorithm", "Baum–Welch algorithm");
+            correctionAdd("Baum-Welch algorithm", "Baum–Welch algorithm");
+
+            correctionAdd("Viola Jones algorithm", "Viola–Jones object detection framework");
+
+            correctionAdd("Schönhage-Strassen", "Schönhage–Strassen algorithm");
+
+            correctionAdd("Bellman-Ford", "Bellman–Ford algorithm");
+
+            correctionAdd("dijkstra's algorithm", "Dijkstra's algorithm");
+
+            correctionAdd("KMP algorithm", "Knuth–Morris–Pratt algorithm");
+
+            correctionAdd("divide and conquer algorithms", "divide-and-conquer algorithm");
+            correctionAdd("divide-and-conquer", "divide-and-conquer algorithm");
+            correctionAdd("divide & conquer", "divide-and-conquer algorithm");
+
+            correctionAdd("Schlemiel the Painter's algorithm", "Shlemiel the painter’s algorithm");
+            correctionAdd("Shlemiel the painter's algorithm", "Shlemiel the painter’s algorithm");
+            correctionAdd("Shlemiel the Painter's algorithm", "Shlemiel the painter’s algorithm");
+            correctionAdd("Shlemiel the painter algorithm", "Shlemiel the painter’s algorithm");
+            correctionAdd("Shlemiel the painter’s", "Shlemiel the painter’s algorithm");
+            correctionAdd("Schlemiel-the-Painter", "Shlemiel the painter’s algorithm");
+            correctionAdd("Schlemiel the painter", "Shlemiel the painter’s algorithm");
+            correctionAdd("Shlemiel the painter", "Shlemiel the painter’s algorithm");
+            correctionAdd("Scleimel the painter", "Shlemiel the painter’s algorithm");
+            correctionAdd("Shemiel algo", "Shlemiel the painter’s algorithm");
+            correctionAdd("Shimiel algo", "Shlemiel the painter’s algorithm");
+            correctionAdd("the painter", "Shlemiel the painter’s algorithm");
+            correctionAdd("The Painter", "Shlemiel the painter’s algorithm");
+            correctionAdd("Schlemiel", "Shlemiel the painter’s algorithm");
+            correctionAdd("Shlemiel", "Shlemiel the painter’s algorithm");
+            correctionAdd("scheimel", "Shlemiel the painter’s algorithm");
+            correctionAdd("Painter", "Shlemiel the painter’s algorithm");
+            correctionAdd("painter", "Shlemiel the painter’s algorithm");
+            correctionAdd("Shemiel", "Shlemiel the painter’s algorithm");
+            correctionAdd("Shimiel", "Shlemiel the painter’s algorithm");
+            correctionAdd("Sheimel", "Shlemiel the painter’s algorithm");
+
+            correctionAdd("Binary Search Algorithm", "binary search");
+            correctionAdd("binary search algorithm", "binary search");
+            correctionAdd("Binary Search", "binary search");
+
+            // Not to be confused with 'BFG Repo-Cleaner'
+            correctionAdd("breadth first search", "breadth-first search");
+            correctionAdd("breath first search", "breadth-first search");
+            correctionAdd("bfs", "breadth-first search");
+            correctionAdd("BFS", "breadth-first search");
+
+            correctionAdd("depth first search", "depth-first search");
+            correctionAdd("Depth First Search", "depth-first search");
+            correctionAdd("depth first seach", "depth-first search");
+            correctionAdd("dfs", "depth-first search");
+            correctionAdd("DFS", "depth-first search");
+
+            correctionAdd("wolf algorithm", "Wolff algorithm");
+            correctionAdd("Wolf algorithm", "Wolff algorithm");
+
+            correctionAdd("Simplex Algorithm", "simplex algorithm");
+
+            correctionAdd("Strassen's algorithms", "Strassen algorithm");
+            correctionAdd("Strassen's algorithm", "Strassen algorithm");
+            correctionAdd("Strassens Algorithms", "Strassen algorithm");
+            correctionAdd("Strassens algorithm", "Strassen algorithm");
+            correctionAdd("Strassens Algorithm", "Strassen algorithm");
+
+            correctionAdd("Evolutionary Algorithm", "evolutionary algorithm");
+            correctionAdd("evolutionary algorithms", "evolutionary algorithm");
+
+            correctionAdd("welford's algorithm", "Welford's algorithm");
+            correctionAdd("welford", "Welford's algorithm");
+
+            correctionAdd("SPFA_Queue", "Shortest Path Faster Algorithm");
+            correctionAdd("SPFA", "Shortest Path Faster Algorithm");
+
+            // The Linux thing
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Shell_(computing)>
+            //
+            correctionAdd("Shell", "shell");
+
+            correctionAdd("shell-script", "shell script");
+
+            correctionAdd("pound-bang", "shebang");
+            correctionAdd("hash-pling", "shebang");
+            correctionAdd("sha-bang", "shebang");
+            correctionAdd("hashbang", "shebang");
+            correctionAdd("she-bang", "shebang");
+            correctionAdd("she bang", "shebang");
+            correctionAdd("Shebang", "shebang");
+
+            // Linux
+            //
+            // Alternative URLs:
+            //
+            //   <https://stackoverflow.com/questions/9679776/how-do-i-clear-delete-the-current-line-in-terminal/16687377#16687377>
+            //   <https://www.ice2o.com/bash_quick_ref.html>
+            //
+            //     Includes:
+            //
+            //       Ctrl + U to clear all to the left.
+            //
+            //       Ctrl + K to clear all to the right.
+            //
+            correctionAdd("Bourne Again Shell", "Bash (executable `bash`)");
+            correctionAdd("Bourne-Again", "Bash (executable `bash`)");
+            correctionAdd("B.A.S.H", "Bash (executable `bash`)"); // But it should really be ""B.A.S.H." (we currently can't accept something that ends in punctuation)
+            correctionAdd("bBsh", "Bash (executable `bash`)");
+            correctionAdd("BASH", "Bash (executable `bash`)");
+            correctionAdd("bash", "Bash (executable `bash`)");
+            correctionAdd("Bash", "Bash (executable `bash`)");
+            correctionAdd("BaSH", "Bash (executable `bash`)");
+
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Shell_builtin>
+            //
+            correctionAdd("builtins", "Bash builtin commands");
+
+            // Linux / Unix
+            correctionAdd("ps1", "PS1");
+
+            correctionAdd("bash man page", "`man bash`");
+            correctionAdd("Bash man page", "`man bash`");
+            correctionAdd("Bash manpage", "`man bash`");
+            correctionAdd("bash manpage", "`man bash`");
+            correctionAdd("man bash", "`man bash`");
+            correctionAdd("man Bash", "`man bash`");
+
+            // Linux
+            correctionAdd("$HOME/.bash_profile", "$HOME/.bash_profile file");
+            correctionAdd(".bash_profile file", "$HOME/.bash_profile file");
+            correctionAdd("~/.bash_profile", "$HOME/.bash_profile file");
+            correctionAdd(".bash_profile", "$HOME/.bash_profile file");
+            correctionAdd("bash profile", "$HOME/.bash_profile file");
+            correctionAdd("bash_profile", "$HOME/.bash_profile file");
+            correctionAdd(".bashprofile", "$HOME/.bash_profile file");
+            correctionAdd("bashprofile", "$HOME/.bash_profile file");
+
+            // Bash. Linux.
+            //
+            // Related file: /etc/bash.bashrc
+            //
+            // Alternative URL: <https://bash.cyberciti.biz/guide/~/.bashrc>
+            //
+            correctionAdd("~/.bashrc file", "$HOME/.bashrc file");
+            correctionAdd("$HOME/.bashrc", "$HOME/.bashrc file");
+            correctionAdd("shell rc file", "$HOME/.bashrc file");
+            correctionAdd("/home/.bashrc", "$HOME/.bashrc file");
+            correctionAdd("$home/.bashrc", "$HOME/.bashrc file");
+            correctionAdd(".bashrc file", "$HOME/.bashrc file");
+            correctionAdd("~/.bashrec", "$HOME/.bashrc file");
+            correctionAdd("~/.bashrc", "$HOME/.bashrc file");
+            correctionAdd(".bash_rc", "$HOME/.bashrc file");
+            correctionAdd(".bashrcs", "$HOME/.bashrc file");
+            correctionAdd("/.bashrc", "$HOME/.bashrc file");
+            correctionAdd(".bashrec", "$HOME/.bashrc file");
+            correctionAdd(".bashrc", "$HOME/.bashrc file");
+            correctionAdd("bash_rc", "$HOME/.bashrc file");
+            correctionAdd(".bachrc", "$HOME/.bashrc file");
+            correctionAdd("bashrec", "$HOME/.bashrc file");
+            correctionAdd("bashrc", "$HOME/.bashrc file");
+
+            // Bash. Linux.
+            correctionAdd("$HOME/.profile", "$HOME/.profile file");
+            correctionAdd(".profile file", "$HOME/.profile file");
+            correctionAdd("bash.profile", "$HOME/.profile file");
+            correctionAdd("~/.profile", "$HOME/.profile file");
+            correctionAdd(".profile", "$HOME/.profile file");
+            correctionAdd("profile", "$HOME/.profile file");
+
+            // Bash. Linux.
+            correctionAdd("$HOME/.bash_aliases", "$HOME/.bash_aliases file");
+            correctionAdd("~/.bash_aliases", "$HOME/.bash_aliases file");
+            correctionAdd(".bash_aliases", "$HOME/.bash_aliases file");
+
+            // Bash. Linux.
+            correctionAdd("~/.bash_history", "$HOME/.bash_history file");
+            correctionAdd(".bash_history", "$HOME/.bash_history file");
+
+            // Bash. Linux.
+            //
+            // Near "Toggle the values of variables controlling optional shell behavior"
+            //
+            correctionAdd("SHOPT", "shopt");
+
+            // A Linux/Unix shell
+            //
+            // But 'sh' on Ubuntu is Dash... (<https://askubuntu.com/questions/141928/what-is-the-difference-between-bin-sh-and-bin-bash#comment229465_141932>)
+            //
+            correctionAdd("bourne shell", "Bourne shell (executable `sh`)");
+            correctionAdd("Bourne shell", "Bourne shell (executable `sh`)");
+            correctionAdd("bourn shell", "Bourne shell (executable `sh`)");
+            correctionAdd("bourne", "Bourne shell (executable `sh`)");
+            correctionAdd("sh", "Bourne shell (executable `sh`)"); // The name of the executable
+
+            // A Linux/Unix shell
+            correctionAdd("ZSH Shell", "Z shell (executable `zsh`)");
+            correctionAdd("zsh shell", "Z shell (executable `zsh`)");
+            correctionAdd("Z-shell", "Z shell (executable `zsh`)");
+            correctionAdd("Z Shell", "Z shell (executable `zsh`)");
+            correctionAdd("z shell", "Z shell (executable `zsh`)");
+            correctionAdd("Z shell", "Z shell (executable `zsh`)");
+            correctionAdd("ZShell", "Z shell (executable `zsh`)");
+            correctionAdd("Zshell", "Z shell (executable `zsh`)");
+            correctionAdd("zshell", "Z shell (executable `zsh`)");
+            correctionAdd("Zsh", "Z shell (executable `zsh`)");
+            correctionAdd("zsh", "Z shell (executable `zsh`)");
+            correctionAdd("ZSH", "Z shell (executable `zsh`)");
+
+            correctionAdd("Oh My Z shell", "Oh My Zsh");
+            correctionAdd("oh my Z shell", "Oh My Zsh");
+            correctionAdd("Oh My zshell", "Oh My Zsh");
+            correctionAdd("oh my zshell", "Oh My Zsh");
+            correctionAdd("oh-my-zsh", "Oh My Zsh");
+
+            // Bash. Linux.
+            correctionAdd("$HOME/.zshrc", "$HOME/.zshrc file");
+            correctionAdd("~/.zshrc", "$HOME/.zshrc file");
+            correctionAdd("~.zshrc", "$HOME/.zshrc file"); // Missing slash
+            correctionAdd(".zshrc", "$HOME/.zshrc file");
+            correctionAdd("zshrc", "$HOME/.zshrc file");
+
+            // A Linux/Unix shell
+            correctionAdd("nushell", "Nushell");
+            correctionAdd("nu", "Nushell");
+            correctionAdd("Nu", "Nushell");
+
+            // Linux
+            //
+            // A toolkit for building a GUI desktop
+            // shell, based on Qt Quick.
+            //
+            // Linux
+            //
+            // Alternative URLs:
+            //
+            //   <https://git.outfoxxed.me/quickshell/quickshell>
+            //   <https://quickshell.outfoxxed.me/>
+            //   <https://github.com/topics/quickshell>
+            //   <https://github.com/quickshell-mirror/quickshell/blob/master/README.md>
+            //   <https://deepwiki.com/quickshell-mirror/quickshell>
+            //
+            correctionAdd("quickshell", "Quickshell");
+
+            // A debugger for Bash. Plugin for Eclipse.
+            // Only works with ShellEd.
+            correctionAdd("basheclipse", "BashEclipse");
+            correctionAdd("Basheclipse", "BashEclipse");
+
+            // A Linux/Unix shell
+            //
+            // The AIX variant (identical?):
+            //
+            //   <https://www.ibm.com/docs/en/aix/7.2?topic=k-ksh-command>
+            //
+            // Alternative URLs:
+            //
+            //   <https://linux.die.net/man/1/ksh93>
+            //     ksh, rksh, pfksh - KornShell
+            //
+            //   <http://www.kornshell.com/doc/ksh93.html>
+            //
+            correctionAdd("korn shell", "KornShell (executable `ksh`)");
+            correctionAdd("Korn shell", "KornShell (executable `ksh`)");
+            correctionAdd("Korn Shell", "KornShell (executable `ksh`)");
+            correctionAdd("Kornshell", "KornShell (executable `ksh`)");
+            correctionAdd("KornShell", "KornShell (executable `ksh`)");
+            correctionAdd("ksh93", "KornShell (executable `ksh`)");
+            correctionAdd("ksh", "KornShell (executable `ksh`)");
+            correctionAdd("KSH", "KornShell (executable `ksh`)");
+
+            // A Linux/Unix shell. Related to KornShell.
+            correctionAdd("MirBSD Korn Shell", "MirBSD KornShell (executable `mksh`)");
+            correctionAdd("MirBSD KornShell", "MirBSD KornShell (executable `mksh`)");
+            correctionAdd("MKSH", "MirBSD KornShell (executable `mksh`)");
+            correctionAdd("mksh", "MirBSD KornShell (executable `mksh`)");
+
+            // A Linux/Unix shell
+            correctionAdd("c-shell-(executable-`csh`)", "C shell (executable `csh`)");
+            correctionAdd("C shell", "C shell (executable `csh`)");
+            correctionAdd("CShell", "C shell (executable `csh`)");
+            correctionAdd("csh", "C shell (executable `csh`)");
+
+            // A Linux/Unix shell
+            correctionAdd("Hamilton shell", "Hamilton C shell");
+
+            // A Linux/Unix shell
+            correctionAdd("Almquist shell", "ash");
+            correctionAdd("Almquist", "ash");
+            correctionAdd("Ash", "ash");
+
+            // A Linux/Unix shell
+            correctionAdd("Fish Shell", "Fish (executable `fish`)");
+            correctionAdd("Fish shell", "Fish (executable `fish`)");
+            correctionAdd("fish shell", "Fish (executable `fish`)");
+            correctionAdd("fish-shell", "Fish (executable `fish`)");
+            correctionAdd("FISH", "Fish (executable `fish`)");
+            correctionAdd("fish", "Fish (executable `fish`)");
+            correctionAdd("Fish", "Fish (executable `fish`)");
+
+            // Bash. Linux.
+            correctionAdd("source in Bash", "sourcing");
+            correctionAdd("source in bash", "sourcing");
+            correctionAdd("Bash source", "sourcing");
+            correctionAdd("bash source", "sourcing");
+            correctionAdd("dot source", "sourcing");
+            correctionAdd("Dot Source", "sourcing");
+            correctionAdd("Sourcing", "sourcing");
+
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Child_process#Children_created_by_fork>
+            //
+            correctionAdd("sub shell", "subshell");
+            correctionAdd("sub-shell", "subshell");
+
+            // Note: "shell", ***not*** "spell"...
+            //
+            correctionAdd("shellcheck.net", "ShellCheck");
+            correctionAdd("spellcheck.net", "ShellCheck");
+            correctionAdd("shellcheck", "ShellCheck");
+
+            correctionAdd("vulnerabilty", "vulnerability");
+            correctionAdd("vunerability", "vulnerability");
+            correctionAdd("vuln", "vulnerability");
+
+            correctionAdd("vulnarabilities", "vulnerabilities");
+            correctionAdd("vulnerablities", "vulnerabilities");
+            correctionAdd("vulns", "vulnerabilities");
+            correctionAdd("Vulns", "vulnerabilities");
+
+            correctionAdd("vonuravle", "vulnerable");
+
+            correctionAdd("common vulnerabilities and exposures", "Common Vulnerabilities and Exposures");
+            correctionAdd("CVE", "Common Vulnerabilities and Exposures");
+
+            // A computer hardware security vulnerability
+            correctionAdd("meltdown", "Meltdown");
+
+            // A computer security vulnerability
+            correctionAdd("downfall", "Downfall");
+
+            // A computer hardware security vulnerability
+            correctionAdd("spectre", "Spectre");
+
+            // A security vulnerability (Bash)
+            correctionAdd("Shell Shock", "Shellshock");
+            correctionAdd("shell shock", "Shellshock");
+            correctionAdd("shellshock", "Shellshock");
+            correctionAdd("ShellShock", "Shellshock");
+            correctionAdd("shelllock", "Shellshock");
+            correctionAdd("Bashdoor", "Shellshock");
+
+            correctionAdd("minix", "MINIX");
+
+            correctionAdd("penguin world", "Linux");
+            correctionAdd("penguins", "Linux");
+            correctionAdd("LinuxOS", "Linux");
+            correctionAdd("linuxOS", "Linux");
+            correctionAdd("penguin", "Linux");
+            correctionAdd("Pinguin", "Linux"); // Also a misspelling of penguin
+            correctionAdd("pinguin", "Linux"); // Also a misspelling of penguin
+            correctionAdd("Loonix", "Linux");
+            correctionAdd("linuxx", "Linux");
+            correctionAdd("Loonux", "Linux");
+            correctionAdd("loonux", "Linux");
+            correctionAdd("luunix", "Linux");
+            correctionAdd("linux", "Linux");
+            correctionAdd("LINUX", "Linux");
+            correctionAdd("Linex", "Linux");
+            correctionAdd("Linix", "Linux");
+            correctionAdd("linix", "Linux");
+            correctionAdd("LInux", "Linux");
+            correctionAdd("Lunux", "Linux");
+            correctionAdd("liunx", "Linux");
+            correctionAdd("Limux", "Linux");
+            correctionAdd("limux", "Linux");
+            correctionAdd("Linx", "Linux");
+            correctionAdd("Lnx", "Linux");
+            correctionAdd("lin", "Linux");
+            correctionAdd("Lin", "Linux");
+
+            // Alternative URLs:
+            //
+            //   <https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git>
+            //
+            correctionAdd("Linux Kernel", "Linux kernel");
+            correctionAdd("linux kernel", "Linux kernel");
+            correctionAdd("linux kernal", "Linux kernel");
+            correctionAdd("Linux kernal", "Linux kernel");
+            correctionAdd("Linux Kernal", "Linux kernel");
+            correctionAdd("kernel", "Linux kernel");
+
+            // Linux
+            correctionAdd("syscall_table", "system call table");
+
+            // Linux. A tool for getting system information
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.redhat.com/en/blog/learn-more-inxi>
+            //
+            correctionAdd("INXI", "inxi");
+
+            // Linux. Hardware information
+            //
+            // Alternative URLs:
+            //
+            //   <https://manpages.ubuntu.com/manpages/bionic/man7/hwdb.7.html>
+            //   <https://www.man7.org/linux/man-pages/man7/hwdb.7.html>
+            //
+            //   <https://manpages.ubuntu.com/manpages/focal/en/man8/systemd-hwdb.8.html>
+            //   <https://man.archlinux.org/man/systemd-hwdb.8.en>
+            //
+            correctionAdd("HWDB", "hwdb");
+
+            // An organisation (non-profit), notorious for not actually
+            // using Linux and open source internally, but instead
+            // iPhones, MacBooks, proprietary commercial software,
+            // Macs, macOS, etc. See for example:
+            //
+            //   <https://www.youtube.com/watch?v=Uun2YhnUNGc&t=8m16s>
+            //
+            //     It isn't the only place it has been noticed. For
+            //     example, YouTube channel "The Linux Experiment"
+            //     has also mentioned it (a reference needs to
+            //     be found for it).
+            //
+            correctionAdd("linux foundation", "Linux Foundation");
+
+            // Linux. A laptop power saving package
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.thinkwiki.org/wiki/Laptop-mode-tools>
+            //
+            correctionAdd("laptop mode tools", "Laptop Mode Tools");
+            correctionAdd("laptop-mode-tools", "Laptop Mode Tools");
+            correctionAdd("lmt", "Laptop Mode Tools");
+            correctionAdd("LMT", "Laptop Mode Tools");
+
+            // A website
+            correctionAdd("Kernelnewbies", "KernelNewbies");
+
+            correctionAdd("gnu/linux", "GNU/Linux");
+            correctionAdd("GNU Linux", "GNU/Linux");
+            correctionAdd("GNU/linux", "GNU/Linux");
+            correctionAdd("Gnu/Linux", "GNU/Linux");
+
+            // Linux
+            correctionAdd("grub", "GRUB");
+            correctionAdd("Grub", "GRUB");
+
+            // Linux / Unix command
+            correctionAdd("WC", "wc");
+
+            // Linux command
+            correctionAdd("GROUPADD", "groupadd");
+
+            // Linux command
+            correctionAdd("HDPARM", "hdparm");
+
+            // The Linux command
+            //
+            // Alternative URLs:
+            //
+            //   <https://linux.die.net/man/1/kill>
+            //     The command line command
+            //
+            //   <https://linux.die.net/man/2/kill>
+            //     The C interface
+            //
+            correctionAdd("man 1 kill", "kill");
+            correctionAdd("man 2 kill", "kill");
+            correctionAdd("man kill", "kill");
+            correctionAdd("KILL", "kill");
+
+            // Linux / Unix
+            correctionAdd("PKILL", "pkill");
+
+            // Linux / Unix
+            correctionAdd("MORE", "more");
+
+            // Linux command
+            correctionAdd("RM", "rm");
+
+            // Linux / Unix command
+            //
+            // In Perl: <https://perldoc.perl.org/functions/tr>
+            //
+            correctionAdd("TR", "tr");
+
+            correctionAdd("sort (unix)", "sort (Unix)");
+
+            // Linux
+            correctionAdd("SUDO", "sudo");
+            correctionAdd("sudu", "sudo");
+            correctionAdd("su", "sudo");
+
+            correctionAdd("sudoers", "/etc/sudoers");
+
+            // Linux
+            correctionAdd("VISUDO", "visudo");
+
+            // Unix
+            correctionAdd("userspace", "user space");
+            correctionAdd("user-land", "user space");
+            correctionAdd("userland", "user space"); // The official spelling of "userland"
+            correctionAdd("Userland", "user space");
+
+            // Linux. Kernel modules
+            correctionAdd("MODPROBE", "modprobe");
+
+            // Linux. Kernel modules
+            correctionAdd("INSMOD", "insmod");
+
+            // Linux. Kernel modules
+            correctionAdd("MODINFO", "modinfo");
+
+            // Linux. Kernel modules
+            correctionAdd("RMMOD", "rmmod");
+
+            // A Linux kernel module
+            correctionAdd("PCSPKR", "pcspkr");
+
+            // Linux command. Related to systemd.
+            correctionAdd("SYSTEMCTL", "systemctl");
+
+            // A system monitoring tool on Linux
+            correctionAdd("VMSTAT", "vmstat"); // The corresponding 'man' page is <https://linux.die.net/man/8/vmstat>.
+
+            // Related to Linux (transport-layer load balancing)
+            correctionAdd("ipvs", "IPVS");
+
+            correctionAdd("NOHUP", "nohup"); // Linux
+
+            // The Linux thing (the common noun is in an alternative word set)
+            //
+            // Alternative URLs:
+            //
+            //   <https://linux.die.net/man/1/screen>
+            //
+            correctionAdd("GNU Screen", "Screen");
+            correctionAdd("gnu screen", "Screen");
+            correctionAdd("GNU screen", "Screen");
+            correctionAdd("GNU/screen", "Screen");
+            correctionAdd("gnu-screen", "Screen");
+            correctionAdd("Gnu Screen", "Screen");
+            correctionAdd("gnu Screen", "Screen");
+            correctionAdd("GnuScreen", "Screen");
+            correctionAdd("gnusceen", "Screen");
+            correctionAdd("SCREEN", "Screen");
+            correctionAdd("screen", "Screen");
+            correctionAdd("sceen", "Screen");
+
+            // Linux
+            correctionAdd("busy box", "BusyBox");
+            correctionAdd("Busybox", "BusyBox");
+            correctionAdd("busybox", "BusyBox");
+
+            correctionAdd("calabash", "Calabash");
+
+            correctionAdd("Linux journal", "Linux Journal");
+
+            // A software tool
+            //
+            // Both Linux and Windows
+            //
+            // Note: "DOS" is in an alternative word set
+            correctionAdd("DOS2UNIX", "dos2unix");
+            correctionAdd("Dos2unix", "dos2unix");
+
+            // A software tool
+            //
+            // Both Linux and Windows
+            correctionAdd("UNIX2DOS", "unix2dos");
+
+            // Linux / Unix
+            correctionAdd("TROFF", "troff");
+
+            // Linux, GUI.
+            //
+            // For customizable status bars on Linux
+            correctionAdd("polybar", "Polybar");
+
+            // Linux, GUI. A panel for Xorg.
+            correctionAdd("Tint2", "tint2");
+
+            // Linux, GUI. X Window System.
+            correctionAdd("XDMCP", "X Display Manager Control Protocol");
+
+            // A file manager. Linux
+            correctionAdd("thunar", "Thunar");
+            correctionAdd("thuna", "Thunar");
+
+            // With ls cat, ls, rm, etc.
+            correctionAdd("Core Utilities", "GNU Core Utilities");
+            correctionAdd("GNU coreutils", "GNU Core Utilities");
+            correctionAdd("GNU Coreutils", "GNU Core Utilities");
+            correctionAdd("coreutils", "GNU Core Utilities");
+            correctionAdd("GNU utils", "GNU Core Utilities");
+
+            correctionAdd("Linker", "linker");
+
+            correctionAdd("linker-invocation", "linker invocation");
+
+            // For example, for embedded systems, e.g., for
+            // firmware for mechanical keyboards (like QMK).
+            //
+            // Alternative URLs:
+            //
+            //   <https://thomasbaart.nl/2018/12/01/reducing-firmware-size-in-qmk/#link-time-optimization-and-disabling-core-functionality>
+            //     Link-time optimization and disabling core functionality
+            //
+            //   <https://github.com/qmk/qmk_firmware/issues/3224>
+            //     Running out of space, anything I can delete to make more room? #3224
+            //
+            correctionAdd("Link Time Optimization", "link-time optimization");
+            correctionAdd("link time optimization", "link-time optimization");
+            correctionAdd("LTO", "link-time optimization");
+            correctionAdd("lto", "link-time optimization");
+
+            correctionAdd("ld.so", "GNU linker");
+            correctionAdd("ld", "GNU linker");
+
+            // Linux
+            correctionAdd("autotools", "GNU Autotools");
+            correctionAdd("Autotools", "GNU Autotools");
+
+            // Linux
+            correctionAdd("GNU Binutils", "GNU Binary Utilities");
+            correctionAdd("binutils", "GNU Binary Utilities"); // Official shorthand
+
+            // A Linux text editor. Also for Windows.
+            //
+            // Disguised as "Text Editor" on Ubuntu / GNOME.
+            //
+            correctionAdd("GEdit", "gedit");
+            correctionAdd("Gedit", "gedit");
+            correctionAdd("gEdit", "gedit");
+
+            // A Linux text editor
+            correctionAdd("Kwrite", "KWrite");
+
+            // A text editor
+            //
+            // Alternative URLs:
+            //
+            //   <https://linuxhaxor.net/code/change-themes-geany-text-editor-raspberry-pi.html>
+            //     Is built on GTK
+            //
+            //   <https://github.com/geany/geany>
+            //     GitHub. E.g.,
+            //
+            //     <https://github.com/geany/geany/issues/>
+            //       Geany 'Issues', e.g.,
+            //
+            //       <https://github.com/geany/geany/issues/1387#issuecomment-287537022>
+            //         Underscore doesn't appear #1387
+            //
+            //   <https://wiki.geany.org/snippets/start>
+            //     Geany snippets
+            //
+            //     <https://github.com/jhradilek/geany-snippets/blob/master/docbook_snippets.conf>
+            //       An example with 450 snippets
+            //
+            correctionAdd("Geaney", "Geany");
+            correctionAdd("geany", "Geany");
+            correctionAdd("Geney", "Geany");
+            correctionAdd("Genea", "Geany");
+            correctionAdd("geant", "Geany");
+            correctionAdd("Genay", "Geany");
+            correctionAdd("GEany", "Geany");
+
+            // Text templates for Geany
+            correctionAdd("snippets", "Geany snippets");
+
+            // A text editor
+            correctionAdd("KATE", "Kate");
+            correctionAdd("kate", "Kate");
+
+            // A text editor
+            //
+            // DHH helped to create it...:
+            //
+            //   <https://www.youtube.com/watch?v=S_RqZG6YR5M&t=5m22s>
+            //
+            correctionAdd("Text mate", "TextMate");
+            correctionAdd("Textmate", "TextMate");
+            correctionAdd("textmate", "TextMate");
+            correctionAdd("texmate", "TextMate");
+            correctionAdd("Texmate", "TextMate");
+            correctionAdd("TM", "TextMate");
+
+            // A text editor
+            correctionAdd("helix", "Helix");
+
+            // A text editor. Linux
+            correctionAdd("kakoune", "Kakoune");
+
+            // Linux. A text editor. Not to be confused with the
+            // key stroke recording program "xev"
+            //
+            correctionAdd("xed", "Xed");
+
+            // A text editor, associated with Xfce
+            correctionAdd("mousepad", "Mousepad");
+
+            // A text editor. Is based on Qt, so it
+            // may or may not be cross-platform
+            //
+            // Alternative URLs:
+            //
+            //   <https://github.com/notepadqq/notepadqq>
+            //
+            correctionAdd("notepadqq", "Notepadqq");
+
+            // Linux. And PowerShell and others?
+            correctionAdd("POPD", "popd");
+
+            // Linux. And PowerShell and others?
+            correctionAdd("PUSHD", "pushd");
+
+            // Linux / Unix
+            correctionAdd("ROUTE", "route");
+
+            // Linux
+            correctionAdd("DMESG", "dmesg");
+            correctionAdd("dmsg", "dmesg");
+
+            // Linux / Unix
+            correctionAdd("TMUX", "tmux");
+            correctionAdd("Tmux", "tmux");
+
+            // Linux / Unix. NetCDF.
+            // Not to be confused with HFS (Mac/Apple).
+            correctionAdd("hdf5", "HDF5");
+
+            // Linux
+            correctionAdd("Ioctl", "ioctl");
+
+            // Linux
+            correctionAdd("dlsym", "dlsym()");
+
+            // Linux
+            //
+            // Alternative URLs:
+            //
+            //   <https://man.archlinux.org/man/shmget.2.en#EINVAL%7E2>
+            //
+            correctionAdd("shmget(1)", "shmget(2)");
+            correctionAdd("shmget", "shmget(2)");
+
+            // Alternative URLs:
+            //
+            //   <https://linux.die.net/man/1/crontab>
+            //
+            correctionAdd("CRONTAB", "crontab");
+            correctionAdd("crontad", "crontab");
+
+            // Related to netcat (Linux / Unix)
+            correctionAdd("SOCAT", "socat");
+
+            correctionAdd("Job Control", "job control");
+
+            // Linux / Unix. Or in a GUI context (undo).
+            correctionAdd("Ctrl + Z", "<kbd>Ctrl</kbd> + <kbd>Z</kbd>");
+            correctionAdd("undo", "<kbd>Ctrl</kbd> + <kbd>Z</kbd>");
+
+            // Linux / Unix
+            //
+            // Signal number: ??
+            //
+            correctionAdd("SIGRTMIN", "SIG_RTMIN");
+
+            // Linux commandline. DMI/SMBIOS table decoder
+            // (for System Management BIOS and
+            // Desktop Management Interface, respectively)
+            //
+            correctionAdd("DMIDECODE", "dmidecode");
+
+            // Mostly Linux, but also Windows (WMI)
+            correctionAdd("dmi", "Desktop Management Interface");
+            correctionAdd("DMI", "Desktop Management Interface");
+
+            // Mostly Linux, but also Windows (WMI)
+            correctionAdd("SMBIOS", "System Management BIOS");
+
+            // Linux.
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/TLDR_Pages>
+            //   <https://tldr.sh/>
+            //     Has an online version, but it requires JavaScript:
+            //       <https://tldr.inbrowser.app/pages/common/seq>
+            //
+            //   <https://cht.sh>
+            //     Online. With examples.
+            //
+            //   <https://linux.die.net/man/1/man>
+            //     An online version of 'man man'
+            //
+            //   <https://linux.die.net/man/1/intro>
+            //     An online version of 'man -s 1 intro' (introduction to user commands)
+            //
+            //   <https://linux.die.net/man/2/intro>
+            //     An online version of 'man -s 2 intro' (introduction to system calls)
+            //
+            //   <https://en.wikipedia.org/wiki/Man_page#Manual_sections>
+            //     A description of the sections, 1-8.
+            //
+            //   <https://superuser.com/questions/297702>
+            //     What do the parentheses and number after a Unix command or C function mean?
+            //
+            //   <https://unix.stackexchange.com/questions/3586>
+            //     What do the numbers in a man page mean?
+            //
+            //   <https://stackoverflow.com/questions/62936>
+            //     What does the number in parentheses shown after
+            //     Unix command names in man pages mean?
+            //
+            correctionAdd("manual page", "man page");
+            correctionAdd("Man page", "man page");
+            correctionAdd("man-page", "man page");
+            correctionAdd("MAN page", "man page");
+            correctionAdd("manpage", "man page");
+            correctionAdd("Manpage", "man page");
+            correctionAdd("man", "man page");
+
+            correctionAdd("MAN pages", "man pages");
+            correctionAdd("info page", "man pages"); // For the cross-reference
+            correctionAdd("man-pages", "man pages");
+            correctionAdd("manpages", "man pages");
+
+            // The Linux command-line tool
+            //
+            // Alternative URL:
+            //
+            //   <https://en.wikipedia.org/wiki/Hex_dump#Samples>
+            //
+            correctionAdd("HEXDUMP", "hexdump");
+
+            // Linux
+            correctionAdd("LN", "ln");
+
+            // Linux
+            correctionAdd("Glade", "Glade Interface Designer");
+
+            // Linux
+            correctionAdd("TASKSET", "taskset");
+
+            // A Linux system call
+            correctionAdd("Write(2)", "write(2)");
+
+            // A Linux system call
+            correctionAdd("shmat", "shmat()");
+
+            correctionAdd("out-of-memory", "OOM");
+            correctionAdd("oom", "OOM");
+
+            // Related to operating systems, incl. Linux and Windows
+            correctionAdd("kernel same-page merging", "KSM");
+            correctionAdd("kernel shared memory", "KSM");
+            correctionAdd("memory deduplication", "KSM");
+            correctionAdd("memory merging", "KSM");
+            correctionAdd("deduplication", "KSM");
+
+            // Linux
+            correctionAdd("flexible IO tester", "FIO");
+            correctionAdd("fio", "FIO");
+
+            // Linux / Unix
+            correctionAdd("Portable Operating System Interface", "POSIX");
+            correctionAdd("posix", "POSIX");
+            correctionAdd("Posix", "POSIX");
+
+            correctionAdd("POSIX sockets", "Berkeley sockets");
+            correctionAdd("BSD sockets", "Berkeley sockets");
+            correctionAdd("BSD socket", "Berkeley sockets");
+
+            // C / Linux / Unix. From header file "unistd.h" in
+            // the C POSIX library:
+            //
+            //   <https://en.wikipedia.org/wiki/Unistd.h>
+            //   <https://en.wikipedia.org/wiki/C_POSIX_library>
+            //
+            // Alternative URL:
+            //
+            //   <https://stackoverflow.com/tags/fork/info>
+            //
+            correctionAdd("fork", "fork()");
+
+            // Linux / Unix
+            correctionAdd("poll", "poll()");
+
+            // C / Linux / Unix. From header file "unistd.h" in
+            // the C POSIX library:
+            //
+            //   <https://en.wikipedia.org/wiki/Unistd.h>
+            //   <https://en.wikipedia.org/wiki/C_POSIX_library>
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.man7.org/linux/man-pages/man2/pipe.2.html>
+            //   <https://stackoverflow.com/tags/pipe/info>
+            //
+            correctionAdd("pipe", "pipe()");
+
+            correctionAdd("domain socket", "Unix domain socket");
+            correctionAdd("UDS", "Unix domain socket");
+
+            // Linux / Unix on Windows
+            correctionAdd("cygwin", "Cygwin");
+            correctionAdd("CygWin", "Cygwin");
+            correctionAdd("Cyqwin", "Cygwin");
+            correctionAdd("cgywin", "Cygwin");
+            correctionAdd("Cggwin", "Cygwin");
+            correctionAdd("CYGWIN", "Cygwin");
+            correctionAdd("Cywin", "Cygwin");
+
+            // Claimed to flavour of Cygwin, but is that true? Or
+            // is it an X terminal for Windows?
+            //
+            // Alternative URLs:
+            //
+            //   <https://doc.informatik.uni-goettingen.de/wiki/index.php/MobaXterm>
+            //     Now broken...
+            //   <https://bioinformatics.ibers.aber.ac.uk/wiki/index.php/MobaXterm>
+            //   <https://mobaxterm.mobatek.net/>
+            //
+            correctionAdd("mobaxterm", "MobaXterm");
+            correctionAdd("Mobaxterm", "MobaXterm");
+
+            // Linux / Unix on Windows
+            correctionAdd("MINGW32", "MinGW");
+            correctionAdd("mingw32", "MinGW");
+            correctionAdd("MinGW32", "MinGW");
+            correctionAdd("MingGW", "MinGW");
+            correctionAdd("miniGW", "MinGW");
+            correctionAdd("mingw", "MinGW");
+            correctionAdd("minGW", "MinGW");
+            correctionAdd("MingW", "MinGW");
+            correctionAdd("Mingw", "MinGW");
+            correctionAdd("MINGW", "MinGW");
+            correctionAdd("MInGW", "MinGW");
+            correctionAdd("MinGw", "MinGW");
+            correctionAdd("Migw", "MinGW");
+            correctionAdd("MiGw", "MinGW");
+            correctionAdd("Ming", "MinGW");
+
+            // Linux / Unix on Windows
+            correctionAdd("MinGW-w64", "Mingw-w64");
+            correctionAdd("MinGW 64x", "Mingw-w64");
+            correctionAdd("mingw-w64", "Mingw-w64");
+            correctionAdd("MinGW 64", "Mingw-w64");
+            correctionAdd("mingw 64", "Mingw-w64");
+            correctionAdd("mingw64", "Mingw-w64");
+            correctionAdd("MingW64", "Mingw-w64");
+            correctionAdd("Mingw64", "Mingw-w64");
+            correctionAdd("MINGW64", "Mingw-w64");
+
+            correctionAdd("mysys", "MSYS");
+            correctionAdd("MSys", "MSYS");
+            correctionAdd("msys", "MSYS");
+            correctionAdd("Msys", "MSYS");
+            correctionAdd("MYSY", "MSYS");
+
+            correctionAdd("msys2", "MSYS2");
+            correctionAdd("Msys2", "MSYS2");
+
+            correctionAdd("GNUWin", "GnuWin");
+            correctionAdd("GNUwin", "GnuWin");
+
+            // Some Unix-like thing on Windows
+            correctionAdd("unxutils", "UnxUtils");
+
+            // Some Unix-like thing on Windows
+            correctionAdd("mksnt", "MKS Toolkit"); // Presumably...
+
+            // Linux
+            correctionAdd("Lilo", "LILO");
+            correctionAdd("lilo", "LILO");
+
+            // Linux
+            correctionAdd("TAR", "tar");
+
+            // Linux
+            correctionAdd("tar ball", "tarball");
+
+            // Linux
+            correctionAdd("IPtables", "iptables");
+            correctionAdd("IPTables", "iptables");
+            correctionAdd("iptable", "iptables");
+
+            // Linux
+            correctionAdd("nautilus", "Nautilus");
+
+            // Linux
+            correctionAdd("bspwm", "Bspwm");
+            correctionAdd("BSPWM", "Bspwm");
+            correctionAdd("bspWM", "Bspwm");
+
+            // Linux
+            correctionAdd("DPKG", "dpkg");
+
+            correctionAdd("CHOWN", "chown"); // Linux
+
+            // Linux
+            correctionAdd("Firewalld", "firewalld");
+
+            correctionAdd("truncate(1)", "truncate"); // Linux
+
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Hidden_file_and_hidden_directory#Unix_and_Unix-like_environments>
+            //
+            correctionAdd("dot files", "dotfiles");
+            correctionAdd("dot file", "dotfiles");
+            correctionAdd("dotfile", "dotfiles");
+
+            // Linux. Managing configuration files ('dotfiles')
+            correctionAdd("CHEZMOI", "chezmoi");
+
+            // Linux
+            //
+            // A framework for building GUIs. Uses QML.
+            correctionAdd("QtQuick", "Qt Quick");
+
+            // An IT tool for configuration of operating systems
+            correctionAdd("puppet", "Puppet");
+
+            // Unix/Linux. The command line command
+            correctionAdd("USLEEP", "usleep");
+
+            // Unix. Linux-related
+            correctionAdd("sleepy cat", "BSD");
+            correctionAdd("bsd", "BSD");
+            correctionAdd("Bsd", "BSD");
+
+            correctionAdd("BSD licensed", "BSD-licensed");
+            correctionAdd("BSD license", "BSD-licensed");
+
+            // Unix. Linux-related
+            correctionAdd("OPEN BSD", "OpenBSD");
+            correctionAdd("open bsd", "OpenBSD");
+            correctionAdd("Open bsd", "OpenBSD");
+            correctionAdd("Open BSD", "OpenBSD");
+            correctionAdd("openbsd", "OpenBSD");
+            correctionAdd("Openbsd", "OpenBSD");
+            correctionAdd("obsd", "OpenBSD");
+
+            // Unix. Linux-related
+            correctionAdd("FressBSD", "FreeBSD");
+            correctionAdd("FREEBSD", "FreeBSD");
+            correctionAdd("freebsd", "FreeBSD");
+            correctionAdd("freeBSD", "FreeBSD");
+
+            // Unix. Linux-related
+            correctionAdd("Net BSD", "NetBSD");
+
+            // Unix. Linux-related
+            correctionAdd("4bsd", "4BSD");
+
+            // Related to Unix
+            correctionAdd("American Telephone and Telegraph Company", "AT&T");
+            correctionAdd("ATT", "AT&T");
+            correctionAdd("att", "AT&T");
+
+            // Linux / Unix
+            correctionAdd("unlink", "unlink()");
+
+            // Linux / Unix
+            correctionAdd("Klist", "klist");
+
+            correctionAdd("OpenBox", "Openbox");
+            correctionAdd("openbox", "Openbox");
+
+            correctionAdd("micro-kernel", "microkernel");
+
+            correctionAdd("kernels", "CUDA kernels");
+
+            correctionAdd("eunuchs", "Unix");
+            correctionAdd("eunuch", "Unix");
+            correctionAdd("unix", "Unix");
+            correctionAdd("UNIX", "Unix");
+            correctionAdd("UNix", "Unix");
+            correctionAdd("nix", "Unix");
+            correctionAdd("ux", "Unix");
+
+            correctionAdd("unix-likes", "Unix-like");
+            correctionAdd("UNIX-like", "Unix-like");
+            correctionAdd("unix-like", "Unix-like");
+            correctionAdd("Unix like", "Unix-like");
+            correctionAdd("unix like", "Unix-like");
+            correctionAdd("*nix like", "Unix-like");
+            correctionAdd("*nix-like", "Unix-like");
+            correctionAdd("*nix-type", "Unix-like");
+            correctionAdd("nix-like", "Unix-like");
+            correctionAdd("*Nix*", "Unix-like"); // This may collide with
+                                                 // client-side removal
+                                                 // of punctuation and
+                                                 // formatting (Markdown
+                                                 // italics in this case)...
+            correctionAdd("UN*X", "Unix-like");
+            correctionAdd("'NIX", "Unix-like");
+            correctionAdd("'nix", "Unix-like");
+            correctionAdd("*nix", "Unix-like");
+            correctionAdd("Un*x", "Unix-like");
+            correctionAdd("*NIX", "Unix-like");
+            correctionAdd("U*x", "Unix-like");
+
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/Unixen#Noun>
+            //   <https://en.wiktionary.org/wiki/Unices#Noun>
+            //   <https://en.wikipedia.org/wiki/Unix-like>
+            //
+            correctionAdd("Unixen", "Unix-like systems");
+            correctionAdd("unixen", "Unix-like systems");
+            correctionAdd("unices", "Unix-like systems");
+            correctionAdd("Unixes", "Unix-like systems");
+            correctionAdd("unixes", "Unix-like systems");
+            correctionAdd("*nixes", "Unix-like systems");
+            correctionAdd("Unices", "Unix-like systems");
+
+            correctionAdd("Unix flavor", "Unix flavour");
+
+            correctionAdd("Unix timestamps", "Unix time");
+            correctionAdd("UNIX timestamp", "Unix time");
+            correctionAdd("Unix timestamp", "Unix time");
+            correctionAdd("unix timestamp", "Unix time");
+            correctionAdd("UNIX Timestamp", "Unix time");
+            correctionAdd("Unix Timestamp", "Unix time");
+            correctionAdd("unix time", "Unix time");
+            correctionAdd("UNIX time", "Unix time");
+            correctionAdd("Unix Time", "Unix time");
+            correctionAdd("unix Time", "Unix time");
+            correctionAdd("UNIX TIME", "Unix time");
+            correctionAdd("UnixTime", "Unix time");
+            correctionAdd("unixTime", "Unix time");
+            correctionAdd("UNIXTIME", "Unix time");
+
+            // Unix time (Linux)
+            correctionAdd("the Unix epoch", "Epoch time");
+            correctionAdd("epoch time", "Epoch time");
+            correctionAdd("EPOC time", "Epoch time");
+            correctionAdd("the epoch", "Epoch time");
+            correctionAdd("EPOC", "Epoch time");
+
+            // Linux
+            //
+            // Alternative URL:
+            //
+            //   <http://linux.die.net/man/8/ping>
+            //
+            correctionAdd("Ping", "ping");
+
+            // Unix/Linux
+            //
+            // Alternative URLs:
+            //
+            //   <https://sourceforge.net/projects/gping/>
+            //
+            correctionAdd("GPING", "gping");
+
+            correctionAdd("pining", "pinging");
+
+            // Linux
+            correctionAdd("initrd", "initial ramdisk");
+
+            // Linux. Kernel.
+            correctionAdd("Linus Trovalds", "Linus Torvalds");
+            correctionAdd("Torvalds", "Linus Torvalds");
+            correctionAdd("Linus", "Linus Torvalds");
+
+            // Linux. Though 'Linuxen' is slang and 'Linuxes' is more correct.
+            correctionAdd("linuxen", "Linuxen");
+            correctionAdd("Linuxes", "Linuxen");
+
+            correctionAdd("LinuxFB", "Linux framebuffer");
+            correctionAdd("fbdev", "Linux framebuffer");
+
+            correctionAdd("X virtual framebuffer", "Xvfb");
+            correctionAdd("xvfb", "Xvfb");
+
+            // Linux, temperature on the motherboard, etc.
+            correctionAdd("lm-sensor", "lm-sensors");
+            correctionAdd("lmsensor", "lm-sensors");
+
+            // Linux, temperature on the motherboard, etc.
+            correctionAdd("senors", "sensors");
+
+            // For embedded systems?
+            correctionAdd("uClinux", "μClinux");
+
+            // Linux. But he has now gone completely off the rails.
+            correctionAdd("Lunduke", "Bryan Lunduke");
+
+            // Linux.
+            correctionAdd("App Image", "AppImage");
+            correctionAdd("app image", "AppImage");
+            correctionAdd("appimage", "AppImage");
+
+            // Related to Linux. Desktop environment.
+            correctionAdd("gnome", "GNOME");
+            correctionAdd("Gnome", "GNOME");
+            correctionAdd("Gmome", "GNOME");
+            correctionAdd("GNMOE", "GNOME");
+
+            // Related to Linux. Desktop environment.
+            correctionAdd("Gnome 3", "GNOME&nbsp;3");
+            correctionAdd("GNOME 3", "GNOME&nbsp;3"); // Sort of identity mapping
+
+            correctionAdd("GNOME 4.0", "GNOME 40");
+
+            // Related to GNOME
+            correctionAdd("mutter", "Mutter");
+
+            correctionAdd("Gnome-Latex", "GNOME LaTeX");
+
+            // Linux
+            //
+            // Alternative URLs:
+            //
+            //   <https://wiki.archlinux.org/title/GDM>
+            //
+            correctionAdd("GDM", "GNOME Display Manager");
+            correctionAdd("gdm", "GNOME Display Manager");
+
+            correctionAdd("System Monitor", "GNOME System Monitor");
+            correctionAdd("System monitor", "GNOME System Monitor");
+
+            // A webcam application. GNOME
+            correctionAdd("cheese", "Cheese");
+
+            // GNOME
+            correctionAdd("libadwaita", "Adwaita");
+            correctionAdd("LibAdwaita", "Adwaita");
+            correctionAdd("adwaita", "Adwaita");
+
+            // A company. The main developer of LibreOffice.
+            // Also related to GStreamer, D-Bus, PipeWire, Wayland,
+            // the Linux kernel, and NVK
+            correctionAdd("collabora", "Collabora");
+
+            // Linux / GNOME
+            correctionAdd("Desktop Bus", "D-Bus");
+            correctionAdd("d-bus", "D-Bus");
+            correctionAdd("DBUS", "D-Bus");
+            correctionAdd("DBus", "D-Bus");
+            correctionAdd("dbus", "D-Bus");
+
+            // Related to Linux. Desktop environment.
+            correctionAdd("Lxde", "LXDE");
+            correctionAdd("lxde", "LXDE");
+
+            // Related to Linux. Desktop environment.
+            correctionAdd("Lxqt", "LXQt");
+            correctionAdd("lxqt", "LXQt");
+
+            // Related to Linux. Desktop environment.
+            correctionAdd("xfce", "Xfce");
+            correctionAdd("XFCE", "Xfce");
+            correctionAdd("fxce", "Xfce");
+            correctionAdd("XCFE", "Xfce");
+            correctionAdd("xcfe", "Xfce");
+            correctionAdd("XFce", "Xfce");
+
+            // Related to Linux. Desktop environment.
+            correctionAdd("mate", "MATE");
+            correctionAdd("Mate", "MATE");
+
+            // Related to Linux. Desktop environment.
+            correctionAdd("different desktop environment", "Cinnamon");
+            correctionAdd("cinnamon", "Cinnamon");
+            correctionAdd("Cinnemon", "Cinnamon");
+            correctionAdd("cinnemon", "Cinnamon");
+            correctionAdd("cinammon", "Cinnamon");
+            correctionAdd("Cinammon", "Cinnamon");
+            correctionAdd("Cinamon", "Cinnamon");
+            correctionAdd("cinamon", "Cinnamon");
+
+            // Full name: Linux distribution
+            correctionAdd("Linux distribuition", "Linux distribution");
+            correctionAdd("Linux Distribution", "Linux distribution");
+            correctionAdd("distrobution", "Linux distribution");
+            correctionAdd("Linux distro", "Linux distribution");
+            correctionAdd("distribution", "Linux distribution");
+            correctionAdd("Linux Distro", "Linux distribution");
+            correctionAdd("distribute", "Linux distribution");
+            correctionAdd("Linux dist", "Linux distribution");
+            correctionAdd("distrib", "Linux distribution");
+            correctionAdd("distor", "Linux distribution"); // Misspelling. Expansion.
+            correctionAdd("distri", "Linux distribution");
+            correctionAdd("disfeo", "Linux distribution"); // A true typo (double)
+            correctionAdd("disfro", "Linux distribution"); // A true typo
+            correctionAdd("disteo", "Linux distribution"); // A true typo
+            correctionAdd("Distro", "Linux distribution"); // Expansion.
+            correctionAdd("distro", "Linux distribution"); // Expansion.
+            correctionAdd("destro", "Linux distribution");
+            correctionAdd("ditro", "Linux distribution");
+            correctionAdd("distr", "Linux distribution");
+            correctionAdd("disto", "Linux distribution");
+            correctionAdd("dist", "Linux distribution");
+
+            correctionAdd("linux distributions", "Linux distributions");
+            correctionAdd("distritutions", "Linux distributions");
+            correctionAdd("distrobutions", "Linux distributions");
+            correctionAdd("distributions", "Linux distributions");
+            correctionAdd("Linux distros", "Linux distributions");
+            correctionAdd("Linix distros", "Linux distributions");
+            correctionAdd("linux distros", "Linux distributions");
+            correctionAdd("Linux-distro", "Linux distributions");
+            correctionAdd("linux-distro", "Linux distributions");
+            correctionAdd("distro's", "Linux distributions");
+            correctionAdd("Distro's", "Linux distributions");
+            correctionAdd("distros", "Linux distributions");
+            correctionAdd("distors", "Linux distributions"); // Expansion
+            correctionAdd("Distros", "Linux distributions");
+            correctionAdd("distos", "Linux distributions"); // Misspelling. Expansion.
+            correctionAdd("dists", "Linux distributions");
+
+            // Linux.
+            correctionAdd("Distrowatch", "DistroWatch");
+            correctionAdd("distrowatch", "DistroWatch");
+
+            correctionAdd("distrohopping", "distro-hopping");
+            correctionAdd("distrohoppin'", "distro-hopping");
+
+            // An installer for Linux distributions
+            correctionAdd("calamares", "Calamares");
+            correctionAdd("calmares", "Calamares");
+
+            // A Linux distribution
+            correctionAdd("PopOS Linux", "Pop OS");
+            correctionAdd("Pop! OS", "Pop OS");
+            correctionAdd("POP! OS", "Pop OS");
+            correctionAdd("POP!_OS", "Pop OS");
+            correctionAdd("pop! os", "Pop OS");
+            correctionAdd("pop!_os", "Pop OS");
+            correctionAdd("Pop OS!", "Pop OS");
+            correctionAdd("Pop_OS!", "Pop OS");
+            correctionAdd("Pop!_OS", "Pop OS");
+            correctionAdd("Pop!_os", "Pop OS");
+            correctionAdd("POP OS", "Pop OS");
+            correctionAdd("pop os", "Pop OS");
+            correctionAdd("Pop_OS", "Pop OS");
+            correctionAdd("pop_os", "Pop OS");
+            correctionAdd("Pop!OS", "Pop OS");
+            correctionAdd("Pop os", "Pop OS");
+            correctionAdd("POP_OS", "Pop OS");
+            correctionAdd("pop-os", "Pop OS");
+            correctionAdd("Pop Os", "Pop OS");
+            correctionAdd("Pop!Os", "Pop OS");
+            correctionAdd("PopOS", "Pop OS");
+            correctionAdd("popos", "Pop OS");
+            correctionAdd("popOS", "Pop OS");
+            correctionAdd("PopOs", "Pop OS");
+            correctionAdd("Pop", "Pop OS");
+            correctionAdd("PoP", "Pop OS");
+
+            // A Linux distribution
+            correctionAdd("Nobara", "Nobara Linux");
+            correctionAdd("nobara", "Nobara Linux");
+
+            // A Linux distribution
+            correctionAdd("SUSE Linux", "SUSE&nbsp;Linux"); // Effectively self
+            correctionAdd("Suse Linux", "SUSE&nbsp;Linux");
+            correctionAdd("suse", "SUSE&nbsp;Linux");
+            correctionAdd("Suse", "SUSE&nbsp;Linux");
+            correctionAdd("SuSe", "SUSE&nbsp;Linux");
+            correctionAdd("SUSE", "SUSE&nbsp;Linux");
+            correctionAdd("SuSE", "SUSE&nbsp;Linux");
+
+            // A Linux distribution
+            correctionAdd("Open Suse", "openSUSE");
+            correctionAdd("open suse", "openSUSE");
+            correctionAdd("open SUSE", "openSUSE");
+            correctionAdd("Open SUSE", "openSUSE");
+            correctionAdd("Opensuse", "openSUSE");
+            correctionAdd("opensuse", "openSUSE");
+            correctionAdd("OpenSuse", "openSUSE");
+            correctionAdd("openSuse", "openSUSE");
+            correctionAdd("OpenSuSE", "openSUSE");
+            correctionAdd("openSuSE", "openSUSE");
+            correctionAdd("OpenSUSE", "openSUSE");
+
+            // A Linux distribution
+            correctionAdd("SLED", "SUSE Linux Enterprise");
+            correctionAdd("SLES", "SUSE Linux Enterprise");
+            correctionAdd("SLE", "SUSE Linux Enterprise");
+
+            // A Linux distribution
+            correctionAdd("opensuse tumbleweed", "openSUSE Tumbleweed");
+            correctionAdd("openSUSE tumbleweed", "openSUSE Tumbleweed");
+            correctionAdd("OpenSUSE Tumbleweed", "openSUSE Tumbleweed");
+            correctionAdd("OpenSuse Tumbleweed", "openSUSE Tumbleweed");
+            correctionAdd("Tumbleweed", "openSUSE Tumbleweed");
+            correctionAdd("tumbleweed", "openSUSE Tumbleweed");
+            correctionAdd("TW", "openSUSE Tumbleweed");
+
+            // A Linux distribution
+            correctionAdd("Leap", "openSUSE Leap");
+
+            // A Linux distribution
+            correctionAdd("Fedora Linux", "Fedora");
+            correctionAdd("Fedora OS", "Fedora");
+            correctionAdd("fedora", "Fedora");
+            correctionAdd("Federa", "Fedora");
+
+            correctionAdd("Fedora project", "Fedora Project");
+
+            correctionAdd("fc", "Fedora Core"); // Since Fedora 7, the Core and Extras repositories have been merged, hence the distribution dropping Core from its name.
+
+            // Sort of rolling release for Fedora
+            correctionAdd("rawhide", "Fedora Rawhide");
+            correctionAdd("Rawhide", "Fedora Rawhide");
+
+            correctionAdd("fc 11", "Fedora Core 11"); // Since Fedora 7, the Core and Extras repositories have been merged, hence the distribution dropping Core from its name.
+
+            // Released 2015-05-26.
+            correctionAdd("Fedora Linux 22", "Fedora&nbsp;22");
+            correctionAdd("Fedora 22", "Fedora&nbsp;22"); // Sort of identity mapping
+
+            // Released 2021-04-27
+            correctionAdd("Fedora Linux 34", "Fedora&nbsp;34");
+            correctionAdd("Fedora 34", "Fedora&nbsp;34"); // Sort of identity mapping
+
+            correctionAdd("Fedora Linux 36", "Fedora&nbsp;36");
+            correctionAdd("Fedora 36", "Fedora&nbsp;36"); // Sort of identity mapping
+
+            correctionAdd("Fedora Linux 37", "Fedora&nbsp;37");
+            correctionAdd("Fedora 37", "Fedora&nbsp;37"); // Sort of identity mapping
+
+            // 2024-11
+            // "FC" for "Fedora Core"?
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Fedora_Linux_release_history#Fedora_41>
+            //
+            correctionAdd("Fedora 41", "Fedora&nbsp;41"); // Sort of identity mapping
+            correctionAdd("FC 41", "Fedora&nbsp;41"); // FC for "Fedora Core"?
+            correctionAdd("F41", "Fedora&nbsp;41");
+
+            // Fedora
+            correctionAdd("Silver Blue", "Silverblue");
+            correctionAdd("silverblue", "Silverblue");
+
+            // An immutable Fedora edition
+            // Alternative URL:
+            //
+            //   <https://fedoraproject.org/atomic-desktops/kinoite/>
+            //
+            correctionAdd("Kinoite", "Fedora Kinoite");
+
+            // Fedora. Similar to Universal Blue
+            //
+            // Alternative URLs:
+            //
+            //   <https://discuss.techlore.tech/t/fedora-atomic-based-hardening-with-secureblue-my-impressions/7868>
+            //
+            correctionAdd("secureblue", "Secureblue");
+
+            // An image-based (the base OS is immutable) Fedora 'remix'
+            // (not 'spin'), related to 'Fedora Atomic Desktops'
+            // and Fedora 'CoreOS'. A custom Silverblue image.
+            // Images: "Aurora" (desktop), "Bazzite" (gaming),
+            // and "uCore" (servers/containers)
+            //
+            // What is the official shorthand, if any? "uBlue"
+            //
+            // Alternative URLs:
+            //
+            //   <https://universal-blue.org/#about>
+            //   <https://github.com/ublue-os>
+            //   <https://github.com/orgs/ublue-os/packages>
+            //   <https://github.com/ublue-os/ucore>
+            //   <https://www.reddit.com/r/Fedora/comments/15azryk/fill_me_in_on_ublue/>
+            //   <https://www.reddit.com/r/Fedora/comments/15g7qxk/for_any_silverblue_users_i_recommend_giving_ublue/>
+            //
+            correctionAdd("Ublue", "Universal Blue");
+            correctionAdd("UBlue", "Universal Blue");
+            correctionAdd("uBlue", "Universal Blue"); // Official shorthand?
+            correctionAdd("ublue", "Universal Blue");
+
+            // A GUI for Fedora's package manager, DNF
+            //
+            // Alternative URLs:
+            //
+            //   <https://github.com/manatools/dnfdragora>
+            //
+            correctionAdd("dnf dragora", "DNF Dragora");
+            correctionAdd("dnfdragora", "DNF Dragora");
+            correctionAdd("DnfDragora", "DNF Dragora");
+            correctionAdd("dragora", "DNF Dragora");
+            correctionAdd("DNF", "DNF Dragora"); // For the cross-reference
+
+            // Fedora
+            correctionAdd("FSADM", "fsadm");
+
+            // A Linux distribution
+            correctionAdd("selinux", "SELinux");
+            correctionAdd("SELINUX", "SELinux");
+            correctionAdd("SElinux", "SELinux");
+            correctionAdd("Selinux", "SELinux");
+            correctionAdd("SeLinux", "SELinux");
+
+            // A Linux distribution
+            correctionAdd("Linux Red Hat", "Red Hat Linux");
+            correctionAdd("linux Red Hat", "Red Hat Linux");
+            correctionAdd("Redhat Linux", "Red Hat Linux"); // The OS, not the company.
+            correctionAdd("linux redhat", "Red Hat Linux"); // The OS, not the company.
+            correctionAdd("RedHat Linux", "Red Hat Linux"); // The OS, not the company.
+            correctionAdd("Linux RedHat", "Red Hat Linux");
+            correctionAdd("linux RedHat", "Red Hat Linux");
+            correctionAdd("red-hat", "Red Hat Linux"); // The OS, not the company.
+            correctionAdd("Red Hat", "Red Hat Linux"); // The OS, not the company.
+            correctionAdd("red hat", "Red Hat Linux");
+            correctionAdd("RedHat", "Red Hat Linux"); // The OS, not the company.
+            correctionAdd("redhat", "Red Hat Linux"); // The OS, not the company.
+            correctionAdd("Redhat", "Red Hat Linux"); // The OS, not the company.
+            correctionAdd("REDHAT", "Red Hat Linux"); // The OS, not the company.
+            correctionAdd("RHL", "Red Hat Linux");
+            correctionAdd("RH", "Red Hat Linux"); // The OS, not the company.
+
+            // Note: "RPM" (the package manager) is in an alternative word set
+            correctionAdd("rpm package", "RPM packages");
+            correctionAdd("rpms", "RPM packages");
+
+            // A Linux distribution
+            correctionAdd("Red Hat Enterprise", "Red Hat Enterprise Linux");
+            correctionAdd("RHEL", "Red Hat Enterprise Linux"); // The official shorthand. The OS, not the company.
+            correctionAdd("rhel", "Red Hat Enterprise Linux"); // The OS, not the company.
+            correctionAdd("RHE", "Red Hat Enterprise Linux");
+
+            // For Enterprise Red Hat Linux (RHEL)
+            //
+            // Alternative URLs:
+            //
+            //   <https://docs.aws.amazon.com/linux/al2023/ug/epel.html>
+            //   <https://www.redhat.com/en/blog/whats-epel-and-how-do-i-use-it>
+            //   <https://docs.fedoraproject.org/en-US/epel/>
+            //
+            correctionAdd("EPEL", "Extra Packages for Enterprise Linux");
+
+            // For Enterprise Red Hat Linux (RHEL) and CentOS
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.2daygeek.com/install-enable-ius-community-repository-on-rhel-centos/>
+            //   <https://ius.io/about>
+            //   <https://ius.io/faq#is-ius-a-rackspace-service-or-product>
+            //
+            correctionAdd("IUS", "Inline with Upstream Stable");
+
+            // A Linux distribution
+            correctionAdd("the ultimate graybeard Linux", "Gentoo Linux");
+            correctionAdd("Gentoo linux", "Gentoo Linux");
+            correctionAdd("gent0os", "Gentoo Linux");
+            correctionAdd("gentoos", "Gentoo Linux");
+            correctionAdd("gentoo", "Gentoo Linux");
+            correctionAdd("Gentoo", "Gentoo Linux");
+            correctionAdd("gentos", "Gentoo Linux");
+            correctionAdd("Gentos", "Gentoo Linux");
+            correctionAdd("gent0o", "Gentoo Linux");
+            correctionAdd("gento0", "Gentoo Linux");
+            correctionAdd("gent0", "Gentoo Linux");
+
+            // A Linux distribution
+            correctionAdd("arch linux", "Arch Linux");
+            correctionAdd("arch Linux", "Arch Linux");
+            correctionAdd("Arch linux", "Arch Linux");
+            correctionAdd("Arch-Linux", "Arch Linux");
+            correctionAdd("Linux Arch", "Arch Linux");
+            correctionAdd("Linux arch", "Arch Linux");
+            correctionAdd("linux arch", "Arch Linux");
+            correctionAdd("arch-linux", "Arch Linux");
+            correctionAdd("archlinux", "Arch Linux");
+            correctionAdd("Archlinux", "Arch Linux");
+            correctionAdd("ArchLinux", "Arch Linux");
+            correctionAdd("archLinux", "Arch Linux");
+            correctionAdd("ArhLinux", "Arch Linux");
+            correctionAdd("ARCH", "Arch Linux");
+            correctionAdd("arch", "Arch Linux");
+            correctionAdd("Arch", "Arch Linux");
+
+            // Arch Linux
+            correctionAdd("AUR", "Arch User Repository");
+            correctionAdd("aur", "Arch User Repository");
+
+            // Arch Linux
+            correctionAdd("Arch Wiki", "ArchWiki");
+            correctionAdd("Arch wiki", "ArchWiki");
+            correctionAdd("arch wiki", "ArchWiki");
+            correctionAdd("Archwiki", "ArchWiki");
+
+            // Linux. Arch Linux
+            correctionAdd("archcraft", "Archcraft");
+
+            // A Linux distribution. Arch Linux
+            //
+            // Primarily for software developers.
+            //
+            // Predecessor: Omakub (<https://github.com/basecamp/omakub>),
+            // a script (or Omacom?). By DHH. E.g., uses Mise En Place
+            //
+            // Alternative URLs:
+            //
+            //   <https://learn.omacom.io/3/omacom/73/omarchy-or-omakub>
+            //     Omacom has two Linux distribution remixes on offer:
+            //
+            //       Omakub
+            //
+            //         Beginner-friendly. Ubuntu. GNOME.
+            //
+            //         <https://www.youtube.com/watch?v=aXLra-31Jh0>
+            //         <https://dominickm.com/omakhub-review/>
+            //           2025-09-27.
+            //
+            //       Omarchy
+            //
+            //         Arch Linux. Hyprland.
+            //
+            //         <See below for introduction videos>
+            //
+            //   <https://omarchy.org/>
+            //     "Omarchy 3.3 has been released!"
+            //     <https://iso.omarchy.org/omarchy-3.3.2.iso>
+            //
+            //   <https://www.youtube.com/watch?v=F7fe9pa8OeE>
+            //     Omarchy 4. 2026-08-14.
+            //     <https://iso.omarchy.org/omarchy-4.0.1.iso>
+            //
+            //   <https://www.youtube.com/watch?v=L3EafsSCv80>
+            //     Omarchy 3. 2025-11-06.
+            //
+            //   <https://www.youtube.com/watch?v=TcHY0AEd2Uw>
+            //     Omarchy 2. 2025-08-26.
+            //
+            //   <https://www.youtube.com/watch?v=TcHY0AEd2Uw>
+            //     Omarchy. 2025-06-27.
+            //
+            //   <https://learn.omacom.io/2/the-omarchy-manual>
+            //     The Omarchy manual
+            //
+            //   <https://world.hey.com/dhh/omarchy-2-0-16fefc15>
+            //     Omarchy 2.0
+            //     2025-08-26.
+            //
+            //     <https://github.com/basecamp/omarchy/releases/tag/v2.0.0>
+            //
+            //   <https://en.wikipedia.org/wiki/David_Heinemeier_Hansson>
+            //
+            // Alternative URLs:
+            //
+            //   <https://learn.omacom.io/2/the-omarchy-manual/62/development-tools#github-cli>
+            //     GitHub CLI
+            //
+            //   <https://www.buzzsprout.com/2260539/episodes/18581125-give-it-a-name.mp3>
+            //     Origin of the name "Omarchy", at 17 min 27 secs:
+            //
+            //       Version 2 of "Omakub": A combination of:
+            //
+            //         1. "omakase" (chef's choice in Japanese;
+            //             the chef has picked everything),
+            //
+            //             <https://en.wiktionary.org/wiki/omakase#Adjective>
+            //
+            //         2. "Arch Linux", and
+            //
+            //         3. "Hyprland".
+            //
+            //       "Omakub": A combination of:
+            //
+            //         1. "omakase" (see above), and
+            //
+            //         2. "Ubuntu"
+            //
+            //     REWORK (37signals' podcast): <https://www.rework.fm/>
+            //
+            //   <https://www.youtube.com/watch?v=5JPYJfN7HY0>
+            //     Explains the reason for using Quickshell
+            //
+            correctionAdd("The vibe coded Arch rice", "Omarchy");
+            correctionAdd("Omarchy Quattro", "Omarchy"); // Is not 100% correct (is Omarchy 4)
+            correctionAdd("slopmarchy", "Omarchy");
+            correctionAdd("Slopmarchy", "Omarchy");
+            correctionAdd("Obloatchy", "Omarchy");
+            correctionAdd("Omarchy 4", "Omarchy"); // Is not 100% correct (is Omarchy 4)
+            correctionAdd("omarchy 4", "Omarchy"); // Is not 100% correct (is Omarchy 4)
+            correctionAdd("AI-Marchy", "Omarchy");
+            correctionAdd("sloparchy", "Omarchy");
+            correctionAdd("Quattro", "Omarchy"); // Is not 100% correct (is Omarchy 4)
+            correctionAdd("quattro", "Omarchy"); // Is not 100% correct (is Omarchy 4)
+            correctionAdd("omarchy", "Omarchy");
+            correctionAdd("homachi", "Omarchy");
+            correctionAdd("Omachy", "Omarchy");
+            correctionAdd("omachy", "Omarchy");
+
+            // For managing multiple versions of Python (and others).
+            // Included by default in Omarchy
+            correctionAdd("mise-en-place", "Mise En Place");
+            correctionAdd("Mise en place", "Mise En Place");
+            correctionAdd("meeze", "Mise En Place");
+            correctionAdd("meese", "Mise En Place");
+            correctionAdd("mise", "Mise En Place");
+            correctionAdd("Mise", "Mise En Place");
+            correctionAdd("MIZE", "Mise En Place");
+            correctionAdd("mize", "Mise En Place");
+            correctionAdd("mizf", "Mise En Place");
+            correctionAdd("meez", "Mise En Place");
+
+            // Linux. Ubuntu. The predecessor to Omarchy
+            //
+            // Defaults over decisions
+            //
+            correctionAdd("omacom", "Omacom");
+            correctionAdd("Omakub", "Omacom"); // Not 100% correct (see entry "Omarchy")
+
+            // A Linux distribution
+            correctionAdd("slackware", "Slackware");
+
+            // A Linux distribution (security focused)
+            correctionAdd("Black Arch", "BlackArch");
+
+            correctionAdd("Black Hat", "Black Hat Briefings");
+            correctionAdd("BlackHat", "Black Hat Briefings");
+
+            correctionAdd("The Mesa 3D Graphics Library", "Mesa");
+            correctionAdd("Mesa3D", "Mesa");
+            correctionAdd("mesa", "Mesa");
+
+            // A Linux distribution
+            correctionAdd("LMDE&nbsp;7 (Gigi)", "Debian"); // For the cross-reference
+            correctionAdd("Debian Linux", "Debian");
+            correctionAdd("LMDE&nbsp;7", "Debian"); // For the cross-reference
+            correctionAdd("Linux Mint", "Debian"); // For the cross-reference
+            correctionAdd("debian", "Debian");
+            correctionAdd("Debain", "Debian");
+            correctionAdd("debain", "Debian");
+            correctionAdd("DEBIAN", "Debian");
+            correctionAdd("deb", "Debian");
+
+            // Linux. 'Sid' is a character in Toy Story,
+            // <https://en.wikipedia.org/wiki/List_of_Toy_Story_characters#Sid_Phillips>
+            //  - "Sid is known for torturing and destroying toys"
+            //
+            correctionAdd("Debian unstable", "Debian Unstable");
+            correctionAdd("Debian UnStable", "Debian Unstable");
+            correctionAdd("Debian Sid", "Debian Unstable");
+            correctionAdd("Debian sid", "Debian Unstable");
+            correctionAdd("debian sid", "Debian Unstable");
+            correctionAdd("Unstable", "Debian Unstable");
+            correctionAdd("sid", "Debian Unstable");
+            correctionAdd("Sid", "Debian Unstable");
+
+            correctionAdd("Debian stable", "Debian Stable");
+            correctionAdd("Debain stable", "Debian Stable");
+
+            // Linux
+            correctionAdd("DFSG", "Debian Free Software Guidelines");
+
+            // Linux
+            correctionAdd("Debian 4.0 (Etch)", "Debian&nbsp;4.0 (Etch)"); // Sort of identity mapping
+            correctionAdd("Debian Etch", "Debian&nbsp;4.0 (Etch)");
+            correctionAdd("debian etch", "Debian&nbsp;4.0 (Etch)");
+            correctionAdd("Etch", "Debian&nbsp;4.0 (Etch)");
+
+            // Linux
+            correctionAdd("Debian 5.0 (Lenny)", "Debian&nbsp;5.0 (Lenny)"); // Sort of identity mapping
+            correctionAdd("debian lenny", "Debian&nbsp;5.0 (Lenny)");
+            correctionAdd("Debian 5.0", "Debian&nbsp;5.0 (Lenny)");
+            correctionAdd("lenny", "Debian&nbsp;5.0 (Lenny)");
+            correctionAdd("Lenny", "Debian&nbsp;5.0 (Lenny)");
+
+            // Linux
+            correctionAdd("Debian 6.0 (Squeeze)", "Debian&nbsp;6.0 (Squeeze)"); // Sort of identity mapping
+            correctionAdd("Debian&nbsp;6.0", "Debian&nbsp;6.0 (Squeeze)");
+            correctionAdd("Debian Squeeze", "Debian&nbsp;6.0 (Squeeze)");
+            correctionAdd("debian squeeze", "Debian&nbsp;6.0 (Squeeze)");
+            correctionAdd("Debian squeeze", "Debian&nbsp;6.0 (Squeeze)");
+            correctionAdd("Debian 6.0", "Debian&nbsp;6.0 (Squeeze)");
+            correctionAdd("Debian 6", "Debian&nbsp;6.0 (Squeeze)");
+            correctionAdd("debian 6", "Debian&nbsp;6.0 (Squeeze)");
+            correctionAdd("Squeeze", "Debian&nbsp;6.0 (Squeeze)");
+            correctionAdd("squeeze", "Debian&nbsp;6.0 (Squeeze)");
+
+            // Linux
+            correctionAdd("Debian 7 (Wheezy)", "Debian&nbsp;7 (Wheezy)"); // Sort of identity mapping
+            correctionAdd("Debian Wheezy", "Debian&nbsp;7 (Wheezy)");
+            correctionAdd("debian wheezy", "Debian&nbsp;7 (Wheezy)");
+            correctionAdd("Debian&nbsp;7", "Debian&nbsp;7 (Wheezy)");
+            correctionAdd("Debian wheezy", "Debian&nbsp;7 (Wheezy)");
+            correctionAdd("Debian 7", "Debian&nbsp;7 (Wheezy)");
+            correctionAdd("debian 7", "Debian&nbsp;7 (Wheezy)");
+            correctionAdd("wheezy", "Debian&nbsp;7 (Wheezy)");
+            correctionAdd("Wheezy", "Debian&nbsp;7 (Wheezy)");
+
+            // Linux
+            correctionAdd("Debian 9 (Stretch)", "Debian&nbsp;9 (Stretch)"); // Sort of identity mapping
+            correctionAdd("Debian Stretch", "Debian&nbsp;9 (Stretch)");
+            correctionAdd("debian stretch", "Debian&nbsp;9 (Stretch)");
+            correctionAdd("Debian stretch", "Debian&nbsp;9 (Stretch)");
+            correctionAdd("debian 9", "Debian&nbsp;9 (Stretch)");
+            correctionAdd("Debian 9", "Debian&nbsp;9 (Stretch)");
+            correctionAdd("Stretch", "Debian&nbsp;9 (Stretch)");
+            correctionAdd("stretch", "Debian&nbsp;9 (Stretch)");
+
+            // Linux
+            correctionAdd("Debian 10 \"Buster\"", "Debian&nbsp;10 (Buster)");
+            correctionAdd("Debian 10 (Buster)", "Debian&nbsp;10 (Buster)");
+            correctionAdd("Debian 10 Buster", "Debian&nbsp;10 (Buster)");
+            correctionAdd("Debian 10 buster", "Debian&nbsp;10 (Buster)");
+            correctionAdd("Debian&nbsp;10", "Debian&nbsp;10 (Buster)");
+            correctionAdd("Debian Buster", "Debian&nbsp;10 (Buster)");
+            correctionAdd("Debian buster", "Debian&nbsp;10 (Buster)");
+            correctionAdd("debian buster", "Debian&nbsp;10 (Buster)");
+            correctionAdd("Debian 10", "Debian&nbsp;10 (Buster)");
+            correctionAdd("debian 10", "Debian&nbsp;10 (Buster)");
+            correctionAdd("buster", "Debian&nbsp;10 (Buster)");
+
+            // Linux
+            correctionAdd("Debian 11 (Bullseye)", "Debian&nbsp;11 (Bullseye)"); // Sort of identity mapping
+            correctionAdd("Debian Bullseye", "Debian&nbsp;11 (Bullseye)");
+            correctionAdd("debian bullseye", "Debian&nbsp;11 (Bullseye)");
+            correctionAdd("Debian&nbsp;11", "Debian&nbsp;11 (Bullseye)");
+            correctionAdd("Debian 11", "Debian&nbsp;11 (Bullseye)");
+            correctionAdd("debian 11", "Debian&nbsp;11 (Bullseye)");
+            correctionAdd("bullseye", "Debian&nbsp;11 (Bullseye)");
+            correctionAdd("Bullseye", "Debian&nbsp;11 (Bullseye)");
+
+            // Linux
+            correctionAdd("Debian 12 (Bookworm)", "Debian&nbsp;12 (Bookworm)"); // Sort of identity mapping
+            correctionAdd("Debian Bookworm", "Debian&nbsp;12 (Bookworm)");
+            correctionAdd("debian bookwork", "Debian&nbsp;12 (Bookworm)");
+            correctionAdd("debian bookworm", "Debian&nbsp;12 (Bookworm)");
+            correctionAdd("Debian bookworm", "Debian&nbsp;12 (Bookworm)");
+            correctionAdd("Debian 12", "Debian&nbsp;12 (Bookworm)");
+            correctionAdd("Bookworm", "Debian&nbsp;12 (Bookworm)");
+            correctionAdd("bookworm", "Debian&nbsp;12 (Bookworm)");
+
+            // Note: "Debian&nbsp;13 (Trixie)" is in an alternative word set
+            correctionAdd("Debian 14 (Forky)", "Debian&nbsp;14 (Forky)"); // Sort of identity mapping
+            correctionAdd("Debian 14", "Debian&nbsp;14 (Forky)");
+            correctionAdd("Forky", "Debian&nbsp;14 (Forky)");
+
+            // Based on Ubuntu 12.04 LTS
+            //
+            // Released 2012-05-23
+            //
+            // Note: "Linux Mint" is in an alternative word set
+            correctionAdd("Maya", "Linux Mint 13 (Maya)");
+            correctionAdd("maya", "Linux Mint 13 (Maya)");
+
+            // ***Not*** the Amiga 32-bit thing..., 'Serena OS'
+            // (<https://github.com/dplanitzer/Serena>)
+            //
+            // Based on Ubuntu 16.04 LTS (Xenial Xerus)
+            //
+            // Released 2017-01-04
+            //
+            correctionAdd("Serena", "Linux Mint 18.1 (Serena)");
+            correctionAdd("18.1", "Linux Mint 18.1 (Serena)");
+
+            // Released 2017-07-02
+            //
+            correctionAdd("Linux Mint Sonya", "Linux Mint 18.2 (Sonya)");
+
+            // Alternative URLs:
+            //
+            //   <https://en.linuxadictos.com/linux-mint-is-now-focused-on-the-development-of-lmde-6.html>
+            //
+            //   See entry "LMDE&nbsp;6 (Faye)__" for more.
+            //
+            correctionAdd("Linux Mint DE", "Linux Mint Debian Edition");
+            correctionAdd("LDME", "Linux Mint Debian Edition");
+            correctionAdd("ldme", "Linux Mint Debian Edition");
+            correctionAdd("lmde", "Linux Mint Debian Edition");
+            correctionAdd("Lmde", "Linux Mint Debian Edition");
+            correctionAdd("LMDE", "Linux Mint Debian Edition"); // The official shorthand
+
+            // A Linux distribution
+            correctionAdd("peppermint os", "Peppermint OS");
+            correctionAdd("PeppermintOS", "Peppermint OS");
+            correctionAdd("peppermint", "Peppermint OS");
+            correctionAdd("Peppermint", "Peppermint OS");
+
+            correctionAdd("lts", "LTS");
+            correctionAdd("Lts", "LTS");
+
+            // A Linux distribution
+            correctionAdd("Ubuntu OS", "Ubuntu");
+            correctionAdd("Yuchbuntu", "Ubuntu");
+            correctionAdd("Ubunutu", "Ubuntu"); // Misspelling.
+            correctionAdd("ubunutu", "Ubuntu"); // Misspelling.
+            correctionAdd("unbuntu", "Ubuntu");
+            correctionAdd("ubunbtu", "Ubuntu");
+            correctionAdd("Ubunbtu", "Ubuntu");
+            correctionAdd("Buguntu", "Ubuntu");
+            correctionAdd("Unbuntu", "Ubuntu");
+            correctionAdd("ubuntu", "Ubuntu");
+            correctionAdd("UBUNTU", "Ubuntu");
+            correctionAdd("ubunto", "Ubuntu");
+            correctionAdd("Ubunto", "Ubuntu");
+            correctionAdd("ubunty", "Ubuntu");
+            correctionAdd("Ubunut", "Ubuntu");
+            correctionAdd("ubunut", "Ubuntu");
+            correctionAdd("Uubntu", "Ubuntu");
+            correctionAdd("ubantu", "Ubuntu");
+            correctionAdd("uBuntu", "Ubuntu");
+            correctionAdd("ubutnu", "Ubuntu");
+            correctionAdd("Ubutnu", "Ubuntu");
+            correctionAdd("unutbu", "Ubuntu");
+            correctionAdd("UBUBTU", "Ubuntu");
+            correctionAdd("Ububtu", "Ubuntu");
+            correctionAdd("ububtu", "Ubuntu");
+            correctionAdd("Ubunty", "Ubuntu");
+            correctionAdd("Ubutu", "Ubuntu");
+            correctionAdd("ubutu", "Ubuntu");
+            correctionAdd("ubntu", "Ubuntu");
+            correctionAdd("Ubunt", "Ubuntu");
+            correctionAdd("Ubtu", "Ubuntu");
+
+            correctionAdd("Ubuntu one", "Ubuntu One");
+
+            correctionAdd("Kylin", "Ubuntu Kylin");
+
+            // A paid version, with extra security, etc.
+            //
+            // Alternative URLs:
+            //
+            //   <https://ubuntu.com/pro>
+            //   <https://discourse.ubuntu.com/t/ubuntu-pro-faq/34042>
+            //   <https://documentation.ubuntu.com/pro/>
+            //
+            correctionAdd("Ubuntu pro", "Ubuntu Pro");
+
+            correctionAdd("ubuntu studio", "Ubuntu Studio");
+
+            // A desktop environment for Linux. There is also
+            // an official Ubuntu flovour using it:
+            //
+            //   Ubuntu Budgie  <https://en.wikipedia.org/wiki/Ubuntu_Budgie>
+            correctionAdd("Ubuntu budgie", "Budgie");
+            correctionAdd("budgie", "Budgie");
+
+            // Ubuntu. Linux.
+            //
+            // 'ubuntu.com' reference: Unavailable 2026-02-22T193132:
+            //
+            //     "503 Service Unavailable"
+            //
+            //   Is it permanent?
+            //
+            // Alternative URLs:
+            //
+            //   <https://askubuntu.com/questions/248914/>
+            //     What is hardware enablement (HWE)?
+            //
+            correctionAdd("Hardware Enablement Stack", "Ubuntu Hardware Enablement");
+            correctionAdd("Hardware Enablement", "Ubuntu Hardware Enablement");
+            correctionAdd("HardWare Enablement", "Ubuntu Hardware Enablement");
+            correctionAdd("hardware enablement", "Ubuntu Hardware Enablement");
+            correctionAdd("hwe", "Ubuntu Hardware Enablement");
+            correctionAdd("HWE", "Ubuntu Hardware Enablement");
+
+            // Ubuntu
+            correctionAdd("Run As dialog", "Run dialog");
+            correctionAdd("run as dialog", "Run dialog");
+            correctionAdd("Run command", "Run dialog");
+            correctionAdd("run dialoge", "Run dialog");
+            correctionAdd("run window", "Run dialog");
+            correctionAdd("Run Dialog", "Run dialog");
+            correctionAdd("run dialog", "Run dialog");
+            correctionAdd("Run window", "Run dialog");
+
+            // Ubuntu / Linux
+            //
+            // Alternative URLs:
+            //
+            //   <https://wiki.ubuntu.com/Apport>
+            //     But it redirects...
+            //
+            correctionAdd("apport", "Apport");
+
+            correctionAdd("Warty Warthog", "Ubuntu&nbsp;4.10 (Warty Warthog)");
+            correctionAdd("Ubuntu 4.10 (Warty Warthog)", "Ubuntu&nbsp;4.10 (Warty Warthog)"); // Sort of identity mapping
+
+            correctionAdd("Ubuntu 7.10 (Gutsy Gibbon)", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)"); // Sort of identity mapping
+            correctionAdd("Gutsy Gibbon", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
+            correctionAdd("Ubuntu 7.10", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
+            correctionAdd("ubuntu 7.10", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
+            correctionAdd("7.1-ubuntu", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
+            correctionAdd("ubuntu 7.1", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
+            correctionAdd("Ubuntu 7.1", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
+            correctionAdd("ubuntu7", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
+            correctionAdd("Gutsy", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
+
+            correctionAdd("Ubuntu 8.04 LTS (Hardy Heron)", "Ubuntu&nbsp;8.04 (Hardy Heron)");
+            correctionAdd("Ubuntu Linux 8.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
+            correctionAdd("Ubuntu 8.04 (Hardy Heron)", "Ubuntu&nbsp;8.04 (Hardy Heron)"); // Sort of identity mapping
+            correctionAdd("Ubuntu Hardy", "Ubuntu&nbsp;8.04 (Hardy Heron)");
+            correctionAdd("Ubuntu 8.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
+            correctionAdd("Hardy Heron", "Ubuntu&nbsp;8.04 (Hardy Heron)");
+            correctionAdd("Hardy", "Ubuntu&nbsp;8.04 (Hardy Heron)");
+            correctionAdd("08.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
+            correctionAdd("8.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
+
+            correctionAdd("Ubuntu 8.10 (Intrepid Ibex)", "Ubuntu&nbsp;8.10 (Intrepid Ibex)"); // Sort of identity mapping
+            correctionAdd("Linux Ubuntu Intrepid Ibex", "Ubuntu&nbsp;8.10 (Intrepid Ibex)");
+            correctionAdd("Ubuntu Intrepid Ibex", "Ubuntu&nbsp;8.10 (Intrepid Ibex)");
+            correctionAdd("Intrepid Ibex", "Ubuntu&nbsp;8.10 (Intrepid Ibex)");
+            correctionAdd("Ubuntu 8.10", "Ubuntu&nbsp;8.10 (Intrepid Ibex)");
+            correctionAdd("8.10", "Ubuntu&nbsp;8.10 (Intrepid Ibex)");
+
+            correctionAdd("Ubuntu 9.04 (Jaunty Jackalope)", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)"); // Sort of identity mapping
+            correctionAdd("Jaunty Jackalope", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
+            correctionAdd("Ubuntu Jaunty", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
+            correctionAdd("ubuntu 9.04", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
+            correctionAdd("Ubuntu 9.04", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
+            correctionAdd("Jaunty", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
+            correctionAdd("9.04", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
+
+            correctionAdd("Ubuntu 9.10 (Karmic Koala)", "Ubuntu&nbsp;9.10 (Karmic Koala)"); // Sort of identity mapping
+            correctionAdd("Ubuntu&nbsp;9.10", "Ubuntu&nbsp;9.10 (Karmic Koala)");
+            correctionAdd("Ubuntu Karmic", "Ubuntu&nbsp;9.10 (Karmic Koala)");
+            correctionAdd("Karmic Koala", "Ubuntu&nbsp;9.10 (Karmic Koala)");
+            correctionAdd("Ubuntu 9.10", "Ubuntu&nbsp;9.10 (Karmic Koala)");
+            correctionAdd("ubuntu 9.10", "Ubuntu&nbsp;9.10 (Karmic Koala)");
+            correctionAdd("karmic", "Ubuntu&nbsp;9.10 (Karmic Koala)");
+            correctionAdd("Karmic", "Ubuntu&nbsp;9.10 (Karmic Koala)");
+            correctionAdd("9.10", "Ubuntu&nbsp;9.10 (Karmic Koala)");
+
+            correctionAdd("Ubuntu 10.04 LTS (Lucid Lynx)", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("Ubuntu 10.04 (Lucid Lynx)", "Ubuntu&nbsp;10.04 (Lucid Lynx)"); // Sort of identity mapping
+            correctionAdd("Ubuntu 10.04 Lucid Lynx", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("Ubuntu&nbsp;10.04", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("Ubuntu 10.04", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("ubuntu 10.04", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("UBUNTU 10.04", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("Ubuntu 10.4", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("ubuntu 10.4", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("ubuntu 10", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("lucid", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("Lucid", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("10.04", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+
+            // Close in name (Mac): "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)"
+            //
+            correctionAdd("Ubuntu 10.10 (Maverick Meerkat)", "Ubuntu&nbsp;10.10 (Maverick Meerkat)"); // Sort of identity mapping
+            correctionAdd("10.10 Maverick Meerkat", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
+            correctionAdd("Maverick Meerkat", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
+            correctionAdd("Ubuntu Maverick", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
+            correctionAdd("Ubuntu 10.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
+            correctionAdd("ubuntu 10.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
+            correctionAdd("ubuntu 1.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
+            correctionAdd("10.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
+            correctionAdd("1.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
+
+            correctionAdd("Ubuntu 11.04 (Natty Narwhal)", "Ubuntu&nbsp;11.04 (Natty Narwhal)"); // Sort of identity mapping
+            correctionAdd("Ubuntu&nbsp;11.04", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
+            correctionAdd("Ubuntu Narwhal", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
+            correctionAdd("Natty Narwhal", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
+            correctionAdd("ubuntu 11.04", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
+            correctionAdd("Ubuntu 11.04", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
+            correctionAdd("Ubuntu natty", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
+            correctionAdd("ubuntu natty", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
+            correctionAdd("Ubuntu Natty", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
+            correctionAdd("Narwhal", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
+            correctionAdd("Natty", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
+            correctionAdd("11.04", "Ubuntu&nbsp;11.04 (Natty Narwhal)"); // But it does not work... "11.04" is converted to "104"...
+
+            correctionAdd("Ubuntu 11.10 (Oneiric Ocelot)", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)"); // Sort of identity mapping
+            correctionAdd("Ubuntu&nbsp;11.10", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
+            correctionAdd("uBuntu Oneiric", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
+            correctionAdd("Ubuntu Oneiric", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
+            correctionAdd("ubuntu 11.10", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
+            correctionAdd("Ubuntu 11.10", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
+            correctionAdd("Ubuntu 11", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)"); // 11 being 11.04 depends on context...
+            correctionAdd("Oneiric", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
+            correctionAdd("oneiric", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
+            correctionAdd("11.10", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
+
+            correctionAdd("Ubuntu 12.04 LTS (Precise Pangolin)", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("Ubuntu 12.04 (Precise Pangolin)", "Ubuntu&nbsp;12.04 (Precise Pangolin)"); // Sort of identity mapping
+            correctionAdd("Ubuntu&nbsp;12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("ubuntu 12.04 lts", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("Precise Pangolin", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("ubuntu precise", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("ubuntu 12 .04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("Ubuntu 12 .04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("unbuntu 12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)"); // Misspelling.
+            correctionAdd("Precise 12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("Ubuntu 12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("ubuntu 12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("12.04 Ubuntu", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("ubuntu 12.0", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("Ubuntu 12.0", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("Ubuntu 12.4", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("Ubuntu 12", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("ubuntu 12", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("precise", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("Precise", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("12.0.4", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+
+            correctionAdd("Ubuntu 12.10 (Quantal Quetzal)", "Ubuntu&nbsp;12.10 (Quantal Quetzal)"); // Sort of identity mapping
+            correctionAdd("Ubuntu&nbsp;12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
+            correctionAdd("Ubuntu 12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
+            correctionAdd("ubunut 12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
+            correctionAdd("ubuntu 12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
+            correctionAdd("ubunut12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
+            correctionAdd("quantal", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
+            correctionAdd("12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
+
+            correctionAdd("Ubuntu&nbsp;13.04", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
+            correctionAdd("Ubuntu 13.04 (Raring Ringtail)", "Ubuntu&nbsp;13.04 (Raring Ringtail)"); // Sort of identity mapping
+            correctionAdd("Ubuntu 13.04", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
+            correctionAdd("ubuntu 13.04", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
+            correctionAdd("Ubuntu 13", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
+            correctionAdd("raring", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
+            correctionAdd("13.04", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
+
+            correctionAdd("Ubuntu 13.10 (Saucy Salamander)", "Ubuntu&nbsp;13.10 (Saucy Salamander)"); // Sort of identity mapping
+            correctionAdd("Ubuntu&nbsp;13.10", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
+            correctionAdd("Ubuntu 13.10", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
+            correctionAdd("ubuntu 13.10", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
+            correctionAdd("saucy", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
+            correctionAdd("13.10", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
+
+            correctionAdd("Ubuntu 14.04 (Trusty Tahr)", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Sort of identity mapping
+            correctionAdd("Ubuntu Unity 14.0.4", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
+            correctionAdd("trusty Ubuntu 14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
+            correctionAdd("Ubuntu Linux 14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
+            correctionAdd("Ubuntu Unity 14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
+            correctionAdd("Ubuntu&nbsp;14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("ubuntu 14.04 LTS", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
+            correctionAdd("Ubuntu 14.04 LTS", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
+            correctionAdd("ubunru 14.04lts", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("ubuntu14.04 LTS", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
+            correctionAdd("Ubuntu 14.04LTS", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
+            correctionAdd("ubuntu14.04LTS", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
+            correctionAdd("Ubuntu 14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("ubuntu 14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("14.04 Trusty", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("uBuntu 14-04", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
+            correctionAdd("Ubuntu14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("Trusty Tahr", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("ubuntu14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("Ubuntu 14", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("Trusty", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("trusty", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("14-04", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
+
+            correctionAdd("Ubuntu 14.10 (Utopic Unicorn)", "Ubuntu&nbsp;14.10 (Utopic Unicorn)"); // Sort of identity mapping
+            correctionAdd("Ubuntu Server 14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
+            correctionAdd("Ubuntu&nbsp;14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
+            correctionAdd("Ubuntu 14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
+            correctionAdd("ubuntu 14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
+            correctionAdd("14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
+
+            correctionAdd("Ubuntu 15.04 (Vivid Vervet)", "Ubuntu&nbsp;15.04 (Vivid Vervet)"); // Sort of identity mapping
+            correctionAdd("Ubuntu&nbsp;15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
+            correctionAdd("Ubuntu 15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
+            correctionAdd("ubuntu 15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
+            correctionAdd("Ubuntu15", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
+            correctionAdd("Ubuntu 15", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
+            correctionAdd("15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
+
+            correctionAdd("Ubuntu 15.10 (Wily Werewolf)", "Ubuntu&nbsp;15.10 (Wily Werewolf)"); // Sort of identity mapping
+            correctionAdd("Ubuntu 15.10", "Ubuntu&nbsp;15.10 (Wily Werewolf)");
+            correctionAdd("ubuntu 15.10", "Ubuntu&nbsp;15.10 (Wily Werewolf)");
+            correctionAdd("15.10", "Ubuntu&nbsp;15.10 (Wily Werewolf)");
+
+            correctionAdd("Ubuntu&nbsp;16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("Ubuntu 16.04 (Xenial Xerus)", "Ubuntu&nbsp;16.04 (Xenial Xerus)"); // Sort of identity mapping
+            correctionAdd("Ubuntu Xenial", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("ubuntu xenial", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("ubuntu 16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("Ubuntu 16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("UBUNTU 16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("Ubuntu 16.06", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("Ubuntu-16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("Ubuntu16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("Ubuntu 16.4", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("Ubuntu 16", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("ubuntu 16", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("of 2016", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("Xenial", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("xenial", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("16.4", "Ubuntu&nbsp;16.04 (Xenial Xerus)"); // Yes, highly context dependent...
+            correctionAdd("16", "Ubuntu&nbsp;16.04 (Xenial Xerus)"); // Yes, even more highly context dependent...
+
+            correctionAdd("Ubuntu 16.10 (Yakkety Yak)", "Ubuntu&nbsp;16.10 (Yakkety Yak)"); // Sort of identity mapping
+            correctionAdd("Ubuntu 16.10", "Ubuntu&nbsp;16.10 (Yakkety Yak)");
+            correctionAdd("Yakkety Yak", "Ubuntu&nbsp;16.10 (Yakkety Yak)");
+            correctionAdd("16.10", "Ubuntu&nbsp;16.10 (Yakkety Yak)");
+
+            correctionAdd("Ubuntu 17.04 (Zesty Zapus)", "Ubuntu&nbsp;17.04 (Zesty Zapus)"); // Sort of identity mapping
+            correctionAdd("ubuntu 17.04", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
+            correctionAdd("Ubuntu 17.04", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
+            correctionAdd("Zesty Zapus", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
+            correctionAdd("zesty", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
+            correctionAdd("17.04", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
+
+            correctionAdd("Ubuntu 17.10 (Artful Aardvark)", "Ubuntu&nbsp;17.10 (Artful Aardvark)"); // Sort of identity mapping
+            correctionAdd("Ubuntu 17.10", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
+            correctionAdd("ubuntu 17.10", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
+            correctionAdd("ubuntu17.10", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
+            correctionAdd("Ubuntu 17.1", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
+            correctionAdd("Ubuntu 17", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
+            correctionAdd("ubuntu 17", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
+            correctionAdd("artful", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
+            correctionAdd("17.10", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
+
+            correctionAdd("Ubuntu 18.04 (Bionic Beaver)", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Sort of identity mapping
+            correctionAdd("Ubuntu Bionic Beaver", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu&nbsp;18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu 18.04LTS", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Bionic Beaver", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("bionic beaver", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("ubuntu bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu 18 LTS", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu Bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("ubuntu 18 lts", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu 18.0.4", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("ubuntu 18.0.4", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu 18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu-18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("ubuntu 18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("ubuntu-18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu 18.4", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("ubuntu18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu V18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu 18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu-18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("ubuntu 18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("18.04 LTS", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("18.04LTS", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("Bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("V18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Yes, highly context dependent...
+            correctionAdd("v18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Yes, highly context dependent...
+            correctionAdd("18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("V18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
+            correctionAdd("18", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Yes, even more highly context dependent...
+
+            correctionAdd("Ubuntu 18.10 (Cosmic Cuttlefish)", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)"); // Sort of identity mapping
+            correctionAdd("Cosmic Cuttlefish", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
+            correctionAdd("Ubuntu Cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
+            correctionAdd("Ubuntu 18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
+            correctionAdd("UBUNTU 18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
+            correctionAdd("ubuntu 18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
+            correctionAdd("Cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
+            correctionAdd("cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
+            correctionAdd("18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
+
+            correctionAdd("Ubuntu 19.04 (Disco Dingo)", "Ubuntu&nbsp;19.04 (Disco Dingo)"); // Sort of identity mapping
+            correctionAdd("Ubuntu 19.04", "Ubuntu&nbsp;19.04 (Disco Dingo)");
+            correctionAdd("ubuntu 19.04", "Ubuntu&nbsp;19.04 (Disco Dingo)");
+            correctionAdd("Disco Dingo", "Ubuntu&nbsp;19.04 (Disco Dingo)");
+            correctionAdd("ubuntu 19", "Ubuntu&nbsp;19.04 (Disco Dingo)");
+            correctionAdd("Ubuntu 19", "Ubuntu&nbsp;19.04 (Disco Dingo)");
+            correctionAdd("19.04", "Ubuntu&nbsp;19.04 (Disco Dingo)");
+            correctionAdd("disco", "Ubuntu&nbsp;19.04 (Disco Dingo)");
+            correctionAdd("Disco", "Ubuntu&nbsp;19.04 (Disco Dingo)");
+
+            // It broke the clipboard!!!! -
+            //
+            //   <https://pmortensen.eu/world2/2022/06/27/blues-typing-out-fixed-texts-on-both-qmk-and-arduino-leonardo-based-macro-keyboards/#GNOME_breaks_stuff>
+            //
+            // Note: "Ubuntu 19.04 (Disco Dingo)" is in another word set
+            //
+            correctionAdd("Ubuntu 19.04 eoan", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
+            correctionAdd("Ubuntu v.19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
+            correctionAdd("Ubuntu 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
+            correctionAdd("ubuntu 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
+            correctionAdd("UBUNTU 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
+            correctionAdd("Ubunto 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
+            correctionAdd("Ubuntu 19.10 (Eoan Ermine)", "Ubuntu&nbsp;19.10 (Eoan Ermine)"); // Sort of identity mapping
+            correctionAdd("19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
+            correctionAdd("eoan", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
+            correctionAdd("Eoan", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
+
+            correctionAdd("Ubuntu 20.04 (Focal Fossa)", "Ubuntu&nbsp;20.04 (Focal Fossa)"); // Sort of identity mapping
+            correctionAdd("ubuntu 20.4 focal fossa", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu Linux 20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu&nbsp;20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu 20.04 LTS", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("ubuntu 20.04 LTS", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("ubuntu 20.04LTS", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu 20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("ubuntu 20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("ubuntu-focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu Focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("ubuntu-20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("UBUNTU 20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("ubuntu20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("focal fossa", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu 20.4", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("ubuntu 20.4", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu 20", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("ubuntu 20", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("ubuntu-20", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("20.04 lts", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu20", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("20.04lts", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("20", "Ubuntu&nbsp;20.04 (Focal Fossa)"); // Yes, highly context dependent...
+
+            correctionAdd("Ubuntu MATE 20.04 (Focal Fossa)", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)"); // Sort of identity mapping
+            correctionAdd("Ubuntu 20.04 MATE", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu MATE 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("ubuntu mate 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("ubuntu 20.04 mate", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu 20.04 mate", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu Mate 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("MATE 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("20.04 mate", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("20.04 MATE", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("mate 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+
+            correctionAdd("Ubuntu 20.10", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
+            correctionAdd("Ubuntu 20.10 (Groovy Gorilla)", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
+            correctionAdd("ubuntu 20.10", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
+            correctionAdd("20.10", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
+
+            correctionAdd("Ubuntu 21.04 (Hirsute Hippo)", "Ubuntu&nbsp;21.04 (Hirsute Hippo)"); // Sort of identity mapping
+            correctionAdd("ubuntu hirsute", "Ubuntu&nbsp;21.04 (Hirsute Hippo)");
+            correctionAdd("Hirsute Hippo", "Ubuntu&nbsp;21.04 (Hirsute Hippo)");
+            correctionAdd("Ubuntu 21.04", "Ubuntu&nbsp;21.04 (Hirsute Hippo)");
+            correctionAdd("ubuntu 21.04", "Ubuntu&nbsp;21.04 (Hirsute Hippo)");
+            correctionAdd("hirsute", "Ubuntu&nbsp;21.04 (Hirsute Hippo)");
+            correctionAdd("21.04", "Ubuntu&nbsp;21.04 (Hirsute Hippo)");
+
+            correctionAdd("Ubuntu 21.10 (Impish Indri)", "Ubuntu&nbsp;21.10 (Impish Indri)"); // Sort of identity mapping
+            correctionAdd("ubuntu 21.10 impish", "Ubuntu&nbsp;21.10 (Impish Indri)");
+            correctionAdd("Ubuntu 21.10", "Ubuntu&nbsp;21.10 (Impish Indri)");
+            correctionAdd("ubuntu 21.10", "Ubuntu&nbsp;21.10 (Impish Indri)");
+            correctionAdd("impish", "Ubuntu&nbsp;21.10 (Impish Indri)");
+            correctionAdd("Impish", "Ubuntu&nbsp;21.10 (Impish Indri)");
+            correctionAdd("21.10", "Ubuntu&nbsp;21.10 (Impish Indri)");
+
+            correctionAdd("Ubuntu Linux 22.xx", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("Jammy Jellyfish", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("Jammy jellyfish", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("jammy jellyfish", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("Ubuntu 22 LTS", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("ubuntu 22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("Ubuntu 22.04 (Jammy Jellyfish)", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)"); // Sort of identity mapping
+            correctionAdd("Ubuntu 22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("Ubuntu 22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("ubuntu-22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("Ubuntu22LTS", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("Ubuntu22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("ubuntu22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("the gobble", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("the gopple", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("Ubuntu 22", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("ubuntu 22", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("Jellyfish", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("The gople", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("the gople", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("ubuntu22", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("gobble", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("gopple", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("Jammy", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("jammy", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("gople", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("22:04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("22.xx", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("22", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+
+            correctionAdd("Ubuntu 22.10 (Kinetic Kudu)", "Ubuntu&nbsp;22.10 (Kinetic Kudu)"); // Sort of identity mapping
+            correctionAdd("22.10", "Ubuntu&nbsp;22.10 (Kinetic Kudu)");
+
+            correctionAdd("Ubuntu 23.04 (Lunar Lobster)", "Ubuntu&nbsp;23.04 (Lunar Lobster)"); // Sort of identity mapping
+            correctionAdd("Ubuntu 23.04", "Ubuntu&nbsp;23.04 (Lunar Lobster)");
+            correctionAdd("23.04", "Ubuntu&nbsp;23.04 (Lunar Lobster)");
+
+            correctionAdd("Ubuntu 23.10 (Mantic Minotaur)", "Ubuntu&nbsp;23.10 (Mantic Minotaur)"); // Sort of identity mapping
+            correctionAdd("Ubuntu 23.10", "Ubuntu&nbsp;23.10 (Mantic Minotaur)");
+            correctionAdd("bovine", "Ubuntu&nbsp;23.10 (Mantic Minotaur)");
+            correctionAdd("23.10", "Ubuntu&nbsp;23.10 (Mantic Minotaur)");
+
+            correctionAdd("Ubuntu 24.04 (Noble Numbat)", "Ubuntu&nbsp;24.04 (Noble Numbat)"); // Sort of identity mapping
+            correctionAdd("Ubuntu noble 24.04", "Ubuntu&nbsp;24.04 (Noble Numbat)");
+            correctionAdd("Ubuntu 24.04", "Ubuntu&nbsp;24.04 (Noble Numbat)");
+            correctionAdd("ubuntu 24.04", "Ubuntu&nbsp;24.04 (Noble Numbat)");
+            correctionAdd("ubuntu 24.01", "Ubuntu&nbsp;24.04 (Noble Numbat)"); // Probably 24.04.01
+            correctionAdd("ubunto 24.04", "Ubuntu&nbsp;24.04 (Noble Numbat)");
+            correctionAdd("Noble Numbat", "Ubuntu&nbsp;24.04 (Noble Numbat)");
+            correctionAdd("Ubuntu:24.04", "Ubuntu&nbsp;24.04 (Noble Numbat)");
+            correctionAdd("ubuntu-24.04", "Ubuntu&nbsp;24.04 (Noble Numbat)");
+            correctionAdd("Ubuntu Noble", "Ubuntu&nbsp;24.04 (Noble Numbat)");
+            correctionAdd("Ubuntu noble", "Ubuntu&nbsp;24.04 (Noble Numbat)");
+            correctionAdd("ubuntu 24", "Ubuntu&nbsp;24.04 (Noble Numbat)");
+            correctionAdd("Ubuntu 24", "Ubuntu&nbsp;24.04 (Noble Numbat)");
+            correctionAdd("Noble", "Ubuntu&nbsp;24.04 (Noble Numbat)");
+            correctionAdd("24.04", "Ubuntu&nbsp;24.04 (Noble Numbat)");
+            correctionAdd("noble", "Ubuntu&nbsp;24.04 (Noble Numbat)");
+
+            correctionAdd("Ubuntu 26.04 (Resolute Raccoon)", "Ubuntu&nbsp;26.04 (Resolute Raccoon)"); // Sort of identity mapping
+            correctionAdd("Ubuntu 26.04", "Ubuntu&nbsp;26.04 (Resolute Raccoon)");
+            correctionAdd("ubuntu 26.04", "Ubuntu&nbsp;26.04 (Resolute Raccoon)");
+            correctionAdd("ubuntu 2604", "Ubuntu&nbsp;26.04 (Resolute Raccoon)");
+            correctionAdd("ubuntu26.04", "Ubuntu&nbsp;26.04 (Resolute Raccoon)");
+            correctionAdd("ubuntu2604", "Ubuntu&nbsp;26.04 (Resolute Raccoon)");
+            correctionAdd("26.04", "Ubuntu&nbsp;26.04 (Resolute Raccoon)");
+            correctionAdd("2604", "Ubuntu&nbsp;26.04 (Resolute Raccoon)");
+
+            // A Linux distribution
+            //
+            // A duplicate of "MATE"?
+            correctionAdd("ubuntu manta", "Ubuntu&nbsp;MATE");
+            correctionAdd("Ubuntu MATE", "Ubuntu&nbsp;MATE"); // Sort of identity mapping
+            correctionAdd("Ubuntu Mate", "Ubuntu&nbsp;MATE");
+            correctionAdd("ubuntu mate", "Ubuntu&nbsp;MATE");
+            correctionAdd("ubuntu Mate", "Ubuntu&nbsp;MATE");
+            correctionAdd("Ubuntu-MATE", "Ubuntu&nbsp;MATE");
+            correctionAdd("UbuntuMate", "Ubuntu&nbsp;MATE");
+
+            correctionAdd("ChromeBook", "Chromebook");
+            correctionAdd("chromebook", "Chromebook");
+
+            // Related to Chromebook
+            correctionAdd("crouton", "Crouton");
+
+            // A Linux distribution
+            // Related to Crouton
+            correctionAdd("chrubuntu", "ChrUbuntu");
+
+            // Related to Chromebook
+            correctionAdd("ChromeOS", "Chrome OS");
+            correctionAdd("ChromeOs", "Chrome OS");
+            correctionAdd("chromeOS", "Chrome OS");
+
+            correctionAdd("lubuntu", "Lubuntu");
+            correctionAdd("LUbuntu", "Lubuntu");
+
+            // A Linux distribution
+            correctionAdd("kubuntu", "Kubuntu");
+            correctionAdd("KUbuntu", "Kubuntu");
+            correctionAdd("kUbuntu", "Kubuntu");
+            correctionAdd("kubutnu", "Kubuntu");
+            correctionAdd("KUBUNTU", "Kubuntu");
+
+            correctionAdd("Kubuntu 16.04 (Xenial Xerus)", "Kubuntu&nbsp;16.04 (Xenial Xerus)"); // Sort of identity mapping
+            correctionAdd("Kubuntu 16.04", "Kubuntu&nbsp;16.04 (Xenial Xerus)");
+
+            correctionAdd("Kubuntu 20.04 (Focal Fossa)", "Kubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Kubuntu 20.04", "Kubuntu&nbsp;20.04 (Focal Fossa)");
+
+            correctionAdd("Kubuntu 24.04 (Noble Numbat)", "Kubuntu&nbsp;24.04 (Noble Numbat)"); // Sort of identity mapping
+            correctionAdd("kubuntu24.04", "Kubuntu&nbsp;24.04 (Noble Numbat)");
+
+            correctionAdd("xubunbtu", "Xubuntu");
+            correctionAdd("Xubunbtu", "Xubuntu");
+            correctionAdd("xubuntu", "Xubuntu");
+            correctionAdd("XUbuntu", "Xubuntu");
+            correctionAdd("xubutu", "Xubuntu");
+            correctionAdd("xbuntu", "Xubuntu");
+
+            // A Linux distribution
+            correctionAdd("edubuntu", "Edubuntu");
+
+            // A Linux distribution
+            //
+            // Dubious?!?!
+            //
+            correctionAdd("Windows Ubuntu", "Wubuntu");
+            correctionAdd("wubuntu", "Wubuntu");
+
+            // A Linux distribution
+            correctionAdd("angstrom linux", "Ångström Linux");
+            correctionAdd("Angstrom Linux", "Ångström Linux");
+            correctionAdd("angstrom", "Ångström Linux");
+            correctionAdd("Angstrom", "Ångström Linux");
+
+            // A Linux distribution
+            correctionAdd("bunsenlabs", "BunsenLabs (Debian Linux-based)");
+            correctionAdd("BunsenLabs", "BunsenLabs (Debian Linux-based)");
+            correctionAdd("Bunsen", "BunsenLabs (Debian Linux-based)");
+
+            // A Linux distribution
+            correctionAdd("alphine linux", "Alpine Linux");
+            correctionAdd("alpine linux", "Alpine Linux");
+            correctionAdd("Alpine", "Alpine Linux");
+            correctionAdd("alpine", "Alpine Linux");
+
+            // A type of a Linux installation.
+            correctionAdd("Linux from Scratch", "Linux From Scratch");
+            correctionAdd("linux from scratch", "Linux From Scratch");
+            correctionAdd("Linux from scratch", "Linux From Scratch");
+            correctionAdd("linuxfromscratch", "Linux From Scratch");
+
+            // A Linux distribution
+            //
+            // Alternative URLs:
+            //
+            //   <https://distrowatch.com/table.php?distribution=arco>
+            //   <https://www.youtube.com/watch?v=X2nRnHo-lcM>
+            correctionAdd("Agro Linux", "ArcoLinux");
+            correctionAdd("Arco Linux", "ArcoLinux");
+            correctionAdd("arco linux", "ArcoLinux");
+            correctionAdd("arcolinux", "ArcoLinux");
+            correctionAdd("AgroLinux", "ArcoLinux");
+            correctionAdd("Arcolinux", "ArcoLinux");
+            correctionAdd("arco", "ArcoLinux");
+            correctionAdd("Arco", "ArcoLinux");
+
+            // Alternative URL: <https://www.youtube.com/watch?v=v6ftVvLt2ls>
+            correctionAdd("AAG", "ArcoLinux Auditing Group");
+
+            // A Linux distribution
+            correctionAdd("manjaro linux", "Manjaro");
+            correctionAdd("Manajro", "Manjaro"); // A true typo
+            correctionAdd("manjaro", "Manjaro");
+
+            // A Linux distribution
+            correctionAdd("PC Linux OS", "PCLinuxOS");
+
+            // Effectively a (lightweight) Linux distribution
+            //
+            // Some variants support 32 bit.
+            // JWM window manager.
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=qUpdHF69BQY>
+            //
+            correctionAdd("puppy linux", "Puppy Linux");
+            correctionAdd("poppy linux", "Puppy Linux");
+            correctionAdd("puppy Linux", "Puppy Linux");
+            correctionAdd("Puppy", "Puppy Linux");
+
+            // Support for developing Linux distributions
+            correctionAdd("Yocto Linux", "Yocto Project");
+            correctionAdd("octo linux", "Yocto Project");
+            correctionAdd("yocto", "Yocto Project");
+            correctionAdd("Yocto", "Yocto Project");
+
+            // A Linux distribution(?): "A reference/example embedded
+            // Linux configuration used for testing". Yocto
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Yocto_Project>
+            //
+            correctionAdd("poky", "Poky");
+
+            // A lightweight Linux distribution.
+            //
+            // Not to be confused with the "Artix Linux" Linux distribution
+            //
+            // It supports 32 bit.
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=qUpdHF69BQY>
+            //     Top 5 Linux distributions for older hardware
+            //
+            correctionAdd("AntiX Linux", "antiX");
+            correctionAdd("AntiX", "antiX");
+            correctionAdd("antix", "antiX");
+            correctionAdd("Antix", "antiX");
+
+            // A lightweight Linux distribution. Based on Debian.
+            correctionAdd("q4os", "Q4OS");
+
+            // A lightweight Linux distribution.
+            // But not 32 bit (based on Ubuntu LTS).
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=qUpdHF69BQY>
+            //
+            correctionAdd("linux lite", "Linux Lite");
+
+            // A lightweight Linux distribution.
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=qUpdHF69BQY>
+            //   <https://maboxlinux.org/>
+            //
+            correctionAdd("mabox", "Mabox Linux");
+            correctionAdd("Mabox", "Mabox Linux");
+
+            // A Linux distribution
+            correctionAdd("Alma Linux", "AlmaLinux");
+            correctionAdd("Almalinux", "AlmaLinux");
+            correctionAdd("Alma", "AlmaLinux");
+            correctionAdd("alma", "AlmaLinux");
+
+            // A Linux distribution
+            correctionAdd("rockylinux", "Rocky Linux");
+            correctionAdd("RockyLinux", "Rocky Linux");
+            correctionAdd("Rocky", "Rocky Linux");
+
+            // A Linux distribution.
+            //
+            // Note: Not to be confused with the "antiX" Linux distribution
+            //
+            // Tries to get higher in DistroWatch rankings by nefarious means.
+            //
+            // Based on Arch Linux. Does not use 'systemd' (Arch Linux was
+            // one of the first to switch to 'systemd' (from System V?));
+            // a protest Linux distribution
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=tdr-144Ondo>
+            //
+            //   <https://odysee.com/@DistroTube:2/is-artix-linux-just-a-protest-distro:7>
+            //
+            correctionAdd("artix linux", "Artix Linux");
+            correctionAdd("ArtiX", "Artix Linux");
+            correctionAdd("Artix", "Artix Linux");
+            correctionAdd("artix", "Artix Linux");
+
+            // A Linux distribution
+            correctionAdd("CloudLinux", "CloudLinux OS");
+
+            // A Linux distribution
+            correctionAdd("Endeavour OS", "EndeavourOS");
+            correctionAdd("endeavour os", "EndeavourOS");
+            correctionAdd("Endeavour os", "EndeavourOS");
+            correctionAdd("endeavouros", "EndeavourOS");
+            correctionAdd("endeavor os", "EndeavourOS");
+            correctionAdd("endeavor OS", "EndeavourOS");
+            correctionAdd("Endeavouros", "EndeavourOS");
+            correctionAdd("endevour os", "EndeavourOS");
+            correctionAdd("EndeavorOS", "EndeavourOS");
+            correctionAdd("EndevourOS", "EndeavourOS");
+            correctionAdd("EndavourOS", "EndeavourOS");
+            correctionAdd("Endeavour", "EndeavourOS");
+            correctionAdd("Endevor", "EndeavourOS");
+            correctionAdd("EOS", "EndeavourOS");
+
+            // Effectively a Linux distribution
+            correctionAdd("Solus Plasma", "Solus");
+            correctionAdd("Solus Linux", "Solus");
+            correctionAdd("Evolve OS", "Solus");
+            correctionAdd("solus", "Solus");
+
+            // A Linux distribution
+            correctionAdd("Xero Linux", "XeroLinux");
+            correctionAdd("Zero Linux", "XeroLinux");
+            correctionAdd("xero", "XeroLinux");
+
+            // A Linux distribution
+            correctionAdd("SpringdaleLinux", "Springdale Linux");
+
+            // A Linux distribution
+            correctionAdd("Sparky Linux", "SparkyLinux");
+
+            // A Linux distribution
+            correctionAdd("KANOTIX", "Kanotix");
+
+            // A Linux distribution
+            correctionAdd("Garuda linux", "Garuda Linux");
+            correctionAdd("Garuda", "Garuda Linux");
+            correctionAdd("garuda", "Garuda Linux");
+
+            // A Linux distribution
+            correctionAdd("void linux", "Void Linux");
+            correctionAdd("Void linux", "Void Linux");
+            correctionAdd("Void", "Void Linux");
+
+            // A Linux distribution
+            correctionAdd("endless OS", "Endless OS");
+
+            // A Linux distribution
+            correctionAdd("Elementary&nbsp;OS", "elementary&nbsp;OS");
+            correctionAdd("Elementary OS", "elementary&nbsp;OS"); // Sort of identity mapping
+            correctionAdd("elementary os", "elementary&nbsp;OS");
+            correctionAdd("elementary OS", "elementary&nbsp;OS");
+            correctionAdd("ElementaryOS", "elementary&nbsp;OS");
+            correctionAdd("elementaryOS", "elementary&nbsp;OS");
+            correctionAdd("elementaryos", "elementary&nbsp;OS");
+            correctionAdd("Elementary", "elementary&nbsp;OS");
+            correctionAdd("elementary", "elementary&nbsp;OS");
+            correctionAdd("eOS", "elementary&nbsp;OS");
+
+            // A Linux distribution
+            correctionAdd("Cent OS", "CentOS");
+            correctionAdd("cent-os", "CentOS");
+            correctionAdd("cent os", "CentOS");
+            correctionAdd("centos", "CentOS");
+            correctionAdd("Centos", "CentOS");
+            correctionAdd("centOS", "CentOS");
+            correctionAdd("CENTOS", "CentOS");
+            correctionAdd("CentOs", "CentOS");
+            correctionAdd("centOs", "CentOS");
+            correctionAdd("CentoS", "CentOS");
+            correctionAdd("cent", "CentOS");
+
+            correctionAdd("CentOS 7", "CentOS version 7");
+            correctionAdd("Centos 7", "CentOS version 7");
+            correctionAdd("CentOS7", "CentOS version 7");
+
+            correctionAdd("CentOS 8", "CentOS version 8");
+            correctionAdd("CentOS-8", "CentOS version 8");
+
+            // An operating system. Based on CentOS. Linux.
+            correctionAdd("openfiler", "Openfiler");
+
+            correctionAdd("centos stream", "CentOS Stream");
+
+            // A Linux distribution
+            //
+            // Claimed to have good documentation
+            //
+            correctionAdd("Nix OS", "NixOS");
+            correctionAdd("Nix Os", "NixOS");
+            correctionAdd("nix os", "NixOS");
+            correctionAdd("nixos", "NixOS");
+            correctionAdd("nixOs", "NixOS");
+            correctionAdd("nixOS", "NixOS");
+
+            // A Linux distribution
+            correctionAdd("zorin os", "Zorin OS");
+            correctionAdd("Zorin os", "Zorin OS");
+            correctionAdd("ZorinOS", "Zorin OS");
+            correctionAdd("zorin", "Zorin OS");
+            correctionAdd("Zorin", "Zorin OS");
+
+            // A paid edition of Zorin OS
+            correctionAdd("zorin Pro", "Zorin OS Pro");
+
+            // A Linux distribution
+            correctionAdd("parrot os", "Parrot OS");
+            correctionAdd("parrot OS", "Parrot OS");
+            correctionAdd("ParrotOS", "Parrot OS");
+            correctionAdd("Parrot", "Parrot OS");
+            correctionAdd("parrot", "Parrot OS");
+
+            // A Linux distribution
+            correctionAdd("pureos", "PureOS");
+
+            // A Linux distribution
+            correctionAdd("moonlight", "Moonlight");
+
+            // A Linux distribution
+            correctionAdd("Tuxedo", "Tuxedo OS");
+
+            // A Linux distribution
+            correctionAdd("knoppix", "Knoppix");
+
+            // A Linux distribution
+            correctionAdd("LinuxFX", "Linuxfx");
+            correctionAdd("linuxfx", "Linuxfx");
+
+            // A Linux distribution
+            correctionAdd("Amazon AWS Linux", "Amazon Linux 2");
+            correctionAdd("Amazon Linux", "Amazon Linux 2");
+            correctionAdd("AWS Linux", "Amazon Linux 2");
+            correctionAdd("aws linux", "Amazon Linux 2");
+            correctionAdd("Linux 2", "Amazon Linux 2");
+            correctionAdd("Linux2", "Amazon Linux 2");
+
+            // A Linux distribution. Gaming oriented.
+            //
+            // Not to be confused with Steam, though they
+            // are closely related.
+            //
+            correctionAdd("Steam OS", "SteamOS");
+            correctionAdd("steamOS", "SteamOS");
+            correctionAdd("SteamOs", "SteamOS");
+            correctionAdd("steamos", "SteamOS");
+
+            // A Linux distribution
+            correctionAdd("chimera linux", "Chimera Linux");
+
+            // A Linux distribution
+            correctionAdd("absolute linux", "Absolute Linux");
+
+            // A Linux distribution
+            correctionAdd("bodhi linux", "Bodhi Linux");
+
+            // A Linux distribution
+            correctionAdd("Slax Remix", "Porteus");
+            correctionAdd("porteus", "Porteus");
+
+            // A Linux distribution
+            correctionAdd("lxle linux", "LXLE Linux");
+
+            // A Linux distribution
+            correctionAdd("Mendel", "Mendel Linux");
+
+            // A Linux distribution. On ARM / Apple hardware
+            correctionAdd("asahi linux", "Asahi Linux");
+
+            // A Linux distribution
+            //
+            // Alternative URLs:
+            //
+            //   <https://nutyx.org/en/>
+            //
+            correctionAdd("nutyx", "NuTyX");
+
+            // A Linux distribution. An Arch Linux derivative
+            //
+            // Allegedly good for gaming
+            //
+            correctionAdd("CatchyOS", "CachyOS");
+            correctionAdd("cachyos", "CachyOS");
+            correctionAdd("CahyOS", "CachyOS");
+
+            // A Linux distribution
+            correctionAdd("jolli os", "Joli OS");
+
+            // A Linux distribution
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.techrepublic.com/article/vanilla-os-linux-desktop/>
+            //
+            correctionAdd("VanillaOS", "Vanilla OS");
+            correctionAdd("Vanilla", "Vanilla OS");
+
+            // A Linux distribution. Related to Arch Linux
+            //
+            // Alternative URLs:
+            //
+            //   <https://wiki.rebornos.org/en/home>
+            //   <https://www.linuxinsider.com/story/rebornos-brings-choice-and-simplicity-to-arch-linux-176494.html>
+            //
+            correctionAdd("RebornOs", "RebornOS");
+
+            // A Linux distribution. Gaming oriented.
+            //
+            // Not to be confused with PikeOS.
+            //
+            // Alternative URLs:
+            //
+            //    <https://linuxiac.com/pikaos/>
+            //
+            correctionAdd("pikaos", "PikaOS");
+
+            // A Linux distribution
+            //
+            // Not to be confused with PikaOS.
+            //
+            correctionAdd("pikeos", "PikeOS");
+
+            // A Linux distribution
+            correctionAdd("Clear Linux", "Clear Linux OS");
+
+            // A Linux distribution
+            correctionAdd("deepin", "Deepin");
+
+            // A Linux distribution
+            correctionAdd("Guix System", "GNU Guix System");
+            correctionAdd("GuixSD", "GNU Guix System");
+            correctionAdd("geeks", "GNU Guix System");
+
+            // A Linux distribution
+            correctionAdd("Mandrake Linux", "Mandriva Linux");
+            correctionAdd("Mandrake", "Mandriva Linux");
+            correctionAdd("Mandriva", "Mandriva Linux");
+
+            // Linux. A power management tool. Laptop. Power. Battery.
+            //
+            // Alternative URLs:
+            //
+            //   <https://github.com/linrunner/TLP>
+            //   <https://linrunner.de/tlp/index.html>
+            //   <https://linuxconfig.org/how-to-optimize-laptop-battery-life-with-tlp-on-linux>
+            //   <https://www.reddit.com/r/linux4noobs/comments/o01t2g/whats_the_difference_between_tlp_powertop_tlpui/>
+            //
+            correctionAdd("tlp", "TLP");
+
+            correctionAdd("Simple Linux Utility for Resource Management", "Slurm Workload Manager");
+            correctionAdd("Slurm", "Slurm Workload Manager");
+            correctionAdd("SLURM", "Slurm Workload Manager");
+
+            correctionAdd("unetbootin", "UNetbootin");
+            correctionAdd("Unetbootin", "UNetbootin");
+            correctionAdd("UnetBootin", "UNetbootin");
+            correctionAdd("uNetBootin", "UNetbootin");
+
+            // An organisation
+            correctionAdd("Euro Linux", "EuroLinux");
+
+            // Bootloaders for Linux
+            correctionAdd("SYSLINUX", "Syslinux");
+
+            // An Android-based mobile operating system
+            correctionAdd("Lineage OS", "LineageOS");
+            correctionAdd("lineageOS", "LineageOS");
+
+            // An Android-based mobile operating system
+            correctionAdd("iode OS", "iodéOS");
+            correctionAdd("iota OS", "iodéOS");
+
+            // Linux
+            correctionAdd("Konky", "Conky");
+            correctionAdd("conky", "Conky");
+            correctionAdd("konky", "Conky");
+            correctionAdd("CONKY", "Conky");
+
+            // Linux
+            correctionAdd("KDRE", "KDE");
+            correctionAdd("kde", "KDE");
+            correctionAdd("Kde", "KDE");
+
+            correctionAdd("KDE 4", "KDE&nbsp;4"); // Sort of identity mapping
+            correctionAdd("kde4", "KDE&nbsp;4");
+            correctionAdd("KDE4", "KDE&nbsp;4");
+
+            // A Linux distribution.
+            correctionAdd("KDE Neon", "KDE neon");
+            correctionAdd("KDEneon", "KDE neon");
+
+            correctionAdd("KDE Applications Bundle", "KDE Gear");
+
+            correctionAdd("KDRE Plasma", "KDE Plasma");
+            correctionAdd("kde plasma", "KDE Plasma");
+            correctionAdd("KDE Plama", "KDE Plasma");
+            correctionAdd("plasma", "KDE Plasma");
+            correctionAdd("Plasma", "KDE Plasma");
+
+            correctionAdd("kde plasma 6", "KDE Plasma 6");
+            correctionAdd("plasma 6", "KDE Plasma 6");
+            correctionAdd("Plasma 6", "KDE Plasma 6");
+            correctionAdd("Kde6", "KDE Plasma 6");
+
+            // Linux. KDE.
+            correctionAdd("krunner", "KRunner");
+
+            correctionAdd("KDE connect", "KDE Connect");
+            correctionAdd("kdeconnect", "KDE Connect");
+
+            // An IDE. Linux.
+            correctionAdd("Kdevelop", "KDevelop");
+
+            // Linux
+            correctionAdd("flathub", "Flathub");
+
+            // Linux
+            correctionAdd("flat-pack", "Flatpak");
+            correctionAdd("Flatpack", "Flatpak");
+            correctionAdd("flatpak", "Flatpak");
+
             correctionAdd("thresh-hold", "threshold");
             correctionAdd("threeshold", "threshold");
             correctionAdd("threshhold", "threshold");
@@ -5951,6 +9834,7 @@ namespace OverflowHelper.core
             correctionAdd("tometimes", "sometimes");
             correctionAdd("sowetimes", "sometimes");
             correctionAdd("somoetime", "sometimes");
+            correctionAdd("soemtimes", "sometimes"); // A true typo
             correctionAdd("sometime", "sometimes");
             correctionAdd("someties", "sometimes");
             correctionAdd("Somtimes", "sometimes");
@@ -6104,52 +9988,6 @@ namespace OverflowHelper.core
             correctionAdd("Dowgraded", "downgraded");
 
             correctionAdd("debbie downer", "Debbie Downer");
-
-            correctionAdd("Life", "life");
-            correctionAdd("LYFE", "life");
-            correctionAdd("lyfe", "life");
-            correctionAdd("live", "life");
-            correctionAdd("LIfe", "life");
-
-            correctionAdd("life style", "lifestyle");
-            correctionAdd("life-style", "lifestyle");
-
-            correctionAdd("life-long", "lifelong");
-            correctionAdd("life long", "lifelong");
-
-            correctionAdd("life span", "lifespan");
-
-            correctionAdd("life-time", "lifetime");
-            correctionAdd("life time", "lifetime");
-
-            correctionAdd("once in a lifetime", "once-in-a-lifetime");
-
-            correctionAdd("shelf-life", "shelf life");
-
-            correctionAdd("liferaft", "life raft");
-
-            correctionAdd("life hack", "lifehack");
-
-            correctionAdd("life-cycle", "life cycle");
-            correctionAdd("lifecycle", "life cycle");
-
-            correctionAdd("4 lyfe", "for life");
-
-            correctionAdd("QoL", "quality of life");
-
-            correctionAdd("Life Pro Tip", "life pro tip");
-            correctionAdd("lpt", "life pro tip");
-            correctionAdd("LPT", "life pro tip");
-
-            correctionAdd("life of me", "for the life of me");
-
-            correctionAdd("life saver", "lifesaver");
-            correctionAdd("life Saver", "lifesaver");
-
-            correctionAdd("lifesaving", "life-saving");
-
-            correctionAdd("life threatening", "life-threatening");
-            correctionAdd("Life threatening", "life-threatening");
 
             correctionAdd("lengeht", "length");
             correctionAdd("lenght", "length");
@@ -17208,14 +21046,6 @@ namespace OverflowHelper.core
             correctionAdd("sun setted", "sunsetted");
             correctionAdd("sunset", "sunsetted");
 
-            // Arduino
-            correctionAdd("Shields", "shields");
-
-            correctionAdd("sheilded", "shielded");
-            correctionAdd("Sheilded", "shielded");
-
-            correctionAdd("sun shield", "sunshield");
-
             correctionAdd("Ecliptic", "ecliptic");
 
             correctionAdd("planetecibel", "planetesimal");
@@ -21933,2852 +25763,6 @@ namespace OverflowHelper.core
 
             correctionAdd("xming", "Xming");
 
-            correctionAdd("minix", "MINIX");
-
-            correctionAdd("penguin world", "Linux");
-            correctionAdd("penguins", "Linux");
-            correctionAdd("LinuxOS", "Linux");
-            correctionAdd("linuxOS", "Linux");
-            correctionAdd("penguin", "Linux");
-            correctionAdd("Pinguin", "Linux"); // Also a misspelling of penguin
-            correctionAdd("pinguin", "Linux"); // Also a misspelling of penguin
-            correctionAdd("Loonix", "Linux");
-            correctionAdd("linuxx", "Linux");
-            correctionAdd("Loonux", "Linux");
-            correctionAdd("loonux", "Linux");
-            correctionAdd("luunix", "Linux");
-            correctionAdd("linux", "Linux");
-            correctionAdd("LINUX", "Linux");
-            correctionAdd("Linex", "Linux");
-            correctionAdd("Linix", "Linux");
-            correctionAdd("linix", "Linux");
-            correctionAdd("LInux", "Linux");
-            correctionAdd("Lunux", "Linux");
-            correctionAdd("liunx", "Linux");
-            correctionAdd("Limux", "Linux");
-            correctionAdd("limux", "Linux");
-            correctionAdd("Linx", "Linux");
-            correctionAdd("Lnx", "Linux");
-            correctionAdd("lin", "Linux");
-            correctionAdd("Lin", "Linux");
-
-            // Alternative URLs:
-            //
-            //   <https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git>
-            //
-            correctionAdd("Linux Kernel", "Linux kernel");
-            correctionAdd("linux kernel", "Linux kernel");
-            correctionAdd("linux kernal", "Linux kernel");
-            correctionAdd("Linux kernal", "Linux kernel");
-            correctionAdd("Linux Kernal", "Linux kernel");
-            correctionAdd("kernel", "Linux kernel");
-
-            // Linux
-            correctionAdd("syscall_table", "system call table");
-
-            // Linux. A tool for getting system information
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.redhat.com/en/blog/learn-more-inxi>
-            //
-            correctionAdd("INXI", "inxi");
-
-            // Linux. Hardware information
-            //
-            // Alternative URLs:
-            //
-            //   <https://manpages.ubuntu.com/manpages/bionic/man7/hwdb.7.html>
-            //   <https://www.man7.org/linux/man-pages/man7/hwdb.7.html>
-            //
-            //   <https://manpages.ubuntu.com/manpages/focal/en/man8/systemd-hwdb.8.html>
-            //   <https://man.archlinux.org/man/systemd-hwdb.8.en>
-            //
-            correctionAdd("HWDB", "hwdb");
-
-            // An organisation (non-profit), notorious for not actually
-            // using Linux and open source internally, but instead
-            // iPhones, MacBooks, proprietary commercial software,
-            // Macs, macOS, etc. See for example:
-            //
-            //   <https://www.youtube.com/watch?v=Uun2YhnUNGc&t=8m16s>
-            //
-            //     It isn't the only place it has been noticed. For
-            //     example, YouTube channel "The Linux Experiment"
-            //     has also mentioned it (a reference needs to
-            //     be found for it).
-            //
-            correctionAdd("linux foundation", "Linux Foundation");
-
-            // Linux. A laptop power saving package
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.thinkwiki.org/wiki/Laptop-mode-tools>
-            //
-            correctionAdd("laptop mode tools", "Laptop Mode Tools");
-            correctionAdd("laptop-mode-tools", "Laptop Mode Tools");
-            correctionAdd("lmt", "Laptop Mode Tools");
-            correctionAdd("LMT", "Laptop Mode Tools");
-
-            // A website
-            correctionAdd("Kernelnewbies", "KernelNewbies");
-
-            correctionAdd("gnu/linux", "GNU/Linux");
-            correctionAdd("GNU Linux", "GNU/Linux");
-            correctionAdd("GNU/linux", "GNU/Linux");
-            correctionAdd("Gnu/Linux", "GNU/Linux");
-
-            // Linux
-            correctionAdd("grub", "GRUB");
-            correctionAdd("Grub", "GRUB");
-
-            // Linux / Unix command
-            correctionAdd("WC", "wc");
-
-            // Linux command
-            correctionAdd("GROUPADD", "groupadd");
-
-            // Linux command
-            correctionAdd("HDPARM", "hdparm");
-
-            // The Linux command
-            //
-            // Alternative URLs:
-            //
-            //   <https://linux.die.net/man/1/kill>
-            //     The command line command
-            //
-            //   <https://linux.die.net/man/2/kill>
-            //     The C interface
-            //
-            correctionAdd("man 1 kill", "kill");
-            correctionAdd("man 2 kill", "kill");
-            correctionAdd("man kill", "kill");
-            correctionAdd("KILL", "kill");
-
-            // Linux / Unix
-            correctionAdd("PKILL", "pkill");
-
-            // Linux / Unix
-            correctionAdd("MORE", "more");
-
-            // Linux command
-            correctionAdd("RM", "rm");
-
-            // Linux / Unix command
-            //
-            // In Perl: <https://perldoc.perl.org/functions/tr>
-            //
-            correctionAdd("TR", "tr");
-
-            correctionAdd("sort (unix)", "sort (Unix)");
-
-            // Linux
-            correctionAdd("SUDO", "sudo");
-            correctionAdd("sudu", "sudo");
-            correctionAdd("su", "sudo");
-
-            correctionAdd("sudoers", "/etc/sudoers");
-
-            // Linux
-            correctionAdd("VISUDO", "visudo");
-
-            // Unix
-            correctionAdd("userspace", "user space");
-            correctionAdd("user-land", "user space");
-            correctionAdd("userland", "user space"); // The official spelling of "userland"
-            correctionAdd("Userland", "user space");
-
-            // Linux. Kernel modules
-            correctionAdd("MODPROBE", "modprobe");
-
-            // Linux. Kernel modules
-            correctionAdd("INSMOD", "insmod");
-
-            // Linux. Kernel modules
-            correctionAdd("MODINFO", "modinfo");
-
-            // Linux. Kernel modules
-            correctionAdd("RMMOD", "rmmod");
-
-            // A Linux kernel module
-            correctionAdd("PCSPKR", "pcspkr");
-
-            // Linux command. Related to systemd.
-            correctionAdd("SYSTEMCTL", "systemctl");
-
-            // A system monitoring tool on Linux
-            correctionAdd("VMSTAT", "vmstat"); // The corresponding 'man' page is <https://linux.die.net/man/8/vmstat>.
-
-            // Related to Linux (transport-layer load balancing)
-            correctionAdd("ipvs", "IPVS");
-
-            correctionAdd("NOHUP", "nohup"); // Linux
-
-            // The Linux thing (the common noun is in an alternative word set)
-            //
-            // Alternative URLs:
-            //
-            //   <https://linux.die.net/man/1/screen>
-            //
-            correctionAdd("GNU Screen", "Screen");
-            correctionAdd("gnu screen", "Screen");
-            correctionAdd("GNU screen", "Screen");
-            correctionAdd("GNU/screen", "Screen");
-            correctionAdd("gnu-screen", "Screen");
-            correctionAdd("Gnu Screen", "Screen");
-            correctionAdd("gnu Screen", "Screen");
-            correctionAdd("GnuScreen", "Screen");
-            correctionAdd("gnusceen", "Screen");
-            correctionAdd("SCREEN", "Screen");
-            correctionAdd("screen", "Screen");
-            correctionAdd("sceen", "Screen");
-
-            // Linux
-            correctionAdd("busy box", "BusyBox");
-            correctionAdd("Busybox", "BusyBox");
-            correctionAdd("busybox", "BusyBox");
-
-            correctionAdd("calabash", "Calabash");
-
-            correctionAdd("Linux journal", "Linux Journal");
-
-            // A software tool
-            //
-            // Both Linux and Windows
-            //
-            // Note: "DOS" is in an alternative word set
-            correctionAdd("DOS2UNIX", "dos2unix");
-            correctionAdd("Dos2unix", "dos2unix");
-
-            // A software tool
-            //
-            // Both Linux and Windows
-            correctionAdd("UNIX2DOS", "unix2dos");
-
-            // Linux / Unix
-            correctionAdd("TROFF", "troff");
-
-            // Linux, GUI.
-            //
-            // For customizable status bars on Linux
-            correctionAdd("polybar", "Polybar");
-
-            // Linux, GUI. A panel for Xorg.
-            correctionAdd("Tint2", "tint2");
-
-            // Linux, GUI. X Window System.
-            correctionAdd("XDMCP", "X Display Manager Control Protocol");
-
-            // A file manager. Linux
-            correctionAdd("thunar", "Thunar");
-            correctionAdd("thuna", "Thunar");
-
-            // With ls cat, ls, rm, etc.
-            correctionAdd("Core Utilities", "GNU Core Utilities");
-            correctionAdd("GNU coreutils", "GNU Core Utilities");
-            correctionAdd("GNU Coreutils", "GNU Core Utilities");
-            correctionAdd("coreutils", "GNU Core Utilities");
-            correctionAdd("GNU utils", "GNU Core Utilities");
-
-            correctionAdd("Linker", "linker");
-
-            correctionAdd("linker-invocation", "linker invocation");
-
-            // For example, for embedded systems, e.g., for
-            // firmware for mechanical keyboards (like QMK).
-            //
-            // Alternative URLs:
-            //
-            //   <https://thomasbaart.nl/2018/12/01/reducing-firmware-size-in-qmk/#link-time-optimization-and-disabling-core-functionality>
-            //     Link-time optimization and disabling core functionality
-            //
-            //   <https://github.com/qmk/qmk_firmware/issues/3224>
-            //     Running out of space, anything I can delete to make more room? #3224
-            //
-            correctionAdd("Link Time Optimization", "link-time optimization");
-            correctionAdd("link time optimization", "link-time optimization");
-            correctionAdd("LTO", "link-time optimization");
-            correctionAdd("lto", "link-time optimization");
-
-            correctionAdd("ld.so", "GNU linker");
-            correctionAdd("ld", "GNU linker");
-
-            // Linux
-            correctionAdd("autotools", "GNU Autotools");
-            correctionAdd("Autotools", "GNU Autotools");
-
-            // Linux
-            correctionAdd("GNU Binutils", "GNU Binary Utilities");
-            correctionAdd("binutils", "GNU Binary Utilities"); // Official shorthand
-
-            // A Linux text editor. Also for Windows.
-            //
-            // Disguised as "Text Editor" on Ubuntu / GNOME.
-            //
-            correctionAdd("GEdit", "gedit");
-            correctionAdd("Gedit", "gedit");
-            correctionAdd("gEdit", "gedit");
-
-            // A Linux text editor
-            correctionAdd("Kwrite", "KWrite");
-
-            // A text editor
-            //
-            // Alternative URLs:
-            //
-            //   <https://linuxhaxor.net/code/change-themes-geany-text-editor-raspberry-pi.html>
-            //     Is built on GTK
-            //
-            //   <https://github.com/geany/geany>
-            //     GitHub. E.g.,
-            //
-            //     <https://github.com/geany/geany/issues/>
-            //       Geany 'Issues', e.g.,
-            //
-            //       <https://github.com/geany/geany/issues/1387#issuecomment-287537022>
-            //         Underscore doesn't appear #1387
-            //
-            //   <https://wiki.geany.org/snippets/start>
-            //     Geany snippets
-            //
-            //     <https://github.com/jhradilek/geany-snippets/blob/master/docbook_snippets.conf>
-            //       An example with 450 snippets
-            //
-            correctionAdd("Geaney", "Geany");
-            correctionAdd("geany", "Geany");
-            correctionAdd("Geney", "Geany");
-            correctionAdd("Genea", "Geany");
-            correctionAdd("geant", "Geany");
-            correctionAdd("Genay", "Geany");
-            correctionAdd("GEany", "Geany");
-
-            // Text templates for Geany
-            correctionAdd("snippets", "Geany snippets");
-
-            // A text editor
-            correctionAdd("KATE", "Kate");
-            correctionAdd("kate", "Kate");
-
-            // A text editor
-            //
-            // DHH helped to create it...:
-            //
-            //   <https://www.youtube.com/watch?v=S_RqZG6YR5M&t=5m22s>
-            //
-            correctionAdd("Text mate", "TextMate");
-            correctionAdd("Textmate", "TextMate");
-            correctionAdd("textmate", "TextMate");
-            correctionAdd("texmate", "TextMate");
-            correctionAdd("Texmate", "TextMate");
-            correctionAdd("TM", "TextMate");
-
-            // A text editor
-            correctionAdd("helix", "Helix");
-
-            // A text editor. Linux
-            correctionAdd("kakoune", "Kakoune");
-
-            // Linux. A text editor. Not to be confused with the
-            // key stroke recording program "xev"
-            //
-            correctionAdd("xed", "Xed");
-
-            // A text editor, associated with Xfce
-            correctionAdd("mousepad", "Mousepad");
-
-            // A text editor. Is based on Qt, so it
-            // may or may not be cross-platform
-            //
-            // Alternative URLs:
-            //
-            //   <https://github.com/notepadqq/notepadqq>
-            //
-            correctionAdd("notepadqq", "Notepadqq");
-
-            // Linux. And PowerShell and others?
-            correctionAdd("POPD", "popd");
-
-            // Linux. And PowerShell and others?
-            correctionAdd("PUSHD", "pushd");
-
-            // Linux / Unix
-            correctionAdd("ROUTE", "route");
-
-            // Linux
-            correctionAdd("DMESG", "dmesg");
-            correctionAdd("dmsg", "dmesg");
-
-            // Linux / Unix
-            correctionAdd("TMUX", "tmux");
-            correctionAdd("Tmux", "tmux");
-
-            // Linux / Unix. NetCDF.
-            // Not to be confused with HFS (Mac/Apple).
-            correctionAdd("hdf5", "HDF5");
-
-            // Linux
-            correctionAdd("Ioctl", "ioctl");
-
-            // Linux
-            correctionAdd("dlsym", "dlsym()");
-
-            // Linux
-            //
-            // Alternative URLs:
-            //
-            //   <https://man.archlinux.org/man/shmget.2.en#EINVAL%7E2>
-            //
-            correctionAdd("shmget(1)", "shmget(2)");
-            correctionAdd("shmget", "shmget(2)");
-
-            // Alternative URLs:
-            //
-            //   <https://linux.die.net/man/1/crontab>
-            //
-            correctionAdd("CRONTAB", "crontab");
-            correctionAdd("crontad", "crontab");
-
-            // Related to netcat (Linux / Unix)
-            correctionAdd("SOCAT", "socat");
-
-            correctionAdd("Job Control", "job control");
-
-            // Linux / Unix. Or in a GUI context (undo).
-            correctionAdd("Ctrl + Z", "<kbd>Ctrl</kbd> + <kbd>Z</kbd>");
-            correctionAdd("undo", "<kbd>Ctrl</kbd> + <kbd>Z</kbd>");
-
-            // Linux / Unix
-            //
-            // Signal number: ??
-            //
-            correctionAdd("SIGRTMIN", "SIG_RTMIN");
-
-            // Linux commandline. DMI/SMBIOS table decoder
-            // (for System Management BIOS and
-            // Desktop Management Interface, respectively)
-            //
-            correctionAdd("DMIDECODE", "dmidecode");
-
-            // Mostly Linux, but also Windows (WMI)
-            correctionAdd("dmi", "Desktop Management Interface");
-            correctionAdd("DMI", "Desktop Management Interface");
-
-            // Mostly Linux, but also Windows (WMI)
-            correctionAdd("SMBIOS", "System Management BIOS");
-
-            // Linux.
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/TLDR_Pages>
-            //   <https://tldr.sh/>
-            //     Has an online version, but it requires JavaScript:
-            //       <https://tldr.inbrowser.app/pages/common/seq>
-            //
-            //   <https://cht.sh>
-            //     Online. With examples.
-            //
-            //   <https://linux.die.net/man/1/man>
-            //     An online version of 'man man'
-            //
-            //   <https://linux.die.net/man/1/intro>
-            //     An online version of 'man -s 1 intro' (introduction to user commands)
-            //
-            //   <https://linux.die.net/man/2/intro>
-            //     An online version of 'man -s 2 intro' (introduction to system calls)
-            //
-            //   <https://en.wikipedia.org/wiki/Man_page#Manual_sections>
-            //     A description of the sections, 1-8.
-            //
-            //   <https://superuser.com/questions/297702>
-            //     What do the parentheses and number after a Unix command or C function mean?
-            //
-            //   <https://unix.stackexchange.com/questions/3586>
-            //     What do the numbers in a man page mean?
-            //
-            //   <https://stackoverflow.com/questions/62936>
-            //     What does the number in parentheses shown after
-            //     Unix command names in man pages mean?
-            //
-            correctionAdd("manual page", "man page");
-            correctionAdd("Man page", "man page");
-            correctionAdd("man-page", "man page");
-            correctionAdd("MAN page", "man page");
-            correctionAdd("manpage", "man page");
-            correctionAdd("Manpage", "man page");
-            correctionAdd("man", "man page");
-
-            correctionAdd("MAN pages", "man pages");
-            correctionAdd("info page", "man pages"); // For the cross-reference
-            correctionAdd("man-pages", "man pages");
-            correctionAdd("manpages", "man pages");
-
-            // The Linux command-line tool
-            //
-            // Alternative URL:
-            //
-            //   <https://en.wikipedia.org/wiki/Hex_dump#Samples>
-            //
-            correctionAdd("HEXDUMP", "hexdump");
-
-            // Linux
-            correctionAdd("LN", "ln");
-
-            // Linux
-            correctionAdd("Glade", "Glade Interface Designer");
-
-            // Linux
-            correctionAdd("TASKSET", "taskset");
-
-            // A Linux system call
-            correctionAdd("Write(2)", "write(2)");
-
-            // A Linux system call
-            correctionAdd("shmat", "shmat()");
-
-            correctionAdd("out-of-memory", "OOM");
-            correctionAdd("oom", "OOM");
-
-            // Related to operating systems, incl. Linux and Windows
-            correctionAdd("kernel same-page merging", "KSM");
-            correctionAdd("kernel shared memory", "KSM");
-            correctionAdd("memory deduplication", "KSM");
-            correctionAdd("memory merging", "KSM");
-            correctionAdd("deduplication", "KSM");
-
-            // Linux
-            correctionAdd("flexible IO tester", "FIO");
-            correctionAdd("fio", "FIO");
-
-            // Linux / Unix
-            correctionAdd("Portable Operating System Interface", "POSIX");
-            correctionAdd("posix", "POSIX");
-            correctionAdd("Posix", "POSIX");
-
-            correctionAdd("POSIX sockets", "Berkeley sockets");
-            correctionAdd("BSD sockets", "Berkeley sockets");
-            correctionAdd("BSD socket", "Berkeley sockets");
-
-            // C / Linux / Unix. From header file "unistd.h" in
-            // the C POSIX library:
-            //
-            //   <https://en.wikipedia.org/wiki/Unistd.h>
-            //   <https://en.wikipedia.org/wiki/C_POSIX_library>
-            //
-            // Alternative URL:
-            //
-            //   <https://stackoverflow.com/tags/fork/info>
-            //
-            correctionAdd("fork", "fork()");
-
-            // Linux / Unix
-            correctionAdd("poll", "poll()");
-
-            // C / Linux / Unix. From header file "unistd.h" in
-            // the C POSIX library:
-            //
-            //   <https://en.wikipedia.org/wiki/Unistd.h>
-            //   <https://en.wikipedia.org/wiki/C_POSIX_library>
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.man7.org/linux/man-pages/man2/pipe.2.html>
-            //   <https://stackoverflow.com/tags/pipe/info>
-            //
-            correctionAdd("pipe", "pipe()");
-
-            correctionAdd("domain socket", "Unix domain socket");
-            correctionAdd("UDS", "Unix domain socket");
-
-            // Linux / Unix on Windows
-            correctionAdd("cygwin", "Cygwin");
-            correctionAdd("CygWin", "Cygwin");
-            correctionAdd("Cyqwin", "Cygwin");
-            correctionAdd("cgywin", "Cygwin");
-            correctionAdd("Cggwin", "Cygwin");
-            correctionAdd("CYGWIN", "Cygwin");
-            correctionAdd("Cywin", "Cygwin");
-
-            // Claimed to flavour of Cygwin, but is that true? Or
-            // is it an X terminal for Windows?
-            //
-            // Alternative URLs:
-            //
-            //   <https://doc.informatik.uni-goettingen.de/wiki/index.php/MobaXterm>
-            //     Now broken...
-            //   <https://bioinformatics.ibers.aber.ac.uk/wiki/index.php/MobaXterm>
-            //   <https://mobaxterm.mobatek.net/>
-            //
-            correctionAdd("mobaxterm", "MobaXterm");
-            correctionAdd("Mobaxterm", "MobaXterm");
-
-            // Linux / Unix on Windows
-            correctionAdd("MINGW32", "MinGW");
-            correctionAdd("mingw32", "MinGW");
-            correctionAdd("MinGW32", "MinGW");
-            correctionAdd("MingGW", "MinGW");
-            correctionAdd("miniGW", "MinGW");
-            correctionAdd("mingw", "MinGW");
-            correctionAdd("minGW", "MinGW");
-            correctionAdd("MingW", "MinGW");
-            correctionAdd("Mingw", "MinGW");
-            correctionAdd("MINGW", "MinGW");
-            correctionAdd("MInGW", "MinGW");
-            correctionAdd("MinGw", "MinGW");
-            correctionAdd("Migw", "MinGW");
-            correctionAdd("MiGw", "MinGW");
-            correctionAdd("Ming", "MinGW");
-
-            // Linux / Unix on Windows
-            correctionAdd("MinGW-w64", "Mingw-w64");
-            correctionAdd("MinGW 64x", "Mingw-w64");
-            correctionAdd("mingw-w64", "Mingw-w64");
-            correctionAdd("MinGW 64", "Mingw-w64");
-            correctionAdd("mingw 64", "Mingw-w64");
-            correctionAdd("mingw64", "Mingw-w64");
-            correctionAdd("MingW64", "Mingw-w64");
-            correctionAdd("Mingw64", "Mingw-w64");
-            correctionAdd("MINGW64", "Mingw-w64");
-
-            correctionAdd("mysys", "MSYS");
-            correctionAdd("MSys", "MSYS");
-            correctionAdd("msys", "MSYS");
-            correctionAdd("Msys", "MSYS");
-            correctionAdd("MYSY", "MSYS");
-
-            correctionAdd("msys2", "MSYS2");
-            correctionAdd("Msys2", "MSYS2");
-
-            correctionAdd("GNUWin", "GnuWin");
-            correctionAdd("GNUwin", "GnuWin");
-
-            // Some Unix-like thing on Windows
-            correctionAdd("unxutils", "UnxUtils");
-
-            // Some Unix-like thing on Windows
-            correctionAdd("mksnt", "MKS Toolkit"); // Presumably...
-
-            // Linux
-            correctionAdd("Lilo", "LILO");
-            correctionAdd("lilo", "LILO");
-
-            // Linux
-            correctionAdd("TAR", "tar");
-
-            // Linux
-            correctionAdd("tar ball", "tarball");
-
-            // Linux
-            correctionAdd("IPtables", "iptables");
-            correctionAdd("IPTables", "iptables");
-            correctionAdd("iptable", "iptables");
-
-            // Linux
-            correctionAdd("nautilus", "Nautilus");
-
-            // Linux
-            correctionAdd("bspwm", "Bspwm");
-            correctionAdd("BSPWM", "Bspwm");
-            correctionAdd("bspWM", "Bspwm");
-
-            // Linux
-            correctionAdd("DPKG", "dpkg");
-
-            correctionAdd("CHOWN", "chown"); // Linux
-
-            // Linux
-            correctionAdd("Firewalld", "firewalld");
-
-            correctionAdd("truncate(1)", "truncate"); // Linux
-
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/Hidden_file_and_hidden_directory#Unix_and_Unix-like_environments>
-            //
-            correctionAdd("dot files", "dotfiles");
-            correctionAdd("dot file", "dotfiles");
-            correctionAdd("dotfile", "dotfiles");
-
-            // Linux. Managing configuration files ('dotfiles')
-            correctionAdd("CHEZMOI", "chezmoi");
-
-            // The Linux thing
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/Shell_(computing)>
-            //
-            correctionAdd("Shell", "shell");
-
-            correctionAdd("shell-script", "shell script");
-
-            // Linux
-            //
-            // Alternative URLs:
-            //
-            //   <https://stackoverflow.com/questions/9679776/how-do-i-clear-delete-the-current-line-in-terminal/16687377#16687377>
-            //   <https://www.ice2o.com/bash_quick_ref.html>
-            //
-            //     Includes:
-            //
-            //       Ctrl + U to clear all to the left.
-            //
-            //       Ctrl + K to clear all to the right.
-            //
-            correctionAdd("Bourne Again Shell", "Bash (executable `bash`)");
-            correctionAdd("Bourne-Again", "Bash (executable `bash`)");
-            correctionAdd("B.A.S.H", "Bash (executable `bash`)"); // But it should really be ""B.A.S.H." (we currently can't accept something that ends in punctuation)
-            correctionAdd("bBsh", "Bash (executable `bash`)");
-            correctionAdd("BASH", "Bash (executable `bash`)");
-            correctionAdd("bash", "Bash (executable `bash`)");
-            correctionAdd("Bash", "Bash (executable `bash`)");
-            correctionAdd("BaSH", "Bash (executable `bash`)");
-
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/Shell_builtin>
-            //
-            correctionAdd("builtins", "Bash builtin commands");
-
-            // Linux / Unix
-            correctionAdd("ps1", "PS1");
-
-            correctionAdd("bash man page", "`man bash`");
-            correctionAdd("Bash man page", "`man bash`");
-            correctionAdd("Bash manpage", "`man bash`");
-            correctionAdd("bash manpage", "`man bash`");
-            correctionAdd("man bash", "`man bash`");
-            correctionAdd("man Bash", "`man bash`");
-
-            // Linux
-            correctionAdd("$HOME/.bash_profile", "$HOME/.bash_profile file");
-            correctionAdd(".bash_profile file", "$HOME/.bash_profile file");
-            correctionAdd("~/.bash_profile", "$HOME/.bash_profile file");
-            correctionAdd(".bash_profile", "$HOME/.bash_profile file");
-            correctionAdd("bash profile", "$HOME/.bash_profile file");
-            correctionAdd("bash_profile", "$HOME/.bash_profile file");
-            correctionAdd(".bashprofile", "$HOME/.bash_profile file");
-            correctionAdd("bashprofile", "$HOME/.bash_profile file");
-
-            // Bash. Linux.
-            //
-            // Related file: /etc/bash.bashrc
-            //
-            // Alternative URL: <https://bash.cyberciti.biz/guide/~/.bashrc>
-            //
-            correctionAdd("~/.bashrc file", "$HOME/.bashrc file");
-            correctionAdd("$HOME/.bashrc", "$HOME/.bashrc file");
-            correctionAdd("shell rc file", "$HOME/.bashrc file");
-            correctionAdd("/home/.bashrc", "$HOME/.bashrc file");
-            correctionAdd("$home/.bashrc", "$HOME/.bashrc file");
-            correctionAdd(".bashrc file", "$HOME/.bashrc file");
-            correctionAdd("~/.bashrec", "$HOME/.bashrc file");
-            correctionAdd("~/.bashrc", "$HOME/.bashrc file");
-            correctionAdd(".bash_rc", "$HOME/.bashrc file");
-            correctionAdd(".bashrcs", "$HOME/.bashrc file");
-            correctionAdd("/.bashrc", "$HOME/.bashrc file");
-            correctionAdd(".bashrec", "$HOME/.bashrc file");
-            correctionAdd(".bashrc", "$HOME/.bashrc file");
-            correctionAdd("bash_rc", "$HOME/.bashrc file");
-            correctionAdd(".bachrc", "$HOME/.bashrc file");
-            correctionAdd("bashrec", "$HOME/.bashrc file");
-            correctionAdd("bashrc", "$HOME/.bashrc file");
-
-            // Bash. Linux.
-            correctionAdd("$HOME/.profile", "$HOME/.profile file");
-            correctionAdd(".profile file", "$HOME/.profile file");
-            correctionAdd("bash.profile", "$HOME/.profile file");
-            correctionAdd("~/.profile", "$HOME/.profile file");
-            correctionAdd(".profile", "$HOME/.profile file");
-            correctionAdd("profile", "$HOME/.profile file");
-
-            // Bash. Linux.
-            correctionAdd("$HOME/.bash_aliases", "$HOME/.bash_aliases file");
-            correctionAdd("~/.bash_aliases", "$HOME/.bash_aliases file");
-            correctionAdd(".bash_aliases", "$HOME/.bash_aliases file");
-
-            // Bash. Linux.
-            correctionAdd("~/.bash_history", "$HOME/.bash_history file");
-            correctionAdd(".bash_history", "$HOME/.bash_history file");
-
-            // Bash. Linux.
-            //
-            // Near "Toggle the values of variables controlling optional shell behavior"
-            //
-            correctionAdd("SHOPT", "shopt");
-
-            // A Linux/Unix shell
-            //
-            // But 'sh' on Ubuntu is Dash... (<https://askubuntu.com/questions/141928/what-is-the-difference-between-bin-sh-and-bin-bash#comment229465_141932>)
-            //
-            correctionAdd("bourne shell", "Bourne shell (executable `sh`)");
-            correctionAdd("Bourne shell", "Bourne shell (executable `sh`)");
-            correctionAdd("bourn shell", "Bourne shell (executable `sh`)");
-            correctionAdd("bourne", "Bourne shell (executable `sh`)");
-            correctionAdd("sh", "Bourne shell (executable `sh`)"); // The name of the executable
-
-            // A Linux/Unix shell
-            correctionAdd("ZSH Shell", "Z shell (executable `zsh`)");
-            correctionAdd("zsh shell", "Z shell (executable `zsh`)");
-            correctionAdd("Z-shell", "Z shell (executable `zsh`)");
-            correctionAdd("Z Shell", "Z shell (executable `zsh`)");
-            correctionAdd("z shell", "Z shell (executable `zsh`)");
-            correctionAdd("Z shell", "Z shell (executable `zsh`)");
-            correctionAdd("ZShell", "Z shell (executable `zsh`)");
-            correctionAdd("Zshell", "Z shell (executable `zsh`)");
-            correctionAdd("zshell", "Z shell (executable `zsh`)");
-            correctionAdd("Zsh", "Z shell (executable `zsh`)");
-            correctionAdd("zsh", "Z shell (executable `zsh`)");
-            correctionAdd("ZSH", "Z shell (executable `zsh`)");
-
-            correctionAdd("Oh My Z shell", "Oh My Zsh");
-            correctionAdd("oh my Z shell", "Oh My Zsh");
-            correctionAdd("Oh My zshell", "Oh My Zsh");
-            correctionAdd("oh my zshell", "Oh My Zsh");
-            correctionAdd("oh-my-zsh", "Oh My Zsh");
-
-            // Bash. Linux.
-            correctionAdd("$HOME/.zshrc", "$HOME/.zshrc file");
-            correctionAdd("~/.zshrc", "$HOME/.zshrc file");
-            correctionAdd("~.zshrc", "$HOME/.zshrc file"); // Missing slash
-            correctionAdd(".zshrc", "$HOME/.zshrc file");
-            correctionAdd("zshrc", "$HOME/.zshrc file");
-
-            // A Linux/Unix shell
-            correctionAdd("nushell", "Nushell");
-            correctionAdd("nu", "Nushell");
-            correctionAdd("Nu", "Nushell");
-
-            // Linux
-            //
-            // A toolkit for building a GUI desktop
-            // shell, based on Qt Quick.
-            //
-            // Linux
-            //
-            // Alternative URLs:
-            //
-            //   <https://git.outfoxxed.me/quickshell/quickshell>
-            //   <https://quickshell.outfoxxed.me/>
-            //   <https://github.com/topics/quickshell>
-            //   <https://github.com/quickshell-mirror/quickshell/blob/master/README.md>
-            //   <https://deepwiki.com/quickshell-mirror/quickshell>
-            //
-            correctionAdd("quickshell", "Quickshell");
-
-            // Linux
-            //
-            // A framework for building GUIs. Uses QML.
-            correctionAdd("QtQuick", "Qt Quick");
-
-            // A debugger for Bash. Plugin for Eclipse.
-            // Only works with ShellEd.
-            correctionAdd("basheclipse", "BashEclipse");
-            correctionAdd("Basheclipse", "BashEclipse");
-
-            // A Linux/Unix shell
-            //
-            // The AIX variant (identical?):
-            //
-            //   <https://www.ibm.com/docs/en/aix/7.2?topic=k-ksh-command>
-            //
-            // Alternative URLs:
-            //
-            //   <https://linux.die.net/man/1/ksh93>
-            //     ksh, rksh, pfksh - KornShell
-            //
-            //   <http://www.kornshell.com/doc/ksh93.html>
-            //
-            correctionAdd("korn shell", "KornShell (executable `ksh`)");
-            correctionAdd("Korn shell", "KornShell (executable `ksh`)");
-            correctionAdd("Korn Shell", "KornShell (executable `ksh`)");
-            correctionAdd("Kornshell", "KornShell (executable `ksh`)");
-            correctionAdd("KornShell", "KornShell (executable `ksh`)");
-            correctionAdd("ksh93", "KornShell (executable `ksh`)");
-            correctionAdd("ksh", "KornShell (executable `ksh`)");
-            correctionAdd("KSH", "KornShell (executable `ksh`)");
-
-            // A Linux/Unix shell. Related to KornShell.
-            correctionAdd("MirBSD Korn Shell", "MirBSD KornShell (executable `mksh`)");
-            correctionAdd("MirBSD KornShell", "MirBSD KornShell (executable `mksh`)");
-            correctionAdd("MKSH", "MirBSD KornShell (executable `mksh`)");
-            correctionAdd("mksh", "MirBSD KornShell (executable `mksh`)");
-
-            // A Linux/Unix shell
-            correctionAdd("c-shell-(executable-`csh`)", "C shell (executable `csh`)");
-            correctionAdd("C shell", "C shell (executable `csh`)");
-            correctionAdd("CShell", "C shell (executable `csh`)");
-            correctionAdd("csh", "C shell (executable `csh`)");
-
-            // A Linux/Unix shell
-            correctionAdd("Hamilton shell", "Hamilton C shell");
-
-            // A Linux/Unix shell
-            correctionAdd("Almquist shell", "ash");
-            correctionAdd("Almquist", "ash");
-            correctionAdd("Ash", "ash");
-
-            // A Linux/Unix shell
-            correctionAdd("Fish Shell", "Fish (executable `fish`)");
-            correctionAdd("Fish shell", "Fish (executable `fish`)");
-            correctionAdd("fish shell", "Fish (executable `fish`)");
-            correctionAdd("fish-shell", "Fish (executable `fish`)");
-            correctionAdd("FISH", "Fish (executable `fish`)");
-            correctionAdd("fish", "Fish (executable `fish`)");
-            correctionAdd("Fish", "Fish (executable `fish`)");
-
-            // Bash. Linux.
-            correctionAdd("source in Bash", "sourcing");
-            correctionAdd("source in bash", "sourcing");
-            correctionAdd("Bash source", "sourcing");
-            correctionAdd("bash source", "sourcing");
-            correctionAdd("dot source", "sourcing");
-            correctionAdd("Dot Source", "sourcing");
-            correctionAdd("Sourcing", "sourcing");
-
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/Child_process#Children_created_by_fork>
-            //
-            correctionAdd("sub shell", "subshell");
-            correctionAdd("sub-shell", "subshell");
-
-            // Note: "shell", ***not*** "spell"...
-            //
-            correctionAdd("shellcheck.net", "ShellCheck");
-            correctionAdd("spellcheck.net", "ShellCheck");
-            correctionAdd("shellcheck", "ShellCheck");
-
-            // An IT tool for configuration of operating systems
-            correctionAdd("puppet", "Puppet");
-
-            // Unix/Linux. The command line command
-            correctionAdd("USLEEP", "usleep");
-
-            // Unix. Linux-related
-            correctionAdd("sleepy cat", "BSD");
-            correctionAdd("bsd", "BSD");
-            correctionAdd("Bsd", "BSD");
-
-            correctionAdd("BSD licensed", "BSD-licensed");
-            correctionAdd("BSD license", "BSD-licensed");
-
-            // Unix. Linux-related
-            correctionAdd("OPEN BSD", "OpenBSD");
-            correctionAdd("open bsd", "OpenBSD");
-            correctionAdd("Open bsd", "OpenBSD");
-            correctionAdd("Open BSD", "OpenBSD");
-            correctionAdd("openbsd", "OpenBSD");
-            correctionAdd("Openbsd", "OpenBSD");
-            correctionAdd("obsd", "OpenBSD");
-
-            // Unix. Linux-related
-            correctionAdd("FressBSD", "FreeBSD");
-            correctionAdd("FREEBSD", "FreeBSD");
-            correctionAdd("freebsd", "FreeBSD");
-            correctionAdd("freeBSD", "FreeBSD");
-
-            // Unix. Linux-related
-            correctionAdd("Net BSD", "NetBSD");
-
-            // Unix. Linux-related
-            correctionAdd("4bsd", "4BSD");
-
-            // Related to Unix
-            correctionAdd("American Telephone and Telegraph Company", "AT&T");
-            correctionAdd("ATT", "AT&T");
-            correctionAdd("att", "AT&T");
-
-            // Linux / Unix
-            correctionAdd("unlink", "unlink()");
-
-            // Linux / Unix
-            correctionAdd("Klist", "klist");
-
-            correctionAdd("OpenBox", "Openbox");
-            correctionAdd("openbox", "Openbox");
-
-            correctionAdd("micro-kernel", "microkernel");
-
-            correctionAdd("kernels", "CUDA kernels");
-
-            correctionAdd("eunuchs", "Unix");
-            correctionAdd("eunuch", "Unix");
-            correctionAdd("unix", "Unix");
-            correctionAdd("UNIX", "Unix");
-            correctionAdd("UNix", "Unix");
-            correctionAdd("nix", "Unix");
-            correctionAdd("ux", "Unix");
-
-            correctionAdd("unix-likes", "Unix-like");
-            correctionAdd("UNIX-like", "Unix-like");
-            correctionAdd("unix-like", "Unix-like");
-            correctionAdd("Unix like", "Unix-like");
-            correctionAdd("unix like", "Unix-like");
-            correctionAdd("*nix like", "Unix-like");
-            correctionAdd("*nix-like", "Unix-like");
-            correctionAdd("*nix-type", "Unix-like");
-            correctionAdd("nix-like", "Unix-like");
-            correctionAdd("*Nix*", "Unix-like"); // This may collide with
-                                                 // client-side removal
-                                                 // of punctuation and
-                                                 // formatting (Markdown
-                                                 // italics in this case)...
-            correctionAdd("UN*X", "Unix-like");
-            correctionAdd("'NIX", "Unix-like");
-            correctionAdd("'nix", "Unix-like");
-            correctionAdd("*nix", "Unix-like");
-            correctionAdd("Un*x", "Unix-like");
-            correctionAdd("*NIX", "Unix-like");
-            correctionAdd("U*x", "Unix-like");
-
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/Unixen#Noun>
-            //   <https://en.wiktionary.org/wiki/Unices#Noun>
-            //   <https://en.wikipedia.org/wiki/Unix-like>
-            //
-            correctionAdd("Unixen", "Unix-like systems");
-            correctionAdd("unixen", "Unix-like systems");
-            correctionAdd("unices", "Unix-like systems");
-            correctionAdd("Unixes", "Unix-like systems");
-            correctionAdd("unixes", "Unix-like systems");
-            correctionAdd("*nixes", "Unix-like systems");
-            correctionAdd("Unices", "Unix-like systems");
-
-            correctionAdd("Unix flavor", "Unix flavour");
-
-            correctionAdd("Unix timestamps", "Unix time");
-            correctionAdd("UNIX timestamp", "Unix time");
-            correctionAdd("Unix timestamp", "Unix time");
-            correctionAdd("unix timestamp", "Unix time");
-            correctionAdd("UNIX Timestamp", "Unix time");
-            correctionAdd("Unix Timestamp", "Unix time");
-            correctionAdd("unix time", "Unix time");
-            correctionAdd("UNIX time", "Unix time");
-            correctionAdd("Unix Time", "Unix time");
-            correctionAdd("unix Time", "Unix time");
-            correctionAdd("UNIX TIME", "Unix time");
-            correctionAdd("UnixTime", "Unix time");
-            correctionAdd("unixTime", "Unix time");
-            correctionAdd("UNIXTIME", "Unix time");
-
-            // Unix time (Linux)
-            correctionAdd("the Unix epoch", "Epoch time");
-            correctionAdd("epoch time", "Epoch time");
-            correctionAdd("EPOC time", "Epoch time");
-            correctionAdd("the epoch", "Epoch time");
-            correctionAdd("EPOC", "Epoch time");
-
-            // Linux
-            //
-            // Alternative URL:
-            //
-            //   <http://linux.die.net/man/8/ping>
-            //
-            correctionAdd("Ping", "ping");
-
-            // Unix/Linux
-            //
-            // Alternative URLs:
-            //
-            //   <https://sourceforge.net/projects/gping/>
-            //
-            correctionAdd("GPING", "gping");
-
-            correctionAdd("pining", "pinging");
-
-            // Linux
-            correctionAdd("initrd", "initial ramdisk");
-
-            // Linux. Kernel.
-            correctionAdd("Linus Trovalds", "Linus Torvalds");
-            correctionAdd("Torvalds", "Linus Torvalds");
-            correctionAdd("Linus", "Linus Torvalds");
-
-            // Linux. Though 'Linuxen' is slang and 'Linuxes' is more correct.
-            correctionAdd("linuxen", "Linuxen");
-            correctionAdd("Linuxes", "Linuxen");
-
-            correctionAdd("LinuxFB", "Linux framebuffer");
-            correctionAdd("fbdev", "Linux framebuffer");
-
-            correctionAdd("X virtual framebuffer", "Xvfb");
-            correctionAdd("xvfb", "Xvfb");
-
-            // Linux, temperature on the motherboard, etc.
-            correctionAdd("lm-sensor", "lm-sensors");
-            correctionAdd("lmsensor", "lm-sensors");
-
-            // Linux, temperature on the motherboard, etc.
-            correctionAdd("senors", "sensors");
-
-            // For embedded systems?
-            correctionAdd("uClinux", "μClinux");
-
-            // Linux. But he has now gone completely off the rails.
-            correctionAdd("Lunduke", "Bryan Lunduke");
-
-            // Linux.
-            correctionAdd("App Image", "AppImage");
-            correctionAdd("app image", "AppImage");
-            correctionAdd("appimage", "AppImage");
-
-            // Related to Linux. Desktop environment.
-            correctionAdd("gnome", "GNOME");
-            correctionAdd("Gnome", "GNOME");
-            correctionAdd("Gmome", "GNOME");
-            correctionAdd("GNMOE", "GNOME");
-
-            // Related to Linux. Desktop environment.
-            correctionAdd("Gnome 3", "GNOME&nbsp;3");
-            correctionAdd("GNOME 3", "GNOME&nbsp;3"); // Sort of identity mapping
-
-            correctionAdd("GNOME 4.0", "GNOME 40");
-
-            // Related to GNOME
-            correctionAdd("mutter", "Mutter");
-
-            correctionAdd("Gnome-Latex", "GNOME LaTeX");
-
-            // Linux
-            //
-            // Alternative URLs:
-            //
-            //   <https://wiki.archlinux.org/title/GDM>
-            //
-            correctionAdd("GDM", "GNOME Display Manager");
-            correctionAdd("gdm", "GNOME Display Manager");
-
-            correctionAdd("System Monitor", "GNOME System Monitor");
-            correctionAdd("System monitor", "GNOME System Monitor");
-
-            // A webcam application. GNOME
-            correctionAdd("cheese", "Cheese");
-
-            // GNOME
-            correctionAdd("libadwaita", "Adwaita");
-            correctionAdd("LibAdwaita", "Adwaita");
-            correctionAdd("adwaita", "Adwaita");
-
-            // A company. The main developer of LibreOffice.
-            // Also related to GStreamer, D-Bus, PipeWire, Wayland,
-            // the Linux kernel, and NVK
-            correctionAdd("collabora", "Collabora");
-
-            // Linux / GNOME
-            correctionAdd("Desktop Bus", "D-Bus");
-            correctionAdd("d-bus", "D-Bus");
-            correctionAdd("DBUS", "D-Bus");
-            correctionAdd("DBus", "D-Bus");
-            correctionAdd("dbus", "D-Bus");
-
-            // Related to Linux. Desktop environment.
-            correctionAdd("Lxde", "LXDE");
-            correctionAdd("lxde", "LXDE");
-
-            // Related to Linux. Desktop environment.
-            correctionAdd("Lxqt", "LXQt");
-            correctionAdd("lxqt", "LXQt");
-
-            // Related to Linux. Desktop environment.
-            correctionAdd("xfce", "Xfce");
-            correctionAdd("XFCE", "Xfce");
-            correctionAdd("fxce", "Xfce");
-            correctionAdd("XCFE", "Xfce");
-            correctionAdd("xcfe", "Xfce");
-            correctionAdd("XFce", "Xfce");
-
-            // Related to Linux. Desktop environment.
-            correctionAdd("mate", "MATE");
-            correctionAdd("Mate", "MATE");
-
-            // Related to Linux. Desktop environment.
-            correctionAdd("different desktop environment", "Cinnamon");
-            correctionAdd("cinnamon", "Cinnamon");
-            correctionAdd("Cinnemon", "Cinnamon");
-            correctionAdd("cinnemon", "Cinnamon");
-            correctionAdd("cinammon", "Cinnamon");
-            correctionAdd("Cinammon", "Cinnamon");
-            correctionAdd("Cinamon", "Cinnamon");
-            correctionAdd("cinamon", "Cinnamon");
-
-            // Full name: Linux distribution
-            correctionAdd("Linux distribuition", "Linux distribution");
-            correctionAdd("Linux Distribution", "Linux distribution");
-            correctionAdd("distrobution", "Linux distribution");
-            correctionAdd("Linux distro", "Linux distribution");
-            correctionAdd("distribution", "Linux distribution");
-            correctionAdd("Linux Distro", "Linux distribution");
-            correctionAdd("distribute", "Linux distribution");
-            correctionAdd("Linux dist", "Linux distribution");
-            correctionAdd("distrib", "Linux distribution");
-            correctionAdd("distor", "Linux distribution"); // Misspelling. Expansion.
-            correctionAdd("distri", "Linux distribution");
-            correctionAdd("disfeo", "Linux distribution"); // A true typo (double)
-            correctionAdd("disfro", "Linux distribution"); // A true typo
-            correctionAdd("disteo", "Linux distribution"); // A true typo
-            correctionAdd("Distro", "Linux distribution"); // Expansion.
-            correctionAdd("distro", "Linux distribution"); // Expansion.
-            correctionAdd("destro", "Linux distribution");
-            correctionAdd("ditro", "Linux distribution");
-            correctionAdd("distr", "Linux distribution");
-            correctionAdd("disto", "Linux distribution");
-            correctionAdd("dist", "Linux distribution");
-
-            correctionAdd("linux distributions", "Linux distributions");
-            correctionAdd("distritutions", "Linux distributions");
-            correctionAdd("distrobutions", "Linux distributions");
-            correctionAdd("distributions", "Linux distributions");
-            correctionAdd("Linux distros", "Linux distributions");
-            correctionAdd("Linix distros", "Linux distributions");
-            correctionAdd("linux distros", "Linux distributions");
-            correctionAdd("Linux-distro", "Linux distributions");
-            correctionAdd("linux-distro", "Linux distributions");
-            correctionAdd("distro's", "Linux distributions");
-            correctionAdd("Distro's", "Linux distributions");
-            correctionAdd("distros", "Linux distributions");
-            correctionAdd("distors", "Linux distributions"); // Expansion
-            correctionAdd("Distros", "Linux distributions");
-            correctionAdd("distos", "Linux distributions"); // Misspelling. Expansion.
-            correctionAdd("dists", "Linux distributions");
-
-            // Linux.
-            correctionAdd("Distrowatch", "DistroWatch");
-            correctionAdd("distrowatch", "DistroWatch");
-
-            correctionAdd("distrohopping", "distro-hopping");
-            correctionAdd("distrohoppin'", "distro-hopping");
-
-            // An installer for Linux distributions
-            correctionAdd("calamares", "Calamares");
-            correctionAdd("calmares", "Calamares");
-
-            // A Linux distribution
-            correctionAdd("PopOS Linux", "Pop OS");
-            correctionAdd("Pop! OS", "Pop OS");
-            correctionAdd("POP! OS", "Pop OS");
-            correctionAdd("POP!_OS", "Pop OS");
-            correctionAdd("pop! os", "Pop OS");
-            correctionAdd("pop!_os", "Pop OS");
-            correctionAdd("Pop OS!", "Pop OS");
-            correctionAdd("Pop_OS!", "Pop OS");
-            correctionAdd("Pop!_OS", "Pop OS");
-            correctionAdd("Pop!_os", "Pop OS");
-            correctionAdd("POP OS", "Pop OS");
-            correctionAdd("pop os", "Pop OS");
-            correctionAdd("Pop_OS", "Pop OS");
-            correctionAdd("pop_os", "Pop OS");
-            correctionAdd("Pop!OS", "Pop OS");
-            correctionAdd("Pop os", "Pop OS");
-            correctionAdd("POP_OS", "Pop OS");
-            correctionAdd("pop-os", "Pop OS");
-            correctionAdd("Pop Os", "Pop OS");
-            correctionAdd("Pop!Os", "Pop OS");
-            correctionAdd("PopOS", "Pop OS");
-            correctionAdd("popos", "Pop OS");
-            correctionAdd("popOS", "Pop OS");
-            correctionAdd("PopOs", "Pop OS");
-            correctionAdd("Pop", "Pop OS");
-            correctionAdd("PoP", "Pop OS");
-
-            // A Linux distribution
-            correctionAdd("Nobara", "Nobara Linux");
-            correctionAdd("nobara", "Nobara Linux");
-
-            // A Linux distribution
-            correctionAdd("SUSE Linux", "SUSE&nbsp;Linux"); // Effectively self
-            correctionAdd("Suse Linux", "SUSE&nbsp;Linux");
-            correctionAdd("suse", "SUSE&nbsp;Linux");
-            correctionAdd("Suse", "SUSE&nbsp;Linux");
-            correctionAdd("SuSe", "SUSE&nbsp;Linux");
-            correctionAdd("SUSE", "SUSE&nbsp;Linux");
-            correctionAdd("SuSE", "SUSE&nbsp;Linux");
-
-            // A Linux distribution
-            correctionAdd("Open Suse", "openSUSE");
-            correctionAdd("open suse", "openSUSE");
-            correctionAdd("open SUSE", "openSUSE");
-            correctionAdd("Open SUSE", "openSUSE");
-            correctionAdd("Opensuse", "openSUSE");
-            correctionAdd("opensuse", "openSUSE");
-            correctionAdd("OpenSuse", "openSUSE");
-            correctionAdd("openSuse", "openSUSE");
-            correctionAdd("OpenSuSE", "openSUSE");
-            correctionAdd("openSuSE", "openSUSE");
-            correctionAdd("OpenSUSE", "openSUSE");
-
-            // A Linux distribution
-            correctionAdd("SLED", "SUSE Linux Enterprise");
-            correctionAdd("SLES", "SUSE Linux Enterprise");
-            correctionAdd("SLE", "SUSE Linux Enterprise");
-
-            // A Linux distribution
-            correctionAdd("opensuse tumbleweed", "openSUSE Tumbleweed");
-            correctionAdd("openSUSE tumbleweed", "openSUSE Tumbleweed");
-            correctionAdd("OpenSUSE Tumbleweed", "openSUSE Tumbleweed");
-            correctionAdd("OpenSuse Tumbleweed", "openSUSE Tumbleweed");
-            correctionAdd("Tumbleweed", "openSUSE Tumbleweed");
-            correctionAdd("tumbleweed", "openSUSE Tumbleweed");
-            correctionAdd("TW", "openSUSE Tumbleweed");
-
-            // A Linux distribution
-            correctionAdd("Leap", "openSUSE Leap");
-
-            // A Linux distribution
-            correctionAdd("Fedora Linux", "Fedora");
-            correctionAdd("Fedora OS", "Fedora");
-            correctionAdd("fedora", "Fedora");
-            correctionAdd("Federa", "Fedora");
-
-            correctionAdd("Fedora project", "Fedora Project");
-
-            correctionAdd("fc", "Fedora Core"); // Since Fedora 7, the Core and Extras repositories have been merged, hence the distribution dropping Core from its name.
-
-            // Sort of rolling release for Fedora
-            correctionAdd("rawhide", "Fedora Rawhide");
-            correctionAdd("Rawhide", "Fedora Rawhide");
-
-            correctionAdd("fc 11", "Fedora Core 11"); // Since Fedora 7, the Core and Extras repositories have been merged, hence the distribution dropping Core from its name.
-
-            // Released 2015-05-26.
-            correctionAdd("Fedora Linux 22", "Fedora&nbsp;22");
-            correctionAdd("Fedora 22", "Fedora&nbsp;22"); // Sort of identity mapping
-
-            // Released 2021-04-27
-            correctionAdd("Fedora Linux 34", "Fedora&nbsp;34");
-            correctionAdd("Fedora 34", "Fedora&nbsp;34"); // Sort of identity mapping
-
-            correctionAdd("Fedora Linux 36", "Fedora&nbsp;36");
-            correctionAdd("Fedora 36", "Fedora&nbsp;36"); // Sort of identity mapping
-
-            correctionAdd("Fedora Linux 37", "Fedora&nbsp;37");
-            correctionAdd("Fedora 37", "Fedora&nbsp;37"); // Sort of identity mapping
-
-            // 2024-11
-            // "FC" for "Fedora Core"?
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/Fedora_Linux_release_history#Fedora_41>
-            //
-            correctionAdd("Fedora 41", "Fedora&nbsp;41"); // Sort of identity mapping
-            correctionAdd("FC 41", "Fedora&nbsp;41"); // FC for "Fedora Core"?
-            correctionAdd("F41", "Fedora&nbsp;41");
-
-            // Fedora
-            correctionAdd("Silver Blue", "Silverblue");
-            correctionAdd("silverblue", "Silverblue");
-
-            // An immutable Fedora edition
-            // Alternative URL:
-            //
-            //   <https://fedoraproject.org/atomic-desktops/kinoite/>
-            //
-            correctionAdd("Kinoite", "Fedora Kinoite");
-
-            // Fedora. Similar to Universal Blue
-            //
-            // Alternative URLs:
-            //
-            //   <https://discuss.techlore.tech/t/fedora-atomic-based-hardening-with-secureblue-my-impressions/7868>
-            //
-            correctionAdd("secureblue", "Secureblue");
-
-            // An image-based (the base OS is immutable) Fedora 'remix'
-            // (not 'spin'), related to 'Fedora Atomic Desktops'
-            // and Fedora 'CoreOS'. A custom Silverblue image.
-            // Images: "Aurora" (desktop), "Bazzite" (gaming),
-            // and "uCore" (servers/containers)
-            //
-            // What is the official shorthand, if any? "uBlue"
-            //
-            // Alternative URLs:
-            //
-            //   <https://universal-blue.org/#about>
-            //   <https://github.com/ublue-os>
-            //   <https://github.com/orgs/ublue-os/packages>
-            //   <https://github.com/ublue-os/ucore>
-            //   <https://www.reddit.com/r/Fedora/comments/15azryk/fill_me_in_on_ublue/>
-            //   <https://www.reddit.com/r/Fedora/comments/15g7qxk/for_any_silverblue_users_i_recommend_giving_ublue/>
-            //
-            correctionAdd("Ublue", "Universal Blue");
-            correctionAdd("UBlue", "Universal Blue");
-            correctionAdd("uBlue", "Universal Blue"); // Official shorthand?
-            correctionAdd("ublue", "Universal Blue");
-
-            // A GUI for Fedora's package manager, DNF
-            //
-            // Alternative URLs:
-            //
-            //   <https://github.com/manatools/dnfdragora>
-            //
-            correctionAdd("dnf dragora", "DNF Dragora");
-            correctionAdd("dnfdragora", "DNF Dragora");
-            correctionAdd("DnfDragora", "DNF Dragora");
-            correctionAdd("dragora", "DNF Dragora");
-            correctionAdd("DNF", "DNF Dragora"); // For the cross-reference
-
-            // Fedora
-            correctionAdd("FSADM", "fsadm");
-
-            // A Linux distribution
-            correctionAdd("selinux", "SELinux");
-            correctionAdd("SELINUX", "SELinux");
-            correctionAdd("SElinux", "SELinux");
-            correctionAdd("Selinux", "SELinux");
-            correctionAdd("SeLinux", "SELinux");
-
-            // A Linux distribution
-            correctionAdd("Linux Red Hat", "Red Hat Linux");
-            correctionAdd("linux Red Hat", "Red Hat Linux");
-            correctionAdd("Redhat Linux", "Red Hat Linux"); // The OS, not the company.
-            correctionAdd("linux redhat", "Red Hat Linux"); // The OS, not the company.
-            correctionAdd("RedHat Linux", "Red Hat Linux"); // The OS, not the company.
-            correctionAdd("Linux RedHat", "Red Hat Linux");
-            correctionAdd("linux RedHat", "Red Hat Linux");
-            correctionAdd("red-hat", "Red Hat Linux"); // The OS, not the company.
-            correctionAdd("Red Hat", "Red Hat Linux"); // The OS, not the company.
-            correctionAdd("red hat", "Red Hat Linux");
-            correctionAdd("RedHat", "Red Hat Linux"); // The OS, not the company.
-            correctionAdd("redhat", "Red Hat Linux"); // The OS, not the company.
-            correctionAdd("Redhat", "Red Hat Linux"); // The OS, not the company.
-            correctionAdd("REDHAT", "Red Hat Linux"); // The OS, not the company.
-            correctionAdd("RHL", "Red Hat Linux");
-            correctionAdd("RH", "Red Hat Linux"); // The OS, not the company.
-
-            // Note: "RPM" (the package manager) is in an alternative word set
-            correctionAdd("rpm package", "RPM packages");
-            correctionAdd("rpms", "RPM packages");
-
-            // A Linux distribution
-            correctionAdd("Red Hat Enterprise", "Red Hat Enterprise Linux");
-            correctionAdd("RHEL", "Red Hat Enterprise Linux"); // The official shorthand. The OS, not the company.
-            correctionAdd("rhel", "Red Hat Enterprise Linux"); // The OS, not the company.
-            correctionAdd("RHE", "Red Hat Enterprise Linux");
-
-            // For Enterprise Red Hat Linux (RHEL)
-            //
-            // Alternative URLs:
-            //
-            //   <https://docs.aws.amazon.com/linux/al2023/ug/epel.html>
-            //   <https://www.redhat.com/en/blog/whats-epel-and-how-do-i-use-it>
-            //   <https://docs.fedoraproject.org/en-US/epel/>
-            //
-            correctionAdd("EPEL", "Extra Packages for Enterprise Linux");
-
-            // For Enterprise Red Hat Linux (RHEL) and CentOS
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.2daygeek.com/install-enable-ius-community-repository-on-rhel-centos/>
-            //   <https://ius.io/about>
-            //   <https://ius.io/faq#is-ius-a-rackspace-service-or-product>
-            //
-            correctionAdd("IUS", "Inline with Upstream Stable");
-
-            // A Linux distribution
-            correctionAdd("the ultimate graybeard Linux", "Gentoo Linux");
-            correctionAdd("Gentoo linux", "Gentoo Linux");
-            correctionAdd("gent0os", "Gentoo Linux");
-            correctionAdd("gentoos", "Gentoo Linux");
-            correctionAdd("gentoo", "Gentoo Linux");
-            correctionAdd("Gentoo", "Gentoo Linux");
-            correctionAdd("gentos", "Gentoo Linux");
-            correctionAdd("Gentos", "Gentoo Linux");
-            correctionAdd("gent0o", "Gentoo Linux");
-            correctionAdd("gento0", "Gentoo Linux");
-            correctionAdd("gent0", "Gentoo Linux");
-
-            // A Linux distribution
-            correctionAdd("arch linux", "Arch Linux");
-            correctionAdd("arch Linux", "Arch Linux");
-            correctionAdd("Arch linux", "Arch Linux");
-            correctionAdd("Arch-Linux", "Arch Linux");
-            correctionAdd("Linux Arch", "Arch Linux");
-            correctionAdd("Linux arch", "Arch Linux");
-            correctionAdd("linux arch", "Arch Linux");
-            correctionAdd("arch-linux", "Arch Linux");
-            correctionAdd("archlinux", "Arch Linux");
-            correctionAdd("Archlinux", "Arch Linux");
-            correctionAdd("ArchLinux", "Arch Linux");
-            correctionAdd("archLinux", "Arch Linux");
-            correctionAdd("ArhLinux", "Arch Linux");
-            correctionAdd("ARCH", "Arch Linux");
-            correctionAdd("arch", "Arch Linux");
-            correctionAdd("Arch", "Arch Linux");
-
-            // Arch Linux
-            correctionAdd("AUR", "Arch User Repository");
-            correctionAdd("aur", "Arch User Repository");
-
-            // Arch Linux
-            correctionAdd("Arch Wiki", "ArchWiki");
-            correctionAdd("Arch wiki", "ArchWiki");
-            correctionAdd("arch wiki", "ArchWiki");
-            correctionAdd("Archwiki", "ArchWiki");
-
-            // Linux. Arch Linux
-            correctionAdd("archcraft", "Archcraft");
-
-            // A Linux distribution. Arch Linux
-            //
-            // Primarily for software developers.
-            //
-            // Predecessor: Omakub (<https://github.com/basecamp/omakub>),
-            // a script (or Omacom?). By DHH. E.g., uses Mise En Place
-            //
-            // Alternative URLs:
-            //
-            //   <https://learn.omacom.io/3/omacom/73/omarchy-or-omakub>
-            //     Omacom has two Linux distribution remixes on offer:
-            //
-            //       Omakub
-            //
-            //         Beginner-friendly. Ubuntu. GNOME.
-            //
-            //         <https://www.youtube.com/watch?v=aXLra-31Jh0>
-            //         <https://dominickm.com/omakhub-review/>
-            //           2025-09-27.
-            //
-            //       Omarchy
-            //
-            //         Arch Linux. Hyprland.
-            //
-            //         <See below for introduction videos>
-            //
-            //   <https://omarchy.org/>
-            //     "Omarchy 3.3 has been released!"
-            //     <https://iso.omarchy.org/omarchy-3.3.2.iso>
-            //
-            //   <https://www.youtube.com/watch?v=F7fe9pa8OeE>
-            //     Omarchy 4. 2026-08-14.
-            //     <https://iso.omarchy.org/omarchy-4.0.1.iso>
-            //
-            //   <https://www.youtube.com/watch?v=L3EafsSCv80>
-            //     Omarchy 3. 2025-11-06.
-            //
-            //   <https://www.youtube.com/watch?v=TcHY0AEd2Uw>
-            //     Omarchy 2. 2025-08-26.
-            //
-            //   <https://www.youtube.com/watch?v=TcHY0AEd2Uw>
-            //     Omarchy. 2025-06-27.
-            //
-            //   <https://learn.omacom.io/2/the-omarchy-manual>
-            //     The Omarchy manual
-            //
-            //   <https://world.hey.com/dhh/omarchy-2-0-16fefc15>
-            //     Omarchy 2.0
-            //     2025-08-26.
-            //
-            //     <https://github.com/basecamp/omarchy/releases/tag/v2.0.0>
-            //
-            //   <https://en.wikipedia.org/wiki/David_Heinemeier_Hansson>
-            //
-            // Alternative URLs:
-            //
-            //   <https://learn.omacom.io/2/the-omarchy-manual/62/development-tools#github-cli>
-            //     GitHub CLI
-            //
-            //   <https://www.buzzsprout.com/2260539/episodes/18581125-give-it-a-name.mp3>
-            //     Origin of the name "Omarchy", at 17 min 27 secs:
-            //
-            //       Version 2 of "Omakub": A combination of:
-            //
-            //         1. "omakase" (chef's choice in Japanese;
-            //             the chef has picked everything),
-            //
-            //             <https://en.wiktionary.org/wiki/omakase#Adjective>
-            //
-            //         2. "Arch Linux", and
-            //
-            //         3. "Hyprland".
-            //
-            //       "Omakub": A combination of:
-            //
-            //         1. "omakase" (see above), and
-            //
-            //         2. "Ubuntu"
-            //
-            //     REWORK (37signals' podcast): <https://www.rework.fm/>
-            //
-            //   <https://www.youtube.com/watch?v=5JPYJfN7HY0>
-            //     Explains the reason for using Quickshell
-            //
-            correctionAdd("The vibe coded Arch rice", "Omarchy");
-            correctionAdd("Omarchy Quattro", "Omarchy"); // Is not 100% correct (is Omarchy 4)
-            correctionAdd("slopmarchy", "Omarchy");
-            correctionAdd("Slopmarchy", "Omarchy");
-            correctionAdd("Obloatchy", "Omarchy");
-            correctionAdd("Omarchy 4", "Omarchy"); // Is not 100% correct (is Omarchy 4)
-            correctionAdd("omarchy 4", "Omarchy"); // Is not 100% correct (is Omarchy 4)
-            correctionAdd("AI-Marchy", "Omarchy");
-            correctionAdd("sloparchy", "Omarchy");
-            correctionAdd("Quattro", "Omarchy"); // Is not 100% correct (is Omarchy 4)
-            correctionAdd("quattro", "Omarchy"); // Is not 100% correct (is Omarchy 4)
-            correctionAdd("omarchy", "Omarchy");
-            correctionAdd("homachi", "Omarchy");
-            correctionAdd("Omachy", "Omarchy");
-            correctionAdd("omachy", "Omarchy");
-
-            // For managing multiple versions of Python (and others).
-            // Included by default in Omarchy
-            correctionAdd("mise-en-place", "Mise En Place");
-            correctionAdd("Mise en place", "Mise En Place");
-            correctionAdd("meeze", "Mise En Place");
-            correctionAdd("meese", "Mise En Place");
-            correctionAdd("mise", "Mise En Place");
-            correctionAdd("Mise", "Mise En Place");
-            correctionAdd("MIZE", "Mise En Place");
-            correctionAdd("mize", "Mise En Place");
-            correctionAdd("mizf", "Mise En Place");
-            correctionAdd("meez", "Mise En Place");
-
-            // Linux. Ubuntu. The predecessor to Omarchy
-            //
-            // Defaults over decisions
-            //
-            correctionAdd("omacom", "Omacom");
-            correctionAdd("Omakub", "Omacom"); // Not 100% correct (see entry "Omarchy")
-
-            // A Linux distribution
-            correctionAdd("slackware", "Slackware");
-
-            // A Linux distribution (security focused)
-            correctionAdd("Black Arch", "BlackArch");
-
-            correctionAdd("Black Hat", "Black Hat Briefings");
-            correctionAdd("BlackHat", "Black Hat Briefings");
-
-            correctionAdd("The Mesa 3D Graphics Library", "Mesa");
-            correctionAdd("Mesa3D", "Mesa");
-            correctionAdd("mesa", "Mesa");
-
-            // A Linux distribution
-            correctionAdd("LMDE&nbsp;7 (Gigi)", "Debian"); // For the cross-reference
-            correctionAdd("Debian Linux", "Debian");
-            correctionAdd("LMDE&nbsp;7", "Debian"); // For the cross-reference
-            correctionAdd("Linux Mint", "Debian"); // For the cross-reference
-            correctionAdd("debian", "Debian");
-            correctionAdd("Debain", "Debian");
-            correctionAdd("debain", "Debian");
-            correctionAdd("DEBIAN", "Debian");
-            correctionAdd("deb", "Debian");
-
-            // Linux. 'Sid' is a character in Toy Story,
-            // <https://en.wikipedia.org/wiki/List_of_Toy_Story_characters#Sid_Phillips>
-            //  - "Sid is known for torturing and destroying toys"
-            //
-            correctionAdd("Debian unstable", "Debian Unstable");
-            correctionAdd("Debian UnStable", "Debian Unstable");
-            correctionAdd("Debian Sid", "Debian Unstable");
-            correctionAdd("Debian sid", "Debian Unstable");
-            correctionAdd("debian sid", "Debian Unstable");
-            correctionAdd("Unstable", "Debian Unstable");
-            correctionAdd("sid", "Debian Unstable");
-            correctionAdd("Sid", "Debian Unstable");
-
-            correctionAdd("Debian stable", "Debian Stable");
-            correctionAdd("Debain stable", "Debian Stable");
-
-            // Linux
-            correctionAdd("DFSG", "Debian Free Software Guidelines");
-
-            // Linux
-            correctionAdd("Debian 4.0 (Etch)", "Debian&nbsp;4.0 (Etch)"); // Sort of identity mapping
-            correctionAdd("Debian Etch", "Debian&nbsp;4.0 (Etch)");
-            correctionAdd("debian etch", "Debian&nbsp;4.0 (Etch)");
-            correctionAdd("Etch", "Debian&nbsp;4.0 (Etch)");
-
-            // Linux
-            correctionAdd("Debian 5.0 (Lenny)", "Debian&nbsp;5.0 (Lenny)"); // Sort of identity mapping
-            correctionAdd("debian lenny", "Debian&nbsp;5.0 (Lenny)");
-            correctionAdd("Debian 5.0", "Debian&nbsp;5.0 (Lenny)");
-            correctionAdd("lenny", "Debian&nbsp;5.0 (Lenny)");
-            correctionAdd("Lenny", "Debian&nbsp;5.0 (Lenny)");
-
-            // Linux
-            correctionAdd("Debian 6.0 (Squeeze)", "Debian&nbsp;6.0 (Squeeze)"); // Sort of identity mapping
-            correctionAdd("Debian&nbsp;6.0", "Debian&nbsp;6.0 (Squeeze)");
-            correctionAdd("Debian Squeeze", "Debian&nbsp;6.0 (Squeeze)");
-            correctionAdd("debian squeeze", "Debian&nbsp;6.0 (Squeeze)");
-            correctionAdd("Debian squeeze", "Debian&nbsp;6.0 (Squeeze)");
-            correctionAdd("Debian 6.0", "Debian&nbsp;6.0 (Squeeze)");
-            correctionAdd("Debian 6", "Debian&nbsp;6.0 (Squeeze)");
-            correctionAdd("debian 6", "Debian&nbsp;6.0 (Squeeze)");
-            correctionAdd("Squeeze", "Debian&nbsp;6.0 (Squeeze)");
-            correctionAdd("squeeze", "Debian&nbsp;6.0 (Squeeze)");
-
-            // Linux
-            correctionAdd("Debian 7 (Wheezy)", "Debian&nbsp;7 (Wheezy)"); // Sort of identity mapping
-            correctionAdd("Debian Wheezy", "Debian&nbsp;7 (Wheezy)");
-            correctionAdd("debian wheezy", "Debian&nbsp;7 (Wheezy)");
-            correctionAdd("Debian&nbsp;7", "Debian&nbsp;7 (Wheezy)");
-            correctionAdd("Debian wheezy", "Debian&nbsp;7 (Wheezy)");
-            correctionAdd("Debian 7", "Debian&nbsp;7 (Wheezy)");
-            correctionAdd("debian 7", "Debian&nbsp;7 (Wheezy)");
-            correctionAdd("wheezy", "Debian&nbsp;7 (Wheezy)");
-            correctionAdd("Wheezy", "Debian&nbsp;7 (Wheezy)");
-
-            // Linux
-            correctionAdd("Debian 9 (Stretch)", "Debian&nbsp;9 (Stretch)"); // Sort of identity mapping
-            correctionAdd("Debian Stretch", "Debian&nbsp;9 (Stretch)");
-            correctionAdd("debian stretch", "Debian&nbsp;9 (Stretch)");
-            correctionAdd("Debian stretch", "Debian&nbsp;9 (Stretch)");
-            correctionAdd("debian 9", "Debian&nbsp;9 (Stretch)");
-            correctionAdd("Debian 9", "Debian&nbsp;9 (Stretch)");
-            correctionAdd("Stretch", "Debian&nbsp;9 (Stretch)");
-            correctionAdd("stretch", "Debian&nbsp;9 (Stretch)");
-
-            // Linux
-            correctionAdd("Debian 10 \"Buster\"", "Debian&nbsp;10 (Buster)");
-            correctionAdd("Debian 10 (Buster)", "Debian&nbsp;10 (Buster)");
-            correctionAdd("Debian 10 Buster", "Debian&nbsp;10 (Buster)");
-            correctionAdd("Debian 10 buster", "Debian&nbsp;10 (Buster)");
-            correctionAdd("Debian&nbsp;10", "Debian&nbsp;10 (Buster)");
-            correctionAdd("Debian Buster", "Debian&nbsp;10 (Buster)");
-            correctionAdd("Debian buster", "Debian&nbsp;10 (Buster)");
-            correctionAdd("debian buster", "Debian&nbsp;10 (Buster)");
-            correctionAdd("Debian 10", "Debian&nbsp;10 (Buster)");
-            correctionAdd("debian 10", "Debian&nbsp;10 (Buster)");
-            correctionAdd("buster", "Debian&nbsp;10 (Buster)");
-
-            // Linux
-            correctionAdd("Debian 11 (Bullseye)", "Debian&nbsp;11 (Bullseye)"); // Sort of identity mapping
-            correctionAdd("Debian Bullseye", "Debian&nbsp;11 (Bullseye)");
-            correctionAdd("debian bullseye", "Debian&nbsp;11 (Bullseye)");
-            correctionAdd("Debian&nbsp;11", "Debian&nbsp;11 (Bullseye)");
-            correctionAdd("Debian 11", "Debian&nbsp;11 (Bullseye)");
-            correctionAdd("debian 11", "Debian&nbsp;11 (Bullseye)");
-            correctionAdd("bullseye", "Debian&nbsp;11 (Bullseye)");
-            correctionAdd("Bullseye", "Debian&nbsp;11 (Bullseye)");
-
-            // Linux
-            correctionAdd("Debian 12 (Bookworm)", "Debian&nbsp;12 (Bookworm)"); // Sort of identity mapping
-            correctionAdd("Debian Bookworm", "Debian&nbsp;12 (Bookworm)");
-            correctionAdd("debian bookwork", "Debian&nbsp;12 (Bookworm)");
-            correctionAdd("debian bookworm", "Debian&nbsp;12 (Bookworm)");
-            correctionAdd("Debian bookworm", "Debian&nbsp;12 (Bookworm)");
-            correctionAdd("Debian 12", "Debian&nbsp;12 (Bookworm)");
-            correctionAdd("Bookworm", "Debian&nbsp;12 (Bookworm)");
-            correctionAdd("bookworm", "Debian&nbsp;12 (Bookworm)");
-
-            // Note: "Debian&nbsp;13 (Trixie)" is in an alternative word set
-            correctionAdd("Debian 14 (Forky)", "Debian&nbsp;14 (Forky)"); // Sort of identity mapping
-            correctionAdd("Debian 14", "Debian&nbsp;14 (Forky)");
-            correctionAdd("Forky", "Debian&nbsp;14 (Forky)");
-
-            // Based on Ubuntu 12.04 LTS
-            //
-            // Released 2012-05-23
-            //
-            // Note: "Linux Mint" is in an alternative word set
-            correctionAdd("Maya", "Linux Mint 13 (Maya)");
-            correctionAdd("maya", "Linux Mint 13 (Maya)");
-
-            // ***Not*** the Amiga 32-bit thing..., 'Serena OS'
-            // (<https://github.com/dplanitzer/Serena>)
-            //
-            // Based on Ubuntu 16.04 LTS (Xenial Xerus)
-            //
-            // Released 2017-01-04
-            //
-            correctionAdd("Serena", "Linux Mint 18.1 (Serena)");
-            correctionAdd("18.1", "Linux Mint 18.1 (Serena)");
-
-            // Released 2017-07-02
-            //
-            correctionAdd("Linux Mint Sonya", "Linux Mint 18.2 (Sonya)");
-
-            // Alternative URLs:
-            //
-            //   <https://en.linuxadictos.com/linux-mint-is-now-focused-on-the-development-of-lmde-6.html>
-            //
-            //   See entry "LMDE&nbsp;6 (Faye)__" for more.
-            //
-            correctionAdd("Linux Mint DE", "Linux Mint Debian Edition");
-            correctionAdd("LDME", "Linux Mint Debian Edition");
-            correctionAdd("ldme", "Linux Mint Debian Edition");
-            correctionAdd("lmde", "Linux Mint Debian Edition");
-            correctionAdd("Lmde", "Linux Mint Debian Edition");
-            correctionAdd("LMDE", "Linux Mint Debian Edition"); // The official shorthand
-
-            // A Linux distribution
-            correctionAdd("peppermint os", "Peppermint OS");
-            correctionAdd("PeppermintOS", "Peppermint OS");
-            correctionAdd("peppermint", "Peppermint OS");
-            correctionAdd("Peppermint", "Peppermint OS");
-
-            correctionAdd("lts", "LTS");
-            correctionAdd("Lts", "LTS");
-
-            // A Linux distribution
-            correctionAdd("Ubuntu OS", "Ubuntu");
-            correctionAdd("Yuchbuntu", "Ubuntu");
-            correctionAdd("Ubunutu", "Ubuntu"); // Misspelling.
-            correctionAdd("ubunutu", "Ubuntu"); // Misspelling.
-            correctionAdd("unbuntu", "Ubuntu");
-            correctionAdd("ubunbtu", "Ubuntu");
-            correctionAdd("Ubunbtu", "Ubuntu");
-            correctionAdd("Buguntu", "Ubuntu");
-            correctionAdd("Unbuntu", "Ubuntu");
-            correctionAdd("ubuntu", "Ubuntu");
-            correctionAdd("UBUNTU", "Ubuntu");
-            correctionAdd("ubunto", "Ubuntu");
-            correctionAdd("Ubunto", "Ubuntu");
-            correctionAdd("ubunty", "Ubuntu");
-            correctionAdd("Ubunut", "Ubuntu");
-            correctionAdd("ubunut", "Ubuntu");
-            correctionAdd("Uubntu", "Ubuntu");
-            correctionAdd("ubantu", "Ubuntu");
-            correctionAdd("uBuntu", "Ubuntu");
-            correctionAdd("ubutnu", "Ubuntu");
-            correctionAdd("Ubutnu", "Ubuntu");
-            correctionAdd("unutbu", "Ubuntu");
-            correctionAdd("UBUBTU", "Ubuntu");
-            correctionAdd("Ububtu", "Ubuntu");
-            correctionAdd("ububtu", "Ubuntu");
-            correctionAdd("Ubunty", "Ubuntu");
-            correctionAdd("Ubutu", "Ubuntu");
-            correctionAdd("ubutu", "Ubuntu");
-            correctionAdd("ubntu", "Ubuntu");
-            correctionAdd("Ubunt", "Ubuntu");
-            correctionAdd("Ubtu", "Ubuntu");
-
-            correctionAdd("Ubuntu one", "Ubuntu One");
-
-            correctionAdd("Kylin", "Ubuntu Kylin");
-
-            // A paid version, with extra security, etc.
-            //
-            // Alternative URLs:
-            //
-            //   <https://ubuntu.com/pro>
-            //   <https://discourse.ubuntu.com/t/ubuntu-pro-faq/34042>
-            //   <https://documentation.ubuntu.com/pro/>
-            //
-            correctionAdd("Ubuntu pro", "Ubuntu Pro");
-
-            correctionAdd("ubuntu studio", "Ubuntu Studio");
-
-            // A desktop environment for Linux. There is also
-            // an official Ubuntu flovour using it:
-            //
-            //   Ubuntu Budgie  <https://en.wikipedia.org/wiki/Ubuntu_Budgie>
-            correctionAdd("Ubuntu budgie", "Budgie");
-            correctionAdd("budgie", "Budgie");
-
-            // Ubuntu. Linux.
-            //
-            // 'ubuntu.com' reference: Unavailable 2026-02-22T193132:
-            //
-            //     "503 Service Unavailable"
-            //
-            //   Is it permanent?
-            //
-            // Alternative URLs:
-            //
-            //   <https://askubuntu.com/questions/248914/>
-            //     What is hardware enablement (HWE)?
-            //
-            correctionAdd("Hardware Enablement Stack", "Ubuntu Hardware Enablement");
-            correctionAdd("Hardware Enablement", "Ubuntu Hardware Enablement");
-            correctionAdd("HardWare Enablement", "Ubuntu Hardware Enablement");
-            correctionAdd("hardware enablement", "Ubuntu Hardware Enablement");
-            correctionAdd("hwe", "Ubuntu Hardware Enablement");
-            correctionAdd("HWE", "Ubuntu Hardware Enablement");
-
-            // Ubuntu
-            correctionAdd("Run As dialog", "Run dialog");
-            correctionAdd("run as dialog", "Run dialog");
-            correctionAdd("Run command", "Run dialog");
-            correctionAdd("run dialoge", "Run dialog");
-            correctionAdd("run window", "Run dialog");
-            correctionAdd("Run Dialog", "Run dialog");
-            correctionAdd("run dialog", "Run dialog");
-            correctionAdd("Run window", "Run dialog");
-
-            // Ubuntu / Linux
-            //
-            // Alternative URLs:
-            //
-            //   <https://wiki.ubuntu.com/Apport>
-            //     But it redirects...
-            //
-            correctionAdd("apport", "Apport");
-
-            correctionAdd("Warty Warthog", "Ubuntu&nbsp;4.10 (Warty Warthog)");
-            correctionAdd("Ubuntu 4.10 (Warty Warthog)", "Ubuntu&nbsp;4.10 (Warty Warthog)"); // Sort of identity mapping
-
-            correctionAdd("Ubuntu 7.10 (Gutsy Gibbon)", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)"); // Sort of identity mapping
-            correctionAdd("Gutsy Gibbon", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
-            correctionAdd("Ubuntu 7.10", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
-            correctionAdd("ubuntu 7.10", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
-            correctionAdd("7.1-ubuntu", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
-            correctionAdd("ubuntu 7.1", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
-            correctionAdd("Ubuntu 7.1", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
-            correctionAdd("ubuntu7", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
-            correctionAdd("Gutsy", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
-
-            correctionAdd("Ubuntu 8.04 LTS (Hardy Heron)", "Ubuntu&nbsp;8.04 (Hardy Heron)");
-            correctionAdd("Ubuntu Linux 8.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
-            correctionAdd("Ubuntu 8.04 (Hardy Heron)", "Ubuntu&nbsp;8.04 (Hardy Heron)"); // Sort of identity mapping
-            correctionAdd("Ubuntu Hardy", "Ubuntu&nbsp;8.04 (Hardy Heron)");
-            correctionAdd("Ubuntu 8.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
-            correctionAdd("Hardy Heron", "Ubuntu&nbsp;8.04 (Hardy Heron)");
-            correctionAdd("Hardy", "Ubuntu&nbsp;8.04 (Hardy Heron)");
-            correctionAdd("08.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
-            correctionAdd("8.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
-
-            correctionAdd("Ubuntu 8.10 (Intrepid Ibex)", "Ubuntu&nbsp;8.10 (Intrepid Ibex)"); // Sort of identity mapping
-            correctionAdd("Linux Ubuntu Intrepid Ibex", "Ubuntu&nbsp;8.10 (Intrepid Ibex)");
-            correctionAdd("Ubuntu Intrepid Ibex", "Ubuntu&nbsp;8.10 (Intrepid Ibex)");
-            correctionAdd("Intrepid Ibex", "Ubuntu&nbsp;8.10 (Intrepid Ibex)");
-            correctionAdd("Ubuntu 8.10", "Ubuntu&nbsp;8.10 (Intrepid Ibex)");
-            correctionAdd("8.10", "Ubuntu&nbsp;8.10 (Intrepid Ibex)");
-
-            correctionAdd("Ubuntu 9.04 (Jaunty Jackalope)", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)"); // Sort of identity mapping
-            correctionAdd("Jaunty Jackalope", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
-            correctionAdd("Ubuntu Jaunty", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
-            correctionAdd("ubuntu 9.04", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
-            correctionAdd("Ubuntu 9.04", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
-            correctionAdd("Jaunty", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
-            correctionAdd("9.04", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
-
-            correctionAdd("Ubuntu 9.10 (Karmic Koala)", "Ubuntu&nbsp;9.10 (Karmic Koala)"); // Sort of identity mapping
-            correctionAdd("Ubuntu&nbsp;9.10", "Ubuntu&nbsp;9.10 (Karmic Koala)");
-            correctionAdd("Ubuntu Karmic", "Ubuntu&nbsp;9.10 (Karmic Koala)");
-            correctionAdd("Karmic Koala", "Ubuntu&nbsp;9.10 (Karmic Koala)");
-            correctionAdd("Ubuntu 9.10", "Ubuntu&nbsp;9.10 (Karmic Koala)");
-            correctionAdd("ubuntu 9.10", "Ubuntu&nbsp;9.10 (Karmic Koala)");
-            correctionAdd("karmic", "Ubuntu&nbsp;9.10 (Karmic Koala)");
-            correctionAdd("Karmic", "Ubuntu&nbsp;9.10 (Karmic Koala)");
-            correctionAdd("9.10", "Ubuntu&nbsp;9.10 (Karmic Koala)");
-
-            correctionAdd("Ubuntu 10.04 LTS (Lucid Lynx)", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("Ubuntu 10.04 (Lucid Lynx)", "Ubuntu&nbsp;10.04 (Lucid Lynx)"); // Sort of identity mapping
-            correctionAdd("Ubuntu 10.04 Lucid Lynx", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("Ubuntu&nbsp;10.04", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("Ubuntu 10.04", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("ubuntu 10.04", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("UBUNTU 10.04", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("Ubuntu 10.4", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("ubuntu 10.4", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("ubuntu 10", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("lucid", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("Lucid", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("10.04", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-
-            // Close in name (Mac): "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)"
-            //
-            correctionAdd("Ubuntu 10.10 (Maverick Meerkat)", "Ubuntu&nbsp;10.10 (Maverick Meerkat)"); // Sort of identity mapping
-            correctionAdd("10.10 Maverick Meerkat", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
-            correctionAdd("Maverick Meerkat", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
-            correctionAdd("Ubuntu Maverick", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
-            correctionAdd("Ubuntu 10.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
-            correctionAdd("ubuntu 10.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
-            correctionAdd("ubuntu 1.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
-            correctionAdd("10.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
-            correctionAdd("1.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
-
-            correctionAdd("Ubuntu 11.04 (Natty Narwhal)", "Ubuntu&nbsp;11.04 (Natty Narwhal)"); // Sort of identity mapping
-            correctionAdd("Ubuntu&nbsp;11.04", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
-            correctionAdd("Ubuntu Narwhal", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
-            correctionAdd("Natty Narwhal", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
-            correctionAdd("ubuntu 11.04", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
-            correctionAdd("Ubuntu 11.04", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
-            correctionAdd("Ubuntu natty", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
-            correctionAdd("ubuntu natty", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
-            correctionAdd("Ubuntu Natty", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
-            correctionAdd("Narwhal", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
-            correctionAdd("Natty", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
-            correctionAdd("11.04", "Ubuntu&nbsp;11.04 (Natty Narwhal)"); // But it does not work... "11.04" is converted to "104"...
-
-            correctionAdd("Ubuntu 11.10 (Oneiric Ocelot)", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)"); // Sort of identity mapping
-            correctionAdd("Ubuntu&nbsp;11.10", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
-            correctionAdd("uBuntu Oneiric", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
-            correctionAdd("Ubuntu Oneiric", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
-            correctionAdd("ubuntu 11.10", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
-            correctionAdd("Ubuntu 11.10", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
-            correctionAdd("Ubuntu 11", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)"); // 11 being 11.04 depends on context...
-            correctionAdd("Oneiric", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
-            correctionAdd("oneiric", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
-            correctionAdd("11.10", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
-
-            correctionAdd("Ubuntu 12.04 LTS (Precise Pangolin)", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("Ubuntu 12.04 (Precise Pangolin)", "Ubuntu&nbsp;12.04 (Precise Pangolin)"); // Sort of identity mapping
-            correctionAdd("Ubuntu&nbsp;12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("ubuntu 12.04 lts", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("Precise Pangolin", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("ubuntu precise", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("ubuntu 12 .04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("Ubuntu 12 .04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("unbuntu 12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)"); // Misspelling.
-            correctionAdd("Precise 12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("Ubuntu 12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("ubuntu 12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("12.04 Ubuntu", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("ubuntu 12.0", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("Ubuntu 12.0", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("Ubuntu 12.4", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("Ubuntu 12", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("ubuntu 12", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("precise", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("Precise", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("12.0.4", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-
-            correctionAdd("Ubuntu 12.10 (Quantal Quetzal)", "Ubuntu&nbsp;12.10 (Quantal Quetzal)"); // Sort of identity mapping
-            correctionAdd("Ubuntu&nbsp;12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
-            correctionAdd("Ubuntu 12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
-            correctionAdd("ubunut 12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
-            correctionAdd("ubuntu 12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
-            correctionAdd("ubunut12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
-            correctionAdd("quantal", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
-            correctionAdd("12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
-
-            correctionAdd("Ubuntu&nbsp;13.04", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
-            correctionAdd("Ubuntu 13.04 (Raring Ringtail)", "Ubuntu&nbsp;13.04 (Raring Ringtail)"); // Sort of identity mapping
-            correctionAdd("Ubuntu 13.04", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
-            correctionAdd("ubuntu 13.04", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
-            correctionAdd("Ubuntu 13", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
-            correctionAdd("raring", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
-            correctionAdd("13.04", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
-
-            correctionAdd("Ubuntu 13.10 (Saucy Salamander)", "Ubuntu&nbsp;13.10 (Saucy Salamander)"); // Sort of identity mapping
-            correctionAdd("Ubuntu&nbsp;13.10", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
-            correctionAdd("Ubuntu 13.10", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
-            correctionAdd("ubuntu 13.10", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
-            correctionAdd("saucy", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
-            correctionAdd("13.10", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
-
-            correctionAdd("Ubuntu 14.04 (Trusty Tahr)", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Sort of identity mapping
-            correctionAdd("Ubuntu Unity 14.0.4", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
-            correctionAdd("trusty Ubuntu 14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
-            correctionAdd("Ubuntu Linux 14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
-            correctionAdd("Ubuntu Unity 14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
-            correctionAdd("Ubuntu&nbsp;14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("ubuntu 14.04 LTS", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
-            correctionAdd("Ubuntu 14.04 LTS", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
-            correctionAdd("ubunru 14.04lts", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("ubuntu14.04 LTS", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
-            correctionAdd("Ubuntu 14.04LTS", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
-            correctionAdd("ubuntu14.04LTS", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
-            correctionAdd("Ubuntu 14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("ubuntu 14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("14.04 Trusty", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("uBuntu 14-04", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
-            correctionAdd("Ubuntu14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("Trusty Tahr", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("ubuntu14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("Ubuntu 14", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("Trusty", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("trusty", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("14-04", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
-
-            correctionAdd("Ubuntu 14.10 (Utopic Unicorn)", "Ubuntu&nbsp;14.10 (Utopic Unicorn)"); // Sort of identity mapping
-            correctionAdd("Ubuntu Server 14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
-            correctionAdd("Ubuntu&nbsp;14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
-            correctionAdd("Ubuntu 14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
-            correctionAdd("ubuntu 14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
-            correctionAdd("14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
-
-            correctionAdd("Ubuntu 15.04 (Vivid Vervet)", "Ubuntu&nbsp;15.04 (Vivid Vervet)"); // Sort of identity mapping
-            correctionAdd("Ubuntu&nbsp;15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
-            correctionAdd("Ubuntu 15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
-            correctionAdd("ubuntu 15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
-            correctionAdd("Ubuntu15", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
-            correctionAdd("Ubuntu 15", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
-            correctionAdd("15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
-
-            correctionAdd("Ubuntu 15.10 (Wily Werewolf)", "Ubuntu&nbsp;15.10 (Wily Werewolf)"); // Sort of identity mapping
-            correctionAdd("Ubuntu 15.10", "Ubuntu&nbsp;15.10 (Wily Werewolf)");
-            correctionAdd("ubuntu 15.10", "Ubuntu&nbsp;15.10 (Wily Werewolf)");
-            correctionAdd("15.10", "Ubuntu&nbsp;15.10 (Wily Werewolf)");
-
-            correctionAdd("Ubuntu&nbsp;16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("Ubuntu 16.04 (Xenial Xerus)", "Ubuntu&nbsp;16.04 (Xenial Xerus)"); // Sort of identity mapping
-            correctionAdd("Ubuntu Xenial", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("ubuntu xenial", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("ubuntu 16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("Ubuntu 16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("UBUNTU 16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("Ubuntu 16.06", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("Ubuntu-16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("Ubuntu16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("Ubuntu 16.4", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("Ubuntu 16", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("ubuntu 16", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("of 2016", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("Xenial", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("xenial", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("16.4", "Ubuntu&nbsp;16.04 (Xenial Xerus)"); // Yes, highly context dependent...
-            correctionAdd("16", "Ubuntu&nbsp;16.04 (Xenial Xerus)"); // Yes, even more highly context dependent...
-
-            correctionAdd("Ubuntu 16.10 (Yakkety Yak)", "Ubuntu&nbsp;16.10 (Yakkety Yak)"); // Sort of identity mapping
-            correctionAdd("Ubuntu 16.10", "Ubuntu&nbsp;16.10 (Yakkety Yak)");
-            correctionAdd("Yakkety Yak", "Ubuntu&nbsp;16.10 (Yakkety Yak)");
-            correctionAdd("16.10", "Ubuntu&nbsp;16.10 (Yakkety Yak)");
-
-            correctionAdd("Ubuntu 17.04 (Zesty Zapus)", "Ubuntu&nbsp;17.04 (Zesty Zapus)"); // Sort of identity mapping
-            correctionAdd("ubuntu 17.04", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
-            correctionAdd("Ubuntu 17.04", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
-            correctionAdd("Zesty Zapus", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
-            correctionAdd("zesty", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
-            correctionAdd("17.04", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
-
-            correctionAdd("Ubuntu 17.10 (Artful Aardvark)", "Ubuntu&nbsp;17.10 (Artful Aardvark)"); // Sort of identity mapping
-            correctionAdd("Ubuntu 17.10", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
-            correctionAdd("ubuntu 17.10", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
-            correctionAdd("ubuntu17.10", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
-            correctionAdd("Ubuntu 17.1", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
-            correctionAdd("Ubuntu 17", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
-            correctionAdd("ubuntu 17", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
-            correctionAdd("artful", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
-            correctionAdd("17.10", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
-
-            correctionAdd("Ubuntu 18.04 (Bionic Beaver)", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Sort of identity mapping
-            correctionAdd("Ubuntu Bionic Beaver", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu&nbsp;18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu 18.04LTS", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Bionic Beaver", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("bionic beaver", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("ubuntu bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu 18 LTS", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu Bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("ubuntu 18 lts", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu 18.0.4", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("ubuntu 18.0.4", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu 18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu-18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("ubuntu 18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("ubuntu-18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu 18.4", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("ubuntu18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu V18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu 18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu-18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("ubuntu 18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("18.04 LTS", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("18.04LTS", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("V18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Yes, highly context dependent...
-            correctionAdd("v18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Yes, highly context dependent...
-            correctionAdd("18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("V18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("18", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Yes, even more highly context dependent...
-
-            correctionAdd("Ubuntu 18.10 (Cosmic Cuttlefish)", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)"); // Sort of identity mapping
-            correctionAdd("Cosmic Cuttlefish", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
-            correctionAdd("Ubuntu Cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
-            correctionAdd("Ubuntu 18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
-            correctionAdd("UBUNTU 18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
-            correctionAdd("ubuntu 18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
-            correctionAdd("Cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
-            correctionAdd("cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
-            correctionAdd("18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
-
-            correctionAdd("Ubuntu 19.04 (Disco Dingo)", "Ubuntu&nbsp;19.04 (Disco Dingo)"); // Sort of identity mapping
-            correctionAdd("Ubuntu 19.04", "Ubuntu&nbsp;19.04 (Disco Dingo)");
-            correctionAdd("ubuntu 19.04", "Ubuntu&nbsp;19.04 (Disco Dingo)");
-            correctionAdd("Disco Dingo", "Ubuntu&nbsp;19.04 (Disco Dingo)");
-            correctionAdd("ubuntu 19", "Ubuntu&nbsp;19.04 (Disco Dingo)");
-            correctionAdd("Ubuntu 19", "Ubuntu&nbsp;19.04 (Disco Dingo)");
-            correctionAdd("19.04", "Ubuntu&nbsp;19.04 (Disco Dingo)");
-            correctionAdd("disco", "Ubuntu&nbsp;19.04 (Disco Dingo)");
-            correctionAdd("Disco", "Ubuntu&nbsp;19.04 (Disco Dingo)");
-
-            // It broke the clipboard!!!! -
-            //
-            //   <https://pmortensen.eu/world2/2022/06/27/blues-typing-out-fixed-texts-on-both-qmk-and-arduino-leonardo-based-macro-keyboards/#GNOME_breaks_stuff>
-            //
-            // Note: "Ubuntu 19.04 (Disco Dingo)" is in another word set
-            //
-            correctionAdd("Ubuntu 19.04 eoan", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
-            correctionAdd("Ubuntu v.19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
-            correctionAdd("Ubuntu 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
-            correctionAdd("ubuntu 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
-            correctionAdd("UBUNTU 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
-            correctionAdd("Ubunto 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
-            correctionAdd("Ubuntu 19.10 (Eoan Ermine)", "Ubuntu&nbsp;19.10 (Eoan Ermine)"); // Sort of identity mapping
-            correctionAdd("19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
-            correctionAdd("eoan", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
-            correctionAdd("Eoan", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
-
-            correctionAdd("Ubuntu 20.04 (Focal Fossa)", "Ubuntu&nbsp;20.04 (Focal Fossa)"); // Sort of identity mapping
-            correctionAdd("ubuntu 20.4 focal fossa", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu Linux 20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu&nbsp;20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu 20.04 LTS", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("ubuntu 20.04 LTS", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("ubuntu 20.04LTS", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu 20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("ubuntu 20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("ubuntu-focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu Focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("ubuntu-20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("UBUNTU 20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("ubuntu20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("focal fossa", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu 20.4", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("ubuntu 20.4", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu 20", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("ubuntu 20", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("ubuntu-20", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("20.04 lts", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu20", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("20.04lts", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("20", "Ubuntu&nbsp;20.04 (Focal Fossa)"); // Yes, highly context dependent...
-
-            correctionAdd("Ubuntu MATE 20.04 (Focal Fossa)", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)"); // Sort of identity mapping
-            correctionAdd("Ubuntu 20.04 MATE", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu MATE 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("ubuntu mate 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("ubuntu 20.04 mate", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu 20.04 mate", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu Mate 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("MATE 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("20.04 mate", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("20.04 MATE", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("mate 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-
-            correctionAdd("Ubuntu 20.10", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
-            correctionAdd("Ubuntu 20.10 (Groovy Gorilla)", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
-            correctionAdd("ubuntu 20.10", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
-            correctionAdd("20.10", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
-
-            correctionAdd("Ubuntu 21.04 (Hirsute Hippo)", "Ubuntu&nbsp;21.04 (Hirsute Hippo)"); // Sort of identity mapping
-            correctionAdd("ubuntu hirsute", "Ubuntu&nbsp;21.04 (Hirsute Hippo)");
-            correctionAdd("Hirsute Hippo", "Ubuntu&nbsp;21.04 (Hirsute Hippo)");
-            correctionAdd("Ubuntu 21.04", "Ubuntu&nbsp;21.04 (Hirsute Hippo)");
-            correctionAdd("ubuntu 21.04", "Ubuntu&nbsp;21.04 (Hirsute Hippo)");
-            correctionAdd("hirsute", "Ubuntu&nbsp;21.04 (Hirsute Hippo)");
-            correctionAdd("21.04", "Ubuntu&nbsp;21.04 (Hirsute Hippo)");
-
-            correctionAdd("Ubuntu 21.10 (Impish Indri)", "Ubuntu&nbsp;21.10 (Impish Indri)"); // Sort of identity mapping
-            correctionAdd("ubuntu 21.10 impish", "Ubuntu&nbsp;21.10 (Impish Indri)");
-            correctionAdd("Ubuntu 21.10", "Ubuntu&nbsp;21.10 (Impish Indri)");
-            correctionAdd("ubuntu 21.10", "Ubuntu&nbsp;21.10 (Impish Indri)");
-            correctionAdd("impish", "Ubuntu&nbsp;21.10 (Impish Indri)");
-            correctionAdd("Impish", "Ubuntu&nbsp;21.10 (Impish Indri)");
-            correctionAdd("21.10", "Ubuntu&nbsp;21.10 (Impish Indri)");
-
-            correctionAdd("Ubuntu Linux 22.xx", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("Jammy Jellyfish", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("Jammy jellyfish", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("jammy jellyfish", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("Ubuntu 22 LTS", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("ubuntu 22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("Ubuntu 22.04 (Jammy Jellyfish)", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)"); // Sort of identity mapping
-            correctionAdd("Ubuntu 22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
-            correctionAdd("Ubuntu 22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("ubuntu-22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("Ubuntu22LTS", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("Ubuntu22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("ubuntu22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("the gobble", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("the gopple", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("Ubuntu 22", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("ubuntu 22", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("Jellyfish", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("The gople", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("the gople", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("ubuntu22", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("gobble", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("gopple", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("Jammy", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("jammy", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("gople", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("22:04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("22.xx", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("22", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-
-            correctionAdd("Ubuntu 22.10 (Kinetic Kudu)", "Ubuntu&nbsp;22.10 (Kinetic Kudu)"); // Sort of identity mapping
-            correctionAdd("22.10", "Ubuntu&nbsp;22.10 (Kinetic Kudu)");
-
-            correctionAdd("Ubuntu 23.04 (Lunar Lobster)", "Ubuntu&nbsp;23.04 (Lunar Lobster)"); // Sort of identity mapping
-            correctionAdd("Ubuntu 23.04", "Ubuntu&nbsp;23.04 (Lunar Lobster)");
-            correctionAdd("23.04", "Ubuntu&nbsp;23.04 (Lunar Lobster)");
-
-            correctionAdd("Ubuntu 23.10 (Mantic Minotaur)", "Ubuntu&nbsp;23.10 (Mantic Minotaur)"); // Sort of identity mapping
-            correctionAdd("Ubuntu 23.10", "Ubuntu&nbsp;23.10 (Mantic Minotaur)");
-            correctionAdd("bovine", "Ubuntu&nbsp;23.10 (Mantic Minotaur)");
-            correctionAdd("23.10", "Ubuntu&nbsp;23.10 (Mantic Minotaur)");
-
-            correctionAdd("Ubuntu 24.04 (Noble Numbat)", "Ubuntu&nbsp;24.04 (Noble Numbat)"); // Sort of identity mapping
-            correctionAdd("Ubuntu noble 24.04", "Ubuntu&nbsp;24.04 (Noble Numbat)");
-            correctionAdd("Ubuntu 24.04", "Ubuntu&nbsp;24.04 (Noble Numbat)");
-            correctionAdd("ubuntu 24.04", "Ubuntu&nbsp;24.04 (Noble Numbat)");
-            correctionAdd("ubuntu 24.01", "Ubuntu&nbsp;24.04 (Noble Numbat)"); // Probably 24.04.01
-            correctionAdd("ubunto 24.04", "Ubuntu&nbsp;24.04 (Noble Numbat)");
-            correctionAdd("Noble Numbat", "Ubuntu&nbsp;24.04 (Noble Numbat)");
-            correctionAdd("Ubuntu:24.04", "Ubuntu&nbsp;24.04 (Noble Numbat)");
-            correctionAdd("ubuntu-24.04", "Ubuntu&nbsp;24.04 (Noble Numbat)");
-            correctionAdd("Ubuntu Noble", "Ubuntu&nbsp;24.04 (Noble Numbat)");
-            correctionAdd("Ubuntu noble", "Ubuntu&nbsp;24.04 (Noble Numbat)");
-            correctionAdd("ubuntu 24", "Ubuntu&nbsp;24.04 (Noble Numbat)");
-            correctionAdd("Ubuntu 24", "Ubuntu&nbsp;24.04 (Noble Numbat)");
-            correctionAdd("Noble", "Ubuntu&nbsp;24.04 (Noble Numbat)");
-            correctionAdd("24.04", "Ubuntu&nbsp;24.04 (Noble Numbat)");
-            correctionAdd("noble", "Ubuntu&nbsp;24.04 (Noble Numbat)");
-
-            correctionAdd("Ubuntu 26.04 (Resolute Raccoon)", "Ubuntu&nbsp;26.04 (Resolute Raccoon)"); // Sort of identity mapping
-            correctionAdd("Ubuntu 26.04", "Ubuntu&nbsp;26.04 (Resolute Raccoon)");
-            correctionAdd("ubuntu 26.04", "Ubuntu&nbsp;26.04 (Resolute Raccoon)");
-            correctionAdd("ubuntu 2604", "Ubuntu&nbsp;26.04 (Resolute Raccoon)");
-            correctionAdd("ubuntu26.04", "Ubuntu&nbsp;26.04 (Resolute Raccoon)");
-            correctionAdd("ubuntu2604", "Ubuntu&nbsp;26.04 (Resolute Raccoon)");
-            correctionAdd("26.04", "Ubuntu&nbsp;26.04 (Resolute Raccoon)");
-            correctionAdd("2604", "Ubuntu&nbsp;26.04 (Resolute Raccoon)");
-
-            // A Linux distribution
-            //
-            // A duplicate of "MATE"?
-            correctionAdd("ubuntu manta", "Ubuntu&nbsp;MATE");
-            correctionAdd("Ubuntu MATE", "Ubuntu&nbsp;MATE"); // Sort of identity mapping
-            correctionAdd("Ubuntu Mate", "Ubuntu&nbsp;MATE");
-            correctionAdd("ubuntu mate", "Ubuntu&nbsp;MATE");
-            correctionAdd("ubuntu Mate", "Ubuntu&nbsp;MATE");
-            correctionAdd("Ubuntu-MATE", "Ubuntu&nbsp;MATE");
-            correctionAdd("UbuntuMate", "Ubuntu&nbsp;MATE");
-
-            correctionAdd("ChromeBook", "Chromebook");
-            correctionAdd("chromebook", "Chromebook");
-
-            // Related to Chromebook
-            correctionAdd("crouton", "Crouton");
-
-            // A Linux distribution
-            // Related to Crouton
-            correctionAdd("chrubuntu", "ChrUbuntu");
-
-            // Related to Chromebook
-            correctionAdd("ChromeOS", "Chrome OS");
-            correctionAdd("ChromeOs", "Chrome OS");
-            correctionAdd("chromeOS", "Chrome OS");
-
-            correctionAdd("lubuntu", "Lubuntu");
-            correctionAdd("LUbuntu", "Lubuntu");
-
-            // A Linux distribution
-            correctionAdd("kubuntu", "Kubuntu");
-            correctionAdd("KUbuntu", "Kubuntu");
-            correctionAdd("kUbuntu", "Kubuntu");
-            correctionAdd("kubutnu", "Kubuntu");
-            correctionAdd("KUBUNTU", "Kubuntu");
-
-            correctionAdd("Kubuntu 16.04 (Xenial Xerus)", "Kubuntu&nbsp;16.04 (Xenial Xerus)"); // Sort of identity mapping
-            correctionAdd("Kubuntu 16.04", "Kubuntu&nbsp;16.04 (Xenial Xerus)");
-
-            correctionAdd("Kubuntu 20.04 (Focal Fossa)", "Kubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Kubuntu 20.04", "Kubuntu&nbsp;20.04 (Focal Fossa)");
-
-            correctionAdd("Kubuntu 24.04 (Noble Numbat)", "Kubuntu&nbsp;24.04 (Noble Numbat)"); // Sort of identity mapping
-            correctionAdd("kubuntu24.04", "Kubuntu&nbsp;24.04 (Noble Numbat)");
-
-            correctionAdd("xubunbtu", "Xubuntu");
-            correctionAdd("Xubunbtu", "Xubuntu");
-            correctionAdd("xubuntu", "Xubuntu");
-            correctionAdd("XUbuntu", "Xubuntu");
-            correctionAdd("xubutu", "Xubuntu");
-            correctionAdd("xbuntu", "Xubuntu");
-
-            // A Linux distribution
-            correctionAdd("edubuntu", "Edubuntu");
-
-            // A Linux distribution
-            //
-            // Dubious?!?!
-            //
-            correctionAdd("Windows Ubuntu", "Wubuntu");
-            correctionAdd("wubuntu", "Wubuntu");
-
-            // A Linux distribution
-            correctionAdd("angstrom linux", "Ångström Linux");
-            correctionAdd("Angstrom Linux", "Ångström Linux");
-            correctionAdd("angstrom", "Ångström Linux");
-            correctionAdd("Angstrom", "Ångström Linux");
-
-            // A Linux distribution
-            correctionAdd("bunsenlabs", "BunsenLabs (Debian Linux-based)");
-            correctionAdd("BunsenLabs", "BunsenLabs (Debian Linux-based)");
-            correctionAdd("Bunsen", "BunsenLabs (Debian Linux-based)");
-
-            // A Linux distribution
-            correctionAdd("alphine linux", "Alpine Linux");
-            correctionAdd("alpine linux", "Alpine Linux");
-            correctionAdd("Alpine", "Alpine Linux");
-            correctionAdd("alpine", "Alpine Linux");
-
-            // A type of a Linux installation.
-            correctionAdd("Linux from Scratch", "Linux From Scratch");
-            correctionAdd("linux from scratch", "Linux From Scratch");
-            correctionAdd("Linux from scratch", "Linux From Scratch");
-            correctionAdd("linuxfromscratch", "Linux From Scratch");
-
-            // A Linux distribution
-            //
-            // Alternative URLs:
-            //
-            //   <https://distrowatch.com/table.php?distribution=arco>
-            //   <https://www.youtube.com/watch?v=X2nRnHo-lcM>
-            correctionAdd("Agro Linux", "ArcoLinux");
-            correctionAdd("Arco Linux", "ArcoLinux");
-            correctionAdd("arco linux", "ArcoLinux");
-            correctionAdd("arcolinux", "ArcoLinux");
-            correctionAdd("AgroLinux", "ArcoLinux");
-            correctionAdd("Arcolinux", "ArcoLinux");
-            correctionAdd("arco", "ArcoLinux");
-            correctionAdd("Arco", "ArcoLinux");
-
-            // Alternative URL: <https://www.youtube.com/watch?v=v6ftVvLt2ls>
-            correctionAdd("AAG", "ArcoLinux Auditing Group");
-
-            // A Linux distribution
-            correctionAdd("manjaro linux", "Manjaro");
-            correctionAdd("Manajro", "Manjaro"); // A true typo
-            correctionAdd("manjaro", "Manjaro");
-
-            // A Linux distribution
-            correctionAdd("PC Linux OS", "PCLinuxOS");
-
-            // Effectively a (lightweight) Linux distribution
-            //
-            // Some variants support 32 bit.
-            // JWM window manager.
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.youtube.com/watch?v=qUpdHF69BQY>
-            //
-            correctionAdd("puppy linux", "Puppy Linux");
-            correctionAdd("poppy linux", "Puppy Linux");
-            correctionAdd("puppy Linux", "Puppy Linux");
-            correctionAdd("Puppy", "Puppy Linux");
-
-            // Support for developing Linux distributions
-            correctionAdd("Yocto Linux", "Yocto Project");
-            correctionAdd("octo linux", "Yocto Project");
-            correctionAdd("yocto", "Yocto Project");
-            correctionAdd("Yocto", "Yocto Project");
-
-            // A Linux distribution(?): "A reference/example embedded
-            // Linux configuration used for testing". Yocto
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/Yocto_Project>
-            //
-            correctionAdd("poky", "Poky");
-
-            // A lightweight Linux distribution.
-            //
-            // Not to be confused with the "Artix Linux" Linux distribution
-            //
-            // It supports 32 bit.
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.youtube.com/watch?v=qUpdHF69BQY>
-            //     Top 5 Linux distributions for older hardware
-            //
-            correctionAdd("AntiX Linux", "antiX");
-            correctionAdd("AntiX", "antiX");
-            correctionAdd("antix", "antiX");
-            correctionAdd("Antix", "antiX");
-
-            // A lightweight Linux distribution. Based on Debian.
-            correctionAdd("q4os", "Q4OS");
-
-            // A lightweight Linux distribution.
-            // But not 32 bit (based on Ubuntu LTS).
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.youtube.com/watch?v=qUpdHF69BQY>
-            //
-            correctionAdd("linux lite", "Linux Lite");
-
-            // A lightweight Linux distribution.
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.youtube.com/watch?v=qUpdHF69BQY>
-            //   <https://maboxlinux.org/>
-            //
-            correctionAdd("mabox", "Mabox Linux");
-            correctionAdd("Mabox", "Mabox Linux");
-
-            // A Linux distribution
-            correctionAdd("Alma Linux", "AlmaLinux");
-            correctionAdd("Almalinux", "AlmaLinux");
-            correctionAdd("Alma", "AlmaLinux");
-            correctionAdd("alma", "AlmaLinux");
-
-            // A Linux distribution
-            correctionAdd("rockylinux", "Rocky Linux");
-            correctionAdd("RockyLinux", "Rocky Linux");
-            correctionAdd("Rocky", "Rocky Linux");
-
-            // A Linux distribution.
-            //
-            // Note: Not to be confused with the "antiX" Linux distribution
-            //
-            // Tries to get higher in DistroWatch rankings by nefarious means.
-            //
-            // Based on Arch Linux. Does not use 'systemd' (Arch Linux was
-            // one of the first to switch to 'systemd' (from System V?));
-            // a protest Linux distribution
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.youtube.com/watch?v=tdr-144Ondo>
-            //
-            //   <https://odysee.com/@DistroTube:2/is-artix-linux-just-a-protest-distro:7>
-            //
-            correctionAdd("artix linux", "Artix Linux");
-            correctionAdd("ArtiX", "Artix Linux");
-            correctionAdd("Artix", "Artix Linux");
-            correctionAdd("artix", "Artix Linux");
-
-            // A Linux distribution
-            correctionAdd("CloudLinux", "CloudLinux OS");
-
-            // A Linux distribution
-            correctionAdd("Endeavour OS", "EndeavourOS");
-            correctionAdd("endeavour os", "EndeavourOS");
-            correctionAdd("Endeavour os", "EndeavourOS");
-            correctionAdd("endeavouros", "EndeavourOS");
-            correctionAdd("endeavor os", "EndeavourOS");
-            correctionAdd("endeavor OS", "EndeavourOS");
-            correctionAdd("Endeavouros", "EndeavourOS");
-            correctionAdd("endevour os", "EndeavourOS");
-            correctionAdd("EndeavorOS", "EndeavourOS");
-            correctionAdd("EndevourOS", "EndeavourOS");
-            correctionAdd("EndavourOS", "EndeavourOS");
-            correctionAdd("Endeavour", "EndeavourOS");
-            correctionAdd("Endevor", "EndeavourOS");
-            correctionAdd("EOS", "EndeavourOS");
-
-            // Effectively a Linux distribution
-            correctionAdd("Solus Plasma", "Solus");
-            correctionAdd("Solus Linux", "Solus");
-            correctionAdd("Evolve OS", "Solus");
-            correctionAdd("solus", "Solus");
-
-            // A Linux distribution
-            correctionAdd("Xero Linux", "XeroLinux");
-            correctionAdd("Zero Linux", "XeroLinux");
-            correctionAdd("xero", "XeroLinux");
-
-            // A Linux distribution
-            correctionAdd("SpringdaleLinux", "Springdale Linux");
-
-            // A Linux distribution
-            correctionAdd("Sparky Linux", "SparkyLinux");
-
-            // A Linux distribution
-            correctionAdd("KANOTIX", "Kanotix");
-
-            // A Linux distribution
-            correctionAdd("Garuda linux", "Garuda Linux");
-            correctionAdd("Garuda", "Garuda Linux");
-            correctionAdd("garuda", "Garuda Linux");
-
-            // A Linux distribution
-            correctionAdd("void linux", "Void Linux");
-            correctionAdd("Void linux", "Void Linux");
-            correctionAdd("Void", "Void Linux");
-
-            // A Linux distribution
-            correctionAdd("endless OS", "Endless OS");
-
-            // A Linux distribution
-            correctionAdd("Elementary&nbsp;OS", "elementary&nbsp;OS");
-            correctionAdd("Elementary OS", "elementary&nbsp;OS"); // Sort of identity mapping
-            correctionAdd("elementary os", "elementary&nbsp;OS");
-            correctionAdd("elementary OS", "elementary&nbsp;OS");
-            correctionAdd("ElementaryOS", "elementary&nbsp;OS");
-            correctionAdd("elementaryOS", "elementary&nbsp;OS");
-            correctionAdd("elementaryos", "elementary&nbsp;OS");
-            correctionAdd("Elementary", "elementary&nbsp;OS");
-            correctionAdd("elementary", "elementary&nbsp;OS");
-            correctionAdd("eOS", "elementary&nbsp;OS");
-
-            // A Linux distribution
-            correctionAdd("Cent OS", "CentOS");
-            correctionAdd("cent-os", "CentOS");
-            correctionAdd("cent os", "CentOS");
-            correctionAdd("centos", "CentOS");
-            correctionAdd("Centos", "CentOS");
-            correctionAdd("centOS", "CentOS");
-            correctionAdd("CENTOS", "CentOS");
-            correctionAdd("CentOs", "CentOS");
-            correctionAdd("centOs", "CentOS");
-            correctionAdd("CentoS", "CentOS");
-            correctionAdd("cent", "CentOS");
-
-            correctionAdd("CentOS 7", "CentOS version 7");
-            correctionAdd("Centos 7", "CentOS version 7");
-            correctionAdd("CentOS7", "CentOS version 7");
-
-            correctionAdd("CentOS 8", "CentOS version 8");
-            correctionAdd("CentOS-8", "CentOS version 8");
-
-            // An operating system. Based on CentOS. Linux.
-            correctionAdd("openfiler", "Openfiler");
-
-            correctionAdd("centos stream", "CentOS Stream");
-
-            // A Linux distribution
-            //
-            // Claimed to have good documentation
-            //
-            correctionAdd("Nix OS", "NixOS");
-            correctionAdd("Nix Os", "NixOS");
-            correctionAdd("nix os", "NixOS");
-            correctionAdd("nixos", "NixOS");
-            correctionAdd("nixOs", "NixOS");
-            correctionAdd("nixOS", "NixOS");
-
-            // A Linux distribution
-            correctionAdd("zorin os", "Zorin OS");
-            correctionAdd("Zorin os", "Zorin OS");
-            correctionAdd("ZorinOS", "Zorin OS");
-            correctionAdd("zorin", "Zorin OS");
-            correctionAdd("Zorin", "Zorin OS");
-
-            // A paid edition of Zorin OS
-            correctionAdd("zorin Pro", "Zorin OS Pro");
-
-            // A Linux distribution
-            correctionAdd("parrot os", "Parrot OS");
-            correctionAdd("parrot OS", "Parrot OS");
-            correctionAdd("ParrotOS", "Parrot OS");
-            correctionAdd("Parrot", "Parrot OS");
-            correctionAdd("parrot", "Parrot OS");
-
-            // A Linux distribution
-            correctionAdd("pureos", "PureOS");
-
-            // A Linux distribution
-            correctionAdd("moonlight", "Moonlight");
-
-            // A Linux distribution
-            correctionAdd("Tuxedo", "Tuxedo OS");
-
-            // A Linux distribution
-            correctionAdd("knoppix", "Knoppix");
-
-            // A Linux distribution
-            correctionAdd("LinuxFX", "Linuxfx");
-            correctionAdd("linuxfx", "Linuxfx");
-
-            // A Linux distribution
-            correctionAdd("Amazon AWS Linux", "Amazon Linux 2");
-            correctionAdd("Amazon Linux", "Amazon Linux 2");
-            correctionAdd("AWS Linux", "Amazon Linux 2");
-            correctionAdd("aws linux", "Amazon Linux 2");
-            correctionAdd("Linux 2", "Amazon Linux 2");
-            correctionAdd("Linux2", "Amazon Linux 2");
-
-            // A Linux distribution. Gaming oriented.
-            //
-            // Not to be confused with Steam, though they
-            // are closely related.
-            //
-            correctionAdd("Steam OS", "SteamOS");
-            correctionAdd("steamOS", "SteamOS");
-            correctionAdd("SteamOs", "SteamOS");
-            correctionAdd("steamos", "SteamOS");
-
-            // A Linux distribution
-            correctionAdd("chimera linux", "Chimera Linux");
-
-            // A Linux distribution
-            correctionAdd("absolute linux", "Absolute Linux");
-
-            // A Linux distribution
-            correctionAdd("bodhi linux", "Bodhi Linux");
-
-            // A Linux distribution
-            correctionAdd("Slax Remix", "Porteus");
-            correctionAdd("porteus", "Porteus");
-
-            // A Linux distribution
-            correctionAdd("lxle linux", "LXLE Linux");
-
-            // A Linux distribution
-            correctionAdd("Mendel", "Mendel Linux");
-
-            // A Linux distribution. On ARM / Apple hardware
-            correctionAdd("asahi linux", "Asahi Linux");
-
-            // A Linux distribution
-            //
-            // Alternative URLs:
-            //
-            //   <https://nutyx.org/en/>
-            //
-            correctionAdd("nutyx", "NuTyX");
-
-            // A Linux distribution. An Arch Linux derivative
-            //
-            // Allegedly good for gaming
-            //
-            correctionAdd("CatchyOS", "CachyOS");
-            correctionAdd("cachyos", "CachyOS");
-            correctionAdd("CahyOS", "CachyOS");
-
-            // A Linux distribution
-            correctionAdd("jolli os", "Joli OS");
-
-            // A Linux distribution
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.techrepublic.com/article/vanilla-os-linux-desktop/>
-            //
-            correctionAdd("VanillaOS", "Vanilla OS");
-            correctionAdd("Vanilla", "Vanilla OS");
-
-            // A Linux distribution. Related to Arch Linux
-            //
-            // Alternative URLs:
-            //
-            //   <https://wiki.rebornos.org/en/home>
-            //   <https://www.linuxinsider.com/story/rebornos-brings-choice-and-simplicity-to-arch-linux-176494.html>
-            //
-            correctionAdd("RebornOs", "RebornOS");
-
-            // A Linux distribution. Gaming oriented.
-            //
-            // Not to be confused with PikeOS.
-            //
-            // Alternative URLs:
-            //
-            //    <https://linuxiac.com/pikaos/>
-            //
-            correctionAdd("pikaos", "PikaOS");
-
-            // A Linux distribution
-            //
-            // Not to be confused with PikaOS.
-            //
-            correctionAdd("pikeos", "PikeOS");
-
-            // A Linux distribution
-            correctionAdd("Clear Linux", "Clear Linux OS");
-
-            // A Linux distribution
-            correctionAdd("deepin", "Deepin");
-
-            // A Linux distribution
-            correctionAdd("Guix System", "GNU Guix System");
-            correctionAdd("GuixSD", "GNU Guix System");
-            correctionAdd("geeks", "GNU Guix System");
-
-            // A Linux distribution
-            correctionAdd("Mandrake Linux", "Mandriva Linux");
-            correctionAdd("Mandrake", "Mandriva Linux");
-            correctionAdd("Mandriva", "Mandriva Linux");
-
-            // Linux. A power management tool. Laptop. Power. Battery.
-            //
-            // Alternative URLs:
-            //
-            //   <https://github.com/linrunner/TLP>
-            //   <https://linrunner.de/tlp/index.html>
-            //   <https://linuxconfig.org/how-to-optimize-laptop-battery-life-with-tlp-on-linux>
-            //   <https://www.reddit.com/r/linux4noobs/comments/o01t2g/whats_the_difference_between_tlp_powertop_tlpui/>
-            //
-            correctionAdd("tlp", "TLP");
-
-            correctionAdd("Simple Linux Utility for Resource Management", "Slurm Workload Manager");
-            correctionAdd("Slurm", "Slurm Workload Manager");
-            correctionAdd("SLURM", "Slurm Workload Manager");
-
-            correctionAdd("unetbootin", "UNetbootin");
-            correctionAdd("Unetbootin", "UNetbootin");
-            correctionAdd("UnetBootin", "UNetbootin");
-            correctionAdd("uNetBootin", "UNetbootin");
-
-            // An organisation
-            correctionAdd("Euro Linux", "EuroLinux");
-
-            // Bootloaders for Linux
-            correctionAdd("SYSLINUX", "Syslinux");
-
-            // An Android-based mobile operating system
-            correctionAdd("Lineage OS", "LineageOS");
-            correctionAdd("lineageOS", "LineageOS");
-
-            // An Android-based mobile operating system
-            correctionAdd("iode OS", "iodéOS");
-            correctionAdd("iota OS", "iodéOS");
-
-            // Linux
-            correctionAdd("Konky", "Conky");
-            correctionAdd("conky", "Conky");
-            correctionAdd("konky", "Conky");
-            correctionAdd("CONKY", "Conky");
-
-            // Linux
-            correctionAdd("KDRE", "KDE");
-            correctionAdd("kde", "KDE");
-            correctionAdd("Kde", "KDE");
-
-            correctionAdd("KDE 4", "KDE&nbsp;4"); // Sort of identity mapping
-            correctionAdd("kde4", "KDE&nbsp;4");
-            correctionAdd("KDE4", "KDE&nbsp;4");
-
-            // A Linux distribution.
-            correctionAdd("KDE Neon", "KDE neon");
-            correctionAdd("KDEneon", "KDE neon");
-
-            correctionAdd("KDE Applications Bundle", "KDE Gear");
-
-            correctionAdd("KDRE Plasma", "KDE Plasma");
-            correctionAdd("kde plasma", "KDE Plasma");
-            correctionAdd("KDE Plama", "KDE Plasma");
-            correctionAdd("plasma", "KDE Plasma");
-            correctionAdd("Plasma", "KDE Plasma");
-
-            correctionAdd("kde plasma 6", "KDE Plasma 6");
-            correctionAdd("plasma 6", "KDE Plasma 6");
-            correctionAdd("Plasma 6", "KDE Plasma 6");
-            correctionAdd("Kde6", "KDE Plasma 6");
-
-            // Linux. KDE.
-            correctionAdd("krunner", "KRunner");
-
-            correctionAdd("KDE connect", "KDE Connect");
-            correctionAdd("kdeconnect", "KDE Connect");
-
-            // An IDE. Linux.
-            correctionAdd("Kdevelop", "KDevelop");
-
-            // Linux
-            correctionAdd("flathub", "Flathub");
-
-            // Linux
-            correctionAdd("flat-pack", "Flatpak");
-            correctionAdd("Flatpack", "Flatpak");
-            correctionAdd("flatpak", "Flatpak");
-
             // Note: "document" is in an alternative word set
             correctionAdd("documentated", "documented");
             correctionAdd("documted", "documented");
@@ -29164,95 +30148,6 @@ namespace OverflowHelper.core
             correctionAdd("yew-knighted", "united");
             correctionAdd("yewknighted", "united");
 
-            correctionAdd("apriori", "a priori");
-
-            correctionAdd("prioritize", "prioritise");
-            correctionAdd("priortise", "prioritise");
-            correctionAdd("priotize", "prioritise");
-            correctionAdd("priotise", "prioritise");
-            correctionAdd("Pritoize", "prioritise");
-            correctionAdd("pritoize", "prioritise");
-
-            correctionAdd("priorty", "priority");
-            correctionAdd("prio", "priority");
-
-            correctionAdd("poriorities", "priorities");
-
-            correctionAdd("prioritization", "prioritisation");
-
-            correctionAdd("scheddule", "schedule");
-            correctionAdd("Scheddule", "schedule");
-            correctionAdd("Shedule", "schedule");
-            correctionAdd("shedule", "schedule");
-
-            correctionAdd("sheduling", "scheduling");
-
-            correctionAdd("re-scheduling", "rescheduling");
-
-            // Multitasking
-            correctionAdd("Priority Ceiling Protocol", "priority ceiling protocol");
-
-            // Multitasking
-            correctionAdd("Priority Inheritance", "priority inheritance");
-
-            // Multitasking
-            correctionAdd("Least Laxity First", "least slack time");
-            correctionAdd("least laxity first", "least slack time");
-            correctionAdd("LST", "least slack time");
-
-            // Multitasking
-            correctionAdd("Earliest Deadline First", "earliest deadline first");
-            correctionAdd("EDF", "earliest deadline first");
-
-            correctionAdd("consooomer", "consumer");
-            correctionAdd("Consooomer", "consumer");
-
-            correctionAdd("Producer/Consumer problem", "producer-consumer problem");
-
-            correctionAdd("trheads", "threads");
-            correctionAdd("threds", "threads");
-            correctionAdd("Threds", "threads");
-
-            correctionAdd("thread safe", "threadsafe");
-            correctionAdd("thread-safe", "threadsafe");
-            correctionAdd("Thread safe", "threadsafe");
-            correctionAdd("Thread-Safe", "threadsafe");
-            correctionAdd("Thread Safe", "threadsafe");
-
-            correctionAdd("thread-safety", "thread safety");
-
-            correctionAdd("single threaded", "singlethreaded");
-            correctionAdd("single-threaded", "singlethreaded");
-            correctionAdd("Single threaded", "singlethreaded");
-
-            correctionAdd("multi-thread", "multithread");
-
-            correctionAdd("multi threaded", "multithreaded");
-            correctionAdd("multi-threaded", "multithreaded");
-            correctionAdd("mutli-threaded", "multithreaded");
-            correctionAdd("mutithreaded", "multithreaded");
-            correctionAdd("multi thread", "multithreaded");
-
-            correctionAdd("Multi-threading", "multithreading");
-            correctionAdd("multi threading", "multithreading");
-            correctionAdd("multi-threading", "multithreading");
-            correctionAdd("Multithreading", "multithreading");
-            correctionAdd("MT", "multithreading");
-
-            correctionAdd("therad pool", "thread pool");
-
-            correctionAdd("Semaphore", "semaphore");
-
-            correctionAdd("schedular", "scheduler");
-
-            correctionAdd("Processor", "processor");
-            correctionAdd("proc", "processor");
-
-            correctionAdd("UP", "uniprocessor system");
-
-            correctionAdd("shared-memory multiprocessing", "symmetric multiprocessing");
-            correctionAdd("SMP", "symmetric multiprocessing");
-
             correctionAdd("holdiay", "holiday");
 
             correctionAdd("safe keep", "safekeep");
@@ -29270,65 +30165,6 @@ namespace OverflowHelper.core
             correctionAdd("Zookeeper", "ZooKeeper");
             correctionAdd("zk", "ZooKeeper");
             correctionAdd("ZK", "ZooKeeper");
-
-            correctionAdd("gettting", "getting");
-            correctionAdd("gettinog", "getting");
-            correctionAdd("gettinig", "getting");
-            correctionAdd("gettitng", "getting");
-            correctionAdd("shedding", "getting");
-            correctionAdd("gettuing", "getting");
-            correctionAdd("gettingg", "getting");
-            correctionAdd("gettign", "getting");
-            correctionAdd("gedding", "getting");
-            correctionAdd("ketting", "getting");
-            correctionAdd("gatting", "getting");
-            correctionAdd("geeting", "getting");
-            correctionAdd("Geeting", "getting");
-            correctionAdd("gettin", "getting");
-            correctionAdd("gettig", "getting");
-            correctionAdd("geting", "getting");
-            correctionAdd("gating", "getting");
-
-            correctionAdd("get's", "gets");
-
-            correctionAdd("get ride of", "get rid of");
-            correctionAdd("get rid off", "get rid of");
-            correctionAdd("rid off", "get rid of");
-
-            correctionAdd("shedding rid of", "getting rid of");
-
-            correctionAdd("get go", "get-go");
-            correctionAdd("getgo", "get-go");
-
-            correctionAdd("got ride of", "got rid of");
-
-            // Alternative URLs:
-            //
-            //   <https://stackoverflow.com/questions/872565/remove-sensitive-files-and-their-commits-from-git-history/46265228#46265228>
-            //
-            correctionAdd("did not get that memo", "get the memo");
-            correctionAdd("Get the memo", "get the memo");
-            correctionAdd("those memos", "get the memo");
-            correctionAdd("the memo", "get the memo");
-            correctionAdd("memos", "get the memo");
-
-            correctionAdd("ride", "rid");
-            correctionAdd("rd", "rid");
-
-            correctionAdd("sharted", "shared");
-            correctionAdd("Shares", "shared");
-            correctionAdd("shares", "shared");
-            correctionAdd("shard", "shared");
-
-            correctionAdd("share-able", "shareable");
-            correctionAdd("sharable", "shareable");
-
-            correctionAdd("non-sharable", "nonsharable");
-            correctionAdd("non sharable", "nonsharable");
-
-            correctionAdd("lions share", "lion's share");
-
-            correctionAdd("sharethis", "ShareThis");
 
             // The noun
             correctionAdd("Placet", "place");
@@ -31244,14 +32080,6 @@ namespace OverflowHelper.core
             correctionAdd("hashmark", "hash mark");
 
             correctionAdd("hashset", "HashSet");
-
-            correctionAdd("pound-bang", "shebang");
-            correctionAdd("hash-pling", "shebang");
-            correctionAdd("sha-bang", "shebang");
-            correctionAdd("hashbang", "shebang");
-            correctionAdd("she-bang", "shebang");
-            correctionAdd("she bang", "shebang");
-            correctionAdd("Shebang", "shebang");
 
             correctionAdd("de-hashing", "rehashing");
 
@@ -50541,636 +51369,6 @@ namespace OverflowHelper.core
             // Similar to BLAS
             correctionAdd("blis", "BLIS");
 
-            // As in Arduino... But the URL is now (effectively)
-            // broken... (redirects to a generic page
-            //
-            // Note: "Arduino" is in an alternative word set
-            //
-            correctionAdd("schield", "shield");
-            correctionAdd("Shield", "shield");
-            correctionAdd("SHEILD", "shield");
-            correctionAdd("sheild", "shield");
-            correctionAdd("Shiled", "shield");
-            correctionAdd("shiled", "shield");
-
-            // An Arduino PCB extensions board
-            correctionAdd("skectch", "sketch");
-            correctionAdd("schetch", "sketch");
-            correctionAdd("Sketch", "sketch");
-            correctionAdd("skecth", "sketch");
-            correctionAdd("skecht", "sketch");
-            correctionAdd("scetch", "sketch");
-
-            correctionAdd("Arduino ide", "Arduino IDE");
-            correctionAdd("arduino ide", "Arduino IDE");
-            correctionAdd("arduino IDE", "Arduino IDE");
-            correctionAdd("Arduino-IDE", "Arduino IDE");
-            correctionAdd("arduinoIDE", "Arduino IDE");
-            correctionAdd("ArduinoIDE", "Arduino IDE");
-
-            // Arduino / AVR / ATmega
-            //
-            // We need a better reference... for example, the
-            // current one does not explain what it is.
-            //
-            // Alternative URLs:
-            //
-            //   <https://github.com/jknofe/caterina>
-            //
-            //   <https://steven.casagrande.io/posts/2014/compiling-arduino-caterina-with-new-vidpid/>
-            //     Compiling Arduino Caterina with a new VID/PID
-            //
-            //     But it doesn't contain any references
-            //
-            //   <https://github.com/adafruit/Caterina-Bootloader>
-            //
-            //   <https://github.com/a guy/Katiana>
-            //     Also PDF documernt:
-            //       <https://github.com/aweatherguy/Katiana/blob/master/Katiana-Bootloader.pdf>
-            //       <https://github.com/aweatherguy/Katiana/blob/0f8155511ec84b536bb8523aa1765d35b66e67c9/Katiana-Bootloader.pdf>
-            //
-            //   <https://github.com/PaxInstruments/ATmega32U4-bootloader/blob/master/avr/bootloaders/caterina/Readme.md>
-            //     Modified Caterina bootloader
-            //
-            correctionAdd("Arduino Leonardo Caterina bootloader", "Caterina bootloader");
-            correctionAdd("leonardo caterina bootloader", "Caterina bootloader");
-            correctionAdd("caterina bootloader", "Caterina bootloader");
-            correctionAdd("Caterina Bootloader", "Caterina bootloader");
-            correctionAdd("Caterina", "Caterina bootloader");
-            correctionAdd("caterina", "Caterina bootloader");
-
-            // Arduino / AVR / ATmega
-            //
-            // Alternative URLs:
-            //
-            //   <https://github.com/Optiboot/optiboot/wiki>
-            //
-            correctionAdd("OptiBoot", "Optiboot bootloader");
-            correctionAdd("optiboot", "Optiboot bootloader");
-            correctionAdd("Optiboot", "Optiboot bootloader");
-
-            // The Arduino-related thing
-            correctionAdd("proccessing", "Processing");
-            correctionAdd("PROCESSING", "Processing");
-            correctionAdd("processing", "Processing");
-
-            // 'Processing'. JavaScript.
-            //
-            // Alternative URLs:
-            //
-            //   <https://github.com/processing/p5.js/wiki/p5.js-overview>
-            //   <https://p5js.org/about/>
-            //   <https://p5js.org/>
-            //
-            correctionAdd("P5js", "p5.js");
-            correctionAdd("p5", "p5.js");
-
-            // Arduino
-            correctionAdd("progmem", "PROGMEM");
-
-            // Arduino-like
-            correctionAdd("Platform IO", "PlatformIO");
-            correctionAdd("platformio", "PlatformIO");
-            correctionAdd("Platformio", "PlatformIO");
-
-            correctionAdd("Arduino-cli", "Arduino CLI");
-
-            // An Arduino development board clone
-            //
-            // Note: "Arduino" is in an alternative word set
-            //
-            // Alternative URL:
-            //
-            //   <https://docs.arduino.cc/hardware/uno-rev3>
-            //
-            correctionAdd("Arduino Uno R3", "Arduino Uno");
-            correctionAdd("Arduino UNO R3", "Arduino Uno");
-            correctionAdd("arduino Uno", "Arduino Uno");
-            correctionAdd("arduino uno", "Arduino Uno");
-            correctionAdd("Arduino UNO", "Arduino Uno");
-            correctionAdd("arduino UNO", "Arduino Uno");
-            correctionAdd("Arduino uno", "Arduino Uno");
-            correctionAdd("Ardunio Uno", "Arduino Uno"); // A true misspelling.
-            correctionAdd("ARDUINO UNO", "Arduino Uno");
-            correctionAdd("Arudino Uno", "Arduino Uno"); // A true typo
-            correctionAdd("arudino uno", "Arduino Uno");
-            correctionAdd("arudino-uno", "Arduino Uno");
-            correctionAdd("Arduino-UNO", "Arduino Uno");
-            correctionAdd("aruino uno", "Arduino Uno");
-            correctionAdd("UNO", "Arduino Uno");
-            correctionAdd("Uno", "Arduino Uno");
-            correctionAdd("uno", "Arduino Uno");
-
-            // An Arduino development board
-            //
-            // Based on ATmega32U4 (like Leanardo)
-            correctionAdd("arduino leonardo", "Arduino Leonardo");
-            correctionAdd("Leonardo", "Arduino Leonardo");
-            correctionAdd("leonardo", "Arduino Leonardo");
-            correctionAdd("Leanardo", "Arduino Leonardo");
-            correctionAdd("Leo", "Arduino Leonardo");
-
-            // An Arduino development board
-            correctionAdd("arduino mega 2560", "Arduino Mega 2560");
-            correctionAdd("arduino MEGA 2560", "Arduino Mega 2560");
-            correctionAdd("arduino mega 256", "Arduino Mega 2560");
-            correctionAdd("arduino mega", "Arduino Mega 2560");
-            correctionAdd("Arduino MEGA", "Arduino Mega 2560");
-            correctionAdd("Arduino mega", "Arduino Mega 2560");
-            correctionAdd("arduino Mega", "Arduino Mega 2560");
-            correctionAdd("Arduino Mega", "Arduino Mega 2560");
-            correctionAdd("arduino MEGA", "Arduino Mega 2560");
-
-            // An Arduino development board
-            correctionAdd("Arduino Yun", "Arduino Yún");
-            correctionAdd("Yún", "Arduino Yún");
-            correctionAdd("Yun", "Arduino Yún");
-
-            // An Arduino development board
-            correctionAdd("Pro Mini", "Arduino Pro Mini");
-            correctionAdd("pro mini", "Arduino Pro Mini");
-            correctionAdd("ProMini", "Arduino Pro Mini");
-
-            // An Arduino development board
-            correctionAdd("Diecimila", "Arduino Diecimila");
-            correctionAdd("Decimila", "Arduino Diecimila");
-
-            // An Arduino development board
-            correctionAdd("duemilanove", "Duemilanove");
-
-            // An Arduino development board
-            correctionAdd("Due", "Arduino Due");
-
-            // An Arduino development board
-            //
-            // Alternative URLs:
-            //
-            //   <https://docs.arduino.cc/retired/getting-started-guides/ArduinoPrimo>
-            //
-            correctionAdd("Primo", "Arduino Primo");
-
-            // An Arduino development board
-            correctionAdd("Lilypad", "LilyPad");
-
-            correctionAdd("netduiono", "Netduino");
-            correctionAdd("netduino", "Netduino");
-
-            // An Arduino development board clone
-            //
-            // Note: It is not a real Arduino, just "Pro Micro", not
-            // to be confused with "Arduino Micro" (which has more
-            // available I/O pins despite not having "Pro" in its
-            // name...). So "Pro" is kind of a misnomer.
-            // Only software compatibility.
-            //
-            // Alternative URLs:
-            //
-            //   <https://github.com/bgkendall/keyboard_mcu_list>
-            //     A list of RP2040-based keyboard controller boards
-            //
-            //     Includes the section "RP2040 Pro Micro-shaped boards"
-            //
-            //   <https://github.com/qmk/qmk_firmware/blob/master/docs/compatible_microcontrollers.md#atmel-avr>
-            //     Pro Micro implies ATmega32U4
-            //
-            //     For the JSON file:
-            //
-            //       <https://docs.qmk.fm/reference_info_json#hardware-configuration>
-            //         Identifier 'promicro' used in QMK.
-            //         Near "development_board"
-            //
-            correctionAdd("Arduino Pro Micro", "Pro Micro");
-            correctionAdd("Arduino pro micro", "Pro Micro");
-            correctionAdd("arduino pro micro", "Pro Micro");
-            correctionAdd("Atmega pro-micro", "Pro Micro");
-            correctionAdd("ATmega Pro Micro", "Pro Micro"); // This would be the official extended version, without the usual misspellings of "ATmega".
-            correctionAdd("Atmega Pro Micro", "Pro Micro");
-            correctionAdd("ATmega ProMicro", "Pro Micro");
-            correctionAdd("Atmega ProMicro", "Pro Micro");
-            correctionAdd("pro micro", "Pro Micro");
-            correctionAdd("Pro-Micro", "Pro Micro");
-            correctionAdd("Pro micro", "Pro Micro");
-            correctionAdd("pro-micro", "Pro Micro");
-            correctionAdd("ProMicro", "Pro Micro");
-            correctionAdd("promicro", "Pro Micro");
-            correctionAdd("Promicro", "Pro Micro");
-            correctionAdd("proMicro", "Pro Micro");
-            correctionAdd("PMs", "Pro Micro");
-            correctionAdd("PM", "Pro Micro");
-
-            // Arduino Pro Micro drop-in replacement board for
-            // making wireless mechanical keyboards
-            //
-            // ESD problems:
-            //
-            //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/1fy5wgc/comment/lqsyr68/>
-            //     "It’s got ESD weaknesses though."
-            //
-            // Alernative URL:
-            //
-            //   <https://nicekeyboards.com/nice-nano/>
-            //   <https://www.reddit.com/r/MechanicalKeyboards/comments/iivz1i/nicenano_the_wireless_pro_micro_replacement_board/>
-            //   <https://www.boardsource.xyz/products/nice!nano_v2>
-            //   <https://keebd.com/products/nice-nano>
-            //   <https://circuitpython.org/board/nice_nano/>
-            //   <https://customkbd.com/products/nice-nano>
-            //
-            correctionAdd("nice nano v2", "Nice!Nano");
-            correctionAdd("nice nanov2s", "Nice!Nano");
-            correctionAdd("nice nanov2", "Nice!Nano");
-            correctionAdd("Nice! Nanos", "Nice!Nano");
-            correctionAdd("Nice Nanos", "Nice!Nano");
-            correctionAdd("nice nanos", "Nice!Nano");
-            correctionAdd("Nice! Nano", "Nice!Nano");
-            correctionAdd("nice! Nano", "Nice!Nano");
-            correctionAdd("nice! nano", "Nice!Nano");
-            correctionAdd("Nice!Nanos", "Nice!Nano");
-            correctionAdd("nice!nano", "Nice!Nano");
-            correctionAdd("nice nano", "Nice!Nano");
-            correctionAdd("Nice!nano", "Nice!Nano");
-            correctionAdd("Nice nano", "Nice!Nano");
-            correctionAdd("Nice Nano", "Nice!Nano");
-            correctionAdd("Nice!Nane", "Nice!Nano");
-            correctionAdd("niceNano", "Nice!Nano");
-            correctionAdd("nicenano", "Nice!Nano");
-            correctionAdd("nanos", "Nice!Nano");
-            correctionAdd("Nanos", "Nice!Nano");
-            correctionAdd("nice!", "Nice!Nano");
-            correctionAdd("Nano", "Nice!Nano");
-            correctionAdd("n!n", "Nice!Nano");
-            correctionAdd("N!N", "Nice!Nano");
-            correctionAdd("Nn", "Nice!Nano");
-
-            // A low-power OLED display
-            //
-            // For making wireless mechanical keyboards
-            //
-            correctionAdd("Nice!Views", "Nice!View");
-            correctionAdd("nice!view", "Nice!View");
-            correctionAdd("Nice!view", "Nice!View");
-            correctionAdd("n!v", "Nice!View");
-            correctionAdd("N!V", "Nice!View");
-
-            // Similar to Pro Micro: equally crippled wrt. number
-            // of I/O pins (e.g., for in mechanical keyboards)
-            //
-            // The reference broke, but we found
-            // a similar one on the same site.
-            //
-            // No, "Seeed" is not a typo...
-            //
-            // Used in the TOTEM split ergonomic mechanical keyboard.
-            //
-            // Other possibilities: nRF52840:
-            //
-            //   <https://www.seeedstudio.com/Seeed-Studio-XIAO-nRF52840-Plus-p-6359.html>
-            //     Seeed Studio XIAO nRF52840 Plus
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.hackster.io/carmen-zheng/seeed-xiao-mechanical-keyboard-and-development-board-00988a>
-            //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/yzad7j/totem_a_tiny_split_keyboard_using_seeed_xiaos/>
-            //   <https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html>
-            //
-            correctionAdd("Seeed Studio XIAO", "Seeed Studio XIAO RP2040");
-            correctionAdd("Seeed XIAO RP2040", "Seeed Studio XIAO RP2040");
-            correctionAdd("Seeed Studio", "Seeed Studio XIAO RP2040");
-            correctionAdd("xiao rp2040", "Seeed Studio XIAO RP2040");
-            correctionAdd("XIAO RP2040", "Seeed Studio XIAO RP2040");
-            correctionAdd("XIAO-RP2040", "Seeed Studio XIAO RP2040");
-            correctionAdd("seeed xiao", "Seeed Studio XIAO RP2040"); // Not strictly correct as it could also designate a range of microcontroller boards
-            correctionAdd("SEEED XIAO", "Seeed Studio XIAO RP2040");
-            correctionAdd("Xiao seeed", "Seeed Studio XIAO RP2040");
-            correctionAdd("seeed", "Seeed Studio XIAO RP2040"); // Not strictly correct as it could also designate the company (Seeed Studio)
-            correctionAdd("SEEED", "Seeed Studio XIAO RP2040");
-            correctionAdd("Seeed", "Seeed Studio XIAO RP2040");
-            correctionAdd("xiao", "Seeed Studio XIAO RP2040"); // Not strictly correct as it could also designate a range of microcontroller boards
-            correctionAdd("XIAO", "Seeed Studio XIAO RP2040");
-
-            // A microcontroller development board, e.g., used
-            // in QMK and ZMK-based mechanical keyboards and
-            // macro pads. For example, Planck rev6 and
-            // Clueboard(?).
-            //
-            // Is Pro Micro pin-compatible. Based on ARM STM32F303xC.
-            //
-            // Alternative URLs:
-            //
-            //   <https://github.com/zmkfirmware/zmk/blob/main/app/boards/shields/clueboard_california/README.md>
-            //
-            //   <https://qmk.fm/proton-c-pinout.jpg>
-            //
-            correctionAdd("Proton-C", "Proton C");
-
-            // A microcontroller development board, e.g., used
-            // in QMK mechanical keyboards and macro pads.
-            //
-            // Is Pro Micro pin-compatible. Based on ATmega32U4.
-            // The main difference is the USB-C connector.
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.reddit.com/r/MechanicalKeyboards/comments/dc7hqs/comment/f26etod/>
-            //   <https://1upkeyboards.com/shop/controllers/elite-c-v4-controller/>
-            //   <https://www.diykeyboards.com/parts/product/elite-c>
-            //
-            correctionAdd("Elite C", "Elite-C");
-            correctionAdd("elite c", "Elite-C");
-            correctionAdd("elite_c", "Elite-C");
-
-            // A RISC-V-based microcontroller
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.espressif.com/en/products/socs/esp32-c3>
-            //
-            correctionAdd("esp32-c3", "ESP32-C3");
-
-            correctionAdd("shintel", "Intel");
-            correctionAdd("Shintel", "Intel");
-            correctionAdd("shitlel", "Intel");
-            correctionAdd("INTEL", "Intel");
-            correctionAdd("intel", "Intel");
-
-            correctionAdd("Data Architect", "data architect");
-            correctionAdd("Data architect", "data architect");
-
-            correctionAdd("Computer Architecture", "computer architecture");
-            correctionAdd("Computer architecture", "computer architecture");
-
-            correctionAdd("cpu", "CPU");
-            correctionAdd("Cpu", "CPU");
-
-            // CPU
-            correctionAdd("Pipelined", "pipelined");
-            correctionAdd("piplined", "pipelined");
-
-            // A feature of Intel CPUs.
-            correctionAdd("Hyper-Threading Technology", "hyper-threading");
-            correctionAdd("Hyper Threading", "hyper-threading");
-            correctionAdd("Hyper threading", "hyper-threading");
-            correctionAdd("hyper threading", "hyper-threading");
-            correctionAdd("hyperthreading", "hyper-threading");
-            correctionAdd("HT Technology", "hyper-threading");
-            correctionAdd("hyper threads", "hyper-threading");
-            correctionAdd("hyper thread", "hyper-threading");
-            correctionAdd("HTT", "hyper-threading");
-            correctionAdd("HT", "hyper-threading");
-
-            correctionAdd("cache affinity", "processor affinity");
-            correctionAdd("CPU pinning", "processor affinity");
-            correctionAdd("affinity", "processor affinity");
-
-            // Alternative URLs:
-            //
-            //   <https://eli.thegreenplace.net/2016/c11-threads-affinity-and-hyperthreading/>
-            //
-            correctionAdd("Thread affinity", "thread affinity");
-            correctionAdd("Thread Affinity", "thread affinity");
-
-            correctionAdd("Branch Prediction", "branch prediction");
-
-            // A CPU feature
-            //
-            // Only relevant to old PC hardware, e.g., 2012 or
-            // earlier (or rather, it is supported in all new)
-            //
-            correctionAdd("physical address extension", "Physical Address Extension");
-            correctionAdd("Page Address Extension", "Physical Address Extension");
-            correctionAdd("PAE", "Physical Address Extension");
-
-            // Related to memory and CPU
-            correctionAdd("CXL", "Compute Express Link");
-
-            // The noun
-            correctionAdd("chache", "cache");
-            correctionAdd("Cache", "cache");
-            correctionAdd("cach", "cache");
-            correctionAdd("cash", "cache");
-
-            // The noun
-            correctionAdd("chaches", "caches");
-            correctionAdd("cahes", "caches");
-            correctionAdd("Cahes", "caches");
-
-            correctionAdd("cacheing", "caching");
-            correctionAdd("catching", "caching");
-
-            correctionAdd("cahced", "cached");
-
-            correctionAdd("cache able", "cacheable");
-            correctionAdd("cachable", "cacheable");
-
-            // A verb
-            correctionAdd("pre-cache", "precache");
-
-            correctionAdd("ehcache", "Ehcache");
-
-            correctionAdd("Ccache", "ccache");
-
-            correctionAdd("cachefly", "CacheFly");
-
-            correctionAdd("L1", "L1 cache");
-            correctionAdd("l1", "L1 cache");
-
-            correctionAdd("L2", "L2 cache");
-            correctionAdd("l2", "L2 cache");
-
-            correctionAdd("L3", "L3 cache");
-            correctionAdd("l3", "L3 cache");
-
-            correctionAdd("gpu", "GPU");
-            correctionAdd("Gpu", "GPU");
-
-            correctionAdd("gpgpu", "GPGPU");
-
-            correctionAdd("integrated graphics processing unit", "IGPU");
-            correctionAdd("iGPU", "IGPU");
-            correctionAdd("igpu", "IGPU");
-            correctionAdd("Igpu", "IGPU");
-
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/Video_random-access_memory>
-            //
-            correctionAdd("Video Memory", "video memory");
-
-            // GPU
-            correctionAdd("video random-access memory", "VRAM");
-            correctionAdd("vram", "VRAM");
-
-            // Computer screens. GPUs
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.tomsguide.com/features/what-is-vsync-and-should-you-turn-it-on-or-off>
-            //     Though 'tomsguide.com' may be deceptive (too
-            //     close to 'www.tomshardware.com')
-            //
-            correctionAdd("VSync", "Adaptive Vsync");
-            correctionAdd("Vsync", "Adaptive Vsync");
-
-            // GPUs. AMD. Graphics cards. A brand of GPU /
-            // graphics cards with the "RX" (and "RTX"?)
-            // prefix. Now AMD.
-            correctionAdd("radeon", "Radeon");
-
-            // A driver-level feature. Similar to NIS.
-            //
-            // Related to DLSS and FSR.
-            //
-            // Alternative URL:
-            //
-            //   <https://www.reddit.com/r/LegionGo/comments/17nufwt/radeon_super_resolution_hows_it_work/>
-            //   <https://www.youtube.com/watch?v=-SoDKV-txPs&t=1m10s>
-            //
-            correctionAdd("Radeon Super Resolution", "Radeon super resolution");
-            correctionAdd("RSR", "Radeon super resolution");
-
-            correctionAdd("rx 7800xt", "Radeon RX 7800 XT");
-
-            // Alternative URL:
-            //
-            //   <https://www.amd.com/en/products/graphics/amd-radeon-rx-7900-gre>
-            //
-            correctionAdd("RX 7900 GRE", "Radeon RX 7900 GRE");
-            correctionAdd("7900 gre", "Radeon RX 7900 GRE");
-            correctionAdd("7900GRE", "Radeon RX 7900 GRE");
-            correctionAdd("7900", "Radeon RX 7900 GRE");
-
-            // An Nvidia brand name for graphics cards (GPUs)
-            correctionAdd("Geforce", "GeForce");
-            correctionAdd("geforce", "GeForce");
-
-            // A graphics card (GPU)
-            correctionAdd("GeForce GT 740M", "Nvidia GeForce GT 740M");
-            correctionAdd("Geforce 740m", "Nvidia GeForce GT 740M");
-
-            // A graphics card (GPU)
-            correctionAdd("GeForce GTX 950M", "Nvidia GeForce GTX 950M");
-            correctionAdd("GTX 950M", "Nvidia GeForce GTX 950M");
-
-            // A graphics card (GPU)
-            correctionAdd("Nvidia GTX 1070", "Nvidia GeForce GTX 1070");
-            correctionAdd("GTX 1070", "Nvidia GeForce GTX 1070");
-            correctionAdd("GTX1070", "Nvidia GeForce GTX 1070");
-            correctionAdd("gtx1070", "Nvidia GeForce GTX 1070");
-
-            // A graphics card (GPU)
-            correctionAdd("GeForce GTX 1660", "Nvidia GeForce GTX 1660");
-            correctionAdd("GTX 1660", "Nvidia GeForce GTX 1660");
-
-            // A graphics card (GPU)
-            correctionAdd("GeForce RTX 2070", "Nvidia GeForce RTX 2070");
-            correctionAdd("Geforce 2070", "Nvidia GeForce RTX 2070");
-
-            // A graphics card (GPU)
-            correctionAdd("GeForce RTX 2080 Ti", "Nvidia GeForce RTX 2080 Ti");
-            correctionAdd("RTX 2080", "Nvidia GeForce RTX 2080 Ti");
-            correctionAdd("rtx 2080", "Nvidia GeForce RTX 2080 Ti");
-            correctionAdd("2080 Ti", "Nvidia GeForce RTX 2080 Ti");
-            correctionAdd("2080Ti", "Nvidia GeForce RTX 2080 Ti");
-
-            // A graphics card (GPU)
-            correctionAdd("GeForce RTX 3050", "Nvidia GeForce RTX 3050");
-            correctionAdd("Nvidia RTX 3050", "Nvidia GeForce RTX 3050");
-            correctionAdd("RTX3050", "Nvidia GeForce RTX 3050");
-
-            // A graphics card (GPU)
-            correctionAdd("GeForce RTX 3070", "Nvidia GeForce RTX 3070");
-            correctionAdd("RTX3070", "Nvidia GeForce RTX 3070");
-            correctionAdd("3070ti", "Nvidia GeForce RTX 3070"); // May not be 100% correct
-
-            // A graphics card (GPU)
-            correctionAdd("GeForce RTX 3080", "Nvidia GeForce RTX 3080");
-            correctionAdd("RTX 3080", "Nvidia GeForce RTX 3080");
-            correctionAdd("3080", "Nvidia GeForce RTX 3080");
-
-            // A graphics card (GPU)
-            correctionAdd("GeForce RTX 3090", "Nvidia GeForce RTX 3090");
-            correctionAdd("RTX 3090", "Nvidia GeForce RTX 3090");
-            correctionAdd("RTX3090", "Nvidia GeForce RTX 3090");
-
-            // A graphics card (GPU)
-            correctionAdd("GeForce RTX 4070", "Nvidia GeForce RTX 4070");
-            correctionAdd("4070 ti", "Nvidia GeForce RTX 4070");
-            correctionAdd("4070", "Nvidia GeForce RTX 4070");
-
-            // A graphics card (GPU)
-            correctionAdd("GeForce RTX 4090", "Nvidia GeForce RTX 4090");
-            correctionAdd("4090", "Nvidia GeForce RTX 4090");
-
-            // A graphics card (GPU)
-            correctionAdd("GeForce RTX 5090", "Nvidia GeForce RTX 5090");
-            correctionAdd("5090", "Nvidia GeForce RTX 5090");
-
-            // Related to graphics cards (GPU)
-            correctionAdd("AFMF", "AMD fluid motion frames");
-
-            // GPUs. Graphics cards.
-            correctionAdd("Gsync", "G-Sync");
-
-            // GPUs. AMD. Graphics cards. Requires a
-            // game-specific implementation, unlike
-            // FSR(?).
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.tomshardware.com/reference/amd-fsr-fidelityfx-super-resolution-explained>
-            //
-            correctionAdd("fsr", "FidelityFX Super Resolution");
-            correctionAdd("FSR", "FidelityFX Super Resolution");
-            correctionAdd("far", "FidelityFX Super Resolution"); // A true typo of the degenerated "fsr" (of "FSR")
-            correctionAdd("FAR", "FidelityFX Super Resolution"); // A true typo of "FSR"
-
-            correctionAdd("FMA", "fused multiply–add");
-
-            // CPU
-            correctionAdd("microarch", "microarchitecture");
-            correctionAdd("µarch", "microarchitecture"); // Note: "µ" is U+00B5 (µ MICRO SIGN (seaer)).
-            correctionAdd("uarch", "microarchitecture");
-
-            // CPU
-            correctionAdd("uarches", "microarchitectures");
-
-            correctionAdd("John Von Neumann", "John von Neumann");
-
-            // E.g., same address spaces for RAM, program memory, and EEPROM
-            // E.g., as opposed to a Harvard architecture
-            correctionAdd("von Neumann architecture", "von Neumann machine");
-            correctionAdd("Von Neumann machine", "von Neumann machine");
-            correctionAdd("Von Neuman machine", "von Neumann machine");
-            correctionAdd("von Neuman machine", "von Neumann machine");
-            correctionAdd("von Neumann", "von Neumann machine");
-            correctionAdd("van neumann", "von Neumann machine");
-            correctionAdd("Von Neumann", "von Neumann machine");
-
-            // E.g., as opposed to a von Neumann machine
-            correctionAdd("harvard architecture", "Harvard architecture");
-            correctionAdd("Harvard arch", "Harvard architecture");
-
-            // CPU
-            correctionAdd("many-core", "manycore processor");
-            correctionAdd("Many-core", "manycore processor");
-
-            // CPU
-            correctionAdd("multi-core", "multicore");
-            correctionAdd("multi core", "multicore");
-            correctionAdd("muticore", "multicore");
-
-            // CPU
-            correctionAdd("single core", "single-core");
-
-            correctionAdd("dual core", "dual-core");
-
-            // CPU
-            correctionAdd("Quad-Core", "quad-core");
-            correctionAdd("Quad Core", "quad-core");
-            correctionAdd("quad core", "quad-core");
-            correctionAdd("quadcore", "quad-core");
-
-            correctionAdd("8 core", "8-core");
-
             correctionAdd("leafs", "leaves");
 
             correctionAdd("leval", "level");
@@ -65750,6 +65948,7 @@ namespace OverflowHelper.core
             correctionAdd("HomeRow mods", "home row keyboard modifier keys");
             correctionAdd("homerow mod", "home row keyboard modifier keys");
             correctionAdd("homero mods", "home row keyboard modifier keys"); // Multiple typos
+            correctionAdd("homerowmods", "home row keyboard modifier keys");
             correctionAdd("home mods", "home row keyboard modifier keys");
             correctionAdd("homerrow", "home row keyboard modifier keys");
             correctionAdd("homerow", "home row keyboard modifier keys");
@@ -76534,20 +76733,6 @@ namespace OverflowHelper.core
             correctionAdd("ngif", "*ngIf");
             correctionAdd("ngIf", "*ngIf");
 
-            correctionAdd("sheap", "cheap");
-
-            correctionAdd("cheeper", "cheaper");
-
-            correctionAdd("cheapes", "cheapest");
-
-            correctionAdd("cheap put", "cheap out");
-
-            correctionAdd("cheapped out", "cheaped out");
-
-            correctionAdd("El Cheapo", "el cheapo");
-            correctionAdd("el-Cheapo", "el cheapo");
-            correctionAdd("cheapo", "el cheapo");
-
             correctionAdd("self guided", "self-guided");
 
             // Note: "capitalise" is in an alternative word set...
@@ -76940,150 +77125,6 @@ namespace OverflowHelper.core
             correctionAdd("inclass", "in-class");
 
             correctionAdd("plc", "PLC");
-
-            correctionAdd("sort-of", "sort of");
-            correctionAdd("sorta", "sort of");
-
-            correctionAdd("sording", "sorting");
-
-            // A sorting algorithm
-            correctionAdd("quick sort", "quicksort");
-            correctionAdd("Quick-sort", "quicksort");
-            correctionAdd("Quick sort", "quicksort");
-            correctionAdd("Quick Sort", "quicksort");
-            correctionAdd("quick-sort", "quicksort");
-            correctionAdd("Quicksort", "quicksort");
-            correctionAdd("QuickSort", "quicksort");
-
-            // A sorting algorithm
-            correctionAdd("shell sort", "Shellsort");
-            correctionAdd("Shell Sort", "Shellsort");
-            correctionAdd("shellsort", "Shellsort");
-
-            // A sorting algorithm
-            correctionAdd("Introsort", "introsort");
-
-            // A sorting algorithm
-            correctionAdd("Heap Sort", "heapsort");
-            correctionAdd("Heapsort", "heapsort");
-
-            // A sorting algorithm
-            correctionAdd("radiks sort", "radix sort");
-            correctionAdd("Radix Sort", "radix sort");
-
-            // A sorting algorithm
-            correctionAdd("Bubble Sort", "bubble sort");
-            correctionAdd("Bubble sort", "bubble sort");
-            correctionAdd("bubblesort", "bubble sort");
-            correctionAdd("BubbleSort", "bubble sort");
-
-            // A sorting algorithm
-            correctionAdd("Bucket Sort", "bucket sort");
-
-            // A sorting algorithm
-            correctionAdd("Merge Sort", "merge sort");
-            correctionAdd("mergesort", "merge sort");
-
-            // A sorting algorithm
-            correctionAdd("Insertion Sort", "insertion sort");
-            correctionAdd("Insertion sort", "insertion sort");
-            correctionAdd("InsertionSort", "insertion sort");
-            correctionAdd("insert sort", "insertion sort");
-
-            // A sorting algorithm
-            correctionAdd("Selection sort", "selection sort");
-            correctionAdd("selection Sort", "selection sort");
-            correctionAdd("selectionSort", "selection sort");
-
-            // A sorting algorithm
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/Tim_Peters_(software_engineer)>
-            //   <https://zahlman.github.io/posts/2024/12/20/todo-finish-todo-list/>
-            //   <https://tim-one.github.io/psf/>
-            //
-            correctionAdd("timsort", "Timsort");
-            correctionAdd("TimSort", "Timsort");
-
-            correctionAdd("Exchange Sort", "exchange sort");
-
-            correctionAdd("Grover's Algorithm", "Grover's algorithm");
-
-            correctionAdd("Baum-Welch Algorithm", "Baum–Welch algorithm");
-            correctionAdd("Baum-Welch algorithm", "Baum–Welch algorithm");
-
-            correctionAdd("Viola Jones algorithm", "Viola–Jones object detection framework");
-
-            correctionAdd("Schönhage-Strassen", "Schönhage–Strassen algorithm");
-
-            correctionAdd("Bellman-Ford", "Bellman–Ford algorithm");
-
-            correctionAdd("dijkstra's algorithm", "Dijkstra's algorithm");
-
-            correctionAdd("KMP algorithm", "Knuth–Morris–Pratt algorithm");
-
-            correctionAdd("divide and conquer algorithms", "divide-and-conquer algorithm");
-            correctionAdd("divide-and-conquer", "divide-and-conquer algorithm");
-            correctionAdd("divide & conquer", "divide-and-conquer algorithm");
-
-            correctionAdd("Schlemiel the Painter's algorithm", "Shlemiel the painter’s algorithm");
-            correctionAdd("Shlemiel the painter's algorithm", "Shlemiel the painter’s algorithm");
-            correctionAdd("Shlemiel the Painter's algorithm", "Shlemiel the painter’s algorithm");
-            correctionAdd("Shlemiel the painter algorithm", "Shlemiel the painter’s algorithm");
-            correctionAdd("Shlemiel the painter’s", "Shlemiel the painter’s algorithm");
-            correctionAdd("Schlemiel-the-Painter", "Shlemiel the painter’s algorithm");
-            correctionAdd("Schlemiel the painter", "Shlemiel the painter’s algorithm");
-            correctionAdd("Shlemiel the painter", "Shlemiel the painter’s algorithm");
-            correctionAdd("Scleimel the painter", "Shlemiel the painter’s algorithm");
-            correctionAdd("Shemiel algo", "Shlemiel the painter’s algorithm");
-            correctionAdd("Shimiel algo", "Shlemiel the painter’s algorithm");
-            correctionAdd("the painter", "Shlemiel the painter’s algorithm");
-            correctionAdd("The Painter", "Shlemiel the painter’s algorithm");
-            correctionAdd("Schlemiel", "Shlemiel the painter’s algorithm");
-            correctionAdd("Shlemiel", "Shlemiel the painter’s algorithm");
-            correctionAdd("scheimel", "Shlemiel the painter’s algorithm");
-            correctionAdd("Painter", "Shlemiel the painter’s algorithm");
-            correctionAdd("painter", "Shlemiel the painter’s algorithm");
-            correctionAdd("Shemiel", "Shlemiel the painter’s algorithm");
-            correctionAdd("Shimiel", "Shlemiel the painter’s algorithm");
-            correctionAdd("Sheimel", "Shlemiel the painter’s algorithm");
-
-            correctionAdd("Binary Search Algorithm", "binary search");
-            correctionAdd("binary search algorithm", "binary search");
-            correctionAdd("Binary Search", "binary search");
-
-            // Not to be confused with 'BFG Repo-Cleaner'
-            correctionAdd("breadth first search", "breadth-first search");
-            correctionAdd("breath first search", "breadth-first search");
-            correctionAdd("bfs", "breadth-first search");
-            correctionAdd("BFS", "breadth-first search");
-
-            correctionAdd("depth first search", "depth-first search");
-            correctionAdd("Depth First Search", "depth-first search");
-            correctionAdd("depth first seach", "depth-first search");
-            correctionAdd("dfs", "depth-first search");
-            correctionAdd("DFS", "depth-first search");
-
-            correctionAdd("wolf algorithm", "Wolff algorithm");
-            correctionAdd("Wolf algorithm", "Wolff algorithm");
-
-            correctionAdd("Simplex Algorithm", "simplex algorithm");
-
-            correctionAdd("Strassen's algorithms", "Strassen algorithm");
-            correctionAdd("Strassen's algorithm", "Strassen algorithm");
-            correctionAdd("Strassens Algorithms", "Strassen algorithm");
-            correctionAdd("Strassens algorithm", "Strassen algorithm");
-            correctionAdd("Strassens Algorithm", "Strassen algorithm");
-
-            correctionAdd("Evolutionary Algorithm", "evolutionary algorithm");
-            correctionAdd("evolutionary algorithms", "evolutionary algorithm");
-
-            correctionAdd("welford's algorithm", "Welford's algorithm");
-            correctionAdd("welford", "Welford's algorithm");
-
-            correctionAdd("SPFA_Queue", "Shortest Path Faster Algorithm");
-            correctionAdd("SPFA", "Shortest Path Faster Algorithm");
 
             correctionAdd("marshaling", "marshalling");
             correctionAdd("martialing", "marshalling");
@@ -82323,37 +82364,6 @@ namespace OverflowHelper.core
 
             // The noun
             correctionAdd("slo-mo", "slow motion");
-
-            correctionAdd("vulnerabilty", "vulnerability");
-            correctionAdd("vunerability", "vulnerability");
-            correctionAdd("vuln", "vulnerability");
-
-            correctionAdd("vulnarabilities", "vulnerabilities");
-            correctionAdd("vulnerablities", "vulnerabilities");
-            correctionAdd("vulns", "vulnerabilities");
-            correctionAdd("Vulns", "vulnerabilities");
-
-            correctionAdd("vonuravle", "vulnerable");
-
-            correctionAdd("common vulnerabilities and exposures", "Common Vulnerabilities and Exposures");
-            correctionAdd("CVE", "Common Vulnerabilities and Exposures");
-
-            // A computer hardware security vulnerability
-            correctionAdd("meltdown", "Meltdown");
-
-            // A computer security vulnerability
-            correctionAdd("downfall", "Downfall");
-
-            // A computer hardware security vulnerability
-            correctionAdd("spectre", "Spectre");
-
-            // A security vulnerability (Bash)
-            correctionAdd("Shell Shock", "Shellshock");
-            correctionAdd("shell shock", "Shellshock");
-            correctionAdd("shellshock", "Shellshock");
-            correctionAdd("ShellShock", "Shellshock");
-            correctionAdd("shelllock", "Shellshock");
-            correctionAdd("Bashdoor", "Shellshock");
 
             // An Internet protocol
             correctionAdd("snmp", "SNMP");
@@ -94587,6 +94597,7 @@ namespace OverflowHelper.core
             correctionAdd("K5-Max", "Keychron&nbsp;K5&nbsp;Max");
 
             correctionAdd("Keychron K5 Ultra 8K (105%)", "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)"); // Sort of identity mapping
+            correctionAdd("K5&nbsp;Ultra&nbsp;8K", "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)");
             correctionAdd("K5 Ultra 8K", "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)");
             correctionAdd("k5 ultra 8k", "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)");
             correctionAdd("K5 8K Ultra", "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)");
@@ -105284,10 +105295,6 @@ namespace OverflowHelper.core
 
             correctionAdd("circumcise", "circumstances"); // Security Now, episode 1073: <https://www.grc.com/sn/SN-1074-Notes.pdf>
 
-            correctionAdd("shananigans", "shenanigan");
-            correctionAdd("shenanigans", "shenanigan");
-            correctionAdd("Shenanigan", "shenanigan");
-
             correctionAdd("labour intensive", "labour-intensive");
             correctionAdd("labor-intensive", "labour-intensive");
             correctionAdd("labor intensive", "labour-intensive");
@@ -107473,8 +107480,6 @@ namespace OverflowHelper.core
 
             // A code playground?
             correctionAdd("labstack", "LabStack");
-
-            correctionAdd("shear", "sheer");
 
             // The (common) verb, not simulated intelligence
             correctionAdd("Watermarking", "watermarking");
@@ -115904,8 +115909,6 @@ namespace OverflowHelper.core
 
             URL_Add("instalment", "https://en.wiktionary.org/wiki/instalment#Noun");
 
-            URL_Add("shenanigan", "https://en.wiktionary.org/wiki/shenanigan#Noun");
-
             URL_Add("Avocode", "https://help.avocode.com/en/articles/510690-what-is-avocode");
 
             URL_Add("Nuclide", "https://nuclide.io/docs/platforms/react-native/");
@@ -117499,8 +117502,6 @@ namespace OverflowHelper.core
             URL_Add("mucosal immune system", "https://en.wikipedia.org/wiki/Mucosal_immunology");
 
             URL_Add("naturally", "https://en.wiktionary.org/wiki/naturally#Adverb");
-
-            URL_Add("shelf life", "https://en.wiktionary.org/wiki/shelf_life#Noun");
 
             URL_Add("vermouth", "https://en.wikipedia.org/wiki/Vermouth");
 
@@ -133642,8 +133643,6 @@ namespace OverflowHelper.core
 
             URL_Add("sees", "https://en.wiktionary.org/wiki/see#Verb");
 
-            URL_Add("Sheikh Hasina", "https://en.wikipedia.org/wiki/Sheikh_Hasina");
-
             URL_Add("tiptoeing", "https://en.wiktionary.org/wiki/tiptoe#Verb");
 
             URL_Add("conversant", "https://en.wiktionary.org/wiki/conversant#Adjective");
@@ -139008,8 +139007,6 @@ namespace OverflowHelper.core
             URL_Add("ProcDump", "https://en.wikipedia.org/wiki/ProcDump");
 
             URL_Add("mtr", "https://en.wikipedia.org/wiki/MTR_(software)"); // Old: https://en.wikipedia.org/wiki/Traceroute
-
-            URL_Add("shebang", "https://en.wikipedia.org/wiki/Shebang_(Unix)");
 
             URL_Add("DTrace", "https://en.wikipedia.org/wiki/DTrace");
 
@@ -144574,46 +144571,6 @@ namespace OverflowHelper.core
 
             URL_Add("Cambridge Analytica", "https://en.wikipedia.org/wiki/Cambridge_Analytica");
 
-            URL_Add("SSH", "https://en.wikipedia.org/wiki/Secure_Shell");
-
-            URL_Add("SSH-2", "https://en.wikipedia.org/wiki/Secure_Shell#Version_2.x");
-
-            URL_Add("sshd", "https://en.wikipedia.org/wiki/Secure_Shell#Use");
-
-            URL_Add("Shellsort", "https://en.wikipedia.org/wiki/Shellsort");
-
-            URL_Add("BeanShell", "https://en.wikipedia.org/wiki/BeanShell");
-
-            URL_Add("Nushell", "https://www.nushell.sh/book/");
-
-            URL_Add("Quickshell", "https://quickshell.org/about/");
-
-            URL_Add("Qt Quick", "https://en.wikipedia.org/wiki/Qt_Quick");
-
-            URL_Add("ShellCheck", "https://www.shellcheck.net/");
-
-            URL_Add("Shellshock", "https://en.wikipedia.org/wiki/Shellshock_%28software_bug%29");
-
-            URL_Add("$HOME/.bashrc file", "https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Legacy-compatible_Bash_startup_example"); // Old: https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Aliases_and_functions
-
-            URL_Add("$HOME/.profile file", "https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Operating_system_issues_in_Bash_startup"); // Old: https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Setting_inheritable_environment_variables
-
-            URL_Add("$HOME/.bash_profile file", "https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Legacy-compatible_Bash_startup_example");
-
-            URL_Add("Interactive Ruby Shell", "https://en.wikipedia.org/wiki/Interactive_Ruby_Shell");
-
-            URL_Add("walk on eggshells", "https://en.wiktionary.org/wiki/walk_on_eggshells#Verb");
-
-            URL_Add("walking on eggshells", "https://en.wiktionary.org/wiki/walk_on_eggshells#Verb");
-
-            URL_Add("nutshell", "https://en.wiktionary.org/wiki/nutshell#Noun");
-
-            URL_Add("in a nutshell", "https://en.wiktionary.org/wiki/in_a_nutshell#Adverb");
-
-            URL_Add("Python in a Nutshell", "https://www.oreilly.com/library/view/python-in-a/9781098113544/");
-
-            URL_Add("Oh My Posh", "https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal");
-
             URL_Add("bulldoze", "https://en.wiktionary.org/wiki/bulldoze#Verb");
 
             URL_Add("bulldozing", "https://en.wiktionary.org/wiki/bulldoze#Verb");
@@ -146298,32 +146255,6 @@ namespace OverflowHelper.core
 
             URL_Add("chezmoi", "https://github.com/twpayne/chezmoi");
 
-            URL_Add("shell", "https://en.wiktionary.org/wiki/shell#Noun");
-
-            URL_Add("subshell", "https://en.wiktionary.org/wiki/subshell#Noun");
-
-            URL_Add("shell script", "https://en.wiktionary.org/wiki/shell_script#Noun");
-
-            URL_Add("Bash builtin commands", "https://www.gnu.org/software/bash/manual/html_node/Bash-Builtins.html");
-
-            URL_Add("Bourne shell (executable `sh`)", "https://en.wikipedia.org/wiki/Bourne_shell");
-
-            URL_Add("Bash (executable `bash`)", "https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29");
-
-            URL_Add("Z shell (executable `zsh`)", "https://en.wikipedia.org/wiki/Z_shell");
-
-            URL_Add("C shell (executable `csh`)", "https://en.wikipedia.org/wiki/C_shell");
-
-            URL_Add("KornShell (executable `ksh`)", "https://en.wikipedia.org/wiki/KornShell");
-
-            URL_Add("MirBSD KornShell (executable `mksh`)", "https://en.wikipedia.org/wiki/KornShell#Variants");
-
-            URL_Add("Fish (executable `fish`)", "https://en.wikipedia.org/wiki/Fish_(Unix_shell)"); // Old URL: https://en.wikipedia.org/wiki/Friendly_interactive_shell
-
-            URL_Add("Hamilton C shell", "https://en.wikipedia.org/wiki/Hamilton_C_shell");
-
-            URL_Add("ash", "https://en.wikipedia.org/wiki/Almquist_shell");
-
             URL_Add("Homebrew (executable `brew`)", "https://en.wikipedia.org/wiki/Homebrew_(package_manager)"); // Old: https://en.wikipedia.org/wiki/Homebrew_%28package_management_software%29
 
             URL_Add("scroll", "https://en.wiktionary.org/wiki/scroll#Verb");
@@ -147658,8 +147589,6 @@ namespace OverflowHelper.core
 
             URL_Add("TRIAC", "https://en.wikipedia.org/wiki/TRIAC");
 
-            URL_Add("sheer", "https://en.wiktionary.org/wiki/sheer#Adjective");
-
             URL_Add("Lisp", "https://en.wikipedia.org/wiki/Lisp_%28programming_language%29");
 
             URL_Add("FASL", "https://www.lispworks.com/documentation/lw60/LW/html/lw-95.htm");
@@ -147747,8 +147676,6 @@ namespace OverflowHelper.core
             URL_Add("music", "https://en.wiktionary.org/wiki/music#Noun");
 
             URL_Add("sight-reading", "https://en.wikipedia.org/wiki/Sight-reading#Sight-reading");
-
-            URL_Add("sheet music", "https://en.wikipedia.org/wiki/Sheet_music");
 
             URL_Add("tuplet", "https://en.wikipedia.org/wiki/Tuplet");
 
@@ -150390,6 +150317,86 @@ namespace OverflowHelper.core
 
             URL_Add("low-profile mechanical switch", "https://switchandclick.com/low-profile-switches-explained/");
 
+            URL_Add("she've", "https://en.wiktionary.org/wiki/she've#Contraction");
+
+            URL_Add("sheer", "https://en.wiktionary.org/wiki/sheer#Adjective");
+
+            URL_Add("sheet music", "https://en.wikipedia.org/wiki/Sheet_music");
+
+            URL_Add("shenanigan", "https://en.wiktionary.org/wiki/shenanigan#Noun");
+
+            URL_Add("shelf life", "https://en.wiktionary.org/wiki/shelf_life#Noun");
+
+            URL_Add("Sheikh Hasina", "https://en.wikipedia.org/wiki/Sheikh_Hasina");
+
+            URL_Add("shebang", "https://en.wikipedia.org/wiki/Shebang_(Unix)");
+
+            URL_Add("Shellsort", "https://en.wikipedia.org/wiki/Shellsort");
+
+            URL_Add("shell", "https://en.wiktionary.org/wiki/shell#Noun");
+
+            URL_Add("subshell", "https://en.wiktionary.org/wiki/subshell#Noun");
+
+            URL_Add("shell script", "https://en.wiktionary.org/wiki/shell_script#Noun");
+
+            URL_Add("ShellCheck", "https://www.shellcheck.net/");
+
+            URL_Add("Shellshock", "https://en.wikipedia.org/wiki/Shellshock_%28software_bug%29");
+
+            URL_Add("SSH", "https://en.wikipedia.org/wiki/Secure_Shell");
+
+            URL_Add("SSH-2", "https://en.wikipedia.org/wiki/Secure_Shell#Version_2.x");
+
+            URL_Add("sshd", "https://en.wikipedia.org/wiki/Secure_Shell#Use");
+
+            URL_Add("BeanShell", "https://en.wikipedia.org/wiki/BeanShell");
+
+            URL_Add("Nushell", "https://www.nushell.sh/book/");
+
+            URL_Add("Quickshell", "https://quickshell.org/about/");
+
+            URL_Add("Qt Quick", "https://en.wikipedia.org/wiki/Qt_Quick");
+
+            URL_Add("$HOME/.bashrc file", "https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Legacy-compatible_Bash_startup_example"); // Old: https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Aliases_and_functions
+
+            URL_Add("$HOME/.profile file", "https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Operating_system_issues_in_Bash_startup"); // Old: https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Setting_inheritable_environment_variables
+
+            URL_Add("$HOME/.bash_profile file", "https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Legacy-compatible_Bash_startup_example");
+
+            URL_Add("Interactive Ruby Shell", "https://en.wikipedia.org/wiki/Interactive_Ruby_Shell");
+
+            URL_Add("walk on eggshells", "https://en.wiktionary.org/wiki/walk_on_eggshells#Verb");
+
+            URL_Add("walking on eggshells", "https://en.wiktionary.org/wiki/walk_on_eggshells#Verb");
+
+            URL_Add("nutshell", "https://en.wiktionary.org/wiki/nutshell#Noun");
+
+            URL_Add("in a nutshell", "https://en.wiktionary.org/wiki/in_a_nutshell#Adverb");
+
+            URL_Add("Python in a Nutshell", "https://www.oreilly.com/library/view/python-in-a/9781098113544/");
+
+            URL_Add("Oh My Posh", "https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal");
+
+            URL_Add("Bash builtin commands", "https://www.gnu.org/software/bash/manual/html_node/Bash-Builtins.html");
+
+            URL_Add("Bourne shell (executable `sh`)", "https://en.wikipedia.org/wiki/Bourne_shell");
+
+            URL_Add("Bash (executable `bash`)", "https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29");
+
+            URL_Add("Z shell (executable `zsh`)", "https://en.wikipedia.org/wiki/Z_shell");
+
+            URL_Add("C shell (executable `csh`)", "https://en.wikipedia.org/wiki/C_shell");
+
+            URL_Add("KornShell (executable `ksh`)", "https://en.wikipedia.org/wiki/KornShell");
+
+            URL_Add("MirBSD KornShell (executable `mksh`)", "https://en.wikipedia.org/wiki/KornShell#Variants");
+
+            URL_Add("Fish (executable `fish`)", "https://en.wikipedia.org/wiki/Fish_(Unix_shell)"); // Old URL: https://en.wikipedia.org/wiki/Friendly_interactive_shell
+
+            URL_Add("Hamilton C shell", "https://en.wikipedia.org/wiki/Hamilton_C_shell");
+
+            URL_Add("ash", "https://en.wikipedia.org/wiki/Almquist_shell");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -150704,6 +150711,71 @@ namespace OverflowHelper.core
             correctionAdd("LY_", "love you_");
             correctionAdd("ly_", "love you_");
 
+            correctionAdd("file name extension_", "filename extension_");
+            correctionAdd("file extension_", "filename extension_");
+            correctionAdd("file extention_", "filename extension_");
+            correctionAdd("the extension_", "filename extension_");
+            correctionAdd("extension_", "filename extension_");
+
+            correctionAdd("files_", "flies_");
+
+            correctionAdd("sheding_", "shedding_");
+
+            correctionAdd("Re3cent_", "recent_");
+            correctionAdd("re3cent_", "recent_");
+            correctionAdd("Recent_", "recent_");
+            correctionAdd("resent_", "recent_");
+
+            correctionAdd("timeout_", "time out_");
+
+            // Mostly for the alternative URL
+            correctionAdd("timezone_", "time zone_");
+
+            correctionAdd("daylight saving time_", "summer time in Europe_");
+            correctionAdd("summer time_", "summer time in Europe_");
+            correctionAdd("summertime_", "summer time in Europe_");
+
+            // A time zone
+            correctionAdd("British Standard Time_", "British Summer Time_");
+            correctionAdd("BST_", "British Summer Time_");
+
+            correctionAdd("MSK_", "Moscow time zone_");
+
+            correctionAdd("DATE_", "date_");
+
+            correctionAdd("timestamp_", "ISO&nbsp;8601_");
+            correctionAdd("iso 8601_", "ISO&nbsp;8601_");
+            correctionAdd("ISO 8601_", "ISO&nbsp;8601_");
+            correctionAdd("ISO-8601_", "ISO&nbsp;8601_");
+            correctionAdd("iso-8601_", "ISO&nbsp;8601_");
+            correctionAdd("ISO 8901_", "ISO&nbsp;8601_");
+            correctionAdd("ISO date_", "ISO&nbsp;8601_");
+            correctionAdd("ISO8601_", "ISO&nbsp;8601_");
+            correctionAdd("iso8601_", "ISO&nbsp;8601_");
+            correctionAdd("8601_", "ISO&nbsp;8601_");
+            correctionAdd("8901_", "ISO&nbsp;8601_");
+            correctionAdd("ISO_", "ISO&nbsp;8601_");
+            correctionAdd("Iso_", "ISO&nbsp;8601_");
+
+            correctionAdd("canadates_", "candidates_");
+            correctionAdd("Canadates_", "candidates_");
+
+            correctionAdd("some times_", "some time_");
+            correctionAdd("sometime_", "some time_");
+
+            correctionAdd("one time programmable_", "OTP_");
+            correctionAdd("otp_", "OTP_");
+
+            correctionAdd("onces_", "ones_");
+
+            correctionAdd("one off_", "one-off_");
+
+            correctionAdd("one line_", "one-line_");
+            correctionAdd("1 line_", "one-line_");
+            correctionAdd("1-line_", "one-line_");
+
+            correctionAdd("tenth_", "one-tenth_");
+
             // Configuration software for Cooler Master keyboards.
             //
             // For the Reddit page (URL) with
@@ -150878,11 +150950,6 @@ namespace OverflowHelper.core
             correctionAdd("speed-silver_", "Cherry MX Speed Silver_");
             correctionAdd("silver_", "Cherry MX Speed Silver_");
             correctionAdd("Silver_", "Cherry MX Speed Silver_");
-
-            correctionAdd("Re3cent_", "recent_");
-            correctionAdd("re3cent_", "recent_");
-            correctionAdd("Recent_", "recent_");
-            correctionAdd("resent_", "recent_");
 
             // To both have an alternative word (as it may be used
             // in an abbr., like "HE") and an alternative URL.
@@ -153964,12 +154031,6 @@ namespace OverflowHelper.core
 
             correctionAdd("DFT_", "density-functional theory_");
 
-            correctionAdd("file name extension_", "filename extension_");
-            correctionAdd("file extension_", "filename extension_");
-            correctionAdd("file extention_", "filename extension_");
-            correctionAdd("the extension_", "filename extension_");
-            correctionAdd("extension_", "filename extension_");
-
             correctionAdd("sign in_", "sign-in_");
 
             // The noun
@@ -154842,56 +154903,6 @@ namespace OverflowHelper.core
             correctionAdd("symlink_", "symlink()_");
 
             correctionAdd("Summoning_", "summoning_");
-
-            correctionAdd("timeout_", "time out_");
-
-            // Mostly for the alternative URL
-            correctionAdd("timezone_", "time zone_");
-
-            correctionAdd("daylight saving time_", "summer time in Europe_");
-            correctionAdd("summer time_", "summer time in Europe_");
-            correctionAdd("summertime_", "summer time in Europe_");
-
-            // A time zone
-            correctionAdd("British Standard Time_", "British Summer Time_");
-            correctionAdd("BST_", "British Summer Time_");
-
-            correctionAdd("MSK_", "Moscow time zone_");
-
-            correctionAdd("DATE_", "date_");
-
-            correctionAdd("timestamp_", "ISO&nbsp;8601_");
-            correctionAdd("iso 8601_", "ISO&nbsp;8601_");
-            correctionAdd("ISO 8601_", "ISO&nbsp;8601_");
-            correctionAdd("ISO-8601_", "ISO&nbsp;8601_");
-            correctionAdd("iso-8601_", "ISO&nbsp;8601_");
-            correctionAdd("ISO 8901_", "ISO&nbsp;8601_");
-            correctionAdd("ISO date_", "ISO&nbsp;8601_");
-            correctionAdd("ISO8601_", "ISO&nbsp;8601_");
-            correctionAdd("iso8601_", "ISO&nbsp;8601_");
-            correctionAdd("8601_", "ISO&nbsp;8601_");
-            correctionAdd("8901_", "ISO&nbsp;8601_");
-            correctionAdd("ISO_", "ISO&nbsp;8601_");
-            correctionAdd("Iso_", "ISO&nbsp;8601_");
-
-            correctionAdd("canadates_", "candidates_");
-            correctionAdd("Canadates_", "candidates_");
-
-            correctionAdd("some times_", "some time_");
-            correctionAdd("sometime_", "some time_");
-
-            correctionAdd("one time programmable_", "OTP_");
-            correctionAdd("otp_", "OTP_");
-
-            correctionAdd("onces_", "ones_");
-
-            correctionAdd("one off_", "one-off_");
-
-            correctionAdd("one line_", "one-line_");
-            correctionAdd("1 line_", "one-line_");
-            correctionAdd("1-line_", "one-line_");
-
-            correctionAdd("tenth_", "one-tenth_");
 
             correctionAdd("Stack_", "stack_");
 
@@ -163971,17 +163982,6 @@ namespace OverflowHelper.core
             correctionAdd("posix_", "POSIX (tag wiki)_");
             correctionAdd("POSIX_", "POSIX (tag wiki)_");
 
-            correctionAdd("[tag:shell]_", "shell (tag wiki)_");
-            correctionAdd("tag:shell_", "shell (tag wiki)_");
-            correctionAdd("shell_", "shell (tag wiki)_");
-
-            correctionAdd("[tag:bash]_", "Bash (tag wiki)_");
-            correctionAdd("[tag:Bash]_", "Bash (tag wiki)_");
-            correctionAdd("tag:Bash_", "Bash (tag wiki)_");
-            correctionAdd("tag:bash_", "Bash (tag wiki)_");
-            correctionAdd("bash_", "Bash (tag wiki)_");
-            correctionAdd("Bash_", "Bash (tag wiki)_");
-
             correctionAdd("[tag:awk]_", "AWK (tag wiki)_");
             correctionAdd("tag:awk_", "AWK (tag wiki)_");
             correctionAdd("awk_", "AWK (tag wiki)_");
@@ -164257,6 +164257,17 @@ namespace OverflowHelper.core
 
             correctionAdd("[tag:loopbackjs]_", "LoopBack (tag wiki)_");
             correctionAdd("LoopBack_", "LoopBack (tag wiki)_");
+
+            correctionAdd("[tag:bash]_", "Bash (tag wiki)_");
+            correctionAdd("[tag:Bash]_", "Bash (tag wiki)_");
+            correctionAdd("tag:Bash_", "Bash (tag wiki)_");
+            correctionAdd("tag:bash_", "Bash (tag wiki)_");
+            correctionAdd("bash_", "Bash (tag wiki)_");
+            correctionAdd("Bash_", "Bash (tag wiki)_");
+
+            correctionAdd("[tag:shell]_", "shell (tag wiki)_");
+            correctionAdd("tag:shell_", "shell (tag wiki)_");
+            correctionAdd("shell_", "shell (tag wiki)_");
 
             //// Wrong URL... It should be:
             //
@@ -167091,8 +167102,6 @@ namespace OverflowHelper.core
 
             URL_Add("Bash (tag wiki)_", "https://stackoverflow.com/questions/tagged/bash");
 
-            URL_Add("shell (tag wiki)_", "https://stackoverflow.com/questions/tagged/shell");
-
             URL_Add("PL/SQL (tag wiki)_", "https://stackoverflow.com/questions/tagged/plsql");
 
             URL_Add("Zephyr (tag wiki)_", "https://stackoverflow.com/questions/tagged/zephyr");
@@ -167141,6 +167150,8 @@ namespace OverflowHelper.core
 
             URL_Add("MongoDB Atlas_", "https://en.wikipedia.org/wiki/MongoDB#MongoDB_Atlas");
 
+            URL_Add("shell (tag wiki)_", "https://stackoverflow.com/questions/tagged/shell");
+
             //URL_Add("Zephyr RTOS (tag wiki)_", "https://stackoverflow.com/questions/tagged/zephyr-rtos");
             //
             URL_Add("essay_", "https://en.wiktionary.org/wiki/essay#Noun");
@@ -167182,10 +167193,6 @@ namespace OverflowHelper.core
             URL_Add("roll_", "https://en.wiktionary.org/wiki/roll#Noun");
 
             URL_Add("today I learned_", "https://en.wiktionary.org/wiki/TIL#Phrase");
-
-            URL_Add("theirs_", "https://en.wiktionary.org/wiki/theirs#Pronoun");
-
-            URL_Add("her_", "https://en.wiktionary.org/wiki/her#Determiner");
 
             URL_Add("forum_", "https://en.wiktionary.org/wiki/forum#Noun");
 
@@ -168132,8 +168139,6 @@ namespace OverflowHelper.core
             URL_Add("changed_", "https://en.wiktionary.org/wiki/change#Verb");
 
             URL_Add("college_", "https://en.wiktionary.org/wiki/college#Noun");
-
-            URL_Add("sherlocked_", "https://en.wikipedia.org/wiki/Sherlock_(software)");
 
             URL_Add("band-aid_", "https://en.wiktionary.org/wiki/band-aid#Noun");
 
@@ -169945,8 +169950,6 @@ namespace OverflowHelper.core
 
             URL_Add("atomic Linux system_", "https://www.reddit.com/r/linux_gaming/comments/1cb91pd/comment/l0wvioh/");
 
-            URL_Add("Shell Mera_", "https://en.wikipedia.org/wiki/Shell,_Ecuador");
-
             URL_Add("rare_", "https://en.wiktionary.org/wiki/rare#Adjective");
 
             URL_Add("is inaccurate_", "https://www.youtube.com/watch?v=wUZxSf_P2r0&t=4s");
@@ -170655,8 +170658,6 @@ namespace OverflowHelper.core
 
             URL_Add("PEAK_", "https://www.peak-system.com/Contact.54.0.html");
 
-            URL_Add("shield_", "https://en.wiktionary.org/wiki/shield#Noun");
-
             URL_Add("reproduction_", "https://en.wiktionary.org/wiki/reproduction#Noun");
 
             URL_Add("Stack Exchange glossary_", "https://meta.stackexchange.com/questions/40353/stack-exchange-glossary-dictionary-of-commonly-used-terms");
@@ -171326,6 +171327,20 @@ namespace OverflowHelper.core
             URL_Add("rheumatoid arthritis_", "https://en.wikipedia.org/wiki/Rheumatoid_arthritis");
 
             URL_Add("Spins_", "https://en.wikipedia.org/wiki/Fedora_Linux#Spins_and_Remixes");
+
+            URL_Add("flies_", "https://en.wiktionary.org/wiki/fly#Verb");
+
+            URL_Add("theirs_", "https://en.wiktionary.org/wiki/theirs#Pronoun");
+
+            URL_Add("her_", "https://en.wiktionary.org/wiki/her#Determiner");
+
+            URL_Add("sherlocked_", "https://en.wikipedia.org/wiki/Sherlock_(software)");
+
+            URL_Add("Shell Mera_", "https://en.wikipedia.org/wiki/Shell,_Ecuador");
+
+            URL_Add("shedding_", "https://en.wiktionary.org/wiki/shed#Verb");
+
+            URL_Add("shield_", "https://en.wiktionary.org/wiki/shield#Noun");
 
         } //addLookupData_alternativeWordSet()
 
@@ -172295,7 +172310,7 @@ namespace OverflowHelper.core
             correctionAdd("dash caps__", "Dash keycaps__");
             correctionAdd("dash__", "Dash keycaps__");
 
-            correctionAdd("keycap profiles__", "keycap profile__");
+            correctionAdd("keycap profiles__", "keycap profile__"); // For the cross-reference
             correctionAdd("profile__", "keycap profile__");
             correctionAdd("keycap__", "keycap profile__");
 
@@ -172420,8 +172435,6 @@ namespace OverflowHelper.core
             correctionAdd("cntl__", "Ctrl key__");
             correctionAdd("Cntl__", "Ctrl key__");
             correctionAdd("crtl__", "Ctrl key__");
-            correctionAdd("ctlr__", "Ctrl key__");
-            correctionAdd("Ctlr__", "Ctrl key__");
             correctionAdd("Cltr__", "Ctrl key__");
             correctionAdd("cntr__", "Ctrl key__");
             correctionAdd("Ctrl__", "Ctrl key__");
@@ -172431,12 +172444,15 @@ namespace OverflowHelper.core
             correctionAdd("strg__", "Ctrl key__"); // On a German keyboard layout
             correctionAdd("Cont__", "Ctrl key__");
             correctionAdd("cont__", "Ctrl key__");
-            correctionAdd("ctl__", "Ctrl key__");
+            correctionAdd("ctlr__", "Ctrl key__");
+            correctionAdd("Ctlr__", "Ctrl key__");
+            correctionAdd("lctl__", "Ctrl key__");
             correctionAdd("clt__", "Ctrl key__");
-            correctionAdd("Ctl__", "Ctrl key__");
             correctionAdd("Ctr__", "Ctrl key__");
             correctionAdd("CTR__", "Ctrl key__");
             correctionAdd("ctr__", "Ctrl key__");
+            correctionAdd("Ctl__", "Ctrl key__");
+            correctionAdd("ctl__", "Ctrl key__");
 
             // A key on a keyboard
             // E.g., mechanical keyboards
@@ -177087,8 +177103,6 @@ namespace OverflowHelper.core
 
             URL_Add("PII__", "https://en.wikipedia.org/wiki/Personal_data");
 
-            URL_Add("Shell()__", "https://learn.microsoft.com/en-us/office/vba/language/reference/user-interface-help/shell-function");
-
             URL_Add("mode__", "https://en.wiktionary.org/wiki/mode#Noun");
 
             URL_Add("air conditioning__", "https://en.wiktionary.org/wiki/air_conditioning#Noun");
@@ -177576,6 +177590,8 @@ namespace OverflowHelper.core
             URL_Add("weird couplings to Bluetooth in Keychron keyboards__", "https://www.reddit.com/r/Keychron/comments/1ihh33r/comment/maxll5p/");
 
             URL_Add("wheel__", "https://en.wikipedia.org/wiki/Wheel_(disambiguation)#Science_and_technology");
+
+            URL_Add("Shell()__", "https://learn.microsoft.com/en-us/office/vba/language/reference/user-interface-help/shell-function");
 
         } //addLookupData_alternativeWordSet2()
 
