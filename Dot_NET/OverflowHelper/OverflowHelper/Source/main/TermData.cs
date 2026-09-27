@@ -9333,6 +9333,9 @@ namespace OverflowHelper.core
             correctionAdd("Offbrand", "off-brand");
             correctionAdd("offbrand", "off-brand");
 
+            correctionAdd("my reseller", "Proshop");
+            correctionAdd("proshop", "Proshop");
+
             // A computer chain store. E.g., mechanical keyboards
             correctionAdd("micro center", "Micro Center");
             correctionAdd("Micro center", "Micro Center");
@@ -19502,6 +19505,7 @@ namespace OverflowHelper.core
 
             correctionAdd("uzbekistan", "Uzbekistan");
             correctionAdd("Uzbetistan", "Uzbekistan");
+            correctionAdd("UZ", "Uzbekistan");
 
             correctionAdd("mount everest", "Mount Everest");
 
@@ -29359,8 +29363,6 @@ namespace OverflowHelper.core
             correctionAdd("cant't", "can’t");
             correctionAdd("can'te", "can’t");
             correctionAdd("can't", "can’t");
-            correctionAdd("can´t", "can’t");
-            correctionAdd("can`t", "can’t");
             correctionAdd("Cant'", "can’t");
             correctionAdd("cant'", "can’t");
             correctionAdd("Carnt", "can’t");
@@ -29368,7 +29370,6 @@ namespace OverflowHelper.core
             correctionAdd("can'T", "can’t");
             correctionAdd("Can't", "can’t");
             correctionAdd("cam’t", "can’t");
-            correctionAdd("Can´t", "can’t");
             correctionAdd("can'i", "can’t");
             correctionAdd("can'n", "can’t");
             correctionAdd("can;t", "can’t");
@@ -29377,6 +29378,10 @@ namespace OverflowHelper.core
             correctionAdd("cxant", "can’t");
             correctionAdd("can t", "can’t");
             correctionAdd("CAN'T", "can’t");
+            correctionAdd("can´t", "can’t");
+            correctionAdd("Can´t", "can’t");
+            correctionAdd("can`t", "can’t");
+            correctionAdd("Can`t", "can’t");
             correctionAdd("cant", "can’t");
             correctionAdd("cand", "can’t");
             correctionAdd("Cant", "can’t");
@@ -29447,16 +29452,16 @@ namespace OverflowHelper.core
             correctionAdd("will not", "won’t"); // For the contraction
             correctionAdd("wont’t", "won’t");
             correctionAdd("wontt", "won’t");
-            correctionAdd("won´t", "won’t");
-            correctionAdd("won`t", "won’t");
-            correctionAdd("won't", "won’t");
-            correctionAdd("WON'T", "won’t");
             correctionAdd("Won?t", "won’t");
             correctionAdd("won?t", "won’t");
             correctionAdd("son?t", "won’t"); // Partly a real typo. Alternative (less likely) typo: don't
-            correctionAdd("won'T", "won’t");
-            correctionAdd("wont'", "won’t");
             correctionAdd("wonnt", "won’t");
+            correctionAdd("wont'", "won’t");
+            correctionAdd("won't", "won’t");
+            correctionAdd("WON'T", "won’t");
+            correctionAdd("won'T", "won’t");
+            correctionAdd("won´t", "won’t");
+            correctionAdd("won`t", "won’t");
             correctionAdd("wont", "won’t");
             correctionAdd("sont", "won’t"); // Partly a real typo. Alternative (less likely) typo: don't
             correctionAdd("won", "won’t");
@@ -39621,11 +39626,11 @@ namespace OverflowHelper.core
 
             correctionAdd("Whats's", "what’s");
             correctionAdd("whats's", "what’s");
+            correctionAdd("What s", "what’s");
+            correctionAdd("what s", "what’s");
             correctionAdd("what's", "what’s");
             correctionAdd("what`s", "what’s");
             correctionAdd("What's", "what’s");
-            correctionAdd("What s", "what’s");
-            correctionAdd("what s", "what’s");
             correctionAdd("whats", "what’s");
             correctionAdd("Whats", "what’s"); // Not 100% correct - case.
             correctionAdd("whatz", "what’s");
@@ -54687,6 +54692,7 @@ namespace OverflowHelper.core
             correctionAdd("moding", "modifying");
 
             correctionAdd("modifyable", "modifiable");
+            correctionAdd("moddable", "modifiable");
 
             correctionAdd("non modifiable", "nonmodifiable");
             correctionAdd("non modifyable", "nonmodifiable");
@@ -59560,6 +59566,8 @@ namespace OverflowHelper.core
 
             // Aviation
             correctionAdd("RWY", "runway");
+            correctionAdd("Rwy", "runway");
+            correctionAdd("rwy", "runway");
 
             // Aviation
             correctionAdd("Runway Excursion", "runway excursion");
@@ -76876,12 +76884,18 @@ namespace OverflowHelper.core
             correctionAdd("requirment", "requirement");
             correctionAdd("requrement", "requirement");
             correctionAdd("requiremnt", "requirement");
+            correctionAdd("REQMNT", "requirement");
+            correctionAdd("reqmnt", "requirement");
             correctionAdd("req", "requirement");
 
             correctionAdd("requriments", "requirements");
             correctionAdd("Requirments", "requirements");
             correctionAdd("requirments", "requirements");
             correctionAdd("requiements", "requirements");
+            correctionAdd("REQMNT'S", "requirements");
+            correctionAdd("reqmnt's", "requirements");
+            correctionAdd("REQMNTS", "requirements");
+            correctionAdd("reqmnts", "requirements");
             correctionAdd("reqs", "requirements");
 
             correctionAdd("prerequiresite", "prerequisite");
@@ -80877,6 +80891,8 @@ namespace OverflowHelper.core
             // Music
             correctionAdd("fur elize", "Für Elise");
             correctionAdd("Fur Elise", "Für Elise");
+
+            correctionAdd("Beatles", "The Beatles");
 
             // Music. Piano. Learning
             //
@@ -94367,10 +94383,10 @@ namespace OverflowHelper.core
             correctionAdd("V6 Ultra 8K", "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K");
             correctionAdd("V6 Ultra 8k", "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K");
             correctionAdd("V6 8K Ultra", "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K"); // Not valid
-            correctionAdd("V6 ultra 8k", "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K");
             correctionAdd("V6_Ultra_8K", "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K");
             correctionAdd("v6 ultra 8k", "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K");
             correctionAdd("v6_ultra_8k", "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K");
+            correctionAdd("V6 ultra 8k", "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K");
             correctionAdd("v6_ultra", "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K");
             correctionAdd("V6 Ultra", "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K");
             correctionAdd("V6 ultra", "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K");
@@ -99245,19 +99261,19 @@ namespace OverflowHelper.core
             correctionAdd("its's", "it’s");
             correctionAdd("It' s", "it’s");
             correctionAdd("it' s", "it’s");
+            correctionAdd("it s", "it’s");
+            correctionAdd("tits", "it’s");
+            correctionAdd("It s", "it’s");
+            correctionAdd("its'", "it’s");
+            correctionAdd("'tis", "it’s");
+            correctionAdd("i'ts", "it’s"); // A true typo
+            correctionAdd("it'a", "it’s");
+            correctionAdd("it,s", "it’s");
             correctionAdd("it's", "it’s"); // Mostly for compatibility with Quora
-            correctionAdd("it`s", "it’s"); // Mostly for compatibility with Quora
+            correctionAdd("It's", "it’s");
             correctionAdd("it´s", "it’s");
             correctionAdd("It`s", "it’s");
-            correctionAdd("It's", "it’s");
-            correctionAdd("it s", "it’s");
-            correctionAdd("its'", "it’s");
-            correctionAdd("it,s", "it’s");
-            correctionAdd("it'a", "it’s");
-            correctionAdd("tits", "it’s");
-            correctionAdd("'tis", "it’s");
-            correctionAdd("It s", "it’s");
-            correctionAdd("i'ts", "it’s"); // A true typo
+            correctionAdd("it`s", "it’s"); // Mostly for compatibility with Quora
             correctionAdd("ita", "it’s"); // A true typo
             correctionAdd("it'", "it’s");
             correctionAdd("jts", "it’s");
@@ -134013,6 +134029,8 @@ namespace OverflowHelper.core
 
             URL_Add("MikroTik", "https://en.wikipedia.org/wiki/MikroTik");
 
+            URL_Add("Proshop", "https://da.wikipedia.org/wiki/Proshop");
+
             URL_Add("Micro Center", "https://en.wikipedia.org/wiki/Micro_Center");
 
             URL_Add("Walmart", "https://en.wikipedia.org/wiki/Walmart");
@@ -147701,6 +147719,8 @@ namespace OverflowHelper.core
 
             URL_Add("Für Elise", "https://en.wikipedia.org/wiki/F%C3%BCr_Elise");
 
+            URL_Add("The Beatles", "https://en.wikipedia.org/wiki/The_Beatles");
+
             URL_Add("Nocturne No. 20 in C♯ minor", "https://en.wikipedia.org/wiki/Nocturne_in_C-sharp_minor,_Op._posth._(Chopin)");
 
             URL_Add("String quintet in E Major, Op.11 No.5. Minuet - Luigi Boccherini", "https://www.youtube.com/watch?v=5fLPBIBOE5U");
@@ -153000,11 +153020,13 @@ namespace OverflowHelper.core
             correctionAdd("Brazilian Technical Standards Association_", "ABNT NBR 10346 variant 2 keyboard layout_"); // For the cross-reference
             correctionAdd("Brazilian keyboard layout_", "ABNT NBR 10346 variant 2 keyboard layout_");
             correctionAdd("ABNT NBR 10346 variant 2_", "ABNT NBR 10346 variant 2 keyboard layout_");
+            correctionAdd("the Brazilian layout_", "ABNT NBR 10346 variant 2 keyboard layout_");
             correctionAdd("Brazilian_", "ABNT NBR 10346 variant 2 keyboard layout_"); // For the cross-reference
             correctionAdd("ABNT-2_", "ABNT NBR 10346 variant 2 keyboard layout_");
             correctionAdd("ABNT2_", "ABNT NBR 10346 variant 2 keyboard layout_");
             correctionAdd("abnt2_", "ABNT NBR 10346 variant 2 keyboard layout_");
             correctionAdd("ABN2_", "ABNT NBR 10346 variant 2 keyboard layout_");
+            correctionAdd("abn2_", "ABNT NBR 10346 variant 2 keyboard layout_");
             correctionAdd("ABNT_", "ABNT NBR 10346 variant 2 keyboard layout_");
             correctionAdd("abnt_", "ABNT NBR 10346 variant 2 keyboard layout_");
 
@@ -161500,6 +161522,7 @@ namespace OverflowHelper.core
             correctionAdd("sXXX_", "shit_");
             correctionAdd("sh*t_", "shit_");
             correctionAdd("SH*T_", "shit_");
+            correctionAdd("Sh*t_", "shit_");
             correctionAdd("shid_", "shit_");
             correctionAdd("S**T_", "shit_");
             correctionAdd("s**t_", "shit_");
@@ -163324,6 +163347,7 @@ namespace OverflowHelper.core
             correctionAdd("speced_", "specified_");
 
             // The verb
+            correctionAdd("fiind_", "find_");
             correctionAdd("fidn_", "find_");
             correctionAdd("finf_", "find_");
             correctionAdd("fimd_", "find_");
