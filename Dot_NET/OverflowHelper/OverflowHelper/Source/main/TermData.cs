@@ -1987,6 +1987,8 @@ namespace OverflowHelper.core
             correctionAdd("strawmen arguments", "straw men");
             correctionAdd("strawmen", "straw men");
 
+            correctionAdd("fragther", "freighter");
+
             correctionAdd("mothership", "mother ship");
 
             // The verb
@@ -13679,6 +13681,7 @@ namespace OverflowHelper.core
 
             correctionAdd("delightfull", "delightful");
 
+            correctionAdd("Enlighten", "enlighten");
             correctionAdd("enlightn", "enlighten");
 
             correctionAdd("enlightment", "enlightenment");
@@ -33103,6 +33106,8 @@ namespace OverflowHelper.core
             correctionAdd("incompatiple", "incompatible");
             correctionAdd("incomptible", "incompatible");
             correctionAdd("incomatible", "incompatible");
+
+            correctionAdd("Croissant", "croissant");
 
             correctionAdd("bacak", "back");
             correctionAdd("baxck", "back"); // A true typo (extra letter)
@@ -71522,6 +71527,7 @@ namespace OverflowHelper.core
             correctionAdd("the assisant program", "Keychron Assist");
             correctionAdd("Keychron Assistant", "Keychron Assist");
             correctionAdd("Keychron assistant", "Keychron Assist");
+            correctionAdd("Keychron-Assistant", "Keychron Assist");
             correctionAdd("Keychron Launcher", "Keychron Assist"); // For the cross-reference
             correctionAdd("launcher Assist", "Keychron Assist");
             correctionAdd("keychron assist", "Keychron Assist");
@@ -90518,6 +90524,23 @@ namespace OverflowHelper.core
             //
             correctionAdd("razer Huntsman", "Razer Huntsman");
 
+            // A 88-key (85%. True TKL) crippled wired-only
+            // mechanical keyboard from Norbauer without a knob.
+            //
+            // USD 4,000!
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=N3FEv1qw4_w>
+            //     Fixing the biggest problem with mechanical keyboards.
+            //
+            //     The gist is solving the problem with
+            //     the rattling space bar key.
+            //
+            //   <https://www.norbauer.co/pages/the-seneca>
+            //
+            correctionAdd("seneca", "Norbauer Seneca");
+
             // A 89-key (85%. Not true TKL) crippled wired-only
             // Alice layout (a la Microsoft Natural Keyboard)
             // QMK/Via-capable mechanical keyboard with
@@ -91666,6 +91689,7 @@ namespace OverflowHelper.core
             correctionAdd("K4 non-Pro", "Keychron K4");
             correctionAdd("K4 non-pro", "Keychron K4");
             correctionAdd("K4 QMK", "Keychron K4"); // The new QMK-based version
+            correctionAdd("K4 V2", "Keychron K4");
             correctionAdd("K4 V3", "Keychron K4"); // The new QMK-based version
             correctionAdd("K4v3", "Keychron K4"); // The new QMK-based version
             correctionAdd("K4", "Keychron K4");
@@ -97149,6 +97173,7 @@ namespace OverflowHelper.core
             correctionAdd("dissagreed", "disagreed");
 
             correctionAdd("disagreeng", "disagreeing");
+            correctionAdd("disagreing", "disagreeing");
 
             correctionAdd("disappate", "dissipate");
 
@@ -130199,6 +130224,8 @@ namespace OverflowHelper.core
 
             URL_Add("shutting down", "https://en.wiktionary.org/wiki/shut_down#Verb");
 
+            URL_Add("freighter", "https://en.wiktionary.org/wiki/freighter#Noun");
+
             URL_Add("mother ship", "https://en.wiktionary.org/wiki/mother_ship#Noun");
 
             URL_Add("being on the lookout", "https://en.wiktionary.org/wiki/be_on_the_lookout#Verb");
@@ -144149,6 +144176,8 @@ namespace OverflowHelper.core
 
             URL_Add("Razer Huntsman", "https://www.razer.com/pc/gaming-keyboards/huntsman-line");
 
+            URL_Add("Norbauer Seneca", "https://www.youtube.com/watch?v=N3FEv1qw4_w");
+
             URL_Add("Royal Kludge", "https://www.rtings.com/keyboard/reviews/royal-kludge/rk61");
 
             URL_Add("SteelSeries Apex Pro", "https://www.mechanical-keyboard.org/steelseries-apex-pro/");
@@ -150417,6 +150446,8 @@ namespace OverflowHelper.core
 
             URL_Add("ash", "https://en.wikipedia.org/wiki/Almquist_shell");
 
+            URL_Add("croissant", "https://en.wiktionary.org/wiki/croissant#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -155575,6 +155606,9 @@ namespace OverflowHelper.core
             correctionAdd("shortcurcuit_", "short circuit_");
             correctionAdd("shorts_", "short circuit_");
             correctionAdd("short_", "short circuit_");
+
+            // The noun
+            correctionAdd("shortcircuits_", "short circuits_");
 
             correctionAdd("Short / Small String Optimization_", "short string optimisation_");
             correctionAdd("short / small string optimization_", "short string optimisation_");
@@ -170643,6 +170677,8 @@ namespace OverflowHelper.core
             URL_Add("short scale_", "https://en.wikipedia.org/wiki/Long_and_short_scales");
 
             URL_Add("short circuit_", "https://en.wiktionary.org/wiki/short_circuit#Verb");
+
+            URL_Add("short circuits_", "https://en.wiktionary.org/wiki/short_circuit#Noun");
 
             URL_Add("short string optimisation_", "https://stackoverflow.com/questions/10315041/meaning-of-acronym-sso-in-the-context-of-stdstring/10319672#10319672");
 
