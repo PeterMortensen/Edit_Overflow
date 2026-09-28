@@ -56247,10 +56247,11 @@ namespace OverflowHelper.core
             correctionAdd("most people don't read", "people don't read");
 
             correctionAdd("left most", "leftmost");
+            correctionAdd("left-most", "leftmost");
 
-            correctionAdd("right most", "right-most");
-            correctionAdd("rightmost", "right-most");
-            correctionAdd("reight most", "right-most");
+            correctionAdd("reight most", "rightmost");
+            correctionAdd("right most", "rightmost");
+            correctionAdd("right-most", "rightmost");
 
             correctionAdd("bottommost", "bottom-most");
 
@@ -143602,7 +143603,7 @@ namespace OverflowHelper.core
 
             URL_Add("leftmost", "https://en.wiktionary.org/wiki/leftmost#Adjective");
 
-            URL_Add("right-most", "https://en.wiktionary.org/wiki/rightmost#Adjective");
+            URL_Add("rightmost", "https://en.wiktionary.org/wiki/rightmost#Adjective");
 
             URL_Add("bottom-most", "https://en.wiktionary.org/wiki/bottom-most#Adjective");
 
