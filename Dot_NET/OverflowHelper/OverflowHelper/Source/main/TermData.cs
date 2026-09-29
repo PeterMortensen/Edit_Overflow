@@ -9314,6 +9314,7 @@ namespace OverflowHelper.core
             correctionAdd("inconsequntial", "inconsequential");
             correctionAdd("inconsequental", "inconsequential");
 
+            correctionAdd("barnd", "brand");
             correctionAdd("bran", "brand");
 
             correctionAdd("Brand name", "brand name");
@@ -9326,6 +9327,7 @@ namespace OverflowHelper.core
             correctionAdd("Rembrandt", "rebranding");
 
             correctionAdd("brand-new", "brand new");
+            correctionAdd("barnd new", "brand new");
             correctionAdd("brandnew", "brand new");
             correctionAdd("bran new", "brand new");
 
@@ -150613,6 +150615,7 @@ namespace OverflowHelper.core
 
             // The noun
             correctionAdd("aleart_", "alert_");
+            correctionAdd("allert_", "alert_");
 
             correctionAdd("Downgrade_", "downgrade_");
             correctionAdd("downgrad_", "downgrade_");
