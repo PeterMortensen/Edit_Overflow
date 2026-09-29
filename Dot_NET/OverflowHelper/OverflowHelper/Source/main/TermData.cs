@@ -9314,7 +9314,7 @@ namespace OverflowHelper.core
             correctionAdd("inconsequntial", "inconsequential");
             correctionAdd("inconsequental", "inconsequential");
 
-            correctionAdd("barnd", "brand");
+            correctionAdd("barnd", "brand"); // A true typo
             correctionAdd("bran", "brand");
 
             correctionAdd("Brand name", "brand name");
@@ -9327,7 +9327,7 @@ namespace OverflowHelper.core
             correctionAdd("Rembrandt", "rebranding");
 
             correctionAdd("brand-new", "brand new");
-            correctionAdd("barnd new", "brand new");
+            correctionAdd("barnd new", "brand new"); // A true typo
             correctionAdd("brandnew", "brand new");
             correctionAdd("bran new", "brand new");
 
@@ -25548,6 +25548,10 @@ namespace OverflowHelper.core
             //   <https://manpages.debian.org/testing/tofrodos/fromdos.1.en.html>
             //
             correctionAdd("Fromdos", "fromdos");
+
+            // A file archiver utility
+            // Linux / Unix
+            correctionAdd("CPIO", "cpio");
 
             // Linux. Ethernet
             correctionAdd("ETHTOOL", "ethtool");
@@ -52429,11 +52433,6 @@ namespace OverflowHelper.core
             correctionAdd("VS Online", "Visual Studio Online");
             correctionAdd("VSO", "Visual Studio Online");
 
-            // Visual Studio
-            correctionAdd("Power Tools", "Productivity Power Tools");
-            correctionAdd("PowerTools", "Productivity Power Tools");
-            correctionAdd("PPT", "Productivity Power Tools");
-
             // An IDE. .NET
             correctionAdd("mono develope", "MonoDevelop"); // Misspelling.
             correctionAdd("mono develop", "MonoDevelop");
@@ -67315,25 +67314,6 @@ namespace OverflowHelper.core
             correctionAdd("abs", "ABS");
             correctionAdd("ABT", "ABS");
 
-            // Mechanical keyboards. Keycap material. A kind of plastic.
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.prosettings.com/keycaps-guide/>
-            //   <https://en.wikipedia.org/wiki/Keycap#Materials>
-            //   <https://redragonshop.com/blogs/community/the-ultimate-guide-to-keycaps-material-profile-and-beyond>
-            //   <https://www.keychron.com/blogs/news/abs-vs-pbt-keycaps-keycap-materials-you-should-know>
-            //
-            correctionAdd("Polybutylene Terephthalate", "PBT");
-            correctionAdd("Polybutylene terephthalate", "PBT");
-            correctionAdd("polybutylene terephthalate", "PBT");
-            correctionAdd("PTb", "PBT");
-            correctionAdd("PBS", "PBT");
-            correctionAdd("pbs", "PBT");
-            correctionAdd("Pbt", "PBT");
-            correctionAdd("PbT", "PBT");
-            correctionAdd("pbt", "PBT");
-
             // Note: The computer type is in an alternative word set.
             //
             // Mechanical keyboards. Keycap material. A kind of plastic.
@@ -75136,6 +75116,7 @@ namespace OverflowHelper.core
             correctionAdd("Thinkpad X200", "ThinkPad X200");
 
             correctionAdd("breath", "breathe");
+            correctionAdd("BREATH", "breathe");
             correctionAdd("Breate", "breathe");
             correctionAdd("breate", "breathe");
 
@@ -100257,6 +100238,7 @@ namespace OverflowHelper.core
             correctionAdd("POWERPOINT", "PowerPoint");
             correctionAdd("ppts", "PowerPoint");
             correctionAdd("ppt", "PowerPoint");
+            correctionAdd("PPT", "PowerPoint");
 
             correctionAdd("tick tock", "TikTok");
             correctionAdd("Tick Tok", "TikTok");
@@ -105684,8 +105666,6 @@ namespace OverflowHelper.core
             correctionAdd("[sic!]", "[sic]");
             correctionAdd("sic!", "[sic]");
             correctionAdd("sic", "[sic]");
-
-            correctionAdd("CPIO", "cpio");
 
             correctionAdd("aurelia", "Aurelia");
 
@@ -112804,8 +112784,6 @@ namespace OverflowHelper.core
             URL_Add("Corsair", "https://en.wikipedia.org/wiki/Corsair_Components#Products");
 
             URL_Add("JSTL", "https://en.wikipedia.org/wiki/Jakarta_Standard_Tag_Library");
-
-            URL_Add("PBT", "https://en.wikipedia.org/wiki/Polybutylene_terephthalate#Applications"); // <https://en.wikipedia.org/wiki/Polybutylene_terephthalate>
 
             URL_Add("Pug", "https://pugjs.org/api/getting-started.html");
 
@@ -130016,8 +129994,6 @@ namespace OverflowHelper.core
             URL_Add("TestCafe Studio", "https://marketplace.visualstudio.com/items?itemName=DevExpress.TestCafeStudio");
 
             URL_Add("CodeLens", "https://docs.microsoft.com/en-us/visualstudio/ide/find-code-changes-and-other-history-with-codelens");
-
-            URL_Add("Productivity Power Tools", "https://devblogs.microsoft.com/visualstudio/boost-your-productivity-with-productivity-power-tools-extensions-in-visual-studio-2022/");
 
             URL_Add("Java VisualVM", "https://en.wikipedia.org/wiki/VisualVM");
 
@@ -153978,8 +153954,15 @@ namespace OverflowHelper.core
             // Aviation
             correctionAdd("LOC_", "loss of control_");
 
+            // For example, in aviation
+            correctionAdd("Captain_", "captain_");
+
             // Aviation
             correctionAdd("PIC_", "pilot in command_");
+
+            // Aviation
+            correctionAdd("pilot induced oscillation_", "pilot-induced oscillation_");
+            correctionAdd("PIO_", "pilot-induced oscillation_");
 
             // Aviation
             //
@@ -153994,12 +153977,12 @@ namespace OverflowHelper.core
             correctionAdd("SIC_", "second-in-command_");
 
             // Aviation
-            correctionAdd("MSL_", "mean sea level_");
-
-            // Aviation
             correctionAdd("auto pilot_", "autopilot_");
             correctionAdd("Autopilot_", "autopilot_");
             correctionAdd("AP_", "autopilot_");
+
+            // Aviation
+            correctionAdd("MSL_", "mean sea level_");
 
             // Related to aviation / aircraft
             correctionAdd("mach_", "Mach_");
@@ -154035,9 +154018,6 @@ namespace OverflowHelper.core
             // An airliner. Aviation
             correctionAdd("united airlines_", "United Airlines_");
             correctionAdd("united_", "United Airlines_");
-
-            // For example, in aviation
-            correctionAdd("Captain_", "captain_");
 
             // A rocket. Spacecraft. SpaceX.
             correctionAdd("superheavy_", "Super Heavy_");
@@ -161942,11 +161922,6 @@ namespace OverflowHelper.core
             correctionAdd("Bioinformatics_", "Bioinformatics (Stack Exchange site)_"); // Sort of identity mapping"
             correctionAdd("bioinformatics_", "Bioinformatics (Stack Exchange site)_");
 
-            correctionAdd("aviation Stack Exchange site_", "Aviation (Stack Exchange site)_");
-            correctionAdd("Aviation_", "Aviation (Stack Exchange site)_");
-            correctionAdd("aviation_", "Aviation (Stack Exchange site)_");
-            correctionAdd("ASE_", "Aviation (Stack Exchange site)_");
-
             correctionAdd("Software Recommendations (Stack Exchange site)_", "Software&nbsp;Recommendations (Stack Exchange site)_");
             correctionAdd("Software&nbsp;Recommendations_", "Software&nbsp;Recommendations (Stack Exchange site)_"); // Sort of identity mapping
             correctionAdd("Software Recommendations_", "Software&nbsp;Recommendations (Stack Exchange site)_"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
@@ -161993,6 +161968,11 @@ namespace OverflowHelper.core
             correctionAdd("music Stack Exchange_", "Music:&nbsp;Practice&nbsp;&&nbsp;Theory (Stack Exchange site)_");
             correctionAdd("Music.SE_", "Music:&nbsp;Practice&nbsp;&&nbsp;Theory (Stack Exchange site)_");
             correctionAdd("Music_", "Music:&nbsp;Practice&nbsp;&&nbsp;Theory (Stack Exchange site)_");
+
+            correctionAdd("aviation Stack Exchange site_", "Aviation (Stack Exchange site)_");
+            correctionAdd("Aviation_", "Aviation (Stack Exchange site)_");
+            correctionAdd("aviation_", "Aviation (Stack Exchange site)_");
+            correctionAdd("ASE_", "Aviation (Stack Exchange site)_");
 
             correctionAdd("SEDE_", "Stack Exchange Data Explorer_");
 
@@ -166718,6 +166698,40 @@ namespace OverflowHelper.core
             correctionAdd("lotus notes_", "Lotus Notes_");
             correctionAdd("Lotus_", "Lotus Notes_");
 
+            // Mechanical keyboards. Keycap material. A kind of plastic.
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.prosettings.com/keycaps-guide/>
+            //   <https://en.wikipedia.org/wiki/Keycap#Materials>
+            //   <https://redragonshop.com/blogs/community/the-ultimate-guide-to-keycaps-material-profile-and-beyond>
+            //   <https://www.keychron.com/blogs/news/abs-vs-pbt-keycaps-keycap-materials-you-should-know>
+            //
+            correctionAdd("Polybutylene Terephthalate_", "PBT_");
+            correctionAdd("Polybutylene terephthalate_", "PBT_");
+            correctionAdd("polybutylene terephthalate_", "PBT_");
+            correctionAdd("PTb_", "PBT_");
+            correctionAdd("PBS_", "PBT_");
+            correctionAdd("pbs_", "PBT_");
+            correctionAdd("Pbt_", "PBT_");
+            correctionAdd("PbT_", "PBT_");
+            correctionAdd("pbt_", "PBT_");
+            correctionAdd("PPT_", "PBT_");
+            correctionAdd("ppt_", "PBT_");
+
+            // The (physical) tool
+            correctionAdd("Allen wrench_", "Unbrako_");
+            correctionAdd("hex wrench_", "Unbrako_");
+            correctionAdd("Allen key_", "Unbrako_");
+            correctionAdd("umbrako_", "Unbrako_");
+            correctionAdd("Umbraco_", "Unbrako_");
+            correctionAdd("Umbrako_", "Unbrako_");
+            correctionAdd("Unbraco_", "Unbrako_");
+            correctionAdd("umbraco_", "Unbrako_");
+            correctionAdd("unbraco_", "Unbrako_");
+            correctionAdd("unbrako_", "Unbrako_");
+            correctionAdd("hex key_", "Unbrako_");
+
             // C. A book
             //
             // Authors: Brian Kernighan and Dennis Ritchie
@@ -168970,8 +168984,6 @@ namespace OverflowHelper.core
 
             URL_Add("StarCraft_", "https://en.wikipedia.org/wiki/StarCraft");
 
-            URL_Add("captain_", "https://en.wiktionary.org/wiki/captain#Noun");
-
             URL_Add("keycap_", "https://en.wikipedia.org/wiki/Keycap");
 
             URL_Add("keycaps_", "https://en.wikipedia.org/wiki/Keycap");
@@ -170610,7 +170622,11 @@ namespace OverflowHelper.core
 
             URL_Add("loss of control_", "https://en.wikipedia.org/wiki/Loss_of_control_(aeronautics)");
 
+            URL_Add("captain_", "https://en.wiktionary.org/wiki/captain#Noun");
+
             URL_Add("pilot in command_", "https://en.wikipedia.org/wiki/Pilot_in_command");
+
+            URL_Add("pilot-induced oscillation_", "https://en.wikipedia.org/wiki/Pilot-induced_oscillation");
 
             URL_Add("first officer_", "https://en.wikipedia.org/wiki/First_officer_(aviation)");
 
@@ -171405,6 +171421,10 @@ namespace OverflowHelper.core
             URL_Add("shedding_", "https://en.wiktionary.org/wiki/shed#Verb");
 
             URL_Add("shield_", "https://en.wiktionary.org/wiki/shield#Noun");
+
+            URL_Add("PBT_", "https://en.wikipedia.org/wiki/Polybutylene_terephthalate#Applications"); // <https://en.wikipedia.org/wiki/Polybutylene_terephthalate>
+
+            URL_Add("Unbrako_", "https://en.wikipedia.org/wiki/Hex_key#Nomenclature");
 
         } //addLookupData_alternativeWordSet()
 
@@ -176392,6 +176412,12 @@ namespace OverflowHelper.core
             correctionAdd("Board__", "board__");
             correctionAdd("bd__", "board__");
 
+            // Visual Studio
+            correctionAdd("Power Tools__", "Productivity Power Tools__");
+            correctionAdd("PowerTools__", "Productivity Power Tools__");
+            correctionAdd("PPT__", "Productivity Power Tools__");
+            correctionAdd("ppt__", "Productivity Power Tools__");
+
             // A book. For the reverse
             //
             // We need a better reference...
@@ -177656,6 +177682,8 @@ namespace OverflowHelper.core
             URL_Add("wheel__", "https://en.wikipedia.org/wiki/Wheel_(disambiguation)#Science_and_technology");
 
             URL_Add("Shell()__", "https://learn.microsoft.com/en-us/office/vba/language/reference/user-interface-help/shell-function");
+
+            URL_Add("Productivity Power Tools__", "https://devblogs.microsoft.com/visualstudio/boost-your-productivity-with-productivity-power-tools-extensions-in-visual-studio-2022/");
 
         } //addLookupData_alternativeWordSet2()
 
