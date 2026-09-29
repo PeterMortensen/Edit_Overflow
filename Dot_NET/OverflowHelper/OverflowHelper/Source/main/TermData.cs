@@ -7757,6 +7757,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Data", "data");
             correctionAdd("date", "data");
+            correctionAdd("deta", "data");
 
             correctionAdd("Big Data", "big data");
             correctionAdd("Big data", "big data");
@@ -27547,6 +27548,7 @@ namespace OverflowHelper.core
             correctionAdd("shoftware", "software");
             correctionAdd("softwares", "software");
             correctionAdd("softwears", "software");
+            correctionAdd("softrware", "software");
             correctionAdd("Softwere", "software");
             correctionAdd("softwere", "software");
             correctionAdd("sofeware", "software");
@@ -30853,6 +30855,7 @@ namespace OverflowHelper.core
             correctionAdd("on the hand", "on the other hand");
             correctionAdd("OTOH", "on the other hand");
             correctionAdd("otoh", "on the other hand");
+            correctionAdd("Otoh", "on the other hand");
 
             // Idiomatic
             correctionAdd("One the one hand", "on the one hand");
@@ -84634,12 +84637,13 @@ namespace OverflowHelper.core
             correctionAdd("SofleKeyboard", "Sofle Keyboard");
             correctionAdd("Sofle v2", "Sofle Keyboard");
             correctionAdd("sofle v2", "Sofle Keyboard");
-            correctionAdd("souffle", "Sofle Keyboard");
+            correctionAdd("souffle", "Sofle Keyboard"); // An autocorrect "masterpiece"?
             correctionAdd("Sofles", "Sofle Keyboard");
-            correctionAdd("Solfe", "Sofle Keyboard");
             correctionAdd("sofle", "Sofle Keyboard");
             correctionAdd("Sofle", "Sofle Keyboard");
             correctionAdd("SOFLE", "Sofle Keyboard");
+            correctionAdd("Solfe", "Sofle Keyboard");
+            correctionAdd("solfe", "Sofle Keyboard");
             correctionAdd("Sofl", "Sofle Keyboard");
 
             // A 58-key (55%) crippled split mechanical keyboard.
@@ -165099,6 +165103,7 @@ namespace OverflowHelper.core
             correctionAdd("implment_", "implement_");
             correctionAdd("implent_", "implement_");
             correctionAdd("implmet_", "implement_");
+            correctionAdd("implemt_", "implement_");
 
             correctionAdd("mix_", "mixed_");
 
@@ -173064,6 +173069,7 @@ namespace OverflowHelper.core
             correctionAdd("Keychron 2024 production quality issues with keychattering and missed keystrokes__", "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__");
             correctionAdd("the 2024 Keychron manufacturing problems__", "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__");
             correctionAdd("a problem with key chattering__", "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__");
+            correctionAdd("a history of quality problems__", "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__");
             correctionAdd("the severe quality problems__", "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__");
             correctionAdd("there are quality problems__", "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__");
             correctionAdd("the double pressing issue__", "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__");
