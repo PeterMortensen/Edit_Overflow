@@ -27548,7 +27548,7 @@ namespace OverflowHelper.core
             correctionAdd("shoftware", "software");
             correctionAdd("softwares", "software");
             correctionAdd("softwears", "software");
-            correctionAdd("softrware", "software");
+            correctionAdd("softrware", "software"); // A true typo
             correctionAdd("Softwere", "software");
             correctionAdd("softwere", "software");
             correctionAdd("sofeware", "software");
@@ -42803,6 +42803,8 @@ namespace OverflowHelper.core
             //
             // Alternative URLs:
             //
+            //   <https://en.wikipedia.org/wiki/Clanker#AI_backlash>
+            //
             //   <https://www.youtube.com/watch?v=9FTUa-2eIDU&t=5m8s>
             //
             //     "The important thing is to use AI, not
@@ -42894,6 +42896,7 @@ namespace OverflowHelper.core
             correctionAdd("CharGPT", "ChatGPT");
             correctionAdd("ChatGTP", "ChatGPT");
             correctionAdd("chatGTP", "ChatGPT");
+            correctionAdd("clanker", "ChatGPT");
             correctionAdd("C-GPT", "ChatGPT");
             correctionAdd("puppy", "ChatGPT");
             correctionAdd("CGPT", "ChatGPT");
@@ -67701,6 +67704,7 @@ namespace OverflowHelper.core
             correctionAdd("swappable", "hot-swappable");
             correctionAdd("HS Socket", "hot-swappable"); // Not 100% correct
             correctionAdd("HS socket", "hot-swappable"); // Not 100% correct
+            correctionAdd("quickswap", "hot-swappable");
             correctionAdd("hot swap", "hot-swappable");
             correctionAdd("Hot Swap", "hot-swappable");
             correctionAdd("hot-swap", "hot-swappable");
@@ -97012,6 +97016,8 @@ namespace OverflowHelper.core
             correctionAdd("originaly", "originally");
             correctionAdd("orginally", "originally");
 
+            correctionAdd("Originality", "originality");
+
             correctionAdd("obcession", "obsession");
 
             correctionAdd("stoneage", "Stone Age");
@@ -113341,8 +113347,6 @@ namespace OverflowHelper.core
 
             URL_Add("learn", "https://en.wiktionary.org/wiki/learn#Verb");
 
-            URL_Add("originally", "https://en.wiktionary.org/wiki/originally#Adverb");
-
             URL_Add("percentage point", "https://en.wikipedia.org/wiki/Percentage_point");
 
             URL_Add("undisciplined", "https://en.wiktionary.org/wiki/undisciplined#Adjective");
@@ -119495,8 +119499,6 @@ namespace OverflowHelper.core
 
             URL_Add("opt out", "https://en.wiktionary.org/wiki/opt_out#Verb");
 
-            URL_Add("origin", "https://en.wiktionary.org/wiki/origin#Noun");
-
             URL_Add("nibble", "https://en.wikipedia.org/wiki/Nibble");
 
             URL_Add("Syslinux", "https://en.wikipedia.org/wiki/SYSLINUX");
@@ -122704,8 +122706,6 @@ namespace OverflowHelper.core
             URL_Add("metaclass", "https://en.wiktionary.org/wiki/metaclass#Noun");
 
             URL_Add("metaclasses", "https://en.wiktionary.org/wiki/metaclass#Noun");
-
-            URL_Add("origami", "https://en.wikipedia.org/wiki/Origami");
 
             URL_Add("proprioception", "https://en.wikipedia.org/wiki/Proprioception");
 
@@ -131139,10 +131139,6 @@ namespace OverflowHelper.core
 
             URL_Add("Google Tag Manager", "https://en.wikipedia.org/wiki/List_of_Google_products#Advertising_services");
 
-            URL_Add("originates", "https://en.wiktionary.org/wiki/originate#Verb");
-
-            URL_Add("originated", "https://en.wiktionary.org/wiki/originate#Verb");
-
             URL_Add("mention", "https://en.wiktionary.org/wiki/mention#Verb");
 
             URL_Add("mentions", "https://en.wiktionary.org/wiki/mention#Verb");
@@ -131164,8 +131160,6 @@ namespace OverflowHelper.core
             URL_Add("RandomStringUtils", "https://commons.apache.org/proper/commons-lang/apidocs/org/apache/commons/lang3/package-summary.html#package.description");
 
             URL_Add("*ngIf", "https://angular.io/api/common/NgIf");
-
-            URL_Add("original", "https://en.wiktionary.org/wiki/original#Adjective");
 
             URL_Add("fair", "https://en.wiktionary.org/wiki/fair#Adjective");
 
@@ -150431,6 +150425,20 @@ namespace OverflowHelper.core
 
             URL_Add("croissant", "https://en.wiktionary.org/wiki/croissant#Noun");
 
+            URL_Add("origami", "https://en.wikipedia.org/wiki/Origami");
+
+            URL_Add("origin", "https://en.wiktionary.org/wiki/origin#Noun");
+
+            URL_Add("originates", "https://en.wiktionary.org/wiki/originate#Verb");
+
+            URL_Add("originated", "https://en.wiktionary.org/wiki/originate#Verb");
+
+            URL_Add("original", "https://en.wiktionary.org/wiki/original#Adjective");
+
+            URL_Add("originally", "https://en.wiktionary.org/wiki/originally#Adverb");
+
+            URL_Add("originality", "https://en.wiktionary.org/wiki/originality#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -159372,6 +159380,7 @@ namespace OverflowHelper.core
 
             correctionAdd("must'v e_", "must have_");
             correctionAdd("must've_", "must have_");
+            correctionAdd("mustve_", "must have_");
 
             correctionAdd("mostest_", "most_");
             correctionAdd("moist_", "most_");
