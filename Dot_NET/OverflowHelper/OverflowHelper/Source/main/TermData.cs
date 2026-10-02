@@ -2805,6 +2805,7 @@ namespace OverflowHelper.core
             correctionAdd("Nice nano", "Nice!Nano");
             correctionAdd("Nice Nano", "Nice!Nano");
             correctionAdd("Nice!Nane", "Nice!Nano");
+            correctionAdd("nice nice", "Nice!Nano");
             correctionAdd("niceNano", "Nice!Nano");
             correctionAdd("nicenano", "Nice!Nano");
             correctionAdd("nanos", "Nice!Nano");
@@ -60264,6 +60265,10 @@ namespace OverflowHelper.core
             correctionAdd("cut-hroat", "cutthroat");
             correctionAdd("cuthroat", "cutthroat");
 
+            // The verb
+            correctionAdd("short cutting", "shortcutting");
+
+            // The noun
             correctionAdd("shortcurt", "shortcut");
             correctionAdd("short-cut", "shortcut");
             correctionAdd("short cut", "shortcut");
@@ -60274,6 +60279,7 @@ namespace OverflowHelper.core
             correctionAdd("shorcut", "shortcut");
             correctionAdd("Shorcut", "shortcut");
 
+            // The noun
             correctionAdd("short cuts", "shortcuts");
             correctionAdd("Short-cuts", "shortcuts");
             correctionAdd("short-cuts", "shortcuts");
@@ -68302,6 +68308,7 @@ namespace OverflowHelper.core
             correctionAdd("erganimics", "ergonomics");
             correctionAdd("Ergonoics", "ergonomics");
             correctionAdd("ergonoics", "ergonomics");
+            correctionAdd("ergonomy", "ergonomics");
 
             correctionAdd("inergonomic", "unergonomic");
             correctionAdd("unerganomoc", "unergonomic");
@@ -84008,6 +84015,24 @@ namespace OverflowHelper.core
             //
             correctionAdd("k02", "K02");
 
+            // A 34-key (30%) crippled open source low-profile
+            // split ergonomic mechanical keyboard.
+            //
+            // 2 x 17 = 34 keys. Derived from the
+            // 'Sweep Bling LP'.
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/1wvxddn/raii_wireless/>
+            //
+            //   <https://github.com/unspecworks/raii>
+            //     RAII is a customized variant of waffle87/sweep,
+            //     <https://github.com/waffle87/sweep>
+            //
+            // Where is the source code???
+            //
+            correctionAdd("RAII-Wireless", "RAII Wireless");
+
             // A 34-key (30%) wired-only QMK/Via-capable
             // macro pad/game pad without a knob.
             //
@@ -85660,6 +85685,7 @@ namespace OverflowHelper.core
             correctionAdd("Lemokey P2 HE", "Keychron Lemokey P2 HE");
             correctionAdd("P2 HE", "Keychron Lemokey P2 HE");
             correctionAdd("p2 he", "Keychron Lemokey P2 HE");
+            correctionAdd("p2he", "Keychron Lemokey P2 HE");
 
             // A 67-key (65%. Not true TKL) crippled mechanical keyboard.
             //
@@ -92613,6 +92639,7 @@ namespace OverflowHelper.core
             correctionAdd("C2 Pro 8K", "Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)");
             correctionAdd("c2 pro 8k", "Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)");
             correctionAdd("C2 Pro 8k", "Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)");
+            correctionAdd("C2 8K", "Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)");
 
             // A 105-key (100%. Not true TKL) full-size non-crippled
             // wired-only closed source (but with Via support)
@@ -131445,6 +131472,8 @@ namespace OverflowHelper.core
 
             URL_Add("K02", "https://github.com/anothermimich/K02");
 
+            URL_Add("RAII Wireless", "https://github.com/unspecworks/raii-wireless");
+
             URL_Add("Thumb-Key", "https://github.com/dessalines/thumb-key");
 
             URL_Add("Charybdis", "https://github.com/Bastardkb/Charybdis/tree/main");
@@ -146837,13 +146866,15 @@ namespace OverflowHelper.core
 
             URL_Add("short-lived", "https://en.wiktionary.org/wiki/short-lived#Adjective");
 
+            URL_Add("shortcutting", "https://en.wiktionary.org/wiki/shortcut#Verb");
+
             URL_Add("shortcut", "https://en.wiktionary.org/wiki/shortcut#Noun");
+
+            URL_Add("shortcuts", "https://en.wiktionary.org/wiki/shortcut#Noun");
 
             URL_Add("shortfalls", "https://en.wiktionary.org/wiki/shortfall#Noun");
 
             URL_Add("shortcomings", "https://en.wiktionary.org/wiki/shortcoming#Noun");
-
-            URL_Add("shortcuts", "https://en.wiktionary.org/wiki/shortcut#Noun");
 
             URL_Add("short form", "https://en.wiktionary.org/wiki/short_form#Noun");
 
@@ -150601,16 +150632,6 @@ namespace OverflowHelper.core
 
             correctionAdd("panda_", "panda bear_");
 
-            correctionAdd("comparing apples and oranges_", "apples and oranges_");
-            correctionAdd("comparing apples to oranges_", "apples and oranges_");
-            correctionAdd("apples to oranges_", "apples and oranges_");
-            correctionAdd("apples-to-oranges_", "apples and oranges_");
-            correctionAdd("pears with apples_", "apples and oranges_");
-            correctionAdd("oranges_", "apples and oranges_");
-            correctionAdd("apples_", "apples and oranges_");
-            correctionAdd("orange_", "apples and oranges_");
-            correctionAdd("apple_", "apples and oranges_");
-
             correctionAdd("heer_", "hear_");
             correctionAdd("here_", "hear_");
 
@@ -151984,11 +152005,14 @@ namespace OverflowHelper.core
             //   <https://docs.qmk.fm/keycodes>
             //   <https://docs.qmk.fm/keycodes_basic>
             //
+            // Note: We would
+            //
             correctionAdd("the QMK keycodes_", "QMK keycode_");
             correctionAdd("QMK key codes_", "QMK keycode_");
             correctionAdd("QMK keycodes_", "QMK keycode_");
             correctionAdd("qmk keycodes_", "QMK keycode_");
             correctionAdd("the keycodes_", "QMK keycode_");
+            correctionAdd("QMK versions_", "QMK keycode_"); // For the cross-reference (really to (indirectly) have it from "QMK", as "QMK" is used in all alternative word sets...)
             correctionAdd("qmk keycode_", "QMK keycode_");
             correctionAdd("key codes_", "QMK keycode_");
             correctionAdd("keycodes_", "QMK keycode_");
@@ -152680,6 +152704,7 @@ namespace OverflowHelper.core
             correctionAdd("keyboardx_", "keyboard_"); // A true typo (involving the space bar)
             correctionAdd("keybooard_", "keyboard_");
             correctionAdd("kleyboard_", "keyboard_");
+            correctionAdd("keyboarod_", "keyboard_");
             correctionAdd("KeyBoard_", "keyboard_");
             correctionAdd("Keyboard_", "keyboard_");
             correctionAdd("Keybpard_", "keyboard_");
@@ -153531,6 +153556,8 @@ namespace OverflowHelper.core
             correctionAdd("Cmd key_", "Apple key AKA Command key_");
             correctionAdd("Command_", "Apple key AKA Command key_");
             correctionAdd("command_", "Apple key AKA Command key_");
+            correctionAdd("Apple_", "Apple key AKA Command key_");
+            correctionAdd("apple_", "Apple key AKA Command key_");
             correctionAdd("cmnd_", "Apple key AKA Command key_");
             correctionAdd("Cmd_", "Apple key AKA Command key_"); // The official short name
             correctionAdd("⌘_", "Apple key AKA Command key_");
@@ -171288,8 +171315,6 @@ namespace OverflowHelper.core
 
             URL_Add("an utterly insignificant little blue-green planet_", "https://www.youtube.com/watch?v=rAh1JxNGkAM&list=PLSoD2CcPrumFJREVL6RmMnZP5U7sGYYi2&index=26&t=4s");
 
-            URL_Add("apples and oranges_", "https://en.wiktionary.org/wiki/apples_and_oranges#Noun");
-
             URL_Add("Bluetooth_", "https://en.wikipedia.org/wiki/Bluetooth2");
 
             URL_Add("The Bluetooth version in the Keychron K Pro series keyboards is 2.0/2.1, not 5.1 as claimed_", "https://github.com/Keychron/qmk_firmware/issues/338#issuecomment-2564070299");
@@ -176477,6 +176502,16 @@ namespace OverflowHelper.core
             correctionAdd("PPT__", "Productivity Power Tools__");
             correctionAdd("ppt__", "Productivity Power Tools__");
 
+            correctionAdd("comparing apples and oranges__", "apples and oranges__");
+            correctionAdd("comparing apples to oranges__", "apples and oranges__");
+            correctionAdd("apples to oranges__", "apples and oranges__");
+            correctionAdd("apples-to-oranges__", "apples and oranges__");
+            correctionAdd("pears with apples__", "apples and oranges__");
+            correctionAdd("oranges__", "apples and oranges__");
+            correctionAdd("apples__", "apples and oranges__");
+            correctionAdd("orange__", "apples and oranges__");
+            correctionAdd("apple__", "apples and oranges__");
+
             // A book. For the reverse
             //
             // We need a better reference...
@@ -177714,7 +177749,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron B6 Pro source code__", "https://github.com/Keychron/zmk/tree/keychron_bpro/app/boards/shields/keychron/b6");
 
-            URL_Add("Keychron V6 Ultra 8K source code__", "https://github.com/Keychron/zmk/blob/rtl8762g/app/src/dfu/my_app_version.h#L33");
+            URL_Add("Keychron V6 Ultra 8K source code__", "https://github.com/Keychron/zmk/tree/rtl8762g/app/boards/shields/keychron_v6_ultra_iso"); // Old: <https://github.com/Keychron/zmk/blob/rtl8762g/app/src/dfu/my_app_version.h#L33>
 
             URL_Add("Keychron M2__", "https://www.keychron.com/products/keychron-m2-wireless-mouse");
 
@@ -177743,6 +177778,8 @@ namespace OverflowHelper.core
             URL_Add("to some extent__", "https://en.wiktionary.org/wiki/to_some_extent#Prepositional_phrase");
 
             URL_Add("for all intents and purposes__", "https://en.wiktionary.org/wiki/for_all_intents_and_purposes#Prepositional_phrase");
+
+            URL_Add("apples and oranges__", "https://en.wiktionary.org/wiki/apples_and_oranges#Noun");
 
         } //addLookupData_alternativeWordSet2()
 
