@@ -1171,6 +1171,561 @@ namespace OverflowHelper.core
             correctionAdd("Windows Nano server", "Microsoft Nano Server");
             correctionAdd("Windows Nano", "Microsoft Nano Server");
 
+            correctionAdd("allowes", "allows");
+
+            correctionAdd("alowed", "allowed");
+            correctionAdd("allwed", "allowed");
+
+            correctionAdd("alowable", "allowable");
+
+            correctionAdd("allow", "all");
+            correctionAdd("alla", "all");
+            correctionAdd("ally", "all");
+            correctionAdd("allá", "all");
+            correctionAdd("al", "all");
+
+            // Idiomatic?
+            correctionAdd("one size fits all", "one-size-fits-all");
+
+            // Idiomatic
+            correctionAdd("1-st of all", "first of all");
+
+            correctionAdd("Worst of all", "worst of all");
+            correctionAdd("Worse of all", "worst of all");
+            correctionAdd("worse of all", "worst of all");
+
+            correctionAdd("worser", "worse");
+
+            correctionAdd("Wost", "worst");
+            correctionAdd("wors", "worst");
+
+            correctionAdd("second worst", "second-worst");
+
+            correctionAdd("pittfall", "pitfall");
+            correctionAdd("pit fall", "pitfall");
+            correctionAdd("pitfails", "pitfall");
+            correctionAdd("Pitfall", "pitfall");
+            correctionAdd("pitfal", "pitfall");
+
+            correctionAdd("freefall", "free fall");
+
+            // Idiomatic?
+            correctionAdd("falling into this pit", "falling into this pitfall");
+            correctionAdd("falling into a trap", "falling into this pitfall");
+            correctionAdd("falling in this pit", "falling into this pitfall");
+            correctionAdd("falling is this pit", "falling into this pitfall");
+
+            // Note: "size" is in an alternative word set
+            correctionAdd("re-size", "resize");
+
+            correctionAdd("re-sized", "resized");
+
+            correctionAdd("re-sizing", "resizing");
+
+            correctionAdd("sizable", "sizeable");
+
+            correctionAdd("resizeable", "resizable");
+
+            correctionAdd("midsize", "mid-size");
+
+            correctionAdd("mid-sized", "midsized");
+
+            correctionAdd("medium sized", "medium-sized");
+            correctionAdd("medium-size", "medium-sized");
+            correctionAdd("medium size", "medium-sized");
+
+            correctionAdd("synthetize", "synthetise");
+            correctionAdd("sinthetize", "synthetise");
+
+            correctionAdd("synthesizes", "synthesises");
+            correctionAdd("syntheizes", "synthesises");
+
+            // Music
+            correctionAdd("synth", "synthesizer");
+            correctionAdd("Synth", "synthesizer");
+
+            correctionAdd("synths", "synthesisers");
+
+            // A music instrument manufacturer
+            correctionAdd("yamaha", "Yamaha");
+
+            correctionAdd("DDS", "direct digital synthesis");
+
+            correctionAdd("Mnone", "none");
+            correctionAdd("mnone", "none");
+            correctionAdd("nonw", "none");
+            correctionAdd("non", "none");
+            correctionAdd("Non", "none");
+            correctionAdd("one", "none");
+
+            // The numeral
+            correctionAdd("zeero", "zero");
+            correctionAdd("0", "zero");
+
+            // The noun
+            correctionAdd("zero's", "zeros");
+            correctionAdd("zeroes", "zeros");
+
+            correctionAdd("zero-ing", "zeroing");
+
+            correctionAdd("zero-one-several principle", "zero one infinity rule");
+
+            correctionAdd("none-zero", "nonzero");
+            correctionAdd("non-zero", "nonzero");
+            correctionAdd("non zero", "nonzero");
+
+            // The noun
+            correctionAdd("non zeros", "nonzeros");
+
+            correctionAdd("ordeing", "ordering");
+
+            correctionAdd("orderd", "ordered");
+
+            correctionAdd("re order", "reorder");
+            correctionAdd("re-order", "reorder");
+
+            correctionAdd("re-ordered", "reordered");
+
+            correctionAdd("non ordered", "nonordered");
+
+            correctionAdd("In-order", "in order");
+            correctionAdd("in-order", "in order");
+            correctionAdd("in other", "in order");
+            correctionAdd("inorder", "in order");
+            correctionAdd("Inorder", "in order");
+
+            correctionAdd("in very short-order", "in short order");
+            correctionAdd("in short-order", "in short order");
+
+            correctionAdd("in the order of", "on the order of");
+            correctionAdd("in the order", "on the order of");
+            correctionAdd("at the order", "on the order of");
+
+            correctionAdd("lay person", "layperson");
+            correctionAdd("lay-person", "layperson");
+
+            correctionAdd("Citizen", "citizen");
+
+            correctionAdd("ombudsman", "ombudsperson");
+
+            correctionAdd("first order", "first-order");
+
+            correctionAdd("first's", "first");
+            correctionAdd("firest", "first"); // A true typo
+            correctionAdd("Fisrt", "first");
+            correctionAdd("First", "first");
+            correctionAdd("fisrt", "first");
+            correctionAdd("firts", "first");
+            correctionAdd("furst", "first");
+            correctionAdd("firdt", "first");
+            correctionAdd("Frist", "first");
+            correctionAdd("frist", "first");
+            correctionAdd("firsf", "first"); // A true typo
+            correctionAdd("Fist", "first");
+            correctionAdd("fist", "first");
+            correctionAdd("f1st", "first");
+            correctionAdd("firs", "first");
+            correctionAdd("1-st", "first");
+            correctionAdd("Firt", "first");
+            correctionAdd("firt", "first");
+            correctionAdd("1’th", "first");
+            correctionAdd("frst", "first");
+            correctionAdd("ﬁrst", "first"); // Has a strange character... Unicode point U+FB01, "LATIN SMALL LIGATURE FI". UTF-8 sequence 0xEF 0xAC 0x81. <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=64255>. Search for it by the regular expression "\x{FB01}" ("\uFB01" in Visual Studio Code and some others).
+            correctionAdd("1st", "first");
+            correctionAdd("1º", "first"); // Note: May or may not have an underline under the "o", depending on the font.
+
+            correctionAdd("Firstly", "firstly");
+            correctionAdd("firtly", "firstly");
+            correctionAdd("Firtly", "firstly");
+            correctionAdd("Firsly", "firstly");
+            correctionAdd("firsly", "firstly");
+
+            correctionAdd("First off", "first off");
+            correctionAdd("First of", "first off");
+            correctionAdd("Fist off", "first off");
+            correctionAdd("first of", "first off");
+            correctionAdd("fist off", "first off");
+            correctionAdd("Fist of", "first off");
+            correctionAdd("fist of", "first off");
+
+            correctionAdd("First Things First", "first things first");
+            correctionAdd("first thing first", "first things first");
+            correctionAdd("First Thing First", "first things first");
+
+            correctionAdd("first-aid", "first aid");
+
+            // Grammar
+            correctionAdd("1st person", "first person");
+
+            correctionAdd("first class citizen", "first-class citizen");
+
+            correctionAdd("first party", "first-party");
+
+            // Idiomatic
+            correctionAdd("late at the party", "late to the party");
+            correctionAdd("late in the party", "late to the party");
+            correctionAdd("late at party", "late to the party");
+
+            correctionAdd("1st edition", "first edition");
+            correctionAdd("1st Edition", "first edition");
+            correctionAdd("1/e", "first edition");
+
+            correctionAdd("Last", "last");
+            correctionAdd("lady", "last");
+            correctionAdd("lasy", "last"); // A true typo
+            correctionAdd("Las", "last");
+            correctionAdd("las", "last");
+
+            correctionAdd("longlasting", "long-lasting");
+
+            correctionAdd("everlanstjng", "everlasting");
+            correctionAdd("everlansting", "everlasting");
+            correctionAdd("everlastjng", "everlasting");
+
+            // Note: "second" (the adjective) is in an alternative word set
+            correctionAdd("secundary", "secondary");
+            correctionAdd("Secodary", "secondary");
+            correctionAdd("secodary", "secondary");
+            correctionAdd("2ndary", "secondary");
+
+            correctionAdd("Sequel", "sequel");
+
+            correctionAdd("second-most", "second most");
+
+            correctionAdd("second-to-last", "second to last");
+
+            correctionAdd("second-hand", "secondhand");
+            correctionAdd("second hand", "secondhand");
+            correctionAdd("Second hand", "secondhand");
+            correctionAdd("second hard", "secondhand");
+            correctionAdd("Secondhand", "secondhand");
+            correctionAdd("Secondhard", "secondhand");
+            correctionAdd("secondhard", "secondhand");
+
+            correctionAdd("second order", "second-order");
+            correctionAdd("2nd order", "second-order");
+
+            // Grammar
+            correctionAdd("2nd person", "second person");
+
+            correctionAdd("second class", "second-class");
+
+            correctionAdd("second line", "second-line");
+
+            // Also related to comments on Stack Exchange and Stack Overflow
+            correctionAdd("second class citizen", "second-class citizen");
+
+            correctionAdd("two-fold", "twofold");
+            correctionAdd("two fold", "twofold");
+            correctionAdd("2 fold", "twofold");
+
+            correctionAdd("2nd edition", "second edition");
+            correctionAdd("2nd Edition", "second edition");
+            correctionAdd("2/e", "second edition");
+
+            correctionAdd("theree", "three");
+            correctionAdd("theee", "three");
+            correctionAdd("thre", "three");
+            correctionAdd("3", "three");
+
+            correctionAdd("three fold", "threefold");
+            correctionAdd("3 fold", "threefold");
+
+            // Note: "third" is in an alternative word set
+            correctionAdd("2 thirds", "two thirds");
+
+            correctionAdd("antepenultimate", "third to last");
+            correctionAdd("third-to-last", "third to last");
+
+            correctionAdd("third parties", "third-party");
+            correctionAdd("Thired party", "third-party");
+            correctionAdd("thired party", "third-party");
+            correctionAdd("thired-party", "third-party");
+            correctionAdd("third party", "third-party"); // As adjective
+            correctionAdd("thrid-party", "third-party"); // As adjective. Misspelling.
+            correctionAdd("3rd parties", "third-party");
+            correctionAdd("thrid party", "third-party");
+            correctionAdd("Third-Party", "third-party");
+            correctionAdd("Third-party", "third-party");
+            correctionAdd("Third party", "third-party");
+            correctionAdd("thidr-party", "third-party"); // As adjective. Misspelling.
+            correctionAdd("Third Party", "third-party");
+            correctionAdd("3-rd party", "third-party");
+            correctionAdd("thirdparty", "third-party");
+            correctionAdd("turd party", "third-party");
+            correctionAdd("third-part", "third-party");
+            correctionAdd("3rd party", "third-party"); // As adjective
+            correctionAdd("3rd-party", "third-party"); // As adjective
+            correctionAdd("3'rd paty", "third-party");
+            correctionAdd("3th party", "third-party");
+            correctionAdd("thirdpart", "third-party");
+            correctionAdd("thidparty", "third-party");
+            correctionAdd("3rd Party", "third-party"); // As adjective
+            correctionAdd("3rd part", "third-party"); // As adjective
+            correctionAdd("3rd pary", "third-party");
+            correctionAdd("3rd-part", "third-party");
+            correctionAdd("3d party", "third-party");
+            correctionAdd("thidpart", "third-party");
+            correctionAdd("3d Party", "third-party");
+            correctionAdd("3 party", "third-party");
+            correctionAdd("3-party", "third-party");
+
+            // 3
+            correctionAdd("Tertiary", "tertiary");
+
+            // Grammar
+            correctionAdd("3rd person", "third person");
+
+            correctionAdd("3rd edition", "third edition");
+            correctionAdd("Third Ed", "third edition");
+            correctionAdd("3rd ed", "third edition");
+
+            correctionAdd("tour", "four");
+            correctionAdd("4", "four");
+
+            correctionAdd("Fouth", "fourth");
+            correctionAdd("fouth", "fourth");
+            correctionAdd("4-th", "fourth");
+            correctionAdd("4th", "fourth");
+
+            // 4
+            correctionAdd("Quaternary", "quaternary");
+
+            correctionAdd("Fifth", "fifth");
+            correctionAdd("firth", "fifth");
+            correctionAdd("5th", "fifth");
+
+            correctionAdd("food for fought", "food for thought");
+
+            // Note: "fight" is in an alternative word set
+            correctionAdd("fight-ed", "fought");
+            correctionAdd("fighted", "fought");
+
+            // Note: "thought" is in an alternative word set
+            correctionAdd("thoughtfull", "thoughtful");
+
+            correctionAdd("thoughfully", "thoughtfully");
+
+            correctionAdd("thought out", "thought-out");
+
+            correctionAdd("thought-process", "thought process");
+            correctionAdd("thoughtprocess", "thought process");
+
+            correctionAdd("thought provoking", "thought-provoking");
+
+            correctionAdd("second thought", "second thoughts");
+            correctionAdd("second though", "second thoughts");
+
+            correctionAdd("‘though", "though");
+            correctionAdd("thought", "though");
+            correctionAdd("thouigh", "though");
+            correctionAdd("Through", "though");
+            correctionAdd("through", "though");
+            correctionAdd("thouhg", "though");
+            correctionAdd("thpugh", "though");
+            correctionAdd("Though", "though");
+            correctionAdd("thgouh", "though");
+            correctionAdd("thoguh", "though");
+            correctionAdd("thoigh", "though");
+            correctionAdd("Thouhg", "though");
+            correctionAdd("thiugh", "though");
+            correctionAdd("thogh", "though");
+            correctionAdd("thoug", "though");
+            correctionAdd("tough", "though");
+            correctionAdd("Thoug", "though");
+            correctionAdd("thou", "though");
+            correctionAdd("tho", "though");
+            correctionAdd("Tho", "though"); // Expansion, not 100% correct. Add a plural feature?
+
+            correctionAdd("event though", "even though");
+            correctionAdd("even thought", "even though");
+            correctionAdd("Even though", "even though");
+            correctionAdd("eventhough", "even though");
+            correctionAdd("Eventhough", "even though");
+            correctionAdd("Even tough", "even though");
+            correctionAdd("even tough", "even though");
+            correctionAdd("Eventough", "even though");
+            correctionAdd("eventhoug", "even though");
+
+            correctionAdd("all thought", "although");
+            correctionAdd("all though", "although");
+            correctionAdd("Althought", "although"); // An autocorrect "masterpiece"?
+            correctionAdd("althought", "although"); // An autocorrect "masterpiece"?
+            correctionAdd("althougth", "although");
+            correctionAdd("Allthough", "although");
+            correctionAdd("allthough", "although");
+            correctionAdd("al though", "although");
+            correctionAdd("althrough", "although");
+            correctionAdd("Althougt", "although"); // Not 100% correct (case)
+            correctionAdd("althougt", "although"); // An autocorrect "masterpiece"?
+            correctionAdd("altought", "although"); // An autocorrect "masterpiece"?
+            correctionAdd("Althgugh", "although");
+            correctionAdd("althgugh", "although");
+            correctionAdd("althgouh", "although");
+            correctionAdd("Alltough", "although");
+            correctionAdd("alltough", "although");
+            correctionAdd("altough", "although");
+            correctionAdd("athough", "although");
+            correctionAdd("Altough", "although");
+            correctionAdd("Athough", "although");
+            correctionAdd("althgou", "although");
+            correctionAdd("Althoug", "although");
+            correctionAdd("althoug", "although");
+            correctionAdd("althou", "although");
+            correctionAdd("alltho", "although");
+            correctionAdd("altho", "although");
+            correctionAdd("Altho", "although");
+
+            correctionAdd("rougth", "rough");
+            correctionAdd("rought", "rough");
+            correctionAdd("ruff", "rough");
+
+            correctionAdd("roughtly", "roughly");
+            correctionAdd("rougthly", "roughly");
+            correctionAdd("routhly", "roughly");
+            correctionAdd("roughy", "roughly");
+            correctionAdd("rougly", "roughly");
+
+            correctionAdd("through out", "throughout");
+            correctionAdd("through-out", "throughout");
+            correctionAdd("thoughout", "throughout");
+
+            // Note: "through" is in the third alternative word set...
+            correctionAdd("click throughs", "click-throughs");
+            correctionAdd("clickthroughs", "click-throughs");
+
+            correctionAdd("throughoutput", "throughput");
+            correctionAdd("througput", "throughput");
+
+            // Note: "through" is in the third alternative word set...
+            correctionAdd("sift-through", "sift through");
+
+            correctionAdd("walk through", "walkthrough");
+            correctionAdd("walk-through", "walkthrough");
+            correctionAdd("Walkthrough", "walkthrough");
+            correctionAdd("walk though", "walkthrough");
+
+            correctionAdd("bleed through", "bleed-through");
+            correctionAdd("bleedthrough", "bleed-through");
+
+            correctionAdd("strikethrough", "strike through");
+            correctionAdd("striketrough", "strike through");
+
+            correctionAdd("break through", "breakthrough");
+
+            // Note: "fall" (the verb) is in an alternative word set
+            correctionAdd("faliing", "falling");
+
+            correctionAdd("fall back", "fallback");
+            correctionAdd("fall-back", "fallback");
+
+            correctionAdd("fall-backs", "fallbacks");
+
+            correctionAdd("short falls", "shortfalls");
+
+            correctionAdd("waterfall", "waterfall model");
+            correctionAdd("Waterfall", "waterfall model");
+
+            // Note: "through" is in the third alternative word set...
+            correctionAdd("fall through", "fall-through");
+            correctionAdd("fall thought", "fall-through");
+            correctionAdd("Fall through", "fall-through");
+            correctionAdd("fall though", "fall-through");
+            correctionAdd("fallthrough", "fall-through");
+            correctionAdd("fallthough", "fall-through");
+            correctionAdd("fall thru", "fall-through");
+
+            // Idiomatic
+            correctionAdd("fall through the crack", "fall through the cracks");
+
+            // Proverb. Idiomatic?
+            correctionAdd("Luck fallow braves", "fortune favours the brave");
+            correctionAdd("luck fallow braves", "fortune favours the brave");
+
+            // Idiomatic
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1lqokvn/comment/n14plhm/>
+            //     Keychron support...
+            //
+            correctionAdd("jump through some hoops", "jump through hoops");
+            correctionAdd("through hoops", "jump through hoops");
+
+            correctionAdd("from another lens", "through another lens");
+
+            correctionAdd("throroughouly", "thoroughly");
+            correctionAdd("throuroughly", "thoroughly");
+            correctionAdd("throughoutly", "thoroughly");
+            correctionAdd("throroughly", "thoroughly");
+            correctionAdd("throughouly", "thoroughly");
+            correctionAdd("thouroughly", "thoroughly");
+            correctionAdd("Thoroughly", "thoroughly");
+            correctionAdd("thuroughly", "thoroughly");
+            correctionAdd("thorougly", "thoroughly");
+            correctionAdd("throughly", "thoroughly");
+
+            // Note: "hollow" is in an alternative word set
+            correctionAdd("hallowed out", "hollowed out");
+
+            correctionAdd("folllowed", "followed");
+            correctionAdd("fallowed", "followed");
+            correctionAdd("followd", "followed");
+            correctionAdd("folowed", "followed");
+            correctionAdd("follwed", "followed");
+
+            // The noun
+            correctionAdd("follow up", "follow-up");
+            correctionAdd("foĺlow-up", "follow-up"); // Note Unicode character "ĺ"
+            correctionAdd("Follow up", "follow-up");
+            correctionAdd("Followup", "follow-up");
+            correctionAdd("followup", "follow-up");
+            correctionAdd("folow-up", "follow-up");
+
+            correctionAdd("folllowing", "following");
+            correctionAdd("followings", "following");
+            correctionAdd("fololowing", "following"); // A true typo
+            correctionAdd("follownig", "following");
+            correctionAdd("follwoing", "following");
+            correctionAdd("folloiwng", "following");
+            correctionAdd("Following", "following");
+            correctionAdd("foolowing", "following");
+            correctionAdd("fowlloing", "following");
+            correctionAdd("fellowing", "following");
+            correctionAdd("foloowing", "following");
+            correctionAdd("followind", "following");
+            correctionAdd("followinf", "following");
+            correctionAdd("fallowing", "following");
+            correctionAdd("followong", "following");
+            correctionAdd("folowing", "following");
+            correctionAdd("follwing", "following");
+            correctionAdd("Follwing", "following");
+            correctionAdd("Folowing", "following");
+            correctionAdd("fllowing", "following");
+            correctionAdd("followig", "following");
+            correctionAdd("followin", "following");
+            correctionAdd("followr", "following");
+            correctionAdd("follow", "following");
+            correctionAdd("fellow", "following");
+            correctionAdd("foll", "following");
+
+            correctionAdd("no-follow", "nofollow");
+
+            correctionAdd("un-follow", "unfollow");
+
+            correctionAdd("as following", "as follows");
+            correctionAdd("are as under", "as follows");
+            correctionAdd("as followed", "as follows");
+            correctionAdd("as follow", "as follows");
+            correctionAdd("follows", "as follows");
+
+            correctionAdd("swollow", "swallow");
+
+            correctionAdd("swollowing", "swallowing");
+
+            correctionAdd("swollowed", "swallowed");
+            correctionAdd("swolloed", "swallowed");
+
             // The verb
             correctionAdd("steeped", "stepped");
             correctionAdd("steped", "stepped");
@@ -1648,184 +2203,6 @@ namespace OverflowHelper.core
             correctionAdd("dr*gs", "drugs");
 
             correctionAdd("combatitive", "combative");
-
-            correctionAdd("food for fought", "food for thought");
-
-            // Note: "fight" is in an alternative word set
-            correctionAdd("fight-ed", "fought");
-            correctionAdd("fighted", "fought");
-
-            // Note: "thought" is in an alternative word set
-            correctionAdd("thoughtfull", "thoughtful");
-
-            correctionAdd("thoughfully", "thoughtfully");
-
-            correctionAdd("thought out", "thought-out");
-
-            correctionAdd("thought-process", "thought process");
-            correctionAdd("thoughtprocess", "thought process");
-
-            correctionAdd("thought provoking", "thought-provoking");
-
-            correctionAdd("second thought", "second thoughts");
-            correctionAdd("second though", "second thoughts");
-
-            correctionAdd("‘though", "though");
-            correctionAdd("thought", "though");
-            correctionAdd("thouigh", "though");
-            correctionAdd("Through", "though");
-            correctionAdd("through", "though");
-            correctionAdd("thouhg", "though");
-            correctionAdd("thpugh", "though");
-            correctionAdd("Though", "though");
-            correctionAdd("thgouh", "though");
-            correctionAdd("thoguh", "though");
-            correctionAdd("thoigh", "though");
-            correctionAdd("Thouhg", "though");
-            correctionAdd("thiugh", "though");
-            correctionAdd("thogh", "though");
-            correctionAdd("thoug", "though");
-            correctionAdd("tough", "though");
-            correctionAdd("Thoug", "though");
-            correctionAdd("thou", "though");
-            correctionAdd("tho", "though");
-            correctionAdd("Tho", "though"); // Expansion, not 100% correct. Add a plural feature?
-
-            correctionAdd("event though", "even though");
-            correctionAdd("even thought", "even though");
-            correctionAdd("Even though", "even though");
-            correctionAdd("eventhough", "even though");
-            correctionAdd("Eventhough", "even though");
-            correctionAdd("Even tough", "even though");
-            correctionAdd("even tough", "even though");
-            correctionAdd("Eventough", "even though");
-            correctionAdd("eventhoug", "even though");
-
-            correctionAdd("all thought", "although");
-            correctionAdd("all though", "although");
-            correctionAdd("Althought", "although"); // An autocorrect "masterpiece"?
-            correctionAdd("althought", "although"); // An autocorrect "masterpiece"?
-            correctionAdd("althougth", "although");
-            correctionAdd("Allthough", "although");
-            correctionAdd("allthough", "although");
-            correctionAdd("al though", "although");
-            correctionAdd("althrough", "although");
-            correctionAdd("Althougt", "although"); // Not 100% correct (case)
-            correctionAdd("althougt", "although"); // An autocorrect "masterpiece"?
-            correctionAdd("altought", "although"); // An autocorrect "masterpiece"?
-            correctionAdd("Althgugh", "although");
-            correctionAdd("althgugh", "although");
-            correctionAdd("althgouh", "although");
-            correctionAdd("Alltough", "although");
-            correctionAdd("alltough", "although");
-            correctionAdd("altough", "although");
-            correctionAdd("athough", "although");
-            correctionAdd("Altough", "although");
-            correctionAdd("Athough", "although");
-            correctionAdd("althgou", "although");
-            correctionAdd("Althoug", "although");
-            correctionAdd("althoug", "although");
-            correctionAdd("althou", "although");
-            correctionAdd("alltho", "although");
-            correctionAdd("altho", "although");
-            correctionAdd("Altho", "although");
-
-            correctionAdd("rougth", "rough");
-            correctionAdd("rought", "rough");
-            correctionAdd("ruff", "rough");
-
-            correctionAdd("roughtly", "roughly");
-            correctionAdd("rougthly", "roughly");
-            correctionAdd("routhly", "roughly");
-            correctionAdd("roughy", "roughly");
-            correctionAdd("rougly", "roughly");
-
-            correctionAdd("through out", "throughout");
-            correctionAdd("through-out", "throughout");
-            correctionAdd("thoughout", "throughout");
-
-            // Note: "through" is in the third alternative word set...
-            correctionAdd("click throughs", "click-throughs");
-            correctionAdd("clickthroughs", "click-throughs");
-
-            correctionAdd("throughoutput", "throughput");
-            correctionAdd("througput", "throughput");
-
-            // Note: "through" is in the third alternative word set...
-            correctionAdd("sift-through", "sift through");
-
-            correctionAdd("walk through", "walkthrough");
-            correctionAdd("walk-through", "walkthrough");
-            correctionAdd("Walkthrough", "walkthrough");
-            correctionAdd("walk though", "walkthrough");
-
-            correctionAdd("bleed through", "bleed-through");
-            correctionAdd("bleedthrough", "bleed-through");
-
-            correctionAdd("strikethrough", "strike through");
-            correctionAdd("striketrough", "strike through");
-
-            correctionAdd("break through", "breakthrough");
-
-            // Note: "fall" (the verb) is in an alternative word set
-            correctionAdd("faliing", "falling");
-
-            correctionAdd("fall back", "fallback");
-            correctionAdd("fall-back", "fallback");
-
-            correctionAdd("fall-backs", "fallbacks");
-
-            correctionAdd("short falls", "shortfalls");
-
-            correctionAdd("freefall", "free fall");
-
-            correctionAdd("waterfall", "waterfall model");
-            correctionAdd("Waterfall", "waterfall model");
-
-            // Note: "through" is in the third alternative word set...
-            correctionAdd("fall through", "fall-through");
-            correctionAdd("fall thought", "fall-through");
-            correctionAdd("Fall through", "fall-through");
-            correctionAdd("fall though", "fall-through");
-            correctionAdd("fallthrough", "fall-through");
-            correctionAdd("fallthough", "fall-through");
-            correctionAdd("fall thru", "fall-through");
-
-            // Idiomatic
-            correctionAdd("fall through the crack", "fall through the cracks");
-
-            // Idiomatic?
-            correctionAdd("falling into this pit", "falling into this pitfall");
-            correctionAdd("falling into a trap", "falling into this pitfall");
-            correctionAdd("falling in this pit", "falling into this pitfall");
-            correctionAdd("falling is this pit", "falling into this pitfall");
-
-            // Proverb. Idiomatic?
-            correctionAdd("Luck fallow braves", "fortune favours the brave");
-            correctionAdd("luck fallow braves", "fortune favours the brave");
-
-            // Idiomatic
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.reddit.com/r/Keychron/comments/1lqokvn/comment/n14plhm/>
-            //     Keychron support...
-            //
-            correctionAdd("jump through some hoops", "jump through hoops");
-            correctionAdd("through hoops", "jump through hoops");
-
-            correctionAdd("from another lens", "through another lens");
-
-            correctionAdd("throroughouly", "thoroughly");
-            correctionAdd("throuroughly", "thoroughly");
-            correctionAdd("throughoutly", "thoroughly");
-            correctionAdd("throroughly", "thoroughly");
-            correctionAdd("throughouly", "thoroughly");
-            correctionAdd("thouroughly", "thoroughly");
-            correctionAdd("Thoroughly", "thoroughly");
-            correctionAdd("thuroughly", "thoroughly");
-            correctionAdd("thorougly", "thoroughly");
-            correctionAdd("throughly", "thoroughly");
 
             correctionAdd("skrike", "strike");
             correctionAdd("Skrike", "strike");
@@ -7989,257 +8366,10 @@ namespace OverflowHelper.core
 
             correctionAdd("dissappointedly", "disappointedly");
 
-            correctionAdd("dissapointment", "disappointment");
             correctionAdd("disappointement", "disappointment");
+            correctionAdd("dissapointment", "disappointment");
             correctionAdd("disapointment", "disappointment");
             correctionAdd("dissapoinment", "disappointment");
-
-            correctionAdd("Mnone", "none");
-            correctionAdd("mnone", "none");
-            correctionAdd("nonw", "none");
-            correctionAdd("non", "none");
-            correctionAdd("Non", "none");
-            correctionAdd("one", "none");
-
-            // The numeral
-            correctionAdd("zeero", "zero");
-            correctionAdd("0", "zero");
-
-            // The noun
-            correctionAdd("zero's", "zeros");
-            correctionAdd("zeroes", "zeros");
-
-            correctionAdd("zero-ing", "zeroing");
-
-            correctionAdd("zero-one-several principle", "zero one infinity rule");
-
-            correctionAdd("none-zero", "nonzero");
-            correctionAdd("non-zero", "nonzero");
-            correctionAdd("non zero", "nonzero");
-
-            // The noun
-            correctionAdd("non zeros", "nonzeros");
-
-            correctionAdd("ordeing", "ordering");
-
-            correctionAdd("orderd", "ordered");
-
-            correctionAdd("re order", "reorder");
-            correctionAdd("re-order", "reorder");
-
-            correctionAdd("re-ordered", "reordered");
-
-            correctionAdd("non ordered", "nonordered");
-
-            correctionAdd("In-order", "in order");
-            correctionAdd("in-order", "in order");
-            correctionAdd("in other", "in order");
-            correctionAdd("inorder", "in order");
-            correctionAdd("Inorder", "in order");
-
-            correctionAdd("in very short-order", "in short order");
-            correctionAdd("in short-order", "in short order");
-
-            correctionAdd("in the order of", "on the order of");
-            correctionAdd("in the order", "on the order of");
-            correctionAdd("at the order", "on the order of");
-
-            correctionAdd("lay person", "layperson");
-            correctionAdd("lay-person", "layperson");
-
-            correctionAdd("Citizen", "citizen");
-
-            correctionAdd("ombudsman", "ombudsperson");
-
-            correctionAdd("first order", "first-order");
-
-            correctionAdd("first's", "first");
-            correctionAdd("firest", "first"); // A true typo
-            correctionAdd("Fisrt", "first");
-            correctionAdd("First", "first");
-            correctionAdd("fisrt", "first");
-            correctionAdd("firts", "first");
-            correctionAdd("furst", "first");
-            correctionAdd("firdt", "first");
-            correctionAdd("Frist", "first");
-            correctionAdd("frist", "first");
-            correctionAdd("firsf", "first"); // A true typo
-            correctionAdd("Fist", "first");
-            correctionAdd("fist", "first");
-            correctionAdd("f1st", "first");
-            correctionAdd("firs", "first");
-            correctionAdd("1-st", "first");
-            correctionAdd("Firt", "first");
-            correctionAdd("firt", "first");
-            correctionAdd("1’th", "first");
-            correctionAdd("frst", "first");
-            correctionAdd("ﬁrst", "first"); // Has a strange character... Unicode point U+FB01, "LATIN SMALL LIGATURE FI". UTF-8 sequence 0xEF 0xAC 0x81. <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=64255>. Search for it by the regular expression "\x{FB01}" ("\uFB01" in Visual Studio Code and some others).
-            correctionAdd("1st", "first");
-            correctionAdd("1º", "first"); // Note: May or may not have an underline under the "o", depending on the font.
-
-            correctionAdd("Firstly", "firstly");
-            correctionAdd("firtly", "firstly");
-            correctionAdd("Firtly", "firstly");
-            correctionAdd("Firsly", "firstly");
-            correctionAdd("firsly", "firstly");
-
-            // Idiomatic
-            correctionAdd("1-st of all", "first of all");
-
-            correctionAdd("First off", "first off");
-            correctionAdd("First of", "first off");
-            correctionAdd("Fist off", "first off");
-            correctionAdd("first of", "first off");
-            correctionAdd("fist off", "first off");
-            correctionAdd("Fist of", "first off");
-            correctionAdd("fist of", "first off");
-
-            correctionAdd("First Things First", "first things first");
-            correctionAdd("first thing first", "first things first");
-            correctionAdd("First Thing First", "first things first");
-
-            correctionAdd("first-aid", "first aid");
-
-            // Grammar
-            correctionAdd("1st person", "first person");
-
-            correctionAdd("first class citizen", "first-class citizen");
-
-            correctionAdd("first party", "first-party");
-
-            // Idiomatic
-            correctionAdd("late at the party", "late to the party");
-            correctionAdd("late in the party", "late to the party");
-            correctionAdd("late at party", "late to the party");
-
-            correctionAdd("1st edition", "first edition");
-            correctionAdd("1st Edition", "first edition");
-            correctionAdd("1/e", "first edition");
-
-            correctionAdd("Last", "last");
-            correctionAdd("lady", "last");
-            correctionAdd("lasy", "last"); // A true typo
-            correctionAdd("Las", "last");
-            correctionAdd("las", "last");
-
-            correctionAdd("longlasting", "long-lasting");
-
-            correctionAdd("everlanstjng", "everlasting");
-            correctionAdd("everlansting", "everlasting");
-            correctionAdd("everlastjng", "everlasting");
-
-            // Note: "second" (the adjective) is in an alternative word set
-            correctionAdd("secundary", "secondary");
-            correctionAdd("Secodary", "secondary");
-            correctionAdd("secodary", "secondary");
-            correctionAdd("2ndary", "secondary");
-
-            correctionAdd("Sequel", "sequel");
-
-            correctionAdd("second-most", "second most");
-
-            correctionAdd("second-to-last", "second to last");
-
-            correctionAdd("second-hand", "secondhand");
-            correctionAdd("second hand", "secondhand");
-            correctionAdd("Second hand", "secondhand");
-            correctionAdd("second hard", "secondhand");
-            correctionAdd("Secondhand", "secondhand");
-            correctionAdd("Secondhard", "secondhand");
-            correctionAdd("secondhard", "secondhand");
-
-            correctionAdd("second order", "second-order");
-            correctionAdd("2nd order", "second-order");
-
-            // Grammar
-            correctionAdd("2nd person", "second person");
-
-            correctionAdd("second class", "second-class");
-
-            correctionAdd("second line", "second-line");
-
-            // Also related to comments on Stack Exchange and Stack Overflow
-            correctionAdd("second class citizen", "second-class citizen");
-
-            correctionAdd("two-fold", "twofold");
-            correctionAdd("two fold", "twofold");
-            correctionAdd("2 fold", "twofold");
-
-            correctionAdd("2nd edition", "second edition");
-            correctionAdd("2nd Edition", "second edition");
-            correctionAdd("2/e", "second edition");
-
-            correctionAdd("theree", "three");
-            correctionAdd("theee", "three");
-            correctionAdd("thre", "three");
-            correctionAdd("3", "three");
-
-            correctionAdd("three fold", "threefold");
-            correctionAdd("3 fold", "threefold");
-
-            // Note: "third" is in an alternative word set
-            correctionAdd("2 thirds", "two thirds");
-
-            correctionAdd("antepenultimate", "third to last");
-            correctionAdd("third-to-last", "third to last");
-
-            correctionAdd("third parties", "third-party");
-            correctionAdd("Thired party", "third-party");
-            correctionAdd("thired party", "third-party");
-            correctionAdd("thired-party", "third-party");
-            correctionAdd("third party", "third-party"); // As adjective
-            correctionAdd("thrid-party", "third-party"); // As adjective. Misspelling.
-            correctionAdd("3rd parties", "third-party");
-            correctionAdd("thrid party", "third-party");
-            correctionAdd("Third-Party", "third-party");
-            correctionAdd("Third-party", "third-party");
-            correctionAdd("Third party", "third-party");
-            correctionAdd("thidr-party", "third-party"); // As adjective. Misspelling.
-            correctionAdd("Third Party", "third-party");
-            correctionAdd("3-rd party", "third-party");
-            correctionAdd("thirdparty", "third-party");
-            correctionAdd("turd party", "third-party");
-            correctionAdd("third-part", "third-party");
-            correctionAdd("3rd party", "third-party"); // As adjective
-            correctionAdd("3rd-party", "third-party"); // As adjective
-            correctionAdd("3'rd paty", "third-party");
-            correctionAdd("3th party", "third-party");
-            correctionAdd("thirdpart", "third-party");
-            correctionAdd("thidparty", "third-party");
-            correctionAdd("3rd Party", "third-party"); // As adjective
-            correctionAdd("3rd part", "third-party"); // As adjective
-            correctionAdd("3rd pary", "third-party");
-            correctionAdd("3rd-part", "third-party");
-            correctionAdd("3d party", "third-party");
-            correctionAdd("thidpart", "third-party");
-            correctionAdd("3d Party", "third-party");
-            correctionAdd("3 party", "third-party");
-            correctionAdd("3-party", "third-party");
-
-            // 3
-            correctionAdd("Tertiary", "tertiary");
-
-            // Grammar
-            correctionAdd("3rd person", "third person");
-
-            correctionAdd("3rd edition", "third edition");
-            correctionAdd("Third Ed", "third edition");
-            correctionAdd("3rd ed", "third edition");
-
-            correctionAdd("tour", "four");
-            correctionAdd("4", "four");
-
-            correctionAdd("Fouth", "fourth");
-            correctionAdd("fouth", "fourth");
-            correctionAdd("4-th", "fourth");
-            correctionAdd("4th", "fourth");
-
-            // 4
-            correctionAdd("Quaternary", "quaternary");
-
-            correctionAdd("Fifth", "fifth");
-            correctionAdd("firth", "fifth");
-            correctionAdd("5th", "fifth");
 
             // Note: "free" (the adjective) is in an alternative word set
             correctionAdd("for fee", "for free");
@@ -11736,79 +11866,6 @@ namespace OverflowHelper.core
 
             correctionAdd("embarrasingly parallel", "embarrassingly parallel");
 
-            correctionAdd("allowes", "allows");
-
-            correctionAdd("alowed", "allowed");
-            correctionAdd("allwed", "allowed");
-
-            correctionAdd("alowable", "allowable");
-
-            correctionAdd("allow", "all");
-            correctionAdd("alla", "all");
-            correctionAdd("ally", "all");
-            correctionAdd("al", "all");
-
-            // Note: "hollow" is in an alternative word set
-            correctionAdd("hallowed out", "hollowed out");
-
-            correctionAdd("folllowed", "followed");
-            correctionAdd("fallowed", "followed");
-            correctionAdd("followd", "followed");
-            correctionAdd("folowed", "followed");
-            correctionAdd("follwed", "followed");
-
-            // The noun
-            correctionAdd("follow up", "follow-up");
-            correctionAdd("foĺlow-up", "follow-up"); // Note Unicode character "ĺ"
-            correctionAdd("Follow up", "follow-up");
-            correctionAdd("Followup", "follow-up");
-            correctionAdd("followup", "follow-up");
-            correctionAdd("folow-up", "follow-up");
-
-            correctionAdd("folllowing", "following");
-            correctionAdd("followings", "following");
-            correctionAdd("fololowing", "following"); // A true typo
-            correctionAdd("follownig", "following");
-            correctionAdd("follwoing", "following");
-            correctionAdd("folloiwng", "following");
-            correctionAdd("Following", "following");
-            correctionAdd("foolowing", "following");
-            correctionAdd("fowlloing", "following");
-            correctionAdd("fellowing", "following");
-            correctionAdd("foloowing", "following");
-            correctionAdd("followind", "following");
-            correctionAdd("followinf", "following");
-            correctionAdd("fallowing", "following");
-            correctionAdd("followong", "following");
-            correctionAdd("folowing", "following");
-            correctionAdd("follwing", "following");
-            correctionAdd("Follwing", "following");
-            correctionAdd("Folowing", "following");
-            correctionAdd("fllowing", "following");
-            correctionAdd("followig", "following");
-            correctionAdd("followin", "following");
-            correctionAdd("followr", "following");
-            correctionAdd("follow", "following");
-            correctionAdd("fellow", "following");
-            correctionAdd("foll", "following");
-
-            correctionAdd("no-follow", "nofollow");
-
-            correctionAdd("un-follow", "unfollow");
-
-            correctionAdd("as following", "as follows");
-            correctionAdd("are as under", "as follows");
-            correctionAdd("as followed", "as follows");
-            correctionAdd("as follow", "as follows");
-            correctionAdd("follows", "as follows");
-
-            correctionAdd("swollow", "swallow");
-
-            correctionAdd("swollowing", "swallowing");
-
-            correctionAdd("swollowed", "swallowed");
-            correctionAdd("swolloed", "swallowed");
-
             correctionAdd("hellow", "hello");
             correctionAdd("helleo", "hello");
             correctionAdd("Hellow", "hello");
@@ -12559,28 +12616,45 @@ namespace OverflowHelper.core
             // A CPU (Intel)
             correctionAdd("Xeon 6142", "Xeon Gold 6142");
 
+            // A CPU (Intel). Or rather, a series of CPUs
+            correctionAdd("Core", "Intel Core");
+            correctionAdd("core", "Intel Core");
+
+            correctionAdd("Core solos", "Core Solo");
+            correctionAdd("core solos", "Core Solo");
+            correctionAdd("Core solo", "Core Solo");
+
+            // A type of CPU (Intel)
+            // 2006 vintage
+            correctionAdd("core duos", "Core Duo");
             correctionAdd("core duo", "Core Duo");
+            correctionAdd("duos", "Core Duo");
 
-            // A CPU (Intel)
-            correctionAdd("core 2 duo", "Core 2 Duo");
-            correctionAdd("core2 duo", "Core 2 Duo");
-            correctionAdd("core2duo", "Core 2 Duo");
-
+            // 2006 vintage
             correctionAdd("core i2", "Core&nbsp;2");
             correctionAdd("Core 2", "Core&nbsp;2");
             correctionAdd("core 2", "Core&nbsp;2");
             correctionAdd("Core2", "Core&nbsp;2");
             correctionAdd("core2", "Core&nbsp;2");
 
-            // A type of CPU
+            // A type of CPU (Intel)
+            // 2007 vintage
+            correctionAdd("core 2 duo", "Core 2 Duo");
+            correctionAdd("core2 duo", "Core 2 Duo");
+            correctionAdd("core2duo", "Core 2 Duo");
+
+            // A type of CPU (Intel)
+            // 2012 vintage
             correctionAdd("Core i3", "Core&nbsp;i3");
             correctionAdd("core i3", "Core&nbsp;i3");
             correctionAdd("core-i3", "Core&nbsp;i3");
             correctionAdd("i3", "Core&nbsp;i3");
 
+            // A CPU (Intel)
             correctionAdd("2120", "Core i3-2120");
 
-            // A type of CPU
+            // A type of CPU (Intel)
+            // 2009 vintage(??)
             correctionAdd("Intel Core i5", "Core&nbsp;i5");
             correctionAdd("Intel i5", "Core&nbsp;i5");
             correctionAdd("core i 5", "Core&nbsp;i5");
@@ -12589,14 +12663,15 @@ namespace OverflowHelper.core
             correctionAdd("core-i5", "Core&nbsp;i5");
             correctionAdd("i5", "Core&nbsp;i5");
 
-            // A type of CPU
+            // A type of CPU (Intel)
+            // 2008 vintage
             correctionAdd("Intel i7", "Core&nbsp;i7");
             correctionAdd("Core i7", "Core&nbsp;i7");
             correctionAdd("core i7", "Core&nbsp;i7");
             correctionAdd("core-i7", "Core&nbsp;i7");
             correctionAdd("i7", "Core&nbsp;i7");
 
-            // A CPU. "Haswell-MB" (quad-core, 22 nm). 2013 vintage.
+            // A CPU (Intel). "Haswell-MB" (quad-core, 22 nm). 2013 vintage.
             correctionAdd("i7 4700 MQ", "Core i7-4700MQ");
             correctionAdd("i7-4700MQ", "Core i7-4700MQ");
 
@@ -12604,17 +12679,18 @@ namespace OverflowHelper.core
             correctionAdd("i7-4870HQ", "Core i7-4870HQ");
             correctionAdd("4870", "Core i7-4870HQ");
 
-            // A CPU
+            // A CPU (Intel)
             correctionAdd("i7-6500U", "Core i7-6500U");
             correctionAdd("i7-U6500", "Core i7-6500U");
             correctionAdd("6500", "Core i7-6500U");
 
-            // A type of CPU
+            // A type of CPU (Intel)
+            // 2018 vintage(??). But extending to at least 2024
             correctionAdd("Intel Core i9", "Core&nbsp;i9");
             correctionAdd("Core i9", "Core&nbsp;i9");
             correctionAdd("i9", "Core&nbsp;i9");
 
-            // A CPU
+            // A CPU (Intel)
             correctionAdd("i9-13900K", "Core i9-13900K");
 
             // A MIPS processor (CPU)
@@ -16178,45 +16254,6 @@ namespace OverflowHelper.core
             correctionAdd("sinc", "since");
             correctionAdd("sine", "since");
             correctionAdd("sins", "since");
-
-            // Note: "size" is in an alternative word set
-            correctionAdd("re-size", "resize");
-
-            correctionAdd("re-sized", "resized");
-
-            correctionAdd("re-sizing", "resizing");
-
-            correctionAdd("sizable", "sizeable");
-
-            correctionAdd("resizeable", "resizable");
-
-            correctionAdd("midsize", "mid-size");
-
-            correctionAdd("mid-sized", "midsized");
-
-            correctionAdd("medium sized", "medium-sized");
-            correctionAdd("medium-size", "medium-sized");
-            correctionAdd("medium size", "medium-sized");
-
-            // Idiomatic?
-            correctionAdd("one size fits all", "one-size-fits-all");
-
-            correctionAdd("synthetize", "synthetise");
-            correctionAdd("sinthetize", "synthetise");
-
-            correctionAdd("synthesizes", "synthesises");
-            correctionAdd("syntheizes", "synthesises");
-
-            // Music
-            correctionAdd("synth", "synthesizer");
-            correctionAdd("Synth", "synthesizer");
-
-            correctionAdd("synths", "synthesisers");
-
-            // A music instrument manufacturer
-            correctionAdd("yamaha", "Yamaha");
-
-            correctionAdd("DDS", "direct digital synthesis");
 
             // Note: The verb "put" is in an alternative word set
             correctionAdd("put's", "puts");
@@ -22807,7 +22844,10 @@ namespace OverflowHelper.core
 
             correctionAdd("Peptide", "peptide");
 
+            correctionAdd("amino-acid", "amino acid");
             correctionAdd("aminoacid", "amino acid");
+
+            correctionAdd("amino-acids", "amino acids");
 
             correctionAdd("sidechain", "side chain");
 
@@ -25173,12 +25213,6 @@ namespace OverflowHelper.core
             correctionAdd("PIG", "pig");
 
             correctionAdd("piggy backs", "piggybacks");
-
-            correctionAdd("pittfall", "pitfall");
-            correctionAdd("pit fall", "pitfall");
-            correctionAdd("pitfails", "pitfall");
-            correctionAdd("Pitfall", "pitfall");
-            correctionAdd("pitfal", "pitfall");
 
             correctionAdd("feeded", "fed");
 
@@ -30324,6 +30358,10 @@ namespace OverflowHelper.core
 
             // Idiomatic?
             correctionAdd("all day every day", "all day and every day");
+
+            correctionAdd("every-day carry", "everyday carry");
+            correctionAdd("EDC", "everyday carry");
+            correctionAdd("edc", "everyday carry");
 
             correctionAdd("sone day", "some day");
             correctionAdd("someday", "some day");
@@ -38833,17 +38871,6 @@ namespace OverflowHelper.core
             correctionAdd("cold blooded", "cold-blooded");
             correctionAdd("coldblooded", "cold-blooded");
             correctionAdd("Coldblooded", "cold-blooded");
-
-            correctionAdd("worser", "worse");
-
-            correctionAdd("Wost", "worst");
-            correctionAdd("wors", "worst");
-
-            correctionAdd("second worst", "second-worst");
-
-            correctionAdd("Worst of all", "worst of all");
-            correctionAdd("Worse of all", "worst of all");
-            correctionAdd("worse of all", "worst of all");
 
             correctionAdd("bestest", "best");
             correctionAdd("beast", "best");
@@ -71815,6 +71842,8 @@ namespace OverflowHelper.core
             //
             //   <https://twitter.com/joe_scotto>
             //
+            correctionAdd("tom scotto", "Joe Scotto");
+            correctionAdd("joe scotto", "Joe Scotto");
             correctionAdd("skotto", "Joe Scotto");
             correctionAdd("scotto", "Joe Scotto");
 
@@ -78254,46 +78283,9 @@ namespace OverflowHelper.core
             correctionAdd(".NET 6", ".NET&nbsp;6");
             correctionAdd(".Net 6", ".NET&nbsp;6");
 
-            // Alternative URLs:
-            //
-            //   <https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet>
-            //     dotnet command
-            //
-            correctionAdd("dot net core", ".NET Core");
-            correctionAdd("Dot net core", ".NET Core");
-            correctionAdd("Dot Net Core", ".NET Core");
-            correctionAdd("dotnet core", ".NET Core");
-            correctionAdd("DotNet Core", ".NET Core");
-            correctionAdd("DotNET_core", ".NET Core");
-            correctionAdd("dotnet-core", ".NET Core");
-            correctionAdd("DotNET core", ".NET Core");
-            correctionAdd("Dotnet core", ".NET Core");
-            correctionAdd("dotnetcore", ".NET Core");
-            correctionAdd("notnetcore", ".NET Core");
-            correctionAdd(". Net-core", ".NET Core");
-            correctionAdd(".net core", ".NET Core");
-            correctionAdd(".Net Core", ".NET Core");
-            correctionAdd(".net Core", ".NET Core");
-            correctionAdd(".NET core", ".NET Core");
-            correctionAdd(".Net core", ".NET Core");
-            correctionAdd(".Net-core", ".NET Core");
-            correctionAdd(".NET CORE", ".NET Core");
-            correctionAdd(".Net.core", ".NET Core");
-            correctionAdd(".nerdcore", ".NET Core"); // There is another meaning, but it was used in the context of .NET Core...
-            correctionAdd(".net-core", ".NET Core");
-            correctionAdd("Net Core", ".NET Core");
-            correctionAdd("net core", ".NET Core");
-            correctionAdd("net Core", ".NET Core");
-            correctionAdd(".netcore", ".NET Core");
-            correctionAdd(".NETCore", ".NET Core");
-            correctionAdd("Net.Core", ".NET Core");
-            correctionAdd(".NetCore", ".NET Core");
-            correctionAdd(".netCore", ".NET Core");
-            correctionAdd("netcore", ".NET Core");
-            correctionAdd("NetCore", ".NET Core");
-            correctionAdd("Core", ".NET Core");
-            correctionAdd("core", ".NET Core");
-            correctionAdd("CORE", ".NET Core");
+            // Note: ".NET Core" is in an alternative word set
+            correctionAdd("net core 3.0", ".NET Core 3.0");
+            correctionAdd("Core 3.0", ".NET Core 3.0");
 
             correctionAdd("core-clr", "CoreCLR");
             correctionAdd("coreclr", "CoreCLR");
@@ -78313,9 +78305,6 @@ namespace OverflowHelper.core
             correctionAdd("NET 8", ".NET 8");
             correctionAdd("NET8", ".NET 8");
             correctionAdd("net8", ".NET 8");
-
-            correctionAdd("net core 3.0", ".NET Core 3.0");
-            correctionAdd("Core 3.0", ".NET Core 3.0");
 
             // .NET
             correctionAdd("BCL", "Base Class Library");
@@ -78634,6 +78623,7 @@ namespace OverflowHelper.core
             correctionAdd("Mvc", "ASP.NET MVC");
             correctionAdd("MVC", "ASP.NET MVC");
 
+            // Note: ".NET Core" is in an alternative word set
             correctionAdd(".NET Core ASP.NET MVC", "ASP.NET Core");
             correctionAdd("asp.dot .net core", "ASP.NET Core");
             correctionAdd("ASP.NET MVC Core", "ASP.NET Core");
@@ -87706,6 +87696,7 @@ namespace OverflowHelper.core
             correctionAdd("Keychron V1 max", "Keychron&nbsp;V1&nbsp;Max");
             correctionAdd("Keychron V1 MAX", "Keychron&nbsp;V1&nbsp;Max");
             correctionAdd("Keychron V1 Max", "Keychron&nbsp;V1&nbsp;Max"); // Sort of identity mapping
+            correctionAdd("keychron v1 max", "Keychron&nbsp;V1&nbsp;Max");
             correctionAdd("V1&nbsp;Max", "Keychron&nbsp;V1&nbsp;Max");
             correctionAdd("max v1", "Keychron&nbsp;V1&nbsp;Max");
             correctionAdd("v1 max", "Keychron&nbsp;V1&nbsp;Max");
@@ -109596,8 +109587,6 @@ namespace OverflowHelper.core
 
             URL_Add("upvote", "https://en.wiktionary.org/wiki/upvote#Verb"); // Old: https://en.wiktionary.org/wiki/upvote
 
-            URL_Add("every time", "https://en.wiktionary.org/wiki/every_time#Adverb");
-
             URL_Add("Mongoose", "https://en.wikipedia.org/wiki/Mongoose_%28web_server%29");
 
             URL_Add("principle", "https://en.wiktionary.org/wiki/principle#Noun");
@@ -109627,8 +109616,6 @@ namespace OverflowHelper.core
             URL_Add(".NET Compact Framework", "https://en.wikipedia.org/wiki/.NET_Compact_Framework");
 
             URL_Add("Xamarin", "https://en.wikipedia.org/wiki/Xamarin");
-
-            URL_Add("ASP.NET Core", "https://en.wikipedia.org/wiki/ASP.NET_Core");
 
             URL_Add("VxWorks", "https://en.wikipedia.org/wiki/VxWorks");
 
@@ -111299,8 +111286,6 @@ namespace OverflowHelper.core
             URL_Add("Angular&nbsp;2", "https://en.wikipedia.org/wiki/Angular_(web_framework)#Version_2");
 
             URL_Add("big data", "https://en.wikipedia.org/wiki/Big_data");
-
-            URL_Add("every day", "https://en.wiktionary.org/wiki/every_day#Adverb");
 
             URL_Add("focus", "https://en.wiktionary.org/wiki/focus#Verb");
 
@@ -113369,8 +113354,6 @@ namespace OverflowHelper.core
             URL_Add("Privacy Badger", "https://en.wikipedia.org/wiki/Privacy_Badger");
 
             URL_Add("anomaly", "https://en.wiktionary.org/wiki/anomaly#Noun");
-
-            URL_Add("everyone", "https://en.wiktionary.org/wiki/everyone#Pronoun");
 
             URL_Add("nesting", "https://en.wiktionary.org/wiki/nest#Verb");
 
@@ -116075,8 +116058,6 @@ namespace OverflowHelper.core
             URL_Add("conundrum", "https://en.wiktionary.org/wiki/conundrum#Noun");
 
             URL_Add("British Columbia, Canada", "https://en.wikipedia.org/wiki/British_Columbia");
-
-            URL_Add("every once in a while", "https://en.wiktionary.org/wiki/every_once_in_a_while#Adverb");
 
             URL_Add("PHP CLI", "http://php-cli.com/");
 
@@ -121406,10 +121387,6 @@ namespace OverflowHelper.core
 
             URL_Add("erratic", "https://en.wiktionary.org/wiki/erratic#Adjective");
 
-            URL_Add("everyone else", "https://en.wiktionary.org/wiki/everyone_else#Pronoun");
-
-            URL_Add("everyone else's", "https://en.wiktionary.org/wiki/everyone_else#Pronoun");
-
             URL_Add("PEX", "https://en.wikipedia.org/wiki/Cross-linked_polyethylene");
 
             URL_Add("selling point", "https://en.wiktionary.org/wiki/selling_point#Noun");
@@ -123891,8 +123868,6 @@ namespace OverflowHelper.core
             URL_Add("kick-ass", "https://en.wiktionary.org/wiki/kick-ass#Adjective");
 
             URL_Add("proof reader", "https://en.wiktionary.org/wiki/proof_reader#Noun");
-
-            URL_Add("everyone's", "https://www.tprteaching.com/everyones/");
 
             URL_Add("Java&nbsp;10", "https://en.wikipedia.org/wiki/Java_version_history#Java_11");
 
@@ -126832,15 +126807,15 @@ namespace OverflowHelper.core
 
             URL_Add("Eventlet", "https://eventlet.readthedocs.io/en/latest/");
 
-            URL_Add("ASP.NET Core 3.0", "https://en.wikipedia.org/wiki/ASP.NET_Core#Release_history");
-
-            URL_Add(".NET Core", "https://en.wikipedia.org/wiki/.NET#History"); // Even older: https://en.wikipedia.org/wiki/.NET_Framework#.NET_Core. Old: <https://en.wikipedia.org/wiki/.NET_Core>
-
-            URL_Add(".NET Core 3.0", "https://en.wikipedia.org/wiki/.NET#History");
-
             URL_Add(".NET&nbsp;5", "https://en.wikipedia.org/wiki/.NET#History"); // Old: <https://en.wikipedia.org/wiki/.NET_Core>
 
             URL_Add(".NET&nbsp;6", "https://en.wikipedia.org/wiki/.NET#History"); // Old: <https://en.wikipedia.org/wiki/.NET_Core>
+
+            URL_Add(".NET Core 3.0", "https://en.wikipedia.org/wiki/.NET#History");
+
+            URL_Add("ASP.NET Core", "https://en.wikipedia.org/wiki/ASP.NET_Core");
+
+            URL_Add("ASP.NET Core 3.0", "https://en.wikipedia.org/wiki/ASP.NET_Core#Release_history");
 
             URL_Add("Levenshtein distance", "https://en.wikipedia.org/wiki/Levenshtein_distance");
 
@@ -129278,20 +129253,6 @@ namespace OverflowHelper.core
 
             URL_Add("WebUSB", "https://en.wikipedia.org/wiki/WebUSB");
 
-            URL_Add("anybody", "https://en.wiktionary.org/wiki/anybody#Pronoun");
-
-            URL_Add("everybody", "https://en.wiktionary.org/wiki/everybody#Pronoun");
-
-            URL_Add("somebody", "https://en.wiktionary.org/wiki/somebody#Pronoun");
-
-            URL_Add("nobody", "https://en.wiktionary.org/wiki/nobody#Pronoun");
-
-            URL_Add("body shop", "https://en.wiktionary.org/wiki/body_shop#Noun");
-
-            URL_Add("BMI", "https://en.wikipedia.org/wiki/Body_mass_index");
-
-            URL_Add("JAMS Scheduler", "https://en.everybodywiki.com/JAMS_Scheduler");
-
             URL_Add("Deep Rock Galactic", "https://en.wikipedia.org/wiki/Deep_Rock_Galactic");
 
             URL_Add("player versus player", "https://en.wikipedia.org/wiki/Player_versus_player");
@@ -130142,31 +130103,7 @@ namespace OverflowHelper.core
 
             URL_Add("Remix", "https://en.wikipedia.org/wiki/Remix_(web_framework)");
 
-            URL_Add("nowhere", "https://en.wiktionary.org/wiki/nowhere#Adverb");
-
-            URL_Add("wherever", "https://en.wiktionary.org/wiki/wherever#Adverb");
-
-            URL_Add("whereas", "https://en.wiktionary.org/wiki/whereas#Conjunction"); // Old: https://en.wiktionary.org/wiki/whereas#Adverb
-
-            URL_Add("anywhere", "https://en.wiktionary.org/wiki/anywhere#Adverb");
-
-            URL_Add("elsewhere", "https://en.wiktionary.org/wiki/elsewhere#Adverb");
-
-            URL_Add("everywhere", "https://en.wiktionary.org/wiki/everywhere#Adverb");
-
-            URL_Add("wherein", "https://en.wiktionary.org/wiki/wherein#Conjunction");
-
-            URL_Add("somewhere", "https://en.wiktionary.org/wiki/somewhere#Adverb");
-
-            URL_Add("whereby", "https://en.wiktionary.org/wiki/whereby#Adverb");
-
-            URL_Add("nowhere else", "https://en.wiktionary.org/wiki/nowhere_else#Adverb");
-
-            URL_Add("anywhere near", "https://en.wiktionary.org/wiki/anywhere_near#Adverb");
-
             URL_Add("keycap legends", "https://www.reddit.com/r/MechanicalKeyboards/comments/g9z0t1/where_to_design_custom_keycap_legends/");
-
-            URL_Add("PythonAnywhere", "https://en.wikipedia.org/wiki/PythonAnywhere");
 
             URL_Add("waste", "https://en.wiktionary.org/wiki/waste#Verb");
 
@@ -135472,38 +135409,6 @@ namespace OverflowHelper.core
 
             URL_Add("were", "https://en.wiktionary.org/wiki/were#Verb");
 
-            URL_Add("doesn’t have anything", "https://ell.stackexchange.com/questions/19056");
-
-            URL_Add("haven’t been any", "https://ell.stackexchange.com/questions/19056");
-
-            URL_Add("doesn’t have any", "https://ell.stackexchange.com/questions/19056");
-
-            URL_Add("didn’t have any", "https://ell.stackexchange.com/questions/19056");
-
-            URL_Add("wasn’t anything", "https://ell.stackexchange.com/questions/19056");
-
-            URL_Add("don’t have any", "https://ell.stackexchange.com/questions/19056");
-
-            URL_Add("didn’t get any", "https://ell.stackexchange.com/questions/19056");
-
-            URL_Add("weren’t any", "https://ell.stackexchange.com/questions/19056");
-
-            URL_Add("aren’t any", "https://ell.stackexchange.com/questions/19056");
-
-            URL_Add("wasn’t any", "https://ell.stackexchange.com/questions/19056");
-
-            URL_Add("isn’t any", "https://ell.stackexchange.com/questions/19056");
-
-            URL_Add("anything", "https://en.wiktionary.org/wiki/anything#Pronoun");
-
-            URL_Add("everything", "https://en.wiktionary.org/wiki/everything#Pronoun");
-
-            URL_Add("nothing", "https://en.wiktionary.org/wiki/nothing#Pronoun");
-
-            URL_Add("thing", "https://en.wiktionary.org/wiki/thing#Noun");
-
-            URL_Add("ask me anything", "https://en.wiktionary.org/wiki/AMA#Phrase");
-
             URL_Add("let’s", "https://en.wiktionary.org/wiki/let%27s#Etymology"); // Old: https://en.wiktionary.org/wiki/let%27s#Contraction
 
             URL_Add("let me", "https://en.wiktionary.org/wiki/lemme#Contraction");
@@ -136042,8 +135947,6 @@ namespace OverflowHelper.core
 
             URL_Add("6 - 8 weeks", "https://meta.stackexchange.com/questions/19478/the-many-memes-of-meta/19514#19514");
 
-            URL_Add("paid homework (corruption)", "https://meta.stackoverflow.com/questions/417632/request-to-let-banned-users-ask-one-question-every-week#comment906279_417632");
-
             URL_Add("CORBA", "https://en.wikipedia.org/wiki/Common_Object_Request_Broker_Architecture");
 
             URL_Add("CSRF", "https://en.wikipedia.org/wiki/Cross-site_request_forgery");
@@ -136173,8 +136076,6 @@ namespace OverflowHelper.core
             URL_Add("ignorance is bliss", "https://en.wiktionary.org/wiki/ignorance_is_bliss#Proverb");
 
             URL_Add(".gitignore file", "https://git-scm.com/docs/gitignore");
-
-            URL_Add("cTrader", "https://en.everybodywiki.com/CTrader");
 
             URL_Add("router", "https://en.wikipedia.org/wiki/Router_(computing)");
 
@@ -138791,54 +138692,6 @@ namespace OverflowHelper.core
 
             URL_Add("scalar", "https://en.wiktionary.org/wiki/scalar#Noun");
 
-            URL_Add("The ships hung in the sky much the same way that bricks don't.", "https://www.youtube.com/watch?v=DaiX680XWP4&list=PLSoD2CcPrumFUOPyA8aLONTz5jr-IQFu5&index=4&t=11m20s");
-
-            URL_Add("boggles", "https://en.wiktionary.org/wiki/boggle#Verb");
-
-            URL_Add("mind-boggling", "https://en.wiktionary.org/wiki/mind-boggling#Adjective");
-
-            URL_Add("mindbogglingly", "https://en.wiktionary.org/wiki/mindbogglingly#Adverb");
-
-            URL_Add("brick and mortar", "https://en.wikipedia.org/wiki/Brick_and_mortar");
-
-            URL_Add("brick", "https://en.wikipedia.org/wiki/Brick_(electronics)");
-
-            URL_Add("bricks", "https://en.wikipedia.org/wiki/Brick_(electronics)");
-
-            URL_Add("bricking", "https://en.wikipedia.org/wiki/Brick_(electronics)");
-
-            URL_Add("bricked", "https://en.wikipedia.org/wiki/Brick_(electronics)");
-
-            URL_Add("Databricks", "https://en.wikipedia.org/wiki/Databricks#Products");
-
-            URL_Add("hitchhike", "https://en.wiktionary.org/wiki/hitchhike#Verb");
-
-            URL_Add("without a hitch", "https://en.wiktionary.org/wiki/without_a_hitch#Prepositional_phrase");
-
-            URL_Add("Douglas Adams", "https://en.wikipedia.org/wiki/Douglas_Adams");
-
-            URL_Add("Zaphod Beeblebrox", "https://en.wikipedia.org/wiki/Zaphod_Beeblebrox");
-
-            URL_Add("The Hitchhiker's Guide to the Galaxy", "https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy");
-
-            URL_Add("don’t panic", "https://www.youtube.com/watch?v=DaiX680XWP4&t=1m41s");
-
-            URL_Add("very unevenly edited", "https://www.youtube.com/watch?v=7NEHGMgeCfQ&t=15m29s");
-
-            URL_Add("Ursa Major", "https://en.wikipedia.org/wiki/Ursa_Major");
-
-            URL_Add("The answer to life, the universe, and everything", "https://www.youtube.com/watch?v=5ZLtcTZP2js&t=1m28s");
-
-            URL_Add("restoring normality", "https://www.youtube.com/watch?v=uzi-azI7PIE&t=7m0s&list=PLSoD2CcPrumFUOPyA8aLONTz5jr-IQFu5&index=9");
-
-            URL_Add("making all the molecules of hostesses' undergarments leap simultaneously one foot to the left", "https://www.youtube.com/watch?v=tQFZY4uQRHA&t=46s&list=PLSoD2CcPrumFUOPyA8aLONTz5jr-IQFu5&index=10");
-
-            URL_Add("furry", "https://en.wiktionary.org/wiki/furry#Adjective");
-
-            URL_Add("Eddie (onboard computer)", "https://en.wikipedia.org/wiki/List_of_The_Hitchhiker%27s_Guide_to_the_Galaxy_characters#Eddie");
-
-            URL_Add("it doesn't grow on trees", "https://www.youtube.com/watch?v=GXFrUWJvx44&t=13m32s&list=PLSoD2CcPrumFJREVL6RmMnZP5U7sGYYi2");
-
             URL_Add("display", "https://en.wiktionary.org/wiki/display#Verb");
 
             URL_Add("displays", "https://en.wiktionary.org/wiki/display#Verb");
@@ -139968,11 +139821,15 @@ namespace OverflowHelper.core
 
             URL_Add("Intel Atom", "https://en.wikipedia.org/wiki/Intel_Atom");
 
-            URL_Add("Core&nbsp;2", "https://en.wikipedia.org/wiki/Intel_Core_2");
+            URL_Add("Intel Core", "https://en.wikipedia.org/wiki/Intel_Core#Core_Solo");
+
+            URL_Add("Core Solo", "https://en.wikipedia.org/wiki/Intel_Core#Core_Solo");
 
             URL_Add("Core Duo", "https://en.wikipedia.org/wiki/Intel_Core#Core_Duo");
 
             URL_Add("Core 2 Duo", "https://en.wikipedia.org/wiki/List_of_Intel_Core_2_microprocessors#Core_2_Duo_2");
+
+            URL_Add("Core&nbsp;2", "https://en.wikipedia.org/wiki/Intel_Core_2");
 
             URL_Add("Core&nbsp;i3", "https://en.wikipedia.org/wiki/Intel_Core#3rd_generation"); // Old: https://en.wikipedia.org/wiki/Intel_Core#Core_i3
 
@@ -141770,11 +141627,11 @@ namespace OverflowHelper.core
 
             URL_Add("-Wassign-enum (Clang)", "https://clang.llvm.org/docs/DiagnosticsReference.html#wassign-enum");
 
-            URL_Add("-Weverything (Clang)", "https://clang.llvm.org/docs/UsersManual.html#diagnostics-enable-everything");
-
             URL_Add("-fdebug-pass-arguments (Clang)", "https://clang.llvm.org/docs/ClangCommandLineReference.html#cmdoption-clang-fdebug-pass-arguments");
 
             URL_Add("-Wenum-conversion (Clang)", "https://clang.llvm.org/docs/DiagnosticsReference.html#wanon-enum-enum-conversion");
+
+            URL_Add("-Weverything (Clang)", "https://clang.llvm.org/docs/UsersManual.html#diagnostics-enable-everything");
 
             URL_Add("point", "https://en.wiktionary.org/wiki/point#Noun");
 
@@ -142347,100 +142204,6 @@ namespace OverflowHelper.core
             URL_Add("Jacobian matrix", "https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant");
 
             URL_Add("Google PhotoScan", "https://en.wikipedia.org/wiki/Google_Photos#History");
-
-            URL_Add("CT scan", "https://en.wikipedia.org/wiki/CT_scan");
-
-            URL_Add("port scanner", "https://en.wikipedia.org/wiki/Port_scanner");
-
-            URL_Add("port forwarding", "https://en.wikipedia.org/wiki/Port_forwarding");
-
-            URL_Add("port number", "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers");
-
-            URL_Add("port 137", "https://www.grc.com/port_137.htm");
-
-            URL_Add("port 138", "https://www.grc.com/port_138.htm");
-
-            URL_Add("port 139", "https://www.grc.com/port_139.htm");
-
-            URL_Add("port 443", "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports");
-
-            URL_Add("port 445", "https://www.grc.com/port_445.htm");
-
-            URL_Add("HTTP", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol");
-
-            URL_Add("HTTP/1.1", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#History");
-
-            URL_Add("HTTP/2", "https://en.wikipedia.org/wiki/HTTP/2");
-
-            URL_Add("HTTP basic access authentication", "https://en.wikipedia.org/wiki/Basic_access_authentication");
-
-            URL_Add("POST", "https://en.wikipedia.org/wiki/POST_%28HTTP%29");
-
-            URL_Add("GET", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods");
-
-            URL_Add("PUT", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods");
-
-            URL_Add("HTTP.sys", "https://docs.microsoft.com/en-us/iis/get-started/introduction-to-iis/introduction-to-iis-architecture#hypertext-transfer-protocol-stack-httpsys");
-
-            URL_Add("HTTP/1.0", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#HTTP/1.0");
-
-            URL_Add("HTTPS", "https://en.wikipedia.org/wiki/HTTPS"); // Old: https://en.wikipedia.org/wiki/HTTP_Secure
-
-            URL_Add("HTTP/3", "https://en.wikipedia.org/wiki/HTTP/3");
-
-            URL_Add("HTTP 404", "https://en.wikipedia.org/wiki/HTTP_404");
-
-            URL_Add("HTTPie", "https://www.redhat.com/sysadmin/curl-hack-httpie");
-
-            URL_Add("HTTP Live Streaming", "https://en.wikipedia.org/wiki/HTTP_Live_Streaming");
-
-            URL_Add("HTTPX", "https://www.python-httpx.org/");
-
-            URL_Add("HTTPd", "https://en.wikipedia.org/wiki/Httpd");
-
-            URL_Add("HTTP request smuggling", "https://en.wikipedia.org/wiki/HTTP_request_smuggling");
-
-            URL_Add("HTTPS Everywhere", "https://en.wikipedia.org/wiki/HTTPS_Everywhere");
-
-            URL_Add("FireFTP", "https://en.wikipedia.org/wiki/FireFTP");
-
-            URL_Add("FTPS", "https://en.wikipedia.org/wiki/FTPS");
-
-            URL_Add("SFTP", "https://en.wikipedia.org/wiki/SFTP");
-
-            URL_Add("UDP", "https://en.wikipedia.org/wiki/User_Datagram_Protocol");
-
-            URL_Add("FTP", "https://en.wikipedia.org/wiki/File_Transfer_Protocol");
-
-            URL_Add("Trivial File Transfer Protocol", "https://en.wikipedia.org/wiki/Trivial_File_Transfer_Protocol");
-
-            URL_Add("NNTP", "https://en.wikipedia.org/wiki/Network_News_Transfer_Protocol");
-
-            URL_Add("SMTP", "https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol");
-
-            URL_Add("MTP", "https://en.wikipedia.org/wiki/Media_Transfer_Protocol");
-
-            URL_Add("MTA", "https://en.wikipedia.org/wiki/Message_transfer_agent");
-
-            URL_Add("DHCP", "https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol");
-
-            URL_Add("WAP", "https://en.wikipedia.org/wiki/Wireless_Application_Protocol");
-
-            URL_Add("RTMP", "https://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol");
-
-            URL_Add("Jabber", "https://en.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol");
-
-            URL_Add("RDP", "https://en.wikipedia.org/wiki/Remote_Desktop_Protocol");
-
-            URL_Add("POP3", "https://en.wikipedia.org/wiki/Post_Office_Protocol");
-
-            URL_Add("IPOPT", "https://en.wikipedia.org/wiki/IPOPT");
-
-            URL_Add("RTSP", "https://en.wikipedia.org/wiki/Real_Time_Streaming_Protocol");
-
-            URL_Add("ICMP", "https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol");
-
-            URL_Add("DCL", "https://en.wikipedia.org/wiki/DIGITAL_Command_Language");
 
             URL_Add("principal minor", "https://mathematica.stackexchange.com/questions/154018/principal-submatrix-and-principal-minor-of-a-matrix");
 
@@ -143141,6 +142904,8 @@ namespace OverflowHelper.core
             URL_Add("peptide", "https://en.wikipedia.org/wiki/Peptide");
 
             URL_Add("amino acid", "https://en.wikipedia.org/wiki/Amino_acid");
+
+            URL_Add("amino acids", "https://en.wikipedia.org/wiki/Amino_acid");
 
             URL_Add("side chain", "https://en.wikipedia.org/wiki/Side_chain");
 
@@ -149410,8 +149175,6 @@ namespace OverflowHelper.core
 
             URL_Add("in the right direction", "https://idioms.thefreedictionary.com/go+in+the+right+direction");
 
-            URL_Add("all day and every day", "https://idioms.thefreedictionary.com/all+day+and+every+day");
-
             URL_Add("on a silver platter", "https://idioms.thefreedictionary.com/on+a+silver+platter");
 
             URL_Add("pluses and minuses", "https://www.classicthesaurus.com/pluses_and_minuses/synonyms/idiom");
@@ -150513,6 +150276,240 @@ namespace OverflowHelper.core
             URL_Add("Samsung Galaxy S24", "https://en.wikipedia.org/wiki/Samsung_Galaxy_S24");
 
             URL_Add("Samsung Kies", "https://en.wikipedia.org/wiki/Samsung_Kies");
+
+            URL_Add("everyone", "https://en.wiktionary.org/wiki/everyone#Pronoun");
+
+            URL_Add("every time", "https://en.wiktionary.org/wiki/every_time#Adverb");
+
+            URL_Add("every day", "https://en.wiktionary.org/wiki/every_day#Adverb");
+
+            URL_Add("every once in a while", "https://en.wiktionary.org/wiki/every_once_in_a_while#Adverb");
+
+            URL_Add("everyday carry", "https://en.wikipedia.org/wiki/Everyday_carry");
+
+            URL_Add("all day and every day", "https://idioms.thefreedictionary.com/all+day+and+every+day");
+
+            URL_Add("everyone else", "https://en.wiktionary.org/wiki/everyone_else#Pronoun");
+
+            URL_Add("everyone else's", "https://en.wiktionary.org/wiki/everyone_else#Pronoun");
+
+            URL_Add("everyone's", "https://www.tprteaching.com/everyones/");
+
+            URL_Add("everybody", "https://en.wiktionary.org/wiki/everybody#Pronoun");
+
+            URL_Add("everything", "https://en.wiktionary.org/wiki/everything#Pronoun");
+
+            URL_Add("The answer to life, the universe, and everything", "https://www.youtube.com/watch?v=5ZLtcTZP2js&t=1m28s");
+
+            URL_Add("everywhere", "https://en.wiktionary.org/wiki/everywhere#Adverb");
+
+            URL_Add("somewhere", "https://en.wiktionary.org/wiki/somewhere#Adverb");
+
+            URL_Add("anywhere", "https://en.wiktionary.org/wiki/anywhere#Adverb");
+
+            URL_Add("anywhere near", "https://en.wiktionary.org/wiki/anywhere_near#Adverb");
+
+            URL_Add("nowhere", "https://en.wiktionary.org/wiki/nowhere#Adverb");
+
+            URL_Add("nowhere else", "https://en.wiktionary.org/wiki/nowhere_else#Adverb");
+
+            URL_Add("elsewhere", "https://en.wiktionary.org/wiki/elsewhere#Adverb");
+
+            URL_Add("wherever", "https://en.wiktionary.org/wiki/wherever#Adverb");
+
+            URL_Add("whereas", "https://en.wiktionary.org/wiki/whereas#Conjunction"); // Old: https://en.wiktionary.org/wiki/whereas#Adverb
+
+            URL_Add("wherein", "https://en.wiktionary.org/wiki/wherein#Conjunction");
+
+            URL_Add("whereby", "https://en.wiktionary.org/wiki/whereby#Adverb");
+
+            URL_Add("PythonAnywhere", "https://en.wikipedia.org/wiki/PythonAnywhere");
+
+            URL_Add("JAMS Scheduler", "https://en.everybodywiki.com/JAMS_Scheduler");
+
+            URL_Add("paid homework (corruption)", "https://meta.stackoverflow.com/questions/417632/request-to-let-banned-users-ask-one-question-every-week#comment906279_417632");
+
+            URL_Add("cTrader", "https://en.everybodywiki.com/CTrader");
+
+            URL_Add("anybody", "https://en.wiktionary.org/wiki/anybody#Pronoun");
+
+            URL_Add("somebody", "https://en.wiktionary.org/wiki/somebody#Pronoun");
+
+            URL_Add("nobody", "https://en.wiktionary.org/wiki/nobody#Pronoun");
+
+            URL_Add("body shop", "https://en.wiktionary.org/wiki/body_shop#Noun");
+
+            URL_Add("BMI", "https://en.wikipedia.org/wiki/Body_mass_index");
+
+            URL_Add("doesn’t have anything", "https://ell.stackexchange.com/questions/19056");
+
+            URL_Add("haven’t been any", "https://ell.stackexchange.com/questions/19056");
+
+            URL_Add("doesn’t have any", "https://ell.stackexchange.com/questions/19056");
+
+            URL_Add("didn’t have any", "https://ell.stackexchange.com/questions/19056");
+
+            URL_Add("wasn’t anything", "https://ell.stackexchange.com/questions/19056");
+
+            URL_Add("don’t have any", "https://ell.stackexchange.com/questions/19056");
+
+            URL_Add("didn’t get any", "https://ell.stackexchange.com/questions/19056");
+
+            URL_Add("weren’t any", "https://ell.stackexchange.com/questions/19056");
+
+            URL_Add("aren’t any", "https://ell.stackexchange.com/questions/19056");
+
+            URL_Add("wasn’t any", "https://ell.stackexchange.com/questions/19056");
+
+            URL_Add("isn’t any", "https://ell.stackexchange.com/questions/19056");
+
+            URL_Add("anything", "https://en.wiktionary.org/wiki/anything#Pronoun");
+
+            URL_Add("nothing", "https://en.wiktionary.org/wiki/nothing#Pronoun");
+
+            URL_Add("thing", "https://en.wiktionary.org/wiki/thing#Noun");
+
+            URL_Add("ask me anything", "https://en.wiktionary.org/wiki/AMA#Phrase");
+
+            URL_Add("The ships hung in the sky much the same way that bricks don't.", "https://www.youtube.com/watch?v=DaiX680XWP4&list=PLSoD2CcPrumFUOPyA8aLONTz5jr-IQFu5&index=4&t=11m20s");
+
+            URL_Add("boggles", "https://en.wiktionary.org/wiki/boggle#Verb");
+
+            URL_Add("mind-boggling", "https://en.wiktionary.org/wiki/mind-boggling#Adjective");
+
+            URL_Add("mindbogglingly", "https://en.wiktionary.org/wiki/mindbogglingly#Adverb");
+
+            URL_Add("brick and mortar", "https://en.wikipedia.org/wiki/Brick_and_mortar");
+
+            URL_Add("brick", "https://en.wikipedia.org/wiki/Brick_(electronics)");
+
+            URL_Add("bricks", "https://en.wikipedia.org/wiki/Brick_(electronics)");
+
+            URL_Add("bricking", "https://en.wikipedia.org/wiki/Brick_(electronics)");
+
+            URL_Add("bricked", "https://en.wikipedia.org/wiki/Brick_(electronics)");
+
+            URL_Add("Databricks", "https://en.wikipedia.org/wiki/Databricks#Products");
+
+            URL_Add("hitchhike", "https://en.wiktionary.org/wiki/hitchhike#Verb");
+
+            URL_Add("without a hitch", "https://en.wiktionary.org/wiki/without_a_hitch#Prepositional_phrase");
+
+            URL_Add("Douglas Adams", "https://en.wikipedia.org/wiki/Douglas_Adams");
+
+            URL_Add("Zaphod Beeblebrox", "https://en.wikipedia.org/wiki/Zaphod_Beeblebrox");
+
+            URL_Add("The Hitchhiker's Guide to the Galaxy", "https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy");
+
+            URL_Add("don’t panic", "https://www.youtube.com/watch?v=DaiX680XWP4&t=1m41s");
+
+            URL_Add("very unevenly edited", "https://www.youtube.com/watch?v=7NEHGMgeCfQ&t=15m29s");
+
+            URL_Add("Ursa Major", "https://en.wikipedia.org/wiki/Ursa_Major");
+
+            URL_Add("restoring normality", "https://www.youtube.com/watch?v=uzi-azI7PIE&t=7m0s&list=PLSoD2CcPrumFUOPyA8aLONTz5jr-IQFu5&index=9");
+
+            URL_Add("making all the molecules of hostesses' undergarments leap simultaneously one foot to the left", "https://www.youtube.com/watch?v=tQFZY4uQRHA&t=46s&list=PLSoD2CcPrumFUOPyA8aLONTz5jr-IQFu5&index=10");
+
+            URL_Add("furry", "https://en.wiktionary.org/wiki/furry#Adjective");
+
+            URL_Add("Eddie (onboard computer)", "https://en.wikipedia.org/wiki/List_of_The_Hitchhiker%27s_Guide_to_the_Galaxy_characters#Eddie");
+
+            URL_Add("it doesn't grow on trees", "https://www.youtube.com/watch?v=GXFrUWJvx44&t=13m32s&list=PLSoD2CcPrumFJREVL6RmMnZP5U7sGYYi2");
+
+            URL_Add("CT scan", "https://en.wikipedia.org/wiki/CT_scan");
+
+            URL_Add("port scanner", "https://en.wikipedia.org/wiki/Port_scanner");
+
+            URL_Add("port forwarding", "https://en.wikipedia.org/wiki/Port_forwarding");
+
+            URL_Add("port number", "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers");
+
+            URL_Add("port 137", "https://www.grc.com/port_137.htm");
+
+            URL_Add("port 138", "https://www.grc.com/port_138.htm");
+
+            URL_Add("port 139", "https://www.grc.com/port_139.htm");
+
+            URL_Add("port 443", "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports");
+
+            URL_Add("port 445", "https://www.grc.com/port_445.htm");
+
+            URL_Add("HTTP", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol");
+
+            URL_Add("HTTP/1.1", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#History");
+
+            URL_Add("HTTP/2", "https://en.wikipedia.org/wiki/HTTP/2");
+
+            URL_Add("HTTP basic access authentication", "https://en.wikipedia.org/wiki/Basic_access_authentication");
+
+            URL_Add("POST", "https://en.wikipedia.org/wiki/POST_%28HTTP%29");
+
+            URL_Add("GET", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods");
+
+            URL_Add("PUT", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods");
+
+            URL_Add("HTTP.sys", "https://docs.microsoft.com/en-us/iis/get-started/introduction-to-iis/introduction-to-iis-architecture#hypertext-transfer-protocol-stack-httpsys");
+
+            URL_Add("HTTP/1.0", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#HTTP/1.0");
+
+            URL_Add("HTTPS", "https://en.wikipedia.org/wiki/HTTPS"); // Old: https://en.wikipedia.org/wiki/HTTP_Secure
+
+            URL_Add("HTTP/3", "https://en.wikipedia.org/wiki/HTTP/3");
+
+            URL_Add("HTTP 404", "https://en.wikipedia.org/wiki/HTTP_404");
+
+            URL_Add("HTTPie", "https://www.redhat.com/sysadmin/curl-hack-httpie");
+
+            URL_Add("HTTP Live Streaming", "https://en.wikipedia.org/wiki/HTTP_Live_Streaming");
+
+            URL_Add("HTTPX", "https://www.python-httpx.org/");
+
+            URL_Add("HTTPd", "https://en.wikipedia.org/wiki/Httpd");
+
+            URL_Add("HTTP request smuggling", "https://en.wikipedia.org/wiki/HTTP_request_smuggling");
+
+            URL_Add("HTTPS Everywhere", "https://en.wikipedia.org/wiki/HTTPS_Everywhere");
+
+            URL_Add("FireFTP", "https://en.wikipedia.org/wiki/FireFTP");
+
+            URL_Add("FTPS", "https://en.wikipedia.org/wiki/FTPS");
+
+            URL_Add("SFTP", "https://en.wikipedia.org/wiki/SFTP");
+
+            URL_Add("UDP", "https://en.wikipedia.org/wiki/User_Datagram_Protocol");
+
+            URL_Add("FTP", "https://en.wikipedia.org/wiki/File_Transfer_Protocol");
+
+            URL_Add("Trivial File Transfer Protocol", "https://en.wikipedia.org/wiki/Trivial_File_Transfer_Protocol");
+
+            URL_Add("NNTP", "https://en.wikipedia.org/wiki/Network_News_Transfer_Protocol");
+
+            URL_Add("SMTP", "https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol");
+
+            URL_Add("MTP", "https://en.wikipedia.org/wiki/Media_Transfer_Protocol");
+
+            URL_Add("MTA", "https://en.wikipedia.org/wiki/Message_transfer_agent");
+
+            URL_Add("DHCP", "https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol");
+
+            URL_Add("WAP", "https://en.wikipedia.org/wiki/Wireless_Application_Protocol");
+
+            URL_Add("RTMP", "https://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol");
+
+            URL_Add("Jabber", "https://en.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol");
+
+            URL_Add("RDP", "https://en.wikipedia.org/wiki/Remote_Desktop_Protocol");
+
+            URL_Add("POP3", "https://en.wikipedia.org/wiki/Post_Office_Protocol");
+
+            URL_Add("IPOPT", "https://en.wikipedia.org/wiki/IPOPT");
+
+            URL_Add("RTSP", "https://en.wikipedia.org/wiki/Real_Time_Streaming_Protocol");
+
+            URL_Add("ICMP", "https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol");
+
+            URL_Add("DCL", "https://en.wikipedia.org/wiki/DIGITAL_Command_Language");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -153403,6 +153400,7 @@ namespace OverflowHelper.core
             correctionAdd("prtscr_", "Print Screen key_");
             correctionAdd("PrtScr_", "Print Screen key_");
             correctionAdd("PrtSct_", "Print Screen key_");
+            correctionAdd("PrtScn_", "Print Screen key_");
             correctionAdd("PrtSc_", "Print Screen key_"); // The official short version
             correctionAdd("PrScr_", "Print Screen key_");
             correctionAdd("Prscr_", "Print Screen key_");
@@ -166817,6 +166815,8 @@ namespace OverflowHelper.core
             correctionAdd("unbrako_", "Unbrako_");
             correctionAdd("hex key_", "Unbrako_");
 
+            correctionAdd("alla_", "all of_");
+
             // C. A book
             //
             // Authors: Brian Kernighan and Dennis Ritchie
@@ -166931,8 +166931,6 @@ namespace OverflowHelper.core
 
             URL_Add("local oscillator_", "https://en.wikipedia.org/wiki/Local_oscillator");
 
-            URL_Add("love you_", "https://www.allacronyms.com/LY/Love_You");
-
             URL_Add("squeeze_", "https://en.wiktionary.org/wiki/squeeze#Verb");
 
             URL_Add("Object Management Group_", "https://en.wikipedia.org/wiki/Object_Management_Group");
@@ -167024,8 +167022,6 @@ namespace OverflowHelper.core
             URL_Add("lets_", "https://en.wiktionary.org/wiki/let#Verb");
 
             URL_Add("isotope_", "https://en.wiktionary.org/wiki/isotope#Noun");
-
-            URL_Add("parallel_", "https://en.wiktionary.org/wiki/parallel#Adjective");
 
             URL_Add("csc.exe_", "https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-options/");
 
@@ -167479,8 +167475,6 @@ namespace OverflowHelper.core
 
             URL_Add("indented_", "https://en.wiktionary.org/wiki/indent#Verb");
 
-            URL_Add("AWS Web Application Firewall_", "https://aws.amazon.com/waf/");
-
             URL_Add("minks_", "https://en.wiktionary.org/wiki/mink#Noun");
 
             URL_Add("given_", "https://en.wiktionary.org/wiki/give#Verb");
@@ -167555,8 +167549,6 @@ namespace OverflowHelper.core
 
             URL_Add("lock down_", "https://en.wiktionary.org/wiki/lock_down#Verb");
 
-            URL_Add("TAC_", "https://en.wikipedia.org/wiki/Type_Allocation_Code");
-
             URL_Add("expr_", "https://en.wikipedia.org/wiki/Expr");
 
             URL_Add("suppose_", "https://en.wiktionary.org/wiki/suppose#Verb");
@@ -167600,8 +167592,6 @@ namespace OverflowHelper.core
             URL_Add("gave_", "https://en.wiktionary.org/wiki/give#Verb");
 
             URL_Add("perf_", "https://en.wikipedia.org/wiki/Perf_(Linux)");
-
-            URL_Add("all right_", "https://en.wiktionary.org/wiki/all_right#Adjective"); // Old: https://en.wiktionary.org/wiki/all_right
 
             URL_Add("centre of mass_", "https://en.wiktionary.org/wiki/COM#Noun");
 
@@ -167718,8 +167708,6 @@ namespace OverflowHelper.core
             URL_Add("CXXFLAGS_", "https://www.gnu.org/software/make/manual/make.html#index-CXXFLAGS");
 
             URL_Add("Consensus on self-promotion and spam_", "https://meta.stackoverflow.com/questions/348489/");
-
-            URL_Add("ballpark_", "https://en.wiktionary.org/wiki/ballpark#Noun");
 
             URL_Add("brightness_", "https://en.wikipedia.org/wiki/Brightness");
 
@@ -168457,8 +168445,6 @@ namespace OverflowHelper.core
 
             URL_Add("up-front_", "https://en.wiktionary.org/wiki/upfront#Adjective");
 
-            URL_Add("ball bearing_", "https://en.wikipedia.org/wiki/Ball_bearing");
-
             URL_Add("Miguel Najdorf_", "https://en.wikipedia.org/wiki/Miguel_Najdorf");
 
             URL_Add("wireless_", "https://en.wiktionary.org/wiki/wireless#Adjective");
@@ -168573,10 +168559,6 @@ namespace OverflowHelper.core
 
             URL_Add("2010s_", "https://en.wikipedia.org/wiki/2010s");
 
-            URL_Add("casual_", "https://en.wiktionary.org/wiki/casual#Adjective");
-
-            URL_Add("casually_", "https://en.wiktionary.org/wiki/casually#Adverb");
-
             URL_Add("hidden_", "https://en.wiktionary.org/wiki/hidden#Adjective");
 
             URL_Add("name server_", "https://en.wikipedia.org/wiki/Name_server");
@@ -168608,8 +168590,6 @@ namespace OverflowHelper.core
             URL_Add("latter_", "https://en.wiktionary.org/wiki/latter#Adjective");
 
             URL_Add("top-left corner_", "https://english.stackexchange.com/questions/123050/upper-left-corner-or-top-left-corner");
-
-            URL_Add("physically based rendering_", "https://en.wikipedia.org/wiki/Physically_based_rendering");
 
             URL_Add("path_", "https://en.wiktionary.org/wiki/path#Noun");
 
@@ -168907,8 +168887,6 @@ namespace OverflowHelper.core
 
             URL_Add(", that is, X_", "https://en.wiktionary.org/wiki/i.e.#Adverb"); // Old: https://en.wiktionary.org/wiki/i.e.
 
-            URL_Add("RFC_", "https://en.wikipedia.org/wiki/Remote_Function_Call");
-
             URL_Add("focus_", "https://en.wikipedia.org/wiki/Focus_(optics)");
 
             URL_Add("unbalance_", "https://en.wiktionary.org/wiki/unbalance#Verb");
@@ -169131,8 +169109,6 @@ namespace OverflowHelper.core
 
             URL_Add("Codeium_", "https://marketplace.visualstudio.com/items?itemName=Codeium.codeium");
 
-            URL_Add("installation_", "https://en.wiktionary.org/wiki/installation#Noun");
-
             URL_Add("mixed_", "https://en.wiktionary.org/wiki/mixed#Adjective");
 
             URL_Add("Remix IDE_", "https://remix.ethereum.org/");
@@ -169271,10 +169247,6 @@ namespace OverflowHelper.core
 
             URL_Add("prettier_", "https://en.wiktionary.org/wiki/prettier#Adjective");
 
-            URL_Add("epically_", "https://en.wiktionary.org/wiki/epically#Adverb");
-
-            URL_Add("Epic_", "https://en.wikipedia.org/wiki/Epic_(web_browser)");
-
             URL_Add("PayPal_", "https://en.wikipedia.org/wiki/PayPal");
 
             URL_Add("extent_", "https://en.wiktionary.org/wiki/to_some_extent#Prepositional_phrase");
@@ -169367,8 +169339,6 @@ namespace OverflowHelper.core
 
             URL_Add("wicked_", "https://en.wiktionary.org/wiki/wicked#Adjective");
 
-            URL_Add("at all_", "https://en.wiktionary.org/wiki/at_all#Adverb");
-
             URL_Add("clicky_", "https://en.wiktionary.org/wiki/clicky#Adjective");
 
             URL_Add("DTS_", "https://en.wikipedia.org/wiki/DTS_(sound_system)#DTS_Digital_Surround");
@@ -169455,8 +169425,6 @@ namespace OverflowHelper.core
 
             URL_Add("Meta_", "https://en.wikipedia.org/wiki/Meta_Platforms");
 
-            URL_Add("-Wall (in options index)_", "https://gcc.gnu.org/onlinedocs/gcc/Option-Index.html");
-
             URL_Add("Clang options index_", "https://clang.llvm.org/docs/ClangCommandLineReference.html");
 
             URL_Add("clang(1)_", "https://linux.die.net/man/1/clang");
@@ -169480,6 +169448,8 @@ namespace OverflowHelper.core
             URL_Add("-O2 (Clang)_", "https://clang.llvm.org/docs/ClangCommandLineReference.html#optimization-level");
 
             URL_Add("-O3 (Clang)_", "https://clang.llvm.org/docs/ClangCommandLineReference.html#optimization-level");
+
+            URL_Add("-Wall (in options index)_", "https://gcc.gnu.org/onlinedocs/gcc/Option-Index.html");
 
             URL_Add("politics_", "https://en.wiktionary.org/wiki/politics#Noun");
 
@@ -169557,11 +169527,11 @@ namespace OverflowHelper.core
 
             URL_Add("dialog_", "https://linux.die.net/man/1/dialog");
 
-            URL_Add("syscalls(2)_", "https://linux.die.net/man/2/syscalls");
-
             URL_Add("symlink()_", "https://linux.die.net/man/2/symlink");
 
             URL_Add("ping_", "https://linux.die.net/man/8/ping");
+
+            URL_Add("syscalls(2)_", "https://linux.die.net/man/2/syscalls");
 
             URL_Add("abstraction_", "https://en.wikipedia.org/wiki/Abstraction_(computer_science)");
 
@@ -170009,8 +169979,6 @@ namespace OverflowHelper.core
 
             URL_Add("search engines_", "https://en.wiktionary.org/wiki/search_engine#Noun");
 
-            URL_Add("allow_", "https://en.wiktionary.org/wiki/allow#Verb");
-
             URL_Add("ThinkPad X1_", "https://en.wikipedia.org/wiki/ThinkPad_X1_series");
 
             URL_Add("in-ear monitors_", "https://en.wikipedia.org/wiki/In-ear_monitor");
@@ -170050,10 +170018,6 @@ namespace OverflowHelper.core
             URL_Add("Byte magazine_", "https://en.wikipedia.org/wiki/Byte_(magazine)");
 
             URL_Add("Reselect_", "https://github.com/reduxjs/reselect");
-
-            URL_Add("Damn Small Linux_", "https://en.wikipedia.org/wiki/Damn_Small_Linux");
-
-            URL_Add("RHEL_", "https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux");
 
             URL_Add("Backlight_", "https://docs.qmk.fm/features/backlight");
 
@@ -170126,12 +170090,6 @@ namespace OverflowHelper.core
             URL_Add("crate_", "https://doc.rust-lang.org/book/ch01-03-hello-cargo.html");
 
             URL_Add("true positive rate_", "https://en.wikipedia.org/wiki/Sensitivity_and_specificity");
-
-            URL_Add("call by reference_", "https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_reference");
-
-            URL_Add("call by value_", "https://en.wiktionary.org/wiki/pass_by_value#Noun");
-
-            URL_Add("tail-call optimization_", "https://en.wikipedia.org/wiki/Tail_call");
 
             URL_Add("Bitvise client_", "https://www.bitvise.com/ssh-client");
 
@@ -170459,8 +170417,6 @@ namespace OverflowHelper.core
 
             URL_Add("nano_", "https://en.wikipedia.org/wiki/GNU_nano");
 
-            URL_Add("Richard Stallman_", "https://en.wikipedia.org/wiki/Richard_Stallman");
-
             URL_Add("KDE_", "https://en.wikipedia.org/wiki/Kernel_density_estimation");
 
             URL_Add("checks_", "https://en.wiktionary.org/wiki/check#Noun");
@@ -170472,18 +170428,6 @@ namespace OverflowHelper.core
             URL_Add("fact check_", "https://en.wiktionary.org/wiki/fact_check#Noun");
 
             URL_Add("a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_", "https://www.reddit.com/r/Keychron/comments/1fh6h26/comment/ln9sqs1/");
-
-            URL_Add("USB_", "https://en.wikipedia.org/wiki/USB");
-
-            URL_Add("USB side version_", "https://learn.microsoft.com/en-us/windows-hardware/drivers/install/standard-usb-identifiers");
-
-            URL_Add("USB HID_", "https://en.wikipedia.org/wiki/USB_human_interface_device_class");
-
-            URL_Add("USB MSC_", "https://en.wikipedia.org/wiki/USB_mass_storage_device_class");
-
-            URL_Add("USB power delivery_", "https://en.wikipedia.org/wiki/USB_hardware#USB_Power_Delivery");
-
-            URL_Add("SOF_", "https://en.wikipedia.org/wiki/USB_communications#SOF:_Start-of-frame");
 
             URL_Add("senior_", "https://en.wiktionary.org/wiki/senior#Adjective");
 
@@ -170567,8 +170511,6 @@ namespace OverflowHelper.core
 
             URL_Add("loc_", "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.loc.html");
 
-            URL_Add("all()_", "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.all.html");
-
             URL_Add("pandas.DataFrame.merge()_", "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.merge.html");
 
             URL_Add("Python standard library_", "https://docs.python.org/3/library/index.html");
@@ -170606,6 +170548,8 @@ namespace OverflowHelper.core
             URL_Add("SOCD_", "https://www.reddit.com/r/Keychron/comments/1e8ozua/rappy_snappy_or_snap_tap_for_keychron/");
 
             URL_Add("lambda_", "https://docs.python.org/3/reference/expressions.html#lambda");
+
+            URL_Add("all()_", "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.all.html");
 
             URL_Add("virtual Python environment_", "https://www.w3schools.com/python/python_virtualenv.asp");
 
@@ -170646,8 +170590,6 @@ namespace OverflowHelper.core
             URL_Add("UNC_", "https://en.wikipedia.org/wiki/Path_%28computing%29#Uniform_Naming_Convention");
 
             URL_Add("real-time operating system_", "https://en.wikipedia.org/wiki/Real-time_operating_system");
-
-            URL_Add("rivalling_", "https://en.wiktionary.org/wiki/rival#Verb");
 
             URL_Add("customise_", "https://en.wiktionary.org/wiki/customise#Verb");
 
@@ -170789,8 +170731,6 @@ namespace OverflowHelper.core
 
             URL_Add("long story short_", "https://en.wiktionary.org/wiki/long_story_short#Adverb");
 
-            URL_Add("a lot_", "https://www.wikihow.com/Tell-the-Difference-Between-Alot,-Allot-and-A-Lot");
-
             URL_Add("than_", "https://en.wiktionary.org/wiki/than#Conjunction");
 
             URL_Add("Charles-Augustin de Coulomb_", "https://en.wikipedia.org/wiki/Charles-Augustin_de_Coulomb");
@@ -170926,26 +170866,6 @@ namespace OverflowHelper.core
             URL_Add("copy_", "https://ss64.com/nt/copy.html");
 
             URL_Add("copy-paste_", "https://en.wiktionary.org/wiki/copy-paste#Verb");
-
-            URL_Add("fellow_", "https://en.wiktionary.org/wiki/fellow#Noun");
-
-            URL_Add("follow_", "https://en.wiktionary.org/wiki/follow#Verb");
-
-            URL_Add("following_", "https://meta.stackoverflow.com/questions/422798/are-edits-that-only-remove-excessive-indentation-from-lazy-copy-pastes-an-improv#comment944208_422798");
-
-            URL_Add("follow up_", "https://en.wiktionary.org/wiki/follow_up#Verb");
-
-            URL_Add("far_", "https://en.wiktionary.org/wiki/far#Adverb");
-
-            URL_Add("fell_", "https://en.wiktionary.org/wiki/fall#Noun");
-
-            URL_Add("fall back_", "https://en.wiktionary.org/wiki/fall_back#Verb");
-
-            URL_Add("falling into a trap_", "https://en.wiktionary.org/wiki/fall_into_a_trap#Verb");
-
-            URL_Add("downfall_", "https://en.wiktionary.org/wiki/downfall#Noun");
-
-            URL_Add("We believe that Internet Explorer is a really good browser._", "https://www.youtube.com/watch?v=ZCCvKlrHB7k&t=13m21s");
 
             URL_Add("label y-axis_", "https://www.youtube.com/watch?v=pPJf8KrvJXU&t=10m54s");
 
@@ -171143,38 +171063,6 @@ namespace OverflowHelper.core
 
             URL_Add("PC_", "https://en.wikipedia.org/wiki/Personal_computer");
 
-            URL_Add("artificial superintelligence_", "https://en.wikipedia.org/wiki/Superintelligence#Feasibility_of_artificial_superintelligence");
-
-            URL_Add("simulated intelligence hallucination_", "https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)");
-
-            URL_Add("simulated intelligence watermarking_", "https://en.wikipedia.org/wiki/Text_watermarking#History");
-
-            URL_Add("decision tree learning_", "https://en.wikipedia.org/wiki/Decision_tree_learning");
-
-            URL_Add("supervised learning_", "https://en.wikipedia.org/wiki/Supervised_learning");
-
-            URL_Add("deep learning_", "https://en.wikipedia.org/wiki/Deep_learning");
-
-            URL_Add("large language model_", "https://en.wikipedia.org/wiki/Large_language_model");
-
-            URL_Add("large language models_", "https://en.wikipedia.org/wiki/Large_language_model");
-
-            URL_Add("agent skill_", "https://www.reddit.com/r/qmk/comments/1v09ul7/comment/oz2ib4v/");
-
-            URL_Add("GPT_", "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer");
-
-            URL_Add("Copilot (copyright laundering machine)_", "https://odysee.com/@TheLinuxExperiment:e/microsoft-isn't-the-enemy-of-linux-and:3");
-
-            URL_Add("Hugging&nbsp;Face_", "https://en.wikipedia.org/wiki/Hugging_Face");
-
-            URL_Add("Anthropic_", "https://en.wikipedia.org/wiki/Anthropic");
-
-            URL_Add("test data set_", "https://en.wikipedia.org/wiki/Training,_validation,_and_test_data_sets");
-
-            URL_Add("Iris data set_", "https://en.wikipedia.org/wiki/Iris_flower_data_set");
-
-            URL_Add("computer vision_", "https://en.wikipedia.org/wiki/Computer_vision");
-
             URL_Add("time machine_", "https://en.wikipedia.org/wiki/Time_travel");
 
             URL_Add("virtual machine_", "https://en.wikipedia.org/wiki/Virtual_machine");
@@ -171306,34 +171194,6 @@ namespace OverflowHelper.core
             URL_Add("slightly reduced selection of keycaps_", "https://switchandclick.com/mechanical-keyboard-switch-guide/");
 
             URL_Add("key combinations_", "https://en.wikipedia.org/wiki/Keyboard_shortcut");
-
-            URL_Add("teal_", "https://en.wikipedia.org/wiki/Teal");
-
-            URL_Add("green_", "https://en.wikipedia.org/wiki/Environmentally_friendly");
-
-            URL_Add("redshift_", "https://en.wiktionary.org/wiki/redshift#Verb");
-
-            URL_Add("an utterly insignificant little blue-green planet_", "https://www.youtube.com/watch?v=rAh1JxNGkAM&list=PLSoD2CcPrumFJREVL6RmMnZP5U7sGYYi2&index=26&t=4s");
-
-            URL_Add("Bluetooth_", "https://en.wikipedia.org/wiki/Bluetooth2");
-
-            URL_Add("The Bluetooth version in the Keychron K Pro series keyboards is 2.0/2.1, not 5.1 as claimed_", "https://github.com/Keychron/qmk_firmware/issues/338#issuecomment-2564070299");
-
-            URL_Add("wired, Bluetooth, and '2.4 GHz'_", "https://www.durgod.com/blogs/what-is-dual-mode-and-tri-mode-in-mechanical-keyboard/");
-
-            URL_Add("download URL for Bluetooth firmware version 1.32_", "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/keychron_ckbt51_01.32.kfw");
-
-            URL_Add("download URL for Bluetooth firmware version 0.1.12_", "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/lkbt51_v0.1.12.kfw");
-
-            URL_Add("download URL for Bluetooth firmware version 0.1.13_", "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/lkbt51_v0.1.13.kfw");
-
-            URL_Add("download URL for Bluetooth firmware version 0.1.14_", "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/lkbt51_v0.1.14.kfw");
-
-            URL_Add("download URL for Bluetooth firmware version 0.1.15_", "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/lkbt51_v0.1.15.kfw");
-
-            URL_Add("download URL for Bluetooth firmware version 0.2.0_", "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/keychron_spi_tmode_fw0.2.0_2406131215.kfw");
-
-            URL_Add("download URL for Bluetooth firmware version 0.2.1_", "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/keychron_spi_tmode_fw0.2.1_2411091132.kfw");
 
             URL_Add("headset_", "https://en.wiktionary.org/wiki/headset#Noun");
 
@@ -171508,6 +171368,148 @@ namespace OverflowHelper.core
             URL_Add("PBT_", "https://en.wikipedia.org/wiki/Polybutylene_terephthalate#Applications"); // <https://en.wikipedia.org/wiki/Polybutylene_terephthalate>
 
             URL_Add("Unbrako_", "https://en.wikipedia.org/wiki/Hex_key#Nomenclature");
+
+            URL_Add("all of_", "https://en.wiktionary.org/wiki/alla#Contraction");
+
+            URL_Add("all right_", "https://en.wiktionary.org/wiki/all_right#Adjective"); // Old: https://en.wiktionary.org/wiki/all_right
+
+            URL_Add("at all_", "https://en.wiktionary.org/wiki/at_all#Adverb");
+
+            URL_Add("allow_", "https://en.wiktionary.org/wiki/allow#Verb");
+
+            URL_Add("call by reference_", "https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_reference");
+
+            URL_Add("call by value_", "https://en.wiktionary.org/wiki/pass_by_value#Noun");
+
+            URL_Add("tail-call optimization_", "https://en.wikipedia.org/wiki/Tail_call");
+
+            URL_Add("ballpark_", "https://en.wiktionary.org/wiki/ballpark#Noun");
+
+            URL_Add("ball bearing_", "https://en.wikipedia.org/wiki/Ball_bearing");
+
+            URL_Add("parallel_", "https://en.wiktionary.org/wiki/parallel#Adjective");
+
+            URL_Add("casual_", "https://en.wiktionary.org/wiki/casual#Adjective");
+
+            URL_Add("casually_", "https://en.wiktionary.org/wiki/casually#Adverb");
+
+            URL_Add("physically based rendering_", "https://en.wikipedia.org/wiki/Physically_based_rendering");
+
+            URL_Add("installation_", "https://en.wiktionary.org/wiki/installation#Noun");
+
+            URL_Add("epically_", "https://en.wiktionary.org/wiki/epically#Adverb");
+
+            URL_Add("rivalling_", "https://en.wiktionary.org/wiki/rival#Verb");
+
+            URL_Add("fall back_", "https://en.wiktionary.org/wiki/fall_back#Verb");
+
+            URL_Add("falling into a trap_", "https://en.wiktionary.org/wiki/fall_into_a_trap#Verb");
+
+            URL_Add("downfall_", "https://en.wiktionary.org/wiki/downfall#Noun");
+
+            URL_Add("We believe that Internet Explorer is a really good browser._", "https://www.youtube.com/watch?v=ZCCvKlrHB7k&t=13m21s");
+
+            URL_Add("simulated intelligence hallucination_", "https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)");
+
+            URL_Add("Damn Small Linux_", "https://en.wikipedia.org/wiki/Damn_Small_Linux");
+
+            URL_Add("AWS Web Application Firewall_", "https://aws.amazon.com/waf/");
+
+            URL_Add("Richard Stallman_", "https://en.wikipedia.org/wiki/Richard_Stallman");
+
+            URL_Add("Epic_", "https://en.wikipedia.org/wiki/Epic_(web_browser)");
+
+            URL_Add("love you_", "https://www.allacronyms.com/LY/Love_You");
+
+            URL_Add("TAC_", "https://en.wikipedia.org/wiki/Type_Allocation_Code");
+
+            URL_Add("RFC_", "https://en.wikipedia.org/wiki/Remote_Function_Call");
+
+            URL_Add("RHEL_", "https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux");
+
+            URL_Add("USB_", "https://en.wikipedia.org/wiki/USB");
+
+            URL_Add("USB side version_", "https://learn.microsoft.com/en-us/windows-hardware/drivers/install/standard-usb-identifiers");
+
+            URL_Add("USB HID_", "https://en.wikipedia.org/wiki/USB_human_interface_device_class");
+
+            URL_Add("USB MSC_", "https://en.wikipedia.org/wiki/USB_mass_storage_device_class");
+
+            URL_Add("USB power delivery_", "https://en.wikipedia.org/wiki/USB_hardware#USB_Power_Delivery");
+
+            URL_Add("SOF_", "https://en.wikipedia.org/wiki/USB_communications#SOF:_Start-of-frame");
+
+            URL_Add("a lot_", "https://www.wikihow.com/Tell-the-Difference-Between-Alot,-Allot-and-A-Lot");
+
+            URL_Add("fellow_", "https://en.wiktionary.org/wiki/fellow#Noun");
+
+            URL_Add("follow_", "https://en.wiktionary.org/wiki/follow#Verb");
+
+            URL_Add("following_", "https://meta.stackoverflow.com/questions/422798/are-edits-that-only-remove-excessive-indentation-from-lazy-copy-pastes-an-improv#comment944208_422798");
+
+            URL_Add("follow up_", "https://en.wiktionary.org/wiki/follow_up#Verb");
+
+            URL_Add("far_", "https://en.wiktionary.org/wiki/far#Adverb");
+
+            URL_Add("fell_", "https://en.wiktionary.org/wiki/fall#Noun");
+
+            URL_Add("artificial superintelligence_", "https://en.wikipedia.org/wiki/Superintelligence#Feasibility_of_artificial_superintelligence");
+
+            URL_Add("simulated intelligence watermarking_", "https://en.wikipedia.org/wiki/Text_watermarking#History");
+
+            URL_Add("decision tree learning_", "https://en.wikipedia.org/wiki/Decision_tree_learning");
+
+            URL_Add("supervised learning_", "https://en.wikipedia.org/wiki/Supervised_learning");
+
+            URL_Add("deep learning_", "https://en.wikipedia.org/wiki/Deep_learning");
+
+            URL_Add("large language model_", "https://en.wikipedia.org/wiki/Large_language_model");
+
+            URL_Add("large language models_", "https://en.wikipedia.org/wiki/Large_language_model");
+
+            URL_Add("agent skill_", "https://www.reddit.com/r/qmk/comments/1v09ul7/comment/oz2ib4v/");
+
+            URL_Add("GPT_", "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer");
+
+            URL_Add("Copilot (copyright laundering machine)_", "https://odysee.com/@TheLinuxExperiment:e/microsoft-isn't-the-enemy-of-linux-and:3");
+
+            URL_Add("Hugging&nbsp;Face_", "https://en.wikipedia.org/wiki/Hugging_Face");
+
+            URL_Add("Anthropic_", "https://en.wikipedia.org/wiki/Anthropic");
+
+            URL_Add("test data set_", "https://en.wikipedia.org/wiki/Training,_validation,_and_test_data_sets");
+
+            URL_Add("Iris data set_", "https://en.wikipedia.org/wiki/Iris_flower_data_set");
+
+            URL_Add("computer vision_", "https://en.wikipedia.org/wiki/Computer_vision");
+
+            URL_Add("teal_", "https://en.wikipedia.org/wiki/Teal");
+
+            URL_Add("green_", "https://en.wikipedia.org/wiki/Environmentally_friendly");
+
+            URL_Add("redshift_", "https://en.wiktionary.org/wiki/redshift#Verb");
+
+            URL_Add("an utterly insignificant little blue-green planet_", "https://www.youtube.com/watch?v=rAh1JxNGkAM&list=PLSoD2CcPrumFJREVL6RmMnZP5U7sGYYi2&index=26&t=4s");
+
+            URL_Add("Bluetooth_", "https://en.wikipedia.org/wiki/Bluetooth2");
+
+            URL_Add("The Bluetooth version in the Keychron K Pro series keyboards is 2.0/2.1, not 5.1 as claimed_", "https://github.com/Keychron/qmk_firmware/issues/338#issuecomment-2564070299");
+
+            URL_Add("wired, Bluetooth, and '2.4 GHz'_", "https://www.durgod.com/blogs/what-is-dual-mode-and-tri-mode-in-mechanical-keyboard/");
+
+            URL_Add("download URL for Bluetooth firmware version 1.32_", "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/keychron_ckbt51_01.32.kfw");
+
+            URL_Add("download URL for Bluetooth firmware version 0.1.12_", "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/lkbt51_v0.1.12.kfw");
+
+            URL_Add("download URL for Bluetooth firmware version 0.1.13_", "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/lkbt51_v0.1.13.kfw");
+
+            URL_Add("download URL for Bluetooth firmware version 0.1.14_", "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/lkbt51_v0.1.14.kfw");
+
+            URL_Add("download URL for Bluetooth firmware version 0.1.15_", "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/lkbt51_v0.1.15.kfw");
+
+            URL_Add("download URL for Bluetooth firmware version 0.2.0_", "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/keychron_spi_tmode_fw0.2.0_2406131215.kfw");
+
+            URL_Add("download URL for Bluetooth firmware version 0.2.1_", "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/keychron_spi_tmode_fw0.2.1_2411091132.kfw");
 
         } //addLookupData_alternativeWordSet()
 
@@ -172036,6 +172038,7 @@ namespace OverflowHelper.core
             correctionAdd("heve__", "have__");
             correctionAdd("havw__", "have__"); // A true typo
             correctionAdd("kave__", "have__");
+            correctionAdd("hace__", "have__");
             correctionAdd("hae__", "have__");
             correctionAdd("hav__", "have__");
             correctionAdd("hva__", "have__");
@@ -178038,6 +178041,7 @@ namespace OverflowHelper.core
             // PC interface for hard disk drives, etc.
             correctionAdd("Integrated Drive Electronics___", "PATA___");
             correctionAdd("Parallel ATA___", "PATA___");
+            correctionAdd("pata___", "PATA___");
             correctionAdd("IDE___", "PATA___");
 
             // Electronics
@@ -180321,6 +180325,47 @@ namespace OverflowHelper.core
             // Embedded systems
             correctionAdd("HAL___", "STM32 HAL___");
 
+            // Alternative URLs:
+            //
+            //   <https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet>
+            //     dotnet command
+            //
+            correctionAdd("dot net core___", ".NET Core___");
+            correctionAdd("Dot net core___", ".NET Core___");
+            correctionAdd("Dot Net Core___", ".NET Core___");
+            correctionAdd("dotnet core___", ".NET Core___");
+            correctionAdd("DotNet Core___", ".NET Core___");
+            correctionAdd("DotNET_core___", ".NET Core___");
+            correctionAdd("dotnet-core___", ".NET Core___");
+            correctionAdd("DotNET core___", ".NET Core___");
+            correctionAdd("Dotnet core___", ".NET Core___");
+            correctionAdd("dotnetcore___", ".NET Core___");
+            correctionAdd("notnetcore___", ".NET Core___");
+            correctionAdd(". Net-core___", ".NET Core___");
+            correctionAdd(".net core___", ".NET Core___");
+            correctionAdd(".Net Core___", ".NET Core___");
+            correctionAdd(".net Core___", ".NET Core___");
+            correctionAdd(".NET core___", ".NET Core___");
+            correctionAdd(".Net core___", ".NET Core___");
+            correctionAdd(".Net-core___", ".NET Core___");
+            correctionAdd(".NET CORE___", ".NET Core___");
+            correctionAdd(".Net.core___", ".NET Core___");
+            correctionAdd(".nerdcore___", ".NET Core___"); // There is another meaning, but it was used in the context of .NET Core...
+            correctionAdd(".net-core___", ".NET Core___");
+            correctionAdd("Net Core___", ".NET Core___");
+            correctionAdd("net core___", ".NET Core___");
+            correctionAdd("net Core___", ".NET Core___");
+            correctionAdd(".netcore___", ".NET Core___");
+            correctionAdd(".NETCore___", ".NET Core___");
+            correctionAdd("Net.Core___", ".NET Core___");
+            correctionAdd(".NetCore___", ".NET Core___");
+            correctionAdd(".netCore___", ".NET Core___");
+            correctionAdd("netcore___", ".NET Core___");
+            correctionAdd("NetCore___", ".NET Core___");
+            correctionAdd("Core___", ".NET Core___");
+            correctionAdd("core___", ".NET Core___");
+            correctionAdd("CORE___", ".NET Core___");
+
             // Of the "B" programming language (also by Dennis Ritchie)
             //
             // Alternative URLs:
@@ -180924,6 +180969,8 @@ namespace OverflowHelper.core
             URL_Add("Lemokey&nbsp;X&nbsp;series___", "https://www.keychron.com/products/lemokey-x3-qmk-via-wired-mechanical-keyboard");
 
             URL_Add("Keychron keyboards' two-hour deep sleep___", "https://github.com/Keychron/qmk_firmware/issues/380#issuecomment-4886867229");
+
+            URL_Add(".NET Core___", "https://en.wikipedia.org/wiki/.NET#History"); // Even older: https://en.wikipedia.org/wiki/.NET_Framework#.NET_Core. Old: <https://en.wikipedia.org/wiki/.NET_Core>
 
         } //addLookupData_alternativeWordSet3()
 
