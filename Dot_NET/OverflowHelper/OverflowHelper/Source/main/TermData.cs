@@ -36255,6 +36255,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Kronecker", "Leopold Kronecker");
 
+            correctionAdd("Hans Christian Anderson", "Hans Christian Andersen");
+
             // An author, etc. Computer science
             correctionAdd("Knuth", "Donald Knuth");
             correctionAdd("knuth", "Donald Knuth");
@@ -64746,6 +64748,8 @@ namespace OverflowHelper.core
             correctionAdd("MKs", "mechanical keyboards");
             correctionAdd("mks", "mechanical keyboards");
 
+            correctionAdd("frankenboard", "Frankenboard");
+
             // E.g., description of a particular kind of sound
             //       from a mechanical keyboard (when operated)
             correctionAdd("cremiest", "creamiest");
@@ -68116,6 +68120,7 @@ namespace OverflowHelper.core
             correctionAdd("Eur Key", "EurKEY keyboard layout");
             correctionAdd("eur KEY", "EurKEY keyboard layout");
             correctionAdd("EUR key", "EurKEY keyboard layout");
+            correctionAdd("eur key", "EurKEY keyboard layout");
             correctionAdd("EURKey", "EurKEY keyboard layout");
             correctionAdd("EurKEY", "EurKEY keyboard layout");
             correctionAdd("eurKEY", "EurKEY keyboard layout");
@@ -68228,6 +68233,7 @@ namespace OverflowHelper.core
             correctionAdd("US internation", "US-International keyboard layout");
             correctionAdd("us internation", "US-International keyboard layout");
             correctionAdd("us intl", "US-International keyboard layout");
+            correctionAdd("US intl", "US-International keyboard layout");
             correctionAdd("US int", "US-International keyboard layout");
             correctionAdd("us int", "US-International keyboard layout");
             correctionAdd("US Int", "US-International keyboard layout");
@@ -88106,8 +88112,8 @@ namespace OverflowHelper.core
             //
             // Note: Not RGB LEDs, only red LEDs.
             //
-            // RGB (per-key) north-facing (***no*** unwanted light
-            // bleed) lighting.
+            // RGB (per-key) north-facing (***no***
+            // unwanted light bleed) lighting.
             //
             correctionAdd("Lemokey X4", "Keychron Lemokey X4");
             correctionAdd("LK X4", "Keychron Lemokey X4");
@@ -88141,8 +88147,8 @@ namespace OverflowHelper.core
             //
             // It is likely based on a RISC-V microcontroller
             //
-            // RGB (per-key) north-facing (***no*** unwanted light
-            // bleed) lighting
+            // RGB (per-key) north-facing (***no***
+            // unwanted light bleed) lighting
             //
             // Notes:
             //
@@ -88192,8 +88198,8 @@ namespace OverflowHelper.core
             // (both Bluetooth and '2.4 GHz') QMK/Via-capable
             // mechanical keyboard with a knob from Keychron.
             //
-            // RGB (per-key) north-facing (***no*** unwanted light
-            // bleed) lighting
+            // RGB (per-key) north-facing (***no***
+            // unwanted light bleed) lighting
             //
             // J2 user manual:
             //
@@ -88221,8 +88227,8 @@ namespace OverflowHelper.core
             //
             // It is likely based on a RISC-V microcontroller
             //
-            // RGB (per-key) north-facing (***no*** unwanted light
-            // bleed) lighting
+            // RGB (per-key) north-facing (***no***
+            // unwanted light bleed) lighting
             //
             // Notes:
             //
@@ -89819,6 +89825,7 @@ namespace OverflowHelper.core
             // mechanical keyboard from Keychron without a knob.
             // Gateron switches (branded as "K Pro",
             // e.g. "K Pro Brown").
+            //
             // RGB (per-key) north-facing (***no*** unwanted light
             // bleed) lighting (by virtue of being a low-profile
             // keyboard).
@@ -89892,8 +89899,8 @@ namespace OverflowHelper.core
             // QMK-capable mechanical keyboard from Keychron
             // without a knob.
             //
-            // RGB (per-key) north-facing (***no*** unwanted light
-            // bleed) lighting:
+            // RGB (per-key) north-facing (***no***
+            // unwanted light bleed) lighting:
             //
             //   <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/hot-swappable-feature-of-the-K1-Max.jpg>
             //
@@ -90367,8 +90374,8 @@ namespace OverflowHelper.core
             // (both Bluetooth and '2.4 GHz') QMK/Via-capable
             // mechanical keyboard with a knob from Keychron.
             //
-            // RGB (per-key) north-facing (***no*** unwanted light
-            // bleed) lighting
+            // RGB (per-key) north-facing (***no***
+            // unwanted light bleed) lighting
             //
             // Sample SKU number: KJ4-H4Z
             //
@@ -90797,8 +90804,8 @@ namespace OverflowHelper.core
             // mechanical keyboard from Keychron
             // with a knob.
             //
-            // RGB (per-key) north-facing (***no*** unwanted
-            // light bleed) lighting.
+            // RGB (per-key) north-facing (***no***
+            // unwanted light bleed) lighting.
             //
             // It has five dedicated physical macro
             // keys to the left, M1-M5. And a knob.
@@ -90851,8 +90858,8 @@ namespace OverflowHelper.core
             // QMK/Via-capable mechanical keyboard
             // from Keychron with a knob.
             //
-            // RGB (per-key) north-facing (***no*** unwanted
-            // light bleed) lighting.
+            // RGB (per-key) north-facing (***no***
+            // unwanted light bleed) lighting.
             //
             // It has five dedicated physical macro
             // keys to the left, M1-M5. And a knob.
@@ -91043,8 +91050,8 @@ namespace OverflowHelper.core
             // wired and wireless (only Bluetooth) QMK/Via-capable
             // mechanical keyboard from Keychron without a knob.
             //
-            // RGB (per-key) north-facing (***no*** unwanted light
-            // bleed) lighting.
+            // RGB (per-key) north-facing (***no***
+            // unwanted light bleed) lighting.
             //
             // Notes:
             //
@@ -92690,7 +92697,8 @@ namespace OverflowHelper.core
             //
             // Like K10 V2, but with Hall sensor (HE) switches.
             //
-            // North-facing RGB LED light.
+            // RGB (per-key) north-facing (***no***
+            // unwanted light bleed) lighting.
             //
             // ANSI product page:
             //
@@ -92774,8 +92782,8 @@ namespace OverflowHelper.core
             //
             // Not RGB LEDs, only red LEDs.
             //
-            // RGB (per-key) north-facing (***no*** unwanted light
-            // bleed) lighting.
+            // RGB (per-key) north-facing (***no***
+            // unwanted light bleed) lighting.
             //
             correctionAdd("Lemonkey X2", "Keychron Lemokey X2");
             correctionAdd("Lemokey X2", "Keychron Lemokey X2");
@@ -92785,8 +92793,8 @@ namespace OverflowHelper.core
             // wired-only QMK/Via-capable mechanical
             // keyboard from Keychron without a knob.
             //
-            // RGB (per-key) north-facing (***no*** unwanted light
-            // bleed) lighting.
+            // RGB (per-key) north-facing (***no***
+            // unwanted light bleed) lighting.
             //
             // Both RGB and red LED variants.
             //
@@ -94503,8 +94511,8 @@ namespace OverflowHelper.core
             // wired and wireless (only Bluetooth) QMK/Via-capable
             // mechanical keyboard from Keychron without a knob.
             //
-            // RGB (per-key) north-facing (***no*** unwanted light
-            // bleed) lighting.
+            // RGB (per-key) north-facing (***no***
+            // unwanted light bleed) lighting.
             //
             // ANSI product page:
             //
@@ -94707,6 +94715,18 @@ namespace OverflowHelper.core
             correctionAdd("k5 Max", "Keychron&nbsp;K5&nbsp;Max");
             correctionAdd("K5-Max", "Keychron&nbsp;K5&nbsp;Max");
 
+            // A 109-key (105%. Not true TKL) full-size low-profile
+            // wired-only ZMK/Via-capable mechanical keyboard
+            // from Keychron with a knob.
+            //
+            // RGB (per-key) north-facing (***no*** unwanted light
+            // bleed) lighting. North-facing because it is a
+            // low-profile keyboard.
+            //
+            // K5 Max source code:
+            //
+            //   <https://github.com/Keychron/zmk/tree/rtl8762g/app/boards/shields/keychron_k5_ultra_iso>
+            //
             correctionAdd("Keychron K5 Ultra 8K (105%)", "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)"); // Sort of identity mapping
             correctionAdd("K5&nbsp;Ultra&nbsp;8K", "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)");
             correctionAdd("K5 Ultra 8K", "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)");
@@ -94993,6 +95013,9 @@ namespace OverflowHelper.core
             // ZMK/Via-capable mechanical keyboard
             // from Keychron without a knob.
             //
+            // RGB (per-key) south-facing (unwanted
+            // ***light bleed***) lighting.
+            //
             // Notes:
             //
             //   * Based on ZMK, not QMK
@@ -95024,7 +95047,8 @@ namespace OverflowHelper.core
             // QMK/Via-capable mechanical keyboard
             // from Keychron without a knob.
             //
-            // RGB (per-key) north-facing (***no*** unwanted light bleed) lighting.
+            // RGB (per-key) north-facing (***no***
+            // unwanted light bleed) lighting.
             //
             // J5 source code:
             //
@@ -115466,6 +115490,8 @@ namespace OverflowHelper.core
             URL_Add("CircuiTikZ", "https://en.wikipedia.org/wiki/CircuiTikZ");
 
             URL_Add("Donald Knuth", "https://en.wikipedia.org/wiki/Donald_Knuth");
+
+            URL_Add("Hans Christian Andersen", "https://en.wikipedia.org/wiki/Hans_Christian_Andersen");
 
             URL_Add("Excite", "https://en.wikipedia.org/wiki/Excite");
 
@@ -136970,6 +136996,8 @@ namespace OverflowHelper.core
             URL_Add("mechanical keyboard", "https://en.wikipedia.org/wiki/Keyboard_technology#Metal_contact"); // Old: <https://en.wikipedia.org/wiki/Keyboard_technology#Mechanical-switch_keyboard>. Old: <https://en.wikipedia.org/wiki/Keyboard_technology#Discrete-switch_keyboard>
 
             URL_Add("mechanical keyboards", "https://en.wikipedia.org/wiki/Keyboard_technology#Metal_contact"); // Old: <https://en.wikipedia.org/wiki/Keyboard_technology#Mechanical-switch_keyboard>
+
+            URL_Add("Frankenboard", "https://deskauthority.saberkeebs.com/wiki.themk.org/index.php/Frankenboard.html");
 
             URL_Add("daily driver", "https://en.wiktionary.org/wiki/daily_driver#Noun");
 
@@ -159038,9 +159066,15 @@ namespace OverflowHelper.core
             //     Though QMK support started in late 2024 (though is
             //     it a K5 Pro in disguise?), K5 V2 AKA K5 QMK:
             //
-            //       <https://www.keychron.com/products/keychron-k5-qmk-wireless-mechanical-keyboard-version-2>
-            //         But the source code was not released until
-            //         2025-03-28 (it is Keychron, after all)
+            //       ISO:
+            //
+            //         <https://www.keychron.com/products/keychron-k5-qmk-wireless-mechanical-keyboard-iso-layout-version-2>
+            //
+            //       ANSI:
+            //
+            //         <https://www.keychron.com/products/keychron-k5-qmk-wireless-mechanical-keyboard-version-2>
+            //           But the source code was not released until
+            //           2025-03-28 (it is Keychron, after all)
             //
             //   * Completely separate product page for the special
             //     edition (SE), without (sadly) any cross linking:
@@ -161308,6 +161342,7 @@ namespace OverflowHelper.core
             correctionAdd("emptry_", "empty_");
             correctionAdd("emply_", "empty_");
             correctionAdd("mpty_", "empty_");
+            correctionAdd("leer_", "empty_");
             correctionAdd("mty_", "empty_");
 
             correctionAdd("Sample_", "sample_");
@@ -172015,30 +172050,30 @@ namespace OverflowHelper.core
             correctionAdd("hasve__", "have__");
             correctionAdd("nhave__", "have__"); // A true typo (involving the space bar)
             correctionAdd("havae__", "have__");
-            correctionAdd("hava__", "have__");
-            correctionAdd("Hvae__", "have__");
-            correctionAdd("hvae__", "have__");
+            correctionAdd("Have__", "have__");
             correctionAdd("habe__", "have__"); // A true typo
             correctionAdd("Habe__", "have__"); // A true typo
+            correctionAdd("hava__", "have__");
+            correctionAdd("havw__", "have__"); // A true typo
+            correctionAdd("hace__", "have__"); // A true typo
+            correctionAdd("haev__", "have__"); // A true typo
+            correctionAdd("hvae__", "have__"); // A true typo
+            correctionAdd("Hvae__", "have__");
             correctionAdd("hane__", "have__");
-            correctionAdd("hwne__", "have__");
-            correctionAdd("nave__", "have__"); // A true typo
-            correctionAdd("jave__", "have__");
-            correctionAdd("Have__", "have__");
-            correctionAdd("vave__", "have__");
-            correctionAdd("ahve__", "have__");
-            correctionAdd("hsve__", "have__");
-            correctionAdd("hove__", "have__");
-            correctionAdd("gave__", "have__"); // A true typo
-            correctionAdd("mave__", "have__");
-            correctionAdd("ha e__", "have__"); // A true typo (involving the space bar)
-            correctionAdd("ahev__", "have__");
-            correctionAdd("haev__", "have__");
             correctionAdd("haft__", "have__");
             correctionAdd("heve__", "have__");
-            correctionAdd("havw__", "have__"); // A true typo
+            correctionAdd("hove__", "have__");
+            correctionAdd("hsve__", "have__");
+            correctionAdd("hwne__", "have__");
+            correctionAdd("ha e__", "have__"); // A true typo (involving the space bar)
+            correctionAdd("ahve__", "have__");
+            correctionAdd("ahev__", "have__");
+            correctionAdd("gave__", "have__"); // A true typo
+            correctionAdd("jave__", "have__");
             correctionAdd("kave__", "have__");
-            correctionAdd("hace__", "have__");
+            correctionAdd("nave__", "have__"); // A true typo
+            correctionAdd("mave__", "have__");
+            correctionAdd("vave__", "have__");
             correctionAdd("hae__", "have__");
             correctionAdd("hav__", "have__");
             correctionAdd("hva__", "have__");
