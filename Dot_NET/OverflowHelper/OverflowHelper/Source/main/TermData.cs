@@ -6592,6 +6592,28 @@ namespace OverflowHelper.core
             correctionAdd("Flatpack", "Flatpak");
             correctionAdd("flatpak", "Flatpak");
 
+            // The only entry with "brake" as part of the correct word...
+            correctionAdd("disk brake", "disc brake");
+
+            // The noun (or was the intent the verb?)
+            correctionAdd("brake", "break");
+
+            // The verb
+            correctionAdd("brakes", "breaks");
+
+            correctionAdd("braking", "breaking");
+
+            correctionAdd("breaked", "broke");
+            correctionAdd("broked", "broke"); // A misspelling/grammar mistake ('break' is an irregular verb)
+            correctionAdd("broker", "broke"); // A true typo of the misspelling/grammar mistake "broked"...
+
+            correctionAdd("borken", "broken");
+            correctionAdd("proken", "broken");
+
+            correctionAdd("non-broken", "nonbroken");
+
+            correctionAdd("half broken", "half-broken");
+
             correctionAdd("thresh-hold", "threshold");
             correctionAdd("threeshold", "threshold");
             correctionAdd("threshhold", "threshold");
@@ -7842,6 +7864,7 @@ namespace OverflowHelper.core
             correctionAdd("Knowledge Transfer", "knowledge transfer");
 
             correctionAdd("knowhow", "know-how");
+            correctionAdd("nohau", "know-how");
 
             correctionAdd("knowlodge", "knowledge");
             correctionAdd("KNAWLEDGE", "knowledge");
@@ -15327,6 +15350,7 @@ namespace OverflowHelper.core
             correctionAdd("gig", "&nbsp;GB");
             correctionAdd("Gig", "&nbsp;GB");
             correctionAdd("gbs", "&nbsp;GB");
+            correctionAdd("GiB", "&nbsp;GB");
             correctionAdd("Gi", "&nbsp;GB");
             correctionAdd("Gb", "&nbsp;GB");
             correctionAdd("gb", "&nbsp;GB"); // Assuming bytes, not bits...
@@ -28888,6 +28912,8 @@ namespace OverflowHelper.core
             correctionAdd("EMS", "emergency medical services");
             correctionAdd("ems", "emergency medical services");
 
+            correctionAdd("EMT", "emergency medical technician");
+
             correctionAdd("British Medical Journal", "The BMJ");
             correctionAdd("BMJ", "The BMJ");
 
@@ -35720,6 +35746,31 @@ namespace OverflowHelper.core
 
             correctionAdd("running costs", "operating costs");
 
+            correctionAdd("walking calculator", "robot");
+
+            correctionAdd("Robotic", "robotic");
+            correctionAdd("roboitc", "robotic");
+
+            correctionAdd("robot framework", "Robot Framework");
+            correctionAdd("Robot framework", "Robot Framework");
+            correctionAdd("robotframework", "Robot Framework");
+            correctionAdd("RobotFramework", "Robot Framework");
+            correctionAdd("Robot", "Robot Framework");
+
+            // Robot Framework. Selenium.
+            correctionAdd("press key", "Press Key");
+
+            // Robot Framework. Selenium.
+            correctionAdd("press keys", "Press Keys");
+
+            correctionAdd("RPA", "robotic process automation");
+
+            // Robotics software
+            correctionAdd("johnny five", "Johnny-Five");
+            correctionAdd("Johnny Five", "Johnny-Five");
+
+            correctionAdd("gazebo", "Gazebo"); // A robotics simulator
+
             // HTML / web
             correctionAdd("robots.txt", "robots exclusion standard");
 
@@ -36493,6 +36544,185 @@ namespace OverflowHelper.core
 
             correctionAdd("fasta", "FASTA format");
             correctionAdd("FASTA", "FASTA format");
+
+            correctionAdd("quiete", "quiet");
+            correctionAdd("quiat", "quiet");
+            correctionAdd("quite", "quiet");
+            correctionAdd("Quite", "quiet");
+
+            correctionAdd("quiter", "quieter");
+
+            correctionAdd("most quietest", "quietest");
+            correctionAdd("most quiet", "quietest");
+            correctionAdd("Quietest", "quietest");
+
+            correctionAdd("quitely", "quietly");
+            correctionAdd("quetly", "quietly");
+
+            // Internet slang (for the abbr.)
+            correctionAdd("tbqh", "to be quite honest");
+
+            correctionAdd("Non Sequitur", "non sequitur");
+            correctionAdd("non-sequitur", "non sequitur");
+            correctionAdd("non-sequiter", "non sequitur");
+            correctionAdd("non sequiter", "non sequitur");
+            correctionAdd("nonsequitur", "non sequitur");
+
+            correctionAdd("ettiquette", "etiquette");
+            correctionAdd("etiquitte", "etiquette");
+            correctionAdd("ettiquite", "etiquette");
+            correctionAdd("etiquite", "etiquette");
+
+            correctionAdd("honest-to-god", "honest-to-God");
+
+            correctionAdd("honest to goodness", "honest-to-goodness");
+
+            correctionAdd("honsestly", "honestly");
+            correctionAdd("Honsestly", "honestly");
+            correctionAdd("Hohnestly", "honestly");
+            correctionAdd("hohnestly", "honestly");
+            correctionAdd("honsetly", "honestly");
+            correctionAdd("honetly", "honestly");
+            correctionAdd("onestly", "honestly");
+            correctionAdd("honstly", "honestly");
+
+            correctionAdd("dihonest", "dishonest");
+
+            // Idiomatic
+            correctionAdd("in alm honesty", "in all honesty");
+            correctionAdd("In alm honesty", "in all honesty");
+
+            // Internet slang (for the abbr.)
+            correctionAdd("TBH", "to be honest");
+            correctionAdd("tbh", "to be honest");
+            correctionAdd("Tbh", "to be honest");
+
+            correctionAdd("honest opinion", "in my honest opinion");
+            correctionAdd("my HO", "in my honest opinion");
+            correctionAdd("HO", "in my honest opinion");
+
+            correctionAdd("In my humble opinion", "in my humble opinion");
+            correctionAdd("imho", "in my humble opinion");
+            correctionAdd("Imho", "in my humble opinion");
+            correctionAdd("IHMO", "in my humble opinion");
+            correctionAdd("IMHO", "in my humble opinion");
+
+            // Internet slang (for the abbr.)
+            correctionAdd("tbch", "to be completely honest");
+
+            correctionAdd("Oppinionated", "opinionated");
+            correctionAdd("oppinionated", "opinionated");
+            correctionAdd("Opinionated", "opinionated");
+            correctionAdd("opinonated", "opinionated");
+            correctionAdd("opiniated", "opinionated");
+
+            correctionAdd("oppinnion", "opinion");
+            correctionAdd("opionion", "opinion");
+            correctionAdd("opinnion", "opinion");
+            correctionAdd("oppinion", "opinion");
+            correctionAdd("opionon", "opinion");
+            correctionAdd("opinon", "opinion");
+            correctionAdd("opion", "opinion");
+
+            correctionAdd("in my not-so-humble opinion", "In my not-so-humble opinion");
+            correctionAdd("IMNSHO", "In my not-so-humble opinion");
+
+            correctionAdd("in my opinion", "IMO");
+            correctionAdd("imo", "IMO");
+            correctionAdd("Imo", "IMO");
+
+            correctionAdd("requries", "require"); // Not 100% correct, third-person singular
+            correctionAdd("requiere", "require");
+            correctionAdd("requiren", "require");
+            correctionAdd("resquire", "require"); // A true typo
+            correctionAdd("requrie", "require");
+            correctionAdd("reqiure", "require");
+            correctionAdd("recwire", "require");
+            correctionAdd("requite", "require");
+            correctionAdd("reuire", "require");
+
+            correctionAdd("resquires", "requires"); // A true typo
+            correctionAdd("recwires", "requires");
+
+            correctionAdd("reqiuring", "requiring");
+
+            correctionAdd("requeired", "required");
+            correctionAdd("requiered", "required");
+            correctionAdd("requried", "required"); // A true typo
+            correctionAdd("Requried", "required");
+            correctionAdd("requred", "required");
+            correctionAdd("reqd", "required");
+
+            correctionAdd("unrequired", "nonrequired");
+
+            correctionAdd("require.js", "RequireJS");
+            correctionAdd("Require.js", "RequireJS");
+            correctionAdd("requirejs", "RequireJS");
+            correctionAdd("RequireJs", "RequireJS");
+            correctionAdd("requireJS", "RequireJS");
+            correctionAdd("Requirejs", "RequireJS");
+            correctionAdd("RequreJS", "RequireJS");
+
+            correctionAdd("requriement", "requirement");
+            correctionAdd("requeriment", "requirement");
+            correctionAdd("requierment", "requirement");
+            correctionAdd("requirment", "requirement");
+            correctionAdd("requrement", "requirement");
+            correctionAdd("requiremnt", "requirement");
+            correctionAdd("REQMNT", "requirement");
+            correctionAdd("reqmnt", "requirement");
+            correctionAdd("req", "requirement");
+
+            correctionAdd("requriments", "requirements");
+            correctionAdd("Requirments", "requirements");
+            correctionAdd("requirments", "requirements");
+            correctionAdd("requiements", "requirements");
+            correctionAdd("REQMNT'S", "requirements");
+            correctionAdd("reqmnt's", "requirements");
+            correctionAdd("REQMNTS", "requirements");
+            correctionAdd("reqmnts", "requirements");
+            correctionAdd("reqs", "requirements");
+
+            correctionAdd("prerequiresite", "prerequisite");
+            correctionAdd("pre-requisite", "prerequisite"); // Misspelling.
+            correctionAdd("prereqiusite", "prerequisite");
+            correctionAdd("Prerequisite", "prerequisite");
+            correctionAdd("prerequisit", "prerequisite"); // Misspelling.
+            correctionAdd("prerequsite", "prerequisite");
+            correctionAdd("prequisite", "prerequisite");
+            correctionAdd("prerequite", "prerequisite"); // Misspelling.
+            correctionAdd("pre-req", "prerequisite");
+            correctionAdd("Pre-req", "prerequisite"); // Not 100% correct - case.
+            correctionAdd("prereq", "prerequisite");
+
+            correctionAdd("pre requisities", "prerequisites");
+            correctionAdd("pre- requisites", "prerequisites");
+            correctionAdd("pre-requisites", "prerequisites");
+            correctionAdd("prerequisities", "prerequisites");
+            correctionAdd("prereqiusites", "prerequisites");
+            correctionAdd("Prerequisites", "prerequisites");
+            correctionAdd("pre-requiests", "prerequisites");
+            correctionAdd("prerequisties", "prerequisites");
+            correctionAdd("prerequiests", "prerequisites");
+            correctionAdd("prequisates", "prerequisites"); // Misspelling.
+            correctionAdd("Prequisites", "prerequisites");
+            correctionAdd("prequisites", "prerequisites");
+            correctionAdd("Prerequites", "prerequisites"); // Misspelling.
+            correctionAdd("prerequites", "prerequisites"); // Misspelling.
+            correctionAdd("prequites", "prerequisites");
+            correctionAdd("prereqs", "prerequisites");
+            correctionAdd("Prereqs", "prerequisites");
+
+            correctionAdd("requisit", "requisite");
+
+            // A noun
+            correctionAdd("requisits", "requisites");
+            correctionAdd("requites", "requisites"); // Misspelling.
+
+            // Note: "request" and "requests" are in an alternative word
+            //       set. But the Python library "Requests" is here...
+            //
+            correctionAdd("requestedt", "requested");
 
             correctionAdd("indentitation", "indentation");
             correctionAdd("indendation", "indentation");
@@ -39519,28 +39749,6 @@ namespace OverflowHelper.core
             correctionAdd("key words", "keywords");
             correctionAdd("Keywords", "keywords");
 
-            // The only entry with "brake" as part of the correct word...
-            correctionAdd("disk brake", "disc brake");
-
-            // The noun (or was the intent the verb?)
-            correctionAdd("brake", "break");
-
-            // The verb
-            correctionAdd("brakes", "breaks");
-
-            correctionAdd("braking", "breaking");
-
-            correctionAdd("breaked", "broke");
-            correctionAdd("broked", "broke"); // A misspelling/grammar mistake ('break' is an irregular verb)
-            correctionAdd("broker", "broke"); // A true typo of the misspelling/grammar mistake "broked"...
-
-            correctionAdd("borken", "broken");
-            correctionAdd("proken", "broken");
-
-            correctionAdd("non-broken", "nonbroken");
-
-            correctionAdd("half broken", "half-broken");
-
             correctionAdd("bare-word", "bareword");
 
             correctionAdd("bare bones", "bare-bones");
@@ -42021,67 +42229,6 @@ namespace OverflowHelper.core
             correctionAdd("Wonderful", "wonderful");
             correctionAdd("Wondrful", "wonderful");
             correctionAdd("wondrful", "wonderful");
-
-            correctionAdd("honest-to-god", "honest-to-God");
-
-            correctionAdd("honest to goodness", "honest-to-goodness");
-
-            correctionAdd("honsestly", "honestly");
-            correctionAdd("Honsestly", "honestly");
-            correctionAdd("Hohnestly", "honestly");
-            correctionAdd("hohnestly", "honestly");
-            correctionAdd("honsetly", "honestly");
-            correctionAdd("honetly", "honestly");
-            correctionAdd("onestly", "honestly");
-            correctionAdd("honstly", "honestly");
-
-            correctionAdd("dihonest", "dishonest");
-
-            // Idiomatic
-            correctionAdd("in alm honesty", "in all honesty");
-            correctionAdd("In alm honesty", "in all honesty");
-
-            // Internet slang (for the abbr.)
-            correctionAdd("TBH", "to be honest");
-            correctionAdd("tbh", "to be honest");
-            correctionAdd("Tbh", "to be honest");
-
-            // Internet slang (for the abbr.)
-            correctionAdd("tbqh", "to be quite honest");
-
-            correctionAdd("honest opinion", "in my honest opinion");
-            correctionAdd("my HO", "in my honest opinion");
-            correctionAdd("HO", "in my honest opinion");
-
-            correctionAdd("In my humble opinion", "in my humble opinion");
-            correctionAdd("imho", "in my humble opinion");
-            correctionAdd("Imho", "in my humble opinion");
-            correctionAdd("IHMO", "in my humble opinion");
-            correctionAdd("IMHO", "in my humble opinion");
-
-            // Internet slang (for the abbr.)
-            correctionAdd("tbch", "to be completely honest");
-
-            correctionAdd("Oppinionated", "opinionated");
-            correctionAdd("oppinionated", "opinionated");
-            correctionAdd("Opinionated", "opinionated");
-            correctionAdd("opinonated", "opinionated");
-            correctionAdd("opiniated", "opinionated");
-
-            correctionAdd("oppinnion", "opinion");
-            correctionAdd("opionion", "opinion");
-            correctionAdd("opinnion", "opinion");
-            correctionAdd("oppinion", "opinion");
-            correctionAdd("opionon", "opinion");
-            correctionAdd("opinon", "opinion");
-            correctionAdd("opion", "opinion");
-
-            correctionAdd("in my not-so-humble opinion", "In my not-so-humble opinion");
-            correctionAdd("IMNSHO", "In my not-so-humble opinion");
-
-            correctionAdd("in my opinion", "IMO");
-            correctionAdd("imo", "IMO");
-            correctionAdd("Imo", "IMO");
 
             correctionAdd("ten cents", "two cents");
             correctionAdd("2 cents", "two cents");
@@ -60319,29 +60466,6 @@ namespace OverflowHelper.core
 
             correctionAdd("double-duty", "double duty");
 
-            correctionAdd("Robotic", "robotic");
-            correctionAdd("roboitc", "robotic");
-
-            correctionAdd("robot framework", "Robot Framework");
-            correctionAdd("Robot framework", "Robot Framework");
-            correctionAdd("robotframework", "Robot Framework");
-            correctionAdd("RobotFramework", "Robot Framework");
-            correctionAdd("Robot", "Robot Framework");
-
-            // Robot Framework. Selenium.
-            correctionAdd("press key", "Press Key");
-
-            // Robot Framework. Selenium.
-            correctionAdd("press keys", "Press Keys");
-
-            correctionAdd("RPA", "robotic process automation");
-
-            // Robotics software
-            correctionAdd("johnny five", "Johnny-Five");
-            correctionAdd("Johnny Five", "Johnny-Five");
-
-            correctionAdd("gazebo", "Gazebo"); // A robotics simulator
-
             correctionAdd("codegear", "CodeGear");
 
             correctionAdd("Codepad", "CodePad");
@@ -61559,20 +61683,6 @@ namespace OverflowHelper.core
             correctionAdd("hypocraphy", "hypocrisy");
             correctionAdd("hypocricy", "hypocrisy");
             correctionAdd("hypocrasy", "hypocrisy");
-
-            correctionAdd("quiete", "quiet");
-            correctionAdd("quiat", "quiet");
-            correctionAdd("quite", "quiet");
-            correctionAdd("Quite", "quiet");
-
-            correctionAdd("quiter", "quieter");
-
-            correctionAdd("most quietest", "quietest");
-            correctionAdd("most quiet", "quietest");
-            correctionAdd("Quietest", "quietest");
-
-            correctionAdd("quitely", "quietly");
-            correctionAdd("quetly", "quietly");
 
             correctionAdd("more fast", "faster");
             correctionAdd("Faster", "faster");
@@ -74372,6 +74482,7 @@ namespace OverflowHelper.core
             correctionAdd("Grammer", "grammar");
             correctionAdd("gramer", "grammar");
             correctionAdd("gramar", "grammar");
+            correctionAdd("gramma", "grammar");
 
             correctionAdd("gramatical", "grammatical");
             correctionAdd("gramitical", "grammatical");
@@ -76938,99 +77049,6 @@ namespace OverflowHelper.core
             correctionAdd("despite common belief", "contrary to popular belief");
             correctionAdd("common believe", "contrary to popular belief");
             correctionAdd("common belief", "contrary to popular belief");
-
-            correctionAdd("requries", "require"); // Not 100% correct, third-person singular
-            correctionAdd("requiere", "require");
-            correctionAdd("requiren", "require");
-            correctionAdd("resquire", "require"); // A true typo
-            correctionAdd("requrie", "require");
-            correctionAdd("reqiure", "require");
-            correctionAdd("recwire", "require");
-            correctionAdd("requite", "require");
-            correctionAdd("reuire", "require");
-
-            correctionAdd("resquires", "requires"); // A true typo
-            correctionAdd("recwires", "requires");
-
-            correctionAdd("reqiuring", "requiring");
-
-            correctionAdd("requeired", "required");
-            correctionAdd("requiered", "required");
-            correctionAdd("requried", "required"); // A true typo
-            correctionAdd("Requried", "required");
-            correctionAdd("requred", "required");
-            correctionAdd("reqd", "required");
-
-            correctionAdd("unrequired", "nonrequired");
-
-            correctionAdd("require.js", "RequireJS");
-            correctionAdd("Require.js", "RequireJS");
-            correctionAdd("requirejs", "RequireJS");
-            correctionAdd("RequireJs", "RequireJS");
-            correctionAdd("requireJS", "RequireJS");
-            correctionAdd("Requirejs", "RequireJS");
-            correctionAdd("RequreJS", "RequireJS");
-
-            correctionAdd("requriement", "requirement");
-            correctionAdd("requeriment", "requirement");
-            correctionAdd("requierment", "requirement");
-            correctionAdd("requirment", "requirement");
-            correctionAdd("requrement", "requirement");
-            correctionAdd("requiremnt", "requirement");
-            correctionAdd("REQMNT", "requirement");
-            correctionAdd("reqmnt", "requirement");
-            correctionAdd("req", "requirement");
-
-            correctionAdd("requriments", "requirements");
-            correctionAdd("Requirments", "requirements");
-            correctionAdd("requirments", "requirements");
-            correctionAdd("requiements", "requirements");
-            correctionAdd("REQMNT'S", "requirements");
-            correctionAdd("reqmnt's", "requirements");
-            correctionAdd("REQMNTS", "requirements");
-            correctionAdd("reqmnts", "requirements");
-            correctionAdd("reqs", "requirements");
-
-            correctionAdd("prerequiresite", "prerequisite");
-            correctionAdd("pre-requisite", "prerequisite"); // Misspelling.
-            correctionAdd("prereqiusite", "prerequisite");
-            correctionAdd("Prerequisite", "prerequisite");
-            correctionAdd("prerequisit", "prerequisite"); // Misspelling.
-            correctionAdd("prerequsite", "prerequisite");
-            correctionAdd("prerequite", "prerequisite"); // Misspelling.
-            correctionAdd("prequisite", "prerequisite");
-            correctionAdd("pre-req", "prerequisite");
-            correctionAdd("Pre-req", "prerequisite"); // Not 100% correct - case.
-            correctionAdd("prereq", "prerequisite");
-
-            correctionAdd("pre requisities", "prerequisites");
-            correctionAdd("pre- requisites", "prerequisites");
-            correctionAdd("pre-requisites", "prerequisites");
-            correctionAdd("prerequisities", "prerequisites");
-            correctionAdd("prereqiusites", "prerequisites");
-            correctionAdd("Prerequisites", "prerequisites");
-            correctionAdd("pre-requiests", "prerequisites");
-            correctionAdd("prerequisties", "prerequisites");
-            correctionAdd("prerequiests", "prerequisites");
-            correctionAdd("Prerequites", "prerequisites"); // Misspelling.
-            correctionAdd("prerequites", "prerequisites"); // Misspelling.
-            correctionAdd("prequisates", "prerequisites"); // Misspelling.
-            correctionAdd("Prequisites", "prerequisites");
-            correctionAdd("prequisites", "prerequisites");
-            correctionAdd("prequites", "prerequisites");
-            correctionAdd("prereqs", "prerequisites");
-            correctionAdd("Prereqs", "prerequisites");
-
-            correctionAdd("requisit", "requisite");
-
-            // A noun
-            correctionAdd("requites", "requisites"); // Misspelling.
-            correctionAdd("requisits", "requisites");
-
-            // Note: "request" and "requests" are in an alternative word
-            //       set. But the Python library "Requests" is here...
-            //
-            correctionAdd("requestedt", "requested");
 
             correctionAdd("Ejs", "EJS");
             correctionAdd("ejs", "EJS");
@@ -104565,14 +104583,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Linguistics", "linguistics");
 
-            correctionAdd("Non Sequitur", "non sequitur");
-            correctionAdd("non sequiter", "non sequitur");
-            correctionAdd("non-sequiter", "non sequitur");
-            correctionAdd("non-sequitur", "non sequitur");
-            correctionAdd("nonsequitur", "non sequitur");
-
-            correctionAdd("syntastic", "Syntastic");
             correctionAdd("Synstastic", "Syntastic");
+            correctionAdd("syntastic", "Syntastic");
 
             // Related to Vim and TypeScript
             correctionAdd("tsuquyomi", "Tsuquyomi");
@@ -105446,11 +105458,6 @@ namespace OverflowHelper.core
             correctionAdd("detente", "détente");
 
             correctionAdd("flip side", "flipside");
-
-            correctionAdd("ettiquette", "etiquette");
-            correctionAdd("etiquitte", "etiquette");
-            correctionAdd("ettiquite", "etiquette");
-            correctionAdd("etiquite", "etiquette");
 
             correctionAdd("Nirvana", "nirvana");
 
@@ -109343,8 +109350,6 @@ namespace OverflowHelper.core
 
             URL_Add("WebSocket", "https://en.wikipedia.org/wiki/WebSocket");
 
-            URL_Add("Robocopy", "https://en.wikipedia.org/wiki/Robocopy");
-
             URL_Add("although", "https://en.wiktionary.org/wiki/although#Conjunction");
 
             URL_Add("Script.aculo.us", "https://en.wikipedia.org/wiki/Prototype_JavaScript_Framework"); // Old: https://en.wikipedia.org/wiki/Script.aculo.us
@@ -109836,8 +109841,6 @@ namespace OverflowHelper.core
             URL_Add("FPU", "https://en.wikipedia.org/wiki/Floating-point_unit");
 
             URL_Add("MAMP", "https://en.wikipedia.org/wiki/MAMP");
-
-            URL_Add("Robot Framework", "https://en.wikipedia.org/wiki/Robot_Framework");
 
             URL_Add("Schmitt trigger", "https://en.wikipedia.org/wiki/Schmitt_trigger");
 
@@ -111584,8 +111587,6 @@ namespace OverflowHelper.core
             URL_Add("coronavirus", "https://en.wikipedia.org/wiki/Coronavirus");
 
             URL_Add("lung", "https://en.wiktionary.org/wiki/lung#Noun");
-
-            URL_Add("quiet", "https://en.wiktionary.org/wiki/quiet#Adjective");
 
             URL_Add("universally", "https://en.wiktionary.org/wiki/universally#Adverb");
 
@@ -113853,8 +113854,6 @@ namespace OverflowHelper.core
 
             URL_Add("having", "https://en.wiktionary.org/wiki/have#Verb");
 
-            URL_Add("robotic", "https://en.wiktionary.org/wiki/robotic#Adjective");
-
             URL_Add("Audacity", "https://en.wikipedia.org/wiki/Audacity_(audio_editor)");
 
             URL_Add("BBC", "https://en.wikipedia.org/wiki/BBC");
@@ -114641,8 +114640,6 @@ namespace OverflowHelper.core
 
             URL_Add("PCLinuxOS", "https://en.wikipedia.org/wiki/PCLinuxOS");
 
-            URL_Add("Robomongo", "https://robomongo.org/");
-
             URL_Add("left-hand side", "https://en.wiktionary.org/wiki/LHS#Noun");
 
             URL_Add("right-hand side", "https://en.wiktionary.org/wiki/RHS#Noun");
@@ -114930,8 +114927,6 @@ namespace OverflowHelper.core
             URL_Add("hoard", "https://en.wiktionary.org/wiki/hoard#Verb");
 
             URL_Add("recompile", "https://en.wiktionary.org/wiki/recompile#Verb");
-
-            URL_Add("to be quite honest", "https://en.wiktionary.org/wiki/tbqh#Phrase");
 
             URL_Add("utopic", "https://en.wiktionary.org/wiki/utopic#Adjective");
 
@@ -118475,8 +118470,6 @@ namespace OverflowHelper.core
 
             URL_Add("nuts", "https://en.wiktionary.org/wiki/go_nuts#Verb");
 
-            URL_Add("robots exclusion standard", "https://en.wikipedia.org/wiki/Robots.txt"); // Old: https://en.wikipedia.org/wiki/Robots_exclusion_standard
-
             URL_Add("virtually", "https://en.wiktionary.org/wiki/virtually#Adverb");
 
             URL_Add("AVL tree", "https://en.wikipedia.org/wiki/AVL_tree");
@@ -119558,8 +119551,6 @@ namespace OverflowHelper.core
             URL_Add("Nintendo", "https://en.wikipedia.org/wiki/Nintendo");
 
             URL_Add("failed", "https://en.wiktionary.org/wiki/fail#Verb");
-
-            URL_Add("quietly", "https://en.wiktionary.org/wiki/quietly#Adverb");
 
             URL_Add("automotive", "https://en.wiktionary.org/wiki/automotive#Adjective");
 
@@ -121543,8 +121534,6 @@ namespace OverflowHelper.core
 
             URL_Add("prefers", "https://en.wiktionary.org/wiki/prefer#Verb");
 
-            URL_Add("QuiteRSS", "https://en.wikipedia.org/wiki/QuiteRSS");
-
             URL_Add("SciRate", "https://scirate.com/about");
 
             URL_Add("catastrophic", "https://en.wiktionary.org/wiki/catastrophic#Adjective");
@@ -123025,8 +123014,6 @@ namespace OverflowHelper.core
 
             URL_Add("Recoil", "https://recoiljs.org/");
 
-            URL_Add("Matias Mini Quiet Pro", "https://matias.ca/miniquietpro/pc/");
-
             URL_Add("pressable", "https://en.wiktionary.org/wiki/pressable#Adjective");
 
             URL_Add("heisenbug", "https://en.wikipedia.org/wiki/Heisenbug");
@@ -124125,8 +124112,6 @@ namespace OverflowHelper.core
 
             URL_Add("professional associations", "https://en.wikipedia.org/wiki/Professional_association");
 
-            URL_Add("quietest", "https://en.wiktionary.org/wiki/quietest#Adjective");
-
             URL_Add("unity gain amplifier", "https://en.wikipedia.org/wiki/Buffer_amplifier#Op-amp_implementation");
 
             URL_Add("spot", "https://en.wiktionary.org/wiki/spot#Noun");
@@ -125224,8 +125209,6 @@ namespace OverflowHelper.core
             URL_Add("Box–Cox distribution", "https://en.wikipedia.org/wiki/Box%E2%80%93Cox_distribution");
 
             URL_Add("à la carte", "https://en.wiktionary.org/wiki/%C3%A0_la_carte#Adverb");
-
-            URL_Add("quieter", "https://en.wiktionary.org/wiki/quiet#Adjective");
 
             URL_Add("heavy", "https://en.wiktionary.org/wiki/heavy#Adjective");
 
@@ -126498,6 +126481,8 @@ namespace OverflowHelper.core
             URL_Add("risk-averse", "https://en.wiktionary.org/wiki/risk-averse#Adjective");
 
             URL_Add("emergency medical services", "https://en.wikipedia.org/wiki/Emergency_medical_services");
+
+            URL_Add("emergency medical technician", "https://en.wikipedia.org/wiki/Emergency_medical_technician");
 
             URL_Add("Pydoc", "https://en.wikipedia.org/wiki/Pydoc");
 
@@ -134413,8 +134398,6 @@ namespace OverflowHelper.core
 
             URL_Add("Language&nbsp;Learning (Stack Exchange site)", "https://languagelearning.stackexchange.com/tour");
 
-            URL_Add("Robotics (Stack Exchange site)", "https://robotics.stackexchange.com/tour");
-
             URL_Add("Craft&nbsp;CMS (Stack Exchange site)", "https://craftcms.stackexchange.com/tour");
 
             URL_Add("Open&nbsp;Data (Stack Exchange site)", "https://opendata.stackexchange.com/tour");
@@ -134470,6 +134453,8 @@ namespace OverflowHelper.core
             URL_Add("Area&nbsp;51 (Stack Exchange site)", "https://area51.stackexchange.com/faq"); // Old: https://en.wikipedia.org/wiki/Stack_Exchange#History. Even older URL: https://en.wikipedia.org/wiki/Stack_Exchange_Network#area51
 
             URL_Add("Ask&nbsp;Different (Stack Exchange site)", "https://apple.stackexchange.com/tour");
+
+            URL_Add("Robotics (Stack Exchange site)", "https://robotics.stackexchange.com/tour");
 
             URL_Add("sentence fragment", "https://en.wikipedia.org/wiki/Sentence_clause_structure#Incomplete_sentences");
 
@@ -145715,50 +145700,6 @@ namespace OverflowHelper.core
 
             URL_Add("inter-process communication", "https://en.wikipedia.org/wiki/Inter-process_communication");
 
-            URL_Add("robotic process automation", "https://en.wikipedia.org/wiki/Robotic_process_automation");
-
-            URL_Add("preprocess", "https://en.wiktionary.org/wiki/preprocess#Verb");
-
-            URL_Add("preprocessed", "https://en.wiktionary.org/wiki/preprocess#Verb");
-
-            URL_Add("preprocessor", "https://en.wikipedia.org/wiki/Preprocessor");
-
-            URL_Add("preprocessors", "https://en.wiktionary.org/wiki/preprocessor#Noun");
-
-            URL_Add("preprocessing", "https://en.wiktionary.org/wiki/preprocess#Verb");
-
-            URL_Add("postprocess", "https://en.wiktionary.org/wiki/postprocess#Verb");
-
-            URL_Add("postprocessing", "https://en.wiktionary.org/wiki/postprocessing#Noun");
-
-            URL_Add("postprocessed", "https://en.wiktionary.org/wiki/postprocess#Verb");
-
-            URL_Add("coprocess", "https://www.gnu.org/software/bash/manual/html_node/Coprocesses.html");
-
-            URL_Add("coprocessor", "https://en.wiktionary.org/wiki/coprocessor#Noun");
-
-            URL_Add("x87 floating-point coprocessor", "https://en.wikipedia.org/wiki/Intel_8087");
-
-            URL_Add("Rational Unified Process", "https://en.wikipedia.org/wiki/Rational_Unified_Process");
-
-            URL_Add("Process&nbsp;Explorer", "https://en.wikipedia.org/wiki/Process_Explorer");
-
-            URL_Add("Process Hacker", "https://processhacker.sourceforge.io/");
-
-            URL_Add("Processing", "https://en.wikipedia.org/wiki/Processing"); // Old: https://en.wikipedia.org/wiki/Processing_%28programming_language%29
-
-            URL_Add("FastCGI Process Manager", "https://en.wikipedia.org/wiki/PHP#Installation_and_configuration");
-
-            URL_Add("Process Monitor", "https://en.wikipedia.org/wiki/Process_Monitor");
-
-            URL_Add("FileMon", "https://en.wikipedia.org/wiki/Process_Monitor#FileMon");
-
-            URL_Add("CPU", "https://en.wikipedia.org/wiki/Central_processing_unit");
-
-            URL_Add("thread affinity", "https://learn.microsoft.com/en-us/windows/win32/procthread/multiple-processors");
-
-            URL_Add("hyper-threading", "https://en.wikipedia.org/wiki/Hyper-threading");
-
             URL_Add("collapsar", "https://en.wikipedia.org/wiki/Collapsar");
 
             URL_Add("Sagittarius A*", "https://en.wikipedia.org/wiki/Sagittarius_A*");
@@ -150539,6 +150480,76 @@ namespace OverflowHelper.core
 
             URL_Add("DCL", "https://en.wikipedia.org/wiki/DIGITAL_Command_Language");
 
+            URL_Add("robot", "https://en.wiktionary.org/wiki/robot#Noun_2");
+
+            URL_Add("robotic", "https://en.wiktionary.org/wiki/robotic#Adjective");
+
+            URL_Add("robotic process automation", "https://en.wikipedia.org/wiki/Robotic_process_automation");
+
+            URL_Add("robots exclusion standard", "https://en.wikipedia.org/wiki/Robots.txt"); // Old: https://en.wikipedia.org/wiki/Robots_exclusion_standard
+
+            URL_Add("Robocopy", "https://en.wikipedia.org/wiki/Robocopy");
+
+            URL_Add("Robot Framework", "https://en.wikipedia.org/wiki/Robot_Framework");
+
+            URL_Add("Robomongo", "https://robomongo.org/");
+
+            URL_Add("preprocess", "https://en.wiktionary.org/wiki/preprocess#Verb");
+
+            URL_Add("preprocessed", "https://en.wiktionary.org/wiki/preprocess#Verb");
+
+            URL_Add("preprocessor", "https://en.wikipedia.org/wiki/Preprocessor");
+
+            URL_Add("preprocessors", "https://en.wiktionary.org/wiki/preprocessor#Noun");
+
+            URL_Add("preprocessing", "https://en.wiktionary.org/wiki/preprocess#Verb");
+
+            URL_Add("postprocess", "https://en.wiktionary.org/wiki/postprocess#Verb");
+
+            URL_Add("postprocessing", "https://en.wiktionary.org/wiki/postprocessing#Noun");
+
+            URL_Add("postprocessed", "https://en.wiktionary.org/wiki/postprocess#Verb");
+
+            URL_Add("coprocess", "https://www.gnu.org/software/bash/manual/html_node/Coprocesses.html");
+
+            URL_Add("coprocessor", "https://en.wiktionary.org/wiki/coprocessor#Noun");
+
+            URL_Add("x87 floating-point coprocessor", "https://en.wikipedia.org/wiki/Intel_8087");
+
+            URL_Add("Rational Unified Process", "https://en.wikipedia.org/wiki/Rational_Unified_Process");
+
+            URL_Add("Process&nbsp;Explorer", "https://en.wikipedia.org/wiki/Process_Explorer");
+
+            URL_Add("Process Hacker", "https://processhacker.sourceforge.io/");
+
+            URL_Add("Processing", "https://en.wikipedia.org/wiki/Processing"); // Old: https://en.wikipedia.org/wiki/Processing_%28programming_language%29
+
+            URL_Add("FastCGI Process Manager", "https://en.wikipedia.org/wiki/PHP#Installation_and_configuration");
+
+            URL_Add("Process Monitor", "https://en.wikipedia.org/wiki/Process_Monitor");
+
+            URL_Add("FileMon", "https://en.wikipedia.org/wiki/Process_Monitor#FileMon");
+
+            URL_Add("CPU", "https://en.wikipedia.org/wiki/Central_processing_unit");
+
+            URL_Add("thread affinity", "https://learn.microsoft.com/en-us/windows/win32/procthread/multiple-processors");
+
+            URL_Add("hyper-threading", "https://en.wikipedia.org/wiki/Hyper-threading");
+
+            URL_Add("quiet", "https://en.wiktionary.org/wiki/quiet#Adjective");
+
+            URL_Add("quieter", "https://en.wiktionary.org/wiki/quiet#Adjective");
+
+            URL_Add("quietest", "https://en.wiktionary.org/wiki/quietest#Adjective");
+
+            URL_Add("quietly", "https://en.wiktionary.org/wiki/quietly#Adverb");
+
+            URL_Add("Matias Mini Quiet Pro", "https://matias.ca/miniquietpro/pc/");
+
+            URL_Add("to be quite honest", "https://en.wiktionary.org/wiki/tbqh#Phrase");
+
+            URL_Add("QuiteRSS", "https://en.wikipedia.org/wiki/QuiteRSS");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -153908,6 +153919,33 @@ namespace OverflowHelper.core
 
             correctionAdd("Signal Processing_", "signal processing_");
 
+            correctionAdd("qota_", "quota_");
+
+            correctionAdd("qotas_", "quotas_");
+
+            correctionAdd("quiete_", "quite_");
+            correctionAdd("quiet_", "quite_");
+            correctionAdd("wuite_", "quite_");
+            correctionAdd("suite_", "quite_"); // Possibly a true typo
+            correctionAdd("qute_", "quite_");
+
+            // In 'The Hitchhiker's Guide to the Galaxy'
+            //
+            // Alternative URL:
+            //
+            //   <https://www.youtube.com/watch?v=5wAuDhoRmzg&t=9m37s>
+            //
+            //   <https://www.youtube.com/watch?v=fxEqIt-NUSY&t=43s>
+            //     "There is something jamming my guidance systems."
+            //
+            // "East India Company" is also in this part (and also in the
+            // original radio show?).
+            //
+            correctionAdd("almost, but not quite entirely, unlike tea_", "So I am a masochist on a diet, am I?_");
+            correctionAdd("masochist on a diet_", "So I am a masochist on a diet, am I?_");
+            correctionAdd("masochist_", "So I am a masochist on a diet, am I?_");
+            correctionAdd("on a diet_", "So I am a masochist on a diet, am I?_");
+
             // In 'The Hitchhiker's Guide to the Galaxy' (Vogon poetry)
             //
             // The reference is broken now...
@@ -153932,23 +153970,6 @@ namespace OverflowHelper.core
             //   <https://en.wikipedia.org/wiki/East_India_Company>
             //
             correctionAdd("East Indian Company_", "East India Company_");
-
-            // In 'The Hitchhiker's Guide to the Galaxy'
-            //
-            // Alternative URL:
-            //
-            //   <https://www.youtube.com/watch?v=5wAuDhoRmzg&t=9m37s>
-            //
-            //   <https://www.youtube.com/watch?v=fxEqIt-NUSY&t=43s>
-            //     "There is something jamming my guidance systems."
-            //
-            // "East India Company" is also in this part (and also in the
-            // original radio show?).
-            //
-            correctionAdd("almost, but not quite entirely, unlike tea_", "So I am a masochist on a diet, am I?_");
-            correctionAdd("masochist on a diet_", "So I am a masochist on a diet, am I?_");
-            correctionAdd("masochist_", "So I am a masochist on a diet, am I?_");
-            correctionAdd("on a diet_", "So I am a masochist on a diet, am I?_");
 
             // In 'The Hitchhiker's Guide to the Galaxy'. Arthur Dent.
             //
@@ -154064,6 +154085,7 @@ namespace OverflowHelper.core
             correctionAdd("LOC_", "loss of control_");
 
             // For example, in aviation
+            correctionAdd("wants the impossible_", "captain_");
             correctionAdd("Captain_", "captain_");
 
             // Aviation
@@ -161342,7 +161364,7 @@ namespace OverflowHelper.core
             correctionAdd("emptry_", "empty_");
             correctionAdd("emply_", "empty_");
             correctionAdd("mpty_", "empty_");
-            correctionAdd("leer_", "empty_");
+            correctionAdd("leer_", "empty_"); // German
             correctionAdd("mty_", "empty_");
 
             correctionAdd("Sample_", "sample_");
@@ -162391,15 +162413,6 @@ namespace OverflowHelper.core
             correctionAdd("CC-SA_", "CC-by-SA_");
 
             correctionAdd("iota_", "IOTA_");
-
-            correctionAdd("qota_", "quota_");
-
-            correctionAdd("qotas_", "quotas_");
-
-            correctionAdd("quiete_", "quite_");
-            correctionAdd("quiet_", "quite_");
-            correctionAdd("wuite_", "quite_");
-            correctionAdd("qute_", "quite_");
 
             // The noun, not the Arduino thing...
             correctionAdd("sheild_", "shield_");
@@ -164546,8 +164559,6 @@ namespace OverflowHelper.core
 
             correctionAdd("mhchem_", "mhchem (MathJax)_");
             correctionAdd("ce_", "mhchem (MathJax)_");
-
-            correctionAdd("suit_", "suite_");
 
             correctionAdd("suppouse_", "suppose_");
             correctionAdd("supouse_", "suppose_");
@@ -166942,8 +166953,6 @@ namespace OverflowHelper.core
 
             URL_Add("general-availability_", "https://jdk.java.net/17/");
 
-            URL_Add("quite_", "https://en.wiktionary.org/wiki/quite#Adverb");
-
             URL_Add("text_", "https://en.wiktionary.org/wiki/text#Noun");
 
             URL_Add("CD_", "https://en.wikipedia.org/wiki/Compact_disc");
@@ -166969,8 +166978,6 @@ namespace OverflowHelper.core
             URL_Add("squeeze_", "https://en.wiktionary.org/wiki/squeeze#Verb");
 
             URL_Add("Object Management Group_", "https://en.wikipedia.org/wiki/Object_Management_Group");
-
-            URL_Add("suits_", "https://en.wiktionary.org/wiki/suit#Verb");
 
             URL_Add("break down_", "https://en.wiktionary.org/wiki/break_down#Verb");
 
@@ -167355,8 +167362,6 @@ namespace OverflowHelper.core
             URL_Add("BREW_", "https://en.wikipedia.org/wiki/Binary_Runtime_Environment_for_Wireless");
 
             URL_Add("ice cream_", "https://en.wiktionary.org/wiki/ice_cream#Noun");
-
-            URL_Add("suite_", "https://en.wiktionary.org/wiki/suite#Noun");
 
             URL_Add("select_", "https://en.wiktionary.org/wiki/select#Verb");
 
@@ -171546,6 +171551,10 @@ namespace OverflowHelper.core
 
             URL_Add("download URL for Bluetooth firmware version 0.2.1_", "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/keychron_spi_tmode_fw0.2.1_2411091132.kfw");
 
+            URL_Add("suits_", "https://en.wiktionary.org/wiki/suit#Verb");
+
+            URL_Add("quite_", "https://en.wiktionary.org/wiki/quite#Adverb");
+
         } //addLookupData_alternativeWordSet()
 
 
@@ -173474,6 +173483,19 @@ namespace OverflowHelper.core
             correctionAdd("Europe__", "Ode an die Freude__");
             correctionAdd("freude__", "Ode an die Freude__");
 
+            // In 'The Hitchhiker's Guide to the Galaxy'
+            // ' tea '
+            correctionAdd("almost, but not quite entirely unlike tea__", "almost, but not quite entirely, unlike tea__");
+            correctionAdd("almost but not entirely__", "almost, but not quite entirely, unlike tea__");
+            correctionAdd("nutromatic machine__", "almost, but not quite entirely, unlike tea__");
+            correctionAdd("not unlike tea__", "almost, but not quite entirely, unlike tea__");
+            correctionAdd("not unlike__", "almost, but not quite entirely, unlike tea__");
+            correctionAdd("nutromatic__", "almost, but not quite entirely, unlike tea__");
+            correctionAdd("unlike tea__", "almost, but not quite entirely, unlike tea__");
+            correctionAdd("almost__", "almost, but not quite entirely, unlike tea__");
+            correctionAdd("unlike__", "almost, but not quite entirely, unlike tea__");
+            correctionAdd("tea__", "almost, but not quite entirely, unlike tea__");
+
             // In 'The Hitchhiker's Guide to the Galaxy'. The book.
             correctionAdd("embarrassment__", "never meeting yourself because of the embarrassment this usually causes__");
             correctionAdd("time travel__", "never meeting yourself because of the embarrassment this usually causes__");
@@ -173493,19 +173515,6 @@ namespace OverflowHelper.core
             correctionAdd("an utterly insignificant little blue-green planet__", "Golgafrincham__"); // For the cross-reference
             correctionAdd("golga__", "Golgafrincham__");
             correctionAdd("Golga__", "Golgafrincham__");
-
-            // In 'The Hitchhiker's Guide to the Galaxy'
-            // ' tea '
-            correctionAdd("almost, but not quite entirely unlike tea__", "almost, but not quite entirely, unlike tea__");
-            correctionAdd("almost but not entirely__", "almost, but not quite entirely, unlike tea__");
-            correctionAdd("nutromatic machine__", "almost, but not quite entirely, unlike tea__");
-            correctionAdd("not unlike tea__", "almost, but not quite entirely, unlike tea__");
-            correctionAdd("not unlike__", "almost, but not quite entirely, unlike tea__");
-            correctionAdd("nutromatic__", "almost, but not quite entirely, unlike tea__");
-            correctionAdd("unlike tea__", "almost, but not quite entirely, unlike tea__");
-            correctionAdd("almost__", "almost, but not quite entirely, unlike tea__");
-            correctionAdd("unlike__", "almost, but not quite entirely, unlike tea__");
-            correctionAdd("tea__", "almost, but not quite entirely, unlike tea__");
 
             // Aviation. Not to be confused with "fA" (femtoampere)
             correctionAdd("flight attendants__", "flight attendant__");
@@ -176550,6 +176559,8 @@ namespace OverflowHelper.core
             correctionAdd("orange__", "apples and oranges__");
             correctionAdd("apple__", "apples and oranges__");
 
+            correctionAdd("suit__", "suite__");
+
             // A book. For the reverse
             //
             // We need a better reference...
@@ -177357,12 +177368,6 @@ namespace OverflowHelper.core
 
             URL_Add("first-generation__", "https://en.wiktionary.org/wiki/first-generation#Adjective");
 
-            URL_Add("never meeting yourself because of the embarrassment this usually causes__", "https://www.youtube.com/watch?v=7ReHfcTgw8Y&list=PLSoD2CcPrumFJREVL6RmMnZP5U7sGYYi2&index=16&t=3m23s");
-
-            URL_Add("almost, but not quite entirely, unlike tea__", "https://www.youtube.com/watch?v=5wAuDhoRmzg&t=8m4s");
-
-            URL_Add("Golgafrincham__", "https://www.youtube.com/watch?v=GXFrUWJvx44&list=PLSoD2CcPrumFJREVL6RmMnZP5U7sGYYi2&index=32");
-
             URL_Add("&none__", "https://zmk.dev/docs/keymaps/behaviors#miscellaneous-behaviors");
 
             URL_Add("&trans__", "https://zmk.dev/docs/keymaps/behaviors#miscellaneous-behaviors");
@@ -177818,6 +177823,14 @@ namespace OverflowHelper.core
             URL_Add("for all intents and purposes__", "https://en.wiktionary.org/wiki/for_all_intents_and_purposes#Prepositional_phrase");
 
             URL_Add("apples and oranges__", "https://en.wiktionary.org/wiki/apples_and_oranges#Noun");
+
+            URL_Add("never meeting yourself because of the embarrassment this usually causes__", "https://www.youtube.com/watch?v=7ReHfcTgw8Y&list=PLSoD2CcPrumFJREVL6RmMnZP5U7sGYYi2&index=16&t=3m23s");
+
+            URL_Add("Golgafrincham__", "https://www.youtube.com/watch?v=GXFrUWJvx44&list=PLSoD2CcPrumFJREVL6RmMnZP5U7sGYYi2&index=32");
+
+            URL_Add("almost, but not quite entirely, unlike tea__", "https://www.youtube.com/watch?v=5wAuDhoRmzg&t=8m4s");
+
+            URL_Add("suite__", "https://en.wiktionary.org/wiki/suite#Noun");
 
         } //addLookupData_alternativeWordSet2()
 
