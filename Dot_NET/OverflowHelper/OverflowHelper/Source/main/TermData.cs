@@ -596,7 +596,6 @@ namespace OverflowHelper.core
             correctionAdd("widnows", "Windows");
             correctionAdd("Windwos", "Windows");
             correctionAdd("Windonw", "Windows");
-            correctionAdd("WIndows", "Windows");
             correctionAdd("windwos", "Windows");
             correctionAdd("Windoes", "Windows");
             correctionAdd("windoze", "Windows");
@@ -616,8 +615,9 @@ namespace OverflowHelper.core
             correctionAdd("wondows", "Windows");
             correctionAdd("Wjndows", "Windows");
             correctionAdd("wjndows", "Windows");
-            correctionAdd("windows", "Windows");
+            correctionAdd("WIndows", "Windows");
             correctionAdd("WINDOWS", "Windows");
+            correctionAdd("windows", "Windows");
             correctionAdd("windos", "Windows"); // Misspelling (typo?).
             correctionAdd("Windos", "Windows"); // Misspelling (typo?).
             correctionAdd("Widows", "Windows");
@@ -56254,6 +56254,19 @@ namespace OverflowHelper.core
             correctionAdd("in terms", "in terms of");
             correctionAdd("interms", "in terms of");
 
+            correctionAdd("onl;y", "only");
+            correctionAdd("onlyt", "only");
+            correctionAdd("onbly", "only");
+            correctionAdd("inly", "only"); // Likely a real typo
+            correctionAdd("on;y", "only");
+            correctionAdd("onlu", "only"); // Likely a real typo
+            correctionAdd("onlt", "only");
+            correctionAdd("onle", "only");
+            correctionAdd("Onyl", "only");
+            correctionAdd("onyl", "only"); // A true typo
+            correctionAdd("ony", "only");
+            correctionAdd("onl", "only");
+
             correctionAdd("Hyperbole", "hyperbole");
 
             correctionAdd("koolaide", "Kool-Aid"); // An autocorrect "masterpiece"?
@@ -56275,6 +56288,8 @@ namespace OverflowHelper.core
             correctionAdd("Hyperlink", "hyperlink");
             correctionAdd("hiperlink", "hyperlink");
 
+            correctionAdd("link only", "link-only");
+
             correctionAdd("Don’t use \"click here\"", "dress the naked links");
             correctionAdd("naked links", "dress the naked links");
             correctionAdd("naked link", "dress the naked links");
@@ -56288,8 +56303,6 @@ namespace OverflowHelper.core
             correctionAdd("deadlink", "dead link");
 
             correctionAdd("re-link", "relink");
-
-            correctionAdd("link only", "link-only");
 
             correctionAdd("Hardlink", "hard link");
             correctionAdd("hardlink", "hard link");
@@ -67584,6 +67597,11 @@ namespace OverflowHelper.core
 
             // A type of RGB lighting for mechanical keyboards
             //
+            // The reference seems to be broken now (at least
+            // on 2026-10-05T130334)... Candidates for a new:
+            //
+            //   <https://switchandclick.com/mechanical-keyboard-switch-guide#north-vs-south-facing-long-stems>
+            //
             // Mitigation for the blinding light:
             //
             //   <https://www.reddit.com/r/Keychron/comments/1bok23g/comment/kwtpr35/>
@@ -67653,8 +67671,10 @@ namespace OverflowHelper.core
 
             // A type of RGB lighting for mechanical keyboards
             //
-            // Alternative URL:
-            //   <https://keyboardsexpert.com/north-facing-vs-south-facing-keyboard-switches/>
+            // The reference seems to be broken now (at least
+            // on 2026-10-05T130334)... Candidates for a new:
+            //
+            //   <https://switchandclick.com/mechanical-keyboard-switch-guide#north-vs-south-facing-long-stems>
             //
             correctionAdd("North-facing LEDs", "north-facing");
             correctionAdd("north-facing LEDs", "north-facing");
@@ -95968,17 +95988,6 @@ namespace OverflowHelper.core
 
             correctionAdd("cua", "CUA");
 
-            correctionAdd("onl;y", "only");
-            correctionAdd("onlyt", "only");
-            correctionAdd("onbly", "only");
-            correctionAdd("inly", "only"); // Likely a real typo
-            correctionAdd("on;y", "only");
-            correctionAdd("onlu", "only"); // Likely a real typo
-            correctionAdd("onlt", "only");
-            correctionAdd("onle", "only");
-            correctionAdd("ony", "only");
-            correctionAdd("onl", "only");
-
             correctionAdd("spead", "spread");
 
             correctionAdd("wide spread", "wide-spread");
@@ -107880,6 +107889,7 @@ namespace OverflowHelper.core
             // Note: "killed" and "kill" are in an alternative word set
             correctionAdd("flatlining", "killing");
             correctionAdd("windowing", "killing");
+            correctionAdd("unaliving", "killing");
             correctionAdd("windowed", "killing"); // For the cross-reference
             correctionAdd("killinig", "killing");
             correctionAdd("K*LLING", "killing");
@@ -154413,6 +154423,7 @@ namespace OverflowHelper.core
             correctionAdd("flatlined_", "killed_");
             correctionAdd("cancelled_", "killed_");
             correctionAdd("windowed_", "killed_");
+            correctionAdd("unalived_", "killed_");
             correctionAdd("Killed_", "killed_");
             correctionAdd("K*LLED_", "killed_");
             correctionAdd("k*lled_", "killed_");
@@ -176424,6 +176435,9 @@ namespace OverflowHelper.core
             correctionAdd("PM>__", "Package Manager Console__"); // The command prompt
             correctionAdd("PM__", "Package Manager Console__");
 
+            correctionAdd("unalives__", "kills__");
+            correctionAdd("windows__", "kills__");
+
             // The Linux command
             //
             // Mostly for the man page reference
@@ -177284,12 +177298,6 @@ namespace OverflowHelper.core
 
             URL_Add("dotnet__", "https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet");
 
-            URL_Add("man 1 kill__", "https://linux.die.net/man/1/kill");
-
-            URL_Add("window__", "https://en.wiktionary.org/wiki/window#Noun");
-
-            URL_Add("Windows Phone__", "https://en.wikipedia.org/wiki/Windows_Phone");
-
             URL_Add("desktop environment__", "https://en.wikipedia.org/wiki/Desktop_environment#Desktop_environments_for_the_X_Window_System");
 
             URL_Add("desktop environments__", "https://en.wikipedia.org/wiki/Desktop_environment#Desktop_environments_for_the_X_Window_System");
@@ -177831,6 +177839,14 @@ namespace OverflowHelper.core
             URL_Add("almost, but not quite entirely, unlike tea__", "https://www.youtube.com/watch?v=5wAuDhoRmzg&t=8m4s");
 
             URL_Add("suite__", "https://en.wiktionary.org/wiki/suite#Noun");
+
+            URL_Add("kills__", "https://en.wiktionary.org/wiki/kill#Verb");
+
+            URL_Add("man 1 kill__", "https://linux.die.net/man/1/kill");
+
+            URL_Add("window__", "https://en.wiktionary.org/wiki/window#Noun");
+
+            URL_Add("Windows Phone__", "https://en.wikipedia.org/wiki/Windows_Phone");
 
         } //addLookupData_alternativeWordSet2()
 
@@ -180200,6 +180216,7 @@ namespace OverflowHelper.core
             correctionAdd("altitude cancer___", "kill___");
             correctionAdd("flatline___", "kill___");
             correctionAdd("windowed___", "kill___"); // For the cross-reference
+            correctionAdd("unalive___", "kill___");
             correctionAdd("window___", "kill___");
             correctionAdd("k*ll___", "kill___");
             correctionAdd("K*LL___", "kill___");
@@ -183411,16 +183428,6 @@ namespace OverflowHelper.core
 
             URL_Add("a____", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a");
 
-            URL_Add("man -s 1 intro____", "https://linux.die.net/man/1/intro");
-
-            URL_Add("man -s 4 intro____", "https://linux.die.net/man/4/intro");
-
-            URL_Add("man -s 7 intro____", "https://linux.die.net/man/7/intro");
-
-            URL_Add("signal(7)____", "https://linux.die.net/man/7/signal");
-
-            URL_Add("windowed____", "https://en.wikipedia.org/wiki/Suspicious_Russia-related_deaths_since_2022");
-
             URL_Add("white____", "https://en.wiktionary.org/wiki/white#Adjective");
 
             URL_Add("HSV_RED (0x00FFFF)____", "https://github.com/qmk/qmk_firmware/blob/master/quantum/color.h#L67");
@@ -183528,6 +183535,16 @@ namespace OverflowHelper.core
             URL_Add("par for the course is resetting to factory defaults and reflashing the keyboard firmware____", "https://www.reddit.com/r/Keychron/comments/1h33l08/comment/lzozkuo/");
 
             URL_Add("disabled Via by default____", "https://www.reddit.com/r/olkb/comments/1ezxvwt/comment/lkhpen0/");
+
+            URL_Add("man -s 1 intro____", "https://linux.die.net/man/1/intro");
+
+            URL_Add("man -s 4 intro____", "https://linux.die.net/man/4/intro");
+
+            URL_Add("man -s 7 intro____", "https://linux.die.net/man/7/intro");
+
+            URL_Add("signal(7)____", "https://linux.die.net/man/7/signal");
+
+            URL_Add("windowed____", "https://en.wikipedia.org/wiki/Suspicious_Russia-related_deaths_since_2022");
 
         } //addLookupData_alternativeWordSet4()
 
@@ -184798,8 +184815,6 @@ namespace OverflowHelper.core
 
             URL_Add("United States Army Special Forces_____", "https://en.wikipedia.org/wiki/United_States_Army_Special_Forces");
 
-            URL_Add("window_____", "https://en.wikipedia.org/wiki/Suspicious_Russia-related_deaths_since_2022");
-
             URL_Add("White_____", "https://en.wikipedia.org/wiki/White_and_Black_in_chess");
 
             URL_Add("Space&nbsp;Exploration (Stack Exchange site)_____", "https://space.stackexchange.com/tour");
@@ -184877,6 +184892,8 @@ namespace OverflowHelper.core
             URL_Add("Keychron 2024 Hall effect (HE) keyboard quality issues with self-repeating keys (1xx instances and counting)_____", "https://www.reddit.com/r/Keychron/comments/1geok1p/defective_key_on_k2_he/");
 
             URL_Add("Git branch \"bluetooth_playground\" in Keychron's fork_____", "https://github.com/Keychron/qmk_firmware/tree/bluetooth_playground/keyboards/keychron/k10_pro");
+
+            URL_Add("window_____", "https://en.wikipedia.org/wiki/Suspicious_Russia-related_deaths_since_2022");
 
             URL_Add("&nbsp;K_____", "https://en.wikipedia.org/wiki/Kelvin");
 
@@ -185539,8 +185556,6 @@ namespace OverflowHelper.core
 
             URL_Add("Idaho, United States______", "https://en.wikipedia.org/wiki/Idaho");
 
-            URL_Add("windowing______", "https://en.wikipedia.org/wiki/Suspicious_Russia-related_deaths_since_2022");
-
             URL_Add("\\______", "https://en.wikipedia.org/wiki/Backslash");
 
             URL_Add("key bindings______", "https://en.wiktionary.org/wiki/key_binding#Noun");
@@ -185566,6 +185581,8 @@ namespace OverflowHelper.core
             URL_Add("macro______", "https://en.wiktionary.org/wiki/macro#Noun_2");
 
             URL_Add("probable cause______", "https://en.wikipedia.org/wiki/Probable_cause#Accident_investigation");
+
+            URL_Add("windowing______", "https://en.wikipedia.org/wiki/Suspicious_Russia-related_deaths_since_2022");
 
         } //addLookupData_alternativeWordSet6()
 
