@@ -1876,6 +1876,14 @@ namespace OverflowHelper.core
             correctionAdd("didgy", "dodgy");
             correctionAdd("Dodgy", "dodgy");
 
+            correctionAdd("Hovering", "hovering");
+            correctionAdd("Howering", "hovering");
+            correctionAdd("howering", "hovering");
+
+            // In 'The Hitchhiker's Guide to the Galaxy'. Vogon ships.
+            correctionAdd("hovering in the air", "The ships hung in the sky much the same way that bricks don't.");
+            correctionAdd("yellow bricks", "The ships hung in the sky much the same way that bricks don't.");
+
             // In 'The Hitchhiker's Guide to the Galaxy'. A small dog
             correctionAdd("tremedous difficulties with my lifestyle", "a terrible miscalculation of scale");
             correctionAdd("careless talk costs life", "a terrible miscalculation of scale");
@@ -1985,10 +1993,6 @@ namespace OverflowHelper.core
             //     The Hitchhiker's Guide to the Galaxy
             //
             correctionAdd("Demolition", "demolition");
-
-            // In 'The Hitchhiker's Guide to the Galaxy'. Vogon ships.
-            correctionAdd("hovering in the air", "The ships hung in the sky much the same way that bricks don't.");
-            correctionAdd("yellow bricks", "The ships hung in the sky much the same way that bricks don't.");
 
             // In 'The Hitchhiker's Guide to the Galaxy'. The book's
             // (extended) entry about the Earth (one word)
@@ -9051,6 +9055,7 @@ namespace OverflowHelper.core
             correctionAdd("I`ve", "I’ve");
             correctionAdd("I ve", "I’ve");
             correctionAdd("i ve", "I’ve");
+            correctionAdd("I:ve", "I’ve");
             correctionAdd("ive", "I’ve");
             correctionAdd("Ive", "I’ve");
             correctionAdd("I'v", "I’ve");
@@ -9540,6 +9545,10 @@ namespace OverflowHelper.core
             correctionAdd("Microcenter", "Micro Center");
             correctionAdd("microcenter", "Micro Center");
             correctionAdd("Microceter", "Micro Center");
+
+            correctionAdd("Esty", "Etsy"); // A true typo
+            correctionAdd("esty", "Etsy");
+            correctionAdd("etsy", "Etsy");
 
             correctionAdd("walmart", "Walmart");
 
@@ -10542,6 +10551,7 @@ namespace OverflowHelper.core
             correctionAdd("parcially", "partially");
 
             correctionAdd("the fruit company", "Apple");
+            correctionAdd("Apple Computer", "Apple"); // Until 2007
             correctionAdd("fruit company", "Apple");
             correctionAdd("Crapple", "Apple");
             correctionAdd("crapple", "Apple");
@@ -10777,14 +10787,16 @@ namespace OverflowHelper.core
             correctionAdd("MacBook Air M3", "MacBook Air (M3)");
 
             correctionAdd("M4 MacBook Air", "MacBook Air (M4)");
+            correctionAdd("Macbook Pro M4", "MacBook Air (M4)"); // Is it correct? "MacBook Pro" and "MacBook Air" seems to be separate...
 
-            correctionAdd("MacBook pro m2", "MacBook Pro M2");
-            correctionAdd("Macbook Pro M2", "MacBook Pro M2");
-            correctionAdd("M2 Macbook Pro", "MacBook Pro M2");
-            correctionAdd("M2 MBP", "MacBook Pro M2");
-            correctionAdd("mbp m2", "MacBook Pro M2");
-            correctionAdd("Mac M2", "MacBook Pro M2");
-            correctionAdd("M2 Mac", "MacBook Pro M2");
+            correctionAdd("MacBook pro m2", "MacBook Pro (M2)");
+            correctionAdd("Macbook Pro M2", "MacBook Pro (M2)");
+            correctionAdd("M2 Macbook Pro", "MacBook Pro (M2)");
+            correctionAdd("MacBook Pro M2", "MacBook Pro (M2)");
+            correctionAdd("M2 MBP", "MacBook Pro (M2)");
+            correctionAdd("mbp m2", "MacBook Pro (M2)");
+            correctionAdd("Mac M2", "MacBook Pro (M2)");
+            correctionAdd("M2 Mac", "MacBook Pro (M2)");
 
             correctionAdd("Macbook M1 Max", "M1 Max MacBook Pro");
             correctionAdd("Makbook M1 Max", "M1 Max MacBook Pro");
@@ -11094,6 +11106,7 @@ namespace OverflowHelper.core
             correctionAdd("Mac OS X v10.8 (Mountain Lion)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)"); // Sort of identity mapping
             correctionAdd("Mac&nbsp;OS&nbsp;X&nbsp;v10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
             correctionAdd("Mac&nbsp;OS&nbsp;X 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("OS X 10.8 Mountain Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
             correctionAdd("Mac OS X Mountain Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
             correctionAdd("Mac OSX Mountain Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
             correctionAdd("OS&nbsp;X&nbsp;v10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
@@ -11186,6 +11199,7 @@ namespace OverflowHelper.core
             correctionAdd("OS&nbsp;X v10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
             correctionAdd("El Capitan 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
             correctionAdd("macOS El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("10.11 El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
             correctionAdd("os x el capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
             correctionAdd("OS&nbsp;X 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
             correctionAdd("OS X El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
@@ -40757,6 +40771,8 @@ namespace OverflowHelper.core
             correctionAdd("worest case", "worst-case");
             correctionAdd("worst case", "worst-case");
             correctionAdd("Worst case", "worst-case");
+            correctionAdd("Worse case", "worst-case");
+            correctionAdd("worse case", "worst-case");
 
             correctionAdd("worst case scenario", "worst-case scenario");
             correctionAdd("Worst case scenario", "worst-case scenario");
@@ -48903,6 +48919,8 @@ namespace OverflowHelper.core
             correctionAdd("3d p", "3D printing");
             correctionAdd("3dp", "3D printing");
 
+            correctionAdd("3D Printed", "3D printed");
+
             correctionAdd("3d sprinter", "3D printer"); // !!!!!
             correctionAdd("3d printer", "3D printer");
 
@@ -51304,6 +51322,10 @@ namespace OverflowHelper.core
             //       Up to 28 KB SRAM
             //
             correctionAdd("WB", "Westberry");
+
+            correctionAdd("a lesser microcontroller", "WB32F3G71RCT6 is a lesser microcontroller in practice");
+            correctionAdd("lesser microcontroller", "WB32F3G71RCT6 is a lesser microcontroller in practice");
+            correctionAdd("WB32F3G71", "WB32F3G71RCT6 is a lesser microcontroller in practice");
 
             // STM32 microcontrollers
             correctionAdd("LSI", "LSI clock");
@@ -67906,6 +67928,9 @@ namespace OverflowHelper.core
             correctionAdd("hotswapable", "hot-swappable");
             correctionAdd("switch port", "hot-swappable"); // Not 100% correct
             correctionAdd("hot sockets", "hot-swappable");
+            correctionAdd("hot-swabble", "hot-swappable");
+            correctionAdd("hotswabbble", "hot-swappable");
+            correctionAdd("hotswappble", "hot-swappable");
             correctionAdd("hotswopple", "hot-swappable");
             correctionAdd("HS Sockets", "hot-swappable"); // Not 100% correct
             correctionAdd("HS sockets", "hot-swappable"); // Not 100% correct
@@ -67925,6 +67950,7 @@ namespace OverflowHelper.core
             correctionAdd("hot swap", "hot-swappable");
             correctionAdd("Hot Swap", "hot-swappable");
             correctionAdd("hot-swap", "hot-swappable");
+            correctionAdd("swabbble", "hot-swappable");
             correctionAdd("swapple", "hot-swappable");
             correctionAdd("hotswop", "hot-swappable");
             correctionAdd("hotswap", "hot-swappable");
@@ -77859,6 +77885,7 @@ namespace OverflowHelper.core
 
             correctionAdd("cubital tunnel", "cubital tunnel syndrome");
             correctionAdd("cubital tunbel", "cubital tunnel syndrome");
+            correctionAdd("Cubital tunnel", "cubital tunnel syndrome");
 
             correctionAdd("Rabbit MQ", "RabbitMQ");
             correctionAdd("rabbit mq", "RabbitMQ");
@@ -93307,9 +93334,11 @@ namespace OverflowHelper.core
             //
             correctionAdd("steelseries apex pro", "SteelSeries Apex Pro");
             correctionAdd("steel series", "SteelSeries Apex Pro");
+            correctionAdd("Steel series", "SteelSeries Apex Pro");
             correctionAdd("SteelSeries", "SteelSeries Apex Pro"); // Not 100% correct, but a representative of the vendor
             correctionAdd("Steelseries", "SteelSeries Apex Pro"); // Not 100% correct
             correctionAdd("SteelSeires", "SteelSeries Apex Pro"); // A true typo
+            correctionAdd("steelseries", "SteelSeries Apex Pro");
             correctionAdd("apex pro", "SteelSeries Apex Pro");
             correctionAdd("apex7", "SteelSeries Apex Pro"); // Not 100% correct, but a representative of the SteelSeries keyboard series. Is "SteelSeries Apex 7". <https://www.tomshardware.com/reviews/steelseries-apex_7-keyboard,6291.html>
 
@@ -102699,6 +102728,7 @@ namespace OverflowHelper.core
             correctionAdd("dificilt", "difficult");
             correctionAdd("diffcult", "difficult");
             correctionAdd("diffult", "difficult");
+            correctionAdd("deficit", "difficult"); // An autocorrect "masterpiece"?
 
             correctionAdd("dificulty", "difficulty");
             correctionAdd("difficuly", "difficulty");
@@ -102934,6 +102964,7 @@ namespace OverflowHelper.core
             correctionAdd("type6", "Type 6");
 
             correctionAdd("venegence", "vengeance");
+            correctionAdd("Vengeance", "vengeance");
 
             correctionAdd("concent", "consent");
 
@@ -134090,6 +134121,8 @@ namespace OverflowHelper.core
 
             URL_Add("Micro Center", "https://en.wikipedia.org/wiki/Micro_Center");
 
+            URL_Add("Etsy", "https://en.wikipedia.org/wiki/Etsy");
+
             URL_Add("Walmart", "https://en.wikipedia.org/wiki/Walmart");
 
             URL_Add("Onn", "https://en.wikipedia.org/wiki/List_of_Walmart_brands#Others");
@@ -148194,6 +148227,8 @@ namespace OverflowHelper.core
 
             URL_Add("Westberry", "https://github.com/emolitor/WestberryTech-WB32/blob/main/docs/chip-overview.md");
 
+            URL_Add("WB32F3G71RCT6 is a lesser microcontroller in practice", "https://github.com/Keychron/qmk_firmware/issues/386#issuecomment-4866649072");
+
             URL_Add("ST Nucleo", "https://en.wikipedia.org/wiki/STM32#ST_Nucleo"); // Old: <https://en.wikipedia.org/wiki/STM32#Nucleo_boards>
 
             URL_Add("WS2812B", "https://stm32world.com/wiki/STM32_WS2812_(NeoPixel_RGB_LED)");
@@ -148616,6 +148651,8 @@ namespace OverflowHelper.core
 
             URL_Add("3D printing", "https://en.wikipedia.org/wiki/3D_printing");
 
+            URL_Add("3D printed", "https://en.wiktionary.org/wiki/3D_print#Verb");
+
             URL_Add("3D printer", "https://en.wikipedia.org/wiki/3D_printing#Processes_and_printers");
 
             URL_Add("filament", "https://en.wiktionary.org/wiki/filament#Noun");
@@ -148922,7 +148959,7 @@ namespace OverflowHelper.core
 
             URL_Add("MacBook Pro", "https://en.wikipedia.org/wiki/MacBook_Pro");
 
-            URL_Add("MacBook Pro M2", "https://en.wikipedia.org/wiki/MacBook_Pro#14-inch_and_16-inch_(2021%E2%80%93present)");
+            URL_Add("MacBook Pro (M2)", "https://en.wikipedia.org/wiki/MacBook_Pro#14-inch_and_16-inch_(2021%E2%80%93present)");
 
             URL_Add("M1 Max MacBook Pro", "https://en.wikipedia.org/wiki/MacBook_Pro#5th_generation_(M1_Pro_and_M1_Max)");
 
@@ -150350,6 +150387,8 @@ namespace OverflowHelper.core
 
             URL_Add("ask me anything", "https://en.wiktionary.org/wiki/AMA#Phrase");
 
+            URL_Add("hovering", "https://en.wiktionary.org/wiki/hover#Verb");
+
             URL_Add("The ships hung in the sky much the same way that bricks don't.", "https://www.youtube.com/watch?v=DaiX680XWP4&list=PLSoD2CcPrumFUOPyA8aLONTz5jr-IQFu5&index=4&t=11m20s");
 
             URL_Add("boggles", "https://en.wiktionary.org/wiki/boggle#Verb");
@@ -150930,6 +150969,8 @@ namespace OverflowHelper.core
 
             correctionAdd("tenth_", "one-tenth_");
 
+            correctionAdd("IF_", "intermittent fasting_");
+
             // Configuration software for Cooler Master keyboards.
             //
             // For the Reddit page (URL) with
@@ -151252,10 +151293,10 @@ namespace OverflowHelper.core
 
             correctionAdd("midification_", "modification_");
             correctionAdd("mofification_", "modification_");
-            correctionAdd("moficiation_", "modification_");
             correctionAdd("mofifiation_", "modification_");
-            correctionAdd("modiciation_", "modification_");
             correctionAdd("modifiation_", "modification_");
+            correctionAdd("moficiation_", "modification_");
+            correctionAdd("modiciation_", "modification_");
             correctionAdd("modication_", "modification_");
             correctionAdd("modding_", "modification_");
             correctionAdd("modif_", "modification_");
@@ -152461,6 +152502,8 @@ namespace OverflowHelper.core
             correctionAdd("keychattering_", "key chatter_"); // Not 100% correct
             correctionAdd("key bounce_", "key chatter_");
             correctionAdd("keychatter_", "key chatter_");
+            correctionAdd("Ghosting_", "key chatter_");
+            correctionAdd("ghosting_", "key chatter_");
             correctionAdd("chatter_", "key chatter_");
 
             // Some new feature for mechanical keyboards with
@@ -157907,6 +157950,7 @@ namespace OverflowHelper.core
             correctionAdd("Ergodox_", "ErgoDox EZ_");
             correctionAdd("ergodox_", "ErgoDox EZ_");
             correctionAdd("the Dox_", "ErgoDox EZ_");
+            correctionAdd("ergoDox_", "ErgoDox EZ_");
             correctionAdd("Dox_", "ErgoDox EZ_");
 
             // A 76-key (70%. Not true TKL) severely crippled
@@ -158667,6 +158711,7 @@ namespace OverflowHelper.core
             correctionAdd("kinesis_", "Kinesis Advantage 2_");
             correctionAdd("Kineses_", "Kinesis Advantage 2_"); // Misspelling
             correctionAdd("kineses_", "Kinesis Advantage 2_"); // Misspelling
+            correctionAdd("Kenesis_", "Kinesis Advantage 2_");
             correctionAdd("KA360_", "Kinesis Advantage 2_");
             correctionAdd("adv2_", "Kinesis Advantage 2_");
             correctionAdd("Adv2_", "Kinesis Advantage 2_");
@@ -171566,6 +171611,8 @@ namespace OverflowHelper.core
 
             URL_Add("quite_", "https://en.wiktionary.org/wiki/quite#Adverb");
 
+            URL_Add("intermittent fasting_", "https://en.wikipedia.org/wiki/Intermittent_fasting");
+
         } //addLookupData_alternativeWordSet()
 
 
@@ -171607,6 +171654,9 @@ namespace OverflowHelper.core
             correctionAdd("imperative__", "imperative programming__"); // For the cross-reference
 
             correctionAdd("isp__", "ISP__"); // Microcontroller programming
+
+            correctionAdd("intermediate frequency__", "IF__");
+            correctionAdd("if__", "IF__");
 
             // The programming error, not the site...
             //
@@ -174453,9 +174503,11 @@ namespace OverflowHelper.core
             // Not to be confused with MacBook Pro...
             correctionAdd("MacPro__", "Mac Pro__");
 
-            correctionAdd("MacBook Pro M3 Max__", "M3 Max MacBook Pro__");
-            correctionAdd("MacBook Pro M3__", "M3 Max MacBook Pro__");
-            correctionAdd("M3__", "M3 Max MacBook Pro__");
+            correctionAdd("MacBook Pro M3 Max__", "MacBook Pro (M3 Max)__");
+            correctionAdd("M3 Max MacBook Pro__", "MacBook Pro (M3 Max)__");
+            correctionAdd("Max MacBook Pro M3__", "MacBook Pro (M3 Max)__");
+            correctionAdd("MacBook Pro M3__", "MacBook Pro (M3 Max)__");
+            correctionAdd("M3__", "MacBook Pro (M3 Max)__");
 
             // Backup software for Mac
             correctionAdd("time machine__", "Time Machine__");
@@ -174509,6 +174561,7 @@ namespace OverflowHelper.core
             correctionAdd("Lion OS X 10.7__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
             correctionAdd("OS X Lion 10.7__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
             correctionAdd("Mac OS X v10.7__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("OS X 10.7 Lion__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
             correctionAdd("Mac OS X Lion__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
             correctionAdd("Mac OS X 10.7__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
             correctionAdd("mac os x lion__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
@@ -174834,9 +174887,6 @@ namespace OverflowHelper.core
             correctionAdd("BE__", "backward elimination__");
 
             correctionAdd("acces__", "access__"); // The verb
-
-            correctionAdd("intermediate frequency__", "IF__");
-            correctionAdd("if__", "IF__");
 
             correctionAdd("bited__", "bit__");
             correctionAdd("bir__", "bit__");
@@ -177726,7 +177776,7 @@ namespace OverflowHelper.core
 
             URL_Add("Mac Pro__", "https://en.wikipedia.org/wiki/Mac_Pro");
 
-            URL_Add("M3 Max MacBook Pro__", "https://en.wikipedia.org/wiki/MacBook_Pro#14-inch_and_16-inch_(2021%E2%80%93present)");
+            URL_Add("MacBook Pro (M3 Max)__", "https://en.wikipedia.org/wiki/MacBook_Pro#14-inch_and_16-inch_(2021%E2%80%93present)");
 
             URL_Add("Time Machine__", "https://en.wikipedia.org/wiki/Time_Machine_(macOS)");
 
@@ -178635,6 +178685,7 @@ namespace OverflowHelper.core
             correctionAdd("that___", "this___");
             correctionAdd("thst___", "this___"); // A true typo of "that" (that should have been "this" in the context)
             correctionAdd("rhis___", "this___"); // A true typo
+            correctionAdd("thid___", "this___"); // A true typo
             correctionAdd("tis___", "this___");
             correctionAdd("ths___", "this___");
             correctionAdd("dis___", "this___");
@@ -181266,18 +181317,19 @@ namespace OverflowHelper.core
             // "19 mm" at 05 min 05 secs (and is thus inferred
             // as 3/4 inch).
             //
-            correctionAdd("19.05 mm____", "u____");
-            correctionAdd("19.05mm____", "u____");
-            correctionAdd("19.5 mm____", "u____");
-            correctionAdd("19.5mm____", "u____");
-            correctionAdd("19.05____", "u____");
-            correctionAdd("19.5____", "u____");
-            correctionAdd("1 U____", "u____");
-            correctionAdd("1 u____", "u____");
-            correctionAdd("1u____", "u____");
-            correctionAdd("u1____", "u____");
-            correctionAdd("1U____", "u____");
-            correctionAdd("U____", "u____");
+            correctionAdd("19.05 mm____", "&nbsp;u____");
+            correctionAdd("19.05mm____", "&nbsp;u____");
+            correctionAdd("19.5 mm____", "&nbsp;u____");
+            correctionAdd("19.5mm____", "&nbsp;u____");
+            correctionAdd("19.05____", "&nbsp;u____");
+            correctionAdd("19.5____", "&nbsp;u____");
+            correctionAdd("1 U____", "&nbsp;u____");
+            correctionAdd("1 u____", "&nbsp;u____");
+            correctionAdd("1u____", "&nbsp;u____");
+            correctionAdd("u1____", "&nbsp;u____");
+            correctionAdd("1U____", "&nbsp;u____");
+            correctionAdd("U____", "&nbsp;u____");
+            correctionAdd("u____", "&nbsp;u____"); // Sort of identity mapping
 
             correctionAdd("soo____", "so____");
             correctionAdd("sou____", "so____");
@@ -183370,7 +183422,7 @@ namespace OverflowHelper.core
 
             URL_Add("ID____", "https://en.wiktionary.org/wiki/ID#Noun");
 
-            URL_Add("u____", "https://www.youtube.com/watch?v=xLT2VcrQHrQ&t=5m5s");
+            URL_Add("&nbsp;u____", "https://www.youtube.com/watch?v=xLT2VcrQHrQ&t=5m5s");
 
             URL_Add("Internet Protocol____", "https://en.wikipedia.org/wiki/Internet_Protocol");
 
