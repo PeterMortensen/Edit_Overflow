@@ -9578,25 +9578,6 @@ namespace OverflowHelper.core
             correctionAdd("craigslist", "Craigslist");
             correctionAdd("craiglist", "Craigslist");
 
-            correctionAdd("ded", "dead");
-
-            correctionAdd("dedly", "deadly");
-
-            correctionAdd("most deadly", "deadliest");
-
-            correctionAdd("deadend", "dead end");
-
-            correctionAdd("arive", "arrive");
-
-            correctionAdd("ETA", "estimated time of arrival");
-            correctionAdd("eta", "estimated time of arrival");
-
-            correctionAdd("Dead on Arrival", "dead on arrival");
-            correctionAdd("doa", "dead on arrival");
-            correctionAdd("DOA", "dead on arrival");
-
-            correctionAdd("MIA", "missing in action");
-
             correctionAdd("twhrows", "throws");
             correctionAdd("thows", "throws");
 
@@ -36269,6 +36250,7 @@ namespace OverflowHelper.core
             correctionAdd("orange predecessor", "Trump");
             correctionAdd("the orange creep", "Trump");
             correctionAdd("the orange agent", "Trump");
+            correctionAdd("the orange idiot", "Trump");
             correctionAdd("Mango Mussolini", "Trump");
             correctionAdd("the Orange Blob", "Trump");
             correctionAdd("the orange king", "Trump");
@@ -38522,14 +38504,6 @@ namespace OverflowHelper.core
             // Idiomatic
             correctionAdd("straw that broke the camel's back", "the straw that broke the camel's back");
             correctionAdd("broke the camel's back", "the straw that broke the camel's back");
-
-            // Idiomatic
-            //
-            // Alternative URL:
-            //
-            //   <https://www.youtube.com/watch?v=8PhdfcX9tG0&t=5m10s>
-            //
-            correctionAdd("flogging a dead-horse", "flogging a dead horse");
 
             correctionAdd("good-enough", "good enough");
 
@@ -98739,6 +98713,7 @@ namespace OverflowHelper.core
             correctionAdd("koitlin", "Kotlin");
             correctionAdd("kotlin", "Kotlin");
             correctionAdd("KOTLIN", "Kotlin");
+            correctionAdd("Koltin", "Kotlin"); // A true typo
             correctionAdd("kotln", "Kotlin");
 
             // Kotlin
@@ -100010,12 +99985,6 @@ namespace OverflowHelper.core
             correctionAdd("Signal Processing (Stack Exchange site)", "Signal&nbsp;Processing (Stack Exchange site)");
             correctionAdd("DSP.SE", "Signal&nbsp;Processing (Stack Exchange site)");
 
-            correctionAdd("Interpersonal&nbsp;Skills", "Interpersonal&nbsp;Skills (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("interpersonal skills", "Interpersonal&nbsp;Skills (Stack Exchange site)");
-            correctionAdd("Interpersonal Skills", "Interpersonal&nbsp;Skills (Stack Exchange site)");
-            correctionAdd("Interpersonal Skills (Stack Exchange site)", "Interpersonal&nbsp;Skills (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("IPS", "Interpersonal&nbsp;Skills (Stack Exchange site)");
-
             correctionAdd("Android Enthusiasts (Stack Exchange site)", "Android&nbsp;Enthusiasts (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("Android&nbsp;Enthusiasts", "Android&nbsp;Enthusiasts (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("Android Enthusiasts", "Android&nbsp;Enthusiasts (Stack Exchange site)"); // Sort of identity mapping
@@ -100030,6 +99999,12 @@ namespace OverflowHelper.core
 
             correctionAdd("Lifehacks", "Lifehacks (Stack Exchange site)");
             correctionAdd("lifehacks", "Lifehacks (Stack Exchange site)");
+
+            correctionAdd("Interpersonal&nbsp;Skills", "Interpersonal&nbsp;Skills (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("interpersonal skills", "Interpersonal&nbsp;Skills (Stack Exchange site)");
+            correctionAdd("Interpersonal Skills", "Interpersonal&nbsp;Skills (Stack Exchange site)");
+            correctionAdd("Interpersonal Skills (Stack Exchange site)", "Interpersonal&nbsp;Skills (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("IPS", "Interpersonal&nbsp;Skills (Stack Exchange site)");
 
             // A chatroom on the Stack Exchange site "Code Golf"
             // (<https://codegolf.stackexchange.com>)
@@ -107917,6 +107892,34 @@ namespace OverflowHelper.core
 
             correctionAdd("skilfully", "skillfully");
 
+            correctionAdd("sleeping forever", "dead");
+            correctionAdd("ded", "dead");
+
+            correctionAdd("dedly", "deadly");
+
+            correctionAdd("most deadly", "deadliest");
+
+            correctionAdd("deadend", "dead end");
+
+            // Idiomatic
+            //
+            // Alternative URL:
+            //
+            //   <https://www.youtube.com/watch?v=8PhdfcX9tG0&t=5m10s>
+            //
+            correctionAdd("flogging a dead-horse", "flogging a dead horse");
+
+            correctionAdd("Dead on Arrival", "dead on arrival");
+            correctionAdd("doa", "dead on arrival");
+            correctionAdd("DOA", "dead on arrival");
+
+            correctionAdd("arive", "arrive");
+
+            correctionAdd("ETA", "estimated time of arrival");
+            correctionAdd("eta", "estimated time of arrival");
+
+            correctionAdd("MIA", "missing in action");
+
             // Note: "killed" and "kill" are in an alternative word set
             correctionAdd("flatlining", "killing");
             correctionAdd("windowing", "killing");
@@ -111250,8 +111253,6 @@ namespace OverflowHelper.core
             URL_Add("conditional", "https://en.wiktionary.org/wiki/conditional#Adjective");
 
             URL_Add("criteria", "https://en.wiktionary.org/wiki/criterion#Noun");
-
-            URL_Add("Dead Sea", "https://en.wiktionary.org/wiki/Dead_Sea#Proper_noun"); // Old: https://en.wiktionary.org/wiki/Dead_Sea
 
             URL_Add("disappeared", "https://en.wiktionary.org/wiki/disappear#Verb");
 
@@ -119543,8 +119544,6 @@ namespace OverflowHelper.core
 
             URL_Add("vicious circle", "https://en.wikipedia.org/wiki/Vicious_circle");
 
-            URL_Add("flogging a dead horse", "https://en.wiktionary.org/wiki/flog_a_dead_horse#Verb");
-
             URL_Add("testing", "https://en.wiktionary.org/wiki/testing#Noun");
 
             URL_Add("Bulma", "https://bulma.io/documentation/overview/start/");
@@ -123699,8 +123698,6 @@ namespace OverflowHelper.core
 
             URL_Add("diodes", "https://en.wikipedia.org/wiki/Diode");
 
-            URL_Add("earliest deadline first", "https://en.wikipedia.org/wiki/Earliest_deadline_first_scheduling");
-
             URL_Add("jsoup", "https://en.wikipedia.org/wiki/Jsoup");
 
             URL_Add("laxity", "https://en.wiktionary.org/wiki/laxity#Noun");
@@ -123718,8 +123715,6 @@ namespace OverflowHelper.core
             URL_Add("properness", "https://en.wiktionary.org/wiki/properness#Noun");
 
             URL_Add("sounds", "https://en.wiktionary.org/wiki/sound#Verb");
-
-            URL_Add("Kilmat", "https://glennsaid.com/mat66-vs-kilmat-sound-deadening/");
 
             URL_Add("au contraire", "https://en.wiktionary.org/wiki/au_contraire#Adverb");
 
@@ -137581,22 +137576,6 @@ namespace OverflowHelper.core
 
             URL_Add("nerve-racking", "https://en.wiktionary.org/wiki/nerve-racking#Adjective");
 
-            URL_Add("dead", "https://en.wiktionary.org/wiki/dead#Adjective");
-
-            URL_Add("deadly", "https://en.wiktionary.org/wiki/deadly#Adjective");
-
-            URL_Add("deadliest", "https://en.wiktionary.org/wiki/deadly#Adjective");
-
-            URL_Add("dead end", "https://en.wiktionary.org/wiki/dead_end#Noun");
-
-            URL_Add("deadline", "https://en.wiktionary.org/wiki/deadline#Noun");
-
-            URL_Add("dead link", "https://en.wiktionary.org/wiki/dead_link#Noun");
-
-            URL_Add("dead key", "https://en.wikipedia.org/wiki/Dead_key#Electronic_keyboards");
-
-            URL_Add("dead on arrival", "https://en.wiktionary.org/wiki/dead_on_arrival#Adjective");
-
             URL_Add("exploded", "https://en.wiktionary.org/wiki/explode#Verb");
 
             URL_Add("high explosives", "https://en.wiktionary.org/wiki/high_explosive#Noun");
@@ -140233,104 +140212,6 @@ namespace OverflowHelper.core
 
             URL_Add("takes the biscuit", "https://en.wiktionary.org/wiki/take_the_biscuit#Verb");
 
-            URL_Add("Air Light VR", "https://github.com/alvr-org/ALVR");
-
-            URL_Add("airplane", "https://en.wiktionary.org/wiki/airplane#Noun");
-
-            URL_Add("airplanes", "https://en.wiktionary.org/wiki/airplane#Noun");
-
-            URL_Add("aviation gasoline", "https://en.wikipedia.org/wiki/Avgas");
-
-            URL_Add("airfield", "https://en.wiktionary.org/wiki/airfield#Noun");
-
-            URL_Add("indicated airspeed", "https://en.wikipedia.org/wiki/Indicated_airspeed");
-
-            URL_Add("true airspeed", "https://en.wikipedia.org/wiki/True_airspeed");
-
-            URL_Add("dead reckoning", "https://en.wiktionary.org/wiki/dead_reckoning#Noun");
-
-            URL_Add("instrument landing system", "https://en.wikipedia.org/wiki/Instrument_landing_system");
-
-            URL_Add("scud running", "https://en.wikipedia.org/wiki/Scud_running");
-
-            URL_Add("scud ran", "https://en.wiktionary.org/wiki/scud_run#Verb");
-
-            URL_Add("runway", "https://en.wiktionary.org/wiki/runway#Noun");
-
-            URL_Add("runway excursion", "https://en.wikipedia.org/wiki/Runway_excursion");
-
-            URL_Add("runway incursion", "https://en.wikipedia.org/wiki/Runway_incursion");
-
-            URL_Add("Jet A", "https://en.wikipedia.org/wiki/Jet_fuel#Jet_A/A-1");
-
-            URL_Add("Cessna Citation II", "https://en.wikipedia.org/wiki/Cessna_Citation_II");
-
-            URL_Add("Embraer 190", "https://en.wikipedia.org/wiki/Embraer_E-Jet_family#E190_and_E195");
-
-            URL_Add("F-35", "https://en.wikipedia.org/wiki/Lockheed_Martin_F-35_Lightning_II");
-
-            URL_Add("AirPort", "https://en.wikipedia.org/wiki/AirPort");
-
-            URL_Add("Tenerife airport disaster", "https://en.wikipedia.org/wiki/Tenerife_airport_disaster");
-
-            URL_Add("Keflavík", "https://en.wikipedia.org/wiki/Keflav%C3%ADk_International_Airport");
-
-            URL_Add("Boston Logan International Airport", "https://en.wikipedia.org/wiki/Logan_International_Airport");
-
-            URL_Add("Charles de Gaulle Airport", "https://en.wikipedia.org/wiki/Charles_de_Gaulle_Airport");
-
-            URL_Add("Sydney Airport", "https://en.wikipedia.org/wiki/Sydney_Airport");
-
-            URL_Add("Los Angeles International Airport", "https://en.wikipedia.org/wiki/Los_Angeles_International_Airport");
-
-            URL_Add("Tom Bradley International Terminal", "https://en.wikipedia.org/wiki/Terminals_of_Los_Angeles_International_Airport#Tom_Bradley_International_Terminal_(Terminal_B)");
-
-            URL_Add("Abu Dhabi International Airport", "https://en.wikipedia.org/wiki/Abu_Dhabi_International_Airport");
-
-            URL_Add("John F. Kennedy International Airport", "https://en.wikipedia.org/wiki/John_F._Kennedy_International_Airport");
-
-            URL_Add("Newark Liberty International Airport", "https://en.wikipedia.org/wiki/Newark_Liberty_International_Airport");
-
-            URL_Add("O'Hare International Airport", "https://en.wikipedia.org/wiki/O'Hare_International_Airport");
-
-            URL_Add("Heathrow Airport", "https://en.wikipedia.org/wiki/Heathrow_Airport");
-
-            URL_Add("Ronald Reagan Washington National Airport", "https://en.wikipedia.org/wiki/Ronald_Reagan_Washington_National_Airport");
-
-            URL_Add("Reykjavík", "https://en.wikipedia.org/wiki/Reykjav%C3%ADk");
-
-            URL_Add("Melbourne", "https://en.wikipedia.org/wiki/Melbourne");
-
-            URL_Add("Adelaide", "https://en.wikipedia.org/wiki/Adelaide");
-
-            URL_Add("Sydney", "https://en.wikipedia.org/wiki/Sydney");
-
-            URL_Add("Qatar", "https://en.wikipedia.org/wiki/Qatar");
-
-            URL_Add("Bahrain", "https://en.wikipedia.org/wiki/Bahrain");
-
-            URL_Add("Dubai", "https://en.wikipedia.org/wiki/Dubai");
-
-            URL_Add("United Arab Emirates", "https://en.wikipedia.org/wiki/United_Arab_Emirates");
-
-            URL_Add("Emirate of Abu Dhabi", "https://en.wikipedia.org/wiki/Emirate_of_Abu_Dhabi");
-
-            URL_Add("Etihad Airways", "https://en.wikipedia.org/wiki/Etihad_Airways");
-
-            URL_Add("Qatar Airways", "https://en.wikipedia.org/wiki/Qatar_Airways");
-
-            URL_Add("Emirates", "https://en.wikipedia.org/wiki/Emirates_(airline)");
-
-            URL_Add("International Air Transport Association", "https://en.wikipedia.org/wiki/International_Air_Transport_Association");
-
-            URL_Add("Mauritius", "https://en.wikipedia.org/wiki/Mauritius");
-
-            URL_Add("TAP Air Portugal", "https://en.wikipedia.org/wiki/TAP_Air_Portugal");
-
-            URL_Add("Virgin Atlantic", "https://en.wikipedia.org/wiki/Virgin_Atlantic");
-
-            URL_Add("H-4 visa", "https://en.wikipedia.org/wiki/H-4_visa");
-
             URL_Add("time zone", "https://en.wiktionary.org/wiki/time_zone#Noun");
 
             URL_Add("time zones", "https://en.wiktionary.org/wiki/time_zone#Noun");
@@ -142692,8 +142573,6 @@ namespace OverflowHelper.core
             URL_Add("Microsoft Message Queuing", "https://en.wikipedia.org/wiki/Microsoft_Message_Queuing");
 
             URL_Add("RabbitMQ", "https://en.wikipedia.org/wiki/RabbitMQ");
-
-            URL_Add("DLQ", "https://en.wikipedia.org/wiki/Dead_letter_queue");
 
             URL_Add("Amazon SNS", "https://en.wikipedia.org/wiki/Amazon_Simple_Notification_Service");
 
@@ -145914,8 +145793,6 @@ namespace OverflowHelper.core
             URL_Add("Sniper Elite III", "https://en.wikipedia.org/wiki/Sniper_Elite_III");
 
             URL_Add("Counter-Strike: Global Offensive", "https://en.wikipedia.org/wiki/Counter-Strike:_Global_Offensive");
-
-            URL_Add("Red Dead Redemption 2", "https://en.wikipedia.org/wiki/Red_Dead_Redemption_2");
 
             URL_Add("singleplayer", "https://en.wiktionary.org/wiki/singleplayer#Adjective");
 
@@ -149357,22 +149234,6 @@ namespace OverflowHelper.core
 
             URL_Add("the meat of the matter", "https://idioms.thefreedictionary.com/meat+of+the+matter");
 
-            URL_Add("brain", "https://en.wiktionary.org/wiki/brain#Noun");
-
-            URL_Add("brain freeze", "https://en.wiktionary.org/wiki/brain_freeze#Noun");
-
-            URL_Add("brain-dead", "https://en.wiktionary.org/wiki/brain-dead#Adjective");
-
-            URL_Add("brainchild", "https://en.wiktionary.org/wiki/brainchild#Noun");
-
-            URL_Add("brainstorming", "https://en.wiktionary.org/wiki/brainstorming#Noun");
-
-            URL_Add("Braintree", "https://en.wikipedia.org/wiki/Braintree_%28company%29");
-
-            URL_Add("Brain.js", "https://www.freecodecamp.org/news/want-to-learn-neural-networks-heres-a-free-brain-js-course-merry-christmas-ea801f378041/");
-
-            URL_Add("Brainfuck", "https://en.wikipedia.org/wiki/Brainfuck");
-
             URL_Add("collide", "https://en.wiktionary.org/wiki/collide#Verb");
 
             URL_Add("collides", "https://en.wiktionary.org/wiki/collide#Verb");
@@ -150598,6 +150459,148 @@ namespace OverflowHelper.core
             URL_Add("to be quite honest", "https://en.wiktionary.org/wiki/tbqh#Phrase");
 
             URL_Add("QuiteRSS", "https://en.wikipedia.org/wiki/QuiteRSS");
+
+            URL_Add("dead", "https://en.wiktionary.org/wiki/dead#Adjective");
+
+            URL_Add("deadly", "https://en.wiktionary.org/wiki/deadly#Adjective");
+
+            URL_Add("deadliest", "https://en.wiktionary.org/wiki/deadly#Adjective");
+
+            URL_Add("dead end", "https://en.wiktionary.org/wiki/dead_end#Noun");
+
+            URL_Add("deadline", "https://en.wiktionary.org/wiki/deadline#Noun");
+
+            URL_Add("dead link", "https://en.wiktionary.org/wiki/dead_link#Noun");
+
+            URL_Add("dead key", "https://en.wikipedia.org/wiki/Dead_key#Electronic_keyboards");
+
+            URL_Add("dead on arrival", "https://en.wiktionary.org/wiki/dead_on_arrival#Adjective");
+
+            URL_Add("flogging a dead horse", "https://en.wiktionary.org/wiki/flog_a_dead_horse#Verb");
+
+            URL_Add("earliest deadline first", "https://en.wikipedia.org/wiki/Earliest_deadline_first_scheduling");
+
+            URL_Add("Dead Sea", "https://en.wiktionary.org/wiki/Dead_Sea#Proper_noun"); // Old: https://en.wiktionary.org/wiki/Dead_Sea
+
+            URL_Add("Kilmat", "https://glennsaid.com/mat66-vs-kilmat-sound-deadening/");
+
+            URL_Add("DLQ", "https://en.wikipedia.org/wiki/Dead_letter_queue");
+
+            URL_Add("Red Dead Redemption 2", "https://en.wikipedia.org/wiki/Red_Dead_Redemption_2");
+
+            URL_Add("dead reckoning", "https://en.wiktionary.org/wiki/dead_reckoning#Noun");
+
+            URL_Add("brain-dead", "https://en.wiktionary.org/wiki/brain-dead#Adjective");
+
+            URL_Add("brain", "https://en.wiktionary.org/wiki/brain#Noun");
+
+            URL_Add("brain freeze", "https://en.wiktionary.org/wiki/brain_freeze#Noun");
+
+            URL_Add("brainchild", "https://en.wiktionary.org/wiki/brainchild#Noun");
+
+            URL_Add("brainstorming", "https://en.wiktionary.org/wiki/brainstorming#Noun");
+
+            URL_Add("Braintree", "https://en.wikipedia.org/wiki/Braintree_%28company%29");
+
+            URL_Add("Brain.js", "https://www.freecodecamp.org/news/want-to-learn-neural-networks-heres-a-free-brain-js-course-merry-christmas-ea801f378041/");
+
+            URL_Add("Brainfuck", "https://en.wikipedia.org/wiki/Brainfuck");
+
+            URL_Add("Air Light VR", "https://github.com/alvr-org/ALVR");
+
+            URL_Add("airplane", "https://en.wiktionary.org/wiki/airplane#Noun");
+
+            URL_Add("airplanes", "https://en.wiktionary.org/wiki/airplane#Noun");
+
+            URL_Add("aviation gasoline", "https://en.wikipedia.org/wiki/Avgas");
+
+            URL_Add("airfield", "https://en.wiktionary.org/wiki/airfield#Noun");
+
+            URL_Add("indicated airspeed", "https://en.wikipedia.org/wiki/Indicated_airspeed");
+
+            URL_Add("true airspeed", "https://en.wikipedia.org/wiki/True_airspeed");
+
+            URL_Add("instrument landing system", "https://en.wikipedia.org/wiki/Instrument_landing_system");
+
+            URL_Add("scud running", "https://en.wikipedia.org/wiki/Scud_running");
+
+            URL_Add("scud ran", "https://en.wiktionary.org/wiki/scud_run#Verb");
+
+            URL_Add("runway", "https://en.wiktionary.org/wiki/runway#Noun");
+
+            URL_Add("runway excursion", "https://en.wikipedia.org/wiki/Runway_excursion");
+
+            URL_Add("runway incursion", "https://en.wikipedia.org/wiki/Runway_incursion");
+
+            URL_Add("Jet A", "https://en.wikipedia.org/wiki/Jet_fuel#Jet_A/A-1");
+
+            URL_Add("Cessna Citation II", "https://en.wikipedia.org/wiki/Cessna_Citation_II");
+
+            URL_Add("Embraer 190", "https://en.wikipedia.org/wiki/Embraer_E-Jet_family#E190_and_E195");
+
+            URL_Add("F-35", "https://en.wikipedia.org/wiki/Lockheed_Martin_F-35_Lightning_II");
+
+            URL_Add("AirPort", "https://en.wikipedia.org/wiki/AirPort");
+
+            URL_Add("Tenerife airport disaster", "https://en.wikipedia.org/wiki/Tenerife_airport_disaster");
+
+            URL_Add("Keflavík", "https://en.wikipedia.org/wiki/Keflav%C3%ADk_International_Airport");
+
+            URL_Add("Boston Logan International Airport", "https://en.wikipedia.org/wiki/Logan_International_Airport");
+
+            URL_Add("Charles de Gaulle Airport", "https://en.wikipedia.org/wiki/Charles_de_Gaulle_Airport");
+
+            URL_Add("Sydney Airport", "https://en.wikipedia.org/wiki/Sydney_Airport");
+
+            URL_Add("Los Angeles International Airport", "https://en.wikipedia.org/wiki/Los_Angeles_International_Airport");
+
+            URL_Add("Tom Bradley International Terminal", "https://en.wikipedia.org/wiki/Terminals_of_Los_Angeles_International_Airport#Tom_Bradley_International_Terminal_(Terminal_B)");
+
+            URL_Add("Abu Dhabi International Airport", "https://en.wikipedia.org/wiki/Abu_Dhabi_International_Airport");
+
+            URL_Add("John F. Kennedy International Airport", "https://en.wikipedia.org/wiki/John_F._Kennedy_International_Airport");
+
+            URL_Add("Newark Liberty International Airport", "https://en.wikipedia.org/wiki/Newark_Liberty_International_Airport");
+
+            URL_Add("O'Hare International Airport", "https://en.wikipedia.org/wiki/O'Hare_International_Airport");
+
+            URL_Add("Heathrow Airport", "https://en.wikipedia.org/wiki/Heathrow_Airport");
+
+            URL_Add("Ronald Reagan Washington National Airport", "https://en.wikipedia.org/wiki/Ronald_Reagan_Washington_National_Airport");
+
+            URL_Add("Reykjavík", "https://en.wikipedia.org/wiki/Reykjav%C3%ADk");
+
+            URL_Add("Melbourne", "https://en.wikipedia.org/wiki/Melbourne");
+
+            URL_Add("Adelaide", "https://en.wikipedia.org/wiki/Adelaide");
+
+            URL_Add("Sydney", "https://en.wikipedia.org/wiki/Sydney");
+
+            URL_Add("Qatar", "https://en.wikipedia.org/wiki/Qatar");
+
+            URL_Add("Bahrain", "https://en.wikipedia.org/wiki/Bahrain");
+
+            URL_Add("Dubai", "https://en.wikipedia.org/wiki/Dubai");
+
+            URL_Add("United Arab Emirates", "https://en.wikipedia.org/wiki/United_Arab_Emirates");
+
+            URL_Add("Emirate of Abu Dhabi", "https://en.wikipedia.org/wiki/Emirate_of_Abu_Dhabi");
+
+            URL_Add("Etihad Airways", "https://en.wikipedia.org/wiki/Etihad_Airways");
+
+            URL_Add("Qatar Airways", "https://en.wikipedia.org/wiki/Qatar_Airways");
+
+            URL_Add("Emirates", "https://en.wikipedia.org/wiki/Emirates_(airline)");
+
+            URL_Add("International Air Transport Association", "https://en.wikipedia.org/wiki/International_Air_Transport_Association");
+
+            URL_Add("Mauritius", "https://en.wikipedia.org/wiki/Mauritius");
+
+            URL_Add("TAP Air Portugal", "https://en.wikipedia.org/wiki/TAP_Air_Portugal");
+
+            URL_Add("Virgin Atlantic", "https://en.wikipedia.org/wiki/Virgin_Atlantic");
+
+            URL_Add("H-4 visa", "https://en.wikipedia.org/wiki/H-4_visa");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -173982,8 +173985,11 @@ namespace OverflowHelper.core
 
             correctionAdd("brute-force__", "brute force__");
 
+            correctionAdd("fu****ing**__", "fucking__");
+            correctionAdd("fu****ing__", "fucking__");
             correctionAdd("freaking__", "fucking__");
             correctionAdd("frigging__", "fucking__");
+            correctionAdd("fu***ing__", "fucking__");
             correctionAdd("fecking__", "fucking__");
             correctionAdd("fscking__", "fucking__");
             correctionAdd("f*cking__", "fucking__");
@@ -174005,6 +174011,7 @@ namespace OverflowHelper.core
             correctionAdd("fucken__", "fucking__");
             correctionAdd("F****g__", "fucking__");
             correctionAdd("f****g__", "fucking__");
+            correctionAdd("fu*ing__", "fucking__");
             correctionAdd("F*ing__", "fucking__");
             correctionAdd("f*ing__", "fucking__");
             correctionAdd("fking__", "fucking__");
@@ -180928,12 +180935,6 @@ namespace OverflowHelper.core
 
             URL_Add("customer service___", "https://en.wikipedia.org/wiki/Customer_service");
 
-            URL_Add("Fortnite___", "https://en.wikipedia.org/wiki/Fortnite");
-
-            URL_Add("Dead Space___", "https://en.wikipedia.org/wiki/Dead_Space#Main_series");
-
-            URL_Add("Assassin's Creed___", "https://en.wikipedia.org/wiki/Dead_Space#Main_series");
-
             URL_Add("NativeScript___", "https://en.wikipedia.org/wiki/NativeScript");
 
             URL_Add("intent___", "https://developer.android.com/guide/components/intents-filters.html");
@@ -181087,6 +181088,12 @@ namespace OverflowHelper.core
             URL_Add("Keychron keyboards' two-hour deep sleep___", "https://github.com/Keychron/qmk_firmware/issues/380#issuecomment-4886867229");
 
             URL_Add(".NET Core___", "https://en.wikipedia.org/wiki/.NET#History"); // Even older: https://en.wikipedia.org/wiki/.NET_Framework#.NET_Core. Old: <https://en.wikipedia.org/wiki/.NET_Core>
+
+            URL_Add("Fortnite___", "https://en.wikipedia.org/wiki/Fortnite");
+
+            URL_Add("Dead Space___", "https://en.wikipedia.org/wiki/Dead_Space#Main_series");
+
+            URL_Add("Assassin's Creed___", "https://en.wikipedia.org/wiki/Dead_Space#Main_series");
 
         } //addLookupData_alternativeWordSet3()
 
