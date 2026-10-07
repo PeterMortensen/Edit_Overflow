@@ -3042,7 +3042,9 @@ sleep 2
 # Open the Simply.com (formerly UnoEuro) import
 # page (immediately so we can prepare while
 # the rest of the script is running)
-xdg-open "https://www.simply.com/dk/controlpanel/pmortensen.eu/mysql/"
+#
+#xdg-open "https://www.simply.com/dk/controlpanel/pmortensen.eu/mysql/"
+xdg-open "https://mysql.simply.com/index.php?route=/server/import"
 
 # Open Visual Studio Code (for version control operations (Git))
 code
