@@ -2205,6 +2205,7 @@ namespace OverflowHelper.core
 
             correctionAdd("DR*GS", "drugs");
             correctionAdd("dr*gs", "drugs");
+            correctionAdd("d**gs", "drugs");
 
             correctionAdd("combatitive", "combative");
 
@@ -10970,6 +10971,21 @@ namespace OverflowHelper.core
             //
             correctionAdd("rectangle", "Rectangle");
 
+            // Microsoft / Windows
+            correctionAdd("cortana", "Cortana");
+            correctionAdd("cortona", "Cortana");
+            correctionAdd("Cortona", "Cortana");
+
+            // Apple / macOS
+            correctionAdd("siri", "Siri");
+            correctionAdd("SIri", "Siri");
+
+            // Apple / macOS.
+            // Mac. Window manager. Similar to i3.
+            correctionAdd("aerospace", "AeroSpace");
+
+            correctionAdd("airdrop", "AirDrop");
+
             // macOS software. A package manager
             correctionAdd("mac ports", "MacPorts");
             correctionAdd("Mac Ports", "MacPorts");
@@ -11354,6 +11370,8 @@ namespace OverflowHelper.core
             //            2024: v15 (Sequoia)
             //
             correctionAdd("macOS v26 (Tahoe) (2026 vintage)", "macOS&nbsp;v26 (Tahoe) (2026 vintage)"); // Sort of identity mapping
+            correctionAdd("MacOS version 26", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
+            correctionAdd("macOS version 26", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
             correctionAdd("MacOS Tahoe 26", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
             correctionAdd("macos tahoe 26", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
             correctionAdd("Mac OS Tahoe", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
@@ -11362,6 +11380,8 @@ namespace OverflowHelper.core
             correctionAdd("Mac Tahoe", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
             correctionAdd("Tahoe 26", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
             correctionAdd("tahoe 26", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
+            correctionAdd("MacOS 26", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
+            correctionAdd("macos 26", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
             correctionAdd("tahoe", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
             correctionAdd("Tahoe", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
 
@@ -89915,6 +89935,10 @@ namespace OverflowHelper.core
             correctionAdd("Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
             correctionAdd("Keychron&nbsp;Q3&nbsp;HE&nbsp;8K", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)");
             correctionAdd("Q3&nbsp;HE&nbsp;8K", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q3 HE 8 Khz", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q3 HE 8 kHz", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q3 HE 8Khz", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q3 HE 8kHz", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)");
             correctionAdd("Q3 HE 8K", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)");
             correctionAdd("Q3 HE 8k", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)");
 
@@ -97668,6 +97692,27 @@ namespace OverflowHelper.core
             correctionAdd("Keychron BM25", "Keychron&nbsp;BM25");
             correctionAdd("BM25", "Keychron&nbsp;BM25");
             correctionAdd("bm25", "Keychron&nbsp;BM25");
+
+            // A trackball from Keychron
+            //
+            // Nape Pro user manual:
+            //
+            //   <https://www.keychron.com/pages/keychron-nape-pro-user-manual>
+            //
+            // Alternative URLs:
+            //
+            //  <https://www.tomshardware.com/peripherals/mice/keyboard-giant-keychron-unveils-new-nape-pro-trackball-with-programmable-buttons-low-profile-design-promotes-ergonomic-scrolling-without-leaving-your-keyboard>
+            //
+            //  <https://www.theverge.com/tech/860178/ive-never-used-a-trackball-but-keychrons-nape-pro-looks-like-the-perfect-one>
+            //
+            //  <https://www.reddit.com/r/Keychron/comments/1s1ak06/keychrone_nape_pro_any_news/>
+            //  <https://www.reddit.com/r/Keychron/comments/1s1ak06/comment/oc2fa1r/>
+            //
+            correctionAdd("Keychrone nape pro", "Keychron Nape Pro");
+            correctionAdd("Nape Pro", "Keychron Nape Pro");
+            correctionAdd("nape pro", "Keychron Nape Pro");
+            correctionAdd("Nape", "Keychron Nape Pro");
+            correctionAdd("nape", "Keychron Nape Pro");
 
             // A wireless-only (only '2.4 GHz') mouse from Cooler Master.
             //
@@ -105676,19 +105721,6 @@ namespace OverflowHelper.core
             correctionAdd("unfashinable", "unfashionable");
 
             correctionAdd("msp", "MSP");
-
-            // Microsoft / Windows
-            correctionAdd("cortana", "Cortana");
-            correctionAdd("cortona", "Cortana");
-            correctionAdd("Cortona", "Cortana");
-
-            // Apple / macOS
-            correctionAdd("siri", "Siri");
-            correctionAdd("SIri", "Siri");
-
-            // Apple / macOS.
-            // Mac. Window manager. Similar to i3.
-            correctionAdd("aerospace", "AeroSpace");
 
             // The verb
             correctionAdd("half", "halve");
@@ -130603,6 +130635,8 @@ namespace OverflowHelper.core
 
             URL_Add("AeroSpace", "https://github.com/nikitabobko/AeroSpace");
 
+            URL_Add("AirDrop", "https://en.wikipedia.org/wiki/AirDrop");
+
             URL_Add("Oh My Zsh", "https://github.com/ohmyzsh/ohmyzsh");
 
             URL_Add("Evil Mode", "https://github.com/emacs-evil/evil");
@@ -149765,6 +149799,8 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;BM25", "https://www.keychron.com/products/keychron-bm25-wireless-mouse");
 
+            URL_Add("Keychron Nape Pro", "https://www.keychron.com/products/keychron-nape-pro-wireless-trackball-mouse");
+
             URL_Add("Keychron Q0", "https://www.keychron.com/pages/keychron-q0-customizable-mechanical-number-pad");
 
             URL_Add("Keychron Q0 Plus", "https://www.keychron.com/products/keychron-q0-plus-qmk-custom-number-pad");
@@ -151417,6 +151453,9 @@ namespace OverflowHelper.core
             //     Bricking the Bluetooth module (by Keychron's Via clone)
             //
             // Alternative URLs:
+            //
+            //   <https://help-center.keychron.com/en-us/article/22776472488855-my-keyboard-is-not-recognized-by-keychron-launcher-what-should-i-do>
+            //     My keyboard is not recognized by Keychron Launcher, [sic] what should I do?
             //
             //   <https://www.keychron.com/blogs/news/how-to-set-per-key-rgb-on-launcher>
             //     How to set per-key RGB on [sic] Launcher
@@ -180447,6 +180486,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("NRF52840___", "nRF52840___");
             correctionAdd("nrf52840___", "nRF52840___");
+            correctionAdd("Nrf52840___", "nRF52840___");
             correctionAdd("nRF___", "nRF52840___");
 
             // A CMS, supposedly a successor to WordPress.
