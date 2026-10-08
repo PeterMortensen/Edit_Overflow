@@ -3043,8 +3043,8 @@ sleep 2
 # page (immediately so we can prepare while
 # the rest of the script is running)
 #
-#xdg-open "https://www.simply.com/dk/controlpanel/pmortensen.eu/mysql/"
-xdg-open "https://mysql.simply.com/index.php?route=/server/import"
+#xdg-open "https://mysql.simply.com/index.php?route=/server/import"  No, this will unnecessarily prompt for user name and password...
+xdg-open "https://www.simply.com/dk/controlpanel/pmortensen.eu/mysql/"
 
 # Open Visual Studio Code (for version control operations (Git))
 code
