@@ -23507,6 +23507,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Hygroscopic", "hygroscopic");
             correctionAdd("hydrospopic", "hygroscopic");
+            correctionAdd("hydroscopic", "hygroscopic");
 
             correctionAdd("humiinidity", "humidity");
             correctionAdd("humonidity", "humidity");
@@ -26810,6 +26811,10 @@ namespace OverflowHelper.core
 
             correctionAdd("select2", "Select2");
 
+            correctionAdd("confrim", "confirm");
+
+            correctionAdd("re-confirm", "reconfirm");
+
             // Parent URL: <https://en.wikipedia.org/wiki/List_of_cognitive_biases>
             //
             correctionAdd("Selection Bias", "selection bias");
@@ -26823,8 +26828,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Confirmation Bias", "confirmation bias");
             correctionAdd("Confirmation bias", "confirmation bias");
-
-            correctionAdd("re-confirm", "reconfirm");
 
             correctionAdd("cowered", "coward");
 
@@ -27391,6 +27394,10 @@ namespace OverflowHelper.core
             correctionAdd("jfrog", "JFrog");
             correctionAdd("jFrog", "JFrog");
 
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Code_refactoring>
+            //
             correctionAdd("re-factor", "refactor");
             correctionAdd("refacotr", "refactor");
             correctionAdd("refacto", "refactor");
@@ -68298,6 +68305,9 @@ namespace OverflowHelper.core
             correctionAdd("SFBs", "same-finger bigrams");
             correctionAdd("SFB", "same-finger bigrams");
 
+            correctionAdd("same finger skipgrams", "same-finger skipgrams");
+            correctionAdd("SFS", "same-finger skipgrams");
+
             // E.g., related to different keyboard layouts, e.g. Colemak-DH.
             correctionAdd("Trigrams", "trigrams");
 
@@ -69128,6 +69138,15 @@ namespace OverflowHelper.core
             // An example for non-US (Swedish). For a split
             // ergonomic mechanical keyboard, 34 keys.
             correctionAdd("T-34", "T-34 keyboard layout");
+
+            // A keyboard layout
+            //
+            // Alternative URLs:
+            //
+            //   <https://layouts.wiki/layouts/2023/recurva/>
+            //
+            correctionAdd("recurva", "Recurva keyboard layout");
+            correctionAdd("Recurva", "Recurva keyboard layout");
 
             // A sort of keyboard layout. An input method and
             // virtual keyboard for touchscreen devices.
@@ -81197,6 +81216,7 @@ namespace OverflowHelper.core
             correctionAdd("r*ddit", "Reddit");
             correctionAdd("Redit", "Reddit");
             correctionAdd("redit", "Reddit");
+            correctionAdd("Reddi", "Reddit");
 
             correctionAdd("redditor", "Redditor");
 
@@ -90206,6 +90226,10 @@ namespace OverflowHelper.core
             //
             //      <https://www.keychron.com/products/keychron-v3-8k-qmk-wired-custom-mechanical-keyboard>
             //
+            // V3 Ultra 8K user manual:
+            //
+            //   <https://www.keychron.com/pages/keychron-v3-ultra-8k-user-manual>
+            //
             correctionAdd("V3&nbsp;Ultra&nbsp;8K", "Keychron&nbsp;V3&nbsp;Ultra&nbsp;8K");
             correctionAdd("Keychron V3 Ultra 8K", "Keychron&nbsp;V3&nbsp;Ultra&nbsp;8K"); // Sort of identity mapping
             correctionAdd("V3 Ultra 8K", "Keychron&nbsp;V3&nbsp;Ultra&nbsp;8K");
@@ -94803,7 +94827,11 @@ namespace OverflowHelper.core
             // bleed) lighting. North-facing because it is a
             // low-profile keyboard.
             //
-            // K5 Max source code:
+            // K5 Ultra 8K default keymap:
+            //
+            //   <https://github.com/Keychron/zmk/blob/rtl8762g/app/boards/shields/keychron_k5_ultra_iso/keychron_k5_ultra_iso.keymap#L268>
+            //
+            // K5 Ultra 8K source code:
             //
             //   <https://github.com/Keychron/zmk/tree/rtl8762g/app/boards/shields/keychron_k5_ultra_iso>
             //
@@ -98860,6 +98888,8 @@ namespace OverflowHelper.core
             correctionAdd("NVDIA", "Nvidia");
             correctionAdd("Nvdia", "Nvidia");
             correctionAdd("nvdia", "Nvidia");
+            correctionAdd("NVDA", "Nvidia");
+            correctionAdd("nvda", "Nvidia");
 
             // Gaming related. Nvidia.
             correctionAdd("reflex", "Reflex");
@@ -121563,8 +121593,6 @@ namespace OverflowHelper.core
 
             URL_Add("R-Bloggers", "https://www.r-bloggers.com/about/");
 
-            URL_Add("confirmation bias", "https://en.wikipedia.org/wiki/Confirmation_bias");
-
             URL_Add("dissenting", "https://en.wiktionary.org/wiki/dissenting#Adjective");
 
             URL_Add("nonvisible", "https://en.wiktionary.org/wiki/nonvisible#Adjective");
@@ -121772,8 +121800,6 @@ namespace OverflowHelper.core
             URL_Add("determines", "https://en.wiktionary.org/wiki/determine#Verb");
 
             URL_Add("Auth0", "https://en.wikipedia.org/wiki/Okta,_Inc.#History");
-
-            URL_Add("reconfirm", "https://en.wiktionary.org/wiki/reconfirm#Verb");
 
             URL_Add("get rid of", "https://en.wiktionary.org/wiki/get_rid_of#Verb");
 
@@ -123334,10 +123360,6 @@ namespace OverflowHelper.core
             URL_Add("raw HID", "https://www.pjrc.com/teensy/rawhid.html");
 
             URL_Add("tedious", "https://en.wiktionary.org/wiki/tedious#Adjective");
-
-            URL_Add("bigrams", "https://en.wikipedia.org/wiki/Bigram");
-
-            URL_Add("trigrams", "https://en.wikipedia.org/wiki/Trigram");
 
             URL_Add("anticipation", "https://en.wiktionary.org/wiki/anticipation#Noun");
 
@@ -130693,7 +130715,13 @@ namespace OverflowHelper.core
 
             URL_Add("Owl Carousel", "https://owlcarousel2.github.io/OwlCarousel2/");
 
+            URL_Add("bigrams", "https://en.wikipedia.org/wiki/Bigram");
+
+            URL_Add("trigrams", "https://en.wikipedia.org/wiki/Trigram");
+
             URL_Add("same-finger bigrams", "https://colemakmods.github.io/mod-dh/compare.html");
+
+            URL_Add("same-finger skipgrams", "https://github.com/GalileoBlues/Recurva#an-alternate-keyboard-layout-focused-on-efficiency");
 
             URL_Add("OpenDNP3", "https://dnp3.github.io/#documentation");
 
@@ -143567,24 +143595,6 @@ namespace OverflowHelper.core
 
             URL_Add("CompactFlash", "https://en.wikipedia.org/wiki/CompactFlash");
 
-            URL_Add("compare", "https://en.wiktionary.org/wiki/compare#Verb");
-
-            URL_Add("comparing", "https://en.wiktionary.org/wiki/compare#Verb");
-
-            URL_Add("compared", "https://en.wiktionary.org/wiki/compare#Verb");
-
-            URL_Add("comparatively", "https://en.wiktionary.org/wiki/comparatively#Adverb");
-
-            URL_Add("comparison", "https://en.wiktionary.org/wiki/comparison#Noun");
-
-            URL_Add("comparisons", "https://en.wiktionary.org/wiki/comparison#Noun");
-
-            URL_Add("comparator", "https://en.wikipedia.org/wiki/Comparator");
-
-            URL_Add("comparative fit index", "https://en.wikipedia.org/wiki/Confirmatory_factor_analysis#Comparative_fit_index");
-
-            URL_Add("compartmentalised", "https://en.wiktionary.org/wiki/compartmentalise#Verb");
-
             URL_Add("compartmentalisation", "https://en.wiktionary.org/wiki/compartmentalisation#Noun");
 
             URL_Add("comprehending", "https://en.wiktionary.org/wiki/comprehend#Verb");
@@ -150403,6 +150413,8 @@ namespace OverflowHelper.core
 
             URL_Add("Workman keyboard layout", "https://en.wikipedia.org/wiki/Keyboard_layout#Workman");
 
+            URL_Add("Recurva keyboard layout", "https://github.com/GalileoBlues/Recurva");
+
             URL_Add("blueprint", "https://en.wiktionary.org/wiki/blueprint#Noun");
 
             URL_Add("bluechip", "https://en.wiktionary.org/wiki/bluechip#Adjective");
@@ -150640,6 +150652,30 @@ namespace OverflowHelper.core
             URL_Add("Ubisoft", "https://en.wikipedia.org/wiki/Ubisoft");
 
             URL_Add("StarCraft II", "https://en.wikipedia.org/wiki/StarCraft_II");
+
+            URL_Add("confirm", "https://en.wiktionary.org/wiki/confirm#Verb");
+
+            URL_Add("reconfirm", "https://en.wiktionary.org/wiki/reconfirm#Verb");
+
+            URL_Add("confirmation bias", "https://en.wikipedia.org/wiki/Confirmation_bias");
+
+            URL_Add("compare", "https://en.wiktionary.org/wiki/compare#Verb");
+
+            URL_Add("comparing", "https://en.wiktionary.org/wiki/compare#Verb");
+
+            URL_Add("compared", "https://en.wiktionary.org/wiki/compare#Verb");
+
+            URL_Add("comparatively", "https://en.wiktionary.org/wiki/comparatively#Adverb");
+
+            URL_Add("comparison", "https://en.wiktionary.org/wiki/comparison#Noun");
+
+            URL_Add("comparisons", "https://en.wiktionary.org/wiki/comparison#Noun");
+
+            URL_Add("comparator", "https://en.wikipedia.org/wiki/Comparator");
+
+            URL_Add("comparative fit index", "https://en.wikipedia.org/wiki/Confirmatory_factor_analysis#Comparative_fit_index");
+
+            URL_Add("compartmentalised", "https://en.wiktionary.org/wiki/compartmentalise#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -162303,11 +162339,12 @@ namespace OverflowHelper.core
             correctionAdd("evey_", "every_");
             correctionAdd("eery_", "every_");
 
+            correctionAdd("newevr_", "newer_"); // Probably a true typo, either related to space or the next word
             correctionAdd("never_", "newer_");
             correctionAdd("Never_", "newer_");
 
-            correctionAdd("GD_", "GD Graphics Library_");
             correctionAdd("GD library_", "GD Graphics Library_");
+            correctionAdd("GD_", "GD Graphics Library_");
 
             // Alternative URL: <https://en.wiktionary.org/wiki/PIP#Noun>
             //
@@ -172904,7 +172941,9 @@ namespace OverflowHelper.core
             //
             correctionAdd("hands down__", "Hands Down keyboard layout__");
             correctionAdd("Hands Down__", "Hands Down keyboard layout__");
+            correctionAdd("Hands down__", "Hands Down keyboard layout__");
             correctionAdd("handsdown__", "Hands Down keyboard layout__");
+            correctionAdd("Handsdown__", "Hands Down keyboard layout__");
             correctionAdd("Hands On__", "Hands Down keyboard layout__"); // Not 100% correct
             correctionAdd("HD__", "Hands Down keyboard layout__");
 
@@ -176456,6 +176495,7 @@ namespace OverflowHelper.core
 
             // For the reverse. For the shorthand
             correctionAdd("wired, Bluetooth, and '2.4 GHz'__", "tri-mode__");
+            correctionAdd("trimode__", "tri-mode__"); // Not strictly necessary (it is covered by cross-references), but for a direct lookup
 
             // The adjective
             correctionAdd("boiler-plate__", "boilerplate__");
