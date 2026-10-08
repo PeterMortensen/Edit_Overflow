@@ -2201,12 +2201,6 @@ namespace OverflowHelper.core
 
             correctionAdd("FDA", "Food and Drug Administration");
 
-            correctionAdd("drugery", "drudgery");
-
-            correctionAdd("DR*GS", "drugs");
-            correctionAdd("dr*gs", "drugs");
-            correctionAdd("d**gs", "drugs");
-
             correctionAdd("combatitive", "combative");
 
             correctionAdd("skrike", "strike");
@@ -23022,8 +23016,6 @@ namespace OverflowHelper.core
             correctionAdd("Nitrogen", "nitrogen");
             correctionAdd("N", "nitrogen");
 
-            correctionAdd("Ammonium Nitrate", "ammonium nitrate");
-
             // Note: the chemical element 8 is in an
             //       alternative word set.
             //
@@ -23536,8 +23528,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Relative Humidity", "relative humidity");
 
-            correctionAdd("benzene", "Benzene");
-
             correctionAdd("Methane", "methane");
 
             correctionAdd("Hexane", "hexane");
@@ -23558,38 +23548,6 @@ namespace OverflowHelper.core
             correctionAdd("refinerys", "refineries");
 
             correctionAdd("Oil", "oil");
-
-            correctionAdd("hydrozine", "hydrazine");
-
-            correctionAdd("DCM", "dichloromethane");
-
-            correctionAdd("Ascorbic Acid", "ascorbic acid");
-
-            correctionAdd("Folic acid", "folic acid");
-
-            // A super acid
-            correctionAdd("Carborane Acid", "carborane acid");
-
-            // A super acid
-            correctionAdd("TFMS", "triflic acid");
-
-            correctionAdd("Benzodiazepine", "benzodiazepine");
-
-            correctionAdd("Caffeine", "caffeine");
-
-            correctionAdd("Nicotine", "nicotine");
-
-            correctionAdd("Morphine", "morphine");
-
-            correctionAdd("Ecstatic", "ecstatic");
-
-            correctionAdd("Cocaine", "cocaine");
-
-            correctionAdd("ecstacy", "ecstasy");
-
-            correctionAdd("lsd", "LSD");
-
-            correctionAdd("Methamphetamine", "methamphetamine");
 
             correctionAdd("Formaldehyde", "formaldehyde");
 
@@ -23617,6 +23575,56 @@ namespace OverflowHelper.core
 
             correctionAdd("terpentine", "turpentine");
             correctionAdd("tirpentine", "turpentine");
+
+            correctionAdd("benzene", "Benzene");
+
+            correctionAdd("Benzodiazepine", "benzodiazepine");
+
+            correctionAdd("Folic acid", "folic acid");
+
+            correctionAdd("Ascorbic Acid", "ascorbic acid");
+
+            // A super acid
+            correctionAdd("Carborane Acid", "carborane acid");
+
+            // A super acid
+            correctionAdd("TFMS", "triflic acid");
+
+            correctionAdd("Caffeine", "caffeine");
+
+            correctionAdd("Nicotine", "nicotine");
+
+            correctionAdd("drugery", "drudgery");
+
+            correctionAdd("d**g", "drug");
+
+            correctionAdd("DR*GS", "drugs");
+            correctionAdd("dr*gs", "drugs");
+            correctionAdd("d**gs", "drugs");
+
+            correctionAdd("Methamphetamine", "methamphetamine");
+            correctionAdd("me****phetamine", "methamphetamine");
+            correctionAdd("m*th", "methamphetamine");
+            correctionAdd("meth", "methamphetamine");
+
+            correctionAdd("Morphine", "morphine");
+
+            correctionAdd("fen**nyl", "fentanyl");
+            correctionAdd("fe**anyl", "fentanyl");
+
+            correctionAdd("Ecstatic", "ecstatic");
+
+            correctionAdd("Cocaine", "cocaine");
+
+            correctionAdd("ecstacy", "ecstasy");
+
+            correctionAdd("lsd", "LSD");
+
+            correctionAdd("Ammonium Nitrate", "ammonium nitrate");
+
+            correctionAdd("hydrozine", "hydrazine");
+
+            correctionAdd("DCM", "dichloromethane");
 
             correctionAdd("gold plated", "gold-plated");
             correctionAdd("gold placed", "gold-plated"); // An autocorrect "masterpiece"?
@@ -106599,6 +106607,8 @@ namespace OverflowHelper.core
 
             correctionAdd("exstinctien", "extinction");
 
+            correctionAdd("extingushing", "extinguishing");
+
             correctionAdd("nashorn", "Nashorn");
 
             correctionAdd("netlify", "Netlify");
@@ -110485,8 +110495,6 @@ namespace OverflowHelper.core
 
             URL_Add("geniuses", "https://en.wiktionary.org/wiki/genious#Noun");
 
-            URL_Add("hydrazine", "https://en.wikipedia.org/wiki/Hydrazine");
-
             URL_Add("inherently", "https://en.wiktionary.org/wiki/inherently#Adverb");
 
             URL_Add("inspecting", "https://en.wiktionary.org/wiki/inspect#Verb");
@@ -113811,8 +113819,6 @@ namespace OverflowHelper.core
 
             URL_Add("famous", "https://en.wiktionary.org/wiki/famous#Adjective");
 
-            URL_Add("oil", "https://en.wiktionary.org/wiki/oil#Noun");
-
             URL_Add("Bobby Fischer", "https://en.wikipedia.org/wiki/Bobby_Fischer");
 
             URL_Add("Boris Spassky", "https://en.wikipedia.org/wiki/Boris_Spassky");
@@ -115845,8 +115851,6 @@ namespace OverflowHelper.core
 
             URL_Add("tagline", "https://en.wiktionary.org/wiki/tagline#Noun");
 
-            URL_Add("beer", "https://en.wiktionary.org/wiki/beer#Noun");
-
             URL_Add("procrastinate", "https://en.wiktionary.org/wiki/procrastinate#Verb");
 
             URL_Add("ConEmu", "https://en.wikipedia.org/wiki/ConEmu");
@@ -116180,10 +116184,6 @@ namespace OverflowHelper.core
             URL_Add("Framework7", "https://en.wikipedia.org/wiki/Framework7");
 
             URL_Add("JavaScript: The Good Parts", "https://en.wikipedia.org/wiki/Douglas_Crockford#Bibliography");
-
-            URL_Add("ascorbic acid", "https://en.wikipedia.org/wiki/Vitamin_C");
-
-            URL_Add("folic acid", "https://en.wikipedia.org/wiki/Folate");
 
             URL_Add("glass", "https://en.wiktionary.org/wiki/glass#Noun");
 
@@ -117589,25 +117589,11 @@ namespace OverflowHelper.core
 
             URL_Add("LifeCam", "https://en.wikipedia.org/wiki/LifeCam");
 
-            URL_Add("benzodiazepine", "https://en.wikipedia.org/wiki/Benzodiazepine");
-
-            URL_Add("caffeine", "https://en.wikipedia.org/wiki/Caffeine");
-
-            URL_Add("nicotine", "https://en.wikipedia.org/wiki/Nicotine");
-
-            URL_Add("morphine", "https://en.wikipedia.org/wiki/Morphine");
-
-            URL_Add("cocaine", "https://en.wikipedia.org/wiki/Cocaine");
-
-            URL_Add("LSD", "https://en.wikipedia.org/wiki/LSD");
-
             URL_Add("dplyr", "https://www.r-project.org/nosvn/pandoc/dplyr.html");
 
             URL_Add("extraterrestrial life", "https://en.wikipedia.org/wiki/Extraterrestrial_life");
 
             URL_Add("finish", "https://en.wiktionary.org/wiki/finish#Verb");
-
-            URL_Add("methamphetamine", "https://en.wikipedia.org/wiki/Methamphetamine");
 
             URL_Add("misbehave", "https://en.wiktionary.org/wiki/misbehave#Verb");
 
@@ -117642,8 +117628,6 @@ namespace OverflowHelper.core
             URL_Add("mucosal immune system", "https://en.wikipedia.org/wiki/Mucosal_immunology");
 
             URL_Add("naturally", "https://en.wiktionary.org/wiki/naturally#Adverb");
-
-            URL_Add("vermouth", "https://en.wikipedia.org/wiki/Vermouth");
 
             URL_Add("Aleph.js", "https://alephjs.org/");
 
@@ -120315,8 +120299,6 @@ namespace OverflowHelper.core
 
             URL_Add("solving", "https://en.wiktionary.org/wiki/solve#Verb");
 
-            URL_Add("toxic", "https://en.wiktionary.org/wiki/toxic#Adjective");
-
             URL_Add("awful", "https://en.wiktionary.org/wiki/awful#Adjective");
 
             URL_Add("marathon", "https://en.wiktionary.org/wiki/marathon#Noun");
@@ -120643,8 +120625,6 @@ namespace OverflowHelper.core
 
             URL_Add("automation", "https://en.wiktionary.org/wiki/automation#Noun");
 
-            URL_Add("intoxicated", "https://en.wiktionary.org/wiki/intoxicated#Adjective");
-
             URL_Add("nonidealities", "https://en.wiktionary.org/wiki/nonideality#Noun");
 
             URL_Add("nonlinearities", "https://en.wiktionary.org/wiki/nonlinearity#Noun");
@@ -120869,8 +120849,6 @@ namespace OverflowHelper.core
 
             URL_Add("cynical", "https://en.wiktionary.org/wiki/cynical#Adjective");
 
-            URL_Add("intoxication", "https://en.wiktionary.org/wiki/intoxication#Noun");
-
             URL_Add("as is", "https://en.wiktionary.org/wiki/as_is#Adjective");
 
             URL_Add("heavier", "https://en.wiktionary.org/wiki/heavier#Adjective");
@@ -121013,7 +120991,11 @@ namespace OverflowHelper.core
 
             URL_Add("high-end", "https://en.wiktionary.org/wiki/high-end#Adjective");
 
+            URL_Add("extinct", "https://en.wiktionary.org/wiki/extinct#Verb");
+
             URL_Add("extinction", "https://en.wiktionary.org/wiki/extinction#Noun");
+
+            URL_Add("extinguishing", "https://en.wiktionary.org/wiki/extinguish#Verb");
 
             URL_Add("Microsoft Compiled HTML Help", "https://en.wikipedia.org/wiki/Microsoft_Compiled_HTML_Help");
 
@@ -121096,8 +121078,6 @@ namespace OverflowHelper.core
             URL_Add("Gnumeric", "https://en.wikipedia.org/wiki/Gnumeric");
 
             URL_Add("heavily", "https://en.wiktionary.org/wiki/heavily#Adverb");
-
-            URL_Add("hexane", "https://en.wikipedia.org/wiki/Hexane");
 
             URL_Add("rewiring", "https://en.wiktionary.org/wiki/rewire#Verb");
 
@@ -122589,8 +122569,6 @@ namespace OverflowHelper.core
 
             URL_Add("albedo", "https://en.wikipedia.org/wiki/Albedo");
 
-            URL_Add("methane", "https://en.wikipedia.org/wiki/Methane");
-
             URL_Add("Rayleigh scattering", "https://en.wikipedia.org/wiki/Rayleigh_scattering#From_molecules");
 
             URL_Add("telescope", "https://en.wiktionary.org/wiki/telescope#Noun");
@@ -123869,8 +123847,6 @@ namespace OverflowHelper.core
 
             URL_Add("noncrippled", "https://en.wiktionary.org/wiki/noncrippled#Adjective");
 
-            URL_Add("acetone", "https://en.wikipedia.org/wiki/Acetone");
-
             URL_Add("What do you mean?", "https://en.wiktionary.org/wiki/WDYM#Phrase");
 
             URL_Add("Option key", "https://en.wikipedia.org/wiki/Option_key");
@@ -124404,8 +124380,6 @@ namespace OverflowHelper.core
             URL_Add("midterm exam", "https://en.wiktionary.org/wiki/midterm#Noun");
 
             URL_Add("giveaway", "https://en.wiktionary.org/wiki/giveaway#Noun");
-
-            URL_Add("drudgery", "https://en.wiktionary.org/wiki/drudgery#Noun");
 
             URL_Add("heuristics", "https://en.wiktionary.org/wiki/heuristics#Noun_2");
 
@@ -125719,8 +125693,6 @@ namespace OverflowHelper.core
 
             URL_Add("unprecedented", "https://en.wiktionary.org/wiki/unprecedented#Adjective");
 
-            URL_Add("petrochemical", "https://en.wiktionary.org/wiki/petrochemical#Adjective");
-
             URL_Add("secret sauce", "https://en.wiktionary.org/wiki/secret_sauce#Noun");
 
             URL_Add("edge cases", "https://en.wiktionary.org/wiki/edge_case#Noun");
@@ -125736,8 +125708,6 @@ namespace OverflowHelper.core
             URL_Add("categories", "https://en.wiktionary.org/wiki/category#Noun");
 
             URL_Add("monies", "https://en.wiktionary.org/wiki/money#Noun");
-
-            URL_Add("refineries", "https://en.wiktionary.org/wiki/refinery#Noun");
 
             URL_Add("jumping", "https://en.wiktionary.org/wiki/jump#Verb");
 
@@ -126174,8 +126144,6 @@ namespace OverflowHelper.core
             URL_Add("AI slop", "https://en.wikipedia.org/wiki/AI_slop");
 
             URL_Add("creamiest", "https://en.wiktionary.org/wiki/creamy#Adjective");
-
-            URL_Add("extinct", "https://en.wiktionary.org/wiki/extinct#Verb");
 
             URL_Add("dudes", "https://en.wiktionary.org/wiki/dude#Noun");
 
@@ -128758,10 +128726,6 @@ namespace OverflowHelper.core
             URL_Add("Ghostery", "https://en.wikipedia.org/wiki/Ghostery");
 
             URL_Add("Ghost (blogging platform)", "https://en.wikipedia.org/wiki/Ghost_(blogging_platform)");
-
-            URL_Add("ethanol", "https://en.wikipedia.org/wiki/Ethanol");
-
-            URL_Add("Alcoholics Anonymous", "https://en.wikipedia.org/wiki/Alcoholics_Anonymous");
 
             URL_Add("mattresses", "https://en.wiktionary.org/wiki/mattress#Noun");
 
@@ -132279,8 +132243,6 @@ namespace OverflowHelper.core
 
             URL_Add("Zen of Python", "https://en.wikipedia.org/wiki/Zen_of_Python");
 
-            URL_Add("Benzene", "https://en.wikipedia.org/wiki/Benzene");
-
             URL_Add("a dime a dozen", "https://en.wiktionary.org/wiki/dime_a_dozen#Adjective");
 
             URL_Add("two dozen", "https://en.wiktionary.org/wiki/dozen#Noun");
@@ -134092,8 +134054,6 @@ namespace OverflowHelper.core
             URL_Add("cargo cult programming", "https://en.wikipedia.org/wiki/Cargo_cult_programming");
 
             URL_Add("rigmarole", "https://en.wiktionary.org/wiki/rigmarole#Noun");
-
-            URL_Add("drugs", "https://en.wiktionary.org/wiki/drug#Noun");
 
             URL_Add("access violation", "https://en.wikipedia.org/wiki/Segmentation_fault");
 
@@ -137008,18 +136968,6 @@ namespace OverflowHelper.core
             URL_Add("prange()", "https://cython.readthedocs.io/en/latest/src/userguide/parallelism.html#cython.parallel.prange");
 
             URL_Add("Bandersnatch", "https://bandersnatch.readthedocs.io/en/latest/index.html#");
-
-            URL_Add("carborane acid", "https://en.wikipedia.org/wiki/Carborane_acid");
-
-            URL_Add("chemical", "https://en.wiktionary.org/wiki/chemical#Adjective");
-
-            URL_Add("hydrofluoric acid", "https://en.wikipedia.org/wiki/Hydrofluoric_acid");
-
-            URL_Add("International Chemistry Olympiad", "https://en.wikipedia.org/wiki/International_Chemistry_Olympiad");
-
-            URL_Add("Nernst equation", "https://en.wikipedia.org/wiki/Nernst_equation");
-
-            URL_Add("triflic acid", "https://en.wikipedia.org/wiki/Triflic_acid");
 
             URL_Add("nonspace", "https://en.wiktionary.org/wiki/nonspace#Noun");
 
@@ -145345,6 +145293,12 @@ namespace OverflowHelper.core
 
             URL_Add("Waterfox", "https://en.wikipedia.org/wiki/Waterfox");
 
+            URL_Add("chemical", "https://en.wiktionary.org/wiki/chemical#Adjective");
+
+            URL_Add("International Chemistry Olympiad", "https://en.wikipedia.org/wiki/International_Chemistry_Olympiad");
+
+            URL_Add("Nernst equation", "https://en.wikipedia.org/wiki/Nernst_equation");
+
             URL_Add("element", "https://en.wiktionary.org/wiki/element#Noun");
 
             URL_Add("elements", "https://en.wiktionary.org/wiki/element#Noun");
@@ -145403,17 +145357,85 @@ namespace OverflowHelper.core
 
             URL_Add("buckminsterfullerene", "https://en.wikipedia.org/wiki/Buckminsterfullerene");
 
-            URL_Add("carbon dioxide", "https://en.wikipedia.org/wiki/Carbon_dioxide"); // Related to chemical element 6
-
             URL_Add("carbon monoxide", "https://en.wikipedia.org/wiki/Carbon_monoxide"); // Related to chemical element 6
+
+            URL_Add("carbon dioxide", "https://en.wikipedia.org/wiki/Carbon_dioxide"); // Related to chemical element 6
 
             URL_Add("IPCC", "https://en.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change");
 
             URL_Add("Greta Thunberg", "https://en.wikipedia.org/wiki/Greta_Thunberg");
 
+            URL_Add("methane", "https://en.wikipedia.org/wiki/Methane");
+
+            URL_Add("ascorbic acid", "https://en.wikipedia.org/wiki/Vitamin_C");
+
+            URL_Add("folic acid", "https://en.wikipedia.org/wiki/Folate");
+
+            URL_Add("carborane acid", "https://en.wikipedia.org/wiki/Carborane_acid");
+
+            URL_Add("triflic acid", "https://en.wikipedia.org/wiki/Triflic_acid");
+
+            URL_Add("benzodiazepine", "https://en.wikipedia.org/wiki/Benzodiazepine");
+
+            URL_Add("Benzene", "https://en.wikipedia.org/wiki/Benzene");
+
+            URL_Add("hexane", "https://en.wikipedia.org/wiki/Hexane");
+
+            URL_Add("natural gas", "https://en.wiktionary.org/wiki/natural_gas#Noun");
+
+            URL_Add("petrochemical", "https://en.wiktionary.org/wiki/petrochemical#Adjective");
+
+            URL_Add("refineries", "https://en.wiktionary.org/wiki/refinery#Noun");
+
+            URL_Add("oil", "https://en.wiktionary.org/wiki/oil#Noun");
+
+            URL_Add("formaldehyde", "https://en.wikipedia.org/wiki/Formaldehyde");
+
+            URL_Add("acetone", "https://en.wikipedia.org/wiki/Acetone");
+
+            URL_Add("ethanol", "https://en.wikipedia.org/wiki/Ethanol");
+
+            URL_Add("Alcoholics Anonymous", "https://en.wikipedia.org/wiki/Alcoholics_Anonymous");
+
+            URL_Add("beer", "https://en.wiktionary.org/wiki/beer#Noun");
+
+            URL_Add("toxic", "https://en.wiktionary.org/wiki/toxic#Adjective");
+
+            URL_Add("intoxicated", "https://en.wiktionary.org/wiki/intoxicated#Adjective");
+
+            URL_Add("intoxication", "https://en.wiktionary.org/wiki/intoxication#Noun");
+
+            URL_Add("vermouth", "https://en.wikipedia.org/wiki/Vermouth");
+
+            URL_Add("turpentine", "https://en.wikipedia.org/wiki/Turpentine");
+
+            URL_Add("Cesium Ion", "https://cesium.com/learn/3d-tiling/ion-tile-imagery/"); // Unrelated to the chemical element caesium (chemical element 56)
+
+            URL_Add("caffeine", "https://en.wikipedia.org/wiki/Caffeine");
+
+            URL_Add("nicotine", "https://en.wikipedia.org/wiki/Nicotine");
+
+            URL_Add("drudgery", "https://en.wiktionary.org/wiki/drudgery#Noun");
+
+            URL_Add("drug", "https://en.wiktionary.org/wiki/drug#Noun");
+
+            URL_Add("drugs", "https://en.wiktionary.org/wiki/drug#Noun");
+
+            URL_Add("methamphetamine", "https://en.wikipedia.org/wiki/Methamphetamine");
+
+            URL_Add("morphine", "https://en.wikipedia.org/wiki/Morphine");
+
+            URL_Add("fentanyl", "https://en.wikipedia.org/wiki/Fentanyl");
+
+            URL_Add("cocaine", "https://en.wikipedia.org/wiki/Cocaine");
+
+            URL_Add("LSD", "https://en.wikipedia.org/wiki/LSD");
+
             URL_Add("nitrogen", "https://en.wikipedia.org/wiki/Nitrogen"); // Chemical element 7
 
             URL_Add("ammonium nitrate", "https://en.wikipedia.org/wiki/Ammonium_nitrate"); // Related to chemical element 6
+
+            URL_Add("hydrazine", "https://en.wikipedia.org/wiki/Hydrazine");
 
             URL_Add("oxygen-17", "https://en.wikipedia.org/wiki/Oxygen-17"); // Related to chemical element 8
 
@@ -145448,6 +145470,8 @@ namespace OverflowHelper.core
             URL_Add("chlorinated", "https://en.wiktionary.org/wiki/chlorinated#Adjective"); // Related to chemical element 17
 
             URL_Add("dichloromethane", "https://en.wikipedia.org/wiki/Dichloromethane"); // Related to chemical element 17
+
+            URL_Add("hydrofluoric acid", "https://en.wikipedia.org/wiki/Hydrofluoric_acid");
 
             URL_Add("argon", "https://en.wikipedia.org/wiki/Argon"); // Chemical element 18
 
@@ -145659,13 +145683,7 @@ namespace OverflowHelper.core
 
             URL_Add("neutron star", "https://en.wikipedia.org/wiki/Neutron_star");
 
-            URL_Add("natural gas", "https://en.wiktionary.org/wiki/natural_gas#Noun");
-
-            URL_Add("turpentine", "https://en.wikipedia.org/wiki/Turpentine");
-
             URL_Add("superheavy", "https://en.wiktionary.org/wiki/superheavy#Adjective");
-
-            URL_Add("Cesium Ion", "https://cesium.com/learn/3d-tiling/ion-tile-imagery/"); // Unrelated to the chemical element caesium (chemical element 56)
 
             URL_Add("polycarbonate", "https://www.prosettings.com/keycaps-guide/");
 
@@ -149550,8 +149568,6 @@ namespace OverflowHelper.core
             URL_Add("the former", "https://en.wiktionary.org/wiki/former#Noun");
 
             URL_Add("formal", "https://en.wiktionary.org/wiki/formal#Adjective");
-
-            URL_Add("formaldehyde", "https://en.wikipedia.org/wiki/Formaldehyde");
 
             URL_Add("Formidable", "https://www.npmjs.com/package/express-formidable");
 
@@ -160093,6 +160109,7 @@ namespace OverflowHelper.core
             correctionAdd("day_", "die_");
             correctionAdd("D%E_", "die_");
             correctionAdd("d%e_", "die_");
+            correctionAdd("d*e_", "die_");
 
             correctionAdd("distribuition_", "distribution_");
 
@@ -173388,6 +173405,7 @@ namespace OverflowHelper.core
             correctionAdd("the current troubles__", "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__");
             correctionAdd("a well-known problem__", "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__");
             correctionAdd("isolate the problem__", "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__"); // For the cross-reference
+            correctionAdd("the quality lottery__", "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__");
             correctionAdd("the 2024 troubles__", "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__");
             correctionAdd("quality problems__", "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__");
             correctionAdd("double striking__", "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__");
