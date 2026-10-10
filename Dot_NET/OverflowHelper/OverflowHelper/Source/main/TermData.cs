@@ -11400,6 +11400,12 @@ namespace OverflowHelper.core
             correctionAdd("tahoe", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
             correctionAdd("Tahoe", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
 
+            correctionAdd("macOS v27 (Golden Gate) (2026 vintage)", "macOS&nbsp;v27 (Golden Gate) (2026 vintage)"); // Sort of identity mapping
+            correctionAdd("macOS Golden Gate", "macOS&nbsp;v27 (Golden Gate) (2026 vintage)");
+            correctionAdd("Golden Gate", "macOS&nbsp;v27 (Golden Gate) (2026 vintage)");
+            correctionAdd("golden gate", "macOS&nbsp;v27 (Golden Gate) (2026 vintage)");
+            correctionAdd("macOS 27", "macOS&nbsp;v27 (Golden Gate) (2026 vintage)");
+
             // Mac OS X
             correctionAdd("darwin", "Darwin");
 
@@ -41375,6 +41381,7 @@ namespace OverflowHelper.core
             correctionAdd("Places AutoComplete", "Place Autocomplete");
 
             correctionAdd("auto-completion", "autocompletion");
+            correctionAdd("Auto-Completion", "autocompletion");
             correctionAdd("Autocompletion", "autocompletion");
 
             correctionAdd("Critical", "critical");
@@ -69455,6 +69462,9 @@ namespace OverflowHelper.core
             //
             correctionAdd("Autokey", "AutoKey");
 
+            // A macOS application. Similar to AutoHotkey and AutoIt
+            correctionAdd("keyboard maestro", "Keyboard Maestro");
+
             // A keyboard remapping utility (program) for Mac OS X / macOS
             //
             // Alternative URLs:
@@ -80903,6 +80913,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Sheet Music", "sheet music");
             correctionAdd("sheetmusic", "sheet music");
+            correctionAdd("score", "sheet music");
 
             correctionAdd("mintority", "minority");
 
@@ -81032,12 +81043,17 @@ namespace OverflowHelper.core
             //
             // Alternative URLs:
             //
+            //   <https://en.wikipedia.org/wiki/String_Quintet_No._5_(Boccherini)>
+            //   <https://en.wikipedia.org/wiki/String_Quintet_No._5_(Boccherini)#III._Minuet>
+            //
             //   <https://www.youtube.com/watch?v=OKlR4nrCowM&t=1m3s>
             //   <https://www.youtube.com/watch?v=2AZOknKotVc>
             //   <https://www.youtube.com/watch?v=gi1GmyOFrzo&t=9m0s>
             //   <https://www.youtube.com/watch?v=YE0G2ke1oOw>
             //     Single instrument: Cello
             //
+            correctionAdd("Boccherini", "String quintet in E Major, Op.11 No.5. Minuet - Luigi Boccherini");
+            correctionAdd("boccherini", "String quintet in E Major, Op.11 No.5. Minuet - Luigi Boccherini");
             correctionAdd("cow music", "String quintet in E Major, Op.11 No.5. Minuet - Luigi Boccherini");
 
             correctionAdd("musicXML", "MusicXML");
@@ -87177,6 +87193,7 @@ namespace OverflowHelper.core
             // 81 keys.
             //
             correctionAdd("Mini Quiet Pro", "Matias Mini Quiet Pro");
+            correctionAdd("Matias", "Matias Mini Quiet Pro");
             correctionAdd("MQP", "Matias Mini Quiet Pro");
 
             // A 82-key (80%. Not true TKL) crippled mechanical keyboard.
@@ -105704,6 +105721,9 @@ namespace OverflowHelper.core
             correctionAdd("cancle", "cancel");
             correctionAdd("Cancle", "cancel");
 
+            correctionAdd("cancells", "cancels");
+            correctionAdd("Cancells", "cancels");
+
             correctionAdd("cancalling", "cancelling");
             correctionAdd("canceling", "cancelling");
 
@@ -122137,8 +122157,6 @@ namespace OverflowHelper.core
 
             URL_Add("dumber", "https://en.wiktionary.org/wiki/dumber#Adjective");
 
-            URL_Add("Segger", "https://en.wikipedia.org/wiki/Segger_Microcontroller_Systems");
-
             URL_Add("underdocumented", "https://en.wiktionary.org/wiki/underdocumented#Adjective");
 
             URL_Add("siloing", "https://en.wiktionary.org/wiki/silo#Verb");
@@ -125797,8 +125815,6 @@ namespace OverflowHelper.core
 
             URL_Add("web editor", "https://en.wikipedia.org/wiki/HTML_editor");
 
-            URL_Add("AutoKey", "https://en.wikipedia.org/wiki/AutoKey");
-
             URL_Add("emergency", "https://en.wiktionary.org/wiki/emergency#Noun");
 
             URL_Add("forward", "https://en.wiktionary.org/wiki/forward#Verb");
@@ -127894,8 +127910,6 @@ namespace OverflowHelper.core
             URL_Add("Namecheap", "https://en.wikipedia.org/wiki/Namecheap");
 
             URL_Add("deprival", "https://en.wiktionary.org/wiki/deprival#Noun");
-
-            URL_Add("embOS", "https://en.wikipedia.org/wiki/Segger_Microcontroller_Systems#History");
 
             URL_Add("cooler", "https://en.wiktionary.org/wiki/cooler#Noun");
 
@@ -134505,8 +134519,6 @@ namespace OverflowHelper.core
 
             URL_Add("Internet background radiation", "https://en.wikipedia.org/wiki/Internet_background_noise");
 
-            URL_Add("Caps2esc", "https://gitlab.com/interception/linux/plugins/caps2esc");
-
             URL_Add("ETag", "https://en.wikipedia.org/wiki/HTTP_ETag");
 
             URL_Add("interception", "https://en.wiktionary.org/wiki/interception#Noun");
@@ -139051,13 +139063,15 @@ namespace OverflowHelper.core
 
             URL_Add("cancel", "https://en.wiktionary.org/wiki/cancel#Verb");
 
-            URL_Add("cancelled", "https://en.wiktionary.org/wiki/cancel#Verb");
+            URL_Add("cancels", "https://en.wiktionary.org/wiki/source#Noun");
 
-            URL_Add("cancellation", "https://en.wiktionary.org/wiki/cancellation#Noun");
+            URL_Add("cancelling", "https://en.wiktionary.org/wiki/cancel#Verb");
+
+            URL_Add("cancelled", "https://en.wiktionary.org/wiki/cancel#Verb");
 
             URL_Add("cancellable", "https://en.wiktionary.org/wiki/cancellable#Adjective");
 
-            URL_Add("cancelling", "https://en.wiktionary.org/wiki/cancel#Verb");
+            URL_Add("cancellation", "https://en.wiktionary.org/wiki/cancellation#Noun");
 
             URL_Add("chit-chat", "https://en.wiktionary.org/wiki/chit-chat#Noun");
 
@@ -142428,6 +142442,10 @@ namespace OverflowHelper.core
             URL_Add("DebugView", "https://docs.microsoft.com/en-us/sysinternals/downloads/debugview");
 
             URL_Add("OpenOCD", "https://en.wikipedia.org/wiki/List_of_ARM_Cortex-M_development_tools#Debugging_tools");
+
+            URL_Add("Segger", "https://en.wikipedia.org/wiki/Segger"); // Old: <https://en.wikipedia.org/wiki/Segger_Microcontroller_Systems>
+
+            URL_Add("embOS", "https://en.wikipedia.org/wiki/Segger#History"); // Old: <https://en.wikipedia.org/wiki/Segger_Microcontroller_Systems#History>
 
             URL_Add("J-Link", "https://www.segger.com/products/debug-probes/j-link/");
 
@@ -147043,6 +147061,8 @@ namespace OverflowHelper.core
 
             URL_Add("macOS&nbsp;v26 (Tahoe) (2026 vintage)", "https://en.wikipedia.org/wiki/MacOS_Tahoe");
 
+            URL_Add("macOS&nbsp;v27 (Golden Gate) (2026 vintage)", "https://en.wikipedia.org/wiki/MacOS_Golden_Gate");
+
             URL_Add("throughout", "https://en.wiktionary.org/wiki/throughout#Adverb");
 
             URL_Add("for free", "https://en.wiktionary.org/wiki/for_free#Prepositional_phrase");
@@ -150389,6 +150409,12 @@ namespace OverflowHelper.core
 
             URL_Add("Oblotzky Industries", "https://www.reddit.com/r/MechanicalKeyboards/comments/ftixhj/announcing_oblotzkyindustries_a_new_vendor_for/");
 
+            URL_Add("Caps2esc", "https://gitlab.com/interception/linux/plugins/caps2esc");
+
+            URL_Add("AutoKey", "https://en.wikipedia.org/wiki/AutoKey");
+
+            URL_Add("Keyboard Maestro", "https://en.wikipedia.org/wiki/Keyboard_Maestro");
+
             URL_Add("Ukelele", "https://www.cnet.com/tech/computing/create-custom-keyboard-layouts-with-ukelele/");
 
             URL_Add("Keyboard Layout Editor", "https://thekeeblog.com/creating-the-perfect-keyboard-layout-with-keyboard-layout-editor/");
@@ -153349,6 +153375,7 @@ namespace OverflowHelper.core
             correctionAdd("erganimic_", "ergonomic_");
             correctionAdd("erganomoc_", "ergonomic_");
             correctionAdd("erganomic_", "ergonomic_");
+            correctionAdd("ergoomic_", "ergonomic_");
             correctionAdd("ergo_", "ergonomic_");
             correctionAdd("erfo_", "ergonomic_");
             correctionAdd("ego_", "ergonomic_");
@@ -153703,6 +153730,7 @@ namespace OverflowHelper.core
             correctionAdd("SCROLL-LOCK_", "Scroll Lock key_");
             correctionAdd("Scroll lock_", "Scroll Lock key_");
             correctionAdd("Scroll Lock_", "Scroll Lock key_");
+            correctionAdd("SCROLL LOCK_", "Scroll Lock key_");
             correctionAdd("Scroll Lk_", "Scroll Lock key_");
             correctionAdd("Scrl Lock_", "Scroll Lock key_");
             correctionAdd("scrl lock_", "Scroll Lock key_");
@@ -153741,6 +153769,7 @@ namespace OverflowHelper.core
             correctionAdd("pause break_", "Pause key_");
             correctionAdd("pause/break_", "Pause key_");
             correctionAdd("Break/Pause_", "Pause key_");
+            correctionAdd("PAUSE/BREAK_", "Pause key_");
             correctionAdd("break key_", "Pause key_");
             correctionAdd("PAUISE_", "Pause key_");
             correctionAdd("pauise_", "Pause key_");
@@ -166197,6 +166226,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Papua New Gunnea_", "Papua New Guinea_");
             correctionAdd("New Gunea_", "Papua New Guinea_");
+            correctionAdd("Papau_", "Papua New Guinea_");
             correctionAdd("PNG_", "Papua New Guinea_");
 
             // A Top Gun reference
@@ -175605,6 +175635,8 @@ namespace OverflowHelper.core
             correctionAdd("Open-Source__", "open source__");
             correctionAdd("open soures__", "open source__");
             correctionAdd("open-source__", "open source__");
+            correctionAdd("Open sourse__", "open source__");
+            correctionAdd("open sourse__", "open source__");
             correctionAdd("OpenSource__", "open source__");
             correctionAdd("opensource__", "open source__");
             correctionAdd("Opensource__", "open source__");
