@@ -18339,6 +18339,24 @@ namespace OverflowHelper.core
             correctionAdd("Brigtness", "brightness");
             correctionAdd("brigthnes", "brightness");
 
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Magnitude_(astronomy)>
+            //
+            correctionAdd("magnatitude", "magnitude");
+            correctionAdd("magnititude", "magnitude");
+            correctionAdd("maginitude", "magnitude");
+            correctionAdd("magnetude", "magnitude");
+            correctionAdd("magnatude", "magnitude");
+            correctionAdd("magitude", "magnitude");
+
+            correctionAdd("Magnificent", "magnificent");
+
+            correctionAdd("magento", "Magento");
+            correctionAdd("magneto", "Magento");
+
+            correctionAdd("magnification API", "Magnification API");
+
             correctionAdd("stratosfere", "stratosphere");
 
             correctionAdd("telesope", "telescope");
@@ -39249,6 +39267,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Integrating", "integrating");
             correctionAdd("intergating", "integrating");
+            correctionAdd("integating", "integrating");
 
             correctionAdd("integreted", "integrated");
             correctionAdd("integrted", "integrated");
@@ -54401,7 +54420,7 @@ namespace OverflowHelper.core
             correctionAdd("rgb", "RGB");
             correctionAdd("rbg", "RGB"); // Letter order (typo)
             correctionAdd("RBG", "RGB"); // Letter order (typo)
-            correctionAdd("BGR", "RGB"); // Though it may be correct in an OpenCV context...
+            correctionAdd("BGR", "RGB"); // Though it may be correct in an OpenCV (often used from Python) context... That is, the *order*, but for the same.
             correctionAdd("bgr", "RGB");
             correctionAdd("Rgb", "RGB");
             correctionAdd("RGP", "RGB");
@@ -60089,6 +60108,7 @@ namespace OverflowHelper.core
             correctionAdd("737 Max", "Boeing 737 MAX");
             correctionAdd("737-MAX", "Boeing 737 MAX");
             correctionAdd("737 max", "Boeing 737 MAX");
+            correctionAdd("737Max", "Boeing 737 MAX");
             correctionAdd("7MAX", "Boeing 737 MAX");
 
             // Aviation. Boeing 737 MAX
@@ -75087,22 +75107,6 @@ namespace OverflowHelper.core
             correctionAdd("unintenationally", "unintentionally");
             correctionAdd("unintentionaly", "unintentionally");
 
-            correctionAdd("magnification API", "Magnification API");
-
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/Magnitude_(astronomy)>
-            //
-            correctionAdd("magnatitude", "magnitude");
-            correctionAdd("magnititude", "magnitude");
-            correctionAdd("maginitude", "magnitude");
-            correctionAdd("magnetude", "magnitude");
-            correctionAdd("magnatude", "magnitude");
-            correctionAdd("magitude", "magnitude");
-
-            correctionAdd("magento", "Magento");
-            correctionAdd("magneto", "Magento");
-
             correctionAdd("oppossed", "opposed");
             correctionAdd("apposed", "opposed");
             correctionAdd("oppsed", "opposed");
@@ -86636,6 +86640,8 @@ namespace OverflowHelper.core
             //
             //     Incl. a picture of the PCB
             //
+            //     The link is broken now...
+            //
             correctionAdd("Keychron K6 Pro", "Keychron&nbsp;K6&nbsp;Pro"); // Sort of identity mapping
             correctionAdd("K6&nbsp;Pro", "Keychron&nbsp;K6&nbsp;Pro");
             correctionAdd("K6 pro", "Keychron&nbsp;K6&nbsp;Pro"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
@@ -87590,7 +87596,7 @@ namespace OverflowHelper.core
             // PCB:
             //
             //   <https://www.youtube.com/watch?v=xgxRHXoxR30&t=7m54s>
-            //     The whole PCB.
+            //     The whole PCB (though poor focus).
             //
             //     Also displays the diffrent layers of foam.
             //
@@ -88541,6 +88547,8 @@ namespace OverflowHelper.core
             // K3 Pro PCB:
             //
             //   <https://i.imgur.com/Xo6sD4r.jpeg>
+            //     Very well focused!
+            //
             //     Full, microcontroller side, with probably two HC595's,
             //     upper centered (16-pin. U7 and U8), also indicated
             //     in the source code:
@@ -91885,6 +91893,11 @@ namespace OverflowHelper.core
             //     in 2025 with version 3:
             //
             //       <https://www.keychron.com/products/keychron-k4-qmk-wireless-mechanical-keyboard-version-3>
+            //
+            //     K4 V3 JSON files:
+            //
+            //       <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-qmk-k-pro-and-k-max-series-keyboards>
+            //         Near "K4 ISO white backlight"
             //
             // A list of K4 user guides:
             //
@@ -107854,6 +107867,8 @@ namespace OverflowHelper.core
 
             // The noun
             correctionAdd("fuck up", "fuckup");
+            correctionAdd("F**K UP", "fuckup");
+            correctionAdd("f**k up", "fuckup");
             correctionAdd("F-Up", "fuckup");
             correctionAdd("f-up", "fuckup");
 
@@ -115571,8 +115586,6 @@ namespace OverflowHelper.core
             URL_Add("reflag", "https://en.wiktionary.org/wiki/reflag#Verb");
 
             URL_Add("leaves", "https://en.wiktionary.org/wiki/leaf#Noun");
-
-            URL_Add("magnitude", "https://en.wiktionary.org/wiki/magnitude#Noun");
 
             URL_Add("jurisdiction", "https://en.wiktionary.org/wiki/jurisdiction#Noun");
 
@@ -134496,8 +134509,6 @@ namespace OverflowHelper.core
 
             URL_Add("stringification", "https://en.wiktionary.org/wiki/stringification#Noun");
 
-            URL_Add("Magnification API", "https://docs.microsoft.com/en-us/previous-versions/windows/desktop/magapi/magapi-intro");
-
             URL_Add("clarification", "https://en.wiktionary.org/wiki/clarification#Noun");
 
             URL_Add("FIDO", "https://en.wikipedia.org/wiki/FIDO_Alliance#Specifications");
@@ -143376,8 +143387,6 @@ namespace OverflowHelper.core
 
             URL_Add("Long-Term Servicing Channel", "https://en.wikipedia.org/wiki/Windows_10_editions#Long-Term_Servicing_Channel");
 
-            URL_Add("Magnifier", "https://en.wikipedia.org/wiki/Magnifier_(Windows)");
-
             URL_Add("Narrator", "https://en.wikipedia.org/wiki/Narrator_(Windows)");
 
             URL_Add("Event Tracing for Windows", "https://docs.microsoft.com/en-us/windows-hardware/test/wpt/event-tracing-for-windows");
@@ -149988,102 +149997,6 @@ namespace OverflowHelper.core
 
             URL_Add("serial port profile", "https://en.wikipedia.org/wiki/List_of_Bluetooth_protocols#Radio_frequency_communication_(RFCOMM)");
 
-            URL_Add("grey", "https://en.wiktionary.org/wiki/grey#Adjective");
-
-            URL_Add("green", "https://en.wiktionary.org/wiki/green#Noun");
-
-            URL_Add("cyan", "https://en.wikipedia.org/wiki/Cyan");
-
-            URL_Add("tealish", "https://en.wiktionary.org/wiki/tealish#Adjective");
-
-            URL_Add("turquoise", "https://en.wikipedia.org/wiki/Turquoise_(color)");
-
-            URL_Add("purple", "https://en.wiktionary.org/wiki/purple#Noun");
-
-            URL_Add("magenta", "https://en.wiktionary.org/wiki/magenta#Noun");
-
-            URL_Add("violet", "https://en.wikipedia.org/wiki/Violet_(color)");
-
-            URL_Add("pink", "https://en.wikipedia.org/wiki/Pink");
-
-            URL_Add("pinky", "https://en.wiktionary.org/wiki/pinky#Noun_2");
-
-            URL_Add("yellow", "https://en.wiktionary.org/wiki/yellow#Adjective");
-
-            URL_Add("yellow fever", "https://en.wikipedia.org/wiki/Yellow_fever");
-
-            URL_Add("coral", "https://en.wikipedia.org/wiki/Coral_(color)");
-
-            URL_Add("orange", "https://en.wiktionary.org/wiki/orange#Noun");
-
-            URL_Add("Trump", "https://en.wikipedia.org/wiki/Donald_Trump");
-
-            URL_Add("OrangeHRM", "https://en.wikipedia.org/wiki/OrangeHRM");
-
-            URL_Add("forever", "https://en.wiktionary.org/wiki/forever#Adverb");
-
-            URL_Add("evergreen", "https://en.wiktionary.org/wiki/evergreen#Adjective");
-
-            URL_Add("greenfield project", "https://en.wikipedia.org/wiki/Greenfield_project");
-
-            URL_Add("green screen", "https://en.wikipedia.org/wiki/Chroma_key");
-
-            URL_Add("greenlet", "https://stackoverflow.com/questions/15556718/greenlet-vs-threads");
-
-            URL_Add("Greenland", "https://en.wikipedia.org/wiki/Greenland");
-
-            URL_Add("Greenshot", "https://en.wikipedia.org/wiki/Greenshot");
-
-            URL_Add("Green Hills Compilers", "https://www.ghs.com/products/compiler.html");
-
-            URL_Add("red flag", "https://en.wiktionary.org/wiki/red_flag#Noun");
-
-            URL_Add("red herring", "https://en.wiktionary.org/wiki/red_herring#Noun");
-
-            URL_Add("red pill", "https://en.wikipedia.org/wiki/Manosphere#Jargon"); // Old: <https://en.wikipedia.org/wiki/Manosphere#Ideology_and_content>
-
-            URL_Add("Red Hat Linux", "https://en.wikipedia.org/wiki/Red_Hat_Linux");
-
-            URL_Add("Red Hat Enterprise Linux", "https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux");
-
-            URL_Add("Redmine", "https://en.wikipedia.org/wiki/Redmine");
-
-            URL_Add("Redgate Software", "https://en.wikipedia.org/wiki/Redgate"); // Old: https://en.wikipedia.org/wiki/Red_Gate_Software
-
-            URL_Add("Quinoline Yellow SS", "https://en.wikipedia.org/wiki/Quinoline_Yellow_SS");
-
-            URL_Add("Gray code", "https://en.wikipedia.org/wiki/Gray_code");
-
-            URL_Add("grayed out", "https://en.wiktionary.org/wiki/grayed_out#Adjective");
-
-            URL_Add("graybeard", "https://en.wiktionary.org/wiki/graybeard#Noun");
-
-            URL_Add("grayscale", "https://en.wiktionary.org/wiki/grayscale#Noun");
-
-            URL_Add("scaling", "https://en.wiktionary.org/wiki/scaling#Verb");
-
-            URL_Add("scalable", "https://en.wiktionary.org/wiki/scalable#Adjective");
-
-            URL_Add("rescale", "https://en.wiktionary.org/wiki/rescale#Verb");
-
-            URL_Add("autoscaling", "https://en.wiktionary.org/wiki/autoscaling#Noun");
-
-            URL_Add("small-scale", "https://en.wiktionary.org/wiki/small-scale#Adjective");
-
-            URL_Add("large-scale", "https://en.wiktionary.org/wiki/large-scale#Adjective");
-
-            URL_Add("time scale", "https://en.wiktionary.org/wiki/time_scale#Noun");
-
-            URL_Add("long scale", "https://en.wikipedia.org/wiki/Long_and_short_scales");
-
-            URL_Add("prescaler", "https://en.wiktionary.org/wiki/prescaler#Noun");
-
-            URL_Add("prescalers", "https://en.wiktionary.org/wiki/prescaler#Noun");
-
-            URL_Add("payscale", "https://en.wiktionary.org/wiki/payscale#Noun");
-
-            URL_Add("Richter scale", "https://en.wikipedia.org/wiki/Richter_magnitude_scale");
-
             URL_Add("ReDex", "https://fbredex.com/docs/installation");
 
             URL_Add("Redis", "https://en.wikipedia.org/wiki/Redis_%28data_store%29");
@@ -150817,6 +150730,110 @@ namespace OverflowHelper.core
             URL_Add("Super key", "https://en.wikipedia.org/wiki/Super_key_(keyboard_button)");
 
             URL_Add("linewidths", "https://en.wiktionary.org/wiki/linewidth#Noun");
+
+            URL_Add("magnitude", "https://en.wiktionary.org/wiki/magnitude#Noun");
+
+            URL_Add("magnificent", "https://en.wiktionary.org/wiki/magnificent#Adjective");
+
+            URL_Add("Magnification API", "https://docs.microsoft.com/en-us/previous-versions/windows/desktop/magapi/magapi-intro");
+
+            URL_Add("Magnifier", "https://en.wikipedia.org/wiki/Magnifier_(Windows)");
+
+            URL_Add("Richter scale", "https://en.wikipedia.org/wiki/Richter_magnitude_scale");
+
+            URL_Add("grey", "https://en.wiktionary.org/wiki/grey#Adjective");
+
+            URL_Add("green", "https://en.wiktionary.org/wiki/green#Noun");
+
+            URL_Add("cyan", "https://en.wikipedia.org/wiki/Cyan");
+
+            URL_Add("tealish", "https://en.wiktionary.org/wiki/tealish#Adjective");
+
+            URL_Add("turquoise", "https://en.wikipedia.org/wiki/Turquoise_(color)");
+
+            URL_Add("purple", "https://en.wiktionary.org/wiki/purple#Noun");
+
+            URL_Add("magenta", "https://en.wiktionary.org/wiki/magenta#Noun");
+
+            URL_Add("violet", "https://en.wikipedia.org/wiki/Violet_(color)");
+
+            URL_Add("pink", "https://en.wikipedia.org/wiki/Pink");
+
+            URL_Add("pinky", "https://en.wiktionary.org/wiki/pinky#Noun_2");
+
+            URL_Add("yellow", "https://en.wiktionary.org/wiki/yellow#Adjective");
+
+            URL_Add("yellow fever", "https://en.wikipedia.org/wiki/Yellow_fever");
+
+            URL_Add("coral", "https://en.wikipedia.org/wiki/Coral_(color)");
+
+            URL_Add("orange", "https://en.wiktionary.org/wiki/orange#Noun");
+
+            URL_Add("Trump", "https://en.wikipedia.org/wiki/Donald_Trump");
+
+            URL_Add("OrangeHRM", "https://en.wikipedia.org/wiki/OrangeHRM");
+
+            URL_Add("forever", "https://en.wiktionary.org/wiki/forever#Adverb");
+
+            URL_Add("evergreen", "https://en.wiktionary.org/wiki/evergreen#Adjective");
+
+            URL_Add("greenfield project", "https://en.wikipedia.org/wiki/Greenfield_project");
+
+            URL_Add("green screen", "https://en.wikipedia.org/wiki/Chroma_key");
+
+            URL_Add("greenlet", "https://stackoverflow.com/questions/15556718/greenlet-vs-threads");
+
+            URL_Add("Greenland", "https://en.wikipedia.org/wiki/Greenland");
+
+            URL_Add("Greenshot", "https://en.wikipedia.org/wiki/Greenshot");
+
+            URL_Add("Green Hills Compilers", "https://www.ghs.com/products/compiler.html");
+
+            URL_Add("red flag", "https://en.wiktionary.org/wiki/red_flag#Noun");
+
+            URL_Add("red herring", "https://en.wiktionary.org/wiki/red_herring#Noun");
+
+            URL_Add("red pill", "https://en.wikipedia.org/wiki/Manosphere#Jargon"); // Old: <https://en.wikipedia.org/wiki/Manosphere#Ideology_and_content>
+
+            URL_Add("Red Hat Linux", "https://en.wikipedia.org/wiki/Red_Hat_Linux");
+
+            URL_Add("Red Hat Enterprise Linux", "https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux");
+
+            URL_Add("Redmine", "https://en.wikipedia.org/wiki/Redmine");
+
+            URL_Add("Redgate Software", "https://en.wikipedia.org/wiki/Redgate"); // Old: https://en.wikipedia.org/wiki/Red_Gate_Software
+
+            URL_Add("Quinoline Yellow SS", "https://en.wikipedia.org/wiki/Quinoline_Yellow_SS");
+
+            URL_Add("Gray code", "https://en.wikipedia.org/wiki/Gray_code");
+
+            URL_Add("grayed out", "https://en.wiktionary.org/wiki/grayed_out#Adjective");
+
+            URL_Add("graybeard", "https://en.wiktionary.org/wiki/graybeard#Noun");
+
+            URL_Add("grayscale", "https://en.wiktionary.org/wiki/grayscale#Noun");
+
+            URL_Add("scaling", "https://en.wiktionary.org/wiki/scaling#Verb");
+
+            URL_Add("scalable", "https://en.wiktionary.org/wiki/scalable#Adjective");
+
+            URL_Add("rescale", "https://en.wiktionary.org/wiki/rescale#Verb");
+
+            URL_Add("autoscaling", "https://en.wiktionary.org/wiki/autoscaling#Noun");
+
+            URL_Add("small-scale", "https://en.wiktionary.org/wiki/small-scale#Adjective");
+
+            URL_Add("large-scale", "https://en.wiktionary.org/wiki/large-scale#Adjective");
+
+            URL_Add("time scale", "https://en.wiktionary.org/wiki/time_scale#Noun");
+
+            URL_Add("long scale", "https://en.wikipedia.org/wiki/Long_and_short_scales");
+
+            URL_Add("prescaler", "https://en.wiktionary.org/wiki/prescaler#Noun");
+
+            URL_Add("prescalers", "https://en.wiktionary.org/wiki/prescaler#Noun");
+
+            URL_Add("payscale", "https://en.wiktionary.org/wiki/payscale#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -152124,7 +152141,7 @@ namespace OverflowHelper.core
             correctionAdd("key debounce time_", "key debounce_"); // Not 100% correct
             correctionAdd("switch debounce_", "key debounce_");
             correctionAdd("debounce time_", "key debounce_"); // Not 100% correct
-            correctionAdd("Response Time_", "key debounce_"); // Not 100% correct
+            correctionAdd("Response Time_", "key debounce_"); // The term in the Via clone for 'key debounce time'. Not 100% correct
             correctionAdd("response time_", "key debounce_"); // Not 100% correct
             correctionAdd("Jack Ganssle_", "key debounce_"); // For the cross-reference
             correctionAdd("debounce_", "key debounce_");
@@ -174241,6 +174258,8 @@ namespace OverflowHelper.core
             correctionAdd("f***ing__", "fucking__");
             correctionAdd("F*****G__", "fucking__");
             correctionAdd("f*****g__", "fucking__");
+            correctionAdd("F**KING__", "fucking__");
+            correctionAdd("f**king__", "fucking__");
             correctionAdd("F*KiNG__", "fucking__");
             correctionAdd("f*king__", "fucking__");
             correctionAdd("effing__", "fucking__");
