@@ -8770,8 +8770,8 @@ namespace OverflowHelper.core
             correctionAdd("whit out", "without");
             correctionAdd("with not", "without");
             correctionAdd("whithoub", "without");
-            correctionAdd("widthout", "without");
             correctionAdd("With out", "without");
+            correctionAdd("widthout", "without");
             correctionAdd("witouth", "without");
             correctionAdd("WIthout", "without");
             correctionAdd("Without", "without");
@@ -10799,8 +10799,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Macbook M1 Max", "M1 Max MacBook Pro");
             correctionAdd("Makbook M1 Max", "M1 Max MacBook Pro");
-            correctionAdd("M1 Max", "M1 Max MacBook Pro");
-            correctionAdd("M1 max", "M1 Max MacBook Pro");
 
             // A Mac keyboard (or rather a series of keyboards)
             correctionAdd("Apple aluminum keyboard", "Apple A1243 aluminium Keyboard");
@@ -10817,6 +10815,8 @@ namespace OverflowHelper.core
 
             // A chip
             correctionAdd("Apple M1 max", "Apple M1 Max");
+            correctionAdd("M1 Max", "Apple M1 Max");
+            correctionAdd("M1 max", "Apple M1 Max");
 
             // A chip
             correctionAdd("Apple M3 max", "Apple M3 Max");
@@ -32879,6 +32879,8 @@ namespace OverflowHelper.core
 
             correctionAdd("w/h", "width and height");
 
+            correctionAdd("line-widths", "linewidths");
+
             correctionAdd("heigher", "higher");
             correctionAdd("Heigher", "higher");
 
@@ -33109,11 +33111,14 @@ namespace OverflowHelper.core
 
             correctionAdd("openzfs", "OpenZFS");
 
-            // Mac / Apple
+            // Mac / Apple. A file system (proprietary)
             correctionAdd("hfs", "HFS");
 
-            // Mac / Apple
+            // Mac / Apple. A file system (proprietary?)
             correctionAdd("HFS+", "HFS Plus");
+
+            // A filesystem client (using SSH/SFTP)
+            correctionAdd("sshfs", "SSHFS");
 
             correctionAdd("filemanagement", "file management");
 
@@ -39863,6 +39868,8 @@ namespace OverflowHelper.core
 
             correctionAdd("klingon", "Klingon"); // Star Trek
 
+            correctionAdd("romulan", "Romulan"); // Star Trek
+
             // Star Trek
             correctionAdd("the enterprise", "Starship Enterprise");
             correctionAdd("the Enterprise", "Starship Enterprise");
@@ -41190,6 +41197,7 @@ namespace OverflowHelper.core
             correctionAdd("report the progress", "DenverCoder9");
             correctionAdd("please post it here", "DenverCoder9");
             correctionAdd("with future readers", "DenverCoder9");
+            correctionAdd("What was the result", "DenverCoder9");
             correctionAdd("Please let us know", "DenverCoder9");
             correctionAdd("we will never know", "DenverCoder9");
             correctionAdd("For future readers", "DenverCoder9");
@@ -55439,6 +55447,7 @@ namespace OverflowHelper.core
 
             correctionAdd("benefisial", "beneficial");
             correctionAdd("benefitial", "beneficial");
+            correctionAdd("beneifical", "beneficial");
             correctionAdd("benefical", "beneficial");
 
             correctionAdd("beneficient", "beneficent");
@@ -62200,6 +62209,15 @@ namespace OverflowHelper.core
             correctionAdd("Util", "until");
             correctionAdd("util", "until");
             correctionAdd("inti", "until"); // Multiple typos
+
+            correctionAdd("til", "till");
+            correctionAdd("t'il", "till");
+            correctionAdd("Til", "till");
+
+            correctionAdd("destill", "distill");
+            correctionAdd("distil", "distill");
+
+            correctionAdd("distilation", "distillation");
 
             // Idiomatic
             correctionAdd("the be-all and end-all", "be-all and end-all");
@@ -82439,6 +82457,7 @@ namespace OverflowHelper.core
             correctionAdd("raspberry pi zero", "Raspberry Pi Zero");
             correctionAdd("raspberrypi zero", "Raspberry Pi Zero");
             correctionAdd("raspi zero", "Raspberry Pi Zero");
+            correctionAdd("RPizero", "Raspberry Pi Zero");
 
             correctionAdd("Raspberry Pi Pico-W", "Raspberry Pi Pico W");
             correctionAdd("Raspberry Pi pico-w", "Raspberry Pi Pico W");
@@ -83249,11 +83268,6 @@ namespace OverflowHelper.core
             correctionAdd("infra", "infrastructure");
 
             correctionAdd("Lewis Structure", "Lewis structure");
-
-            correctionAdd("destill", "distill");
-            correctionAdd("distil", "distill");
-
-            correctionAdd("distilation", "distillation");
 
             correctionAdd("anchore", "anchor");
 
@@ -85270,6 +85284,7 @@ namespace OverflowHelper.core
             correctionAdd("Q60&nbsp;Max", "Keychron&nbsp;Q60&nbsp;Max");
             correctionAdd("Q60 Max", "Keychron&nbsp;Q60&nbsp;Max");
             correctionAdd("Q60_max", "Keychron&nbsp;Q60&nbsp;Max");
+            correctionAdd("Q60 max", "Keychron&nbsp;Q60&nbsp;Max");
 
             // A 62-key (60%) crippled split ergonomic mechanical keyboard.
             // 2 x 31 = 62 keys.
@@ -105017,9 +105032,6 @@ namespace OverflowHelper.core
 
             correctionAdd("incersely", "inversely");
 
-            correctionAdd("til", "till");
-            correctionAdd("t'il", "till");
-
             correctionAdd("ada", "Ada");
             correctionAdd("ADA", "Ada");
 
@@ -107803,6 +107815,7 @@ namespace OverflowHelper.core
             correctionAdd("ass hole", "asshole");
             correctionAdd("arsehole", "asshole");
             correctionAdd("a**hole", "asshole");
+            correctionAdd("A**HOLE", "asshole");
             correctionAdd("ass hoe", "asshole");
             correctionAdd("asshold", "asshole");
             correctionAdd("a-hole", "asshole");
@@ -118589,8 +118602,6 @@ namespace OverflowHelper.core
 
             URL_Add("Spanner", "https://en.wikipedia.org/wiki/Spanner_(database)");
 
-            URL_Add("Spock", "https://en.wikipedia.org/wiki/Spock_(testing_framework)");
-
             URL_Add("Tweepy", "https://docs.tweepy.org/en/stable/getting_started.html");
 
             URL_Add("innumerous", "https://en.wiktionary.org/wiki/innumerous#Adjective");
@@ -123532,8 +123543,6 @@ namespace OverflowHelper.core
             URL_Add("aortas", "https://en.wikipedia.org/wiki/Aorta");
 
             URL_Add("foray", "https://en.wiktionary.org/wiki/foray#Noun");
-
-            URL_Add("Klingon", "https://en.wikipedia.org/wiki/Klingon");
 
             URL_Add("pulmonary artery", "https://en.wikipedia.org/wiki/Pulmonary_artery");
 
@@ -133187,11 +133196,17 @@ namespace OverflowHelper.core
 
             URL_Add("Starbucks", "https://en.wikipedia.org/wiki/Starbucks");
 
+            URL_Add("Star Trek", "https://en.wikipedia.org/wiki/Star_Trek");
+
+            URL_Add("Spock", "https://en.wikipedia.org/wiki/Spock_(testing_framework)");
+
+            URL_Add("Klingon", "https://en.wikipedia.org/wiki/Klingon");
+
+            URL_Add("Romulan", "https://en.wikipedia.org/wiki/Romulan");
+
             URL_Add("Starship Enterprise", "https://en.wikipedia.org/wiki/Starship_Enterprise");
 
             URL_Add("Star Trek: The Next Generation", "https://en.wikipedia.org/wiki/Star_Trek%3A_The_Next_Generation");
-
-            URL_Add("Star Trek", "https://en.wikipedia.org/wiki/Star_Trek");
 
             URL_Add("Star Citizen", "https://en.wikipedia.org/wiki/Star_Citizen");
 
@@ -141985,9 +142000,11 @@ namespace OverflowHelper.core
 
             URL_Add("OpenZFS", "https://en.wikipedia.org/wiki/OpenZFS");
 
-            URL_Add("HFS", "https://en.wikipedia.org/wiki/Hierarchical_File_System");
+            URL_Add("HFS", "https://en.wikipedia.org/wiki/Hierarchical_File_System_(Apple)"); // Old: <https://en.wikipedia.org/wiki/Hierarchical_File_System>
 
             URL_Add("HFS Plus", "https://en.wikipedia.org/wiki/HFS_Plus");
+
+            URL_Add("SSHFS", "https://en.wikipedia.org/wiki/SSHFS");
 
             URL_Add("SquashFS", "https://en.wikipedia.org/wiki/SquashFS");
 
@@ -150799,6 +150816,8 @@ namespace OverflowHelper.core
 
             URL_Add("Super key", "https://en.wikipedia.org/wiki/Super_key_(keyboard_button)");
 
+            URL_Add("linewidths", "https://en.wiktionary.org/wiki/linewidth#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -152101,9 +152120,13 @@ namespace OverflowHelper.core
             //
             // Both debounce in general and mechanical keyboards.
             //
-            correctionAdd("key debounce time_", "key debounce_");
-            correctionAdd("debounce time_", "key debounce_");
-            correctionAdd("Jack Ganssle_", "key debounce_");
+            correctionAdd("switch debounce time_", "key debounce_"); // Not 100% correct
+            correctionAdd("key debounce time_", "key debounce_"); // Not 100% correct
+            correctionAdd("switch debounce_", "key debounce_");
+            correctionAdd("debounce time_", "key debounce_"); // Not 100% correct
+            correctionAdd("Response Time_", "key debounce_"); // Not 100% correct
+            correctionAdd("response time_", "key debounce_"); // Not 100% correct
+            correctionAdd("Jack Ganssle_", "key debounce_"); // For the cross-reference
             correctionAdd("debounce_", "key debounce_");
 
             correctionAdd("QMK debounce methods/algorithms_", "The QMK default key debounce time is 5 ms_"); // For the cross-reference
