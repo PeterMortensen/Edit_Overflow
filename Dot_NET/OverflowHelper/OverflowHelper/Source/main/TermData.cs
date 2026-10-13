@@ -68173,8 +68173,9 @@ namespace OverflowHelper.core
             //
             correctionAdd("low profile mechanical switch", "low-profile mechanical switches");
             correctionAdd("low-profile mechanical switch", "low-profile mechanical switches");
-            correctionAdd("low-profile switche", "low-profile mechanical switches");
             correctionAdd("low-profile switches", "low-profile mechanical switches");
+            correctionAdd("low-profile switche", "low-profile mechanical switches");
+            correctionAdd("lowprofile switches", "low-profile mechanical switches");
             correctionAdd("Low profile switch", "low-profile mechanical switches");
             correctionAdd("low profile switch", "low-profile mechanical switches");
             correctionAdd("low-profile", "low-profile mechanical switches");
@@ -68849,21 +68850,18 @@ namespace OverflowHelper.core
             //      Documentation? The file extension?
             //      "Keyboard layouts" then?
             //
-            correctionAdd("split ergonomic ortholinear mechanical keyboard", "split ergonomic mechanical keyboard");
+            correctionAdd("split ergonomic ortholinear mechanical keyboard", "split ergonomic mechanical keyboard"); // For the cross-reference
+            correctionAdd("split ortholinear mechanical keyboard", "split ergonomic mechanical keyboard"); // For the cross-reference
             correctionAdd("split ergo mechanical keyboard", "split ergonomic mechanical keyboard");
             correctionAdd("split mechanical keyboard", "split ergonomic mechanical keyboard");
             correctionAdd("split ergonomic keyboard", "split ergonomic mechanical keyboard");
             correctionAdd("ergonomic split keyboard", "split ergonomic mechanical keyboard");
             correctionAdd("ergonomic split keeb", "split ergonomic mechanical keyboard");
-            correctionAdd("split ergo keyboards", "split ergonomic mechanical keyboard");
             correctionAdd("split ergo keyboard", "split ergonomic mechanical keyboard");
             correctionAdd("Ergo Split keyboard", "split ergonomic mechanical keyboard");
             correctionAdd("ergo split keyboard", "split ergonomic mechanical keyboard");
-            correctionAdd("Split ergo Boards", "split ergonomic mechanical keyboard");
-            correctionAdd("split ergo boards", "split ergonomic mechanical keyboard");
             correctionAdd("split ergo board", "split ergonomic mechanical keyboard");
             correctionAdd("ergo split keeb", "split ergonomic mechanical keyboard");
-            correctionAdd("ergomech splits", "split ergonomic mechanical keyboard");
             correctionAdd("split ergonomic", "split ergonomic mechanical keyboard");
             correctionAdd("split keyboard", "split ergonomic mechanical keyboard");
             correctionAdd("Split keyboard", "split ergonomic mechanical keyboard");
@@ -68871,11 +68869,9 @@ namespace OverflowHelper.core
             correctionAdd("ergomech split", "split ergonomic mechanical keyboard");
             correctionAdd("splt keyboard", "split ergonomic mechanical keyboard");
             correctionAdd("splitkeyboard", "split ergonomic mechanical keyboard");
-            correctionAdd("split mechs", "split ergonomic mechanical keyboard");
             correctionAdd("ergo split", "split ergonomic mechanical keyboard");
             correctionAdd("Ergo Split", "split ergonomic mechanical keyboard");
             correctionAdd("Ergo split", "split ergonomic mechanical keyboard");
-            correctionAdd("ergosplits", "split ergonomic mechanical keyboard");
             correctionAdd("split ergo", "split ergonomic mechanical keyboard");
             correctionAdd("Split keyb", "split ergonomic mechanical keyboard");
             correctionAdd("split keyb", "split ergonomic mechanical keyboard");
@@ -68883,11 +68879,20 @@ namespace OverflowHelper.core
             correctionAdd("Split Keyb", "split ergonomic mechanical keyboard");
             correctionAdd("split keeb", "split ergonomic mechanical keyboard");
             correctionAdd("split keed", "split ergonomic mechanical keyboard");
+            correctionAdd("split mech", "split ergonomic mechanical keyboard");
             correctionAdd("ergosplit", "split ergonomic mechanical keyboard");
-            correctionAdd("SplitKBs", "split ergonomic mechanical keyboard");
             correctionAdd("SplitKB", "split ergonomic mechanical keyboard");
             correctionAdd("SplErgo", "split ergonomic mechanical keyboard");
-            correctionAdd("splits", "split ergonomic mechanical keyboard");
+
+            correctionAdd("split ergo keyboards", "split ergonomic mechanical keyboards");
+            correctionAdd("Split ergo Boards", "split ergonomic mechanical keyboards");
+            correctionAdd("split ergo boards", "split ergonomic mechanical keyboards");
+            correctionAdd("ergomech splits", "split ergonomic mechanical keyboards");
+            correctionAdd("split mechs", "split ergonomic mechanical keyboards");
+            correctionAdd("split ergos", "split ergonomic mechanical keyboards");
+            correctionAdd("ergosplits", "split ergonomic mechanical keyboards");
+            correctionAdd("SplitKBs", "split ergonomic mechanical keyboards");
+            correctionAdd("splits", "split ergonomic mechanical keyboards");
 
             // A type of (ergonomic) keyboard, and a
             // keyboard layout of sorts.
@@ -150226,6 +150231,8 @@ namespace OverflowHelper.core
 
             URL_Add("split ergonomic mechanical keyboard", "https://en.wikipedia.org/wiki/Ergonomic_keyboard");
 
+            URL_Add("split ergonomic mechanical keyboards", "https://en.wikipedia.org/wiki/Ergonomic_keyboard");
+
             URL_Add("macro keyboard", "https://keyboardsexpert.com/macropad-mechanical-keyboard-faqs/");
 
             URL_Add("macro pads", "https://keyboardsexpert.com/macropad-mechanical-keyboard-faqs/");
@@ -166353,6 +166360,7 @@ namespace OverflowHelper.core
             correctionAdd("ali_", "AliExpress_");
             correctionAdd("Ali_", "AliExpress_");
             correctionAdd("alix_", "AliExpress_");
+            correctionAdd("Aex_", "AliExpress_");
             correctionAdd("AE_", "AliExpress_");
 
             correctionAdd("Alternatitive_", "alternative_");
@@ -167230,9 +167238,11 @@ namespace OverflowHelper.core
 
             correctionAdd("optital_", "optical_");
 
+            correctionAdd("inquiring minds would like to know_", "inquiring minds want to know_");
             correctionAdd("enquiring minds want to know_", "inquiring minds want to know_");
             correctionAdd("Enquiring minds want to know_", "inquiring minds want to know_");
             correctionAdd("Inquiring minds want to know_", "inquiring minds want to know_");
+            correctionAdd("inquiring minds_", "inquiring minds want to know_");
             correctionAdd("enquiring_", "inquiring minds want to know_");
             correctionAdd("inquiring_", "inquiring minds want to know_");
 
