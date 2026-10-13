@@ -1171,6 +1171,101 @@ namespace OverflowHelper.core
             correctionAdd("Windows Nano server", "Microsoft Nano Server");
             correctionAdd("Windows Nano", "Microsoft Nano Server");
 
+            correctionAdd("go amis", "go amiss");
+
+            correctionAdd("hitted", "hit");
+
+            correctionAdd("hiting", "hitting");
+
+            correctionAdd("HMU", "hit me up");
+            correctionAdd("hmu", "hit me up");
+
+            correctionAdd("hit or miss", "hit-or-miss");
+
+            // The Unix/Linux command
+            //
+            // Alternative URL:
+            //
+            //   <https://linux.die.net/man/1/head>
+            //
+            correctionAdd("Head", "head");
+
+            correctionAdd("a head", "ahead");
+
+            correctionAdd("look-ahead", "lookahead");
+
+            correctionAdd("over head", "overhead");
+
+            correctionAdd("heads and tails", "heads or tails");
+
+            correctionAdd("heads up", "heads-up");
+
+            correctionAdd("head ache", "headache");
+            correctionAdd("headhache", "headache");
+            correctionAdd("headacke", "headache");
+
+            correctionAdd("headhaches", "headaches");
+
+            correctionAdd("head scratching", "head-scratching");
+
+            correctionAdd("headscratcher", "head-scratcher");
+
+            correctionAdd("head shot", "headshot");
+
+            correctionAdd("huntig", "hunting");
+
+            correctionAdd("which hint", "witch hunt");
+            correctionAdd("witch-hunt", "witch hunt");
+
+            correctionAdd("whichcraft", "witchcraft");
+
+            correctionAdd("head-hunted", "headhunted");
+
+            correctionAdd("head banging", "headbanging");
+
+            correctionAdd("head strong", "headstrong");
+
+            correctionAdd("head-over-heels", "head over heels");
+
+            correctionAdd("head & shoulders", "head and shoulders");
+
+            correctionAdd("head room", "headroom");
+
+            correctionAdd("head line", "headline");
+            correctionAdd("hadeline", "headline");
+            correctionAdd("Headline", "headline");
+
+            correctionAdd("haeding", "heading");
+            correctionAdd("heding", "heading");
+
+            correctionAdd("Header", "header");
+            correctionAdd("heder", "header");
+
+            correctionAdd("headerfile", "header file");
+            correctionAdd("Headerfile", "header file");
+
+            correctionAdd("HoD", "head of department");
+
+            correctionAdd("head first", "Head First");
+
+            // Idiomatic
+            correctionAdd("hit the nail upon the top", "hit the nail on the head");
+            correctionAdd("hit the nail on the end", "hit the nail on the head");
+
+            // Idiomatic
+            correctionAdd("from top of my head", "off the top of my head");
+            correctionAdd("From top of my head", "off the top of my head");
+            correctionAdd("top of my head", "off the top of my head");
+
+            correctionAdd("pointy-haired boss", "Pointy-haired Boss");
+            correctionAdd("point-headed boss", "Pointy-haired Boss");
+            correctionAdd("PHB", "Pointy-haired Boss");
+
+            // Web development
+            correctionAdd("hero page", "hero header");
+
+            correctionAdd("hero-image", "hero image");
+
             correctionAdd("allowes", "allows");
 
             correctionAdd("alowed", "allowed");
@@ -2842,6 +2937,8 @@ namespace OverflowHelper.core
 
             correctionAdd("sharethis", "ShareThis");
 
+            correctionAdd("A priory", "a priori");
+            correctionAdd("a priory", "a priori");
             correctionAdd("apriori", "a priori");
 
             correctionAdd("prioritize", "prioritise");
@@ -9461,6 +9558,8 @@ namespace OverflowHelper.core
             correctionAdd("eentually", "eventually");
             correctionAdd("edvantuly", "eventually");
 
+            correctionAdd("eventuallity", "eventuality");
+
             correctionAdd("Even Parity", "even parity");
 
             correctionAdd("parody", "parity");
@@ -13514,6 +13613,10 @@ namespace OverflowHelper.core
             correctionAdd("alliviation", "alleviation");
 
             correctionAdd("alian", "alien");
+            correctionAdd("AlIeN", "alien");
+
+            correctionAdd("ALIENS", "aliens");
+            correctionAdd("AlIeNs", "aliens");
 
             correctionAdd("alianate", "alienate");
 
@@ -23936,6 +24039,7 @@ namespace OverflowHelper.core
             correctionAdd("satellit", "satellite");
             correctionAdd("satelite", "satellite");
             correctionAdd("satalite", "satellite");
+            correctionAdd("satilite", "satellite");
             correctionAdd("sat", "satellite");
             correctionAdd("SAT", "satellite");
 
@@ -28252,90 +28356,6 @@ namespace OverflowHelper.core
 
             correctionAdd("infered", "inferred");
 
-            // The Unix/Linux command
-            //
-            // Alternative URL:
-            //
-            //   <https://linux.die.net/man/1/head>
-            //
-            correctionAdd("Head", "head");
-
-            correctionAdd("a head", "ahead");
-
-            correctionAdd("look-ahead", "lookahead");
-
-            correctionAdd("over head", "overhead");
-
-            correctionAdd("heads and tails", "heads or tails");
-
-            correctionAdd("heads up", "heads-up");
-
-            correctionAdd("head ache", "headache");
-            correctionAdd("headhache", "headache");
-            correctionAdd("headacke", "headache");
-
-            correctionAdd("headhaches", "headaches");
-
-            correctionAdd("head scratching", "head-scratching");
-
-            correctionAdd("headscratcher", "head-scratcher");
-
-            correctionAdd("head shot", "headshot");
-
-            correctionAdd("huntig", "hunting");
-
-            correctionAdd("which hint", "witch hunt");
-            correctionAdd("witch-hunt", "witch hunt");
-
-            correctionAdd("whichcraft", "witchcraft");
-
-            correctionAdd("head-hunted", "headhunted");
-
-            correctionAdd("head banging", "headbanging");
-
-            correctionAdd("head strong", "headstrong");
-
-            correctionAdd("head-over-heels", "head over heels");
-
-            correctionAdd("head & shoulders", "head and shoulders");
-
-            correctionAdd("head room", "headroom");
-
-            correctionAdd("head line", "headline");
-            correctionAdd("hadeline", "headline");
-            correctionAdd("Headline", "headline");
-
-            correctionAdd("haeding", "heading");
-            correctionAdd("heding", "heading");
-
-            correctionAdd("Header", "header");
-            correctionAdd("heder", "header");
-
-            correctionAdd("headerfile", "header file");
-            correctionAdd("Headerfile", "header file");
-
-            correctionAdd("HoD", "head of department");
-
-            correctionAdd("head first", "Head First");
-
-            // Idiomatic
-            correctionAdd("hit the nail upon the top", "hit the nail on the head");
-            correctionAdd("hit the nail on the end", "hit the nail on the head");
-
-            // Idiomatic
-            correctionAdd("from top of my head", "off the top of my head");
-            correctionAdd("From top of my head", "off the top of my head");
-            correctionAdd("top of my head", "off the top of my head");
-
-            correctionAdd("pointy-haired boss", "Pointy-haired Boss");
-            correctionAdd("point-headed boss", "Pointy-haired Boss");
-            correctionAdd("PHB", "Pointy-haired Boss");
-
-            // Web development
-            correctionAdd("hero page", "hero header");
-
-            correctionAdd("hero-image", "hero image");
-
             correctionAdd("analyzing", "analysing");
             correctionAdd("alyzing", "analysing");
 
@@ -29787,10 +29807,6 @@ namespace OverflowHelper.core
             correctionAdd("Foto", "go to");
             correctionAdd("foto", "go to");
 
-            correctionAdd("go amis", "go amiss");
-
-            correctionAdd("hit or miss", "hit-or-miss");
-
             // "shall" is nowhere, because it has never been misspelt! (That is, never observed in the wild.)
             correctionAdd("shoould", "should");
             correctionAdd("shouold", "should");
@@ -29889,8 +29905,9 @@ namespace OverflowHelper.core
 
             correctionAdd("wonton", "wanton");
 
-            correctionAdd("enquiring minds want to know", "inquiring minds want to know");
-            correctionAdd("Enquiring minds want to know", "inquiring minds want to know");
+            correctionAdd("Enquiring", "enquiring");
+            correctionAdd("Inquiring", "enquiring");
+            correctionAdd("inquiring", "enquiring");
 
             correctionAdd("vertrigo", "Vertrigo");
 
@@ -36476,10 +36493,26 @@ namespace OverflowHelper.core
             // Idiomatic
             correctionAdd("beyond the pail", "beyond the pale");
 
+            // Note: "doubt" and "doubts" (including both the
+            //       original meaning and the Indian English
+            //       meaning) is in an alternative word set
+            //
             correctionAdd("beyond any reasonable doubt", "beyond a reasonable doubt");
             correctionAdd("beyond reasonable doubt", "beyond a reasonable doubt");
 
+            correctionAdd("doubtfull", "doubtful");
+
+            correctionAdd("in doubts", "in doubt");
+
+            correctionAdd("if doubt", "if in doubt");
+
+            correctionAdd("the benefit of the doubt", "benefit of the doubt");
+            correctionAdd("benefit of doubt", "benefit of the doubt");
+            correctionAdd("BOTD", "benefit of the doubt");
+
             correctionAdd("shadow of a doubt", "beyond a shadow of a doubt");
+
+            correctionAdd("cast into doubt", "called into doubt");
 
             correctionAdd("re-pair", "repair");
             correctionAdd("repaor", "repair");
@@ -36798,6 +36831,53 @@ namespace OverflowHelper.core
             //       set. But the Python library "Requests" is here...
             //
             correctionAdd("requestedt", "requested");
+
+            correctionAdd("re-attract", "reattract");
+
+            correctionAdd("atturibute", "attribute");
+            correctionAdd("Attrabuite", "attribute");
+            correctionAdd("Attribuite", "attribute");
+            correctionAdd("attrabuite", "attribute");
+            correctionAdd("attribuite", "attribute");
+            correctionAdd("attribure", "attribute");
+            correctionAdd("atrribute", "attribute");
+            correctionAdd("Attrabute", "attribute");
+            correctionAdd("Attribute", "attribute");
+            correctionAdd("attrabute", "attribute");
+            correctionAdd("attritube", "attribute");
+            correctionAdd("attrubute", "attribute");
+            correctionAdd("atribute", "attribute");
+            correctionAdd("Attribut", "attribute");
+            correctionAdd("attribut", "attribute");
+            correctionAdd("attrbute", "attribute");
+            correctionAdd("attibute", "attribute");
+            correctionAdd("Attibute", "attribute");
+            correctionAdd("attr", "attribute");
+
+            correctionAdd("attibuted", "attributed");
+
+            correctionAdd("sub-attribute", "subattribute");
+
+            correctionAdd("atributtes", "attributes");
+            correctionAdd("atributes", "attributes");
+            correctionAdd("attrbutes", "attributes");
+
+            correctionAdd("attributon", "attribution");
+            correctionAdd("attibution", "attribution");
+
+            correctionAdd("attitudine", "attitude");
+            correctionAdd("atitudine", "attitude");
+            correctionAdd("attudine", "attitude");
+
+            correctionAdd("policy-based access control", "attribute-based access control");
+            correctionAdd("ABAC", "attribute-based access control");
+
+            correctionAdd("role-based security", "role-based access control");
+            correctionAdd("RBAC", "role-based access control");
+
+            correctionAdd("erazor", "Erazor");
+
+            correctionAdd("razor thin", "razor-thin");
 
             correctionAdd("indentitation", "indentation");
             correctionAdd("indendation", "indentation");
@@ -38728,6 +38808,7 @@ namespace OverflowHelper.core
 
             correctionAdd("erroronious", "erroneous");
             correctionAdd("errorneous", "erroneous");
+            correctionAdd("errornious", "erroneous");
             correctionAdd("erraneous", "erroneous");
             correctionAdd("erronious", "erroneous");
             correctionAdd("erroreous", "erroneous");
@@ -40801,16 +40882,6 @@ namespace OverflowHelper.core
             correctionAdd("Method of moments", "method of moments");
             correctionAdd("MoM", "method of moments");
 
-            correctionAdd("doubtfull", "doubtful");
-
-            correctionAdd("in doubts", "in doubt");
-
-            correctionAdd("if doubt", "if in doubt");
-
-            correctionAdd("the benefit of the doubt", "benefit of the doubt");
-            correctionAdd("benefit of doubt", "benefit of the doubt");
-            correctionAdd("BOTD", "benefit of the doubt");
-
             correctionAdd("Anycasted", "anycasted");
 
             correctionAdd("casse", "case");
@@ -41192,6 +41263,7 @@ namespace OverflowHelper.core
             correctionAdd("For the benefit of future readers", "DenverCoder9");
             correctionAdd("for the benefit of future readers", "DenverCoder9");
             correctionAdd("the benefit of future readers", "DenverCoder9");
+            correctionAdd("inquiring minds want to know", "DenverCoder9");
             correctionAdd("Future readers want to know", "DenverCoder9");
             correctionAdd("future readers want to know", "DenverCoder9");
             correctionAdd("there isn't any resolution", "DenverCoder9");
@@ -53353,8 +53425,6 @@ namespace OverflowHelper.core
 
             correctionAdd("--Wmain", "-Wmain"); // For GCC
 
-            correctionAdd("--Wmissing-format-attribute", "-Wmissing-format-attribute"); // For GCC
-
             correctionAdd("--Wmissing-noreturn", "-Wmissing-noreturn"); // For GCC
 
             correctionAdd("--Wno-deprecated-declarations", "-Wno-deprecated-declarations"); // For GCC
@@ -53594,6 +53664,8 @@ namespace OverflowHelper.core
             correctionAdd("--fno-omit-frame-pointer", "-fno-omit-frame-pointer"); // For GCC
 
             correctionAdd("--fomit-frame-pointer", "-fomit-frame-pointer");
+
+            correctionAdd("--Wmissing-format-attribute", "-Wmissing-format-attribute"); // For GCC
 
             // C++
             correctionAdd("cpp reference", "cppreference.com");
@@ -57798,6 +57870,7 @@ namespace OverflowHelper.core
             correctionAdd("specyfic", "specific");
             correctionAdd("soecific", "specific"); // A true typo
             correctionAdd("spacific", "specific");
+            correctionAdd("spicific", "specific");
             correctionAdd("specfic", "specific");
             correctionAdd("specifc", "specific");
 
@@ -63554,12 +63627,14 @@ namespace OverflowHelper.core
             correctionAdd("Diacritic", "diacritic");
 
             correctionAdd("sensative", "sensitive");
-            correctionAdd("sensitve", "sensitive");
             correctionAdd("sensetive", "sensitive");
+            correctionAdd("sensitve", "sensitive");
 
             correctionAdd("sensistivity", "sensitivity");
 
             correctionAdd("insensiive", "insensitive");
+
+            correctionAdd("super sensitive", "supersensitive");
 
             correctionAdd("time sensitive", "time-sensitive");
 
@@ -67237,6 +67312,9 @@ namespace OverflowHelper.core
             correctionAdd("macro", "macro keyboard"); // No, "macro" is not "macronutrient"...
 
             // Note: "macro pad" is in an alternative word set
+            //
+            // The reference is broken now...
+            //
             correctionAdd("Macro pads", "macro pads");
             correctionAdd("Maco Pads", "macro pads");
             correctionAdd("macropads", "macro pads");
@@ -67872,6 +67950,7 @@ namespace OverflowHelper.core
             correctionAdd("rotary encoder", "rotary knob");
             correctionAdd("rotaty encoder", "rotary knob");
             correctionAdd("rotray encoder", "rotary knob");
+            correctionAdd("rotatory knob", "rotary knob");
             correctionAdd("rotary knobs", "rotary knob"); // Not 100% correct - plural.
             correctionAdd("volume knob", "rotary knob");
             correctionAdd("Media Dial", "rotary knob");
@@ -80636,48 +80715,6 @@ namespace OverflowHelper.core
 
             correctionAdd("subvarient", "subvariant");
 
-            correctionAdd("re-attract", "reattract");
-
-            correctionAdd("atturibute", "attribute");
-            correctionAdd("Attrabuite", "attribute");
-            correctionAdd("Attribuite", "attribute");
-            correctionAdd("attrabuite", "attribute");
-            correctionAdd("attribuite", "attribute");
-            correctionAdd("attribure", "attribute");
-            correctionAdd("atrribute", "attribute");
-            correctionAdd("Attrabute", "attribute");
-            correctionAdd("Attribute", "attribute");
-            correctionAdd("attrabute", "attribute");
-            correctionAdd("attritube", "attribute");
-            correctionAdd("attrubute", "attribute");
-            correctionAdd("atribute", "attribute");
-            correctionAdd("Attribut", "attribute");
-            correctionAdd("attribut", "attribute");
-            correctionAdd("attrbute", "attribute");
-            correctionAdd("attibute", "attribute");
-            correctionAdd("attr", "attribute");
-
-            correctionAdd("attibuted", "attributed");
-
-            correctionAdd("sub-attribute", "subattribute");
-
-            correctionAdd("atributtes", "attributes");
-            correctionAdd("atributes", "attributes");
-            correctionAdd("attrbutes", "attributes");
-
-            correctionAdd("attributon", "attribution");
-            correctionAdd("attibution", "attribution");
-
-            correctionAdd("attitudine", "attitude");
-            correctionAdd("atitudine", "attitude");
-            correctionAdd("attudine", "attitude");
-
-            correctionAdd("policy-based access control", "attribute-based access control");
-            correctionAdd("ABAC", "attribute-based access control");
-
-            correctionAdd("role-based security", "role-based access control");
-            correctionAdd("RBAC", "role-based access control");
-
             correctionAdd("asses", "assess");
 
             correctionAdd("assesed", "assessed");
@@ -80976,6 +81013,8 @@ namespace OverflowHelper.core
             correctionAdd("Brahms", "Johannes Brahms");
             correctionAdd("br4hms", "Johannes Brahms");
             correctionAdd("brahms", "Johannes Brahms");
+            correctionAdd("Bramhs", "Johannes Brahms");
+            correctionAdd("bramhs", "Johannes Brahms");
 
             // Music. A composer
             correctionAdd("Beethoven", "Ludwig van Beethoven");
@@ -83210,8 +83249,9 @@ namespace OverflowHelper.core
             correctionAdd("i´ll", "I’ll");
             correctionAdd("ill", "I’ll");
             correctionAdd("Ill", "I’ll");
-            correctionAdd("il", "I’ll");
             correctionAdd("I''", "I’ll");
+            correctionAdd("il", "I’ll");
+            correctionAdd("Il", "I’ll");
 
             correctionAdd("it'll", "it’ll");
             correctionAdd("it ll", "it’ll");
@@ -83429,7 +83469,6 @@ namespace OverflowHelper.core
             correctionAdd("Firmwares", "firmware");
             correctionAdd("firmeware", "firmware");
             correctionAdd("firmweare", "firmware");
-            correctionAdd("frimware", "firmware");
             correctionAdd("firmwarw", "firmware");
             correctionAdd("firnware", "firmware");
             correctionAdd("Firmware", "firmware");
@@ -83440,6 +83479,8 @@ namespace OverflowHelper.core
             correctionAdd("Firmwear", "firmware");
             correctionAdd("firmwarm", "firmware");
             correctionAdd("filmware", "firmware");
+            correctionAdd("frimware", "firmware");
+            correctionAdd("Frimware", "firmware");
             correctionAdd("firmwre", "firmware");
             correctionAdd("firmwar", "firmware");
             correctionAdd("firware", "firmware");
@@ -85289,6 +85330,7 @@ namespace OverflowHelper.core
             correctionAdd("Q60 Max", "Keychron&nbsp;Q60&nbsp;Max");
             correctionAdd("Q60_max", "Keychron&nbsp;Q60&nbsp;Max");
             correctionAdd("Q60 max", "Keychron&nbsp;Q60&nbsp;Max");
+            correctionAdd("q60 max", "Keychron&nbsp;Q60&nbsp;Max");
 
             // A 62-key (60%) crippled split ergonomic mechanical keyboard.
             // 2 x 31 = 62 keys.
@@ -91250,6 +91292,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)");
             correctionAdd("Keychron Q11 Ultra 8K (85%)", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)"); // Sort of identity mapping
+            correctionAdd("Q11&nbsp;Ultra&nbsp;8K", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)");
             correctionAdd("Keychron Q11 Ultra 8K", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)");
             correctionAdd("Q11 Ultra 8K", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)");
             correctionAdd("Q11 Ultra", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)");
@@ -96083,11 +96126,6 @@ namespace OverflowHelper.core
 
             correctionAdd("exesuberant", "exuberant");
 
-            correctionAdd("hitted", "hit");
-
-            correctionAdd("HMU", "hit me up");
-            correctionAdd("hmu", "hit me up");
-
             correctionAdd("pfps", "profile pictures");
             correctionAdd("PFPs", "profile pictures");
 
@@ -97149,8 +97187,6 @@ namespace OverflowHelper.core
             correctionAdd("incentivicing", "incentivising");
 
             correctionAdd("disincentivizing", "disincentivising");
-
-            correctionAdd("erazor", "Erazor");
 
             correctionAdd("page anchors", "page anchor");
 
@@ -101409,13 +101445,14 @@ namespace OverflowHelper.core
 
             correctionAdd("occured", "occurred");
             correctionAdd("ocurred", "occurred");
+            correctionAdd("occurer", "occurred"); // A true typo of the misspelling 'occured'...
 
-            correctionAdd("occurence", "occurrence");
-            correctionAdd("occurrance", "occurrence");
-            correctionAdd("occurance", "occurrence");
             correctionAdd("occurrrence", "occurrence");
-            correctionAdd("Occurance", "occurrence");
+            correctionAdd("occurrance", "occurrence");
             correctionAdd("occurances", "occurrence");
+            correctionAdd("occurence", "occurrence");
+            correctionAdd("occurance", "occurrence");
+            correctionAdd("Occurance", "occurrence");
             correctionAdd("Occurence", "occurrence");
 
             correctionAdd("occurences", "occurrences");
@@ -106476,8 +106513,6 @@ namespace OverflowHelper.core
 
             correctionAdd("sanatizing", "sanitizing");
 
-            correctionAdd("Enquiring", "enquiring");
-
             correctionAdd("Obligatory", "obligatory");
 
             correctionAdd("Ether", "ETH");
@@ -109351,14 +109386,6 @@ namespace OverflowHelper.core
 
             URL_Add("AOL", "https://en.wikipedia.org/wiki/AOL");
 
-            URL_Add("benefit", "https://en.wiktionary.org/wiki/benefit#Noun"); // Old: https://en.wiktionary.org/wiki/benefit
-
-            URL_Add("benefitting", "https://en.wiktionary.org/wiki/benefit#Verb");
-
-            URL_Add("benefit of the doubt", "https://en.wiktionary.org/wiki/benefit_of_the_doubt#Noun");
-
-            URL_Add("benefited", "https://en.wiktionary.org/wiki/benefit#Verb");
-
             URL_Add("TestDriven.NET", "https://www.testdriven.net/"); // Old: <http://www.testdriven.net/>
 
             URL_Add("KnockoutJS", "https://en.wikipedia.org/wiki/KnockoutJS");
@@ -110780,8 +110807,6 @@ namespace OverflowHelper.core
             URL_Add("VPC", "https://en.wikipedia.org/wiki/Virtual_private_cloud");
 
             URL_Add("accomplish", "https://en.wiktionary.org/wiki/accomplish#Verb");
-
-            URL_Add("alienation", "https://en.wiktionary.org/wiki/alienation#Noun");
 
             URL_Add("ancient", "https://en.wiktionary.org/wiki/ancient#Adjective");
 
@@ -112559,8 +112584,6 @@ namespace OverflowHelper.core
 
             URL_Add("upgrade", "https://en.wiktionary.org/wiki/upgrade#Verb");
 
-            URL_Add("alienate", "https://en.wiktionary.org/wiki/alienate#Verb");
-
             URL_Add("biggest", "https://en.wiktionary.org/wiki/biggest#Adjective");
 
             URL_Add("popular", "https://en.wiktionary.org/wiki/popular#Adjective");
@@ -114169,8 +114192,6 @@ namespace OverflowHelper.core
 
             URL_Add("decided", "https://en.wiktionary.org/wiki/decide#Verb");
 
-            URL_Add("doubtful", "https://en.wiktionary.org/wiki/doubtful#Adjective");
-
             URL_Add("facade pattern", "https://en.wikipedia.org/wiki/Facade_pattern");
 
             URL_Add("preferably", "https://en.wiktionary.org/wiki/preferably#Adverb");
@@ -115304,6 +115325,12 @@ namespace OverflowHelper.core
             URL_Add("unacceptable", "https://en.wiktionary.org/wiki/unacceptable#Adjective");
 
             URL_Add("alien", "https://en.wiktionary.org/wiki/alien#Noun");
+
+            URL_Add("aliens", "https://en.wiktionary.org/wiki/alien#Noun");
+
+            URL_Add("alienate", "https://en.wiktionary.org/wiki/alienate#Verb");
+
+            URL_Add("alienation", "https://en.wiktionary.org/wiki/alienation#Noun");
 
             URL_Add("awe-inspiring", "https://en.wiktionary.org/wiki/awe-inspiring#Adjective");
 
@@ -117454,8 +117481,6 @@ namespace OverflowHelper.core
             URL_Add("constraint programming", "https://en.wikipedia.org/wiki/Constraint_programming");
 
             URL_Add("fzf", "https://wiki.archlinux.org/title/Fzf");
-
-            URL_Add("if in doubt", "https://www.macmillandictionary.com/dictionary/british/if-when-in-doubt");
 
             URL_Add("jazz", "https://en.wikipedia.org/wiki/Jazz");
 
@@ -121823,8 +121848,6 @@ namespace OverflowHelper.core
 
             URL_Add("ImageNet", "https://en.wikipedia.org/wiki/ImageNet");
 
-            URL_Add("in doubt", "https://en.wiktionary.org/wiki/in_doubt#Adjective");
-
             URL_Add("inferencing", "https://en.wiktionary.org/wiki/inferencing#Noun");
 
             URL_Add("lowercased", "https://en.wiktionary.org/wiki/lowercase#Verb");
@@ -123520,8 +123543,6 @@ namespace OverflowHelper.core
             URL_Add("a bit", "https://en.wiktionary.org/wiki/a_bit#Adverb");
 
             URL_Add("myth", "https://en.wiktionary.org/wiki/myth#Noun");
-
-            URL_Add("hit", "https://en.wiktionary.org/wiki/hit#Verb");
 
             URL_Add("legwork", "https://en.wiktionary.org/wiki/legwork#Noun");
 
@@ -126796,8 +126817,6 @@ namespace OverflowHelper.core
             URL_Add("O-rings", "https://en.wikipedia.org/wiki/O-ring");
 
             URL_Add("embarrassingly parallel", "https://en.wikipedia.org/wiki/Embarrassingly_parallel");
-
-            URL_Add("Erazor", "https://stackoverflow.com/tags/erazor/info");
 
             URL_Add("by comparison", "https://en.wiktionary.org/wiki/by_comparison#Prepositional_phrase");
 
@@ -132621,10 +132640,6 @@ namespace OverflowHelper.core
 
             URL_Add("IETF", "https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force");
 
-            URL_Add("Razor", "https://en.wikipedia.org/wiki/ASP.NET_Razor"); // Old: https://en.wikipedia.org/wiki/Microsoft_ASP.NET_Razor_view_engine
-
-            URL_Add("Razor Pages", "https://docs.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-3.1");
-
             URL_Add("XRegExp", "https://en.wikipedia.org/wiki/Comparison_of_regular_expression_engines#Libraries");
 
             URL_Add("software development", "https://en.wikipedia.org/wiki/Software_development");
@@ -132762,8 +132777,6 @@ namespace OverflowHelper.core
             URL_Add("uncertainty", "https://en.wiktionary.org/wiki/uncertainty#Noun");
 
             URL_Add("Heisenberg's uncertainty principle", "https://en.wikipedia.org/wiki/Uncertainty_principle");
-
-            URL_Add("FUD", "https://en.wikipedia.org/wiki/Fear%2C_uncertainty%2C_and_doubt#Software_producers");
 
             URL_Add("concerted", "https://en.wiktionary.org/wiki/concert#Verb");
 
@@ -133276,6 +133289,8 @@ namespace OverflowHelper.core
             URL_Add("even though", "https://en.wiktionary.org/wiki/even_though#Conjunction");
 
             URL_Add("eventually", "https://en.wiktionary.org/wiki/eventually#Adverb");
+
+            URL_Add("eventuality", "https://en.wiktionary.org/wiki/eventuality#Noun");
 
             URL_Add("parity", "https://en.wiktionary.org/wiki/parity#Noun");
 
@@ -135348,8 +135363,6 @@ namespace OverflowHelper.core
             URL_Add("unwanted", "https://en.wiktionary.org/wiki/unwanted#Adjective");
 
             URL_Add("want to", "https://en.wiktionary.org/wiki/wanna#Contraction"); // Old: https://en.wiktionary.org/wiki/wanna#Contraction_2
-
-            URL_Add("inquiring minds want to know", "https://dictionary.cambridge.org/dictionary/english/inquiring-minds-want-to-know");
 
             URL_Add("wanton", "https://en.wiktionary.org/wiki/wanton#Noun");
 
@@ -140116,26 +140129,6 @@ namespace OverflowHelper.core
             URL_Add("midsized", "https://en.wiktionary.org/wiki/midsized#Adjective");
 
             URL_Add("tightened", "https://en.wiktionary.org/wiki/tighten#Verb");
-
-            URL_Add("repair", "https://en.wiktionary.org/wiki/repair#Verb");
-
-            URL_Add("right to repair", "https://en.wikipedia.org/wiki/Right_to_repair");
-
-            URL_Add("inspect and repair as necessary", "https://www.allacronyms.com/IRAN/Inspect_and_Repair_As_Necessary");
-
-            URL_Add("beyond economic repair", "https://en.wikipedia.org/wiki/Spare_part#Classification");
-
-            URL_Add("Boot-Repair", "https://sourceforge.net/p/boot-repair/home/Home/");
-
-            URL_Add("beyond", "https://en.wiktionary.org/wiki/beyond#Preposition");
-
-            URL_Add("beyond the pale", "https://en.wiktionary.org/wiki/beyond_the_pale#Prepositional_phrase");
-
-            URL_Add("beyond a reasonable doubt", "https://en.wiktionary.org/wiki/beyond_a_reasonable_doubt#Prepositional_phrase");
-
-            URL_Add("beyond a shadow of a doubt", "https://en.wiktionary.org/wiki/beyond_a_shadow_of_a_doubt#Prepositional_phrase");
-
-            URL_Add("Beyond Compare", "https://en.wikipedia.org/wiki/Beyond_Compare");
 
             URL_Add("necessary", "https://en.wiktionary.org/wiki/necessary#Adjective");
 
@@ -150835,6 +150828,58 @@ namespace OverflowHelper.core
 
             URL_Add("payscale", "https://en.wiktionary.org/wiki/payscale#Noun");
 
+            URL_Add("if in doubt", "https://www.macmillandictionary.com/dictionary/british/if-when-in-doubt");
+
+            URL_Add("doubtful", "https://en.wiktionary.org/wiki/doubtful#Adjective");
+
+            URL_Add("in doubt", "https://en.wiktionary.org/wiki/in_doubt#Adjective");
+
+            URL_Add("FUD", "https://en.wikipedia.org/wiki/Fear%2C_uncertainty%2C_and_doubt#Software_producers");
+
+            URL_Add("beyond a reasonable doubt", "https://en.wiktionary.org/wiki/beyond_a_reasonable_doubt#Prepositional_phrase");
+
+            URL_Add("beyond a shadow of a doubt", "https://en.wiktionary.org/wiki/beyond_a_shadow_of_a_doubt#Prepositional_phrase");
+
+            URL_Add("called into doubt", "https://en.wiktionary.org/wiki/call_into_doubt#Verb");
+
+            URL_Add("benefit of the doubt", "https://en.wiktionary.org/wiki/benefit_of_the_doubt#Noun");
+
+            URL_Add("benefit", "https://en.wiktionary.org/wiki/benefit#Noun"); // Old: https://en.wiktionary.org/wiki/benefit
+
+            URL_Add("benefitting", "https://en.wiktionary.org/wiki/benefit#Verb");
+
+            URL_Add("benefited", "https://en.wiktionary.org/wiki/benefit#Verb");
+
+            URL_Add("repair", "https://en.wiktionary.org/wiki/repair#Verb");
+
+            URL_Add("right to repair", "https://en.wikipedia.org/wiki/Right_to_repair");
+
+            URL_Add("inspect and repair as necessary", "https://www.allacronyms.com/IRAN/Inspect_and_Repair_As_Necessary");
+
+            URL_Add("beyond economic repair", "https://en.wikipedia.org/wiki/Spare_part#Classification");
+
+            URL_Add("Boot-Repair", "https://sourceforge.net/p/boot-repair/home/Home/");
+
+            URL_Add("beyond", "https://en.wiktionary.org/wiki/beyond#Preposition");
+
+            URL_Add("beyond the pale", "https://en.wiktionary.org/wiki/beyond_the_pale#Prepositional_phrase");
+
+            URL_Add("Beyond Compare", "https://en.wikipedia.org/wiki/Beyond_Compare");
+
+            URL_Add("Erazor", "https://stackoverflow.com/tags/erazor/info");
+
+            URL_Add("Razor", "https://en.wikipedia.org/wiki/ASP.NET_Razor"); // Old: https://en.wikipedia.org/wiki/Microsoft_ASP.NET_Razor_view_engine
+
+            URL_Add("Razor Pages", "https://docs.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-3.1");
+
+            URL_Add("hit", "https://en.wiktionary.org/wiki/hit#Verb");
+
+            URL_Add("hitting", "https://en.wiktionary.org/wiki/hit#Verb");
+
+            URL_Add("razor-thin", "https://en.wiktionary.org/wiki/razor-thin#Adjective");
+
+            URL_Add("supersensitive", "https://en.wiktionary.org/wiki/supersensitive#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -151206,6 +151251,36 @@ namespace OverflowHelper.core
             correctionAdd("tenth_", "one-tenth_");
 
             correctionAdd("IF_", "intermittent fasting_");
+
+            correctionAdd("specificy_", "specify_");
+            correctionAdd("specifiy_", "specify_");
+            correctionAdd("specific_", "specify_"); // Likely an autocorrect "masterpiece"
+            correctionAdd("speficy_", "specify_");
+
+            correctionAdd("specked_", "specified_");
+            correctionAdd("speced_", "specified_");
+
+            correctionAdd("out of specification_", "out-of-specification_");
+            correctionAdd("out of spec_", "out-of-specification_");
+            correctionAdd("out-of-spec_", "out-of-specification_");
+            correctionAdd("OOS_", "out-of-specification_");
+
+            correctionAdd("specification_", "axiom schema of specification_");
+
+            correctionAdd("exspects_", "expects_");
+            correctionAdd("aspects_", "expects_");
+            correctionAdd("espects_", "expects_");
+            correctionAdd("expepts_", "expects_");
+
+            correctionAdd("excpect_", "expect_");
+            correctionAdd("Exopect_", "expect_");
+            correctionAdd("exopect_", "expect_");
+            correctionAdd("exptect_", "expect_");
+            correctionAdd("Expcet_", "expect_");
+            correctionAdd("expcet_", "expect_");
+            correctionAdd("except_", "expect_");
+            correctionAdd("expept_", "expect_");
+            correctionAdd("spect_", "expect_");
 
             // Configuration software for Cooler Master keyboards.
             //
@@ -153170,6 +153245,8 @@ namespace OverflowHelper.core
             correctionAdd("dome_", "rubber dome_");
 
             // Sort of a type of mechanical keyboards
+            //
+            // The reference is broken now...
             //
             // Alternative URLs:
             //
@@ -163800,9 +163877,6 @@ namespace OverflowHelper.core
             correctionAdd("exec_", "executive_");
             correctionAdd("Exex_", "executive_");
 
-            correctionAdd("specked_", "specified_");
-            correctionAdd("speced_", "specified_");
-
             // The verb
             correctionAdd("fiind_", "find_");
             correctionAdd("fidn_", "find_");
@@ -164822,8 +164896,6 @@ namespace OverflowHelper.core
 
             correctionAdd("BASE64_", "base64_");
 
-            correctionAdd("specification_", "axiom schema of specification_");
-
             correctionAdd("ZFC_", "Zermelo–Fraenkel axioms_");
             correctionAdd("ZF_", "Zermelo–Fraenkel axioms_");
 
@@ -164953,21 +165025,6 @@ namespace OverflowHelper.core
             correctionAdd("Sonatype Nexus_", "Nexus Repository_");
             correctionAdd("Nexus_", "Nexus Repository_");
             correctionAdd("nexus_", "Nexus Repository_");
-
-            correctionAdd("exspects_", "expects_");
-            correctionAdd("aspects_", "expects_");
-            correctionAdd("espects_", "expects_");
-            correctionAdd("expepts_", "expects_");
-
-            correctionAdd("excpect_", "expect_");
-            correctionAdd("Exopect_", "expect_");
-            correctionAdd("exopect_", "expect_");
-            correctionAdd("exptect_", "expect_");
-            correctionAdd("Expcet_", "expect_");
-            correctionAdd("expcet_", "expect_");
-            correctionAdd("except_", "expect_");
-            correctionAdd("expept_", "expect_");
-            correctionAdd("spect_", "expect_");
 
             correctionAdd("hem_", "Hem_");
 
@@ -165384,6 +165441,7 @@ namespace OverflowHelper.core
             correctionAdd("thougth_", "thought_");
             correctionAdd("thaught_", "thought_");
             correctionAdd("thougt_", "thought_");
+            correctionAdd("THOUGT_", "thought_");
             correctionAdd("tought_", "thought_");
             correctionAdd("though_", "thought_");
             correctionAdd("taught_", "thought_");
@@ -165888,11 +165946,6 @@ namespace OverflowHelper.core
             correctionAdd("pm_", "project management_");
             correctionAdd("PM_", "project management_"); // PM is an overloaded term...
 
-            correctionAdd("specificy_", "specify_");
-            correctionAdd("specifiy_", "specify_");
-            correctionAdd("specific_", "specify_"); // Likely an autocorrect "masterpiece"
-            correctionAdd("speficy_", "specify_");
-
             correctionAdd("identificators_", "identification_");
             correctionAdd("Identification_", "identification_");
             correctionAdd("identificator_", "identification_");
@@ -166279,9 +166332,10 @@ namespace OverflowHelper.core
             correctionAdd("gnus_", "guns_");
             correctionAdd("g*ns_", "guns_");
 
-            correctionAdd("ali-express_", "AliExpress_");
             correctionAdd("ali express_", "AliExpress_");
             correctionAdd("Ali express_", "AliExpress_");
+            correctionAdd("ali-express_", "AliExpress_");
+            correctionAdd("Ali-Express_", "AliExpress_");
             correctionAdd("aliexpress_", "AliExpress_");
             correctionAdd("Aliexpress_", "AliExpress_");
             correctionAdd("ali expres_", "AliExpress_");
@@ -167176,6 +167230,12 @@ namespace OverflowHelper.core
 
             correctionAdd("optital_", "optical_");
 
+            correctionAdd("enquiring minds want to know_", "inquiring minds want to know_");
+            correctionAdd("Enquiring minds want to know_", "inquiring minds want to know_");
+            correctionAdd("Inquiring minds want to know_", "inquiring minds want to know_");
+            correctionAdd("enquiring_", "inquiring minds want to know_");
+            correctionAdd("inquiring_", "inquiring minds want to know_");
+
             // C. A book
             //
             // Authors: Brian Kernighan and Dennis Ritchie
@@ -167272,8 +167332,6 @@ namespace OverflowHelper.core
 
             URL_Add("NB_", "https://en.wiktionary.org/wiki/NB#Phrase");
 
-            URL_Add("Chinese postman problem_", "https://en.wikipedia.org/wiki/Route_inspection_problem");
-
             URL_Add("Juno_", "https://en.wikipedia.org/wiki/3_Juno");
 
             URL_Add("pigeon_", "https://en.wiktionary.org/wiki/pigeon#Noun");
@@ -167303,8 +167361,6 @@ namespace OverflowHelper.core
             URL_Add("unused_", "https://en.wiktionary.org/wiki/unused#Adjective");
 
             URL_Add("executive_", "https://en.wiktionary.org/wiki/executive#Noun");
-
-            URL_Add("specified_", "https://en.wiktionary.org/wiki/specify#Verb");
 
             URL_Add("out_", "https://en.wiktionary.org/wiki/out#Adverb");
 
@@ -168250,8 +168306,6 @@ namespace OverflowHelper.core
 
             URL_Add("Group Policy_", "https://en.wikipedia.org/wiki/Group_Policy");
 
-            URL_Add("specify_", "https://en.wiktionary.org/wiki/specify#Verb");
-
             URL_Add("group buys_", "https://en.wikipedia.org/wiki/Group_buying#Business_model");
 
             URL_Add("combo keys_", "https://docs.qmk.fm/features/combo");
@@ -168634,8 +168688,6 @@ namespace OverflowHelper.core
 
             URL_Add("troubleshoot_", "https://en.wiktionary.org/wiki/troubleshoot#Verb");
 
-            URL_Add("respectively_", "https://en.wiktionary.org/wiki/respectively#Adverb");
-
             URL_Add("changed_", "https://en.wiktionary.org/wiki/change#Verb");
 
             URL_Add("college_", "https://en.wiktionary.org/wiki/college#Noun");
@@ -168961,8 +169013,6 @@ namespace OverflowHelper.core
             URL_Add("idle_", "https://en.wiktionary.org/wiki/idle#Adjective");
 
             URL_Add("Yogi Berra_", "https://en.wikipedia.org/wiki/Yogi_Berra");
-
-            URL_Add("Never attribute to malice that which is adequately explained by stupidity._", "https://en.wikipedia.org/wiki/Hanlon%27s_razor");
 
             URL_Add("initialisation_", "https://en.wiktionary.org/wiki/initialisation#Noun");
 
@@ -169318,10 +169368,6 @@ namespace OverflowHelper.core
 
             URL_Add("server-sent events_", "https://en.wikipedia.org/wiki/Server-sent_events");
 
-            URL_Add("doubt_", "https://en.wiktionary.org/wiki/doubt#Verb");
-
-            URL_Add("doubts_", "https://en.wiktionary.org/wiki/doubt#Noun");
-
             URL_Add("Preseed_", "https://en.wikipedia.org/wiki/Preseed");
 
             URL_Add("MIT_", "https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology");
@@ -169409,8 +169455,6 @@ namespace OverflowHelper.core
             URL_Add("activated_", "https://en.wiktionary.org/wiki/activate#Verb");
 
             URL_Add("yet_", "https://en.wiktionary.org/wiki/yet#Conjunction");
-
-            URL_Add("Perspective-n-Point_", "https://en.wikipedia.org/wiki/Perspective-n-Point");
 
             URL_Add("bullseye_", "https://en.wiktionary.org/wiki/bullseye#Noun");
 
@@ -169602,8 +169646,6 @@ namespace OverflowHelper.core
 
             URL_Add("extent_", "https://en.wiktionary.org/wiki/to_some_extent#Prepositional_phrase");
 
-            URL_Add("axiom schema of specification_", "https://en.wikipedia.org/wiki/Axiom_schema_of_specification");
-
             URL_Add("Zermelo–Fraenkel axioms_", "https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory");
 
             URL_Add("veteran_", "https://en.wiktionary.org/wiki/veteran#Noun");
@@ -169633,8 +169675,6 @@ namespace OverflowHelper.core
             URL_Add("key chatter_", "https://deskthority.net/wiki/Chatter");
 
             URL_Add("representative_", "https://en.wiktionary.org/wiki/rep#Noun");
-
-            URL_Add("ods_", "https://en.wikipedia.org/wiki/OpenDocument_technical_specification#Document_representation");
 
             URL_Add("scratch_", "https://en.wiktionary.org/wiki/scratch#Verb");
 
@@ -170432,14 +170472,6 @@ namespace OverflowHelper.core
 
             URL_Add("corporate social responsibility_", "https://en.wikipedia.org/wiki/Corporate_social_responsibility");
 
-            URL_Add("infection fatality rate_", "https://en.wikipedia.org/wiki/Case_fatality_rate#Infection_fatality_rate");
-
-            URL_Add("true negative_", "https://en.wikipedia.org/wiki/True_negative");
-
-            URL_Add("crate_", "https://doc.rust-lang.org/book/ch01-03-hello-cargo.html");
-
-            URL_Add("true positive rate_", "https://en.wikipedia.org/wiki/Sensitivity_and_specificity");
-
             URL_Add("Bitvise client_", "https://www.bitvise.com/ssh-client");
 
             URL_Add("BitTorrent_", "https://en.wikipedia.org/wiki/BitTorrent");
@@ -170557,12 +170589,6 @@ namespace OverflowHelper.core
             URL_Add("sprintf()_", "https://en.cppreference.com/w/cpp/io/c/fprintf");
 
             URL_Add("pts_", "https://en.wiktionary.org/wiki/pts#Noun");
-
-            URL_Add("defines_", "https://en.wiktionary.org/wiki/define#Verb");
-
-            URL_Add("definition_", "https://en.wiktionary.org/wiki/definition#Noun"); // Old: https://en.wiktionary.org/wiki/definition
-
-            URL_Add("Definition of Done_", "https://en.wikipedia.org/wiki/Scrum_(software_development)#Sprint_retrospective");
 
             URL_Add("subcontracted_", "https://en.wiktionary.org/wiki/subcontract#Verb");
 
@@ -171867,6 +171893,44 @@ namespace OverflowHelper.core
             URL_Add("intermittent fasting_", "https://en.wikipedia.org/wiki/Intermittent_fasting");
 
             URL_Add("optical_", "https://en.wiktionary.org/wiki/optical#Adjective");
+
+            URL_Add("inquiring minds want to know_", "https://dictionary.cambridge.org/dictionary/english/inquiring-minds-want-to-know");
+
+            URL_Add("doubt_", "https://en.wiktionary.org/wiki/doubt#Verb");
+
+            URL_Add("doubts_", "https://en.wiktionary.org/wiki/doubt#Noun");
+
+            URL_Add("Never attribute to malice that which is adequately explained by stupidity._", "https://en.wikipedia.org/wiki/Hanlon%27s_razor");
+
+            URL_Add("Perspective-n-Point_", "https://en.wikipedia.org/wiki/Perspective-n-Point");
+
+            URL_Add("respectively_", "https://en.wiktionary.org/wiki/respectively#Adverb");
+
+            URL_Add("specify_", "https://en.wiktionary.org/wiki/specify#Verb");
+
+            URL_Add("specified_", "https://en.wiktionary.org/wiki/specify#Verb");
+
+            URL_Add("out-of-specification_", "https://specsdata.com/out-of-spec/");
+
+            URL_Add("axiom schema of specification_", "https://en.wikipedia.org/wiki/Axiom_schema_of_specification");
+
+            URL_Add("Chinese postman problem_", "https://en.wikipedia.org/wiki/Route_inspection_problem");
+
+            URL_Add("ods_", "https://en.wikipedia.org/wiki/OpenDocument_technical_specification#Document_representation");
+
+            URL_Add("Definition of Done_", "https://en.wikipedia.org/wiki/Scrum_(software_development)#Sprint_retrospective");
+
+            URL_Add("defines_", "https://en.wiktionary.org/wiki/define#Verb");
+
+            URL_Add("definition_", "https://en.wiktionary.org/wiki/definition#Noun"); // Old: https://en.wiktionary.org/wiki/definition
+
+            URL_Add("infection fatality rate_", "https://en.wikipedia.org/wiki/Case_fatality_rate#Infection_fatality_rate");
+
+            URL_Add("true negative_", "https://en.wikipedia.org/wiki/True_negative");
+
+            URL_Add("true positive rate_", "https://en.wikipedia.org/wiki/Sensitivity_and_specificity");
+
+            URL_Add("crate_", "https://doc.rust-lang.org/book/ch01-03-hello-cargo.html");
 
         } //addLookupData_alternativeWordSet()
 
@@ -174247,19 +174311,20 @@ namespace OverflowHelper.core
             correctionAdd("fu***ing__", "fucking__");
             correctionAdd("fecking__", "fucking__");
             correctionAdd("fscking__", "fucking__");
-            correctionAdd("f*cking__", "fucking__");
-            correctionAdd("hecking__", "fucking__");
-            correctionAdd("freakin__", "fucking__");
-            correctionAdd("frikkin__", "fucking__");
-            correctionAdd("fu**ing__", "fucking__");
-            correctionAdd("friggin__", "fucking__");
-            correctionAdd("forking__", "fucking__");
-            correctionAdd("F***ING__", "fucking__");
-            correctionAdd("f***ing__", "fucking__");
             correctionAdd("F*****G__", "fucking__");
             correctionAdd("f*****g__", "fucking__");
+            correctionAdd("F***ING__", "fucking__");
+            correctionAdd("f***ing__", "fucking__");
+            correctionAdd("fu**ing__", "fucking__");
             correctionAdd("F**KING__", "fucking__");
             correctionAdd("f**king__", "fucking__");
+            correctionAdd("f*cking__", "fucking__");
+            correctionAdd("F*cking__", "fucking__");
+            correctionAdd("freakin__", "fucking__");
+            correctionAdd("frikkin__", "fucking__");
+            correctionAdd("friggin__", "fucking__");
+            correctionAdd("forking__", "fucking__");
+            correctionAdd("hecking__", "fucking__");
             correctionAdd("F*KiNG__", "fucking__");
             correctionAdd("f*king__", "fucking__");
             correctionAdd("effing__", "fucking__");
@@ -177201,8 +177266,6 @@ namespace OverflowHelper.core
 
             URL_Add("Elm__", "https://en.wikipedia.org/wiki/Elm_(programming_language)");
 
-            URL_Add("doubt__", "https://en.wiktionary.org/wiki/doubt#Noun");
-
             URL_Add("treat__", "https://en.wiktionary.org/wiki/treat#Verb");
 
             URL_Add("update__", "https://en.wiktionary.org/wiki/update#Noun");
@@ -178164,6 +178227,8 @@ namespace OverflowHelper.core
             URL_Add("window__", "https://en.wiktionary.org/wiki/window#Noun");
 
             URL_Add("Windows Phone__", "https://en.wikipedia.org/wiki/Windows_Phone");
+
+            URL_Add("doubt__", "https://en.wiktionary.org/wiki/doubt#Noun");
 
         } //addLookupData_alternativeWordSet2()
 
@@ -180882,8 +180947,6 @@ namespace OverflowHelper.core
 
             URL_Add("comma-separated values___", "https://en.wikipedia.org/wiki/Comma-separated_values");
 
-            URL_Add("Occam's razor___", "https://en.wikipedia.org/wiki/Occam's_razor");
-
             URL_Add("tops___", "https://en.wiktionary.org/wiki/tops#Adverb");
 
             URL_Add("Microsoft___", "https://en.wikipedia.org/wiki/Microsoft");
@@ -180955,8 +181018,6 @@ namespace OverflowHelper.core
             URL_Add("sole___", "https://en.wiktionary.org/wiki/sole#Adjective");
 
             URL_Add("cyclic prefix___", "https://en.wikipedia.org/wiki/Cyclic_prefix");
-
-            URL_Add("question (Indian English)___", "https://english.stackexchange.com/questions/2429/can-doubt-sometimes-mean-question");
 
             URL_Add("Carbon___", "https://carbon.nesbot.com/docs/"); // Associated with chemical element 6
 
@@ -181357,6 +181418,10 @@ namespace OverflowHelper.core
             URL_Add("Dead Space___", "https://en.wikipedia.org/wiki/Dead_Space#Main_series");
 
             URL_Add("Assassin's Creed___", "https://en.wikipedia.org/wiki/Dead_Space#Main_series");
+
+            URL_Add("question (Indian English)___", "https://english.stackexchange.com/questions/2429/can-doubt-sometimes-mean-question");
+
+            URL_Add("Occam's razor___", "https://en.wikipedia.org/wiki/Occam's_razor");
 
         } //addLookupData_alternativeWordSet3()
 
