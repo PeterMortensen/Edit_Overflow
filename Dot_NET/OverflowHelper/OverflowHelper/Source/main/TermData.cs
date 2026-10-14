@@ -11706,6 +11706,75 @@ namespace OverflowHelper.core
 
             correctionAdd("unappropriately", "inappropriately");
 
+            correctionAdd("hon", "honey");
+
+            correctionAdd("Honeypot", "honeypot");
+
+            correctionAdd("Honor", "honor");
+
+            correctionAdd("honoring", "honouring");
+
+            correctionAdd("Honourable", "honourable");
+            correctionAdd("honorable", "honourable");
+
+            correctionAdd("honest-to-god", "honest-to-God");
+
+            correctionAdd("honest to goodness", "honest-to-goodness");
+
+            correctionAdd("honsestly", "honestly");
+            correctionAdd("Honsestly", "honestly");
+            correctionAdd("Hohnestly", "honestly");
+            correctionAdd("hohnestly", "honestly");
+            correctionAdd("honsetly", "honestly");
+            correctionAdd("honetly", "honestly");
+            correctionAdd("onestly", "honestly");
+            correctionAdd("honstly", "honestly");
+
+            correctionAdd("dihonest", "dishonest");
+
+            // Idiomatic
+            correctionAdd("in alm honesty", "in all honesty");
+            correctionAdd("In alm honesty", "in all honesty");
+
+            // Internet slang (for the abbr.)
+            correctionAdd("TBH", "to be honest");
+            correctionAdd("tbh", "to be honest");
+            correctionAdd("Tbh", "to be honest");
+
+            correctionAdd("honest opinion", "in my honest opinion");
+            correctionAdd("my HO", "in my honest opinion");
+            correctionAdd("HO", "in my honest opinion");
+
+            correctionAdd("In my humble opinion", "in my humble opinion");
+            correctionAdd("imho", "in my humble opinion");
+            correctionAdd("Imho", "in my humble opinion");
+            correctionAdd("IHMO", "in my humble opinion");
+            correctionAdd("IMHO", "in my humble opinion");
+
+            // Internet slang (for the abbr.)
+            correctionAdd("tbch", "to be completely honest");
+
+            correctionAdd("Oppinionated", "opinionated");
+            correctionAdd("oppinionated", "opinionated");
+            correctionAdd("Opinionated", "opinionated");
+            correctionAdd("opinonated", "opinionated");
+            correctionAdd("opiniated", "opinionated");
+
+            correctionAdd("oppinnion", "opinion");
+            correctionAdd("opionion", "opinion");
+            correctionAdd("opinnion", "opinion");
+            correctionAdd("oppinion", "opinion");
+            correctionAdd("opionon", "opinion");
+            correctionAdd("opinon", "opinion");
+            correctionAdd("opion", "opinion");
+
+            correctionAdd("in my not-so-humble opinion", "In my not-so-humble opinion");
+            correctionAdd("IMNSHO", "In my not-so-humble opinion");
+
+            correctionAdd("in my opinion", "IMO");
+            correctionAdd("imo", "IMO");
+            correctionAdd("Imo", "IMO");
+
             correctionAdd("anyhoo", "anyhow");
             correctionAdd("Anyhoo", "anyhow");
             correctionAdd("Anyhow", "anyhow");
@@ -15913,13 +15982,6 @@ namespace OverflowHelper.core
             correctionAdd("hons", "honours degree");
 
             correctionAdd("postgrad", "postgraduate degree");
-
-            correctionAdd("Honor", "honor");
-
-            correctionAdd("honoring", "honouring");
-
-            correctionAdd("Honourable", "honourable");
-            correctionAdd("honorable", "honourable");
 
             correctionAdd("Ph.D", "Ph.D.");
             correctionAdd("phd", "Ph.D.");
@@ -21908,6 +21970,8 @@ namespace OverflowHelper.core
             correctionAdd("SMBH", "supermassive black hole");
 
             correctionAdd("worm-hole", "wormhole");
+            correctionAdd("Worm hole", "wormhole");
+            correctionAdd("worm hole", "wormhole");
 
             // Astronomy. Black hole
             correctionAdd("Event Horizon", "event horizon");
@@ -36680,64 +36744,6 @@ namespace OverflowHelper.core
             correctionAdd("etiquitte", "etiquette");
             correctionAdd("ettiquite", "etiquette");
             correctionAdd("etiquite", "etiquette");
-
-            correctionAdd("honest-to-god", "honest-to-God");
-
-            correctionAdd("honest to goodness", "honest-to-goodness");
-
-            correctionAdd("honsestly", "honestly");
-            correctionAdd("Honsestly", "honestly");
-            correctionAdd("Hohnestly", "honestly");
-            correctionAdd("hohnestly", "honestly");
-            correctionAdd("honsetly", "honestly");
-            correctionAdd("honetly", "honestly");
-            correctionAdd("onestly", "honestly");
-            correctionAdd("honstly", "honestly");
-
-            correctionAdd("dihonest", "dishonest");
-
-            // Idiomatic
-            correctionAdd("in alm honesty", "in all honesty");
-            correctionAdd("In alm honesty", "in all honesty");
-
-            // Internet slang (for the abbr.)
-            correctionAdd("TBH", "to be honest");
-            correctionAdd("tbh", "to be honest");
-            correctionAdd("Tbh", "to be honest");
-
-            correctionAdd("honest opinion", "in my honest opinion");
-            correctionAdd("my HO", "in my honest opinion");
-            correctionAdd("HO", "in my honest opinion");
-
-            correctionAdd("In my humble opinion", "in my humble opinion");
-            correctionAdd("imho", "in my humble opinion");
-            correctionAdd("Imho", "in my humble opinion");
-            correctionAdd("IHMO", "in my humble opinion");
-            correctionAdd("IMHO", "in my humble opinion");
-
-            // Internet slang (for the abbr.)
-            correctionAdd("tbch", "to be completely honest");
-
-            correctionAdd("Oppinionated", "opinionated");
-            correctionAdd("oppinionated", "opinionated");
-            correctionAdd("Opinionated", "opinionated");
-            correctionAdd("opinonated", "opinionated");
-            correctionAdd("opiniated", "opinionated");
-
-            correctionAdd("oppinnion", "opinion");
-            correctionAdd("opionion", "opinion");
-            correctionAdd("opinnion", "opinion");
-            correctionAdd("oppinion", "opinion");
-            correctionAdd("opionon", "opinion");
-            correctionAdd("opinon", "opinion");
-            correctionAdd("opion", "opinion");
-
-            correctionAdd("in my not-so-humble opinion", "In my not-so-humble opinion");
-            correctionAdd("IMNSHO", "In my not-so-humble opinion");
-
-            correctionAdd("in my opinion", "IMO");
-            correctionAdd("imo", "IMO");
-            correctionAdd("Imo", "IMO");
 
             correctionAdd("requries", "require"); // Not 100% correct, third-person singular
             correctionAdd("requiere", "require");
@@ -53921,8 +53927,6 @@ namespace OverflowHelper.core
             correctionAdd("supply level attack", "supply chain attack");
             correctionAdd("Supply chain attack", "supply chain attack");
             correctionAdd("supply chain", "supply chain attack");
-
-            correctionAdd("Honeypot", "honeypot");
 
             correctionAdd("brute-forced", "brute forced");
 
@@ -74943,6 +74947,7 @@ namespace OverflowHelper.core
             // Internet slang
             correctionAdd("BRB", "be right back");
             correctionAdd("brb", "be right back");
+            correctionAdd("Brb", "be right back");
 
             // The verb (or rather, a verb)
             correctionAdd("Bere", "bear");
@@ -77769,6 +77774,7 @@ namespace OverflowHelper.core
             correctionAdd("Zephir", "Zephyr");
             correctionAdd("zephir", "Zephyr");
             correctionAdd("Zypher", "Zephyr");
+            correctionAdd("Zyphyr", "Zephyr");
 
             // A command line build tool used with Zephyr
             //
@@ -81018,7 +81024,7 @@ namespace OverflowHelper.core
             correctionAdd("Brahms", "Johannes Brahms");
             correctionAdd("br4hms", "Johannes Brahms");
             correctionAdd("brahms", "Johannes Brahms");
-            correctionAdd("Bramhs", "Johannes Brahms");
+            correctionAdd("Bramhs", "Johannes Brahms"); // A true typo
             correctionAdd("bramhs", "Johannes Brahms");
 
             // Music. A composer
@@ -85174,6 +85180,7 @@ namespace OverflowHelper.core
             correctionAdd("Dactyl manuform", "Dactyl ManuForm");
             correctionAdd("Dactyl-Manuform", "Dactyl ManuForm");
             correctionAdd("ManuForm", "Dactyl ManuForm");
+            correctionAdd("manuform", "Dactyl ManuForm");
 
             // A 60-key (55%) crippled open source split ergonomic
             // mechanical keyboard from OSHWLab (Open Source Hardware Lab).
@@ -87727,6 +87734,8 @@ namespace OverflowHelper.core
             correctionAdd("Keychron Q1 HE 8K (80%)", "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
             correctionAdd("Q1&nbsp;HE&nbsp;8K", "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
             correctionAdd("Keychron Q1 HE 8K", "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q1 Ultra 8K HE", "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q1 Ultra 8k HE", "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
             correctionAdd("Q1 HE 8K", "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
             correctionAdd("Q1 HE 8k", "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
 
@@ -112219,8 +112228,6 @@ namespace OverflowHelper.core
 
             URL_Add("Swoole", "https://www.swoole.co.uk/docs/");
 
-            URL_Add("honeypot", "https://en.wikipedia.org/wiki/Honeypot_(computing)");
-
             URL_Add("also", "https://en.wiktionary.org/wiki/also#Adverb");
 
             URL_Add("convert", "https://en.wiktionary.org/wiki/convert#Verb");
@@ -112370,8 +112377,6 @@ namespace OverflowHelper.core
             URL_Add("entirety", "https://en.wiktionary.org/wiki/entirety#Noun");
 
             URL_Add("mechanism", "https://en.wiktionary.org/wiki/mechanism#Noun");
-
-            URL_Add("to be honest", "https://en.wiktionary.org/wiki/TBH#Phrase");
 
             URL_Add("ultrasmall", "https://en.wiktionary.org/wiki/ultrasmall#Adjective");
 
@@ -118837,8 +118842,6 @@ namespace OverflowHelper.core
 
             URL_Add("establishing", "https://en.wiktionary.org/wiki/establish#Verb");
 
-            URL_Add("in my honest opinion", "https://en.wiktionary.org/wiki/HO#Noun");
-
             URL_Add("lots of", "https://en.wiktionary.org/wiki/lotsa#Adjective");
 
             URL_Add("sport utility vehicle", "https://en.wikipedia.org/wiki/Sport_utility_vehicle");
@@ -119707,8 +119710,6 @@ namespace OverflowHelper.core
 
             URL_Add("hoping", "https://en.wiktionary.org/wiki/hope#Verb");
 
-            URL_Add("honestly", "https://en.wiktionary.org/wiki/honestly#Adverb");
-
             URL_Add("inconsistent", "https://en.wiktionary.org/wiki/inconsistent#Adjective");
 
             URL_Add("semantics", "https://en.wiktionary.org/wiki/semantics#Noun");
@@ -120502,8 +120503,6 @@ namespace OverflowHelper.core
             URL_Add("DECtape", "https://en.wikipedia.org/wiki/DECtape");
 
             URL_Add("employees", "https://en.wiktionary.org/wiki/employee#Noun");
-
-            URL_Add("honor", "https://en.wiktionary.org/wiki/honor#Noun");
 
             URL_Add("lying", "https://en.wiktionary.org/wiki/lie#Verb_2");
 
@@ -124611,8 +124610,6 @@ namespace OverflowHelper.core
 
             URL_Add("nonexplicit", "https://en.wiktionary.org/wiki/nonexplicit#Adjective");
 
-            URL_Add("dishonest", "https://en.wiktionary.org/wiki/dishonest#Adjective");
-
             URL_Add("Aula F75", "https://www.youtube.com/watch?v=zpS9e5FGjPE");
 
             URL_Add("garbled", "https://en.wiktionary.org/wiki/garble#Verb");
@@ -126061,8 +126058,6 @@ namespace OverflowHelper.core
 
             URL_Add("in turn", "https://en.wiktionary.org/wiki/in_turn#Prepositional_phrase");
 
-            URL_Add("in my humble opinion", "https://en.wiktionary.org/wiki/in_my_humble_opinion#Prepositional_phrase");
-
             URL_Add("no matter", "https://en.wiktionary.org/wiki/no_matter#Preposition");
 
             URL_Add("in any way, shape, or form", "https://en.wiktionary.org/wiki/in_any_way,_shape,_or_form#Prepositional_phrase");
@@ -126152,8 +126147,6 @@ namespace OverflowHelper.core
             URL_Add("superpositions", "https://en.wiktionary.org/wiki/superposition#Noun");
 
             URL_Add("to no avail", "https://en.wiktionary.org/wiki/to_no_avail#Prepositional_phrase");
-
-            URL_Add("in all honesty", "https://en.wiktionary.org/wiki/in_all_honesty#Prepositional_phrase");
 
             URL_Add("out of stock", "https://en.wiktionary.org/wiki/out_of_stock#Prepositional_phrase");
 
@@ -135501,50 +135494,6 @@ namespace OverflowHelper.core
 
             URL_Add("dumpster fires", "https://en.wiktionary.org/wiki/dumpster_fire#Noun");
 
-            URL_Add("complete", "https://en.wiktionary.org/wiki/complete#Adjective");
-
-            URL_Add("completes", "https://en.wiktionary.org/wiki/complete#Verb");
-
-            URL_Add("completely", "https://en.wiktionary.org/wiki/completely#Adverb");
-
-            URL_Add("completed", "https://en.wiktionary.org/wiki/complete#Verb");
-
-            URL_Add("completion", "https://en.wiktionary.org/wiki/completion#Noun");
-
-            URL_Add("completeness", "https://en.wiktionary.org/wiki/completeness#Noun");
-
-            URL_Add("completionist", "https://en.wiktionary.org/wiki/completionist#Noun");
-
-            URL_Add("incomplete", "https://en.wiktionary.org/wiki/incomplete#Adjective");
-
-            URL_Add("complete binary tree", "https://en.wikipedia.org/wiki/Binary_tree#Types_of_binary_trees");
-
-            URL_Add("completely new game", "https://www.reddit.com/r/chess/comments/gos6xx/agadmator_as_of_x_move_this_is_a_completely_new/");
-
-            URL_Add("autocomplete", "https://en.wiktionary.org/wiki/autocomplete#Verb");
-
-            URL_Add("autocompleting", "https://en.wiktionary.org/wiki/autocomplete#Verb");
-
-            URL_Add("autocompletion", "https://en.wiktionary.org/wiki/autocompletion#Noun");
-
-            URL_Add("code completion", "https://en.wikipedia.org/wiki/Autocomplete#In_source_code_editors");
-
-            URL_Add("complete and utter", "https://www.merriam-webster.com/dictionary/complete%20and%20utter");
-
-            URL_Add("for the sake of completeness", "https://dictionary.cambridge.org/dictionary/english/completeness");
-
-            URL_Add("to be completely honest", "https://en.wiktionary.org/wiki/tbch#Phrase");
-
-            URL_Add("incomplete LU factorization", "https://en.wikipedia.org/wiki/Incomplete_LU_factorization");
-
-            URL_Add("Turing complete", "https://en.wikipedia.org/wiki/Turing_completeness");
-
-            URL_Add("YouCompleteMe", "https://github.com/ycm-core/YouCompleteMe");
-
-            URL_Add("Code Complete", "https://en.wikipedia.org/wiki/Code_Complete");
-
-            URL_Add("The Pragmatic Programmer", "https://en.wikipedia.org/wiki/The_Pragmatic_Programmer");
-
             URL_Add("PyRFC", "https://sap.github.io/PyRFC/");
 
             URL_Add("as little as possible", "https://ell.stackexchange.com/questions/40932/as-little-as-possible-vs-as-least-as-possible/40934#40934");
@@ -140205,10 +140154,6 @@ namespace OverflowHelper.core
 
             URL_Add("Bronze Age", "https://en.wikipedia.org/wiki/Bronze_Age");
 
-            URL_Add("honouring", "https://en.wiktionary.org/wiki/honour#Verb");
-
-            URL_Add("honourable", "https://en.wiktionary.org/wiki/honourable#Adjective");
-
             URL_Add("awake", "https://en.wiktionary.org/wiki/awake#Adjective");
 
             URL_Add("digging", "https://en.wiktionary.org/wiki/dig#Verb");
@@ -143963,8 +143908,6 @@ namespace OverflowHelper.core
 
             URL_Add(".NET native exports", "https://github.com/AaronRobinsonMSFT/DNNE");
 
-            URL_Add("Bazecor", "https://www.reddit.com/r/DygmaLab/comments/15hzxj4/important_download_bazecor_132/");
-
             URL_Add("GraphQL", "https://en.wikipedia.org/wiki/GraphQL");
 
             URL_Add("Apollo Server", "https://stackoverflow.com/tags/apollo-server/info");
@@ -145778,40 +145721,6 @@ namespace OverflowHelper.core
             URL_Add("Manjaro", "https://en.wikipedia.org/wiki/Manjaro");
 
             URL_Add("As-salamu alaykum", "https://en.wikipedia.org/wiki/As-salamu_alaykum");
-
-            URL_Add("godlike", "https://en.wiktionary.org/wiki/godlike#Adjective");
-
-            URL_Add("God knows", "https://en.wiktionary.org/wiki/God_knows#Phrase");
-
-            URL_Add("God only knows", "https://en.wiktionary.org/wiki/God_only_knows#Phrase");
-
-            URL_Add("honest-to-God", "https://en.wiktionary.org/wiki/honest-to-God#Adjective");
-
-            URL_Add("for the love of God", "https://en.wiktionary.org/wiki/for_the_love_of_God#Prepositional_phrase");
-
-            URL_Add("god object", "https://en.wikipedia.org/wiki/God_object");
-
-            URL_Add("I swear to God", "https://en.wiktionary.org/wiki/swear_to_God#Verb");
-
-            URL_Add("goddamn", "https://en.wiktionary.org/wiki/goddamn#Adjective");
-
-            URL_Add("damn", "https://en.wiktionary.org/wiki/damn#Adjective");
-
-            URL_Add("damned", "https://en.wiktionary.org/wiki/damned#Adjective");
-
-            URL_Add("damn it", "https://en.wiktionary.org/wiki/damn_it#Interjection");
-
-            URL_Add("give a damn", "https://en.wiktionary.org/wiki/give_a_damn#Verb");
-
-            URL_Add("space-related", "https://en.wikipedia.org/wiki/List_of_spaceflight-related_accidents_and_incidents");
-
-            URL_Add("GoDaddy", "https://en.wikipedia.org/wiki/GoDaddy");
-
-            URL_Add("Godot", "https://en.wikipedia.org/wiki/Godot_(game_engine)");
-
-            URL_Add("Goddard Space Flight Center", "https://en.wikipedia.org/wiki/Goddard_Space_Flight_Center");
-
-            URL_Add("Godwin's law", "https://en.wikipedia.org/wiki/Godwin's_law");
 
             URL_Add("Sugru", "https://en.wikipedia.org/wiki/Sugru");
 
@@ -150323,6 +150232,8 @@ namespace OverflowHelper.core
 
             URL_Add("Dygma Lab", "https://www.theverge.com/22951481/dygma-raise-review-ergonomic-keyboard-review");
 
+            URL_Add("Bazecor", "https://www.reddit.com/r/DygmaLab/comments/15hzxj4/important_download_bazecor_132/");
+
             URL_Add("Hasu controller", "https://deskthority.net/viewtopic.php?t=13976");
 
             URL_Add("OwLab Spring", "https://www.reddit.com/r/MechanicalKeyboards/comments/156jyqi/owlab_spring/");
@@ -150886,6 +150797,106 @@ namespace OverflowHelper.core
             URL_Add("razor-thin", "https://en.wiktionary.org/wiki/razor-thin#Adjective");
 
             URL_Add("supersensitive", "https://en.wiktionary.org/wiki/supersensitive#Adjective");
+
+            URL_Add("honey", "https://en.wiktionary.org/wiki/honey#Noun");
+
+            URL_Add("honeypot", "https://en.wikipedia.org/wiki/Honeypot_(computing)");
+
+            URL_Add("honor", "https://en.wiktionary.org/wiki/honor#Noun");
+
+            URL_Add("honouring", "https://en.wiktionary.org/wiki/honour#Verb");
+
+            URL_Add("honourable", "https://en.wiktionary.org/wiki/honourable#Adjective");
+
+            URL_Add("honestly", "https://en.wiktionary.org/wiki/honestly#Adverb");
+
+            URL_Add("dishonest", "https://en.wiktionary.org/wiki/dishonest#Adjective");
+
+            URL_Add("in all honesty", "https://en.wiktionary.org/wiki/in_all_honesty#Prepositional_phrase");
+
+            URL_Add("to be honest", "https://en.wiktionary.org/wiki/TBH#Phrase");
+
+            URL_Add("in my honest opinion", "https://en.wiktionary.org/wiki/HO#Noun");
+
+            URL_Add("in my humble opinion", "https://en.wiktionary.org/wiki/in_my_humble_opinion#Prepositional_phrase");
+
+            URL_Add("to be completely honest", "https://en.wiktionary.org/wiki/tbch#Phrase");
+
+            URL_Add("honest-to-God", "https://en.wiktionary.org/wiki/honest-to-God#Adjective");
+
+            URL_Add("complete", "https://en.wiktionary.org/wiki/complete#Adjective");
+
+            URL_Add("completes", "https://en.wiktionary.org/wiki/complete#Verb");
+
+            URL_Add("completely", "https://en.wiktionary.org/wiki/completely#Adverb");
+
+            URL_Add("completed", "https://en.wiktionary.org/wiki/complete#Verb");
+
+            URL_Add("completion", "https://en.wiktionary.org/wiki/completion#Noun");
+
+            URL_Add("completeness", "https://en.wiktionary.org/wiki/completeness#Noun");
+
+            URL_Add("completionist", "https://en.wiktionary.org/wiki/completionist#Noun");
+
+            URL_Add("incomplete", "https://en.wiktionary.org/wiki/incomplete#Adjective");
+
+            URL_Add("complete binary tree", "https://en.wikipedia.org/wiki/Binary_tree#Types_of_binary_trees");
+
+            URL_Add("completely new game", "https://www.reddit.com/r/chess/comments/gos6xx/agadmator_as_of_x_move_this_is_a_completely_new/");
+
+            URL_Add("autocomplete", "https://en.wiktionary.org/wiki/autocomplete#Verb");
+
+            URL_Add("autocompleting", "https://en.wiktionary.org/wiki/autocomplete#Verb");
+
+            URL_Add("autocompletion", "https://en.wiktionary.org/wiki/autocompletion#Noun");
+
+            URL_Add("code completion", "https://en.wikipedia.org/wiki/Autocomplete#In_source_code_editors");
+
+            URL_Add("complete and utter", "https://www.merriam-webster.com/dictionary/complete%20and%20utter");
+
+            URL_Add("for the sake of completeness", "https://dictionary.cambridge.org/dictionary/english/completeness");
+
+            URL_Add("incomplete LU factorization", "https://en.wikipedia.org/wiki/Incomplete_LU_factorization");
+
+            URL_Add("Turing complete", "https://en.wikipedia.org/wiki/Turing_completeness");
+
+            URL_Add("YouCompleteMe", "https://github.com/ycm-core/YouCompleteMe");
+
+            URL_Add("Code Complete", "https://en.wikipedia.org/wiki/Code_Complete");
+
+            URL_Add("The Pragmatic Programmer", "https://en.wikipedia.org/wiki/The_Pragmatic_Programmer");
+
+            URL_Add("godlike", "https://en.wiktionary.org/wiki/godlike#Adjective");
+
+            URL_Add("God knows", "https://en.wiktionary.org/wiki/God_knows#Phrase");
+
+            URL_Add("God only knows", "https://en.wiktionary.org/wiki/God_only_knows#Phrase");
+
+            URL_Add("for the love of God", "https://en.wiktionary.org/wiki/for_the_love_of_God#Prepositional_phrase");
+
+            URL_Add("god object", "https://en.wikipedia.org/wiki/God_object");
+
+            URL_Add("I swear to God", "https://en.wiktionary.org/wiki/swear_to_God#Verb");
+
+            URL_Add("goddamn", "https://en.wiktionary.org/wiki/goddamn#Adjective");
+
+            URL_Add("damn", "https://en.wiktionary.org/wiki/damn#Adjective");
+
+            URL_Add("damned", "https://en.wiktionary.org/wiki/damned#Adjective");
+
+            URL_Add("damn it", "https://en.wiktionary.org/wiki/damn_it#Interjection");
+
+            URL_Add("give a damn", "https://en.wiktionary.org/wiki/give_a_damn#Verb");
+
+            URL_Add("space-related", "https://en.wikipedia.org/wiki/List_of_spaceflight-related_accidents_and_incidents");
+
+            URL_Add("GoDaddy", "https://en.wikipedia.org/wiki/GoDaddy");
+
+            URL_Add("Godot", "https://en.wikipedia.org/wiki/Godot_(game_engine)");
+
+            URL_Add("Goddard Space Flight Center", "https://en.wikipedia.org/wiki/Goddard_Space_Flight_Center");
+
+            URL_Add("Godwin's law", "https://en.wikipedia.org/wiki/Godwin's_law");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -153240,6 +153251,20 @@ namespace OverflowHelper.core
             correctionAdd("Ortho/split_", "split ortholinear mechanical keyboard_");
             correctionAdd("ortho/split_", "split ortholinear mechanical keyboard_");
             correctionAdd("split ortho_", "split ortholinear mechanical keyboard_");
+
+            // The company behind several open source keyboards:
+            // Charybdis, Dactyl, Skeletyl, Dactyl, Dilemma,
+            // and Dactyl ManuForm.
+            //
+            // Alternative URLs:
+            //
+            //   <https://bastardkb.com/>
+            //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/1x509fg/comment/pgiw3m9/>
+            //
+            correctionAdd("BastardKB_", "Bastard Keyboards_");
+            correctionAdd("Bastardkb_", "Bastard Keyboards_");
+            correctionAdd("Brb_", "Bastard Keyboards_");
+            correctionAdd("brb_", "Bastard Keyboards_");
 
             // A type of switch for keyboards (not vendor-specific)
             //
@@ -162527,7 +162552,8 @@ namespace OverflowHelper.core
             correctionAdd("un do_", "undo_");
 
             correctionAdd("dit_", "did_");
-            correctionAdd("sid_", "did_");
+            correctionAdd("sid_", "did_"); // A true typo
+            correctionAdd("dod_", "did_"); // A true typo
             correctionAdd("di_", "did_");
             correctionAdd("id_", "did_");
 
@@ -170143,6 +170169,8 @@ namespace OverflowHelper.core
             URL_Add("keyboard matrix_", "https://en.wikipedia.org/wiki/Keyboard_matrix_circuit");
 
             URL_Add("split ortholinear mechanical keyboard_", "https://en.wikipedia.org/wiki/Ergonomic_keyboard#Vertical_column_layout");
+
+            URL_Add("Bastard Keyboards_", "https://github.com/Bastardkb");
 
             URL_Add("rubber dome_", "https://en.wikipedia.org/wiki/Keyboard_technology#Dome-switch_keyboard");
 
@@ -182574,7 +182602,7 @@ namespace OverflowHelper.core
             //            Windows/Android mode, both in Bluetooth and
             //            wired modes."
             //
-            //         Tags: Even on Linux. Windows. Original K series. Pose. hid_apple.
+            //         Tags: Even on Linux. Windows. Original K series. Pose. hid_apple. K series.
             //
             //       <https://wiki.archlinux.org/title/Apple_Keyboard#hid_apple_module_options>
             //         Some information about the mysterious
