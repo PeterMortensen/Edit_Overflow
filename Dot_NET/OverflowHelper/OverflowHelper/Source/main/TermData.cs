@@ -77854,7 +77854,9 @@ namespace OverflowHelper.core
             correctionAdd("CML", "command line");
             correctionAdd("CL", "command line");
 
+            correctionAdd("Command lines", "command lines");
             correctionAdd("commandlines", "command lines");
+            correctionAdd("Commandlines", "command lines");
 
             correctionAdd("Command Line Interface", "command-line interface");
             correctionAdd("command line interface", "command-line interface");
@@ -152082,6 +152084,12 @@ namespace OverflowHelper.core
             correctionAdd("LWC_", "Keychron Launcher_");
             correctionAdd("KL_", "Keychron Launcher_");
 
+            correctionAdd("Keychron Launcher outages_", "Via clone outages_");
+            correctionAdd("Keychron Launcher outage_", "Via clone outages_");
+            correctionAdd("Via clone outage_", "Via clone outages_");
+            correctionAdd("outages_", "Via clone outages_");
+            correctionAdd("outage_", "Via clone outages_");
+
             // The verb
             correctionAdd("flsah_", "flash_");
             correctionAdd("flush_", "flash_");
@@ -152236,6 +152244,7 @@ namespace OverflowHelper.core
             correctionAdd("debounce time_", "key debounce_"); // Not 100% correct
             correctionAdd("Response Time_", "key debounce_"); // The term in the Via clone for 'key debounce time'. Not 100% correct
             correctionAdd("response time_", "key debounce_"); // Not 100% correct
+            correctionAdd("keydebounce_", "key debounce_");
             correctionAdd("Jack Ganssle_", "key debounce_"); // For the cross-reference
             correctionAdd("debounce_", "key debounce_");
 
@@ -171969,6 +171978,8 @@ namespace OverflowHelper.core
             URL_Add("true positive rate_", "https://en.wikipedia.org/wiki/Sensitivity_and_specificity");
 
             URL_Add("crate_", "https://doc.rust-lang.org/book/ch01-03-hello-cargo.html");
+
+            URL_Add("Via clone outages_", "https://www.reddit.com/r/Keychron/comments/1w75qk9/comment/p7y005o/");
 
         } //addLookupData_alternativeWordSet()
 
