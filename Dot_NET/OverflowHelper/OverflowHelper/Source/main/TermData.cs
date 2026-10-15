@@ -85181,6 +85181,7 @@ namespace OverflowHelper.core
             correctionAdd("daktyl manuform", "Dactyl ManuForm");
             correctionAdd("Dactyl manuform", "Dactyl ManuForm");
             correctionAdd("Dactyl-Manuform", "Dactyl ManuForm");
+            correctionAdd("Dacty Manuform", "Dactyl ManuForm");
             correctionAdd("ManuForm", "Dactyl ManuForm");
             correctionAdd("manuform", "Dactyl ManuForm");
 
@@ -93620,7 +93621,8 @@ namespace OverflowHelper.core
             // keys come from the five macro keys and
             // the extra four keys above the numeric keypad.
             // It is also missing space for the context
-            // key in the space row.
+            // key in the space row (even though there
+            // plenty of space for it).
             //
             // RGB (per-key) south-facing (unwanted
             // ***light bleed***) lighting.
@@ -93741,6 +93743,7 @@ namespace OverflowHelper.core
             correctionAdd("Q13&nbsp;Ultra", "Keychron&nbsp;Q13&nbsp;Ultra&nbsp;8K (100%)");
             correctionAdd("Q13 Ultra 8K", "Keychron&nbsp;Q13&nbsp;Ultra&nbsp;8K (100%)");
             correctionAdd("Q13 Ultra", "Keychron&nbsp;Q13&nbsp;Ultra&nbsp;8K (100%)");
+            correctionAdd("Q13 ultra", "Keychron&nbsp;Q13&nbsp;Ultra&nbsp;8K (100%)");
 
             // A 108-key (105%. Not true TKL) full-size wired-only
             // QMK/Via-capable mechanical keyboard without a knob.
@@ -95983,7 +95986,9 @@ namespace OverflowHelper.core
             correctionAdd("homecomputer", "home computer");
 
             // A 1980s home computer
-            //
+            correctionAdd("ZX 80", "ZX80");
+
+            // A 1980s home computer
             correctionAdd("ZX 81", "ZX81");
 
             // A 1980s home computer
@@ -109246,10 +109251,6 @@ namespace OverflowHelper.core
 
             URL_Add("SharpDevelop", "https://en.wikipedia.org/wiki/SharpDevelop");
 
-            URL_Add("ZX Spectrum", "https://en.wikipedia.org/wiki/ZX_Spectrum");
-
-            URL_Add("HiSoft C", "https://en.wikipedia.org/wiki/HiSoft_Systems#Products");
-
             URL_Add("BBEdit", "https://en.wikipedia.org/wiki/BBEdit");
 
             URL_Add("OPML", "https://en.wikipedia.org/wiki/OPML");
@@ -111686,7 +111687,13 @@ namespace OverflowHelper.core
 
             URL_Add("Betelgeuse", "https://en.wikipedia.org/wiki/Betelgeuse");
 
+            URL_Add("ZX80", "https://en.wikipedia.org/wiki/ZX80");
+
             URL_Add("ZX81", "https://en.wikipedia.org/wiki/ZX81");
+
+            URL_Add("ZX Spectrum", "https://en.wikipedia.org/wiki/ZX_Spectrum");
+
+            URL_Add("HiSoft C", "https://en.wikipedia.org/wiki/HiSoft_Systems#Products");
 
             URL_Add("ad hominem", "https://en.wiktionary.org/wiki/ad_hominem#Adjective");
 
@@ -160139,6 +160146,14 @@ namespace OverflowHelper.core
             correctionAdd("embassy_", "Embassy_");
 
             // Chess
+            correctionAdd("grand master_", "Grandmaster_");
+            correctionAdd("Grand Master_", "Grandmaster_");
+            correctionAdd("grandmaster_", "Grandmaster_");
+            correctionAdd("gms_", "Grandmaster_"); // Not 100% correct (plural)
+            correctionAdd("GM_", "Grandmaster_");
+            correctionAdd("Gm_", "Grandmaster_");
+
+            // Chess
             correctionAdd("the greatest positional pickpocket of our time_", "Magnus Carlsen_");
             correctionAdd("the wizard of Oslo_", "Magnus Carlsen_");
             correctionAdd("Moustache Magnus_", "Magnus Carlsen_");
@@ -160177,14 +160192,16 @@ namespace OverflowHelper.core
             correctionAdd("MC_", "Magnus Carlsen_");
 
             // Chess
-            correctionAdd("grand master_", "Grandmaster_");
-            correctionAdd("Grand Master_", "Grandmaster_");
-            correctionAdd("grandmaster_", "Grandmaster_");
-            correctionAdd("gms_", "Grandmaster_"); // Not 100% correct (plural)
-            correctionAdd("GM_", "Grandmaster_");
-            correctionAdd("Gm_", "Grandmaster_");
-
             correctionAdd("Najdorf_", "Miguel Najdorf_");
+
+            // Chess
+            correctionAdd("flagging_", "flagging (chess)_");
+
+            // Chess
+            correctionAdd("passed pawns_", "passed pawn_");
+            correctionAdd("past pawns_", "passed pawn_");
+            correctionAdd("past pawn_", "passed pawn_");
+            correctionAdd("pawn_", "passed pawn_"); // For the cross-reference
 
             correctionAdd("anyway_", "any way_"); // Entirely dependent on context
 
@@ -162167,10 +162184,6 @@ namespace OverflowHelper.core
             correctionAdd("Artificial Intelligence_", "Artificial&nbsp;Intelligence (Stack Exchange site)_"); // Sort of identity mapping
             correctionAdd("ai_", "Artificial&nbsp;Intelligence (Stack Exchange site)_");
 
-            correctionAdd("Chess Exchange_", "Chess (Stack Exchange site)_");
-            correctionAdd("Chess_", "Chess (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("chess_", "Chess (Stack Exchange site)_");
-
             correctionAdd("User Experience (Stack Exchange site)_", "User&nbsp;Experience (Stack Exchange site)_");
             correctionAdd("User&nbsp;Experience_", "User&nbsp;Experience (Stack Exchange site)_"); // Sort of identity mapping
             correctionAdd("UX Stack Exchange_", "User&nbsp;Experience (Stack Exchange site)_");
@@ -162538,6 +162551,10 @@ namespace OverflowHelper.core
             correctionAdd("Aviation_", "Aviation (Stack Exchange site)_");
             correctionAdd("aviation_", "Aviation (Stack Exchange site)_");
             correctionAdd("ASE_", "Aviation (Stack Exchange site)_");
+
+            correctionAdd("Chess Exchange_", "Chess (Stack Exchange site)_");
+            correctionAdd("Chess_", "Chess (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("chess_", "Chess (Stack Exchange site)_");
 
             correctionAdd("SEDE_", "Stack Exchange Data Explorer_");
 
@@ -163949,8 +163966,6 @@ namespace OverflowHelper.core
             correctionAdd("advise_", "advice_"); // Not incorrect as a verb
             correctionAdd("asvice_", "advice_");
             correctionAdd("Advice_", "advice_");
-
-            correctionAdd("flagging_", "flagging (chess)_");
 
             correctionAdd("Cryptography_", "cryptography_");
             correctionAdd("crypto_", "cryptography_");
@@ -171980,6 +171995,8 @@ namespace OverflowHelper.core
             URL_Add("crate_", "https://doc.rust-lang.org/book/ch01-03-hello-cargo.html");
 
             URL_Add("Via clone outages_", "https://www.reddit.com/r/Keychron/comments/1w75qk9/comment/p7y005o/");
+
+            URL_Add("passed pawn_", "https://en.wikipedia.org/wiki/Passed_pawn");
 
         } //addLookupData_alternativeWordSet()
 
