@@ -1171,6 +1171,246 @@ namespace OverflowHelper.core
             correctionAdd("Windows Nano server", "Microsoft Nano Server");
             correctionAdd("Windows Nano", "Microsoft Nano Server");
 
+            correctionAdd("probject", "project");
+            correctionAdd("projcet", "project");
+            correctionAdd("proyect", "project");
+            correctionAdd("Projekt", "project");
+            correctionAdd("projekt", "project");
+            correctionAdd("Project", "project");
+            correctionAdd("procect", "project");
+            correctionAdd("projetc", "project");
+            correctionAdd("porject", "project");
+            correctionAdd("ptoject", "project");
+            correctionAdd("prject", "project");
+            correctionAdd("projet", "project");
+            correctionAdd("projct", "project");
+            correctionAdd("poject", "project");
+            correctionAdd("Prject", "project");
+            correctionAdd("Projct", "project");
+            correctionAdd("Projet", "project");
+            correctionAdd("projec", "project");
+            correctionAdd("proj", "project");
+            correctionAdd("prj", "project");
+
+            correctionAdd("green field", "greenfield project");
+            correctionAdd("greenfield", "greenfield project");
+
+            correctionAdd("Projects", "projects");
+            correctionAdd("projets", "projects");
+            correctionAdd("prjects", "projects");
+
+            correctionAdd("sub project", "subproject");
+            correctionAdd("sub-project", "subproject");
+
+            correctionAdd("sub projects", "subprojects");
+
+            correctionAdd("Project Based Learning", "project-based learning");
+
+            correctionAdd("SoloLearn", "Sololearn");
+            correctionAdd("sololearn", "Sololearn");
+
+            correctionAdd("Chief Executive Officer", "CEO");
+            correctionAdd("chief executive officer", "CEO");
+            correctionAdd("ceo", "CEO");
+
+            correctionAdd("CTO", "chief technology officer");
+
+            correctionAdd("COO", "chief operating officer");
+
+            correctionAdd("CIO", "chief information officer");
+
+            correctionAdd("orgnanization", "organisation");
+            correctionAdd("organization", "organisation");
+            correctionAdd("Organization", "organisation");
+            correctionAdd("orgnaization", "organisation");
+            correctionAdd("orgnazation", "organisation");
+            correctionAdd("organiation", "organisation");
+            correctionAdd("Org", "organisation");
+            correctionAdd("org", "organisation");
+
+            correctionAdd("organizational", "organisational");
+
+            correctionAdd("OU", "organizational unit");
+
+            correctionAdd("re-organise", "reorganise");
+            correctionAdd("re-organize", "reorganise");
+            correctionAdd("reorganize", "reorganise");
+
+            correctionAdd("re-org", "reorganisation");
+            correctionAdd("reorg", "reorganisation");
+
+            correctionAdd("fyp", "final year project");
+
+            correctionAdd("C.V", "curriculum vitae");
+            correctionAdd("CV", "curriculum vitae");
+            correctionAdd("cv", "curriculum vitae");
+
+            correctionAdd("resume", "résumé");
+            correctionAdd("Resume", "résumé");
+
+            correctionAdd("letter of recommendation", "recommendation letter");
+            correctionAdd("Letter of Recommendation", "recommendation letter");
+            correctionAdd("Recommendation Letter", "recommendation letter");
+            correctionAdd("letter of reference", "recommendation letter");
+            correctionAdd("reference letter", "recommendation letter");
+            correctionAdd("LoR", "recommendation letter"); // A SIA?
+
+            correctionAdd("Statements of Purpose", "statement of purpose");
+            correctionAdd("application essay", "statement of purpose");
+            correctionAdd("SoP", "statement of purpose");
+
+            correctionAdd("SOW", "statement of work");
+
+            correctionAdd("work's", "works");
+            correctionAdd("workes", "works");
+            correctionAdd("werks", "works");
+            correctionAdd("worsk", "works");
+            correctionAdd("woks", "works");
+
+            correctionAdd("workoing", "working");
+            correctionAdd("workikng", "working");
+            correctionAdd("workring", "working");
+            correctionAdd("work'in", "working");
+            correctionAdd("workong", "working");
+            correctionAdd("wroking", "working");
+            correctionAdd("walking", "working"); // An autocorrect "masterpiece"?
+            correctionAdd("Working", "working");
+            correctionAdd("wokring", "working");
+            correctionAdd("woeking", "working"); // A true typo
+            correctionAdd("workign", "working"); // A true typo
+            correctionAdd("woking", "working");
+            correctionAdd("woring", "working");
+            correctionAdd("workin", "working");
+            correctionAdd("wrking", "working");
+            correctionAdd("worky", "working");
+
+            correctionAdd("workedd", "worked");
+            correctionAdd("worrked", "worked");
+            correctionAdd("wordked", "worked");
+            correctionAdd("workded", "worked");
+            correctionAdd("woked", "worked");
+            correctionAdd("worke", "worked");
+
+            correctionAdd("re-work", "rework");
+
+            correctionAdd("working in", "working on");
+
+            correctionAdd("Doesn't working", "nonworking");
+            correctionAdd("doesn't working", "nonworking");
+            correctionAdd("none working", "nonworking");
+            correctionAdd("non-working", "nonworking");
+            correctionAdd("Non-working", "nonworking");
+            correctionAdd("not-working", "nonworking");
+            correctionAdd("Nonworking", "nonworking");
+
+            correctionAdd("move around aimlessly", "work out");
+            correctionAdd("workout", "work out");
+
+            correctionAdd("hard-working", "hardworking");
+
+            correctionAdd("hand work", "handwork");
+
+            correctionAdd("leg work", "legwork");
+
+            correctionAdd("gruntwork", "grunt work");
+
+            correctionAdd("ground work", "groundwork");
+
+            correctionAdd("hand worked", "handworked");
+
+            correctionAdd("work-item", "work item");
+
+            correctionAdd("worked to me", "worked for me");
+
+            correctionAdd("work tree", "worktree");
+
+            correctionAdd("Work-order", "work order");
+            correctionAdd("work-order", "work order");
+            correctionAdd("workorder", "work order");
+
+            correctionAdd("work force", "workforce");
+
+            correctionAdd("work flow", "workflow");
+            correctionAdd("work-flow", "workflow");
+            correctionAdd("workfolow", "workflow");
+
+            // Noun
+            correctionAdd("work-alike", "workalike");
+
+            correctionAdd("intern ship", "internship");
+            correctionAdd("intership", "internship");
+
+            correctionAdd("intern ships", "internships");
+
+            correctionAdd("portefolio", "portfolio");
+            correctionAdd("portofolio", "portfolio");
+            correctionAdd("portafolio", "portfolio");
+            correctionAdd("PORTFOLIO", "portfolio");
+
+            correctionAdd("job-offer", "job offer");
+
+            correctionAdd("salaray", "salary");
+            correctionAdd("salery", "salary");
+
+            correctionAdd("brutto", "gross income");
+            correctionAdd("brut", "gross income");
+
+            correctionAdd("Boss", "boss");
+
+            correctionAdd("employement", "employment");
+
+            correctionAdd("at will employment", "at-will employment");
+
+            correctionAdd("carreer", "career");
+            correctionAdd("Carreer", "career");
+            correctionAdd("carrier", "career");
+            correctionAdd("carrear", "career");
+            correctionAdd("CARRER", "career");
+            correctionAdd("carrer", "career");
+            correctionAdd("carear", "career");
+
+            correctionAdd("career limiting move", "career-limiting move");
+
+            correctionAdd("commutter", "commuter");
+            correctionAdd("comutter", "commuter");
+
+            correctionAdd("unemployement", "unemployment");
+
+            correctionAdd("Employees", "employees");
+
+            correctionAdd("collegeaue", "colleague");
+            correctionAdd("collegeage", "colleague");
+            correctionAdd("collegaue", "colleague");
+            correctionAdd("collegues", "colleague");
+            correctionAdd("collegeae", "colleague");
+            correctionAdd("colleugue", "colleague");
+            correctionAdd("Colleague", "colleague");
+            correctionAdd("collegege", "colleague");
+            correctionAdd("collegue", "colleague");
+            correctionAdd("colleage", "colleague");
+            correctionAdd("collesge", "colleague");
+            correctionAdd("Collage", "colleague");
+            correctionAdd("collage", "colleague");
+
+            correctionAdd("busywork", "busy work");
+
+            correctionAdd("work-life balance", "work–life balance");
+            correctionAdd("WLB", "work–life balance");
+
+            correctionAdd("theam", "team");
+            correctionAdd("teem", "team");
+
+            correctionAdd("teamlead", "team lead");
+
+            correctionAdd("team-mate", "teammate");
+            correctionAdd("team mate", "teammate");
+
+            correctionAdd("team mates", "teammates");
+
+            correctionAdd("teammember", "team member");
+
+            correctionAdd("teamplayer", "team player");
+
             correctionAdd("go amis", "go amiss");
 
             correctionAdd("hitted", "hit");
@@ -2663,6 +2903,59 @@ namespace OverflowHelper.core
             correctionAdd("other-worldly", "otherworldly");
             correctionAdd("other-wordly", "otherworldly");
             correctionAdd("otherwordly", "otherworldly");
+
+            correctionAdd("liker", "like");
+            correctionAdd("lilke", "like");
+            correctionAdd("liket", "like");
+            correctionAdd("linke", "like");
+            correctionAdd("lije", "like");
+            correctionAdd("lild", "like"); // A true typo (double)
+            correctionAdd("Like", "like");
+            correctionAdd("iike", "like");
+            correctionAdd("lice", "like");
+            correctionAdd("lile", "like");
+            correctionAdd("liek", "like");
+            correctionAdd("liet", "like");
+            correctionAdd("loke", "like"); // A true typo
+            correctionAdd("lke", "like");
+            correctionAdd("Lke", "like");
+            correctionAdd("lie", "like");
+            correctionAdd("ike", "like");
+
+            correctionAdd("liiked", "liked");
+
+            correctionAdd("unlinke", "unlike");
+            correctionAdd("Unlinke", "unlike");
+            correctionAdd("un like", "unlike");
+
+            correctionAdd("human-like", "humanlike");
+            correctionAdd("human like", "humanlike");
+
+            correctionAdd("likleyhood", "likelihood");
+            correctionAdd("likelyhood", "likelihood");
+            correctionAdd("Likelyhood", "likelihood");
+            correctionAdd("liklihood", "likelihood");
+
+            correctionAdd("like wise", "likewise");
+            correctionAdd("like vise", "likewise");
+
+            correctionAdd("likelily", "likely");
+            correctionAdd("lilkely", "likely");
+            correctionAdd("laikely", "likely");
+            correctionAdd("likelly", "likely");
+            correctionAdd("laikly", "likely");
+            correctionAdd("likley", "likely"); // A true typo
+            correctionAdd("likeli", "likely");
+            correctionAdd("Likrly", "likely");
+            correctionAdd("likrly", "likely");
+            correctionAdd("lkely", "likely");
+            correctionAdd("likey", "likely");
+
+            correctionAdd("likelier", "more likely");
+
+            correctionAdd("unliekly", "unlikely");
+
+            correctionAdd("likes so", "like so");
 
             correctionAdd("N O I C E", "nice");
             correctionAdd("Noicce", "nice");
@@ -16014,208 +16307,6 @@ namespace OverflowHelper.core
             correctionAdd("Beall's list", "Beall's List");
             correctionAdd("Bealls list", "Beall's List");
 
-            correctionAdd("Chief Executive Officer", "CEO");
-            correctionAdd("chief executive officer", "CEO");
-            correctionAdd("ceo", "CEO");
-
-            correctionAdd("CTO", "chief technology officer");
-
-            correctionAdd("COO", "chief operating officer");
-
-            correctionAdd("CIO", "chief information officer");
-
-            correctionAdd("orgnanization", "organisation");
-            correctionAdd("organization", "organisation");
-            correctionAdd("Organization", "organisation");
-            correctionAdd("orgnaization", "organisation");
-            correctionAdd("orgnazation", "organisation");
-            correctionAdd("organiation", "organisation");
-            correctionAdd("Org", "organisation");
-            correctionAdd("org", "organisation");
-
-            correctionAdd("organizational", "organisational");
-
-            correctionAdd("OU", "organizational unit");
-
-            correctionAdd("re-organise", "reorganise");
-            correctionAdd("re-organize", "reorganise");
-            correctionAdd("reorganize", "reorganise");
-
-            correctionAdd("re-org", "reorganisation");
-            correctionAdd("reorg", "reorganisation");
-
-            correctionAdd("fyp", "final year project");
-
-            correctionAdd("C.V", "curriculum vitae");
-            correctionAdd("CV", "curriculum vitae");
-            correctionAdd("cv", "curriculum vitae");
-
-            correctionAdd("resume", "résumé");
-            correctionAdd("Resume", "résumé");
-
-            correctionAdd("letter of recommendation", "recommendation letter");
-            correctionAdd("Letter of Recommendation", "recommendation letter");
-            correctionAdd("Recommendation Letter", "recommendation letter");
-            correctionAdd("letter of reference", "recommendation letter");
-            correctionAdd("reference letter", "recommendation letter");
-            correctionAdd("LoR", "recommendation letter"); // A SIA?
-
-            correctionAdd("Statements of Purpose", "statement of purpose");
-            correctionAdd("application essay", "statement of purpose");
-            correctionAdd("SoP", "statement of purpose");
-
-            correctionAdd("SOW", "statement of work");
-
-            correctionAdd("work's", "works");
-            correctionAdd("workes", "works");
-            correctionAdd("werks", "works");
-            correctionAdd("worsk", "works");
-            correctionAdd("woks", "works");
-
-            correctionAdd("workoing", "working");
-            correctionAdd("workikng", "working");
-            correctionAdd("workring", "working");
-            correctionAdd("work'in", "working");
-            correctionAdd("workong", "working");
-            correctionAdd("wroking", "working");
-            correctionAdd("walking", "working"); // An autocorrect "masterpiece"?
-            correctionAdd("Working", "working");
-            correctionAdd("wokring", "working");
-            correctionAdd("woeking", "working"); // A true typo
-            correctionAdd("workign", "working"); // A true typo
-            correctionAdd("woking", "working");
-            correctionAdd("woring", "working");
-            correctionAdd("workin", "working");
-            correctionAdd("wrking", "working");
-            correctionAdd("worky", "working");
-
-            correctionAdd("workedd", "worked");
-            correctionAdd("worrked", "worked");
-            correctionAdd("wordked", "worked");
-            correctionAdd("workded", "worked");
-            correctionAdd("woked", "worked");
-            correctionAdd("worke", "worked");
-
-            correctionAdd("re-work", "rework");
-
-            correctionAdd("working in", "working on");
-
-            correctionAdd("Doesn't working", "nonworking");
-            correctionAdd("doesn't working", "nonworking");
-            correctionAdd("none working", "nonworking");
-            correctionAdd("non-working", "nonworking");
-            correctionAdd("Non-working", "nonworking");
-            correctionAdd("not-working", "nonworking");
-            correctionAdd("Nonworking", "nonworking");
-
-            correctionAdd("move around aimlessly", "work out");
-            correctionAdd("workout", "work out");
-
-            correctionAdd("hard-working", "hardworking");
-
-            correctionAdd("hand work", "handwork");
-
-            correctionAdd("leg work", "legwork");
-
-            correctionAdd("gruntwork", "grunt work");
-
-            correctionAdd("ground work", "groundwork");
-
-            correctionAdd("hand worked", "handworked");
-
-            correctionAdd("work-item", "work item");
-
-            correctionAdd("worked to me", "worked for me");
-
-            correctionAdd("work tree", "worktree");
-
-            correctionAdd("Work-order", "work order");
-            correctionAdd("work-order", "work order");
-            correctionAdd("workorder", "work order");
-
-            correctionAdd("work force", "workforce");
-
-            correctionAdd("work flow", "workflow");
-            correctionAdd("work-flow", "workflow");
-            correctionAdd("workfolow", "workflow");
-
-            // Noun
-            correctionAdd("work-alike", "workalike");
-
-            correctionAdd("intern ship", "internship");
-            correctionAdd("intership", "internship");
-
-            correctionAdd("intern ships", "internships");
-
-            correctionAdd("portefolio", "portfolio");
-            correctionAdd("portofolio", "portfolio");
-            correctionAdd("portafolio", "portfolio");
-            correctionAdd("PORTFOLIO", "portfolio");
-
-            correctionAdd("job-offer", "job offer");
-
-            correctionAdd("salaray", "salary");
-            correctionAdd("salery", "salary");
-
-            correctionAdd("brutto", "gross income");
-            correctionAdd("brut", "gross income");
-
-            correctionAdd("Boss", "boss");
-
-            correctionAdd("employement", "employment");
-
-            correctionAdd("at will employment", "at-will employment");
-
-            correctionAdd("carreer", "career");
-            correctionAdd("Carreer", "career");
-            correctionAdd("carrier", "career");
-            correctionAdd("carrear", "career");
-            correctionAdd("CARRER", "career");
-            correctionAdd("carrer", "career");
-            correctionAdd("carear", "career");
-
-            correctionAdd("career limiting move", "career-limiting move");
-
-            correctionAdd("commutter", "commuter");
-            correctionAdd("comutter", "commuter");
-
-            correctionAdd("unemployement", "unemployment");
-
-            correctionAdd("Employees", "employees");
-
-            correctionAdd("collegeaue", "colleague");
-            correctionAdd("collegeage", "colleague");
-            correctionAdd("collegaue", "colleague");
-            correctionAdd("collegues", "colleague");
-            correctionAdd("collegeae", "colleague");
-            correctionAdd("colleugue", "colleague");
-            correctionAdd("Colleague", "colleague");
-            correctionAdd("collegege", "colleague");
-            correctionAdd("collegue", "colleague");
-            correctionAdd("colleage", "colleague");
-            correctionAdd("collesge", "colleague");
-            correctionAdd("Collage", "colleague");
-            correctionAdd("collage", "colleague");
-
-            correctionAdd("busywork", "busy work");
-
-            correctionAdd("work-life balance", "work–life balance");
-            correctionAdd("WLB", "work–life balance");
-
-            correctionAdd("theam", "team");
-            correctionAdd("teem", "team");
-
-            correctionAdd("teamlead", "team lead");
-
-            correctionAdd("team-mate", "teammate");
-            correctionAdd("team mate", "teammate");
-
-            correctionAdd("team mates", "teammates");
-
-            correctionAdd("teammember", "team member");
-
-            correctionAdd("teamplayer", "team player");
-
             correctionAdd("Silver light", "Silverlight");
             correctionAdd("silver light", "Silverlight");
             correctionAdd("silverlight", "Silverlight");
@@ -16624,58 +16715,6 @@ namespace OverflowHelper.core
             correctionAdd("SNAP", "Snap package");
 
             correctionAdd("VASP", "Vienna Ab initio Simulation Package");
-
-            correctionAdd("liker", "like");
-            correctionAdd("lilke", "like");
-            correctionAdd("liket", "like");
-            correctionAdd("lije", "like");
-            correctionAdd("lild", "like"); // A true typo (double)
-            correctionAdd("Like", "like");
-            correctionAdd("iike", "like");
-            correctionAdd("lice", "like");
-            correctionAdd("lile", "like");
-            correctionAdd("liek", "like");
-            correctionAdd("liet", "like");
-            correctionAdd("loke", "like"); // A true typo
-            correctionAdd("lke", "like");
-            correctionAdd("Lke", "like");
-            correctionAdd("lie", "like");
-            correctionAdd("ike", "like");
-
-            correctionAdd("liiked", "liked");
-
-            correctionAdd("unlinke", "unlike");
-            correctionAdd("Unlinke", "unlike");
-            correctionAdd("un like", "unlike");
-
-            correctionAdd("human-like", "humanlike");
-            correctionAdd("human like", "humanlike");
-
-            correctionAdd("likleyhood", "likelihood");
-            correctionAdd("likelyhood", "likelihood");
-            correctionAdd("Likelyhood", "likelihood");
-            correctionAdd("liklihood", "likelihood");
-
-            correctionAdd("like wise", "likewise");
-            correctionAdd("like vise", "likewise");
-
-            correctionAdd("likelily", "likely");
-            correctionAdd("lilkely", "likely");
-            correctionAdd("laikely", "likely");
-            correctionAdd("likelly", "likely");
-            correctionAdd("laikly", "likely");
-            correctionAdd("likley", "likely"); // A true typo
-            correctionAdd("likeli", "likely");
-            correctionAdd("Likrly", "likely");
-            correctionAdd("likrly", "likely");
-            correctionAdd("lkely", "likely");
-            correctionAdd("likey", "likely");
-
-            correctionAdd("likelier", "more likely");
-
-            correctionAdd("unliekly", "unlikely");
-
-            correctionAdd("likes so", "like so");
 
             // Note: "die" is in an alternative word set
             correctionAdd("dieing", "dying");
@@ -43660,18 +43699,19 @@ namespace OverflowHelper.core
 
             // An IDE.
             correctionAdd("intellija idea", "IntelliJ IDEA");
-            correctionAdd("IntelliJ-IDEA", "IntelliJ IDEA");
-            correctionAdd("IntelliJ-Idea", "IntelliJ IDEA");
             correctionAdd("Intellij IDEA", "IntelliJ IDEA");
             correctionAdd("INTELLIJ IDEA", "IntelliJ IDEA");
-            correctionAdd("intelliJ IDEA", "IntelliJ IDEA");
             correctionAdd("IntelliJ Idea", "IntelliJ IDEA");
             correctionAdd("Intellij Idea", "IntelliJ IDEA");
-            correctionAdd("intellij idea", "IntelliJ IDEA");
             correctionAdd("IntelliJ idea", "IntelliJ IDEA");
-            correctionAdd("Intrllij IDEA", "IntelliJ IDEA");
-            correctionAdd("intelliJ idea", "IntelliJ IDEA");
             correctionAdd("Intellij idea", "IntelliJ IDEA");
+            correctionAdd("intelliJ IDEA", "IntelliJ IDEA");
+            correctionAdd("intelliJ idea", "IntelliJ IDEA");
+            correctionAdd("intellij IDEA", "IntelliJ IDEA");
+            correctionAdd("intellij idea", "IntelliJ IDEA");
+            correctionAdd("IntelliJ-IDEA", "IntelliJ IDEA");
+            correctionAdd("IntelliJ-Idea", "IntelliJ IDEA");
+            correctionAdd("Intrllij IDEA", "IntelliJ IDEA");
             correctionAdd("Idea Intellij", "IntelliJ IDEA");
             correctionAdd("Idea intellij", "IntelliJ IDEA");
             correctionAdd("idea intellij", "IntelliJ IDEA");
@@ -70680,6 +70720,7 @@ namespace OverflowHelper.core
             correctionAdd("Boba U4S", "Gazzew Boba U4 switches");
             correctionAdd("Boba U4", "Gazzew Boba U4 switches");
             correctionAdd("Boba", "Gazzew Boba U4 switches");
+            correctionAdd("boba", "Gazzew Boba U4 switches");
 
             // A type of switch for mechanical keyboards.
             // Only linear. Adjustable actuation point by
@@ -73824,43 +73865,6 @@ namespace OverflowHelper.core
             correctionAdd("script.aculo.us", "Script.aculo.us");
             correctionAdd("Scriptaculous", "Script.aculo.us");
             correctionAdd("scriptaculous", "Script.aculo.us");
-
-            correctionAdd("probject", "project");
-            correctionAdd("projcet", "project");
-            correctionAdd("proyect", "project");
-            correctionAdd("Projekt", "project");
-            correctionAdd("projekt", "project");
-            correctionAdd("Project", "project");
-            correctionAdd("procect", "project");
-            correctionAdd("projetc", "project");
-            correctionAdd("porject", "project");
-            correctionAdd("ptoject", "project");
-            correctionAdd("prject", "project");
-            correctionAdd("projet", "project");
-            correctionAdd("projct", "project");
-            correctionAdd("poject", "project");
-            correctionAdd("Prject", "project");
-            correctionAdd("Projct", "project");
-            correctionAdd("Projet", "project");
-            correctionAdd("proj", "project");
-            correctionAdd("prj", "project");
-
-            correctionAdd("green field", "greenfield project");
-            correctionAdd("greenfield", "greenfield project");
-
-            correctionAdd("Projects", "projects");
-            correctionAdd("projets", "projects");
-            correctionAdd("prjects", "projects");
-
-            correctionAdd("sub project", "subproject");
-            correctionAdd("sub-project", "subproject");
-
-            correctionAdd("sub projects", "subprojects");
-
-            correctionAdd("Project Based Learning", "project-based learning");
-
-            correctionAdd("SoloLearn", "Sololearn");
-            correctionAdd("sololearn", "Sololearn");
 
             correctionAdd("travers", "traverse");
 
@@ -95339,6 +95343,7 @@ namespace OverflowHelper.core
             correctionAdd("Keychron K10 Ultra 8K", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
             correctionAdd("keychron k10 ultra", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
             correctionAdd("K10 Ultra 8K", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
+            correctionAdd("10k ultra 8k", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
             correctionAdd("K10 Ultra", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
             correctionAdd("k10 ultra", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
 
@@ -174401,6 +174406,7 @@ namespace OverflowHelper.core
             correctionAdd("freaking__", "fucking__");
             correctionAdd("frigging__", "fucking__");
             correctionAdd("fu***ing__", "fucking__");
+            correctionAdd("FUCKING__", "fucking__");
             correctionAdd("fecking__", "fucking__");
             correctionAdd("fscking__", "fucking__");
             correctionAdd("F*****G__", "fucking__");
