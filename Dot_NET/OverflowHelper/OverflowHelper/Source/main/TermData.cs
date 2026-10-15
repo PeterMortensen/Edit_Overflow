@@ -7152,13 +7152,6 @@ namespace OverflowHelper.core
             correctionAdd("SRP", "single responsibility principle");
 
             // Software development
-            correctionAdd("Dependency Inversion principle", "dependency inversion principle");
-            correctionAdd("Dependency Inversion", "dependency inversion principle");
-            correctionAdd("dependency inversion", "dependency inversion principle");
-            correctionAdd("dependicy inversion", "dependency inversion principle");
-            correctionAdd("DIP", "dependency inversion principle");
-
-            // Software development
             correctionAdd("Dependency Injection", "dependency injection"); // An expansion.
             correctionAdd("dependency inejction", "dependency injection");
             correctionAdd("Dependancy Injection", "dependency injection");
@@ -24167,8 +24160,10 @@ namespace OverflowHelper.core
 
             correctionAdd("JPL", "Jet Propulsion Laboratory");
 
-            // CSPICE is for ""spacecraft planet instrument
-            // C-matrix ("camera matrix") events".) "
+            // CSPICE is for:
+            //
+            //   "spacecraft planet instrument C-matrix
+            //    ("camera matrix") events".)"
             //
             // Alternative URLs:
             //
@@ -28454,6 +28449,9 @@ namespace OverflowHelper.core
             correctionAdd("analyics", "analytics");
 
             correctionAdd("Real Analysis", "real analysis");
+
+            correctionAdd("preventative", "preventive");
+            correctionAdd("Preventive", "preventive");
 
             correctionAdd("Then", "then");
             correctionAdd("rhen", "then");
@@ -35455,7 +35453,7 @@ namespace OverflowHelper.core
 
             // A December 2025 10.0 critical severity vulnerablility: CVE-2025-55182
             //
-            // Unsafe deserialisation in the "" protocol.
+            // Unsafe deserialisation in the "????" protocol.
             //
             // Alternative URLs:
             //
@@ -39425,7 +39423,7 @@ namespace OverflowHelper.core
             correctionAdd("Version Control", "version control system");
             correctionAdd("version-control system", "version control system");
             correctionAdd("vcs", "version control system");
-            correctionAdd("VCS", "version control system"); // Expansion, actually ""
+            correctionAdd("VCS", "version control system"); // Expansion, actually "?????"
 
             // Other: "distributed version control", "decentralized version control"
             correctionAdd("distributed revision control system", "distributed revision control");
@@ -41281,6 +41279,7 @@ namespace OverflowHelper.core
             correctionAdd("ego deletions on Reddit", "DenverCoder9");
             correctionAdd("Was there a resolution?", "DenverCoder9");
             correctionAdd("Did you find a solution", "DenverCoder9");
+            correctionAdd("report the outcome here", "DenverCoder9");
             correctionAdd("ego deletion on Reddit", "DenverCoder9");
             correctionAdd("has left the building", "DenverCoder9");
             correctionAdd("Thanks for the report", "DenverCoder9");
@@ -41300,6 +41299,7 @@ namespace OverflowHelper.core
             correctionAdd("For future readers", "DenverCoder9");
             correctionAdd("for future readers", "DenverCoder9");
             correctionAdd("Thanks for sharing", "DenverCoder9");
+            correctionAdd("report the outcome", "DenverCoder9");
             correctionAdd("we may never know", "DenverCoder9");
             correctionAdd("left the building", "DenverCoder9");
             correctionAdd("as far as we know", "DenverCoder9");
@@ -48783,8 +48783,9 @@ namespace OverflowHelper.core
 
             correctionAdd("Coulomb-potential", "Coulomb potential");
 
-            correctionAdd("dip switches", "DIP switches");
-            correctionAdd("DIP switch", "DIP switches"); // For the cross-reference
+            correctionAdd("Dip switch", "DIP switch");
+            correctionAdd("dip switch", "DIP switch");
+            correctionAdd("DIP", "DIP switch");
 
             correctionAdd("Inductor", "inductor");
 
@@ -49403,6 +49404,10 @@ namespace OverflowHelper.core
             correctionAdd("Hal", "Hall sensor");
             correctionAdd("HE", "Hall sensor");
             correctionAdd("he", "Hall sensor");
+
+            // In particular for Keychron HE keyboards, e.g., K2 HE
+            correctionAdd("key chatter", "stuck key syndrome"); // For the cross-reference
+            correctionAdd("SKS", "stuck key syndrome");
 
             correctionAdd("magentostatic", "magnetostatic");
 
@@ -65309,7 +65314,7 @@ namespace OverflowHelper.core
             //
             // List of keyboard firmware: QMK, ZMK, FAK, KMK, and TMK.
             //
-            // Note: ""ZMK Studio"" is in an alternative word set
+            // Note: "ZMK Studio" is in an alternative word set
             correctionAdd("zmk", "ZMK");
             correctionAdd("Zmk", "ZMK");
             correctionAdd("ZMk", "ZMK");
@@ -66302,10 +66307,6 @@ namespace OverflowHelper.core
             //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/1hql2ol/comment/m4qjfdn/>
             //
             correctionAdd("Repeat Key", "repeat key");
-
-            // A QMK feature
-            //
-            correctionAdd("dip_switch", "DIP Switch");
 
             // QMK (as a verb)
             //
@@ -70668,6 +70669,17 @@ namespace OverflowHelper.core
             correctionAdd("TTC mechanical switch", "TTC mechanical switches");
             correctionAdd("TTC", "TTC mechanical switches");
             correctionAdd("Ttc", "TTC mechanical switches");
+
+            // A type of switch for mechanical keyboards.
+            // Silent tactile.
+            //
+            // "T" is tactile. "S" is for silent.
+            //
+            correctionAdd("Gazzew Boba U4T", "Gazzew Boba U4 switches");
+            correctionAdd("Boba U4T", "Gazzew Boba U4 switches");
+            correctionAdd("Boba U4S", "Gazzew Boba U4 switches");
+            correctionAdd("Boba U4", "Gazzew Boba U4 switches");
+            correctionAdd("Boba", "Gazzew Boba U4 switches");
 
             // A type of switch for mechanical keyboards.
             // Only linear. Adjustable actuation point by
@@ -88213,9 +88225,9 @@ namespace OverflowHelper.core
             correctionAdd("P1Pro", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro");
             correctionAdd("Lemokey P Pro series", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro"); // For the cross-reference
 
-            // A 82-key (80%. Not true TKL) crippled wired-only
-            // QMK/Via-capable mechanical keyboard with a knob
-            // from Keychron.
+            // A 82-key (80%. Not true TKL) crippled wired and wireless
+            // (both Bluetooth and '2.4 GHz') QMK/Via-capable
+            // mechanical keyboard with a knob from Keychron.
             //
             // Like Lemokey P1 Pro, but with Hall sensor (HE) switches.
             //
@@ -89539,6 +89551,7 @@ namespace OverflowHelper.core
             correctionAdd("Keychron C3 Pro 8K", "Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)");
             correctionAdd("C3 Pro 8K", "Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)");
             correctionAdd("c3 pro 8k", "Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)");
+            correctionAdd("C3 Pro 8k", "Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)");
 
             // A 87-key (85%. True TKL) crippled wired and wireless
             // (both Bluetooth and '2.4 GHz') mechanical keyboard
@@ -136337,8 +136350,6 @@ namespace OverflowHelper.core
 
             URL_Add("&nbsp;pF", "https://en.wikipedia.org/wiki/Farad#Definition");
 
-            URL_Add("DIP switches", "https://en.wiktionary.org/wiki/DIP_switch#Noun");
-
             URL_Add("inductance", "https://en.wikipedia.org/wiki/Inductance");
 
             URL_Add("inductor", "https://en.wikipedia.org/wiki/Inductor");
@@ -144251,8 +144262,6 @@ namespace OverflowHelper.core
 
             URL_Add("inversion of control", "https://en.wikipedia.org/wiki/Inversion_of_control");
 
-            URL_Add("dependency inversion principle", "https://en.wikipedia.org/wiki/Dependency_inversion_principle");
-
             URL_Add("distributed revision control", "https://en.wikipedia.org/wiki/Distributed_version_control");
 
             URL_Add("Git (version control)", "https://en.wikipedia.org/wiki/Git"); // Old: https://en.wikipedia.org/wiki/Git_%28software%29
@@ -150463,7 +150472,7 @@ namespace OverflowHelper.core
 
             URL_Add("KVM switch", "https://en.wikipedia.org/wiki/KVM_switch");
 
-            URL_Add("DIP Switch", "https://docs.qmk.fm/features/dip_switch");
+            URL_Add("DIP switch", "https://en.wikipedia.org/wiki/DIP_switch");
 
             URL_Add("multilayer switch", "https://en.wikipedia.org/wiki/Multilayer_switch");
 
@@ -150560,6 +150569,8 @@ namespace OverflowHelper.core
             URL_Add("Alps SKCM Cream damped switches", "https://www.youtube.com/watch?v=huCdi0bljgk");
 
             URL_Add("TTC mechanical switches", "https://techbullish.com/ttc-switches/");
+
+            URL_Add("Gazzew Boba U4 switches", "https://www.youtube.com/watch?v=ce9LsfoJl34&t=14m33s");
 
             URL_Add("tenkeyless (80%)", "https://en.wikipedia.org/wiki/Computer_keyboard#Types_and_standards");
 
@@ -150906,6 +150917,10 @@ namespace OverflowHelper.core
             URL_Add("Goddard Space Flight Center", "https://en.wikipedia.org/wiki/Goddard_Space_Flight_Center");
 
             URL_Add("Godwin's law", "https://en.wikipedia.org/wiki/Godwin's_law");
+
+            URL_Add("preventive", "https://en.wiktionary.org/wiki/preventive#Adjective");
+
+            URL_Add("stuck key syndrome", "https://www.reddit.com/r/Keychron/comments/1t39xsd/comment/ojv2en8/");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -167296,6 +167311,9 @@ namespace OverflowHelper.core
             correctionAdd("enquiring_", "inquiring minds want to know_");
             correctionAdd("inquiring_", "inquiring minds want to know_");
 
+            correctionAdd("dip switches_", "DIP switches_");
+            correctionAdd("DIP switch_", "DIP switches_"); // For the cross-reference
+
             // C. A book
             //
             // Authors: Brian Kernighan and Dennis Ritchie
@@ -171998,6 +172016,8 @@ namespace OverflowHelper.core
 
             URL_Add("passed pawn_", "https://en.wikipedia.org/wiki/Passed_pawn");
 
+            URL_Add("DIP switches_", "https://en.wiktionary.org/wiki/DIP_switch#Noun");
+
         } //addLookupData_alternativeWordSet()
 
 
@@ -173296,6 +173316,9 @@ namespace OverflowHelper.core
             correctionAdd("SignalRGB__", "QMK culprits SignalRGB and Thrustmaster driver (AKA Guillemot) on Windows__"); // For the cross-reference
             correctionAdd("qmk flash__", "QMK culprits SignalRGB and Thrustmaster driver (AKA Guillemot) on Windows__"); // For the cross-reference. Indirect from QMK...
 
+            correctionAdd("the official QMK Git repository, Keychron keyboards__", "QMK command line__"); // For the cross-reference, indirectly from "QMK"
+            correctionAdd("QMK CLI__", "QMK command line__");
+
             // QMK
             correctionAdd("layers__", "increase the number of layers in QMK to more than the default__");
 
@@ -173312,6 +173335,69 @@ namespace OverflowHelper.core
             //
             correctionAdd("change default layer__", "DF__");
             correctionAdd("default__", "DF__");
+
+            // A QMK feature
+            //
+            // Note: The regular "DIP switch" is in an alternative word set
+            //
+            correctionAdd("dip_switch__", "DIP switch__");
+            correctionAdd("DIP Switch__", "DIP switch__");
+
+            // Alternative URLs:
+            //
+            //   <https://getreuer.info/posts/keyboards/qmk-community-modules/index.html>
+            //   <https://docs.qmk.fm/features/community_modules>
+            //   <https://github.com/getreuer/qmk-modules/tree/main/achordion>
+            //
+            correctionAdd("QMK Community Modules__", "QMK community modules__");
+            correctionAdd("latest QMK features__", "QMK community modules__");
+            correctionAdd("community modules__", "QMK community modules__");
+            correctionAdd("community feature__", "QMK community modules__");
+            correctionAdd("Community modules__", "QMK community modules__");
+            correctionAdd("Community module__", "QMK community modules__");
+            correctionAdd("community module__", "QMK community modules__");
+            correctionAdd("qmk userspace__", "QMK community modules__"); // Not 100% correct, as it is actually an older QMK feature
+            correctionAdd("QMK userspace__", "QMK community modules__"); // Not 100% correct, as it is actually an older QMK feature
+            correctionAdd("QMK modules__", "QMK community modules__");
+            correctionAdd("qmk modules__", "QMK community modules__");
+            correctionAdd("latest features__", "QMK community modules__");
+            correctionAdd("community__", "QMK community modules__"); // For the cross-reference
+            correctionAdd("QMK__", "QMK community modules__"); // For the cross-reference
+
+            // Mostly for another alternative URL (QMK and Keychron related)
+            //
+            // Alternative URLs:
+            //
+            //   <https://docs.qmk.fm/feature_debounce_type?id=types-of-debounce-algorithms>
+            //     QMK debounce methods/algorithms
+            //
+            correctionAdd("key debounce__", "debouncing__");
+
+            correctionAdd("QMK debounce methods/algorithms__", "Keychron's changes to debounce settings in the V Max and Q Max series weren't necessary__"); // For the cross-reference. Not strictly necessary
+            correctionAdd("debounce__", "Keychron's changes to debounce settings in the V Max and Q Max series weren't necessary__");
+
+            // QMK
+            correctionAdd("typed out debugging information__", "typed out debugging information in QMK__");
+            correctionAdd("typed out debugging__", "typed out debugging information in QMK__");
+            correctionAdd("type out debugging__", "typed out debugging information in QMK__");
+            correctionAdd("not impossible__", "typed out debugging information in QMK__");
+            correctionAdd("debug output__", "typed out debugging information in QMK__"); // For the cross-reference
+            correctionAdd("QMK commits__", "typed out debugging information in QMK__"); // For the cross-reference (we really wanted "QMK", but it would require adding yet another alternative word set; thus we rely a secondary cross-reference, so it works with "QMK")
+            correctionAdd("typed out__", "typed out debugging information in QMK__");
+            correctionAdd("debugging__", "typed out debugging information in QMK__"); // For the cross-reference
+            correctionAdd("debug__", "typed out debugging information in QMK__"); // For the cross-reference
+
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1jwm172/comment/mmlcsxa/>
+            //
+            //   <https://keychronsupport.zendesk.com/hc/en-us/articles/28580923670935-Why-does-the-HE-keyboard-not-work-as-a-controller-or-the-Xbox-controller-is-recognized-but-why-doesn-t-it-work-properly>
+            //     Why does the HE keyboard not work as a controller, or
+            //     the Xbox controller is recognized but why doesn't it
+            //     work properly?
+            //
+            correctionAdd("controller__", "QMK JOYSTICK_ENABLE__");
+            correctionAdd("joystick__", "QMK JOYSTICK_ENABLE__");
 
             correctionAdd("RGB_WHITE (0xFFFFFF)__", "HSV_WHITE (0x0000FF)__");
             correctionAdd("0x00, 0x00, 0xFF__", "HSV_WHITE (0x0000FF)__");
@@ -173337,53 +173423,6 @@ namespace OverflowHelper.core
             correctionAdd("turquoise__", "HSV_TURQUOISE (0x7B5A70)__");
             correctionAdd("0x7B5A70__", "HSV_TURQUOISE (0x7B5A70)__");
             correctionAdd("7B5A70__", "HSV_TURQUOISE (0x7B5A70)__");
-
-            // Alternative URLs:
-            //
-            //   <https://getreuer.info/posts/keyboards/qmk-community-modules/index.html>
-            //   <https://docs.qmk.fm/features/community_modules>
-            //   <https://github.com/getreuer/qmk-modules/tree/main/achordion>
-            //
-            correctionAdd("QMK Community Modules__", "QMK community modules__");
-            correctionAdd("latest QMK features__", "QMK community modules__");
-            correctionAdd("community modules__", "QMK community modules__");
-            correctionAdd("community feature__", "QMK community modules__");
-            correctionAdd("Community modules__", "QMK community modules__");
-            correctionAdd("Community module__", "QMK community modules__");
-            correctionAdd("community module__", "QMK community modules__");
-            correctionAdd("qmk userspace__", "QMK community modules__"); // Not 100% correct, as it is actually an older QMK feature
-            correctionAdd("QMK userspace__", "QMK community modules__"); // Not 100% correct, as it is actually an older QMK feature
-            correctionAdd("QMK modules__", "QMK community modules__");
-            correctionAdd("qmk modules__", "QMK community modules__");
-            correctionAdd("latest features__", "QMK community modules__");
-            correctionAdd("community__", "QMK community modules__"); // For the cross-reference
-            correctionAdd("QMK__", "QMK community modules__"); // For the cross-reference
-
-            correctionAdd("the official QMK Git repository, Keychron keyboards__", "QMK command line__"); // For the cross-reference, indirectly from "QMK"
-            correctionAdd("QMK CLI__", "QMK command line__");
-
-            // QMK
-            correctionAdd("typed out debugging information__", "typed out debugging information in QMK__");
-            correctionAdd("typed out debugging__", "typed out debugging information in QMK__");
-            correctionAdd("type out debugging__", "typed out debugging information in QMK__");
-            correctionAdd("not impossible__", "typed out debugging information in QMK__");
-            correctionAdd("debug output__", "typed out debugging information in QMK__"); // For the cross-reference
-            correctionAdd("QMK commits__", "typed out debugging information in QMK__"); // For the cross-reference (we really wanted "QMK", but it would require adding yet another alternative word set; thus we rely a secondary cross-reference, so it works with "QMK")
-            correctionAdd("typed out__", "typed out debugging information in QMK__");
-            correctionAdd("debugging__", "typed out debugging information in QMK__"); // For the cross-reference
-            correctionAdd("debug__", "typed out debugging information in QMK__"); // For the cross-reference
-
-            // Alternative URLs:
-            //
-            //   <https://www.reddit.com/r/Keychron/comments/1jwm172/comment/mmlcsxa/>
-            //
-            //   <https://keychronsupport.zendesk.com/hc/en-us/articles/28580923670935-Why-does-the-HE-keyboard-not-work-as-a-controller-or-the-Xbox-controller-is-recognized-but-why-doesn-t-it-work-properly>
-            //     Why does the HE keyboard not work as a controller, or
-            //     the Xbox controller is recognized but why doesn't it
-            //     work properly?
-            //
-            correctionAdd("controller__", "QMK JOYSTICK_ENABLE__");
-            correctionAdd("joystick__", "QMK JOYSTICK_ENABLE__");
 
             // QMK
             //
@@ -173470,18 +173509,6 @@ namespace OverflowHelper.core
             correctionAdd("2001__", "SNLED27351__");
             correctionAdd("27__", "SNLED27351__");
 
-            // Mostly for another alternative URL (QMK and Keychron related)
-            //
-            // Alternative URLs:
-            //
-            //   <https://docs.qmk.fm/feature_debounce_type?id=types-of-debounce-algorithms>
-            //     QMK debounce methods/algorithms
-            //
-            correctionAdd("key debounce__", "debouncing__");
-
-            correctionAdd("QMK debounce methods/algorithms__", "Keychron's changes to debounce settings in the V Max and Q Max series weren't necessary__"); // For the cross-reference. Not strictly necessary
-            correctionAdd("debounce__", "Keychron's changes to debounce settings in the V Max and Q Max series weren't necessary__");
-
             // Mechanical keyboards (though not strictly)
             //
             // Singular version
@@ -173514,11 +173541,10 @@ namespace OverflowHelper.core
             correctionAdd("HE switch__", "Hall effect switches__");
             correctionAdd("HE__", "Hall effect switches__");
 
-            correctionAdd("switch__", "momentary switch__");
+            // In particular for Keychron HE keyboards, e.g., K2 HE
+            correctionAdd("stuck key syndrome__", "SKS__"); // For the reverse, to the abbr
 
-            correctionAdd("Dip switch__", "DIP switch__");
-            correctionAdd("dip switch__", "DIP switch__");
-            correctionAdd("DIP__", "DIP switch__");
+            correctionAdd("switch__", "momentary switch__");
 
             // A crippled (40%) mechanical keyboard
             //
@@ -177452,8 +177478,6 @@ namespace OverflowHelper.core
 
             URL_Add("LIKE__", "https://learn.microsoft.com/en-us/sql/t-sql/language-elements/like-transact-sql?view=sql-server-ver16");
 
-            URL_Add("Git gyrations__", "https://github.com/Keychron/qmk_firmware/issues/396#issuecomment-3062591906");
-
             URL_Add("NVM__", "https://github.com/nvm-sh/nvm");
 
             URL_Add("Laravel Echo__", "https://github.com/laravel/echo");
@@ -177478,17 +177502,19 @@ namespace OverflowHelper.core
 
             URL_Add("the Church of Agile Development__", "https://steve-yegge.blogspot.com/2006/10/egomania-itself.html#1944915870679379245");
 
-            URL_Add("Joe Scotto's method for Vial support__", "https://www.youtube.com/watch?v=O8pdUPqPG3k");
-
             URL_Add("TCP/IP port__", "https://en.wikipedia.org/wiki/Transmission_Control_Protocol#TCP_ports");
 
-            URL_Add("Jack Ganssle__", "https://www.ganssle.com/bio.htm");
+            URL_Add("Git gyrations__", "https://github.com/Keychron/qmk_firmware/issues/396#issuecomment-3062591906");
 
-            URL_Add("DIP switch__", "https://en.wikipedia.org/wiki/DIP_switch");
+            URL_Add("Joe Scotto's method for Vial support__", "https://www.youtube.com/watch?v=O8pdUPqPG3k");
+
+            URL_Add("Hall effect switches__", "https://www.tomshardware.com/news/how-hall-effect-switches-work,33105.html");
+
+            URL_Add("SKS__", "https://www.reddit.com/r/Keychron/comments/1t39xsd/comment/ojv2en8/");
 
             URL_Add("momentary switch__", "https://en.wikipedia.org/wiki/Switch#Description");
 
-            URL_Add("Hall effect switches__", "https://www.tomshardware.com/news/how-hall-effect-switches-work,33105.html");
+            URL_Add("Jack Ganssle__", "https://www.ganssle.com/bio.htm");
 
             URL_Add("Rubi__", "https://github.com/RuleBasedIntegration/Rubi");
 
@@ -177893,6 +177919,8 @@ namespace OverflowHelper.core
             URL_Add("MO__", "https://docs.qmk.fm/feature_layers#switching-and-toggling-layers");
 
             URL_Add("DF__", "https://docs.qmk.fm/feature_layers#switching-and-toggling-layers");
+
+            URL_Add("DIP switch__", "https://docs.qmk.fm/features/dip_switch");
 
             URL_Add("QMK JOYSTICK_ENABLE__", "https://docs.qmk.fm/features/joystick#usage");
 
@@ -178329,15 +178357,6 @@ namespace OverflowHelper.core
             // The Android thing, not the common noun
             correctionAdd("intents___", "intent___"); // Plural, to avoid nearly duplicate entries.
             correctionAdd("Intent___", "intent___");
-
-            // Mobile software development, based on JavaScript
-            correctionAdd("Native Script___", "NativeScript___");
-            correctionAdd("native script___", "NativeScript___");
-            correctionAdd("native-script___", "NativeScript___");
-            correctionAdd("Nativescript___", "NativeScript___");
-            correctionAdd("nativescript___", "NativeScript___");
-            correctionAdd("{NS}___", "NativeScript___");
-            correctionAdd("NS___", "NativeScript___");
 
             // QMK
             //
@@ -179007,6 +179026,8 @@ namespace OverflowHelper.core
             correctionAdd("fux___", "fuck___");
             correctionAdd("f@!___", "fuck___");
             correctionAdd("fck___", "fuck___");
+            correctionAdd("F@K___", "fuck___");
+            correctionAdd("f@k___", "fuck___");
             correctionAdd("Fk___", "fuck___");
             correctionAdd("fk___", "fuck___");
             correctionAdd("FK___", "fuck___");
@@ -180031,6 +180052,26 @@ namespace OverflowHelper.core
             correctionAdd("ANT___", "Ant___");
             correctionAdd("ant___", "Ant___");
 
+            // Mobile software development, based on JavaScript
+            correctionAdd("Native Script___", "NativeScript___");
+            correctionAdd("native script___", "NativeScript___");
+            correctionAdd("native-script___", "NativeScript___");
+            correctionAdd("Nativescript___", "NativeScript___");
+            correctionAdd("nativescript___", "NativeScript___");
+            correctionAdd("{NS}___", "NativeScript___");
+            correctionAdd("NS___", "NativeScript___");
+
+            // A web software development thing
+            correctionAdd("Progressive Enhancement___", "progressive enhancement___");
+            correctionAdd("PE___", "progressive enhancement___");
+
+            // Software development
+            correctionAdd("Dependency Inversion principle___", "dependency inversion principle___");
+            correctionAdd("Dependency Inversion___", "dependency inversion principle___");
+            correctionAdd("dependency inversion___", "dependency inversion principle___");
+            correctionAdd("dependicy inversion___", "dependency inversion principle___");
+            correctionAdd("DIP___", "dependency inversion principle___");
+
             correctionAdd("test data set___", "training data set___");
             correctionAdd("training data___", "training data set___");
             correctionAdd("training set___", "training data set___");
@@ -180261,10 +180302,6 @@ namespace OverflowHelper.core
             correctionAdd("captalize___", "capitalise___");
             correctionAdd("capitalse___", "capitalise___");
             correctionAdd("caps___", "capitalise___");
-
-            // A web software development thing
-            correctionAdd("Progressive Enhancement___", "progressive enhancement___");
-            correctionAdd("PE___", "progressive enhancement___");
 
             correctionAdd("join___", "join()___"); // A Perl function
 
@@ -180987,6 +181024,8 @@ namespace OverflowHelper.core
 
             URL_Add("progressive enhancement___", "https://en.wikipedia.org/wiki/Progressive_enhancement");
 
+            URL_Add("dependency inversion principle___", "https://en.wikipedia.org/wiki/Dependency_inversion_principle");
+
             URL_Add("tread___", "https://en.wiktionary.org/wiki/tread#Verb");
 
             URL_Add("join()___", "https://perldoc.perl.org/functions/join");
@@ -181104,8 +181143,6 @@ namespace OverflowHelper.core
             URL_Add("post scriptum___", "https://en.wiktionary.org/wiki/PS#Alternative_forms");
 
             URL_Add("input___", "https://en.wiktionary.org/wiki/input#Verb");
-
-            URL_Add("hallway usability testing___", "https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/");
 
             URL_Add("period___", "https://en.wiktionary.org/wiki/period#Noun");
 
@@ -181488,6 +181525,8 @@ namespace OverflowHelper.core
             URL_Add("question (Indian English)___", "https://english.stackexchange.com/questions/2429/can-doubt-sometimes-mean-question");
 
             URL_Add("Occam's razor___", "https://en.wikipedia.org/wiki/Occam's_razor");
+
+            URL_Add("hallway usability testing___", "https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/");
 
         } //addLookupData_alternativeWordSet3()
 
