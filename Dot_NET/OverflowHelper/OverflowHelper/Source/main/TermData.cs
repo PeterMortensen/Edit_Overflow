@@ -63560,9 +63560,11 @@ namespace OverflowHelper.core
             //
             correctionAdd("compenating", "compensating");
 
+            correctionAdd("compenstation", "compensation");
+
             correctionAdd("over-compensating", "overcompensating");
 
-            correctionAdd("compenstation", "compensation");
+            correctionAdd("over-compensation", "overcompensation");
 
             correctionAdd("TC", "total compensation");
 
@@ -68423,6 +68425,7 @@ namespace OverflowHelper.core
             //     The 'deskthority.net' reference is now broken (blank page).
             //     Candidate site for the wiki: <https://wiki.themk.org>
             //
+            correctionAdd("ghosthing", "ghosting");
             correctionAdd("Ghosting", "ghosting");
 
             // Mechanical keyboards. Without NKRO diodes
@@ -85729,8 +85732,11 @@ namespace OverflowHelper.core
             //   <https://ultimatehackingkeyboard.com/>
             //
             correctionAdd("ultimate hacking keyboard v2", "Ultimate Hacking Keyboard");
+            correctionAdd("Ultimate Hacking Keyboard v2", "Ultimate Hacking Keyboard");
             correctionAdd("ultimate hacking keyboard", "Ultimate Hacking Keyboard");
+            correctionAdd("UHK v2", "Ultimate Hacking Keyboard");
             correctionAdd("UHKv2", "Ultimate Hacking Keyboard");
+            correctionAdd("uhkv2", "Ultimate Hacking Keyboard");
             correctionAdd("uhk", "Ultimate Hacking Keyboard");
             correctionAdd("UHK", "Ultimate Hacking Keyboard");
 
@@ -89496,6 +89502,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("the original red LED one", "Keychron C3 Pro");
             correctionAdd("keychron c3 pro", "Keychron C3 Pro");
+            correctionAdd("Keychron c3 Pro", "Keychron C3 Pro");
             correctionAdd("C3 Pro 1K RGB", "Keychron C3 Pro");
             correctionAdd("C3 Pro 1K", "Keychron C3 Pro");
             correctionAdd("C3 Pro", "Keychron C3 Pro");
@@ -143657,6 +143664,8 @@ namespace OverflowHelper.core
 
             URL_Add("overcompensating", "https://en.wiktionary.org/wiki/overcompensate#Verb");
 
+            URL_Add("overcompensation", "https://en.wiktionary.org/wiki/overcompensation#Noun");
+
             URL_Add("total compensation", "https://en.wiktionary.org/wiki/TC#Noun");
 
             URL_Add("competing", "https://en.wiktionary.org/wiki/compete#Verb");
@@ -152114,6 +152123,7 @@ namespace OverflowHelper.core
             correctionAdd("Keychron Launcher outages_", "Via clone outages_");
             correctionAdd("Keychron Launcher outage_", "Via clone outages_");
             correctionAdd("Via clone outage_", "Via clone outages_");
+            correctionAdd("the outage_", "Via clone outages_");
             correctionAdd("outages_", "Via clone outages_");
             correctionAdd("outage_", "Via clone outages_");
 
@@ -153038,6 +153048,7 @@ namespace OverflowHelper.core
             correctionAdd("compatible keyboards_", "list of Sonix QMK-compatible keyboards_");
             correctionAdd("supported keyboards_", "list of Sonix QMK-compatible keyboards_");
             correctionAdd("Sonix QMK_", "list of Sonix QMK-compatible keyboards_"); // For the cross-reference
+            correctionAdd("the list_", "list of Sonix QMK-compatible keyboards_");
             correctionAdd("Sonix_", "list of Sonix QMK-compatible keyboards_"); // For the cross-reference
 
             // Reddit. A subreddit for detailed questions about
@@ -153241,7 +153252,10 @@ namespace OverflowHelper.core
 
             // Mechanical keyboards
             //
-            // We need a better reference: Not very descriptive
+            // We need a better reference: Not very descriptive.
+            // A candidate:
+            //
+            //   <https://wiki.themk.org/index.php/Keyboard_matrix>
             //
             // Alternative URLs:
             //
@@ -179772,6 +179786,7 @@ namespace OverflowHelper.core
             correctionAdd("K-Max series___", "Keychron&nbsp;K&nbsp;Max&nbsp;series___");
             correctionAdd("K Max series___", "Keychron&nbsp;K&nbsp;Max&nbsp;series___"); // Sort of identity mapping
             correctionAdd("k max series___", "Keychron&nbsp;K&nbsp;Max&nbsp;series___");
+            correctionAdd("K Max'es___", "Keychron&nbsp;K&nbsp;Max&nbsp;series___");
             correctionAdd("K Max___", "Keychron&nbsp;K&nbsp;Max&nbsp;series___");
             correctionAdd("k max___", "Keychron&nbsp;K&nbsp;Max&nbsp;series___");
 
@@ -183145,7 +183160,7 @@ namespace OverflowHelper.core
             //       The K series seems to automatically switch
             //       to 6KRO in wireless mode.
             //
-            //       Under "Anti-ghosthing": "NKRO (wired) and 6KRO (wireless)"
+            //       Under "Anti-ghosting": "NKRO (wired) and 6KRO (wireless)"
             //
             //       It also states the number of keys for
             //       the K series keyboards!
