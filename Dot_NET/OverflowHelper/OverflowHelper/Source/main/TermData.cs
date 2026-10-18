@@ -19734,11 +19734,11 @@ namespace OverflowHelper.core
             correctionAdd("norther ireland", "Northern Ireland");
             correctionAdd("NI", "Northern Ireland");
 
-            correctionAdd("titanic", "Titanic");
             correctionAdd("taitanic", "Titanic");
+            correctionAdd("titanic", "Titanic");
 
-            correctionAdd("scotland", "Scotland");
             correctionAdd("Scottland", "Scotland");
+            correctionAdd("scotland", "Scotland");
 
             correctionAdd("scottish", "Scottish");
             correctionAdd("scotish", "Scottish");
@@ -19778,6 +19778,10 @@ namespace OverflowHelper.core
             correctionAdd("PL", "Poland");
 
             correctionAdd("polish", "Polish");
+
+            // Poland. Currency
+            correctionAdd("zloty", "złoty");
+            correctionAdd("PLN", "złoty");
 
             correctionAdd("Chornobyl", "Chernobyl");
 
@@ -19885,8 +19889,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Tolkien", "J. R. R. Tolkien");
 
-            correctionAdd("gollum", "Gollum");
-
             correctionAdd("Vladolf Putler", "Vladimir Putin");
             correctionAdd("Bunker Grandpa", "Vladimir Putin");
             correctionAdd("bunker grandpa", "Vladimir Putin");
@@ -19902,6 +19904,8 @@ namespace OverflowHelper.core
             correctionAdd("Puntin", "Vladimir Putin");
             correctionAdd("Putler", "Vladimir Putin");
             correctionAdd("Putin", "Vladimir Putin");
+
+            correctionAdd("gollum", "Gollum");
 
             correctionAdd("dicktator", "dictator");
 
@@ -19949,9 +19953,9 @@ namespace OverflowHelper.core
             correctionAdd("east coast", "East Coast of the United States");
             correctionAdd("East Coast", "East Coast of the United States");
 
-            correctionAdd("turkish", "Turkish");
-
             correctionAdd("turkey", "Turkey");
+
+            correctionAdd("turkish", "Turkish");
 
             // In North Caucasus. Not to be confused with
             // Czechia AKA Czech Republic (Central Europe)
@@ -23215,6 +23219,8 @@ namespace OverflowHelper.core
 
             correctionAdd("H2O2", "hydrogen peroxide");
 
+            correctionAdd("Surface tension", "surface tension");
+
             // Chemical element 2
             correctionAdd("Helium", "helium");
             correctionAdd("He", "helium");
@@ -24443,6 +24449,8 @@ namespace OverflowHelper.core
             correctionAdd("unredable", "unreadable");
 
             correctionAdd("read-backs", "readbacks");
+
+            correctionAdd("drame", "drama");
 
             correctionAdd("Dramatic reading", "dramatic reading");
 
@@ -32236,10 +32244,11 @@ namespace OverflowHelper.core
             correctionAdd("crimson desert", "Crimson Desert");
 
             // A computer game
-            //
-            // A true typo
             correctionAdd("valheim", "Valheim");
             correctionAdd("valhiem", "Valheim"); // A true typo
+
+            // A computer game
+            correctionAdd("Silksong", "Hollow Knight: Silksong");
 
             // A tabletop and digital collectible card game
             correctionAdd("M:tG cards", "Magic: The Gathering");
@@ -68836,6 +68845,8 @@ namespace OverflowHelper.core
             correctionAdd("Ergomech", "ergonomic mechanical keyboard");
             correctionAdd("ergomech", "ergonomic mechanical keyboard");
             correctionAdd("mechergo", "ergonomic mechanical keyboard");
+            correctionAdd("ergokeeb", "ergonomic mechanical keyboard");
+            correctionAdd("regokeeb", "ergonomic mechanical keyboard");
             correctionAdd("ergo kb", "ergonomic mechanical keyboard");
             correctionAdd("ergoKB", "ergonomic mechanical keyboard");
             correctionAdd("ergokb", "ergonomic mechanical keyboard");
@@ -105131,6 +105142,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Liqyefying", "liquefying");
 
+            // A template language for web applications
             correctionAdd("liquid", "Liquid");
 
             correctionAdd("Liquidbase", "Liquibase");
@@ -109884,8 +109896,6 @@ namespace OverflowHelper.core
 
             URL_Add("single responsibility principle", "https://en.wikipedia.org/wiki/Single_responsibility_principle");
 
-            URL_Add("British", "https://en.wiktionary.org/wiki/British#Adjective");
-
             URL_Add("autumn", "https://en.wiktionary.org/wiki/autumn#Noun");
 
             URL_Add("accommodate", "https://en.wiktionary.org/wiki/accommodate#Verb");
@@ -110000,8 +110010,6 @@ namespace OverflowHelper.core
 
             URL_Add("dynamically", "https://en.wiktionary.org/wiki/dynamically#Adverb");
 
-            URL_Add("Russian", "https://en.wiktionary.org/wiki/Russian#Adjective");
-
             URL_Add("anyone", "https://en.wiktionary.org/wiki/anyone#Pronoun");
 
             URL_Add("always", "https://en.wiktionary.org/wiki/always#Adverb"); // Old: https://en.wiktionary.org/wiki/allways
@@ -110059,8 +110067,6 @@ namespace OverflowHelper.core
             URL_Add("Tektronix", "https://en.wikipedia.org/wiki/Tektronix");
 
             URL_Add("furthermore", "https://en.wiktionary.org/wiki/furthermore#Adverb");
-
-            URL_Add("Arabic", "https://en.wiktionary.org/wiki/Arabic#Adjective");
 
             URL_Add("Roman", "https://en.wiktionary.org/wiki/Roman#Adjective");
 
@@ -110242,8 +110248,6 @@ namespace OverflowHelper.core
 
             URL_Add("vice versa", "https://en.wiktionary.org/wiki/vice_versa#Adverb");
 
-            URL_Add("Cyrillic", "https://en.wiktionary.org/wiki/Cyrillic#Adjective");
-
             URL_Add("Latin", "https://en.wiktionary.org/wiki/Latin#Noun");
 
             URL_Add("ROS", "https://en.wikipedia.org/wiki/Robot_Operating_System");
@@ -110306,8 +110310,6 @@ namespace OverflowHelper.core
 
             URL_Add("todo", "https://en.wiktionary.org/wiki/todo#Noun");
 
-            URL_Add("Irish", "https://en.wiktionary.org/wiki/Irish#Adjective");
-
             URL_Add("googling", "https://en.wiktionary.org/wiki/google#Verb_2");
 
             URL_Add("OCD", "https://en.wikipedia.org/wiki/Obsessive%E2%80%93compulsive_disorder");
@@ -110321,10 +110323,6 @@ namespace OverflowHelper.core
             URL_Add("general-purpose timers", "https://embeddedinventor.com/embedded-timers-their-types-and-applications/");
 
             URL_Add("MultiWii", "https://hackaday.com/2015/04/19/multicopters-and-their-multiwii-beginnings/");
-
-            URL_Add("Brexit", "https://en.wiktionary.org/wiki/Brexit#Proper_noun");
-
-            URL_Add("Marxism", "https://en.wiktionary.org/wiki/Marxism#Noun"); // Old: https://en.wiktionary.org/wiki/Marxism#English
 
             URL_Add("afraid", "https://en.wiktionary.org/wiki/afraid#Adjective");
 
@@ -110382,8 +110380,6 @@ namespace OverflowHelper.core
 
             URL_Add("permission", "https://en.wiktionary.org/wiki/permission#Noun");
 
-            URL_Add("socialism", "https://en.wiktionary.org/wiki/socialism#Noun");
-
             URL_Add("tried", "https://en.wiktionary.org/wiki/tried#Verb");
 
             URL_Add("justified", "https://en.wiktionary.org/wiki/justified#Adjective");
@@ -110430,8 +110426,6 @@ namespace OverflowHelper.core
 
             URL_Add("business", "https://en.wiktionary.org/wiki/business#Noun");
 
-            URL_Add("Hebrew", "https://en.wiktionary.org/wiki/Hebrew#Noun");
-
             URL_Add("implementing", "https://en.wiktionary.org/wiki/implementing#Verb");
 
             URL_Add("perfectly", "https://en.wiktionary.org/wiki/perfectly#Adverb");
@@ -110477,10 +110471,6 @@ namespace OverflowHelper.core
             URL_Add("syntax", "https://en.wiktionary.org/wiki/syntax#Noun");
 
             URL_Add("yUML", "https://yuml.me/");
-
-            URL_Add("New Delhi", "https://en.wikipedia.org/wiki/New_Delhi");
-
-            URL_Add("India", "https://en.wikipedia.org/wiki/India");
 
             URL_Add("commitment", "https://en.wiktionary.org/wiki/commitment#Noun");
 
@@ -110642,19 +110632,13 @@ namespace OverflowHelper.core
 
             URL_Add("Gecko", "https://en.wikipedia.org/wiki/Gecko_(software)");
 
-            URL_Add("Gibraltar", "https://en.wikipedia.org/wiki/Gibraltar");
-
             URL_Add("Luke Skywalker", "https://en.wikipedia.org/wiki/Luke_Skywalker");
 
             URL_Add("Ponzi scheme", "https://en.wikipedia.org/wiki/Ponzi_scheme");
 
             URL_Add("Sandboxie", "https://en.wikipedia.org/wiki/Sandboxie");
 
-            URL_Add("Scotland", "https://en.wiktionary.org/wiki/Scotland#Proper_noun");
-
             URL_Add("Tera Term", "https://en.wikipedia.org/wiki/Tera_Term");
-
-            URL_Add("Wales", "https://en.wikipedia.org/wiki/Wales");
 
             URL_Add("bombardment", "https://en.wiktionary.org/wiki/bombardment#Noun");
 
@@ -110950,19 +110934,7 @@ namespace OverflowHelper.core
 
             URL_Add("nonsense", "https://en.wiktionary.org/wiki/nonsense#Noun");
 
-            URL_Add("Britain", "https://en.wiktionary.org/wiki/Britain#Proper_noun");
-
-            URL_Add("Tory", "https://en.wiktionary.org/wiki/Tory#Noun");
-
             URL_Add("besieged", "https://en.wiktionary.org/wiki/besiege#Verb");
-
-            URL_Add("colonialism", "https://en.wiktionary.org/wiki/colonialism#Noun");
-
-            URL_Add("colonialist", "https://en.wiktionary.org/wiki/colonialist#Adjective");
-
-            URL_Add("colonies", "https://en.wiktionary.org/wiki/colony#Noun");
-
-            URL_Add("empire", "https://en.wiktionary.org/wiki/empire#Noun");
 
             URL_Add("imprisoned", "https://en.wiktionary.org/wiki/imprison#Verb");
 
@@ -110999,8 +110971,6 @@ namespace OverflowHelper.core
             URL_Add("anecdote", "https://en.wiktionary.org/wiki/anecdote#Noun");
 
             URL_Add("skilful", "https://en.wiktionary.org/wiki/skilful#Adjective");
-
-            URL_Add("soviet", "https://en.wiktionary.org/wiki/soviet#Noun");
 
             URL_Add("theoretical", "https://en.wiktionary.org/wiki/theoretical#Adjective");
 
@@ -111704,8 +111674,6 @@ namespace OverflowHelper.core
 
             URL_Add("LXQt", "https://en.wikipedia.org/wiki/LXQt");
 
-            URL_Add("Lebanon", "https://en.wikipedia.org/wiki/Lebanon");
-
             URL_Add("NERD tree", "https://www.vim.org/scripts/script.php?script_id=1658");
 
             URL_Add("Neo Tree", "https://www.emacswiki.org/emacs/NeoTree");
@@ -111904,8 +111872,6 @@ namespace OverflowHelper.core
 
             URL_Add("fortune favours the brave", "https://en.wiktionary.org/wiki/fortune_favours_the_brave#Proverb"); // Old: https://en.wiktionary.org/wiki/fortune_favours_the_brave#English
 
-            URL_Add("ruble", "https://en.wiktionary.org/wiki/ruble#Noun");
-
             URL_Add("tilde", "https://en.wiktionary.org/wiki/tilde#Noun");
 
             URL_Add("Kerala", "https://en.wikipedia.org/wiki/Kerala");
@@ -111975,12 +111941,6 @@ namespace OverflowHelper.core
             URL_Add("about", "https://en.wiktionary.org/wiki/about#Adverb");
 
             URL_Add("Minicom", "https://en.wikipedia.org/wiki/Minicom");
-
-            URL_Add("Montreal", "https://en.wikipedia.org/wiki/Montreal");
-
-            URL_Add("Saudi Arabia", "https://en.wikipedia.org/wiki/Saudi_Arabia");
-
-            URL_Add("Teimour Radjabov", "https://en.wikipedia.org/wiki/Teimour_Radjabov");
 
             URL_Add("criticise", "https://en.wiktionary.org/wiki/criticise#Verb");
 
@@ -112112,8 +112072,6 @@ namespace OverflowHelper.core
 
             URL_Add("Java&nbsp;9", "https://en.wikipedia.org/wiki/Java_version_history#Java_SE_9");
 
-            URL_Add("Kiev", "https://en.wikipedia.org/wiki/Kiev");
-
             URL_Add("Uncle Bob", "https://en.wikipedia.org/wiki/Robert_C._Martin");
 
             URL_Add("criticising", "https://en.wiktionary.org/wiki/criticise#Verb"); // Old: https://en.wiktionary.org/wiki/criticise
@@ -112216,15 +112174,7 @@ namespace OverflowHelper.core
 
             URL_Add("Google Hangouts", "https://en.wikipedia.org/wiki/Google_Hangouts");
 
-            URL_Add("Polish", "https://en.wiktionary.org/wiki/Polish#Adjective");
-
-            URL_Add("Titanic", "https://en.wikipedia.org/wiki/RMS_Titanic");
-
             URL_Add("Fing", "https://en.wikipedia.org/wiki/Draft:Fing");
-
-            URL_Add("Garry Kasparov", "https://en.wikipedia.org/wiki/Garry_Kasparov");
-
-            URL_Add("Pakistan", "https://en.wikipedia.org/wiki/Pakistan");
 
             URL_Add("antipattern", "https://en.wiktionary.org/wiki/antipattern#Noun");
 
@@ -112511,10 +112461,6 @@ namespace OverflowHelper.core
             URL_Add("dissipate", "https://en.wiktionary.org/wiki/dissipate#Verb");
 
             URL_Add("arose", "https://en.wiktionary.org/wiki/arise#Verb");
-
-            URL_Add("Greece", "https://en.wikipedia.org/wiki/Greece");
-
-            URL_Add("Spain", "https://en.wikipedia.org/wiki/Spain");
 
             URL_Add("anthropomorphising", "https://en.wiktionary.org/wiki/anthropomorphise#Verb"); // Old: https://en.wiktionary.org/wiki/anthropomorphise#English
 
@@ -113028,8 +112974,6 @@ namespace OverflowHelper.core
 
             URL_Add("BizTalk", "https://en.wikipedia.org/wiki/Microsoft_BizTalk_Server");
 
-            URL_Add("Marxist", "https://en.wiktionary.org/wiki/Marxist#Adjective");
-
             URL_Add("MbUnit", "https://en.wikipedia.org/wiki/List_of_unit_testing_frameworks#.NET_programming_languages");
 
             URL_Add("RSpec", "https://en.wikipedia.org/wiki/RSpec");
@@ -113075,8 +113019,6 @@ namespace OverflowHelper.core
             URL_Add("structured programming", "https://en.wikipedia.org/wiki/Structured_programming");
 
             URL_Add("torque", "https://en.wikipedia.org/wiki/Torque");
-
-            URL_Add("Belarus", "https://en.wikipedia.org/wiki/Belarus");
 
             URL_Add("Paramiko", "https://www.paramiko.org/"); // Old: <http://www.paramiko.org/>
 
@@ -113383,10 +113325,6 @@ namespace OverflowHelper.core
             URL_Add("cover", "https://en.wiktionary.org/wiki/cover#Verb");
 
             URL_Add("Moodle", "https://en.wikipedia.org/wiki/Moodle");
-
-            URL_Add("Indonesia", "https://en.wikipedia.org/wiki/Indonesia");
-
-            URL_Add("Poland", "https://en.wikipedia.org/wiki/Poland");
 
             URL_Add("dissertation", "https://en.wiktionary.org/wiki/dissertation#Noun");
 
@@ -113920,8 +113858,6 @@ namespace OverflowHelper.core
 
             URL_Add("Padre", "https://en.wikipedia.org/wiki/Padre_(software)");
 
-            URL_Add("Soviet Union", "https://en.wikipedia.org/wiki/Soviet_Union");
-
             URL_Add("attach", "https://en.wiktionary.org/wiki/attach#Verb");
 
             URL_Add("condescending", "https://en.wiktionary.org/wiki/condescending#Adjective");
@@ -113957,8 +113893,6 @@ namespace OverflowHelper.core
             URL_Add("reearn", "https://en.wiktionary.org/wiki/reearn#Verb");
 
             URL_Add("Sputnik V", "https://en.wikipedia.org/wiki/Sputnik_V_COVID-19_vaccine"); // Old: https://en.wikipedia.org/wiki/Gam-COVID-Vac
-
-            URL_Add("Turkish", "https://en.wiktionary.org/wiki/Turkish#Adjective");
 
             URL_Add("filename", "https://en.wiktionary.org/wiki/filename#Noun");
 
@@ -114494,10 +114428,6 @@ namespace OverflowHelper.core
 
             URL_Add("Code Avengers", "https://www.codeavengers.com/");
 
-            URL_Add("Indonesian", "https://en.wiktionary.org/wiki/Indonesian#Adjective");
-
-            URL_Add("Mikhail Botvinnik", "https://en.wikipedia.org/wiki/Mikhail_Botvinnik");
-
             URL_Add("PeerTube", "https://en.wikipedia.org/wiki/PeerTube");
 
             URL_Add("airline", "https://en.wiktionary.org/wiki/airline#Noun");
@@ -114537,8 +114467,6 @@ namespace OverflowHelper.core
             URL_Add("jqUnit", "https://docs.fluidproject.org/infusion/development/jqunit");
 
             URL_Add("reemergence", "https://en.wiktionary.org/wiki/reemergence#Noun");
-
-            URL_Add("Ireland", "https://en.wikipedia.org/wiki/Ireland");
 
             URL_Add("Santa Claus", "https://en.wiktionary.org/wiki/Santa_Claus#Proper_noun");
 
@@ -114798,10 +114726,6 @@ namespace OverflowHelper.core
 
             URL_Add("thought reader", "https://en.wikipedia.org/wiki/Telepathy#Thought_reading");
 
-            URL_Add("British Medical Association", "https://en.wikipedia.org/wiki/British_Medical_Association");
-
-            URL_Add("Loch Ness Monster", "https://en.wikipedia.org/wiki/Loch_Ness_Monster");
-
             URL_Add("circle", "https://en.wiktionary.org/wiki/circle#Noun");
 
             URL_Add("craziness", "https://en.wiktionary.org/wiki/craziness#Noun");
@@ -115026,19 +114950,9 @@ namespace OverflowHelper.core
 
             URL_Add("wearout", "https://en.wiktionary.org/wiki/wearout#Noun");
 
-            URL_Add("Chechnya", "https://en.wikipedia.org/wiki/Chechnya");
-
-            URL_Add("Cyprus", "https://en.wikipedia.org/wiki/Cyprus");
-
-            URL_Add("Greg Abbott", "https://en.wikipedia.org/wiki/Greg_Abbott");
-
             URL_Add("Johnny-Five", "https://johnny-five.io/");
 
-            URL_Add("Morocco", "https://en.wikipedia.org/wiki/Morocco");
-
             URL_Add("Q-Chem", "https://en.wikipedia.org/wiki/Q-Chem");
-
-            URL_Add("Romania", "https://en.wikipedia.org/wiki/Romania");
 
             URL_Add("copying", "https://en.wiktionary.org/wiki/copy#Verb");
 
@@ -115156,8 +115070,6 @@ namespace OverflowHelper.core
 
             URL_Add("viewport", "https://en.wiktionary.org/wiki/viewport#Noun");
 
-            URL_Add("Winston Churchill", "https://en.wikipedia.org/wiki/Winston_Churchill");
-
             URL_Add("indices", "https://en.wiktionary.org/wiki/indices#Noun");
 
             URL_Add("influenza", "https://en.wikipedia.org/wiki/Influenza");
@@ -115221,8 +115133,6 @@ namespace OverflowHelper.core
             URL_Add("WampServer", "https://en.wikipedia.org/wiki/WampServer");
 
             URL_Add("DomainMath IDE", "https://sourceforge.net/p/domainmath/wiki/wiki-home%20/");
-
-            URL_Add("Portugal", "https://en.wikipedia.org/wiki/Portugal");
 
             URL_Add("condition", "https://en.wiktionary.org/wiki/condition#Noun");
 
@@ -115492,8 +115402,6 @@ namespace OverflowHelper.core
 
             URL_Add("Teflon", "https://en.wikipedia.org/wiki/Polytetrafluoroethylene");
 
-            URL_Add("The Lord of the Rings", "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings");
-
             URL_Add("bodge", "https://en.wiktionary.org/wiki/bodge#Noun");
 
             URL_Add("establish", "https://en.wiktionary.org/wiki/establish#Verb");
@@ -115670,13 +115578,7 @@ namespace OverflowHelper.core
 
             URL_Add("results", "https://en.wiktionary.org/wiki/result#Noun");
 
-            URL_Add("Kenya", "https://en.wikipedia.org/wiki/Kenya");
-
-            URL_Add("Osama bin Laden", "https://en.wikipedia.org/wiki/Osama_bin_Laden");
-
             URL_Add("QAnon", "https://en.wikipedia.org/wiki/QAnon");
-
-            URL_Add("Tanzania", "https://en.wikipedia.org/wiki/Tanzania");
 
             URL_Add("fraction", "https://en.wiktionary.org/wiki/fraction#Noun");
 
@@ -115916,8 +115818,6 @@ namespace OverflowHelper.core
 
             URL_Add("trimmed", "https://en.wiktionary.org/wiki/trim#Verb");
 
-            URL_Add("Arabian", "https://en.wiktionary.org/wiki/Arabian#Adjective");
-
             URL_Add("butterfly effect", "https://en.wikipedia.org/wiki/Butterfly_effect");
 
             URL_Add("Ewoks", "https://en.wikipedia.org/wiki/Ewok");
@@ -115963,14 +115863,6 @@ namespace OverflowHelper.core
             URL_Add("regional", "https://en.wiktionary.org/wiki/regional#Adjective");
 
             URL_Add("Enthought Canopy", "https://en.wikipedia.org/wiki/Enthought");
-
-            URL_Add("London", "https://en.wikipedia.org/wiki/London");
-
-            URL_Add("Moscow", "https://en.wikipedia.org/wiki/Moscow");
-
-            URL_Add("Myanmar", "https://en.wikipedia.org/wiki/Myanmar");
-
-            URL_Add("Russia", "https://en.wikipedia.org/wiki/Russia");
 
             URL_Add("dotTrace", "https://en.wikipedia.org/wiki/JetBrains#ReSharper_Ultimate");
 
@@ -116870,8 +116762,6 @@ namespace OverflowHelper.core
 
             URL_Add("upper", "https://en.wiktionary.org/wiki/upper#Adjective");
 
-            URL_Add("Spaniard", "https://en.wiktionary.org/wiki/Spaniard#Noun");
-
             URL_Add("nonconsecutive", "https://en.wiktionary.org/wiki/nonconsecutive#Adjective");
 
             URL_Add("slow motion", "https://en.wiktionary.org/wiki/slow_motion#Noun");
@@ -117015,8 +116905,6 @@ namespace OverflowHelper.core
             URL_Add("serializer", "https://en.wiktionary.org/wiki/serializer#Noun");
 
             URL_Add("guys", "https://en.wiktionary.org/wiki/guys#Noun");
-
-            URL_Add("de-Stalinization", "https://en.wikipedia.org/wiki/De-Stalinization");
 
             URL_Add("leet", "https://en.wikipedia.org/wiki/Leet");
 
@@ -117556,10 +117444,6 @@ namespace OverflowHelper.core
 
             URL_Add("1st century BC", "https://en.wikipedia.org/wiki/1st_century_BC");
 
-            URL_Add("Julius Caesar", "https://en.wikipedia.org/wiki/Julius_Caesar");
-
-            URL_Add("Rome", "https://en.wikipedia.org/wiki/Rome");
-
             URL_Add("Software Updater", "https://en.wikipedia.org/wiki/Software_Updater");
 
             URL_Add("distill", "https://en.wiktionary.org/wiki/distill#Verb");
@@ -117710,8 +117594,6 @@ namespace OverflowHelper.core
 
             URL_Add("50 Ways to Leave Your Lover", "https://en.wikipedia.org/wiki/50_Ways_to_Leave_Your_Lover");
 
-            URL_Add("Caucasian", "https://en.wiktionary.org/wiki/Caucasian#Adjective");
-
             URL_Add("JEDI", "https://en.wiktionary.org/wiki/JEDI#Noun");
 
             URL_Add("Netty", "https://en.wikipedia.org/wiki/Netty_(software)");
@@ -117823,8 +117705,6 @@ namespace OverflowHelper.core
             URL_Add("George Orwell", "https://en.wikipedia.org/wiki/George_Orwell");
 
             URL_Add("Noah Webster", "https://en.wikipedia.org/wiki/Noah_Webster");
-
-            URL_Add("Scottish", "https://en.wiktionary.org/wiki/Scottish#Adjective");
 
             URL_Add("ZipRecruiter", "https://en.wikipedia.org/wiki/ZipRecruiter");
 
@@ -118429,8 +118309,6 @@ namespace OverflowHelper.core
             URL_Add("reprogram", "https://en.wiktionary.org/wiki/reprogram#Verb");
 
             URL_Add("Apex", "https://en.wikipedia.org/wiki/Salesforce#Salesforce_Platform"); // Old: https://en.wikipedia.org/wiki/Salesforce#Apex
-
-            URL_Add("Bulgarian", "https://en.wiktionary.org/wiki/Bulgarian#Adjective");
 
             URL_Add("idealised", "https://en.wiktionary.org/wiki/idealised#Adjective");
 
@@ -119280,8 +119158,6 @@ namespace OverflowHelper.core
 
             URL_Add("no longer", "https://en.wiktionary.org/wiki/no_longer#Adverb");
 
-            URL_Add("Gollum", "https://en.wikipedia.org/wiki/Gollum");
-
             URL_Add("dotPeek", "https://www.jetbrains.com/decompiler/");
 
             URL_Add("AVX-512", "https://en.wikipedia.org/wiki/AVX-512");
@@ -119806,8 +119682,6 @@ namespace OverflowHelper.core
 
             URL_Add("combo box", "https://en.wikipedia.org/wiki/Combo_box");
 
-            URL_Add("Mikhail Gorbachev", "https://en.wikipedia.org/wiki/Mikhail_Gorbachev");
-
             URL_Add("PyYAML", "https://pyyaml.org/wiki/PyYAML");
 
             URL_Add("retraverse", "https://en.wiktionary.org/wiki/retraverse#Verb");
@@ -119911,8 +119785,6 @@ namespace OverflowHelper.core
             URL_Add("merging", "https://en.wiktionary.org/wiki/merge#Verb");
 
             URL_Add("indoctrination", "https://en.wiktionary.org/wiki/indoctrination#Noun");
-
-            URL_Add("dictator", "https://en.wiktionary.org/wiki/dictator#Noun");
 
             URL_Add("resulting", "https://en.wiktionary.org/wiki/resulting#Adjective");
 
@@ -120071,8 +119943,6 @@ namespace OverflowHelper.core
             URL_Add("SSA", "https://en.wikipedia.org/wiki/Static_single-assignment_form");
 
             URL_Add("ableism", "https://en.wikipedia.org/wiki/Ableism");
-
-            URL_Add("Kherson", "https://en.wikipedia.org/wiki/Kherson");
 
             URL_Add("ceremonial", "https://en.wiktionary.org/wiki/ceremonial#Adjective");
 
@@ -120992,8 +120862,6 @@ namespace OverflowHelper.core
 
             URL_Add("terminfo", "https://en.wikipedia.org/wiki/Terminfo");
 
-            URL_Add("the Commonwealth", "https://en.wikipedia.org/wiki/Commonwealth_of_Nations");
-
             URL_Add("inapproachability", "https://en.wiktionary.org/wiki/inapproachability#Noun");
 
             URL_Add("spaghetti code", "https://en.wikipedia.org/wiki/Spaghetti_code");
@@ -121596,8 +121464,6 @@ namespace OverflowHelper.core
 
             URL_Add("poor", "https://en.wiktionary.org/wiki/poor#Adjective");
 
-            URL_Add("Turkey", "https://en.wikipedia.org/wiki/Turkey");
-
             URL_Add("Xamarin Studio", "https://en.wikipedia.org/wiki/Xamarin#Xamarin_Studio");
 
             URL_Add("corner case", "https://en.wiktionary.org/wiki/corner_case#Noun");
@@ -121698,8 +121564,6 @@ namespace OverflowHelper.core
 
             URL_Add("Snappy", "https://en.wikipedia.org/wiki/Snappy_(compression)");
 
-            URL_Add("Vuhledar", "https://en.wikipedia.org/wiki/Battle_of_Vuhledar");
-
             URL_Add("boys' club", "https://en.wiktionary.org/wiki/boys%27_club#Noun");
 
             URL_Add("crashes", "https://en.wiktionary.org/wiki/crash#Verb");
@@ -121709,10 +121573,6 @@ namespace OverflowHelper.core
             URL_Add("Chinese room argument", "https://en.wikipedia.org/wiki/Chinese_room");
 
             URL_Add("philosopher", "https://en.wiktionary.org/wiki/philosopher#Noun");
-
-            URL_Add("Torah", "https://en.wiktionary.org/wiki/Torah#Proper_noun");
-
-            URL_Add("Palestinian", "https://en.wiktionary.org/wiki/Palestinian#Adjective");
 
             URL_Add("blah", "https://en.wiktionary.org/wiki/blah#Noun");
 
@@ -121937,8 +121797,6 @@ namespace OverflowHelper.core
             URL_Add("iterate", "https://en.wiktionary.org/wiki/iterate#Verb");
 
             URL_Add("Qt OPC UA", "https://doc.qt.io/qt-6/qtopcua-overview.html");
-
-            URL_Add("Bakhmut", "https://en.wikipedia.org/wiki/Bakhmut");
 
             URL_Add("collateral", "https://en.wiktionary.org/wiki/collateral#Adjective");
 
@@ -122223,8 +122081,6 @@ namespace OverflowHelper.core
             URL_Add("iOS&nbsp;9", "https://en.wikipedia.org/wiki/IOS_9");
 
             URL_Add("abomination", "https://en.wiktionary.org/wiki/abomination#Noun");
-
-            URL_Add("mosquitos in Valencia (Hans Christian Andersen)", "https://www.andalucia.com/history/people/hans-christian-andersen/spain-travel-1862.htm");
 
             URL_Add("iPhone 14", "https://en.wikipedia.org/wiki/IPhone_14");
 
@@ -122512,8 +122368,6 @@ namespace OverflowHelper.core
 
             URL_Add("automate", "https://en.wiktionary.org/wiki/automate#Verb");
 
-            URL_Add("Bethlehem", "https://en.wikipedia.org/wiki/Bethlehem");
-
             URL_Add("comes", "https://en.wiktionary.org/wiki/come#Verb");
 
             URL_Add("battle", "https://en.wiktionary.org/wiki/battle#Noun");
@@ -122561,8 +122415,6 @@ namespace OverflowHelper.core
             URL_Add("Wednesday", "https://en.wiktionary.org/wiki/Wednesday#Noun");
 
             URL_Add("prompting", "https://en.wiktionary.org/wiki/prompt#Verb");
-
-            URL_Add("the Azores", "https://en.wikipedia.org/wiki/Azores");
 
             URL_Add("TypeRacer", "https://en.wikipedia.org/wiki/TypeRacer");
 
@@ -124468,8 +124320,6 @@ namespace OverflowHelper.core
 
             URL_Add("annoyed", "https://en.wiktionary.org/wiki/annoyed#Adjective");
 
-            URL_Add("Hungarian", "https://en.wiktionary.org/wiki/Hungarian#Adjective");
-
             URL_Add("skip", "https://en.wiktionary.org/wiki/skip#Verb");
 
             URL_Add("depleting", "https://en.wiktionary.org/wiki/deplete#Verb");
@@ -124751,8 +124601,6 @@ namespace OverflowHelper.core
             URL_Add("delivers", "https://en.wiktionary.org/wiki/deliver#Verb");
 
             URL_Add("cleverer", "https://en.wiktionary.org/wiki/clever#Adjective");
-
-            URL_Add("Frankensteinish", "https://en.wiktionary.org/wiki/Frankensteinish#Adjective");
 
             URL_Add("underdot", "https://en.wikipedia.org/wiki/Dot_(diacritic)#Underdot");
 
@@ -125696,8 +125544,6 @@ namespace OverflowHelper.core
 
             URL_Add("atmospheric", "https://en.wiktionary.org/wiki/atmospheric#Adjective");
 
-            URL_Add("Iberian Peninsula", "https://en.wikipedia.org/wiki/Iberian_Peninsula");
-
             URL_Add("think tank", "https://en.wiktionary.org/wiki/think_tank#Noun");
 
             URL_Add("internals", "https://en.wiktionary.org/wiki/internals#Noun");
@@ -126350,15 +126196,7 @@ namespace OverflowHelper.core
 
             URL_Add("Rolls-Royce", "https://en.wikipedia.org/wiki/Rolls-Royce_Limited");
 
-            URL_Add("Jerusalem", "https://en.wiktionary.org/wiki/Jerusalem#Proper_noun");
-
-            URL_Add("Israel", "https://en.wikipedia.org/wiki/Israel");
-
-            URL_Add("Israelis", "https://en.wiktionary.org/wiki/Israeli#Noun");
-
             URL_Add("MISRA C", "https://en.wikipedia.org/wiki/MISRA_C");
-
-            URL_Add("James Gosling", "https://en.wikipedia.org/wiki/James_Gosling");
 
             URL_Add("nitpicky", "https://en.wiktionary.org/wiki/nitpicky#Adjective");
 
@@ -126892,14 +126730,6 @@ namespace OverflowHelper.core
 
             URL_Add("capacity", "https://en.wiktionary.org/wiki/capacity#Noun");
 
-            URL_Add("capital", "https://en.wiktionary.org/wiki/capital#Noun");
-
-            URL_Add("capitalist", "https://en.wiktionary.org/wiki/capitalist#Adjective");
-
-            URL_Add("capitalism", "https://en.wiktionary.org/wiki/capitalism#Noun");
-
-            URL_Add("laissez-faire capitalism", "https://en.wikipedia.org/wiki/Laissez-faire#Capitalism");
-
             URL_Add("capitalised", "https://en.wiktionary.org/wiki/capitalise#Verb");
 
             URL_Add("capitalisation", "https://en.wiktionary.org/wiki/capitalisation#Noun");
@@ -127277,10 +127107,6 @@ namespace OverflowHelper.core
             URL_Add("B.Sc", "https://en.wikipedia.org/wiki/Bachelor_of_Science"); // Old: https://en.wiktionary.org/wiki/Bachelor_of_Science#Abbreviations
 
             URL_Add("M.Sc", "https://en.wikipedia.org/wiki/Master_of_Science");
-
-            URL_Add("Saudi", "https://en.wiktionary.org/wiki/Saudi#Adjective");
-
-            URL_Add("Sikh", "https://en.wiktionary.org/wiki/Sikh#Adjective");
 
             URL_Add("clearing", "https://en.wiktionary.org/wiki/clear#Verb");
 
@@ -127770,8 +127596,6 @@ namespace OverflowHelper.core
 
             URL_Add("resynchronise", "https://en.wiktionary.org/wiki/resynchronise#Verb");
 
-            URL_Add("Chernobyl", "https://en.wikipedia.org/wiki/Chernobyl");
-
             URL_Add("muddying the waters", "https://en.wiktionary.org/wiki/muddy_the_waters#Verb");
 
             URL_Add("Chevrolet Blazer", "https://en.wikipedia.org/wiki/Chevrolet_Blazer");
@@ -127964,8 +127788,6 @@ namespace OverflowHelper.core
 
             URL_Add("Google Books", "https://en.wikipedia.org/wiki/Google_Books");
 
-            URL_Add("Frankensteining", "https://en.wiktionary.org/wiki/Frankenstein#Verb");
-
             URL_Add("anecdotes", "https://en.wiktionary.org/wiki/anecdote#Noun");
 
             URL_Add("deliberate", "https://en.wiktionary.org/wiki/deliberate#Adjective");
@@ -128129,8 +127951,6 @@ namespace OverflowHelper.core
             URL_Add("feel-good", "https://en.wiktionary.org/wiki/feel-good#Adjective");
 
             URL_Add("gut feeling", "https://en.wiktionary.org/wiki/gut_feeling#Noun");
-
-            URL_Add("Venice", "https://en.wikipedia.org/wiki/Venice");
 
             URL_Add("due", "https://en.wiktionary.org/wiki/due#Adjective");
 
@@ -129590,8 +129410,6 @@ namespace OverflowHelper.core
 
             URL_Add("team lead", "https://en.wikipedia.org/wiki/Team_leader");
 
-            URL_Add("all roads lead to Rome", "https://en.wiktionary.org/wiki/all_roads_lead_to_Rome#Proverb");
-
             URL_Add("key opinion leaders", "https://en.wikipedia.org/wiki/Opinion_leadership#External_links");
 
             URL_Add("Radon–Nikodym theorem", "https://en.wikipedia.org/wiki/Radon%E2%80%93Nikodym_theorem");
@@ -130466,8 +130284,6 @@ namespace OverflowHelper.core
 
             URL_Add("TSLint", "https://palantir.github.io/tslint/");
 
-            URL_Add("Liquid", "https://shopify.github.io/liquid/"); // Old: <http://shopify.github.io/liquid/>
-
             URL_Add("Immer", "https://immerjs.github.io/immer/");
 
             URL_Add("Spine.js", "https://spine.github.io/");
@@ -130875,8 +130691,6 @@ namespace OverflowHelper.core
             URL_Add("Maven Central", "https://shibboleth.atlassian.net/wiki/spaces/DEV/pages/1123844333/Use+of+Maven+Central");
 
             URL_Add("CHKDSK", "https://en.wikipedia.org/wiki/CHKDSK");
-
-            URL_Add("UK", "https://en.wiktionary.org/wiki/UK#Adjective");
 
             URL_Add("Vitamin K", "https://en.wikipedia.org/wiki/Vitamin_K");
 
@@ -131376,8 +131190,6 @@ namespace OverflowHelper.core
 
             URL_Add("nation-state actor", "https://en.wikipedia.org/wiki/Threat_actor#Nation-state_actors");
 
-            URL_Add("two-state solution", "https://en.wikipedia.org/wiki/Two-state_solution");
-
             URL_Add("real estate", "https://en.wiktionary.org/wiki/real_estate#Noun");
 
             URL_Add("realtor", "https://en.wikipedia.org/wiki/Real_estate_agent#Realtor");
@@ -131801,8 +131613,6 @@ namespace OverflowHelper.core
             URL_Add("Cygwin", "https://en.wikipedia.org/wiki/Cygwin");
 
             URL_Add("SourceForge", "https://en.wikipedia.org/wiki/SourceForge");
-
-            URL_Add("Frankensteined", "https://en.wiktionary.org/wiki/Frankenstein#Verb");
 
             URL_Add("business intelligence", "https://en.wikipedia.org/wiki/Business_intelligence");
 
@@ -132261,8 +132071,6 @@ namespace OverflowHelper.core
             URL_Add("hearing", "https://en.wiktionary.org/wiki/hear#Verb");
 
             URL_Add("stripped-down", "https://en.wiktionary.org/wiki/stripped-down#Adjective");
-
-            URL_Add("Gaza Strip", "https://en.wikipedia.org/wiki/Gaza_Strip");
 
             URL_Add("data breach", "https://en.wiktionary.org/wiki/data_breach#Noun");
 
@@ -133587,10 +133395,6 @@ namespace OverflowHelper.core
             URL_Add("rickroll", "https://en.wiktionary.org/wiki/rickroll#Verb");
 
             URL_Add("rickrolling", "https://en.wikipedia.org/wiki/Rickrolling");
-
-            URL_Add("Ukraine", "https://en.wikipedia.org/wiki/Ukraine");
-
-            URL_Add("Ukrainian", "https://en.wiktionary.org/wiki/Ukrainian#Proper_noun");
 
             URL_Add("særskrivninger", "https://da.wikipedia.org/wiki/S%C3%A6rskrivning");
 
@@ -135196,30 +135000,6 @@ namespace OverflowHelper.core
 
             URL_Add("Unix domain socket", "https://en.wikipedia.org/wiki/Unix_domain_socket");
 
-            URL_Add("Jamaican", "https://en.wiktionary.org/wiki/Jamaican#Adjective");
-
-            URL_Add("The Bahamas", "https://en.wikipedia.org/wiki/The_Bahamas");
-
-            URL_Add("The Caribbean", "https://en.wikipedia.org/wiki/Caribbean");
-
-            URL_Add("Puerto Rico", "https://en.wikipedia.org/wiki/Puerto_Rico");
-
-            URL_Add("Aruba", "https://en.wikipedia.org/wiki/Aruba");
-
-            URL_Add("Bonaire", "https://en.wikipedia.org/wiki/Bonaire");
-
-            URL_Add("Curaçao", "https://en.wikipedia.org/wiki/Cura%C3%A7ao");
-
-            URL_Add("Bulgaria", "https://en.wikipedia.org/wiki/Bulgaria");
-
-            URL_Add("Havana", "https://en.wikipedia.org/wiki/Havana");
-
-            URL_Add("Saba", "https://en.wikipedia.org/wiki/Saba_(island)");
-
-            URL_Add("Sint Eustatius", "https://en.wikipedia.org/wiki/Sint_Eustatius");
-
-            URL_Add("Sint Maarten", "https://en.wikipedia.org/wiki/Sint_Maarten");
-
             URL_Add("YUI Compressor", "https://github.com/yui/yuicompressor");
 
             URL_Add("YUI", "https://en.wikipedia.org/wiki/Yahoo!_UI_Library");
@@ -135507,8 +135287,6 @@ namespace OverflowHelper.core
             URL_Add("Shure SM7B", "https://en.wikipedia.org/wiki/Shure_SM7");
 
             URL_Add("MonsGeek M5", "https://www.monsgeek.com/product/m5/");
-
-            URL_Add("Liquid Glass", "https://en.wikipedia.org/wiki/Liquid_Glass");
 
             URL_Add("build system", "https://en.wikipedia.org/wiki/Build_automation");
 
@@ -139280,7 +139058,223 @@ namespace OverflowHelper.core
 
             URL_Add("Northern Hemisphere", "https://en.wiktionary.org/wiki/Northern_Hemisphere#Noun");
 
+            URL_Add("Rome", "https://en.wikipedia.org/wiki/Rome");
+
+            URL_Add("all roads lead to Rome", "https://en.wiktionary.org/wiki/all_roads_lead_to_Rome#Proverb");
+
+            URL_Add("Venice", "https://en.wikipedia.org/wiki/Venice");
+
+            URL_Add("UK", "https://en.wiktionary.org/wiki/UK#Adjective");
+
+            URL_Add("Britain", "https://en.wiktionary.org/wiki/Britain#Proper_noun");
+
+            URL_Add("British", "https://en.wiktionary.org/wiki/British#Adjective");
+
+            URL_Add("London", "https://en.wikipedia.org/wiki/London");
+
+            URL_Add("Tory", "https://en.wiktionary.org/wiki/Tory#Noun");
+
+            URL_Add("the Commonwealth", "https://en.wikipedia.org/wiki/Commonwealth_of_Nations");
+
+            URL_Add("Ireland", "https://en.wikipedia.org/wiki/Ireland");
+
+            URL_Add("Irish", "https://en.wiktionary.org/wiki/Irish#Adjective");
+
             URL_Add("Northern Ireland", "https://en.wikipedia.org/wiki/Northern_Ireland");
+
+            URL_Add("Polish", "https://en.wiktionary.org/wiki/Polish#Adjective");
+
+            URL_Add("Titanic", "https://en.wikipedia.org/wiki/RMS_Titanic");
+
+            URL_Add("Scotland", "https://en.wiktionary.org/wiki/Scotland#Proper_noun");
+
+            URL_Add("Scottish", "https://en.wiktionary.org/wiki/Scottish#Adjective");
+
+            URL_Add("British Medical Association", "https://en.wikipedia.org/wiki/British_Medical_Association");
+
+            URL_Add("Loch Ness Monster", "https://en.wikipedia.org/wiki/Loch_Ness_Monster");
+
+            URL_Add("Wales", "https://en.wikipedia.org/wiki/Wales");
+
+            URL_Add("Poland", "https://en.wikipedia.org/wiki/Poland");
+
+            URL_Add("złoty", "https://en.wikipedia.org/wiki/Polish_z%C5%82oty#Fourth_z%C5%82oty_(PLN)");
+
+            URL_Add("Chernobyl", "https://en.wikipedia.org/wiki/Chernobyl");
+
+            URL_Add("Ukraine", "https://en.wikipedia.org/wiki/Ukraine");
+
+            URL_Add("Ukrainian", "https://en.wiktionary.org/wiki/Ukrainian#Proper_noun");
+
+            URL_Add("Bakhmut", "https://en.wikipedia.org/wiki/Bakhmut");
+
+            URL_Add("Kherson", "https://en.wikipedia.org/wiki/Kherson");
+
+            URL_Add("Kiev", "https://en.wikipedia.org/wiki/Kiev");
+
+            URL_Add("Vuhledar", "https://en.wikipedia.org/wiki/Battle_of_Vuhledar");
+
+            URL_Add("Belarus", "https://en.wikipedia.org/wiki/Belarus");
+
+            URL_Add("Russia", "https://en.wikipedia.org/wiki/Russia");
+
+            URL_Add("Moscow", "https://en.wikipedia.org/wiki/Moscow");
+
+            URL_Add("Russian", "https://en.wiktionary.org/wiki/Russian#Adjective");
+
+            URL_Add("ruble", "https://en.wiktionary.org/wiki/ruble#Noun");
+
+            URL_Add("mobilised soldiers", "https://en.wiktionary.org/wiki/mobik#Noun");
+
+            URL_Add("colonialism", "https://en.wiktionary.org/wiki/colonialism#Noun");
+
+            URL_Add("colonialist", "https://en.wiktionary.org/wiki/colonialist#Adjective");
+
+            URL_Add("colonies", "https://en.wiktionary.org/wiki/colony#Noun");
+
+            URL_Add("empire", "https://en.wiktionary.org/wiki/empire#Noun");
+
+            URL_Add("communist", "https://en.wiktionary.org/wiki/communist#Adjective");
+
+            URL_Add("Brexit", "https://en.wiktionary.org/wiki/Brexit#Proper_noun");
+
+            URL_Add("Marxism", "https://en.wiktionary.org/wiki/Marxism#Noun"); // Old: https://en.wiktionary.org/wiki/Marxism#English
+
+            URL_Add("Marxist", "https://en.wiktionary.org/wiki/Marxist#Adjective");
+
+            URL_Add("socialism", "https://en.wiktionary.org/wiki/socialism#Noun");
+
+            URL_Add("capital", "https://en.wiktionary.org/wiki/capital#Noun");
+
+            URL_Add("capitalist", "https://en.wiktionary.org/wiki/capitalist#Adjective");
+
+            URL_Add("capitalism", "https://en.wiktionary.org/wiki/capitalism#Noun");
+
+            URL_Add("laissez-faire capitalism", "https://en.wikipedia.org/wiki/Laissez-faire#Capitalism");
+
+            URL_Add("soviet", "https://en.wiktionary.org/wiki/soviet#Noun");
+
+            URL_Add("Soviet Union", "https://en.wikipedia.org/wiki/Soviet_Union");
+
+            URL_Add("de-Stalinization", "https://en.wikipedia.org/wiki/De-Stalinization");
+
+            URL_Add("Iron Curtain", "https://en.wikipedia.org/wiki/Iron_Curtain");
+
+            URL_Add("iron fist", "https://en.wiktionary.org/wiki/iron_fist#Noun");
+
+            URL_Add("ironclad", "https://en.wiktionary.org/wiki/ironclad#Adjective");
+
+            URL_Add("Cyrillic", "https://en.wiktionary.org/wiki/Cyrillic#Adjective");
+
+            URL_Add("Bulgaria", "https://en.wikipedia.org/wiki/Bulgaria");
+
+            URL_Add("Bulgarian", "https://en.wiktionary.org/wiki/Bulgarian#Adjective");
+
+            URL_Add("Romania", "https://en.wikipedia.org/wiki/Romania");
+
+            URL_Add("Frankensteining", "https://en.wiktionary.org/wiki/Frankenstein#Verb");
+
+            URL_Add("Frankensteined", "https://en.wiktionary.org/wiki/Frankenstein#Verb");
+
+            URL_Add("Frankensteinish", "https://en.wiktionary.org/wiki/Frankensteinish#Adjective");
+
+            URL_Add("Hungarian", "https://en.wiktionary.org/wiki/Hungarian#Adjective");
+
+            URL_Add("Slovakia", "https://en.wikipedia.org/wiki/Slovakia");
+
+            URL_Add("transatlantic", "https://en.wiktionary.org/wiki/transatlantic#Adjective");
+
+            URL_Add("Turkey", "https://en.wikipedia.org/wiki/Turkey");
+
+            URL_Add("Turkish", "https://en.wiktionary.org/wiki/Turkish#Adjective");
+
+            URL_Add("Chechnya", "https://en.wikipedia.org/wiki/Chechnya");
+
+            URL_Add("Cyprus", "https://en.wikipedia.org/wiki/Cyprus");
+
+            URL_Add("Caucasian", "https://en.wiktionary.org/wiki/Caucasian#Adjective");
+
+            URL_Add("Israel", "https://en.wikipedia.org/wiki/Israel");
+
+            URL_Add("Israelis", "https://en.wiktionary.org/wiki/Israeli#Noun");
+
+            URL_Add("Hebrew", "https://en.wiktionary.org/wiki/Hebrew#Noun");
+
+            URL_Add("Jerusalem", "https://en.wiktionary.org/wiki/Jerusalem#Proper_noun");
+
+            URL_Add("Tel Aviv", "https://en.wikipedia.org/wiki/Tel_Aviv");
+
+            URL_Add("Torah", "https://en.wiktionary.org/wiki/Torah#Proper_noun");
+
+            URL_Add("Palestinian", "https://en.wiktionary.org/wiki/Palestinian#Adjective");
+
+            URL_Add("Gaza Strip", "https://en.wikipedia.org/wiki/Gaza_Strip");
+
+            URL_Add("Bethlehem", "https://en.wikipedia.org/wiki/Bethlehem");
+
+            URL_Add("Dead Sea", "https://en.wiktionary.org/wiki/Dead_Sea#Proper_noun"); // Old: https://en.wiktionary.org/wiki/Dead_Sea
+
+            URL_Add("two-state solution", "https://en.wikipedia.org/wiki/Two-state_solution");
+
+            URL_Add("Iberian Peninsula", "https://en.wikipedia.org/wiki/Iberian_Peninsula");
+
+            URL_Add("Greece", "https://en.wikipedia.org/wiki/Greece");
+
+            URL_Add("Spain", "https://en.wikipedia.org/wiki/Spain");
+
+            URL_Add("Spaniard", "https://en.wiktionary.org/wiki/Spaniard#Noun");
+
+            URL_Add("Gibraltar", "https://en.wikipedia.org/wiki/Gibraltar");
+
+            URL_Add("mosquitos in Valencia (Hans Christian Andersen)", "https://www.andalucia.com/history/people/hans-christian-andersen/spain-travel-1862.htm");
+
+            URL_Add("the Azores", "https://en.wikipedia.org/wiki/Azores");
+
+            URL_Add("Portugal", "https://en.wikipedia.org/wiki/Portugal");
+
+            URL_Add("Morocco", "https://en.wikipedia.org/wiki/Morocco");
+
+            URL_Add("Tanzania", "https://en.wikipedia.org/wiki/Tanzania");
+
+            URL_Add("Kenya", "https://en.wikipedia.org/wiki/Kenya");
+
+            URL_Add("New Delhi", "https://en.wikipedia.org/wiki/New_Delhi");
+
+            URL_Add("India", "https://en.wikipedia.org/wiki/India");
+
+            URL_Add("Sikh", "https://en.wiktionary.org/wiki/Sikh#Adjective");
+
+            URL_Add("Myanmar", "https://en.wikipedia.org/wiki/Myanmar");
+
+            URL_Add("Indonesia", "https://en.wikipedia.org/wiki/Indonesia");
+
+            URL_Add("Indonesian", "https://en.wiktionary.org/wiki/Indonesian#Adjective");
+
+            URL_Add("Pakistan", "https://en.wikipedia.org/wiki/Pakistan");
+
+            URL_Add("Havana", "https://en.wikipedia.org/wiki/Havana");
+
+            URL_Add("Saba", "https://en.wikipedia.org/wiki/Saba_(island)");
+
+            URL_Add("Sint Eustatius", "https://en.wikipedia.org/wiki/Sint_Eustatius");
+
+            URL_Add("Sint Maarten", "https://en.wikipedia.org/wiki/Sint_Maarten");
+
+            URL_Add("Jamaican", "https://en.wiktionary.org/wiki/Jamaican#Adjective");
+
+            URL_Add("The Bahamas", "https://en.wikipedia.org/wiki/The_Bahamas");
+
+            URL_Add("The Caribbean", "https://en.wikipedia.org/wiki/Caribbean");
+
+            URL_Add("Puerto Rico", "https://en.wikipedia.org/wiki/Puerto_Rico");
+
+            URL_Add("Aruba", "https://en.wikipedia.org/wiki/Aruba");
+
+            URL_Add("Bonaire", "https://en.wikipedia.org/wiki/Bonaire");
+
+            URL_Add("Curaçao", "https://en.wikipedia.org/wiki/Cura%C3%A7ao");
+
+            URL_Add("Montreal", "https://en.wikipedia.org/wiki/Montreal");
 
             URL_Add("North Africans", "https://en.wiktionary.org/wiki/North_African#Noun");
 
@@ -139364,23 +139358,49 @@ namespace OverflowHelper.core
 
             URL_Add("world domination", "https://en.wikipedia.org/wiki/World_domination");
 
-            URL_Add("Tel Aviv", "https://en.wikipedia.org/wiki/Tel_Aviv");
-
             URL_Add("NANOGrav", "https://en.wikipedia.org/wiki/North_American_Nanohertz_Observatory_for_Gravitational_Waves");
 
             URL_Add("Paris", "https://en.wikipedia.org/wiki/Paris");
+
+            URL_Add("Mauritius", "https://en.wikipedia.org/wiki/Mauritius");
+
+            URL_Add("Reykjavík", "https://en.wikipedia.org/wiki/Reykjav%C3%ADk");
+
+            URL_Add("Melbourne", "https://en.wikipedia.org/wiki/Melbourne");
+
+            URL_Add("Adelaide", "https://en.wikipedia.org/wiki/Adelaide");
+
+            URL_Add("Sydney", "https://en.wikipedia.org/wiki/Sydney");
+
+            URL_Add("Arabic", "https://en.wiktionary.org/wiki/Arabic#Adjective");
+
+            URL_Add("Arabian", "https://en.wiktionary.org/wiki/Arabian#Adjective");
+
+            URL_Add("Lebanon", "https://en.wikipedia.org/wiki/Lebanon");
+
+            URL_Add("Saudi Arabia", "https://en.wikipedia.org/wiki/Saudi_Arabia");
+
+            URL_Add("Saudi", "https://en.wiktionary.org/wiki/Saudi#Adjective");
+
+            URL_Add("Osama bin Laden", "https://en.wikipedia.org/wiki/Osama_bin_Laden");
+
+            URL_Add("Qatar", "https://en.wikipedia.org/wiki/Qatar");
+
+            URL_Add("Bahrain", "https://en.wikipedia.org/wiki/Bahrain");
+
+            URL_Add("Dubai", "https://en.wikipedia.org/wiki/Dubai");
+
+            URL_Add("United Arab Emirates", "https://en.wikipedia.org/wiki/United_Arab_Emirates");
+
+            URL_Add("Emirate of Abu Dhabi", "https://en.wikipedia.org/wiki/Emirate_of_Abu_Dhabi");
 
             URL_Add("Hong Kong", "https://en.wikipedia.org/wiki/Hong_Kong");
 
             URL_Add("the Philippines", "https://en.wikipedia.org/wiki/Philippines");
 
-            URL_Add("Slovakia", "https://en.wikipedia.org/wiki/Slovakia");
-
             URL_Add("Mexico", "https://en.wikipedia.org/wiki/Mexico");
 
             URL_Add("Gulf of Mexico", "https://en.wikipedia.org/wiki/Gulf_of_Mexico");
-
-            URL_Add("transatlantic", "https://en.wiktionary.org/wiki/transatlantic#Adjective");
 
             URL_Add("African-American", "https://en.wiktionary.org/wiki/African-American#Noun");
 
@@ -139487,6 +139507,82 @@ namespace OverflowHelper.core
             URL_Add("Vermont, United States", "https://en.wikipedia.org/wiki/Vermont");
 
             URL_Add("Wisconsin, United States", "https://en.wikipedia.org/wiki/Wisconsin");
+
+            URL_Add("F-35", "https://en.wikipedia.org/wiki/Lockheed_Martin_F-35_Lightning_II");
+
+            URL_Add("Air Light VR", "https://github.com/alvr-org/ALVR");
+
+            URL_Add("airplane", "https://en.wiktionary.org/wiki/airplane#Noun");
+
+            URL_Add("airplanes", "https://en.wiktionary.org/wiki/airplane#Noun");
+
+            URL_Add("aviation gasoline", "https://en.wikipedia.org/wiki/Avgas");
+
+            URL_Add("airfield", "https://en.wiktionary.org/wiki/airfield#Noun");
+
+            URL_Add("indicated airspeed", "https://en.wikipedia.org/wiki/Indicated_airspeed");
+
+            URL_Add("true airspeed", "https://en.wikipedia.org/wiki/True_airspeed");
+
+            URL_Add("instrument landing system", "https://en.wikipedia.org/wiki/Instrument_landing_system");
+
+            URL_Add("scud running", "https://en.wikipedia.org/wiki/Scud_running");
+
+            URL_Add("scud ran", "https://en.wiktionary.org/wiki/scud_run#Verb");
+
+            URL_Add("runway", "https://en.wiktionary.org/wiki/runway#Noun");
+
+            URL_Add("runway excursion", "https://en.wikipedia.org/wiki/Runway_excursion");
+
+            URL_Add("runway incursion", "https://en.wikipedia.org/wiki/Runway_incursion");
+
+            URL_Add("Jet A", "https://en.wikipedia.org/wiki/Jet_fuel#Jet_A/A-1");
+
+            URL_Add("Cessna Citation II", "https://en.wikipedia.org/wiki/Cessna_Citation_II");
+
+            URL_Add("Embraer 190", "https://en.wikipedia.org/wiki/Embraer_E-Jet_family#E190_and_E195");
+
+            URL_Add("AirPort", "https://en.wikipedia.org/wiki/AirPort");
+
+            URL_Add("Tenerife airport disaster", "https://en.wikipedia.org/wiki/Tenerife_airport_disaster");
+
+            URL_Add("Keflavík", "https://en.wikipedia.org/wiki/Keflav%C3%ADk_International_Airport");
+
+            URL_Add("Boston Logan International Airport", "https://en.wikipedia.org/wiki/Logan_International_Airport");
+
+            URL_Add("Charles de Gaulle Airport", "https://en.wikipedia.org/wiki/Charles_de_Gaulle_Airport");
+
+            URL_Add("Sydney Airport", "https://en.wikipedia.org/wiki/Sydney_Airport");
+
+            URL_Add("Los Angeles International Airport", "https://en.wikipedia.org/wiki/Los_Angeles_International_Airport");
+
+            URL_Add("Tom Bradley International Terminal", "https://en.wikipedia.org/wiki/Terminals_of_Los_Angeles_International_Airport#Tom_Bradley_International_Terminal_(Terminal_B)");
+
+            URL_Add("Abu Dhabi International Airport", "https://en.wikipedia.org/wiki/Abu_Dhabi_International_Airport");
+
+            URL_Add("John F. Kennedy International Airport", "https://en.wikipedia.org/wiki/John_F._Kennedy_International_Airport");
+
+            URL_Add("Newark Liberty International Airport", "https://en.wikipedia.org/wiki/Newark_Liberty_International_Airport");
+
+            URL_Add("O'Hare International Airport", "https://en.wikipedia.org/wiki/O'Hare_International_Airport");
+
+            URL_Add("Heathrow Airport", "https://en.wikipedia.org/wiki/Heathrow_Airport");
+
+            URL_Add("Ronald Reagan Washington National Airport", "https://en.wikipedia.org/wiki/Ronald_Reagan_Washington_National_Airport");
+
+            URL_Add("Etihad Airways", "https://en.wikipedia.org/wiki/Etihad_Airways");
+
+            URL_Add("Qatar Airways", "https://en.wikipedia.org/wiki/Qatar_Airways");
+
+            URL_Add("Emirates", "https://en.wikipedia.org/wiki/Emirates_(airline)");
+
+            URL_Add("International Air Transport Association", "https://en.wikipedia.org/wiki/International_Air_Transport_Association");
+
+            URL_Add("TAP Air Portugal", "https://en.wikipedia.org/wiki/TAP_Air_Portugal");
+
+            URL_Add("Virgin Atlantic", "https://en.wikipedia.org/wiki/Virgin_Atlantic");
+
+            URL_Add("H-4 visa", "https://en.wikipedia.org/wiki/H-4_visa");
 
             URL_Add("italicising", "https://en.wiktionary.org/wiki/italicise#Verb");
 
@@ -139672,13 +139768,9 @@ namespace OverflowHelper.core
 
             URL_Add("destructors", "https://en.wikipedia.org/wiki/Destructor_(computer_programming)");
 
-            URL_Add("Crimson Desert", "https://en.wikipedia.org/wiki/Crimson_Desert");
-
             URL_Add("destruction", "https://en.wiktionary.org/wiki/destruction#Noun");
 
             URL_Add("ripped off", "https://en.wiktionary.org/wiki/rip_off#Verb");
-
-            URL_Add("Valheim", "https://en.wikipedia.org/wiki/Valheim");
 
             URL_Add("Windows Package Manager", "https://learn.microsoft.com/en-us/windows/package-manager/winget/");
 
@@ -139752,13 +139844,9 @@ namespace OverflowHelper.core
 
             URL_Add("ironically", "https://en.wiktionary.org/wiki/ironically#Adverb");
 
-            URL_Add("iron fist", "https://en.wiktionary.org/wiki/iron_fist#Noun");
-
             URL_Add("IronPython", "https://en.wikipedia.org/wiki/IronPython");
 
             URL_Add("IronRuby", "https://en.wikipedia.org/wiki/IronRuby");
-
-            URL_Add("Iron Curtain", "https://en.wikipedia.org/wiki/Iron_Curtain");
 
             URL_Add("Crusader Kings III", "https://en.wikipedia.org/wiki/Crusader_Kings_III");
 
@@ -142114,8 +142202,6 @@ namespace OverflowHelper.core
 
             URL_Add("callee", "https://en.wiktionary.org/wiki/callee#Noun");
 
-            URL_Add("ironclad", "https://en.wiktionary.org/wiki/ironclad#Adjective");
-
             URL_Add("ALGOL", "https://en.wikipedia.org/wiki/ALGOL");
 
             URL_Add("lockdown", "https://en.wiktionary.org/wiki/lockdown#Noun");
@@ -143610,6 +143696,12 @@ namespace OverflowHelper.core
 
             URL_Add("Iron Saga VS", "https://steamcommunity.com/app/2463800/discussions/0/597395881634844901/");
 
+            URL_Add("Crimson Desert", "https://en.wikipedia.org/wiki/Crimson_Desert");
+
+            URL_Add("Valheim", "https://en.wikipedia.org/wiki/Valheim");
+
+            URL_Add("Hollow Knight: Silksong", "https://en.wikipedia.org/wiki/Hollow_Knight:_Silksong");
+
             URL_Add("Pokémon Go", "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go");
 
             URL_Add("Pokémon Red", "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red,_Blue,_and_Yellow");
@@ -143759,8 +143851,6 @@ namespace OverflowHelper.core
             URL_Add("communicative", "https://en.wiktionary.org/wiki/communicative#Adjective");
 
             URL_Add("communication", "https://en.wiktionary.org/wiki/communication#Noun");
-
-            URL_Add("communist", "https://en.wiktionary.org/wiki/communist#Adjective");
 
             URL_Add("community", "https://en.wiktionary.org/wiki/community#Noun");
 
@@ -147064,8 +147154,6 @@ namespace OverflowHelper.core
 
             URL_Add("earliest deadline first", "https://en.wikipedia.org/wiki/Earliest_deadline_first_scheduling");
 
-            URL_Add("Dead Sea", "https://en.wiktionary.org/wiki/Dead_Sea#Proper_noun"); // Old: https://en.wiktionary.org/wiki/Dead_Sea
-
             URL_Add("Kilmat", "https://glennsaid.com/mat66-vs-kilmat-sound-deadening/");
 
             URL_Add("DLQ", "https://en.wikipedia.org/wiki/Dead_letter_queue");
@@ -147213,8 +147301,6 @@ namespace OverflowHelper.core
             URL_Add("44,100&nbsp;Hz", "https://en.wikipedia.org/wiki/44%2C100_Hz");
 
             URL_Add("baud rate", "https://en.wikipedia.org/wiki/Symbol_rate");
-
-            URL_Add("mobilised soldiers", "https://en.wiktionary.org/wiki/mobik#Noun");
 
             URL_Add("solder", "https://en.wikipedia.org/wiki/Solder");
 
@@ -149788,8 +149874,6 @@ namespace OverflowHelper.core
 
             URL_Add("Arnold Schwarzenegger", "https://en.wikipedia.org/wiki/Arnold_Schwarzenegger");
 
-            URL_Add("J. R. R. Tolkien", "https://en.wikipedia.org/wiki/J._R._R._Tolkien");
-
             URL_Add("John Green", "https://en.wikipedia.org/wiki/John_Green");
 
             URL_Add("Bill Joy", "https://en.wikipedia.org/wiki/Bill_Joy");
@@ -149815,8 +149899,6 @@ namespace OverflowHelper.core
             URL_Add("Barack Obama", "https://en.wikipedia.org/wiki/Barack_Obama");
 
             URL_Add("George W. Bush", "https://en.wikipedia.org/wiki/George_W._Bush");
-
-            URL_Add("Volodymyr Zelenskyy", "https://en.wikipedia.org/wiki/Volodymyr_Zelenskyy");
 
             URL_Add("Lego", "https://en.wikipedia.org/wiki/Lego");
 
@@ -149886,21 +149968,33 @@ namespace OverflowHelper.core
 
             URL_Add("chess player", "https://en.wiktionary.org/wiki/chess_player#Noun");
 
-            URL_Add("José Raúl Capablanca", "https://en.wikipedia.org/wiki/Jos%C3%A9_Ra%C3%BAl_Capablanca");
-
             URL_Add("en passant", "https://en.wikipedia.org/wiki/En_passant");
+
+            URL_Add("José Raúl Capablanca", "https://en.wikipedia.org/wiki/Jos%C3%A9_Ra%C3%BAl_Capablanca");
 
             URL_Add("Anatoly Karpov", "https://en.wikipedia.org/wiki/Anatoly_Karpov");
 
             URL_Add("Ian Nepomniachtchi", "https://en.wikipedia.org/wiki/Ian_Nepomniachtchi");
 
+            URL_Add("Garry Kasparov", "https://en.wikipedia.org/wiki/Garry_Kasparov");
+
+            URL_Add("Teimour Radjabov", "https://en.wikipedia.org/wiki/Teimour_Radjabov");
+
+            URL_Add("Mikhail Botvinnik", "https://en.wikipedia.org/wiki/Mikhail_Botvinnik");
+
             URL_Add("Margrethe II", "https://en.wikipedia.org/wiki/Margrethe_II"); // Old: https://en.wikipedia.org/wiki/Margrethe_II_of_Denmark
+
+            URL_Add("Winston Churchill", "https://en.wikipedia.org/wiki/Winston_Churchill");
 
             URL_Add("Elizabeth II", "https://en.wikipedia.org/wiki/Elizabeth_II");
 
+            URL_Add("Rishi Sunak", "https://en.wikipedia.org/wiki/Rishi_Sunak");
+
             URL_Add("David Cameron", "https://en.wikipedia.org/wiki/David_Cameron");
 
-            URL_Add("Rishi Sunak", "https://en.wikipedia.org/wiki/Rishi_Sunak");
+            URL_Add("Julius Caesar", "https://en.wikipedia.org/wiki/Julius_Caesar");
+
+            URL_Add("James Gosling", "https://en.wikipedia.org/wiki/James_Gosling");
 
             URL_Add("Jeff Bezos", "https://en.wikipedia.org/wiki/Jeff_Bezos");
 
@@ -149909,6 +150003,8 @@ namespace OverflowHelper.core
             URL_Add("Steve Ballmer", "https://en.wikipedia.org/wiki/Steve_Ballmer");
 
             URL_Add("Bill Gates", "https://en.wikipedia.org/wiki/Bill_Gates");
+
+            URL_Add("Greg Abbott", "https://en.wikipedia.org/wiki/Greg_Abbott");
 
             URL_Add("Lex Fridman", "https://en.wikipedia.org/wiki/Lex_Fridman");
 
@@ -149920,15 +150016,27 @@ namespace OverflowHelper.core
 
             URL_Add("Bashar al-Assad", "https://en.wikipedia.org/wiki/Bashar_al-Assad");
 
+            URL_Add("Mikhail Gorbachev", "https://en.wikipedia.org/wiki/Mikhail_Gorbachev");
+
             URL_Add("Vladimir Putin", "https://en.wikipedia.org/wiki/Vladimir_Putin");
+
+            URL_Add("Gollum", "https://en.wikipedia.org/wiki/Gollum");
+
+            URL_Add("The Lord of the Rings", "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings");
+
+            URL_Add("J. R. R. Tolkien", "https://en.wikipedia.org/wiki/J._R._R._Tolkien");
+
+            URL_Add("dictator", "https://en.wiktionary.org/wiki/dictator#Noun");
 
             URL_Add("Joseph Stalin", "https://en.wikipedia.org/wiki/Joseph_Stalin");
 
             URL_Add("Alexander Lukashenko", "https://en.wikipedia.org/wiki/Alexander_Lukashenko");
 
-            URL_Add("Silvio Berlusconi", "https://en.wikipedia.org/wiki/Silvio_Berlusconi");
-
             URL_Add("Viktor Yanukovych", "https://en.wikipedia.org/wiki/Viktor_Yanukovych");
+
+            URL_Add("Volodymyr Zelenskyy", "https://en.wikipedia.org/wiki/Volodymyr_Zelenskyy");
+
+            URL_Add("Silvio Berlusconi", "https://en.wikipedia.org/wiki/Silvio_Berlusconi");
 
             URL_Add("Karl Marx", "https://en.wikipedia.org/wiki/Karl_Marx");
 
@@ -150251,6 +150359,8 @@ namespace OverflowHelper.core
             URL_Add("water", "https://en.wikipedia.org/wiki/Water");
 
             URL_Add("hydrogen peroxide", "https://en.wikipedia.org/wiki/Hydrogen_peroxide");
+
+            URL_Add("surface tension", "https://en.wiktionary.org/wiki/surface_tension#Noun");
 
             URL_Add("helium", "https://en.wikipedia.org/wiki/Helium"); // Chemical element 2
 
@@ -150884,105 +150994,15 @@ namespace OverflowHelper.core
 
             URL_Add("Lightning Web Components", "https://developer.salesforce.com/docs/component-library/documentation/en/lwc");
 
-            URL_Add("F-35", "https://en.wikipedia.org/wiki/Lockheed_Martin_F-35_Lightning_II");
-
-            URL_Add("Air Light VR", "https://github.com/alvr-org/ALVR");
-
-            URL_Add("airplane", "https://en.wiktionary.org/wiki/airplane#Noun");
-
-            URL_Add("airplanes", "https://en.wiktionary.org/wiki/airplane#Noun");
-
-            URL_Add("aviation gasoline", "https://en.wikipedia.org/wiki/Avgas");
-
-            URL_Add("airfield", "https://en.wiktionary.org/wiki/airfield#Noun");
-
-            URL_Add("indicated airspeed", "https://en.wikipedia.org/wiki/Indicated_airspeed");
-
-            URL_Add("true airspeed", "https://en.wikipedia.org/wiki/True_airspeed");
-
-            URL_Add("instrument landing system", "https://en.wikipedia.org/wiki/Instrument_landing_system");
-
-            URL_Add("scud running", "https://en.wikipedia.org/wiki/Scud_running");
-
-            URL_Add("scud ran", "https://en.wiktionary.org/wiki/scud_run#Verb");
-
-            URL_Add("runway", "https://en.wiktionary.org/wiki/runway#Noun");
-
-            URL_Add("runway excursion", "https://en.wikipedia.org/wiki/Runway_excursion");
-
-            URL_Add("runway incursion", "https://en.wikipedia.org/wiki/Runway_incursion");
-
-            URL_Add("Jet A", "https://en.wikipedia.org/wiki/Jet_fuel#Jet_A/A-1");
-
-            URL_Add("Cessna Citation II", "https://en.wikipedia.org/wiki/Cessna_Citation_II");
-
-            URL_Add("Embraer 190", "https://en.wikipedia.org/wiki/Embraer_E-Jet_family#E190_and_E195");
-
-            URL_Add("AirPort", "https://en.wikipedia.org/wiki/AirPort");
-
-            URL_Add("Tenerife airport disaster", "https://en.wikipedia.org/wiki/Tenerife_airport_disaster");
-
-            URL_Add("Keflavík", "https://en.wikipedia.org/wiki/Keflav%C3%ADk_International_Airport");
-
-            URL_Add("Boston Logan International Airport", "https://en.wikipedia.org/wiki/Logan_International_Airport");
-
-            URL_Add("Charles de Gaulle Airport", "https://en.wikipedia.org/wiki/Charles_de_Gaulle_Airport");
-
-            URL_Add("Sydney Airport", "https://en.wikipedia.org/wiki/Sydney_Airport");
-
-            URL_Add("Los Angeles International Airport", "https://en.wikipedia.org/wiki/Los_Angeles_International_Airport");
-
-            URL_Add("Tom Bradley International Terminal", "https://en.wikipedia.org/wiki/Terminals_of_Los_Angeles_International_Airport#Tom_Bradley_International_Terminal_(Terminal_B)");
-
-            URL_Add("Abu Dhabi International Airport", "https://en.wikipedia.org/wiki/Abu_Dhabi_International_Airport");
-
-            URL_Add("John F. Kennedy International Airport", "https://en.wikipedia.org/wiki/John_F._Kennedy_International_Airport");
-
-            URL_Add("Newark Liberty International Airport", "https://en.wikipedia.org/wiki/Newark_Liberty_International_Airport");
-
-            URL_Add("O'Hare International Airport", "https://en.wikipedia.org/wiki/O'Hare_International_Airport");
-
-            URL_Add("Heathrow Airport", "https://en.wikipedia.org/wiki/Heathrow_Airport");
-
-            URL_Add("Ronald Reagan Washington National Airport", "https://en.wikipedia.org/wiki/Ronald_Reagan_Washington_National_Airport");
-
-            URL_Add("Reykjavík", "https://en.wikipedia.org/wiki/Reykjav%C3%ADk");
-
-            URL_Add("Melbourne", "https://en.wikipedia.org/wiki/Melbourne");
-
-            URL_Add("Adelaide", "https://en.wikipedia.org/wiki/Adelaide");
-
-            URL_Add("Sydney", "https://en.wikipedia.org/wiki/Sydney");
-
-            URL_Add("Qatar", "https://en.wikipedia.org/wiki/Qatar");
-
-            URL_Add("Bahrain", "https://en.wikipedia.org/wiki/Bahrain");
-
-            URL_Add("Dubai", "https://en.wikipedia.org/wiki/Dubai");
-
-            URL_Add("United Arab Emirates", "https://en.wikipedia.org/wiki/United_Arab_Emirates");
-
-            URL_Add("Emirate of Abu Dhabi", "https://en.wikipedia.org/wiki/Emirate_of_Abu_Dhabi");
-
-            URL_Add("Etihad Airways", "https://en.wikipedia.org/wiki/Etihad_Airways");
-
-            URL_Add("Qatar Airways", "https://en.wikipedia.org/wiki/Qatar_Airways");
-
-            URL_Add("Emirates", "https://en.wikipedia.org/wiki/Emirates_(airline)");
-
-            URL_Add("International Air Transport Association", "https://en.wikipedia.org/wiki/International_Air_Transport_Association");
-
-            URL_Add("Mauritius", "https://en.wikipedia.org/wiki/Mauritius");
-
-            URL_Add("TAP Air Portugal", "https://en.wikipedia.org/wiki/TAP_Air_Portugal");
-
-            URL_Add("Virgin Atlantic", "https://en.wikipedia.org/wiki/Virgin_Atlantic");
-
-            URL_Add("H-4 visa", "https://en.wikipedia.org/wiki/H-4_visa");
-
             URL_Add("lighter", "https://en.wiktionary.org/wiki/lighter#Adjective");
 
             URL_Add("lightest", "https://en.wiktionary.org/wiki/lightest#Adjective");
+
+            URL_Add("drama", "https://en.wiktionary.org/wiki/drama#Noun");
+
+            URL_Add("Liquid", "https://shopify.github.io/liquid/"); // Old: <http://shopify.github.io/liquid/>
+
+            URL_Add("Liquid Glass", "https://en.wikipedia.org/wiki/Liquid_Glass");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -153375,6 +153395,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("BastardKB_", "Bastard Keyboards_");
             correctionAdd("Bastardkb_", "Bastard Keyboards_");
+            correctionAdd("Quentin_", "Bastard Keyboards_");
             correctionAdd("Brb_", "Bastard Keyboards_");
             correctionAdd("brb_", "Bastard Keyboards_");
 
@@ -153650,11 +153671,11 @@ namespace OverflowHelper.core
             // For the reverse, to the abbr.
             correctionAdd("United States keyboard layout_", "ANSI_");
 
-            correctionAdd("Faroese_", "Faroese keyboard layout_");
+            correctionAdd("Faroese_", "Faroese keyboard layout_"); // For the cross-reference
 
-            correctionAdd("Norwegian_", "Norwegian keyboard layout_");
+            correctionAdd("Norwegian_", "Norwegian keyboard layout_"); // For the cross-reference
 
-            correctionAdd("Swedish_", "Swedish keyboard layout_");
+            correctionAdd("Swedish_", "Swedish keyboard layout_"); // For the cross-reference
 
             // A keyboard layout
             correctionAdd("French keyboard_", "French keyboard layout_");
@@ -166956,10 +166977,11 @@ namespace OverflowHelper.core
             correctionAdd("Wrist Rest_", "wrist rest_");
             correctionAdd("wrist-rest_", "wrist rest_");
             correctionAdd("wristwrest_", "wrist rest_");
-            correctionAdd("palm rest_", "wrist rest_");
+            correctionAdd("palm rest_", "wrist rest_"); // Not 100% correct
+            correctionAdd("Palm rest_", "wrist rest_");
             correctionAdd("wristrest_", "wrist rest_");
-            correctionAdd("palm_", "wrist rest_");
-            correctionAdd("rest_", "wrist rest_");
+            correctionAdd("palm_", "wrist rest_"); // Not 100% correct
+            correctionAdd("rest_", "wrist rest_"); // Not 100% correct
 
             correctionAdd("gjost_", "ghost_"); // A true typo
 
@@ -168825,8 +168847,6 @@ namespace OverflowHelper.core
 
             URL_Add("polling_", "https://en.wiktionary.org/wiki/poll#Verb");
 
-            URL_Add("liquid crystal_", "https://en.wikipedia.org/wiki/Liquid_crystal");
-
             URL_Add("messed_", "https://en.wiktionary.org/wiki/mess#Verb");
 
             URL_Add("peace_", "https://en.wiktionary.org/wiki/peace#Noun");
@@ -168982,8 +169002,6 @@ namespace OverflowHelper.core
             URL_Add("sample_", "https://en.wiktionary.org/wiki/sample#Noun");
 
             URL_Add("hibernate_", "https://en.wiktionary.org/wiki/hibernate#Verb");
-
-            URL_Add("LED indicators_", "https://docs.qmk.fm/features/led_indicators#led-indicators");
 
             URL_Add("solders_", "https://en.wiktionary.org/wiki/solder#Verb");
 
@@ -170251,12 +170269,6 @@ namespace OverflowHelper.core
 
             URL_Add("at_", "https://linux.die.net/man/1/at");
 
-            URL_Add("LED matrix_", "https://docs.qmk.fm/features/led_matrix");
-
-            URL_Add("RGB matrix_", "https://docs.qmk.fm/features/rgb_matrix");
-
-            URL_Add("The Matrix_", "https://en.wikipedia.org/wiki/The_Matrix");
-
             URL_Add("spacecraft planet instrument C-matrix (\"camera matrix\") events_", "https://en.wikipedia.org/wiki/SPICE_(observation_geometry_system)");
 
             URL_Add("Rosetta_", "https://en.wikipedia.org/wiki/Rosetta_(spacecraft)");
@@ -170516,10 +170528,6 @@ namespace OverflowHelper.core
             URL_Add("speed up_", "https://en.wiktionary.org/wiki/speed_up#Verb");
 
             URL_Add("Boris Johnson_", "https://en.wikipedia.org/wiki/Boris_Johnson");
-
-            URL_Add("current_", "https://en.wikipedia.org/wiki/Electric_current");
-
-            URL_Add("constant current source_", "https://en.wikipedia.org/wiki/Current_source#LED_current_source");
 
             URL_Add("MSI Afterburner_", "https://en.wikipedia.org/wiki/RivaTuner");
 
@@ -172104,6 +172112,20 @@ namespace OverflowHelper.core
             URL_Add("panda bear_", "https://en.wikipedia.org/wiki/Giant_panda");
 
             URL_Add("lightning_", "https://en.wiktionary.org/wiki/lightning#Noun");
+
+            URL_Add("liquid crystal_", "https://en.wikipedia.org/wiki/Liquid_crystal");
+
+            URL_Add("LED indicators_", "https://docs.qmk.fm/features/led_indicators#led-indicators");
+
+            URL_Add("LED matrix_", "https://docs.qmk.fm/features/led_matrix");
+
+            URL_Add("RGB matrix_", "https://docs.qmk.fm/features/rgb_matrix");
+
+            URL_Add("The Matrix_", "https://en.wikipedia.org/wiki/The_Matrix");
+
+            URL_Add("current_", "https://en.wikipedia.org/wiki/Electric_current");
+
+            URL_Add("constant current source_", "https://en.wikipedia.org/wiki/Current_source#LED_current_source");
 
         } //addLookupData_alternativeWordSet()
 
@@ -175532,7 +175554,7 @@ namespace OverflowHelper.core
             correctionAdd("Mvp__", "most valuable player__");
             correctionAdd("mvp__", "most valuable player__");
 
-            correctionAdd("Faroe Islands__", "Faroese__");
+            correctionAdd("Faroe Islands__", "Faroese__"); // For the cross-reference
             correctionAdd("Faroeic__", "Faroese__");
             correctionAdd("Ferøic__", "Faroese__");
 
@@ -177984,10 +178006,6 @@ namespace OverflowHelper.core
 
             URL_Add("IF__", "https://en.wikipedia.org/wiki/Intermediate_frequency");
 
-            URL_Add("debouncing__", "https://www.reddit.com/r/Keychron/comments/1fh6h26/comment/lp044qi/");
-
-            URL_Add("SNLED27351__", "https://www.reddit.com/r/Keychron/comments/1dk4s03/comment/l9h51e8/");
-
             URL_Add("Wired__", "https://en.wikipedia.org/wiki/Wired_(magazine)");
 
             URL_Add("microprocessor__", "https://en.wikipedia.org/wiki/Microprocessor");
@@ -178423,6 +178441,10 @@ namespace OverflowHelper.core
             URL_Add("Move-Item__", "https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.management/Move-Item");
 
             URL_Add("Where-Object__", "https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.core/Where-Object"); // Old URL: http://technet.microsoft.com/en-us/library/hh849715.aspx
+
+            URL_Add("debouncing__", "https://www.reddit.com/r/Keychron/comments/1fh6h26/comment/lp044qi/");
+
+            URL_Add("SNLED27351__", "https://www.reddit.com/r/Keychron/comments/1dk4s03/comment/l9h51e8/");
 
         } //addLookupData_alternativeWordSet2()
 
