@@ -14453,6 +14453,7 @@ namespace OverflowHelper.core
             correctionAdd("ligh", "light");
             correctionAdd("Ligh", "light");
 
+            correctionAdd("lightlty", "lightly");
             correctionAdd("ligtly", "lightly");
 
             correctionAdd("ligths", "lights");
@@ -21362,12 +21363,12 @@ namespace OverflowHelper.core
             correctionAdd("pop-science", "popular science");
             correctionAdd("popsci", "popular science");
 
-            correctionAdd("scientiests", "scientists");
-            correctionAdd("syentists", "scientists");
-
             correctionAdd("scientust", "scientist");
             correctionAdd("Scientist", "scientist");
             correctionAdd("syentist", "scientist");
+
+            correctionAdd("scientiests", "scientists");
+            correctionAdd("syentists", "scientists");
 
             correctionAdd("scinetific", "scientific");
             correctionAdd("Scinetific", "scientific");
@@ -21509,7 +21510,8 @@ namespace OverflowHelper.core
             correctionAdd("Pole Star", "Polaris");
             correctionAdd("polaris", "Polaris");
 
-            correctionAdd("HIP 65426b", "HIP 65426 b"); // A planet (exoplanet)
+            // A planet (exoplanet)
+            correctionAdd("HIP 65426b", "HIP 65426 b");
 
             correctionAdd("excotic", "exotic");
 
@@ -21657,8 +21659,8 @@ namespace OverflowHelper.core
             correctionAdd("from the face of earth", "from the face of the earth");
 
             correctionAdd("earth rays", "earth radiation");
-            correctionAdd("Earth ray", "earth radiation");
             correctionAdd("Earth rays", "earth radiation");
+            correctionAdd("Earth ray", "earth radiation");
 
             correctionAdd("Lunar", "lunar");
 
@@ -30188,6 +30190,12 @@ namespace OverflowHelper.core
 
             correctionAdd("bare out", "bear out");
 
+            correctionAdd("bears repeating", "it bears repeating");
+
+            correctionAdd("bare with me", "bear with me");
+
+            correctionAdd("bare with", "bear with");
+
             correctionAdd("simple minded", "simple-minded");
 
             correctionAdd("in my mind", "on my mind");
@@ -30199,10 +30207,6 @@ namespace OverflowHelper.core
 
             correctionAdd("in two minds", "of two minds");
             correctionAdd("in 2 minds", "of two minds");
-
-            correctionAdd("bare with me", "bear with me");
-
-            correctionAdd("bare with", "bear with");
 
             correctionAdd("grapple", "grapple with");
 
@@ -61559,6 +61563,7 @@ namespace OverflowHelper.core
             correctionAdd("teach me like I'm five", "explain like I'm five");
             correctionAdd("like I am 10 years old", "explain like I'm five");
             correctionAdd("like I'm five", "explain like I'm five");
+            correctionAdd("ELI-5", "explain like I'm five");
             correctionAdd("ELIF", "explain like I'm five");
             correctionAdd("ELI5", "explain like I'm five");
 
@@ -64534,6 +64539,7 @@ namespace OverflowHelper.core
             correctionAdd("haphasard", "haphazard");
 
             correctionAdd("hapharsodly", "haphazardly");
+            correctionAdd("haphardsly", "haphazardly");
 
             correctionAdd("Fiasco", "fiasco");
 
@@ -68489,6 +68495,7 @@ namespace OverflowHelper.core
             correctionAdd("ANISI", "United States keyboard layout");
             correctionAdd("ANSI", "United States keyboard layout");
             correctionAdd("USA", "United States keyboard layout"); // For the cross-reference
+            correctionAdd("US", "United States keyboard layout");
 
             // A keyboard layout
             correctionAdd("United Kingdom keyboard layout", "UK keyboard layout");
@@ -70593,6 +70600,7 @@ namespace OverflowHelper.core
             correctionAdd("gateron banana", "Gateron Jupiter Banana switches");
             correctionAdd("jupitor banana", "Gateron Jupiter Banana switches");
             correctionAdd("gat jupiter", "Gateron Jupiter Banana switches"); // Not 100% correct (it is really only for the Gateron Jupiter part)
+            correctionAdd("banananas", "Gateron Jupiter Banana switches");
             correctionAdd("jupiters", "Gateron Jupiter Banana switches");
             correctionAdd("bananas", "Gateron Jupiter Banana switches");
             correctionAdd("Bananna", "Gateron Jupiter Banana switches");
@@ -81321,6 +81329,8 @@ namespace OverflowHelper.core
             correctionAdd("godwin's law", "Godwin's law");
             correctionAdd("godwins law", "Godwin's law");
 
+            correctionAdd("Goodhart's Law", "Goodhart's law");
+
             correctionAdd("Murphy's Law", "Murphy's law");
 
             correctionAdd("e ink", "E Ink");
@@ -88903,11 +88913,16 @@ namespace OverflowHelper.core
             //
             //     As of 2026-02-19, the only real information is on this page.
             //
+            // K3 Ultra 8K user manual:
+            //
+            //   <https://www.keychron.com/pages/keychron-k3-ultra-8k-user-manual>
+            //
             correctionAdd("K3&nbsp;Ultra&nbsp;8K", "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K");
             correctionAdd("Keychron K3 Ultra 8K", "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K"); // Sort of identity mapping
             correctionAdd("K3 Ultra (8K)", "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K");
             correctionAdd("K3 Ultra 8K", "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K");
             correctionAdd("K3 ultra 8k", "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K");
+            correctionAdd("K3 Ultra 8k", "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K");
             correctionAdd("K3 Ultra", "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K");
             correctionAdd("k3 ultra", "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K");
             correctionAdd("K3 8K", "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K");
@@ -110310,8 +110325,6 @@ namespace OverflowHelper.core
 
             URL_Add("judge", "https://en.wiktionary.org/wiki/judge#Verb");
 
-            URL_Add("opportunity", "https://en.wiktionary.org/wiki/opportunity#Noun");
-
             URL_Add("parliament", "https://en.wiktionary.org/wiki/parliament#Noun");
 
             URL_Add("China", "https://en.wiktionary.org/wiki/China#Proper_noun");
@@ -110329,8 +110342,6 @@ namespace OverflowHelper.core
             URL_Add("Scintilla", "https://en.wikipedia.org/wiki/Scintilla_(software)");
 
             URL_Add("approach", "https://en.wiktionary.org/wiki/approach#Noun");
-
-            URL_Add("equation", "https://en.wiktionary.org/wiki/equation#Noun");
 
             URL_Add("extension", "https://en.wiktionary.org/wiki/extension#Noun");
 
@@ -110643,8 +110654,6 @@ namespace OverflowHelper.core
             URL_Add("department", "https://en.wiktionary.org/wiki/department#Noun");
 
             URL_Add("exactly", "https://en.wiktionary.org/wiki/exactly#Adverb");
-
-            URL_Add("gamma-ray burst", "https://en.wikipedia.org/wiki/Gamma-ray_burst");
 
             URL_Add("genius", "https://en.wiktionary.org/wiki/genious#Noun");
 
@@ -111710,8 +111719,6 @@ namespace OverflowHelper.core
 
             URL_Add("interoperability", "https://en.wiktionary.org/wiki/interoperability#Noun");
 
-            URL_Add("Betelgeuse", "https://en.wikipedia.org/wiki/Betelgeuse");
-
             URL_Add("ZX80", "https://en.wikipedia.org/wiki/ZX80");
 
             URL_Add("ZX81", "https://en.wikipedia.org/wiki/ZX81");
@@ -112244,8 +112251,6 @@ namespace OverflowHelper.core
 
             URL_Add("last", "https://en.wiktionary.org/wiki/last#Adjective");
 
-            URL_Add("nonexotic", "https://en.wiktionary.org/wiki/nonexotic#Adjective"); // Old: https://en.wiktionary.org/wiki/nonexotic
-
             URL_Add("passageway", "https://en.wiktionary.org/wiki/passageway#Noun");
 
             URL_Add("proximity", "https://en.wiktionary.org/wiki/proximity#Noun");
@@ -112557,10 +112562,6 @@ namespace OverflowHelper.core
             URL_Add("coworker", "https://en.wiktionary.org/wiki/coworker#Noun");
 
             URL_Add("GW-BASIC", "https://en.wikipedia.org/wiki/GW-BASIC");
-
-            URL_Add("right ascension", "https://en.wikipedia.org/wiki/Right_ascension");
-
-            URL_Add("sinusoidal", "https://en.wiktionary.org/wiki/sinusoidal#Adjective");
 
             URL_Add("tomorrow's", "https://en.wiktionary.org/wiki/tomorrow's#Adjective"); // Does not actually exist at Wiktionary. But "today's" exists. Was it deleted?
 
@@ -113012,10 +113013,6 @@ namespace OverflowHelper.core
 
             URL_Add("watch", "https://en.wiktionary.org/wiki/watch#Noun");
 
-            URL_Add("perturbation", "https://en.wiktionary.org/wiki/perturbation#Noun");
-
-            URL_Add("Poincaré recurrence theorem", "https://en.wikipedia.org/wiki/Poincar%C3%A9_recurrence_theorem");
-
             URL_Add("confinement", "https://en.wiktionary.org/wiki/confinement#Noun");
 
             URL_Add("deserves", "https://en.wiktionary.org/wiki/deserve#Verb");
@@ -113296,12 +113293,6 @@ namespace OverflowHelper.core
 
             URL_Add("circuit", "https://en.wiktionary.org/wiki/circuit#Noun");
 
-            URL_Add("scientific", "https://en.wiktionary.org/wiki/scientific#Adjective");
-
-            URL_Add("scientist", "https://en.wiktionary.org/wiki/scientist#Noun");
-
-            URL_Add("scientists", "https://en.wiktionary.org/wiki/scientist#Noun");
-
             URL_Add("Scientology", "https://en.wikipedia.org/wiki/Scientology");
 
             URL_Add("self-explanatory", "https://en.wiktionary.org/wiki/self-explanatory#Adjective");
@@ -113376,8 +113367,6 @@ namespace OverflowHelper.core
 
             URL_Add("drivel", "https://en.wiktionary.org/wiki/drivel#Noun");
 
-            URL_Add("planetesimal", "https://en.wikipedia.org/wiki/Planetesimal");
-
             URL_Add("syntactic", "https://en.wiktionary.org/wiki/syntactic#Adjective");
 
             URL_Add("time", "https://en.wiktionary.org/wiki/time#Noun");
@@ -113385,8 +113374,6 @@ namespace OverflowHelper.core
             URL_Add("ASMR", "https://en.wikipedia.org/wiki/ASMR#Videos");
 
             URL_Add("reject", "https://en.wiktionary.org/wiki/reject#Verb");
-
-            URL_Add("solar flare", "https://en.wikipedia.org/wiki/Solar_flare");
 
             URL_Add("stomach", "https://en.wiktionary.org/wiki/stomach#Noun");
 
@@ -113720,8 +113707,6 @@ namespace OverflowHelper.core
 
             URL_Add("acceleration", "https://en.wiktionary.org/wiki/acceleration#Noun");
 
-            URL_Add("astronomer", "https://en.wiktionary.org/wiki/astronomer#Noun");
-
             URL_Add("enormous", "https://en.wiktionary.org/wiki/enormous#Adjective");
 
             URL_Add("outweigh", "https://en.wiktionary.org/wiki/outweigh#Verb");
@@ -113737,10 +113722,6 @@ namespace OverflowHelper.core
             URL_Add("Julia", "https://en.wikipedia.org/wiki/Julia_%28programming_language%29");
 
             URL_Add("corruptful", "https://en.wiktionary.org/wiki/corruptful#Adjective");
-
-            URL_Add("deorbited", "https://en.wiktionary.org/wiki/deorbit#Verb");
-
-            URL_Add("deorbiting", "https://en.wiktionary.org/wiki/deorbit#Verb");
 
             URL_Add("dilutant", "https://en.wiktionary.org/wiki/dilutant#Noun");
 
@@ -113899,8 +113880,6 @@ namespace OverflowHelper.core
             URL_Add("biochemistry", "https://en.wikipedia.org/wiki/Biochemistry");
 
             URL_Add("biological molecules", "https://en.wikipedia.org/wiki/Biomolecule");
-
-            URL_Add("astrobiology", "https://en.wikipedia.org/wiki/Astrobiology");
 
             URL_Add("biomathematics", "https://en.wikipedia.org/wiki/Mathematical_and_theoretical_biology");
 
@@ -114201,8 +114180,6 @@ namespace OverflowHelper.core
             URL_Add("incredibly", "https://en.wiktionary.org/wiki/incredibly#Adverb");
 
             URL_Add("lowercase", "https://en.wiktionary.org/wiki/lowercase#Adjective"); // Old: https://en.wiktionary.org/wiki/lower_case#Noun
-
-            URL_Add("occultation", "https://en.wiktionary.org/wiki/occultation#Noun");
 
             URL_Add("perpetrator", "https://en.wiktionary.org/wiki/perpetrator#Noun");
 
@@ -115266,11 +115243,7 @@ namespace OverflowHelper.core
 
             URL_Add("DomainMath IDE", "https://sourceforge.net/p/domainmath/wiki/wiki-home%20/");
 
-            URL_Add("Perseverance", "https://en.wikipedia.org/wiki/Perseverance_(rover)");
-
             URL_Add("Portugal", "https://en.wikipedia.org/wiki/Portugal");
-
-            URL_Add("azimuth", "https://en.wiktionary.org/wiki/azimuth#Noun");
 
             URL_Add("condition", "https://en.wiktionary.org/wiki/condition#Noun");
 
@@ -115517,8 +115490,6 @@ namespace OverflowHelper.core
             URL_Add("ClearType", "https://en.wikipedia.org/wiki/ClearType");
 
             URL_Add("Oxford comma", "https://en.wikipedia.org/wiki/Serial_comma");
-
-            URL_Add("Opportunity", "https://en.wikipedia.org/wiki/Opportunity_(rover)");
 
             URL_Add("Upstart", "https://en.wikipedia.org/wiki/Upstart_(software)");
 
@@ -116116,17 +116087,7 @@ namespace OverflowHelper.core
 
             URL_Add("Gson", "https://en.wikipedia.org/wiki/Gson");
 
-            URL_Add("Population I stars", "https://en.wikipedia.org/wiki/Stellar_population#Population_I_stars");
-
-            URL_Add("Population II stars", "https://en.wikipedia.org/wiki/Stellar_population#Population_II_stars");
-
-            URL_Add("Population III stars", "https://en.wikipedia.org/wiki/Stellar_population#Population_III_stars");
-
             URL_Add("Q&A", "https://en.wikipedia.org/wiki/Q%26A_software");
-
-            URL_Add("Type II supernova", "https://en.wikipedia.org/wiki/Type_II_supernova");
-
-            URL_Add("Type Ia supernova", "https://en.wikipedia.org/wiki/Type_Ia_supernova");
 
             URL_Add("Volley", "https://developer.android.com/training/volley/");
 
@@ -116168,8 +116129,6 @@ namespace OverflowHelper.core
 
             URL_Add("self-signed", "https://en.wiktionary.org/wiki/self-signed#Adjective");
 
-            URL_Add("Ingenuity (helicopter)", "https://en.wikipedia.org/wiki/Ingenuity_(helicopter)");
-
             URL_Add("Numba", "https://en.wikipedia.org/wiki/Numba");
 
             URL_Add("off-site", "https://en.wiktionary.org/wiki/offsite#Adjective");
@@ -116179,10 +116138,6 @@ namespace OverflowHelper.core
             URL_Add("hyperlink", "https://en.wiktionary.org/wiki/hyperlink#Noun");
 
             URL_Add("the bee's knees", "https://en.wiktionary.org/wiki/the_bee%27s_knees#Noun");
-
-            URL_Add("Enceladus", "https://en.wikipedia.org/wiki/Enceladus");
-
-            URL_Add("atmosphere", "https://en.wiktionary.org/wiki/atmosphere#Noun");
 
             URL_Add("bracket", "https://en.wiktionary.org/wiki/bracket#Noun");
 
@@ -116488,8 +116443,6 @@ namespace OverflowHelper.core
 
             URL_Add("listeners", "https://en.wiktionary.org/wiki/listener#Noun");
 
-            URL_Add("science", "https://en.wiktionary.org/wiki/science#Noun");
-
             URL_Add("spoiler", "https://en.wiktionary.org/wiki/spoiler#Noun");
 
             URL_Add("Adobe Experience Manager", "https://en.wikipedia.org/wiki/Adobe_Experience_Cloud#Products");
@@ -116690,14 +116643,6 @@ namespace OverflowHelper.core
 
             URL_Add("Tandem Computers", "https://en.wikipedia.org/wiki/Tandem_Computers");
 
-            URL_Add("nonspecific", "https://en.wiktionary.org/wiki/non-specific#Adjective");
-
-            URL_Add("nontransparent", "https://en.wiktionary.org/wiki/nontransparent#Adjective");
-
-            URL_Add("photosphere", "https://en.wikipedia.org/wiki/Photosphere");
-
-            URL_Add("radiative", "https://en.wiktionary.org/wiki/radiative#Adjective");
-
             URL_Add("type erasure", "https://en.wikipedia.org/wiki/Type_erasure");
 
             URL_Add("accommodation", "https://en.wiktionary.org/wiki/accommodation#Noun");
@@ -116819,8 +116764,6 @@ namespace OverflowHelper.core
             URL_Add("advantage", "https://en.wiktionary.org/wiki/advantage#Noun");
 
             URL_Add("catalogues", "https://en.wiktionary.org/wiki/catalogue#Noun");
-
-            URL_Add("lunar", "https://en.wiktionary.org/wiki/lunar#Adjective");
 
             URL_Add("Michelson–Morley experiment", "https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment");
 
@@ -117252,8 +117195,6 @@ namespace OverflowHelper.core
 
             URL_Add("monster", "https://en.wiktionary.org/wiki/monster#Noun");
 
-            URL_Add("neckbeard", "https://en.wiktionary.org/wiki/neckbeard#Noun");
-
             URL_Add("predecessor", "https://en.wiktionary.org/wiki/predecessor#Noun");
 
             URL_Add("OnePlus A5000", "https://en.wikipedia.org/wiki/OnePlus_5");
@@ -117489,10 +117430,6 @@ namespace OverflowHelper.core
             URL_Add("tidy-up", "https://en.wiktionary.org/wiki/tidy-up#Noun");
 
             URL_Add("Farsi", "https://en.wiktionary.org/wiki/Farsi#Noun");
-
-            URL_Add("HIP 65426 b", "https://en.wikipedia.org/wiki/HIP_65426_b");
-
-            URL_Add("Haumea", "https://en.wikipedia.org/wiki/Haumea");
 
             URL_Add("NEC", "https://en.wikipedia.org/wiki/NEC#1980_to_2000");
 
@@ -117896,10 +117833,6 @@ namespace OverflowHelper.core
 
             URL_Add("Web crawler", "https://en.wikipedia.org/wiki/Web_crawler");
 
-            URL_Add("exomoon", "https://en.wikipedia.org/wiki/Exomoon");
-
-            URL_Add("rocket science", "https://en.wiktionary.org/wiki/rocket_science#Noun");
-
             URL_Add("dabbler", "https://en.wiktionary.org/wiki/dabbler#Noun");
 
             URL_Add("hundredth", "https://en.wiktionary.org/wiki/hundredth#Adjective");
@@ -117931,8 +117864,6 @@ namespace OverflowHelper.core
             URL_Add("services", "https://en.wiktionary.org/wiki/services#Noun");
 
             URL_Add("string together", "https://en.wiktionary.org/wiki/string_together#Verb");
-
-            URL_Add("sunsetting", "https://en.wiktionary.org/wiki/sunset#Verb");
 
             URL_Add("unsurprisingly", "https://en.wiktionary.org/wiki/unsurprisingly#Adverb");
 
@@ -118035,8 +117966,6 @@ namespace OverflowHelper.core
             URL_Add("Amiga", "https://en.wikipedia.org/wiki/Amiga");
 
             URL_Add("dial", "https://en.wiktionary.org/wiki/dial#Verb");
-
-            URL_Add("exoplanet", "https://en.wikipedia.org/wiki/Exoplanet");
 
             URL_Add("finished", "https://en.wiktionary.org/wiki/finish#Verb");
 
@@ -118219,8 +118148,6 @@ namespace OverflowHelper.core
             URL_Add("Firefox Quantum", "https://en.wikipedia.org/wiki/Firefox#Firefox_Quantum");
 
             URL_Add("Firefox ESR", "https://en.wikipedia.org/wiki/Firefox#Channels_and_release_schedule"); // Old: https://en.wikipedia.org/wiki/Firefox#Experimental_builds_and_ESR
-
-            URL_Add("dwarfs", "https://en.wiktionary.org/wiki/dwarf#Noun"); // (Both the correct word and URL were completely bogus!)
 
             URL_Add("gravity", "https://en.wikipedia.org/wiki/Gravity");
 
@@ -118868,8 +118795,6 @@ namespace OverflowHelper.core
 
             URL_Add("Adobe Premiere Pro", "https://en.wikipedia.org/wiki/Adobe_Premiere_Pro");
 
-            URL_Add("sunsetted", "https://en.wiktionary.org/wiki/sunset#Verb");
-
             URL_Add("accompassing", "https://en.wiktionary.org/wiki/accompass#Verb");
 
             URL_Add("confusion", "https://en.wiktionary.org/wiki/confusion#Noun");
@@ -119126,8 +119051,6 @@ namespace OverflowHelper.core
 
             URL_Add("deploy", "https://en.wiktionary.org/wiki/deploy#Verb");
 
-            URL_Add("geostrophic wind", "https://en.wikipedia.org/wiki/Geostrophic_wind");
-
             URL_Add("monstrosity", "https://en.wiktionary.org/wiki/monstrosity#Noun");
 
             URL_Add("Socratic", "https://en.wikipedia.org/wiki/Socratic_method");
@@ -119135,8 +119058,6 @@ namespace OverflowHelper.core
             URL_Add("cool", "https://en.wiktionary.org/wiki/cool#Adjective");
 
             URL_Add("The Art of Electronics", "https://en.wikipedia.org/wiki/The_Art_of_Electronics");
-
-            URL_Add("eccentricity", "https://en.wiktionary.org/wiki/eccentricity#Noun");
 
             URL_Add("inflexible", "https://en.wiktionary.org/wiki/inflexible#Adjective");
 
@@ -119655,8 +119576,6 @@ namespace OverflowHelper.core
             URL_Add("FedEx", "https://en.wikipedia.org/wiki/");
 
             URL_Add("IPKVM", "https://en.wikipedia.org/wiki/KVM_switch#KVM_over_IP_(IPKVM)");
-
-            URL_Add("perturb", "https://en.wiktionary.org/wiki/perturb#Verb");
 
             URL_Add("unavailable", "https://en.wiktionary.org/wiki/unavailable#Adjective");
 
@@ -121030,8 +120949,6 @@ namespace OverflowHelper.core
 
             URL_Add("Coverity", "https://en.wikipedia.org/wiki/Coverity#Products");
 
-            URL_Add("summer solstice", "https://en.wiktionary.org/wiki/summer_solstice#Noun");
-
             URL_Add("asprintf()", "https://www.gnu.org/software/libc/manual/2.37/html_node/Dynamic-Output.html");
 
             URL_Add("disabling", "https://en.wiktionary.org/wiki/disable#Verb");
@@ -121451,8 +121368,6 @@ namespace OverflowHelper.core
             URL_Add("humble pie", "https://en.wiktionary.org/wiki/humble_pie#Noun");
 
             URL_Add("Microsoft 365 Patterns & Practices", "https://devblogs.microsoft.com/microsoft365dev/microsoft-365-patterns-and-practices-pnp-november-2020-update/");
-
-            URL_Add("plate tectonics", "https://en.wikipedia.org/wiki/Plate_tectonics");
 
             URL_Add("chameleonic", "https://en.wiktionary.org/wiki/chameleonic#Adjective");
 
@@ -122022,13 +121937,7 @@ namespace OverflowHelper.core
 
             URL_Add("fooling", "https://en.wiktionary.org/wiki/fool#Verb");
 
-            URL_Add("Hayashi track", "https://en.wikipedia.org/wiki/Hayashi_track");
-
             URL_Add("nonexperts", "https://en.wiktionary.org/wiki/nonexpert#Noun");
-
-            URL_Add("radiation", "https://en.wiktionary.org/wiki/radiation#Noun");
-
-            URL_Add("sunlike", "https://en.wiktionary.org/wiki/sunlike#Adjective");
 
             URL_Add("501(c)(3) organization (nonprofit)", "https://en.wikipedia.org/wiki/501(c)(3)_organization");
 
@@ -122151,8 +122060,6 @@ namespace OverflowHelper.core
             URL_Add("Zillow", "https://en.wikipedia.org/wiki/Zillow");
 
             URL_Add("off-ramp", "https://en.wiktionary.org/wiki/off-ramp#Noun");
-
-            URL_Add("Polaris", "https://en.wikipedia.org/wiki/Polaris");
 
             URL_Add("reingest", "https://en.wiktionary.org/wiki/reingest#Verb");
 
@@ -122538,8 +122445,6 @@ namespace OverflowHelper.core
 
             URL_Add("requote", "https://en.wiktionary.org/wiki/requote#Verb");
 
-            URL_Add("International Olympiad on Astronomy and Astrophysics", "https://en.wikipedia.org/wiki/International_Olympiad_on_Astronomy_and_Astrophysics");
-
             URL_Add("National Standard Examination in Astronomy", "https://en.wikipedia.org/wiki/National_Standard_Examination_in_Astronomy");
 
             URL_Add("reflections", "https://en.wiktionary.org/wiki/reflection#Noun");
@@ -122636,8 +122541,6 @@ namespace OverflowHelper.core
 
             URL_Add("comes", "https://en.wiktionary.org/wiki/come#Verb");
 
-            URL_Add("Delta Ursae Majoris", "https://en.wikipedia.org/wiki/Delta_Ursae_Majoris");
-
             URL_Add("battle", "https://en.wiktionary.org/wiki/battle#Noun");
 
             URL_Add("garden leave", "https://en.wikipedia.org/wiki/Garden_leave");
@@ -122705,14 +122608,6 @@ namespace OverflowHelper.core
             URL_Add("LSb",  "https://en.wikipedia.org/wiki/Bit_numbering#Bit_significance_and_indexing");
 
             URL_Add("rebranded", "https://en.wiktionary.org/wiki/rebrand#Verb");
-
-            URL_Add("albedo", "https://en.wikipedia.org/wiki/Albedo");
-
-            URL_Add("Rayleigh scattering", "https://en.wikipedia.org/wiki/Rayleigh_scattering#From_molecules");
-
-            URL_Add("telescope", "https://en.wiktionary.org/wiki/telescope#Noun");
-
-            URL_Add("telluric", "https://en.wiktionary.org/wiki/telluric#Adjective");
 
             URL_Add("availability", "https://en.wiktionary.org/wiki/availability#Noun");
 
@@ -122796,12 +122691,6 @@ namespace OverflowHelper.core
 
             URL_Add("glitchy", "https://en.wiktionary.org/wiki/glitchy#Adjective");
 
-            URL_Add("occultations", "https://en.wiktionary.org/wiki/occultation#Noun");
-
-            URL_Add("occulted", "https://en.wiktionary.org/wiki/occult#Verb");
-
-            URL_Add("occulting", "https://en.wiktionary.org/wiki/occult#Verb");
-
             URL_Add("extracted", "https://en.wiktionary.org/wiki/extract#Verb");
 
             URL_Add("End key", "https://en.wikipedia.org/wiki/End_key");
@@ -122819,8 +122708,6 @@ namespace OverflowHelper.core
             URL_Add("academicians", "https://en.wiktionary.org/wiki/academicians#Noun");
 
             URL_Add("Altair BASIC", "https://en.wikipedia.org/wiki/Altair_BASIC");
-
-            URL_Add("geoscience", "https://en.wiktionary.org/wiki/geoscience#Noun");
 
             URL_Add("budget", "https://en.wiktionary.org/wiki/budget#Noun");
 
@@ -123084,8 +122971,6 @@ namespace OverflowHelper.core
 
             URL_Add("zram", "https://en.wikipedia.org/wiki/Zram");
 
-            URL_Add("International Astronomical Union", "https://en.wikipedia.org/wiki/International_Astronomical_Union");
-
             URL_Add("Smack", "https://www.igniterealtime.org/projects/smack/index.jsp"); // Old: <http://www.igniterealtime.org/projects/smack/index.jsp>
 
             URL_Add("FIDO2", "https://en.wikipedia.org/wiki/FIDO_Alliance#FIDO2");
@@ -123123,8 +123008,6 @@ namespace OverflowHelper.core
             URL_Add("interactions", "https://en.wiktionary.org/wiki/interaction#Noun");
 
             URL_Add("jumper", "https://en.wikipedia.org/wiki/Jumper_(computing)#Use");
-
-            URL_Add("universe", "https://en.wiktionary.org/wiki/universe#Noun");
 
             URL_Add("Weimar", "https://en.wikipedia.org/wiki/Weimar");
 
@@ -123314,10 +123197,6 @@ namespace OverflowHelper.core
 
             URL_Add("bounty", "https://en.wiktionary.org/wiki/bounty#Noun");
 
-            URL_Add("mean motion", "https://en.wikipedia.org/wiki/Mean_motion");
-
-            URL_Add("orbital resonance", "https://en.wikipedia.org/wiki/Orbital_resonance");
-
             URL_Add("bring", "https://en.wiktionary.org/wiki/bring#Verb");
 
             URL_Add("failing", "https://en.wiktionary.org/wiki/fail#Verb");
@@ -123376,8 +123255,6 @@ namespace OverflowHelper.core
 
             URL_Add("comfortably", "https://en.wiktionary.org/wiki/comfortably#Adverb");
 
-            URL_Add("Curiosity", "https://en.wikipedia.org/wiki/Curiosity_(rover)");
-
             URL_Add("tendency", "https://en.wiktionary.org/wiki/tendency#Noun");
 
             URL_Add("initiated", "https://en.wiktionary.org/wiki/initiate#Verb");
@@ -123389,8 +123266,6 @@ namespace OverflowHelper.core
             URL_Add("out loud", "https://en.wiktionary.org/wiki/out_loud#Adverb");
 
             URL_Add("projects", "https://en.wiktionary.org/wiki/project#Noun");
-
-            URL_Add("solar", "https://en.wiktionary.org/wiki/solar#Adjective");
 
             URL_Add("activist", "https://en.wiktionary.org/wiki/activist#Noun");
 
@@ -123772,8 +123647,6 @@ namespace OverflowHelper.core
 
             URL_Add("docking station", "https://en.wikipedia.org/wiki/Docking_station");
 
-            URL_Add("ecliptic", "https://en.wiktionary.org/wiki/ecliptic#Noun");
-
             URL_Add("middlewomen", "https://en.wiktionary.org/wiki/middlewoman#Noun");
 
             URL_Add("bollocks", "https://en.wiktionary.org/wiki/bollocks#Noun");
@@ -123965,8 +123838,6 @@ namespace OverflowHelper.core
             URL_Add("Maltron", "https://en.wikipedia.org/wiki/Maltron#Models");
 
             URL_Add("VAT", "https://en.wikipedia.org/wiki/Value-added_tax");
-
-            URL_Add("Hubble tension", "https://en.wikipedia.org/wiki/Hubble%27s_law#Hubble_tension");
 
             URL_Add("bare metal", "https://en.wiktionary.org/wiki/bare_metal#Noun");
 
@@ -124514,8 +124385,6 @@ namespace OverflowHelper.core
 
             URL_Add("heuristics", "https://en.wiktionary.org/wiki/heuristics#Noun_2");
 
-            URL_Add("exotic", "https://en.wiktionary.org/wiki/exotic#Adjective");
-
             URL_Add("incremental encoder", "https://en.wikipedia.org/wiki/Incremental_encoder#Quadrature_outputs");
 
             URL_Add("disconnecting", "https://en.wiktionary.org/wiki/disconnect#Verb");
@@ -124861,8 +124730,6 @@ namespace OverflowHelper.core
             URL_Add("hijacks", "https://en.wiktionary.org/wiki/hijack#Verb");
 
             URL_Add("vigorousness", "https://en.wiktionary.org/wiki/vigorousness#Noun");
-
-            URL_Add("science fair", "https://en.wikipedia.org/wiki/Science_fair");
 
             URL_Add("editable", "https://en.wiktionary.org/wiki/editable#Adjective");
 
@@ -125340,8 +125207,6 @@ namespace OverflowHelper.core
 
             URL_Add("hospitality", "https://en.wiktionary.org/wiki/hospitality#Noun");
 
-            URL_Add("equations", "https://en.wiktionary.org/wiki/equation#Noun");
-
             URL_Add("strike", "https://en.wiktionary.org/wiki/strike#Verb");
 
             URL_Add("needless to say", "https://en.wiktionary.org/wiki/needless_to_say#Adverb");
@@ -125489,8 +125354,6 @@ namespace OverflowHelper.core
             URL_Add("Task View", "https://en.wikipedia.org/wiki/Task_View");
 
             URL_Add("Ventoy", "https://www.ventoy.net/en/index.html");
-
-            URL_Add("geology", "https://en.wikipedia.org/wiki/Geology");
 
             URL_Add("bucks", "https://en.wiktionary.org/wiki/buck#Noun");
 
@@ -126342,8 +126205,6 @@ namespace OverflowHelper.core
 
             URL_Add("New Scientist", "https://en.wikipedia.org/wiki/New_Scientist");
 
-            URL_Add("popular science", "https://en.wikipedia.org/wiki/Popular_science");
-
             URL_Add("in the absence of", "https://en.wiktionary.org/wiki/in_the_absence_of#Preposition");
 
             URL_Add("unoccupied", "https://en.wiktionary.org/wiki/unoccupied#Adjective");
@@ -126433,8 +126294,6 @@ namespace OverflowHelper.core
             URL_Add("desert", "https://en.wiktionary.org/wiki/desert#Noun");
 
             URL_Add("gladly", "https://en.wiktionary.org/wiki/gladly#Adverb");
-
-            URL_Add("dwarfed", "https://en.wiktionary.org/wiki/dwarf#Verb");
 
             URL_Add("travel", "https://en.wiktionary.org/wiki/travel#Noun");
 
@@ -127240,10 +127099,6 @@ namespace OverflowHelper.core
 
             URL_Add("in vain", "https://en.wiktionary.org/wiki/in_vain#Adverb");
 
-            URL_Add("ethtool", "https://en.wikipedia.org/wiki/Ethtool");
-
-            URL_Add("heliopause", "https://en.wikipedia.org/wiki/Heliosphere#Heliopause");
-
             URL_Add("non-negligible", "https://en.wiktionary.org/wiki/non-negligible#Adjective");
 
             URL_Add("Comcast", "https://en.wikipedia.org/wiki/Comcast");
@@ -127621,150 +127476,6 @@ namespace OverflowHelper.core
             URL_Add("EXE files", "https://en.wiktionary.org/wiki/.exe#Noun");
 
             URL_Add("BETD", "https://www.mountainbikecomponents.co.uk/about-us/");
-
-            URL_Add("mountain", "https://en.wiktionary.org/wiki/mountain#Noun");
-
-            URL_Add("mountains", "https://en.wiktionary.org/wiki/mountain#Noun");
-
-            URL_Add("volcanism", "https://en.wiktionary.org/wiki/volcanism#Noun");
-
-            URL_Add("volcanic", "https://en.wiktionary.org/wiki/volcanic#Adjective");
-
-            URL_Add("volcano", "https://en.wiktionary.org/wiki/volcano#Noun");
-
-            URL_Add("volcanos", "https://en.wiktionary.org/wiki/volcano#Noun");
-
-            URL_Add("supervolcano", "https://en.wikipedia.org/wiki/Supervolcano");
-
-            URL_Add("Sun", "https://en.wikipedia.org/wiki/Sun");
-
-            URL_Add("Solar System", "https://en.wikipedia.org/wiki/Solar_System");
-
-            URL_Add("Venus", "https://en.wikipedia.org/wiki/Venus");
-
-            URL_Add("terraforming", "https://en.wikipedia.org/wiki/Terraforming");
-
-            URL_Add("Mars", "https://en.wikipedia.org/wiki/Mars");
-
-            URL_Add("Olympus Mons", "https://en.wikipedia.org/wiki/Olympus_Mons");
-
-            URL_Add("Martian", "https://en.wiktionary.org/wiki/Martian#Adjective");
-
-            URL_Add("asteroid", "https://en.wikipedia.org/wiki/Asteroid");
-
-            URL_Add("Ceres", "https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)");
-
-            URL_Add("Vesta", "https://en.wikipedia.org/wiki/4_Vesta");
-
-            URL_Add("Astraea", "https://en.wikipedia.org/wiki/Astraea");
-
-            URL_Add("Apophis", "https://en.wikipedia.org/wiki/99942_Apophis");
-
-            URL_Add("ʻOumuamua", "https://en.wikipedia.org/wiki/%CA%BBOumuamua");
-
-            URL_Add("outer Solar System", "https://en.wikipedia.org/wiki/Solar_System#Outer_Solar_System");
-
-            URL_Add("gas giant", "https://en.wikipedia.org/wiki/Gas_giant");
-
-            URL_Add("Jupiterian", "https://en.wiktionary.org/wiki/Jupiterian#Noun");
-
-            URL_Add("Jupiter", "https://en.wikipedia.org/wiki/Jupiter");
-
-            URL_Add("Saturn", "https://en.wikipedia.org/wiki/Saturn");
-
-            URL_Add("Uranus", "https://en.wikipedia.org/wiki/Uranus");
-
-            URL_Add("Neptune", "https://en.wikipedia.org/wiki/Neptune");
-
-            URL_Add("Titan", "https://en.wikipedia.org/wiki/Titan_(moon)");
-
-            URL_Add("Pluto", "https://en.wikipedia.org/wiki/Pluto");
-
-            URL_Add("Quaoar", "https://en.wikipedia.org/wiki/50000_Quaoar");
-
-            URL_Add("Eris", "https://en.wikipedia.org/wiki/Eris_(dwarf_planet)");
-
-            URL_Add("Lagrange point", "https://en.wikipedia.org/wiki/Lagrange_point");
-
-            URL_Add("Jupiter Icy Moons Explorer", "https://en.wikipedia.org/wiki/Jupiter_Icy_Moons_Explorer");
-
-            URL_Add("Alpha Ursae Majoris", "https://en.wikipedia.org/wiki/Alpha_Ursae_Majoris");
-
-            URL_Add("Alpha Centauri", "https://en.wikipedia.org/wiki/Alpha_Centauri");
-
-            URL_Add("Proxima Centauri", "https://en.wikipedia.org/wiki/Proxima_Centauri");
-
-            URL_Add("Proxima Centauri b", "https://en.wikipedia.org/wiki/Proxima_Centauri_b");
-
-            URL_Add("TRAPPIST-1", "https://en.wikipedia.org/wiki/TRAPPIST-1");
-
-            URL_Add("NASA", "https://en.wikipedia.org/wiki/NASA");
-
-            URL_Add("New Horizons", "https://en.wikipedia.org/wiki/New_Horizons");
-
-            URL_Add("Voyager 1", "https://en.wikipedia.org/wiki/Voyager_1");
-
-            URL_Add("Voyager 2", "https://en.wikipedia.org/wiki/Voyager_2");
-
-            URL_Add("International Space Station", "https://en.wikipedia.org/wiki/International_Space_Station");
-
-            URL_Add("Space Shuttle", "https://en.wikipedia.org/wiki/Space_Shuttle");
-
-            URL_Add("Space Shuttle Challenger disaster", "https://en.wikipedia.org/wiki/Space_Shuttle_Challenger_disaster");
-
-            URL_Add("Lucy", "https://en.wikipedia.org/wiki/Lucy_(spacecraft)");
-
-            URL_Add("Hubble Space Telescope", "https://en.wikipedia.org/wiki/Hubble_Space_Telescope");
-
-            URL_Add("James Webb Space Telescope", "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope");
-
-            URL_Add("Very Large Telescope", "https://en.wikipedia.org/wiki/Very_Large_Telescope");
-
-            URL_Add("liftoff", "https://en.wiktionary.org/wiki/liftoff#Noun");
-
-            URL_Add("Vandenberg Space Force Base", "https://en.wikipedia.org/wiki/Vandenberg_Space_Force_Base");
-
-            URL_Add("NASA Deep Space Network", "https://en.wikipedia.org/wiki/NASA_Deep_Space_Network");
-
-            URL_Add("DSS 14", "https://en.wikipedia.org/wiki/Goldstone_Deep_Space_Communications_Complex#Antennas");
-
-            URL_Add("Ulysses", "https://en.wikipedia.org/wiki/Ulysses_(spacecraft)");
-
-            URL_Add("Philae", "https://en.wikipedia.org/wiki/Philae_(spacecraft)");
-
-            URL_Add("Gaia", "https://en.wikipedia.org/wiki/Gaia_(spacecraft)");
-
-            URL_Add("Atlas V", "https://en.wikipedia.org/wiki/Atlas_V");
-
-            URL_Add("Saturn V", "https://en.wikipedia.org/wiki/Saturn_V");
-
-            URL_Add("Apollo", "https://en.wikipedia.org/wiki/Apollo_program");
-
-            URL_Add("Artemis", "https://en.wikipedia.org/wiki/Artemis_program"); // Old: https://en.wikipedia.org/wiki/Artemis_Project
-
-            URL_Add("Blue Origin", "https://en.wikipedia.org/wiki/Blue_Origin");
-
-            URL_Add("SpaceX", "https://en.wikipedia.org/wiki/SpaceX");
-
-            URL_Add("Starlink", "https://en.wikipedia.org/wiki/SpaceX_Starlink");
-
-            URL_Add("Starliner", "https://en.wikipedia.org/wiki/Boeing_CST-100_Starliner");
-
-            URL_Add("SpaceX Starship", "https://en.wikipedia.org/wiki/SpaceX_Starship");
-
-            URL_Add("Orion", "https://en.wikipedia.org/wiki/Orion_(spacecraft)");
-
-            URL_Add("Progress", "https://en.wikipedia.org/wiki/Progress_(spacecraft)");
-
-            URL_Add("Soyuz", "https://en.wikipedia.org/wiki/Soyuz_(spacecraft)");
-
-            URL_Add("Falcon&nbsp;9", "https://en.wikipedia.org/wiki/Falcon_9");
-
-            URL_Add("Falcon Heavy", "https://en.wikipedia.org/wiki/Falcon_Heavy");
-
-            URL_Add("Mechazilla", "https://en.wikipedia.org/wiki/SpaceX_Starbase#Launch_site_(Orbital_Launch_Pad_A_&_B)");
-
-            URL_Add("drag parachute", "https://en.wiktionary.org/wiki/drag_parachute#Noun");
 
             URL_Add("AT command", "https://en.wikipedia.org/wiki/Hayes_AT_command_set#GSM");
 
@@ -130344,10 +130055,6 @@ namespace OverflowHelper.core
 
             URL_Add("Softpedia", "https://en.wikipedia.org/wiki/Softpedia");
 
-            URL_Add("ball transfer unit", "https://kbd.news/Trackball-bearing-comparison-1757.html");
-
-            URL_Add("Hohmann transfer orbit", "https://en.wikipedia.org/wiki/Hohmann_transfer_orbit");
-
             URL_Add("WeTransfer", "https://en.wikipedia.org/wiki/WeTransfer");
 
             URL_Add("successive", "https://en.wiktionary.org/wiki/successive#Adjective");
@@ -131186,8 +130893,6 @@ namespace OverflowHelper.core
 
             URL_Add("GBK", "https://en.wikipedia.org/wiki/GBK_(character_encoding)");
 
-            URL_Add("Centaurus A", "https://en.wikipedia.org/wiki/Centaurus_A");
-
             URL_Add("awkward", "https://en.wiktionary.org/wiki/awkward#Adjective");
 
             URL_Add("awkwardly", "https://en.wiktionary.org/wiki/awkwardly#Adverb");
@@ -131862,22 +131567,6 @@ namespace OverflowHelper.core
 
             URL_Add("hypocritical", "https://en.wiktionary.org/wiki/hypocritical#Adjective");
 
-            URL_Add("axes", "https://en.wiktionary.org/wiki/axis#Noun");
-
-            URL_Add("x-axis", "https://en.wiktionary.org/wiki/x-axis#Noun");
-
-            URL_Add("x-axes", "https://en.wiktionary.org/wiki/x-axis#Noun");
-
-            URL_Add("y-axis", "https://en.wiktionary.org/wiki/y-axis#Noun");
-
-            URL_Add("y-axes", "https://en.wiktionary.org/wiki/y-axis#Noun");
-
-            URL_Add("z-axis", "https://en.wiktionary.org/wiki/z-axis#Noun");
-
-            URL_Add("z-axes", "https://en.wiktionary.org/wiki/y-axis#Noun");
-
-            URL_Add("semi-major axis", "https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes");
-
             URL_Add("AABB", "https://en.wikipedia.org/wiki/Minimum_bounding_box#Axis-aligned_minimum_bounding_box");
 
             URL_Add("syntaxes", "https://en.wiktionary.org/wiki/syntax#Noun");
@@ -132412,8 +132101,6 @@ namespace OverflowHelper.core
 
             URL_Add("coincidentally", "https://en.wiktionary.org/wiki/coincidentally#Adverb");
 
-            URL_Add("perijove", "https://en.wikipedia.org/wiki/Apsis#Etymology");
-
             URL_Add("perish", "https://en.wiktionary.org/wiki/perish#Verb");
 
             URL_Add("periphery", "https://en.wiktionary.org/wiki/periphery#Noun");
@@ -132531,8 +132218,6 @@ namespace OverflowHelper.core
             URL_Add("sequentially", "https://en.wiktionary.org/wiki/sequentially#Adverb");
 
             URL_Add("nonsequential", "https://en.wiktionary.org/wiki/nonsequential#Adjective");
-
-            URL_Add("main sequence", "https://en.wikipedia.org/wiki/Main_sequence");
 
             URL_Add("inconsequential", "https://en.wiktionary.org/wiki/inconsequential#Adjective");
 
@@ -132916,8 +132601,6 @@ namespace OverflowHelper.core
 
             URL_Add("hot take", "https://en.wiktionary.org/wiki/hot_take#Noun");
 
-            URL_Add("hot Jupiter", "https://en.wikipedia.org/wiki/Hot_Jupiter");
-
             URL_Add("Hot Network Questions", "https://meta.stackexchange.com/questions/40353/stack-exchange-glossary-dictionary-of-commonly-used-terms/40354#40354");
 
             URL_Add("Hotmail", "https://en.wikipedia.org/wiki/Hotmail");
@@ -133023,8 +132706,6 @@ namespace OverflowHelper.core
             URL_Add("Arch Linux", "https://en.wikipedia.org/wiki/Arch_Linux");
 
             URL_Add("Pacman", "https://en.wikipedia.org/wiki/Arch_Linux#Pacman"); // Old: https://en.wikipedia.org/wiki/Pacman_%28package_manager%29
-
-            URL_Add("monopoly", "https://en.wiktionary.org/wiki/monopoly#Noun");
 
             URL_Add("CW", "https://en.wikipedia.org/wiki/Continuous_wave");
 
@@ -133306,8 +132987,6 @@ namespace OverflowHelper.core
 
             URL_Add("mathematician", "https://en.wiktionary.org/wiki/mathematician#Noun");
 
-            URL_Add("Science, technology, engineering, and mathematics", "https://en.wikipedia.org/wiki/Science%2C_technology%2C_engineering%2C_and_mathematics");
-
             URL_Add("regularization", "https://en.wikipedia.org/wiki/Regularization_%28mathematics%29");
 
             URL_Add("MPIR", "https://en.wikipedia.org/wiki/MPIR_(mathematics_software)");
@@ -133550,8 +133229,6 @@ namespace OverflowHelper.core
 
             URL_Add("chipmaker", "https://en.wiktionary.org/wiki/chipmaker#Noun");
 
-            URL_Add("Makemake", "https://en.wikipedia.org/wiki/Makemake");
-
             URL_Add("Makefile", "https://en.wikipedia.org/wiki/Make_(software)#Makefile");
 
             URL_Add("Make", "https://en.wikipedia.org/wiki/Make_%28software%29");
@@ -133647,22 +133324,6 @@ namespace OverflowHelper.core
             URL_Add("LOL", "https://en.wiktionary.org/wiki/LOL#Interjection"); // Old: https://en.wiktionary.org/wiki/LOL#Initialism
 
             URL_Add("lolz", "https://en.wiktionary.org/wiki/lolz#Interjection");
-
-            URL_Add("bear", "https://en.wiktionary.org/wiki/bear_with#Verb");
-
-            URL_Add("bear with", "https://en.wiktionary.org/wiki/bear_with#Verb");
-
-            URL_Add("bear with me", "https://en.wiktionary.org/wiki/bear_with#Verb");
-
-            URL_Add("bear out", "https://en.wiktionary.org/wiki/bear_out#Verb");
-
-            URL_Add("bear in mind", "https://en.wiktionary.org/wiki/bear_in_mind#Verb");
-
-            URL_Add("bearing in mind", "https://en.wiktionary.org/wiki/bear_in_mind#Verb");
-
-            URL_Add("comes to mind", "https://en.wiktionary.org/wiki/come_to_mind#Verb");
-
-            URL_Add("came to mind", "https://en.wiktionary.org/wiki/come_to_mind#Verb");
 
             URL_Add("copy elision", "https://en.wikipedia.org/wiki/Copy_elision");
 
@@ -136636,12 +136297,6 @@ namespace OverflowHelper.core
 
             URL_Add("Napoleonic", "https://en.wiktionary.org/wiki/Napoleonic#Adjective");
 
-            URL_Add("born", "https://en.wiktionary.org/wiki/bear#Usage_notes");
-
-            URL_Add("newborn", "https://en.wiktionary.org/wiki/newborn#Adjective");
-
-            URL_Add("stubborn", "https://en.wiktionary.org/wiki/stubborn#Adjective");
-
             URL_Add("Sonneborn–Berger score", "https://en.wikipedia.org/wiki/Sonneborn%E2%80%93Berger_score");
 
             URL_Add("rule", "https://en.wiktionary.org/wiki/rule#Noun");
@@ -138184,32 +137839,6 @@ namespace OverflowHelper.core
             URL_Add("Titan Quest", "https://en.wikipedia.org/wiki/Titan_Quest");
 
             URL_Add("GSAP", "https://github.com/greensock/GSAP");
-
-            URL_Add("Earth", "https://en.wikipedia.org/wiki/Earth");
-
-            URL_Add("on earth", "https://en.wiktionary.org/wiki/on_earth#Prepositional_phrase");
-
-            URL_Add("earthlike", "https://en.wiktionary.org/wiki/earthlike#Adjective");
-
-            URL_Add("earthquake", "https://en.wikipedia.org/wiki/Earthquake");
-
-            URL_Add("earthquakes", "https://en.wikipedia.org/wiki/Earthquake");
-
-            URL_Add("low Earth orbit", "https://en.wikipedia.org/wiki/Low_Earth_orbit");
-
-            URL_Add("from the face of the earth", "https://en.wiktionary.org/wiki/from_the_face_of_the_earth#Noun");
-
-            URL_Add("Earth–Moon system", "https://en.wikipedia.org/wiki/Moon#Earth%E2%80%93Moon_system");
-
-            URL_Add("earth radiation", "https://en.wikipedia.org/wiki/Geopathology");
-
-            URL_Add("Google Earth", "https://en.wikipedia.org/wiki/Google_Earth");
-
-            URL_Add("dearth", "https://en.wiktionary.org/wiki/dearth#Noun");
-
-            URL_Add("infrared", "https://en.wikipedia.org/wiki/Infrared");
-
-            URL_Add("extreme ultraviolet radiation", "https://en.wikipedia.org/wiki/Extreme_ultraviolet");
 
             URL_Add("escalate", "https://en.wiktionary.org/wiki/escalate#Verb");
 
@@ -140312,8 +139941,6 @@ namespace OverflowHelper.core
 
             URL_Add("citizen", "https://en.wiktionary.org/wiki/citizen#Noun");
 
-            URL_Add("citizen science", "https://en.wikipedia.org/wiki/Citizen_science");
-
             URL_Add("sovereign", "https://en.wiktionary.org/wiki/sovereign#Adjective");
 
             URL_Add("sovereign citizen movement", "https://en.wikipedia.org/wiki/Sovereign_citizen_movement");
@@ -141157,132 +140784,6 @@ namespace OverflowHelper.core
             URL_Add("hsv_to_rgb()", "https://matplotlib.org/stable/api/_as_gen/matplotlib.colors.hsv_to_rgb.html#matplotlib-colors-hsv-to-rgb");
 
             URL_Add("GDK", "https://en.wikipedia.org/wiki/GDK");
-
-            URL_Add("transport", "https://en.wiktionary.org/wiki/transport#Noun");
-
-            URL_Add("transport express régional", "https://en.wikipedia.org/wiki/Transport_express_r%C3%A9gional");
-
-            URL_Add("transparency", "https://en.wiktionary.org/wiki/transparency#Noun");
-
-            URL_Add("transaction", "https://en.wiktionary.org/wiki/transaction#Noun");
-
-            URL_Add("transactional", "https://en.wiktionary.org/wiki/transactional#Adjective");
-
-            URL_Add("transition", "https://en.wiktionary.org/wiki/transition#Noun");
-
-            URL_Add("transit", "https://en.wiktionary.org/wiki/transit#Noun");
-
-            URL_Add("transform", "https://en.wiktionary.org/wiki/transform#Noun");
-
-            URL_Add("transforms", "https://en.wiktionary.org/wiki/transform#Verb");
-
-            URL_Add("transforming", "https://en.wiktionary.org/wiki/transform#Verb");
-
-            URL_Add("transformable", "https://en.wiktionary.org/wiki/transformable#Adjective");
-
-            URL_Add("transformation", "https://en.wiktionary.org/wiki/transformation#Noun");
-
-            URL_Add("transformations", "https://en.wiktionary.org/wiki/transformation#Noun");
-
-            URL_Add("transformer", "https://en.wikipedia.org/wiki/Transformer");
-
-            URL_Add("transfer", "https://en.wiktionary.org/wiki/transfer#Noun");
-
-            URL_Add("transferring", "https://en.wiktionary.org/wiki/transferring#Verb");
-
-            URL_Add("transferred", "https://en.wiktionary.org/wiki/transfer#Verb");
-
-            URL_Add("transmit", "https://en.wiktionary.org/wiki/transmit#Verb");
-
-            URL_Add("transmits", "https://en.wiktionary.org/wiki/transmit#Verb");
-
-            URL_Add("transmitter", "https://en.wiktionary.org/wiki/transmitter#Noun");
-
-            URL_Add("transmitted", "https://en.wiktionary.org/wiki/transmit#Verb");
-
-            URL_Add("transmissibility", "https://en.wiktionary.org/wiki/transmissibility#Noun");
-
-            URL_Add("transmission", "https://en.wiktionary.org/wiki/transmission#Noun");
-
-            URL_Add("transceive", "https://en.wiktionary.org/wiki/transceive#Verb");
-
-            URL_Add("transceiver", "https://en.wikipedia.org/wiki/Transceiver");
-
-            URL_Add("transcript", "https://en.wiktionary.org/wiki/transcript#Noun");
-
-            URL_Add("transonic", "https://en.wiktionary.org/wiki/transonic#Adjective");
-
-            URL_Add("translate", "https://en.wiktionary.org/wiki/translate#Verb");
-
-            URL_Add("translational", "https://en.wiktionary.org/wiki/translational#Adjective");
-
-            URL_Add("translation", "https://en.wiktionary.org/wiki/translation#Noun");
-
-            URL_Add("translations", "https://en.wiktionary.org/wiki/translation#Noun");
-
-            URL_Add("translation unit", "https://en.wikipedia.org/wiki/Translation_unit");
-
-            URL_Add("transverse", "https://en.wiktionary.org/wiki/transverse#Adjective"); // Old: https://en.wiktionary.org/wiki/transverse#AdjectiveEasting
-
-            URL_Add("transverse Mercator projection", "https://en.wikipedia.org/wiki/Transverse_Mercator_projection");
-
-            URL_Add("transpile", "https://en.wikipedia.org/wiki/Source-to-source_compiler");
-
-            URL_Add("transpiles", "https://en.wiktionary.org/wiki/transpile#Verb");
-
-            URL_Add("transpiling", "https://en.wiktionary.org/wiki/transpile#Verb");
-
-            URL_Add("transpiler", "https://en.wikipedia.org/wiki/Source-to-source_compiler");
-
-            URL_Add("transpilers", "https://en.wikipedia.org/wiki/Source-to-source_compiler");
-
-            URL_Add("TransMac", "https://en.wikipedia.org/wiki/Apple_Disk_Image#Utilities");
-
-            URL_Add("Transifex", "https://en.wikipedia.org/wiki/Transifex");
-
-            URL_Add("Trans-lunar injection", "https://en.wikipedia.org/wiki/Trans-lunar_injection");
-
-            URL_Add("knowledge transfer", "https://en.wikipedia.org/wiki/Knowledge_transfer");
-
-            URL_Add("knowledge base", "https://en.wiktionary.org/wiki/knowledge_base#Noun");
-
-            URL_Add("know", "https://en.wiktionary.org/wiki/know#Verb");
-
-            URL_Add("knew", "https://en.wiktionary.org/wiki/know#Verb");
-
-            URL_Add("don't know", "https://en.wiktionary.org/wiki/I_don%27t_know#Phrase");
-
-            URL_Add("all-knowing", "https://en.wiktionary.org/wiki/all-knowing#Adjective");
-
-            URL_Add("I know", "https://en.wiktionary.org/wiki/I_know#Phrase");
-
-            URL_Add("let you know", "https://en.wiktionary.org/wiki/let_know#Verb");
-
-            URL_Add("if you didn't know", "https://en.wiktionary.org/wiki/IYDK#Phrase");
-
-            URL_Add("know-how", "https://en.wiktionary.org/wiki/know-how#Noun");
-
-            URL_Add("as far as I know", "https://en.wiktionary.org/wiki/AFAIK#Adverb"); // Old: https://en.wiktionary.org/wiki/AFAIK
-
-            URL_Add("Well, you know, that's just like, your opinion, man", "https://www.youtube.com/watch?v=V0aDEvmf5u0&t=2m43s");
-
-            URL_Add("know your customer", "https://en.wikipedia.org/wiki/Know_your_customer");
-
-            URL_Add("knowledge", "https://en.wiktionary.org/wiki/knowledge#Noun");
-
-            URL_Add("knowledgeable", "https://en.wiktionary.org/wiki/knowledgeable#Adjective");
-
-            URL_Add("zero-knowledge proof", "https://en.wikipedia.org/wiki/Zero-knowledge_proof");
-
-            URL_Add("zk-SNARK", "https://en.wikipedia.org/wiki/Non-interactive_zero-knowledge_proof");
-
-            URL_Add("acknowledge", "https://en.wiktionary.org/wiki/acknowledge#Verb");
-
-            URL_Add("acknowledges", "https://en.wiktionary.org/wiki/acknowledge#Verb");
-
-            URL_Add("acknowledging", "https://en.wiktionary.org/wiki/acknowledge#Verb");
-
-            URL_Add("acknowledged", "https://en.wiktionary.org/wiki/acknowledged#Adjective");
 
             URL_Add("pulse-code modulation", "https://en.wikipedia.org/wiki/Pulse-code_modulation#Encoding_for_serial_transmission");
 
@@ -142875,8 +142376,6 @@ namespace OverflowHelper.core
             URL_Add("nonwhite", "https://en.wiktionary.org/wiki/nonwhite#Adjective");
 
             URL_Add("white-labelling", "https://en.wikipedia.org/wiki/White-label_product");
-
-            URL_Add("white dwarf", "https://en.wikipedia.org/wiki/White_dwarf");
 
             URL_Add("white space", "https://en.wiktionary.org/wiki/white_space#Noun");
 
@@ -144518,96 +144017,6 @@ namespace OverflowHelper.core
 
             URL_Add("Hackintosh", "https://en.wikipedia.org/wiki/Hackintosh");
 
-            URL_Add("nonpolar", "https://en.wiktionary.org/wiki/nonpolar#Adjective");
-
-            URL_Add("physicist", "https://en.wiktionary.org/wiki/physicist#Noun");
-
-            URL_Add("van der Waals force", "https://en.wikipedia.org/wiki/Van_der_Waals_force");
-
-            URL_Add("Coriolis force", "https://en.wikipedia.org/wiki/Coriolis_force");
-
-            URL_Add("centrifugal force", "https://en.wikipedia.org/wiki/Centrifugal_force");
-
-            URL_Add("Lorentz force", "https://en.wikipedia.org/wiki/Lorentz_force");
-
-            URL_Add("Higgs boson", "https://en.wikipedia.org/wiki/Higgs_boson");
-
-            URL_Add("graviton", "https://en.wikipedia.org/wiki/Graviton");
-
-            URL_Add("electrostatic force", "https://en.wikipedia.org/wiki/Coulomb%27s_law");
-
-            URL_Add("weak force", "https://en.wikipedia.org/wiki/Weak_interaction");
-
-            URL_Add("D meson", "https://en.wikipedia.org/wiki/D_meson");
-
-            URL_Add("dark energy", "https://en.wikipedia.org/wiki/Dark_energy");
-
-            URL_Add("Bohr model", "https://en.wikipedia.org/wiki/Bohr_model");
-
-            URL_Add("matter", "https://en.wiktionary.org/wiki/matter#Verb");
-
-            URL_Add("dark matter", "https://en.wikipedia.org/wiki/Dark_matter");
-
-            URL_Add("gluon", "https://en.wikipedia.org/wiki/Gluon");
-
-            URL_Add("strong nuclear force", "https://en.wikipedia.org/wiki/Nuclear_force");
-
-            URL_Add("nuclear", "https://en.wiktionary.org/wiki/nuclear#Adjective");
-
-            URL_Add("CERN", "https://en.wikipedia.org/wiki/CERN");
-
-            URL_Add("Large Hadron Collider", "https://en.wikipedia.org/wiki/Large_Hadron_Collider");
-
-            URL_Add("baryonic", "https://en.wiktionary.org/wiki/baryonic#Adjective");
-
-            URL_Add("baryon", "https://en.wikipedia.org/wiki/Baryon");
-
-            URL_Add("antimatter", "https://en.wikipedia.org/wiki/Antimatter");
-
-            URL_Add("particle", "https://en.wiktionary.org/wiki/particle#Noun");
-
-            URL_Add("antiparticle", "https://en.wikipedia.org/wiki/Antiparticle");
-
-            URL_Add("positron", "https://en.wikipedia.org/wiki/Positron");
-
-            URL_Add("neutrino", "https://en.wikipedia.org/wiki/Neutrino");
-
-            URL_Add("neutron", "https://en.wikipedia.org/wiki/Neutron");
-
-            URL_Add("antineutron", "https://en.wikipedia.org/wiki/Antineutron");
-
-            URL_Add("antiproton", "https://en.wikipedia.org/wiki/Antiproton");
-
-            URL_Add("antihydrogen", "https://en.wikipedia.org/wiki/Antihydrogen");
-
-            URL_Add("alpha particle", "https://en.wikipedia.org/wiki/Alpha_particle");
-
-            URL_Add("positronium", "https://en.wikipedia.org/wiki/Positronium");
-
-            URL_Add("electron degeneracy pressure", "https://en.wikipedia.org/wiki/Electron_degeneracy_pressure");
-
-            URL_Add("electron", "https://en.wikipedia.org/wiki/Electron");
-
-            URL_Add("electronegative", "https://en.wiktionary.org/wiki/electronegative#Adjective");
-
-            URL_Add("electron-donating group", "https://en.wikipedia.org/wiki/Polar_effect");
-
-            URL_Add("electron-withdrawing group", "https://en.wikipedia.org/wiki/Polar_effect");
-
-            URL_Add("electronic", "https://en.wiktionary.org/wiki/electronic#Adjective");
-
-            URL_Add("electronics", "https://en.wikipedia.org/wiki/Electronics");
-
-            URL_Add("electronic waste", "https://en.wikipedia.org/wiki/Electronic_waste");
-
-            URL_Add("physics education research", "https://en.wikipedia.org/wiki/Physics_education_research");
-
-            URL_Add("monopole", "https://en.wikipedia.org/wiki/Monopole");
-
-            URL_Add("dipole", "https://en.wiktionary.org/wiki/dipole#Noun");
-
-            URL_Add("quadrupole", "https://en.wiktionary.org/wiki/quadrupole#Noun");
-
             URL_Add("weaknesses", "https://en.wiktionary.org/wiki/weakness#Noun");
 
             URL_Add("weakening", "https://en.wiktionary.org/wiki/weaken#Verb");
@@ -145032,14 +144441,6 @@ namespace OverflowHelper.core
 
             URL_Add("direct digital synthesis", "https://en.wikipedia.org/wiki/Direct_digital_synthesis");
 
-            URL_Add("Big Bang", "https://en.wikipedia.org/wiki/Big_Bang");
-
-            URL_Add("Big Bang nucleosynthesis", "https://en.wikipedia.org/wiki/Big_Bang_nucleosynthesis");
-
-            URL_Add("nucleosynthesis", "https://en.wikipedia.org/wiki/Nucleosynthesis");
-
-            URL_Add("The Big Bang Theory", "https://en.wikipedia.org/wiki/The_Big_Bang_Theory");
-
             URL_Add("jamming", "https://en.wiktionary.org/wiki/jamming#Noun");
 
             URL_Add("decision", "https://en.wiktionary.org/wiki/decision#Noun");
@@ -145253,420 +144654,6 @@ namespace OverflowHelper.core
             URL_Add("pay", "https://en.wiktionary.org/wiki/pay#Verb");
 
             URL_Add("paid", "https://en.wiktionary.org/wiki/pay#Verb");
-
-            URL_Add("watertight", "https://en.wiktionary.org/wiki/watertight#Adjective");
-
-            URL_Add("water cooler", "https://en.wiktionary.org/wiki/water_cooler#Noun");
-
-            URL_Add("watermark", "https://en.wiktionary.org/wiki/watermark#Noun");
-
-            URL_Add("watermarking", "https://en.wiktionary.org/wiki/watermark#Verb");
-
-            URL_Add("water-repellent", "https://en.wiktionary.org/wiki/water-repellent#Adjective");
-
-            URL_Add("water lily", "https://en.wiktionary.org/wiki/water_lily#Noun");
-
-            URL_Add("water wave", "https://www.merriam-webster.com/dictionary/water%20wave");
-
-            URL_Add("waterfall model", "https://en.wikipedia.org/wiki/Waterfall_model");
-
-            URL_Add("Waterfox", "https://en.wikipedia.org/wiki/Waterfox");
-
-            URL_Add("chemical", "https://en.wiktionary.org/wiki/chemical#Adjective");
-
-            URL_Add("International Chemistry Olympiad", "https://en.wikipedia.org/wiki/International_Chemistry_Olympiad");
-
-            URL_Add("Nernst equation", "https://en.wikipedia.org/wiki/Nernst_equation");
-
-            URL_Add("element", "https://en.wiktionary.org/wiki/element#Noun");
-
-            URL_Add("elements", "https://en.wiktionary.org/wiki/element#Noun");
-
-            URL_Add("hydrogen", "https://en.wikipedia.org/wiki/Hydrogen"); // Chemical element 1
-
-            URL_Add("deuterium", "https://en.wikipedia.org/wiki/Deuterium");
-
-            URL_Add("tritium", "https://en.wikipedia.org/wiki/Tritium");
-
-            URL_Add("water", "https://en.wikipedia.org/wiki/Water");
-
-            URL_Add("hydrogen peroxide", "https://en.wikipedia.org/wiki/Hydrogen_peroxide");
-
-            URL_Add("helium", "https://en.wikipedia.org/wiki/Helium"); // Chemical element 2
-
-            URL_Add("helium-3", "https://en.wikipedia.org/wiki/Helium-3"); // Related to chemical element 2
-
-            URL_Add("Helium-4", "https://en.wikipedia.org/wiki/Helium-4"); // Related to chemical element 2
-
-            URL_Add("lithium", "https://en.wikipedia.org/wiki/Lithium"); // Chemical element 3
-
-            URL_Add("Li-ion", "https://en.wikipedia.org/wiki/Lithium-ion_battery"); // Related to chemical element 4
-
-            URL_Add("lithium iron phosphate", "https://en.wikipedia.org/wiki/Lithium_iron_phosphate"); // Related to chemical element 4
-
-            URL_Add("lithium-ion batteries", "https://en.wikipedia.org/wiki/Lithium-ion_battery"); // Related to chemical element 4
-
-            URL_Add("lithium-ion battery swelling", "https://en.wikipedia.org/wiki/Lithium-ion_battery#Lifespan"); // Related to chemical element 4
-
-            URL_Add("LiPo", "https://en.wikipedia.org/wiki/Lithium_polymer_battery"); // Related to chemical element 4
-
-            URL_Add("two parallel", "https://www.instructables.com/Make-Your-Own-4S-Lithium-Battery-Pack/");
-
-            URL_Add("three-series, two parallel", "https://www.instructables.com/Make-Your-Own-4S-Lithium-Battery-Pack/");
-
-            URL_Add("four-series", "https://www.instructables.com/Make-Your-Own-4S-Lithium-Battery-Pack/");
-
-            URL_Add("four-series, two parallel", "https://www.instructables.com/Make-Your-Own-4S-Lithium-Battery-Pack/");
-
-            URL_Add("18650 battery", "https://en.wikipedia.org/wiki/18650_battery");
-
-            URL_Add("Panasonic", "https://en.wikipedia.org/wiki/Panasonic");
-
-            URL_Add("beryllium", "https://en.wikipedia.org/wiki/Beryllium"); // Chemical element 4
-
-            URL_Add("boron", "https://en.wikipedia.org/wiki/Boron"); // Chemical element 5
-
-            URL_Add("carbon-13", "https://en.wikipedia.org/wiki/Carbon-13"); // Related to chemical element 6
-
-            URL_Add("carbon-14", "https://en.wikipedia.org/wiki/Carbon-14"); // Related to chemical element 6
-
-            URL_Add("diamond", "https://en.wiktionary.org/wiki/diamond#Noun"); // Related to chemical element 6
-
-            URL_Add("graphene", "https://en.wikipedia.org/wiki/Graphene"); // Related to chemical element 6
-
-            URL_Add("buckminsterfullerene", "https://en.wikipedia.org/wiki/Buckminsterfullerene");
-
-            URL_Add("carbon monoxide", "https://en.wikipedia.org/wiki/Carbon_monoxide"); // Related to chemical element 6
-
-            URL_Add("carbon dioxide", "https://en.wikipedia.org/wiki/Carbon_dioxide"); // Related to chemical element 6
-
-            URL_Add("IPCC", "https://en.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change");
-
-            URL_Add("Greta Thunberg", "https://en.wikipedia.org/wiki/Greta_Thunberg");
-
-            URL_Add("methane", "https://en.wikipedia.org/wiki/Methane");
-
-            URL_Add("ascorbic acid", "https://en.wikipedia.org/wiki/Vitamin_C");
-
-            URL_Add("folic acid", "https://en.wikipedia.org/wiki/Folate");
-
-            URL_Add("carborane acid", "https://en.wikipedia.org/wiki/Carborane_acid");
-
-            URL_Add("triflic acid", "https://en.wikipedia.org/wiki/Triflic_acid");
-
-            URL_Add("benzodiazepine", "https://en.wikipedia.org/wiki/Benzodiazepine");
-
-            URL_Add("Benzene", "https://en.wikipedia.org/wiki/Benzene");
-
-            URL_Add("hexane", "https://en.wikipedia.org/wiki/Hexane");
-
-            URL_Add("natural gas", "https://en.wiktionary.org/wiki/natural_gas#Noun");
-
-            URL_Add("petrochemical", "https://en.wiktionary.org/wiki/petrochemical#Adjective");
-
-            URL_Add("refineries", "https://en.wiktionary.org/wiki/refinery#Noun");
-
-            URL_Add("oil", "https://en.wiktionary.org/wiki/oil#Noun");
-
-            URL_Add("formaldehyde", "https://en.wikipedia.org/wiki/Formaldehyde");
-
-            URL_Add("acetone", "https://en.wikipedia.org/wiki/Acetone");
-
-            URL_Add("ethanol", "https://en.wikipedia.org/wiki/Ethanol");
-
-            URL_Add("Alcoholics Anonymous", "https://en.wikipedia.org/wiki/Alcoholics_Anonymous");
-
-            URL_Add("beer", "https://en.wiktionary.org/wiki/beer#Noun");
-
-            URL_Add("toxic", "https://en.wiktionary.org/wiki/toxic#Adjective");
-
-            URL_Add("intoxicated", "https://en.wiktionary.org/wiki/intoxicated#Adjective");
-
-            URL_Add("intoxication", "https://en.wiktionary.org/wiki/intoxication#Noun");
-
-            URL_Add("vermouth", "https://en.wikipedia.org/wiki/Vermouth");
-
-            URL_Add("turpentine", "https://en.wikipedia.org/wiki/Turpentine");
-
-            URL_Add("Cesium Ion", "https://cesium.com/learn/3d-tiling/ion-tile-imagery/"); // Unrelated to the chemical element caesium (chemical element 56)
-
-            URL_Add("caffeine", "https://en.wikipedia.org/wiki/Caffeine");
-
-            URL_Add("nicotine", "https://en.wikipedia.org/wiki/Nicotine");
-
-            URL_Add("drudgery", "https://en.wiktionary.org/wiki/drudgery#Noun");
-
-            URL_Add("drug", "https://en.wiktionary.org/wiki/drug#Noun");
-
-            URL_Add("drugs", "https://en.wiktionary.org/wiki/drug#Noun");
-
-            URL_Add("methamphetamine", "https://en.wikipedia.org/wiki/Methamphetamine");
-
-            URL_Add("morphine", "https://en.wikipedia.org/wiki/Morphine");
-
-            URL_Add("fentanyl", "https://en.wikipedia.org/wiki/Fentanyl");
-
-            URL_Add("cocaine", "https://en.wikipedia.org/wiki/Cocaine");
-
-            URL_Add("LSD", "https://en.wikipedia.org/wiki/LSD");
-
-            URL_Add("nitrogen", "https://en.wikipedia.org/wiki/Nitrogen"); // Chemical element 7
-
-            URL_Add("ammonium nitrate", "https://en.wikipedia.org/wiki/Ammonium_nitrate"); // Related to chemical element 6
-
-            URL_Add("hydrazine", "https://en.wikipedia.org/wiki/Hydrazine");
-
-            URL_Add("oxygen-17", "https://en.wikipedia.org/wiki/Oxygen-17"); // Related to chemical element 8
-
-            URL_Add("fluorine", "https://en.wikipedia.org/wiki/Fluorine"); // Chemical element 9
-
-            URL_Add("neon", "https://en.wikipedia.org/wiki/Neon"); // Chemical element 10
-
-            URL_Add("sodium", "https://en.wikipedia.org/wiki/Sodium");
-
-            URL_Add("sodium chloride", "https://en.wikipedia.org/wiki/Sodium_chloride"); // Related to chemical element 11
-
-            URL_Add("sodium bicarbonate", "https://en.wikipedia.org/wiki/Sodium_bicarbonate"); // Related to chemical element 11
-
-            URL_Add("magnesium", "https://en.wikipedia.org/wiki/Magnesium"); // Chemical element 12
-
-            URL_Add("aluminium", "https://en.wiktionary.org/wiki/aluminium#Noun"); // Chemical element 13
-
-            URL_Add("aluminium foil", "https://en.wikipedia.org/wiki/Aluminium_foil");
-
-            URL_Add("aluminium sulfate", "https://en.wikipedia.org/wiki/Aluminium_sulfate");
-
-            URL_Add("silicon", "https://en.wikipedia.org/wiki/Silicon"); // Chemical element 14
-
-            URL_Add("phosphorus", "https://en.wikipedia.org/wiki/Phosphorus"); // Chemical element 15
-
-            URL_Add("sulphuric acid", "https://en.wikipedia.org/wiki/Sulfuric_acid"); // Related to chemical element 16
-
-            URL_Add("chlorine", "https://en.wikipedia.org/wiki/Chlorine"); // Chemical element 17
-
-            URL_Add("hydrochloric acid", "https://en.wikipedia.org/wiki/Hydrochloric_acid"); // Related to chemical element 17
-
-            URL_Add("chlorinated", "https://en.wiktionary.org/wiki/chlorinated#Adjective"); // Related to chemical element 17
-
-            URL_Add("dichloromethane", "https://en.wikipedia.org/wiki/Dichloromethane"); // Related to chemical element 17
-
-            URL_Add("hydrofluoric acid", "https://en.wikipedia.org/wiki/Hydrofluoric_acid");
-
-            URL_Add("argon", "https://en.wikipedia.org/wiki/Argon"); // Chemical element 18
-
-            URL_Add("potassium", "https://en.wikipedia.org/wiki/Potassium"); // Chemical element 19
-
-            URL_Add("potassium-40", "https://en.wikipedia.org/wiki/Potassium-40"); // Related to chemical element 19
-
-            URL_Add("potassium aluminium sulfate", "https://en.wikipedia.org/wiki/Potassium_alum"); // Related to chemical element 19
-
-            URL_Add("potassium metabisulfite", "https://en.wikipedia.org/wiki/Potassium_metabisulfite"); // Related to chemical element 19
-
-            URL_Add("potassium sorbate", "https://en.wikipedia.org/wiki/Potassium_sorbate"); // Related to chemical element 19
-
-            URL_Add("potassium carbonate", "https://en.wikipedia.org/wiki/Potassium_carbonate"); // Related to chemical element 19
-
-            URL_Add("potassium hydroxide", "https://en.wikipedia.org/wiki/Potassium_hydroxide"); // Related to chemical element 19
-
-            URL_Add("potassium chloride", "https://en.wikipedia.org/wiki/Potassium_chloride"); // Related to chemical element 19
-
-            URL_Add("calcium", "https://en.wikipedia.org/wiki/Calcium"); // Chemical element 20
-
-            URL_Add("calcium-41", "https://en.wikipedia.org/wiki/Isotopes_of_calcium");
-
-            URL_Add("calcite", "https://en.wikipedia.org/wiki/Calcite"); // Related to chemical element 20
-
-            URL_Add("calcium phosphate", "https://en.wikipedia.org/wiki/Calcium_phosphate"); // Related to chemical element 20
-
-            URL_Add("titanium", "https://en.wikipedia.org/wiki/Titanium"); // Chemical element 22
-
-            URL_Add("iron", "https://en.wikipedia.org/wiki/Iron"); // Chemical element 26
-
-            URL_Add("ferric chloride", "https://en.wikipedia.org/wiki/Iron(III)_chloride"); // Related to chemical element 26
-
-            URL_Add("steel plate", "https://en.wikipedia.org/wiki/Steel_plate_shear_wall"); // Related to chemical element 26
-
-            URL_Add("high-speed steel", "https://en.wikipedia.org/wiki/High-speed_steel"); // Related to chemical element 26
-
-            URL_Add("stainless steel", "https://en.wikipedia.org/wiki/Stainless_steel");
-
-            URL_Add("steel mills", "https://en.wiktionary.org/wiki/steel_mill#Noun"); // Related to chemical element 26
-
-            URL_Add("cobalt", "https://en.wikipedia.org/wiki/Cobalt"); // Chemical element 27
-
-            URL_Add("nickel", "https://en.wikipedia.org/wiki/Nickel"); // Chemical element 28
-
-            URL_Add("nickel–metal hydride", "https://en.wikipedia.org/wiki/Nickel%E2%80%93metal_hydride_battery"); // Related to chemical element 28
-
-            URL_Add("NiCad", "https://en.wikipedia.org/wiki/Nickel%E2%80%93cadmium_battery"); // Contains chemical element 28 and chemical element 48
-
-            URL_Add("copper", "https://en.wikipedia.org/wiki/Copper"); // Chemical element 29
-
-            URL_Add("bronze", "https://en.wikipedia.org/wiki/Bronze"); // Related to chemical element 29
-
-            URL_Add("copper-clad aluminium", "https://en.wikipedia.org/wiki/Copper-clad_aluminium_wire"); // Related to chemical element 29
-
-            URL_Add("zinc", "https://en.wikipedia.org/wiki/Zinc"); // Chemical element 30
-
-            URL_Add("gallium", "https://en.wikipedia.org/wiki/Gallium"); // Chemical element 31
-
-            URL_Add("gallium nitride", "https://en.wikipedia.org/wiki/Gallium_nitride"); // Related to chemical element 31
-
-            URL_Add("germanium", "https://en.wikipedia.org/wiki/Germanium"); // Chemical element 32
-
-            URL_Add("arsenic", "https://en.wikipedia.org/wiki/Arsenic"); // Chemical element 33
-
-            URL_Add("rubidium", "https://en.wikipedia.org/wiki/Rubidium"); // Chemical element 37
-
-            URL_Add("strontium", "https://en.wikipedia.org/wiki/Strontium"); // Chemical element 38
-
-            URL_Add("strontium-94", "https://en.wikipedia.org/wiki/Isotopes_of_strontium"); // Related to chemical element 38
-
-            URL_Add("zirconium", "https://en.wikipedia.org/wiki/Zirconium"); // Chemical element 40
-
-            URL_Add("cubic zirconia", "https://en.wikipedia.org/wiki/Cubic_zirconia"); // Related to chemical element 40
-
-            URL_Add("niobium", "https://en.wikipedia.org/wiki/Niobium"); // Chemical element 41
-
-            URL_Add("palladium", "https://en.wikipedia.org/wiki/Palladium"); // Chemical element 46
-
-            URL_Add("palladised", "https://en.wikipedia.org/wiki/Palladium"); // Related to chemical element 46
-
-            URL_Add("silver", "https://en.wikipedia.org/wiki/Silver"); // Chemical element 47
-
-            URL_Add("silver sulfide", "https://en.wikipedia.org/wiki/Silver_sulfide");
-
-            URL_Add("cadmium", "https://en.wikipedia.org/wiki/Cadmium"); // Chemical element 48
-
-            URL_Add("tin", "https://en.wikipedia.org/wiki/Tin"); // Chemical element 50
-
-            URL_Add("tin foil hat", "https://en.wikipedia.org/wiki/Tin_foil_hat"); // Related to chemical element 50
-
-            URL_Add("antimony", "https://en.wikipedia.org/wiki/Antimony"); // Chemical element 51
-
-            URL_Add("tellurium", "https://en.wikipedia.org/wiki/Tellurium"); // Chemical element 52
-
-            URL_Add("xenon", "https://en.wikipedia.org/wiki/Xenon"); // Chemical element 54
-
-            URL_Add("xenon-133", "https://en.wikipedia.org/wiki/Isotopes_of_xenon"); // Related to chemical element 54
-
-            URL_Add("xenon-140", "https://en.wikipedia.org/wiki/Isotopes_of_xenon"); // Related to chemical element 54
-
-            URL_Add("barium", "https://en.wikipedia.org/wiki/Barium"); // Chemical element 55
-
-            URL_Add("barium-137", "https://en.wikipedia.org/wiki/Isotopes_of_barium"); // Related to chemical element 55
-
-            URL_Add("barium Ka line (X-ray 32 keV)", "https://en.wikipedia.org/wiki/Isotopes_of_barium"); // Related to chemical element 55
-
-            URL_Add("caesium", "https://en.wikipedia.org/wiki/Caesium"); // Chemical element 56
-
-            URL_Add("caesium-137", "https://en.wikipedia.org/wiki/Caesium-137"); // Related to chemical element 56
-
-            URL_Add("ytterbium", "https://en.wikipedia.org/wiki/Ytterbium"); // Chemical element 70
-
-            URL_Add("electrolytic capacitor", "https://en.wikipedia.org/wiki/Electrolytic_capacitor");
-
-            URL_Add("tantalum capacitor", "https://en.wikipedia.org/wiki/Tantalum_capacitor"); // Contains element 73
-
-            URL_Add("tungsten", "https://en.wikipedia.org/wiki/Tungsten"); // Chemical element 74
-
-            URL_Add("rhenium", "https://en.wikipedia.org/wiki/Rhenium"); // Chemical element 75
-
-            URL_Add("osmium", "https://en.wikipedia.org/wiki/Osmium"); // Chemical element 76
-
-            URL_Add("iridium", "https://en.wikipedia.org/wiki/Iridium"); // Chemical element 77
-
-            URL_Add("platinum", "https://en.wikipedia.org/wiki/Platinum"); // Chemical element 78
-
-            URL_Add("gold", "https://en.wikipedia.org/wiki/Gold"); // Chemical element 79
-
-            URL_Add("mercury", "https://en.wikipedia.org/wiki/Mercury_%28element%29"); // Chemical element 80
-
-            URL_Add("thallium", "https://en.wikipedia.org/wiki/Thallium"); // Chemical element 81
-
-            URL_Add("lead", "https://en.wikipedia.org/wiki/Lead"); // Chemical element 82
-
-            URL_Add("lead-208", "https://en.wikipedia.org/wiki/Isotopes_of_lead#Lead-204,_-207,_and_-208"); // Related to chemical element 82
-
-            URL_Add("lead-210", "https://en.wikipedia.org/wiki/Isotopes_of_lead#List_of_isotopes"); // Related to chemical element 82
-
-            URL_Add("bismuth", "https://en.wikipedia.org/wiki/Bismuth"); // Chemical element 83
-
-            URL_Add("bismuth-209", "https://en.wikipedia.org/wiki/Bismuth-209"); // Related to chemical element 83
-
-            URL_Add("polonium", "https://en.wikipedia.org/wiki/Polonium");
-
-            URL_Add("francium", "https://en.wikipedia.org/wiki/Francium");
-
-            URL_Add("radium", "https://en.wikipedia.org/wiki/Radium"); // Chemical element 88
-
-            URL_Add("thorium", "https://en.wikipedia.org/wiki/Thorium"); // Chemical element 90
-
-            URL_Add("thorium-233", "https://en.wikipedia.org/wiki/Thorium-232"); // Related to chemical element 90
-
-            URL_Add("uranium-235", "https://en.wikipedia.org/wiki/Uranium-235"); // Related to chemical element 92
-
-            URL_Add("uranium-238", "https://en.wikipedia.org/wiki/Uranium-238"); // Related to chemical element 92
-
-            URL_Add("plutonium", "https://en.wikipedia.org/wiki/Plutonium"); // Chemical element 94
-
-            URL_Add("plutonium-239", "https://en.wikipedia.org/wiki/Plutonium-239"); // Related to chemical element 94
-
-            URL_Add("plutonium-240", "https://en.wikipedia.org/wiki/Plutonium-240"); // Related to chemical element 94
-
-            URL_Add("americium-241", "https://en.wikipedia.org/wiki/Americium-241"); // Related to chemical element 95
-
-            URL_Add("rutherfordium", "https://en.wikipedia.org/wiki/Rutherfordium"); // Chemical element 104
-
-            URL_Add("dubnium", "https://en.wikipedia.org/wiki/Dubnium"); // Chemical element 104
-
-            URL_Add("seaborgium", "https://en.wikipedia.org/wiki/Seaborgium"); // Chemical element 106
-
-            URL_Add("bohrium", "https://en.wikipedia.org/wiki/Bohrium"); // Chemical element 107
-
-            URL_Add("copernicium", "https://en.wikipedia.org/wiki/Copernicium"); // Chemical element 112
-
-            URL_Add("oganesson", "https://en.wikipedia.org/wiki/Oganesson"); // Chemical element 118
-
-            URL_Add("unbinilium", "https://en.wikipedia.org/wiki/Unbinilium"); // Chemical element 120
-
-            URL_Add("unbihexium", "https://en.wikipedia.org/wiki/Unbihexium"); // Chemical element 126
-
-            URL_Add("spin–orbit coupling", "https://en.wikipedia.org/wiki/Spin%E2%80%93orbit_interaction");
-
-            URL_Add("orbital", "https://en.wiktionary.org/wiki/orbital#Adjective");
-
-            URL_Add("sp2", "https://en.wikipedia.org/wiki/Orbital_hybridisation#sp2");
-
-            URL_Add("p orbital", "https://en.wikipedia.org/wiki/Atomic_orbital");
-
-            URL_Add("s orbital", "https://en.wikipedia.org/wiki/Atomic_orbital");
-
-            URL_Add("atomically", "https://en.wiktionary.org/wiki/atomically#Adverb");
-
-            URL_Add("atomic level", "https://dictionary.cambridge.org/example/english/atomic-level");
-
-            URL_Add("nonatomic", "https://en.wiktionary.org/wiki/nonatomic#Adjective");
-
-            URL_Add("atomic weight", "https://en.wikipedia.org/wiki/Relative_atomic_mass");
-
-            URL_Add("Feynman diagram", "https://en.wikipedia.org/wiki/Feynman_diagram");
-
-            URL_Add("Standard Model", "https://en.wikipedia.org/wiki/Standard_Model");
-
-            URL_Add("thermonuclear", "https://en.wiktionary.org/wiki/thermonuclear#Adjective");
-
-            URL_Add("International Atomic Energy Agency", "https://en.wikipedia.org/wiki/International_Atomic_Energy_Agency");
-
-            URL_Add("fusion", "https://en.wikipedia.org/wiki/Nuclear_fusion");
-
-            URL_Add("neutron star", "https://en.wikipedia.org/wiki/Neutron_star");
-
-            URL_Add("superheavy", "https://en.wiktionary.org/wiki/superheavy#Adjective");
-
-            URL_Add("polycarbonate", "https://www.prosettings.com/keycaps-guide/");
-
-            URL_Add("POM", "https://www.prosettings.com/keycaps-guide/");
 
             URL_Add("Swiss", "https://en.wiktionary.org/wiki/Swiss#Adjective");
 
@@ -146322,8 +145309,6 @@ namespace OverflowHelper.core
 
             URL_Add("data engineer", "https://en.wikipedia.org/wiki/Information_engineering");
 
-            URL_Add("data scientist", "https://en.wikipedia.org/wiki/Data_science#Careers_in_data_science");
-
             URL_Add("software", "https://en.wiktionary.org/wiki/software#Noun"); // Old: https://en.wiktionary.org/wiki/software
 
             URL_Add("software engineering", "https://en.wiktionary.org/wiki/software_engineering#Noun");
@@ -146605,22 +145590,6 @@ namespace OverflowHelper.core
             URL_Add("boatload", "https://en.wiktionary.org/wiki/boatload#Noun");
 
             URL_Add("boatloads", "https://en.wiktionary.org/wiki/boatload#Noun");
-
-            URL_Add("heat sink", "https://en.wiktionary.org/wiki/heat_sink#Noun"); // Old: https://en.wiktionary.org/wiki/heat_sink#English
-
-            URL_Add("heat sinks", "https://en.wiktionary.org/wiki/heat_sink#Noun");
-
-            URL_Add("Hess's law of constant heat summation", "https://en.wikipedia.org/wiki/Hess%27s_law");
-
-            URL_Add("heat death of the universe", "https://en.wikipedia.org/wiki/Heat_death_of_the_universe");
-
-            URL_Add("HVAC", "https://en.wikipedia.org/wiki/Heating,_ventilation,_and_air_conditioning");
-
-            URL_Add("separate the wheat from the chaff", "https://en.wiktionary.org/wiki/separate_the_wheat_from_the_chaff#Verb");
-
-            URL_Add("Wheatstone bridge", "https://en.wikipedia.org/wiki/Wheatstone_bridge");
-
-            URL_Add("theater", "https://en.wiktionary.org/wiki/theater#Noun");
 
             URL_Add("dotfiles", "https://en.wiktionary.org/wiki/dotfile#Noun");
 
@@ -146949,10 +145918,6 @@ namespace OverflowHelper.core
             URL_Add("brighter", "https://en.wiktionary.org/wiki/brighter#Adjective");
 
             URL_Add("brightness", "https://en.wiktionary.org/wiki/brightness#Noun");
-
-            URL_Add("brightest of all time", "https://en.wikipedia.org/wiki/GRB_221009A");
-
-            URL_Add("supernova", "https://en.wiktionary.org/wiki/supernova#Noun");
 
             URL_Add("illegible", "https://en.wiktionary.org/wiki/illegible#Adjective");
 
@@ -147812,336 +146777,6 @@ namespace OverflowHelper.core
 
             URL_Add("originality", "https://en.wiktionary.org/wiki/originality#Noun");
 
-            URL_Add("stepped", "https://en.wiktionary.org/wiki/step#Verb");
-
-            URL_Add("step", "https://en.wiktionary.org/wiki/step#Noun");
-
-            URL_Add("steps", "https://en.wiktionary.org/wiki/steps#Noun");
-
-            URL_Add("stepwise", "https://en.wiktionary.org/wiki/stepwise#Adjective");
-
-            URL_Add("step-up", "https://en.wiktionary.org/wiki/step-up#Adjective");
-
-            URL_Add("step-by-step", "https://en.wiktionary.org/wiki/step-by-step#Adjective");
-
-            URL_Add("stepdad", "https://en.wiktionary.org/wiki/stepdad#Noun");
-
-            URL_Add("stepfather", "https://en.wiktionary.org/wiki/stepfather#Noun");
-
-            URL_Add("step on a rake", "https://en.wiktionary.org/wiki/step_on_a_rake#Verb");
-
-            URL_Add("StepMania", "https://en.wikipedia.org/wiki/StepMania");
-
-            URL_Add("Stephen Hawking", "https://en.wikipedia.org/wiki/Stephen_Hawking");
-
-            URL_Add("Charles Petzold", "https://en.wikipedia.org/wiki/Charles_Petzold");
-
-            URL_Add("Larry Wall", "https://en.wikipedia.org/wiki/Larry_Wall");
-
-            URL_Add("Douglas Crockford", "https://en.wikipedia.org/wiki/Douglas_Crockford");
-
-            URL_Add("Leslie Lamport", "https://en.wikipedia.org/wiki/Leslie_Lamport");
-
-            URL_Add("Chris DiBona", "https://en.wikipedia.org/wiki/Chris_DiBona");
-
-            URL_Add("Scott Hanselman", "https://www.hanselman.com/about/");
-
-            URL_Add("Scott Guthrie", "https://en.wikipedia.org/wiki/Scott_Guthrie");
-
-            URL_Add("Casey Muratori", "https://www.youtube.com/watch?v=wo84LFzx5nI");
-
-            URL_Add("Gary Kildall", "https://en.wikipedia.org/wiki/Gary_Kildall");
-
-            URL_Add("Mona Lisa", "https://en.wikipedia.org/wiki/Mona_Lisa");
-
-            URL_Add("Lear Siegler", "https://en.wikipedia.org/wiki/Lear_Siegler#Computer_terminals");
-
-            URL_Add("Antichrist", "https://en.wiktionary.org/wiki/Antichrist#Proper_noun");
-
-            URL_Add("Lord Voldemort", "https://harrypotter.fandom.com/wiki/Tom_Riddle");
-
-            URL_Add("Johnny Depp", "https://en.wikipedia.org/wiki/Johnny_Depp");
-
-            URL_Add("Arnold Schwarzenegger", "https://en.wikipedia.org/wiki/Arnold_Schwarzenegger");
-
-            URL_Add("J. R. R. Tolkien", "https://en.wikipedia.org/wiki/J._R._R._Tolkien");
-
-            URL_Add("John Green", "https://en.wikipedia.org/wiki/John_Green");
-
-            URL_Add("Bill Joy", "https://en.wikipedia.org/wiki/Bill_Joy");
-
-            URL_Add("Alvin Toffler", "https://en.wikipedia.org/wiki/Alvin_Toffler");
-
-            URL_Add("Martin Landau", "https://en.wikipedia.org/wiki/Martin_Landau");
-
-            URL_Add("Steve Gibson", "https://en.wikipedia.org/wiki/Steve_Gibson_(computer_programmer)");
-
-            URL_Add("Andrew Koenig", "https://en.wikipedia.org/wiki/Andrew_Koenig_(programmer)");
-
-            URL_Add("Paul Graham", "https://en.wikipedia.org/wiki/Paul_Graham_(programmer)");
-
-            URL_Add("Paul Hudak", "https://en.wikipedia.org/wiki/Paul_Hudak");
-
-            URL_Add("Ted Turner", "https://en.wikipedia.org/wiki/Ted_Turner");
-
-            URL_Add("Scott Morrison", "https://en.wikipedia.org/wiki/Scott_Morrison");
-
-            URL_Add("Joe Biden", "https://en.wikipedia.org/wiki/Joe_Biden");
-
-            URL_Add("Barack Obama", "https://en.wikipedia.org/wiki/Barack_Obama");
-
-            URL_Add("George W. Bush", "https://en.wikipedia.org/wiki/George_W._Bush");
-
-            URL_Add("Volodymyr Zelenskyy", "https://en.wikipedia.org/wiki/Volodymyr_Zelenskyy");
-
-            URL_Add("Denmark", "https://en.wiktionary.org/wiki/Denmark#Proper_noun");
-
-            URL_Add("Margrethe II", "https://en.wikipedia.org/wiki/Margrethe_II"); // Old: https://en.wikipedia.org/wiki/Margrethe_II_of_Denmark
-
-            URL_Add("Elizabeth II", "https://en.wikipedia.org/wiki/Elizabeth_II");
-
-            URL_Add("David Cameron", "https://en.wikipedia.org/wiki/David_Cameron");
-
-            URL_Add("Rishi Sunak", "https://en.wikipedia.org/wiki/Rishi_Sunak");
-
-            URL_Add("Jeff Bezos", "https://en.wikipedia.org/wiki/Jeff_Bezos");
-
-            URL_Add("Steve Jobs", "https://en.wikipedia.org/wiki/Steve_Jobs");
-
-            URL_Add("Steve Ballmer", "https://en.wikipedia.org/wiki/Steve_Ballmer");
-
-            URL_Add("Bill Gates", "https://en.wikipedia.org/wiki/Bill_Gates");
-
-            URL_Add("Lex Fridman", "https://en.wikipedia.org/wiki/Lex_Fridman");
-
-            URL_Add("Elon Musk", "https://en.wikipedia.org/wiki/Elon_Musk");
-
-            URL_Add("Tucker Carlson", "https://en.wikipedia.org/wiki/Tucker_Carlson");
-
-            URL_Add("Saddam Hussein", "https://en.wikipedia.org/wiki/Saddam_Hussein");
-
-            URL_Add("Bashar al-Assad", "https://en.wikipedia.org/wiki/Bashar_al-Assad");
-
-            URL_Add("Vladimir Putin", "https://en.wikipedia.org/wiki/Vladimir_Putin");
-
-            URL_Add("Joseph Stalin", "https://en.wikipedia.org/wiki/Joseph_Stalin");
-
-            URL_Add("Alexander Lukashenko", "https://en.wikipedia.org/wiki/Alexander_Lukashenko");
-
-            URL_Add("Silvio Berlusconi", "https://en.wikipedia.org/wiki/Silvio_Berlusconi");
-
-            URL_Add("Viktor Yanukovych", "https://en.wikipedia.org/wiki/Viktor_Yanukovych");
-
-            URL_Add("Karl Marx", "https://en.wikipedia.org/wiki/Karl_Marx");
-
-            URL_Add("Führer", "https://en.wikipedia.org/wiki/F%C3%BChrer");
-
-            URL_Add("Adolf Hitler", "https://en.wikipedia.org/wiki/Adolf_Hitler");
-
-            URL_Add("Göring", "https://en.wikipedia.org/wiki/Hermann_G%C3%B6ring");
-
-            URL_Add("Hannah Arendt", "https://en.wikipedia.org/wiki/Hannah_Arendt");
-
-            URL_Add("Muammar Gaddafi", "https://en.wikipedia.org/wiki/Muammar_Gaddafi");
-
-            URL_Add("Libyan", "https://en.wiktionary.org/wiki/Libyan#Adjective");
-
-            URL_Add("Nicolás Maduro", "https://en.wikipedia.org/wiki/Nicol%C3%A1s_Maduro");
-
-            URL_Add("Dwight D. Eisenhower", "https://en.wikipedia.org/wiki/Dwight_D._Eisenhower");
-
-            URL_Add("Alexander Alekhine", "https://en.wikipedia.org/wiki/Alexander_Alekhine");
-
-            URL_Add("Leonhard Euler", "https://en.wikipedia.org/wiki/Leonhard_Euler");
-
-            URL_Add("Eulerian", "https://en.wiktionary.org/wiki/Eulerian#Adjective");
-
-            URL_Add("Euler angles", "https://en.wikipedia.org/wiki/Euler_angles");
-
-            URL_Add("Euler–Lagrange equation", "https://en.wikipedia.org/wiki/Euler%E2%80%93Lagrange_equation");
-
-            URL_Add("symplectic Euler", "https://en.wikipedia.org/wiki/Semi-implicit_Euler_method");
-
-            URL_Add("Euler tour technique", "https://en.wikipedia.org/wiki/Euler_tour_technique");
-
-            URL_Add("quaternion", "https://en.wikipedia.org/wiki/Quaternion");
-
-            URL_Add("Noether", "https://en.wikipedia.org/wiki/Emmy_Noether");
-
-            URL_Add("Project Euler", "https://en.wikipedia.org/wiki/Project_Euler");
-
-            URL_Add("Tycho Brahe", "https://en.wikipedia.org/wiki/Tycho_Brahe");
-
-            URL_Add("Galileo Galilei", "https://en.wikipedia.org/wiki/Galileo_Galilei");
-
-            URL_Add("Niels Bohr", "https://en.wikipedia.org/wiki/Niels_Bohr");
-
-            URL_Add("Werner Heisenberg", "https://en.wikipedia.org/wiki/Werner_Heisenberg");
-
-            URL_Add("J. J. Thomson", "https://en.wikipedia.org/wiki/J._J._Thomson");
-
-            URL_Add("Thomson scattering", "https://en.wikipedia.org/wiki/Thomson_scattering");
-
-            URL_Add("Philippe Meyer", "https://fr.wikipedia.org/wiki/Philippe_Meyer_(physicien)");
-
-            URL_Add("Wolfgang Pauli", "https://en.wikipedia.org/wiki/Wolfgang_Pauli");
-
-            URL_Add("Yuhsin Tsai", "https://physics.nd.edu/people/yuhsin-tsai/");
-
-            URL_Add("Benjamin W. Lee", "https://en.wikipedia.org/wiki/Benjamin_W._Lee");
-
-            URL_Add("John Iliopoulos", "https://en.wikipedia.org/wiki/John_Iliopoulos");
-
-            URL_Add("Claude Bouchiat", "https://en.wikipedia.org/wiki/Claude_Bouchiat");
-
-            URL_Add("Abraham Pais", "https://en.wikipedia.org/wiki/Abraham_Pais");
-
-            URL_Add("John Stewart Bell", "https://en.wikipedia.org/wiki/John_Stewart_Bell");
-
-            URL_Add("Edward Witten", "https://www.youtube.com/watch?v=O76fjTNGbtI&t=1m36s");
-
-            URL_Add("Gerard 't Hooft", "https://en.wikipedia.org/wiki/Gerard_%27t_Hooft");
-
-            URL_Add("Leonard Susskind", "https://en.wikipedia.org/wiki/Leonard_Susskind");
-
-            URL_Add("Lennart Carleson", "https://en.wikipedia.org/wiki/Lennart_Carleson");
-
-            URL_Add("Roger Penrose", "https://en.wikipedia.org/wiki/Roger_Penrose");
-
-            URL_Add("Hawking radiation", "https://en.wikipedia.org/wiki/Hawking_radiation");
-
-            URL_Add("Penrose–Hawking singularity theorems", "https://en.wikipedia.org/wiki/Penrose%E2%80%93Hawking_singularity_theorems");
-
-            URL_Add("Richard Feynman", "https://en.wikipedia.org/wiki/Richard_Feynman");
-
-            URL_Add("John Wheeler", "https://en.wikipedia.org/wiki/John_Archibald_Wheeler");
-
-            URL_Add("Leopold Kronecker", "https://en.wikipedia.org/wiki/Leopold_Kronecker");
-
-            URL_Add("Mary K. Gaillard", "https://en.wikipedia.org/wiki/Mary_K._Gaillard");
-
-            URL_Add("Michio Kaku", "https://en.wikipedia.org/wiki/Michio_Kaku");
-
-            URL_Add("David Bohm", "https://en.wikipedia.org/wiki/David_Bohm");
-
-            URL_Add("Neil deGrasse Tyson", "https://en.wikipedia.org/wiki/Neil_deGrasse_Tyson");
-
-            URL_Add("Louis de Broglie", "https://en.wikipedia.org/wiki/Louis_de_Broglie");
-
-            URL_Add("de Broglie–Bohm theory", "https://en.wikipedia.org/wiki/De_Broglie%E2%80%93Bohm_theory");
-
-            URL_Add("Max Born", "https://en.wikipedia.org/wiki/Max_Born");
-
-            URL_Add("Born rule", "https://en.wikipedia.org/wiki/Born_rule");
-
-            URL_Add("Brian Greene", "https://en.wikipedia.org/wiki/Brian_Greene");
-
-            URL_Add("Albert Einstein", "https://en.wikipedia.org/wiki/Albert_Einstein");
-
-            URL_Add("Einsteinian", "https://en.wiktionary.org/wiki/Einsteinian#Adjective");
-
-            URL_Add("Einstein–Podolsky–Rosen paradox", "https://en.wikipedia.org/wiki/Einstein%E2%80%93Podolsky%E2%80%93Rosen_paradox");
-
-            URL_Add("Einstein field equations", "https://en.wikipedia.org/wiki/Einstein_field_equations");
-
-            URL_Add("Bose-Einstein condensate", "https://en.wikipedia.org/wiki/Bose%E2%80%93Einstein_condensate");
-
-            URL_Add("The definition of insanity is doing the same thing over and over again, but expecting different results (misattributed to Einstein)", "https://quoteinvestigator.com/2017/03/23/same/");
-
-            URL_Add("Compton", "https://en.wikipedia.org/wiki/Compositing_window_manager#List_of_standalone_compositing_managers");
-
-            URL_Add("Compton edge", "https://en.wikipedia.org/wiki/Compton_edge");
-
-            URL_Add("photoelectric effect", "https://en.wikipedia.org/wiki/Photoelectric_effect");
-
-            URL_Add("backscatter", "https://en.wikipedia.org/wiki/Backscatter");
-
-            URL_Add("transliteration", "https://en.wiktionary.org/wiki/transliteration#Noun");
-
-            URL_Add("translucency", "https://en.wiktionary.org/wiki/translucency#Noun");
-
-            URL_Add("light", "https://en.wiktionary.org/wiki/light#Adjective");
-
-            URL_Add("lightly", "https://en.wiktionary.org/wiki/lightly#Adverb");
-
-            URL_Add("lights", "https://en.wiktionary.org/wiki/light#Noun");
-
-            URL_Add("lighting", "https://en.wiktionary.org/wiki/lighting#Noun");
-
-            URL_Add("light pipes", "https://en.wiktionary.org/wiki/light_pipe#Noun");
-
-            URL_Add("in light of", "https://en.wiktionary.org/wiki/in_light_of#Preposition");
-
-            URL_Add("bulb", "https://en.wiktionary.org/wiki/bulb#Noun");
-
-            URL_Add("light bulb", "https://en.wiktionary.org/wiki/light_bulb#Noun");
-
-            URL_Add("incandescent light bulb", "https://en.wikipedia.org/wiki/Incandescent_light_bulb");
-
-            URL_Add("spotlight", "https://en.wiktionary.org/wiki/spotlight#Noun");
-
-            URL_Add("streetlight", "https://en.wiktionary.org/wiki/streetlight#Noun");
-
-            URL_Add("light-concentrating structure", "https://www.keychron.com/products/gateron-g-pro-2-0-switch");
-
-            URL_Add("gaslight", "https://en.wiktionary.org/wiki/gaslight#Verb");
-
-            URL_Add("gaslighting", "https://en.wiktionary.org/wiki/gaslight#Verb");
-
-            URL_Add("gaslighted", "https://en.wiktionary.org/wiki/gaslight#Verb");
-
-            URL_Add("daylight", "https://en.wiktionary.org/wiki/daylight#Noun");
-
-            URL_Add("northern lights", "https://en.wikipedia.org/wiki/Aurora");
-
-            URL_Add("starlight", "https://en.wiktionary.org/wiki/starlight#Noun");
-
-            URL_Add("backlight", "https://en.wiktionary.org/wiki/backlight#Noun");
-
-            URL_Add("backlighting", "https://en.wiktionary.org/wiki/backlighting#Noun");
-
-            URL_Add("flashlight", "https://en.wiktionary.org/wiki/flashlight#Noun");
-
-            URL_Add("highlight", "https://en.wiktionary.org/wiki/highlight#Verb");
-
-            URL_Add("highlighting", "https://en.wiktionary.org/wiki/highlight#Verb");
-
-            URL_Add("highlighted", "https://en.wiktionary.org/wiki/highlight#Verb");
-
-            URL_Add("highlighter", "https://en.wiktionary.org/wiki/highlighter#Noun");
-
-            URL_Add("syntax highlighting", "https://en.wikipedia.org/wiki/Syntax_highlighting");
-
-            URL_Add("Highlight.js", "https://meta.stackexchange.com/questions/353983/goodbye-prettify-hello-highlight-js-swapping-out-our-syntax-highlighter");
-
-            URL_Add("lightweight", "https://en.wiktionary.org/wiki/lightweight#Adjective");
-
-            URL_Add("lighttpd", "https://en.wikipedia.org/wiki/Lighttpd");
-
-            URL_Add("Lighthouse", "https://en.wikipedia.org/wiki/Google_Lighthouse");
-
-            URL_Add("Lightbox", "https://en.wikipedia.org/wiki/Lightbox_(JavaScript)");
-
-            URL_Add("Light Table", "https://en.wikipedia.org/wiki/Light_Table_(software)");
-
-            URL_Add("LightDM", "https://en.wikipedia.org/wiki/LightDM");
-
-            URL_Add("LED strip light", "https://en.wikipedia.org/wiki/LED_strip_light");
-
-            URL_Add("LED", "https://en.wikipedia.org/wiki/Light-emitting_diode");
-
-            URL_Add("RGB LED", "https://en.wikipedia.org/wiki/Light-emitting_diode#Application-specific");
-
-            URL_Add("per-key RGB light in QMK", "https://pmortensen.eu/world2/2023/10/02/setting-rgb-colour-for-individual-keys-in-qmk/");
-
-            URL_Add("Silverlight", "https://en.wikipedia.org/wiki/Microsoft_Silverlight"); // Associated with chemical element 47
-
-            URL_Add("slight", "https://en.wiktionary.org/wiki/slight#Adjective");
-
-            URL_Add("slightly", "https://en.wiktionary.org/wiki/slightly#Adverb");
-
-            URL_Add("slightest", "https://en.wiktionary.org/wiki/slightest#Adjective");
-
             URL_Add("Galaxy Xcover", "https://en.wikipedia.org/wiki/Samsung_Galaxy_Xcover");
 
             URL_Add("Galaxy S10", "https://en.wikipedia.org/wiki/Samsung_Galaxy_S10");
@@ -148293,8 +146928,6 @@ namespace OverflowHelper.core
             URL_Add("don’t panic", "https://www.youtube.com/watch?v=DaiX680XWP4&t=1m41s");
 
             URL_Add("very unevenly edited", "https://www.youtube.com/watch?v=7NEHGMgeCfQ&t=15m29s");
-
-            URL_Add("Ursa Major", "https://en.wikipedia.org/wiki/Ursa_Major");
 
             URL_Add("restoring normality", "https://www.youtube.com/watch?v=uzi-azI7PIE&t=7m0s&list=PLSoD2CcPrumFUOPyA8aLONTz5jr-IQFu5&index=9");
 
@@ -150684,8 +149317,6 @@ namespace OverflowHelper.core
 
             URL_Add("Magnifier", "https://en.wikipedia.org/wiki/Magnifier_(Windows)");
 
-            URL_Add("Richter scale", "https://en.wikipedia.org/wiki/Richter_magnitude_scale");
-
             URL_Add("grey", "https://en.wiktionary.org/wiki/grey#Adjective");
 
             URL_Add("green", "https://en.wiktionary.org/wiki/green#Noun");
@@ -150753,8 +149384,6 @@ namespace OverflowHelper.core
             URL_Add("Gray code", "https://en.wikipedia.org/wiki/Gray_code");
 
             URL_Add("grayed out", "https://en.wiktionary.org/wiki/grayed_out#Adjective");
-
-            URL_Add("graybeard", "https://en.wiktionary.org/wiki/graybeard#Noun");
 
             URL_Add("grayscale", "https://en.wiktionary.org/wiki/grayscale#Noun");
 
@@ -150932,9 +149561,1399 @@ namespace OverflowHelper.core
 
             URL_Add("Godwin's law", "https://en.wikipedia.org/wiki/Godwin's_law");
 
+            URL_Add("Goodhart's law", "https://en.wikipedia.org/wiki/Goodhart%27s_law#Generalization");
+
             URL_Add("preventive", "https://en.wiktionary.org/wiki/preventive#Adjective");
 
             URL_Add("stuck key syndrome", "https://www.reddit.com/r/Keychron/comments/1t39xsd/comment/ojv2en8/");
+
+            URL_Add("bear", "https://en.wiktionary.org/wiki/bear_with#Verb");
+
+            URL_Add("bear with", "https://en.wiktionary.org/wiki/bear_with#Verb");
+
+            URL_Add("bear with me", "https://en.wiktionary.org/wiki/bear_with#Verb");
+
+            URL_Add("bear out", "https://en.wiktionary.org/wiki/bear_out#Verb");
+
+            URL_Add("bear in mind", "https://en.wiktionary.org/wiki/bear_in_mind#Verb");
+
+            URL_Add("bearing in mind", "https://en.wiktionary.org/wiki/bear_in_mind#Verb");
+
+            URL_Add("it bears repeating", "https://www.merriam-webster.com/dictionary/bear%20repeating");
+
+            URL_Add("neckbeard", "https://en.wiktionary.org/wiki/neckbeard#Noun");
+
+            URL_Add("graybeard", "https://en.wiktionary.org/wiki/graybeard#Noun");
+
+            URL_Add("comes to mind", "https://en.wiktionary.org/wiki/come_to_mind#Verb");
+
+            URL_Add("came to mind", "https://en.wiktionary.org/wiki/come_to_mind#Verb");
+
+            URL_Add("born", "https://en.wiktionary.org/wiki/bear#Usage_notes");
+
+            URL_Add("newborn", "https://en.wiktionary.org/wiki/newborn#Adjective");
+
+            URL_Add("stubborn", "https://en.wiktionary.org/wiki/stubborn#Adjective");
+
+            URL_Add("ball transfer unit", "https://kbd.news/Trackball-bearing-comparison-1757.html");
+
+            URL_Add("science fair", "https://en.wikipedia.org/wiki/Science_fair");
+
+            URL_Add("science", "https://en.wiktionary.org/wiki/science#Noun");
+
+            URL_Add("popular science", "https://en.wikipedia.org/wiki/Popular_science");
+
+            URL_Add("scientist", "https://en.wiktionary.org/wiki/scientist#Noun");
+
+            URL_Add("scientists", "https://en.wiktionary.org/wiki/scientist#Noun");
+
+            URL_Add("scientific", "https://en.wiktionary.org/wiki/scientific#Adjective");
+
+            URL_Add("Science, technology, engineering, and mathematics", "https://en.wikipedia.org/wiki/Science%2C_technology%2C_engineering%2C_and_mathematics");
+
+            URL_Add("data scientist", "https://en.wikipedia.org/wiki/Data_science#Careers_in_data_science");
+
+            URL_Add("citizen science", "https://en.wikipedia.org/wiki/Citizen_science");
+
+            URL_Add("monopole", "https://en.wikipedia.org/wiki/Monopole");
+
+            URL_Add("dipole", "https://en.wiktionary.org/wiki/dipole#Noun");
+
+            URL_Add("quadrupole", "https://en.wiktionary.org/wiki/quadrupole#Noun");
+
+            URL_Add("astronomer", "https://en.wiktionary.org/wiki/astronomer#Noun");
+
+            URL_Add("International Astronomical Union", "https://en.wikipedia.org/wiki/International_Astronomical_Union");
+
+            URL_Add("International Olympiad on Astronomy and Astrophysics", "https://en.wikipedia.org/wiki/International_Olympiad_on_Astronomy_and_Astrophysics");
+
+            URL_Add("astrobiology", "https://en.wikipedia.org/wiki/Astrobiology");
+
+            URL_Add("supernova", "https://en.wiktionary.org/wiki/supernova#Noun");
+
+            URL_Add("neutron star", "https://en.wikipedia.org/wiki/Neutron_star");
+
+            URL_Add("gamma-ray burst", "https://en.wikipedia.org/wiki/Gamma-ray_burst");
+
+            URL_Add("brightest of all time", "https://en.wikipedia.org/wiki/GRB_221009A");
+
+            URL_Add("electronegative", "https://en.wiktionary.org/wiki/electronegative#Adjective");
+
+            URL_Add("electron degeneracy pressure", "https://en.wikipedia.org/wiki/Electron_degeneracy_pressure");
+
+            URL_Add("electron-donating group", "https://en.wikipedia.org/wiki/Polar_effect");
+
+            URL_Add("electron-withdrawing group", "https://en.wikipedia.org/wiki/Polar_effect");
+
+            URL_Add("Thomson scattering", "https://en.wikipedia.org/wiki/Thomson_scattering");
+
+            URL_Add("Rayleigh scattering", "https://en.wikipedia.org/wiki/Rayleigh_scattering#From_molecules");
+
+            URL_Add("equation", "https://en.wiktionary.org/wiki/equation#Noun");
+
+            URL_Add("equations", "https://en.wiktionary.org/wiki/equation#Noun");
+
+            URL_Add("universe", "https://en.wiktionary.org/wiki/universe#Noun");
+
+            URL_Add("Big Bang", "https://en.wikipedia.org/wiki/Big_Bang");
+
+            URL_Add("Big Bang nucleosynthesis", "https://en.wikipedia.org/wiki/Big_Bang_nucleosynthesis");
+
+            URL_Add("nucleosynthesis", "https://en.wikipedia.org/wiki/Nucleosynthesis");
+
+            URL_Add("Hubble tension", "https://en.wikipedia.org/wiki/Hubble%27s_law#Hubble_tension");
+
+            URL_Add("heat death of the universe", "https://en.wikipedia.org/wiki/Heat_death_of_the_universe");
+
+            URL_Add("azimuth", "https://en.wiktionary.org/wiki/azimuth#Noun");
+
+            URL_Add("right ascension", "https://en.wikipedia.org/wiki/Right_ascension");
+
+            URL_Add("main sequence", "https://en.wikipedia.org/wiki/Main_sequence");
+
+            URL_Add("Hayashi track", "https://en.wikipedia.org/wiki/Hayashi_track");
+
+            URL_Add("Population I stars", "https://en.wikipedia.org/wiki/Stellar_population#Population_I_stars");
+
+            URL_Add("Population II stars", "https://en.wikipedia.org/wiki/Stellar_population#Population_II_stars");
+
+            URL_Add("Population III stars", "https://en.wikipedia.org/wiki/Stellar_population#Population_III_stars");
+
+            URL_Add("Type II supernova", "https://en.wikipedia.org/wiki/Type_II_supernova");
+
+            URL_Add("Type Ia supernova", "https://en.wikipedia.org/wiki/Type_Ia_supernova");
+
+            URL_Add("white dwarf", "https://en.wikipedia.org/wiki/White_dwarf");
+
+            URL_Add("dwarfs", "https://en.wiktionary.org/wiki/dwarf#Noun"); // (Both the correct word and URL were completely bogus!)
+
+            URL_Add("dwarfed", "https://en.wiktionary.org/wiki/dwarf#Verb");
+
+            URL_Add("exotic", "https://en.wiktionary.org/wiki/exotic#Adjective");
+
+            URL_Add("nonexotic", "https://en.wiktionary.org/wiki/nonexotic#Adjective"); // Old: https://en.wiktionary.org/wiki/nonexotic
+
+            URL_Add("mean motion", "https://en.wikipedia.org/wiki/Mean_motion");
+
+            URL_Add("eccentricity", "https://en.wiktionary.org/wiki/eccentricity#Noun");
+
+            URL_Add("perturb", "https://en.wiktionary.org/wiki/perturb#Verb");
+
+            URL_Add("perturbation", "https://en.wiktionary.org/wiki/perturbation#Noun");
+
+            URL_Add("orbital resonance", "https://en.wikipedia.org/wiki/Orbital_resonance");
+
+            URL_Add("perijove", "https://en.wikipedia.org/wiki/Apsis#Etymology");
+
+            URL_Add("semi-major axis", "https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes");
+
+            URL_Add("low Earth orbit", "https://en.wikipedia.org/wiki/Low_Earth_orbit");
+
+            URL_Add("Hohmann transfer orbit", "https://en.wikipedia.org/wiki/Hohmann_transfer_orbit");
+
+            URL_Add("Trans-lunar injection", "https://en.wikipedia.org/wiki/Trans-lunar_injection");
+
+            URL_Add("deorbited", "https://en.wiktionary.org/wiki/deorbit#Verb");
+
+            URL_Add("deorbiting", "https://en.wiktionary.org/wiki/deorbit#Verb");
+
+            URL_Add("albedo", "https://en.wikipedia.org/wiki/Albedo");
+
+            URL_Add("Earth–Moon system", "https://en.wikipedia.org/wiki/Moon#Earth%E2%80%93Moon_system");
+
+            URL_Add("exomoon", "https://en.wikipedia.org/wiki/Exomoon");
+
+            URL_Add("exoplanet", "https://en.wikipedia.org/wiki/Exoplanet");
+
+            URL_Add("Sun", "https://en.wikipedia.org/wiki/Sun");
+
+            URL_Add("solar", "https://en.wiktionary.org/wiki/solar#Adjective");
+
+            URL_Add("Solar System", "https://en.wikipedia.org/wiki/Solar_System");
+
+            URL_Add("solar flare", "https://en.wikipedia.org/wiki/Solar_flare");
+
+            URL_Add("photosphere", "https://en.wikipedia.org/wiki/Photosphere");
+
+            URL_Add("heliopause", "https://en.wikipedia.org/wiki/Heliosphere#Heliopause");
+
+            URL_Add("sunlike", "https://en.wiktionary.org/wiki/sunlike#Adjective");
+
+            URL_Add("sunsetting", "https://en.wiktionary.org/wiki/sunset#Verb");
+
+            URL_Add("sunsetted", "https://en.wiktionary.org/wiki/sunset#Verb");
+
+            URL_Add("ecliptic", "https://en.wiktionary.org/wiki/ecliptic#Noun");
+
+            URL_Add("planetesimal", "https://en.wikipedia.org/wiki/Planetesimal");
+
+            URL_Add("outer Solar System", "https://en.wikipedia.org/wiki/Solar_System#Outer_Solar_System");
+
+            URL_Add("summer solstice", "https://en.wiktionary.org/wiki/summer_solstice#Noun");
+
+            URL_Add("Venus", "https://en.wikipedia.org/wiki/Venus");
+
+            URL_Add("Earth", "https://en.wikipedia.org/wiki/Earth");
+
+            URL_Add("earthlike", "https://en.wiktionary.org/wiki/earthlike#Adjective");
+
+            URL_Add("telluric", "https://en.wiktionary.org/wiki/telluric#Adjective");
+
+            URL_Add("geoscience", "https://en.wiktionary.org/wiki/geoscience#Noun");
+
+            URL_Add("geology", "https://en.wikipedia.org/wiki/Geology");
+
+            URL_Add("plate tectonics", "https://en.wikipedia.org/wiki/Plate_tectonics");
+
+            URL_Add("volcanism", "https://en.wiktionary.org/wiki/volcanism#Noun");
+
+            URL_Add("volcanic", "https://en.wiktionary.org/wiki/volcanic#Adjective");
+
+            URL_Add("volcano", "https://en.wiktionary.org/wiki/volcano#Noun");
+
+            URL_Add("volcanos", "https://en.wiktionary.org/wiki/volcano#Noun");
+
+            URL_Add("supervolcano", "https://en.wikipedia.org/wiki/Supervolcano");
+
+            URL_Add("geostrophic wind", "https://en.wikipedia.org/wiki/Geostrophic_wind");
+
+            URL_Add("earthquake", "https://en.wikipedia.org/wiki/Earthquake");
+
+            URL_Add("earthquakes", "https://en.wikipedia.org/wiki/Earthquake");
+
+            URL_Add("Richter scale", "https://en.wikipedia.org/wiki/Richter_magnitude_scale");
+
+            URL_Add("from the face of the earth", "https://en.wiktionary.org/wiki/from_the_face_of_the_earth#Noun");
+
+            URL_Add("earth radiation", "https://en.wikipedia.org/wiki/Geopathology");
+
+            URL_Add("lunar", "https://en.wiktionary.org/wiki/lunar#Adjective");
+
+            URL_Add("occultation", "https://en.wiktionary.org/wiki/occultation#Noun");
+
+            URL_Add("occultations", "https://en.wiktionary.org/wiki/occultation#Noun");
+
+            URL_Add("occulted", "https://en.wiktionary.org/wiki/occult#Verb");
+
+            URL_Add("occulting", "https://en.wiktionary.org/wiki/occult#Verb");
+
+            URL_Add("Mars", "https://en.wikipedia.org/wiki/Mars");
+
+            URL_Add("Martian", "https://en.wiktionary.org/wiki/Martian#Adjective");
+
+            URL_Add("Olympus Mons", "https://en.wikipedia.org/wiki/Olympus_Mons");
+
+            URL_Add("Opportunity", "https://en.wikipedia.org/wiki/Opportunity_(rover)");
+
+            URL_Add("Perseverance", "https://en.wikipedia.org/wiki/Perseverance_(rover)");
+
+            URL_Add("Curiosity", "https://en.wikipedia.org/wiki/Curiosity_(rover)");
+
+            URL_Add("Ingenuity (helicopter)", "https://en.wikipedia.org/wiki/Ingenuity_(helicopter)");
+
+            URL_Add("gas giant", "https://en.wikipedia.org/wiki/Gas_giant");
+
+            URL_Add("Jupiter", "https://en.wikipedia.org/wiki/Jupiter");
+
+            URL_Add("Jupiterian", "https://en.wiktionary.org/wiki/Jupiterian#Noun");
+
+            URL_Add("hot Jupiter", "https://en.wikipedia.org/wiki/Hot_Jupiter");
+
+            URL_Add("Saturn", "https://en.wikipedia.org/wiki/Saturn");
+
+            URL_Add("Titan", "https://en.wikipedia.org/wiki/Titan_(moon)");
+
+            URL_Add("Enceladus", "https://en.wikipedia.org/wiki/Enceladus");
+
+            URL_Add("Uranus", "https://en.wikipedia.org/wiki/Uranus");
+
+            URL_Add("Neptune", "https://en.wikipedia.org/wiki/Neptune");
+
+            URL_Add("Pluto", "https://en.wikipedia.org/wiki/Pluto");
+
+            URL_Add("Haumea", "https://en.wikipedia.org/wiki/Haumea");
+
+            URL_Add("Makemake", "https://en.wikipedia.org/wiki/Makemake");
+
+            URL_Add("Quaoar", "https://en.wikipedia.org/wiki/50000_Quaoar");
+
+            URL_Add("Eris", "https://en.wikipedia.org/wiki/Eris_(dwarf_planet)");
+
+            URL_Add("asteroid", "https://en.wikipedia.org/wiki/Asteroid");
+
+            URL_Add("Vesta", "https://en.wikipedia.org/wiki/4_Vesta");
+
+            URL_Add("Ceres", "https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)");
+
+            URL_Add("Apophis", "https://en.wikipedia.org/wiki/99942_Apophis");
+
+            URL_Add("ʻOumuamua", "https://en.wikipedia.org/wiki/%CA%BBOumuamua");
+
+            URL_Add("Centaurus A", "https://en.wikipedia.org/wiki/Centaurus_A");
+
+            URL_Add("Alpha Centauri", "https://en.wikipedia.org/wiki/Alpha_Centauri");
+
+            URL_Add("Proxima Centauri", "https://en.wikipedia.org/wiki/Proxima_Centauri");
+
+            URL_Add("Proxima Centauri b", "https://en.wikipedia.org/wiki/Proxima_Centauri_b");
+
+            URL_Add("TRAPPIST-1", "https://en.wikipedia.org/wiki/TRAPPIST-1");
+
+            URL_Add("Ursa Major", "https://en.wikipedia.org/wiki/Ursa_Major");
+
+            URL_Add("Alpha Ursae Majoris", "https://en.wikipedia.org/wiki/Alpha_Ursae_Majoris");
+
+            URL_Add("Delta Ursae Majoris", "https://en.wikipedia.org/wiki/Delta_Ursae_Majoris");
+
+            URL_Add("Betelgeuse", "https://en.wikipedia.org/wiki/Betelgeuse");
+
+            URL_Add("Polaris", "https://en.wikipedia.org/wiki/Polaris");
+
+            URL_Add("HIP 65426 b", "https://en.wikipedia.org/wiki/HIP_65426_b");
+
+            URL_Add("sinusoidal", "https://en.wiktionary.org/wiki/sinusoidal#Adjective");
+
+            URL_Add("heat sink", "https://en.wiktionary.org/wiki/heat_sink#Noun"); // Old: https://en.wiktionary.org/wiki/heat_sink#English
+
+            URL_Add("heat sinks", "https://en.wiktionary.org/wiki/heat_sink#Noun");
+
+            URL_Add("Hess's law of constant heat summation", "https://en.wikipedia.org/wiki/Hess%27s_law");
+
+            URL_Add("HVAC", "https://en.wikipedia.org/wiki/Heating,_ventilation,_and_air_conditioning");
+
+            URL_Add("separate the wheat from the chaff", "https://en.wiktionary.org/wiki/separate_the_wheat_from_the_chaff#Verb");
+
+            URL_Add("Wheatstone bridge", "https://en.wikipedia.org/wiki/Wheatstone_bridge");
+
+            URL_Add("theater", "https://en.wiktionary.org/wiki/theater#Noun");
+
+            URL_Add("The Big Bang Theory", "https://en.wikipedia.org/wiki/The_Big_Bang_Theory");
+
+            URL_Add("telescope", "https://en.wiktionary.org/wiki/telescope#Noun");
+
+            URL_Add("stepped", "https://en.wiktionary.org/wiki/step#Verb");
+
+            URL_Add("step", "https://en.wiktionary.org/wiki/step#Noun");
+
+            URL_Add("steps", "https://en.wiktionary.org/wiki/steps#Noun");
+
+            URL_Add("stepwise", "https://en.wiktionary.org/wiki/stepwise#Adjective");
+
+            URL_Add("step-up", "https://en.wiktionary.org/wiki/step-up#Adjective");
+
+            URL_Add("step-by-step", "https://en.wiktionary.org/wiki/step-by-step#Adjective");
+
+            URL_Add("stepdad", "https://en.wiktionary.org/wiki/stepdad#Noun");
+
+            URL_Add("stepfather", "https://en.wiktionary.org/wiki/stepfather#Noun");
+
+            URL_Add("step on a rake", "https://en.wiktionary.org/wiki/step_on_a_rake#Verb");
+
+            URL_Add("StepMania", "https://en.wikipedia.org/wiki/StepMania");
+
+            URL_Add("Stephen Hawking", "https://en.wikipedia.org/wiki/Stephen_Hawking");
+
+            URL_Add("Charles Petzold", "https://en.wikipedia.org/wiki/Charles_Petzold");
+
+            URL_Add("Larry Wall", "https://en.wikipedia.org/wiki/Larry_Wall");
+
+            URL_Add("Douglas Crockford", "https://en.wikipedia.org/wiki/Douglas_Crockford");
+
+            URL_Add("Leslie Lamport", "https://en.wikipedia.org/wiki/Leslie_Lamport");
+
+            URL_Add("Chris DiBona", "https://en.wikipedia.org/wiki/Chris_DiBona");
+
+            URL_Add("Scott Hanselman", "https://www.hanselman.com/about/");
+
+            URL_Add("Scott Guthrie", "https://en.wikipedia.org/wiki/Scott_Guthrie");
+
+            URL_Add("Casey Muratori", "https://www.youtube.com/watch?v=wo84LFzx5nI");
+
+            URL_Add("Gary Kildall", "https://en.wikipedia.org/wiki/Gary_Kildall");
+
+            URL_Add("Mona Lisa", "https://en.wikipedia.org/wiki/Mona_Lisa");
+
+            URL_Add("Lear Siegler", "https://en.wikipedia.org/wiki/Lear_Siegler#Computer_terminals");
+
+            URL_Add("Antichrist", "https://en.wiktionary.org/wiki/Antichrist#Proper_noun");
+
+            URL_Add("Lord Voldemort", "https://harrypotter.fandom.com/wiki/Tom_Riddle");
+
+            URL_Add("Johnny Depp", "https://en.wikipedia.org/wiki/Johnny_Depp");
+
+            URL_Add("Arnold Schwarzenegger", "https://en.wikipedia.org/wiki/Arnold_Schwarzenegger");
+
+            URL_Add("J. R. R. Tolkien", "https://en.wikipedia.org/wiki/J._R._R._Tolkien");
+
+            URL_Add("John Green", "https://en.wikipedia.org/wiki/John_Green");
+
+            URL_Add("Bill Joy", "https://en.wikipedia.org/wiki/Bill_Joy");
+
+            URL_Add("Alvin Toffler", "https://en.wikipedia.org/wiki/Alvin_Toffler");
+
+            URL_Add("Martin Landau", "https://en.wikipedia.org/wiki/Martin_Landau");
+
+            URL_Add("Steve Gibson", "https://en.wikipedia.org/wiki/Steve_Gibson_(computer_programmer)");
+
+            URL_Add("Andrew Koenig", "https://en.wikipedia.org/wiki/Andrew_Koenig_(programmer)");
+
+            URL_Add("Paul Graham", "https://en.wikipedia.org/wiki/Paul_Graham_(programmer)");
+
+            URL_Add("Paul Hudak", "https://en.wikipedia.org/wiki/Paul_Hudak");
+
+            URL_Add("Ted Turner", "https://en.wikipedia.org/wiki/Ted_Turner");
+
+            URL_Add("Scott Morrison", "https://en.wikipedia.org/wiki/Scott_Morrison");
+
+            URL_Add("Joe Biden", "https://en.wikipedia.org/wiki/Joe_Biden");
+
+            URL_Add("Barack Obama", "https://en.wikipedia.org/wiki/Barack_Obama");
+
+            URL_Add("George W. Bush", "https://en.wikipedia.org/wiki/George_W._Bush");
+
+            URL_Add("Volodymyr Zelenskyy", "https://en.wikipedia.org/wiki/Volodymyr_Zelenskyy");
+
+            URL_Add("Denmark", "https://en.wiktionary.org/wiki/Denmark#Proper_noun");
+
+            URL_Add("Margrethe II", "https://en.wikipedia.org/wiki/Margrethe_II"); // Old: https://en.wikipedia.org/wiki/Margrethe_II_of_Denmark
+
+            URL_Add("Elizabeth II", "https://en.wikipedia.org/wiki/Elizabeth_II");
+
+            URL_Add("David Cameron", "https://en.wikipedia.org/wiki/David_Cameron");
+
+            URL_Add("Rishi Sunak", "https://en.wikipedia.org/wiki/Rishi_Sunak");
+
+            URL_Add("Jeff Bezos", "https://en.wikipedia.org/wiki/Jeff_Bezos");
+
+            URL_Add("Steve Jobs", "https://en.wikipedia.org/wiki/Steve_Jobs");
+
+            URL_Add("Steve Ballmer", "https://en.wikipedia.org/wiki/Steve_Ballmer");
+
+            URL_Add("Bill Gates", "https://en.wikipedia.org/wiki/Bill_Gates");
+
+            URL_Add("Lex Fridman", "https://en.wikipedia.org/wiki/Lex_Fridman");
+
+            URL_Add("Elon Musk", "https://en.wikipedia.org/wiki/Elon_Musk");
+
+            URL_Add("Tucker Carlson", "https://en.wikipedia.org/wiki/Tucker_Carlson");
+
+            URL_Add("Saddam Hussein", "https://en.wikipedia.org/wiki/Saddam_Hussein");
+
+            URL_Add("Bashar al-Assad", "https://en.wikipedia.org/wiki/Bashar_al-Assad");
+
+            URL_Add("Vladimir Putin", "https://en.wikipedia.org/wiki/Vladimir_Putin");
+
+            URL_Add("Joseph Stalin", "https://en.wikipedia.org/wiki/Joseph_Stalin");
+
+            URL_Add("Alexander Lukashenko", "https://en.wikipedia.org/wiki/Alexander_Lukashenko");
+
+            URL_Add("Silvio Berlusconi", "https://en.wikipedia.org/wiki/Silvio_Berlusconi");
+
+            URL_Add("Viktor Yanukovych", "https://en.wikipedia.org/wiki/Viktor_Yanukovych");
+
+            URL_Add("Karl Marx", "https://en.wikipedia.org/wiki/Karl_Marx");
+
+            URL_Add("Führer", "https://en.wikipedia.org/wiki/F%C3%BChrer");
+
+            URL_Add("Adolf Hitler", "https://en.wikipedia.org/wiki/Adolf_Hitler");
+
+            URL_Add("Göring", "https://en.wikipedia.org/wiki/Hermann_G%C3%B6ring");
+
+            URL_Add("Hannah Arendt", "https://en.wikipedia.org/wiki/Hannah_Arendt");
+
+            URL_Add("Muammar Gaddafi", "https://en.wikipedia.org/wiki/Muammar_Gaddafi");
+
+            URL_Add("Libyan", "https://en.wiktionary.org/wiki/Libyan#Adjective");
+
+            URL_Add("Nicolás Maduro", "https://en.wikipedia.org/wiki/Nicol%C3%A1s_Maduro");
+
+            URL_Add("Dwight D. Eisenhower", "https://en.wikipedia.org/wiki/Dwight_D._Eisenhower");
+
+            URL_Add("Alexander Alekhine", "https://en.wikipedia.org/wiki/Alexander_Alekhine");
+
+            URL_Add("Leonhard Euler", "https://en.wikipedia.org/wiki/Leonhard_Euler");
+
+            URL_Add("Eulerian", "https://en.wiktionary.org/wiki/Eulerian#Adjective");
+
+            URL_Add("Euler angles", "https://en.wikipedia.org/wiki/Euler_angles");
+
+            URL_Add("Euler–Lagrange equation", "https://en.wikipedia.org/wiki/Euler%E2%80%93Lagrange_equation");
+
+            URL_Add("symplectic Euler", "https://en.wikipedia.org/wiki/Semi-implicit_Euler_method");
+
+            URL_Add("Euler tour technique", "https://en.wikipedia.org/wiki/Euler_tour_technique");
+
+            URL_Add("quaternion", "https://en.wikipedia.org/wiki/Quaternion");
+
+            URL_Add("Noether", "https://en.wikipedia.org/wiki/Emmy_Noether");
+
+            URL_Add("Project Euler", "https://en.wikipedia.org/wiki/Project_Euler");
+
+            URL_Add("Tycho Brahe", "https://en.wikipedia.org/wiki/Tycho_Brahe");
+
+            URL_Add("Galileo Galilei", "https://en.wikipedia.org/wiki/Galileo_Galilei");
+
+            URL_Add("Niels Bohr", "https://en.wikipedia.org/wiki/Niels_Bohr");
+
+            URL_Add("Werner Heisenberg", "https://en.wikipedia.org/wiki/Werner_Heisenberg");
+
+            URL_Add("J. J. Thomson", "https://en.wikipedia.org/wiki/J._J._Thomson");
+
+            URL_Add("Philippe Meyer", "https://fr.wikipedia.org/wiki/Philippe_Meyer_(physicien)");
+
+            URL_Add("Wolfgang Pauli", "https://en.wikipedia.org/wiki/Wolfgang_Pauli");
+
+            URL_Add("Yuhsin Tsai", "https://physics.nd.edu/people/yuhsin-tsai/");
+
+            URL_Add("Benjamin W. Lee", "https://en.wikipedia.org/wiki/Benjamin_W._Lee");
+
+            URL_Add("John Iliopoulos", "https://en.wikipedia.org/wiki/John_Iliopoulos");
+
+            URL_Add("Claude Bouchiat", "https://en.wikipedia.org/wiki/Claude_Bouchiat");
+
+            URL_Add("Abraham Pais", "https://en.wikipedia.org/wiki/Abraham_Pais");
+
+            URL_Add("John Stewart Bell", "https://en.wikipedia.org/wiki/John_Stewart_Bell");
+
+            URL_Add("Edward Witten", "https://www.youtube.com/watch?v=O76fjTNGbtI&t=1m36s");
+
+            URL_Add("Gerard 't Hooft", "https://en.wikipedia.org/wiki/Gerard_%27t_Hooft");
+
+            URL_Add("Leonard Susskind", "https://en.wikipedia.org/wiki/Leonard_Susskind");
+
+            URL_Add("Lennart Carleson", "https://en.wikipedia.org/wiki/Lennart_Carleson");
+
+            URL_Add("Roger Penrose", "https://en.wikipedia.org/wiki/Roger_Penrose");
+
+            URL_Add("Hawking radiation", "https://en.wikipedia.org/wiki/Hawking_radiation");
+
+            URL_Add("Penrose–Hawking singularity theorems", "https://en.wikipedia.org/wiki/Penrose%E2%80%93Hawking_singularity_theorems");
+
+            URL_Add("Richard Feynman", "https://en.wikipedia.org/wiki/Richard_Feynman");
+
+            URL_Add("John Wheeler", "https://en.wikipedia.org/wiki/John_Archibald_Wheeler");
+
+            URL_Add("Leopold Kronecker", "https://en.wikipedia.org/wiki/Leopold_Kronecker");
+
+            URL_Add("Mary K. Gaillard", "https://en.wikipedia.org/wiki/Mary_K._Gaillard");
+
+            URL_Add("Michio Kaku", "https://en.wikipedia.org/wiki/Michio_Kaku");
+
+            URL_Add("David Bohm", "https://en.wikipedia.org/wiki/David_Bohm");
+
+            URL_Add("Neil deGrasse Tyson", "https://en.wikipedia.org/wiki/Neil_deGrasse_Tyson");
+
+            URL_Add("Louis de Broglie", "https://en.wikipedia.org/wiki/Louis_de_Broglie");
+
+            URL_Add("de Broglie–Bohm theory", "https://en.wikipedia.org/wiki/De_Broglie%E2%80%93Bohm_theory");
+
+            URL_Add("Max Born", "https://en.wikipedia.org/wiki/Max_Born");
+
+            URL_Add("Born rule", "https://en.wikipedia.org/wiki/Born_rule");
+
+            URL_Add("Brian Greene", "https://en.wikipedia.org/wiki/Brian_Greene");
+
+            URL_Add("Albert Einstein", "https://en.wikipedia.org/wiki/Albert_Einstein");
+
+            URL_Add("Einsteinian", "https://en.wiktionary.org/wiki/Einsteinian#Adjective");
+
+            URL_Add("Einstein–Podolsky–Rosen paradox", "https://en.wikipedia.org/wiki/Einstein%E2%80%93Podolsky%E2%80%93Rosen_paradox");
+
+            URL_Add("Einstein field equations", "https://en.wikipedia.org/wiki/Einstein_field_equations");
+
+            URL_Add("Bose-Einstein condensate", "https://en.wikipedia.org/wiki/Bose%E2%80%93Einstein_condensate");
+
+            URL_Add("The definition of insanity is doing the same thing over and over again, but expecting different results (misattributed to Einstein)", "https://quoteinvestigator.com/2017/03/23/same/");
+
+            URL_Add("Compton", "https://en.wikipedia.org/wiki/Compositing_window_manager#List_of_standalone_compositing_managers");
+
+            URL_Add("Compton edge", "https://en.wikipedia.org/wiki/Compton_edge");
+
+            URL_Add("photoelectric effect", "https://en.wikipedia.org/wiki/Photoelectric_effect");
+
+            URL_Add("backscatter", "https://en.wikipedia.org/wiki/Backscatter");
+
+            URL_Add("transliteration", "https://en.wiktionary.org/wiki/transliteration#Noun");
+
+            URL_Add("translucency", "https://en.wiktionary.org/wiki/translucency#Noun");
+
+            URL_Add("light", "https://en.wiktionary.org/wiki/light#Adjective");
+
+            URL_Add("lightly", "https://en.wiktionary.org/wiki/lightly#Adverb");
+
+            URL_Add("lights", "https://en.wiktionary.org/wiki/light#Noun");
+
+            URL_Add("lighting", "https://en.wiktionary.org/wiki/lighting#Noun");
+
+            URL_Add("light pipes", "https://en.wiktionary.org/wiki/light_pipe#Noun");
+
+            URL_Add("in light of", "https://en.wiktionary.org/wiki/in_light_of#Preposition");
+
+            URL_Add("bulb", "https://en.wiktionary.org/wiki/bulb#Noun");
+
+            URL_Add("light bulb", "https://en.wiktionary.org/wiki/light_bulb#Noun");
+
+            URL_Add("incandescent light bulb", "https://en.wikipedia.org/wiki/Incandescent_light_bulb");
+
+            URL_Add("spotlight", "https://en.wiktionary.org/wiki/spotlight#Noun");
+
+            URL_Add("streetlight", "https://en.wiktionary.org/wiki/streetlight#Noun");
+
+            URL_Add("light-concentrating structure", "https://www.keychron.com/products/gateron-g-pro-2-0-switch");
+
+            URL_Add("gaslight", "https://en.wiktionary.org/wiki/gaslight#Verb");
+
+            URL_Add("gaslighting", "https://en.wiktionary.org/wiki/gaslight#Verb");
+
+            URL_Add("gaslighted", "https://en.wiktionary.org/wiki/gaslight#Verb");
+
+            URL_Add("daylight", "https://en.wiktionary.org/wiki/daylight#Noun");
+
+            URL_Add("northern lights", "https://en.wikipedia.org/wiki/Aurora");
+
+            URL_Add("starlight", "https://en.wiktionary.org/wiki/starlight#Noun");
+
+            URL_Add("backlight", "https://en.wiktionary.org/wiki/backlight#Noun");
+
+            URL_Add("backlighting", "https://en.wiktionary.org/wiki/backlighting#Noun");
+
+            URL_Add("flashlight", "https://en.wiktionary.org/wiki/flashlight#Noun");
+
+            URL_Add("highlight", "https://en.wiktionary.org/wiki/highlight#Verb");
+
+            URL_Add("highlighting", "https://en.wiktionary.org/wiki/highlight#Verb");
+
+            URL_Add("highlighted", "https://en.wiktionary.org/wiki/highlight#Verb");
+
+            URL_Add("highlighter", "https://en.wiktionary.org/wiki/highlighter#Noun");
+
+            URL_Add("syntax highlighting", "https://en.wikipedia.org/wiki/Syntax_highlighting");
+
+            URL_Add("Highlight.js", "https://meta.stackexchange.com/questions/353983/goodbye-prettify-hello-highlight-js-swapping-out-our-syntax-highlighter");
+
+            URL_Add("lightweight", "https://en.wiktionary.org/wiki/lightweight#Adjective");
+
+            URL_Add("lighttpd", "https://en.wikipedia.org/wiki/Lighttpd");
+
+            URL_Add("Lighthouse", "https://en.wikipedia.org/wiki/Google_Lighthouse");
+
+            URL_Add("Lightbox", "https://en.wikipedia.org/wiki/Lightbox_(JavaScript)");
+
+            URL_Add("Light Table", "https://en.wikipedia.org/wiki/Light_Table_(software)");
+
+            URL_Add("LightDM", "https://en.wikipedia.org/wiki/LightDM");
+
+            URL_Add("LED strip light", "https://en.wikipedia.org/wiki/LED_strip_light");
+
+            URL_Add("LED", "https://en.wikipedia.org/wiki/Light-emitting_diode");
+
+            URL_Add("RGB LED", "https://en.wikipedia.org/wiki/Light-emitting_diode#Application-specific");
+
+            URL_Add("per-key RGB light in QMK", "https://pmortensen.eu/world2/2023/10/02/setting-rgb-colour-for-individual-keys-in-qmk/");
+
+            URL_Add("Silverlight", "https://en.wikipedia.org/wiki/Microsoft_Silverlight"); // Associated with chemical element 47
+
+            URL_Add("slight", "https://en.wiktionary.org/wiki/slight#Adjective");
+
+            URL_Add("slightly", "https://en.wiktionary.org/wiki/slightly#Adverb");
+
+            URL_Add("slightest", "https://en.wiktionary.org/wiki/slightest#Adjective");
+
+            URL_Add("nonpolar", "https://en.wiktionary.org/wiki/nonpolar#Adjective");
+
+            URL_Add("physicist", "https://en.wiktionary.org/wiki/physicist#Noun");
+
+            URL_Add("van der Waals force", "https://en.wikipedia.org/wiki/Van_der_Waals_force");
+
+            URL_Add("Coriolis force", "https://en.wikipedia.org/wiki/Coriolis_force");
+
+            URL_Add("centrifugal force", "https://en.wikipedia.org/wiki/Centrifugal_force");
+
+            URL_Add("Lorentz force", "https://en.wikipedia.org/wiki/Lorentz_force");
+
+            URL_Add("Higgs boson", "https://en.wikipedia.org/wiki/Higgs_boson");
+
+            URL_Add("graviton", "https://en.wikipedia.org/wiki/Graviton");
+
+            URL_Add("electrostatic force", "https://en.wikipedia.org/wiki/Coulomb%27s_law");
+
+            URL_Add("weak force", "https://en.wikipedia.org/wiki/Weak_interaction");
+
+            URL_Add("D meson", "https://en.wikipedia.org/wiki/D_meson");
+
+            URL_Add("dark energy", "https://en.wikipedia.org/wiki/Dark_energy");
+
+            URL_Add("Bohr model", "https://en.wikipedia.org/wiki/Bohr_model");
+
+            URL_Add("matter", "https://en.wiktionary.org/wiki/matter#Verb");
+
+            URL_Add("dark matter", "https://en.wikipedia.org/wiki/Dark_matter");
+
+            URL_Add("gluon", "https://en.wikipedia.org/wiki/Gluon");
+
+            URL_Add("strong nuclear force", "https://en.wikipedia.org/wiki/Nuclear_force");
+
+            URL_Add("nuclear", "https://en.wiktionary.org/wiki/nuclear#Adjective");
+
+            URL_Add("CERN", "https://en.wikipedia.org/wiki/CERN");
+
+            URL_Add("Large Hadron Collider", "https://en.wikipedia.org/wiki/Large_Hadron_Collider");
+
+            URL_Add("baryonic", "https://en.wiktionary.org/wiki/baryonic#Adjective");
+
+            URL_Add("baryon", "https://en.wikipedia.org/wiki/Baryon");
+
+            URL_Add("antimatter", "https://en.wikipedia.org/wiki/Antimatter");
+
+            URL_Add("particle", "https://en.wiktionary.org/wiki/particle#Noun");
+
+            URL_Add("antiparticle", "https://en.wikipedia.org/wiki/Antiparticle");
+
+            URL_Add("positron", "https://en.wikipedia.org/wiki/Positron");
+
+            URL_Add("neutrino", "https://en.wikipedia.org/wiki/Neutrino");
+
+            URL_Add("neutron", "https://en.wikipedia.org/wiki/Neutron");
+
+            URL_Add("antineutron", "https://en.wikipedia.org/wiki/Antineutron");
+
+            URL_Add("antiproton", "https://en.wikipedia.org/wiki/Antiproton");
+
+            URL_Add("antihydrogen", "https://en.wikipedia.org/wiki/Antihydrogen");
+
+            URL_Add("alpha particle", "https://en.wikipedia.org/wiki/Alpha_particle");
+
+            URL_Add("positronium", "https://en.wikipedia.org/wiki/Positronium");
+
+            URL_Add("electron", "https://en.wikipedia.org/wiki/Electron");
+
+            URL_Add("electronic", "https://en.wiktionary.org/wiki/electronic#Adjective");
+
+            URL_Add("electronics", "https://en.wikipedia.org/wiki/Electronics");
+
+            URL_Add("electronic waste", "https://en.wikipedia.org/wiki/Electronic_waste");
+
+            URL_Add("physics education research", "https://en.wikipedia.org/wiki/Physics_education_research");
+
+            URL_Add("watertight", "https://en.wiktionary.org/wiki/watertight#Adjective");
+
+            URL_Add("water cooler", "https://en.wiktionary.org/wiki/water_cooler#Noun");
+
+            URL_Add("watermark", "https://en.wiktionary.org/wiki/watermark#Noun");
+
+            URL_Add("watermarking", "https://en.wiktionary.org/wiki/watermark#Verb");
+
+            URL_Add("water-repellent", "https://en.wiktionary.org/wiki/water-repellent#Adjective");
+
+            URL_Add("water lily", "https://en.wiktionary.org/wiki/water_lily#Noun");
+
+            URL_Add("water wave", "https://www.merriam-webster.com/dictionary/water%20wave");
+
+            URL_Add("waterfall model", "https://en.wikipedia.org/wiki/Waterfall_model");
+
+            URL_Add("Waterfox", "https://en.wikipedia.org/wiki/Waterfox");
+
+            URL_Add("chemical", "https://en.wiktionary.org/wiki/chemical#Adjective");
+
+            URL_Add("International Chemistry Olympiad", "https://en.wikipedia.org/wiki/International_Chemistry_Olympiad");
+
+            URL_Add("Nernst equation", "https://en.wikipedia.org/wiki/Nernst_equation");
+
+            URL_Add("element", "https://en.wiktionary.org/wiki/element#Noun");
+
+            URL_Add("elements", "https://en.wiktionary.org/wiki/element#Noun");
+
+            URL_Add("hydrogen", "https://en.wikipedia.org/wiki/Hydrogen"); // Chemical element 1
+
+            URL_Add("deuterium", "https://en.wikipedia.org/wiki/Deuterium");
+
+            URL_Add("tritium", "https://en.wikipedia.org/wiki/Tritium");
+
+            URL_Add("water", "https://en.wikipedia.org/wiki/Water");
+
+            URL_Add("hydrogen peroxide", "https://en.wikipedia.org/wiki/Hydrogen_peroxide");
+
+            URL_Add("helium", "https://en.wikipedia.org/wiki/Helium"); // Chemical element 2
+
+            URL_Add("helium-3", "https://en.wikipedia.org/wiki/Helium-3"); // Related to chemical element 2
+
+            URL_Add("Helium-4", "https://en.wikipedia.org/wiki/Helium-4"); // Related to chemical element 2
+
+            URL_Add("lithium", "https://en.wikipedia.org/wiki/Lithium"); // Chemical element 3
+
+            URL_Add("Li-ion", "https://en.wikipedia.org/wiki/Lithium-ion_battery"); // Related to chemical element 4
+
+            URL_Add("lithium iron phosphate", "https://en.wikipedia.org/wiki/Lithium_iron_phosphate"); // Related to chemical element 4
+
+            URL_Add("lithium-ion batteries", "https://en.wikipedia.org/wiki/Lithium-ion_battery"); // Related to chemical element 4
+
+            URL_Add("lithium-ion battery swelling", "https://en.wikipedia.org/wiki/Lithium-ion_battery#Lifespan"); // Related to chemical element 4
+
+            URL_Add("LiPo", "https://en.wikipedia.org/wiki/Lithium_polymer_battery"); // Related to chemical element 4
+
+            URL_Add("two parallel", "https://www.instructables.com/Make-Your-Own-4S-Lithium-Battery-Pack/");
+
+            URL_Add("three-series, two parallel", "https://www.instructables.com/Make-Your-Own-4S-Lithium-Battery-Pack/");
+
+            URL_Add("four-series", "https://www.instructables.com/Make-Your-Own-4S-Lithium-Battery-Pack/");
+
+            URL_Add("four-series, two parallel", "https://www.instructables.com/Make-Your-Own-4S-Lithium-Battery-Pack/");
+
+            URL_Add("18650 battery", "https://en.wikipedia.org/wiki/18650_battery");
+
+            URL_Add("Panasonic", "https://en.wikipedia.org/wiki/Panasonic");
+
+            URL_Add("beryllium", "https://en.wikipedia.org/wiki/Beryllium"); // Chemical element 4
+
+            URL_Add("boron", "https://en.wikipedia.org/wiki/Boron"); // Chemical element 5
+
+            URL_Add("carbon-13", "https://en.wikipedia.org/wiki/Carbon-13"); // Related to chemical element 6
+
+            URL_Add("carbon-14", "https://en.wikipedia.org/wiki/Carbon-14"); // Related to chemical element 6
+
+            URL_Add("diamond", "https://en.wiktionary.org/wiki/diamond#Noun"); // Related to chemical element 6
+
+            URL_Add("graphene", "https://en.wikipedia.org/wiki/Graphene"); // Related to chemical element 6
+
+            URL_Add("buckminsterfullerene", "https://en.wikipedia.org/wiki/Buckminsterfullerene");
+
+            URL_Add("carbon monoxide", "https://en.wikipedia.org/wiki/Carbon_monoxide"); // Related to chemical element 6
+
+            URL_Add("carbon dioxide", "https://en.wikipedia.org/wiki/Carbon_dioxide"); // Related to chemical element 6
+
+            URL_Add("IPCC", "https://en.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change");
+
+            URL_Add("Greta Thunberg", "https://en.wikipedia.org/wiki/Greta_Thunberg");
+
+            URL_Add("methane", "https://en.wikipedia.org/wiki/Methane");
+
+            URL_Add("ascorbic acid", "https://en.wikipedia.org/wiki/Vitamin_C");
+
+            URL_Add("folic acid", "https://en.wikipedia.org/wiki/Folate");
+
+            URL_Add("carborane acid", "https://en.wikipedia.org/wiki/Carborane_acid");
+
+            URL_Add("triflic acid", "https://en.wikipedia.org/wiki/Triflic_acid");
+
+            URL_Add("benzodiazepine", "https://en.wikipedia.org/wiki/Benzodiazepine");
+
+            URL_Add("Benzene", "https://en.wikipedia.org/wiki/Benzene");
+
+            URL_Add("hexane", "https://en.wikipedia.org/wiki/Hexane");
+
+            URL_Add("natural gas", "https://en.wiktionary.org/wiki/natural_gas#Noun");
+
+            URL_Add("petrochemical", "https://en.wiktionary.org/wiki/petrochemical#Adjective");
+
+            URL_Add("refineries", "https://en.wiktionary.org/wiki/refinery#Noun");
+
+            URL_Add("oil", "https://en.wiktionary.org/wiki/oil#Noun");
+
+            URL_Add("formaldehyde", "https://en.wikipedia.org/wiki/Formaldehyde");
+
+            URL_Add("acetone", "https://en.wikipedia.org/wiki/Acetone");
+
+            URL_Add("ethanol", "https://en.wikipedia.org/wiki/Ethanol");
+
+            URL_Add("Alcoholics Anonymous", "https://en.wikipedia.org/wiki/Alcoholics_Anonymous");
+
+            URL_Add("beer", "https://en.wiktionary.org/wiki/beer#Noun");
+
+            URL_Add("toxic", "https://en.wiktionary.org/wiki/toxic#Adjective");
+
+            URL_Add("intoxicated", "https://en.wiktionary.org/wiki/intoxicated#Adjective");
+
+            URL_Add("intoxication", "https://en.wiktionary.org/wiki/intoxication#Noun");
+
+            URL_Add("vermouth", "https://en.wikipedia.org/wiki/Vermouth");
+
+            URL_Add("turpentine", "https://en.wikipedia.org/wiki/Turpentine");
+
+            URL_Add("Cesium Ion", "https://cesium.com/learn/3d-tiling/ion-tile-imagery/"); // Unrelated to the chemical element caesium (chemical element 56)
+
+            URL_Add("caffeine", "https://en.wikipedia.org/wiki/Caffeine");
+
+            URL_Add("nicotine", "https://en.wikipedia.org/wiki/Nicotine");
+
+            URL_Add("drudgery", "https://en.wiktionary.org/wiki/drudgery#Noun");
+
+            URL_Add("drug", "https://en.wiktionary.org/wiki/drug#Noun");
+
+            URL_Add("drugs", "https://en.wiktionary.org/wiki/drug#Noun");
+
+            URL_Add("methamphetamine", "https://en.wikipedia.org/wiki/Methamphetamine");
+
+            URL_Add("morphine", "https://en.wikipedia.org/wiki/Morphine");
+
+            URL_Add("fentanyl", "https://en.wikipedia.org/wiki/Fentanyl");
+
+            URL_Add("cocaine", "https://en.wikipedia.org/wiki/Cocaine");
+
+            URL_Add("LSD", "https://en.wikipedia.org/wiki/LSD");
+
+            URL_Add("nitrogen", "https://en.wikipedia.org/wiki/Nitrogen"); // Chemical element 7
+
+            URL_Add("ammonium nitrate", "https://en.wikipedia.org/wiki/Ammonium_nitrate"); // Related to chemical element 6
+
+            URL_Add("hydrazine", "https://en.wikipedia.org/wiki/Hydrazine");
+
+            URL_Add("oxygen-17", "https://en.wikipedia.org/wiki/Oxygen-17"); // Related to chemical element 8
+
+            URL_Add("fluorine", "https://en.wikipedia.org/wiki/Fluorine"); // Chemical element 9
+
+            URL_Add("neon", "https://en.wikipedia.org/wiki/Neon"); // Chemical element 10
+
+            URL_Add("sodium", "https://en.wikipedia.org/wiki/Sodium");
+
+            URL_Add("sodium chloride", "https://en.wikipedia.org/wiki/Sodium_chloride"); // Related to chemical element 11
+
+            URL_Add("sodium bicarbonate", "https://en.wikipedia.org/wiki/Sodium_bicarbonate"); // Related to chemical element 11
+
+            URL_Add("magnesium", "https://en.wikipedia.org/wiki/Magnesium"); // Chemical element 12
+
+            URL_Add("aluminium", "https://en.wiktionary.org/wiki/aluminium#Noun"); // Chemical element 13
+
+            URL_Add("aluminium foil", "https://en.wikipedia.org/wiki/Aluminium_foil");
+
+            URL_Add("aluminium sulfate", "https://en.wikipedia.org/wiki/Aluminium_sulfate");
+
+            URL_Add("silicon", "https://en.wikipedia.org/wiki/Silicon"); // Chemical element 14
+
+            URL_Add("phosphorus", "https://en.wikipedia.org/wiki/Phosphorus"); // Chemical element 15
+
+            URL_Add("sulphuric acid", "https://en.wikipedia.org/wiki/Sulfuric_acid"); // Related to chemical element 16
+
+            URL_Add("chlorine", "https://en.wikipedia.org/wiki/Chlorine"); // Chemical element 17
+
+            URL_Add("hydrochloric acid", "https://en.wikipedia.org/wiki/Hydrochloric_acid"); // Related to chemical element 17
+
+            URL_Add("chlorinated", "https://en.wiktionary.org/wiki/chlorinated#Adjective"); // Related to chemical element 17
+
+            URL_Add("dichloromethane", "https://en.wikipedia.org/wiki/Dichloromethane"); // Related to chemical element 17
+
+            URL_Add("hydrofluoric acid", "https://en.wikipedia.org/wiki/Hydrofluoric_acid");
+
+            URL_Add("argon", "https://en.wikipedia.org/wiki/Argon"); // Chemical element 18
+
+            URL_Add("potassium", "https://en.wikipedia.org/wiki/Potassium"); // Chemical element 19
+
+            URL_Add("potassium-40", "https://en.wikipedia.org/wiki/Potassium-40"); // Related to chemical element 19
+
+            URL_Add("potassium aluminium sulfate", "https://en.wikipedia.org/wiki/Potassium_alum"); // Related to chemical element 19
+
+            URL_Add("potassium metabisulfite", "https://en.wikipedia.org/wiki/Potassium_metabisulfite"); // Related to chemical element 19
+
+            URL_Add("potassium sorbate", "https://en.wikipedia.org/wiki/Potassium_sorbate"); // Related to chemical element 19
+
+            URL_Add("potassium carbonate", "https://en.wikipedia.org/wiki/Potassium_carbonate"); // Related to chemical element 19
+
+            URL_Add("potassium hydroxide", "https://en.wikipedia.org/wiki/Potassium_hydroxide"); // Related to chemical element 19
+
+            URL_Add("potassium chloride", "https://en.wikipedia.org/wiki/Potassium_chloride"); // Related to chemical element 19
+
+            URL_Add("calcium", "https://en.wikipedia.org/wiki/Calcium"); // Chemical element 20
+
+            URL_Add("calcium-41", "https://en.wikipedia.org/wiki/Isotopes_of_calcium");
+
+            URL_Add("calcite", "https://en.wikipedia.org/wiki/Calcite"); // Related to chemical element 20
+
+            URL_Add("calcium phosphate", "https://en.wikipedia.org/wiki/Calcium_phosphate"); // Related to chemical element 20
+
+            URL_Add("titanium", "https://en.wikipedia.org/wiki/Titanium"); // Chemical element 22
+
+            URL_Add("iron", "https://en.wikipedia.org/wiki/Iron"); // Chemical element 26
+
+            URL_Add("ferric chloride", "https://en.wikipedia.org/wiki/Iron(III)_chloride"); // Related to chemical element 26
+
+            URL_Add("steel plate", "https://en.wikipedia.org/wiki/Steel_plate_shear_wall"); // Related to chemical element 26
+
+            URL_Add("high-speed steel", "https://en.wikipedia.org/wiki/High-speed_steel"); // Related to chemical element 26
+
+            URL_Add("stainless steel", "https://en.wikipedia.org/wiki/Stainless_steel");
+
+            URL_Add("steel mills", "https://en.wiktionary.org/wiki/steel_mill#Noun"); // Related to chemical element 26
+
+            URL_Add("cobalt", "https://en.wikipedia.org/wiki/Cobalt"); // Chemical element 27
+
+            URL_Add("nickel", "https://en.wikipedia.org/wiki/Nickel"); // Chemical element 28
+
+            URL_Add("nickel–metal hydride", "https://en.wikipedia.org/wiki/Nickel%E2%80%93metal_hydride_battery"); // Related to chemical element 28
+
+            URL_Add("NiCad", "https://en.wikipedia.org/wiki/Nickel%E2%80%93cadmium_battery"); // Contains chemical element 28 and chemical element 48
+
+            URL_Add("copper", "https://en.wikipedia.org/wiki/Copper"); // Chemical element 29
+
+            URL_Add("bronze", "https://en.wikipedia.org/wiki/Bronze"); // Related to chemical element 29
+
+            URL_Add("copper-clad aluminium", "https://en.wikipedia.org/wiki/Copper-clad_aluminium_wire"); // Related to chemical element 29
+
+            URL_Add("zinc", "https://en.wikipedia.org/wiki/Zinc"); // Chemical element 30
+
+            URL_Add("gallium", "https://en.wikipedia.org/wiki/Gallium"); // Chemical element 31
+
+            URL_Add("gallium nitride", "https://en.wikipedia.org/wiki/Gallium_nitride"); // Related to chemical element 31
+
+            URL_Add("germanium", "https://en.wikipedia.org/wiki/Germanium"); // Chemical element 32
+
+            URL_Add("arsenic", "https://en.wikipedia.org/wiki/Arsenic"); // Chemical element 33
+
+            URL_Add("rubidium", "https://en.wikipedia.org/wiki/Rubidium"); // Chemical element 37
+
+            URL_Add("strontium", "https://en.wikipedia.org/wiki/Strontium"); // Chemical element 38
+
+            URL_Add("strontium-94", "https://en.wikipedia.org/wiki/Isotopes_of_strontium"); // Related to chemical element 38
+
+            URL_Add("zirconium", "https://en.wikipedia.org/wiki/Zirconium"); // Chemical element 40
+
+            URL_Add("cubic zirconia", "https://en.wikipedia.org/wiki/Cubic_zirconia"); // Related to chemical element 40
+
+            URL_Add("niobium", "https://en.wikipedia.org/wiki/Niobium"); // Chemical element 41
+
+            URL_Add("palladium", "https://en.wikipedia.org/wiki/Palladium"); // Chemical element 46
+
+            URL_Add("palladised", "https://en.wikipedia.org/wiki/Palladium"); // Related to chemical element 46
+
+            URL_Add("silver", "https://en.wikipedia.org/wiki/Silver"); // Chemical element 47
+
+            URL_Add("silver sulfide", "https://en.wikipedia.org/wiki/Silver_sulfide");
+
+            URL_Add("cadmium", "https://en.wikipedia.org/wiki/Cadmium"); // Chemical element 48
+
+            URL_Add("tin", "https://en.wikipedia.org/wiki/Tin"); // Chemical element 50
+
+            URL_Add("tin foil hat", "https://en.wikipedia.org/wiki/Tin_foil_hat"); // Related to chemical element 50
+
+            URL_Add("antimony", "https://en.wikipedia.org/wiki/Antimony"); // Chemical element 51
+
+            URL_Add("tellurium", "https://en.wikipedia.org/wiki/Tellurium"); // Chemical element 52
+
+            URL_Add("xenon", "https://en.wikipedia.org/wiki/Xenon"); // Chemical element 54
+
+            URL_Add("xenon-133", "https://en.wikipedia.org/wiki/Isotopes_of_xenon"); // Related to chemical element 54
+
+            URL_Add("xenon-140", "https://en.wikipedia.org/wiki/Isotopes_of_xenon"); // Related to chemical element 54
+
+            URL_Add("barium", "https://en.wikipedia.org/wiki/Barium"); // Chemical element 55
+
+            URL_Add("barium-137", "https://en.wikipedia.org/wiki/Isotopes_of_barium"); // Related to chemical element 55
+
+            URL_Add("barium Ka line (X-ray 32 keV)", "https://en.wikipedia.org/wiki/Isotopes_of_barium"); // Related to chemical element 55
+
+            URL_Add("caesium", "https://en.wikipedia.org/wiki/Caesium"); // Chemical element 56
+
+            URL_Add("caesium-137", "https://en.wikipedia.org/wiki/Caesium-137"); // Related to chemical element 56
+
+            URL_Add("ytterbium", "https://en.wikipedia.org/wiki/Ytterbium"); // Chemical element 70
+
+            URL_Add("electrolytic capacitor", "https://en.wikipedia.org/wiki/Electrolytic_capacitor");
+
+            URL_Add("tantalum capacitor", "https://en.wikipedia.org/wiki/Tantalum_capacitor"); // Contains element 73
+
+            URL_Add("tungsten", "https://en.wikipedia.org/wiki/Tungsten"); // Chemical element 74
+
+            URL_Add("rhenium", "https://en.wikipedia.org/wiki/Rhenium"); // Chemical element 75
+
+            URL_Add("osmium", "https://en.wikipedia.org/wiki/Osmium"); // Chemical element 76
+
+            URL_Add("iridium", "https://en.wikipedia.org/wiki/Iridium"); // Chemical element 77
+
+            URL_Add("platinum", "https://en.wikipedia.org/wiki/Platinum"); // Chemical element 78
+
+            URL_Add("gold", "https://en.wikipedia.org/wiki/Gold"); // Chemical element 79
+
+            URL_Add("mercury", "https://en.wikipedia.org/wiki/Mercury_%28element%29"); // Chemical element 80
+
+            URL_Add("thallium", "https://en.wikipedia.org/wiki/Thallium"); // Chemical element 81
+
+            URL_Add("lead", "https://en.wikipedia.org/wiki/Lead"); // Chemical element 82
+
+            URL_Add("lead-208", "https://en.wikipedia.org/wiki/Isotopes_of_lead#Lead-204,_-207,_and_-208"); // Related to chemical element 82
+
+            URL_Add("lead-210", "https://en.wikipedia.org/wiki/Isotopes_of_lead#List_of_isotopes"); // Related to chemical element 82
+
+            URL_Add("bismuth", "https://en.wikipedia.org/wiki/Bismuth"); // Chemical element 83
+
+            URL_Add("bismuth-209", "https://en.wikipedia.org/wiki/Bismuth-209"); // Related to chemical element 83
+
+            URL_Add("polonium", "https://en.wikipedia.org/wiki/Polonium");
+
+            URL_Add("francium", "https://en.wikipedia.org/wiki/Francium");
+
+            URL_Add("radium", "https://en.wikipedia.org/wiki/Radium"); // Chemical element 88
+
+            URL_Add("thorium", "https://en.wikipedia.org/wiki/Thorium"); // Chemical element 90
+
+            URL_Add("thorium-233", "https://en.wikipedia.org/wiki/Thorium-232"); // Related to chemical element 90
+
+            URL_Add("uranium-235", "https://en.wikipedia.org/wiki/Uranium-235"); // Related to chemical element 92
+
+            URL_Add("uranium-238", "https://en.wikipedia.org/wiki/Uranium-238"); // Related to chemical element 92
+
+            URL_Add("plutonium", "https://en.wikipedia.org/wiki/Plutonium"); // Chemical element 94
+
+            URL_Add("plutonium-239", "https://en.wikipedia.org/wiki/Plutonium-239"); // Related to chemical element 94
+
+            URL_Add("plutonium-240", "https://en.wikipedia.org/wiki/Plutonium-240"); // Related to chemical element 94
+
+            URL_Add("americium-241", "https://en.wikipedia.org/wiki/Americium-241"); // Related to chemical element 95
+
+            URL_Add("rutherfordium", "https://en.wikipedia.org/wiki/Rutherfordium"); // Chemical element 104
+
+            URL_Add("dubnium", "https://en.wikipedia.org/wiki/Dubnium"); // Chemical element 104
+
+            URL_Add("seaborgium", "https://en.wikipedia.org/wiki/Seaborgium"); // Chemical element 106
+
+            URL_Add("bohrium", "https://en.wikipedia.org/wiki/Bohrium"); // Chemical element 107
+
+            URL_Add("copernicium", "https://en.wikipedia.org/wiki/Copernicium"); // Chemical element 112
+
+            URL_Add("oganesson", "https://en.wikipedia.org/wiki/Oganesson"); // Chemical element 118
+
+            URL_Add("unbinilium", "https://en.wikipedia.org/wiki/Unbinilium"); // Chemical element 120
+
+            URL_Add("unbihexium", "https://en.wikipedia.org/wiki/Unbihexium"); // Chemical element 126
+
+            URL_Add("spin–orbit coupling", "https://en.wikipedia.org/wiki/Spin%E2%80%93orbit_interaction");
+
+            URL_Add("orbital", "https://en.wiktionary.org/wiki/orbital#Adjective");
+
+            URL_Add("sp2", "https://en.wikipedia.org/wiki/Orbital_hybridisation#sp2");
+
+            URL_Add("p orbital", "https://en.wikipedia.org/wiki/Atomic_orbital");
+
+            URL_Add("s orbital", "https://en.wikipedia.org/wiki/Atomic_orbital");
+
+            URL_Add("atomically", "https://en.wiktionary.org/wiki/atomically#Adverb");
+
+            URL_Add("atomic level", "https://dictionary.cambridge.org/example/english/atomic-level");
+
+            URL_Add("nonatomic", "https://en.wiktionary.org/wiki/nonatomic#Adjective");
+
+            URL_Add("atomic weight", "https://en.wikipedia.org/wiki/Relative_atomic_mass");
+
+            URL_Add("Feynman diagram", "https://en.wikipedia.org/wiki/Feynman_diagram");
+
+            URL_Add("Standard Model", "https://en.wikipedia.org/wiki/Standard_Model");
+
+            URL_Add("thermonuclear", "https://en.wiktionary.org/wiki/thermonuclear#Adjective");
+
+            URL_Add("International Atomic Energy Agency", "https://en.wikipedia.org/wiki/International_Atomic_Energy_Agency");
+
+            URL_Add("fusion", "https://en.wikipedia.org/wiki/Nuclear_fusion");
+
+            URL_Add("superheavy", "https://en.wiktionary.org/wiki/superheavy#Adjective");
+
+            URL_Add("polycarbonate", "https://www.prosettings.com/keycaps-guide/");
+
+            URL_Add("POM", "https://www.prosettings.com/keycaps-guide/");
+
+            URL_Add("monopoly", "https://en.wiktionary.org/wiki/monopoly#Noun");
+
+            URL_Add("mountain", "https://en.wiktionary.org/wiki/mountain#Noun");
+
+            URL_Add("mountains", "https://en.wiktionary.org/wiki/mountain#Noun");
+
+            URL_Add("terraforming", "https://en.wikipedia.org/wiki/Terraforming");
+
+            URL_Add("Astraea", "https://en.wikipedia.org/wiki/Astraea");
+
+            URL_Add("Lagrange point", "https://en.wikipedia.org/wiki/Lagrange_point");
+
+            URL_Add("Jupiter Icy Moons Explorer", "https://en.wikipedia.org/wiki/Jupiter_Icy_Moons_Explorer");
+
+            URL_Add("NASA", "https://en.wikipedia.org/wiki/NASA");
+
+            URL_Add("New Horizons", "https://en.wikipedia.org/wiki/New_Horizons");
+
+            URL_Add("Voyager 1", "https://en.wikipedia.org/wiki/Voyager_1");
+
+            URL_Add("Voyager 2", "https://en.wikipedia.org/wiki/Voyager_2");
+
+            URL_Add("International Space Station", "https://en.wikipedia.org/wiki/International_Space_Station");
+
+            URL_Add("Space Shuttle", "https://en.wikipedia.org/wiki/Space_Shuttle");
+
+            URL_Add("Space Shuttle Challenger disaster", "https://en.wikipedia.org/wiki/Space_Shuttle_Challenger_disaster");
+
+            URL_Add("Lucy", "https://en.wikipedia.org/wiki/Lucy_(spacecraft)");
+
+            URL_Add("Hubble Space Telescope", "https://en.wikipedia.org/wiki/Hubble_Space_Telescope");
+
+            URL_Add("James Webb Space Telescope", "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope");
+
+            URL_Add("Very Large Telescope", "https://en.wikipedia.org/wiki/Very_Large_Telescope");
+
+            URL_Add("liftoff", "https://en.wiktionary.org/wiki/liftoff#Noun");
+
+            URL_Add("Vandenberg Space Force Base", "https://en.wikipedia.org/wiki/Vandenberg_Space_Force_Base");
+
+            URL_Add("NASA Deep Space Network", "https://en.wikipedia.org/wiki/NASA_Deep_Space_Network");
+
+            URL_Add("DSS 14", "https://en.wikipedia.org/wiki/Goldstone_Deep_Space_Communications_Complex#Antennas");
+
+            URL_Add("Ulysses", "https://en.wikipedia.org/wiki/Ulysses_(spacecraft)");
+
+            URL_Add("Philae", "https://en.wikipedia.org/wiki/Philae_(spacecraft)");
+
+            URL_Add("Gaia", "https://en.wikipedia.org/wiki/Gaia_(spacecraft)");
+
+            URL_Add("Atlas V", "https://en.wikipedia.org/wiki/Atlas_V");
+
+            URL_Add("Saturn V", "https://en.wikipedia.org/wiki/Saturn_V");
+
+            URL_Add("Apollo", "https://en.wikipedia.org/wiki/Apollo_program");
+
+            URL_Add("Artemis", "https://en.wikipedia.org/wiki/Artemis_program"); // Old: https://en.wikipedia.org/wiki/Artemis_Project
+
+            URL_Add("Blue Origin", "https://en.wikipedia.org/wiki/Blue_Origin");
+
+            URL_Add("SpaceX", "https://en.wikipedia.org/wiki/SpaceX");
+
+            URL_Add("Starlink", "https://en.wikipedia.org/wiki/SpaceX_Starlink");
+
+            URL_Add("Starliner", "https://en.wikipedia.org/wiki/Boeing_CST-100_Starliner");
+
+            URL_Add("SpaceX Starship", "https://en.wikipedia.org/wiki/SpaceX_Starship");
+
+            URL_Add("Orion", "https://en.wikipedia.org/wiki/Orion_(spacecraft)");
+
+            URL_Add("Progress", "https://en.wikipedia.org/wiki/Progress_(spacecraft)");
+
+            URL_Add("Soyuz", "https://en.wikipedia.org/wiki/Soyuz_(spacecraft)");
+
+            URL_Add("Falcon&nbsp;9", "https://en.wikipedia.org/wiki/Falcon_9");
+
+            URL_Add("Falcon Heavy", "https://en.wikipedia.org/wiki/Falcon_Heavy");
+
+            URL_Add("Mechazilla", "https://en.wikipedia.org/wiki/SpaceX_Starbase#Launch_site_(Orbital_Launch_Pad_A_&_B)");
+
+            URL_Add("drag parachute", "https://en.wiktionary.org/wiki/drag_parachute#Noun");
+
+            URL_Add("Poincaré recurrence theorem", "https://en.wikipedia.org/wiki/Poincar%C3%A9_recurrence_theorem");
+
+            URL_Add("axes", "https://en.wiktionary.org/wiki/axis#Noun");
+
+            URL_Add("x-axis", "https://en.wiktionary.org/wiki/x-axis#Noun");
+
+            URL_Add("x-axes", "https://en.wiktionary.org/wiki/x-axis#Noun");
+
+            URL_Add("y-axis", "https://en.wiktionary.org/wiki/y-axis#Noun");
+
+            URL_Add("y-axes", "https://en.wiktionary.org/wiki/y-axis#Noun");
+
+            URL_Add("z-axis", "https://en.wiktionary.org/wiki/z-axis#Noun");
+
+            URL_Add("z-axes", "https://en.wiktionary.org/wiki/y-axis#Noun");
+
+            URL_Add("on earth", "https://en.wiktionary.org/wiki/on_earth#Prepositional_phrase");
+
+            URL_Add("Google Earth", "https://en.wikipedia.org/wiki/Google_Earth");
+
+            URL_Add("dearth", "https://en.wiktionary.org/wiki/dearth#Noun");
+
+            URL_Add("infrared", "https://en.wikipedia.org/wiki/Infrared");
+
+            URL_Add("extreme ultraviolet radiation", "https://en.wikipedia.org/wiki/Extreme_ultraviolet");
+
+            URL_Add("transport", "https://en.wiktionary.org/wiki/transport#Noun");
+
+            URL_Add("transport express régional", "https://en.wikipedia.org/wiki/Transport_express_r%C3%A9gional");
+
+            URL_Add("transparency", "https://en.wiktionary.org/wiki/transparency#Noun");
+
+            URL_Add("transaction", "https://en.wiktionary.org/wiki/transaction#Noun");
+
+            URL_Add("transactional", "https://en.wiktionary.org/wiki/transactional#Adjective");
+
+            URL_Add("transition", "https://en.wiktionary.org/wiki/transition#Noun");
+
+            URL_Add("transit", "https://en.wiktionary.org/wiki/transit#Noun");
+
+            URL_Add("transform", "https://en.wiktionary.org/wiki/transform#Noun");
+
+            URL_Add("transforms", "https://en.wiktionary.org/wiki/transform#Verb");
+
+            URL_Add("transforming", "https://en.wiktionary.org/wiki/transform#Verb");
+
+            URL_Add("transformable", "https://en.wiktionary.org/wiki/transformable#Adjective");
+
+            URL_Add("transformation", "https://en.wiktionary.org/wiki/transformation#Noun");
+
+            URL_Add("transformations", "https://en.wiktionary.org/wiki/transformation#Noun");
+
+            URL_Add("transformer", "https://en.wikipedia.org/wiki/Transformer");
+
+            URL_Add("transfer", "https://en.wiktionary.org/wiki/transfer#Noun");
+
+            URL_Add("transferring", "https://en.wiktionary.org/wiki/transferring#Verb");
+
+            URL_Add("transferred", "https://en.wiktionary.org/wiki/transfer#Verb");
+
+            URL_Add("transmit", "https://en.wiktionary.org/wiki/transmit#Verb");
+
+            URL_Add("transmits", "https://en.wiktionary.org/wiki/transmit#Verb");
+
+            URL_Add("transmitter", "https://en.wiktionary.org/wiki/transmitter#Noun");
+
+            URL_Add("transmitted", "https://en.wiktionary.org/wiki/transmit#Verb");
+
+            URL_Add("transmissibility", "https://en.wiktionary.org/wiki/transmissibility#Noun");
+
+            URL_Add("transmission", "https://en.wiktionary.org/wiki/transmission#Noun");
+
+            URL_Add("transceive", "https://en.wiktionary.org/wiki/transceive#Verb");
+
+            URL_Add("transceiver", "https://en.wikipedia.org/wiki/Transceiver");
+
+            URL_Add("transcript", "https://en.wiktionary.org/wiki/transcript#Noun");
+
+            URL_Add("transonic", "https://en.wiktionary.org/wiki/transonic#Adjective");
+
+            URL_Add("translate", "https://en.wiktionary.org/wiki/translate#Verb");
+
+            URL_Add("translational", "https://en.wiktionary.org/wiki/translational#Adjective");
+
+            URL_Add("translation", "https://en.wiktionary.org/wiki/translation#Noun");
+
+            URL_Add("translations", "https://en.wiktionary.org/wiki/translation#Noun");
+
+            URL_Add("translation unit", "https://en.wikipedia.org/wiki/Translation_unit");
+
+            URL_Add("transverse", "https://en.wiktionary.org/wiki/transverse#Adjective"); // Old: https://en.wiktionary.org/wiki/transverse#AdjectiveEasting
+
+            URL_Add("transverse Mercator projection", "https://en.wikipedia.org/wiki/Transverse_Mercator_projection");
+
+            URL_Add("transpile", "https://en.wikipedia.org/wiki/Source-to-source_compiler");
+
+            URL_Add("transpiles", "https://en.wiktionary.org/wiki/transpile#Verb");
+
+            URL_Add("transpiling", "https://en.wiktionary.org/wiki/transpile#Verb");
+
+            URL_Add("transpiler", "https://en.wikipedia.org/wiki/Source-to-source_compiler");
+
+            URL_Add("transpilers", "https://en.wikipedia.org/wiki/Source-to-source_compiler");
+
+            URL_Add("TransMac", "https://en.wikipedia.org/wiki/Apple_Disk_Image#Utilities");
+
+            URL_Add("Transifex", "https://en.wikipedia.org/wiki/Transifex");
+
+            URL_Add("knowledge transfer", "https://en.wikipedia.org/wiki/Knowledge_transfer");
+
+            URL_Add("knowledge base", "https://en.wiktionary.org/wiki/knowledge_base#Noun");
+
+            URL_Add("know", "https://en.wiktionary.org/wiki/know#Verb");
+
+            URL_Add("knew", "https://en.wiktionary.org/wiki/know#Verb");
+
+            URL_Add("don't know", "https://en.wiktionary.org/wiki/I_don%27t_know#Phrase");
+
+            URL_Add("all-knowing", "https://en.wiktionary.org/wiki/all-knowing#Adjective");
+
+            URL_Add("I know", "https://en.wiktionary.org/wiki/I_know#Phrase");
+
+            URL_Add("let you know", "https://en.wiktionary.org/wiki/let_know#Verb");
+
+            URL_Add("if you didn't know", "https://en.wiktionary.org/wiki/IYDK#Phrase");
+
+            URL_Add("know-how", "https://en.wiktionary.org/wiki/know-how#Noun");
+
+            URL_Add("as far as I know", "https://en.wiktionary.org/wiki/AFAIK#Adverb"); // Old: https://en.wiktionary.org/wiki/AFAIK
+
+            URL_Add("Well, you know, that's just like, your opinion, man", "https://www.youtube.com/watch?v=V0aDEvmf5u0&t=2m43s");
+
+            URL_Add("know your customer", "https://en.wikipedia.org/wiki/Know_your_customer");
+
+            URL_Add("knowledge", "https://en.wiktionary.org/wiki/knowledge#Noun");
+
+            URL_Add("knowledgeable", "https://en.wiktionary.org/wiki/knowledgeable#Adjective");
+
+            URL_Add("zero-knowledge proof", "https://en.wikipedia.org/wiki/Zero-knowledge_proof");
+
+            URL_Add("zk-SNARK", "https://en.wikipedia.org/wiki/Non-interactive_zero-knowledge_proof");
+
+            URL_Add("acknowledge", "https://en.wiktionary.org/wiki/acknowledge#Verb");
+
+            URL_Add("acknowledges", "https://en.wiktionary.org/wiki/acknowledge#Verb");
+
+            URL_Add("acknowledging", "https://en.wiktionary.org/wiki/acknowledge#Verb");
+
+            URL_Add("acknowledged", "https://en.wiktionary.org/wiki/acknowledged#Adjective");
+
+            URL_Add("rocket science", "https://en.wiktionary.org/wiki/rocket_science#Noun");
+
+            URL_Add("nonspecific", "https://en.wiktionary.org/wiki/non-specific#Adjective");
+
+            URL_Add("nontransparent", "https://en.wiktionary.org/wiki/nontransparent#Adjective");
+
+            URL_Add("radiative", "https://en.wiktionary.org/wiki/radiative#Adjective");
+
+            URL_Add("ethtool", "https://en.wikipedia.org/wiki/Ethtool");
+
+            URL_Add("radiation", "https://en.wiktionary.org/wiki/radiation#Noun");
+
+            URL_Add("opportunity", "https://en.wiktionary.org/wiki/opportunity#Noun");
+
+            URL_Add("atmosphere", "https://en.wiktionary.org/wiki/atmosphere#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -151051,6 +151070,19 @@ namespace OverflowHelper.core
 
             // The animal (noun)
             correctionAdd("bar_", "bear_");
+
+            // The noun
+            correctionAdd("ball park_", "ballpark_");
+            correctionAdd("ball-park_", "ballpark_");
+
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/ball_bearing#Noun>
+            //   <https://en.wiktionary.org/wiki/BB#Noun>
+            //     Claims "BB" is a valid initialism
+            //
+            correctionAdd("bb_", "ball bearing_");
+            correctionAdd("BB_", "ball bearing_");
 
             correctionAdd("panda_", "panda bear_");
 
@@ -153212,6 +153244,7 @@ namespace OverflowHelper.core
             correctionAdd("jeyboard_", "keyboard_");
             correctionAdd("meyblard_", "keyboard_"); // A true typo (double typo)
             correctionAdd("key oard_", "keyboard_");
+            correctionAdd("keynoard_", "keyboard_"); // A true typo
             correctionAdd("keybord_", "keyboard_");
             correctionAdd("Keybord_", "keyboard_");
             correctionAdd("keyboad_", "keyboard_");
@@ -153635,15 +153668,6 @@ namespace OverflowHelper.core
             correctionAdd("APTv3_", "APT keyboard layout_");
             correctionAdd("apt_", "APT keyboard layout_");
             correctionAdd("APT_", "APT keyboard layout_");
-
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/ball_bearing#Noun>
-            //   <https://en.wiktionary.org/wiki/BB#Noun>
-            //     Claims "BB" is a valid initialism
-            //
-            correctionAdd("bb_", "ball bearing_");
-            correctionAdd("BB_", "ball bearing_");
 
             // Mechanical keyboards
             //
@@ -157529,10 +157553,6 @@ namespace OverflowHelper.core
             // The adjective
             correctionAdd("Parallel_", "parallel_");
 
-            // The noun
-            correctionAdd("ball park_", "ballpark_");
-            correctionAdd("ball-park_", "ballpark_");
-
             correctionAdd("Epically_", "epically_");
 
             correctionAdd("actualy_", "actual_");
@@ -159531,7 +159551,7 @@ namespace OverflowHelper.core
             //
             // C2 firmware:
             //
-            //   <https://www.keychron.com/pages/c2-keyboard-user-manual>
+            //   <https://www.keychron.com/pages/firmware-for-keychron-c2>
             //
             correctionAdd("C2_", "Keychron C2_");
             correctionAdd("c2_", "Keychron C2_");
@@ -160223,6 +160243,7 @@ namespace OverflowHelper.core
             correctionAdd("magzy_", "Magnus Carlsen_");
             correctionAdd("Magzy_", "Magnus Carlsen_");
             correctionAdd("GOAT_", "Magnus Carlsen_");
+            correctionAdd("Carl_", "Magnus Carlsen_");
             correctionAdd("MC_", "Magnus Carlsen_");
 
             // Chess
@@ -160235,6 +160256,8 @@ namespace OverflowHelper.core
             correctionAdd("passed pawns_", "passed pawn_");
             correctionAdd("past pawns_", "passed pawn_");
             correctionAdd("past pawn_", "passed pawn_");
+            correctionAdd("passers_", "passed pawn_"); // Not 100% correct - plural/singular.
+            correctionAdd("passer_", "passed pawn_");
             correctionAdd("pawn_", "passed pawn_"); // For the cross-reference
 
             correctionAdd("anyway_", "any way_"); // Entirely dependent on context
@@ -170979,8 +171002,6 @@ namespace OverflowHelper.core
 
             URL_Add("Jupyter Notebook_", "https://en.wikipedia.org/wiki/IPython#Project_Jupyter");
 
-            URL_Add("panda bear_", "https://en.wikipedia.org/wiki/Giant_panda");
-
             URL_Add("Safety_", "https://pypi.org/project/safety/");
 
             URL_Add("loc_", "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.loc.html");
@@ -171056,8 +171077,6 @@ namespace OverflowHelper.core
             URL_Add("Cargo_", "https://en.wikipedia.org/wiki/Rust_(programming_language)#Cargo");
 
             URL_Add("normalisation_", "https://en.wiktionary.org/wiki/normalisation#Noun");
-
-            URL_Add("bear_", "https://en.wiktionary.org/wiki/bear#Noun");
 
             URL_Add("Apollo Kotlin_", "https://github.com/apollographql/apollo-kotlin");
 
@@ -171857,10 +171876,6 @@ namespace OverflowHelper.core
 
             URL_Add("tail-call optimization_", "https://en.wikipedia.org/wiki/Tail_call");
 
-            URL_Add("ballpark_", "https://en.wiktionary.org/wiki/ballpark#Noun");
-
-            URL_Add("ball bearing_", "https://en.wikipedia.org/wiki/Ball_bearing");
-
             URL_Add("parallel_", "https://en.wiktionary.org/wiki/parallel#Adjective");
 
             URL_Add("casual_", "https://en.wiktionary.org/wiki/casual#Adjective");
@@ -172036,6 +172051,14 @@ namespace OverflowHelper.core
             URL_Add("passed pawn_", "https://en.wikipedia.org/wiki/Passed_pawn");
 
             URL_Add("DIP switches_", "https://en.wiktionary.org/wiki/DIP_switch#Noun");
+
+            URL_Add("bear_", "https://en.wiktionary.org/wiki/bear#Noun");
+
+            URL_Add("ballpark_", "https://en.wiktionary.org/wiki/ballpark#Noun");
+
+            URL_Add("ball bearing_", "https://en.wikipedia.org/wiki/Ball_bearing");
+
+            URL_Add("panda bear_", "https://en.wikipedia.org/wiki/Giant_panda");
 
         } //addLookupData_alternativeWordSet()
 
@@ -172607,6 +172630,7 @@ namespace OverflowHelper.core
             correctionAdd("ðat__", "that__"); // Just silly
             correctionAdd("tht__", "that__");
             correctionAdd("hat__", "that__");
+            correctionAdd("tha__", "that__");
 
             correctionAdd("man find__", "find__");
             correctionAdd("FIND__", "find__");
@@ -173560,8 +173584,10 @@ namespace OverflowHelper.core
             correctionAdd("HE switch__", "Hall effect switches__");
             correctionAdd("HE__", "Hall effect switches__");
 
+            // For the reverse, to the abbr
+            //
             // In particular for Keychron HE keyboards, e.g., K2 HE
-            correctionAdd("stuck key syndrome__", "SKS__"); // For the reverse, to the abbr
+            correctionAdd("stuck key syndrome__", "SKS__");
 
             correctionAdd("switch__", "momentary switch__");
 
@@ -177246,8 +177272,6 @@ namespace OverflowHelper.core
 
             URL_Add("idea__", "https://en.wiktionary.org/wiki/idea#Noun");
 
-            URL_Add("bearing ball__", "https://en.wikipedia.org/wiki/Ball_(bearing)");
-
             URL_Add("flag__", "https://en.wiktionary.org/wiki/flag#Noun");
 
             URL_Add("electronic design automation__", "https://en.wikipedia.org/wiki/Electronic_design_automation");
@@ -178344,6 +178368,8 @@ namespace OverflowHelper.core
 
             URL_Add("doubt__", "https://en.wiktionary.org/wiki/doubt#Noun");
 
+            URL_Add("bearing ball__", "https://en.wikipedia.org/wiki/Ball_(bearing)");
+
         } //addLookupData_alternativeWordSet2()
 
 
@@ -178431,6 +178457,7 @@ namespace OverflowHelper.core
             correctionAdd("pediod___", "period___");
 
             correctionAdd("know___", "no___");
+            correctionAdd("nein___", "no___");
             correctionAdd("now___", "no___");
             correctionAdd("n o___", "no___"); // A true typo involving space...
 
