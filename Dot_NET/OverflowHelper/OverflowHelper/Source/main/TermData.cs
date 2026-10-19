@@ -13282,21 +13282,6 @@ namespace OverflowHelper.core
             correctionAdd("Security now", "Security Now");
             correctionAdd("SN", "Security Now");
 
-            // A hard disk drive utility
-            correctionAdd("Spinright", "SpinRite");
-            correctionAdd("Spinrite", "SpinRite");
-            correctionAdd("spinrite", "SpinRite");
-
-            // Data recovery software
-            correctionAdd("disk drill", "Disk Drill");
-
-            // The noun
-            correctionAdd("spin off", "spin-off");
-            correctionAdd("spinoff", "spin-off");
-
-            correctionAdd("spin offs", "spin-offs");
-            correctionAdd("spinoffs", "spin-offs");
-
             correctionAdd("floppy drive", "floppy disk drive");
             correctionAdd("Floppy drive", "floppy disk drive");
 
@@ -13305,14 +13290,11 @@ namespace OverflowHelper.core
             correctionAdd("floppy", "floppy disk");
             correctionAdd("Floppy", "floppy disk");
 
-            // Synonym of "hard disk drive"?
-            correctionAdd("disc drive", "disk drive");
-            correctionAdd("D.D", "disk drive");
-
             correctionAdd("hard disc drive", "hard disk drive");
             correctionAdd("Hard Disk Drive", "hard disk drive");
             correctionAdd("harddisk driver", "hard disk drive");
             correctionAdd("rotating rust", "hard disk drive");
+            correctionAdd("spinning rust", "hard disk drive");
             correctionAdd("hard drive", "hard disk drive"); // An expansion.
             correctionAdd("Hard Drive", "hard disk drive");
             correctionAdd("hard-drive", "hard disk drive");
@@ -13335,6 +13317,25 @@ namespace OverflowHelper.core
             correctionAdd("dis", "hard disk drive");
             correctionAdd("hd", "hard disk drive"); // An expansion.
             correctionAdd("HD", "hard disk drive"); // An expansion.
+
+            // Synonym of "hard disk drive"?
+            correctionAdd("disc drive", "disk drive");
+            correctionAdd("D.D", "disk drive");
+
+            // A hard disk drive utility
+            correctionAdd("Spinright", "SpinRite");
+            correctionAdd("Spinrite", "SpinRite");
+            correctionAdd("spinrite", "SpinRite");
+
+            // Data recovery software
+            correctionAdd("disk drill", "Disk Drill");
+
+            // The noun
+            correctionAdd("spin off", "spin-off");
+            correctionAdd("spinoff", "spin-off");
+
+            correctionAdd("spin offs", "spin-offs");
+            correctionAdd("spinoffs", "spin-offs");
 
             // Related to storage area network
             correctionAdd("Logical Unit Number", "logical unit number");
@@ -16175,6 +16176,8 @@ namespace OverflowHelper.core
             correctionAdd("gpa", "GPA");
 
             correctionAdd("mark-sheet", "marksheet");
+
+            correctionAdd("gymnaisum", "gymnasium");
 
             correctionAdd("University", "university");
             correctionAdd("univercity", "university");
@@ -44932,9 +44935,10 @@ namespace OverflowHelper.core
             correctionAdd("pern", "PERN");
 
             correctionAdd("Express JS", "Express.js");
+            correctionAdd("express js", "Express.js");
+            correctionAdd("Express Js", "Express.js");
             correctionAdd("Express.JS", "Express.js");
             correctionAdd("express.js", "Express.js");
-            correctionAdd("express js", "Express.js");
             correctionAdd("expressjs", "Express.js");
             correctionAdd("expressJs", "Express.js");
             correctionAdd("ExpressJS", "Express.js");
@@ -46384,9 +46388,25 @@ namespace OverflowHelper.core
 
             correctionAdd("autombile", "automobile");
 
-            correctionAdd("Simulation of Urban MObility", "Simulation of Urban Mobility");
-            correctionAdd("Eclipse SUMO", "Simulation of Urban Mobility");
-            correctionAdd("SUMO", "Simulation of Urban Mobility");
+            // For example, simulation of vehicles, pedestrians,
+            // and infrastructure.
+            // It is available under Eclipse; it isn't a version of Eclipse
+            correctionAdd("Simulation of Urban MObility", "Eclipse Simulation of Urban Mobility");
+            correctionAdd("Simulation of Urban Mobility", "Eclipse Simulation of Urban Mobility");
+            correctionAdd("Eclipse SUMO", "Eclipse Simulation of Urban Mobility");
+            correctionAdd("eclipse sumo", "Eclipse Simulation of Urban Mobility");
+            correctionAdd("SUMO Eclipse", "Eclipse Simulation of Urban Mobility");
+            correctionAdd("sumo eclipse", "Eclipse Simulation of Urban Mobility");
+            correctionAdd("SUMO", "Eclipse Simulation of Urban Mobility");
+            correctionAdd("sumo", "Eclipse Simulation of Urban Mobility");
+
+            // Python. A PyPI package.
+            // Related to 'Eclipse Simulation of Urban Mobility' (SUMO).
+            //
+            correctionAdd("traffic control interface", "Traffic Control Interface");
+            correctionAdd("TraCI", "Traffic Control Interface"); // The official abbr.
+            correctionAdd("Traci", "Traffic Control Interface");
+            correctionAdd("traci", "Traffic Control Interface");
 
             // Alternative URLs:
             //
@@ -106397,6 +106417,9 @@ namespace OverflowHelper.core
             correctionAdd("Primefaces", "PrimeFaces");
 
             correctionAdd("chart.js", "Chart.js");
+            correctionAdd("Chart JS", "Chart.js");
+            correctionAdd("Chart Js", "Chart.js");
+            correctionAdd("Chart.JS", "Chart.js");
             correctionAdd("ChartJS", "Chart.js");
             correctionAdd("chartjs", "Chart.js");
             correctionAdd("chartJS", "Chart.js");
@@ -111896,9 +111919,21 @@ namespace OverflowHelper.core
 
             URL_Add("lung", "https://en.wiktionary.org/wiki/lung#Noun");
 
-            URL_Add("universally", "https://en.wiktionary.org/wiki/universally#Adverb");
+            URL_Add("gymnasium", "https://en.wiktionary.org/wiki/gymnasium#Noun");
 
             URL_Add("university", "https://en.wiktionary.org/wiki/university#Noun");
+
+            URL_Add("universities", "https://en.wiktionary.org/wiki/university#Noun");
+
+            URL_Add("University of Illinois Urbana-Champaign", "https://en.wikipedia.org/wiki/University_of_Illinois_Urbana-Champaign");
+
+            URL_Add("University of California, Berkeley", "https://en.wikipedia.org/wiki/University_of_California%2C_Berkeley");
+
+            URL_Add("YubiKey 5 Nano", "https://www.yubico.com/products/identifying-your-yubikey/");
+
+            URL_Add("YubiKey 5C", "https://www.yubico.com/products/identifying-your-yubikey/");
+
+            URL_Add("Yubico", "https://en.wikipedia.org/wiki/YubiKey");
 
             URL_Add("COVID-19", "https://en.wikipedia.org/wiki/COVID-19"); // Old: https://en.wikipedia.org/wiki/Coronavirus_disease_2019
 
@@ -115186,8 +115221,6 @@ namespace OverflowHelper.core
 
             URL_Add("tcsh", "https://en.wikipedia.org/wiki/Tcsh");
 
-            URL_Add("universities", "https://en.wiktionary.org/wiki/university#Noun");
-
             URL_Add("Font Awesome", "https://en.wikipedia.org/wiki/Font_Awesome");
 
             URL_Add("encoding", "https://en.wiktionary.org/wiki/encoding#Noun");
@@ -115655,8 +115688,6 @@ namespace OverflowHelper.core
             URL_Add("Saxon", "https://en.wikipedia.org/wiki/Saxon_XSLT");
 
             URL_Add("StAX", "https://en.wikipedia.org/wiki/StAX");
-
-            URL_Add("Universe Sandbox", "https://en.wikipedia.org/wiki/Universe_Sandbox");
 
             URL_Add("active", "https://en.wiktionary.org/wiki/active#Adjective");
 
@@ -118440,7 +118471,9 @@ namespace OverflowHelper.core
 
             URL_Add("dynamic", "https://en.wiktionary.org/wiki/dynamic#Adjective");
 
-            URL_Add("Simulation of Urban Mobility", "https://en.wikipedia.org/wiki/Simulation_of_Urban_MObility");
+            URL_Add("Eclipse Simulation of Urban Mobility", "https://en.wikipedia.org/wiki/Simulation_of_Urban_MObility");
+
+            URL_Add("Traffic Control Interface", "https://pypi.org/project/traci/");
 
             URL_Add("genuinely", "https://en.wiktionary.org/wiki/genuinely#Adverb");
 
@@ -119085,14 +119118,6 @@ namespace OverflowHelper.core
             URL_Add("scikit-image", "https://en.wikipedia.org/wiki/Scikit-image");
 
             URL_Add("Tripadvisor", "https://en.wikipedia.org/wiki/Tripadvisor");
-
-            URL_Add("Universal 2nd Factor", "https://en.wikipedia.org/wiki/Universal_2nd_Factor");
-
-            URL_Add("YubiKey 5 Nano", "https://www.yubico.com/products/identifying-your-yubikey/");
-
-            URL_Add("YubiKey 5C", "https://www.yubico.com/products/identifying-your-yubikey/");
-
-            URL_Add("Yubico", "https://en.wikipedia.org/wiki/YubiKey");
 
             URL_Add("folks", "https://en.wiktionary.org/wiki/folks#Noun");
 
@@ -122919,8 +122944,6 @@ namespace OverflowHelper.core
             URL_Add("fixes", "https://en.wiktionary.org/wiki/fix#Verb");
 
             URL_Add("inconsistencies", "https://en.wiktionary.org/wiki/inconsistency#Noun");
-
-            URL_Add("universal", "https://en.wiktionary.org/wiki/universal#Adjective");
 
             URL_Add("ex-wife", "https://en.wiktionary.org/wiki/ex-wife#Noun");
 
@@ -127746,8 +127769,6 @@ namespace OverflowHelper.core
 
             URL_Add("Bosch", "https://en.wikipedia.org/wiki/Bosch_(company)");
 
-            URL_Add("universal references", "https://en.wikipedia.org/wiki/Reference_(C%2B%2B)#Rvalue_reference");
-
             URL_Add("&nbsp;kilobaud", "https://en.wikipedia.org/wiki/Baud#Definitions");
 
             URL_Add("revving", "https://en.wiktionary.org/wiki/rev#Verb");
@@ -131998,8 +132019,6 @@ namespace OverflowHelper.core
 
             URL_Add("GNU C", "https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html");
 
-            URL_Add("universal character names", "https://en.wikipedia.org/wiki/Escape_sequences_in_C#Universal_character_names");
-
             URL_Add("axiom of power set", "https://en.wikipedia.org/wiki/Axiom_of_power_set#Consequences");
 
             URL_Add("TCPView", "https://docs.microsoft.com/en-us/sysinternals/downloads/tcpview");
@@ -132183,8 +132202,6 @@ namespace OverflowHelper.core
             URL_Add("solenoid", "https://en.wikipedia.org/wiki/Solenoid");
 
             URL_Add("paranoia", "https://en.wiktionary.org/wiki/paranoia#Noun");
-
-            URL_Add("University of Illinois Urbana-Champaign", "https://en.wikipedia.org/wiki/University_of_Illinois_Urbana-Champaign");
 
             URL_Add("RSIM", "https://sadve.cs.illinois.edu/Publications/computer02.pdf"); // Old: <http://sadve.cs.illinois.edu/Publications/computer02.pdf>
 
@@ -135968,8 +135985,6 @@ namespace OverflowHelper.core
 
             URL_Add("pipe()", "https://en.wikipedia.org/wiki/Anonymous_pipe#Unix");
 
-            URL_Add("Universal Render Pipeline", "https://unity.com/srp/universal-render-pipeline");
-
             URL_Add("DirtyPipe", "https://wiki.ubuntu.com/SecurityTeam/KnowledgeBase/DirtyPipe");
 
             URL_Add("PipeWire", "https://en.wikipedia.org/wiki/PipeWire");
@@ -136409,8 +136424,6 @@ namespace OverflowHelper.core
             URL_Add("reasonable", "https://en.wiktionary.org/wiki/reasonable#Adjective");
 
             URL_Add("Nashville", "https://en.wikipedia.org/wiki/Nashville%2C_Tennessee");
-
-            URL_Add("University of California, Berkeley", "https://en.wikipedia.org/wiki/University_of_California%2C_Berkeley");
 
             URL_Add("sidelobes", "https://en.wikipedia.org/wiki/Sidelobes");
 
@@ -149596,6 +149609,8 @@ namespace OverflowHelper.core
 
             URL_Add("universe", "https://en.wiktionary.org/wiki/universe#Noun");
 
+            URL_Add("Universe Sandbox", "https://en.wikipedia.org/wiki/Universe_Sandbox");
+
             URL_Add("Big Bang", "https://en.wikipedia.org/wiki/Big_Bang");
 
             URL_Add("Big Bang nucleosynthesis", "https://en.wikipedia.org/wiki/Big_Bang_nucleosynthesis");
@@ -151013,6 +151028,18 @@ namespace OverflowHelper.core
             URL_Add("Liquid", "https://shopify.github.io/liquid/"); // Old: <http://shopify.github.io/liquid/>
 
             URL_Add("Liquid Glass", "https://en.wikipedia.org/wiki/Liquid_Glass");
+
+            URL_Add("universal", "https://en.wiktionary.org/wiki/universal#Adjective");
+
+            URL_Add("universally", "https://en.wiktionary.org/wiki/universally#Adverb");
+
+            URL_Add("universal references", "https://en.wikipedia.org/wiki/Reference_(C%2B%2B)#Rvalue_reference");
+
+            URL_Add("universal character names", "https://en.wikipedia.org/wiki/Escape_sequences_in_C#Universal_character_names");
+
+            URL_Add("Universal Render Pipeline", "https://unity.com/srp/universal-render-pipeline");
+
+            URL_Add("Universal 2nd Factor", "https://en.wikipedia.org/wiki/Universal_2nd_Factor");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
