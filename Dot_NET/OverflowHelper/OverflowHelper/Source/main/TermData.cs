@@ -26943,6 +26943,7 @@ namespace OverflowHelper.core
 
             // Related to software development
             correctionAdd("while-loop", "while loop");
+            correctionAdd("While-loop", "while loop");
 
             correctionAdd("loop hole", "loophole");
             correctionAdd("loop-hole", "loophole");
@@ -49016,6 +49017,8 @@ namespace OverflowHelper.core
             correctionAdd("jlcpcb.com", "JLCPCB");
             correctionAdd("jlcpcb", "JLCPCB");
             correctionAdd("Jlcpcb", "JLCPCB");
+            correctionAdd("JLPCB", "JLCPCB");
+            correctionAdd("Jlpcb", "JLCPCB");
             correctionAdd("JLC", "JLCPCB");
 
             // A PCB service
@@ -60380,9 +60383,15 @@ namespace OverflowHelper.core
             correctionAdd("Bona za", "Beechcraft Bonanza"); // A typo involving the space bar
 
             // An aircraft
+            correctionAdd("king air", "Beechcraft King Air");
             correctionAdd("KINGAIR", "Beechcraft King Air");
 
             // An aircraft
+            //
+            // Note: "Super" was dropped by Beechcraft in 1996
+            //
+            correctionAdd("BEECHCRAFT KING AIR 200", "Beechcraft Super King Air 200");
+            correctionAdd("Beechcraft King Air 200", "Beechcraft Super King Air 200");
             correctionAdd("KING AIR 200", "Beechcraft Super King Air 200");
 
             // An aircraft
@@ -87801,6 +87810,7 @@ namespace OverflowHelper.core
             correctionAdd("Q1 Ultra 8k HE", "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
             correctionAdd("Q1 HE 8K", "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
             correctionAdd("Q1 HE 8k", "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("q1 he 8k", "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
 
             // A 82-key (80%. Not true TKL) crippled wired-only
             // QMK/Via-capable mechanical keyboard
