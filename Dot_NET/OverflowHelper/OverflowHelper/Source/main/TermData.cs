@@ -8249,6 +8249,7 @@ namespace OverflowHelper.core
             //   <https://en.wiktionary.org/wiki/transfered#Verb>
             //     "Misspelling of transferred"
             //
+            correctionAdd("Transferred", "transferred");
             correctionAdd("transfered", "transferred");
             correctionAdd("tranferred", "transferred");
 
@@ -15943,6 +15944,12 @@ namespace OverflowHelper.core
             correctionAdd("30 F", "-1.1&nbsp;°C");
             correctionAdd("30 f", "-1.1&nbsp;°C");
             correctionAdd("-1 C", "-1.1&nbsp;°C");
+
+            correctionAdd("32&nbsp;°F", "0.0&nbsp;°C");
+            correctionAdd("0.0 °C", "0.0&nbsp;°C"); // Sort of identity mapping
+            correctionAdd("32 °F", "0.0&nbsp;°C");
+            correctionAdd("32 F", "0.0&nbsp;°C");
+            correctionAdd("32", "0.0&nbsp;°C");
 
             correctionAdd("40&nbsp;°F", "4.4&nbsp;°C");
             correctionAdd("4.4 °C", "4.4&nbsp;°C"); // Sort of identity mapping
@@ -143562,6 +143569,8 @@ namespace OverflowHelper.core
 
             URL_Add("-1.1&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
 
+            URL_Add("0.0&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
+
             URL_Add("4.4&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
 
             URL_Add("10.0&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
@@ -152859,6 +152868,7 @@ namespace OverflowHelper.core
             correctionAdd("the stand-alone client_", "avoid Google Chrome when using Via_");
             correctionAdd("stand-alone Via client_", "avoid Google Chrome when using Via_");
             correctionAdd("the standalone client_", "avoid Google Chrome when using Via_");
+            correctionAdd("so-called stand-alone_", "avoid Google Chrome when using Via_");
             correctionAdd("avoid Google Chrome_", "avoid Google Chrome when using Via_");
             correctionAdd("stand-alone version_", "avoid Google Chrome when using Via_");
             correctionAdd("standalone version_", "avoid Google Chrome when using Via_");
@@ -152869,6 +152879,8 @@ namespace OverflowHelper.core
             correctionAdd("avoided Chrome_", "avoid Google Chrome when using Via_");
             correctionAdd("Google Chrome_", "avoid Google Chrome when using Via_");
             correctionAdd("avoid Chrome_", "avoid Google Chrome when using Via_");
+            correctionAdd("stand-alone_", "avoid Google Chrome when using Via_");
+            correctionAdd("so-called_", "avoid Google Chrome when using Via_");
             correctionAdd("Chrome_", "avoid Google Chrome when using Via_"); // For the cross-reference
             correctionAdd("chrome_", "avoid Google Chrome when using Via_");
             correctionAdd("via_", "avoid Google Chrome when using Via_");
@@ -182184,7 +182196,17 @@ namespace OverflowHelper.core
             correctionAdd("30 °F____", "30&nbsp;°F____"); // Sort of identity mapping
             correctionAdd("-1____", "30&nbsp;°F____"); // Nearest whole Celcius value
 
-            // Note: "40&nbsp;°F" is in an alternative word set
+            // Mostly for the reverse
+            correctionAdd("0.0&nbsp;°C____", "32&nbsp;°F____");
+            correctionAdd("32 °F____", "32&nbsp;°F____"); // Sort of identity mapping
+            correctionAdd("0.0 C____", "32&nbsp;°F____");
+            correctionAdd("0 C____", "32&nbsp;°F____");
+            correctionAdd("0____", "32&nbsp;°F____");
+
+            // Note:
+            //
+            //   "40&nbsp;°F" is in an
+            //   alternative word set...
             //
             correctionAdd("10.0&nbsp;°C____", "50&nbsp;°F____");
             correctionAdd("50 °F____", "50&nbsp;°F____"); // Sort of identity mapping
@@ -183993,6 +184015,8 @@ namespace OverflowHelper.core
             URL_Add("20&nbsp;°F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
 
             URL_Add("30&nbsp;°F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
+
+            URL_Add("32&nbsp;°F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
 
             URL_Add("50&nbsp;°F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
 
@@ -186252,8 +186276,6 @@ namespace OverflowHelper.core
 
             URL_Add("par for the course steps for HE (Hall effect switch) keyboards______", "https://www.reddit.com/r/Keychron/comments/1pisxi9/comment/nt8mmi3/");
 
-            URL_Add("40&nbsp;°F______", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
-
             URL_Add("increase the number of macros and increase the space for Via macros______", "https://www.reddit.com/r/macro_pads/comments/1ge7cbi/comment/lu9jlcy/");
 
             URL_Add("macro______", "https://en.wiktionary.org/wiki/macro#Noun_2");
@@ -186261,6 +186283,8 @@ namespace OverflowHelper.core
             URL_Add("probable cause______", "https://en.wikipedia.org/wiki/Probable_cause#Accident_investigation");
 
             URL_Add("windowing______", "https://en.wikipedia.org/wiki/Suspicious_Russia-related_deaths_since_2022");
+
+            URL_Add("40&nbsp;°F______", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
 
         } //addLookupData_alternativeWordSet6()
 
