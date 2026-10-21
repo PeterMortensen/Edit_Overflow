@@ -18428,6 +18428,12 @@ namespace OverflowHelper.core
             correctionAdd("penta gone", "pentagon");
             correctionAdd("pentagone", "pentagon");
 
+            correctionAdd("miniscule", "minuscule");
+
+            correctionAdd("minnest", "miniest");
+
+            correctionAdd("mineing", "mining");
+
             correctionAdd("Convex", "convex");
 
             correctionAdd("Cylindrical", "cylindrical");
@@ -35965,8 +35971,7 @@ namespace OverflowHelper.core
             correctionAdd("operaton", "operation");
             correctionAdd("operaion", "operation");
 
-            correctionAdd("operatiing", "operating");
-
+            // Note: "operating" is in an alternative word set...
             correctionAdd("opearations", "operations");
             correctionAdd("operatings", "operations");
             correctionAdd("operatins", "operations");
@@ -43334,8 +43339,8 @@ namespace OverflowHelper.core
             correctionAdd("Chat_GPT", "ChatGPT");
             correctionAdd("GPT chat", "ChatGPT");
             correctionAdd("chat gtp", "ChatGPT");
-            correctionAdd("Chat GTP", "ChatGPT");
-            correctionAdd("chat GTP", "ChatGPT");
+            correctionAdd("Chat GTP", "ChatGPT"); // Partly a true typo
+            correctionAdd("chat GTP", "ChatGPT"); // Partly a true typo
             correctionAdd("chatGPT", "ChatGPT");
             correctionAdd("chatgpt", "ChatGPT");
             correctionAdd("GPTChat", "ChatGPT");
@@ -43356,8 +43361,8 @@ namespace OverflowHelper.core
             correctionAdd("ChatGpT", "ChatGPT");
             correctionAdd("ChatCPT", "ChatGPT");
             correctionAdd("CharGPT", "ChatGPT");
-            correctionAdd("ChatGTP", "ChatGPT");
-            correctionAdd("chatGTP", "ChatGPT");
+            correctionAdd("ChatGTP", "ChatGPT"); // A true typo
+            correctionAdd("chatGTP", "ChatGPT"); // Partly a true typo
             correctionAdd("clanker", "ChatGPT");
             correctionAdd("C-GPT", "ChatGPT");
             correctionAdd("puppy", "ChatGPT");
@@ -54959,12 +54964,6 @@ namespace OverflowHelper.core
 
             correctionAdd("tm", "trademark");
 
-            correctionAdd("miniscule", "minuscule");
-
-            correctionAdd("minnest", "miniest");
-
-            correctionAdd("mineing", "mining");
-
             correctionAdd("trade off", "trade-off");
             correctionAdd("tradeoff", "trade-off");
             correctionAdd("trade of", "trade-off");
@@ -65072,6 +65071,7 @@ namespace OverflowHelper.core
             correctionAdd("swicthed", "switches"); // Multiple typos
             correctionAdd("switxhes", "switches"); // A true typo
             correctionAdd("swotches", "switches");
+            correctionAdd("swichtes", "switches"); // A true typo
             correctionAdd("witches", "switches");
             correctionAdd("switchs", "switches");
             correctionAdd("switces", "switches");
@@ -67696,9 +67696,11 @@ namespace OverflowHelper.core
             //
             //         Convex:      ?
             //
-            //       Row shapes:
+            //       Row shapes
+            //           (at 02 min 19 secs in Dygma's fundamentals video,
+            //            <https://www.youtube.com/watch?v=xLT2VcrQHrQ&t=2m19s>):
             //
-            //         Sculped: Cherry, OEM, DSS
+            //         Sculpted: Cherry, OEM, DSS
             //
             //         Uniform: XDA, MA
             //
@@ -67747,6 +67749,8 @@ namespace OverflowHelper.core
             correctionAdd("dsa", "DSA keycap profile");
 
             // Mechanical keyboards. Low keycap height
+            //
+            // The reference is to the fundamentals Dygma Lab video.
             //
             // Alternative URLs:
             //
@@ -68252,10 +68256,11 @@ namespace OverflowHelper.core
             correctionAdd("Hot swappable", "hot-swappable");
             correctionAdd("Hot-Swappable", "hot-swappable");
             correctionAdd("HOT-SWAPPABLE", "hot-swappable");
-            correctionAdd("hot-swappablr", "hot-swappable");
             correctionAdd("Hot-swappable", "hot-swappable");
             correctionAdd("hot swabbable", "hot-swappable");
             correctionAdd("hot-swabbable", "hot-swappable");
+            correctionAdd("hot-swappablr", "hot-swappable"); // A true typo
+            correctionAdd("hot-swappalbe", "hot-swappable"); // A true typo
             correctionAdd("switch mounts", "hot-swappable"); // Not 100% correct
             correctionAdd("hot swappabe", "hot-swappable");
             correctionAdd("hot-swappabe", "hot-swappable");
@@ -68264,6 +68269,7 @@ namespace OverflowHelper.core
             correctionAdd("Hotswappable", "hot-swappable");
             correctionAdd("hotswappable", "hot-swappable");
             correctionAdd("hot swapable", "hot-swappable");
+            correctionAdd("hotswappalbe", "hot-swappable");
             correctionAdd("Hot swapple", "hot-swappable");
             correctionAdd("hot swapple", "hot-swappable");
             correctionAdd("hot-swapple", "hot-swappable");
@@ -77786,6 +77792,7 @@ namespace OverflowHelper.core
             correctionAdd("operting system", "operating system");
             correctionAdd("operatig system", "operating system");
             correctionAdd("opertive sytem", "operating system");
+            correctionAdd("operating", "operating system"); // A common omission
             correctionAdd("O/S", "operating system");
             correctionAdd("o/s", "operating system");
             correctionAdd("oc", "operating system");
@@ -91449,6 +91456,9 @@ namespace OverflowHelper.core
             correctionAdd("Q11&nbsp;Ultra&nbsp;8K", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)");
             correctionAdd("Keychron Q11 Ultra 8K", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)");
             correctionAdd("Q11 Ultra 8K", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)");
+            correctionAdd("Q11 Ultra 8k", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)");
+            correctionAdd("Q11 ultra 8K", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)");
+            correctionAdd("Q11 ultra 8k", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)");
             correctionAdd("Q11 Ultra", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)");
             correctionAdd("Q11 ultra", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)");
             correctionAdd("q11 Ultra", "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)");
@@ -123838,10 +123848,6 @@ namespace OverflowHelper.core
 
             URL_Add("Langtu", "https://www.youtube.com/watch?v=VARTTKlcSpo");
 
-            URL_Add("sculpted", "https://en.wiktionary.org/wiki/sculpted#Adjective");
-
-            URL_Add("spherical", "https://en.wiktionary.org/wiki/spherical#Adjective");
-
             URL_Add("perpetuated", "https://en.wiktionary.org/wiki/perpetuate#Verb");
 
             URL_Add("jack of all trades, master of none", "https://en.wiktionary.org/wiki/jack_of_all_trades,_master_of_none#Noun");
@@ -128289,8 +128295,6 @@ namespace OverflowHelper.core
             URL_Add("Frogstar", "https://www.youtube.com/watch?v=jHG2tHJWVK8&15m10s&list=PLSoD2CcPrumFJREVL6RmMnZP5U7sGYYi2&index=7");
 
             URL_Add("virtual DOM", "https://en.wikipedia.org/wiki/Virtual_DOM");
-
-            URL_Add("operating", "https://en.wiktionary.org/wiki/operate#Verb");
 
             URL_Add("operator", "https://en.wiktionary.org/wiki/operator#Noun");
 
@@ -148150,11 +148154,15 @@ namespace OverflowHelper.core
 
             URL_Add("Matias Ergo Pro", "https://uk.pcmag.com/keyboards/127129/matias-ergo-pro-2020");
 
+            URL_Add("Razer Huntsman", "https://www.razer.com/pc/gaming-keyboards/huntsman-line");
+
             URL_Add("Microsoft Natural Keyboard", "https://en.wikipedia.org/wiki/Microsoft_Natural_keyboard#Natural_Keyboard");
 
             URL_Add("Microsoft Sculpt Ergonomic", "https://en.wikipedia.org/wiki/Microsoft_ergonomic_keyboards#Sculpt_ergonomic_keyboard");
 
-            URL_Add("Razer Huntsman", "https://www.razer.com/pc/gaming-keyboards/huntsman-line");
+            URL_Add("sculpted", "https://en.wiktionary.org/wiki/sculpted#Adjective");
+
+            URL_Add("spherical", "https://en.wiktionary.org/wiki/spherical#Adjective");
 
             URL_Add("Cornerstone.js", "https://github.com/cornerstonejs/cornerstone");
 
@@ -151419,6 +151427,186 @@ namespace OverflowHelper.core
             correctionAdd("Recent_", "recent_");
             correctionAdd("resent_", "recent_");
 
+            correctionAdd("IF_", "intermittent fasting_");
+
+            correctionAdd("specificy_", "specify_");
+            correctionAdd("specifiy_", "specify_");
+            correctionAdd("specific_", "specify_"); // Likely an autocorrect "masterpiece"
+            correctionAdd("speficy_", "specify_");
+
+            correctionAdd("specked_", "specified_");
+            correctionAdd("speced_", "specified_");
+
+            correctionAdd("out of specification_", "out-of-specification_");
+            correctionAdd("out of spec_", "out-of-specification_");
+            correctionAdd("out-of-spec_", "out-of-specification_");
+            correctionAdd("OOS_", "out-of-specification_");
+
+            correctionAdd("specification_", "axiom schema of specification_");
+
+            correctionAdd("exspects_", "expects_");
+            correctionAdd("aspects_", "expects_");
+            correctionAdd("espects_", "expects_");
+            correctionAdd("expepts_", "expects_");
+
+            correctionAdd("excpect_", "expect_");
+            correctionAdd("Exopect_", "expect_");
+            correctionAdd("exopect_", "expect_");
+            correctionAdd("exptect_", "expect_");
+            correctionAdd("Expcet_", "expect_");
+            correctionAdd("expcet_", "expect_");
+            correctionAdd("except_", "expect_");
+            correctionAdd("expept_", "expect_");
+            correctionAdd("spect_", "expect_");
+
+            correctionAdd("operatiing_", "operating_");
+
+            correctionAdd("Standard Operating Procedures_", "standard operating procedure_");
+            correctionAdd("Standard Operating Procedure_", "standard operating procedure_");
+            correctionAdd("S.O.P_", "standard operating procedure_");
+            correctionAdd("sop_", "standard operating procedure_");
+            correctionAdd("SOP_", "standard operating procedure_");
+
+            // For the expansion
+            correctionAdd("RTOS_", "real-time operating system_");
+
+            // An RTOS. Not to be confused with
+            // the interface standard CMSIS
+            //
+            correctionAdd("CMSIS-RTOS RTX_", "CMSIS-RTX_");
+            correctionAdd("CMSIS-RTOS_", "CMSIS-RTX_");
+            correctionAdd("CMSIS RTX_", "CMSIS-RTX_");
+            correctionAdd("CMSIS_", "CMSIS-RTX_");
+
+            // The operating system command
+            correctionAdd("DATE_", "date_");
+
+            correctionAdd("kerenel_", "kernel_");
+            correctionAdd("kernal_", "kernel_"); // The old misspelling is reserved for Commodore only (shame on ***anyone*** for carrying it forward).
+            correctionAdd("Kernel_", "kernel_");
+            correctionAdd("Kernal_", "kernel_");
+            correctionAdd("Karnal_", "kernel_");
+            correctionAdd("karnal_", "kernel_");
+            correctionAdd("kenel_", "kernel_");
+
+            // Both embedded systems and general-purpose operating system
+            correctionAdd("hardware abstraction layer_", "HAL_");
+            correctionAdd("Hardware Abstraction Layer_", "HAL_");
+            correctionAdd("hal_", "HAL_");
+            correctionAdd("Hal_", "HAL_");
+
+            correctionAdd("Raspberry pie_", "Raspberry Pi_");
+            correctionAdd("Raspberry Pie_", "Raspberry Pi_");
+            correctionAdd("Raspberry PI_", "Raspberry Pi_");
+            correctionAdd("Raspberry pi_", "Raspberry Pi_");
+            correctionAdd("raspberry Pi_", "Raspberry Pi_");
+            correctionAdd("raspberry pi_", "Raspberry Pi_");
+            correctionAdd("raspberri pi_", "Raspberry Pi_");
+            correctionAdd("raspberry PI_", "Raspberry Pi_");
+            correctionAdd("raspberry-pi_", "Raspberry Pi_");
+            correctionAdd("rasbperry pi_", "Raspberry Pi_");
+            correctionAdd("Raspbeery Pi_", "Raspberry Pi_");
+            correctionAdd("Raspberry-pi_", "Raspberry Pi_");
+            correctionAdd("RaspBerry Pi_", "Raspberry Pi_");
+            correctionAdd("Rasbperry Pi_", "Raspberry Pi_");
+            correctionAdd("Raspberry-Pi_", "Raspberry Pi_");
+            correctionAdd("rasspbery pi_", "Raspberry Pi_");
+            correctionAdd("Rapsberry Pi_", "Raspberry Pi_");
+            correctionAdd("Raspberri Pi_", "Raspberry Pi_");
+            correctionAdd("raspberrypi_", "Raspberry Pi_");
+            correctionAdd("Rasberry Pi_", "Raspberry Pi_");
+            correctionAdd("rasberry pi_", "Raspberry Pi_");
+            correctionAdd("RaspberryPi_", "Raspberry Pi_");
+            correctionAdd("RaspberryPI_", "Raspberry Pi_");
+            correctionAdd("raspbery pi_", "Raspberry Pi_"); // Misspelling.
+            correctionAdd("raspberryPi_", "Raspberry Pi_");
+            correctionAdd("rasperry pi_", "Raspberry Pi_");
+            correctionAdd("Rasberry PI_", "Raspberry Pi_");
+            correctionAdd("Rasberry-Pi_", "Raspberry Pi_");
+            correctionAdd("Rasberry Py_", "Raspberry Pi_");
+            correctionAdd("rasperri pi_", "Raspberry Pi_");
+            correctionAdd("Rasperry Pi_", "Raspberry Pi_");
+            correctionAdd("RaspBerryPi_", "Raspberry Pi_");
+            correctionAdd("rasperry PI_", "Raspberry Pi_");
+            correctionAdd("RASPBERRYPI_", "Raspberry Pi_");
+            correctionAdd("rasberri pi_", "Raspberry Pi_");
+            correctionAdd("Rapberry pi_", "Raspberry Pi_");
+            correctionAdd("Rapserry pi_", "Raspberry Pi_");
+            correctionAdd("Razberrypi_", "Raspberry Pi_");
+            correctionAdd("razberrypi_", "Raspberry Pi_");
+            correctionAdd("RasperryPi_", "Raspberry Pi_");
+            correctionAdd("rasbery pi_", "Raspberry Pi_");
+            correctionAdd("raspberry_", "Raspberry Pi_");
+            correctionAdd("Raspberry_", "Raspberry Pi_");
+            correctionAdd("rasbperry_", "Raspberry Pi_");
+            correctionAdd("rasspbery_", "Raspberry Pi_");
+            correctionAdd("Rasperry_", "Raspberry Pi_");
+            correctionAdd("Rasberry_", "Raspberry Pi_");
+            correctionAdd("Raspberr_", "Raspberry Pi_");
+            correctionAdd("rasberry_", "Raspberry Pi_");
+            correctionAdd("rasberri_", "Raspberry Pi_");
+            correctionAdd("Raspi Pi_", "Raspberry Pi_");
+            correctionAdd("Rasp pi_", "Raspberry Pi_");
+            correctionAdd("rasp pi_", "Raspberry Pi_");
+            correctionAdd("Rasp Pi_", "Raspberry Pi_");
+            correctionAdd("Ras-Pi_", "Raspberry Pi_");
+            correctionAdd("RaspPi_", "Raspberry Pi_");
+            correctionAdd("rasppi_", "Raspberry Pi_");
+            correctionAdd("raSPI_", "Raspberry Pi_");
+            correctionAdd("RASPI_", "Raspberry Pi_");
+            correctionAdd("rasPi_", "Raspberry Pi_");
+            correctionAdd("raspi_", "Raspberry Pi_");
+            correctionAdd("RasPi_", "Raspberry Pi_");
+            correctionAdd("Raspi_", "Raspberry Pi_");
+            correctionAdd("r-pi_", "Raspberry Pi_");
+            correctionAdd("R-Pi_", "Raspberry Pi_");
+            correctionAdd("rasp_", "Raspberry Pi_");
+            correctionAdd("r pi_", "Raspberry Pi_");
+            correctionAdd("Rasp_", "Raspberry Pi_");
+            correctionAdd("RaPi_", "Raspberry Pi_");
+            correctionAdd("Rpi_", "Raspberry Pi_");
+            correctionAdd("RPi_", "Raspberry Pi_");
+            correctionAdd("rpi_", "Raspberry Pi_");
+            correctionAdd("RPI_", "Raspberry Pi_");
+            correctionAdd("R{i_", "Raspberry Pi_");
+            correctionAdd("rPi_", "Raspberry Pi_");
+            correctionAdd("pie_", "Raspberry Pi_");
+            correctionAdd("PI_", "Raspberry Pi_");
+            correctionAdd("pi_", "Raspberry Pi_");
+            correctionAdd("Pi_", "Raspberry Pi_");
+            correctionAdd("RP_", "Raspberry Pi_");
+
+            // Raspberry Pi (like "shield" for Arduino)
+            //
+            // Alternative URLs:
+            //
+            //   <https://raspberrytips.com/best-raspberry-pi-hats/>
+            //   <https://thepihut.com/collections/raspberry-pi-hats>
+            //   <https://www.tomshardware.com/best-picks/raspberry-pi-microsd-cards>
+            //
+            correctionAdd("hat_", "hardware attached on top_");
+
+            // The Texas Instruments hardware platform,
+            // Also at <https://www.ti.com/ww/en/launchpad/about.html>.
+            //
+            // The links are effectively broken by now. Does it
+            // exist?
+            //
+            correctionAdd("Texas Instruments LaunchPad_", "LaunchPad_");
+            correctionAdd("Texas Instruments launchpad_", "LaunchPad_");
+            correctionAdd("TI LaunchPad_", "LaunchPad_");
+            correctionAdd("TI launchpad_", "LaunchPad_");
+            correctionAdd("ti launchpad_", "LaunchPad_");
+            correctionAdd("launchpad_", "LaunchPad_");
+            correctionAdd("Launchpad_", "LaunchPad_");
+
+            // Electronics (as in embedded software?)?
+            correctionAdd("Binary Runtime Environment for Wireless_", "BREW_");
+            correctionAdd("Qualcomm BREW_", "BREW_");
+            correctionAdd("Brew MP_", "BREW_");
+            correctionAdd("Brew_", "BREW_");
+            correctionAdd("brew_", "BREW_");
+
             correctionAdd("timeout_", "time out_");
 
             // Mostly for the alternative URL
@@ -151433,8 +151621,6 @@ namespace OverflowHelper.core
             correctionAdd("BST_", "British Summer Time_");
 
             correctionAdd("MSK_", "Moscow time zone_");
-
-            correctionAdd("DATE_", "date_");
 
             correctionAdd("timestamp_", "ISO&nbsp;8601_");
             correctionAdd("iso 8601_", "ISO&nbsp;8601_");
@@ -151468,38 +151654,6 @@ namespace OverflowHelper.core
             correctionAdd("1-line_", "one-line_");
 
             correctionAdd("tenth_", "one-tenth_");
-
-            correctionAdd("IF_", "intermittent fasting_");
-
-            correctionAdd("specificy_", "specify_");
-            correctionAdd("specifiy_", "specify_");
-            correctionAdd("specific_", "specify_"); // Likely an autocorrect "masterpiece"
-            correctionAdd("speficy_", "specify_");
-
-            correctionAdd("specked_", "specified_");
-            correctionAdd("speced_", "specified_");
-
-            correctionAdd("out of specification_", "out-of-specification_");
-            correctionAdd("out of spec_", "out-of-specification_");
-            correctionAdd("out-of-spec_", "out-of-specification_");
-            correctionAdd("OOS_", "out-of-specification_");
-
-            correctionAdd("specification_", "axiom schema of specification_");
-
-            correctionAdd("exspects_", "expects_");
-            correctionAdd("aspects_", "expects_");
-            correctionAdd("espects_", "expects_");
-            correctionAdd("expepts_", "expects_");
-
-            correctionAdd("excpect_", "expect_");
-            correctionAdd("Exopect_", "expect_");
-            correctionAdd("exopect_", "expect_");
-            correctionAdd("exptect_", "expect_");
-            correctionAdd("Expcet_", "expect_");
-            correctionAdd("expcet_", "expect_");
-            correctionAdd("except_", "expect_");
-            correctionAdd("expept_", "expect_");
-            correctionAdd("spect_", "expect_");
 
             // Configuration software for Cooler Master keyboards.
             //
@@ -154249,14 +154403,6 @@ namespace OverflowHelper.core
             correctionAdd(".net MAUI_", ".NET MAUI_");
             correctionAdd("maui_", ".NET MAUI_");
 
-            correctionAdd("kerenel_", "kernel_");
-            correctionAdd("kernal_", "kernel_"); // The old misspelling is reserved for Commodore only (shame on ***anyone*** for carrying it forward).
-            correctionAdd("Kernel_", "kernel_");
-            correctionAdd("Kernal_", "kernel_");
-            correctionAdd("Karnal_", "kernel_");
-            correctionAdd("karnal_", "kernel_");
-            correctionAdd("kenel_", "kernel_");
-
             // A .NET function
             correctionAdd("TrimEnd_", "String.TrimEnd()_");
 
@@ -156777,6 +156923,7 @@ namespace OverflowHelper.core
             correctionAdd("Current_", "current_");
             correctionAdd("ctrrent_", "current_");
             correctionAdd("currend_", "current_");
+            correctionAdd("curernt_", "current_"); // A true typo
             correctionAdd("curent_", "current_");
             correctionAdd("I_", "current_");
 
@@ -157289,124 +157436,6 @@ namespace OverflowHelper.core
             correctionAdd("OD_", "overdose_");
 
             correctionAdd("Underscore_", "underscore_");
-
-            // Both embedded systems and general-purpose operating system
-            correctionAdd("hardware abstraction layer_", "HAL_");
-            correctionAdd("Hardware Abstraction Layer_", "HAL_");
-            correctionAdd("hal_", "HAL_");
-            correctionAdd("Hal_", "HAL_");
-
-            correctionAdd("Raspberry pie_", "Raspberry Pi_");
-            correctionAdd("Raspberry Pie_", "Raspberry Pi_");
-            correctionAdd("Raspberry PI_", "Raspberry Pi_");
-            correctionAdd("Raspberry pi_", "Raspberry Pi_");
-            correctionAdd("raspberry Pi_", "Raspberry Pi_");
-            correctionAdd("raspberry pi_", "Raspberry Pi_");
-            correctionAdd("raspberri pi_", "Raspberry Pi_");
-            correctionAdd("raspberry PI_", "Raspberry Pi_");
-            correctionAdd("raspberry-pi_", "Raspberry Pi_");
-            correctionAdd("rasbperry pi_", "Raspberry Pi_");
-            correctionAdd("Raspbeery Pi_", "Raspberry Pi_");
-            correctionAdd("Raspberry-pi_", "Raspberry Pi_");
-            correctionAdd("RaspBerry Pi_", "Raspberry Pi_");
-            correctionAdd("Rasbperry Pi_", "Raspberry Pi_");
-            correctionAdd("Raspberry-Pi_", "Raspberry Pi_");
-            correctionAdd("rasspbery pi_", "Raspberry Pi_");
-            correctionAdd("Rapsberry Pi_", "Raspberry Pi_");
-            correctionAdd("Raspberri Pi_", "Raspberry Pi_");
-            correctionAdd("raspberrypi_", "Raspberry Pi_");
-            correctionAdd("Rasberry Pi_", "Raspberry Pi_");
-            correctionAdd("rasberry pi_", "Raspberry Pi_");
-            correctionAdd("RaspberryPi_", "Raspberry Pi_");
-            correctionAdd("RaspberryPI_", "Raspberry Pi_");
-            correctionAdd("raspbery pi_", "Raspberry Pi_"); // Misspelling.
-            correctionAdd("raspberryPi_", "Raspberry Pi_");
-            correctionAdd("rasperry pi_", "Raspberry Pi_");
-            correctionAdd("Rasberry PI_", "Raspberry Pi_");
-            correctionAdd("Rasberry-Pi_", "Raspberry Pi_");
-            correctionAdd("Rasberry Py_", "Raspberry Pi_");
-            correctionAdd("rasperri pi_", "Raspberry Pi_");
-            correctionAdd("Rasperry Pi_", "Raspberry Pi_");
-            correctionAdd("RaspBerryPi_", "Raspberry Pi_");
-            correctionAdd("rasperry PI_", "Raspberry Pi_");
-            correctionAdd("RASPBERRYPI_", "Raspberry Pi_");
-            correctionAdd("rasberri pi_", "Raspberry Pi_");
-            correctionAdd("Rapberry pi_", "Raspberry Pi_");
-            correctionAdd("Rapserry pi_", "Raspberry Pi_");
-            correctionAdd("Razberrypi_", "Raspberry Pi_");
-            correctionAdd("razberrypi_", "Raspberry Pi_");
-            correctionAdd("RasperryPi_", "Raspberry Pi_");
-            correctionAdd("rasbery pi_", "Raspberry Pi_");
-            correctionAdd("raspberry_", "Raspberry Pi_");
-            correctionAdd("Raspberry_", "Raspberry Pi_");
-            correctionAdd("rasbperry_", "Raspberry Pi_");
-            correctionAdd("rasspbery_", "Raspberry Pi_");
-            correctionAdd("Rasperry_", "Raspberry Pi_");
-            correctionAdd("Rasberry_", "Raspberry Pi_");
-            correctionAdd("Raspberr_", "Raspberry Pi_");
-            correctionAdd("rasberry_", "Raspberry Pi_");
-            correctionAdd("rasberri_", "Raspberry Pi_");
-            correctionAdd("Raspi Pi_", "Raspberry Pi_");
-            correctionAdd("Rasp pi_", "Raspberry Pi_");
-            correctionAdd("rasp pi_", "Raspberry Pi_");
-            correctionAdd("Rasp Pi_", "Raspberry Pi_");
-            correctionAdd("Ras-Pi_", "Raspberry Pi_");
-            correctionAdd("RaspPi_", "Raspberry Pi_");
-            correctionAdd("rasppi_", "Raspberry Pi_");
-            correctionAdd("raSPI_", "Raspberry Pi_");
-            correctionAdd("RASPI_", "Raspberry Pi_");
-            correctionAdd("rasPi_", "Raspberry Pi_");
-            correctionAdd("raspi_", "Raspberry Pi_");
-            correctionAdd("RasPi_", "Raspberry Pi_");
-            correctionAdd("Raspi_", "Raspberry Pi_");
-            correctionAdd("r-pi_", "Raspberry Pi_");
-            correctionAdd("R-Pi_", "Raspberry Pi_");
-            correctionAdd("rasp_", "Raspberry Pi_");
-            correctionAdd("r pi_", "Raspberry Pi_");
-            correctionAdd("Rasp_", "Raspberry Pi_");
-            correctionAdd("RaPi_", "Raspberry Pi_");
-            correctionAdd("Rpi_", "Raspberry Pi_");
-            correctionAdd("RPi_", "Raspberry Pi_");
-            correctionAdd("rpi_", "Raspberry Pi_");
-            correctionAdd("RPI_", "Raspberry Pi_");
-            correctionAdd("R{i_", "Raspberry Pi_");
-            correctionAdd("rPi_", "Raspberry Pi_");
-            correctionAdd("pie_", "Raspberry Pi_");
-            correctionAdd("PI_", "Raspberry Pi_");
-            correctionAdd("pi_", "Raspberry Pi_");
-            correctionAdd("Pi_", "Raspberry Pi_");
-            correctionAdd("RP_", "Raspberry Pi_");
-
-            // Raspberry Pi (like "shield" for Arduino)
-            //
-            // Alternative URLs:
-            //
-            //   <https://raspberrytips.com/best-raspberry-pi-hats/>
-            //   <https://thepihut.com/collections/raspberry-pi-hats>
-            //   <https://www.tomshardware.com/best-picks/raspberry-pi-microsd-cards>
-            //
-            correctionAdd("hat_", "hardware attached on top_");
-
-            // The Texas Instruments hardware platform,
-            // Also at <https://www.ti.com/ww/en/launchpad/about.html>.
-            //
-            // The links are effectively broken by now. Does it
-            // exist?
-            //
-            correctionAdd("Texas Instruments LaunchPad_", "LaunchPad_");
-            correctionAdd("Texas Instruments launchpad_", "LaunchPad_");
-            correctionAdd("TI LaunchPad_", "LaunchPad_");
-            correctionAdd("TI launchpad_", "LaunchPad_");
-            correctionAdd("ti launchpad_", "LaunchPad_");
-            correctionAdd("launchpad_", "LaunchPad_");
-            correctionAdd("Launchpad_", "LaunchPad_");
-
-            // Electronics (as in embedded software?)?
-            correctionAdd("Binary Runtime Environment for Wireless_", "BREW_");
-            correctionAdd("Qualcomm BREW_", "BREW_");
-            correctionAdd("Brew MP_", "BREW_");
-            correctionAdd("Brew_", "BREW_");
-            correctionAdd("brew_", "BREW_");
 
             correctionAdd("houshold_", "household_");
 
@@ -161164,17 +161193,6 @@ namespace OverflowHelper.core
             correctionAdd("TAP formula_", "Homebrew tap_");
             correctionAdd("tap_", "Homebrew tap_");
             correctionAdd("TAP_", "Homebrew tap_");
-
-            // For the expansion
-            correctionAdd("RTOS_", "real-time operating system_");
-
-            // An RTOS. Not to be confused with
-            // the interface standard CMSIS
-            //
-            correctionAdd("CMSIS-RTOS RTX_", "CMSIS-RTX_");
-            correctionAdd("CMSIS-RTOS_", "CMSIS-RTX_");
-            correctionAdd("CMSIS RTX_", "CMSIS-RTX_");
-            correctionAdd("CMSIS_", "CMSIS-RTX_");
 
             correctionAdd("logg_", "log_");
             correctionAdd("Log_", "log_");
@@ -167266,12 +167284,6 @@ namespace OverflowHelper.core
             correctionAdd("futire_", "future_");
             correctionAdd("futur_", "future_");
 
-            correctionAdd("Standard Operating Procedures_", "standard operating procedure_");
-            correctionAdd("Standard Operating Procedure_", "standard operating procedure_");
-            correctionAdd("S.O.P_", "standard operating procedure_");
-            correctionAdd("sop_", "standard operating procedure_");
-            correctionAdd("SOP_", "standard operating procedure_");
-
             correctionAdd("sections_", "sessions_");
             correctionAdd("sessins_", "sessions_");
 
@@ -167577,15 +167589,6 @@ namespace OverflowHelper.core
             //
             // Linux / Unix
             correctionAdd("BC_", "bc_");
-
-            // A programming language for computer game modification
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.compuphase.com/pawn/pawn.htm>
-            //   <https://stackoverflow.com/tags/pawn/info>
-            //
-            correctionAdd("PAWN_", "Pawn_");
 
             // URL mappings
             //
@@ -169081,8 +169084,6 @@ namespace OverflowHelper.core
 
             URL_Add("traceroute_", "https://en.wikipedia.org/wiki/Traceroute");
 
-            URL_Add("kernel_", "https://en.wikipedia.org/wiki/Kernel_%28operating_system%29");
-
             URL_Add("right_", "https://en.wiktionary.org/wiki/right#Noun");
 
             URL_Add("power cycle_", "https://en.wikipedia.org/wiki/Power_cycling#Historical_uses");
@@ -170461,8 +170462,6 @@ namespace OverflowHelper.core
 
             URL_Add("coax_", "https://en.wikipedia.org/wiki/Coaxial_cable");
 
-            URL_Add("standard operating procedure_", "https://en.wikipedia.org/wiki/Standard_operating_procedure");
-
             URL_Add("set_", "https://en.wiktionary.org/wiki/set#Verb");
 
             URL_Add("setup_", "https://en.wiktionary.org/wiki/setup#Noun");
@@ -171055,8 +171054,6 @@ namespace OverflowHelper.core
 
             URL_Add("wheel_", "https://en.wiktionary.org/wiki/wheel#Noun");
 
-            URL_Add("date_", "https://en.wikipedia.org/wiki/System_time#Operating_systems");
-
             URL_Add("candidates_", "https://en.wiktionary.org/wiki/candidate#Noun");
 
             URL_Add("But ***please***, *** *** *** *** *** ***without*** *** *** *** *** *** *\"Edit:\"*, *\"Update:\"*, or similar. The post should be as if it was written right now (future readers have ***zero*** interest in the revision history). (bad practice on Stack Overflow)_", "https://meta.stackexchange.com/questions/131009/what-should-i-keep-out-of-my-posts-and-titles/131011#131011");
@@ -171188,8 +171185,6 @@ namespace OverflowHelper.core
             URL_Add("Apollo Kotlin_", "https://github.com/apollographql/apollo-kotlin");
 
             URL_Add("UNC_", "https://en.wikipedia.org/wiki/Path_%28computing%29#Uniform_Naming_Convention");
-
-            URL_Add("real-time operating system_", "https://en.wikipedia.org/wiki/Real-time_operating_system");
 
             URL_Add("customise_", "https://en.wiktionary.org/wiki/customise#Verb");
 
@@ -171506,8 +171501,6 @@ namespace OverflowHelper.core
             URL_Add("Embassy_", "https://github.com/embassy-rs/embassy");
 
             URL_Add("Fluor_", "https://github.com/Pyroh/Fluor");
-
-            URL_Add("Pawn_", "https://github.com/compuphase/pawn");
 
             URL_Add("The Things Stack_", "https://github.com/TheThingsNetwork/lorawan-stack");
 
@@ -172226,6 +172219,16 @@ namespace OverflowHelper.core
             URL_Add("Cross&nbsp;Validated (Stack Exchange site)_", "https://stats.stackexchange.com/tour");
 
             URL_Add("Artificial&nbsp;Intelligence (Stack Exchange site)_", "https://ai.stackexchange.com/tour");
+
+            URL_Add("operating_", "https://en.wiktionary.org/wiki/operate#Verb");
+
+            URL_Add("standard operating procedure_", "https://en.wikipedia.org/wiki/Standard_operating_procedure");
+
+            URL_Add("real-time operating system_", "https://en.wikipedia.org/wiki/Real-time_operating_system");
+
+            URL_Add("kernel_", "https://en.wikipedia.org/wiki/Kernel_%28operating_system%29");
+
+            URL_Add("date_", "https://en.wikipedia.org/wiki/System_time#Operating_systems");
 
         } //addLookupData_alternativeWordSet()
 
@@ -173754,6 +173757,10 @@ namespace OverflowHelper.core
             // For the reverse, to the abbr
             //
             // In particular for Keychron HE keyboards, e.g., K2 HE
+            //
+            // Note: It can't be in the first alternative word set,
+            //       because it would conflict with "key chatter".
+            //
             correctionAdd("stuck key syndrome__", "SKS__");
 
             correctionAdd("switch__", "momentary switch__");
@@ -177284,6 +177291,21 @@ namespace OverflowHelper.core
             correctionAdd("Kernigan__", "Brian Kernighan__");
             correctionAdd("K__", "Brian Kernighan__");
 
+            // A programming language for computer game
+            // modification, not related to chess...
+            //
+            // Allegedly, formerly "Small" (we need
+            // to find a reference for the claim)
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.compuphase.com/pawn/pawn.htm>
+            //   <https://stackoverflow.com/tags/pawn/info>
+            //
+            correctionAdd("Small__", "Pawn__"); // Allegedly the old name
+            correctionAdd("small__", "Pawn__");
+            correctionAdd("PAWN__", "Pawn__");
+
             // A programming language
             correctionAdd("elm__", "Elm__");
 
@@ -178545,6 +178567,8 @@ namespace OverflowHelper.core
             URL_Add("the Stack Overflow ban on simulated intelligence-generated content__", "https://meta.stackoverflow.com/questions/421831/temporary-policy-chatgpt-is-banned");
 
             URL_Add("\"Explanation is vital for a good answer.\"__", "https://meta.stackexchange.com/questions/258474/deal-with-famous-profiles-and-the-possibility-of-fakes/258475#258475");
+
+            URL_Add("Pawn__", "https://github.com/compuphase/pawn");
 
         } //addLookupData_alternativeWordSet2()
 
