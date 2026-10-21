@@ -3955,6 +3955,7 @@ namespace OverflowHelper.core
             correctionAdd("sort-of", "sort of");
             correctionAdd("sorta", "sort of");
 
+            // The noun
             correctionAdd("sording", "sorting");
 
             // A sorting algorithm
@@ -4517,6 +4518,7 @@ namespace OverflowHelper.core
             correctionAdd("TR", "tr");
 
             correctionAdd("sort (unix)", "sort (Unix)");
+            correctionAdd("sort", "sort (Unix)");
 
             // Linux
             correctionAdd("SUDO", "sudo");
@@ -37920,10 +37922,6 @@ namespace OverflowHelper.core
             correctionAdd("get-adgroupmember", "Get-ADGroupMember");
 
             // Of PowerShell...
-            correctionAdd("sort-object", "Sort-Object");
-            correctionAdd("sort", "Sort-Object"); // An alias.
-
-            // Of PowerShell...
             correctionAdd("add-member", "Add-Member");
             correctionAdd("Add-member", "Add-Member");
 
@@ -49067,6 +49065,7 @@ namespace OverflowHelper.core
             correctionAdd("soldier", "solder"); // PCB
             correctionAdd("soldee", "solder");
             correctionAdd("sauter", "solder");
+            correctionAdd("sauder", "solder");
 
             // Alternative URLs
             //
@@ -49085,27 +49084,42 @@ namespace OverflowHelper.core
 
             correctionAdd("soldiered", "soldered");
             correctionAdd("sautered", "soldered");
+            correctionAdd("saudered", "soldered");
             correctionAdd("soldert", "soldered");
 
             correctionAdd("per-soldered", "pre-soldered");
+            correctionAdd("per-saudered", "pre-soldered");
+            correctionAdd("per-sautered", "pre-soldered");
 
             correctionAdd("Resoldering", "resoldering");
+            correctionAdd("resaudering", "resoldering");
+            correctionAdd("resautering", "resoldering");
 
             correctionAdd("Resolder", "resolder");
+            correctionAdd("resauder", "resolder");
+            correctionAdd("resauter", "resolder");
 
             correctionAdd("desolderate", "desolder");
             correctionAdd("disolder", "desolder");
             correctionAdd("dosolder", "desolder");
+            correctionAdd("desauder", "desolder");
+            correctionAdd("desauter", "desolder");
 
             correctionAdd("Desoldering", "desoldering");
             correctionAdd("desoldeting", "desoldering");
+            correctionAdd("desaudering", "desoldering");
+            correctionAdd("desautering", "desoldering");
 
             correctionAdd("shoulder joints", "solder joints"); // An autocorrect "masterpiece"?
             correctionAdd("shoulder joint", "solder joints"); // An autocorrect "masterpiece"?
+            correctionAdd("sauder joints", "solder joints");
+            correctionAdd("sauter joints", "solder joints");
             correctionAdd("solders", "solder joints");
 
             correctionAdd("colder solder joints", "cold solder joints");
             correctionAdd("Cold solder joints", "cold solder joints");
+            correctionAdd("cold sauder joints", "cold solder joints");
+            correctionAdd("cold sauter joints", "cold solder joints");
             correctionAdd("cold solder joint", "cold solder joints");
             correctionAdd("cold solderjoints", "cold solder joints");
             correctionAdd("bad solder joints", "cold solder joints");
@@ -49113,6 +49127,8 @@ namespace OverflowHelper.core
             correctionAdd("cold soldering", "cold solder joints");
 
             correctionAdd("Solder paste", "solder paste");
+            correctionAdd("sauder paste", "solder paste");
+            correctionAdd("sauter paste", "solder paste");
 
             // A soldering iron brand
             correctionAdd("weller", "Weller");
@@ -83056,7 +83072,7 @@ namespace OverflowHelper.core
             correctionAdd("l10n", "language localisation");
             correctionAdd("L10n", "language localisation");
 
-            correctionAdd("soft more", "sophomore");
+            correctionAdd("soft more", "sophomore"); // !!!!! An autocorrect "masterpiece"?
 
             correctionAdd("interop", "interoperability");
 
@@ -100512,7 +100528,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Nichrome", "nichrome");
 
-            // Perl
+            // Perl. E.g., for sorting
             correctionAdd("CMP", "cmp()");
             correctionAdd("cmp", "cmp()");
 
@@ -109720,8 +109736,6 @@ namespace OverflowHelper.core
 
             URL_Add("Sinatra", "https://en.wikipedia.org/wiki/Sinatra_%28software%29");
 
-            URL_Add("quicksort", "https://en.wikipedia.org/wiki/Quicksort");
-
             URL_Add("Verisign", "https://en.wikipedia.org/wiki/Verisign");
 
             URL_Add("CodeWarrior", "https://en.wikipedia.org/wiki/CodeWarrior");
@@ -113690,8 +113704,6 @@ namespace OverflowHelper.core
 
             URL_Add("drivable", "https://en.wiktionary.org/wiki/drivable#Adjective");
 
-            URL_Add("GPX", "https://en.wikipedia.org/wiki/GPS_Exchange_Format");
-
             URL_Add("HtmlUnit", "https://en.wikipedia.org/wiki/HtmlUnit");
 
             URL_Add("JOSM", "https://en.wikipedia.org/wiki/JOSM");
@@ -113873,8 +113885,6 @@ namespace OverflowHelper.core
             URL_Add("interaction", "https://en.wiktionary.org/wiki/interaction#Noun");
 
             URL_Add("liquefying", "https://en.wiktionary.org/wiki/liquefy#Verb");
-
-            URL_Add("radix sort", "https://en.wikipedia.org/wiki/Radix_sort");
 
             URL_Add("back burner", "https://en.wiktionary.org/wiki/back_burner#Noun");
 
@@ -114244,10 +114254,6 @@ namespace OverflowHelper.core
 
             URL_Add("aligned", "https://en.wiktionary.org/wiki/align#Verb");
 
-            URL_Add("bucket sort", "https://en.wikipedia.org/wiki/Bucket_sort");
-
-            URL_Add("merge sort", "https://en.wikipedia.org/wiki/Merge_sort");
-
             URL_Add("private", "https://en.wiktionary.org/wiki/private#Adjective");
 
             URL_Add("punny", "https://en.wiktionary.org/wiki/punny#Adjective");
@@ -114301,8 +114307,6 @@ namespace OverflowHelper.core
             URL_Add("Racket", "https://en.wikipedia.org/wiki/Racket_(programming_language)");
 
             URL_Add("in place", "https://en.wiktionary.org/wiki/in_place#Adjective");
-
-            URL_Add("insertion sort", "https://en.wikipedia.org/wiki/Insertion_sort");
 
             URL_Add("installable", "https://en.wiktionary.org/wiki/installable#Adjective");
 
@@ -114854,8 +114858,6 @@ namespace OverflowHelper.core
 
             URL_Add("HipHop for PHP", "https://en.wikipedia.org/wiki/HipHop_for_PHP");
 
-            URL_Add("cmp()", "https://perldoc.perl.org/perlfunc#sort-LIST");
-
             URL_Add("facilities", "https://en.wiktionary.org/wiki/facility#Noun");
 
             URL_Add("genuine", "https://en.wiktionary.org/wiki/genuine#Adjective");
@@ -115310,8 +115312,6 @@ namespace OverflowHelper.core
 
             URL_Add("PySerial", "https://wiki.python.org/moin/PySerial");
 
-            URL_Add("Shog9", "https://meta.stackexchange.com/users/811/shog9");
-
             URL_Add("enthusiast", "https://en.wiktionary.org/wiki/enthusiast#Noun");
 
             URL_Add("in-depth", "https://en.wiktionary.org/wiki/in-depth#Adjective"); // Old: https://en.wiktionary.org/wiki/in-depth
@@ -115539,8 +115539,6 @@ namespace OverflowHelper.core
             URL_Add("updating", "https://en.wiktionary.org/wiki/update#Verb");
 
             URL_Add("double-quoted", "https://en.wiktionary.org/wiki/double-quoted#Verb"); // Old: https://en.wiktionary.org/wiki/double-quoted
-
-            URL_Add("sort of", "https://en.wiktionary.org/wiki/sort_of#Adverb");
 
             URL_Add("tab character", "https://en.wikipedia.org/wiki/Tab_key#Tab_characters");
 
@@ -116349,8 +116347,6 @@ namespace OverflowHelper.core
             URL_Add("NP-hard", "https://en.wikipedia.org/wiki/NP-hardness");
 
             URL_Add("PyAudio", "https://people.csail.mit.edu/hubert/pyaudio/"); // Old: <http://people.csail.mit.edu/hubert/pyaudio/>
-
-            URL_Add("SOQL", "https://salesforce.stackexchange.com/tags/soql/info");
 
             URL_Add("halve", "https://en.wiktionary.org/wiki/halve#Verb");
 
@@ -118384,8 +118380,6 @@ namespace OverflowHelper.core
 
             URL_Add("hardware description language", "https://en.wikipedia.org/wiki/Hardware_description_language");
 
-            URL_Add("selection sort", "https://en.wikipedia.org/wiki/Selection_sort");
-
             URL_Add("Wordle", "https://en.wikipedia.org/wiki/Wordle");
 
             URL_Add("data", "https://en.wiktionary.org/wiki/data#Noun");
@@ -119644,8 +119638,6 @@ namespace OverflowHelper.core
 
             URL_Add("linked list", "https://en.wikipedia.org/wiki/Linked_list");
 
-            URL_Add("New York Stock Exchange", "https://en.wikipedia.org/wiki/New_York_Stock_Exchange");
-
             URL_Add("adjacent", "https://en.wiktionary.org/wiki/adjacent#Adjective");
 
             URL_Add("global", "https://en.wiktionary.org/wiki/global#Adjective");
@@ -120252,8 +120244,6 @@ namespace OverflowHelper.core
 
             URL_Add("SaxonJS", "https://en.wikipedia.org/wiki/Saxon_XSLT#Versions");
 
-            URL_Add("sorting", "https://en.wiktionary.org/wiki/sorting#Noun");
-
             URL_Add("talk to you later", "https://en.wiktionary.org/wiki/TTYL#Phrase");
 
             URL_Add("Nihal Sarin", "https://en.wikipedia.org/wiki/Nihal_Sarin");
@@ -120614,10 +120604,6 @@ namespace OverflowHelper.core
 
             URL_Add("numerical", "https://en.wiktionary.org/wiki/numerical#Adjective");
 
-            URL_Add("Strassen algorithm", "https://en.wikipedia.org/wiki/Strassen_algorithm");
-
-            URL_Add("Timsort", "https://en.wikipedia.org/wiki/Timsort");
-
             URL_Add("EasyChair", "https://en.wikipedia.org/wiki/EasyChair");
 
             URL_Add("S&P&nbsp;500", "https://en.wikipedia.org/wiki/S%26P_500");
@@ -120677,8 +120663,6 @@ namespace OverflowHelper.core
             URL_Add("weird capitalisation", "https://www.youtube.com/watch?v=Ln1qbgZz_TQ&t=15m48s");
 
             URL_Add("data stream", "https://en.wiktionary.org/wiki/data_stream#Noun");
-
-            URL_Add("Dynamic Data Exchange", "https://en.wikipedia.org/wiki/Dynamic_Data_Exchange");
 
             URL_Add("regenerating", "https://en.wiktionary.org/wiki/regenerate#Verb");
 
@@ -121487,8 +121471,6 @@ namespace OverflowHelper.core
             URL_Add("demonstrate", "https://en.wiktionary.org/wiki/demonstrate#Verb");
 
             URL_Add("re-encoding", "https://en.wiktionary.org/wiki/re-encode#Verb");
-
-            URL_Add("The single source of truth for the site list", "https://meta.stackexchange.com/a/359796");
 
             URL_Add("cloned", "https://en.wiktionary.org/wiki/clone#Verb");
 
@@ -123860,8 +123842,6 @@ namespace OverflowHelper.core
 
             URL_Add("spherical", "https://en.wiktionary.org/wiki/spherical#Adjective");
 
-            URL_Add("private branch exchange", "https://en.wikipedia.org/wiki/Business_telephone_system");
-
             URL_Add("perpetuated", "https://en.wiktionary.org/wiki/perpetuate#Verb");
 
             URL_Add("jack of all trades, master of none", "https://en.wiktionary.org/wiki/jack_of_all_trades,_master_of_none#Noun");
@@ -123943,8 +123923,6 @@ namespace OverflowHelper.core
             URL_Add("PATCH", "https://en.wikipedia.org/wiki/PATCH_(HTTP)");
 
             URL_Add("patterns", "https://en.wiktionary.org/wiki/pattern#Noun");
-
-            URL_Add("Stack Exchange Inc.", "https://stackoverflow.co/");
 
             URL_Add("passing", "https://en.wiktionary.org/wiki/pass#Verb");
 
@@ -126174,60 +126152,6 @@ namespace OverflowHelper.core
 
             URL_Add("prebuilt", "https://en.wiktionary.org/wiki/prebuilt#Adjective");
 
-            URL_Add("```lang-none", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
-
-            URL_Add("```lang-css", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
-
-            URL_Add("```lang-html", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
-
-            URL_Add("```lang-php", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
-
-            URL_Add("```lang-csharp", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
-
-            URL_Add("```lang-java", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
-
-            URL_Add("```lang-javascript", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
-
-            URL_Add("```lang-xml", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
-
-            URL_Add("```lang-python", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
-
-            URL_Add("```lang-cpp", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
-
-            URL_Add("```lang-c", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
-
-            URL_Add("```lang-typescript", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
-
-            URL_Add("```lang-vbnet", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
-
-            URL_Add("```lang-dart", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
-
-            URL_Add("```lang-perl", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
-
-            URL_Add("```lang-yaml", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
-
-            URL_Add("```lang-r", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
-
-            URL_Add("```lang-ruby", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
-
-            URL_Add("```lang-matlab", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
-
-            URL_Add("```lang-objectivec", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
-
-            URL_Add("```lang-rust", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
-
-            URL_Add("```lang-markdown", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
-
-            URL_Add("```lang-swift", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
-
-            URL_Add("```lang-sql", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
-
-            URL_Add("```lang-makefile", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
-
-            URL_Add("```lang-haskell", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
-
-            URL_Add("```lang-golang", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
-
             URL_Add("CLOB", "https://en.wikipedia.org/wiki/Character_large_object");
 
             URL_Add("NObjective", "https://en.wikipedia.org/wiki/NObjective");
@@ -126321,22 +126245,6 @@ namespace OverflowHelper.core
             URL_Add("TinyURL", "https://en.wikipedia.org/wiki/TinyURL");
 
             URL_Add("TinyMCE", "https://en.wikipedia.org/wiki/TinyMCE");
-
-            URL_Add("French Defence", "https://en.wikipedia.org/wiki/French_Defence");
-
-            URL_Add("French Defence, Exchange Variation", "https://en.wikipedia.org/wiki/French_Defence#Exchange_Variation:_3.exd5_exd5");
-
-            URL_Add("French", "https://en.wiktionary.org/wiki/French#Adjective");
-
-            URL_Add("Frenchman", "https://en.wiktionary.org/wiki/Frenchman#Noun");
-
-            URL_Add("grande écoles", "https://en.wiktionary.org/wiki/grande_%C3%A9cole#Noun");
-
-            URL_Add("French drain", "https://en.wikipedia.org/wiki/French_drain");
-
-            URL_Add("french fries", "https://en.wiktionary.org/wiki/french_fries#Noun");
-
-            URL_Add("pardon my French", "https://en.wiktionary.org/wiki/pardon_my_French#Verb");
 
             URL_Add("goofed up", "https://en.wiktionary.org/wiki/goof_up#Verb");
 
@@ -126838,86 +126746,6 @@ namespace OverflowHelper.core
 
             URL_Add("unusably", "https://en.wiktionary.org/wiki/unusably#Adverb");
 
-            URL_Add("Evans Gambit", "https://en.wikipedia.org/wiki/Evans_Gambit");
-
-            URL_Add("Evans Gambit Declined", "https://en.wikipedia.org/wiki/Evans_Gambit#Declining_the_gambit");
-
-            URL_Add("Queen's Gambit", "https://en.wikipedia.org/wiki/Queen%27s_Gambit");
-
-            URL_Add("Queen's Gambit Accepted", "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Accepted");
-
-            URL_Add("Queen's Gambit Declined", "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Declined");
-
-            URL_Add("Queen's Gambit Declined, Ragozin Defence", "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Declined#Ragozin_Variation:_4.Nf3_Bb4");
-
-            URL_Add("Queen's Gambit Declined, Cambridge Springs Defense", "https://en.wikipedia.org/wiki/Cambridge_Springs_Defense");
-
-            URL_Add("King's Gambit", "https://en.wikipedia.org/wiki/King's_Gambit");
-
-            URL_Add("King's Gambit, McDonnell Gambit", "https://en.wikipedia.org/wiki/King%27s_Gambit,_McDonnell_Gambit");
-
-            URL_Add("Antonio Radić", "https://en.wikipedia.org/w/index.php?title=Antonio_Radi%C4%87&oldid=978538274"); // Old: https://en.wikipedia.org/wiki/Antonio_Radi%C4%87
-
-            URL_Add("Four Knights Game", "https://en.wikipedia.org/wiki/Four_Knights_Game");
-
-            URL_Add("Vienna Game", "https://en.wikipedia.org/wiki/Vienna_Game");
-
-            URL_Add("Scotch Game", "https://en.wikipedia.org/wiki/Scotch_Game");
-
-            URL_Add("Italian Game", "https://en.wikipedia.org/wiki/Italian_Game");
-
-            URL_Add("Benoni Defense", "https://en.wikipedia.org/wiki/Benoni_Defense");
-
-            URL_Add("Open Sicilian", "https://en.wikipedia.org/wiki/Sicilian_Defence#Open_Sicilian:_2.Nf3_and_3.d4");
-
-            URL_Add("Réti Opening", "https://en.wikipedia.org/wiki/R%C3%A9ti_Opening");
-
-            URL_Add("Catalan Opening", "https://en.wikipedia.org/wiki/Catalan_Opening");
-
-            URL_Add("Giuoco Piano", "https://en.wikipedia.org/wiki/Giuoco_Piano");
-
-            URL_Add("English Opening", "https://en.wikipedia.org/wiki/English_Opening");
-
-            URL_Add("Dutch Defence", "https://en.wikipedia.org/wiki/Dutch_Defence");
-
-            URL_Add("Saragossa Opening", "https://en.wikipedia.org/wiki/Saragossa_Opening");
-
-            URL_Add("Ware Opening, Crab Variation", "https://en.wikipedia.org/wiki/Ware_Opening#Variations");
-
-            URL_Add("Carl's Bremen system", "https://www.chess.com/openings/English-Opening-Carls-Bremen-System");
-
-            URL_Add("Peter Svidler", "https://en.wikipedia.org/wiki/Peter_Svidler");
-
-            URL_Add("Bong-Cloud opening", "https://chess.stackexchange.com/questions/27227");
-
-            URL_Add("Sicilian Defence, Accelerated Dragon", "https://en.wikipedia.org/wiki/Sicilian_Defence,_Accelerated_Dragon");
-
-            URL_Add("Torre Attack", "https://en.wikipedia.org/wiki/Torre_Attack");
-
-            URL_Add("Queen's Indian Defense", "https://en.wikipedia.org/wiki/Queen%27s_Indian_Defense");
-
-            URL_Add("King's Indian Defence", "https://en.wikipedia.org/wiki/King's_Indian_Defence");
-
-            URL_Add("Nimzo-Indian Defence", "https://en.wikipedia.org/wiki/Nimzo-Indian_Defence");
-
-            URL_Add("Indian", "https://en.wiktionary.org/wiki/Indian#Adjective");
-
-            URL_Add("Indian English", "https://en.wikipedia.org/wiki/Indian_English");
-
-            URL_Add("the Indian space", "https://english.stackexchange.com/questions/4645/is-it-ever-correct-to-have-a-space-before-a-question-or-exclamation-mark#comment206109_4645");
-
-            URL_Add("missing articles (primarily Indians, Poles and Russians)", "https://www.youtube.com/watch?v=1Dax90QyXgI&t=17m54s");
-
-            URL_Add("Indian Standard Time", "https://en.wikipedia.org/wiki/Indian_Standard_Time");
-
-            URL_Add("Rs", "https://en.wikipedia.org/wiki/Indian_rupee");
-
-            URL_Add("do the needful", "https://en.wikipedia.org/wiki/Indian_English#Vocabulary");
-
-            URL_Add("Indian subcontinent", "https://en.wikipedia.org/wiki/Indian_subcontinent");
-
-            URL_Add("at the time of writing", "https://english.stackexchange.com/questions/199381/is-at-the-time-of-writing-correct");
-
             URL_Add("Chinese Communist Party", "https://en.wikipedia.org/wiki/Chinese_Communist_Party");
 
             URL_Add("H-1B visa", "https://en.wikipedia.org/wiki/H-1B_visa");
@@ -127381,8 +127209,6 @@ namespace OverflowHelper.core
             URL_Add("cheaped out", "https://en.wiktionary.org/wiki/cheap_out#Verb");
 
             URL_Add("el cheapo", "https://en.wiktionary.org/wiki/el_cheapo#Noun");
-
-            URL_Add("heapsort", "https://en.wikipedia.org/wiki/Heapsort");
 
             URL_Add("binary min heap", "https://en.wikipedia.org/wiki/Binary_heap");
 
@@ -128632,8 +128458,6 @@ namespace OverflowHelper.core
 
             URL_Add("DateTime", "https://www.php.net/manual/en/class.datetime.php");
 
-            URL_Add("uasort()", "https://www.php.net/manual/en/function.uasort.php");
-
             URL_Add("trim()", "https://www.php.net/manual/en/function.trim.php");
 
             URL_Add("rtrim()", "https://www.php.net/manual/en/function.rtrim.php");
@@ -128759,6 +128583,8 @@ namespace OverflowHelper.core
             URL_Add("explode()", "https://www.php.net/manual/en/function.explode.php");
 
             URL_Add("log_errors()", "https://www.php.net/manual/en/errorfunc.configuration.php#ini.log-errors");
+
+            URL_Add("uasort()", "https://www.php.net/manual/en/function.uasort.php");
 
             URL_Add("in for a penny, in for a pound", "https://en.wiktionary.org/wiki/in_for_a_penny,_in_for_a_pound#Proverb");
 
@@ -129126,8 +128952,6 @@ namespace OverflowHelper.core
 
             URL_Add("Bayesian information criterion", "https://en.wikipedia.org/wiki/Bayesian_information_criterion");
 
-            URL_Add("Financial Information eXchange", "https://en.wikipedia.org/wiki/Financial_Information_eXchange");
-
             URL_Add("GIS", "https://en.wikipedia.org/wiki/Geographic_information_system");
 
             URL_Add("RTTI", "https://en.wikipedia.org/wiki/Run-time_type_information");
@@ -129223,8 +129047,6 @@ namespace OverflowHelper.core
             URL_Add("vitamin C", "https://en.wikipedia.org/wiki/Vitamin_C");
 
             URL_Add("ACE", "https://en.wikipedia.org/wiki/Adaptive_Communication_Environment");
-
-            URL_Add("introsort", "https://en.wikipedia.org/wiki/Introsort");
 
             URL_Add("IDE", "https://en.wikipedia.org/wiki/Integrated_development_environment");
 
@@ -129555,10 +129377,6 @@ namespace OverflowHelper.core
             URL_Add("CodeLens", "https://docs.microsoft.com/en-us/visualstudio/ide/find-code-changes-and-other-history-with-codelens");
 
             URL_Add("Java VisualVM", "https://en.wikipedia.org/wiki/VisualVM");
-
-            URL_Add("exchange sort", "https://en.wikipedia.org/wiki/Sorting_algorithm#Exchange_sort");
-
-            URL_Add("exchanging", "https://en.wiktionary.org/wiki/exchange#Verb");
 
             URL_Add("Matroska", "https://en.wikipedia.org/wiki/Matroska");
 
@@ -130619,24 +130437,6 @@ namespace OverflowHelper.core
             URL_Add("MongoDB Compass", "https://github.com/mongodb-js/compass");
 
             URL_Add("VNC", "https://en.wikipedia.org/wiki/Virtual_Network_Computing");
-
-            URL_Add("Internet Archive", "https://en.wikipedia.org/wiki/Internet_Archive");
-
-            URL_Add("Internetwork Packet Exchange", "https://en.wikipedia.org/wiki/Internetwork_Packet_Exchange");
-
-            URL_Add("Internet&nbsp;Explorer", "https://en.wikipedia.org/wiki/Internet_Explorer");
-
-            URL_Add("Internet&nbsp;Explorer&nbsp;5", "https://en.wikipedia.org/wiki/Internet_Explorer_5");
-
-            URL_Add("Internet&nbsp;Explorer&nbsp;5.5", "https://en.wikipedia.org/wiki/Internet_Explorer_5#Versions");
-
-            URL_Add("Internet&nbsp;Explorer&nbsp;6", "https://en.wikipedia.org/wiki/Internet_Explorer_6");
-
-            URL_Add("Internet&nbsp;Explorer&nbsp;7", "https://en.wikipedia.org/wiki/Internet_Explorer_7");
-
-            URL_Add("Internet&nbsp;Explorer&nbsp;9", "https://en.wikipedia.org/wiki/Internet_Explorer_9");
-
-            URL_Add("Internet&nbsp;Explorer&nbsp;10", "https://en.wikipedia.org/wiki/Internet_Explorer_11#Internet_Explorer_10");
 
             URL_Add("JPA", "https://en.wikipedia.org/wiki/Jakarta_Persistence"); // Old: https://en.wikipedia.org/wiki/Java_Persistence_API
 
@@ -132178,8 +131978,6 @@ namespace OverflowHelper.core
 
             URL_Add("hot take", "https://en.wiktionary.org/wiki/hot_take#Noun");
 
-            URL_Add("Hot Network Questions", "https://meta.stackexchange.com/questions/40353/stack-exchange-glossary-dictionary-of-commonly-used-terms/40354#40354");
-
             URL_Add("Hotmail", "https://en.wikipedia.org/wiki/Hotmail");
 
             URL_Add("Hot Corners", "https://citymacsite.wordpress.com/2018/07/07/hot-corners-in-macos-what-they-are-and-how-to-use-them/");
@@ -132551,18 +132349,6 @@ namespace OverflowHelper.core
             URL_Add("backlighting", "https://en.wiktionary.org/wiki/backlighting#Noun");
 
             URL_Add("flashlight", "https://en.wiktionary.org/wiki/flashlight#Noun");
-
-            URL_Add("highlight", "https://en.wiktionary.org/wiki/highlight#Verb");
-
-            URL_Add("highlighting", "https://en.wiktionary.org/wiki/highlight#Verb");
-
-            URL_Add("highlighted", "https://en.wiktionary.org/wiki/highlight#Verb");
-
-            URL_Add("highlighter", "https://en.wiktionary.org/wiki/highlighter#Noun");
-
-            URL_Add("syntax highlighting", "https://en.wikipedia.org/wiki/Syntax_highlighting");
-
-            URL_Add("Highlight.js", "https://meta.stackexchange.com/questions/353983/goodbye-prettify-hello-highlight-js-swapping-out-our-syntax-highlighter");
 
             URL_Add("lightweight", "https://en.wiktionary.org/wiki/lightweight#Adjective");
 
@@ -134096,10 +133882,6 @@ namespace OverflowHelper.core
 
             URL_Add("Unicode blues in C++ and similar languages (after copying from web pages, Skype chat, etc.)", "https://pmortensen.eu/world2/2023/05/01/unicode-blues-in-c-and-similar-languages-after-copying-from-web-pages-skype-chat-etc/");
 
-            URL_Add("The Nineteenth Byte", "https://chat.stackexchange.com/rooms/240/the-nineteenth-byte");
-
-            URL_Add("the November 2017 Stack Overflow mass layoff", "https://chat.meta.stackexchange.com/transcript/message/7926678#7926678");
-
             URL_Add("hypertext", "https://en.wikipedia.org/wiki/Hypertext");
 
             URL_Add("hypermedia as the engine of application state", "https://en.wikipedia.org/wiki/HATEOAS");
@@ -134109,10 +133891,6 @@ namespace OverflowHelper.core
             URL_Add("JSON-RPC", "https://en.wikipedia.org/wiki/JSON-RPC");
 
             URL_Add("dot-com", "https://en.wikipedia.org/wiki/Dot-com_bubble");
-
-            URL_Add("bubble sort", "https://en.wikipedia.org/wiki/Bubble_sort");
-
-            URL_Add("bubble", "https://en.wiktionary.org/wiki/bubble#Noun");
 
             URL_Add("Statamic", "https://github.com/statamic/cms");
 
@@ -134519,144 +134297,6 @@ namespace OverflowHelper.core
             URL_Add("SignalR", "https://en.wikipedia.org/wiki/SignalR"); // Old: http://signalr.net/
 
             URL_Add("PicoScope", "https://www.picotech.com/products/oscilloscope");
-
-            URL_Add("Drupal&nbsp;Answers (Stack Exchange site)", "https://drupal.stackexchange.com/tour");
-
-            URL_Add("Web&nbsp;Applications (Stack Exchange site)", "https://webapps.stackexchange.com/tour");
-
-            URL_Add("Retrocomputing (Stack Exchange site)", "https://retrocomputing.stackexchange.com/tour");
-
-            URL_Add("Arts&nbsp;&&nbsp;Crafts (Stack Exchange site)", "https://crafts.stackexchange.com/tour");
-
-            URL_Add("Ask&nbsp;Patents (Stack Exchange site)", "https://patents.stackexchange.com/tour");
-
-            URL_Add("Anime&nbsp;&&nbsp;Manga (Stack Exchange site)", "https://anime.stackexchange.com/tour");
-
-            URL_Add("Woodworking (Stack Exchange site)", "https://woodworking.stackexchange.com/tour");
-
-            URL_Add("Pets (Stack Exchange site)", "https://pets.stackexchange.com/tour");
-
-            URL_Add("Worldbuilding (Stack Exchange site)", "https://worldbuilding.stackexchange.com/tour");
-
-            URL_Add("Expatriates (Stack Exchange site)", "https://expatriates.stackexchange.com/tour");
-
-            URL_Add("Physical&nbsp;Fitness (Stack Exchange site)", "https://fitness.stackexchange.com/tour");
-
-            URL_Add("Earth&nbsp;Science (Stack Exchange site)", "https://earthscience.stackexchange.com/tour");
-
-            URL_Add("Bicycles (Stack Exchange site)", "https://bicycles.stackexchange.com/tour");
-
-            URL_Add("Skeptics (Stack Exchange site)", "https://skeptics.stackexchange.com/tour");
-
-            URL_Add("Sound&nbsp;Design (Stack Exchange site)", "https://sound.stackexchange.com/tour");
-
-            URL_Add("Travel (Stack Exchange site)", "https://travel.stackexchange.com/tour");
-
-            URL_Add("History (Stack Exchange site)", "https://history.stackexchange.com/tour");
-
-            URL_Add("MathOverflow (Stack Exchange site)", "https://mathoverflow.net/tour");
-
-            URL_Add("Code&nbsp;Golf (Stack Exchange site)", "https://codegolf.stackexchange.com/tour");
-
-            URL_Add("English&nbsp;Language&nbsp;Learners (Stack Exchange site)", "https://ell.stackexchange.com/tour");
-
-            URL_Add("Webmasters (Stack Exchange site)", "https://webmasters.stackexchange.com/tour");
-
-            URL_Add("Puzzling (Stack Exchange site)", "https://puzzling.stackexchange.com/tour");
-
-            URL_Add("Photography (Stack Exchange site)", "https://photo.stackexchange.com/tour");
-
-            URL_Add("Politics (Stack Exchange site)", "https://politics.stackexchange.com/tour");
-
-            URL_Add("Parenting (Stack Exchange site)", "https://parenting.stackexchange.com/tour");
-
-            URL_Add("Movies&nbsp;&&nbsp;TV (Stack Exchange site)", "https://movies.stackexchange.com/tour");
-
-            URL_Add("Theoretical&nbsp;Computer&nbsp;Science (Stack Exchange site)", "https://cstheory.stackexchange.com/tour");
-
-            URL_Add("Matter&nbsp;Modeling (Stack Exchange site)", "https://mattermodeling.stackexchange.com/tour");
-
-            URL_Add("Arqade (Stack Exchange site)", "https://gaming.stackexchange.com/tour");
-
-            URL_Add("Role-playing&nbsp;Games (Stack Exchange site)", "https://rpg.stackexchange.com/tour");
-
-            URL_Add("Astronomy (Stack Exchange site)", "https://astronomy.stackexchange.com/tour");
-
-            URL_Add("Hardware&nbsp;Recommendations (Stack Exchange site)", "https://hardwarerecs.stackexchange.com/tour");
-
-            URL_Add("Monero (Stack Exchange site)", "https://monero.stackexchange.com/tour");
-
-            URL_Add("Graphic&nbsp;Design (Stack Exchange site)", "https://graphicdesign.stackexchange.com/tour");
-
-            URL_Add("Mi&nbsp;Yodeya (Stack Exchange site)", "https://judaism.stackexchange.com/tour");
-
-            URL_Add("Chinese&nbsp;Language (Stack Exchange site)", "https://chinese.stackexchange.com/tour");
-
-            URL_Add("Language&nbsp;Learning (Stack Exchange site)", "https://languagelearning.stackexchange.com/tour");
-
-            URL_Add("Craft&nbsp;CMS (Stack Exchange site)", "https://craftcms.stackexchange.com/tour");
-
-            URL_Add("Open&nbsp;Data (Stack Exchange site)", "https://opendata.stackexchange.com/tour");
-
-            URL_Add("Tridion (Stack Exchange site)", "https://tridion.stackexchange.com/tour");
-
-            URL_Add("Spanish&nbsp;Language (Stack Exchange site)", "https://spanish.stackexchange.com/tour");
-
-            URL_Add("Unix&nbsp;&&nbsp;Linux (Stack Exchange site)", "https://unix.stackexchange.com/tour");
-
-            URL_Add("English&nbsp;Language & Usage (Stack Exchange site)", "https://english.stackexchange.com/tour");
-
-            URL_Add("Stack Overflow на русском (Stack Exchange site)", "https://ru.stackoverflow.com/tour");
-
-            URL_Add("スタック・オーバーフロー (Stack Exchange site)", "https://ja.stackoverflow.com/tour");
-
-            URL_Add("Stack Overflow en español (Stack Exchange site)", "https://es.stackoverflow.com/tour");
-
-            URL_Add("Stack Overflow em Português (Stack Exchange site)", "https://pt.stackoverflow.com/tour");
-
-            URL_Add("Game&nbsp;Development (Stack Exchange site)", "https://gamedev.stackexchange.com/tour");
-
-            URL_Add("Network&nbsp;Engineering (Stack Exchange site)", "https://networkengineering.stackexchange.com/tour");
-
-            URL_Add("Android&nbsp;Enthusiasts (Stack Exchange site)", "https://android.stackexchange.com/tour");
-
-            URL_Add("Constructed&nbsp;Languages (Stack Exchange site)", "https://conlang.stackexchange.com/tour");
-
-            URL_Add("The&nbsp;Workplace (Stack Exchange site)", "https://workplace.stackexchange.com/tour");
-
-            URL_Add("Lifehacks (Stack Exchange site)", "https://lifehacks.stackexchange.com/tour");
-
-            URL_Add("Amateur&nbsp;Radio (Stack Exchange site)", "https://ham.stackexchange.com/tour");
-
-            URL_Add("Signal&nbsp;Processing (Stack Exchange site)", "https://dsp.stackexchange.com/tour");
-
-            URL_Add("Interpersonal&nbsp;Skills (Stack Exchange site)", "https://interpersonal.stackexchange.com/tour");
-
-            URL_Add("Code&nbsp;Review (Stack Exchange site)", "https://codereview.stackexchange.com/tour");
-
-            URL_Add("Video&nbsp;Production (Stack Exchange site)", "https://video.stackexchange.com/tour");
-
-            URL_Add("3D&nbsp;Printing (Stack Exchange site)", "https://3dprinting.stackexchange.com/tour");
-
-            URL_Add("Super&nbsp;User (Stack Exchange site)", "https://superuser.com/tour"); // Old: https://en.wikipedia.org/wiki/Stack_Overflow#Super_User
-
-            URL_Add("Stack&nbsp;Apps", "https://stackapps.com/help"); // Old: http://stackapps.com/about
-
-            URL_Add("Area&nbsp;51 (Stack Exchange site)", "https://area51.stackexchange.com/faq"); // Old: https://en.wikipedia.org/wiki/Stack_Exchange#History. Even older URL: https://en.wikipedia.org/wiki/Stack_Exchange_Network#area51
-
-            URL_Add("Ask&nbsp;Different (Stack Exchange site)", "https://apple.stackexchange.com/tour");
-
-            URL_Add("Robotics (Stack Exchange site)", "https://robotics.stackexchange.com/tour");
-
-            URL_Add("Board&nbsp;&&nbsp;Card&nbsp;Games (Stack Exchange site)", "https://boardgames.stackexchange.com/tour");
-
-            URL_Add("Community&nbsp;Building (Stack Exchange site)", "https://communitybuilding.stackexchange.com/tour");
-
-            URL_Add("Computer&nbsp;Graphics (Stack Exchange site)", "https://computergraphics.stackexchange.com/tour");
-
-            URL_Add("Computer&nbsp;Science&nbsp;Educators (Stack Exchange site)", "https://cseducators.stackexchange.com/tour");
-
-            URL_Add("Computational&nbsp;Science (Stack Exchange site)", "https://scicomp.stackexchange.com/tour");
 
             URL_Add("NPC", "https://en.wikipedia.org/wiki/NP-completeness");
 
@@ -135384,93 +135024,13 @@ namespace OverflowHelper.core
 
             URL_Add("SAML", "https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language");
 
-            URL_Add("code fence", "https://meta.stackexchange.com/questions/125148/implement-style-fenced-markdown-code-blocks/322000#322000");
-
-            URL_Add("Excavator badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188732#188732");
-
-            URL_Add("Unsung Hero badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/68258#68258");
-
-            URL_Add("Census badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188733#188733");
-
-            URL_Add("Legendary badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188731#188731");
-
-            URL_Add("Marshal badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188732#188732");
-
-            URL_Add("Enthusiast badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188731#188731");
-
-            URL_Add("Tenacious badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/68258#68258");
-
-            URL_Add("Critic badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188732#188732");
-
-            URL_Add("Electorate badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188732#188732");
-
-            URL_Add("Steward badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188732#188732");
-
-            URL_Add("Socratic badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/67399#67399");
-
-            URL_Add("Inquisitive badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/67399#67399");
-
-            URL_Add("Lifeboat badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/68258#68258");
-
-            URL_Add("Refiner badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/68258#68258");
-
-            URL_Add("Guru badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/68258#68258");
-
-            URL_Add("Fanatic badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188731#188731");
-
-            URL_Add("Populist badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/68258#68258");
-
-            URL_Add("Explainer badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/68258#68258");
-
-            URL_Add("Illuminator badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/68258#68258");
-
-            URL_Add("Archaeologist badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188732#188732");
-
-            URL_Add("Enlightened badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/68258#68258");
-
-            URL_Add("Strunk & White badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188732#188732");
-
-            URL_Add("Mortarboard badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/67399#67399");
-
-            URL_Add("bad faith", "https://en.wiktionary.org/wiki/bad_faith#Noun");
-
-            URL_Add("bad reputation", "https://en.wiktionary.org/wiki/bad_rap#Noun");
-
-            URL_Add("reputation points", "https://meta.stackoverflow.com/questions/7237/how-does-reputation-work");
-
-            URL_Add("judicious use of obnoxious lists", "https://meta.stackexchange.com/questions/17204/six-simple-tips-to-get-stack-overflow-reputation-fast/17205#17205");
-
-            URL_Add("bad blood", "https://en.wiktionary.org/wiki/bad_blood#Noun");
-
-            URL_Add("badge", "https://en.wiktionary.org/wiki/badge#Noun");
-
-            URL_Add("BadWolf", "https://www.youtube.com/watch?v=EBWy1d-JE6A");
-
-            URL_Add("LibreWolf", "https://en.wikipedia.org/wiki/LibreWolf");
-
             URL_Add("PHP Collective", "https://meta.stackoverflow.com/questions/425531/new-collective-php-scope-community-and-questions");
 
             URL_Add("$HOME/.bash_history file", "https://stackoverflow.com/questions/8561983/retrieving-command-line-history");
 
-            URL_Add("one’s", "https://en.wiktionary.org/wiki/one%27s#Pronoun");
-
-            URL_Add("somebody else’s", "https://ell.stackexchange.com/questions/15192/which-one-is-right-somebodys-else-or-somebody-elses/15193#15193");
-
-            URL_Add("someone else’s", "https://ell.stackexchange.com/questions/15192/which-one-is-right-somebodys-else-or-somebody-elses/15193#15193");
-
-            URL_Add("someone", "https://en.wiktionary.org/wiki/someone#Pronoun");
-
-            URL_Add("someone’s", "https://en.wiktionary.org/wiki/someone's#Adjective");
-
-            URL_Add("someone else", "https://en.wiktionary.org/wiki/someone_else#Pronoun");
-
-            URL_Add("torrc", "https://tor.stackexchange.com/questions/13037/how-to-config-the-torrc-file");
-
             URL_Add("questionnaire", "https://en.wiktionary.org/wiki/questionnaire#Noun");
 
             URL_Add("requirements.txt", "https://stackoverflow.com/questions/74506852/what-is-the-requirements-txt-what-should-be-in-it");
-
-            URL_Add("besides that", "https://ell.stackexchange.com/questions/56611/should-i-use-besides-or-aside-from-in-the-following-case/108942#108942");
 
             URL_Add("thereby", "https://en.wiktionary.org/wiki/thereby#Adverb");
 
@@ -135532,8 +135092,6 @@ namespace OverflowHelper.core
 
             URL_Add("here’re", "https://en.wiktionary.org/wiki/here%27re#Contraction");
 
-            URL_Add("at the end of", "https://ell.stackexchange.com/questions/16854/should-i-use-at-the-end-of-or-in-the-end-of-in-this-sentence");
-
             URL_Add("ThereminGoat", "https://github.com/ThereminGoat");
 
             URL_Add("requested", "https://en.wiktionary.org/wiki/request#Verb");
@@ -135573,16 +135131,6 @@ namespace OverflowHelper.core
             URL_Add(".eslintrc", "https://stackoverflow.com/questions/62340976/is-the-config-file-eslintrc-deprecated-in-favor-of-eslintrc-files");
 
             URL_Add("IndentationError: expected an indented block", "https://stackoverflow.com/questions/45621722/im-getting-an-indentationerror-how-do-i-fix-it");
-
-            URL_Add("repository pattern", "https://softwareengineering.stackexchange.com/questions/132813/whos-the-author-creator-of-the-repository-pattern");
-
-            URL_Add("unit of work pattern", "https://softwareengineering.stackexchange.com/questions/325844/best-design-pattern-for-two-specific-scenarios-the-first-one-fits-neatly-into-a");
-
-            URL_Add("Open letter to students with homework problems", "https://softwareengineering.meta.stackexchange.com/questions/6166/open-letter-to-students-with-homework-problems");
-
-            URL_Add("Stack Exchange user profile", "https://meta.stackexchange.com/questions/332237/documentation-for-stack-exchange-engine-urls/332251#332251");
-
-            URL_Add("profiles", "https://en.wiktionary.org/wiki/profile#Noun");
 
             URL_Add("oneself", "https://en.wiktionary.org/wiki/oneself#Pronoun");
 
@@ -136268,8 +135816,6 @@ namespace OverflowHelper.core
 
             URL_Add("hashlib", "https://docs.python.org/3/library/hashlib.html");
 
-            URL_Add("sorted()", "https://docs.python.org/3/library/functions.html?highlight=sorted#sorted");
-
             URL_Add("rpartition()", "https://docs.python.org/3/library/stdtypes.html#str.rpartition");
 
             URL_Add("strip()", "https://docs.python.org/3/library/stdtypes.html#str.strip");
@@ -136283,6 +135829,8 @@ namespace OverflowHelper.core
             URL_Add("getattr()", "https://docs.python.org/3.10/library/functions.html?highlight=getattr#getattr");
 
             URL_Add("defaultdict", "https://docs.python.org/3/library/collections.html#collections.defaultdict");
+
+            URL_Add("sorted()", "https://docs.python.org/3/library/functions.html?highlight=sorted#sorted");
 
             URL_Add("protection", "https://en.wiktionary.org/wiki/protection#Noun");
 
@@ -137296,8 +136844,6 @@ namespace OverflowHelper.core
 
             URL_Add("high explosives", "https://en.wiktionary.org/wiki/high_explosive#Noun");
 
-            URL_Add("Stack Exchange Data Explorer", "https://meta.stackexchange.com/tags/data-explorer/info");
-
             URL_Add("Time Warp", "https://www.corsair.com/uk/en/explorer/diy-builder/fans/what-is-time-warp-and-how-does-it-work/");
 
             URL_Add("SUNBURST", "https://en.wikipedia.org/wiki/2020_United_States_federal_government_data_breach#SolarWinds_exploit_2");
@@ -137912,8 +137458,6 @@ namespace OverflowHelper.core
 
             URL_Add("Get-Member", "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-member"); // Old: <http://technet.microsoft.com/en-us/library/hh849928.aspx>
 
-            URL_Add("Sort-Object", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/Sort-Object"); // Old: http://technet.microsoft.com/en-us/library/hh849912.aspx
-
             URL_Add("New-Object", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/New-Object"); // Old: http://technet.microsoft.com/en-us/library/hh849885.aspx
 
             URL_Add("Get-Help", "https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.core/Get-Help"); // Old: http://technet.microsoft.com/en-us/library/hh849696.aspx
@@ -138415,8 +137959,6 @@ namespace OverflowHelper.core
 
             URL_Add("mv", "https://en.wikipedia.org/wiki/Mv_(Unix)");
 
-            URL_Add("sort (Unix)", "https://en.wikipedia.org/wiki/Sort_(Unix)");
-
             URL_Add("rm", "https://en.wikipedia.org/wiki/Rm_(Unix)");
 
             URL_Add("tail", "https://en.wikipedia.org/wiki/Tail_(Unix)");
@@ -138512,6 +138054,8 @@ namespace OverflowHelper.core
             URL_Add("perlvar(1)", "https://linux.die.net/man/1/perlvar");
 
             URL_Add("usleep", "https://linux.die.net/man/1/usleep");
+
+            URL_Add("sort (Unix)", "https://en.wikipedia.org/wiki/Sort_(Unix)");
 
             URL_Add("LSS", "https://en.wikipedia.org/wiki/CANopen#Predefined_Connection_Set[7]");
 
@@ -142490,8 +142034,6 @@ namespace OverflowHelper.core
 
             URL_Add("linear-feedback shift register", "https://en.wikipedia.org/wiki/Linear-feedback_shift_register");
 
-            URL_Add("Stack Exchange RSS feeds", "https://meta.stackexchange.com/questions/151519/what-other-hidden-or-inobvious-rss-feeds-are-available-on-stack-exchange-and-its");
-
             URL_Add("Elfeed", "https://www.emacswiki.org/emacs/Elfeed");
 
             URL_Add("BuzzFeed", "https://en.wikipedia.org/wiki/BuzzFeed");
@@ -143594,10 +143136,6 @@ namespace OverflowHelper.core
 
             URL_Add("Windows Live", "https://en.wikipedia.org/wiki/Windows_Live");
 
-            URL_Add("Microsoft Exchange Server", "https://en.wikipedia.org/wiki/Microsoft_Exchange_Server");
-
-            URL_Add("Exchange Server 2003", "https://en.wikipedia.org/wiki/History_of_Microsoft_Exchange_Server#Exchange_Server_2003"); // Old: https://en.wikipedia.org/wiki/Microsoft_Exchange_Server#Exchange_Server_2003
-
             URL_Add("Code page 936", "https://en.wikipedia.org/wiki/Code_page_936_(Microsoft_Windows)");
 
             URL_Add("Windows-949", "https://en.wikipedia.org/wiki/Unified_Hangul_Code");
@@ -144236,8 +143774,6 @@ namespace OverflowHelper.core
 
             URL_Add("Magick.NET", "https://github.com/dlemstra/Magick.NET");
 
-            URL_Add("Stack Exchange magic links", "https://meta.stackexchange.com/questions/92060/add-data-se-style-magic-links-to-comments/94000#94000");
-
             URL_Add("Magic: The Gathering", "https://en.wikipedia.org/wiki/Magic:_The_Gathering");
 
             URL_Add("Magic: The Gathering Arena", "https://en.wikipedia.org/wiki/Magic:_The_Gathering_Arena");
@@ -144473,12 +144009,6 @@ namespace OverflowHelper.core
             URL_Add("Stack Overflow Employees have panic attacks", "https://meta.stackoverflow.com/questions/387546/we-re-removing-hot-meta-posts-from-stack-overflows-sidebar-for-now-moderator/387633#387633");
 
             URL_Add("Should 'Hi', 'thanks', taglines, and salutations be removed from posts?", "https://meta.stackexchange.com/questions/2950/");
-
-            URL_Add("Stack Exchange greetings filter", "https://meta.stackexchange.com/questions/2950/should-hi-thanks-taglines-and-salutations-be-removed-from-posts/93989#93989");
-
-            URL_Add("Stack Overflow data dump", "https://meta.stackexchange.com/tags/data-dump/info");
-
-            URL_Add("documentation dump on Stack Overflow", "https://stackoverflow.com/questions/34319000/what-constitutes-a-valid-c-identifier/34319264#34319264");
 
             URL_Add("SciPy", "https://en.wikipedia.org/wiki/SciPy");
 
@@ -145043,10 +144573,6 @@ namespace OverflowHelper.core
             URL_Add("decision tree", "https://en.wikipedia.org/wiki/Decision_tree");
 
             URL_Add("Decision Model and Notation", "https://en.wikipedia.org/wiki/Decision_Model_and_Notation");
-
-            URL_Add("decisional Diffie–Hellman", "https://en.wikipedia.org/wiki/Decisional_Diffie%E2%80%93Hellman_assumption");
-
-            URL_Add("Diffie–Hellman key exchange", "https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange");
 
             URL_Add("shtick", "https://en.wiktionary.org/wiki/shtick#Noun");
 
@@ -145843,8 +145369,6 @@ namespace OverflowHelper.core
             URL_Add("IC", "https://en.wikipedia.org/wiki/Integrated_circuit");
 
             URL_Add("fabless", "https://en.wikipedia.org/wiki/Fabless_manufacturing");
-
-            URL_Add("Stack&nbsp;Exchange API", "https://api.stackexchange.com/docs");
 
             URL_Add("interpret", "https://en.wiktionary.org/wiki/interpret#Verb");
 
@@ -147217,74 +146741,6 @@ namespace OverflowHelper.core
             URL_Add("shelf life", "https://en.wiktionary.org/wiki/shelf_life#Noun");
 
             URL_Add("Sheikh Hasina", "https://en.wikipedia.org/wiki/Sheikh_Hasina");
-
-            URL_Add("shebang", "https://en.wikipedia.org/wiki/Shebang_(Unix)");
-
-            URL_Add("Shellsort", "https://en.wikipedia.org/wiki/Shellsort");
-
-            URL_Add("shell", "https://en.wiktionary.org/wiki/shell#Noun");
-
-            URL_Add("subshell", "https://en.wiktionary.org/wiki/subshell#Noun");
-
-            URL_Add("shell script", "https://en.wiktionary.org/wiki/shell_script#Noun");
-
-            URL_Add("ShellCheck", "https://www.shellcheck.net/");
-
-            URL_Add("Shellshock", "https://en.wikipedia.org/wiki/Shellshock_%28software_bug%29");
-
-            URL_Add("SSH", "https://en.wikipedia.org/wiki/Secure_Shell");
-
-            URL_Add("SSH-2", "https://en.wikipedia.org/wiki/Secure_Shell#Version_2.x");
-
-            URL_Add("sshd", "https://en.wikipedia.org/wiki/Secure_Shell#Use");
-
-            URL_Add("BeanShell", "https://en.wikipedia.org/wiki/BeanShell");
-
-            URL_Add("Nushell", "https://www.nushell.sh/book/");
-
-            URL_Add("Quickshell", "https://quickshell.org/about/");
-
-            URL_Add("Qt Quick", "https://en.wikipedia.org/wiki/Qt_Quick");
-
-            URL_Add("$HOME/.bashrc file", "https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Legacy-compatible_Bash_startup_example"); // Old: https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Aliases_and_functions
-
-            URL_Add("$HOME/.profile file", "https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Operating_system_issues_in_Bash_startup"); // Old: https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Setting_inheritable_environment_variables
-
-            URL_Add("$HOME/.bash_profile file", "https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Legacy-compatible_Bash_startup_example");
-
-            URL_Add("Interactive Ruby Shell", "https://en.wikipedia.org/wiki/Interactive_Ruby_Shell");
-
-            URL_Add("walk on eggshells", "https://en.wiktionary.org/wiki/walk_on_eggshells#Verb");
-
-            URL_Add("walking on eggshells", "https://en.wiktionary.org/wiki/walk_on_eggshells#Verb");
-
-            URL_Add("nutshell", "https://en.wiktionary.org/wiki/nutshell#Noun");
-
-            URL_Add("in a nutshell", "https://en.wiktionary.org/wiki/in_a_nutshell#Adverb");
-
-            URL_Add("Python in a Nutshell", "https://www.oreilly.com/library/view/python-in-a/9781098113544/");
-
-            URL_Add("Oh My Posh", "https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal");
-
-            URL_Add("Bash builtin commands", "https://www.gnu.org/software/bash/manual/html_node/Bash-Builtins.html");
-
-            URL_Add("Bourne shell (executable `sh`)", "https://en.wikipedia.org/wiki/Bourne_shell");
-
-            URL_Add("Bash (executable `bash`)", "https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29");
-
-            URL_Add("Z shell (executable `zsh`)", "https://en.wikipedia.org/wiki/Z_shell");
-
-            URL_Add("C shell (executable `csh`)", "https://en.wikipedia.org/wiki/C_shell");
-
-            URL_Add("KornShell (executable `ksh`)", "https://en.wikipedia.org/wiki/KornShell");
-
-            URL_Add("MirBSD KornShell (executable `mksh`)", "https://en.wikipedia.org/wiki/KornShell#Variants");
-
-            URL_Add("Fish (executable `fish`)", "https://en.wikipedia.org/wiki/Fish_(Unix_shell)"); // Old URL: https://en.wikipedia.org/wiki/Friendly_interactive_shell
-
-            URL_Add("Hamilton C shell", "https://en.wikipedia.org/wiki/Hamilton_C_shell");
-
-            URL_Add("ash", "https://en.wikipedia.org/wiki/Almquist_shell");
 
             URL_Add("croissant", "https://en.wiktionary.org/wiki/croissant#Noun");
 
@@ -151072,6 +150528,564 @@ namespace OverflowHelper.core
 
             URL_Add("backscatter", "https://en.wikipedia.org/wiki/Backscatter");
 
+            URL_Add("cmp()", "https://perldoc.perl.org/perlfunc#sort-LIST");
+
+            URL_Add("Strassen algorithm", "https://en.wikipedia.org/wiki/Strassen_algorithm");
+
+            URL_Add("bubble", "https://en.wiktionary.org/wiki/bubble#Noun");
+
+            URL_Add("sort of", "https://en.wiktionary.org/wiki/sort_of#Adverb");
+
+            URL_Add("sorting", "https://en.wiktionary.org/wiki/sorting#Noun");
+
+            URL_Add("bubble sort", "https://en.wikipedia.org/wiki/Bubble_sort");
+
+            URL_Add("quicksort", "https://en.wikipedia.org/wiki/Quicksort");
+
+            URL_Add("radix sort", "https://en.wikipedia.org/wiki/Radix_sort");
+
+            URL_Add("bucket sort", "https://en.wikipedia.org/wiki/Bucket_sort");
+
+            URL_Add("merge sort", "https://en.wikipedia.org/wiki/Merge_sort");
+
+            URL_Add("insertion sort", "https://en.wikipedia.org/wiki/Insertion_sort");
+
+            URL_Add("selection sort", "https://en.wikipedia.org/wiki/Selection_sort");
+
+            URL_Add("Shellsort", "https://en.wikipedia.org/wiki/Shellsort");
+
+            URL_Add("heapsort", "https://en.wikipedia.org/wiki/Heapsort");
+
+            URL_Add("introsort", "https://en.wikipedia.org/wiki/Introsort");
+
+            URL_Add("Timsort", "https://en.wikipedia.org/wiki/Timsort");
+
+            URL_Add("exchange sort", "https://en.wikipedia.org/wiki/Sorting_algorithm#Exchange_sort");
+
+            URL_Add("exchanging", "https://en.wiktionary.org/wiki/exchange#Verb");
+
+            URL_Add("private branch exchange", "https://en.wikipedia.org/wiki/Business_telephone_system");
+
+            URL_Add("New York Stock Exchange", "https://en.wikipedia.org/wiki/New_York_Stock_Exchange");
+
+            URL_Add("Dynamic Data Exchange", "https://en.wikipedia.org/wiki/Dynamic_Data_Exchange");
+
+            URL_Add("Financial Information eXchange", "https://en.wikipedia.org/wiki/Financial_Information_eXchange");
+
+            URL_Add("Internetwork Packet Exchange", "https://en.wikipedia.org/wiki/Internetwork_Packet_Exchange");
+
+            URL_Add("decisional Diffie–Hellman", "https://en.wikipedia.org/wiki/Decisional_Diffie%E2%80%93Hellman_assumption");
+
+            URL_Add("Diffie–Hellman key exchange", "https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange");
+
+            URL_Add("Microsoft Exchange Server", "https://en.wikipedia.org/wiki/Microsoft_Exchange_Server");
+
+            URL_Add("Exchange Server 2003", "https://en.wikipedia.org/wiki/History_of_Microsoft_Exchange_Server#Exchange_Server_2003"); // Old: https://en.wikipedia.org/wiki/Microsoft_Exchange_Server#Exchange_Server_2003
+
+            URL_Add("Stack Exchange Inc.", "https://stackoverflow.co/");
+
+            URL_Add("Stack&nbsp;Exchange API", "https://api.stackexchange.com/docs");
+
+            URL_Add("Stack Exchange user profile", "https://meta.stackexchange.com/questions/332237/documentation-for-stack-exchange-engine-urls/332251#332251");
+
+            URL_Add("Stack Exchange Data Explorer", "https://meta.stackexchange.com/tags/data-explorer/info");
+
+            URL_Add("Stack Exchange RSS feeds", "https://meta.stackexchange.com/questions/151519/what-other-hidden-or-inobvious-rss-feeds-are-available-on-stack-exchange-and-its");
+
+            URL_Add("Stack Exchange magic links", "https://meta.stackexchange.com/questions/92060/add-data-se-style-magic-links-to-comments/94000#94000");
+
+            URL_Add("Stack Exchange greetings filter", "https://meta.stackexchange.com/questions/2950/should-hi-thanks-taglines-and-salutations-be-removed-from-posts/93989#93989");
+
+            URL_Add("Stack Overflow data dump", "https://meta.stackexchange.com/tags/data-dump/info");
+
+            URL_Add("French Defence, Exchange Variation", "https://en.wikipedia.org/wiki/French_Defence#Exchange_Variation:_3.exd5_exd5");
+
+            URL_Add("French Defence", "https://en.wikipedia.org/wiki/French_Defence");
+
+            URL_Add("French", "https://en.wiktionary.org/wiki/French#Adjective");
+
+            URL_Add("Frenchman", "https://en.wiktionary.org/wiki/Frenchman#Noun");
+
+            URL_Add("grande écoles", "https://en.wiktionary.org/wiki/grande_%C3%A9cole#Noun");
+
+            URL_Add("French drain", "https://en.wikipedia.org/wiki/French_drain");
+
+            URL_Add("french fries", "https://en.wiktionary.org/wiki/french_fries#Noun");
+
+            URL_Add("pardon my French", "https://en.wiktionary.org/wiki/pardon_my_French#Verb");
+
+            URL_Add("Evans Gambit", "https://en.wikipedia.org/wiki/Evans_Gambit");
+
+            URL_Add("Evans Gambit Declined", "https://en.wikipedia.org/wiki/Evans_Gambit#Declining_the_gambit");
+
+            URL_Add("Queen's Gambit", "https://en.wikipedia.org/wiki/Queen%27s_Gambit");
+
+            URL_Add("Queen's Gambit Accepted", "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Accepted");
+
+            URL_Add("Queen's Gambit Declined", "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Declined");
+
+            URL_Add("Queen's Gambit Declined, Ragozin Defence", "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Declined#Ragozin_Variation:_4.Nf3_Bb4");
+
+            URL_Add("Queen's Gambit Declined, Cambridge Springs Defense", "https://en.wikipedia.org/wiki/Cambridge_Springs_Defense");
+
+            URL_Add("King's Gambit", "https://en.wikipedia.org/wiki/King's_Gambit");
+
+            URL_Add("King's Gambit, McDonnell Gambit", "https://en.wikipedia.org/wiki/King%27s_Gambit,_McDonnell_Gambit");
+
+            URL_Add("Antonio Radić", "https://en.wikipedia.org/w/index.php?title=Antonio_Radi%C4%87&oldid=978538274"); // Old: https://en.wikipedia.org/wiki/Antonio_Radi%C4%87
+
+            URL_Add("Four Knights Game", "https://en.wikipedia.org/wiki/Four_Knights_Game");
+
+            URL_Add("Vienna Game", "https://en.wikipedia.org/wiki/Vienna_Game");
+
+            URL_Add("Scotch Game", "https://en.wikipedia.org/wiki/Scotch_Game");
+
+            URL_Add("Italian Game", "https://en.wikipedia.org/wiki/Italian_Game");
+
+            URL_Add("Benoni Defense", "https://en.wikipedia.org/wiki/Benoni_Defense");
+
+            URL_Add("Open Sicilian", "https://en.wikipedia.org/wiki/Sicilian_Defence#Open_Sicilian:_2.Nf3_and_3.d4");
+
+            URL_Add("Réti Opening", "https://en.wikipedia.org/wiki/R%C3%A9ti_Opening");
+
+            URL_Add("Catalan Opening", "https://en.wikipedia.org/wiki/Catalan_Opening");
+
+            URL_Add("Giuoco Piano", "https://en.wikipedia.org/wiki/Giuoco_Piano");
+
+            URL_Add("English Opening", "https://en.wikipedia.org/wiki/English_Opening");
+
+            URL_Add("Dutch Defence", "https://en.wikipedia.org/wiki/Dutch_Defence");
+
+            URL_Add("Saragossa Opening", "https://en.wikipedia.org/wiki/Saragossa_Opening");
+
+            URL_Add("Ware Opening, Crab Variation", "https://en.wikipedia.org/wiki/Ware_Opening#Variations");
+
+            URL_Add("Carl's Bremen system", "https://www.chess.com/openings/English-Opening-Carls-Bremen-System");
+
+            URL_Add("Peter Svidler", "https://en.wikipedia.org/wiki/Peter_Svidler");
+
+            URL_Add("Bong-Cloud opening", "https://chess.stackexchange.com/questions/27227");
+
+            URL_Add("Sicilian Defence, Accelerated Dragon", "https://en.wikipedia.org/wiki/Sicilian_Defence,_Accelerated_Dragon");
+
+            URL_Add("Torre Attack", "https://en.wikipedia.org/wiki/Torre_Attack");
+
+            URL_Add("Queen's Indian Defense", "https://en.wikipedia.org/wiki/Queen%27s_Indian_Defense");
+
+            URL_Add("King's Indian Defence", "https://en.wikipedia.org/wiki/King's_Indian_Defence");
+
+            URL_Add("Nimzo-Indian Defence", "https://en.wikipedia.org/wiki/Nimzo-Indian_Defence");
+
+            URL_Add("GPX", "https://en.wikipedia.org/wiki/GPS_Exchange_Format");
+
+            URL_Add("Shog9", "https://meta.stackexchange.com/users/811/shog9");
+
+            URL_Add("SOQL", "https://salesforce.stackexchange.com/tags/soql/info");
+
+            URL_Add("The single source of truth for the site list", "https://meta.stackexchange.com/a/359796");
+
+            URL_Add("```lang-none", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
+
+            URL_Add("```lang-css", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
+
+            URL_Add("```lang-html", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
+
+            URL_Add("```lang-php", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
+
+            URL_Add("```lang-csharp", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
+
+            URL_Add("```lang-java", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
+
+            URL_Add("```lang-javascript", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
+
+            URL_Add("```lang-xml", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
+
+            URL_Add("```lang-python", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
+
+            URL_Add("```lang-cpp", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
+
+            URL_Add("```lang-c", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
+
+            URL_Add("```lang-typescript", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
+
+            URL_Add("```lang-vbnet", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
+
+            URL_Add("```lang-dart", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
+
+            URL_Add("```lang-perl", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
+
+            URL_Add("```lang-yaml", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
+
+            URL_Add("```lang-r", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
+
+            URL_Add("```lang-ruby", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
+
+            URL_Add("```lang-matlab", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
+
+            URL_Add("```lang-objectivec", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
+
+            URL_Add("```lang-rust", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
+
+            URL_Add("```lang-markdown", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
+
+            URL_Add("```lang-swift", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
+
+            URL_Add("```lang-sql", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
+
+            URL_Add("```lang-makefile", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
+
+            URL_Add("```lang-haskell", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
+
+            URL_Add("```lang-golang", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
+
+            URL_Add("Indian", "https://en.wiktionary.org/wiki/Indian#Adjective");
+
+            URL_Add("Indian English", "https://en.wikipedia.org/wiki/Indian_English");
+
+            URL_Add("the Indian space", "https://english.stackexchange.com/questions/4645/is-it-ever-correct-to-have-a-space-before-a-question-or-exclamation-mark#comment206109_4645");
+
+            URL_Add("missing articles (primarily Indians, Poles and Russians)", "https://www.youtube.com/watch?v=1Dax90QyXgI&t=17m54s");
+
+            URL_Add("Indian Standard Time", "https://en.wikipedia.org/wiki/Indian_Standard_Time");
+
+            URL_Add("Rs", "https://en.wikipedia.org/wiki/Indian_rupee");
+
+            URL_Add("do the needful", "https://en.wikipedia.org/wiki/Indian_English#Vocabulary");
+
+            URL_Add("Indian subcontinent", "https://en.wikipedia.org/wiki/Indian_subcontinent");
+
+            URL_Add("Internet Archive", "https://en.wikipedia.org/wiki/Internet_Archive");
+
+            URL_Add("at the time of writing", "https://english.stackexchange.com/questions/199381/is-at-the-time-of-writing-correct");
+
+            URL_Add("Internet&nbsp;Explorer", "https://en.wikipedia.org/wiki/Internet_Explorer");
+
+            URL_Add("Internet&nbsp;Explorer&nbsp;5", "https://en.wikipedia.org/wiki/Internet_Explorer_5");
+
+            URL_Add("Internet&nbsp;Explorer&nbsp;5.5", "https://en.wikipedia.org/wiki/Internet_Explorer_5#Versions");
+
+            URL_Add("Internet&nbsp;Explorer&nbsp;6", "https://en.wikipedia.org/wiki/Internet_Explorer_6");
+
+            URL_Add("Internet&nbsp;Explorer&nbsp;7", "https://en.wikipedia.org/wiki/Internet_Explorer_7");
+
+            URL_Add("Internet&nbsp;Explorer&nbsp;9", "https://en.wikipedia.org/wiki/Internet_Explorer_9");
+
+            URL_Add("Internet&nbsp;Explorer&nbsp;10", "https://en.wikipedia.org/wiki/Internet_Explorer_11#Internet_Explorer_10");
+
+            URL_Add("highlight", "https://en.wiktionary.org/wiki/highlight#Verb");
+
+            URL_Add("highlighting", "https://en.wiktionary.org/wiki/highlight#Verb");
+
+            URL_Add("highlighted", "https://en.wiktionary.org/wiki/highlight#Verb");
+
+            URL_Add("highlighter", "https://en.wiktionary.org/wiki/highlighter#Noun");
+
+            URL_Add("syntax highlighting", "https://en.wikipedia.org/wiki/Syntax_highlighting");
+
+            URL_Add("Hot Network Questions", "https://meta.stackexchange.com/questions/40353/stack-exchange-glossary-dictionary-of-commonly-used-terms/40354#40354");
+
+            URL_Add("Highlight.js", "https://meta.stackexchange.com/questions/353983/goodbye-prettify-hello-highlight-js-swapping-out-our-syntax-highlighter");
+
+            URL_Add("The Nineteenth Byte", "https://chat.stackexchange.com/rooms/240/the-nineteenth-byte");
+
+            URL_Add("the November 2017 Stack Overflow mass layoff", "https://chat.meta.stackexchange.com/transcript/message/7926678#7926678");
+
+            URL_Add("code fence", "https://meta.stackexchange.com/questions/125148/implement-style-fenced-markdown-code-blocks/322000#322000");
+
+            URL_Add("Excavator badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188732#188732");
+
+            URL_Add("Unsung Hero badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/68258#68258");
+
+            URL_Add("Census badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188733#188733");
+
+            URL_Add("Legendary badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188731#188731");
+
+            URL_Add("Marshal badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188732#188732");
+
+            URL_Add("Enthusiast badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188731#188731");
+
+            URL_Add("Tenacious badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/68258#68258");
+
+            URL_Add("Critic badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188732#188732");
+
+            URL_Add("Electorate badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188732#188732");
+
+            URL_Add("Steward badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188732#188732");
+
+            URL_Add("Socratic badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/67399#67399");
+
+            URL_Add("Inquisitive badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/67399#67399");
+
+            URL_Add("Lifeboat badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/68258#68258");
+
+            URL_Add("Refiner badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/68258#68258");
+
+            URL_Add("Guru badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/68258#68258");
+
+            URL_Add("Fanatic badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188731#188731");
+
+            URL_Add("Populist badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/68258#68258");
+
+            URL_Add("Explainer badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/68258#68258");
+
+            URL_Add("Illuminator badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/68258#68258");
+
+            URL_Add("Archaeologist badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188732#188732");
+
+            URL_Add("Enlightened badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/68258#68258");
+
+            URL_Add("Strunk & White badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188732#188732");
+
+            URL_Add("Mortarboard badge", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/67399#67399");
+
+            URL_Add("bad faith", "https://en.wiktionary.org/wiki/bad_faith#Noun");
+
+            URL_Add("bad reputation", "https://en.wiktionary.org/wiki/bad_rap#Noun");
+
+            URL_Add("reputation points", "https://meta.stackoverflow.com/questions/7237/how-does-reputation-work");
+
+            URL_Add("judicious use of obnoxious lists", "https://meta.stackexchange.com/questions/17204/six-simple-tips-to-get-stack-overflow-reputation-fast/17205#17205");
+
+            URL_Add("bad blood", "https://en.wiktionary.org/wiki/bad_blood#Noun");
+
+            URL_Add("badge", "https://en.wiktionary.org/wiki/badge#Noun");
+
+            URL_Add("BadWolf", "https://www.youtube.com/watch?v=EBWy1d-JE6A");
+
+            URL_Add("LibreWolf", "https://en.wikipedia.org/wiki/LibreWolf");
+
+            URL_Add("one’s", "https://en.wiktionary.org/wiki/one%27s#Pronoun");
+
+            URL_Add("somebody else’s", "https://ell.stackexchange.com/questions/15192/which-one-is-right-somebodys-else-or-somebody-elses/15193#15193");
+
+            URL_Add("someone else’s", "https://ell.stackexchange.com/questions/15192/which-one-is-right-somebodys-else-or-somebody-elses/15193#15193");
+
+            URL_Add("someone", "https://en.wiktionary.org/wiki/someone#Pronoun");
+
+            URL_Add("someone’s", "https://en.wiktionary.org/wiki/someone's#Adjective");
+
+            URL_Add("someone else", "https://en.wiktionary.org/wiki/someone_else#Pronoun");
+
+            URL_Add("torrc", "https://tor.stackexchange.com/questions/13037/how-to-config-the-torrc-file");
+
+            URL_Add("besides that", "https://ell.stackexchange.com/questions/56611/should-i-use-besides-or-aside-from-in-the-following-case/108942#108942");
+
+            URL_Add("at the end of", "https://ell.stackexchange.com/questions/16854/should-i-use-at-the-end-of-or-in-the-end-of-in-this-sentence");
+
+            URL_Add("repository pattern", "https://softwareengineering.stackexchange.com/questions/132813/whos-the-author-creator-of-the-repository-pattern");
+
+            URL_Add("unit of work pattern", "https://softwareengineering.stackexchange.com/questions/325844/best-design-pattern-for-two-specific-scenarios-the-first-one-fits-neatly-into-a");
+
+            URL_Add("Open letter to students with homework problems", "https://softwareengineering.meta.stackexchange.com/questions/6166/open-letter-to-students-with-homework-problems");
+
+            URL_Add("profiles", "https://en.wiktionary.org/wiki/profile#Noun");
+
+            URL_Add("documentation dump on Stack Overflow", "https://stackoverflow.com/questions/34319000/what-constitutes-a-valid-c-identifier/34319264#34319264");
+
+            URL_Add("Drupal&nbsp;Answers (Stack Exchange site)", "https://drupal.stackexchange.com/tour");
+
+            URL_Add("Web&nbsp;Applications (Stack Exchange site)", "https://webapps.stackexchange.com/tour");
+
+            URL_Add("Retrocomputing (Stack Exchange site)", "https://retrocomputing.stackexchange.com/tour");
+
+            URL_Add("Arts&nbsp;&&nbsp;Crafts (Stack Exchange site)", "https://crafts.stackexchange.com/tour");
+
+            URL_Add("Ask&nbsp;Patents (Stack Exchange site)", "https://patents.stackexchange.com/tour");
+
+            URL_Add("Anime&nbsp;&&nbsp;Manga (Stack Exchange site)", "https://anime.stackexchange.com/tour");
+
+            URL_Add("Woodworking (Stack Exchange site)", "https://woodworking.stackexchange.com/tour");
+
+            URL_Add("Pets (Stack Exchange site)", "https://pets.stackexchange.com/tour");
+
+            URL_Add("Worldbuilding (Stack Exchange site)", "https://worldbuilding.stackexchange.com/tour");
+
+            URL_Add("Expatriates (Stack Exchange site)", "https://expatriates.stackexchange.com/tour");
+
+            URL_Add("Physical&nbsp;Fitness (Stack Exchange site)", "https://fitness.stackexchange.com/tour");
+
+            URL_Add("Earth&nbsp;Science (Stack Exchange site)", "https://earthscience.stackexchange.com/tour");
+
+            URL_Add("Bicycles (Stack Exchange site)", "https://bicycles.stackexchange.com/tour");
+
+            URL_Add("Skeptics (Stack Exchange site)", "https://skeptics.stackexchange.com/tour");
+
+            URL_Add("Sound&nbsp;Design (Stack Exchange site)", "https://sound.stackexchange.com/tour");
+
+            URL_Add("Travel (Stack Exchange site)", "https://travel.stackexchange.com/tour");
+
+            URL_Add("History (Stack Exchange site)", "https://history.stackexchange.com/tour");
+
+            URL_Add("MathOverflow (Stack Exchange site)", "https://mathoverflow.net/tour");
+
+            URL_Add("Code&nbsp;Golf (Stack Exchange site)", "https://codegolf.stackexchange.com/tour");
+
+            URL_Add("English&nbsp;Language&nbsp;Learners (Stack Exchange site)", "https://ell.stackexchange.com/tour");
+
+            URL_Add("Webmasters (Stack Exchange site)", "https://webmasters.stackexchange.com/tour");
+
+            URL_Add("Puzzling (Stack Exchange site)", "https://puzzling.stackexchange.com/tour");
+
+            URL_Add("Photography (Stack Exchange site)", "https://photo.stackexchange.com/tour");
+
+            URL_Add("Politics (Stack Exchange site)", "https://politics.stackexchange.com/tour");
+
+            URL_Add("Parenting (Stack Exchange site)", "https://parenting.stackexchange.com/tour");
+
+            URL_Add("Movies&nbsp;&&nbsp;TV (Stack Exchange site)", "https://movies.stackexchange.com/tour");
+
+            URL_Add("Theoretical&nbsp;Computer&nbsp;Science (Stack Exchange site)", "https://cstheory.stackexchange.com/tour");
+
+            URL_Add("Matter&nbsp;Modeling (Stack Exchange site)", "https://mattermodeling.stackexchange.com/tour");
+
+            URL_Add("Arqade (Stack Exchange site)", "https://gaming.stackexchange.com/tour");
+
+            URL_Add("Role-playing&nbsp;Games (Stack Exchange site)", "https://rpg.stackexchange.com/tour");
+
+            URL_Add("Astronomy (Stack Exchange site)", "https://astronomy.stackexchange.com/tour");
+
+            URL_Add("Hardware&nbsp;Recommendations (Stack Exchange site)", "https://hardwarerecs.stackexchange.com/tour");
+
+            URL_Add("Monero (Stack Exchange site)", "https://monero.stackexchange.com/tour");
+
+            URL_Add("Graphic&nbsp;Design (Stack Exchange site)", "https://graphicdesign.stackexchange.com/tour");
+
+            URL_Add("Mi&nbsp;Yodeya (Stack Exchange site)", "https://judaism.stackexchange.com/tour");
+
+            URL_Add("Chinese&nbsp;Language (Stack Exchange site)", "https://chinese.stackexchange.com/tour");
+
+            URL_Add("Language&nbsp;Learning (Stack Exchange site)", "https://languagelearning.stackexchange.com/tour");
+
+            URL_Add("Craft&nbsp;CMS (Stack Exchange site)", "https://craftcms.stackexchange.com/tour");
+
+            URL_Add("Open&nbsp;Data (Stack Exchange site)", "https://opendata.stackexchange.com/tour");
+
+            URL_Add("Tridion (Stack Exchange site)", "https://tridion.stackexchange.com/tour");
+
+            URL_Add("Spanish&nbsp;Language (Stack Exchange site)", "https://spanish.stackexchange.com/tour");
+
+            URL_Add("Unix&nbsp;&&nbsp;Linux (Stack Exchange site)", "https://unix.stackexchange.com/tour");
+
+            URL_Add("English&nbsp;Language & Usage (Stack Exchange site)", "https://english.stackexchange.com/tour");
+
+            URL_Add("Stack Overflow на русском (Stack Exchange site)", "https://ru.stackoverflow.com/tour");
+
+            URL_Add("スタック・オーバーフロー (Stack Exchange site)", "https://ja.stackoverflow.com/tour");
+
+            URL_Add("Stack Overflow en español (Stack Exchange site)", "https://es.stackoverflow.com/tour");
+
+            URL_Add("Stack Overflow em Português (Stack Exchange site)", "https://pt.stackoverflow.com/tour");
+
+            URL_Add("Game&nbsp;Development (Stack Exchange site)", "https://gamedev.stackexchange.com/tour");
+
+            URL_Add("Network&nbsp;Engineering (Stack Exchange site)", "https://networkengineering.stackexchange.com/tour");
+
+            URL_Add("Android&nbsp;Enthusiasts (Stack Exchange site)", "https://android.stackexchange.com/tour");
+
+            URL_Add("Constructed&nbsp;Languages (Stack Exchange site)", "https://conlang.stackexchange.com/tour");
+
+            URL_Add("The&nbsp;Workplace (Stack Exchange site)", "https://workplace.stackexchange.com/tour");
+
+            URL_Add("Lifehacks (Stack Exchange site)", "https://lifehacks.stackexchange.com/tour");
+
+            URL_Add("Amateur&nbsp;Radio (Stack Exchange site)", "https://ham.stackexchange.com/tour");
+
+            URL_Add("Signal&nbsp;Processing (Stack Exchange site)", "https://dsp.stackexchange.com/tour");
+
+            URL_Add("Interpersonal&nbsp;Skills (Stack Exchange site)", "https://interpersonal.stackexchange.com/tour");
+
+            URL_Add("Code&nbsp;Review (Stack Exchange site)", "https://codereview.stackexchange.com/tour");
+
+            URL_Add("Video&nbsp;Production (Stack Exchange site)", "https://video.stackexchange.com/tour");
+
+            URL_Add("3D&nbsp;Printing (Stack Exchange site)", "https://3dprinting.stackexchange.com/tour");
+
+            URL_Add("Super&nbsp;User (Stack Exchange site)", "https://superuser.com/tour"); // Old: https://en.wikipedia.org/wiki/Stack_Overflow#Super_User
+
+            URL_Add("Stack&nbsp;Apps", "https://stackapps.com/help"); // Old: http://stackapps.com/about
+
+            URL_Add("Area&nbsp;51 (Stack Exchange site)", "https://area51.stackexchange.com/faq"); // Old: https://en.wikipedia.org/wiki/Stack_Exchange#History. Even older URL: https://en.wikipedia.org/wiki/Stack_Exchange_Network#area51
+
+            URL_Add("Ask&nbsp;Different (Stack Exchange site)", "https://apple.stackexchange.com/tour");
+
+            URL_Add("Robotics (Stack Exchange site)", "https://robotics.stackexchange.com/tour");
+
+            URL_Add("Board&nbsp;&&nbsp;Card&nbsp;Games (Stack Exchange site)", "https://boardgames.stackexchange.com/tour");
+
+            URL_Add("Community&nbsp;Building (Stack Exchange site)", "https://communitybuilding.stackexchange.com/tour");
+
+            URL_Add("Computer&nbsp;Graphics (Stack Exchange site)", "https://computergraphics.stackexchange.com/tour");
+
+            URL_Add("Computer&nbsp;Science&nbsp;Educators (Stack Exchange site)", "https://cseducators.stackexchange.com/tour");
+
+            URL_Add("Computational&nbsp;Science (Stack Exchange site)", "https://scicomp.stackexchange.com/tour");
+
+            URL_Add("shebang", "https://en.wikipedia.org/wiki/Shebang_(Unix)");
+
+            URL_Add("shell", "https://en.wiktionary.org/wiki/shell#Noun");
+
+            URL_Add("subshell", "https://en.wiktionary.org/wiki/subshell#Noun");
+
+            URL_Add("shell script", "https://en.wiktionary.org/wiki/shell_script#Noun");
+
+            URL_Add("ShellCheck", "https://www.shellcheck.net/");
+
+            URL_Add("Shellshock", "https://en.wikipedia.org/wiki/Shellshock_%28software_bug%29");
+
+            URL_Add("SSH", "https://en.wikipedia.org/wiki/Secure_Shell");
+
+            URL_Add("SSH-2", "https://en.wikipedia.org/wiki/Secure_Shell#Version_2.x");
+
+            URL_Add("sshd", "https://en.wikipedia.org/wiki/Secure_Shell#Use");
+
+            URL_Add("BeanShell", "https://en.wikipedia.org/wiki/BeanShell");
+
+            URL_Add("Nushell", "https://www.nushell.sh/book/");
+
+            URL_Add("Quickshell", "https://quickshell.org/about/");
+
+            URL_Add("Qt Quick", "https://en.wikipedia.org/wiki/Qt_Quick");
+
+            URL_Add("$HOME/.bashrc file", "https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Legacy-compatible_Bash_startup_example"); // Old: https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Aliases_and_functions
+
+            URL_Add("$HOME/.profile file", "https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Operating_system_issues_in_Bash_startup"); // Old: https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Setting_inheritable_environment_variables
+
+            URL_Add("$HOME/.bash_profile file", "https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Legacy-compatible_Bash_startup_example");
+
+            URL_Add("Interactive Ruby Shell", "https://en.wikipedia.org/wiki/Interactive_Ruby_Shell");
+
+            URL_Add("walk on eggshells", "https://en.wiktionary.org/wiki/walk_on_eggshells#Verb");
+
+            URL_Add("walking on eggshells", "https://en.wiktionary.org/wiki/walk_on_eggshells#Verb");
+
+            URL_Add("nutshell", "https://en.wiktionary.org/wiki/nutshell#Noun");
+
+            URL_Add("in a nutshell", "https://en.wiktionary.org/wiki/in_a_nutshell#Adverb");
+
+            URL_Add("Python in a Nutshell", "https://www.oreilly.com/library/view/python-in-a/9781098113544/");
+
+            URL_Add("Oh My Posh", "https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal");
+
+            URL_Add("Bash builtin commands", "https://www.gnu.org/software/bash/manual/html_node/Bash-Builtins.html");
+
+            URL_Add("Bourne shell (executable `sh`)", "https://en.wikipedia.org/wiki/Bourne_shell");
+
+            URL_Add("Bash (executable `bash`)", "https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29");
+
+            URL_Add("Z shell (executable `zsh`)", "https://en.wikipedia.org/wiki/Z_shell");
+
+            URL_Add("C shell (executable `csh`)", "https://en.wikipedia.org/wiki/C_shell");
+
+            URL_Add("KornShell (executable `ksh`)", "https://en.wikipedia.org/wiki/KornShell");
+
+            URL_Add("MirBSD KornShell (executable `mksh`)", "https://en.wikipedia.org/wiki/KornShell#Variants");
+
+            URL_Add("Fish (executable `fish`)", "https://en.wikipedia.org/wiki/Fish_(Unix_shell)"); // Old URL: https://en.wikipedia.org/wiki/Friendly_interactive_shell
+
+            URL_Add("Hamilton C shell", "https://en.wikipedia.org/wiki/Hamilton_C_shell");
+
+            URL_Add("ash", "https://en.wikipedia.org/wiki/Almquist_shell");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -154528,6 +154542,7 @@ namespace OverflowHelper.core
             // Electronics
             correctionAdd("soldered's_", "solders_");
             correctionAdd("sauters_", "solders_");
+            correctionAdd("sauders_", "solders_");
 
             correctionAdd("Process Identification Number_", "PID_");
             correctionAdd("process identification number_", "PID_");
@@ -157557,9 +157572,6 @@ namespace OverflowHelper.core
             correctionAdd("Map_", "map()_");
 
             // A Python function
-            correctionAdd("sort_", "sort()_");
-
-            // A Python function
             correctionAdd("repr_", "repr()_");
 
             // A Python function
@@ -160108,6 +160120,12 @@ namespace OverflowHelper.core
             correctionAdd("Razor_", "Razer BlackWidow_");
             correctionAdd("Razer_", "Razer BlackWidow_");
 
+            correctionAdd("saught_", "sought_");
+            correctionAdd("seeked_", "sought_");
+
+            correctionAdd("sought after_", "sought-after_");
+            correctionAdd("sort after_", "sought-after_");
+
             correctionAdd("sorted_", "sorted out_");
 
             // The verb
@@ -161823,6 +161841,10 @@ namespace OverflowHelper.core
             // Of PowerShell...
             correctionAdd("measure-object_", "Measure-Object_");
             correctionAdd("measure_", "Measure-Object_"); // A (standard) alias (corresponding to Unix)
+
+            // Of PowerShell...
+            correctionAdd("sort-object_", "Sort-Object_");
+            correctionAdd("sort_", "Sort-Object_"); // An alias.
 
             correctionAdd("amplif_", "amplifier_");
             correctionAdd("amp_", "amplifier_");
@@ -166677,12 +166699,6 @@ namespace OverflowHelper.core
             correctionAdd("ph_", "pH_");
             correctionAdd("PH_", "pH_");
 
-            correctionAdd("saught_", "sought_");
-            correctionAdd("seeked_", "sought_");
-
-            correctionAdd("sought after_", "sought-after_");
-            correctionAdd("sort after_", "sought-after_");
-
             correctionAdd("paires_", "pairs_");
 
             correctionAdd("badages_", "badges_"); // Probably a true typo
@@ -166785,6 +166801,7 @@ namespace OverflowHelper.core
             correctionAdd("custom_", "customise_");
 
             correctionAdd("saudering iron_", "soldering iron_");
+            correctionAdd("sautering iron_", "soldering iron_");
             correctionAdd("solder iron_", "soldering iron_");
             correctionAdd("iron_", "soldering iron_");
 
@@ -168074,8 +168091,6 @@ namespace OverflowHelper.core
 
             URL_Add("horde_", "https://en.wiktionary.org/wiki/horde#Noun");
 
-            URL_Add("Stack Exchange Data Explorer_", "https://data.stackexchange.com/users/10901/peter-mortensen-resurrected");
-
             URL_Add("guide_", "https://en.wiktionary.org/wiki/guide#Noun");
 
             URL_Add("probability density function_", "https://en.wikipedia.org/wiki/Probability_density_function");
@@ -168093,10 +168108,6 @@ namespace OverflowHelper.core
             URL_Add("cutoff_", "https://en.wiktionary.org/wiki/cutoff#Noun");
 
             URL_Add("Flex_", "https://api.flutter.dev/flutter/widgets/Flex-class.html");
-
-            URL_Add("sorted out_", "https://en.wiktionary.org/wiki/sort_out#Verb");
-
-            URL_Add("lay out_", "https://en.wiktionary.org/wiki/lay_out#Verb");
 
             URL_Add("scope_", "https://en.wiktionary.org/wiki/scope#Noun");
 
@@ -168401,8 +168412,6 @@ namespace OverflowHelper.core
             URL_Add("Sangheili_", "https://www.halopedia.org/Sangheili");
 
             URL_Add("Gemini_", "https://en.wikipedia.org/wiki/Gemini_(chatbot)");
-
-            URL_Add("Meta&nbsp;Stack&nbsp;Exchange_", "https://meta.stackexchange.com/help/whats-meta");
 
             URL_Add("loud_", "https://en.wiktionary.org/wiki/loud#Adjective");
 
@@ -169219,14 +169228,6 @@ namespace OverflowHelper.core
             URL_Add("name server_", "https://en.wikipedia.org/wiki/Name_server");
 
             URL_Add("collaborations_", "https://en.wiktionary.org/wiki/collaboration#Noun");
-
-            URL_Add("foreign exchange market_", "https://en.wikipedia.org/wiki/Foreign_exchange_market");
-
-            URL_Add("marked_", "https://en.wiktionary.org/wiki/mark#Verb");
-
-            URL_Add("Markdown_", "https://en.wikipedia.org/wiki/Markdown");
-
-            URL_Add("CommonMark_", "https://meta.stackexchange.com/questions/348746/were-switching-to-commonmark");
 
             URL_Add("Grandmaster_", "https://en.wikipedia.org/wiki/Grandmaster_(chess)");
 
@@ -171132,8 +171133,6 @@ namespace OverflowHelper.core
 
             URL_Add("unittest_", "https://docs.python.org/3.8/library/unittest.html");
 
-            URL_Add("sort()_", "https://docs.python.org/3.8/library/stdtypes.html#list.sort");
-
             URL_Add("map()_", "https://docs.python.org/3.8/library/functions.html#map");
 
             URL_Add("csv (the (literal) name of a Python module)_", "https://docs.python.org/3.8/library/csv.html");
@@ -171348,8 +171347,6 @@ namespace OverflowHelper.core
 
             URL_Add("reproduction_", "https://en.wiktionary.org/wiki/reproduction#Noun");
 
-            URL_Add("Stack Exchange glossary_", "https://meta.stackexchange.com/questions/40353/stack-exchange-glossary-dictionary-of-commonly-used-terms");
-
             URL_Add("Text Editor_", "https://help.ubuntu.com/community/gedit");
 
             URL_Add("Electron_", "https://en.wikipedia.org/wiki/Electron_(software_framework)");
@@ -171440,6 +171437,8 @@ namespace OverflowHelper.core
 
             URL_Add("Measure-Object_", "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/measure-object"); // Old: <http://technet.microsoft.com/en-us/library/hh849965.aspx>
 
+            URL_Add("Sort-Object_", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/Sort-Object"); // Old: http://technet.microsoft.com/en-us/library/hh849912.aspx
+
             URL_Add("PowerShell ISE_", "https://docs.microsoft.com/en-us/powershell/scripting/windows-powershell/ise/introducing-the-windows-powershell-ise"); // Old: https://technet.microsoft.com/en-us/library/dd315244.aspx
 
             URL_Add("start_", "https://ss64.com/nt/start.html");
@@ -171471,110 +171470,6 @@ namespace OverflowHelper.core
             URL_Add("So I am a masochist on a diet, am I?_", "https://www.youtube.com/watch?v=eAswvg60FnY&t=1m23s");
 
             URL_Add("if you are very lucky, I will read some of my poetry first_", "https://www.youtube.com/watch?v=F5P3lZu4xeI&list=PLSoD2CcPrumFUOPyA8aLONTz5jr-IQFu5&index=6&t=0m47s");
-
-            URL_Add("Chemistry (Stack Exchange site)_", "https://chemistry.stackexchange.com/tour");
-
-            URL_Add("Islam (Stack Exchange site)_", "https://islam.stackexchange.com/tour");
-
-            URL_Add("Joomla (Stack Exchange site)_", "https://joomla.stackexchange.com/tour");
-
-            URL_Add("Law (Stack Exchange site)_", "https://law.stackexchange.com/tour");
-
-            URL_Add("Physics (Stack Exchange site)_", "https://physics.stackexchange.com/tour");
-
-            URL_Add("Aviation (Stack Exchange site)_", "https://aviation.stackexchange.com/tour");
-
-            URL_Add("Seasoned&nbsp;Advice (Stack Exchange site)_", "https://cooking.stackexchange.com/tour"); // Old (blantantly wroing): https://bitcoin.stackexchange.com/tour
-
-            URL_Add("Database&nbsp;Administrators (Stack Exchange site)_", "https://dba.stackexchange.com/tour");
-
-            URL_Add("Biblical&nbsp;Hermeneutics (Stack Exchange site)_", "https://hermeneutics.stackexchange.com/tour");
-
-            URL_Add("Motor&nbsp;Vehicle&nbsp;Maintenance&nbsp;&&nbsp;Repair (Stack Exchange site)_", "https://mechanics.stackexchange.com/tour");
-
-            URL_Add("Salesforce (Stack Exchange site)_", "https://salesforce.stackexchange.com/tour");
-
-            URL_Add("Christianity (Stack Exchange site)_", "https://christianity.stackexchange.com/tour");
-
-            URL_Add("Academia (Stack Exchange site)_", "https://academia.stackexchange.com/tour");
-
-            URL_Add("Music:&nbsp;Practice&nbsp;&&nbsp;Theory (Stack Exchange site)_", "https://music.stackexchange.com/tour");
-
-            URL_Add("Psychology&nbsp;&&nbsp;Neuroscience (Stack Exchange site)_", "https://psychology.stackexchange.com/tour");
-
-            URL_Add("Science&nbsp;Fiction&nbsp;&&nbsp;Fantasy (Stack Exchange site)_", "https://scifi.stackexchange.com/tour");
-
-            URL_Add("Emacs (Stack Exchange site)_", "https://emacs.stackexchange.com/tour");
-
-            URL_Add("Ethereum (Stack Exchange site)_", "https://ethereum.stackexchange.com/tour");
-
-            URL_Add("CS50 (Stack Exchange site)_", "https://cs50.stackexchange.com/tour");
-
-            URL_Add("Philosophy (Stack Exchange site)_", "https://philosophy.stackexchange.com/tour");
-
-            URL_Add("DevOps (Stack Exchange site)_", "https://devops.stackexchange.com/tour");
-
-            URL_Add("Computer&nbsp;Science (Stack Exchange site)_", "https://cs.stackexchange.com/tour");
-
-            URL_Add("Information&nbsp;Security (Stack Exchange site)_", "https://security.stackexchange.com/tour");
-
-            URL_Add("Coffee (Stack Exchange site)_", "https://coffee.stackexchange.com/tour");
-
-            URL_Add("Home&nbsp;Improvement (Stack Exchange site)_", "https://diy.stackexchange.com/tour");
-
-            URL_Add("Open&nbsp;Source (Stack Exchange site)_", "https://opensource.stackexchange.com/tour");
-
-            URL_Add("Blender (Stack Exchange site)_", "https://blender.stackexchange.com/tour");
-
-            URL_Add("Data&nbsp;Science (Stack Exchange site)_", "https://datascience.stackexchange.com/tour");
-
-            URL_Add("Chess (Stack Exchange site)_", "https://chess.stackexchange.com/tour");
-
-            URL_Add("TeX&nbsp;-&nbsp;LaTeX (Stack Exchange site)_", "https://tex.stackexchange.com/tour");
-
-            URL_Add("Vi&nbsp;and&nbsp;Vim (Stack Exchange site)_", "https://vi.stackexchange.com/tour");
-
-            URL_Add("GenAI (Stack Exchange site)_", "https://genai.stackexchange.com/tour");
-
-            URL_Add("Freelancing (Stack Exchange site)_", "https://freelancing.stackexchange.com/tour");
-
-            URL_Add("Tor (Stack Exchange site)_", "https://tor.stackexchange.com/tour");
-
-            URL_Add("Medical&nbsp;Sciences (Stack Exchange site)_", "https://medicalsciences.stackexchange.com/tour");
-
-            URL_Add("Software&nbsp;Quality&nbsp;Assurance&nbsp;&&nbsp;Testing (Stack Exchange site)_", "https://sqa.stackexchange.com/tour");
-
-            URL_Add("Engineering (Stack Exchange site)_", "https://engineering.stackexchange.com/tour");
-
-            URL_Add("Electrical&nbsp;Engineering (Stack Exchange site)_", "https://electronics.stackexchange.com/tour");
-
-            URL_Add("Mathematica (Stack Exchange site)_", "https://mathematica.stackexchange.com/tour");
-
-            URL_Add("User&nbsp;Experience (Stack Exchange site)_", "https://ux.stackexchange.com/tour");
-
-            URL_Add("Writing (Stack Exchange site)_", "https://writing.stackexchange.com/tour");
-
-            URL_Add("Geographic&nbsp;Information&nbsp;Systems (Stack Exchange site)_", "https://gis.stackexchange.com/tour");
-
-            URL_Add("Bioinformatics (Stack Exchange site)_", "https://bioinformatics.stackexchange.com/tour");
-
-            URL_Add("Biology (Stack Exchange site)_", "https://biology.stackexchange.com/tour");
-
-            URL_Add("Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)_", "https://languagedesign.stackexchange.com/tour");
-
-            URL_Add("Bitcoin (Stack Exchange site)_", "https://bitcoin.stackexchange.com/tour");
-
-            URL_Add("Software&nbsp;Recommendations (Stack Exchange site)_", "https://softwarerecs.stackexchange.com/tour");
-
-            URL_Add("Linguistics (Stack Exchange site)_", "https://linguistics.stackexchange.com/tour");
-
-            URL_Add("WordPress&nbsp;Development (Stack Exchange site)_", "https://wordpress.stackexchange.com/tour");
-
-            URL_Add("Cross&nbsp;Validated (Stack Exchange site)_", "https://stats.stackexchange.com/tour");
-
-            URL_Add("Artificial&nbsp;Intelligence (Stack Exchange site)_", "https://ai.stackexchange.com/tour");
-
-            URL_Add("Stack&nbsp;Overflow_", "https://policies.stackoverflow.co/company/trademark-guidance/"); // Old: <https://stackoverflow.com/legal/trademark-guidance> Even older: https://stackoverflow.design/brand/copywriting/naming/. Old: https://stackoverflow.com/tour
 
             URL_Add("Git branch_", "https://en.wikipedia.org/wiki/Git#Data_structures");
 
@@ -172209,6 +172104,128 @@ namespace OverflowHelper.core
             URL_Add("bottom_", "https://en.wiktionary.org/wiki/bottom#Noun");
 
             URL_Add("'like button'_", "https://en.wikipedia.org/wiki/Like_button");
+
+            URL_Add("lay out_", "https://en.wiktionary.org/wiki/lay_out#Verb");
+
+            URL_Add("sorted out_", "https://en.wiktionary.org/wiki/sort_out#Verb");
+
+            URL_Add("Markdown_", "https://en.wikipedia.org/wiki/Markdown");
+
+            URL_Add("CommonMark_", "https://meta.stackexchange.com/questions/348746/were-switching-to-commonmark");
+
+            URL_Add("marked_", "https://en.wiktionary.org/wiki/mark#Verb");
+
+            URL_Add("foreign exchange market_", "https://en.wikipedia.org/wiki/Foreign_exchange_market");
+
+            URL_Add("Stack Exchange glossary_", "https://meta.stackexchange.com/questions/40353/stack-exchange-glossary-dictionary-of-commonly-used-terms");
+
+            URL_Add("Stack Exchange Data Explorer_", "https://data.stackexchange.com/users/10901/peter-mortensen-resurrected");
+
+            URL_Add("Stack&nbsp;Overflow_", "https://policies.stackoverflow.co/company/trademark-guidance/"); // Old: <https://stackoverflow.com/legal/trademark-guidance> Even older: https://stackoverflow.design/brand/copywriting/naming/. Old: https://stackoverflow.com/tour
+
+            URL_Add("Meta&nbsp;Stack&nbsp;Exchange_", "https://meta.stackexchange.com/help/whats-meta");
+
+            URL_Add("Chemistry (Stack Exchange site)_", "https://chemistry.stackexchange.com/tour");
+
+            URL_Add("Islam (Stack Exchange site)_", "https://islam.stackexchange.com/tour");
+
+            URL_Add("Joomla (Stack Exchange site)_", "https://joomla.stackexchange.com/tour");
+
+            URL_Add("Law (Stack Exchange site)_", "https://law.stackexchange.com/tour");
+
+            URL_Add("Physics (Stack Exchange site)_", "https://physics.stackexchange.com/tour");
+
+            URL_Add("Aviation (Stack Exchange site)_", "https://aviation.stackexchange.com/tour");
+
+            URL_Add("Seasoned&nbsp;Advice (Stack Exchange site)_", "https://cooking.stackexchange.com/tour"); // Old (blantantly wroing): https://bitcoin.stackexchange.com/tour
+
+            URL_Add("Database&nbsp;Administrators (Stack Exchange site)_", "https://dba.stackexchange.com/tour");
+
+            URL_Add("Biblical&nbsp;Hermeneutics (Stack Exchange site)_", "https://hermeneutics.stackexchange.com/tour");
+
+            URL_Add("Motor&nbsp;Vehicle&nbsp;Maintenance&nbsp;&&nbsp;Repair (Stack Exchange site)_", "https://mechanics.stackexchange.com/tour");
+
+            URL_Add("Salesforce (Stack Exchange site)_", "https://salesforce.stackexchange.com/tour");
+
+            URL_Add("Christianity (Stack Exchange site)_", "https://christianity.stackexchange.com/tour");
+
+            URL_Add("Academia (Stack Exchange site)_", "https://academia.stackexchange.com/tour");
+
+            URL_Add("Music:&nbsp;Practice&nbsp;&&nbsp;Theory (Stack Exchange site)_", "https://music.stackexchange.com/tour");
+
+            URL_Add("Psychology&nbsp;&&nbsp;Neuroscience (Stack Exchange site)_", "https://psychology.stackexchange.com/tour");
+
+            URL_Add("Science&nbsp;Fiction&nbsp;&&nbsp;Fantasy (Stack Exchange site)_", "https://scifi.stackexchange.com/tour");
+
+            URL_Add("Emacs (Stack Exchange site)_", "https://emacs.stackexchange.com/tour");
+
+            URL_Add("Ethereum (Stack Exchange site)_", "https://ethereum.stackexchange.com/tour");
+
+            URL_Add("CS50 (Stack Exchange site)_", "https://cs50.stackexchange.com/tour");
+
+            URL_Add("Philosophy (Stack Exchange site)_", "https://philosophy.stackexchange.com/tour");
+
+            URL_Add("DevOps (Stack Exchange site)_", "https://devops.stackexchange.com/tour");
+
+            URL_Add("Computer&nbsp;Science (Stack Exchange site)_", "https://cs.stackexchange.com/tour");
+
+            URL_Add("Information&nbsp;Security (Stack Exchange site)_", "https://security.stackexchange.com/tour");
+
+            URL_Add("Coffee (Stack Exchange site)_", "https://coffee.stackexchange.com/tour");
+
+            URL_Add("Home&nbsp;Improvement (Stack Exchange site)_", "https://diy.stackexchange.com/tour");
+
+            URL_Add("Open&nbsp;Source (Stack Exchange site)_", "https://opensource.stackexchange.com/tour");
+
+            URL_Add("Blender (Stack Exchange site)_", "https://blender.stackexchange.com/tour");
+
+            URL_Add("Data&nbsp;Science (Stack Exchange site)_", "https://datascience.stackexchange.com/tour");
+
+            URL_Add("Chess (Stack Exchange site)_", "https://chess.stackexchange.com/tour");
+
+            URL_Add("TeX&nbsp;-&nbsp;LaTeX (Stack Exchange site)_", "https://tex.stackexchange.com/tour");
+
+            URL_Add("Vi&nbsp;and&nbsp;Vim (Stack Exchange site)_", "https://vi.stackexchange.com/tour");
+
+            URL_Add("GenAI (Stack Exchange site)_", "https://genai.stackexchange.com/tour");
+
+            URL_Add("Freelancing (Stack Exchange site)_", "https://freelancing.stackexchange.com/tour");
+
+            URL_Add("Tor (Stack Exchange site)_", "https://tor.stackexchange.com/tour");
+
+            URL_Add("Medical&nbsp;Sciences (Stack Exchange site)_", "https://medicalsciences.stackexchange.com/tour");
+
+            URL_Add("Software&nbsp;Quality&nbsp;Assurance&nbsp;&&nbsp;Testing (Stack Exchange site)_", "https://sqa.stackexchange.com/tour");
+
+            URL_Add("Engineering (Stack Exchange site)_", "https://engineering.stackexchange.com/tour");
+
+            URL_Add("Electrical&nbsp;Engineering (Stack Exchange site)_", "https://electronics.stackexchange.com/tour");
+
+            URL_Add("Mathematica (Stack Exchange site)_", "https://mathematica.stackexchange.com/tour");
+
+            URL_Add("User&nbsp;Experience (Stack Exchange site)_", "https://ux.stackexchange.com/tour");
+
+            URL_Add("Writing (Stack Exchange site)_", "https://writing.stackexchange.com/tour");
+
+            URL_Add("Geographic&nbsp;Information&nbsp;Systems (Stack Exchange site)_", "https://gis.stackexchange.com/tour");
+
+            URL_Add("Bioinformatics (Stack Exchange site)_", "https://bioinformatics.stackexchange.com/tour");
+
+            URL_Add("Biology (Stack Exchange site)_", "https://biology.stackexchange.com/tour");
+
+            URL_Add("Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)_", "https://languagedesign.stackexchange.com/tour");
+
+            URL_Add("Bitcoin (Stack Exchange site)_", "https://bitcoin.stackexchange.com/tour");
+
+            URL_Add("Software&nbsp;Recommendations (Stack Exchange site)_", "https://softwarerecs.stackexchange.com/tour");
+
+            URL_Add("Linguistics (Stack Exchange site)_", "https://linguistics.stackexchange.com/tour");
+
+            URL_Add("WordPress&nbsp;Development (Stack Exchange site)_", "https://wordpress.stackexchange.com/tour");
+
+            URL_Add("Cross&nbsp;Validated (Stack Exchange site)_", "https://stats.stackexchange.com/tour");
+
+            URL_Add("Artificial&nbsp;Intelligence (Stack Exchange site)_", "https://ai.stackexchange.com/tour");
 
         } //addLookupData_alternativeWordSet()
 
@@ -174731,24 +174748,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Hi__", "thanks in advance__");
 
-            correctionAdd("Experts&nbsp;Exchange__", "Experts-Exchange__");
-            correctionAdd("Experts exchange__", "Experts-Exchange__");
-            correctionAdd("experts exchange__", "Experts-Exchange__");
-            correctionAdd("Experts Exchange__", "Experts-Exchange__");
-            correctionAdd("experts-exchange__", "Experts-Exchange__");
-            correctionAdd("Expert Sexchange__", "Experts-Exchange__");
-            correctionAdd("expertsexchange__", "Experts-Exchange__");
-            correctionAdd("the hyphen site__", "Experts-Exchange__");
-            correctionAdd("Expertsexchange__", "Experts-Exchange__");
-            correctionAdd("ExpertsExchange__", "Experts-Exchange__");
-            correctionAdd("Expert-Exchange__", "Experts-Exchange__");
-            correctionAdd("sex change site__", "Experts-Exchange__");
-            correctionAdd("expertexchange__", "Experts-Exchange__");
-            correctionAdd("hyphen site__", "Experts-Exchange__");
-            correctionAdd("Hyphen Site__", "Experts-Exchange__");
-            correctionAdd("E-E__", "Experts-Exchange__");
-            correctionAdd("EE__", "Experts-Exchange__");
-
             correctionAdd("eyedea__", "idea__"); // An autocorrect "masterpiece"?
             correctionAdd("ideea__", "idea__");
             correctionAdd("idear__", "idea__");
@@ -174918,6 +174917,24 @@ namespace OverflowHelper.core
             correctionAdd("cg__", "the Stack Overflow ban on simulated intelligence-generated content__");
             correctionAdd("AI__", "the Stack Overflow ban on simulated intelligence-generated content__");
 
+            correctionAdd("Experts&nbsp;Exchange__", "Experts-Exchange__");
+            correctionAdd("Experts exchange__", "Experts-Exchange__");
+            correctionAdd("experts exchange__", "Experts-Exchange__");
+            correctionAdd("Experts Exchange__", "Experts-Exchange__");
+            correctionAdd("experts-exchange__", "Experts-Exchange__");
+            correctionAdd("Expert Sexchange__", "Experts-Exchange__");
+            correctionAdd("expertsexchange__", "Experts-Exchange__");
+            correctionAdd("the hyphen site__", "Experts-Exchange__");
+            correctionAdd("Expertsexchange__", "Experts-Exchange__");
+            correctionAdd("ExpertsExchange__", "Experts-Exchange__");
+            correctionAdd("Expert-Exchange__", "Experts-Exchange__");
+            correctionAdd("sex change site__", "Experts-Exchange__");
+            correctionAdd("expertexchange__", "Experts-Exchange__");
+            correctionAdd("hyphen site__", "Experts-Exchange__");
+            correctionAdd("Hyphen Site__", "Experts-Exchange__");
+            correctionAdd("E-E__", "Experts-Exchange__");
+            correctionAdd("EE__", "Experts-Exchange__");
+
             // Alternative URLs:
             //
             //   <https://stackexchange.com/sites?view=list#questionsperday>
@@ -175057,6 +175074,25 @@ namespace OverflowHelper.core
             correctionAdd("expla__", "\"Explanation is vital for a good answer.\"__"); // For a shorthand
             correctionAdd("expl__", "\"Explanation is vital for a good answer.\"__"); // For a shorthand
             correctionAdd("gist__", "\"Explanation is vital for a good answer.\"__"); // For the cross-reference
+
+            correctionAdd("Ask Ubuntu (Stack Exchange site)__", "Ask&nbsp;Ubuntu (Stack Exchange site)__"); // Sort of identity mapping
+            correctionAdd("Ask&nbsp;Ubuntu__", "Ask&nbsp;Ubuntu (Stack Exchange site)__"); // Sort of identity mapping
+            correctionAdd("ubuntu answers__", "Ask&nbsp;Ubuntu (Stack Exchange site)__");
+            correctionAdd("askubuntu.com__", "Ask&nbsp;Ubuntu (Stack Exchange site)__");
+            correctionAdd("AskUbuntuSE__", "Ask&nbsp;Ubuntu (Stack Exchange site)__");
+            correctionAdd("Ask Ubuntu__", "Ask&nbsp;Ubuntu (Stack Exchange site)__");
+            correctionAdd("Ask ubuntu__", "Ask&nbsp;Ubuntu (Stack Exchange site)__");
+            correctionAdd("ask ubuntu__", "Ask&nbsp;Ubuntu (Stack Exchange site)__");
+            correctionAdd("ask-ubuntu__", "Ask&nbsp;Ubuntu (Stack Exchange site)__");
+            correctionAdd("Ask Ubunut__", "Ask&nbsp;Ubuntu (Stack Exchange site)__");
+            correctionAdd("askubuntu__", "Ask&nbsp;Ubuntu (Stack Exchange site)__");
+            correctionAdd("AskUbuntu__", "Ask&nbsp;Ubuntu (Stack Exchange site)__");
+            correctionAdd("Askubuntu__", "Ask&nbsp;Ubuntu (Stack Exchange site)__");
+            correctionAdd("AskUbunut__", "Ask&nbsp;Ubuntu (Stack Exchange site)__");
+            correctionAdd("AU.SE__", "Ask&nbsp;Ubuntu (Stack Exchange site)__");
+            correctionAdd("AU__", "Ask&nbsp;Ubuntu (Stack Exchange site)__");
+
+            correctionAdd("Arduino__", "Arduino (Stack Exchange site)__");
 
             // Verbose version of "uses" (as a noun)
             //
@@ -176819,25 +176855,6 @@ namespace OverflowHelper.core
             correctionAdd("autocmd__", "autocommand__");
             correctionAdd("au__", "autocommand__");
 
-            correctionAdd("Ask Ubuntu (Stack Exchange site)__", "Ask&nbsp;Ubuntu (Stack Exchange site)__"); // Sort of identity mapping
-            correctionAdd("Ask&nbsp;Ubuntu__", "Ask&nbsp;Ubuntu (Stack Exchange site)__"); // Sort of identity mapping
-            correctionAdd("ubuntu answers__", "Ask&nbsp;Ubuntu (Stack Exchange site)__");
-            correctionAdd("askubuntu.com__", "Ask&nbsp;Ubuntu (Stack Exchange site)__");
-            correctionAdd("AskUbuntuSE__", "Ask&nbsp;Ubuntu (Stack Exchange site)__");
-            correctionAdd("Ask Ubuntu__", "Ask&nbsp;Ubuntu (Stack Exchange site)__");
-            correctionAdd("Ask ubuntu__", "Ask&nbsp;Ubuntu (Stack Exchange site)__");
-            correctionAdd("ask ubuntu__", "Ask&nbsp;Ubuntu (Stack Exchange site)__");
-            correctionAdd("ask-ubuntu__", "Ask&nbsp;Ubuntu (Stack Exchange site)__");
-            correctionAdd("Ask Ubunut__", "Ask&nbsp;Ubuntu (Stack Exchange site)__");
-            correctionAdd("askubuntu__", "Ask&nbsp;Ubuntu (Stack Exchange site)__");
-            correctionAdd("AskUbuntu__", "Ask&nbsp;Ubuntu (Stack Exchange site)__");
-            correctionAdd("Askubuntu__", "Ask&nbsp;Ubuntu (Stack Exchange site)__");
-            correctionAdd("AskUbunut__", "Ask&nbsp;Ubuntu (Stack Exchange site)__");
-            correctionAdd("AU.SE__", "Ask&nbsp;Ubuntu (Stack Exchange site)__");
-            correctionAdd("AU__", "Ask&nbsp;Ubuntu (Stack Exchange site)__");
-
-            correctionAdd("Arduino__", "Arduino (Stack Exchange site)__");
-
             correctionAdd("\"WIRED\" Magazine__", "Wired__");
             correctionAdd("WIRED Magazine__", "Wired__");
             correctionAdd("WIRED__", "Wired__");
@@ -177519,8 +177536,6 @@ namespace OverflowHelper.core
 
             URL_Add("autocommand__", "https://vimdoc.sourceforge.net/htmldoc/usr_40.html#40.3");
 
-            URL_Add("Ask&nbsp;Ubuntu (Stack Exchange site)__", "https://askubuntu.com/tour");
-
             URL_Add("reseat__", "https://en.wiktionary.org/wiki/reseat#Verb");
 
             URL_Add("reseating__", "https://en.wiktionary.org/wiki/reseat#Verb");
@@ -177562,8 +177577,6 @@ namespace OverflowHelper.core
             URL_Add("did not finish__", "https://en.wiktionary.org/wiki/DNF#Verb_2");
 
             URL_Add("palm__", "https://en.wiktionary.org/wiki/palm#Noun_2");
-
-            URL_Add("Arduino (Stack Exchange site)__", "https://arduino.stackexchange.com/tour");
 
             URL_Add("2.4&nbsp;GHz__", "https://en.wikipedia.org/wiki/Wi-Fi#History");
 
@@ -178455,18 +178468,6 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron M2__", "https://www.keychron.com/products/keychron-m2-wireless-mouse");
 
-            URL_Add("the Stack Overflow ban on simulated intelligence-generated content__", "https://meta.stackoverflow.com/questions/421831/temporary-policy-chatgpt-is-banned");
-
-            URL_Add("Stack Exchange Network__", "https://stackexchange.com/about");
-
-            URL_Add("Stack&nbsp;Exchange__", "https://policies.stackoverflow.co/company/trademark-guidance/#h1-2de2438a74fa0"); // Old: https://en.wikipedia.org/wiki/Stack_Exchange. Old: https://en.wikipedia.org/wiki/Stack_Exchange_Network. Old: https://meta.stackexchange.com/legal/trademark-guidance
-
-            URL_Add("Late answers review queue__", "https://stackoverflow.com/review");
-
-            URL_Add("\"Explanation is vital for a good answer.\"__", "https://meta.stackexchange.com/questions/258474/deal-with-famous-profiles-and-the-possibility-of-fakes/258475#258475");
-
-            URL_Add("Experts-Exchange__", "https://en.wikipedia.org/wiki/Experts_Exchange"); // Old: https://en.wikipedia.org/wiki/Experts-Exchange - though it loses the hyphen...
-
             URL_Add("weird couplings to Bluetooth in Keychron keyboards__", "https://www.reddit.com/r/Keychron/comments/1ihh33r/comment/maxll5p/");
 
             URL_Add("wheel__", "https://en.wikipedia.org/wiki/Wheel_(disambiguation)#Science_and_technology");
@@ -178528,6 +178529,22 @@ namespace OverflowHelper.core
             URL_Add("debouncing__", "https://www.reddit.com/r/Keychron/comments/1fh6h26/comment/lp044qi/");
 
             URL_Add("SNLED27351__", "https://www.reddit.com/r/Keychron/comments/1dk4s03/comment/l9h51e8/");
+
+            URL_Add("Stack&nbsp;Exchange__", "https://policies.stackoverflow.co/company/trademark-guidance/#h1-2de2438a74fa0"); // Old: https://en.wikipedia.org/wiki/Stack_Exchange. Old: https://en.wikipedia.org/wiki/Stack_Exchange_Network. Old: https://meta.stackexchange.com/legal/trademark-guidance
+
+            URL_Add("Stack Exchange Network__", "https://stackexchange.com/about");
+
+            URL_Add("Experts-Exchange__", "https://en.wikipedia.org/wiki/Experts_Exchange"); // Old: https://en.wikipedia.org/wiki/Experts-Exchange - though it loses the hyphen...
+
+            URL_Add("Ask&nbsp;Ubuntu (Stack Exchange site)__", "https://askubuntu.com/tour");
+
+            URL_Add("Arduino (Stack Exchange site)__", "https://arduino.stackexchange.com/tour");
+
+            URL_Add("Late answers review queue__", "https://stackoverflow.com/review");
+
+            URL_Add("the Stack Overflow ban on simulated intelligence-generated content__", "https://meta.stackoverflow.com/questions/421831/temporary-policy-chatgpt-is-banned");
+
+            URL_Add("\"Explanation is vital for a good answer.\"__", "https://meta.stackexchange.com/questions/258474/deal-with-famous-profiles-and-the-possibility-of-fakes/258475#258475");
 
         } //addLookupData_alternativeWordSet2()
 
@@ -181219,8 +181236,6 @@ namespace OverflowHelper.core
 
             URL_Add("stop-loss order___", "https://en.wikipedia.org/wiki/Order_(exchange)#Stop_orders");
 
-            URL_Add("sort___", "https://en.wiktionary.org/wiki/sort#Verb");
-
             URL_Add("WordPerfect___", "https://en.wikipedia.org/wiki/WordPerfect");
 
             URL_Add("Ant___", "https://en.wikipedia.org/wiki/Apache_Ant");
@@ -181430,18 +181445,6 @@ namespace OverflowHelper.core
             URL_Add("IT___", "https://en.wikipedia.org/wiki/Information_technology");
 
             URL_Add("Windows&nbsp;8___", "https://en.wikipedia.org/wiki/Windows_8");
-
-            URL_Add("French&nbsp;Language (Stack Exchange site)___", "https://french.stackexchange.com/tour");
-
-            URL_Add("Project&nbsp;Management (Stack Exchange site)___", "https://pm.stackexchange.com/tour");
-
-            URL_Add("Mathematics (Stack Exchange site)___", "https://math.stackexchange.com/tour");
-
-            URL_Add("Literature (Stack Exchange site)___", "https://literature.stackexchange.com/tour");
-
-            URL_Add("Cryptography (Stack Exchange site)___", "https://crypto.stackexchange.com/tour");
-
-            URL_Add("Raspberry&nbsp;Pi (Stack Exchange site)___", "https://raspberrypi.stackexchange.com/tour");
 
             URL_Add("non___", "https://en.wiktionary.org/wiki/non-#Prefix");
 
@@ -181738,6 +181741,20 @@ namespace OverflowHelper.core
             URL_Add("Occam's razor___", "https://en.wikipedia.org/wiki/Occam's_razor");
 
             URL_Add("hallway usability testing___", "https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/");
+
+            URL_Add("French&nbsp;Language (Stack Exchange site)___", "https://french.stackexchange.com/tour");
+
+            URL_Add("Project&nbsp;Management (Stack Exchange site)___", "https://pm.stackexchange.com/tour");
+
+            URL_Add("Mathematics (Stack Exchange site)___", "https://math.stackexchange.com/tour");
+
+            URL_Add("Literature (Stack Exchange site)___", "https://literature.stackexchange.com/tour");
+
+            URL_Add("Cryptography (Stack Exchange site)___", "https://crypto.stackexchange.com/tour");
+
+            URL_Add("Raspberry&nbsp;Pi (Stack Exchange site)___", "https://raspberrypi.stackexchange.com/tour");
+
+            URL_Add("sort___", "https://en.wiktionary.org/wiki/sort#Verb");
 
         } //addLookupData_alternativeWordSet3()
 
@@ -183978,6 +183995,9 @@ namespace OverflowHelper.core
             //
             correctionAdd("r____", "R____"); // Not actually observed.
 
+            // A Python function
+            correctionAdd("sort____", "sort()____");
+
             // URL mappings
             //
             URL_Add("NOT____", "https://en.wikipedia.org/wiki/Negation");
@@ -184105,8 +184125,6 @@ namespace OverflowHelper.core
             URL_Add("million____", "https://en.wiktionary.org/wiki/million#Noun");
 
             URL_Add("billion____", "https://en.wiktionary.org/wiki/billion#Noun");
-
-            URL_Add("Software&nbsp;Engineering (Stack Exchange site)____", "https://softwareengineering.stackexchange.com/tour");
 
             URL_Add("number____", "https://en.wiktionary.org/wiki/number#Noun");
 
@@ -184261,6 +184279,10 @@ namespace OverflowHelper.core
             URL_Add("signal(7)____", "https://linux.die.net/man/7/signal");
 
             URL_Add("windowed____", "https://en.wikipedia.org/wiki/Suspicious_Russia-related_deaths_since_2022");
+
+            URL_Add("Software&nbsp;Engineering (Stack Exchange site)____", "https://softwareengineering.stackexchange.com/tour");
+
+            URL_Add("sort()____", "https://docs.python.org/3.8/library/stdtypes.html#list.sort");
 
         } //addLookupData_alternativeWordSet4()
 
@@ -185535,8 +185557,6 @@ namespace OverflowHelper.core
 
             URL_Add("White_____", "https://en.wikipedia.org/wiki/White_and_Black_in_chess");
 
-            URL_Add("Space&nbsp;Exploration (Stack Exchange site)_____", "https://space.stackexchange.com/tour");
-
             URL_Add("Armoury Crate_____", "https://en.wikipedia.org/wiki/Asus_ROG_Ally#Software");
 
             URL_Add("PS_____", "https://en.wiktionary.org/wiki/PS#Noun");
@@ -185612,6 +185632,8 @@ namespace OverflowHelper.core
             URL_Add("Git branch \"bluetooth_playground\" in Keychron's fork_____", "https://github.com/Keychron/qmk_firmware/tree/bluetooth_playground/keyboards/keychron/k10_pro");
 
             URL_Add("window_____", "https://en.wikipedia.org/wiki/Suspicious_Russia-related_deaths_since_2022");
+
+            URL_Add("Space&nbsp;Exploration (Stack Exchange site)_____", "https://space.stackexchange.com/tour");
 
             URL_Add("&nbsp;K_____", "https://en.wikipedia.org/wiki/Kelvin");
 
