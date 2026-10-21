@@ -28207,6 +28207,8 @@ namespace OverflowHelper.core
             //
             correctionAdd("theres's", "there’s");
             correctionAdd("there's", "there’s");
+            correctionAdd("There´s", "there’s");
+            correctionAdd("there´s", "there’s");
             correctionAdd("theres", "there’s");
             correctionAdd("Theres", "there’s");
             correctionAdd("theirs", "there’s");
@@ -51098,6 +51100,7 @@ namespace OverflowHelper.core
             correctionAdd("Atmega 32u4", "ATmega32U4");
             correctionAdd("ATmega 32u4", "ATmega32U4");
             correctionAdd("ATmega 32U4", "ATmega32U4");
+            correctionAdd("atmega 32u4", "ATmega32U4");
             correctionAdd("ATMEGA32U4", "ATmega32U4");
             correctionAdd("AtMega32U4", "ATmega32U4");
             correctionAdd("ATMega32u4", "ATmega32U4");
@@ -73407,6 +73410,7 @@ namespace OverflowHelper.core
             correctionAdd("mannualy", "manually");
             correctionAdd("nanually", "manually");
             correctionAdd("manuallz", "manually");
+            correctionAdd("manaully", "manually"); // A true typo
             correctionAdd("manualy", "manually");
             correctionAdd("manully", "manually");
             correctionAdd("manally", "manually");
@@ -75469,10 +75473,11 @@ namespace OverflowHelper.core
             correctionAdd("simmular", "similar");
             correctionAdd("similare", "similar");
             correctionAdd("Simialr", "similar");
-            correctionAdd("Similar", "similar");
             correctionAdd("simialr", "similar");
             correctionAdd("simular", "similar");
             correctionAdd("similer", "similar");
+            correctionAdd("Similar", "similar");
+            correctionAdd("SImilar", "similar");
             correctionAdd("simlar", "similar");
             correctionAdd("Simiar", "similar");
             correctionAdd("simiar", "similar");
@@ -75481,10 +75486,10 @@ namespace OverflowHelper.core
             correctionAdd("Similarily", "similarly");
             correctionAdd("similarily", "similarly");
             correctionAdd("Similarly", "similarly"); // Not 100% correct - case.
-            correctionAdd("Similary", "similarly"); // Not 100% correct - case.
-            correctionAdd("similary", "similarly");
             correctionAdd("similaly", "similarly");
             correctionAdd("Similaly", "similarly"); // Not 100% correct - case.
+            correctionAdd("Similary", "similarly"); // Not 100% correct - case.
+            correctionAdd("similary", "similarly");
             correctionAdd("simirly", "similarly");
 
             correctionAdd("simliarty", "similarity");
@@ -89164,6 +89169,14 @@ namespace OverflowHelper.core
             correctionAdd("k2 max", "Keychron&nbsp;K2&nbsp;Max");
             correctionAdd("K2 MAX", "Keychron&nbsp;K2&nbsp;Max");
             correctionAdd("K2 max", "Keychron&nbsp;K2&nbsp;Max");
+
+            // A 85-key (80%. Not true TKL) crippled wired and
+            // wireless (both Bluetooth and '2.4 GHz')
+            // ZMK/Via-capable mechanical keyboard
+            // from Keychron without a knob.
+            //
+            correctionAdd("Keychron K2 Ultra 8K (80%)", "Keychron&nbsp;K2&nbsp;Ultra&nbsp;8K (80%)"); // Sort of identity mapping
+            correctionAdd("K2 Ultra", "Keychron&nbsp;K2&nbsp;Ultra&nbsp;8K (80%)");
 
             // A 85-key (80%. Not true TKL) crippled low-profile wired-only
             // QMK/Via-capable mechanical keyboard from
@@ -147886,6 +147899,8 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;K1&nbsp;Ultra&nbsp;8K (85%)", "https://www.keychron.com/products/keychron-k1-ultra-8k-wireless-custom-mechanical-keyboard");
 
+            URL_Add("Keychron&nbsp;K2&nbsp;Ultra&nbsp;8K (80%)", "https://www.keychron.com/products/keychron-k2-ultra-8k-wireless-custom-mechanical-keyboard");
+
             URL_Add("Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K", "https://www.keychron.com/products/keychron-k3-ultra-8k-wireless-custom-mechanical-keyboard"); // Old: <https://www.keychron.com/pages/k3he-k3-ultra-prelaunch-organic>
 
             URL_Add("Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)", "https://www.keychron.com/products/keychron-k5-ultra-8k-wireless-custom-mechanical-keyboard");
@@ -153642,6 +153657,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("BastardKB_", "Bastard Keyboards_");
             correctionAdd("Bastardkb_", "Bastard Keyboards_");
+            correctionAdd("bastardkb_", "Bastard Keyboards_");
             correctionAdd("Quentin_", "Bastard Keyboards_");
             correctionAdd("Brb_", "Bastard Keyboards_");
             correctionAdd("brb_", "Bastard Keyboards_");
