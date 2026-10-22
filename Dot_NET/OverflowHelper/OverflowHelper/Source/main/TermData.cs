@@ -7683,7 +7683,8 @@ namespace OverflowHelper.core
             correctionAdd("usind", "using");
             correctionAdd("Usign", "using");
             correctionAdd("usign", "using");
-            correctionAdd("usong", "using");
+            correctionAdd("usong", "using"); // A true typo
+            correctionAdd("usung", "using"); // A true typo
             correctionAdd("usin", "using"); // A true typo
             correctionAdd("uing", "using");
             correctionAdd("usig", "using");
@@ -55859,6 +55860,26 @@ namespace OverflowHelper.core
             correctionAdd("PHp", "PHP");
             correctionAdd("pHP", "PHP");
 
+            // A very serious 2026 security problem
+            // with PHP, e.g., affecting PHP.
+            // CVE-2026-109618 and CVE-2026-109619.
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.php2shell.com/>
+            //   <https://meta.stackoverflow.com/questions/440576>
+            //   <https://unix.stackexchange.com/questions/tagged/php?tab=Newest>
+            //   <https://askubuntu.com/questions/tagged/php?tab=Newest>
+            //   <https://stackoverflow.com/questions/tagged/php?tab=Newest>
+            //
+            //   <https://askubuntu.com/questions/1570480>
+            //   <https://askubuntu.com/questions/1570517>
+            //   <https://askubuntu.com/questions/1570515>
+            //
+            //   <https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html>
+            //
+            correctionAdd("php2shell", "PHP2Shell");
+
             correctionAdd("PHP 4", "PHP&nbsp;4");
             correctionAdd("php 4", "PHP&nbsp;4");
             correctionAdd("php4", "PHP&nbsp;4");
@@ -67018,8 +67039,10 @@ namespace OverflowHelper.core
             correctionAdd("CIA", "Via"); // A true typo
             correctionAdd("VIa", "Via");
 
-            // (Note: This is more or less a duplicate of a
-            //        mapping in an alternative word set)
+            // (Note: This is more or less a duplicate of a mapping in
+            //        an alternative word set; the cross-reference
+            //        "Via" would ***conflict*** here. We also use
+            //        opportunity to provide an alternative URL)
             //
             // Sort of Via, but from the command line
             //
@@ -67875,6 +67898,17 @@ namespace OverflowHelper.core
             correctionAdd("LSA keycap profile", "Keychron LSA keycap profile");
             correctionAdd("lsa", "Keychron LSA keycap profile");
             correctionAdd("LSA", "Keychron LSA keycap profile");
+
+            // Normal profile uniform PBT keycaps (double‑shot) from Matt3o
+            //
+            // Mechanical keyboards
+            //
+            // Alternative URLs:
+            //
+            //   <https://yuzukeycaps.com/guides/keycap-profiles/pbs>
+            //   <https://cannonkeys.com/collections/pbs-keycaps>
+            //
+            correctionAdd("PBS", "PBS keycap profile");
 
             correctionAdd("plastic scm", "Plastic SCM");
             correctionAdd("plasticscm", "Plastic SCM");
@@ -72324,6 +72358,7 @@ namespace OverflowHelper.core
 
             // A small manufacturer of mechanical keyboards
             correctionAdd("Keybordium", "Keyboardio");
+            correctionAdd("keyboardio", "Keyboardio");
             correctionAdd("Keybordio", "Keyboardio");
 
             // A manufacturer of ergonomic mechanical keyboards
@@ -83615,12 +83650,13 @@ namespace OverflowHelper.core
             correctionAdd("firmnware", "firmware");
             correctionAdd("firmwfare", "firmware");
             correctionAdd("firm ware", "firmware");
-            correctionAdd("Firmwares", "firmware");
             correctionAdd("firmeware", "firmware");
             correctionAdd("firmweare", "firmware");
+            correctionAdd("Firmwares", "firmware");
+            correctionAdd("Firmware", "firmware");
+            correctionAdd("fIrmware", "firmware");
             correctionAdd("firmwarw", "firmware");
             correctionAdd("firnware", "firmware");
-            correctionAdd("Firmware", "firmware");
             correctionAdd("fireware", "firmware");
             correctionAdd("formware", "firmware");
             correctionAdd("firmward", "firmware");
@@ -85423,6 +85459,10 @@ namespace OverflowHelper.core
             //
             //     Near "Q60 version"
             //
+            // Q60 default keymap (ANSI):
+            //
+            //   <https://github.com/qmk/qmk_firmware/blob/master/keyboards/keychron/q60/ansi/keymaps/default/keymap.c#L39>
+            //
             // Q60 firmware:
             //
             //   <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-qmk-keyboards>
@@ -85877,6 +85917,7 @@ namespace OverflowHelper.core
             //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/1bxaicc/comment/kybmxwo/>
             //
             correctionAdd("Keyboardio Model 101", "Keyboardio The Model 100");
+            correctionAdd("keyboardio model 100", "Keyboardio The Model 100");
             correctionAdd("The Model 100", "Keyboardio The Model 100");
             correctionAdd("Model 100", "Keyboardio The Model 100");
 
@@ -101423,6 +101464,7 @@ namespace OverflowHelper.core
             correctionAdd("XBox", "Xbox");
             correctionAdd("XBOX", "Xbox");
 
+            // PHP. A web application framework
             correctionAdd("Symphony", "Symfony");
             correctionAdd("symphony", "Symfony");
             correctionAdd("symfony", "Symfony");
@@ -109103,8 +109145,6 @@ namespace OverflowHelper.core
 
             URL_Add("cURL", "https://en.wikipedia.org/wiki/CURL");
 
-            URL_Add("PHP-Nuke", "https://en.wikipedia.org/wiki/PHP-Nuke");
-
             URL_Add("PIL", "https://en.wikipedia.org/wiki/Python_Imaging_Library");
 
             URL_Add("Java ME", "https://en.wikipedia.org/wiki/Java_Platform,_Micro_Edition");
@@ -109114,6 +109154,36 @@ namespace OverflowHelper.core
             URL_Add("PS3", "https://en.wikipedia.org/wiki/PlayStation_3");
 
             URL_Add("PHP", "https://en.wikipedia.org/wiki/PHP");
+
+            URL_Add("PHP2Shell", "https://en.wikipedia.org/wiki/PHP2Shell");
+
+            URL_Add("PHP&nbsp;4", "https://en.wikipedia.org/wiki/PHP#Release_history");
+
+            URL_Add("PHP&nbsp;5", "https://en.wikipedia.org/wiki/PHP#Release_history");
+
+            URL_Add("PHP&nbsp;6", "https://en.wikipedia.org/wiki/PHP#Release_history");
+
+            URL_Add("PHP&nbsp;7", "https://en.wikipedia.org/wiki/PHP#PHP_7");
+
+            URL_Add("PHP&nbsp;8", "https://en.wikipedia.org/wiki/PHP#Release_history");
+
+            URL_Add("PHP Collective", "https://meta.stackoverflow.com/questions/425531/new-collective-php-scope-community-and-questions");
+
+            URL_Add("PHP-Nuke", "https://en.wikipedia.org/wiki/PHP-Nuke");
+
+            URL_Add("PHP Composer", "https://en.wikipedia.org/wiki/Composer_(software)");
+
+            URL_Add("PHPMailer", "https://en.wikipedia.org/wiki/PHPMailer");
+
+            URL_Add("Sendmail", "https://en.wikipedia.org/wiki/Sendmail");
+
+            URL_Add("PHPUnit", "https://en.wikipedia.org/wiki/PHPUnit");
+
+            URL_Add("PHP CLI", "http://php-cli.com/");
+
+            URL_Add("PHPDoc", "https://en.wikipedia.org/wiki/PHPDoc");
+
+            URL_Add("phpDocumentor", "https://en.wikipedia.org/wiki/PhpDocumentor");
 
             URL_Add("Symfony", "https://en.wikipedia.org/wiki/Symfony");
 
@@ -109322,8 +109392,6 @@ namespace OverflowHelper.core
             URL_Add("statistics", "https://en.wiktionary.org/wiki/statistics#Noun"); // Old: https://en.wiktionary.org/wiki/statistics
 
             URL_Add("Kohana", "https://en.wikipedia.org/wiki/Kohana_(framework)"); // Old: https://en.wikipedia.org/wiki/Kohana
-
-            URL_Add("PHP&nbsp;5", "https://en.wikipedia.org/wiki/PHP#Release_history");
 
             URL_Add("PEAR", "https://en.wikipedia.org/wiki/PEAR");
 
@@ -109698,10 +109766,6 @@ namespace OverflowHelper.core
             URL_Add("Pinterest", "https://en.wikipedia.org/wiki/Pinterest");
 
             URL_Add("Solaris", "https://en.wikipedia.org/wiki/Solaris_%28operating_system%29");
-
-            URL_Add("MBR", "https://en.wikipedia.org/wiki/Master_boot_record");
-
-            URL_Add("GParted", "https://en.wikipedia.org/wiki/GParted");
 
             URL_Add("iptables", "https://en.wikipedia.org/wiki/Iptables");
 
@@ -110671,8 +110735,6 @@ namespace OverflowHelper.core
 
             URL_Add("Google Scholar", "https://en.wikipedia.org/wiki/Google_Scholar");
 
-            URL_Add("PHP&nbsp;7", "https://en.wikipedia.org/wiki/PHP#PHP_7");
-
             URL_Add("antialiasing", "https://en.wiktionary.org/wiki/antialiasing#Noun");
 
             URL_Add("as far as I can tell", "https://en.wiktionary.org/wiki/AFAICT#Phrase");
@@ -111001,8 +111063,6 @@ namespace OverflowHelper.core
 
             URL_Add("stream", "https://en.wiktionary.org/wiki/stream#Noun");
 
-            URL_Add("PHP Composer", "https://en.wikipedia.org/wiki/Composer_(software)");
-
             URL_Add("iff", "https://en.wiktionary.org/wiki/iff#Conjunction");
 
             URL_Add("nonsense", "https://en.wiktionary.org/wiki/nonsense#Noun");
@@ -111100,10 +111160,6 @@ namespace OverflowHelper.core
             URL_Add("snippet", "https://en.wiktionary.org/wiki/snippet#Noun");
 
             URL_Add("editor", "https://en.wiktionary.org/wiki/editor#Noun");
-
-            URL_Add("PHPMailer", "https://en.wikipedia.org/wiki/PHPMailer");
-
-            URL_Add("Sendmail", "https://en.wikipedia.org/wiki/Sendmail");
 
             URL_Add("segue", "https://en.wiktionary.org/wiki/segue#Verb");
 
@@ -111340,8 +111396,6 @@ namespace OverflowHelper.core
             URL_Add("swallow", "https://en.wiktionary.org/wiki/swallow#Verb");
 
             URL_Add("unit testing", "https://en.wikipedia.org/wiki/Unit_testing");
-
-            URL_Add("PHPUnit", "https://en.wikipedia.org/wiki/PHPUnit");
 
             URL_Add("earlier", "https://en.wiktionary.org/wiki/earlier#Adverb");
 
@@ -113961,8 +114015,6 @@ namespace OverflowHelper.core
 
             URL_Add("Ding Liren", "https://en.wikipedia.org/wiki/Ding_Liren");
 
-            URL_Add("MBaaS", "https://en.wikipedia.org/wiki/Mobile_backend_as_a_service");
-
             URL_Add("Plachutta", "https://en.wikipedia.org/wiki/Plachutta");
 
             URL_Add("doubleness", "https://en.wiktionary.org/wiki/doubleness#Noun");
@@ -114198,8 +114250,6 @@ namespace OverflowHelper.core
             URL_Add("Mooshak", "https://mooshak.dcc.fc.up.pt/");
 
             URL_Add("Org-mode", "https://en.wikipedia.org/wiki/Org-mode");
-
-            URL_Add("PHP&nbsp;4", "https://en.wikipedia.org/wiki/PHP#Release_history");
 
             URL_Add("Spyder", "https://en.wikipedia.org/wiki/Spyder_%28software%29");
 
@@ -116191,8 +116241,6 @@ namespace OverflowHelper.core
 
             URL_Add("British Columbia, Canada", "https://en.wikipedia.org/wiki/British_Columbia");
 
-            URL_Add("PHP CLI", "http://php-cli.com/");
-
             URL_Add("bus error", "https://en.wikipedia.org/wiki/Bus_error");
 
             URL_Add("carefully", "https://en.wiktionary.org/wiki/carefully#Adverb");
@@ -117599,10 +117647,6 @@ namespace OverflowHelper.core
 
             URL_Add("JavaScriptMVC", "https://en.wikipedia.org/wiki/JavaScriptMVC");
 
-            URL_Add("PHPDoc", "https://en.wikipedia.org/wiki/PHPDoc");
-
-            URL_Add("phpDocumentor", "https://en.wikipedia.org/wiki/PhpDocumentor");
-
             URL_Add("self-documenting", "https://en.wiktionary.org/wiki/self-documenting#Adjective");
 
             URL_Add("Consolas", "https://en.wikipedia.org/wiki/Consolas");
@@ -118204,10 +118248,6 @@ namespace OverflowHelper.core
             URL_Add("thinking", "https://en.wiktionary.org/wiki/think#Verb");
 
             URL_Add("3DNow", "https://en.wikipedia.org/wiki/3DNow!");
-
-            URL_Add("PHP&nbsp;6", "https://en.wikipedia.org/wiki/PHP#Release_history");
-
-            URL_Add("PHP&nbsp;8", "https://en.wikipedia.org/wiki/PHP#Release_history");
 
             URL_Add("QUIC", "https://en.wikipedia.org/wiki/QUIC");
 
@@ -128545,8 +128585,6 @@ namespace OverflowHelper.core
 
             URL_Add("PDOStatement::fetchAll()", "https://www.php.net/manual/en/pdostatement.fetchall.php");
 
-            URL_Add("PHP_EOL()", "https://www.php.net/manual/en/reserved.constants.php#constant.php-eol");
-
             URL_Add("ini_set()", "https://www.php.net/manual/en/function.ini-set.php");
 
             URL_Add("php.ini file", "https://www.php.net/manual/en/configuration.file.php");
@@ -128602,6 +128640,8 @@ namespace OverflowHelper.core
             URL_Add("log_errors()", "https://www.php.net/manual/en/errorfunc.configuration.php#ini.log-errors");
 
             URL_Add("uasort()", "https://www.php.net/manual/en/function.uasort.php");
+
+            URL_Add("PHP_EOL()", "https://www.php.net/manual/en/reserved.constants.php#constant.php-eol");
 
             URL_Add("in for a penny, in for a pound", "https://en.wiktionary.org/wiki/in_for_a_penny,_in_for_a_pound#Proverb");
 
@@ -130303,7 +130343,7 @@ namespace OverflowHelper.core
 
             URL_Add("Via", "https://docs.keeb.io/via");
 
-            URL_Add("Vitaly", "https://www.reddit.com/r/olkb/comments/1p75lee/comment/nr6hilt/");
+            URL_Add("Vitaly", "https://github.com/bskaplou/vitaly");
 
             URL_Add("Vial", "https://get.vial.today");
 
@@ -135040,8 +135080,6 @@ namespace OverflowHelper.core
             URL_Add("SGML", "https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language");
 
             URL_Add("SAML", "https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language");
-
-            URL_Add("PHP Collective", "https://meta.stackoverflow.com/questions/425531/new-collective-php-scope-community-and-questions");
 
             URL_Add("$HOME/.bash_history file", "https://stackoverflow.com/questions/8561983/retrieving-command-line-history");
 
@@ -148301,6 +148339,8 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron LSA keycap profile", "https://keeb-finder.com/blogs/low-profile-keycaps");
 
+            URL_Add("PBS keycap profile", "https://matt3o.com/pbs-the-penguin-slides-fast-on-his-belly/");
+
             URL_Add("Microsoft Keyboard Layout Creator", "https://en.wikipedia.org/wiki/Dvorak_keyboard_layout#Microsoft_Windows");
 
             URL_Add("keyboard layout", "https://en.wiktionary.org/wiki/keyboard_layout#Noun");
@@ -151108,6 +151148,12 @@ namespace OverflowHelper.core
             URL_Add("Hamilton C shell", "https://en.wikipedia.org/wiki/Hamilton_C_shell");
 
             URL_Add("ash", "https://en.wikipedia.org/wiki/Almquist_shell");
+
+            URL_Add("MBR", "https://en.wikipedia.org/wiki/Master_boot_record");
+
+            URL_Add("GParted", "https://en.wikipedia.org/wiki/GParted");
+
+            URL_Add("MBaaS", "https://en.wikipedia.org/wiki/Mobile_backend_as_a_service");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -159404,13 +159450,18 @@ namespace OverflowHelper.core
             //
             // Notes:
             //
-            //   1. Version 6 of the K1 supports QMK (the first one in
-            //      the K series? K10 was introduced later, in late 2024).
-            //      It has a separate product page:
+            //   1. Version 6 of the K1 (K1 V6 AKA K1 QMK) supports
+            //      QMK (the first one in the K series? K10 was
+            //      introduced later, in late 2024). It has a
+            //      separate product page:
+            //
+            //        <https://www.keychron.com/products/keychron-k1-qmk-wireless-mechanical-keyboard-iso-layout-version-6>
+            //          ISO
             //
             //        <https://www.keychron.com/products/keychron-k1-qmk-wireless-mechanical-keyboard-version-6>
+            //          ANSI
             //
-            //          K1 V2 (main) firmware:
+            //          K1 V6 (main) firmware:
             //
             //            <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-qmk-k-pro-and-k-max-series-keyboards>
             //              Near "K1 version 6 ISO RGB version firmware"
@@ -167504,14 +167555,14 @@ namespace OverflowHelper.core
             correctionAdd("Polybutylene Terephthalate_", "PBT_");
             correctionAdd("Polybutylene terephthalate_", "PBT_");
             correctionAdd("polybutylene terephthalate_", "PBT_");
-            correctionAdd("PTb_", "PBT_");
-            correctionAdd("PBS_", "PBT_");
-            correctionAdd("pbs_", "PBT_");
-            correctionAdd("Pbt_", "PBT_");
             correctionAdd("PbT_", "PBT_");
+            correctionAdd("Pbt_", "PBT_");
             correctionAdd("pbt_", "PBT_");
+            correctionAdd("PTb_", "PBT_");
             correctionAdd("PPT_", "PBT_");
             correctionAdd("ppt_", "PBT_");
+            correctionAdd("PBS_", "PBT_"); // Or is it a keycap 'profile', like the MBK keycap profile? Allegedly, uniform and for 'Penguin Belly Slide', from matt3o <https://yuzukeycaps.com/guides/keycap-profiles/pbs>: <https://matt3o.com/pbs-the-penguin-slides-fast-on-his-belly/>
+            correctionAdd("pbs_", "PBT_");
 
             // The (physical) tool
             correctionAdd("Allen wrench_", "Unbrako_");
@@ -167952,8 +168003,6 @@ namespace OverflowHelper.core
 
             URL_Add("CSS&nbsp;3 (tag wiki)_", "https://stackoverflow.com/questions/tagged/css-3");
 
-            URL_Add("PHP (tag wiki)_", "https://stackoverflow.com/questions/tagged/php");
-
             URL_Add("PCRE (tag wiki)_", "https://stackoverflow.com/questions/tagged/pcre");
 
             URL_Add("XRegExp (tag wiki)_", "https://stackoverflow.com/questions/tagged/xregexp");
@@ -168015,6 +168064,8 @@ namespace OverflowHelper.core
             URL_Add("MongoDB Atlas_", "https://en.wikipedia.org/wiki/MongoDB#MongoDB_Atlas");
 
             URL_Add("shell (tag wiki)_", "https://stackoverflow.com/questions/tagged/shell");
+
+            URL_Add("PHP (tag wiki)_", "https://stackoverflow.com/questions/tagged/php");
 
             //URL_Add("Zephyr RTOS (tag wiki)_", "https://stackoverflow.com/questions/tagged/zephyr-rtos");
             //
@@ -168469,8 +168520,6 @@ namespace OverflowHelper.core
             URL_Add("DTO_", "https://en.wikipedia.org/wiki/Data_transfer_object");
 
             URL_Add("right now_", "https://en.wiktionary.org/wiki/RN#Adverb");
-
-            URL_Add("MBA_", "https://en.wikipedia.org/wiki/Master_of_Business_Administration");
 
             URL_Add("dickhead_", "https://en.wiktionary.org/wiki/dickhead#Noun");
 
@@ -172245,6 +172294,8 @@ namespace OverflowHelper.core
             URL_Add("kernel_", "https://en.wikipedia.org/wiki/Kernel_%28operating_system%29");
 
             URL_Add("date_", "https://en.wikipedia.org/wiki/System_time#Operating_systems");
+
+            URL_Add("MBA_", "https://en.wikipedia.org/wiki/Master_of_Business_Administration");
 
         } //addLookupData_alternativeWordSet()
 
@@ -178676,6 +178727,7 @@ namespace OverflowHelper.core
             correctionAdd("nein___", "no___");
             correctionAdd("now___", "no___");
             correctionAdd("n o___", "no___"); // A true typo involving space...
+            correctionAdd("ni___", "no___"); // A true typo
 
             // The verb
             correctionAdd("sout___", "sort___");
@@ -182985,6 +183037,7 @@ namespace OverflowHelper.core
             //   Proprietary firmware. Though the waters were muddied
             //   with K1 version 6 (a scaled-down K1 Max?
             //   A K1 Pro with another name?).
+            //     <https://www.keychron.com/products/keychron-k1-qmk-wireless-mechanical-keyboard-iso-layout-version-6>
             //     <https://www.keychron.com/products/keychron-k1-qmk-wireless-mechanical-keyboard-version-6>
             //     <https://www.reddit.com/r/Keychron/comments/1giq4cp/comment/lv9fbom/>
             //
@@ -186198,6 +186251,11 @@ namespace OverflowHelper.core
 
             // A keyboard configuration command-line tool, an
             // alternative to Via
+            //
+            // Alternative URLs:
+            //
+            //   <https://github.com/bskaplou/vitaly>
+            //
             correctionAdd("vitali______", "Vitaly______");
             correctionAdd("Vitali______", "Vitaly______");
             correctionAdd("vitaly______", "Vitaly______");
