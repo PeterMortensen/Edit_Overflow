@@ -1171,6 +1171,79 @@ namespace OverflowHelper.core
             correctionAdd("Windows Nano server", "Microsoft Nano Server");
             correctionAdd("Windows Nano", "Microsoft Nano Server");
 
+            correctionAdd("probelem", "problem");
+            correctionAdd("probolem", "problem");
+            correctionAdd("probleam", "problem");
+            correctionAdd("Pro-blem", "problem");
+            correctionAdd("pro-blem", "problem");
+            correctionAdd("probllem", "problem");
+            correctionAdd("promblem", "problem");
+            correctionAdd("probably", "problem"); // An autocorrect "masterpiece"?
+            correctionAdd("prorblem", "problem");
+            correctionAdd("probleme", "problem");
+            correctionAdd("probelm", "problem");
+            correctionAdd("ploblem", "problem");
+            correctionAdd("proplem", "problem");
+            correctionAdd("Problem", "problem");
+            correctionAdd("Proplem", "problem");
+            correctionAdd("broblem", "problem");
+            correctionAdd("Promlem", "problem");
+            correctionAdd("promlem", "problem");
+            correctionAdd("Problam", "problem");
+            correctionAdd("pr0blem", "problem");
+            correctionAdd("problam", "problem");
+            correctionAdd("Pr0blam", "problem");
+            correctionAdd("pr0blam", "problem");
+            correctionAdd("Problen", "problem");
+            correctionAdd("problen", "problem");
+            correctionAdd("priblem", "problem");
+            correctionAdd("probkem", "problem");
+            correctionAdd("ptoblem", "problem");
+            correctionAdd("probĺem", "problem");
+            correctionAdd("PORBLEM", "problem");
+            correctionAdd("porblem", "problem");
+            correctionAdd("problme", "problem"); // A true typo
+            correctionAdd("probem", "problem");
+            correctionAdd("probel", "problem");
+            correctionAdd("proble", "problem");
+            correctionAdd("prolem", "problem");
+            correctionAdd("prblem", "problem");
+            correctionAdd("problm", "problem");
+            correctionAdd("poblem", "problem");
+            correctionAdd("rpblem", "problem"); // Multiple typos...
+            correctionAdd("prob", "problem");
+            correctionAdd("prom", "problem");
+            correctionAdd("prb", "problem");
+            correctionAdd("pb", "problem");
+
+            correctionAdd("problemantic", "problematic");
+
+            correctionAdd("nobproblem", "no problem"); // A true typo (involving the space bar).
+            correctionAdd("No prob", "no problem");
+            correctionAdd("no prob", "no problem");
+            correctionAdd("np", "no problem");
+            correctionAdd("NP", "no problem");
+            correctionAdd("Np", "no problem");
+
+            correctionAdd("Travelling Salesman Problem", "travelling salesman problem");
+            correctionAdd("Travelling salesman problem", "travelling salesman problem");
+            correctionAdd("traveling-salesman problem", "travelling salesman problem");
+            correctionAdd("Travel Salesman Problem", "travelling salesman problem");
+            correctionAdd("Travelling Salesman", "travelling salesman problem");
+            correctionAdd("traveling-salesman", "travelling salesman problem");
+            correctionAdd("Traveling Salesman", "travelling salesman problem");
+            correctionAdd("traveling salesman", "travelling salesman problem");
+            correctionAdd("TSP", "travelling salesman problem");
+
+            correctionAdd("Constraint Optimization problem", "constraint optimization problem");
+
+            correctionAdd("knapsack optimization problem", "knapsack problem");
+            correctionAdd("Knapsack Optimization Problem", "knapsack problem");
+            correctionAdd("Knapsack Optimization", "knapsack problem");
+            correctionAdd("Knapsack Problem", "knapsack problem");
+
+            correctionAdd("Optimization Problem", "optimization problem");
+
             correctionAdd("probject", "project");
             correctionAdd("projcet", "project");
             correctionAdd("proyect", "project");
@@ -2582,6 +2655,61 @@ namespace OverflowHelper.core
             correctionAdd("though luck", "tough luck");
             correctionAdd("Tough luck", "tough luck");
 
+            correctionAdd("hooman", "human");
+            correctionAdd("Hooman", "human");
+            correctionAdd("humain", "human");
+            correctionAdd("hymen", "human");
+            correctionAdd("Human", "human");
+            correctionAdd("humam", "human");
+
+            correctionAdd("hoomans", "humans");
+
+            correctionAdd("he's", "his");
+
+            correctionAdd("Dad", "dad");
+            correctionAdd("da", "dad");
+
+            correctionAdd("Male", "male");
+
+            correctionAdd("guies", "guys");
+            correctionAdd("Guies", "guys");
+            correctionAdd("Guyzz", "guys");
+            correctionAdd("guyzz", "guys");
+            correctionAdd("guyz", "guys");
+            correctionAdd("gusy", "guys"); // A true typo
+            correctionAdd("gys", "guys");
+
+            correctionAdd("femenine", "feminine");
+
+            correctionAdd("Female", "female");
+
+            correctionAdd("femails", "females");
+
+            correctionAdd("Girls", "girls");
+            correctionAdd("Girlz", "girls");
+            correctionAdd("girlz", "girls");
+
+            correctionAdd("wuman", "woman");
+
+            correctionAdd("womans", "women");
+            correctionAdd("wimens", "women");
+            correctionAdd("wamen", "women");
+            correctionAdd("wemen", "women");
+            correctionAdd("wimen", "women");
+
+            correctionAdd("partent", "parent");
+            correctionAdd("parrent", "parent");
+            correctionAdd("Parent", "parent");
+
+            correctionAdd("re-parent", "reparent");
+
+            correctionAdd("ex wife", "ex-wife");
+            correctionAdd("exwife", "ex-wife");
+
+            correctionAdd("teen ager", "teenager");
+
+            correctionAdd("incling", "inkling");
+
             correctionAdd("1 year old", "one-year-old");
 
             correctionAdd("childd", "child");
@@ -2603,32 +2731,22 @@ namespace OverflowHelper.core
 
             correctionAdd("adult's", "adults");
 
-            correctionAdd("partent", "parent");
-            correctionAdd("parrent", "parent");
-            correctionAdd("Parent", "parent");
-
-            correctionAdd("re-parent", "reparent");
-
-            correctionAdd("Grandfather", "grandfather");
-
-            // Note: "brother" and "sibling" are in an alternative word set...
-            correctionAdd("daugther", "daughter");
-
-            correctionAdd("he's", "his");
-
-            correctionAdd("Dad", "dad");
-            correctionAdd("da", "dad");
-
             correctionAdd("step dad", "stepdad");
 
             correctionAdd("step father", "stepfather");
 
-            correctionAdd("ex wife", "ex-wife");
-            correctionAdd("exwife", "ex-wife");
+            // Note: "brother" and "sibling" are in an alternative word set...
+            correctionAdd("daugther", "daughter");
 
-            correctionAdd("teen ager", "teenager");
+            correctionAdd("grand-daughter", "granddaughter");
+            correctionAdd("Grand daughter", "granddaughter");
+            correctionAdd("grand daughter", "granddaughter");
 
-            correctionAdd("incling", "inkling");
+            correctionAdd("grand parent", "grandparent");
+
+            correctionAdd("Grandfather", "grandfather");
+
+            correctionAdd("grand-aunt", "grandaunt");
 
             correctionAdd("neece", "niece");
             correctionAdd("neese", "niece");
@@ -2646,47 +2764,6 @@ namespace OverflowHelper.core
             correctionAdd("Bobs your uncle", "Bob’s your uncle");
             correctionAdd("Bob's you uncle", "Bob’s your uncle");
             correctionAdd("B's ur uncle", "Bob’s your uncle");
-
-            correctionAdd("grand-aunt", "grandaunt");
-
-            correctionAdd("grand parent", "grandparent");
-
-            correctionAdd("hooman", "human");
-            correctionAdd("Hooman", "human");
-            correctionAdd("humain", "human");
-            correctionAdd("hymen", "human");
-            correctionAdd("Human", "human");
-            correctionAdd("humam", "human");
-
-            correctionAdd("hoomans", "humans");
-
-            correctionAdd("Male", "male");
-
-            correctionAdd("femenine", "feminine");
-
-            correctionAdd("Female", "female");
-
-            correctionAdd("femails", "females");
-
-            correctionAdd("Girls", "girls");
-            correctionAdd("Girlz", "girls");
-            correctionAdd("girlz", "girls");
-
-            correctionAdd("wuman", "woman");
-
-            correctionAdd("womans", "women");
-            correctionAdd("wimens", "women");
-            correctionAdd("wamen", "women");
-            correctionAdd("wemen", "women");
-            correctionAdd("wimen", "women");
-
-            correctionAdd("guies", "guys");
-            correctionAdd("Guies", "guys");
-            correctionAdd("Guyzz", "guys");
-            correctionAdd("guyzz", "guys");
-            correctionAdd("guyz", "guys");
-            correctionAdd("gusy", "guys"); // A true typo
-            correctionAdd("gys", "guys");
 
             // Note: "men" is in an alternative word set...
             correctionAdd("beta-male", "beta male");
@@ -8169,6 +8246,7 @@ namespace OverflowHelper.core
             correctionAdd("minal", "minimal");
 
             correctionAdd("minamilism", "minimalism");
+            correctionAdd("miNiMaLisM", "minimalism");
 
             correctionAdd("minmalistic", "minimalistic");
 
@@ -33713,6 +33791,8 @@ namespace OverflowHelper.core
 
             correctionAdd("scrapeninja", "ScrapeNinja");
 
+            correctionAdd("screen cast", "screencast");
+
             correctionAdd("web spider", "Web crawler");
             correctionAdd("Web spider", "Web crawler");
             correctionAdd("webcrawler", "Web crawler");
@@ -33720,8 +33800,6 @@ namespace OverflowHelper.core
             correctionAdd("Cralwer", "Web crawler");
             correctionAdd("cralwer", "Web crawler");
             correctionAdd("spider", "Web crawler");
-
-            correctionAdd("screen cast", "screencast");
 
             correctionAdd("broserser", "browser");
             correctionAdd("browswer", "browser");
@@ -33745,6 +33823,8 @@ namespace OverflowHelper.core
             correctionAdd("Webbrowser", "web browser");
             correctionAdd("web browse", "web browser");
             correctionAdd("Web Broser", "web browser");
+
+            correctionAdd("addressbar", "address bar");
 
             // A web browser engine
             // Firefox
@@ -33789,6 +33869,14 @@ namespace OverflowHelper.core
             correctionAdd("caniuse.com", "Can I use");
             correctionAdd("CanIUse", "Can I use");
             correctionAdd("caniuse", "Can I use");
+
+            // A web tool: A linter for HTTP resources
+            //
+            // Alternative URLs:
+            //
+            //   <https://redbot.org/about/>
+            //
+            correctionAdd("redbot", "REDbot");
 
             // A web tool
             //
@@ -41242,78 +41330,6 @@ namespace OverflowHelper.core
 
             correctionAdd("many to many", "many-to-many");
             correctionAdd("Many-To-Many", "many-to-many");
-
-            correctionAdd("probelem", "problem");
-            correctionAdd("probolem", "problem");
-            correctionAdd("probleam", "problem");
-            correctionAdd("Pro-blem", "problem");
-            correctionAdd("pro-blem", "problem");
-            correctionAdd("probllem", "problem");
-            correctionAdd("promblem", "problem");
-            correctionAdd("probably", "problem"); // An autocorrect "masterpiece"?
-            correctionAdd("prorblem", "problem");
-            correctionAdd("probleme", "problem");
-            correctionAdd("probelm", "problem");
-            correctionAdd("ploblem", "problem");
-            correctionAdd("proplem", "problem");
-            correctionAdd("Problem", "problem");
-            correctionAdd("Proplem", "problem");
-            correctionAdd("broblem", "problem");
-            correctionAdd("Promlem", "problem");
-            correctionAdd("promlem", "problem");
-            correctionAdd("Problam", "problem");
-            correctionAdd("pr0blem", "problem");
-            correctionAdd("problam", "problem");
-            correctionAdd("Pr0blam", "problem");
-            correctionAdd("pr0blam", "problem");
-            correctionAdd("Problen", "problem");
-            correctionAdd("problen", "problem");
-            correctionAdd("priblem", "problem");
-            correctionAdd("probkem", "problem");
-            correctionAdd("ptoblem", "problem");
-            correctionAdd("probĺem", "problem");
-            correctionAdd("PORBLEM", "problem");
-            correctionAdd("porblem", "problem");
-            correctionAdd("problme", "problem"); // A true typo
-            correctionAdd("probem", "problem");
-            correctionAdd("probel", "problem");
-            correctionAdd("proble", "problem");
-            correctionAdd("prolem", "problem");
-            correctionAdd("prblem", "problem");
-            correctionAdd("problm", "problem");
-            correctionAdd("poblem", "problem");
-            correctionAdd("prob", "problem");
-            correctionAdd("prom", "problem");
-            correctionAdd("prb", "problem");
-            correctionAdd("pb", "problem");
-
-            correctionAdd("problemantic", "problematic");
-
-            correctionAdd("nobproblem", "no problem"); // A true typo (involving the space bar).
-            correctionAdd("No prob", "no problem");
-            correctionAdd("no prob", "no problem");
-            correctionAdd("np", "no problem");
-            correctionAdd("NP", "no problem");
-            correctionAdd("Np", "no problem");
-
-            correctionAdd("Travelling Salesman Problem", "travelling salesman problem");
-            correctionAdd("Travelling salesman problem", "travelling salesman problem");
-            correctionAdd("traveling-salesman problem", "travelling salesman problem");
-            correctionAdd("Travel Salesman Problem", "travelling salesman problem");
-            correctionAdd("Travelling Salesman", "travelling salesman problem");
-            correctionAdd("traveling-salesman", "travelling salesman problem");
-            correctionAdd("Traveling Salesman", "travelling salesman problem");
-            correctionAdd("traveling salesman", "travelling salesman problem");
-            correctionAdd("TSP", "travelling salesman problem");
-
-            correctionAdd("Constraint Optimization problem", "constraint optimization problem");
-
-            correctionAdd("knapsack optimization problem", "knapsack problem");
-            correctionAdd("Knapsack Optimization Problem", "knapsack problem");
-            correctionAdd("Knapsack Optimization", "knapsack problem");
-            correctionAdd("Knapsack Problem", "knapsack problem");
-
-            correctionAdd("Optimization Problem", "optimization problem");
 
             correctionAdd("XKCD", "xkcd");
             correctionAdd("Xkcd", "xkcd");
@@ -55861,6 +55877,11 @@ namespace OverflowHelper.core
             //
             //   <https://quickref.me/php> (cheat sheet)
             //
+            // Alternative URLs:
+            //
+            //   <https://web.archive.org/web/20170726035612/https://www.0php.com/php_easter_egg.php>
+            //     PHP "Easter Egg". Add add to the URL: "?=PHPE9568F36-D428-11d2-A769-00AA001ACF42"
+            //
             correctionAdd("P.H.P", "PHP");
             correctionAdd("php", "PHP");
             correctionAdd("Php", "PHP");
@@ -67817,6 +67838,9 @@ namespace OverflowHelper.core
             correctionAdd("xda", "XDA keycap profile");
 
             // Mechanical keyboards
+            //
+            // Cylindrical contact surface
+            //
             correctionAdd("oem-profile", "OEM keycap profile");
             correctionAdd("OEM keycaps", "OEM keycap profile");
             correctionAdd("oem keycaps", "OEM keycap profile");
@@ -67828,6 +67852,8 @@ namespace OverflowHelper.core
             correctionAdd("OEM", "OEM keycap profile");
 
             // Mechanical keyboards
+            //
+            // Allegedly cylindrical contact surface
             //
             // The 'keycapshq.com' reference is broken now...
             //
@@ -110552,8 +110578,6 @@ namespace OverflowHelper.core
 
             URL_Add("perform", "https://en.wiktionary.org/wiki/perform#Verb");
 
-            URL_Add("browser", "https://en.wiktionary.org/wiki/browser#Noun");
-
             URL_Add("printf", "https://en.wikipedia.org/wiki/Printf_format_string");
 
             URL_Add("LoRa", "https://en.wikipedia.org/wiki/LoRa");
@@ -110763,6 +110787,14 @@ namespace OverflowHelper.core
             URL_Add("children", "https://en.wiktionary.org/wiki/children#Noun");
 
             URL_Add("daughter", "https://en.wiktionary.org/wiki/daughter#Noun");
+
+            URL_Add("granddaughter", "https://en.wiktionary.org/wiki/granddaughter#Noun");
+
+            URL_Add("grandparent", "https://en.wiktionary.org/wiki/grandparent#Noun");
+
+            URL_Add("Grand Canyon", "https://en.wikipedia.org/wiki/Grand_Canyon");
+
+            URL_Add("Grand Theft Auto", "https://en.wikipedia.org/wiki/Grand_Theft_Auto");
 
             URL_Add("essentially", "https://en.wiktionary.org/wiki/essentially#Adverb");
 
@@ -112071,8 +112103,6 @@ namespace OverflowHelper.core
             URL_Add("mortality", "https://en.wiktionary.org/wiki/mortality#Noun"); // Old: https://en.wiktionary.org/wiki/mortality
 
             URL_Add("Ebola", "https://en.wikipedia.org/wiki/Ebola_virus_disease");
-
-            URL_Add("Grand Canyon", "https://en.wikipedia.org/wiki/Grand_Canyon");
 
             URL_Add("boring", "https://en.wiktionary.org/wiki/boring#Adjective");
 
@@ -114110,8 +114140,6 @@ namespace OverflowHelper.core
 
             URL_Add("trackpad", "https://en.wikipedia.org/wiki/Touchpad");
 
-            URL_Add("web browser", "https://en.wikipedia.org/wiki/Web_browser");
-
             URL_Add("datasheet", "https://en.wiktionary.org/wiki/datasheet#Noun");
 
             URL_Add("fstab", "https://en.wikipedia.org/wiki/Fstab");
@@ -114613,8 +114641,6 @@ namespace OverflowHelper.core
             URL_Add("BionicPup", "https://en.wikipedia.org/wiki/Puppy_Linux#Release_versions");
 
             URL_Add("Serum Institute of India", "https://en.wikipedia.org/wiki/Serum_Institute_of_India");
-
-            URL_Add("Grand Theft Auto", "https://en.wikipedia.org/wiki/Grand_Theft_Auto");
 
             URL_Add("Murphy's law", "https://en.wikipedia.org/wiki/Murphy's_law");
 
@@ -117704,8 +117730,6 @@ namespace OverflowHelper.core
 
             URL_Add("Twenty Ten", "https://wordpress.org/themes/twentyten/");
 
-            URL_Add("grandparent", "https://en.wiktionary.org/wiki/grandparent#Noun");
-
             URL_Add("phone", "https://en.wiktionary.org/wiki/phone#Noun");
 
             URL_Add("1080p", "https://en.wikipedia.org/wiki/1080p");
@@ -120234,15 +120258,25 @@ namespace OverflowHelper.core
 
             URL_Add("Merriam-Webster", "https://en.wikipedia.org/wiki/Merriam-Webster");
 
+            URL_Add("browser", "https://en.wiktionary.org/wiki/browser#Noun");
+
+            URL_Add("browsable", "https://en.wiktionary.org/wiki/browsable#Adjective");
+
             URL_Add("Web 2.0", "https://en.wikipedia.org/wiki/Web_2.0");
 
             URL_Add("Web crawler", "https://en.wikipedia.org/wiki/Web_crawler");
+
+            URL_Add("web browser", "https://en.wikipedia.org/wiki/Web_browser");
+
+            URL_Add("address bar", "https://en.wikipedia.org/wiki/Address_bar");
 
             URL_Add("Web development", "https://en.wikipedia.org/wiki/Web_development");
 
             URL_Add("W2web", "https://en.wikipedia.org/wiki/WIEN2k");
 
             URL_Add("Wappalyzer", "https://chromewebstore.google.com/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg");
+
+            URL_Add("REDbot", "https://github.com/mnot/redbot");
 
             URL_Add("Can I use", "https://caniuse.com/#info_about");
 
@@ -124671,8 +124705,6 @@ namespace OverflowHelper.core
             URL_Add("swallowing", "https://en.wiktionary.org/wiki/swallow#Verb");
 
             URL_Add("keyrelease", "https://en.wiktionary.org/wiki/keypress#Noun");
-
-            URL_Add("browsable", "https://en.wiktionary.org/wiki/browsable#Adjective");
 
             URL_Add("Italy", "https://en.wikipedia.org/wiki/Italy");
 
@@ -173303,12 +173335,22 @@ namespace OverflowHelper.core
             correctionAdd("keycap__", "keycap profile__");
 
             // We ought to find a better URL...
+            // Allegedly spherical contact surface
+            //
             // Mechanical keyboards
             correctionAdd("SA__", "SA keycap profile__");
             correctionAdd("sa__", "SA keycap profile__");
 
             // A redesigned version of SA by Keychron
+            // Allegedly spherical contact surface
+            //
             // Mechanical keyboards
+            correctionAdd("KSA Keycaps Profile__", "KSA keycap profile__");
+            correctionAdd("KSA keycaps profile__", "KSA keycap profile__");
+            correctionAdd("KSA Caps Profile__", "KSA keycap profile__");
+            correctionAdd("KSA caps profile__", "KSA keycap profile__");
+            correctionAdd("KSA keycaps__", "KSA keycap profile__");
+            correctionAdd("KSA keycap__", "KSA keycap profile__");
             correctionAdd("KSA__", "KSA keycap profile__");
 
             // Alternative URLs:
@@ -176894,6 +176936,7 @@ namespace OverflowHelper.core
             correctionAdd("Developertools__", "Web development tools__");
             correctionAdd("developertools__", "Web development tools__");
             correctionAdd("dev tools__", "Web development tools__");
+            correctionAdd("Dev Tools__", "Web development tools__");
             correctionAdd("DevTools__", "Web development tools__");
             correctionAdd("devtools__", "Web development tools__");
             correctionAdd("Inspector__", "Web development tools__"); // For the cross-reference
