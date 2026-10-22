@@ -7999,12 +7999,6 @@ namespace OverflowHelper.core
             correctionAdd("worth less", "worthless");
             correctionAdd("Worth Less", "worthless");
 
-            // Web development, e.g. CSS.: Web broser
-            // compatibility and supported features
-            correctionAdd("caniuse.com", "Can I use");
-            correctionAdd("CanIUse", "Can I use");
-            correctionAdd("caniuse", "Can I use");
-
             correctionAdd("seemt", "seem");
             correctionAdd("seep", "seem");
             correctionAdd("smme", "seem");
@@ -10145,8 +10139,44 @@ namespace OverflowHelper.core
             correctionAdd("at anyrate", "at any rate");
             correctionAdd("At anyrate", "at any rate");
 
+            correctionAdd("casse", "case");
+            correctionAdd("Case", "case");
+            correctionAdd("cAse", "case");
+            correctionAdd("cse", "case");
+            correctionAdd("cae", "case");
+
+            correctionAdd("casers", "cases");
+
+            correctionAdd("in-case", "in case");
+            correctionAdd("incase", "in case");
+            correctionAdd("Incase", "in case");
+            correctionAdd("in cas", "in case");
+
+            correctionAdd("at any case", "in any case");
             correctionAdd("any case", "in any case");
             correctionAdd("anycase", "in any case");
+
+            correctionAdd("worrest case", "worst-case");
+            correctionAdd("worest case", "worst-case");
+            correctionAdd("worst case", "worst-case");
+            correctionAdd("Worst case", "worst-case");
+            correctionAdd("Worse case", "worst-case");
+            correctionAdd("worse case", "worst-case");
+
+            correctionAdd("worst case scenario", "worst-case scenario");
+            correctionAdd("Worst case scenario", "worst-case scenario");
+
+            correctionAdd("edge-case", "edge case");
+            correctionAdd("edgecase", "edge case");
+
+            correctionAdd("edge-cases", "edge cases");
+
+            correctionAdd("corner-case", "corner case");
+
+            correctionAdd("case by case", "case-by-case");
+            correctionAdd("case to case", "case-by-case");
+
+            correctionAdd("best case scenario", "best-case scenario");
 
             correctionAdd("timre", "time");
             correctionAdd("thime", "time");
@@ -33754,6 +33784,21 @@ namespace OverflowHelper.core
             correctionAdd("npapi", "NPAPI");
             correctionAdd("Netscape Plugin Application Programming Interface", "NPAPI");
 
+            // Web development, e.g. CSS.: Web broser
+            // compatibility and supported features
+            correctionAdd("caniuse.com", "Can I use");
+            correctionAdd("CanIUse", "Can I use");
+            correctionAdd("caniuse", "Can I use");
+
+            // A web tool
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.wappalyzer.com/>
+            //   <https://stackoverflow.com/a/39222896>
+            //
+            correctionAdd("wappalyzer", "Wappalyzer");
+
             // A web browser
             correctionAdd("Mozilla Firefox", "Firefox");
             correctionAdd("mozilla firefox", "Firefox");
@@ -33783,23 +33828,18 @@ namespace OverflowHelper.core
             correctionAdd("FX", "Firefox");
             correctionAdd("Fx", "Firefox");
 
+            // Firefox
+            // Part of Web development tools
+            correctionAdd("F12 keycode (KC_F12. QMK. 69 (decimal). 45 (hexadecimal))", "Inspector"); // For the cross-reference. Not strictly correct (Inspector is part of Web development tools, but it is the default view)
+            correctionAdd("Web development tools", "Inspector"); // Not strictly correct (Inspector is part of Web development tools, but it is the default view)
+            correctionAdd("Inspecter", "Inspector");
+            correctionAdd("inspecter", "Inspector");
+            correctionAdd("F12", "Inspector"); // Not strictly correct (Inspector is part of Web development tools, but it is the default view)
+
             correctionAdd("Firefox quantum", "Firefox Quantum");
             correctionAdd("firefox quantum", "Firefox Quantum");
             correctionAdd("Firefox quatum", "Firefox Quantum");
             correctionAdd("Firefox Quatum", "Firefox Quantum");
-
-            // Largely replaced by Firefox Quantum (which
-            // broke many extensions), but it is still
-            // provide. Wikipedia no longer explains
-            // "ESR"; it is for "extended support release".
-            //
-            correctionAdd("firefox esr", "Firefox ESR");
-            correctionAdd("Firefox esr", "Firefox ESR");
-            correctionAdd("Firefox-ESR", "Firefox ESR");
-
-            // Firefox
-            correctionAdd("Inspecter", "Inspector");
-            correctionAdd("inspecter", "Inspector");
 
             // A Firefox extension
             correctionAdd("pentadactyl", "Pentadactyl");
@@ -33961,6 +34001,7 @@ namespace OverflowHelper.core
             correctionAdd("CHROME", "Google Chrome");
             correctionAdd("chorm", "Google Chrome");
             correctionAdd("Chome", "Google Chrome");
+            correctionAdd("chome", "Google Chrome");
             correctionAdd("chomr", "Google Chrome"); // Multiple typos
             correctionAdd("Crome", "Google Chrome");
             correctionAdd("crome", "Google Chrome");
@@ -36387,6 +36428,8 @@ namespace OverflowHelper.core
             correctionAdd("firepath", "FirePath");
             correctionAdd("Firepath", "FirePath");
 
+            // An open-source database
+            // Not to be confused with Firebase
             correctionAdd("firebird", "Firebird");
 
             correctionAdd("wayfire", "Wayfire");
@@ -40975,41 +41018,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Anycasted", "anycasted");
 
-            correctionAdd("casse", "case");
-            correctionAdd("Case", "case");
-            correctionAdd("cAse", "case");
-            correctionAdd("cse", "case");
-            correctionAdd("cae", "case");
-
-            correctionAdd("casers", "cases");
-
-            correctionAdd("in-case", "in case");
-            correctionAdd("incase", "in case");
-            correctionAdd("Incase", "in case");
-            correctionAdd("in cas", "in case");
-
-            correctionAdd("worrest case", "worst-case");
-            correctionAdd("worest case", "worst-case");
-            correctionAdd("worst case", "worst-case");
-            correctionAdd("Worst case", "worst-case");
-            correctionAdd("Worse case", "worst-case");
-            correctionAdd("worse case", "worst-case");
-
-            correctionAdd("worst case scenario", "worst-case scenario");
-            correctionAdd("Worst case scenario", "worst-case scenario");
-
-            correctionAdd("edgecase", "edge case");
-            correctionAdd("edge-case", "edge case");
-
-            correctionAdd("edge-cases", "edge cases");
-
-            correctionAdd("corner-case", "corner case");
-
-            correctionAdd("case by case", "case-by-case");
-            correctionAdd("case to case", "case-by-case");
-
-            correctionAdd("best case scenario", "best-case scenario");
-
             correctionAdd("trainning", "training");
             correctionAdd("traning", "training");
             correctionAdd("train", "training");
@@ -44520,6 +44528,7 @@ namespace OverflowHelper.core
             correctionAdd("Northwind", "Northwind database");
 
             // A cloud thing: Database, authentication, etc.
+            // Not to be confused with Firebird
             correctionAdd("fire base", "Firebase");
             correctionAdd("firebrand", "Firebase");
             correctionAdd("firebase", "Firebase");
@@ -55876,6 +55885,10 @@ namespace OverflowHelper.core
             //   <https://askubuntu.com/questions/1570517>
             //   <https://askubuntu.com/questions/1570515>
             //
+            //   <https://stackoverflow.com/questions/80011791>
+            //   <https://stackoverflow.com/a/79941228>
+            //   <https://stackoverflow.com/questions/4672088>
+            //
             //   <https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html>
             //
             correctionAdd("php2shell", "PHP2Shell");
@@ -66040,6 +66053,13 @@ namespace OverflowHelper.core
             //     Instructions from Keychron, with some screenshots
             //
             //   <https://www.reddit.com/r/Keychron/comments/1es855e/comment/lkl6k76/>
+            //
+            //   <https://keychronsupport.zendesk.com/hc/en-us/articles/36489941127703-How-to-flash-the-keyboard-firmware-with-the-QMK-toolbox>
+            //     How to flash the keyboard firmware with the QMK toolbox
+            //
+            //     It includes the proprietary keyboard firmware for
+            //     the Q HE 8K series, e.g., Q6 HE 8K (but not the
+            //     J HE 8K and C HE 8K series).
             //
             correctionAdd("QMK Tool Box", "QMK Toolbox");
             correctionAdd("QMK toolbox", "QMK Toolbox");
@@ -97677,6 +97697,7 @@ namespace OverflowHelper.core
             correctionAdd("disablink", "disable");
             correctionAdd("dissable", "disable");
             correctionAdd("disbale", "disable");
+            correctionAdd("diasble", "disable"); // A true typo
             correctionAdd("diable", "disable");
             correctionAdd("disble", "disable");
             correctionAdd("Diable", "disable");
@@ -116435,8 +116456,6 @@ namespace OverflowHelper.core
 
             URL_Add("cannot", "https://en.wiktionary.org/wiki/cannot#Verb");
 
-            URL_Add("Can I use", "https://caniuse.com/#info_about");
-
             URL_Add("Candle", "https://en.wikipedia.org/wiki/WiX#Tools"); // Old: https://en.wikipedia.org/wiki/WiX#Candle
 
             URL_Add("Canada", "https://en.wikipedia.org/wiki/Canada");
@@ -117015,8 +117034,6 @@ namespace OverflowHelper.core
 
             URL_Add("GEDCOM", "https://en.wikipedia.org/wiki/GEDCOM");
 
-            URL_Add("W2web", "https://en.wikipedia.org/wiki/WIEN2k");
-
             URL_Add("WIEN2k", "https://en.wikipedia.org/wiki/WIEN2k");
 
             URL_Add("intention", "https://en.wiktionary.org/wiki/intention#Noun");
@@ -117541,8 +117558,6 @@ namespace OverflowHelper.core
 
             URL_Add("J-1 visa", "https://en.wikipedia.org/wiki/J-1_visa");
 
-            URL_Add("Proxy SwitchySharp", "https://chrome.google.com/webstore/detail/proxy-switchysharp/dpplabbmogkhghncfbfdeeokoefdjegm");
-
             URL_Add("SPARC", "https://en.wikipedia.org/wiki/SPARC");
 
             URL_Add("heavy-handed", "https://en.wiktionary.org/wiki/heavy-handed#Adjective");
@@ -117570,8 +117585,6 @@ namespace OverflowHelper.core
             URL_Add("probabilistic", "https://en.wiktionary.org/wiki/probabilistic#Adjective");
 
             URL_Add("wildlife", "https://en.wikipedia.org/wiki/Wildlife");
-
-            URL_Add("Web 2.0", "https://en.wikipedia.org/wiki/Web_2.0");
 
             URL_Add("filepath", "https://en.wiktionary.org/wiki/filepath#Noun");
 
@@ -117699,8 +117712,6 @@ namespace OverflowHelper.core
 
             URL_Add("Lenovo Yoga", "https://en.wikipedia.org/wiki/Lenovo_Yoga");
 
-            URL_Add("Web crawler", "https://en.wikipedia.org/wiki/Web_crawler");
-
             URL_Add("dabbler", "https://en.wiktionary.org/wiki/dabbler#Noun");
 
             URL_Add("hundredth", "https://en.wiktionary.org/wiki/hundredth#Adjective");
@@ -117712,8 +117723,6 @@ namespace OverflowHelper.core
             URL_Add("Dice", "https://en.wikipedia.org/wiki/Dice.com");
 
             URL_Add("George Orwell", "https://en.wikipedia.org/wiki/George_Orwell");
-
-            URL_Add("Noah Webster", "https://en.wikipedia.org/wiki/Noah_Webster");
 
             URL_Add("ZipRecruiter", "https://en.wikipedia.org/wiki/ZipRecruiter");
 
@@ -117808,8 +117817,6 @@ namespace OverflowHelper.core
             URL_Add("evolve", "https://en.wiktionary.org/wiki/evolve#Verb");
 
             URL_Add("Generation Z", "https://en.wikipedia.org/wiki/Generation_Z");
-
-            URL_Add("Merriam-Webster", "https://en.wikipedia.org/wiki/Merriam-Webster");
 
             URL_Add("UTF-7", "https://en.wikipedia.org/wiki/UTF-7");
 
@@ -117935,8 +117942,6 @@ namespace OverflowHelper.core
 
             URL_Add("reminder", "https://en.wiktionary.org/wiki/reminder#Noun");
 
-            URL_Add("Tornado", "https://en.wikipedia.org/wiki/Tornado_(web_server)");
-
             URL_Add("YaST", "https://en.wikipedia.org/wiki/YaST");
 
             URL_Add("international", "https://en.wiktionary.org/wiki/international#Adjective");
@@ -118012,8 +118017,6 @@ namespace OverflowHelper.core
             URL_Add("Firefox", "https://en.wikipedia.org/wiki/Firefox"); // Old: <https://en.wikipedia.org/wiki/Mozilla_Firefox>
 
             URL_Add("Firefox Quantum", "https://en.wikipedia.org/wiki/Firefox#Firefox_Quantum");
-
-            URL_Add("Firefox ESR", "https://en.wikipedia.org/wiki/Firefox#Channels_and_release_schedule"); // Old: https://en.wikipedia.org/wiki/Firefox#Experimental_builds_and_ESR
 
             URL_Add("gravity", "https://en.wikipedia.org/wiki/Gravity");
 
@@ -118270,8 +118273,6 @@ namespace OverflowHelper.core
             URL_Add("omnichannel", "https://en.wikipedia.org/wiki/Omnichannel");
 
             URL_Add("sugarcoat", "https://en.wiktionary.org/wiki/sugarcoat#Verb");
-
-            URL_Add("Web3.js", "https://www.mycryptopedia.com/what-is-web3-js-a-detailed-guide/");
 
             URL_Add("Münchhausen trilemma", "https://en.wikipedia.org/wiki/M%C3%BCnchhausen_trilemma");
 
@@ -119259,8 +119260,6 @@ namespace OverflowHelper.core
 
             URL_Add("potential", "https://en.wiktionary.org/wiki/potential#Noun");
 
-            URL_Add("semioval", "https://www.merriam-webster.com/dictionary/semioval");
-
             URL_Add("Polkadot", "https://en.wikipedia.org/wiki/Polkadot_(cryptocurrency)");
 
             URL_Add("polkadot-js", "https://polkadot.js.org/");
@@ -119533,8 +119532,6 @@ namespace OverflowHelper.core
 
             URL_Add("Raku", "https://en.wikipedia.org/wiki/Raku_(programming_language)");
 
-            URL_Add("WebAIM", "https://en.wikipedia.org/wiki/WebAIM");
-
             URL_Add("round trip", "https://en.wiktionary.org/wiki/round_trip#Noun");
 
             URL_Add("CoRecursive", "https://corecursive.com/about");
@@ -119640,10 +119637,6 @@ namespace OverflowHelper.core
             URL_Add("UCanAccess", "https://ucanaccess.sourceforge.net/site.html"); // Old: <http://ucanaccess.sourceforge.net/site.html>
 
             URL_Add("Breakout", "https://en.wikipedia.org/wiki/Breakout_(video_game)");
-
-            URL_Add("x- and y-coordinates", "https://www.math.net/coordinates");
-
-            URL_Add("x-coordinate", "https://www.merriam-webster.com/dictionary/x-coordinate");
 
             URL_Add("Oracle Database 11g Release 2", "https://en.wikipedia.org/wiki/Oracle_Database#Releases_and_versions");
 
@@ -120237,7 +120230,35 @@ namespace OverflowHelper.core
 
             URL_Add("unit", "https://en.wiktionary.org/wiki/unit#Noun");
 
+            URL_Add("Noah Webster", "https://en.wikipedia.org/wiki/Noah_Webster");
+
+            URL_Add("Merriam-Webster", "https://en.wikipedia.org/wiki/Merriam-Webster");
+
+            URL_Add("Web 2.0", "https://en.wikipedia.org/wiki/Web_2.0");
+
+            URL_Add("Web crawler", "https://en.wikipedia.org/wiki/Web_crawler");
+
             URL_Add("Web development", "https://en.wikipedia.org/wiki/Web_development");
+
+            URL_Add("W2web", "https://en.wikipedia.org/wiki/WIEN2k");
+
+            URL_Add("Wappalyzer", "https://chromewebstore.google.com/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg");
+
+            URL_Add("Can I use", "https://caniuse.com/#info_about");
+
+            URL_Add("Web3.js", "https://www.mycryptopedia.com/what-is-web3-js-a-detailed-guide/");
+
+            URL_Add("Proxy SwitchySharp", "https://chrome.google.com/webstore/detail/proxy-switchysharp/dpplabbmogkhghncfbfdeeokoefdjegm");
+
+            URL_Add("Tornado", "https://en.wikipedia.org/wiki/Tornado_(web_server)");
+
+            URL_Add("x- and y-coordinates", "https://www.math.net/coordinates");
+
+            URL_Add("semioval", "https://www.merriam-webster.com/dictionary/semioval");
+
+            URL_Add("WebAIM", "https://en.wikipedia.org/wiki/WebAIM");
+
+            URL_Add("x-coordinate", "https://www.merriam-webster.com/dictionary/x-coordinate");
 
             URL_Add("leisure", "https://en.wiktionary.org/wiki/leisure#Noun");
 
@@ -122306,8 +122327,6 @@ namespace OverflowHelper.core
             URL_Add("battle", "https://en.wiktionary.org/wiki/battle#Noun");
 
             URL_Add("garden leave", "https://en.wikipedia.org/wiki/Garden_leave");
-
-            URL_Add("mobile phone", "https://en.wikipedia.org/wiki/Mobile_phone");
 
             URL_Add("strong arm", "https://en.wiktionary.org/wiki/strong-arm#Verb");
 
@@ -124686,10 +124705,6 @@ namespace OverflowHelper.core
             URL_Add("Trade Agreements Act of 1979", "https://en.wikipedia.org/wiki/Trade_Agreements_Act_of_1979");
 
             URL_Add("E Ink", "https://en.wikipedia.org/wiki/E_Ink");
-
-            URL_Add("mobile", "https://en.wiktionary.org/wiki/mobile#Adjective");
-
-            URL_Add("wires", "https://en.wiktionary.org/wiki/wire#Noun");
 
             URL_Add("nonergonomic", "https://en.wiktionary.org/wiki/nonergonomic#Adjective");
 
@@ -127807,8 +127822,6 @@ namespace OverflowHelper.core
 
             URL_Add("ActivePython", "https://wiki.python.org/moin/ActivePython");
 
-            URL_Add("Inspector", "https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/open_the_inspector/index.html");
-
             URL_Add("like so", "https://en.wiktionary.org/wiki/like_so#Adverb");
 
             URL_Add("texel", "https://en.wikipedia.org/wiki/Texel_(graphics)");
@@ -128372,14 +128385,6 @@ namespace OverflowHelper.core
             URL_Add("Zwicky Transient Facility", "https://en.wikipedia.org/wiki/Zwicky_Transient_Facility");
 
             URL_Add("hybrid", "https://en.wiktionary.org/wiki/hybrid#Adjective");
-
-            URL_Add("mobile app development", "https://en.wikipedia.org/wiki/Mobile_app_development");
-
-            URL_Add("single-page application", "https://en.wikipedia.org/wiki/Single-page_application");
-
-            URL_Add("single-page applications", "https://en.wikipedia.org/wiki/Single-page_application");
-
-            URL_Add("style sheets", "https://en.wikipedia.org/wiki/Style_sheet_(web_development)");
 
             URL_Add("turnaround time", "https://en.wiktionary.org/wiki/turnaround_time#Noun");
 
@@ -133682,6 +133687,8 @@ namespace OverflowHelper.core
             URL_Add("SQLite ORM", "https://github.com/fnc12/sqlite_orm");
 
             URL_Add("SQLite Manager", "https://addons.mozilla.org/en-US/firefox/addon/sqlite-manager-webext/");
+
+            URL_Add("Inspector", "https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/open_the_inspector/index.html");
 
             URL_Add("makes", "https://en.wiktionary.org/wiki/make#Verb");
 
@@ -151155,6 +151162,20 @@ namespace OverflowHelper.core
 
             URL_Add("MBaaS", "https://en.wikipedia.org/wiki/Mobile_backend_as_a_service");
 
+            URL_Add("wires", "https://en.wiktionary.org/wiki/wire#Noun");
+
+            URL_Add("mobile", "https://en.wiktionary.org/wiki/mobile#Adjective");
+
+            URL_Add("mobile phone", "https://en.wikipedia.org/wiki/Mobile_phone");
+
+            URL_Add("mobile app development", "https://en.wikipedia.org/wiki/Mobile_app_development");
+
+            URL_Add("single-page application", "https://en.wikipedia.org/wiki/Single-page_application");
+
+            URL_Add("single-page applications", "https://en.wikipedia.org/wiki/Single-page_application");
+
+            URL_Add("style sheets", "https://en.wikipedia.org/wiki/Style_sheet_(web_development)");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -151387,20 +151408,6 @@ namespace OverflowHelper.core
             correctionAdd("pthreads_", "POSIX Threads_");
             correctionAdd("pthread_", "POSIX Threads_");
 
-            // Electronics
-            //
-            // Alternative URLs:
-            //
-            //  <https://www.youtube.com/watch?v=rPGoMbVSUu8>
-            //
-            correctionAdd("multi meter_", "multimeter_");
-            correctionAdd("Multimeter_", "multimeter_");
-            correctionAdd("multineter_", "multimeter_");
-            correctionAdd("moldymeter_", "multimeter_");
-            correctionAdd("multimete_", "multimeter_");
-            correctionAdd("milimeter_", "multimeter_");
-            correctionAdd("mm_", "multimeter_");
-
             correctionAdd("hadndle_", "handle_");
             correctionAdd("handel_", "handle_");
             correctionAdd("hangle_", "handle_");
@@ -151420,6 +151427,75 @@ namespace OverflowHelper.core
             correctionAdd("m0bile app_", "mobile app_");
 
             correctionAdd("Mobile Apps_", "mobile apps_");
+
+            // A manufacturer of consumer electronics, etc.
+            // For example, smartphones and TVs.
+            //
+            correctionAdd("LG Electronics_", "LG_");
+            correctionAdd("lg_", "LG_");
+
+            // Electronics
+            //
+            // Alternative URLs:
+            //
+            //  <https://www.youtube.com/watch?v=rPGoMbVSUu8>
+            //
+            correctionAdd("multi meter_", "multimeter_");
+            correctionAdd("Multimeter_", "multimeter_");
+            correctionAdd("multineter_", "multimeter_");
+            correctionAdd("moldymeter_", "multimeter_");
+            correctionAdd("multimete_", "multimeter_");
+            correctionAdd("milimeter_", "multimeter_");
+            correctionAdd("mm_", "multimeter_");
+
+            // Electronics
+            correctionAdd("dip_", "DIP_");
+            correctionAdd("Dip_", "DIP_");
+
+            // Alternative URLs:
+            //
+            //   <https://i.imgur.com/xaj1qvs.jpeg>
+            //     Loose USB connector
+            //
+            //     Referenced in: <https://www.reddit.com/r/Keychron/comments/1it1m0u/comment/mjbbz91/>
+            //
+            //       Old: <https://www.reddit.com/r/Keychron/comments/1it1m0u/comment/mdm2cf6/>
+            //
+            //     Note: Requires JavaScript to be allowed from
+            //           'cloudfront.net' to not be surrounded
+            //           by Imgur goo.
+            //
+            //     Tag: Loose. USB. Keychron. Connector.
+            //
+            //   <https://imgur.com/cYsmJtH>
+            //     The V Max, at least the V3 Max, has internal connectors.
+            //     From <https://www.reddit.com/r/Keychron/comments/1t0fstn/v3_max_usb_board/>
+            //
+            correctionAdd("loose internal USB connector_", "loose connectors in Keychron keyboards_");
+            correctionAdd("loose internal connectors_", "loose connectors in Keychron keyboards_");
+            correctionAdd("loose internal connector_", "loose connectors in Keychron keyboards_");
+            correctionAdd("internal connectors_", "loose connectors in Keychron keyboards_");
+            correctionAdd("loose USB connector_", "loose connectors in Keychron keyboards_");
+            correctionAdd("loose connectors_", "loose connectors in Keychron keyboards_");
+            correctionAdd("loose connector_", "loose connectors in Keychron keyboards_");
+            correctionAdd("loose_", "loose connectors in Keychron keyboards_");
+
+            // A physical connector (electronics)
+            correctionAdd("JST_", "JST connector_");
+
+            // Electronics
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/1xcdie8/diy_low_profile_pin_headers/>
+            //
+            correctionAdd("pin headers_", "pin header_");
+            correctionAdd("headers_", "pin header_");
+            correctionAdd("header_", "pin header_");
+
+            // Electronics
+            correctionAdd("coaxial cable_", "coax_");
+            correctionAdd("co-ax_", "coax_");
 
             // The noun
             correctionAdd("thank you_", "thank-you_");
@@ -151715,6 +151791,195 @@ namespace OverflowHelper.core
             correctionAdd("1-line_", "one-line_");
 
             correctionAdd("tenth_", "one-tenth_");
+
+            correctionAdd("developpement_", "development_");
+            correctionAdd("devloppement_", "development_");
+            correctionAdd("developement_", "development_");
+            correctionAdd("Developement_", "development_");
+            correctionAdd("develepment_", "development_");
+            correctionAdd("Development_", "development_");
+            correctionAdd("developemnt_", "development_");
+            correctionAdd("devleopemnt_", "development_"); // A true typo
+            correctionAdd("devolpment_", "development_");
+            correctionAdd("Devlopment_", "development_");
+            correctionAdd("devlopment_", "development_");
+            correctionAdd("develoment_", "development_");
+            correctionAdd("developent_", "development_");
+            correctionAdd("devopement_", "development_");
+            correctionAdd("develoent_", "development_");
+            correctionAdd("dev_", "development_");
+
+            correctionAdd("Development kit_", "development kit_");
+            correctionAdd("DK_", "development kit_");
+
+            correctionAdd("Web3_", "Web 3.0_");
+            correctionAdd("web3_", "Web 3.0_");
+
+            correctionAdd("Web development_", "web developer_");
+            correctionAdd("web-developer_", "web developer_");
+            correctionAdd("webdev_", "web developer_");
+
+            // Web software development
+            correctionAdd("Server-Sent Events_", "server-sent events_");
+            correctionAdd("SSE_", "server-sent events_");
+
+            correctionAdd("Web&nbsp;Applications_", "web applications_");
+            correctionAdd("Web Applicaitons_", "web applications_");
+            correctionAdd("Web Applications_", "web applications_");
+            correctionAdd("webapplications_", "web applications_");
+            correctionAdd("Web Apps_", "web applications_");
+            correctionAdd("Web apps_", "web applications_");
+            correctionAdd("web apps_", "web applications_");
+            correctionAdd("web Apps_", "web applications_");
+            correctionAdd("WebApps_", "web applications_");
+            correctionAdd("Webapps_", "web applications_");
+            correctionAdd("webapps_", "web applications_");
+
+            correctionAdd("browers_", "browsers_");
+
+            // A Steve Jobs statement about a web browser, Internet Explorer...
+            correctionAdd("Internet Explorer_", "We believe that Internet Explorer is a really good browser._");
+            correctionAdd("IE_", "We believe that Internet Explorer is a really good browser._");
+
+            // A web browser
+            // Alternative URLs:
+            //
+            //   <https://thorium.rocks/>
+            //
+            correctionAdd("thorium_", "Thorium_");
+
+            // A web browser (based on Chromium)
+            correctionAdd("epic privacy browser_", "Epic_");
+            correctionAdd("epic_", "Epic_");
+
+            // A web browser extension
+            correctionAdd("stylus_", "Stylus_");
+
+            correctionAdd("Weblogic_", "WebLogic_");
+            correctionAdd("weblogic_", "WebLogic_");
+
+            correctionAdd("WLS_", "WebLogic Server_");
+
+            // Primarily for the alternative output (HTML). The
+            // real output is "&nbsp;" and NBSP is to not it
+            // get hidden in some contexts...
+            //
+            // It is here because "non-breaking space" conflicts
+            // with the main word set.
+            //
+            correctionAdd("non-breaking space_", "&nbsp; NBSP_");
+            correctionAdd("NBSP_", "&nbsp; NBSP_");
+            correctionAdd("nbsp_", "&nbsp; NBSP_");
+            correctionAdd("0xA0_", "&nbsp; NBSP_");
+
+            // For HTML encoding (HTML character entity reference)
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Greater-than_sign>
+            //
+            correctionAdd("greater-than sign_", "&gt;_"); // The expanded version
+            correctionAdd("greater than sign_", "&gt;_");
+            correctionAdd("greater than_", "&gt;_");
+            correctionAdd("gt_", "&gt;_");
+            correctionAdd(">_", "&gt;_");
+
+            // HTML (NCR)
+            //
+            //   Related: character entity reference (CER)
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wikibooks.org/wiki/Unicode/Character_reference/0000-0FFF>
+            //
+            correctionAdd("numeric HTML character reference_", "numeric character reference_");
+            correctionAdd("Numeric Character Reference_", "numeric character reference_");
+            correctionAdd("Numeric character reference_", "numeric character reference_");
+            correctionAdd("ncr_", "numeric character reference_");
+            correctionAdd("NCR_", "numeric character reference_");
+            correctionAdd("HTML character entity reference_", "numeric character reference_"); // For the cross-reference
+
+            correctionAdd("Uglifies_", "uglifies_");
+
+            // Not Laravel
+            correctionAdd("homestead_", "Homestead_");
+
+            // PHP. Laravel
+            correctionAdd("live-wire_", "Laravel Livewire_");
+            correctionAdd("livewire_", "Laravel Livewire_");
+            correctionAdd("LiveWire_", "Laravel Livewire_");
+            correctionAdd("Livewire_", "Laravel Livewire_");
+
+            // PHP. Laravel
+            correctionAdd("Laravel pusher_", "Laravel Pusher Channels_");
+            correctionAdd("pusher_", "Laravel Pusher Channels_");
+
+            // E.g., of JavaScript code
+            correctionAdd("minification_", "minify_");
+            correctionAdd("minified_", "minify_");
+            correctionAdd("Minify_", "minify_");
+
+            // The HTML tag
+            correctionAdd("TABLE_", "table_");
+
+            // The HTML tag (tables)
+            //
+            // Note: "td" in another alternative word set and
+            //       "th" is in the main word set
+            //
+            correctionAdd("TR_", "tr_");
+
+            // HTML
+            correctionAdd("post_", "POST_");
+
+            // The HTML tag
+            correctionAdd("SCRIPT_", "script_");
+
+            // The HTML tag
+            correctionAdd("Body_", "body_");
+            correctionAdd("BODY_", "body_");
+
+            // The HTML tag
+            //
+            // Alternative URL:
+            //
+            //   <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div>
+            //
+            correctionAdd("DIV_", "div_"); // An HTML tag
+
+            // The HTML tag
+            //
+            // An HTML attribute (for various HTML tags(?), like <div>)
+            correctionAdd("STYLE_", "style_");
+
+            // An HTML attribute (for an HTML tag)
+            correctionAdd("HREF_", "href_");
+
+            // HTML tag
+            correctionAdd("IMG_", "img_");
+
+            // The HTML tag
+            correctionAdd("TITLE_", "title_");
+
+            // An HTML tag (lists)
+            correctionAdd("UL_", "ul_");
+
+            // An HTML tag (lists)
+            correctionAdd("OL_", "ol_");
+
+            // An HTML tag
+            correctionAdd("LI_", "li_");
+
+            // An HTML tag
+            correctionAdd("bk_", "br_");
+            correctionAdd("BR_", "br_");
+            correctionAdd("Br_", "br_");
+
+            // The HTML tag
+            correctionAdd("HEAD_", "head_");
+
+            // The HTML attribute
+            correctionAdd("CLASS_", "class_");
 
             // Configuration software for Cooler Master keyboards.
             //
@@ -156365,199 +156630,8 @@ namespace OverflowHelper.core
             correctionAdd("garbage collect_", "GC_");
             correctionAdd("gc_", "GC_");
 
-            correctionAdd("Web3_", "Web 3.0_");
-            correctionAdd("web3_", "Web 3.0_");
-
             // For the expansion
             correctionAdd("TOC_", "table of contents_");
-
-            correctionAdd("developpement_", "development_");
-            correctionAdd("devloppement_", "development_");
-            correctionAdd("developement_", "development_");
-            correctionAdd("Developement_", "development_");
-            correctionAdd("develepment_", "development_");
-            correctionAdd("Development_", "development_");
-            correctionAdd("developemnt_", "development_");
-            correctionAdd("devleopemnt_", "development_"); // A true typo
-            correctionAdd("devolpment_", "development_");
-            correctionAdd("Devlopment_", "development_");
-            correctionAdd("devlopment_", "development_");
-            correctionAdd("develoment_", "development_");
-            correctionAdd("developent_", "development_");
-            correctionAdd("devopement_", "development_");
-            correctionAdd("develoent_", "development_");
-            correctionAdd("dev_", "development_");
-
-            correctionAdd("Development kit_", "development kit_");
-            correctionAdd("DK_", "development kit_");
-
-            correctionAdd("Web development_", "web developer_");
-            correctionAdd("web-developer_", "web developer_");
-            correctionAdd("webdev_", "web developer_");
-
-            correctionAdd("development tools_", "Web development tools_");
-            correctionAdd("developer tools_", "Web development tools_");
-            correctionAdd("dev tools_", "Web development tools_");
-            correctionAdd("DevTools_", "Web development tools_");
-            correctionAdd("devtools_", "Web development tools_");
-
-            correctionAdd("Web&nbsp;Applications_", "web applications_");
-            correctionAdd("Web Applicaitons_", "web applications_");
-            correctionAdd("Web Applications_", "web applications_");
-            correctionAdd("webapplications_", "web applications_");
-            correctionAdd("Web Apps_", "web applications_");
-            correctionAdd("Web apps_", "web applications_");
-            correctionAdd("web apps_", "web applications_");
-            correctionAdd("web Apps_", "web applications_");
-            correctionAdd("WebApps_", "web applications_");
-            correctionAdd("Webapps_", "web applications_");
-            correctionAdd("webapps_", "web applications_");
-
-            // Web software development
-            correctionAdd("Server-Sent Events_", "server-sent events_");
-            correctionAdd("SSE_", "server-sent events_");
-
-            correctionAdd("Weblogic_", "WebLogic_");
-            correctionAdd("weblogic_", "WebLogic_");
-
-            correctionAdd("WLS_", "WebLogic Server_");
-
-            correctionAdd("browers_", "browsers_");
-
-            correctionAdd("Internet Explorer_", "We believe that Internet Explorer is a really good browser._");
-            correctionAdd("IE_", "We believe that Internet Explorer is a really good browser._");
-
-            // A web browser
-            // Alternative URLs:
-            //
-            //   <https://thorium.rocks/>
-            //
-            correctionAdd("thorium_", "Thorium_");
-
-            // A web browser (based on Chromium)
-            correctionAdd("epic privacy browser_", "Epic_");
-            correctionAdd("epic_", "Epic_");
-
-            // Primarily for the alternative output (HTML). The
-            // real output is "&nbsp;" and NBSP is to not it
-            // get hidden in some contexts...
-            //
-            // It is here because "non-breaking space" conflicts
-            // with the main word set.
-            //
-            correctionAdd("non-breaking space_", "&nbsp; NBSP_");
-            correctionAdd("NBSP_", "&nbsp; NBSP_");
-            correctionAdd("nbsp_", "&nbsp; NBSP_");
-            correctionAdd("0xA0_", "&nbsp; NBSP_");
-
-            // For HTML encoding (HTML character entity reference)
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/Greater-than_sign>
-            //
-            correctionAdd("greater-than sign_", "&gt;_"); // The expanded version
-            correctionAdd("greater than sign_", "&gt;_");
-            correctionAdd("greater than_", "&gt;_");
-            correctionAdd("gt_", "&gt;_");
-            correctionAdd(">_", "&gt;_");
-
-            // HTML (NCR)
-            //
-            //   Related: character entity reference (CER)
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wikibooks.org/wiki/Unicode/Character_reference/0000-0FFF>
-            //
-            correctionAdd("numeric HTML character reference_", "numeric character reference_");
-            correctionAdd("Numeric Character Reference_", "numeric character reference_");
-            correctionAdd("Numeric character reference_", "numeric character reference_");
-            correctionAdd("ncr_", "numeric character reference_");
-            correctionAdd("NCR_", "numeric character reference_");
-            correctionAdd("HTML character entity reference_", "numeric character reference_"); // For the cross-reference
-
-            correctionAdd("Uglifies_", "uglifies_");
-
-            // Not Laravel
-            correctionAdd("homestead_", "Homestead_");
-
-            // PHP. Laravel
-            correctionAdd("live-wire_", "Laravel Livewire_");
-            correctionAdd("livewire_", "Laravel Livewire_");
-            correctionAdd("LiveWire_", "Laravel Livewire_");
-            correctionAdd("Livewire_", "Laravel Livewire_");
-
-            // PHP. Laravel
-            correctionAdd("Laravel pusher_", "Laravel Pusher Channels_");
-            correctionAdd("pusher_", "Laravel Pusher Channels_");
-
-            // E.g., of JavaScript code
-            correctionAdd("minification_", "minify_");
-            correctionAdd("minified_", "minify_");
-            correctionAdd("Minify_", "minify_");
-
-            // The HTML tag
-            correctionAdd("TABLE_", "table_");
-
-            // The HTML tag (tables)
-            //
-            // Note: "td" in another alternative word set and
-            //       "th" is in the main word set
-            //
-            correctionAdd("TR_", "tr_");
-
-            // HTML
-            correctionAdd("post_", "POST_");
-
-            // The HTML tag
-            correctionAdd("SCRIPT_", "script_");
-
-            // The HTML tag
-            correctionAdd("Body_", "body_");
-            correctionAdd("BODY_", "body_");
-
-            // The HTML tag
-            //
-            // Alternative URL:
-            //
-            //   <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div>
-            //
-            correctionAdd("DIV_", "div_"); // An HTML tag
-
-            // The HTML tag
-            //
-            // An HTML attribute (for various HTML tags(?), like <div>)
-            correctionAdd("STYLE_", "style_");
-
-            // An HTML attribute (for an HTML tag)
-            correctionAdd("HREF_", "href_");
-
-            // HTML tag
-            correctionAdd("IMG_", "img_");
-
-            // The HTML tag
-            correctionAdd("TITLE_", "title_");
-
-            // An HTML tag (lists)
-            correctionAdd("UL_", "ul_");
-
-            // An HTML tag (lists)
-            correctionAdd("OL_", "ol_");
-
-            // An HTML tag
-            correctionAdd("LI_", "li_");
-
-            // An HTML tag
-            correctionAdd("bk_", "br_");
-            correctionAdd("BR_", "br_");
-            correctionAdd("Br_", "br_");
-
-            // The HTML tag
-            correctionAdd("HEAD_", "head_");
-
-            // The HTML attribute
-            correctionAdd("CLASS_", "class_");
 
             correctionAdd("short term_", "short-term_");
 
@@ -158283,10 +158357,6 @@ namespace OverflowHelper.core
             correctionAdd("Inertia_", "Inertia.js_");
             correctionAdd("inertia_", "Inertia.js_");
 
-            // Electronics
-            correctionAdd("dip_", "DIP_");
-            correctionAdd("Dip_", "DIP_");
-
             correctionAdd("IQ_", "image quality_");
 
             // System updates as one single image instead of
@@ -158898,7 +158968,7 @@ namespace OverflowHelper.core
             //      Thus it is ***not*** QMK/Via-capable.
             //
             //      Though in 2025, it has received QMK support
-            //      (version 3, 'K2 V3' or 'K2 QMK'):
+            //      (version 3, 'K2 V3', 'K2 QMK', or 'K2 version 3' ):
             //
             //        <https://www.keychron.com/products/keychron-k2-qmk-wireless-mechanical-keyboard-version-3>
             //          Keychron K2 QMK wireless mechanical keyboard (version 3)
@@ -160889,37 +160959,6 @@ namespace OverflowHelper.core
             correctionAdd("revision code_", "USB side version_");
             correctionAdd("bcdDevice_", "USB side version_");
             correctionAdd("version_", "USB side version_");
-
-            // Alternative URLs:
-            //
-            //   <https://i.imgur.com/xaj1qvs.jpeg>
-            //     Loose USB connector
-            //
-            //     Referenced in: <https://www.reddit.com/r/Keychron/comments/1it1m0u/comment/mjbbz91/>
-            //
-            //       Old: <https://www.reddit.com/r/Keychron/comments/1it1m0u/comment/mdm2cf6/>
-            //
-            //     Note: Requires JavaScript to be allowed from
-            //           'cloudfront.net' to not be surrounded
-            //           by Imgur goo.
-            //
-            //     Tag: Loose. USB. Keychron. Connector.
-            //
-            //   <https://imgur.com/cYsmJtH>
-            //     The V Max, at least the V3 Max, has internal connectors.
-            //     From <https://www.reddit.com/r/Keychron/comments/1t0fstn/v3_max_usb_board/>
-            //
-            correctionAdd("loose internal USB connector_", "loose connectors in Keychron keyboards_");
-            correctionAdd("loose internal connectors_", "loose connectors in Keychron keyboards_");
-            correctionAdd("loose internal connector_", "loose connectors in Keychron keyboards_");
-            correctionAdd("internal connectors_", "loose connectors in Keychron keyboards_");
-            correctionAdd("loose USB connector_", "loose connectors in Keychron keyboards_");
-            correctionAdd("loose connectors_", "loose connectors in Keychron keyboards_");
-            correctionAdd("loose connector_", "loose connectors in Keychron keyboards_");
-            correctionAdd("loose_", "loose connectors in Keychron keyboards_");
-
-            // A physical connector (electronics)
-            correctionAdd("JST_", "JST connector_");
 
             correctionAdd("Checks_", "checks_");
 
@@ -163565,6 +163604,8 @@ namespace OverflowHelper.core
 
             correctionAdd("KC_F12_", "F12 keycode (KC_F12. QMK. 69 (decimal). 45 (hexadecimal))_");
             correctionAdd("0x45_", "F12 keycode (KC_F12. QMK. 69 (decimal). 45 (hexadecimal))_");
+            correctionAdd("F12_", "F12 keycode (KC_F12. QMK. 69 (decimal). 45 (hexadecimal))_");
+            correctionAdd("f12_", "F12 keycode (KC_F12. QMK. 69 (decimal). 45 (hexadecimal))_");
 
             correctionAdd("KC_PRINT_SCREEN_", "Print Screen keycode (KC_PRINT_SCREEN. QMK. 70 (decimal). 46 (hexadecimal))_");
             correctionAdd("KC_PSCR_", "Print Screen keycode (KC_PRINT_SCREEN. QMK. 70 (decimal). 46 (hexadecimal))_");
@@ -164873,11 +164914,6 @@ namespace OverflowHelper.core
 
             correctionAdd("[tag:foxpro]_", "FoxPro (tag wiki)_");
 
-            correctionAdd("[tag:webrtc]_", "WebRTC (tag wiki)_");
-            correctionAdd("tag:webrtc_", "WebRTC (tag wiki)_");
-            correctionAdd("webrtc_", "WebRTC (tag wiki)_");
-            correctionAdd("WebRTC_", "WebRTC (tag wiki)_");
-
             correctionAdd("[tag:amazon-web-services]_", "Amazon Web Services (tag wiki)_");
             correctionAdd("amazon-web-services_", "Amazon Web Services (tag wiki)_");
             correctionAdd("Amazon AWS_", "Amazon Web Services (tag wiki)_");
@@ -165184,6 +165220,11 @@ namespace OverflowHelper.core
             correctionAdd("tag:shell_", "shell (tag wiki)_");
             correctionAdd("shell_", "shell (tag wiki)_");
 
+            correctionAdd("[tag:webrtc]_", "WebRTC (tag wiki)_");
+            correctionAdd("tag:webrtc_", "WebRTC (tag wiki)_");
+            correctionAdd("webrtc_", "WebRTC (tag wiki)_");
+            correctionAdd("WebRTC_", "WebRTC (tag wiki)_");
+
             //// Wrong URL... It should be:
             //
             //   <https://stackoverflow.com/questions/tagged/csh>
@@ -165265,10 +165306,6 @@ namespace OverflowHelper.core
 
             // Compartment at the front of a train for the driver
             correctionAdd("cab_", "driver's compartment_");
-
-            // Electronics
-            correctionAdd("coaxial cable_", "coax_");
-            correctionAdd("co-ax_", "coax_");
 
             correctionAdd("esay_", "essay_");
 
@@ -166798,9 +166835,6 @@ namespace OverflowHelper.core
             correctionAdd("Posibly_", "possibly_");
             correctionAdd("posibly_", "possibly_");
 
-            // A web browser extension
-            correctionAdd("stylus_", "Stylus_");
-
             // The noun
             correctionAdd("patched_", "patches_");
             correctionAdd("pathes_", "patches_");
@@ -167328,12 +167362,6 @@ namespace OverflowHelper.core
             correctionAdd("Ad Blocker_", "adblocker_");
             correctionAdd("ADBlocker_", "adblocker_");
             correctionAdd("adblock_", "adblocker_");
-
-            // A manufacturer of consumer electronics, etc.
-            // For example, smartphones and TVs.
-            //
-            correctionAdd("LG Electronics_", "LG_");
-            correctionAdd("lg_", "LG_");
 
             correctionAdd("warren buffet_", "Warren Buffett_");
             correctionAdd("WB_", "Warren Buffett_");
@@ -169223,6 +169251,8 @@ namespace OverflowHelper.core
 
             URL_Add("JST connector_", "https://en.wikipedia.org/wiki/JST_connector");
 
+            URL_Add("pin header_", "https://en.wikipedia.org/wiki/Pin_header");
+
             URL_Add("pairs_", "https://en.wiktionary.org/wiki/pair#Verb");
 
             URL_Add("sed_", "https://en.wikipedia.org/wiki/Sed");
@@ -170079,8 +170109,6 @@ namespace OverflowHelper.core
 
             URL_Add("web developer_", "https://en.wiktionary.org/wiki/web_developer#Noun");
 
-            URL_Add("Web development tools_", "https://en.wikipedia.org/wiki/Web_development_tools");
-
             URL_Add("game development_", "https://en.wikipedia.org/wiki/Video_game_development");
 
             URL_Add("Twitter-driven development_", "https://meta.stackexchange.com/questions/19478/the-many-memes-of-meta/318341#318341");
@@ -170270,10 +170298,6 @@ namespace OverflowHelper.core
             URL_Add("EN DASH (U+2013)_", "https://www.utf8-chartable.de/unicode-utf8-table.pl?start=8192&number=128");
 
             URL_Add("EM DASH (U+2014)_", "https://www.utf8-chartable.de/unicode-utf8-table.pl?start=8206&number=128");
-
-            URL_Add("LG_", "https://en.wikipedia.org/wiki/LG_Electronics");
-
-            URL_Add("HTC HD2_", "https://en.wikipedia.org/wiki/HTC_HD2");
 
             URL_Add("table of contents_", "https://en.wikipedia.org/wiki/Table_of_contents");
 
@@ -170650,12 +170674,6 @@ namespace OverflowHelper.core
             URL_Add("culprit_", "https://en.wiktionary.org/wiki/culprit#Noun");
 
             URL_Add("leading edge_", "https://en.wikipedia.org/wiki/Signal_edge");
-
-            URL_Add("mobile phone_", "https://www.youtube.com/watch?v=xfeMGVCX-Gk&t=5m10s");
-
-            URL_Add("mobile app_", "https://en.wikipedia.org/wiki/Mobile_app");
-
-            URL_Add("mobile apps_", "https://en.wikipedia.org/wiki/Mobile_app");
 
             URL_Add("speeded_", "https://en.wiktionary.org/wiki/speed#Verb");
 
@@ -172296,6 +172314,16 @@ namespace OverflowHelper.core
             URL_Add("date_", "https://en.wikipedia.org/wiki/System_time#Operating_systems");
 
             URL_Add("MBA_", "https://en.wikipedia.org/wiki/Master_of_Business_Administration");
+
+            URL_Add("mobile phone_", "https://www.youtube.com/watch?v=xfeMGVCX-Gk&t=5m10s");
+
+            URL_Add("mobile app_", "https://en.wikipedia.org/wiki/Mobile_app");
+
+            URL_Add("mobile apps_", "https://en.wikipedia.org/wiki/Mobile_app");
+
+            URL_Add("LG_", "https://en.wikipedia.org/wiki/LG_Electronics");
+
+            URL_Add("HTC HD2_", "https://en.wikipedia.org/wiki/HTC_HD2");
 
         } //addLookupData_alternativeWordSet()
 
@@ -174488,6 +174516,12 @@ namespace OverflowHelper.core
             correctionAdd("Markdown__", "Markdown tables__"); // For the cross-reference
             correctionAdd("tables__", "Markdown tables__"); // For the cross-reference
             correctionAdd("table__", "Markdown tables__"); // For the cross-reference
+
+            correctionAdd("```lang-kt__", "```lang-kotlin__");
+            correctionAdd("```kotlin__", "```lang-kotlin__");
+            correctionAdd("Kotlin__", "```lang-kotlin__"); // For the cross-reference
+            correctionAdd("```kt__", "```lang-kotlin__");
+            correctionAdd("'''kt__", "```lang-kotlin__");
 
             correctionAdd("UE__", "User Equipment__");
 
@@ -176854,11 +176888,17 @@ namespace OverflowHelper.core
             correctionAdd("expect__", "Expect__");
             correctionAdd("EXPECT__", "Expect__");
 
-            correctionAdd("```lang-kt__", "```lang-kotlin__");
-            correctionAdd("```kotlin__", "```lang-kotlin__");
-            correctionAdd("Kotlin__", "```lang-kotlin__"); // For the cross-reference
-            correctionAdd("```kt__", "```lang-kotlin__");
-            correctionAdd("'''kt__", "```lang-kotlin__");
+            correctionAdd("development tools__", "Web development tools__");
+            correctionAdd("developer tools__", "Web development tools__");
+            correctionAdd("Developer tools__", "Web development tools__");
+            correctionAdd("Developertools__", "Web development tools__");
+            correctionAdd("developertools__", "Web development tools__");
+            correctionAdd("dev tools__", "Web development tools__");
+            correctionAdd("DevTools__", "Web development tools__");
+            correctionAdd("devtools__", "Web development tools__");
+            correctionAdd("Inspector__", "Web development tools__"); // For the cross-reference
+            correctionAdd("F12__", "Web development tools__"); // That is the keyboard shortcut
+            correctionAdd("F8__", "Web development tools__"); // That is the ***wrong*** keyboard shortcut... It is for breaking in the debugger
 
             // A web browser (based on Chromium)
             correctionAdd("iron__", "SRWare Iron__");
@@ -177342,6 +177382,18 @@ namespace OverflowHelper.core
             correctionAdd("apple__", "apples and oranges__");
 
             correctionAdd("suit__", "suite__");
+
+            // Largely replaced by Firefox Quantum (which
+            // broke many extensions), but it is still
+            // provide. Wikipedia no longer explains
+            // "ESR"; it is for "extended support release".
+            //
+            correctionAdd("extended support release__", "Firefox ESR__");
+            correctionAdd("firefox esr__", "Firefox ESR__");
+            correctionAdd("Firefox esr__", "Firefox ESR__");
+            correctionAdd("Firefox-ESR__", "Firefox ESR__");
+            correctionAdd("ESR__", "Firefox ESR__");
+            correctionAdd("esr__", "Firefox ESR__");
 
             // A book. For the reverse
             //
@@ -178636,6 +178688,10 @@ namespace OverflowHelper.core
             URL_Add("\"Explanation is vital for a good answer.\"__", "https://meta.stackexchange.com/questions/258474/deal-with-famous-profiles-and-the-possibility-of-fakes/258475#258475");
 
             URL_Add("Pawn__", "https://github.com/compuphase/pawn");
+
+            URL_Add("Firefox ESR__", "https://en.wikipedia.org/wiki/Firefox#Channels_and_release_schedule"); // Old: https://en.wikipedia.org/wiki/Firefox#Experimental_builds_and_ESR
+
+            URL_Add("Web development tools__", "https://en.wikipedia.org/wiki/Web_development_tools");
 
         } //addLookupData_alternativeWordSet2()
 
