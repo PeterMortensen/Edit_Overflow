@@ -37581,6 +37581,8 @@ namespace OverflowHelper.core
             correctionAdd("credential manager", "Credential Manager");
             correctionAdd("credential Manager", "Credential Manager");
 
+            correctionAdd("Microsoft Defender Antivirus", "Windows Defender");
+            correctionAdd("Microsoft defender", "Windows Defender");
             correctionAdd("Windows defender", "Windows Defender");
             correctionAdd("windows defender", "Windows Defender");
             correctionAdd("ms defender", "Windows Defender");
@@ -41395,6 +41397,7 @@ namespace OverflowHelper.core
             correctionAdd("has left the building", "DenverCoder9");
             correctionAdd("Thanks for the report", "DenverCoder9");
             correctionAdd("thanks for the report", "DenverCoder9");
+            correctionAdd("please report it here", "DenverCoder9");
             correctionAdd("the end of the story", "DenverCoder9");
             correctionAdd("never get a response", "DenverCoder9");
             correctionAdd("isn't any resolution", "DenverCoder9");
@@ -54163,6 +54166,7 @@ namespace OverflowHelper.core
             correctionAdd("reletively", "relatively");
             correctionAdd("relativety", "relatively");
             correctionAdd("relitively", "relatively");
+            correctionAdd("relativley", "relatively");
             correctionAdd("relativly", "relatively");
 
             correctionAdd("reliefed", "relieved");
@@ -61450,6 +61454,8 @@ namespace OverflowHelper.core
 
             correctionAdd("check summing", "checksumming");
 
+            correctionAdd("check sum", "checksum");
+
             // For a sort of one-digit CRC for numbers / digits.
             correctionAdd("Luhn's Algorithm", "Luhn algorithm");
 
@@ -63970,6 +63976,7 @@ namespace OverflowHelper.core
 
             correctionAdd("non-conforming", "nonconforming");
 
+            correctionAdd("comfortability", "comfort");
             correctionAdd("confort", "comfort");
 
             correctionAdd("comfortabley", "comfortably");
@@ -87922,6 +87929,7 @@ namespace OverflowHelper.core
             correctionAdd("Q1 Ulta 8k", "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K");
             correctionAdd("Q1 Ultra", "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K");
             correctionAdd("Q1 ultra", "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K");
+            correctionAdd("q1 ultra", "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K");
 
             // A 82-key (80%. Not true TKL) crippled wired-only
             // closed source (but with Via support) mechanical
@@ -88624,6 +88632,7 @@ namespace OverflowHelper.core
             correctionAdd("Keychron Q81 Pro", "Keychron&nbsp;Keyboard&nbsp;81&nbsp;Pro (80%)");
             correctionAdd("Keyboard 81 Pro", "Keychron&nbsp;Keyboard&nbsp;81&nbsp;Pro (80%)");
             correctionAdd("81 Pro", "Keychron&nbsp;Keyboard&nbsp;81&nbsp;Pro (80%)");
+            correctionAdd("81 pro", "Keychron&nbsp;Keyboard&nbsp;81&nbsp;Pro (80%)");
 
             // A 82-key (80%. Not true TKL) crippled wired-only
             // closed source (but with Via support)
@@ -118126,22 +118135,6 @@ namespace OverflowHelper.core
 
             URL_Add("DRD", "https://en.wikipedia.org/wiki/Valgrind#Other_tools");
 
-            URL_Add("CacheFly", "https://en.wikipedia.org/wiki/CacheFly");
-
-            URL_Add("KCacheGrind", "https://en.wikipedia.org/wiki/Valgrind#Other_tools");
-
-            URL_Add("Callgrind", "https://en.wikipedia.org/wiki/Valgrind#Other_tools");
-
-            URL_Add("WinCacheGrind", "https://sourceforge.net/projects/wincachegrind/");
-
-            URL_Add("Memcheck", "https://en.wikipedia.org/wiki/Valgrind#Memcheck");
-
-            URL_Add("OOM", "https://en.wikipedia.org/wiki/Out_of_memory");
-
-            URL_Add("MTRR", "https://en.wikipedia.org/wiki/Memory_type_range_register");
-
-            URL_Add("Rust borrow checker", "https://en.wikipedia.org/wiki/Rust_(programming_language)#Memory_safety");
-
             URL_Add("allocation", "https://en.wiktionary.org/wiki/allocation#Noun");
 
             URL_Add("allocator", "https://en.wiktionary.org/wiki/allocator#Noun");
@@ -127274,11 +127267,85 @@ namespace OverflowHelper.core
 
             URL_Add("paycheck", "https://en.wiktionary.org/wiki/paycheck#Noun");
 
+            URL_Add("checkpoint", "https://en.wiktionary.org/wiki/checkpoint#Noun");
+
+            URL_Add("health check", "https://dictionary.cambridge.org/dictionary/english/health-check");
+
+            URL_Add("checkride", "https://en.wikipedia.org/wiki/FAA_Practical_Test");
+
+            URL_Add("check mark", "https://en.wiktionary.org/wiki/check_mark#Noun");
+
             URL_Add("held in check", "https://en.wiktionary.org/wiki/in_check#Usage_notes");
+
+            URL_Add("checks and balances", "https://en.wiktionary.org/wiki/checks_and_balances#Noun");
+
+            URL_Add("spellcheck", "https://en.wiktionary.org/wiki/spellcheck#Noun"); // Old: https://en.wiktionary.org/wiki/spellcheck#English
+
+            URL_Add("spell checker", "https://en.wiktionary.org/wiki/spell_checker#Noun");
+
+            URL_Add("spell-checking", "https://en.wiktionary.org/wiki/spell-check#Verb");
+
+            URL_Add("web browser spell checking", "https://en.wikipedia.org/wiki/Wikipedia:Typo_Team#Browser_spell_checking");
+
+            URL_Add("checkmate", "https://en.wiktionary.org/wiki/checkmate#Noun");
+
+            URL_Add("checkmating", "https://en.wiktionary.org/wiki/checkmate#Verb");
+
+            URL_Add("checkbox", "https://en.wiktionary.org/wiki/checkbox#Noun");
+
+            URL_Add("checkboxes", "https://en.wiktionary.org/wiki/checkbox#Noun");
+
+            URL_Add("type-check", "https://en.wiktionary.org/wiki/type-check#Verb");
+
+            URL_Add("type-checks", "https://en.wiktionary.org/wiki/type-check#Verb");
+
+            URL_Add("typechecking", "https://en.wiktionary.org/wiki/typechecking#Noun");
+
+            URL_Add("typechecker", "https://en.wiktionary.org/wiki/typechecker#Noun");
+
+            URL_Add("statically typed", "https://en.wikipedia.org/wiki/Type_system#Combining_static_and_dynamic_type_checking");
+
+            URL_Add("ShellCheck", "https://www.shellcheck.net/");
+
+            URL_Add("Cppcheck", "https://en.wikipedia.org/wiki/Cppcheck");
+
+            URL_Add("Checkstyle", "https://en.wikipedia.org/wiki/Checkstyle");
 
             URL_Add("System File Checker", "https://en.wikipedia.org/wiki/System_File_Checker");
 
+            URL_Add("npm-check-updates", "https://github.com/raineorshine/npm-check-updates");
+
+            URL_Add("checksumming", "https://en.wiktionary.org/wiki/checksum#Verb");
+
+            URL_Add("checksum", "https://en.wiktionary.org/wiki/checksum#Noun");
+
+            URL_Add("CRC", "https://en.wikipedia.org/wiki/Cyclic_redundancy_check");
+
+            URL_Add("CRC-32", "https://en.wikipedia.org/wiki/Cyclic_redundancy_check#CRC-32_algorithm");
+
+            URL_Add("look before you leap", "https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use#Preventing_TOCTOU");
+
             URL_Add("PROMPT_COMMAND", "https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html"); // Old: <http://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html>
+
+            URL_Add("Git pre-commit hook", "https://stackoverflow.com/questions/26992576/how-to-make-a-git-pre-commit-code-check");
+
+            URL_Add("assert", "https://en.wikipedia.org/wiki/Assertion_(software_development)#Assertions_for_run-time_checking");
+
+            URL_Add("CacheFly", "https://en.wikipedia.org/wiki/CacheFly");
+
+            URL_Add("KCacheGrind", "https://en.wikipedia.org/wiki/Valgrind#Other_tools");
+
+            URL_Add("Callgrind", "https://en.wikipedia.org/wiki/Valgrind#Other_tools");
+
+            URL_Add("WinCacheGrind", "https://sourceforge.net/projects/wincachegrind/");
+
+            URL_Add("Memcheck", "https://en.wikipedia.org/wiki/Valgrind#Memcheck");
+
+            URL_Add("OOM", "https://en.wikipedia.org/wiki/Out_of_memory");
+
+            URL_Add("MTRR", "https://en.wikipedia.org/wiki/Memory_type_range_register");
+
+            URL_Add("Rust borrow checker", "https://en.wikipedia.org/wiki/Rust_(programming_language)#Memory_safety");
 
             URL_Add("healing", "https://en.wiktionary.org/wiki/healing#Noun");
 
@@ -127287,8 +127354,6 @@ namespace OverflowHelper.core
             URL_Add("healthy", "https://en.wiktionary.org/wiki/healthy#Adjective");
 
             URL_Add("unhealthy", "https://en.wiktionary.org/wiki/unhealthy#Adjective");
-
-            URL_Add("health check", "https://dictionary.cambridge.org/dictionary/english/health-check");
 
             URL_Add("health care", "https://en.wiktionary.org/wiki/health_care#Noun");
 
@@ -127299,6 +127364,178 @@ namespace OverflowHelper.core
             URL_Add("mental health", "https://en.wikipedia.org/wiki/Mental_health");
 
             URL_Add("Fast Healthcare Interoperability Resources", "https://en.wikipedia.org/wiki/Fast_Healthcare_Interoperability_Resources");
+
+            URL_Add("marksheet", "https://en.wiktionary.org/wiki/marksheet#Noun");
+
+            URL_Add("hallmark", "https://en.wiktionary.org/wiki/hallmark#Noun");
+
+            URL_Add("markers", "https://en.wiktionary.org/wiki/marker#Noun");
+
+            URL_Add("exclamation mark", "https://en.wiktionary.org/wiki/exclamation_mark#Noun");
+
+            URL_Add("DNX", "https://stackoverflow.com/questions/30374725/is-net-execution-environment-dnx-similar-to-mono");
+
+            URL_Add("question mark", "https://en.wikipedia.org/wiki/Question_mark");
+
+            URL_Add("quotation mark", "https://en.wiktionary.org/wiki/quotation_mark#Noun");
+
+            URL_Add("quotes", "https://en.wiktionary.org/wiki/quotation_mark#Noun");
+
+            URL_Add("smart quotes", "https://en.wikipedia.org/wiki/Quotation_marks_in_English#Smart_quotes");
+
+            URL_Add("markup", "https://en.wiktionary.org/wiki/markup#Noun");
+
+            URL_Add("markup language", "https://en.wikipedia.org/wiki/Markup_language");
+
+            URL_Add("YAML", "https://en.wikipedia.org/wiki/YAML");
+
+            URL_Add("XAML", "https://en.wikipedia.org/wiki/Extensible_Application_Markup_Language");
+
+            URL_Add("KML", "https://en.wikipedia.org/wiki/Keyhole_Markup_Language");
+
+            URL_Add("SGML", "https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language");
+
+            URL_Add("SAML", "https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language");
+
+            URL_Add("look", "https://en.wiktionary.org/wiki/look#Verb");
+
+            URL_Add("looks", "https://en.wiktionary.org/wiki/looks#Verb");
+
+            URL_Add("looking", "https://en.wiktionary.org/wiki/look#Verb");
+
+            URL_Add("looked", "https://en.wiktionary.org/wiki/look#Verb");
+
+            URL_Add("onlooker", "https://en.wiktionary.org/wiki/onlooker#Noun");
+
+            URL_Add("look out", "https://en.wiktionary.org/wiki/look_out#Verb");
+
+            URL_Add("look up", "https://en.wiktionary.org/wiki/look_up#Verb");
+
+            URL_Add("look at", "https://en.wiktionary.org/wiki/look_at#Verb");
+
+            URL_Add("looking into", "https://en.wiktionary.org/wiki/look_into#Verb");
+
+            URL_Add("look-see", "https://en.wiktionary.org/wiki/look-see#Noun");
+
+            URL_Add("lookahead", "https://en.wiktionary.org/wiki/lookahead#Noun");
+
+            URL_Add("lookalike", "https://en.wiktionary.org/wiki/lookalike#Noun");
+
+            URL_Add("good-looking", "https://en.wiktionary.org/wiki/good-looking#Adjective");
+
+            URL_Add("looks good to me", "https://en.wiktionary.org/wiki/LGTM#Phrase");
+
+            URL_Add("look and feel", "https://en.wikipedia.org/wiki/Look_and_feel");
+
+            URL_Add("lookups", "https://en.wiktionary.org/wiki/lookup#Noun");
+
+            URL_Add("lookup table", "https://en.wikipedia.org/wiki/Lookup_table");
+
+            URL_Add("nslookup", "https://en.wikipedia.org/wiki/Nslookup");
+
+            URL_Add("Outlook", "https://en.wikipedia.org/wiki/Microsoft_Outlook");
+
+            URL_Add("Aerospike Quick Look", "https://aerospike.com/docs/database/tools/aql");
+
+            URL_Add("version", "https://en.wiktionary.org/wiki/version#Noun");
+
+            URL_Add("versioning", "https://en.wiktionary.org/wiki/versioning#Noun");
+
+            URL_Add("version control system", "https://en.wikipedia.org/wiki/Version_control"); // Old: https://en.wikipedia.org/wiki/Revision_control
+
+            URL_Add("semantic versioning", "https://semver.org/");
+
+            URL_Add("Versions", "https://www.versionsapp.com/"); // Old: <http://www.versionsapp.com/>
+
+            URL_Add("versatile", "https://en.wiktionary.org/wiki/versatile#Adjective");
+
+            URL_Add("Ruby Version Manager", "https://en.wikipedia.org/wiki/Ruby_Version_Manager");
+
+            URL_Add("Team Foundation Version Control", "https://en.wikipedia.org/wiki/Azure_DevOps_Server#Team_Foundation_Version_Control");
+
+            URL_Add("Great Version Number Reset of 2024", "https://www.reddit.com/r/Keychron/comments/1gnx05r/comment/lwn1l6n/");
+
+            URL_Add("dependency injection", "https://en.wikipedia.org/wiki/Dependency_injection");
+
+            URL_Add("inversion of control", "https://en.wikipedia.org/wiki/Inversion_of_control");
+
+            URL_Add("distributed revision control", "https://en.wikipedia.org/wiki/Distributed_version_control");
+
+            URL_Add("Git (version control)", "https://en.wikipedia.org/wiki/Git"); // Old: https://en.wikipedia.org/wiki/Git_%28software%29
+
+            URL_Add("Git&nbsp;2.0", "https://en.wikipedia.org/w/index.php?title=Git&oldid=1188773830#Releases"); // Old: <https://en.wikipedia.org/wiki/Git#Releases[27][28]>
+
+            URL_Add("Git History", "https://github.com/pomber/git-history");
+
+            URL_Add("rewrite Git history", "https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History#_the_nuclear_option_filter_branch");
+
+            URL_Add("Git blame", "https://codingnomads.com/git-blame");
+
+            URL_Add("Git hooks", "https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks");
+
+            URL_Add("shebang", "https://en.wikipedia.org/wiki/Shebang_(Unix)");
+
+            URL_Add("shell", "https://en.wiktionary.org/wiki/shell#Noun");
+
+            URL_Add("subshell", "https://en.wiktionary.org/wiki/subshell#Noun");
+
+            URL_Add("shell script", "https://en.wiktionary.org/wiki/shell_script#Noun");
+
+            URL_Add("Shellshock", "https://en.wikipedia.org/wiki/Shellshock_%28software_bug%29");
+
+            URL_Add("SSH", "https://en.wikipedia.org/wiki/Secure_Shell");
+
+            URL_Add("SSH-2", "https://en.wikipedia.org/wiki/Secure_Shell#Version_2.x");
+
+            URL_Add("sshd", "https://en.wikipedia.org/wiki/Secure_Shell#Use");
+
+            URL_Add("BeanShell", "https://en.wikipedia.org/wiki/BeanShell");
+
+            URL_Add("Nushell", "https://www.nushell.sh/book/");
+
+            URL_Add("Quickshell", "https://quickshell.org/about/");
+
+            URL_Add("Qt Quick", "https://en.wikipedia.org/wiki/Qt_Quick");
+
+            URL_Add("$HOME/.bashrc file", "https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Legacy-compatible_Bash_startup_example"); // Old: https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Aliases_and_functions
+
+            URL_Add("$HOME/.profile file", "https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Operating_system_issues_in_Bash_startup"); // Old: https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Setting_inheritable_environment_variables
+
+            URL_Add("$HOME/.bash_profile file", "https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Legacy-compatible_Bash_startup_example");
+
+            URL_Add("Interactive Ruby Shell", "https://en.wikipedia.org/wiki/Interactive_Ruby_Shell");
+
+            URL_Add("walk on eggshells", "https://en.wiktionary.org/wiki/walk_on_eggshells#Verb");
+
+            URL_Add("walking on eggshells", "https://en.wiktionary.org/wiki/walk_on_eggshells#Verb");
+
+            URL_Add("nutshell", "https://en.wiktionary.org/wiki/nutshell#Noun");
+
+            URL_Add("in a nutshell", "https://en.wiktionary.org/wiki/in_a_nutshell#Adverb");
+
+            URL_Add("Python in a Nutshell", "https://www.oreilly.com/library/view/python-in-a/9781098113544/");
+
+            URL_Add("Oh My Posh", "https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal");
+
+            URL_Add("Bash builtin commands", "https://www.gnu.org/software/bash/manual/html_node/Bash-Builtins.html");
+
+            URL_Add("Bourne shell (executable `sh`)", "https://en.wikipedia.org/wiki/Bourne_shell");
+
+            URL_Add("Bash (executable `bash`)", "https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29");
+
+            URL_Add("Z shell (executable `zsh`)", "https://en.wikipedia.org/wiki/Z_shell");
+
+            URL_Add("C shell (executable `csh`)", "https://en.wikipedia.org/wiki/C_shell");
+
+            URL_Add("KornShell (executable `ksh`)", "https://en.wikipedia.org/wiki/KornShell");
+
+            URL_Add("MirBSD KornShell (executable `mksh`)", "https://en.wikipedia.org/wiki/KornShell#Variants");
+
+            URL_Add("Fish (executable `fish`)", "https://en.wikipedia.org/wiki/Fish_(Unix_shell)"); // Old URL: https://en.wikipedia.org/wiki/Friendly_interactive_shell
+
+            URL_Add("Hamilton C shell", "https://en.wikipedia.org/wiki/Hamilton_C_shell");
+
+            URL_Add("ash", "https://en.wikipedia.org/wiki/Almquist_shell");
 
             URL_Add("printout", "https://en.wiktionary.org/wiki/printout#Noun");
 
@@ -127690,8 +127927,6 @@ namespace OverflowHelper.core
 
             URL_Add("metaprogram", "https://en.wikipedia.org/wiki/Metaprogramming#Code_generation");
 
-            URL_Add("statically typed", "https://en.wikipedia.org/wiki/Type_system#Combining_static_and_dynamic_type_checking");
-
             URL_Add("airbag", "https://en.wikipedia.org/wiki/Airbag");
 
             URL_Add("cringey", "https://en.wiktionary.org/wiki/cringey#Adjective");
@@ -127721,16 +127956,6 @@ namespace OverflowHelper.core
             URL_Add("Adobe AIR", "https://en.wikipedia.org/wiki/Adobe_Integrated_Runtime");
 
             URL_Add("Flutter doctor", "https://docs.flutter.dev/get-started/install/windows#run-flutter-doctor");
-
-            URL_Add("assert", "https://en.wikipedia.org/wiki/Assertion_(software_development)#Assertions_for_run-time_checking");
-
-            URL_Add("type-check", "https://en.wiktionary.org/wiki/type-check#Verb");
-
-            URL_Add("type-checks", "https://en.wiktionary.org/wiki/type-check#Verb");
-
-            URL_Add("typechecking", "https://en.wiktionary.org/wiki/typechecking#Noun");
-
-            URL_Add("typechecker", "https://en.wiktionary.org/wiki/typechecker#Noun");
 
             URL_Add("Obsidian", "https://www.marclittlemore.com/beginners-guide-note-taking-obsidian/");
 
@@ -127767,8 +127992,6 @@ namespace OverflowHelper.core
             URL_Add("Literary Day", "https://en.wikipedia.org/wiki/Literary_Day");
 
             URL_Add("miserably", "https://en.wiktionary.org/wiki/miserably#Adverb");
-
-            URL_Add("checksumming", "https://en.wiktionary.org/wiki/checksum#Verb");
 
             URL_Add("Hindus", "https://en.wiktionary.org/wiki/Hindu#Noun");
 
@@ -127881,8 +128104,6 @@ namespace OverflowHelper.core
             URL_Add("replacement", "https://en.wiktionary.org/wiki/replacement#Noun");
 
             URL_Add("s/PATTERN/REPLACEMENT/msixpodualngcer", "https://perldoc.perl.org/perlop.html#s%2f_PATTERN_%2f_REPLACEMENT_%2fmsixpodualngcer");
-
-            URL_Add("checkboxes", "https://en.wiktionary.org/wiki/checkbox#Noun");
 
             URL_Add("evaluable", "https://en.wiktionary.org/wiki/evaluable#Adjective");
 
@@ -128861,10 +129082,6 @@ namespace OverflowHelper.core
             URL_Add("Unix end of line", "https://en.wikipedia.org/wiki/Newline#Representation");
 
             URL_Add("CRLF", "https://en.wikipedia.org/wiki/Newline#Representation");
-
-            URL_Add("CRC", "https://en.wikipedia.org/wiki/Cyclic_redundancy_check");
-
-            URL_Add("CRC-32", "https://en.wikipedia.org/wiki/Cyclic_redundancy_check#CRC-32_algorithm");
 
             URL_Add("XDR", "https://en.wikipedia.org/wiki/External_Data_Representation");
 
@@ -130017,8 +130234,6 @@ namespace OverflowHelper.core
             URL_Add("Docker images", "https://en.wikipedia.org/wiki/Docker_(software)#Components");
 
             URL_Add("Conda Forge", "https://github.com/conda-forge");
-
-            URL_Add("npm-check-updates", "https://github.com/raineorshine/npm-check-updates");
 
             URL_Add("Pyright", "https://github.com/microsoft/pyright");
 
@@ -134146,8 +134361,6 @@ namespace OverflowHelper.core
 
             URL_Add("særskrivninger", "https://da.wikipedia.org/wiki/S%C3%A6rskrivning");
 
-            URL_Add("checkride", "https://en.wikipedia.org/wiki/FAA_Practical_Test");
-
             URL_Add("MikroElektronika", "https://en.wikipedia.org/wiki/Mikroelektronika");
 
             URL_Add("mikroC", "https://en.wikipedia.org/wiki/Mikroelektronika#Product_lines");
@@ -134229,28 +134442,6 @@ namespace OverflowHelper.core
             URL_Add("ThinkPad T560", "https://en.wikipedia.org/wiki/ThinkPad_T_series#2016");
 
             URL_Add("ThinkPad X200", "https://en.wikipedia.org/wiki/ThinkPad_X_series#X200_and_X200s");
-
-            URL_Add("checkpoint", "https://en.wiktionary.org/wiki/checkpoint#Noun");
-
-            URL_Add("checks and balances", "https://en.wiktionary.org/wiki/checks_and_balances#Noun");
-
-            URL_Add("spellcheck", "https://en.wiktionary.org/wiki/spellcheck#Noun"); // Old: https://en.wiktionary.org/wiki/spellcheck#English
-
-            URL_Add("spell checker", "https://en.wiktionary.org/wiki/spell_checker#Noun");
-
-            URL_Add("spell-checking", "https://en.wiktionary.org/wiki/spell-check#Verb");
-
-            URL_Add("web browser spell checking", "https://en.wikipedia.org/wiki/Wikipedia:Typo_Team#Browser_spell_checking");
-
-            URL_Add("checkmate", "https://en.wiktionary.org/wiki/checkmate#Noun");
-
-            URL_Add("checkmating", "https://en.wiktionary.org/wiki/checkmate#Verb");
-
-            URL_Add("checkbox", "https://en.wiktionary.org/wiki/checkbox#Noun");
-
-            URL_Add("Cppcheck", "https://en.wikipedia.org/wiki/Cppcheck");
-
-            URL_Add("Checkstyle", "https://en.wikipedia.org/wiki/Checkstyle");
 
             URL_Add("blinky", "https://embedded.fm/blog/2016/4/25/ese101-blinky-and-breakpoints");
 
@@ -135085,40 +135276,6 @@ namespace OverflowHelper.core
             URL_Add("depriving", "https://en.wiktionary.org/wiki/deprive#Verb");
 
             URL_Add("grokking", "https://en.wiktionary.org/wiki/grok#Verb");
-
-            URL_Add("marksheet", "https://en.wiktionary.org/wiki/marksheet#Noun");
-
-            URL_Add("hallmark", "https://en.wiktionary.org/wiki/hallmark#Noun");
-
-            URL_Add("markers", "https://en.wiktionary.org/wiki/marker#Noun");
-
-            URL_Add("check mark", "https://en.wiktionary.org/wiki/check_mark#Noun");
-
-            URL_Add("exclamation mark", "https://en.wiktionary.org/wiki/exclamation_mark#Noun");
-
-            URL_Add("DNX", "https://stackoverflow.com/questions/30374725/is-net-execution-environment-dnx-similar-to-mono");
-
-            URL_Add("question mark", "https://en.wikipedia.org/wiki/Question_mark");
-
-            URL_Add("quotation mark", "https://en.wiktionary.org/wiki/quotation_mark#Noun");
-
-            URL_Add("quotes", "https://en.wiktionary.org/wiki/quotation_mark#Noun");
-
-            URL_Add("smart quotes", "https://en.wikipedia.org/wiki/Quotation_marks_in_English#Smart_quotes");
-
-            URL_Add("markup", "https://en.wiktionary.org/wiki/markup#Noun");
-
-            URL_Add("markup language", "https://en.wikipedia.org/wiki/Markup_language");
-
-            URL_Add("YAML", "https://en.wikipedia.org/wiki/YAML");
-
-            URL_Add("XAML", "https://en.wikipedia.org/wiki/Extensible_Application_Markup_Language");
-
-            URL_Add("KML", "https://en.wikipedia.org/wiki/Keyhole_Markup_Language");
-
-            URL_Add("SGML", "https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language");
-
-            URL_Add("SAML", "https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language");
 
             URL_Add("$HOME/.bash_history file", "https://stackoverflow.com/questions/8561983/retrieving-command-line-history");
 
@@ -140850,8 +141007,6 @@ namespace OverflowHelper.core
 
             URL_Add("-ftree-vectorize", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-ftree-vectorize");
 
-            URL_Add("-fdelete-null-pointer-checks", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-fdelete-null-pointer-checks");
-
             URL_Add("-fno-diagnostics-show-option", "https://gcc.gnu.org/onlinedocs/gcc/Diagnostic-Message-Formatting-Options.html#index-fno-diagnostics-show-option");
 
             URL_Add("-fdiagnostics-show-option", "https://gcc.gnu.org/onlinedocs/gcc/Diagnostic-Message-Formatting-Options.html#index-fdiagnostics-show-option");
@@ -140941,6 +141096,8 @@ namespace OverflowHelper.core
             URL_Add("-Waggregate-return", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waggregate-return");
 
             URL_Add("-ffreestanding", "https://gcc.gnu.org/onlinedocs/gcc/C-Dialect-Options.html#index-ffreestanding-1");
+
+            URL_Add("-fdelete-null-pointer-checks", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-fdelete-null-pointer-checks");
 
             URL_Add("collect2: error: ld returned 1 exit status", "https://stackoverflow.com/questions/16437383/linker-error-gcc");
 
@@ -142546,48 +142703,6 @@ namespace OverflowHelper.core
 
             URL_Add("self-executing anonymous function", "https://stackoverflow.com/questions/14322708");
 
-            URL_Add("look", "https://en.wiktionary.org/wiki/look#Verb");
-
-            URL_Add("looks", "https://en.wiktionary.org/wiki/looks#Verb");
-
-            URL_Add("looking", "https://en.wiktionary.org/wiki/look#Verb");
-
-            URL_Add("looked", "https://en.wiktionary.org/wiki/look#Verb");
-
-            URL_Add("onlooker", "https://en.wiktionary.org/wiki/onlooker#Noun");
-
-            URL_Add("look out", "https://en.wiktionary.org/wiki/look_out#Verb");
-
-            URL_Add("look up", "https://en.wiktionary.org/wiki/look_up#Verb");
-
-            URL_Add("look at", "https://en.wiktionary.org/wiki/look_at#Verb");
-
-            URL_Add("looking into", "https://en.wiktionary.org/wiki/look_into#Verb");
-
-            URL_Add("look-see", "https://en.wiktionary.org/wiki/look-see#Noun");
-
-            URL_Add("lookahead", "https://en.wiktionary.org/wiki/lookahead#Noun");
-
-            URL_Add("lookalike", "https://en.wiktionary.org/wiki/lookalike#Noun");
-
-            URL_Add("good-looking", "https://en.wiktionary.org/wiki/good-looking#Adjective");
-
-            URL_Add("look before you leap", "https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use#Preventing_TOCTOU");
-
-            URL_Add("looks good to me", "https://en.wiktionary.org/wiki/LGTM#Phrase");
-
-            URL_Add("look and feel", "https://en.wikipedia.org/wiki/Look_and_feel");
-
-            URL_Add("lookups", "https://en.wiktionary.org/wiki/lookup#Noun");
-
-            URL_Add("lookup table", "https://en.wikipedia.org/wiki/Lookup_table");
-
-            URL_Add("nslookup", "https://en.wikipedia.org/wiki/Nslookup");
-
-            URL_Add("Outlook", "https://en.wikipedia.org/wiki/Microsoft_Outlook");
-
-            URL_Add("Aerospike Quick Look", "https://aerospike.com/docs/database/tools/aql");
-
             URL_Add("far-ranging", "https://dictionary.cambridge.org/thesaurus/far-ranging");
 
             URL_Add("openHABian", "https://github.com/openhab/openhabian");
@@ -143206,7 +143321,7 @@ namespace OverflowHelper.core
 
             URL_Add("Windows Script Host", "https://en.wikipedia.org/wiki/Windows_Script_Host");
 
-            URL_Add("Windows Defender", "https://en.wikipedia.org/wiki/Microsoft_Defender"); // Old: <https://en.wikipedia.org/wiki/Windows_Defender>
+            URL_Add("Windows Defender", "https://en.wikipedia.org/wiki/Microsoft_Defender_Antivirus"); // Old: <https://en.wikipedia.org/wiki/Microsoft_Defender>. Even older: <https://en.wikipedia.org/wiki/Windows_Defender>
 
             URL_Add("Windows Fast Startup", "https://en.wikipedia.org/wiki/Hibernation_(computing)");
 
@@ -144017,44 +144132,6 @@ namespace OverflowHelper.core
             URL_Add("PSeInt", "https://en.wikipedia.org/wiki/PSeInt");
 
             URL_Add("TvOS", "https://en.wikipedia.org/wiki/TvOS");
-
-            URL_Add("version", "https://en.wiktionary.org/wiki/version#Noun");
-
-            URL_Add("versioning", "https://en.wiktionary.org/wiki/versioning#Noun");
-
-            URL_Add("version control system", "https://en.wikipedia.org/wiki/Version_control"); // Old: https://en.wikipedia.org/wiki/Revision_control
-
-            URL_Add("semantic versioning", "https://semver.org/");
-
-            URL_Add("Versions", "https://www.versionsapp.com/"); // Old: <http://www.versionsapp.com/>
-
-            URL_Add("versatile", "https://en.wiktionary.org/wiki/versatile#Adjective");
-
-            URL_Add("Ruby Version Manager", "https://en.wikipedia.org/wiki/Ruby_Version_Manager");
-
-            URL_Add("Team Foundation Version Control", "https://en.wikipedia.org/wiki/Azure_DevOps_Server#Team_Foundation_Version_Control");
-
-            URL_Add("Great Version Number Reset of 2024", "https://www.reddit.com/r/Keychron/comments/1gnx05r/comment/lwn1l6n/");
-
-            URL_Add("dependency injection", "https://en.wikipedia.org/wiki/Dependency_injection");
-
-            URL_Add("inversion of control", "https://en.wikipedia.org/wiki/Inversion_of_control");
-
-            URL_Add("distributed revision control", "https://en.wikipedia.org/wiki/Distributed_version_control");
-
-            URL_Add("Git (version control)", "https://en.wikipedia.org/wiki/Git"); // Old: https://en.wikipedia.org/wiki/Git_%28software%29
-
-            URL_Add("Git&nbsp;2.0", "https://en.wikipedia.org/w/index.php?title=Git&oldid=1188773830#Releases"); // Old: <https://en.wikipedia.org/wiki/Git#Releases[27][28]>
-
-            URL_Add("Git History", "https://github.com/pomber/git-history");
-
-            URL_Add("rewrite Git history", "https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History#_the_nuclear_option_filter_branch");
-
-            URL_Add("Git blame", "https://codingnomads.com/git-blame");
-
-            URL_Add("Git hooks", "https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks");
-
-            URL_Add("Git pre-commit hook", "https://stackoverflow.com/questions/26992576/how-to-make-a-git-pre-commit-code-check");
 
             URL_Add("hard code", "https://en.wiktionary.org/wiki/hard_code#Verb");
 
@@ -151121,72 +151198,6 @@ namespace OverflowHelper.core
             URL_Add("Computer&nbsp;Science&nbsp;Educators (Stack Exchange site)", "https://cseducators.stackexchange.com/tour");
 
             URL_Add("Computational&nbsp;Science (Stack Exchange site)", "https://scicomp.stackexchange.com/tour");
-
-            URL_Add("shebang", "https://en.wikipedia.org/wiki/Shebang_(Unix)");
-
-            URL_Add("shell", "https://en.wiktionary.org/wiki/shell#Noun");
-
-            URL_Add("subshell", "https://en.wiktionary.org/wiki/subshell#Noun");
-
-            URL_Add("shell script", "https://en.wiktionary.org/wiki/shell_script#Noun");
-
-            URL_Add("ShellCheck", "https://www.shellcheck.net/");
-
-            URL_Add("Shellshock", "https://en.wikipedia.org/wiki/Shellshock_%28software_bug%29");
-
-            URL_Add("SSH", "https://en.wikipedia.org/wiki/Secure_Shell");
-
-            URL_Add("SSH-2", "https://en.wikipedia.org/wiki/Secure_Shell#Version_2.x");
-
-            URL_Add("sshd", "https://en.wikipedia.org/wiki/Secure_Shell#Use");
-
-            URL_Add("BeanShell", "https://en.wikipedia.org/wiki/BeanShell");
-
-            URL_Add("Nushell", "https://www.nushell.sh/book/");
-
-            URL_Add("Quickshell", "https://quickshell.org/about/");
-
-            URL_Add("Qt Quick", "https://en.wikipedia.org/wiki/Qt_Quick");
-
-            URL_Add("$HOME/.bashrc file", "https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Legacy-compatible_Bash_startup_example"); // Old: https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Aliases_and_functions
-
-            URL_Add("$HOME/.profile file", "https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Operating_system_issues_in_Bash_startup"); // Old: https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Setting_inheritable_environment_variables
-
-            URL_Add("$HOME/.bash_profile file", "https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Legacy-compatible_Bash_startup_example");
-
-            URL_Add("Interactive Ruby Shell", "https://en.wikipedia.org/wiki/Interactive_Ruby_Shell");
-
-            URL_Add("walk on eggshells", "https://en.wiktionary.org/wiki/walk_on_eggshells#Verb");
-
-            URL_Add("walking on eggshells", "https://en.wiktionary.org/wiki/walk_on_eggshells#Verb");
-
-            URL_Add("nutshell", "https://en.wiktionary.org/wiki/nutshell#Noun");
-
-            URL_Add("in a nutshell", "https://en.wiktionary.org/wiki/in_a_nutshell#Adverb");
-
-            URL_Add("Python in a Nutshell", "https://www.oreilly.com/library/view/python-in-a/9781098113544/");
-
-            URL_Add("Oh My Posh", "https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal");
-
-            URL_Add("Bash builtin commands", "https://www.gnu.org/software/bash/manual/html_node/Bash-Builtins.html");
-
-            URL_Add("Bourne shell (executable `sh`)", "https://en.wikipedia.org/wiki/Bourne_shell");
-
-            URL_Add("Bash (executable `bash`)", "https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29");
-
-            URL_Add("Z shell (executable `zsh`)", "https://en.wikipedia.org/wiki/Z_shell");
-
-            URL_Add("C shell (executable `csh`)", "https://en.wikipedia.org/wiki/C_shell");
-
-            URL_Add("KornShell (executable `ksh`)", "https://en.wikipedia.org/wiki/KornShell");
-
-            URL_Add("MirBSD KornShell (executable `mksh`)", "https://en.wikipedia.org/wiki/KornShell#Variants");
-
-            URL_Add("Fish (executable `fish`)", "https://en.wikipedia.org/wiki/Fish_(Unix_shell)"); // Old URL: https://en.wikipedia.org/wiki/Friendly_interactive_shell
-
-            URL_Add("Hamilton C shell", "https://en.wikipedia.org/wiki/Hamilton_C_shell");
-
-            URL_Add("ash", "https://en.wikipedia.org/wiki/Almquist_shell");
 
             URL_Add("MBR", "https://en.wikipedia.org/wiki/Master_boot_record");
 
