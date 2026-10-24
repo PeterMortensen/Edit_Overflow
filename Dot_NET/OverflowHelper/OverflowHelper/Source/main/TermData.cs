@@ -2655,6 +2655,8 @@ namespace OverflowHelper.core
             correctionAdd("though luck", "tough luck");
             correctionAdd("Tough luck", "tough luck");
 
+            correctionAdd("abysmal", "abysmally");
+
             correctionAdd("hooman", "human");
             correctionAdd("Hooman", "human");
             correctionAdd("humain", "human");
@@ -3358,6 +3360,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Must see", "must-see");
             correctionAdd("must see", "must-see");
+
+            correctionAdd("forsee", "foresee");
 
             // Note: "want" is in an alternative word set
             correctionAdd("want's", "wants");
@@ -10655,14 +10659,275 @@ namespace OverflowHelper.core
 
             correctionAdd("best case scenario", "best-case scenario");
 
+            // The verb
+            correctionAdd("shoot down", "shut down"); // !!!!!
+            correctionAdd("shut-down", "shut down");
+            correctionAdd("Shut down", "shut down");
+            correctionAdd("shootdown", "shut down"); // !!!!!
+            correctionAdd("shot down", "shut down"); // !!!!!
+            correctionAdd("shutdown", "shut down");
+            correctionAdd("Shutdown", "shut down");
+            correctionAdd("shotdown", "shut down"); // !!!!!
+
+            correctionAdd("shutsdown", "shuts down");
+
+            correctionAdd("shutting-down", "shutting down");
+
+            correctionAdd("downto", "down to");
+
+            correctionAdd("down time", "downtime");
+
+            correctionAdd("parried", "paired");
+            correctionAdd("paird", "paired");
+
+            correctionAdd("paired down", "pared down");
+
+            // Idiomatic
+            correctionAdd("knuckle-down", "knuckle down");
+
+            correctionAdd("stripped down", "stripped-down");
+            correctionAdd("Stripped down", "stripped-down");
+
+            correctionAdd("stripe", "Stripe");
+            correctionAdd("sripe", "Stripe");
+
+            correctionAdd("lock down", "lockdown");
+            correctionAdd("lock-down", "lockdown");
+            correctionAdd("li keown", "lockdown");
+            correctionAdd("lo keown", "lockdown");
+            correctionAdd("lo kdown", "lockdown");
+            correctionAdd("lokdown", "lockdown");
+
+            correctionAdd("down-side", "downside");
+            correctionAdd("down side", "downside");
+            correctionAdd("downsite", "downside");
+
+            correctionAdd("down sample", "downsample");
+
+            correctionAdd("Downgraded", "downgraded");
+            correctionAdd("Dowgraded", "downgraded");
+
+            correctionAdd("debbie downer", "Debbie Downer");
+
+            correctionAdd("threatinging", "threatening");
+            correctionAdd("threatining", "threatening");
+            correctionAdd("threatning", "threatening");
+
+            correctionAdd("threated", "threatened");
+
+            correctionAdd("еhreats", "threats"); // The first "e" is U+0435 (CYRILLIC SMALL LETTER IE) (UTF-8 sequence: 320 265 (octal). 0xD0 0xB5 (hexadecimal)). <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=1070&number=128>. It can be searched for using the regular expression \x{0435} ("\u0435" in Visual Studio Code and some others).
+            correctionAdd("ehreats", "threats");
+
+            correctionAdd("portablity", "portability");
+
+            correctionAdd("un-portable", "unportable");
+
+            correctionAdd("non-portable", "nonportable");
+
+            // Windows
+            correctionAdd("portableapps.com", "PortableApps.com");
+            correctionAdd("portableapps", "PortableApps.com");
+
+            correctionAdd("postrait", "portrait");
+            correctionAdd("portrai", "portrait");
+
+            correctionAdd("potraying", "portraying");
+
+            correctionAdd("protion", "portion");
+            correctionAdd("potion", "portion");
+
+            correctionAdd("proprortional", "proportional");
+            correctionAdd("propertional", "proportional");
+
+            correctionAdd("proportionnaly", "proportionally");
+
+            correctionAdd("none proportional", "nonproportional");
+
+            correctionAdd("disproportiate", "disproportionate");
+            correctionAdd("dispropertiate", "disproportionate");
+
+            correctionAdd("purposone", "purpose");
+            correctionAdd("porpouse", "purpose");
+            correctionAdd("pourpose", "purpose");
+            correctionAdd("purpouse", "purpose");
+            correctionAdd("porpuse", "purpose");
+            correctionAdd("purpuse", "purpose");
+            correctionAdd("purpise", "purpose");
+            correctionAdd("putpose", "purpose");
+
+            correctionAdd("pourposed", "purposed");
+
+            correctionAdd("purposfully", "purposefully");
+
+            correctionAdd("re-purpose", "repurpose");
+
+            correctionAdd("Multi purpose", "multi-purpose");
+            correctionAdd("multi purpose", "multi-purpose");
+            correctionAdd("multipurpose", "multi-purpose");
+            correctionAdd("Multipurpose", "multi-purpose");
+
+            correctionAdd("allpurpose", "all-purpose");
+
+            correctionAdd("on porpouse", "on purpose");
+            correctionAdd("by purpose", "on purpose");
+            correctionAdd("in purpose", "on purpose");
+
+            correctionAdd("generall purpose", "general-purpose");
+            correctionAdd("general purpose", "general-purpose");
+            correctionAdd("gen purpose", "general-purpose");
+
+            correctionAdd("porporting", "purporting");
+
+            correctionAdd("propper", "proper");
+            correctionAdd("propfer", "proper");
+            correctionAdd("proofer", "proper");
+            correctionAdd("prooer", "proper");
+
+            correctionAdd("propperly", "properly");
+            correctionAdd("proprerly", "properly");
+            correctionAdd("propoerly", "properly");
+            correctionAdd("propertly", "properly");
+            correctionAdd("propeely", "properly"); // A true typo
+            correctionAdd("propelly", "properly");
+            correctionAdd("proparly", "properly");
+
+            correctionAdd("unproper", "improper");
+            correctionAdd("impoper", "improper");
+            correctionAdd("Impoper", "improper");
+
+            correctionAdd("proper-ness", "properness");
+
+            correctionAdd("propertry", "property");
+            correctionAdd("porperty", "property");
+            correctionAdd("Property", "property");
+            correctionAdd("propery", "property");
+            correctionAdd("proprty", "property");
+            correctionAdd("prop", "property");
+
+            correctionAdd("properities", "properties");
+            correctionAdd("proprieties", "properties");
+            correctionAdd("properites", "properties");
+            correctionAdd("propreties", "properties");
+            correctionAdd("proporties", "properties");
+            correctionAdd("properies", "properties");
+            correctionAdd("Propoties", "properties");
+            correctionAdd("propoties", "properties");
+            correctionAdd("proprties", "properties");
+            correctionAdd("propeties", "properties");
+            correctionAdd("props", "properties");
+
+            correctionAdd("propritiatory", "proprietary");
+            correctionAdd("proprietrary", "proprietary");
+            correctionAdd("propitiatory", "proprietary");
+            correctionAdd("propioritary", "proprietary");
+            correctionAdd("propioritory", "proprietary");
+            correctionAdd("propriaetary", "proprietary");
+            correctionAdd("Propriatory", "proprietary");
+            correctionAdd("propriatory", "proprietary");
+            correctionAdd("propriotary", "proprietary");
+            correctionAdd("propriatery", "proprietary");
+            correctionAdd("propriotory", "proprietary");
+            correctionAdd("proprietory", "proprietary");
+            correctionAdd("propiretary", "proprietary");
+            correctionAdd("properitary", "proprietary");
+            correctionAdd("properitory", "proprietary");
+            correctionAdd("proprietery", "proprietary");
+            correctionAdd("properitare", "proprietary");
+            correctionAdd("propertiary", "proprietary");
+            correctionAdd("Proprietary", "proprietary");
+            correctionAdd("pripriotary", "proprietary");
+            correctionAdd("propriatary", "proprietary");
+            correctionAdd("propietary", "proprietary");
+            correctionAdd("proriotary", "proprietary");
+            correctionAdd("propritary", "proprietary");
+            correctionAdd("priprotary", "proprietary");
+            correctionAdd("propritory", "proprietary");
+            correctionAdd("priopetary", "proprietary");
+            correctionAdd("propriety", "proprietary");
+            correctionAdd("proprioty", "proprietary");
+            correctionAdd("propitory", "proprietary");
+            correctionAdd("Propriary", "proprietary");
+            correctionAdd("propriary", "proprietary");
+            correctionAdd("proetary", "proprietary");
+            correctionAdd("Priotary", "proprietary");
+            correctionAdd("priotary", "proprietary");
+            correctionAdd("proprip", "proprietary");
+            correctionAdd("propri", "proprietary");
+            correctionAdd("pripro", "proprietary");
+            correctionAdd("propro", "proprietary");
+            correctionAdd("Pripro", "proprietary");
+
+            correctionAdd("non-proprietary", "nonproprietary");
+
+            correctionAdd("appriopriate", "appropriate");
+            correctionAdd("approtpriate", "appropriate");
+            correctionAdd("approrpiate", "appropriate");
+            correctionAdd("appropirate", "appropriate"); // A true typo
+            correctionAdd("appropiate", "appropriate");
+            correctionAdd("apropriate", "appropriate");
+            correctionAdd("approriate", "appropriate");
+
+            correctionAdd("aproperiately", "appropriately");
+            correctionAdd("approeriately", "appropriately");
+            correctionAdd("approriately", "appropriately");
+            correctionAdd("appriately", "appropriately");
+
+            correctionAdd("inapproriate", "inappropriate");
+
+            correctionAdd("unappropriately", "inappropriately");
+
+            correctionAdd("porte monnaie", "portmanteau");
+            correctionAdd("portemonais", "portmanteau");
+            correctionAdd("portemeno", "portmanteau");
+
+            // Note: "treat" is in an alternative word set
+            //
+            correctionAdd("trating", "treating");
+
+            correctionAdd("teated", "treated");
+
+            correctionAdd("weried", "weird");
+            correctionAdd("weired", "weird");
+            correctionAdd("waired", "weird");
+            correctionAdd("wierd", "weird");
+            correctionAdd("werid", "weird");
+            correctionAdd("weard", "weird");
+            correctionAdd("Veird", "weird");
+            correctionAdd("veird", "weird");
+
+            correctionAdd("weird-ness", "weirdness");
+
+            correctionAdd("wear out", "wearout");
+            correctionAdd("ware out", "wearout");
+
+            correctionAdd("wereing", "wearing");
+
+            correctionAdd("wear levelling", "wear leveling");
+            correctionAdd("wear-leveling", "wear leveling");
+            correctionAdd("Wear Leveling", "wear leveling");
+            correctionAdd("Wear Levling", "wear leveling");
+            correctionAdd("wear levling", "wear leveling");
+            correctionAdd("wear leaving", "wear leveling");
+
+            correctionAdd("wear-and-tear", "wear and tear");
+            correctionAdd("ware and tear", "wear and tear");
+
+            correctionAdd("tair", "tear");
+
+            // The noun
+            correctionAdd("tear-down", "teardown");
+            correctionAdd("tear down", "teardown");
+
+            correctionAdd("cup-of-tea", "cup of tea");
+
+            correctionAdd("tea-time", "teatime");
+            correctionAdd("tee-time", "teatime");
+
             correctionAdd("timre", "time");
             correctionAdd("thime", "time");
             correctionAdd("tike", "time");
             correctionAdd("Time", "time");
             correctionAdd("lime", "time");
-
-            correctionAdd("tea-time", "teatime");
-            correctionAdd("tee-time", "teatime");
 
             correctionAdd("time-wise", "timewise");
 
@@ -10678,8 +10943,6 @@ namespace OverflowHelper.core
             correctionAdd("rutime", "run time");
 
             correctionAdd("runtimes", "run times");
-
-            correctionAdd("cup-of-tea", "cup of tea");
 
             // The noun
             correctionAdd("compile-time", "compile time");
@@ -11035,62 +11298,6 @@ namespace OverflowHelper.core
             correctionAdd("At the meantime", "in the meantime");
 
             correctionAdd("beginning of time", "dawn of time");
-
-            // The verb
-            correctionAdd("shoot down", "shut down"); // !!!!!
-            correctionAdd("shut-down", "shut down");
-            correctionAdd("Shut down", "shut down");
-            correctionAdd("shootdown", "shut down"); // !!!!!
-            correctionAdd("shot down", "shut down"); // !!!!!
-            correctionAdd("shutdown", "shut down");
-            correctionAdd("Shutdown", "shut down");
-            correctionAdd("shotdown", "shut down"); // !!!!!
-
-            correctionAdd("shutsdown", "shuts down");
-
-            correctionAdd("shutting-down", "shutting down");
-
-            correctionAdd("tair", "tear");
-
-            // The noun
-            correctionAdd("tear-down", "teardown");
-            correctionAdd("tear down", "teardown");
-
-            correctionAdd("downto", "down to");
-
-            correctionAdd("down time", "downtime");
-
-            correctionAdd("parried", "paired");
-            correctionAdd("paird", "paired");
-
-            correctionAdd("paired down", "pared down");
-
-            // Idiomatic
-            correctionAdd("knuckle-down", "knuckle down");
-
-            correctionAdd("stripped down", "stripped-down");
-            correctionAdd("Stripped down", "stripped-down");
-
-            correctionAdd("stripe", "Stripe");
-            correctionAdd("sripe", "Stripe");
-
-            correctionAdd("lock down", "lockdown");
-            correctionAdd("lock-down", "lockdown");
-            correctionAdd("li keown", "lockdown");
-            correctionAdd("lo keown", "lockdown");
-            correctionAdd("lo kdown", "lockdown");
-            correctionAdd("lokdown", "lockdown");
-
-            correctionAdd("down-side", "downside");
-            correctionAdd("down side", "downside");
-            correctionAdd("downsite", "downside");
-
-            correctionAdd("down sample", "downsample");
-
-            correctionAdd("Downgraded", "downgraded");
-            correctionAdd("Dowgraded", "downgraded");
-
-            correctionAdd("debbie downer", "Debbie Downer");
 
             correctionAdd("lengeht", "length");
             correctionAdd("lenght", "length");
@@ -12341,168 +12548,6 @@ namespace OverflowHelper.core
 
             correctionAdd("counter part", "counterpart");
 
-            correctionAdd("portablity", "portability");
-
-            correctionAdd("un-portable", "unportable");
-
-            correctionAdd("non-portable", "nonportable");
-
-            // Windows
-            correctionAdd("portableapps.com", "PortableApps.com");
-            correctionAdd("portableapps", "PortableApps.com");
-
-            correctionAdd("postrait", "portrait");
-            correctionAdd("portrai", "portrait");
-
-            correctionAdd("porte monnaie", "portmanteau");
-            correctionAdd("portemonais", "portmanteau");
-            correctionAdd("portemeno", "portmanteau");
-
-            correctionAdd("potraying", "portraying");
-
-            correctionAdd("protion", "portion");
-            correctionAdd("potion", "portion");
-
-            correctionAdd("proprortional", "proportional");
-            correctionAdd("propertional", "proportional");
-
-            correctionAdd("proportionnaly", "proportionally");
-
-            correctionAdd("none proportional", "nonproportional");
-
-            correctionAdd("disproportiate", "disproportionate");
-            correctionAdd("dispropertiate", "disproportionate");
-
-            correctionAdd("purposone", "purpose");
-            correctionAdd("porpouse", "purpose");
-            correctionAdd("pourpose", "purpose");
-            correctionAdd("purpouse", "purpose");
-            correctionAdd("porpuse", "purpose");
-            correctionAdd("purpuse", "purpose");
-            correctionAdd("purpise", "purpose");
-            correctionAdd("putpose", "purpose");
-
-            correctionAdd("pourposed", "purposed");
-
-            correctionAdd("purposfully", "purposefully");
-
-            correctionAdd("re-purpose", "repurpose");
-
-            correctionAdd("Multi purpose", "multi-purpose");
-            correctionAdd("multi purpose", "multi-purpose");
-            correctionAdd("multipurpose", "multi-purpose");
-            correctionAdd("Multipurpose", "multi-purpose");
-
-            correctionAdd("allpurpose", "all-purpose");
-
-            correctionAdd("on porpouse", "on purpose");
-            correctionAdd("by purpose", "on purpose");
-            correctionAdd("in purpose", "on purpose");
-
-            correctionAdd("generall purpose", "general-purpose");
-            correctionAdd("general purpose", "general-purpose");
-            correctionAdd("gen purpose", "general-purpose");
-
-            correctionAdd("porporting", "purporting");
-
-            correctionAdd("propper", "proper");
-            correctionAdd("propfer", "proper");
-            correctionAdd("proofer", "proper");
-            correctionAdd("prooer", "proper");
-
-            correctionAdd("propperly", "properly");
-            correctionAdd("proprerly", "properly");
-            correctionAdd("propoerly", "properly");
-            correctionAdd("propertly", "properly");
-            correctionAdd("propeely", "properly"); // A true typo
-            correctionAdd("propelly", "properly");
-            correctionAdd("proparly", "properly");
-
-            correctionAdd("unproper", "improper");
-            correctionAdd("impoper", "improper");
-            correctionAdd("Impoper", "improper");
-
-            correctionAdd("proper-ness", "properness");
-
-            correctionAdd("propertry", "property");
-            correctionAdd("porperty", "property");
-            correctionAdd("Property", "property");
-            correctionAdd("propery", "property");
-            correctionAdd("proprty", "property");
-            correctionAdd("prop", "property");
-
-            correctionAdd("properities", "properties");
-            correctionAdd("proprieties", "properties");
-            correctionAdd("properites", "properties");
-            correctionAdd("propreties", "properties");
-            correctionAdd("proporties", "properties");
-            correctionAdd("properies", "properties");
-            correctionAdd("Propoties", "properties");
-            correctionAdd("propoties", "properties");
-            correctionAdd("proprties", "properties");
-            correctionAdd("propeties", "properties");
-            correctionAdd("props", "properties");
-
-            correctionAdd("propritiatory", "proprietary");
-            correctionAdd("proprietrary", "proprietary");
-            correctionAdd("propitiatory", "proprietary");
-            correctionAdd("propioritary", "proprietary");
-            correctionAdd("propioritory", "proprietary");
-            correctionAdd("propriaetary", "proprietary");
-            correctionAdd("Propriatory", "proprietary");
-            correctionAdd("propriatory", "proprietary");
-            correctionAdd("propriotary", "proprietary");
-            correctionAdd("propriatery", "proprietary");
-            correctionAdd("propriotory", "proprietary");
-            correctionAdd("proprietory", "proprietary");
-            correctionAdd("propiretary", "proprietary");
-            correctionAdd("properitary", "proprietary");
-            correctionAdd("properitory", "proprietary");
-            correctionAdd("proprietery", "proprietary");
-            correctionAdd("properitare", "proprietary");
-            correctionAdd("propertiary", "proprietary");
-            correctionAdd("Proprietary", "proprietary");
-            correctionAdd("pripriotary", "proprietary");
-            correctionAdd("propriatary", "proprietary");
-            correctionAdd("propietary", "proprietary");
-            correctionAdd("proriotary", "proprietary");
-            correctionAdd("propritary", "proprietary");
-            correctionAdd("priprotary", "proprietary");
-            correctionAdd("propritory", "proprietary");
-            correctionAdd("priopetary", "proprietary");
-            correctionAdd("propriety", "proprietary");
-            correctionAdd("proprioty", "proprietary");
-            correctionAdd("propitory", "proprietary");
-            correctionAdd("Propriary", "proprietary");
-            correctionAdd("propriary", "proprietary");
-            correctionAdd("proetary", "proprietary");
-            correctionAdd("Priotary", "proprietary");
-            correctionAdd("priotary", "proprietary");
-            correctionAdd("proprip", "proprietary");
-            correctionAdd("propri", "proprietary");
-            correctionAdd("pripro", "proprietary");
-            correctionAdd("propro", "proprietary");
-            correctionAdd("Pripro", "proprietary");
-
-            correctionAdd("non-proprietary", "nonproprietary");
-
-            correctionAdd("appriopriate", "appropriate");
-            correctionAdd("approtpriate", "appropriate");
-            correctionAdd("approrpiate", "appropriate");
-            correctionAdd("appropirate", "appropriate"); // A true typo
-            correctionAdd("appropiate", "appropriate");
-            correctionAdd("apropriate", "appropriate");
-            correctionAdd("approriate", "appropriate");
-
-            correctionAdd("aproperiately", "appropriately");
-            correctionAdd("approeriately", "appropriately");
-            correctionAdd("approriately", "appropriately");
-            correctionAdd("appriately", "appropriately");
-
-            correctionAdd("inapproriate", "inappropriate");
-
-            correctionAdd("unappropriately", "inappropriately");
-
             correctionAdd("hon", "honey");
 
             correctionAdd("Honeypot", "honeypot");
@@ -12571,6 +12616,21 @@ namespace OverflowHelper.core
             correctionAdd("in my opinion", "IMO");
             correctionAdd("imo", "IMO");
             correctionAdd("Imo", "IMO");
+
+            correctionAdd("temptataion", "temptation");
+
+            correctionAdd("attemptig", "attempting");
+
+            correctionAdd("attemt", "attempt");
+            correctionAdd("attemp", "attempt");
+            correctionAdd("atempt", "attempt");
+            correctionAdd("attept", "attempt");
+
+            correctionAdd("attemted", "attempted");
+            correctionAdd("Attemped", "attempted");
+            correctionAdd("attemped", "attempted");
+
+            correctionAdd("attemps", "attempts");
 
             correctionAdd("anyhoo", "anyhow");
             correctionAdd("Anyhoo", "anyhow");
@@ -14530,21 +14590,6 @@ namespace OverflowHelper.core
 
             correctionAdd("SDLC", "systems development life cycle");
 
-            correctionAdd("threatinging", "threatening");
-            correctionAdd("threatining", "threatening");
-            correctionAdd("threatning", "threatening");
-
-            correctionAdd("threated", "threatened");
-
-            correctionAdd("еhreats", "threats"); // The first "e" is U+0435 (CYRILLIC SMALL LETTER IE) (UTF-8 sequence: 320 265 (octal). 0xD0 0xB5 (hexadecimal)). <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=1070&number=128>. It can be searched for using the regular expression \x{0435} ("\u0435" in Visual Studio Code and some others).
-            correctionAdd("ehreats", "threats");
-
-            // Note: "treat" is in an alternative word set
-            //
-            correctionAdd("trating", "treating");
-
-            correctionAdd("teated", "treated");
-
             correctionAdd("life form", "lifeform");
 
             correctionAdd("extra terrestrial life", "extraterrestrial life");
@@ -15911,8 +15956,8 @@ namespace OverflowHelper.core
 
             // A unit (of time)
             correctionAdd("yearts", "&nbsp;years");
-            correctionAdd("tears", "&nbsp;years");
             correctionAdd("years", "&nbsp;years"); // Sort of identity mapping
+            correctionAdd("tears", "&nbsp;years"); // A true typo
             correctionAdd("yrs", "&nbsp;years");
 
             // A unit (of time)
@@ -16732,7 +16777,25 @@ namespace OverflowHelper.core
 
             correctionAdd("Associate Lecturer", "associate lecturer");
 
+            correctionAdd("teachung", "teaching");
+
+            correctionAdd("teached", "taught");
+            correctionAdd("taugth", "taught");
+
+            correctionAdd("self taught", "self-taught");
+
             correctionAdd("Teachers", "teachers");
+
+            // But note it is now ambiguous due to the machine learning
+            // dataset of the same name (see e.g.
+            // <https://huggingface.co/datasets/eli5>)
+            correctionAdd("explain to me like I am 10 years old", "explain like I'm five");
+            correctionAdd("teach me like I'm five", "explain like I'm five");
+            correctionAdd("like I am 10 years old", "explain like I'm five");
+            correctionAdd("like I'm five", "explain like I'm five");
+            correctionAdd("ELI-5", "explain like I'm five");
+            correctionAdd("ELIF", "explain like I'm five");
+            correctionAdd("ELI5", "explain like I'm five");
 
             correctionAdd("scholorship", "scholarship");
 
@@ -16743,6 +16806,151 @@ namespace OverflowHelper.core
             correctionAdd("Tutoring", "tutoring");
 
             correctionAdd("Tuition", "tuition");
+
+            correctionAdd("studyingh", "studying");
+            correctionAdd("studyig", "studying");
+            correctionAdd("studing", "studying");
+
+            // The noun. But the verb is spelled the same
+            correctionAdd("self study", "self-study");
+
+            correctionAdd("self studying", "self-studying");
+
+            correctionAdd("learen", "learn");
+            correctionAdd("lern", "learn");
+
+            correctionAdd("learniong", "learning");
+            correctionAdd("learninc", "learning");
+            correctionAdd("leaning", "learning");
+            correctionAdd("learing", "learning");
+
+            correctionAdd("lernt", "learnt");
+
+            correctionAdd("leaned", "learned");
+
+            correctionAdd("learn-able", "learnable");
+
+            correctionAdd("re-learn", "relearn");
+
+            correctionAdd("re-learning", "relearning");
+
+            correctionAdd("selef-learning", "self-learning");
+
+            // Note: "explain" is in an alternative word set
+            correctionAdd("explaines", "explains");
+
+            correctionAdd("explainign", "explaining");
+            correctionAdd("explainig", "explaining");
+            correctionAdd("explaning", "explaining");
+            correctionAdd("explainin", "explaining");
+            correctionAdd("splaining", "explaining");
+            correctionAdd("splainin", "explaining");
+
+            correctionAdd("explainined", "explained");
+            correctionAdd("explaiend", "explained");
+
+            // A defence of "overexplaining" (<https://www.youtube.com/watch?v=9Ch4a6ffPZY&lc=UgwepJk-cekxOkfZt4J4AaABAg>):
+            //
+            //   "...pushing people to write as if they
+            //    never made it past the 8th grade."
+            //
+            // And (<https://www.youtube.com/watch?v=9Ch4a6ffPZY&lc=UgxBDvRBy5FcNDl40kp4AaABAg.AJ7ihDFjW95AJUPg1zLW-F&pp=0gcJCSMANpG00pGi>):
+            //
+            //   "...seeing an em-dash or semicolon used incorrectly is still
+            //   the surest tell of a lazy human writer — like, I can think
+            //   of four excellent reasons which I will now list; they
+            //   punctuate like they speak, they can't be bothered to
+            //   proof-read their own sentences to figure out what
+            //   point they wanted to make, and they think certain
+            //   punctuation marks just look cooler than others so
+            //   might as well use 'em."
+            //
+            // And (<https://www.youtube.com/watch?v=9Ch4a6ffPZY&lc=UgyblEh2ej87Usldu4p4AaABAg.AJGfA_wnUXiAJMFRs29gxW&pp=0gcJCSMANpG00pGi>):
+            //
+            //   "At its core, language is about communication, however,
+            //    I think we're doing ourselves a disservice by setting
+            //    our standards to the bare minimum."
+            //
+            // And punctuation matters (<https://www.youtube.com/watch?v=9Ch4a6ffPZY&lc=UgzYK9m_5_Nj7oS_ayV4AaABAg&pp=0gcJCSMANpG00pGi>):
+            //
+            //    A panda bear eats shoots and leaves.
+            //    A panda bear eats shoots, and leaves.
+            //    A panda bear eats, shoots, and leaves.
+            //
+            correctionAdd("over explaining", "overexplaining");
+
+            correctionAdd("explenations", "explanation"); // Not 100% correct - plural.
+            correctionAdd("Explaination", "explanation");
+            correctionAdd("explaination", "explanation");
+            correctionAdd("Explannation", "explanation");
+            correctionAdd("explannation", "explanation");
+            correctionAdd("Expalanation", "explanation");
+            correctionAdd("expalanation", "explanation");
+            correctionAdd("explenation", "explanation");
+            correctionAdd("explination", "explanation");
+            correctionAdd("Explination", "explanation");
+            correctionAdd("explanition", "explanation");
+            correctionAdd("Explainaton", "explanation");
+            correctionAdd("explainaton", "explanation");
+            correctionAdd("expaination", "explanation");
+            correctionAdd("Explanation", "explanation");
+            correctionAdd("explonation", "explanation");
+            correctionAdd("expanation", "explanation");
+            correctionAdd("Expanation", "explanation");
+            correctionAdd("explnation", "explanation");
+            correctionAdd("explantion", "explanation");
+            correctionAdd("Explantion", "explanation");
+            correctionAdd("explanatin", "explanation");
+            correctionAdd("explanaton", "explanation");
+            correctionAdd("explain", "explanation"); // For example, "the explain"
+
+            correctionAdd("explainations", "explanations");
+
+            // Alternative URL:
+            //
+            //   <https://dictionary.cambridge.org/dictionary/english/self-explaining>
+            //     A synonym
+            //
+            correctionAdd("self explanatory", "self-explanatory");
+            correctionAdd("Self explanatory", "self-explanatory");
+            correctionAdd("self explaining", "self-explanatory");
+            correctionAdd("self-explaining", "self-explanatory");
+
+            correctionAdd("dislexia", "dyslexia");
+            correctionAdd("dyxlexia", "dyslexia");
+
+            // Related to learning disabilities
+            correctionAdd("Aphantasia", "aphantasia");
+
+            // Related to learning disabilities
+            correctionAdd("Dyscalculia", "dyscalculia");
+
+            // Related to learning disabilities
+            correctionAdd("Hyperlexia", "hyperlexia");
+
+            // Related to learning disabilities
+            correctionAdd("kinaesthesia", "proprioception");
+            correctionAdd("Kinesthetic", "proprioception");
+            correctionAdd("kinesthesia", "proprioception");
+            correctionAdd("kinesthetic", "proprioception");
+
+            correctionAdd("LMS", "learning management system");
+
+            correctionAdd("Helplessness", "helplessness");
+
+            // We need a better reference. It doesn't really
+            // cover ***pretending*** being helpless (too
+            // much on the psychology side):
+            //
+            // A way of behaving to ***avoid work*** (in contrast
+            // to external factors).
+            //
+            correctionAdd("Learned helplessness", "learned helplessness");
+
+            correctionAdd("Blackboard Learning System", "Blackboard Learn");
+            correctionAdd("Blackboard", "Blackboard Learn");
+            correctionAdd("BlackBoard", "Blackboard Learn");
+            correctionAdd("blackboard", "Blackboard Learn");
 
             correctionAdd("Student", "student");
 
@@ -18048,8 +18256,8 @@ namespace OverflowHelper.core
             correctionAdd("Stock Overflow", "Stack&nbsp;Overflow");
             correctionAdd("StaOk Overflow", "Stack&nbsp;Overflow");
             correctionAdd("Staok Overflow", "Stack&nbsp;Overflow");
-            correctionAdd("Steal Overflow", "Stack&nbsp;Overflow");
             correctionAdd("Stuck Overflow", "Stack&nbsp;Overflow");
+            correctionAdd("Steal Overflow", "Stack&nbsp;Overflow");
             correctionAdd("StacOkverflow", "Stack&nbsp;Overflow");
             correctionAdd("stackoverflow", "Stack&nbsp;Overflow");
             correctionAdd("Stackoverflow", "Stack&nbsp;Overflow");
@@ -18078,7 +18286,6 @@ namespace OverflowHelper.core
             correctionAdd("stackowerflow", "Stack&nbsp;Overflow");
             correctionAdd("overstackflow", "Stack&nbsp;Overflow");
             correctionAdd("stockoverflow", "Stack&nbsp;Overflow");
-            correctionAdd("steakoverflow", "Stack&nbsp;Overflow");
             correctionAdd("StackOvervlow", "Stack&nbsp;Overflow");
             correctionAdd("Stackoverflwo", "Stack&nbsp;Overflow");
             correctionAdd("Flak Overflow", "Stack&nbsp;Overflow");
@@ -18089,6 +18296,7 @@ namespace OverflowHelper.core
             correctionAdd("stacloverflow", "Stack&nbsp;Overflow");
             correctionAdd("StankOverflow", "Stack&nbsp;Overflow");
             correctionAdd("stuckoverflow", "Stack&nbsp;Overflow");
+            correctionAdd("steakoverflow", "Stack&nbsp;Overflow");
             correctionAdd("StackOveflow", "Stack&nbsp;Overflow"); // Misspelling.
             correctionAdd("stackoveflow", "Stack&nbsp;Overflow"); // Misspelling.
             correctionAdd("stackoverlow", "Stack&nbsp;Overflow");
@@ -19965,6 +20173,8 @@ namespace OverflowHelper.core
             correctionAdd("war fair", "warfare");
 
             correctionAdd("actrocities", "atrocities");
+
+            correctionAdd("seise", "cease");
 
             correctionAdd("seised", "ceased");
             correctionAdd("seized", "ceased");
@@ -29639,8 +29849,8 @@ namespace OverflowHelper.core
             correctionAdd("desiece", "disease");
             correctionAdd("desiese", "disease");
             correctionAdd("deciese", "disease");
-            correctionAdd("dicease", "disease");
             correctionAdd("decease", "disease");
+            correctionAdd("dicease", "disease");
             correctionAdd("decese", "disease");
 
             correctionAdd("Alzheimer's Disease", "Alzheimer's disease");
@@ -30731,6 +30941,8 @@ namespace OverflowHelper.core
             correctionAdd("yoy", "year-over-year");
 
             correctionAdd("one day", "one-day");
+
+            correctionAdd("from one day to another", "from one day to the next");
 
             correctionAdd("avery day", "every day");
             correctionAdd("everyday", "every day");
@@ -40474,32 +40686,6 @@ namespace OverflowHelper.core
             //
             correctionAdd("Baskerville", "Baskerville Old Face");
 
-            correctionAdd("wear out", "wearout");
-            correctionAdd("ware out", "wearout");
-
-            correctionAdd("wear-and-tear", "wear and tear");
-            correctionAdd("ware and tear", "wear and tear");
-
-            correctionAdd("wear levelling", "wear leveling");
-            correctionAdd("wear-leveling", "wear leveling");
-            correctionAdd("Wear Leveling", "wear leveling");
-            correctionAdd("Wear Levling", "wear leveling");
-            correctionAdd("wear levling", "wear leveling");
-            correctionAdd("wear leaving", "wear leveling");
-
-            correctionAdd("wereing", "wearing");
-
-            correctionAdd("weried", "weird");
-            correctionAdd("weired", "weird");
-            correctionAdd("waired", "weird");
-            correctionAdd("wierd", "weird");
-            correctionAdd("werid", "weird");
-            correctionAdd("weard", "weird");
-            correctionAdd("Veird", "weird");
-            correctionAdd("veird", "weird");
-
-            correctionAdd("weird-ness", "weirdness");
-
             correctionAdd("make over", "makeover");
 
             correctionAdd("matters sense", "makes sense");
@@ -41276,10 +41462,10 @@ namespace OverflowHelper.core
             correctionAdd("rdp", "RDP");
             correctionAdd("RPD", "RDP");
 
-            correctionAdd("Teamviewer", "TeamViewer");
-            correctionAdd("teamviewer", "TeamViewer");
             correctionAdd("team viewer", "TeamViewer");
             correctionAdd("Team Viewer", "TeamViewer");
+            correctionAdd("Teamviewer", "TeamViewer");
+            correctionAdd("teamviewer", "TeamViewer");
             correctionAdd("TEAMVIEWER", "TeamViewer");
 
             correctionAdd("rendevous server", "rendezvous server");
@@ -51404,6 +51590,7 @@ namespace OverflowHelper.core
             correctionAdd("Watch Dog", "watchdog timer");
             correctionAdd("WatchDog", "watchdog timer");
             correctionAdd("watchdog", "watchdog timer");
+            correctionAdd("WATCHDOG", "watchdog timer");
             correctionAdd("WachDog", "watchdog timer");
             correctionAdd("WDT", "watchdog timer");
 
@@ -54162,9 +54349,9 @@ namespace OverflowHelper.core
             correctionAdd("reallly", "really");
             correctionAdd("realle", "really");
             correctionAdd("leally", "really");
-            correctionAdd("teally", "really");
             correctionAdd("reallt", "really"); // A true typo
             correctionAdd("REALLT", "really");
+            correctionAdd("teally", "really");
             correctionAdd("realy", "really");
             correctionAdd("relly", "really");
             correctionAdd("rally", "really");
@@ -58470,6 +58657,7 @@ namespace OverflowHelper.core
             correctionAdd("programmamble", "programmable");
             correctionAdd("programamble", "programmable");
             correctionAdd("programmalbe", "programmable");
+            correctionAdd("Programmalbe", "programmable");
             correctionAdd("programable", "programmable");
 
             correctionAdd("re-programmable", "reprogrammable");
@@ -60756,19 +60944,19 @@ namespace OverflowHelper.core
 
             correctionAdd("At the least", "at least");
             correctionAdd("at the least", "at least");
-            correctionAdd("atvleast", "at least"); // A true typo (involving the space bar)
-            correctionAdd("at-least", "at least");
-            correctionAdd("at leasr", "at least");
             correctionAdd("At least", "at least");
+            correctionAdd("at-least", "at least");
+            correctionAdd("atvleast", "at least"); // A true typo (involving the space bar)
+            correctionAdd("at leasr", "at least");
             correctionAdd("atleaast", "at least");
             correctionAdd("at leadt", "at least");
             correctionAdd("atleast", "at least");
-            correctionAdd("alteast", "at least");
-            correctionAdd("at lest", "at least");
             correctionAdd("Atleast", "at least");
+            correctionAdd("a least", "at least");
+            correctionAdd("at lest", "at least");
             correctionAdd("at leas", "at least");
             correctionAdd("at last", "at least");
-            correctionAdd("a least", "at least");
+            correctionAdd("alteast", "at least");
             correctionAdd("Atlest", "at least");
             correctionAdd("atlest", "at least");
             correctionAdd("atleat", "at least");
@@ -61676,97 +61864,6 @@ namespace OverflowHelper.core
             correctionAdd("compliants", "complaints"); // A true typo
             correctionAdd("complains", "complaints");
 
-            // Note: "explain" is in an alternative word set
-            correctionAdd("explaines", "explains");
-
-            correctionAdd("explainign", "explaining");
-            correctionAdd("explainig", "explaining");
-            correctionAdd("explaning", "explaining");
-            correctionAdd("explainin", "explaining");
-            correctionAdd("splaining", "explaining");
-            correctionAdd("splainin", "explaining");
-
-            correctionAdd("explainined", "explained");
-            correctionAdd("explaiend", "explained");
-
-            // A defence of "overexplaining" (<https://www.youtube.com/watch?v=9Ch4a6ffPZY&lc=UgwepJk-cekxOkfZt4J4AaABAg>):
-            //
-            //   "...pushing people to write as if they
-            //    never made it past the 8th grade."
-            //
-            // And (<https://www.youtube.com/watch?v=9Ch4a6ffPZY&lc=UgxBDvRBy5FcNDl40kp4AaABAg.AJ7ihDFjW95AJUPg1zLW-F&pp=0gcJCSMANpG00pGi>):
-            //
-            //   "...seeing an em-dash or semicolon used incorrectly is still
-            //   the surest tell of a lazy human writer — like, I can think
-            //   of four excellent reasons which I will now list; they
-            //   punctuate like they speak, they can't be bothered to
-            //   proof-read their own sentences to figure out what
-            //   point they wanted to make, and they think certain
-            //   punctuation marks just look cooler than others so
-            //   might as well use 'em."
-            //
-            // And (<https://www.youtube.com/watch?v=9Ch4a6ffPZY&lc=UgyblEh2ej87Usldu4p4AaABAg.AJGfA_wnUXiAJMFRs29gxW&pp=0gcJCSMANpG00pGi>):
-            //
-            //   "At its core, language is about communication, however,
-            //    I think we're doing ourselves a disservice by setting
-            //    our standards to the bare minimum."
-            //
-            // And punctuation matters (<https://www.youtube.com/watch?v=9Ch4a6ffPZY&lc=UgzYK9m_5_Nj7oS_ayV4AaABAg&pp=0gcJCSMANpG00pGi>):
-            //
-            //    A panda bear eats shoots and leaves.
-            //    A panda bear eats shoots, and leaves.
-            //    A panda bear eats, shoots, and leaves.
-            //
-            correctionAdd("over explaining", "overexplaining");
-
-            // But note it is now ambiguous due to the machine learning
-            // dataset of the same name (see e.g.
-            // <https://huggingface.co/datasets/eli5>)
-            correctionAdd("explain to me like I am 10 years old", "explain like I'm five");
-            correctionAdd("teach me like I'm five", "explain like I'm five");
-            correctionAdd("like I am 10 years old", "explain like I'm five");
-            correctionAdd("like I'm five", "explain like I'm five");
-            correctionAdd("ELI-5", "explain like I'm five");
-            correctionAdd("ELIF", "explain like I'm five");
-            correctionAdd("ELI5", "explain like I'm five");
-
-            correctionAdd("explenations", "explanation"); // Not 100% correct - plural.
-            correctionAdd("Explaination", "explanation");
-            correctionAdd("explaination", "explanation");
-            correctionAdd("Explannation", "explanation");
-            correctionAdd("explannation", "explanation");
-            correctionAdd("Expalanation", "explanation");
-            correctionAdd("expalanation", "explanation");
-            correctionAdd("explenation", "explanation");
-            correctionAdd("explination", "explanation");
-            correctionAdd("Explination", "explanation");
-            correctionAdd("explanition", "explanation");
-            correctionAdd("Explainaton", "explanation");
-            correctionAdd("explainaton", "explanation");
-            correctionAdd("expaination", "explanation");
-            correctionAdd("Explanation", "explanation");
-            correctionAdd("explonation", "explanation");
-            correctionAdd("expanation", "explanation");
-            correctionAdd("Expanation", "explanation");
-            correctionAdd("explnation", "explanation");
-            correctionAdd("explantion", "explanation");
-            correctionAdd("Explantion", "explanation");
-            correctionAdd("explanatin", "explanation");
-            correctionAdd("explanaton", "explanation");
-            correctionAdd("explain", "explanation"); // For example, "the explain"
-
-            correctionAdd("explainations", "explanations");
-
-            // Alternative URL:
-            //
-            //   <https://dictionary.cambridge.org/dictionary/english/self-explaining>
-            //     A synonym
-            //
-            correctionAdd("self explanatory", "self-explanatory");
-            correctionAdd("Self explanatory", "self-explanatory");
-            correctionAdd("self explaining", "self-explanatory");
-            correctionAdd("self-explaining", "self-explanatory");
-
             correctionAdd("explicite", "explicit");
             correctionAdd("explict", "explicit");
             correctionAdd("explcit", "explicit");
@@ -61819,78 +61916,6 @@ namespace OverflowHelper.core
             correctionAdd("estetics", "aesthetics");
 
             correctionAdd("aestetically", "aesthetically");
-
-            correctionAdd("teached", "taught");
-            correctionAdd("taugth", "taught");
-
-            correctionAdd("teachung", "teaching");
-
-            correctionAdd("self taught", "self-taught");
-
-            correctionAdd("studyingh", "studying");
-            correctionAdd("studyig", "studying");
-            correctionAdd("studing", "studying");
-
-            // The noun. But the verb is spelled the same
-            correctionAdd("self study", "self-study");
-
-            correctionAdd("self studying", "self-studying");
-
-            correctionAdd("learen", "learn");
-            correctionAdd("lern", "learn");
-
-            correctionAdd("learniong", "learning");
-            correctionAdd("learninc", "learning");
-            correctionAdd("leaning", "learning");
-            correctionAdd("learing", "learning");
-
-            correctionAdd("lernt", "learnt");
-
-            correctionAdd("leaned", "learned");
-
-            correctionAdd("learn-able", "learnable");
-
-            correctionAdd("re-learn", "relearn");
-
-            correctionAdd("re-learning", "relearning");
-
-            correctionAdd("selef-learning", "self-learning");
-
-            correctionAdd("dislexia", "dyslexia");
-            correctionAdd("dyxlexia", "dyslexia");
-
-            // Related to learning disabilities
-            correctionAdd("Aphantasia", "aphantasia");
-
-            // Related to learning disabilities
-            correctionAdd("Dyscalculia", "dyscalculia");
-
-            // Related to learning disabilities
-            correctionAdd("Hyperlexia", "hyperlexia");
-
-            // Related to learning disabilities
-            correctionAdd("kinaesthesia", "proprioception");
-            correctionAdd("Kinesthetic", "proprioception");
-            correctionAdd("kinesthesia", "proprioception");
-            correctionAdd("kinesthetic", "proprioception");
-
-            correctionAdd("LMS", "learning management system");
-
-            correctionAdd("Helplessness", "helplessness");
-
-            // We need a better reference. It doesn't really
-            // cover ***pretending*** being helpless (too
-            // much on the psychology side):
-            //
-            // A way of behaving to ***avoid work*** (in contrast
-            // to external factors).
-            //
-            correctionAdd("Learned helplessness", "learned helplessness");
-
-            correctionAdd("Blackboard Learning System", "Blackboard Learn");
-            correctionAdd("Blackboard", "Blackboard Learn");
-            correctionAdd("BlackBoard", "Blackboard Learn");
-            correctionAdd("blackboard", "Blackboard Learn");
 
             correctionAdd("BLM", "Black Lives Matter");
             correctionAdd("blm", "Black Lives Matter");
@@ -80121,17 +80146,18 @@ namespace OverflowHelper.core
 
             correctionAdd("Administratior", "system administrator");
             correctionAdd("administratior", "system administrator");
-            correctionAdd("Systems Admin", "system administrator");
-            correctionAdd("adminsitrator", "system administrator");
             correctionAdd("administrator", "system administrator");
+            correctionAdd("adminsitrator", "system administrator");
             correctionAdd("administartor", "system administrator");
-            correctionAdd("system admin", "system administrator");
-            correctionAdd("adminstrator", "system administrator");
+            correctionAdd("Systems Admin", "system administrator");
             correctionAdd("adminitrator", "system administrator");
-            correctionAdd("Adminstrator", "system administrator");
-            correctionAdd("system-admin", "system administrator");
             correctionAdd("administator", "system administrator");
+            correctionAdd("Adminstrator", "system administrator");
+            correctionAdd("adminstrator", "system administrator");
+            correctionAdd("system admin", "system administrator");
+            correctionAdd("system-admin", "system administrator");
             correctionAdd("admistrator", "system administrator");
+            correctionAdd("administer", "system administrator");
             correctionAdd("sys admin", "system administrator");
             correctionAdd("sys-admin", "system administrator");
             correctionAdd("sysadmin", "system administrator"); // Expansion.
@@ -80411,8 +80437,6 @@ namespace OverflowHelper.core
             correctionAdd("crdentials", "credentials");
             correctionAdd("creds", "credentials");
             correctionAdd("cred", "credentials");
-
-            correctionAdd("abysmal", "abysmally");
 
             // The verb
             correctionAdd("Updadate", "update");
@@ -89805,6 +89829,8 @@ namespace OverflowHelper.core
             //
             correctionAdd("Keychron C3 Pro 8K (85%)", "Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)"); // Sort of identity mapping
             correctionAdd("Keychron C3 Pro 8K", "Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)");
+            correctionAdd("C3 Pro (8K)", "Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)");
+            correctionAdd("C3 Pro (8k)", "Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)");
             correctionAdd("C3 Pro 8K", "Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)");
             correctionAdd("c3 pro 8k", "Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)");
             correctionAdd("C3 Pro 8k", "Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)");
@@ -97586,19 +97612,6 @@ namespace OverflowHelper.core
             correctionAdd("unatrual", "unnatural");
 
             correctionAdd("artisitcally", "artistically");
-
-            correctionAdd("attemptig", "attempting");
-
-            correctionAdd("attemt", "attempt");
-            correctionAdd("attemp", "attempt");
-            correctionAdd("atempt", "attempt");
-            correctionAdd("attept", "attempt");
-
-            correctionAdd("attemted", "attempted");
-            correctionAdd("Attemped", "attempted");
-            correctionAdd("attemped", "attempted");
-
-            correctionAdd("attemps", "attempts");
 
             correctionAdd("orgin", "origin");
 
@@ -109904,8 +109917,6 @@ namespace OverflowHelper.core
 
             URL_Add("Angular", "https://en.wikipedia.org/wiki/Angular_(web_framework)"); // New (Angular 2 and later)
 
-            URL_Add("database administrator", "https://en.wikipedia.org/wiki/Database_administrator");
-
             URL_Add("especially", "https://en.wiktionary.org/wiki/especially#Adverb"); // Old: https://en.wiktionary.org/wiki/especially
 
             URL_Add("LibreOffice", "https://en.wikipedia.org/wiki/LibreOffice");
@@ -119420,6 +119431,8 @@ namespace OverflowHelper.core
 
             URL_Add("meta is murder", "https://blog.codinghorror.com/meta-is-murder/"); // Old: https://www.codinghorror.com/blog/2009/07/meta-is-murder.html
 
+            URL_Add("from one day to the next", "https://en.wiktionary.org/wiki/from_one_day_to_the_next#Prepositional_phrase");
+
             URL_Add("one-day", "https://en.wiktionary.org/wiki/one-day#Adjective");
 
             URL_Add("one-trick ponies", "https://en.wiktionary.org/wiki/one-trick_pony#Noun");
@@ -122766,8 +122779,6 @@ namespace OverflowHelper.core
 
             URL_Add("monetised", "https://en.wiktionary.org/wiki/monetise#Verb");
 
-            URL_Add("taught", "https://en.wiktionary.org/wiki/teach#Verb");
-
             URL_Add("Friedrich Nietzsche", "https://en.wikipedia.org/wiki/Friedrich_Nietzsche");
 
             URL_Add("plenty", "https://en.wiktionary.org/wiki/plenty#Adjective");
@@ -122825,8 +122836,6 @@ namespace OverflowHelper.core
             URL_Add("distributed", "https://en.wiktionary.org/wiki/distribute#Verb");
 
             URL_Add("purchasable", "https://en.wiktionary.org/wiki/purchasable#Adjective");
-
-            URL_Add("teaching", "https://en.wiktionary.org/wiki/teach#Verb");
 
             URL_Add("best off", "https://en.wiktionary.org/wiki/best_off#Adjective");
 
@@ -123932,6 +123941,10 @@ namespace OverflowHelper.core
 
             URL_Add("system administrators", "https://en.wikipedia.org/wiki/System_administrator");
 
+            URL_Add("database administrator", "https://en.wikipedia.org/wiki/Database_administrator");
+
+            URL_Add("database administrators", "https://en.wikipedia.org/wiki/Database_administrator");
+
             URL_Add("Microsoft Learn", "https://en.wikipedia.org/wiki/Microsoft_Learn");
 
             URL_Add("oxymoron", "https://en.wiktionary.org/wiki/oxymoron#Noun");
@@ -124823,48 +124836,6 @@ namespace OverflowHelper.core
             URL_Add("F-15", "https://en.wikipedia.org/wiki/McDonnell_Douglas_F-15_Eagle");
 
             URL_Add("F-16", "https://en.wikipedia.org/wiki/General_Dynamics_F-16_Fighting_Falcon");
-
-            URL_Add("refire", "https://en.wiktionary.org/wiki/refire#Verb");
-
-            URL_Add("fire risk", "https://www.collinsdictionary.com/dictionary/english/fire-risk");
-
-            URL_Add("wildfire", "https://en.wiktionary.org/wiki/wildfire#Noun");
-
-            URL_Add("backfire", "https://en.wiktionary.org/wiki/backfire#Verb");
-
-            URL_Add("sure-fire", "https://en.wiktionary.org/wiki/sure-fire#Adjective");
-
-            URL_Add("misfires", "https://en.wiktionary.org/wiki/misfire#Noun");
-
-            URL_Add("misfiring", "https://en.wiktionary.org/wiki/misfire#Verb");
-
-            URL_Add("St. Elmo's fire", "https://en.wikipedia.org/wiki/St._Elmo%27s_fire");
-
-            URL_Add("firewood", "https://en.wiktionary.org/wiki/firewood#Noun");
-
-            URL_Add("ceasefire", "https://en.wiktionary.org/wiki/ceasefire#Noun");
-
-            URL_Add("FIRE", "https://en.wikipedia.org/wiki/FIRE_movement");
-
-            URL_Add("firewall", "https://en.wikipedia.org/wiki/Firewall_(computing)");
-
-            URL_Add("web application firewall", "https://en.wikipedia.org/wiki/Web_application_firewall");
-
-            URL_Add("firewalld", "https://en.wikipedia.org/wiki/Firewalld");
-
-            URL_Add("UFW", "https://en.wikipedia.org/wiki/Uncomplicated_Firewall");
-
-            URL_Add("Firefly", "https://en.wikipedia.org/wiki/Firefly_(TV_series)");
-
-            URL_Add("Firesheep", "https://en.wikipedia.org/wiki/Firesheep");
-
-            URL_Add("FireWire", "https://en.wikipedia.org/wiki/IEEE_1394");
-
-            URL_Add("FireMonkey", "https://en.wikipedia.org/wiki/FireMonkey");
-
-            URL_Add("Firebase", "https://en.wikipedia.org/wiki/Firebase");
-
-            URL_Add("Firebase Realtime Database", "https://firebase.google.com/docs/database/");
 
             URL_Add("Euro Truck Simulator 2", "https://en.wikipedia.org/wiki/Euro_Truck_Simulator_2");
 
@@ -127020,8 +126991,6 @@ namespace OverflowHelper.core
 
             URL_Add("student", "https://en.wiktionary.org/wiki/student#Noun");
 
-            URL_Add("teachers", "https://en.wiktionary.org/wiki/teacher#Noun");
-
             URL_Add("reentrancy", "https://en.wiktionary.org/wiki/reentrancy#Noun");
 
             URL_Add("retarget", "https://en.wiktionary.org/wiki/retarget#Verb");
@@ -128659,8 +128628,6 @@ namespace OverflowHelper.core
             URL_Add("re-enables", "https://en.wiktionary.org/wiki/re-enable#Verb");
 
             URL_Add("re-enabling", "https://en.wiktionary.org/wiki/re-enable#Verb");
-
-            URL_Add("ceased", "https://en.wiktionary.org/wiki/cease#Verb");
 
             URL_Add("Google TechTalks", "https://www.youtube.com/@GoogleTechTalks/videos");
 
@@ -131360,14 +131327,6 @@ namespace OverflowHelper.core
 
             URL_Add("special-purpose acquisition company", "https://en.wikipedia.org/wiki/Special-purpose_acquisition_company");
 
-            URL_Add("gravity assist", "https://en.wikipedia.org/wiki/Gravity_assist");
-
-            URL_Add("assist", "https://en.wiktionary.org/wiki/assist#Verb");
-
-            URL_Add("assistant", "https://en.wiktionary.org/wiki/assistant#Noun");
-
-            URL_Add("TA", "https://en.wikipedia.org/wiki/Teaching_assistant");
-
             URL_Add("Clippy", "https://en.wikipedia.org/wiki/Office_Assistant");
 
             URL_Add("Cortana", "https://en.wikipedia.org/wiki/Cortana_(virtual_assistant)");
@@ -131723,8 +131682,6 @@ namespace OverflowHelper.core
             URL_Add("Zend Framework", "https://en.wikipedia.org/wiki/Laminas"); // Old - yes, Zend changed name to 'Laminas': https://en.wikipedia.org/wiki/Zend_Framework
 
             URL_Add("Zen Cart", "https://en.wikipedia.org/wiki/Zen_Cart");
-
-            URL_Add("Zen Buddhist", "https://en.wikipedia.org/wiki/Category:American_Zen_Buddhist_teachers");
 
             URL_Add("Zenlike", "https://en.wiktionary.org/wiki/Zenlike#Adjective");
 
@@ -135404,13 +135361,15 @@ namespace OverflowHelper.core
 
             URL_Add("mustn’t", "https://en.wiktionary.org/wiki/mustn't#Verb");
 
-            URL_Add("must-see", "https://en.wiktionary.org/wiki/must-see#Adjective");
-
             URL_Add("must-have", "https://en.wiktionary.org/wiki/must-have#Noun");
 
             URL_Add("must-read", "https://en.wiktionary.org/wiki/must-read#Noun"); // Old: <https://en.wiktionary.org/wiki/must-read>
 
             URL_Add("must-reads", "https://en.wiktionary.org/wiki/must-read#Noun");
+
+            URL_Add("must-see", "https://en.wiktionary.org/wiki/must-see#Adjective");
+
+            URL_Add("foresee", "https://en.wiktionary.org/wiki/foresee#Verb");
 
             URL_Add("would", "https://en.wiktionary.org/wiki/would#Verb"); // Old: https://en.wiktionary.org/wiki/would
 
@@ -135847,8 +135806,6 @@ namespace OverflowHelper.core
             URL_Add("training", "https://en.wiktionary.org/wiki/train#Verb");
 
             URL_Add("trained", "https://en.wiktionary.org/wiki/train#Verb");
-
-            URL_Add("database administrators", "https://en.wikipedia.org/wiki/Database_administrator");
 
             URL_Add("kiosk software", "https://en.wikipedia.org/wiki/Kiosk_software");
 
@@ -146872,8 +146829,6 @@ namespace OverflowHelper.core
 
             URL_Add("let sleeping dogs lie", "https://en.wiktionary.org/wiki/let_sleeping_dogs_lie#Verb");
 
-            URL_Add("you can't teach an old dog new tricks", "https://en.wiktionary.org/wiki/you_can%27t_teach_an_old_dog_new_tricks#Proverb");
-
             URL_Add("dogfooding", "https://en.wiktionary.org/wiki/dogfood#Verb");
 
             URL_Add("On the Internet, nobody knows you’re a dog", "https://en.wikipedia.org/wiki/On_the_Internet%2C_nobody_knows_you're_a_dog");
@@ -151226,6 +151181,72 @@ namespace OverflowHelper.core
 
             URL_Add("System and Organization Controls, report type 'Trust Services Criteria'", "https://en.wikipedia.org/wiki/System_and_Organization_Controls#Types");
 
+            URL_Add("refire", "https://en.wiktionary.org/wiki/refire#Verb");
+
+            URL_Add("fire risk", "https://www.collinsdictionary.com/dictionary/english/fire-risk");
+
+            URL_Add("wildfire", "https://en.wiktionary.org/wiki/wildfire#Noun");
+
+            URL_Add("backfire", "https://en.wiktionary.org/wiki/backfire#Verb");
+
+            URL_Add("sure-fire", "https://en.wiktionary.org/wiki/sure-fire#Adjective");
+
+            URL_Add("misfires", "https://en.wiktionary.org/wiki/misfire#Noun");
+
+            URL_Add("misfiring", "https://en.wiktionary.org/wiki/misfire#Verb");
+
+            URL_Add("St. Elmo's fire", "https://en.wikipedia.org/wiki/St._Elmo%27s_fire");
+
+            URL_Add("firewood", "https://en.wiktionary.org/wiki/firewood#Noun");
+
+            URL_Add("FIRE", "https://en.wikipedia.org/wiki/FIRE_movement");
+
+            URL_Add("firewall", "https://en.wikipedia.org/wiki/Firewall_(computing)");
+
+            URL_Add("web application firewall", "https://en.wikipedia.org/wiki/Web_application_firewall");
+
+            URL_Add("firewalld", "https://en.wikipedia.org/wiki/Firewalld");
+
+            URL_Add("UFW", "https://en.wikipedia.org/wiki/Uncomplicated_Firewall");
+
+            URL_Add("Firefly", "https://en.wikipedia.org/wiki/Firefly_(TV_series)");
+
+            URL_Add("Firesheep", "https://en.wikipedia.org/wiki/Firesheep");
+
+            URL_Add("FireWire", "https://en.wikipedia.org/wiki/IEEE_1394");
+
+            URL_Add("FireMonkey", "https://en.wikipedia.org/wiki/FireMonkey");
+
+            URL_Add("Firebase", "https://en.wikipedia.org/wiki/Firebase");
+
+            URL_Add("Firebase Realtime Database", "https://firebase.google.com/docs/database/");
+
+            URL_Add("cease", "https://en.wiktionary.org/wiki/cease#Verb");
+
+            URL_Add("ceased", "https://en.wiktionary.org/wiki/cease#Verb");
+
+            URL_Add("ceasefire", "https://en.wiktionary.org/wiki/ceasefire#Noun");
+
+            URL_Add("temptation", "https://en.wiktionary.org/wiki/temptation#Noun");
+
+            URL_Add("taught", "https://en.wiktionary.org/wiki/teach#Verb");
+
+            URL_Add("teaching", "https://en.wiktionary.org/wiki/teach#Verb");
+
+            URL_Add("teachers", "https://en.wiktionary.org/wiki/teacher#Noun");
+
+            URL_Add("you can't teach an old dog new tricks", "https://en.wiktionary.org/wiki/you_can%27t_teach_an_old_dog_new_tricks#Proverb");
+
+            URL_Add("TA", "https://en.wikipedia.org/wiki/Teaching_assistant");
+
+            URL_Add("Zen Buddhist", "https://en.wikipedia.org/wiki/Category:American_Zen_Buddhist_teachers");
+
+            URL_Add("assistant", "https://en.wiktionary.org/wiki/assistant#Noun");
+
+            URL_Add("assist", "https://en.wiktionary.org/wiki/assist#Verb");
+
+            URL_Add("gravity assist", "https://en.wikipedia.org/wiki/Gravity_assist");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -155095,6 +155116,11 @@ namespace OverflowHelper.core
             // In 'The Hitchhiker's Guide to the Galaxy'
             //
             // Alternative URL:
+            //
+            //   <https://www.youtube.com/watch?v=eAswvg60FnY&t=53s>
+            //     For "almost, but not quite entirely, unlike tea"
+            //
+            //     00 min 53 secs.
             //
             //   <https://www.youtube.com/watch?v=5wAuDhoRmzg&t=9m37s>
             //
@@ -161123,8 +161149,6 @@ namespace OverflowHelper.core
             correctionAdd("system administrator_", "administration_"); // For the cross-reference
             correctionAdd("adminstration_", "administration_");
             correctionAdd("admin_", "administration_");
-
-            correctionAdd("adminstator_", "administrator_");
 
             correctionAdd("hanselminutes_", "Hanselminutes_");
             correctionAdd("hansel_", "Hanselminutes_");
@@ -167671,6 +167695,8 @@ namespace OverflowHelper.core
             correctionAdd("dip switches_", "DIP switches_");
             correctionAdd("DIP switch_", "DIP switches_"); // For the cross-reference
 
+            correctionAdd("Abysmal_", "abysmal_");
+
             // C. A book
             //
             // Authors: Brian Kernighan and Dennis Ritchie
@@ -169247,8 +169273,6 @@ namespace OverflowHelper.core
             URL_Add("as soon as possible_", "https://en.wiktionary.org/wiki/as_soon_as_possible#Adverb");
 
             URL_Add("few_", "https://en.wiktionary.org/wiki/few#Determiner");
-
-            URL_Add("administrator_", "https://en.wiktionary.org/wiki/administrator#Noun");
 
             URL_Add("gaming_", "https://en.wikipedia.org/wiki/Video_game");
 
@@ -171090,8 +171114,6 @@ namespace OverflowHelper.core
 
             URL_Add("Data Display Debugger_", "https://en.wikipedia.org/wiki/Data_Display_Debugger");
 
-            URL_Add("Teachers' Lounge (TL)_", "https://meta.stackexchange.com/tags/teachers-lounge/info");
-
             URL_Add("The Linux Experiment_", "https://www.youtube.com/@TheLinuxEXP/videos");
 
             URL_Add("Stack Overflow Forums_", "https://meta.stackoverflow.com/questions/426107/discussions-experiment-launching-on-nlp-collective");
@@ -172375,6 +172397,10 @@ namespace OverflowHelper.core
             URL_Add("HTC HD2_", "https://en.wikipedia.org/wiki/HTC_HD2");
 
             URL_Add("Curious badge_", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/67399#67399");
+
+            URL_Add("abysmal_", "https://en.wiktionary.org/wiki/abysmal#Adjective");
+
+            URL_Add("Teachers' Lounge (TL)_", "https://meta.stackexchange.com/tags/teachers-lounge/info");
 
         } //addLookupData_alternativeWordSet()
 
@@ -177457,6 +177483,9 @@ namespace OverflowHelper.core
             correctionAdd("ESR__", "Firefox ESR__");
             correctionAdd("esr__", "Firefox ESR__");
 
+            correctionAdd("system administrator__", "administrator__"); // For the cross-reference
+            correctionAdd("adminstator__", "administrator__");
+
             // A book. For the reverse
             //
             // We need a better reference...
@@ -178754,6 +178783,8 @@ namespace OverflowHelper.core
             URL_Add("Firefox ESR__", "https://en.wikipedia.org/wiki/Firefox#Channels_and_release_schedule"); // Old: https://en.wikipedia.org/wiki/Firefox#Experimental_builds_and_ESR
 
             URL_Add("Web development tools__", "https://en.wikipedia.org/wiki/Web_development_tools");
+
+            URL_Add("administrator__", "https://en.wiktionary.org/wiki/administrator#Noun");
 
         } //addLookupData_alternativeWordSet2()
 
