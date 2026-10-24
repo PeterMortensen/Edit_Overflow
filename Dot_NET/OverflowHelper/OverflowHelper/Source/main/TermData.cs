@@ -2906,6 +2906,16 @@ namespace OverflowHelper.core
             correctionAdd("all rounder", "all-rounder");
             correctionAdd("allrounder", "all-rounder");
 
+            correctionAdd("Annotate", "annotate");
+
+            correctionAdd("annoted", "annotated");
+
+            correctionAdd("annotatition", "annotation");
+            correctionAdd("annottation", "annotation");
+            correctionAdd("anottation", "annotation");
+            correctionAdd("anotation", "annotation");
+            correctionAdd("annotion", "annotation");
+
             correctionAdd("outher", "other");
             correctionAdd("outter", "other");
             correctionAdd("otehr", "other");
@@ -2980,6 +2990,395 @@ namespace OverflowHelper.core
             correctionAdd("other-worldly", "otherworldly");
             correctionAdd("other-wordly", "otherworldly");
             correctionAdd("otherwordly", "otherworldly");
+
+            correctionAdd("hafta", "have to");
+
+            // Note: "got" is in an alternative word set
+            correctionAdd("gotta", "have got to");
+            correctionAdd("Gotta", "have got to");
+
+            correctionAdd("miss-behave", "misbehave");
+            correctionAdd("mis-behave", "misbehave");
+
+            correctionAdd("onw", "own");
+
+            correctionAdd("Owned", "owned");
+            correctionAdd("0wned", "owned");
+            correctionAdd("pwned", "owned");
+
+            correctionAdd("re-own", "reown");
+
+            correctionAdd("owership", "ownership");
+
+            // "possess" is nowhere, because it has never been misspelt! (That is, never observed in the wild.)
+            correctionAdd("posessing", "possessing");
+
+            correctionAdd("Posssesive", "possessive");
+            correctionAdd("posssesive", "possessive");
+            correctionAdd("possissive", "possessive");
+            correctionAdd("posessive", "possessive");
+            correctionAdd("possisive", "possessive");
+            correctionAdd("possesive", "possessive");
+            correctionAdd("posesive", "possessive");
+
+            correctionAdd("posession", "possession");
+            correctionAdd("possesion", "possession");
+
+            // Note: "may" is in an alternative word set (as a correct word)
+            //
+            correctionAdd("migtht", "might");
+            correctionAdd("maight", "might");
+            correctionAdd("mught", "might");
+            correctionAdd("migth", "might");
+            correctionAdd("migjt", "might");
+            correctionAdd("mignt", "might");
+            correctionAdd("Might", "might");
+            correctionAdd("night", "might");
+            correctionAdd("migh", "might");
+            correctionAdd("mite", "might");
+
+            correctionAdd("might've", "might’ve");
+            correctionAdd("mightve", "might’ve");
+
+            // Archaic
+            correctionAdd("mightn't", "mightn’t");
+
+            // Note: "can" is in an alternative word set
+            //
+            correctionAdd("can'not", "can’t");
+            correctionAdd("cann't", "can’t"); // A true typo!
+            correctionAdd("cann’t", "can’t");
+            correctionAdd("connot", "can’t");
+            correctionAdd("carn’t", "can’t");
+            correctionAdd("camn't", "can’t");
+            correctionAdd("can;'t", "can’t");
+            correctionAdd("cant't", "can’t");
+            correctionAdd("can'te", "can’t");
+            correctionAdd("can't", "can’t");
+            correctionAdd("Cant'", "can’t");
+            correctionAdd("cant'", "can’t");
+            correctionAdd("Carnt", "can’t");
+            correctionAdd("carnt", "can’t");
+            correctionAdd("can'T", "can’t");
+            correctionAdd("Can't", "can’t");
+            correctionAdd("cam’t", "can’t");
+            correctionAdd("can'i", "can’t");
+            correctionAdd("can'n", "can’t");
+            correctionAdd("can;t", "can’t");
+            correctionAdd("can¸t", "can’t");
+            correctionAdd("cannt", "can’t");
+            correctionAdd("cxant", "can’t");
+            correctionAdd("can t", "can’t");
+            correctionAdd("CAN'T", "can’t");
+            correctionAdd("can´t", "can’t");
+            correctionAdd("Can´t", "can’t");
+            correctionAdd("can`t", "can’t");
+            correctionAdd("Can`t", "can’t");
+            correctionAdd("cant", "can’t");
+            correctionAdd("cand", "can’t");
+            correctionAdd("Cant", "can’t");
+            correctionAdd("cAnt", "can’t");
+            correctionAdd("CANT", "can’t");
+            correctionAdd("cn't", "can’t");
+            correctionAdd("cnt", "can’t");
+            correctionAdd("ant", "can’t");
+
+            correctionAdd("can not", "cannot");
+            correctionAdd("cannoth", "cannot");
+            correctionAdd("cannont", "cannot");
+            correctionAdd("ccannot", "cannot");
+            correctionAdd("Cannot", "cannot");
+            correctionAdd("canot", "cannot");
+            correctionAdd("annot", "cannot");
+            correctionAdd("cnnot", "cannot");
+
+            correctionAdd("coulld", "could");
+            correctionAdd("caould", "could");
+            correctionAdd("coluld", "could");
+            correctionAdd("coult", "could");
+            correctionAdd("coudl", "could");
+            correctionAdd("cpuld", "could"); // A true typo
+            correctionAdd("Cpuld", "could"); // A true typo
+            correctionAdd("coukd", "could"); // A true typo
+            correctionAdd("colud", "could"); // A true typo
+            correctionAdd("coul", "could");
+            correctionAdd("coud", "could");
+            correctionAdd("Coul", "could");
+            correctionAdd("cud", "could");
+
+            correctionAdd("coulden't", "couldn’t");
+            correctionAdd("coudln't", "couldn’t");
+            correctionAdd("could'nt", "couldn’t");
+            correctionAdd("coulnd't", "couldn’t");
+            correctionAdd("couldn´t", "couldn’t");
+            correctionAdd("couldn't", "couldn’t");
+            correctionAdd("couldent", "couldn’t");
+            correctionAdd("couldnt", "couldn’t");
+            correctionAdd("Couldnt", "couldn’t"); // Not 100% correct - case.
+            correctionAdd("coudn't", "couldn’t");
+            correctionAdd("cound't", "couldn’t");
+            correctionAdd("could't", "couldn’t");
+            correctionAdd("could'n", "couldn’t");
+            correctionAdd("couln't", "couldn’t");
+            correctionAdd("coulndt", "couldn’t");
+            correctionAdd("coulnd", "couldn’t");
+            correctionAdd("coudnt", "couldn’t");
+            correctionAdd("cudn't", "couldn’t");
+            correctionAdd("couldt", "couldn’t");
+            correctionAdd("couldn", "couldn’t");
+            correctionAdd("cudnt", "couldn’t");
+
+            correctionAdd("coulda", "could have");
+
+            correctionAdd("swill", "will");
+            correctionAdd("wlil", "will");
+            correctionAdd("wiil", "will");
+            correctionAdd("WIll", "will");
+            correctionAdd("sill", "will");
+            correctionAdd("wil", "will");
+            correctionAdd("wll", "will");
+            correctionAdd("Wil", "will");
+            correctionAdd("sil", "will");
+            correctionAdd("wi", "will");
+
+            correctionAdd("will not", "won’t"); // For the contraction
+            correctionAdd("wont’t", "won’t");
+            correctionAdd("wontt", "won’t");
+            correctionAdd("Won?t", "won’t");
+            correctionAdd("won?t", "won’t");
+            correctionAdd("son?t", "won’t"); // Partly a real typo. Alternative (less likely) typo: don't
+            correctionAdd("wonnt", "won’t");
+            correctionAdd("wont'", "won’t");
+            correctionAdd("won't", "won’t");
+            correctionAdd("WON'T", "won’t");
+            correctionAdd("won'T", "won’t");
+            correctionAdd("won´t", "won’t");
+            correctionAdd("won`t", "won’t");
+            correctionAdd("wont", "won’t");
+            correctionAdd("sont", "won’t"); // Partly a real typo. Alternative (less likely) typo: don't
+            correctionAdd("won", "won’t");
+
+            correctionAdd("wouhld", "would");
+            correctionAdd("whould", "would");
+            correctionAdd("wouild", "would");
+            correctionAdd("woul d", "would"); // A true typo (with the following space (swap))
+            correctionAdd("woudl", "would");
+            correctionAdd("Woulc", "would");
+            correctionAdd("woulc", "would");
+            correctionAdd("eould", "would");
+            correctionAdd("woult", "would");
+            correctionAdd("woukd", "would");
+            correctionAdd("woulf", "would"); // A true typo
+            correctionAdd("world", "would");
+            correctionAdd("woiud", "would");
+            correctionAdd("wold", "would");
+            correctionAdd("woul", "would");
+            correctionAdd("woud", "would");
+            correctionAdd("wud", "would");
+            correctionAdd("wld", "would");
+
+            correctionAdd("wouyldn't", "wouldn’t");
+            correctionAdd("wouldn't", "wouldn’t");
+            correctionAdd("woulnd't", "wouldn’t");
+            correctionAdd("wouldn´t", "wouldn’t");
+            correctionAdd("woudln't", "wouldn’t");
+            correctionAdd("eouldn't", "wouldn’t");
+            correctionAdd("wouldnt", "wouldn’t");
+            correctionAdd("woudn't", "wouldn’t");
+            correctionAdd("would't", "wouldn’t");
+            correctionAdd("Wouldnt", "wouldn’t");
+            correctionAdd("woudlnt", "wouldn’t");
+            correctionAdd("eouldnt", "wouldn’t");
+            correctionAdd("would?t", "wouldn’t");
+            correctionAdd("wouldt", "wouldn’t");
+
+            correctionAdd("would have", "would’ve");
+            correctionAdd("wouldve", "would’ve");
+            correctionAdd("woulda", "would’ve");
+
+            correctionAdd("wiling", "willing");
+
+            correctionAdd("willful", "wilful");
+
+            correctionAdd("willfully", "wilfully");
+
+            correctionAdd("at-will", "at will");
+
+            correctionAdd("willy nilly", "willy-nilly");
+
+            correctionAdd("good will", "goodwill");
+            correctionAdd("good-will", "goodwill");
+
+            correctionAdd("good-willed", "goodwilled");
+
+            correctionAdd("weak willed", "weak-willed");
+
+            // Note: "went" is in an alternative word set
+            correctionAdd("goest", "goes");
+            correctionAdd("goes'", "goes");
+            correctionAdd("gose", "goes");
+            correctionAdd("goea", "goes"); // A true typo
+
+            correctionAdd("goning", "going");
+            correctionAdd("goung", "going");
+            correctionAdd("Giung", "going");
+            correctionAdd("giung", "going");
+            correctionAdd("goign", "going");
+            correctionAdd("goï g", "going"); // Multiple typos, including one involving the space bar (instead of "n")
+            correctionAdd("oging", "going"); // A true typo
+            correctionAdd("goin", "going");
+
+            correctionAdd("fone", "gone");
+            correctionAdd("gohe", "gone");
+
+            correctionAdd("on going", "ongoing");
+            correctionAdd("on-going", "ongoing");
+            correctionAdd("On going", "ongoing");
+
+            correctionAdd("oging on", "going on"); // A true typo
+
+            correctionAdd("going to", "is going to");
+            correctionAdd("is gonna", "is going to");
+            correctionAdd("gon be", "is going to");
+            correctionAdd("gonna", "is going to");
+            correctionAdd("gunna", "is going to");
+            correctionAdd("ganna", "is going to");
+            correctionAdd("Gonna", "is going to");
+            correctionAdd("gona", "is going to");
+            correctionAdd("gna", "is going to");
+
+            correctionAdd("I'm going to", "I’m going to");
+            correctionAdd("I'm gonna", "I’m going to");
+            correctionAdd("I'm ma", "I’m going to");
+            correctionAdd("I'mma", "I’m going to");
+            correctionAdd("Im ma", "I’m going to");
+            correctionAdd("im ma", "I’m going to");
+            correctionAdd("Imma", "I’m going to");
+            correctionAdd("imma", "I’m going to");
+            correctionAdd("Ima", "I’m going to");
+
+            correctionAdd("NGL", "I am not going to lie");
+            correctionAdd("ngl", "I am not going to lie");
+            correctionAdd("Ngl", "I am not going to lie");
+
+            // Though would an adjective be 'on-the-go'?
+            correctionAdd("on-the-go", "on the go");
+
+            correctionAdd("NO-GO", "no go");
+            correctionAdd("no-go", "no go");
+
+            correctionAdd("good to goo", "good to go");
+
+            correctionAdd("a go", "ago");
+
+            // The verb
+            correctionAdd("got to", "go to");
+            correctionAdd("got ot", "go to");
+            correctionAdd("Go to", "go to");
+            correctionAdd("Go To", "go to");
+            correctionAdd("goto", "go to");
+            correctionAdd("Goto", "go to");
+            correctionAdd("GoTo", "go to");
+            correctionAdd("Foto", "go to");
+            correctionAdd("foto", "go to");
+
+            // "shall" is nowhere, because it has never been misspelt! (That is, never observed in the wild.)
+            correctionAdd("shoould", "should");
+            correctionAdd("shouold", "should");
+            correctionAdd("shoulld", "should");
+            correctionAdd("shuold", "should");
+            correctionAdd("chould", "should");
+            correctionAdd("Should", "should");
+            correctionAdd("shoulb", "should");
+            correctionAdd("shoule", "should");
+            correctionAdd("shoudl", "should");
+            correctionAdd("Shoult", "should");
+            correctionAdd("shoult", "should");
+            correctionAdd("shpuld", "should");
+            correctionAdd("sholud", "should");
+            correctionAdd("Shoule", "should");
+            correctionAdd("Shoudl", "should");
+            correctionAdd("shoukd", "should");
+            correctionAdd("shold", "should");
+            correctionAdd("shoud", "should");
+            correctionAdd("shuld", "should");
+            correctionAdd("hould", "should");
+            correctionAdd("shood", "should");
+            correctionAdd("sould", "should");
+            correctionAdd("Shoud", "should");
+            correctionAdd("shoul", "should");
+            correctionAdd("Sould", "should");
+            correctionAdd("shud", "should");
+            correctionAdd("shod", "should");
+            correctionAdd("chud", "should");
+            correctionAdd("shld", "should");
+            correctionAdd("shd", "should");
+            correctionAdd("Sld", "should");
+            correctionAdd("sld", "should");
+
+            correctionAdd("shoyuldn't", "shouldn’t");
+            correctionAdd("shoulnd´t", "shouldn’t");
+            correctionAdd("shoulnd't", "shouldn’t");
+            correctionAdd("shouldn't", "shouldn’t");
+            correctionAdd("shuoldn't", "shouldn’t");
+            correctionAdd("should'nt", "shouldn’t");
+            correctionAdd("shouldn´t", "shouldn’t");
+            correctionAdd("Shouldn´t", "shouldn’t");
+            correctionAdd("Shouldn’t", "shouldn’t");
+            correctionAdd("shouldnt", "shouldn’t");
+            correctionAdd("Shoudn't", "shouldn’t");
+            correctionAdd("shoudn't", "shouldn’t");
+            correctionAdd("Should't", "shouldn’t");
+            correctionAdd("should't", "shouldn’t");
+            correctionAdd("shoulndt", "shouldn’t");
+            correctionAdd("Shouldnt", "shouldn’t");
+            correctionAdd("souldn't", "shouldn’t");
+            correctionAdd("Should'n", "shouldn’t");
+            correctionAdd("should'n", "shouldn’t");
+            correctionAdd("shouldn'", "shouldn’t");
+            correctionAdd("Shouln't", "shouldn’t");
+            correctionAdd("shouln't", "shouldn’t");
+            correctionAdd("shoudnt", "shouldn’t");
+            correctionAdd("shuldnt", "shouldn’t");
+            correctionAdd("shoulnt", "shouldn’t");
+
+            correctionAdd("should've", "should have");
+            correctionAdd("shouldve", "should have");
+            correctionAdd("shoulda", "should have");
+            correctionAdd("shoulve", "should have");
+
+            correctionAdd("muss", "must");
+            correctionAdd("mast", "must");
+            correctionAdd("mudt", "must");
+            correctionAdd("most", "must");
+
+            correctionAdd("mustn't", "mustn’t");
+
+            correctionAdd("must have", "must-have");
+
+            correctionAdd("Must see", "must-see");
+            correctionAdd("must see", "must-see");
+
+            // Note: "want" is in an alternative word set
+            correctionAdd("want's", "wants");
+            correctionAdd("want’s", "wants");
+
+            correctionAdd("wantted", "wanted");
+            correctionAdd("wanned", "wanted");
+            correctionAdd("wnted", "wanted");
+
+            correctionAdd("wanna", "want to");
+            correctionAdd("Wanna", "want to");
+            correctionAdd("wonna", "want to");
+            correctionAdd("wanne", "want to");
+            correctionAdd("wanto", "want to");
+            correctionAdd("wana", "want to");
+            correctionAdd("wnna", "want to");
+
+            correctionAdd("un-wanted", "unwanted");
+            correctionAdd("unwated", "unwanted");
+
+            correctionAdd("wonton", "wanton");
 
             correctionAdd("liker", "like");
             correctionAdd("lilke", "like");
@@ -28591,14 +28990,6 @@ namespace OverflowHelper.core
             correctionAdd("Smart contract", "smart contract");
             correctionAdd("Smart Contract", "smart contract");
 
-            correctionAdd("annoted", "annotated");
-
-            correctionAdd("annotatition", "annotation");
-            correctionAdd("annottation", "annotation");
-            correctionAdd("anottation", "annotation");
-            correctionAdd("anotation", "annotation");
-            correctionAdd("annotion", "annotation");
-
             correctionAdd("araising", "arising");
 
             correctionAdd("arised", "arose");
@@ -29771,395 +30162,6 @@ namespace OverflowHelper.core
             //   <https://en.wikipedia.org/wiki/Ninja_(build_system)>
             //
             correctionAdd("ninja", "Ninja");
-
-            correctionAdd("hafta", "have to");
-
-            // Note: "got" is in an alternative word set
-            correctionAdd("gotta", "have got to");
-            correctionAdd("Gotta", "have got to");
-
-            correctionAdd("miss-behave", "misbehave");
-            correctionAdd("mis-behave", "misbehave");
-
-            correctionAdd("onw", "own");
-
-            correctionAdd("Owned", "owned");
-            correctionAdd("0wned", "owned");
-            correctionAdd("pwned", "owned");
-
-            correctionAdd("re-own", "reown");
-
-            correctionAdd("owership", "ownership");
-
-            // "possess" is nowhere, because it has never been misspelt! (That is, never observed in the wild.)
-            correctionAdd("posessing", "possessing");
-
-            correctionAdd("Posssesive", "possessive");
-            correctionAdd("posssesive", "possessive");
-            correctionAdd("possissive", "possessive");
-            correctionAdd("posessive", "possessive");
-            correctionAdd("possisive", "possessive");
-            correctionAdd("possesive", "possessive");
-            correctionAdd("posesive", "possessive");
-
-            correctionAdd("posession", "possession");
-            correctionAdd("possesion", "possession");
-
-            // Note: "may" is in an alternative word set (as a correct word)
-            //
-            correctionAdd("migtht", "might");
-            correctionAdd("maight", "might");
-            correctionAdd("mught", "might");
-            correctionAdd("migth", "might");
-            correctionAdd("migjt", "might");
-            correctionAdd("mignt", "might");
-            correctionAdd("Might", "might");
-            correctionAdd("night", "might");
-            correctionAdd("migh", "might");
-            correctionAdd("mite", "might");
-
-            correctionAdd("might've", "might’ve");
-            correctionAdd("mightve", "might’ve");
-
-            // Archaic
-            correctionAdd("mightn't", "mightn’t");
-
-            // Note: "can" is in an alternative word set
-            //
-            correctionAdd("can'not", "can’t");
-            correctionAdd("cann't", "can’t"); // A true typo!
-            correctionAdd("cann’t", "can’t");
-            correctionAdd("connot", "can’t");
-            correctionAdd("carn’t", "can’t");
-            correctionAdd("camn't", "can’t");
-            correctionAdd("can;'t", "can’t");
-            correctionAdd("cant't", "can’t");
-            correctionAdd("can'te", "can’t");
-            correctionAdd("can't", "can’t");
-            correctionAdd("Cant'", "can’t");
-            correctionAdd("cant'", "can’t");
-            correctionAdd("Carnt", "can’t");
-            correctionAdd("carnt", "can’t");
-            correctionAdd("can'T", "can’t");
-            correctionAdd("Can't", "can’t");
-            correctionAdd("cam’t", "can’t");
-            correctionAdd("can'i", "can’t");
-            correctionAdd("can'n", "can’t");
-            correctionAdd("can;t", "can’t");
-            correctionAdd("can¸t", "can’t");
-            correctionAdd("cannt", "can’t");
-            correctionAdd("cxant", "can’t");
-            correctionAdd("can t", "can’t");
-            correctionAdd("CAN'T", "can’t");
-            correctionAdd("can´t", "can’t");
-            correctionAdd("Can´t", "can’t");
-            correctionAdd("can`t", "can’t");
-            correctionAdd("Can`t", "can’t");
-            correctionAdd("cant", "can’t");
-            correctionAdd("cand", "can’t");
-            correctionAdd("Cant", "can’t");
-            correctionAdd("cAnt", "can’t");
-            correctionAdd("CANT", "can’t");
-            correctionAdd("cn't", "can’t");
-            correctionAdd("cnt", "can’t");
-            correctionAdd("ant", "can’t");
-
-            correctionAdd("can not", "cannot");
-            correctionAdd("cannoth", "cannot");
-            correctionAdd("cannont", "cannot");
-            correctionAdd("ccannot", "cannot");
-            correctionAdd("Cannot", "cannot");
-            correctionAdd("canot", "cannot");
-            correctionAdd("annot", "cannot");
-            correctionAdd("cnnot", "cannot");
-
-            correctionAdd("coulld", "could");
-            correctionAdd("caould", "could");
-            correctionAdd("coluld", "could");
-            correctionAdd("coult", "could");
-            correctionAdd("coudl", "could");
-            correctionAdd("cpuld", "could"); // A true typo
-            correctionAdd("Cpuld", "could"); // A true typo
-            correctionAdd("coukd", "could"); // A true typo
-            correctionAdd("colud", "could"); // A true typo
-            correctionAdd("coul", "could");
-            correctionAdd("coud", "could");
-            correctionAdd("Coul", "could");
-            correctionAdd("cud", "could");
-
-            correctionAdd("coulden't", "couldn’t");
-            correctionAdd("coudln't", "couldn’t");
-            correctionAdd("could'nt", "couldn’t");
-            correctionAdd("coulnd't", "couldn’t");
-            correctionAdd("couldn´t", "couldn’t");
-            correctionAdd("couldn't", "couldn’t");
-            correctionAdd("couldent", "couldn’t");
-            correctionAdd("couldnt", "couldn’t");
-            correctionAdd("Couldnt", "couldn’t"); // Not 100% correct - case.
-            correctionAdd("coudn't", "couldn’t");
-            correctionAdd("cound't", "couldn’t");
-            correctionAdd("could't", "couldn’t");
-            correctionAdd("could'n", "couldn’t");
-            correctionAdd("couln't", "couldn’t");
-            correctionAdd("coulndt", "couldn’t");
-            correctionAdd("coulnd", "couldn’t");
-            correctionAdd("coudnt", "couldn’t");
-            correctionAdd("cudn't", "couldn’t");
-            correctionAdd("couldt", "couldn’t");
-            correctionAdd("couldn", "couldn’t");
-            correctionAdd("cudnt", "couldn’t");
-
-            correctionAdd("coulda", "could have");
-
-            correctionAdd("swill", "will");
-            correctionAdd("wlil", "will");
-            correctionAdd("wiil", "will");
-            correctionAdd("WIll", "will");
-            correctionAdd("sill", "will");
-            correctionAdd("wil", "will");
-            correctionAdd("wll", "will");
-            correctionAdd("Wil", "will");
-            correctionAdd("sil", "will");
-            correctionAdd("wi", "will");
-
-            correctionAdd("will not", "won’t"); // For the contraction
-            correctionAdd("wont’t", "won’t");
-            correctionAdd("wontt", "won’t");
-            correctionAdd("Won?t", "won’t");
-            correctionAdd("won?t", "won’t");
-            correctionAdd("son?t", "won’t"); // Partly a real typo. Alternative (less likely) typo: don't
-            correctionAdd("wonnt", "won’t");
-            correctionAdd("wont'", "won’t");
-            correctionAdd("won't", "won’t");
-            correctionAdd("WON'T", "won’t");
-            correctionAdd("won'T", "won’t");
-            correctionAdd("won´t", "won’t");
-            correctionAdd("won`t", "won’t");
-            correctionAdd("wont", "won’t");
-            correctionAdd("sont", "won’t"); // Partly a real typo. Alternative (less likely) typo: don't
-            correctionAdd("won", "won’t");
-
-            correctionAdd("wouhld", "would");
-            correctionAdd("whould", "would");
-            correctionAdd("wouild", "would");
-            correctionAdd("woul d", "would"); // A true typo (with the following space (swap))
-            correctionAdd("woudl", "would");
-            correctionAdd("Woulc", "would");
-            correctionAdd("woulc", "would");
-            correctionAdd("eould", "would");
-            correctionAdd("woult", "would");
-            correctionAdd("woukd", "would");
-            correctionAdd("woulf", "would"); // A true typo
-            correctionAdd("world", "would");
-            correctionAdd("woiud", "would");
-            correctionAdd("wold", "would");
-            correctionAdd("woul", "would");
-            correctionAdd("woud", "would");
-            correctionAdd("wud", "would");
-            correctionAdd("wld", "would");
-
-            correctionAdd("wouyldn't", "wouldn’t");
-            correctionAdd("wouldn't", "wouldn’t");
-            correctionAdd("woulnd't", "wouldn’t");
-            correctionAdd("wouldn´t", "wouldn’t");
-            correctionAdd("woudln't", "wouldn’t");
-            correctionAdd("eouldn't", "wouldn’t");
-            correctionAdd("wouldnt", "wouldn’t");
-            correctionAdd("woudn't", "wouldn’t");
-            correctionAdd("would't", "wouldn’t");
-            correctionAdd("Wouldnt", "wouldn’t");
-            correctionAdd("woudlnt", "wouldn’t");
-            correctionAdd("eouldnt", "wouldn’t");
-            correctionAdd("would?t", "wouldn’t");
-            correctionAdd("wouldt", "wouldn’t");
-
-            correctionAdd("would have", "would’ve");
-            correctionAdd("wouldve", "would’ve");
-            correctionAdd("woulda", "would’ve");
-
-            correctionAdd("wiling", "willing");
-
-            correctionAdd("willful", "wilful");
-
-            correctionAdd("willfully", "wilfully");
-
-            correctionAdd("at-will", "at will");
-
-            correctionAdd("willy nilly", "willy-nilly");
-
-            correctionAdd("good will", "goodwill");
-            correctionAdd("good-will", "goodwill");
-
-            correctionAdd("good-willed", "goodwilled");
-
-            correctionAdd("weak willed", "weak-willed");
-
-            // Note: "went" is in an alternative word set
-            correctionAdd("goest", "goes");
-            correctionAdd("goes'", "goes");
-            correctionAdd("gose", "goes");
-            correctionAdd("goea", "goes"); // A true typo
-
-            correctionAdd("goning", "going");
-            correctionAdd("goung", "going");
-            correctionAdd("Giung", "going");
-            correctionAdd("giung", "going");
-            correctionAdd("goign", "going");
-            correctionAdd("goï g", "going"); // Multiple typos, including one involving the space bar (instead of "n")
-            correctionAdd("oging", "going"); // A true typo
-            correctionAdd("goin", "going");
-
-            correctionAdd("fone", "gone");
-            correctionAdd("gohe", "gone");
-
-            correctionAdd("on going", "ongoing");
-            correctionAdd("on-going", "ongoing");
-            correctionAdd("On going", "ongoing");
-
-            correctionAdd("oging on", "going on"); // A true typo
-
-            correctionAdd("going to", "is going to");
-            correctionAdd("is gonna", "is going to");
-            correctionAdd("gon be", "is going to");
-            correctionAdd("gonna", "is going to");
-            correctionAdd("gunna", "is going to");
-            correctionAdd("ganna", "is going to");
-            correctionAdd("Gonna", "is going to");
-            correctionAdd("gona", "is going to");
-            correctionAdd("gna", "is going to");
-
-            correctionAdd("I'm going to", "I’m going to");
-            correctionAdd("I'm gonna", "I’m going to");
-            correctionAdd("I'm ma", "I’m going to");
-            correctionAdd("I'mma", "I’m going to");
-            correctionAdd("Im ma", "I’m going to");
-            correctionAdd("im ma", "I’m going to");
-            correctionAdd("Imma", "I’m going to");
-            correctionAdd("imma", "I’m going to");
-            correctionAdd("Ima", "I’m going to");
-
-            correctionAdd("NGL", "I am not going to lie");
-            correctionAdd("ngl", "I am not going to lie");
-            correctionAdd("Ngl", "I am not going to lie");
-
-            // Though would an adjective be 'on-the-go'?
-            correctionAdd("on-the-go", "on the go");
-
-            correctionAdd("NO-GO", "no go");
-            correctionAdd("no-go", "no go");
-
-            correctionAdd("good to goo", "good to go");
-
-            correctionAdd("a go", "ago");
-
-            // The verb
-            correctionAdd("got to", "go to");
-            correctionAdd("got ot", "go to");
-            correctionAdd("Go to", "go to");
-            correctionAdd("Go To", "go to");
-            correctionAdd("goto", "go to");
-            correctionAdd("Goto", "go to");
-            correctionAdd("GoTo", "go to");
-            correctionAdd("Foto", "go to");
-            correctionAdd("foto", "go to");
-
-            // "shall" is nowhere, because it has never been misspelt! (That is, never observed in the wild.)
-            correctionAdd("shoould", "should");
-            correctionAdd("shouold", "should");
-            correctionAdd("shoulld", "should");
-            correctionAdd("shuold", "should");
-            correctionAdd("chould", "should");
-            correctionAdd("Should", "should");
-            correctionAdd("shoulb", "should");
-            correctionAdd("shoule", "should");
-            correctionAdd("shoudl", "should");
-            correctionAdd("Shoult", "should");
-            correctionAdd("shoult", "should");
-            correctionAdd("shpuld", "should");
-            correctionAdd("sholud", "should");
-            correctionAdd("Shoule", "should");
-            correctionAdd("Shoudl", "should");
-            correctionAdd("shoukd", "should");
-            correctionAdd("shold", "should");
-            correctionAdd("shoud", "should");
-            correctionAdd("shuld", "should");
-            correctionAdd("hould", "should");
-            correctionAdd("shood", "should");
-            correctionAdd("sould", "should");
-            correctionAdd("Shoud", "should");
-            correctionAdd("shoul", "should");
-            correctionAdd("Sould", "should");
-            correctionAdd("shud", "should");
-            correctionAdd("shod", "should");
-            correctionAdd("chud", "should");
-            correctionAdd("shld", "should");
-            correctionAdd("shd", "should");
-            correctionAdd("Sld", "should");
-            correctionAdd("sld", "should");
-
-            correctionAdd("shoyuldn't", "shouldn’t");
-            correctionAdd("shoulnd´t", "shouldn’t");
-            correctionAdd("shoulnd't", "shouldn’t");
-            correctionAdd("shouldn't", "shouldn’t");
-            correctionAdd("shuoldn't", "shouldn’t");
-            correctionAdd("should'nt", "shouldn’t");
-            correctionAdd("shouldn´t", "shouldn’t");
-            correctionAdd("Shouldn´t", "shouldn’t");
-            correctionAdd("Shouldn’t", "shouldn’t");
-            correctionAdd("shouldnt", "shouldn’t");
-            correctionAdd("Shoudn't", "shouldn’t");
-            correctionAdd("shoudn't", "shouldn’t");
-            correctionAdd("Should't", "shouldn’t");
-            correctionAdd("should't", "shouldn’t");
-            correctionAdd("shoulndt", "shouldn’t");
-            correctionAdd("Shouldnt", "shouldn’t");
-            correctionAdd("souldn't", "shouldn’t");
-            correctionAdd("Should'n", "shouldn’t");
-            correctionAdd("should'n", "shouldn’t");
-            correctionAdd("shouldn'", "shouldn’t");
-            correctionAdd("Shouln't", "shouldn’t");
-            correctionAdd("shouln't", "shouldn’t");
-            correctionAdd("shoudnt", "shouldn’t");
-            correctionAdd("shuldnt", "shouldn’t");
-            correctionAdd("shoulnt", "shouldn’t");
-
-            correctionAdd("should've", "should have");
-            correctionAdd("shouldve", "should have");
-            correctionAdd("shoulda", "should have");
-            correctionAdd("shoulve", "should have");
-
-            correctionAdd("muss", "must");
-            correctionAdd("mast", "must");
-            correctionAdd("mudt", "must");
-            correctionAdd("most", "must");
-
-            correctionAdd("mustn't", "mustn’t");
-
-            correctionAdd("must have", "must-have");
-
-            correctionAdd("Must see", "must-see");
-            correctionAdd("must see", "must-see");
-
-            // Note: "want" is in an alternative word set
-            correctionAdd("want's", "wants");
-            correctionAdd("want’s", "wants");
-
-            correctionAdd("wantted", "wanted");
-            correctionAdd("wanned", "wanted");
-            correctionAdd("wnted", "wanted");
-
-            correctionAdd("wanna", "want to");
-            correctionAdd("Wanna", "want to");
-            correctionAdd("wonna", "want to");
-            correctionAdd("wanne", "want to");
-            correctionAdd("wanto", "want to");
-            correctionAdd("wana", "want to");
-            correctionAdd("wnna", "want to");
-
-            correctionAdd("un-wanted", "unwanted");
-            correctionAdd("unwated", "unwanted");
-
-            correctionAdd("wonton", "wanton");
 
             correctionAdd("Enquiring", "enquiring");
             correctionAdd("Inquiring", "enquiring");
@@ -37102,6 +37104,18 @@ namespace OverflowHelper.core
 
             correctionAdd("razor thin", "razor-thin");
 
+            correctionAdd("criterium", "criterion");
+            correctionAdd("criterum", "criterion");
+
+            correctionAdd("criterions", "criteria");
+            correctionAdd("criterias", "criteria");
+            correctionAdd("critieria", "criteria");
+            correctionAdd("critiera", "criteria");
+            correctionAdd("cretiria", "criteria");
+            correctionAdd("creteria", "criteria");
+            correctionAdd("citeria", "criteria");
+            correctionAdd("critera", "criteria");
+
             correctionAdd("indentitation", "indentation");
             correctionAdd("indendation", "indentation");
             correctionAdd("Indentation", "indentation");
@@ -37581,7 +37595,7 @@ namespace OverflowHelper.core
             correctionAdd("credential manager", "Credential Manager");
             correctionAdd("credential Manager", "Credential Manager");
 
-            correctionAdd("Microsoft Defender Antivirus", "Windows Defender");
+            correctionAdd("Microsoft Defender Antivirus", "Windows Defender"); // The new name
             correctionAdd("Microsoft defender", "Windows Defender");
             correctionAdd("Windows defender", "Windows Defender");
             correctionAdd("windows defender", "Windows Defender");
@@ -45559,11 +45573,12 @@ namespace OverflowHelper.core
             correctionAdd("githhub", "GitHub");
             correctionAdd("Githhub", "GitHub");
             correctionAdd("Git hub", "GitHub");
-            correctionAdd("git-hub", "GitHub");
             correctionAdd("Git Hub", "GitHub");
             correctionAdd("GIT HUB", "GitHub");
             correctionAdd("Git/hub", "GitHub");
             correctionAdd("guithub", "GitHub"); // A true typo (of the misspelling "github")
+            correctionAdd("git-hub", "GitHub");
+            correctionAdd("Git-hub", "GitHub");
             correctionAdd("Github", "GitHub");
             correctionAdd("github", "GitHub");
             correctionAdd("gitHub", "GitHub");
@@ -61454,6 +61469,7 @@ namespace OverflowHelper.core
 
             correctionAdd("check summing", "checksumming");
 
+            // The noun
             correctionAdd("check sum", "checksum");
 
             // For a sort of one-digit CRC for numbers / digits.
@@ -98613,15 +98629,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Z-Transform", "Z-transform");
 
-            correctionAdd("criterions", "criteria");
-            correctionAdd("criterias", "criteria");
-            correctionAdd("critieria", "criteria");
-            correctionAdd("critiera", "criteria");
-            correctionAdd("cretiria", "criteria");
-            correctionAdd("creteria", "criteria");
-            correctionAdd("citeria", "criteria");
-            correctionAdd("critera", "criteria");
-
             correctionAdd("entiere", "entire");
             correctionAdd("entier", "entire");
 
@@ -98641,8 +98648,6 @@ namespace OverflowHelper.core
             correctionAdd("enties", "entries");
 
             correctionAdd("trashcan", "trash can");
-
-            correctionAdd("criterium", "criterion");
 
             correctionAdd("Introdcution", "introduction");
             correctionAdd("introdcution", "introduction");
@@ -111693,8 +111698,6 @@ namespace OverflowHelper.core
 
             URL_Add("conditional", "https://en.wiktionary.org/wiki/conditional#Adjective");
 
-            URL_Add("criteria", "https://en.wiktionary.org/wiki/criterion#Noun");
-
             URL_Add("disappeared", "https://en.wiktionary.org/wiki/disappear#Verb");
 
             URL_Add("dysfunction", "https://en.wiktionary.org/wiki/dysfunction#Noun");
@@ -112800,8 +112803,6 @@ namespace OverflowHelper.core
             URL_Add("TCPTrace", "https://en.wikipedia.org/wiki/Tcptrace");
 
             URL_Add("Technorati", "https://en.wikipedia.org/wiki/Technorati");
-
-            URL_Add("criterion", "https://en.wiktionary.org/wiki/criterion#Noun");
 
             URL_Add("cultural", "https://en.wiktionary.org/wiki/cultural#Adjective");
 
@@ -128319,10 +128320,6 @@ namespace OverflowHelper.core
 
             URL_Add("menu item", "https://www.collinsdictionary.com/dictionary/english/menu-item");
 
-            URL_Add("System and Organization Controls", "https://en.wikipedia.org/wiki/System_and_Organization_Controls");
-
-            URL_Add("System and Organization Controls, report type 'Trust Services Criteria'", "https://en.wikipedia.org/wiki/System_and_Organization_Controls#Types");
-
             URL_Add("trust", "https://en.wiktionary.org/wiki/trust#Noun");
 
             URL_Add("trusted", "https://en.wiktionary.org/wiki/trusted#Adjective");
@@ -129258,10 +129255,6 @@ namespace OverflowHelper.core
             URL_Add("information and communications technology", "https://en.wikipedia.org/wiki/Information_and_communications_technology");
 
             URL_Add("management information base", "https://en.wikipedia.org/wiki/Management_information_base");
-
-            URL_Add("Akaike information criterion", "https://en.wikipedia.org/wiki/Akaike_information_criterion");
-
-            URL_Add("Bayesian information criterion", "https://en.wikipedia.org/wiki/Bayesian_information_criterion");
 
             URL_Add("GIS", "https://en.wikipedia.org/wiki/Geographic_information_system");
 
@@ -137118,6 +137111,8 @@ namespace OverflowHelper.core
             URL_Add("answerer", "https://en.wiktionary.org/wiki/answerer#Noun");
 
             URL_Add("answerers", "https://en.wiktionary.org/wiki/answerer#Noun");
+
+            URL_Add("annotate", "https://en.wiktionary.org/wiki/annotate#Verb");
 
             URL_Add("annotated", "https://en.wiktionary.org/wiki/annotated#Adjective");
 
@@ -151219,6 +151214,18 @@ namespace OverflowHelper.core
 
             URL_Add("style sheets", "https://en.wikipedia.org/wiki/Style_sheet_(web_development)");
 
+            URL_Add("criterion", "https://en.wiktionary.org/wiki/criterion#Noun");
+
+            URL_Add("criteria", "https://en.wiktionary.org/wiki/criterion#Noun");
+
+            URL_Add("Akaike information criterion", "https://en.wikipedia.org/wiki/Akaike_information_criterion");
+
+            URL_Add("Bayesian information criterion", "https://en.wikipedia.org/wiki/Bayesian_information_criterion");
+
+            URL_Add("System and Organization Controls", "https://en.wikipedia.org/wiki/System_and_Organization_Controls");
+
+            URL_Add("System and Organization Controls, report type 'Trust Services Criteria'", "https://en.wikipedia.org/wiki/System_and_Organization_Controls#Types");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -154063,6 +154070,7 @@ namespace OverflowHelper.core
             correctionAdd("Macropod_", "macro pad_");
             correctionAdd("micropqd_", "macro pad_");
             correctionAdd("MacoPad_", "macro pad_");
+            correctionAdd("macropa_", "macro pad_");
             correctionAdd("Pad_", "macro pad_");
             correctionAdd("pad_", "macro pad_");
 
@@ -169716,8 +169724,6 @@ namespace OverflowHelper.core
 
             URL_Add("clock_", "https://en.wiktionary.org/wiki/clock#Noun");
 
-            URL_Add("Curious badge_", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/67399#67399");
-
             URL_Add("gain–bandwidth product_", "https://en.wikipedia.org/wiki/Gain%E2%80%93bandwidth_product");
 
             URL_Add("entities_", "https://en.wiktionary.org/wiki/entity#Noun");
@@ -172367,6 +172373,8 @@ namespace OverflowHelper.core
             URL_Add("LG_", "https://en.wikipedia.org/wiki/LG_Electronics");
 
             URL_Add("HTC HD2_", "https://en.wikipedia.org/wiki/HTC_HD2");
+
+            URL_Add("Curious badge_", "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/67399#67399");
 
         } //addLookupData_alternativeWordSet()
 
