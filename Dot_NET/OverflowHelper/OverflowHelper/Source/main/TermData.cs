@@ -2795,6 +2795,9 @@ namespace OverflowHelper.core
             correctionAdd("Don't panic", "don’t panic");
 
             // In 'The Hitchhiker's Guide to the Galaxy'
+            //
+            // The reference is broken now...
+            //
             correctionAdd("Without actually telling anyone", "hiding information");
             correctionAdd("without actually telling anyone", "hiding information");
             correctionAdd("actually telling anybody", "hiding information");
@@ -2912,6 +2915,7 @@ namespace OverflowHelper.core
             correctionAdd("every1", "everyone");
 
             // As the contraction of "everyone is"
+            correctionAdd("Everyone's", "everyone's");
             correctionAdd("everyones", "everyone's");
             correctionAdd("everones", "everyone's");
 
@@ -5717,11 +5721,14 @@ namespace OverflowHelper.core
             correctionAdd("oom", "OOM");
 
             // Related to operating systems, incl. Linux and Windows
+            //
             correctionAdd("kernel same-page merging", "KSM");
             correctionAdd("kernel shared memory", "KSM");
             correctionAdd("memory deduplication", "KSM");
             correctionAdd("memory merging", "KSM");
             correctionAdd("deduplication", "KSM");
+            correctionAdd("shared memory", "KSM");
+            correctionAdd("shm", "KSM");
 
             // Linux
             correctionAdd("flexible IO tester", "FIO");
@@ -6099,6 +6106,7 @@ namespace OverflowHelper.core
             // A company. The main developer of LibreOffice.
             // Also related to GStreamer, D-Bus, PipeWire, Wayland,
             // the Linux kernel, and NVK
+            //
             correctionAdd("collabora", "Collabora");
 
             // Linux / GNOME
@@ -8833,6 +8841,7 @@ namespace OverflowHelper.core
             correctionAdd("smme", "seem");
             correctionAdd("seam", "seem");
             correctionAdd("seen", "seem");
+            correctionAdd("send", "seem"); // Possibly an autocorrect "masterpiece"
 
             correctionAdd("seemes", "seems");
             correctionAdd("seemos", "seems");
@@ -28981,6 +28990,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("For the rest of us", "for the rest of us");
             correctionAdd("the rest of us", "for the rest of us");
+            correctionAdd("rest of us", "for the rest of us");
 
             correctionAdd("Services", "services");
 
@@ -43718,6 +43728,9 @@ namespace OverflowHelper.core
             correctionAdd("hyper parameter", "hyperparameter");
 
             // Machine learning. A hyperparameter
+            //
+            // Does ***not*** relate to the Linux kernel...
+            //
             // Alternative URL:
             //
             //   <https://en.wikipedia.org/wiki/Kernel_(image_processing)>
@@ -56463,6 +56476,7 @@ namespace OverflowHelper.core
             // Alternative URLs:
             //
             //   <https://www.php2shell.com/>
+            //   <https://blog.simply.com/2026/php2shell/>
             //   <https://meta.stackoverflow.com/questions/440576>
             //   <https://unix.stackexchange.com/questions/tagged/php?tab=Newest>
             //   <https://askubuntu.com/questions/tagged/php?tab=Newest>
@@ -82390,8 +82404,9 @@ namespace OverflowHelper.core
             correctionAdd("amazon EC2", "Amazon EC2");
             correctionAdd("Amazon ec2", "Amazon EC2");
             correctionAdd("AWS Ec2", "Amazon EC2");
-            correctionAdd("aws ec2", "Amazon EC2");
             correctionAdd("AWS EC2", "Amazon EC2");
+            correctionAdd("aws EC2", "Amazon EC2");
+            correctionAdd("aws ec2", "Amazon EC2");
             correctionAdd("ec2", "Amazon EC2");
             correctionAdd("Ec2", "Amazon EC2");
             correctionAdd("EC2", "Amazon EC2");
@@ -83064,8 +83079,8 @@ namespace OverflowHelper.core
             // An Internet protocol
             correctionAdd("pptp", "PPTP");
 
-            // A security vulnerability (Linux kernel. Local
-            // privilege escalation).
+            // A security vulnerability (Linux kernel.
+            // Local privilege escalation).
             correctionAdd("Dirty Pipe", "DirtyPipe"); // No, not a porn star...
 
             correctionAdd("log4j", "Log4j");
@@ -99598,9 +99613,7 @@ namespace OverflowHelper.core
 
             correctionAdd("epi-center", "epicenter");
 
-            correctionAdd("csend", "send");
-            correctionAdd("sand", "send");
-
+            // Note: "send" is in an alternative word set
             correctionAdd("seding", "sending");
             correctionAdd("sendin", "sending");
 
@@ -99989,7 +100002,8 @@ namespace OverflowHelper.core
             correctionAdd("Tortoise HG", "TortoiseHg");
             correctionAdd("tortoisehg", "TortoiseHg");
 
-            // A version control system (Linux kernel development before Git)
+            // A version control system (Linux kernel
+            // development before Git)
             correctionAdd("bitkeeper", "BitKeeper");
 
             correctionAdd("Tortoise CVS", "TortoiseCVS");
@@ -102007,7 +102021,11 @@ namespace OverflowHelper.core
             correctionAdd("Dynamics CRM", "Microsoft Dynamics CRM");
             correctionAdd("MS Dynamics", "Microsoft Dynamics CRM");
 
+            correctionAdd("Microsoft Dynamics 365", "Dynamics 365");
+            correctionAdd("Microsoft D365", "Dynamics 365");
             correctionAdd("dynamics 365", "Dynamics 365");
+            correctionAdd("D365", "Dynamics 365");
+            correctionAdd("d365", "Dynamics 365");
 
             correctionAdd("customer relationship management", "CRM");
             correctionAdd("crm", "CRM");
@@ -114090,8 +114108,6 @@ namespace OverflowHelper.core
 
             URL_Add("attach", "https://en.wiktionary.org/wiki/attach#Verb");
 
-            URL_Add("condescending", "https://en.wiktionary.org/wiki/condescending#Adjective");
-
             URL_Add("curricula", "https://en.wiktionary.org/wiki/curriculum#Noun");
 
             URL_Add("elaborately", "https://en.wiktionary.org/wiki/elaborately#Adverb");
@@ -115090,8 +115106,6 @@ namespace OverflowHelper.core
 
             URL_Add("seldomly", "https://en.wiktionary.org/wiki/seldomly#Adverb");
 
-            URL_Add("sent", "https://en.wiktionary.org/wiki/send#Verb");
-
             URL_Add("New Zealand", "https://en.wikipedia.org/wiki/New_Zealand");
 
             URL_Add("distinguish", "https://en.wiktionary.org/wiki/distinguish#Verb");
@@ -115472,7 +115486,13 @@ namespace OverflowHelper.core
 
             URL_Add("imitate", "https://en.wiktionary.org/wiki/imitate#Verb");
 
+            URL_Add("sent", "https://en.wiktionary.org/wiki/send#Verb");
+
             URL_Add("sending", "https://en.wiktionary.org/wiki/send#Verb");
+
+            URL_Add("descendingly", "https://en.wiktionary.org/wiki/descendingly#Adverb");
+
+            URL_Add("condescending", "https://en.wiktionary.org/wiki/condescending#Adjective");
 
             URL_Add("COVAX", "https://en.wikipedia.org/wiki/COVAX");
 
@@ -118008,8 +118028,6 @@ namespace OverflowHelper.core
 
             URL_Add("optimiser", "https://en.wiktionary.org/wiki/optimiser#Noun");
 
-            URL_Add("socket buffer", "http://vger.kernel.org/~davem/skb.html");
-
             URL_Add("tourists", "https://en.wiktionary.org/wiki/tourist#Noun");
 
             URL_Add("touristic", "https://en.wiktionary.org/wiki/touristic#Adjective");
@@ -119830,8 +119848,6 @@ namespace OverflowHelper.core
 
             URL_Add("Folketingsvalget 2022", "https://da.wikipedia.org/wiki/Folketingsvalget_2022");
 
-            URL_Add("microkernel", "https://en.wikipedia.org/wiki/Microkernel");
-
             URL_Add("Embedded FM", "https://embedded.fm/episodes");
 
             URL_Add("top notch", "https://en.wiktionary.org/wiki/top_notch#Adjective");
@@ -120727,8 +120743,6 @@ namespace OverflowHelper.core
             URL_Add("Pyrrhic victory", "https://en.wiktionary.org/wiki/Pyrrhic_victory#Noun");
 
             URL_Add("Dommaraju Gukesh", "https://en.wikipedia.org/wiki/Gukesh_D");
-
-            URL_Add("send", "https://en.wiktionary.org/wiki/send#Verb");
 
             URL_Add("autostart", "https://en.wiktionary.org/wiki/autostart#Verb");
 
@@ -121654,8 +121668,6 @@ namespace OverflowHelper.core
 
             URL_Add("blah", "https://en.wiktionary.org/wiki/blah#Noun");
 
-            URL_Add("descendingly", "https://en.wiktionary.org/wiki/descendingly#Adverb");
-
             URL_Add("bossy", "https://en.wiktionary.org/wiki/bossy#Adjective");
 
             URL_Add("Mojo", "https://en.wikipedia.org/wiki/Mojo_(programming_language)");
@@ -122315,8 +122327,6 @@ namespace OverflowHelper.core
             URL_Add("cutoff frequency", "https://en.wikipedia.org/wiki/Cutoff_frequency");
 
             URL_Add("dict.cc", "https://en.wikipedia.org/wiki/Dict.cc");
-
-            URL_Add("KSM", "https://en.wikipedia.org/wiki/Kernel_same-page_merging");
 
             URL_Add("libvirt", "https://en.wikipedia.org/wiki/Libvirt");
 
@@ -126695,10 +126705,6 @@ namespace OverflowHelper.core
             URL_Add("Parallels Desktop for Mac", "https://en.wikipedia.org/wiki/Parallels_Desktop_for_Mac");
 
             URL_Add("lion's share", "https://en.wiktionary.org/wiki/lion%27s_share#Noun");
-
-            URL_Add("KernelNewbies", "https://kernelnewbies.org/Linux_Kernel_Newbies");
-
-            URL_Add("newbies", "https://en.wiktionary.org/wiki/newbie#Noun");
 
             URL_Add("capacity", "https://en.wiktionary.org/wiki/capacity#Noun");
 
@@ -131968,8 +131974,6 @@ namespace OverflowHelper.core
 
             URL_Add("PsTools", "https://learn.microsoft.com/en-us/sysinternals/downloads/pstools");
 
-            URL_Add("kernel extension", "https://en.wikipedia.org/wiki/Loadable_kernel_module");
-
             URL_Add("boot manager", "https://en.wikipedia.org/wiki/Bootloader");
 
             URL_Add("winner, winner, chicken dinner", "https://en.wiktionary.org/wiki/winner,_winner,_chicken_dinner#Phrase");
@@ -135250,8 +135254,6 @@ namespace OverflowHelper.core
 
             URL_Add("file size", "https://en.wiktionary.org/wiki/file_size#Noun");
 
-            URL_Add("kernel size", "https://en.wikipedia.org/wiki/Convolutional_neural_network#Kernel_size");
-
             URL_Add("IntPtr.Size", "https://docs.microsoft.com/en-us/dotnet/api/system.intptr.size");
 
             URL_Add("zero", "https://en.wiktionary.org/wiki/zero#Numeral_2");
@@ -137167,56 +137169,6 @@ namespace OverflowHelper.core
             URL_Add("ChatGPT (using GPT-4)", "https://en.wikipedia.org/wiki/ChatGPT#Training");
 
             URL_Add("Grok", "https://en.wikipedia.org/wiki/Grok_(chatbot)");
-
-            URL_Add("Nvidia", "https://en.wikipedia.org/wiki/Nvidia");
-
-            URL_Add("CUDA", "https://en.wikipedia.org/wiki/CUDA");
-
-            URL_Add("CUDA kernels", "https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#kernels");
-
-            URL_Add("Nvidia Jetson", "https://en.wikipedia.org/wiki/Nvidia_Jetson");
-
-            URL_Add("Nvidia Jetson Nano", "https://en.wikipedia.org/wiki/Nvidia_Jetson#Hardware");
-
-            URL_Add("G-Sync", "https://en.wikipedia.org/wiki/Nvidia_G-Sync");
-
-            URL_Add("Reflex", "https://www.pcgamesn.com/nvidia/reflex-low-latency");
-
-            URL_Add("Nvidia image scaling", "https://www.howtogeek.com/886754/what-is-nvidia-image-scaling-and-how-do-you-use-it/");
-
-            URL_Add("Radeon", "https://en.wikipedia.org/wiki/Radeon");
-
-            URL_Add("Radeon RX 7800 XT", "https://en.wikipedia.org/wiki/Radeon_RX_7000_series#Desktop");
-
-            URL_Add("Radeon RX 7900 GRE", "https://en.wikipedia.org/wiki/Radeon_RX_7000_series#Desktop");
-
-            URL_Add("GeForce", "https://en.wikipedia.org/wiki/GeForce");
-
-            URL_Add("Nvidia GeForce GT 740M", "https://en.wikipedia.org/wiki/GeForce_900_series#GeForce_900M_(9xxM)_series");
-
-            URL_Add("Nvidia GeForce GTX 950M", "https://en.wikipedia.org/wiki/GeForce_900_series#GeForce_900M_(9xxM)_series");
-
-            URL_Add("Nvidia GeForce GTX 1070", "https://en.wikipedia.org/wiki/GeForce_10_series#GeForce_10_(10xx)_series_for_desktops");
-
-            URL_Add("Nvidia GeForce GTX 1660", "https://en.wikipedia.org/wiki/GeForce_16_series#Desktop");
-
-            URL_Add("Nvidia GeForce RTX 2070", "https://en.wikipedia.org/wiki/GeForce_20_series#Desktop");
-
-            URL_Add("Nvidia GeForce RTX 2080 Ti", "https://en.wikipedia.org/wiki/GeForce_20_series#Desktop");
-
-            URL_Add("Nvidia GeForce RTX 3070", "https://en.wikipedia.org/wiki/GeForce_30_series#Desktop");
-
-            URL_Add("Nvidia GeForce RTX 3050", "https://en.wikipedia.org/wiki/GeForce_30_series#Desktop");
-
-            URL_Add("Nvidia GeForce RTX 3080", "https://en.wikipedia.org/wiki/GeForce_30_series#RTX_3080");
-
-            URL_Add("Nvidia GeForce RTX 3090", "https://en.wikipedia.org/wiki/GeForce_30_series#Desktop");
-
-            URL_Add("Nvidia GeForce RTX 4070", "https://en.wikipedia.org/wiki/GeForce_40_series#RTX_4070_Ti");
-
-            URL_Add("Nvidia GeForce RTX 4090", "https://en.wikipedia.org/wiki/GeForce_40_series#Products");
-
-            URL_Add("Nvidia GeForce RTX 5090", "https://en.wikipedia.org/wiki/GeForce_RTX_50_series#Desktop");
 
             URL_Add("Codeberg", "https://en.wikipedia.org/wiki/Codeberg");
 
@@ -142018,8 +141970,6 @@ namespace OverflowHelper.core
 
             URL_Add("userscript", "https://en.wikipedia.org/wiki/Userscript");
 
-            URL_Add("user space", "https://en.wikipedia.org/wiki/User_space_and_kernel_space#Overview"); // Old: <https://en.wikipedia.org/wiki/User_space>
-
             URL_Add("Usenet", "https://en.wikipedia.org/wiki/Usenet");
 
             URL_Add("User Account Control", "https://en.wikipedia.org/wiki/User_Account_Control");
@@ -144212,8 +144162,6 @@ namespace OverflowHelper.core
 
             URL_Add("NumPy", "https://en.wikipedia.org/wiki/NumPy");
 
-            URL_Add("MKL", "https://en.wikipedia.org/wiki/Math_Kernel_Library");
-
             URL_Add("matrix2numpy()", "https://docs.sympy.org/latest/modules/matrices/matrices.html#sympy.matrices.dense.matrix2numpy");
 
             URL_Add("numpy.ndarray", "https://en.wikipedia.org/wiki/NumPy#The_ndarray_data_structure");
@@ -145095,8 +145043,6 @@ namespace OverflowHelper.core
             URL_Add("Ubuntu Kylin", "https://en.wikipedia.org/wiki/Ubuntu_Kylin");
 
             URL_Add("Ubuntu Studio", "https://en.wikipedia.org/wiki/Ubuntu_Studio");
-
-            URL_Add("Ubuntu Hardware Enablement", "https://ubuntu.com/kernel/lifecycle");
 
             URL_Add("Kubuntu", "https://en.wikipedia.org/wiki/Kubuntu");
 
@@ -146793,88 +146739,6 @@ namespace OverflowHelper.core
             URL_Add("LPM", "https://en.wikipedia.org/wiki/Atmel_AVR_instruction_set#Instruction_timing");
 
             URL_Add("UPDI", "https://en.wikipedia.org/wiki/AVR_microcontrollers#UPDI");
-
-            URL_Add("FreeDOS", "https://en.wikipedia.org/wiki/FreeDOS");
-
-            URL_Add("MINIX", "https://en.wikipedia.org/wiki/MINIX");
-
-            URL_Add("Linux", "https://en.wikipedia.org/wiki/Linux");
-
-            URL_Add("Linux kernel", "https://en.wikipedia.org/wiki/Linux_kernel");
-
-            URL_Add("system call table", "https://linux-kernel-labs.github.io/refs/heads/master/lectures/syscalls.html#system-call-table");
-
-            URL_Add("Linux framebuffer", "https://en.wikipedia.org/wiki/Linux_framebuffer");
-
-            URL_Add("framebuffer", "https://en.wikipedia.org/wiki/Framebuffer");
-
-            URL_Add("Linuxen", "https://en.wiktionary.org/wiki/Linuxen#Noun");
-
-            URL_Add("Linux distribution", "https://en.wikipedia.org/wiki/Linux_distribution");
-
-            URL_Add("Linux distributions", "https://en.wikipedia.org/wiki/Linux_distribution");
-
-            URL_Add("DistroWatch", "https://en.wikipedia.org/wiki/DistroWatch");
-
-            URL_Add("distro-hopping", "https://en.wiktionary.org/wiki/distro-hopping#Noun");
-
-            URL_Add("Bryan Lunduke", "https://www.youtube.com/user/BryanLunduke/videos");
-
-            URL_Add("Linux Journal", "https://en.wikipedia.org/wiki/Linux_Journal");
-
-            URL_Add("Linux Foundation", "https://en.wikipedia.org/wiki/Linux_Foundation");
-
-            URL_Add("Linux Mint Debian Edition", "https://en.wikipedia.org/wiki/Linux_Mint#LMDE"); // Old: <https://en.wikipedia.org/wiki/Linux_Mint#Linux_Mint_Debian_Edition>
-
-            URL_Add("Linux Mint 13 (Maya)", "https://en.wikipedia.org/wiki/Linux_Mint#Releases");
-
-            URL_Add("Debian&nbsp;14 (Forky)", "https://en.wikipedia.org/wiki/Debian_release_version_history#Debian_14_(Forky)");
-
-            URL_Add("Linux Mint 18.1 (Serena)", "https://en.wikipedia.org/wiki/Linux_Mint#Release_history");
-
-            URL_Add("Linux Mint 18.2 (Sonya)", "https://en.wikipedia.org/wiki/Linux_Mint#Releases");
-
-            URL_Add("Raspbian", "https://en.wikipedia.org/wiki/Raspberry_Pi#Software"); // Was https://en.wikipedia.org/wiki/Raspbian
-
-            URL_Add("Debian", "https://en.wikipedia.org/wiki/Debian");
-
-            URL_Add("Debian Stable", "https://en.wikipedia.org/wiki/Debian#Forks_and_derivatives");
-
-            URL_Add("Debian Unstable", "https://en.wikipedia.org/wiki/Debian_version_history#Naming_convention");
-
-            URL_Add("Debian Free Software Guidelines", "https://en.wikipedia.org/wiki/Debian_Free_Software_Guidelines");
-
-            URL_Add("Debian&nbsp;4.0 (Etch)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_4.0_(Etch)");
-
-            URL_Add("Debian&nbsp;5.0 (Lenny)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_5.0_(Lenny)");
-
-            URL_Add("Debian&nbsp;6.0 (Squeeze)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_6.0_(Squeeze)");
-
-            URL_Add("Debian&nbsp;7 (Wheezy)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_7_(Wheezy)");
-
-            URL_Add("Debian&nbsp;9 (Stretch)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_9_(Stretch)");
-
-            URL_Add("Debian&nbsp;10 (Buster)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_10_(Buster)");
-
-            URL_Add("Raspbian&nbsp;10 (Buster)", "https://en.wikipedia.org/wiki/Raspberry_Pi_OS#Release_history"); // Old: https://en.wikipedia.org/wiki/Raspbian#Version_history
-
-            URL_Add("Debian&nbsp;11 (Bullseye)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_11_(Bullseye)");
-
-            URL_Add("Debian&nbsp;12 (Bookworm)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_12_(Bookworm)");
-
-            URL_Add("Raspbmc", "https://en.wikipedia.org/wiki/List_of_software_based_on_XBMC#Raspbmc");
-
-            URL_Add("BunsenLabs (Debian Linux-based)", "https://en.wikipedia.org/wiki/CrunchBang_Linux#BunsenLabs");
-
-            URL_Add("Linux Lite", "https://en.wikipedia.org/wiki/Linux_Lite");
-
-            URL_Add("Linuxfx", "https://pt.wikipedia.org/wiki/LinuxFX");
-
-            URL_Add("Linux From Scratch", "https://en.wikipedia.org/wiki/Linux_From_Scratch");
-
-            URL_Add("Void Linux", "https://en.wikipedia.org/wiki/Void_Linux");
-
-            URL_Add("$HOME/.zshrc file", "https://wiki.debian.org/Zsh#Configuration");
 
             URL_Add("M4V", "https://en.wikipedia.org/wiki/M4V");
 
@@ -151326,6 +151190,158 @@ namespace OverflowHelper.core
 
             URL_Add("pawns", "https://en.wikipedia.org/wiki/Pawn_(chess)");
 
+            URL_Add("MINIX", "https://en.wikipedia.org/wiki/MINIX");
+
+            URL_Add("Linux", "https://en.wikipedia.org/wiki/Linux");
+
+            URL_Add("Linux kernel", "https://en.wikipedia.org/wiki/Linux_kernel");
+
+            URL_Add("microkernel", "https://en.wikipedia.org/wiki/Microkernel");
+
+            URL_Add("kernel size", "https://en.wikipedia.org/wiki/Convolutional_neural_network#Kernel_size");
+
+            URL_Add("kernel extension", "https://en.wikipedia.org/wiki/Loadable_kernel_module");
+
+            URL_Add("CUDA kernels", "https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#kernels");
+
+            URL_Add("KernelNewbies", "https://kernelnewbies.org/Linux_Kernel_Newbies");
+
+            URL_Add("user space", "https://en.wikipedia.org/wiki/User_space_and_kernel_space#Overview"); // Old: <https://en.wikipedia.org/wiki/User_space>
+
+            URL_Add("KSM", "https://en.wikipedia.org/wiki/Kernel_same-page_merging");
+
+            URL_Add("socket buffer", "http://vger.kernel.org/~davem/skb.html");
+
+            URL_Add("MKL", "https://en.wikipedia.org/wiki/Math_Kernel_Library");
+
+            URL_Add("Ubuntu Hardware Enablement", "https://ubuntu.com/kernel/lifecycle");
+
+            URL_Add("system call table", "https://linux-kernel-labs.github.io/refs/heads/master/lectures/syscalls.html#system-call-table");
+
+            URL_Add("newbies", "https://en.wiktionary.org/wiki/newbie#Noun");
+
+            URL_Add("Nvidia", "https://en.wikipedia.org/wiki/Nvidia");
+
+            URL_Add("CUDA", "https://en.wikipedia.org/wiki/CUDA");
+
+            URL_Add("Nvidia Jetson", "https://en.wikipedia.org/wiki/Nvidia_Jetson");
+
+            URL_Add("Nvidia Jetson Nano", "https://en.wikipedia.org/wiki/Nvidia_Jetson#Hardware");
+
+            URL_Add("G-Sync", "https://en.wikipedia.org/wiki/Nvidia_G-Sync");
+
+            URL_Add("Reflex", "https://www.pcgamesn.com/nvidia/reflex-low-latency");
+
+            URL_Add("Nvidia image scaling", "https://www.howtogeek.com/886754/what-is-nvidia-image-scaling-and-how-do-you-use-it/");
+
+            URL_Add("Radeon", "https://en.wikipedia.org/wiki/Radeon");
+
+            URL_Add("Radeon RX 7800 XT", "https://en.wikipedia.org/wiki/Radeon_RX_7000_series#Desktop");
+
+            URL_Add("Radeon RX 7900 GRE", "https://en.wikipedia.org/wiki/Radeon_RX_7000_series#Desktop");
+
+            URL_Add("GeForce", "https://en.wikipedia.org/wiki/GeForce");
+
+            URL_Add("Nvidia GeForce GT 740M", "https://en.wikipedia.org/wiki/GeForce_900_series#GeForce_900M_(9xxM)_series");
+
+            URL_Add("Nvidia GeForce GTX 950M", "https://en.wikipedia.org/wiki/GeForce_900_series#GeForce_900M_(9xxM)_series");
+
+            URL_Add("Nvidia GeForce GTX 1070", "https://en.wikipedia.org/wiki/GeForce_10_series#GeForce_10_(10xx)_series_for_desktops");
+
+            URL_Add("Nvidia GeForce GTX 1660", "https://en.wikipedia.org/wiki/GeForce_16_series#Desktop");
+
+            URL_Add("Nvidia GeForce RTX 2070", "https://en.wikipedia.org/wiki/GeForce_20_series#Desktop");
+
+            URL_Add("Nvidia GeForce RTX 2080 Ti", "https://en.wikipedia.org/wiki/GeForce_20_series#Desktop");
+
+            URL_Add("Nvidia GeForce RTX 3070", "https://en.wikipedia.org/wiki/GeForce_30_series#Desktop");
+
+            URL_Add("Nvidia GeForce RTX 3050", "https://en.wikipedia.org/wiki/GeForce_30_series#Desktop");
+
+            URL_Add("Nvidia GeForce RTX 3080", "https://en.wikipedia.org/wiki/GeForce_30_series#RTX_3080");
+
+            URL_Add("Nvidia GeForce RTX 3090", "https://en.wikipedia.org/wiki/GeForce_30_series#Desktop");
+
+            URL_Add("Nvidia GeForce RTX 4070", "https://en.wikipedia.org/wiki/GeForce_40_series#RTX_4070_Ti");
+
+            URL_Add("Nvidia GeForce RTX 4090", "https://en.wikipedia.org/wiki/GeForce_40_series#Products");
+
+            URL_Add("Nvidia GeForce RTX 5090", "https://en.wikipedia.org/wiki/GeForce_RTX_50_series#Desktop");
+
+            URL_Add("FreeDOS", "https://en.wikipedia.org/wiki/FreeDOS");
+
+            URL_Add("Linux framebuffer", "https://en.wikipedia.org/wiki/Linux_framebuffer");
+
+            URL_Add("framebuffer", "https://en.wikipedia.org/wiki/Framebuffer");
+
+            URL_Add("Linuxen", "https://en.wiktionary.org/wiki/Linuxen#Noun");
+
+            URL_Add("Linux distribution", "https://en.wikipedia.org/wiki/Linux_distribution");
+
+            URL_Add("Linux distributions", "https://en.wikipedia.org/wiki/Linux_distribution");
+
+            URL_Add("DistroWatch", "https://en.wikipedia.org/wiki/DistroWatch");
+
+            URL_Add("distro-hopping", "https://en.wiktionary.org/wiki/distro-hopping#Noun");
+
+            URL_Add("Bryan Lunduke", "https://www.youtube.com/user/BryanLunduke/videos");
+
+            URL_Add("Linux Journal", "https://en.wikipedia.org/wiki/Linux_Journal");
+
+            URL_Add("Linux Foundation", "https://en.wikipedia.org/wiki/Linux_Foundation");
+
+            URL_Add("Linux Mint Debian Edition", "https://en.wikipedia.org/wiki/Linux_Mint#LMDE"); // Old: <https://en.wikipedia.org/wiki/Linux_Mint#Linux_Mint_Debian_Edition>
+
+            URL_Add("Linux Mint 13 (Maya)", "https://en.wikipedia.org/wiki/Linux_Mint#Releases");
+
+            URL_Add("Debian&nbsp;14 (Forky)", "https://en.wikipedia.org/wiki/Debian_release_version_history#Debian_14_(Forky)");
+
+            URL_Add("Linux Mint 18.1 (Serena)", "https://en.wikipedia.org/wiki/Linux_Mint#Release_history");
+
+            URL_Add("Linux Mint 18.2 (Sonya)", "https://en.wikipedia.org/wiki/Linux_Mint#Releases");
+
+            URL_Add("Raspbian", "https://en.wikipedia.org/wiki/Raspberry_Pi#Software"); // Was https://en.wikipedia.org/wiki/Raspbian
+
+            URL_Add("Debian", "https://en.wikipedia.org/wiki/Debian");
+
+            URL_Add("Debian Stable", "https://en.wikipedia.org/wiki/Debian#Forks_and_derivatives");
+
+            URL_Add("Debian Unstable", "https://en.wikipedia.org/wiki/Debian_version_history#Naming_convention");
+
+            URL_Add("Debian Free Software Guidelines", "https://en.wikipedia.org/wiki/Debian_Free_Software_Guidelines");
+
+            URL_Add("Debian&nbsp;4.0 (Etch)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_4.0_(Etch)");
+
+            URL_Add("Debian&nbsp;5.0 (Lenny)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_5.0_(Lenny)");
+
+            URL_Add("Debian&nbsp;6.0 (Squeeze)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_6.0_(Squeeze)");
+
+            URL_Add("Debian&nbsp;7 (Wheezy)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_7_(Wheezy)");
+
+            URL_Add("Debian&nbsp;9 (Stretch)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_9_(Stretch)");
+
+            URL_Add("Debian&nbsp;10 (Buster)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_10_(Buster)");
+
+            URL_Add("Raspbian&nbsp;10 (Buster)", "https://en.wikipedia.org/wiki/Raspberry_Pi_OS#Release_history"); // Old: https://en.wikipedia.org/wiki/Raspbian#Version_history
+
+            URL_Add("Debian&nbsp;11 (Bullseye)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_11_(Bullseye)");
+
+            URL_Add("Debian&nbsp;12 (Bookworm)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_12_(Bookworm)");
+
+            URL_Add("Raspbmc", "https://en.wikipedia.org/wiki/List_of_software_based_on_XBMC#Raspbmc");
+
+            URL_Add("BunsenLabs (Debian Linux-based)", "https://en.wikipedia.org/wiki/CrunchBang_Linux#BunsenLabs");
+
+            URL_Add("Linux Lite", "https://en.wikipedia.org/wiki/Linux_Lite");
+
+            URL_Add("Linuxfx", "https://pt.wikipedia.org/wiki/LinuxFX");
+
+            URL_Add("Linux From Scratch", "https://en.wikipedia.org/wiki/Linux_From_Scratch");
+
+            URL_Add("Void Linux", "https://en.wikipedia.org/wiki/Void_Linux");
+
+            URL_Add("$HOME/.zshrc file", "https://wiki.debian.org/Zsh#Configuration");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -151808,6 +151824,9 @@ namespace OverflowHelper.core
             // The operating system command
             correctionAdd("DATE_", "date_");
 
+            // It ***does*** refer to an operating system,
+            // for example, Linux
+            //
             correctionAdd("kerenel_", "kernel_");
             correctionAdd("kernal_", "kernel_"); // The old misspelling is reserved for Commodore only (shame on ***anyone*** for carrying it forward).
             correctionAdd("Kernel_", "kernel_");
@@ -151815,6 +151834,19 @@ namespace OverflowHelper.core
             correctionAdd("Karnal_", "kernel_");
             correctionAdd("karnal_", "kernel_");
             correctionAdd("kenel_", "kernel_");
+
+            // For the reverse
+            correctionAdd("KSM_", "kernel shared memory_");
+
+            // Not to be confused with the Linux desktop environment
+            //
+            // And "kernel" does ***not***
+            // refer to the Linux kernel...
+            //
+            correctionAdd("kernel density estimation_", "KDE_");
+            correctionAdd("Kernel Density Estimation_", "KDE_");
+            correctionAdd("Kernel Density Estimates_", "KDE_");
+            correctionAdd("kde_", "KDE_");
 
             // Both embedded systems and general-purpose operating system
             correctionAdd("hardware abstraction layer_", "HAL_");
@@ -161837,12 +161869,6 @@ namespace OverflowHelper.core
             correctionAdd("tracert_", "traceroute_"); // Actually Windows vs. Linux
             correctionAdd("mtr_", "traceroute_");
 
-            // Not to be confused with the Linux desktop environment
-            correctionAdd("kernel density estimation_", "KDE_");
-            correctionAdd("Kernel Density Estimation_", "KDE_");
-            correctionAdd("Kernel Density Estimates_", "KDE_");
-            correctionAdd("kde_", "KDE_");
-
             // Gaming. Linux. Nobara_Linux.
             //
             //   <https://github.com/GloriousEggroll>
@@ -166708,6 +166734,7 @@ namespace OverflowHelper.core
             correctionAdd("received_", "receiver_"); // Conflict in the main word set
             correctionAdd("receivet_", "receiver_"); // A true typo
             correctionAdd("reciver_", "receiver_");
+            correctionAdd("recver_", "receiver_");
 
             correctionAdd("vet_", "veteran_");
 
@@ -168867,8 +168894,6 @@ namespace OverflowHelper.core
 
             URL_Add("imputed_", "https://en.wiktionary.org/wiki/impute#Verb");
 
-            URL_Add("descending_", "https://en.wiktionary.org/wiki/descend#Verb");
-
             URL_Add("god_", "https://en.wiktionary.org/wiki/god#Noun");
 
             URL_Add("Godbolt_", "https://github.com/mattgodbolt/compiler-explorer");
@@ -169178,6 +169203,8 @@ namespace OverflowHelper.core
             URL_Add("adapted_", "https://en.wiktionary.org/wiki/adapt#Verb");
 
             URL_Add("ascending_", "https://en.wiktionary.org/wiki/ascending#Adjective");
+
+            URL_Add("descending_", "https://en.wiktionary.org/wiki/descend#Verb");
 
             URL_Add("instant messaging_", "https://en.wikipedia.org/wiki/Instant_messaging");
 
@@ -171161,8 +171188,6 @@ namespace OverflowHelper.core
 
             URL_Add("proceeded_", "https://en.wiktionary.org/wiki/proceed#Verb");
 
-            URL_Add("Electronic Arts AntiCheat_", "https://www.theverge.com/2022/9/13/23351900/ea-kernel-level-anti-cheat-system-fifa-23");
-
             URL_Add("difference_", "https://en.wiktionary.org/wiki/difference#Noun");
 
             URL_Add("different from_", "https://dictionary.cambridge.org/dictionary/english/different-from");
@@ -171252,8 +171277,6 @@ namespace OverflowHelper.core
             URL_Add("procfs_", "https://en.wikipedia.org/wiki/Procfs");
 
             URL_Add("nano_", "https://en.wikipedia.org/wiki/GNU_nano");
-
-            URL_Add("KDE_", "https://en.wikipedia.org/wiki/Kernel_density_estimation");
 
             URL_Add("checks_", "https://en.wiktionary.org/wiki/check#Noun");
 
@@ -172029,8 +172052,6 @@ namespace OverflowHelper.core
 
             URL_Add("LLaMA_", "https://en.wikipedia.org/wiki/Llama_(language_model)"); // Old: <https://en.wikipedia.org/wiki/LLaMA>
 
-            URL_Add("KVM_", "https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine");
-
             URL_Add("TPU_", "https://en.wikipedia.org/wiki/Tensor_Processing_Unit");
 
             URL_Add("machine language instruction_", "https://en.wikipedia.org/wiki/Machine_code");
@@ -172455,8 +172476,6 @@ namespace OverflowHelper.core
 
             URL_Add("real-time operating system_", "https://en.wikipedia.org/wiki/Real-time_operating_system");
 
-            URL_Add("kernel_", "https://en.wikipedia.org/wiki/Kernel_%28operating_system%29");
-
             URL_Add("date_", "https://en.wikipedia.org/wiki/System_time#Operating_systems");
 
             URL_Add("MBA_", "https://en.wikipedia.org/wiki/Master_of_Business_Administration");
@@ -172480,6 +172499,16 @@ namespace OverflowHelper.core
             URL_Add("radio interference_", "https://www.reddit.com/r/Keychron/comments/1kvqhf3/comment/mublo7e/");
 
             URL_Add("virtual Python environments_", "https://www.w3schools.com/python/python_virtualenv.asp");
+
+            URL_Add("kernel_", "https://en.wikipedia.org/wiki/Kernel_%28operating_system%29");
+
+            URL_Add("kernel shared memory_", "https://en.wikipedia.org/wiki/Kernel_same-page_merging");
+
+            URL_Add("KVM_", "https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine");
+
+            URL_Add("KDE_", "https://en.wikipedia.org/wiki/Kernel_density_estimation");
+
+            URL_Add("Electronic Arts AntiCheat_", "https://www.theverge.com/2022/9/13/23351900/ea-kernel-level-anti-cheat-system-fifa-23");
 
         } //addLookupData_alternativeWordSet()
 
@@ -173053,8 +173082,8 @@ namespace OverflowHelper.core
             correctionAdd("hat__", "that__");
             correctionAdd("tha__", "that__");
 
-            correctionAdd("man find__", "find__");
-            correctionAdd("FIND__", "find__");
+            correctionAdd("csend__", "send__");
+            correctionAdd("sand__", "send__");
 
             // A text editor
             correctionAdd("Sublime text__", "Sublime Text__");
@@ -173101,6 +173130,10 @@ namespace OverflowHelper.core
             // The disk partitioning thing. Linux. Windows.
             correctionAdd("GUID Partition Table__", "GPT__");
             correctionAdd("gpt__", "GPT__");
+
+            // The Unix/Linux command
+            correctionAdd("man find__", "find__");
+            correctionAdd("FIND__", "find__");
 
             // Bash (on the command line). Linux
             //
@@ -174259,6 +174292,7 @@ namespace OverflowHelper.core
             correctionAdd("USB type-C plug receiver__", "2.4&nbsp;GHz__");
             correctionAdd("usb type-c plug receiver__", "2.4&nbsp;GHz__");
             correctionAdd("usb A receiver dongle__", "2.4&nbsp;GHz__");
+            correctionAdd("radio interference__", "2.4&nbsp;GHz__"); // For the cross-reference
             correctionAdd("Wireless Adapter__", "2.4&nbsp;GHz__");
             correctionAdd("wireless adapter__", "2.4&nbsp;GHz__");
             correctionAdd("2.4 GHz Receiver__", "2.4&nbsp;GHz__");
@@ -178066,8 +178100,6 @@ namespace OverflowHelper.core
 
             URL_Add("cluster__", "https://en.wiktionary.org/wiki/cluster#Noun");
 
-            URL_Add("notify-send__", "https://tldr.inbrowser.app/pages/linux/notify-send");
-
             URL_Add("second__", "https://en.wiktionary.org/wiki/second#Adjective");
 
             URL_Add("&nbsp;seconds__", "https://en.wiktionary.org/wiki/second#Noun_2");
@@ -178873,6 +178905,10 @@ namespace OverflowHelper.core
             URL_Add("USB&nbsp;2.0__", "https://en.wikipedia.org/wiki/USB#USB_2.0");
 
             URL_Add("2.4&nbsp;GHz__", "https://en.wikipedia.org/wiki/Wi-Fi#History");
+
+            URL_Add("send__", "https://en.wiktionary.org/wiki/send#Verb");
+
+            URL_Add("notify-send__", "https://tldr.inbrowser.app/pages/linux/notify-send");
 
         } //addLookupData_alternativeWordSet2()
 
