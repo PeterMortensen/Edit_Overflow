@@ -31615,9 +31615,6 @@ namespace OverflowHelper.core
             correctionAdd("multi-player", "multiplayer");
             correctionAdd("multiplaer", "multiplayer");
 
-            correctionAdd("videogame", "video game");
-            correctionAdd("Videogame", "video game");
-
             correctionAdd("game play", "gameplay");
             correctionAdd("game-play", "gameplay");
 
@@ -66987,6 +66984,9 @@ namespace OverflowHelper.core
             //
             // Alternative URLs:
             //
+            //   <https://www.reddit.com/r/Keychron/comments/12f3gat/comment/m86kinu/>
+            //     Insisting on adding (unsafe) udev rules
+            //
             //   <https://www.reddit.com/r/olkb/comments/1p75lee/comment/nr6hilt/>
             //     Vitaly: Command line Via/Vial protocol tool
             //             for keyboard configuration
@@ -83747,6 +83747,7 @@ namespace OverflowHelper.core
             correctionAdd("firmeware", "firmware");
             correctionAdd("firmweare", "firmware");
             correctionAdd("Firmwares", "firmware");
+            correctionAdd("firmwware", "firmware");
             correctionAdd("Firmware", "firmware");
             correctionAdd("fIrmware", "firmware");
             correctionAdd("firmwarw", "firmware");
@@ -87476,9 +87477,13 @@ namespace OverflowHelper.core
             //     But irritating background music (way too loud)
             //     and over-the-top jump cutting
             //
+            correctionAdd("aula f75 he", "Aula F75"); // Not 100% correct
+            correctionAdd("Aula F75 HE", "Aula F75"); // Not 100% correct
             correctionAdd("AULA F75", "Aula F75");
             correctionAdd("Aula f75", "Aula F75");
             correctionAdd("aula f75", "Aula F75");
+            correctionAdd("F75", "Aula F75");
+            correctionAdd("f75", "Aula F75");
 
             // A 78-key (75%. Not true TKL) crippled ergonomic
             // mechanical keyboard.
@@ -91170,6 +91175,8 @@ namespace OverflowHelper.core
             // At least the V3 Pro TKL.
             //
             correctionAdd("razer Huntsman", "Razer Huntsman");
+            correctionAdd("Huntsman Razer", "Razer Huntsman");
+            correctionAdd("huntsman razer", "Razer Huntsman");
 
             // A 88-key (85%. True TKL) crippled wired-only
             // mechanical keyboard from Norbauer without a knob.
@@ -102736,6 +102743,7 @@ namespace OverflowHelper.core
             correctionAdd("redoculous", "ridiculous");
             correctionAdd("redicolous", "ridiculous");
             correctionAdd("redicuolus", "ridiculous");
+            correctionAdd("Ridiculous", "ridiculous");
             correctionAdd("redicuous", "ridiculous");
             correctionAdd("redicolus", "ridiculous");
             correctionAdd("ridicous", "ridiculous");
@@ -143975,8 +143983,6 @@ namespace OverflowHelper.core
 
             URL_Add("GameStop", "https://en.wikipedia.org/wiki/GameStop_short_squeeze");
 
-            URL_Add("video game", "https://en.wikipedia.org/wiki/Video_game");
-
             URL_Add("platform game", "https://en.wikipedia.org/wiki/Platform_game");
 
             URL_Add("match-three game", "https://en.wikipedia.org/wiki/Tile-matching_video_game");
@@ -158738,6 +158744,7 @@ namespace OverflowHelper.core
             correctionAdd("K 7 Pro_", "Keychron&nbsp;K7&nbsp;Pro_");
             correctionAdd("K7-Pro_", "Keychron&nbsp;K7&nbsp;Pro_");
             correctionAdd("K7 Pro_", "Keychron&nbsp;K7&nbsp;Pro_");
+            correctionAdd("k7 pro_", "Keychron&nbsp;K7&nbsp;Pro_");
 
             // A 70-key (65%. Not true TKL) crippled split ergonomic
             // mechanical keyboard from Dygma.
@@ -177498,6 +177505,12 @@ namespace OverflowHelper.core
             correctionAdd("system administrator__", "administrator__"); // For the cross-reference
             correctionAdd("adminstator__", "administrator__");
 
+            correctionAdd("computer game__", "video game__");
+            correctionAdd("videogame__", "video game__");
+            correctionAdd("Videogame__", "video game__");
+            correctionAdd("comp game__", "video game__");
+            correctionAdd("comp__", "video game__");
+
             // A book. For the reverse
             //
             // We need a better reference...
@@ -178797,6 +178810,8 @@ namespace OverflowHelper.core
             URL_Add("Web development tools__", "https://en.wikipedia.org/wiki/Web_development_tools");
 
             URL_Add("administrator__", "https://en.wiktionary.org/wiki/administrator#Noun");
+
+            URL_Add("video game__", "https://en.wikipedia.org/wiki/Video_game");
 
         } //addLookupData_alternativeWordSet2()
 
