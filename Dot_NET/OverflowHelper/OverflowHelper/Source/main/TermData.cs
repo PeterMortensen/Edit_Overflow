@@ -72163,6 +72163,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("james donkey", "JamesDonkey");
             correctionAdd("James donkey", "JamesDonkey");
+            correctionAdd("james-donkey", "JamesDonkey");
             correctionAdd("Jamesdonkey", "JamesDonkey");
             correctionAdd("jamesdonkey", "JamesDonkey");
 
@@ -85737,6 +85738,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("keychron v4", "Keychron V4 ISO");
             correctionAdd("Keychron V4", "Keychron V4 ISO");
+            correctionAdd("V4 ISO", "Keychron V4 ISO");
             correctionAdd("V4", "Keychron V4 ISO");
 
             // A 62-key (60%. Not true TKL) severely crippled
@@ -86470,6 +86472,7 @@ namespace OverflowHelper.core
             correctionAdd("Keychron V2", "Keychron V2 ISO");
             correctionAdd("Keychron v2", "Keychron V2 ISO");
             correctionAdd("Keytron V2", "Keychron V2 ISO");
+            correctionAdd("V2 ISO", "Keychron V2 ISO");
             correctionAdd("V2", "Keychron V2 ISO");
 
             // A 67-key (65%. Not true TKL) severely crippled wired
@@ -88118,6 +88121,7 @@ namespace OverflowHelper.core
             correctionAdd("Keychron v1", "Keychron V1 ISO");
             correctionAdd("keychron v1", "Keychron V1 ISO");
             correctionAdd("Keychron V1", "Keychron V1 ISO");
+            correctionAdd("V1 ISO", "Keychron V1 ISO");
             correctionAdd("V1", "Keychron V1 ISO");
             correctionAdd("v1", "Keychron V1 ISO");
 
@@ -88788,13 +88792,10 @@ namespace OverflowHelper.core
             correctionAdd("Keychron J2 HE 8K (80%) (proprietary keyboard firmware, not open source)", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
             correctionAdd("Keychron&nbsp;J2&nbsp;HE&nbsp;8K", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
             correctionAdd("Keychron&nbsp;J2&nbsp;HE", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("keychron j5 he ultra 8k", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("keychron j5 he ultra", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
             correctionAdd("Keychron J2 HE 8K", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
             correctionAdd("Keychron J2 HE", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
-            correctionAdd("j5 he ultra 8k", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("j5 he ultra", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
             correctionAdd("J2&nbsp;HE", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("J2 HE 8K", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
             correctionAdd("J2 HE", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
 
             // A 84-key (80%. True TKL) crippled wired-only
@@ -88932,6 +88933,7 @@ namespace OverflowHelper.core
             correctionAdd("Keychron K3 Pro", "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)");
             correctionAdd("Keychron K3", "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)"); // Though there is a distict K3, different from K3 Pro (is in the other word set)
             correctionAdd("K3&nbsp;Pro", "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)");
+            correctionAdd("K3 Pro ISO", "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)");
             correctionAdd("K3 Pro", "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)");
             correctionAdd("k3 pro", "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)");
             correctionAdd("K3 PRO", "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)");
@@ -89312,6 +89314,7 @@ namespace OverflowHelper.core
             // from Keychron without a knob.
             //
             correctionAdd("Keychron K2 Ultra 8K (80%)", "Keychron&nbsp;K2&nbsp;Ultra&nbsp;8K (80%)"); // Sort of identity mapping
+            correctionAdd("K2 Ultra 8K", "Keychron&nbsp;K2&nbsp;Ultra&nbsp;8K (80%)");
             correctionAdd("K2 Ultra", "Keychron&nbsp;K2&nbsp;Ultra&nbsp;8K (80%)");
 
             // A 85-key (80%. Not true TKL) crippled low-profile wired-only
@@ -90580,6 +90583,7 @@ namespace OverflowHelper.core
             //     How to disassemble a Keychron V series keyboard
             //
             correctionAdd("Keychron V3", "Keychron V3 ISO");
+            correctionAdd("V3 ISO", "Keychron V3 ISO");
             correctionAdd("v3qmk", "Keychron V3 ISO");
             correctionAdd("v3", "Keychron V3 ISO");
             correctionAdd("V3", "Keychron V3 ISO");
@@ -90813,6 +90817,7 @@ namespace OverflowHelper.core
             correctionAdd("keychron K8 pro", "Keychron&nbsp;K8&nbsp;Pro&nbsp;ISO");
             correctionAdd("Keychron K8", "Keychron&nbsp;K8&nbsp;Pro&nbsp;ISO");
             correctionAdd("K8&nbsp;Pro", "Keychron&nbsp;K8&nbsp;Pro&nbsp;ISO");
+            correctionAdd("K8 Pro ISO", "Keychron&nbsp;K8&nbsp;Pro&nbsp;ISO");
             correctionAdd("K8 Pro", "Keychron&nbsp;K8&nbsp;Pro&nbsp;ISO");
             correctionAdd("K8 pro", "Keychron&nbsp;K8&nbsp;Pro&nbsp;ISO");
             correctionAdd("k8 pro", "Keychron&nbsp;K8&nbsp;Pro&nbsp;ISO");
@@ -91277,6 +91282,7 @@ namespace OverflowHelper.core
             correctionAdd("keychron v10", "Keychron V10 ISO");
             correctionAdd("Keychron v10", "Keychron V10 ISO");
             correctionAdd("Keychron V10", "Keychron V10 ISO");
+            correctionAdd("V10 ISO", "Keychron V10 ISO");
             correctionAdd("V 10", "Keychron V10 ISO");
             correctionAdd("v10", "Keychron V10 ISO");
             correctionAdd("V10", "Keychron V10 ISO");
@@ -92219,6 +92225,7 @@ namespace OverflowHelper.core
             correctionAdd("Keychron&nbsp;C100", "Keychron&nbsp;C100&nbsp;8K (95%)");
             correctionAdd("Keychron C100 8K", "Keychron&nbsp;C100&nbsp;8K (95%)");
             correctionAdd("Keychron C100", "Keychron&nbsp;C100&nbsp;8K (95%)");
+            correctionAdd("C100 8K", "Keychron&nbsp;C100&nbsp;8K (95%)");
             correctionAdd("C100", "Keychron&nbsp;C100&nbsp;8K (95%)");
             correctionAdd("c100", "Keychron&nbsp;C100&nbsp;8K (95%)");
 
@@ -95205,6 +95212,7 @@ namespace OverflowHelper.core
             correctionAdd("Keychron K5 Pro ISO", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)"); // Sort of identity mapping
             correctionAdd("Keychron K5 Pro", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)");
             correctionAdd("K5&nbsp;Pro", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)");
+            correctionAdd("K5 Pro ISO", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)");
             correctionAdd("K5 Pro", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)");
             correctionAdd("k5 pro", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)");
             correctionAdd("K5 pro", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)");
@@ -95640,6 +95648,20 @@ namespace OverflowHelper.core
             // J5 source code:
             //
             //   <https://github.com/james-donkey/qmk_firmware/tree/wireless_playground/keyboards/jamesdonkey/j5>
+            //
+            //   On 2026-10-23, it was released in "2025q3" in Keychron's fork:
+            //
+            //     <https://github.com/Keychron/qmk_firmware/tree/2025q3/keyboards/keychron/j5>
+            //
+            //       The USB identity is:
+            //
+            //         J5 knob:    0x3434/0x0453
+            //
+            //         J5 no knob: 0x3434/0x0409
+            //
+            //       This is different from the JamesDonkey one...:
+            //
+            //         0x362D/0x1506
             //
             correctionAdd("Keychron J5 (105%)", "Keychron&nbsp;J5 (105%)"); // Sort of identity mapping
             correctionAdd("Keychron&nbsp;J5", "Keychron&nbsp;J5 (105%)");
@@ -160270,15 +160292,6 @@ namespace OverflowHelper.core
             correctionAdd("k10_", "Keychron&nbsp;K10 (100%)_");
             correctionAdd("K10_", "Keychron&nbsp;K10 (100%)_");
 
-            // A 109-key (105%. Not true TKL) full-size wired-only
-            // QMK/Via-capable mechanical keyboard from Keychron
-            // with a knob.
-            //
-            // Mostly for the source code link. Though we
-            // now have entry "Keychron V6 source code". Delete?
-            //
-            correctionAdd("V6_", "Keychron V6 ISO_");
-
             // A 109-key (105%. Not true TKL) full-size wired
             // and wireless (both Bluetooth and '2.4 GHz')
             // ZMK/Via-capable mechanical keyboard
@@ -171946,8 +171959,6 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron V5 ISO_", "https://www.keychron.com/products/keychron-v5-qmk-custom-mechanical-keyboard-iso-layout-collection");
 
-            URL_Add("Keychron V6 ISO_", "https://github.com/qmk/qmk_firmware/blob/master/keyboards/keychron/v6/iso_encoder/keymaps/default/keymap.c");
-
             URL_Add("Keychron&nbsp;P6&nbsp;Ultra&nbsp;8K_", "https://www.keychron.com/products/keychron-p6-ultra-8k-wireless-custom-mechanical-keyboard");
 
             URL_Add("LoRA_", "https://huggingface.co/docs/diffusers/main/en/training/lora");
@@ -173965,6 +173976,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("Keychron&nbsp;Q1&nbsp;HE__", "Keychron Q1 HE__");
             correctionAdd("HE Q1__", "Keychron Q1 HE__");
+            correctionAdd("Q1 HE__", "Keychron Q1 HE__");
 
             // For the Reddit comment reference
             correctionAdd("Keychron's Via clone__", "Keychron Launcher__");
