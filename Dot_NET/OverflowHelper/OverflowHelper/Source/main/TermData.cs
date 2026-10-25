@@ -1171,6 +1171,354 @@ namespace OverflowHelper.core
             correctionAdd("Windows Nano server", "Microsoft Nano Server");
             correctionAdd("Windows Nano", "Microsoft Nano Server");
 
+            // Note: "USB" is in an alternative word set
+            correctionAdd("USB-Cable", "USB cable");
+            correctionAdd("usb cavle", "USB cable");
+
+            correctionAdd("usb hub", "USB hub");
+            correctionAdd("USB Hub", "USB hub");
+            correctionAdd("USB-hub", "USB hub");
+            correctionAdd("usb-hub", "USB hub");
+            correctionAdd("hub", "USB hub");
+
+            // Finding the USB identity, USB vendor ID and USB product ID
+            correctionAdd("somewhere in the operating system", "can be found somewhere in the operating system");
+            correctionAdd("USB identity", "can be found somewhere in the operating system"); // For the cross reference
+            correctionAdd("USB", "can be found somewhere in the operating system"); // For the cross reference
+
+            // The link is broken now... (404)
+            //
+            // Alternatives:
+            //
+            //   <https://www.usb.org/developers>
+            //     USB vendor ID only
+            //
+            //   <https://en.wikipedia.org/wiki/USB_Implementers_Forum#Vendor_ID_issuance>
+            //     USB vendor ID only
+            //
+            //   <https://learn.microsoft.com/en-us/windows-hardware/drivers/install/standard-usb-identifiers>
+            //     But it uses "vendor code" and "product code".
+            //
+            //     But it does cover the version (as "revision code").
+            //
+            // Related:
+            //
+            //   hw-probe and <https://linux-hardware.org/>. E.g.,
+            //
+            //     Search by USB vendor ID and USB product ID:
+            //
+            //       <https://linux-hardware.org/?view=search>
+            //
+            correctionAdd("USB vendor code", "USB vendor ID");
+            correctionAdd("USB Vendor ID", "USB vendor ID");
+            correctionAdd("vendor code", "USB vendor ID");
+            correctionAdd("USB Vendor", "USB vendor ID");
+            correctionAdd("USB vendor", "USB vendor ID");
+            correctionAdd("usb vendor", "USB vendor ID");
+            correctionAdd("Vendor ID", "USB vendor ID");
+            correctionAdd("vendor ID", "USB vendor ID");
+            correctionAdd("vendor id", "USB vendor ID");
+            correctionAdd("vendorID", "USB vendor ID");
+            correctionAdd("idVendor", "USB vendor ID");
+            correctionAdd("vendorid", "USB vendor ID");
+            correctionAdd("vendorId", "USB vendor ID");
+            correctionAdd("VendorID", "USB vendor ID");
+            correctionAdd("USB VID", "USB vendor ID");
+            correctionAdd("vid", "USB vendor ID");
+            correctionAdd("Vid", "USB vendor ID");
+            correctionAdd("VID", "USB vendor ID");
+
+            // The link is broken now... (404)
+            //
+            // Alternatives:
+            //
+            //   <https://learn.microsoft.com/en-us/windows-hardware/drivers/install/standard-usb-identifiers>
+            //     But it uses "vendor code" and "product code".
+            //
+            correctionAdd("USB product code", "USB product ID");
+            correctionAdd("USB Product ID", "USB product ID");
+            correctionAdd("product code", "USB product ID");
+            correctionAdd("product ID", "USB product ID");
+            correctionAdd("Product ID", "USB product ID");
+            correctionAdd("product id", "USB product ID");
+            correctionAdd("Device ID", "USB product ID");
+            correctionAdd("device ID", "USB product ID");
+            correctionAdd("productID", "USB product ID");
+            correctionAdd("idProduct", "USB product ID");
+            correctionAdd("productId", "USB product ID");
+            correctionAdd("ProductID", "USB product ID");
+            correctionAdd("USB PID", "USB product ID");
+            correctionAdd("pid", "USB product ID");
+            correctionAdd("Pid", "USB product ID");
+            correctionAdd("PID", "USB product ID");
+
+            // Note: "USB 2.0" is in an alternative word set
+            correctionAdd("usb 3.0", "USB&nbsp;3.0");
+            correctionAdd("USB 3.0", "USB&nbsp;3.0");
+            correctionAdd("usb 3", "USB&nbsp;3.0");
+            correctionAdd("USB 3", "USB&nbsp;3.0");
+            correctionAdd("USB-3", "USB&nbsp;3.0");
+            correctionAdd("USB3", "USB&nbsp;3.0");
+            correctionAdd("usb3", "USB&nbsp;3.0");
+
+            correctionAdd("SuperSpeed", "SuperSpeed USB");
+            correctionAdd("USB SS", "SuperSpeed USB");
+
+            correctionAdd("Standard‑A", "USB type-A plug"); // Note: The dash is not normal. It is U+2011 (NON-BREAKING HYPHEN) (UTF-8 sequence: 342 200 221 (octal). 0xE2 0x80 0x91 (hexadecimal)). <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=8205&number=128>. It can be searched for using the regular expression \x{2011} ("\u2011" in Visual Studio Code and some others).
+            correctionAdd("USB Type-A", "USB type-A plug");
+            correctionAdd("Standard A", "USB type-A plug");
+            correctionAdd("Type A", "USB type-A plug");
+            correctionAdd("Type-A", "USB type-A plug");
+            correctionAdd("type a", "USB type-A plug");
+            correctionAdd("type-A", "USB type-A plug");
+            correctionAdd("usb-a", "USB type-A plug");
+            correctionAdd("USB-A", "USB type-A plug");
+            correctionAdd("usb a", "USB type-A plug");
+            correctionAdd("usb A", "USB type-A plug");
+            correctionAdd("USB A", "USB type-A plug");
+            correctionAdd("Usb-A", "USB type-A plug");
+            correctionAdd("usba", "USB type-A plug");
+
+            correctionAdd("USB b", "USB type-B plug");
+
+            // Alternative URLs:
+            //
+            //   <https://www.usb.org/sites/default/files/USB%20Type-C%20Spec%20R2.0%20-%20August%202019.pdf#page=78>
+            //     Includes a requirement for a 56 kohm
+            //     pull-up resistor on the "CC" line
+            //
+            correctionAdd("Standard‑C", "USB type-C plug"); // Note: The dash is not normal. It is U+2011 (NON-BREAKING HYPHEN) (UTF-8 sequence: 342 200 221 (octal). 0xE2 0x80 0x91 (hexadecimal)). <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=8205&number=128>. It can be searched for using the regular expression \x{2011} ("\u2011" in Visual Studio Code and some others).
+            correctionAdd("Standard C", "USB type-C plug");
+            correctionAdd("USB - C", "USB type-C plug");
+            correctionAdd("type c", "USB type-C plug");
+            correctionAdd("type C", "USB type-C plug");
+            correctionAdd("Type C", "USB type-C plug");
+            correctionAdd("Type c", "USB type-C plug");
+            correctionAdd("Type-C", "USB type-C plug");
+            correctionAdd("type-c", "USB type-C plug");
+            correctionAdd("type-C", "USB type-C plug");
+            correctionAdd("Type-c", "USB type-C plug");
+            correctionAdd("usb-c", "USB type-C plug");
+            correctionAdd("USB C", "USB type-C plug");
+            correctionAdd("USB c", "USB type-C plug");
+            correctionAdd("usb c", "USB type-C plug");
+            correctionAdd("Usb C", "USB type-C plug");
+            correctionAdd("Usb-C", "USB type-C plug");
+            correctionAdd("usb C", "USB type-C plug");
+            correctionAdd("Usb c", "USB type-C plug");
+            correctionAdd("USB-c", "USB type-C plug");
+            correctionAdd("TYPEC", "USB type-C plug");
+            correctionAdd("typec", "USB type-C plug");
+            correctionAdd("UBS C", "USB type-C plug");
+            correctionAdd("ubs C", "USB type-C plug");
+            correctionAdd("usb-C", "USB type-C plug");
+            correctionAdd("UBS-C", "USB type-C plug");
+            correctionAdd("ubs-C", "USB type-C plug");
+            correctionAdd("USB-C", "USB type-C plug"); // A valid shorthand
+            correctionAdd("usbc", "USB type-C plug");
+            correctionAdd("USBC", "USB type-C plug");
+            correctionAdd("usbC", "USB type-C plug");
+            correctionAdd("USBc", "USB type-C plug");
+            correctionAdd("C-C", "USB type-C plug");
+
+            correctionAdd("mini usb", "Mini-USB");
+            correctionAdd("usb mini", "Mini-USB");
+
+            correctionAdd("MicroB USB", "Micro-USB");
+            correctionAdd("micro-USB", "Micro-USB");
+            correctionAdd("micro USB", "Micro-USB");
+            correctionAdd("micro-usb", "Micro-USB");
+            correctionAdd("mirco-USB", "Micro-USB");
+            correctionAdd("microusb", "Micro-USB");
+
+            // USB. For example, related to QMK: Bidirectional
+            //      communication between QMK and the computer.
+            //
+            // Alternative URLs:
+            //
+            //    <https://docs.qmk.fm/features/rawhid#raw-hid>
+            //
+            //    <https://github.com/TeensyUser/doc/wiki/Raw-HID>
+            //
+            //    <https://blog.davidzech.com/building-my-ideal-mechanical-keyboard-2efe58582bbb>
+            //      Building my ideal mechanical keyboard with QMK
+            //
+            //      "...raw HID support ... With just a few changes to QMK
+            //       firmware, we can easily send and receive small
+            //       packets of data to and from the host ...
+            //       configuration of RGB lighting from
+            //       software on the host"
+            //
+            //    <https://www.reddit.com/r/olkb/comments/y0dy3m/comment/irs6mp2/>
+            //
+            correctionAdd("raw hid", "raw HID");
+            correctionAdd("RAW HID", "raw HID");
+            correctionAdd("Raw HID", "raw HID");
+            correctionAdd("Raw hid", "raw HID");
+            correctionAdd("HID raw", "raw HID");
+            correctionAdd("hid raw", "raw HID");
+            correctionAdd("rawhid", "raw HID");
+            correctionAdd("hidraw", "raw HID");
+
+            correctionAdd("USB-to-go", "USB On-The-Go");
+            correctionAdd("USB OTG", "USB On-The-Go");
+            correctionAdd("OTG", "USB On-The-Go");
+            correctionAdd("otg", "USB On-The-Go");
+
+            // Related to FTDI
+            //
+            // Alternative URLs:
+            //
+            //   <https://ftdichip.com/software-examples/mpsse-projects/>
+            //
+            //   <https://www.ftdichip.com/Documents/AppNotes/AN_135_MPSSE_Basics.pdf>
+            //     Application Note AN 135: FTDI MPSSE Basics
+            //
+            //   <https://metacpan.org/pod/Device::FTDI::MPSSE>
+            //     Misspelt: "an FDTI chip"
+            //
+            //   <https://digilent.com/blog/bridging-a-usb-to-a-microcontroller-as-shown-by-the-analog-discovery-2/>
+            //
+            correctionAdd("FTDI multi-protocol synchronous serial engine", "MPSSE");
+            correctionAdd("Multi-Protocol Synchronous Serial Engine", "MPSSE");
+            correctionAdd("multi-protocol synchronous serial engine", "MPSSE");
+            correctionAdd("mpsse", "MPSSE");
+
+            // USB
+            correctionAdd("eXtensible Host Controller Interface", "xHCI");
+            correctionAdd("Extensible Host Controller Interface", "xHCI");
+            correctionAdd("extensible host controller", "xHCI");
+            correctionAdd("XHCI", "xHCI");
+            correctionAdd("xhci", "xHCI");
+
+            // USB
+            correctionAdd("ehci", "EHCI");
+
+            // USB
+            correctionAdd("ohci", "OHCI");
+
+            // USB
+            correctionAdd("uhci", "UHCI");
+
+            correctionAdd("USB 2.0 Low-Pin Interface", "ULPI");
+            correctionAdd("UTMI+ Low Pin Interface", "ULPI");
+            correctionAdd("UTMI+ Low-Pin Interface", "ULPI");
+            correctionAdd("UTMI+ low pin interface", "ULPI");
+            correctionAdd("UTMI+ low-pin interface", "ULPI");
+
+            correctionAdd("usb cdc", "USB communications device class");
+            correctionAdd("USB CDC", "USB communications device class");
+            correctionAdd("CDC", "USB communications device class");
+
+            correctionAdd("URB", "USB Request Block");
+
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/USB_human_interface_device_class>
+            //
+            correctionAdd("USB human interface device class", "USB HID");
+            correctionAdd("human interface device class", "USB HID");
+            correctionAdd("human interface device", "USB HID");
+            correctionAdd("hid", "USB HID");
+            correctionAdd("HDI", "USB HID");
+            correctionAdd("HId", "USB HID");
+            correctionAdd("Hid", "USB HID");
+            correctionAdd("HID", "USB HID");
+
+            // To capture debug output from, for example, QMK keyboards
+            //
+            // Executable: 'hid_listen'
+            //
+            // Source code:
+            //
+            //   <https://www.pjrc.com/teensy/hid_listen_1.01.zip>
+            //     MD5 hash value as of 2023-09-07: FCC94F8248F5642F1FC9747E0F280569
+            //
+            // Alternative URLs:
+            //
+            //   <https://github.com/qmk/qmk_firmware/blob/master/docs/faq_debug.md#debugging-with-hid_listen>
+            //
+            //   <https://pmortensen.eu/world2/2023/09/11/qmk-debugging-blues-on-ubuntu/>
+            //
+            correctionAdd("hid_listen", "HID Listen");
+            correctionAdd("hidlisten", "HID Listen");
+            correctionAdd("hidListen", "HID Listen");
+            correctionAdd("hdlisten", "HID Listen");
+
+            // A Node.js module for USB HID
+            correctionAdd("nodehid", "node-hid");
+
+            correctionAdd("webhid", "WebHID");
+
+            correctionAdd("webusb", "WebUSB");
+
+            correctionAdd("USB TMC", "USBTMC");
+            correctionAdd("usbtmc", "USBTMC");
+
+            correctionAdd("USBASP", "USBasp");
+            correctionAdd("usbasp", "USBasp");
+
+            correctionAdd("LSUSB", "lsusb");
+            correctionAdd("lsub", "lsusb");
+
+            correctionAdd("WinUsb", "WinUSB");
+
+            // A software-only USB driver for Atmel's AVR microcontrollers
+            correctionAdd("v-usb", "V-USB");
+            correctionAdd("VUSB", "V-USB");
+            correctionAdd("vusb", "V-USB");
+
+            correctionAdd("USB 2.0 Transceiver Macrocell Interface", "UTMI");
+            correctionAdd("USB transceiver macrocell interface", "UTMI");
+            correctionAdd("USB Transceiver Macrocell Interface", "UTMI");
+
+            // But the link is broken... (domain expired and taken over)
+            correctionAdd("USBlyser", "USBlyzer");
+
+            correctionAdd("Libusb", "libusb");
+            correctionAdd("libUsb", "libusb");
+            correctionAdd("LibUsb", "libusb");
+            correctionAdd("LibUSB", "libusb");
+            correctionAdd("LIBUSB", "libusb");
+            correctionAdd("libsub", "libusb");
+
+            // Alternative URLs:
+            //
+            //   <https://github.com/hathach/tinyusb>
+            //   <https://github.com/hathach/tinyusb/blob/master/README.rst>
+            //   <https://docs.tinyusb.org/en/latest/>
+            //
+            correctionAdd("tinyUSB", "TinyUSB");
+            correctionAdd("TinyUsb", "TinyUSB");
+
+            correctionAdd("pyusb", "PyUSB");
+            correctionAdd("pyUSB", "PyUSB");
+
+            correctionAdd("MUTT", "Microsoft USB Test Tool");
+
+            // For USB-to-serial converters
+            correctionAdd("ftdi", "FTDI");
+            correctionAdd("FDTI", "FTDI");
+
+            // A manufacturer (or a brand name??). E.g., USB hubs
+            //
+            // Alternative URLs:
+            //
+            //   <http://www.logilink.com/index.htm>
+            //   <http://www.logilink.eu/content/support>
+            //   <https://logilink.com/>
+            //     All half-broken: No HTTPS version, etc.
+            //
+            //   <https://shop.logilink.com/>
+            //     Not half-broken...
+            //
+            // We need a better reference... For example, a review
+            // from a reputable palce
+            //
+            correctionAdd("Logilink", "LogiLink");
+
+            correctionAdd("UpnP", "UPnP");
+
             correctionAdd("probelem", "problem");
             correctionAdd("probolem", "problem");
             correctionAdd("probleam", "problem");
@@ -1802,6 +2150,7 @@ namespace OverflowHelper.core
 
             correctionAdd("second-to-last", "second to last");
 
+            // The adjective, but the adverb is the same
             correctionAdd("second-hand", "secondhand");
             correctionAdd("second hand", "secondhand");
             correctionAdd("Second hand", "secondhand");
@@ -19435,6 +19784,8 @@ namespace OverflowHelper.core
 
             // Idiomatic
             correctionAdd("All Hell Breaks Loose", "all hell breaks loose");
+            correctionAdd("ALL HELL BREAKS LOOSE", "all hell breaks loose");
+            correctionAdd("All HELL BREAKS LOOSE", "all hell breaks loose");
 
             // Idiomatic
             correctionAdd("all hell breaking lose", "all hell breaking loose");
@@ -28621,6 +28972,15 @@ namespace OverflowHelper.core
             correctionAdd("lemme", "let me");
 
             correctionAdd("letdown", "let-down");
+
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Mac_(computer)#1984%E2%80%931991:_Launch_and_early_success>
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1xezw7a/comment/19rmvvrjtek8w/>
+            //
+            correctionAdd("For the rest of us", "for the rest of us");
+            correctionAdd("the rest of us", "for the rest of us");
 
             correctionAdd("Services", "services");
 
@@ -39335,6 +39695,7 @@ namespace OverflowHelper.core
             correctionAdd("teething problems", "teething troubles");
 
             correctionAdd("isolating the problem", "isolate the problem");
+            correctionAdd("isolated the problem", "isolate the problem");
             correctionAdd("problem isolation", "isolate the problem");
             correctionAdd("isolate problem", "isolate the problem");
             correctionAdd("isolate", "isolate the problem");
@@ -43546,6 +43907,7 @@ namespace OverflowHelper.core
             correctionAdd("sycophantic", "ChatGPT");
             correctionAdd("linguistic", "ChatGPT");
             correctionAdd("ChatGPT 3", "ChatGPT");
+            correctionAdd("the genie", "ChatGPT");
             correctionAdd("GPT-Chat", "ChatGPT");
             correctionAdd("GPT Chat", "ChatGPT");
             correctionAdd("cChatGPT", "ChatGPT");
@@ -43593,6 +43955,7 @@ namespace OverflowHelper.core
             correctionAdd("clanker", "ChatGPT");
             correctionAdd("C-GPT", "ChatGPT");
             correctionAdd("puppy", "ChatGPT");
+            correctionAdd("genie", "ChatGPT");
             correctionAdd("CGPT", "ChatGPT");
             correctionAdd("cgpt", "ChatGPT");
             correctionAdd("cGPT", "ChatGPT");
@@ -58020,129 +58383,6 @@ namespace OverflowHelper.core
             correctionAdd("zwnj", "zero-width non-joiner");
             correctionAdd("ZWNJ", "zero-width non-joiner");
 
-            correctionAdd("USB-Cable", "USB cable");
-            correctionAdd("usb cavle", "USB cable");
-
-            correctionAdd("usb hub", "USB hub");
-            correctionAdd("USB Hub", "USB hub");
-            correctionAdd("USB-hub", "USB hub");
-            correctionAdd("usb-hub", "USB hub");
-            correctionAdd("hub", "USB hub");
-
-            // A manufacturer (or a brand name??). E.g., USB hubs
-            //
-            // Alternative URLs:
-            //
-            //   <http://www.logilink.com/index.htm>
-            //   <http://www.logilink.eu/content/support>
-            //   <https://logilink.com/>
-            //     All half-broken: No HTTPS version, etc.
-            //
-            //   <https://shop.logilink.com/>
-            //     Not half-broken...
-            //
-            // We need a better reference... For example, a review
-            // from a reputable palce
-            //
-            correctionAdd("Logilink", "LogiLink");
-
-            // USB
-            correctionAdd("eXtensible Host Controller Interface", "xHCI");
-            correctionAdd("Extensible Host Controller Interface", "xHCI");
-            correctionAdd("extensible host controller", "xHCI");
-            correctionAdd("XHCI", "xHCI");
-            correctionAdd("xhci", "xHCI");
-
-            // USB
-            correctionAdd("ehci", "EHCI");
-
-            // USB
-            correctionAdd("ohci", "OHCI");
-
-            // USB
-            correctionAdd("uhci", "UHCI");
-
-            correctionAdd("USB 2.0 Low-Pin Interface", "ULPI");
-            correctionAdd("UTMI+ Low Pin Interface", "ULPI");
-            correctionAdd("UTMI+ Low-Pin Interface", "ULPI");
-            correctionAdd("UTMI+ low pin interface", "ULPI");
-            correctionAdd("UTMI+ low-pin interface", "ULPI");
-
-            correctionAdd("usb cdc", "USB communications device class");
-            correctionAdd("USB CDC", "USB communications device class");
-            correctionAdd("CDC", "USB communications device class");
-
-            correctionAdd("URB", "USB Request Block");
-
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/USB_human_interface_device_class>
-            //
-            correctionAdd("USB human interface device class", "USB HID");
-            correctionAdd("human interface device class", "USB HID");
-            correctionAdd("human interface device", "USB HID");
-            correctionAdd("hid", "USB HID");
-            correctionAdd("HDI", "USB HID");
-            correctionAdd("HId", "USB HID");
-            correctionAdd("Hid", "USB HID");
-            correctionAdd("HID", "USB HID");
-
-            // A Node.js module for USB HID
-            correctionAdd("nodehid", "node-hid");
-
-            correctionAdd("webhid", "WebHID");
-
-            correctionAdd("webusb", "WebUSB");
-
-            correctionAdd("usbtmc", "USBTMC");
-            correctionAdd("USB TMC", "USBTMC");
-
-            correctionAdd("USBASP", "USBasp");
-            correctionAdd("usbasp", "USBasp");
-
-            correctionAdd("LSUSB", "lsusb");
-            correctionAdd("lsub", "lsusb");
-
-            correctionAdd("WinUsb", "WinUSB");
-
-            // A software-only USB driver for Atmel's AVR microcontrollers
-            correctionAdd("v-usb", "V-USB");
-            correctionAdd("VUSB", "V-USB");
-            correctionAdd("vusb", "V-USB");
-
-            correctionAdd("USB 2.0 Transceiver Macrocell Interface", "UTMI");
-            correctionAdd("USB transceiver macrocell interface", "UTMI");
-            correctionAdd("USB Transceiver Macrocell Interface", "UTMI");
-
-            // But the link is broken... (domain expired and taken over)
-            correctionAdd("USBlyser", "USBlyzer");
-
-            correctionAdd("Libusb", "libusb");
-            correctionAdd("libUsb", "libusb");
-            correctionAdd("LibUsb", "libusb");
-            correctionAdd("LibUSB", "libusb");
-            correctionAdd("LIBUSB", "libusb");
-            correctionAdd("libsub", "libusb");
-
-            // Alternative URLs:
-            //
-            //   <https://github.com/hathach/tinyusb>
-            //   <https://github.com/hathach/tinyusb/blob/master/README.rst>
-            //   <https://docs.tinyusb.org/en/latest/>
-            //
-            correctionAdd("tinyUSB", "TinyUSB");
-            correctionAdd("TinyUsb", "TinyUSB");
-
-            correctionAdd("pyusb", "PyUSB");
-            correctionAdd("pyUSB", "PyUSB");
-
-            correctionAdd("MUTT", "Microsoft USB Test Tool");
-
-            correctionAdd("USB-to-go", "USB On-The-Go");
-            correctionAdd("USB OTG", "USB On-The-Go");
-            correctionAdd("OTG", "USB On-The-Go");
-            correctionAdd("otg", "USB On-The-Go");
-
             correctionAdd("localy", "locally");
 
             correctionAdd("genereate", "generate");
@@ -63277,151 +63517,6 @@ namespace OverflowHelper.core
             correctionAdd("Vsto", "VSTO");
 
             correctionAdd("moster", "monster");
-
-            // The link is broken now... (404)
-            //
-            // Alternatives:
-            //
-            //   <https://www.usb.org/developers>
-            //     USB vendor ID only
-            //
-            //   <https://en.wikipedia.org/wiki/USB_Implementers_Forum#Vendor_ID_issuance>
-            //     USB vendor ID only
-            //
-            //   <https://learn.microsoft.com/en-us/windows-hardware/drivers/install/standard-usb-identifiers>
-            //     But it uses "vendor code" and "product code".
-            //
-            //     But it does cover the version (as "revision code").
-            //
-            // Related:
-            //
-            //   hw-probe and <https://linux-hardware.org/>. E.g.,
-            //
-            //     Search by USB vendor ID and USB product ID:
-            //
-            //       <https://linux-hardware.org/?view=search>
-            //
-            correctionAdd("USB vendor code", "USB vendor ID");
-            correctionAdd("USB Vendor ID", "USB vendor ID");
-            correctionAdd("vendor code", "USB vendor ID");
-            correctionAdd("USB Vendor", "USB vendor ID");
-            correctionAdd("USB vendor", "USB vendor ID");
-            correctionAdd("usb vendor", "USB vendor ID");
-            correctionAdd("Vendor ID", "USB vendor ID");
-            correctionAdd("vendor ID", "USB vendor ID");
-            correctionAdd("vendor id", "USB vendor ID");
-            correctionAdd("vendorID", "USB vendor ID");
-            correctionAdd("idVendor", "USB vendor ID");
-            correctionAdd("vendorid", "USB vendor ID");
-            correctionAdd("vendorId", "USB vendor ID");
-            correctionAdd("VendorID", "USB vendor ID");
-            correctionAdd("USB VID", "USB vendor ID");
-            correctionAdd("vid", "USB vendor ID");
-            correctionAdd("Vid", "USB vendor ID");
-            correctionAdd("VID", "USB vendor ID");
-
-            // The link is broken now... (404)
-            //
-            // Alternatives:
-            //
-            //   <https://learn.microsoft.com/en-us/windows-hardware/drivers/install/standard-usb-identifiers>
-            //     But it uses "vendor code" and "product code".
-            //
-            correctionAdd("USB product code", "USB product ID");
-            correctionAdd("USB Product ID", "USB product ID");
-            correctionAdd("product code", "USB product ID");
-            correctionAdd("product ID", "USB product ID");
-            correctionAdd("Product ID", "USB product ID");
-            correctionAdd("product id", "USB product ID");
-            correctionAdd("Device ID", "USB product ID");
-            correctionAdd("device ID", "USB product ID");
-            correctionAdd("productID", "USB product ID");
-            correctionAdd("idProduct", "USB product ID");
-            correctionAdd("productId", "USB product ID");
-            correctionAdd("ProductID", "USB product ID");
-            correctionAdd("USB PID", "USB product ID");
-            correctionAdd("pid", "USB product ID");
-            correctionAdd("Pid", "USB product ID");
-            correctionAdd("PID", "USB product ID");
-
-            // Note: "USB 2.0" is in an alternative word set
-            correctionAdd("usb 3.0", "USB&nbsp;3.0");
-            correctionAdd("USB 3.0", "USB&nbsp;3.0");
-            correctionAdd("usb 3", "USB&nbsp;3.0");
-            correctionAdd("USB 3", "USB&nbsp;3.0");
-            correctionAdd("USB-3", "USB&nbsp;3.0");
-            correctionAdd("USB3", "USB&nbsp;3.0");
-            correctionAdd("usb3", "USB&nbsp;3.0");
-
-            correctionAdd("SuperSpeed", "SuperSpeed USB");
-            correctionAdd("USB SS", "SuperSpeed USB");
-
-            correctionAdd("Standard‑A", "USB type-A plug"); // Note: The dash is not normal. It is U+2011 (NON-BREAKING HYPHEN) (UTF-8 sequence: 342 200 221 (octal). 0xE2 0x80 0x91 (hexadecimal)). <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=8205&number=128>. It can be searched for using the regular expression \x{2011} ("\u2011" in Visual Studio Code and some others).
-            correctionAdd("USB Type-A", "USB type-A plug");
-            correctionAdd("Standard A", "USB type-A plug");
-            correctionAdd("Type A", "USB type-A plug");
-            correctionAdd("Type-A", "USB type-A plug");
-            correctionAdd("type a", "USB type-A plug");
-            correctionAdd("type-A", "USB type-A plug");
-            correctionAdd("usb-a", "USB type-A plug");
-            correctionAdd("USB-A", "USB type-A plug");
-            correctionAdd("usb a", "USB type-A plug");
-            correctionAdd("usb A", "USB type-A plug");
-            correctionAdd("USB A", "USB type-A plug");
-            correctionAdd("Usb-A", "USB type-A plug");
-            correctionAdd("usba", "USB type-A plug");
-
-            correctionAdd("USB b", "USB type-B plug");
-
-            // Alternative URLs:
-            //
-            //   <https://www.usb.org/sites/default/files/USB%20Type-C%20Spec%20R2.0%20-%20August%202019.pdf#page=78>
-            //     Includes a requirement for a 56 kohm
-            //     pull-up resistor on the "CC" line
-            //
-            correctionAdd("Standard‑C", "USB type-C plug"); // Note: The dash is not normal. It is U+2011 (NON-BREAKING HYPHEN) (UTF-8 sequence: 342 200 221 (octal). 0xE2 0x80 0x91 (hexadecimal)). <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=8205&number=128>. It can be searched for using the regular expression \x{2011} ("\u2011" in Visual Studio Code and some others).
-            correctionAdd("Standard C", "USB type-C plug");
-            correctionAdd("USB - C", "USB type-C plug");
-            correctionAdd("type c", "USB type-C plug");
-            correctionAdd("type C", "USB type-C plug");
-            correctionAdd("Type C", "USB type-C plug");
-            correctionAdd("Type c", "USB type-C plug");
-            correctionAdd("Type-C", "USB type-C plug");
-            correctionAdd("type-c", "USB type-C plug");
-            correctionAdd("type-C", "USB type-C plug");
-            correctionAdd("Type-c", "USB type-C plug");
-            correctionAdd("usb-c", "USB type-C plug");
-            correctionAdd("USB C", "USB type-C plug");
-            correctionAdd("USB c", "USB type-C plug");
-            correctionAdd("usb c", "USB type-C plug");
-            correctionAdd("Usb C", "USB type-C plug");
-            correctionAdd("Usb-C", "USB type-C plug");
-            correctionAdd("usb C", "USB type-C plug");
-            correctionAdd("Usb c", "USB type-C plug");
-            correctionAdd("USB-c", "USB type-C plug");
-            correctionAdd("TYPEC", "USB type-C plug");
-            correctionAdd("typec", "USB type-C plug");
-            correctionAdd("UBS C", "USB type-C plug");
-            correctionAdd("ubs C", "USB type-C plug");
-            correctionAdd("usb-C", "USB type-C plug");
-            correctionAdd("UBS-C", "USB type-C plug");
-            correctionAdd("ubs-C", "USB type-C plug");
-            correctionAdd("USB-C", "USB type-C plug"); // A valid shorthand
-            correctionAdd("usbc", "USB type-C plug");
-            correctionAdd("USBC", "USB type-C plug");
-            correctionAdd("usbC", "USB type-C plug");
-            correctionAdd("USBc", "USB type-C plug");
-            correctionAdd("C-C", "USB type-C plug");
-
-            correctionAdd("mini usb", "Mini-USB");
-            correctionAdd("usb mini", "Mini-USB");
-
-            correctionAdd("MicroB USB", "Micro-USB");
-            correctionAdd("micro-USB", "Micro-USB");
-            correctionAdd("micro USB", "Micro-USB");
-            correctionAdd("micro-usb", "Micro-USB");
-            correctionAdd("mirco-USB", "Micro-USB");
-            correctionAdd("microusb", "Micro-USB");
 
             // The noun
             correctionAdd("eate", "rate");
@@ -71286,55 +71381,6 @@ namespace OverflowHelper.core
             correctionAdd("space cadet", "space-cadet keyboard");
             correctionAdd("Space Cadet", "space-cadet keyboard");
             correctionAdd("Space cadet", "space-cadet keyboard");
-
-            // To capture debug output from, for example, QMK keyboards
-            //
-            // Executable: 'hid_listen'
-            //
-            // Source code:
-            //
-            //   <https://www.pjrc.com/teensy/hid_listen_1.01.zip>
-            //     MD5 hash value as of 2023-09-07: FCC94F8248F5642F1FC9747E0F280569
-            //
-            // Alternative URLs:
-            //
-            //   <https://github.com/qmk/qmk_firmware/blob/master/docs/faq_debug.md#debugging-with-hid_listen>
-            //
-            //   <https://pmortensen.eu/world2/2023/09/11/qmk-debugging-blues-on-ubuntu/>
-            //
-            correctionAdd("hid_listen", "HID Listen");
-            correctionAdd("hidlisten", "HID Listen");
-            correctionAdd("hidListen", "HID Listen");
-            correctionAdd("hdlisten", "HID Listen");
-
-            // USB. For example, related to QMK: Bidirectional
-            //      communication between QMK and the computer.
-            //
-            // Alternative URLs:
-            //
-            //    <https://docs.qmk.fm/features/rawhid#raw-hid>
-            //
-            //    <https://github.com/TeensyUser/doc/wiki/Raw-HID>
-            //
-            //    <https://blog.davidzech.com/building-my-ideal-mechanical-keyboard-2efe58582bbb>
-            //      Building my ideal mechanical keyboard with QMK
-            //
-            //      "...raw HID support ... With just a few changes to QMK
-            //       firmware, we can easily send and receive small
-            //       packets of data to and from the host ...
-            //       configuration of RGB lighting from
-            //       software on the host"
-            //
-            //    <https://www.reddit.com/r/olkb/comments/y0dy3m/comment/irs6mp2/>
-            //
-            correctionAdd("raw hid", "raw HID");
-            correctionAdd("RAW HID", "raw HID");
-            correctionAdd("Raw HID", "raw HID");
-            correctionAdd("Raw hid", "raw HID");
-            correctionAdd("HID raw", "raw HID");
-            correctionAdd("hid raw", "raw HID");
-            correctionAdd("rawhid", "raw HID");
-            correctionAdd("hidraw", "raw HID");
 
             // A manufacturer of ergonomic mechanical keyboards
             // Alternative URL:
@@ -89322,6 +89368,23 @@ namespace OverflowHelper.core
             correctionAdd("K2 Ultra 8K", "Keychron&nbsp;K2&nbsp;Ultra&nbsp;8K (80%)");
             correctionAdd("K2 Ultra", "Keychron&nbsp;K2&nbsp;Ultra&nbsp;8K (80%)");
 
+            // A 85-key (80%. Not true TKL) crippled wired and
+            // wireless (both Bluetooth and '2.4 GHz')
+            // QMK/Via-capable mechanical keyboard
+            // without a knob from Keychron.
+            //
+            // J9 user manual:
+            //
+            //   <https://www.keychron.com/pages/keychron-j9-user-manual>
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1xeumyj/j9_stopped_typing_miduse_wont_type_even_wired/>
+            //
+            correctionAdd("Keychron J9 (80%)", "Keychron&nbsp;J9 (80%)"); // Sort of identity mapping
+            correctionAdd("Keychron J9", "Keychron&nbsp;J9 (80%)");
+            correctionAdd("J9", "Keychron&nbsp;J9 (80%)");
+
             // A 85-key (80%. Not true TKL) crippled low-profile wired-only
             // QMK/Via-capable mechanical keyboard from
             // Keychron without a knob.
@@ -94604,11 +94667,12 @@ namespace OverflowHelper.core
             //
             // Notes:
             //
-            //   * A V6 V2 was released in 2026, based on a different
-            //     microcontroller,  (like the K QMK series)
+            //   * A V6 V2 or V6 version 2 was released in 2026,
+            //     based on a different microcontroller (like
+            //     the K QMK series):
             //
-            //     <https://www.reddit.com/r/Keychron/comments/1sxl3v0/comment/oiny32m/>
-            //       Bricked my V6...
+            //       <https://www.reddit.com/r/Keychron/comments/1sxl3v0/comment/oiny32m/>
+            //         Bricked my V6...
             //
             //   * A Brazilian variant was released in 2026 (or 2025?)
             //
@@ -95633,7 +95697,6 @@ namespace OverflowHelper.core
             //
             //   <https://www.keychron.com/pages/keychron-q1-max-user-manual>
             //
-            correctionAdd("K10 ultra", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
             correctionAdd("Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
             correctionAdd("Keychron K10 Ultra 8K (105%)", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)"); // Sort of identity mapping
             correctionAdd("Keychron K10 Ultra 8K (100%)", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
@@ -95641,6 +95704,7 @@ namespace OverflowHelper.core
             correctionAdd("keychron k10 ultra", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
             correctionAdd("K10 Ultra 8K", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
             correctionAdd("10k ultra 8k", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
+            correctionAdd("K10 ultra", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
             correctionAdd("K10 Ultra", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
             correctionAdd("k10 ultra", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
 
@@ -102227,31 +102291,6 @@ namespace OverflowHelper.core
             correctionAdd("labview", "LabVIEW");
             correctionAdd("labVIEW", "LabVIEW");
 
-            // For USB-to-serial converters
-            correctionAdd("ftdi", "FTDI");
-            correctionAdd("FDTI", "FTDI");
-
-            // Related to FTDI
-            //
-            // Alternative URLs:
-            //
-            //   <https://ftdichip.com/software-examples/mpsse-projects/>
-            //
-            //   <https://www.ftdichip.com/Documents/AppNotes/AN_135_MPSSE_Basics.pdf>
-            //     Application Note AN 135: FTDI MPSSE Basics
-            //
-            //   <https://metacpan.org/pod/Device::FTDI::MPSSE>
-            //     Misspelt: "an FDTI chip"
-            //
-            //   <https://digilent.com/blog/bridging-a-usb-to-a-microcontroller-as-shown-by-the-analog-discovery-2/>
-            //
-            correctionAdd("FTDI multi-protocol synchronous serial engine", "MPSSE");
-            correctionAdd("Multi-Protocol Synchronous Serial Engine", "MPSSE");
-            correctionAdd("multi-protocol synchronous serial engine", "MPSSE");
-            correctionAdd("mpsse", "MPSSE");
-
-            correctionAdd("UpnP", "UPnP");
-
             correctionAdd("Red Gate Software", "Redgate Software"); // The old name...
             correctionAdd("Red-gate", "Redgate Software");
             correctionAdd("Red Gate", "Redgate Software");
@@ -103736,7 +103775,11 @@ namespace OverflowHelper.core
             correctionAdd("rock", "rook");
 
             // Chess
-            correctionAdd("pwan", "pawn");
+            correctionAdd("minion", "pawn");
+            correctionAdd("pwan", "pawn"); // A true typo
+
+            // Chess
+            correctionAdd("minions", "pawns");
 
             // Chess
             correctionAdd("En passant", "en passant");
@@ -141895,6 +141938,8 @@ namespace OverflowHelper.core
 
             URL_Add("USB product ID", "https://learn.microsoft.com/en-us/windows-hardware/drivers/install/standard-usb-identifiers"); // Old: <https://www.oshwa.org/2013/11/19/new-faq-on-usb-vendor-id-and-product-id/>
 
+            URL_Add("can be found somewhere in the operating system", "https://www.reddit.com/r/Keychron/comments/1qsx84d/comment/o2zfi5z/");
+
             URL_Add("USB flash drive", "https://en.wikipedia.org/wiki/USB_flash_drive");
 
             URL_Add("USB On-The-Go", "https://en.wikipedia.org/wiki/USB_On-The-Go");
@@ -147929,6 +147974,8 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;J5 (105%)", "https://www.keychron.com/products/keychron-j5-qmk-wireless-mechanical-keyboard");
 
+            URL_Add("Keychron&nbsp;J9 (80%)", "https://www.keychron.id/products/keychron-j9-qmk-ultra-slim-wireless-custom-mechanical-keyboard");
+
             URL_Add("Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-j2-he-8k-magnetic-switch-keyboard");
 
             URL_Add("Keychron&nbsp;J8&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-j8-he-8k-magnetic-switch-keyboard");
@@ -151275,6 +151322,10 @@ namespace OverflowHelper.core
 
             URL_Add("gravity assist", "https://en.wikipedia.org/wiki/Gravity_assist");
 
+            URL_Add("for the rest of us", "https://www.youtube.com/watch?v=u8mBGpAOFNk&t=23s");
+
+            URL_Add("pawns", "https://en.wikipedia.org/wiki/Pawn_(chess)");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -151550,6 +151601,46 @@ namespace OverflowHelper.core
             // Electronics
             correctionAdd("dip_", "DIP_");
             correctionAdd("Dip_", "DIP_");
+
+            correctionAdd("usb_", "USB_");
+            correctionAdd("Usb_", "USB_");
+            correctionAdd("USN_", "USB_");
+            correctionAdd("UBS_", "USB_");
+            correctionAdd("ISB_", "USB_"); // A true typo
+            correctionAdd("SUB_", "USB_"); // A true typo
+            correctionAdd("sub_", "USB_"); // A true typo
+
+            // Mostly for the cross-reference
+            correctionAdd("USB-HID_", "USB HID_");
+            correctionAdd("HID_", "USB HID_");
+
+            // SC for 'storage class'?
+            correctionAdd("USB mass storage device class_", "USB MSC_");
+            correctionAdd("mass storage device class_", "USB MSC_");
+            correctionAdd("mass storaage device_", "USB MSC_");
+            correctionAdd("mass storage device_", "USB MSC_");
+            correctionAdd("USB Mass Storage_", "USB MSC_");
+            correctionAdd("USB mass storage_", "USB MSC_");
+            correctionAdd("USBMSC_", "USB MSC_"); // Note: USBMSD is something else (a library?)
+            correctionAdd("MSC_", "USB MSC_");
+            correctionAdd("MSD_", "USB MSC_");
+            correctionAdd("UMS_", "USB MSC_");
+
+            // USB
+            correctionAdd("Start of Frame_", "SOF_");
+            correctionAdd("Start-of-frame_", "SOF_");
+            correctionAdd("start of frame_", "SOF_");
+            correctionAdd("start-of-frame_", "SOF_");
+            correctionAdd("sof_", "SOF_");
+
+            correctionAdd("USB Power Delivery_", "USB power delivery_");
+            correctionAdd("Power Delivery_", "USB power delivery_");
+            correctionAdd("USB-PD_", "USB power delivery_");
+            correctionAdd("PD_", "USB power delivery_");
+
+            correctionAdd("revision code_", "USB side version_");
+            correctionAdd("bcdDevice_", "USB side version_");
+            correctionAdd("version_", "USB side version_");
 
             // Alternative URLs:
             //
@@ -157772,6 +157863,9 @@ namespace OverflowHelper.core
             correctionAdd("virualenv_", "virtual Python environment_");
             correctionAdd("venv_", "virtual Python environment_");
 
+            correctionAdd("virtual environments_", "virtual Python environments_");
+            correctionAdd("venvs_", "virtual Python environments_");
+
             // Alternative URLs:
             //
             //   <https://docs.python.org/3/py-modindex.html>
@@ -157878,6 +157972,29 @@ namespace OverflowHelper.core
 
             // Of Pandas (Python library)
             correctionAdd("Loc_", "loc_");
+
+            // The common noun (not the
+            // typo squatted Python library)...
+            //
+            correctionAdd("resquest_", "request_");
+            correctionAdd("reqeuest_", "request_");
+            correctionAdd("Request_", "request_");
+            correctionAdd("reguest_", "request_");
+            correctionAdd("requste_", "request_");
+            correctionAdd("rewuest_", "request_");
+            correctionAdd("rqeuest_", "request_");
+            correctionAdd("reuqest_", "request_"); // A true typo
+            correctionAdd("requst_", "request_");
+            correctionAdd("reqest_", "request_");
+            correctionAdd("reques_", "request_");
+            correctionAdd("Reqest_", "request_");
+            correctionAdd("requet_", "request_");
+            correctionAdd("req_", "request_");
+
+            // The noun
+            correctionAdd("requestes_", "requests_");
+            correctionAdd("re­quests_", "requests_"); // Note: It contains a hidden Unicode character (between "re" and "quests"). It is U+00AD (SOFT HYPHEN) (UTF-8 sequence: 302 255 (octal). 0xC2 0xAD (hexadecimal)). <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=170&number=128>. It can be searched for using the regular expression \x{AD} ("\uAD" in Visual Studio Code and some others).
+            correctionAdd("requsts_", "requests_");
 
             // Mostly for the cross-reference (for the correct term)
             //
@@ -160967,29 +161084,6 @@ namespace OverflowHelper.core
             correctionAdd("hight_", "high_");
             correctionAdd("hogh_", "high_");
 
-            // The common noun (not the
-            // typo squatted Python library)...
-            //
-            correctionAdd("resquest_", "request_");
-            correctionAdd("reqeuest_", "request_");
-            correctionAdd("Request_", "request_");
-            correctionAdd("reguest_", "request_");
-            correctionAdd("requste_", "request_");
-            correctionAdd("rewuest_", "request_");
-            correctionAdd("rqeuest_", "request_");
-            correctionAdd("reuqest_", "request_"); // A true typo
-            correctionAdd("requst_", "request_");
-            correctionAdd("reqest_", "request_");
-            correctionAdd("reques_", "request_");
-            correctionAdd("Reqest_", "request_");
-            correctionAdd("requet_", "request_");
-            correctionAdd("req_", "request_");
-
-            // The noun
-            correctionAdd("requestes_", "requests_");
-            correctionAdd("re­quests_", "requests_"); // Note: It contains a hidden Unicode character (between "re" and "quests"). It is U+00AD (SOFT HYPHEN) (UTF-8 sequence: 302 255 (octal). 0xC2 0xAD (hexadecimal)). <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=170&number=128>. It can be searched for using the regular expression \x{AD} ("\uAD" in Visual Studio Code and some others).
-            correctionAdd("requsts_", "requests_");
-
             correctionAdd("Howdy Hey_", "hi_");
             correctionAdd("Howdy_", "hi_");
             correctionAdd("howdy_", "hi_");
@@ -161016,46 +161110,6 @@ namespace OverflowHelper.core
             correctionAdd("hided_", "hid_");
 
             correctionAdd("hiden_", "hidden_");
-
-            correctionAdd("usb_", "USB_");
-            correctionAdd("Usb_", "USB_");
-            correctionAdd("USN_", "USB_");
-            correctionAdd("UBS_", "USB_");
-            correctionAdd("ISB_", "USB_"); // A true typo
-            correctionAdd("SUB_", "USB_"); // A true typo
-            correctionAdd("sub_", "USB_"); // A true typo
-
-            // Mostly for the cross-reference
-            correctionAdd("USB-HID_", "USB HID_");
-            correctionAdd("HID_", "USB HID_");
-
-            // SC for 'storage class'?
-            correctionAdd("USB mass storage device class_", "USB MSC_");
-            correctionAdd("mass storage device class_", "USB MSC_");
-            correctionAdd("mass storaage device_", "USB MSC_");
-            correctionAdd("mass storage device_", "USB MSC_");
-            correctionAdd("USB Mass Storage_", "USB MSC_");
-            correctionAdd("USB mass storage_", "USB MSC_");
-            correctionAdd("USBMSC_", "USB MSC_"); // Note: USBMSD is something else (a library?)
-            correctionAdd("MSC_", "USB MSC_");
-            correctionAdd("MSD_", "USB MSC_");
-            correctionAdd("UMS_", "USB MSC_");
-
-            // USB
-            correctionAdd("Start of Frame_", "SOF_");
-            correctionAdd("Start-of-frame_", "SOF_");
-            correctionAdd("start of frame_", "SOF_");
-            correctionAdd("start-of-frame_", "SOF_");
-            correctionAdd("sof_", "SOF_");
-
-            correctionAdd("USB Power Delivery_", "USB power delivery_");
-            correctionAdd("Power Delivery_", "USB power delivery_");
-            correctionAdd("USB-PD_", "USB power delivery_");
-            correctionAdd("PD_", "USB power delivery_");
-
-            correctionAdd("revision code_", "USB side version_");
-            correctionAdd("bcdDevice_", "USB side version_");
-            correctionAdd("version_", "USB side version_");
 
             correctionAdd("Checks_", "checks_");
 
@@ -165177,60 +165231,6 @@ namespace OverflowHelper.core
             correctionAdd("matplotlib_", "Matplotlib (tag wiki)_");
             correctionAdd("Matplotlib_", "Matplotlib (tag wiki)_");
 
-            correctionAdd("[tag:cpython]_", "CPython (tag wiki)_");
-            correctionAdd("tag:cpython_", "CPython (tag wiki)_");
-            correctionAdd("cpython_", "CPython (tag wiki)_");
-            correctionAdd("CPython_", "CPython (tag wiki)_");
-
-            correctionAdd("[tag:jython]_", "Jython (tag wiki)_");
-            correctionAdd("tag:jython_", "Jython (tag wiki)_");
-            correctionAdd("jython_", "Jython (tag wiki)_");
-            correctionAdd("Jython_", "Jython (tag wiki)_");
-
-            correctionAdd("[tag:python-2.x]_", "Python&nbsp;2.x (tag wiki)_");
-            correctionAdd("Python&nbsp;2.x_", "Python&nbsp;2.x (tag wiki)_");
-            correctionAdd("Python 2.x (tag wiki)_", "Python&nbsp;2.x (tag wiki)_"); // Sort of identity mapping
-            correctionAdd("python-2.x_", "Python&nbsp;2.x (tag wiki)_");
-            correctionAdd("Python 2.x_", "Python&nbsp;2.x (tag wiki)_");
-
-            correctionAdd("[tag:python-2.7]_", "Python&nbsp;2.7 (tag wiki)_");
-            correctionAdd("Python&nbsp;2.7_", "Python&nbsp;2.7 (tag wiki)_");
-            correctionAdd("tag:python-2.7_", "Python&nbsp;2.7 (tag wiki)_");
-            correctionAdd("python-2.7_", "Python&nbsp;2.7 (tag wiki)_");
-            correctionAdd("Python 2.7 (tag wiki)_", "Python&nbsp;2.7 (tag wiki)_"); // Sort of identity mapping
-            correctionAdd("Python 2.7_", "Python&nbsp;2.7 (tag wiki)_");
-
-            correctionAdd("[tag:python-3.x]_", "Python&nbsp;3.x (tag wiki)_");
-            correctionAdd("Python&nbsp;3.x_", "Python&nbsp;3.x (tag wiki)_");
-            correctionAdd("Python 3.x (tag wiki)_", "Python&nbsp;3.x (tag wiki)_"); // Sort of identity mapping
-            correctionAdd("python-3.x_", "Python&nbsp;3.x (tag wiki)_");
-            correctionAdd("Python 3.x_", "Python&nbsp;3.x (tag wiki)_");
-
-            correctionAdd("[tag:python-3.5]_", "Python&nbsp;3.5 (tag wiki)_");
-            correctionAdd("Python&nbsp;3.5_", "Python&nbsp;3.5 (tag wiki)_");
-            correctionAdd("tag:python-3.5_", "Python&nbsp;3.5 (tag wiki)_");
-            correctionAdd("python-3.5_", "Python&nbsp;3.5 (tag wiki)_");
-            correctionAdd("Python 3.5 (tag wiki)_", "Python&nbsp;3.5 (tag wiki)_"); // Sort of identity mapping
-            correctionAdd("Python 3.5_", "Python&nbsp;3.5 (tag wiki)_");
-
-            correctionAdd("Python 3.6 (tag wiki)_", "Python&nbsp;3.6 (tag wiki)_"); // Sort of identity mapping
-            correctionAdd("Python&nbsp;3.6_", "Python&nbsp;3.6 (tag wiki)_");
-            correctionAdd("[tag:python-3.6]_", "Python&nbsp;3.6 (tag wiki)_");
-            correctionAdd("tag:python-3.6_", "Python&nbsp;3.6 (tag wiki)_");
-            correctionAdd("python-3.6_", "Python&nbsp;3.6 (tag wiki)_");
-            correctionAdd("Python 3.6_", "Python&nbsp;3.6 (tag wiki)_");
-
-            // Alternative URLs:
-            //
-            //   <https://sopython.com/canon/>
-            //
-            correctionAdd("[tag:python]_", "Python (tag wiki)_");
-            correctionAdd("[tag:Python]_", "Python (tag wiki)_");
-            correctionAdd("tag:Python_", "Python (tag wiki)_");
-            correctionAdd("tag:python_", "Python (tag wiki)_");
-            correctionAdd("python_", "Python (tag wiki)_");
-            correctionAdd("Python_", "Python (tag wiki)_");
-
             correctionAdd("[tag:.net]_", ".NET (tag wiki)_");
             correctionAdd("[tag:dotnet]_", ".NET (tag wiki)_"); // Tag synonym
             correctionAdd("tag:.net_", ".NET (tag wiki)_");
@@ -165319,6 +165319,60 @@ namespace OverflowHelper.core
             correctionAdd("tag:webrtc_", "WebRTC (tag wiki)_");
             correctionAdd("webrtc_", "WebRTC (tag wiki)_");
             correctionAdd("WebRTC_", "WebRTC (tag wiki)_");
+
+            correctionAdd("[tag:cpython]_", "CPython (tag wiki)_");
+            correctionAdd("tag:cpython_", "CPython (tag wiki)_");
+            correctionAdd("cpython_", "CPython (tag wiki)_");
+            correctionAdd("CPython_", "CPython (tag wiki)_");
+
+            correctionAdd("[tag:jython]_", "Jython (tag wiki)_");
+            correctionAdd("tag:jython_", "Jython (tag wiki)_");
+            correctionAdd("jython_", "Jython (tag wiki)_");
+            correctionAdd("Jython_", "Jython (tag wiki)_");
+
+            correctionAdd("[tag:python-2.x]_", "Python&nbsp;2.x (tag wiki)_");
+            correctionAdd("Python&nbsp;2.x_", "Python&nbsp;2.x (tag wiki)_");
+            correctionAdd("Python 2.x (tag wiki)_", "Python&nbsp;2.x (tag wiki)_"); // Sort of identity mapping
+            correctionAdd("python-2.x_", "Python&nbsp;2.x (tag wiki)_");
+            correctionAdd("Python 2.x_", "Python&nbsp;2.x (tag wiki)_");
+
+            correctionAdd("[tag:python-2.7]_", "Python&nbsp;2.7 (tag wiki)_");
+            correctionAdd("Python&nbsp;2.7_", "Python&nbsp;2.7 (tag wiki)_");
+            correctionAdd("tag:python-2.7_", "Python&nbsp;2.7 (tag wiki)_");
+            correctionAdd("python-2.7_", "Python&nbsp;2.7 (tag wiki)_");
+            correctionAdd("Python 2.7 (tag wiki)_", "Python&nbsp;2.7 (tag wiki)_"); // Sort of identity mapping
+            correctionAdd("Python 2.7_", "Python&nbsp;2.7 (tag wiki)_");
+
+            correctionAdd("[tag:python-3.x]_", "Python&nbsp;3.x (tag wiki)_");
+            correctionAdd("Python&nbsp;3.x_", "Python&nbsp;3.x (tag wiki)_");
+            correctionAdd("Python 3.x (tag wiki)_", "Python&nbsp;3.x (tag wiki)_"); // Sort of identity mapping
+            correctionAdd("python-3.x_", "Python&nbsp;3.x (tag wiki)_");
+            correctionAdd("Python 3.x_", "Python&nbsp;3.x (tag wiki)_");
+
+            correctionAdd("[tag:python-3.5]_", "Python&nbsp;3.5 (tag wiki)_");
+            correctionAdd("Python&nbsp;3.5_", "Python&nbsp;3.5 (tag wiki)_");
+            correctionAdd("tag:python-3.5_", "Python&nbsp;3.5 (tag wiki)_");
+            correctionAdd("python-3.5_", "Python&nbsp;3.5 (tag wiki)_");
+            correctionAdd("Python 3.5 (tag wiki)_", "Python&nbsp;3.5 (tag wiki)_"); // Sort of identity mapping
+            correctionAdd("Python 3.5_", "Python&nbsp;3.5 (tag wiki)_");
+
+            correctionAdd("Python 3.6 (tag wiki)_", "Python&nbsp;3.6 (tag wiki)_"); // Sort of identity mapping
+            correctionAdd("Python&nbsp;3.6_", "Python&nbsp;3.6 (tag wiki)_");
+            correctionAdd("[tag:python-3.6]_", "Python&nbsp;3.6 (tag wiki)_");
+            correctionAdd("tag:python-3.6_", "Python&nbsp;3.6 (tag wiki)_");
+            correctionAdd("python-3.6_", "Python&nbsp;3.6 (tag wiki)_");
+            correctionAdd("Python 3.6_", "Python&nbsp;3.6 (tag wiki)_");
+
+            // Alternative URLs:
+            //
+            //   <https://sopython.com/canon/>
+            //
+            correctionAdd("[tag:python]_", "Python (tag wiki)_");
+            correctionAdd("[tag:Python]_", "Python (tag wiki)_");
+            correctionAdd("tag:Python_", "Python (tag wiki)_");
+            correctionAdd("tag:python_", "Python (tag wiki)_");
+            correctionAdd("python_", "Python (tag wiki)_");
+            correctionAdd("Python_", "Python (tag wiki)_");
 
             //// Wrong URL... It should be:
             //
@@ -167716,6 +167770,9 @@ namespace OverflowHelper.core
             correctionAdd("DIP switch_", "DIP switches_"); // For the cross-reference
 
             correctionAdd("Abysmal_", "abysmal_");
+
+            correctionAdd("interference_", "radio interference_"); // For the cross-reference
+            correctionAdd("radio_", "radio interference_"); // For the cross-reference
 
             // C. A book
             //
@@ -172420,6 +172477,10 @@ namespace OverflowHelper.core
 
             URL_Add("Teachers' Lounge (TL)_", "https://meta.stackexchange.com/tags/teachers-lounge/info");
 
+            URL_Add("radio interference_", "https://www.reddit.com/r/Keychron/comments/1kvqhf3/comment/mublo7e/");
+
+            URL_Add("virtual Python environments_", "https://www.w3schools.com/python/python_virtualenv.asp");
+
         } //addLookupData_alternativeWordSet()
 
 
@@ -173359,6 +173420,52 @@ namespace OverflowHelper.core
             //
             correctionAdd("Process JS__", "Processing.js__");
             correctionAdd("Processing__", "Processing.js__");
+
+            // Note: It has both "Low Speed" and "Full Speed"
+            //       because it supports both.
+            //
+            correctionAdd("USB Full-speed__", "USB 1.x__");
+            correctionAdd("USB Full Speed__", "USB 1.x__"); // The official expanded name (sort of)
+            correctionAdd("USB Low Speed__", "USB 1.x__");
+            correctionAdd("Full Speed__", "USB 1.x__"); // The official expanded name (sort of), without "USB"
+            correctionAdd("full speed__", "USB 1.x__");
+            correctionAdd("Full-speed__", "USB 1.x__");
+            correctionAdd("Full-Speed__", "USB 1.x__");
+            correctionAdd("Full speed__", "USB 1.x__");
+            correctionAdd("Low-Speed__", "USB 1.x__");
+            correctionAdd("Low Speed__", "USB 1.x__");
+            correctionAdd("low-speed__", "USB 1.x__");
+            correctionAdd("usb 1.x__", "USB 1.x__");
+            correctionAdd("USB 1.1__", "USB 1.x__");
+            correctionAdd("FS Mode__", "USB 1.x__");
+            correctionAdd("FS mode__", "USB 1.x__");
+            correctionAdd("USB LS__", "USB 1.x__");
+            correctionAdd("USB FS__", "USB 1.x__");
+            correctionAdd("USB1.1__", "USB 1.x__");
+            correctionAdd("USB 1__", "USB 1.x__");
+            correctionAdd("USB1__", "USB 1.x__");
+            correctionAdd("1.x__", "USB 1.x__");
+            correctionAdd("1.1__", "USB 1.x__");
+            correctionAdd("LS__", "USB 1.x__");
+            correctionAdd("FS__", "USB 1.x__");
+
+            correctionAdd("USB High Bandwidth__", "USB&nbsp;2.0__");
+            correctionAdd("USB High Speed__", "USB&nbsp;2.0__");
+            correctionAdd("High-Speed__", "USB&nbsp;2.0__");
+            correctionAdd("High Speed__", "USB&nbsp;2.0__");
+            correctionAdd("high-speed__", "USB&nbsp;2.0__");
+            correctionAdd("Hispeed__", "USB&nbsp;2.0__");
+            correctionAdd("hispeed__", "USB&nbsp;2.0__");
+            correctionAdd("usb 2.0__", "USB&nbsp;2.0__");
+            correctionAdd("USB 2.0__", "USB&nbsp;2.0__");
+            correctionAdd("USB HB__", "USB&nbsp;2.0__");
+            correctionAdd("USB HS__", "USB&nbsp;2.0__");
+            correctionAdd("USB 2__", "USB&nbsp;2.0__");
+            correctionAdd("Usb 2__", "USB&nbsp;2.0__");
+            correctionAdd("uSB2__", "USB&nbsp;2.0__");
+            correctionAdd("USB2__", "USB&nbsp;2.0__");
+            correctionAdd("Usb2__", "USB&nbsp;2.0__");
+            correctionAdd("HS__", "USB&nbsp;2.0__");
 
             // Originally a CJK-only feature.
             //
@@ -176446,52 +176553,6 @@ namespace OverflowHelper.core
             correctionAdd("Certificate Signing Request__", "certificate signing request__");
             correctionAdd("CSR__", "certificate signing request__");
 
-            // Note: It has both "Low Speed" and "Full Speed"
-            //       because it supports both.
-            //
-            correctionAdd("USB Full-speed__", "USB 1.x__");
-            correctionAdd("USB Full Speed__", "USB 1.x__"); // The official expanded name (sort of)
-            correctionAdd("USB Low Speed__", "USB 1.x__");
-            correctionAdd("Full Speed__", "USB 1.x__"); // The official expanded name (sort of), without "USB"
-            correctionAdd("full speed__", "USB 1.x__");
-            correctionAdd("Full-speed__", "USB 1.x__");
-            correctionAdd("Full-Speed__", "USB 1.x__");
-            correctionAdd("Full speed__", "USB 1.x__");
-            correctionAdd("Low-Speed__", "USB 1.x__");
-            correctionAdd("Low Speed__", "USB 1.x__");
-            correctionAdd("low-speed__", "USB 1.x__");
-            correctionAdd("usb 1.x__", "USB 1.x__");
-            correctionAdd("USB 1.1__", "USB 1.x__");
-            correctionAdd("FS Mode__", "USB 1.x__");
-            correctionAdd("FS mode__", "USB 1.x__");
-            correctionAdd("USB LS__", "USB 1.x__");
-            correctionAdd("USB FS__", "USB 1.x__");
-            correctionAdd("USB1.1__", "USB 1.x__");
-            correctionAdd("USB 1__", "USB 1.x__");
-            correctionAdd("USB1__", "USB 1.x__");
-            correctionAdd("1.x__", "USB 1.x__");
-            correctionAdd("1.1__", "USB 1.x__");
-            correctionAdd("LS__", "USB 1.x__");
-            correctionAdd("FS__", "USB 1.x__");
-
-            correctionAdd("USB High Bandwidth__", "USB&nbsp;2.0__");
-            correctionAdd("USB High Speed__", "USB&nbsp;2.0__");
-            correctionAdd("High-Speed__", "USB&nbsp;2.0__");
-            correctionAdd("High Speed__", "USB&nbsp;2.0__");
-            correctionAdd("high-speed__", "USB&nbsp;2.0__");
-            correctionAdd("Hispeed__", "USB&nbsp;2.0__");
-            correctionAdd("hispeed__", "USB&nbsp;2.0__");
-            correctionAdd("usb 2.0__", "USB&nbsp;2.0__");
-            correctionAdd("USB 2.0__", "USB&nbsp;2.0__");
-            correctionAdd("USB HB__", "USB&nbsp;2.0__");
-            correctionAdd("USB HS__", "USB&nbsp;2.0__");
-            correctionAdd("USB 2__", "USB&nbsp;2.0__");
-            correctionAdd("Usb 2__", "USB&nbsp;2.0__");
-            correctionAdd("uSB2__", "USB&nbsp;2.0__");
-            correctionAdd("USB2__", "USB&nbsp;2.0__");
-            correctionAdd("Usb2__", "USB&nbsp;2.0__");
-            correctionAdd("HS__", "USB&nbsp;2.0__");
-
             correctionAdd("Data Science__", "data science__");
             correctionAdd("datascience__", "data science__");
             correctionAdd("DataScience__", "data science__");
@@ -177835,8 +177896,6 @@ namespace OverflowHelper.core
 
             URL_Add("palm__", "https://en.wiktionary.org/wiki/palm#Noun_2");
 
-            URL_Add("2.4&nbsp;GHz__", "https://en.wikipedia.org/wiki/Wi-Fi#History");
-
             URL_Add("dialogue__", "https://en.wiktionary.org/wiki/dialogue#Noun");
 
             URL_Add("boost__", "https://en.wiktionary.org/wiki/boost#Verb");
@@ -178437,10 +178496,6 @@ namespace OverflowHelper.core
 
             URL_Add("long__", "https://en.wiktionary.org/wiki/long#Adjective");
 
-            URL_Add("USB 1.x__", "https://en.wikipedia.org/wiki/USB#USB_1.x");
-
-            URL_Add("USB&nbsp;2.0__", "https://en.wikipedia.org/wiki/USB#USB_2.0");
-
             URL_Add("form factor__", "https://en.wiktionary.org/wiki/form_factor#Noun");
 
             URL_Add("multiple__", "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input#multiple");
@@ -178813,6 +178868,12 @@ namespace OverflowHelper.core
 
             URL_Add("video game__", "https://en.wikipedia.org/wiki/Video_game");
 
+            URL_Add("USB 1.x__", "https://en.wikipedia.org/wiki/USB#USB_1.x");
+
+            URL_Add("USB&nbsp;2.0__", "https://en.wikipedia.org/wiki/USB#USB_2.0");
+
+            URL_Add("2.4&nbsp;GHz__", "https://en.wikipedia.org/wiki/Wi-Fi#History");
+
         } //addLookupData_alternativeWordSet2()
 
 
@@ -178827,6 +178888,14 @@ namespace OverflowHelper.core
         {
             // Note: Due to a glitch in a checking Perl script, there should
             //       be an empty line before the first block...
+
+            correctionAdd("USB 1.x___", "USB Low Speed___"); // To get a mapping *from* the USB version
+            correctionAdd("LS___", "USB Low Speed___"); // To get the "LS" / "Low Speed" association
+
+            correctionAdd("USB&nbsp;2.0___", "USB High Speed___"); // To get a mapping *from* the USB version
+            correctionAdd("HIGH SPEED___", "USB High Speed___");
+            correctionAdd("High Speed___", "USB High Speed___"); // Not strictly necessary, but we want a direct lookup
+            correctionAdd("HS___", "USB High Speed___"); // To get the "HS" / "USB High Speed" association
 
             // Adobe Flash
             correctionAdd("flash___", "Adobe Flash___"); // Adobe's, not what is inside USB sticks.
@@ -180759,14 +180828,6 @@ namespace OverflowHelper.core
             correctionAdd("GB___", "Drop___");
             correctionAdd("gb___", "Drop___");
 
-            correctionAdd("USB 1.x___", "USB Low Speed___"); // To get a mapping *from* the USB version
-            correctionAdd("LS___", "USB Low Speed___"); // To get the "LS" / "Low Speed" association
-
-            correctionAdd("USB&nbsp;2.0___", "USB High Speed___"); // To get a mapping *from* the USB version
-            correctionAdd("HIGH SPEED___", "USB High Speed___");
-            correctionAdd("High Speed___", "USB High Speed___"); // Not strictly necessary, but we want a direct lookup
-            correctionAdd("HS___", "USB High Speed___"); // To get the "HS" / "USB High Speed" association
-
             correctionAdd("Room Owner___", "room owner (RO - chat)___");
             correctionAdd("ro___", "room owner (RO - chat)___");
             correctionAdd("RO___", "room owner (RO - chat)___");
@@ -181812,10 +181873,6 @@ namespace OverflowHelper.core
 
             URL_Add("interest check___", "https://dotesports.com/general/news/what-is-a-mechanical-keyboard-group-buy-group-buys-explained");
 
-            URL_Add("USB Low Speed___", "https://en.wikipedia.org/wiki/USB#USB_1.x");
-
-            URL_Add("USB High Speed___", "https://en.wikipedia.org/wiki/USB#USB_2.0");
-
             URL_Add("p___", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p");
 
             URL_Add("hr___", "https://en.wikipedia.org/wiki/HTML_element#Other_block_elements");
@@ -182023,6 +182080,10 @@ namespace OverflowHelper.core
             URL_Add("Raspberry&nbsp;Pi (Stack Exchange site)___", "https://raspberrypi.stackexchange.com/tour");
 
             URL_Add("sort___", "https://en.wiktionary.org/wiki/sort#Verb");
+
+            URL_Add("USB Low Speed___", "https://en.wikipedia.org/wiki/USB#USB_1.x");
+
+            URL_Add("USB High Speed___", "https://en.wikipedia.org/wiki/USB#USB_2.0");
 
         } //addLookupData_alternativeWordSet3()
 
@@ -184451,8 +184512,6 @@ namespace OverflowHelper.core
 
             URL_Add("Debian&nbsp;8 (Jessie)____", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_8_(Jessie)");
 
-            URL_Add("USB Full Speed____", "https://en.wikipedia.org/wiki/USB#USB_1.x");
-
             URL_Add("Git branch \"playground\" in Keychron's fork____", "https://github.com/Keychron/qmk_firmware/tree/playground/keyboards/keychron/x3/iso/rgb");
 
             URL_Add("it isn't the switches, damn it!____", "https://www.reddit.com/r/Keychron/comments/1i5flhz/comment/mhl8w41/");
@@ -184552,6 +184611,8 @@ namespace OverflowHelper.core
             URL_Add("Software&nbsp;Engineering (Stack Exchange site)____", "https://softwareengineering.stackexchange.com/tour");
 
             URL_Add("sort()____", "https://docs.python.org/3.8/library/stdtypes.html#list.sort");
+
+            URL_Add("USB Full Speed____", "https://en.wikipedia.org/wiki/USB#USB_1.x");
 
         } //addLookupData_alternativeWordSet4()
 
@@ -185860,10 +185921,6 @@ namespace OverflowHelper.core
 
             URL_Add("man -s 2 intro_____", "https://linux.die.net/man/2/intro");
 
-            URL_Add("fast mode_____", "https://en.wikipedia.org/wiki/I2C#Design");
-
-            URL_Add("high-speed mode_____", "https://en.wikipedia.org/wiki/I2C#Design");
-
             URL_Add("Customising the ZMK-based Keychron B6 Pro keyboard without the Via clone_____", "https://pmortensen.eu/world2/2025/03/10/customising-the-zmk-based-keychron-b6-pro-keyboard-without-the-via-clone/");
 
             URL_Add("read_____", "https://en.wiktionary.org/wiki/read#Verb");
@@ -185903,6 +185960,10 @@ namespace OverflowHelper.core
             URL_Add("window_____", "https://en.wikipedia.org/wiki/Suspicious_Russia-related_deaths_since_2022");
 
             URL_Add("Space&nbsp;Exploration (Stack Exchange site)_____", "https://space.stackexchange.com/tour");
+
+            URL_Add("fast mode_____", "https://en.wikipedia.org/wiki/I2C#Design");
+
+            URL_Add("high-speed mode_____", "https://en.wikipedia.org/wiki/I2C#Design");
 
             URL_Add("&nbsp;K_____", "https://en.wikipedia.org/wiki/Kelvin");
 
