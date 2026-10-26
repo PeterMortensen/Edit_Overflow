@@ -1072,11 +1072,11 @@ namespace OverflowHelper.core
             // Windows
             correctionAdd("LTSC", "Long-Term Servicing Channel");
 
-            correctionAdd("Windows server", "Windows Server");
-            correctionAdd("windows server", "Windows Server");
-            correctionAdd("winserver", "Windows Server");
-
+            // Note: "Windows Server" is in an alternative word set
+            //
             correctionAdd("WServer2000", "Windows Server 2000");
+            correctionAdd("Server 2000", "Windows Server 2000");
+            correctionAdd("server 2000", "Windows Server 2000");
 
             correctionAdd("WIndows 2003 server", "Windows Server 2003");
             correctionAdd("Windows server 2003", "Windows Server 2003");
@@ -1141,6 +1141,8 @@ namespace OverflowHelper.core
             correctionAdd("Server 2012 R2", "Windows Server 2012 R2");
             correctionAdd("server 2012 r2", "Windows Server 2012 R2");
 
+            // Note: "Windows Server 2022" is in an alternative word set
+            //
             correctionAdd("2016 Windows Server", "Windows Server 2016");
             correctionAdd("Windows server 2016", "Windows Server 2016");
             correctionAdd("windows server 2016", "Windows Server 2016");
@@ -1148,15 +1150,10 @@ namespace OverflowHelper.core
             correctionAdd("Windows 10 Server", "Windows Server 2016");
             correctionAdd("Windows 2016", "Windows Server 2016");
             correctionAdd("windows 2016", "Windows Server 2016");
-            correctionAdd("Server 2016", "Windows Server 2016");
             correctionAdd("Windows2016", "Windows Server 2016");
+            correctionAdd("Server 2016", "Windows Server 2016");
+            correctionAdd("server 2016", "Windows Server 2016");
             correctionAdd("2016", "Windows Server 2016");
-
-            // Note: "Windows Server 2022" is in an alternative word set
-            //
-            correctionAdd("windows server 2019", "Windows Server 2019");
-            correctionAdd("2019 windows server", "Windows Server 2019");
-            correctionAdd("Windows 2019", "Windows Server 2019");
 
             correctionAdd("Micorosft Exhange", "Microsoft Exchange Server");
             correctionAdd("Exchange Server", "Microsoft Exchange Server");
@@ -2183,6 +2180,7 @@ namespace OverflowHelper.core
             correctionAdd("theree", "three");
             correctionAdd("theee", "three");
             correctionAdd("thre", "three");
+            correctionAdd("thee", "three");
             correctionAdd("3", "three");
 
             correctionAdd("three fold", "threefold");
@@ -9962,6 +9960,7 @@ namespace OverflowHelper.core
             correctionAdd("gazilions", "gazillions");
             correctionAdd("gazillons", "gazillions");
 
+            correctionAdd("bajillion", "bazillion");
             correctionAdd("bazilion", "bazillion");
 
             correctionAdd("Gen X", "Generation X");
@@ -12003,6 +12002,7 @@ namespace OverflowHelper.core
             correctionAdd("partecipated", "participated");
 
             correctionAdd("particopation", "participation");
+            correctionAdd("partipication", "participation");
             correctionAdd("particpation", "participation");
 
             // We need a better reference...
@@ -29513,6 +29513,8 @@ namespace OverflowHelper.core
             correctionAdd("nottin", "nothing");
             correctionAdd("nth", "nothing");
 
+            correctionAdd("thx for nothing", "thanks for nothing");
+
             correctionAdd("Depriving", "depriving");
 
             correctionAdd("Deprival", "deprival");
@@ -34936,7 +34938,7 @@ namespace OverflowHelper.core
             correctionAdd("webservice", "web service");
             correctionAdd("webService", "web service");
             correctionAdd("Webservice", "web service");
-            correctionAdd("WS", "web service"); // Alternative: Windows Server
+            correctionAdd("WS", "web service");
 
             // Web services (WSDL, SOAP, WS*, etc.)
             correctionAdd("MTOM", "Message Transmission Optimization Mechanism");
@@ -37694,6 +37696,33 @@ namespace OverflowHelper.core
             correctionAdd("creteria", "criteria");
             correctionAdd("citeria", "criteria");
             correctionAdd("critera", "criteria");
+
+            correctionAdd("prestentated", "presented");
+
+            correctionAdd("presenttation", "presentation");
+
+            // A noun
+            correctionAdd("pesent", "present");
+
+            correctionAdd("Present Perfect", "present perfect");
+
+            correctionAdd("prefect", "perfect");
+            correctionAdd("nerfect", "perfect");
+            correctionAdd("perfekt", "perfect");
+            correctionAdd("percect", "perfect"); // A true typo
+
+            correctionAdd("perfectely", "perfectly");
+            correctionAdd("perferctly", "perfectly");
+            correctionAdd("perfrectly", "perfectly");
+            correctionAdd("perfectley", "perfectly");
+            correctionAdd("prefectly", "perfectly");
+            correctionAdd("perfeclty", "perfectly");
+            correctionAdd("perfecty", "perfectly");
+            correctionAdd("perectly", "perfectly");
+
+            correctionAdd("non perfect", "nonperfect");
+            correctionAdd("Non perfect", "nonperfect");
+            correctionAdd("non-perfect", "nonperfect");
 
             correctionAdd("indentitation", "indentation");
             correctionAdd("indendation", "indentation");
@@ -62917,31 +62946,6 @@ namespace OverflowHelper.core
 
             correctionAdd("prestigous", "prestigious");
 
-            correctionAdd("prestentated", "presented");
-
-            // A noun
-            correctionAdd("pesent", "present");
-
-            correctionAdd("Present Perfect", "present perfect");
-
-            correctionAdd("prefect", "perfect");
-            correctionAdd("nerfect", "perfect");
-            correctionAdd("perfekt", "perfect");
-            correctionAdd("percect", "perfect"); // A true typo
-
-            correctionAdd("perfectely", "perfectly");
-            correctionAdd("perferctly", "perfectly");
-            correctionAdd("perfrectly", "perfectly");
-            correctionAdd("perfectley", "perfectly");
-            correctionAdd("prefectly", "perfectly");
-            correctionAdd("perfeclty", "perfectly");
-            correctionAdd("perfecty", "perfectly");
-            correctionAdd("perectly", "perfectly");
-
-            correctionAdd("non perfect", "nonperfect");
-            correctionAdd("Non perfect", "nonperfect");
-            correctionAdd("non-perfect", "nonperfect");
-
             correctionAdd("Randome", "random");
             correctionAdd("randome", "random");
             correctionAdd("randon", "random");
@@ -84262,6 +84266,9 @@ namespace OverflowHelper.core
             //   <https://www.keychron.com/blogs/news/firmware-and-json-files-of-the-keychron-q0-mini-8k-action-key>
             //     Firmware and JSON files for the Q0 Mini 8K
             //
+            //     Note: Hidden in a blog post. It isn't on
+            //           the firmware page.
+            //
             //     Note: Not to be confused with the original Q0.
             //
             //     Related:
@@ -86478,6 +86485,7 @@ namespace OverflowHelper.core
             //     What about the Q HE 8K series???
             //
             correctionAdd("Keychron Q2 HE 8K (65%) (proprietary keyboard firmware, not open source)", "Keychron&nbsp;Q2&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
+            correctionAdd("Keychron Q2 HE 8K", "Keychron&nbsp;Q2&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)");
             correctionAdd("Q2 HE 8K", "Keychron&nbsp;Q2&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)");
             correctionAdd("q2 he 8k", "Keychron&nbsp;Q2&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)");
 
@@ -88772,6 +88780,7 @@ namespace OverflowHelper.core
             //   a RISC-V microcontroller vendor.
             //
             correctionAdd("Keychron J8 HE 8K (80%) (proprietary keyboard firmware, not open source)", "Keychron&nbsp;J8&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
+            correctionAdd("Keychron J8 HE 8K", "Keychron&nbsp;J8&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
             correctionAdd("J8 HE 8K", "Keychron&nbsp;J8&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
 
             // A 83-key (80%. Not true TKL) crippled low-profile
@@ -89380,6 +89389,7 @@ namespace OverflowHelper.core
             // from Keychron without a knob.
             //
             correctionAdd("Keychron K2 Ultra 8K (80%)", "Keychron&nbsp;K2&nbsp;Ultra&nbsp;8K (80%)"); // Sort of identity mapping
+            correctionAdd("Keychron K2 Ultra 8K", "Keychron&nbsp;K2&nbsp;Ultra&nbsp;8K (80%)");
             correctionAdd("K2 Ultra 8K", "Keychron&nbsp;K2&nbsp;Ultra&nbsp;8K (80%)");
             correctionAdd("K2 Ultra", "Keychron&nbsp;K2&nbsp;Ultra&nbsp;8K (80%)");
 
@@ -89897,6 +89907,9 @@ namespace OverflowHelper.core
             //         Firmware and JSON Files of the Keychron QMK C Pro 8K series keyboards
             //
             //         Near "C3 Pro 8K ISO RGB version"
+            //
+            //         Note: Hidden in a blog post. It isn't on
+            //               the firmware page.
             //
             // C3 Pro 8K user manual (red LED variant):
             //
@@ -90456,6 +90469,7 @@ namespace OverflowHelper.core
             correctionAdd("Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
             correctionAdd("Keychron&nbsp;Q3&nbsp;HE&nbsp;8K", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)");
             correctionAdd("Q3&nbsp;HE&nbsp;8K", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Keychron Q3 HE 8K", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)");
             correctionAdd("Q3 HE 8 Khz", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)");
             correctionAdd("Q3 HE 8 kHz", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)");
             correctionAdd("Q3 HE 8Khz", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)");
@@ -90635,6 +90649,7 @@ namespace OverflowHelper.core
             //   <https://www.keychron.com/pages/keychron-q1-max-user-manual>
             //
             correctionAdd("Keychron K1 Ultra 8K (85%)", "Keychron&nbsp;K1&nbsp;Ultra&nbsp;8K (85%)"); // Sort of identity mapping
+            correctionAdd("Keychron K1 Ultra 8K", "Keychron&nbsp;K1&nbsp;Ultra&nbsp;8K (85%)");
             correctionAdd("K1 Ultra 8K", "Keychron&nbsp;K1&nbsp;Ultra&nbsp;8K (85%)");
             correctionAdd("K1 Ultra", "Keychron&nbsp;K1&nbsp;Ultra&nbsp;8K (85%)");
 
@@ -91839,6 +91854,7 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/q3_pro>
             //
+            correctionAdd("Keychron Q3 Pro SE", "Keychron Q3 Pro SE (special edition)");
             correctionAdd("q3 pro se", "Keychron Q3 Pro SE (special edition)");
             correctionAdd("Q3 Pro SE", "Keychron Q3 Pro SE (special edition)");
 
@@ -93278,11 +93294,17 @@ namespace OverflowHelper.core
             //
             //     Near "C2 Pro 8K ISO RGB keymap"
             //
+            //     Note: Hidden in a blog post. It isn't on
+            //           the firmware page.
+            //
             // C2 Pro 8K firmware:
             //
             //   <https://www.keychron.com/blogs/news/firmware-and-json-files-of-the-keychron-qmk-c-pro-8k-series-keyboards>
             //
             //     Near "C2 Pro 8K ISO RGB version"
+            //
+            //     Note: Hidden in a blog post. It isn't on
+            //           the firmware page.
             //
             // C2 Pro 8K default keymap (ISO):
             //
@@ -93581,6 +93603,10 @@ namespace OverflowHelper.core
 
             // A 105-key (100%. Not true TKL) full-size wired-only
             // mechanical keyboard from Cooler Master.
+            //
+            // The reference is broken now. Alternative:
+            //
+            //   <https://legacy.coolermaster.com/en-global/products/ck550-v2/>
             //
             // "TTC Mechanical Switch" (Cherry MX clone?).
             // RGB (per-key) lighting.
@@ -94130,6 +94156,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("Keychron Q13 Ultra 8K (100%)", "Keychron&nbsp;Q13&nbsp;Ultra&nbsp;8K (100%)"); // Sort of identity mapping
             correctionAdd("Q13&nbsp;Ultra&nbsp;8K", "Keychron&nbsp;Q13&nbsp;Ultra&nbsp;8K (100%)");
+            correctionAdd("Keychron Q13 Ultra 8K", "Keychron&nbsp;Q13&nbsp;Ultra&nbsp;8K (100%)");
             correctionAdd("Q13&nbsp;Ultra", "Keychron&nbsp;Q13&nbsp;Ultra&nbsp;8K (100%)");
             correctionAdd("Q13 Ultra 8K", "Keychron&nbsp;Q13&nbsp;Ultra&nbsp;8K (100%)");
             correctionAdd("Q13 Ultra", "Keychron&nbsp;Q13&nbsp;Ultra&nbsp;8K (100%)");
@@ -95409,6 +95436,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("Keychron K5 Ultra 8K (105%)", "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)"); // Sort of identity mapping
             correctionAdd("K5&nbsp;Ultra&nbsp;8K", "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)");
+            correctionAdd("Keychron K5 Ultra 8K", "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)");
             correctionAdd("K5 Ultra 8K", "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)");
             correctionAdd("k5 ultra 8k", "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)");
             correctionAdd("K5 8K Ultra", "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)");
@@ -107058,6 +107086,8 @@ namespace OverflowHelper.core
             correctionAdd("pannel", "panel");
             correctionAdd("Pannel", "panel");
 
+            correctionAdd("paneles", "panels");
+
             correctionAdd("vercel", "Vercel");
             correctionAdd("verce", "Vercel");
 
@@ -112267,8 +112297,6 @@ namespace OverflowHelper.core
             URL_Add("Petrov's Defence", "https://en.wikipedia.org/wiki/Petrov's_Defence");
 
             URL_Add("generally", "https://en.wiktionary.org/wiki/generally#Adverb");
-
-            URL_Add("present perfect", "https://en.wiktionary.org/wiki/present_perfect#Noun");
 
             URL_Add("pyjamas", "https://en.wiktionary.org/wiki/pyjamas#Noun");
 
@@ -118568,8 +118596,6 @@ namespace OverflowHelper.core
 
             URL_Add("data", "https://en.wiktionary.org/wiki/data#Noun");
 
-            URL_Add("presented", "https://en.wiktionary.org/wiki/present#Verb");
-
             URL_Add("vote", "https://en.wiktionary.org/wiki/vote#Noun");
 
             URL_Add("ADM-3A", "https://en.wikipedia.org/wiki/ADM-3A");
@@ -118721,6 +118747,8 @@ namespace OverflowHelper.core
             URL_Add("db<>fiddle", "https://dbfiddle.uk/");
 
             URL_Add("panel", "https://en.wiktionary.org/wiki/panel#Noun");
+
+            URL_Add("panels", "https://en.wiktionary.org/wiki/panel#Noun");
 
             URL_Add("self-taught", "https://en.wiktionary.org/wiki/self-taught#Adjective");
 
@@ -124773,8 +124801,6 @@ namespace OverflowHelper.core
             URL_Add("The Finals", "https://en.wikipedia.org/wiki/The_Finals");
 
             URL_Add("glacial", "https://en.wiktionary.org/wiki/glacial#Adjective");
-
-            URL_Add("present", "https://en.wiktionary.org/wiki/present#Noun_2");
 
             URL_Add("ordnance", "https://en.wiktionary.org/wiki/ordnance#Noun");
 
@@ -142696,22 +142722,6 @@ namespace OverflowHelper.core
 
             URL_Add("Javatpoint", "https://www.javatpoint.com/");
 
-            URL_Add("business logic", "https://en.wikipedia.org/wiki/Business_logic");
-
-            URL_Add("presentation logic", "https://en.wikipedia.org/wiki/Presentation_logic");
-
-            URL_Add("SnapLogic", "https://en.wikipedia.org/wiki/SnapLogic");
-
-            URL_Add("technological singularity", "https://en.wikipedia.org/wiki/Technological_singularity");
-
-            URL_Add("psychological", "https://en.wiktionary.org/wiki/psychological#Adjective");
-
-            URL_Add("psychological operations", "https://en.wikipedia.org/wiki/Psychological_warfare");
-
-            URL_Add("ideological", "https://en.wiktionary.org/wiki/ideological#Adjective");
-
-            URL_Add("pathological", "https://en.wiktionary.org/wiki/pathological#Adjective");
-
             URL_Add("analysing", "https://en.wiktionary.org/wiki/analyse#Verb");
 
             URL_Add("analysis", "https://en.wiktionary.org/wiki/analysis#Noun");
@@ -143262,8 +143272,6 @@ namespace OverflowHelper.core
 
             URL_Add("Windows&nbsp;11", "https://en.wikipedia.org/wiki/Windows_11");
 
-            URL_Add("Windows Server", "https://en.wikipedia.org/wiki/Windows_Server");
-
             URL_Add("Windows Server 2000", "https://en.wikipedia.org/wiki/Windows_2000#Server_family_features");
 
             URL_Add("Windows Server 2003", "https://en.wikipedia.org/wiki/Windows_Server_2003");
@@ -143273,8 +143281,6 @@ namespace OverflowHelper.core
             URL_Add("Windows Server 2012 R2", "https://en.wikipedia.org/wiki/Windows_Server_2012_R2");
 
             URL_Add("Windows Server 2016", "https://en.wikipedia.org/wiki/Windows_Server_2016");
-
-            URL_Add("Windows Server 2019", "https://en.wikipedia.org/wiki/Windows_Server_2019");
 
             URL_Add("Windows&nbsp;CE", "https://en.wikipedia.org/wiki/Windows_CE");
 
@@ -146927,6 +146933,8 @@ namespace OverflowHelper.core
             URL_Add("anything", "https://en.wiktionary.org/wiki/anything#Pronoun");
 
             URL_Add("nothing", "https://en.wiktionary.org/wiki/nothing#Pronoun");
+
+            URL_Add("thanks for nothing", "https://en.wiktionary.org/wiki/thanks_for_nothing#Interjection");
 
             URL_Add("thing", "https://en.wiktionary.org/wiki/thing#Noun");
 
@@ -151342,6 +151350,30 @@ namespace OverflowHelper.core
 
             URL_Add("$HOME/.zshrc file", "https://wiki.debian.org/Zsh#Configuration");
 
+            URL_Add("present", "https://en.wiktionary.org/wiki/present#Noun_2");
+
+            URL_Add("presented", "https://en.wiktionary.org/wiki/present#Verb");
+
+            URL_Add("presentation", "https://en.wiktionary.org/wiki/presentation#Noun");
+
+            URL_Add("present perfect", "https://en.wiktionary.org/wiki/present_perfect#Noun");
+
+            URL_Add("presentation logic", "https://en.wikipedia.org/wiki/Presentation_logic");
+
+            URL_Add("business logic", "https://en.wikipedia.org/wiki/Business_logic");
+
+            URL_Add("SnapLogic", "https://en.wikipedia.org/wiki/SnapLogic");
+
+            URL_Add("technological singularity", "https://en.wikipedia.org/wiki/Technological_singularity");
+
+            URL_Add("psychological", "https://en.wiktionary.org/wiki/psychological#Adjective");
+
+            URL_Add("psychological operations", "https://en.wikipedia.org/wiki/Psychological_warfare");
+
+            URL_Add("ideological", "https://en.wiktionary.org/wiki/ideological#Adjective");
+
+            URL_Add("pathological", "https://en.wiktionary.org/wiki/pathological#Adjective");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -153935,12 +153967,6 @@ namespace OverflowHelper.core
             correctionAdd("olkb_", "r/olkb_");
             correctionAdd("OLKB_", "r/olkb_");
 
-            // Mechanical keyboards. A manufacturer of key switches.
-            correctionAdd("Wuque studio_", "Wuque Studio_");
-            correctionAdd("wuque_", "Wuque Studio_");
-            correctionAdd("Wuque_", "Wuque Studio_");
-            correctionAdd("WS_", "Wuque Studio_");
-
             // Per-key RGB and RGB animations (but requires
             // software host side(?)). It is a protocol and
             // it has been implemented into QMK here.
@@ -155026,8 +155052,6 @@ namespace OverflowHelper.core
             correctionAdd("controll_", "control_");
             correctionAdd("cotnrol_", "control_");
             correctionAdd("contol_", "control_");
-
-            correctionAdd("server_", "serves_");
 
             correctionAdd("contirbutors_", "contributors_");
             correctionAdd("contributers_", "contributors_");
@@ -158430,6 +158454,13 @@ namespace OverflowHelper.core
                                              // it could mean Internet Explorer instead.
             correctionAdd("Explorer_", "Windows&nbsp;Explorer_");
 
+            correctionAdd("Windows server_", "Windows Server_");
+            correctionAdd("windows server_", "Windows Server_");
+            correctionAdd("winserver_", "Windows Server_");
+            correctionAdd("Server_", "Windows Server_");
+            correctionAdd("server_", "Windows Server_");
+            correctionAdd("WS_", "Windows Server_");
+
             correctionAdd("windows server 2012_", "Windows Server 2012_");
             correctionAdd("windows sever 2012_", "Windows Server 2012_");
             correctionAdd("windows server 12_", "Windows Server 2012_");
@@ -158453,7 +158484,15 @@ namespace OverflowHelper.core
             correctionAdd("W2K12_", "Windows Server 2012_");
             correctionAdd("2012_", "Windows Server 2012_");
 
+            correctionAdd("windows server 2019_", "Windows Server 2019_");
+            correctionAdd("2019 windows server_", "Windows Server 2019_");
+            correctionAdd("Windows 2019_", "Windows Server 2019_");
+            correctionAdd("Server 2019_", "Windows Server 2019_");
+            correctionAdd("server 2019_", "Windows Server 2019_");
+
             correctionAdd("windows 2022_", "Windows Server 2022_");
+            correctionAdd("Server 2022_", "Windows Server 2022_");
+            correctionAdd("server 2022_", "Windows Server 2022_");
             correctionAdd("2022_", "Windows Server 2022_");
 
             correctionAdd("Windows Subsystem for Linux_", "WSL_");
@@ -168558,8 +168597,6 @@ namespace OverflowHelper.core
 
             URL_Add("uniform_", "https://en.wiktionary.org/wiki/uniform#Adjective");
 
-            URL_Add("serves_", "https://en.wiktionary.org/wiki/serve#Verb");
-
             URL_Add("T/P_", "https://www.investopedia.com/terms/t/take-profitorder.asp");
 
             URL_Add("ISO&nbsp;8601_", "https://en.wikipedia.org/wiki/ISO_8601");
@@ -168739,8 +168776,6 @@ namespace OverflowHelper.core
             URL_Add("congratulations_", "https://en.wiktionary.org/wiki/congratulations#Interjection");
 
             URL_Add("FTL: Faster Than Light_", "https://en.wikipedia.org/wiki/FTL:_Faster_Than_Light");
-
-            URL_Add("Wuque Studio_", "https://divinikey.com/products/wuque-ws-silent-tactile-switches");
 
             URL_Add("proton_", "https://en.wikipedia.org/wiki/Proton");
 
@@ -170740,7 +170775,11 @@ namespace OverflowHelper.core
 
             URL_Add("window manager_", "https://en.wikipedia.org/wiki/Window_manager");
 
+            URL_Add("Windows Server_", "https://en.wikipedia.org/wiki/Windows_Server");
+
             URL_Add("Windows Server 2012_", "https://en.wikipedia.org/wiki/Windows_Server_2012");
+
+            URL_Add("Windows Server 2019_", "https://en.wikipedia.org/wiki/Windows_Server_2019");
 
             URL_Add("Windows Server 2022_", "https://en.wikipedia.org/wiki/Windows_Server_2022");
 
@@ -174772,32 +174811,6 @@ namespace OverflowHelper.core
 
             correctionAdd("UE__", "User Equipment__");
 
-            // The SQL thing
-            correctionAdd("like__", "LIKE__");
-
-            // MySQL
-            //
-            // Note: "mysql" is the literal name of the (system) database
-            //
-            // Alternative URLs:
-            //
-            //   <https://mariadb.com/docs/server/reference/sql-statements/administrative-sql-statements/system-tables/the-mysql-database-tables>
-            //     The mysql database tables
-            //
-            correctionAdd("MySQL System Database__", "mysql system database__");
-            correctionAdd("MySQL system database__", "mysql system database__");
-            correctionAdd("mysql System Database__", "mysql system database__");
-            correctionAdd("mysql__", "mysql system database__");
-            correctionAdd("MySQL__", "mysql system database__"); // For the cross-reference
-
-            correctionAdd("Azure Sql Managed Instance__", "Azure SQL Managed Instance__");
-            correctionAdd("sql mi managed instance__", "Azure SQL Managed Instance__");
-            correctionAdd("Managed Instance__", "Azure SQL Managed Instance__");
-            correctionAdd("managed instance__", "Azure SQL Managed Instance__");
-            correctionAdd("Sql mi__", "Azure SQL Managed Instance__");
-            correctionAdd("sql mi__", "Azure SQL Managed Instance__");
-            correctionAdd("mi__", "Azure SQL Managed Instance__");
-
             // Machine learning / simulated intelligence (so-called AI)
             correctionAdd("roc__", "receiver operating characteristic__");
             correctionAdd("ROC__", "receiver operating characteristic__");
@@ -176648,6 +176661,12 @@ namespace OverflowHelper.core
             correctionAdd("RAZER__", "Razer__");
             correctionAdd("Razor__", "Razer__");
 
+            // Mechanical keyboards. A manufacturer of key switches.
+            correctionAdd("Wuque studio__", "Wuque Studio__");
+            correctionAdd("wuque__", "Wuque Studio__");
+            correctionAdd("Wuque__", "Wuque Studio__");
+            correctionAdd("WS__", "Wuque Studio__");
+
             // A 84-key (80%. Not true TKL) QMK-based commercial
             // mechanical keyboard.
             //
@@ -177548,12 +177567,40 @@ namespace OverflowHelper.core
             correctionAdd("932__", "500&nbsp;°C__");
             correctionAdd("500__", "500&nbsp;°C__");
 
+            correctionAdd("server__", "serves__");
+
             correctionAdd("team foundation server__", "Team Foundation Server__");
             correctionAdd("Azure DevOps Server__", "Team Foundation Server__");
             correctionAdd("TFS__", "Team Foundation Server__"); // Expansion.
             correctionAdd("tfs__", "Team Foundation Server__"); // Not actually observed.
             correctionAdd("Tfs__", "Team Foundation Server__");
             correctionAdd("TF__", "Team Foundation Server__");
+
+            // The SQL thing
+            correctionAdd("like__", "LIKE__");
+
+            // MySQL
+            //
+            // Note: "mysql" is the literal name of the (system) database
+            //
+            // Alternative URLs:
+            //
+            //   <https://mariadb.com/docs/server/reference/sql-statements/administrative-sql-statements/system-tables/the-mysql-database-tables>
+            //     The mysql database tables
+            //
+            correctionAdd("MySQL System Database__", "mysql system database__");
+            correctionAdd("MySQL system database__", "mysql system database__");
+            correctionAdd("mysql System Database__", "mysql system database__");
+            correctionAdd("mysql__", "mysql system database__");
+            correctionAdd("MySQL__", "mysql system database__"); // For the cross-reference
+
+            correctionAdd("Azure Sql Managed Instance__", "Azure SQL Managed Instance__");
+            correctionAdd("sql mi managed instance__", "Azure SQL Managed Instance__");
+            correctionAdd("Managed Instance__", "Azure SQL Managed Instance__");
+            correctionAdd("managed instance__", "Azure SQL Managed Instance__");
+            correctionAdd("Sql mi__", "Azure SQL Managed Instance__");
+            correctionAdd("sql mi__", "Azure SQL Managed Instance__");
+            correctionAdd("mi__", "Azure SQL Managed Instance__");
 
             // The unit for frame rate
             correctionAdd("frames per second__", "FPS__");
@@ -177865,6 +177912,8 @@ namespace OverflowHelper.core
             URL_Add("AZERTY__", "https://en.wikipedia.org/wiki/AZERTY");
 
             URL_Add("Razer__", "https://en.wikipedia.org/wiki/Razer_Inc.");
+
+            URL_Add("Wuque Studio__", "https://divinikey.com/products/wuque-ws-silent-tactile-switches");
 
             URL_Add("microcomputers__", "https://en.wikipedia.org/wiki/Microcomputer");
 
@@ -178569,6 +178618,8 @@ namespace OverflowHelper.core
             URL_Add("Google Nexus__", "https://en.wikipedia.org/wiki/Google_Nexus");
 
             URL_Add("Google (company)__", "https://en.wikipedia.org/wiki/Google");
+
+            URL_Add("serves__", "https://en.wiktionary.org/wiki/serve#Verb");
 
             URL_Add("Team Foundation Server__", "https://en.wikipedia.org/wiki/Azure_DevOps_Server"); // Old: https://en.wikipedia.org/wiki/Team_Foundation_Server
 
