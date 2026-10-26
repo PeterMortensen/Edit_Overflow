@@ -2895,10 +2895,6 @@ testCommandLineInterface 30 "${WORKFOLDER}/${DOT_NET_EDIT_OVERFLOW_PARTIAL_PATH}
 # and trailing characters
 checkCommandLineLookup 30 $supposedNativeApplicationPath "\"Timeless\" Homerow" "timeless home row keyboard modifier keys_"
 
-# We expect the lookup to succeed, even with
-# leading and trailing space as input
-checkCommandLineLookup 30 $supposedNativeApplicationPath  " OS "   " operating system "
-
 # Some (trailing) characters, like "#", should not
 # be automatically stripped ("c#" is a perfectly
 # OK word to look up).
@@ -2908,7 +2904,7 @@ checkCommandLineLookup 30 $supposedNativeApplicationPath  "c#"    "C#"
 
 # Check that the lookup looks in other word sets if
 # the direct lookup did not match
-checkCommandLineLookup 30 $supposedNativeApplicationPath  "group policy"  "Group Policy_"
+checkCommandLineLookup 30 $supposedNativeApplicationPath  "group policy"   "Group Policy_"
 checkCommandLineLookup 30 $supposedNativeApplicationPath  "group policy_"  "Group Policy_"
 
 # Boundary test: Look up word in the last alternative word set
@@ -2920,6 +2916,19 @@ checkCommandLineLookup 30 $supposedNativeApplicationPath  "mike"         "Mike__
 checkCommandLineLookup 30 $supposedNativeApplicationPath  "Attiny85_"  "ATtiny85"
 checkCommandLineLookup 30 $supposedNativeApplicationPath  "ni_____"    "New-Item"
 checkCommandLineLookup 30 $supposedNativeApplicationPath  "MD_"        "Markdown_"
+
+# We expect the lookup to succeed, even with
+# leading and trailing space as input
+checkCommandLineLookup 30 $supposedNativeApplicationPath  " OS "   " operating system"
+
+# Check that the lookup works with trailing space, both 
+# in the main word set and in alternative word sets.
+#
+# Note: For now, we assume the trailing 
+#       space is not preserved 
+#
+checkCommandLineLookup 30 $supposedNativeApplicationPath  "JS "    "JavaScript"
+checkCommandLineLookup 30 $supposedNativeApplicationPath  "usb "   "USB_"
 
 
 # ###########################################################################

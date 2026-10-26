@@ -51,17 +51,34 @@ namespace EditOverflow2
                 int wordSetsChecked = 0;
 
                 string originalLookupWord = lookupWord;
-                
+
+                // For now, to avoid false negative lookup in the alternative
+                // word sets for trailing space. But 1) the trailing space is
+                // lost, and 2) it doesn't work for other kinds of trailing
+                // characters to be ignored in the lookup, like some
+                // punctuation. We would need to apply the same kind
+                // of automatic stripping that the main word gets
+                // (in the processing in the classes).
+                //
+                string lookupWord_noTrailingSpace = lookupWord.TrimEnd(' ');
+
+                // Alias, to avoid changing the below when we fully
+                // implement the handling of trailing characters
+                // when looking up in the alternative wordsets.
+                //
+                string effectiveLookupWord = lookupWord_noTrailingSpace;
+
                 // Search in all word sets, no matter if the original
                 // word was in an alternative word set
                 //
                 // We presume the naming convention
                 // with trailing underscores.
                 //
-                string lookupWord_base = lookupWord.TrimEnd('_');
+                string lookupWord_base = effectiveLookupWord.TrimEnd('_');
 
                 // Counting from 0
-                int startWordset = lookupWord.Length - lookupWord_base.Length;
+                int startWordset = effectiveLookupWord.Length -
+                                   lookupWord_base.Length;
 
                 int wordset = startWordset;
 
@@ -71,7 +88,7 @@ namespace EditOverflow2
                 {
                     lookupResultStructure lookupResult =
                         someWordCorrector.lookup_Central(
-                            lookupWord, false, false);
+                            effectiveLookupWord, false, false);
 
                     string correctedText2 = lookupResult.correctedText;
                     int URLcount = lookupResult.URLcount;
@@ -90,7 +107,7 @@ namespace EditOverflow2
                     else
                     {
                         //Console.WriteLine(
-                        //    "The word \"" + lookupWord +
+                        //    "The word \"" + effectiveLookupWord +
                         //    "\" is not in the word list...");
                     }
 
@@ -106,9 +123,10 @@ namespace EditOverflow2
                         }
                     }
 
-                    lookupWord += "_"; // For the next word set.
-                                       // We presume the naming convention
-                                       // with trailing underscores
+                    // For the next word set.
+                    // We presume the naming convention
+                    // with trailing underscores
+                    effectiveLookupWord += "_";
 
                     wordset++; // An absolute word list number (zero-based)
                     if (wordset >= kWordSets)
@@ -116,10 +134,11 @@ namespace EditOverflow2
                         // Wrap around, so we also search in word sets
                         // lower than the specified (if the specified
                         // was in some alternative word set).
-                        
+
                         wordset = 0;
-                        lookupWord = lookupWord_base; // That is, without
-                                                      // trailing underscores.  
+
+                        // That is, without trailing underscores.
+                        effectiveLookupWord = lookupWord_base;
                     }
 
                 } // Through all word sets, until there is a match (or not)
