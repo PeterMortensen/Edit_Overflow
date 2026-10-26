@@ -19420,6 +19420,7 @@ namespace OverflowHelper.core
             correctionAdd("spcae", "space");
             correctionAdd("sapce", "space"); // A true typo
             correctionAdd("Sapce", "space");
+            correctionAdd("psace", "space"); // A true typo
             correctionAdd("0x20", "space");
 
             correctionAdd("freespace", "free space");
@@ -37260,6 +37261,8 @@ namespace OverflowHelper.core
             correctionAdd("Tucker", "Tucker Carlson");
 
             // An American oligarch
+            correctionAdd("Space Karen", "Elon Musk");
+            correctionAdd("space karen", "Elon Musk");
             correctionAdd("elon musk", "Elon Musk");
             correctionAdd("Mr. Musk", "Elon Musk");
             correctionAdd("Elon", "Elon Musk");
@@ -98250,6 +98253,10 @@ namespace OverflowHelper.core
             //
             //   Keychron Engine (stand-alone)
             //
+            // M6 user manual:
+            //
+            //   <https://www.keychron.com/pages/keychron-m6-8k-user-manual>
+            //           
             // Alternative URLs:
             //
             //   <https://www.youtube.com/watch?v=DdTulqs3w5M>
@@ -175102,6 +175109,7 @@ namespace OverflowHelper.core
             correctionAdd("integeric__", "integer__");
             correctionAdd("interger__", "integer__");
             correctionAdd("intreger__", "integer__");
+            correctionAdd("integrer__", "integer__");
             correctionAdd("intiger__", "integer__");
             correctionAdd("intager__", "integer__");
             correctionAdd("Integer__", "integer__");
