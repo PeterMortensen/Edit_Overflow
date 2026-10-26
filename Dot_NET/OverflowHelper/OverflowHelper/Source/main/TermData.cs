@@ -2631,6 +2631,153 @@ namespace OverflowHelper.core
             correctionAdd("didgy", "dodgy");
             correctionAdd("Dodgy", "dodgy");
 
+            correctionAdd("someone's wish is my command", "your wish is my command");
+            correctionAdd("is my wish", "your wish is my command");
+
+            correctionAdd("some one", "someone");
+            correctionAdd("someoone", "someone");
+            correctionAdd("Some one", "someone");
+            correctionAdd("soemone", "someone");
+            correctionAdd("ssomone", "someone");
+            correctionAdd("aomeone", "someone"); // A true typo
+            correctionAdd("somone", "someone");
+            correctionAdd("Soeone", "someone");
+            correctionAdd("soeone", "someone");
+            correctionAdd("some1", "someone");
+            correctionAdd("s.o", "someone");
+            correctionAdd("sm1", "someone");
+
+            correctionAdd("someon’es", "someone’s");
+            correctionAdd("someone's", "someone’s");
+            correctionAdd("someones", "someone’s");
+
+            correctionAdd("Someone else", "someone else");
+            correctionAdd("Someone elese", "someone else");
+            correctionAdd("someone elese", "someone else");
+
+            correctionAdd("someone else's", "someone else’s");
+            correctionAdd("someone elses", "someone else’s");
+            correctionAdd("Someone Elses", "someone else’s");
+
+            // Idiomatic
+            correctionAdd("take the wind out of someone's sails", "take the wind out of someone’s sails");
+            correctionAdd("take the wind out of someone's sail", "take the wind out of someone’s sails");
+            correctionAdd("take the wind out of someones sail", "take the wind out of someone’s sails");
+
+            correctionAdd("eslse", "else");
+            correctionAdd("elce", "else");
+            correctionAdd("elss", "else");
+            correctionAdd("ells", "else");
+
+            correctionAdd("for else", "or else");
+
+            correctionAdd("everyone elese", "everyone else");
+
+            correctionAdd("every one", "everyone");
+            correctionAdd("Enery one", "everyone");
+            correctionAdd("enery one", "everyone");
+            correctionAdd("Eneryone", "everyone");
+            correctionAdd("Everyone", "everyone");
+            correctionAdd("evryone", "everyone");
+            correctionAdd("everone", "everyone");
+            correctionAdd("Every1", "everyone");
+            correctionAdd("every1", "everyone");
+
+            // As the contraction of "everyone is"
+            correctionAdd("Everyone's", "everyone's");
+            correctionAdd("everyones", "everyone's");
+            correctionAdd("everones", "everyone's");
+
+            correctionAdd("everyone elese's", "everyone else's");
+
+            correctionAdd("One's", "one’s");
+            correctionAdd("one's", "one’s");
+            correctionAdd("ones", "one’s");
+
+            correctionAdd("sombebody", "somebody");
+            correctionAdd("Some body", "somebody");
+            correctionAdd("some body", "somebody");
+            correctionAdd("Somebody", "somebody");
+            correctionAdd("sombody", "somebody");
+            correctionAdd("smbdy", "somebody");
+            correctionAdd("sbd", "somebody");
+            correctionAdd("sb", "somebody");
+
+            correctionAdd("somebody else's", "somebody else’s");
+            correctionAdd("somebody elses", "somebody else’s");
+
+            correctionAdd("any body", "anybody");
+            correctionAdd("anbody", "anybody");
+
+            correctionAdd("every body", "everybody");
+            correctionAdd("everibody", "everybody");
+
+            correctionAdd("knowbody", "nobody");
+            correctionAdd("no body", "nobody");
+            correctionAdd("pobody", "nobody");
+            correctionAdd("nobady", "nobody");
+            correctionAdd("noboy", "nobody");
+            correctionAdd("nbd", "nobody");
+
+            correctionAdd("exicitement", "excitement");
+
+            correctionAdd("exsist", "exist");
+            correctionAdd("excist", "exist");
+
+            correctionAdd("exsists", "exists");
+            correctionAdd("exisst", "exists");
+            correctionAdd("exsits", "exists");
+            correctionAdd("esists", "exists");
+
+            correctionAdd("exsisted", "existed");
+
+            correctionAdd("exisiting", "existing");
+            correctionAdd("exisitng", "existing");
+            correctionAdd("exsiting", "existing");
+            correctionAdd("xisting", "existing");
+            correctionAdd("exsting", "existing");
+            correctionAdd("exising", "existing");
+
+            correctionAdd("pre-existing", "preexisting");
+
+            correctionAdd("non-existing", "nonexisting");
+            correctionAdd("non existing", "nonexisting");
+            correctionAdd("non-xisting", "nonexisting");
+            correctionAdd("nonxisting", "nonexisting");
+            correctionAdd("unexisting", "nonexisting");
+
+            correctionAdd("co-exist", "coexist");
+
+            correctionAdd("existant", "existent");
+
+            correctionAdd("existance", "existence");
+            correctionAdd("existanse", "existence");
+            correctionAdd("existense", "existence");
+            correctionAdd("existince", "existence");
+
+            correctionAdd("none existent", "nonexistent");
+            correctionAdd("non-existent", "nonexistent");
+            correctionAdd("non existant", "nonexistent");
+            correctionAdd("non existent", "nonexistent");
+            correctionAdd("non-existant", "nonexistent");
+            correctionAdd("not-existent", "nonexistent");
+            correctionAdd("none existen", "nonexistent");
+            correctionAdd("Non existent", "nonexistent");
+            correctionAdd("nonexistant", "nonexistent");
+            correctionAdd("non-existen", "nonexistent");
+            correctionAdd("Nonexistent", "nonexistent");
+            correctionAdd("inexistent", "nonexistent");
+
+            correctionAdd("non existence", "nonexistence");
+
+            correctionAdd("coexistense", "coexistence");
+
+            correctionAdd("the bane of", "bane of someone's existence");
+            correctionAdd("the bane", "bane of someone's existence");
+
+            // Idiomatic
+            correctionAdd("bane of my existance", "bane of my existence");
+
             correctionAdd("Hovering", "hovering");
             correctionAdd("Howering", "hovering");
             correctionAdd("howering", "hovering");
@@ -2734,6 +2881,21 @@ namespace OverflowHelper.core
             // In 'The Hitchhiker's Guide to the Galaxy'
             correctionAdd("protest", "existential protest");
 
+            // The Hitchhiker's Guide to the Galaxy
+            //
+            // Other quotes:
+            //
+            //   "not a natural tenable position for a whale"
+            //   "What is my purpose in life"
+            //   "I wonder if it will be friends with me."
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=QD9Q3zJ8IoU&t=5m28s>
+            //
+            correctionAdd("against all probability", "Against all probability, a sperm whale has suddenly been called into existence");
+            correctionAdd("called into existence", "Against all probability, a sperm whale has suddenly been called into existence");
+
             // In 'The Hitchhiker's Guide to the Galaxy'
             correctionAdd("Eddie", "Eddie (onboard computer)");
 
@@ -2807,21 +2969,6 @@ namespace OverflowHelper.core
             correctionAdd("telling anyone", "hiding information");
             correctionAdd("on display", "hiding information");
 
-            // The Hitchhiker's Guide to the Galaxy
-            //
-            // Other quotes:
-            //
-            //   "not a natural tenable position for a whale"
-            //   "What is my purpose in life"
-            //   "I wonder if it will be friends with me."
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.youtube.com/watch?v=QD9Q3zJ8IoU&t=5m28s>
-            //
-            correctionAdd("against all probability", "Against all probability, a sperm whale has suddenly been called into existence");
-            correctionAdd("called into existence", "Against all probability, a sperm whale has suddenly been called into existence");
-
             correctionAdd("domgatism", "dogmatism");
 
             correctionAdd("idies", "ideas");
@@ -2856,97 +3003,6 @@ namespace OverflowHelper.core
             // Idiomatic
             correctionAdd("sleep on", "sleep on it");
             correctionAdd("sleep", "sleep on it");
-
-            correctionAdd("someone's wish is my command", "your wish is my command");
-            correctionAdd("is my wish", "your wish is my command");
-
-            correctionAdd("some one", "someone");
-            correctionAdd("someoone", "someone");
-            correctionAdd("Some one", "someone");
-            correctionAdd("soemone", "someone");
-            correctionAdd("ssomone", "someone");
-            correctionAdd("aomeone", "someone"); // A true typo
-            correctionAdd("somone", "someone");
-            correctionAdd("Soeone", "someone");
-            correctionAdd("soeone", "someone");
-            correctionAdd("some1", "someone");
-            correctionAdd("s.o", "someone");
-            correctionAdd("sm1", "someone");
-
-            correctionAdd("someon’es", "someone’s");
-            correctionAdd("someone's", "someone’s");
-            correctionAdd("someones", "someone’s");
-
-            correctionAdd("Someone else", "someone else");
-            correctionAdd("Someone elese", "someone else");
-            correctionAdd("someone elese", "someone else");
-
-            correctionAdd("someone else's", "someone else’s");
-            correctionAdd("someone elses", "someone else’s");
-            correctionAdd("Someone Elses", "someone else’s");
-
-            correctionAdd("the bane of", "bane of someone's existence");
-            correctionAdd("the bane", "bane of someone's existence");
-
-            // Idiomatic
-            correctionAdd("take the wind out of someone's sails", "take the wind out of someone’s sails");
-            correctionAdd("take the wind out of someone's sail", "take the wind out of someone’s sails");
-            correctionAdd("take the wind out of someones sail", "take the wind out of someone’s sails");
-
-            correctionAdd("eslse", "else");
-            correctionAdd("elce", "else");
-            correctionAdd("elss", "else");
-            correctionAdd("ells", "else");
-
-            correctionAdd("for else", "or else");
-
-            correctionAdd("everyone elese", "everyone else");
-
-            correctionAdd("every one", "everyone");
-            correctionAdd("Enery one", "everyone");
-            correctionAdd("enery one", "everyone");
-            correctionAdd("Eneryone", "everyone");
-            correctionAdd("Everyone", "everyone");
-            correctionAdd("evryone", "everyone");
-            correctionAdd("everone", "everyone");
-            correctionAdd("Every1", "everyone");
-            correctionAdd("every1", "everyone");
-
-            // As the contraction of "everyone is"
-            correctionAdd("Everyone's", "everyone's");
-            correctionAdd("everyones", "everyone's");
-            correctionAdd("everones", "everyone's");
-
-            correctionAdd("everyone elese's", "everyone else's");
-
-            correctionAdd("One's", "one’s");
-            correctionAdd("one's", "one’s");
-            correctionAdd("ones", "one’s");
-
-            correctionAdd("sombebody", "somebody");
-            correctionAdd("Some body", "somebody");
-            correctionAdd("some body", "somebody");
-            correctionAdd("Somebody", "somebody");
-            correctionAdd("sombody", "somebody");
-            correctionAdd("smbdy", "somebody");
-            correctionAdd("sbd", "somebody");
-            correctionAdd("sb", "somebody");
-
-            correctionAdd("somebody else's", "somebody else’s");
-            correctionAdd("somebody elses", "somebody else’s");
-
-            correctionAdd("any body", "anybody");
-            correctionAdd("anbody", "anybody");
-
-            correctionAdd("every body", "everybody");
-            correctionAdd("everibody", "everybody");
-
-            correctionAdd("knowbody", "nobody");
-            correctionAdd("no body", "nobody");
-            correctionAdd("pobody", "nobody");
-            correctionAdd("nobady", "nobody");
-            correctionAdd("noboy", "nobody");
-            correctionAdd("nbd", "nobody");
 
             correctionAdd("nurchering", "nurturing");
 
@@ -21764,15 +21820,20 @@ namespace OverflowHelper.core
             correctionAdd("Saint Peter", "St. Peter");
             correctionAdd("St Peter", "St. Peter");
 
+            correctionAdd("The devil is in the details", "the devil is in the details");
+            correctionAdd("the Devil is in the details", "the devil is in the details");
+
+            correctionAdd("devils advocate", "devil's advocate");
+
             // Alternative URLs:
             //
             //   <https://en.wiktionary.org/wiki/mediaeval#Adjective>
             //
             correctionAdd("Mediaeval", "medieval");
             correctionAdd("mediaeval", "medieval");
-            correctionAdd("Midevil", "medieval");
             correctionAdd("medieva", "medieval");
             correctionAdd("medival", "medieval");
+            correctionAdd("Midevil", "medieval");
 
             correctionAdd("detaikl", "detail");
             correctionAdd("deatil", "detail");
@@ -21788,10 +21849,6 @@ namespace OverflowHelper.core
 
             correctionAdd("detailled", "detailed");
             correctionAdd("detialed", "detailed");
-
-            correctionAdd("The devil is in the details", "the devil is in the details");
-
-            correctionAdd("devils advocate", "devil's advocate");
 
             correctionAdd("Eaater", "Easter");
             correctionAdd("easter", "Easter");
@@ -31618,9 +31675,6 @@ namespace OverflowHelper.core
             correctionAdd("test your patience", "tax your patience");
             correctionAdd("try your patience", "tax your patience");
 
-            // Idiomatic
-            correctionAdd("bane of my existance", "bane of my existence");
-
             correctionAdd("accordnung", "according");
             correctionAdd("accoroding", "according");
             correctionAdd("accorging", "according");
@@ -32182,6 +32236,9 @@ namespace OverflowHelper.core
             correctionAdd("aaa", "AAA");
 
             correctionAdd("Game Console", "game console");
+
+            // Gaming. Cheating
+            correctionAdd("gamshark", "GameShark");
 
             correctionAdd("Game Engine", "game engine");
             correctionAdd("gameengine", "game engine");
@@ -42865,8 +42922,6 @@ namespace OverflowHelper.core
             correctionAdd("behind-the-scenes", "behind the scenes");
             correctionAdd("behind the screen", "behind the scenes"); // An autocorrect "masterpiece"?
             correctionAdd("behind the scene", "behind the scenes");
-
-            correctionAdd("coexistense", "coexistence");
 
             correctionAdd("phonne", "phone");
             correctionAdd("‘phone", "phone");
@@ -57281,8 +57336,13 @@ namespace OverflowHelper.core
             correctionAdd("link only", "link-only");
 
             correctionAdd("Don’t use \"click here\"", "dress the naked links");
+            correctionAdd("non-naked link", "dress the naked links");
+            correctionAdd("nonnaked link", "dress the naked links");
             correctionAdd("naked links", "dress the naked links");
             correctionAdd("naked link", "dress the naked links");
+            correctionAdd("non-naked", "dress the naked links");
+            correctionAdd("nonnaked", "dress the naked links");
+            correctionAdd("naked", "dress the naked links");
 
             correctionAdd("linktext", "link text");
 
@@ -79912,57 +79972,6 @@ namespace OverflowHelper.core
 
             correctionAdd("hall-mark", "hallmark");
 
-            correctionAdd("exicitement", "excitement");
-
-            correctionAdd("exsist", "exist");
-            correctionAdd("excist", "exist");
-
-            correctionAdd("exsists", "exists");
-            correctionAdd("exisst", "exists");
-            correctionAdd("exsits", "exists");
-            correctionAdd("esists", "exists");
-
-            correctionAdd("exsisted", "existed");
-
-            correctionAdd("exisiting", "existing");
-            correctionAdd("exisitng", "existing");
-            correctionAdd("exsiting", "existing");
-            correctionAdd("xisting", "existing");
-            correctionAdd("exsting", "existing");
-            correctionAdd("exising", "existing");
-
-            correctionAdd("existant", "existent");
-
-            correctionAdd("existance", "existence");
-            correctionAdd("existanse", "existence");
-            correctionAdd("existense", "existence");
-            correctionAdd("existince", "existence");
-
-            correctionAdd("pre-existing", "preexisting");
-
-            correctionAdd("non-existing", "nonexisting");
-            correctionAdd("non existing", "nonexisting");
-            correctionAdd("non-xisting", "nonexisting");
-            correctionAdd("nonxisting", "nonexisting");
-            correctionAdd("unexisting", "nonexisting");
-
-            correctionAdd("none existent", "nonexistent");
-            correctionAdd("non-existent", "nonexistent");
-            correctionAdd("non existant", "nonexistent");
-            correctionAdd("non existent", "nonexistent");
-            correctionAdd("non-existant", "nonexistent");
-            correctionAdd("not-existent", "nonexistent");
-            correctionAdd("none existen", "nonexistent");
-            correctionAdd("Non existent", "nonexistent");
-            correctionAdd("nonexistant", "nonexistent");
-            correctionAdd("non-existen", "nonexistent");
-            correctionAdd("Nonexistent", "nonexistent");
-            correctionAdd("inexistent", "nonexistent");
-
-            correctionAdd("non existence", "nonexistence");
-
-            correctionAdd("co-exist", "coexist");
-
             correctionAdd("leaved", "left");
             correctionAdd("letf", "left");
 
@@ -92082,6 +92091,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("Keychron V5 Ultra 8K", "Keychron&nbsp;V5&nbsp;Ultra&nbsp;8K"); // Sort of identity mapping
             correctionAdd("V5 Ultra 8K", "Keychron&nbsp;V5&nbsp;Ultra&nbsp;8K");
+            correctionAdd("V5 Ultra", "Keychron&nbsp;V5&nbsp;Ultra&nbsp;8K");
 
             // A 98-key (95%. Not true TKL) crippled (wrt. missing
             // PgUp and PgDn, etc.) wired-only QMK/Via-capable
@@ -116972,8 +116982,6 @@ namespace OverflowHelper.core
 
             URL_Add("noncomprehensive", "https://en.wiktionary.org/wiki/noncomprehensive#Adjective");
 
-            URL_Add("nonexistent", "https://en.wiktionary.org/wiki/nonexistent#Adjective");
-
             URL_Add("resupply", "https://en.wiktionary.org/wiki/resupply#Noun");
 
             URL_Add("typically", "https://en.wiktionary.org/wiki/typically#Adverb");
@@ -121403,8 +121411,6 @@ namespace OverflowHelper.core
             URL_Add("lack thereof", "https://www.merriam-webster.com/dictionary/lack%20thereof");
 
             URL_Add("longform", "https://en.wiktionary.org/wiki/longform#Adjective");
-
-            URL_Add("nonexistence", "https://en.wiktionary.org/wiki/nonexistence#Noun");
 
             URL_Add("outsiders", "https://en.wiktionary.org/wiki/outsider#Noun");
 
@@ -126788,14 +126794,6 @@ namespace OverflowHelper.core
 
             URL_Add("in your shoes", "https://en.wiktionary.org/wiki/in_someone%27s_shoes#Prepositional_phrase");
 
-            URL_Add("bane of my existence", "https://en.wiktionary.org/wiki/bane_of_someone%27s_existence#Noun");
-
-            URL_Add("driving me up the wall", "https://en.wiktionary.org/wiki/drive_someone_up_the_wall#Verb");
-
-            URL_Add("bane of someone's existence", "https://en.wiktionary.org/wiki/bane_of_someone%27s_existence#Noun");
-
-            URL_Add("take the wind out of someone’s sails", "https://en.wiktionary.org/wiki/take_the_wind_out_of_someone%27s_sails#Verb");
-
             URL_Add("Palm OS", "https://en.wikipedia.org/wiki/Palm_OS");
 
             URL_Add("press conference", "https://en.wikipedia.org/wiki/Press_conference");
@@ -127977,8 +127975,6 @@ namespace OverflowHelper.core
             URL_Add("Smart Fortwo", "https://en.wikipedia.org/wiki/Smart_Fortwo");
 
             URL_Add("cars", "https://en.wiktionary.org/wiki/car#Noun");
-
-            URL_Add("coexistence", "https://en.wiktionary.org/wiki/coexistence#Noun");
 
             URL_Add("Intel 8088", "https://en.wikipedia.org/wiki/Intel_8088");
 
@@ -129779,8 +129775,6 @@ namespace OverflowHelper.core
             URL_Add("wasting", "https://en.wiktionary.org/wiki/waste#Verb");
 
             URL_Add("WASD", "https://en.wikipedia.org/wiki/WASD_keys#WASD_keys");
-
-            URL_Add("Against all probability, a sperm whale has suddenly been called into existence", "https://www.youtube.com/watch?v=b7nI7N1ZSQg&t=2m36s");
 
             URL_Add("aren't in Kansas anymore", "https://en.wiktionary.org/wiki/not_in_Kansas_anymore#Adjective");
 
@@ -142294,22 +142288,6 @@ namespace OverflowHelper.core
 
             URL_Add("We don't need stinking badges", "https://stackoverflow.blog/2008/07/12/stack-overflow-badge-feedbac/");
 
-            URL_Add("excitement", "https://en.wiktionary.org/wiki/excitement#Noun");
-
-            URL_Add("exist", "https://en.wiktionary.org/wiki/exist#Verb");
-
-            URL_Add("exists", "https://en.wiktionary.org/wiki/exist#Verb");
-
-            URL_Add("existing", "https://en.wiktionary.org/wiki/existing#Adjective");
-
-            URL_Add("existed", "https://en.wiktionary.org/wiki/exist#Verb");
-
-            URL_Add("existent", "https://en.wiktionary.org/wiki/existent#Adjective");
-
-            URL_Add("existence", "https://en.wiktionary.org/wiki/existence#Noun"); // Old: https://en.wiktionary.org/wiki/existance
-
-            URL_Add("existential protest", "https://www.youtube.com/watch?v=jHG2tHJWVK8&t=12m0s");
-
             URL_Add("clear", "https://en.wiktionary.org/wiki/clear#Adjective");
 
             URL_Add("protein", "https://en.wikipedia.org/wiki/Protein");
@@ -143979,6 +143957,8 @@ namespace OverflowHelper.core
             URL_Add("gameplay", "https://en.wiktionary.org/wiki/gameplay#Noun");
 
             URL_Add("game console", "https://en.wikipedia.org/wiki/Video_game_console");
+
+            URL_Add("GameShark", "https://en.wikipedia.org/wiki/GameShark");
 
             URL_Add("games", "https://en.wiktionary.org/wiki/game#Noun");
 
@@ -151373,6 +151353,38 @@ namespace OverflowHelper.core
             URL_Add("ideological", "https://en.wiktionary.org/wiki/ideological#Adjective");
 
             URL_Add("pathological", "https://en.wiktionary.org/wiki/pathological#Adjective");
+
+            URL_Add("driving me up the wall", "https://en.wiktionary.org/wiki/drive_someone_up_the_wall#Verb");
+
+            URL_Add("take the wind out of someone’s sails", "https://en.wiktionary.org/wiki/take_the_wind_out_of_someone%27s_sails#Verb");
+
+            URL_Add("excitement", "https://en.wiktionary.org/wiki/excitement#Noun");
+
+            URL_Add("exist", "https://en.wiktionary.org/wiki/exist#Verb");
+
+            URL_Add("exists", "https://en.wiktionary.org/wiki/exist#Verb");
+
+            URL_Add("existing", "https://en.wiktionary.org/wiki/existing#Adjective");
+
+            URL_Add("existed", "https://en.wiktionary.org/wiki/exist#Verb");
+
+            URL_Add("existent", "https://en.wiktionary.org/wiki/existent#Adjective");
+
+            URL_Add("existence", "https://en.wiktionary.org/wiki/existence#Noun"); // Old: https://en.wiktionary.org/wiki/existance
+
+            URL_Add("nonexistent", "https://en.wiktionary.org/wiki/nonexistent#Adjective");
+
+            URL_Add("nonexistence", "https://en.wiktionary.org/wiki/nonexistence#Noun");
+
+            URL_Add("coexistence", "https://en.wiktionary.org/wiki/coexistence#Noun");
+
+            URL_Add("bane of my existence", "https://en.wiktionary.org/wiki/bane_of_someone%27s_existence#Noun");
+
+            URL_Add("bane of someone's existence", "https://en.wiktionary.org/wiki/bane_of_someone%27s_existence#Noun");
+
+            URL_Add("existential protest", "https://www.youtube.com/watch?v=jHG2tHJWVK8&t=12m0s");
+
+            URL_Add("Against all probability, a sperm whale has suddenly been called into existence", "https://www.youtube.com/watch?v=b7nI7N1ZSQg&t=2m36s");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -167840,6 +167852,8 @@ namespace OverflowHelper.core
             correctionAdd("interference_", "radio interference_"); // For the cross-reference
             correctionAdd("radio_", "radio interference_"); // For the cross-reference
 
+            correctionAdd("exsitential_", "existential_");
+
             // C. A book
             //
             // Authors: Brian Kernighan and Dennis Ritchie
@@ -172549,6 +172563,8 @@ namespace OverflowHelper.core
 
             URL_Add("Electronic Arts AntiCheat_", "https://www.theverge.com/2022/9/13/23351900/ea-kernel-level-anti-cheat-system-fifa-23");
 
+            URL_Add("existential_", "https://en.wiktionary.org/wiki/existential#Adjective");
+
         } //addLookupData_alternativeWordSet()
 
 
@@ -173123,6 +173139,26 @@ namespace OverflowHelper.core
 
             correctionAdd("csend__", "send__");
             correctionAdd("sand__", "send__");
+
+            correctionAdd("super cap__", "supercapacitor__");
+            correctionAdd("SC__", "supercapacitor__");
+
+            // Tintin
+            correctionAdd("captain__", "Captain Haddock__");
+            correctionAdd("hadook__", "Captain Haddock__");
+
+            correctionAdd("ANSI color escape sequence__", "ANSI escape code__");
+            correctionAdd("ANSI escape sequence__", "ANSI escape code__");
+            correctionAdd("ANSI color sequence__", "ANSI escape code__");
+            correctionAdd("ansi escape code__", "ANSI escape code__");
+            correctionAdd("escape sequences__", "ANSI escape code__");
+            correctionAdd("escape sequence__", "ANSI escape code__");
+            correctionAdd("ANSI keycode__", "ANSI escape code__");
+            correctionAdd("ANSI escape__", "ANSI escape code__");
+            correctionAdd("ANSI color__", "ANSI escape code__");
+            correctionAdd("ANSI code__", "ANSI escape code__");
+            correctionAdd("ANSI esc__", "ANSI escape code__");
+            correctionAdd("ANSI__", "ANSI escape code__");
 
             // A text editor
             correctionAdd("Sublime text__", "Sublime Text__");
@@ -175564,18 +175600,6 @@ namespace OverflowHelper.core
             // Backup software for Mac
             correctionAdd("time machine__", "Time Machine__");
 
-            // Software. The macOS thing
-            //
-            // Not to be confused with boot camp (common noun),
-            // 37signals' Basecamp or coding bootcamp.
-            //
-            correctionAdd("boot camp__", "Boot Camp__");
-            correctionAdd("base camp__", "Boot Camp__"); // For the cross-reference
-            correctionAdd("BootCamp__", "Boot Camp__");
-            correctionAdd("Bootcamp__", "Boot Camp__");
-            correctionAdd("bootcamp__", "Boot Camp__");
-            correctionAdd("bootcap__", "Boot Camp__");
-
             // Not to be confused with Parallels Desktop for Mac
             correctionAdd("Parallels Desktop for Mac__", "GNU parallel__"); // For the cross-reference
             correctionAdd("gnu parallel__", "GNU parallel__");
@@ -175589,6 +175613,18 @@ namespace OverflowHelper.core
             // Not to be confused with Google's SketchUp.
             //
             correctionAdd("sketch__", "Sketch__");
+
+            // Software. The macOS thing
+            //
+            // Not to be confused with boot camp (common noun),
+            // 37signals' Basecamp or coding bootcamp.
+            //
+            correctionAdd("boot camp__", "Boot Camp__");
+            correctionAdd("base camp__", "Boot Camp__"); // For the cross-reference
+            correctionAdd("BootCamp__", "Boot Camp__");
+            correctionAdd("Bootcamp__", "Boot Camp__");
+            correctionAdd("bootcamp__", "Boot Camp__");
+            correctionAdd("bootcap__", "Boot Camp__");
 
             // Software for vector designs for web and
             // mobile applications,
@@ -176420,19 +176456,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Azure__", "azure__");
 
-            correctionAdd("ANSI color escape sequence__", "ANSI escape code__");
-            correctionAdd("ANSI escape sequence__", "ANSI escape code__");
-            correctionAdd("ANSI color sequence__", "ANSI escape code__");
-            correctionAdd("ansi escape code__", "ANSI escape code__");
-            correctionAdd("escape sequences__", "ANSI escape code__");
-            correctionAdd("escape sequence__", "ANSI escape code__");
-            correctionAdd("ANSI keycode__", "ANSI escape code__");
-            correctionAdd("ANSI escape__", "ANSI escape code__");
-            correctionAdd("ANSI color__", "ANSI escape code__");
-            correctionAdd("ANSI code__", "ANSI escape code__");
-            correctionAdd("ANSI esc__", "ANSI escape code__");
-            correctionAdd("ANSI__", "ANSI escape code__");
-
             // Note: Is here because some of the mappings
             //       conflicts in the main word set (e.g.,
             //       "OS" for operating system)
@@ -177066,10 +177089,6 @@ namespace OverflowHelper.core
             correctionAdd("ECAD__", "electronic design automation__");
             correctionAdd("EDA__", "electronic design automation__");
             correctionAdd("EA__", "electronic design automation__");
-
-            // Tintin
-            correctionAdd("captain__", "Captain Haddock__");
-            correctionAdd("hadook__", "Captain Haddock__");
 
             // Idiomatic?
             correctionAdd("for the intents and purposes__", "for all intents and purposes__");
@@ -177805,7 +177824,37 @@ namespace OverflowHelper.core
 
             URL_Add("leave__", "https://en.wiktionary.org/wiki/leave#Verb");
 
+            URL_Add("supercapacitor__", "https://en.wikipedia.org/wiki/Supercapacitor");
+
+            URL_Add("Captain Haddock__", "https://en.wikipedia.org/wiki/Captain_Haddock");
+
             URL_Add("ANSI escape code__", "https://en.wikipedia.org/wiki/ANSI_escape_code");
+
+            URL_Add("Caps Lock key__", "https://en.wikipedia.org/wiki/Caps_Lock");
+
+            URL_Add("Dash keycaps__", "https://dygma.com/products/keycaps?variant=43658946314478");
+
+            URL_Add("keycap profile__", "https://thekeeblog.com/overview-of-different-keycap-profiles/");
+
+            URL_Add("MA keycap profile__", "https://thekeeblog.com/overview-of-different-keycap-profiles/#MA_Profile");
+
+            URL_Add("KSA keycap profile__", "https://thekeeblog.com/overview-of-different-keycap-profiles/#KSA_Profile");
+
+            URL_Add("SA keycap profile__", "https://www.youtube.com/watch?v=xLT2VcrQHrQ&t=3m13s");
+
+            URL_Add("Ctrl key__", "https://en.wikipedia.org/wiki/Control_key");
+
+            URL_Add("Delete key__", "https://en.wikipedia.org/wiki/Delete_key");
+
+            URL_Add("function keys row (F1 - F12)__", "https://en.wikipedia.org/wiki/Fn_key");
+
+            URL_Add("keyboard modifier key__", "https://en.wikipedia.org/wiki/Modifier_key");
+
+            URL_Add("keyboard modifier keys__", "https://en.wikipedia.org/wiki/Modifier_key");
+
+            URL_Add("input method editor__", "https://en.wikipedia.org/wiki/Input_method");
+
+            URL_Add("Boot Camp__", "https://en.wikipedia.org/wiki/Boot_Camp_%28software%29");
 
             URL_Add("open source__", "https://en.wikipedia.org/wiki/Open_source");
 
@@ -177846,8 +177895,6 @@ namespace OverflowHelper.core
             URL_Add("flag__", "https://en.wiktionary.org/wiki/flag#Noun");
 
             URL_Add("electronic design automation__", "https://en.wikipedia.org/wiki/Electronic_design_automation");
-
-            URL_Add("Captain Haddock__", "https://en.wikipedia.org/wiki/Captain_Haddock");
 
             URL_Add("Firefly PC Remote__", "https://en.wikipedia.org/wiki/SnapStream#Firefly_PC_Remote");
 
@@ -178323,20 +178370,6 @@ namespace OverflowHelper.core
 
             URL_Add("Signal__", "https://en.wikipedia.org/wiki/Signal_(software)");
 
-            URL_Add("input method editor__", "https://en.wikipedia.org/wiki/Input_method");
-
-            URL_Add("keyboard modifier key__", "https://en.wikipedia.org/wiki/Modifier_key");
-
-            URL_Add("keyboard modifier keys__", "https://en.wikipedia.org/wiki/Modifier_key");
-
-            URL_Add("Ctrl key__", "https://en.wikipedia.org/wiki/Control_key");
-
-            URL_Add("Delete key__", "https://en.wikipedia.org/wiki/Delete_key");
-
-            URL_Add("Caps Lock key__", "https://en.wikipedia.org/wiki/Caps_Lock");
-
-            URL_Add("function keys row (F1 - F12)__", "https://en.wikipedia.org/wiki/Fn_key");
-
             URL_Add("Winter Bash__", "https://meta.stackexchange.com/tags/winter-bash/info"); // Old: https://meta.stackexchange.com/questions/tagged/winter-bash
 
             URL_Add("fields__", "https://en.wiktionary.org/wiki/field#Noun");
@@ -178488,8 +178521,6 @@ namespace OverflowHelper.core
             URL_Add("less__", "https://en.wiktionary.org/wiki/less#Adverb");
 
             URL_Add("Nordic Semiconductor__", "https://en.wikipedia.org/wiki/Nordic_Semiconductor");
-
-            URL_Add("Dash keycaps__", "https://dygma.com/products/keycaps?variant=43658946314478");
 
             URL_Add("&mdash;__", "https://en.wiktionary.org/wiki/em_dash#Noun");
 
@@ -178789,8 +178820,6 @@ namespace OverflowHelper.core
 
             URL_Add("Time Machine__", "https://en.wikipedia.org/wiki/Time_Machine_(macOS)");
 
-            URL_Add("Boot Camp__", "https://en.wikipedia.org/wiki/Boot_Camp_%28software%29");
-
             URL_Add("throw__", "https://en.wiktionary.org/wiki/throw#Verb");
 
             URL_Add("LOFL__", "https://en.wiktionary.org/wiki/ROFL#Phrase");
@@ -178802,14 +178831,6 @@ namespace OverflowHelper.core
             URL_Add("ATmega__", "https://en.wikipedia.org/wiki/AVR_microcontrollers#Basic_families");
 
             URL_Add("board__", "https://en.wiktionary.org/wiki/board#Noun");
-
-            URL_Add("keycap profile__", "https://thekeeblog.com/overview-of-different-keycap-profiles/");
-
-            URL_Add("MA keycap profile__", "https://thekeeblog.com/overview-of-different-keycap-profiles/#MA_Profile");
-
-            URL_Add("KSA keycap profile__", "https://thekeeblog.com/overview-of-different-keycap-profiles/#KSA_Profile");
-
-            URL_Add("SA keycap profile__", "https://www.youtube.com/watch?v=xLT2VcrQHrQ&t=3m13s");
 
             URL_Add("odd-numbered Keychron 'K' keyboards are low profile__", "https://www.youtube.com/watch?v=5oy9WgwUDTw&t=1m26s");
 
@@ -181982,6 +182003,10 @@ namespace OverflowHelper.core
 
             URL_Add("capitalise___", "https://en.wiktionary.org/wiki/capitalise#Verb");
 
+            URL_Add("Cherry keycap profile___", "https://switchandclick.com/sa-vs-dsa-vs-oem-vs-cherry-vs-xda-keycap-profiles/");
+
+            URL_Add("MSA keycap profile___", "https://thekeeblog.com/overview-of-different-keycap-profiles/#MA_Profile");
+
             URL_Add("Unity Operating System___", "https://en.wikipedia.org/wiki/Unity_Operating_System");
 
             URL_Add("number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___", "https://www.reddit.com/r/Keychron/comments/1ip03k0/comment/n52qr9o/");
@@ -181995,20 +182020,6 @@ namespace OverflowHelper.core
             URL_Add("Chrome Canary___", "https://en.wikipedia.org/wiki/Google_Chrome#Release_channels,_cycles_and_updates");
 
             URL_Add("short___", "https://en.wiktionary.org/wiki/short#Adjective");
-
-            URL_Add("I___", "https://en.wikipedia.org/wiki/Capitalization#Pronouns");
-
-            URL_Add("am___", "https://en.wiktionary.org/wiki/am#Verb");
-
-            URL_Add("are___", "https://en.wiktionary.org/wiki/are#Verb");
-
-            URL_Add("where___", "https://www.wikihow.com/Use-Where,-Were-and-We're");
-
-            URL_Add("effect___", "https://www.wikihow.com/Use-Affect-and-Effect-Properly");
-
-            URL_Add("their___", "https://www.wikihow.com/Use-There,-Their-and-They%27re");
-
-            URL_Add("then___", "https://www.wikihow.com/Use-Than-and-Then");
 
             URL_Add("Tesla coil___", "https://en.wikipedia.org/wiki/Tesla_coil");
 
@@ -182045,10 +182056,6 @@ namespace OverflowHelper.core
             URL_Add("map___", "https://en.wiktionary.org/wiki/map#Verb");
 
             URL_Add("UV mapping___", "https://en.wikipedia.org/wiki/UV_mapping");
-
-            URL_Add("Cherry keycap profile___", "https://switchandclick.com/sa-vs-dsa-vs-oem-vs-cherry-vs-xda-keycap-profiles/");
-
-            URL_Add("MSA keycap profile___", "https://thekeeblog.com/overview-of-different-keycap-profiles/#MA_Profile");
 
             URL_Add("ActionScript___", "https://en.wikipedia.org/wiki/ActionScript");
 
@@ -182171,6 +182178,20 @@ namespace OverflowHelper.core
             URL_Add("USB Low Speed___", "https://en.wikipedia.org/wiki/USB#USB_1.x");
 
             URL_Add("USB High Speed___", "https://en.wikipedia.org/wiki/USB#USB_2.0");
+
+            URL_Add("am___", "https://en.wiktionary.org/wiki/am#Verb");
+
+            URL_Add("are___", "https://en.wiktionary.org/wiki/are#Verb");
+
+            URL_Add("where___", "https://www.wikihow.com/Use-Where,-Were-and-We're");
+
+            URL_Add("effect___", "https://www.wikihow.com/Use-Affect-and-Effect-Properly");
+
+            URL_Add("their___", "https://www.wikihow.com/Use-There,-Their-and-They%27re");
+
+            URL_Add("then___", "https://www.wikihow.com/Use-Than-and-Then");
+
+            URL_Add("I___", "https://en.wikipedia.org/wiki/Capitalization#Pronouns");
 
         } //addLookupData_alternativeWordSet3()
 
@@ -184447,8 +184468,6 @@ namespace OverflowHelper.core
 
             URL_Add("R____", "https://en.wikipedia.org/wiki/R_%28programming_language%29");
 
-            URL_Add("121GW____", "https://www.eevblog.com/product/121gw/");
-
             URL_Add("why____", "https://en.wiktionary.org/wiki/why#Adverb");
 
             URL_Add("V____", "https://en.wikipedia.org/wiki/V_(programming_language)");
@@ -184522,8 +184541,6 @@ namespace OverflowHelper.core
             URL_Add("modules____", "https://en.wiktionary.org/wiki/module#Noun");
 
             URL_Add("ID____", "https://en.wiktionary.org/wiki/ID#Noun");
-
-            URL_Add("&nbsp;u____", "https://www.youtube.com/watch?v=xLT2VcrQHrQ&t=5m5s");
 
             URL_Add("Internet Protocol____", "https://en.wikipedia.org/wiki/Internet_Protocol");
 
@@ -184700,6 +184717,10 @@ namespace OverflowHelper.core
             URL_Add("sort()____", "https://docs.python.org/3.8/library/stdtypes.html#list.sort");
 
             URL_Add("USB Full Speed____", "https://en.wikipedia.org/wiki/USB#USB_1.x");
+
+            URL_Add("121GW____", "https://www.eevblog.com/product/121gw/");
+
+            URL_Add("&nbsp;u____", "https://www.youtube.com/watch?v=xLT2VcrQHrQ&t=5m5s");
 
         } //addLookupData_alternativeWordSet4()
 
@@ -186028,8 +186049,6 @@ namespace OverflowHelper.core
 
             URL_Add("genetic algorithm_____", "https://en.wikipedia.org/wiki/Genetic_algorithm");
 
-            URL_Add("flux capacitor_____", "https://en.wikipedia.org/wiki/DeLorean_time_machine#Flux_capacitor"); // Old: https://en.wikipedia.org/wiki/DeLorean_time_machine
-
             URL_Add("K10 V2 with overlubricated switches_____", "https://www.reddit.com/r/Keychron/comments/1n9l1m0/comment/ncptj9i/");
 
             URL_Add("QMK macros_____", "https://getreuer.info/posts/keyboards/macros/index.html");
@@ -186051,6 +186070,8 @@ namespace OverflowHelper.core
             URL_Add("fast mode_____", "https://en.wikipedia.org/wiki/I2C#Design");
 
             URL_Add("high-speed mode_____", "https://en.wikipedia.org/wiki/I2C#Design");
+
+            URL_Add("flux capacitor_____", "https://en.wikipedia.org/wiki/DeLorean_time_machine#Flux_capacitor"); // Old: https://en.wikipedia.org/wiki/DeLorean_time_machine
 
             URL_Add("&nbsp;K_____", "https://en.wikipedia.org/wiki/Kelvin");
 
