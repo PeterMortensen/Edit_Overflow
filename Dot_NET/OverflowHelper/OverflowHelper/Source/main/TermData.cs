@@ -1168,6 +1168,299 @@ namespace OverflowHelper.core
             correctionAdd("Windows Nano server", "Microsoft Nano Server");
             correctionAdd("Windows Nano", "Microsoft Nano Server");
 
+            correctionAdd("releted", "relate"); // Not 100% correct - word type.
+            correctionAdd("relatew", "relate");
+            correctionAdd("relete", "relate");
+
+            correctionAdd("realated", "related");
+            correctionAdd("releated", "related");
+            correctionAdd("realted", "related");
+            correctionAdd("relatet", "related");
+            correctionAdd("relater", "related");
+            correctionAdd("Related", "related");
+            correctionAdd("Realted", "related");
+
+            correctionAdd("rerlatable", "relatable");
+
+            correctionAdd("un-related", "unrelated");
+
+            correctionAdd("realtion", "relation");
+
+            correctionAdd("relation ship", "relationship");
+            correctionAdd("rleationship", "relationship");
+            correctionAdd("realtionship", "relationship");
+
+            // Note: "relative" is in an alternative word set
+            correctionAdd("relativeley", "relatively");
+            correctionAdd("relativelly", "relatively");
+            correctionAdd("reletively", "relatively");
+            correctionAdd("relativety", "relatively");
+            correctionAdd("relitively", "relatively");
+            correctionAdd("relativley", "relatively");
+            correctionAdd("relativly", "relatively");
+
+            correctionAdd("releveant", "relevant");
+            correctionAdd("relevenat", "relevant");
+            correctionAdd("Relevenat", "relevant");
+            correctionAdd("relevent", "relevant");
+            correctionAdd("relavent", "relevant");
+            correctionAdd("relavant", "relevant");
+            correctionAdd("revelant", "relevant");
+            correctionAdd("relevate", "relevant");
+            correctionAdd("relative", "relevant");
+            correctionAdd("relvant", "relevant");
+
+            correctionAdd("relevence", "relevance");
+            correctionAdd("Relivence", "relevance");
+            correctionAdd("relivence", "relevance");
+
+            correctionAdd("irrelavant", "irrelevant");
+            correctionAdd("irrelivant", "irrelevant");
+            correctionAdd("irrelevent", "irrelevant");
+            correctionAdd("irrelvant", "irrelevant");
+
+            correctionAdd("reliefed", "relieved");
+            correctionAdd("releaved", "relieved");
+
+            correctionAdd("relay", "rely");
+
+            correctionAdd("relays", "relies");
+            correctionAdd("relys", "relies");
+
+            correctionAdd("relaying", "relying");
+            correctionAdd("Relaying", "relying");
+            correctionAdd("relylng", "relying");
+
+            correctionAdd("relailable", "reliable");
+            correctionAdd("reliablle", "reliable");
+            correctionAdd("relilable", "reliable");
+            correctionAdd("realiable", "reliable");
+
+            correctionAdd("unrealiable", "unreliable");
+            correctionAdd("unrylable", "unreliable");
+
+            correctionAdd("reliablly", "reliably");
+            correctionAdd("realiably", "reliably");
+
+            correctionAdd("reliablity", "reliability");
+
+            correctionAdd("unreliablity", "unreliability");
+
+            correctionAdd("self reliant", "self-reliant");
+
+            correctionAdd("stoicism", "Stoicism");
+
+            correctionAdd("Realistic", "realistic");
+
+            correctionAdd("realisticaly", "realistically");
+
+            correctionAdd("relialize", "realise");
+            correctionAdd("relaeies", "realise");
+            correctionAdd("relaeise", "realise");
+            correctionAdd("realeise", "realise");
+            correctionAdd("relalize", "realise");
+            correctionAdd("realieze", "realise");
+            correctionAdd("relieaze", "realise");
+            correctionAdd("reilize", "realise");
+            correctionAdd("reliase", "realise");
+            correctionAdd("reliaze", "realise");
+            correctionAdd("realize", "realise");
+            correctionAdd("relize", "realise");
+            correctionAdd("relise", "realise");
+
+            correctionAdd("reliasing", "realising");
+            correctionAdd("relaizing", "realising");
+            correctionAdd("reliazing", "realising");
+            correctionAdd("realizing", "realising");
+
+            correctionAdd("realeised", "realised");
+            correctionAdd("relaeiesd", "realised");
+            correctionAdd("relaeised", "realised");
+            correctionAdd("realiser", "realised"); // A true typo
+
+            correctionAdd("realise the errors of their ways", "see the error of their ways");
+
+            // The noun
+            correctionAdd("errorr", "error");
+            correctionAdd("errror", "error");
+            correctionAdd("erron", "error");
+            correctionAdd("Error", "error");
+            correctionAdd("errow", "error");
+            correctionAdd("erorr", "error");
+            correctionAdd("eroor", "error");
+            correctionAdd("erro", "error");
+            correctionAdd("eror", "error");
+            correctionAdd("err", "error");
+
+            // The noun
+            correctionAdd("errorss", "errors");
+            correctionAdd("errore", "errors");
+            correctionAdd("Errors", "errors");
+            correctionAdd("errros", "errors");
+            correctionAdd("erros", "errors");
+            correctionAdd("erors", "errors");
+            correctionAdd("Erros", "errors");
+
+            correctionAdd("errorred", "errored");
+
+            correctionAdd("errorring", "erroring");
+
+            correctionAdd("off by one", "off-by-one errors");
+            correctionAdd("off by one errors", "off-by-one errors");
+
+            correctionAdd("trials and errors", "trial and error");
+            correctionAdd("Trial and Error", "trial and error");
+            correctionAdd("trail and error", "trial and error");
+            correctionAdd("try and error", "trial and error");
+            correctionAdd("trial & error", "trial and error");
+            correctionAdd("try & error", "trial and error");
+
+            correctionAdd("erroronious", "erroneous");
+            correctionAdd("errorneous", "erroneous");
+            correctionAdd("errornious", "erroneous");
+            correctionAdd("erraneous", "erroneous");
+            correctionAdd("erronious", "erroneous");
+            correctionAdd("erroreous", "erroneous");
+            correctionAdd("eronious", "erroneous");
+            correctionAdd("Erronois", "erroneous");
+            correctionAdd("erronois", "erroneous");
+
+            correctionAdd("erroruniously", "erroneously");
+            correctionAdd("errouniously", "erroneously");
+            correctionAdd("errorniously", "erroneously");
+            correctionAdd("erroreously", "erroneously");
+            correctionAdd("erraneously", "erroneously");
+            correctionAdd("erroniously", "erroneously");
+
+            correctionAdd("errorred out", "errored out");
+
+            correctionAdd("error prone", "error-prone");
+
+            correctionAdd("non error", "non-error");
+
+            correctionAdd("error-handling", "error handling");
+
+            correctionAdd("off-by-one", "off-by-one error");
+            correctionAdd("of-by-one", "off-by-one error");
+            correctionAdd("OBOB", "off-by-one error");
+            correctionAdd("obob", "off-by-one error");
+            correctionAdd("oboe", "off-by-one error");
+            correctionAdd("OBOE", "off-by-one error");
+            correctionAdd("OB1", "off-by-one error");
+            correctionAdd("OBO", "off-by-one error");
+            correctionAdd("ob1", "off-by-one error");
+            correctionAdd("obo", "off-by-one error");
+
+            correctionAdd("error free", "errorfree");
+            correctionAdd("error-free", "errorfree");
+
+            correctionAdd("error-message", "error message");
+            correctionAdd("Error-Message", "error message");
+            correctionAdd("Error Message", "error message");
+            correctionAdd("Error message", "error message");
+            correctionAdd("error massage", "error message");
+            correctionAdd("Error Messge", "error message");
+            correctionAdd("error messge", "error message");
+            correctionAdd("errormessage", "error message");
+
+            correctionAdd("Error messages", "error messages");
+            correctionAdd("Error Messges", "error messages");
+            correctionAdd("error messges", "error messages");
+
+            correctionAdd("BUS error", "bus error");
+
+            correctionAdd("Relative Pronoun", "relative pronoun");
+
+            correctionAdd("pronuounce", "pronounce");
+            correctionAdd("pronunce", "pronounce");
+            correctionAdd("prononce", "pronounce");
+            correctionAdd("pronuce", "pronounce");
+
+            correctionAdd("pronunced", "pronounced");
+            correctionAdd("pronuced", "pronounced");
+
+            correctionAdd("pronouniciation", "pronunciation");
+            correctionAdd("pronounciation", "pronunciation");
+            correctionAdd("pronuniciation", "pronunciation");
+            correctionAdd("Pronounciation", "pronunciation");
+            correctionAdd("prononciation", "pronunciation");
+            correctionAdd("pronouciation", "pronunciation");
+            correctionAdd("Pronunciation", "pronunciation");
+            correctionAdd("pronouncation", "pronunciation");
+            correctionAdd("pronuncation", "pronunciation");
+            correctionAdd("pronuncian", "pronunciation");
+
+            correctionAdd("pronon", "pronoun");
+
+            correctionAdd("pronounses", "pronouns");
+
+            correctionAdd("neo pronoun", "neopronoun");
+
+            // An RGB LED (integrated).
+            correctionAdd("Neopixel", "NeoPixel");
+            correctionAdd("neopixel", "NeoPixel");
+
+            correctionAdd("neofetch", "Neofetch");
+
+            correctionAdd("corrput", "corrupt");
+
+            correctionAdd("curropted", "corrupted");
+            correctionAdd("currupted", "corrupted");
+
+            correctionAdd("corrupt-ful", "corruptful");
+
+            correctionAdd("curruption", "corruption");
+
+            correctionAdd("correllated", "correlated");
+
+            correctionAdd("correllation", "correlation");
+            correctionAdd("corellation", "correlation");
+            correctionAdd("corelation", "correlation");
+            correctionAdd("correlaton", "correlation");
+            correctionAdd("corrlation", "correlation");
+
+            correctionAdd("time correlated", "time-correlated");
+
+            correctionAdd("Autocorrelation", "autocorrelation");
+
+            correctionAdd("reallly", "really");
+            correctionAdd("realle", "really");
+            correctionAdd("leally", "really");
+            correctionAdd("reallt", "really"); // A true typo
+            correctionAdd("REALLT", "really");
+            correctionAdd("teally", "really");
+            correctionAdd("realy", "really");
+            correctionAdd("relly", "really");
+            correctionAdd("rally", "really");
+            correctionAdd("reall", "really");
+            correctionAdd("eally", "really");
+            correctionAdd("raly", "really");
+            correctionAdd("rlly", "really");
+            correctionAdd("rly", "really");
+
+            correctionAdd("ORLY", "oh really");
+
+            correctionAdd("regrad", "regard");
+
+            correctionAdd("regardles", "regardless");
+
+            correctionAdd("iregardless", "irregardless");
+
+            correctionAdd("reguarding", "regarding");
+            correctionAdd("reagrding", "regarding"); // A true typo
+            correctionAdd("regaring", "regarding");
+
+            correctionAdd("in this regrad", "in this regard");
+
+            correctionAdd("in regard of", "in regard to");
+
+            correctionAdd("with reagrd to", "with regard to");
+            correctionAdd("With regard to", "with regard to");
+            correctionAdd("As regards to", "with regard to");
+            correctionAdd("as regards to", "with regard to");
+            correctionAdd("As regard to", "with regard to");
+            correctionAdd("as regard to", "with regard to");
+
             // Note: "USB" is in an alternative word set
             correctionAdd("USB-Cable", "USB cable");
             correctionAdd("usb cavle", "USB cable");
@@ -3014,6 +3307,10 @@ namespace OverflowHelper.core
             correctionAdd("Mc Donald", "McDonald's");
             correctionAdd("McDonald", "McDonald's");
 
+            correctionAdd("burger king", "Burger King");
+            correctionAdd("BurgerKing", "Burger King");
+            correctionAdd("burgerking", "Burger King");
+
             correctionAdd("FDA", "Food and Drug Administration");
 
             correctionAdd("combatitive", "combative");
@@ -3124,6 +3421,7 @@ namespace OverflowHelper.core
             correctionAdd("childd", "child");
             correctionAdd("childe", "child");
             correctionAdd("Child", "child");
+            correctionAdd("ch*ld", "child");
 
             correctionAdd("childrens", "children");
             correctionAdd("Children", "children");
@@ -3134,9 +3432,6 @@ namespace OverflowHelper.core
 
             correctionAdd("kindergarden", "kindergarten");
             correctionAdd("Kindergarden", "kindergarten");
-
-            correctionAdd("kids in adult bodies", "adult child");
-            correctionAdd("adult baby", "adult child");
 
             correctionAdd("adult's", "adults");
 
@@ -9072,43 +9367,6 @@ namespace OverflowHelper.core
 
             // Related to tariff (a threshold for it)
             correctionAdd("minimis", "de minimis");
-
-            correctionAdd("releveant", "relevant");
-            correctionAdd("relevenat", "relevant");
-            correctionAdd("Relevenat", "relevant");
-            correctionAdd("relevent", "relevant");
-            correctionAdd("relavent", "relevant");
-            correctionAdd("relavant", "relevant");
-            correctionAdd("revelant", "relevant");
-            correctionAdd("relevate", "relevant");
-            correctionAdd("relative", "relevant");
-            correctionAdd("relvant", "relevant");
-
-            correctionAdd("irrelavant", "irrelevant");
-            correctionAdd("irrelivant", "irrelevant");
-            correctionAdd("irrelevent", "irrelevant");
-            correctionAdd("irrelvant", "irrelevant");
-
-            correctionAdd("regrad", "regard");
-
-            correctionAdd("regardles", "regardless");
-
-            correctionAdd("iregardless", "irregardless");
-
-            correctionAdd("reguarding", "regarding");
-            correctionAdd("reagrding", "regarding"); // A true typo
-            correctionAdd("regaring", "regarding");
-
-            correctionAdd("in this regrad", "in this regard");
-
-            correctionAdd("in regard of", "in regard to");
-
-            correctionAdd("with reagrd to", "with regard to");
-            correctionAdd("With regard to", "with regard to");
-            correctionAdd("As regards to", "with regard to");
-            correctionAdd("as regards to", "with regard to");
-            correctionAdd("As regard to", "with regard to");
-            correctionAdd("as regard to", "with regard to");
 
             // A verb
             correctionAdd("ackknowledge", "acknowledge");
@@ -20478,8 +20736,8 @@ namespace OverflowHelper.core
             correctionAdd("sweden", "Sweden");
             correctionAdd("SWEDEN", "Sweden");
 
-            correctionAdd("swede", "Swede");
             correctionAdd("Sweede", "Swede");
+            correctionAdd("swede", "Swede");
 
             correctionAdd("suites", "Swedes");
             correctionAdd("sweets", "Swedes");
@@ -21173,6 +21431,14 @@ namespace OverflowHelper.core
 
             correctionAdd("Irak", "Iraq");
             correctionAdd("iraq", "Iraq");
+
+            // The ancient city
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Babylon>
+            //
+            correctionAdd("BABYLON", "Babylon");
 
             correctionAdd("Hussein", "Saddam Hussein");
 
@@ -24700,12 +24966,12 @@ namespace OverflowHelper.core
             correctionAdd("Nb", "niobium");
 
             // Chemical element 46
-            //             
+            //
             // (Has not been added: chemical element 42: Molybdenum)
             // (Has not been added: chemical element 43: Technetium)
             // (Has not been added: chemical element 44: Ruthenium)
             // (Has not been added: chemical element 45: Rhodium)
-            //             
+            //
             correctionAdd("Palladium", "palladium");
             correctionAdd("Pd", "palladium");
 
@@ -25060,6 +25326,9 @@ namespace OverflowHelper.core
             correctionAdd("DR*GS", "drugs");
             correctionAdd("dr*gs", "drugs");
             correctionAdd("d**gs", "drugs");
+
+            // Related to marijuana (slang)
+            correctionAdd("Dispos", "dispos");
 
             correctionAdd("Methamphetamine", "methamphetamine");
             correctionAdd("me****phetamine", "methamphetamine");
@@ -31481,12 +31750,16 @@ namespace OverflowHelper.core
             correctionAdd("Mon", "Monday");
             correctionAdd("Mo", "Monday");
 
+            // Note: "Tuesday" is in an alternative word set
+            //
             correctionAdd("wednesday", "Wednesday");
             correctionAdd("Wensday", "Wednesday");
             correctionAdd("Wed", "Wednesday");
             correctionAdd("We", "Wednesday");
             correctionAdd("we", "Wednesday"); // Mostly for cross-reference to the main word set
 
+            // Note: "Thursday" and "Friday" are in an alternative word set
+            //
             correctionAdd("saturday", "Saturday");
             correctionAdd("Sturday", "Saturday");
 
@@ -37186,7 +37459,11 @@ namespace OverflowHelper.core
             // A military firearm
             correctionAdd("SMLE", "Short, Magazine, Lee–Enfield");
 
+            // A semi-automatic rifle
             correctionAdd("ar-15", "AR-15");
+
+            // A firearm
+            correctionAdd("glock", "Glock");
 
             correctionAdd("firepath", "FirePath");
             correctionAdd("Firepath", "FirePath");
@@ -37328,11 +37605,11 @@ namespace OverflowHelper.core
             correctionAdd("Conald Chump", "Trump");
             correctionAdd("Orange Jesus", "Trump");
             correctionAdd("Orange Risk", "Trump");
-            correctionAdd("Orange baby", "Trump");
-            correctionAdd("orange baby", "Trump");
             correctionAdd("orange turd", "Trump");
             correctionAdd("Orange Turd", "Trump");
             correctionAdd("tariffs guy", "Trump");
+            correctionAdd("Orange baby", "Trump");
+            correctionAdd("orange baby", "Trump");
             correctionAdd("Trumpolini", "Trump");
             correctionAdd("orange man", "Trump");
             correctionAdd("tariff guy", "Trump");
@@ -37345,6 +37622,9 @@ namespace OverflowHelper.core
             correctionAdd("DJT", "Trump");
             correctionAdd("djt", "Trump");
             correctionAdd("DT", "Trump");
+
+            correctionAdd("kids in adult bodies", "adult child");
+            correctionAdd("adult baby", "adult child");
 
             correctionAdd("herschel walker", "Herschel Walker");
 
@@ -39706,97 +39986,6 @@ namespace OverflowHelper.core
 
             correctionAdd("logtrail", "LogTrail");
 
-            // The noun
-            correctionAdd("errorr", "error");
-            correctionAdd("errror", "error");
-            correctionAdd("erron", "error");
-            correctionAdd("Error", "error");
-            correctionAdd("errow", "error");
-            correctionAdd("erorr", "error");
-            correctionAdd("eroor", "error");
-            correctionAdd("erro", "error");
-            correctionAdd("eror", "error");
-            correctionAdd("err", "error");
-
-            // The noun
-            correctionAdd("errorss", "errors");
-            correctionAdd("errore", "errors");
-            correctionAdd("Errors", "errors");
-            correctionAdd("errros", "errors");
-            correctionAdd("erros", "errors");
-            correctionAdd("erors", "errors");
-            correctionAdd("Erros", "errors");
-
-            correctionAdd("errorred", "errored");
-
-            correctionAdd("errorring", "erroring");
-
-            correctionAdd("off by one", "off-by-one errors");
-            correctionAdd("off by one errors", "off-by-one errors");
-
-            correctionAdd("realise the errors of their ways", "see the error of their ways");
-
-            correctionAdd("trials and errors", "trial and error");
-            correctionAdd("Trial and Error", "trial and error");
-            correctionAdd("trail and error", "trial and error");
-            correctionAdd("try and error", "trial and error");
-            correctionAdd("trial & error", "trial and error");
-            correctionAdd("try & error", "trial and error");
-
-            correctionAdd("erroronious", "erroneous");
-            correctionAdd("errorneous", "erroneous");
-            correctionAdd("errornious", "erroneous");
-            correctionAdd("erraneous", "erroneous");
-            correctionAdd("erronious", "erroneous");
-            correctionAdd("erroreous", "erroneous");
-            correctionAdd("eronious", "erroneous");
-            correctionAdd("Erronois", "erroneous");
-            correctionAdd("erronois", "erroneous");
-
-            correctionAdd("erroruniously", "erroneously");
-            correctionAdd("errouniously", "erroneously");
-            correctionAdd("errorniously", "erroneously");
-            correctionAdd("erroreously", "erroneously");
-            correctionAdd("erraneously", "erroneously");
-            correctionAdd("erroniously", "erroneously");
-
-            correctionAdd("errorred out", "errored out");
-
-            correctionAdd("error prone", "error-prone");
-
-            correctionAdd("non error", "non-error");
-
-            correctionAdd("error-handling", "error handling");
-
-            correctionAdd("off-by-one", "off-by-one error");
-            correctionAdd("of-by-one", "off-by-one error");
-            correctionAdd("OBOB", "off-by-one error");
-            correctionAdd("obob", "off-by-one error");
-            correctionAdd("oboe", "off-by-one error");
-            correctionAdd("OBOE", "off-by-one error");
-            correctionAdd("OB1", "off-by-one error");
-            correctionAdd("OBO", "off-by-one error");
-            correctionAdd("ob1", "off-by-one error");
-            correctionAdd("obo", "off-by-one error");
-
-            correctionAdd("error free", "errorfree");
-            correctionAdd("error-free", "errorfree");
-
-            correctionAdd("error-message", "error message");
-            correctionAdd("Error-Message", "error message");
-            correctionAdd("Error Message", "error message");
-            correctionAdd("Error message", "error message");
-            correctionAdd("error massage", "error message");
-            correctionAdd("Error Messge", "error message");
-            correctionAdd("error messge", "error message");
-            correctionAdd("errormessage", "error message");
-
-            correctionAdd("Error messages", "error messages");
-            correctionAdd("Error Messges", "error messages");
-            correctionAdd("error messges", "error messages");
-
-            correctionAdd("BUS error", "bus error");
-
             correctionAdd("resilieancy", "resilience");
             correctionAdd("resiliency", "resilience");
 
@@ -40884,6 +41073,14 @@ namespace OverflowHelper.core
             correctionAdd("fictious", "fictitious");
 
             correctionAdd("glasial", "glacial");
+
+            // JavaScript
+            correctionAdd("babylon.js", "Babylon.js");
+            correctionAdd("babylon", "Babylon.js");
+
+            // A science fiction TV series
+            correctionAdd("Babylon 5", "Babylon&nbsp;5"); // Sort of identity mapping
+            correctionAdd("B5", "Babylon&nbsp;5");
 
             // A comedy show
             correctionAdd("big bang theory", "The Big Bang Theory");
@@ -47573,8 +47770,12 @@ namespace OverflowHelper.core
             correctionAdd("pip3", "pip&nbsp;3");
 
             // Python
+            correctionAdd("Wheel", "wheel");
+            correctionAdd("whl", "wheel");
+            correctionAdd("WHL", "wheel");
+
+            // Python
             //
-            // Note: "wheel" (the Python thing) is in an alternative word set
             correctionAdd("Wheels", "wheel packages");
             correctionAdd("wheels", "wheel packages");
 
@@ -54807,71 +55008,6 @@ namespace OverflowHelper.core
 
             correctionAdd("non uniforms", "nonuniform");
             correctionAdd("non uniform", "nonuniform");
-
-            correctionAdd("Realistic", "realistic");
-
-            correctionAdd("realisticaly", "realistically");
-
-            correctionAdd("relialize", "realise");
-            correctionAdd("relaeies", "realise");
-            correctionAdd("relaeise", "realise");
-            correctionAdd("realeise", "realise");
-            correctionAdd("relieaze", "realise");
-            correctionAdd("relalize", "realise");
-            correctionAdd("realieze", "realise");
-            correctionAdd("reilize", "realise");
-            correctionAdd("reliase", "realise");
-            correctionAdd("reliaze", "realise");
-            correctionAdd("realize", "realise");
-            correctionAdd("relize", "realise");
-            correctionAdd("relise", "realise");
-
-            correctionAdd("reliasing", "realising");
-            correctionAdd("relaizing", "realising");
-            correctionAdd("reliazing", "realising");
-            correctionAdd("realizing", "realising");
-
-            correctionAdd("realeised", "realised");
-            correctionAdd("relaeiesd", "realised");
-            correctionAdd("relaeised", "realised");
-            correctionAdd("realiser", "realised"); // A true typo
-
-            correctionAdd("reallly", "really");
-            correctionAdd("realle", "really");
-            correctionAdd("leally", "really");
-            correctionAdd("reallt", "really"); // A true typo
-            correctionAdd("REALLT", "really");
-            correctionAdd("teally", "really");
-            correctionAdd("realy", "really");
-            correctionAdd("relly", "really");
-            correctionAdd("rally", "really");
-            correctionAdd("reall", "really");
-            correctionAdd("eally", "really");
-            correctionAdd("raly", "really");
-            correctionAdd("rlly", "really");
-            correctionAdd("rly", "really");
-
-            correctionAdd("ORLY", "oh really");
-
-            correctionAdd("relativeley", "relatively");
-            correctionAdd("relativelly", "relatively");
-            correctionAdd("reletively", "relatively");
-            correctionAdd("relativety", "relatively");
-            correctionAdd("relitively", "relatively");
-            correctionAdd("relativley", "relatively");
-            correctionAdd("relativly", "relatively");
-
-            correctionAdd("reliefed", "relieved");
-            correctionAdd("releaved", "relieved");
-
-            correctionAdd("relevence", "relevance");
-            correctionAdd("Relivence", "relevance");
-            correctionAdd("relivence", "relevance");
-
-            correctionAdd("relailable", "reliable");
-            correctionAdd("reliablle", "reliable");
-            correctionAdd("relilable", "reliable");
-            correctionAdd("realiable", "reliable");
 
             correctionAdd("log file", "logfile");
 
@@ -63160,27 +63296,6 @@ namespace OverflowHelper.core
             correctionAdd("Novis", "novice");
             correctionAdd("novis", "novice");
 
-            correctionAdd("corrput", "corrupt");
-
-            correctionAdd("curropted", "corrupted");
-            correctionAdd("currupted", "corrupted");
-
-            correctionAdd("corrupt-ful", "corruptful");
-
-            correctionAdd("curruption", "corruption");
-
-            correctionAdd("correllated", "correlated");
-
-            correctionAdd("correllation", "correlation");
-            correctionAdd("corellation", "correlation");
-            correctionAdd("corelation", "correlation");
-            correctionAdd("correlaton", "correlation");
-            correctionAdd("corrlation", "correlation");
-
-            correctionAdd("time correlated", "time-correlated");
-
-            correctionAdd("Autocorrelation", "autocorrelation");
-
             correctionAdd("anticication", "anticipation");
             correctionAdd("antipication", "anticipation");
 
@@ -68420,45 +68535,16 @@ namespace OverflowHelper.core
 
             correctionAdd("pinkey", "pinky");
 
+            correctionAdd("enmcoder", "encoder");
+            correctionAdd("enconder", "encoder");
+            correctionAdd("encorer", "encoder");
+            correctionAdd("ecoder", "encoder");
+
+            correctionAdd("encorers", "encoders");
+
             correctionAdd("rotatory", "rotary");
 
-            // On mechanical keyboards
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/Rotary_encoder#Rotary_(Angle)_Pulse_Encoder>
-            //   <https://keyedout.com/mechanical-keyboard-with-volume-knob/>
-            //   <https://drop.com/mechanical-keyboards/drops?sc=keyboard-accessories&tgs=rotary-knobs>
-            //
-            correctionAdd("Rotary Angle Pulse Encoder", "rotary knob");
-            correctionAdd("rotary angle pulse encoder", "rotary knob");
-            correctionAdd("rotatory encoder", "rotary knob");
-            correctionAdd("rotaray encoder", "rotary knob");
-            correctionAdd("Rotary encoder", "rotary knob");
-            correctionAdd("rotary encoder", "rotary knob");
-            correctionAdd("rotaty encoder", "rotary knob");
-            correctionAdd("rotray encoder", "rotary knob");
-            correctionAdd("rotatory knob", "rotary knob");
-            correctionAdd("rotary knobs", "rotary knob"); // Not 100% correct - plural.
-            correctionAdd("volume knob", "rotary knob");
-            correctionAdd("Media Dial", "rotary knob");
-            correctionAdd("media dial", "rotary knob");
-            correctionAdd("Spin Wheel", "rotary knob");
-            correctionAdd("spin wheel", "rotary knob");
-            correctionAdd("enconder", "rotary knob");
-            correctionAdd("encoders", "rotary knob");
-            correctionAdd("Encoder", "rotary knob");
-            correctionAdd("encoder", "rotary knob");
-            correctionAdd("wheel", "rotary knob");
-            correctionAdd("nobs", "rotary knob"); // Not 100% correct - plural.
-            correctionAdd("knob", "rotary knob");
-            correctionAdd("nkob", "rotary knob"); // A true typo
-            correctionAdd("Knob", "rotary knob");
-            correctionAdd("spin", "rotary knob");
-            correctionAdd("Enc", "rotary knob"); // A variant should be "Enc.", but we can't currently represent that
-            correctionAdd("enc", "rotary knob"); // A variant should be "enc.", but we can't currently represent that
-            correctionAdd("nob", "rotary knob");
-
+            // Note: "rotary knob" is in an alternative word set
             correctionAdd("quadrature encoder", "incremental encoder");
             correctionAdd("quadrature", "incremental encoder");
 
@@ -75568,21 +75654,6 @@ namespace OverflowHelper.core
             correctionAdd("statuon", "station");
             correctionAdd("Statuon", "station");
 
-            correctionAdd("releted", "relate"); // Not 100% correct - word type.
-            correctionAdd("relatew", "relate");
-            correctionAdd("relete", "relate");
-
-            correctionAdd("realated", "related");
-            correctionAdd("releated", "related");
-            correctionAdd("realted", "related");
-            correctionAdd("relatet", "related");
-            correctionAdd("relater", "related");
-            correctionAdd("Related", "related");
-
-            correctionAdd("un-related", "unrelated");
-
-            correctionAdd("realtion", "relation");
-
             correctionAdd("trialing", "trialling");
 
             correctionAdd("respectt", "respect");
@@ -78674,29 +78745,6 @@ namespace OverflowHelper.core
             correctionAdd("Attantion", "attention");
             correctionAdd("attantion", "attention");
             correctionAdd("attetion", "attention");
-
-            correctionAdd("relay", "rely");
-
-            correctionAdd("relays", "relies");
-            correctionAdd("relys", "relies");
-
-            correctionAdd("relaying", "relying");
-            correctionAdd("Relaying", "relying");
-            correctionAdd("relylng", "relying");
-
-            correctionAdd("reliablly", "reliably");
-            correctionAdd("realiably", "reliably");
-
-            correctionAdd("reliablity", "reliability");
-
-            correctionAdd("unreliablity", "unreliability");
-
-            correctionAdd("unrealiable", "unreliable");
-            correctionAdd("unrylable", "unreliable");
-
-            correctionAdd("self reliant", "self-reliant");
-
-            correctionAdd("stoicism", "Stoicism");
 
             correctionAdd("boycot", "boycott");
             correctionAdd("BOWCOT", "boycott");
@@ -82813,45 +82861,6 @@ namespace OverflowHelper.core
             // Web development
             correctionAdd("flash of unstyled text", "flash of unstyled content");
             correctionAdd("FOUC", "flash of unstyled content");
-
-            correctionAdd("rerlatable", "relatable");
-
-            correctionAdd("relation ship", "relationship");
-            correctionAdd("rleationship", "relationship");
-            correctionAdd("realtionship", "relationship");
-
-            correctionAdd("pronuounce", "pronounce");
-            correctionAdd("pronunce", "pronounce");
-            correctionAdd("prononce", "pronounce");
-            correctionAdd("pronuce", "pronounce");
-
-            correctionAdd("pronunced", "pronounced");
-            correctionAdd("pronuced", "pronounced");
-
-            correctionAdd("pronouniciation", "pronunciation");
-            correctionAdd("pronounciation", "pronunciation");
-            correctionAdd("pronuniciation", "pronunciation");
-            correctionAdd("Pronounciation", "pronunciation");
-            correctionAdd("prononciation", "pronunciation");
-            correctionAdd("pronouciation", "pronunciation");
-            correctionAdd("Pronunciation", "pronunciation");
-            correctionAdd("pronouncation", "pronunciation");
-            correctionAdd("pronuncation", "pronunciation");
-            correctionAdd("pronuncian", "pronunciation");
-
-            correctionAdd("pronon", "pronoun");
-
-            correctionAdd("pronounses", "pronouns");
-
-            correctionAdd("Relative Pronoun", "relative pronoun");
-
-            correctionAdd("neo pronoun", "neopronoun");
-
-            // An RGB LED (integrated).
-            correctionAdd("Neopixel", "NeoPixel");
-            correctionAdd("neopixel", "NeoPixel");
-
-            correctionAdd("neofetch", "Neofetch");
 
             correctionAdd("overal", "overall");
 
@@ -100078,7 +100087,7 @@ namespace OverflowHelper.core
             correctionAdd("VC", "source control management");
 
             // Mercurial
-            //            
+            //
             // Note: "Mercurial" is in an alternative word set
             correctionAdd("Tortoise HG", "TortoiseHg");
             correctionAdd("tortoisehg", "TortoiseHg");
@@ -102340,8 +102349,8 @@ namespace OverflowHelper.core
             correctionAdd("bewteen", "between");
             correctionAdd("bwtween", "between");
             correctionAdd("betwwen", "between");
-            correctionAdd("betweed", "between");
             correctionAdd("betweem", "between");
+            correctionAdd("betweed", "between");
             correctionAdd("beteen", "between");
             correctionAdd("betwen", "between");
             correctionAdd("b/w", "between");
@@ -103548,9 +103557,6 @@ namespace OverflowHelper.core
 
             correctionAdd("tongue in cheek", "tongue-in-cheek");
 
-            correctionAdd("Babylon 5", "Babylon&nbsp;5"); // Sort of identity mapping
-            correctionAdd("B5", "Babylon&nbsp;5");
-
             correctionAdd("svm", "SVM");
 
             correctionAdd("SMBUS", "SMBus");
@@ -103700,9 +103706,6 @@ namespace OverflowHelper.core
 
             correctionAdd("insesire", "insincere");
 
-            correctionAdd("babylon.js", "Babylon.js");
-            correctionAdd("babylon", "Babylon.js");
-
             correctionAdd("PDP11", "PDP-11");
 
             correctionAdd("PDP7", "PDP-7");
@@ -103776,6 +103779,7 @@ namespace OverflowHelper.core
             correctionAdd("obatining", "obtaining");
             correctionAdd("obtaning", "obtaining");
 
+            correctionAdd("unobtaninium", "unobtainium");
             correctionAdd("unobtanium", "unobtainium");
 
             correctionAdd("rigor", "rigour");
@@ -105350,8 +105354,6 @@ namespace OverflowHelper.core
             correctionAdd("inexplicibaly", "inexplicably");
 
             correctionAdd("sublety", "subtlety");
-
-            correctionAdd("BABYLON", "Babylon");
 
             correctionAdd("re-education", "reeducation");
 
@@ -111293,8 +111295,6 @@ namespace OverflowHelper.core
 
             URL_Add("hilarious", "https://en.wiktionary.org/wiki/hilarious#Adjective");
 
-            URL_Add("irrelevant", "https://en.wiktionary.org/wiki/irrelevant#Adjective");
-
             URL_Add("liar", "https://en.wiktionary.org/wiki/liar#Noun");
 
             URL_Add("likelihood", "https://en.wiktionary.org/wiki/likelihood#Noun");
@@ -111585,8 +111585,6 @@ namespace OverflowHelper.core
 
             URL_Add("tongue", "https://en.wiktionary.org/wiki/tongue#Noun");
 
-            URL_Add("Babylon&nbsp;5", "https://en.wikipedia.org/wiki/Babylon_5");
-
             URL_Add("PyWin32", "https://wiki.python.org/moin/PyWin32");
 
             URL_Add("help vampire", "https://en.wiktionary.org/wiki/help_vampire#Noun"); // Old: https://en.wiktionary.org/wiki/help_vampire
@@ -111818,8 +111816,6 @@ namespace OverflowHelper.core
             URL_Add("tweeted", "https://en.wiktionary.org/wiki/tweet#Verb");
 
             URL_Add("wordlist", "https://en.wiktionary.org/wiki/wordlist#Noun");
-
-            URL_Add("Babylon.js", "https://en.wikipedia.org/wiki/Babylon.js");
 
             URL_Add("Euclidean", "https://en.wiktionary.org/wiki/Euclidean#Adjective");
 
@@ -113097,8 +113093,6 @@ namespace OverflowHelper.core
 
             URL_Add("query", "https://en.wiktionary.org/wiki/query#Noun");
 
-            URL_Add("realise", "https://en.wiktionary.org/wiki/realise#Verb"); // Old: https://en.wiktionary.org/wiki/realise
-
             URL_Add("regularly", "https://en.wiktionary.org/wiki/regularly#Adverb");
 
             URL_Add("strict", "https://en.wiktionary.org/wiki/strict#Adjective");
@@ -113509,7 +113503,17 @@ namespace OverflowHelper.core
 
             URL_Add("GDPR", "https://en.wikipedia.org/wiki/General_Data_Protection_Regulation");
 
+            URL_Add("nurturing", "https://en.wiktionary.org/wiki/nurture#Verb");
+
+            URL_Add("food for thought", "https://en.wiktionary.org/wiki/food_for_thought#Noun");
+
+            URL_Add("fast food", "https://en.wikipedia.org/wiki/Fast_food");
+
             URL_Add("McDonald's", "https://en.wikipedia.org/wiki/McDonald's");
+
+            URL_Add("Burger King", "https://en.wikipedia.org/wiki/Burger_King");
+
+            URL_Add("Food and Drug Administration", "https://en.wikipedia.org/wiki/Food_and_Drug_Administration");
 
             URL_Add("SIM card", "https://en.wikipedia.org/wiki/SIM_card");
 
@@ -113838,8 +113842,6 @@ namespace OverflowHelper.core
             URL_Add("square one", "https://en.wiktionary.org/wiki/square_one#Noun");
 
             URL_Add("very", "https://en.wiktionary.org/wiki/very#Adverb");
-
-            URL_Add("Babylon", "https://en.wiktionary.org/wiki/Babylon#Proper_noun");
 
             URL_Add("Nim", "https://en.wikipedia.org/wiki/Nim_(programming_language)");
 
@@ -114502,8 +114504,6 @@ namespace OverflowHelper.core
             URL_Add("online judge", "https://en.wikipedia.org/wiki/Competitive_programming#Overview");
 
             URL_Add("populate", "https://en.wiktionary.org/wiki/populate#Verb");
-
-            URL_Add("realised", "https://en.wiktionary.org/wiki/realise#Verb"); // Old: https://en.wiktionary.org/wiki/realise#English
 
             URL_Add("store", "https://en.wiktionary.org/wiki/store#Verb");
 
@@ -116294,8 +116294,6 @@ namespace OverflowHelper.core
             URL_Add("non-tilting", "https://en.wiktionary.org/wiki/non-tilting#Adjective");
 
             URL_Add("retrorocket", "https://en.wiktionary.org/wiki/retrorocket#Noun");
-
-            URL_Add("self-reliant", "https://en.wiktionary.org/wiki/self-reliant#Adjective");
 
             URL_Add("swastika", "https://en.wiktionary.org/wiki/swastika#Noun");
 
@@ -118603,8 +118601,6 @@ namespace OverflowHelper.core
 
             URL_Add("scripting", "https://en.wiktionary.org/wiki/scripting#Noun");
 
-            URL_Add("unreliable", "https://en.wiktionary.org/wiki/unreliable#Adjective");
-
             URL_Add("The BMJ", "https://en.wikipedia.org/wiki/The_BMJ");
 
             URL_Add("cyclically", "https://en.wiktionary.org/wiki/cyclically#Adverb");
@@ -119478,8 +119474,6 @@ namespace OverflowHelper.core
             URL_Add("n-gram", "https://en.wikipedia.org/wiki/N-gram");
 
             URL_Add("nonlinearity", "https://en.wiktionary.org/wiki/nonlinearity#Noun");
-
-            URL_Add("babysitter", "https://en.wiktionary.org/wiki/babysitter#Noun");
 
             URL_Add("imagining", "https://en.wiktionary.org/wiki/imagine#Verb");
 
@@ -120764,18 +120758,6 @@ namespace OverflowHelper.core
             URL_Add("HTA", "https://en.wikipedia.org/wiki/HTML_Application");
 
             URL_Add("sucks", "https://en.wiktionary.org/wiki/suck#Verb");
-
-            URL_Add("ammunition", "https://en.wiktionary.org/wiki/ammunition#Noun");
-
-            URL_Add("AR-15", "https://en.wikipedia.org/wiki/AR-15_style_rifle");
-
-            URL_Add("Boston", "https://en.wikipedia.org/wiki/Boston");
-
-            URL_Add("Jacinda Ardern", "https://en.wikipedia.org/wiki/Jacinda_Ardern");
-
-            URL_Add("rifle", "https://en.wiktionary.org/wiki/rifle#Noun");
-
-            URL_Add("refilling", "https://en.wiktionary.org/wiki/refill#Verb");
 
             URL_Add("Vancouver", "https://en.wikipedia.org/wiki/Vancouver");
 
@@ -123595,8 +123577,6 @@ namespace OverflowHelper.core
 
             URL_Add("nonprofit", "https://en.wiktionary.org/wiki/nonprofit#Noun");
 
-            URL_Add("nurturing", "https://en.wiktionary.org/wiki/nurture#Verb");
-
             URL_Add("Pontius Pilate", "https://en.wikipedia.org/wiki/Pontius_Pilate");
 
             URL_Add("departments", "https://en.wiktionary.org/wiki/department#Noun");
@@ -124420,8 +124400,6 @@ namespace OverflowHelper.core
             URL_Add("giveaway", "https://en.wiktionary.org/wiki/giveaway#Noun");
 
             URL_Add("heuristics", "https://en.wiktionary.org/wiki/heuristics#Noun_2");
-
-            URL_Add("incremental encoder", "https://en.wikipedia.org/wiki/Incremental_encoder#Quadrature_outputs");
 
             URL_Add("disconnecting", "https://en.wiktionary.org/wiki/disconnect#Verb");
 
@@ -126655,14 +126633,6 @@ namespace OverflowHelper.core
 
             URL_Add("PCManFM", "https://en.wikipedia.org/wiki/PCMan_File_Manager");
 
-            URL_Add("BabySmash", "https://www.hanselman.com/babysmash/index.htm");
-
-            URL_Add("Smashing Magazine", "https://en.wikipedia.org/wiki/Smashing_Magazine");
-
-            URL_Add("mashup", "https://en.wiktionary.org/wiki/mashup#Noun");
-
-            URL_Add("mishmash", "https://en.wiktionary.org/wiki/mishmash#Noun");
-
             URL_Add("A-law", "https://en.wikipedia.org/wiki/A-law_algorithm");
 
             URL_Add("Ecosia", "https://en.wikipedia.org/wiki/Ecosia#Ecosia");
@@ -128349,7 +128319,13 @@ namespace OverflowHelper.core
 
             URL_Add("Geary", "https://en.wikipedia.org/wiki/Geary_(e-mail_client)");
 
+            URL_Add("encoder", "https://en.wiktionary.org/wiki/encoder#Noun");
+
+            URL_Add("encoders", "https://en.wiktionary.org/wiki/encoder#Noun");
+
             URL_Add("rotary", "https://en.wiktionary.org/wiki/rotary#Adjective");
+
+            URL_Add("incremental encoder", "https://en.wikipedia.org/wiki/Incremental_encoder#Quadrature_outputs");
 
             URL_Add("scary", "https://en.wiktionary.org/wiki/scary#Adjective");
 
@@ -128750,8 +128726,6 @@ namespace OverflowHelper.core
             URL_Add("precompiles", "https://en.wiktionary.org/wiki/precompile#Verb");
 
             URL_Add("prefix", "https://en.wiktionary.org/wiki/prefix#Noun");
-
-            URL_Add("realising", "https://en.wiktionary.org/wiki/realise#Verb");
 
             URL_Add("re-enable", "https://en.wiktionary.org/wiki/re-enable#Verb");
 
@@ -132981,6 +132955,8 @@ namespace OverflowHelper.core
 
             URL_Add("drugs", "https://en.wiktionary.org/wiki/drug#Noun");
 
+            URL_Add("dispos", "https://en.wiktionary.org/wiki/dispo#Noun");
+
             URL_Add("methamphetamine", "https://en.wikipedia.org/wiki/Methamphetamine");
 
             URL_Add("morphine", "https://en.wikipedia.org/wiki/Morphine");
@@ -134386,10 +134362,6 @@ namespace OverflowHelper.core
             URL_Add("parenthetical", "https://en.wiktionary.org/wiki/parenthetical#Adjective");
 
             URL_Add("parent", "https://en.wiktionary.org/wiki/parent#Noun");
-
-            URL_Add("realistic", "https://en.wiktionary.org/wiki/realistic#Adjective");
-
-            URL_Add("realistically", "https://en.wiktionary.org/wiki/realistically#Adverb");
 
             URL_Add("Chomsky normal form", "https://en.wikipedia.org/wiki/Chomsky_normal_form");
 
@@ -139071,10 +139043,6 @@ namespace OverflowHelper.core
 
             URL_Add("relative pronoun", "https://en.wikipedia.org/wiki/Relative_pronoun");
 
-            URL_Add("relevant", "https://en.wiktionary.org/wiki/relevant#Adjective");
-
-            URL_Add("relevance", "https://en.wiktionary.org/wiki/relevance#Noun");
-
             URL_Add("release", "https://en.wiktionary.org/wiki/release#Noun");
 
             URL_Add("releases", "https://en.wiktionary.org/wiki/release#Noun");
@@ -139102,22 +139070,6 @@ namespace OverflowHelper.core
             URL_Add("relationship", "https://en.wiktionary.org/wiki/relationship#Noun");
 
             URL_Add("relational calculus", "https://en.wikipedia.org/wiki/Relational_calculus");
-
-            URL_Add("rely", "https://en.wiktionary.org/wiki/rely#Verb");
-
-            URL_Add("relies", "https://en.wiktionary.org/wiki/rely#Verb");
-
-            URL_Add("relying", "https://en.wiktionary.org/wiki/rely#Verb");
-
-            URL_Add("reliably", "https://en.wiktionary.org/wiki/reliably#Adverb");
-
-            URL_Add("reliable", "https://en.wiktionary.org/wiki/reliable#Adjective");
-
-            URL_Add("reliability", "https://en.wiktionary.org/wiki/reliability#Noun");
-
-            URL_Add("unreliability", "https://en.wiktionary.org/wiki/unreliability#Noun");
-
-            URL_Add("relieved", "https://en.wiktionary.org/wiki/relieved#Adjective");
 
             URL_Add("relaxed", "https://en.wiktionary.org/wiki/relaxed#Adjective");
 
@@ -140475,20 +140427,6 @@ namespace OverflowHelper.core
 
             URL_Add("snap-in", "https://en.wiktionary.org/wiki/snap-in#Noun");
 
-            URL_Add("secure", "https://en.wiktionary.org/wiki/secure#Adjective");
-
-            URL_Add("secured", "https://en.wiktionary.org/wiki/secure#Verb");
-
-            URL_Add("securely", "https://en.wiktionary.org/wiki/securely#Adverb");
-
-            URL_Add("Secure Boot", "https://en.wikipedia.org/wiki/UEFI#Secure_Boot");
-
-            URL_Add("Secure Reliable Transport", "https://en.wikipedia.org/wiki/Secure_Reliable_Transport");
-
-            URL_Add("Secureblue", "https://github.com/secureblue/secureblue");
-
-            URL_Add("Secure Digital Input Output", "https://en.wikipedia.org/wiki/Secure_Digital#SDIO_cards");
-
             URL_Add("first", "https://en.wiktionary.org/wiki/first#Adjective");
 
             URL_Add("firstly", "https://en.wiktionary.org/wiki/firstly#Adverb");
@@ -140695,9 +140633,71 @@ namespace OverflowHelper.core
 
             URL_Add("threw me for a loop", "https://en.wiktionary.org/wiki/throw_for_a_loop#Verb");
 
+            URL_Add("thrown in at the deep end", "https://en.wiktionary.org/wiki/in_at_the_deep_end#Adjective");
+
             URL_Add("throw the baby out with the bathwater", "https://en.wiktionary.org/wiki/throw_the_baby_out_with_the_bathwater#Verb");
 
-            URL_Add("thrown in at the deep end", "https://en.wiktionary.org/wiki/in_at_the_deep_end#Adjective");
+            URL_Add("babysitter", "https://en.wiktionary.org/wiki/babysitter#Noun");
+
+            URL_Add("BabySmash", "https://www.hanselman.com/babysmash/index.htm");
+
+            URL_Add("Babylon", "https://en.wiktionary.org/wiki/Babylon#Proper_noun");
+
+            URL_Add("Babylon.js", "https://en.wikipedia.org/wiki/Babylon.js");
+
+            URL_Add("Babylon&nbsp;5", "https://en.wikipedia.org/wiki/Babylon_5");
+
+            URL_Add("Smashing Magazine", "https://en.wikipedia.org/wiki/Smashing_Magazine");
+
+            URL_Add("mashup", "https://en.wiktionary.org/wiki/mashup#Noun");
+
+            URL_Add("mishmash", "https://en.wiktionary.org/wiki/mishmash#Noun");
+
+            URL_Add("refire", "https://en.wiktionary.org/wiki/refire#Verb");
+
+            URL_Add("fire risk", "https://www.collinsdictionary.com/dictionary/english/fire-risk");
+
+            URL_Add("wildfire", "https://en.wiktionary.org/wiki/wildfire#Noun");
+
+            URL_Add("backfire", "https://en.wiktionary.org/wiki/backfire#Verb");
+
+            URL_Add("sure-fire", "https://en.wiktionary.org/wiki/sure-fire#Adjective");
+
+            URL_Add("misfires", "https://en.wiktionary.org/wiki/misfire#Noun");
+
+            URL_Add("misfiring", "https://en.wiktionary.org/wiki/misfire#Verb");
+
+            URL_Add("St. Elmo's fire", "https://en.wikipedia.org/wiki/St._Elmo%27s_fire");
+
+            URL_Add("firewood", "https://en.wiktionary.org/wiki/firewood#Noun");
+
+            URL_Add("FIRE", "https://en.wikipedia.org/wiki/FIRE_movement");
+
+            URL_Add("firewall", "https://en.wikipedia.org/wiki/Firewall_(computing)");
+
+            URL_Add("web application firewall", "https://en.wikipedia.org/wiki/Web_application_firewall");
+
+            URL_Add("firewalld", "https://en.wikipedia.org/wiki/Firewalld");
+
+            URL_Add("UFW", "https://en.wikipedia.org/wiki/Uncomplicated_Firewall");
+
+            URL_Add("Firefly", "https://en.wikipedia.org/wiki/Firefly_(TV_series)");
+
+            URL_Add("Firesheep", "https://en.wikipedia.org/wiki/Firesheep");
+
+            URL_Add("FireWire", "https://en.wikipedia.org/wiki/IEEE_1394");
+
+            URL_Add("FireMonkey", "https://en.wikipedia.org/wiki/FireMonkey");
+
+            URL_Add("Firebase", "https://en.wikipedia.org/wiki/Firebase");
+
+            URL_Add("Firebase Realtime Database", "https://firebase.google.com/docs/database/");
+
+            URL_Add("cease", "https://en.wiktionary.org/wiki/cease#Verb");
+
+            URL_Add("ceased", "https://en.wiktionary.org/wiki/cease#Verb");
+
+            URL_Add("ceasefire", "https://en.wiktionary.org/wiki/ceasefire#Noun");
 
             URL_Add("the notorious Epomaker", "https://www.youtube.com/watch?v=IBR5_4C6BJ4");
 
@@ -141859,94 +141859,6 @@ namespace OverflowHelper.core
 
             URL_Add("HIPAA", "https://en.wikipedia.org/wiki/Health_Insurance_Portability_and_Accountability_Act");
 
-            URL_Add("cable", "https://en.wiktionary.org/wiki/cable#Noun");
-
-            URL_Add("cables", "https://en.wiktionary.org/wiki/cable#Noun");
-
-            URL_Add("cable strain relief", "https://en.wikipedia.org/wiki/Cable_management#Cable_strain_relief");
-
-            URL_Add("fiber-optic cable", "https://en.wikipedia.org/wiki/Fiber-optic_cable");
-
-            URL_Add("flexible flat cable", "https://en.wikipedia.org/wiki/Flexible_flat_cable");
-
-            URL_Add("connector", "https://en.wiktionary.org/wiki/connector#Noun");
-
-            URL_Add("connectors", "https://en.wiktionary.org/wiki/connector#Noun");
-
-            URL_Add("Molex connector", "https://en.wikipedia.org/wiki/Molex_connector");
-
-            URL_Add("Dupont connector", "https://kerryburton.com/dupont-connectors/");
-
-            URL_Add("Speakon connector", "https://en.wikipedia.org/wiki/Speakon_connector");
-
-            URL_Add("3.5 mm jack", "https://en.wikipedia.org/wiki/Phone_connector_(audio)#Miniature_size");
-
-            URL_Add("jack plug", "https://en.wikipedia.org/wiki/Phone_connector_(audio)");
-
-            URL_Add("DIN-5", "https://en.wikipedia.org/wiki/DIN_connector#Other_uses");
-
-            URL_Add("TRRS", "https://en.wikipedia.org/wiki/Phone_connector_(audio)");
-
-            URL_Add("XLR", "https://en.wikipedia.org/wiki/Phone_connector_(audio)");
-
-            URL_Add("Cat&nbsp;5", "https://en.wikipedia.org/wiki/Category_5_cable");
-
-            URL_Add("Cat&nbsp;6", "https://en.wikipedia.org/wiki/Category_6_cable");
-
-            URL_Add("Cat&nbsp;3", "https://en.wikipedia.org/wiki/Category_3_cable");
-
-            URL_Add("Cat&nbsp;5e", "https://en.wikipedia.org/wiki/Category_5_cable");
-
-            URL_Add("Micro-USB", "https://en.wikipedia.org/wiki/USB_hardware#Micro_connectors");
-
-            URL_Add("Mini-USB", "https://en.wikipedia.org/wiki/USB_hardware#Mini_connectors");
-
-            URL_Add("USB hub", "https://en.wikipedia.org/wiki/USB_hub");
-
-            URL_Add("USB polling rate", "https://switchandclick.com/whats-the-best-mouse-polling-rate/");
-
-            URL_Add("USB Request Block", "https://learn.microsoft.com/en-us/windows-hardware/drivers/usbcon/communicating-with-a-usb-device");
-
-            URL_Add("USB cable", "https://en.wikipedia.org/wiki/USB_hardware#Connectors");
-
-            URL_Add("USB type-A plug", "https://en.wikipedia.org/wiki/USB_hardware#Standard_connectors");
-
-            URL_Add("USB type-B plug", "https://en.wikipedia.org/wiki/USB_hardware#Standard_connectors");
-
-            URL_Add("USB type-C plug", "https://en.wikipedia.org/wiki/USB-C");
-
-            URL_Add("USB&nbsp;3.0", "https://en.wikipedia.org/wiki/USB_3.0");
-
-            URL_Add("USB vendor ID", "https://learn.microsoft.com/en-us/windows-hardware/drivers/install/standard-usb-identifiers"); // Old: <https://www.oshwa.org/2013/11/19/new-faq-on-usb-vendor-id-and-product-id/>
-
-            URL_Add("USB product ID", "https://learn.microsoft.com/en-us/windows-hardware/drivers/install/standard-usb-identifiers"); // Old: <https://www.oshwa.org/2013/11/19/new-faq-on-usb-vendor-id-and-product-id/>
-
-            URL_Add("can be found somewhere in the operating system", "https://www.reddit.com/r/Keychron/comments/1qsx84d/comment/o2zfi5z/");
-
-            URL_Add("USB flash drive", "https://en.wikipedia.org/wiki/USB_flash_drive");
-
-            URL_Add("USB On-The-Go", "https://en.wikipedia.org/wiki/USB_On-The-Go");
-
-            URL_Add("USB communications device class", "https://en.wikipedia.org/wiki/USB_communications_device_class");
-
-            URL_Add("USBTMC", "https://en.wikipedia.org/wiki/USB#Device_classes");
-
-            URL_Add("USBlyzer", "https://www.usblyzer.com/");
-
-            URL_Add("USBasp", "https://reprap.org/wiki/USBasp");
-
-            URL_Add("GUID", "https://en.wikipedia.org/wiki/Universally_unique_identifier"); // Old: <https://en.wikipedia.org/wiki/Globally_unique_identifier>
-
-            URL_Add("UUID", "https://en.wikipedia.org/wiki/Universally_unique_identifier");
-
-            URL_Add("guideline", "https://en.wiktionary.org/wiki/guideline#Noun");
-
-            URL_Add("guidelines", "https://en.wiktionary.org/wiki/guideline#Noun");
-
-            URL_Add("guidance", "https://en.wiktionary.org/wiki/guidance#Noun");
-
-            URL_Add("Guido van Rossum", "https://en.wikipedia.org/wiki/Guido_van_Rossum");
-
             URL_Add("LAN", "https://en.wikipedia.org/wiki/Local_area_network");
 
             URL_Add("WLAN", "https://en.wikipedia.org/wiki/Wireless_LAN");
@@ -142997,8 +142909,6 @@ namespace OverflowHelper.core
 
             URL_Add("Desktop Management Interface", "https://en.wikipedia.org/wiki/Desktop_Management_Interface");
 
-            URL_Add("Queued Serial Peripheral Interface", "https://en.wikipedia.org/wiki/Serial_Peripheral_Interface#High_reliability_modifications");
-
             URL_Add("Scratch", "https://en.wikipedia.org/wiki/Scratch_%28programming_language%29");
 
             URL_Add("Wolfgang Amadeus Mozart", "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart");
@@ -143180,10 +143090,6 @@ namespace OverflowHelper.core
             URL_Add("fianchettoing", "https://en.wiktionary.org/wiki/fianchetto#Verb");
 
             URL_Add("AutoIt", "https://en.wikipedia.org/wiki/AutoIt");
-
-            URL_Add("Stoicism", "https://en.wikipedia.org/wiki/Stoicism");
-
-            URL_Add("David Heinemeier Hansson", "https://en.wikipedia.org/wiki/David_Heinemeier_Hansson");
 
             URL_Add("CorFlags", "https://learn.microsoft.com/en-us/previous-versions/dotnet/netframework-2.0/ms164699(v=vs.80)"); // Old: <http://msdn.microsoft.com/en-us/library/ms164699%28v=vs.80%29.aspx>
 
@@ -143770,6 +143676,8 @@ namespace OverflowHelper.core
             URL_Add("Bluefish", "https://en.wikipedia.org/wiki/Bluefish_(software)");
 
             URL_Add("Fisher-Price", "https://en.wikipedia.org/wiki/Fisher-Price");
+
+            URL_Add("wheel", "https://en.wikipedia.org/wiki/Wheel_(disambiguation)#Science_and_technology");
 
             URL_Add("wheel packages", "https://en.wikipedia.org/wiki/Wheel_(disambiguation)#Science_and_technology");
 
@@ -144866,6 +144774,20 @@ namespace OverflowHelper.core
             URL_Add("firearm", "https://en.wiktionary.org/wiki/firearm#Noun");
 
             URL_Add("firearms enthusiast", "https://en.wikipedia.org/wiki/Gun_culture_in_the_United_States#Terms_applied_to_opponents");
+
+            URL_Add("rifle", "https://en.wiktionary.org/wiki/rifle#Noun");
+
+            URL_Add("ammunition", "https://en.wiktionary.org/wiki/ammunition#Noun");
+
+            URL_Add("AR-15", "https://en.wikipedia.org/wiki/AR-15%E2%80%93style_rifle"); // Old: <https://en.wikipedia.org/wiki/AR-15_style_rifle>
+
+            URL_Add("Glock", "https://en.wikipedia.org/wiki/Glock");
+
+            URL_Add("Jacinda Ardern", "https://en.wikipedia.org/wiki/Jacinda_Ardern");
+
+            URL_Add("Boston", "https://en.wikipedia.org/wiki/Boston");
+
+            URL_Add("refilling", "https://en.wiktionary.org/wiki/refill#Verb");
 
             URL_Add("footgun", "https://en.wiktionary.org/wiki/footgun#Noun");
 
@@ -146287,34 +146209,6 @@ namespace OverflowHelper.core
 
             URL_Add("illuminated", "https://en.wiktionary.org/wiki/illuminated#Adjective");
 
-            URL_Add("erroring", "https://en.wiktionary.org/wiki/error#Verb");
-
-            URL_Add("errored", "https://en.wiktionary.org/wiki/error#Verb");
-
-            URL_Add("error", "https://en.wiktionary.org/wiki/error#Noun");
-
-            URL_Add("errors", "https://en.wiktionary.org/wiki/error#Noun");
-
-            URL_Add("see the error of their ways", "https://en.wiktionary.org/wiki/see_the_error_of_one%27s_ways#Verb");
-
-            URL_Add("errored out", "https://en.wiktionary.org/wiki/error_out#Verb");
-
-            URL_Add("error-prone", "https://en.wiktionary.org/wiki/error-prone#Adjective");
-
-            URL_Add("errorproof", "https://en.wiktionary.org/wiki/errorproof#Adjective");
-
-            URL_Add("errorfree", "https://en.wiktionary.org/wiki/errorfree#Adjective");
-
-            URL_Add("error message", "https://en.wiktionary.org/wiki/error_message#Noun"); // Old: https://en.wiktionary.org/wiki/error_message
-
-            URL_Add("error messages", "https://en.wiktionary.org/wiki/error_message#Noun");
-
-            URL_Add("error code", "https://en.wiktionary.org/wiki/error_code#Noun");
-
-            URL_Add("error handling", "https://en.wikipedia.org/wiki/Exception_handling#Exception_handling_in_UI_hierarchies");
-
-            URL_Add("off-by-one errors", "https://en.wiktionary.org/wiki/off-by-one_error#Noun");
-
             URL_Add("tax-free", "https://en.wiktionary.org/wiki/tax-free#Adjective");
 
             URL_Add("Free Pascal", "https://en.wikipedia.org/wiki/Free_Pascal");
@@ -146784,12 +146678,6 @@ namespace OverflowHelper.core
             URL_Add("sleep on it", "https://en.wiktionary.org/wiki/sleep_on#Verb");
 
             URL_Add("deep sleep", "https://en.wiktionary.org/wiki/deep_sleep#Noun");
-
-            URL_Add("fast food", "https://en.wikipedia.org/wiki/Fast_food");
-
-            URL_Add("food for thought", "https://en.wiktionary.org/wiki/food_for_thought#Noun");
-
-            URL_Add("Food and Drug Administration", "https://en.wikipedia.org/wiki/Food_and_Drug_Administration");
 
             URL_Add("she've", "https://en.wiktionary.org/wiki/she've#Contraction");
 
@@ -148312,8 +148200,6 @@ namespace OverflowHelper.core
             URL_Add("Kegboard", "https://github.com/Kegbot/kegboard");
 
             URL_Add("Keyboard Inspector", "https://github.com/mat1jaczyyy/Keyboard-Inspector");
-
-            URL_Add("rotary knob", "https://keyboardsexpert.com/rotary-encoder-knobs-guide/");
 
             URL_Add("fingerboard", "https://en.wikipedia.org/wiki/Fingerboard");
 
@@ -151125,52 +151011,6 @@ namespace OverflowHelper.core
 
             URL_Add("System and Organization Controls, report type 'Trust Services Criteria'", "https://en.wikipedia.org/wiki/System_and_Organization_Controls#Types");
 
-            URL_Add("refire", "https://en.wiktionary.org/wiki/refire#Verb");
-
-            URL_Add("fire risk", "https://www.collinsdictionary.com/dictionary/english/fire-risk");
-
-            URL_Add("wildfire", "https://en.wiktionary.org/wiki/wildfire#Noun");
-
-            URL_Add("backfire", "https://en.wiktionary.org/wiki/backfire#Verb");
-
-            URL_Add("sure-fire", "https://en.wiktionary.org/wiki/sure-fire#Adjective");
-
-            URL_Add("misfires", "https://en.wiktionary.org/wiki/misfire#Noun");
-
-            URL_Add("misfiring", "https://en.wiktionary.org/wiki/misfire#Verb");
-
-            URL_Add("St. Elmo's fire", "https://en.wikipedia.org/wiki/St._Elmo%27s_fire");
-
-            URL_Add("firewood", "https://en.wiktionary.org/wiki/firewood#Noun");
-
-            URL_Add("FIRE", "https://en.wikipedia.org/wiki/FIRE_movement");
-
-            URL_Add("firewall", "https://en.wikipedia.org/wiki/Firewall_(computing)");
-
-            URL_Add("web application firewall", "https://en.wikipedia.org/wiki/Web_application_firewall");
-
-            URL_Add("firewalld", "https://en.wikipedia.org/wiki/Firewalld");
-
-            URL_Add("UFW", "https://en.wikipedia.org/wiki/Uncomplicated_Firewall");
-
-            URL_Add("Firefly", "https://en.wikipedia.org/wiki/Firefly_(TV_series)");
-
-            URL_Add("Firesheep", "https://en.wikipedia.org/wiki/Firesheep");
-
-            URL_Add("FireWire", "https://en.wikipedia.org/wiki/IEEE_1394");
-
-            URL_Add("FireMonkey", "https://en.wikipedia.org/wiki/FireMonkey");
-
-            URL_Add("Firebase", "https://en.wikipedia.org/wiki/Firebase");
-
-            URL_Add("Firebase Realtime Database", "https://firebase.google.com/docs/database/");
-
-            URL_Add("cease", "https://en.wiktionary.org/wiki/cease#Verb");
-
-            URL_Add("ceased", "https://en.wiktionary.org/wiki/cease#Verb");
-
-            URL_Add("ceasefire", "https://en.wiktionary.org/wiki/ceasefire#Noun");
-
             URL_Add("temptation", "https://en.wiktionary.org/wiki/temptation#Noun");
 
             URL_Add("taught", "https://en.wiktionary.org/wiki/teach#Verb");
@@ -151406,6 +151246,178 @@ namespace OverflowHelper.core
             URL_Add("vacuum fluorescent display", "https://en.wikipedia.org/wiki/Vacuum_fluorescent_display");
 
             URL_Add("Teflon", "https://en.wikipedia.org/wiki/Polytetrafluoroethylene");
+
+            URL_Add("relevant", "https://en.wiktionary.org/wiki/relevant#Adjective");
+
+            URL_Add("relevance", "https://en.wiktionary.org/wiki/relevance#Noun");
+
+            URL_Add("irrelevant", "https://en.wiktionary.org/wiki/irrelevant#Adjective");
+
+            URL_Add("rely", "https://en.wiktionary.org/wiki/rely#Verb");
+
+            URL_Add("relies", "https://en.wiktionary.org/wiki/rely#Verb");
+
+            URL_Add("relying", "https://en.wiktionary.org/wiki/rely#Verb");
+
+            URL_Add("reliable", "https://en.wiktionary.org/wiki/reliable#Adjective");
+
+            URL_Add("unreliable", "https://en.wiktionary.org/wiki/unreliable#Adjective");
+
+            URL_Add("reliably", "https://en.wiktionary.org/wiki/reliably#Adverb");
+
+            URL_Add("reliability", "https://en.wiktionary.org/wiki/reliability#Noun");
+
+            URL_Add("unreliability", "https://en.wiktionary.org/wiki/unreliability#Noun");
+
+            URL_Add("Queued Serial Peripheral Interface", "https://en.wikipedia.org/wiki/Serial_Peripheral_Interface#High_reliability_modifications");
+
+            URL_Add("Secure Reliable Transport", "https://en.wikipedia.org/wiki/Secure_Reliable_Transport");
+
+            URL_Add("self-reliant", "https://en.wiktionary.org/wiki/self-reliant#Adjective");
+
+            URL_Add("Stoicism", "https://en.wikipedia.org/wiki/Stoicism");
+
+            URL_Add("David Heinemeier Hansson", "https://en.wikipedia.org/wiki/David_Heinemeier_Hansson");
+
+            URL_Add("secure", "https://en.wiktionary.org/wiki/secure#Adjective");
+
+            URL_Add("secured", "https://en.wiktionary.org/wiki/secure#Verb");
+
+            URL_Add("securely", "https://en.wiktionary.org/wiki/securely#Adverb");
+
+            URL_Add("Secure Boot", "https://en.wikipedia.org/wiki/UEFI#Secure_Boot");
+
+            URL_Add("Secureblue", "https://github.com/secureblue/secureblue");
+
+            URL_Add("Secure Digital Input Output", "https://en.wikipedia.org/wiki/Secure_Digital#SDIO_cards");
+
+            URL_Add("relieved", "https://en.wiktionary.org/wiki/relieved#Adjective");
+
+            URL_Add("cable strain relief", "https://en.wikipedia.org/wiki/Cable_management#Cable_strain_relief");
+
+            URL_Add("cable", "https://en.wiktionary.org/wiki/cable#Noun");
+
+            URL_Add("cables", "https://en.wiktionary.org/wiki/cable#Noun");
+
+            URL_Add("fiber-optic cable", "https://en.wikipedia.org/wiki/Fiber-optic_cable");
+
+            URL_Add("flexible flat cable", "https://en.wikipedia.org/wiki/Flexible_flat_cable");
+
+            URL_Add("connector", "https://en.wiktionary.org/wiki/connector#Noun");
+
+            URL_Add("connectors", "https://en.wiktionary.org/wiki/connector#Noun");
+
+            URL_Add("Molex connector", "https://en.wikipedia.org/wiki/Molex_connector");
+
+            URL_Add("Dupont connector", "https://kerryburton.com/dupont-connectors/");
+
+            URL_Add("Speakon connector", "https://en.wikipedia.org/wiki/Speakon_connector");
+
+            URL_Add("3.5 mm jack", "https://en.wikipedia.org/wiki/Phone_connector_(audio)#Miniature_size");
+
+            URL_Add("jack plug", "https://en.wikipedia.org/wiki/Phone_connector_(audio)");
+
+            URL_Add("DIN-5", "https://en.wikipedia.org/wiki/DIN_connector#Other_uses");
+
+            URL_Add("TRRS", "https://en.wikipedia.org/wiki/Phone_connector_(audio)");
+
+            URL_Add("XLR", "https://en.wikipedia.org/wiki/Phone_connector_(audio)");
+
+            URL_Add("Cat&nbsp;5", "https://en.wikipedia.org/wiki/Category_5_cable");
+
+            URL_Add("Cat&nbsp;6", "https://en.wikipedia.org/wiki/Category_6_cable");
+
+            URL_Add("Cat&nbsp;3", "https://en.wikipedia.org/wiki/Category_3_cable");
+
+            URL_Add("Cat&nbsp;5e", "https://en.wikipedia.org/wiki/Category_5_cable");
+
+            URL_Add("Micro-USB", "https://en.wikipedia.org/wiki/USB_hardware#Micro_connectors");
+
+            URL_Add("Mini-USB", "https://en.wikipedia.org/wiki/USB_hardware#Mini_connectors");
+
+            URL_Add("USB hub", "https://en.wikipedia.org/wiki/USB_hub");
+
+            URL_Add("USB polling rate", "https://switchandclick.com/whats-the-best-mouse-polling-rate/");
+
+            URL_Add("USB Request Block", "https://learn.microsoft.com/en-us/windows-hardware/drivers/usbcon/communicating-with-a-usb-device");
+
+            URL_Add("USB cable", "https://en.wikipedia.org/wiki/USB_hardware#Connectors");
+
+            URL_Add("USB type-A plug", "https://en.wikipedia.org/wiki/USB_hardware#Standard_connectors");
+
+            URL_Add("USB type-B plug", "https://en.wikipedia.org/wiki/USB_hardware#Standard_connectors");
+
+            URL_Add("USB type-C plug", "https://en.wikipedia.org/wiki/USB-C");
+
+            URL_Add("USB&nbsp;3.0", "https://en.wikipedia.org/wiki/USB_3.0");
+
+            URL_Add("USB vendor ID", "https://learn.microsoft.com/en-us/windows-hardware/drivers/install/standard-usb-identifiers"); // Old: <https://www.oshwa.org/2013/11/19/new-faq-on-usb-vendor-id-and-product-id/>
+
+            URL_Add("USB product ID", "https://learn.microsoft.com/en-us/windows-hardware/drivers/install/standard-usb-identifiers"); // Old: <https://www.oshwa.org/2013/11/19/new-faq-on-usb-vendor-id-and-product-id/>
+
+            URL_Add("can be found somewhere in the operating system", "https://www.reddit.com/r/Keychron/comments/1qsx84d/comment/o2zfi5z/");
+
+            URL_Add("USB flash drive", "https://en.wikipedia.org/wiki/USB_flash_drive");
+
+            URL_Add("USB On-The-Go", "https://en.wikipedia.org/wiki/USB_On-The-Go");
+
+            URL_Add("USB communications device class", "https://en.wikipedia.org/wiki/USB_communications_device_class");
+
+            URL_Add("USBTMC", "https://en.wikipedia.org/wiki/USB#Device_classes");
+
+            URL_Add("USBlyzer", "https://www.usblyzer.com/");
+
+            URL_Add("USBasp", "https://reprap.org/wiki/USBasp");
+
+            URL_Add("GUID", "https://en.wikipedia.org/wiki/Universally_unique_identifier"); // Old: <https://en.wikipedia.org/wiki/Globally_unique_identifier>
+
+            URL_Add("UUID", "https://en.wikipedia.org/wiki/Universally_unique_identifier");
+
+            URL_Add("guideline", "https://en.wiktionary.org/wiki/guideline#Noun");
+
+            URL_Add("guidelines", "https://en.wiktionary.org/wiki/guideline#Noun");
+
+            URL_Add("guidance", "https://en.wiktionary.org/wiki/guidance#Noun");
+
+            URL_Add("Guido van Rossum", "https://en.wikipedia.org/wiki/Guido_van_Rossum");
+
+            URL_Add("realistic", "https://en.wiktionary.org/wiki/realistic#Adjective");
+
+            URL_Add("realistically", "https://en.wiktionary.org/wiki/realistically#Adverb");
+
+            URL_Add("realise", "https://en.wiktionary.org/wiki/realise#Verb"); // Old: https://en.wiktionary.org/wiki/realise
+
+            URL_Add("realised", "https://en.wiktionary.org/wiki/realise#Verb"); // Old: https://en.wiktionary.org/wiki/realise#English
+
+            URL_Add("realising", "https://en.wiktionary.org/wiki/realise#Verb");
+
+            URL_Add("see the error of their ways", "https://en.wiktionary.org/wiki/see_the_error_of_one%27s_ways#Verb");
+
+            URL_Add("erroring", "https://en.wiktionary.org/wiki/error#Verb");
+
+            URL_Add("errored", "https://en.wiktionary.org/wiki/error#Verb");
+
+            URL_Add("error", "https://en.wiktionary.org/wiki/error#Noun");
+
+            URL_Add("errors", "https://en.wiktionary.org/wiki/error#Noun");
+
+            URL_Add("errored out", "https://en.wiktionary.org/wiki/error_out#Verb");
+
+            URL_Add("error-prone", "https://en.wiktionary.org/wiki/error-prone#Adjective");
+
+            URL_Add("errorproof", "https://en.wiktionary.org/wiki/errorproof#Adjective");
+
+            URL_Add("errorfree", "https://en.wiktionary.org/wiki/errorfree#Adjective");
+
+            URL_Add("error message", "https://en.wiktionary.org/wiki/error_message#Noun"); // Old: https://en.wiktionary.org/wiki/error_message
+
+            URL_Add("error messages", "https://en.wiktionary.org/wiki/error_message#Noun");
+
+            URL_Add("error code", "https://en.wiktionary.org/wiki/error_code#Noun");
+
+            URL_Add("error handling", "https://en.wikipedia.org/wiki/Exception_handling#Exception_handling_in_UI_hierarchies");
+
+            URL_Add("off-by-one errors", "https://en.wiktionary.org/wiki/off-by-one_error#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -152223,6 +152235,49 @@ namespace OverflowHelper.core
             correctionAdd("leyers_", "layers_");
             correctionAdd("layes_", "layers_");
 
+            // On mechanical keyboards
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Rotary_encoder#Rotary_(Angle)_Pulse_Encoder>
+            //   <https://keyedout.com/mechanical-keyboard-with-volume-knob/>
+            //   <https://drop.com/mechanical-keyboards/drops?sc=keyboard-accessories&tgs=rotary-knobs>
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/knob#Noun>
+            //
+            correctionAdd("Rotary Angle Pulse Encoder_", "rotary knob_");
+            correctionAdd("rotary angle pulse encoder_", "rotary knob_");
+            correctionAdd("rotatory encoder_", "rotary knob_");
+            correctionAdd("rotaray encoder_", "rotary knob_");
+            correctionAdd("Rotary encoder_", "rotary knob_");
+            correctionAdd("rotary encoder_", "rotary knob_");
+            correctionAdd("rotaty encoder_", "rotary knob_");
+            correctionAdd("rotray encoder_", "rotary knob_");
+            correctionAdd("rotatory knob_", "rotary knob_");
+            correctionAdd("rotary knobs_", "rotary knob_"); // Not 100% correct - plural.
+            correctionAdd("volume knob_", "rotary knob_");
+            correctionAdd("Media Dial_", "rotary knob_");
+            correctionAdd("media dial_", "rotary knob_");
+            correctionAdd("Spin Wheel_", "rotary knob_");
+            correctionAdd("spin wheel_", "rotary knob_");
+            correctionAdd("enconder_", "rotary knob_");
+            correctionAdd("encoders_", "rotary knob_");
+            correctionAdd("Encoder_", "rotary knob_");
+            correctionAdd("encoder_", "rotary knob_");
+            correctionAdd("wheel_", "rotary knob_");
+            correctionAdd("nobs_", "rotary knob_"); // Not 100% correct - plural.
+            correctionAdd("knob_", "rotary knob_");
+            correctionAdd("nkob_", "rotary knob_"); // A true typo
+            correctionAdd("Knob_", "rotary knob_");
+            correctionAdd("knbo_", "rotary knob_"); // A true typo
+            correctionAdd("know_", "rotary knob_"); // An autocorrect "masterpiece"?
+            correctionAdd("spin_", "rotary knob_");
+            correctionAdd("Enc_", "rotary knob_"); // A variant should be "Enc.", but we can't currently represent that
+            correctionAdd("enc_", "rotary knob_"); // A variant should be "enc.", but we can't currently represent that
+            correctionAdd("nob_", "rotary knob_");
+
             correctionAdd("ckicky_", "clicky_");
 
             // A type of switch for mechanical keyboards
@@ -152438,9 +152493,6 @@ namespace OverflowHelper.core
             correctionAdd("keyboard setup assistant_", "Keyboard Setup Assistant_");
             correctionAdd("keyboard assistant_", "Keyboard Setup Assistant_");
             correctionAdd("Keychron Assist_", "Keyboard Setup Assistant_"); // For the cross-reference
-
-            // The common noun
-            correctionAdd("weel_", "wheel_");
 
             correctionAdd("mouse cursor_", "mouse pointer_");
             correctionAdd("mouse_", "mouse pointer_");
@@ -152829,6 +152881,7 @@ namespace OverflowHelper.core
             correctionAdd("Keychron Configurator_", "Keychron Launcher_");
             correctionAdd("launcher.keychron.com_", "Keychron Launcher_");
             correctionAdd("Keychron Web Launcher_", "Keychron Launcher_");
+            correctionAdd("Keychron web Launcher_", "Keychron Launcher_");
             correctionAdd("Keychron's Via clone_", "Keychron Launcher_");
             correctionAdd("keyboard application_", "Keychron Launcher_");
             correctionAdd("Keychron's launcher_", "Keychron Launcher_");
@@ -156673,6 +156726,14 @@ namespace OverflowHelper.core
             correctionAdd("k-12_", "K–12_");
             correctionAdd("K-12_", "K–12_");
             correctionAdd("K12_", "K–12_");
+
+            // United States. Jail. Crime.
+            correctionAdd("juvenile detention center_", "youth detention center_");
+            correctionAdd("juvenile jail_", "youth detention center_");
+            correctionAdd("JDC_", "youth detention center_");
+            correctionAdd("YDC_", "youth detention center_");
+            correctionAdd("JD_", "youth detention center_");
+            correctionAdd("YD_", "youth detention center_");
 
             // United States
             // The institution, not the software license
@@ -161033,7 +161094,7 @@ namespace OverflowHelper.core
             correctionAdd("Tge_", "the_"); // A true typo
             correctionAdd("tje_", "the_");
             correctionAdd("tue_", "the_");
-            correctionAdd("tye_", "the_");
+            correctionAdd("tye_", "the_"); // A true typo
             correctionAdd("ghe_", "the_"); // A true typo
             correctionAdd("fhe_", "the_");
             correctionAdd("rhe_", "the_");
@@ -161725,10 +161786,6 @@ namespace OverflowHelper.core
 
             // For the full quote (we already have it in the main word set)
             correctionAdd("Hanlon's razor_", "Never attribute to malice that which is adequately explained by stupidity._");
-
-            // Fedora
-            correctionAdd("spins_", "Spins_");
-            correctionAdd("spin_", "Spins_");
 
             correctionAdd("pacakage_", "package_");
             correctionAdd("packpage_", "package_");
@@ -166000,6 +166057,10 @@ namespace OverflowHelper.core
             correctionAdd("my_", "by_"); // A true typo
 
             correctionAdd("babyy_", "baby_");
+            correctionAdd("Babe_", "baby_");
+            correctionAdd("babe_", "baby_");
+            correctionAdd("B*by_", "baby_");
+            correctionAdd("b*by_", "baby_");
 
             correctionAdd("new with_", "new to_");
             correctionAdd("newbie_", "new to_");
@@ -166323,9 +166384,6 @@ namespace OverflowHelper.core
 
             correctionAdd("sin_", "sine_");
 
-            correctionAdd("knbo_", "knob_"); // A true typo
-            correctionAdd("nob_", "knob_");
-
             // Alternative URL:
             //
             //   <https://en.wikipedia.org/wiki/Trauma_trigger#Trigger_warnings>
@@ -166397,13 +166455,6 @@ namespace OverflowHelper.core
             correctionAdd("Cograts_", "congratulations_");
             correctionAdd("Gz_", "congratulations_");
             correctionAdd("gz_", "congratulations_");
-
-            correctionAdd("enmcoder_", "encoder_");
-            correctionAdd("enconder_", "encoder_");
-            correctionAdd("encorer_", "encoder_");
-            correctionAdd("ecoder_", "encoder_");
-
-            correctionAdd("encorers_", "encoders_");
 
             correctionAdd("DB_", "Deutsche Bahn_");
 
@@ -167911,6 +167962,16 @@ namespace OverflowHelper.core
             correctionAdd("Hg_", "Mercurial_");
             correctionAdd("HG_", "Mercurial_");
 
+            // Drugs
+            correctionAdd("marijuana_", "cannabis_");
+            correctionAdd("Cannabis_", "cannabis_");
+            correctionAdd("mariuana_", "cannabis_");
+            correctionAdd("ganja_", "cannabis_");
+            correctionAdd("Weed_", "cannabis_");
+            correctionAdd("w**d_", "cannabis_");
+            correctionAdd("weed_", "cannabis_");
+            correctionAdd("pot_", "cannabis_");
+
             // C. A book
             //
             // Authors: Brian Kernighan and Dennis Ritchie
@@ -168747,8 +168808,6 @@ namespace OverflowHelper.core
             URL_Add("indeed_", "https://en.wiktionary.org/wiki/indeed#Adverb");
 
             URL_Add("implement_", "https://en.wiktionary.org/wiki/implement#Verb");
-
-            URL_Add("baby_", "https://en.wiktionary.org/wiki/baby#Noun");
 
             URL_Add("netcat_", "https://en.wikipedia.org/wiki/Netcat");
 
@@ -170212,8 +170271,6 @@ namespace OverflowHelper.core
 
             URL_Add("screenshot_", "https://en.wiktionary.org/wiki/screenshot#Noun");
 
-            URL_Add("knob_", "https://en.wiktionary.org/wiki/knob#Noun");
-
             URL_Add("objective_", "https://en.wiktionary.org/wiki/objective#Noun");
 
             URL_Add("catching_", "https://en.wiktionary.org/wiki/catch#Verb");
@@ -170359,8 +170416,6 @@ namespace OverflowHelper.core
             URL_Add("cheese_", "https://en.wiktionary.org/wiki/cheese#Noun");
 
             URL_Add("wicked_", "https://en.wiktionary.org/wiki/wicked#Adjective");
-
-            URL_Add("clicky_", "https://en.wiktionary.org/wiki/clicky#Adjective");
 
             URL_Add("DTS_", "https://en.wikipedia.org/wiki/DTS_(sound_system)#DTS_Digital_Surround");
 
@@ -170742,11 +170797,15 @@ namespace OverflowHelper.core
 
             URL_Add("split ortholinear mechanical keyboard_", "https://en.wikipedia.org/wiki/Ergonomic_keyboard#Vertical_column_layout");
 
-            URL_Add("Bastard Keyboards_", "https://github.com/Bastardkb");
-
             URL_Add("rubber dome_", "https://en.wikipedia.org/wiki/Keyboard_technology#Dome-switch_keyboard");
 
+            URL_Add("splay_", "https://kinesis-ergo.com/split-keyboards/");
+
+            URL_Add("clicky_", "https://en.wiktionary.org/wiki/clicky#Adjective");
+
             URL_Add("micro switch_", "https://en.wikipedia.org/wiki/Miniature_snap-action_switch");
+
+            URL_Add("DIP switches_", "https://en.wiktionary.org/wiki/DIP_switch#Noun");
 
             URL_Add("switch for a mechanical keyboard_", "https://en.wikipedia.org/wiki/Keyboard_technology#Metal_contact");
 
@@ -170754,7 +170813,45 @@ namespace OverflowHelper.core
 
             URL_Add("mechanical switches_", "https://en.wikipedia.org/wiki/Keyboard_technology#Metal_contact");
 
-            URL_Add("splay_", "https://kinesis-ergo.com/split-keyboards/");
+            URL_Add("rotary knob_", "https://keyboardsexpert.com/rotary-encoder-knobs-guide/");
+
+            URL_Add("Cherry MX Red switches_", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
+
+            URL_Add("Cherry MX Brown switches_", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
+
+            URL_Add("Cherry MX Blue switches_", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
+
+            URL_Add("Cherry MX Speed Silver switches_", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
+
+            URL_Add("Fn key_", "https://en.wikipedia.org/wiki/Fn_key");
+
+            URL_Add("Home key_", "https://en.wikipedia.org/wiki/Home_key");
+
+            URL_Add("Return key_", "https://en.wikipedia.org/wiki/Enter_key");
+
+            URL_Add("Tab key_", "https://en.wikipedia.org/wiki/Tab_key");
+
+            URL_Add("Print Screen key_", "https://en.wikipedia.org/wiki/Print_Screen");
+
+            URL_Add("Scroll Lock key_", "https://en.wikipedia.org/wiki/Scroll_Lock");
+
+            URL_Add("Pause key_", "https://en.wikipedia.org/wiki/Break_key");
+
+            URL_Add("Apple key AKA Command key_", "https://en.wikipedia.org/wiki/Command_key");
+
+            URL_Add("Num Lock key_", "https://en.wikipedia.org/wiki/Num_Lock");
+
+            URL_Add("§ key_", "https://en.wikipedia.org/wiki/Section_sign#Keyboard_entry");
+
+            URL_Add("Windows key_", "https://en.wikipedia.org/wiki/Windows_key");
+
+            URL_Add("compose key_", "https://en.wikipedia.org/wiki/Compose_key");
+
+            URL_Add("Bastard Keyboards_", "https://github.com/Bastardkb");
+
+            URL_Add("okey-dokey_", "https://en.wiktionary.org/wiki/okey-dokey#Interjection");
+
+            URL_Add("compensate_", "https://en.wiktionary.org/wiki/compensate#Verb");
 
             URL_Add("SysV_", "https://en.wikipedia.org/wiki/UNIX_System_V");
 
@@ -171015,42 +171112,6 @@ namespace OverflowHelper.core
             URL_Add("17 ms between each key action is recommended_", "https://pmortensen.eu/world2/2022/06/27/blues-typing-out-fixed-texts-on-both-qmk-and-arduino-leonardo-based-macro-keyboards/");
 
             URL_Add("IR_", "https://en.wikipedia.org/wiki/Intermediate_representation");
-
-            URL_Add("Cherry MX Red switches_", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
-
-            URL_Add("Cherry MX Brown switches_", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
-
-            URL_Add("Cherry MX Blue switches_", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
-
-            URL_Add("Cherry MX Speed Silver switches_", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
-
-            URL_Add("Fn key_", "https://en.wikipedia.org/wiki/Fn_key");
-
-            URL_Add("Home key_", "https://en.wikipedia.org/wiki/Home_key");
-
-            URL_Add("Return key_", "https://en.wikipedia.org/wiki/Enter_key");
-
-            URL_Add("Tab key_", "https://en.wikipedia.org/wiki/Tab_key");
-
-            URL_Add("Print Screen key_", "https://en.wikipedia.org/wiki/Print_Screen");
-
-            URL_Add("Scroll Lock key_", "https://en.wikipedia.org/wiki/Scroll_Lock");
-
-            URL_Add("Pause key_", "https://en.wikipedia.org/wiki/Break_key");
-
-            URL_Add("Apple key AKA Command key_", "https://en.wikipedia.org/wiki/Command_key");
-
-            URL_Add("okey-dokey_", "https://en.wiktionary.org/wiki/okey-dokey#Interjection");
-
-            URL_Add("Num Lock key_", "https://en.wikipedia.org/wiki/Num_Lock");
-
-            URL_Add("§ key_", "https://en.wikipedia.org/wiki/Section_sign#Keyboard_entry");
-
-            URL_Add("Windows key_", "https://en.wikipedia.org/wiki/Windows_key");
-
-            URL_Add("compose key_", "https://en.wikipedia.org/wiki/Compose_key");
-
-            URL_Add("compensate_", "https://en.wiktionary.org/wiki/compensate#Verb");
 
             URL_Add("comprehensive_", "https://en.wiktionary.org/wiki/comprehensive#Adjective");
 
@@ -171417,8 +171478,6 @@ namespace OverflowHelper.core
             URL_Add("hellbanning_", "https://en.wiktionary.org/wiki/hellban#Verb");
 
             URL_Add("Z shell (executable `zsh`) is the default shell in macOS v10.15 (Catalina. 2019-10-07)_", "https://en.wikipedia.org/wiki/MacOS_Catalina#Removed_or_changed_components");
-
-            URL_Add("wheel_", "https://en.wiktionary.org/wiki/wheel#Noun");
 
             URL_Add("candidates_", "https://en.wiktionary.org/wiki/candidate#Noun");
 
@@ -172104,10 +172163,6 @@ namespace OverflowHelper.core
 
             URL_Add("Enlightenment_", "https://en.wikipedia.org/wiki/Enlightenment_(software)");
 
-            URL_Add("encoder_", "https://en.wiktionary.org/wiki/encoder#Noun");
-
-            URL_Add("encoders_", "https://en.wiktionary.org/wiki/encoder#Noun");
-
             URL_Add("URL encoded_", "https://en.wikipedia.org/wiki/Percent-encoding");
 
             URL_Add("URL encoding_", "https://en.wikipedia.org/wiki/Percent-encoding");
@@ -172197,8 +172252,6 @@ namespace OverflowHelper.core
             URL_Add("Inertia.js_", "https://inertiajs.com/upgrade-guide");
 
             URL_Add("rheumatoid arthritis_", "https://en.wikipedia.org/wiki/Rheumatoid_arthritis");
-
-            URL_Add("Spins_", "https://en.wikipedia.org/wiki/Fedora_Linux#Spins_and_Remixes");
 
             URL_Add("flies_", "https://en.wiktionary.org/wiki/fly#Verb");
 
@@ -172405,8 +172458,6 @@ namespace OverflowHelper.core
             URL_Add("Via clone outages_", "https://www.reddit.com/r/Keychron/comments/1w75qk9/comment/p7y005o/");
 
             URL_Add("passed pawn_", "https://en.wikipedia.org/wiki/Passed_pawn");
-
-            URL_Add("DIP switches_", "https://en.wiktionary.org/wiki/DIP_switch#Noun");
 
             URL_Add("bear_", "https://en.wiktionary.org/wiki/bear#Noun");
 
@@ -172635,6 +172686,12 @@ namespace OverflowHelper.core
             URL_Add("cumulonimbus_", "https://en.wikipedia.org/wiki/Cumulonimbus");
 
             URL_Add("Mercurial_", "https://en.wikipedia.org/wiki/Mercurial");
+
+            URL_Add("baby_", "https://en.wiktionary.org/wiki/baby#Noun");
+
+            URL_Add("youth detention center_", "https://en.wikipedia.org/wiki/Youth_detention_center");
+
+            URL_Add("cannabis_", "https://en.wikipedia.org/wiki/Cannabis_(drug)");
 
         } //addLookupData_alternativeWordSet()
 
@@ -175990,11 +176047,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Python__", "Python reference__");
 
-            // Python
-            correctionAdd("Wheel__", "wheel__");
-            correctionAdd("whl__", "wheel__");
-            correctionAdd("WHL__", "wheel__");
-
             // Image processing
             //
             // In Python, 'cv2' or 'cv'.
@@ -177748,6 +177800,13 @@ namespace OverflowHelper.core
             correctionAdd("fr__", "for real__");
             correctionAdd("Fr__", "for real__");
 
+            // Fedora
+            correctionAdd("spins__", "Spins__");
+            correctionAdd("spin__", "Spins__");
+
+            // The common noun
+            correctionAdd("weel__", "wheel__");
+
             // A book. For the reverse
             //
             // We need a better reference...
@@ -178962,8 +179021,6 @@ namespace OverflowHelper.core
 
             URL_Add("weird couplings to Bluetooth in Keychron keyboards__", "https://www.reddit.com/r/Keychron/comments/1ihh33r/comment/maxll5p/");
 
-            URL_Add("wheel__", "https://en.wikipedia.org/wiki/Wheel_(disambiguation)#Science_and_technology");
-
             URL_Add("Shell()__", "https://learn.microsoft.com/en-us/office/vba/language/reference/user-interface-help/shell-function");
 
             URL_Add("I/O pin__", "https://en.wikipedia.org/wiki/General-purpose_input/output");
@@ -179059,6 +179116,10 @@ namespace OverflowHelper.core
             URL_Add("notify-send__", "https://tldr.inbrowser.app/pages/linux/notify-send");
 
             URL_Add("for real__", "https://en.wiktionary.org/wiki/for_real#Adverb");
+
+            URL_Add("Spins__", "https://en.wikipedia.org/wiki/Fedora_Linux#Spins_and_Remixes");
+
+            URL_Add("wheel__", "https://en.wiktionary.org/wiki/wheel#Noun");
 
         } //addLookupData_alternativeWordSet2()
 
@@ -179713,21 +179774,21 @@ namespace OverflowHelper.core
             correctionAdd("throuogh___", "through___");
             correctionAdd("thorught___", "through___");
             correctionAdd("througt___", "through___");
-            correctionAdd("thorugh___", "through___");
+            correctionAdd("thorugh___", "through___"); // A true typo
             correctionAdd("throuth___", "through___");
             correctionAdd("througg___", "through___");
             correctionAdd("throguh___", "through___");
+            correctionAdd("thourgh___", "through___");
+            correctionAdd("thought___", "through___");
+            correctionAdd("rhought___", "through___");
             correctionAdd("Troough___", "through___");
             correctionAdd("troough___", "through___");
-            correctionAdd("thourgh___", "through___");
             correctionAdd("trought___", "through___");
-            correctionAdd("rhought___", "through___");
             correctionAdd("trhough___", "through___");
-            correctionAdd("thought___", "through___");
-            correctionAdd("trough___", "through___");
             correctionAdd("throgh___", "through___");
             correctionAdd("throuh___", "through___");
             correctionAdd("throug___", "through___");
+            correctionAdd("trough___", "through___");
             correctionAdd("throu___", "through___");
             correctionAdd("throw___", "through___"); // An autocorrect "masterpiece"?
             correctionAdd("threw___", "through___");
@@ -181310,6 +181371,7 @@ namespace OverflowHelper.core
             correctionAdd("soul___", "sole___"); // Not actually observed
 
             correctionAdd("USA___", "United States___");
+            correctionAdd("US___", "United States___"); // Not strictly necessary (it is covered by cross-references), but for a direct lookup
 
             // United States politics
             correctionAdd("PC___", "political correctness___");
@@ -181666,6 +181728,10 @@ namespace OverflowHelper.core
             // The noun
             correctionAdd("pawer___", "power___");
             correctionAdd("pwer___", "power___");
+
+            // Jail. Crime.
+            correctionAdd("parole officer___", "probation officer___");
+            correctionAdd("PO___", "probation officer___");
 
             // Of the "B" programming language (also by Dennis Ritchie)
             //
@@ -182276,6 +182342,8 @@ namespace OverflowHelper.core
             URL_Add("I___", "https://en.wikipedia.org/wiki/Capitalization#Pronouns");
 
             URL_Add("power___", "https://en.wiktionary.org/wiki/power#Noun");
+
+            URL_Add("probation officer___", "https://en.wikipedia.org/wiki/Probation_and_parole_officer");
 
         } //addLookupData_alternativeWordSet3()
 
