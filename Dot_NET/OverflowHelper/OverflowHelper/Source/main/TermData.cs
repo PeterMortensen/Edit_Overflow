@@ -12477,6 +12477,10 @@ namespace OverflowHelper.core
             // macOS software. Related to "Boot Camp"
             correctionAdd("brigadier", "Brigadier");
 
+            // macOS software. Keyboard-related
+            //
+            correctionAdd("fluor", "Fluor");
+
             // macOS software. Keyboard-related (like Karabiner Elements?)
             //
             // Alternative URLs:
@@ -23987,8 +23991,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Positronium", "positronium");
 
-            correctionAdd("anti-hydrogen", "antihydrogen");
-
             correctionAdd("alfa particle", "alpha particle");
             correctionAdd("Alfa particle", "alpha particle");
             correctionAdd("α particle", "alpha particle");
@@ -24360,6 +24362,9 @@ namespace OverflowHelper.core
 
             // Chemical element 1
             correctionAdd("Hydrogen", "hydrogen");
+            correctionAdd("H", "hydrogen");
+
+            correctionAdd("anti-hydrogen", "antihydrogen");
 
             // An isotope of chemical element 1
             correctionAdd("Deuterium", "deuterium");
@@ -24399,6 +24404,10 @@ namespace OverflowHelper.core
             correctionAdd("Be", "beryllium");
 
             // Chemical element 5
+            //
+            // We would like a mapping for "B", but
+            // there are too many conflicts...
+            //
             correctionAdd("boron (element)", "boron");
             correctionAdd("Boron", "boron");
 
@@ -24448,11 +24457,9 @@ namespace OverflowHelper.core
             correctionAdd("corrossion", "corrosion");
             correctionAdd("corosion", "corrosion");
 
-            // Chemical element 9 (e.g., hydrofluoric acid)
-            correctionAdd("Fluorine", "fluorine");
-            correctionAdd("fluor", "fluorine");
-            correctionAdd("Fluor", "fluorine");
-
+            // Note: the chemical element 9 is in an
+            //       alternative word set.
+            //
             correctionAdd("Hydrofluoric Acid", "hydrofluoric acid");
 
             // Chemical element 10
@@ -24525,6 +24532,7 @@ namespace OverflowHelper.core
             // Chemical element 15
             correctionAdd("phosphorous", "phosphorus");
             correctionAdd("Phosphorus", "phosphorus");
+            correctionAdd("P", "phosphorus");
 
             correctionAdd("Phosphine", "phosphine");
             correctionAdd("Phosphene", "phosphine");
@@ -24548,14 +24556,11 @@ namespace OverflowHelper.core
 
             // Chemical element 18
             correctionAdd("Argon", "argon");
+            correctionAdd("Ar", "argon");
 
-            // Chemical element 19
-            correctionAdd("Potassium", "potassium");
-            correctionAdd("Pottasium", "potassium");
-            correctionAdd("pottasium", "potassium");
-            correctionAdd("Potasium", "potassium");
-            correctionAdd("potasium", "potassium");
-
+            // Note: the chemical element 19 is in an
+            //       alternative word set.
+            //
             // An isotope of chemical element 19
             correctionAdd("Potassium-40", "potassium-40");
             correctionAdd("potassium 40", "potassium-40");
@@ -24576,6 +24581,10 @@ namespace OverflowHelper.core
             correctionAdd("potash alum", "potassium aluminium sulfate");
 
             // Chemical element 20
+            //
+            // Note: the chemical element 19 is in an
+            //       alternative word set.
+            //
             correctionAdd("Calcium", "calcium");
             correctionAdd("Ca", "calcium");
 
@@ -24586,15 +24595,19 @@ namespace OverflowHelper.core
 
             correctionAdd("Calcium phosphate", "calcium phosphate");
 
-            // Chemical element 22 (chemical element 21: Scandium.)
+            // Chemical element 22
+            //
+            // (Has not been added: Chemical element 21: Scandium.)
+            //
             correctionAdd("Titanium", "titanium");
+            correctionAdd("Ti", "titanium");
 
             // Chemical element 26
             //
             // Note: The chemical element 24 is in an alternative word set.
             //
-            // (chemical element 23: Vanadium)
-            // (chemical element 25: Manganese.)
+            // (Has not been added: chemical element 23: Vanadium)
+            // (Has not been added: chemical element 25: Manganese)
             correctionAdd("Iron", "iron");
             correctionAdd("Fe", "iron");
 
@@ -24641,12 +24654,13 @@ namespace OverflowHelper.core
             correctionAdd("Zinc", "zinc");
             correctionAdd("Zn", "zinc");
 
-            // Chemical element 31
-            correctionAdd("Gallium", "gallium");
-
+            // Note: The chemical element 31 is in an alternative word set.
             correctionAdd("GaN", "gallium nitride");
 
             // Chemical element 32
+            //
+            // Note: The chemical element 31 is in an alternative word set.
+            //
             correctionAdd("Germanium", "germanium");
             correctionAdd("Ge", "germanium");
 
@@ -24655,9 +24669,12 @@ namespace OverflowHelper.core
             correctionAdd("As", "arsenic");
 
             // Chemical element 37
-            //             Chemical element 35: Bromine.
-            //             Chemical element 36: Krypton.
+            //
+            // (Has not been added: chemical element 35: Bromine)
+            // (Has not been added: chemical element 36: Krypton)
+            //
             correctionAdd("Rubidium", "rubidium");
+            correctionAdd("Rb", "rubidium");
 
             // Chemical element 38 (note: selenium (chemical element 34) is
             //                            in an alternative word set)
@@ -24667,21 +24684,28 @@ namespace OverflowHelper.core
             correctionAdd("Sr-94", "strontium-94");
             correctionAdd("Sr 94", "strontium-94");
 
-            // Chemical element 40 (chemical element 39: Yttrium.)
+            // Chemical element 40
+            //
+            // (Has not been added: chemical element 39: Yttrium)
             correctionAdd("Zirconium", "zirconium");
 
-            correctionAdd("zirconia", "cubic zirconia");
             correctionAdd("zirkonium", "cubic zirconia");
+            correctionAdd("zirconia", "cubic zirconia");
 
             // Chemical element 41
-            correctionAdd("columbium", "niobium");
+            correctionAdd("columbium", "niobium"); // The former name
+            correctionAdd("Columbium", "niobium"); // Misspelling of the former name
             correctionAdd("Niobium", "niobium");
+            correctionAdd("Cb", "niobium"); // Shorthand for the former name
+            correctionAdd("Nb", "niobium");
 
             // Chemical element 46
-            //             Chemical element 42: Molybdenum.
-            //             Chemical element 43: Technetium.
-            //             Chemical element 44: Ruthenium.
-            //             Chemical element 45: Rhodium.
+            //             
+            // (Has not been added: chemical element 42: Molybdenum)
+            // (Has not been added: chemical element 43: Technetium)
+            // (Has not been added: chemical element 44: Ruthenium)
+            // (Has not been added: chemical element 45: Rhodium)
+            //             
             correctionAdd("Palladium", "palladium");
             correctionAdd("Pd", "palladium");
 
@@ -24727,6 +24751,7 @@ namespace OverflowHelper.core
             //                            in an alternative word set)
             //
             correctionAdd("Xenon", "xenon");
+            correctionAdd("Xe", "xenon");
 
             correctionAdd("Xe-133", "xenon-133");
 
@@ -24753,6 +24778,8 @@ namespace OverflowHelper.core
             correctionAdd("Ba X-rays", "barium Ka line (X-ray 32 keV)");
 
             // Chemical element 56
+            correctionAdd("Caessium", "caesium");
+            correctionAdd("caessium", "caesium");
             correctionAdd("Caesium", "caesium");
             correctionAdd("ceasium", "caesium");
             correctionAdd("Cesium", "caesium");
@@ -24784,29 +24811,31 @@ namespace OverflowHelper.core
             //             Chemical element 72: Hafnium.
             //             Chemical element 73: Tantalum (in another word set)
             //
+            // We would like a mapping for "W", but
+            // there are too many conflicts...
+            //
             correctionAdd("Tungsten", "tungsten");
             correctionAdd("wolfram", "tungsten");
 
             // Chemical element 75
             correctionAdd("Rhenium", "rhenium");
-
-            // Chemical element 76
-            correctionAdd("Osmium", "osmium");
+            correctionAdd("Re", "rhenium");
 
             // Chemical element 77
+            //
+            // Note: The chemical element 76 is in an alternative word set.
             correctionAdd("Iridium", "iridium");
-
-            // Chemical element 78
-            correctionAdd("Platinum", "platinum");
-            correctionAdd("Platnium", "platinum");
-            correctionAdd("platnium", "platinum");
+            correctionAdd("Ir", "iridium");
 
             // Chemical element 79
+            // Note: The chemical element 78 is in an alternative word set.
             correctionAdd("Gold", "gold");
+            correctionAdd("Au", "gold");
 
             // Chemical element 80
             correctionAdd("quicksilver", "mercury");
             correctionAdd("Mercury", "mercury"); // The element, not the planet...
+            correctionAdd("Hg", "mercury");
 
             // Chemical element 81. Not to be confused with chemical element 73 (tantalum)
             correctionAdd("Thallium", "thallium");
@@ -24832,18 +24861,22 @@ namespace OverflowHelper.core
 
             // Chemical element 84
             correctionAdd("Polonium", "polonium");
+            correctionAdd("Po", "polonium");
 
             // Chemical element 87
             //             Chemical element 85: Astatine.
             //             Chemical element 86: Radon.
             correctionAdd("Francium", "francium");
+            correctionAdd("Fr", "francium");
 
             // Chemical element 88
             correctionAdd("Radium", "radium");
+            correctionAdd("Ra", "radium");
 
             // Chemical element 90
             //             Chemical element 89: Actinium.
             correctionAdd("Thorium", "thorium");
+            correctionAdd("Th", "thorium");
 
             // Both Th-232 and Th-233 exist. What was our intent???
             correctionAdd("thorium 232", "thorium-233");
@@ -24889,15 +24922,16 @@ namespace OverflowHelper.core
             //             Chemical element 102: Nobelium    (half-life 58 minutes)
             //             Chemical element 103: Lawrencium  (half-life 40 minutes)
             correctionAdd("Rutherfordium", "rutherfordium");
-
-            // Chemical element 105
-            correctionAdd("Dubnium", "dubnium");
+            correctionAdd("Rf", "rutherfordium");
 
             // Chemical element 106
+            // Note: The chemical element 105 is in an alternative word set.
             correctionAdd("Seaborgium", "seaborgium");
+            correctionAdd("Sg", "seaborgium");
 
             // Chemical element 107
             correctionAdd("Bohrium", "bohrium");
+            correctionAdd("Bh", "bohrium");
 
             // Chemical element 112
             //             Chemical element  108: Hassium.
@@ -24905,6 +24939,7 @@ namespace OverflowHelper.core
             //             Chemical element  110: Darmstadtium.
             //             Chemical element  111: Roentgenium.
             correctionAdd("Copernicium", "copernicium");
+            correctionAdd("Cn", "copernicium");
 
             // Chemical element 118
             //             Chemical element  113: Nihonium.
@@ -24914,10 +24949,12 @@ namespace OverflowHelper.core
             //             Chemical element  117: Tennessine.
             correctionAdd("oganesson (element)", "oganesson");
             correctionAdd("Oganesson", "oganesson");
+            correctionAdd("Og", "oganesson");
 
             // Chemical element 120
             //             Chemical element  119: Ununennium.
             correctionAdd("Unbinilium", "unbinilium");
+            correctionAdd("Ubn", "unbinilium");
 
             // Chemical element 126
             //             Chemical element  121: Unbiunium.
@@ -24927,6 +24964,7 @@ namespace OverflowHelper.core
             //             Chemical element  125: Unbipentium.
             //             Chemical element  127: Unbiseptium.
             correctionAdd("Unbihexium", "unbihexium");
+            correctionAdd("Ubh", "unbihexium");
 
             correctionAdd("Acid", "acid");
 
@@ -31449,15 +31487,6 @@ namespace OverflowHelper.core
             correctionAdd("We", "Wednesday");
             correctionAdd("we", "Wednesday"); // Mostly for cross-reference to the main word set
 
-            correctionAdd("thursday", "Thursday");
-            correctionAdd("Thrusday", "Thursday");
-            correctionAdd("Thu", "Thursday");
-            correctionAdd("Th", "Thursday");
-
-            correctionAdd("friday", "Friday");
-            correctionAdd("Fri", "Friday");
-            correctionAdd("Fr", "Friday");
-
             correctionAdd("saturday", "Saturday");
             correctionAdd("Sturday", "Saturday");
 
@@ -36655,6 +36684,11 @@ namespace OverflowHelper.core
             correctionAdd("yahoo finance", "Yahoo Finance");
 
             correctionAdd("ICANHAZCHEEZBURGER", "I Can Has Cheezburger?");
+
+            correctionAdd("urjent", "urgent");
+            correctionAdd("ergent", "urgent");
+
+            correctionAdd("urgence", "urgency");
 
             correctionAdd("v8", "V8"); // JavaScript
 
@@ -45829,10 +45863,6 @@ namespace OverflowHelper.core
 
             correctionAdd("pluviometer", "rain gauge");
 
-            // Thunderclouds
-            correctionAdd("Cumulonimbus", "cumulonimbus");
-            correctionAdd("Cb", "cumulonimbus");
-
             correctionAdd("Hurricane", "hurricane");
 
             correctionAdd("rain drop", "raindrop");
@@ -46332,8 +46362,8 @@ namespace OverflowHelper.core
             correctionAdd("bzr", "Bazaar");
 
             correctionAdd("source forge", "SourceForge");
-            correctionAdd("Sourcefourge", "SourceForge");
             correctionAdd("Source Forge", "SourceForge");
+            correctionAdd("Sourcefourge", "SourceForge");
             correctionAdd("sourceforge", "SourceForge");
             correctionAdd("Sourceforge", "SourceForge");
 
@@ -56565,6 +56595,8 @@ namespace OverflowHelper.core
             //   <https://www.php2shell.com/>
             //   <https://blog.simply.com/2026/php2shell/>
             //   <https://meta.stackoverflow.com/questions/440576>
+            //
+            //   <https://serverfault.com/questions/tagged/php?tab=Newest>
             //   <https://unix.stackexchange.com/questions/tagged/php?tab=Newest>
             //   <https://askubuntu.com/questions/tagged/php?tab=Newest>
             //   <https://stackoverflow.com/questions/tagged/php?tab=Newest>
@@ -56572,6 +56604,9 @@ namespace OverflowHelper.core
             //   <https://askubuntu.com/questions/1570480>
             //   <https://askubuntu.com/questions/1570517>
             //   <https://askubuntu.com/questions/1570515>
+            //   <https://askubuntu.com/questions/1570504>
+            //
+            //   <https://serverfault.com/questions/1200069>
             //
             //   <https://stackoverflow.com/questions/80011791>
             //   <https://stackoverflow.com/a/79941228>
@@ -69832,6 +69867,17 @@ namespace OverflowHelper.core
             correctionAdd("recurva", "Recurva keyboard layout");
             correctionAdd("Recurva", "Recurva keyboard layout");
 
+            // A keyboard layout
+            //
+            // Alternative URLs:
+            //
+            //   <https://github.com/GalileoBlues/Gallium>
+            //   <https://www.reddit.com/r/KeyboardLayouts/comments/196ow4k/gallium_v2/>
+            //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/1b4ify4/comment/ksz5ikn/>
+            //
+            correctionAdd("gallium", "Gallium keyboard layout");
+            correctionAdd("Gallium", "Gallium keyboard layout");
+
             // A sort of keyboard layout. An input method and
             // virtual keyboard for touchscreen devices.
             //
@@ -73668,6 +73714,7 @@ namespace OverflowHelper.core
             correctionAdd("nanually", "manually");
             correctionAdd("manuallz", "manually");
             correctionAdd("manaully", "manually"); // A true typo
+            correctionAdd("mannulay", "manually");
             correctionAdd("manualy", "manually");
             correctionAdd("manully", "manually");
             correctionAdd("manally", "manually");
@@ -78658,11 +78705,6 @@ namespace OverflowHelper.core
             correctionAdd("soup-kitchen", "soup kitchen");
 
             correctionAdd("consilidate", "consolidate");
-
-            // Electronics
-            correctionAdd("power", "electric power");
-            correctionAdd("Power", "electric power");
-            correctionAdd("P", "electric power");
 
             // The verb
             correctionAdd("powerup", "power up");
@@ -98256,7 +98298,7 @@ namespace OverflowHelper.core
             // M6 user manual:
             //
             //   <https://www.keychron.com/pages/keychron-m6-8k-user-manual>
-            //           
+            //
             // Alternative URLs:
             //
             //   <https://www.youtube.com/watch?v=DdTulqs3w5M>
@@ -100035,15 +100077,9 @@ namespace OverflowHelper.core
             correctionAdd("SCM", "source control management");
             correctionAdd("VC", "source control management");
 
-            // A version control system
-            correctionAdd("mercurial", "Mercurial");
-            correctionAdd("mecurial", "Mercurial"); // Misspelling.
-            correctionAdd("Mecurial", "Mercurial"); // Misspelling.
-            correctionAdd("hg", "Mercurial");
-            correctionAdd("Hg", "Mercurial");
-            correctionAdd("HG", "Mercurial");
-
             // Mercurial
+            //            
+            // Note: "Mercurial" is in an alternative word set
             correctionAdd("Tortoise HG", "TortoiseHg");
             correctionAdd("tortoisehg", "TortoiseHg");
 
@@ -107389,8 +107425,6 @@ namespace OverflowHelper.core
 
             correctionAdd("aging", "ageing");
 
-            correctionAdd("urjent", "urgent");
-
             correctionAdd("discernable", "discernible");
 
             correctionAdd("oppacity", "opacity");
@@ -107469,8 +107503,8 @@ namespace OverflowHelper.core
             correctionAdd("B.Tech", "BTech");
 
             correctionAdd("combobox", "combo box");
-            correctionAdd("CB", "combo box");
             correctionAdd("combox", "combo box");
+            correctionAdd("CB", "combo box");
 
             correctionAdd("subleties", "subtleties");
 
@@ -107841,8 +107875,6 @@ namespace OverflowHelper.core
             correctionAdd("despeair", "despair");
 
             correctionAdd("tech savvy", "tech-savvy");
-
-            correctionAdd("urgence", "urgency");
 
             correctionAdd("abscent", "absent");
 
@@ -111249,8 +111281,6 @@ namespace OverflowHelper.core
 
             URL_Add("suggestion", "https://en.wiktionary.org/wiki/suggestion#Noun");
 
-            URL_Add("Friday", "https://en.wiktionary.org/wiki/Friday#Noun");
-
             URL_Add("coerce", "https://en.wiktionary.org/wiki/coerce#Verb");
 
             URL_Add("coercive", "https://en.wiktionary.org/wiki/coercive#Adjective");
@@ -112232,8 +112262,6 @@ namespace OverflowHelper.core
             URL_Add("virus", "https://en.wiktionary.org/wiki/virus#Noun");
 
             URL_Add("Pune", "https://en.wikipedia.org/wiki/Pune");
-
-            URL_Add("Thursday", "https://en.wiktionary.org/wiki/Thursday#Noun");
 
             URL_Add("pandemic", "https://en.wiktionary.org/wiki/pandemic#Adjective");
 
@@ -115658,8 +115686,6 @@ namespace OverflowHelper.core
             URL_Add("Nemerle", "https://en.wikipedia.org/wiki/Nemerle");
 
             URL_Add("Pastebin.com", "https://pastebin.com/");
-
-            URL_Add("Teflon", "https://en.wikipedia.org/wiki/Polytetrafluoroethylene");
 
             URL_Add("bodge", "https://en.wiktionary.org/wiki/bodge#Noun");
 
@@ -119523,8 +119549,6 @@ namespace OverflowHelper.core
 
             URL_Add("Java&nbsp;11", "https://en.wikipedia.org/wiki/Java_version_history#Java_11");
 
-            URL_Add("urgent", "https://en.wiktionary.org/wiki/urgent#Adjective");
-
             URL_Add("bounding", "https://en.wiktionary.org/wiki/bounding#Noun");
 
             URL_Add("bounding box", "https://en.wikipedia.org/wiki/Minimum_bounding_box");
@@ -121212,8 +121236,6 @@ namespace OverflowHelper.core
             URL_Add("tech-savvy", "https://en.wiktionary.org/wiki/tech-savvy#Adjective");
 
             URL_Add("unsigned", "https://en.wiktionary.org/wiki/unsigned#Adjective");
-
-            URL_Add("urgency", "https://en.wiktionary.org/wiki/urgency#Noun");
 
             URL_Add("Keycloak", "https://en.wikipedia.org/wiki/Keycloak");
 
@@ -129183,8 +129205,6 @@ namespace OverflowHelper.core
 
             URL_Add("pom.xml", "https://maven.apache.org/pom.html#What_is_the_POM.3F");
 
-            URL_Add("I Can Has Cheezburger?", "https://en.wikipedia.org/wiki/I_Can_Has_Cheezburger%3F");
-
             URL_Add("picoCTF", "https://en.wikipedia.org/wiki/Carnegie_Mellon_CyLab#picoCTF");
 
             URL_Add("NetCDF", "https://en.wikipedia.org/wiki/NetCDF");
@@ -131839,8 +131859,6 @@ namespace OverflowHelper.core
 
             URL_Add("240p", "https://en.wikipedia.org/wiki/Low-definition_television#Sources");
 
-            URL_Add("vacuum fluorescent display", "https://en.wikipedia.org/wiki/Vacuum_fluorescent_display");
-
             URL_Add("high dynamic range", "https://en.wikipedia.org/wiki/High-dynamic-range_television#Displays");
 
             URL_Add("Retina display", "https://en.wikipedia.org/wiki/Retina_display");
@@ -132799,8 +132817,6 @@ namespace OverflowHelper.core
 
             URL_Add("antiproton", "https://en.wikipedia.org/wiki/Antiproton");
 
-            URL_Add("antihydrogen", "https://en.wikipedia.org/wiki/Antihydrogen");
-
             URL_Add("alpha particle", "https://en.wikipedia.org/wiki/Alpha_particle");
 
             URL_Add("positronium", "https://en.wikipedia.org/wiki/Positronium");
@@ -132844,6 +132860,8 @@ namespace OverflowHelper.core
             URL_Add("elements", "https://en.wiktionary.org/wiki/element#Noun");
 
             URL_Add("hydrogen", "https://en.wikipedia.org/wiki/Hydrogen"); // Chemical element 1
+
+            URL_Add("antihydrogen", "https://en.wikipedia.org/wiki/Antihydrogen");
 
             URL_Add("deuterium", "https://en.wikipedia.org/wiki/Deuterium");
 
@@ -132981,8 +132999,6 @@ namespace OverflowHelper.core
 
             URL_Add("oxygen-17", "https://en.wikipedia.org/wiki/Oxygen-17"); // Related to chemical element 8
 
-            URL_Add("fluorine", "https://en.wikipedia.org/wiki/Fluorine"); // Chemical element 9
-
             URL_Add("neon", "https://en.wikipedia.org/wiki/Neon"); // Chemical element 10
 
             URL_Add("sodium", "https://en.wikipedia.org/wiki/Sodium");
@@ -133016,8 +133032,6 @@ namespace OverflowHelper.core
             URL_Add("hydrofluoric acid", "https://en.wikipedia.org/wiki/Hydrofluoric_acid");
 
             URL_Add("argon", "https://en.wikipedia.org/wiki/Argon"); // Chemical element 18
-
-            URL_Add("potassium", "https://en.wikipedia.org/wiki/Potassium"); // Chemical element 19
 
             URL_Add("potassium-40", "https://en.wikipedia.org/wiki/Potassium-40"); // Related to chemical element 19
 
@@ -133070,8 +133084,6 @@ namespace OverflowHelper.core
             URL_Add("copper-clad aluminium", "https://en.wikipedia.org/wiki/Copper-clad_aluminium_wire"); // Related to chemical element 29
 
             URL_Add("zinc", "https://en.wikipedia.org/wiki/Zinc"); // Chemical element 30
-
-            URL_Add("gallium", "https://en.wikipedia.org/wiki/Gallium"); // Chemical element 31
 
             URL_Add("gallium nitride", "https://en.wikipedia.org/wiki/Gallium_nitride"); // Related to chemical element 31
 
@@ -133135,11 +133147,7 @@ namespace OverflowHelper.core
 
             URL_Add("rhenium", "https://en.wikipedia.org/wiki/Rhenium"); // Chemical element 75
 
-            URL_Add("osmium", "https://en.wikipedia.org/wiki/Osmium"); // Chemical element 76
-
             URL_Add("iridium", "https://en.wikipedia.org/wiki/Iridium"); // Chemical element 77
-
-            URL_Add("platinum", "https://en.wikipedia.org/wiki/Platinum"); // Chemical element 78
 
             URL_Add("gold", "https://en.wikipedia.org/wiki/Gold"); // Chemical element 79
 
@@ -133180,8 +133188,6 @@ namespace OverflowHelper.core
             URL_Add("americium-241", "https://en.wikipedia.org/wiki/Americium-241"); // Related to chemical element 95
 
             URL_Add("rutherfordium", "https://en.wikipedia.org/wiki/Rutherfordium"); // Chemical element 104
-
-            URL_Add("dubnium", "https://en.wikipedia.org/wiki/Dubnium"); // Chemical element 104
 
             URL_Add("seaborgium", "https://en.wikipedia.org/wiki/Seaborgium"); // Chemical element 106
 
@@ -136199,6 +136205,8 @@ namespace OverflowHelper.core
 
             URL_Add("Brigadier", "https://github.com/timsutton/brigadier");
 
+            URL_Add("Fluor", "https://github.com/Pyroh/Fluor");
+
             URL_Add("ClearBits", "https://wiki.creativecommons.org/wiki/Case_Studies/ClearBits");
 
             URL_Add("sIFR", "https://en.wikipedia.org/wiki/Scalable_Inman_Flash_Replacement");
@@ -138941,8 +138949,6 @@ namespace OverflowHelper.core
 
             URL_Add("power bank", "https://en.wikipedia.org/wiki/Power_bank#Power_bank");
 
-            URL_Add("electric power", "https://en.wikipedia.org/wiki/Electric_power");
-
             URL_Add("hydroelectric power", "https://en.wikipedia.org/wiki/Hydroelectricity");
 
             URL_Add("power plant", "https://en.wiktionary.org/wiki/power_plant#Noun");
@@ -139430,8 +139436,6 @@ namespace OverflowHelper.core
             URL_Add("rain gauge", "https://en.wikipedia.org/wiki/Rain_gauge");
 
             URL_Add("precipitation", "https://en.wiktionary.org/wiki/precipitation#Noun");
-
-            URL_Add("cumulonimbus", "https://en.wikipedia.org/wiki/Cumulonimbus");
 
             URL_Add("debrief", "https://en.wiktionary.org/wiki/debrief#Verb");
 
@@ -142333,7 +142337,13 @@ namespace OverflowHelper.core
 
             URL_Add("button", "https://en.wiktionary.org/wiki/button#Noun");
 
+            URL_Add("urgent", "https://en.wiktionary.org/wiki/urgent#Adjective");
+
+            URL_Add("urgency", "https://en.wiktionary.org/wiki/urgency#Noun");
+
             URL_Add("hamburger button", "https://en.wikipedia.org/wiki/Hamburger_button");
+
+            URL_Add("I Can Has Cheezburger?", "https://en.wikipedia.org/wiki/I_Can_Has_Cheezburger%3F");
 
             URL_Add("pushd", "https://en.wikipedia.org/wiki/Pushd_and_popd");
 
@@ -147257,8 +147267,6 @@ namespace OverflowHelper.core
 
             URL_Add("AT90CAN128", "https://www.microchip.com/en-us/product/AT90CAN128");
 
-            URL_Add("Mercurial", "https://en.wikipedia.org/wiki/Mercurial");
-
             URL_Add("CAN bus", "https://en.wikipedia.org/wiki/CAN_bus");
 
             URL_Add("CANopen", "https://en.wikipedia.org/wiki/CANopen");
@@ -148436,6 +148444,8 @@ namespace OverflowHelper.core
             URL_Add("Workman keyboard layout", "https://en.wikipedia.org/wiki/Keyboard_layout#Workman");
 
             URL_Add("Recurva keyboard layout", "https://github.com/GalileoBlues/Recurva");
+
+            URL_Add("Gallium keyboard layout", "https://www.keyboard-design.com/letterlayout.html?layout=gallium2.en.ansi"); // Associated with chemical element 31
 
             URL_Add("blueprint", "https://en.wiktionary.org/wiki/blueprint#Noun");
 
@@ -151393,6 +151403,10 @@ namespace OverflowHelper.core
 
             URL_Add("Against all probability, a sperm whale has suddenly been called into existence", "https://www.youtube.com/watch?v=b7nI7N1ZSQg&t=2m36s");
 
+            URL_Add("vacuum fluorescent display", "https://en.wikipedia.org/wiki/Vacuum_fluorescent_display");
+
+            URL_Add("Teflon", "https://en.wikipedia.org/wiki/Polytetrafluoroethylene");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -151534,31 +151548,6 @@ namespace OverflowHelper.core
             correctionAdd("Cam_", "camera_");
 
             // The noun
-            correctionAdd("pawer_", "power_");
-            correctionAdd("pwer_", "power_");
-
-            // The noun
-            correctionAdd("power down_", "power-down_");
-            correctionAdd("powerdown_", "power-down_");
-
-            // The noun
-            correctionAdd("power up_", "power-up_");
-            correctionAdd("powerup_", "power-up_");
-
-            // The noun
-            correctionAdd("power cyccle_", "power cycle_");
-            correctionAdd("power cyckle_", "power cycle_");
-            correctionAdd("power-cycle_", "power cycle_");
-            correctionAdd("power cycke_", "power cycle_");
-
-            // For the expanded version
-            correctionAdd("PSU_", "power supply unit_");
-
-            correctionAdd("atomic power station_", "nuclear power plant_");
-            correctionAdd("NPP_", "nuclear power plant_");
-            correctionAdd("APS_", "nuclear power plant_");
-
-            // The noun
             correctionAdd("aleart_", "alert_");
             correctionAdd("allert_", "alert_");
 
@@ -151637,122 +151626,6 @@ namespace OverflowHelper.core
 
             // The adverb
             correctionAdd("first hand_", "firsthand_");
-
-            correctionAdd("handy_", "mobile phone_");
-
-            correctionAdd("Mobile App_", "mobile app_");
-            correctionAdd("m0bile app_", "mobile app_");
-
-            correctionAdd("Mobile Apps_", "mobile apps_");
-
-            // A manufacturer of consumer electronics, etc.
-            // For example, smartphones and TVs.
-            //
-            correctionAdd("LG Electronics_", "LG_");
-            correctionAdd("lg_", "LG_");
-
-            // Electronics
-            //
-            // Alternative URLs:
-            //
-            //  <https://www.youtube.com/watch?v=rPGoMbVSUu8>
-            //
-            correctionAdd("multi meter_", "multimeter_");
-            correctionAdd("Multimeter_", "multimeter_");
-            correctionAdd("multineter_", "multimeter_");
-            correctionAdd("moldymeter_", "multimeter_");
-            correctionAdd("multimete_", "multimeter_");
-            correctionAdd("milimeter_", "multimeter_");
-            correctionAdd("mm_", "multimeter_");
-
-            // Electronics
-            correctionAdd("dip_", "DIP_");
-            correctionAdd("Dip_", "DIP_");
-
-            correctionAdd("usb_", "USB_");
-            correctionAdd("Usb_", "USB_");
-            correctionAdd("USN_", "USB_");
-            correctionAdd("UBS_", "USB_");
-            correctionAdd("ISB_", "USB_"); // A true typo
-            correctionAdd("SUB_", "USB_"); // A true typo
-            correctionAdd("sub_", "USB_"); // A true typo
-
-            // Mostly for the cross-reference
-            correctionAdd("USB-HID_", "USB HID_");
-            correctionAdd("HID_", "USB HID_");
-
-            // SC for 'storage class'?
-            correctionAdd("USB mass storage device class_", "USB MSC_");
-            correctionAdd("mass storage device class_", "USB MSC_");
-            correctionAdd("mass storaage device_", "USB MSC_");
-            correctionAdd("mass storage device_", "USB MSC_");
-            correctionAdd("USB Mass Storage_", "USB MSC_");
-            correctionAdd("USB mass storage_", "USB MSC_");
-            correctionAdd("USBMSC_", "USB MSC_"); // Note: USBMSD is something else (a library?)
-            correctionAdd("MSC_", "USB MSC_");
-            correctionAdd("MSD_", "USB MSC_");
-            correctionAdd("UMS_", "USB MSC_");
-
-            // USB
-            correctionAdd("Start of Frame_", "SOF_");
-            correctionAdd("Start-of-frame_", "SOF_");
-            correctionAdd("start of frame_", "SOF_");
-            correctionAdd("start-of-frame_", "SOF_");
-            correctionAdd("sof_", "SOF_");
-
-            correctionAdd("USB Power Delivery_", "USB power delivery_");
-            correctionAdd("Power Delivery_", "USB power delivery_");
-            correctionAdd("USB-PD_", "USB power delivery_");
-            correctionAdd("PD_", "USB power delivery_");
-
-            correctionAdd("revision code_", "USB side version_");
-            correctionAdd("bcdDevice_", "USB side version_");
-            correctionAdd("version_", "USB side version_");
-
-            // Alternative URLs:
-            //
-            //   <https://i.imgur.com/xaj1qvs.jpeg>
-            //     Loose USB connector
-            //
-            //     Referenced in: <https://www.reddit.com/r/Keychron/comments/1it1m0u/comment/mjbbz91/>
-            //
-            //       Old: <https://www.reddit.com/r/Keychron/comments/1it1m0u/comment/mdm2cf6/>
-            //
-            //     Note: Requires JavaScript to be allowed from
-            //           'cloudfront.net' to not be surrounded
-            //           by Imgur goo.
-            //
-            //     Tag: Loose. USB. Keychron. Connector.
-            //
-            //   <https://imgur.com/cYsmJtH>
-            //     The V Max, at least the V3 Max, has internal connectors.
-            //     From <https://www.reddit.com/r/Keychron/comments/1t0fstn/v3_max_usb_board/>
-            //
-            correctionAdd("loose internal USB connector_", "loose connectors in Keychron keyboards_");
-            correctionAdd("loose internal connectors_", "loose connectors in Keychron keyboards_");
-            correctionAdd("loose internal connector_", "loose connectors in Keychron keyboards_");
-            correctionAdd("internal connectors_", "loose connectors in Keychron keyboards_");
-            correctionAdd("loose USB connector_", "loose connectors in Keychron keyboards_");
-            correctionAdd("loose connectors_", "loose connectors in Keychron keyboards_");
-            correctionAdd("loose connector_", "loose connectors in Keychron keyboards_");
-            correctionAdd("loose_", "loose connectors in Keychron keyboards_");
-
-            // A physical connector (electronics)
-            correctionAdd("JST_", "JST connector_");
-
-            // Electronics
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/1xcdie8/diy_low_profile_pin_headers/>
-            //
-            correctionAdd("pin headers_", "pin header_");
-            correctionAdd("headers_", "pin header_");
-            correctionAdd("header_", "pin header_");
-
-            // Electronics
-            correctionAdd("coaxial cable_", "coax_");
-            correctionAdd("co-ax_", "coax_");
 
             // The noun
             correctionAdd("thank you_", "thank-you_");
@@ -154553,17 +154426,6 @@ namespace OverflowHelper.core
 
             // A keyboard layout
             //
-            // Alternative URLs:
-            //
-            //   <https://github.com/GalileoBlues/Gallium>
-            //   <https://www.reddit.com/r/KeyboardLayouts/comments/196ow4k/gallium_v2/>
-            //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/1b4ify4/comment/ksz5ikn/>
-            //
-            correctionAdd("gallium_", "Gallium keyboard layout_");
-            correctionAdd("Gallium_", "Gallium keyboard layout_");
-
-            // A keyboard layout
-            //
             correctionAdd("APT v3_", "APT keyboard layout_");
             correctionAdd("APTv3_", "APT keyboard layout_");
             correctionAdd("apt_", "APT keyboard layout_");
@@ -157089,6 +156951,148 @@ namespace OverflowHelper.core
 
             correctionAdd("speedup_", "speed up_");
 
+            correctionAdd("handy_", "mobile phone_");
+
+            correctionAdd("Mobile App_", "mobile app_");
+            correctionAdd("m0bile app_", "mobile app_");
+
+            correctionAdd("Mobile Apps_", "mobile apps_");
+
+            // A manufacturer of consumer electronics, etc.
+            // For example, smartphones and TVs.
+            //
+            correctionAdd("LG Electronics_", "LG_");
+            correctionAdd("lg_", "LG_");
+
+            // Electronics
+            //
+            // Alternative URLs:
+            //
+            //  <https://www.youtube.com/watch?v=rPGoMbVSUu8>
+            //
+            correctionAdd("multi meter_", "multimeter_");
+            correctionAdd("Multimeter_", "multimeter_");
+            correctionAdd("multineter_", "multimeter_");
+            correctionAdd("moldymeter_", "multimeter_");
+            correctionAdd("multimete_", "multimeter_");
+            correctionAdd("milimeter_", "multimeter_");
+            correctionAdd("mm_", "multimeter_");
+
+            // Electronics
+            correctionAdd("dip_", "DIP_");
+            correctionAdd("Dip_", "DIP_");
+
+            // A physical connector (electronics)
+            correctionAdd("JST_", "JST connector_");
+
+            // Electronics
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/1xcdie8/diy_low_profile_pin_headers/>
+            //
+            correctionAdd("pin headers_", "pin header_");
+            correctionAdd("headers_", "pin header_");
+            correctionAdd("header_", "pin header_");
+
+            // Electronics
+            correctionAdd("coaxial cable_", "coax_");
+            correctionAdd("co-ax_", "coax_");
+
+            correctionAdd("usb_", "USB_");
+            correctionAdd("Usb_", "USB_");
+            correctionAdd("USN_", "USB_");
+            correctionAdd("UBS_", "USB_");
+            correctionAdd("ISB_", "USB_"); // A true typo
+            correctionAdd("SUB_", "USB_"); // A true typo
+            correctionAdd("sub_", "USB_"); // A true typo
+
+            // Mostly for the cross-reference
+            correctionAdd("USB-HID_", "USB HID_");
+            correctionAdd("HID_", "USB HID_");
+
+            // SC for 'storage class'?
+            correctionAdd("USB mass storage device class_", "USB MSC_");
+            correctionAdd("mass storage device class_", "USB MSC_");
+            correctionAdd("mass storaage device_", "USB MSC_");
+            correctionAdd("mass storage device_", "USB MSC_");
+            correctionAdd("USB Mass Storage_", "USB MSC_");
+            correctionAdd("USB mass storage_", "USB MSC_");
+            correctionAdd("USBMSC_", "USB MSC_"); // Note: USBMSD is something else (a library?)
+            correctionAdd("MSC_", "USB MSC_");
+            correctionAdd("MSD_", "USB MSC_");
+            correctionAdd("UMS_", "USB MSC_");
+
+            // USB
+            correctionAdd("Start of Frame_", "SOF_");
+            correctionAdd("Start-of-frame_", "SOF_");
+            correctionAdd("start of frame_", "SOF_");
+            correctionAdd("start-of-frame_", "SOF_");
+            correctionAdd("sof_", "SOF_");
+
+            correctionAdd("revision code_", "USB side version_");
+            correctionAdd("bcdDevice_", "USB side version_");
+            correctionAdd("version_", "USB side version_");
+
+            // Alternative URLs:
+            //
+            //   <https://i.imgur.com/xaj1qvs.jpeg>
+            //     Loose USB connector
+            //
+            //     Referenced in: <https://www.reddit.com/r/Keychron/comments/1it1m0u/comment/mjbbz91/>
+            //
+            //       Old: <https://www.reddit.com/r/Keychron/comments/1it1m0u/comment/mdm2cf6/>
+            //
+            //     Note: Requires JavaScript to be allowed from
+            //           'cloudfront.net' to not be surrounded
+            //           by Imgur goo.
+            //
+            //     Tag: Loose. USB. Keychron. Connector.
+            //
+            //   <https://imgur.com/cYsmJtH>
+            //     The V Max, at least the V3 Max, has internal connectors.
+            //     From <https://www.reddit.com/r/Keychron/comments/1t0fstn/v3_max_usb_board/>
+            //
+            correctionAdd("loose internal USB connector_", "loose connectors in Keychron keyboards_");
+            correctionAdd("loose internal connectors_", "loose connectors in Keychron keyboards_");
+            correctionAdd("loose internal connector_", "loose connectors in Keychron keyboards_");
+            correctionAdd("internal connectors_", "loose connectors in Keychron keyboards_");
+            correctionAdd("loose USB connector_", "loose connectors in Keychron keyboards_");
+            correctionAdd("loose connectors_", "loose connectors in Keychron keyboards_");
+            correctionAdd("loose connector_", "loose connectors in Keychron keyboards_");
+            correctionAdd("loose_", "loose connectors in Keychron keyboards_");
+
+            correctionAdd("USB Power Delivery_", "USB power delivery_");
+            correctionAdd("Power Delivery_", "USB power delivery_");
+            correctionAdd("USB-PD_", "USB power delivery_");
+            correctionAdd("PD_", "USB power delivery_");
+
+            // Electronics
+            correctionAdd("power_", "electric power_");
+            correctionAdd("Power_", "electric power_");
+            correctionAdd("P_", "electric power_");
+
+            // The noun
+            correctionAdd("power down_", "power-down_");
+            correctionAdd("powerdown_", "power-down_");
+
+            // The noun
+            correctionAdd("power up_", "power-up_");
+            correctionAdd("powerup_", "power-up_");
+
+            // The noun
+            correctionAdd("power cyccle_", "power cycle_");
+            correctionAdd("power cyckle_", "power cycle_");
+            correctionAdd("power-cycle_", "power cycle_");
+            correctionAdd("power cycke_", "power cycle_");
+
+            // For the expanded version
+            correctionAdd("PSU_", "power supply unit_");
+
+            correctionAdd("atomic power station_", "nuclear power plant_");
+            correctionAdd("NPP_", "nuclear power plant_");
+            correctionAdd("APS_", "nuclear power plant_");
+
             correctionAdd("tempertaure_", "temperature_");
             correctionAdd("Temperature_", "temperature_");
             correctionAdd("tomperature_", "temperature_");
@@ -157621,9 +157625,27 @@ namespace OverflowHelper.core
             correctionAdd("spicypillow_", "spicy pillow_");
             correctionAdd("pillow_", "spicy pillow_");
 
+            // Chemical element 9 (e.g., hydrofluoric acid)
+            correctionAdd("Fluorine_", "fluorine_");
+            correctionAdd("fluor_", "fluorine_");
+            correctionAdd("Fluor_", "fluorine_");
+            correctionAdd("F_", "fluorine_");
+
+            // Chemical element 19
+            correctionAdd("Potassium_", "potassium_");
+            correctionAdd("Pottasium_", "potassium_");
+            correctionAdd("pottasium_", "potassium_");
+            correctionAdd("Potasium_", "potassium_");
+            correctionAdd("potasium_", "potassium_");
+            correctionAdd("K_", "potassium_");
+
             // Chemical element 24
             correctionAdd("chromium (chemical element)_", "chromium_");
             correctionAdd("Cr_", "chromium_");
+
+            // Chemical element 31
+            correctionAdd("Gallium_", "gallium_");
+            correctionAdd("Ga_", "gallium_");
 
             // A type of rechargable battery
             // Contains chemical element 28
@@ -157662,6 +157684,21 @@ namespace OverflowHelper.core
 
             // Chemical element 73. Not to be confused with chemical element 81 (thallium)
             correctionAdd("Tantalum_", "tantalum_");
+            correctionAdd("Ta_", "tantalum_");
+
+            // Chemical element 76
+            correctionAdd("Osmium_", "osmium_");
+            correctionAdd("Os_", "osmium_");
+
+            // Chemical element 78
+            correctionAdd("Platinum_", "platinum_");
+            correctionAdd("Platnium_", "platinum_");
+            correctionAdd("platnium_", "platinum_");
+            correctionAdd("Pt_", "platinum_");
+
+            // Chemical element 105
+            correctionAdd("Dubnium_", "dubnium_");
+            correctionAdd("Db_", "dubnium_");
 
             // An API (macOS / GPU)
             correctionAdd("metal_", "Metal_");
@@ -158731,6 +158768,15 @@ namespace OverflowHelper.core
             correctionAdd("tuesday_", "Tuesday_");
             correctionAdd("Tue_", "Tuesday_");
             correctionAdd("Tu_", "Tuesday_");
+
+            correctionAdd("thursday_", "Thursday_");
+            correctionAdd("Thrusday_", "Thursday_");
+            correctionAdd("Thu_", "Thursday_");
+            correctionAdd("Th_", "Thursday_");
+
+            correctionAdd("friday_", "Friday_");
+            correctionAdd("Fri_", "Friday_");
+            correctionAdd("Fr_", "Friday_");
 
             correctionAdd("black Friday_", "Black Friday_");
             correctionAdd("black friday_", "Black Friday_");
@@ -161479,10 +161525,6 @@ namespace OverflowHelper.core
             // Mac. macOS. Mac OS X. An application launcher?
             correctionAdd("quicksilver_", "Quicksilver_");
             correctionAdd("QuickSilver_", "Quicksilver_");
-
-            // macOS software. Keyboard-related
-            //
-            correctionAdd("fluor_", "Fluor_");
 
             // A terminal program for Mac
             correctionAdd("Terminal.app_", "Terminal_");
@@ -166564,10 +166606,6 @@ namespace OverflowHelper.core
             correctionAdd("VB_", "Visual Basic_"); // Expansion
             correctionAdd("vb_", "Visual Basic_"); // Conflicts?
 
-            // Alternative URL: <https://en.wiktionary.org/wiki/fr#Adverb>
-            correctionAdd("fr_", "for real_");
-            correctionAdd("Fr_", "for real_");
-
             // The noun
             correctionAdd("progres_", "progress_");
 
@@ -167861,6 +167899,18 @@ namespace OverflowHelper.core
 
             correctionAdd("exsitential_", "existential_");
 
+            // Thunderclouds
+            correctionAdd("Cumulonimbus_", "cumulonimbus_");
+            correctionAdd("Cb_", "cumulonimbus_");
+
+            // A version control system
+            correctionAdd("mercurial_", "Mercurial_");
+            correctionAdd("mecurial_", "Mercurial_"); // Misspelling.
+            correctionAdd("Mecurial_", "Mercurial_"); // Misspelling.
+            correctionAdd("hg_", "Mercurial_");
+            correctionAdd("Hg_", "Mercurial_");
+            correctionAdd("HG_", "Mercurial_");
+
             // C. A book
             //
             // Authors: Brian Kernighan and Dennis Ritchie
@@ -168890,8 +168940,6 @@ namespace OverflowHelper.core
 
             URL_Add("open-plan office_", "https://en.wiktionary.org/wiki/open-plan#Adjective");
 
-            URL_Add("for real_", "https://en.wiktionary.org/wiki/for_real#Adverb");
-
             URL_Add("preload_", "https://en.wiktionary.org/wiki/preload#Verb");
 
             URL_Add("progress_", "https://en.wiktionary.org/wiki/progress#Noun");
@@ -169451,8 +169499,6 @@ namespace OverflowHelper.core
             URL_Add("Nehalem_", "https://en.wikipedia.org/wiki/Nehalem_(microarchitecture)");
 
             URL_Add("warranty_", "https://en.wiktionary.org/wiki/warranty#Noun");
-
-            URL_Add("power_", "https://en.wiktionary.org/wiki/power#Noun");
 
             URL_Add("layer tap_", "https://docs.qmk.fm/feature_layers#switching-and-toggling-layers");
 
@@ -170097,6 +170143,8 @@ namespace OverflowHelper.core
             URL_Add("care_", "https://en.wiktionary.org/wiki/care#Verb");
 
             URL_Add("fire_", "https://en.wiktionary.org/wiki/fire#Noun");
+
+            URL_Add("electric power_", "https://en.wikipedia.org/wiki/Electric_power");
 
             URL_Add("temperature_", "https://en.wiktionary.org/wiki/temperature#Noun");
 
@@ -171318,13 +171366,17 @@ namespace OverflowHelper.core
 
             URL_Add("Tuesday_", "https://en.wiktionary.org/wiki/Tuesday#Noun");
 
+            URL_Add("Thursday_", "https://en.wiktionary.org/wiki/Thursday#Noun");
+
+            URL_Add("Friday_", "https://en.wiktionary.org/wiki/Friday#Noun");
+
+            URL_Add("Black Friday_", "https://en.wikipedia.org/wiki/Black_Friday_(shopping)");
+
             URL_Add("black_", "https://en.wiktionary.org/wiki/black#Adjective");
 
             URL_Add("blacklist_", "https://en.wiktionary.org/wiki/blacklist#Verb");
 
             URL_Add("black holes_", "https://en.wikipedia.org/wiki/Black_hole");
-
-            URL_Add("Black Friday_", "https://en.wikipedia.org/wiki/Black_Friday_(shopping)");
 
             URL_Add("time()_", "https://www.php.net/manual/en/function.time.php");
 
@@ -171814,8 +171866,6 @@ namespace OverflowHelper.core
 
             URL_Add("Embassy_", "https://github.com/embassy-rs/embassy");
 
-            URL_Add("Fluor_", "https://github.com/Pyroh/Fluor");
-
             URL_Add("The Things Stack_", "https://github.com/TheThingsNetwork/lorawan-stack");
 
             URL_Add("Commitlint_", "https://github.com/conventional-changelog/commitlint");
@@ -171890,8 +171940,6 @@ namespace OverflowHelper.core
 
             URL_Add("APT keyboard layout_", "https://github.com/Apsu/APT#aptv3-layout");
 
-            URL_Add("Gallium keyboard layout_", "https://www.keyboard-design.com/letterlayout.html?layout=gallium2.en.ansi"); // Associated with chemical element 31
-
             URL_Add("Brazilian variant_", "https://en.wikipedia.org/wiki/Lineage_P.1");
 
             URL_Add("German_", "https://en.wiktionary.org/wiki/German#Adjective"); // Associated with chemical element 32
@@ -171900,7 +171948,13 @@ namespace OverflowHelper.core
 
             URL_Add("silicone_", "https://en.wikipedia.org/wiki/Silicone");
 
+            URL_Add("fluorine_", "https://en.wikipedia.org/wiki/Fluorine"); // Chemical element 9
+
+            URL_Add("potassium_", "https://en.wikipedia.org/wiki/Potassium"); // Chemical element 19
+
             URL_Add("chromium_", "https://en.wikipedia.org/wiki/Chromium"); // Chemical element 24
+
+            URL_Add("gallium_", "https://en.wikipedia.org/wiki/Gallium"); // Chemical element 31
 
             URL_Add("lithium-ion battery_", "https://en.wikipedia.org/wiki/Lithium-ion_battery"); // Contains chemical element 3
 
@@ -171913,6 +171967,12 @@ namespace OverflowHelper.core
             URL_Add("indium_", "https://en.wikipedia.org/wiki/Indium"); // Chemical element 49
 
             URL_Add("tantalum_", "https://en.wikipedia.org/wiki/Tantalum"); // Chemical element 73
+
+            URL_Add("osmium_", "https://en.wikipedia.org/wiki/Osmium"); // Chemical element 76
+
+            URL_Add("platinum_", "https://en.wikipedia.org/wiki/Platinum"); // Chemical element 78
+
+            URL_Add("dubnium_", "https://en.wikipedia.org/wiki/Dubnium"); // Chemical element 104
 
             URL_Add("Radium_", "https://www.npmjs.com/package/radium#how-does-radium-work"); // From chemical element 88
 
@@ -172571,6 +172631,10 @@ namespace OverflowHelper.core
             URL_Add("Electronic Arts AntiCheat_", "https://www.theverge.com/2022/9/13/23351900/ea-kernel-level-anti-cheat-system-fifa-23");
 
             URL_Add("existential_", "https://en.wiktionary.org/wiki/existential#Adjective");
+
+            URL_Add("cumulonimbus_", "https://en.wikipedia.org/wiki/Cumulonimbus");
+
+            URL_Add("Mercurial_", "https://en.wikipedia.org/wiki/Mercurial");
 
         } //addLookupData_alternativeWordSet()
 
@@ -177680,6 +177744,10 @@ namespace OverflowHelper.core
             correctionAdd("comp game__", "video game__");
             correctionAdd("comp__", "video game__");
 
+            // Alternative URL: <https://en.wiktionary.org/wiki/fr#Adverb>
+            correctionAdd("fr__", "for real__");
+            correctionAdd("Fr__", "for real__");
+
             // A book. For the reverse
             //
             // We need a better reference...
@@ -178989,6 +179057,8 @@ namespace OverflowHelper.core
             URL_Add("send__", "https://en.wiktionary.org/wiki/send#Verb");
 
             URL_Add("notify-send__", "https://tldr.inbrowser.app/pages/linux/notify-send");
+
+            URL_Add("for real__", "https://en.wiktionary.org/wiki/for_real#Adverb");
 
         } //addLookupData_alternativeWordSet2()
 
@@ -181593,6 +181663,10 @@ namespace OverflowHelper.core
             correctionAdd("core___", ".NET Core___");
             correctionAdd("CORE___", ".NET Core___");
 
+            // The noun
+            correctionAdd("pawer___", "power___");
+            correctionAdd("pwer___", "power___");
+
             // Of the "B" programming language (also by Dennis Ritchie)
             //
             // Alternative URLs:
@@ -182200,6 +182274,8 @@ namespace OverflowHelper.core
             URL_Add("then___", "https://www.wikihow.com/Use-Than-and-Then");
 
             URL_Add("I___", "https://en.wikipedia.org/wiki/Capitalization#Pronouns");
+
+            URL_Add("power___", "https://en.wiktionary.org/wiki/power#Noun");
 
         } //addLookupData_alternativeWordSet3()
 
