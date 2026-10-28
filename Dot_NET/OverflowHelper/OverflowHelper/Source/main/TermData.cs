@@ -9074,6 +9074,7 @@ namespace OverflowHelper.core
             correctionAdd("Keys", "keys");
             correctionAdd("kays", "keys");
             correctionAdd("kyes", "keys");
+            correctionAdd("kesy", "keys"); // A true typo
             correctionAdd("kes", "keys");
 
             correctionAdd("key pair", "keypair");
@@ -19971,6 +19972,24 @@ namespace OverflowHelper.core
             correctionAdd("magneto", "Magento");
 
             correctionAdd("magnification API", "Magnification API");
+
+            correctionAdd("againg", "again");
+            correctionAdd("againa", "again");
+            correctionAdd("agaiin", "again");
+            correctionAdd("agein", "again");
+            correctionAdd("Agajn", "again");
+            correctionAdd("agajn", "again");
+            correctionAdd("agian", "again");
+            correctionAdd("agin", "again");
+
+            // 'once again' is not necessarily incorrect; it
+            // depends on context
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/once_again#Adverb>
+            //
+            correctionAdd("once again", "yet again");
 
             correctionAdd("stratosfere", "stratosphere");
 
@@ -42828,6 +42847,7 @@ namespace OverflowHelper.core
             correctionAdd("differenly", "differently");
 
             correctionAdd("differencies", "differences");
+            correctionAdd("differances", "differences");
             correctionAdd("differeces", "differences");
             correctionAdd("diffrences", "differences");
             correctionAdd("dfferences", "differences");
@@ -45356,16 +45376,14 @@ namespace OverflowHelper.core
             // the database itself (just "Snow"?)
             correctionAdd("snowsql", "SnowSQL");
 
-            correctionAdd("FFI", "foreign function interface");
-
-            correctionAdd("foriner", "foreigner");
-
-            correctionAdd("foriners", "foreigners");
-            correctionAdd("FORINERS", "foreigners");
-
-            correctionAdd("foriegn", "foreign");
-            correctionAdd("foraign", "foreign");
-            correctionAdd("forigen", "foreign");
+            // Databases
+            correctionAdd("Primary Key", "primary key");
+            correctionAdd("PRAMARY KEY", "primary key");
+            correctionAdd("pramary key", "primary key");
+            correctionAdd("PRIMARY KEY", "primary key");
+            correctionAdd("PK", "primary key");
+            correctionAdd("pK", "primary key");
+            correctionAdd("pk", "primary key");
 
             // Databases
             correctionAdd("Foreing Key", "foreign key");
@@ -45385,14 +45403,16 @@ namespace OverflowHelper.core
             // Databases
             correctionAdd("FKs", "foreign keys");
 
-            // Databases
-            correctionAdd("Primary Key", "primary key");
-            correctionAdd("PRAMARY KEY", "primary key");
-            correctionAdd("pramary key", "primary key");
-            correctionAdd("PRIMARY KEY", "primary key");
-            correctionAdd("PK", "primary key");
-            correctionAdd("pK", "primary key");
-            correctionAdd("pk", "primary key");
+            correctionAdd("FFI", "foreign function interface");
+
+            correctionAdd("foriner", "foreigner");
+
+            correctionAdd("foriners", "foreigners");
+            correctionAdd("FORINERS", "foreigners");
+
+            correctionAdd("foriegn", "foreign");
+            correctionAdd("foraign", "foreign");
+            correctionAdd("forigen", "foreign");
 
             // Databases
             correctionAdd("Entity Relationship", "entity–relationship model");
@@ -45935,6 +45955,28 @@ namespace OverflowHelper.core
             correctionAdd("nHibernate", "NHibernate");
             correctionAdd("NHIbernate", "NHibernate");
             correctionAdd("NH", "NHibernate");
+
+            correctionAdd("screw-up", "screwup");
+            correctionAdd("screw up", "screwup");
+
+            correctionAdd("screw ups", "screwups");
+
+            correctionAdd("screwdrive", "screwdriver");
+
+            correctionAdd("unscrewd", "unscrewed");
+
+            correctionAdd("sunk threaded findings", "threaded inserts");
+
+            correctionAdd("allen key", "Allen key");
+            correctionAdd("hex key", "Allen key");
+            correctionAdd("Hex Key", "Allen key");
+
+            // The screw type, not the Dutcth company...
+            correctionAdd("phillips", "Phillips");
+            correctionAdd("phillip", "Phillips");
+
+            // A computer program
+            correctionAdd("corkscrew", "Corkscrew");
 
             // Verb
             correctionAdd("layed out", "laid out");
@@ -49250,28 +49292,6 @@ namespace OverflowHelper.core
 
             // Related to "Vala"
             correctionAdd("gobject introspection", "GObject Introspection");
-
-            correctionAdd("screw-up", "screwup");
-            correctionAdd("screw up", "screwup");
-
-            correctionAdd("screw ups", "screwups");
-
-            correctionAdd("screwdrive", "screwdriver");
-
-            correctionAdd("unscrewd", "unscrewed");
-
-            correctionAdd("sunk threaded findings", "threaded inserts");
-
-            correctionAdd("allen key", "Allen key");
-            correctionAdd("hex key", "Allen key");
-            correctionAdd("Hex Key", "Allen key");
-
-            // The screw type, not the Dutcth company...
-            correctionAdd("phillips", "Phillips");
-            correctionAdd("phillip", "Phillips");
-
-            // A computer program
-            correctionAdd("corkscrew", "Corkscrew");
 
             correctionAdd("Libera.Chat", "Libera Chat");
             correctionAdd("livera.chat", "Libera Chat");
@@ -56324,23 +56344,24 @@ namespace OverflowHelper.core
             correctionAdd("new to", "newbie"); // Actualy the more correct form
             correctionAdd("new in", "newbie");
             correctionAdd("new at", "newbie");
-            correctionAdd("newbee", "newbie");
             correctionAdd("noobie", "newbie");
-            correctionAdd("newbei", "newbie");
-            correctionAdd("n00bie", "newbie");
-            correctionAdd("Newbie", "newbie");
             correctionAdd("Noobie", "newbie");
-            correctionAdd("newby", "newbie");
+            correctionAdd("n00bie", "newbie");
+            correctionAdd("newbee", "newbie");
+            correctionAdd("newbei", "newbie");
+            correctionAdd("Newbie", "newbie");
             correctionAdd("nooby", "newbie");
+            correctionAdd("newby", "newbie");
             correctionAdd("newbi", "newbie");
             correctionAdd("newbe", "newbie");
             correctionAdd("NEWBY", "newbie");
             correctionAdd("Newbi", "newbie");
             correctionAdd("nubie", "newbie");
-            correctionAdd("newb", "newbie");
             correctionAdd("noob", "newbie");
-            correctionAdd("n3wb", "newbie");
+            correctionAdd("n00b", "newbie");
+            correctionAdd("newb", "newbie");
             correctionAdd("Newb", "newbie");
+            correctionAdd("n3wb", "newbie");
 
             correctionAdd("noobies", "newbies");
             correctionAdd("Newbs", "newbies");
@@ -64817,6 +64838,8 @@ namespace OverflowHelper.core
 
             correctionAdd("statically-typed", "statically typed");
 
+            correctionAdd("strengthnend", "strengthened");
+
             correctionAdd("strenghening", "strengthening");
             correctionAdd("Strenghening", "strengthening");
 
@@ -72190,6 +72213,7 @@ namespace OverflowHelper.core
             //   <https://www.youtube.com/watch?v=9f0ETkgbY3A>
             //
             correctionAdd("qwertykeys", "Qwertykeys");
+            correctionAdd("qwertykesy", "Qwertykeys"); // Partly a true typo
             correctionAdd("Qwertykey", "Qwertykeys");
             correctionAdd("qwertykey", "Qwertykeys");
             correctionAdd("QK", "Qwertykeys");
@@ -81138,6 +81162,8 @@ namespace OverflowHelper.core
             correctionAdd("encaurage", "encourage");
             correctionAdd("encorage", "encourage");
 
+            correctionAdd("incourages", "encourages");
+
             correctionAdd("encoraging", "encouraging");
 
             correctionAdd("enco­urax", "encouraged"); // Note: It contains a hidden Unicode character (betweem "o" and "u"). It is U+00AD (SOFT HYPHEN) (UTF-8 sequence: 302 255 (octal). 0xC2 0xAD (hexadecimal)). <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=170&number=128>. It can be searched for using the regular expression \x{AD} ("\uAD" in Visual Studio Code and some others).
@@ -81609,6 +81635,7 @@ namespace OverflowHelper.core
             //   <https://www.youtube.com/watch?v=ge9Ou3-YyqU>
             //     Even weirder...
             //
+            correctionAdd("teenie-tiny", "Itsy bitsy teenie weenie yellow polka dot bikini"); // For the cross-reference
             correctionAdd("Itsy bitsy", "Itsy bitsy teenie weenie yellow polka dot bikini");
             correctionAdd("itsy bitsy", "Itsy bitsy teenie weenie yellow polka dot bikini");
             correctionAdd("bitsy", "Itsy bitsy teenie weenie yellow polka dot bikini");
@@ -85387,6 +85414,7 @@ namespace OverflowHelper.core
             //
             // Alternative URLs:
             //
+            //   <https://deskthority.net/wiki/Lily58>
             //   <https://kriscables.com/lily58/>
             //   <https://mechboards.co.uk/products/lily58-kit>
             //   <https://github.com/qmk/qmk_firmware/tree/master/keyboards/lily58>
@@ -101286,15 +101314,6 @@ namespace OverflowHelper.core
             correctionAdd("universially", "universally");
             correctionAdd("univerally", "universally");
 
-            correctionAdd("againg", "again");
-            correctionAdd("againa", "again");
-            correctionAdd("agaiin", "again");
-            correctionAdd("agein", "again");
-            correctionAdd("Agajn", "again");
-            correctionAdd("agajn", "again");
-            correctionAdd("agian", "again");
-            correctionAdd("agin", "again");
-
             correctionAdd("Oops", "oops");
             correctionAdd("OOps", "oops");
             correctionAdd("Oups", "oops");
@@ -108565,6 +108584,7 @@ namespace OverflowHelper.core
             correctionAdd("peice", "piece");
             correctionAdd("peace", "piece");
             correctionAdd("pice", "piece");
+            correctionAdd("pc", "piece");
 
             correctionAdd("master piece", "masterpiece");
             correctionAdd("masteripiece", "masterpiece");
@@ -109380,8 +109400,6 @@ namespace OverflowHelper.core
             URL_Add("Lucene", "https://en.wikipedia.org/wiki/Lucene");
 
             URL_Add("phpBB", "https://en.wikipedia.org/wiki/PhpBB");
-
-            URL_Add("foreign key", "https://en.wikipedia.org/wiki/Foreign_key");
 
             URL_Add("Magento", "https://en.wikipedia.org/wiki/Magento");
 
@@ -110603,8 +110621,6 @@ namespace OverflowHelper.core
 
             URL_Add("separator", "https://en.wiktionary.org/wiki/separator#Noun");
 
-            URL_Add("strength", "https://en.wiktionary.org/wiki/strength#Noun");
-
             URL_Add("xUnit", "https://en.wikipedia.org/wiki/XUnit");
 
             URL_Add("Artifactory", "https://jfrog.com/artifactory/");
@@ -111761,17 +111777,17 @@ namespace OverflowHelper.core
 
             URL_Add("De Morgan's laws", "https://en.wikipedia.org/wiki/De_Morgan%27s_laws");
 
-            URL_Add("Esc key", "https://en.wikipedia.org/wiki/Esc_key");
-
             URL_Add("GPM", "https://en.wikipedia.org/wiki/GPM_(software)");
-
-            URL_Add("Ins key", "https://en.wikipedia.org/wiki/Insert_key");
 
             URL_Add("RTS", "https://en.wikipedia.org/wiki/Flow_control_(data)#Hardware_flow_control");
 
             URL_Add("acquisition", "https://en.wiktionary.org/wiki/acquisition#Noun");
 
             URL_Add("again", "https://en.wiktionary.org/wiki/again#Adverb");
+
+            URL_Add("yet again", "https://en.wiktionary.org/wiki/yet_again#Adverb");
+
+            URL_Add("Make America Great Again", "https://en.wikipedia.org/wiki/Make_America_Great_Again");
 
             URL_Add("century", "https://en.wiktionary.org/wiki/century#Noun");
 
@@ -111852,8 +111868,6 @@ namespace OverflowHelper.core
             URL_Add("viewpoint", "https://en.wiktionary.org/wiki/viewpoint#Noun");
 
             URL_Add("whoami", "https://en.wikipedia.org/wiki/Whoami");
-
-            URL_Add("Alt key", "https://en.wikipedia.org/wiki/Alt_key");
 
             URL_Add("Atlassian", "https://en.wikipedia.org/wiki/Atlassian");
 
@@ -113061,8 +113075,6 @@ namespace OverflowHelper.core
 
             URL_Add("Eiffel", "https://en.wikipedia.org/wiki/Eiffel_(programming_language)");
 
-            URL_Add("Enter key", "https://en.wikipedia.org/wiki/Enter_key");
-
             URL_Add("GPA", "https://en.wiktionary.org/wiki/GPA#Noun");
 
             URL_Add("copied", "https://en.wiktionary.org/wiki/copy#Verb");
@@ -113078,8 +113090,6 @@ namespace OverflowHelper.core
             URL_Add("artificial", "https://en.wiktionary.org/wiki/artificial#Adjective");
 
             URL_Add("eliminated", "https://en.wiktionary.org/wiki/eliminate#Verb");
-
-            URL_Add("encourage", "https://en.wiktionary.org/wiki/encourage#Verb");
 
             URL_Add("implicit", "https://en.wiktionary.org/wiki/implicit#Adjective");
 
@@ -116187,8 +116197,6 @@ namespace OverflowHelper.core
 
             URL_Add("illusion", "https://en.wiktionary.org/wiki/illusion#Noun");
 
-            URL_Add("industrial-strength", "https://en.wiktionary.org/wiki/industrial-strength#Adjective"); // Old: https://en.wiktionary.org/wiki/industrial-strength
-
             URL_Add("laughable", "https://en.wiktionary.org/wiki/laughable#Adjective");
 
             URL_Add("turn off", "https://en.wiktionary.org/wiki/turn_off#Verb");
@@ -116400,8 +116408,6 @@ namespace OverflowHelper.core
             URL_Add("bikeshedding", "https://en.wikipedia.org/wiki/Law_of_triviality");
 
             URL_Add("metaphor", "https://en.wiktionary.org/wiki/metaphor#Noun");
-
-            URL_Add("encouraged", "https://en.wiktionary.org/wiki/encourage#Verb");
 
             URL_Add("AlmaLinux", "https://en.wikipedia.org/wiki/AlmaLinux");
 
@@ -119293,8 +119299,6 @@ namespace OverflowHelper.core
 
             URL_Add("loop unrolling", "https://en.wikipedia.org/wiki/Loop_unrolling");
 
-            URL_Add("strength reduction", "https://en.wikipedia.org/wiki/Strength_reduction");
-
             URL_Add("gratitude", "https://en.wiktionary.org/wiki/gratitude#Noun");
 
             URL_Add("Detroit", "https://en.wikipedia.org/wiki/Detroit");
@@ -120851,10 +120855,6 @@ namespace OverflowHelper.core
 
             URL_Add("IPVS", "https://en.wikipedia.org/wiki/IP_Virtual_Server");
 
-            URL_Add("PgDn key", "https://en.wikipedia.org/wiki/Page_Up_and_Page_Down_keys");
-
-            URL_Add("PgUp key", "https://en.wikipedia.org/wiki/Page_Up_and_Page_Down_keys");
-
             URL_Add("give me", "https://en.wiktionary.org/wiki/give_me#Verb");
 
             URL_Add("absent-mindedly", "https://en.wiktionary.org/wiki/absent-mindedly#Adverb");
@@ -120889,11 +120889,7 @@ namespace OverflowHelper.core
 
             URL_Add("faster", "https://en.wiktionary.org/wiki/faster#Adjective");
 
-            URL_Add("arrow key", "https://en.wikipedia.org/wiki/Arrow_keys");
-
             URL_Add("auto_ptr", "https://en.wikipedia.org/wiki/Auto_ptr");
-
-            URL_Add("down arrow key", "https://en.wikipedia.org/wiki/Arrow_keys");
 
             URL_Add("GNOME&nbsp;3", "https://en.wikipedia.org/wiki/GNOME_3");
 
@@ -122095,8 +122091,6 @@ namespace OverflowHelper.core
 
             URL_Add("plagiarisers", "https://en.wiktionary.org/wiki/plagiariser#Noun");
 
-            URL_Add("strengthening", "https://en.wiktionary.org/wiki/strengthen#Verb");
-
             URL_Add("Drogon", "https://en.wikipedia.org/wiki/Drogon_(software)");
 
             URL_Add("Lucas–Kanade method", "https://en.wikipedia.org/wiki/Lucas%E2%80%93Kanade_method");
@@ -122367,8 +122361,6 @@ namespace OverflowHelper.core
 
             URL_Add("recommendations", "https://en.wiktionary.org/wiki/recommendation#Noun");
 
-            URL_Add("AltGr key", "https://en.wikipedia.org/wiki/AltGr_key");
-
             URL_Add("cutoff frequency", "https://en.wikipedia.org/wiki/Cutoff_frequency");
 
             URL_Add("dict.cc", "https://en.wikipedia.org/wiki/Dict.cc");
@@ -122510,8 +122502,6 @@ namespace OverflowHelper.core
             URL_Add("regression", "https://en.wikipedia.org/wiki/Software_regression");
 
             URL_Add("Java&nbsp;17", "https://en.wikipedia.org/wiki/Java_version_history#Java_17");
-
-            URL_Add("left arrow key", "https://en.wikipedia.org/wiki/Arrow_keys");
 
             URL_Add("varying", "https://en.wiktionary.org/wiki/vary#Verb");
 
@@ -122752,8 +122742,6 @@ namespace OverflowHelper.core
             URL_Add("glitchy", "https://en.wiktionary.org/wiki/glitchy#Adjective");
 
             URL_Add("extracted", "https://en.wiktionary.org/wiki/extract#Verb");
-
-            URL_Add("End key", "https://en.wikipedia.org/wiki/End_key");
 
             URL_Add("placement", "https://en.wiktionary.org/wiki/placement#Noun");
 
@@ -123567,8 +123555,6 @@ namespace OverflowHelper.core
 
             URL_Add("for crying out loud", "https://en.wiktionary.org/wiki/for_crying_out_loud#Interjection");
 
-            URL_Add("up arrow key", "https://en.wikipedia.org/wiki/Arrow_keys");
-
             URL_Add("uninstallation", "https://en.wiktionary.org/wiki/uninstallation#Noun");
 
             URL_Add("bylaws", "https://en.wiktionary.org/wiki/bylaw#Noun");
@@ -123823,8 +123809,6 @@ namespace OverflowHelper.core
 
             URL_Add("hidden", "https://en.wiktionary.org/wiki/hide#Verb");
 
-            URL_Add("right arrow key", "https://en.wikipedia.org/wiki/Arrow_keys");
-
             URL_Add("nonchalant", "https://en.wiktionary.org/wiki/nonchalant#Adjective");
 
             URL_Add("eSIM", "https://en.wikipedia.org/wiki/ESIM");
@@ -123884,8 +123868,6 @@ namespace OverflowHelper.core
             URL_Add("noncrippled", "https://en.wiktionary.org/wiki/noncrippled#Adjective");
 
             URL_Add("What do you mean?", "https://en.wiktionary.org/wiki/WDYM#Phrase");
-
-            URL_Add("Option key", "https://en.wikipedia.org/wiki/Option_key");
 
             URL_Add("that's all for now", "https://dictionary.cambridge.org/dictionary/english/tafn");
 
@@ -125238,8 +125220,6 @@ namespace OverflowHelper.core
             URL_Add("notably", "https://en.wiktionary.org/wiki/notably#Adverb");
 
             URL_Add("dedent", "https://en.wiktionary.org/wiki/dedent#Verb");
-
-            URL_Add("encouraging", "https://en.wiktionary.org/wiki/encourage#Verb");
 
             URL_Add("prerelease", "https://en.wiktionary.org/wiki/prerelease#Noun");
 
@@ -129665,22 +129645,6 @@ namespace OverflowHelper.core
 
             URL_Add("well-publicised", "https://en.wiktionary.org/wiki/well-publicised#Adjective");
 
-            URL_Add("public service announcement", "https://en.wiktionary.org/wiki/PSA#Noun");
-
-            URL_Add("public switched telephone network", "https://en.wikipedia.org/wiki/Public_switched_telephone_network");
-
-            URL_Add("public key", "https://en.wikipedia.org/wiki/Public-key_cryptography");
-
-            URL_Add("public key infrastructure", "https://en.wikipedia.org/wiki/Public_key_infrastructure");
-
-            URL_Add("Public Health England (UK)", "https://en.wikipedia.org/wiki/Public_Health_England");
-
-            URL_Add("Tutorial Republic", "https://www.tutorialrepublic.com/");
-
-            URL_Add("Weimar Republic", "https://en.wikipedia.org/wiki/Weimar_Republic");
-
-            URL_Add("Czechia", "https://en.wikipedia.org/wiki/Czech_Republic");
-
             URL_Add("Effective C++", "https://en.wikipedia.org/wiki/Scott_Meyers#Publications");
 
             URL_Add("LGPL", "https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License");
@@ -130566,8 +130530,6 @@ namespace OverflowHelper.core
             URL_Add("unique selling point", "https://en.wikipedia.org/wiki/Unique_selling_proposition");
 
             URL_Add("organizationally unique identifier", "https://en.wikipedia.org/wiki/Organizationally_unique_identifier");
-
-            URL_Add("primary key", "https://en.wikipedia.org/wiki/Unique_key#Defining_primary_keys");
 
             URL_Add("non-Euclidean", "https://en.wiktionary.org/wiki/non-Euclidean#Adjective");
 
@@ -134025,8 +133987,6 @@ namespace OverflowHelper.core
 
             URL_Add("Flymake", "https://www.gnu.org/software/emacs/manual/html_mono/flymake.html"); // Old: <http://www.gnu.org/software/emacs/manual/html_mono/flymake.html>
 
-            URL_Add("Make America Great Again", "https://en.wikipedia.org/wiki/Make_America_Great_Again");
-
             URL_Add("Amazon SageMaker", "https://en.wikipedia.org/wiki/Amazon_SageMaker");
 
             URL_Add("Texmaker", "https://en.wikipedia.org/wiki/Texmaker");
@@ -135299,8 +135259,6 @@ namespace OverflowHelper.core
 
             URL_Add("alleviation", "https://en.wiktionary.org/wiki/alleviation#Noun");
 
-            URL_Add("Allen key", "https://en.wikipedia.org/wiki/Hex_key");
-
             URL_Add("Allegro", "https://en.wikipedia.org/wiki/Allegro_(software_library)");
 
             URL_Add("depriving", "https://en.wiktionary.org/wiki/deprive#Verb");
@@ -136206,6 +136164,14 @@ namespace OverflowHelper.core
             URL_Add("What have you tried?", "https://meta.stackexchange.com/questions/172758/what-have-you-tried-epidemic");
 
             URL_Add("meta effect", "https://meta.stackexchange.com/questions/235225/what-is-the-meta-effect");
+
+            URL_Add("encourage", "https://en.wiktionary.org/wiki/encourage#Verb");
+
+            URL_Add("encourages", "https://en.wiktionary.org/wiki/encourage#Verb");
+
+            URL_Add("encouraging", "https://en.wiktionary.org/wiki/encourage#Verb");
+
+            URL_Add("encouraged", "https://en.wiktionary.org/wiki/encourage#Verb");
 
             URL_Add("Encouraging people to explain downvotes", "https://meta.stackexchange.com/questions/135");
 
@@ -141835,12 +141801,6 @@ namespace OverflowHelper.core
 
             URL_Add("getText (for Java)", "https://www.selenium.dev/documentation/webdriver/elements/finders/");
 
-            URL_Add("context", "https://en.wiktionary.org/wiki/context#Noun");
-
-            URL_Add("context menu key", "https://en.wikipedia.org/wiki/Menu_key");
-
-            URL_Add("context is king", "https://contextisking.com/2020/12/06/the-origins-and-paradox-of-content-is-king/");
-
             URL_Add("TextWrangler", "https://en.wikipedia.org/wiki/BBEdit#TextWrangler"); // Old: https://en.wikipedia.org/wiki/TextWrangler
 
             URL_Add("Q12", "https://en.wikipedia.org/wiki/Q_%28number_format%29#Texas_Instruments_version");
@@ -142048,56 +142008,6 @@ namespace OverflowHelper.core
             URL_Add("status codes", "https://en.wikipedia.org/wiki/List_of_HTTP_status_codes");
 
             URL_Add("Related: *Why do I need 50 reputation to comment? What can I do instead?*", "https://meta.stackexchange.com/questions/214173/");
-
-            URL_Add("machine", "https://en.wiktionary.org/wiki/machine#Noun");
-
-            URL_Add("pick-and-place machine", "https://en.wikipedia.org/wiki/Pick-and-place_machine");
-
-            URL_Add("machine language instructions", "https://en.wikipedia.org/wiki/Machine_code");
-
-            URL_Add("machine owner key", "https://wiki.debian.org/SecureBoot#MOK_-_Machine_Owner_Key");
-
-            URL_Add("machine-translated", "https://en.wiktionary.org/wiki/machine-translate#Verb");
-
-            URL_Add("finite-state machine", "https://en.wikipedia.org/wiki/Finite-state_machine"); // Old: https://en.wiktionary.org/wiki/state_machine#Noun
-
-            URL_Add("von Neumann machine", "https://en.wikipedia.org/wiki/Von_Neumann_architecture");
-
-            URL_Add("machine learning", "https://en.wikipedia.org/wiki/Machine_learning");
-
-            URL_Add("Standard for machine learning questions", "https://meta.stackoverflow.com/questions/380942/standard-for-machine-learning-questions");
-
-            URL_Add("Azure Machine Learning", "https://learn.microsoft.com/en-us/azure/machine-learning/concept-train-machine-learning-model");
-
-            URL_Add("Wayback Machine", "https://en.wikipedia.org/wiki/Wayback_Machine");
-
-            URL_Add("Association for Computing Machinery", "https://en.wikipedia.org/wiki/Association_for_Computing_Machinery");
-
-            URL_Add("Mealy machine", "https://en.wikipedia.org/wiki/Mealy_machine");
-
-            URL_Add("Moore machine", "https://en.wikipedia.org/wiki/Moore_machine");
-
-            URL_Add("Virtual Machine Manager", "https://en.wikipedia.org/wiki/Virtual_Machine_Manager");
-
-            URL_Add("NoMachine NX", "https://en.wikipedia.org/wiki/NX_technology");
-
-            URL_Add("DeLorean time machine", "https://en.wikipedia.org/wiki/DeLorean_time_machine");
-
-            URL_Add("HKEY_LOCAL_MACHINE", "https://en.wikipedia.org/wiki/Windows_Registry#HKEY_LOCAL_MACHINE_(HKLM)");
-
-            URL_Add("HKEY_CURRENT_USER", "https://en.wikipedia.org/wiki/Windows_Registry#HKEY_CURRENT_USER_(HKCU)");
-
-            URL_Add("Auto MPG data set", "https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research#Systems");
-
-            URL_Add("PASCAL VOC Dataset", "https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research#Object_detection_and_recognition");
-
-            URL_Add("Lenna", "https://en.wikipedia.org/wiki/Lenna");
-
-            URL_Add("finite-state automaton", "https://en.wikipedia.org/wiki/Finite-state_automaton");
-
-            URL_Add("nondeterministic finite automaton", "https://en.wikipedia.org/wiki/Nondeterministic_finite_automaton");
-
-            URL_Add("deterministic finite automaton", "https://en.wikipedia.org/wiki/Deterministic_finite_automaton");
 
             URL_Add("assignment", "https://en.wiktionary.org/wiki/assignment#Noun");
 
@@ -142500,62 +142410,6 @@ namespace OverflowHelper.core
             URL_Add("linear congruential generator", "https://en.wikipedia.org/wiki/Linear_congruential_generator");
 
             URL_Add("true random number generator", "https://en.wikipedia.org/wiki/Hardware_random_number_generator");
-
-            URL_Add("auto shift", "https://docs.qmk.fm/features/auto_shift");
-
-            URL_Add("quadriphase phase-shift keying", "https://en.wikipedia.org/wiki/Phase-shift_keying#Quadrature_phase-shift_keying_(QPSK)");
-
-            URL_Add("shift of two in Keychron custom keycodes", "https://www.reddit.com/r/Keychron/comments/1e4wqsl/comment/ldo5fqc/");
-
-            URL_Add("left Shift key", "https://en.wikipedia.org/wiki/Shift_key");
-
-            URL_Add("Timeshift", "https://wiki.archlinux.org/title/Timeshift");
-
-            URL_Add("OpenShift", "https://en.wikipedia.org/wiki/OpenShift");
-
-            URL_Add("Lamb shift", "https://en.wikipedia.org/wiki/Lamb_shift");
-
-            URL_Add("bit stuffing", "https://en.wikipedia.org/wiki/Bit_stuffing");
-
-            URL_Add("bit bang", "https://en.wikipedia.org/wiki/Bit_banging");
-
-            URL_Add("bit banging", "https://en.wiktionary.org/wiki/bit_banging#Noun");
-
-            URL_Add("bit-banding", "https://electronics.stackexchange.com/questions/27550/what-is-bit-banding");
-
-            URL_Add("bitrate", "https://en.wiktionary.org/wiki/bitrate#Noun");
-
-            URL_Add("bitrates", "https://en.wiktionary.org/wiki/bitrate#Noun");
-
-            URL_Add("bitterly", "https://en.wiktionary.org/wiki/bitterly#Adverb");
-
-            URL_Add("bitch", "https://en.wiktionary.org/wiki/bitch#Noun");
-
-            URL_Add("bitcoin", "https://en.wikipedia.org/wiki/Bitcoin");
-
-            URL_Add("Bitly", "https://en.wikipedia.org/wiki/Bitly");
-
-            URL_Add("Bitnami", "https://en.wikipedia.org/wiki/Bitnami#Technology_overview");
-
-            URL_Add("BitLocker", "https://en.wikipedia.org/wiki/BitLocker");
-
-            URL_Add("BitKeeper", "https://en.wikipedia.org/wiki/BitKeeper");
-
-            URL_Add("Bitbucket", "https://en.wikipedia.org/wiki/Bitbucket");
-
-            URL_Add("Bitcoin-Qt", "https://en.bitcoin.it/wiki/Bitcoin-Qt");
-
-            URL_Add("Bitcoin Cash", "https://en.wikipedia.org/wiki/Bitcoin_Cash");
-
-            URL_Add("BitClout", "https://en.wikipedia.org/wiki/BitClout");
-
-            URL_Add("BitChute", "https://en.wikipedia.org/wiki/BitChute");
-
-            URL_Add("Bitwarden", "https://en.wikipedia.org/wiki/Bitwarden");
-
-            URL_Add("BitBake", "https://en.wikipedia.org/wiki/BitBake");
-
-            URL_Add("Bitdefender", "https://en.wikipedia.org/wiki/Bitdefender#Bitdefender_products");
 
             URL_Add("pointwise", "https://en.wiktionary.org/wiki/pointwise#Adjective");
 
@@ -147575,11 +147429,7 @@ namespace OverflowHelper.core
 
             URL_Add("the official instructions to install QMK", "https://docs.qmk.fm/newbs_getting_started#set-up-your-environment");
 
-            URL_Add("repeat key", "https://docs.qmk.fm/features/repeat_key");
-
             URL_Add("caps word", "https://docs.qmk.fm/features/caps_word");
-
-            URL_Add("leader key", "https://docs.qmk.fm/features/leader_key");
 
             URL_Add("grave escape", "https://docs.qmk.fm/features/grave_esc");
 
@@ -148641,8 +148491,6 @@ namespace OverflowHelper.core
 
             URL_Add("hand wired", "https://www.crackedthecode.co/a-complete-guide-to-building-a-hand-wired-keyboard/");
 
-            URL_Add("dead key", "https://en.wikipedia.org/wiki/Dead_key#Electronic_keyboards");
-
             URL_Add("thock", "https://kineticlabs.com/blog/what-is-thock");
 
             URL_Add("thocking", "https://en.wiktionary.org/wiki/thock#Verb");
@@ -148664,28 +148512,6 @@ namespace OverflowHelper.core
             URL_Add("polyethylene foam modification", "https://www.youtube.com/watch?v=XnQMXVchnrU");
 
             URL_Add("trampoline modification", "https://geekhack.org/index.php?topic=50632.0");
-
-            URL_Add("SpaceFM", "https://en.wikipedia.org/wiki/SpaceFM");
-
-            URL_Add("Spacemacs", "https://en.wikipedia.org/wiki/Spacemacs");
-
-            URL_Add("four-layer", "https://en.wikipedia.org/wiki/Printed_circuit_board#Overview");
-
-            URL_Add("space-cadet keyboard", "https://en.wikipedia.org/wiki/Space-cadet_keyboard");
-
-            URL_Add("Backspace key", "https://en.wikipedia.org/wiki/Backspace");
-
-            URL_Add("Myspace", "https://en.wikipedia.org/wiki/Myspace");
-
-            URL_Add("Squarespace", "https://en.wikipedia.org/wiki/Squarespace#Product_/_business_model"); // Old: https://en.wikipedia.org/wiki/Squarespace#Software
-
-            URL_Add("Office Space", "https://en.wikipedia.org/wiki/Office_Space");
-
-            URL_Add("G Suite", "https://en.wikipedia.org/wiki/Google_Workspace"); // Old: https://en.wikipedia.org/wiki/G_Suite
-
-            URL_Add("SpaceWire", "https://en.wikipedia.org/wiki/SpaceWire");
-
-            URL_Add("SKALE", "https://skale.space/");
 
             URL_Add("PCB", "https://en.wikipedia.org/wiki/Printed_circuit_board");
 
@@ -148923,8 +148749,6 @@ namespace OverflowHelper.core
 
             URL_Add("gasket mount", "https://switchandclick.com/guide-to-mechanical-keyboard-cases/");
 
-            URL_Add("function key", "https://en.wikipedia.org/wiki/IBM_PC_keyboard#Invented_for_computers_with_video_displays"); // Old: https://en.wikipedia.org/wiki/Function_key#MS-DOS/Windows
-
             URL_Add("KVM switch", "https://en.wikipedia.org/wiki/KVM_switch");
 
             URL_Add("DIP switch", "https://en.wikipedia.org/wiki/DIP_switch");
@@ -149108,12 +148932,6 @@ namespace OverflowHelper.core
             URL_Add("LineageOS", "https://en.wikipedia.org/wiki/LineageOS");
 
             URL_Add("form over function", "https://www.boardandvellum.com/blog/form-over-function-or-function-over-form/");
-
-            URL_Add("Meta key", "https://en.wikipedia.org/wiki/Meta_key");
-
-            URL_Add("memchanical", "https://www.tomshardware.com/news/razer-mecha-membrane-switch-ornata-chroma,32637.html");
-
-            URL_Add("Super key", "https://en.wikipedia.org/wiki/Super_key_(keyboard_button)");
 
             URL_Add("linewidths", "https://en.wiktionary.org/wiki/linewidth#Noun");
 
@@ -151418,6 +151236,214 @@ namespace OverflowHelper.core
             URL_Add("error handling", "https://en.wikipedia.org/wiki/Exception_handling#Exception_handling_in_UI_hierarchies");
 
             URL_Add("off-by-one errors", "https://en.wiktionary.org/wiki/off-by-one_error#Noun");
+
+            URL_Add("strengthening", "https://en.wiktionary.org/wiki/strengthen#Verb");
+
+            URL_Add("strengthened", "https://en.wiktionary.org/wiki/strengthen#Verb");
+
+            URL_Add("strength", "https://en.wiktionary.org/wiki/strength#Noun");
+
+            URL_Add("industrial-strength", "https://en.wiktionary.org/wiki/industrial-strength#Adjective"); // Old: https://en.wiktionary.org/wiki/industrial-strength
+
+            URL_Add("strength reduction", "https://en.wikipedia.org/wiki/Strength_reduction");
+
+            URL_Add("Enter key", "https://en.wikipedia.org/wiki/Enter_key");
+
+            URL_Add("Backspace key", "https://en.wikipedia.org/wiki/Backspace");
+
+            URL_Add("function key", "https://en.wikipedia.org/wiki/IBM_PC_keyboard#Invented_for_computers_with_video_displays"); // Old: https://en.wikipedia.org/wiki/Function_key#MS-DOS/Windows
+
+            URL_Add("Esc key", "https://en.wikipedia.org/wiki/Esc_key");
+
+            URL_Add("Ins key", "https://en.wikipedia.org/wiki/Insert_key");
+
+            URL_Add("End key", "https://en.wikipedia.org/wiki/End_key");
+
+            URL_Add("PgDn key", "https://en.wikipedia.org/wiki/Page_Up_and_Page_Down_keys");
+
+            URL_Add("PgUp key", "https://en.wikipedia.org/wiki/Page_Up_and_Page_Down_keys");
+
+            URL_Add("arrow key", "https://en.wikipedia.org/wiki/Arrow_keys");
+
+            URL_Add("left arrow key", "https://en.wikipedia.org/wiki/Arrow_keys");
+
+            URL_Add("right arrow key", "https://en.wikipedia.org/wiki/Arrow_keys");
+
+            URL_Add("up arrow key", "https://en.wikipedia.org/wiki/Arrow_keys");
+
+            URL_Add("down arrow key", "https://en.wikipedia.org/wiki/Arrow_keys");
+
+            URL_Add("context menu key", "https://en.wikipedia.org/wiki/Menu_key");
+
+            URL_Add("left Shift key", "https://en.wikipedia.org/wiki/Shift_key");
+
+            URL_Add("AltGr key", "https://en.wikipedia.org/wiki/AltGr_key");
+
+            URL_Add("Alt key", "https://en.wikipedia.org/wiki/Alt_key");
+
+            URL_Add("Option key", "https://en.wikipedia.org/wiki/Option_key");
+
+            URL_Add("Meta key", "https://en.wikipedia.org/wiki/Meta_key");
+
+            URL_Add("Super key", "https://en.wikipedia.org/wiki/Super_key_(keyboard_button)");
+
+            URL_Add("dead key", "https://en.wikipedia.org/wiki/Dead_key#Electronic_keyboards");
+
+            URL_Add("repeat key", "https://docs.qmk.fm/features/repeat_key");
+
+            URL_Add("leader key", "https://docs.qmk.fm/features/leader_key");
+
+            URL_Add("Allen key", "https://en.wikipedia.org/wiki/Hex_key");
+
+            URL_Add("primary key", "https://en.wikipedia.org/wiki/Unique_key#Defining_primary_keys");
+
+            URL_Add("foreign key", "https://en.wikipedia.org/wiki/Foreign_key");
+
+            URL_Add("public key", "https://en.wikipedia.org/wiki/Public-key_cryptography");
+
+            URL_Add("machine owner key", "https://wiki.debian.org/SecureBoot#MOK_-_Machine_Owner_Key");
+
+            URL_Add("public service announcement", "https://en.wiktionary.org/wiki/PSA#Noun");
+
+            URL_Add("public switched telephone network", "https://en.wikipedia.org/wiki/Public_switched_telephone_network");
+
+            URL_Add("public key infrastructure", "https://en.wikipedia.org/wiki/Public_key_infrastructure");
+
+            URL_Add("Public Health England (UK)", "https://en.wikipedia.org/wiki/Public_Health_England");
+
+            URL_Add("Tutorial Republic", "https://www.tutorialrepublic.com/");
+
+            URL_Add("Weimar Republic", "https://en.wikipedia.org/wiki/Weimar_Republic");
+
+            URL_Add("Czechia", "https://en.wikipedia.org/wiki/Czech_Republic");
+
+            URL_Add("context", "https://en.wiktionary.org/wiki/context#Noun");
+
+            URL_Add("context is king", "https://contextisking.com/2020/12/06/the-origins-and-paradox-of-content-is-king/");
+
+            URL_Add("machine", "https://en.wiktionary.org/wiki/machine#Noun");
+
+            URL_Add("pick-and-place machine", "https://en.wikipedia.org/wiki/Pick-and-place_machine");
+
+            URL_Add("machine language instructions", "https://en.wikipedia.org/wiki/Machine_code");
+
+            URL_Add("machine-translated", "https://en.wiktionary.org/wiki/machine-translate#Verb");
+
+            URL_Add("finite-state machine", "https://en.wikipedia.org/wiki/Finite-state_machine"); // Old: https://en.wiktionary.org/wiki/state_machine#Noun
+
+            URL_Add("von Neumann machine", "https://en.wikipedia.org/wiki/Von_Neumann_architecture");
+
+            URL_Add("machine learning", "https://en.wikipedia.org/wiki/Machine_learning");
+
+            URL_Add("Standard for machine learning questions", "https://meta.stackoverflow.com/questions/380942/standard-for-machine-learning-questions");
+
+            URL_Add("Azure Machine Learning", "https://learn.microsoft.com/en-us/azure/machine-learning/concept-train-machine-learning-model");
+
+            URL_Add("Wayback Machine", "https://en.wikipedia.org/wiki/Wayback_Machine");
+
+            URL_Add("Association for Computing Machinery", "https://en.wikipedia.org/wiki/Association_for_Computing_Machinery");
+
+            URL_Add("Mealy machine", "https://en.wikipedia.org/wiki/Mealy_machine");
+
+            URL_Add("Moore machine", "https://en.wikipedia.org/wiki/Moore_machine");
+
+            URL_Add("Virtual Machine Manager", "https://en.wikipedia.org/wiki/Virtual_Machine_Manager");
+
+            URL_Add("NoMachine NX", "https://en.wikipedia.org/wiki/NX_technology");
+
+            URL_Add("DeLorean time machine", "https://en.wikipedia.org/wiki/DeLorean_time_machine");
+
+            URL_Add("HKEY_LOCAL_MACHINE", "https://en.wikipedia.org/wiki/Windows_Registry#HKEY_LOCAL_MACHINE_(HKLM)");
+
+            URL_Add("HKEY_CURRENT_USER", "https://en.wikipedia.org/wiki/Windows_Registry#HKEY_CURRENT_USER_(HKCU)");
+
+            URL_Add("Auto MPG data set", "https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research#Systems");
+
+            URL_Add("PASCAL VOC Dataset", "https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research#Object_detection_and_recognition");
+
+            URL_Add("Lenna", "https://en.wikipedia.org/wiki/Lenna");
+
+            URL_Add("finite-state automaton", "https://en.wikipedia.org/wiki/Finite-state_automaton");
+
+            URL_Add("nondeterministic finite automaton", "https://en.wikipedia.org/wiki/Nondeterministic_finite_automaton");
+
+            URL_Add("deterministic finite automaton", "https://en.wikipedia.org/wiki/Deterministic_finite_automaton");
+
+            URL_Add("auto shift", "https://docs.qmk.fm/features/auto_shift");
+
+            URL_Add("quadriphase phase-shift keying", "https://en.wikipedia.org/wiki/Phase-shift_keying#Quadrature_phase-shift_keying_(QPSK)");
+
+            URL_Add("shift of two in Keychron custom keycodes", "https://www.reddit.com/r/Keychron/comments/1e4wqsl/comment/ldo5fqc/");
+
+            URL_Add("Timeshift", "https://wiki.archlinux.org/title/Timeshift");
+
+            URL_Add("OpenShift", "https://en.wikipedia.org/wiki/OpenShift");
+
+            URL_Add("Lamb shift", "https://en.wikipedia.org/wiki/Lamb_shift");
+
+            URL_Add("bit stuffing", "https://en.wikipedia.org/wiki/Bit_stuffing");
+
+            URL_Add("bit bang", "https://en.wikipedia.org/wiki/Bit_banging");
+
+            URL_Add("bit banging", "https://en.wiktionary.org/wiki/bit_banging#Noun");
+
+            URL_Add("bit-banding", "https://electronics.stackexchange.com/questions/27550/what-is-bit-banding");
+
+            URL_Add("bitrate", "https://en.wiktionary.org/wiki/bitrate#Noun");
+
+            URL_Add("bitrates", "https://en.wiktionary.org/wiki/bitrate#Noun");
+
+            URL_Add("bitterly", "https://en.wiktionary.org/wiki/bitterly#Adverb");
+
+            URL_Add("bitch", "https://en.wiktionary.org/wiki/bitch#Noun");
+
+            URL_Add("bitcoin", "https://en.wikipedia.org/wiki/Bitcoin");
+
+            URL_Add("Bitly", "https://en.wikipedia.org/wiki/Bitly");
+
+            URL_Add("Bitnami", "https://en.wikipedia.org/wiki/Bitnami#Technology_overview");
+
+            URL_Add("BitLocker", "https://en.wikipedia.org/wiki/BitLocker");
+
+            URL_Add("BitKeeper", "https://en.wikipedia.org/wiki/BitKeeper");
+
+            URL_Add("Bitbucket", "https://en.wikipedia.org/wiki/Bitbucket");
+
+            URL_Add("Bitcoin-Qt", "https://en.bitcoin.it/wiki/Bitcoin-Qt");
+
+            URL_Add("Bitcoin Cash", "https://en.wikipedia.org/wiki/Bitcoin_Cash");
+
+            URL_Add("BitClout", "https://en.wikipedia.org/wiki/BitClout");
+
+            URL_Add("BitChute", "https://en.wikipedia.org/wiki/BitChute");
+
+            URL_Add("Bitwarden", "https://en.wikipedia.org/wiki/Bitwarden");
+
+            URL_Add("BitBake", "https://en.wikipedia.org/wiki/BitBake");
+
+            URL_Add("Bitdefender", "https://en.wikipedia.org/wiki/Bitdefender#Bitdefender_products");
+
+            URL_Add("SpaceFM", "https://en.wikipedia.org/wiki/SpaceFM");
+
+            URL_Add("Spacemacs", "https://en.wikipedia.org/wiki/Spacemacs");
+
+            URL_Add("four-layer", "https://en.wikipedia.org/wiki/Printed_circuit_board#Overview");
+
+            URL_Add("space-cadet keyboard", "https://en.wikipedia.org/wiki/Space-cadet_keyboard");
+
+            URL_Add("Myspace", "https://en.wikipedia.org/wiki/Myspace");
+
+            URL_Add("Squarespace", "https://en.wikipedia.org/wiki/Squarespace#Product_/_business_model"); // Old: https://en.wikipedia.org/wiki/Squarespace#Software
+
+            URL_Add("Office Space", "https://en.wikipedia.org/wiki/Office_Space");
+
+            URL_Add("G Suite", "https://en.wikipedia.org/wiki/Google_Workspace"); // Old: https://en.wikipedia.org/wiki/G_Suite
+
+            URL_Add("SpaceWire", "https://en.wikipedia.org/wiki/SpaceWire");
+
+            URL_Add("SKALE", "https://skale.space/");
+
+            URL_Add("memchanical", "https://www.tomshardware.com/news/razer-mecha-membrane-switch-ornata-chroma,32637.html");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -158294,12 +158320,20 @@ namespace OverflowHelper.core
             //
             //   <https://en.wiktionary.org/wiki/teeny-tiny#Adjective>
             //
+            correctionAdd("teenie weenie_", "teenie-tiny_");
             correctionAdd("teensy-tinsy_", "teenie-tiny_");
             correctionAdd("teenie tiny_", "teenie-tiny_");
+            correctionAdd("teeny weeny_", "teenie-tiny_");
             correctionAdd("very small_", "teenie-tiny_");
             correctionAdd("teeny tiny_", "teenie-tiny_");
+            correctionAdd("teeny-tiny_", "teenie-tiny_");
             correctionAdd("tiniest_", "teenie-tiny_");
+            correctionAdd("weenie_", "teenie-tiny_");
             correctionAdd("small_", "teenie-tiny_");
+            correctionAdd("bitsy_", "teenie-tiny_");
+            correctionAdd("teeny_", "teenie-tiny_");
+            correctionAdd("weeny_", "teenie-tiny_");
+            correctionAdd("itsy_", "teenie-tiny_");
 
             correctionAdd("cicles_", "circles_");
             correctionAdd("cycles_", "circles_");
@@ -160607,6 +160641,7 @@ namespace OverflowHelper.core
             correctionAdd("K10 V2_", "Keychron&nbsp;K10 (100%)_"); // Or maybe a whole new series, K QMK series. Thus, K10 QMK
             correctionAdd("K10 v2_", "Keychron&nbsp;K10 (100%)_");
             correctionAdd("k10 v2_", "Keychron&nbsp;K10 (100%)_");
+            correctionAdd("k10 V2_", "Keychron&nbsp;K10 (100%)_");
             correctionAdd("K10 V1_", "Keychron&nbsp;K10 (100%)_");
             correctionAdd("K10X_", "Keychron&nbsp;K10 (100%)_"); // K10 V2 (QMK-based) has "K10X" in the SKU number
             correctionAdd("k 10_", "Keychron&nbsp;K10 (100%)_");
@@ -164592,9 +164627,11 @@ namespace OverflowHelper.core
             correctionAdd("whi_", "which_");
             correctionAdd("wic_", "which_");
 
-            correctionAdd("squise_", "squeeze_");
             correctionAdd("sequeze_", "squeeze_");
             correctionAdd("squeese_", "squeeze_");
+            correctionAdd("sqeease_", "squeeze_");
+            correctionAdd("squise_", "squeeze_");
+            correctionAdd("squase_", "squeeze_");
 
             correctionAdd("suites_", "suits_");
 
@@ -167560,6 +167597,7 @@ namespace OverflowHelper.core
             correctionAdd("piecies_", "pieces_");
             correctionAdd("peices_", "pieces_"); // A true typo
             correctionAdd("picies_", "pieces_");
+            correctionAdd("pcs_", "pieces_");
 
             // The Conda drop-in
             correctionAdd("mamba_", "Mamba_");
@@ -169013,8 +169051,6 @@ namespace OverflowHelper.core
 
             URL_Add("group buys_", "https://en.wikipedia.org/wiki/Group_buying#Business_model");
 
-            URL_Add("combo keys_", "https://docs.qmk.fm/features/combo");
-
             URL_Add("pictures_", "https://en.wiktionary.org/wiki/picture#Noun");
 
             URL_Add("Apple M3_", "https://en.wikipedia.org/wiki/Apple_M3");
@@ -170461,12 +170497,6 @@ namespace OverflowHelper.core
 
             URL_Add("Homebrew tap_", "https://docs.brew.sh/Formula-Cookbook#homebrew-terminology");
 
-            URL_Add("functional_", "https://en.wiktionary.org/wiki/functional#Adjective");
-
-            URL_Add("functional dependency_", "https://en.wikipedia.org/wiki/Functional_dependency");
-
-            URL_Add("function keys_", "https://en.wikipedia.org/wiki/Function_key");
-
             URL_Add("inverse kinematics_", "https://en.wikipedia.org/wiki/Inverse_kinematics");
 
             URL_Add("shard_", "https://en.wikipedia.org/wiki/Shard_(database_architecture)");
@@ -170772,84 +170802,6 @@ namespace OverflowHelper.core
             URL_Add("Space Shuttle Columbia_", "https://en.wikipedia.org/wiki/Space_Shuttle_Columbia");
 
             URL_Add("Super Heavy_", "https://en.wikipedia.org/wiki/SpaceX_Super_Heavy");
-
-            URL_Add("RGB lighting_", "https://docs.qmk.fm/features/rgblight#rgb-lighting");
-
-            URL_Add("layers_", "https://en.wiktionary.org/wiki/layer#Noun");
-
-            URL_Add("process_record_user()_", "https://docs.qmk.fm/custom_quantum_functions#process-record-function-documentation");
-
-            URL_Add("rgb_matrix_disable_noeeprom()_", "https://docs.qmk.fm/features/rgb_matrix#api-rgb-matrix-disable-noeeprom");
-
-            URL_Add("rgb_matrix_enable_noeeprom()_", "https://docs.qmk.fm/features/rgb_matrix#api-rgb-matrix-enable-noeeprom");
-
-            URL_Add("rgb_matrix_toggle_noeeprom()_", "https://docs.qmk.fm/features/rgb_matrix#api-rgb-matrix-toggle-noeeprom");
-
-            URL_Add("RGB_WHITE (0xFFFFFF)_", "https://github.com/qmk/qmk_firmware/blob/master/quantum/color.h#L45");
-
-            URL_Add("RGB_TURQUOISE (0x476E6A)_", "https://github.com/qmk/qmk_firmware/blob/master/quantum/color.h#L44");
-
-            URL_Add("Artemis RGB_", "https://github.com/Artemis-RGB/Artemis");
-
-            URL_Add("keyboard_", "https://en.wiktionary.org/wiki/keyboard#Noun");
-
-            URL_Add("keyboard matrix_", "https://en.wikipedia.org/wiki/Keyboard_matrix_circuit");
-
-            URL_Add("split ortholinear mechanical keyboard_", "https://en.wikipedia.org/wiki/Ergonomic_keyboard#Vertical_column_layout");
-
-            URL_Add("rubber dome_", "https://en.wikipedia.org/wiki/Keyboard_technology#Dome-switch_keyboard");
-
-            URL_Add("splay_", "https://kinesis-ergo.com/split-keyboards/");
-
-            URL_Add("clicky_", "https://en.wiktionary.org/wiki/clicky#Adjective");
-
-            URL_Add("micro switch_", "https://en.wikipedia.org/wiki/Miniature_snap-action_switch");
-
-            URL_Add("DIP switches_", "https://en.wiktionary.org/wiki/DIP_switch#Noun");
-
-            URL_Add("switch for a mechanical keyboard_", "https://en.wikipedia.org/wiki/Keyboard_technology#Metal_contact");
-
-            URL_Add("mechanical switch_", "https://en.wikipedia.org/wiki/Keyboard_technology#Metal_contact");
-
-            URL_Add("mechanical switches_", "https://en.wikipedia.org/wiki/Keyboard_technology#Metal_contact");
-
-            URL_Add("rotary knob_", "https://keyboardsexpert.com/rotary-encoder-knobs-guide/");
-
-            URL_Add("Cherry MX Red switches_", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
-
-            URL_Add("Cherry MX Brown switches_", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
-
-            URL_Add("Cherry MX Blue switches_", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
-
-            URL_Add("Cherry MX Speed Silver switches_", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
-
-            URL_Add("Fn key_", "https://en.wikipedia.org/wiki/Fn_key");
-
-            URL_Add("Home key_", "https://en.wikipedia.org/wiki/Home_key");
-
-            URL_Add("Return key_", "https://en.wikipedia.org/wiki/Enter_key");
-
-            URL_Add("Tab key_", "https://en.wikipedia.org/wiki/Tab_key");
-
-            URL_Add("Print Screen key_", "https://en.wikipedia.org/wiki/Print_Screen");
-
-            URL_Add("Scroll Lock key_", "https://en.wikipedia.org/wiki/Scroll_Lock");
-
-            URL_Add("Pause key_", "https://en.wikipedia.org/wiki/Break_key");
-
-            URL_Add("Apple key AKA Command key_", "https://en.wikipedia.org/wiki/Command_key");
-
-            URL_Add("Num Lock key_", "https://en.wikipedia.org/wiki/Num_Lock");
-
-            URL_Add("§ key_", "https://en.wikipedia.org/wiki/Section_sign#Keyboard_entry");
-
-            URL_Add("Windows key_", "https://en.wikipedia.org/wiki/Windows_key");
-
-            URL_Add("compose key_", "https://en.wikipedia.org/wiki/Compose_key");
-
-            URL_Add("Bastard Keyboards_", "https://github.com/Bastardkb");
-
-            URL_Add("okey-dokey_", "https://en.wiktionary.org/wiki/okey-dokey#Interjection");
 
             URL_Add("compensate_", "https://en.wiktionary.org/wiki/compensate#Verb");
 
@@ -171210,26 +171162,6 @@ namespace OverflowHelper.core
             URL_Add("work around_", "https://en.wiktionary.org/wiki/work_around#Verb");
 
             URL_Add("workplace_", "https://en.wiktionary.org/wiki/workplace#Noun");
-
-            URL_Add("shine through_", "https://en.wiktionary.org/wiki/shine_through#Verb");
-
-            URL_Add("modification_", "https://en.wiktionary.org/wiki/modification#Noun");
-
-            URL_Add("modifications_", "https://en.wiktionary.org/wiki/modification#Noun");
-
-            URL_Add("one-shot keyboard modifier keys_", "https://github.com/qmk/qmk_firmware/blob/master/docs/one_shot_keys.md");
-
-            URL_Add("tap-hold keyboard modifier keys_", "https://docs.qmk.fm/mod_tap");
-
-            URL_Add("mod-morph_", "https://docs.qmk.fm/features/key_overrides?id=modifiers-as-layer-keys");
-
-            URL_Add("CHORDAL_HOLD_", "https://github.com/qmk/qmk_firmware/pull/24560");
-
-            URL_Add("LSG_", "https://docs.qmk.fm/feature_advanced_keycodes#modifier-keys");
-
-            URL_Add("ZMK Studio_", "https://zmk.dev/docs/features/studio");
-
-            URL_Add("timeless home row keyboard modifier keys_", "https://github.com/urob/zmk-config#timeless-homerow-mods");
 
             URL_Add("production_", "https://en.wiktionary.org/wiki/production#Noun");
 
@@ -172073,181 +172005,7 @@ namespace OverflowHelper.core
 
             URL_Add("saw_", "https://en.wiktionary.org/wiki/see#Verb");
 
-            URL_Add("quantum Fourier transform_", "https://en.wikipedia.org/wiki/Quantum_Fourier_transform");
-
             URL_Add("nonintuitive_", "https://en.wiktionary.org/wiki/nonintuitive#Adjective");
-
-            URL_Add("macros_", "https://en.wiktionary.org/wiki/macro#Noun_2");
-
-            URL_Add("macro pad_", "https://keyboardsexpert.com/macropad-mechanical-keyboard-faqs/");
-
-            URL_Add("Mac_", "https://en.wikipedia.org/wiki/Mac_(computer)"); // Collision with MAC, Media Access Control (computer networking related). Old: <https://en.wikipedia.org/wiki/Macintosh>
-
-            URL_Add("Mac OS_", "https://en.wikipedia.org/wiki/Classic_Mac_OS");
-
-            URL_Add("Mac&nbsp;OS&nbsp;X_", "https://en.wikipedia.org/wiki/Mac_OS_X");
-
-            URL_Add("MacBook Pro M1_", "https://en.wikipedia.org/wiki/MacBook_Pro#14-inch_and_16-inch_(2021%E2%80%93present)"); // Old: https://en.wikipedia.org/wiki/MacBook_Pro#Sixth_generation_(M1)
-
-            URL_Add("thorough_", "https://en.wiktionary.org/wiki/thorough#Adjective");
-
-            URL_Add("handle_", "https://en.wiktionary.org/wiki/handle#Verb");
-
-            URL_Add("firsthand_", "https://en.wiktionary.org/wiki/firsthand#Adverb");
-
-            URL_Add("right-hand_", "https://en.wiktionary.org/wiki/right-hand#Adjective");
-
-            URL_Add("hands down_", "https://en.wiktionary.org/wiki/hands_down#Adverb");
-
-            URL_Add("interrupt service routine_", "https://en.wikipedia.org/wiki/Interrupt_handler");
-
-            URL_Add("stenography_", "https://en.wikipedia.org/wiki/Shorthand");
-
-            URL_Add("slightly reduced selection of keycaps_", "https://switchandclick.com/mechanical-keyboard-switch-guide/");
-
-            URL_Add("key combinations_", "https://en.wikipedia.org/wiki/Keyboard_shortcut");
-
-            URL_Add("headset_", "https://en.wiktionary.org/wiki/headset#Noun");
-
-            URL_Add("qmk clean_", "https://www.reddit.com/r/Keychron/comments/1h6lsza/comment/nbnvbyq/");
-
-            URL_Add("qmk flash_", "https://docs.qmk.fm/newbs_flashing#flash-your-keyboard-from-the-command-line");
-
-            URL_Add("use of FRAM in an ATmega32U4-based QMK keyboard to get unlimited space for Via/Vial macros_", "https://www.reddit.com/r/olkb/comments/18lpxpp/comment/ke5nobu/");
-
-            URL_Add("r/olkb_", "https://www.reddit.com/r/olkb/new/");
-
-            URL_Add("Cooler Master exited the mechanical keyboards and mice business_", "https://www.reddit.com/r/coolermaster/comments/1c87jl5/coolermaster_is_dropping_the_ball_on_the_mm712_pro/");
-
-            URL_Add("GMK87_", "https://www.reddit.com/r/BudgetKeebs/comments/1aguhfh/gmk87_after_3_weeks_my_experience/");
-
-            URL_Add("space bar method to enter bootloader mode on QMK keyboards_", "https://www.reddit.com/r/Keychron/comments/194x73s/comment/khs7y49/");
-
-            URL_Add("south-facing blinding light_", "https://www.reddit.com/r/MechanicalKeyboards/comments/ysn0nh/fix_blinding_light_from_southfacing_leds/");
-
-            URL_Add("Hall effect switches with north-pole magnets facing downward_", "https://www.monsgeek.com/blog/magnetic-switch-compatibility-how-to-know-if-they-work-with-your-keyboard/");
-
-            URL_Add("Vial_", "https://github.com/vial-kb/vial-qmk/tree/vial/keyboards/keychron");
-
-            URL_Add("QMK_", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/keychron");
-
-            URL_Add("key debounce_", "https://www.ganssle.com/debouncing.htm"); // Old: <http://www.ganssle.com/debouncing.htm>
-
-            URL_Add("The QMK default key debounce time is 5 ms_", "https://docs.qmk.fm/feature_debounce_type#debounce-time");
-
-            URL_Add("Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_", "https://www.reddit.com/r/Keychron/comments/1fh6h26/comment/lp044qi/");
-
-            URL_Add("one-shot keys_", "https://github.com/qmk/qmk_firmware/blob/master/docs/one_shot_keys.md");
-
-            URL_Add("one-shot layer keys_", "https://docs.qmk.fm/one_shot_keys#keycodes");
-
-            URL_Add("tap dance_", "https://github.com/qmk/qmk_firmware/blob/master/docs/features/tap_dance.md"); // Old: <https://github.com/qmk/qmk_firmware/blob/master/docs/feature_tap_dance.md>
-
-            URL_Add("Esc key method to reset to factory defaults on QMK keyboards_", "https://www.reddit.com/r/Keychron/comments/194x73s/comment/khs7y49/");
-
-            URL_Add("QMK keycode_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
-
-            URL_Add("full NKRO busts the Keychron keyboards in wireless mode_", "https://www.reddit.com/r/Keychron/comments/198jmqn/comment/l0vwnbr/");
-
-            URL_Add("Git branch \"wireless_playground\" in Keychron's fork_", "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/v6_max");
-
-            URL_Add("the gasket problem_", "https://www.reddit.com/r/Keychron/comments/1fh6h26/comment/mqitys7/");
-
-            URL_Add("MasterPlus+_", "https://www.reddit.com/r/coolermaster/comments/193b652/coolermaster_masterplus_v194_released_december_27/");
-
-            URL_Add("MasterPlus+ 1.9.5_", "https://www.reddit.com/r/coolermaster/comments/1c4bhvz/coolermaster_masterplus_v195_released_april_10/");
-
-            URL_Add("CK550 V2_", "https://pmortensen.eu/world2/2023/02/13/low-cost-fully-macro-capable-mechanical-keyboard-cooler-master-ck-550/");
-
-            URL_Add("Solid colour_", "https://pmortensen.eu/world2/2023/06/19/keychron-v5-a-reasonably-priced-fully-macro-capable-qmk-based-mechanical-keyboard#LightingModes");
-
-            URL_Add("Enlightenment_", "https://en.wikipedia.org/wiki/Enlightenment_(software)");
-
-            URL_Add("URL encoded_", "https://en.wikipedia.org/wiki/Percent-encoding");
-
-            URL_Add("URL encoding_", "https://en.wikipedia.org/wiki/Percent-encoding");
-
-            URL_Add("characteristic_", "https://en.wiktionary.org/wiki/characteristic#Noun");
-
-            URL_Add("character_", "https://en.wiktionary.org/wiki/character#Noun"); // Old: https://en.wiktionary.org/wiki/characters
-
-            URL_Add("ASCII_", "https://en.wikipedia.org/wiki/Code_page_437#Character_set");
-
-            URL_Add("ANSI_", "https://en.wikipedia.org/wiki/British_and_American_keyboards#Windows_keyboards");
-
-            URL_Add("ZSA Voyager_", "https://www.youtube.com/watch?v=VYQ0gyhjRXc");
-
-            URL_Add("Kinesis Advantage 2_", "https://en.wikipedia.org/wiki/Kinesis_(keyboard)#Advantage_360");
-
-            URL_Add("Razer BlackWidow_", "https://web.archive.org/web/20230509163448/https://en.wikipedia.org/wiki/List_of_Razer_products#Keyboards"); // Old: <https://en.wikipedia.org/wiki/List_of_Razer_products#Keyboards>. Even older: <https://www.razer.com/gaming-keyboards-keypads/razer-blackwidow>
-
-            URL_Add("Keychron Launcher_", "https://www.launcher.keychron.com/#/keymap");
-
-            URL_Add("Keychron&nbsp;B1&nbsp;Pro_", "https://www.keychron.com/products/keychron-b1-pro-ultra-slim-wireless-keyboard");
-
-            URL_Add("Keychron&nbsp;B4&nbsp;Pro_", "https://www.keychron.com/products/keychron-b4-pro-ultra-slim-wireless-keyboard");
-
-            URL_Add("Keychron C2_", "https://www.keychron.com/products/keychron-c2-wired-mechanical-keyboard");
-
-            URL_Add("Keychron K1_", "https://www.keychron.com/products/keychron-k1-wireless-mechanical-keyboard");
-
-            URL_Add("Keychron K2_", "https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard-uk-iso-layout");
-
-            URL_Add("Keychron K3_", "https://www.keychron.com/collections/k3-iso-keyboards/products/keychron-k3-ultra-slim-wireless-mechanical-keyboard-nordic-iso-layout-version-2");
-
-            URL_Add("Keychron K5_", "https://www.keychron.com/products/keychron-k5-ultra-slim-wireless-mechanical-keyboard");
-
-            URL_Add("Keychron&nbsp;K10 (100%)_", "https://www.keychron.at/collections/keychron-uk-iso-keyboards/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout"); // Old: <https://www.keychron.uk/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout>
-
-            URL_Add("Keychron&nbsp;K7&nbsp;Pro_", "https://www.keychron.com/products/keychron-k7-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
-
-            URL_Add("Keychron&nbsp;K11&nbsp;Max_", "https://www.keychron.com/products/keychron-k11-max-qmk-via-wireless-custom-mechanical-keyboard");
-
-            URL_Add("Keychron&nbsp;K17&nbsp;Max_", "https://www.keychron.com/products/keychron-k17-max-qmk-via-wireless-custom-mechanical-keyboard");
-
-            URL_Add("Keychron&nbsp;K2&nbsp;HE (80%)_", "https://www.keychron.com/products/keychron-k2-he-wireless-magnetic-switch-keyboard"); // Old: <https://www.keychron.com/pages/keychron-k2-he-landing-page>
-
-            URL_Add("Keychron Q8_", "https://www.keychron.com/products/keychron-q8-alice-layout-qmk-custom-mechanical-keyboard");
-
-            URL_Add("Keychron Q12_", "https://www.keychron.com/products/keychron-q12-qmk-custom-mechanical-keyboard");
-
-            URL_Add("Keychron&nbsp;Q1&nbsp;HE_", "https://www.keychron.com/products/keychron-q1-he-qmk-wireless-custom-keyboard-iso-layout-collection");
-
-            URL_Add("Keychron Q65_", "https://www.keychron.com/products/keychron-q65-qmk-custom-mechanical-keyboard");
-
-            URL_Add("Keychron&nbsp;Lemokey&nbsp;L1_", "https://www.keychron.com/products/lemokey-l1-qmk-via-wireless-custom-gaming-keyboard");
-
-            URL_Add("Keychron&nbsp;Lemokey&nbsp;L3_", "https://www.keychron.com/products/lemokey-l3-qmk-via-wireless-custom-mechanical-keyboard");
-
-            URL_Add("Keychron V5 ISO_", "https://www.keychron.com/products/keychron-v5-qmk-custom-mechanical-keyboard-iso-layout-collection");
-
-            URL_Add("Keychron&nbsp;P6&nbsp;Ultra&nbsp;8K_", "https://www.keychron.com/products/keychron-p6-ultra-8k-wireless-custom-mechanical-keyboard");
-
-            URL_Add("LoRA_", "https://huggingface.co/docs/diffusers/main/en/training/lora");
-
-            URL_Add("LLaMA_", "https://en.wikipedia.org/wiki/Llama_(language_model)"); // Old: <https://en.wikipedia.org/wiki/LLaMA>
-
-            URL_Add("TPU_", "https://en.wikipedia.org/wiki/Tensor_Processing_Unit");
-
-            URL_Add("machine language instruction_", "https://en.wikipedia.org/wiki/Machine_code");
-
-            URL_Add("instructions_", "https://en.wiktionary.org/wiki/instruction#Noun");
-
-            URL_Add("MIPS_", "https://en.wikipedia.org/wiki/Instructions_per_second");
-
-            URL_Add("Intel HEX_", "https://en.wikipedia.org/wiki/Intel_HEX");
-
-            URL_Add("Intel C++ Compiler_", "https://en.wikipedia.org/wiki/Intel_C%2B%2B_Compiler");
-
-            URL_Add("intellectual property_", "https://en.wikipedia.org/wiki/Intellectual_property");
-
-            URL_Add("ATA over Ethernet_", "https://en.wikipedia.org/wiki/ATA_over_Ethernet");
-
-            URL_Add("ATM_", "https://en.wikipedia.org/wiki/Automated_teller_machine");
-
-            URL_Add("Raspberry Pi_", "https://en.wikipedia.org/wiki/Raspberry_Pi");
-
-            URL_Add("hardware attached on top_", "https://raspberrytips.com/glossary/hat/");
 
             URL_Add("Inertia.js_", "https://inertiajs.com/upgrade-guide");
 
@@ -172692,6 +172450,286 @@ namespace OverflowHelper.core
             URL_Add("youth detention center_", "https://en.wikipedia.org/wiki/Youth_detention_center");
 
             URL_Add("cannabis_", "https://en.wikipedia.org/wiki/Cannabis_(drug)");
+
+            URL_Add("Return key_", "https://en.wikipedia.org/wiki/Enter_key");
+
+            URL_Add("Tab key_", "https://en.wikipedia.org/wiki/Tab_key");
+
+            URL_Add("§ key_", "https://en.wikipedia.org/wiki/Section_sign#Keyboard_entry");
+
+            URL_Add("Home key_", "https://en.wikipedia.org/wiki/Home_key");
+
+            URL_Add("Fn key_", "https://en.wikipedia.org/wiki/Fn_key");
+
+            URL_Add("Print Screen key_", "https://en.wikipedia.org/wiki/Print_Screen");
+
+            URL_Add("Scroll Lock key_", "https://en.wikipedia.org/wiki/Scroll_Lock");
+
+            URL_Add("Pause key_", "https://en.wikipedia.org/wiki/Break_key");
+
+            URL_Add("Windows key_", "https://en.wikipedia.org/wiki/Windows_key");
+
+            URL_Add("Num Lock key_", "https://en.wikipedia.org/wiki/Num_Lock");
+
+            URL_Add("Apple key AKA Command key_", "https://en.wikipedia.org/wiki/Command_key");
+
+            URL_Add("compose key_", "https://en.wikipedia.org/wiki/Compose_key");
+
+            URL_Add("okey-dokey_", "https://en.wiktionary.org/wiki/okey-dokey#Interjection");
+
+            URL_Add("combo keys_", "https://docs.qmk.fm/features/combo");
+
+            URL_Add("function keys_", "https://en.wikipedia.org/wiki/Function_key");
+
+            URL_Add("one-shot keys_", "https://github.com/qmk/qmk_firmware/blob/master/docs/one_shot_keys.md");
+
+            URL_Add("one-shot layer keys_", "https://docs.qmk.fm/one_shot_keys#keycodes");
+
+            URL_Add("one-shot keyboard modifier keys_", "https://github.com/qmk/qmk_firmware/blob/master/docs/one_shot_keys.md");
+
+            URL_Add("tap-hold keyboard modifier keys_", "https://docs.qmk.fm/mod_tap");
+
+            URL_Add("timeless home row keyboard modifier keys_", "https://github.com/urob/zmk-config#timeless-homerow-mods");
+
+            URL_Add("functional_", "https://en.wiktionary.org/wiki/functional#Adjective");
+
+            URL_Add("functional dependency_", "https://en.wikipedia.org/wiki/Functional_dependency");
+
+            URL_Add("shine through_", "https://en.wiktionary.org/wiki/shine_through#Verb");
+
+            URL_Add("modification_", "https://en.wiktionary.org/wiki/modification#Noun");
+
+            URL_Add("modifications_", "https://en.wiktionary.org/wiki/modification#Noun");
+
+            URL_Add("Bastard Keyboards_", "https://github.com/Bastardkb");
+
+            URL_Add("mod-morph_", "https://docs.qmk.fm/features/key_overrides?id=modifiers-as-layer-keys");
+
+            URL_Add("CHORDAL_HOLD_", "https://github.com/qmk/qmk_firmware/pull/24560");
+
+            URL_Add("LSG_", "https://docs.qmk.fm/feature_advanced_keycodes#modifier-keys");
+
+            URL_Add("ZMK Studio_", "https://zmk.dev/docs/features/studio");
+
+            URL_Add("quantum Fourier transform_", "https://en.wikipedia.org/wiki/Quantum_Fourier_transform");
+
+            URL_Add("macros_", "https://en.wiktionary.org/wiki/macro#Noun_2");
+
+            URL_Add("macro pad_", "https://keyboardsexpert.com/macropad-mechanical-keyboard-faqs/");
+
+            URL_Add("Mac_", "https://en.wikipedia.org/wiki/Mac_(computer)"); // Collision with MAC, Media Access Control (computer networking related). Old: <https://en.wikipedia.org/wiki/Macintosh>
+
+            URL_Add("Mac OS_", "https://en.wikipedia.org/wiki/Classic_Mac_OS");
+
+            URL_Add("Mac&nbsp;OS&nbsp;X_", "https://en.wikipedia.org/wiki/Mac_OS_X");
+
+            URL_Add("MacBook Pro M1_", "https://en.wikipedia.org/wiki/MacBook_Pro#14-inch_and_16-inch_(2021%E2%80%93present)"); // Old: https://en.wikipedia.org/wiki/MacBook_Pro#Sixth_generation_(M1)
+
+            URL_Add("thorough_", "https://en.wiktionary.org/wiki/thorough#Adjective");
+
+            URL_Add("handle_", "https://en.wiktionary.org/wiki/handle#Verb");
+
+            URL_Add("firsthand_", "https://en.wiktionary.org/wiki/firsthand#Adverb");
+
+            URL_Add("right-hand_", "https://en.wiktionary.org/wiki/right-hand#Adjective");
+
+            URL_Add("hands down_", "https://en.wiktionary.org/wiki/hands_down#Adverb");
+
+            URL_Add("interrupt service routine_", "https://en.wikipedia.org/wiki/Interrupt_handler");
+
+            URL_Add("stenography_", "https://en.wikipedia.org/wiki/Shorthand");
+
+            URL_Add("slightly reduced selection of keycaps_", "https://switchandclick.com/mechanical-keyboard-switch-guide/");
+
+            URL_Add("key combinations_", "https://en.wikipedia.org/wiki/Keyboard_shortcut");
+
+            URL_Add("headset_", "https://en.wiktionary.org/wiki/headset#Noun");
+
+            URL_Add("qmk clean_", "https://www.reddit.com/r/Keychron/comments/1h6lsza/comment/nbnvbyq/");
+
+            URL_Add("qmk flash_", "https://docs.qmk.fm/newbs_flashing#flash-your-keyboard-from-the-command-line");
+
+            URL_Add("use of FRAM in an ATmega32U4-based QMK keyboard to get unlimited space for Via/Vial macros_", "https://www.reddit.com/r/olkb/comments/18lpxpp/comment/ke5nobu/");
+
+            URL_Add("r/olkb_", "https://www.reddit.com/r/olkb/new/");
+
+            URL_Add("Cooler Master exited the mechanical keyboards and mice business_", "https://www.reddit.com/r/coolermaster/comments/1c87jl5/coolermaster_is_dropping_the_ball_on_the_mm712_pro/");
+
+            URL_Add("GMK87_", "https://www.reddit.com/r/BudgetKeebs/comments/1aguhfh/gmk87_after_3_weeks_my_experience/");
+
+            URL_Add("space bar method to enter bootloader mode on QMK keyboards_", "https://www.reddit.com/r/Keychron/comments/194x73s/comment/khs7y49/");
+
+            URL_Add("south-facing blinding light_", "https://www.reddit.com/r/MechanicalKeyboards/comments/ysn0nh/fix_blinding_light_from_southfacing_leds/");
+
+            URL_Add("Hall effect switches with north-pole magnets facing downward_", "https://www.monsgeek.com/blog/magnetic-switch-compatibility-how-to-know-if-they-work-with-your-keyboard/");
+
+            URL_Add("Vial_", "https://github.com/vial-kb/vial-qmk/tree/vial/keyboards/keychron");
+
+            URL_Add("QMK_", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/keychron");
+
+            URL_Add("key debounce_", "https://www.ganssle.com/debouncing.htm"); // Old: <http://www.ganssle.com/debouncing.htm>
+
+            URL_Add("The QMK default key debounce time is 5 ms_", "https://docs.qmk.fm/feature_debounce_type#debounce-time");
+
+            URL_Add("Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_", "https://www.reddit.com/r/Keychron/comments/1fh6h26/comment/lp044qi/");
+
+            URL_Add("tap dance_", "https://github.com/qmk/qmk_firmware/blob/master/docs/features/tap_dance.md"); // Old: <https://github.com/qmk/qmk_firmware/blob/master/docs/feature_tap_dance.md>
+
+            URL_Add("Esc key method to reset to factory defaults on QMK keyboards_", "https://www.reddit.com/r/Keychron/comments/194x73s/comment/khs7y49/");
+
+            URL_Add("QMK keycode_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
+
+            URL_Add("full NKRO busts the Keychron keyboards in wireless mode_", "https://www.reddit.com/r/Keychron/comments/198jmqn/comment/l0vwnbr/");
+
+            URL_Add("Git branch \"wireless_playground\" in Keychron's fork_", "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/v6_max");
+
+            URL_Add("the gasket problem_", "https://www.reddit.com/r/Keychron/comments/1fh6h26/comment/mqitys7/");
+
+            URL_Add("MasterPlus+_", "https://www.reddit.com/r/coolermaster/comments/193b652/coolermaster_masterplus_v194_released_december_27/");
+
+            URL_Add("MasterPlus+ 1.9.5_", "https://www.reddit.com/r/coolermaster/comments/1c4bhvz/coolermaster_masterplus_v195_released_april_10/");
+
+            URL_Add("CK550 V2_", "https://pmortensen.eu/world2/2023/02/13/low-cost-fully-macro-capable-mechanical-keyboard-cooler-master-ck-550/");
+
+            URL_Add("Solid colour_", "https://pmortensen.eu/world2/2023/06/19/keychron-v5-a-reasonably-priced-fully-macro-capable-qmk-based-mechanical-keyboard#LightingModes");
+
+            URL_Add("Enlightenment_", "https://en.wikipedia.org/wiki/Enlightenment_(software)");
+
+            URL_Add("URL encoded_", "https://en.wikipedia.org/wiki/Percent-encoding");
+
+            URL_Add("URL encoding_", "https://en.wikipedia.org/wiki/Percent-encoding");
+
+            URL_Add("characteristic_", "https://en.wiktionary.org/wiki/characteristic#Noun");
+
+            URL_Add("character_", "https://en.wiktionary.org/wiki/character#Noun"); // Old: https://en.wiktionary.org/wiki/characters
+
+            URL_Add("ASCII_", "https://en.wikipedia.org/wiki/Code_page_437#Character_set");
+
+            URL_Add("ANSI_", "https://en.wikipedia.org/wiki/British_and_American_keyboards#Windows_keyboards");
+
+            URL_Add("ZSA Voyager_", "https://www.youtube.com/watch?v=VYQ0gyhjRXc");
+
+            URL_Add("Kinesis Advantage 2_", "https://en.wikipedia.org/wiki/Kinesis_(keyboard)#Advantage_360");
+
+            URL_Add("Razer BlackWidow_", "https://web.archive.org/web/20230509163448/https://en.wikipedia.org/wiki/List_of_Razer_products#Keyboards"); // Old: <https://en.wikipedia.org/wiki/List_of_Razer_products#Keyboards>. Even older: <https://www.razer.com/gaming-keyboards-keypads/razer-blackwidow>
+
+            URL_Add("Keychron Launcher_", "https://www.launcher.keychron.com/#/keymap");
+
+            URL_Add("Keychron&nbsp;B1&nbsp;Pro_", "https://www.keychron.com/products/keychron-b1-pro-ultra-slim-wireless-keyboard");
+
+            URL_Add("Keychron&nbsp;B4&nbsp;Pro_", "https://www.keychron.com/products/keychron-b4-pro-ultra-slim-wireless-keyboard");
+
+            URL_Add("Keychron C2_", "https://www.keychron.com/products/keychron-c2-wired-mechanical-keyboard");
+
+            URL_Add("Keychron K1_", "https://www.keychron.com/products/keychron-k1-wireless-mechanical-keyboard");
+
+            URL_Add("Keychron K2_", "https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard-uk-iso-layout");
+
+            URL_Add("Keychron K3_", "https://www.keychron.com/collections/k3-iso-keyboards/products/keychron-k3-ultra-slim-wireless-mechanical-keyboard-nordic-iso-layout-version-2");
+
+            URL_Add("Keychron K5_", "https://www.keychron.com/products/keychron-k5-ultra-slim-wireless-mechanical-keyboard");
+
+            URL_Add("Keychron&nbsp;K10 (100%)_", "https://www.keychron.at/collections/keychron-uk-iso-keyboards/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout"); // Old: <https://www.keychron.uk/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout>
+
+            URL_Add("Keychron&nbsp;K7&nbsp;Pro_", "https://www.keychron.com/products/keychron-k7-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
+
+            URL_Add("Keychron&nbsp;K11&nbsp;Max_", "https://www.keychron.com/products/keychron-k11-max-qmk-via-wireless-custom-mechanical-keyboard");
+
+            URL_Add("Keychron&nbsp;K17&nbsp;Max_", "https://www.keychron.com/products/keychron-k17-max-qmk-via-wireless-custom-mechanical-keyboard");
+
+            URL_Add("Keychron&nbsp;K2&nbsp;HE (80%)_", "https://www.keychron.com/products/keychron-k2-he-wireless-magnetic-switch-keyboard"); // Old: <https://www.keychron.com/pages/keychron-k2-he-landing-page>
+
+            URL_Add("Keychron Q8_", "https://www.keychron.com/products/keychron-q8-alice-layout-qmk-custom-mechanical-keyboard");
+
+            URL_Add("Keychron Q12_", "https://www.keychron.com/products/keychron-q12-qmk-custom-mechanical-keyboard");
+
+            URL_Add("Keychron&nbsp;Q1&nbsp;HE_", "https://www.keychron.com/products/keychron-q1-he-qmk-wireless-custom-keyboard-iso-layout-collection");
+
+            URL_Add("Keychron Q65_", "https://www.keychron.com/products/keychron-q65-qmk-custom-mechanical-keyboard");
+
+            URL_Add("Keychron&nbsp;Lemokey&nbsp;L1_", "https://www.keychron.com/products/lemokey-l1-qmk-via-wireless-custom-gaming-keyboard");
+
+            URL_Add("Keychron&nbsp;Lemokey&nbsp;L3_", "https://www.keychron.com/products/lemokey-l3-qmk-via-wireless-custom-mechanical-keyboard");
+
+            URL_Add("Keychron V5 ISO_", "https://www.keychron.com/products/keychron-v5-qmk-custom-mechanical-keyboard-iso-layout-collection");
+
+            URL_Add("Keychron&nbsp;P6&nbsp;Ultra&nbsp;8K_", "https://www.keychron.com/products/keychron-p6-ultra-8k-wireless-custom-mechanical-keyboard");
+
+            URL_Add("LoRA_", "https://huggingface.co/docs/diffusers/main/en/training/lora");
+
+            URL_Add("LLaMA_", "https://en.wikipedia.org/wiki/Llama_(language_model)"); // Old: <https://en.wikipedia.org/wiki/LLaMA>
+
+            URL_Add("TPU_", "https://en.wikipedia.org/wiki/Tensor_Processing_Unit");
+
+            URL_Add("machine language instruction_", "https://en.wikipedia.org/wiki/Machine_code");
+
+            URL_Add("instructions_", "https://en.wiktionary.org/wiki/instruction#Noun");
+
+            URL_Add("MIPS_", "https://en.wikipedia.org/wiki/Instructions_per_second");
+
+            URL_Add("Intel HEX_", "https://en.wikipedia.org/wiki/Intel_HEX");
+
+            URL_Add("Intel C++ Compiler_", "https://en.wikipedia.org/wiki/Intel_C%2B%2B_Compiler");
+
+            URL_Add("intellectual property_", "https://en.wikipedia.org/wiki/Intellectual_property");
+
+            URL_Add("ATA over Ethernet_", "https://en.wikipedia.org/wiki/ATA_over_Ethernet");
+
+            URL_Add("ATM_", "https://en.wikipedia.org/wiki/Automated_teller_machine");
+
+            URL_Add("Raspberry Pi_", "https://en.wikipedia.org/wiki/Raspberry_Pi");
+
+            URL_Add("hardware attached on top_", "https://raspberrytips.com/glossary/hat/");
+
+            URL_Add("RGB lighting_", "https://docs.qmk.fm/features/rgblight#rgb-lighting");
+
+            URL_Add("layers_", "https://en.wiktionary.org/wiki/layer#Noun");
+
+            URL_Add("process_record_user()_", "https://docs.qmk.fm/custom_quantum_functions#process-record-function-documentation");
+
+            URL_Add("rgb_matrix_disable_noeeprom()_", "https://docs.qmk.fm/features/rgb_matrix#api-rgb-matrix-disable-noeeprom");
+
+            URL_Add("rgb_matrix_enable_noeeprom()_", "https://docs.qmk.fm/features/rgb_matrix#api-rgb-matrix-enable-noeeprom");
+
+            URL_Add("rgb_matrix_toggle_noeeprom()_", "https://docs.qmk.fm/features/rgb_matrix#api-rgb-matrix-toggle-noeeprom");
+
+            URL_Add("RGB_WHITE (0xFFFFFF)_", "https://github.com/qmk/qmk_firmware/blob/master/quantum/color.h#L45");
+
+            URL_Add("RGB_TURQUOISE (0x476E6A)_", "https://github.com/qmk/qmk_firmware/blob/master/quantum/color.h#L44");
+
+            URL_Add("Artemis RGB_", "https://github.com/Artemis-RGB/Artemis");
+
+            URL_Add("keyboard_", "https://en.wiktionary.org/wiki/keyboard#Noun");
+
+            URL_Add("keyboard matrix_", "https://en.wikipedia.org/wiki/Keyboard_matrix_circuit");
+
+            URL_Add("split ortholinear mechanical keyboard_", "https://en.wikipedia.org/wiki/Ergonomic_keyboard#Vertical_column_layout");
+
+            URL_Add("rubber dome_", "https://en.wikipedia.org/wiki/Keyboard_technology#Dome-switch_keyboard");
+
+            URL_Add("splay_", "https://kinesis-ergo.com/split-keyboards/");
+
+            URL_Add("clicky_", "https://en.wiktionary.org/wiki/clicky#Adjective");
+
+            URL_Add("micro switch_", "https://en.wikipedia.org/wiki/Miniature_snap-action_switch");
+
+            URL_Add("DIP switches_", "https://en.wiktionary.org/wiki/DIP_switch#Noun");
+
+            URL_Add("switch for a mechanical keyboard_", "https://en.wikipedia.org/wiki/Keyboard_technology#Metal_contact");
+
+            URL_Add("mechanical switch_", "https://en.wikipedia.org/wiki/Keyboard_technology#Metal_contact");
+
+            URL_Add("mechanical switches_", "https://en.wikipedia.org/wiki/Keyboard_technology#Metal_contact");
+
+            URL_Add("rotary knob_", "https://keyboardsexpert.com/rotary-encoder-knobs-guide/");
+
+            URL_Add("Cherry MX Red switches_", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
+
+            URL_Add("Cherry MX Brown switches_", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
+
+            URL_Add("Cherry MX Blue switches_", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
+
+            URL_Add("Cherry MX Speed Silver switches_", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
 
         } //addLookupData_alternativeWordSet()
 
@@ -177967,16 +178005,6 @@ namespace OverflowHelper.core
 
             URL_Add("Caps Lock key__", "https://en.wikipedia.org/wiki/Caps_Lock");
 
-            URL_Add("Dash keycaps__", "https://dygma.com/products/keycaps?variant=43658946314478");
-
-            URL_Add("keycap profile__", "https://thekeeblog.com/overview-of-different-keycap-profiles/");
-
-            URL_Add("MA keycap profile__", "https://thekeeblog.com/overview-of-different-keycap-profiles/#MA_Profile");
-
-            URL_Add("KSA keycap profile__", "https://thekeeblog.com/overview-of-different-keycap-profiles/#KSA_Profile");
-
-            URL_Add("SA keycap profile__", "https://www.youtube.com/watch?v=xLT2VcrQHrQ&t=3m13s");
-
             URL_Add("Ctrl key__", "https://en.wikipedia.org/wiki/Control_key");
 
             URL_Add("Delete key__", "https://en.wikipedia.org/wiki/Delete_key");
@@ -177986,6 +178014,16 @@ namespace OverflowHelper.core
             URL_Add("keyboard modifier key__", "https://en.wikipedia.org/wiki/Modifier_key");
 
             URL_Add("keyboard modifier keys__", "https://en.wikipedia.org/wiki/Modifier_key");
+
+            URL_Add("Dash keycaps__", "https://dygma.com/products/keycaps?variant=43658946314478");
+
+            URL_Add("keycap profile__", "https://thekeeblog.com/overview-of-different-keycap-profiles/");
+
+            URL_Add("MA keycap profile__", "https://thekeeblog.com/overview-of-different-keycap-profiles/#MA_Profile");
+
+            URL_Add("KSA keycap profile__", "https://thekeeblog.com/overview-of-different-keycap-profiles/#KSA_Profile");
+
+            URL_Add("SA keycap profile__", "https://www.youtube.com/watch?v=xLT2VcrQHrQ&t=3m13s");
 
             URL_Add("input method editor__", "https://en.wikipedia.org/wiki/Input_method");
 
@@ -180700,6 +180738,11 @@ namespace OverflowHelper.core
             correctionAdd("K Ultra 8K series___", "Keychron&nbsp;K&nbsp;Ultra&nbsp;8K&nbsp;series___"); // Sort of identity mapping
             correctionAdd("K Ultra 8 series___", "Keychron&nbsp;K&nbsp;Ultra&nbsp;8K&nbsp;series___");
 
+            correctionAdd("Keychron J series___", "Keychron&nbsp;J&nbsp;series___"); // Sort of identity mapping
+            correctionAdd("J series___", "Keychron&nbsp;J&nbsp;series___");
+
+            // Note: There isn't J HE series, only a J HE 8K series
+            //
             correctionAdd("Keychron J HE 8K series (proprietary keyboard firmware, not open source)___", "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // Sort of identity mapping
             correctionAdd("Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series___", "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
             correctionAdd("J&nbsp;HE&nbsp;8K&nbsp;series___", "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
@@ -180707,6 +180750,7 @@ namespace OverflowHelper.core
             correctionAdd("Keychron J HE 8K series___", "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // Sort of identity mapping
             correctionAdd("J&nbsp;HE&nbsp;8K___", "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
             correctionAdd("J HE 8K series___", "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
+            correctionAdd("J HE series___", "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // Note: There isn't J HE series, only a J HE 8K series
             correctionAdd("J HE 8K___", "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
 
             // For missed pressed or double presses on a mechanical keyboard,
@@ -182286,6 +182330,8 @@ namespace OverflowHelper.core
             URL_Add("Keychron&nbsp;V&nbsp;Ultra&nbsp;8K&nbsp;series___", "https://www.keychron.com/products/keychron-v6-ultra-8k-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron&nbsp;K&nbsp;Ultra&nbsp;8K&nbsp;series___", "https://www.kickstarter.com/projects/keytron/keychron-k3-he-and-k3-ultra-slim-wireless-custom-keyboards");
+
+            URL_Add("Keychron&nbsp;J&nbsp;series___", "https://www.keychron.com/products/keychron-j5-qmk-wireless-mechanical-keyboard");
 
             URL_Add("Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___", "https://www.keychron.com/products/keychron-j8-he-8k-magnetic-switch-keyboard");
 
@@ -186209,8 +186255,6 @@ namespace OverflowHelper.core
 
             URL_Add("the official QMK Git repository, Keychron keyboards_____", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/keychron");
 
-            URL_Add("non-US backslash key_____", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md#basic-keycodes-basic-keycodes");
-
             URL_Add("Keychron 2024 Hall effect (HE) keyboard quality issues with self-repeating keys (1xx instances and counting)_____", "https://www.reddit.com/r/Keychron/comments/1geok1p/defective_key_on_k2_he/");
 
             URL_Add("Git branch \"bluetooth_playground\" in Keychron's fork_____", "https://github.com/Keychron/qmk_firmware/tree/bluetooth_playground/keyboards/keychron/k10_pro");
@@ -186224,6 +186268,8 @@ namespace OverflowHelper.core
             URL_Add("high-speed mode_____", "https://en.wikipedia.org/wiki/I2C#Design");
 
             URL_Add("flux capacitor_____", "https://en.wikipedia.org/wiki/DeLorean_time_machine#Flux_capacitor"); // Old: https://en.wikipedia.org/wiki/DeLorean_time_machine
+
+            URL_Add("non-US backslash key_____", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md#basic-keycodes-basic-keycodes");
 
             URL_Add("&nbsp;K_____", "https://en.wikipedia.org/wiki/Kelvin");
 
