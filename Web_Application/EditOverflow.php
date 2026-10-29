@@ -288,7 +288,7 @@
                     if ($crossReferences > 0)
                     {
                         # Note: <hr> completely breaks the output...
-                        $alternative2 .= 
+                        $alternative2 .=
                             $EOL_andBaseIndent_sub .
                             "<br><br>";
                     }
@@ -654,7 +654,10 @@
                                                                       #      thus an empty entry when
                                                                       #)     decoding it).
 
-                $linkInlineMarkdown = "[$correctTerm]($URL)";
+                # Alias, to make reverting a one-line change
+                $correctTermOutput = $correctTerm;
+
+                $linkInlineMarkdown = "[$correctTermOutput]($URL)";
 
                 # We preformat it in the most commonly used form in YouTube
                 # comments:
@@ -693,7 +696,7 @@
                 #      It ought to be resolved, so we don't have
                 #      this redundancy
                 #
-                #$link_HTML = get_HTMLlink($correctTerm,
+                #$link_HTML = get_HTMLlink($correctTermOutput,
                 #                          $URL,
                 #                          "");
                 #
@@ -702,7 +705,7 @@
                 #
                 $link_HTML =
                   "<a href=\"" . $URL . "\"" .
-                  ">" . $correctTerm . "</a>";
+                  ">" . $correctTermOutput . "</a>";
 
                 # Link, in MediaWiki format, internal (e.g., for Wikipedia)
                 #
@@ -712,22 +715,22 @@
                 #
                 $link_WikiMedia =
                     "''" .
-                    WikiMedia_Link($URL, $correctTerm) .
+                    WikiMedia_Link($URL, $correctTermOutput) .
                     "''"
                     ;
 
                 $link_WikiMedia_External =
                     "''" .
-                    WikiMedia_Link_External($URL, $correctTerm) .
+                    WikiMedia_Link_External($URL, $correctTermOutput) .
                     "''"
                     ;
 
                 # $correctionComment_Quora =
-                #   "It is \"" . $correctTerm . "\" (not \"" .
+                #   "It is \"" . $correctTermOutput . "\" (not \"" .
                 #   $lookUpTerm . "\"). See e.g.: " . $URL .
                 #   ". You can edit your question/comment/answer/post.";
                 $correctionComment_Markdown =
-                  "It is *\"[" . $correctTerm . "](" . $URL .
+                  "It is *\"[" . $correctTermOutput . "](" . $URL .
                   ")\"* in this context " .
                   "(not *\"" . $lookUpTerm . "\"*). " .
                   "You can edit (change) your question/comment/answer/post";
