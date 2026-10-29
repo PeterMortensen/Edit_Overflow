@@ -6244,6 +6244,11 @@ namespace OverflowHelper.core
             correctionAdd("nautilus", "Nautilus");
 
             // Linux
+            correctionAdd("GNOME Archive Manager", "File Roller"); // The former name
+            correctionAdd("Archive Manager", "File Roller");
+            correctionAdd("archive manager", "File Roller");
+
+            // Linux
             correctionAdd("bspwm", "Bspwm");
             correctionAdd("BSPWM", "Bspwm");
             correctionAdd("bspWM", "Bspwm");
@@ -6454,6 +6459,7 @@ namespace OverflowHelper.core
             correctionAdd("Gnome", "GNOME");
             correctionAdd("Gmome", "GNOME");
             correctionAdd("GNMOE", "GNOME");
+            correctionAdd("GNONE", "GNOME"); // A true typo
 
             // Related to Linux. Desktop environment.
             correctionAdd("Gnome 3", "GNOME&nbsp;3");
@@ -8531,6 +8537,7 @@ namespace OverflowHelper.core
             correctionAdd("cross platform", "cross-platform");
             correctionAdd("cross-platfrom", "cross-platform");
             correctionAdd("Cross platform", "cross-platform");
+            correctionAdd("cross.platform", "cross-platform");
             correctionAdd("crossplatform", "cross-platform");
             correctionAdd("crossPlatform", "cross-platform");
             correctionAdd("crossplatfom", "cross-platform");
@@ -10113,6 +10120,7 @@ namespace OverflowHelper.core
 
             correctionAdd("egree", "degree");
 
+            correctionAdd("degree's", "degrees");
             correctionAdd("degress", "degrees");
             correctionAdd("digrees", "degrees");
             correctionAdd("Degrees", "degrees");
@@ -18305,6 +18313,7 @@ namespace OverflowHelper.core
             correctionAdd("suspectable", "susceptible");
             correctionAdd("suspectible", "susceptible");
             correctionAdd("suspectiple", "susceptible");
+            correctionAdd("suspeptiple", "susceptible");
             correctionAdd("susectable", "susceptible");
             correctionAdd("suseptable", "susceptible");
             correctionAdd("suseptible", "susceptible");
@@ -67358,7 +67367,14 @@ namespace OverflowHelper.core
             //   <https://www.reddit.com/r/Keychron/comments/12f3gat/comment/m86kinu/>
             //     Insisting on adding (unsafe) udev rules
             //
+            //   <https://www.keebtalk.com/t/nazg-a-new-keyboard-configurator-that-talks-to-via-and-vial-keyboards/24579/11>
+            //   <https://github.com/mymakercorner/nazg>
+            //     Nazg
+            //
+            //     Vibe coded, but up front about it.
+            //
             //   <https://www.reddit.com/r/olkb/comments/1p75lee/comment/nr6hilt/>
+            //   <https://www.reddit.com/r/olkb/comments/1p75lee/comment/nrdobv3/>
             //     Vitaly: Command line Via/Vial protocol tool
             //             for keyboard configuration
             //
@@ -70554,6 +70570,7 @@ namespace OverflowHelper.core
             correctionAdd("Stabilisers", "stabilisers");
             correctionAdd("stabalizers", "stabilisers");
             correctionAdd("stabalisers", "stabilisers");
+            correctionAdd("atabilizers", "stabilisers"); // A true typo
             correctionAdd("Stabilizer", "stabilisers");
             correctionAdd("stabs", "stabilisers");
             correctionAdd("Stabs", "stabilisers");
@@ -83721,6 +83738,7 @@ namespace OverflowHelper.core
 
             correctionAdd("embarresleing", "embarrassingly");
             correctionAdd("embarrasingly", "embarrassingly");
+            correctionAdd("embarsingly", "embarrassingly");
             correctionAdd("embar", "embarrassingly"); // A shorthand
 
             correctionAdd("embarrashment", "embarrassment");
@@ -110355,6 +110373,8 @@ namespace OverflowHelper.core
 
             URL_Add("Nautilus", "https://en.wikipedia.org/wiki/GNOME_Files");
 
+            URL_Add("File Roller", "https://en.wikipedia.org/wiki/File_Roller");
+
             URL_Add("WinSCP", "https://en.wikipedia.org/wiki/WinSCP");
 
             URL_Add("Google Groups", "https://en.wikipedia.org/wiki/Google_Groups");
@@ -119283,8 +119303,6 @@ namespace OverflowHelper.core
 
             URL_Add("respond", "https://en.wiktionary.org/wiki/respond#Verb");
 
-            URL_Add("susceptibility", "https://en.wiktionary.org/wiki/susceptibility#Noun");
-
             URL_Add("SoundTrap", "https://www.oceaninstruments.co.nz/product/soundtrap-st600-std-long-term-recorder/"); // Old: <http://www.oceaninstruments.co.nz/product/soundtrap-st600-std-long-term-recorder/>
 
             URL_Add("bat", "https://en.wiktionary.org/wiki/bat#Noun");
@@ -123502,6 +123520,8 @@ namespace OverflowHelper.core
             URL_Add("accommodating", "https://en.wiktionary.org/wiki/accommodating#Adjective");
 
             URL_Add("susceptible", "https://en.wiktionary.org/wiki/susceptible#Adjective");
+
+            URL_Add("susceptibility", "https://en.wiktionary.org/wiki/susceptibility#Noun");
 
             URL_Add("sophisticated", "https://en.wiktionary.org/wiki/sophisticated#Adjective");
 
@@ -159704,6 +159724,7 @@ namespace OverflowHelper.core
             correctionAdd("KC K2 HE_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
             correctionAdd("K2 he se_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
             correctionAdd("K2 HE SE_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
+            correctionAdd("K2 He Se_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
             correctionAdd("K2HE SE_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
             correctionAdd("HE K2_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
             correctionAdd("H2 HE_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
@@ -183077,6 +183098,14 @@ namespace OverflowHelper.core
             correctionAdd("Playground____", "Git branch \"playground\" in Keychron's fork____");
             correctionAdd("playground____", "Git branch \"playground\" in Keychron's fork____");
 
+            correctionAdd("Git branch \"2025q3\" in Keychron's fork____", "Git branch \"hall_effect_playground\" in Keychron's fork____");
+            correctionAdd("Keychron K10 HE source code____", "Git branch \"hall_effect_playground\" in Keychron's fork____");
+            correctionAdd("Keychron K2 HE source code____", "Git branch \"hall_effect_playground\" in Keychron's fork____");
+            correctionAdd("Keychron Q3 HE source code____", "Git branch \"hall_effect_playground\" in Keychron's fork____");
+            correctionAdd("Keychron Q6 HE source code____", "Git branch \"hall_effect_playground\" in Keychron's fork____");
+            correctionAdd("hall_effect_playground____", "Git branch \"hall_effect_playground\" in Keychron's fork____");
+            correctionAdd("Hall sensor____", "Git branch \"hall_effect_playground\" in Keychron's fork____");
+
             // Note:
             //
             //   Includes a warning about bricking the Bluetooth module
@@ -184839,6 +184868,8 @@ namespace OverflowHelper.core
             URL_Add("Debian&nbsp;8 (Jessie)____", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_8_(Jessie)");
 
             URL_Add("Git branch \"playground\" in Keychron's fork____", "https://github.com/Keychron/qmk_firmware/tree/playground/keyboards/keychron/x3/iso/rgb");
+
+            URL_Add("Git branch \"hall_effect_playground\" in Keychron's fork____", "https://github.com/Keychron/qmk_firmware/tree/hall_effect_playground/keyboards/keychron");
 
             URL_Add("it isn't the switches, damn it!____", "https://www.reddit.com/r/Keychron/comments/1i5flhz/comment/mhl8w41/");
 
@@ -186833,6 +186864,7 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/bskaplou/vitaly>
             //
+            correctionAdd("Vitality______", "Vitaly______");
             correctionAdd("vitali______", "Vitaly______");
             correctionAdd("Vitali______", "Vitaly______");
             correctionAdd("vitaly______", "Vitaly______");
@@ -186963,7 +186995,7 @@ namespace OverflowHelper.core
 
             URL_Add("man -s 3 intro______", "https://linux.die.net/man/3/intro");
 
-            URL_Add("Vitaly______", "https://www.reddit.com/r/olkb/comments/1p75lee/comment/nr6hilt/");
+            URL_Add("Vitaly______", "https://www.reddit.com/r/olkb/comments/1p75lee/comment/nrdobv3/"); // Old: <https://www.reddit.com/r/olkb/comments/1p75lee/comment/nr6hilt/>
 
             URL_Add("Internet&nbsp;Explorer&nbsp;8______", "https://en.wikipedia.org/wiki/Internet_Explorer_8");
 
