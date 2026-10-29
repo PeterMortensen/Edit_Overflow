@@ -10542,6 +10542,7 @@ namespace OverflowHelper.core
             correctionAdd("dosn't", "doesn’t");
             correctionAdd("doen't", "doesn’t");
             correctionAdd("doenst", "doesn’t");
+            correctionAdd("Doenst", "doesn’t");
             correctionAdd("desn’t", "doesn’t");
             correctionAdd("does’t", "doesn’t");
             correctionAdd("Doesnt", "doesn’t");
@@ -38163,6 +38164,43 @@ namespace OverflowHelper.core
             correctionAdd("non perfect", "nonperfect");
             correctionAdd("Non perfect", "nonperfect");
             correctionAdd("non-perfect", "nonperfect");
+
+            correctionAdd("practicing", "practising");
+            correctionAdd("praticing", "practising");
+
+            correctionAdd("praticized", "practised");
+            correctionAdd("practized", "practised");
+            correctionAdd("practiced", "practised");
+            correctionAdd("praticed", "practised");
+
+            correctionAdd("paractical", "practical");
+            correctionAdd("practicle", "practical");
+            correctionAdd("pratical", "practical");
+            correctionAdd("Pratical", "practical");
+
+            correctionAdd("practicaly", "practically");
+            correctionAdd("Practicaly", "practically");
+            correctionAdd("practially", "practically");
+
+            correctionAdd("practicallity", "practicality");
+            correctionAdd("Practicality", "practicality");
+
+            correctionAdd("unpractical", "impractical");
+
+            // The noun
+            correctionAdd("practise", "practice");
+            correctionAdd("practive", "practice");
+            correctionAdd("pratice", "practice");
+
+            correctionAdd("practioners", "practitioners");
+
+            correctionAdd("in the practice", "in practice");
+            correctionAdd("On the practice", "in practice");
+            correctionAdd("on the practice", "in practice");
+            correctionAdd("in practise", "in practice");
+
+            correctionAdd("best-practice", "best practice");
+            correctionAdd("Best Practice", "best practice");
 
             correctionAdd("indentitation", "indentation");
             correctionAdd("indendation", "indentation");
@@ -76059,42 +76097,6 @@ namespace OverflowHelper.core
             //
             correctionAdd("mid-term", "midterm exam");
             correctionAdd("midterm", "midterm exam");
-
-            correctionAdd("practicing", "practising");
-            correctionAdd("praticing", "practising");
-
-            correctionAdd("praticized", "practised");
-            correctionAdd("practized", "practised");
-            correctionAdd("practiced", "practised");
-            correctionAdd("praticed", "practised");
-
-            correctionAdd("paractical", "practical");
-            correctionAdd("practicle", "practical");
-            correctionAdd("pratical", "practical");
-            correctionAdd("Pratical", "practical");
-
-            correctionAdd("practicaly", "practically");
-            correctionAdd("Practicaly", "practically");
-            correctionAdd("practially", "practically");
-
-            correctionAdd("practicallity", "practicality");
-            correctionAdd("Practicality", "practicality");
-
-            correctionAdd("unpractical", "impractical");
-
-            // The noun
-            correctionAdd("practise", "practice");
-            correctionAdd("practive", "practice");
-            correctionAdd("pratice", "practice");
-
-            correctionAdd("practioners", "practitioners");
-
-            correctionAdd("in the practice", "in practice");
-            correctionAdd("On the practice", "in practice");
-            correctionAdd("on the practice", "in practice");
-
-            correctionAdd("best-practice", "best practice");
-            correctionAdd("Best Practice", "best practice");
 
             correctionAdd("interect", "interact");
 
@@ -162837,40 +162839,41 @@ namespace OverflowHelper.core
             correctionAdd("dick-head_", "dickhead_");
             correctionAdd("DH_", "dickhead_");
 
-            correctionAdd("shite_", "shit_");
-            correctionAdd("shoot_", "shit_");
+            correctionAdd("shiat_", "shit_");
             correctionAdd("shiet_", "shit_");
+            correctionAdd("shite_", "shit_");
             correctionAdd("shitt_", "shit_");
-            correctionAdd("s*&/!_", "shit_");
+            correctionAdd("shoot_", "shit_");
             correctionAdd("shyte_", "shit_");
-            correctionAdd("siht_", "shit_");
+            correctionAdd("s*&/!_", "shit_");
             correctionAdd("shiz_", "shit_");
-            correctionAdd("dhur_", "shit_"); // A true typo (multiple typos)? Or deliberate typos?
+            correctionAdd("shid_", "shit_");
             correctionAdd("shxt_", "shit_");
             correctionAdd("shot_", "shit_"); // Probably deliberately misspelt
-            correctionAdd("S***_", "shit_");
-            correctionAdd("s***_", "shit_");
+            correctionAdd("siht_", "shit_");
+            correctionAdd("dhur_", "shit_"); // A true typo (multiple typos)? Or deliberate typos?
+            correctionAdd("sXXX_", "shit_");
+            correctionAdd("SH#£_", "shit_");
+            correctionAdd("sh#£_", "shit_");
+            correctionAdd("s#!t_", "shit_");
             correctionAdd("S*!t_", "shit_");
             correctionAdd("s*!t_", "shit_");
-            correctionAdd("$H!T_", "shit_");
-            correctionAdd("$h!t_", "shit_");
             correctionAdd("s*it_", "shit_");
             correctionAdd("S#*T_", "shit_");
             correctionAdd("s#*t_", "shit_");
-            correctionAdd("sXXX_", "shit_");
             correctionAdd("sh*t_", "shit_");
             correctionAdd("SH*T_", "shit_");
             correctionAdd("Sh*t_", "shit_");
-            correctionAdd("shid_", "shit_");
-            correctionAdd("S**T_", "shit_");
-            correctionAdd("s**t_", "shit_");
-            correctionAdd("$&!T_", "shit_");
-            correctionAdd("$&!t_", "shit_");
-            correctionAdd("SH#£_", "shit_");
-            correctionAdd("sh#£_", "shit_");
             correctionAdd("$H*T_", "shit_");
             correctionAdd("$h*t_", "shit_");
-            correctionAdd("s#!t_", "shit_");
+            correctionAdd("S**T_", "shit_");
+            correctionAdd("s**t_", "shit_");
+            correctionAdd("S***_", "shit_");
+            correctionAdd("s***_", "shit_");
+            correctionAdd("$H!T_", "shit_");
+            correctionAdd("$h!t_", "shit_");
+            correctionAdd("$&!T_", "shit_");
+            correctionAdd("$&!t_", "shit_");
             correctionAdd("poop_", "shit_");
             correctionAdd("sht_", "shit_");
             correctionAdd("shi_", "shit_");
