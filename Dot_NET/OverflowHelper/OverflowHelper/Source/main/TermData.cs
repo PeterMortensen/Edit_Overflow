@@ -1219,6 +1219,40 @@ namespace OverflowHelper.core
             correctionAdd("irrelevent", "irrelevant");
             correctionAdd("irrelvant", "irrelevant");
 
+            correctionAdd("Course", "course");
+
+            correctionAdd("due cource", "due course");
+            correctionAdd("due cause", "due course");
+
+            correctionAdd("run it's course", "run its course");
+
+            correctionAdd("masive", "massive");
+
+            correctionAdd("MOOC", "massive open online course");
+
+            correctionAdd("coursera", "Coursera"); // A MOOC provider
+
+            // A programming course, probably at
+            // University of California, Berkeley
+            correctionAdd("CS61A", "CS 61A");
+
+            // A programming course at Harvard
+            correctionAdd("Harvard CS50x", "Harvard CS50");
+            correctionAdd("Harvards CS50", "Harvard CS50");
+            correctionAdd("harvard CS50", "Harvard CS50");
+            correctionAdd("cs50x", "Harvard CS50");
+            correctionAdd("CS50x", "Harvard CS50");
+            correctionAdd("CS50", "Harvard CS50");
+            correctionAdd("cs50", "Harvard CS50");
+
+            correctionAdd("causees", "causes");
+            correctionAdd("cuases", "causes");
+
+            correctionAdd("coursing", "causing");
+            correctionAdd("Coursing", "causing");
+
+            correctionAdd("worthy case", "worthy cause");
+
             correctionAdd("reliefed", "relieved");
             correctionAdd("releaved", "relieved");
 
@@ -14955,6 +14989,7 @@ namespace OverflowHelper.core
             correctionAdd("supportd", "supported");
 
             correctionAdd("non supported", "unsupported");
+            correctionAdd("non-supported", "unsupported");
             correctionAdd("un-supported", "unsupported");
             correctionAdd("nonsupported", "unsupported");
             correctionAdd("unsuported", "unsupported");
@@ -34593,6 +34628,8 @@ namespace OverflowHelper.core
             correctionAdd("backward", "backwards");
             correctionAdd("backwrds", "backwards");
 
+            correctionAdd("backwardsly", "backwardly");
+
             correctionAdd("backwards compat", "backwards compatible");
             correctionAdd("backcompat", "backwards compatible");
 
@@ -37635,6 +37672,7 @@ namespace OverflowHelper.core
             correctionAdd("Chumpolio", "Trump");
             correctionAdd("trump", "Trump");
             correctionAdd("Trimp", "Trump");
+            correctionAdd("Donny", "Trump");
             correctionAdd("Dump", "Trump");
             correctionAdd("TACO", "Trump");
             correctionAdd("taco", "Trump");
@@ -39714,40 +39752,6 @@ namespace OverflowHelper.core
             correctionAdd("hidious", "hideous");
 
             correctionAdd("setling", "settling");
-
-            correctionAdd("Course", "course");
-
-            correctionAdd("due cource", "due course");
-            correctionAdd("due cause", "due course");
-
-            correctionAdd("run it's course", "run its course");
-
-            correctionAdd("masive", "massive");
-
-            correctionAdd("MOOC", "massive open online course");
-
-            correctionAdd("coursera", "Coursera"); // A MOOC provider
-
-            // A programming course, probably at
-            // University of California, Berkeley
-            correctionAdd("CS61A", "CS 61A");
-
-            // A programming course at Harvard
-            correctionAdd("Harvard CS50x", "Harvard CS50");
-            correctionAdd("Harvards CS50", "Harvard CS50");
-            correctionAdd("harvard CS50", "Harvard CS50");
-            correctionAdd("cs50x", "Harvard CS50");
-            correctionAdd("CS50x", "Harvard CS50");
-            correctionAdd("CS50", "Harvard CS50");
-            correctionAdd("cs50", "Harvard CS50");
-
-            correctionAdd("causees", "causes");
-            correctionAdd("cuases", "causes");
-
-            correctionAdd("coursing", "causing");
-            correctionAdd("Coursing", "causing");
-
-            correctionAdd("worthy case", "worthy cause");
 
             correctionAdd("root", "root user");
 
@@ -44178,31 +44182,6 @@ namespace OverflowHelper.core
             correctionAdd("OPENAI", "OpenAI");
             correctionAdd("openAi", "OpenAI");
 
-            // Related to simulated intelligence (so-called AI)
-            correctionAdd("gpt-3", "GPT-3");
-            correctionAdd("GPT3", "GPT-3");
-            correctionAdd("gpt3", "GPT-3");
-            correctionAdd("gtp3", "GPT-3");
-
-            correctionAdd("GPT-3 Codex", "Codex");
-
-            correctionAdd("GPT-3 Davinci", "GPT-3 DaVinci");
-            correctionAdd("GPT-3 davinci", "GPT-3 DaVinci");
-            correctionAdd("gtp3 davinci", "GPT-3 DaVinci");
-            correctionAdd("da Vinci", "GPT-3 DaVinci");
-            correctionAdd("davinci", "GPT-3 DaVinci");
-
-            correctionAdd("GPT 3.5", "GPT-3.5");
-            correctionAdd("GPT3.5", "GPT-3.5");
-
-            correctionAdd("model 4", "GPT-4");
-            correctionAdd("GPT 4.0", "GPT-4");
-            correctionAdd("gpt-4", "GPT-4");
-            correctionAdd("GPT 4", "GPT-4");
-            correctionAdd("GPT4", "GPT-4");
-
-            correctionAdd("GPT 5", "GPT-5");
-
             // An artificial intelligence system (AI)
             //
             // It took off in December 2022
@@ -44317,6 +44296,34 @@ namespace OverflowHelper.core
             correctionAdd("gpt", "ChatGPT");
             correctionAdd("cg", "ChatGPT");
             correctionAdd("Cg", "ChatGPT");
+
+            // Related to simulated intelligence (so-called AI)
+            correctionAdd("gpt-3", "GPT-3");
+            correctionAdd("GPT3", "GPT-3");
+            correctionAdd("gpt3", "GPT-3");
+            correctionAdd("gtp3", "GPT-3");
+
+            correctionAdd("GPT-3 Codex", "Codex");
+
+            correctionAdd("GPT-3 Davinci", "GPT-3 DaVinci");
+            correctionAdd("GPT-3 davinci", "GPT-3 DaVinci");
+            correctionAdd("gtp3 davinci", "GPT-3 DaVinci");
+            correctionAdd("da Vinci", "GPT-3 DaVinci");
+            correctionAdd("davinci", "GPT-3 DaVinci");
+
+            correctionAdd("GPT 3.5", "GPT-3.5");
+            correctionAdd("GPT3.5", "GPT-3.5");
+
+            correctionAdd("model 4", "GPT-4");
+            correctionAdd("GPT 4.0", "GPT-4");
+            correctionAdd("gpt-4", "GPT-4");
+            correctionAdd("GPT 4", "GPT-4");
+            correctionAdd("GPT4", "GPT-4");
+
+            correctionAdd("GPT 5", "GPT-5");
+
+            correctionAdd("GPT 6.0 Astra", "GPT-6 Astra");
+            correctionAdd("astra", "GPT-6 Astra");
 
             correctionAdd("ChatGPT 3.5", "ChatGPT (using GPT-3.5)");
             correctionAdd("ChatGPT-3.5", "ChatGPT (using GPT-3.5)");
@@ -52748,6 +52755,7 @@ namespace OverflowHelper.core
             //
             // Alternative URL: <https://1bitsquared.com/products/1bitsy>
             //
+            correctionAdd("teenie-tiny", "1Bitsy"); // For the cross-reference
             correctionAdd("1bitsy", "1Bitsy");
             correctionAdd("1BitSy", "1Bitsy");
 
@@ -63754,6 +63762,12 @@ namespace OverflowHelper.core
 
             correctionAdd("deptht", "depth");
 
+            correctionAdd("in depth", "in-depth");
+            correctionAdd("In depth", "in-depth");
+            correctionAdd("indepth", "in-depth");
+
+            correctionAdd("Out of my depth", "out of my depth");
+
             correctionAdd("deep in to", "dig into");
             correctionAdd("dig in to", "dig into");
 
@@ -65335,6 +65349,14 @@ namespace OverflowHelper.core
             correctionAdd("mousewheel", "mouse scroll wheel");
 
             correctionAdd("Trackball", "trackball");
+
+            // A tablet / pad (input device)
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Active_pen>
+            //
+            correctionAdd("wacom bamboo", "Wacom Bamboo");
 
             // Gaming. Using the keyboard and mouse, in
             // contrast to a gamepad or joystick.
@@ -81621,25 +81643,6 @@ namespace OverflowHelper.core
             correctionAdd("Viva La Vida", "Viva la Vida");
             correctionAdd("VIVA LA VIDA", "Viva la Vida");
             correctionAdd("Viva la vida", "Viva la Vida");
-
-            // Music. Brian Hyland
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.youtube.com/watch?v=799268TMW-s>
-            //
-            //   <https://www.youtube.com/watch?v=VIwUhrbXUbo>
-            //
-            //   <https://www.youtube.com/watch?v=r_MQolm0F7c>
-            //
-            //   <https://www.youtube.com/watch?v=ge9Ou3-YyqU>
-            //     Even weirder...
-            //
-            correctionAdd("teenie-tiny", "Itsy bitsy teenie weenie yellow polka dot bikini"); // For the cross-reference
-            correctionAdd("Itsy bitsy", "Itsy bitsy teenie weenie yellow polka dot bikini");
-            correctionAdd("itsy bitsy", "Itsy bitsy teenie weenie yellow polka dot bikini");
-            correctionAdd("bitsy", "Itsy bitsy teenie weenie yellow polka dot bikini");
-            correctionAdd("itsy", "Itsy bitsy teenie weenie yellow polka dot bikini");
 
             // Music
             correctionAdd("Abba", "ABBA");
@@ -100464,6 +100467,7 @@ namespace OverflowHelper.core
             correctionAdd("U&L_SE", "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)");
             correctionAdd("UL&U", "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)");
             correctionAdd("U&L", "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)");
+            correctionAdd("u&l", "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)");
 
             correctionAdd("Expatriates SE", "Expatriates (Stack Exchange site)");
             correctionAdd("Expatriates.SE", "Expatriates (Stack Exchange site)");
@@ -105938,10 +105942,6 @@ namespace OverflowHelper.core
 
             correctionAdd("sprincle", "sprinkle");
 
-            correctionAdd("in depth", "in-depth");
-            correctionAdd("In depth", "in-depth");
-            correctionAdd("indepth", "in-depth");
-
             correctionAdd("rulles", "rules");
             correctionAdd("ruels", "rules");
 
@@ -110171,8 +110171,6 @@ namespace OverflowHelper.core
 
             URL_Add("Flask", "https://en.wikipedia.org/wiki/Flask_%28web_framework%29");
 
-            URL_Add("Backbone.js", "https://en.wikipedia.org/wiki/Backbone.js");
-
             URL_Add("Jenkins", "https://en.wikipedia.org/wiki/Jenkins_%28software%29");
 
             URL_Add("PyPy", "https://en.wikipedia.org/wiki/PyPy");
@@ -111317,8 +111315,6 @@ namespace OverflowHelper.core
 
             URL_Add("monetisation", "https://en.wiktionary.org/wiki/monetisation#Noun");
 
-            URL_Add("onwards", "https://en.wiktionary.org/wiki/onwards#Adverb");
-
             URL_Add("pro bono", "https://en.wiktionary.org/wiki/pro_bono#Adjective");
 
             URL_Add("return", "https://en.wiktionary.org/wiki/return#Verb");
@@ -111675,8 +111671,6 @@ namespace OverflowHelper.core
 
             URL_Add("admittedly", "https://en.wiktionary.org/wiki/admittedly#Adverb");
 
-            URL_Add("backwards", "https://en.wiktionary.org/wiki/backwards#Adverb");
-
             URL_Add("interference", "https://en.wiktionary.org/wiki/interference#Noun");
 
             URL_Add("no harm, no foul", "https://en.wiktionary.org/wiki/no_harm,_no_foul#Phrase");
@@ -111720,10 +111714,6 @@ namespace OverflowHelper.core
             URL_Add("mosquito", "https://en.wiktionary.org/wiki/mosquito#Noun");
 
             URL_Add("Cisco", "https://en.wikipedia.org/wiki/Cisco_Systems");
-
-            URL_Add("backstab", "https://en.wiktionary.org/wiki/backstab#Verb");
-
-            URL_Add("backstabbing", "https://en.wiktionary.org/wiki/backstab#Verb");
 
             URL_Add("satellite", "https://en.wiktionary.org/wiki/satellite#Noun");
 
@@ -111880,8 +111870,6 @@ namespace OverflowHelper.core
             URL_Add("Shakespearean", "https://en.wiktionary.org/wiki/Shakespearean#Adjective");
 
             URL_Add("SurveyMonkey", "https://en.wikipedia.org/wiki/SurveyMonkey");
-
-            URL_Add("back up", "https://en.wiktionary.org/wiki/back_up#Verb");
 
             URL_Add("concise", "https://en.wiktionary.org/wiki/concise#Adjective");
 
@@ -113353,8 +113341,6 @@ namespace OverflowHelper.core
 
             URL_Add("Acer Aspire", "https://en.wikipedia.org/wiki/Acer_Aspire");
 
-            URL_Add("GPT-3", "https://en.wikipedia.org/wiki/GPT-3");
-
             URL_Add("cognitive", "https://en.wiktionary.org/wiki/cognitive#Adjective");
 
             URL_Add("pursuit", "https://en.wiktionary.org/wiki/pursuit#Noun");
@@ -113865,8 +113851,6 @@ namespace OverflowHelper.core
 
             URL_Add("adapter", "https://en.wiktionary.org/wiki/adapter#Noun");
 
-            URL_Add("coward", "https://en.wiktionary.org/wiki/coward#Noun");
-
             URL_Add("phase-locked loop", "https://en.wikipedia.org/wiki/Phase-locked_loop");
 
             URL_Add("reanswering", "https://en.wiktionary.org/wiki/reanswer#Verb");
@@ -114177,8 +114161,6 @@ namespace OverflowHelper.core
 
             URL_Add("Steam", "https://en.wikipedia.org/wiki/Steam_(service)");
 
-            URL_Add("back", "https://en.wiktionary.org/wiki/back#Adverb");
-
             URL_Add("dad", "https://en.wiktionary.org/wiki/dad#Noun");
 
             URL_Add("pinball", "https://en.wiktionary.org/wiki/pinball#Noun");
@@ -114208,8 +114190,6 @@ namespace OverflowHelper.core
             URL_Add("interaction", "https://en.wiktionary.org/wiki/interaction#Noun");
 
             URL_Add("liquefying", "https://en.wiktionary.org/wiki/liquefy#Verb");
-
-            URL_Add("back burner", "https://en.wiktionary.org/wiki/back_burner#Noun");
 
             URL_Add("cumbersome", "https://en.wiktionary.org/wiki/cumbersome#Adjective");
 
@@ -114312,10 +114292,6 @@ namespace OverflowHelper.core
             URL_Add("Ada", "https://en.wikipedia.org/wiki/Ada_(programming_language)");
 
             URL_Add("Chua's diode", "https://en.wikipedia.org/wiki/Chua%27s_diode");
-
-            URL_Add("back-to-back", "https://en.wiktionary.org/wiki/back-to-back#Adjective");
-
-            URL_Add("afterwards", "https://en.wiktionary.org/wiki/afterwards#Adverb");
 
             URL_Add("diploma", "https://en.wiktionary.org/wiki/diploma#Noun");
 
@@ -115227,8 +115203,6 @@ namespace OverflowHelper.core
 
             URL_Add("time travel", "https://en.wiktionary.org/wiki/time_travel#Noun");
 
-            URL_Add("towards", "https://en.wiktionary.org/wiki/towards#Adverb");
-
             URL_Add("wizard", "https://en.wiktionary.org/wiki/wizard#Noun");
 
             URL_Add("Judit Polgár", "https://en.wikipedia.org/wiki/Judit_Polg%C3%A1r");
@@ -115630,8 +115604,6 @@ namespace OverflowHelper.core
             URL_Add("PySerial", "https://wiki.python.org/moin/PySerial");
 
             URL_Add("enthusiast", "https://en.wiktionary.org/wiki/enthusiast#Noun");
-
-            URL_Add("in-depth", "https://en.wiktionary.org/wiki/in-depth#Adjective"); // Old: https://en.wiktionary.org/wiki/in-depth
 
             URL_Add("superset", "https://en.wiktionary.org/wiki/superset#Noun");
 
@@ -117969,8 +117941,6 @@ namespace OverflowHelper.core
 
             URL_Add("enforceability", "https://en.wiktionary.org/wiki/enforceability#Noun");
 
-            URL_Add("fast forward", "https://en.wiktionary.org/wiki/fast_forward#Verb");
-
             URL_Add("prediction", "https://en.wiktionary.org/wiki/prediction#Noun");
 
             URL_Add("solves", "https://en.wiktionary.org/wiki/solve#Verb");
@@ -119671,6 +119641,10 @@ namespace OverflowHelper.core
 
             URL_Add("depth", "https://en.wiktionary.org/wiki/depth#Noun");
 
+            URL_Add("in-depth", "https://en.wiktionary.org/wiki/in-depth#Adjective"); // Old: https://en.wiktionary.org/wiki/in-depth
+
+            URL_Add("out of my depth", "https://en.wiktionary.org/wiki/out_of_one%27s_depth#Adjective");
+
             URL_Add("floppy disk", "https://en.wikipedia.org/wiki/Floppy_disk");
 
             URL_Add("out-of-bounds", "https://en.wiktionary.org/wiki/out-of-bounds#Adjective");
@@ -121321,8 +121295,6 @@ namespace OverflowHelper.core
 
             URL_Add("ungodly", "https://en.wiktionary.org/wiki/ungodly#Adjective");
 
-            URL_Add("GPT-4", "https://en.wikipedia.org/wiki/GPT-4");
-
             URL_Add("humongous", "https://en.wiktionary.org/wiki/humongous#Adjective");
 
             URL_Add("leftover", "https://en.wiktionary.org/wiki/leftover#Adjective");
@@ -122775,8 +122747,6 @@ namespace OverflowHelper.core
 
             URL_Add("eerily", "https://en.wiktionary.org/wiki/eerily#Adverb");
 
-            URL_Add("GPT-3.5", "https://en.wikipedia.org/wiki/GPT-3#GPT-3.5");
-
             URL_Add("duplicates", "https://en.wiktionary.org/wiki/duplicate#Noun");
 
             URL_Add("next generation", "https://en.wiktionary.org/wiki/next_generation#Adjective");
@@ -123680,8 +123650,6 @@ namespace OverflowHelper.core
             URL_Add("missing in action", "https://en.wiktionary.org/wiki/missing_in_action#Adjective");
 
             URL_Add("<algorithm>", "https://en.wikipedia.org/wiki/Algorithm_(C%2B%2B)");
-
-            URL_Add("backwards compatible", "https://en.wikipedia.org/wiki/Backward_compatibility#In_software");
 
             URL_Add("Grand Theft Auto: San Andreas", "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_San_Andreas");
 
@@ -125675,8 +125643,6 @@ namespace OverflowHelper.core
 
             URL_Add("emergency", "https://en.wiktionary.org/wiki/emergency#Noun");
 
-            URL_Add("forward", "https://en.wiktionary.org/wiki/forward#Verb");
-
             URL_Add("GNOME Terminal", "https://en.wikipedia.org/wiki/GNOME_Terminal");
 
             URL_Add("reproducibility", "https://en.wiktionary.org/wiki/reproducibility#Noun");
@@ -127243,8 +127209,6 @@ namespace OverflowHelper.core
 
             URL_Add("SCO UNIX", "https://en.wikipedia.org/wiki/OpenServer");
 
-            URL_Add("Codex", "https://en.wikipedia.org/wiki/OpenAI_Codex");
-
             URL_Add("BoringSSL", "https://en.wikipedia.org/wiki/OpenSSL#BoringSSL");
 
             URL_Add("K:03 v1", "https://www.reddit.com/r/olkb/comments/1f75l5r/k03_v1_goes_full_opensource/");
@@ -127992,8 +127956,6 @@ namespace OverflowHelper.core
             URL_Add("ISO&nbsp;2", "https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements");
 
             URL_Add("ISO&nbsp;3", "https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3#Officially_assigned_code_elements");
-
-            URL_Add("GPT-5", "https://en.wikipedia.org/wiki/GPT-5");
 
             URL_Add("grunt work", "https://en.wiktionary.org/wiki/grunt_work#Noun");
 
@@ -129060,46 +129022,6 @@ namespace OverflowHelper.core
             URL_Add("RAID&nbsp;10", "https://en.wikipedia.org/wiki/Nested_RAID_levels#RAID_10_(RAID_1+0)");
 
             URL_Add("safekeep", "https://en.wiktionary.org/wiki/safekeep#Verb");
-
-            URL_Add("height", "https://en.wiktionary.org/wiki/height#Noun");
-
-            URL_Add("width and height", "https://en.wikipedia.org/wiki/Display_resolution_standards");
-
-            URL_Add("Pluralsight", "https://en.wikipedia.org/wiki/Pluralsight");
-
-            URL_Add("Source Insight", "https://en.wikipedia.org/wiki/Source_Insight");
-
-            URL_Add("hindsight", "https://en.wiktionary.org/wiki/hindsight#Noun");
-
-            URL_Add("knight", "https://en.wikipedia.org/wiki/Knight_(chess)");
-
-            URL_Add("insight", "https://en.wiktionary.org/wiki/insight#Noun");
-
-            URL_Add("Craig Wright", "https://en.wikipedia.org/wiki/Satoshi_Nakamoto#Craig_Wright");
-
-            URL_Add("eyesight", "https://en.wiktionary.org/wiki/eyesight#Noun");
-
-            URL_Add("copyright", "https://en.wiktionary.org/wiki/copyright#Noun");
-
-            URL_Add("at night", "https://en.wiktionary.org/wiki/at_night#Adverb");
-
-            URL_Add("midnight", "https://en.wiktionary.org/wiki/midnight#Noun");
-
-            URL_Add("straighter", "https://en.wiktionary.org/wiki/straighter#Adjective");
-
-            URL_Add("straightened", "https://en.wiktionary.org/wiki/straighten#Verb");
-
-            URL_Add("in plain sight", "https://en.wiktionary.org/wiki/in_plain_sight#Prepositional_phrase");
-
-            URL_Add("damn right", "https://en.wiktionary.org/wiki/damn_right#Adverb");
-
-            URL_Add("straight", "https://en.wiktionary.org/wiki/straight#Adverb");
-
-            URL_Add("straighten", "https://en.wiktionary.org/wiki/straighten#Verb");
-
-            URL_Add("straight-up", "https://en.wiktionary.org/wiki/straight-up#Adjective");
-
-            URL_Add("straightforward", "https://en.wiktionary.org/wiki/straightforward#Adjective"); // Old: https://en.wiktionary.org/wiki/straightforward
 
             URL_Add("cache", "https://en.wiktionary.org/wiki/cache#Noun");
 
@@ -130686,16 +130608,6 @@ namespace OverflowHelper.core
             URL_Add("CJK", "https://en.wikipedia.org/wiki/CJK_characters");
 
             URL_Add("GBK", "https://en.wikipedia.org/wiki/GBK_(character_encoding)");
-
-            URL_Add("awkward", "https://en.wiktionary.org/wiki/awkward#Adjective");
-
-            URL_Add("awkwardly", "https://en.wiktionary.org/wiki/awkwardly#Adverb");
-
-            URL_Add("AWK", "https://en.wikipedia.org/wiki/AWK");
-
-            URL_Add("Gawk", "https://en.wikipedia.org/wiki/AWK#Versions_and_implementations");
-
-            URL_Add("nawk", "https://en.wikipedia.org/wiki/AWK#History");
 
             URL_Add("Tcl", "https://en.wikipedia.org/wiki/Tcl");
 
@@ -135449,26 +135361,6 @@ namespace OverflowHelper.core
 
             URL_Add("wanton", "https://en.wiktionary.org/wiki/wanton#Noun");
 
-            URL_Add("easygoing", "https://en.wiktionary.org/wiki/easygoing#Adjective");
-
-            URL_Add("goes", "https://en.wiktionary.org/wiki/go#Verb");
-
-            URL_Add("going", "https://en.wiktionary.org/wiki/go#Verb");
-
-            URL_Add("gone", "https://en.wiktionary.org/wiki/go#Verb");
-
-            URL_Add("ongoing", "https://en.wiktionary.org/wiki/ongoing#Adjective");
-
-            URL_Add("going on", "https://en.wiktionary.org/wiki/go_on#Verb");
-
-            URL_Add("going forward", "https://en.wiktionary.org/wiki/going_forward#Adverb");
-
-            URL_Add("is going to", "https://en.wiktionary.org/wiki/going_to#Phrase"); // Old: https://en.wiktionary.org/wiki/going_to#English
-
-            URL_Add("I’m going to", "https://en.wiktionary.org/wiki/going_to#Phrase");
-
-            URL_Add("I am not going to lie", "https://en.wiktionary.org/wiki/NGL#Phrase");
-
             URL_Add("Hardware Accelerated Execution Manager", "https://en.wikipedia.org/wiki/QEMU#Accelerator");
 
             URL_Add("ELF", "https://en.wikipedia.org/wiki/Executable_and_Linkable_Format");
@@ -136331,22 +136223,6 @@ namespace OverflowHelper.core
 
             URL_Add("safety integrity level", "https://en.wikipedia.org/wiki/Safety_integrity_level");
 
-            URL_Add("orient", "https://en.wiktionary.org/wiki/orient#Verb");
-
-            URL_Add("oriented", "https://en.wiktionary.org/wiki/oriented#Adjective");
-
-            URL_Add("reorient", "https://en.wiktionary.org/wiki/reorient#Verb");
-
-            URL_Add("oriented toward", "https://www.vocabulary.com/dictionary/oriented");
-
-            URL_Add("orientation", "https://en.wiktionary.org/wiki/orientation#Noun");
-
-            URL_Add("OrientDB", "https://en.wikipedia.org/wiki/OrientDB");
-
-            URL_Add("OrientDB Studio", "https://orientdb.com/docs/last/studio/#introduction-to-orientdb-studio");
-
-            URL_Add("PyOrient", "https://orientdb.com/docs/latest/pyorient/PyOrient.html");
-
             URL_Add("dark mode", "https://en.wikipedia.org/wiki/Light-on-dark_color_scheme");
 
             URL_Add("&nbsp; NBSP", "https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#List_of_character_entity_references_in_HTML");
@@ -137135,11 +137011,27 @@ namespace OverflowHelper.core
 
             URL_Add("Google Bard", "https://en.wikipedia.org/wiki/Bard_(chatbot)");
 
+            URL_Add("OpenAI", "https://en.wikipedia.org/wiki/OpenAI");
+
             URL_Add("ChatGPT", "https://en.wikipedia.org/wiki/ChatGPT"); // Old: https://en.wikipedia.org/wiki/OpenAI#History
 
             URL_Add("ChatGPT (using GPT-3.5)", "https://en.wikipedia.org/wiki/ChatGPT#Training");
 
             URL_Add("ChatGPT (using GPT-4)", "https://en.wikipedia.org/wiki/ChatGPT#Training");
+
+            URL_Add("Codex", "https://en.wikipedia.org/wiki/OpenAI_Codex");
+
+            URL_Add("GPT-3", "https://en.wikipedia.org/wiki/GPT-3");
+
+            URL_Add("GPT-3 DaVinci", "https://platform.openai.com/docs/models/gpt-3-5");
+
+            URL_Add("GPT-3.5", "https://en.wikipedia.org/wiki/GPT-3#GPT-3.5");
+
+            URL_Add("GPT-4", "https://en.wikipedia.org/wiki/GPT-4");
+
+            URL_Add("GPT-5", "https://en.wikipedia.org/wiki/GPT-5");
+
+            URL_Add("GPT-6 Astra", "https://en.wikipedia.org/wiki/GPT-6");
 
             URL_Add("Grok", "https://en.wikipedia.org/wiki/Grok_(chatbot)");
 
@@ -140242,12 +140134,6 @@ namespace OverflowHelper.core
             URL_Add("If This Then That", "https://en.wikipedia.org/wiki/IFTTT#Features");
 
             URL_Add("Nerd Fonts", "https://www.nerdfonts.com/#features");
-
-            URL_Add("backtrack", "https://en.wiktionary.org/wiki/backtrack#Verb");
-
-            URL_Add("backtick", "https://en.wiktionary.org/wiki/backtick#Noun");
-
-            URL_Add("backticks", "https://en.wiktionary.org/wiki/backtick#Noun");
 
             URL_Add("intriguing", "https://en.wiktionary.org/wiki/intriguing#Adjective");
 
@@ -144519,8 +144405,6 @@ namespace OverflowHelper.core
 
             URL_Add("String quintet in E Major, Op.11 No.5. Minuet - Luigi Boccherini", "https://www.youtube.com/watch?v=5fLPBIBOE5U");
 
-            URL_Add("Emmy Award", "https://en.wikipedia.org/wiki/Emmy_Award");
-
             URL_Add("guitar", "https://en.wikipedia.org/wiki/Guitar");
 
             URL_Add("bass guitar", "https://en.wikipedia.org/wiki/Bass_guitar");
@@ -144530,8 +144414,6 @@ namespace OverflowHelper.core
             URL_Add("ABBA", "https://en.wikipedia.org/wiki/ABBA");
 
             URL_Add("Viva la Vida", "https://en.wikipedia.org/wiki/Viva_la_Vida");
-
-            URL_Add("Itsy bitsy teenie weenie yellow polka dot bikini", "https://www.youtube.com/watch?v=ICkWjdQuK7Q");
 
             URL_Add("MusicXML", "https://en.wikipedia.org/wiki/MusicXML");
 
@@ -145805,10 +145687,6 @@ namespace OverflowHelper.core
 
             URL_Add("branchless", "https://en.wiktionary.org/wiki/branchless#Adjective");
 
-            URL_Add("useless use of 'cat'", "https://en.wikipedia.org/wiki/Cat_(Unix)#Useless_use_of_cat");
-
-            URL_Add("Useless use of 'cat' award", "https://www.smallo.ruhr.de/award.html"); // Old: <http://www.smallo.ruhr.de/award.html>
-
             URL_Add("Hairless", "https://projectgus.github.io/hairless-midiserial/"); // Old: <http://projectgus.github.io/hairless-midiserial/>
 
             URL_Add("regard", "https://en.wiktionary.org/wiki/regard#Noun");
@@ -146420,10 +146298,6 @@ namespace OverflowHelper.core
             URL_Add("open drain", "https://en.wikipedia.org/wiki/Open_collector#Open_drain");
 
             URL_Add("open-source intelligence", "https://en.wikipedia.org/wiki/Open-source_intelligence");
-
-            URL_Add("OpenAI", "https://en.wikipedia.org/wiki/OpenAI");
-
-            URL_Add("GPT-3 DaVinci", "https://platform.openai.com/docs/models/gpt-3-5");
 
             URL_Add("OpenSesame", "https://en.wikipedia.org/wiki/OpenSesame_Inc");
 
@@ -148306,6 +148180,8 @@ namespace OverflowHelper.core
             URL_Add("cat-and-mouse", "https://en.wiktionary.org/wiki/cat-and-mouse#Adjective");
 
             URL_Add("trackball", "https://en.wikipedia.org/wiki/Trackball");
+
+            URL_Add("Wacom Bamboo", "https://en.wikipedia.org/wiki/Wacom#Other_products");
 
             URL_Add("Mousepad", "https://en.wikipedia.org/wiki/Xfce#Mousepad");
 
@@ -151444,6 +151320,136 @@ namespace OverflowHelper.core
             URL_Add("SKALE", "https://skale.space/");
 
             URL_Add("memchanical", "https://www.tomshardware.com/news/razer-mecha-membrane-switch-ornata-chroma,32637.html");
+
+            URL_Add("backwards", "https://en.wiktionary.org/wiki/backwards#Adverb");
+
+            URL_Add("backwardly", "https://en.wiktionary.org/wiki/backwardly#Adverb");
+
+            URL_Add("backwards compatible", "https://en.wikipedia.org/wiki/Backward_compatibility#In_software");
+
+            URL_Add("backtrack", "https://en.wiktionary.org/wiki/backtrack#Verb");
+
+            URL_Add("backtick", "https://en.wiktionary.org/wiki/backtick#Noun");
+
+            URL_Add("backticks", "https://en.wiktionary.org/wiki/backtick#Noun");
+
+            URL_Add("Backbone.js", "https://en.wikipedia.org/wiki/Backbone.js");
+
+            URL_Add("backstab", "https://en.wiktionary.org/wiki/backstab#Verb");
+
+            URL_Add("backstabbing", "https://en.wiktionary.org/wiki/backstab#Verb");
+
+            URL_Add("back up", "https://en.wiktionary.org/wiki/back_up#Verb");
+
+            URL_Add("back", "https://en.wiktionary.org/wiki/back#Adverb");
+
+            URL_Add("back burner", "https://en.wiktionary.org/wiki/back_burner#Noun");
+
+            URL_Add("back-to-back", "https://en.wiktionary.org/wiki/back-to-back#Adjective");
+
+            URL_Add("afterwards", "https://en.wiktionary.org/wiki/afterwards#Adverb");
+
+            URL_Add("onwards", "https://en.wiktionary.org/wiki/onwards#Adverb");
+
+            URL_Add("towards", "https://en.wiktionary.org/wiki/towards#Adverb");
+
+            URL_Add("coward", "https://en.wiktionary.org/wiki/coward#Noun");
+
+            URL_Add("forward", "https://en.wiktionary.org/wiki/forward#Verb");
+
+            URL_Add("straightforward", "https://en.wiktionary.org/wiki/straightforward#Adjective"); // Old: https://en.wiktionary.org/wiki/straightforward
+
+            URL_Add("fast forward", "https://en.wiktionary.org/wiki/fast_forward#Verb");
+
+            URL_Add("going forward", "https://en.wiktionary.org/wiki/going_forward#Adverb");
+
+            URL_Add("oriented toward", "https://www.vocabulary.com/dictionary/oriented");
+
+            URL_Add("awkward", "https://en.wiktionary.org/wiki/awkward#Adjective");
+
+            URL_Add("awkwardly", "https://en.wiktionary.org/wiki/awkwardly#Adverb");
+
+            URL_Add("useless use of 'cat'", "https://en.wikipedia.org/wiki/Cat_(Unix)#Useless_use_of_cat");
+
+            URL_Add("Useless use of 'cat' award", "https://www.smallo.ruhr.de/award.html"); // Old: <http://www.smallo.ruhr.de/award.html>
+
+            URL_Add("Emmy Award", "https://en.wikipedia.org/wiki/Emmy_Award");
+
+            URL_Add("height", "https://en.wiktionary.org/wiki/height#Noun");
+
+            URL_Add("width and height", "https://en.wikipedia.org/wiki/Display_resolution_standards");
+
+            URL_Add("Pluralsight", "https://en.wikipedia.org/wiki/Pluralsight");
+
+            URL_Add("Source Insight", "https://en.wikipedia.org/wiki/Source_Insight");
+
+            URL_Add("hindsight", "https://en.wiktionary.org/wiki/hindsight#Noun");
+
+            URL_Add("knight", "https://en.wikipedia.org/wiki/Knight_(chess)");
+
+            URL_Add("insight", "https://en.wiktionary.org/wiki/insight#Noun");
+
+            URL_Add("Craig Wright", "https://en.wikipedia.org/wiki/Satoshi_Nakamoto#Craig_Wright");
+
+            URL_Add("eyesight", "https://en.wiktionary.org/wiki/eyesight#Noun");
+
+            URL_Add("copyright", "https://en.wiktionary.org/wiki/copyright#Noun");
+
+            URL_Add("at night", "https://en.wiktionary.org/wiki/at_night#Adverb");
+
+            URL_Add("midnight", "https://en.wiktionary.org/wiki/midnight#Noun");
+
+            URL_Add("straighter", "https://en.wiktionary.org/wiki/straighter#Adjective");
+
+            URL_Add("straightened", "https://en.wiktionary.org/wiki/straighten#Verb");
+
+            URL_Add("in plain sight", "https://en.wiktionary.org/wiki/in_plain_sight#Prepositional_phrase");
+
+            URL_Add("damn right", "https://en.wiktionary.org/wiki/damn_right#Adverb");
+
+            URL_Add("straight", "https://en.wiktionary.org/wiki/straight#Adverb");
+
+            URL_Add("straighten", "https://en.wiktionary.org/wiki/straighten#Verb");
+
+            URL_Add("straight-up", "https://en.wiktionary.org/wiki/straight-up#Adjective");
+
+            URL_Add("AWK", "https://en.wikipedia.org/wiki/AWK");
+
+            URL_Add("Gawk", "https://en.wikipedia.org/wiki/AWK#Versions_and_implementations");
+
+            URL_Add("nawk", "https://en.wikipedia.org/wiki/AWK#History");
+
+            URL_Add("easygoing", "https://en.wiktionary.org/wiki/easygoing#Adjective");
+
+            URL_Add("goes", "https://en.wiktionary.org/wiki/go#Verb");
+
+            URL_Add("going", "https://en.wiktionary.org/wiki/go#Verb");
+
+            URL_Add("gone", "https://en.wiktionary.org/wiki/go#Verb");
+
+            URL_Add("ongoing", "https://en.wiktionary.org/wiki/ongoing#Adjective");
+
+            URL_Add("going on", "https://en.wiktionary.org/wiki/go_on#Verb");
+
+            URL_Add("is going to", "https://en.wiktionary.org/wiki/going_to#Phrase"); // Old: https://en.wiktionary.org/wiki/going_to#English
+
+            URL_Add("I’m going to", "https://en.wiktionary.org/wiki/going_to#Phrase");
+
+            URL_Add("I am not going to lie", "https://en.wiktionary.org/wiki/NGL#Phrase");
+
+            URL_Add("orient", "https://en.wiktionary.org/wiki/orient#Verb");
+
+            URL_Add("oriented", "https://en.wiktionary.org/wiki/oriented#Adjective");
+
+            URL_Add("reorient", "https://en.wiktionary.org/wiki/reorient#Verb");
+
+            URL_Add("orientation", "https://en.wiktionary.org/wiki/orientation#Noun");
+
+            URL_Add("OrientDB", "https://en.wikipedia.org/wiki/OrientDB");
+
+            URL_Add("OrientDB Studio", "https://orientdb.com/docs/last/studio/#introduction-to-orientdb-studio");
+
+            URL_Add("PyOrient", "https://orientdb.com/docs/latest/pyorient/PyOrient.html");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -158331,9 +158337,11 @@ namespace OverflowHelper.core
             correctionAdd("weenie_", "teenie-tiny_");
             correctionAdd("small_", "teenie-tiny_");
             correctionAdd("bitsy_", "teenie-tiny_");
+            correctionAdd("Bitsy_", "teenie-tiny_");
             correctionAdd("teeny_", "teenie-tiny_");
             correctionAdd("weeny_", "teenie-tiny_");
             correctionAdd("itsy_", "teenie-tiny_");
+            correctionAdd("Itsy_", "teenie-tiny_");
 
             correctionAdd("cicles_", "circles_");
             correctionAdd("cycles_", "circles_");
@@ -168699,8 +168707,6 @@ namespace OverflowHelper.core
 
             URL_Add("went_", "https://en.wiktionary.org/wiki/went#Verb");
 
-            URL_Add("back end_", "https://en.wiktionary.org/wiki/back_end#Noun");
-
             URL_Add("cmd.exe_", "https://en.wikipedia.org/wiki/Cmd.exe"); // Old: https://en.wikipedia.org/wiki/Command_Prompt
 
             URL_Add("by_", "https://en.wiktionary.org/wiki/by#Preposition");
@@ -168782,8 +168788,6 @@ namespace OverflowHelper.core
             URL_Add("business analyst_", "https://en.wikipedia.org/wiki/Business_analyst");
 
             URL_Add("still_", "https://en.wiktionary.org/wiki/still#Adverb");
-
-            URL_Add("backup_", "https://en.wiktionary.org/wiki/backup#Noun");
 
             URL_Add("browsers_", "https://en.wiktionary.org/wiki/browser#Noun");
 
@@ -170261,8 +170265,6 @@ namespace OverflowHelper.core
 
             URL_Add("type 4 driver_", "https://en.wikipedia.org/wiki/JDBC_driver#Type_4_driver_%E2%80%93_Database-Protocol_driver/Thin_Driver(Pure_Java_driver)");
 
-            URL_Add("back-end for front-end_", "https://codemag.com/Article/2203081/A-Deep-Dive-into-the-Back-End-for-Front-End-Pattern");
-
             URL_Add("serial receive I/O pin_", "https://en.wikipedia.org/wiki/RS-232#Pinouts");
 
             URL_Add("I/O_", "https://en.wikipedia.org/wiki/Input/output");
@@ -171059,8 +171061,6 @@ namespace OverflowHelper.core
 
             URL_Add("Reselect_", "https://github.com/reduxjs/reselect");
 
-            URL_Add("Backlight_", "https://docs.qmk.fm/features/backlight");
-
             URL_Add("17 ms between each key action is recommended_", "https://pmortensen.eu/world2/2022/06/27/blues-typing-out-fixed-texts-on-both-qmk-and-arduino-leonardo-based-macro-keyboards/");
 
             URL_Add("IR_", "https://en.wikipedia.org/wiki/Intermediate_representation");
@@ -171126,8 +171126,6 @@ namespace OverflowHelper.core
             URL_Add("relative_", "https://en.wiktionary.org/wiki/relative#Adjective");
 
             URL_Add("bleak_", "https://en.wiktionary.org/wiki/bleak#Adjective");
-
-            URL_Add("BackTrack_", "https://en.wikipedia.org/wiki/BackTrack");
 
             URL_Add("SketchUp_", "https://en.wikipedia.org/wiki/SketchUp");
 
@@ -172731,6 +172729,16 @@ namespace OverflowHelper.core
 
             URL_Add("Cherry MX Speed Silver switches_", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
 
+            URL_Add("backup_", "https://en.wiktionary.org/wiki/backup#Noun");
+
+            URL_Add("back end_", "https://en.wiktionary.org/wiki/back_end#Noun");
+
+            URL_Add("back-end for front-end_", "https://codemag.com/Article/2203081/A-Deep-Dive-into-the-Back-End-for-Front-End-Pattern");
+
+            URL_Add("Backlight_", "https://docs.qmk.fm/features/backlight");
+
+            URL_Add("BackTrack_", "https://en.wikipedia.org/wiki/BackTrack");
+
         } //addLookupData_alternativeWordSet()
 
 
@@ -172934,6 +172942,7 @@ namespace OverflowHelper.core
             correctionAdd("kilobit/s__", "&nbsp;kbit/s__");
             correctionAdd("Kbit / s__", "&nbsp;kbit/s__");
             correctionAdd("kbit / s__", "&nbsp;kbit/s__");
+            correctionAdd("kbit/sec__", "&nbsp;kbit/s__");
             correctionAdd("kBits/s__", "&nbsp;kbit/s__");
             correctionAdd("kbits/s__", "&nbsp;kbit/s__");
             correctionAdd("KBits/s__", "&nbsp;kbit/s__");
@@ -174761,6 +174770,25 @@ namespace OverflowHelper.core
             correctionAdd("ode to joy__", "Ode an die Freude__");
             correctionAdd("Europe__", "Ode an die Freude__");
             correctionAdd("freude__", "Ode an die Freude__");
+
+            // Music. Brian Hyland
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=799268TMW-s>
+            //
+            //   <https://www.youtube.com/watch?v=VIwUhrbXUbo>
+            //
+            //   <https://www.youtube.com/watch?v=r_MQolm0F7c>
+            //
+            //   <https://www.youtube.com/watch?v=ge9Ou3-YyqU>
+            //     Even weirder...
+            //
+            correctionAdd("teenie-tiny__", "Itsy bitsy teenie weenie yellow polka dot bikini__"); // For the cross-reference
+            correctionAdd("Itsy bitsy__", "Itsy bitsy teenie weenie yellow polka dot bikini__");
+            correctionAdd("itsy bitsy__", "Itsy bitsy teenie weenie yellow polka dot bikini__");
+            correctionAdd("bitsy__", "Itsy bitsy teenie weenie yellow polka dot bikini__");
+            correctionAdd("itsy__", "Itsy bitsy teenie weenie yellow polka dot bikini__");
 
             // In 'The Hitchhiker's Guide to the Galaxy'
             // ' tea '
@@ -177985,8 +178013,6 @@ namespace OverflowHelper.core
 
             URL_Add("issue__", "https://en.wiktionary.org/wiki/issue#Noun");
 
-            URL_Add("backward elimination__", "https://en.wikipedia.org/wiki/Stepwise_regression#Main_approaches");
-
             URL_Add("half__", "https://en.wiktionary.org/wiki/half#Noun");
 
             URL_Add("problems__", "https://en.wiktionary.org/wiki/problem#Noun");
@@ -178294,6 +178320,8 @@ namespace OverflowHelper.core
             URL_Add("notes__", "https://en.wikipedia.org/wiki/Musical_note");
 
             URL_Add("Ode an die Freude__", "https://www.youtube.com/watch?v=kbJcQYVtZMo");
+
+            URL_Add("Itsy bitsy teenie weenie yellow polka dot bikini__", "https://www.youtube.com/watch?v=ICkWjdQuK7Q");
 
             URL_Add("128__", "https://en.wikipedia.org/wiki/128_(number)#In_computing");
 
@@ -179158,6 +179186,8 @@ namespace OverflowHelper.core
             URL_Add("Spins__", "https://en.wikipedia.org/wiki/Fedora_Linux#Spins_and_Remixes");
 
             URL_Add("wheel__", "https://en.wiktionary.org/wiki/wheel#Noun");
+
+            URL_Add("backward elimination__", "https://en.wikipedia.org/wiki/Stepwise_regression#Main_approaches");
 
         } //addLookupData_alternativeWordSet2()
 
@@ -182479,8 +182509,8 @@ namespace OverflowHelper.core
             correctionAdd("Programmers.SE____", "Software&nbsp;Engineering (Stack Exchange site)____");
             correctionAdd("Programmers____", "Software&nbsp;Engineering (Stack Exchange site)____");
             correctionAdd("programmers____", "Software&nbsp;Engineering (Stack Exchange site)____");
-            correctionAdd("SE____", "Software&nbsp;Engineering (Stack Exchange site)____");
             correctionAdd("P.SE____", "Software&nbsp;Engineering (Stack Exchange site)____"); // "P" from the name before the renaming from "Programmers"
+            correctionAdd("SE____", "Software&nbsp;Engineering (Stack Exchange site)____");
 
             correctionAdd("U+00BB____", "RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK____");
             correctionAdd("00BB____", "RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK____");
@@ -184744,10 +184774,6 @@ namespace OverflowHelper.core
 
             URL_Add("Counter-Strike____", "https://en.wikipedia.org/wiki/Counter-Strike");
 
-            URL_Add("space bar____", "https://en.wikipedia.org/wiki/Space_bar");
-
-            URL_Add("backlash____", "https://en.wiktionary.org/wiki/backlash#Noun");
-
             URL_Add("special forces____", "https://en.wikipedia.org/wiki/Special_forces");
 
             URL_Add("IPA____", "https://en.wikipedia.org/wiki/.ipa");
@@ -184805,8 +184831,6 @@ namespace OverflowHelper.core
             URL_Add("Git (tag wiki)____", "https://stackoverflow.com/questions/tagged/git");
 
             URL_Add("macronutrient____", "https://en.wikipedia.org/wiki/List_of_macronutrients");
-
-            URL_Add("Stack Overflow____", "https://stackoverflow.com/");
 
             URL_Add("two by two, hands of blue____", "https://www.planetclaire.tv/quotes/firefly/river-tam/");
 
@@ -184910,6 +184934,8 @@ namespace OverflowHelper.core
 
             URL_Add("windowed____", "https://en.wikipedia.org/wiki/Suspicious_Russia-related_deaths_since_2022");
 
+            URL_Add("Stack Overflow____", "https://stackoverflow.com/");
+
             URL_Add("Software&nbsp;Engineering (Stack Exchange site)____", "https://softwareengineering.stackexchange.com/tour");
 
             URL_Add("sort()____", "https://docs.python.org/3.8/library/stdtypes.html#list.sort");
@@ -184919,6 +184945,10 @@ namespace OverflowHelper.core
             URL_Add("121GW____", "https://www.eevblog.com/product/121gw/");
 
             URL_Add("&nbsp;u____", "https://www.youtube.com/watch?v=xLT2VcrQHrQ&t=5m5s");
+
+            URL_Add("space bar____", "https://en.wikipedia.org/wiki/Space_bar");
+
+            URL_Add("backlash____", "https://en.wiktionary.org/wiki/backlash#Noun");
 
         } //addLookupData_alternativeWordSet4()
 
@@ -185047,6 +185077,8 @@ namespace OverflowHelper.core
             correctionAdd("Space_____", "Space&nbsp;Exploration (Stack Exchange site)_____");
             correctionAdd("SXSE_____", "Space&nbsp;Exploration (Stack Exchange site)_____");
             correctionAdd("SX_____", "Space&nbsp;Exploration (Stack Exchange site)_____");
+
+            correctionAdd("course_____", "coarse_____");
 
             // Alternative URLs:
             //
@@ -186270,6 +186302,8 @@ namespace OverflowHelper.core
             URL_Add("flux capacitor_____", "https://en.wikipedia.org/wiki/DeLorean_time_machine#Flux_capacitor"); // Old: https://en.wikipedia.org/wiki/DeLorean_time_machine
 
             URL_Add("non-US backslash key_____", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md#basic-keycodes-basic-keycodes");
+
+            URL_Add("coarse_____", "https://en.wiktionary.org/wiki/coarse#Adjective");
 
             URL_Add("&nbsp;K_____", "https://en.wikipedia.org/wiki/Kelvin");
 
