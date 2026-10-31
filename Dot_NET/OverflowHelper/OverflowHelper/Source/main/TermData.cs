@@ -5936,7 +5936,7 @@ namespace OverflowHelper.core
             correctionAdd("Texmate", "TextMate");
             correctionAdd("TM", "TextMate");
 
-            // A text editor
+            // The text editor, not the split ergonomic mechanical keyboard
             correctionAdd("helix", "Helix");
 
             // A text editor. Linux
@@ -188113,4 +188113,5 @@ namespace OverflowHelper.core
 
 
 } //namespace OverflowHelper.core
+
 

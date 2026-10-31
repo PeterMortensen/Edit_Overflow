@@ -292,11 +292,76 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         self._core_checkFieldValue("editSummary_output", anExpectedEditSummary, anExplanation)
 
 
+    # Helper function for testing. Related to use of _lookUp()
+    #
+    # Parameter:
+    #
+    #   anExpectedLink: That is, encoded as the link in inline
+    #                   Markdown format, with both a link text
+    #                   and a URL
+    #
+    def _checkInlineMarkdownLink(self, anExpectedLink, anExplanation):
+
+        self._core_checkFieldValue("URL2", anExpectedLink, anExplanation)
+
+
+    # Helper function for testing. Related to use of _lookUp()
+    #
+    # Parameter:
+    #
+    #   anExpectedLink: That is, encoded as text that encodes
+    #                   the link as not directly a link (but
+    #                   ***without*** the link text)
+    #
+    def _checkYouTubeCompatibleLink(self, anExpectedLink, anExplanation):
+
+        self._core_checkFieldValue("URL3", anExpectedLink, anExplanation)
+
+
+    # Helper function for testing. Related to use of _lookUp()
+    #
+    # Parameter:
+    #
+    #   anExpectedLink: That is, encoded as an HTML link,
+    #                   with both link text and URL
+    #
+    def _checkHTML_Link(self, anExpectedLink, anExplanation):
+
+        self._core_checkFieldValue("URL4", anExpectedLink, anExplanation)
+
+
     # Helper function for testing. Mostly for _lookUp()
     #
     def _checkInternalMediaWikiLink(self, anExpectedLink, anExplanation):
 
         self._core_checkFieldValue("URL6", anExpectedLink, anExplanation)
+
+
+    # Helper function for testing. Related to use of _lookUp()
+    #
+    # Parameter:
+    #
+    #   anExpectedLink: That is, encoded as an external MediaWiki
+    #                   link (used on Wikipedia), with a bare URL,
+    #                   with both link text and URL
+    #
+    def _checkExternalMediaWikiLink(self, anExpectedLink, anExplanation):
+
+        self._core_checkFieldValue("URL7", anExpectedLink, anExplanation)
+
+
+    # Helper function for testing. Related to use of _lookUp()
+    #
+    # Parameter:
+    #
+    #   anExpectedCommentMarkdown:
+    #
+    #     That is, encoded as a comment in Markdown, with
+    #     a bare URL, with both link text and URL
+    #
+    def _checkCorrectionCommentLink(self, anExpectedLink, anExplanation):
+
+        self._core_checkFieldValue("URL5", anExpectedLink, anExplanation)
 
 
     # Helper function for testing
@@ -435,8 +500,9 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         alternativeURL = ""
 
         # 1002 and 1003 are IDs for the first two possible HTML
-        # <a> elements for cross links to the alternative word
-        # set. 0, 1, 2, or more cross links may be present on
+        # <a> elements for cross links to others word sets.
+        #
+        # 0, 1, 2, or more cross links may be present on
         # a particular Edit Overflow lookup result page.
         #
         isAlternativeIsPresent1 = self._core_elementExists("1002")
@@ -499,6 +565,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         #       specified URL non-empty/empty, we only accept two:
         #
         #         1. Non-empty URL and present field.
+        #
         #         2. Empty URL and absent field.
         #
         #       The other two combinations indicate
@@ -1028,9 +1095,10 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                          #wordList_URLprefix + "JavaScript")
                          wordList_URLprefix + "JavaScript")
 
-        if True: # Do a ***failing lookup*** after a reset - we had a
-                 # regression with an edit summary of "Active reading []."
-                 # (should be empty (an empty string))
+        if True: # Do a ***failing lookup*** after a reset. We
+                 # had a regression with an edit summary of
+                 # "Active reading []." (should be empty
+                 # (an empty string))
 
             # Regression 2020-12-01 (now fixed): "Active reading []."
             #
@@ -1054,9 +1122,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                          "") # Though in the browser it shows
                              # as the current page's URL...
 
-        if True: #
-                 #
-                 # Note: The expected edit summary depends on the
+        if True: # Note: The expected edit summary depends on the
                  #       previous test steps...
 
             # False lookup result 2022-04-09 (now fixed):
@@ -1067,7 +1133,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                          "Active reading [<https://en.wikipedia.org/wiki/Unix-like>].",
                          defaultMsgForEditSummary,
                          "''[[Unix-like|Unix-like]]''",
-                         "", 
+                         "",
                          "",
                          wordList_URLprefix + "Unix-like")
 
@@ -1100,7 +1166,9 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             self._lookUp("Pass by Reference",  # aLookUpTerm,
                          "Active reading [<https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_reference>].", # anExpectedEditSummary
                          defaultMsgForEditSummary, # anExplanation
-                         "''[[Evaluation_strategy#Call_by_reference|pass by reference]]''",     # anExpectedLink
+
+                         #"''[[Evaluation_strategy#Call_by_reference|pass by reference]]''",     # anExpectedLink
+                         "''[[Evaluation_strategy#Call_by_reference|pass&nbsp;by&nbsp;reference]]''",     # anExpectedLink
 
                          "call by reference",              # anAlternativeLinkText
                          # anAlternativeURL
@@ -1109,6 +1177,32 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                          # aWordListReferenceURL
                            # Requires a weird mapping in the word list...
                          wordList_URLprefix + "pass_by_reference")
+
+        # Check more fields
+        #
+        #Meta: What about using double quotes vs. single quotes?
+        #
+        self._checkInlineMarkdownLink(
+            #'BAD_[pass&nbsp;by&nbsp;reference](https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_reference)',
+            '[pass&nbsp;by&nbsp;reference](https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_reference)',
+            'Inline Markdown link')
+        self._checkYouTubeCompatibleLink(
+            #'YYYYYY                 *en DOT wikipedia DOT org/wiki/Evaluation_strategy#Call_by_reference*',
+            '                 *en DOT wikipedia DOT org/wiki/Evaluation_strategy#Call_by_reference*',
+            'YouTube compatible link')
+        self._checkHTML_Link(
+            #'YYYYYY_<a href="https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_reference">pass&nbsp;by&nbsp;reference</a>',
+            '<a href="https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_reference">pass&nbsp;by&nbsp;reference</a>',
+            'HTML link')
+        # _checkInternalMediaWikiLink() is part of _lookUp():
+        self._checkExternalMediaWikiLink(
+            #"BAD_''[https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_reference pass&nbsp;by&nbsp;reference]''",
+            "''[https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_reference pass&nbsp;by&nbsp;reference]''",
+            'External MediaWiki link')
+        self._checkCorrectionCommentLink(
+            #'BAD_It is *"[pass&nbsp;by&nbsp;reference](https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_reference)"* in this context (not *"Pass by Reference"*). You can edit (change) your question/comment/answer/post (*"..."* (to the right of *"Share"*) &rarr; *"Edit comment"*). Please, for such a minor change, *"Edit"*, *"Update"*, or similar is ***[not](https://meta.stackexchange.com/a/131011)*** required (near *"Changelogs"*).',
+            'It is *"[pass&nbsp;by&nbsp;reference](https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_reference)"* in this context (not *"Pass by Reference"*). You can edit (change) your question/comment/answer/post (*"..."* (to the right of *"Share"*) &rarr; *"Edit comment"*). Please, for such a minor change, *"Edit"*, *"Update"*, or similar is ***[not](https://meta.stackexchange.com/a/131011)*** required (near *"Changelogs"*).',
+            'Correction comment')
 
         #This test could be a separate test... It doesn't need to be here.
         if True: # Test an expected cross reference (in
@@ -1124,7 +1218,10 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             self._lookUp("Microsoft Azure",
                          "Active reading [<https://en.wikipedia.org/wiki/Microsoft_Azure>].",
                          defaultMsgForEditSummary,
-                         "''[[Microsoft_Azure|Microsoft Azure]]''",
+
+                         #"''[[Microsoft_Azure|Microsoft Azure]]''",
+                         "''[[Microsoft_Azure|Microsoft&nbsp;Azure]]''",
+
                          "Azure (tag wiki)",
                          altURLprefix + "Microsoft+Azure_", # "+" is for space in the
                                                             # URL query parameter

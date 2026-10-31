@@ -181,7 +181,6 @@
                 #$lookUpTerm = preg_replace('/$/', '&gt;', $lookUpTerm);
             }
 
-
             # Avoid warning messages for an empty input (at the
             # expense of some confusion)
             if ($lookUpTerm == '')
@@ -625,11 +624,13 @@
             #$alternative .= "<br><br>TRACE: " . $alternative2; # For now. For debugging.
             $alternative = $alternative2;
 
-            # Encode for display, e.g. "&" as "&amp;" and "<" as "&lt;".
+            # Encode for display, e.g., "&" as "&amp;" and "<" as "&lt;".
             #
             # Note: Not for $alternative as it is actual raw HTML.
             #
-            $correctTerm = htmlentities($correctTerm, ENT_QUOTES);
+            #PM 2026-10-29
+            #$correctTerm = htmlentities($correctTerm, ENT_QUOTES);
+
             $URL = htmlentities($URL);
 
             # True if the (incorrect) term was found in our
@@ -656,6 +657,16 @@
 
                 # Alias, to make reverting a one-line change
                 $correctTermOutput = $correctTerm;
+
+                #$correctTermOutput = substr_replace($correctTerm, ' ', '&nbsp;');
+                #$correctTermOutput = preg_replace($correctTerm, '&nbsp;', 0);
+
+                $correctTermOutput = preg_replace('/ /', '&nbsp;', $correctTerm);
+
+                # Or maybe using str_replace()?:
+                #
+                #    $encodedContent = str_replace('"', '%22', $aRawContent);
+
 
                 $linkInlineMarkdown = "[$correctTermOutput]($URL)";
 
@@ -787,23 +798,28 @@
                   "#$WordListPageAnchor";
             } # Term lookup succeeded
 
-
+            # Format the part of the edit summary
+            # containing references
+            #
             $items = preg_split('/____/', $URLlist_encoded);
 
             $items = array_filter($items); # Get rid of empty elements
 
             # Wrap each item in "<>" (URL encoded)
-            $items = substr_replace($items, '&lt;', 0, 0);  # That is, insert "&lt;" at
-                                                            # the beginning of the
-                                                            # element of the array
-            $items = preg_replace('/$/', '&gt;', $items);
-            $elements = count($items);
+            #
+            # That is, insert "&lt;" at the beginning
+            # of the element of the array
+            #$items = substr_replace($items, '&lt;', 0, 0);
+            $items = substr_replace($items, '<', 0, 0);
 
+            #$items = preg_replace('/$/', '&gt;', $items);
+            $items = preg_replace('/$/', '>', $items);
+
+            $elements = count($items);
 
             # It is simple for the current Stack Overflow edit
             # summary style - just separate each item by a space
             $URLlist = implode(' ', $items);
-
 
             # For normal edit summary, outside Stack Overflow -
             # with the Oxford comma!
@@ -833,8 +849,8 @@
 
                 $editSummary_output2 = "Copy edited (e.g. ref. $URLlist2).";
 
-                ## Current compensation for not being sophisticated when generating
-                ## a list...
+                ## Current compensation for not being
+                ## sophisticated when generating a list...
                 #$editSummary_output = str_replace(' ]', ']', $editSummary_output);
             }
 
@@ -1295,26 +1311,28 @@
                     id="URL4"
                     class="XYZ92"
 
+                    <?php the_formValue($link_HTML); ?>
                     <?php
-                        #Note: We should eliminate the redundancy (introduced
-                        #      due to problems with escaping double quotes) -
-                        #      see get_HTMLattributeEscaped() for details.
-
-
-                        # the_formValue($link_HTML);
+                        # #Note: We should eliminate the redundancy (introduced
+                        # #      due to problems with escaping double quotes) -
+                        # #      see get_HTMLattributeEscaped() for details.
                         #
-                        ## Direct, using single quotes, so we don't
-                        ## have to escape neither in PHP nor in HTML
-                        ## (but it fails for correct terms containing
-                        ## single quotes, e.g. "don't"):
-                        ##
-                        #echo "value='$link_HTML'\n";
-
-                        # Using "&quot;", but see notes near "$link_HTML" above.
                         #
-                        $link_HTML_encoded = str_replace('"', '&quot;', $link_HTML);
-                        echo "value=\"$link_HTML_encoded\"\n";
+                        # # the_formValue($link_HTML);
+                        # #
+                        # ## Direct, using single quotes, so we don't
+                        # ## have to escape neither in PHP nor in HTML
+                        # ## (but it fails for correct terms containing
+                        # ## single quotes, e.g. "don't"):
+                        # ##
+                        # #echo "value='$link_HTML'\n";
+                        #
+                        # # Using "&quot;", but see notes near "$link_HTML" above.
+                        # #
+                        # $link_HTML_encoded = str_replace('"', '&quot;', $link_HTML);
+                        # echo "value=\"$link_HTML_encoded\"\n";
                     ?>
+
                     style="width:400px;"
                     accesskey="H"
                     title="Shortcut: Shift + Alt + H"
@@ -1329,26 +1347,28 @@
                     id="URL6"
                     class="XYZ94"
 
+                    <?php the_formValue($link_WikiMedia); ?>
                     <?php
-                        #Note: We should eliminate the redundancy (introduced
-                        #      due to problems with escaping double quotes) -
-                        #      see get_HTMLattributeEscaped() for details.
-
-
-                        # the_formValue($link_HTML);
-                        #
-                        ## Direct, using single quotes, so we don't
-                        ## have to escape neither in PHP nor in HTML
-                        ## (but it fails for correct terms containing
-                        ## single quotes, e.g. "don't"):
-                        ##
-                        #echo "value='$link_HTML'\n";
-
-                        # Using "&quot;", but see notes near "$link_HTML" above.
-                        #
-                        $link_WikiMedia_encoded = str_replace('"', '&quot;', $link_WikiMedia);
-                        echo "value=\"$link_WikiMedia_encoded\"\n";
+                    #    #Note: We should eliminate the redundancy (introduced
+                    #    #      due to problems with escaping double quotes) -
+                    #    #      see get_HTMLattributeEscaped() for details.
+                    #
+                    #
+                    #    # the_formValue($link_HTML);
+                    #    #
+                    #    ## Direct, using single quotes, so we don't
+                    #    ## have to escape neither in PHP nor in HTML
+                    #    ## (but it fails for correct terms containing
+                    #    ## single quotes, e.g. "don't"):
+                    #    ##
+                    #    #echo "value='$link_HTML'\n";
+                    #
+                    #    # Using "&quot;", but see notes near "$link_HTML" above.
+                    #    #
+                    #    $link_WikiMedia_encoded = str_replace('"', '&quot;', $link_WikiMedia);
+                    #    echo "value=\"$link_WikiMedia_encoded\"\n";
                     ?>
+
                     style="width:400px;"
                     accesskey="K"
                     title="Shortcut: Shift + Alt + K"
@@ -1363,26 +1383,28 @@
                     id="URL7"
                     class="XYZ95"
 
+                    <?php the_formValue($link_WikiMedia_External); ?>
                     <?php
-                        #Note: We should eliminate the redundancy (introduced
-                        #      due to problems with escaping double quotes) -
-                        #      see get_HTMLattributeEscaped() for details.
-
-
-                        # the_formValue($link_HTML);
-                        #
-                        ## Direct, using single quotes, so we don't
-                        ## have to escape neither in PHP nor in HTML
-                        ## (but it fails for correct terms containing
-                        ## single quotes, e.g. "don't"):
-                        ##
-                        #echo "value='$link_HTML'\n";
-
-                        # Using "&quot;", but see notes near "$link_HTML" above.
-                        #
-                        $link_WikiMedia_External_encoded = str_replace('"', '&quot;', $link_WikiMedia_External);
-                        echo "value=\"$link_WikiMedia_External_encoded\"\n";
+                    #    #Note: We should eliminate the redundancy (introduced
+                    #    #      due to problems with escaping double quotes) -
+                    #    #      see get_HTMLattributeEscaped() for details.
+                    #
+                    #
+                    #    # the_formValue($link_HTML);
+                    #    #
+                    #    ## Direct, using single quotes, so we don't
+                    #    ## have to escape neither in PHP nor in HTML
+                    #    ## (but it fails for correct terms containing
+                    #    ## single quotes, e.g. "don't"):
+                    #    ##
+                    #    #echo "value='$link_HTML'\n";
+                    #
+                    #    # Using "&quot;", but see notes near "$link_HTML" above.
+                    #    #
+                    #    $link_WikiMedia_External_encoded = str_replace('"', '&quot;', $link_WikiMedia_External);
+                    #    echo "value=\"$link_WikiMedia_External_encoded\"\n";
                     ?>
+
                     style="width:400px;"
                     accesskey="X"
                     title="Shortcut: Shift + Alt + X"
@@ -1397,11 +1419,12 @@
                     id="URL5"
                     class="XYZ93"
 
+                    <?php the_formValue($correctionComment); ?>
                     <?php
-                        # Using "&quot;", but see notes near "$link_HTML" above.
-                        #
-                        $correctionComment_encoded = str_replace('"', '&quot;', $correctionComment);
-                        echo "value=\"$correctionComment_encoded\"\n";
+                    #    # Using "&quot;", but see notes near "$link_HTML" above.
+                    #    #
+                    #    $correctionComment_encoded = str_replace('"', '&quot;', $correctionComment);
+                    #    echo "value=\"$correctionComment_encoded\"\n";
                     ?>
 
                     style="width:400px;"

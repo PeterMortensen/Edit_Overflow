@@ -9,7 +9,7 @@
     #      some constants, and setting up some globals used for
     #      error detection/logging)).
     #
-    #   2. Clients must explicitly call the functions here, e.g.
+    #   2. Clients must explicitly call the functions here, e.g.,
     #      the_EditOverflowHeadline();
     #
     # Purposes (though we should probably split the WordPress-specific
@@ -69,7 +69,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.52a298 2026-10-29T230255Z+0";
+        return "Edit Overflow v. 1.1.52a299 2026-10-31T013506Z+0";
     }
 
 
@@ -83,9 +83,6 @@
     }
 
 
-    # Note that we are using the WordPress convention of name
-    # prefixing functions that echo's (with "the_").
-    #
     # $aPageName: For constructing a URL that works. For now it is
     #             the raw file of the current PHP file, e.g.
     #             "EditSummaryFragments.php" to construct
@@ -97,6 +94,10 @@
     #    Example
     #
     #       "LookUpTerm=cpu"
+    #
+    # Note that we are using the WordPress convention of name
+    # prefixing functions that echo's (with "the_"), that is,
+    # have side effects.
     #
     function the_EditOverflowHeadline(
         $aHeadline,
@@ -375,6 +376,8 @@
     #We should probably use PHP's htmlspecialchars() (or similar) instead.
     #WordPress also has some functions, like esc_attr()
     #
+    #Or maybe htmlentities()?
+    #
     function get_HTMLattributeEscaped($aRawContent)
     {
         # Later: Probably also single quote.
@@ -388,12 +391,34 @@
         # Is there a difference between HTML links ("href") and form field
         # values ("value")?? Does one need percent encoding and the other
         # " character entity reference encoding ("&quot;")?
+
+
+        ## This must be first, in order not to double encode...
+        ##$encodedContent = str_replace('&', '%26',   $encodedContent);
+        #$encodedContent  = str_replace('&', '&amp;', $aRawContent);
         #
-        #$encodedContent = str_replace('"', '&quot;', $aRawContent);
-        $encodedContent = str_replace('"', '%22', $aRawContent);
+        ##$encodedContent = str_replace('"', '%22',    $aRawContent);
+        #
+        ## Outcommented: Test!!!!!!!!!
+        #$encodedContent  = str_replace('"', '&quot;', $encodedContent);
+        #
+        #$encodedContent  = str_replace('<', '&lt;', $encodedContent);
+        #$encodedContent  = str_replace('>', '&gt;', $encodedContent);
+
+
+        # 2026-10-30: Trial
+        $encodedContent = htmlentities($aRawContent, ENT_QUOTES);
+
+
+        # Temp!!!!!!!!
+        #$encodedContent  = str_replace('&', '&amp;', $aRawContent);
+        #$encodedContent  = str_replace(' ', 'XYZABC', $aRawContent); # Breaks lookup results with space
+        #$encodedContent  = str_replace('&lt;', 'LESSTHAN', $aRawContent);
+        #$encodedContent  = str_replace('http', 'BAD_URL', $aRawContent); # Breaks URLs
+
 
         #To be more complete it should also be done for
-        #single quotes,e.g. by "&apos;".
+        #single quotes, e.g., by "&apos;".
 
         #echo "<p>After: xxx" . $aRawContent . "xxx</p>\n";
 
@@ -487,6 +512,10 @@
 
     # Single place for output of dynamic "value" attributes
     # in HTML ***form*** elements.
+    #
+    # Note that we are using the WordPress convention of name
+    # prefixing functions that echo's (with "the_"), that is,
+    # have side effects.
     #
     function the_formValue($aRawContent)
     {
@@ -817,13 +846,14 @@
     } #extractGrammaticalWordClass()
 
 
-    # Note that we are using the WordPress convention of name
-    # prefixing functions (with "the_") that echo's.
-    #
     # $aPageName: For constructing a URL that works. For now it is
     #             the raw file of the current PHP file, e.g.
     #             "EditSummaryFragments.php" to construct
     #             <https://pmortensen.eu/world/EditSummaryFragments.php?OverflowStyle=Native>
+    #
+    # Note that we are using the WordPress convention of name
+    # prefixing functions that echo's (with "the_"), that is,
+    # have side effects.
     #
     function the_startOfDocument(
         $aTitle,
