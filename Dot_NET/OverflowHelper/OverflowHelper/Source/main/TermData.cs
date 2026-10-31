@@ -1253,6 +1253,44 @@ namespace OverflowHelper.core
 
             correctionAdd("worthy case", "worthy cause");
 
+            // The common noun, not the keyboard key
+            correctionAdd("space bar", "space"); // Mostly for cross-references
+            correctionAdd("scpace", "space");
+            correctionAdd("spcaes", "space");
+            correctionAdd("spase", "space");
+            correctionAdd("Space", "space");
+            correctionAdd("spcae", "space");
+            correctionAdd("sapce", "space"); // A true typo
+            correctionAdd("Sapce", "space");
+            correctionAdd("psace", "space"); // A true typo
+            correctionAdd("0x20", "space");
+
+            correctionAdd("freespace", "free space");
+
+            correctionAdd("non space", "nonspace");
+
+            correctionAdd("white-space", "white space");
+            correctionAdd("whitespace", "white space");
+            correctionAdd("whitspace", "white space");
+
+            correctionAdd("whitespaces", "white spaces");
+
+            correctionAdd("HAIR SPACE", "hair space");
+
+            correctionAdd("fleshed-out", "fleshed out");
+
+            correctionAdd("meat space", "meatspace");
+
+            correctionAdd("meat of the matter", "the meat of the matter");
+            correctionAdd("Meat of the matter", "the meat of the matter");
+
+            correctionAdd("Spacewire", "SpaceWire");
+
+            correctionAdd("spacefm", "SpaceFM");
+
+            correctionAdd("myspace", "Myspace");
+            correctionAdd("MySpace", "Myspace");
+
             correctionAdd("reliefed", "relieved");
             correctionAdd("releaved", "relieved");
 
@@ -19719,44 +19757,6 @@ namespace OverflowHelper.core
 
             correctionAdd("offest", "offset");
 
-            // The common noun, not the keyboard key
-            correctionAdd("space bar", "space"); // Mostly for cross-references
-            correctionAdd("scpace", "space");
-            correctionAdd("spcaes", "space");
-            correctionAdd("spase", "space");
-            correctionAdd("Space", "space");
-            correctionAdd("spcae", "space");
-            correctionAdd("sapce", "space"); // A true typo
-            correctionAdd("Sapce", "space");
-            correctionAdd("psace", "space"); // A true typo
-            correctionAdd("0x20", "space");
-
-            correctionAdd("freespace", "free space");
-
-            correctionAdd("non space", "nonspace");
-
-            correctionAdd("white-space", "white space");
-            correctionAdd("whitespace", "white space");
-            correctionAdd("whitspace", "white space");
-
-            correctionAdd("whitespaces", "white spaces");
-
-            correctionAdd("HAIR SPACE", "hair space");
-
-            correctionAdd("fleshed-out", "fleshed out");
-
-            correctionAdd("meat space", "meatspace");
-
-            correctionAdd("meat of the matter", "the meat of the matter");
-            correctionAdd("Meat of the matter", "the meat of the matter");
-
-            correctionAdd("Spacewire", "SpaceWire");
-
-            correctionAdd("spacefm", "SpaceFM");
-
-            correctionAdd("myspace", "Myspace");
-            correctionAdd("MySpace", "Myspace");
-
             correctionAdd("smitherreens", "smithereens");
 
             correctionAdd("shuttered", "shattered");
@@ -23860,8 +23860,10 @@ namespace OverflowHelper.core
             correctionAdd("entenglement", "entanglement");
 
             correctionAdd("Quantum field", "quantum field");
+            correctionAdd("Quantum Field", "quantum field");
 
             correctionAdd("Quantum Field Theory", "quantum field theory");
+            correctionAdd("Quantum Field theory", "quantum field theory");
             correctionAdd("QFT", "quantum field theory");
 
             correctionAdd("Quantum Electrodynamics", "quantum electrodynamics");
@@ -25643,8 +25645,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Aeronautics", "aeronautics");
 
-            correctionAdd("s/c", "spacecraft");
             correctionAdd("space craft", "spacecraft");
+            correctionAdd("s/c", "spacecraft");
 
             correctionAdd("Space program", "space program");
 
@@ -25660,8 +25662,13 @@ namespace OverflowHelper.core
             correctionAdd("Space Time", "spacetime");
             correctionAdd("Space-Time", "spacetime");
 
+            correctionAdd("Curved Space", "curved space");
+
+            correctionAdd("Riemann Curvature tensor", "Riemann curvature tensor");
+
             correctionAdd("space-time continoum", "spacetime continuum");
 
+            correctionAdd("Minkowski Space-Time", "Minkowski space");
             correctionAdd("Minkowski spacetime", "Minkowski space");
 
             correctionAdd("Minkowski Metric", "Minkowski metric");
@@ -37213,6 +37220,7 @@ namespace OverflowHelper.core
 
             correctionAdd("double-quotes", "double quotes");
             correctionAdd("Double Quotes", "double quotes");
+            correctionAdd("Double quotes", "double quotes");
 
             correctionAdd("double quoted", "double-quoted");
 
@@ -37251,8 +37259,10 @@ namespace OverflowHelper.core
 
             correctionAdd("qutation", "quotation");
 
+            correctionAdd("quotation signs", "quotation mark"); // Not 100% correct (plural)
             correctionAdd("quatation mark", "quotation mark");
             correctionAdd("Quotation mark", "quotation mark");
+            correctionAdd("quotation sign", "quotation mark");
             correctionAdd("quotationmark", "quotation mark");
 
             correctionAdd("Smart quotes", "smart quotes");
@@ -48503,14 +48513,16 @@ namespace OverflowHelper.core
 
             // Python
             correctionAdd("formatted string literals", "f-string");
-            correctionAdd("f-strings", "f-string");
+            correctionAdd("f-strings", "f-string"); // Not 100% correct (plural)
             correctionAdd("f' string", "f-string");
+            correctionAdd("F-strings", "f-string"); // Not 100% correct (plural)
             correctionAdd("f string", "f-string");
             correctionAdd("F-string", "f-string");
             correctionAdd("F string", "f-string");
             correctionAdd("F String", "f-string");
             correctionAdd("f-String", "f-string");
-            correctionAdd("fstrings", "f-string");
+            correctionAdd("fstrings", "f-string"); // Not 100% correct (plural)
+            correctionAdd("f String", "f-string");
 
             correctionAdd("dask", "Dask"); // A Python library
 
@@ -60006,6 +60018,7 @@ namespace OverflowHelper.core
             correctionAdd("effeciently", "efficiently");
             correctionAdd("efficently", "efficiently");
             correctionAdd("Efficently", "efficiently");
+            correctionAdd("efficienly", "efficiently");
 
             correctionAdd("effecient", "efficient");
             correctionAdd("efficiant", "efficient");
@@ -65403,6 +65416,7 @@ namespace OverflowHelper.core
             //
             //   <https://en.wikipedia.org/wiki/Active_pen>
             //
+            correctionAdd("Wacom bamboo pad", "Wacom Bamboo");
             correctionAdd("wacom bamboo", "Wacom Bamboo");
 
             // Gaming. Using the keyboard and mouse, in
@@ -76389,6 +76403,9 @@ namespace OverflowHelper.core
             correctionAdd("dealy", "delay");
             correctionAdd("dely", "delay");
 
+            correctionAdd("post poned", "postponed");
+            correctionAdd("Post poned", "postponed");
+
             correctionAdd("recommands", "recommends");
             correctionAdd("recomends", "recommends");
 
@@ -80285,6 +80302,7 @@ namespace OverflowHelper.core
 
             // Only observed misspelt after 17 years!!!
             correctionAdd("effectvie", "effective"); // A true typo
+            correctionAdd("efective", "effective");
 
             correctionAdd("effecectively", "effectively");
             correctionAdd("efffectively", "effectively");
@@ -90737,6 +90755,7 @@ namespace OverflowHelper.core
             correctionAdd("K1 Max", "Keychron&nbsp;K1&nbsp;Max");
             correctionAdd("k1 max", "Keychron&nbsp;K1&nbsp;Max");
             correctionAdd("K1 max", "Keychron&nbsp;K1&nbsp;Max");
+            correctionAdd("K1 MAX", "Keychron&nbsp;K1&nbsp;Max");
 
             // A 88-key (85%. True TKL) crippled low-profile wired
             // and wireless (both Bluetooth and '2.4 GHz')
@@ -92788,6 +92807,7 @@ namespace OverflowHelper.core
             correctionAdd("k4 HE", "Keychron&nbsp;K4&nbsp;HE");
             correctionAdd("k4he", "Keychron&nbsp;K4&nbsp;HE");
             correctionAdd("k4HE", "Keychron&nbsp;K4&nbsp;HE");
+            correctionAdd("K4HE", "Keychron&nbsp;K4&nbsp;HE");
 
             // A 102-key (95%. Not true TKL) full-size keyboard.
             //
@@ -100121,6 +100141,7 @@ namespace OverflowHelper.core
             correctionAdd("advide", "advise");
             correctionAdd("ADIVSE", "advise"); // A true typo
             correctionAdd("adivse", "advise"); // A true typo
+            correctionAdd("Advise", "advise");
 
             correctionAdd("adviced", "advised");
 
@@ -104045,6 +104066,7 @@ namespace OverflowHelper.core
 
             correctionAdd("world championship", "World Chess Championship"); // Chess
             correctionAdd("World Championship", "World Chess Championship");
+            correctionAdd("Word Championship", "World Chess Championship");
             correctionAdd("Championship", "World Chess Championship");
 
             correctionAdd("Candidates tournament", "Candidates Tournament 2020"); // Chess
@@ -124659,6 +124681,8 @@ namespace OverflowHelper.core
 
             URL_Add("delay", "https://en.wiktionary.org/wiki/delay#Noun");
 
+            URL_Add("postponed", "https://en.wiktionary.org/wiki/postponed#Adjective");
+
             URL_Add("chore", "https://en.wiktionary.org/wiki/chore#Noun");
 
             URL_Add("misplaced", "https://en.wiktionary.org/wiki/misplace#Verb");
@@ -126554,6 +126578,10 @@ namespace OverflowHelper.core
             URL_Add("space", "https://en.wiktionary.org/wiki/space#Noun");
 
             URL_Add("spacetime", "https://en.wikipedia.org/wiki/Spacetime");
+
+            URL_Add("curved space", "https://en.wikipedia.org/wiki/Curved_space");
+
+            URL_Add("Riemann curvature tensor", "https://en.wikipedia.org/wiki/Riemann_curvature_tensor");
 
             URL_Add("space program", "https://en.wiktionary.org/wiki/space_program#Noun");
 
@@ -158967,6 +158995,13 @@ namespace OverflowHelper.core
             correctionAdd("V'GER_", "ZSA Voyager_");
             correctionAdd("v'ger_", "ZSA Voyager_");
 
+            // A 64-key (60%. Not true TKL) crippled
+            // split mechanical keyboard.
+            //
+            // 2 x 32 = 64 keys
+            //
+            correctionAdd("helix_", "Helix_");
+
             // A 65-key (60%. Not true TKL) crippled split ergonomic
             // mechanical keyboard from Dygma Lab.
             //
@@ -160664,6 +160699,7 @@ namespace OverflowHelper.core
             correctionAdd("k10 QMK version 2_", "Keychron&nbsp;K10 (100%)_");
             correctionAdd("k10 qmk version 2_", "Keychron&nbsp;K10 (100%)_");
             correctionAdd("Keychron K10_", "Keychron&nbsp;K10 (100%)_");
+            correctionAdd("K10 keychron_", "Keychron&nbsp;K10 (100%)_");
             correctionAdd("K10 QMK V2_", "Keychron&nbsp;K10 (100%)_");
             correctionAdd("K10 QMK v2_", "Keychron&nbsp;K10 (100%)_");
             correctionAdd("K series_", "Keychron&nbsp;K10 (100%)_"); // For the cross-reference
@@ -164711,6 +164747,7 @@ namespace OverflowHelper.core
             correctionAdd("advise_", "advice_"); // Not incorrect as a verb
             correctionAdd("asvice_", "advice_");
             correctionAdd("Advice_", "advice_");
+            correctionAdd("Advise_", "advice_");
 
             correctionAdd("Cryptography_", "cryptography_");
             correctionAdd("crypto_", "cryptography_");
@@ -168727,8 +168764,6 @@ namespace OverflowHelper.core
 
             URL_Add(".NET MAUI_", "https://en.wikipedia.org/wiki/Xamarin#.NET_MAUI");
 
-            URL_Add("Dygma Raise_", "https://dygma.com/products/dygma-raise");
-
             URL_Add("went_", "https://en.wiktionary.org/wiki/went#Verb");
 
             URL_Add("cmd.exe_", "https://en.wikipedia.org/wiki/Cmd.exe"); // Old: https://en.wikipedia.org/wiki/Command_Prompt
@@ -172630,6 +172665,10 @@ namespace OverflowHelper.core
             URL_Add("ANSI_", "https://en.wikipedia.org/wiki/British_and_American_keyboards#Windows_keyboards");
 
             URL_Add("ZSA Voyager_", "https://www.youtube.com/watch?v=VYQ0gyhjRXc");
+
+            URL_Add("Helix_", "https://github.com/MakotoKurauchi/helix");
+
+            URL_Add("Dygma Raise_", "https://dygma.com/products/dygma-raise");
 
             URL_Add("Kinesis Advantage 2_", "https://en.wikipedia.org/wiki/Kinesis_(keyboard)#Advantage_360");
 
@@ -180613,6 +180652,10 @@ namespace OverflowHelper.core
             correctionAdd("Keychron K10 Pro___", "Keychron&nbsp;K&nbsp;Pro&nbsp;series___"); // For the cross-reference
             correctionAdd("K Pro series___", "Keychron&nbsp;K&nbsp;Pro&nbsp;series___"); // Sort of identity mapping
             correctionAdd("k pro series___", "Keychron&nbsp;K&nbsp;Pro&nbsp;series___");
+            correctionAdd("K Series PRO___", "Keychron&nbsp;K&nbsp;Pro&nbsp;series___");
+            correctionAdd("K Series Pro___", "Keychron&nbsp;K&nbsp;Pro&nbsp;series___");
+            correctionAdd("K series PRO___", "Keychron&nbsp;K&nbsp;Pro&nbsp;series___");
+            correctionAdd("K series Pro___", "Keychron&nbsp;K&nbsp;Pro&nbsp;series___");
             correctionAdd("KPro series___", "Keychron&nbsp;K&nbsp;Pro&nbsp;series___");
             correctionAdd("Pro series___", "Keychron&nbsp;K&nbsp;Pro&nbsp;series___"); // Though it is ambigious... (for example, B Pro, Q Pro, and C Pro series)
             correctionAdd("K pro___", "Keychron&nbsp;K&nbsp;Pro&nbsp;series___");
@@ -180669,6 +180712,10 @@ namespace OverflowHelper.core
             correctionAdd("K-Max series___", "Keychron&nbsp;K&nbsp;Max&nbsp;series___");
             correctionAdd("K Max series___", "Keychron&nbsp;K&nbsp;Max&nbsp;series___"); // Sort of identity mapping
             correctionAdd("k max series___", "Keychron&nbsp;K&nbsp;Max&nbsp;series___");
+            correctionAdd("K Series MAX___", "Keychron&nbsp;K&nbsp;Max&nbsp;series___");
+            correctionAdd("K Series Max___", "Keychron&nbsp;K&nbsp;Max&nbsp;series___");
+            correctionAdd("K series MAX___", "Keychron&nbsp;K&nbsp;Max&nbsp;series___");
+            correctionAdd("K series Max___", "Keychron&nbsp;K&nbsp;Max&nbsp;series___");
             correctionAdd("K Max'es___", "Keychron&nbsp;K&nbsp;Max&nbsp;series___");
             correctionAdd("K Max___", "Keychron&nbsp;K&nbsp;Max&nbsp;series___");
             correctionAdd("k max___", "Keychron&nbsp;K&nbsp;Max&nbsp;series___");
@@ -183107,6 +183154,7 @@ namespace OverflowHelper.core
             correctionAdd("Keychron Q3 HE source code____", "Git branch \"hall_effect_playground\" in Keychron's fork____");
             correctionAdd("Keychron Q6 HE source code____", "Git branch \"hall_effect_playground\" in Keychron's fork____");
             correctionAdd("hall_effect_playground____", "Git branch \"hall_effect_playground\" in Keychron's fork____");
+            correctionAdd("hall_playground____", "Git branch \"hall_effect_playground\" in Keychron's fork____");
             correctionAdd("Hall sensor____", "Git branch \"hall_effect_playground\" in Keychron's fork____");
 
             // Note:
