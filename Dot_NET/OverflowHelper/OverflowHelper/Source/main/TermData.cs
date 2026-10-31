@@ -1291,6 +1291,54 @@ namespace OverflowHelper.core
             correctionAdd("myspace", "Myspace");
             correctionAdd("MySpace", "Myspace");
 
+            correctionAdd("strewam", "stream");
+            correctionAdd("streal", "stream");
+            correctionAdd("sream", "stream");
+            correctionAdd("stram", "stream");
+            correctionAdd("strem", "stream");
+
+            correctionAdd("Streamline", "streamline");
+
+            correctionAdd("main stream", "mainstream");
+
+            correctionAdd("non mainstream", "nonmainstream");
+
+            correctionAdd("mid-stream", "midstream");
+
+            // We need a better reference...
+            correctionAdd("filestream", "file stream");
+
+            correctionAdd("down stream", "downstream");
+            correctionAdd("down-stream", "downstream");
+
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Upstream_(software_development)>
+            //
+            correctionAdd("up-stream", "upstream");
+            correctionAdd("up stream", "upstream");
+            correctionAdd("Upstreeam", "upstream");
+            correctionAdd("upstreeam", "upstream");
+            correctionAdd("upsteram", "upstream"); // A true typo
+
+            correctionAdd("datastream", "data stream");
+
+            // The noun
+            correctionAdd("Live stream", "live stream");
+
+            correctionAdd("Nordtsream", "Nord Stream");
+
+            correctionAdd("Media", "media");
+
+            correctionAdd("MSM", "mainstream media");
+
+            correctionAdd("gtstreamer", "GStreamer");
+            correctionAdd("gstreamer", "GStreamer");
+            correctionAdd("Gstreamer", "GStreamer");
+            correctionAdd("Gst", "GStreamer");
+
+            correctionAdd("streamlit", "Streamlit");
+
             correctionAdd("reliefed", "relieved");
             correctionAdd("releaved", "relieved");
 
@@ -10607,7 +10655,7 @@ namespace OverflowHelper.core
             correctionAdd("doinf", "doing");
             correctionAdd("doign", "doing");
             correctionAdd("doind", "doing");
-            correctionAdd("goind", "doing");
+            correctionAdd("goind", "doing"); // Or maybe it was 'going'?
             correctionAdd("doin", "doing");
             correctionAdd("dong", "doing");
 
@@ -19135,7 +19183,6 @@ namespace OverflowHelper.core
             correctionAdd("MSO", "Meta Stack Overflow");
             correctionAdd("mso", "Meta Stack Overflow");
 
-            correctionAdd("Stack&nbsp;Overflow teams", "Stack Overflow for Teams");
             correctionAdd("Stack Overflow for teams", "Stack Overflow for Teams");
             correctionAdd("Stack Overflow For Teams", "Stack Overflow for Teams");
             correctionAdd("StackOverflow for Teams", "Stack Overflow for Teams");
@@ -19180,7 +19227,6 @@ namespace OverflowHelper.core
             correctionAdd("not a forum", "Stack Overflow is not a forum");
             correctionAdd("forum", "Stack Overflow is not a forum");
 
-            correctionAdd("Stack&nbsp;Overflow blog", "the Stack Overflow blog");
             correctionAdd("Stack Overflow blog", "the Stack Overflow blog");
             correctionAdd("stack overflow blog", "the Stack Overflow blog");
             correctionAdd("StackOverflow blog", "the Stack Overflow blog");
@@ -27032,10 +27078,9 @@ namespace OverflowHelper.core
             correctionAdd("Edit Plus", "EditPlus");
             correctionAdd("editplus", "EditPlus");
 
-            correctionAdd("Edit Overflow", "Edit&nbsp;Overflow");
-            correctionAdd("edit overflow", "Edit&nbsp;Overflow");
-            correctionAdd("EditOverflow", "Edit&nbsp;Overflow");
-            correctionAdd("EO", "Edit&nbsp;Overflow");
+            correctionAdd("edit overflow", "Edit Overflow");
+            correctionAdd("EditOverflow", "Edit Overflow");
+            correctionAdd("EO", "Edit Overflow");
 
             correctionAdd("Editor Config", "EditorConfig");
             correctionAdd("Editor config", "EditorConfig");
@@ -39638,9 +39683,9 @@ namespace OverflowHelper.core
 
             // Windows. NTFS.
             correctionAdd("resource fork on Windows", "alternate data stream");
-            correctionAdd("ADS", "alternate data stream");
             correctionAdd("Alternate Data Stream", "alternate data stream");
             correctionAdd("Alternate Data Streams", "alternate data stream");
+            correctionAdd("ADS", "alternate data stream");
 
             correctionAdd("Windows Store", "Microsoft Store");
             correctionAdd("Windows store", "Microsoft Store");
@@ -81265,52 +81310,6 @@ namespace OverflowHelper.core
 
             correctionAdd("agumented", "augmented");
 
-            correctionAdd("strewam", "stream");
-            correctionAdd("streal", "stream");
-            correctionAdd("sream", "stream");
-            correctionAdd("stram", "stream");
-            correctionAdd("strem", "stream");
-
-            correctionAdd("main stream", "mainstream");
-
-            correctionAdd("non mainstream", "nonmainstream");
-
-            correctionAdd("mid-stream", "midstream");
-
-            // We need a better reference...
-            correctionAdd("filestream", "file stream");
-
-            correctionAdd("down stream", "downstream");
-            correctionAdd("down-stream", "downstream");
-
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/Upstream_(software_development)>
-            //
-            correctionAdd("up-stream", "upstream");
-            correctionAdd("up stream", "upstream");
-            correctionAdd("Upstreeam", "upstream");
-            correctionAdd("upstreeam", "upstream");
-            correctionAdd("upsteram", "upstream"); // A true typo
-
-            correctionAdd("datastream", "data stream");
-
-            // The noun
-            correctionAdd("Live stream", "live stream");
-
-            correctionAdd("Nordtsream", "Nord Stream");
-
-            correctionAdd("Media", "media");
-
-            correctionAdd("MSM", "mainstream media");
-
-            correctionAdd("gtstreamer", "GStreamer");
-            correctionAdd("gstreamer", "GStreamer");
-            correctionAdd("Gstreamer", "GStreamer");
-            correctionAdd("Gst", "GStreamer");
-
-            correctionAdd("streamlit", "Streamlit");
-
             // Note: "profile" (the noun) is in an alternative word set
             correctionAdd("porifliles", "profiles");
             correctionAdd("prodiles", "profiles");
@@ -111390,6 +111389,52 @@ namespace OverflowHelper.core
 
             URL_Add("stream", "https://en.wiktionary.org/wiki/stream#Noun");
 
+            URL_Add("streamline", "https://en.wiktionary.org/wiki/streamline#Verb");
+
+            URL_Add("mainstream", "https://en.wiktionary.org/wiki/mainstream#Adjective");
+
+            URL_Add("nonmainstream", "https://en.wiktionary.org/wiki/nonmainstream#Adjective");
+
+            URL_Add("midstream", "https://en.wiktionary.org/wiki/midstream#Noun");
+
+            URL_Add("file stream", "https://en.wikipedia.org/wiki/C_file_input/output#Functions");
+
+            URL_Add("downstream", "https://en.wiktionary.org/wiki/downstream#Adverb");
+
+            URL_Add("upstream", "https://en.wiktionary.org/wiki/upstream#Adverb");
+
+            URL_Add("data stream", "https://en.wiktionary.org/wiki/data_stream#Noun");
+
+            URL_Add("live stream", "https://en.wiktionary.org/wiki/live_stream#Noun");
+
+            URL_Add("Nord Stream", "https://en.wikipedia.org/wiki/Nord_Stream");
+
+            URL_Add("media", "https://en.wiktionary.org/wiki/media#Noun_3");
+
+            URL_Add("mainstream media", "https://en.wiktionary.org/wiki/MSM#Noun");
+
+            URL_Add("GStreamer", "https://en.wikipedia.org/wiki/GStreamer");
+
+            URL_Add("Streamlit", "https://github.com/streamlit/streamlit");
+
+            URL_Add("mediocre", "https://en.wiktionary.org/wiki/mediocre#Adjective");
+
+            URL_Add("median", "https://en.wikipedia.org/wiki/Median");
+
+            URL_Add("medical", "https://en.wiktionary.org/wiki/medical#Adjective");
+
+            URL_Add("medical evacuation", "https://en.wiktionary.org/wiki/medevac#Noun");
+
+            URL_Add("medicine", "https://en.wiktionary.org/wiki/medicine#Noun");
+
+            URL_Add("Mediterranean", "https://en.wiktionary.org/wiki/Mediterranean#Adjective");
+
+            URL_Add("Medium", "https://en.wikipedia.org/wiki/Medium_(website)");
+
+            URL_Add("MediaWiki", "https://en.wikipedia.org/wiki/MediaWiki");
+
+            URL_Add("MediaTek", "https://en.wikipedia.org/wiki/MediaTek");
+
             URL_Add("iff", "https://en.wiktionary.org/wiki/iff#Conjunction");
 
             URL_Add("nonsense", "https://en.wiktionary.org/wiki/nonsense#Noun");
@@ -115698,8 +115743,6 @@ namespace OverflowHelper.core
 
             URL_Add("flame war", "https://en.wiktionary.org/wiki/flame_war#Noun");
 
-            URL_Add("mainstream", "https://en.wiktionary.org/wiki/mainstream#Adjective");
-
             URL_Add("ALGOL&nbsp;60", "https://en.wikipedia.org/wiki/ALGOL_60");
 
             URL_Add("ice cube", "https://en.wiktionary.org/wiki/ice_cube#Noun");
@@ -116107,8 +116150,6 @@ namespace OverflowHelper.core
             URL_Add("full-time", "https://en.wiktionary.org/wiki/full-time#Adjective");
 
             URL_Add("hypercube", "https://en.wikipedia.org/wiki/Hypercube");
-
-            URL_Add("midstream", "https://en.wiktionary.org/wiki/midstream#Noun");
 
             URL_Add("Napster", "https://en.wikipedia.org/wiki/Napster");
 
@@ -116684,11 +116725,7 @@ namespace OverflowHelper.core
 
             URL_Add("cd", "https://en.wikipedia.org/wiki/Cd_(command)");
 
-            URL_Add("downstream", "https://en.wiktionary.org/wiki/downstream#Adverb");
-
             URL_Add("full circle", "https://en.wiktionary.org/wiki/full_circle#Adverb");
-
-            URL_Add("upstream", "https://en.wiktionary.org/wiki/upstream#Adverb");
 
             URL_Add("NP-hard", "https://en.wikipedia.org/wiki/NP-hardness");
 
@@ -118029,8 +118066,6 @@ namespace OverflowHelper.core
             URL_Add("half-baked", "https://en.wiktionary.org/wiki/half-baked#Adjective");
 
             URL_Add("incorporated", "https://en.wiktionary.org/wiki/incorporate#Verb");
-
-            URL_Add("mainstream media", "https://en.wiktionary.org/wiki/MSM#Noun");
 
             URL_Add("numerator", "https://en.wiktionary.org/wiki/numerator#Noun");
 
@@ -120694,8 +120729,6 @@ namespace OverflowHelper.core
 
             URL_Add("flexibility", "https://en.wiktionary.org/wiki/flexibility#Noun");
 
-            URL_Add("nonmainstream", "https://en.wiktionary.org/wiki/nonmainstream#Adjective");
-
             URL_Add("Adam optimizer", "https://arxiv.org/abs/1412.6980v8");
 
             URL_Add("somewhat", "https://en.wiktionary.org/wiki/somewhat#Adverb");
@@ -120956,8 +120989,6 @@ namespace OverflowHelper.core
 
             URL_Add("weird capitalisation", "https://www.youtube.com/watch?v=Ln1qbgZz_TQ&t=15m48s");
 
-            URL_Add("data stream", "https://en.wiktionary.org/wiki/data_stream#Noun");
-
             URL_Add("regenerating", "https://en.wiktionary.org/wiki/regenerate#Verb");
 
             URL_Add("titled", "https://en.wiktionary.org/wiki/titled#Adjective");
@@ -120981,8 +121012,6 @@ namespace OverflowHelper.core
             URL_Add("asprintf()", "https://www.gnu.org/software/libc/manual/2.37/html_node/Dynamic-Output.html");
 
             URL_Add("disabling", "https://en.wiktionary.org/wiki/disable#Verb");
-
-            URL_Add("GStreamer", "https://en.wikipedia.org/wiki/GStreamer");
 
             URL_Add("rival", "https://en.wiktionary.org/wiki/rival#Adjective");
 
@@ -121139,8 +121168,6 @@ namespace OverflowHelper.core
             URL_Add("troff", "https://en.wikipedia.org/wiki/Troff");
 
             URL_Add("bipartisan", "https://en.wiktionary.org/wiki/bipartisan#Adjective");
-
-            URL_Add("Nord Stream", "https://en.wikipedia.org/wiki/Nord_Stream");
 
             URL_Add("wrongdoing", "https://en.wiktionary.org/wiki/wrongdoing#Noun");
 
@@ -121527,8 +121554,6 @@ namespace OverflowHelper.core
             URL_Add("tens", "https://en.wiktionary.org/wiki/tens#Noun");
 
             URL_Add("dodgy", "https://en.wiktionary.org/wiki/dodgy#Adjective");
-
-            URL_Add("live stream", "https://en.wiktionary.org/wiki/live_stream#Noun");
 
             URL_Add("natural language generation", "https://en.wiktionary.org/wiki/NLG#Noun");
 
@@ -126984,8 +127009,6 @@ namespace OverflowHelper.core
 
             URL_Add("Cat&nbsp;7", "https://en.wikipedia.org/wiki/ISO/IEC_11801#Category_7");
 
-            URL_Add("file stream", "https://en.wikipedia.org/wiki/C_file_input/output#Functions");
-
             URL_Add("A4", "https://en.wikipedia.org/wiki/ISO_216#Dimensions_of_A,_B_and_C_series");
 
             URL_Add("A5", "https://en.wikipedia.org/wiki/ISO_216#Dimensions_of_A,_B_and_C_series");
@@ -129474,26 +129497,6 @@ namespace OverflowHelper.core
 
             URL_Add("TED", "https://en.wikipedia.org/wiki/TED_(conference)");
 
-            URL_Add("media", "https://en.wiktionary.org/wiki/media#Noun_3");
-
-            URL_Add("mediocre", "https://en.wiktionary.org/wiki/mediocre#Adjective");
-
-            URL_Add("median", "https://en.wikipedia.org/wiki/Median");
-
-            URL_Add("medical", "https://en.wiktionary.org/wiki/medical#Adjective");
-
-            URL_Add("medical evacuation", "https://en.wiktionary.org/wiki/medevac#Noun");
-
-            URL_Add("medicine", "https://en.wiktionary.org/wiki/medicine#Noun");
-
-            URL_Add("Mediterranean", "https://en.wiktionary.org/wiki/Mediterranean#Adjective");
-
-            URL_Add("Medium", "https://en.wikipedia.org/wiki/Medium_(website)");
-
-            URL_Add("MediaWiki", "https://en.wikipedia.org/wiki/MediaWiki");
-
-            URL_Add("MediaTek", "https://en.wikipedia.org/wiki/MediaTek");
-
             URL_Add("Bochs", "https://en.wikipedia.org/wiki/Bochs");
 
             URL_Add("Coder", "https://coder.com/docs/about");
@@ -130055,8 +130058,6 @@ namespace OverflowHelper.core
             URL_Add("Include What You Use", "https://github.com/include-what-you-use/include-what-you-use");
 
             URL_Add("MDX", "https://github.com/mdx-js/mdx");
-
-            URL_Add("Streamlit", "https://github.com/streamlit/streamlit");
 
             URL_Add("Woodstox", "https://github.com/FasterXML/woodstox");
 
@@ -147394,7 +147395,7 @@ namespace OverflowHelper.core
 
             URL_Add("programmable input–output", "https://en.wikipedia.org/wiki/RP2040#Features");
 
-            URL_Add("Edit&nbsp;Overflow", "https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=Edit%20Overflow");
+            URL_Add("Edit Overflow", "https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=Edit%20Overflow");
 
             URL_Add("Rapoo", "https://pmortensen.eu/world2/2021/12/24/rapoo-mechanical-keyboards-gotchas-and-setup/");
 
@@ -156226,8 +156227,7 @@ namespace OverflowHelper.core
 
             correctionAdd("ETA_", "edited to add_");
 
-            correctionAdd("edit overflow_", "Edit&nbsp;Overflow_");
-            correctionAdd("Edit Overflow_", "Edit&nbsp;Overflow_"); // Sort of identity mapping
+            correctionAdd("edit overflow_", "Edit Overflow_");
 
             // About the undersigned...
             correctionAdd("15 minutes of fame_", "editor in chief_");
@@ -171792,7 +171792,7 @@ namespace OverflowHelper.core
 
             URL_Add("re-edit_", "https://en.wiktionary.org/wiki/re-edit#Verb");
 
-            URL_Add("Edit&nbsp;Overflow_", "https://github.com/PeterMortensen/Edit_Overflow");
+            URL_Add("Edit Overflow_", "https://github.com/PeterMortensen/Edit_Overflow");
 
             URL_Add("UltraEdit_", "https://en.wikipedia.org/wiki/UltraEdit");
 
@@ -177292,7 +177292,7 @@ namespace OverflowHelper.core
             //     #
             //     #   <https://github.com/Keychron/zmk/blob/rtl8762g/app/boards/shields/keychron_v6_ultra_ansi/keychron_v6_ultra_ansi.conf#L6>
             //
-            correctionAdd("Keychron&nbsp;V&nbsp;Ultra&nbsp;8K&nbsp;series__", "Keychron V6 Ultra 8K source code__");
+            correctionAdd("Keychron V Ultra 8K series__", "Keychron V6 Ultra 8K source code__");
             correctionAdd("Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K__", "Keychron V6 Ultra 8K source code__");
 
             // A wired and wireless (both Bluetooth and '2.4 GHz')
@@ -180653,26 +180653,24 @@ namespace OverflowHelper.core
             correctionAdd("k series___", "Keychron K series___");
 
             // For a direct text, "Q series"
-            correctionAdd("Keychron Q series___", "Keychron&nbsp;Q&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("Q&nbsp;series___", "Keychron&nbsp;Q&nbsp;series___");
-            correctionAdd("Keychron Q6___", "Keychron&nbsp;Q&nbsp;series___"); // For the cross-reference
-            correctionAdd("Q-series___", "Keychron&nbsp;Q&nbsp;series___");
-            correctionAdd("Q series___", "Keychron&nbsp;Q&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("q series___", "Keychron&nbsp;Q&nbsp;series___");
-            correctionAdd("q-series___", "Keychron&nbsp;Q&nbsp;series___");
-            correctionAdd("Q serie___", "Keychron&nbsp;Q&nbsp;series___");
-            correctionAdd("Q___", "Keychron&nbsp;Q&nbsp;series___");
-            correctionAdd("q___", "Keychron&nbsp;Q&nbsp;series___");
+            correctionAdd("Q&nbsp;series___", "Keychron Q series___");
+            correctionAdd("Keychron Q6___", "Keychron Q series___"); // For the cross-reference
+            correctionAdd("Q-series___", "Keychron Q series___");
+            correctionAdd("Q series___", "Keychron Q series___"); // Sort of identity mapping
+            correctionAdd("q series___", "Keychron Q series___");
+            correctionAdd("q-series___", "Keychron Q series___");
+            correctionAdd("Q serie___", "Keychron Q series___");
+            correctionAdd("Q___", "Keychron Q series___");
+            correctionAdd("q___", "Keychron Q series___");
 
             // For a direct text, "V series"
-            correctionAdd("Keychron V series___", "Keychron&nbsp;V&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("Keychron V6 ISO___", "Keychron&nbsp;V&nbsp;series___"); // For the cross-reference
-            correctionAdd("V&nbsp;series___", "Keychron&nbsp;V&nbsp;series___");
-            correctionAdd("V series___", "Keychron&nbsp;V&nbsp;series___"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
-            correctionAdd("V series___", "Keychron&nbsp;V&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("v series___", "Keychron&nbsp;V&nbsp;series___");
-            correctionAdd("V___", "Keychron&nbsp;V&nbsp;series___");
-            correctionAdd("v___", "Keychron&nbsp;V&nbsp;series___");
+            correctionAdd("Keychron V6 ISO___", "Keychron V series___"); // For the cross-reference
+            correctionAdd("V&nbsp;series___", "Keychron V series___");
+            correctionAdd("V series___", "Keychron V series___"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("V series___", "Keychron V series___"); // Sort of identity mapping
+            correctionAdd("v series___", "Keychron V series___");
+            correctionAdd("V___", "Keychron V series___");
+            correctionAdd("v___", "Keychron V series___");
 
             // For a direct text, "K Pro series"
             correctionAdd("K&nbsp;Pro&nbsp;series___", "Keychron K Pro series___");
@@ -180694,87 +180692,81 @@ namespace OverflowHelper.core
             correctionAdd("Pro___", "Keychron K Pro series___");
 
             // For a direct text, "Q Pro series"
-            correctionAdd("Keychron&nbsp;Q6&nbsp;Pro___", "Keychron&nbsp;Q&nbsp;Pro&nbsp;series___"); // For the cross-reference
-            correctionAdd("Q&nbsp;Pro&nbsp;series___", "Keychron&nbsp;Q&nbsp;Pro&nbsp;series___");
-            correctionAdd("Keychron Q Pro series___", "Keychron&nbsp;Q&nbsp;Pro&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("Keychron Q6 Pro___", "Keychron&nbsp;Q&nbsp;Pro&nbsp;series___"); // For the cross-reference
-            correctionAdd("Q Pro series___", "Keychron&nbsp;Q&nbsp;Pro&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("q pro series___", "Keychron&nbsp;Q&nbsp;Pro&nbsp;series___");
-            correctionAdd("Q-Pro___", "Keychron&nbsp;Q&nbsp;Pro&nbsp;series___");
-            correctionAdd("Q Pro___", "Keychron&nbsp;Q&nbsp;Pro&nbsp;series___");
-            correctionAdd("q pro___", "Keychron&nbsp;Q&nbsp;Pro&nbsp;series___");
+            correctionAdd("Keychron&nbsp;Q6&nbsp;Pro___", "Keychron Q Pro series___"); // For the cross-reference
+            correctionAdd("Q&nbsp;Pro&nbsp;series___", "Keychron Q Pro series___");
+            correctionAdd("Keychron Q6 Pro___", "Keychron Q Pro series___"); // For the cross-reference
+            correctionAdd("Q Pro series___", "Keychron Q Pro series___"); // Sort of identity mapping
+            correctionAdd("q pro series___", "Keychron Q Pro series___");
+            correctionAdd("Q-Pro___", "Keychron Q Pro series___");
+            correctionAdd("Q Pro___", "Keychron Q Pro series___");
+            correctionAdd("q pro___", "Keychron Q Pro series___");
 
             // For a direct text, "V Max series"
-            correctionAdd("Keychron&nbsp;V6&nbsp;Max___", "Keychron&nbsp;V&nbsp;Max&nbsp;series___"); // For the cross-reference
-            correctionAdd("V&nbsp;Max&nbsp;series___", "Keychron&nbsp;V&nbsp;Max&nbsp;series___");
-            correctionAdd("Keychron V Max series___", "Keychron&nbsp;V&nbsp;Max&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("Keychron V6 Max___", "Keychron&nbsp;V&nbsp;Max&nbsp;series___"); // For the cross-reference
-            correctionAdd("V Max series___", "Keychron&nbsp;V&nbsp;Max&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("v max series___", "Keychron&nbsp;V&nbsp;Max&nbsp;series___");
-            correctionAdd("V Max Series___", "Keychron&nbsp;V&nbsp;Max&nbsp;series___");
-            correctionAdd("V-Max___", "Keychron&nbsp;V&nbsp;Max&nbsp;series___");
-            correctionAdd("V Max___", "Keychron&nbsp;V&nbsp;Max&nbsp;series___");
-            correctionAdd("v max___", "Keychron&nbsp;V&nbsp;Max&nbsp;series___");
+            correctionAdd("Keychron&nbsp;V6&nbsp;Max___", "Keychron V Max series___"); // For the cross-reference
+            correctionAdd("V&nbsp;Max&nbsp;series___", "Keychron V Max series___");
+            correctionAdd("Keychron V6 Max___", "Keychron V Max series___"); // For the cross-reference
+            correctionAdd("V Max series___", "Keychron V Max series___"); // Sort of identity mapping
+            correctionAdd("v max series___", "Keychron V Max series___");
+            correctionAdd("V Max Series___", "Keychron V Max series___");
+            correctionAdd("V-Max___", "Keychron V Max series___");
+            correctionAdd("V Max___", "Keychron V Max series___");
+            correctionAdd("v max___", "Keychron V Max series___");
 
             // For a direct text, "Q Max series"
-            correctionAdd("Keychron&nbsp;Q6&nbsp;Max___", "Keychron&nbsp;Q&nbsp;Max&nbsp;series___"); // For the cross-reference
-            correctionAdd("Q&nbsp;Max&nbsp;series___", "Keychron&nbsp;Q&nbsp;Max&nbsp;series___");
-            correctionAdd("Keychron Q Max series___", "Keychron&nbsp;Q&nbsp;Max&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("Keychron Q6 Max___", "Keychron&nbsp;Q&nbsp;Max&nbsp;series___"); // For the cross-reference
-            correctionAdd("Q max seriesc___", "Keychron&nbsp;Q&nbsp;Max&nbsp;series___");
-            correctionAdd("q max series___", "Keychron&nbsp;Q&nbsp;Max&nbsp;series___");
-            correctionAdd("q series max___", "Keychron&nbsp;Q&nbsp;Max&nbsp;series___");
-            correctionAdd("Q Max series___", "Keychron&nbsp;Q&nbsp;Max&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("Q Max Series___", "Keychron&nbsp;Q&nbsp;Max&nbsp;series___");
-            correctionAdd("Q-Max___", "Keychron&nbsp;Q&nbsp;Max&nbsp;series___");
-            correctionAdd("Q Max___", "Keychron&nbsp;Q&nbsp;Max&nbsp;series___");
-            correctionAdd("q max___", "Keychron&nbsp;Q&nbsp;Max&nbsp;series___");
-            correctionAdd("qmax___", "Keychron&nbsp;Q&nbsp;Max&nbsp;series___");
+            correctionAdd("Keychron&nbsp;Q6&nbsp;Max___", "Keychron Q Max series___"); // For the cross-reference
+            correctionAdd("Q&nbsp;Max&nbsp;series___", "Keychron Q Max series___");
+            correctionAdd("Keychron Q6 Max___", "Keychron Q Max series___"); // For the cross-reference
+            correctionAdd("Q max seriesc___", "Keychron Q Max series___");
+            correctionAdd("q max series___", "Keychron Q Max series___");
+            correctionAdd("q series max___", "Keychron Q Max series___");
+            correctionAdd("Q Max series___", "Keychron Q Max series___"); // Sort of identity mapping
+            correctionAdd("Q Max Series___", "Keychron Q Max series___");
+            correctionAdd("Q-Max___", "Keychron Q Max series___");
+            correctionAdd("Q Max___", "Keychron Q Max series___");
+            correctionAdd("q max___", "Keychron Q Max series___");
+            correctionAdd("qmax___", "Keychron Q Max series___");
 
             // For a direct text, "K Max series"
-            correctionAdd("Keychron&nbsp;K10&nbsp;Max___", "Keychron&nbsp;K&nbsp;Max&nbsp;series___");
-            correctionAdd("K&nbsp;Max&nbsp;series___", "Keychron&nbsp;K&nbsp;Max&nbsp;series___");
-            correctionAdd("Keychron K Max series___", "Keychron&nbsp;K&nbsp;Max&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("Keychron K10 Max___", "Keychron&nbsp;K&nbsp;Max&nbsp;series___"); // For the cross-reference
-            correctionAdd("K-Max series___", "Keychron&nbsp;K&nbsp;Max&nbsp;series___");
-            correctionAdd("K Max series___", "Keychron&nbsp;K&nbsp;Max&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("k max series___", "Keychron&nbsp;K&nbsp;Max&nbsp;series___");
-            correctionAdd("K Series MAX___", "Keychron&nbsp;K&nbsp;Max&nbsp;series___");
-            correctionAdd("K Series Max___", "Keychron&nbsp;K&nbsp;Max&nbsp;series___");
-            correctionAdd("K series MAX___", "Keychron&nbsp;K&nbsp;Max&nbsp;series___");
-            correctionAdd("K series Max___", "Keychron&nbsp;K&nbsp;Max&nbsp;series___");
-            correctionAdd("K Max'es___", "Keychron&nbsp;K&nbsp;Max&nbsp;series___");
-            correctionAdd("K Max___", "Keychron&nbsp;K&nbsp;Max&nbsp;series___");
-            correctionAdd("k max___", "Keychron&nbsp;K&nbsp;Max&nbsp;series___");
+            correctionAdd("Keychron&nbsp;K10&nbsp;Max___", "Keychron K Max series___");
+            correctionAdd("K&nbsp;Max&nbsp;series___", "Keychron K Max series___");
+            correctionAdd("Keychron K10 Max___", "Keychron K Max series___"); // For the cross-reference
+            correctionAdd("K-Max series___", "Keychron K Max series___");
+            correctionAdd("K Max series___", "Keychron K Max series___"); // Sort of identity mapping
+            correctionAdd("k max series___", "Keychron K Max series___");
+            correctionAdd("K Series MAX___", "Keychron K Max series___");
+            correctionAdd("K Series Max___", "Keychron K Max series___");
+            correctionAdd("K series MAX___", "Keychron K Max series___");
+            correctionAdd("K series Max___", "Keychron K Max series___");
+            correctionAdd("K Max'es___", "Keychron K Max series___");
+            correctionAdd("K Max___", "Keychron K Max series___");
+            correctionAdd("k max___", "Keychron K Max series___");
 
             // For a direct text, "K HE series"
-            correctionAdd("Keychron&nbsp;K2&nbsp;HE (80%)___", "Keychron&nbsp;K&nbsp;HE&nbsp;series___");
-            correctionAdd("Keychron&nbsp;K2&nbsp;HE___", "Keychron&nbsp;K&nbsp;HE&nbsp;series___");
-            correctionAdd("K&nbsp;HE&nbsp;series___", "Keychron&nbsp;K&nbsp;HE&nbsp;series___");
-            correctionAdd("Keychron K HE series___", "Keychron&nbsp;K&nbsp;HE&nbsp;series___"); // Sort of identity mappin
-            correctionAdd("Keychron K2 HE___", "Keychron&nbsp;K&nbsp;HE&nbsp;series___"); // For the cross-reference
-            correctionAdd("K HE series___", "Keychron&nbsp;K&nbsp;HE&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("k he series___", "Keychron&nbsp;K&nbsp;HE&nbsp;series___");
-            correctionAdd("K series HE___", "Keychron&nbsp;K&nbsp;HE&nbsp;series___");
-            correctionAdd("k series HE___", "Keychron&nbsp;K&nbsp;HE&nbsp;series___");
-            correctionAdd("HE series___", "Keychron&nbsp;K&nbsp;HE&nbsp;series___");
-            correctionAdd("K HE___", "Keychron&nbsp;K&nbsp;HE&nbsp;series___");
-            correctionAdd("k he___", "Keychron&nbsp;K&nbsp;HE&nbsp;series___");
+            correctionAdd("Keychron&nbsp;K2&nbsp;HE (80%)___", "Keychron K HE series___");
+            correctionAdd("Keychron&nbsp;K2&nbsp;HE___", "Keychron K HE series___");
+            correctionAdd("K&nbsp;HE&nbsp;series___", "Keychron K HE series___");
+            correctionAdd("Keychron K2 HE___", "Keychron K HE series___"); // For the cross-reference
+            correctionAdd("K HE series___", "Keychron K HE series___"); // Sort of identity mapping
+            correctionAdd("k he series___", "Keychron K HE series___");
+            correctionAdd("K series HE___", "Keychron K HE series___");
+            correctionAdd("k series HE___", "Keychron K HE series___");
+            correctionAdd("HE series___", "Keychron K HE series___");
+            correctionAdd("K HE___", "Keychron K HE series___");
+            correctionAdd("k he___", "Keychron K HE series___");
 
             // For a direct text, "Q HE series"
-            correctionAdd("Keychron&nbsp;Q6&nbsp;HE (105%)___", "Keychron&nbsp;Q&nbsp;HE&nbsp;series___");
-            correctionAdd("Keychron&nbsp;Q6&nbsp;HE___", "Keychron&nbsp;Q&nbsp;HE&nbsp;series___");
-            correctionAdd("Q&nbsp;HE&nbsp;series___", "Keychron&nbsp;Q&nbsp;HE&nbsp;series___");
-            correctionAdd("Keychron Q HE series___", "Keychron&nbsp;Q&nbsp;HE&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("Keychron Q6 HE___", "Keychron&nbsp;Q&nbsp;HE&nbsp;series___"); // For the cross-reference
-            correctionAdd("HE keyboards___", "Keychron&nbsp;Q&nbsp;HE&nbsp;series___");
-            correctionAdd("Q HE series___", "Keychron&nbsp;Q&nbsp;HE&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("q he series___", "Keychron&nbsp;Q&nbsp;HE&nbsp;series___");
-            correctionAdd("the HE___", "Keychron&nbsp;Q&nbsp;HE&nbsp;series___");
-            correctionAdd("Q HE___", "Keychron&nbsp;Q&nbsp;HE&nbsp;series___");
-            correctionAdd("q he___", "Keychron&nbsp;Q&nbsp;HE&nbsp;series___");
-            correctionAdd("QHE___", "Keychron&nbsp;Q&nbsp;HE&nbsp;series___");
-            correctionAdd("HE___", "Keychron&nbsp;Q&nbsp;HE&nbsp;series___");
+            correctionAdd("Keychron&nbsp;Q6&nbsp;HE (105%)___", "Keychron Q HE series___");
+            correctionAdd("Keychron&nbsp;Q6&nbsp;HE___", "Keychron Q HE series___");
+            correctionAdd("Q&nbsp;HE&nbsp;series___", "Keychron Q HE series___");
+            correctionAdd("Keychron Q6 HE___", "Keychron Q HE series___"); // For the cross-reference
+            correctionAdd("HE keyboards___", "Keychron Q HE series___");
+            correctionAdd("Q HE series___", "Keychron Q HE series___"); // Sort of identity mapping
+            correctionAdd("q he series___", "Keychron Q HE series___");
+            correctionAdd("the HE___", "Keychron Q HE series___");
+            correctionAdd("Q HE___", "Keychron Q HE series___");
+            correctionAdd("q he___", "Keychron Q HE series___");
+            correctionAdd("QHE___", "Keychron Q HE series___");
+            correctionAdd("HE___", "Keychron Q HE series___");
 
             correctionAdd("Keychron&nbsp;Q6&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // For the cross-reference
             correctionAdd("Keychron Q HE 8K series (proprietary keyboard firmware, not open source)___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // Sort of identity mapping
@@ -180795,79 +180787,69 @@ namespace OverflowHelper.core
             correctionAdd("HE 8k___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
 
             // For a direct text, "Lemokey P Pro series"
-            correctionAdd("Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro___", "Lemokey&nbsp;P&nbsp;Pro&nbsp;series___");
-            correctionAdd("Keychron Lemokey P1 Pro___", "Lemokey&nbsp;P&nbsp;Pro&nbsp;series___"); // For the cross-reference
-            correctionAdd("Lemokey P Pro series___", "Lemokey&nbsp;P&nbsp;Pro&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("lemokey p pro series___", "Lemokey&nbsp;P&nbsp;Pro&nbsp;series___");
-            correctionAdd("Lemokey series___", "Lemokey&nbsp;P&nbsp;Pro&nbsp;series___");
-            correctionAdd("P Pro series___", "Lemokey&nbsp;P&nbsp;Pro&nbsp;series___");
-            correctionAdd("p pro series___", "Lemokey&nbsp;P&nbsp;Pro&nbsp;series___");
-            correctionAdd("P Pro___", "Lemokey&nbsp;P&nbsp;Pro&nbsp;series___");
-            correctionAdd("p pro___", "Lemokey&nbsp;P&nbsp;Pro&nbsp;series___");
+            correctionAdd("Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro___", "Lemokey P Pro series___");
+            correctionAdd("Keychron Lemokey P1 Pro___", "Lemokey P Pro series___"); // For the cross-reference
+            correctionAdd("lemokey p pro series___", "Lemokey P Pro series___");
+            correctionAdd("Lemokey series___", "Lemokey P Pro series___");
+            correctionAdd("P Pro series___", "Lemokey P Pro series___");
+            correctionAdd("p pro series___", "Lemokey P Pro series___");
+            correctionAdd("P Pro___", "Lemokey P Pro series___");
+            correctionAdd("p pro___", "Lemokey P Pro series___");
 
-            correctionAdd("Keychron&nbsp;C2&nbsp;Pro___", "Keychron&nbsp;C&nbsp;Pro&nbsp;series___"); // For the cross-reference
-            correctionAdd("C&nbsp;Pro&nbsp;series___", "Keychron&nbsp;C&nbsp;Pro&nbsp;series___");
-            correctionAdd("Keychron C Pro series___", "Keychron&nbsp;C&nbsp;Pro&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("Keychron C2 Pro___", "Keychron&nbsp;C&nbsp;Pro&nbsp;series___"); // For the cross-reference
-            correctionAdd("C&nbsp;series___", "Keychron&nbsp;C&nbsp;Pro&nbsp;series___"); // Not 100% correct (there is C series (proprietary firmware, not based on QMK))
-            correctionAdd("C Pro series___", "Keychron&nbsp;C&nbsp;Pro&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("C series___", "Keychron&nbsp;C&nbsp;Pro&nbsp;series___"); // Not 100% correct (there is C series (proprietary firmware, not based on QMK)). Sort of identity mapping.
-            correctionAdd("C2 Pro___", "Keychron&nbsp;C&nbsp;Pro&nbsp;series___");
+            correctionAdd("Keychron&nbsp;C2&nbsp;Pro___", "Keychron C Pro series___"); // For the cross-reference
+            correctionAdd("C&nbsp;Pro&nbsp;series___", "Keychron C Pro series___");
+            correctionAdd("Keychron C2 Pro___", "Keychron C Pro series___"); // For the cross-reference
+            correctionAdd("C&nbsp;series___", "Keychron C Pro series___"); // Not 100% correct (there is C series (proprietary firmware, not based on QMK))
+            correctionAdd("C Pro series___", "Keychron C Pro series___"); // Sort of identity mapping
+            correctionAdd("C series___", "Keychron C Pro series___"); // Not 100% correct (there is C series (proprietary firmware, not based on QMK)). Sort of identity mapping.
+            correctionAdd("C2 Pro___", "Keychron C Pro series___");
 
-            correctionAdd("Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)___", "Keychron&nbsp;C&nbsp;Pro&nbsp;8K&nbsp;series___");
-            correctionAdd("Keychron&nbsp;C2&nbsp;Pro&nbsp;8K___", "Keychron&nbsp;C&nbsp;Pro&nbsp;8K&nbsp;series___");
-            correctionAdd("C&nbsp;Pro&nbsp;8K&nbsp;series___", "Keychron&nbsp;C&nbsp;Pro&nbsp;8K&nbsp;series___");
-            correctionAdd("Keychron C Pro 8K series___", "Keychron&nbsp;C&nbsp;Pro&nbsp;8K&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("C Pro 8K series___", "Keychron&nbsp;C&nbsp;Pro&nbsp;8K&nbsp;series___");
+            correctionAdd("Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)___", "Keychron C Pro 8K series___");
+            correctionAdd("Keychron&nbsp;C2&nbsp;Pro&nbsp;8K___", "Keychron C Pro 8K series___");
+            correctionAdd("C&nbsp;Pro&nbsp;8K&nbsp;series___", "Keychron C Pro 8K series___");
+            correctionAdd("C Pro 8K series___", "Keychron C Pro 8K series___");
 
-            correctionAdd("Keychron S series___", "Keychron&nbsp;S&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("S&nbsp;series___", "Keychron&nbsp;S&nbsp;series___");
-            correctionAdd("Keychron S1___", "Keychron&nbsp;S&nbsp;series___"); // For the cross-reference
-            correctionAdd("S series___", "Keychron&nbsp;S&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("S1___", "Keychron&nbsp;S&nbsp;series___"); // For the cross-reference
+            correctionAdd("S&nbsp;series___", "Keychron S series___");
+            correctionAdd("Keychron S1___", "Keychron S series___"); // For the cross-reference
+            correctionAdd("S series___", "Keychron S series___"); // Sort of identity mapping
+            correctionAdd("S1___", "Keychron S series___"); // For the cross-reference
 
-            correctionAdd("Keychron&nbsp;B6&nbsp;Pro___", "Keychron&nbsp;B&nbsp;Pro&nbsp;series___"); // For the cross-reference
-            correctionAdd("B&nbsp;Pro&nbsp;series___", "Keychron&nbsp;B&nbsp;Pro&nbsp;series___");
-            correctionAdd("Keychron B Pro series___", "Keychron&nbsp;B&nbsp;Pro&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("Keychron B6 Pro___", "Keychron&nbsp;B&nbsp;Pro&nbsp;series___"); // For the cross-reference
-            correctionAdd("B Pro series___", "Keychron&nbsp;B&nbsp;Pro&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("b6 pro___", "Keychron&nbsp;B&nbsp;Pro&nbsp;series___"); // For the cross-reference
-            correctionAdd("B Pro___", "Keychron&nbsp;B&nbsp;Pro&nbsp;series___");
-            correctionAdd("b pro___", "Keychron&nbsp;B&nbsp;Pro&nbsp;series___");
+            correctionAdd("Keychron&nbsp;B6&nbsp;Pro___", "Keychron B Pro series___"); // For the cross-reference
+            correctionAdd("B&nbsp;Pro&nbsp;series___", "Keychron B Pro series___");
+            correctionAdd("Keychron B6 Pro___", "Keychron B Pro series___"); // For the cross-reference
+            correctionAdd("B Pro series___", "Keychron B Pro series___"); // Sort of identity mapping
+            correctionAdd("b6 pro___", "Keychron B Pro series___"); // For the cross-reference
+            correctionAdd("B Pro___", "Keychron B Pro series___");
+            correctionAdd("b pro___", "Keychron B Pro series___");
 
-            correctionAdd("Keychron Lemokey X3___", "Lemokey&nbsp;X&nbsp;series___"); // For the cross-reference
-            correctionAdd("Lemokey X series___", "Lemokey&nbsp;X&nbsp;series___");
-            correctionAdd("X series___", "Lemokey&nbsp;X&nbsp;series___");
+            correctionAdd("Keychron Lemokey X3___", "Lemokey X series___"); // For the cross-reference
+            correctionAdd("X series___", "Lemokey X series___");
 
-            correctionAdd("Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K___", "Keychron&nbsp;Q&nbsp;Ultra&nbsp;8K&nbsp;series___");
-            correctionAdd("Q&nbsp;Ultra&nbsp;8K&nbsp;series___", "Keychron&nbsp;Q&nbsp;Ultra&nbsp;8K&nbsp;series___");
-            correctionAdd("Keychron Q Ultra 8K series___", "Keychron&nbsp;Q&nbsp;Ultra&nbsp;8K&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("Q6&nbsp;Ultra&nbsp;8K___", "Keychron&nbsp;Q&nbsp;Ultra&nbsp;8K&nbsp;series___");
-            correctionAdd("Q Ultra 8K series___", "Keychron&nbsp;Q&nbsp;Ultra&nbsp;8K&nbsp;series___");
-            correctionAdd("Q ultra series___", "Keychron&nbsp;Q&nbsp;Ultra&nbsp;8K&nbsp;series___");
-            correctionAdd("Q Ultra series___", "Keychron&nbsp;Q&nbsp;Ultra&nbsp;8K&nbsp;series___");
-            correctionAdd("Q Ultra 8K___", "Keychron&nbsp;Q&nbsp;Ultra&nbsp;8K&nbsp;series___");
-            correctionAdd("Q Ultra 8k___", "Keychron&nbsp;Q&nbsp;Ultra&nbsp;8K&nbsp;series___");
-            correctionAdd("Q Ultra___", "Keychron&nbsp;Q&nbsp;Ultra&nbsp;8K&nbsp;series___");
+            correctionAdd("Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K___", "Keychron Q Ultra 8K series___");
+            correctionAdd("Q&nbsp;Ultra&nbsp;8K&nbsp;series___", "Keychron Q Ultra 8K series___");
+            correctionAdd("Q6&nbsp;Ultra&nbsp;8K___", "Keychron Q Ultra 8K series___");
+            correctionAdd("Q Ultra 8K series___", "Keychron Q Ultra 8K series___");
+            correctionAdd("Q ultra series___", "Keychron Q Ultra 8K series___");
+            correctionAdd("Q Ultra series___", "Keychron Q Ultra 8K series___");
+            correctionAdd("Q Ultra 8K___", "Keychron Q Ultra 8K series___");
+            correctionAdd("Q Ultra 8k___", "Keychron Q Ultra 8K series___");
+            correctionAdd("Q Ultra___", "Keychron Q Ultra 8K series___");
 
-            correctionAdd("Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K___", "Keychron&nbsp;V&nbsp;Ultra&nbsp;8K&nbsp;series___");
-            correctionAdd("V&nbsp;Ultra&nbsp;8K&nbsp;series___", "Keychron&nbsp;V&nbsp;Ultra&nbsp;8K&nbsp;series___");
-            correctionAdd("V&nbsp;Ultra&nbsp;8K series___", "Keychron&nbsp;V&nbsp;Ultra&nbsp;8K&nbsp;series___");
-            correctionAdd("Keychron V Ultra 8K series___", "Keychron&nbsp;V&nbsp;Ultra&nbsp;8K&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("V Ultra 8K series___", "Keychron&nbsp;V&nbsp;Ultra&nbsp;8K&nbsp;series___");
-            correctionAdd("V ultra series___", "Keychron&nbsp;V&nbsp;Ultra&nbsp;8K&nbsp;series___");
-            correctionAdd("V Ultra series___", "Keychron&nbsp;V&nbsp;Ultra&nbsp;8K&nbsp;series___");
-            correctionAdd("V Ultra 8K___", "Keychron&nbsp;V&nbsp;Ultra&nbsp;8K&nbsp;series___");
-            correctionAdd("V Ultra___", "Keychron&nbsp;V&nbsp;Ultra&nbsp;8K&nbsp;series___");
+            correctionAdd("Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K___", "Keychron V Ultra 8K series___");
+            correctionAdd("V&nbsp;Ultra&nbsp;8K&nbsp;series___", "Keychron V Ultra 8K series___");
+            correctionAdd("V&nbsp;Ultra&nbsp;8K series___", "Keychron V Ultra 8K series___");
+            correctionAdd("V Ultra 8K series___", "Keychron V Ultra 8K series___");
+            correctionAdd("V ultra series___", "Keychron V Ultra 8K series___");
+            correctionAdd("V Ultra series___", "Keychron V Ultra 8K series___");
+            correctionAdd("V Ultra 8K___", "Keychron V Ultra 8K series___");
+            correctionAdd("V Ultra___", "Keychron V Ultra 8K series___");
 
-            correctionAdd("Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K___", "Keychron&nbsp;K&nbsp;Ultra&nbsp;8K&nbsp;series___");
-            correctionAdd("K&nbsp;Ultra&nbsp;8K&nbsp;series___", "Keychron&nbsp;K&nbsp;Ultra&nbsp;8K&nbsp;series___");
-            correctionAdd("Keychron K Ultra 8K series___", "Keychron&nbsp;K&nbsp;Ultra&nbsp;8K&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("K Ultra 8K series___", "Keychron&nbsp;K&nbsp;Ultra&nbsp;8K&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("K Ultra 8 series___", "Keychron&nbsp;K&nbsp;Ultra&nbsp;8K&nbsp;series___");
+            correctionAdd("Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K___", "Keychron K Ultra 8K series___");
+            correctionAdd("K&nbsp;Ultra&nbsp;8K&nbsp;series___", "Keychron K Ultra 8K series___");
+            correctionAdd("K Ultra 8K series___", "Keychron K Ultra 8K series___"); // Sort of identity mapping
+            correctionAdd("K Ultra 8 series___", "Keychron K Ultra 8K series___");
 
-            correctionAdd("Keychron J series___", "Keychron&nbsp;J&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("J series___", "Keychron&nbsp;J&nbsp;series___");
+            correctionAdd("J series___", "Keychron J series___");
 
             // Note: There isn't J HE series, only a J HE 8K series
             //
@@ -182427,45 +182409,45 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron K Pro series___", "https://keychron.de/collections/k-pro-series-iso-keyboard/products/keychron-k10-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection"); // Old: <https://www.keychron.uk/products/keychron-k10-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection>
 
-            URL_Add("Keychron&nbsp;Q&nbsp;Pro&nbsp;series___", "https://www.keychron.com/products/keychron-q6-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron Q Pro series___", "https://www.keychron.com/products/keychron-q6-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
-            URL_Add("Keychron&nbsp;V&nbsp;Max&nbsp;series___", "https://www.keychron.com/products/keychron-v6-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron V Max series___", "https://www.keychron.com/products/keychron-v6-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
-            URL_Add("Keychron&nbsp;Q&nbsp;Max&nbsp;series___", "https://www.keychron.com/products/keychron-q6-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron Q Max series___", "https://www.keychron.com/products/keychron-q6-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
-            URL_Add("Keychron&nbsp;K&nbsp;HE&nbsp;series___", "https://keychron.ca/products/keychron-k10-he-wireless-magnetic-switch-custom-keyboard-iso-layout-collection");
+            URL_Add("Keychron K HE series___", "https://keychron.ca/products/keychron-k10-he-wireless-magnetic-switch-custom-keyboard-iso-layout-collection");
 
-            URL_Add("Keychron&nbsp;Q&nbsp;HE&nbsp;series___", "https://www.keychron.com/products/keychron-q6-he-qmk-wireless-custom-keyboard");
+            URL_Add("Keychron Q HE series___", "https://www.keychron.com/products/keychron-q6-he-qmk-wireless-custom-keyboard");
 
             URL_Add("Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___", "https://www.keychron.com/products/keychron-q6-he-8k-magnetic-switch-keyboard");
 
-            URL_Add("Keychron&nbsp;V&nbsp;series___", "https://www.keychron.com/products/keychron-v6-qmk-custom-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron V series___", "https://www.keychron.com/products/keychron-v6-qmk-custom-mechanical-keyboard-iso-layout-collection");
 
-            URL_Add("Keychron&nbsp;Q&nbsp;series___", "https://www.keychron.com/products/keychron-q6-qmk-custom-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron Q series___", "https://www.keychron.com/products/keychron-q6-qmk-custom-mechanical-keyboard-iso-layout-collection");
 
-            URL_Add("Keychron&nbsp;K&nbsp;Max&nbsp;series___", "https://www.keychron.com/products/keychron-k10-max-qmk-wireless-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron K Max series___", "https://www.keychron.com/products/keychron-k10-max-qmk-wireless-mechanical-keyboard-iso-layout-collection");
 
-            URL_Add("Keychron&nbsp;C&nbsp;Pro&nbsp;series___", "https://www.keychron.com/products/keychron-c2-pro-qmk-via-wired-mechanical-keyboard");
+            URL_Add("Keychron C Pro series___", "https://www.keychron.com/products/keychron-c2-pro-qmk-via-wired-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;C&nbsp;Pro&nbsp;8K&nbsp;series___", "https://www.keychron.uk/collections/keychron-c-pro-series-keyboards/products/keychron-c2-pro-8k-qmk-wired-custom-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron C Pro 8K series___", "https://www.keychron.uk/collections/keychron-c-pro-series-keyboards/products/keychron-c2-pro-8k-qmk-wired-custom-mechanical-keyboard-iso-layout-collection");
 
-            URL_Add("Keychron&nbsp;S&nbsp;series___", "https://www.keychron.com/products/keychron-s1-qmk-custom-mechanical-keyboard");
+            URL_Add("Keychron S series___", "https://www.keychron.com/products/keychron-s1-qmk-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;B&nbsp;Pro&nbsp;series___", "https://www.keychron.com/products/keychron-b6-pro-ultra-slim-wireless-keyboard");
+            URL_Add("Keychron B Pro series___", "https://www.keychron.com/products/keychron-b6-pro-ultra-slim-wireless-keyboard");
 
-            URL_Add("Keychron&nbsp;Q&nbsp;Ultra&nbsp;8K&nbsp;series___", "https://www.keychron.com/products/keychron-q6-ultra-8k-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron Q Ultra 8K series___", "https://www.keychron.com/products/keychron-q6-ultra-8k-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;V&nbsp;Ultra&nbsp;8K&nbsp;series___", "https://www.keychron.com/products/keychron-v6-ultra-8k-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron V Ultra 8K series___", "https://www.keychron.com/products/keychron-v6-ultra-8k-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;K&nbsp;Ultra&nbsp;8K&nbsp;series___", "https://www.kickstarter.com/projects/keytron/keychron-k3-he-and-k3-ultra-slim-wireless-custom-keyboards");
+            URL_Add("Keychron K Ultra 8K series___", "https://www.kickstarter.com/projects/keytron/keychron-k3-he-and-k3-ultra-slim-wireless-custom-keyboards");
 
-            URL_Add("Keychron&nbsp;J&nbsp;series___", "https://www.keychron.com/products/keychron-j5-qmk-wireless-mechanical-keyboard");
+            URL_Add("Keychron J series___", "https://www.keychron.com/products/keychron-j5-qmk-wireless-mechanical-keyboard");
 
             URL_Add("Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___", "https://www.keychron.com/products/keychron-j8-he-8k-magnetic-switch-keyboard");
 
-            URL_Add("Lemokey&nbsp;P&nbsp;Pro&nbsp;series___", "https://www.keychron.com/products/lemokey-p1-qmk-via-custom-gaming-keyboard");
+            URL_Add("Lemokey P Pro series___", "https://www.keychron.com/products/lemokey-p1-qmk-via-custom-gaming-keyboard");
 
-            URL_Add("Lemokey&nbsp;X&nbsp;series___", "https://www.keychron.com/products/lemokey-x3-qmk-via-wired-mechanical-keyboard");
+            URL_Add("Lemokey X series___", "https://www.keychron.com/products/lemokey-x3-qmk-via-wired-mechanical-keyboard");
 
             URL_Add("Keychron keyboards' two-hour deep sleep___", "https://github.com/Keychron/qmk_firmware/issues/380#issuecomment-4886867229");
 
@@ -185446,9 +185428,9 @@ namespace OverflowHelper.core
             // keyboards (during calibration). Or rather,
             // defective magnetic sensors on the PCB.
             //
-            correctionAdd("Keychron&nbsp;K&nbsp;HE&nbsp;series_____", "red blink of death_____");
             correctionAdd("The red blink of death_____", "red blink of death_____");
             correctionAdd("the red blink of death_____", "red blink of death_____");
+            correctionAdd("Keychron K HE series_____", "red blink of death_____");
             correctionAdd("red blinks of death_____", "red blink of death_____");
             correctionAdd("Hall sensor_____", "red blink of death_____");
             correctionAdd("Keychron_____", "red blink of death_____");
