@@ -1545,8 +1545,8 @@ namespace OverflowHelper.core
 
             // Finding the USB identity, USB vendor ID and USB product ID
             correctionAdd("somewhere in the operating system", "can be found somewhere in the operating system");
-            correctionAdd("USB identity", "can be found somewhere in the operating system"); // For the cross reference
-            correctionAdd("USB", "can be found somewhere in the operating system"); // For the cross reference
+            correctionAdd("USB identity", "can be found somewhere in the operating system"); // For the cross-reference
+            correctionAdd("USB", "can be found somewhere in the operating system"); // For the cross-reference
 
             // The link is broken now... (404)
             //
@@ -10607,6 +10607,7 @@ namespace OverflowHelper.core
             correctionAdd("doinf", "doing");
             correctionAdd("doign", "doing");
             correctionAdd("doind", "doing");
+            correctionAdd("goind", "doing");
             correctionAdd("doin", "doing");
             correctionAdd("dong", "doing");
 
@@ -18952,189 +18953,187 @@ namespace OverflowHelper.core
             //
             //   <https://en.wikipedia.org/wiki/Stack_overflow>
             //
-            correctionAdd("Stackoverflown.com", "Stack&nbsp;Overflow");
-            correctionAdd("stackoverflown.com", "Stack&nbsp;Overflow");
-            correctionAdd("Stack Over Follow", "Stack&nbsp;Overflow");
-            correctionAdd("Stackoverflow.com", "Stack&nbsp;Overflow");
-            correctionAdd("StackOverflow.com", "Stack&nbsp;Overflow");
-            correctionAdd("stackoverflow.com", "Stack&nbsp;Overflow");
-            correctionAdd("stackoverflow.SE", "Stack&nbsp;Overflow");
-            correctionAdd("Garbage Overflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stack Overfollow", "Stack&nbsp;Overflow");
-            correctionAdd("Stacked Overflow", "Stack&nbsp;Overflow");
-            correctionAdd("stack over flow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("StackedOverflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("Stack Oversflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stack over flow", "Stack&nbsp;Overflow");
-            correctionAdd("Stack Ooverflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stack Over Flow", "Stack&nbsp;Overflow");
-            correctionAdd("Stack overflown", "Stack&nbsp;Overflow");
-            correctionAdd("stack overflown", "Stack&nbsp;Overflow");
-            correctionAdd("stack-overflow", "Stack&nbsp;Overflow");
-            correctionAdd("stack overflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stackover flow", "Stack&nbsp;Overflow");
-            correctionAdd("Stack overflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stack Overflow", "Stack&nbsp;Overflow");
-            correctionAdd("stackovwerflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stackvoverflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("Stack OverfLow", "Stack&nbsp;Overflow");
-            correctionAdd("stackover flow", "Stack&nbsp;Overflow");
-            correctionAdd("statckoverflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("Stack OverFlow", "Stack&nbsp;Overflow");
-            correctionAdd("Stalckoverflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("stack Overfolw", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("Stack-overflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stack Overlfow", "Stack&nbsp;Overflow");
-            correctionAdd("Stack-Overflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stack OVERFLOW", "Stack&nbsp;Overflow");
-            correctionAdd("Stack Owerflow", "Stack&nbsp;Overflow");
-            correctionAdd("StrackOverflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stackeoverflow", "Stack&nbsp;Overflow");
-            correctionAdd("stackoverflopw", "Stack&nbsp;Overflow");
-            correctionAdd("stack Overflow", "Stack&nbsp;Overflow");
-            correctionAdd("stackvoverflow", "Stack&nbsp;Overflow");
-            correctionAdd("StackOvertflow", "Stack&nbsp;Overflow");
-            correctionAdd("STACK OVERFLOW", "Stack&nbsp;Overflow");
-            correctionAdd("StACK overFLOw", "Stack&nbsp;Overflow");
-            correctionAdd("Whack Overflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stack Overflów", "Stack&nbsp;Overflow");
-            correctionAdd("snark overflow", "Stack&nbsp;Overflow");
-            correctionAdd("Snark Overflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stackoverflown", "Stack&nbsp;Overflow");
-            correctionAdd("stackoverflown", "Stack&nbsp;Overflow");
-            correctionAdd("stock overflow", "Stack&nbsp;Overflow");
-            correctionAdd("StackOvereflow", "Stack&nbsp;Overflow");
-            correctionAdd("stockoverflown", "Stack&nbsp;Overflow");
-            correctionAdd("StackoverBlows", "Stack&nbsp;Overflow");
-            correctionAdd("Staxk Overflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stack OVerflow", "Stack&nbsp;Overflow");
-            correctionAdd("Staff Overflow", "Stack&nbsp;Overflow");
-            correctionAdd("StackOverlflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stack Undertow", "Stack&nbsp;Overflow");
-            correctionAdd("stake overflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stank Overflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stock Overflow", "Stack&nbsp;Overflow");
-            correctionAdd("StaOk Overflow", "Stack&nbsp;Overflow");
-            correctionAdd("Staok Overflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stuck Overflow", "Stack&nbsp;Overflow");
-            correctionAdd("Steal Overflow", "Stack&nbsp;Overflow");
-            correctionAdd("StacOkverflow", "Stack&nbsp;Overflow");
-            correctionAdd("stackoverflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stackoverflow", "Stack&nbsp;Overflow");
-            correctionAdd("StackOverflow", "Stack&nbsp;Overflow");
-            correctionAdd("StackOverFlow", "Stack&nbsp;Overflow");
-            correctionAdd("stackoverfull", "Stack&nbsp;Overflow");
-            correctionAdd("StackOVerflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("Syackoverflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("stackOverflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stakcoverflow", "Stack&nbsp;Overflow");
-            correctionAdd("StackOverfLow", "Stack&nbsp;Overflow");
-            correctionAdd("StackOverlfow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("Stalkoverflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("stackOverFlow", "Stack&nbsp;Overflow");
-            correctionAdd("STACKOVERFLOW", "Stack&nbsp;Overflow");
-            correctionAdd("stafkoverflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("stackvoerflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("stackoverlfow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("Stack Oveflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("StackoverFlow", "Stack&nbsp;Overflow");
-            correctionAdd("StackOwerflow", "Stack&nbsp;Overflow");
-            correctionAdd("satckoverflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stak Overflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stack Overlow", "Stack&nbsp;Overflow");
-            correctionAdd("stack oveflow", "Stack&nbsp;Overflow");
-            correctionAdd("stackowerflow", "Stack&nbsp;Overflow");
-            correctionAdd("overstackflow", "Stack&nbsp;Overflow");
-            correctionAdd("stockoverflow", "Stack&nbsp;Overflow");
-            correctionAdd("StackOvervlow", "Stack&nbsp;Overflow");
-            correctionAdd("Stackoverflwo", "Stack&nbsp;Overflow");
-            correctionAdd("Flak Overflow", "Stack&nbsp;Overflow");
-            correctionAdd("Flak overflow", "Stack&nbsp;Overflow");
-            correctionAdd("StaffOverflow", "Stack&nbsp;Overflow");
-            correctionAdd("SatckOverflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("Satckoverflow", "Stack&nbsp;Overflow");
-            correctionAdd("stacloverflow", "Stack&nbsp;Overflow");
-            correctionAdd("StankOverflow", "Stack&nbsp;Overflow");
-            correctionAdd("stuckoverflow", "Stack&nbsp;Overflow");
-            correctionAdd("steakoverflow", "Stack&nbsp;Overflow");
-            correctionAdd("StackOveflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("stackoveflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("stackoverlow", "Stack&nbsp;Overflow");
-            correctionAdd("StackOverlow", "Stack&nbsp;Overflow");
-            correctionAdd("Stacoverflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("StackOerflow", "Stack&nbsp;Overflow");
-            correctionAdd("StckOverflow", "Stack&nbsp;Overflow");
-            correctionAdd("stackverflow", "Stack&nbsp;Overflow");
-            correctionAdd("stackoverfow", "Stack&nbsp;Overflow");
-            correctionAdd("Stackoveflow", "Stack&nbsp;Overflow");
-            correctionAdd("StakOverflow", "Stack&nbsp;Overflow");
-            correctionAdd("stakoverflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stackoverlow", "Stack&nbsp;Overflow");
-            correctionAdd("stackoerflow", "Stack&nbsp;Overflow");
-            correctionAdd("stackovrflow", "Stack&nbsp;Overflow");
-            correctionAdd("CuntOverflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stackerflow", "Stack&nbsp;Overflow");
-            correctionAdd("stack flow", "Stack&nbsp;Overflow");
-            correctionAdd("StckOvrflw", "Stack&nbsp;Overflow");
-            correctionAdd("SO dot com", "Stack&nbsp;Overflow");
-            correctionAdd("StackOFlow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("Stackflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("stackflow", "Stack&nbsp;Overflow"); // Misspelling.
-            correctionAdd("Stackover", "Stack&nbsp;Overflow");
-            correctionAdd("overflow", "Stack&nbsp;Overflow");
-            correctionAdd("SO.main", "Stack&nbsp;Overflow");
-            correctionAdd("StackOF", "Stack&nbsp;Overflow");
-            correctionAdd("SO flow", "Stack&nbsp;Overflow");
-            correctionAdd("StackO", "Stack&nbsp;Overflow");
-            correctionAdd("SOflow", "Stack&nbsp;Overflow");
-            correctionAdd("Stack", "Stack&nbsp;Overflow"); // The unfortunate internal slang used inside the company
-            correctionAdd("stack", "Stack&nbsp;Overflow");
-            correctionAdd("enSO", "Stack&nbsp;Overflow");
-            correctionAdd("SoF", "Stack&nbsp;Overflow");
-            correctionAdd("sof", "Stack&nbsp;Overflow");
-            correctionAdd("SOF", "Stack&nbsp;Overflow");
-            correctionAdd("S/O", "Stack&nbsp;Overflow");
-            correctionAdd("S.O", "Stack&nbsp;Overflow");
-            correctionAdd("ST", "Stack&nbsp;Overflow");
-            correctionAdd("so", "Stack&nbsp;Overflow");
-            correctionAdd("SO", "Stack&nbsp;Overflow");
-            correctionAdd("So", "Stack&nbsp;Overflow");
+            correctionAdd("Stackoverflown.com", "Stack Overflow");
+            correctionAdd("stackoverflown.com", "Stack Overflow");
+            correctionAdd("Stack Over Follow", "Stack Overflow");
+            correctionAdd("Stackoverflow.com", "Stack Overflow");
+            correctionAdd("StackOverflow.com", "Stack Overflow");
+            correctionAdd("stackoverflow.com", "Stack Overflow");
+            correctionAdd("stackoverflow.SE", "Stack Overflow");
+            correctionAdd("Garbage Overflow", "Stack Overflow");
+            correctionAdd("Stack Overfollow", "Stack Overflow");
+            correctionAdd("Stacked Overflow", "Stack Overflow");
+            correctionAdd("stack over flow", "Stack Overflow"); // Misspelling.
+            correctionAdd("StackedOverflow", "Stack Overflow"); // Misspelling.
+            correctionAdd("Stack Oversflow", "Stack Overflow");
+            correctionAdd("Stack over flow", "Stack Overflow");
+            correctionAdd("Stack Ooverflow", "Stack Overflow");
+            correctionAdd("Stack Over Flow", "Stack Overflow");
+            correctionAdd("Stack overflown", "Stack Overflow");
+            correctionAdd("stack overflown", "Stack Overflow");
+            correctionAdd("stack-overflow", "Stack Overflow");
+            correctionAdd("stack overflow", "Stack Overflow");
+            correctionAdd("Stackover flow", "Stack Overflow");
+            correctionAdd("Stack overflow", "Stack Overflow");
+            correctionAdd("stackovwerflow", "Stack Overflow");
+            correctionAdd("Stackvoverflow", "Stack Overflow"); // Misspelling.
+            correctionAdd("Stack OverfLow", "Stack Overflow");
+            correctionAdd("stackover flow", "Stack Overflow");
+            correctionAdd("statckoverflow", "Stack Overflow"); // Misspelling.
+            correctionAdd("Stack OverFlow", "Stack Overflow");
+            correctionAdd("Stalckoverflow", "Stack Overflow"); // Misspelling.
+            correctionAdd("stack Overfolw", "Stack Overflow"); // Misspelling.
+            correctionAdd("Stack-overflow", "Stack Overflow");
+            correctionAdd("Stack Overlfow", "Stack Overflow");
+            correctionAdd("Stack-Overflow", "Stack Overflow");
+            correctionAdd("Stack OVERFLOW", "Stack Overflow");
+            correctionAdd("Stack Owerflow", "Stack Overflow");
+            correctionAdd("StrackOverflow", "Stack Overflow");
+            correctionAdd("Stackeoverflow", "Stack Overflow");
+            correctionAdd("stackoverflopw", "Stack Overflow");
+            correctionAdd("stack Overflow", "Stack Overflow");
+            correctionAdd("stackvoverflow", "Stack Overflow");
+            correctionAdd("StackOvertflow", "Stack Overflow");
+            correctionAdd("STACK OVERFLOW", "Stack Overflow");
+            correctionAdd("StACK overFLOw", "Stack Overflow");
+            correctionAdd("Whack Overflow", "Stack Overflow");
+            correctionAdd("Stack Overflów", "Stack Overflow");
+            correctionAdd("snark overflow", "Stack Overflow");
+            correctionAdd("Snark Overflow", "Stack Overflow");
+            correctionAdd("Stackoverflown", "Stack Overflow");
+            correctionAdd("stackoverflown", "Stack Overflow");
+            correctionAdd("stock overflow", "Stack Overflow");
+            correctionAdd("StackOvereflow", "Stack Overflow");
+            correctionAdd("stockoverflown", "Stack Overflow");
+            correctionAdd("StackoverBlows", "Stack Overflow");
+            correctionAdd("Staxk Overflow", "Stack Overflow");
+            correctionAdd("Stack OVerflow", "Stack Overflow");
+            correctionAdd("Staff Overflow", "Stack Overflow");
+            correctionAdd("StackOverlflow", "Stack Overflow");
+            correctionAdd("Stack Undertow", "Stack Overflow");
+            correctionAdd("stake overflow", "Stack Overflow");
+            correctionAdd("Stank Overflow", "Stack Overflow");
+            correctionAdd("Stock Overflow", "Stack Overflow");
+            correctionAdd("StaOk Overflow", "Stack Overflow");
+            correctionAdd("Staok Overflow", "Stack Overflow");
+            correctionAdd("Stuck Overflow", "Stack Overflow");
+            correctionAdd("Steal Overflow", "Stack Overflow");
+            correctionAdd("StacOkverflow", "Stack Overflow");
+            correctionAdd("stackoverflow", "Stack Overflow");
+            correctionAdd("Stackoverflow", "Stack Overflow");
+            correctionAdd("StackOverflow", "Stack Overflow");
+            correctionAdd("StackOverFlow", "Stack Overflow");
+            correctionAdd("stackoverfull", "Stack Overflow");
+            correctionAdd("StackOVerflow", "Stack Overflow"); // Misspelling.
+            correctionAdd("Syackoverflow", "Stack Overflow"); // Misspelling.
+            correctionAdd("stackOverflow", "Stack Overflow");
+            correctionAdd("Stakcoverflow", "Stack Overflow");
+            correctionAdd("StackOverfLow", "Stack Overflow");
+            correctionAdd("StackOverlfow", "Stack Overflow"); // Misspelling.
+            correctionAdd("Stalkoverflow", "Stack Overflow"); // Misspelling.
+            correctionAdd("stackOverFlow", "Stack Overflow");
+            correctionAdd("STACKOVERFLOW", "Stack Overflow");
+            correctionAdd("stafkoverflow", "Stack Overflow"); // Misspelling.
+            correctionAdd("stackvoerflow", "Stack Overflow"); // Misspelling.
+            correctionAdd("stackoverlfow", "Stack Overflow"); // Misspelling.
+            correctionAdd("Stack Oveflow", "Stack Overflow"); // Misspelling.
+            correctionAdd("StackoverFlow", "Stack Overflow");
+            correctionAdd("StackOwerflow", "Stack Overflow");
+            correctionAdd("satckoverflow", "Stack Overflow");
+            correctionAdd("Stak Overflow", "Stack Overflow");
+            correctionAdd("Stack Overlow", "Stack Overflow");
+            correctionAdd("stack oveflow", "Stack Overflow");
+            correctionAdd("stackowerflow", "Stack Overflow");
+            correctionAdd("overstackflow", "Stack Overflow");
+            correctionAdd("stockoverflow", "Stack Overflow");
+            correctionAdd("StackOvervlow", "Stack Overflow");
+            correctionAdd("Stackoverflwo", "Stack Overflow");
+            correctionAdd("Flak Overflow", "Stack Overflow");
+            correctionAdd("Flak overflow", "Stack Overflow");
+            correctionAdd("StaffOverflow", "Stack Overflow");
+            correctionAdd("SatckOverflow", "Stack Overflow"); // Misspelling.
+            correctionAdd("Satckoverflow", "Stack Overflow");
+            correctionAdd("stacloverflow", "Stack Overflow");
+            correctionAdd("StankOverflow", "Stack Overflow");
+            correctionAdd("stuckoverflow", "Stack Overflow");
+            correctionAdd("steakoverflow", "Stack Overflow");
+            correctionAdd("StackOveflow", "Stack Overflow"); // Misspelling.
+            correctionAdd("stackoveflow", "Stack Overflow"); // Misspelling.
+            correctionAdd("stackoverlow", "Stack Overflow");
+            correctionAdd("StackOverlow", "Stack Overflow");
+            correctionAdd("Stacoverflow", "Stack Overflow"); // Misspelling.
+            correctionAdd("StackOerflow", "Stack Overflow");
+            correctionAdd("StckOverflow", "Stack Overflow");
+            correctionAdd("stackverflow", "Stack Overflow");
+            correctionAdd("stackoverfow", "Stack Overflow");
+            correctionAdd("Stackoveflow", "Stack Overflow");
+            correctionAdd("StakOverflow", "Stack Overflow");
+            correctionAdd("stakoverflow", "Stack Overflow");
+            correctionAdd("Stackoverlow", "Stack Overflow");
+            correctionAdd("stackoerflow", "Stack Overflow");
+            correctionAdd("stackovrflow", "Stack Overflow");
+            correctionAdd("CuntOverflow", "Stack Overflow");
+            correctionAdd("Stackerflow", "Stack Overflow");
+            correctionAdd("stack flow", "Stack Overflow");
+            correctionAdd("StckOvrflw", "Stack Overflow");
+            correctionAdd("SO dot com", "Stack Overflow");
+            correctionAdd("StackOFlow", "Stack Overflow"); // Misspelling.
+            correctionAdd("Stackflow", "Stack Overflow"); // Misspelling.
+            correctionAdd("stackflow", "Stack Overflow"); // Misspelling.
+            correctionAdd("Stackover", "Stack Overflow");
+            correctionAdd("overflow", "Stack Overflow");
+            correctionAdd("SO.main", "Stack Overflow");
+            correctionAdd("StackOF", "Stack Overflow");
+            correctionAdd("SO flow", "Stack Overflow");
+            correctionAdd("StackO", "Stack Overflow");
+            correctionAdd("SOflow", "Stack Overflow");
+            correctionAdd("Stack", "Stack Overflow"); // The unfortunate internal slang used inside the company
+            correctionAdd("stack", "Stack Overflow");
+            correctionAdd("enSO", "Stack Overflow");
+            correctionAdd("SoF", "Stack Overflow");
+            correctionAdd("sof", "Stack Overflow");
+            correctionAdd("SOF", "Stack Overflow");
+            correctionAdd("S/O", "Stack Overflow");
+            correctionAdd("S.O", "Stack Overflow");
+            correctionAdd("ST", "Stack Overflow");
+            correctionAdd("so", "Stack Overflow");
+            correctionAdd("SO", "Stack Overflow");
+            correctionAdd("So", "Stack Overflow");
 
-            correctionAdd("Meta Stack&nbsp;Overflow", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Stack&nbsp;Overflow META", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Meta Stack Overflow", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("meta stack overflow", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("stack overflow META", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Stack Overflow META", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Stack Overflow Meta", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Neta Stack Overflow", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("meta-stack-overflow", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Meta.StackOverflow", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("meta stackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("meta-stackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("meta.stackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Meta-stackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Meta Stackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("stackoverflow META", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("StackOverflow meta", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Meta stackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Meta.Stackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("StackOverflow Meta", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Meta StackOverflow", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("metastackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Metastackoverflow", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("MetaStackOverflow", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Meta.SO", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("META SO", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Meta SO", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Meta-SO", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("meta.so", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("meta.SO", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("meta SO", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("MetaSO", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("Meta", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("MSO", "Meta&nbsp;Stack&nbsp;Overflow");
-            correctionAdd("mso", "Meta&nbsp;Stack&nbsp;Overflow");
+            correctionAdd("Meta Stack&nbsp;Overflow", "Meta Stack Overflow");
+            correctionAdd("Stack&nbsp;Overflow META", "Meta Stack Overflow");
+            correctionAdd("meta stack overflow", "Meta Stack Overflow");
+            correctionAdd("stack overflow META", "Meta Stack Overflow");
+            correctionAdd("Stack Overflow META", "Meta Stack Overflow");
+            correctionAdd("Stack Overflow Meta", "Meta Stack Overflow");
+            correctionAdd("Neta Stack Overflow", "Meta Stack Overflow");
+            correctionAdd("meta-stack-overflow", "Meta Stack Overflow");
+            correctionAdd("Meta.StackOverflow", "Meta Stack Overflow");
+            correctionAdd("meta stackoverflow", "Meta Stack Overflow");
+            correctionAdd("meta-stackoverflow", "Meta Stack Overflow");
+            correctionAdd("meta.stackoverflow", "Meta Stack Overflow");
+            correctionAdd("Meta-stackoverflow", "Meta Stack Overflow");
+            correctionAdd("Meta Stackoverflow", "Meta Stack Overflow");
+            correctionAdd("stackoverflow META", "Meta Stack Overflow");
+            correctionAdd("StackOverflow meta", "Meta Stack Overflow");
+            correctionAdd("Meta stackoverflow", "Meta Stack Overflow");
+            correctionAdd("Meta.Stackoverflow", "Meta Stack Overflow");
+            correctionAdd("StackOverflow Meta", "Meta Stack Overflow");
+            correctionAdd("Meta StackOverflow", "Meta Stack Overflow");
+            correctionAdd("metastackoverflow", "Meta Stack Overflow");
+            correctionAdd("Metastackoverflow", "Meta Stack Overflow");
+            correctionAdd("MetaStackOverflow", "Meta Stack Overflow");
+            correctionAdd("Meta.SO", "Meta Stack Overflow");
+            correctionAdd("META SO", "Meta Stack Overflow");
+            correctionAdd("Meta SO", "Meta Stack Overflow");
+            correctionAdd("Meta-SO", "Meta Stack Overflow");
+            correctionAdd("meta.so", "Meta Stack Overflow");
+            correctionAdd("meta.SO", "Meta Stack Overflow");
+            correctionAdd("meta SO", "Meta Stack Overflow");
+            correctionAdd("MetaSO", "Meta Stack Overflow");
+            correctionAdd("Meta", "Meta Stack Overflow");
+            correctionAdd("MSO", "Meta Stack Overflow");
+            correctionAdd("mso", "Meta Stack Overflow");
 
             correctionAdd("Stack&nbsp;Overflow teams", "Stack Overflow for Teams");
             correctionAdd("Stack Overflow for teams", "Stack Overflow for Teams");
@@ -34312,6 +34311,7 @@ namespace OverflowHelper.core
             correctionAdd("file-system", "file system");
             correctionAdd("File system", "file system");
             correctionAdd("File System", "file system");
+            correctionAdd("File-system", "file system");
             correctionAdd("FileSystem", "file system");
             correctionAdd("filesystem", "file system");
             correctionAdd("file sytem", "file system");
@@ -35279,6 +35279,7 @@ namespace OverflowHelper.core
             correctionAdd("ULR", "URL");
 
             correctionAdd("url's", "URLs");
+            correctionAdd("URL's", "URLs");
 
             correctionAdd("Web site", "website");
             correctionAdd("web site", "website");
@@ -57922,9 +57923,19 @@ namespace OverflowHelper.core
 
             correctionAdd("non-active", "nonactive");
 
-            correctionAdd("intractive", "interactive");
-
             correctionAdd("pro-active", "proactive");
+
+            correctionAdd("interect", "interact");
+
+            correctionAdd("intereaction", "interaction");
+            correctionAdd("interection", "interaction");
+            correctionAdd("iteraction", "interaction");
+            correctionAdd("intraction", "interaction");
+
+            correctionAdd("intereactions", "interactions");
+
+            correctionAdd("interractive", "interactive");
+            correctionAdd("intractive", "interactive");
 
             correctionAdd("interactivly", "interactively");
 
@@ -62390,10 +62401,14 @@ namespace OverflowHelper.core
 
             correctionAdd("repluged", "replugged");
 
+            correctionAdd("pluged in", "plugged in");
+
+            // The noun
             correctionAdd("pluggin", "plug-in");
             correctionAdd("plug in", "plug-in");
             correctionAdd("plugin", "plug-in");
 
+            // The noun
             correctionAdd("pluggins", "plug-ins");
             correctionAdd("plugs-in", "plug-ins");
             correctionAdd("plugins", "plug-ins");
@@ -70739,6 +70754,8 @@ namespace OverflowHelper.core
             //   <https://www.rtings.com/keyboard-switch/reviews/best/clicky>
             //   <https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX>
             //
+            correctionAdd("Blue Switch", "clicky switches");
+            correctionAdd("blue switch", "clicky switches");
             correctionAdd("Clickiez", "clicky switches");
             correctionAdd("clickies", "clicky switches");
             correctionAdd("clickiez", "clicky switches");
@@ -74279,6 +74296,7 @@ namespace OverflowHelper.core
             correctionAdd("plagiarizing", "plagiarising");
             correctionAdd("plagirising", "plagiarising");
             correctionAdd("plagarizing", "plagiarising");
+            correctionAdd("plagiaring", "plagiarising");
 
             correctionAdd("plagiarizers", "plagiarisers");
 
@@ -76111,13 +76129,6 @@ namespace OverflowHelper.core
             //
             correctionAdd("mid-term", "midterm exam");
             correctionAdd("midterm", "midterm exam");
-
-            correctionAdd("interect", "interact");
-
-            correctionAdd("intereaction", "interaction");
-            correctionAdd("interection", "interaction");
-            correctionAdd("iteraction", "interaction");
-            correctionAdd("intraction", "interaction");
 
             correctionAdd("over-ride", "override");
             correctionAdd("overide", "override");
@@ -79812,6 +79823,7 @@ namespace OverflowHelper.core
             correctionAdd("okai", "OK");
             correctionAdd("Okey", "OK");
             correctionAdd("okey", "OK");
+            correctionAdd("pkay", "OK"); // A true typo (of "okay")
             correctionAdd("Oke", "OK");
             correctionAdd("oke", "OK");
             correctionAdd("ok", "OK");
@@ -80106,8 +80118,6 @@ namespace OverflowHelper.core
 
             correctionAdd("interrim", "interim");
             correctionAdd("interin", "interim");
-
-            correctionAdd("intereactions", "interactions");
 
             correctionAdd("intervall", "interval");
 
@@ -89933,9 +89943,20 @@ namespace OverflowHelper.core
             // C3 Pro keymap:
             //
             //   <https://github.com/KeychronMacro/qmk_firmware/blob/new_playground/keyboards/keychron/c3_pro/ansi/red/keymaps/via/keymap.c#L47>
-            //     Note: In QMK, the knob(s) is counted in the keymap,
-            //           but not in the key numbering scheme (at least
-            //           not when it comes to the RGB light...)
+            //
+            //     Notes:
+            //
+            //       * In QMK, the knob(s) is counted in the keymap,
+            //         but not in the key numbering scheme (at least
+            //         not when it comes to the RGB light...)
+            //
+            //       * This is for orignal red LED only variant, without
+            //         the keycode for Windows key lock. RGB variant:
+            //
+            //           <XYZ>
+            //
+            //             But it doesn't have the keycode for Windows
+            //             key lock either(?), only the C2 Pro?
             //
             // C3 Pro source code:
             //
@@ -95759,34 +95780,33 @@ namespace OverflowHelper.core
             //       <https://www.keychron.com/blogs/news/how-to-disassemble-the-k6-pro>
             //         How to disassemble the K6 Pro
             //
-            correctionAdd("keychron k10 pro", "Keychron&nbsp;K10&nbsp;Pro");
-            correctionAdd("keychron K10 pro", "Keychron&nbsp;K10&nbsp;Pro");
-            correctionAdd("Keychron K10 Pro", "Keychron&nbsp;K10&nbsp;Pro"); // Sort of identity mapping
-            correctionAdd("Keychron 10 PRO", "Keychron&nbsp;K10&nbsp;Pro");
-            correctionAdd("Keychain K10", "Keychron&nbsp;K10&nbsp;Pro");
-            correctionAdd("K10&nbsp;Pro", "Keychron&nbsp;K10&nbsp;Pro");
-            correctionAdd("Keychron 10", "Keychron&nbsp;K10&nbsp;Pro");
-            correctionAdd("K10 Pro Max", "Keychron&nbsp;K10&nbsp;Pro");
-            correctionAdd("K10 Pro ISO", "Keychron&nbsp;K10&nbsp;Pro");
-            correctionAdd("k10 pro", "Keychron&nbsp;K10&nbsp;Pro");
-            correctionAdd("K10 Pro", "Keychron&nbsp;K10&nbsp;Pro");
-            correctionAdd("K10 pro", "Keychron&nbsp;K10&nbsp;Pro");
-            correctionAdd("k10 Pro", "Keychron&nbsp;K10&nbsp;Pro");
-            correctionAdd("V10 Pro", "Keychron&nbsp;K10&nbsp;Pro"); // The V Pro series does not exist... The closest may the Q Pro series
-            correctionAdd("K10P-H1", "Keychron&nbsp;K10&nbsp;Pro");
-            correctionAdd("K10P-H3", "Keychron&nbsp;K10&nbsp;Pro");
-            correctionAdd("K10Pro", "Keychron&nbsp;K10&nbsp;Pro");
-            correctionAdd("K10PH1", "Keychron&nbsp;K10&nbsp;Pro");
-            correctionAdd("K10PH3", "Keychron&nbsp;K10&nbsp;Pro");
-            correctionAdd("k10pro", "Keychron&nbsp;K10&nbsp;Pro");
-            correctionAdd("K10pro", "Keychron&nbsp;K10&nbsp;Pro");
-            correctionAdd("pro 10", "Keychron&nbsp;K10&nbsp;Pro");
-            correctionAdd("10 PRO", "Keychron&nbsp;K10&nbsp;Pro");
-            correctionAdd("pro10", "Keychron&nbsp;K10&nbsp;Pro");
-            correctionAdd("K10P", "Keychron&nbsp;K10&nbsp;Pro");
-            correctionAdd("K10", "Keychron&nbsp;K10&nbsp;Pro");
-            correctionAdd("k10", "Keychron&nbsp;K10&nbsp;Pro");
-            correctionAdd("K Pro series", "Keychron&nbsp;K10&nbsp;Pro"); // For the cross-reference
+            correctionAdd("keychron k10 pro", "Keychron K10 Pro");
+            correctionAdd("keychron K10 pro", "Keychron K10 Pro");
+            correctionAdd("Keychron 10 PRO", "Keychron K10 Pro");
+            correctionAdd("Keychain K10", "Keychron K10 Pro");
+            correctionAdd("K10&nbsp;Pro", "Keychron K10 Pro");
+            correctionAdd("K Pro series", "Keychron K10 Pro"); // For the cross-reference
+            correctionAdd("Keychron 10", "Keychron K10 Pro");
+            correctionAdd("K10 Pro Max", "Keychron K10 Pro");
+            correctionAdd("K10 Pro ISO", "Keychron K10 Pro");
+            correctionAdd("k10 pro", "Keychron K10 Pro");
+            correctionAdd("K10 Pro", "Keychron K10 Pro");
+            correctionAdd("K10 pro", "Keychron K10 Pro");
+            correctionAdd("k10 Pro", "Keychron K10 Pro");
+            correctionAdd("V10 Pro", "Keychron K10 Pro"); // The V Pro series does not exist... The closest may the Q Pro series
+            correctionAdd("K10P-H1", "Keychron K10 Pro");
+            correctionAdd("K10P-H3", "Keychron K10 Pro");
+            correctionAdd("K10Pro", "Keychron K10 Pro");
+            correctionAdd("K10PH1", "Keychron K10 Pro");
+            correctionAdd("K10PH3", "Keychron K10 Pro");
+            correctionAdd("k10pro", "Keychron K10 Pro");
+            correctionAdd("K10pro", "Keychron K10 Pro");
+            correctionAdd("pro 10", "Keychron K10 Pro");
+            correctionAdd("10 PRO", "Keychron K10 Pro");
+            correctionAdd("pro10", "Keychron K10 Pro");
+            correctionAdd("K10P", "Keychron K10 Pro");
+            correctionAdd("K10", "Keychron K10 Pro");
+            correctionAdd("k10", "Keychron K10 Pro");
 
             // A 109-key (105%. Not true TKL) full-size wired
             // and wireless (both Bluetooth and '2.4 GHz')
@@ -99634,6 +99654,10 @@ namespace OverflowHelper.core
             correctionAdd("NVidia", "Nvidia");
             correctionAdd("nVIDIA", "Nvidia");
             correctionAdd("Nvidua", "Nvidia");
+            correctionAdd("Nvidea", "Nvidia");
+            correctionAdd("nVIDEA", "Nvidia");
+            correctionAdd("nVidea", "Nvidia");
+            correctionAdd("nvidea", "Nvidia");
             correctionAdd("NVDIA", "Nvidia");
             correctionAdd("Nvdia", "Nvidia");
             correctionAdd("nvdia", "Nvidia");
@@ -107741,6 +107765,7 @@ namespace OverflowHelper.core
 
             correctionAdd("suddently", "suddenly");
             correctionAdd("suddent", "suddenly");
+            correctionAdd("suddely", "suddenly");
 
             correctionAdd("pudb", "PuDB");
             correctionAdd("Pudb", "PuDB");
@@ -114459,8 +114484,6 @@ namespace OverflowHelper.core
 
             URL_Add("favoured", "https://en.wiktionary.org/wiki/favoured#Adjective");
 
-            URL_Add("plug-in", "https://en.wiktionary.org/wiki/plug-in#Noun");
-
             URL_Add("recursive", "https://en.wiktionary.org/wiki/recursive#Adjective");
 
             URL_Add("traverse", "https://en.wiktionary.org/wiki/traverse#Verb");
@@ -118617,8 +118640,6 @@ namespace OverflowHelper.core
 
             URL_Add("evaluate", "https://en.wiktionary.org/wiki/evaluate#Verb");
 
-            URL_Add("plug", "https://en.wiktionary.org/wiki/plug#Verb");
-
             URL_Add("scripting", "https://en.wiktionary.org/wiki/scripting#Noun");
 
             URL_Add("The BMJ", "https://en.wikipedia.org/wiki/The_BMJ");
@@ -122093,8 +122114,6 @@ namespace OverflowHelper.core
 
             URL_Add("NUI", "https://docs.fivem.net/docs/scripting-manual/nui-development/");
 
-            URL_Add("pluggable", "https://en.wiktionary.org/wiki/pluggable#Adjective");
-
             URL_Add("worryingly", "https://en.wiktionary.org/wiki/worryingly#Adverb");
 
             URL_Add("000webhost", "https://en.wikipedia.org/wiki/Hostinger#History");
@@ -123437,8 +123456,6 @@ namespace OverflowHelper.core
 
             URL_Add("jump cutting", "https://en.wikipedia.org/wiki/Jump_cut");
 
-            URL_Add("plugged", "https://en.wiktionary.org/wiki/plug#Verb");
-
             URL_Add("Tally", "https://en.wikipedia.org/wiki/Tally_Solutions");
 
             URL_Add("bells and whistles", "https://en.wiktionary.org/wiki/bells_and_whistles#Noun");
@@ -123454,8 +123471,6 @@ namespace OverflowHelper.core
             URL_Add("HyperX", "https://en.wikipedia.org/wiki/Kingston_Technology");
 
             URL_Add("jump-starting", "https://en.wiktionary.org/wiki/jump-start#Verb");
-
-            URL_Add("replugged", "https://en.wiktionary.org/wiki/replug#Verb");
 
             URL_Add("well-ordered", "https://en.wiktionary.org/wiki/well-ordered#Adjective");
 
@@ -123797,8 +123812,6 @@ namespace OverflowHelper.core
 
             URL_Add("laxity", "https://en.wiktionary.org/wiki/laxity#Noun");
 
-            URL_Add("plug-ins", "https://en.wiktionary.org/wiki/plug-in#Noun");
-
             URL_Add("Soot", "https://en.wikipedia.org/wiki/Soot_(software)");
 
             URL_Add("licensing", "https://en.wiktionary.org/wiki/license#Verb");
@@ -124084,8 +124097,6 @@ namespace OverflowHelper.core
             URL_Add("perpetuated", "https://en.wiktionary.org/wiki/perpetuate#Verb");
 
             URL_Add("jack of all trades, master of none", "https://en.wiktionary.org/wiki/jack_of_all_trades,_master_of_none#Noun");
-
-            URL_Add("plug and play", "https://en.wiktionary.org/wiki/plug_and_play#Noun");
 
             URL_Add("moot point", "https://en.wiktionary.org/wiki/moot_point#Noun");
 
@@ -125182,8 +125193,6 @@ namespace OverflowHelper.core
             URL_Add("learned helplessness", "https://en.wikipedia.org/wiki/Learned_helplessness");
 
             URL_Add("more curious", "https://en.wiktionary.org/wiki/curious#Adjective");
-
-            URL_Add("Meta&nbsp;Stack&nbsp;Overflow", "https://stackoverflow.com/help/whats-meta"); // Old: https://en.wikipedia.org/wiki/Stack_Overflow#Meta_Stack_Overflow
 
             URL_Add("MCVE", "https://stackoverflow.com/help/minimal-reproducible-example"); // Old: <https://stackoverflow.com/help/mcve>
 
@@ -136855,7 +136864,9 @@ namespace OverflowHelper.core
 
             URL_Add("figure caption", "https://erinwrightwriting.com/how-to-write-figure-captions/");
 
-            URL_Add("Stack&nbsp;Overflow", "https://stackoverflow.design/brand/copywriting/naming/"); // Old: https://stackoverflow.com/legal/trademark-guidance. Old: http://stackoverflow.com/legal/trademark-guidance. Even older: https://en.wikipedia.org/wiki/Stack_Overflow
+            URL_Add("Stack Overflow", "https://stackoverflow.design/brand/copywriting/naming/"); // Old: https://stackoverflow.com/legal/trademark-guidance. Old: http://stackoverflow.com/legal/trademark-guidance. Even older: https://en.wikipedia.org/wiki/Stack_Overflow
+
+            URL_Add("Meta Stack Overflow", "https://stackoverflow.com/help/whats-meta"); // Old: https://en.wikipedia.org/wiki/Stack_Overflow#Meta_Stack_Overflow
 
             URL_Add("9-patch file", "https://developer.android.com/studio/write/draw9patch");
 
@@ -147559,7 +147570,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron K9 Pro", "https://www.keychron.uk/products/keychron-k9-pro-qmk-via-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;K10&nbsp;Pro", "https://keychron.de/collections/k-pro-series-iso-keyboard/products/keychron-k10-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection"); // Old: <https://www.keychron.uk/products/keychron-k10-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection>
+            URL_Add("Keychron K10 Pro", "https://keychron.de/collections/k-pro-series-iso-keyboard/products/keychron-k10-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection"); // Old: <https://www.keychron.uk/products/keychron-k10-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection>
 
             URL_Add("Keychron K11 Pro", "https://www.keychron.com/products/keychron-k11-pro-alice-layout-qmk-via-wireless-custom-mechanical-keyboard");
 
@@ -151501,6 +151512,22 @@ namespace OverflowHelper.core
 
             URL_Add("PyOrient", "https://orientdb.com/docs/latest/pyorient/PyOrient.html");
 
+            URL_Add("plug", "https://en.wiktionary.org/wiki/plug#Verb");
+
+            URL_Add("plugged", "https://en.wiktionary.org/wiki/plug#Verb");
+
+            URL_Add("pluggable", "https://en.wiktionary.org/wiki/pluggable#Adjective");
+
+            URL_Add("replugged", "https://en.wiktionary.org/wiki/replug#Verb");
+
+            URL_Add("plugged in", "https://en.wiktionary.org/wiki/plug_in#Verb");
+
+            URL_Add("plug-in", "https://en.wiktionary.org/wiki/plug-in#Noun");
+
+            URL_Add("plug-ins", "https://en.wiktionary.org/wiki/plug-in#Noun");
+
+            URL_Add("plug and play", "https://en.wiktionary.org/wiki/plug_and_play#Noun");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -152366,15 +152393,17 @@ namespace OverflowHelper.core
             // Tactile and clicky.
             //
             correctionAdd("Cherry MX Blue switch_", "Cherry MX Blue switches_");
+            correctionAdd("Cherry MX blues_", "Cherry MX Blue switches_");
+            correctionAdd("cherry MX blues_", "Cherry MX Blue switches_");
             correctionAdd("Cherry MX blue_", "Cherry MX Blue switches_");
             correctionAdd("cherry mx blue_", "Cherry MX Blue switches_");
             correctionAdd("Cherry MX Blue_", "Cherry MX Blue switches_");
             correctionAdd("Cherry Blue_", "Cherry MX Blue switches_");
             correctionAdd("MX Blues_", "Cherry MX Blue switches_");
-            correctionAdd("Mx blue_", "Cherry MX Blue switches_");
-            correctionAdd("mx blue_", "Cherry MX Blue switches_");
             correctionAdd("MX Blue_", "Cherry MX Blue switches_");
             correctionAdd("MX blue_", "Cherry MX Blue switches_");
+            correctionAdd("Mx blue_", "Cherry MX Blue switches_");
+            correctionAdd("mx blue_", "Cherry MX Blue switches_");
             correctionAdd("blue_", "Cherry MX Blue switches_");
 
             // A type of switch for mechanical keyboards
@@ -154633,7 +154662,6 @@ namespace OverflowHelper.core
             //   <https://www.reddit.com/r/Keychron/comments/1as61bs/comment/kqvmae2/>
             //
             correctionAdd("Bluetooth firmware version 1.32.2 for Keychron K Pro and Q Pro series keyboards_", "download URL for Bluetooth firmware version 1.32_");
-            correctionAdd("Keychron&nbsp;K10&nbsp;Pro_", "download URL for Bluetooth firmware version 1.32_");
             correctionAdd("Keychron&nbsp;Q6&nbsp;Pro_", "download URL for Bluetooth firmware version 1.32_");
             correctionAdd("Keychron K10 Pro_", "download URL for Bluetooth firmware version 1.32_");
             correctionAdd("Keychron Q6 Pro_", "download URL for Bluetooth firmware version 1.32_");
@@ -156469,13 +156497,12 @@ namespace OverflowHelper.core
             // A third option is the internal "About" page,
             // <https://stackoverflow.com/tour>
             //
-            correctionAdd("Stack Overflow_", "Stack&nbsp;Overflow_");
-            correctionAdd("Stack overflow_", "Stack&nbsp;Overflow_");
-            correctionAdd("stack overflow_", "Stack&nbsp;Overflow_");
-            correctionAdd("StackOverflow_", "Stack&nbsp;Overflow_");
-            correctionAdd("stackoverflow_", "Stack&nbsp;Overflow_");
-            correctionAdd("Stackoverflow_", "Stack&nbsp;Overflow_");
-            correctionAdd("SO_", "Stack&nbsp;Overflow_");
+            correctionAdd("Stack overflow_", "Stack Overflow_");
+            correctionAdd("stack overflow_", "Stack Overflow_");
+            correctionAdd("StackOverflow_", "Stack Overflow_");
+            correctionAdd("stackoverflow_", "Stack Overflow_");
+            correctionAdd("Stackoverflow_", "Stack Overflow_");
+            correctionAdd("SO_", "Stack Overflow_");
 
             // Stack Overflow / Stack Exchange
             correctionAdd("code of conduct_", "the code of conduct_");
@@ -159309,18 +159336,18 @@ namespace OverflowHelper.core
             //
             //     <https://www.reddit.com/r/Keychron/comments/1dgq2lu/comment/m30pqhy/>
             //
-            correctionAdd("Keychron B1 Pro_", "Keychron&nbsp;B1&nbsp;Pro_"); // Sort of identity mapping
-            correctionAdd("keychorn b1 pro_", "Keychron&nbsp;B1&nbsp;Pro_");
-            correctionAdd("keychron b1 pro_", "Keychron&nbsp;B1&nbsp;Pro_");
-            correctionAdd("Keychron B1_", "Keychron&nbsp;B1&nbsp;Pro_");
-            correctionAdd("B1&nbsp;Pro_", "Keychron&nbsp;B1&nbsp;Pro_");
-            correctionAdd("B1 Pro_", "Keychron&nbsp;B1&nbsp;Pro_");
-            correctionAdd("b1 pro_", "Keychron&nbsp;B1&nbsp;Pro_");
-            correctionAdd("B1 pro_", "Keychron&nbsp;B1&nbsp;Pro_");
-            correctionAdd("B1 PRO_", "Keychron&nbsp;B1&nbsp;Pro_");
-            correctionAdd("B1Pro_", "Keychron&nbsp;B1&nbsp;Pro_");
-            correctionAdd("B1pro_", "Keychron&nbsp;B1&nbsp;Pro_");
-            correctionAdd("B1_", "Keychron&nbsp;B1&nbsp;Pro_");
+            correctionAdd("keychorn b1 pro_", "Keychron B1 Pro_");
+            correctionAdd("keychron b1 pro_", "Keychron B1 Pro_");
+            correctionAdd("Keychron b1 pro_", "Keychron B1 Pro_");
+            correctionAdd("Keychron B1_", "Keychron B1 Pro_");
+            correctionAdd("B1&nbsp;Pro_", "Keychron B1 Pro_");
+            correctionAdd("B1 Pro_", "Keychron B1 Pro_");
+            correctionAdd("b1 pro_", "Keychron B1 Pro_");
+            correctionAdd("B1 pro_", "Keychron B1 Pro_");
+            correctionAdd("B1 PRO_", "Keychron B1 Pro_");
+            correctionAdd("B1Pro_", "Keychron B1 Pro_");
+            correctionAdd("B1pro_", "Keychron B1 Pro_");
+            correctionAdd("B1_", "Keychron B1 Pro_");
 
             // A 80-key (75%. Not true TKL) crippled
             // wired-only mechanical keyboard.
@@ -160694,26 +160721,25 @@ namespace OverflowHelper.core
             //       <https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/k10_version_2>
             //         Probably not.
             //
-            correctionAdd("Keychron K10 (100%)_", "Keychron&nbsp;K10 (100%)_");
-            correctionAdd("K10 qmk version 2_", "Keychron&nbsp;K10 (100%)_");
-            correctionAdd("k10 QMK version 2_", "Keychron&nbsp;K10 (100%)_");
-            correctionAdd("k10 qmk version 2_", "Keychron&nbsp;K10 (100%)_");
-            correctionAdd("Keychron K10_", "Keychron&nbsp;K10 (100%)_");
-            correctionAdd("K10 keychron_", "Keychron&nbsp;K10 (100%)_");
-            correctionAdd("K10 QMK V2_", "Keychron&nbsp;K10 (100%)_");
-            correctionAdd("K10 QMK v2_", "Keychron&nbsp;K10 (100%)_");
-            correctionAdd("K series_", "Keychron&nbsp;K10 (100%)_"); // For the cross-reference
-            correctionAdd("K10 QMK_", "Keychron&nbsp;K10 (100%)_"); // K10 V2 (QMK-based)
-            correctionAdd("K10 QMK_", "Keychron&nbsp;K10 (100%)_"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
-            correctionAdd("K10 V2_", "Keychron&nbsp;K10 (100%)_"); // Or maybe a whole new series, K QMK series. Thus, K10 QMK
-            correctionAdd("K10 v2_", "Keychron&nbsp;K10 (100%)_");
-            correctionAdd("k10 v2_", "Keychron&nbsp;K10 (100%)_");
-            correctionAdd("k10 V2_", "Keychron&nbsp;K10 (100%)_");
-            correctionAdd("K10 V1_", "Keychron&nbsp;K10 (100%)_");
-            correctionAdd("K10X_", "Keychron&nbsp;K10 (100%)_"); // K10 V2 (QMK-based) has "K10X" in the SKU number
-            correctionAdd("k 10_", "Keychron&nbsp;K10 (100%)_");
-            correctionAdd("k10_", "Keychron&nbsp;K10 (100%)_");
-            correctionAdd("K10_", "Keychron&nbsp;K10 (100%)_");
+            correctionAdd("K10 qmk version 2_", "Keychron K10 (100%)_");
+            correctionAdd("k10 QMK version 2_", "Keychron K10 (100%)_");
+            correctionAdd("k10 qmk version 2_", "Keychron K10 (100%)_");
+            correctionAdd("Keychron K10_", "Keychron K10 (100%)_");
+            correctionAdd("K10 keychron_", "Keychron K10 (100%)_");
+            correctionAdd("K10 QMK V2_", "Keychron K10 (100%)_");
+            correctionAdd("K10 QMK v2_", "Keychron K10 (100%)_");
+            correctionAdd("K series_", "Keychron K10 (100%)_"); // For the cross-reference
+            correctionAdd("K10 QMK_", "Keychron K10 (100%)_"); // K10 V2 (QMK-based)
+            correctionAdd("K10 QMK_", "Keychron K10 (100%)_"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("K10 V2_", "Keychron K10 (100%)_"); // Or maybe a whole new series, K QMK series. Thus, K10 QMK
+            correctionAdd("K10 v2_", "Keychron K10 (100%)_");
+            correctionAdd("k10 v2_", "Keychron K10 (100%)_");
+            correctionAdd("k10 V2_", "Keychron K10 (100%)_");
+            correctionAdd("K10 V1_", "Keychron K10 (100%)_");
+            correctionAdd("K10X_", "Keychron K10 (100%)_"); // K10 V2 (QMK-based) has "K10X" in the SKU number
+            correctionAdd("k 10_", "Keychron K10 (100%)_");
+            correctionAdd("k10_", "Keychron K10 (100%)_");
+            correctionAdd("K10_", "Keychron K10 (100%)_");
 
             // A 109-key (105%. Not true TKL) full-size wired
             // and wireless (both Bluetooth and '2.4 GHz')
@@ -168982,8 +169008,6 @@ namespace OverflowHelper.core
 
             URL_Add("debt_", "https://en.wiktionary.org/wiki/debt#Noun");
 
-            URL_Add("plugging_", "https://en.wiktionary.org/wiki/plug#Verb");
-
             URL_Add("Tcl/Tk_", "https://en.wikipedia.org/wiki/Tcl");
 
             URL_Add("ellipse_", "https://en.wiktionary.org/wiki/ellipse#Noun");
@@ -172350,7 +172374,7 @@ namespace OverflowHelper.core
 
             URL_Add("Stack Exchange Data Explorer_", "https://data.stackexchange.com/users/10901/peter-mortensen-resurrected");
 
-            URL_Add("Stack&nbsp;Overflow_", "https://policies.stackoverflow.co/company/trademark-guidance/"); // Old: <https://stackoverflow.com/legal/trademark-guidance> Even older: https://stackoverflow.design/brand/copywriting/naming/. Old: https://stackoverflow.com/tour
+            URL_Add("Stack Overflow_", "https://policies.stackoverflow.co/company/trademark-guidance/"); // Old: <https://stackoverflow.com/legal/trademark-guidance> Even older: https://stackoverflow.design/brand/copywriting/naming/. Old: https://stackoverflow.com/tour
 
             URL_Add("Meta&nbsp;Stack&nbsp;Exchange_", "https://meta.stackexchange.com/help/whats-meta");
 
@@ -172676,7 +172700,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Launcher_", "https://www.launcher.keychron.com/#/keymap");
 
-            URL_Add("Keychron&nbsp;B1&nbsp;Pro_", "https://www.keychron.com/products/keychron-b1-pro-ultra-slim-wireless-keyboard");
+            URL_Add("Keychron B1 Pro_", "https://www.keychron.com/products/keychron-b1-pro-ultra-slim-wireless-keyboard");
 
             URL_Add("Keychron&nbsp;B4&nbsp;Pro_", "https://www.keychron.com/products/keychron-b4-pro-ultra-slim-wireless-keyboard");
 
@@ -172690,7 +172714,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron K5_", "https://www.keychron.com/products/keychron-k5-ultra-slim-wireless-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;K10 (100%)_", "https://www.keychron.at/collections/keychron-uk-iso-keyboards/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout"); // Old: <https://www.keychron.uk/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout>
+            URL_Add("Keychron K10 (100%)_", "https://www.keychron.at/collections/keychron-uk-iso-keyboards/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout"); // Old: <https://www.keychron.uk/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout>
 
             URL_Add("Keychron&nbsp;K7&nbsp;Pro_", "https://www.keychron.com/products/keychron-k7-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
@@ -172802,6 +172826,8 @@ namespace OverflowHelper.core
 
             URL_Add("BackTrack_", "https://en.wikipedia.org/wiki/BackTrack");
 
+            URL_Add("plugging_", "https://en.wiktionary.org/wiki/plug#Verb");
+
         } //addLookupData_alternativeWordSet()
 
 
@@ -172849,7 +172875,7 @@ namespace OverflowHelper.core
 
             // The programming error, not the site...
             //
-            correctionAdd("Stack&nbsp;Overflow__", "stack overflow__");
+            correctionAdd("Stack Overflow__", "stack overflow__");
             correctionAdd("stack oveflow__", "stack overflow__");
             correctionAdd("StackOverflow__", "stack overflow__");
 
@@ -177195,7 +177221,6 @@ namespace OverflowHelper.core
             // For the cross-reference to the source code
             // Note: In Git branch "wireless_playground"
             //
-            correctionAdd("Keychron&nbsp;K10&nbsp;Pro__", "Keychron K10 Pro source code__");
             correctionAdd("Keychron K10 Pro__", "Keychron K10 Pro source code__");
 
             // For the cross-reference to the source code
@@ -177935,6 +177960,9 @@ namespace OverflowHelper.core
 
             // The common noun
             correctionAdd("weel__", "wheel__");
+
+            // For the reverse
+            correctionAdd("OK__", "okay__");
 
             // A book. For the reverse
             //
@@ -179251,6 +179279,8 @@ namespace OverflowHelper.core
             URL_Add("wheel__", "https://en.wiktionary.org/wiki/wheel#Noun");
 
             URL_Add("backward elimination__", "https://en.wikipedia.org/wiki/Stepwise_regression#Main_approaches");
+
+            URL_Add("okay__", "https://en.wiktionary.org/wiki/okay#Noun");
 
         } //addLookupData_alternativeWordSet2()
 
@@ -180612,16 +180642,15 @@ namespace OverflowHelper.core
             correctionAdd("dongle___", "Keychron '2.4 GHz' dongle firmware___"); // For the cross-reference
 
             // For a direct text, "K series"
-            correctionAdd("Keychron&nbsp;K10 (100%)___", "Keychron&nbsp;K&nbsp;series___");
-            correctionAdd("original K series___", "Keychron&nbsp;K&nbsp;series___");
-            correctionAdd("Keychron K series___", "Keychron&nbsp;K&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("original series___", "Keychron&nbsp;K&nbsp;series___");
-            correctionAdd("K&nbsp;series___", "Keychron&nbsp;K&nbsp;series___");
-            correctionAdd("Keychron K10___", "Keychron&nbsp;K&nbsp;series___"); // For the cross-reference
-            correctionAdd("K-series___", "Keychron&nbsp;K&nbsp;series___"); // A misspelling of "K series"
-            correctionAdd("K-Series___", "Keychron&nbsp;K&nbsp;series___");
-            correctionAdd("K series___", "Keychron&nbsp;K&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("k series___", "Keychron&nbsp;K&nbsp;series___");
+            correctionAdd("Keychron K10 (100%)___", "Keychron K series___");
+            correctionAdd("original K series___", "Keychron K series___");
+            correctionAdd("original series___", "Keychron K series___");
+            correctionAdd("K&nbsp;series___", "Keychron K series___");
+            correctionAdd("Keychron K10___", "Keychron K series___"); // For the cross-reference
+            correctionAdd("K-series___", "Keychron K series___"); // A misspelling of "K series"
+            correctionAdd("K-Series___", "Keychron K series___");
+            correctionAdd("K series___", "Keychron K series___"); // Sort of identity mapping
+            correctionAdd("k series___", "Keychron K series___");
 
             // For a direct text, "Q series"
             correctionAdd("Keychron Q series___", "Keychron&nbsp;Q&nbsp;series___"); // Sort of identity mapping
@@ -180646,25 +180675,23 @@ namespace OverflowHelper.core
             correctionAdd("v___", "Keychron&nbsp;V&nbsp;series___");
 
             // For a direct text, "K Pro series"
-            correctionAdd("Keychron&nbsp;K10&nbsp;Pro___", "Keychron&nbsp;K&nbsp;Pro&nbsp;series___"); // For the cross-reference
-            correctionAdd("K&nbsp;Pro&nbsp;series___", "Keychron&nbsp;K&nbsp;Pro&nbsp;series___");
-            correctionAdd("Keychron K Pro series___", "Keychron&nbsp;K&nbsp;Pro&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("Keychron K10 Pro___", "Keychron&nbsp;K&nbsp;Pro&nbsp;series___"); // For the cross-reference
-            correctionAdd("K Pro series___", "Keychron&nbsp;K&nbsp;Pro&nbsp;series___"); // Sort of identity mapping
-            correctionAdd("k pro series___", "Keychron&nbsp;K&nbsp;Pro&nbsp;series___");
-            correctionAdd("K Series PRO___", "Keychron&nbsp;K&nbsp;Pro&nbsp;series___");
-            correctionAdd("K Series Pro___", "Keychron&nbsp;K&nbsp;Pro&nbsp;series___");
-            correctionAdd("K series PRO___", "Keychron&nbsp;K&nbsp;Pro&nbsp;series___");
-            correctionAdd("K series Pro___", "Keychron&nbsp;K&nbsp;Pro&nbsp;series___");
-            correctionAdd("KPro series___", "Keychron&nbsp;K&nbsp;Pro&nbsp;series___");
-            correctionAdd("Pro series___", "Keychron&nbsp;K&nbsp;Pro&nbsp;series___"); // Though it is ambigious... (for example, B Pro, Q Pro, and C Pro series)
-            correctionAdd("K pro___", "Keychron&nbsp;K&nbsp;Pro&nbsp;series___");
-            correctionAdd("K-Pro___", "Keychron&nbsp;K&nbsp;Pro&nbsp;series___");
-            correctionAdd("K-pro___", "Keychron&nbsp;K&nbsp;Pro&nbsp;series___");
-            correctionAdd("k-pro___", "Keychron&nbsp;K&nbsp;Pro&nbsp;series___");
-            correctionAdd("K Pro___", "Keychron&nbsp;K&nbsp;Pro&nbsp;series___");
-            correctionAdd("k pro___", "Keychron&nbsp;K&nbsp;Pro&nbsp;series___");
-            correctionAdd("Pro___", "Keychron&nbsp;K&nbsp;Pro&nbsp;series___");
+            correctionAdd("K&nbsp;Pro&nbsp;series___", "Keychron K Pro series___");
+            correctionAdd("Keychron K10 Pro___", "Keychron K Pro series___"); // For the cross-reference
+            correctionAdd("K Pro series___", "Keychron K Pro series___"); // Sort of identity mapping
+            correctionAdd("k pro series___", "Keychron K Pro series___");
+            correctionAdd("K Series PRO___", "Keychron K Pro series___");
+            correctionAdd("K Series Pro___", "Keychron K Pro series___");
+            correctionAdd("K series PRO___", "Keychron K Pro series___");
+            correctionAdd("K series Pro___", "Keychron K Pro series___");
+            correctionAdd("KPro series___", "Keychron K Pro series___");
+            correctionAdd("Pro series___", "Keychron K Pro series___"); // Though it is ambigious... (for example, B Pro, Q Pro, and C Pro series)
+            correctionAdd("K pro___", "Keychron K Pro series___");
+            correctionAdd("K-Pro___", "Keychron K Pro series___");
+            correctionAdd("K-pro___", "Keychron K Pro series___");
+            correctionAdd("k-pro___", "Keychron K Pro series___");
+            correctionAdd("K Pro___", "Keychron K Pro series___");
+            correctionAdd("k pro___", "Keychron K Pro series___");
+            correctionAdd("Pro___", "Keychron K Pro series___");
 
             // For a direct text, "Q Pro series"
             correctionAdd("Keychron&nbsp;Q6&nbsp;Pro___", "Keychron&nbsp;Q&nbsp;Pro&nbsp;series___"); // For the cross-reference
@@ -181799,8 +181826,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Li-Po battery___", "lithium polymer battery___");
             correctionAdd("lipo batter___", "lithium polymer battery___");
-            correctionAdd("lithium___", "lithium polymer battery___"); // For the cross reference
-            correctionAdd("Li-ion___", "lithium polymer battery___"); // For the cross reference
+            correctionAdd("lithium___", "lithium polymer battery___"); // For the cross-reference
+            correctionAdd("Li-ion___", "lithium polymer battery___"); // For the cross-reference
             correctionAdd("LiPo___", "lithium polymer battery___");
 
             // Alternative URLs:
@@ -182396,9 +182423,9 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Q3 HE, ANSI knob carbon black variant (USB 0x3434/0x0B30)___", "https://www.keychron.com/products/keychron-q3-he-qmk-wireless-custom-keyboard?variant=41844681867353");
 
-            URL_Add("Keychron&nbsp;K&nbsp;series___", "https://www.keychron.at/collections/keychron-uk-iso-keyboards/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout"); // Old: <https://www.keychron.uk/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout>
+            URL_Add("Keychron K series___", "https://www.keychron.at/collections/keychron-uk-iso-keyboards/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout"); // Old: <https://www.keychron.uk/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout>
 
-            URL_Add("Keychron&nbsp;K&nbsp;Pro&nbsp;series___", "https://keychron.de/collections/k-pro-series-iso-keyboard/products/keychron-k10-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection"); // Old: <https://www.keychron.uk/products/keychron-k10-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection>
+            URL_Add("Keychron K Pro series___", "https://keychron.de/collections/k-pro-series-iso-keyboard/products/keychron-k10-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection"); // Old: <https://www.keychron.uk/products/keychron-k10-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection>
 
             URL_Add("Keychron&nbsp;Q&nbsp;Pro&nbsp;series___", "https://www.keychron.com/products/keychron-q6-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
@@ -183149,12 +183176,12 @@ namespace OverflowHelper.core
             correctionAdd("playground____", "Git branch \"playground\" in Keychron's fork____");
 
             correctionAdd("Git branch \"2025q3\" in Keychron's fork____", "Git branch \"hall_effect_playground\" in Keychron's fork____");
-            correctionAdd("Keychron K10 HE source code____", "Git branch \"hall_effect_playground\" in Keychron's fork____");
-            correctionAdd("Keychron K2 HE source code____", "Git branch \"hall_effect_playground\" in Keychron's fork____");
-            correctionAdd("Keychron Q3 HE source code____", "Git branch \"hall_effect_playground\" in Keychron's fork____");
-            correctionAdd("Keychron Q6 HE source code____", "Git branch \"hall_effect_playground\" in Keychron's fork____");
-            correctionAdd("hall_effect_playground____", "Git branch \"hall_effect_playground\" in Keychron's fork____");
-            correctionAdd("hall_playground____", "Git branch \"hall_effect_playground\" in Keychron's fork____");
+            correctionAdd("Keychron K10 HE source code____", "Git branch \"hall_effect_playground\" in Keychron's fork____"); // For the cross-reference
+            correctionAdd("Keychron K2 HE source code____", "Git branch \"hall_effect_playground\" in Keychron's fork____"); // For the cross-reference
+            correctionAdd("Keychron Q3 HE source code____", "Git branch \"hall_effect_playground\" in Keychron's fork____"); // For the cross-reference
+            correctionAdd("Keychron Q6 HE source code____", "Git branch \"hall_effect_playground\" in Keychron's fork____"); // For the cross-reference
+            correctionAdd("hall_effect_playground____", "Git branch \"hall_effect_playground\" in Keychron's fork____"); // For the cross-reference
+            correctionAdd("hall_playground____", "Git branch \"hall_effect_playground\" in Keychron's fork____"); // The gross name used by SRGBmods
             correctionAdd("Hall sensor____", "Git branch \"hall_effect_playground\" in Keychron's fork____");
 
             // Note:
@@ -183488,31 +183515,29 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/k10_pro/ansi/white/info.json#L3>
             //
-            correctionAdd("Keychron&nbsp;K10&nbsp;Pro____", "Keychron K10 Pro, white backlight variant (USB 0x3434/0x02A3)____"); // Note: We can only cross-reference one of the variants...
             correctionAdd("Keychron K10 Pro____", "Keychron K10 Pro, white backlight variant (USB 0x3434/0x02A3)____"); // Note: We can only cross-reference one of the variants...
             correctionAdd("K10P-A1____", "Keychron K10 Pro, white backlight variant (USB 0x3434/0x02A3)____");
             correctionAdd("0x02A3____", "Keychron K10 Pro, white backlight variant (USB 0x3434/0x02A3)____");
             correctionAdd("02A3____", "Keychron K10 Pro, white backlight variant (USB 0x3434/0x02A3)____");
             correctionAdd("02a3____", "Keychron K10 Pro, white backlight variant (USB 0x3434/0x02A3)____");
 
-            correctionAdd("Keychron&nbsp;K10 (100%)____", "Keychron&nbsp;K&nbsp;QMK&nbsp;series____");
-            correctionAdd("K&nbsp;QMK&nbsp;series____", "Keychron&nbsp;K&nbsp;QMK&nbsp;series____");
-            correctionAdd("Keychron K QMK series____", "Keychron&nbsp;K&nbsp;QMK&nbsp;series____"); // Sort of identity mapping
-            correctionAdd("K10 QMK version 2____", "Keychron&nbsp;K&nbsp;QMK&nbsp;series____");
-            correctionAdd("K5 qmk version 2____", "Keychron&nbsp;K&nbsp;QMK&nbsp;series____");
-            correctionAdd("K&nbsp;series____", "Keychron&nbsp;K&nbsp;QMK&nbsp;series____"); // For the cross-reference
-            correctionAdd("Keychron K10____", "Keychron&nbsp;K&nbsp;QMK&nbsp;series____");
-            correctionAdd("K QMK series____", "Keychron&nbsp;K&nbsp;QMK&nbsp;series____"); // Sort of identity mapping
-            correctionAdd("k qmk series____", "Keychron&nbsp;K&nbsp;QMK&nbsp;series____");
-            correctionAdd("K10 QMK____", "Keychron&nbsp;K&nbsp;QMK&nbsp;series____");
-            correctionAdd("K10 V2____", "Keychron&nbsp;K&nbsp;QMK&nbsp;series____");
-            correctionAdd("k10 v2____", "Keychron&nbsp;K&nbsp;QMK&nbsp;series____");
-            correctionAdd("K2 QMK____", "Keychron&nbsp;K&nbsp;QMK&nbsp;series____");
-            correctionAdd("k2 QMK____", "Keychron&nbsp;K&nbsp;QMK&nbsp;series____");
-            correctionAdd("K2 V3____", "Keychron&nbsp;K&nbsp;QMK&nbsp;series____");
-            correctionAdd("K1 V6____", "Keychron&nbsp;K&nbsp;QMK&nbsp;series____");
-            correctionAdd("k qmk____", "Keychron&nbsp;K&nbsp;QMK&nbsp;series____");
-            correctionAdd("K QMK____", "Keychron&nbsp;K&nbsp;QMK&nbsp;series____");
+            correctionAdd("K&nbsp;QMK&nbsp;series____", "Keychron K QMK series____");
+            correctionAdd("Keychron K10 (100%)____", "Keychron K QMK series____");
+            correctionAdd("K10 QMK version 2____", "Keychron K QMK series____");
+            correctionAdd("K5 qmk version 2____", "Keychron K QMK series____");
+            correctionAdd("K&nbsp;series____", "Keychron K QMK series____"); // For the cross-reference
+            correctionAdd("Keychron K10____", "Keychron K QMK series____");
+            correctionAdd("K QMK series____", "Keychron K QMK series____"); // Sort of identity mapping
+            correctionAdd("k qmk series____", "Keychron K QMK series____");
+            correctionAdd("K10 QMK____", "Keychron K QMK series____");
+            correctionAdd("K10 V2____", "Keychron K QMK series____");
+            correctionAdd("k10 v2____", "Keychron K QMK series____");
+            correctionAdd("K2 QMK____", "Keychron K QMK series____");
+            correctionAdd("k2 QMK____", "Keychron K QMK series____");
+            correctionAdd("K2 V3____", "Keychron K QMK series____");
+            correctionAdd("K1 V6____", "Keychron K QMK series____");
+            correctionAdd("k qmk____", "Keychron K QMK series____");
+            correctionAdd("K QMK____", "Keychron K QMK series____");
 
             // A manufacturer of mechanical keyboards (and some mice)
             //
@@ -184982,7 +185007,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron K10 Pro, white backlight variant (USB 0x3434/0x02A3)____", "https://www.keychron.com/products/keychron-k10-pro-qmk-via-wireless-mechanical-keyboard?variant=40618605674585");
 
-            URL_Add("Keychron&nbsp;K&nbsp;QMK&nbsp;series____", "https://www.keychron.com/products/keychron-k10-qmk-wireless-mechanical-keyboard-iso-layout-version-2");
+            URL_Add("Keychron K QMK series____", "https://www.keychron.com/products/keychron-k10-qmk-wireless-mechanical-keyboard-iso-layout-version-2");
 
             URL_Add("Keychron K1 Max default keymap (ISO RGB)____", "https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/k1_max/iso/rgb/keymaps/via/keymap.c#L44");
 
@@ -185410,7 +185435,7 @@ namespace OverflowHelper.core
 
             // Stack Overflow
             correctionAdd("bogus answers on Stack Overflow_____", "completely bogus answers on Stack Overflow_____");
-            correctionAdd("Stack&nbsp;Overflow_____", "completely bogus answers on Stack Overflow_____"); // For the cross-reference
+            correctionAdd("Stack Overflow_____", "completely bogus answers on Stack Overflow_____"); // For the cross-reference
             correctionAdd("bogus answer_____", "completely bogus answers on Stack Overflow_____");
 
             // Mostly for the alternative URL (homonyms:
@@ -185450,8 +185475,8 @@ namespace OverflowHelper.core
             correctionAdd("wsitch_____", "switch_____");
 
             // All are cross-references!
-            correctionAdd("Keychron&nbsp;K&nbsp;QMK&nbsp;series_____", "K10 V2 with overlubricated switches_____");
-            correctionAdd("Keychron&nbsp;K10 (100%)_____", "K10 V2 with overlubricated switches_____");
+            correctionAdd("Keychron K QMK series_____", "K10 V2 with overlubricated switches_____");
+            correctionAdd("Keychron K10 (100%)_____", "K10 V2 with overlubricated switches_____");
             correctionAdd("Keychron&nbsp;K10_____", "K10 V2 with overlubricated switches_____");
             correctionAdd("overlubrication_____", "K10 V2 with overlubricated switches_____");
             correctionAdd("overlubricated_____", "K10 V2 with overlubricated switches_____");
@@ -186717,8 +186742,8 @@ namespace OverflowHelper.core
             //
             correctionAdd("the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed______", "Keychron K10 V2 source code______");
             correctionAdd("Git branch \"wls_2025q1\" in Keychron's fork______", "Keychron K10 V2 source code______"); // For the cross-reference
-            correctionAdd("Keychron&nbsp;K&nbsp;QMK&nbsp;series______", "Keychron K10 V2 source code______"); // For the cross referece
             correctionAdd("K&nbsp;QMK&nbsp;series______", "Keychron K10 V2 source code______"); // For the cross referece
+            correctionAdd("Keychron K QMK series______", "Keychron K10 V2 source code______"); // For the cross referece
             correctionAdd("K10 V2 source code______", "Keychron K10 V2 source code______");
             correctionAdd("wls_2025q1______", "Keychron K10 V2 source code______");
 
@@ -186730,13 +186755,12 @@ namespace OverflowHelper.core
             // problems (inherent to membrane keyboards)
             //
             correctionAdd("severe key roll-over problems______", "severe NKRO problems for the Keychron B Pro series______");
-            correctionAdd("Keychron&nbsp;B1&nbsp;Pro______", "severe NKRO problems for the Keychron B Pro series______"); // For the cross-reference
             correctionAdd("Keychron&nbsp;B6&nbsp;Pro______", "severe NKRO problems for the Keychron B Pro series______"); // For the cross-reference
             correctionAdd("Keychron&nbsp;B2&nbsp;Pro______", "severe NKRO problems for the Keychron B Pro series______");
             correctionAdd("severe roll-over problems______", "severe NKRO problems for the Keychron B Pro series______");
             correctionAdd("severe roll over problems______", "severe NKRO problems for the Keychron B Pro series______");
             correctionAdd("severe NKRO problems______", "severe NKRO problems for the Keychron B Pro series______");
-            correctionAdd("Keychron B1 Pro______", "severe NKRO problems for the Keychron B Pro series______");
+            correctionAdd("Keychron B1 Pro______", "severe NKRO problems for the Keychron B Pro series______"); // For the cross-reference
             correctionAdd("Keychron B2 Pro______", "severe NKRO problems for the Keychron B Pro series______");
             correctionAdd("Keychron B6 Pro______", "severe NKRO problems for the Keychron B Pro series______"); // For the cross-reference
             correctionAdd("NKRO______", "severe NKRO problems for the Keychron B Pro series______");
@@ -187419,9 +187443,9 @@ namespace OverflowHelper.core
             //         0x239A/0x0029: B Pro series (they mount in the operating system, and flashing is by simply copying the .uf2 file)
             //
             correctionAdd("flashing Keycron K QMK keyboards_______", "flashing Keychron K QMK keyboards_______");
-            correctionAdd("Keychron&nbsp;K10 (100%)_______", "flashing Keychron K QMK keyboards_______");
             correctionAdd("K&nbsp;QMK&nbsp;series_______", "flashing Keychron K QMK keyboards_______"); // For the cross-reference
             correctionAdd("wb32-dfu-updater_cli_______", "flashing Keychron K QMK keyboards_______");
+            correctionAdd("Keychron K10 (100%)_______", "flashing Keychron K QMK keyboards_______");
             correctionAdd("wb32-dfu-updater_______", "flashing Keychron K QMK keyboards_______");
             correctionAdd("WB32 DFU updater_______", "flashing Keychron K QMK keyboards_______"); // For the cross-reference
             correctionAdd("WB32F3G71RCT6_______", "flashing Keychron K QMK keyboards_______");
