@@ -7325,291 +7325,253 @@ namespace OverflowHelper.core
             //
             correctionAdd("apport", "Apport");
 
-            correctionAdd("Warty Warthog", "Ubuntu&nbsp;4.10 (Warty Warthog)");
-            correctionAdd("Ubuntu 4.10 (Warty Warthog)", "Ubuntu&nbsp;4.10 (Warty Warthog)"); // Sort of identity mapping
+            correctionAdd("Warty Warthog", "Ubuntu 4.10 (Warty Warthog)");
 
-            correctionAdd("Ubuntu 7.10 (Gutsy Gibbon)", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)"); // Sort of identity mapping
-            correctionAdd("Gutsy Gibbon", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
-            correctionAdd("Ubuntu 7.10", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
-            correctionAdd("ubuntu 7.10", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
-            correctionAdd("7.1-ubuntu", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
-            correctionAdd("ubuntu 7.1", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
-            correctionAdd("Ubuntu 7.1", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
-            correctionAdd("ubuntu7", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
-            correctionAdd("Gutsy", "Ubuntu&nbsp;7.10 (Gutsy Gibbon)");
+            correctionAdd("Gutsy Gibbon", "Ubuntu 7.10 (Gutsy Gibbon)");
+            correctionAdd("Ubuntu 7.10", "Ubuntu 7.10 (Gutsy Gibbon)");
+            correctionAdd("ubuntu 7.10", "Ubuntu 7.10 (Gutsy Gibbon)");
+            correctionAdd("7.1-ubuntu", "Ubuntu 7.10 (Gutsy Gibbon)");
+            correctionAdd("ubuntu 7.1", "Ubuntu 7.10 (Gutsy Gibbon)");
+            correctionAdd("Ubuntu 7.1", "Ubuntu 7.10 (Gutsy Gibbon)");
+            correctionAdd("ubuntu7", "Ubuntu 7.10 (Gutsy Gibbon)");
+            correctionAdd("Gutsy", "Ubuntu 7.10 (Gutsy Gibbon)");
 
-            correctionAdd("Ubuntu 8.04 LTS (Hardy Heron)", "Ubuntu&nbsp;8.04 (Hardy Heron)");
-            correctionAdd("Ubuntu Linux 8.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
-            correctionAdd("Ubuntu 8.04 (Hardy Heron)", "Ubuntu&nbsp;8.04 (Hardy Heron)"); // Sort of identity mapping
-            correctionAdd("Ubuntu Hardy", "Ubuntu&nbsp;8.04 (Hardy Heron)");
-            correctionAdd("Ubuntu 8.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
-            correctionAdd("Hardy Heron", "Ubuntu&nbsp;8.04 (Hardy Heron)");
-            correctionAdd("Hardy", "Ubuntu&nbsp;8.04 (Hardy Heron)");
-            correctionAdd("08.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
-            correctionAdd("8.04", "Ubuntu&nbsp;8.04 (Hardy Heron)");
+            correctionAdd("Ubuntu 8.04 LTS (Hardy Heron)", "Ubuntu 8.04 (Hardy Heron)");
+            correctionAdd("Ubuntu Linux 8.04", "Ubuntu 8.04 (Hardy Heron)");
+            correctionAdd("Ubuntu Hardy", "Ubuntu 8.04 (Hardy Heron)");
+            correctionAdd("Ubuntu 8.04", "Ubuntu 8.04 (Hardy Heron)");
+            correctionAdd("Hardy Heron", "Ubuntu 8.04 (Hardy Heron)");
+            correctionAdd("Hardy", "Ubuntu 8.04 (Hardy Heron)");
+            correctionAdd("08.04", "Ubuntu 8.04 (Hardy Heron)");
+            correctionAdd("8.04", "Ubuntu 8.04 (Hardy Heron)");
 
-            correctionAdd("Ubuntu 8.10 (Intrepid Ibex)", "Ubuntu&nbsp;8.10 (Intrepid Ibex)"); // Sort of identity mapping
-            correctionAdd("Linux Ubuntu Intrepid Ibex", "Ubuntu&nbsp;8.10 (Intrepid Ibex)");
-            correctionAdd("Ubuntu Intrepid Ibex", "Ubuntu&nbsp;8.10 (Intrepid Ibex)");
-            correctionAdd("Intrepid Ibex", "Ubuntu&nbsp;8.10 (Intrepid Ibex)");
-            correctionAdd("Ubuntu 8.10", "Ubuntu&nbsp;8.10 (Intrepid Ibex)");
-            correctionAdd("8.10", "Ubuntu&nbsp;8.10 (Intrepid Ibex)");
+            correctionAdd("Linux Ubuntu Intrepid Ibex", "Ubuntu 8.10 (Intrepid Ibex)");
+            correctionAdd("Ubuntu Intrepid Ibex", "Ubuntu 8.10 (Intrepid Ibex)");
+            correctionAdd("Intrepid Ibex", "Ubuntu 8.10 (Intrepid Ibex)");
+            correctionAdd("Ubuntu 8.10", "Ubuntu 8.10 (Intrepid Ibex)");
+            correctionAdd("8.10", "Ubuntu 8.10 (Intrepid Ibex)");
 
-            correctionAdd("Ubuntu 9.04 (Jaunty Jackalope)", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)"); // Sort of identity mapping
-            correctionAdd("Jaunty Jackalope", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
-            correctionAdd("Ubuntu Jaunty", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
-            correctionAdd("ubuntu 9.04", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
-            correctionAdd("Ubuntu 9.04", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
-            correctionAdd("Jaunty", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
-            correctionAdd("9.04", "Ubuntu&nbsp;9.04 (Jaunty Jackalope)");
+            correctionAdd("Jaunty Jackalope", "Ubuntu 9.04 (Jaunty Jackalope)");
+            correctionAdd("Ubuntu Jaunty", "Ubuntu 9.04 (Jaunty Jackalope)");
+            correctionAdd("ubuntu 9.04", "Ubuntu 9.04 (Jaunty Jackalope)");
+            correctionAdd("Ubuntu 9.04", "Ubuntu 9.04 (Jaunty Jackalope)");
+            correctionAdd("Jaunty", "Ubuntu 9.04 (Jaunty Jackalope)");
+            correctionAdd("9.04", "Ubuntu 9.04 (Jaunty Jackalope)");
 
-            correctionAdd("Ubuntu 9.10 (Karmic Koala)", "Ubuntu&nbsp;9.10 (Karmic Koala)"); // Sort of identity mapping
-            correctionAdd("Ubuntu&nbsp;9.10", "Ubuntu&nbsp;9.10 (Karmic Koala)");
-            correctionAdd("Ubuntu Karmic", "Ubuntu&nbsp;9.10 (Karmic Koala)");
-            correctionAdd("Karmic Koala", "Ubuntu&nbsp;9.10 (Karmic Koala)");
-            correctionAdd("Ubuntu 9.10", "Ubuntu&nbsp;9.10 (Karmic Koala)");
-            correctionAdd("ubuntu 9.10", "Ubuntu&nbsp;9.10 (Karmic Koala)");
-            correctionAdd("karmic", "Ubuntu&nbsp;9.10 (Karmic Koala)");
-            correctionAdd("Karmic", "Ubuntu&nbsp;9.10 (Karmic Koala)");
-            correctionAdd("9.10", "Ubuntu&nbsp;9.10 (Karmic Koala)");
+            correctionAdd("Ubuntu Karmic", "Ubuntu 9.10 (Karmic Koala)");
+            correctionAdd("Karmic Koala", "Ubuntu 9.10 (Karmic Koala)");
+            correctionAdd("Ubuntu 9.10", "Ubuntu 9.10 (Karmic Koala)");
+            correctionAdd("ubuntu 9.10", "Ubuntu 9.10 (Karmic Koala)");
+            correctionAdd("karmic", "Ubuntu 9.10 (Karmic Koala)");
+            correctionAdd("Karmic", "Ubuntu 9.10 (Karmic Koala)");
+            correctionAdd("9.10", "Ubuntu 9.10 (Karmic Koala)");
 
-            correctionAdd("Ubuntu 10.04 LTS (Lucid Lynx)", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("Ubuntu 10.04 (Lucid Lynx)", "Ubuntu&nbsp;10.04 (Lucid Lynx)"); // Sort of identity mapping
-            correctionAdd("Ubuntu 10.04 Lucid Lynx", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("Ubuntu&nbsp;10.04", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("Ubuntu 10.04", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("ubuntu 10.04", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("UBUNTU 10.04", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("Ubuntu 10.4", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("ubuntu 10.4", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("ubuntu 10", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("lucid", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("Lucid", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
-            correctionAdd("10.04", "Ubuntu&nbsp;10.04 (Lucid Lynx)");
+            correctionAdd("Ubuntu 10.04 LTS (Lucid Lynx)", "Ubuntu 10.04 (Lucid Lynx)");
+            correctionAdd("Ubuntu 10.04 Lucid Lynx", "Ubuntu 10.04 (Lucid Lynx)");
+            correctionAdd("Ubuntu 10.04", "Ubuntu 10.04 (Lucid Lynx)");
+            correctionAdd("ubuntu 10.04", "Ubuntu 10.04 (Lucid Lynx)");
+            correctionAdd("UBUNTU 10.04", "Ubuntu 10.04 (Lucid Lynx)");
+            correctionAdd("Ubuntu 10.4", "Ubuntu 10.04 (Lucid Lynx)");
+            correctionAdd("ubuntu 10.4", "Ubuntu 10.04 (Lucid Lynx)");
+            correctionAdd("ubuntu 10", "Ubuntu 10.04 (Lucid Lynx)");
+            correctionAdd("lucid", "Ubuntu 10.04 (Lucid Lynx)");
+            correctionAdd("Lucid", "Ubuntu 10.04 (Lucid Lynx)");
+            correctionAdd("10.04", "Ubuntu 10.04 (Lucid Lynx)");
 
-            // Close in name (Mac): "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)"
+            // Close in name (Mac): "Mac OS X v10.9 (Mavericks) (2013 vintage)"
             //
-            correctionAdd("Ubuntu 10.10 (Maverick Meerkat)", "Ubuntu&nbsp;10.10 (Maverick Meerkat)"); // Sort of identity mapping
-            correctionAdd("10.10 Maverick Meerkat", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
-            correctionAdd("Maverick Meerkat", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
-            correctionAdd("Ubuntu Maverick", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
-            correctionAdd("Ubuntu 10.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
-            correctionAdd("ubuntu 10.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
-            correctionAdd("ubuntu 1.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
-            correctionAdd("10.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
-            correctionAdd("1.10", "Ubuntu&nbsp;10.10 (Maverick Meerkat)");
+            correctionAdd("10.10 Maverick Meerkat", "Ubuntu 10.10 (Maverick Meerkat)");
+            correctionAdd("Maverick Meerkat", "Ubuntu 10.10 (Maverick Meerkat)");
+            correctionAdd("Ubuntu Maverick", "Ubuntu 10.10 (Maverick Meerkat)");
+            correctionAdd("Ubuntu 10.10", "Ubuntu 10.10 (Maverick Meerkat)");
+            correctionAdd("ubuntu 10.10", "Ubuntu 10.10 (Maverick Meerkat)");
+            correctionAdd("ubuntu 1.10", "Ubuntu 10.10 (Maverick Meerkat)");
+            correctionAdd("10.10", "Ubuntu 10.10 (Maverick Meerkat)");
+            correctionAdd("1.10", "Ubuntu 10.10 (Maverick Meerkat)");
 
-            correctionAdd("Ubuntu 11.04 (Natty Narwhal)", "Ubuntu&nbsp;11.04 (Natty Narwhal)"); // Sort of identity mapping
-            correctionAdd("Ubuntu&nbsp;11.04", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
-            correctionAdd("Ubuntu Narwhal", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
-            correctionAdd("Natty Narwhal", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
-            correctionAdd("ubuntu 11.04", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
-            correctionAdd("Ubuntu 11.04", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
-            correctionAdd("Ubuntu natty", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
-            correctionAdd("ubuntu natty", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
-            correctionAdd("Ubuntu Natty", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
-            correctionAdd("Narwhal", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
-            correctionAdd("Natty", "Ubuntu&nbsp;11.04 (Natty Narwhal)");
-            correctionAdd("11.04", "Ubuntu&nbsp;11.04 (Natty Narwhal)"); // But it does not work... "11.04" is converted to "104"...
+            correctionAdd("Ubuntu 11.04", "Ubuntu 11.04 (Natty Narwhal)");
+            correctionAdd("Ubuntu Narwhal", "Ubuntu 11.04 (Natty Narwhal)");
+            correctionAdd("Natty Narwhal", "Ubuntu 11.04 (Natty Narwhal)");
+            correctionAdd("ubuntu 11.04", "Ubuntu 11.04 (Natty Narwhal)");
+            correctionAdd("Ubuntu natty", "Ubuntu 11.04 (Natty Narwhal)");
+            correctionAdd("ubuntu natty", "Ubuntu 11.04 (Natty Narwhal)");
+            correctionAdd("Ubuntu Natty", "Ubuntu 11.04 (Natty Narwhal)");
+            correctionAdd("Narwhal", "Ubuntu 11.04 (Natty Narwhal)");
+            correctionAdd("Natty", "Ubuntu 11.04 (Natty Narwhal)");
+            correctionAdd("11.04", "Ubuntu 11.04 (Natty Narwhal)"); // But it does not work... "11.04" is converted to "104"...
 
-            correctionAdd("Ubuntu 11.10 (Oneiric Ocelot)", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)"); // Sort of identity mapping
-            correctionAdd("Ubuntu&nbsp;11.10", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
-            correctionAdd("uBuntu Oneiric", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
-            correctionAdd("Ubuntu Oneiric", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
-            correctionAdd("ubuntu 11.10", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
-            correctionAdd("Ubuntu 11.10", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
-            correctionAdd("Ubuntu 11", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)"); // 11 being 11.04 depends on context...
-            correctionAdd("Oneiric", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
-            correctionAdd("oneiric", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
-            correctionAdd("11.10", "Ubuntu&nbsp;11.10 (Oneiric Ocelot)");
+            correctionAdd("uBuntu Oneiric", "Ubuntu 11.10 (Oneiric Ocelot)");
+            correctionAdd("Ubuntu Oneiric", "Ubuntu 11.10 (Oneiric Ocelot)");
+            correctionAdd("ubuntu 11.10", "Ubuntu 11.10 (Oneiric Ocelot)");
+            correctionAdd("Ubuntu 11.10", "Ubuntu 11.10 (Oneiric Ocelot)");
+            correctionAdd("Ubuntu 11", "Ubuntu 11.10 (Oneiric Ocelot)"); // 11 being 11.04 depends on context...
+            correctionAdd("Oneiric", "Ubuntu 11.10 (Oneiric Ocelot)");
+            correctionAdd("oneiric", "Ubuntu 11.10 (Oneiric Ocelot)");
+            correctionAdd("11.10", "Ubuntu 11.10 (Oneiric Ocelot)");
 
-            correctionAdd("Ubuntu 12.04 LTS (Precise Pangolin)", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("Ubuntu 12.04 (Precise Pangolin)", "Ubuntu&nbsp;12.04 (Precise Pangolin)"); // Sort of identity mapping
-            correctionAdd("Ubuntu&nbsp;12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("ubuntu 12.04 lts", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("Precise Pangolin", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("ubuntu precise", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("ubuntu 12 .04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("Ubuntu 12 .04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("unbuntu 12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)"); // Misspelling.
-            correctionAdd("Precise 12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("Ubuntu 12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("ubuntu 12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("12.04 Ubuntu", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("ubuntu 12.0", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("Ubuntu 12.0", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("Ubuntu 12.4", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("Ubuntu 12", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("ubuntu 12", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("precise", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("Precise", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("12.0.4", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
-            correctionAdd("12.04", "Ubuntu&nbsp;12.04 (Precise Pangolin)");
+            correctionAdd("Ubuntu 12.04 LTS (Precise Pangolin)", "Ubuntu 12.04 (Precise Pangolin)");
+            correctionAdd("ubuntu 12.04 lts", "Ubuntu 12.04 (Precise Pangolin)");
+            correctionAdd("Precise Pangolin", "Ubuntu 12.04 (Precise Pangolin)");
+            correctionAdd("ubuntu precise", "Ubuntu 12.04 (Precise Pangolin)");
+            correctionAdd("ubuntu 12 .04", "Ubuntu 12.04 (Precise Pangolin)");
+            correctionAdd("Ubuntu 12 .04", "Ubuntu 12.04 (Precise Pangolin)");
+            correctionAdd("unbuntu 12.04", "Ubuntu 12.04 (Precise Pangolin)"); // Misspelling.
+            correctionAdd("Precise 12.04", "Ubuntu 12.04 (Precise Pangolin)");
+            correctionAdd("Ubuntu 12.04", "Ubuntu 12.04 (Precise Pangolin)");
+            correctionAdd("ubuntu 12.04", "Ubuntu 12.04 (Precise Pangolin)");
+            correctionAdd("12.04 Ubuntu", "Ubuntu 12.04 (Precise Pangolin)");
+            correctionAdd("ubuntu 12.0", "Ubuntu 12.04 (Precise Pangolin)");
+            correctionAdd("Ubuntu 12.0", "Ubuntu 12.04 (Precise Pangolin)");
+            correctionAdd("Ubuntu 12.4", "Ubuntu 12.04 (Precise Pangolin)");
+            correctionAdd("Ubuntu 12", "Ubuntu 12.04 (Precise Pangolin)");
+            correctionAdd("ubuntu 12", "Ubuntu 12.04 (Precise Pangolin)");
+            correctionAdd("precise", "Ubuntu 12.04 (Precise Pangolin)");
+            correctionAdd("Precise", "Ubuntu 12.04 (Precise Pangolin)");
+            correctionAdd("12.0.4", "Ubuntu 12.04 (Precise Pangolin)");
+            correctionAdd("12.04", "Ubuntu 12.04 (Precise Pangolin)");
 
-            correctionAdd("Ubuntu 12.10 (Quantal Quetzal)", "Ubuntu&nbsp;12.10 (Quantal Quetzal)"); // Sort of identity mapping
-            correctionAdd("Ubuntu&nbsp;12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
-            correctionAdd("Ubuntu 12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
-            correctionAdd("ubunut 12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
-            correctionAdd("ubuntu 12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
-            correctionAdd("ubunut12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
-            correctionAdd("quantal", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
-            correctionAdd("12.10", "Ubuntu&nbsp;12.10 (Quantal Quetzal)");
+            correctionAdd("Ubuntu 12.10", "Ubuntu 12.10 (Quantal Quetzal)");
+            correctionAdd("ubunut 12.10", "Ubuntu 12.10 (Quantal Quetzal)");
+            correctionAdd("ubuntu 12.10", "Ubuntu 12.10 (Quantal Quetzal)");
+            correctionAdd("ubunut12.10", "Ubuntu 12.10 (Quantal Quetzal)");
+            correctionAdd("quantal", "Ubuntu 12.10 (Quantal Quetzal)");
+            correctionAdd("12.10", "Ubuntu 12.10 (Quantal Quetzal)");
 
-            correctionAdd("Ubuntu&nbsp;13.04", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
-            correctionAdd("Ubuntu 13.04 (Raring Ringtail)", "Ubuntu&nbsp;13.04 (Raring Ringtail)"); // Sort of identity mapping
-            correctionAdd("Ubuntu 13.04", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
-            correctionAdd("ubuntu 13.04", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
-            correctionAdd("Ubuntu 13", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
-            correctionAdd("raring", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
-            correctionAdd("13.04", "Ubuntu&nbsp;13.04 (Raring Ringtail)");
+            correctionAdd("Ubuntu 13.04", "Ubuntu 13.04 (Raring Ringtail)");
+            correctionAdd("ubuntu 13.04", "Ubuntu 13.04 (Raring Ringtail)");
+            correctionAdd("Ubuntu 13", "Ubuntu 13.04 (Raring Ringtail)");
+            correctionAdd("raring", "Ubuntu 13.04 (Raring Ringtail)");
+            correctionAdd("13.04", "Ubuntu 13.04 (Raring Ringtail)");
 
-            correctionAdd("Ubuntu 13.10 (Saucy Salamander)", "Ubuntu&nbsp;13.10 (Saucy Salamander)"); // Sort of identity mapping
-            correctionAdd("Ubuntu&nbsp;13.10", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
-            correctionAdd("Ubuntu 13.10", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
-            correctionAdd("ubuntu 13.10", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
-            correctionAdd("saucy", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
-            correctionAdd("13.10", "Ubuntu&nbsp;13.10 (Saucy Salamander)");
+            correctionAdd("Ubuntu 13.10", "Ubuntu 13.10 (Saucy Salamander)");
+            correctionAdd("ubuntu 13.10", "Ubuntu 13.10 (Saucy Salamander)");
+            correctionAdd("saucy", "Ubuntu 13.10 (Saucy Salamander)");
+            correctionAdd("13.10", "Ubuntu 13.10 (Saucy Salamander)");
 
-            correctionAdd("Ubuntu 14.04 (Trusty Tahr)", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Sort of identity mapping
-            correctionAdd("Ubuntu Unity 14.0.4", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
-            correctionAdd("trusty Ubuntu 14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
-            correctionAdd("Ubuntu Linux 14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
-            correctionAdd("Ubuntu Unity 14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
-            correctionAdd("Ubuntu&nbsp;14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("ubuntu 14.04 LTS", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
-            correctionAdd("Ubuntu 14.04 LTS", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
-            correctionAdd("ubunru 14.04lts", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("ubuntu14.04 LTS", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
-            correctionAdd("Ubuntu 14.04LTS", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
-            correctionAdd("ubuntu14.04LTS", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
-            correctionAdd("Ubuntu 14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("ubuntu 14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("14.04 Trusty", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("uBuntu 14-04", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
-            correctionAdd("Ubuntu14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("Trusty Tahr", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("ubuntu14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("Ubuntu 14", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("Trusty", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("trusty", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("14.04", "Ubuntu&nbsp;14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
-            correctionAdd("14-04", "Ubuntu&nbsp;14.04 (Trusty Tahr)");
+            correctionAdd("Ubuntu Unity 14.0.4", "Ubuntu 14.04 (Trusty Tahr)");
+            correctionAdd("trusty Ubuntu 14.04", "Ubuntu 14.04 (Trusty Tahr)");
+            correctionAdd("Ubuntu Linux 14.04", "Ubuntu 14.04 (Trusty Tahr)");
+            correctionAdd("Ubuntu Unity 14.04", "Ubuntu 14.04 (Trusty Tahr)");
+            correctionAdd("ubuntu 14.04 LTS", "Ubuntu 14.04 (Trusty Tahr)");
+            correctionAdd("Ubuntu 14.04 LTS", "Ubuntu 14.04 (Trusty Tahr)");
+            correctionAdd("ubunru 14.04lts", "Ubuntu 14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("ubuntu14.04 LTS", "Ubuntu 14.04 (Trusty Tahr)");
+            correctionAdd("Ubuntu 14.04LTS", "Ubuntu 14.04 (Trusty Tahr)");
+            correctionAdd("ubuntu14.04LTS", "Ubuntu 14.04 (Trusty Tahr)");
+            correctionAdd("Ubuntu 14.04", "Ubuntu 14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("ubuntu 14.04", "Ubuntu 14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("14.04 Trusty", "Ubuntu 14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("uBuntu 14-04", "Ubuntu 14.04 (Trusty Tahr)");
+            correctionAdd("Ubuntu14.04", "Ubuntu 14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("Trusty Tahr", "Ubuntu 14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("ubuntu14.04", "Ubuntu 14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("Ubuntu 14", "Ubuntu 14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("Trusty", "Ubuntu 14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("trusty", "Ubuntu 14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("14.04", "Ubuntu 14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
+            correctionAdd("14-04", "Ubuntu 14.04 (Trusty Tahr)");
 
-            correctionAdd("Ubuntu 14.10 (Utopic Unicorn)", "Ubuntu&nbsp;14.10 (Utopic Unicorn)"); // Sort of identity mapping
-            correctionAdd("Ubuntu Server 14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
-            correctionAdd("Ubuntu&nbsp;14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
-            correctionAdd("Ubuntu 14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
-            correctionAdd("ubuntu 14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
-            correctionAdd("14.10", "Ubuntu&nbsp;14.10 (Utopic Unicorn)");
+            correctionAdd("Ubuntu Server 14.10", "Ubuntu 14.10 (Utopic Unicorn)");
+            correctionAdd("Ubuntu 14.10", "Ubuntu 14.10 (Utopic Unicorn)");
+            correctionAdd("ubuntu 14.10", "Ubuntu 14.10 (Utopic Unicorn)");
+            correctionAdd("14.10", "Ubuntu 14.10 (Utopic Unicorn)");
 
-            correctionAdd("Ubuntu 15.04 (Vivid Vervet)", "Ubuntu&nbsp;15.04 (Vivid Vervet)"); // Sort of identity mapping
-            correctionAdd("Ubuntu&nbsp;15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
-            correctionAdd("Ubuntu 15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
-            correctionAdd("ubuntu 15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
-            correctionAdd("Ubuntu15", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
-            correctionAdd("Ubuntu 15", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
-            correctionAdd("15.04", "Ubuntu&nbsp;15.04 (Vivid Vervet)");
+            correctionAdd("Ubuntu 15.04", "Ubuntu 15.04 (Vivid Vervet)");
+            correctionAdd("ubuntu 15.04", "Ubuntu 15.04 (Vivid Vervet)");
+            correctionAdd("Ubuntu 15", "Ubuntu 15.04 (Vivid Vervet)");
+            correctionAdd("Ubuntu15", "Ubuntu 15.04 (Vivid Vervet)");
+            correctionAdd("15.04", "Ubuntu 15.04 (Vivid Vervet)");
 
-            correctionAdd("Ubuntu 15.10 (Wily Werewolf)", "Ubuntu&nbsp;15.10 (Wily Werewolf)"); // Sort of identity mapping
-            correctionAdd("Ubuntu 15.10", "Ubuntu&nbsp;15.10 (Wily Werewolf)");
-            correctionAdd("ubuntu 15.10", "Ubuntu&nbsp;15.10 (Wily Werewolf)");
-            correctionAdd("15.10", "Ubuntu&nbsp;15.10 (Wily Werewolf)");
+            correctionAdd("Ubuntu 15.10", "Ubuntu 15.10 (Wily Werewolf)");
+            correctionAdd("ubuntu 15.10", "Ubuntu 15.10 (Wily Werewolf)");
+            correctionAdd("15.10", "Ubuntu 15.10 (Wily Werewolf)");
 
-            correctionAdd("Ubuntu&nbsp;16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("Ubuntu 16.04 (Xenial Xerus)", "Ubuntu&nbsp;16.04 (Xenial Xerus)"); // Sort of identity mapping
-            correctionAdd("Ubuntu Xenial", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("ubuntu xenial", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("ubuntu 16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("Ubuntu 16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("UBUNTU 16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("Ubuntu 16.06", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("Ubuntu-16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("Ubuntu16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("Ubuntu 16.4", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("Ubuntu 16", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("ubuntu 16", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("of 2016", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("Xenial", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("xenial", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("16.04", "Ubuntu&nbsp;16.04 (Xenial Xerus)");
-            correctionAdd("16.4", "Ubuntu&nbsp;16.04 (Xenial Xerus)"); // Yes, highly context dependent...
-            correctionAdd("16", "Ubuntu&nbsp;16.04 (Xenial Xerus)"); // Yes, even more highly context dependent...
+            correctionAdd("Ubuntu Xenial", "Ubuntu 16.04 (Xenial Xerus)");
+            correctionAdd("ubuntu xenial", "Ubuntu 16.04 (Xenial Xerus)");
+            correctionAdd("ubuntu 16.04", "Ubuntu 16.04 (Xenial Xerus)");
+            correctionAdd("Ubuntu 16.04", "Ubuntu 16.04 (Xenial Xerus)");
+            correctionAdd("UBUNTU 16.04", "Ubuntu 16.04 (Xenial Xerus)");
+            correctionAdd("Ubuntu 16.06", "Ubuntu 16.04 (Xenial Xerus)");
+            correctionAdd("Ubuntu-16.04", "Ubuntu 16.04 (Xenial Xerus)");
+            correctionAdd("Ubuntu16.04", "Ubuntu 16.04 (Xenial Xerus)");
+            correctionAdd("Ubuntu 16.4", "Ubuntu 16.04 (Xenial Xerus)");
+            correctionAdd("Ubuntu 16", "Ubuntu 16.04 (Xenial Xerus)");
+            correctionAdd("ubuntu 16", "Ubuntu 16.04 (Xenial Xerus)");
+            correctionAdd("of 2016", "Ubuntu 16.04 (Xenial Xerus)");
+            correctionAdd("Xenial", "Ubuntu 16.04 (Xenial Xerus)");
+            correctionAdd("xenial", "Ubuntu 16.04 (Xenial Xerus)");
+            correctionAdd("16.04", "Ubuntu 16.04 (Xenial Xerus)");
+            correctionAdd("16.4", "Ubuntu 16.04 (Xenial Xerus)"); // Yes, highly context dependent...
+            correctionAdd("16", "Ubuntu 16.04 (Xenial Xerus)"); // Yes, even more highly context dependent...
 
-            correctionAdd("Ubuntu 16.10 (Yakkety Yak)", "Ubuntu&nbsp;16.10 (Yakkety Yak)"); // Sort of identity mapping
-            correctionAdd("Ubuntu 16.10", "Ubuntu&nbsp;16.10 (Yakkety Yak)");
-            correctionAdd("Yakkety Yak", "Ubuntu&nbsp;16.10 (Yakkety Yak)");
-            correctionAdd("16.10", "Ubuntu&nbsp;16.10 (Yakkety Yak)");
+            correctionAdd("Ubuntu 16.10", "Ubuntu 16.10 (Yakkety Yak)");
+            correctionAdd("Yakkety Yak", "Ubuntu 16.10 (Yakkety Yak)");
+            correctionAdd("16.10", "Ubuntu 16.10 (Yakkety Yak)");
 
-            correctionAdd("Ubuntu 17.04 (Zesty Zapus)", "Ubuntu&nbsp;17.04 (Zesty Zapus)"); // Sort of identity mapping
-            correctionAdd("ubuntu 17.04", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
-            correctionAdd("Ubuntu 17.04", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
-            correctionAdd("Zesty Zapus", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
-            correctionAdd("zesty", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
-            correctionAdd("17.04", "Ubuntu&nbsp;17.04 (Zesty Zapus)");
+            correctionAdd("ubuntu 17.04", "Ubuntu 17.04 (Zesty Zapus)");
+            correctionAdd("Ubuntu 17.04", "Ubuntu 17.04 (Zesty Zapus)");
+            correctionAdd("Zesty Zapus", "Ubuntu 17.04 (Zesty Zapus)");
+            correctionAdd("zesty", "Ubuntu 17.04 (Zesty Zapus)");
+            correctionAdd("17.04", "Ubuntu 17.04 (Zesty Zapus)");
 
-            correctionAdd("Ubuntu 17.10 (Artful Aardvark)", "Ubuntu&nbsp;17.10 (Artful Aardvark)"); // Sort of identity mapping
-            correctionAdd("Ubuntu 17.10", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
-            correctionAdd("ubuntu 17.10", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
-            correctionAdd("ubuntu17.10", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
-            correctionAdd("Ubuntu 17.1", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
-            correctionAdd("Ubuntu 17", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
-            correctionAdd("ubuntu 17", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
-            correctionAdd("artful", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
-            correctionAdd("17.10", "Ubuntu&nbsp;17.10 (Artful Aardvark)");
+            correctionAdd("Ubuntu 17.10", "Ubuntu 17.10 (Artful Aardvark)");
+            correctionAdd("ubuntu 17.10", "Ubuntu 17.10 (Artful Aardvark)");
+            correctionAdd("ubuntu17.10", "Ubuntu 17.10 (Artful Aardvark)");
+            correctionAdd("Ubuntu 17.1", "Ubuntu 17.10 (Artful Aardvark)");
+            correctionAdd("Ubuntu 17", "Ubuntu 17.10 (Artful Aardvark)");
+            correctionAdd("ubuntu 17", "Ubuntu 17.10 (Artful Aardvark)");
+            correctionAdd("artful", "Ubuntu 17.10 (Artful Aardvark)");
+            correctionAdd("17.10", "Ubuntu 17.10 (Artful Aardvark)");
 
-            correctionAdd("Ubuntu 18.04 (Bionic Beaver)", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Sort of identity mapping
-            correctionAdd("Ubuntu Bionic Beaver", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu&nbsp;18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu 18.04LTS", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Bionic Beaver", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("bionic beaver", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("ubuntu bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu 18 LTS", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu Bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("ubuntu 18 lts", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu 18.0.4", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("ubuntu 18.0.4", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu 18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu-18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("ubuntu 18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("ubuntu-18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu 18.4", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("ubuntu18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu V18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu 18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Ubuntu-18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("ubuntu 18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("18.04 LTS", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("18.04LTS", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("Bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("bionic", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("V18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Yes, highly context dependent...
-            correctionAdd("v18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Yes, highly context dependent...
-            correctionAdd("18.04", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("V18", "Ubuntu&nbsp;18.04 (Bionic Beaver)");
-            correctionAdd("18", "Ubuntu&nbsp;18.04 (Bionic Beaver)"); // Yes, even more highly context dependent...
+            correctionAdd("Ubuntu Bionic Beaver", "Ubuntu 18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu 18.04LTS", "Ubuntu 18.04 (Bionic Beaver)");
+            correctionAdd("Bionic Beaver", "Ubuntu 18.04 (Bionic Beaver)");
+            correctionAdd("bionic beaver", "Ubuntu 18.04 (Bionic Beaver)");
+            correctionAdd("ubuntu bionic", "Ubuntu 18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu 18 LTS", "Ubuntu 18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu Bionic", "Ubuntu 18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu bionic", "Ubuntu 18.04 (Bionic Beaver)");
+            correctionAdd("ubuntu 18 lts", "Ubuntu 18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu 18.0.4", "Ubuntu 18.04 (Bionic Beaver)");
+            correctionAdd("ubuntu 18.0.4", "Ubuntu 18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu 18.04", "Ubuntu 18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu-18.04", "Ubuntu 18.04 (Bionic Beaver)");
+            correctionAdd("ubuntu 18.04", "Ubuntu 18.04 (Bionic Beaver)");
+            correctionAdd("ubuntu-18.04", "Ubuntu 18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu18.04", "Ubuntu 18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu 18.4", "Ubuntu 18.04 (Bionic Beaver)");
+            correctionAdd("ubuntu18.04", "Ubuntu 18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu V18", "Ubuntu 18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu 18", "Ubuntu 18.04 (Bionic Beaver)");
+            correctionAdd("Ubuntu-18", "Ubuntu 18.04 (Bionic Beaver)");
+            correctionAdd("ubuntu 18", "Ubuntu 18.04 (Bionic Beaver)");
+            correctionAdd("18.04 LTS", "Ubuntu 18.04 (Bionic Beaver)");
+            correctionAdd("18.04LTS", "Ubuntu 18.04 (Bionic Beaver)");
+            correctionAdd("Bionic", "Ubuntu 18.04 (Bionic Beaver)");
+            correctionAdd("bionic", "Ubuntu 18.04 (Bionic Beaver)");
+            correctionAdd("V18.04", "Ubuntu 18.04 (Bionic Beaver)"); // Yes, highly context dependent...
+            correctionAdd("v18.04", "Ubuntu 18.04 (Bionic Beaver)"); // Yes, highly context dependent...
+            correctionAdd("18.04", "Ubuntu 18.04 (Bionic Beaver)");
+            correctionAdd("V18", "Ubuntu 18.04 (Bionic Beaver)");
+            correctionAdd("18", "Ubuntu 18.04 (Bionic Beaver)"); // Yes, even more highly context dependent...
 
-            correctionAdd("Ubuntu 18.10 (Cosmic Cuttlefish)", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)"); // Sort of identity mapping
-            correctionAdd("Cosmic Cuttlefish", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
-            correctionAdd("Ubuntu Cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
-            correctionAdd("Ubuntu 18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
-            correctionAdd("UBUNTU 18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
-            correctionAdd("ubuntu 18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
-            correctionAdd("Cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
-            correctionAdd("cosmic", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
-            correctionAdd("18.10", "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)");
+            correctionAdd("Cosmic Cuttlefish", "Ubuntu 18.10 (Cosmic Cuttlefish)");
+            correctionAdd("Ubuntu Cosmic", "Ubuntu 18.10 (Cosmic Cuttlefish)");
+            correctionAdd("Ubuntu 18.10", "Ubuntu 18.10 (Cosmic Cuttlefish)");
+            correctionAdd("UBUNTU 18.10", "Ubuntu 18.10 (Cosmic Cuttlefish)");
+            correctionAdd("ubuntu 18.10", "Ubuntu 18.10 (Cosmic Cuttlefish)");
+            correctionAdd("Cosmic", "Ubuntu 18.10 (Cosmic Cuttlefish)");
+            correctionAdd("cosmic", "Ubuntu 18.10 (Cosmic Cuttlefish)");
+            correctionAdd("18.10", "Ubuntu 18.10 (Cosmic Cuttlefish)");
 
-            correctionAdd("Ubuntu 19.04 (Disco Dingo)", "Ubuntu&nbsp;19.04 (Disco Dingo)"); // Sort of identity mapping
-            correctionAdd("Ubuntu 19.04", "Ubuntu&nbsp;19.04 (Disco Dingo)");
-            correctionAdd("ubuntu 19.04", "Ubuntu&nbsp;19.04 (Disco Dingo)");
-            correctionAdd("Disco Dingo", "Ubuntu&nbsp;19.04 (Disco Dingo)");
-            correctionAdd("ubuntu 19", "Ubuntu&nbsp;19.04 (Disco Dingo)");
-            correctionAdd("Ubuntu 19", "Ubuntu&nbsp;19.04 (Disco Dingo)");
-            correctionAdd("19.04", "Ubuntu&nbsp;19.04 (Disco Dingo)");
-            correctionAdd("disco", "Ubuntu&nbsp;19.04 (Disco Dingo)");
-            correctionAdd("Disco", "Ubuntu&nbsp;19.04 (Disco Dingo)");
+            correctionAdd("Ubuntu 19.04", "Ubuntu 19.04 (Disco Dingo)");
+            correctionAdd("ubuntu 19.04", "Ubuntu 19.04 (Disco Dingo)");
+            correctionAdd("Disco Dingo", "Ubuntu 19.04 (Disco Dingo)");
+            correctionAdd("ubuntu 19", "Ubuntu 19.04 (Disco Dingo)");
+            correctionAdd("Ubuntu 19", "Ubuntu 19.04 (Disco Dingo)");
+            correctionAdd("19.04", "Ubuntu 19.04 (Disco Dingo)");
+            correctionAdd("disco", "Ubuntu 19.04 (Disco Dingo)");
+            correctionAdd("Disco", "Ubuntu 19.04 (Disco Dingo)");
 
             // It broke the clipboard!!!! -
             //
@@ -7617,159 +7579,145 @@ namespace OverflowHelper.core
             //
             // Note: "Ubuntu 19.04 (Disco Dingo)" is in another word set
             //
-            correctionAdd("Ubuntu 19.04 eoan", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
-            correctionAdd("Ubuntu v.19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
-            correctionAdd("Ubuntu 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
-            correctionAdd("ubuntu 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
-            correctionAdd("UBUNTU 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
-            correctionAdd("Ubunto 19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
-            correctionAdd("Ubuntu 19.10 (Eoan Ermine)", "Ubuntu&nbsp;19.10 (Eoan Ermine)"); // Sort of identity mapping
-            correctionAdd("19.10", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
-            correctionAdd("eoan", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
-            correctionAdd("Eoan", "Ubuntu&nbsp;19.10 (Eoan Ermine)");
+            correctionAdd("Ubuntu 19.04 eoan", "Ubuntu 19.10 (Eoan Ermine)");
+            correctionAdd("Ubuntu v.19.10", "Ubuntu 19.10 (Eoan Ermine)");
+            correctionAdd("Ubuntu 19.10", "Ubuntu 19.10 (Eoan Ermine)");
+            correctionAdd("ubuntu 19.10", "Ubuntu 19.10 (Eoan Ermine)");
+            correctionAdd("UBUNTU 19.10", "Ubuntu 19.10 (Eoan Ermine)");
+            correctionAdd("Ubunto 19.10", "Ubuntu 19.10 (Eoan Ermine)");
+            correctionAdd("19.10", "Ubuntu 19.10 (Eoan Ermine)");
+            correctionAdd("eoan", "Ubuntu 19.10 (Eoan Ermine)");
+            correctionAdd("Eoan", "Ubuntu 19.10 (Eoan Ermine)");
 
-            correctionAdd("Ubuntu 20.04 (Focal Fossa)", "Ubuntu&nbsp;20.04 (Focal Fossa)"); // Sort of identity mapping
-            correctionAdd("ubuntu 20.4 focal fossa", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu Linux 20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu&nbsp;20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu 20.04 LTS", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("ubuntu 20.04 LTS", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("ubuntu 20.04LTS", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu 20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("ubuntu 20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("ubuntu-focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu Focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("ubuntu-20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("UBUNTU 20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("ubuntu20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("focal fossa", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu 20.4", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("ubuntu 20.4", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu 20", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("ubuntu 20", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("ubuntu-20", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("20.04 lts", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu20", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("20.04lts", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Focal", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("20.04", "Ubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("20", "Ubuntu&nbsp;20.04 (Focal Fossa)"); // Yes, highly context dependent...
+            correctionAdd("ubuntu 20.4 focal fossa", "Ubuntu 20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu Linux 20.04", "Ubuntu 20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu 20.04 LTS", "Ubuntu 20.04 (Focal Fossa)");
+            correctionAdd("ubuntu 20.04 LTS", "Ubuntu 20.04 (Focal Fossa)");
+            correctionAdd("ubuntu 20.04LTS", "Ubuntu 20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu 20.04", "Ubuntu 20.04 (Focal Fossa)");
+            correctionAdd("ubuntu 20.04", "Ubuntu 20.04 (Focal Fossa)");
+            correctionAdd("ubuntu-focal", "Ubuntu 20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu Focal", "Ubuntu 20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu focal", "Ubuntu 20.04 (Focal Fossa)");
+            correctionAdd("ubuntu-20.04", "Ubuntu 20.04 (Focal Fossa)");
+            correctionAdd("UBUNTU 20.04", "Ubuntu 20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu20.04", "Ubuntu 20.04 (Focal Fossa)");
+            correctionAdd("ubuntu20.04", "Ubuntu 20.04 (Focal Fossa)");
+            correctionAdd("focal fossa", "Ubuntu 20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu 20.4", "Ubuntu 20.04 (Focal Fossa)");
+            correctionAdd("ubuntu 20.4", "Ubuntu 20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu 20", "Ubuntu 20.04 (Focal Fossa)");
+            correctionAdd("ubuntu 20", "Ubuntu 20.04 (Focal Fossa)");
+            correctionAdd("ubuntu-20", "Ubuntu 20.04 (Focal Fossa)");
+            correctionAdd("20.04 lts", "Ubuntu 20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu20", "Ubuntu 20.04 (Focal Fossa)");
+            correctionAdd("20.04lts", "Ubuntu 20.04 (Focal Fossa)");
+            correctionAdd("focal", "Ubuntu 20.04 (Focal Fossa)");
+            correctionAdd("Focal", "Ubuntu 20.04 (Focal Fossa)");
+            correctionAdd("20.04", "Ubuntu 20.04 (Focal Fossa)");
+            correctionAdd("20", "Ubuntu 20.04 (Focal Fossa)"); // Yes, highly context dependent...
 
-            correctionAdd("Ubuntu MATE 20.04 (Focal Fossa)", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)"); // Sort of identity mapping
-            correctionAdd("Ubuntu 20.04 MATE", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu MATE 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("ubuntu mate 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("ubuntu 20.04 mate", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu 20.04 mate", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Ubuntu Mate 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("MATE 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("20.04 mate", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("20.04 MATE", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("mate 20.04", "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu 20.04 MATE", "Ubuntu MATE 20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu MATE 20.04", "Ubuntu MATE 20.04 (Focal Fossa)");
+            correctionAdd("ubuntu mate 20.04", "Ubuntu MATE 20.04 (Focal Fossa)");
+            correctionAdd("ubuntu 20.04 mate", "Ubuntu MATE 20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu 20.04 mate", "Ubuntu MATE 20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu Mate 20.04", "Ubuntu MATE 20.04 (Focal Fossa)");
+            correctionAdd("MATE 20.04", "Ubuntu MATE 20.04 (Focal Fossa)");
+            correctionAdd("20.04 mate", "Ubuntu MATE 20.04 (Focal Fossa)");
+            correctionAdd("20.04 MATE", "Ubuntu MATE 20.04 (Focal Fossa)");
+            correctionAdd("mate 20.04", "Ubuntu MATE 20.04 (Focal Fossa)");
 
-            correctionAdd("Ubuntu 20.10", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
-            correctionAdd("Ubuntu 20.10 (Groovy Gorilla)", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
-            correctionAdd("ubuntu 20.10", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
-            correctionAdd("20.10", "Ubuntu&nbsp;20.10 (Groovy Gorilla)");
+            correctionAdd("Ubuntu 20.10", "Ubuntu 20.10 (Groovy Gorilla)");
+            correctionAdd("ubuntu 20.10", "Ubuntu 20.10 (Groovy Gorilla)");
+            correctionAdd("20.10", "Ubuntu 20.10 (Groovy Gorilla)");
 
-            correctionAdd("Ubuntu 21.04 (Hirsute Hippo)", "Ubuntu&nbsp;21.04 (Hirsute Hippo)"); // Sort of identity mapping
-            correctionAdd("ubuntu hirsute", "Ubuntu&nbsp;21.04 (Hirsute Hippo)");
-            correctionAdd("Hirsute Hippo", "Ubuntu&nbsp;21.04 (Hirsute Hippo)");
-            correctionAdd("Ubuntu 21.04", "Ubuntu&nbsp;21.04 (Hirsute Hippo)");
-            correctionAdd("ubuntu 21.04", "Ubuntu&nbsp;21.04 (Hirsute Hippo)");
-            correctionAdd("hirsute", "Ubuntu&nbsp;21.04 (Hirsute Hippo)");
-            correctionAdd("21.04", "Ubuntu&nbsp;21.04 (Hirsute Hippo)");
+            correctionAdd("ubuntu hirsute", "Ubuntu 21.04 (Hirsute Hippo)");
+            correctionAdd("Hirsute Hippo", "Ubuntu 21.04 (Hirsute Hippo)");
+            correctionAdd("Ubuntu 21.04", "Ubuntu 21.04 (Hirsute Hippo)");
+            correctionAdd("ubuntu 21.04", "Ubuntu 21.04 (Hirsute Hippo)");
+            correctionAdd("hirsute", "Ubuntu 21.04 (Hirsute Hippo)");
+            correctionAdd("21.04", "Ubuntu 21.04 (Hirsute Hippo)");
 
-            correctionAdd("Ubuntu 21.10 (Impish Indri)", "Ubuntu&nbsp;21.10 (Impish Indri)"); // Sort of identity mapping
-            correctionAdd("ubuntu 21.10 impish", "Ubuntu&nbsp;21.10 (Impish Indri)");
-            correctionAdd("Ubuntu 21.10", "Ubuntu&nbsp;21.10 (Impish Indri)");
-            correctionAdd("ubuntu 21.10", "Ubuntu&nbsp;21.10 (Impish Indri)");
-            correctionAdd("impish", "Ubuntu&nbsp;21.10 (Impish Indri)");
-            correctionAdd("Impish", "Ubuntu&nbsp;21.10 (Impish Indri)");
-            correctionAdd("21.10", "Ubuntu&nbsp;21.10 (Impish Indri)");
+            correctionAdd("ubuntu 21.10 impish", "Ubuntu 21.10 (Impish Indri)");
+            correctionAdd("Ubuntu 21.10", "Ubuntu 21.10 (Impish Indri)");
+            correctionAdd("ubuntu 21.10", "Ubuntu 21.10 (Impish Indri)");
+            correctionAdd("impish", "Ubuntu 21.10 (Impish Indri)");
+            correctionAdd("Impish", "Ubuntu 21.10 (Impish Indri)");
+            correctionAdd("21.10", "Ubuntu 21.10 (Impish Indri)");
 
-            correctionAdd("Ubuntu Linux 22.xx", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("Jammy Jellyfish", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("Jammy jellyfish", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("jammy jellyfish", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("Ubuntu 22 LTS", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("ubuntu 22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("Ubuntu 22.04 (Jammy Jellyfish)", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)"); // Sort of identity mapping
-            correctionAdd("Ubuntu 22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
-            correctionAdd("Ubuntu 22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("ubuntu-22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("Ubuntu22LTS", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("Ubuntu22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("ubuntu22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("the gobble", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("the gopple", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("Ubuntu 22", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("ubuntu 22", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("Jellyfish", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("The gople", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("the gople", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("ubuntu22", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("gobble", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("gopple", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("Jammy", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("jammy", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("gople", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("22:04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("22.04", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("22.xx", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
-            correctionAdd("22", "Ubuntu&nbsp;22.04 (Jammy Jellyfish)");
+            correctionAdd("Ubuntu Linux 22.xx", "Ubuntu 22.04 (Jammy Jellyfish)");
+            correctionAdd("Jammy Jellyfish", "Ubuntu 22.04 (Jammy Jellyfish)");
+            correctionAdd("Jammy jellyfish", "Ubuntu 22.04 (Jammy Jellyfish)");
+            correctionAdd("jammy jellyfish", "Ubuntu 22.04 (Jammy Jellyfish)");
+            correctionAdd("Ubuntu 22 LTS", "Ubuntu 22.04 (Jammy Jellyfish)");
+            correctionAdd("ubuntu 22.04", "Ubuntu 22.04 (Jammy Jellyfish)");
+            correctionAdd("Ubuntu 22.04", "Ubuntu 22.04 (Jammy Jellyfish)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("Ubuntu 22.04", "Ubuntu 22.04 (Jammy Jellyfish)");
+            correctionAdd("ubuntu-22.04", "Ubuntu 22.04 (Jammy Jellyfish)");
+            correctionAdd("Ubuntu22LTS", "Ubuntu 22.04 (Jammy Jellyfish)");
+            correctionAdd("Ubuntu22.04", "Ubuntu 22.04 (Jammy Jellyfish)");
+            correctionAdd("ubuntu22.04", "Ubuntu 22.04 (Jammy Jellyfish)");
+            correctionAdd("the gobble", "Ubuntu 22.04 (Jammy Jellyfish)");
+            correctionAdd("the gopple", "Ubuntu 22.04 (Jammy Jellyfish)");
+            correctionAdd("Ubuntu 22", "Ubuntu 22.04 (Jammy Jellyfish)");
+            correctionAdd("ubuntu 22", "Ubuntu 22.04 (Jammy Jellyfish)");
+            correctionAdd("Jellyfish", "Ubuntu 22.04 (Jammy Jellyfish)");
+            correctionAdd("The gople", "Ubuntu 22.04 (Jammy Jellyfish)");
+            correctionAdd("the gople", "Ubuntu 22.04 (Jammy Jellyfish)");
+            correctionAdd("ubuntu22", "Ubuntu 22.04 (Jammy Jellyfish)");
+            correctionAdd("gobble", "Ubuntu 22.04 (Jammy Jellyfish)");
+            correctionAdd("gopple", "Ubuntu 22.04 (Jammy Jellyfish)");
+            correctionAdd("Jammy", "Ubuntu 22.04 (Jammy Jellyfish)");
+            correctionAdd("jammy", "Ubuntu 22.04 (Jammy Jellyfish)");
+            correctionAdd("gople", "Ubuntu 22.04 (Jammy Jellyfish)");
+            correctionAdd("22:04", "Ubuntu 22.04 (Jammy Jellyfish)");
+            correctionAdd("22.04", "Ubuntu 22.04 (Jammy Jellyfish)");
+            correctionAdd("22.xx", "Ubuntu 22.04 (Jammy Jellyfish)");
+            correctionAdd("22", "Ubuntu 22.04 (Jammy Jellyfish)");
 
-            correctionAdd("Ubuntu 22.10 (Kinetic Kudu)", "Ubuntu&nbsp;22.10 (Kinetic Kudu)"); // Sort of identity mapping
-            correctionAdd("22.10", "Ubuntu&nbsp;22.10 (Kinetic Kudu)");
+            correctionAdd("22.10", "Ubuntu 22.10 (Kinetic Kudu)");
 
-            correctionAdd("Ubuntu 23.04 (Lunar Lobster)", "Ubuntu&nbsp;23.04 (Lunar Lobster)"); // Sort of identity mapping
-            correctionAdd("Ubuntu 23.04", "Ubuntu&nbsp;23.04 (Lunar Lobster)");
-            correctionAdd("23.04", "Ubuntu&nbsp;23.04 (Lunar Lobster)");
+            correctionAdd("Ubuntu 23.04", "Ubuntu 23.04 (Lunar Lobster)");
+            correctionAdd("23.04", "Ubuntu 23.04 (Lunar Lobster)");
 
-            correctionAdd("Ubuntu 23.10 (Mantic Minotaur)", "Ubuntu&nbsp;23.10 (Mantic Minotaur)"); // Sort of identity mapping
-            correctionAdd("Ubuntu 23.10", "Ubuntu&nbsp;23.10 (Mantic Minotaur)");
-            correctionAdd("bovine", "Ubuntu&nbsp;23.10 (Mantic Minotaur)");
-            correctionAdd("23.10", "Ubuntu&nbsp;23.10 (Mantic Minotaur)");
+            correctionAdd("Ubuntu 23.10", "Ubuntu 23.10 (Mantic Minotaur)");
+            correctionAdd("bovine", "Ubuntu 23.10 (Mantic Minotaur)");
+            correctionAdd("23.10", "Ubuntu 23.10 (Mantic Minotaur)");
 
-            correctionAdd("Ubuntu 24.04 (Noble Numbat)", "Ubuntu&nbsp;24.04 (Noble Numbat)"); // Sort of identity mapping
-            correctionAdd("Ubuntu noble 24.04", "Ubuntu&nbsp;24.04 (Noble Numbat)");
-            correctionAdd("Ubuntu 24.04", "Ubuntu&nbsp;24.04 (Noble Numbat)");
-            correctionAdd("ubuntu 24.04", "Ubuntu&nbsp;24.04 (Noble Numbat)");
-            correctionAdd("ubuntu 24.01", "Ubuntu&nbsp;24.04 (Noble Numbat)"); // Probably 24.04.01
-            correctionAdd("ubunto 24.04", "Ubuntu&nbsp;24.04 (Noble Numbat)");
-            correctionAdd("Noble Numbat", "Ubuntu&nbsp;24.04 (Noble Numbat)");
-            correctionAdd("Ubuntu:24.04", "Ubuntu&nbsp;24.04 (Noble Numbat)");
-            correctionAdd("ubuntu-24.04", "Ubuntu&nbsp;24.04 (Noble Numbat)");
-            correctionAdd("Ubuntu Noble", "Ubuntu&nbsp;24.04 (Noble Numbat)");
-            correctionAdd("Ubuntu noble", "Ubuntu&nbsp;24.04 (Noble Numbat)");
-            correctionAdd("ubuntu 24", "Ubuntu&nbsp;24.04 (Noble Numbat)");
-            correctionAdd("Ubuntu 24", "Ubuntu&nbsp;24.04 (Noble Numbat)");
-            correctionAdd("Noble", "Ubuntu&nbsp;24.04 (Noble Numbat)");
-            correctionAdd("24.04", "Ubuntu&nbsp;24.04 (Noble Numbat)");
-            correctionAdd("noble", "Ubuntu&nbsp;24.04 (Noble Numbat)");
+            correctionAdd("Ubuntu noble 24.04", "Ubuntu 24.04 (Noble Numbat)");
+            correctionAdd("Ubuntu 24.04", "Ubuntu 24.04 (Noble Numbat)");
+            correctionAdd("ubuntu 24.04", "Ubuntu 24.04 (Noble Numbat)");
+            correctionAdd("ubuntu 24.01", "Ubuntu 24.04 (Noble Numbat)"); // Probably 24.04.01
+            correctionAdd("ubunto 24.04", "Ubuntu 24.04 (Noble Numbat)");
+            correctionAdd("Noble Numbat", "Ubuntu 24.04 (Noble Numbat)");
+            correctionAdd("Ubuntu:24.04", "Ubuntu 24.04 (Noble Numbat)");
+            correctionAdd("ubuntu-24.04", "Ubuntu 24.04 (Noble Numbat)");
+            correctionAdd("Ubuntu Noble", "Ubuntu 24.04 (Noble Numbat)");
+            correctionAdd("Ubuntu noble", "Ubuntu 24.04 (Noble Numbat)");
+            correctionAdd("ubuntu 24", "Ubuntu 24.04 (Noble Numbat)");
+            correctionAdd("Ubuntu 24", "Ubuntu 24.04 (Noble Numbat)");
+            correctionAdd("Noble", "Ubuntu 24.04 (Noble Numbat)");
+            correctionAdd("24.04", "Ubuntu 24.04 (Noble Numbat)");
+            correctionAdd("noble", "Ubuntu 24.04 (Noble Numbat)");
 
-            correctionAdd("Ubuntu 26.04 (Resolute Raccoon)", "Ubuntu&nbsp;26.04 (Resolute Raccoon)"); // Sort of identity mapping
-            correctionAdd("Ubuntu 26.04", "Ubuntu&nbsp;26.04 (Resolute Raccoon)");
-            correctionAdd("ubuntu 26.04", "Ubuntu&nbsp;26.04 (Resolute Raccoon)");
-            correctionAdd("ubuntu 2604", "Ubuntu&nbsp;26.04 (Resolute Raccoon)");
-            correctionAdd("ubuntu26.04", "Ubuntu&nbsp;26.04 (Resolute Raccoon)");
-            correctionAdd("ubuntu2604", "Ubuntu&nbsp;26.04 (Resolute Raccoon)");
-            correctionAdd("26.04", "Ubuntu&nbsp;26.04 (Resolute Raccoon)");
-            correctionAdd("2604", "Ubuntu&nbsp;26.04 (Resolute Raccoon)");
+            correctionAdd("Ubuntu 26.04", "Ubuntu 26.04 (Resolute Raccoon)");
+            correctionAdd("ubuntu 26.04", "Ubuntu 26.04 (Resolute Raccoon)");
+            correctionAdd("ubuntu 2604", "Ubuntu 26.04 (Resolute Raccoon)");
+            correctionAdd("ubuntu26.04", "Ubuntu 26.04 (Resolute Raccoon)");
+            correctionAdd("ubuntu2604", "Ubuntu 26.04 (Resolute Raccoon)");
+            correctionAdd("26.04", "Ubuntu 26.04 (Resolute Raccoon)");
+            correctionAdd("2604", "Ubuntu 26.04 (Resolute Raccoon)");
 
             // A Linux distribution
             //
             // A duplicate of "MATE"?
-            correctionAdd("ubuntu manta", "Ubuntu&nbsp;MATE");
-            correctionAdd("Ubuntu MATE", "Ubuntu&nbsp;MATE"); // Sort of identity mapping
-            correctionAdd("Ubuntu Mate", "Ubuntu&nbsp;MATE");
-            correctionAdd("ubuntu mate", "Ubuntu&nbsp;MATE");
-            correctionAdd("ubuntu Mate", "Ubuntu&nbsp;MATE");
-            correctionAdd("Ubuntu-MATE", "Ubuntu&nbsp;MATE");
-            correctionAdd("UbuntuMate", "Ubuntu&nbsp;MATE");
+            correctionAdd("ubuntu manta", "Ubuntu MATE");
+            correctionAdd("Ubuntu Mate", "Ubuntu MATE");
+            correctionAdd("ubuntu mate", "Ubuntu MATE");
+            correctionAdd("ubuntu Mate", "Ubuntu MATE");
+            correctionAdd("Ubuntu-MATE", "Ubuntu MATE");
+            correctionAdd("UbuntuMate", "Ubuntu MATE");
 
             correctionAdd("ChromeBook", "Chromebook");
             correctionAdd("chromebook", "Chromebook");
@@ -12774,7 +12722,7 @@ namespace OverflowHelper.core
             correctionAdd("MACos", "macOS");
             correctionAdd("MAcOS", "macOS");
             correctionAdd("MacOX", "macOS");
-            correctionAdd("Mac&nbsp;OS&nbsp;X", "macOS"); // Cross from the old
+            correctionAdd("Mac OS X", "macOS"); // Cross from the old
 
             // macOS
             correctionAdd("kext", "kernel extension");
@@ -12956,329 +12904,302 @@ namespace OverflowHelper.core
             // 2005 vintage. Note: v10.2 (Jaguar) from 2002 is in
             //                     an alternative word set
             //
-            correctionAdd("Mac OS X v10.4 (Tiger) (2005 vintage)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)"); // Sort of identity mapping
-            correctionAdd("Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)");
-            correctionAdd("Mac&nbsp;OS&nbsp;X&nbsp;v10.4", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)");
-            correctionAdd("Mac OS X v10.4 (Tiger)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)"); // Sort of identity mapping
-            correctionAdd("Mac OS (10.4)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)");
-            correctionAdd("macOS (10.4)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)");
-            correctionAdd("MacOS 10.4", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)");
-            correctionAdd("macOS 10.4", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)");
-            correctionAdd("Mac 10.4", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)");
-            correctionAdd("Tiger", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)");
-            correctionAdd("10.4", "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)");
+            correctionAdd("Mac OS X v10.4 (Tiger)", "Mac OS X v10.4 (Tiger) (2005 vintage)");
+            correctionAdd("Mac OS X v10.4", "Mac OS X v10.4 (Tiger) (2005 vintage)");
+            correctionAdd("Mac OS (10.4)", "Mac OS X v10.4 (Tiger) (2005 vintage)");
+            correctionAdd("macOS (10.4)", "Mac OS X v10.4 (Tiger) (2005 vintage)");
+            correctionAdd("MacOS 10.4", "Mac OS X v10.4 (Tiger) (2005 vintage)");
+            correctionAdd("macOS 10.4", "Mac OS X v10.4 (Tiger) (2005 vintage)");
+            correctionAdd("Mac 10.4", "Mac OS X v10.4 (Tiger) (2005 vintage)");
+            correctionAdd("Tiger", "Mac OS X v10.4 (Tiger) (2005 vintage)");
+            correctionAdd("10.4", "Mac OS X v10.4 (Tiger) (2005 vintage)");
 
             // 2007 vintage
-            correctionAdd("Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
-            correctionAdd("Mac OS X v10.5 (Leopard) (2007 vintage)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)"); // Sort of identity mapping
-            correctionAdd("Mac&nbsp;OS&nbsp;X&nbsp;v10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
-            correctionAdd("Mac OS X v10.5 (Leopard)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)"); // Sort of identity mapping
-            correctionAdd("Mac OS X Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
-            correctionAdd("Mac OS X 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
-            correctionAdd("Mac OS X 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
-            correctionAdd("MacOS X 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
-            correctionAdd("OS X 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
-            correctionAdd("OS-X 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
-            correctionAdd("OSX 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
-            correctionAdd("Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
-            correctionAdd("leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
-            correctionAdd("OX 10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
-            correctionAdd("10.5", "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)");
+            correctionAdd("Mac OS X v10.5 (Leopard)", "Mac OS X v10.5 (Leopard) (2007 vintage)"); // Sort of identity mapping
+            correctionAdd("Mac OS X Leopard", "Mac OS X v10.5 (Leopard) (2007 vintage)");
+            correctionAdd("Mac OS X v10.5", "Mac OS X v10.5 (Leopard) (2007 vintage)");
+            correctionAdd("Mac OS X 10.5", "Mac OS X v10.5 (Leopard) (2007 vintage)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("Mac OS X 10.5", "Mac OS X v10.5 (Leopard) (2007 vintage)");
+            correctionAdd("MacOS X 10.5", "Mac OS X v10.5 (Leopard) (2007 vintage)");
+            correctionAdd("OS X 10.5", "Mac OS X v10.5 (Leopard) (2007 vintage)");
+            correctionAdd("OS-X 10.5", "Mac OS X v10.5 (Leopard) (2007 vintage)");
+            correctionAdd("OSX 10.5", "Mac OS X v10.5 (Leopard) (2007 vintage)");
+            correctionAdd("Leopard", "Mac OS X v10.5 (Leopard) (2007 vintage)");
+            correctionAdd("leopard", "Mac OS X v10.5 (Leopard) (2007 vintage)");
+            correctionAdd("OX 10.5", "Mac OS X v10.5 (Leopard) (2007 vintage)");
+            correctionAdd("10.5", "Mac OS X v10.5 (Leopard) (2007 vintage)");
 
             // 2009 vintage
-            correctionAdd("Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("Mac OS X v10.6 (Snow Leopard) (2009 vintage)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)"); // Sort of identity mapping
-            correctionAdd("Mac OS X (10.6 \"Snow Leopard\")", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("Mac OS X v10.6 (Snow Leopard)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)"); // Sort of identity mapping
-            correctionAdd("Mac&nbsp;OS&nbsp;X&nbsp;v10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("Mac OS X (10.6 Snow Leopard)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("Mac&nbsp;OS&nbsp;X 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("Mac OS X Snow Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("OS&nbsp;X&nbsp;v10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("Mac OSX Snow Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("mac osx snow leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("Mac OS Snow Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("MacOS Snow Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("Mac OS&nbsp;X 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("Snow&nbsp;Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("10.6 Snow Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("OSX Snow Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("Mac OS X v10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("Mac OS X 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
-            correctionAdd("Mac OS X 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("snow leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("Snow leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("snow-leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("Snow Leopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("Mac OSX 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("MacOS X 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("SnowLeopard", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("Mac OS 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("OS X 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("OSX 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("OSX-10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("OSx 10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("v10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("10.6", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
-            correctionAdd("SL", "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)");
+            correctionAdd("Mac OS X (10.6 \"Snow Leopard\")", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
+            correctionAdd("Mac OS X v10.6 (Snow Leopard)", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
+            correctionAdd("Mac OS X (10.6 Snow Leopard)", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
+            correctionAdd("Mac OS X Snow Leopard", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
+            correctionAdd("OS&nbsp;X&nbsp;v10.6", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
+            correctionAdd("Mac OSX Snow Leopard", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
+            correctionAdd("mac osx snow leopard", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
+            correctionAdd("Mac OS Snow Leopard", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
+            correctionAdd("MacOS Snow Leopard", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
+            correctionAdd("Mac OS&nbsp;X 10.6", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
+            correctionAdd("Snow&nbsp;Leopard", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
+            correctionAdd("10.6 Snow Leopard", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
+            correctionAdd("OSX Snow Leopard", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
+            correctionAdd("Mac OS X v10.6", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
+            correctionAdd("Mac OS X 10.6", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("Mac OS X 10.6", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
+            correctionAdd("snow leopard", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
+            correctionAdd("Snow leopard", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
+            correctionAdd("snow-leopard", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
+            correctionAdd("Snow Leopard", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
+            correctionAdd("Mac OSX 10.6", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
+            correctionAdd("MacOS X 10.6", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
+            correctionAdd("SnowLeopard", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
+            correctionAdd("Mac OS 10.6", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
+            correctionAdd("OS X 10.6", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
+            correctionAdd("OSX 10.6", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
+            correctionAdd("OSX-10.6", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
+            correctionAdd("OSx 10.6", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
+            correctionAdd("v10.6", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
+            correctionAdd("10.6", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
+            correctionAdd("SL", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
 
             // 2012 vintage. Note: 10.7 (Lion) from 2011 is in
             //                     an alternative word set
             //
-            correctionAdd("Mac OS X v10.8 (Mountain Lion) (2012 vintage)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)"); // Sort of identity mapping
-            correctionAdd("Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("Mac OS X v10.8 (Mountain Lion)", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)"); // Sort of identity mapping
-            correctionAdd("Mac&nbsp;OS&nbsp;X&nbsp;v10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("Mac&nbsp;OS&nbsp;X 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("OS X 10.8 Mountain Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("Mac OS X Mountain Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("Mac OSX Mountain Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("OS&nbsp;X&nbsp;v10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("OSX Mountain Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("OS X version 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("Mac OS X v10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
-            correctionAdd("Mac OS X v10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("Mountinan Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("Mountain Lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("mountain lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("Mac OS X 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("Mountain lion", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("MAC OS X 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("mac os x 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("Mac os x 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("Mac OSX 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("mac osx 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("mac os 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)"); // Missing "X"...
-            correctionAdd("MacOS 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("OS X 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("OSX 10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("v10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("10.8", "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("Mac OS X v10.8 (Mountain Lion)", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("Mac OS X v10.8", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("OS X 10.8 Mountain Lion", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("Mac OS X Mountain Lion", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("Mac OSX Mountain Lion", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("OS&nbsp;X&nbsp;v10.8", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("OSX Mountain Lion", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("OS X version 10.8", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("Mac OS X v10.8", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("Mountinan Lion", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("Mountain Lion", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("Mountain lion", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("mountain lion", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("Mac OS X 10.8", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("MAC OS X 10.8", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("Mac os x 10.8", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("mac os x 10.8", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("Mac OSX 10.8", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("mac osx 10.8", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("mac os 10.8", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)"); // Missing "X"...
+            correctionAdd("MacOS 10.8", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("OS X 10.8", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("OSX 10.8", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("v10.8", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
+            correctionAdd("10.8", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
 
             // 2013 vintage
             //
             // Note: the identity is not working. Is it because of the
             // trailing ")"??
             //
-            // Close in name (Ubuntu): "Ubuntu&nbsp;10.10 (Maverick Meerkat)"
+            // Close in name (Ubuntu): "Ubuntu 10.10 (Maverick Meerkat)"
             //     (2013 vintage)
-            correctionAdd("Mac OS X v10.9 (Mavericks) (2013 vintage)", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)"); // Sort of identity mapping
-            correctionAdd("Mac&nbsp;OS&nbsp;X v10.9 (Mavericks)", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Mac OS X v10.9 (Mavericks)", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)"); // Sort of identity mapping
-            correctionAdd("Mac&nbsp;OS&nbsp;X 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("mac OS X mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Mac OS X Mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Mac OS (Mavericks)", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("macOS (Mavericks)", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("OS&nbsp;X v10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("OS X Mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Mac OS X v10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("OS&nbsp;X 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("OSX mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("OSX Mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Mac OS X 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("osx mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("MAC Mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Mac Mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("mac os x 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Max OS X 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("MAC Maverick", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Mac Maverick", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("mac OSx 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("mac osx 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Max OSX 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Mac OS 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("mac ox 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("MacOSX 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("OS X v10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("OS X 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("mavericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("makericks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("OSX 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("maverick", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Maveriks", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Maverick", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Mac 10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Maverics", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("10.9", "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("Mac OS X v10.9 (Mavericks)", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("mac OS X mavericks", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("Mac OS X Mavericks", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("Mac OS (Mavericks)", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("macOS (Mavericks)", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("OS&nbsp;X v10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("OS X Mavericks", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("Mac OS X v10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("OS&nbsp;X 10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("OSX mavericks", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("OSX Mavericks", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("Mac OS X 10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("osx mavericks", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("MAC Mavericks", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("Mac Mavericks", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("mac os x 10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("Max OS X 10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("MAC Maverick", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("Mac Maverick", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("mac OSx 10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("mac osx 10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("Max OSX 10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("Mac OS 10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("mac ox 10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("MacOSX 10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("OS X v10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("Mavericks", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("OS X 10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("mavericks", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("makericks", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("OSX 10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("maverick", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("Maveriks", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("Maverick", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("Mac 10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("Maverics", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
+            correctionAdd("10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
 
             // 2015 vintage. Note: 10.10 (Yosemite) from 2014 is in
             //                     an alternative word set
             //
-            correctionAdd("Mac OS X v10.11 (El Capitan) (2015 vintage)", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)"); // Sort of identity mapping
-            correctionAdd("Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("Mac OS X v10.11 (El Capitan)", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)"); // Sort of identity mapping
-            correctionAdd("Mac OS X El Capitan 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("10.11 Mac OSX El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("OS&nbsp;X&nbsp;v10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("OS X El Capitan 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("osx 10.11 El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("Mac OS X El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("mac OS X El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("Mac version 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("mac version 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("mac os el capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("mac OS El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("OS&nbsp;X v10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("El Capitan 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("macOS El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("10.11 El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("os x el capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("OS&nbsp;X 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("OS X El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("Mac OS X v10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("OS X EL Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("OSX El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("Mac OS X 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("MAC OS X 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("10.11 Mac OS X", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("10.11 Mac OSX", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("OS El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("OS X Captain", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("El Capitain", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("El Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("el capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("OS X 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("EI Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("El capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("El Captain", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("EL Capitan", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("EL CAPITAN", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("OSX 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("osx 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("Mac 10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("Captain", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
-            correctionAdd("10.11", "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("Mac OS X v10.11 (El Capitan)", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("Mac OS X El Capitan 10.11", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("10.11 Mac OSX El Capitan", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("OS&nbsp;X&nbsp;v10.11", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("OS X El Capitan 10.11", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("osx 10.11 El Capitan", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("Mac OS X El Capitan", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("mac OS X El Capitan", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("Mac version 10.11", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("mac version 10.11", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("mac os el capitan", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("mac OS El Capitan", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("OS&nbsp;X v10.11", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("El Capitan 10.11", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("macOS El Capitan", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("10.11 El Capitan", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("os x el capitan", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("OS&nbsp;X 10.11", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("OS X El Capitan", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("Mac OS X v10.11", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("OS X EL Capitan", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("OSX El Capitan", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("Mac OS X 10.11", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("MAC OS X 10.11", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("10.11 Mac OS X", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("10.11 Mac OSX", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("OS El Capitan", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("OS X Captain", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("El Capitain", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("El Capitan", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("el capitan", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("OS X 10.11", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("EI Capitan", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("El capitan", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("El Captain", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("EL Capitan", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("EL CAPITAN", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("OSX 10.11", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("osx 10.11", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("Mac 10.11", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("Captain", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
+            correctionAdd("10.11", "Mac OS X v10.11 (El Capitan) (2015 vintage)");
 
             // 2016 vintage
-            correctionAdd("macOS v10.12 (Sierra) (2016 vintage)", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)"); // Sort of identity mapping
-            correctionAdd("macOS&nbsp;v10.12 (Sierra)", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("Mac OS X v10.12 (Sierra)", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("Mac&nbsp;OS&nbsp;X 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("macOS v10.12 (Sierra)", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)"); // Sort of identity mapping
-            correctionAdd("Mac OS Sierra 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("macOS Sierra 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("MacOS Sierra 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("Mac OS X Sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("Mac OS X 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("MAC OS X 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("mac os sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("macOS v10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("macOS Sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("MacOS Sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("Mac OS 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("MacOSX 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("macOS sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("Sierra 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("macOS 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("MacOS 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("OS X Sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("Mac Sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("OS X 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("MAC sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("mac sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("Mac sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("OSX Sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("Mac 10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("Sierra.6", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("Sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("Seirra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("sierra", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("v10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("10.12", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
-            correctionAdd("Siera", "macOS&nbsp;v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("Mac OS X v10.12 (Sierra)", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("macOS v10.12 (Sierra)", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("Mac OS Sierra 10.12", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("macOS Sierra 10.12", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("MacOS Sierra 10.12", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("Mac OS X Sierra", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("Mac OS X 10.12", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("MAC OS X 10.12", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("mac os sierra", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("macOS v10.12", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("macOS Sierra", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("MacOS Sierra", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("Mac OS 10.12", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("MacOSX 10.12", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("macOS sierra", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("Sierra 10.12", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("macOS 10.12", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("MacOS 10.12", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("OS X Sierra", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("Mac Sierra", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("OS X 10.12", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("MAC sierra", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("mac sierra", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("Mac sierra", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("OSX Sierra", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("Mac 10.12", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("Sierra.6", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("Sierra", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("Seirra", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("sierra", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("v10.12", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("10.12", "macOS v10.12 (Sierra) (2016 vintage)");
+            correctionAdd("Siera", "macOS v10.12 (Sierra) (2016 vintage)");
 
             // 2017 vintage
-            correctionAdd("macOS v10.13 (High Sierra) (2017 vintage)", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)"); // Sort of identity mapping
-            correctionAdd("macOS&nbsp;v10.13 (High Sierra)", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("macOS v10.13 (High Sierra)", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)"); // Sort of identity mapping
-            correctionAdd("Mac OS X High Sierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("Mac OS High Sierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("macOS High Sierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("MacOS High Sierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("MacOs High Sierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("high sierra 10.13", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("macOS&nbsp;v10.13", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("MacOs HighSierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("macOS HighSierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("Mac High Sierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("Mac OS X 10.13", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("macOS v10.13", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("High Sierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("macos 10.13", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("high sierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("High sierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("macOS 10.13", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("HighSierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("Highsierra", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("OS X 10.13", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("Mac 10.13", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
-            correctionAdd("10.13", "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("macOS v10.13 (High Sierra)", "macOS v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("Mac OS X High Sierra", "macOS v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("Mac OS High Sierra", "macOS v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("macOS High Sierra", "macOS v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("MacOS High Sierra", "macOS v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("MacOs High Sierra", "macOS v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("high sierra 10.13", "macOS v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("MacOs HighSierra", "macOS v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("macOS HighSierra", "macOS v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("Mac High Sierra", "macOS v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("Mac OS X 10.13", "macOS v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("macOS v10.13", "macOS v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("High Sierra", "macOS v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("macos 10.13", "macOS v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("high sierra", "macOS v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("High sierra", "macOS v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("macOS 10.13", "macOS v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("HighSierra", "macOS v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("Highsierra", "macOS v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("OS X 10.13", "macOS v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("Mac 10.13", "macOS v10.13 (High Sierra) (2017 vintage)");
+            correctionAdd("10.13", "macOS v10.13 (High Sierra) (2017 vintage)");
 
             // 2018 vintage
-            correctionAdd("macOS v10.14 (Mojave) (2018 vintage)", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)"); // Sort of identity mapping
-            correctionAdd("macOS&nbsp;v10.14 (Mojave)", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("macOS v10.14 (Mojave)", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)"); // Sort of identity mapping
-            correctionAdd("MacOS Mojave 10.14", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("macOS 10.14 Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("macOS Mojave 10.14", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("OS&nbsp;X Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("Mac OS Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("macOS v10.14", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
-            correctionAdd("macOS Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("macOS v10.14", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("MacOs Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("MacOS Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("Mojave 10.14", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("MacOS 10.14", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("macOS 10.14", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("OS X Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("MacOS10.14", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("OSX Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("mac Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("Osx Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("OS 10.14", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("Mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("mojave", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("10.14", "macOS&nbsp;v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("macOS v10.14 (Mojave)", "macOS v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("MacOS Mojave 10.14", "macOS v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("macOS 10.14 Mojave", "macOS v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("macOS Mojave 10.14", "macOS v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("OS&nbsp;X Mojave", "macOS v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("Mac OS Mojave", "macOS v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("macOS v10.14", "macOS v10.14 (Mojave) (2018 vintage)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("macOS Mojave", "macOS v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("macOS v10.14", "macOS v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("MacOs Mojave", "macOS v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("MacOS Mojave", "macOS v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("Mojave 10.14", "macOS v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("MacOS 10.14", "macOS v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("macOS 10.14", "macOS v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("OS X Mojave", "macOS v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("MacOS10.14", "macOS v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("OSX Mojave", "macOS v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("mac Mojave", "macOS v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("Osx Mojave", "macOS v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("OS 10.14", "macOS v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("Mojave", "macOS v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("mojave", "macOS v10.14 (Mojave) (2018 vintage)");
+            correctionAdd("10.14", "macOS v10.14 (Mojave) (2018 vintage)");
 
             // 2019 vintage
-            correctionAdd("macOS v10.15 (Catalina) (2019 vintage)", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)"); // Sort of identity mapping
-            correctionAdd("macOS&nbsp;v10.15 (Catalina)", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("macOS v10.15 (Catalina)", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)"); // Sort of identity mapping
-            correctionAdd("MAC OS 10.15 Catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("macOS 10.15 Catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("MacOS Catalina 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("MacOS catalina 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("macOS Catalina 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("macOS catalina 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("Mac OS Catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("Macos Catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("MacOS Catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("Mac OS X 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("macOS Catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("MacOs Catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("Mac (Catalina)", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("MacOS catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("macOS catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("Mac OSX 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("macOS v10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("MAC Catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("Mac Catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("MAC OS 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("Mac OS 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("macOS 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("MacOS 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("mac 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("Mac 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("Catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("catalina", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("Cataline", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("cataline", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("OS 10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("v10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
-            correctionAdd("10.15", "macOS&nbsp;v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("macOS v10.15 (Catalina)", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("MAC OS 10.15 Catalina", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("macOS 10.15 Catalina", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("MacOS Catalina 10.15", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("MacOS catalina 10.15", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("macOS Catalina 10.15", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("macOS catalina 10.15", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("Mac OS Catalina", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("Macos Catalina", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("MacOS Catalina", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("Mac OS X 10.15", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("macOS Catalina", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("MacOs Catalina", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("Mac (Catalina)", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("MacOS catalina", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("macOS catalina", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("Mac OSX 10.15", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("macOS v10.15", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("MAC Catalina", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("Mac Catalina", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("MAC OS 10.15", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("Mac OS 10.15", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("macOS 10.15", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("MacOS 10.15", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("mac 10.15", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("Mac 10.15", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("Catalina", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("catalina", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("Cataline", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("cataline", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("OS 10.15", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("v10.15", "macOS v10.15 (Catalina) (2019 vintage)");
+            correctionAdd("10.15", "macOS v10.15 (Catalina) (2019 vintage)");
 
             // 2024 vintage
             //
@@ -13294,27 +13215,25 @@ namespace OverflowHelper.core
             //
             //            2024: v15 (Sequoia)
             //
-            correctionAdd("macOS v26 (Tahoe) (2026 vintage)", "macOS&nbsp;v26 (Tahoe) (2026 vintage)"); // Sort of identity mapping
-            correctionAdd("MacOS version 26", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
-            correctionAdd("macOS version 26", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
-            correctionAdd("MacOS Tahoe 26", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
-            correctionAdd("macos tahoe 26", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
-            correctionAdd("Mac OS Tahoe", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
-            correctionAdd("MacOS Tahoe", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
-            correctionAdd("macos tahoe", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
-            correctionAdd("Mac Tahoe", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
-            correctionAdd("Tahoe 26", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
-            correctionAdd("tahoe 26", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
-            correctionAdd("MacOS 26", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
-            correctionAdd("macos 26", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
-            correctionAdd("tahoe", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
-            correctionAdd("Tahoe", "macOS&nbsp;v26 (Tahoe) (2026 vintage)");
+            correctionAdd("MacOS version 26", "macOS v26 (Tahoe) (2026 vintage)");
+            correctionAdd("macOS version 26", "macOS v26 (Tahoe) (2026 vintage)");
+            correctionAdd("MacOS Tahoe 26", "macOS v26 (Tahoe) (2026 vintage)");
+            correctionAdd("macos tahoe 26", "macOS v26 (Tahoe) (2026 vintage)");
+            correctionAdd("Mac OS Tahoe", "macOS v26 (Tahoe) (2026 vintage)");
+            correctionAdd("MacOS Tahoe", "macOS v26 (Tahoe) (2026 vintage)");
+            correctionAdd("macos tahoe", "macOS v26 (Tahoe) (2026 vintage)");
+            correctionAdd("Mac Tahoe", "macOS v26 (Tahoe) (2026 vintage)");
+            correctionAdd("Tahoe 26", "macOS v26 (Tahoe) (2026 vintage)");
+            correctionAdd("tahoe 26", "macOS v26 (Tahoe) (2026 vintage)");
+            correctionAdd("MacOS 26", "macOS v26 (Tahoe) (2026 vintage)");
+            correctionAdd("macos 26", "macOS v26 (Tahoe) (2026 vintage)");
+            correctionAdd("tahoe", "macOS v26 (Tahoe) (2026 vintage)");
+            correctionAdd("Tahoe", "macOS v26 (Tahoe) (2026 vintage)");
 
-            correctionAdd("macOS v27 (Golden Gate) (2026 vintage)", "macOS&nbsp;v27 (Golden Gate) (2026 vintage)"); // Sort of identity mapping
-            correctionAdd("macOS Golden Gate", "macOS&nbsp;v27 (Golden Gate) (2026 vintage)");
-            correctionAdd("Golden Gate", "macOS&nbsp;v27 (Golden Gate) (2026 vintage)");
-            correctionAdd("golden gate", "macOS&nbsp;v27 (Golden Gate) (2026 vintage)");
-            correctionAdd("macOS 27", "macOS&nbsp;v27 (Golden Gate) (2026 vintage)");
+            correctionAdd("macOS Golden Gate", "macOS v27 (Golden Gate) (2026 vintage)");
+            correctionAdd("Golden Gate", "macOS v27 (Golden Gate) (2026 vintage)");
+            correctionAdd("golden gate", "macOS v27 (Golden Gate) (2026 vintage)");
+            correctionAdd("macOS 27", "macOS v27 (Golden Gate) (2026 vintage)");
 
             // Mac OS X
             correctionAdd("darwin", "Darwin");
@@ -128507,7 +128426,7 @@ namespace OverflowHelper.core
 
             URL_Add("Flappy Bird", "https://en.wikipedia.org/wiki/Flappy_Bird");
 
-            URL_Add("Ubuntu&nbsp;19.04 (Disco Dingo)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_19.04_(Disco_Dingo)");
+            URL_Add("Ubuntu 19.04 (Disco Dingo)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_19.04_(Disco_Dingo)");
 
             URL_Add("32F469IDISCOVERY", "https://www.st.com/en/evaluation-tools/32f469idiscovery.html");
 
@@ -144773,7 +144692,7 @@ namespace OverflowHelper.core
 
             URL_Add("Lubuntu", "https://en.wikipedia.org/wiki/Lubuntu");
 
-            URL_Add("Ubuntu&nbsp;MATE", "https://en.wikipedia.org/wiki/Ubuntu_MATE");
+            URL_Add("Ubuntu MATE", "https://en.wikipedia.org/wiki/Ubuntu_MATE");
 
             URL_Add("ChrUbuntu", "https://www.howtogeek.com/162120/how-to-install-ubuntu-linux-on-your-chromebook-with-crouton/");
 
@@ -144781,83 +144700,83 @@ namespace OverflowHelper.core
 
             URL_Add("Edubuntu", "https://en.wikipedia.org/wiki/Edubuntu");
 
-            URL_Add("Ubuntu&nbsp;4.10 (Warty Warthog)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_4.10_(Warty_Warthog)");
+            URL_Add("Ubuntu 4.10 (Warty Warthog)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_4.10_(Warty_Warthog)");
 
-            URL_Add("Ubuntu&nbsp;7.10 (Gutsy Gibbon)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_7.10_(Gutsy_Gibbon)");
+            URL_Add("Ubuntu 7.10 (Gutsy Gibbon)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_7.10_(Gutsy_Gibbon)");
 
-            URL_Add("Ubuntu&nbsp;8.04 (Hardy Heron)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_8.04_LTS_(Hardy_Heron)"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_8.04_LTS_.28Hardy_Heron.29>
+            URL_Add("Ubuntu 8.04 (Hardy Heron)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_8.04_LTS_(Hardy_Heron)"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_8.04_LTS_.28Hardy_Heron.29>
 
-            URL_Add("Ubuntu&nbsp;8.10 (Intrepid Ibex)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_8.10_(Intrepid_Ibex)");
+            URL_Add("Ubuntu 8.10 (Intrepid Ibex)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_8.10_(Intrepid_Ibex)");
 
-            URL_Add("Ubuntu&nbsp;9.04 (Jaunty Jackalope)", "https://en.wikipedia.org/wiki/Jaunty#Ubuntu_9.04_(Jaunty_Jackalope)");
+            URL_Add("Ubuntu 9.04 (Jaunty Jackalope)", "https://en.wikipedia.org/wiki/Jaunty#Ubuntu_9.04_(Jaunty_Jackalope)");
 
-            URL_Add("Ubuntu&nbsp;9.10 (Karmic Koala)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_9.10_.28Karmic_Koala.29");
+            URL_Add("Ubuntu 9.10 (Karmic Koala)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_9.10_.28Karmic_Koala.29");
 
-            URL_Add("Ubuntu&nbsp;10.04 (Lucid Lynx)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_10.04_LTS_.28Lucid_Lynx.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_10.04_LTS_.28Lucid_Lynx.29>
+            URL_Add("Ubuntu 10.04 (Lucid Lynx)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_10.04_LTS_.28Lucid_Lynx.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_10.04_LTS_.28Lucid_Lynx.29>
 
-            URL_Add("Ubuntu&nbsp;10.10 (Maverick Meerkat)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_10.10_.28Maverick_Meerkat.29");
+            URL_Add("Ubuntu 10.10 (Maverick Meerkat)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_10.10_.28Maverick_Meerkat.29");
 
-            URL_Add("Ubuntu&nbsp;11.04 (Natty Narwhal)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_11.04_.28Natty_Narwhal.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_11.04_.28Natty_Narwhal.29>
+            URL_Add("Ubuntu 11.04 (Natty Narwhal)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_11.04_.28Natty_Narwhal.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_11.04_.28Natty_Narwhal.29>
 
-            URL_Add("Ubuntu&nbsp;11.10 (Oneiric Ocelot)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_11.10_.28Oneiric_Ocelot.29");
+            URL_Add("Ubuntu 11.10 (Oneiric Ocelot)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_11.10_.28Oneiric_Ocelot.29");
 
-            URL_Add("Ubuntu&nbsp;12.04 (Precise Pangolin)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_12.04_LTS_.28Precise_Pangolin.29");
+            URL_Add("Ubuntu 12.04 (Precise Pangolin)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_12.04_LTS_.28Precise_Pangolin.29");
 
-            URL_Add("Ubuntu&nbsp;12.10 (Quantal Quetzal)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_12.10_.28Quantal_Quetzal.29");
+            URL_Add("Ubuntu 12.10 (Quantal Quetzal)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_12.10_.28Quantal_Quetzal.29");
 
-            URL_Add("Ubuntu&nbsp;13.04 (Raring Ringtail)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_13.04_.28Raring_Ringtail.29");
+            URL_Add("Ubuntu 13.04 (Raring Ringtail)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_13.04_.28Raring_Ringtail.29");
 
-            URL_Add("Ubuntu&nbsp;13.10 (Saucy Salamander)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_13.10_.28Saucy_Salamander.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_13.10_.28Saucy_Salamander.29>
+            URL_Add("Ubuntu 13.10 (Saucy Salamander)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_13.10_.28Saucy_Salamander.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_13.10_.28Saucy_Salamander.29>
 
-            URL_Add("Ubuntu&nbsp;14.04 (Trusty Tahr)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_14.04_LTS_.28Trusty_Tahr.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_14.04_LTS_.28Trusty_Tahr.29>
+            URL_Add("Ubuntu 14.04 (Trusty Tahr)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_14.04_LTS_.28Trusty_Tahr.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_14.04_LTS_.28Trusty_Tahr.29>
 
-            URL_Add("Ubuntu&nbsp;14.10 (Utopic Unicorn)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_14.10_.28Utopic_Unicorn.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_14.10_.28Utopic_Unicorn.29>
+            URL_Add("Ubuntu 14.10 (Utopic Unicorn)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_14.10_.28Utopic_Unicorn.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_14.10_.28Utopic_Unicorn.29>
 
-            URL_Add("Ubuntu&nbsp;15.04 (Vivid Vervet)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_15.04_.28Vivid_Vervet.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_15.04_.28Vivid_Vervet.29>
+            URL_Add("Ubuntu 15.04 (Vivid Vervet)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_15.04_.28Vivid_Vervet.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_15.04_.28Vivid_Vervet.29>
 
-            URL_Add("Ubuntu&nbsp;15.10 (Wily Werewolf)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_15.10_.28Wily_Werewolf.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_15.10_.28Wily_Werewolf.29>
+            URL_Add("Ubuntu 15.10 (Wily Werewolf)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_15.10_.28Wily_Werewolf.29"); // Old: <https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Ubuntu_15.10_.28Wily_Werewolf.29>
 
-            URL_Add("Ubuntu&nbsp;16.04 (Xenial Xerus)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_16.04_LTS_.28Xenial_Xerus.29");
+            URL_Add("Ubuntu 16.04 (Xenial Xerus)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_16.04_LTS_.28Xenial_Xerus.29");
 
             URL_Add("Kubuntu&nbsp;16.04 (Xenial Xerus)", "https://en.wikipedia.org/wiki/Kubuntu#Releases");
 
-            URL_Add("Ubuntu&nbsp;16.10 (Yakkety Yak)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_16.10_.28Yakkety_Yak.29");
+            URL_Add("Ubuntu 16.10 (Yakkety Yak)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_16.10_.28Yakkety_Yak.29");
 
-            URL_Add("Ubuntu&nbsp;17.04 (Zesty Zapus)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_17.04_.28Zesty_Zapus.29");
+            URL_Add("Ubuntu 17.04 (Zesty Zapus)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_17.04_.28Zesty_Zapus.29");
 
-            URL_Add("Ubuntu&nbsp;17.10 (Artful Aardvark)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_17.10_.28Artful_Aardvark.29");
+            URL_Add("Ubuntu 17.10 (Artful Aardvark)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_17.10_.28Artful_Aardvark.29");
 
-            URL_Add("Ubuntu&nbsp;18.04 (Bionic Beaver)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_18.04_LTS_.28Bionic_Beaver.29");
+            URL_Add("Ubuntu 18.04 (Bionic Beaver)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_18.04_LTS_.28Bionic_Beaver.29");
 
-            URL_Add("Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_18.10_(Cosmic_Cuttlefish)");
+            URL_Add("Ubuntu 18.10 (Cosmic Cuttlefish)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_18.10_(Cosmic_Cuttlefish)");
 
-            URL_Add("Ubuntu&nbsp;19.10 (Eoan Ermine)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_19.10_(Eoan_Ermine)");
+            URL_Add("Ubuntu 19.10 (Eoan Ermine)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_19.10_(Eoan_Ermine)");
 
-            URL_Add("Ubuntu&nbsp;20.04 (Focal Fossa)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_20.04_LTS_(Focal_Fossa)");
+            URL_Add("Ubuntu 20.04 (Focal Fossa)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_20.04_LTS_(Focal_Fossa)");
 
-            URL_Add("Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)", "https://en.wikipedia.org/wiki/Ubuntu_MATE#Releases");
+            URL_Add("Ubuntu MATE 20.04 (Focal Fossa)", "https://en.wikipedia.org/wiki/Ubuntu_MATE#Releases");
 
             URL_Add("Kubuntu&nbsp;20.04 (Focal Fossa)", "https://en.wikipedia.org/wiki/Kubuntu#History");
 
-            URL_Add("Ubuntu&nbsp;20.10 (Groovy Gorilla)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_20.10_(Groovy_Gorilla)");
+            URL_Add("Ubuntu 20.10 (Groovy Gorilla)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_20.10_(Groovy_Gorilla)");
 
-            URL_Add("Ubuntu&nbsp;21.04 (Hirsute Hippo)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_21.04_(Hirsute_Hippo)");
+            URL_Add("Ubuntu 21.04 (Hirsute Hippo)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_21.04_(Hirsute_Hippo)");
 
-            URL_Add("Ubuntu&nbsp;21.10 (Impish Indri)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_21.10_(Impish_Indri)");
+            URL_Add("Ubuntu 21.10 (Impish Indri)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_21.10_(Impish_Indri)");
 
-            URL_Add("Ubuntu&nbsp;22.04 (Jammy Jellyfish)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_22.04_LTS_(Jammy_Jellyfish)");
+            URL_Add("Ubuntu 22.04 (Jammy Jellyfish)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_22.04_LTS_(Jammy_Jellyfish)");
 
-            URL_Add("Ubuntu&nbsp;22.10 (Kinetic Kudu)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_22.10_(Kinetic_Kudu)");
+            URL_Add("Ubuntu 22.10 (Kinetic Kudu)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_22.10_(Kinetic_Kudu)");
 
-            URL_Add("Ubuntu&nbsp;23.04 (Lunar Lobster)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_23.04_(Lunar_Lobster)");
+            URL_Add("Ubuntu 23.04 (Lunar Lobster)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_23.04_(Lunar_Lobster)");
 
-            URL_Add("Ubuntu&nbsp;23.10 (Mantic Minotaur)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_23.10_(Mantic_Minotaur)");
+            URL_Add("Ubuntu 23.10 (Mantic Minotaur)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_23.10_(Mantic_Minotaur)");
 
-            URL_Add("Ubuntu&nbsp;24.04 (Noble Numbat)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_24.04_LTS_(Noble_Numbat)");
+            URL_Add("Ubuntu 24.04 (Noble Numbat)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_24.04_LTS_(Noble_Numbat)");
 
             URL_Add("Kubuntu&nbsp;24.04 (Noble Numbat)", "https://en.wikipedia.org/wiki/Kubuntu#Releases");
 
-            URL_Add("Ubuntu&nbsp;26.04 (Resolute Raccoon)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_26.04_LTS_(Resolute_Raccoon)");
+            URL_Add("Ubuntu 26.04 (Resolute Raccoon)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_26.04_LTS_(Resolute_Raccoon)");
 
             URL_Add("Active Directory forest", "https://en.wikipedia.org/wiki/Active_Directory#Forests,_trees,_and_domains");
 
@@ -145879,29 +145798,29 @@ namespace OverflowHelper.core
 
             URL_Add("Mac OS 9", "https://en.wikipedia.org/wiki/Mac_OS_9");
 
-            URL_Add("Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)", "https://en.wikipedia.org/wiki/Mac_OS_X_Tiger");
+            URL_Add("Mac OS X v10.4 (Tiger) (2005 vintage)", "https://en.wikipedia.org/wiki/Mac_OS_X_Tiger");
 
-            URL_Add("Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)", "https://en.wikipedia.org/wiki/Mac_OS_X_Leopard");
+            URL_Add("Mac OS X v10.5 (Leopard) (2007 vintage)", "https://en.wikipedia.org/wiki/Mac_OS_X_Leopard");
 
-            URL_Add("Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)", "https://en.wikipedia.org/wiki/Mac_OS_X_Snow_Leopard");
+            URL_Add("Mac OS X v10.6 (Snow Leopard) (2009 vintage)", "https://en.wikipedia.org/wiki/Mac_OS_X_Snow_Leopard");
 
-            URL_Add("Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)", "https://en.wikipedia.org/wiki/OS_X_Mountain_Lion");
+            URL_Add("Mac OS X v10.8 (Mountain Lion) (2012 vintage)", "https://en.wikipedia.org/wiki/OS_X_Mountain_Lion");
 
-            URL_Add("Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)", "https://en.wikipedia.org/wiki/OS_X_Mavericks");
+            URL_Add("Mac OS X v10.9 (Mavericks) (2013 vintage)", "https://en.wikipedia.org/wiki/OS_X_Mavericks");
 
-            URL_Add("Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)", "https://en.wikipedia.org/wiki/OS_X_El_Capitan");
+            URL_Add("Mac OS X v10.11 (El Capitan) (2015 vintage)", "https://en.wikipedia.org/wiki/OS_X_El_Capitan");
 
-            URL_Add("macOS&nbsp;v10.12 (Sierra) (2016 vintage)", "https://en.wikipedia.org/wiki/MacOS_Sierra");
+            URL_Add("macOS v10.12 (Sierra) (2016 vintage)", "https://en.wikipedia.org/wiki/MacOS_Sierra");
 
-            URL_Add("macOS&nbsp;v10.13 (High Sierra) (2017 vintage)", "https://en.wikipedia.org/wiki/MacOS_High_Sierra");
+            URL_Add("macOS v10.13 (High Sierra) (2017 vintage)", "https://en.wikipedia.org/wiki/MacOS_High_Sierra");
 
-            URL_Add("macOS&nbsp;v10.14 (Mojave) (2018 vintage)", "https://en.wikipedia.org/wiki/MacOS_Mojave");
+            URL_Add("macOS v10.14 (Mojave) (2018 vintage)", "https://en.wikipedia.org/wiki/MacOS_Mojave");
 
-            URL_Add("macOS&nbsp;v10.15 (Catalina) (2019 vintage)", "https://en.wikipedia.org/wiki/MacOS_Catalina");
+            URL_Add("macOS v10.15 (Catalina) (2019 vintage)", "https://en.wikipedia.org/wiki/MacOS_Catalina");
 
-            URL_Add("macOS&nbsp;v26 (Tahoe) (2026 vintage)", "https://en.wikipedia.org/wiki/MacOS_Tahoe");
+            URL_Add("macOS v26 (Tahoe) (2026 vintage)", "https://en.wikipedia.org/wiki/MacOS_Tahoe");
 
-            URL_Add("macOS&nbsp;v27 (Golden Gate) (2026 vintage)", "https://en.wikipedia.org/wiki/MacOS_Golden_Gate");
+            URL_Add("macOS v27 (Golden Gate) (2026 vintage)", "https://en.wikipedia.org/wiki/MacOS_Golden_Gate");
 
             URL_Add("throughout", "https://en.wiktionary.org/wiki/throughout#Adverb");
 
@@ -161624,67 +161543,66 @@ namespace OverflowHelper.core
             correctionAdd("classic MacOS_", "Mac OS_");
             correctionAdd("MacOS_", "Mac OS_");
 
-            correctionAdd("OS&nbsp;X_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("MAC 0S X_", "Mac&nbsp;OS&nbsp;X_"); // Uses the number zero, not the letter "O".
-            correctionAdd("Mac OS-X_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("mac os/x_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("Mac OS x_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("Mac os X_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("Mac Os X_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("Mac os x_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("MAC os x_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("mac os X_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("MAC OS X_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("mac os x_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("mac OS X_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("Mac OS X_", "Mac&nbsp;OS&nbsp;X_"); // Sort of identity mapping
-            correctionAdd("MacOS-X_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("mac-osx_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("Mac/OSx_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("MacOS/X_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("Mac/OSX_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("macOS X_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("MacOS X_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("MacOs X_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("MAC OSX_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("mac osx_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("Mac OSx_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("mac OSX_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("Mac OsX_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("mac OSx_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("Mac osx_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("Mac osX_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("MAC OSx_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("MAC osx_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("Mac OSX_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("MaxOSX_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("MACOSX_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("macosX_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("MacOsX_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("MacOSx_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("macosx_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("MacOSX_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("Macsox_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("macOSX_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("MAC-OS_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("mac os_", "Mac&nbsp;OS&nbsp;X_"); // Interpreting this as Mac OS X, not MacOS (System 7, etc.)
-            correctionAdd("mac ox_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("MAC X_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("macOS_", "Mac&nbsp;OS&nbsp;X_"); // Cross from the new
-            correctionAdd("OS/X_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("os/x_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("OS-X_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("os x_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("OS x_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("Os x_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("OS X_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("osx_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("OsX_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("OSx_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("osX_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("Osx_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("OSX_", "Mac&nbsp;OS&nbsp;X_");
-            correctionAdd("OX_", "Mac&nbsp;OS&nbsp;X_");
+            correctionAdd("OS&nbsp;X_", "Mac OS X_");
+            correctionAdd("MAC 0S X_", "Mac OS X_"); // Uses the number zero, not the letter "O".
+            correctionAdd("Mac OS-X_", "Mac OS X_");
+            correctionAdd("mac os/x_", "Mac OS X_");
+            correctionAdd("Mac OS x_", "Mac OS X_");
+            correctionAdd("Mac os X_", "Mac OS X_");
+            correctionAdd("Mac Os X_", "Mac OS X_");
+            correctionAdd("Mac os x_", "Mac OS X_");
+            correctionAdd("MAC os x_", "Mac OS X_");
+            correctionAdd("mac os X_", "Mac OS X_");
+            correctionAdd("MAC OS X_", "Mac OS X_");
+            correctionAdd("mac os x_", "Mac OS X_");
+            correctionAdd("mac OS X_", "Mac OS X_");
+            correctionAdd("MacOS-X_", "Mac OS X_");
+            correctionAdd("mac-osx_", "Mac OS X_");
+            correctionAdd("Mac/OSx_", "Mac OS X_");
+            correctionAdd("MacOS/X_", "Mac OS X_");
+            correctionAdd("Mac/OSX_", "Mac OS X_");
+            correctionAdd("macOS X_", "Mac OS X_");
+            correctionAdd("MacOS X_", "Mac OS X_");
+            correctionAdd("MacOs X_", "Mac OS X_");
+            correctionAdd("MAC OSX_", "Mac OS X_");
+            correctionAdd("mac osx_", "Mac OS X_");
+            correctionAdd("Mac OSx_", "Mac OS X_");
+            correctionAdd("mac OSX_", "Mac OS X_");
+            correctionAdd("Mac OsX_", "Mac OS X_");
+            correctionAdd("mac OSx_", "Mac OS X_");
+            correctionAdd("Mac osx_", "Mac OS X_");
+            correctionAdd("Mac osX_", "Mac OS X_");
+            correctionAdd("MAC OSx_", "Mac OS X_");
+            correctionAdd("MAC osx_", "Mac OS X_");
+            correctionAdd("Mac OSX_", "Mac OS X_");
+            correctionAdd("MaxOSX_", "Mac OS X_");
+            correctionAdd("MACOSX_", "Mac OS X_");
+            correctionAdd("macosX_", "Mac OS X_");
+            correctionAdd("MacOsX_", "Mac OS X_");
+            correctionAdd("MacOSx_", "Mac OS X_");
+            correctionAdd("macosx_", "Mac OS X_");
+            correctionAdd("MacOSX_", "Mac OS X_");
+            correctionAdd("Macsox_", "Mac OS X_");
+            correctionAdd("macOSX_", "Mac OS X_");
+            correctionAdd("MAC-OS_", "Mac OS X_");
+            correctionAdd("mac os_", "Mac OS X_"); // Interpreting this as Mac OS X, not MacOS (System 7, etc.)
+            correctionAdd("mac ox_", "Mac OS X_");
+            correctionAdd("MAC X_", "Mac OS X_");
+            correctionAdd("macOS_", "Mac OS X_"); // Cross from the new
+            correctionAdd("OS/X_", "Mac OS X_");
+            correctionAdd("os/x_", "Mac OS X_");
+            correctionAdd("OS-X_", "Mac OS X_");
+            correctionAdd("os x_", "Mac OS X_");
+            correctionAdd("OS x_", "Mac OS X_");
+            correctionAdd("Os x_", "Mac OS X_");
+            correctionAdd("OS X_", "Mac OS X_");
+            correctionAdd("osx_", "Mac OS X_");
+            correctionAdd("OsX_", "Mac OS X_");
+            correctionAdd("OSx_", "Mac OS X_");
+            correctionAdd("osX_", "Mac OS X_");
+            correctionAdd("Osx_", "Mac OS X_");
+            correctionAdd("OSX_", "Mac OS X_");
+            correctionAdd("OX_", "Mac OS X_");
 
             correctionAdd("Z shell is the default shell in macOS v10.15 (Catalina. 2019-10-07)_", "Z shell (executable `zsh`) is the default shell in macOS v10.15 (Catalina. 2019-10-07)_");
             correctionAdd("Z shell (executable `zsh`)_", "Z shell (executable `zsh`) is the default shell in macOS v10.15 (Catalina. 2019-10-07)_");
@@ -172602,7 +172520,7 @@ namespace OverflowHelper.core
 
             URL_Add("Mac OS_", "https://en.wikipedia.org/wiki/Classic_Mac_OS");
 
-            URL_Add("Mac&nbsp;OS&nbsp;X_", "https://en.wikipedia.org/wiki/Mac_OS_X");
+            URL_Add("Mac OS X_", "https://en.wikipedia.org/wiki/Mac_OS_X");
 
             URL_Add("MacBook Pro M1_", "https://en.wikipedia.org/wiki/MacBook_Pro#14-inch_and_16-inch_(2021%E2%80%93present)"); // Old: https://en.wikipedia.org/wiki/MacBook_Pro#Sixth_generation_(M1)
 
@@ -175866,7 +175784,6 @@ namespace OverflowHelper.core
             correctionAdd("mac__", "Mac__"); // The computer. For the Wiktionary entry
 
             // Mostly for the URL
-            correctionAdd("Mac&nbsp;OS&nbsp;X__", "OS&nbsp;X__");
             correctionAdd("Mac OS X__", "OS&nbsp;X__");
             correctionAdd("macOS__", "OS&nbsp;X__");
             correctionAdd("OS X__", "OS&nbsp;X__"); // Sort of identity mapping
@@ -175916,260 +175833,242 @@ namespace OverflowHelper.core
             correctionAdd("XD__", "Adobe XD__");
 
             // 2002 vintage
-            correctionAdd("Mac OS X v10.2 (Jaguar) (2002 vintage)__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar) (2002 vintage)__"); // Sort of identity mapping
-            correctionAdd("Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar)__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar) (2002 vintage)__");
-            correctionAdd("Mac OS X v10.2 (Jaguar)__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar) (2002 vintage)__"); // Sort of identity mapping
-            correctionAdd("Jaguar__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar) (2002 vintage)__");
-            correctionAdd("10.2__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar) (2002 vintage)__");
+            correctionAdd("Mac OS X v10.2 (Jaguar)__", "Mac OS X v10.2 (Jaguar) (2002 vintage)__");
+            correctionAdd("Jaguar__", "Mac OS X v10.2 (Jaguar) (2002 vintage)__");
+            correctionAdd("10.2__", "Mac OS X v10.2 (Jaguar) (2002 vintage)__");
 
             // 2011 vintage
-            correctionAdd("Mac OS X v10.7 (Lion) (2011 vintage)__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__"); // Sort of identity mapping
-            correctionAdd("Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("Mac&nbsp;OS&nbsp;X 10.7__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("Mac OS X v10.7 (Lion)__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("Mac OS Lion (10.7)__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("Mac OS X Lion 10.7__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("OS&nbsp;X 10.7__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("Lion OS X 10.7__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("OS X Lion 10.7__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("Mac OS X v10.7__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("OS X 10.7 Lion__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("Mac OS X Lion__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("Mac OS X 10.7__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("mac os x lion__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("MAC OS X 10.7__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("Mac OSx Lion__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("MacOS X 10.7__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("MacOSX 10.7__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("Mac OS Lion__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("Mac OS 10.7__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("macOS 10.7__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("MacOS 10.7__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("OS X 10.7__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("OS X Lion__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("os x lion__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("OS X.10.7__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("OSX Lion__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("Mac Lion__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("OSX 10.7__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("osx lion__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("OSX lion__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("OS X.7.4__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("OS 10.7__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("Lion X__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("OS X.7__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("v10.7__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("Lion__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("lion__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("10.7__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("LION__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
-            correctionAdd("7.4__", "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("Mac OS X v10.7 (Lion)__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("Mac OS Lion (10.7)__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("Mac OS X Lion 10.7__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("OS&nbsp;X 10.7__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("Lion OS X 10.7__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("OS X Lion 10.7__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("Mac OS X v10.7__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("OS X 10.7 Lion__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("Mac OS X Lion__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("Mac OS X 10.7__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("mac os x lion__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("MAC OS X 10.7__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("Mac OSx Lion__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("MacOS X 10.7__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("MacOSX 10.7__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("Mac OS Lion__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("Mac OS 10.7__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("macOS 10.7__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("MacOS 10.7__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("OS X 10.7__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("OS X Lion__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("os x lion__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("OS X.10.7__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("OSX Lion__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("Mac Lion__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("OSX 10.7__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("osx lion__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("OSX lion__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("OS X.7.4__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("OS 10.7__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("Lion X__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("OS X.7__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("v10.7__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("Lion__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("lion__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("10.7__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("LION__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
+            correctionAdd("7.4__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
 
             // 2014 vintage
-            correctionAdd("Mac OS X v10.10 (Yosemite) (2014 vintage)__", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__"); // Sort of identity mapping
-            correctionAdd("Mac&nbsp;OS&nbsp;X v10.10 (Yosemite)__", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__");
-            correctionAdd("Mac OS X v10.10 (Yosemite)__", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__"); // Sort of identity mapping
-            correctionAdd("Mac OS X Yosemite__", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__");
-            correctionAdd("OS&nbsp;X v10.10__", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__");
-            correctionAdd("Mac OSX Yosemite__", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__");
-            correctionAdd("MacOS X Yosemite__", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__");
-            correctionAdd("Mac OS X 10.10__", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__");
-            correctionAdd("OS X Yosemite__", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__");
-            correctionAdd("OS X yosemite__", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__");
-            correctionAdd("OSX Yosemite__", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__");
-            correctionAdd("mac os 10.10__", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__");
-            correctionAdd("OSX yosemite__", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__");
-            correctionAdd("macOS 10.10__", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__");
-            correctionAdd("OS X 10.10__", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__");
-            correctionAdd("Mac 10.10__", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__");
-            correctionAdd("OSX 10.10__", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__");
-            correctionAdd("OsX 10.10__", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__");
-            correctionAdd("osx 10.10__", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__");
-            correctionAdd("Yosemite__", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__");
-            correctionAdd("Mac10.10__", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__");
-            correctionAdd("yosemite__", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__");
-            correctionAdd("v10.10__", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__");
-            correctionAdd("10.10__", "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__");
+            correctionAdd("Mac OS X v10.10 (Yosemite)__", "Mac OS X v10.10 (Yosemite) (2014 vintage)__");
+            correctionAdd("Mac OS X Yosemite__", "Mac OS X v10.10 (Yosemite) (2014 vintage)__");
+            correctionAdd("OS&nbsp;X v10.10__", "Mac OS X v10.10 (Yosemite) (2014 vintage)__");
+            correctionAdd("Mac OSX Yosemite__", "Mac OS X v10.10 (Yosemite) (2014 vintage)__");
+            correctionAdd("MacOS X Yosemite__", "Mac OS X v10.10 (Yosemite) (2014 vintage)__");
+            correctionAdd("Mac OS X 10.10__", "Mac OS X v10.10 (Yosemite) (2014 vintage)__");
+            correctionAdd("OS X Yosemite__", "Mac OS X v10.10 (Yosemite) (2014 vintage)__");
+            correctionAdd("OS X yosemite__", "Mac OS X v10.10 (Yosemite) (2014 vintage)__");
+            correctionAdd("OSX Yosemite__", "Mac OS X v10.10 (Yosemite) (2014 vintage)__");
+            correctionAdd("mac os 10.10__", "Mac OS X v10.10 (Yosemite) (2014 vintage)__");
+            correctionAdd("OSX yosemite__", "Mac OS X v10.10 (Yosemite) (2014 vintage)__");
+            correctionAdd("macOS 10.10__", "Mac OS X v10.10 (Yosemite) (2014 vintage)__");
+            correctionAdd("OS X 10.10__", "Mac OS X v10.10 (Yosemite) (2014 vintage)__");
+            correctionAdd("Mac 10.10__", "Mac OS X v10.10 (Yosemite) (2014 vintage)__");
+            correctionAdd("OSX 10.10__", "Mac OS X v10.10 (Yosemite) (2014 vintage)__");
+            correctionAdd("OsX 10.10__", "Mac OS X v10.10 (Yosemite) (2014 vintage)__");
+            correctionAdd("osx 10.10__", "Mac OS X v10.10 (Yosemite) (2014 vintage)__");
+            correctionAdd("Yosemite__", "Mac OS X v10.10 (Yosemite) (2014 vintage)__");
+            correctionAdd("Mac10.10__", "Mac OS X v10.10 (Yosemite) (2014 vintage)__");
+            correctionAdd("yosemite__", "Mac OS X v10.10 (Yosemite) (2014 vintage)__");
+            correctionAdd("v10.10__", "Mac OS X v10.10 (Yosemite) (2014 vintage)__");
+            correctionAdd("10.10__", "Mac OS X v10.10 (Yosemite) (2014 vintage)__");
 
             // 2020 vintage
-            correctionAdd("macOS v11 (Big Sur) (2020 vintage)__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__"); // Sort of identity mapping
-            correctionAdd("macOS&nbsp;v11 (Big Sur)__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__");
-            correctionAdd("macOS v11 (Big Sur)__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__"); // Sort of identity mapping
-            correctionAdd("macOS 11 Big Sur__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__");
-            correctionAdd("MacOS Big Sur 11__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__");
-            correctionAdd("macOS Big Sur 11__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__");
-            correctionAdd("Mac OS Big Sur__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__");
-            correctionAdd("macOS Big Sur__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__");
-            correctionAdd("macOS BIG SUR__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__");
-            correctionAdd("MacOS Big Sur__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__");
-            correctionAdd("macOS BigSur__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__");
-            correctionAdd("Mac Big Sur__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__");
-            correctionAdd("macOS v11__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
-            correctionAdd("macOS v11__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__");
-            correctionAdd("Big Suwer__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__");
-            correctionAdd("Big Sewer__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__");
-            correctionAdd("BigSur 11__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__");
-            correctionAdd("macOS 11__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__");
-            correctionAdd("MacOS 11__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__");
-            correctionAdd("macos 11__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__");
-            correctionAdd("macos-11__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__");
-            correctionAdd("big sur__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__");
-            correctionAdd("Big Sur__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__");
-            correctionAdd("Big sur__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__");
-            correctionAdd("BIG SUR__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__");
-            correctionAdd("Big Sir__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__");
-            correctionAdd("BigSur__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__");
-            correctionAdd("Bigsur__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__");
-            correctionAdd("OSX 11__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__");
-            correctionAdd("Mac 11__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__");
-            correctionAdd("11.1__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__");
-            correctionAdd("11__", "macOS&nbsp;v11 (Big Sur) (2020 vintage)__");
+            correctionAdd("macOS v11 (Big Sur)__", "macOS v11 (Big Sur) (2020 vintage)__");
+            correctionAdd("macOS 11 Big Sur__", "macOS v11 (Big Sur) (2020 vintage)__");
+            correctionAdd("MacOS Big Sur 11__", "macOS v11 (Big Sur) (2020 vintage)__");
+            correctionAdd("macOS Big Sur 11__", "macOS v11 (Big Sur) (2020 vintage)__");
+            correctionAdd("Mac OS Big Sur__", "macOS v11 (Big Sur) (2020 vintage)__");
+            correctionAdd("macOS Big Sur__", "macOS v11 (Big Sur) (2020 vintage)__");
+            correctionAdd("macOS BIG SUR__", "macOS v11 (Big Sur) (2020 vintage)__");
+            correctionAdd("MacOS Big Sur__", "macOS v11 (Big Sur) (2020 vintage)__");
+            correctionAdd("macOS BigSur__", "macOS v11 (Big Sur) (2020 vintage)__");
+            correctionAdd("Mac Big Sur__", "macOS v11 (Big Sur) (2020 vintage)__");
+            correctionAdd("macOS v11__", "macOS v11 (Big Sur) (2020 vintage)__"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("macOS v11__", "macOS v11 (Big Sur) (2020 vintage)__");
+            correctionAdd("Big Suwer__", "macOS v11 (Big Sur) (2020 vintage)__");
+            correctionAdd("Big Sewer__", "macOS v11 (Big Sur) (2020 vintage)__");
+            correctionAdd("BigSur 11__", "macOS v11 (Big Sur) (2020 vintage)__");
+            correctionAdd("macOS 11__", "macOS v11 (Big Sur) (2020 vintage)__");
+            correctionAdd("MacOS 11__", "macOS v11 (Big Sur) (2020 vintage)__");
+            correctionAdd("macos 11__", "macOS v11 (Big Sur) (2020 vintage)__");
+            correctionAdd("macos-11__", "macOS v11 (Big Sur) (2020 vintage)__");
+            correctionAdd("big sur__", "macOS v11 (Big Sur) (2020 vintage)__");
+            correctionAdd("Big Sur__", "macOS v11 (Big Sur) (2020 vintage)__");
+            correctionAdd("Big sur__", "macOS v11 (Big Sur) (2020 vintage)__");
+            correctionAdd("BIG SUR__", "macOS v11 (Big Sur) (2020 vintage)__");
+            correctionAdd("Big Sir__", "macOS v11 (Big Sur) (2020 vintage)__");
+            correctionAdd("BigSur__", "macOS v11 (Big Sur) (2020 vintage)__");
+            correctionAdd("Bigsur__", "macOS v11 (Big Sur) (2020 vintage)__");
+            correctionAdd("OSX 11__", "macOS v11 (Big Sur) (2020 vintage)__");
+            correctionAdd("Mac 11__", "macOS v11 (Big Sur) (2020 vintage)__");
+            correctionAdd("11.1__", "macOS v11 (Big Sur) (2020 vintage)__");
+            correctionAdd("11__", "macOS v11 (Big Sur) (2020 vintage)__");
 
             // 2021 vintage
             //
-            correctionAdd("macOS&nbsp;v12 (Monterey)__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("macOS v12 (Monterey) (2021 vintage)__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__"); // Sort of identity mapping
-            correctionAdd("macOS v12 (Monterey)__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("Mac OS Monteray 12__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("Mac OS Monterey 12__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("macOS Monterey 12__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("MacOS Monteray 12__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("macOS Monteray 12__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("MacOS Monterrey__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("Mac OS Monteray__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("MAC OS Monterey__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("Mac OS Monterey__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("macOS&nbsp;v12__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("macOS Monterey__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("MacOS Monterey__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("macos monterey__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("MACos Monterey__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("Macos monterey__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("macOS monterey__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("Macos Monterey__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("MacOs Monterey__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("MacOS Monteray__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("macOS Monteray__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("Mac OS X 12.2__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("Mac OS Ver 12__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("Mac OSX 12.2__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("mac monterey__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("OSX Monterey__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("Mac OS X 12__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("Monteray 12__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("Monterey 12__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("Mac OS 12.2__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("MacOS 12.1__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("macOS 12.2__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("macOS 12.3__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("OS X 12.2__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("Mac OS 12__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("mac OS 12__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("Monterrey__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("macOS 12__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("MacOS 12__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("macos 12__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("OS X v12__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("monteray__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("Monteray__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("monterey__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("Monterey__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("Monterry__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("12.1__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("12.2__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("12.3__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("12.6__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
-            correctionAdd("12__", "macOS&nbsp;v12 (Monterey) (2021 vintage)__");
+            correctionAdd("macOS v12 (Monterey)__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("Mac OS Monteray 12__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("Mac OS Monterey 12__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("macOS Monterey 12__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("MacOS Monteray 12__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("macOS Monteray 12__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("MacOS Monterrey__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("Mac OS Monteray__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("MAC OS Monterey__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("Mac OS Monterey__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("macOS Monterey__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("MacOS Monterey__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("macos monterey__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("MACos Monterey__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("Macos monterey__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("macOS monterey__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("Macos Monterey__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("MacOs Monterey__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("MacOS Monteray__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("macOS Monteray__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("Mac OS X 12.2__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("Mac OS Ver 12__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("Mac OSX 12.2__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("mac monterey__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("OSX Monterey__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("Mac OS X 12__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("Monteray 12__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("Monterey 12__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("Mac OS 12.2__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("MacOS 12.1__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("macOS 12.2__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("macOS 12.3__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("OS X 12.2__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("Mac OS 12__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("mac OS 12__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("macOS v12__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("Monterrey__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("macOS 12__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("MacOS 12__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("macos 12__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("OS X v12__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("monteray__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("Monteray__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("monterey__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("Monterey__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("Monterry__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("12.1__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("12.2__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("12.3__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("12.6__", "macOS v12 (Monterey) (2021 vintage)__");
+            correctionAdd("12__", "macOS v12 (Monterey) (2021 vintage)__");
 
             // 2022 vintage
-            correctionAdd("macOS v13 (Ventura) (2022 vintage)__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__"); // Sort of identity mapping
-            correctionAdd("macOS&nbsp;v13 (Ventura)__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
-            correctionAdd("macOS v13 (Ventura)__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__"); // Sort of identity mapping
-            correctionAdd("macOS 13 (Ventura)__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
-            correctionAdd("macOS Ventura 13__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
-            correctionAdd("Mac OSX Venture__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
-            correctionAdd("MacOS Ventura 13__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
-            correctionAdd("macOS&nbsp;v13__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
-            correctionAdd("MAC OS Ventura__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
-            correctionAdd("mac os ventura__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
-            correctionAdd("Mac OS Ventura__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
-            correctionAdd("macOS Ventura__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
-            correctionAdd("MacOS Ventura__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
-            correctionAdd("OS Ventura 13__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
-            correctionAdd("macos ventura__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
-            correctionAdd("Macos Ventura__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
-            correctionAdd("Mac OS Ventua__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
-            correctionAdd("Mac OS X 13__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
-            correctionAdd("macOS 13.1__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
-            correctionAdd("MacOS 13.1__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
-            correctionAdd("Ventura 13__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
-            correctionAdd("OS Ventura__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
-            correctionAdd("macOS v13__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
-            correctionAdd("macOS v13__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
-            correctionAdd("macOS 13__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
-            correctionAdd("MacOS 13__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
-            correctionAdd("macOs 13__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
-            correctionAdd("Ventura__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
-            correctionAdd("OS 13.0__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
-            correctionAdd("ventura__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
-            correctionAdd("Venture__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
-            correctionAdd("Ventua__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
-            correctionAdd("OS 13__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
-            correctionAdd("13__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
-            correctionAdd("macOs Ventura__", "macOS&nbsp;v13 (Ventura) (2022 vintage)__");
+            correctionAdd("macOS v13 (Ventura)__", "macOS v13 (Ventura) (2022 vintage)__");
+            correctionAdd("macOS 13 (Ventura)__", "macOS v13 (Ventura) (2022 vintage)__");
+            correctionAdd("macOS Ventura 13__", "macOS v13 (Ventura) (2022 vintage)__");
+            correctionAdd("MacOS Ventura 13__", "macOS v13 (Ventura) (2022 vintage)__");
+            correctionAdd("Mac OSX Venture__", "macOS v13 (Ventura) (2022 vintage)__");
+            correctionAdd("MAC OS Ventura__", "macOS v13 (Ventura) (2022 vintage)__");
+            correctionAdd("mac os ventura__", "macOS v13 (Ventura) (2022 vintage)__");
+            correctionAdd("Mac OS Ventura__", "macOS v13 (Ventura) (2022 vintage)__");
+            correctionAdd("macOS Ventura__", "macOS v13 (Ventura) (2022 vintage)__");
+            correctionAdd("MacOS Ventura__", "macOS v13 (Ventura) (2022 vintage)__");
+            correctionAdd("OS Ventura 13__", "macOS v13 (Ventura) (2022 vintage)__");
+            correctionAdd("macos ventura__", "macOS v13 (Ventura) (2022 vintage)__");
+            correctionAdd("Macos Ventura__", "macOS v13 (Ventura) (2022 vintage)__");
+            correctionAdd("Mac OS Ventua__", "macOS v13 (Ventura) (2022 vintage)__");
+            correctionAdd("macOs Ventura__", "macOS v13 (Ventura) (2022 vintage)__");
+            correctionAdd("Mac OS X 13__", "macOS v13 (Ventura) (2022 vintage)__");
+            correctionAdd("macOS 13.1__", "macOS v13 (Ventura) (2022 vintage)__");
+            correctionAdd("MacOS 13.1__", "macOS v13 (Ventura) (2022 vintage)__");
+            correctionAdd("Ventura 13__", "macOS v13 (Ventura) (2022 vintage)__");
+            correctionAdd("OS Ventura__", "macOS v13 (Ventura) (2022 vintage)__");
+            correctionAdd("macOS v13__", "macOS v13 (Ventura) (2022 vintage)__"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("macOS v13__", "macOS v13 (Ventura) (2022 vintage)__");
+            correctionAdd("macOS 13__", "macOS v13 (Ventura) (2022 vintage)__");
+            correctionAdd("MacOS 13__", "macOS v13 (Ventura) (2022 vintage)__");
+            correctionAdd("macOs 13__", "macOS v13 (Ventura) (2022 vintage)__");
+            correctionAdd("Ventura__", "macOS v13 (Ventura) (2022 vintage)__");
+            correctionAdd("OS 13.0__", "macOS v13 (Ventura) (2022 vintage)__");
+            correctionAdd("ventura__", "macOS v13 (Ventura) (2022 vintage)__");
+            correctionAdd("Venture__", "macOS v13 (Ventura) (2022 vintage)__");
+            correctionAdd("Ventua__", "macOS v13 (Ventura) (2022 vintage)__");
+            correctionAdd("OS 13__", "macOS v13 (Ventura) (2022 vintage)__");
+            correctionAdd("13__", "macOS v13 (Ventura) (2022 vintage)__");
 
             // 2023 vintage
-            correctionAdd("macOS v14 (Sonoma) (2023 vintage)__", "macOS&nbsp;v14 (Sonoma) (2023 vintage)__"); // Sort of identity mapping
-            correctionAdd("macOS&nbsp;v14 (Sonoma)__", "macOS&nbsp;v14 (Sonoma) (2023 vintage)__");
-            correctionAdd("macOS v14 (Sonoma)__", "macOS&nbsp;v14 (Sonoma) (2023 vintage)__"); // Sort of identity mapping
-            correctionAdd("macOS Sonoma 14__", "macOS&nbsp;v14 (Sonoma) (2023 vintage)__");
-            correctionAdd("MacOS Sonora 14__", "macOS&nbsp;v14 (Sonoma) (2023 vintage)__");
-            correctionAdd("macOS Sonora 14__", "macOS&nbsp;v14 (Sonoma) (2023 vintage)__");
-            correctionAdd("MacOS Sonoma 14__", "macOS&nbsp;v14 (Sonoma) (2023 vintage)__");
-            correctionAdd("MacOSX Sonoma__", "macOS&nbsp;v14 (Sonoma) (2023 vintage)__");
-            correctionAdd("macOS sonoma__", "macOS&nbsp;v14 (Sonoma) (2023 vintage)__");
-            correctionAdd("macOS Sonoma__", "macOS&nbsp;v14 (Sonoma) (2023 vintage)__");
-            correctionAdd("macOs Sonoma__", "macOS&nbsp;v14 (Sonoma) (2023 vintage)__");
-            correctionAdd("Sonoma OS 14__", "macOS&nbsp;v14 (Sonoma) (2023 vintage)__");
-            correctionAdd("MacOS Sonora__", "macOS&nbsp;v14 (Sonoma) (2023 vintage)__");
-            correctionAdd("macOS Sonora__", "macOS&nbsp;v14 (Sonoma) (2023 vintage)__");
-            correctionAdd("MacOS Sonoma__", "macOS&nbsp;v14 (Sonoma) (2023 vintage)__");
-            correctionAdd("mac Sonoma__", "macOS&nbsp;v14 (Sonoma) (2023 vintage)__");
-            correctionAdd("Sonoma OS__", "macOS&nbsp;v14 (Sonoma) (2023 vintage)__");
-            correctionAdd("Sonoma 14__", "macOS&nbsp;v14 (Sonoma) (2023 vintage)__");
-            correctionAdd("macOS v14__", "macOS&nbsp;v14 (Sonoma) (2023 vintage)__");
-            correctionAdd("macOS 14__", "macOS&nbsp;v14 (Sonoma) (2023 vintage)__");
-            correctionAdd("Sonoma__", "macOS&nbsp;v14 (Sonoma) (2023 vintage)__");
-            correctionAdd("sonoma__", "macOS&nbsp;v14 (Sonoma) (2023 vintage)__");
-            correctionAdd("Sonora__", "macOS&nbsp;v14 (Sonoma) (2023 vintage)__");
-            correctionAdd("14__", "macOS&nbsp;v14 (Sonoma) (2023 vintage)__");
+            correctionAdd("macOS v14 (Sonoma)__", "macOS v14 (Sonoma) (2023 vintage)__");
+            correctionAdd("macOS Sonoma 14__", "macOS v14 (Sonoma) (2023 vintage)__");
+            correctionAdd("MacOS Sonora 14__", "macOS v14 (Sonoma) (2023 vintage)__");
+            correctionAdd("macOS Sonora 14__", "macOS v14 (Sonoma) (2023 vintage)__");
+            correctionAdd("MacOS Sonoma 14__", "macOS v14 (Sonoma) (2023 vintage)__");
+            correctionAdd("MacOSX Sonoma__", "macOS v14 (Sonoma) (2023 vintage)__");
+            correctionAdd("macOS sonoma__", "macOS v14 (Sonoma) (2023 vintage)__");
+            correctionAdd("macOS Sonoma__", "macOS v14 (Sonoma) (2023 vintage)__");
+            correctionAdd("macOs Sonoma__", "macOS v14 (Sonoma) (2023 vintage)__");
+            correctionAdd("Sonoma OS 14__", "macOS v14 (Sonoma) (2023 vintage)__");
+            correctionAdd("MacOS Sonora__", "macOS v14 (Sonoma) (2023 vintage)__");
+            correctionAdd("macOS Sonora__", "macOS v14 (Sonoma) (2023 vintage)__");
+            correctionAdd("MacOS Sonoma__", "macOS v14 (Sonoma) (2023 vintage)__");
+            correctionAdd("mac Sonoma__", "macOS v14 (Sonoma) (2023 vintage)__");
+            correctionAdd("Sonoma OS__", "macOS v14 (Sonoma) (2023 vintage)__");
+            correctionAdd("Sonoma 14__", "macOS v14 (Sonoma) (2023 vintage)__");
+            correctionAdd("macOS v14__", "macOS v14 (Sonoma) (2023 vintage)__");
+            correctionAdd("macOS 14__", "macOS v14 (Sonoma) (2023 vintage)__");
+            correctionAdd("Sonoma__", "macOS v14 (Sonoma) (2023 vintage)__");
+            correctionAdd("sonoma__", "macOS v14 (Sonoma) (2023 vintage)__");
+            correctionAdd("Sonora__", "macOS v14 (Sonoma) (2023 vintage)__");
+            correctionAdd("14__", "macOS v14 (Sonoma) (2023 vintage)__");
 
             // 2024 vintage
-            correctionAdd("macOS&nbsp;v15 (Sequoia)__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
-            correctionAdd("macOS v15 (Sequoia) (2024 vintage)__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__"); // Sort of identity mapping
-            correctionAdd("macOS v15 (Sequoia)__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__"); // Sort of identity mapping
-            correctionAdd("macOS Sequoia 15__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
-            correctionAdd("macos 15 Seqoia__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
-            correctionAdd("Mac sequoia 15__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
-            correctionAdd("Mac OS sequoia__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
-            correctionAdd("macOS Sequoia__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
-            correctionAdd("MacOS Sequoia__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
-            correctionAdd("macos sequoia__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
-            correctionAdd("Mac Sequoia__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
-            correctionAdd("Mac sequoia__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
-            correctionAdd("Sequoia 15__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
-            correctionAdd("sequoia 15__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
-            correctionAdd("macOS v15__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
-            correctionAdd("macOS 15__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
-            correctionAdd("macos 15__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
-            correctionAdd("Sequoia__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
-            correctionAdd("OS X 15__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
-            correctionAdd("sequoia__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
-            correctionAdd("OSX 15__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
-            correctionAdd("Seqoia__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
-            correctionAdd("sequa__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
-            correctionAdd("OS15__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
-            correctionAdd("15__", "macOS&nbsp;v15 (Sequoia) (2024 vintage)__");
+            correctionAdd("macOS v15 (Sequoia)__", "macOS v15 (Sequoia) (2024 vintage)__");
+            correctionAdd("macOS Sequoia 15__", "macOS v15 (Sequoia) (2024 vintage)__");
+            correctionAdd("macos 15 Seqoia__", "macOS v15 (Sequoia) (2024 vintage)__");
+            correctionAdd("Mac sequoia 15__", "macOS v15 (Sequoia) (2024 vintage)__");
+            correctionAdd("Mac OS sequoia__", "macOS v15 (Sequoia) (2024 vintage)__");
+            correctionAdd("macOS Sequoia__", "macOS v15 (Sequoia) (2024 vintage)__");
+            correctionAdd("MacOS Sequoia__", "macOS v15 (Sequoia) (2024 vintage)__");
+            correctionAdd("macos sequoia__", "macOS v15 (Sequoia) (2024 vintage)__");
+            correctionAdd("Mac Sequoia__", "macOS v15 (Sequoia) (2024 vintage)__");
+            correctionAdd("Mac sequoia__", "macOS v15 (Sequoia) (2024 vintage)__");
+            correctionAdd("Sequoia 15__", "macOS v15 (Sequoia) (2024 vintage)__");
+            correctionAdd("sequoia 15__", "macOS v15 (Sequoia) (2024 vintage)__");
+            correctionAdd("macOS v15__", "macOS v15 (Sequoia) (2024 vintage)__");
+            correctionAdd("macOS 15__", "macOS v15 (Sequoia) (2024 vintage)__");
+            correctionAdd("macos 15__", "macOS v15 (Sequoia) (2024 vintage)__");
+            correctionAdd("Sequoia__", "macOS v15 (Sequoia) (2024 vintage)__");
+            correctionAdd("OS X 15__", "macOS v15 (Sequoia) (2024 vintage)__");
+            correctionAdd("sequoia__", "macOS v15 (Sequoia) (2024 vintage)__");
+            correctionAdd("OSX 15__", "macOS v15 (Sequoia) (2024 vintage)__");
+            correctionAdd("Seqoia__", "macOS v15 (Sequoia) (2024 vintage)__");
+            correctionAdd("sequa__", "macOS v15 (Sequoia) (2024 vintage)__");
+            correctionAdd("OS15__", "macOS v15 (Sequoia) (2024 vintage)__");
+            correctionAdd("15__", "macOS v15 (Sequoia) (2024 vintage)__");
 
             // The common noun
             correctionAdd("winodw__", "window__");
@@ -179000,21 +178899,21 @@ namespace OverflowHelper.core
 
             URL_Add("Adobe XD__", "https://en.wikipedia.org/wiki/Adobe_XD");
 
-            URL_Add("Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar) (2002 vintage)__", "https://en.wikipedia.org/wiki/Mac_OS_X_v10.2");
+            URL_Add("Mac OS X v10.2 (Jaguar) (2002 vintage)__", "https://en.wikipedia.org/wiki/Mac_OS_X_v10.2");
 
-            URL_Add("Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__", "https://en.wikipedia.org/wiki/OS_X_Lion"); // Old: https://en.wikipedia.org/wiki/Mac_OS_X_Lion
+            URL_Add("Mac OS X v10.7 (Lion) (2011 vintage)__", "https://en.wikipedia.org/wiki/OS_X_Lion"); // Old: https://en.wikipedia.org/wiki/Mac_OS_X_Lion
 
-            URL_Add("Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__", "https://en.wikipedia.org/wiki/OS_X_Yosemite");
+            URL_Add("Mac OS X v10.10 (Yosemite) (2014 vintage)__", "https://en.wikipedia.org/wiki/OS_X_Yosemite");
 
-            URL_Add("macOS&nbsp;v11 (Big Sur) (2020 vintage)__", "https://en.wikipedia.org/wiki/MacOS_Big_Sur");
+            URL_Add("macOS v11 (Big Sur) (2020 vintage)__", "https://en.wikipedia.org/wiki/MacOS_Big_Sur");
 
-            URL_Add("macOS&nbsp;v12 (Monterey) (2021 vintage)__", "https://en.wikipedia.org/wiki/MacOS_Monterey");
+            URL_Add("macOS v12 (Monterey) (2021 vintage)__", "https://en.wikipedia.org/wiki/MacOS_Monterey");
 
-            URL_Add("macOS&nbsp;v13 (Ventura) (2022 vintage)__", "https://en.wikipedia.org/wiki/MacOS_Ventura");
+            URL_Add("macOS v13 (Ventura) (2022 vintage)__", "https://en.wikipedia.org/wiki/MacOS_Ventura");
 
-            URL_Add("macOS&nbsp;v14 (Sonoma) (2023 vintage)__", "https://en.wikipedia.org/wiki/MacOS_Sonoma");
+            URL_Add("macOS v14 (Sonoma) (2023 vintage)__", "https://en.wikipedia.org/wiki/MacOS_Sonoma");
 
-            URL_Add("macOS&nbsp;v15 (Sequoia) (2024 vintage)__", "https://en.wikipedia.org/wiki/MacOS_Sequoia");
+            URL_Add("macOS v15 (Sequoia) (2024 vintage)__", "https://en.wikipedia.org/wiki/MacOS_Sequoia");
 
             URL_Add("continuation__", "https://en.wiktionary.org/wiki/continuation#Noun");
 
