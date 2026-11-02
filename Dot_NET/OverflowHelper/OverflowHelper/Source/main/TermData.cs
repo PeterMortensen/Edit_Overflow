@@ -13720,6 +13720,7 @@ namespace OverflowHelper.core
             correctionAdd("Hola", "hello");
             correctionAdd("hola", "hello");
             correctionAdd("halo", "hello");
+            correctionAdd("helo", "hello");
 
             correctionAdd("sorey", "sorry");
             correctionAdd("sory", "sorry");
@@ -20026,6 +20027,795 @@ namespace OverflowHelper.core
             //
             correctionAdd("once again", "yet again");
 
+            // A computer game. For Windows.
+            correctionAdd("Microsoft flight simulator", "Microsoft Flight Simulator");
+            correctionAdd("MSFS Flightsimulator", "Microsoft Flight Simulator");
+            correctionAdd("MS fly simulator", "Microsoft Flight Simulator");
+            correctionAdd("MSFS", "Microsoft Flight Simulator");
+
+            // A computer game. For Windows.
+            correctionAdd("DCS", "Digital Combat Simulator");
+
+            // An flight simulator. Open source
+            correctionAdd("flight gear", "FlightGear");
+
+            correctionAdd("Aviation", "aviation");
+            correctionAdd("aviaion", "aviation");
+
+            correctionAdd("flyiing", "flying");
+
+            // Aviation. A YouTuber
+            //
+            // The channel name is "Blancolirio"
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=kyd6KH5jBY4>
+            //
+            correctionAdd("Juan Brown Blancalario", "Juan Browne");
+            correctionAdd("Blancolirio Channel", "Juan Browne");
+            correctionAdd("Blancolirio channel", "Juan Browne");
+            correctionAdd("blancolirio channel", "Juan Browne");
+            correctionAdd("blancolirio", "Juan Browne"); // The name of the YouTube channel
+            correctionAdd("Blancolirio", "Juan Browne");
+            correctionAdd("Blancalario", "Juan Browne");
+            correctionAdd("Blancolerio", "Juan Browne");
+            correctionAdd("Juan Brown", "Juan Browne");
+            correctionAdd("One Brown", "Juan Browne"); // Gross transcription error!!!!
+            correctionAdd("Blanco", "Juan Browne");
+            correctionAdd("Blunco", "Juan Browne");
+            correctionAdd("Jaun", "Juan Browne");
+            correctionAdd("Juan", "Juan Browne");
+            correctionAdd("JB", "Juan Browne");
+
+            // Aviation
+            correctionAdd("Amelia Erhart", "Amelia Earhart");
+
+            // Aviation
+            correctionAdd("Aero-medical Examiner", "Aviation Medical Examiner");
+            correctionAdd("AME", "Aviation Medical Examiner");
+
+            // Aviation
+            correctionAdd("Airframe and Powerplant", "Aviation Maintenance Technician");
+            correctionAdd("A&P", "Aviation Maintenance Technician");
+
+            // Aviation
+            correctionAdd("hanger", "hangar");
+
+            // Aviation
+            correctionAdd("metar", "METAR");
+
+            // The spelling alphabet used in spoken communication over radio
+            //
+            // It isn't a phonetic alphabet! Nor invented by NATO.
+            //
+            // Not to be confused with International Phonetic Alphabet
+            // (written representation for the sounds of speech).
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=UAT-eOzeY4M>
+            //
+            correctionAdd("NATO phonetic alphabet", "ICAO phonetic alphabet");
+            correctionAdd("phonetic alphabet", "ICAO phonetic alphabet");
+            correctionAdd("NATO", "ICAO phonetic alphabet");
+
+            // The verb
+            correctionAdd("morse", "Morse");
+
+            correctionAdd("morse code", "Morse code");
+            correctionAdd("Morse Code", "Morse code");
+
+            correctionAdd("scrample", "scramble");
+
+            correctionAdd("epron", "apron"); // Aviation
+
+            // Aviation
+            correctionAdd("taxying", "taxiing");
+            correctionAdd("taxing", "taxiing");
+
+            correctionAdd("youke", "yoke"); // Aviation
+
+            correctionAdd("stick chaker", "stick shaker"); // Aviation
+
+            // Aviation / space
+            correctionAdd("TWR", "thrust-to-weight ratio");
+
+            // Aviation
+            correctionAdd("MTOW", "maximum takeoff weight");
+
+            // Aviation
+            correctionAdd("reheat", "afterburner");
+            correctionAdd("AB", "afterburner");
+
+            // Aviation
+            correctionAdd("head wind", "headwind");
+
+            // Aviation. The noun
+            correctionAdd("take off", "takeoff");
+            correctionAdd("take-off", "takeoff");
+            correctionAdd("Take-Off", "takeoff");
+            correctionAdd("Takeoff", "takeoff");
+            correctionAdd("t/o", "takeoff");
+
+            correctionAdd("clime out", "climbout");
+            correctionAdd("climb-out", "climbout");
+
+            // E.g., aviation
+            correctionAdd("pressurization", "pressurisation");
+            correctionAdd("presurisation", "pressurisation");
+
+            // E.g., aviation
+            correctionAdd("HYPOXIA", "hypoxia");
+            correctionAdd("Hypoxia", "hypoxia");
+
+            correctionAdd("Lift", "lift"); // Aviation
+
+            // Aviation
+            //
+            // Contrast: instrument flight rules (IFR)
+            //
+            correctionAdd("VFR", "visual flight rules");
+
+            // Aviation
+            //
+            // Contrast:  visual flight rules (VFR)
+            //
+            // Alternative...: "I follow roads" (though it
+            //                 is sort of the opposite)
+            //
+            correctionAdd("IFR", "instrument flight rules");
+            correctionAdd("ifr", "instrument flight rules");
+
+            // Aviation
+            correctionAdd("IMC", "instrument meteorological conditions");
+
+            // Aviation
+            correctionAdd("mid air collision", "mid-air collision");
+            correctionAdd("Mid-air", "mid-air collision");
+            correctionAdd("mid-air", "mid-air collision");
+            correctionAdd("mid air", "mid-air collision");
+            correctionAdd("midair", "mid-air collision");
+
+            correctionAdd("hyd", "hydraulics");
+
+            // Aviation (mostly)
+            correctionAdd("Pitch", "pitch");
+
+            // Aviation (mostly)
+            correctionAdd("Yaw", "yaw");
+
+            // Aviation
+            correctionAdd("angle-of-attack", "angle of attack");
+            correctionAdd("AoA", "angle of attack");
+            correctionAdd("AOA", "angle of attack");
+
+            correctionAdd("Angle of Bank", "angle of bank");
+            correctionAdd("AOB", "angle of bank");
+            correctionAdd("AoB", "angle of bank");
+
+            // Aviation
+            correctionAdd("Dutch Roll", "Dutch roll");
+
+            correctionAdd("FL", "flight level"); // Aviation
+
+            correctionAdd("Sea Level", "sea level"); // Aviation
+
+            // Aviation
+            correctionAdd("HAGL", "height above ground level");
+            correctionAdd("AGL", "height above ground level");
+
+            // Aviation
+            correctionAdd("pito tubes", "pitot tubes");
+            correctionAdd("Pito tubes", "pitot tubes");
+            correctionAdd("pitot", "pitot tubes");
+
+            // Aviation
+            correctionAdd("Indicated Air Speed", "indicated airspeed");
+            correctionAdd("IAS", "indicated airspeed");
+
+            // Aviation
+            correctionAdd("KTAS", "true airspeed");
+            correctionAdd("TAS", "true airspeed");
+
+            // Aviation
+            correctionAdd("air tight", "airtight");
+
+            // Aviation
+            correctionAdd("Spacial disorientation", "spatial disorientation");
+            correctionAdd("spacial disorientation", "spatial disorientation");
+
+            // Aviation
+            correctionAdd("IRS", "Inertial Reference System");
+
+            // Aviation
+            correctionAdd("flightfath", "flight path");
+
+            // Aviation
+            correctionAdd("enroute", "en route");
+
+            // Aviation
+            correctionAdd("Base", "base");
+
+            // Aviation
+            correctionAdd("cross wind", "crosswind");
+
+            // Aviation
+            correctionAdd("down wind", "downwind");
+
+            // Aviation
+            correctionAdd("up wind", "upwind");
+
+            // Aviation
+            correctionAdd("takeoff/go-around", "TO/GA");
+            correctionAdd("TakeOffGoArround", "TO/GA");
+            correctionAdd("toga", "TO/GA");
+            correctionAdd("TOGA", "TO/GA");
+
+            // E.g., aviation
+            correctionAdd("dead reconing", "dead reckoning");
+
+            // Aviation
+            correctionAdd("ILS", "instrument landing system");
+
+            // Aviation
+            correctionAdd("dog running", "scud running"); // !!!!!
+
+            // Aviation
+            correctionAdd("scud-ran", "scud ran");
+
+            // Aviation
+            correctionAdd("baro", "barometric");
+
+            // Aviation
+            correctionAdd("MSA", "minimum safe altitude");
+
+            // Aviation
+            correctionAdd("DA", "density altitude");
+
+            // Aviation
+            //
+            // Alternative URLs:
+            //
+            //   <https://aviation.stackexchange.com/questions/21380/what-do-the-callouts-approaching-minimums-and-minimums-mean>
+            //   <https://www.youtube.com/watch?v=PCWmihJ7NSA&t=42m17s>
+            //
+            correctionAdd("approach mins", "approach minimums");
+            correctionAdd("minimums", "approach minimums");
+
+            // Aviation
+            correctionAdd("controlled flight into terrain", "CFIT");
+            correctionAdd("into terrain", "CFIT");
+
+            // Aviation
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Delta_Air_Lines_Flight_191>
+            //     Delta Air Lines Flight 191
+            //
+            //   <https://www.youtube.com/watch?v=TIOQXdds2ZY>
+            //     By 'Mentour Pilot'. Delta Air Lines Flight 191
+            //
+            //   <https://www.youtube.com/watch?v=BH3TIS9YLaI>
+            //     Delta Air Lines Flight 191
+            //
+            correctionAdd("Micro Burst", "microburst");
+            correctionAdd("micro burst", "microburst");
+            correctionAdd("downburst", "microburst");
+
+            // Aviation
+            correctionAdd("round out", "landing flare");
+            correctionAdd("flair", "landing flare");
+            correctionAdd("flare", "landing flare");
+
+            // Aviation
+            correctionAdd("groundeffect", "ground effect");
+
+            // Aviation
+            correctionAdd("Landing", "landing");
+            correctionAdd("lading", "landing");
+
+            // Aviation
+            correctionAdd("Touchdown", "touchdown");
+
+            // Aviation
+            correctionAdd("tail strike", "tailstrike");
+
+            correctionAdd("jetlagged", "jet-lagged");
+            correctionAdd("jetlaged", "jet-lagged");
+
+            // Aviation, for example
+            correctionAdd("Aquaplanning", "aquaplaning");
+            correctionAdd("aquaplanning", "aquaplaning");
+            correctionAdd("hydroplaning", "aquaplaning");
+            correctionAdd("Aquaplaning", "aquaplaning");
+
+            correctionAdd("EFB", "electronic flight bag"); // Aviation
+
+            // Aviation
+            correctionAdd("EAA Annual Convention and Fly-In", "EAA AirVenture Oshkosh");
+            correctionAdd("Oshkosh", "EAA AirVenture Oshkosh");
+
+            // Aviation
+            correctionAdd("collins", "Collins");
+
+            // Related to aviation / aircraft
+            correctionAdd("transsonic", "transonic");
+
+            // Aviation
+            correctionAdd("VATSIM", "Virtual Air Traffic Simulation Network");
+
+            // Aviation
+            correctionAdd("pan call", "pan-pan call");
+            correctionAdd("Pan-pan", "pan-pan call");
+
+            correctionAdd("Mayday", "mayday"); // Aviation / ships
+
+            // Aviation?
+            correctionAdd("vortexes", "vortices");
+
+            // Aviation
+            correctionAdd("fethered", "feathered");
+            correctionAdd("fathered", "feathered");
+
+            // Aviation
+            correctionAdd("air-intake", "air intake");
+
+            // Aviation
+            correctionAdd("Fuel Gauge", "fuel gauge");
+            correctionAdd("Fuel Guage", "fuel gauge");
+            correctionAdd("fuel guage", "fuel gauge");
+
+            correctionAdd("airmolecule", "air molecule");
+
+            correctionAdd("missle", "missile");
+
+            correctionAdd("air to air missile", "air-to-air missile");
+
+            // Aviation
+            correctionAdd("IRAN", "inspect and repair as necessary");
+
+            // Aviation. A website.
+            correctionAdd("Flight Radar", "Flightradar24");
+
+            correctionAdd("Pilot", "pilot"); // Aviation
+            correctionAdd("polit", "pilot");
+
+            correctionAdd("PPL", "private pilot licence"); // Aviation
+
+            // Aviation
+            correctionAdd("check ride", "checkride");
+
+            // Aviation
+            correctionAdd("Hypoxic", "hypoxic");
+
+            // Aviation
+            correctionAdd("Time of Useful Consciousness", "time of useful consciousness");
+            correctionAdd("TUC", "time of useful consciousness");
+
+            correctionAdd("g lock", "g-force induced loss of consciousness");
+            correctionAdd("g-LOC", "g-force induced loss of consciousness");
+            correctionAdd("G-LOC", "g-force induced loss of consciousness");
+
+            // Aviation
+            correctionAdd("flights band", "flight ban");
+            correctionAdd("flight bans", "flight ban");
+            correctionAdd("flights ban", "flight ban");
+
+            // Aviation
+            correctionAdd("Air traffic control", "air traffic control");
+            correctionAdd("atc", "air traffic control");
+            correctionAdd("ATC", "air traffic control");
+
+            // Aviation
+            correctionAdd("air space", "airspace");
+
+            // Aviation
+            correctionAdd("IATA", "International Air Transport Association");
+
+            correctionAdd("ICAO", "International Civil Aviation Organization");
+
+            correctionAdd("faa", "FAA"); // Aviation
+
+            // Aviation
+            correctionAdd("EASA", "European Union Aviation Safety Agency");
+
+            // Aviation
+            correctionAdd("1977 Tenerife disaster", "Tenerife airport disaster");
+
+            // Aviation
+            correctionAdd("air field", "airfield");
+            correctionAdd("Airfied", "airfield");
+            correctionAdd("airfied", "airfield");
+
+            // Aviation
+            correctionAdd("RWY", "runway");
+            correctionAdd("Rwy", "runway");
+            correctionAdd("rwy", "runway");
+
+            // Aviation
+            correctionAdd("Runway Excursion", "runway excursion");
+
+            // Aviation
+            correctionAdd("Runway Incursion", "runway incursion");
+            correctionAdd("Incursion", "runway incursion");
+            correctionAdd("incursion", "runway incursion");
+
+            // Aviation
+            correctionAdd("air plane", "airplane");
+            correctionAdd("aeroplane", "airplane");
+            correctionAdd("aircraft", "airplane");
+            correctionAdd("plane", "airplane");
+            correctionAdd("plan", "airplane");
+
+            // Aviation
+            correctionAdd("air planes", "airplanes");
+            correctionAdd("Airplanes", "airplanes");
+
+            correctionAdd("aviation spirit", "aviation gasoline");
+            correctionAdd("aviation gas", "aviation gasoline");
+            correctionAdd("Avgas", "aviation gasoline");
+            correctionAdd("avgas", "aviation gasoline");
+
+            correctionAdd("Jet-A", "Jet A");
+            correctionAdd("jet a", "Jet A");
+            correctionAdd("jet-a", "Jet A");
+
+            // Aviation
+            correctionAdd("Business Jet", "business jet");
+            correctionAdd("Business jet", "business jet");
+
+            correctionAdd("ram jet", "ramjet");
+
+            // Aviation
+            correctionAdd("single engine", "single-engine");
+
+            // Aviation
+            correctionAdd("air-frame", "airframe");
+
+            // Aviation
+            correctionAdd("jack screw", "jackscrew");
+
+            // Note: "helicopter" is in an alternative word set
+            correctionAdd("helicopter", "helicopters");
+            correctionAdd("'copters", "helicopters");
+            correctionAdd("copters", "helicopters");
+            correctionAdd("helis", "helicopters");
+
+            // Aviation
+            correctionAdd("fixed wing airplane", "fixed-wing aircraft");
+            correctionAdd("Fixed Wing Airplane", "fixed-wing aircraft");
+
+            // Aviation
+            correctionAdd("pilot cabin", "flight deck");
+            correctionAdd("pilot-cabin", "flight deck");
+            correctionAdd("flightdeck", "flight deck");
+            correctionAdd("flighdeck", "flight deck");
+
+            // Aviation. A synonym of flight deck. Merge?
+            correctionAdd("cock pit", "cockpit");
+            correctionAdd("Cockpit", "cockpit");
+
+            // Aviation
+            correctionAdd("pfd", "primary flight display");
+            correctionAdd("PFD", "primary flight display");
+
+            // Aviation
+            correctionAdd("FMS", "flight management system");
+
+            // For example, aviation
+            correctionAdd("elt", "ELT");
+            correctionAdd("Elt", "ELT");
+
+            // For example, aviation
+            correctionAdd("beakon", "beacon");
+
+            // For example, aviation
+            correctionAdd("locator beakon", "emergency locator beacon");
+            correctionAdd("locator beacon", "emergency locator beacon");
+
+            // For example, aviation
+            correctionAdd("dBrief", "debrief");
+            correctionAdd("dbrief", "debrief");
+
+            // Aviation
+            correctionAdd("GNSS", "global navigation satellite system");
+
+            // Aviation
+            correctionAdd("SBAS", "satellite-based augmentation systems");
+
+            // An aircraft
+            correctionAdd("PA-28", "Piper PA-28 Cherokee");
+            correctionAdd("PA28", "Piper PA-28 Cherokee");
+
+            // An aircraft
+            correctionAdd("PA44", "Piper PA-44 Seminole");
+
+            // A type of aircraft
+            correctionAdd("airbus", "Airbus");
+            correctionAdd("AIRBUS", "Airbus");
+
+            // An aircraft
+            correctionAdd("A-220", "Airbus A220");
+            correctionAdd("A220", "Airbus A220");
+
+            // An aircraft
+            correctionAdd("a321 NEO", "Airbus A321neo");
+            correctionAdd("A-321", "Airbus A321neo");
+            correctionAdd("A321", "Airbus A321neo");
+
+            // An aircraft
+            correctionAdd("a310-300", "A310-300");
+
+            // An aircraft
+            correctionAdd("Airbus 319", "Airbus A319");
+            correctionAdd("A-319", "Airbus A319");
+            correctionAdd("A319", "Airbus A319");
+
+            // An aircraft
+            correctionAdd("Airbus a320", "Airbus A320");
+            correctionAdd("Airbus 320", "Airbus A320");
+            correctionAdd("A-320", "Airbus A320");
+            correctionAdd("A320", "Airbus A320");
+            correctionAdd("a320", "Airbus A320");
+
+            // A series of aircraft
+            correctionAdd("A320 neo", "A320neo");
+
+            // An aircraft
+            correctionAdd("Airbus 330", "Airbus A330");
+            correctionAdd("A-330", "Airbus A330");
+            correctionAdd("A330", "Airbus A330");
+
+            // An aircraft
+            correctionAdd("Airbus 350", "Airbus A350");
+            correctionAdd("A-350", "Airbus A350");
+            correctionAdd("A350", "Airbus A350");
+
+            // Aviation
+            correctionAdd("A-380", "Airbus A380");
+            correctionAdd("A380", "Airbus A380");
+            correctionAdd("a380", "Airbus A380");
+
+            // Note the "e" after "o". It isn't "Boing"...
+            correctionAdd("boeing", "Boeing");
+            correctionAdd("BOEING", "Boeing");
+            correctionAdd("Boing", "Boeing");
+            correctionAdd("boing", "Boeing");
+
+            correctionAdd("Boeing Max", "Boeing 737 MAX");
+            correctionAdd("Boing Max", "Boeing 737 MAX");
+            correctionAdd("boing max", "Boeing 737 MAX");
+            correctionAdd("737 Maxx", "Boeing 737 MAX");
+            correctionAdd("737 MAX", "Boeing 737 MAX");
+            correctionAdd("737 Max", "Boeing 737 MAX");
+            correctionAdd("737-MAX", "Boeing 737 MAX");
+            correctionAdd("737 max", "Boeing 737 MAX");
+            correctionAdd("737Max", "Boeing 737 MAX");
+            correctionAdd("7MAX", "Boeing 737 MAX");
+
+            // Aviation. Boeing 737 MAX
+            correctionAdd("mcas", "MCAS");
+
+            // An aircraft
+            correctionAdd("B747", "Boeing 747");
+            correctionAdd("747", "Boeing 747");
+
+            correctionAdd("747-8I", "Boeing 747-8I");
+            correctionAdd("747-8i", "Boeing 747-8I");
+
+            // An aircraft
+            correctionAdd("777", "Boeing 777");
+
+            // An aircraft
+            correctionAdd("Boing 787 Dreamliner", "Boeing 787");
+            correctionAdd("Dreamliner", "Boeing 787");
+            correctionAdd("B787", "Boeing 787");
+            correctionAdd("787", "Boeing 787");
+
+            // An aircraft
+            correctionAdd("Boing 737", "Boeing 737");
+            correctionAdd("B 737", "Boeing 737");
+            correctionAdd("B737", "Boeing 737"); // The correct shorthand (not "B-737")
+            correctionAdd("737", "Boeing 737");
+
+            // An aircraft
+            correctionAdd("embraer 190", "Embraer 190");
+
+            // An aircraft
+            correctionAdd("DC-8", "Douglas DC-8");
+
+            // An aircraft
+            correctionAdd("SR-71", "Lockheed SR-71 Blackbird");
+
+            // An aircraft
+            correctionAdd("Lockheed L-1049", "Lockheed L-1049 Super Constellation");
+
+            // An aircraft (military)
+            correctionAdd("XB-70", "North American XB-70 Valkyrie");
+
+            // An aircraft (military)
+            correctionAdd("mig 21", "MiG-21");
+            correctionAdd("mig21", "MiG-21");
+
+            // An aircraft (military)
+            correctionAdd("f-15", "F-15");
+            correctionAdd("f15", "F-15");
+            correctionAdd("F15", "F-15");
+
+            // An aircraft (military)
+            correctionAdd("f-16", "F-16");
+            correctionAdd("F 16", "F-16");
+            correctionAdd("f 16", "F-16");
+            correctionAdd("f16", "F-16");
+            correctionAdd("F16", "F-16");
+            correctionAdd("Fq6", "F-16"); // A true typo
+
+            // An aircraft (military)
+            correctionAdd("F-18", "F/A-18");
+            correctionAdd("F18", "F/A-18");
+
+            // An aircraft (military)
+            correctionAdd("F-22", "F-22 Raptor");
+            correctionAdd("F22", "F-22 Raptor");
+
+            // An aircraft (military)
+            // As in the thunder thing, not light (lighting)
+            correctionAdd("Joint Strike Fighter", "F-35");
+            correctionAdd("joint strike fighter", "F-35");
+            correctionAdd("JOINT STRIKE FIGHTER", "F-35");
+            correctionAdd("F 30 five", "F-35"); // A simulated intelligence transcription error (YouTube)
+            correctionAdd("f-35", "F-35");
+            correctionAdd("JSF", "F-35");
+            correctionAdd("F35", "F-35");
+            correctionAdd("f35", "F-35");
+
+            // An aircraft (military)
+            correctionAdd("typhoon", "Eurofighter Typhoon");
+
+            // An aircraft
+            correctionAdd("C-47", "Douglas C-47 Skytrain");
+
+            // A transport aircraft (not a Cessna... For example,
+            // not to be confused with the Cessna C-310).
+            //
+            // Lockheed C-130 Hercules
+            correctionAdd("C130", "C-130");
+
+            // Aviation
+            correctionAdd("cessna", "Cessna");
+
+            // An aircraft
+            correctionAdd("cessna 172", "Cessna 172");
+            correctionAdd("C-172", "Cessna 172");
+            correctionAdd("C172", "Cessna 172");
+
+            // An aircraft
+            correctionAdd("Cessna 180", "Cessna 180 Skywagon");
+
+            // An aircraft
+            correctionAdd("Cessna 206 Turbo", "Cessna 206");
+            correctionAdd("206 Turbo", "Cessna 206");
+
+            // An aircraft
+            correctionAdd("Cessna Citation", "Cessna Citation II");
+            correctionAdd("citation", "Cessna Citation II");
+            correctionAdd("Citation", "Cessna Citation II");
+
+            // An aircraft
+            //
+            // Has a problem with door distraction crashes. See e.g.:
+            //
+            //   <https://www.youtube.com/watch?v=S6xr2P4YOLE>
+            //
+            correctionAdd("Bonanza", "Beechcraft Bonanza");
+            correctionAdd("Bona za", "Beechcraft Bonanza"); // A typo involving the space bar
+
+            // An aircraft
+            correctionAdd("king air", "Beechcraft King Air");
+            correctionAdd("KINGAIR", "Beechcraft King Air");
+
+            // An aircraft
+            //
+            // Note: "Super" was dropped by Beechcraft in 1996
+            //
+            correctionAdd("BEECHCRAFT KING AIR 200", "Beechcraft Super King Air 200");
+            correctionAdd("Beechcraft King Air 200", "Beechcraft Super King Air 200");
+            correctionAdd("KING AIR 200", "Beechcraft Super King Air 200");
+
+            // An aircraft. Or rather a series / brand name
+            //
+            correctionAdd("Lear jet", "Learjet");
+            correctionAdd("Lear Jet", "Learjet");
+            correctionAdd("lear jet", "Learjet");
+            correctionAdd("learjet", "Learjet");
+
+            // An aircraft
+            correctionAdd("PZL Koliber 150", "PZL-110 Koliber 150");
+
+            // An aircraft
+            correctionAdd("C42", "Ikarus C42");
+
+            // An aircraft
+            correctionAdd("Flying Pancake", "Vought V-173 'Flying Pancake'");
+
+            // Aviation / space
+            correctionAdd("Vomit Comet", "vomit comet");
+
+            correctionAdd("charles de guelle airport", "Charles de Gaulle Airport");
+
+            correctionAdd("LAX", "Los Angeles International Airport");
+
+            correctionAdd("SYD", "Sydney Airport");
+
+            correctionAdd("Tom Bradley", "Tom Bradley International Terminal");
+            correctionAdd("TBIT", "Tom Bradley International Terminal");
+
+            correctionAdd("KDCA", "Ronald Reagan Washington National Airport");
+            correctionAdd("DCA", "Ronald Reagan Washington National Airport");
+
+            correctionAdd("JFK", "John F. Kennedy International Airport");
+
+            correctionAdd("EWR", "Newark Liberty International Airport");
+
+            correctionAdd("ORD", "O'Hare International Airport");
+
+            correctionAdd("Logan International Airport", "Boston Logan International Airport");
+            correctionAdd("KBOS", "Boston Logan International Airport");
+            correctionAdd("BOS", "Boston Logan International Airport");
+
+            correctionAdd("AUH", "Abu Dhabi International Airport");
+
+            correctionAdd("LHR", "Heathrow Airport");
+
+            correctionAdd("Airliner", "airliner"); // Aviation
+
+            //A duplicate of "airliner"
+            correctionAdd("Airline", "airline");
+
+            // An airliner. Aviation
+            correctionAdd("Air Lingus", "Aer Lingus");
+
+            // An airliner. Aviation
+            correctionAdd("lufthansa", "Lufthansa");
+
+            // An airliner. Aviation
+            correctionAdd("eurowings", "Eurowings");
+
+            // An airliner. Aviation
+            correctionAdd("british airways", "British Airways");
+            correctionAdd("BA", "British Airways");
+
+            correctionAdd("Air Portugal", "TAP Air Portugal");
+
+            // An airliner. Aviation
+            correctionAdd("el-al", "El Al");
+
+            // An airliner. Aviation
+            correctionAdd("Middle East airlines", "Middle East Airlines");
+
+            // An airliner (of United Arab Emirates (UAE)). Aviation
+            correctionAdd("Etihad", "Etihad Airways");
+            correctionAdd("EY", "Etihad Airways");
+
+            // An airliner (of United Arab Emirates (UAE)). Aviation
+            correctionAdd("emirates", "Emirates");
+
+            correctionAdd("qatar airways", "Qatar Airways");
+
+            // An airliner. Aviation
+            correctionAdd("air canada", "Air Canada");
+
+            // An airliner. Aviation
+            correctionAdd("virgin atlantic", "Virgin Atlantic");
+
+            // An airliner. Aviation
+            correctionAdd("QANTAS", "Qantas");
+
+            // Aviation / space
+            correctionAdd("Virgin galactic", "Virgin Galactic");
+
             correctionAdd("stratosfere", "stratosphere");
 
             correctionAdd("telesope", "telescope");
@@ -24524,11 +25314,6 @@ namespace OverflowHelper.core
             correctionAdd("Free Body Diagram", "free body diagram");
             correctionAdd("FBD", "free body diagram");
 
-            correctionAdd("mechanicical", "mechanical");
-            correctionAdd("machanical", "mechanical");
-            correctionAdd("mechnical", "mechanical");
-            correctionAdd("mecanical", "mechanical");
-
             correctionAdd("machanics", "mechanics");
 
             correctionAdd("non-mechanical", "nonmechanical");
@@ -28658,6 +29443,7 @@ namespace OverflowHelper.core
             correctionAdd("cove", "covered");
 
             correctionAdd("cover up", "cover-up");
+            correctionAdd("Cover-Up", "cover-up");
             correctionAdd("coverup", "cover-up");
 
             correctionAdd("recovert", "recover");
@@ -30408,6 +31194,9 @@ namespace OverflowHelper.core
             correctionAdd("mefucal", "medical"); // A true typo (multiple typos: slide of one)
             correctionAdd("Medical", "medical");
             correctionAdd("med", "medical");
+
+            correctionAdd("heeling", "healing");
+            correctionAdd("heling", "healing");
 
             correctionAdd("heath", "health");
 
@@ -38203,6 +38992,12 @@ namespace OverflowHelper.core
             correctionAdd("best-practice", "best practice");
             correctionAdd("Best Practice", "best practice");
 
+            correctionAdd("Impersonate", "impersonate");
+
+            correctionAdd("impersonnation", "impersonation");
+            correctionAdd("inpersonation", "impersonation");
+            correctionAdd("imporsonation", "impersonation");
+
             correctionAdd("indentitation", "indentation");
             correctionAdd("indendation", "indentation");
             correctionAdd("Indentation", "indentation");
@@ -41864,6 +42659,9 @@ namespace OverflowHelper.core
             correctionAdd("over-engineered", "overengineered");
             correctionAdd("Over engineered", "overengineered");
             correctionAdd("over engineered", "overengineered");
+
+            correctionAdd("over engineering", "overengineering");
+            correctionAdd("over-engineering", "overengineering");
 
             correctionAdd("re-engineering", "reengineering");
             correctionAdd("re-engeneering", "reengineering");
@@ -59488,6 +60286,7 @@ namespace OverflowHelper.core
             correctionAdd("protoyping", "prototyping");
 
             correctionAdd("Vibe coding", "vibe coding");
+            correctionAdd("vibecoding", "vibe coding");
 
             correctionAdd("instance-based", "prototypal");
             correctionAdd("Prototypal", "prototypal");
@@ -60610,792 +61409,6 @@ namespace OverflowHelper.core
             correctionAdd("Speed", "speed");
             correctionAdd("Sped", "speed");
             correctionAdd("sped", "speed");
-
-            // A computer game. For Windows.
-            correctionAdd("Microsoft flight simulator", "Microsoft Flight Simulator");
-            correctionAdd("MSFS Flightsimulator", "Microsoft Flight Simulator");
-            correctionAdd("MS fly simulator", "Microsoft Flight Simulator");
-            correctionAdd("MSFS", "Microsoft Flight Simulator");
-
-            // A computer game. For Windows.
-            correctionAdd("DCS", "Digital Combat Simulator");
-
-            // An flight simulator. Open source
-            correctionAdd("flight gear", "FlightGear");
-
-            correctionAdd("Aviation", "aviation");
-            correctionAdd("aviaion", "aviation");
-
-            correctionAdd("flyiing", "flying");
-
-            // Aviation. A YouTuber
-            //
-            // The channel name is "Blancolirio"
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.youtube.com/watch?v=kyd6KH5jBY4>
-            //
-            correctionAdd("Juan Brown Blancalario", "Juan Browne");
-            correctionAdd("Blancolirio Channel", "Juan Browne");
-            correctionAdd("Blancolirio channel", "Juan Browne");
-            correctionAdd("blancolirio channel", "Juan Browne");
-            correctionAdd("blancolirio", "Juan Browne"); // The name of the YouTube channel
-            correctionAdd("Blancolirio", "Juan Browne");
-            correctionAdd("Blancalario", "Juan Browne");
-            correctionAdd("Blancolerio", "Juan Browne");
-            correctionAdd("Blanco", "Juan Browne");
-            correctionAdd("Juan Brown", "Juan Browne");
-            correctionAdd("Jaun", "Juan Browne");
-            correctionAdd("Juan", "Juan Browne");
-            correctionAdd("JB", "Juan Browne");
-
-            // Aviation
-            correctionAdd("Amelia Erhart", "Amelia Earhart");
-
-            // Aviation
-            correctionAdd("Aero-medical Examiner", "Aviation Medical Examiner");
-            correctionAdd("AME", "Aviation Medical Examiner");
-
-            // Aviation
-            correctionAdd("Airframe and Powerplant", "Aviation Maintenance Technician");
-            correctionAdd("A&P", "Aviation Maintenance Technician");
-
-            // Aviation
-            correctionAdd("hanger", "hangar");
-
-            // Aviation
-            correctionAdd("metar", "METAR");
-
-            // The spelling alphabet used in spoken communication over radio
-            //
-            // It isn't a phonetic alphabet! Nor invented by NATO.
-            //
-            // Not to be confused with International Phonetic Alphabet
-            // (written representation for the sounds of speech).
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.youtube.com/watch?v=UAT-eOzeY4M>
-            //
-            correctionAdd("NATO phonetic alphabet", "ICAO phonetic alphabet");
-            correctionAdd("phonetic alphabet", "ICAO phonetic alphabet");
-            correctionAdd("NATO", "ICAO phonetic alphabet");
-
-            // The verb
-            correctionAdd("morse", "Morse");
-
-            correctionAdd("morse code", "Morse code");
-            correctionAdd("Morse Code", "Morse code");
-
-            correctionAdd("scrample", "scramble");
-
-            correctionAdd("epron", "apron"); // Aviation
-
-            // Aviation
-            correctionAdd("taxying", "taxiing");
-            correctionAdd("taxing", "taxiing");
-
-            correctionAdd("youke", "yoke"); // Aviation
-
-            correctionAdd("stick chaker", "stick shaker"); // Aviation
-
-            // Aviation / space
-            correctionAdd("TWR", "thrust-to-weight ratio");
-
-            // Aviation
-            correctionAdd("MTOW", "maximum takeoff weight");
-
-            // Aviation
-            correctionAdd("reheat", "afterburner");
-            correctionAdd("AB", "afterburner");
-
-            // Aviation
-            correctionAdd("head wind", "headwind");
-
-            // Aviation. The noun
-            correctionAdd("take off", "takeoff");
-            correctionAdd("take-off", "takeoff");
-            correctionAdd("Take-Off", "takeoff");
-            correctionAdd("Takeoff", "takeoff");
-            correctionAdd("t/o", "takeoff");
-
-            correctionAdd("clime out", "climbout");
-            correctionAdd("climb-out", "climbout");
-
-            // E.g., aviation
-            correctionAdd("pressurization", "pressurisation");
-            correctionAdd("presurisation", "pressurisation");
-
-            // E.g., aviation
-            correctionAdd("HYPOXIA", "hypoxia");
-            correctionAdd("Hypoxia", "hypoxia");
-
-            correctionAdd("Lift", "lift"); // Aviation
-
-            // Aviation
-            //
-            // Contrast: instrument flight rules (IFR)
-            //
-            correctionAdd("VFR", "visual flight rules");
-
-            // Aviation
-            //
-            // Contrast:  visual flight rules (VFR)
-            //
-            // Alternative...: "I follow roads" (though it
-            //                 is sort of the opposite)
-            //
-            correctionAdd("IFR", "instrument flight rules");
-            correctionAdd("ifr", "instrument flight rules");
-
-            // Aviation
-            correctionAdd("IMC", "instrument meteorological conditions");
-
-            // Aviation
-            correctionAdd("mid air collision", "mid-air collision");
-            correctionAdd("Mid-air", "mid-air collision");
-            correctionAdd("mid-air", "mid-air collision");
-            correctionAdd("mid air", "mid-air collision");
-            correctionAdd("midair", "mid-air collision");
-
-            correctionAdd("hyd", "hydraulics");
-
-            // Aviation (mostly)
-            correctionAdd("Pitch", "pitch");
-
-            // Aviation (mostly)
-            correctionAdd("Yaw", "yaw");
-
-            // Aviation
-            correctionAdd("angle-of-attack", "angle of attack");
-            correctionAdd("AoA", "angle of attack");
-            correctionAdd("AOA", "angle of attack");
-
-            correctionAdd("Angle of Bank", "angle of bank");
-            correctionAdd("AOB", "angle of bank");
-            correctionAdd("AoB", "angle of bank");
-
-            // Aviation
-            correctionAdd("Dutch Roll", "Dutch roll");
-
-            correctionAdd("FL", "flight level"); // Aviation
-
-            correctionAdd("Sea Level", "sea level"); // Aviation
-
-            // Aviation
-            correctionAdd("HAGL", "height above ground level");
-            correctionAdd("AGL", "height above ground level");
-
-            // Aviation
-            correctionAdd("pito tubes", "pitot tubes");
-            correctionAdd("Pito tubes", "pitot tubes");
-            correctionAdd("pitot", "pitot tubes");
-
-            // Aviation
-            correctionAdd("Indicated Air Speed", "indicated airspeed");
-            correctionAdd("IAS", "indicated airspeed");
-
-            // Aviation
-            correctionAdd("KTAS", "true airspeed");
-            correctionAdd("TAS", "true airspeed");
-
-            // Aviation
-            correctionAdd("air tight", "airtight");
-
-            // Aviation
-            correctionAdd("Spacial disorientation", "spatial disorientation");
-            correctionAdd("spacial disorientation", "spatial disorientation");
-
-            // Aviation
-            correctionAdd("IRS", "Inertial Reference System");
-
-            // Aviation
-            correctionAdd("flightfath", "flight path");
-
-            // Aviation
-            correctionAdd("enroute", "en route");
-
-            // Aviation
-            correctionAdd("Base", "base");
-
-            // Aviation
-            correctionAdd("cross wind", "crosswind");
-
-            // Aviation
-            correctionAdd("down wind", "downwind");
-
-            // Aviation
-            correctionAdd("up wind", "upwind");
-
-            // Aviation
-            correctionAdd("takeoff/go-around", "TO/GA");
-            correctionAdd("TakeOffGoArround", "TO/GA");
-            correctionAdd("toga", "TO/GA");
-            correctionAdd("TOGA", "TO/GA");
-
-            // E.g., aviation
-            correctionAdd("dead reconing", "dead reckoning");
-
-            // Aviation
-            correctionAdd("ILS", "instrument landing system");
-
-            // Aviation
-            correctionAdd("dog running", "scud running"); // !!!!!
-
-            // Aviation
-            correctionAdd("scud-ran", "scud ran");
-
-            // Aviation
-            correctionAdd("baro", "barometric");
-
-            // Aviation
-            correctionAdd("MSA", "minimum safe altitude");
-
-            // Aviation
-            correctionAdd("DA", "density altitude");
-
-            // Aviation
-            //
-            // Alternative URLs:
-            //
-            //   <https://aviation.stackexchange.com/questions/21380/what-do-the-callouts-approaching-minimums-and-minimums-mean>
-            //   <https://www.youtube.com/watch?v=PCWmihJ7NSA&t=42m17s>
-            //
-            correctionAdd("approach mins", "approach minimums");
-            correctionAdd("minimums", "approach minimums");
-
-            // Aviation
-            correctionAdd("controlled flight into terrain", "CFIT");
-            correctionAdd("into terrain", "CFIT");
-
-            // Aviation
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/Delta_Air_Lines_Flight_191>
-            //     Delta Air Lines Flight 191
-            //
-            //   <https://www.youtube.com/watch?v=TIOQXdds2ZY>
-            //     By 'Mentour Pilot'. Delta Air Lines Flight 191
-            //
-            //   <https://www.youtube.com/watch?v=BH3TIS9YLaI>
-            //     Delta Air Lines Flight 191
-            //
-            correctionAdd("Micro Burst", "microburst");
-            correctionAdd("micro burst", "microburst");
-            correctionAdd("downburst", "microburst");
-
-            // Aviation
-            correctionAdd("round out", "landing flare");
-            correctionAdd("flair", "landing flare");
-            correctionAdd("flare", "landing flare");
-
-            // Aviation
-            correctionAdd("groundeffect", "ground effect");
-
-            // Aviation
-            correctionAdd("Landing", "landing");
-            correctionAdd("lading", "landing");
-
-            // Aviation
-            correctionAdd("Touchdown", "touchdown");
-
-            // Aviation
-            correctionAdd("tail strike", "tailstrike");
-
-            correctionAdd("jetlagged", "jet-lagged");
-            correctionAdd("jetlaged", "jet-lagged");
-
-            // Aviation, for example
-            correctionAdd("Aquaplanning", "aquaplaning");
-            correctionAdd("aquaplanning", "aquaplaning");
-            correctionAdd("hydroplaning", "aquaplaning");
-            correctionAdd("Aquaplaning", "aquaplaning");
-
-            correctionAdd("EFB", "electronic flight bag"); // Aviation
-
-            // Aviation
-            correctionAdd("EAA Annual Convention and Fly-In", "EAA AirVenture Oshkosh");
-            correctionAdd("Oshkosh", "EAA AirVenture Oshkosh");
-
-            // Aviation
-            correctionAdd("collins", "Collins");
-
-            // Related to aviation / aircraft
-            correctionAdd("transsonic", "transonic");
-
-            // Aviation
-            correctionAdd("VATSIM", "Virtual Air Traffic Simulation Network");
-
-            // Aviation
-            correctionAdd("pan call", "pan-pan call");
-            correctionAdd("Pan-pan", "pan-pan call");
-
-            correctionAdd("Mayday", "mayday"); // Aviation / ships
-
-            // Aviation?
-            correctionAdd("vortexes", "vortices");
-
-            // Aviation
-            correctionAdd("fethered", "feathered");
-            correctionAdd("fathered", "feathered");
-
-            // Aviation
-            correctionAdd("air-intake", "air intake");
-
-            // Aviation
-            correctionAdd("Fuel Gauge", "fuel gauge");
-            correctionAdd("Fuel Guage", "fuel gauge");
-            correctionAdd("fuel guage", "fuel gauge");
-
-            correctionAdd("airmolecule", "air molecule");
-
-            correctionAdd("missle", "missile");
-
-            correctionAdd("air to air missile", "air-to-air missile");
-
-            // Aviation
-            correctionAdd("IRAN", "inspect and repair as necessary");
-
-            // Aviation. A website.
-            correctionAdd("Flight Radar", "Flightradar24");
-
-            correctionAdd("Pilot", "pilot"); // Aviation
-            correctionAdd("polit", "pilot");
-
-            correctionAdd("PPL", "private pilot licence"); // Aviation
-
-            // Aviation
-            correctionAdd("check ride", "checkride");
-
-            // Aviation
-            correctionAdd("Hypoxic", "hypoxic");
-
-            // Aviation
-            correctionAdd("Time of Useful Consciousness", "time of useful consciousness");
-            correctionAdd("TUC", "time of useful consciousness");
-
-            correctionAdd("g lock", "g-force induced loss of consciousness");
-            correctionAdd("g-LOC", "g-force induced loss of consciousness");
-            correctionAdd("G-LOC", "g-force induced loss of consciousness");
-
-            // Aviation
-            correctionAdd("flights band", "flight ban");
-            correctionAdd("flight bans", "flight ban");
-            correctionAdd("flights ban", "flight ban");
-
-            // Aviation
-            correctionAdd("Air traffic control", "air traffic control");
-            correctionAdd("atc", "air traffic control");
-            correctionAdd("ATC", "air traffic control");
-
-            // Aviation
-            correctionAdd("air space", "airspace");
-
-            // Aviation
-            correctionAdd("IATA", "International Air Transport Association");
-
-            correctionAdd("ICAO", "International Civil Aviation Organization");
-
-            correctionAdd("faa", "FAA"); // Aviation
-
-            // Aviation
-            correctionAdd("EASA", "European Union Aviation Safety Agency");
-
-            // Aviation
-            correctionAdd("1977 Tenerife disaster", "Tenerife airport disaster");
-
-            // Aviation
-            correctionAdd("air field", "airfield");
-            correctionAdd("Airfied", "airfield");
-            correctionAdd("airfied", "airfield");
-
-            // Aviation
-            correctionAdd("RWY", "runway");
-            correctionAdd("Rwy", "runway");
-            correctionAdd("rwy", "runway");
-
-            // Aviation
-            correctionAdd("Runway Excursion", "runway excursion");
-
-            // Aviation
-            correctionAdd("Runway Incursion", "runway incursion");
-            correctionAdd("Incursion", "runway incursion");
-            correctionAdd("incursion", "runway incursion");
-
-            // Aviation
-            correctionAdd("air plane", "airplane");
-            correctionAdd("aeroplane", "airplane");
-            correctionAdd("aircraft", "airplane");
-            correctionAdd("plane", "airplane");
-            correctionAdd("plan", "airplane");
-
-            // Aviation
-            correctionAdd("air planes", "airplanes");
-            correctionAdd("Airplanes", "airplanes");
-
-            correctionAdd("aviation spirit", "aviation gasoline");
-            correctionAdd("aviation gas", "aviation gasoline");
-            correctionAdd("Avgas", "aviation gasoline");
-            correctionAdd("avgas", "aviation gasoline");
-
-            correctionAdd("Jet-A", "Jet A");
-            correctionAdd("jet a", "Jet A");
-            correctionAdd("jet-a", "Jet A");
-
-            // Aviation
-            correctionAdd("Business Jet", "business jet");
-            correctionAdd("Business jet", "business jet");
-
-            correctionAdd("ram jet", "ramjet");
-
-            // Aviation
-            correctionAdd("single engine", "single-engine");
-
-            // Aviation
-            correctionAdd("air-frame", "airframe");
-
-            // Aviation
-            correctionAdd("jack screw", "jackscrew");
-
-            // Aviation
-            correctionAdd("'copter", "helicopter");
-            correctionAdd("copter", "helicopter");
-            correctionAdd("helo", "helicopter");
-            correctionAdd("heli", "helicopter");
-            correctionAdd("Heli", "helicopter");
-            correctionAdd("Helo", "helicopter");
-
-            correctionAdd("'copters", "helicopters");
-            correctionAdd("copters", "helicopters");
-            correctionAdd("helis", "helicopters");
-
-            // Aviation
-            correctionAdd("fixed wing airplane", "fixed-wing aircraft");
-            correctionAdd("Fixed Wing Airplane", "fixed-wing aircraft");
-
-            // Aviation
-            correctionAdd("pilot cabin", "flight deck");
-            correctionAdd("pilot-cabin", "flight deck");
-            correctionAdd("flightdeck", "flight deck");
-            correctionAdd("flighdeck", "flight deck");
-
-            // Aviation. A synonym of flight deck. Merge?
-            correctionAdd("cock pit", "cockpit");
-            correctionAdd("Cockpit", "cockpit");
-
-            // Aviation
-            correctionAdd("pfd", "primary flight display");
-            correctionAdd("PFD", "primary flight display");
-
-            // Aviation
-            correctionAdd("FMS", "flight management system");
-
-            // For example, aviation
-            correctionAdd("elt", "ELT");
-            correctionAdd("Elt", "ELT");
-
-            // For example, aviation
-            correctionAdd("beakon", "beacon");
-
-            // For example, aviation
-            correctionAdd("locator beakon", "emergency locator beacon");
-            correctionAdd("locator beacon", "emergency locator beacon");
-
-            // For example, aviation
-            correctionAdd("dBrief", "debrief");
-            correctionAdd("dbrief", "debrief");
-
-            // Aviation
-            correctionAdd("GNSS", "global navigation satellite system");
-
-            // Aviation
-            correctionAdd("SBAS", "satellite-based augmentation systems");
-
-            // An aircraft
-            correctionAdd("PA-28", "Piper PA-28 Cherokee");
-            correctionAdd("PA28", "Piper PA-28 Cherokee");
-
-            // An aircraft
-            correctionAdd("PA44", "Piper PA-44 Seminole");
-
-            // A type of aircraft
-            correctionAdd("airbus", "Airbus");
-            correctionAdd("AIRBUS", "Airbus");
-
-            // An aircraft
-            correctionAdd("A-220", "Airbus A220");
-            correctionAdd("A220", "Airbus A220");
-
-            // An aircraft
-            correctionAdd("a321 NEO", "Airbus A321neo");
-            correctionAdd("A-321", "Airbus A321neo");
-            correctionAdd("A321", "Airbus A321neo");
-
-            // An aircraft
-            correctionAdd("a310-300", "A310-300");
-
-            // An aircraft
-            correctionAdd("Airbus 319", "Airbus A319");
-            correctionAdd("A-319", "Airbus A319");
-            correctionAdd("A319", "Airbus A319");
-
-            // An aircraft
-            correctionAdd("Airbus a320", "Airbus A320");
-            correctionAdd("Airbus 320", "Airbus A320");
-            correctionAdd("A-320", "Airbus A320");
-            correctionAdd("A320", "Airbus A320");
-            correctionAdd("a320", "Airbus A320");
-
-            // A series of aircraft
-            correctionAdd("A320 neo", "A320neo");
-
-            // An aircraft
-            correctionAdd("Airbus 330", "Airbus A330");
-            correctionAdd("A-330", "Airbus A330");
-            correctionAdd("A330", "Airbus A330");
-
-            // An aircraft
-            correctionAdd("Airbus 350", "Airbus A350");
-            correctionAdd("A-350", "Airbus A350");
-            correctionAdd("A350", "Airbus A350");
-
-            // Aviation
-            correctionAdd("A-380", "Airbus A380");
-            correctionAdd("A380", "Airbus A380");
-            correctionAdd("a380", "Airbus A380");
-
-            // Note the "e" after "o". It isn't "Boing"...
-            correctionAdd("boeing", "Boeing");
-            correctionAdd("BOEING", "Boeing");
-            correctionAdd("Boing", "Boeing");
-            correctionAdd("boing", "Boeing");
-
-            correctionAdd("Boeing Max", "Boeing 737 MAX");
-            correctionAdd("Boing Max", "Boeing 737 MAX");
-            correctionAdd("boing max", "Boeing 737 MAX");
-            correctionAdd("737 Maxx", "Boeing 737 MAX");
-            correctionAdd("737 MAX", "Boeing 737 MAX");
-            correctionAdd("737 Max", "Boeing 737 MAX");
-            correctionAdd("737-MAX", "Boeing 737 MAX");
-            correctionAdd("737 max", "Boeing 737 MAX");
-            correctionAdd("737Max", "Boeing 737 MAX");
-            correctionAdd("7MAX", "Boeing 737 MAX");
-
-            // Aviation. Boeing 737 MAX
-            correctionAdd("mcas", "MCAS");
-
-            // An aircraft
-            correctionAdd("B747", "Boeing 747");
-            correctionAdd("747", "Boeing 747");
-
-            correctionAdd("747-8I", "Boeing 747-8I");
-            correctionAdd("747-8i", "Boeing 747-8I");
-
-            // An aircraft
-            correctionAdd("777", "Boeing 777");
-
-            // An aircraft
-            correctionAdd("Boing 787 Dreamliner", "Boeing 787");
-            correctionAdd("Dreamliner", "Boeing 787");
-            correctionAdd("B787", "Boeing 787");
-            correctionAdd("787", "Boeing 787");
-
-            // An aircraft
-            correctionAdd("Boing 737", "Boeing 737");
-            correctionAdd("B 737", "Boeing 737");
-            correctionAdd("B737", "Boeing 737"); // The correct shorthand (not "B-737")
-            correctionAdd("737", "Boeing 737");
-
-            // An aircraft
-            correctionAdd("embraer 190", "Embraer 190");
-
-            // An aircraft
-            correctionAdd("DC-8", "Douglas DC-8");
-
-            // An aircraft
-            correctionAdd("SR-71", "Lockheed SR-71 Blackbird");
-
-            // An aircraft
-            correctionAdd("Lockheed L-1049", "Lockheed L-1049 Super Constellation");
-
-            // An aircraft (military)
-            correctionAdd("XB-70", "North American XB-70 Valkyrie");
-
-            // An aircraft (military)
-            correctionAdd("mig 21", "MiG-21");
-            correctionAdd("mig21", "MiG-21");
-
-            // An aircraft (military)
-            correctionAdd("f-15", "F-15");
-            correctionAdd("f15", "F-15");
-            correctionAdd("F15", "F-15");
-
-            // An aircraft (military)
-            correctionAdd("f-16", "F-16");
-            correctionAdd("F 16", "F-16");
-            correctionAdd("f 16", "F-16");
-            correctionAdd("f16", "F-16");
-            correctionAdd("F16", "F-16");
-            correctionAdd("Fq6", "F-16"); // A true typo
-
-            // An aircraft (military)
-            correctionAdd("F-18", "F/A-18");
-            correctionAdd("F18", "F/A-18");
-
-            // An aircraft (military)
-            correctionAdd("F-22", "F-22 Raptor");
-            correctionAdd("F22", "F-22 Raptor");
-
-            // An aircraft (military)
-            // As in the thunder thing, not light (lighting)
-            correctionAdd("Joint Strike Fighter", "F-35");
-            correctionAdd("joint strike fighter", "F-35");
-            correctionAdd("JOINT STRIKE FIGHTER", "F-35");
-            correctionAdd("F 30 five", "F-35"); // A simulated intelligence transcription error (YouTube)
-            correctionAdd("f-35", "F-35");
-            correctionAdd("JSF", "F-35");
-            correctionAdd("F35", "F-35");
-            correctionAdd("f35", "F-35");
-
-            // An aircraft (military)
-            correctionAdd("typhoon", "Eurofighter Typhoon");
-
-            // An aircraft
-            correctionAdd("C-47", "Douglas C-47 Skytrain");
-
-            // A transport aircraft (not a Cessna... For example,
-            // not to be confused with the Cessna C-310).
-            //
-            // Lockheed C-130 Hercules
-            correctionAdd("C130", "C-130");
-
-            // Aviation
-            correctionAdd("cessna", "Cessna");
-
-            // An aircraft
-            correctionAdd("cessna 172", "Cessna 172");
-            correctionAdd("C-172", "Cessna 172");
-            correctionAdd("C172", "Cessna 172");
-
-            // An aircraft
-            correctionAdd("Cessna 180", "Cessna 180 Skywagon");
-
-            // An aircraft
-            correctionAdd("Cessna 206 Turbo", "Cessna 206");
-            correctionAdd("206 Turbo", "Cessna 206");
-
-            // An aircraft
-            correctionAdd("Cessna Citation", "Cessna Citation II");
-            correctionAdd("citation", "Cessna Citation II");
-            correctionAdd("Citation", "Cessna Citation II");
-
-            // An aircraft
-            //
-            // Has a problem with door distraction crashes. See e.g.:
-            //
-            //   <https://www.youtube.com/watch?v=S6xr2P4YOLE>
-            //
-            correctionAdd("Bonanza", "Beechcraft Bonanza");
-            correctionAdd("Bona za", "Beechcraft Bonanza"); // A typo involving the space bar
-
-            // An aircraft
-            correctionAdd("king air", "Beechcraft King Air");
-            correctionAdd("KINGAIR", "Beechcraft King Air");
-
-            // An aircraft
-            //
-            // Note: "Super" was dropped by Beechcraft in 1996
-            //
-            correctionAdd("BEECHCRAFT KING AIR 200", "Beechcraft Super King Air 200");
-            correctionAdd("Beechcraft King Air 200", "Beechcraft Super King Air 200");
-            correctionAdd("KING AIR 200", "Beechcraft Super King Air 200");
-
-            // An aircraft
-            correctionAdd("PZL Koliber 150", "PZL-110 Koliber 150");
-
-            // An aircraft
-            correctionAdd("C42", "Ikarus C42");
-
-            // An aircraft
-            correctionAdd("Flying Pancake", "Vought V-173 'Flying Pancake'");
-
-            // Aviation / space
-            correctionAdd("Vomit Comet", "vomit comet");
-
-            correctionAdd("charles de guelle airport", "Charles de Gaulle Airport");
-
-            correctionAdd("LAX", "Los Angeles International Airport");
-
-            correctionAdd("SYD", "Sydney Airport");
-
-            correctionAdd("Tom Bradley", "Tom Bradley International Terminal");
-            correctionAdd("TBIT", "Tom Bradley International Terminal");
-
-            correctionAdd("KDCA", "Ronald Reagan Washington National Airport");
-            correctionAdd("DCA", "Ronald Reagan Washington National Airport");
-
-            correctionAdd("JFK", "John F. Kennedy International Airport");
-
-            correctionAdd("EWR", "Newark Liberty International Airport");
-
-            correctionAdd("ORD", "O'Hare International Airport");
-
-            correctionAdd("Logan International Airport", "Boston Logan International Airport");
-            correctionAdd("KBOS", "Boston Logan International Airport");
-            correctionAdd("BOS", "Boston Logan International Airport");
-
-            correctionAdd("AUH", "Abu Dhabi International Airport");
-
-            correctionAdd("LHR", "Heathrow Airport");
-
-            correctionAdd("Airliner", "airliner"); // Aviation
-
-            //A duplicate of "airliner"
-            correctionAdd("Airline", "airline");
-
-            // An airliner. Aviation
-            correctionAdd("Air Lingus", "Aer Lingus");
-
-            // An airliner. Aviation
-            correctionAdd("lufthansa", "Lufthansa");
-
-            // An airliner. Aviation
-            correctionAdd("eurowings", "Eurowings");
-
-            // An airliner. Aviation
-            correctionAdd("british airways", "British Airways");
-            correctionAdd("BA", "British Airways");
-
-            correctionAdd("Air Portugal", "TAP Air Portugal");
-
-            // An airliner. Aviation
-            correctionAdd("el-al", "El Al");
-
-            // An airliner. Aviation
-            correctionAdd("Middle East airlines", "Middle East Airlines");
-
-            // An airliner (of United Arab Emirates (UAE)). Aviation
-            correctionAdd("Etihad", "Etihad Airways");
-            correctionAdd("EY", "Etihad Airways");
-
-            // An airliner (of United Arab Emirates (UAE)). Aviation
-            correctionAdd("emirates", "Emirates");
-
-            correctionAdd("qatar airways", "Qatar Airways");
-
-            // An airliner. Aviation
-            correctionAdd("air canada", "Air Canada");
-
-            // An airliner. Aviation
-            correctionAdd("virgin atlantic", "Virgin Atlantic");
-
-            // An airliner. Aviation
-            correctionAdd("QANTAS", "Qantas");
-
-            // Aviation / space
-            correctionAdd("Virgin galactic", "Virgin Galactic");
 
             correctionAdd("resqueing", "rescuing");
 
@@ -65722,6 +65735,7 @@ namespace OverflowHelper.core
             correctionAdd("mechanical keeb", "mechanical keyboard");
             correctionAdd("mech keyboard", "mechanical keyboard");
             correctionAdd("mech board", "mechanical keyboard");
+            correctionAdd("mechanical", "mechanical keyboard");
             correctionAdd("mech keyb", "mechanical keyboard"); // A shortcut (for expansion)
             correctionAdd("mech keeb", "mechanical keyboard");
             correctionAdd("mechboard", "mechanical keyboard");
@@ -68015,6 +68029,8 @@ namespace OverflowHelper.core
             correctionAdd("mechanical hybrid", "memchanical");
             correctionAdd("mecha membrane", "memchanical");
             correctionAdd("mecha-membrane", "memchanical");
+            correctionAdd("Mecha-Membrane", "memchanical");
+            correctionAdd("mechamembrane", "memchanical");
             correctionAdd("Mem-chanical", "memchanical");
             correctionAdd("mem-chanical", "memchanical");
 
@@ -70797,6 +70813,8 @@ namespace OverflowHelper.core
             //       <https://cdn-shop.adafruit.com/product-files/4974/EN_CHERRY_MX_BLUE.pdf>
             //         "Bounce time: < 5 ms (during actuation with 0,4 m/s)"
             //
+            correctionAdd("cherry mx switches", "Cherry MX switches");
+            correctionAdd("cherry mx switch", "Cherry MX switches");
             correctionAdd("Cherry MX switch", "Cherry MX switches");
             correctionAdd("MX switches", "Cherry MX switches");
             correctionAdd("Chrerry MX", "Cherry MX switches");
@@ -81024,12 +81042,6 @@ namespace OverflowHelper.core
             correctionAdd("Op", "OP");
             correctionAdd("PO", "OP");
 
-            correctionAdd("Impersonate", "impersonate");
-
-            correctionAdd("impersonnation", "impersonation");
-            correctionAdd("inpersonation", "impersonation");
-            correctionAdd("imporsonation", "impersonation");
-
             correctionAdd("fetisist", "feticist");
 
             correctionAdd("twart", "thwart");
@@ -83985,9 +83997,6 @@ namespace OverflowHelper.core
             correctionAdd("humerous", "humorous");
 
             correctionAdd("hugemongous", "humongous");
-
-            correctionAdd("heling", "healing");
-            correctionAdd("heeling", "healing");
 
             correctionAdd("armony", "harmony");
 
@@ -89454,10 +89463,9 @@ namespace OverflowHelper.core
             // ZMK/Via-capable mechanical keyboard
             // from Keychron without a knob.
             //
-            correctionAdd("Keychron K2 Ultra 8K (80%)", "Keychron&nbsp;K2&nbsp;Ultra&nbsp;8K (80%)"); // Sort of identity mapping
-            correctionAdd("Keychron K2 Ultra 8K", "Keychron&nbsp;K2&nbsp;Ultra&nbsp;8K (80%)");
-            correctionAdd("K2 Ultra 8K", "Keychron&nbsp;K2&nbsp;Ultra&nbsp;8K (80%)");
-            correctionAdd("K2 Ultra", "Keychron&nbsp;K2&nbsp;Ultra&nbsp;8K (80%)");
+            correctionAdd("Keychron K2 Ultra 8K", "Keychron K2 Ultra 8K (80%)");
+            correctionAdd("K2 Ultra 8K", "Keychron K2 Ultra 8K (80%)");
+            correctionAdd("K2 Ultra", "Keychron K2 Ultra 8K (80%)");
 
             // A 85-key (80%. Not true TKL) crippled wired and
             // wireless (both Bluetooth and '2.4 GHz')
@@ -92128,21 +92136,20 @@ namespace OverflowHelper.core
             //
             //     Tag: Loose. USB. Keychron. Connector.
             //
-            correctionAdd("keychain v5 max", "Keychron&nbsp;V5&nbsp;Max");
-            correctionAdd("Keychron v5 max", "Keychron&nbsp;V5&nbsp;Max");
-            correctionAdd("Keychron V5 Max", "Keychron&nbsp;V5&nbsp;Max"); // Sort of identity mapping
-            correctionAdd("V5&nbsp;Max", "Keychron&nbsp;V5&nbsp;Max");
-            correctionAdd("v5 max", "Keychron&nbsp;V5&nbsp;Max");
-            correctionAdd("V5 Max", "Keychron&nbsp;V5&nbsp;Max");
-            correctionAdd("V5 MAX", "Keychron&nbsp;V5&nbsp;Max");
-            correctionAdd("V5 max", "Keychron&nbsp;V5&nbsp;Max");
-            correctionAdd("v5 Max", "Keychron&nbsp;V5&nbsp;Max");
-            correctionAdd("VMAX 5", "Keychron&nbsp;V5&nbsp;Max");
-            correctionAdd("V5max", "Keychron&nbsp;V5&nbsp;Max");
-            correctionAdd("v5max", "Keychron&nbsp;V5&nbsp;Max");
-            correctionAdd("v5maz", "Keychron&nbsp;V5&nbsp;Max");
-            correctionAdd("V5Max", "Keychron&nbsp;V5&nbsp;Max");
-            correctionAdd("V5M", "Keychron&nbsp;V5&nbsp;Max");
+            correctionAdd("keychain v5 max", "Keychron V5 Max");
+            correctionAdd("Keychron v5 max", "Keychron V5 Max");
+            correctionAdd("V5&nbsp;Max", "Keychron V5 Max");
+            correctionAdd("v5 max", "Keychron V5 Max");
+            correctionAdd("V5 Max", "Keychron V5 Max");
+            correctionAdd("V5 MAX", "Keychron V5 Max");
+            correctionAdd("V5 max", "Keychron V5 Max");
+            correctionAdd("v5 Max", "Keychron V5 Max");
+            correctionAdd("VMAX 5", "Keychron V5 Max");
+            correctionAdd("V5max", "Keychron V5 Max");
+            correctionAdd("v5max", "Keychron V5 Max");
+            correctionAdd("v5maz", "Keychron V5 Max");
+            correctionAdd("V5Max", "Keychron V5 Max");
+            correctionAdd("V5M", "Keychron V5 Max");
 
             // A 98-key (95%. Not true TKL) crippled (wrt. missing
             // PgUp and PgDn, etc.) wired and wireless (both
@@ -93522,27 +93529,25 @@ namespace OverflowHelper.core
             //   <https://github.com/Keychron/qmk_firmware/tree/hall_effect_playground/keyboards/keychron/k10_he>
             //     Note: In a new Git branch, "hall_effect_playground"
             //
-            correctionAdd("keychron k10 he", "Keychron&nbsp;K10&nbsp;HE");
-            correctionAdd("Keychron K10 he", "Keychron&nbsp;K10&nbsp;HE");
-            correctionAdd("Keychron k10 he", "Keychron&nbsp;K10&nbsp;HE");
-            correctionAdd("Keychron K10 HE", "Keychron&nbsp;K10&nbsp;HE"); // Sort of identity mapping
-            correctionAdd("Keychron K10HE", "Keychron&nbsp;K10&nbsp;HE");
-            correctionAdd("keychron k10he", "Keychron&nbsp;K10&nbsp;HE");
-            correctionAdd("K10&nbsp;HE", "Keychron&nbsp;K10&nbsp;HE");
-            correctionAdd("K10 HE se", "Keychron&nbsp;K10&nbsp;HE");
-            correctionAdd("K10 HE SE", "Keychron&nbsp;K10&nbsp;HE");
-            correctionAdd("HE K10", "Keychron&nbsp;K10&nbsp;HE");
-            correctionAdd("He K10", "Keychron&nbsp;K10&nbsp;HE");
-            correctionAdd("K10-HE", "Keychron&nbsp;K10&nbsp;HE");
-            correctionAdd("k10 he", "Keychron&nbsp;K10&nbsp;HE");
-            correctionAdd("k10 HE", "Keychron&nbsp;K10&nbsp;HE");
-            correctionAdd("K10 HE", "Keychron&nbsp;K10&nbsp;HE");
-            correctionAdd("H10 HE", "Keychron&nbsp;K10&nbsp;HE");
-            correctionAdd("k10he", "Keychron&nbsp;K10&nbsp;HE");
-            correctionAdd("K10HE", "Keychron&nbsp;K10&nbsp;HE");
-            correctionAdd("K10JE", "Keychron&nbsp;K10&nbsp;HE");
-            correctionAdd("k10HE", "Keychron&nbsp;K10&nbsp;HE");
-            correctionAdd("10E", "Keychron&nbsp;K10&nbsp;HE");
+            correctionAdd("keychron k10 he", "Keychron K10 HE");
+            correctionAdd("Keychron K10 he", "Keychron K10 HE");
+            correctionAdd("Keychron k10 he", "Keychron K10 HE");
+            correctionAdd("Keychron K10HE", "Keychron K10 HE");
+            correctionAdd("keychron k10he", "Keychron K10 HE");
+            correctionAdd("K10 HE se", "Keychron K10 HE");
+            correctionAdd("K10 HE SE", "Keychron K10 HE");
+            correctionAdd("HE K10", "Keychron K10 HE");
+            correctionAdd("He K10", "Keychron K10 HE");
+            correctionAdd("K10-HE", "Keychron K10 HE");
+            correctionAdd("k10 he", "Keychron K10 HE");
+            correctionAdd("k10 HE", "Keychron K10 HE");
+            correctionAdd("K10 HE", "Keychron K10 HE");
+            correctionAdd("H10 HE", "Keychron K10 HE");
+            correctionAdd("k10he", "Keychron K10 HE");
+            correctionAdd("K10HE", "Keychron K10 HE");
+            correctionAdd("K10JE", "Keychron K10 HE");
+            correctionAdd("k10HE", "Keychron K10 HE");
+            correctionAdd("10E", "Keychron K10 HE");
 
             // A 105-key (100%. Not true TKL) full-size
             // wired-only QMK/Via-capable mechanical
@@ -95136,27 +95141,26 @@ namespace OverflowHelper.core
             //     older versios. And some custom firmware:
             //       "Disable light when Num Lock or Caps Lock is activated"
             //
-            correctionAdd("Keychron V6 Max", "Keychron&nbsp;V6&nbsp;Max"); // Sort of identity mapping
-            correctionAdd("Keychron V6 MAX", "Keychron&nbsp;V6&nbsp;Max");
-            correctionAdd("Keychain V6 Max", "Keychron&nbsp;V6&nbsp;Max");
-            correctionAdd("keychron v6 max", "Keychron&nbsp;V6&nbsp;Max");
-            correctionAdd("keychron V6 Max", "Keychron&nbsp;V6&nbsp;Max");
-            correctionAdd("KEYCHRON V6 MAX", "Keychron&nbsp;V6&nbsp;Max");
-            correctionAdd("V Max series", "Keychron&nbsp;V6&nbsp;Max"); // For the cross-reference
-            correctionAdd("V6&nbsp;Max", "Keychron&nbsp;V6&nbsp;Max");
-            correctionAdd("V 6 max", "Keychron&nbsp;V6&nbsp;Max");
-            correctionAdd("V6 Max", "Keychron&nbsp;V6&nbsp;Max");
-            correctionAdd("v6 max", "Keychron&nbsp;V6&nbsp;Max");
-            correctionAdd("V6 max", "Keychron&nbsp;V6&nbsp;Max");
-            correctionAdd("V6 MAX", "Keychron&nbsp;V6&nbsp;Max");
-            correctionAdd("v6 Max", "Keychron&nbsp;V6&nbsp;Max");
-            correctionAdd("v6_max", "Keychron&nbsp;V6&nbsp;Max");
-            correctionAdd("V6MAX", "Keychron&nbsp;V6&nbsp;Max");
-            correctionAdd("v6max", "Keychron&nbsp;V6&nbsp;Max");
-            correctionAdd("V6max", "Keychron&nbsp;V6&nbsp;Max");
-            correctionAdd("V6Max", "Keychron&nbsp;V6&nbsp;Max");
-            correctionAdd("V6M", "Keychron&nbsp;V6&nbsp;Max");
-            correctionAdd("v6m", "Keychron&nbsp;V6&nbsp;Max");
+            correctionAdd("Keychron V6 MAX", "Keychron V6 Max");
+            correctionAdd("Keychain V6 Max", "Keychron V6 Max");
+            correctionAdd("keychron v6 max", "Keychron V6 Max");
+            correctionAdd("keychron V6 Max", "Keychron V6 Max");
+            correctionAdd("KEYCHRON V6 MAX", "Keychron V6 Max");
+            correctionAdd("V Max series", "Keychron V6 Max"); // For the cross-reference
+            correctionAdd("V6&nbsp;Max", "Keychron V6 Max");
+            correctionAdd("V 6 max", "Keychron V6 Max");
+            correctionAdd("V6 Max", "Keychron V6 Max");
+            correctionAdd("v6 max", "Keychron V6 Max");
+            correctionAdd("V6 max", "Keychron V6 Max");
+            correctionAdd("V6 MAX", "Keychron V6 Max");
+            correctionAdd("v6 Max", "Keychron V6 Max");
+            correctionAdd("v6_max", "Keychron V6 Max");
+            correctionAdd("V6MAX", "Keychron V6 Max");
+            correctionAdd("v6max", "Keychron V6 Max");
+            correctionAdd("V6max", "Keychron V6 Max");
+            correctionAdd("V6Max", "Keychron V6 Max");
+            correctionAdd("V6M", "Keychron V6 Max");
+            correctionAdd("v6m", "Keychron V6 Max");
 
             // A 109-key (105%. Not true TKL) full-size wired
             // and wireless (both Bluetooth and '2.4 GHz')
@@ -95262,32 +95266,29 @@ namespace OverflowHelper.core
             //   <https://github.com/Keychron/zmk/blob/rtl8762g/app/boards/shields/keychron/keychron_v6_ultra_ansi.conf>
             //     keychron_v6_ultra_ansi.conf
             //
-            correctionAdd("V6&nbsp;Ultra&nbsp;8K", "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K");
-            correctionAdd("Keychron V6 Ultra 8K", "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K"); // Sort of identity mapping
-            correctionAdd("Keychron V6 Ultra", "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K");
-            correctionAdd("V6 Ultra 8K", "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K");
-            correctionAdd("V6 Ultra 8k", "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K");
-            correctionAdd("V6 8K Ultra", "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K"); // Not valid
-            correctionAdd("V6_Ultra_8K", "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K");
-            correctionAdd("v6 ultra 8k", "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K");
-            correctionAdd("v6_ultra_8k", "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K");
-            correctionAdd("V6 ultra 8k", "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K");
-            correctionAdd("v6_ultra", "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K");
-            correctionAdd("V6 Ultra", "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K");
-            correctionAdd("V6 ultra", "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K");
-            correctionAdd("v6 ultra", "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K");
-            correctionAdd("Ultras", "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K");
-            correctionAdd("Ultra", "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K");
-            correctionAdd("ultra", "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K");
+            correctionAdd("Keychron V6 Ultra", "Keychron V6 Ultra 8K");
+            correctionAdd("V6 Ultra 8K", "Keychron V6 Ultra 8K");
+            correctionAdd("V6 Ultra 8k", "Keychron V6 Ultra 8K");
+            correctionAdd("V6 8K Ultra", "Keychron V6 Ultra 8K"); // Not valid
+            correctionAdd("V6_Ultra_8K", "Keychron V6 Ultra 8K");
+            correctionAdd("v6 ultra 8k", "Keychron V6 Ultra 8K");
+            correctionAdd("v6_ultra_8k", "Keychron V6 Ultra 8K");
+            correctionAdd("V6 ultra 8k", "Keychron V6 Ultra 8K");
+            correctionAdd("v6_ultra", "Keychron V6 Ultra 8K");
+            correctionAdd("V6 Ultra", "Keychron V6 Ultra 8K");
+            correctionAdd("V6 ultra", "Keychron V6 Ultra 8K");
+            correctionAdd("v6 ultra", "Keychron V6 Ultra 8K");
+            correctionAdd("Ultras", "Keychron V6 Ultra 8K");
+            correctionAdd("Ultra", "Keychron V6 Ultra 8K");
+            correctionAdd("ultra", "Keychron V6 Ultra 8K");
 
             // A 109-key (105%. Not true TKL) full-size wired-only
             // QMK/Via-capable mechanical keyboard from Keychron
             // with a knob.
             //
-            correctionAdd("Keychron&nbsp;V6&nbsp;8K", "Keychron&nbsp;V6&nbsp;8K (105%)");
-            correctionAdd("Keychron V6 8K (105%)", "Keychron&nbsp;V6&nbsp;8K (105%)"); // Sort of identity mapping
-            correctionAdd("Keychron V6 8K", "Keychron&nbsp;V6&nbsp;8K (105%)");
-            correctionAdd("V6 8K", "Keychron&nbsp;V6&nbsp;8K (105%)");
+            correctionAdd("Keychron&nbsp;V6&nbsp;8K", "Keychron V6 8K (105%)");
+            correctionAdd("Keychron V6 8K", "Keychron V6 8K (105%)");
+            correctionAdd("V6 8K", "Keychron V6 8K (105%)");
 
             // A 109-key (105%. Not true TKL) full-size low-profile
             // wired and wireless (only Bluetooth) QMK/Via-capable
@@ -95399,20 +95400,16 @@ namespace OverflowHelper.core
             //   <https://www.keychron.com/blogs/archived/how-to-disassemble-the-k5-pro>
             //     How to disassemble the K5 Pro
             //
-            correctionAdd("Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)");
-            correctionAdd("Keychron K5 Pro ISO (105%)", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)"); // Sort of identity mapping
-            correctionAdd("Keychron&nbsp;K5&nbsp;Pro", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)");
-            correctionAdd("Keychron K5 Pro ISO", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)"); // Sort of identity mapping
-            correctionAdd("Keychron K5 Pro", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)");
-            correctionAdd("K5&nbsp;Pro", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)");
-            correctionAdd("K5 Pro ISO", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)");
-            correctionAdd("K5 Pro", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)");
-            correctionAdd("k5 pro", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)");
-            correctionAdd("K5 pro", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)");
-            correctionAdd("K5 Pro", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others). For example, as a result of conversion of &nbsp; at Reddit.
-            correctionAdd("5pro", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)");
-            correctionAdd("K5", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)");
-            correctionAdd("k5", "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)");
+            correctionAdd("Keychron K5 Pro ISO", "Keychron K5 Pro ISO (105%)"); // Sort of identity mapping
+            correctionAdd("Keychron K5 Pro", "Keychron K5 Pro ISO (105%)");
+            correctionAdd("K5 Pro ISO", "Keychron K5 Pro ISO (105%)");
+            correctionAdd("K5 Pro", "Keychron K5 Pro ISO (105%)");
+            correctionAdd("k5 pro", "Keychron K5 Pro ISO (105%)");
+            correctionAdd("K5 pro", "Keychron K5 Pro ISO (105%)");
+            correctionAdd("K5 Pro", "Keychron K5 Pro ISO (105%)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others). For example, as a result of conversion of &nbsp; at Reddit.
+            correctionAdd("5pro", "Keychron K5 Pro ISO (105%)");
+            correctionAdd("K5", "Keychron K5 Pro ISO (105%)");
+            correctionAdd("k5", "Keychron K5 Pro ISO (105%)");
 
             // A 109-key (105%. Not true TKL) full-size low-profile
             // wired and wireless (both Bluetooth and '2.4 GHz')
@@ -95485,18 +95482,16 @@ namespace OverflowHelper.core
             //     Bluetooth: 10 ms
             //     '2.4 GHz':  4 ms
             //
-            correctionAdd("KeyChron K5 Max", "Keychron&nbsp;K5&nbsp;Max");
-            correctionAdd("KeyChron K5 max", "Keychron&nbsp;K5&nbsp;Max");
-            correctionAdd("Keychain K5 Max", "Keychron&nbsp;K5&nbsp;Max");
-            correctionAdd("Keychron K5 Max", "Keychron&nbsp;K5&nbsp;Max"); // Sort of identity mapping
-            correctionAdd("K5&nbsp;Max", "Keychron&nbsp;K5&nbsp;Max");
-            correctionAdd("K5 Mas", "Keychron&nbsp;K5&nbsp;Max");
-            correctionAdd("K5 MAX", "Keychron&nbsp;K5&nbsp;Max");
-            correctionAdd("k5 max", "Keychron&nbsp;K5&nbsp;Max");
-            correctionAdd("K5 max", "Keychron&nbsp;K5&nbsp;Max");
-            correctionAdd("K5 Max", "Keychron&nbsp;K5&nbsp;Max");
-            correctionAdd("k5 Max", "Keychron&nbsp;K5&nbsp;Max");
-            correctionAdd("K5-Max", "Keychron&nbsp;K5&nbsp;Max");
+            correctionAdd("KeyChron K5 Max", "Keychron K5 Max");
+            correctionAdd("KeyChron K5 max", "Keychron K5 Max");
+            correctionAdd("Keychain K5 Max", "Keychron K5 Max");
+            correctionAdd("K5 Mas", "Keychron K5 Max");
+            correctionAdd("K5 MAX", "Keychron K5 Max");
+            correctionAdd("k5 max", "Keychron K5 Max");
+            correctionAdd("K5 max", "Keychron K5 Max");
+            correctionAdd("K5 Max", "Keychron K5 Max");
+            correctionAdd("k5 Max", "Keychron K5 Max");
+            correctionAdd("K5-Max", "Keychron K5 Max");
 
             // A 109-key (105%. Not true TKL) full-size low-profile
             // wired-only ZMK/Via-capable mechanical keyboard
@@ -95784,16 +95779,15 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k10_max>
             //
-            correctionAdd("Keychron K10 Max", "Keychron&nbsp;K10&nbsp;Max"); // Sort of identity mapping
-            correctionAdd("Kechron K10 Max", "Keychron&nbsp;K10&nbsp;Max");
-            correctionAdd("K Max series", "Keychron&nbsp;K10&nbsp;Max"); // For the cross-reference
-            correctionAdd("K10&nbsp;Max", "Keychron&nbsp;K10&nbsp;Max");
-            correctionAdd("K10max", "Keychron&nbsp;K10&nbsp;Max");
-            correctionAdd("K10 MAX", "Keychron&nbsp;K10&nbsp;Max");
-            correctionAdd("K10 max", "Keychron&nbsp;K10&nbsp;Max");
-            correctionAdd("k10 Max", "Keychron&nbsp;K10&nbsp;Max");
-            correctionAdd("k10 max", "Keychron&nbsp;K10&nbsp;Max");
-            correctionAdd("K10 Max", "Keychron&nbsp;K10&nbsp;Max");
+            correctionAdd("Kechron K10 Max", "Keychron K10 Max");
+            correctionAdd("K Max series", "Keychron K10 Max"); // For the cross-reference
+            correctionAdd("K10&nbsp;Max", "Keychron K10 Max");
+            correctionAdd("K10 MAX", "Keychron K10 Max");
+            correctionAdd("K10 max", "Keychron K10 Max");
+            correctionAdd("k10 Max", "Keychron K10 Max");
+            correctionAdd("k10 max", "Keychron K10 Max");
+            correctionAdd("K10 Max", "Keychron K10 Max");
+            correctionAdd("K10max", "Keychron K10 Max");
 
             // A 109-key (105%. Not true TKL) full-size wired
             // and wireless (both Bluetooth and '2.4 GHz')
@@ -96013,21 +96007,20 @@ namespace OverflowHelper.core
             //     E.g., "Fn + - (Windows mode): Bootloader" (but it fails
             //     to document it must be held down for 5 seconds)
             //
-            correctionAdd("Keychron b6 pro", "Keychron&nbsp;B6&nbsp;Pro");
-            correctionAdd("Keychron B6 Pro", "Keychron&nbsp;B6&nbsp;Pro"); // Sort of identity mapping
-            correctionAdd("B Pro series", "Keychron&nbsp;B6&nbsp;Pro"); // Not 100% correct, but a representative of that Keychron keyboard series
-            correctionAdd("keychron B6", "Keychron&nbsp;B6&nbsp;Pro");
-            correctionAdd("B6&nbsp;Pro", "Keychron&nbsp;B6&nbsp;Pro");
-            correctionAdd("B6 Pro ISO", "Keychron&nbsp;B6&nbsp;Pro");
-            correctionAdd("B6 Pro", "Keychron&nbsp;B6&nbsp;Pro");
-            correctionAdd("b6 pro", "Keychron&nbsp;B6&nbsp;Pro");
-            correctionAdd("B6 pro", "Keychron&nbsp;B6&nbsp;Pro");
-            correctionAdd("B6 PRO", "Keychron&nbsp;B6&nbsp;Pro");
-            correctionAdd("B6 Pro", "Keychron&nbsp;B6&nbsp;Pro"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others). For example, as a result of conversion of &nbsp; at Reddit.
-            correctionAdd("B Pro", "Keychron&nbsp;B6&nbsp;Pro"); // Not 100% correct, but a representative of that Keychron keyboard series
-            correctionAdd("Bpro", "Keychron&nbsp;B6&nbsp;Pro"); // Not 100% correct, but a representative of that Keychron keyboard series
-            correctionAdd("B6", "Keychron&nbsp;B6&nbsp;Pro");
-            correctionAdd("b6", "Keychron&nbsp;B6&nbsp;Pro");
+            correctionAdd("Keychron b6 pro", "Keychron B6 Pro");
+            correctionAdd("B Pro series", "Keychron B6 Pro"); // Not 100% correct, but a representative of that Keychron keyboard series
+            correctionAdd("keychron B6", "Keychron B6 Pro");
+            correctionAdd("B6&nbsp;Pro", "Keychron B6 Pro");
+            correctionAdd("B6 Pro ISO", "Keychron B6 Pro");
+            correctionAdd("B6 Pro", "Keychron B6 Pro");
+            correctionAdd("b6 pro", "Keychron B6 Pro");
+            correctionAdd("B6 pro", "Keychron B6 Pro");
+            correctionAdd("B6 PRO", "Keychron B6 Pro");
+            correctionAdd("B6 Pro", "Keychron B6 Pro"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others). For example, as a result of conversion of &nbsp; at Reddit.
+            correctionAdd("B Pro", "Keychron B6 Pro"); // Not 100% correct, but a representative of that Keychron keyboard series
+            correctionAdd("Bpro", "Keychron B6 Pro"); // Not 100% correct, but a representative of that Keychron keyboard series
+            correctionAdd("B6", "Keychron B6 Pro");
+            correctionAdd("b6", "Keychron B6 Pro");
 
             // A 110-key (105%. True full-size) wired and
             // wireless (both Bluetooth and '2.4 GHz')
@@ -98498,6 +98491,8 @@ namespace OverflowHelper.core
             // And CoRecursive, episode 62, "Video game programming from scratch"
             //
             // Also mentioned in a Hanselminutes (we need to find the reference)
+            //
+            // Allegedly, inventor of 'immediate mode GUI'.
             //
             correctionAdd("moratori", "Casey Muratori");
             correctionAdd("Casey", "Casey Muratori");
@@ -102705,6 +102700,25 @@ namespace OverflowHelper.core
             correctionAdd("MSGbox", "MsgBox");
 
             correctionAdd("idl", "IDL");
+
+            // Computer graphics
+            //
+            // Alternative URLs:
+            //
+            //   <https://stackoverflow.com/questions/51662877>
+            //
+            correctionAdd("Immediate mode", "immediate mode");
+
+            // Invented by none other than Casey Muratori
+            //
+            // Not to be confused with immediate mode rendering (CUDA?).
+            //
+            correctionAdd("'immediate mode'-GUI", "immediate mode GUI");
+            correctionAdd("Immediate mode GUI", "immediate mode GUI");
+            correctionAdd("immediate mode gui", "immediate mode GUI");
+            correctionAdd("immediate-mode GUI", "immediate mode GUI");
+            correctionAdd("IMGUI", "immediate mode GUI");
+            correctionAdd("imgui", "immediate mode GUI"); // But it is highly ambiguous. See the notes above
 
             // Nvidia
             correctionAdd("cuda", "CUDA");
@@ -108546,9 +108560,6 @@ namespace OverflowHelper.core
 
             correctionAdd("bullsh*tting", "bullshitting");
 
-            correctionAdd("SOL", "shit out of luck");
-            correctionAdd("SoL", "shit out of luck");
-
             correctionAdd("SH!TLESS", "shitless");
             correctionAdd("sh!tless", "shitless");
 
@@ -108564,6 +108575,13 @@ namespace OverflowHelper.core
             correctionAdd("necro posting", "necroposting");
             correctionAdd("thread dig", "necroposting");
             correctionAdd("necro", "necroposting");
+
+            correctionAdd("SOL", "shit out of luck");
+            correctionAdd("SoL", "shit out of luck");
+
+            correctionAdd("shit hit the fan", "the shit hit the fan");
+            correctionAdd("SHTF", "the shit hit the fan");
+            correctionAdd("fan", "the shit hit the fan"); // For the cross-reference
 
             // Idiomatic
             correctionAdd("holy sh*t", "holy shit");
@@ -111944,8 +111962,6 @@ namespace OverflowHelper.core
             URL_Add("doxx", "https://en.wiktionary.org/wiki/doxx#Verb");
 
             URL_Add("equilibrium", "https://en.wiktionary.org/wiki/equilibrium#Noun");
-
-            URL_Add("helicopter", "https://en.wiktionary.org/wiki/helo#Noun");
 
             URL_Add("implemented", "https://en.wiktionary.org/wiki/implement#Verb");
 
@@ -119121,8 +119137,6 @@ namespace OverflowHelper.core
 
             URL_Add("uniform initialization", "https://en.wikipedia.org/wiki/C%2B%2B11#Uniform_initialization");
 
-            URL_Add("fixed-wing aircraft", "https://en.wikipedia.org/wiki/Fixed-wing_aircraft");
-
             URL_Add("noncompliant", "https://en.wiktionary.org/wiki/noncompliant#Adjective");
 
             URL_Add("Fran Blanche", "https://www.youtube.com/c/FranBlanche/videos");
@@ -120483,8 +120497,6 @@ namespace OverflowHelper.core
 
             URL_Add("all of a sudden", "https://en.wiktionary.org/wiki/all_of_a_sudden#Adverb");
 
-            URL_Add("business jet", "https://en.wikipedia.org/wiki/Business_jet");
-
             URL_Add("graphics card", "https://en.wikipedia.org/wiki/Graphics_card");
 
             URL_Add("unaccessible", "https://en.wiktionary.org/wiki/unaccessible#Adjective");
@@ -120974,8 +120986,6 @@ namespace OverflowHelper.core
             URL_Add("self-interest", "https://en.wiktionary.org/wiki/self-interest#Noun");
 
             URL_Add("Alluxio", "https://en.wikipedia.org/wiki/Alluxio");
-
-            URL_Add("airframe", "https://en.wiktionary.org/wiki/airframe#Noun");
 
             URL_Add("bodge wire", "https://hackaday.com/tag/bodge-wire/");
 
@@ -121944,8 +121954,6 @@ namespace OverflowHelper.core
             URL_Add("AmigaOS", "https://en.wikipedia.org/wiki/AmigaOS");
 
             URL_Add("dig into", "https://en.wiktionary.org/wiki/dig_into#Verb");
-
-            URL_Add("mechanical", "https://en.wiktionary.org/wiki/mechanical#Adjective");
 
             URL_Add("misframed", "https://en.wiktionary.org/wiki/misframe#Verb");
 
@@ -123585,8 +123593,6 @@ namespace OverflowHelper.core
 
             URL_Add("dissolve", "https://en.wiktionary.org/wiki/dissolve#Verb");
 
-            URL_Add("ramjet", "https://en.wikipedia.org/wiki/Ramjet");
-
             URL_Add("soup kitchen", "https://en.wiktionary.org/wiki/soup_kitchen#Noun");
 
             URL_Add("wildcards", "https://en.wiktionary.org/wiki/wildcard#Noun");
@@ -124541,6 +124547,8 @@ namespace OverflowHelper.core
 
             URL_Add("Beechcraft Super King Air 200", "https://en.wikipedia.org/wiki/Beechcraft_Super_King_Air#Super_King_Air_200");
 
+            URL_Add("Learjet", "https://en.wikipedia.org/wiki/Learjet#Aircraft");
+
             URL_Add("luck", "https://en.wiktionary.org/wiki/luck#Noun");
 
             URL_Add("factory", "https://en.wiktionary.org/wiki/factory#Noun");
@@ -124558,8 +124566,6 @@ namespace OverflowHelper.core
             URL_Add("algorithms", "https://en.wikipedia.org/wiki/Algorithm");
 
             URL_Add("increasing", "https://en.wiktionary.org/wiki/increase#Verb");
-
-            URL_Add("helicopters", "https://en.wiktionary.org/wiki/helo#Noun");
 
             URL_Add("Adaptive Vsync", "https://en.wikipedia.org/wiki/Screen_tearing#Vertical_synchronization");
 
@@ -126434,6 +126440,16 @@ namespace OverflowHelper.core
             URL_Add("mental health", "https://en.wikipedia.org/wiki/Mental_health");
 
             URL_Add("Fast Healthcare Interoperability Resources", "https://en.wikipedia.org/wiki/Fast_Healthcare_Interoperability_Resources");
+
+            URL_Add("World Health Organization", "https://en.wikipedia.org/wiki/World_Health_Organization");
+
+            URL_Add("National Institute for Health and Care Excellence (UK)", "https://en.wikipedia.org/wiki/National_Institute_for_Health_and_Care_Excellence");
+
+            URL_Add("HIPPA", "https://en.wikipedia.org/wiki/Health_Insurance_Portability_and_Accountability_Act");
+
+            URL_Add("HIPAA", "https://en.wikipedia.org/wiki/Health_Insurance_Portability_and_Accountability_Act");
+
+            URL_Add("Public Health England (UK)", "https://en.wikipedia.org/wiki/Public_Health_England");
 
             URL_Add("marksheet", "https://en.wiktionary.org/wiki/marksheet#Noun");
 
@@ -128911,6 +128927,8 @@ namespace OverflowHelper.core
 
             URL_Add("Helix", "https://github.com/helix-editor/helix");
 
+            URL_Add("Helix QAC", "https://en.wikipedia.org/wiki/Helix_QAC");
+
             URL_Add("DASBOB", "https://github.com/GroooveBob/DASBOB");
 
             URL_Add("RebelCMS", "https://github.com/RebelCMS/rebelcmsxu5");
@@ -129746,8 +129764,6 @@ namespace OverflowHelper.core
             URL_Add("World War II", "https://en.wikipedia.org/wiki/World_War_II");
 
             URL_Add("World War III", "https://en.wikipedia.org/wiki/World_War_III");
-
-            URL_Add("World Health Organization", "https://en.wikipedia.org/wiki/World_Health_Organization");
 
             URL_Add("WTO", "https://en.wikipedia.org/wiki/World_Trade_Organization");
 
@@ -134415,20 +134431,6 @@ namespace OverflowHelper.core
 
             URL_Add("Supermaven", "https://aiwiki.ai/wiki/supermaven");
 
-            URL_Add("screwup", "https://en.wiktionary.org/wiki/screwup#Noun");
-
-            URL_Add("screwups", "https://en.wiktionary.org/wiki/screwup#Noun");
-
-            URL_Add("unscrewed", "https://en.wiktionary.org/wiki/unscrew#Verb");
-
-            URL_Add("screwdriver", "https://en.wikipedia.org/wiki/Screwdriver");
-
-            URL_Add("jackscrew", "https://en.wiktionary.org/wiki/jackscrew#Noun");
-
-            URL_Add("Corkscrew", "https://en.wikipedia.org/wiki/Corkscrew_(program)");
-
-            URL_Add("Phillips", "https://en.wikipedia.org/wiki/List_of_screw_drives#Phillips_II");
-
             URL_Add("HashSet", "https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html");
 
             URL_Add("POSIX", "https://en.wikipedia.org/wiki/POSIX");
@@ -135763,8 +135765,6 @@ namespace OverflowHelper.core
 
             URL_Add("internal combustion engine", "https://en.wikipedia.org/wiki/Internal_combustion_engine");
 
-            URL_Add("single-engine", "https://en.wikipedia.org/wiki/Category:Single-engine_aircraft");
-
             URL_Add("Google Kubernetes Engine", "https://en.wikipedia.org/wiki/Google_Cloud_Platform#Compute");
 
             URL_Add("Google Compute Engine", "https://en.wikipedia.org/wiki/Google_Compute_Engine");
@@ -137001,8 +137001,6 @@ namespace OverflowHelper.core
 
             URL_Add("Bill & Ted's Excellent Adventure", "https://en.wikipedia.org/wiki/Bill_%26_Ted%27s_Excellent_Adventure");
 
-            URL_Add("National Institute for Health and Care Excellence (UK)", "https://en.wikipedia.org/wiki/National_Institute_for_Health_and_Care_Excellence");
-
             URL_Add("cancel", "https://en.wiktionary.org/wiki/cancel#Verb");
 
             URL_Add("cancels", "https://en.wiktionary.org/wiki/source#Noun");
@@ -137403,6 +137401,32 @@ namespace OverflowHelper.core
 
             URL_Add("scramble", "https://en.wiktionary.org/wiki/scramble#Verb");
 
+            URL_Add("screwup", "https://en.wiktionary.org/wiki/screwup#Noun");
+
+            URL_Add("screwups", "https://en.wiktionary.org/wiki/screwup#Noun");
+
+            URL_Add("unscrewed", "https://en.wiktionary.org/wiki/unscrew#Verb");
+
+            URL_Add("screwdriver", "https://en.wikipedia.org/wiki/Screwdriver");
+
+            URL_Add("Corkscrew", "https://en.wikipedia.org/wiki/Corkscrew_(program)");
+
+            URL_Add("Phillips", "https://en.wikipedia.org/wiki/List_of_screw_drives#Phillips_II");
+
+            URL_Add("jackscrew", "https://en.wiktionary.org/wiki/jackscrew#Noun");
+
+            URL_Add("helicopters", "https://en.wiktionary.org/wiki/helo#Noun");
+
+            URL_Add("fixed-wing aircraft", "https://en.wikipedia.org/wiki/Fixed-wing_aircraft");
+
+            URL_Add("business jet", "https://en.wikipedia.org/wiki/Business_jet");
+
+            URL_Add("ramjet", "https://en.wikipedia.org/wiki/Ramjet");
+
+            URL_Add("single-engine", "https://en.wikipedia.org/wiki/Category:Single-engine_aircraft");
+
+            URL_Add("airframe", "https://en.wiktionary.org/wiki/airframe#Noun");
+
             URL_Add("flight", "https://en.wiktionary.org/wiki/flight#Noun");
 
             URL_Add("flight deck", "https://en.wiktionary.org/wiki/flight_deck#Noun");
@@ -137462,6 +137486,80 @@ namespace OverflowHelper.core
             URL_Add("emergency locator beacon", "https://en.wikipedia.org/wiki/Emergency_locator_beacon");
 
             URL_Add("climb", "https://en.wiktionary.org/wiki/climb#Verb");
+
+            URL_Add("F-35", "https://en.wikipedia.org/wiki/Lockheed_Martin_F-35_Lightning_II");
+
+            URL_Add("Air Light VR", "https://github.com/alvr-org/ALVR");
+
+            URL_Add("airplane", "https://en.wiktionary.org/wiki/airplane#Noun");
+
+            URL_Add("airplanes", "https://en.wiktionary.org/wiki/airplane#Noun");
+
+            URL_Add("aviation gasoline", "https://en.wikipedia.org/wiki/Avgas");
+
+            URL_Add("Jet A", "https://en.wikipedia.org/wiki/Jet_fuel#Jet_A/A-1");
+
+            URL_Add("airfield", "https://en.wiktionary.org/wiki/airfield#Noun");
+
+            URL_Add("indicated airspeed", "https://en.wikipedia.org/wiki/Indicated_airspeed");
+
+            URL_Add("true airspeed", "https://en.wikipedia.org/wiki/True_airspeed");
+
+            URL_Add("instrument landing system", "https://en.wikipedia.org/wiki/Instrument_landing_system");
+
+            URL_Add("scud running", "https://en.wikipedia.org/wiki/Scud_running");
+
+            URL_Add("scud ran", "https://en.wiktionary.org/wiki/scud_run#Verb");
+
+            URL_Add("runway", "https://en.wiktionary.org/wiki/runway#Noun");
+
+            URL_Add("runway excursion", "https://en.wikipedia.org/wiki/Runway_excursion");
+
+            URL_Add("runway incursion", "https://en.wikipedia.org/wiki/Runway_incursion");
+
+            URL_Add("Cessna Citation II", "https://en.wikipedia.org/wiki/Cessna_Citation_II");
+
+            URL_Add("Embraer 190", "https://en.wikipedia.org/wiki/Embraer_E-Jet_family#E190_and_E195");
+
+            URL_Add("AirPort", "https://en.wikipedia.org/wiki/AirPort");
+
+            URL_Add("Tenerife airport disaster", "https://en.wikipedia.org/wiki/Tenerife_airport_disaster");
+
+            URL_Add("Keflavík", "https://en.wikipedia.org/wiki/Keflav%C3%ADk_International_Airport");
+
+            URL_Add("Boston Logan International Airport", "https://en.wikipedia.org/wiki/Logan_International_Airport");
+
+            URL_Add("Charles de Gaulle Airport", "https://en.wikipedia.org/wiki/Charles_de_Gaulle_Airport");
+
+            URL_Add("Sydney Airport", "https://en.wikipedia.org/wiki/Sydney_Airport");
+
+            URL_Add("Los Angeles International Airport", "https://en.wikipedia.org/wiki/Los_Angeles_International_Airport");
+
+            URL_Add("Tom Bradley International Terminal", "https://en.wikipedia.org/wiki/Terminals_of_Los_Angeles_International_Airport#Tom_Bradley_International_Terminal_(Terminal_B)");
+
+            URL_Add("Abu Dhabi International Airport", "https://en.wikipedia.org/wiki/Abu_Dhabi_International_Airport");
+
+            URL_Add("John F. Kennedy International Airport", "https://en.wikipedia.org/wiki/John_F._Kennedy_International_Airport");
+
+            URL_Add("Newark Liberty International Airport", "https://en.wikipedia.org/wiki/Newark_Liberty_International_Airport");
+
+            URL_Add("O'Hare International Airport", "https://en.wikipedia.org/wiki/O'Hare_International_Airport");
+
+            URL_Add("Heathrow Airport", "https://en.wikipedia.org/wiki/Heathrow_Airport");
+
+            URL_Add("Ronald Reagan Washington National Airport", "https://en.wikipedia.org/wiki/Ronald_Reagan_Washington_National_Airport");
+
+            URL_Add("Etihad Airways", "https://en.wikipedia.org/wiki/Etihad_Airways");
+
+            URL_Add("Qatar Airways", "https://en.wikipedia.org/wiki/Qatar_Airways");
+
+            URL_Add("Emirates", "https://en.wikipedia.org/wiki/Emirates_(airline)");
+
+            URL_Add("International Air Transport Association", "https://en.wikipedia.org/wiki/International_Air_Transport_Association");
+
+            URL_Add("TAP Air Portugal", "https://en.wikipedia.org/wiki/TAP_Air_Portugal");
+
+            URL_Add("Virgin Atlantic", "https://en.wikipedia.org/wiki/Virgin_Atlantic");
 
             URL_Add("feasible", "https://en.wiktionary.org/wiki/feasible#Adjective");
 
@@ -138927,10 +139025,6 @@ namespace OverflowHelper.core
 
             URL_Add("media queries", "https://en.wikipedia.org/wiki/Media_queries");
 
-            URL_Add("HIPPA", "https://en.wikipedia.org/wiki/Health_Insurance_Portability_and_Accountability_Act");
-
-            URL_Add("HIPAA", "https://en.wikipedia.org/wiki/Health_Insurance_Portability_and_Accountability_Act");
-
             URL_Add("LAN", "https://en.wikipedia.org/wiki/Local_area_network");
 
             URL_Add("WLAN", "https://en.wikipedia.org/wiki/Wireless_LAN");
@@ -139364,8 +139458,6 @@ namespace OverflowHelper.core
             URL_Add("Apport", "https://documentation.ubuntu.com/project/contributors/debugging/apport/");
 
             URL_Add("belt and suspenders", "https://en.wiktionary.org/wiki/belt_and_suspenders#Noun");
-
-            URL_Add("Helix QAC", "https://en.wikipedia.org/wiki/Helix_QAC");
 
             URL_Add("Zhihu", "https://en.wikipedia.org/wiki/Zhihu");
 
@@ -143797,7 +143889,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;B2&nbsp;Pro", "https://device.report/manual/13839696");
 
-            URL_Add("Keychron&nbsp;B6&nbsp;Pro", "https://www.keychron.com/products/keychron-b6-pro-ultra-slim-wireless-keyboard-iso-layout-collection"); // Old: <https://www.keychron.com/products/keychron-b6-pro-ultra-slim-wireless-keyboard>
+            URL_Add("Keychron B6 Pro", "https://www.keychron.com/products/keychron-b6-pro-ultra-slim-wireless-keyboard-iso-layout-collection"); // Old: <https://www.keychron.com/products/keychron-b6-pro-ultra-slim-wireless-keyboard>
 
             URL_Add("Keychron&nbsp;B11&nbsp;Pro", "https://www.keychron.com/products/keychron-b11-pro-ultra-slim-wireless-foldable-keyboard");
 
@@ -143893,7 +143985,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;K4&nbsp;Pro", "https://www.keychron.com/products/keychron-k4-pro-qmk-via-wireless-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)", "https://www.keychron.com/products/keychron-k5-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron K5 Pro ISO (105%)", "https://www.keychron.com/products/keychron-k5-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
             URL_Add("Keychron&nbsp;K6&nbsp;Pro", "https://www.keychron.com/products/keychron-k6-pro-qmk-via-wireless-custom-mechanical-keyboard");
 
@@ -143923,7 +144015,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;K4&nbsp;Max", "https://www.keychron.com/products/keychron-k4-max-qmk-wireless-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;K5&nbsp;Max", "https://www.keychron.com/products/keychron-k5-max-qmk-wireless-custom-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron K5 Max", "https://www.keychron.com/products/keychron-k5-max-qmk-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
             URL_Add("Keychron&nbsp;K7&nbsp;Max", "https://www.keychron.com/products/keychron-k7-max-qmk-via-wireless-custom-mechanical-keyboard");
 
@@ -143931,7 +144023,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;K9&nbsp;Max", "https://www.keychron.com/products/keychron-k9-max-qmk-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;K10&nbsp;Max", "https://www.keychron.com/products/keychron-k10-max-qmk-wireless-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron K10 Max", "https://www.keychron.com/products/keychron-k10-max-qmk-wireless-mechanical-keyboard-iso-layout-collection");
 
             URL_Add("Keychron K13 Max", "https://www.keychron.com/products/keychron-k13-max-qmk-via-wireless-custom-mechanical-keyboard");
 
@@ -143945,11 +144037,11 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;K8&nbsp;HE", "https://www.keychron.com/products/keychron-k8-he-wireless-magnetic-switch-custom-keyboard");
 
-            URL_Add("Keychron&nbsp;K10&nbsp;HE", "https://keychron.ca/products/keychron-k10-he-wireless-magnetic-switch-custom-keyboard-iso-layout-collection");
+            URL_Add("Keychron K10 HE", "https://keychron.ca/products/keychron-k10-he-wireless-magnetic-switch-custom-keyboard-iso-layout-collection");
 
             URL_Add("Keychron&nbsp;K1&nbsp;Ultra&nbsp;8K (85%)", "https://www.keychron.com/products/keychron-k1-ultra-8k-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;K2&nbsp;Ultra&nbsp;8K (80%)", "https://www.keychron.com/products/keychron-k2-ultra-8k-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron K2 Ultra 8K (80%)", "https://www.keychron.com/products/keychron-k2-ultra-8k-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K", "https://www.keychron.com/products/keychron-k3-ultra-8k-wireless-custom-mechanical-keyboard"); // Old: <https://www.keychron.com/pages/k3he-k3-ultra-prelaunch-organic>
 
@@ -144089,9 +144181,9 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron V4 Max", "https://www.keychron.com/products/keychron-v4-max-qmk-via-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;V5&nbsp;Max", "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron V5 Max", "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;V6&nbsp;Max", "https://www.keychron.com/products/keychron-v6-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron V6 Max", "https://www.keychron.com/products/keychron-v6-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
             URL_Add("Keychron V8 Max", "https://www.keychron.com/products/keychron-v8-max-alice-layout-qmk-custom-mechanical-keyboard");
 
@@ -144105,7 +144197,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;V5&nbsp;Ultra&nbsp;8K", "https://www.keychron.com/products/keychron-v5-ultra-8k-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K", "https://www.keychron.com/products/keychron-v6-ultra-8k-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron V6 Ultra 8K", "https://www.keychron.com/products/keychron-v6-ultra-8k-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron&nbsp;V10&nbsp;Ultra&nbsp;8K", "https://www.keychron.com/products/keychron-v10-ultra-8k-wireless-custom-mechanical-keyboard");
 
@@ -144113,7 +144205,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;V5&nbsp;8K (95%)", "https://www.keychron.com/products/keychron-v5-8k-qmk-wired-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;V6&nbsp;8K (105%)", "https://www.keychron.com/products/keychron-v6-8k-qmk-wired-custom-mechanical-keyboard");
+            URL_Add("Keychron V6 8K (105%)", "https://www.keychron.com/products/keychron-v6-8k-qmk-wired-custom-mechanical-keyboard");
 
             URL_Add("Keychron&nbsp;R5", "https://www.keychron.com/pages/keychron-r5-user-manual");
 
@@ -146813,8 +146905,6 @@ namespace OverflowHelper.core
 
             URL_Add("public key infrastructure", "https://en.wikipedia.org/wiki/Public_key_infrastructure");
 
-            URL_Add("Public Health England (UK)", "https://en.wikipedia.org/wiki/Public_Health_England");
-
             URL_Add("Tutorial Republic", "https://www.tutorialrepublic.com/");
 
             URL_Add("Weimar Republic", "https://en.wikipedia.org/wiki/Weimar_Republic");
@@ -149217,80 +149307,6 @@ namespace OverflowHelper.core
 
             URL_Add("sites-available", "https://geek-university.com/apache/sites-available-directory/");
 
-            URL_Add("F-35", "https://en.wikipedia.org/wiki/Lockheed_Martin_F-35_Lightning_II");
-
-            URL_Add("Air Light VR", "https://github.com/alvr-org/ALVR");
-
-            URL_Add("airplane", "https://en.wiktionary.org/wiki/airplane#Noun");
-
-            URL_Add("airplanes", "https://en.wiktionary.org/wiki/airplane#Noun");
-
-            URL_Add("aviation gasoline", "https://en.wikipedia.org/wiki/Avgas");
-
-            URL_Add("airfield", "https://en.wiktionary.org/wiki/airfield#Noun");
-
-            URL_Add("indicated airspeed", "https://en.wikipedia.org/wiki/Indicated_airspeed");
-
-            URL_Add("true airspeed", "https://en.wikipedia.org/wiki/True_airspeed");
-
-            URL_Add("instrument landing system", "https://en.wikipedia.org/wiki/Instrument_landing_system");
-
-            URL_Add("scud running", "https://en.wikipedia.org/wiki/Scud_running");
-
-            URL_Add("scud ran", "https://en.wiktionary.org/wiki/scud_run#Verb");
-
-            URL_Add("runway", "https://en.wiktionary.org/wiki/runway#Noun");
-
-            URL_Add("runway excursion", "https://en.wikipedia.org/wiki/Runway_excursion");
-
-            URL_Add("runway incursion", "https://en.wikipedia.org/wiki/Runway_incursion");
-
-            URL_Add("Jet A", "https://en.wikipedia.org/wiki/Jet_fuel#Jet_A/A-1");
-
-            URL_Add("Cessna Citation II", "https://en.wikipedia.org/wiki/Cessna_Citation_II");
-
-            URL_Add("Embraer 190", "https://en.wikipedia.org/wiki/Embraer_E-Jet_family#E190_and_E195");
-
-            URL_Add("AirPort", "https://en.wikipedia.org/wiki/AirPort");
-
-            URL_Add("Tenerife airport disaster", "https://en.wikipedia.org/wiki/Tenerife_airport_disaster");
-
-            URL_Add("Keflavík", "https://en.wikipedia.org/wiki/Keflav%C3%ADk_International_Airport");
-
-            URL_Add("Boston Logan International Airport", "https://en.wikipedia.org/wiki/Logan_International_Airport");
-
-            URL_Add("Charles de Gaulle Airport", "https://en.wikipedia.org/wiki/Charles_de_Gaulle_Airport");
-
-            URL_Add("Sydney Airport", "https://en.wikipedia.org/wiki/Sydney_Airport");
-
-            URL_Add("Los Angeles International Airport", "https://en.wikipedia.org/wiki/Los_Angeles_International_Airport");
-
-            URL_Add("Tom Bradley International Terminal", "https://en.wikipedia.org/wiki/Terminals_of_Los_Angeles_International_Airport#Tom_Bradley_International_Terminal_(Terminal_B)");
-
-            URL_Add("Abu Dhabi International Airport", "https://en.wikipedia.org/wiki/Abu_Dhabi_International_Airport");
-
-            URL_Add("John F. Kennedy International Airport", "https://en.wikipedia.org/wiki/John_F._Kennedy_International_Airport");
-
-            URL_Add("Newark Liberty International Airport", "https://en.wikipedia.org/wiki/Newark_Liberty_International_Airport");
-
-            URL_Add("O'Hare International Airport", "https://en.wikipedia.org/wiki/O'Hare_International_Airport");
-
-            URL_Add("Heathrow Airport", "https://en.wikipedia.org/wiki/Heathrow_Airport");
-
-            URL_Add("Ronald Reagan Washington National Airport", "https://en.wikipedia.org/wiki/Ronald_Reagan_Washington_National_Airport");
-
-            URL_Add("Etihad Airways", "https://en.wikipedia.org/wiki/Etihad_Airways");
-
-            URL_Add("Qatar Airways", "https://en.wikipedia.org/wiki/Qatar_Airways");
-
-            URL_Add("Emirates", "https://en.wikipedia.org/wiki/Emirates_(airline)");
-
-            URL_Add("International Air Transport Association", "https://en.wikipedia.org/wiki/International_Air_Transport_Association");
-
-            URL_Add("TAP Air Portugal", "https://en.wikipedia.org/wiki/TAP_Air_Portugal");
-
-            URL_Add("Virgin Atlantic", "https://en.wikipedia.org/wiki/Virgin_Atlantic");
-
             URL_Add("H-4 visa", "https://en.wikipedia.org/wiki/H-4_visa");
 
             URL_Add("italicising", "https://en.wiktionary.org/wiki/italicise#Verb");
@@ -151385,19 +151401,13 @@ namespace OverflowHelper.core
 
             URL_Add("enshittification", "https://en.wiktionary.org/wiki/enshittification#Noun");
 
+            URL_Add("bullshitting", "https://en.wiktionary.org/wiki/bullshit#Verb");
+
             URL_Add("shitty", "https://en.wiktionary.org/wiki/shitty#Adjective");
 
             URL_Add("shittiest", "https://en.wiktionary.org/wiki/shitty#Adjective");
 
             URL_Add("shitless", "https://en.wiktionary.org/wiki/shitless#Adjective");
-
-            URL_Add("bullshitting", "https://en.wiktionary.org/wiki/bullshit#Verb");
-
-            URL_Add("holy shit", "https://en.wiktionary.org/wiki/holy_shit#Interjection");
-
-            URL_Add("shit out of luck", "https://en.wiktionary.org/wiki/shit_out_of_luck#Adjective");
-
-            URL_Add("piece of shit", "https://en.wiktionary.org/wiki/POS#Noun");
 
             URL_Add("shit show", "https://en.wiktionary.org/wiki/shit_show#Noun");
 
@@ -151406,6 +151416,14 @@ namespace OverflowHelper.core
             URL_Add("shitpost", "https://en.wiktionary.org/wiki/shitpost#Noun");
 
             URL_Add("shitposting", "https://en.wikipedia.org/wiki/Shitposting");
+
+            URL_Add("holy shit", "https://en.wiktionary.org/wiki/holy_shit#Interjection");
+
+            URL_Add("piece of shit", "https://en.wiktionary.org/wiki/POS#Noun");
+
+            URL_Add("shit out of luck", "https://en.wiktionary.org/wiki/shit_out_of_luck#Adjective");
+
+            URL_Add("the shit hit the fan", "https://dictionary.cambridge.org/dictionary/english/shit-hits-the-fan");
 
             URL_Add("Landau and Lifshitz (text book)", "https://en.wikipedia.org/wiki/Course_of_Theoretical_Physics");
 
@@ -151454,6 +151472,12 @@ namespace OverflowHelper.core
             URL_Add("laughing my fucking ass off", "https://en.wiktionary.org/wiki/LMFAO#Interjection");
 
             URL_Add("Brainfuck", "https://en.wikipedia.org/wiki/Brainfuck");
+
+            URL_Add("immediate mode", "https://en.wikipedia.org/wiki/Immediate_mode_(computer_graphics)#Immediate_mode_GUI");
+
+            URL_Add("immediate mode GUI", "https://en.wikipedia.org/wiki/Immediate_mode_(computer_graphics)#Immediate_mode_GUI");
+
+            URL_Add("overengineering", "https://en.wiktionary.org/wiki/overengineer#Verb");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -152175,6 +152199,11 @@ namespace OverflowHelper.core
             // The HTML attribute
             correctionAdd("CLASS_", "class_");
 
+            correctionAdd("mechanicical_", "mechanical_");
+            correctionAdd("machanical_", "mechanical_");
+            correctionAdd("mechnical_", "mechanical_");
+            correctionAdd("mecanical_", "mechanical_");
+
             // Configuration software for Cooler Master keyboards.
             //
             // For the Reddit page (URL) with
@@ -152192,9 +152221,12 @@ namespace OverflowHelper.core
             //
             //   <https://www.reddit.com/r/coolermaster/comments/1egyehh/comment/lfye7b8/>
             //
+            correctionAdd("Cooler Master exited the keyboard business years ago_", "Cooler Master exited the mechanical keyboards and mice business_");
             correctionAdd("Cooler Master quit the keyboard business_", "Cooler Master exited the mechanical keyboards and mice business_");
+            correctionAdd("exited the keyboard business years ago_", "Cooler Master exited the mechanical keyboards and mice business_");
             correctionAdd("production has allegedly ceased_", "Cooler Master exited the mechanical keyboards and mice business_");
             correctionAdd("the whole team has been fired_", "Cooler Master exited the mechanical keyboards and mice business_");
+            correctionAdd("exited the keyboard business_", "Cooler Master exited the mechanical keyboards and mice business_");
             correctionAdd("production has ceased_", "Cooler Master exited the mechanical keyboards and mice business_");
             correctionAdd("Cooler Master quit_", "Cooler Master exited the mechanical keyboards and mice business_");
             correctionAdd("Cooler Master_", "Cooler Master exited the mechanical keyboards and mice business_"); // For the cross-reference
@@ -154616,8 +154648,6 @@ namespace OverflowHelper.core
             // For the cross-reference
             // 2024-11-19. 92444 bytes. MD5 55E3EE7BBDDAF72AB370ACECDF5EC9E.
             correctionAdd("Bluetooth firmware version 0.2.1 for Keychron Q Max, K Max, and V Max series keyboards_", "download URL for Bluetooth firmware version 0.2.1_");
-            correctionAdd("Keychron&nbsp;K10&nbsp;Max_", "download URL for Bluetooth firmware version 0.2.1_"); // For the cross-reference
-            correctionAdd("Keychron&nbsp;V6&nbsp;Max_", "download URL for Bluetooth firmware version 0.2.1_"); // For the cross-reference
             correctionAdd("Keychron&nbsp;Q6&nbsp;Max_", "download URL for Bluetooth firmware version 0.2.1_"); // For the cross-reference
             correctionAdd("Keychron K10 Max_", "download URL for Bluetooth firmware version 0.2.1_");
             correctionAdd("Keychron Q6 Max_", "download URL for Bluetooth firmware version 0.2.1_"); // For the cross-reference
@@ -155404,7 +155434,12 @@ namespace OverflowHelper.core
             correctionAdd("AC_", "aircraft_");
 
             // Aviation
-            correctionAdd("Airport_", "airport_");
+            correctionAdd("'copter_", "helicopter_");
+            correctionAdd("copter_", "helicopter_");
+            correctionAdd("helo_", "helicopter_");
+            correctionAdd("heli_", "helicopter_");
+            correctionAdd("Heli_", "helicopter_");
+            correctionAdd("Helo_", "helicopter_");
 
             // Aviation
             correctionAdd("propellor_", "propeller_");
@@ -155415,6 +155450,9 @@ namespace OverflowHelper.core
 
             // Jet engines. Aviation
             correctionAdd("n1_", "N1_");
+
+            // Aviation
+            correctionAdd("Airport_", "airport_");
 
             // Aviation
             correctionAdd("LOC_", "loss of control_");
@@ -168031,6 +168069,32 @@ namespace OverflowHelper.core
             correctionAdd("weed_", "cannabis_");
             correctionAdd("pot_", "cannabis_");
 
+            // Not to be confused with the 'immediate mode GUI' (IMGUI) concept
+            // or the C++ library 'imgui'
+            // (<https://github.com/AdrienHerubel/imgui>. Has not been updated
+            // since 2013, more than 13 years)
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.dearimgui.com/>
+            //   <https://www.discohello.com/>
+            //   <https://stackoverflow.com/users/4034925/omar>
+            //      Omar Cornut
+            //
+            // Warning:
+            //
+            //  There is an impersonation site: <imgui dot org>
+            //
+            //  See for example,
+            //
+            //    <https://github.com/ocornut/imgui/issues/9411>
+            //      Untrusted impersonation of the project at imgui.org #9411
+            //
+            correctionAdd("immediate mode GUI_", "Dear ImGui_"); // For the cross-reference
+            correctionAdd("dear imgui_", "Dear ImGui_");
+            correctionAdd("imgui_", "Dear ImGui_"); // But it is highly ambiguous. See the notes above
+            correctionAdd("ImGui_", "Dear ImGui_"); // But it is ambiguous. See the notes above
+
             // C. A book
             //
             // Authors: Brian Kernighan and Dennis Ritchie
@@ -172434,8 +172498,6 @@ namespace OverflowHelper.core
 
             URL_Add("ZSA Voyager_", "https://www.youtube.com/watch?v=VYQ0gyhjRXc");
 
-            URL_Add("Helix_", "https://github.com/MakotoKurauchi/helix");
-
             URL_Add("Dygma Raise_", "https://dygma.com/products/dygma-raise");
 
             URL_Add("Kinesis Advantage 2_", "https://en.wikipedia.org/wiki/Kinesis_(keyboard)#Advantage_360");
@@ -172754,6 +172816,14 @@ namespace OverflowHelper.core
 
             URL_Add("what the fuck_", "https://en.wiktionary.org/wiki/what_the_fuck#Phrase");
 
+            URL_Add("Helix_", "https://github.com/MakotoKurauchi/helix");
+
+            URL_Add("helicopter_", "https://en.wiktionary.org/wiki/helo#Noun");
+
+            URL_Add("mechanical_", "https://en.wiktionary.org/wiki/mechanical#Adjective");
+
+            URL_Add("Dear ImGui_", "https://github.com/ocornut/imgui/wiki");
+
         } //addLookupData_alternativeWordSet()
 
 
@@ -172926,7 +172996,7 @@ namespace OverflowHelper.core
 
             // Microseconds
             //
-            // Duplicate? Two different representations of "µ"?
+            // A duplicate? Two different representations of "µ"?
             //
             // In the correct term, it uses U+00B5 (see near
             // "micro second" for details).
@@ -177114,14 +177184,12 @@ namespace OverflowHelper.core
             // For the cross-reference to the source code
             // Note: In Git branch "wireless_playground"
             //
-            correctionAdd("Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)__", "Keychron K5 Pro source code__");
-            correctionAdd("Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO__", "Keychron K5 Pro source code__");
+            correctionAdd("Keychron K5 Pro ISO (105%)__", "Keychron K5 Pro source code__");
             correctionAdd("Keychron K5 Pro ISO__", "Keychron K5 Pro source code__");
 
             // For the cross-reference to the source code
             // Note: In Git branch "wireless_playground"
             //
-            correctionAdd("Keychron&nbsp;K5&nbsp;Max__", "Keychron K5 Max source code__");
             correctionAdd("Keychron K5 Max__", "Keychron K5 Max source code__");
 
             // For the cross-reference to the source code
@@ -177151,7 +177219,6 @@ namespace OverflowHelper.core
             // For the cross-reference to the source code
             // Note: In Git branch "hall_effect_playground"
             //
-            correctionAdd("Keychron&nbsp;K10&nbsp;HE__", "Keychron K10 HE source code__");
             correctionAdd("Keychron K10 HE__", "Keychron K10 HE source code__");
 
             // For the cross-reference to the source code
@@ -177163,7 +177230,6 @@ namespace OverflowHelper.core
             // For the cross-reference to the source code
             // Note: In Git branch "wireless_playground"
             //
-            correctionAdd("Keychron&nbsp;V6&nbsp;Max__", "Keychron V6 Max source code__");
             correctionAdd("Keychron V6 Max__", "Keychron V6 Max source code__");
 
             correctionAdd("Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro__", "Keychron Lemokey P1 Pro source code__");
@@ -177176,7 +177242,7 @@ namespace OverflowHelper.core
             //   <https://github.com/Keychron/zmk/branches/all>
             //     Keychron ZMK-based keyboards: Watching for new branches
             //
-            correctionAdd("Keychron&nbsp;B6&nbsp;Pro__", "Keychron B6 Pro source code__");
+            correctionAdd("Keychron B6 Pro__", "Keychron B6 Pro source code__");
 
             // For the cross-reference to the source code
             // Note: In Git branch "rtl8762g"
@@ -177199,7 +177265,7 @@ namespace OverflowHelper.core
             //     #   <https://github.com/Keychron/zmk/blob/rtl8762g/app/boards/shields/keychron_v6_ultra_ansi/keychron_v6_ultra_ansi.conf#L6>
             //
             correctionAdd("Keychron V Ultra 8K series__", "Keychron V6 Ultra 8K source code__");
-            correctionAdd("Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K__", "Keychron V6 Ultra 8K source code__");
+            correctionAdd("Keychron V6 Ultra 8K__", "Keychron V6 Ultra 8K source code__");
 
             // A wired and wireless (both Bluetooth and '2.4 GHz')
             // mouse from Keychron.
@@ -180608,9 +180674,8 @@ namespace OverflowHelper.core
             correctionAdd("q pro___", "Keychron Q Pro series___");
 
             // For a direct text, "V Max series"
-            correctionAdd("Keychron&nbsp;V6&nbsp;Max___", "Keychron V Max series___"); // For the cross-reference
-            correctionAdd("V&nbsp;Max&nbsp;series___", "Keychron V Max series___");
             correctionAdd("Keychron V6 Max___", "Keychron V Max series___"); // For the cross-reference
+            correctionAdd("V&nbsp;Max&nbsp;series___", "Keychron V Max series___");
             correctionAdd("V Max series___", "Keychron V Max series___"); // Sort of identity mapping
             correctionAdd("v max series___", "Keychron V Max series___");
             correctionAdd("V Max Series___", "Keychron V Max series___");
@@ -180633,7 +180698,6 @@ namespace OverflowHelper.core
             correctionAdd("qmax___", "Keychron Q Max series___");
 
             // For a direct text, "K Max series"
-            correctionAdd("Keychron&nbsp;K10&nbsp;Max___", "Keychron K Max series___");
             correctionAdd("K&nbsp;Max&nbsp;series___", "Keychron K Max series___");
             correctionAdd("Keychron K10 Max___", "Keychron K Max series___"); // For the cross-reference
             correctionAdd("K-Max series___", "Keychron K Max series___");
@@ -180720,7 +180784,6 @@ namespace OverflowHelper.core
             correctionAdd("S series___", "Keychron S series___"); // Sort of identity mapping
             correctionAdd("S1___", "Keychron S series___"); // For the cross-reference
 
-            correctionAdd("Keychron&nbsp;B6&nbsp;Pro___", "Keychron B Pro series___"); // For the cross-reference
             correctionAdd("B&nbsp;Pro&nbsp;series___", "Keychron B Pro series___");
             correctionAdd("Keychron B6 Pro___", "Keychron B Pro series___"); // For the cross-reference
             correctionAdd("B Pro series___", "Keychron B Pro series___"); // Sort of identity mapping
@@ -180741,7 +180804,7 @@ namespace OverflowHelper.core
             correctionAdd("Q Ultra 8k___", "Keychron Q Ultra 8K series___");
             correctionAdd("Q Ultra___", "Keychron Q Ultra 8K series___");
 
-            correctionAdd("Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K___", "Keychron V Ultra 8K series___");
+            correctionAdd("Keychron V6 Ultra 8K___", "Keychron V Ultra 8K series___");
             correctionAdd("V&nbsp;Ultra&nbsp;8K&nbsp;series___", "Keychron V Ultra 8K series___");
             correctionAdd("V&nbsp;Ultra&nbsp;8K series___", "Keychron V Ultra 8K series___");
             correctionAdd("V Ultra 8K series___", "Keychron V Ultra 8K series___");
@@ -180843,8 +180906,7 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/k5_pro/iso/rgb/info.json#L3>
             //
-            correctionAdd("Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)___", "Keychron K5 Pro, ISO RGB backlight variant (USB 0x3434/0x0251)___");
-            correctionAdd("Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO___", "Keychron K5 Pro, ISO RGB backlight variant (USB 0x3434/0x0251)___");
+            correctionAdd("Keychron K5 Pro ISO (105%)___", "Keychron K5 Pro, ISO RGB backlight variant (USB 0x3434/0x0251)___");
             correctionAdd("Keychron K5 Pro ISO___", "Keychron K5 Pro, ISO RGB backlight variant (USB 0x3434/0x0251)___"); // Note: We can only cross-reference one of the variants...
             correctionAdd("K5P-H3-BO___", "Keychron K5 Pro, ISO RGB backlight variant (USB 0x3434/0x0251)___");
             correctionAdd("0x0251___", "Keychron K5 Pro, ISO RGB backlight variant (USB 0x3434/0x0251)___");
@@ -183315,8 +183377,7 @@ namespace OverflowHelper.core
             // For the cross-reference to the default keymap
             // Note: In Git branch "wireless_playground"
             //
-            correctionAdd("Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)____", "Keychron K5 Pro default keymap (ISO RGB)____");
-            correctionAdd("Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO____", "Keychron K5 Pro default keymap (ISO RGB)____");
+            correctionAdd("Keychron K5 Pro ISO (105%)____", "Keychron K5 Pro default keymap (ISO RGB)____");
             correctionAdd("K5 Pro default keymap____", "Keychron K5 Pro default keymap (ISO RGB)____");
             correctionAdd("Keychron K5 Pro ISO____", "Keychron K5 Pro default keymap (ISO RGB)____");
             correctionAdd("K5 Pro keymap____", "Keychron K5 Pro default keymap (ISO RGB)____");
@@ -183325,7 +183386,6 @@ namespace OverflowHelper.core
             // For the cross-reference to the default keymap
             // Note: In Git branch "wireless_playground"
             //
-            correctionAdd("Keychron&nbsp;K5&nbsp;Max____", "Keychron K5 Max default keymap (ISO RGB)____");
             correctionAdd("K5 Max default keymap____", "Keychron K5 Max default keymap (ISO RGB)____");
             correctionAdd("Keychron K5 Max____", "Keychron K5 Max default keymap (ISO RGB)____");
             correctionAdd("K5 Max keymap____", "Keychron K5 Max default keymap (ISO RGB)____");
@@ -183360,7 +183420,6 @@ namespace OverflowHelper.core
             correctionAdd("Keychron V6 ISO____", "Keychron V6 default keymap (ISO RGB)____");
             correctionAdd("V6 keymap____", "Keychron V6 default keymap (ISO RGB)____");
 
-            correctionAdd("Keychron&nbsp;V6&nbsp;Max____", "Keychron V6 Max default keymap (ISO RGB)____"); // For the cross-reference
             correctionAdd("V6 Max default keymap____", "Keychron V6 Max default keymap (ISO RGB)____");
             correctionAdd("Keychron V6 Max____", "Keychron V6 Max default keymap (ISO RGB)____"); // For the cross-reference
             correctionAdd("V6 Max keymap____", "Keychron V6 Max default keymap (ISO RGB)____");
@@ -185148,7 +185207,6 @@ namespace OverflowHelper.core
             correctionAdd("Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)_____", "the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____"); // For the cross-reference
             correctionAdd("the early 2025 Keychron keyboard main firmware updates without source code_____", "the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____");
             correctionAdd("early 2025 firmware updates_____", "the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____");
-            correctionAdd("Keychron&nbsp;V6&nbsp;Max_____", "the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____"); // For the cross-reference
             correctionAdd("newer Keychron firmware_____", "the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____");
             correctionAdd("Keychron 2025 firmware_____", "the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____");
             correctionAdd("debounce deflection_____", "the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____");
@@ -185170,7 +185228,6 @@ namespace OverflowHelper.core
             correctionAdd("2025_____", "the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____");
             correctionAdd("BIOS_____", "the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____"); // For the cross-reference
 
-            correctionAdd("Keychron&nbsp;B6&nbsp;Pro_____", "Customising the ZMK-based Keychron B6 Pro keyboard without the Via clone_____");
             correctionAdd("Keychron Launcher_____", "Customising the ZMK-based Keychron B6 Pro keyboard without the Via clone_____");
             correctionAdd("Keychron B6 Pro_____", "Customising the ZMK-based Keychron B6 Pro keyboard without the Via clone_____");
             correctionAdd("ZMK_____", "Customising the ZMK-based Keychron B6 Pro keyboard without the Via clone_____");
@@ -186643,7 +186700,6 @@ namespace OverflowHelper.core
             // problems (inherent to membrane keyboards)
             //
             correctionAdd("severe key roll-over problems______", "severe NKRO problems for the Keychron B Pro series______");
-            correctionAdd("Keychron&nbsp;B6&nbsp;Pro______", "severe NKRO problems for the Keychron B Pro series______"); // For the cross-reference
             correctionAdd("Keychron&nbsp;B2&nbsp;Pro______", "severe NKRO problems for the Keychron B Pro series______");
             correctionAdd("severe roll-over problems______", "severe NKRO problems for the Keychron B Pro series______");
             correctionAdd("severe roll over problems______", "severe NKRO problems for the Keychron B Pro series______");
@@ -187248,7 +187304,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Git branch \"wls_2025q1\" in Keychron's fork_______", "Git branch \"2025q3\" in Keychron's fork_______"); // For the cross-reference
             correctionAdd("Keychron's main fork of QMK_______", "Git branch \"2025q3\" in Keychron's fork_______"); // For the cross-reference
-            correctionAdd("Keychron&nbsp;V6&nbsp;Max_______", "Git branch \"2025q3\" in Keychron's fork_______"); // For the cross-reference
+            correctionAdd("Keychron V6 Max_______", "Git branch \"2025q3\" in Keychron's fork_______"); // For the cross-reference
             correctionAdd("wls_2025q1_______", "Git branch \"2025q3\" in Keychron's fork_______"); // For the cross-reference
             correctionAdd("2025q3_______", "Git branch \"2025q3\" in Keychron's fork_______");
             correctionAdd("q3_______", "Git branch \"2025q3\" in Keychron's fork_______");
