@@ -20730,6 +20730,8 @@ namespace OverflowHelper.core
             correctionAdd("Lear Jet", "Learjet");
             correctionAdd("lear jet", "Learjet");
             correctionAdd("learjet", "Learjet");
+            correctionAdd("Lear", "Learjet");
+            correctionAdd("lear", "Learjet");
 
             // An aircraft
             correctionAdd("PZL Koliber 150", "PZL-110 Koliber 150");
@@ -38998,6 +39000,8 @@ namespace OverflowHelper.core
             correctionAdd("inpersonation", "impersonation");
             correctionAdd("imporsonation", "impersonation");
 
+            correctionAdd("othogonal", "orthogonal");
+
             correctionAdd("indentitation", "indentation");
             correctionAdd("indendation", "indentation");
             correctionAdd("Indentation", "indentation");
@@ -44800,6 +44804,8 @@ namespace OverflowHelper.core
 
             correctionAdd("propogate", "propagate");
             correctionAdd("Propogate", "propagate");
+
+            correctionAdd("propogates", "propagates");
 
             correctionAdd("propogation", "propagation");
 
@@ -55977,8 +55983,6 @@ namespace OverflowHelper.core
             correctionAdd("CodeSourcery", "Mentor Graphics");
             correctionAdd("codesourcery", "Mentor Graphics");
 
-            correctionAdd("Orthographic", "orthographic");
-
             correctionAdd("choregraphic", "choreographic");
 
             // The pronoun
@@ -66353,8 +66357,8 @@ namespace OverflowHelper.core
             correctionAdd("QMO", "QMK");
             correctionAdd("Qmk", "QMK");
             correctionAdd("QML", "QMK");
-            correctionAdd("GMK", "QMK");
             correctionAdd("QWK", "QMK");
+            correctionAdd("GMK", "QMK"); // It is common, including for QMK Toolbox. Is it a transcription error, an autocorrect "masterpiece", or something else?
 
             // QMK
             correctionAdd("the official instructions", "the official instructions to install QMK");
@@ -66557,10 +66561,11 @@ namespace OverflowHelper.core
             //
             correctionAdd("QMK Tool Box", "QMK Toolbox");
             correctionAdd("QMK toolbox", "QMK Toolbox");
+            correctionAdd("QMK-toolbox", "QMK Toolbox");
+            correctionAdd("qmk toolbox", "QMK Toolbox");
             correctionAdd("the toolbox", "QMK Toolbox");
             correctionAdd("GMK Toolbox", "QMK Toolbox");
-            correctionAdd("qmk toolbox", "QMK Toolbox");
-            correctionAdd("QMK-toolbox", "QMK Toolbox");
+            correctionAdd("gmk toolbox", "QMK Toolbox");
             correctionAdd("QMKToolbox", "QMK Toolbox");
             correctionAdd("toolbox", "QMK Toolbox");
             correctionAdd("QMX", "QMK Toolbox"); // A SIA...
@@ -69622,6 +69627,8 @@ namespace OverflowHelper.core
             correctionAdd("ortho boards", "ortholinear mechanical keyboard"); // Not 100% correct - plural.
             correctionAdd("Orthorlinear", "ortholinear mechanical keyboard");
             correctionAdd("orthorlinear", "ortholinear mechanical keyboard");
+            correctionAdd("Orthographic", "ortholinear mechanical keyboard");
+            correctionAdd("orthographic", "ortholinear mechanical keyboard");
             correctionAdd("ortholinear", "ortholinear mechanical keyboard");
             correctionAdd("OrthoLinear", "ortholinear mechanical keyboard");
             correctionAdd("Ortholinear", "ortholinear mechanical keyboard");
@@ -74479,6 +74486,7 @@ namespace OverflowHelper.core
             correctionAdd("Scripteable", "scriptable");
 
             correctionAdd("scruipting", "scripting");
+            correctionAdd("scriptiong", "scripting");
             correctionAdd("Scripting", "scripting");
 
             correctionAdd("Kiddie Scripters", "script kiddie");
@@ -75439,6 +75447,9 @@ namespace OverflowHelper.core
 
             correctionAdd("gramatically", "grammatically");
 
+            // Note: "orthographic" is in an alternative word set
+            //
+            // Both linguistics and architecture
             correctionAdd("Ortography", "orthography");
             correctionAdd("ortography", "orthography");
 
@@ -89315,15 +89326,13 @@ namespace OverflowHelper.core
             //
             //   <https://www.keychron.com/pages/keychron-k3-ultra-8k-user-manual>
             //
-            correctionAdd("K3&nbsp;Ultra&nbsp;8K", "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K");
-            correctionAdd("Keychron K3 Ultra 8K", "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K"); // Sort of identity mapping
-            correctionAdd("K3 Ultra (8K)", "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K");
-            correctionAdd("K3 Ultra 8K", "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K");
-            correctionAdd("K3 ultra 8k", "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K");
-            correctionAdd("K3 Ultra 8k", "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K");
-            correctionAdd("K3 Ultra", "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K");
-            correctionAdd("k3 ultra", "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K");
-            correctionAdd("K3 8K", "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K");
+            correctionAdd("K3 Ultra (8K)", "Keychron K3 Ultra 8K");
+            correctionAdd("K3 Ultra 8K", "Keychron K3 Ultra 8K");
+            correctionAdd("K3 ultra 8k", "Keychron K3 Ultra 8K");
+            correctionAdd("K3 Ultra 8k", "Keychron K3 Ultra 8K");
+            correctionAdd("K3 Ultra", "Keychron K3 Ultra 8K");
+            correctionAdd("k3 ultra", "Keychron K3 Ultra 8K");
+            correctionAdd("K3 8K", "Keychron K3 Ultra 8K");
 
             // A 85-key (80%. Not true TKL) crippled
             // wired and wireless (only Bluetooth)
@@ -92291,10 +92300,8 @@ namespace OverflowHelper.core
             //   <https://device.report/m/cbc722dfd3b721844a0f962e7d5e06e14208ef9211b3d93301351dfe6f1a4ae8>
             //     Has photographs of the internals
             //
-            correctionAdd("Keychron B2 Pro", "Keychron&nbsp;B2&nbsp;Pro"); // Sort of identity mapping
-            correctionAdd("B2&nbsp;Pro", "Keychron&nbsp;B2&nbsp;Pro");
-            correctionAdd("B2 Pro", "Keychron&nbsp;B2&nbsp;Pro");
-            correctionAdd("b2 pro", "Keychron&nbsp;B2&nbsp;Pro");
+            correctionAdd("B2 Pro", "Keychron B2 Pro");
+            correctionAdd("b2 pro", "Keychron B2 Pro");
 
             // A 100-key (95%. Not true TKL) crippled wired
             // and wireless (both Bluetooth and '2.4 GHz')
@@ -92848,12 +92855,11 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/q5_pro>
             //
-            correctionAdd("Keychron Q5 Pro (95%)", "Keychron&nbsp;Q5&nbsp;Pro (95%)"); // Sort of identity mapping
-            correctionAdd("Keychron Q5 Pro", "Keychron&nbsp;Q5&nbsp;Pro (95%)");
-            correctionAdd("q5 pro", "Keychron&nbsp;Q5&nbsp;Pro (95%)");
-            correctionAdd("Q5 Pro", "Keychron&nbsp;Q5&nbsp;Pro (95%)");
-            correctionAdd("Q5 pro", "Keychron&nbsp;Q5&nbsp;Pro (95%)");
-            correctionAdd("q5 Pro", "Keychron&nbsp;Q5&nbsp;Pro (95%)");
+            correctionAdd("Keychron Q5 Pro", "Keychron Q5 Pro (95%)");
+            correctionAdd("q5 pro", "Keychron Q5 Pro (95%)");
+            correctionAdd("Q5 Pro", "Keychron Q5 Pro (95%)");
+            correctionAdd("Q5 pro", "Keychron Q5 Pro (95%)");
+            correctionAdd("q5 Pro", "Keychron Q5 Pro (95%)");
 
             // A 102-key (95%. Not true TKL) crippled wired and
             // wireless (both Bluetooth and '2.4 GHz')
@@ -94706,18 +94712,16 @@ namespace OverflowHelper.core
             //   <https://github.com/Keychron/zmk/blob/rtl8762g/app/boards/shields/keychron_q6_ultra_ansi/keychron_q6_ultra_ansi.keymap#L238>
             //     Note: In a new Git branch, "rtl8762g"
             //
-            correctionAdd("Q6&nbsp;Ultra&nbsp;8K", "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K");
-            correctionAdd("Keychron Q6 Ultra 8K", "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K"); // Sort of identity mapping
-            correctionAdd("Keychron Q6 ULTRA", "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K");
-            correctionAdd("KEYCRON Q6 ULTRA", "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K");
-            correctionAdd("Q6 Max Ultra", "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K");
-            correctionAdd("Q6 Ultra 8K", "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K");
-            correctionAdd("Q6 Ultra 8k", "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K");
-            correctionAdd("Q6 Ultra AK", "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K"); // Simulated intelligence transcription error (YouTube)
-            correctionAdd("Q6 ultra 8k", "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K");
-            correctionAdd("Q6 Ultra", "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K");
-            correctionAdd("Q6 ultra", "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K");
-            correctionAdd("Q6 ULTRA", "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K");
+            correctionAdd("Keychron Q6 ULTRA", "Keychron Q6 Ultra 8K");
+            correctionAdd("KEYCRON Q6 ULTRA", "Keychron Q6 Ultra 8K");
+            correctionAdd("Q6 Max Ultra", "Keychron Q6 Ultra 8K");
+            correctionAdd("Q6 Ultra 8K", "Keychron Q6 Ultra 8K");
+            correctionAdd("Q6 Ultra 8k", "Keychron Q6 Ultra 8K");
+            correctionAdd("Q6 Ultra AK", "Keychron Q6 Ultra 8K"); // Simulated intelligence transcription error (YouTube)
+            correctionAdd("Q6 ultra 8k", "Keychron Q6 Ultra 8K");
+            correctionAdd("Q6 Ultra", "Keychron Q6 Ultra 8K");
+            correctionAdd("Q6 ultra", "Keychron Q6 Ultra 8K");
+            correctionAdd("Q6 ULTRA", "Keychron Q6 Ultra 8K");
 
             // A 109-key (105%. Not true TKL) full-size wired-only
             // closed source (but with Via support) mechanical
@@ -96757,6 +96761,8 @@ namespace OverflowHelper.core
             correctionAdd("spreadshset", "spreadsheet");
             correctionAdd("SpreadSheet", "spreadsheet");
             correctionAdd("spreadshet", "spreadsheet");
+
+            correctionAdd("spreadhseets", "spreadsheets");
 
             correctionAdd("cleaver", "clever");
 
@@ -104927,8 +104933,6 @@ namespace OverflowHelper.core
 
             correctionAdd("jealouzy", "jealousy");
 
-            correctionAdd("othogonal", "orthogonal");
-
             correctionAdd("nemo", "Nemo");
 
             correctionAdd("DCMA", "DMCA");
@@ -108574,6 +108578,8 @@ namespace OverflowHelper.core
             // The verb
             correctionAdd("necro posting", "necroposting");
             correctionAdd("thread dig", "necroposting");
+            correctionAdd("Necroing", "necroposting");
+            correctionAdd("necroing", "necroposting");
             correctionAdd("necro", "necroposting");
 
             correctionAdd("SOL", "shit out of luck");
@@ -110445,15 +110451,21 @@ namespace OverflowHelper.core
 
             URL_Add("grammatically", "https://en.wiktionary.org/wiki/grammatically#Adverb");
 
-            URL_Add("orthography", "https://en.wiktionary.org/wiki/orthography#Noun");
-
             URL_Add("adjective", "https://en.wiktionary.org/wiki/adjective#Noun");
 
             URL_Add("noun phrase", "https://en.wiktionary.org/wiki/noun_phrase#Noun");
 
             URL_Add("genitive", "https://en.wiktionary.org/wiki/genitive#Adjective");
 
+            URL_Add("orthography", "https://en.wiktionary.org/wiki/orthography#Noun");
+
             URL_Add("Grammarly", "https://en.wikipedia.org/wiki/Grammarly");
+
+            URL_Add("orthogonal", "https://en.wiktionary.org/wiki/orthogonal#Adjective");
+
+            URL_Add("orthogonal frequency-division multiplexing", "https://en.wikipedia.org/wiki/Orthogonal_frequency-division_multiplexing");
+
+            URL_Add("orthogonal frequency-division multiple access", "https://en.wikipedia.org/wiki/Orthogonal_frequency-division_multiple_access");
 
             URL_Add("neighbourhood", "https://en.wiktionary.org/wiki/neighbourhood#Noun"); // Old: https://en.wiktionary.org/wiki/neighbourhood
 
@@ -110850,8 +110862,6 @@ namespace OverflowHelper.core
             URL_Add("keyword", "https://en.wiktionary.org/wiki/keyword#Noun");
 
             URL_Add("program", "https://en.wiktionary.org/wiki/program#Noun");
-
-            URL_Add("spreadsheet", "https://en.wiktionary.org/wiki/spreadsheet#Noun");
 
             URL_Add("syntax", "https://en.wiktionary.org/wiki/syntax#Noun");
 
@@ -113631,8 +113641,6 @@ namespace OverflowHelper.core
 
             URL_Add("iPad Mini", "https://en.wikipedia.org/wiki/IPad_Mini");
 
-            URL_Add("orthographic", "https://en.wiktionary.org/wiki/orthographic#Adjective");
-
             URL_Add("paraphrase", "https://en.wiktionary.org/wiki/paraphrase#Verb");
 
             URL_Add("properly", "https://en.wiktionary.org/wiki/properly#Adverb");
@@ -115742,8 +115750,6 @@ namespace OverflowHelper.core
             URL_Add("metaphysical", "https://en.wiktionary.org/wiki/metaphysical#Adjective");
 
             URL_Add("misdetect", "https://en.wiktionary.org/wiki/misdetect#Verb");
-
-            URL_Add("orthogonal", "https://en.wiktionary.org/wiki/orthogonal#Adjective");
 
             URL_Add("Avast Antivirus", "https://en.wikipedia.org/wiki/Avast_Antivirus");
 
@@ -132919,6 +132925,8 @@ namespace OverflowHelper.core
 
             URL_Add("propagate", "https://en.wiktionary.org/wiki/propagate#Verb");
 
+            URL_Add("propagates", "https://en.wiktionary.org/wiki/propagate#Verb");
+
             URL_Add("propagating", "https://en.wiktionary.org/wiki/propagate#Verb");
 
             URL_Add("propagation", "https://en.wiktionary.org/wiki/propagation#Noun");
@@ -136997,8 +137005,6 @@ namespace OverflowHelper.core
 
             URL_Add("Parcellite", "https://en.wikipedia.org/wiki/Parcellite");
 
-            URL_Add("excellent", "https://en.wiktionary.org/wiki/excellent#Adjective");
-
             URL_Add("Bill & Ted's Excellent Adventure", "https://en.wikipedia.org/wiki/Bill_%26_Ted%27s_Excellent_Adventure");
 
             URL_Add("cancel", "https://en.wiktionary.org/wiki/cancel#Verb");
@@ -137024,6 +137030,12 @@ namespace OverflowHelper.core
             URL_Add("chatbot", "https://en.wiktionary.org/wiki/chatbot#Noun");
 
             URL_Add("chattr", "https://en.wikipedia.org/wiki/Chattr");
+
+            URL_Add("excellent", "https://en.wiktionary.org/wiki/excellent#Adjective");
+
+            URL_Add("spreadsheet", "https://en.wiktionary.org/wiki/spreadsheet#Noun");
+
+            URL_Add("spreadsheets", "https://en.wiktionary.org/wiki/spreadsheet#Noun");
 
             URL_Add("Excel", "https://en.wikipedia.org/wiki/Microsoft_Excel");
 
@@ -142155,13 +142167,9 @@ namespace OverflowHelper.core
 
             URL_Add("multiplexed", "https://en.wiktionary.org/wiki/multiplex#Verb");
 
-            URL_Add("orthogonal frequency-division multiplexing", "https://en.wikipedia.org/wiki/Orthogonal_frequency-division_multiplexing");
-
             URL_Add("MTLS", "https://handwiki.org/wiki/Multiplexed_Transport_Layer_Security");
 
             URL_Add("multiple", "https://en.wiktionary.org/wiki/multiple#Adjective");
-
-            URL_Add("orthogonal frequency-division multiple access", "https://en.wikipedia.org/wiki/Orthogonal_frequency-division_multiple_access");
 
             URL_Add("multiple inheritance", "https://en.wikipedia.org/wiki/Multiple_inheritance");
 
@@ -143887,7 +143895,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Q0 Plus", "https://www.keychron.com/products/keychron-q0-plus-qmk-custom-number-pad");
 
-            URL_Add("Keychron&nbsp;B2&nbsp;Pro", "https://device.report/manual/13839696");
+            URL_Add("Keychron B2 Pro", "https://device.report/manual/13839696");
 
             URL_Add("Keychron B6 Pro", "https://www.keychron.com/products/keychron-b6-pro-ultra-slim-wireless-keyboard-iso-layout-collection"); // Old: <https://www.keychron.com/products/keychron-b6-pro-ultra-slim-wireless-keyboard>
 
@@ -144043,7 +144051,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron K2 Ultra 8K (80%)", "https://www.keychron.com/products/keychron-k2-ultra-8k-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K", "https://www.keychron.com/products/keychron-k3-ultra-8k-wireless-custom-mechanical-keyboard"); // Old: <https://www.keychron.com/pages/k3he-k3-ultra-prelaunch-organic>
+            URL_Add("Keychron K3 Ultra 8K", "https://www.keychron.com/products/keychron-k3-ultra-8k-wireless-custom-mechanical-keyboard"); // Old: <https://www.keychron.com/pages/k3he-k3-ultra-prelaunch-organic>
 
             URL_Add("Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)", "https://www.keychron.com/products/keychron-k5-ultra-8k-wireless-custom-mechanical-keyboard");
 
@@ -144087,7 +144095,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;Q4&nbsp;Pro", "https://www.keychron.com/products/keychron-q4-pro-qmk-via-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;Q5&nbsp;Pro (95%)", "https://www.keychron.com/products/keychron-q5-pro-qmk-via-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron Q5 Pro (95%)", "https://www.keychron.com/products/keychron-q5-pro-qmk-via-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron&nbsp;Q6&nbsp;Pro", "https://www.keychron.com/products/keychron-q6-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
@@ -144153,7 +144161,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;Q5&nbsp;Ultra&nbsp;8K", "https://www.keychron.com/products/keychron-q5-ultra-8k-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K", "https://www.keychron.com/products/keychron-q6-ultra-8k-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron Q6 Ultra 8K", "https://www.keychron.com/products/keychron-q6-ultra-8k-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)", "https://www.keychron.com/products/keychron-q11-ultra-8k-wireless-custom-mechanical-keyboard");
 
@@ -151345,9 +151353,9 @@ namespace OverflowHelper.core
 
             URL_Add("suck", "https://en.wiktionary.org/wiki/suck#Verb");
 
-            URL_Add("squeaking", "https://en.wiktionary.org/wiki/squeak#Verb");
-
             URL_Add("sucks", "https://en.wiktionary.org/wiki/suck#Verb");
+
+            URL_Add("squeaking", "https://en.wiktionary.org/wiki/squeak#Verb");
 
             URL_Add("take your pick", "https://en.wiktionary.org/wiki/take_your_pick#Verb");
 
@@ -154204,6 +154212,8 @@ namespace OverflowHelper.core
             correctionAdd("lienar_", "linear_");
             correctionAdd("Linear_", "linear_");
             correctionAdd("liner_", "linear_");
+
+            correctionAdd("Orthographic_", "orthographic_");
 
             correctionAdd("split ergonomic ortholinear mechanical keyboard_", "split ortholinear mechanical keyboard_");
             correctionAdd("ortholinear mechanical keyboard_", "split ortholinear mechanical keyboard_"); // For the cross-reference
@@ -159251,6 +159261,10 @@ namespace OverflowHelper.core
             // Effectively a rubber dome keyboard with allegedly
             // full programmability by ZMK (not QMK).
             //
+            // ISO product page:
+            //
+            //   <https://www.keychron.com/products/keychron-b1-pro-ultra-slim-wireless-keyboard-iso-layout-collection>
+            //
             // Also, implied by the rubber domeness, it doesn't
             // have NKRO. Sample symptoms:
             //
@@ -159299,6 +159313,12 @@ namespace OverflowHelper.core
             //   The promise:
             //
             //     <https://www.reddit.com/r/Keychron/comments/1dgq2lu/comment/m30pqhy/>
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1xm8de0/comment/19s20tyd0rscj/>
+            //     Reverse engineered keyboard matrix for hardware
+            //     version 2 (source code unavailable)
             //
             correctionAdd("keychorn b1 pro_", "Keychron B1 Pro_");
             correctionAdd("keychron b1 pro_", "Keychron B1 Pro_");
@@ -172824,6 +172844,8 @@ namespace OverflowHelper.core
 
             URL_Add("Dear ImGui_", "https://github.com/ocornut/imgui/wiki");
 
+            URL_Add("orthographic_", "https://en.wiktionary.org/wiki/orthographic#Adjective");
+
         } //addLookupData_alternativeWordSet()
 
 
@@ -180784,7 +180806,6 @@ namespace OverflowHelper.core
             correctionAdd("S series___", "Keychron S series___"); // Sort of identity mapping
             correctionAdd("S1___", "Keychron S series___"); // For the cross-reference
 
-            correctionAdd("B&nbsp;Pro&nbsp;series___", "Keychron B Pro series___");
             correctionAdd("Keychron B6 Pro___", "Keychron B Pro series___"); // For the cross-reference
             correctionAdd("B Pro series___", "Keychron B Pro series___"); // Sort of identity mapping
             correctionAdd("b6 pro___", "Keychron B Pro series___"); // For the cross-reference
@@ -180794,9 +180815,8 @@ namespace OverflowHelper.core
             correctionAdd("Keychron Lemokey X3___", "Lemokey X series___"); // For the cross-reference
             correctionAdd("X series___", "Lemokey X series___");
 
-            correctionAdd("Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K___", "Keychron Q Ultra 8K series___");
-            correctionAdd("Q&nbsp;Ultra&nbsp;8K&nbsp;series___", "Keychron Q Ultra 8K series___");
-            correctionAdd("Q6&nbsp;Ultra&nbsp;8K___", "Keychron Q Ultra 8K series___");
+            correctionAdd("Keychron Q6 Ultra 8K___", "Keychron Q Ultra 8K series___");
+            correctionAdd("Q6 Ultra 8K___", "Keychron Q Ultra 8K series___");
             correctionAdd("Q Ultra 8K series___", "Keychron Q Ultra 8K series___");
             correctionAdd("Q ultra series___", "Keychron Q Ultra 8K series___");
             correctionAdd("Q Ultra series___", "Keychron Q Ultra 8K series___");
@@ -180805,32 +180825,24 @@ namespace OverflowHelper.core
             correctionAdd("Q Ultra___", "Keychron Q Ultra 8K series___");
 
             correctionAdd("Keychron V6 Ultra 8K___", "Keychron V Ultra 8K series___");
-            correctionAdd("V&nbsp;Ultra&nbsp;8K&nbsp;series___", "Keychron V Ultra 8K series___");
-            correctionAdd("V&nbsp;Ultra&nbsp;8K series___", "Keychron V Ultra 8K series___");
             correctionAdd("V Ultra 8K series___", "Keychron V Ultra 8K series___");
             correctionAdd("V ultra series___", "Keychron V Ultra 8K series___");
             correctionAdd("V Ultra series___", "Keychron V Ultra 8K series___");
             correctionAdd("V Ultra 8K___", "Keychron V Ultra 8K series___");
             correctionAdd("V Ultra___", "Keychron V Ultra 8K series___");
 
-            correctionAdd("Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K___", "Keychron K Ultra 8K series___");
-            correctionAdd("K&nbsp;Ultra&nbsp;8K&nbsp;series___", "Keychron K Ultra 8K series___");
-            correctionAdd("K Ultra 8K series___", "Keychron K Ultra 8K series___"); // Sort of identity mapping
+            correctionAdd("Keychron K3 Ultra 8K___", "Keychron K Ultra 8K series___");
+            correctionAdd("K Ultra 8K series___", "Keychron K Ultra 8K series___"); // For a direct text, "K Ultra 8K series"
             correctionAdd("K Ultra 8 series___", "Keychron K Ultra 8K series___");
 
             correctionAdd("J series___", "Keychron J series___");
 
             // Note: There isn't J HE series, only a J HE 8K series
             //
-            correctionAdd("Keychron J HE 8K series (proprietary keyboard firmware, not open source)___", "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // Sort of identity mapping
-            correctionAdd("Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series___", "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
-            correctionAdd("J&nbsp;HE&nbsp;8K&nbsp;series___", "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
-            correctionAdd("J&nbsp;HE&nbsp;8K series___", "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
-            correctionAdd("Keychron J HE 8K series___", "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // Sort of identity mapping
-            correctionAdd("J&nbsp;HE&nbsp;8K___", "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
-            correctionAdd("J HE 8K series___", "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
-            correctionAdd("J HE series___", "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // Note: There isn't J HE series, only a J HE 8K series
-            correctionAdd("J HE 8K___", "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
+            correctionAdd("Keychron J HE 8K series___", "Keychron J HE 8K series (proprietary keyboard firmware, not open source)___"); // Sort of identity mapping
+            correctionAdd("J HE 8K series___", "Keychron J HE 8K series (proprietary keyboard firmware, not open source)___");
+            correctionAdd("J HE series___", "Keychron J HE 8K series (proprietary keyboard firmware, not open source)___"); // Note: There isn't J HE series, only a J HE 8K series
+            correctionAdd("J HE 8K___", "Keychron J HE 8K series (proprietary keyboard firmware, not open source)___");
 
             // For missed pressed or double presses on a mechanical keyboard,
             // it is a fallacy to first change a switch and conclude it was
@@ -182403,7 +182415,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron J series___", "https://www.keychron.com/products/keychron-j5-qmk-wireless-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___", "https://www.keychron.com/products/keychron-j8-he-8k-magnetic-switch-keyboard");
+            URL_Add("Keychron J HE 8K series (proprietary keyboard firmware, not open source)___", "https://www.keychron.com/products/keychron-j8-he-8k-magnetic-switch-keyboard");
 
             URL_Add("Lemokey P Pro series___", "https://www.keychron.com/products/lemokey-p1-qmk-via-custom-gaming-keyboard");
 
@@ -186700,12 +186712,11 @@ namespace OverflowHelper.core
             // problems (inherent to membrane keyboards)
             //
             correctionAdd("severe key roll-over problems______", "severe NKRO problems for the Keychron B Pro series______");
-            correctionAdd("Keychron&nbsp;B2&nbsp;Pro______", "severe NKRO problems for the Keychron B Pro series______");
             correctionAdd("severe roll-over problems______", "severe NKRO problems for the Keychron B Pro series______");
             correctionAdd("severe roll over problems______", "severe NKRO problems for the Keychron B Pro series______");
             correctionAdd("severe NKRO problems______", "severe NKRO problems for the Keychron B Pro series______");
             correctionAdd("Keychron B1 Pro______", "severe NKRO problems for the Keychron B Pro series______"); // For the cross-reference
-            correctionAdd("Keychron B2 Pro______", "severe NKRO problems for the Keychron B Pro series______");
+            correctionAdd("Keychron B2 Pro______", "severe NKRO problems for the Keychron B Pro series______"); // For the cross-reference
             correctionAdd("Keychron B6 Pro______", "severe NKRO problems for the Keychron B Pro series______"); // For the cross-reference
             correctionAdd("NKRO______", "severe NKRO problems for the Keychron B Pro series______");
 
