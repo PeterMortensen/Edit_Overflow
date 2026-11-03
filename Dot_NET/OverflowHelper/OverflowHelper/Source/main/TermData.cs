@@ -4161,6 +4161,8 @@ namespace OverflowHelper.core
             // Note: "went" is in an alternative word set
             correctionAdd("goest", "goes");
             correctionAdd("goes'", "goes");
+            correctionAdd("Goeas", "goes");
+            correctionAdd("goeas", "goes");
             correctionAdd("gose", "goes");
             correctionAdd("goea", "goes"); // A true typo
 
@@ -179390,7 +179392,8 @@ namespace OverflowHelper.core
             // Keyboards, e.g., mechanical keyboards
             // That is, the keys Ins, Del, Home, End, PgUp, and PgDn
             //
-            correctionAdd("navigation___", "navigation cluster___");
+            correctionAdd("navigation___", "navigation cluster___"); // For the cross-reference
+            correctionAdd("cluster___", "navigation cluster___"); // For the cross-reference
 
             correctionAdd("modificator___", "modifier___");
             correctionAdd("modifirer___", "modifier___");
