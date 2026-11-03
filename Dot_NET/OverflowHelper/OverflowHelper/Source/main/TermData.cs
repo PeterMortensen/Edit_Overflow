@@ -1339,6 +1339,126 @@ namespace OverflowHelper.core
 
             correctionAdd("streamlit", "Streamlit");
 
+            correctionAdd("Matte Mat Tics", "mathematics");
+            correctionAdd("matte mat tics", "mathematics");
+            correctionAdd("Mathematics", "mathematics");
+            correctionAdd("Mathemetics", "mathematics");
+            correctionAdd("mathrmatics", "mathematics");
+            correctionAdd("Mathmatics", "mathematics");
+            correctionAdd("mathmatics", "mathematics");
+            correctionAdd("maths", "mathematics");
+            correctionAdd("Maths", "mathematics");
+            correctionAdd("math", "mathematics");
+
+            correctionAdd("mathemathical", "mathematical");
+            correctionAdd("mathematic", "mathematical");
+
+            correctionAdd("Mathematically", "mathematically");
+            correctionAdd("Mathematitally", "mathematically");
+            correctionAdd("mathematitally", "mathematically");
+            correctionAdd("mathematicaly", "mathematically");
+            correctionAdd("mathamaticaly", "mathematically");
+            correctionAdd("Mathematally", "mathematically");
+            correctionAdd("mathematally", "mathematically");
+
+            correctionAdd("mathmatical", "mathmetical");
+
+            correctionAdd("Mathematician", "mathematician");
+            correctionAdd("mathematicien", "mathematician");
+
+            // Mathematics
+            correctionAdd("Field's Medal", "Fields Medal");
+            correctionAdd("fields medal", "Fields Medal");
+
+            correctionAdd("Applied Math", "applied mathematics");
+
+            correctionAdd("millennium problems", "Millennium Prize Problems");
+
+            correctionAdd("collatz conjecture", "Collatz conjecture");
+
+            correctionAdd("countor", "contour");
+
+            correctionAdd("polyhedrons", "polyhedra");
+            correctionAdd("polihedra", "polyhedra");
+
+            correctionAdd("Voronoi polyhedra", "Voronoi diagram");
+            correctionAdd("Voronoi", "Voronoi diagram");
+            correctionAdd("voronoi", "Voronoi diagram");
+
+            correctionAdd("voronoi texture", "Voronoi texture");
+
+            correctionAdd("venn diagram", "Venn diagram");
+
+            correctionAdd("Multiply", "multiply");
+            correctionAdd("mutliply", "multiply");
+
+            correctionAdd("Multiplincatiaon", "multiplication");
+            correctionAdd("multiplincatiaon", "multiplication");
+            correctionAdd("multiplicatiaon", "multiplication");
+            correctionAdd("multiplcation", "multiplication");
+            correctionAdd("Multiplcation", "multiplication");
+
+            correctionAdd("multiplies", "multiplications");
+
+            correctionAdd("arithmetics", "arithmetic");
+            correctionAdd("aritmethics", "arithmetic");
+            correctionAdd("arithmatic", "arithmetic");
+            correctionAdd("arithemtic", "arithmetic");
+            correctionAdd("Arithmetic", "arithmetic");
+            correctionAdd("arthimetic", "arithmetic");
+            correctionAdd("arthematic", "arithmetic");
+            correctionAdd("aritmetic", "arithmetic");
+            correctionAdd("arith", "arithmetic");
+
+            correctionAdd("arithmetic-geometric", "arithmetico-geometric");
+
+            correctionAdd("geoemetry", "geometry");
+            correctionAdd("Geometry", "geometry");
+            correctionAdd("Geoemtry", "geometry");
+            correctionAdd("geoemtry", "geometry");
+
+            correctionAdd("Geometric", "geometric");
+
+            correctionAdd("Differential Geometry", "differential geometry");
+
+            correctionAdd("computational binary solid geometry", "constructive solid geometry");
+            correctionAdd("Constructive Solid Geometry", "constructive solid geometry");
+            correctionAdd("CSG", "constructive solid geometry");
+            correctionAdd("csg", "constructive solid geometry");
+
+            correctionAdd("Spherical", "spherical");
+
+            correctionAdd("half-sphere", "halfsphere");
+            correctionAdd("half sphere", "halfsphere");
+
+            correctionAdd("ico-sphere", "icosphere");
+
+            // Geometry
+            correctionAdd("penta gone", "pentagon");
+            correctionAdd("pentagone", "pentagon");
+
+            correctionAdd("Convex", "convex");
+
+            correctionAdd("Cylindrical", "cylindrical");
+
+            correctionAdd("sculped", "sculpted");
+            correctionAdd("Sculped", "sculpted");
+
+            // Python. An in-browser implementation it
+            correctionAdd("skulpt", "Skulpt");
+
+            correctionAdd("atomosphere", "atmosphere");
+            correctionAdd("atmosfere", "atmosphere");
+
+            correctionAdd("atomospheric", "atmospheric");
+            correctionAdd("atmosferic", "atmospheric");
+
+            correctionAdd("miniscule", "minuscule");
+
+            correctionAdd("minnest", "miniest");
+
+            correctionAdd("mineing", "mining");
+
             correctionAdd("reliefed", "relieved");
             correctionAdd("releaved", "relieved");
 
@@ -11596,9 +11716,9 @@ namespace OverflowHelper.core
             correctionAdd("propietary", "proprietary");
             correctionAdd("proriotary", "proprietary");
             correctionAdd("propritary", "proprietary");
-            correctionAdd("priprotary", "proprietary");
             correctionAdd("propritory", "proprietary");
             correctionAdd("priopetary", "proprietary");
+            correctionAdd("priprotary", "proprietary");
             correctionAdd("propriety", "proprietary");
             correctionAdd("proprioty", "proprietary");
             correctionAdd("propitory", "proprietary");
@@ -11609,9 +11729,9 @@ namespace OverflowHelper.core
             correctionAdd("priotary", "proprietary");
             correctionAdd("proprip", "proprietary");
             correctionAdd("propri", "proprietary");
-            correctionAdd("pripro", "proprietary");
             correctionAdd("propro", "proprietary");
             correctionAdd("Pripro", "proprietary");
+            correctionAdd("pripro", "proprietary");
 
             correctionAdd("non-proprietary", "nonproprietary");
 
@@ -15375,11 +15495,6 @@ namespace OverflowHelper.core
             correctionAdd("prevoew", "preview");
             correctionAdd("previes", "preview"); // A true typo
             correctionAdd("previe", "preview");
-
-            // Only observed misspelt in 2026 (though introduced in 2025)
-            //
-            // From German?
-            correctionAdd("celle", "cell");
 
             // E.g., battery
             //
@@ -19790,100 +19905,6 @@ namespace OverflowHelper.core
 
             correctionAdd("misirably", "miserably");
 
-            correctionAdd("Matte Mat Tics", "mathematics");
-            correctionAdd("matte mat tics", "mathematics");
-            correctionAdd("Mathematics", "mathematics");
-            correctionAdd("Mathemetics", "mathematics");
-            correctionAdd("mathrmatics", "mathematics");
-            correctionAdd("Mathmatics", "mathematics");
-            correctionAdd("mathmatics", "mathematics");
-            correctionAdd("maths", "mathematics");
-            correctionAdd("Maths", "mathematics");
-            correctionAdd("math", "mathematics");
-
-            correctionAdd("mathemathical", "mathematical");
-            correctionAdd("mathematic", "mathematical");
-
-            correctionAdd("Mathematically", "mathematically");
-            correctionAdd("Mathematitally", "mathematically");
-            correctionAdd("mathematitally", "mathematically");
-            correctionAdd("mathematicaly", "mathematically");
-            correctionAdd("mathamaticaly", "mathematically");
-            correctionAdd("Mathematally", "mathematically");
-            correctionAdd("mathematally", "mathematically");
-
-            correctionAdd("mathmatical", "mathmetical");
-
-            correctionAdd("Mathematician", "mathematician");
-            correctionAdd("mathematicien", "mathematician");
-
-            // Mathematics
-            correctionAdd("Field's Medal", "Fields Medal");
-            correctionAdd("fields medal", "Fields Medal");
-
-            correctionAdd("Applied Math", "applied mathematics");
-
-            correctionAdd("millennium problems", "Millennium Prize Problems");
-
-            correctionAdd("collatz conjecture", "Collatz conjecture");
-
-            correctionAdd("countor", "contour");
-
-            correctionAdd("polyhedrons", "polyhedra");
-            correctionAdd("polihedra", "polyhedra");
-
-            correctionAdd("Voronoi polyhedra", "Voronoi diagram");
-            correctionAdd("Voronoi", "Voronoi diagram");
-            correctionAdd("voronoi", "Voronoi diagram");
-
-            correctionAdd("voronoi texture", "Voronoi texture");
-
-            correctionAdd("venn diagram", "Venn diagram");
-
-            correctionAdd("geoemetry", "geometry");
-            correctionAdd("Geometry", "geometry");
-            correctionAdd("Geoemtry", "geometry");
-            correctionAdd("geoemtry", "geometry");
-
-            correctionAdd("Geometric", "geometric");
-
-            correctionAdd("Differential Geometry", "differential geometry");
-
-            correctionAdd("computational binary solid geometry", "constructive solid geometry");
-            correctionAdd("Constructive Solid Geometry", "constructive solid geometry");
-            correctionAdd("CSG", "constructive solid geometry");
-            correctionAdd("csg", "constructive solid geometry");
-
-            // Geometry
-            correctionAdd("penta gone", "pentagon");
-            correctionAdd("pentagone", "pentagon");
-
-            correctionAdd("miniscule", "minuscule");
-
-            correctionAdd("minnest", "miniest");
-
-            correctionAdd("mineing", "mining");
-
-            correctionAdd("Convex", "convex");
-
-            correctionAdd("Cylindrical", "cylindrical");
-
-            correctionAdd("sculped", "sculpted");
-            correctionAdd("Sculped", "sculpted");
-
-            correctionAdd("Spherical", "spherical");
-
-            correctionAdd("half-sphere", "halfsphere");
-            correctionAdd("half sphere", "halfsphere");
-
-            correctionAdd("ico-sphere", "icosphere");
-
-            correctionAdd("atomosphere", "atmosphere");
-            correctionAdd("atmosfere", "atmosphere");
-
-            correctionAdd("atomospheric", "atmospheric");
-            correctionAdd("atmosferic", "atmospheric");
-
             correctionAdd("seperatist", "separatist");
 
             correctionAdd("sepereate", "separate");
@@ -20051,6 +20072,10 @@ namespace OverflowHelper.core
             // Alternative URLs:
             //
             //   <https://www.youtube.com/watch?v=kyd6KH5jBY4>
+            //
+            // Retired 2026-11-01:
+            //
+            //   <https://www.youtube.com/watch?v=03wk6hVbd7o&t=14m55s>
             //
             correctionAdd("Juan Brown Blancalario", "Juan Browne");
             correctionAdd("Blancolirio Channel", "Juan Browne");
@@ -20730,6 +20755,7 @@ namespace OverflowHelper.core
             correctionAdd("Lear Jet", "Learjet");
             correctionAdd("lear jet", "Learjet");
             correctionAdd("learjet", "Learjet");
+            correctionAdd("LearJet", "Learjet");
             correctionAdd("Lear", "Learjet");
             correctionAdd("lear", "Learjet");
 
@@ -22585,6 +22611,8 @@ namespace OverflowHelper.core
             correctionAdd("taiwanese", "Taiwanese");
 
             // Taiwan
+            //
+            // Not literacy...
             //
             // Alternative URLs:
             //
@@ -25282,6 +25310,7 @@ namespace OverflowHelper.core
             correctionAdd("Paragravity", "paragravity");
             correctionAdd("Parargrvity", "paragravity");
 
+            correctionAdd("Center of Gravity", "center of gravity");
             correctionAdd("C of G", "center of gravity");
             correctionAdd("c.g", "center of gravity");
             correctionAdd("CG", "center of gravity");
@@ -26314,29 +26343,6 @@ namespace OverflowHelper.core
 
             // For example, of the sine() or cos() function
             correctionAdd("Remez", "Remez function algorithm");
-
-            correctionAdd("arithmetics", "arithmetic");
-            correctionAdd("aritmethics", "arithmetic");
-            correctionAdd("arithmatic", "arithmetic");
-            correctionAdd("arithemtic", "arithmetic");
-            correctionAdd("Arithmetic", "arithmetic");
-            correctionAdd("arthimetic", "arithmetic");
-            correctionAdd("arthematic", "arithmetic");
-            correctionAdd("aritmetic", "arithmetic");
-            correctionAdd("arith", "arithmetic");
-
-            correctionAdd("arithmetic-geometric", "arithmetico-geometric");
-
-            correctionAdd("Multiply", "multiply");
-            correctionAdd("mutliply", "multiply");
-
-            correctionAdd("Multiplincatiaon", "multiplication");
-            correctionAdd("multiplincatiaon", "multiplication");
-            correctionAdd("multiplicatiaon", "multiplication");
-            correctionAdd("multiplcation", "multiplication");
-            correctionAdd("Multiplcation", "multiplication");
-
-            correctionAdd("multiplies", "multiplications");
 
             correctionAdd("Algebra", "algebra");
 
@@ -35344,6 +35350,7 @@ namespace OverflowHelper.core
             correctionAdd("compatibl", "compatible");
             correctionAdd("comatible", "compatible");
             correctionAdd("capatiple", "compatible");
+            correctionAdd("compatble", "compatible");
 
             correctionAdd("compatibiltity", "compatibility");
             correctionAdd("comaptibility", "compatibility");
@@ -48155,6 +48162,15 @@ namespace OverflowHelper.core
             correctionAdd("incompotent", "incompetent");
 
             // Not to be confused with literary...
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=xxMsgVgeu_M&t=5m48s>
+            //
+            //     "Literacy levels in the United States ... literacy
+            //      problems ... 52% of Americans falls ***below***
+            //      level 3." (partly paraphrased)
+            //
             correctionAdd("litteracy", "literacy");
 
             correctionAdd("Illiterate", "illiterate");
@@ -65077,6 +65093,7 @@ namespace OverflowHelper.core
             correctionAdd("bluetooth low energy", "Bluetooth LE");
             correctionAdd("Bluetooth low energy", "Bluetooth LE");
             correctionAdd("Bluetooth Low Energy", "Bluetooth LE"); // The official expanded version
+            correctionAdd("BlueTooth Low Energy", "Bluetooth LE");
             correctionAdd("BluetoothLowEnergy", "Bluetooth LE");
             correctionAdd("BLE", "Bluetooth LE");
             correctionAdd("ble", "Bluetooth LE");
@@ -73194,6 +73211,9 @@ namespace OverflowHelper.core
             // Emacs
             correctionAdd("cua-mode", "Cua-mode");
 
+            // Emacs
+            correctionAdd("marmalade", "Marmalade");
+
             correctionAdd("logique", "logic");
             correctionAdd("logics", "logic");
             correctionAdd("locic", "logic");
@@ -80705,6 +80725,8 @@ namespace OverflowHelper.core
             correctionAdd("UPPDATE", "update");
             correctionAdd("uppdate", "update");
             correctionAdd("upfdate", "update"); // A true typo
+            correctionAdd("Updaate", "update");
+            correctionAdd("updaate", "update");
             correctionAdd("udpate", "update");
             correctionAdd("updste", "update");
             correctionAdd("UPDATE", "update");
@@ -83089,6 +83111,11 @@ namespace OverflowHelper.core
             correctionAdd("Buster", "Raspbian&nbsp;10 (Buster)"); // Note: Can be confused with "Debian&nbsp;10 (Buster)"
             correctionAdd("raspbian buster", "Raspbian&nbsp;10 (Buster)");
 
+            // Raspberry Pi. Renamed from Raspbian
+            // Formerly Raspbian
+            correctionAdd("PI OS", "Raspberry Pi OS");
+            correctionAdd("Pi OS", "Raspberry Pi OS");
+
             correctionAdd("sloe", "slow");
 
             correctionAdd("slowes", "slows");
@@ -84739,13 +84766,12 @@ namespace OverflowHelper.core
             //
             //     What about the C0 HE series??
             //
-            correctionAdd("Keychron C0 HE 8K (30%) (proprietary keyboard firmware, not open source)", "Keychron&nbsp;C0&nbsp;HE&nbsp;8K (30%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
-            correctionAdd("Keychron&nbsp;C0&nbsp;HE&nbsp;8K", "Keychron&nbsp;C0&nbsp;HE&nbsp;8K (30%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("C0&nbsp;HE&nbsp;8K", "Keychron&nbsp;C0&nbsp;HE&nbsp;8K (30%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Keychron C0 HE 8K", "Keychron&nbsp;C0&nbsp;HE&nbsp;8K (30%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
-            correctionAdd("Keychron C0 HE", "Keychron&nbsp;C0&nbsp;HE&nbsp;8K (30%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("C0 HE 8K", "Keychron&nbsp;C0&nbsp;HE&nbsp;8K (30%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("C0 HE", "Keychron&nbsp;C0&nbsp;HE&nbsp;8K (30%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Keychron&nbsp;C0&nbsp;HE&nbsp;8K", "Keychron C0 HE 8K (30%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("C0&nbsp;HE&nbsp;8K", "Keychron C0 HE 8K (30%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Keychron C0 HE 8K", "Keychron C0 HE 8K (30%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
+            correctionAdd("Keychron C0 HE", "Keychron C0 HE 8K (30%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("C0 HE 8K", "Keychron C0 HE 8K (30%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("C0 HE", "Keychron C0 HE 8K (30%) (proprietary keyboard firmware, not open source)");
 
             // A 35-key (35%) wired-only QMK/Via-capable
             // macro pad/game pad with a knob.
@@ -89086,23 +89112,19 @@ namespace OverflowHelper.core
             //           'cloudfront.net' to not be surrounded
             //           by Imgur goo.
             //
-            correctionAdd("Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO", "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)");
-            correctionAdd("Keychron K3 Pro ISO (80%)", "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)"); // Sort of identity mapping
-            correctionAdd("K3&nbsp;Pro&nbsp;ISO", "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)");
-            correctionAdd("Keychron K3 Pro ISO", "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)"); // Sort of identity mapping
-            correctionAdd("Keychron k3 pro", "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)");
-            correctionAdd("Keychron K3 Pro", "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)");
-            correctionAdd("Keychron K3", "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)"); // Though there is a distict K3, different from K3 Pro (is in the other word set)
-            correctionAdd("K3&nbsp;Pro", "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)");
-            correctionAdd("K3 Pro ISO", "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)");
-            correctionAdd("K3 Pro", "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)");
-            correctionAdd("k3 pro", "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)");
-            correctionAdd("K3 PRO", "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)");
-            correctionAdd("K3 pro", "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)");
-            correctionAdd("k3pro", "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)");
-            correctionAdd("K3P", "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)");
-            correctionAdd("k3", "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)");
-            correctionAdd("K3", "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)"); // Though there is a distict K3, different from K3 Pro (is in the other word set)
+            correctionAdd("Keychron K3 Pro ISO", "Keychron K3 Pro ISO (80%)");
+            correctionAdd("Keychron k3 pro", "Keychron K3 Pro ISO (80%)");
+            correctionAdd("Keychron K3 Pro", "Keychron K3 Pro ISO (80%)");
+            correctionAdd("Keychron K3", "Keychron K3 Pro ISO (80%)"); // Though there is a distict K3, different from K3 Pro (is in the other word set)
+            correctionAdd("K3 Pro ISO", "Keychron K3 Pro ISO (80%)");
+            correctionAdd("K3 Pro", "Keychron K3 Pro ISO (80%)");
+            correctionAdd("k3 pro", "Keychron K3 Pro ISO (80%)");
+            correctionAdd("K3 PRO", "Keychron K3 Pro ISO (80%)");
+            correctionAdd("K3 pro", "Keychron K3 Pro ISO (80%)");
+            correctionAdd("k3pro", "Keychron K3 Pro ISO (80%)");
+            correctionAdd("K3P", "Keychron K3 Pro ISO (80%)");
+            correctionAdd("k3", "Keychron K3 Pro ISO (80%)");
+            correctionAdd("K3", "Keychron K3 Pro ISO (80%)"); // Though there is a distict K3, different from K3 Pro (is in the other word set)
 
             // A 85-key (80%. Not true TKL) crippled low-profile
             // wired and wireless (both Bluetooth and '2.4 GHz')
@@ -89262,20 +89284,18 @@ namespace OverflowHelper.core
             //
             //       256 KB flash / 64 KB RAM
             //
-            correctionAdd("Keychron K3 max", "Keychron&nbsp;K3&nbsp;Max");
-            correctionAdd("Keychron K3 Max", "Keychron&nbsp;K3&nbsp;Max"); // Sort of identity mapping
-            correctionAdd("Keycron K3 Max", "Keychron&nbsp;K3&nbsp;Max");
-            correctionAdd("K3&nbsp;Max", "Keychron&nbsp;K3&nbsp;Max");
-            correctionAdd("K3 Max", "Keychron&nbsp;K3&nbsp;Max");
-            correctionAdd("k3 max", "Keychron&nbsp;K3&nbsp;Max");
-            correctionAdd("K3 MAX", "Keychron&nbsp;K3&nbsp;Max");
-            correctionAdd("K3 max", "Keychron&nbsp;K3&nbsp;Max");
-            correctionAdd("M3 Max", "Keychron&nbsp;K3&nbsp;Max"); // A true typo
-            correctionAdd("k3max", "Keychron&nbsp;K3&nbsp;Max");
-            correctionAdd("K3max", "Keychron&nbsp;K3&nbsp;Max");
-            correctionAdd("K3Max", "Keychron&nbsp;K3&nbsp;Max");
-            correctionAdd("K3 Mx", "Keychron&nbsp;K3&nbsp;Max");
-            correctionAdd("K3M", "Keychron&nbsp;K3&nbsp;Max");
+            correctionAdd("Keychron K3 max", "Keychron K3 Max");
+            correctionAdd("Keycron K3 Max", "Keychron K3 Max");
+            correctionAdd("K3 Max", "Keychron K3 Max");
+            correctionAdd("k3 max", "Keychron K3 Max");
+            correctionAdd("K3 MAX", "Keychron K3 Max");
+            correctionAdd("K3 max", "Keychron K3 Max");
+            correctionAdd("M3 Max", "Keychron K3 Max"); // A true typo
+            correctionAdd("k3max", "Keychron K3 Max");
+            correctionAdd("K3max", "Keychron K3 Max");
+            correctionAdd("K3Max", "Keychron K3 Max");
+            correctionAdd("K3 Mx", "Keychron K3 Max");
+            correctionAdd("K3M", "Keychron K3 Max");
 
             // A 85-key (80%. Not true TKL) crippled low-profile
             // wired and wireless (only Bluetooth) QMK/Via-capable
@@ -89292,8 +89312,7 @@ namespace OverflowHelper.core
             //
             //     What about the P HE series???
             //
-            correctionAdd("Keychron K3 HE", "Keychron&nbsp;K3&nbsp;HE"); // Sort of identity mappin
-            correctionAdd("K3 HE", "Keychron&nbsp;K3&nbsp;HE");
+            correctionAdd("K3 HE", "Keychron K3 HE");
 
             // A 85-key (80%. Not true TKL) crippled low-profile
             // wired and wireless (both Bluetooth and '2.4 GHz')
@@ -96762,6 +96781,7 @@ namespace OverflowHelper.core
             correctionAdd("SpreadSheet", "spreadsheet");
             correctionAdd("spreadshet", "spreadsheet");
 
+            // A true typo
             correctionAdd("spreadhseets", "spreadsheets");
 
             correctionAdd("cleaver", "clever");
@@ -105811,6 +105831,8 @@ namespace OverflowHelper.core
             correctionAdd("acte", "act");
 
             // The biology thing
+            //
+            // Note: "cell" is in an alternative word set
             correctionAdd("cellulaure", "cellular");
 
             correctionAdd("avx", "AVX");
@@ -107369,11 +107391,8 @@ namespace OverflowHelper.core
 
             correctionAdd("bokeh", "Bokeh");
 
-            correctionAdd("marmalade", "Marmalade");
-
+            // Python. Imaging
             correctionAdd("pillow", "Pillow");
-
-            correctionAdd("skulpt", "Skulpt");
 
             correctionAdd("Ctypes", "ctypes");
 
@@ -116157,8 +116176,6 @@ namespace OverflowHelper.core
 
             URL_Add("ephemeral", "https://en.wiktionary.org/wiki/ephemeral#Adjective");
 
-            URL_Add("geometry", "https://en.wikipedia.org/wiki/Geometry");
-
             URL_Add("improvised", "https://en.wiktionary.org/wiki/improvise#Verb");
 
             URL_Add("nebulous", "https://en.wiktionary.org/wiki/nebulous#Adjective");
@@ -116553,13 +116570,9 @@ namespace OverflowHelper.core
 
             URL_Add("syntactical", "https://en.wiktionary.org/wiki/syntactical#Adjective");
 
-            URL_Add("arithmetic", "https://en.wiktionary.org/wiki/arithmetic#Adjective");
-
             URL_Add("bonus", "https://en.wiktionary.org/wiki/bonus#Noun");
 
             URL_Add("hush-hush", "https://en.wiktionary.org/wiki/hush-hush#Adjective");
-
-            URL_Add("nonnumeric", "https://en.wiktionary.org/wiki/nonnumeric#Adjective");
 
             URL_Add("specific impulse", "https://en.wikipedia.org/wiki/Specific_impulse");
 
@@ -118745,8 +118758,6 @@ namespace OverflowHelper.core
 
             URL_Add("Marmalade", "https://www.emacswiki.org/emacs/MarmaladeRepo");
 
-            URL_Add("Skulpt", "https://skulpt.org/"); // Old: <http://skulpt.org/>
-
             URL_Add("ctypes", "https://en.wikipedia.org/wiki/Ctypes");
 
             URL_Add("Integrated Performance Primitives", "https://en.wikipedia.org/wiki/Integrated_Performance_Primitives");
@@ -120382,8 +120393,6 @@ namespace OverflowHelper.core
             URL_Add("vigilance", "https://en.wiktionary.org/wiki/vigilance#Noun");
 
             URL_Add("war game", "https://en.wiktionary.org/wiki/war_game#Noun");
-
-            URL_Add("pentagon", "https://en.wiktionary.org/wiki/pentagon#Noun");
 
             URL_Add("Coverity", "https://en.wikipedia.org/wiki/Coverity#Products");
 
@@ -123352,10 +123361,6 @@ namespace OverflowHelper.core
             URL_Add("pay cut", "https://en.wiktionary.org/wiki/pay_cut#Noun");
 
             URL_Add("conscience", "https://en.wiktionary.org/wiki/conscience#Noun");
-
-            URL_Add("convex", "https://en.wiktionary.org/wiki/convex#Adjective");
-
-            URL_Add("cylindrical", "https://en.wiktionary.org/wiki/cylindrical#Adjective");
 
             URL_Add("Langtu", "https://www.youtube.com/watch?v=VARTTKlcSpo");
 
@@ -132669,18 +132674,6 @@ namespace OverflowHelper.core
 
             URL_Add("Nichicon", "https://en.wikipedia.org/wiki/Nichicon");
 
-            URL_Add("construct", "https://en.wiktionary.org/wiki/construct#Verb");
-
-            URL_Add("construction", "https://en.wiktionary.org/wiki/construction#Noun");
-
-            URL_Add("constructive", "https://en.wiktionary.org/wiki/constructive#Adjective");
-
-            URL_Add("constructed language", "https://en.wikipedia.org/wiki/Constructed_language");
-
-            URL_Add("constructive solid geometry", "https://en.wikipedia.org/wiki/Constructive_solid_geometry");
-
-            URL_Add("construct on first use idiom", "https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms/Construct_On_First_Use#Construct_On_First_Use");
-
             URL_Add("Unix-like", "https://en.wikipedia.org/wiki/Unix-like");
 
             URL_Add("Unix-like systems", "https://en.wikipedia.org/wiki/Unix-like");
@@ -136985,15 +136978,13 @@ namespace OverflowHelper.core
 
             URL_Add("mRNA", "https://en.wikipedia.org/wiki/Messenger_RNA");
 
-            URL_Add("T cell", "https://en.wikipedia.org/wiki/T_cell");
-
-            URL_Add("cell", "https://en.wiktionary.org/wiki/cell#Noun");
+            URL_Add("cellulitis", "https://en.wikipedia.org/wiki/Cellulitis");
 
             URL_Add("cellular", "https://en.wiktionary.org/wiki/cellular#Adjective");
 
-            URL_Add("single-cell", "https://en.wiktionary.org/wiki/single-celled#Adjective");
+            URL_Add("T cell", "https://en.wikipedia.org/wiki/T_cell");
 
-            URL_Add("cellulitis", "https://en.wikipedia.org/wiki/Cellulitis");
+            URL_Add("single-cell", "https://en.wiktionary.org/wiki/single-celled#Adjective");
 
             URL_Add("galvanic cell", "https://en.wikipedia.org/wiki/Galvanic_cell");
 
@@ -137296,30 +137287,6 @@ namespace OverflowHelper.core
             URL_Add("rotational symmetric", "https://en.wikipedia.org/wiki/Rotational_symmetry");
 
             URL_Add("symmetric multiprocessing", "https://en.wikipedia.org/wiki/Symmetric_multiprocessing");
-
-            URL_Add("metric", "https://en.wiktionary.org/wiki/metric#Noun");
-
-            URL_Add("metric system", "https://en.wikipedia.org/wiki/Metric_system");
-
-            URL_Add("Kerr metric", "https://en.wikipedia.org/wiki/Kerr_metric");
-
-            URL_Add("Schwarzschild metric", "https://en.wikipedia.org/wiki/Schwarzschild_metric");
-
-            URL_Add("Schwarzschild radius", "https://en.wikipedia.org/wiki/Schwarzschild_radius");
-
-            URL_Add("Friedmann–Lemaître–Robertson–Walker metric", "https://en.wikipedia.org/wiki/Friedmann%E2%80%93Lema%C3%AEtre%E2%80%93Robertson%E2%80%93Walker_metric");
-
-            URL_Add("Wasserstein metric", "https://en.wikipedia.org/wiki/Wasserstein_metric");
-
-            URL_Add("Wheeler–DeWitt metric", "https://en.wikipedia.org/wiki/Wheeler%E2%80%93DeWitt_equation");
-
-            URL_Add("Minkowski metric", "https://en.wikipedia.org/wiki/Minkowski_space");
-
-            URL_Add("Minkowski space", "https://en.wikipedia.org/wiki/Minkowski_space");
-
-            URL_Add("geometric", "https://en.wiktionary.org/wiki/geometric#Adjective");
-
-            URL_Add("arithmetico-geometric", "https://en.wiktionary.org/wiki/arithmetico-geometric#Adjective");
 
             URL_Add("base", "https://www.youtube.com/watch?v=t8ZqwlbH_kw&t=50s");
 
@@ -139404,8 +139371,6 @@ namespace OverflowHelper.core
             URL_Add("vive la différence", "https://en.wiktionary.org/wiki/vive_la_diff%C3%A9rence#Phrase");
 
             URL_Add("product differentiation", "https://en.wikipedia.org/wiki/Product_differentiation");
-
-            URL_Add("differential geometry", "https://en.wikipedia.org/wiki/Differential_geometry");
 
             URL_Add("Wikitia", "https://www.quora.com/What-is-Wikitia-and-how-is-it-different-from-Wikipedia/answer/Simran-Chaudhary-163");
 
@@ -143963,7 +143928,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;C1&nbsp;Pro&nbsp;8K", "https://keychron.ca/products/keychron-c1-pro-8k-qmk-wired-custom-mechanical-keyboard-us-ansi-layout");
 
-            URL_Add("Keychron&nbsp;C0&nbsp;HE&nbsp;8K (30%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-c0-he-one-handed-magnetic-switch-gaming-keyboard");
+            URL_Add("Keychron C0 HE 8K (30%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-c0-he-one-handed-magnetic-switch-gaming-keyboard");
 
             URL_Add("Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)", "https://keychron.ca/products/keychron-c3-pro-8k-qmk-wired-custom-mechanical-keyboard-us-ansi-layout");
 
@@ -143989,7 +143954,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;K2&nbsp;Pro", "https://www.keychron.com/products/keychron-k2-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection");
 
-            URL_Add("Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)", "https://www.keychron.com/products/keychron-k3-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron K3 Pro ISO (80%)", "https://www.keychron.com/products/keychron-k3-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection");
 
             URL_Add("Keychron&nbsp;K4&nbsp;Pro", "https://www.keychron.com/products/keychron-k4-pro-qmk-via-wireless-mechanical-keyboard");
 
@@ -144019,7 +143984,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;K2&nbsp;Max", "https://www.keychron.com/products/keychron-k2-max-qmk-wireless-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;K3&nbsp;Max", "https://www.keychron.com/products/keychron-k3-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron K3 Max", "https://www.keychron.com/products/keychron-k3-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
             URL_Add("Keychron&nbsp;K4&nbsp;Max", "https://www.keychron.com/products/keychron-k4-max-qmk-wireless-mechanical-keyboard");
 
@@ -144037,7 +144002,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron K15 Max", "https://www.keychron.com/products/keychron-k15-max-alice-layout-qmk-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;K3&nbsp;HE", "https://www.keychron.com/products/keychron-k3-he-wireless-magnetic-switch-custom-keyboard");
+            URL_Add("Keychron K3 HE", "https://www.keychron.com/products/keychron-k3-he-wireless-magnetic-switch-custom-keyboard");
 
             URL_Add("Keychron&nbsp;K4&nbsp;HE", "https://www.keychron.com/products/keychron-k4-he-wireless-magnetic-switch-custom-keyboard");
 
@@ -144325,7 +144290,59 @@ namespace OverflowHelper.core
 
             URL_Add("Microsoft Sculpt Ergonomic", "https://en.wikipedia.org/wiki/Microsoft_ergonomic_keyboards#Sculpt_ergonomic_keyboard");
 
+            URL_Add("construct", "https://en.wiktionary.org/wiki/construct#Verb");
+
+            URL_Add("construction", "https://en.wiktionary.org/wiki/construction#Noun");
+
+            URL_Add("constructive", "https://en.wiktionary.org/wiki/constructive#Adjective");
+
+            URL_Add("constructed language", "https://en.wikipedia.org/wiki/Constructed_language");
+
+            URL_Add("construct on first use idiom", "https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms/Construct_On_First_Use#Construct_On_First_Use");
+
+            URL_Add("constructive solid geometry", "https://en.wikipedia.org/wiki/Constructive_solid_geometry");
+
+            URL_Add("metric", "https://en.wiktionary.org/wiki/metric#Noun");
+
+            URL_Add("metric system", "https://en.wikipedia.org/wiki/Metric_system");
+
+            URL_Add("Kerr metric", "https://en.wikipedia.org/wiki/Kerr_metric");
+
+            URL_Add("Schwarzschild metric", "https://en.wikipedia.org/wiki/Schwarzschild_metric");
+
+            URL_Add("Schwarzschild radius", "https://en.wikipedia.org/wiki/Schwarzschild_radius");
+
+            URL_Add("Friedmann–Lemaître–Robertson–Walker metric", "https://en.wikipedia.org/wiki/Friedmann%E2%80%93Lema%C3%AEtre%E2%80%93Robertson%E2%80%93Walker_metric");
+
+            URL_Add("Wasserstein metric", "https://en.wikipedia.org/wiki/Wasserstein_metric");
+
+            URL_Add("Wheeler–DeWitt metric", "https://en.wikipedia.org/wiki/Wheeler%E2%80%93DeWitt_equation");
+
+            URL_Add("Minkowski metric", "https://en.wikipedia.org/wiki/Minkowski_space");
+
+            URL_Add("Minkowski space", "https://en.wikipedia.org/wiki/Minkowski_space");
+
+            URL_Add("arithmetico-geometric", "https://en.wiktionary.org/wiki/arithmetico-geometric#Adjective");
+
+            URL_Add("arithmetic", "https://en.wiktionary.org/wiki/arithmetic#Adjective");
+
+            URL_Add("nonnumeric", "https://en.wiktionary.org/wiki/nonnumeric#Adjective");
+
+            URL_Add("geometry", "https://en.wikipedia.org/wiki/Geometry");
+
+            URL_Add("geometric", "https://en.wiktionary.org/wiki/geometric#Adjective");
+
+            URL_Add("differential geometry", "https://en.wikipedia.org/wiki/Differential_geometry");
+
+            URL_Add("pentagon", "https://en.wiktionary.org/wiki/pentagon#Noun");
+
+            URL_Add("convex", "https://en.wiktionary.org/wiki/convex#Adjective");
+
+            URL_Add("cylindrical", "https://en.wiktionary.org/wiki/cylindrical#Adjective");
+
             URL_Add("sculpted", "https://en.wiktionary.org/wiki/sculpted#Adjective");
+
+            URL_Add("Skulpt", "https://skulpt.org/"); // Old: <http://skulpt.org/>
 
             URL_Add("spherical", "https://en.wiktionary.org/wiki/spherical#Adjective");
 
@@ -146578,6 +146595,8 @@ namespace OverflowHelper.core
             URL_Add("Linux Mint 18.2 (Sonya)", "https://en.wikipedia.org/wiki/Linux_Mint#Releases");
 
             URL_Add("Raspbian", "https://en.wikipedia.org/wiki/Raspberry_Pi#Software"); // Was https://en.wikipedia.org/wiki/Raspbian
+
+            URL_Add("Raspberry Pi OS", "https://en.wikipedia.org/wiki/Raspberry_Pi_OS");
 
             URL_Add("Debian", "https://en.wikipedia.org/wiki/Debian");
 
@@ -153230,6 +153249,7 @@ namespace OverflowHelper.core
             correctionAdd("symptoms_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
             correctionAdd("symptom_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
             correctionAdd("masking_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
+            correctionAdd("to hide_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
 
             // QMK
             correctionAdd("wear leveling for EEPROM emulation in QMK_", "wear leveling for EEPROM memory emulation in QMK_");
@@ -154322,6 +154342,18 @@ namespace OverflowHelper.core
             correctionAdd("capps_", "keycaps_");
             correctionAdd("csps_", "keycaps_"); // A true typo (of the shorthand "caps")
             correctionAdd("caps_", "keycaps_");
+
+            // Reference: The Dygma video (<https://www.youtube.com/watch?v=xLT2VcrQHrQ>?)
+            //
+            //  sculpted: 02 min 19 secs
+            // 
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=xLT2VcrQHrQ&t=2m45s>
+            //     The problem with nonstandard (physical) key layout
+            //
+            correctionAdd("sculpting_", "sculpted, a kind of row shape for a keycap profile_");
+            correctionAdd("sculpted_", "sculpted, a kind of row shape for a keycap profile_");
 
             // The verb, but it was intended to be the adjective
             //
@@ -157094,6 +157126,12 @@ namespace OverflowHelper.core
             correctionAdd("sped_", "speeded_");
 
             correctionAdd("speedup_", "speed up_");
+
+            // Only observed misspelt in 2026 (though introduced in 2025)
+            //
+            // From German?
+            correctionAdd("celle_", "cell_");
+            correctionAdd("sale_", "cell_");
 
             correctionAdd("handy_", "mobile phone_");
 
@@ -170226,10 +170264,6 @@ namespace OverflowHelper.core
 
             URL_Add("StarCraft_", "https://en.wikipedia.org/wiki/StarCraft");
 
-            URL_Add("keycap_", "https://en.wikipedia.org/wiki/Keycap");
-
-            URL_Add("keycaps_", "https://en.wikipedia.org/wiki/Keycap");
-
             URL_Add("managed_", "https://en.wiktionary.org/wiki/manage#Verb");
 
             URL_Add("managed identities_", "https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview");
@@ -172318,6 +172352,8 @@ namespace OverflowHelper.core
 
             URL_Add("MBA_", "https://en.wikipedia.org/wiki/Master_of_Business_Administration");
 
+            URL_Add("cell_", "https://en.wiktionary.org/wiki/cell#Noun");
+
             URL_Add("mobile phone_", "https://www.youtube.com/watch?v=xfeMGVCX-Gk&t=5m10s");
 
             URL_Add("mobile app_", "https://en.wikipedia.org/wiki/Mobile_app");
@@ -172359,6 +172395,12 @@ namespace OverflowHelper.core
             URL_Add("youth detention center_", "https://en.wikipedia.org/wiki/Youth_detention_center");
 
             URL_Add("cannabis_", "https://en.wikipedia.org/wiki/Cannabis_(drug)");
+
+            URL_Add("keycap_", "https://en.wikipedia.org/wiki/Keycap");
+
+            URL_Add("keycaps_", "https://en.wikipedia.org/wiki/Keycap");
+
+            URL_Add("sculpted, a kind of row shape for a keycap profile_", "https://www.youtube.com/watch?v=xLT2VcrQHrQ&t=2m19s");
 
             URL_Add("Return key_", "https://en.wikipedia.org/wiki/Enter_key");
 
@@ -177200,7 +177242,6 @@ namespace OverflowHelper.core
             // For the cross-reference to the source code
             // Note: In Git branch "wireless_playground"
             //
-            correctionAdd("Keychron&nbsp;K3&nbsp;Max__", "Keychron K3 Max source code__");
             correctionAdd("Keychron K3 Max__", "Keychron K3 Max source code__");
 
             // For the cross-reference to the source code
@@ -179318,6 +179359,87 @@ namespace OverflowHelper.core
             correctionAdd("intents___", "intent___"); // Plural, to avoid nearly duplicate entries.
             correctionAdd("Intent___", "intent___");
 
+            correctionAdd("MA___", "Master of Arts___");
+
+            correctionAdd("alternative keyboard layouts___", "using alternative keyboard layouts___"); // For the cross-reference
+            correctionAdd("alting___", "using alternative keyboard layouts___");
+
+            // Mechanical keyboards
+            correctionAdd("south-facing blinding light___", "Cherry keycap profile___"); // Mostly for the cross-reference
+            correctionAdd("Cherry profile keycaps___", "Cherry keycap profile___");
+            correctionAdd("cherry profile keycaps___", "Cherry keycap profile___");
+            correctionAdd("Cherry profile keycap___", "Cherry keycap profile___");
+            correctionAdd("cherry profile keycap___", "Cherry keycap profile___");
+            correctionAdd("Cherry MX profile___", "Cherry keycap profile___");
+            correctionAdd("Cherry profile___", "Cherry keycap profile___");
+            correctionAdd("cherry profile___", "Cherry keycap profile___");
+            correctionAdd("Cheers profile___", "Cherry keycap profile___"); // !!!!!. An autocorrect "masterpiece"?
+            correctionAdd("CHERRY PROFILE___", "Cherry keycap profile___");
+            correctionAdd("Cheer profile___", "Cherry keycap profile___");
+            correctionAdd("cherry caps___", "Cherry keycap profile___");
+            correctionAdd("MX profile___", "Cherry keycap profile___");
+            correctionAdd("Cherry MX___", "Cherry keycap profile___");
+            correctionAdd("Cherry___", "Cherry keycap profile___"); // Mostly for the cross-reference
+            correctionAdd("Cheery___", "Cherry keycap profile___");
+            correctionAdd("cheery___", "Cherry keycap profile___");
+
+            correctionAdd("mSA___", "MSA keycap profile___");
+            correctionAdd("MSA___", "MSA keycap profile___");
+            correctionAdd("msa___", "MSA keycap profile___");
+
+            // Keyboards, e.g., mechanical keyboards
+            // That is, the keys Ins, Del, Home, End, PgUp, and PgDn
+            //
+            correctionAdd("navigation___", "navigation cluster___");
+
+            correctionAdd("modificator___", "modifier___");
+            correctionAdd("modifirer___", "modifier___");
+            correctionAdd("modífier___", "modifier___");
+            correctionAdd("modfier___", "modifier___");
+
+            correctionAdd("modifieres___", "modifiers___");
+            correctionAdd("modders___", "modifiers___");
+            correctionAdd("mods___", "modifiers___");
+
+            // Mechanical keyboards (though not strictly)
+            //
+            // Plural version
+            //
+            // Notes:
+            //
+            //   * Keychron K HE and Q HE series:
+            //
+            //     South pole facing downward (uncommon)
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.hlplanet.com/keyboards-hall-effect-switches/>
+            //     Keyboards with Hall Effect switches
+            //
+            correctionAdd("Halo effect switches___", "Hall effect switches___");
+            correctionAdd("Hall effect swithces___", "Hall effect switches___");
+            correctionAdd("hall effect swithces___", "Hall effect switches___");
+            correctionAdd("Hall efect switches___", "Hall effect switches___");
+            correctionAdd("Hall efect swithces___", "Hall effect switches___");
+            correctionAdd("hall efect switches___", "Hall effect switches___");
+            correctionAdd("hall efect swithces___", "Hall effect switches___");
+            correctionAdd("Magnetic Switches___", "Hall effect switches___");
+            correctionAdd("magnetic switches___", "Hall effect switches___");
+            correctionAdd("Hall Switches___", "Hall effect switches___");
+            correctionAdd("Hall switches___", "Hall effect switches___");
+            correctionAdd("hall switches___", "Hall effect switches___");
+            correctionAdd("hall effects___", "Hall effect switches___");
+            correctionAdd("Hall effects___", "Hall effect switches___");
+            correctionAdd("HE switches___", "Hall effect switches___");
+            correctionAdd("Hall effect switch___", "Hall effect switches___"); // For the cross-reference
+
+            // Alternative URLs:
+            //
+            //   <https://www.adafruit.com/product/423>
+            //
+            correctionAdd("foot switch___", "footswitch___");
+            correctionAdd("switch___", "footswitch___"); // For the cross-reference
+
             // QMK
             //
             // Alternative URLs:
@@ -179333,6 +179455,72 @@ namespace OverflowHelper.core
             correctionAdd("255,0,0___", "RGB_RED (0xFF0000)___");
             correctionAdd("FF0000___", "RGB_RED (0xFF0000)___");
             correctionAdd("red___", "RGB_RED (0xFF0000)___");
+
+            correctionAdd("lube___", "lubrication___");
+
+            // A type of switch for mechanical keyboards
+            // Tactile and clicky.
+            correctionAdd("Cherry MX Green switch___", "Cherry MX Green switches___");
+            correctionAdd("CHERRY MX GREEN___", "Cherry MX Green switches___");
+            correctionAdd("Cherry MX Green___", "Cherry MX Green switches___");
+            correctionAdd("green___", "Cherry MX Green switches___");
+
+            // A Taiwanese manufacturer, incl. of mechanical keyboards
+            //
+            // Note: The firmware for Cooler Master keyboards ***is***
+            //       actually available stand-alone (without the
+            //       configuration software (e.g., MasterPlus+))
+            //       standing in the way, incl. older versions
+            //       of the firmware (e.g., a way to restore
+            //       the "Snake" game on some keyboards...).
+            //       It is the fifth item (orange) - click
+            //       on the down icon (on the right) in it):
+            //
+            //         <https://coolermaster.com.cn/DriveDownload/>
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.coolermaster.com/about-cooler-master/>
+            //
+            //   <https://github.com/chmod222/libcmmk>
+            //     An implementation of the Masterkey Lighting API
+            //     for programmatic control of LEDs of
+            //     Coolermaster Masterkey keyboards.
+            //
+            correctionAdd("Cooling Master___", "Cooler Master___");
+            correctionAdd("Cooling master___", "Cooler Master___");
+            correctionAdd("cooling master___", "Cooler Master___");
+            correctionAdd("COOLER MASTER___", "Cooler Master___");
+            correctionAdd("cooler master___", "Cooler Master___");
+            correctionAdd("Cooler master___", "Cooler Master___");
+            correctionAdd("master cooler___", "Cooler Master___");
+            correctionAdd("cooler Master___", "Cooler Master___");
+            correctionAdd("CoolerMaster___", "Cooler Master___");
+            correctionAdd("Coolermaster___", "Cooler Master___");
+            correctionAdd("coolermaster___", "Cooler Master___");
+            correctionAdd("COOLERMASTER___", "Cooler Master___");
+            correctionAdd("Coole Master___", "Cooler Master___");
+            correctionAdd("mastercooler___", "Cooler Master___");
+            correctionAdd("CoolerMAster___", "Cooler Master___");
+            correctionAdd("Cooler Mater___", "Cooler Master___");
+            correctionAdd("Collermaster___", "Cooler Master___");
+            correctionAdd("Cool Master___", "Cooler Master___");
+            correctionAdd("cool master___", "Cooler Master___");
+            correctionAdd("Coolermater___", "Cooler Master___");
+            correctionAdd("coolermater___", "Cooler Master___");
+            correctionAdd("CooleMaster___", "Cooler Master___");
+            correctionAdd("coolmaster___", "Cooler Master___");
+            correctionAdd("Coolermast___", "Cooler Master___");
+            correctionAdd("Cm___", "Cooler Master___");
+            correctionAdd("CM___", "Cooler Master___");
+
+            // Incl. mice and mechanical keyboards from Razer
+            //
+            // Similar to iCue
+            //
+            correctionAdd("razer synapse___", "Razer Synapse___");
+            correctionAdd("Razer Synapes___", "Razer Synapse___");
+            correctionAdd("Razer___", "Razer Synapse___"); // For the cross-reference
 
             // A brand of (low-cost) mechanical keyboards (and mice).
             //
@@ -179360,7 +179548,37 @@ namespace OverflowHelper.core
             correctionAdd("Rd___", "Redragon___"); // A SIA
             correctionAdd("RD___", "Redragon___"); // A SIA
 
-            correctionAdd("lube___", "lubrication___");
+            // A phase before a group buy. E.g., mechanical keyboards.
+            //
+            // The reference is broken now... Alternative (but
+            // not a good one):
+            //
+            //   <https://glosbe.com/en/en/interest%20check>
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/keycapdesigners/comments/377dpl/the_how_to_guide_for_running_interest_checks_and/>
+            //   <https://hirosarts.com/blog/what-are-keyboard-group-buys/>
+            //   <https://dotesports.com/general/news/what-is-a-mechanical-keyboard-group-buy-group-buys-explained>
+            //
+            correctionAdd("Interest Check___", "interest check___");
+            correctionAdd("IC___", "interest check___");
+
+            // Related to mechanical keyboards
+            correctionAdd("Mass drop___", "Drop___");
+            correctionAdd("mass drop___", "Drop___");
+            correctionAdd("group buy___", "Drop___");
+            correctionAdd("Massdrop___", "Drop___");
+            correctionAdd("massdrop___", "Drop___");
+            correctionAdd("drop.com___", "Drop___");
+            correctionAdd("drop___", "Drop___");
+            correctionAdd("DROP___", "Drop___");
+            correctionAdd("Dorp___", "Drop___");
+            correctionAdd("GB___", "Drop___");
+            correctionAdd("gb___", "Drop___");
+
+            correctionAdd("chrome canary___", "Chrome Canary___");
+            correctionAdd("canary___", "Chrome Canary___");
 
             correctionAdd("full stop___", "period___"); // For the cross-reference
             correctionAdd("perioud___", "period___");
@@ -179590,6 +179808,9 @@ namespace OverflowHelper.core
             correctionAdd("&nbsp;centigrade___", "&nbsp;°C___");
             correctionAdd("&nbsp;Fahrenheit___", "&nbsp;°C___"); // For the cross-reference
             correctionAdd("centigrade___", "&nbsp;°C___");
+            correctionAdd("*Celsius___", "&nbsp;°C___");
+            correctionAdd("*celsius___", "&nbsp;°C___");
+            correctionAdd("°celsius___", "&nbsp;°C___");
             correctionAdd("Celsius___", "&nbsp;°C___");
             correctionAdd("Celcius___", "&nbsp;°C___");
             correctionAdd("celcius___", "&nbsp;°C___");
@@ -180128,14 +180349,6 @@ namespace OverflowHelper.core
             correctionAdd("fid___", "fit___");
             correctionAdd("fir___", "fit___");
 
-            // Incl. mice and mechanical keyboards from Razer
-            //
-            // Similar to iCue
-            //
-            correctionAdd("razer synapse___", "Razer Synapse___");
-            correctionAdd("Razer Synapes___", "Razer Synapse___");
-            correctionAdd("Razer___", "Razer Synapse___"); // For the cross-reference
-
             // Stack Overflow
             //
             // Related: "Code blocks are not meant for fancy formatting"
@@ -180382,64 +180595,6 @@ namespace OverflowHelper.core
             correctionAdd("ANSI___", "ANSI C___");
 
             correctionAdd("IO___", "Io___"); // Astronomy. The moon
-
-            correctionAdd("alternative keyboard layouts___", "using alternative keyboard layouts___"); // For the cross-reference
-            correctionAdd("alting___", "using alternative keyboard layouts___");
-
-            // Mechanical keyboards (though not strictly)
-            //
-            // Plural version
-            //
-            // Notes:
-            //
-            //   * Keychron K HE and Q HE series:
-            //
-            //     South pole facing downward (uncommon)
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.hlplanet.com/keyboards-hall-effect-switches/>
-            //     Keyboards with Hall Effect switches
-            //
-            correctionAdd("Halo effect switches___", "Hall effect switches___");
-            correctionAdd("Hall effect swithces___", "Hall effect switches___");
-            correctionAdd("hall effect swithces___", "Hall effect switches___");
-            correctionAdd("Hall efect switches___", "Hall effect switches___");
-            correctionAdd("Hall efect swithces___", "Hall effect switches___");
-            correctionAdd("hall efect switches___", "Hall effect switches___");
-            correctionAdd("hall efect swithces___", "Hall effect switches___");
-            correctionAdd("Magnetic Switches___", "Hall effect switches___");
-            correctionAdd("magnetic switches___", "Hall effect switches___");
-            correctionAdd("Hall Switches___", "Hall effect switches___");
-            correctionAdd("Hall switches___", "Hall effect switches___");
-            correctionAdd("hall switches___", "Hall effect switches___");
-            correctionAdd("hall effects___", "Hall effect switches___");
-            correctionAdd("Hall effects___", "Hall effect switches___");
-            correctionAdd("HE switches___", "Hall effect switches___");
-            correctionAdd("Hall effect switch___", "Hall effect switches___"); // For the cross-reference
-
-            // Alternative URLs:
-            //
-            //   <https://www.adafruit.com/product/423>
-            //
-            correctionAdd("foot switch___", "footswitch___");
-            correctionAdd("switch___", "footswitch___"); // For the cross-reference
-
-            // A phase before a group buy. E.g., mechanical keyboards.
-            //
-            // The reference is broken now... Alternative (but
-            // not a good one):
-            //
-            //   <https://glosbe.com/en/en/interest%20check>
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.reddit.com/r/keycapdesigners/comments/377dpl/the_how_to_guide_for_running_interest_checks_and/>
-            //   <https://hirosarts.com/blog/what-are-keyboard-group-buys/>
-            //   <https://dotesports.com/general/news/what-is-a-mechanical-keyboard-group-buy-group-buys-explained>
-            //
-            correctionAdd("Interest Check___", "interest check___");
-            correctionAdd("IC___", "interest check___");
 
             // The HTML 'verb' / the HTML method
             correctionAdd("head___", "HEAD___");
@@ -180947,48 +181102,6 @@ namespace OverflowHelper.core
             correctionAdd("SL___", "stop-loss order___");
             correctionAdd("sl___", "stop-loss order___");
 
-            correctionAdd("modificator___", "modifier___");
-            correctionAdd("modifirer___", "modifier___");
-            correctionAdd("modífier___", "modifier___");
-            correctionAdd("modfier___", "modifier___");
-
-            correctionAdd("modifieres___", "modifiers___");
-            correctionAdd("modders___", "modifiers___");
-            correctionAdd("mods___", "modifiers___");
-
-            // Mechanical keyboards
-            correctionAdd("south-facing blinding light___", "Cherry keycap profile___"); // Mostly for the cross-reference
-            correctionAdd("Cherry profile keycaps___", "Cherry keycap profile___");
-            correctionAdd("cherry profile keycaps___", "Cherry keycap profile___");
-            correctionAdd("Cherry profile keycap___", "Cherry keycap profile___");
-            correctionAdd("cherry profile keycap___", "Cherry keycap profile___");
-            correctionAdd("Cherry MX profile___", "Cherry keycap profile___");
-            correctionAdd("Cherry profile___", "Cherry keycap profile___");
-            correctionAdd("cherry profile___", "Cherry keycap profile___");
-            correctionAdd("Cheers profile___", "Cherry keycap profile___"); // !!!!!. An autocorrect "masterpiece"?
-            correctionAdd("CHERRY PROFILE___", "Cherry keycap profile___");
-            correctionAdd("Cheer profile___", "Cherry keycap profile___");
-            correctionAdd("cherry caps___", "Cherry keycap profile___");
-            correctionAdd("MX profile___", "Cherry keycap profile___");
-            correctionAdd("Cherry MX___", "Cherry keycap profile___");
-            correctionAdd("Cherry___", "Cherry keycap profile___"); // Mostly for the cross-reference
-            correctionAdd("Cheery___", "Cherry keycap profile___");
-            correctionAdd("cheery___", "Cherry keycap profile___");
-
-            correctionAdd("mSA___", "MSA keycap profile___");
-            correctionAdd("MSA___", "MSA keycap profile___");
-            correctionAdd("msa___", "MSA keycap profile___");
-
-            // A type of switch for mechanical keyboards
-            // Tactile and clicky.
-            correctionAdd("Cherry MX Green switch___", "Cherry MX Green switches___");
-            correctionAdd("CHERRY MX GREEN___", "Cherry MX Green switches___");
-            correctionAdd("Cherry MX Green___", "Cherry MX Green switches___");
-            correctionAdd("green___", "Cherry MX Green switches___");
-
-            correctionAdd("chrome canary___", "Chrome Canary___");
-            correctionAdd("canary___", "Chrome Canary___");
-
             // A word processor
             correctionAdd("word perfect___", "WordPerfect___");
             correctionAdd("wordperfect___", "WordPerfect___");
@@ -181026,57 +181139,6 @@ namespace OverflowHelper.core
             correctionAdd("train set___", "training data set___");
             correctionAdd("test set___", "training data set___");
             correctionAdd("TD___", "training data set___");
-
-            correctionAdd("MA___", "Master of Arts___");
-
-            // A Taiwanese manufacturer, incl. of mechanical keyboards
-            //
-            // Note: The firmware for Cooler Master keyboards ***is***
-            //       actually available stand-alone (without the
-            //       configuration software (e.g., MasterPlus+))
-            //       standing in the way, incl. older versions
-            //       of the firmware (e.g., a way to restore
-            //       the "Snake" game on some keyboards...).
-            //       It is the fifth item (orange) - click
-            //       on the down icon (on the right) in it):
-            //
-            //         <https://coolermaster.com.cn/DriveDownload/>
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.coolermaster.com/about-cooler-master/>
-            //
-            //   <https://github.com/chmod222/libcmmk>
-            //     An implementation of the Masterkey Lighting API
-            //     for programmatic control of LEDs of
-            //     Coolermaster Masterkey keyboards.
-            //
-            correctionAdd("Cooling Master___", "Cooler Master___");
-            correctionAdd("Cooling master___", "Cooler Master___");
-            correctionAdd("cooling master___", "Cooler Master___");
-            correctionAdd("COOLER MASTER___", "Cooler Master___");
-            correctionAdd("cooler master___", "Cooler Master___");
-            correctionAdd("Cooler master___", "Cooler Master___");
-            correctionAdd("master cooler___", "Cooler Master___");
-            correctionAdd("cooler Master___", "Cooler Master___");
-            correctionAdd("CoolerMaster___", "Cooler Master___");
-            correctionAdd("Coolermaster___", "Cooler Master___");
-            correctionAdd("coolermaster___", "Cooler Master___");
-            correctionAdd("COOLERMASTER___", "Cooler Master___");
-            correctionAdd("Coole Master___", "Cooler Master___");
-            correctionAdd("mastercooler___", "Cooler Master___");
-            correctionAdd("CoolerMAster___", "Cooler Master___");
-            correctionAdd("Cooler Mater___", "Cooler Master___");
-            correctionAdd("Collermaster___", "Cooler Master___");
-            correctionAdd("Cool Master___", "Cooler Master___");
-            correctionAdd("cool master___", "Cooler Master___");
-            correctionAdd("Coolermater___", "Cooler Master___");
-            correctionAdd("coolermater___", "Cooler Master___");
-            correctionAdd("CooleMaster___", "Cooler Master___");
-            correctionAdd("coolmaster___", "Cooler Master___");
-            correctionAdd("Coolermast___", "Cooler Master___");
-            correctionAdd("Cm___", "Cooler Master___");
-            correctionAdd("CM___", "Cooler Master___");
 
             // Linux / Unix (ANSI C).
             //
@@ -181195,19 +181257,6 @@ namespace OverflowHelper.core
             correctionAdd("hallway usability___", "hallway usability testing___");
             correctionAdd("usability study___", "hallway usability testing___");
             correctionAdd("usability___", "hallway usability testing___");
-
-            // Related to mechanical keyboards
-            correctionAdd("Mass drop___", "Drop___");
-            correctionAdd("mass drop___", "Drop___");
-            correctionAdd("group buy___", "Drop___");
-            correctionAdd("Massdrop___", "Drop___");
-            correctionAdd("massdrop___", "Drop___");
-            correctionAdd("drop.com___", "Drop___");
-            correctionAdd("drop___", "Drop___");
-            correctionAdd("DROP___", "Drop___");
-            correctionAdd("Dorp___", "Drop___");
-            correctionAdd("GB___", "Drop___");
-            correctionAdd("gb___", "Drop___");
 
             correctionAdd("Room Owner___", "room owner (RO - chat)___");
             correctionAdd("ro___", "room owner (RO - chat)___");
@@ -182277,9 +182326,13 @@ namespace OverflowHelper.core
 
             URL_Add("capitalise___", "https://en.wiktionary.org/wiki/capitalise#Verb");
 
+            URL_Add("navigation cluster___", "https://en.wikipedia.org/wiki/File:Insertpad.svg");
+
             URL_Add("Cherry keycap profile___", "https://switchandclick.com/sa-vs-dsa-vs-oem-vs-cherry-vs-xda-keycap-profiles/");
 
             URL_Add("MSA keycap profile___", "https://thekeeblog.com/overview-of-different-keycap-profiles/#MA_Profile");
+
+            URL_Add("Redragon___", "https://switchandclick.com/is-redragon-good-budget-meets-performance/");
 
             URL_Add("Unity Operating System___", "https://en.wikipedia.org/wiki/Unity_Operating_System");
 
@@ -182478,8 +182531,6 @@ namespace OverflowHelper.core
             URL_Add("fuck___", "https://en.wiktionary.org/wiki/fuck#Verb");
 
             URL_Add("Microsoft___", "https://en.wikipedia.org/wiki/Microsoft");
-
-            URL_Add("Redragon___", "https://switchandclick.com/is-redragon-good-budget-meets-performance/");
 
         } //addLookupData_alternativeWordSet3()
 
@@ -183381,7 +183432,6 @@ namespace OverflowHelper.core
             // For the cross-reference to the default keymap
             // Note: In Git branch "wireless_playground"
             //
-            correctionAdd("Keychron&nbsp;K3&nbsp;Max____", "Keychron K3 Max default keymap (ISO RGB)____");
             correctionAdd("K3 Max default keymap____", "Keychron K3 Max default keymap (ISO RGB)____");
             correctionAdd("Keychron K3 Max____", "Keychron K3 Max default keymap (ISO RGB)____");
             correctionAdd("K3 Max keymap____", "Keychron K3 Max default keymap (ISO RGB)____");
