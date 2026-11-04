@@ -655,17 +655,38 @@
                                                                       #      thus an empty entry when
                                                                       #)     decoding it).
 
-                # Alias, to make reverting a one-line change
                 $correctTermOutput = $correctTerm;
 
                 #$correctTermOutput = substr_replace($correctTerm, ' ', '&nbsp;');
                 #$correctTermOutput = preg_replace($correctTerm, '&nbsp;', 0);
 
-                $correctTermOutput = preg_replace('/ /', '&nbsp;', $correctTerm);
+                # Strip trailing space
+                $correctTermOutput = preg_replace('/ *$/', '',
+                                                  $correctTermOutput);
+
+                # Remove the trailing underscore(s), if any. That
+                # is, don't include the trailing underscore in
+                # the link texts, etc.
+                #
+                $correctTermOutput = preg_replace('/_*$/', '',
+                                                  $correctTermOutput);
+
+                # Non-breaking space in HTML format (it
+                # happens to work in all the output
+                # formats we currently use)
+                $correctTermOutput = preg_replace('/ /', '&nbsp;',
+                                                  $correctTermOutput);
 
                 # Or maybe using str_replace()?:
                 #
                 #    $encodedContent = str_replace('"', '%22', $aRawContent);
+
+
+                #$correctTermOutput = "XYZ"; # $$$
+
+
+                # To make reverting a one-line change
+                # $correctTermOutput = $correctTerm;
 
 
                 $linkInlineMarkdown = "[$correctTermOutput]($URL)";

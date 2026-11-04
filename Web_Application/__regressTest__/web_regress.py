@@ -1017,7 +1017,8 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             self._lookUp("chord",
                          firstRealLookup_editSummary,
                          defaultMsgForEditSummary,
-                         "''[[Shorthand|stenography_]]''",
+                         #"''[[Shorthand|stenography_]]''",
+                         "''[[Shorthand|stenography]]''",
                          "Plover",
                          #"http://localhost/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=python_")
                          altURLprefix + "stenography",
@@ -1240,7 +1241,8 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             self._lookUp("quite_",
                          "Active reading [<https://en.wiktionary.org/wiki/quite#Adverb>].",
                          defaultMsgForEditSummary,
-                         "''[[quite#Adverb|quite_]]''",
+                         #"''[[quite#Adverb|quite_]]''",
+                         "''[[quite#Adverb|quite]]''",
                          "quiet", altURLprefix + "quite",
                          wordList_URLprefix + "quite_")
 
