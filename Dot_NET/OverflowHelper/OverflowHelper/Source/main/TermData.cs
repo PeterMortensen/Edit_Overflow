@@ -8157,16 +8157,14 @@ namespace OverflowHelper.core
             correctionAdd("endless OS", "Endless OS");
 
             // A Linux distribution
-            correctionAdd("Elementary&nbsp;OS", "elementary&nbsp;OS");
-            correctionAdd("Elementary OS", "elementary&nbsp;OS"); // Sort of identity mapping
-            correctionAdd("elementary os", "elementary&nbsp;OS");
-            correctionAdd("elementary OS", "elementary&nbsp;OS");
-            correctionAdd("ElementaryOS", "elementary&nbsp;OS");
-            correctionAdd("elementaryOS", "elementary&nbsp;OS");
-            correctionAdd("elementaryos", "elementary&nbsp;OS");
-            correctionAdd("Elementary", "elementary&nbsp;OS");
-            correctionAdd("elementary", "elementary&nbsp;OS");
-            correctionAdd("eOS", "elementary&nbsp;OS");
+            correctionAdd("Elementary OS", "elementary OS");
+            correctionAdd("elementary os", "elementary OS");
+            correctionAdd("ElementaryOS", "elementary OS");
+            correctionAdd("elementaryOS", "elementary OS");
+            correctionAdd("elementaryos", "elementary OS");
+            correctionAdd("Elementary", "elementary OS");
+            correctionAdd("elementary", "elementary OS");
+            correctionAdd("eOS", "elementary OS");
 
             // A Linux distribution
             correctionAdd("Cent OS", "CentOS");
@@ -8391,9 +8389,8 @@ namespace OverflowHelper.core
             correctionAdd("kde", "KDE");
             correctionAdd("Kde", "KDE");
 
-            correctionAdd("KDE 4", "KDE&nbsp;4"); // Sort of identity mapping
-            correctionAdd("kde4", "KDE&nbsp;4");
-            correctionAdd("KDE4", "KDE&nbsp;4");
+            correctionAdd("kde4", "KDE 4");
+            correctionAdd("KDE4", "KDE 4");
 
             // A Linux distribution.
             correctionAdd("KDE Neon", "KDE neon");
@@ -11049,12 +11046,11 @@ namespace OverflowHelper.core
             correctionAdd("OHLC", "open-high-low-close chart");
 
             // Stock market related
-            correctionAdd("spx index", "S&P&nbsp;500");
-            correctionAdd("SPX Index", "S&P&nbsp;500");
-            correctionAdd("S&P 500", "S&P&nbsp;500"); // Sort of identity mapping
-            correctionAdd("S&P500", "S&P&nbsp;500");
-            correctionAdd("SP500", "S&P&nbsp;500");
-            correctionAdd("SPX", "S&P&nbsp;500");
+            correctionAdd("spx index", "S&P 500");
+            correctionAdd("SPX Index", "S&P 500");
+            correctionAdd("S&P500", "S&P 500");
+            correctionAdd("SP500", "S&P 500");
+            correctionAdd("SPX", "S&P 500");
 
             // Stock market related
             correctionAdd("blue chip", "bluechip");
@@ -15359,6 +15355,7 @@ namespace OverflowHelper.core
 
             correctionAdd("post-process", "postprocess");
             correctionAdd("Post process", "postprocess");
+            correctionAdd("post process", "postprocess");
 
             // The noun
             correctionAdd("post processing", "postprocessing");
@@ -15550,6 +15547,12 @@ namespace OverflowHelper.core
 
             correctionAdd("batterylife", "battery life");
 
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=VJC_L6NCX_A&t=4m7s>
+            //     Optimal charge state (e.g., storage): Somewhere
+            //     in the middle (at 04 min 07 secs)
+            //
             correctionAdd("Lithium Ion batteries", "lithium-ion batteries");
             correctionAdd("lithium ion batteries", "lithium-ion batteries");
             correctionAdd("Lithium-Ion batteries", "lithium-ion batteries");
@@ -51513,6 +51516,7 @@ namespace OverflowHelper.core
             correctionAdd("Shift Reigster", "shift register");
             correctionAdd("shift reigster", "shift register");
 
+            // The adjective. The verb is "hard-wired".
             correctionAdd("hard wired", "hardwired");
 
             correctionAdd("nand", "NAND");
@@ -86714,11 +86718,9 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/v2_max>
             //
-            correctionAdd("Keychron V2 Max", "Keychron&nbsp;V2&nbsp;Max"); // Sort of identity mapping
-            correctionAdd("V2&nbsp;Max", "Keychron&nbsp;V2&nbsp;Max");
-            correctionAdd("v2 max", "Keychron&nbsp;V2&nbsp;Max");
-            correctionAdd("V2 Max", "Keychron&nbsp;V2&nbsp;Max");
-            correctionAdd("V2 MAX", "Keychron&nbsp;V2&nbsp;Max");
+            correctionAdd("v2 max", "Keychron V2 Max");
+            correctionAdd("V2 Max", "Keychron V2 Max");
+            correctionAdd("V2 MAX", "Keychron V2 Max");
 
             // A 67-key (65%. Not true TKL) crippled Alice layout
             // (sort of ergonomic) mechanical keyboard from OwLab.
@@ -88157,15 +88159,13 @@ namespace OverflowHelper.core
             // RGB (per-key) south-facing (unwanted
             // ***light bleed***) lighting.
             //
-            correctionAdd("Q1&nbsp;Ultra&nbsp;8K", "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K");
-            correctionAdd("Keychron Q1 Ultra 8K", "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K"); // Sort of identity mapping
-            correctionAdd("keychron Q1 Ultra", "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K");
-            correctionAdd("Q1 Ultra 8K", "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K");
-            correctionAdd("Q1 Ultra 8k", "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K");
-            correctionAdd("Q1 Ulta 8k", "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K");
-            correctionAdd("Q1 Ultra", "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K");
-            correctionAdd("Q1 ultra", "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K");
-            correctionAdd("q1 ultra", "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K");
+            correctionAdd("keychron Q1 Ultra", "Keychron Q1 Ultra 8K");
+            correctionAdd("Q1 Ultra 8K", "Keychron Q1 Ultra 8K");
+            correctionAdd("Q1 Ultra 8k", "Keychron Q1 Ultra 8K");
+            correctionAdd("Q1 Ulta 8k", "Keychron Q1 Ultra 8K");
+            correctionAdd("Q1 Ultra", "Keychron Q1 Ultra 8K");
+            correctionAdd("Q1 ultra", "Keychron Q1 Ultra 8K");
+            correctionAdd("q1 ultra", "Keychron Q1 Ultra 8K");
 
             // A 82-key (80%. Not true TKL) crippled wired-only
             // closed source (but with Via support) mechanical
@@ -88427,20 +88427,19 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/v1_max/info.json#L21>
             //
-            correctionAdd("KEYCHRON V1 MAX", "Keychron&nbsp;V1&nbsp;Max");
-            correctionAdd("Keychron v1 max", "Keychron&nbsp;V1&nbsp;Max");
-            correctionAdd("Keychron V1 max", "Keychron&nbsp;V1&nbsp;Max");
-            correctionAdd("Keychron V1 MAX", "Keychron&nbsp;V1&nbsp;Max");
-            correctionAdd("Keychron V1 Max", "Keychron&nbsp;V1&nbsp;Max"); // Sort of identity mapping
-            correctionAdd("keychron v1 max", "Keychron&nbsp;V1&nbsp;Max");
-            correctionAdd("V1&nbsp;Max", "Keychron&nbsp;V1&nbsp;Max");
-            correctionAdd("max v1", "Keychron&nbsp;V1&nbsp;Max");
-            correctionAdd("v1 max", "Keychron&nbsp;V1&nbsp;Max");
-            correctionAdd("V1 max", "Keychron&nbsp;V1&nbsp;Max");
-            correctionAdd("V1 MAX", "Keychron&nbsp;V1&nbsp;Max");
-            correctionAdd("V1 Max", "Keychron&nbsp;V1&nbsp;Max");
-            correctionAdd("V1MAX", "Keychron&nbsp;V1&nbsp;Max");
-            correctionAdd("V1Max", "Keychron&nbsp;V1&nbsp;Max");
+            correctionAdd("KEYCHRON V1 MAX", "Keychron V1 Max");
+            correctionAdd("Keychron v1 max", "Keychron V1 Max");
+            correctionAdd("Keychron V1 max", "Keychron V1 Max");
+            correctionAdd("Keychron V1 MAX", "Keychron V1 Max");
+            correctionAdd("keychron v1 max", "Keychron V1 Max");
+            correctionAdd("V1&nbsp;Max", "Keychron V1 Max");
+            correctionAdd("max v1", "Keychron V1 Max");
+            correctionAdd("v1 max", "Keychron V1 Max");
+            correctionAdd("V1 max", "Keychron V1 Max");
+            correctionAdd("V1 MAX", "Keychron V1 Max");
+            correctionAdd("V1 Max", "Keychron V1 Max");
+            correctionAdd("V1MAX", "Keychron V1 Max");
+            correctionAdd("V1Max", "Keychron V1 Max");
 
             // A 82-key (80%. Not true TKL) crippled wired and
             // wireless (both Bluetooth and '2.4 GHz')
@@ -88483,18 +88482,17 @@ namespace OverflowHelper.core
             //   <https://www.keychron.com/pages/keychron-v1-ultra-8k-quick-start-guide>
             //     V1 Ultra 8K quick start guide
             //
-            correctionAdd("V1&nbsp;Ultra&nbsp;8K", "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K");
-            correctionAdd("Keychron V1 Ultra 8K", "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K"); // Sort of identity mapping
-            correctionAdd("KEYCHRON VI ULTRA 8k", "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K");
-            correctionAdd("Keychron V1 Ultra", "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K");
-            correctionAdd("V1 Ultra 8K", "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K");
-            correctionAdd("V1 Ultra 8k", "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K");
-            correctionAdd("v1 Ultra 8k", "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K");
-            correctionAdd("V1 ULTRA 8K", "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K");
-            correctionAdd("V1 ULTRA 8k", "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K");
-            correctionAdd("VI ULTRA 8k", "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K");
-            correctionAdd("v1 ultra", "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K");
-            correctionAdd("V1 Ultra", "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K");
+            correctionAdd("KEYCHRON VI ULTRA 8k", "Keychron V1 Ultra 8K");
+            correctionAdd("Keychron V1 Ultra", "Keychron V1 Ultra 8K");
+            correctionAdd("V1 Ultra 8K", "Keychron V1 Ultra 8K");
+            correctionAdd("V1 Ultra 8k", "Keychron V1 Ultra 8K");
+            correctionAdd("v1 Ultra 8k", "Keychron V1 Ultra 8K");
+            correctionAdd("V1 ULTRA 8K", "Keychron V1 Ultra 8K");
+            correctionAdd("V1 ULTRA 8k", "Keychron V1 Ultra 8K");
+            correctionAdd("VI ULTRA 8k", "Keychron V1 Ultra 8K");
+            correctionAdd("v1 ultra", "Keychron V1 Ultra 8K");
+            correctionAdd("V1 Ultra", "Keychron V1 Ultra 8K");
+            correctionAdd("V1 ultra", "Keychron V1 Ultra 8K");
 
             // A 82-key (80%. Not true TKL) crippled wired-only
             // QMK/Via-capable hot-swappable mechanical
@@ -88502,12 +88500,15 @@ namespace OverflowHelper.core
             //
             // Notes:
             //
+            //   * Not to be confused with V1 Ultra 8K
+            //
+            //   * Is wired only
+            //
             //   * With a 8 kHz USB polling rate
             //
             //   * Based on QMK, unlike ZMK for V1 Ultra 8K
             //
-            correctionAdd("Keychron V1 8K", "Keychron&nbsp;V1&nbsp;8K"); // Sort of identity mapping
-            correctionAdd("V1 8K", "Keychron&nbsp;V1&nbsp;8K");
+            correctionAdd("V1 8K", "Keychron V1 8K");
 
             // A 82-key (80%. Not true TKL) crippled wired-only
             // QMK/Via-capable mechanical keyboard with a knob
@@ -110272,7 +110273,7 @@ namespace OverflowHelper.core
 
             URL_Add("IDL", "https://en.wikipedia.org/wiki/IDL_%28programming_language%29");
 
-            URL_Add("elementary&nbsp;OS", "https://en.wikipedia.org/wiki/Elementary_OS");
+            URL_Add("elementary OS", "https://en.wikipedia.org/wiki/Elementary_OS");
 
             URL_Add("VHDL", "https://en.wikipedia.org/wiki/VHDL");
 
@@ -120308,7 +120309,7 @@ namespace OverflowHelper.core
 
             URL_Add("EasyChair", "https://en.wikipedia.org/wiki/EasyChair");
 
-            URL_Add("S&P&nbsp;500", "https://en.wikipedia.org/wiki/S%26P_500");
+            URL_Add("S&P 500", "https://en.wikipedia.org/wiki/S%26P_500");
 
             URL_Add("stay", "https://en.wiktionary.org/wiki/stay#Verb");
 
@@ -139618,7 +139619,7 @@ namespace OverflowHelper.core
 
             URL_Add("KDE", "https://en.wikipedia.org/wiki/KDE_Software_Compilation");
 
-            URL_Add("KDE&nbsp;4", "https://en.wikipedia.org/wiki/KDE_Software_Compilation_4#Released_versions");
+            URL_Add("KDE 4", "https://en.wikipedia.org/wiki/KDE_Software_Compilation_4#Released_versions");
 
             URL_Add("KDE Plasma", "https://en.wikipedia.org/wiki/KDE_Plasma_5");
 
@@ -144104,7 +144105,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;Q16&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-q16-he-8k-magnetic-switch-keyboard");
 
-            URL_Add("Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K", "https://www.keychron.com/products/keychron-q1-ultra-8k-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron Q1 Ultra 8K", "https://www.keychron.com/products/keychron-q1-ultra-8k-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron&nbsp;Q3&nbsp;Ultra&nbsp;8K", "https://www.keychron.com/products/keychron-q3-ultra-8k-wireless-custom-mechanical-keyboard");
 
@@ -144130,9 +144131,9 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron V10 ISO", "https://www.keychron.com/products/keychron-v10-alice-layout-qmk-custom-mechanical-keyboard-iso-layout-collection");
 
-            URL_Add("Keychron&nbsp;V1&nbsp;Max", "https://www.keychron.com/products/keychron-v1-max-qmk-via-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron V1 Max", "https://www.keychron.com/products/keychron-v1-max-qmk-via-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;V2&nbsp;Max", "https://www.keychron.com/products/keychron-v2-max-qmk-via-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron V2 Max", "https://www.keychron.com/products/keychron-v2-max-qmk-via-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron&nbsp;V3&nbsp;Max", "https://www.keychron.mx/products/keychron-v3-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
@@ -144148,7 +144149,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;V0&nbsp;Ultra&nbsp;8K", "https://www.keychron.com/products/keychron-v0-ultra-8k-wireless-custom-number-pad");
 
-            URL_Add("Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K", "https://www.keychron.com/products/keychron-v1-ultra-8k-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron V1 Ultra 8K", "https://www.keychron.com/products/keychron-v1-ultra-8k-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron&nbsp;V3&nbsp;Ultra&nbsp;8K", "https://www.keychron.com/products/keychron-v3-ultra-8k-wireless-custom-mechanical-keyboard");
 
@@ -144158,7 +144159,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;V10&nbsp;Ultra&nbsp;8K", "https://www.keychron.com/products/keychron-v10-ultra-8k-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;V1&nbsp;8K", "https://www.keychron.com/products/keychron-v1-8k-qmk-wired-custom-mechanical-keyboard");
+            URL_Add("Keychron V1 8K", "https://www.keychron.com/products/keychron-v1-8k-qmk-wired-custom-mechanical-keyboard");
 
             URL_Add("Keychron&nbsp;V5&nbsp;8K (95%)", "https://www.keychron.com/products/keychron-v5-8k-qmk-wired-custom-mechanical-keyboard");
 
@@ -152227,6 +152228,21 @@ namespace OverflowHelper.core
             correctionAdd("machanical_", "mechanical_");
             correctionAdd("mechnical_", "mechanical_");
             correctionAdd("mecanical_", "mechanical_");
+
+            // E.g., mechanical keyboards, wireless vs.
+            // connected through a USB cable
+            //
+            // Note: We need a much better reference... The correct
+            //       spelling is only inferred from it
+            //
+            //       There is also "link-only", but it doesn't
+            //       have an authoritative reference either.
+            //
+            //       Perhaps the adjective is "wiredonly"?
+            //       "hardwired" is an adjective, whereas
+            //       the verb is "hard-wired"
+            //
+            correctionAdd("hardwired_", "wired-only_");
 
             // Configuration software for Cooler Master keyboards.
             //
@@ -172910,6 +172926,8 @@ namespace OverflowHelper.core
 
             URL_Add("mechanical_", "https://en.wiktionary.org/wiki/mechanical#Adjective");
 
+            URL_Add("wired-only_", "https://electronics.stackexchange.com/questions/140225/how-can-i-tell-charge-only-usb-cables-from-usb-data-cables");
+
             URL_Add("Dear ImGui_", "https://github.com/ocornut/imgui/wiki");
 
             URL_Add("orthographic_", "https://en.wiktionary.org/wiki/orthographic#Adjective");
@@ -173949,9 +173967,28 @@ namespace OverflowHelper.core
 
             correctionAdd("hit__", "hot__");
 
+            // We need a better reference. It doesn't
+            // actually show any hot-swap sockets...
+            // Though the text does have three
+            // instances of "hot-swap sockets"
+            // (inconsistently spelled).
+            //
+            // Alternative URLs:
+            //
+            //   <https://imgur.com/a/fixed-broken-q11-xwxPR6n>
+            //     Pictures of some, incl. detached ones..., e.g.,
+            //     <https://i.imgur.com/ywcIsyA.jpeg>
+            //
+            //     Note: Requires JavaScript to be allowed from
+            //           'cloudfront.net' to not be surrounded
+            //           by Imgur goo.
+            //
+            correctionAdd("hot-swappable sockets__", "hot-swap sockets__");
             correctionAdd("hot swap sockets__", "hot-swap sockets__");
             correctionAdd("hotswap sockets__", "hot-swap sockets__");
+            correctionAdd("hot-swap socket__", "hot-swap sockets__"); // Not strictly necessary (as there is the cross-reference), but it is for a direct lookup.
             correctionAdd("hot-swappable__", "hot-swap sockets__"); // For the cross-reference
+            correctionAdd("switch plate__", "hot-swap sockets__");
 
             // Mechanical keyboards
             // "Dash" language (not really; all keycap legends
@@ -185643,9 +185680,10 @@ namespace OverflowHelper.core
             correctionAdd("its_____", "it_____");
             correctionAdd("ut_____", "it_____");
             correctionAdd("jt_____", "it_____");
-            correctionAdd("iy_____", "it_____");
             correctionAdd("ti_____", "it_____");
+            correctionAdd("iy_____", "it_____");
             correctionAdd("IF_____", "it_____"); // Should really be "if", but there is a conflict, so we use this indirection for now (but it means we can't do a direct lookup)
+            correctionAdd("ik_____", "it_____"); // Possibly multiple typos (incl. missing)
             correctionAdd("It_____", "it_____");
             correctionAdd("i_____", "it_____");
             correctionAdd("I_____", "it_____");
